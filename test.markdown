@@ -1,5 +1,7 @@
-title: TITLE
-----------------------------------------------------------
+---
+title: Tags
+layout: default
+---
 
 # This is a H1
 
