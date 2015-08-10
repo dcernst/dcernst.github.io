@@ -1,0 +1,85 @@
+---
+title: 'Talk: Open problems with monetary rewards'
+author: Dana Ernst
+layout: post
+permalink: /talk-open-problems-with-monetary-rewards/
+sharing_disabled:
+  - 1
+standard_seo_post_level_layout:
+  - 
+standard_link_url_field:
+  - 
+standard_seo_post_meta_description:
+  - 
+categories:
+  - Mathematics Posts
+  - Talks
+tags:
+  - combinatorics
+  - Google+
+  - John Conway
+  - math
+  - mathematics
+  - open problem
+  - talk
+---
+<div class="kcite-section" kcite-section-id="1304">
+  <p>
+    On October 12th, I saw <a href="https://plus.google.com/115742208154874814350/posts/CdNRDrUXFyy">a post</a> by <a href="https://plus.google.com/u/0/+DanChristensen/posts">Dan Christensen</a> on <a href="https://plus.google.com">Google+</a> about a list of <a href="http://www.cheswick.com/ches/conway1000.pdf">five open problems</a> posed by the mathematician <a href="http://en.wikipedia.org/wiki/John_Horton_Conway">John Conway</a> that have monetary rewards associated with them. In particular, Conway is offering $\$1,000$ for solutions (either positive or negative) to any of the problems. Here are the five problems (as stated by Conway):
+  </p>
+  
+  <ul>
+    <li>
+      <strong>Problem 1.</strong> Sylver coinage game (named after Sylvester, who proved it terminates): The game in which the players alternately name positive integers that are not sums of previously named integers (with repetitions being allowed). The person who names 1 (so ending the game) is the loser. The question is: If player 1 names 16, and both players play optimally thereafter, then who wins?
+    </li>
+    <li>
+      <strong>Problem 2.</strong> 99-Graph: Is there a graph with 99 vertices in which every edge (i.e., pair of joined vertices) belongs to a unique triangle and every nonedge (pair of unjoined vertices) to a unique quadrilateral?
+    </li>
+    <li>
+      <strong>Problem 3.</strong> The Thrackle Problem: A doodle on a piece of paper is called a thrackle if it consists of certain distinguished points called spots and some differentiable (i.e., smooth) curves called paths ending at distinct spots and so that any two paths hit once and only once, where hit means having a common point at which they have distinct tangents and which is either an endpoint of both or an interior point of both. The right hand figure shows a thrackle with six spots and six paths. But can a thrackle have more paths than spots?
+    </li>
+    <li>
+      <strong>Problem 4.</strong> Dead Fly Problem: If a set of points in the plane contains one point in each convex region of area 1, then must it have pairs of points at arbitrarily small distances?
+    </li>
+    <li>
+      <strong>Problem 5.</strong> Climb to a Prime: Let $n$ be a positive integer. Write the prime factorization in the usual way, e.g., $60 = 22 \cdot 3 \cdot 5$, in which the primes are written in increasing order, and exponents of 1 are omitted. Then bring exponents down to the line and omit all multiplication signs, obtaining a number $f(n)$. Now repeat.So, for example, $f(60) = f(22 \cdot 3 \cdot 5) = 2235$. Next, because $24235 = 3 \cdot 5 \cdot 149$, it maps, under $f$, to 35149, and since 35149 is prime, it maps to itself. Thus, $60 \to 2235 \to 35149<br /> \to 35149$, so we have climbed to a prime, and we stop there forever. The conjecture, in which I (Conway) seem to be the only believer, is that every number eventually climbs to a prime. The number 20 has not been verified to do so. Observe that $20 \to 225 \to 3252 \to 223271 \to \cdots$, eventually getting to more than one hundred digits without yet reaching a prime.
+    </li>
+  </ul>
+  
+  <p>
+    If you solve one of these, you can reach Conway by sending snail mail (only) in care of the Department of Mathematics at Princeton University.
+  </p>
+  
+  <p>
+    Around the same time that I stumbled onto these problems, I was brainstorming ideas for a couple of upcoming talks that I was slated to give (one for undergraduates and one for high school students). I decided that discussing open problems with monetary rewards with an emphasis on Conway&#8217;s problems would likely make for a nice talk. Here is the abstract that I settled on for both talks.
+  </p>
+  
+  <blockquote>
+    <p>
+      There is a history of individuals and organizations offering monetary rewards for solutions, either in the affirmative or negative, to difficult mathematically-oriented problems. For example, the Millennium Prize Problems are seven problems in mathematics that were stated by the Clay Mathematics Institute in 2000. A correct solution to any of the problems results in a $\$1,000,000$ prize being awarded by the institute. To date, only one of the problems has been solved (the Poincaré Conjecture was solved by Grigori Perelman, but he declined the award in 2010). These are hard problems! The renowned mathematician John Conway (Princeton) maintains a list of open problems and for each problem on the list, he is offering $\$,1000$ to the first person that provides a correct solution. In this talk, we will explore a few of Conway’s problems, and in the unlikely event we come up with a solution, we’ll split the money.
+    </p>
+  </blockquote>
+  
+  <p>
+    On Friday, October 24, 2014, I gave <a href="https://speakerdeck.com/dcernst/open-problems-with-monetary-rewards">a talk</a> during the Friday Afternoon Mathematics Undergraduate Seminar (FAMUS) at NAU. Speaking at FAMUS is always fun and my talk seemed to be well-recieved.
+  </p>
+  
+  <p>
+    After having a practice run during FAMUS, I was able to improve the slides I intended to use during my talk at the <a href="http://nau.edu/CEFNS/NatSci/Math/Department-Activities/High-School-Math-Day/">2014 NAU High School Math Day</a>, which took place a few days later on Tuesday, October 28, 2014. Here are my slides:
+  </p>
+  
+  <div>
+  </div>
+  
+  <p>
+    I had a blast presenting to the high school students. It cracked me up that there were a few students that immediately started obsessing over the Sylver coinage problem and likely didn&#8217;t hear a word I said after that. My goal was to give an engaging and high energy talk. I also slid in some humor and I was happy that everyone laughed when they were supposed to. Interestingly, the thing I said that the students thought was the funniest was something that I didn&#8217;t intend to be humorous. When I stated that &#8220;If you solve one of these, you can reach Conway by sending snail mail (only) in care of the Department of Mathematics at Princeton University,&#8221; the audience burst into laughter. Requiring snail mail seemed so ridiculous to them, they thought it was a joke.
+  </p>
+  
+  <p>
+    As a side note, I used <a href="https://github.com/matze/mtheme">mtheme</a> (available for free on <a href="http://github.com">GitHub</a>) together with beamer/LaTeX to generate my slides. I&#8217;m really happy with the look of mtheme and thrilled to get away from the standard beamer themes.
+  </p>
+  
+  <!-- kcite active, but no citations found -->
+</div>
+
+<!-- kcite-section 1304 -->
