@@ -68,7 +68,7 @@ Below is a partial list of links to applets and video repositories related to ca
   * [Mr. Honner][49] by Patrick Honner.
   * [Booles&#8217; Rings][50] is a network of blogs (including mine).
 
- [1]: http://danaernst.com/resources/free-and-open-source-textbooks/
+ [1]: {{ site.baseurl }}/free-and-open-source-textbooks/
  [2]: http://artsci.drake.edu/grout/doku.php/teaching_resources
  [3]: http://ocw.mit.edu/index.htm
  [4]: http://sagemath.com

@@ -129,7 +129,7 @@ Using the template in writeLaTeX is as easy as clicking the link below. Try it!
   </p>
   
   <p>
-    Feel free to use the template and if you have ideas for improvements, I&#8217;d love to hear about them. Lastly, I&#8217;ve written a <a href="http://danaernst.com/resources/quick-latex-guide/">Quick LaTeX Guide</a> to help my students get started with the actual writing of LaTeX.
+    Feel free to use the template and if you have ideas for improvements, I&#8217;d love to hear about them. Lastly, I&#8217;ve written a <a href="{{ site.baseurl }}/quick-latex-guide/">Quick LaTeX Guide</a> to help my students get started with the actual writing of LaTeX.
   </p>
   
   <p>
