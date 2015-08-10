@@ -1,15 +1,15 @@
 url: http://dcernst.github.io
-# name: Dana C. Ernst
-# description: 'Mathematics, Teaching, &amp; Technology'
 
 # Dependencies
-markdown:            redcarpet
-highlighter:         pygments
+markdown: redcarpet
+redcarpet:
+ extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "with_toc_data"]
+highlighter: pygments
 
 # Permalinks
 # Use of `relative_permalinks` ensures post links from the index work properly.
 permalink:           pretty
-permalink:    /:year/:month/:title/
+permalink:           /:year/:month/:title/
 relative_permalinks: true
 
 # Setup
@@ -17,14 +17,16 @@ title:               Dana C. Ernst
 tagline:             'Mathematics, Teaching, &amp; Technology'
 description:         'Mathematics, Teaching, &amp; Technology'
 url:                 'http://dcernst.github.io'
-# baseurl:             '/CalculusApplets'
 paginate:            10
 
 # About/contact
 author:
   name:              Dana C. Ernst
   url:               https://twitter.com/danaernst
-#  email:             dana@danaernst.com
 
 # Custom vars
 version:             1.0.0
+
+# GitHub
+github:
+  repo:             github.com/dcernst/dcernst.github.io
