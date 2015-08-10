@@ -16,7 +16,7 @@ relative_permalinks: true
 title:               Dana C. Ernst
 tagline:             'Mathematics, Teaching, &amp; Technology'
 description:         'Mathematics, Teaching, &amp; Technology'
-url:                 'http://dcernst.github.io/'
+url:                 'http://dcernst.github.io'
 # baseurl:             '/'
 paginate:            10
 
