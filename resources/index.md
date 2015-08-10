@@ -2,10 +2,6 @@
 title: Resources
 author: Dana Ernst
 layout: page
-sharing_disabled:
-  - 1
-standard_seo_post_meta_description:
-  -
 ---
 The resources listed below are intended for both students and teachers.
 
@@ -17,7 +13,7 @@ The resources listed below are intended for both students and teachers.
 If you are interested in resources for a particular course, visit my [Teaching page][5], navigate to the desired course, and then look for links titled Course Materials and/or Course Resources.
 
  [1]: {{ site.baseurl }}/teaching-resources/
- [2]: http://danaernst.com/resources/free-and-open-source-textbooks/
- [3]: http://danaernst.com/resources/inquiry-based-learning/
- [4]: http://danaernst.com/resources/quick-latex-guide/
+ [2]: {{ site.baseurl }}/free-and-open-source-textbooks/
+ [3]: {{ site.baseurl }}/inquiry-based-learning/
+ [4]: {{ site.baseurl }}quick-latex-guide/
  [5]: http://teaching.danaernst.com/
