@@ -26,12 +26,4 @@ tags:
   - teaching
 format: quote
 ---
-<div class="kcite-section" kcite-section-id="208">
-  <p>
-    The secret to education is in respecting the student.
-  </p>
-  
-  <!-- kcite active, but no citations found -->
-</div>
-
-<!-- kcite-section 208 -->
+The secret to education is in respecting the student.

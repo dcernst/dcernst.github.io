@@ -11,8 +11,8 @@ standard_link_url_field:
   - 
 standard_seo_post_meta_description:
   - 
-dsq_needs_sync:
-  - 1
+dsq_thread_id:
+  - 4018673909
 categories:
   - Quotes
 tags:
@@ -24,12 +24,4 @@ tags:
   - quote
 format: quote
 ---
-<div class="kcite-section" kcite-section-id="1332">
-  <p>
-    Time spent thinking about a problem is always time well spent. Even if you seem to make no progress at all.
-  </p>
-  
-  <!-- kcite active, but no citations found -->
-</div>
-
-<!-- kcite-section 1332 -->
+Time spent thinking about a problem is always time well spent. Even if you seem to make no progress at all.

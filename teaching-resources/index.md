@@ -5,185 +5,116 @@ layout: page
 standard_seo_post_meta_description:
   - 
 ---
-<div class="kcite-section" kcite-section-id="501">
-  <p>
-    The resources listed below are intended for both students and teachers. For a list of free and/or open-source textbooks, go <a href="http://danaernst.com/resources/free-and-open-source-textbooks/">here</a>. Also, check out <a href="http://artsci.drake.edu/grout/doku.php/teaching_resources">Jason Grout&#8217;s teaching resources</a>, which is vastly more extensive than what I list below.
-  </p>
-  
-  <h2>
-    General Teaching
-  </h2>
-  
-  <ul>
-    <li>
-      <a href="http://ocw.mit.edu/index.htm">MIT OpenCourseWare</a>
-    </li>
-    <li>
-      <a href="http://sagemath.com">Sage</a>
-    </li>
-    <li>
-      <a href="https://cloud.sagemath.com/">The Sage Math Cloud</a>
-    </li>
-    <li>
-      <a href="http://www.geogebra.org">GeoGebra</a>
-    </li>
-    <li>
-      <a href="http://groupexplorer.sourceforge.net">Group Explorer</a>
-    </li>
-    <li>
-      <a href="http://www.remind101.com">Remind101</a>
-    </li>
-    <li>
-      <a href="https://learningcatalytics.com">Learning Catalytics</a>
-    </li>
-    <li>
-      <a href="http://lurch.sourceforge.net">Lurch</a>
-    </li>
-    <li>
-      <a href="http://www.wolframalpha.com">WolframAlpha</a>
-    </li>
-    <li>
-      <a href="https://www.desmos.com">Desmos Calculator</a>
-    </li>
-    <li>
-      <a href="http://web.monroecc.edu/manila/webfiles/calcNSF/JavaCode/CalcPlot3D.htm">3D Calc Plotter</a>
-    </li>
-    <li>
-      <a href="http://www.wolfram.com/mathematica/">Mathematica</a>
-    </li>
-    <li>
-      <a href="http://www.ams.org">American Mathematical Society</a>
-    </li>
-    <li>
-      <a href="http://www.maa.org">Mathematical Association of America</a>
-    </li>
-    <li>
-      <a href="http://archives.math.utk.edu/projnext/">Project NExT</a>
-    </li>
-  </ul>
-  
-  <h2>
-    Calculus Videos, Applets, & Additional Problems
-  </h2>
-  
-  <p>
-    Below is a partial list of links to applets and video repositories related to calculus. There are lots more out there. If you know of a good resources that&#8217;s not listed below, please let me know.
-  </p>
-  
-  <ul>
-    <li>
-      <a href="https://mooculus.osu.edu/lectures">MOOCulus Videos</a> (videos)
-    </li>
-    <li>
-      <a href="http://calculusapplets.com">Calculus Applets</a> (applets)
-    </li>
-    <li>
-      <a href="http://education-portal.com/academy/course/calculus.html">Education Portal</a> (videos with embedded quizzes)
-    </li>
-    <li>
-      <a href="http://www.integralcalc.com">integralCALC videos</a> (videos)
-    </li>
-    <li>
-      <a href="http://patrickjmt.com/#calculus">Patrick&#8217;s Just Math Tutorials</a> (videos)
-    </li>
-    <li>
-      <a href="http://www.khanacademy.org/math/calculus">Khan Academy</a> (videos)
-    </li>
-    <li>
-      <a href="http://blip.tv/pattyscalculusvideos">Patty&#8217;s Calculus Videos</a> (videos)
-    </li>
-    <li>
-      <a href="http://www.brightstorm.com/math/calculus/">Brightstorm Calculus Videos</a> (videos)
-    </li>
-    <li>
-      <a href="http://www.mathdoctorbob.org/default.html">Math Doctor Bob videos</a> (videos)
-    </li>
-    <li>
-      <a href="http://mathvids.com/topic/mathhelp/5-calculus">MathVids</a> (videos)
-    </li>
-    <li>
-      <a href="http://www.math.ucdavis.edu/~kouba/ProblemsList.html">The Calculus Page Problems List</a> (problems)
-    </li>
-  </ul>
-  
-  <h2>
-    LaTeX
-  </h2>
-  
-  <ul>
-    <li>
-      <a href="http://danaernst.com/quick-latex-guide/">Dana&#8217;s Quick LaTeX Guide</a>
-    </li>
-    <li>
-      <a href="https://gist.github.com/1827406">Dana&#8217;s LaTeX Homework Template</a>
-    </li>
-    <li>
-      <a href="https://www.writelatex.com">WriteLaTeX</a>
-    </li>
-    <li>
-      <a href="http://webdemo.visionobjects.com/home.html#equation">Web Equation by Vision Objects</a>
-    </li>
-    <li>
-      <a href="http://detexify.kirelabs.org/classify.html">Detexify</a>
-    </li>
-    <li>
-      <a href="http://tug.org/mactex/">MacTeX</a>
-    </li>
-    <li>
-      <a href="http://www.latex-community.org">LaTeX Community</a>
-    </li>
-    <li>
-      <a href="http://tex.stackexchange.com">TeX Stack Exchange</a>
-    </li>
-    <li>
-      <a href="http://www.mathjax.org">MathJax</a>
-    </li>
-  </ul>
-  
-  <h2>
-    Some Teaching-Oriented Blogs Worth Reading
-  </h2>
-  
-  <ul>
-    <li>
-      <a href="http://maamathedmatters.blogspot.com/">Math Ed Matters</a> by Angie Hodge and me. Sponsored by the <a href="http://maa.org">Mathematical Association of America</a>.
-    </li>
-    <li>
-      <a href="http://theiblblog.blogspot.com">The IBL Blog</a> by Stan Yoshinobu.
-    </li>
-    <li>
-      <a href="http://themathswitch.blogspot.com/">The Math Switch</a> by Matthew Jones.
-    </li>
-    <li>
-      <a href="http://divisbyzero.com">Division by Zero</a> by Dave Richeson.
-    </li>
-    <li>
-      <a href="http://symmetricblog.wordpress.com">Solvable by Radicals</a> by Bret Benesh.
-    </li>
-    <li>
-      <a href="http://theronhitchman.wordpress.com">Circles and Tangents</a> by Theron Hitchman.
-    </li>
-    <li>
-      <a href="http://chronicle.com/blognetwork/castingoutnines/">Casting Out Nines</a> by Robert Talbert.
-    </li>
-    <li>
-      <a href="http://blog.mathed.net">MathEd.net</a> by Raymond Johnson.
-    </li>
-    <li>
-      <a href="http://drvinceknight.blogspot.com">Un peu de math</a> by Vincent Knight.
-    </li>
-    <li>
-      <a href="http://opencalculus.wordpress.com">OpenCalculus</a> by Matt Boelkins.
-    </li>
-    <li>
-      <a href="http://mrhonner.com">Mr. Honner</a> by Patrick Honner.
-    </li>
-    <li>
-      <a href="http://boolesrings.org">Booles&#8217; Rings</a> is a network of blogs (including mine).
-    </li>
-  </ul>
-  
-  <!-- kcite active, but no citations found -->
-</div>
+The resources listed below are intended for both students and teachers. For a list of free and/or open-source textbooks, go [here][1]. Also, check out [Jason Grout&#8217;s teaching resources][2], which is vastly more extensive than what I list below.
 
-<!-- kcite-section 501 -->
+## General Teaching
+
+  * [MIT OpenCourseWare][3]
+  * [Sage][4]
+  * [The Sage Math Cloud][5]
+  * [GeoGebra][6]
+  * [Group Explorer][7]
+  * [Remind101][8]
+  * [Learning Catalytics][9]
+  * [Lurch][10]
+  * [WolframAlpha][11]
+  * [Desmos Calculator][12]
+  * [3D Calc Plotter][13]
+  * [Mathematica][14]
+  * [American Mathematical Society][15]
+  * [Mathematical Association of America][16]
+  * [Project NExT][17]
+
+## Calculus Videos, Applets, & Additional Problems
+
+Below is a partial list of links to applets and video repositories related to calculus. There are lots more out there. If you know of a good resources that&#8217;s not listed below, please let me know.
+
+  * [MOOCulus Videos][18] (videos)
+  * [Calculus Applets][19] (applets)
+  * [Education Portal][20] (videos with embedded quizzes)
+  * [integralCALC videos][21] (videos)
+  * [Patrick&#8217;s Just Math Tutorials][22] (videos)
+  * [Khan Academy][23] (videos)
+  * [Patty&#8217;s Calculus Videos][24] (videos)
+  * [Brightstorm Calculus Videos][25] (videos)
+  * [Math Doctor Bob videos][26] (videos)
+  * [MathVids][27] (videos)
+  * [The Calculus Page Problems List][28] (problems)
+
+## LaTeX
+
+  * [Dana&#8217;s Quick LaTeX Guide][29]
+  * [Dana&#8217;s LaTeX Homework Template][30]
+  * [WriteLaTeX][31]
+  * [Web Equation by Vision Objects][32]
+  * [Detexify][33]
+  * [MacTeX][34]
+  * [LaTeX Community][35]
+  * [TeX Stack Exchange][36]
+  * [MathJax][37]
+
+## Some Teaching-Oriented Blogs Worth Reading
+
+  * [Math Ed Matters][38] by Angie Hodge and me. Sponsored by the [Mathematical Association of America][39].
+  * [The IBL Blog][40] by Stan Yoshinobu.
+  * [The Math Switch][41] by Matthew Jones.
+  * [Division by Zero][42] by Dave Richeson.
+  * [Solvable by Radicals][43] by Bret Benesh.
+  * [Circles and Tangents][44] by Theron Hitchman.
+  * [Casting Out Nines][45] by Robert Talbert.
+  * [MathEd.net][46] by Raymond Johnson.
+  * [Un peu de math][47] by Vincent Knight.
+  * [OpenCalculus][48] by Matt Boelkins.
+  * [Mr. Honner][49] by Patrick Honner.
+  * [Booles&#8217; Rings][50] is a network of blogs (including mine).
+
+ [1]: http://danaernst.com/resources/free-and-open-source-textbooks/
+ [2]: http://artsci.drake.edu/grout/doku.php/teaching_resources
+ [3]: http://ocw.mit.edu/index.htm
+ [4]: http://sagemath.com
+ [5]: https://cloud.sagemath.com/
+ [6]: http://www.geogebra.org
+ [7]: http://groupexplorer.sourceforge.net
+ [8]: http://www.remind101.com
+ [9]: https://learningcatalytics.com
+ [10]: http://lurch.sourceforge.net
+ [11]: http://www.wolframalpha.com
+ [12]: https://www.desmos.com
+ [13]: http://web.monroecc.edu/manila/webfiles/calcNSF/JavaCode/CalcPlot3D.htm
+ [14]: http://www.wolfram.com/mathematica/
+ [15]: http://www.ams.org
+ [16]: http://www.maa.org
+ [17]: http://archives.math.utk.edu/projnext/
+ [18]: https://mooculus.osu.edu/lectures
+ [19]: http://calculusapplets.com
+ [20]: http://education-portal.com/academy/course/calculus.html
+ [21]: http://www.integralcalc.com
+ [22]: http://patrickjmt.com/#calculus
+ [23]: http://www.khanacademy.org/math/calculus
+ [24]: http://blip.tv/pattyscalculusvideos
+ [25]: http://www.brightstorm.com/math/calculus/
+ [26]: http://www.mathdoctorbob.org/default.html
+ [27]: http://mathvids.com/topic/mathhelp/5-calculus
+ [28]: http://www.math.ucdavis.edu/~kouba/ProblemsList.html
+ [29]: http://danaernst.com/quick-latex-guide/
+ [30]: https://gist.github.com/1827406
+ [31]: https://www.writelatex.com
+ [32]: http://webdemo.visionobjects.com/home.html#equation
+ [33]: http://detexify.kirelabs.org/classify.html
+ [34]: http://tug.org/mactex/
+ [35]: http://www.latex-community.org
+ [36]: http://tex.stackexchange.com
+ [37]: http://www.mathjax.org
+ [38]: http://maamathedmatters.blogspot.com/
+ [39]: http://maa.org
+ [40]: http://theiblblog.blogspot.com
+ [41]: http://themathswitch.blogspot.com/
+ [42]: http://divisbyzero.com
+ [43]: http://symmetricblog.wordpress.com
+ [44]: http://theronhitchman.wordpress.com
+ [45]: http://chronicle.com/blognetwork/castingoutnines/
+ [46]: http://blog.mathed.net
+ [47]: http://drvinceknight.blogspot.com
+ [48]: http://opencalculus.wordpress.com
+ [49]: http://mrhonner.com
+ [50]: http://boolesrings.org

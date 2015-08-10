@@ -23,12 +23,7 @@ tags:
   - group theory
 format: video
 ---
-<div class="kcite-section" kcite-section-id="85">
-  <p>
-    I really enjoy this short video introduction to group theory by James Grime (aka <a href="http://singingbanana.com/">Singing Banana</a>), especially since it mentions <a href="http://en.wikipedia.org/wiki/Coxeter_group">Coxeter groups</a> (one of research interestes).
-  </p>
-  
-  <!-- kcite active, but no citations found -->
-</div>
+I really enjoy this short video introduction to group theory by James Grime (aka [Singing Banana][1]), especially since it mentions [Coxeter groups][2] (one of research interestes).
 
-<!-- kcite-section 85 -->
+ [1]: http://singingbanana.com/
+ [2]: http://en.wikipedia.org/wiki/Coxeter_group

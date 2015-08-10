@@ -23,12 +23,4 @@ tags:
   - quote
 format: quote
 ---
-<div class="kcite-section" kcite-section-id="1392">
-  <p>
-    A smooth lecture&#8230;may be pleasant; a good teacher challenges, asks, irritates and maintains high standards – all that is generally not pleasant.
-  </p>
-  
-  <!-- kcite active, but no citations found -->
-</div>
-
-<!-- kcite-section 1392 -->
+A smooth lecture&#8230;may be pleasant; a good teacher challenges, asks, irritates and maintains high standards – all that is generally not pleasant.

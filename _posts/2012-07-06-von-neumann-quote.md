@@ -14,12 +14,4 @@ tags:
   - quote
 format: quote
 ---
-<div class="kcite-section" kcite-section-id="180">
-  <p>
-    If people do not believe that mathematics is simple, it is only because they do not realize how complicated life is.
-  </p>
-  
-  <!-- kcite active, but no citations found -->
-</div>
-
-<!-- kcite-section 180 -->
+If people do not believe that mathematics is simple, it is only because they do not realize how complicated life is.

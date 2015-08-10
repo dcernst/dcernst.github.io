@@ -22,12 +22,4 @@ tags:
   - teaching
 format: quote
 ---
-<div class="kcite-section" kcite-section-id="1394">
-  <p>
-    The best way to learn is to do; the worst way to teach is to talk.
-  </p>
-  
-  <!-- kcite active, but no citations found -->
-</div>
-
-<!-- kcite-section 1394 -->
+The best way to learn is to do; the worst way to teach is to talk.

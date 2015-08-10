@@ -9,6 +9,8 @@ standard_link_url_field:
   - 
 standard_seo_post_meta_description:
   - 
+dsq_thread_id:
+  - 4020442444
 categories:
   - Quotes
 tags:
@@ -19,12 +21,4 @@ tags:
   - teaching
 format: quote
 ---
-<div class="kcite-section" kcite-section-id="511">
-  <p>
-    That student is taught the best who is told the least.
-  </p>
-  
-  <!-- kcite active, but no citations found -->
-</div>
-
-<!-- kcite-section 511 -->
+That student is taught the best who is told the least.

@@ -16,12 +16,4 @@ tags:
   - teaching
 format: quote
 ---
-<div class="kcite-section" kcite-section-id="189">
-  <p>
-    All truths are easy to understand once they are discovered; the point is to discover them.
-  </p>
-  
-  <!-- kcite active, but no citations found -->
-</div>
-
-<!-- kcite-section 189 -->
+All truths are easy to understand once they are discovered; the point is to discover them.

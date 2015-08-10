@@ -9,18 +9,12 @@ standard_link_url_field:
   - 
 standard_seo_post_meta_description:
   - 
+dsq_thread_id:
+  - 4020442372
 categories:
   - Quotes
 tags:
   - quote
 format: quote
 ---
-<div class="kcite-section" kcite-section-id="724">
-  <p>
-    However beautiful the strategy, you should occasionally look at the results.
-  </p>
-  
-  <!-- kcite active, but no citations found -->
-</div>
-
-<!-- kcite-section 724 -->
+However beautiful the strategy, you should occasionally look at the results.

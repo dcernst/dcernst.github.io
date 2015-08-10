@@ -15,12 +15,8 @@ tags:
   - mathematics
   - teaching
 ---
-<div class="kcite-section" kcite-section-id="89">
-  <p>
-    Am&eacute;lie G. Schinck from <a href="http://math.calpoly.edu">Cal Poly San Luis Obispo</a> has written a great piece titled <a href="http://www.inquirybasedlearning.org/?page=Why_Use_IBL">Why use IBL?</a>, which is posted over on <a href="http://inquirybasedlearning.org">The Academy of Inquiry-Based Learning</a>.
-  </p>
-  
-  <!-- kcite active, but no citations found -->
-</div>
+Am&eacute;lie G. Schinck from [Cal Poly San Luis Obispo][1] has written a great piece titled [Why use IBL?][2], which is posted over on [The Academy of Inquiry-Based Learning][3].
 
-<!-- kcite-section 89 -->
+ [1]: http://math.calpoly.edu
+ [2]: http://www.inquirybasedlearning.org/?page=Why_Use_IBL
+ [3]: http://inquirybasedlearning.org

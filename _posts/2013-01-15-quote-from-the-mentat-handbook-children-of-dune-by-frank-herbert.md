@@ -15,12 +15,4 @@ tags:
   - quote
 format: quote
 ---
-<div class="kcite-section" kcite-section-id="602">
-  <p>
-    There’s no real mystery about this at the moment. This is what we want now. It may prove wrong later, but we’ll correct that when we come to it.
-  </p>
-  
-  <!-- kcite active, but no citations found -->
-</div>
-
-<!-- kcite-section 602 -->
+There’s no real mystery about this at the moment. This is what we want now. It may prove wrong later, but we’ll correct that when we come to it.

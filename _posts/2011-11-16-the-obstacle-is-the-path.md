@@ -21,12 +21,4 @@ tags:
   - quote
 format: quote
 ---
-<div class="kcite-section" kcite-section-id="82">
-  <p>
-    The obstacle is the path.
-  </p>
-  
-  <!-- kcite active, but no citations found -->
-</div>
-
-<!-- kcite-section 82 -->
+The obstacle is the path.

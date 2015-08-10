@@ -17,24 +17,15 @@ tags:
   - social media
   - teaching
 ---
-<div class="kcite-section" kcite-section-id="793">
-  <p>
-    Dear College Instructors,
-  </p>
-  
-  <p>
-    <a href="http://www.cims.nyu.edu/~leingang/">Matthew Leingang</a> (NYU), <a href="http://www.berry.edu/academics/science/fsdetail.aspx?id=3451">Ron Taylor</a> (Berry College), and I are interested in how college instructors utilize social media. In particular, we are curious how teachers interact with their current and past students on social networks like Facebook and Google+. How do you interact with your current and former students on social media? Do you have policies about this interaction? We have put together a short survey to gather some data regarding this often sensitive issue. The intent is to summarize the results in a short article that will likely be submitted to <a href="http://www.maa.org/pubs/focus.html">MAA FOCUS</a>. We would be thrilled if you would take a few minutes to complete <a href="https://nyu.qualtrics.com/SE/?SID=SV_cPkDH0pY0zKp6dv">our short survey</a>.
-  </p>
-  
-  <p>
-    Thanks!
-  </p>
-  
-  <p>
-    Dana, Matthew, & Ron
-  </p>
-  
-  <!-- kcite active, but no citations found -->
-</div>
+Dear College Instructors,
 
-<!-- kcite-section 793 -->
+[Matthew Leingang][1] (NYU), [Ron Taylor][2] (Berry College), and I are interested in how college instructors utilize social media. In particular, we are curious how teachers interact with their current and past students on social networks like Facebook and Google+. How do you interact with your current and former students on social media? Do you have policies about this interaction? We have put together a short survey to gather some data regarding this often sensitive issue. The intent is to summarize the results in a short article that will likely be submitted to [MAA FOCUS][3]. We would be thrilled if you would take a few minutes to complete [our short survey][4].
+
+Thanks!
+
+Dana, Matthew, & Ron
+
+ [1]: http://www.cims.nyu.edu/~leingang/
+ [2]: http://www.berry.edu/academics/science/fsdetail.aspx?id=3451
+ [3]: http://www.maa.org/pubs/focus.html
+ [4]: https://nyu.qualtrics.com/SE/?SID=SV_cPkDH0pY0zKp6dv

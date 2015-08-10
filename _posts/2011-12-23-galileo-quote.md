@@ -22,12 +22,4 @@ tags:
   - teaching
 format: quote
 ---
-<div class="kcite-section" kcite-section-id="79">
-  <p>
-    We cannot teach people anything; we can only help them discover it within themselves.
-  </p>
-  
-  <!-- kcite active, but no citations found -->
-</div>
-
-<!-- kcite-section 79 -->
+We cannot teach people anything; we can only help them discover it within themselves.

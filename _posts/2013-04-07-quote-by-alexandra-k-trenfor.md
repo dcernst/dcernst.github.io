@@ -18,12 +18,4 @@ tags:
   - teaching
 format: quote
 ---
-<div class="kcite-section" kcite-section-id="726">
-  <p>
-    The best teachers are those who show you where to look, but don&#8217;t tell you what to see.
-  </p>
-  
-  <!-- kcite active, but no citations found -->
-</div>
-
-<!-- kcite-section 726 -->
+The best teachers are those who show you where to look, but don&#8217;t tell you what to see.

@@ -9,6 +9,8 @@ standard_link_url_field:
   - 
 standard_seo_post_meta_description:
   - 
+dsq_thread_id:
+  - 4020442541
 categories:
   - Quotes
 tags:
@@ -18,12 +20,4 @@ tags:
   - teaching
 format: quote
 ---
-<div class="kcite-section" kcite-section-id="393">
-  <p>
-    The gem cannot be polished without friction, nor man perfected without trials.
-  </p>
-  
-  <!-- kcite active, but no citations found -->
-</div>
-
-<!-- kcite-section 393 -->
+The gem cannot be polished without friction, nor man perfected without trials.
