@@ -2,10 +2,6 @@
 title: About
 author: Dana Ernst
 layout: page
-sharing_disabled:
-  - 1
-standard_seo_post_meta_description:
-  - 
 ---
 <img src="http://i2.wp.com/danaernst.com/wp-content/uploads/2012/07/385719_3687878368288_943747358_n-e1342234614846.jpg?w=200" alt="Hanging out on Squam Lake" class="alignleft size-full wp-image-216" data-recalc-dims="1" />
 
@@ -33,17 +29,17 @@ Lastly, I am a husband and a father of two incredible sons. Oh, I enjoy drinking
 
 ## Contact Information
 
-Dana C. Ernst, PhD  
-Assistant Professor  
-Department of Mathematics & Statistics  
-Northern Arizona University  
-805 South Osborne Drive  
-PO Box 5717  
+Dana C. Ernst, PhD
+Assistant Professor
+Department of Mathematics & Statistics
+Northern Arizona University
+805 South Osborne Drive
+PO Box 5717
 Flagstaff, AZ 86011
 
-**Office:** AMB 176  
-**Office Phone:** 928.523.6852  
-**Email:** <dana.ernst@nau.edu>  
+**Office:** AMB 176
+**Office Phone:** 928.523.6852
+**Email:** <dana.ernst@nau.edu>
 **Webpage:** <http://danaernst.com>
 
 [<img border="0" src="http://www.mendeley.com/embed/icon/1/red/big" alt="Research papers by Dana Ernst" />][29]
