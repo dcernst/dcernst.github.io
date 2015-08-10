@@ -17,7 +17,7 @@ title:               Dana C. Ernst
 tagline:             'Mathematics, Teaching, &amp; Technology'
 description:         'Mathematics, Teaching, &amp; Technology'
 url:                 'http://dcernst.github.io'
-# baseurl:             '/'
+baseurl:             ''
 paginate:            10
 
 # About/contact
