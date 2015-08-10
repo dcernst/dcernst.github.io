@@ -1,3 +1,4 @@
 url: http://dcernst.github.io
 name: Dana C. Ernst
 description: 'Mathematics, Teaching, &amp; Technology'
+permalink:    /:year/:month/:title/
