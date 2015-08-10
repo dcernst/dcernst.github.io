@@ -11,6 +11,8 @@ standard_link_url_field:
   - 
 standard_seo_post_meta_description:
   - 
+dsq_needs_sync:
+  - 1
 categories:
   - Teaching Posts
 tags:
