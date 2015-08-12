@@ -59,14 +59,14 @@ Below is a list of IBL-related resources.
   * [The IBL Blog][10] focuses on promoting the use of IBL methods in the classroom at the college, secondary and elementary school levels. Sponsored by AIBL.
   * [AIBL&#8217;s YouTube Channel][11] has a list of IBL-related videos.
   * AIBL sponsors [IBL workshops][12], which are an excellent for anyone interested in learning to implement IBL in a college-level mathematics course.</a>
-      * The [Inquiry-Based Learning in Mathematics Community on Google+][13] provides a forum for discussing IBL. This is a great place to ask questions.
-      * The [Journal of Inquiry-Based Learning in Mathematics][14] publishes university-level IBL course notes that are free, refereed, and classroom-tested.
-      * I have written some IBL course notes for an introduction to proof course. You can find the [GitHub][15] repository for the LaTeX source, by going [here][16].
-          * [The Moore Method — A Pathway to Learner-Centered Instruction][17] by Charles A. Coppin, W. Ted Mahavier, E. Lee May, and Edgar Parker is an excellent book that provides an overview of what the Moore method is and how to implement it.
-          * [5 Elements of Effective Thinking][18] by Edward B. Burger and Michael Starbird isn&#8217;t explicitly a book about IBL, but the book is written by two long-time practitioners of IBL and the themes of the book are relevant to anyone interested in teaching using student-centered approaches.
-          * A team of researchers at the [University of Colorado][19] led by Sandra Laursen have been working on the [Inquiry-Based Learning in College Mathematics Project][3], which an extensive study on the effectiveness of IBL. The is quasi-experimental study examined over 100 courses at four different campuses using a longitudinal study that spanned two years.
-          * The [Educational Advancement Foundation][20] is a philanthropic organization that supports the development and implementation of IBL and the preservation and dissemination of the Moore method.
-          * The [Legacy of RL Moore Project][21] is primarily concerned with preserving the historical record, producing a comprehensive biography of R.L. Moore, and supporting research by others that relate to aspects of his life, work and influence. The Legacy Project hosts the [Legacy of RL Moore Conference][22] each summer.
+  * The [Inquiry-Based Learning in Mathematics Community on Google+][13] provides a forum for discussing IBL. This is a great place to ask questions.
+  * The [Journal of Inquiry-Based Learning in Mathematics][14] publishes university-level IBL course notes that are free, refereed, and classroom-tested.
+  * I have written some IBL course notes for an introduction to proof course. You can find the [GitHub][15] repository for the LaTeX source, by going [here][16].
+  * [The Moore Method — A Pathway to Learner-Centered Instruction][17] by Charles A. Coppin, W. Ted Mahavier, E. Lee May, and Edgar Parker is an excellent book that provides an overview of what the Moore method is and how to implement it.
+  * [5 Elements of Effective Thinking][18] by Edward B. Burger and Michael Starbird isn&#8217;t explicitly a book about IBL, but the book is written by two long-time practitioners of IBL and the themes of the book are relevant to anyone interested in teaching using student-centered approaches.
+  * A team of researchers at the [University of Colorado][19] led by Sandra Laursen have been working on the [Inquiry-Based Learning in College Mathematics Project][3], which an extensive study on the effectiveness of IBL. The is quasi-experimental study examined over 100 courses at four different campuses using a longitudinal study that spanned two years.
+  * The [Educational Advancement Foundation][20] is a philanthropic organization that supports the development and implementation of IBL and the preservation and dissemination of the Moore method.
+  * The [Legacy of RL Moore Project][21] is primarily concerned with preserving the historical record, producing a comprehensive biography of R.L. Moore, and supporting research by others that relate to aspects of his life, work and influence. The Legacy Project hosts the [Legacy of RL Moore Conference][22] each summer.
 
 ## IBL Textbooks
 
