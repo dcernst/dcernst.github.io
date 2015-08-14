@@ -36,8 +36,8 @@ Below is a list of my published articles and theses.
 Below is a list of papers that have been submitted, but not yet accepted for publication.
 
   * D.C. Ernst and N. Sieben. Impartial achievement and avoidance games for generating finite groups. Submitted to *International Journal of Game Theory*. [[arXiv:1407.0784][24]]
-  * B.J. Benesh, D.C. Ernst, and N. Sieben. Impartial avoidance games for generating finite groups. Submitted to *J. Algebraic Combin.*. [[arXiv:1506.07105][25]]
-  * B.J. Benesh, D.C. Ernst, and N. Sieben. Impartial avoidance and achievement games for generating symmetric and alternating groups. Submitted to *Int. Electron. J. Algebra*.
+  * B.J. Benesh, D.C. Ernst, and N. Sieben. Impartial avoidance games for generating finite groups. Submitted to *J. Algebraic Combin.* [[arXiv:1506.07105][25]]
+  * B.J. Benesh, D.C. Ernst, and N. Sieben. Impartial avoidance and achievement games for generating symmetric and alternating groups. Submitted to *Int. Electron. J. Algebra*. [[arxiv:???](???)]
   * D.C. Ernst and A. Hodge. Within $\epsilon$ of Independence: An Attempt to Produce Independent Proof-Writers via IBL.
   * D.C. Ernst. Diagram calculus for a type affine $C$ Temperley&#8211;Lieb algebra, II. [[arXiv:1101.4215][26]]
 
