@@ -2,10 +2,6 @@
 title: Academic Writing
 author: Dana Ernst
 layout: page
-sharing_disabled:
-  - 1
-standard_seo_post_meta_description:
-  - 
 ---
 <img src="http://i1.wp.com/danaernst.com/wp-content/uploads/2012/02/TypeDHeap.png?fit=610%2C220" alt="TypeDHeap" class="alignleft size-full wp-image-1028" data-recalc-dims="1" />
 
@@ -21,6 +17,7 @@ My interests also include the [scholarship of teaching and learning][10] (SoTL) 
 
 Below is a list of my published articles and theses.
 
+  * N. Diefenderfer, D.C. Ernst, M. Hastings, L.N. Heath, H. Prawzinsky, B. Preston, J. Rushall, E. White, A. Whittemore. Prime Vertex Labelings of Several Families of Graphs. Accepted to *Involve*. [[arXiv:1503.08386][23]]
   * B. Love, A. Hodge, C. Corritore, and D.C. Ernst. Inquiry-Based Learning and the Flipped Classroom Model. Accepted to *PRIMUS*.
   * D.C. Ernst, M. Leingang, and R. Taylor. Facebook for Professional Educators: To Friend or Not to Friend? *MAA FOCUS*, June/July 2015, pages 6-7. [[ePrint][14]]
   * B. Beaudrie, D.C. Ernst, E. Kennedy, and R. St. Laurent. Inverted Pedagogy in Second Semester Calculus. Accepted to *PRIMUS*.
@@ -38,9 +35,9 @@ Below is a list of my published articles and theses.
 
 Below is a list of papers that have been submitted, but not yet accepted for publication.
 
-  * N. Diefenderfer, D.C. Ernst, M. Hastings, L.N. Heath, H. Prawzinsky, B. Preston, J. Rushall, E. White, A. Whittemore. Prime Vertex Labelings of Several Families of Graphs. Submitted to *Involve*. [[arXiv:1503.08386][23]] 
   * D.C. Ernst and N. Sieben. Impartial achievement and avoidance games for generating finite groups. Submitted to *International Journal of Game Theory*. [[arXiv:1407.0784][24]]
-  * B.J. Benesh, D.C. Ernst, and N. Sieben. Impartial avoidance games for generating finite groups. Submitted to *Glasgow Mathematical Journal*. [[arXiv:1506.07105][25]]
+  * B.J. Benesh, D.C. Ernst, and N. Sieben. Impartial avoidance games for generating finite groups. Submitted to *J. Algebraic Combin.*. [[arXiv:1506.07105][25]]
+  * B.J. Benesh, D.C. Ernst, and N. Sieben. Impartial avoidance and achievement games for generating symmetric and alternating groups. Submitted to *Int. Electron. J. Algebra*.
   * D.C. Ernst and A. Hodge. Within $\epsilon$ of Independence: An Attempt to Produce Independent Proof-Writers via IBL.
   * D.C. Ernst. Diagram calculus for a type affine $C$ Temperley&#8211;Lieb algebra, II. [[arXiv:1101.4215][26]]
 
