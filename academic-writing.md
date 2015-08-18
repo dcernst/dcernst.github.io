@@ -3,9 +3,7 @@ title: Academic Writing
 author: Dana Ernst
 layout: page
 ---
-<img src="http://i1.wp.com/danaernst.com/wp-content/uploads/2012/02/TypeDHeap.png?fit=610%2C220" alt="TypeDHeap" class="alignleft size-full wp-image-1028" data-recalc-dims="1" />
-
-My primary research interests are in the interplay between combinatorics and algebraic structures. More specifically, I study the combinatorics of [Coxeter groups][1] and their associated [Hecke algebras][2], [Kazhdan-Lusztig theory][3], generalized [Temperley-Lieb algebras][4], [diagram algebras][5], and [heaps of pieces][6]. By employing combinatorial tools such as diagram algebras and heaps of pieces, one can gain insight into algebraic structures associated to Coxeter groups, and, conversely, the corresponding structure theory can often lead to surprising combinatorial results.
+<img src="http://i1.wp.com/danaernst.com/wp-content/uploads/2012/02/TypeDHeap.png?fit=610%2C220" alt="TypeDHeap" class="alignleft size-full wp-image-1028" data-recalc-dims="1" />My primary research interests are in the interplay between combinatorics and algebraic structures. More specifically, I study the combinatorics of [Coxeter groups][1] and their associated [Hecke algebras][2], [Kazhdan-Lusztig theory][3], generalized [Temperley-Lieb algebras][4], [diagram algebras][5], and [heaps of pieces][6]. By employing combinatorial tools such as diagram algebras and heaps of pieces, one can gain insight into algebraic structures associated to Coxeter groups, and, conversely, the corresponding structure theory can often lead to surprising combinatorial results.
 
 More recently, my research has expanded into [combinatorial game theory][7] (joint with [Nandor Sieben][8] and [Bret Benesh][9]). In particular, our research has focused on avoidance and achievement games involving finite groups.
 
@@ -20,6 +18,7 @@ Below is a list of my published articles and theses.
   * N. Diefenderfer, D.C. Ernst, M. Hastings, L.N. Heath, H. Prawzinsky, B. Preston, J. Rushall, E. White, A. Whittemore. Prime Vertex Labelings of Several Families of Graphs. Accepted to *Involve*. [[arXiv:1503.08386][23]]
   * B. Love, A. Hodge, C. Corritore, and D.C. Ernst. Inquiry-Based Learning and the Flipped Classroom Model. Accepted to *PRIMUS*.
   * D.C. Ernst, M. Leingang, and R. Taylor. Facebook for Professional Educators: To Friend or Not to Friend? *MAA FOCUS*, June/July 2015, pages 6-7. [[ePrint][14]]
+  * D.C. Ernst and A. Hodge. Within $\epsilon$ of Independence: An Attempt to Produce Independent Proof-Writers via IBL. Accepted as book chapter (pending approval of *MAA Notes* board).
   * B. Beaudrie, D.C. Ernst, E. Kennedy, and R. St. Laurent. Inverted Pedagogy in Second Semester Calculus. Accepted to *PRIMUS*.
   * D.C. Ernst, A. Hodge, M. Jones, and S. Yoshinobu. The Many Faces of IBL. Accepted as book chapter.
   * D.C. Ernst, A. Hodge, and A. Schultz. Enhancing Proof Writing via Cross-Institutional Peer Review. *PRIMUS* 25(2), 121-130, 2015. [[DOI:10.1080/10511970.2014.921652][15]]
@@ -35,24 +34,23 @@ Below is a list of my published articles and theses.
 
 Below is a list of papers that have been submitted, but not yet accepted for publication.
 
+  * D.C. Ernst, M. Hastings, and S. Salmon. Factorization of Temperley-Lieb diagrams. Submitted to *Involve*. [[arxiv:(coming soon)](???)]
   * D.C. Ernst and N. Sieben. Impartial achievement and avoidance games for generating finite groups. Submitted to *International Journal of Game Theory*. [[arXiv:1407.0784][24]]
   * B.J. Benesh, D.C. Ernst, and N. Sieben. Impartial avoidance games for generating finite groups. Submitted to *J. Algebraic Combin.* [[arXiv:1506.07105][25]]
-  * B.J. Benesh, D.C. Ernst, and N. Sieben. Impartial avoidance and achievement games for generating symmetric and alternating groups. Submitted to *Int. Electron. J. Algebra*. [[arxiv:???](???)]
-  * D.C. Ernst and A. Hodge. Within $\epsilon$ of Independence: An Attempt to Produce Independent Proof-Writers via IBL.
-  * D.C. Ernst. Diagram calculus for a type affine $C$ Temperley&#8211;Lieb algebra, II. [[arXiv:1101.4215][26]]
+  * B.J. Benesh, D.C. Ernst, and N. Sieben. Impartial avoidance and achievement games for generating symmetric and alternating groups. Submitted to *Int. Electron. J. Algebra*. [[arxiv:1508.03419](http://arxiv.org/abs/1508.03419)]
+  * D.C. Ernst. Diagram calculus for a type affine $C$ Temperley-Lieb algebra, II. [[arXiv:1101.4215][26]]
 
 ## In Preparation
 
 The following is a list of papers that are in progress.
 
+  * D.C. Ernst and B. Fox. Conjugacy classes of cyclically fully commutative elements in Coxeter groups of type $A$.
   * D.C. Ernst and T. Laird. T-avoiding elements of Coxeter groups.
-  * B.J. Benesh, D.C. Ernst, and N. Sieben. Impartial avoidance and achievement games for generating symmetric and alternating groups.
   * B.J. Benesh, D.C. Ernst, and N. Sieben. Impartial achievement games for generating finite groups.
   * B.J. Benesh, D.C. Ernst, and N. Sieben. Impartial achievement and avoidance games for generating generalized dihedral groups.  
-    <!-- - D.C. Ernst, R.M. Green, M. Macauley, and N. Sieben. A combinatorial proof the CFC elements are logarithmic. -->
-
-  * D.C. Ernst, M. Hastings, and S. Salmon. Factorization of Temperley-Lieb diagrams.
   * D.C. Ernst and D. Jacobson. Optimizing Solutions of $2\times 2$ Spinpossible boards.
+
+<!-- * D.C. Ernst, R.M. Green, M. Macauley, and N. Sieben. A combinatorial proof the CFC elements are logarithmic. -->
 
 ## Open-Source Course Materials
 
