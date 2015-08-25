@@ -1,11 +1,35 @@
-name:          "Testing"
-description:   "blah blah"
-email:         theron.hitchman@uni.edu
+# name:          "Testing"
+# description:   "blah blah"
 
+# Dependencies
+markdown: redcarpet
+redcarpet:
+ extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "with_toc_data"]
+highlighter: pygments
 
-url:           "http://dcernst.github.io"
-baseurl:       "/PagesBootstrapTest"
+# Permalinks
+# Use of `relative_permalinks` ensures post links from the index work properly.
+permalink:           pretty
+# permalink:           /:year/:month/:title/
+relative_permalinks: true
 
+# Setup
+title:               Dana C. Ernst
+tagline:             'Mathematics, Teaching, &amp; Technology'
+description:         'Mathematics, Teaching, &amp; Technology'
+url:                 'http://dcernst.github.io'
+baseurl:             ''
+paginate:            10
 
-markdown:      kramdown
-highlighter:   pygments
+# About/contact
+author:
+  name:              Dana C. Ernst
+  url:               https://twitter.com/danaernst
+  email:             dana.ernst@nau.edu
+
+# Custom vars
+# version:             1.0.0
+
+# GitHub
+github:
+  repo:             github.com/dcernst/dcernst.github.io
