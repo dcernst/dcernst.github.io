@@ -1,5 +1,9 @@
-# name:          "Testing"
-# description:   "blah blah"
+name: 'Dana C. Ernst'
+description: 'Mathematics, Teaching, & Technology'
+tagline: 'Mathematics, Teaching, & Technology'
+url: 'http://dcernst.github.io'
+baseurl: ''
+paginate: 10
 
 # Dependencies
 markdown: redcarpet
@@ -9,26 +13,15 @@ highlighter: pygments
 
 # Permalinks
 # Use of `relative_permalinks` ensures post links from the index work properly.
-permalink:           pretty
-# permalink:           /:year/:month/:title/
+permalink: pretty
+# permalink: /:year/:month/:title/
 relative_permalinks: true
-
-# Setup
-title:               Dana C. Ernst
-tagline:             'Mathematics, Teaching, &amp; Technology'
-description:         'Mathematics, Teaching, &amp; Technology'
-url:                 'http://dcernst.github.io'
-baseurl:             ''
-paginate:            10
 
 # About/contact
 author:
-  name:              Dana C. Ernst
-  url:               https://twitter.com/danaernst
-  email:             dana.ernst@nau.edu
-
-# Custom vars
-# version:             1.0.0
+  name: Dana C. Ernst
+  url: https://twitter.com/danaernst
+  email: dana.ernst@nau.edu
 
 # GitHub
 github:
