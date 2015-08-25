@@ -1,8 +1,9 @@
 ---
 title: Academic Writing
 author: Dana Ernst
-layout: page
+layout: default
 ---
+
 <img src="http://i1.wp.com/danaernst.com/wp-content/uploads/2012/02/TypeDHeap.png?fit=610%2C220" alt="TypeDHeap" class="alignleft size-full wp-image-1028" data-recalc-dims="1" />My primary research interests are in the interplay between combinatorics and algebraic structures. More specifically, I study the combinatorics of [Coxeter groups][1] and their associated [Hecke algebras][2], [Kazhdan-Lusztig theory][3], generalized [Temperley-Lieb algebras][4], [diagram algebras][5], and [heaps of pieces][6]. By employing combinatorial tools such as diagram algebras and heaps of pieces, one can gain insight into algebraic structures associated to Coxeter groups, and, conversely, the corresponding structure theory can often lead to surprising combinatorial results.
 
 More recently, my research has expanded into [combinatorial game theory][7] (joint with [Nandor Sieben][8] and [Bret Benesh][9]). In particular, our research has focused on avoidance and achievement games involving finite groups.
@@ -38,7 +39,7 @@ Below is a list of papers that have been submitted, but not yet accepted for pub
   * D.C. Ernst and N. Sieben. Impartial achievement and avoidance games for generating finite groups. Submitted to *International Journal of Game Theory*. [[arXiv:1407.0784][24]]
   * B.J. Benesh, D.C. Ernst, and N. Sieben. Impartial avoidance games for generating finite groups. Submitted to *J. Algebraic Combin.* [[arXiv:1506.07105][25]]
   * B.J. Benesh, D.C. Ernst, and N. Sieben. Impartial avoidance and achievement games for generating symmetric and alternating groups. Submitted to *Int. Electron. J. Algebra*. [[arxiv:1508.03419](http://arxiv.org/abs/1508.03419)]
-  * D.C. Ernst. Diagram calculus for a type affine $C$ Temperley-Lieb algebra, II. [[arXiv:1101.4215][26]]
+  * D.C. Ernst. Diagram calculus for a type affine $C$ Temperley-Lieb algebra, II. Submitted to *J. Pure Appl. Alg.*. [[arXiv:1101.4215][26]]
 
 ## In Preparation
 
