@@ -1,25 +1,40 @@
----
-layout: default
----
+{% include header.html %}
 
-<div class="post">
-  <h1 class="post-title">{{ page.title }}</h1>
-  <span class="post-date">{{ page.date | date_to_string }}</span>
-  {{ content }}
+<!-- Begin page content -->
+<div class="container">
+  <div class="page-header">
+    <h1>{{ page.date | date: "%b %-d, %Y" }}: {{ page.title }}</h1>
+  </div>
+  <div class="row">
+    <div class="col-xs-12 col-md-8 col-lg-9">
+      <ul class="pager">
+        {% if page.previous.url %}
+          <li class="previous"><a href="{{page.previous.url | prepend: site.baseurl}}"
+            title="Previous: {{page.previous.title}}">
+        {% else %}
+          <li class="previous disabled"><a href="#">
+        {% endif %}
+        &larr; Previous</a></li>
+        <li><a href="{{site.baseurl}}/blog">All</a></li>
+        {% if page.next.url %}
+          <li class="next"><a href="{{page.next.url | prepend: site.baseurl}}"
+            title="Next: {{page.next.title}}">
+        {% else %}
+          <li class="next disabled"><a href="#">
+        {% endif %}
+        Next &rarr;</a></li>
+      </ul>
+
+      {{ content }}
+      <div class="visible-xs visible-sm">
+        <p><br />
+        </p>
+      </div>
+    </div>
+    <div class="col-xs-12 col-md-4 col-lg-3">
+      {% include sidebar.html %}
+    </div>
+  </div>
 </div>
 
-<div class="related">
-  <h2>Related Posts</h2>
-  <ul class="related-posts">
-    {% for post in site.related_posts limit:3 %}
-      <li>
-        <h3>
-          <a href="{{ post.url }}">
-            {{ post.title }}
-            <small>{{ post.date | date_to_string }}</small>
-          </a>
-        </h3>
-      </li>
-    {% endfor %}
-  </ul>
-</div>
+{% include footer.html %}

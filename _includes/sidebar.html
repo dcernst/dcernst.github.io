@@ -1,36 +1,40 @@
-<div class="sidebar">
-  <div class="container sidebar-sticky">
-    <div class="sidebar-about">
-      <h1>
-        <a href="{{ site.baseurl }}">
-          {{ site.title }}
-        </a>
-      </h1>
-      <p class="lead">{{ site.description }}</p>
-    </div>
-
-    <nav class="sidebar-nav">
-      <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}">Home</a>
-
-      {% comment %}
-        The code below dynamically generates a sidebar nav of pages with
-        `layout: page` in the front-matter. See readme for usage.
-      {% endcomment %}
-
-      {% assign pages_list = site.pages %}
-      {% for node in pages_list %}
-        {% if node.title != null %}
-          {% if node.layout == "page" %}
-            <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ node.url }}">{{ node.title }}</a>
-          {% endif %}
-        {% endif %}
-      {% endfor %}
-
-      <a class="sidebar-nav-item" href="{{ site.github.repo }}/archive/v{{ site.version }}.zip">Download</a>
-      <a class="sidebar-nav-item" href="{{ site.github.repo }}">GitHub project</a>
-      <span class="sidebar-nav-item">Currently v{{ site.version }}</span>
-    </nav>
-
-    <p>&copy; {{ site.time | date: '%Y' }}. All rights reserved.</p>
+<div class="row">
+  <div class="col-xs-12 col-sm-6 col-md-12">
+<div class="panel panel-primary">
+  <div class="panel-heading">
+    Contact Prof Hitchman
   </div>
+  <div class="panel-body">
+    <address>
+      <strong>Theron J Hitchman</strong><br>
+      Department of Mathematics 0506<br>
+      University of Nothern Iowa<br>
+      Cedar Falls, IA 50613-0506<br>
+    </address>
+    <address>
+      <strong>Other Contact Information</strong><br>
+      Office: 327 Wright Hall<br>
+      Phone: 319-273-2646<br>
+      email: <a href="mailto:theron.hitchman@uni.edu">theron.hitchman@uni.edu</a>
+    </address>
+  </div>
+</div>
+</div>
+<div class="col-xs-12 col-sm-6 col-md-12">
+<div class="panel panel-primary">
+  <div class="panel-heading">
+    Course Information
+  </div>
+  <div class="panel-body">
+    <dl class="dl">
+      <dt>Class Meetings:</dt>
+      <dd>MWF 11am in WRT 105</dd>
+    </dl>
+    <dl class="dl">
+      <dt>Office Hours:</dt>
+      <dd>Weekdays 2-3, or by appointment</dd>
+    </dl>
+  </div>
+</div>
+</div>
 </div>
