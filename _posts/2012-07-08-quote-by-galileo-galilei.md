@@ -13,4 +13,4 @@ tags:
 format: quote
 ---
 
-<i class="fa fa-quote-left fa-3x fa-pull-left fa-border"></i>All truths are easy to understand once they are discovered; the point is to discover them.
+<i class="fa fa-quote-left fa-2x fa-pull-left fa-border"></i>All truths are easy to understand once they are discovered; the point is to discover them.
