@@ -69,9 +69,10 @@ Northern Arizona University<br />
 PO Box 5717<br />
 Flagstaff,  AZ  86011
 
-**Office:** AMB 176<br />
-**Office Phone:**  928.523.6852<br />
-**Email:** <a href="mailto:dana.ernst@nau.edu">dana.ernst@nau.edu</a><br />
-**Webpage:** [{{ site.baseurl }}]({{ site.baseurl }})
+<i class="fa fa-university"></i>AMB 176<br />
+<i class="fa fa-phone"></i>928.523.6852<br />
+<i class="fa fa-envelope-o"></i><a href="mailto:dana.ernst@nau.edu">dana.ernst@nau.edu</a><br />
+<i class="fa fa-link"></i><a href="http://danaernst.com">http://danaernst.com</a><br />
+<i class="fa fa-twitter"></i><a href="http://twitter.com/danaernst">@danaernst</a>
 
 <em>Note: The views expressed on this blog are my own and are not necessarily shared by my employer <a href="http://nau.edu">Northern Arizona University</a>.</em>
