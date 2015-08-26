@@ -17,9 +17,9 @@ tags:
   - Robert Talbert
   - teaching
 ---
-[Robert Talbert][1] (Grand Valley State University) recently posted an article titled [&#8220;We need to produce learners, not just students&#8221;][2] on his [Casting Out Nines][3] blog that really resonates with me. In the article, Robert expresses what he feels is the goal of higher education and states in general terms how an educator can get on the path to achieving this goal.
+[Robert Talbert][1] (Grand Valley State University) recently posted an article titled ["We need to produce learners, not just students"][2] on his [Casting Out Nines][3] blog that really resonates with me. In the article, Robert expresses what he feels is the goal of higher education and states in general terms how an educator can get on the path to achieving this goal.
 
-There are so many wonderful nuggets in the article. Here&#8217;s one of my favorites.
+There are so many wonderful nuggets in the article. Here's one of my favorites.
 
 > I even care about this more than students’ grades. In my mind, and I think in the minds of most people who employ my students later in life, if you graduate from university and don’t have the skills or dispositions necessary to teach yourself new things for the rest of your life, it doesn’t really matter what your GPA says: You’re not educated. And if I shepherd a student through the university without putting them in a position time and again to hone these skills and dispositions, it doesn’t matter what my title or my course evaluations say: I’m not an educator.
 
@@ -31,7 +31,7 @@ Robert ends the article with the following statement.
 
 Boom.
 
-If you haven&#8217;t already, please go read [Robert&#8217;s article][2].
+If you haven't already, please go read [Robert's article][2].
 
  [1]: http://faculty.gvsu.edu/talbertr/Robert_Talbert,_PhD/Welcome.html
  [2]: http://chronicle.com/blognetwork/castingoutnines/2012/12/21/we-need-to-produce-learners-not-just-students/

@@ -25,25 +25,25 @@ tags:
   - mathematics
   - teaching
 ---
-The fall semester starts in a couple days and I&#8217;ll be teaching [Calculus 1][1] (for like the 15th time) and our undergraduate [Abstract Algebra][2] course. Despite my relatively low teaching load, I&#8217;ll also be advising 3 undergraduate research students (on two different projects) and 2 masters thesis students. Combined with the fact that I&#8217;m still frantically trying to prepare brand new [IBL][3] materials for my Abstract Algebra class, I expect a very busy semester. For this reason, I decided not to mess with the format of my calculus class very much. I think it has room for improvement&#8212;namely ramping up the IBL aspect of the course&#8212;but this will have to wait until a later semester. I feel a little guilty about this, but I&#8217;m no use to anyone if I&#8217;m trying to do too much.
+The fall semester starts in a couple days and I'll be teaching [Calculus 1][1] (for like the 15th time) and our undergraduate [Abstract Algebra][2] course. Despite my relatively low teaching load, I'll also be advising 3 undergraduate research students (on two different projects) and 2 masters thesis students. Combined with the fact that I'm still frantically trying to prepare brand new [IBL][3] materials for my Abstract Algebra class, I expect a very busy semester. For this reason, I decided not to mess with the format of my calculus class very much. I think it has room for improvement&#8212;namely ramping up the IBL aspect of the course&#8212;but this will have to wait until a later semester. I feel a little guilty about this, but I'm no use to anyone if I'm trying to do too much.
 
-Notice that I said that I wouldn&#8217;t mess with the format &#8220;very much.&#8221; I am going to make some small changes. In previous semesters, I always devoted one class period a week to students presenting problems at the board. This has always worked well for me, but last semester I tried something else that I don&#8217;t think was as successful. So, I&#8217;ve decided that I&#8217;ll return to presentation days. In the past, I had a fairly nebulous way of assessing student presentations. I want to encourage students to present, so I make it worth something. But on the other hand, I don&#8217;t want it to be a high stakes thing. A class typically benefits more from the discussion surrounding a less than perfect solution to a problem than they do from a presentation that is flawless. So, I encourage students to share what they have. Of course, I don&#8217;t want students putting crap up on the board on a regular basis either. In a small class, this isn&#8217;t very hard to manage, but in a class with 45 students (which is what I currently have enrolled in my calculus class), it gets a little trickier. I&#8217;ve been thinking about how to manage this for a few weeks.
+Notice that I said that I wouldn't mess with the format "very much." I am going to make some small changes. In previous semesters, I always devoted one class period a week to students presenting problems at the board. This has always worked well for me, but last semester I tried something else that I don't think was as successful. So, I've decided that I'll return to presentation days. In the past, I had a fairly nebulous way of assessing student presentations. I want to encourage students to present, so I make it worth something. But on the other hand, I don't want it to be a high stakes thing. A class typically benefits more from the discussion surrounding a less than perfect solution to a problem than they do from a presentation that is flawless. So, I encourage students to share what they have. Of course, I don't want students putting crap up on the board on a regular basis either. In a small class, this isn't very hard to manage, but in a class with 45 students (which is what I currently have enrolled in my calculus class), it gets a little trickier. I've been thinking about how to manage this for a few weeks.
 
-The latest version of [WeBWorK][4]&#8212;which we use for our online homework platform&#8212;has a new feature called &#8220;Achievements.&#8221; You can read more about this [here][5]. This basic idea is this:
+The latest version of [WeBWorK][4]&#8212;which we use for our online homework platform&#8212;has a new feature called "Achievements." You can read more about this [here][5]. This basic idea is this:
 
-> Instructors now have the ability to create and award &#8220;Math Achievements&#8221; and &#8220;Math Levels&#8221; to students for solving homework problems and for practicing good WeBWorK behavior. In a nutshell, students can earn achievements by meeting preset goals. For example, they might earn an achievement for solving 3 homework problems in a row without any incorrect submissions, or for solving a problem after taking an 8 hour break. Earning achievements and solving problems earns students points and after a student gets enough points they will be given a new &#8220;Math Level&#8221;.
+> Instructors now have the ability to create and award "Math Achievements" and "Math Levels" to students for solving homework problems and for practicing good WeBWorK behavior. In a nutshell, students can earn achievements by meeting preset goals. For example, they might earn an achievement for solving 3 homework problems in a row without any incorrect submissions, or for solving a problem after taking an 8 hour break. Earning achievements and solving problems earns students points and after a student gets enough points they will be given a new "Math Level".
 
-I have zero experience with the WeBWorK Achievements, but I thought I would give it a try. I don&#8217;t want to make earning them mandatory and I don&#8217;t want to offer extra credit either. So, I&#8217;ve been passively brainstorming how to handle them.
+I have zero experience with the WeBWorK Achievements, but I thought I would give it a try. I don't want to make earning them mandatory and I don't want to offer extra credit either. So, I've been passively brainstorming how to handle them.
 
-Northern Arizona University now requires faculty to take daily attendance in all freshman-level courses. However, how we take this data into account is up the instructor. It just has to count for something. The past couple semesters, I&#8217;ve been diligent about taking attendance, but I&#8217;ve always been a little bit vague about how it does or does not impact a student&#8217;s grade. Policies like, &#8220;you&#8217;ll lose a letter grade if you miss X number of classes,&#8221; drive me nuts.
+Northern Arizona University now requires faculty to take daily attendance in all freshman-level courses. However, how we take this data into account is up the instructor. It just has to count for something. The past couple semesters, I've been diligent about taking attendance, but I've always been a little bit vague about how it does or does not impact a student's grade. Policies like, "you'll lose a letter grade if you miss X number of classes," drive me nuts.
 
-Yesterday, I decided it was time to sort out what the plan should be for presentations, WeBWorK Achievements, and attendance. I had read a short article about [gamification][6] in education (I can&#8217;t remember which article) recently and I thought, &#8220;hey, why don&#8217;t I just gamify this stuff that I&#8217;m not sure what to do with.&#8221; In general, I&#8217;m not a fan of offering points for things that students should naturally do (and I&#8217;m also sure I have tons of counterexamples to what I just said), but I&#8217;m going for it anyway. Maybe this is a horrible idea. Here is what I currently have on [their syllabus][7].
+Yesterday, I decided it was time to sort out what the plan should be for presentations, WeBWorK Achievements, and attendance. I had read a short article about [gamification][6] in education (I can't remember which article) recently and I thought, "hey, why don't I just gamify this stuff that I'm not sure what to do with." In general, I'm not a fan of offering points for things that students should naturally do (and I'm also sure I have tons of counterexamples to what I just said), but I'm going for it anyway. Maybe this is a horrible idea. Here is what I currently have on [their syllabus][7].
 
 * * *
 
 ### Attendance
 
-As per university policy, attendance is *mandatory* in all 100-level courses, and in particular, I am required to record attendance each class session. Daily attendance is vital to success in this course! You are responsible for all material covered in class, regardless of whether it is in the textbook. Repeated absences may impact your grade (see the section on Achievements). You can find more information about NAU&#8217;s attendance policy on the [Academic Policies][8] page.
+As per university policy, attendance is *mandatory* in all 100-level courses, and in particular, I am required to record attendance each class session. Daily attendance is vital to success in this course! You are responsible for all material covered in class, regardless of whether it is in the textbook. Repeated absences may impact your grade (see the section on Achievements). You can find more information about NAU's attendance policy on the [Academic Policies][8] page.
 
 ### Presentations and Participation
 
@@ -53,7 +53,7 @@ I expect each student to participate and engage in class discussion. Moreover, I
 
 ### Achievements
 
-This semester I&#8217;ve decided to &#8220;[gamify][6]&#8221; good student behavior. Here is the gist. I&#8217;ve generated a list of items that I deem good student behavior. Every time you achieve one of the items on the list, you earn some points. The more points you earn, the higher your Presentation and Participation grade (worth 8% of your overall grade in the course). So, how do you earn achievement points? Here&#8217;s a list.
+This semester I've decided to "[gamify][6]" good student behavior. Here is the gist. I've generated a list of items that I deem good student behavior. Every time you achieve one of the items on the list, you earn some points. The more points you earn, the higher your Presentation and Participation grade (worth 8% of your overall grade in the course). So, how do you earn achievement points? Here's a list.
 
 <center>
   </p> 
@@ -135,7 +135,7 @@ This semester I&#8217;ve decided to &#8220;[gamify][6]&#8221; good student behav
       </td>
       
       <td>
-        Stop by the Math Achievement Program to get help. This is a one time offer and you must get a &#8220;prescription&#8221; form from me in advance for a tutor to sign.
+        Stop by the Math Achievement Program to get help. This is a one time offer and you must get a "prescription" form from me in advance for a tutor to sign.
       </td>
     </tr>
     
@@ -165,7 +165,7 @@ This semester I&#8217;ve decided to &#8220;[gamify][6]&#8221; good student behav
       </td>
       
       <td>
-        Agree to present a problem to the class on presentation days after I&#8217;ve called on you.
+        Agree to present a problem to the class on presentation days after I've called on you.
       </td>
     </tr>
     
@@ -245,11 +245,11 @@ This semester I&#8217;ve decided to &#8220;[gamify][6]&#8221; good student behav
   <hr />
   
   <p>
-    Feedback is extremely welcome. I&#8217;ll let y&#8217;all know how it goes.
+    Feedback is extremely welcome. I'll let y'all know how it goes.
   </p>
   
   <p>
-    <em>Edit:</em> One thing that I forgot to add is that I have a Peer TA for 10 hours per week. She attends class and has access to the course forum, etc. So, I&#8217;ll let her do most of the point tracking. Otherwise, I&#8217;d have trouble with the bookkeeping. Also, I decided to use the highest number of Achievement points earned by a student to calculate a percentage for each student. In the comments below, Strider suggested that I use the average of the top 3 instead. I like this idea, but I think I&#8217;ll use the top 5.
+    <em>Edit:</em> One thing that I forgot to add is that I have a Peer TA for 10 hours per week. She attends class and has access to the course forum, etc. So, I'll let her do most of the point tracking. Otherwise, I'd have trouble with the bookkeeping. Also, I decided to use the highest number of Achievement points earned by a student to calculate a percentage for each student. In the comments below, Strider suggested that I use the average of the top 3 instead. I like this idea, but I think I'll use the top 5.
   </p>
 
  [1]: http://teaching.danaernst.com/mat136f13/

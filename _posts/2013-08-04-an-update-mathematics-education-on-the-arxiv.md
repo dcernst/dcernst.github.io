@@ -21,23 +21,23 @@ tags:
   - math ed
   - open access
 ---
-On July 27, 2013, I created a petition on [Change.org][1] to get math.ED &#8211; Mathematics Education added as a category on the [arXiv][2]. You can find the petition [here][3]. At present, there is no dedicated category on the arXiv for math ed. In addition, there is no culture of math ed folks utilizing pre-print servers like the arXiv. I&#8217;d like to change both of these facts. If you want to know how all this got started, check out [this post][4].
+On July 27, 2013, I created a petition on [Change.org][1] to get math.ED &#8211; Mathematics Education added as a category on the [arXiv][2]. You can find the petition [here][3]. At present, there is no dedicated category on the arXiv for math ed. In addition, there is no culture of math ed folks utilizing pre-print servers like the arXiv. I'd like to change both of these facts. If you want to know how all this got started, check out [this post][4].
 
 As of August 1, there was just shy of 200 signatures. My initial goal was 50. The support has been quite impressive. Most of the signatures are from the United States, but there are others from around the world. As far as I can tell, support is coming from people with interests in math ed, physics ed, STEM ed, ed tech, math, stats, operations research, secondary education, and more. I even recognized at least one philosopher. Thankfully, it seems we have the support of a few prominent math ed researchers (e.g., [Alan Schoenfeld][5]), which I think is crucial for this to really work.
 
-I&#8217;ve also had about a half dozen people contact me to say that they would be willing to serve as a moderator for a math ed category on the arXiv. This is one of the things the arXiv told me that we would need to move forward. The list of people I have is probably more than sufficient.
+I've also had about a half dozen people contact me to say that they would be willing to serve as a moderator for a math ed category on the arXiv. This is one of the things the arXiv told me that we would need to move forward. The list of people I have is probably more than sufficient.
 
-As exciting as all this has been, it hasn&#8217;t all been rainbows and unicorns. Without going into detail, I had one person post a response to a comment I left on a discussion board announcing the petition that essentially told me that mathematics education is worthless and that there is nothing worth placing on the arXiv. If you are interested, I&#8217;m sure you can find the discussion. I maintained control and didn&#8217;t respond.
+As exciting as all this has been, it hasn't all been rainbows and unicorns. Without going into detail, I had one person post a response to a comment I left on a discussion board announcing the petition that essentially told me that mathematics education is worthless and that there is nothing worth placing on the arXiv. If you are interested, I'm sure you can find the discussion. I maintained control and didn't respond.
 
-Also, I used Change.org on someone else&#8217;s recommendation and so far it has seemed to work well. However, I received an email from someone that signed the petition that was upset that Change.org sent them follow-up emails. I sincerely apologize if anyone else was annoyed or offended. According to Change.org:
+Also, I used Change.org on someone else's recommendation and so far it has seemed to work well. However, I received an email from someone that signed the petition that was upset that Change.org sent them follow-up emails. I sincerely apologize if anyone else was annoyed or offended. According to Change.org:
 
-> Every so often you can expect to hear from Change.org about campaigns we think you&#8217;ll be excited to join. If you&#8217;d prefer not to receive these emails, you can unsubscribe by clicking the link at the bottom of any message you receive from us.
+> Every so often you can expect to hear from Change.org about campaigns we think you'll be excited to join. If you'd prefer not to receive these emails, you can unsubscribe by clicking the link at the bottom of any message you receive from us.
 
 I realize it is a hassle, but it appears that you can opt out of any future correspondence with Change.org.
 
 There was also an interesting discussion on Twitter that Republic of Math ([@republicofmath][6]) and I ([@danaernst][7]) had. You can read more about that conversation [here][8].
 
-In addition, there have been a few people here and there that aren&#8217;t supportive for one reason or another of the endeavor to utilize the arXiv for math ed. I&#8217;m okay with that. Heck, maybe this is a bad idea and if someone has arguments about moving forward, I want to hear them. I&#8217;m not so dead set on this happening that I won&#8217;t listen to reason. In general, I&#8217;m in favor of sharing knowledge in ways that are open and easily accessible. This is my motivating principle.
+In addition, there have been a few people here and there that aren't supportive for one reason or another of the endeavor to utilize the arXiv for math ed. I'm okay with that. Heck, maybe this is a bad idea and if someone has arguments about moving forward, I want to hear them. I'm not so dead set on this happening that I won't listen to reason. In general, I'm in favor of sharing knowledge in ways that are open and easily accessible. This is my motivating principle.
 
 OK, so where do we go from here? There have been a couple of developments with the folks at the arXix, which started with a comment that [Greg Kuperberg][9] left on my [original blog post][4]. Greg is the chair of the math advisory committee for the arXiv, which is the committee that would approve a new math category. According to Greg:
 
@@ -51,9 +51,9 @@ OK, so where do we go from here? There have been a couple of developments with t
 > 
 > Getting a moderator for math.HO is also a good idea; once again, we can discuss.
 
-I&#8217;ve since followed up with Greg privately and it seems that the most likely scenario is a name change to the [math.HO &#8211; History and Overview][10], which lists math education as one of the possible topics. A name change seems reasonable to me. However, in order to move forward, the arXiv would like to see math ed submissions to the math.HO category. Again, this seems reasonable. In addition, there is currently no moderator for the math.HO category, so we would still need to move forward with the list of folks I gathered.
+I've since followed up with Greg privately and it seems that the most likely scenario is a name change to the [math.HO &#8211; History and Overview][10], which lists math education as one of the possible topics. A name change seems reasonable to me. However, in order to move forward, the arXiv would like to see math ed submissions to the math.HO category. Again, this seems reasonable. In addition, there is currently no moderator for the math.HO category, so we would still need to move forward with the list of folks I gathered.
 
-At this point, what we need is for people to start uploading their math ed related manuscripts to the math.HO category on the arXiv. I think this will require some guidance, as well as a discussion about copyright and such. I think I&#8217;ll save that for a future post.
+At this point, what we need is for people to start uploading their math ed related manuscripts to the math.HO category on the arXiv. I think this will require some guidance, as well as a discussion about copyright and such. I think I'll save that for a future post.
 
 Thoughts and comments welcome.
 

@@ -17,7 +17,7 @@ Here is a (partial) list of free and/or open-source textbooks. If you find one o
   * [Calculus][13] by [Gilbert Strang][14] (MIT). This book is available as a free PDF from the [MIT Open Courseware Project][15]. There are also some corresponding videos, which can be found [here][16].
   * [Calculus Refresher][17] by [Paul Garrett][18] (University of Minnesota). Another free PDF. This short book seems designed for students who have had some experience with calculus and need some review.
   * [Funny Little Calculus Text][19] by [Robert Ghrist][20] (University of Pennsylvania). Currently only first semester calculus, very short, and no exercises, but a free PDF.
-  * [Paul’s Online Math Notes][21] by [Paul Dawkins][22] (Lamar University). Paul&#8217;s notes cover Calculus 1-3, Linear Algebra, and more. The notes are available as free HTML-based material. These notes seem to be popular with students.
+  * [Paul’s Online Math Notes][21] by [Paul Dawkins][22] (Lamar University). Paul's notes cover Calculus 1-3, Linear Algebra, and more. The notes are available as free HTML-based material. These notes seem to be popular with students.
   * [Differential Calculus with Sage][23] by [David Joyner][24] (United States Naval Academy) and Granville. This free book is available as either a PDF or in HTML form. The book covers first semester calculus and incorporates [Sage][25], which is an open-source mathematics software package.
   * [Integral Calculus with Sage][26] by [Dale Hoffman][27] (Bellevue Community College), [William Stein][28] (University of Washington), and [David Joyner][24] (United States Naval Academy). The book picks up where the previous book left off.
   * [Contemporary Calculus][29] by [Dale Hoffman][27] (Bellevue Community College). A free online calculus text that is being developed for the [Open Course Library Project of the Washington State Colleges][30]. This book is part of the foundation for the previous book. It covers three semesters of calculus and seems to do a thorough job of it, but the formatting is awful.
@@ -32,7 +32,7 @@ Here is a (partial) list of free and/or open-source textbooks. If you find one o
 
 ### Introduction to Proof
 
-  * [An Introduction to Proof via Inquiry-Based Learning][36] by Dana C. Ernst (Northern Arizona University). I wrote these IBL course materials for an introduction to proof course. The first half of the notes are an adaptation of notes written by [Stan Yoshinobu][37] (Cal Poly) and [Matthew Jones][38] (California State University Dominguez Hills). I&#8217;d be be thrilled if others decided to use these. Please let me know if you do.
+  * [An Introduction to Proof via Inquiry-Based Learning][36] by Dana C. Ernst (Northern Arizona University). I wrote these IBL course materials for an introduction to proof course. The first half of the notes are an adaptation of notes written by [Stan Yoshinobu][37] (Cal Poly) and [Matthew Jones][38] (California State University Dominguez Hills). I'd be be thrilled if others decided to use these. Please let me know if you do.
   * [Introduction to Proof][39] by Ron Taylor (Berry College). These IBL notes are available from the [Journal of Inquiry-Based Learning in Mathematics][40].
   * [Notes for a Course on Proofs][41] by Jacqueline A. Jensen-Vallin (Slippery Rock University). Another set of IBL notes available from the [Journal of Inquiry-Based Learning in Mathematics][40].
   * [Mathematical Reasoning: Writing and Proof][42] by Ted Sundstrom (Grand Valley State University). This textbook is designed for the first course in the college mathematics curriculum that introduces students to the process of constructing and writing proofs. This book is included in the approved list of textbooks for the [Open Textbook Initiative][5] by the [American Institute of Mathematics][43]. There are also over 100 screencasts that accompany the book.
@@ -40,9 +40,9 @@ Here is a (partial) list of free and/or open-source textbooks. If you find one o
 ### Linear Algebra
 
   * [A First Course in Linear Algebra][44] by [Rob Beezer][45] (Puget Sound University). FCLA is a free and open-source introductory textbook designed for university sophomores and juniors. The book begins with systems of linear equations, then covers matrix algebra, before taking up finite-dimensional vector spaces in full generality. The book is available for free in PDF and HTML form.
-  * [Linear Algebra][46] by [Jim Hefferon][47] (St. Michael&#8217;s College). This is another free and open-source textbook.
+  * [Linear Algebra][46] by [Jim Hefferon][47] (St. Michael's College). This is another free and open-source textbook.
   * [Linear Algebra][48] by David Clark (SUNY New Paltz). These notes are available for free from the [Journal of Inquiry-Based Learning in Mathematics][49]. The notes are designed for an inquiry-based learning (IBL) approach to the subject.
-  * [Linear Algebra][50] by [Gilbert Strang][14] (MIT). This isn&#8217;t really a textbook, but rather free course materials, including videos, available from the [MIT Open Courseware Project][15].
+  * [Linear Algebra][50] by [Gilbert Strang][14] (MIT). This isn't really a textbook, but rather free course materials, including videos, available from the [MIT Open Courseware Project][15].
   * [Paul’s Online Math Notes][21] by [Paul Dawkins][22] (Lamar University).
 
 ### Combinatorics
@@ -54,7 +54,7 @@ Here is a (partial) list of free and/or open-source textbooks. If you find one o
   * [An Inquiry-Based Approach to Abstract Algebra][53] is a set of IBL course materials for an abstract algebra course that emphasizes visualization and incorporates technology. The notes are written by me with help from [Josh Wiscons][54] and [Ben Woodruff][55]. Very much a work in progress.
   * [Abstract Algebra: Theory and Applications][56] by [Tom Judson][57] (Stephen F. Austin University).
   * [Essential Group Theory][58] by [Michael Batty][59] (University of Durham).
-  * [Adventures in Group Theory: Rubik&#8217;s Cube, Merlin&#8217;s Machine, and Other Mathematical Toys][60] (PDF, auto-download) by by [David Joyner][32] (United State Naval Academy).
+  * [Adventures in Group Theory: Rubik's Cube, Merlin's Machine, and Other Mathematical Toys][60] (PDF, auto-download) by by [David Joyner][32] (United State Naval Academy).
   * [Group Theory: Birdtracks, Lie’s, and Exceptional Groups][61] by [Predrag Cvitanović][62] (Georgia Tech).
 
 ### Real Analysis

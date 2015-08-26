@@ -16,7 +16,7 @@ tags:
   - productivity
   - vim
 ---
-I don&#8217;t use [vim][1] very often, but when I do it would be handy to have some syntax highlighting. Over on Google+, [Vincent Knight][2] shared a link to a [post on Geekology][3] that describes how to turn on syntax highlighting and autoindenting for vim on a Mac. Here is a summary.
+I don't use [vim][1] very often, but when I do it would be handy to have some syntax highlighting. Over on Google+, [Vincent Knight][2] shared a link to a [post on Geekology][3] that describes how to turn on syntax highlighting and autoindenting for vim on a Mac. Here is a summary.
 
 Open the Terminal and type the following commands.
 
@@ -42,7 +42,7 @@ Press the `i` key and then paste the following lines of code just below the `set
     \ endif
     
 
-Lastly, type `Esc` followed by `:x`. That&#8217;s it!
+Lastly, type `Esc` followed by `:x`. That's it!
 
  [1]: http://www.vim.org/
  [2]: https://plus.google.com/110464871801965858778/posts

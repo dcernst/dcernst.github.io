@@ -5,7 +5,7 @@ layout: page
 ---
 <img src="http://i2.wp.com/danaernst.com/wp-content/uploads/2012/07/385719_3687878368288_943747358_n-e1342234614846.jpg?w=200" alt="Hanging out on Squam Lake" class="alignleft size-full wp-image-216" data-recalc-dims="1" />
 
-Welcome! My name is Dana Ernst and I am an assistant professor in the [Department of Mathematics and Statistics][1] at [Northern Arizona University][2] in [Flagstaff, AZ][3]. This blog is part of the [Booles&#8217; Rings][4] network of academic home pages/blogs.
+Welcome! My name is Dana Ernst and I am an assistant professor in the [Department of Mathematics and Statistics][1] at [Northern Arizona University][2] in [Flagstaff, AZ][3]. This blog is part of the [Booles' Rings][4] network of academic home pages/blogs.
 
 My primary research interests are in the interplay between combinatorics and algebraic structures. More specifically, I study the combinatorics of [Coxeter groups][5] and their associated [Hecke algebras][6], [Kazhdan-Lusztig theory][7], generalized [Temperley-Lieb algebras][8], [diagram algebras][9], and [heaps of pieces][10]. By employing combinatorial tools such as diagram algebras and heaps of pieces, one can gain insight into algebraic structures associated to Coxeter groups, and, conversely, the corresponding structure theory can often lead to surprising combinatorial results.
 
@@ -19,9 +19,9 @@ My interests also include the [scholarship of teaching and learning][16] (SoTL) 
 
 <!-- In addition to using free and open-source software, I am inspired by the recent [open-source textbook](http://iae-pedia.org/Open_Source_Textbooks) movement and I strongly believe that educators should choose free, open-source, or low cost textbooks when a viable alternative exists. For a selection of free and/or open-source textbooks, see my list located [here]({{ site.baseurl }}/free-and-open-source-textbooks/). Also, take a peek at [Rob Beezer’s](http://buzzard.ups.edu) selection on [this page](http://linear.ups.edu/opentexts.html).  Moreover, the [American Institute of Mathematics](http://www.aimath.org) maintains a list of [approved open-source textbooks](http://www.aimath.org/textbooks/textbooklist.html). If you find one of the books list on any of the above links more helpful than another, please [let me know](mailto:dana@danaernst.com).  -->
 
-[Angie Hodge][20] and I are coauthors for [Math Ed Matters][21], which is a (roughly) monthly column sponsored by the [Mathematical Association of America][22]. The column explores topics and current events related to undergraduate mathematics education. Posts aim to inspire, provoke deep thought, and provide ideas for the mathematics classroom. Our interest in and engagement with IBL color the column&#8217;s content.
+[Angie Hodge][20] and I are coauthors for [Math Ed Matters][21], which is a (roughly) monthly column sponsored by the [Mathematical Association of America][22]. The column explores topics and current events related to undergraduate mathematics education. Posts aim to inspire, provoke deep thought, and provide ideas for the mathematics classroom. Our interest in and engagement with IBL color the column's content.
 
-Besides blogging here and for Math Ed Matters, I am also an editor for [Mathblogging.org][23], which is a site devoted to aggregating the multitude of math-related blogs and news sources across the Internet. My job as editor is to select a blog posts to be included in the [Editors&#8217; Picks List][24].
+Besides blogging here and for Math Ed Matters, I am also an editor for [Mathblogging.org][23], which is a site devoted to aggregating the multitude of math-related blogs and news sources across the Internet. My job as editor is to select a blog posts to be included in the [Editors' Picks List][24].
 
 Moreover, I am active on [Google+][25] and post regularly about mathematics, teaching, and technology. You can find my G+ profile [here][26]. You can find me on Twitter at [@danaernst][27] and [@IBLMath][28].
 

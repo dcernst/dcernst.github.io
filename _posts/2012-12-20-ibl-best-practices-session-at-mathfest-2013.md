@@ -19,7 +19,7 @@ tags:
   - inquiry-based learning
   - MathFest
 ---
-Last year, [Stan Yoshinobu][1], [Angie Hodge][2], and I organized a contributed paper session at [MathFest][3] titled &#8220;Inquiry-Based Learning Best Practices.&#8221; Here is the abstract for last summer&#8217;s session:
+Last year, [Stan Yoshinobu][1], [Angie Hodge][2], and I organized a contributed paper session at [MathFest][3] titled "Inquiry-Based Learning Best Practices." Here is the abstract for last summer's session:
 
 > In many mathematics classrooms, doing mathematics means following the rules dictated by the teacher and knowing mathematics means remembering and applying these rules. However, an inquiry-based learning (IBL) approach challenges students to create/discover mathematics.
 > 
@@ -29,7 +29,7 @@ Last year, [Stan Yoshinobu][1], [Angie Hodge][2], and I organized a contributed 
 
 In my opinion, the session was a huge success! We had a total of 22 talks covering a variety of IBL-related topics, which was almost twice as many as any other session. In fact, we had so many speakers, we had to split the session into three sub-sessions over two days. Moreover, most of the talks had a packed audience.
 
-A few weeks ago, we submitted an abstract to the [MAA][4] to organize a similar session and we recently found out that our proposal was accepted. Yay! We&#8217;ll be soliciting abstracts for talks soon. If you are interested in giving a talk, please [contact me][5] or one of the other organizers.
+A few weeks ago, we submitted an abstract to the [MAA][4] to organize a similar session and we recently found out that our proposal was accepted. Yay! We'll be soliciting abstracts for talks soon. If you are interested in giving a talk, please [contact me][5] or one of the other organizers.
 
 MathFest 2013 takes place on August 1-3, 2013 in Hartford, CT. Mark your calendars!
 

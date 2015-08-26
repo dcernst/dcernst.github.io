@@ -24,9 +24,9 @@ tags:
   - talk
   - Temperley-Lieb algebras
 ---
-On Tuesday, February 5 (my birthday!), I gave a talk titled &#8220;A diagrammatic representation of the Temperley-Lieb algebra&#8221; in the [NAU Department of Mathematics and Statistics Colloquium][1]. Here is the abstract.
+On Tuesday, February 5 (my birthday!), I gave a talk titled "A diagrammatic representation of the Temperley-Lieb algebra" in the [NAU Department of Mathematics and Statistics Colloquium][1]. Here is the abstract.
 
-> One aspect of my research involves trying to prove that certain associative algebras can be faithfully represented using &#8220;diagrams.&#8221; These diagrammatic representations are not only nice to look at, but they also help us recognize things about the original algebra that we may not otherwise have noticed. In this talk, we will introduce the diagram calculus for the Temperley-Lieb algebra of type $A$. This algebra, invented by Temperley and Lieb in 1971, is a certain finite dimensional associative algebra that arose in the context of statistical mechanics in physics. We will show that this algebra has dimension equal to the nth Catalan number and discuss its relationship to the symmetric group. If time permits, we will also briefly discuss the diagrammatic representation of the Temperley-Lieb algebra of type affine $C$.
+> One aspect of my research involves trying to prove that certain associative algebras can be faithfully represented using "diagrams." These diagrammatic representations are not only nice to look at, but they also help us recognize things about the original algebra that we may not otherwise have noticed. In this talk, we will introduce the diagram calculus for the Temperley-Lieb algebra of type $A$. This algebra, invented by Temperley and Lieb in 1971, is a certain finite dimensional associative algebra that arose in the context of statistical mechanics in physics. We will show that this algebra has dimension equal to the nth Catalan number and discuss its relationship to the symmetric group. If time permits, we will also briefly discuss the diagrammatic representation of the Temperley-Lieb algebra of type affine $C$.
 
 And here are the slides.
 

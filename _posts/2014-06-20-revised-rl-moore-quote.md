@@ -24,7 +24,7 @@ tags:
   - RL Moore
   - teaching
 ---
-Here&#8217;s a classic quote from [RL Moore][1]:
+Here's a classic quote from [RL Moore][1]:
 
 > That student is taught the best who is told the least. 
 
@@ -32,7 +32,7 @@ During his talk yesterday at the [RL Moore Conference][2], [David Clark][3] prov
 
 > The student is taught the best who is told only enough to ensure that he or she will continue to work hard, stay engaged, and make progress. 
 
-I think David&#8217;s revision does an excellent job of capturing the experience I hope to provide the students in my [inquiry-based learning][4] (IBL) classes with.
+I think David's revision does an excellent job of capturing the experience I hope to provide the students in my [inquiry-based learning][4] (IBL) classes with.
 
  [1]: http://en.wikipedia.org/wiki/Robert_Lee_Moore
  [2]: http://legacyrlmoore.org/events.html

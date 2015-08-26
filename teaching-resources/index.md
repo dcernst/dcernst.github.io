@@ -5,7 +5,7 @@ layout: page
 standard_seo_post_meta_description:
   - 
 ---
-The resources listed below are intended for both students and teachers. For a list of free and/or open-source textbooks, go [here][1]. Also, check out [Jason Grout&#8217;s teaching resources][2], which is vastly more extensive than what I list below.
+The resources listed below are intended for both students and teachers. For a list of free and/or open-source textbooks, go [here][1]. Also, check out [Jason Grout's teaching resources][2], which is vastly more extensive than what I list below.
 
 ## General Teaching
 
@@ -27,15 +27,15 @@ The resources listed below are intended for both students and teachers. For a li
 
 ## Calculus Videos, Applets, & Additional Problems
 
-Below is a partial list of links to applets and video repositories related to calculus. There are lots more out there. If you know of a good resources that&#8217;s not listed below, please let me know.
+Below is a partial list of links to applets and video repositories related to calculus. There are lots more out there. If you know of a good resources that's not listed below, please let me know.
 
   * [MOOCulus Videos][18] (videos)
   * [Calculus Applets][19] (applets)
   * [Education Portal][20] (videos with embedded quizzes)
   * [integralCALC videos][21] (videos)
-  * [Patrick&#8217;s Just Math Tutorials][22] (videos)
+  * [Patrick's Just Math Tutorials][22] (videos)
   * [Khan Academy][23] (videos)
-  * [Patty&#8217;s Calculus Videos][24] (videos)
+  * [Patty's Calculus Videos][24] (videos)
   * [Brightstorm Calculus Videos][25] (videos)
   * [Math Doctor Bob videos][26] (videos)
   * [MathVids][27] (videos)
@@ -43,8 +43,8 @@ Below is a partial list of links to applets and video repositories related to ca
 
 ## LaTeX
 
-  * [Dana&#8217;s Quick LaTeX Guide][29]
-  * [Dana&#8217;s LaTeX Homework Template][30]
+  * [Dana's Quick LaTeX Guide][29]
+  * [Dana's LaTeX Homework Template][30]
   * [WriteLaTeX][31]
   * [Web Equation by Vision Objects][32]
   * [Detexify][33]
@@ -66,7 +66,7 @@ Below is a partial list of links to applets and video repositories related to ca
   * [Un peu de math][47] by Vincent Knight.
   * [OpenCalculus][48] by Matt Boelkins.
   * [Mr. Honner][49] by Patrick Honner.
-  * [Booles&#8217; Rings][50] is a network of blogs (including mine).
+  * [Booles' Rings][50] is a network of blogs (including mine).
 
  [1]: {{ site.baseurl }}/free-and-open-source-textbooks/
  [2]: http://artsci.drake.edu/grout/doku.php/teaching_resources

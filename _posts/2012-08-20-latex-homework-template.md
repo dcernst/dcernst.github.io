@@ -27,7 +27,7 @@ For most of my [inquiry-based learning][1] (IBL) proof-based courses, I typicall
   1. Daily Homework
   2. Weekly Homework
 
-I&#8217;ll briefly explain each of these.
+I'll briefly explain each of these.
 
 # Daily Homework
 
@@ -35,13 +35,13 @@ The Daily Homework is assigned each class meeting, and students are expected to 
 
 # Weekly Homework
 
-In addition to the Daily Homework, students are also required to submit two formally-written proofs each week. During week $n$, students submit any two problems marked with a $\star$ that were turned in during week $n-1$ for the Daily Homework. The $\star$-problems are typically a subset of the medium to difficult proofs. The students are required to submit a PDF of their write-ups, and in general, the Weekly Homework assignments are due on a non-class session day (so that they don&#8217;t interfere with the Daily Homework). One huge advantage of this approach is that students are forced to reflect on the previous week&#8217;s work and it allows them another opportunity to learn the material if they didn&#8217;t master it the firs time.
+In addition to the Daily Homework, students are also required to submit two formally-written proofs each week. During week $n$, students submit any two problems marked with a $\star$ that were turned in during week $n-1$ for the Daily Homework. The $\star$-problems are typically a subset of the medium to difficult proofs. The students are required to submit a PDF of their write-ups, and in general, the Weekly Homework assignments are due on a non-class session day (so that they don't interfere with the Daily Homework). One huge advantage of this approach is that students are forced to reflect on the previous week's work and it allows them another opportunity to learn the material if they didn't master it the firs time.
 
-If you&#8217;d like to know more about my approach to Daily and Weekly Homework, as well as the felt tip pens, check out the slides for [this talk][2]. In the future, I plan to write a more extensive blog post about the advantages of the felt tip pens and the multiple rounds of revision that the Weekly Homework promotes.
+If you'd like to know more about my approach to Daily and Weekly Homework, as well as the felt tip pens, check out the slides for [this talk][2]. In the future, I plan to write a more extensive blog post about the advantages of the felt tip pens and the multiple rounds of revision that the Weekly Homework promotes.
 
 # Using LaTeX for the Weekly Homework
 
-I either require or strongly encourage my students to type up their Weekly Homework assignments using [LaTeX][3]. In case you don&#8217;t already know, LaTeX (pronounced &#8220;lay-tech&#8221;, or sometimes &#8220;la-tech&#8221;) is a markup language that is the standard for typesetting mathematics (and other technical fields). Most people find it difficult to get started with LaTeX and my students are no exception. To minimize some of the initial difficulties, I encourage them to use [writeLaTeX][4], which is an awesome and free online LaTeX editor. This way students do not need to worry about installing the LaTeX backend and an editor. One advantage to writeLaTeX is that my students can easily share their source documents with me. Whenever they are having difficulty, I can just take a look at their file and either make a comment right in the file or do a quick debug. Another way that I try to reduce the LaTeX start-up cost is by providing my students with a [LaTeX Homework Template][5] (see below).
+I either require or strongly encourage my students to type up their Weekly Homework assignments using [LaTeX][3]. In case you don't already know, LaTeX (pronounced "lay-tech", or sometimes "la-tech") is a markup language that is the standard for typesetting mathematics (and other technical fields). Most people find it difficult to get started with LaTeX and my students are no exception. To minimize some of the initial difficulties, I encourage them to use [writeLaTeX][4], which is an awesome and free online LaTeX editor. This way students do not need to worry about installing the LaTeX backend and an editor. One advantage to writeLaTeX is that my students can easily share their source documents with me. Whenever they are having difficulty, I can just take a look at their file and either make a comment right in the file or do a quick debug. Another way that I try to reduce the LaTeX start-up cost is by providing my students with a [LaTeX Homework Template][5] (see below).
 
 <noscript>
   <pre><code class="language-tex tex">% --------------------------------------------------------------
@@ -129,7 +129,7 @@ Using the template in writeLaTeX is as easy as clicking the link below. Try it!
   </p>
   
   <p>
-    Feel free to use the template and if you have ideas for improvements, I&#8217;d love to hear about them. Lastly, I&#8217;ve written a <a href="{{ site.baseurl }}/quick-latex-guide/">Quick LaTeX Guide</a> to help my students get started with the actual writing of LaTeX.
+    Feel free to use the template and if you have ideas for improvements, I'd love to hear about them. Lastly, I've written a <a href="{{ site.baseurl }}/quick-latex-guide/">Quick LaTeX Guide</a> to help my students get started with the actual writing of LaTeX.
   </p>
   
   <p>

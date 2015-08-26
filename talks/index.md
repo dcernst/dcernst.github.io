@@ -11,7 +11,7 @@ standard_seo_post_meta_description:
 
 Below is list of talks and presentations that I have given over the past several years.  In most cases, there are links to slides.  In particular, you can find the collection of my recent slides on [Speaker Deck][1]. Check out my [scholarship overview page][2] for additional information about my research interests. If you are interested in presentations that my undergraduate research students have given, check out my [undergraduate research page][3].
 
-  * An Iterated Prisoner&#8217;s Dilemma. [Friday Afternoon Mathematics Undergrad Seminar][4] (FAMUS), NAU, Flagstaff, AZ. April 2015. [[Slides][5]]
+  * An Iterated Prisoner's Dilemma. [Friday Afternoon Mathematics Undergrad Seminar][4] (FAMUS), NAU, Flagstaff, AZ. April 2015. [[Slides][5]]
   * Impartial achievement and avoidance games for generating finite groups. [NAU Mathematics and Statistics Colloquium][6], NAU, Flagstaff, AZ. April 2015. [[Slides][7]] 
   * One step forward, one step back: A puzzle approach to Erdős’ discrepancy problem. [Friday Afternoon Mathematics Undergrad Seminar][4] (FAMUS), NAU, Flagstaff, AZ. February 2015. [[Slides][8]]
   * A discussion about inquiry-based learning (part 2). NAU Mathematics and Statistics Teaching Showcase, NAU, Flagstaff, AZ. January 2015. [[Slides][9]]
@@ -27,7 +27,7 @@ Below is list of talks and presentations that I have given over the past several
   * Soup to Nuts: My Approach to IBL. Plenary talk at [2014 IBL Workshop][21], Portland, OR. August 2014. [[Slides][22]] [[Blog Post][23]]
   * Inquiry-Based Education in Mathematics: Models, Methods, and Effectiveness for Higher Education. [Workshop on Innovations in Higher Education Mathematics Teaching][24], [Cardiff University][25], Cardiff, Wales. July 2014. [[Slides][26]] [[GitHub Repository][27]]
   * Tried & True Practices for IBL & Active Learning. [Project NExT][28] Panel Discussion, [Joint Mathematics Meetings][10], Baltimore, MD. January 2014. [[Slides][29]] [[Blog Post][30]]
-  * An Iterated Prisoner&#8217;s Dilemma. NAU Mathematics and Statistics Colloquium, NAU, Flagstaff, AZ. October 2013. [[Slides][31]] [[Blog Post][32]]
+  * An Iterated Prisoner's Dilemma. NAU Mathematics and Statistics Colloquium, NAU, Flagstaff, AZ. October 2013. [[Slides][31]] [[Blog Post][32]]
   * The nim values of combinatorial games on groups respect parity (3 talks). Algebra, Combinatorics, Geometry, and Topology Seminar (ACGT), NAU, Flagstaff, AZ. September-October 2013.
   * Proofs without Words. Friday Afternoon Mathematics Undergrad Seminar (FAMUS), NAU, Flagstaff, AZ. September 2013. [[Slides][33]] [[Blog Post][34]]
   * Introduction to Inquiry-Based Learning. NAU Department of Mathematics & Statistics Teaching Showcase, NAU, Flagstaff, AZ. August 2013. [[Slides][35]] [[Summary of IBL Research by Laursen, et. al][36]] [[Engaging in Dialogue with Students Handout][37]] [[Blog Post][38]]

@@ -25,13 +25,13 @@ Several weeks ago I was asked to take part in the Project NExT Alternative Asses
 
 Here is the abstract for the panel.
 
-> Since classroom assessment is used to determine a student&#8217;s level of mastery, how can we vary our methods of assessment to accurately reflect the diversity of ways that students learn and understand the material? Traditional methods of assessment, such as exams, quizzes, and homework, may not accurately and robustly measure some students’ understanding. In this panel, we will propose alternative methods and discuss the following questions:  
+> Since classroom assessment is used to determine a student's level of mastery, how can we vary our methods of assessment to accurately reflect the diversity of ways that students learn and understand the material? Traditional methods of assessment, such as exams, quizzes, and homework, may not accurately and robustly measure some students’ understanding. In this panel, we will propose alternative methods and discuss the following questions:  
 > &#8211; What assessments exist besides the traditional ones and how can I use them for my course?  
 > &#8211; How can I determine the validity of an alternative assessment?  
 > &#8211; How can I develop my own alternative assessments?  
 > &#8211; How can alternative assessments help me evaluate the effectiveness of a non-traditional classroom?
 
-It is worth pointing out that I&#8217;m not an assessment expert by any stretch of the imagination. Also, given that I had less than 48 hours to prepare amidst a pretty full schedule, I didn&#8217;t have a lot of time to come up with something new and creative for my talk. [Inquiry-based learning][2] (IBL) is one of my passions and I&#8217;ve given quite a few IBL-related talks in the past few months, so I decided to &#8220;twist&#8221; the ideas from some of my recent talks into a talk about assessment. In my talk, I propose implementing IBL not only as a pedagogical approach but also as an assessment strategy. This isn&#8217;t really a stretch since in my view, an effective IBL class is all assessment, all the time.
+It is worth pointing out that I'm not an assessment expert by any stretch of the imagination. Also, given that I had less than 48 hours to prepare amidst a pretty full schedule, I didn't have a lot of time to come up with something new and creative for my talk. [Inquiry-based learning][2] (IBL) is one of my passions and I've given quite a few IBL-related talks in the past few months, so I decided to "twist" the ideas from some of my recent talks into a talk about assessment. In my talk, I propose implementing IBL not only as a pedagogical approach but also as an assessment strategy. This isn't really a stretch since in my view, an effective IBL class is all assessment, all the time.
 
 My fellow panelists included [Theron Hitchman][3] (University of Northern Iowa), [Bonnie Gold][4] (Monmouth University), and Victor Odafe (Bowling Green State University). Theron gave a talk on using Standards Based Assessment (you can find his slides [here][5]), Bonnie spoke on a variety of summative assessment techniques, and Victor shared his experience with oral assessment. It turns out that the person that I was filling for is mathematics education superstar [Jo Boaler][6]. Me filling in for her is ridiculous.
 
@@ -40,7 +40,7 @@ Here are the slides for my portion of the panel.
 <div>
 </div>
 
-Thanks to the organizers of the panel ([Cassie Williams][7] (James Madison University), [Jane Butterfield][8] (University of Minnesota), [John Peter][9] (Utica College), and [Robert Campbell][10] (College of Saint Benedict and Saint John&#8217;s University)) for providing me with the opportunity to speak on the panel.
+Thanks to the organizers of the panel ([Cassie Williams][7] (James Madison University), [Jane Butterfield][8] (University of Minnesota), [John Peter][9] (Utica College), and [Robert Campbell][10] (College of Saint Benedict and Saint John's University)) for providing me with the opportunity to speak on the panel.
 
  [1]: http://jointmathematicsmeetings.org/jmm
  [2]: http://www.inquirybasedlearning.org/?page=What_is_IBL

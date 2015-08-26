@@ -18,7 +18,7 @@ tags:
   - talk
   - teaching
 ---
-On Tuesday, October 16, [Amy Rushall][1] and I co-facilitated a [Faculty Development Workshop][2] at [Northern Arizona University][3]. The title of our workshop was &#8220;Designing Inquiry-Based Learning Experiences.&#8221; Here is the abstract for our session.
+On Tuesday, October 16, [Amy Rushall][1] and I co-facilitated a [Faculty Development Workshop][2] at [Northern Arizona University][3]. The title of our workshop was "Designing Inquiry-Based Learning Experiences." Here is the abstract for our session.
 
 > What is inquiry-based learning (IBL)? Why use IBL? How can you incorporate more IBL into the classes that you teach? In this talk, we will address all of these questions, as well as discuss a few different examples of what an IBL classroom might look like in practice.
 
@@ -29,9 +29,9 @@ The purpose of my portion of the workshop was to introduce inquiry-based learnin
 <div>
 </div>
 
-*Note:* These slides are essentially a subset of slides for similar talks that I&#8217;ve given recently. In particular, see [this blog post][4] and [this one][5].
+*Note:* These slides are essentially a subset of slides for similar talks that I've given recently. In particular, see [this blog post][4] and [this one][5].
 
-Amy&#8217;s part of the workshop addressed more specific ways in which one might apply IBL techniques.
+Amy's part of the workshop addressed more specific ways in which one might apply IBL techniques.
 
  [1]: http://oak.ucc.nau.edu/ald4/
  [2]: http://nau.edu/faculty-development/

@@ -1,5 +1,5 @@
 ---
-title: 'Euler&#8217;s Research Rules'
+title: 'Euler's Research Rules'
 author: Dana Ernst
 layout: post
 permalink: /eulers-research-rules/
@@ -19,13 +19,13 @@ tags:
   - mathematics
   - research
 ---
-Several weeks ago, links to a [survey article][1] by Jeffrey Lagarias about [Euler&#8217;s][2] work and its modern developments and a [blog post][3] by [Richard J. Lipton][4] that discusses Lagarias&#8217; paper were circulated on Google+. I&#8217;d like to thank [Luiz Guzman][5] and [Joerg Fliege][6] for first bringing these items to my attention.
+Several weeks ago, links to a [survey article][1] by Jeffrey Lagarias about [Euler's][2] work and its modern developments and a [blog post][3] by [Richard J. Lipton][4] that discusses Lagarias' paper were circulated on Google+. I'd like to thank [Luiz Guzman][5] and [Joerg Fliege][6] for first bringing these items to my attention.
 
-Lagarias&#8217; paper is full of lots of yummy goodies, but my favorite part is his summary of Euler&#8217;s approach to research (see Section 2.6 of the paper or the end of Lipton&#8217;s post).
+Lagarias' paper is full of lots of yummy goodies, but my favorite part is his summary of Euler's approach to research (see Section 2.6 of the paper or the end of Lipton's post).
 
-## Euler&#8217;s Research Rules
+## Euler's Research Rules
 
-Taken directly from the paper, here is Lagarias&#8217; summary of Euler&#8217;s research rules.
+Taken directly from the paper, here is Lagarias' summary of Euler's research rules.
 
   1. Always attack a special problem. If possible solve the special problem in a way that leads to a general method.
   2. Read and digest every earlier attempts at a theory of the phenomenon in question.
@@ -34,7 +34,7 @@ Taken directly from the paper, here is Lagarias&#8217; summary of Euler&#8217;s 
   5. Never rest content with an imperfect or incomplete argument. If you cannot complete and perfect it yourself, lay bare its flaws for others to see.
   6. Never abandon a problem you have solved. There are always better ways. Keep searching for them, for they lead to a fuller understanding. While broadening, deepen and simplify.
 
-Lipton&#8217;s blog post also lists &#8220;Euler&#8217;s Research Rules.&#8221; My main motivation for reposting them here is to remind myself to follow them!
+Lipton's blog post also lists "Euler's Research Rules." My main motivation for reposting them here is to remind myself to follow them!
 
  [1]: http://arxiv.org/abs/1303.1856
  [2]: http://en.wikipedia.org/wiki/Leonhard_Euler

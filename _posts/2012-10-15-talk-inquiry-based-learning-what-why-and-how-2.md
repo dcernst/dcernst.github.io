@@ -18,7 +18,7 @@ tags:
   - talk
   - teaching
 ---
-On Friday, I gave a talk titled &#8220;Inquiry-Based Learning: What, Why, and How?&#8221; at the [ArizMATYC conference][1], which took place at Yavapai College in Prescott, AZ. ArizMATYC is the Arizona chapter of the [American Mathematical Association of Two Year Colleges][2] (AMATYC). I gave a [nearly identical talk][3] (with the same title) at the Mathematics Instructional Colloquium at the University of Arizona on October 2, 2012. Unlike last time, I did not get that many questions during my talk. It seemed well-received nonetheless. Here&#8217;s the abstract for the talk:
+On Friday, I gave a talk titled "Inquiry-Based Learning: What, Why, and How?" at the [ArizMATYC conference][1], which took place at Yavapai College in Prescott, AZ. ArizMATYC is the Arizona chapter of the [American Mathematical Association of Two Year Colleges][2] (AMATYC). I gave a [nearly identical talk][3] (with the same title) at the Mathematics Instructional Colloquium at the University of Arizona on October 2, 2012. Unlike last time, I did not get that many questions during my talk. It seemed well-received nonetheless. Here's the abstract for the talk:
 
 > What is inquiry-based learning (IBL)? Why use IBL? How can you incorporate more IBL into the classes that you teach? In this talk, we will address all of these questions, as well as discuss a few different examples of what an IBL classroom might look like in practice.
 

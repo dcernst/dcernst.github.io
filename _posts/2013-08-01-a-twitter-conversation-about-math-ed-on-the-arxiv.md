@@ -25,11 +25,11 @@ tags:
 <meta name="twitter:widgets:link-color" content="#4d8b97" />
 
 
-On July 27, 2013, I created a petition on [Change.org][1] to get math.ED &#8211; Mathematics Education added as a category on the [arXiv][2]. You can find the petition [here][3]. At present, there is no dedicated category on the arXiv for math ed and I&#8217;d like to change this. If you want to know how all this got started, check out [this post][4].
+On July 27, 2013, I created a petition on [Change.org][1] to get math.ED &#8211; Mathematics Education added as a category on the [arXiv][2]. You can find the petition [here][3]. At present, there is no dedicated category on the arXiv for math ed and I'd like to change this. If you want to know how all this got started, check out [this post][4].
 
 The last time I checked, we were just shy of 200 signatures on the petition. My initial goal was 50. The support has been quite impressive. Most of the signatures are from the United States, but there are others from around the world. As far as I can tell, support is coming from people with interests in math ed, physics ed, STEM ed, ed tech, math, stats, operations research, secondary education, and more. I even recognized at least one philosopher. Thankfully, it seems we have the support of a few prominent math ed researchers (e.g., [Alan Schoenfeld][5]), which I think is crucial for this to really work.
 
-There have been a few developments with the folks over at the arXiv and I&#8217;ll share the current state of affairs in another post. In the meantime, I thought you might enjoy a conversation that happened on Twitter between myself ([@danaernst][6]) and Republic of Math ([@republicofmath][7]). Matt Boelkins ([@MattBoelkins][8]) chimes in at the end, too. The conversation wasn&#8217;t linear, but I&#8217;ve done my best to list the tweets in an order that makes sense.
+There have been a few developments with the folks over at the arXiv and I'll share the current state of affairs in another post. In the meantime, I thought you might enjoy a conversation that happened on Twitter between myself ([@danaernst][6]) and Republic of Math ([@republicofmath][7]). Matt Boelkins ([@MattBoelkins][8]) chimes in at the end, too. The conversation wasn't linear, but I've done my best to list the tweets in an order that makes sense.
 
 <blockquote class="twitter-tweet">
   <p>

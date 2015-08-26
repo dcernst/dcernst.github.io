@@ -13,7 +13,7 @@ tags:
   - LaTeX
   - writing
 ---
-I&#8217;m currently writing a grant proposal and the narrative is supposed to be double-spaced. As with most of my writing, I&#8217;m using LaTeX. I&#8217;ve double-spaced a .tex document before, but I do it so infrequently that I needed to remind myself how do it. It seems the most common technique is to make use of the `setspace` package, which you can find [here][1] if you don&#8217;t already have it. Here are the steps necessary to double-space.
+I'm currently writing a grant proposal and the narrative is supposed to be double-spaced. As with most of my writing, I'm using LaTeX. I've double-spaced a .tex document before, but I do it so infrequently that I needed to remind myself how do it. It seems the most common technique is to make use of the `setspace` package, which you can find [here][1] if you don't already have it. Here are the steps necessary to double-space.
 
 In the preamble of your document add the line `usepackage{setspace}`. In order to double-space your document, add the line `doublespacing` before `begin{document}`.
 

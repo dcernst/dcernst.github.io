@@ -18,4 +18,4 @@ tags:
   - teaching
 format: quote
 ---
-The best teachers are those who show you where to look, but don&#8217;t tell you what to see.
+The best teachers are those who show you where to look, but don't tell you what to see.

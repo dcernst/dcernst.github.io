@@ -26,21 +26,21 @@ tags:
 ---
 [<img src="{{ site.baseurl }}/images/2013/04/155620_10151570018610419_1847740356_n.jpg?fit=610%2C293" alt="155620_10151570018610419_1847740356_n" class="aligncenter size-full wp-image-757" data-recalc-dims="1" />][1]
 
-[Angie Hodge][2] and I are excited to announce that [Math Ed Matters][3] went live earlier today. *Math Ed Matters* is a (roughly) monthly column sponsored by the [Mathematical Association of America][4] and authored by me and Angie. The column will explore topics and current events related to undergraduate mathematics education. Posts will aim to inspire, provoke deep thought, and provide ideas for the mathematics—and mathematics education—classroom. Our interest in and engagement with [inquiry-based learning][5] (IBL) will color the column&#8217;s content.
+[Angie Hodge][2] and I are excited to announce that [Math Ed Matters][3] went live earlier today. *Math Ed Matters* is a (roughly) monthly column sponsored by the [Mathematical Association of America][4] and authored by me and Angie. The column will explore topics and current events related to undergraduate mathematics education. Posts will aim to inspire, provoke deep thought, and provide ideas for the mathematics—and mathematics education—classroom. Our interest in and engagement with [inquiry-based learning][5] (IBL) will color the column's content.
 
-Our first post is isn&#8217;t terribly exciting; it&#8217;s just an introduction to who we are. Here&#8217;s a sample of what we hope to discuss in future posts:
+Our first post is isn't terribly exciting; it's just an introduction to who we are. Here's a sample of what we hope to discuss in future posts:
 
   * How did Angie and I meet and how did we end up collaborating on this blog?
   * History and impact of [Project NExT][6]
   * Inquiry-Based Learning: What, Why, and How?
   * How and why did Angie and Dana start implementing an IBL approach?
-  * What&#8217;s the Buzz? (Calculus Bee)
+  * What's the Buzz? (Calculus Bee)
   * A recap of the [16th Annual Legacy of R.L. Moore Conference][7] (June 13-15, 2013 in Austin, TX)
   * A recap of [MathFest 2013][8] (July 31-August 3, 2013 in Hartford, CT)
   * Pivotal Moments: How did Dana and Angie get to where they are now?
   * Utilizing open-source technologies and text-books
 
-We&#8217;d love for you to follow along and join in the conversation. What other topics would you like for us to discuss?
+We'd love for you to follow along and join in the conversation. What other topics would you like for us to discuss?
 
 Thanks to the MAA for giving us the opportunity to share our musings with you!
 

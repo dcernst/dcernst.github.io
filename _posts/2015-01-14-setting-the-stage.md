@@ -22,9 +22,9 @@ tags:
   - mathematics
   - teaching
 ---
-Whenever I&#8217;m teaching via [inquiry-based learning][1] (IBL), it is important to get student buy-in. I often refer to this as &#8220;marketing IBL&#8221;. My typical approach to marketing involves having a dialogue with my students, where I ask them leading questions in the hope that at the end of our discussion the students will have told me that something like IBL is exactly what we should be doing.
+Whenever I'm teaching via [inquiry-based learning][1] (IBL), it is important to get student buy-in. I often refer to this as "marketing IBL". My typical approach to marketing involves having a dialogue with my students, where I ask them leading questions in the hope that at the end of our discussion the students will have told me that something like IBL is exactly what we should be doing.
 
-In the past, I would just wing it on day one and it&#8217;s been different every time. However, I&#8217;ve had lots of people ask me to describe exactly what I do and I also thought it would be a good exercise for me to sit down and think carefully about the activity. So, in the fall of 2014, I created some slides to guide the activity, which I am now calling &#8220;Setting the Stage&#8221;. Since then I have shortened the activity and made some improvements. The current version of the activity is inspired by [TJ Hitchman][2], [Mike Starbird][3], and [Brian Katz][4].
+In the past, I would just wing it on day one and it's been different every time. However, I've had lots of people ask me to describe exactly what I do and I also thought it would be a good exercise for me to sit down and think carefully about the activity. So, in the fall of 2014, I created some slides to guide the activity, which I am now calling "Setting the Stage". Since then I have shortened the activity and made some improvements. The current version of the activity is inspired by [TJ Hitchman][2], [Mike Starbird][3], and [Brian Katz][4].
 
 The main idea is that I want to get students thinking about why we there and what we should really be striving to get out of the course. In addition, it helps students understand why I take an IBL approach in my classes. Below is an outline of the the activity.
 
@@ -45,11 +45,11 @@ The main idea is that I want to get students thinking about why we there and wha
   4. What is the value of making mistakes in the learning process?
   5. How do we create a safe environment where risk taking is encouraged and productive failure is valued?
 
-Each time I&#8217;ve run the activity, the responses are slightly different. The responses to the first two questions are usually what you would expect. Question 3 always generates great discussions. The idea of &#8220;productive failure&#8221; naturally arises when discussing question 4 and I provide them with this language sometime while discussing this question. Listening to the students&#8217; responses to question 4 is awesome. It&#8217;s really nice to get the students establishing the necessary culture of the class without me having to tell them what to do.
+Each time I've run the activity, the responses are slightly different. The responses to the first two questions are usually what you would expect. Question 3 always generates great discussions. The idea of "productive failure" naturally arises when discussing question 4 and I provide them with this language sometime while discussing this question. Listening to the students' responses to question 4 is awesome. It's really nice to get the students establishing the necessary culture of the class without me having to tell them what to do.
 
 After we are done discussing the 5 questions, I elaborate on the importance of productive failure and inform that I will often tag things in class with the hashtag &#35;pf in an attempt to emphasize its value. I also provide them with the following quote from [Mike Starbird][3]:
 
-> &#8220;Any creative endeavor is built on the ash heap of failure.” 
+> "Any creative endeavor is built on the ash heap of failure.” 
 
 I wrap up the activity by conveying some claims I make about education and stating some of my goals as a teacher.
 
@@ -69,7 +69,7 @@ Below is the Spring 2015 version of the slides that accompany the activity.
 <div>
 </div>
 
-You can always find the current version of the LaTeX source at my GitHub repo located [here][5]. Note that I&#8217;m using the [beamer m theme][6] for the slides, which require the [Mozilla Fira fonts][7] by default. Feel fee to steal, modify, and improve. And please let me know if do.
+You can always find the current version of the LaTeX source at my GitHub repo located [here][5]. Note that I'm using the [beamer m theme][6] for the slides, which require the [Mozilla Fira fonts][7] by default. Feel fee to steal, modify, and improve. And please let me know if do.
 
  [1]: http://maamathedmatters.blogspot.com/2013/05/what-heck-is-ibl.html
  [2]: http://theronhitchman.github.io

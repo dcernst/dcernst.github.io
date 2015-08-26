@@ -18,7 +18,7 @@ tags:
   - teaching
 format: video
 ---
-I highly recommend watching this video of Professor [Michael Starbird][1] (University of Texas) presenting his insights into the philosophy of teaching at the [Mathematical Association of America PREP Workshop][2] called &#8220;Using Inquiry Based Learning in Second-Year Calculus and Courses for Prospective Teachers&#8221;, which took place at UC Santa Barbara, June 2012.
+I highly recommend watching this video of Professor [Michael Starbird][1] (University of Texas) presenting his insights into the philosophy of teaching at the [Mathematical Association of America PREP Workshop][2] called "Using Inquiry Based Learning in Second-Year Calculus and Courses for Prospective Teachers", which took place at UC Santa Barbara, June 2012.
 
  [1]: http://www.ma.utexas.edu/users/starbird/
  [2]: http://www.maa.org/prep/2012/inquiry.html

@@ -27,11 +27,11 @@ Below is a short video in which Zach was able to provide us with some words of w
 
 When asked whether he had any advice for future students/graduates, Zach responded with:
 
-> Do hard things. It&#8217;s not that I want people to try and fail at things, but even if they do try and fail, that sometimes is the best experience that you can have. Try to do impossible things; you&#8217;d be amazed at how much you grow in just trying to do that. Try to do something bigger than yourself.
+> Do hard things. It's not that I want people to try and fail at things, but even if they do try and fail, that sometimes is the best experience that you can have. Try to do impossible things; you'd be amazed at how much you grow in just trying to do that. Try to do something bigger than yourself.
 
 This dude is going to help change the world for the better.﻿ Well done Zach!
 
-Zach&#8217;s perspective resonates with the reasons that I choose to teach via [inquiry-based learning][2] (IBL). Of course, I want my students to learn mathematics in my classes, but what I really want is to provide them with an opportunity to have a [transformative experience][3]. I want my students to yearn for challenges and to learn to turn their stumbling blocks into stepping stones.
+Zach's perspective resonates with the reasons that I choose to teach via [inquiry-based learning][2] (IBL). Of course, I want my students to learn mathematics in my classes, but what I really want is to provide them with an opportunity to have a [transformative experience][3]. I want my students to yearn for challenges and to learn to turn their stumbling blocks into stepping stones.
 
  [1]: http://plymouth.edu
  [2]: http://maamathedmatters.blogspot.com/2013/05/what-heck-is-ibl.html
