@@ -4,6 +4,16 @@ title: Home
 ---
 
 <div class="posts">
+{% for post in site.posts %}
+<h4><a href="{{ post.url | prepend: site.baseurl }}">
+{{ post.date | date: "%b %-d, %Y" }}: {{ post.title }}</a></h4>
+
+{{ post.excerpt }}
+
+{% endfor %}
+</div>
+
+<div class="posts">
   {% for post in paginator.posts %}
   <div class="post">
     <h1 class="post-title">
