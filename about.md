@@ -51,13 +51,13 @@ Lastly, I am a husband and a father of two incredible sons. Oh, I enjoy drinking
   <div class="col-xs-12 col-sm-6">
     <div>
       <address>
-      <i class="fa fa-university"></i> AMB 176<br />
-      <i class="fa fa-phone"></i> 928.523.6852<br />
-      <i class="fa fa-envelope-o"></i> <a href="mailto:dana.ernst@nau.edu">dana.ernst@nau.edu</a><br />
-      <i class="fa fa-link"></i> <a href="http://danaernst.com">http://danaernst.com</a><br />
-      <i class="fa fa-twitter"></i> <a href="http://twitter.com/danaernst">@danaernst</a> and <a href="http://twitter.com/IBLMath">@IBLMath</a><br />
-      <i class="fa fa-google-plus"></i> <a href="https://plus.google.com/+DanaErnst/posts">+DanaErnst</a><br />
-      <i class="fa fa-github"></i> <a href="https://github.com/dcernst">@dcernst</a>
+      <i class="fa fa-university fa-fw"></i>&nbsp; AMB 176<br />
+      <i class="fa fa-phone fa-fw"></i>&nbsp; 928.523.6852<br />
+      <i class="fa fa-envelope-o fa-fw"></i>&nbsp; <a href="mailto:dana.ernst@nau.edu">dana.ernst@nau.edu</a><br />
+      <i class="fa fa-link fa-fw"></i>&nbsp; <a href="http://danaernst.com">http://danaernst.com</a><br />
+      <i class="fa fa-twitter fa-fw"></i>&nbsp; <a href="http://twitter.com/danaernst">@danaernst</a> and <a href="http://twitter.com/IBLMath">@IBLMath</a><br />
+      <i class="fa fa-google-plus fa-fw"></i>&nbsp; <a href="https://plus.google.com/+DanaErnst/posts">+DanaErnst</a><br />
+      <i class="fa fa-github fa-fw"></i>&nbsp; <a href="https://github.com/dcernst">@dcernst</a>
       </address>
     </div>
   </div>
