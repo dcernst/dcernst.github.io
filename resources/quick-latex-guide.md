@@ -1,8 +1,14 @@
 ---
 title: Quick LaTeX Guide
 author: Dana Ernst
-layout: page
+layout: default
 ---
+
+<ol class="breadcrumb">
+  <li><a href="/">Home</a></li>
+  <li><a href="/resources/">Resources</a></li>
+  <li class="active">{{ page.title }}</li>
+</ol>
 
 <p>This page is intended to be a guide for my students. However, I'm hoping that this page will be of general interest to those just getting started with LaTeX.</p>
 

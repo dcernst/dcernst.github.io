@@ -1,10 +1,15 @@
 ---
 title: Teaching Resources
 author: Dana Ernst
-layout: page
-standard_seo_post_meta_description:
-  - 
+layout: default
 ---
+
+<ol class="breadcrumb">
+  <li><a href="/">Home</a></li>
+  <li><a href="/resources/">Resources</a></li>
+  <li class="active">{{ page.title }}</li>
+</ol>
+
 The resources listed below are intended for both students and teachers. For a list of free and/or open-source textbooks, go [here][1]. Also, check out [Jason Grout's teaching resources][2], which is vastly more extensive than what I list below.
 
 ## General Teaching
