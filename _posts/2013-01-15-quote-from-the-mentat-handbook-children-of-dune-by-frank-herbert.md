@@ -10,4 +10,4 @@ tags:
 format: quote
 ---
 
-<i class="fa fa-quote-left fa-2x fa-pull-left fa-border"></i>There’s no real mystery about this at the moment. This is what we want now. It may prove wrong later, but we’ll correct that when we come to it.
+<i class="fa fa-quote-left fa-2x fa-pull-left fa-border"></i><p class="lead">There’s no real mystery about this at the moment. This is what we want now. It may prove wrong later, but we’ll correct that when we come to it.</p>

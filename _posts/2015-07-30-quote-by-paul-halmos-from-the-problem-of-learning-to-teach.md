@@ -15,4 +15,4 @@ tags:
 format: quote
 ---
 
-<i class="fa fa-quote-left fa-2x fa-pull-left fa-border"></i>The best way to learn is to do; the worst way to teach is to talk.
+<i class="fa fa-quote-left fa-2x fa-pull-left fa-border"></i><p class="lead">The best way to learn is to do; the worst way to teach is to talk.</p>

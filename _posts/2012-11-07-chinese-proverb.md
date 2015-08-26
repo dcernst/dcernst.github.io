@@ -15,4 +15,4 @@ tags:
 format: quote
 ---
 
-<i class="fa fa-quote-left fa-2x fa-pull-left fa-border"></i>The gem cannot be polished without friction, nor man perfected without trials.
+<i class="fa fa-quote-left fa-2x fa-pull-left fa-border"></i><p class="lead">The gem cannot be polished without friction, nor man perfected without trials.</p>

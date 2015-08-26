@@ -13,4 +13,4 @@ tags:
 format: quote
 ---
 
-<i class="fa fa-quote-left fa-2x fa-pull-left fa-border"></i>The best teachers are those who show you where to look, but don't tell you what to see.
+<i class="fa fa-quote-left fa-2x fa-pull-left fa-border"></i><p class="lead">The best teachers are those who show you where to look, but don't tell you what to see.</p>

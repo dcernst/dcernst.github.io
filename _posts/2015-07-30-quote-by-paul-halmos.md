@@ -16,4 +16,4 @@ tags:
 format: quote
 ---
 
-<i class="fa fa-quote-left fa-2x fa-pull-left fa-border"></i>A smooth lecture...may be pleasant; a good teacher challenges, asks, irritates and maintains high standards – all that is generally not pleasant.
+<i class="fa fa-quote-left fa-2x fa-pull-left fa-border"></i><p class="lead">A smooth lecture...may be pleasant; a good teacher challenges, asks, irritates and maintains high standards – all that is generally not pleasant.</p>

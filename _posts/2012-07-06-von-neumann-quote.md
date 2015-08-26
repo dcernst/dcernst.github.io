@@ -3,10 +3,6 @@ title: Quote by John von Neumann
 author: Dana Ernst
 layout: post
 permalink: /von-neumann-quote/
-standard_seo_post_level_layout:
-  - 
-standard_seo_post_meta_description:
-  - 
 categories:
   - Quotes
 tags:
@@ -14,4 +10,5 @@ tags:
   - quote
 format: quote
 ---
-If people do not believe that mathematics is simple, it is only because they do not realize how complicated life is.
+
+<i class="fa fa-quote-left fa-2x fa-pull-left fa-border"></i><p class="lead">If people do not believe that mathematics is simple, it is only because they do not realize how complicated life is.</p>
