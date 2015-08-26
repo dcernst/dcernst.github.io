@@ -3,12 +3,6 @@ title: Quote by Alexandra K. Trenfor
 author: Dana Ernst
 layout: post
 permalink: /quote-by-alexandra-k-trenfor/
-standard_seo_post_level_layout:
-  - 
-standard_link_url_field:
-  - 
-standard_seo_post_meta_description:
-  - 
 categories:
   - Quotes
 tags:
@@ -18,4 +12,5 @@ tags:
   - teaching
 format: quote
 ---
-The best teachers are those who show you where to look, but don't tell you what to see.
+
+<i class="fa fa-quote-left fa-3x fa-pull-left fa-border"></i>The best teachers are those who show you where to look, but don't tell you what to see.

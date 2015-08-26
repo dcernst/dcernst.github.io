@@ -13,4 +13,4 @@ tags:
 format: quote
 ---
 
-The secret to education is in respecting the student.
+<i class="fa fa-quote-left fa-3x fa-pull-left fa-border"></i>The secret to education is in respecting the student.
