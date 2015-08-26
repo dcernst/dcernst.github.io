@@ -34,45 +34,28 @@ Lastly, I am a husband and a father of two incredible sons. Oh, I enjoy drinking
 ## Contact Information ##
 
 <div class="row">
-  <div class="col-xs-12 col-sm-4">
+  <div class="col-xs-12 col-sm-6">
     <div>
-      <h2>Blog</h2>
       <p>
-        Prof. Hitchman's daily log of class activities, with notes on your
-        successes and new questions.
+      Dana C. Ernst, PhD<br />
+      Assistant Professor<br />
+      Department of Mathematics &amp; Statistics<br />
+      Northern Arizona University<br />
+      805 South Osborne Drive<br />
+      PO Box 5717<br />
+      Flagstaff,  AZ  86011
       </p>
-      <div>  
-        <br />
-        <a class="btn btn-info btn-lg btn-block" href="{{ site.baseurl }}/blog/">Blog</a>
-      </div>
     </div>
   </div>
 
-  <div class="col-xs-12 col-sm-4">
+  <div class="col-xs-12 col-sm-6">
     <div>
-      <h2>Tasks</h2>
       <p>
-        All questions and conjectures, including those set by Prof. Hitchman and
-        those you raise.
-        </p>
-      <div>
-        <br />
-        <a class="btn btn-success btn-lg btn-block" href="{{ site.baseurl }}/tasks/">Tasks</a>
-      </div>
-    </div>
-  </div>
-
-  <div class="col-xs-12 col-sm-4">
-    <div>
-      <h2>Journal</h2>
-      <p>
-        Published issues of <i>Transactions in Euclidean Geometry</i>, our class journal,
-        with your finished work.
+      **Office:** AMB 176<br />
+      **Office Phone:**  928.523.6852<br />
+      **Email:** <a href="mailto:dana.ernst@nau.edu">dana.ernst@nau.edu</a><br />
+      **Webpage:** [{{ site.baseurl }}]({{ site.baseurl }})
       </p>
-      <div>
-        <br />
-        <a class="btn btn-warning btn-lg btn-block" href="{{ site.baseurl }}/journal/">Journal</a>
-      </div>
     </div>
   </div>
 
@@ -90,26 +73,5 @@ Flagstaff,  AZ  86011
 **Office Phone:**  928.523.6852<br />
 **Email:** <a href="mailto:dana.ernst@nau.edu">dana.ernst@nau.edu</a><br />
 **Webpage:** [{{ site.baseurl }}]({{ site.baseurl }})
-
-<span class="fa-stack fa-lg">
-  <i class="fa fa-square-o fa-stack-2x"></i>
-  <i class="fa fa-twitter fa-stack-1x"></i>
-</span>
-fa-twitter on fa-square-o<br>
-<span class="fa-stack fa-lg">
-  <i class="fa fa-circle fa-stack-2x"></i>
-  <i class="fa fa-flag fa-stack-1x fa-inverse"></i>
-</span>
-fa-flag on fa-circle<br>
-<span class="fa-stack fa-lg">
-  <i class="fa fa-square fa-stack-2x"></i>
-  <i class="fa fa-terminal fa-stack-1x fa-inverse"></i>
-</span>
-fa-terminal on fa-square<br>
-<span class="fa-stack fa-lg">
-  <i class="fa fa-camera fa-stack-1x"></i>
-  <i class="fa fa-ban fa-stack-2x text-danger"></i>
-</span>
-fa-ban on fa-camera
 
 <em>Note: The views expressed on this blog are my own and are not necessarily shared by my employer <a href="http://nau.edu">Northern Arizona University</a>.</em>
