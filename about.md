@@ -3,7 +3,7 @@ title: About
 author: Dana Ernst
 layout: page
 ---
-<img src="http://i2.wp.com/danaernst.com/wp-content/uploads/2012/07/385719_3687878368288_943747358_n-e1342234614846.jpg?w=200" alt="Hanging out on Squam Lake" class="alignleft size-full wp-image-216" data-recalc-dims="1" />
+<img src="{{ site.baseurl }}/images/2012/07/385719_3687878368288_943747358_n-e1342234614846.jpg?w=200" alt="Hanging out on Squam Lake" class="alignleft size-full wp-image-216" data-recalc-dims="1" />
 
 Welcome! My name is Dana Ernst and I am an assistant professor in the [Department of Mathematics and Statistics][1] at [Northern Arizona University][2] in [Flagstaff, AZ][3]. This blog is part of the [Booles' Rings][4] network of academic home pages/blogs.
 

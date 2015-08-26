@@ -44,7 +44,7 @@ This research project is motivated by a conjecture in graph theory, first stated
 
 > All unicyclic graphs have prime labelings. 
 
-This is a viable choice as a research problem for undergraduates because it is interesting yet accessible, in large part due to the minimal amount of background information required. To wit, a **unicyclic graph** is a simple graph containing exactly one cycle. An $n$-vertex simple graph $G$ with vertex set $V(G)$ is said to have a **prime labeling** if there exists a bijection $f: V(G) \to &#92;{1, 2, 3, \ldots, n&#92;}$ such that the labels assigned to adjacent vertices of $G$ are relatively prime.
+This is a viable choice as a research problem for undergraduates because it is interesting yet accessible, in large part due to the minimal amount of background information required. To wit, a **unicyclic graph** is a simple graph containing exactly one cycle. An $n$-vertex simple graph $G$ with vertex set $V(G)$ is said to have a **prime labeling** if there exists a bijection $f: V(G) \to \{1, 2, 3, \ldots, n\}$ such that the labels assigned to adjacent vertices of $G$ are relatively prime.
 
 As discussed in Gallian's "A Dynamic Survey of Graph Labeling" [[2]][6], many families of graphs have prime labelings; the "simpler" types of unicyclic graphs that are known to have prime labelings include **cycles**, **helms**, **crowns**, and **tadpoles**. The goal of our project will be to discover additional classes of unicyclic graphs with prime labelings, in hopes of bringing the aforementioned conjecture on all unicyclic graphs within reach. The families of graphs we will investigate include, but are not limited to:
 

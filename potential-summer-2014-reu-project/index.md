@@ -5,7 +5,7 @@ layout: page
 standard_seo_post_meta_description:
   - 
 ---
-<img src="http://i2.wp.com/danaernst.com/wp-content/uploads/2013/01/pic8.png?fit=610%2C115" alt="pic8" class="aligncenter size-full wp-image-626" data-recalc-dims="1" />
+<img src="{{ site.baseurl }}/images/2013/01/pic8.png?fit=610%2C115" alt="pic8" class="aligncenter size-full wp-image-626" data-recalc-dims="1" />
 
 The combinatorial nature of [my research][1] naturally lends itself to collaborations with undergraduates, and my goal is to incorporate students in my research as much as possible. Below I outline a potential REU project for 1-4 students to work on during the summer of 2014. For other examples of research projects that I have conducted with undergraduates, see my [undergraduate research page][2].
 

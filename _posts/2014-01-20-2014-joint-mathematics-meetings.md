@@ -34,7 +34,7 @@ tags:
   - Temperley-Lieb algebras
   - undergrad research
 ---
-<img src="http://i2.wp.com/danaernst.com/wp-content/uploads/2014/01/IMG_3817.jpg?fit=610%2C436" alt="Undergraduate Student Poster Session" class="aligncenter size-full wp-image-1171" data-recalc-dims="1" />
+<img src="{{ site.baseurl }}/images/2014/01/IMG_3817.jpg?fit=610%2C436" alt="Undergraduate Student Poster Session" class="aligncenter size-full wp-image-1171" data-recalc-dims="1" />
 
 The [Joint Mathematics Meetings][1] took place last week in Baltimore, MD. The JMM is a joint venture between the [American Mathematical Society][2] and the [Mathematical Association of America][3]. Held each January, the JMM is the largest annual mathematics meeting in the world. Attendance in 2013 was an incredible 6600. I don't know what the numbers were this year, but my impression was that attendance was down from last year.
 

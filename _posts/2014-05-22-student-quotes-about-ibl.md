@@ -39,7 +39,7 @@ It would be a crime if I didn't mention my all-time favorite student quote about
 
 I believe that this last quote perfectly captures the essence of an effective IBL experience for a student. If you want to know about IBL, check out my post, [What the Heck is IBL?][3], over on [Math Ed Matters][7].
 
- [1]: http://i2.wp.com/danaernst.com/wp-content/uploads/2014/05/0241_ernst_math_class_11052013.jpg
+ [1]: {{ site.baseurl }}/images/2014/05/0241_ernst_math_class_11052013.jpg
  [2]: http://www.stanyoshinobu.com
  [3]: http://maamathedmatters.blogspot.com/2013/05/what-heck-is-ibl.html
  [4]: http://www.inquirybasedlearning.org/

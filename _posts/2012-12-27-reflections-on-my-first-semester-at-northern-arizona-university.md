@@ -48,7 +48,7 @@ for the full hour and it wasn't uncommon for me to have close to ten. Office hou
 
 <img src="{{ site.baseurl }}/images/2012/12/IMG_1191-1024x768.jpg?fit=610%2C458" alt="Office Hours" class="aligncenter size-large wp-image-536" data-recalc-dims="1" />
 
-<img src="http://i2.wp.com/danaernst.com/wp-content/uploads/2012/12/IMG_1149-1024x768.jpg?fit=610%2C458" alt="More Office Hours" class="aligncenter size-large wp-image-537" data-recalc-dims="1" />
+<img src="{{ site.baseurl }}/images/2012/12/IMG_1149-1024x768.jpg?fit=610%2C458" alt="More Office Hours" class="aligncenter size-large wp-image-537" data-recalc-dims="1" />
 
 I also supervised an independent study with one graduate student (Kirsten Davis) on the combinatorics of Coxeter groups. If all goes according to plan, Kirsten will receive approval from the graduate committee and will begin writing a masters thesis under my guidance next semester. I'm excited and nervous about supervising my first graduate student.
 

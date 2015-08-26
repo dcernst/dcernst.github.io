@@ -58,8 +58,8 @@ Man, that's complicated!</p>
 
 <ul>
 <li>All inline mathematical notation must be framed by dollar signs.</li>
-<li>All displayed mathematical notation (i.e., on its own line and centered) is of the form <code>&#92;[ math-stuff &#92;]</code>.</li>
-<li>All special symbols in LaTeX are of the form <code>&#92;some-command</code>. Once you've used LaTeX enough, you can almost guess what the command is for a certain symbol.</li>
+<li>All displayed mathematical notation (i.e., on its own line and centered) is of the form <code>\[ math-stuff \]</code>.</li>
+<li>All special symbols in LaTeX are of the form <code>\some-command</code>. Once you've used LaTeX enough, you can almost guess what the command is for a certain symbol.</li>
 </ul>
 
 <h2>Some Examples</h2>
@@ -127,7 +127,7 @@ Man, that's complicated!</p>
 
 <h2>Braces</h2>
 
-<p>In order to produce a left or right brace, the brace needs to be preceded by a backslash. For example, to obtain $\mathbb{N}=&#92;{1,2,3,\ldots&#92;}$ we type <code>$\mathbb{N}=&#92;{1,2,3,\ldots&#92;}$</code> and notice the use of <code>&#92;{</code> and <code>&#92;}</code>, which are needed to obtain the braces for the set.</p>
+<p>In order to produce a left or right brace, the brace needs to be preceded by a backslash. For example, to obtain $\mathbb{N}=\{1,2,3,\ldots\}$ we type <code>$\mathbb{N}=\{1,2,3,\ldots\}$</code> and notice the use of <code>\{</code> and <code>\}</code>, which are needed to obtain the braces for the set.</p>
 
 <h2>Display Style</h2>
 

@@ -3,14 +3,6 @@ title: An infinite non-cyclic group whose proper subgroups are cyclic
 author: Dana Ernst
 layout: post
 permalink: /an-infinite-non-cyclic-group-whose-proper-subgroups-are-cyclic/
-sharing_disabled:
-  - 1
-standard_seo_post_level_layout:
-  - 
-standard_link_url_field:
-  - 
-standard_seo_post_meta_description:
-  - 
 dsq_thread_id:
   - 4020441981
 categories:
@@ -22,7 +14,8 @@ tags:
   - math
   - mathematics
 ---
-<img src="http://i2.wp.com/danaernst.com/wp-content/uploads/2013/12/Q8.png?w=130" alt="Q8" class="alignleft size-full wp-image-1132" data-recalc-dims="1" />The Fall semester of 2013 just ended and one of the classes I taught was [abstract algebra][1]. The course is intended to be an introduction to [groups][2] and [rings][3], although, I spent a lot more time discussing group theory than the latter. A few weeks into the semester, the students were asked to prove the following theorem.
+
+<img src="{{ site.baseurl }}/images/2013/12/Q8.png" width=130 align="left"/>The Fall semester of 2013 just ended and one of the classes I taught was [abstract algebra][1]. The course is intended to be an introduction to [groups][2] and [rings][3], although, I spent a lot more time discussing group theory than the latter. A few weeks into the semester, the students were asked to prove the following theorem.
 
 **Theorem.** If $G$ is a cyclic group, then all the subgroups of $G$ are cyclic.
 
@@ -32,13 +25,13 @@ As with all conditional theorems, I also encouraged my students to think about w
 
 The answer is "no" and my students were able to quickly come up with a few counterexamples. In particular, they mentioned the [dihedral group][4] $D_3$ (symmetry group for an equilateral triangle), the [Klein four-group][5] $V_4$, and the [Quarternion group][6] $Q\_8$. The groups $D\_3$ and $Q\_8$ are both non-abelian and hence non-cyclic, but each have 5 subgroups, all of which are cyclic. The group $V\_4$ happens to be abelian, but is non-cyclic. Yet it has 4 subgroups, all of which are cyclic.
 
-Following the discussion of these three examples, one of my students asked whether the question above is true for infinite groups. I responded with something like, "Uh&#8230;well&#8230;no, I don't think so. Hmmm, let me think about it." So, I thought about it off and on for a couple hours, but didn't make much headway. I decided to roam the hallways and recruit some help. I ended up chatting with my colleagues [Mike Falk][7], [Jim Swift][8], and [Jeff Rushall][9]. Collectively, we all thought about it a little bit here and a little bit there. I was fairly confident that an internet search would provide some insight, but I was intentionally putting that off in the hopes that I could come up with an example.
+Following the discussion of these three examples, one of my students asked whether the question above is true for infinite groups. I responded with something like, "Uh...well...no, I don't think so. Hmmm, let me think about it." So, I thought about it off and on for a couple hours, but didn't make much headway. I decided to roam the hallways and recruit some help. I ended up chatting with my colleagues [Mike Falk][7], [Jim Swift][8], and [Jeff Rushall][9]. Collectively, we all thought about it a little bit here and a little bit there. I was fairly confident that an internet search would provide some insight, but I was intentionally putting that off in the hopes that I could come up with an example.
 
 A couple days later, I was meeting with one of my undergraduate research students and we chatted briefly about the problem. A few hours after we met, he sent me a link to a discussion on [Math Stack Exchange][10], which contains a response that is precisely about the question above.
 
 Without further ado, here's an example that confirms that the answer to the question above is "no" even if the group is infinite.
 
-**Theorem.** The group $G=&#92;{a/2^k\mid a\in\mathbb{Z}, k\in\mathbb{N}&#92;}$ is an infinite non-cyclic group whose proper subgroups are cyclic.
+**Theorem.** The group $G=\{a/2^k\mid a\in\mathbb{Z}, k\in\mathbb{N}\}$ is an infinite non-cyclic group whose proper subgroups are cyclic.
 
 Note that any fixed prime will do for the denominator. Let's sketch a proof.
 

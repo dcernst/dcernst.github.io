@@ -26,7 +26,7 @@ When I was preparing [my talk][1] for the [Legacy of R.L. Moore Conference][2] a
 
 Here's the first comment.
 
-> [&#8230;] he has found the perfect way to teach this course. [&#8230;] The way Professor Ernst had us struggle through homework and then come together as a group and discuss the topics was very beneficial. I personally struggled through most of the material and when I finally got to the right concept I felt like I fully understood it because I personally came to that conclusion. Also, when I didn’t fully understand a topic, coming together and discussing it connected all the gaps I was missing. [&#8230;] As a future educator, I would love to mimic his style of teaching so I can share with my students the same satisfaction that I got out of this style of teaching.
+> [...] he has found the perfect way to teach this course. [...] The way Professor Ernst had us struggle through homework and then come together as a group and discuss the topics was very beneficial. I personally struggled through most of the material and when I finally got to the right concept I felt like I fully understood it because I personally came to that conclusion. Also, when I didn’t fully understand a topic, coming together and discussing it connected all the gaps I was missing. [...] As a future educator, I would love to mimic his style of teaching so I can share with my students the same satisfaction that I got out of this style of teaching.
 
 I stripped out a couple complimentary sentences that addressed me rather than the course. Of course, I'm thrilled about this student's desire to incorporate IBL in their future teaching, but what I really appreciate about this comment is how the student reflects on both his/her independence and collaboration.
 

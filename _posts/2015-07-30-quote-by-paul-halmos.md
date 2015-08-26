@@ -23,4 +23,4 @@ tags:
   - quote
 format: quote
 ---
-A smooth lecture&#8230;may be pleasant; a good teacher challenges, asks, irritates and maintains high standards – all that is generally not pleasant.
+A smooth lecture...may be pleasant; a good teacher challenges, asks, irritates and maintains high standards – all that is generally not pleasant.

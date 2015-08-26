@@ -18,7 +18,7 @@ I'm a big fan of using the Mac productivity tool [Alfred][1] and I use [Evernote
 
 Typically, when I want to create a new note in Evernote, I have something specific that I want to make a note about, and it seemed that having to then click on the note you just created in Evernote to add content defeated the purpose of using Alfred. Within a few hours of asking about this, Kristian was kind enough to create a new script that brings the note you just created to the front for you to add content to. To use this alternate script, copy Kristian's gist found [here][7] and then update the original Evernote script by going to the Extensions tab of Alfred's preferences.
 
-[<img src="http://i2.wp.com/danaernst.com/wp-content/uploads/2011/11/AlfredPreferencesSmall.jpg?w=500" alt="" title="AlfredPreferencesSmall" class="aligncenter size-full wp-image-109" data-recalc-dims="1" />][8]
+[<img src="{{ site.baseurl }}/images/2011/11/AlfredPreferencesSmall.jpg?w=500" alt="" title="AlfredPreferencesSmall" class="aligncenter size-full wp-image-109" data-recalc-dims="1" />][8]
 
  [1]: http://www.alfredapp.com/
  [2]: http://www.evernote.com/
@@ -27,4 +27,4 @@ Typically, when I want to create a new note in Evernote, I have something specif
  [5]: http://meeiw.tumblr.com/post/10559539458/notes-with-tag-support-with-evernote-and-alfred
  [6]: http://meeiw.tumblr.com/
  [7]: https://gist.github.com/1342958
- [8]: http://i2.wp.com/danaernst.com/wp-content/uploads/2011/11/AlfredPreferencesSmall.jpg
+ [8]: {{ site.baseurl }}/images/2011/11/AlfredPreferencesSmall.jpg

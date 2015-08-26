@@ -4,7 +4,7 @@ author: Dana Ernst
 layout: default
 ---
 
-<img src="http://i2.wp.com/danaernst.com/wp-content/uploads/2012/02/Screen-Shot-2013-08-07-at-11.21.58-PM.png?w=200" alt="Type B Temperley--Lieb diagram" class="alignleft size-full wp-image-927" data-recalc-dims="1" />My primary research interests are in the interplay between combinatorics and algebraic structures. More specifically, I study the combinatorics of [Coxeter groups][1] and their associated [Hecke algebras][2], [Kazhdan-Lusztig theory][3], generalized [Temperley-Lieb algebras][4], [diagram algebras][5], and [heaps of pieces][6]. By employing combinatorial tools such as diagram algebras and heaps of pieces, one can gain insight into algebraic structures associated to Coxeter groups, and, conversely, the corresponding structure theory can often lead to surprising combinatorial results.
+<img src="{{ site.baseurl }}/images/2012/02/Screen-Shot-2013-08-07-at-11.21.58-PM.png?w=200" alt="Type B Temperley--Lieb diagram" class="alignleft size-full wp-image-927" data-recalc-dims="1" />My primary research interests are in the interplay between combinatorics and algebraic structures. More specifically, I study the combinatorics of [Coxeter groups][1] and their associated [Hecke algebras][2], [Kazhdan-Lusztig theory][3], generalized [Temperley-Lieb algebras][4], [diagram algebras][5], and [heaps of pieces][6]. By employing combinatorial tools such as diagram algebras and heaps of pieces, one can gain insight into algebraic structures associated to Coxeter groups, and, conversely, the corresponding structure theory can often lead to surprising combinatorial results.
 
 More recently, my research has expanded into [combinatorial game theory][7] (joint with [Nandor Sieben][8] and [Bret Benesh][9]). In particular, our research has focused on avoidance and achievement games involving finite groups.
 
@@ -20,7 +20,7 @@ My interests also include the [scholarship of teaching and learning][10] (SoTL) 
   * [Talks][13]
   * [Math Ed Matters][16]
 
-<img src="http://i2.wp.com/danaernst.com/wp-content/uploads/2013/01/pic8.png?fit=610%2C115" alt="pic8" class="aligncenter size-full wp-image-626" data-recalc-dims="1" />
+<img src="{{ site.baseurl }}/images/2013/01/pic8.png?fit=610%2C115" alt="pic8" class="aligncenter size-full wp-image-626" data-recalc-dims="1" />
 
  [1]: http://en.wikipedia.org/wiki/Coxeter_group
  [2]: http://en.wikipedia.org/wiki/Hecke_algebra

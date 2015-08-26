@@ -7,7 +7,7 @@ sharing_disabled:
 standard_seo_post_meta_description:
   - 
 ---
-<img src="http://i2.wp.com/danaernst.com/wp-content/uploads/2012/02/Screen-Shot-2013-08-07-at-11.21.58-PM.png?w=200" alt="Type B Temperley--Lieb diagram" class="alignleft size-full wp-image-927" data-recalc-dims="1" />
+<img src="{{ site.baseurl }}/images/2012/02/Screen-Shot-2013-08-07-at-11.21.58-PM.png?w=200" alt="Type B Temperley--Lieb diagram" class="alignleft size-full wp-image-927" data-recalc-dims="1" />
 
 Below is list of talks and presentations that I have given over the past several years.  In most cases, there are links to slides.  In particular, you can find the collection of my recent slides on [Speaker Deck][1]. Check out my [scholarship overview page][2] for additional information about my research interests. If you are interested in presentations that my undergraduate research students have given, check out my [undergraduate research page][3].
 
