@@ -11,7 +11,7 @@
 
 <div class="col-xs-12 col-md-8 col-lg-9">
 
-<ul class="pager">
+<!-- <ul class="pager">
 {% if page.previous.url %}
 <li class="previous"><a href="{{page.previous.url | prepend: site.baseurl}}"
 title="Previous: {{page.previous.title}}">
@@ -27,7 +27,12 @@ title="Next: {{page.next.title}}">
 <li class="next disabled"><a href="#">
 {% endif %}
 Next &rarr;</a></li>
-</ul>
+</ul> -->
+
+<ol class="breadcrumb">
+  <li><a href="/">Home</a></li>
+  <li class="active">{{ page.title }}</li>
+</ol>
 
 {{ content }}
 <div class="visible-xs visible-sm">
