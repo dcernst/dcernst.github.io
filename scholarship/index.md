@@ -10,7 +10,7 @@ More recently, my research has expanded into [combinatorial game theory][7] (joi
 
 The combinatorial nature of my research naturally lends itself to collaborations with undergraduate students, and my goal is to incorporate undergraduates in my research as much as possible. If you are an NAU student interested in conducting research in mathematics, please come talk to me! Occasionally, there may be funding available to pay students to do research.
 
-<img src="http://i0.wp.com/danaernst.com/wp-content/uploads/2012/01/AIBL.png?w=149" alt="AIBL Logo" class="alignright size-full wp-image-937" data-recalc-dims="1" />  
+<img src="{{ site.baseurl }}/images/2012/01/AIBL.png?w=149" alt="AIBL Logo" class="alignright size-full wp-image-937" data-recalc-dims="1" />  
 My interests also include the [scholarship of teaching and learning][10] (SoTL) with a focus on [inquiry-based learning][11] (IBL) as an approach to teaching/exploring mathematics. I am currently a Special Projects Coordinator for the [Academy of Inquiry-Based Learning][12] and a mentor for several new IBL practitioners. Moreover, I actively give [talks][13] and organize workshops on the benefits of IBL as well as the nuts and bolts of how to implement this approach in the mathematics classroom.
 
 ## Additional Information

@@ -23,7 +23,7 @@ tags:
   - quote
   - teaching
 ---
-[<img src="http://i0.wp.com/danaernst.com/wp-content/uploads/2014/05/0241_ernst_math_class_11052013-150x150.jpg?resize=150%2C150" alt="High Five" class="alignleft size-thumbnail wp-image-1208" data-recalc-dims="1" />][1] A few weeks ago, [Stan Yoshinobu][2] asked me to round up a few student quotes about their experience with [inquiry-based learning][3] (IBL). The intention is to use some of the material he gets for pamphlets and flyers for the [Academy of Inquiry-Based Learning][4]. I contacted a few of the students from the [abstract algebra course][5] that I taught in the fall and here is what they had to say.
+[<img src="{{ site.baseurl }}/images/2014/05/0241_ernst_math_class_11052013-150x150.jpg?resize=150%2C150" alt="High Five" class="alignleft size-thumbnail wp-image-1208" data-recalc-dims="1" />][1] A few weeks ago, [Stan Yoshinobu][2] asked me to round up a few student quotes about their experience with [inquiry-based learning][3] (IBL). The intention is to use some of the material he gets for pamphlets and flyers for the [Academy of Inquiry-Based Learning][4]. I contacted a few of the students from the [abstract algebra course][5] that I taught in the fall and here is what they had to say.
 
 > &#8220;I&#8217;m a very shy person. Presenting math problems in front of an audience of math students was at first excruciating, but by the end of the course I realized I had gained an enormous amount of confidence. I truly feel that the IBL process has given me access to internal resources I didn&#8217;t realize I had available.&#8221;
 > 

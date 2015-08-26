@@ -50,7 +50,7 @@ Without further ado, here are the slides for my talk.
   </p>
   
   <p>
-    <a href="http://i0.wp.com/danaernst.com/wp-content/uploads/2013/10/Results_for_danasdata.csv.png"><img src="http://i0.wp.com/danaernst.com/wp-content/uploads/2013/10/Results_for_danasdata.csv.png?fit=610%2C458" alt="Results for 2/3 of Average" class="aligncenter size-full wp-image-1094" data-recalc-dims="1" /></a>
+    <a href="{{ site.baseurl }}/images/2013/10/Results_for_danasdata.csv.png"><img src="{{ site.baseurl }}/images/2013/10/Results_for_danasdata.csv.png?fit=610%2C458" alt="Results for 2/3 of Average" class="aligncenter size-full wp-image-1094" data-recalc-dims="1" /></a>
   </p>
   
   <p>

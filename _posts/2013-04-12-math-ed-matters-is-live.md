@@ -24,7 +24,7 @@ tags:
   - RL Moore
   - teaching
 ---
-[<img src="http://i0.wp.com/danaernst.com/wp-content/uploads/2013/04/155620_10151570018610419_1847740356_n.jpg?fit=610%2C293" alt="155620_10151570018610419_1847740356_n" class="aligncenter size-full wp-image-757" data-recalc-dims="1" />][1]
+[<img src="{{ site.baseurl }}/images/2013/04/155620_10151570018610419_1847740356_n.jpg?fit=610%2C293" alt="155620_10151570018610419_1847740356_n" class="aligncenter size-full wp-image-757" data-recalc-dims="1" />][1]
 
 [Angie Hodge][2] and I are excited to announce that [Math Ed Matters][3] went live earlier today. *Math Ed Matters* is a (roughly) monthly column sponsored by the [Mathematical Association of America][4] and authored by me and Angie. The column will explore topics and current events related to undergraduate mathematics education. Posts will aim to inspire, provoke deep thought, and provide ideas for the mathematics—and mathematics education—classroom. Our interest in and engagement with [inquiry-based learning][5] (IBL) will color the column&#8217;s content.
 
@@ -44,7 +44,7 @@ We&#8217;d love for you to follow along and join in the conversation. What other
 
 Thanks to the MAA for giving us the opportunity to share our musings with you!
 
- [1]: http://i0.wp.com/danaernst.com/wp-content/uploads/2013/04/155620_10151570018610419_1847740356_n.jpg
+ [1]: {{ site.baseurl }}/images/2013/04/155620_10151570018610419_1847740356_n.jpg
  [2]: http://www.unomaha.edu/math/people/hodge/
  [3]: http://maamathedmatters.blogspot.com
  [4]: http://maa.org
