@@ -5,8 +5,7 @@ title: Home
 
 <div class="posts">
 {% for post in site.posts %}
-<h4><a href="{{ post.url | prepend: site.baseurl }}">
-{{ post.date | date: "%b %-d, %Y" }}: {{ post.title }}</a></h4>
+<h2><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
 
 {{ post.excerpt }}
 
@@ -14,19 +13,18 @@ title: Home
 </div>
 
 <div class="posts">
-  {% for post in paginator.posts %}
-  <div class="post">
-    <h1 class="post-title">
-      <a href="{{site.baseurl}}{{ post.url }}">
-        {{ post.title }}
-      </a>
-    </h1>
+<!--  {% for post in paginator.posts %} -->
+{% for post in site.posts %}
+<div class="post">
+<h1 class="post-title">
+<a href="{{site.baseurl}}{{ post.url }}">{{ post.title }}</a>
+</h1>
 
-    <span class="post-date">{{ post.date | date_to_string }}</span>
+<span class="post-date">{{ post.date | date_to_string }}</span>
 
-    {{ post.content }}
-  </div>
-  {% endfor %}
+{{ post.content }}
+</div>
+{% endfor %}
 </div>
 
 <div class="pagination">
