@@ -7,7 +7,7 @@ layout: default
 <ol class="breadcrumb">
   <li><a href="/"><i class="fa fa-home"></i></a></li>
   <li><a href="/resources/">Resources</a></li>
-  <li class="active">{{ page.title }}</li>
+  <li class="active">LaTeX Guide</li>
 </ol>
 
 <p>This page is intended to be a guide for my students. However, I'm hoping that this page will be of general interest to those just getting started with LaTeX.</p>

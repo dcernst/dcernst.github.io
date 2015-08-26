@@ -7,12 +7,13 @@ layout: default
 <ol class="breadcrumb">
   <li><a href="/"><i class="fa fa-home"></i></a></li>
   <li><a href="/resources/">Resources</a></li>
-  <li class="active">{{ page.title }}</li>
+  <li class="active">IBL</li>
 </ol>
 
 ## What is IBL?
 
-<img src="{{ site.baseurl }}/images/2012/01/AIBL.png" width="149" align="left" img style="margin-right: 15px" />Let me begin by stating that this is a really difficult question to answer! [Inquiry-based learning][1] (IBL) manifests itself differently in different contexts. In particular, an IBL practitioner often modifies his/her approach from one class to the next. In many mathematics classrooms, doing mathematics means following the rules dictated by the teacher and knowing mathematics means remembering and applying these rules. However, an IBL approach challenges students to think like mathematicians and to acquire their own knowledge by creating/discovering mathematics. In general, IBL is a student-centered method of teaching mathematics.
+<!-- <img src="{{ site.baseurl }}/images/2012/01/AIBL.png" width="149" align="left" img style="margin-right: 15px" /> -->
+Let me begin by stating that this is a really difficult question to answer! [Inquiry-based learning][1] (IBL) manifests itself differently in different contexts. In particular, an IBL practitioner often modifies his/her approach from one class to the next. In many mathematics classrooms, doing mathematics means following the rules dictated by the teacher and knowing mathematics means remembering and applying these rules. However, an IBL approach challenges students to think like mathematicians and to acquire their own knowledge by creating/discovering mathematics. In general, IBL is a student-centered method of teaching mathematics.
 
 According to the [Academy of Inquiry-Based Learning][2], IBL engages students in sense-making activities. Students are given tasks requiring them to:
 
