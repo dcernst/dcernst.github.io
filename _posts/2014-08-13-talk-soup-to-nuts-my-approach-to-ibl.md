@@ -21,4 +21,4 @@ On day three of the workshop, I gave a 30-minute plenary talk. Most of the sessi
 <script async class="speakerdeck-embed" data-id="22a19f90023a0132492042912cd7a191" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
 </div>
 
-I'd like to think that my talk was more than the content of the slides, however, the slides ought be useful on their own for someone that is curious [about IBL][7]. This talk was similar to others about IBL that [I've given in the past]http://danaernst.com/?s=inquiry-based+learning+talk.
+I'd like to think that my talk was more than the content of the slides, however, the slides ought be useful on their own for someone that is curious [about IBL](http://maamathedmatters.blogspot.com/2013/05/what-heck-is-ibl.html). This talk was similar to others about IBL that [I've given in the past](http://danaernst.com/?s=inquiry-based+learning+talk).
