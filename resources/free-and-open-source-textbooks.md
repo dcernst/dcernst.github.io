@@ -38,15 +38,15 @@ Here is a (partial) list of free and/or open-source textbooks. If you find one o
   * [An Introduction to Proof via Inquiry-Based Learning][36] by Dana C. Ernst (Northern Arizona University). I wrote these IBL course materials for an introduction to proof course. The first half of the notes are an adaptation of notes written by [Stan Yoshinobu][37] (Cal Poly) and [Matthew Jones][38] (California State University Dominguez Hills). I'd be be thrilled if others decided to use these. Please let me know if you do.
   * [Introduction to Proof][39] by Ron Taylor (Berry College). These IBL notes are available from the [Journal of Inquiry-Based Learning in Mathematics][40].
   * [Notes for a Course on Proofs][41] by Jacqueline A. Jensen-Vallin (Slippery Rock University). Another set of IBL notes available from the [Journal of Inquiry-Based Learning in Mathematics][40].
-  * [Mathematical Reasoning: Writing and Proof][42] by Ted Sundstrom (Grand Valley State University). This textbook is designed for the first course in the college mathematics curriculum that introduces students to the process of constructing and writing proofs. This book is included in the approved list of textbooks for the [Open Textbook Initiative][5] by the [American Institute of Mathematics][43]. There are also over 100 screencasts that accompany the book.
+  * [Mathematical Reasoning: Writing and Proof][42] by Ted Sundstrom (Grand Valley State University). This textbook is designed for the first course in the college mathematics curriculum that introduces students to the process of constructing and writing proofs. This book is included in the approved list of textbooks for the [Open Textbook Initiative](http://www.aimath.org/textbooks/textbooklist.html) by the [American Institute of Mathematics](http://www.aimath.org). There are also over 100 screencasts that accompany the book.
 
 ### Linear Algebra
 
-  * [A First Course in Linear Algebra][44] by [Rob Beezer][45] (Puget Sound University). FCLA is a free and open-source introductory textbook designed for university sophomores and juniors. The book begins with systems of linear equations, then covers matrix algebra, before taking up finite-dimensional vector spaces in full generality. The book is available for free in PDF and HTML form.
-  * [Linear Algebra][46] by [Jim Hefferon][47] (St. Michael's College). This is another free and open-source textbook.
-  * [Linear Algebra][48] by David Clark (SUNY New Paltz). These notes are available for free from the [Journal of Inquiry-Based Learning in Mathematics][49]. The notes are designed for an inquiry-based learning (IBL) approach to the subject.
-  * [Linear Algebra][50] by [Gilbert Strang][14] (MIT). This isn't really a textbook, but rather free course materials, including videos, available from the [MIT Open Courseware Project][15].
-  * [Paul’s Online Math Notes][21] by [Paul Dawkins][22] (Lamar University).
+  * [A First Course in Linear Algebra](http://linear.ups.edu/index.html) by [Rob Beezer](http://buzzard.ups.edu/) (Puget Sound University). FCLA is a free and open-source introductory textbook designed for university sophomores and juniors. The book begins with systems of linear equations, then covers matrix algebra, before taking up finite-dimensional vector spaces in full generality. The book is available for free in PDF and HTML form.
+  * [Linear Algebra](http://joshua.smcvt.edu/linearalgebra/) by [Jim Hefferon](http://joshua.smcvt.edu/math/hefferon.html) (St. Michael's College). This is another free and open-source textbook.
+  * [Linear Algebra](http://www.jiblm.org/downloads/dlitem.aspx?id=63&category=jiblmjournal) by David Clark (SUNY New Paltz). These notes are available for free from the [Journal of Inquiry-Based Learning in Mathematics](http://www.jiblm.org/index.aspx). The notes are designed for an inquiry-based learning (IBL) approach to the subject.
+  * [Linear Algebra](http://ocw.mit.edu/courses/mathematics/18-06sc-linear-algebra-fall-2011/) by [Gilbert Strang](http://www-math.mit.edu/~gs/) (MIT). This isn't really a textbook, but rather free course materials, including videos, available from the [MIT Open Courseware Project](http://ocw.mit.edu/index.htm).
+  * [Paul’s Online Math Notes](http://tutorial.math.lamar.edu/) by [Paul Dawkins](http://www.math.lamar.edu/faculty/dawkins/dawkins.aspx) (Lamar University).
 
 ### Combinatorics
 
@@ -74,14 +74,6 @@ Here is a (partial) list of free and/or open-source textbooks. If you find one o
  [40]: http://www.jiblm.org
  [41]: http://www.jiblm.org/downloads/dlitem.aspx?id=88&category=jiblmjournal
  [42]: https://sites.google.com/site/mathematicalreasoning3ed/
- [43]: http://www.aimath.org/
- [44]: http://linear.ups.edu/index.html
- [45]: http://buzzard.ups.edu/
- [46]: http://joshua.smcvt.edu/linearalgebra/
- [47]: http://joshua.smcvt.edu/math/hefferon.html
- [48]: http://www.jiblm.org/downloads/dlitem.aspx?id=63&category=jiblmjournal
- [49]: http://www.jiblm.org/index.aspx
- [50]: http://ocw.mit.edu/courses/mathematics/18-06sc-linear-algebra-fall-2011/
 
  [53]: http://dcernst.github.io/IBL-AbstractAlgebra/
  [54]: http://math.colorado.edu/~wiscons/
