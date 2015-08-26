@@ -4,7 +4,12 @@ author: Dana Ernst
 layout: default
 ---
 
-<img src="{{ site.baseurl }}/images/2012/02/Screen-Shot-2013-08-07-at-11.21.58-PM.png?w=200" alt="Type B Temperley--Lieb diagram" class="alignleft size-full wp-image-927" data-recalc-dims="1" />My primary research interests are in the interplay between combinatorics and algebraic structures. More specifically, I study the combinatorics of [Coxeter groups][1] and their associated [Hecke algebras][2], [Kazhdan-Lusztig theory][3], generalized [Temperley-Lieb algebras][4], [diagram algebras][5], and [heaps of pieces][6]. By employing combinatorial tools such as diagram algebras and heaps of pieces, one can gain insight into algebraic structures associated to Coxeter groups, and, conversely, the corresponding structure theory can often lead to surprising combinatorial results.
+<ol class="breadcrumb">
+  <li><a href="/">Home</a></li>
+  <li class="active">Scholarship</li>
+</ol>
+
+<img src="{{ site.baseurl }}/images/2012/02/Screen-Shot-2013-08-07-at-11.21.58-PM.png" width="200" align="left" img style="margin-right: 15px"/>My primary research interests are in the interplay between combinatorics and algebraic structures. More specifically, I study the combinatorics of [Coxeter groups][1] and their associated [Hecke algebras][2], [Kazhdan-Lusztig theory][3], generalized [Temperley-Lieb algebras][4], [diagram algebras][5], and [heaps of pieces][6]. By employing combinatorial tools such as diagram algebras and heaps of pieces, one can gain insight into algebraic structures associated to Coxeter groups, and, conversely, the corresponding structure theory can often lead to surprising combinatorial results.
 
 More recently, my research has expanded into [combinatorial game theory][7] (joint with [Nandor Sieben][8] and [Bret Benesh][9]). In particular, our research has focused on avoidance and achievement games involving finite groups.
 
