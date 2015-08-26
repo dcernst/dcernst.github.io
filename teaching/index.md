@@ -1,12 +1,12 @@
 ---
-title: Resources
+title: Teaching
 author: Dana Ernst
 layout: default
 ---
 
 <ol class="breadcrumb">
   <li><a href="/"><i class="fa fa-home"></i></a></li>
-  <li class="active">Resources</li>
+  <li class="active">Teaching</li>
 </ol>
 
 The resources listed below are intended for both students and teachers.

@@ -5,7 +5,7 @@ layout: default
 ---
 
 <ol class="breadcrumb">
-  <li><a href="/">Home</a></li>
+  <li><a href="/"><i class="fa fa-home"></i></a></li>
   <li class="active">Scholarship</li>
 </ol>
 
