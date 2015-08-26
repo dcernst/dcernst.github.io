@@ -20,7 +20,7 @@ tags:
   - teaching
   - Theron Hitchman
 ---
-[<img src="http://i1.wp.com/danaernst.com/wp-content/uploads/2013/05/13-1.jpg?fit=610%2C458" alt="13 - 1" class="aligncenter size-full wp-image-778" data-recalc-dims="1" />][1]
+[<img src="{{ site.baseurl }}/images/2013/05/13-1.jpg?fit=610%2C458" alt="13 - 1" class="aligncenter size-full wp-image-778" data-recalc-dims="1" />][1]
 
 On Saturday, May 5, 2013, I was joined by [TJ Hitchman][2] (University of Northern Iowa) for the Michigan Project NExT Panel Discussion on Teaching Strategies for Improving Student Learning, which was part of the [2013 Spring MAA Michigan Section Meeting][3] at [Lake Superior State University][4]. The title of the session was &#8220;Teaching Strategies for Improving Student Learning&#8221; and was organized by [Robert Talbert][5] (Grand Valley State University). The dynamic looking guy in the photo above is TJ.
 
@@ -39,7 +39,7 @@ Here are the slides for my portion of the panel.
 
 Despite low attendance at the panel, I think it went well. Thanks to Robert for inviting TJ and me!
 
- [1]: http://i1.wp.com/danaernst.com/wp-content/uploads/2013/05/13-1.jpg
+ [1]: {{ site.baseurl }}/images/2013/05/13-1.jpg
  [2]: http://www.uni.edu/theron/
  [3]: https://sites.google.com/site/2013michiganmaa/home
  [4]: http://www.lssu.edu
