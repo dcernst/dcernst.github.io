@@ -5,7 +5,7 @@ layout: default
 ---
 
 <ol class="breadcrumb">
-  <li><a href="#">Home</a></li>
+  <li><a href="/">Home</a></li>
   <li><a href="/scholarship">Scholarship</a></li>
   <li class="active">Academic Writing</li>
 </ol>
