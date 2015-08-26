@@ -15,7 +15,7 @@ tags:
   - mathematics
 ---
 
-<img src="{{ site.baseurl }}/images/2013/12/Q8.png" width=130 align="left"/>The Fall semester of 2013 just ended and one of the classes I taught was [abstract algebra][1]. The course is intended to be an introduction to [groups][2] and [rings][3], although, I spent a lot more time discussing group theory than the latter. A few weeks into the semester, the students were asked to prove the following theorem.
+<img src="{{ site.baseurl }}/images/2013/12/Q8.png" width=130 align="left" class="image-rounded"/>The Fall semester of 2013 just ended and one of the classes I taught was [abstract algebra][1]. The course is intended to be an introduction to [groups][2] and [rings][3], although, I spent a lot more time discussing group theory than the latter. A few weeks into the semester, the students were asked to prove the following theorem.
 
 **Theorem.** If $G$ is a cyclic group, then all the subgroups of $G$ are cyclic.
 
