@@ -25,10 +25,10 @@ Below is a list of my published articles and theses.
   * D.C. Ernst, A. Hodge, and A. Schultz. Enhancing Proof Writing via Cross-Institutional Peer Review. *PRIMUS* 25(2), 121-130, 2015. [[DOI:10.1080/10511970.2014.921652][15]]
   * B. Beaudrie, D.C. Ernst, and B. Boschmans. Redesigning an Algebra for Precalculus Course. In T. Bastiaens & G. Marks (Eds.), *Proceedings of World Conference on E-Learning in Corporate, Government, Healthcare, and Higher Education*, 2013. Chesapeake, VA: AACE. [[EdITLib][16]]
   * B. Beaudrie, B. Boschmans, and D.C. Ernst. First Semester Experiences in Implementing a Mathematics Emporium Model. In R. McBride & M. Searson (Eds.), *Proceedings of Society for Information Technology & Teacher Education International Conference*, 2013. Chesapeake, VA: AACE. [[EdITLib][17]]
-  * D.C. Ernst. Diagram calculus for a type affine $C$ Temperley-Lieb algebra, I. *J. Pure Appl. Alg.* 216(11), 2012. [[arXiv:0910.0925][18]]
+  * D.C. Ernst. Diagram calculus for a type affine *C* Temperley-Lieb algebra, I. *J. Pure Appl. Alg.* 216(11), 2012. [[arXiv:0910.0925][18]]
   * T. Boothby, J. Burkert, M. Eichwald, D.C. Ernst, R.M. Green, and M. Macauley. On the Cyclically Fully Commutative Elements of Coxeter Groups. *J. Algebraic Combin.* 36(1), 2012. [[arXiv:1202.6657][19]]
-  * D.C. Ernst. Non-cancellable elements in type affine $C$ Coxeter groups, *Int. Electron. J. Algebra* 8, 2010. [[arXiv:0910.0923][20]]
-  * D.C. Ernst. A diagrammatic representation of an affine $C$ Temperley&#8211;Lieb algebra, PhD Thesis, University of Colorado, 2008. [[arXiv:0905.4457][21]]
+  * D.C. Ernst. Non-cancellable elements in type affine *C* Coxeter groups, *Int. Electron. J. Algebra* 8, 2010. [[arXiv:0910.0923][20]]
+  * D.C. Ernst. A diagrammatic representation of an affine *C* Temperley&#8211;Lieb algebra, PhD Thesis, University of Colorado, 2008. [[arXiv:0905.4457][21]]
   * D.C. Ernst. Cell Complexes for Arrangements with Group Actions, MS Thesis, Northern Arizona University, 2000. [[arXiv:0905.4434][22]]
 
 ## Submitted/Preprints
@@ -39,7 +39,7 @@ Below is a list of papers that have been submitted, but not yet accepted for pub
   * D.C. Ernst and N. Sieben. Impartial achievement and avoidance games for generating finite groups. Submitted to *International Journal of Game Theory*. [[arXiv:1407.0784][24]]
   * B.J. Benesh, D.C. Ernst, and N. Sieben. Impartial avoidance games for generating finite groups. Submitted to *J. Algebraic Combin.* [[arXiv:1506.07105][25]]
   * B.J. Benesh, D.C. Ernst, and N. Sieben. Impartial avoidance and achievement games for generating symmetric and alternating groups. Submitted to *Int. Electron. J. Algebra*. [[arxiv:1508.03419](http://arxiv.org/abs/1508.03419)]
-  * D.C. Ernst. Diagram calculus for a type affine $C$ Temperley-Lieb algebra, II. Submitted to *J. Pure Appl. Alg.*. [[arXiv:1101.4215][26]]
+  * D.C. Ernst. Diagram calculus for a type affine *C* Temperley-Lieb algebra, II. Submitted to *J. Pure Appl. Alg.*. [[arXiv:1101.4215][26]]
 
 ## In Preparation
 
