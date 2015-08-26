@@ -17,7 +17,9 @@ tags:
 
 <img src="{{ site.baseurl }}/images/2013/12/Q8.png" width="200" align="left" img style="margin-right: 15px"/>The Fall semester of 2013 just ended and one of the classes I taught was [abstract algebra](http://teaching.danaernst.com/mat411f13/). The course is intended to be an introduction to [groups](http://en.wikipedia.org/wiki/Group_theory) and [rings](http://en.wikipedia.org/wiki/Ring_theory), although, I spent a lot more time discussing group theory than the latter. A few weeks into the semester, the students were asked to prove the following theorem.
 
-**Theorem.** If $G$ is a cyclic group, then all the subgroups of $G$ are cyclic.
+## Theorem ##
+
+If $G$ is a cyclic group, then all the subgroups of $G$ are cyclic.
 
 As with all conditional theorems, I also encouraged my students to think about whether the converse of this theorem is true. That is, if all the subgroups of a group $G$ are cyclic, does this imply that $G$ is cyclic? Well, since $G$ is always a subgroup of itself, the answer is clearly yes. But this isn't the interesting question to ask. Instead, we should ask:
 
