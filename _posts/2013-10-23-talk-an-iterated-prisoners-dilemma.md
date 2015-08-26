@@ -1,14 +1,8 @@
 ---
-title: 'Talk: An Iterated Prisoner's Dilemma'
+title: 'An Iterated Prisoner's Dilemma (Talk)'
 author: Dana Ernst
 layout: post
 permalink: /talk-an-iterated-prisoners-dilemma/
-standard_seo_post_level_layout:
-  - 
-standard_link_url_field:
-  - 
-standard_seo_post_meta_description:
-  - 
 categories:
   - Mathematics Posts
   - Talks
@@ -36,27 +30,27 @@ I ended up choosing the Prisoner's Dilemma as a topic because I wanted to learn 
 Without further ado, here are the slides for my talk.
 
 <center>
-  </p> 
-  
+  </p>
+
   <p>
   </p>
-  
+
   <p>
     </center>
   </p>
-  
+
   <p>
     As you can see, the talk began with an activity involving the <a href="http://en.wikipedia.org/wiki/Guess_2/3_of_the_average">Two Thirds of Average Game</a>. During the activity, the audience made two different guesses. While I was giving the rest of the talk, I had a volunteer enter all the guesses into a csv file on the <a href="https://cloud.sagemath.com/">Sagemath Cloud</a>. At the end of the talk, I ran <a href="https://github.com/drvinceknight/two_thirds_of_the_average_game">Vince's python script</a> on the csv file in the Sagemath cloud. The output told me who the winners were for both rounds of guessing and provided a dandy looking graph, seen below.
   </p>
-  
+
   <p>
     <a href="{{ site.baseurl }}/images/2013/10/Results_for_danasdata.csv.png"><img src="{{ site.baseurl }}/images/2013/10/Results_for_danasdata.csv.png?fit=610%2C458" alt="Results for 2/3 of Average" class="aligncenter size-full wp-image-1094" data-recalc-dims="1" /></a>
   </p>
-  
+
   <p>
     I provided the winners with some chocolate.
   </p>
-  
+
   <p>
     Around slide 18, the plan was to conduct an Iterated Prisoner's Dilemma tournament involving 4 teams, but I was a little worried about running out of time. So, I decided to wait until the end of the talk and do it if I had time. I ended up squeezing in a 3-team tournament that we probably flew through too quickly to get much out of, but it was fun nonetheless. The three team names were the United States, North Korea, and Russia. North Korea ended up winning, but only by a small margin.
   </p>

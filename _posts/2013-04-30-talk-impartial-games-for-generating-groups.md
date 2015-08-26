@@ -1,14 +1,8 @@
 ---
-title: 'Talk: Impartial games for generating groups'
+title: 'Impartial games for generating groups (Talk)'
 author: Dana Ernst
 layout: post
 permalink: /talk-impartial-games-for-generating-groups/
-standard_seo_post_level_layout:
-  - 
-standard_link_url_field:
-  - 
-standard_seo_post_meta_description:
-  - 
 dsq_thread_id:
   - 4020442260
 categories:

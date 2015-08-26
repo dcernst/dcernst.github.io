@@ -1,14 +1,8 @@
 ---
-title: 'Talk: Indiana Project NExT Panel Discussion on Inquiry-Based Learning'
+title: 'Indiana Project NExT Panel Discussion on Inquiry-Based Learning (Talk)'
 author: Dana Ernst
 layout: post
 permalink: /talk-indiana-project-next-panel-discussion-on-inquiry-based-learning/
-standard_seo_post_level_layout:
-  - 
-standard_link_url_field:
-  - 
-standard_seo_post_meta_description:
-  - 
 dsq_thread_id:
   - 4020442608
 categories:

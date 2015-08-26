@@ -1,16 +1,8 @@
 ---
-title: 'Talk: An Introduction to Inquiry-Based Learning'
+title: 'An Introduction to Inquiry-Based Learning (Talk)'
 author: Dana Ernst
 layout: post
 permalink: /talk-an-introduction-to-inquiry-based-learning/
-sharing_disabled:
-  - 1
-standard_seo_post_level_layout:
-  - 
-standard_link_url_field:
-  - 
-standard_seo_post_meta_description:
-  - 
 categories:
   - Teaching Posts
 tags:

@@ -1,14 +1,8 @@
 ---
-title: 'Talk: Euler's characteristic, soccer balls, and golf balls'
+title: 'Euler's characteristic, soccer balls, and golf balls (Talk)'
 author: Dana Ernst
 layout: post
 permalink: /talk-eulers-characteristic-soccer-balls-and-golf-balls/
-standard_seo_post_level_layout:
-  - 
-standard_link_url_field:
-  - 
-standard_seo_post_meta_description:
-  - 
 categories:
   - Talks
 tags:

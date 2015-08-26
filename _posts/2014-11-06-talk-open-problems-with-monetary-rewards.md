@@ -1,16 +1,8 @@
 ---
-title: 'Talk: Open problems with monetary rewards'
+title: 'Open problems with monetary rewards (Talk)'
 author: Dana Ernst
 layout: post
 permalink: /talk-open-problems-with-monetary-rewards/
-sharing_disabled:
-  - 1
-standard_seo_post_level_layout:
-  - 
-standard_link_url_field:
-  - 
-standard_seo_post_meta_description:
-  - 
 categories:
   - Mathematics Posts
   - Talks
@@ -36,7 +28,7 @@ If you solve one of these, you can reach Conway by sending snail mail (only) in 
 
 Around the same time that I stumbled onto these problems, I was brainstorming ideas for a couple of upcoming talks that I was slated to give (one for undergraduates and one for high school students). I decided that discussing open problems with monetary rewards with an emphasis on Conway's problems would likely make for a nice talk. Here is the abstract that I settled on for both talks.
 
-> There is a history of individuals and organizations offering monetary rewards for solutions, either in the affirmative or negative, to difficult mathematically-oriented problems. For example, the Millennium Prize Problems are seven problems in mathematics that were stated by the Clay Mathematics Institute in 2000. A correct solution to any of the problems results in a $\$1,000,000$ prize being awarded by the institute. To date, only one of the problems has been solved (the Poincaré Conjecture was solved by Grigori Perelman, but he declined the award in 2010). These are hard problems! The renowned mathematician John Conway (Princeton) maintains a list of open problems and for each problem on the list, he is offering $\$,1000$ to the first person that provides a correct solution. In this talk, we will explore a few of Conway’s problems, and in the unlikely event we come up with a solution, we’ll split the money. 
+> There is a history of individuals and organizations offering monetary rewards for solutions, either in the affirmative or negative, to difficult mathematically-oriented problems. For example, the Millennium Prize Problems are seven problems in mathematics that were stated by the Clay Mathematics Institute in 2000. A correct solution to any of the problems results in a $\$1,000,000$ prize being awarded by the institute. To date, only one of the problems has been solved (the Poincaré Conjecture was solved by Grigori Perelman, but he declined the award in 2010). These are hard problems! The renowned mathematician John Conway (Princeton) maintains a list of open problems and for each problem on the list, he is offering $\$,1000$ to the first person that provides a correct solution. In this talk, we will explore a few of Conway’s problems, and in the unlikely event we come up with a solution, we’ll split the money.
 
 On Friday, October 24, 2014, I gave [a talk][6] during the Friday Afternoon Mathematics Undergraduate Seminar (FAMUS) at NAU. Speaking at FAMUS is always fun and my talk seemed to be well-recieved.
 

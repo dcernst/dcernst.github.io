@@ -1,14 +1,8 @@
 ---
-title: 'Talk: Teaching Strategies for Improving Student Learning'
+title: 'Teaching Strategies for Improving Student Learning (Talk)'
 author: Dana Ernst
 layout: post
 permalink: /talk-teaching-strategies-for-improving-student-learning/
-standard_seo_post_level_layout:
-  - 
-standard_link_url_field:
-  - 
-standard_seo_post_meta_description:
-  - 
 categories:
   - Talks
   - Teaching Posts

@@ -1,14 +1,8 @@
 ---
-title: 'Talk: The Futurama Theorem and some refinements'
+title: 'The Futurama Theorem and some refinements (Talk)'
 author: Dana Ernst
 layout: post
 permalink: /talk-the-futurama-theorem-and-some-refinements/
-standard_seo_post_level_layout:
-  - 
-standard_link_url_field:
-  - 
-standard_seo_post_meta_description:
-  - 
 dsq_thread_id:
   - 4020442559
 categories:

@@ -1,14 +1,8 @@
 ---
-title: 'Talk: A diagrammatic representation of the Temperley-Lieb algebra'
+title: 'A diagrammatic representation of the Temperley-Lieb algebra (Talk)'
 author: Dana Ernst
 layout: post
 permalink: /talk-a-diagrammatic-representation-of-the-temperley-lieb-algebra/
-standard_seo_post_level_layout:
-  - 
-standard_link_url_field:
-  - 
-standard_seo_post_meta_description:
-  - 
 categories:
   - Mathematics Posts
   - Talks

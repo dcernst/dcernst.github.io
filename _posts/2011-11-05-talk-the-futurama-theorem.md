@@ -1,18 +1,8 @@
 ---
-title: 'Talk: The Futurama Theorem'
+title: 'The Futurama Theorem (Talk)'
 author: Dana Ernst
 layout: post
 permalink: /talk-the-futurama-theorem/
-tumblr_dcernst_permalink:
-  - http://dcernst.tumblr.com/post/12374547343/talk-about-the-futurama-theorem
-tumblr_dcernst_id:
-  - 12374547343
-standard_seo_post_level_layout:
-  - 
-standard_link_url_field:
-  - 
-standard_seo_post_meta_description:
-  - 
 categories:
   - Talks
 tags:

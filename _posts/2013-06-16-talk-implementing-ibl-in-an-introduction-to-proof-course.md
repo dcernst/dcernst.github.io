@@ -1,14 +1,8 @@
 ---
-title: 'Talk: Implementing IBL in an Introduction to Proof Course'
+title: 'Implementing IBL in an Introduction to Proof Course (Talk)'
 author: Dana Ernst
 layout: post
 permalink: /talk-implementing-ibl-in-an-introduction-to-proof-course/
-standard_seo_post_level_layout:
-  - 
-standard_link_url_field:
-  - 
-standard_seo_post_meta_description:
-  - 
 categories:
   - Talks
   - Teaching Posts

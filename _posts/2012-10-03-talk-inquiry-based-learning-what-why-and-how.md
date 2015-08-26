@@ -1,14 +1,8 @@
 ---
-title: 'Talk: Inquiry Based Learning: What, Why, and How?'
+title: 'Inquiry Based Learning: What, Why, and How? (Talk)'
 author: Dana Ernst
 layout: post
 permalink: /talk-inquiry-based-learning-what-why-and-how/
-standard_seo_post_level_layout:
-  - 
-standard_link_url_field:
-  - 
-standard_seo_post_meta_description:
-  - 
 categories:
   - Talks
 tags:

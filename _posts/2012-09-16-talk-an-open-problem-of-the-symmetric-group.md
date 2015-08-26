@@ -1,14 +1,8 @@
 ---
-title: 'Talk: An open problem of the symmetric group'
+title: 'An open problem of the symmetric group (Talk)'
 author: Dana Ernst
 layout: post
 permalink: /talk-an-open-problem-of-the-symmetric-group/
-standard_seo_post_level_layout:
-  - 
-standard_link_url_field:
-  - 
-standard_seo_post_meta_description:
-  - 
 dsq_thread_id:
   - 4020442650
 categories:

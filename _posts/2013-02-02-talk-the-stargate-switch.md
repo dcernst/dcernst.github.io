@@ -1,14 +1,8 @@
 ---
-title: 'Talk: The Stargate Switch'
+title: 'The Stargate Switch (Talk)'
 author: Dana Ernst
 layout: post
 permalink: /talk-the-stargate-switch/
-standard_seo_post_level_layout:
-  - 
-standard_link_url_field:
-  - 
-standard_seo_post_meta_description:
-  - 
 categories:
   - Mathematics Posts
   - Talks

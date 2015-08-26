@@ -1,14 +1,8 @@
 ---
-title: 'Talk: Using IBL as an assessment strategy'
+title: 'Using IBL as an assessment strategy (Talk)'
 author: Dana Ernst
 layout: post
 permalink: /talk-using-ibl-as-an-assessment-strategy/
-standard_seo_post_level_layout:
-  - 
-standard_link_url_field:
-  - 
-standard_seo_post_meta_description:
-  - 
 dsq_thread_id:
   - 4020442385
 categories:
