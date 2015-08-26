@@ -4,6 +4,12 @@ author: Dana Ernst
 layout: default
 ---
 
+<ol class="breadcrumb">
+  <li><a href="/">Home</a></li>
+  <li><a href="/scholarship">Scholarship</a></li>
+  <li class="active">{{ page.title }}</li>
+</ol>
+
 The combinatorial nature of [my research]({{ site.baseurl }}/scholarship/) naturally lends itself to collaborations with undergraduates, and my goal is to incorporate students in my research as much as possible. If you are an NAU student interested in conducting research in mathematics, please come talk to me! Occasionally, there may be funding available to pay students to do research.
 
 Here is a list of my current and recent undergraduate research projects that are roughly arranged chronologically.
@@ -22,7 +28,7 @@ Here is a list of my current and recent undergraduate research projects that are
 
 The [Sylver Coinage Game](https://en.wikipedia.org/wiki/Sylver_coinage) is a game in which 2 players, $A$ and $B$, alternately name positive integers that are not the sum of nonnegative multiples of previously named integers. The person who names 1 is the loser! Here is a sample game between $A$ and $B$:
 
-1. $A$ opens with 5. Now neither player can name 5, 10, 15,...
+1. $A$ opens with 5. Now neither player can name 5, 10, 15,$\ldots$
 2. $B$ names 4. Now neither player can name 4, 5, 8, 9, 10, or any number greater than 11.
 3. $A$ names 11. Now the only remaining numbers are 1, 2, 3, 6, and 7.
 4. $B$ names 6. Now the only remaining numbers are 1, 2, 3, and 7.
@@ -40,7 +46,7 @@ During the 2015-2016 academic year, this question will be the focus of a researc
 In addition, we will study a simplified version of the Sylver Coinage game that goes as follows. In the simplified version of the game, a fixed positive integer $n\geq 3$ is agreed upon in advance.  Then 2 players, $A$ and $B$, alternately name positive integers from the set $\\{1,2,\ldots,n\\}$ that are not the sum of nonnegative multiples of previously named numbers among $\\{1,2,\ldots,n\\}$. The person who is forced to name 1 is the loser! Here is a sample game between $A$ and $B$ using the set $\\{1,2,3,4,5,6,7,8,9,10\\}$ (i.e., $n=10$):
 
 1. $A$ opens with 4. Now neither player can name 4, 8.
-2. $B$ names 5. Neither player can name 4, 5, 8,9, 10.
+2. $B$ names 5. Neither player can name 4, 5, 8, 9, 10.
 3. $A$ names 6. Neither player can name 4, 5, 6, 8, 9, 10.
 4. $B$ names 3. Neither player can name 3, 4, 5, 6, 7, 8, 9, 10.
 5. $A$ names 2. Neither player can name 2, 3, 4, 5, 6, 7, 8, 9, 10.

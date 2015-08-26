@@ -3,6 +3,7 @@ title: Talks
 author: Dana Ernst
 layout: default
 ---
+
 <ol class="breadcrumb">
   <li><a href="/">Home</a></li>
   <li><a href="/scholarship">Scholarship</a></li>
