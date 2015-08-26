@@ -18,7 +18,7 @@ One of the things that I like best about Zach is his enthusiasm for life. His po
 Below is a short video in which Zach was able to provide us with some words of wisdom.
 
 <center>
-<iframe width="560" height="315" src="//www.youtube.com/embed/bjXsBWihTOM" frameborder="0" allowfullscreen></iframe>
+<iframe width="500" src="//www.youtube.com/embed/bjXsBWihTOM" frameborder="0"></iframe>
 </center>
 
 When asked whether he had any advice for future students/graduates, Zach responded with:
