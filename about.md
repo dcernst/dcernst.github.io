@@ -9,6 +9,21 @@ layout: default
   <li class="active">{{ page.title }}</li>
 </ol>
 
+<div class="row">
+  <div class="col-xs-12 col-sm-3">
+    <div><img src="{{ site.baseurl }}/images/2012/07/385719_3687878368288_943747358_n-e1342234614846.jpg" width="200" align="center" img style="margin: 10px" /></div>
+  </div>
+
+  <div class="col-xs-12 col-sm-9">
+    <div>
+    <p>Welcome!  My name is Dana Ernst and I am an assistant professor in the [Department of Mathematics and Statistics](http://nau.edu/cefns/natsci/math/) at [Northern Arizona University](http://nau.edu) in [Flagstaff, AZ](https://maps.google.com/maps?q=Flagstaff,+AZ&amp;hl=en&amp;sll=37.0625,-95.677068&amp;sspn=57.161276,109.511719&amp;oq=fl&amp;hnear=Flagstaff,+Coconino,+Arizona&amp;t=m&amp;z=12).  This blog is part of the [Booles' Rings](http://boolesrings.org) network of academic home pages/blogs.</p>
+
+    <p>My primary research interests are in the interplay between combinatorics and algebraic structures. More specifically, I study the combinatorics of [Coxeter groups](http://en.wikipedia.org/wiki/Coxeter_group) and their associated [Hecke algebras](http://en.wikipedia.org/wiki/Hecke_algebra), [Kazhdan-Lusztig theory](http://en.wikipedia.org/wiki/Kazhdan%E2%80%93Lusztig_polynomial), generalized [Temperley-Lieb algebras](http://en.wikipedia.org/wiki/Temperley-Lieb_algebra), [diagram algebras](http://en.wikipedia.org/wiki/Planar_algebra), and [heaps of pieces](http://www.emis.de/journals/SLC/books/heaps.ps). By employing combinatorial tools such as diagram algebras and heaps of pieces, one can gain insight into algebraic structures associated to Coxeter groups, and, conversely, the corresponding structure theory can often lead to surprising combinatorial results.</p>
+    </div>
+  </div>
+
+</div>
+
 <img src="{{ site.baseurl }}/images/2012/07/385719_3687878368288_943747358_n-e1342234614846.jpg" width="200" align="left" img style="margin-right: 15px" />Welcome!  My name is Dana Ernst and I am an assistant professor in the [Department of Mathematics and Statistics](http://nau.edu/cefns/natsci/math/) at [Northern Arizona University](http://nau.edu) in [Flagstaff, AZ](https://maps.google.com/maps?q=Flagstaff,+AZ&amp;hl=en&amp;sll=37.0625,-95.677068&amp;sspn=57.161276,109.511719&amp;oq=fl&amp;hnear=Flagstaff,+Coconino,+Arizona&amp;t=m&amp;z=12).  This blog is part of the [Booles' Rings](http://boolesrings.org) network of academic home pages/blogs.
 
 My primary research interests are in the interplay between combinatorics and algebraic structures. More specifically, I study the combinatorics of [Coxeter groups](http://en.wikipedia.org/wiki/Coxeter_group) and their associated [Hecke algebras](http://en.wikipedia.org/wiki/Hecke_algebra), [Kazhdan-Lusztig theory](http://en.wikipedia.org/wiki/Kazhdan%E2%80%93Lusztig_polynomial), generalized [Temperley-Lieb algebras](http://en.wikipedia.org/wiki/Temperley-Lieb_algebra), [diagram algebras](http://en.wikipedia.org/wiki/Planar_algebra), and [heaps of pieces](http://www.emis.de/journals/SLC/books/heaps.ps). By employing combinatorial tools such as diagram algebras and heaps of pieces, one can gain insight into algebraic structures associated to Coxeter groups, and, conversely, the corresponding structure theory can often lead to surprising combinatorial results.
