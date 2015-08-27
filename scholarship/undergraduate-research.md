@@ -76,8 +76,8 @@ If you want to know more, check out the slides linked to in [this blog post]({{ 
 For the Fall 2014-Spring 2015 academic year, my colleague [Jeff Rushall](https://nau.edu/CEFNS/NatSci/Math/Directory-Full-Time/Rushall-Jeff/) and I were awarded a [Center for Undergraduate Research in Mathematics](http://curm.byu.edu) (CURM) mini-grant to fund a small group of undergraduate students to work on an original research project in the area of graph theory.  For the project, we recruited a diverse group of 7 talented undergraduates: Nathan Diefenderfer, Michael Hastings (one of my past research students), Levi Heath, Hannah Prawzinsky, Briahna Preston, Emily White, and Alyssa Whittemore. Our research was inspired by two conjectures:
 
 <div class="well">
-<p>All unicyclic graphs have a prime vertex labeling (Seoud and Youssef, 1999).</p>
-<p>All tree graphs have a prime vertex labeling (Entringer-Tout Conjecture, 1980).</p>
+All unicyclic graphs have a prime vertex labeling (Seoud and Youssef, 1999).<br />
+All tree graphs have a prime vertex labeling (Entringer-Tout Conjecture, 1980).
 </div>
 
 A **unicyclic graph** is a simple graph containing exactly one cycle. An $n$-vertex simple graph $G$ with vertex set $V(G)$ is said to have a **prime vertex labeling** if there exists a bijection $f: V(G) \to \\{1, 2, 3, \ldots, n\\}$ such that the labels assigned to adjacent vertices of $G$ are relatively prime.
