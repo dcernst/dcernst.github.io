@@ -31,9 +31,9 @@ Welcome to the course web page for the Fall 2015 manifestation of MAT 136: Calcu
 ## Instructor Information ##
 
 <address>
-<i class="fa-li fa fa-user"></i>&nbsp; Dana C. Ernst, PhD<br />
+<i class="fa fa-user fa-fw"></i>&nbsp; Dana C. Ernst, PhD<br />
 <i class="fa fa-university fa-fw"></i>&nbsp; AMB 176<br />
-<i class="fa-li fa fa-users"></i>&nbsp; TBA (or by appointment)<br />
+<i class="fa fa-users fa-fw"></i>&nbsp; TBA (or by appointment)<br />
 <i class="fa fa-envelope-o fa-fw"></i>&nbsp; <a href="mailto:dana.ernst@nau.edu">dana.ernst@nau.edu</a><br />
 <i class="fa fa-phone fa-fw"></i>&nbsp; 928.523.6852<br />
 <i class="fa fa-link fa-fw"></i>&nbsp; <a href="http://danaernst.com">http://danaernst.com</a>
