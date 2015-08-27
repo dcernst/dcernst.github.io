@@ -27,7 +27,7 @@ Here is a (partial) list of free and/or open-source textbooks. If you find one o
 
 ### Differential Equations ###
 
-  * [Introductory Differential Equations using Sage](http://sage.math.washington.edu/home/wdj/teaching/DiffyQ/des-book.pdf) (PDF) by [David Joyner](http://www.usna.edu/Users/math/wdj/) (United State Naval Academy).
+  * [Introductory Differential Equations using Sage](http://sage.math.washington.edu/home/wdj/teaching/DiffyQ/des-book.pdf) (PDF) by [David Joyner]((http://wdjoyner.com/)) (United State Naval Academy).
 
 ### Discrete Mathematics ###
 
@@ -57,7 +57,6 @@ Here is a (partial) list of free and/or open-source textbooks. If you find one o
   * [An Inquiry-Based Approach to Abstract Algebra][53] is a set of IBL course materials for an abstract algebra course that emphasizes visualization and incorporates technology. The notes are written by me with help from [Josh Wiscons][54] and [Ben Woodruff][55]. Very much a work in progress.
   * [Abstract Algebra: Theory and Applications][56] by [Tom Judson][57] (Stephen F. Austin University).
   * [Essential Group Theory][58] by [Michael Batty][59] (University of Durham).
-  * [Adventures in Group Theory: Rubik's Cube, Merlin's Machine, and Other Mathematical Toys][60] (PDF, auto-download) by by [David Joyner][32] (United State Naval Academy).
   * [Group Theory: Birdtracks, Lie’s, and Exceptional Groups][61] by [Predrag Cvitanović][62] (Georgia Tech).
 
 ### Real Analysis
