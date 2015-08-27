@@ -10,11 +10,11 @@ layout: default
 </ol>
 
 <div class="row">
-  <div class="col-xs-12 col-sm-3">
+  <div class="col-xs-12 col-m-4 col-sm-3">
     <div class="center-block"><img src="{{ site.baseurl }}/images/2012/07/385719_3687878368288_943747358_n-e1342234614846.jpg" class="img-responsive" align="center" /></div>
   </div>
 
-  <div class="col-xs-12 col-sm-9">
+  <div class="col-xs-12 col-m-8 col-sm-9">
     <div>
     <p>Welcome!  My name is Dana Ernst and I am an assistant professor in the <a href="http://nau.edu/cefns/natsci/math/">Department of Mathematics and Statistics</a> at <a href="http://nau.edu">Northern Arizona University</a> in <a href="https://maps.google.com/maps?q=Flagstaff,+AZ&amp;hl=en&amp;sll=37.0625,-95.677068&amp;sspn=57.161276,109.511719&amp;oq=fl&amp;hnear=Flagstaff,+Coconino,+Arizona&amp;t=m&amp;z=12">Flagstaff, AZ</a>.  This site is part of the <a href="http://boolesrings.org">Booles' Rings</a> network of academic home pages/blogs.</p>
 
