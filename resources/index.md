@@ -16,4 +16,4 @@ The resources listed below are intended for both students and teachers.
   * [Inquiry-Based Learning]({{ site.baseurl }}/resources/inquiry-based-learning/)
   * [Quick LaTeX Guide]({{ site.baseurl }}/resources/quick-latex-guide/)
 
-If you are interested in resources for a particular course, visit my [Teaching page]({{ site.baseurl }}/teaching/), navigate to the desired course, and then look for links titled Course Materials and/or Course Resources.
+If you are interested in resources for a particular course, visit my [Teaching page]({{ site.baseurl }}/teaching/) and navigate to the desired course.
