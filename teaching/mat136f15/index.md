@@ -1,5 +1,5 @@
 ---
-title: Teaching
+title: Calculus I - Fall 2015
 author: Dana Ernst
 layout: default
 ---
@@ -10,29 +10,21 @@ layout: default
   <li class="active">Calculus I - Fall 2015</li>
 </ol>
 
-<div class="list-group">
-  <button type="button" class="list-group-item">Cras justo odio</button>
-  <button type="button" class="list-group-item">Dapibus ac facilisis in</button>
-  <button type="button" class="list-group-item">Morbi leo risus</button>
-  <button type="button" class="list-group-item">Porta ac consectetur ac</button>
-  <button type="button" class="list-group-item">Vestibulum at eros</button>
-</div>
-
-<div id="right">
-<h2>Calculus I</h2>
-<ul>
-<li><a href="http://teaching.danaernst.com/mat136f14/" title="Calculus I – Fall 2014">Course Webpage</a></li>
-<li><a href="http://teaching.danaernst.com/mat136f14/syllabus/" title="Syllabus">Syllabus</a></li>
-<li><a href="http://teaching.danaernst.com/mat136f14/materials/" title="Course Materials">Course Materials</a></li>
-<li><a href="http://teaching.danaernst.com/mat136f14/resources/" title="Course Resources">Course Resources</a></li>
-<li><a href="http://teaching.danaernst.com/mat136f14/homework/" title="Homework">Homework</a></li>
-<li><a href="https://webwork.math.nau.edu/webwork2/DErnst_136/" target="_blank">WeBWorK</a></li>
-</ul>
-<img src="{{ site.baseurl }}/images/2012/08/RiemannSum-300x191.png" width="200" align="center" />
-</div>
-
 ## Welcome ##
-Welcome to the course web page for the Fall 2014 manifestation of MAT 136: Calculus I (Section 1, Honors) at [Northern Arizona University](http://nau.edu).
+Welcome to the course web page for the Fall 2015 manifestation of MAT 136: Calculus I (Section 1, Honors) at [Northern Arizona University](http://nau.edu).
+
+<div class="row">
+<div class="col-xs-12">
+<h3>Course Information</h3>
+<p>Detailed Information about the course and its structure is available at these pages.</p>
+<div class="btn-group btn-group-justified">
+<a class="btn btn-default" href="{{site.baseurl}}/teaching/mat136f15/syllabus/">Syllabus</a>
+<a class="btn btn-default" href="{{site.baseurl}}/teaching/mat136f15/materials">Course Materials</a>
+<a class="btn btn-default" href="{{site.baseurl}}/teaching/mat136f15/homework/">Homework</a>
+<a class="btn btn-default" href="{{site.baseurl}}/teaching/mat136f15/journal/">Journal</a>
+</div>
+</div>
+</div>
 
 ## What is this course all about? ##
 This course is a first calculus course concentrating on limits, continuity, the derivative, and integration. Applications are made to classical problems in physics and other sciences. For more details, see the [syllabus](http://teaching.danaernst.com/courses/mat136f14/syllabus/).
