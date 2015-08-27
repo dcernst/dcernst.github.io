@@ -15,7 +15,6 @@ Welcome to the course web page for the Fall 2015 manifestation of MAT 136: Calcu
 
 <div class="row">
 <div class="col-xs-12">
-<p>Detailed Information about the course and its structure is available at these pages.</p>
 <div class="btn-group btn-group-justified">
 <a class="btn btn-default btn-success" href="{{site.baseurl}}/teaching/mat136f15/syllabus/">Syllabus</a>
 
@@ -30,6 +29,22 @@ Welcome to the course web page for the Fall 2015 manifestation of MAT 136: Calcu
 </div>
 
 ## Instructor Information ##
+
+<ul class="fa-ul">
+<li><i class="fa-li fa fa-user"></i>&nbsp; Dana C. Ernst, PhD</li>
+<li><i class="fa-li fa fa-users"></i>&nbsp; TBA</li>
+</ul>
+
+<address>
+<i class="fa fa-university fa-fw"></i>&nbsp; AMB 176<br />
+<i class="fa fa-phone fa-fw"></i>&nbsp; 928.523.6852<br />
+<i class="fa fa-envelope-o fa-fw"></i>&nbsp; <a href="mailto:dana.ernst@nau.edu">dana.ernst@nau.edu</a><br />
+<i class="fa fa-link fa-fw"></i>&nbsp; <a href="http://danaernst.com">http://danaernst.com</a><br />
+<i class="fa fa-twitter fa-fw"></i>&nbsp; <a href="http://twitter.com/danaernst">@danaernst</a> and <a href="http://twitter.com/IBLMath">@IBLMath</a><br />
+<i class="fa fa-google-plus fa-fw"></i>&nbsp; <a href="https://plus.google.com/+DanaErnst/posts">+DanaErnst</a><br />
+<i class="fa fa-github fa-fw"></i>&nbsp; <a href="https://github.com/dcernst">@dcernst</a>
+</address>
+
 
 <div class="row">
   <div class="col-xs-12 col-sm-6">
