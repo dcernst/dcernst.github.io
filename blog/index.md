@@ -1,24 +1,18 @@
 ---
 layout: default
-title: Home
+title: Blog Posts
 ---
 
-<!-- <ul class="post-list"> -->
 <ul class="list-unstyled">
     {% for post in site.posts %}
       <li>
         <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }} </span>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl}}">{{ post.title }}</a>
-
-        <p><a href="{{ post.url | prepend: site.baseurl}}#disqus_thread" data-disqus-identifier="{{ post.url |prepend: site.baseurl}}">Comments</a>
-
-<!--         <a href="{{ post.url | prepend: site.baseurl }}#disqus_thread" data-disqus-identifier="{{post.url}}"></a> -->
-        </p>  
-        <p>{{post.excerpt}}
-       </p>
+        <a class="post-link" href="{{ post.url | prepend: site.baseurl}}">{{ post.title }}</a>
+        <p><a href="{{ post.url | prepend: site.baseurl}}#disqus_thread" data-disqus-identifier="{{ post.url |prepend: site.baseurl}}">Comments</a></p>  
+        <p>{{post.excerpt}}</p>
       </li>
     {% endfor %}
-  </ul>
+</ul>
 
 <!-- <div class="posts">
 {% for post in site.posts %}
