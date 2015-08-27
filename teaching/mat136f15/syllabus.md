@@ -26,6 +26,34 @@ layout: default
 </div>
 </div>
 
+
+<div class="row">
+  <div class="col-xs-12 col-sm-6">
+    <div>
+    <h2>General Info</h2>
+    <strong>Title:</strong> MAT 136H: Calculus I (Honors)<br />
+    <strong>Semester:</strong> Fall 2015<br />
+    <strong>Credits:</strong> 4<br />
+    <strong>Section:</strong> 1<br />
+    <strong>Time:</strong> MWThF at 9:10-10:00AM<br />
+    <strong>Location:</strong> AMB 162
+    </div>
+  </div>
+
+  <div class="col-xs-12 col-sm-6">
+    <div>
+      <h2>Instructor Info</h2>
+      <i class="fa fa-user fa-fw"></i>&nbsp; Dana C. Ernst, PhD<br />
+      <i class="fa fa-university fa-fw"></i>&nbsp; AMB 176<br />
+      <i class="fa fa-users fa-fw"></i>&nbsp; 11:15-12:30PM MWF (or by appointment)<br />
+      <i class="fa fa-envelope-o fa-fw"></i>&nbsp; <a href="mailto:dana.ernst@nau.edu">dana.ernst@nau.edu</a><br />
+      <i class="fa fa-phone fa-fw"></i>&nbsp; 928.523.6852<br />
+      <i class="fa fa-link fa-fw"></i>&nbsp; <a href="http://dcernst.github.io/teaching/mat136f15">dcernst.github.io/teaching/mat136f15</a>
+    </div>
+  </div>
+
+</div>
+
 ## General Information ##
 **Title:** MAT 136H: Calculus I (Honors)<br />
 **Semester:** Fall 2015<br />
