@@ -31,7 +31,7 @@ Moreover, I am active on [Google+](http://plus.google.com) and post regularly ab
 
 Lastly, I am a husband and a father of two incredible sons. Oh, I enjoy drinking copious amounts of coffee, too.
 
-## Contact Information ##
+## Contact Info ##
 
 <div class="row">
   <div class="col-xs-12 col-sm-6">

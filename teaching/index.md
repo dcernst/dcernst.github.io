@@ -15,7 +15,7 @@ Welcome to Dana C. Ernst's Teaching page.  This section is primarily designed fo
 
 All of the work contained in this site is licensed under a [Creative Commons Attribution-Share Alike 3.0 United States License](http://creativecommons.org/licenses/by-sa/3.0/us/). Almost all of the PDF files on my web site were generated using [LaTeX](http://en.wikipedia.org/wiki/LaTeX). If you are interested in the source code, please [contact me](mailto:dana.ernst@nau.edu).
 
-## Instructor Information ##
+## Instructor Info ##
 
 <div class="row">
   <div class="col-xs-12 col-sm-6">
@@ -49,7 +49,7 @@ All of the work contained in this site is licensed under a [Creative Commons Att
 </div>
 
 ## Office Hours ##
-My current office hours for Fall 2015 are TBA (or by appointment). My office is located in room 176 of the [Adel Mathematics Building](http://maps.google.com/maps?q=Adel+Mathematics,+Flagstaff,+AZ&hl=en&sll=35.181208,-111.607959&sspn=0.231222,0.42675&oq=adel+mathe&hnear=Adel+Mathematics,+Flagstaff,+Arizona+86001&t=m&z=17) (Building 26).
+My current office hours for Fall 2015 are 11:15-12:30PM on MWF (or by appointment). My office is located in room 176 of the [Adel Mathematics Building](http://maps.google.com/maps?q=Adel+Mathematics,+Flagstaff,+AZ&hl=en&sll=35.181208,-111.607959&sspn=0.231222,0.42675&oq=adel+mathe&hnear=Adel+Mathematics,+Flagstaff,+Arizona+86001&t=m&z=17) (Building 26).
 
 ## Current Courses ##
 Here are the courses that I am currently teaching (Fall 2015) at [Northern Arizona University](http://nau.edu).  For previous courses, see below.
