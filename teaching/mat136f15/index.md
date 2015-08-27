@@ -11,11 +11,10 @@ layout: default
 </ol>
 
 ## Welcome ##
-Welcome to the course web page for the Fall 2015 manifestation of MAT 136: Calculus I (Section 1, Honors) at [Northern Arizona University](http://nau.edu).
+Welcome to the course web page for the Fall 2015 manifestation of MAT 136: Calculus I (Section 1, Honors) at [Northern Arizona University](http://nau.edu). This course is a first calculus course concentrating on limits, continuity, the derivative, and integration. Applications are made to classical problems in physics and other sciences. Detailed Information about the course and its structure is available at these pages.
 
 <div class="row">
 <div class="col-xs-12">
-<h2>Course Information</h2>
 <p>Detailed Information about the course and its structure is available at these pages.</p>
 <div class="btn-group btn-group-justified">
 <a class="btn btn-default btn-success" href="{{site.baseurl}}/teaching/mat136f15/syllabus/">Syllabus</a>
@@ -29,9 +28,6 @@ Welcome to the course web page for the Fall 2015 manifestation of MAT 136: Calcu
 </div>
 </div>
 </div>
-
-## What is this course all about? ##
-This course is a first calculus course concentrating on limits, continuity, the derivative, and integration. Applications are made to classical problems in physics and other sciences. For more details, see the [syllabus](http://teaching.danaernst.com/courses/mat136f14/syllabus/).
 
 ## Instructor Information ##
 
