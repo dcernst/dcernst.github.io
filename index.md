@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Home
+title: Welcome to Dana's Webpage
 ---
 
 Stuff here.
