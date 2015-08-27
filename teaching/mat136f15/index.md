@@ -15,13 +15,13 @@ Welcome to the course web page for the Fall 2015 manifestation of MAT 136: Calcu
 
 <div class="row">
 <div class="col-xs-12">
-<h3>Course Information</h3>
+<h2>Course Information</h2>
 <p>Detailed Information about the course and its structure is available at these pages.</p>
 <div class="btn-group btn-group-justified">
-<a class="btn btn-default" href="{{site.baseurl}}/teaching/mat136f15/syllabus/">Syllabus</a>
-<a class="btn btn-default" href="{{site.baseurl}}/teaching/mat136f15/materials">Course Materials</a>
-<a class="btn btn-default" href="{{site.baseurl}}/teaching/mat136f15/homework/">Homework</a>
-<a class="btn btn-default" href="{{site.baseurl}}/teaching/mat136f15/journal/">Journal</a>
+<a class="btn btn-default btn-primary" href="{{site.baseurl}}/teaching/mat136f15/syllabus/">Syllabus</a>
+<a class="btn btn-default btn-primary" href="{{site.baseurl}}/teaching/mat136f15/materials">Course Materials</a>
+<a class="btn btn-default btn-primary" href="{{site.baseurl}}/teaching/mat136f15/homework/">Homework</a>
+<a class="btn btn-default btn-primary" href="{{site.baseurl}}/teaching/mat136f15/journal/">Journal</a>
 </div>
 </div>
 </div>
