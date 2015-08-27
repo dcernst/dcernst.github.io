@@ -3,4 +3,4 @@ layout: default
 title: Welcome to Dana's Webpage
 ---
 
-Stuff here.
+<div class="well">This site is under construction!</div>
