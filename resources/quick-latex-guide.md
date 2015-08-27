@@ -74,7 +74,7 @@ Man, that's complicated!</p>
 
 <p><center></p>
 
-<table>
+<table class="table table-striped">
     <thead>
     <tr>
         <th>Expression you want</th>
