@@ -20,12 +20,14 @@ layout: default
 <span class="hidden-xs">Course Materials</span><span class="visible-xs">Materials</span>
 </a>
 
-<a class="btn btn-default btn-warning" href="{{site.baseurl}}/teaching/mat136f15/homework/">Homework</a>
+<a class="btn btn-default btn-warning" href="{{site.baseurl}}/teaching/mat136f15/homework/">
+<span class="hidden-xs">Homework</span><span class="visible-xs">HW</span>
+</a>
+
 <a class="btn btn-default btn-info" href="{{site.baseurl}}/teaching/mat136f15/journal/">Journal</a>
 </div>
 </div>
 </div>
-
 
 <div class="row">
   <div class="col-xs-12 col-sm-6">
@@ -53,22 +55,6 @@ layout: default
   </div>
 
 </div>
-
-## General Information ##
-**Title:** MAT 136H: Calculus I (Honors)<br />
-**Semester:** Fall 2015<br />
-**Credits:** 4<br />
-**Section:** 1<br />
-**Time:** MWThF at 9:10-10:00AM<br />
-**Location:** AMB 162</p>
-
-## Instructor Information ##
-**Instructor:** Dr. Dana C. Ernst<br />
-**Office:** AMB 176<br />
-**Office Phone:**  928.523.6852<br />
-**Email:** [dana.ernst@nau.edu](mailto:dana.ernst@nau.edu)<br />
-**Office Hours:** 11:15AM-12:30PM on Mondays, Wednesdays, and Fridays (or by appointment)<br />
-**Webpage:** [dcernst.github.io](http://dcernst.github.io)
 
 ## Course Information ##
 
