@@ -32,7 +32,7 @@ The resources listed below are intended for both students and teachers. For a li
 
 ## Calculus Videos, Applets, & Additional Problems
 
-Below is a partial list of links to applets and video repositories related to calculus. There are lots more out there. If you know of a good resources that's not listed below, please let me know.
+Below is a partial list of links to applets and video repositories related to calculus. There are lots more out there. If you know of a good resource that's not listed below, please let me know.
 
   * [MOOCulus Videos][18] (videos)
   * [Calculus Applets][19] (applets)
