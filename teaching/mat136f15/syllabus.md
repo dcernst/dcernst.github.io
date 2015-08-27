@@ -119,7 +119,7 @@ Your combined homework score is worth 20% of your overall grade.  You are allowe
 Presentations will be graded using the rubric below.
 
 <center>
-<table>
+<table class="table table-striped">
 	<thead>
 	<tr>
 		<th style="text-align: center;">Grade</th>
@@ -172,7 +172,7 @@ As per university policy, attendance is *mandatory* in all 100-level courses, an
 In summary, your final grade will be determined by your scores in the following categories.
 
 <center>
-<table>
+<table class="table table-striped">
 	<thead>
 	<tr>
 		<th>Category</th>
