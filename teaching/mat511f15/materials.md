@@ -25,6 +25,11 @@ Below you will find notes and handouts that we have used in class, as well as so
 
 - Coming soon.
 
+## Exams ##
+Below are links to the take-home portions of each exam.
+
+- Coming soon.
+
 ## Free Abstract Algebra Textbooks ##
 Here is a list of free abstract algebra texts that you may use as an additional resource.  If you find one of these more helpful than another, please let me know.  Also, if you know of other resources, please let me know.
 
