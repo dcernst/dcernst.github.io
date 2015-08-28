@@ -36,7 +36,9 @@ The Daily Homework will generally consist of solving problems from the [IBL cour
 - **Daily Homework 1:** Read the [syllabus]({{ site.baseurl }}/teaching/mat136f15/syllabus) and write down 5 important items.  *Note:*  All of the test dates only count as one item.  Turn in on your own paper at the beginning of class. (Due Wednesday, September 2)
 - **Daily Homework 2:** Read the Introduction to [Differential Calculus]({{ site.baseurl }}/teaching/mat136f15/DifferentialCalculus-JIBLM.pdf) (PDF). In addition, read Chapter 0 up to Problem 11 and complete Problems 3-11.  (Due Wednesday, September 2)
 - **Daily Homework 3:** Stop by my office (AMB 176) and say hello. If I'm not there, just slide note under my door saying you stopped by. (Due Friday, September 4 by 5PM)
-<!-- - **Daily Homework 4:** Read the rest of Chapter 0 in [Differential Calculus](http://teaching.danaernst.com/files/fall2014/mat136/DifferentialCalculus-JIBLM.pdf) and complete Problems 12, 14, 15, 17-19. (Due Friday, August 29)
+
+<!--
+- **Daily Homework 4:** Read the rest of Chapter 0 in [Differential Calculus](http://teaching.danaernst.com/files/fall2014/mat136/DifferentialCalculus-JIBLM.pdf) and complete Problems 12, 14, 15, 17-19. (Due Friday, August 29)
 - **Daily Homework 5:** Read Chapter 1 up to Problem 32 in [Differential Calculus](http://teaching.danaernst.com/files/fall2014/mat136/DifferentialCalculus-JIBLM.pdf) and complete Problems 21-29, 31, 32. *Hint:* Problem 25 is hinting at tangent lines (see Definition 30).  (Due Wednesday, September 3)
 - **Daily Homework 6:** Read the rest of Chapter 1 and complete Problems 33-35, 37-41. *Hints:* For Problem 34, use Problem 26 and the idea from Problem 25. For Problem 35 use the same approach as Problem 34. For Problems 37 and 38, use Problems 33 and 34, respectively. (Due Thursday, September 4)
 - **Daily Homework 7:** Read the rest of Chapter 1 and Chapter 2 up to Problem 54.  In addition, complete Problems 43-45, 47-54. *Note:* For Problems 47-54, feel free to utilize technology to graph the functions, but you should also attempt to explore the functions algebraically. (Due Friday, September 5)
@@ -98,14 +100,17 @@ You'll prove that the first formula is correct in Problem 150.  For now, you can
 - **Daily Homework 37:** Complete Problems 233-236 in [Differential Calculus](http://teaching.danaernst.com/files/fall2014/mat136/DifferentialCalculus-JIBLM.pdf) (PDF). (Due Wednesday, November 19)
 - **Daily Homework 38:** Complete Exercises 5.6.5(5) and 5.6.6 in Section 5.6 of *Calculus I Lecture Notes*. In addition, complete exercises 17-19, 35, plus any 4 more from Section 5.8 of *Calculus I Lecture Notes*. (Due Thursday, November 20)
 - **Daily Homework 39:** Complete Exercises 5.7.5 (replace $\sinh(x)$ with $\sin(x)$ on part 4), 5.7.7, 5.7.10, 5.7.11 in Section 5.7 of *Calculus I Lecture Notes*. (Due Friday, November 21)
-- **Daily Homework 40:** Complete corresponding problems on WeBWorK. Be sure to also complete the problems on paper as we will be presenting the problems on Wednesday. (Due by 9:10am on Thursday, December 4) -->
+- **Daily Homework 40:** Complete corresponding problems on WeBWorK. Be sure to also complete the problems on paper as we will be presenting the problems on Wednesday. (Due by 9:10am on Thursday, December 4)
+-->
 
 ## Weekly Homework ##
 
 The majority of the Weekly Homework assignments are to be completed via [WeBWorK](https://webwork.math.nau.edu/webwork2/DErnst_136), which is an online homework system. You should log in with your NAU credentials.
 
 - Coming soon!
-<!-- - **Weekly Homework 1:** Complete the corresponding problems on [WeBWorK](https://webwork.math.nau.edu/webwork2/DErnst_136). (Due Tuesday, September 2 by 5PM)
+
+<!--
+- **Weekly Homework 1:** Complete the corresponding problems on [WeBWorK](https://webwork.math.nau.edu/webwork2/DErnst_136). (Due Tuesday, September 2 by 5PM)
 - **Weekly Homework 2:** Complete the corresponding problems on [WeBWorK](https://webwork.math.nau.edu/webwork2/DErnst_136). (Due Tuesday, September 9 by 8PM)
 - **Weekly Homework 3:** Complete the corresponding problems on [WeBWorK](https://webwork.math.nau.edu/webwork2/DErnst_136). (Due Tuesday, September 16 by 8PM)
 - **Weekly Homework 4:** Complete the corresponding problems on [WeBWorK](https://webwork.math.nau.edu/webwork2/DErnst_136). (Due Tuesday, September 30 by 8PM)
@@ -114,4 +119,5 @@ The majority of the Weekly Homework assignments are to be completed via [WeBWorK
 - **Weekly Homework 7:** Complete the corresponding problems on [WeBWorK](https://webwork.math.nau.edu/webwork2/DErnst_136). (Due Tuesday, October 28 by 8PM)
 - **Weekly Homework 8:** Complete the corresponding problems on [WeBWorK](https://webwork.math.nau.edu/webwork2/DErnst_136). (Due Wednesday, November 12 by 8PM)
 - **Weekly Homework 9:** Complete the corresponding problems on [WeBWorK](https://webwork.math.nau.edu/webwork2/DErnst_136). (Due Tuesday, November 18 by 8PM)
-- **Weekly Homework 10:** Complete the corresponding problems on [WeBWorK](https://webwork.math.nau.edu/webwork2/DErnst_136). (Due Monday, November 24 by 9PM) -->
+- **Weekly Homework 10:** Complete the corresponding problems on [WeBWorK](https://webwork.math.nau.edu/webwork2/DErnst_136). (Due Monday, November 24 by 9PM)
+-->
