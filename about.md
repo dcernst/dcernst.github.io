@@ -11,7 +11,7 @@ layout: default
 
 <div class="row">
   <div class="col-xs-12 col-lg-4">
-  <div><img src="{{ site.baseurl }}/images/feetonbike.jpg" class="img-responsive" /></div>
+  <div><img src="{{ site.baseurl }}/images/feetonbike.jpg" class="img-responsive" img style="margin-bottom: 10px" /></div>
   </div>
 
   <div class="col-xs-12 col-lg-8">
