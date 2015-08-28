@@ -64,8 +64,8 @@ The following is a list of papers that are in progress.
 
 Below is a list of course materials that I have written to be used with an [inquiry-based learning][11] (IBL) approach.
 
-  * D.C. Ernst. *An Introduction to Proof via Inquiry-Based Learning*. IBL course materials for an introduction to proof course. The first half of the notes are an adaptation of notes written by [Stan Yoshinobu][27] and [Matthew Jones][28]. [[Source on GitHub][29]] [![DOI](https://zenodo.org/badge/5110/dcernst/IBL-IntroToProof.svg)](https://zenodo.org/badge/latestdoi/5110/dcernst/IBL-IntroToProof)
-  * D.C. Ernst. *An Inquiry-Based Approach to Abstract Algebra*. IBL course materials for an abstract algebra course that emphasizes visualization and incorporates technology. Very much a work in progress. [[Source on GitHub][32]] [![DOI][33]][34]
+  * D.C. Ernst. *An Introduction to Proof via Inquiry-Based Learning*. IBL course materials for an introduction to proof course. The first half of the notes are an adaptation of notes written by [Stan Yoshinobu][27] and [Matthew Jones][28]. [[Source](http://dcernst.github.io/IBL-IntroToProof/)] [![DOI](https://zenodo.org/badge/5110/dcernst/IBL-IntroToProof.svg)](https://zenodo.org/badge/latestdoi/5110/dcernst/IBL-IntroToProof)
+  * D.C. Ernst. *An Inquiry-Based Approach to Abstract Algebra*. IBL course materials for an abstract algebra course that emphasizes visualization and incorporates technology. Very much a work in progress. [[Source](http://dcernst.github.io/IBL-AbstractAlgebra/)] [![DOI](https://zenodo.org/badge/5110/dcernst/IBL-AbstractAlgebra.svg)](https://zenodo.org/badge/latestdoi/5110/dcernst/IBL-AbstractAlgebra)
   * D.C. Ernst, N.Sieben. *MAT 220 Problem Collection*. MAT 220 is an introductory course in mathematical reasoning in multi-step problems across different areas of mathematics. The goal is to use elementary mathematical tools to solve more complex problems in already familiar areas of study instead of teaching new mathematical tools that are used in straightforward one-step exercises. The focus is on problem solving and solution writing.
 
 ## Blogging
@@ -76,8 +76,8 @@ In addition to the posts that I write for my [personal blog][35], [Angie Hodge][
 
 Here are some online interviews that I have given.
 
-  * R. Talbert. 4+1 interview with Dana Ernst. *Casting Out Nines*. The Chronicle Blog Network. August 2013. [[Blog Post][39]]
-  * S. Yoshinobu. IBL Instructor Perspectives: Professor Dana Ernst. *The IBL Blog*. February 2012. [[Blog Post][40]]
+  * R. Talbert. 4+1 interview with Dana Ernst. *Casting Out Nines*. The Chronicle Blog Network. August 2013. [[Blog Post](http://chronicle.com/blognetwork/castingoutnines/2013/08/01/41-interview-with-dana-ernst/)]
+  * S. Yoshinobu. IBL Instructor Perspectives: Professor Dana Ernst. *The IBL Blog*. February 2012. [[Blog Post](http://theiblblog.blogspot.com/2012/02/ibl-instructor-perspectives-professor.html)]
 
  [1]: http://en.wikipedia.org/wiki/Coxeter_group
  [2]: http://en.wikipedia.org/wiki/Hecke_algebra
@@ -107,13 +107,7 @@ Here are some online interviews that I have given.
  [26]: http://arxiv.org/abs/1101.4215
  [27]: http://www.stanyoshinobu.com/
  [28]: http://www.csudh.edu/math/mjones/
- [29]: http://dcernst.github.io/IBL-IntroToProof/
- [32]: http://dcernst.github.io/IBL-AbstractAlgebra/
- [33]: https://zenodo.org/badge/doi/10.5281/zenodo.10874.png
- [34]: http://dx.doi.org/10.5281/zenodo.10874
  [35]: {{site.baseurl}}
  [36]: http://www.unomaha.edu/math/people/hodge/
  [37]: http://maamathedmatters.blogspot.com
  [38]: http://maa.org
- [39]: http://chronicle.com/blognetwork/castingoutnines/2013/08/01/41-interview-with-dana-ernst/
- [40]: http://theiblblog.blogspot.com/2012/02/ibl-instructor-perspectives-professor.html
