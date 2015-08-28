@@ -17,7 +17,7 @@ layout: default
 <a class="btn btn-default btn-success" href="{{site.baseurl}}/teaching/mat136f15/syllabus/">Syllabus</a>
 
 <a class="btn btn-default btn-primary" href="{{site.baseurl}}/teaching/mat136f15/materials/">
-<span class="hidden-xs">Course Materials</span><span class="visible-xs">Materials</span>
+<span class="hidden-xs">Course Materials</span><span class="visible-xs">Stuff</span>
 </a>
 
 <a class="btn btn-default btn-warning" href="{{site.baseurl}}/teaching/mat136f15/homework/">
