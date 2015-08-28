@@ -290,5 +290,5 @@ Here are some important dates:
 Any changes in this syllabus made during the term will be properly communicated to the class.
 
 <div class="alert alert-info" role="alert">
-Portions of "Purpose and Goals" and "Class Presentations and Participation" are adapted from Carol Schumacher's *Chapter Zero Instructor Resource Manual*. The first paragraph of "An Inquiry-Based Approach" is borrowed from <a href="https://gist.github.com/RobertTalbert/7854aadbdfca232dbdda" class="alert-link">Robert Talbert</a>.
+<i class="fa fa-hand-peace-o fa-2x"></i>&nbsp; Portions of "Purpose and Goals" and "Class Presentations and Participation" are adapted from Carol Schumacher's *Chapter Zero Instructor Resource Manual*. The first paragraph of "An Inquiry-Based Approach" is borrowed from <a href="https://gist.github.com/RobertTalbert/7854aadbdfca232dbdda" class="alert-link">Robert Talbert</a>.
 </div>
