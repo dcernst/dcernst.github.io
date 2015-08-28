@@ -11,9 +11,7 @@ layout: default
 
 ## Welcome ##
 
-Welcome to Dana C. Ernst's Teaching page.  This section is primarily designed for my current students, but if you are not one of my students and somehow found your way here, feel free to poke around.
-
-All of the work contained in this site that is authored by Dana C. Ernst is licensed under a [Creative Commons Attribution-Share Alike 4.0 United States License](https://creativecommons.org/licenses/by-sa/4.0/). Almost all of the PDF files on my web site were generated using [LaTeX](http://en.wikipedia.org/wiki/LaTeX). If you are interested in the source code, please [contact me](mailto:dana.ernst@nau.edu).
+Welcome to Dana C. Ernst's Teaching page.  This section is primarily designed for my current students, but if you are not one of my students and somehow found your way here, feel free to poke around. All of the work contained in this site that is authored by Dana C. Ernst is licensed under a [Creative Commons Attribution-Share Alike 4.0 United States License](https://creativecommons.org/licenses/by-sa/4.0/).
 
 ## Instructor Info ##
 
