@@ -11,7 +11,6 @@ layout: default
 
 <div class="row">
   <div class="col-xs-12 col-lg-4">
-  <!--  <div><img src="{{ site.baseurl }}/images/2012/07/385719_3687878368288_943747358_n-e1342234614846.jpg" class="img-responsive" /></div> -->
   <div><img src="{{ site.baseurl }}/images/feetonbike.jpg" class="img-responsive" /></div>
   </div>
 
@@ -21,10 +20,9 @@ layout: default
 
     <p>My primary research interests are in the interplay between combinatorics and algebraic structures. More specifically, I study the combinatorics of <a href="http://en.wikipedia.org/wiki/Coxeter_group">Coxeter groups</a> and their associated <a href="http://en.wikipedia.org/wiki/Hecke_algebra">Hecke algebras</a>, <href="http://en.wikipedia.org/wiki/Kazhdan%E2%80%93Lusztig_polynomial">Kazhdan-Lusztig theory</a>, generalized <a href="http://en.wikipedia.org/wiki/Temperley-Lieb_algebra">Temperley-Lieb algebras</a>, <a href="http://en.wikipedia.org/wiki/Planar_algebra">diagram algebras</a>, and <a href="http://www.emis.de/journals/SLC/books/heaps.ps">heaps of pieces</a>. By employing combinatorial tools such as diagram algebras and heaps of pieces, one can gain insight into algebraic structures associated to Coxeter groups, and, conversely, the corresponding structure theory can often lead to surprising combinatorial results.</p>
 
-    <p>More recently, my research has expanded into <a href="https://en.wikipedia.org/wiki/Combinatorial_game_theory">combinatorial game theory</a> (joint with <a href="http://jan.ucc.nau.edu/ns46/">Nandor Sieben</a> and <a href="http://www.users.csbsju.edu/~bbenesh/">Bret Benesh</a>).  In particular, our research has focused on avoidance and achievement games involving finite groups.  See my <a href="{{ site.baseurl }}/scholarship/">scholarship page</a> for more information.
+    <p>More recently, my research has expanded into <a href="https://en.wikipedia.org/wiki/Combinatorial_game_theory">combinatorial game theory</a> (joint with <a href="http://jan.ucc.nau.edu/ns46/">Nandor Sieben</a> and <a href="http://www.users.csbsju.edu/~bbenesh/">Bret Benesh</a>).  In particular, our research has focused on avoidance and achievement games involving finite groups.  See my <a href="{{ site.baseurl }}/scholarship/">scholarship page</a> for more information.</p>
     </div>
   </div>
-
 </div>
 
 The combinatorial nature of my research naturally lends itself to collaborations with undergraduate students, and my goal is to incorporate undergraduates in my research as much as possible. If you are an NAU student interested in conducting research in mathematics, please come talk to me! Occasionally, there may be funding available to pay students to do research. Check out my [undergraduate research page]({{ site.baseurl }}/scholarship/undergraduate-research/) for examples of recent projects.

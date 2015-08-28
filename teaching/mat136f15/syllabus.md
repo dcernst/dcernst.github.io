@@ -65,6 +65,18 @@ MAT 125 or MAT 125H with a grade greater than or equal to C or satisfactory math
 Calculus of one variable; basic concepts, interpretations, techniques, and applications of differentiation and integration. Letter grade only. Course fee required.
 
 ### Additional Information ###
+<div class="row">
+  <div class="col-xs-12 col-lg-8">
+    <div>
+    <p>This course fulfills a requirement in the Science/Applied Science distribution block in the University Liberal Studies program.  It supports the mission of the program to prepare students to live responsible, productive, and creative lives as citizens of a dramatically changing world through the study of Calculus and its applications.  Essential skills in this course are critical thinking, quantitative reasoning, and scientific reasoning.  This course is also a certified <a href="http://nau.edu/University-College/First-Year-Learning-Initiative/">First Year Learning Initiative</a> (FYLI) course.</p>
+    </div>
+  </div>
+
+  <div class="col-xs-12 col-lg-4">
+  <div><img src="{{ site.baseurl }}/images/FYLILogo.gif" class="img-responsive" /></div>
+  </div>
+</div>
+
 <img src="{{ site.baseurl }}/images/FYLILogo.gif" width="200" align="right" img style="margin-left: 10px" />This course fulfills a requirement in the Science/Applied Science distribution block in the University Liberal Studies program.  It supports the mission of the program to prepare students to live responsible, productive, and creative lives as citizens of a dramatically changing world through the study of Calculus and its applications.  Essential skills in this course are critical thinking, quantitative reasoning, and scientific reasoning.  This course is also a certified [First Year Learning Initiative](http://nau.edu/University-College/First-Year-Learning-Initiative/) (FYLI) course.
 
 ### Textbook ###
