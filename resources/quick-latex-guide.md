@@ -18,7 +18,7 @@ layout: default
 
 <h2>Getting Started</h2>
 
-<p>The way most people (including myself) learn LaTeX is by taking existing examples, tweaking them, and seeing what happens.  To get started, you can open up and play with my <a href="http://danaernst.com/latex-homework-template">LaTeX Homework Template</a> that I have posted as a gist on <a href="https://gist.github.com/1827406">GitHub</a>. In fact, if you just click the link below, the template will open in <a href="http://overleaf.com">Overleaf</a>, which is an awesome and free online LaTeX editor.</p>
+<p>The way most people (including myself) learn LaTeX is by taking existing examples, tweaking them, and seeing what happens.  To get started, you can open up and play with my <a href="{{site.baseurl}}/latex-homework-template">LaTeX Homework Template</a> that I have posted as a gist on <a href="https://gist.github.com/1827406">GitHub</a>. In fact, if you just click the link below, the template will open in <a href="http://overleaf.com">Overleaf</a>, which is an awesome and free online LaTeX editor.</p>
 
 <p><center></p>
 

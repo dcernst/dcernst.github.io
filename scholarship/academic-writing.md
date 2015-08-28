@@ -91,7 +91,7 @@ Here are some online interviews that I have given.
  [10]: http://en.wikipedia.org/wiki/Scholarship_of_Teaching_and_Learning
  [11]: http://maamathedmatters.blogspot.com/2013/05/what-heck-is-ibl.html
  [12]: http://www.inquirybasedlearning.org
- [13]: http://danaernst.com/scholarship/talks/
+ [13]: {{site.baseurl}}/scholarship/talks/
  [14]: http://digital.ipcprintservices.com/publication/?i=260736&pre=1&p=7
  [15]: http://www.tandfonline.com/doi/full/10.1080/10511970.2014.921652
  [16]: http://www.editlib.org/p/115001/
@@ -113,7 +113,7 @@ Here are some online interviews that I have given.
  [32]: http://dcernst.github.io/IBL-AbstractAlgebra/
  [33]: https://zenodo.org/badge/doi/10.5281/zenodo.10874.png
  [34]: http://dx.doi.org/10.5281/zenodo.10874
- [35]: http://danaernst.com
+ [35]: {{site.baseurl}}
  [36]: http://www.unomaha.edu/math/people/hodge/
  [37]: http://maamathedmatters.blogspot.com
  [38]: http://maa.org

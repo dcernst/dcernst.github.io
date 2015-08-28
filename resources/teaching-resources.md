@@ -34,18 +34,17 @@ The resources listed below are intended for both students and teachers. For a li
 
 Below is a partial list of links to applets and video repositories related to calculus. There are lots more out there. If you know of a good resource that's not listed below, please let me know.
 
-  * [Calculus Applets with GeoGebra](http://dcernst.github.io/CalculusApplets/) (applets)
-  * [MOOCulus Videos][18] (videos)
-  * [CalculusApplets.com][19] (applets)
-  * [Education Portal][20] (videos with embedded quizzes)
-  * [integralCALC videos][21] (videos)
-  * [Patrick's Just Math Tutorials][22] (videos)
-  * [Khan Academy][23] (videos)
-  * [Patty's Calculus Videos][24] (videos)
-  * [Brightstorm Calculus Videos][25] (videos)
-  * [Math Doctor Bob videos][26] (videos)
-  * [MathVids][27] (videos)
-  * [The Calculus Page Problems List][28] (problems)
+  * [Calculus Applets with GeoGebra](http://dcernst.github.io/CalculusApplets/)
+  * [MOOCulus Videos](https://mooculus.osu.edu/lectures)
+  * [CalculusApplets.com](http://calculusapplets.com)
+  * [Education Portal](http://education-portal.com/academy/course/calculus.html)
+  * [integralCALC videos](http://www.integralcalc.com)
+  * [Patrick's Just Math Tutorials](http://patrickjmt.com/#calculus)
+  * [Khan Academy](http://www.khanacademy.org/math/calculus)
+  * [Brightstorm Calculus Videos](http://www.brightstorm.com/math/calculus/)
+  * [Math Doctor Bob videos](http://www.mathdoctorbob.org/default.html)
+  * [MathVids](http://mathvids.com/topic/mathhelp/5-calculus)
+  * [The Calculus Page Problems List](http://www.math.ucdavis.edu/~kouba/ProblemsList.html)
 
 ## LaTeX
 
@@ -91,18 +90,18 @@ Below is a partial list of links to applets and video repositories related to ca
  [15]: http://www.ams.org
  [16]: http://www.maa.org
  [17]: http://archives.math.utk.edu/projnext/
- [18]: https://mooculus.osu.edu/lectures
- [19]: http://calculusapplets.com
- [20]: http://education-portal.com/academy/course/calculus.html
- [21]: http://www.integralcalc.com
- [22]: http://patrickjmt.com/#calculus
- [23]: http://www.khanacademy.org/math/calculus
- [24]: http://blip.tv/pattyscalculusvideos
- [25]: http://www.brightstorm.com/math/calculus/
- [26]: http://www.mathdoctorbob.org/default.html
- [27]: http://mathvids.com/topic/mathhelp/5-calculus
- [28]: http://www.math.ucdavis.edu/~kouba/ProblemsList.html
- [29]: http://danaernst.com/quick-latex-guide/
+ [18]:
+ [19]:
+ [20]:
+ [21]:
+ [22]:
+ [23]:
+ [24]:
+ [25]:
+ [26]:
+ [27]:
+ [28]:
+ [29]: {{site.baseurl}}/quick-latex-guide/
  [30]: https://gist.github.com/1827406
  [31]: https://www.Overleaf.com
  [32]: http://webdemo.visionobjects.com/home.html#equation

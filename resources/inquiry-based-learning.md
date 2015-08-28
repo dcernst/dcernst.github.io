@@ -92,7 +92,7 @@ In addition to the problem sequences available at [JIBLM][23] and the plethora o
  [6]: http://legacyrlmoore.org/reference/mahavier1.html
  [7]: http://legacyrlmoore.org/method.html
  [8]: http://legacyrlmoore.org/reference/quick_start-3.pdf
- [9]: http://danaernst.com/tag/inquiry-based-learning/
+ [9]: {{site.baseurl}}/tag/inquiry-based-learning/
  [10]: http://theiblblog.blogspot.com
  [11]: http://www.youtube.com/user/AcademyIBL
  [12]: http://www.iblworkshop.org/home.html
@@ -107,7 +107,7 @@ In addition to the problem sequences available at [JIBLM][23] and the plethora o
  [21]: http://legacyrlmoore.org
  [22]: http://legacyrlmoore.org/events.html
  [23]: http://jiblm.org
- [24]: http://danaernst.com
+ [24]: {{site.baseurl}}
  [25]: http://www.stanyoshinobu.com/
  [26]: http://www.csudh.edu/math/mjones/
  [27]: http://dcernst.github.io/IBL-AbstractAlgebra/

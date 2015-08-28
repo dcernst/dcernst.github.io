@@ -3,7 +3,7 @@ title: Potential Summer 2014 REU Project
 author: Dana Ernst
 layout: page
 standard_seo_post_meta_description:
-  - 
+  -
 ---
 <img src="{{ site.baseurl }}/images/2013/01/pic8.png?fit=610%2C115" alt="pic8" class="aligncenter size-full wp-image-626" data-recalc-dims="1" />
 
@@ -31,7 +31,7 @@ An element $w$ is fully commutative (FC) if any two of its reduced expressions a
 In a recent paper, we showed that the CFC elements with full support (i.e., every generator appears at least once in every reduced expression) in infinite Coxeter groups that are absent of a feature called a "large band" are logarithmic [ [1]][9]. However, evidence suggests that the result holds more generally. The CFC elements are rich in combinatorics and will be the central focus of the proposed research. In particular, the research team will tackle some subset of the following problems.
 
   1. Identify a larger class of CFC elements that are logarithmic (i.e., loosen the "large band" restriction).
-  2. Identify necessary and sufficient conditions for CFC elements in groups with finitely many CFC elements to be conjugate. 
+  2. Identify necessary and sufficient conditions for CFC elements in groups with finitely many CFC elements to be conjugate.
   3. Characterize and enumerate the conjugacy classes of CFC elements groups with finitely many CFC elements.
 
 ## Prerequisites
@@ -48,8 +48,8 @@ Perhaps surprisingly, one advantage of the proposed research is that it does not
 
 <img src="{{ site.baseurl }}/images/2013/01/pic4-300x266.png?w=300" alt="pic4" class="aligncenter size-medium wp-image-622" data-recalc-dims="1" />
 
- [1]: http://danaernst.com/scholarship/
- [2]: http://danaernst.com/scholarship/undergraduate-research/
+ [1]: {{site.baseurl}}/scholarship/
+ [2]: {{site.baseurl}}/scholarship/undergraduate-research/
  [3]: http://en.wikipedia.org/wiki/Group_(mathematics)
  [4]: http://en.wikipedia.org/wiki/Symmetry
  [5]: http://en.wikipedia.org/wiki/Reflection_group
