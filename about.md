@@ -11,7 +11,7 @@ layout: default
 
 <div class="row">
   <div class="col-xs-12 col-lg-4">
-    <div><img src="{{ site.baseurl }}/images/2012/07/385719_3687878368288_943747358_n-e1342234614846.jpg" class="center-block" class="img-responsive"  /></div>
+    <div><img src="{{ site.baseurl }}/images/2012/07/385719_3687878368288_943747358_n-e1342234614846.jpg" class="img-responsive" /></div>
   </div>
 
   <div class="col-xs-12 col-lg-8">
