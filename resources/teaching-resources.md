@@ -34,8 +34,9 @@ The resources listed below are intended for both students and teachers. For a li
 
 Below is a partial list of links to applets and video repositories related to calculus. There are lots more out there. If you know of a good resource that's not listed below, please let me know.
 
+  * [Calculus Applets with GeoGebra](http://dcernst.github.io/CalculusApplets/) (applets)
   * [MOOCulus Videos][18] (videos)
-  * [Calculus Applets][19] (applets)
+  * [CalculusApplets.com][19] (applets)
   * [Education Portal][20] (videos with embedded quizzes)
   * [integralCALC videos][21] (videos)
   * [Patrick's Just Math Tutorials][22] (videos)
@@ -50,7 +51,7 @@ Below is a partial list of links to applets and video repositories related to ca
 
   * [Dana's Quick LaTeX Guide][29]
   * [Dana's LaTeX Homework Template][30]
-  * [WriteLaTeX][31]
+  * [Overleaf][31]
   * [Web Equation by Vision Objects][32]
   * [Detexify][33]
   * [MacTeX][34]
@@ -74,7 +75,7 @@ Below is a partial list of links to applets and video repositories related to ca
   * [Booles' Rings][50] is a network of blogs (including mine).
 
  [1]: {{ site.baseurl }}/resources/free-and-open-source-textbooks/
- [2]: http://artsci.drake.edu/grout/doku.php/teaching_resources
+ [2]: http://jasongrout.org/teaching_resources
  [3]: http://ocw.mit.edu/index.htm
  [4]: http://sagemath.com
  [5]: https://cloud.sagemath.com/
@@ -103,7 +104,7 @@ Below is a partial list of links to applets and video repositories related to ca
  [28]: http://www.math.ucdavis.edu/~kouba/ProblemsList.html
  [29]: http://danaernst.com/quick-latex-guide/
  [30]: https://gist.github.com/1827406
- [31]: https://www.writelatex.com
+ [31]: https://www.Overleaf.com
  [32]: http://webdemo.visionobjects.com/home.html#equation
  [33]: http://detexify.kirelabs.org/classify.html
  [34]: http://tug.org/mactex/

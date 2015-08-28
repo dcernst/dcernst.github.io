@@ -41,7 +41,7 @@ If you'd like to know more about my approach to Daily and Weekly Homework, as we
 
 # Using LaTeX for the Weekly Homework
 
-I either require or strongly encourage my students to type up their Weekly Homework assignments using [LaTeX][3]. In case you don't already know, LaTeX (pronounced "lay-tech", or sometimes "la-tech") is a markup language that is the standard for typesetting mathematics (and other technical fields). Most people find it difficult to get started with LaTeX and my students are no exception. To minimize some of the initial difficulties, I encourage them to use [writeLaTeX][4], which is an awesome and free online LaTeX editor. This way students do not need to worry about installing the LaTeX backend and an editor. One advantage to writeLaTeX is that my students can easily share their source documents with me. Whenever they are having difficulty, I can just take a look at their file and either make a comment right in the file or do a quick debug. Another way that I try to reduce the LaTeX start-up cost is by providing my students with a [LaTeX Homework Template][5] (see below).
+I either require or strongly encourage my students to type up their Weekly Homework assignments using [LaTeX][3]. In case you don't already know, LaTeX (pronounced "lay-tech", or sometimes "la-tech") is a markup language that is the standard for typesetting mathematics (and other technical fields). Most people find it difficult to get started with LaTeX and my students are no exception. To minimize some of the initial difficulties, I encourage them to use [Overleaf][4], which is an awesome and free online LaTeX editor. This way students do not need to worry about installing the LaTeX backend and an editor. One advantage to Overleaf is that my students can easily share their source documents with me. Whenever they are having difficulty, I can just take a look at their file and either make a comment right in the file or do a quick debug. Another way that I try to reduce the LaTeX start-up cost is by providing my students with a [LaTeX Homework Template][5] (see below).
 
 <noscript>
   <pre><code class="language-tex tex">% --------------------------------------------------------------
@@ -119,7 +119,7 @@ This template is set up exactly how I want the Weekly Homework to look. I also p
 <div>
 </div>
 
-Using the template in writeLaTeX is as easy as clicking the link below. Try it!
+Using the template in Overleaf is as easy as clicking the link below. Try it!
 
 <center>
   </p> 
@@ -133,11 +133,11 @@ Using the template in writeLaTeX is as easy as clicking the link below. Try it!
   </p>
   
   <p>
-    <em>Update June 2013:</em> I originally encouraged my students to use <a href="http://scribtex.com">ScribTeX</a>, which seems to have joined forces with <a href="http://sharelatex.com">ShareLaTeX</a>. However, I now have my students use <a href="http://writelatex.com">writeLaTeX</a>, which my students and I have been very happy with. I modified my original post to reflect my current use of writeLaTeX.
+    <em>Update June 2013:</em> I originally encouraged my students to use <a href="http://scribtex.com">ScribTeX</a>, which seems to have joined forces with <a href="http://sharelatex.com">ShareLaTeX</a>. However, I now have my students use <a href="http://Overleaf.com">Overleaf</a>, which my students and I have been very happy with. I modified my original post to reflect my current use of Overleaf.
   </p>
 
  [1]: http://www.inquirybasedlearning.org/?page=What_is_IBL
  [2]: https://speakerdeck.com/u/dcernst/p/effective-and-efficient-grading-for-an-ibl-course
  [3]: http://en.wikipedia.org/wiki/LaTeX
- [4]: http://writelatex.com
+ [4]: http://Overleaf.com
  [5]: https://gist.github.com/1827406

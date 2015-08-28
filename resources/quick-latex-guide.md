@@ -22,7 +22,7 @@ layout: default
 
 <p><center></p>
 
-<form action="https://www.writelatex.com/docs" method="POST">
+<form action="https://www.Overleaf.com/docs" method="POST">
     <input type="hidden" name="template" value="danaernst-weekly_homework_x">
     <input type="submit" class="wl-submit" value="Open template in Overleaf">
   </form>
@@ -197,7 +197,7 @@ which is typeset using</p>
 
 <h2>Installing LaTeX on Your Own Computer</h2>
 
-<p>There are a growing number of online LaTeX editors.  My favorite is <a href="http://overleaf.com">Overleaf</a> (formerly named writeLaTeX).  While there  are several benefits of using an online editor, if you use LaTeX enough, you'll eventually want to install it locally on your own computer.</p>
+<p>There are a growing number of online LaTeX editors.  My favorite is <a href="http://overleaf.com">Overleaf</a> (formerly named Overleaf).  While there  are several benefits of using an online editor, if you use LaTeX enough, you'll eventually want to install it locally on your own computer.</p>
 
 <h3>Installing on a Mac</h3>
 

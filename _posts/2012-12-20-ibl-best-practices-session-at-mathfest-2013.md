@@ -37,4 +37,4 @@ MathFest 2013 takes place on August 1-3, 2013 in Hartford, CT. Mark your calenda
  [2]: http://www.unomaha.edu/math/people/hodge/
  [3]: http://www.maa.org/mathfest/
  [4]: http://www.maa.org
- [5]: mailto:dana@danaernst.com
+ [5]: mailto:dana.ernst@nau.edu
