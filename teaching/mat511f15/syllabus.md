@@ -216,15 +216,15 @@ In summary, your final grade will be determined by your scores in the following 
 		<td>??%</td>
 	</tr>
 	<tr>
-		<td>Exam 1</td>
+		<td>Exam 1 (written)</td>
 		<td>??%</td>
 	</tr>
   <tr>
-    <td>Exam 2</td>
+    <td>Exam 2 (written)</td>
     <td>??%</td>
   </tr>
   <tr>
-    <td>Exam 3</td>
+    <td>Exam 3 (oral)</td>
     <td>??%</td>
   </tr>
   <tr>
