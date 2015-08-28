@@ -31,7 +31,7 @@ title: Course Materials
 ## Course Notes ##
 Below you will find notes and handouts that we have used in class, as well as some other useful stuff.
 
-- [First Day Activity]({{ site.baseurl }}/teaching/mat136f15//FirstDayActivity.pdf) (PDF)
+- [First Day Activity]({{ site.baseurl }}/teaching/mat136f15/FirstDayActivity.pdf) (PDF)
 - [Differential Calculus]({{ site.baseurl }}/teaching/mat136f15/DifferentialCalculus-JIBLM.pdf) (PDF), which is a set of [inquiry-based learning](http://maamathedmatters.blogspot.com/2013/05/what-heck-is-ibl.html) (IBL) notes written by [Brian Loft](http://www.shsu.edu/academics/mathematics-and-statistics/faculty/loft.html) (Sam Houston State University) and published by the [Journal of Inquiry-Based Learning](http://www.jiblm.org).
 - [Trig Unit Circle]({{ site.baseurl }}/teaching/mat136f15/UnitCircle.pdf) (PDF)
 - [Required Knowledge from Precalculus]({{ site.baseurl }}/teaching/mat136f15/RequiredKnowledge.pdf) (PDF)
