@@ -31,7 +31,7 @@ The following assignments are to be turned in at the end of the indicated class 
 - **Daily Homework 3:** Coming soon.  (Due Wednesday, September 2)
 
 ## Weekly Homework ##
-In addition to the Daily Homework, we will also have Weekly Homework assignments. For most of these assignments, you will be required to submit 2-3 formally written solutions/proofs. You are required to type your submission using $\LaTeX$ or Lyx (see below for more on this). I will walk you through how to do this.
+In addition to the Daily Homework, we will also have Weekly Homework assignments. For most of these assignments, you will be required to submit 2-3 formally written solutions/proofs. You are required to type your submission using LaTeX or Lyx (see below for more on this). I will walk you through how to do this.
 
 - Coming soon!
 
