@@ -37,7 +37,7 @@ layout: default
     <strong>Semester:</strong> Fall 2015<br />
     <strong>Credits:</strong> 4<br />
     <strong>Section:</strong> 1<br />
-    <strong>Time:</strong> MWThF at 9:10-10:00AM<br />
+    <strong>Time:</strong> MWThF at 10:20-11:10AM<br />
     <strong>Location:</strong> AMB 162
     </div>
   </div>
