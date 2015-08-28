@@ -5,7 +5,7 @@ title: Homework
 <ol class="breadcrumb">
   <li><a href="/"><i class="fa fa-home"></i></a></li>
   <li><a href="/teaching/">Teaching</a></li>
-  <li><a href="/teaching/mat136f15">MAT 136 Fall 2015</a></li>
+  <li><a href="/teaching/mat136f15">MAT 136</a></li>
   <li class="active">Homework</li>
 </ol>
 
