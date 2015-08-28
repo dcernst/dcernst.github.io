@@ -32,12 +32,12 @@ title: Course Materials
 Below you will find notes and handouts that we have used in class, as well as some other useful stuff.
 
 - [Introduction to WeBWorK](http://www.youtube.com/watch?v=nqv2dk70IFw). **Note:** There are some inconsistencies in this video due to the fact that I made it for my Fall 2012 class.  The version of WeBWorK has been upgraded, but it should still be useful.
-- [First Day Activity]({{ site.baseurl }}/teaching/mat136f15/SettingTheStage.pdf)
+- [First Day Activity]({{ site.baseurl }}/teaching/SettingTheStage.pdf)
 - [Differential Calculus]({{ site.baseurl }}/teaching/mat136f15/DifferentialCalculus-JIBLM.pdf), which is a set of [inquiry-based learning](http://maamathedmatters.blogspot.com/2013/05/what-heck-is-ibl.html) (IBL) notes written by [Brian Loft](http://www.shsu.edu/academics/mathematics-and-statistics/faculty/loft.html) (Sam Houston State University) and published by the [Journal of Inquiry-Based Learning](http://www.jiblm.org).
-- [Trig Unit Circle]({{ site.baseurl }}/teaching/mat136f15/UnitCircle.pdf)
-- [Required Knowledge from Precalculus]({{ site.baseurl }}/teaching/mat136f15/RequiredKnowledge.pdf)
-- [Are You Ready for Calculus? Questions]({{ site.baseurl }}/teaching/mat136f15/ReadyCalculusQuestions.pdf)
-- [Are You Ready for Calculus? Answers]({{ site.baseurl }}/teaching/mat136f15/ReadyCalculusAnswers.pdf)
+- [Trig Unit Circle]({{ site.baseurl }}/teaching/UnitCircle.pdf)
+- [Required Knowledge from Precalculus]({{ site.baseurl }}/teaching/136RequiredKnowledge.pdf)
+- [Are You Ready for Calculus? Questions]({{ site.baseurl }}/teaching/136ReadyCalculusQuestions.pdf)
+- [Are You Ready for Calculus? Answers]({{ site.baseurl }}/teaching/136ReadyCalculusAnswers.pdf)
 
 <!--
 - [Function Analysis](http://teaching.danaernst.com/files/fall2014/mat136/FunctionAnalysis.pdf)

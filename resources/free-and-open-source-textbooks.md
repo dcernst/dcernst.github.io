@@ -54,10 +54,10 @@ Here is a (partial) list of free and/or open-source textbooks. If you find one o
 
 ### Abstract Algebra
 
-  * [An Inquiry-Based Approach to Abstract Algebra](http://dcernst.github.io/IBL-AbstractAlgebra/) is a set of IBL course materials for an abstract algebra course that emphasizes visualization and incorporates technology. The notes are written by me with help from [Josh Wiscons][54] and [Ben Woodruff][55]. Very much a work in progress.
-  * [Abstract Algebra: Theory and Applications][56] by [Tom Judson][57] (Stephen F. Austin University).
-  * [Essential Group Theory][58] by [Michael Batty][59] (University of Durham).
-  * [Group Theory: Birdtracks, Lie’s, and Exceptional Groups][61] by [Predrag Cvitanović][62] (Georgia Tech).
+  * [An Inquiry-Based Approach to Abstract Algebra](http://dcernst.github.io/IBL-AbstractAlgebra/) is a set of IBL course materials for an abstract algebra course that emphasizes visualization and incorporates technology. The notes are written by me with help from [Josh Wiscons](http://people.hamilton.edu/jwiscons/index.html) and [Ben Woodruff](http://emp.byui.edu/woodruffb/). A work in progress.
+  * [Abstract Algebra: Theory and Applications](http://abstract.ups.edu/index.html) by [Tom Judson](http://faculty.sfasu.edu/judsontw/) (Stephen F. Austin University).
+  * [Essential Group Theory](http://bookboon.com/en/textbooks/mathematics/essential-group-theory) by [Michael Batty](http://www.mendeley.com/profiles/michael-batty/) (University of Durham).
+  * [Group Theory: Birdtracks, Lie’s, and Exceptional Groups](http://www.cns.gatech.edu/GroupTheory/index.html) by [Predrag Cvitanović](https://www.physics.gatech.edu/user/predrag-cvitanovic) (Georgia Tech).
 
 ### Real Analysis
 
@@ -73,17 +73,6 @@ Here is a (partial) list of free and/or open-source textbooks. If you find one o
  [40]: http://www.jiblm.org
  [41]: http://www.jiblm.org/downloads/dlitem.aspx?id=88&category=jiblmjournal
  [42]: https://sites.google.com/site/mathematicalreasoning3ed/
-
- [53]: http://dcernst.github.io/IBL-AbstractAlgebra/
- [54]: http://math.colorado.edu/~wiscons/
- [55]: http://emp.byui.edu/woodruffb/
- [56]: http://abstract.ups.edu/index.html
- [57]: http://faculty.sfasu.edu/judsontw/
- [58]: http://bookboon.com/en/textbooks/mathematics/essential-group-theory
- [59]: http://www.mendeley.com/profiles/michael-batty/
- [60]: http://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=3&cad=rja&ved=0CEkQFjAC&url=http%3A%2F%2Fciteseerx.ist.psu.edu%2Fviewdoc%2Fdownload%3Fdoi%3D10.1.1.174.5425%26rep%3Drep1%26type%3Dpdf&ei=NsDTUL7gJ6nQ2AWdpYDoBQ&usg=AFQjCNH9auUs2DFjFfc_MVVPa54cd_24Lg&sig2=50zNEnuxvBSbbfMav0PwaA&bvm=bv.1355534169,d.b2I
- [61]: http://www.cns.gatech.edu/GroupTheory/index.html
- [62]: https://www.physics.gatech.edu/user/predrag-cvitanovic
  [63]: http://www.jiblm.org/downloads/dlitem.aspx?id=66&category=jiblmjournal
  [64]: http://www.math.lamar.edu/faculty/mahavier/mahavier.aspx
  [65]: http://www.webskate101.com/webnotes/home.htmld/home.html

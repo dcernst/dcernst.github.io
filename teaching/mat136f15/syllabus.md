@@ -207,7 +207,7 @@ In order to receive a **passing grade** on the presentation portion of your grad
 Your overall performance during presentations, as well as your level of interaction/participation during class, will be worth 10% of your overall grade.
 
 ### Exams ###
-There will be 4 midterm exams, which are *tentatively* scheduled for the following dates: **Friday, September 25**, **Friday, October 16**, **Monday, November 9**, and **Friday, December 4**.  Each exam will be worth 12.5% of your overall grade.  There will also be a *cumulative* final exam, which will be on **Wednesday, December 16** at **7:30-9:30am**.  The final exam is worth 20% of your overall grade.  Make-up exams will only be given under extreme circumstances, as judged by me.  In general, it will be best to communicate conflicts ahead of time.
+There will be 4 midterm exams, which are *tentatively* scheduled for the following dates: **Friday, September 25**, **Friday, October 16**, **Monday, November 9**, and **Friday, December 4**.  Each exam will be worth 12.5% of your overall grade.  There will also be a *cumulative* final exam, which will be on **Monday, December 14** at **10:00-12:00**.  The final exam is worth 20% of your overall grade.  Make-up exams will only be given under extreme circumstances, as judged by me.  In general, it will be best to communicate conflicts ahead of time.
 
 ### Attendance ###
 As per university policy, attendance is *mandatory* in all 100-level courses, and in particular, I am required to record attendance each class session.  Since a significant part of your grade is class participation, and since you cannot participate if you are not present, it will be impossible to succeed (i.e., not fail the course) if class is missed. You are responsible for all material covered in class. You can find more information about NAU's attendance policy on the [Academic Policies](http://nau.edu/Student-Life/Student-Handbook/Academic-Policies/) page.
@@ -255,7 +255,7 @@ In general, you should expect the grades to adhere to the standard letter-grade 
 ## Additional Information ##
 
 ### Department and University Policies ###
-You are responsible for knowing and following the [Department of Mathematics and Statistics Policies]({{ site.baseurl }}/teaching/mat136f15/DepartmentPoliciesFall2015.pdf) (PDF) and other University policies listed [here](http://nau.edu/OCLDAA/_Forms/UCC/SyllabusPolicyStmts2-2014/) (PDF).  More policies can be found in other university documents, especially the [NAU Student Handbook](http://nau.edu/Student-Life/Student-Handbook/) (see appendices) and the website of the [Office of Student Life](http://nau.edu/Student-Life/).
+You are responsible for knowing and following the [Department of Mathematics and Statistics Policies]({{ site.baseurl }}/teaching/DepartmentPoliciesFall2015.pdf) (PDF) and other University policies listed [here](http://nau.edu/OCLDAA/_Forms/UCC/SyllabusPolicyStmts2-2014/) (PDF).  More policies can be found in other university documents, especially the [NAU Student Handbook](http://nau.edu/Student-Life/Student-Handbook/) (see appendices) and the website of the [Office of Student Life](http://nau.edu/Student-Life/).
 
 As per Department Policy, cell phones, mp3 players and portable electronic communication devices, including but not limited to smart phones, cameras and recording devices, must be turned off and inaccessible during in-class tests. Any violation of this policy will be treated as academic dishonesty.
 
@@ -284,7 +284,7 @@ Here are some important dates:
 - **Wednesday, November 11:** Veterans Day, no classes
 - **Thursday, November 26** and **Friday, November 27**: Thanksgiving Holiday, no classes
 - **Friday, December 4**: Exam 4
-- **Wednesday, December 16** at **7:30-9:30am**: Final Exam
+- **Monday, December 14** at **10:00-12:00**: Final Exam
 
 ### Changes to the Syllabus ###
 Any changes in this syllabus made during the term will be properly communicated to the class.
