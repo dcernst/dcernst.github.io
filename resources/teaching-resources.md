@@ -48,7 +48,7 @@ Below is a partial list of links to applets and video repositories related to ca
 
 ## LaTeX
 
-  * [Dana's Quick LaTeX Guide][29]
+  * [Dana's Quick LaTeX Guide]({{site.baseurl}}/quick-latex-guide/)
   * [Dana's LaTeX Homework Template][30]
   * [Overleaf][31]
   * [Web Equation by Vision Objects][32]
@@ -66,7 +66,7 @@ Below is a partial list of links to applets and video repositories related to ca
   * [Division by Zero][42] by Dave Richeson.
   * [Solvable by Radicals][43] by Bret Benesh.
   * [Circles and Tangents][44] by Theron Hitchman.
-  * [Casting Out Nines][45] by Robert Talbert.
+  * [Casting Out Nines](http://rtalbert.org/blog/) by Robert Talbert.
   * [MathEd.net][46] by Raymond Johnson.
   * [Un peu de math][47] by Vincent Knight.
   * [OpenCalculus][48] by Matt Boelkins.
@@ -90,18 +90,6 @@ Below is a partial list of links to applets and video repositories related to ca
  [15]: http://www.ams.org
  [16]: http://www.maa.org
  [17]: http://archives.math.utk.edu/projnext/
- [18]:
- [19]:
- [20]:
- [21]:
- [22]:
- [23]:
- [24]:
- [25]:
- [26]:
- [27]:
- [28]:
- [29]: {{site.baseurl}}/quick-latex-guide/
  [30]: https://gist.github.com/1827406
  [31]: https://www.Overleaf.com
  [32]: http://webdemo.visionobjects.com/home.html#equation
@@ -117,7 +105,6 @@ Below is a partial list of links to applets and video repositories related to ca
  [42]: http://divisbyzero.com
  [43]: http://symmetricblog.wordpress.com
  [44]: http://theronhitchman.wordpress.com
- [45]: http://chronicle.com/blognetwork/castingoutnines/
  [46]: http://blog.mathed.net
  [47]: http://drvinceknight.blogspot.com
  [48]: http://opencalculus.wordpress.com
