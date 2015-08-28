@@ -66,18 +66,16 @@ Calculus of one variable; basic concepts, interpretations, techniques, and appli
 
 ### Additional Information ###
 <div class="row">
-  <div class="col-xs-12 col-lg-8">
+  <div class="col-xs-12 col-md-8">
     <div>
     <p>This course fulfills a requirement in the Science/Applied Science distribution block in the University Liberal Studies program.  It supports the mission of the program to prepare students to live responsible, productive, and creative lives as citizens of a dramatically changing world through the study of Calculus and its applications.  Essential skills in this course are critical thinking, quantitative reasoning, and scientific reasoning.  This course is also a certified <a href="http://nau.edu/University-College/First-Year-Learning-Initiative/">First Year Learning Initiative</a> (FYLI) course.</p>
     </div>
   </div>
 
-  <div class="col-xs-12 col-lg-4">
+  <div class="col-xs-12 col-md-4">
   <div><img src="{{ site.baseurl }}/images/FYLILogo.gif" class="img-responsive" /></div>
   </div>
 </div>
-
-<img src="{{ site.baseurl }}/images/FYLILogo.gif" width="200" align="right" img style="margin-left: 10px" />This course fulfills a requirement in the Science/Applied Science distribution block in the University Liberal Studies program.  It supports the mission of the program to prepare students to live responsible, productive, and creative lives as citizens of a dramatically changing world through the study of Calculus and its applications.  Essential skills in this course are critical thinking, quantitative reasoning, and scientific reasoning.  This course is also a certified [First Year Learning Initiative](http://nau.edu/University-College/First-Year-Learning-Initiative/) (FYLI) course.
 
 ### Textbook ###
 The required textbook is *Calculus I Lecture Notes* (Second Edition) by J. Neuberger, N. Sieben, and J. Swift. The book is available for purchase at the NAU Bookstore for a modest price. In addition, we will be making frequent use of [Differential Calculus]({{ site.baseurl }}/teaching/mat136f15/DifferentialCalculus-JIBLM.pdf) (PDF), which is a free set of [inquiry-based learning](http://maamathedmatters.blogspot.com/2013/05/what-heck-is-ibl.html) (IBL) notes written by [Brian Loft](http://www.shsu.edu/academics/mathematics-and-statistics/faculty/loft.html) (Sam Houston State University) and published by the [Journal of Inquiry-Based Learning](http://www.jiblm.org).  You are also welcome to utilize other books covering first semester calculus.  Check out the [Course Materials]({{ site.baseurl }}/teaching/mat136f15/materials/) page for a list of free calculus textbooks and other resources.
