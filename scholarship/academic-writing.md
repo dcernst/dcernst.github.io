@@ -64,7 +64,7 @@ The following is a list of papers that are in progress.
 
 Below is a list of course materials that I have written to be used with an [inquiry-based learning][11] (IBL) approach.
 
-  * D.C. Ernst. *An Introduction to Proof via Inquiry-Based Learning*. IBL course materials for an introduction to proof course. The first half of the notes are an adaptation of notes written by [Stan Yoshinobu][27] and [Matthew Jones][28]. [[Source on GitHub][29]] [![DOI][30]][31]
+  * D.C. Ernst. *An Introduction to Proof via Inquiry-Based Learning*. IBL course materials for an introduction to proof course. The first half of the notes are an adaptation of notes written by [Stan Yoshinobu][27] and [Matthew Jones][28]. [[Source on GitHub][29]] [![DOI](https://zenodo.org/badge/5110/dcernst/IBL-IntroToProof.svg)](https://zenodo.org/badge/latestdoi/5110/dcernst/IBL-IntroToProof)
   * D.C. Ernst. *An Inquiry-Based Approach to Abstract Algebra*. IBL course materials for an abstract algebra course that emphasizes visualization and incorporates technology. Very much a work in progress. [[Source on GitHub][32]] [![DOI][33]][34]
   * D.C. Ernst, N.Sieben. *MAT 220 Problem Collection*. MAT 220 is an introductory course in mathematical reasoning in multi-step problems across different areas of mathematics. The goal is to use elementary mathematical tools to solve more complex problems in already familiar areas of study instead of teaching new mathematical tools that are used in straightforward one-step exercises. The focus is on problem solving and solution writing.
 
@@ -108,8 +108,6 @@ Here are some online interviews that I have given.
  [27]: http://www.stanyoshinobu.com/
  [28]: http://www.csudh.edu/math/mjones/
  [29]: http://dcernst.github.io/IBL-IntroToProof/
- [30]: https://zenodo.org/badge/doi/10.5281/zenodo.10873.png
- [31]: http://dx.doi.org/10.5281/zenodo.10873
  [32]: http://dcernst.github.io/IBL-AbstractAlgebra/
  [33]: https://zenodo.org/badge/doi/10.5281/zenodo.10874.png
  [34]: http://dx.doi.org/10.5281/zenodo.10874
