@@ -34,8 +34,9 @@ Unless a student has a documented excused absence, late homework will not be acc
 The Daily Homework will generally consist of solving problems from the [IBL course notes]({{ site.baseurl }}/teaching/mat136f15/DifferentialCalculus-JIBLM.pdf) (PDF).  On the day that a homework assignment is due, the majority of the class period will be devoted to students presenting some subset (maybe all) of the solutions/proofs that are due that day. Students are allowed (in fact, encouraged!) to modify their written solutions in light of presentations made in class; however, **you are required to use the colored marker pens provided in class**.
 
 - **Daily Homework 1:** Read the [syllabus]({{ site.baseurl }}/teaching/mat136f15/syllabus) and write down 5 important items.  *Note:*  All of the test dates only count as one item.  Turn in on your own paper at the beginning of class. (Due Wednesday, September 2)
-- **Daily Homework 2:** Read the Introduction to [Differential Calculus]({{ site.baseurl }}/teaching/mat136f15/DifferentialCalculus-JIBLM.pdf) (PDF). In addition, read Chapter 0 up to Problem 11 and complete Problems 3-11.  (Due Wednesday, September 2)
-- **Daily Homework 3:** Stop by my office (AMB 176) and say hello. If I'm not there, just slide note under my door saying you stopped by. (Due Friday, September 4 by 5PM)
+- **Daily Homework 2:** Stop by my office (AMB 176) and say hello. If I'm not there, just slide note under my door saying you stopped by. (Due Friday, September 4 by 5PM)
+- **Daily Homework 3:** Read the Introduction and Chapter 0 up to Problem 11 of [Differential Calculus]({{ site.baseurl }}/teaching/mat136f15/DifferentialCalculus-JIBLM.pdf) (PDF) and complete Problems 3-11.  In addition, skim through the Introduction and Chapter 1 of *Calculus I Lecture Notes*. (Due Wednesday, September 2)
+
 
 <!--
 - **Daily Homework 4:** Read the rest of Chapter 0 in [Differential Calculus](http://teaching.danaernst.com/files/fall2014/mat136/DifferentialCalculus-JIBLM.pdf) and complete Problems 12, 14, 15, 17-19. (Due Friday, August 29)
