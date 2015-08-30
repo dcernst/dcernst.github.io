@@ -118,7 +118,7 @@ In addition, we will occasionally have in-class activities aimed at solidifying 
 All presentations will be graded using the rubric below.
 
 <center>
-<table>
+<table class="table table-striped">
 	<thead>
 	<tr>
 		<th style="text-align: center;">Grade</th>
