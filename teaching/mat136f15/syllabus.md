@@ -250,7 +250,11 @@ In summary, your final grade will be determined by your scores in the following 
 </center>
 
 ### Grade Determination ###
-In general, you should expect the grades to adhere to the standard letter-grade cutoffs: A 100-90%, B 80-89%, C 70-79%, D 60-69%, F 0-59%.
+In general, you should expect the grades to adhere to the standard letter-grade cutoffs:
+
+<center>
+A 100-90%, B 80-89%, C 70-79%, D 60-69%, F 0-59%.
+</center>
 
 ## Additional Information ##
 
