@@ -70,7 +70,7 @@ Below is a list of course materials that I have written to be used with an [inqu
 
 ## Blogging
 
-In addition to the posts that I write for my [personal blog][35], [Angie Hodge][36] and I are coauthors for [Math Ed Matters][37], which is a (roughly) monthly column sponsored by the [Mathematical Association of America][38]. The column explores topics and current events related to undergraduate mathematics education. Posts aim to inspire, provoke deep thought, and provide ideas for the mathematics classroom. Our interest in and engagement with IBL color the column's content.
+In addition to the posts that I write for my [personal blog]({{site.baseurl}}/blog/), [Angie Hodge](http://www.unomaha.edu/math/people/hodge/) and I are coauthors for [Math Ed Matters](http://maamathedmatters.blogspot.com), which is a (roughly) monthly column sponsored by the [Mathematical Association of America](http://maa.org). The column explores topics and current events related to undergraduate mathematics education. Posts aim to inspire, provoke deep thought, and provide ideas for the mathematics classroom. Our interest in and engagement with IBL color the column's content.
 
 ## Online Interviews
 
@@ -94,7 +94,3 @@ Here are some online interviews that I have given.
  [13]: {{site.baseurl}}/scholarship/talks/
  [27]: http://www.stanyoshinobu.com/
  [28]: http://www.csudh.edu/math/mjones/
- [35]: {{site.baseurl}}
- [36]: http://www.unomaha.edu/math/people/hodge/
- [37]: http://maamathedmatters.blogspot.com
- [38]: http://maa.org
