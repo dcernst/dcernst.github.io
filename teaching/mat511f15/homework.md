@@ -24,9 +24,11 @@ When doing your homework, I encourage you to use the [Elements of Style for Proo
 Unless a student has a documented excused absence, late homework will not be accepted.  You are allowed and encouraged to work together on homework.  However, each student is expected to turn in his or her own work.
 
 ## Homework ##
-You are allowed and encouraged to work together on homework. Yet, each student is expected to turn in his or her own work. In general, late homework will not be accepted. However, you are allowed to turn in up to 2 homework assignments late with no questions asked. Unless you have made arrangements in advance with me, homework turned in after class will be considered late.
+You are allowed and encouraged to work together on homework. Yet, each student is expected to turn in his or her own work. In general, late homework will not be accepted. However, you are allowed to turn in one late homework assignment with no questions asked. Unless you have made arrangements in advance with me, homework turned in after class will be considered late.
 
-The following assignments are to be turned in at the end of the indicated class period. I reserve the right to modify the assignment if the need arises. Students are allowed (in fact, encouraged!) to modify their written solutions in light of class discussions; however, **you are required to use the colored marker pens provided in class**.
+I reserve the right to modify assignments if the need arises. Students are allowed (in fact, encouraged!) to modify their written solutions in light of class discussions; however, **you are required to use the colored marker pens provided in class**.
 
-- **Homework 1:** Stop by my office (AMB 176) and say hello. If I'm not there, just slide note under my door saying you stopped by. (Due Friday, September 4 by 5PM)
-- **Homework 2:** Coming soon.  (Due Wednesday, September 2)
+<ul class="fa-ul">
+  <li><i class="fa fa-file-pdf-o"></i> <a href="{{ site.baseurl }}/teaching/mat511f15/511HW1.pdf">Homework 1</a> (Due Friday, September 4)</li>
+  <li><i class="fa fa-file-pdf-o"></i> <a href="{{ site.baseurl }}/teaching/mat511f15/511HW2.pdf">Homework 2</a> (coming soon)</li>
+</ul>
