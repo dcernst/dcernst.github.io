@@ -27,7 +27,7 @@ I reserve the right to modify assignments if the need arises. Students are allow
 When doing your homework, I encourage you to use the [Elements of Style for Proofs]({{ site.baseurl }}/teaching/ElementsOfStyle.pdf) as a reference.
 
 ## Assignments ##
-Here are the assignments.  I will post them as we go.
+Here are the assignments.  I will post them as we go. *Note:* You can obtain the corresponding LaTeX files by clicking on the link and replacing .pdf with .tex.
 <ul class="fa-ul">
   <li><i class="fa fa-file-pdf-o"></i> <a href="{{ site.baseurl }}/teaching/mat511f15/511HW1.pdf">Homework 1</a> (Due Friday, 9/4)</li>
   <li><i class="fa fa-file-pdf-o"></i> <a href="{{ site.baseurl }}/teaching/mat511f15/511HW2.pdf">Homework 2</a> (coming soon)</li>
