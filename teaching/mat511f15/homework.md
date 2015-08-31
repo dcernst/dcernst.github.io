@@ -29,6 +29,6 @@ When doing your homework, I encourage you to use the [Elements of Style for Proo
 ## Assignments ##
 Here are the assignments.  I will post them as we go.
 <ul class="fa-ul">
-  <li><i class="fa fa-file-pdf-o"></i> <a href="{{ site.baseurl }}/teaching/mat511f15/511HW1.pdf">Homework 1</a> (Due Friday, September 4)</li>
+  <li><i class="fa fa-file-pdf-o"></i> <a href="{{ site.baseurl }}/teaching/mat511f15/511HW1.pdf">Homework 1</a> (Due Friday, 9/4)</li>
   <li><i class="fa fa-file-pdf-o"></i> <a href="{{ site.baseurl }}/teaching/mat511f15/511HW2.pdf">Homework 2</a> (coming soon)</li>
 </ul>
