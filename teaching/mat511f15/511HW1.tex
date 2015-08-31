@@ -1,0 +1,142 @@
+\documentclass[11pt]{scrartcl}
+\usepackage[scale=1.5]{ccicons}
+\usepackage[notextcomp]{kpfonts} 
+\usepackage[margin=1in]{geometry}
+\usepackage{amsthm,amssymb}
+\usepackage{graphicx}
+\usepackage{enumitem}
+\usepackage{bm}
+
+\usepackage{color}
+\definecolor{darkblue}{rgb}{0, 0, .6}
+\definecolor{grey}{rgb}{.7, .7, .7}
+\usepackage[breaklinks]{hyperref}
+\hypersetup{
+	colorlinks=true,
+	linkcolor=darkblue,
+	anchorcolor=darkblue,
+	citecolor=darkblue,
+	pagecolor=darkblue,
+	urlcolor=darkblue,
+	pdftitle={},
+	pdfauthor={}
+}
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\lhead{MAT 511 - Fall 2015}
+\chead{}
+\rhead{Due Friday, September 4}
+%\lfoot{}%\scriptsize This work is licensed under the \href{http://creativecommons.org/licenses/by-sa/3.0/us/}{Creative Commons Attribution-Share Alike 3.0 License}.} 
+%\cfoot{}
+%\rfoot{\ccbysa}
+\renewcommand{\headrulewidth}{.4pt}
+%\renewcommand{\footrulewidth}{.4pt}
+
+\theoremstyle{definition}
+\newtheorem{theorem}{Theorem}
+\newtheorem{acknowledgement}[theorem]{Acknowledgement}
+\newtheorem{algorithm}[theorem]{Algorithm}
+\newtheorem{axiom}[theorem]{Axiom}
+\newtheorem{case}[theorem]{Case}
+\newtheorem{claim}[theorem]{Claim}
+\newtheorem*{claim*}{Claim}
+\newtheorem{conclusion}[theorem]{Conclusion}
+\newtheorem{condition}[theorem]{Condition}
+\newtheorem{conjecture}[theorem]{Conjecture}
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{criterion}[theorem]{Criterion}
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{example}[theorem]{Example}
+\newtheorem{exercise}[theorem]{Exercise}
+\newtheorem{journal}[theorem]{Journal}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{notation}[theorem]{Notation}
+\newtheorem{problem}[theorem]{Problem}
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{remark}[theorem]{Remark}
+\newtheorem{solution}[theorem]{Solution}
+\newtheorem{summary}[theorem]{Summary}
+\newtheorem{skeleton}[theorem]{Skeleton Proof}
+\newtheorem{activity}[theorem]{Activity}
+\newtheorem{intuitivedef}[theorem]{Intuitive Definition}
+
+\DeclareMathOperator{\spn}{span}
+
+%Useful for cut and paste
+%\begin{enumerate}[label=\rm{(\alph*)}]
+
+\begin{document}
+
+\title{Homework 1}
+\subtitle{Abstract Algebra I}
+\date{}
+
+\maketitle
+\thispagestyle{fancy}
+
+The following problems are meant to be a review of content that you are in theory expected to know, but I don't actually expect you do be able to do all of these exercises without some struggle.  Most of the content should look familiar (but if most of it doesn't look familiar, we should chat).  We'll use many of the ideas of these problems later in the course.  However, I've included a couple of the problems because I think they are good warm-up exercises.
+
+If notation and/or terminology is unfamiliar to you, please ask for clarification.
+
+\begin{problem}
+Let $M_{2\times 2}(\mathbb{R})$ be the set of $2\times 2$ matrices with real number entries.  Define
+\[
+A=\begin{bmatrix}
+1 & 1\\
+0 & 1
+\end{bmatrix}
+\]
+and $\mathcal{B}=\{X\in M_{2\times 2}(\mathbb{R})\mid AX=XA\}$.
+\begin{enumerate}[label=\rm{(\alph*)}]
+\item Find 3 matrices that are in $\mathcal{B}$ or explain why this is impossible.
+\item Prove that if $X,Y\in\mathcal{B}$, then $X+Y\in\mathcal{B}$.
+\end{enumerate}
+\end{problem}
+
+\begin{problem}
+Let $X$ be a nonempty set.  Prove one of the following.
+\begin{enumerate}[label=\rm{(\alph*)}]
+\item If $\sim$ defines an equivalence relation on $X$, then the set of equivalence classes of $\sim$ forms a partition of $A$.
+\item If $\{P_k\}_{k\in I}$ is a partition of $X$, then there is an equivalence relation on $X$ whose equivalence classes are exactly the sets $P_k$.
+\end{enumerate}
+\end{problem}
+
+\begin{problem}
+Let $f:X\to Y$, where $X$ and $Y$ are finite sets. Prove that if $X$ and $Y$ have the same cardinality (i.e., $|X|=|Y|$), then $f$ is a bijection iff $f$ is 1-1 iff $f$ is onto.
+\end{problem}
+
+\begin{problem}
+Determine whether each of the following functions is well-defined.  Justify your answer.
+\begin{enumerate}[label=\rm{(\alph*)}]
+\item $f:\mathbb{Q}\to \mathbb{Z}$ defined via $f(a/b)=a$.
+\item $g:\mathbb{Q}\to \mathbb{Q}$ defined via $g(a/b)=a^2/b^2$.
+\item $h:\mathbb{R}^+\to \mathbb{Z}$, where $h(r)$ is equal to the first digit to the right of the decimal point in a decimal expansion of $r$.
+\end{enumerate}
+\end{problem}
+
+\begin{problem}
+Let $f:X\to Y$ be a surjection.  Define $\sim$ via
+\[
+x\sim y\text{ iff } f(x)=f(y).
+\]
+Prove that $\sim$ is an equivalence relation, where each equivalence class corresponds to the inverse image of a point in $Y$.
+\end{problem}
+
+\begin{problem}
+Let $n$ be a fixed positive integer. Define $\equiv_n$ on $\mathbb{Z}$ via
+\[
+a\equiv_n b\text{ iff } n\mid(b-a).
+\]
+It turns out that $\equiv_n$ is an equivalence relation (you may take this for granted). If $a\equiv_n b$, then we say, ``$a$ is congruent to $b$ mod $n$." The equivalence classes determined by $\equiv_n$ are defined via
+\[
+\overline{a}=\{a+kn\mid k\in\mathbb{Z}\}.
+\]
+There are precisely $n$ equivalence classes mod $n$, namely $\overline{0},\overline{1},\ldots,\overline{n-1}$ determined by the possible remainders after division by $n$.  We denote the collection of equivalence classes mod $n$ by $\mathbb{Z}/n\mathbb{Z}$. For $\overline{a},\overline{b}\in\mathbb{Z}/n\mathbb{Z}$, we define modular addition via
+\[
+\overline{a}+\overline{b}=\overline{a+b}.
+\]
+Prove that modular addition is well-defined.
+\end{problem}
+
+\end{document}
