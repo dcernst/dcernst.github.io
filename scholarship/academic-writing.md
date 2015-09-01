@@ -27,7 +27,7 @@ Below is a list of my published articles and theses.
   * B. Love, A. Hodge, C. Corritore, and D.C. Ernst. Inquiry-Based Learning and the Flipped Classroom Model. Accepted to *PRIMUS*.
   * B. Beaudrie, D.C. Ernst, E. Kennedy, and R. St. Laurent. Inverted Pedagogy in Second Semester Calculus. Accepted to *PRIMUS*.
   * D.C. Ernst and A. Hodge. Within $\epsilon$ of Independence: An Attempt to Produce Independent Proof-Writers via IBL. Accepted as book chapter to *Beyond Lecture: Techniques to Improve Student Proof-Writing Across the Curriculum*, MAA Notes.
-  * D.C. Ernst, A. Hodge, M. Jones, and S. Yoshinobu. The Many Faces of IBL. Accepted as book chapter.
+  * D.C. Ernst, A. Hodge, M. Jones, and S. Yoshinobu. The Many Faces of IBL. Accepted as book chapter to *Handbook of Research on Pedagogical Practice in STEM Education*.
   * D.C. Ernst, M. Leingang, and R. Taylor. Facebook for Professional Educators: To Friend or Not to Friend? *MAA FOCUS* June/July 2015. [[ePrint](http://digital.ipcprintservices.com/publication/?i=260736&pre=1&p=7)]
   * D.C. Ernst, A. Hodge, and A. Schultz. Enhancing Proof Writing via Cross-Institutional Peer Review. *PRIMUS* 25(2), 121-130, 2015. [[DOI:10.1080/10511970.2014.921652](http://www.tandfonline.com/doi/full/10.1080/10511970.2014.921652)]
   * B. Beaudrie, D.C. Ernst, and B. Boschmans. Redesigning an Algebra for Precalculus Course. In T. Bastiaens & G. Marks (Eds.), *Proceedings of World Conference on E-Learning in Corporate, Government, Healthcare, and Higher Education*, 2013. Chesapeake, VA: AACE. [[EdITLib](http://www.editlib.org/p/115001/)]
