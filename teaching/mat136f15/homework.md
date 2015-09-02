@@ -36,7 +36,8 @@ The Daily Homework will generally consist of solving problems from the [IBL cour
 - **Daily Homework 1:** Read the [syllabus]({{ site.baseurl }}/teaching/mat136f15/syllabus) and write down 5 important items.  *Note:*  All of the test dates only count as one item.  Turn in on your own paper at the beginning of class. (Due Wednesday, 9/2)
 - **Daily Homework 2:** Stop by my office (AMB 176) and say hello. If I'm not there, just slide note under my door saying you stopped by. (Due Friday, 9/4 by 5PM)
 - **Daily Homework 3:** Read the Introduction and Chapter 0 up to Problem 11 of [Differential Calculus]({{ site.baseurl }}/teaching/mat136f15/DifferentialCalculus-JIBLM.pdf) (PDF) and complete Problems 3-11.  In addition, skim through the Introduction and Chapter 1 of *Calculus I Lecture Notes*. (Due Wednesday, 9/2)
-- **Daily Homework 4:** Read the rest of Chapter 0 in [Differential Calculus]({{ site.baseurl }}/teaching/mat136f15/DifferentialCalculus-JIBLM.pdf) and complete Problems 12, 14, 15, 17-19. For Problem 14, feel free to use a graphing calculator or a computer to obtain the graph of the function. (Due Friday, 9/4)
+- **Daily Homework 4:** Read [Required Knowledge from Precalculus]({{ site.baseurl }}/teaching/136RequiredKnowledge.pdf) and write down 3 things you have trouble remembering. (Due Thursday 9/3)
+- **Daily Homework 5:** Read the rest of Chapter 0 in [Differential Calculus]({{ site.baseurl }}/teaching/mat136f15/DifferentialCalculus-JIBLM.pdf) and complete Problems 12, 14, 15, 17-19. For Problem 14, feel free to use a graphing calculator or a computer to obtain the graph of the function. (Due Friday, 9/4)
 
 <!--
 - **Daily Homework 4:** Read the rest of Chapter 0 in [Differential Calculus](http://teaching.danaernst.com/files/fall2014/mat136/DifferentialCalculus-JIBLM.pdf) and complete Problems 12, 14, 15, 17-19. (Due Friday, August 29)
