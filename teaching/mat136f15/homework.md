@@ -110,7 +110,7 @@ You'll prove that the first formula is correct in Problem 150.  For now, you can
 
 The majority of the Weekly Homework assignments are to be completed via [WeBWorK](https://webwork.math.nau.edu/webwork2/DErnst_136), which is an online homework system. You should log in with your NAU credentials.
 
-- Coming soon!
+- **Weekly Homework 1:** Complete the corresponding problems on [WeBWorK](https://webwork.math.nau.edu/webwork2/DErnst_136). (Due Wednesday, 9/9 by 8PM)
 
 <!--
 - **Weekly Homework 1:** Complete the corresponding problems on [WeBWorK](https://webwork.math.nau.edu/webwork2/DErnst_136). (Due Tuesday, September 2 by 5PM)
