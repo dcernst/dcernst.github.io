@@ -42,7 +42,7 @@ Below is a list of my published articles and theses.
 
 Below is a list of papers that have been submitted, but not yet accepted for publication.
 
-  * D.C. Ernst, M. Hastings, and S. Salmon. Factorization of Temperley-Lieb diagrams. Submitted to *Involve*. [[arxiv:(coming soon)](???)]
+  * D.C. Ernst, M. Hastings, and S. Salmon. Factorization of Temperley-Lieb diagrams. Submitted to *Involve*. [[arxiv:1509.01241](http://arxiv.org/abs/1509.01241)]
   * B.J. Benesh, D.C. Ernst, and N. Sieben. Impartial avoidance games for generating finite groups. Submitted to *North-Western European Journal of Mathematics*. [[arXiv:1506.07105](http://arxiv.org/abs/1506.07105)]
   * B.J. Benesh, D.C. Ernst, and N. Sieben. Impartial avoidance and achievement games for generating symmetric and alternating groups. Submitted to *Int. Electron. J. Algebra*. [[arxiv:1508.03419](http://arxiv.org/abs/1508.03419)]
   * D.C. Ernst and N. Sieben. Impartial achievement and avoidance games for generating finite groups. Submitted to *Int. J. Game Theory*. [[arXiv:1407.0784](http://arxiv.org/abs/1407.0784)]
