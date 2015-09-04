@@ -1,0 +1,157 @@
+\documentclass[11pt]{scrartcl}
+\usepackage[scale=1.5]{ccicons}
+\usepackage[notextcomp]{kpfonts} 
+\usepackage[margin=1in]{geometry}
+\usepackage{amsthm,amssymb}
+\usepackage{graphicx}
+\usepackage{enumitem}
+\usepackage{bm}
+\usepackage{tabu}
+
+\usepackage{color}
+\definecolor{darkblue}{rgb}{0, 0, .6}
+\definecolor{grey}{rgb}{.7, .7, .7}
+\usepackage[breaklinks]{hyperref}
+\hypersetup{
+	colorlinks=true,
+	linkcolor=darkblue,
+	anchorcolor=darkblue,
+	citecolor=darkblue,
+	pagecolor=darkblue,
+	urlcolor=darkblue,
+	pdftitle={},
+	pdfauthor={}
+}
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\lhead{MAT 511 - Fall 2015}
+\chead{}
+\rhead{Due Wednesday, September 9}
+%\lfoot{}%\scriptsize This work is licensed under the \href{http://creativecommons.org/licenses/by-sa/3.0/us/}{Creative Commons Attribution-Share Alike 3.0 License}.} 
+%\cfoot{}
+%\rfoot{\ccbysa}
+\renewcommand{\headrulewidth}{.4pt}
+%\renewcommand{\footrulewidth}{.4pt}
+
+\theoremstyle{definition}
+\newtheorem{theorem}{Theorem}
+\newtheorem{acknowledgement}[theorem]{Acknowledgement}
+\newtheorem{algorithm}[theorem]{Algorithm}
+\newtheorem{axiom}[theorem]{Axiom}
+\newtheorem{case}[theorem]{Case}
+\newtheorem{claim}[theorem]{Claim}
+\newtheorem*{claim*}{Claim}
+\newtheorem{conclusion}[theorem]{Conclusion}
+\newtheorem{condition}[theorem]{Condition}
+\newtheorem{conjecture}[theorem]{Conjecture}
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{criterion}[theorem]{Criterion}
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{example}[theorem]{Example}
+\newtheorem{exercise}[theorem]{Exercise}
+\newtheorem{journal}[theorem]{Journal}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{notation}[theorem]{Notation}
+\newtheorem{problem}[theorem]{Problem}
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{remark}[theorem]{Remark}
+\newtheorem{solution}[theorem]{Solution}
+\newtheorem{summary}[theorem]{Summary}
+\newtheorem{skeleton}[theorem]{Skeleton Proof}
+\newtheorem{activity}[theorem]{Activity}
+\newtheorem{intuitivedef}[theorem]{Intuitive Definition}
+
+\newcommand{\blankline}{\pagebreak[2]\vspace{.5\baselineskip}}
+
+\setlength{\parindent}{0pt}
+
+%Useful for cut and paste
+%\begin{enumerate}[label=\rm{(\alph*)}]
+
+\begin{document}
+
+\title{Homework 2}
+\subtitle{Abstract Algebra I}
+\date{}
+
+\maketitle
+\thispagestyle{fancy}
+
+Complete the following problems.
+
+\begin{problem}
+Determine whether each of the following binary operations is (i) associative and (ii) commutative.
+\begin{enumerate}[label=\rm{(\alph*)}]
+\item The operation $\star$ on $\mathbb{R}$ defined via $a\star b=a+b+ab$.
+\item The operation $\circ$ on $\mathbb{Q}$ defined via $\displaystyle a\circ b=\frac{a+b}{5}$.
+\item The operation $\circledcirc$ on $\mathbb{Z}\times \mathbb{Z}$ defined via $(a,b)\circledcirc (c,d)=(ad+bc,bd)$.
+\item The operation $\circledast$ on $\mathbb{Q}\setminus\{0\}$ defined via $\displaystyle a\circledast b=\frac{a}{b}$.
+\item The operation $\circleddash$ on $\mathbb{R}/I:=\{x\in\mathbb{R}\mid 0\leq x<1\}$ defined via $a\circleddash b=a+b-\lfloor a+b\rfloor$ (i.e., $a\circleddash b$ is the fractional part of $a+b$).
+\end{enumerate}
+\end{problem}
+
+\begin{problem}
+Determine which of the following sets are groups under the given operation. Justify your answer.
+\begin{enumerate}[label=\rm{(\alph*)}]
+\item $\mathbb{Z}/n\mathbb{Z}$ under multiplication mod $n$.
+\item Set of rational numbers in lowest terms whose denominators are odd under addition.
+\item Set of rational numbers in lowest terms whose denominators are even together with $0$ under addition.
+\item Set of rational numbers of absolute value less than 1 under addition.
+\item $\mathbb{R}/I$ under $\circleddash$ as defined in Problem 1(e). 
+\end{enumerate}
+\end{problem}
+
+\begin{problem}
+Let $G=\{a+b\sqrt{2}\mid a,b\in\mathbb{Q}\}$.  Prove one of the following.
+\begin{enumerate}[label=\rm{(\alph*)}]
+\item The set $G$ is a group under addition.
+\item If $H=G\setminus\{0\}$, then $H$ is a group under multiplication.
+\end{enumerate}
+\end{problem}
+
+\begin{problem}
+Assume $G$ is a group and let $x\in G$.  Prove one of the following.
+\begin{enumerate}[label=\rm{(\alph*)}]
+\item If $a,b\in\mathbb{Z}$, then $x^{a+b}=x^ax^b$.
+\item If $a,b\in\mathbb{Z}$, then $(x^a)^b=x^{ab}$.
+\end{enumerate}
+Don't forget to handle the case when either $a$ or $b$ is nonpositive.
+\end{problem}
+
+\begin{problem}
+Assume $G$ is a group and let $a,b\in G$.  Is it true that $(ab)^n=a^nb^n$?  If not, under what minimal conditions would it be true? Prove the statement that you think is true.
+\end{problem}
+
+\begin{problem}
+Assume $G$ is a group. Prove that if $x^2=e$ for all $x\in G$, then $G$ is abelian.
+\end{problem}
+
+\begin{problem}
+Assume $(G,\star)$ is a group and let $H$ be a nonempty subset of $G$ that is (i) closed under $\star$ and (ii) closed under inverses (i.e., for all $h,k\in H$, (i) $hk\in H$ and (ii) $h^{-1}\in H$).  Prove that $H$ is a group under $\star$ in its own right.  Such a subset is called a \emph{subgroup}.
+\end{problem}
+
+\begin{problem}
+Assume $G$ is a group.  Prove that if $x\in G$ such that $x^n\neq e$ for all $n\in \mathbb{Z}^+$, then $x^i\neq x^j$ for all $i\neq j$.
+\end{problem}
+
+\begin{problem}
+Assume $G=\{e,a,b,c\}$ is a group under $\star$ with the property that $x^2=x^4$ for all $x\in G$ (where $e$ is the identity). Complete the following \emph{group table}, where $x\star y$ is defined to be the entry in the row labeled by $x$ and the column labeled by $y$.
+
+\begin{center}
+\begin{tabu}{c|[2pt]c|c|c|c}
+$\star$ & $e$ & $a$ & $b$ & $c$ \\ \tabucline[2pt]{-}
+$e$ &  $e$ & $a$ & $b$ & $c$ \\
+\hline $a$ & $a$ &  & & \\
+\hline $b$ & $b$ & & & \\
+\hline $c$ & $c$ & & &
+\end{tabu}
+\end{center}
+Is your table unique?  That is, did you have to fill it out the way you did?  Deduce that $G$ is abelian.
+\end{problem}
+
+\begin{problem}
+\textbf{(Optional)} Assume $G$ is a finite group.  Prove that every element of $G$ must appear exactly once in every row and column of the group table for $G$.  (Of course, we are not counting the row and column headings.)
+\end{problem}
+
+\end{document}
