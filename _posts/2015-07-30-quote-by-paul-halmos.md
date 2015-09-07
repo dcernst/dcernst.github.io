@@ -15,6 +15,16 @@ tags:
   - quote
 format: quote
 ---
+<blockquote>
+<p>A smooth lecture...may be pleasant; a good teacher challenges, asks, irritates and maintains high standards – all that is generally not pleasant.</p>
+<footer>Paul Halmos</footer>
+</blockquote>
+
+<div class="alert alert-info" role="alert"><i class="fa fa-quote-left"> A smooth lecture...may be pleasant; a good teacher challenges, asks, irritates and maintains high standards – all that is generally not pleasant.</div>
+
+<div class="alert alert-info" role="alert"><i class="fa fa-quote-left"> A smooth lecture...may be pleasant; a good teacher challenges, asks, irritates and maintains high standards – all that is generally not pleasant.
+<footer>Paul Halmos</footer>
+</div>
 
 <i class="fa fa-quote-left"></i>A smooth lecture...may be pleasant; a good teacher challenges, asks, irritates and maintains high standards – all that is generally not pleasant.<i class="fa fa-quote-right"></i>
 <footer>Paul Halmos <cite title="Source Title">Source Title</cite></footer>
