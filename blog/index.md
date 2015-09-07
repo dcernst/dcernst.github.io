@@ -14,4 +14,6 @@ title: Blog Posts
     {% endfor %}
 </ul>
 
-<i class="fa fa-exclamation-triangle fa-fw"></i> The views expressed on this blog are my own and are not necessarily shared by my employer [Northern Arizona University](http://nau.edu).
+<div class="alert alert-info" role="alert">
+<i class="fa fa-hand-peace-o fa-fw"></i>&nbsp; The views expressed on this blog are my own and are not necessarily shared by my employer <a href="http://nau.edu">Northern Arizona University</a>.
+</div>
