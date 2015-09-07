@@ -10,8 +10,7 @@ title: Blog Posts
         <a class="post-link" href="{{ post.url | prepend: site.baseurl}}">{{ post.title }}</a>  
         {{post.excerpt}}
         <p><i class="fa fa-chevron-circle-right fa-fw"></i>&nbsp; <a href="{{post.url}}">Read more</a></p>
-        <div style="height:50px;"></div>
-        <div style="clear: both;"></div>
+        <div style="height:20px;"></div>
       </li>
     {% endfor %}
 </ul>
