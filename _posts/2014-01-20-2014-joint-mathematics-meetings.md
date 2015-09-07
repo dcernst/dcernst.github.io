@@ -27,9 +27,7 @@ tags:
   - undergrad research
 ---
 
-<img src="{{ site.baseurl }}/images/2014/01/IMG_3817.jpg?fit=610%2C436" alt="Undergraduate Student Poster Session" class="aligncenter size-full wp-image-1171" data-recalc-dims="1" />
-
-The [Joint Mathematics Meetings](http://jointmathematicsmeetings.org/jmm) took place last week in Baltimore, MD. The JMM is a joint venture between the [American Mathematical Society](http://www.ams.org/home/page) and the [Mathematical Association of America](http://www.maa.org/). Held each January, the JMM is the largest annual mathematics meeting in the world. Attendance in 2013 was an incredible 6600. I don't know what the numbers were this year, but my impression was that attendance was down from last year.
+<img src="{{ site.baseurl }}/images/2014/01/IMG_3817.jpg" align="left" width="100" img style="margin-right: 15px" />The [Joint Mathematics Meetings](http://jointmathematicsmeetings.org/jmm) took place last week in Baltimore, MD. The JMM is a joint venture between the [American Mathematical Society](http://www.ams.org/home/page) and the [Mathematical Association of America](http://www.maa.org/). Held each January, the JMM is the largest annual mathematics meeting in the world. Attendance in 2013 was an incredible 6600. I don't know what the numbers were this year, but my impression was that attendance was down from last year.
 
 As usual, the JMM was a whirlwind of talks, meetings, and socializing with my math family. My original plan was to keep my commitments to a minimum as I've been feeling stretched a bit thin lately. After turning down a few invitations to give talks, I agreed to speak as part of panel during a [Project NExT](http://www.maa.org/programs/faculty-and-departments/project-next) session. The title of the panel was "Tried & True Practices for IBL & Active Learning". Here, IBL is referring to [inquiry-based learning](http://maamathedmatters.blogspot.com/2013/05/what-heck-is-ibl.html). Last year I gave several talks and co-organized workshops about IBL, so I knew preparing for the panel wouldn't be a huge burden.
 
