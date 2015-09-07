@@ -12,7 +12,7 @@ tags:
   - Paul Halmos
   - quote
   - teaching
-format: quote
+http://www.maa.org/programs/faculty-and-departments/project-next
 ---
 
 <blockquote>

@@ -13,7 +13,7 @@ tags:
   - quote
   - RL Moore
   - teaching
-format: quote
+http://www.maa.org/programs/faculty-and-departments/project-next
 ---
 
 <blockquote>

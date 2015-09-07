@@ -9,7 +9,7 @@ tags:
   - IBL
   - inquiry-based learning
   - quote
-format: quote
+http://www.maa.org/programs/faculty-and-departments/project-next
 ---
 
 <blockquote>

@@ -13,7 +13,7 @@ tags:
   - Paul Halmos
   - productive failure
   - quote
-format: quote
+http://www.maa.org/programs/faculty-and-departments/project-next
 ---
 
 <blockquote>

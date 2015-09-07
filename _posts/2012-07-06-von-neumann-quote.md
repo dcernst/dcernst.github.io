@@ -8,7 +8,7 @@ categories:
 tags:
   - mathematics
   - quote
-format: quote
+http://www.maa.org/programs/faculty-and-departments/project-next
 ---
 
 <blockquote>
