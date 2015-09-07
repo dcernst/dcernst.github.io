@@ -8,7 +8,8 @@ title: Blog Posts
       <li>
         <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }} </span>
         <a class="post-link" href="{{ post.url | prepend: site.baseurl}}">{{ post.title }}</a>  
-        <p>{{post.excerpt}}</p>
+        {{post.excerpt}}
+        <p><i class="fa fa-chevron-circle-right fa-fw"></i>&nbsp; <a href="{{post.url}}">Read more</a></p>
       </li>
     {% endfor %}
 </ul>
