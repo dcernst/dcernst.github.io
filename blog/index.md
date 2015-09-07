@@ -3,13 +3,14 @@ layout: default
 title: Blog Posts
 ---
 
-<ul class="list-unstyled" style="line-height:1.4;">
+<ul class="list-unstyled>
     {% for post in site.posts %}
       <li>
         <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }} </span>
         <a class="post-link" href="{{ post.url | prepend: site.baseurl}}">{{ post.title }}</a>  
         {{post.excerpt}}
         <p><i class="fa fa-chevron-circle-right fa-fw"></i>&nbsp; <a href="{{post.url}}">Read more</a></p>
+        <div style="height:50px;"></div>
         <div style="clear: both;"></div>
       </li>
     {% endfor %}
