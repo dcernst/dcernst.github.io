@@ -14,11 +14,4 @@ title: Blog Posts
     {% endfor %}
 </ul>
 
-<!-- <div class="posts">
-{% for post in site.posts %}
-<h3><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
-
-{{ post.excerpt }}
-
-{% endfor %}
-</div> -->
+<i class="fa fa-exclamation-triangle fa-fw"></i> The views expressed on this blog are my own and are not necessarily shared by my employer [Northern Arizona University](http://nau.edu).
