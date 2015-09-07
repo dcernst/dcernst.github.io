@@ -47,4 +47,4 @@ For more info, check out my [about]({{ site.baseurl }}/about/), [scholarship]({{
 
 This website was created using [GitHub Pages](https://pages.github.com) and [Jekyll](http://jekyllrb.com) together with [Twitter Bootstrap](http://getbootstrap.com).
 
-<i class="fa fa-code"></i> [Source Code on GitHub](https://github.com/dcernst/dcernst.github.io).
+<i class="fa fa-code fa-fw"></i> [Source Code on GitHub](https://github.com/dcernst/dcernst.github.io).

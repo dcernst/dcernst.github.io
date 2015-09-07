@@ -74,4 +74,8 @@ Lastly, I am a husband and a father of two incredible sons. Oh, I enjoy drinking
 
 </div>
 
-<em>Note: The views expressed on this blog are my own and are not necessarily shared by my employer <a href="http://nau.edu">Northern Arizona University</a>.</em>
+This website was created using [GitHub Pages](https://pages.github.com) and [Jekyll](http://jekyllrb.com) together with [Twitter Bootstrap](http://getbootstrap.com).
+
+<i class="fa fa-code fa-fw"></i> [Source Code on GitHub](https://github.com/dcernst/dcernst.github.io).
+
+<i class="fa fa-exclamation-triangle fa-fw"></i> The views expressed on this blog are my own and are not necessarily shared by my employer [Northern Arizona University](http://nau.edu).
