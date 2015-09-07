@@ -3,10 +3,6 @@ layout: default
 title: Welcome to Dana's Webpage
 ---
 
-<ol class="breadcrumb">
-  <li class="active"><a href="/"><i class="fa fa-home"></i></a></li>
-</ol>
-
 Welcome! My name is Dana C. Ernst and I am an assistant professor in the [Department of Mathematics and Statistics](http://nau.edu/cefns/natsci/math/) at [Northern Arizona University](http://nau.edu) in [Flagstaff, AZ](href="https://maps.google.com/maps?q=Flagstaff,+AZ&amp;hl=en&amp;sll=37.0625,-95.677068&amp;sspn=57.161276,109.511719&amp;oq=fl&amp;hnear=Flagstaff,+Coconino,+Arizona&amp;t=m&amp;z=12). This site is part of the [Booles' Rings](http://boolesrings.org) network of academic home pages/blogs. Unless indicated otherwise, all of the work contained in this site is licensed under a [Creative Commons Attribution-Share Alike 4.0 United States License](https://creativecommons.org/licenses/by-sa/4.0/).
 
 My primary research interests are in the interplay between combinatorics and algebraic structures. More specifically, I study the combinatorics of [Coxeter groups](http://en.wikipedia.org/wiki/Coxeter_group) and their associated [Hecke algebras](http://en.wikipedia.org/wiki/Hecke_algebra), [Kazhdan-Lusztig theory](http://en.wikipedia.org/wiki/Kazhdan%E2%80%93Lusztig_polynomial), generalized [Temperley-Lieb algebras](http://en.wikipedia.org/wiki/Temperley-Lieb_algebra), [diagram algebras](http://en.wikipedia.org/wiki/Planar_algebra), and [heaps of pieces](http://www.emis.de/journals/SLC/books/heaps.ps). By employing combinatorial tools such as diagram algebras and heaps of pieces, one can gain insight into algebraic structures associated to Coxeter groups, and, conversely, the corresponding structure theory can often lead to surprising combinatorial results.
@@ -47,5 +43,6 @@ For more info, check out my [about]({{ site.baseurl }}/about/), [scholarship]({{
       </address>
     </div>
   </div>
-
 </div>
+
+This website was created using [GitHub Pages](https://pages.github.com) and [Jekyll](http://jekyllrb.com) together with [Twitter Bootstrap](http://getbootstrap.com). [[Source Code](https://github.com/dcernst/dcernst.github.io)]
