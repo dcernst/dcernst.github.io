@@ -3,7 +3,7 @@ layout: default
 title: Blog Posts
 ---
 
-<ul class="list-unstyled">
+<ul class="list-unstyled" style="line-height:1.4;">
     {% for post in site.posts %}
       <li>
         <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }} </span>
