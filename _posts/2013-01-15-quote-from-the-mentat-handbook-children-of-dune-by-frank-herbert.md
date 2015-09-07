@@ -10,4 +10,7 @@ tags:
 format: quote
 ---
 
-<i class="fa fa-quote-left fa-2x fa-pull-left fa-border"></i><p class="lead">There’s no real mystery about this at the moment. This is what we want now. It may prove wrong later, but we’ll correct that when we come to it.</p>
+<blockquote>
+<p>There’s no real mystery about this at the moment. This is what we want now. It may prove wrong later, but we’ll correct that when we come to it.</p>
+<footer>From “The Mentat Handbook,” <cite title="Source Title">Children of Dune</cite> by Frank Herbert</footer>
+</blockquote>

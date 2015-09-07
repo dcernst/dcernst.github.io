@@ -17,4 +17,7 @@ tags:
 format: quote
 ---
 
-<i class="fa fa-quote-left fa-2x fa-pull-left fa-border"></i><p class="lead">Time spent thinking about a problem is always time well spent. Even if you seem to make no progress at all.</p>
+<blockquote>
+<p>Time spent thinking about a problem is always time well spent. Even if you seem to make no progress at all.</p>
+<footer>Paul Zeitz in <cite title="Source Title">The Art and Craft of Problem Solving</cite></footer>
+</blockquote>

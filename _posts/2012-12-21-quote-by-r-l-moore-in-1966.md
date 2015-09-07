@@ -16,4 +16,7 @@ tags:
 format: quote
 ---
 
-<i class="fa fa-quote-left fa-2x fa-pull-left fa-border"></i><p class="lead">That student is taught the best who is told the least.</p>
+<blockquote>
+<p>That student is taught the best who is told the least.</p>
+<footer>R.L. Moore, 1966</footer>
+</blockquote>

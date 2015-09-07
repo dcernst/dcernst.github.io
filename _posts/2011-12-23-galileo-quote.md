@@ -15,4 +15,7 @@ tags:
 format: quote
 ---
 
-<i class="fa fa-quote-left fa-2x fa-pull-left fa-border"></i><p class="lead">We cannot teach people anything; we can only help them discover it within themselves.</p>
+<blockquote>
+<p>We cannot teach people anything; we can only help them discover it within themselves.</p>
+<footer>Galileo Galilei</footer>
+</blockquote>

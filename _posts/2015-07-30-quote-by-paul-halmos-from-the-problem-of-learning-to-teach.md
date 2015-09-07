@@ -15,4 +15,7 @@ tags:
 format: quote
 ---
 
-<i class="fa fa-quote-left fa-2x fa-pull-left fa-border"></i><p class="lead">The best way to learn is to do; the worst way to teach is to talk.</p>
+<blockquote>
+<p>The best way to learn is to do; the worst way to teach is to talk.</p>
+<footer>Paul Halmos in <cite title="Source Title">The Problem of Learning to Teach</cite></footer>
+</blockquote>

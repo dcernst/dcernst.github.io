@@ -12,4 +12,7 @@ tags:
 format: quote
 ---
 
-<i class="fa fa-quote-left fa-2x fa-pull-left fa-border"></i><p class="lead">However beautiful the strategy, you should occasionally look at the results.</p>
+<blockquote>
+<p>However beautiful the strategy, you should occasionally look at the results.</p>
+<footer>Winston Churchill</footer>
+</blockquote>

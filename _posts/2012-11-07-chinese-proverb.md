@@ -15,4 +15,7 @@ tags:
 format: quote
 ---
 
-<i class="fa fa-quote-left fa-2x fa-pull-left fa-border"></i><p class="lead">The gem cannot be polished without friction, nor man perfected without trials.</p>
+<blockquote>
+<p>The gem cannot be polished without friction, nor man perfected without trials.</p>
+<footer>Chinese proverb</footer>
+</blockquote>

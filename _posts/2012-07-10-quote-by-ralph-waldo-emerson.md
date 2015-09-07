@@ -13,4 +13,7 @@ tags:
 format: quote
 ---
 
-<i class="fa fa-quote-left fa-2x fa-pull-left fa-border"></i><p class="lead">The secret to education is in respecting the student.</p>
+<blockquote>
+<p>The secret to education is in respecting the student.</p>
+<footer>Ralph Waldo Emerson</footer>
+</blockquote>

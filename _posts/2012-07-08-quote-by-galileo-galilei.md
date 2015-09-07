@@ -13,4 +13,7 @@ tags:
 format: quote
 ---
 
-<i class="fa fa-quote-left fa-2x fa-pull-left fa-border"></i><p class="lead">All truths are easy to understand once they are discovered; the point is to discover them.</p>
+<blockquote>
+<p>All truths are easy to understand once they are discovered; the point is to discover them.</p>
+<footer>Galileo Galilei</footer>
+</blockquote>
