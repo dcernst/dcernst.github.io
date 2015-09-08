@@ -1,5 +1,5 @@
 ---
-title: Quote from “The Mentat Handbook,” Children of Dune by Frank Herbert
+title: Quote from “The Mentat Handbook”
 author: Dana Ernst
 layout: post
 permalink: /quote-from-the-mentat-handbook-children-of-dune-by-frank-herbert/
