@@ -59,6 +59,6 @@ It should be noted that several presentation venues (departmental, university-wi
 
 ## References ##
 
-<a name="bib1"></a> [1] M.A. Seoud and M.Z. Youssef, "On Prime Labeling of Graphs," Congressus Numerantium, Vol. 141, 1999, pp. 203-215.
+<a name="bib1"></a> [1] M.A. Seoud and M.Z. Youssef, "On Prime Labeling of Graphs", Congressus Numerantium, Vol. 141, 1999, pp. 203-215.
 
-<a name="bib2"></a> [2] J.A. Gallian, "A Dynamic Survey of Graph Labeling," The Electronic Journal of Combinatorics, Vol. 18, 2011. [http://www.combinatorics.org/Surveys/ds6.pdf](http://www.combinatorics.org/Surveys/ds6.pdf)
+<a name="bib2"></a> [2] J.A. Gallian, ["A Dynamic Survey of Graph Labeling"](http://www.combinatorics.org/Surveys/ds6.pdf), The Electronic Journal of Combinatorics, Vol. 18, 2011. [](http://www.combinatorics.org/Surveys/ds6.pdf)

@@ -172,7 +172,6 @@ This semester I've decided to "[gamify](http://en.wikipedia.org/wiki/Gamificatio
       <td>
         2
       </td>
-
       <td>
         Post a useful response to a question on the course forum that does not just give an answer away.
       </td>
@@ -185,13 +184,13 @@ This semester I've decided to "[gamify](http://en.wikipedia.org/wiki/Gamificatio
         Earn at least an 8/10 on your highest score for a Gateway Quiz.
       </td>
     </tr>
-  </table>
-  </center>
+</table>
+</center>
 
-  <strong>Important:</strong> Any time I feel you are taking advantage of the spirit of this, I reserve the right to take away an achievement point.
+**Important:** Any time I feel you are taking advantage of the spirit of this, I reserve the right to take away an achievement point.
 
 To calculate your grade for the Presentation and Participation category, I will divide your Achievement points by the maximum number of Achievement points earned by a student and then convert to a percent.
 
 Feedback is extremely welcome. I'll let y'all know how it goes.
 
-<em>Edit:</em> One thing that I forgot to add is that I have a Peer TA for 10 hours per week. She attends class and has access to the course forum, etc. So, I'll let her do most of the point tracking. Otherwise, I'd have trouble with the bookkeeping. Also, I decided to use the highest number of Achievement points earned by a student to calculate a percentage for each student. In the comments below, Strider suggested that I use the average of the top 3 instead. I like this idea, but I think I'll use the top 5.
+*Edit:* One thing that I forgot to add is that I have a Peer TA for 10 hours per week. She attends class and has access to the course forum, etc. So, I'll let her do most of the point tracking. Otherwise, I'd have trouble with the bookkeeping. Also, I decided to use the highest number of Achievement points earned by a student to calculate a percentage for each student. In the comments below, Strider suggested that I use the average of the top 3 instead. I like this idea, but I think I'll use the top 5.
