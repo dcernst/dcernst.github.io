@@ -12,8 +12,8 @@
 .post-meta {
   font-size: $small-font-size;
   color: $grey-color;
-  margin-bottom: 2em;
-  margin-top: 2em;
+  margin-bottom: .5em;
+  margin-top: .5em;
 }
 
 .post-link {
