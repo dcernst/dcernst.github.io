@@ -3,9 +3,15 @@ layout: default
 title: Blog Posts
 ---
 
-<div class="posts">
+<div>
+<!-- <div class="posts"> -->
   {% for post in site.posts %}
   <div class="post">
+  <h1 class="post-title">
+      <a href="{{site.baseurl}}{{ post.url }}">
+        {{ post.title }}
+      </a>
+  </h1>
   <a class="post-link" href="{{ post.url | prepend: site.baseurl}}">{{ post.title }}</a>
   <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }} </span>
   {{ post.content }}

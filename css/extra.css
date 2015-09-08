@@ -13,6 +13,7 @@
 .post-meta {
     font-size: $small-font-size;
     color: $grey-color;
+    margin-bottom: 5px;
 }
 
 .post-link {
