@@ -1,5 +1,5 @@
 ---
-title: Quote by Paul Zeitz from The Art and Craft of Problem Solving
+title: Quote by Paul Zeitz
 author: Dana Ernst
 layout: post
 permalink: /quote-by-paul-zeitz-from-the-art-and-craft-of-problem-solving/

@@ -1,5 +1,5 @@
 ---
-title: Quote by Paul Halmos from The Problem of Learning to Teach
+title: Quote by Paul Halmos
 author: Dana Ernst
 layout: post
 permalink: /quote-by-paul-halmos-from-the-problem-of-learning-to-teach/

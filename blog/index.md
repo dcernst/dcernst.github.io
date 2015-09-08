@@ -7,8 +7,8 @@ title: Blog Posts
 <!-- <div class="posts"> -->
   {% for post in site.posts %}
   <div class="post">
-  <h2><a href="{{site.baseurl}}{{ post.url }}">{{ post.title }}</a></h2>
-  <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }} </span>
+  <h3><a href="{{site.baseurl}}{{ post.url }}">{{ post.title }}</a></h>
+  <div class="post-meta">{{ post.date | date: "%b %-d, %Y" }} </div>
   {{ post.content }}
   </div>
   {% endfor %}

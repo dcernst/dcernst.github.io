@@ -1,5 +1,5 @@
 ---
-title: 'Soup to Nuts: My Approach to IBL (Talk)'
+title: Soup to Nuts: My Approach to IBL (Talk)
 author: Dana Ernst
 layout: post
 permalink: /talk-soup-to-nuts-my-approach-to-ibl/
