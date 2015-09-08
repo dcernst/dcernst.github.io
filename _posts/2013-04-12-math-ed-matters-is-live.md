@@ -19,7 +19,7 @@ tags:
   - teaching
 ---
 
-<div><img src="{{ site.baseurl }}/images/2013/04/155620_10151570018610419_1847740356_n.jpg" class="img-responsive" img style="margin-bottom: 10px" /></div>
+<div><img src="{{ site.baseurl }}/images/2013/04/MathEdMatters.jpg" class="img-responsive" img style="margin-bottom: 10px" /></div>
 
 [Angie Hodge](http://www.unomaha.edu/math/people/hodge/) and I are excited to announce that [Math Ed Matters](http://maamathedmatters.blogspot.com) went live earlier today. *Math Ed Matters* is a (roughly) monthly column sponsored by the [Mathematical Association of America](http://maa.org) and authored by me and Angie. The column will explore topics and current events related to undergraduate mathematics education. Posts will aim to inspire, provoke deep thought, and provide ideas for the mathematics—and mathematics education—classroom. Our interest in and engagement with [inquiry-based learning](http://www.inquirybasedlearning.org/?page=What_is_IBL) (IBL) will color the column's content.
 
