@@ -33,7 +33,7 @@ Boom.
 
 If you haven't already, please go read [Robert's article][2].
 
- [1]: http://faculty.gvsu.edu/talbertr/Robert_Talbert,_PhD/Welcome.html
+ [1]: http://rtalbert.org
  [2]: http://chronicle.com/blognetwork/castingoutnines/2012/12/21/we-need-to-produce-learners-not-just-students/
  [3]: http://chronicle.com/blognetwork/castingoutnines
  [4]: http://www.inquirybasedlearning.org/?page=What_is_IBL

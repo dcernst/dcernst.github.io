@@ -30,7 +30,7 @@ Here are the slides for my portion of the panel discussion.
 </div>
 
  [1]: http://sections.maa.org/indiana/
- [2]: http://faculty.gvsu.edu/talbertr/Robert_Talbert,_PhD/Welcome.html
+ [2]: http://rtalbert.org
  [3]: http://www.valpo.edu/mcs/faculty/mindycapaldi.php
  [4]: http://sections.maa.org/indiana/NEXT.html
  [5]: http://archives.math.utk.edu/projnext/
