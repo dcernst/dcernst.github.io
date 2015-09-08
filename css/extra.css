@@ -1,26 +1,27 @@
 /* borrowed from R. Talbert's blog repo */
 
-.post-list {
-    margin-left: 0;
-    paddin: 0;
-    list-style: none;
-
+/* .post-list {
+  margin-left: 0;
+  padding: 0;
+  list-style: none;
     > li {
         margin-bottom: $spacing-unit;
     }
-}
+} */
 
 .post-meta {
-    font-size: $small-font-size;
-    color: $grey-color;
-    margin-bottom: 5px;
+  font-size: $small-font-size;
+  color: $grey-color;
+  margin-bottom: 2em;
+  margin-top: 2em;
 }
 
 .post-link {
-    display: block;
-    font-size: 24px;
+  display: block;
+  font-size: 24px;
 }
 
 .post {
   margin-bottom: 4em;
+  border-bottom: 1px solid #eee;
 }
