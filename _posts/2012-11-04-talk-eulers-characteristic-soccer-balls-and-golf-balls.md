@@ -1,5 +1,5 @@
 ---
-title: 'Euler's characteristic, soccer balls, and golf balls (Talk)'
+title: Euler's characteristic, soccer balls, and golf balls (Talk)
 author: Dana Ernst
 layout: post
 permalink: /talk-eulers-characteristic-soccer-balls-and-golf-balls/
