@@ -12,7 +12,6 @@ tags:
   - inquiry-based learning
   - quote
   - teaching
-http://www.maa.org/programs/faculty-and-departments/project-next
 ---
 
 <blockquote>

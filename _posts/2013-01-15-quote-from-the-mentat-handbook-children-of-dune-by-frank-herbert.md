@@ -7,7 +7,6 @@ categories:
   - Quotes
 tags:
   - quote
-http://www.maa.org/programs/faculty-and-departments/project-next
 ---
 
 <blockquote>
