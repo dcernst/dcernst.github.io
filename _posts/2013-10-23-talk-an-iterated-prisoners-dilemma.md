@@ -28,17 +28,9 @@ It's expected that our graduate students (we have a masters program at NAU) atte
 
 I ended up choosing the Prisoner's Dilemma as a topic because I wanted to learn more about [game theory](http://en.wikipedia.org/wiki/Game_theory) and I figured the topic would be accessible. Moreover, I was inspired by Google+ and blog posts by [Vincent Knight](http://www.vincent-knight.com/) and [Paul Harper](http://www.cardiff.ac.uk/maths/contactsandpeople/profiles/harper.html) (both from Cardiff University). There was also an excellent [Radiolab episode](http://www.radiolab.org/story/104082-prisoners-dilemma/) about the Prisoner's Dilemma back in 2010 that planted a seed for me. I'd like to thank Vince and Paul for helping out while I was preparing my talk. In particular, my slides are a modification of Vince's slides, which he discusses [here](http://drvinceknight.blogspot.co.uk/2012/01/playing-games-during-outreach-event.html).
 
-Without further ado, here are the slides for my talk.
+Without further ado, the slides for my talk are available [here](https://docs.google.com/presentation/d/1awzIbCJATZPTw8Jjk43qIoaAAysniyKm2T8hjcLeXt0/edit?usp=sharing).
 
-<div class="embed-responsive embed-responsive-4by3">
-  <iframe class="embed-responsive-item" src="https://docs.google.com/presentation/d/1awzIbCJATZPTw8Jjk43qIoaAAysniyKm2T8hjcLeXt0/embed?start=false&loop=false&delayms=3000" allowfullscreen="true"></iframe>
-</div>
-
-<center>
-<iframe src="https://docs.google.com/presentation/d/1awzIbCJATZPTw8Jjk43qIoaAAysniyKm2T8hjcLeXt0/embed?start=false&loop=false&delayms=3000" frameborder="0" width="480" height="389" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
-</center>
-
-As you can see, the talk began with an activity involving the <a href="http://en.wikipedia.org/wiki/Guess_2/3_of_the_average">Two Thirds of Average Game</a>. During the activity, the audience made two different guesses. While I was giving the rest of the talk, I had a volunteer enter all the guesses into a csv file on the <a href="https://cloud.sagemath.com/">Sagemath Cloud</a>. At the end of the talk, I ran <a href="https://github.com/drvinceknight/two_thirds_of_the_average_game">Vince's python script</a> on the csv file in the Sagemath cloud. The output told me who the winners were for both rounds of guessing and provided a dandy looking graph, seen below.
+As you can see by looking at the slides, the talk began with an activity involving the <a href="http://en.wikipedia.org/wiki/Guess_2/3_of_the_average">Two Thirds of Average Game</a>. During the activity, the audience made two different guesses. While I was giving the rest of the talk, I had a volunteer enter all the guesses into a csv file on the <a href="https://cloud.sagemath.com/">Sagemath Cloud</a>. At the end of the talk, I ran <a href="https://github.com/drvinceknight/two_thirds_of_the_average_game">Vince's python script</a> on the csv file in the Sagemath cloud. The output told me who the winners were for both rounds of guessing and provided a dandy looking graph, seen below.
 
 <div class="center-block"><img src="{{ site.baseurl }}/images/2013/10/Results_for_danasdata.csv.png" class="img-responsive" img style="margin-bottom: 10px img style="margin-top: 10px" /></div>
 
