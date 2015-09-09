@@ -30,13 +30,19 @@ I ended up choosing the Prisoner's Dilemma as a topic because I wanted to learn 
 
 Without further ado, here are the slides for my talk.
 
+<div class="embed-responsive embed-responsive-16by9">
+  <iframe class="embed-responsive-item" src="https://docs.google.com/presentation/d/1awzIbCJATZPTw8Jjk43qIoaAAysniyKm2T8hjcLeXt0/embed?start=false&loop=false&delayms=3000" allowfullscreen="true"></iframe>
+</div>
+
 <center>
 <iframe src="https://docs.google.com/presentation/d/1awzIbCJATZPTw8Jjk43qIoaAAysniyKm2T8hjcLeXt0/embed?start=false&loop=false&delayms=3000" frameborder="0" width="480" height="389" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 </center>
 
 As you can see, the talk began with an activity involving the <a href="http://en.wikipedia.org/wiki/Guess_2/3_of_the_average">Two Thirds of Average Game</a>. During the activity, the audience made two different guesses. While I was giving the rest of the talk, I had a volunteer enter all the guesses into a csv file on the <a href="https://cloud.sagemath.com/">Sagemath Cloud</a>. At the end of the talk, I ran <a href="https://github.com/drvinceknight/two_thirds_of_the_average_game">Vince's python script</a> on the csv file in the Sagemath cloud. The output told me who the winners were for both rounds of guessing and provided a dandy looking graph, seen below.
 
-<img src="{{ site.baseurl }}/images/2013/10/Results_for_danasdata.csv.png" align="center" img style="margin: 15px" /></a>
+<center>
+<div><img src="{{ site.baseurl }}/images/2013/10/Results_for_danasdata.csv.png" class="img-responsive" img style="margin-bottom: 10px img style="margin-top: 10px" /></div>
+</center>
 
 I provided the winners with some chocolate.
 
