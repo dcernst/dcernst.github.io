@@ -34,8 +34,6 @@ As you can see by looking at the slides, the talk began with an activity involvi
 
 <img src="{{ site.baseurl }}/images/2013/10/Results_for_danasdata.csv.png" class="img-responsive" width="100%" img style="margin-bottom: 10px" />
 
-<div class="center-block"><img src="{{ site.baseurl }}/images/2013/10/Results_for_danasdata.csv.png" class="img-responsive" img style="margin-bottom: 10px" img style="margin-top: 10px" /></div>
-
 I provided the winners with some chocolate.
 
 Around slide 18, the plan was to conduct an Iterated Prisoner's Dilemma tournament involving 4 teams, but I was a little worried about running out of time. So, I decided to wait until the end of the talk and do it if I had time. I ended up squeezing in a 3-team tournament that we probably flew through too quickly to get much out of, but it was fun nonetheless. The three team names were the United States, North Korea, and Russia. North Korea ended up winning, but only by a small margin.
