@@ -30,7 +30,15 @@ I ended up choosing the Prisoner's Dilemma as a topic because I wanted to learn 
 
 Without further ado, here are the slides for my talk.
 
-<div class="embed-responsive embed-responsive-16by9">
+<div class="embed-responsive embed-responsive-4by3">
+  <iframe class="embed-responsive-item" src="https://docs.google.com/presentation/d/1awzIbCJATZPTw8Jjk43qIoaAAysniyKm2T8hjcLeXt0/embed?start=false&loop=false&delayms=3000" allowfullscreen="true"></iframe>
+</div>
+
+<div class="embed-responsive">
+  <iframe class="embed-responsive-item" src="https://docs.google.com/presentation/d/1awzIbCJATZPTw8Jjk43qIoaAAysniyKm2T8hjcLeXt0/embed?start=false&loop=false&delayms=3000" allowfullscreen="true"></iframe>
+</div>
+
+<div>
   <iframe class="embed-responsive-item" src="https://docs.google.com/presentation/d/1awzIbCJATZPTw8Jjk43qIoaAAysniyKm2T8hjcLeXt0/embed?start=false&loop=false&delayms=3000" allowfullscreen="true"></iframe>
 </div>
 
