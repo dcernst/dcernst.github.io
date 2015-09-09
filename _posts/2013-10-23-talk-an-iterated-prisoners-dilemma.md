@@ -32,7 +32,7 @@ Without further ado, the slides for my talk are available [here](https://docs.go
 
 As you can see by looking at the slides, the talk began with an activity involving the <a href="http://en.wikipedia.org/wiki/Guess_2/3_of_the_average">Two Thirds of Average Game</a>. During the activity, the audience made two different guesses. While I was giving the rest of the talk, I had a volunteer enter all the guesses into a csv file on the <a href="https://cloud.sagemath.com/">Sagemath Cloud</a>. At the end of the talk, I ran <a href="https://github.com/drvinceknight/two_thirds_of_the_average_game">Vince's python script</a> on the csv file in the Sagemath cloud. The output told me who the winners were for both rounds of guessing and provided a dandy looking graph, seen below.
 
-<div class="center-block"><img src="{{ site.baseurl }}/images/2013/10/Results_for_danasdata.csv.png" class="img-responsive" img style="margin-bottom: 10px img style="margin-top: 10px" /></div>
+<div class="center-block"><img src="{{ site.baseurl }}/images/2013/10/Results_for_danasdata.csv.png" class="img-responsive" img style="margin-bottom: 10px" img style="margin-top: 10px" /></div>
 
 I provided the winners with some chocolate.
 
