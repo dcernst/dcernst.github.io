@@ -26,3 +26,7 @@ author:
 # GitHub
 github:
   repo:             github.com/dcernst/dcernst.github.io
+
+# Feed Stuff
+gems:
+  - jekyll-feed
