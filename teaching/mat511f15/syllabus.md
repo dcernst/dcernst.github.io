@@ -68,9 +68,9 @@ There is no required textbook.  All necessary material (including homework) will
 We will make limited use of Bb Learn this semester, which is Northern Arizona University's default learning management system (LMS).  Most course content (e.g., syllabus, course notes, homework, etc.) will be housed here on our [course webpage]({{ site.baseurl }}/teaching/mat511f15/) that lives outside of Bb Learn.  I suggest you bookmark this page.  The only thing I will use Bb Learn for is to communicate grades.
 
 ### Homework ###
-You are allowed and encouraged to work together on homework. Yet, each student is expected to turn in his or her own work. In general, late homework will not be accepted. However, you are allowed to turn in one late homework assignment with no questions asked. Unless you have made arrangements in advance with me, homework turned in after class will be considered late.
+You are allowed and encouraged to work together on homework. Yet, each student is expected to turn in his or her own work. In general, late homework will not be accepted. However, you are allowed to turn in **one late homework assignment** with no questions asked. Unless you have made arrangements in advance with me, homework turned in after class will be considered late.
 
-Generally, the written homework assignments will be due on Wednesdays, but I will always tell you when a given homework assignment is due--so there should never be any confusion. Your homework will always be graded for completion and some subset of the problems will be graded for correctness. Each graded problem is subject to the following rubric:
+Generally, the written homework assignments will be due on Wednesdays, but I will always tell you when a given homework assignment is due--so there should never be any confusion. Your homework will always be graded for completion and some subset of the problems will be graded for correctness. Problems that are graded for completeness will be worth 1 point.  Problems that are graded for correctness will either be worth 2 points or 4 points depending on the level of difficulty.  Generally, computation problems will be worth 2 points while problems requiring a formal proof will be worth 4 points.  Each each 4-point problem is subject to the following rubric:
 
 <center>
 <table class="table table-striped">
@@ -105,7 +105,7 @@ Generally, the written homework assignments will be due on Wednesdays, but I wil
 </table>
 </center>
 
-Your overall homework grade will be worth 20% of your final grade.
+To compute your score on a given homework assignment, I will divide your total points by the total possible points to obtain a percent score. Each homework assignment has the same weight.  Your overall homework grade will be worth 20% of your final grade.
 
 ### Exams ###
 There will be 3 midterm exams and a cumulative final exam.  Exam 1 and Exam 2 will be written exams and may include a take-home portion.  These exams are tentatively scheduled for **Friday, October 9** and **Friday, November 20**, respectively, and each is worth 20% of your overall grade.  Exam 3 will be an oral exam taken individually in my office. The questions for the oral exam will predominately come from homework problems. Exam 3 will last roughly 30 minutes and will be worth 10% of your overall grade.  Students will schedule Exam 3 during **Monday, November 30-Thursday, December 17**.  The final exam will be on **Wednesday, December 16** at **7:30-9:30AM** and is worth 20% of your overall grade. Make-up exams will only be given under extreme circumstances, as judged by me. In general, it will be best to communicate conflicts ahead of time.
