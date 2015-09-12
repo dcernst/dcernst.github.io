@@ -76,7 +76,6 @@ If you want to know more, check out the slides linked to in [this blog post]({{ 
 
 ### <a name="PrimeGraphs"></a>Prime vertex labelings of graphs ###
 
-<!-- <img src="{{ site.baseurl }}/images/2012/02/CoprimeGraph.png" width="200" align="right" img style="margin-left: 15px" /> -->
 For the Fall 2014-Spring 2015 academic year, my colleague [Jeff Rushall](https://nau.edu/CEFNS/NatSci/Math/Directory-Full-Time/Rushall-Jeff/) and I were awarded a [Center for Undergraduate Research in Mathematics](http://curm.byu.edu) (CURM) mini-grant to fund a small group of undergraduate students to work on an original research project in the area of graph theory.  For the project, we recruited a diverse group of 7 talented undergraduates: Nathan Diefenderfer, Michael Hastings (one of my past research students), Levi Heath, Hannah Prawzinsky, Briahna Preston, Emily White, and Alyssa Whittemore. Our research was inspired by two conjectures:
 
 <div class="well">
@@ -90,8 +89,8 @@ As discussed in Gallian's ["A Dynamic Survey of Graph Labeling"](http://www.comb
 
 Over the course of the academic year, we uncovered previously unknown prime vertex labelings for several families of graphs including (but not limited to) "hairy" cycles, cycle pendant stars, cycle chains, prisms, and generalized books.  The results of our work is summarized in the following papers:
 
-- N. Diefenderfer, M. Hastings, L.N. Heath, H. Prawzinsky, B. Preston, E. White, A. Whittemore. Prime Vertex Labelings of Several Families of Graphs. *The Rose-Hulman Undergraduate Math Journal* 16(1), 2015. [[arXiv:1503.08386](http://arxiv.org/abs/1503.08386)] [[ePrint](http://www.rose-hulman.edu/mathjournal/archives/2015/vol16-n1/paper14/v16n1-14pd.pdf)]
-- N. Diefenderfer, D.C. Ernst, M. Hastings, L.N. Heath, H. Prawzinsky, B. Preston, J. Rushall, E. White, A. Whittemore. Prime Vertex Labelings of Several Families of Graphs. Submitted to *Involve*. [[arXiv:1503.08386](http://arxiv.org/abs/1503.08386)]
+- N. Diefenderfer, M. Hastings, L.N. Heath, H. Prawzinsky, B. Preston, E. White, A. Whittemore. Prime Vertex Labelings of Several Families of Graphs. *The Rose-Hulman Undergraduate Math Journal* 16(1), 2015. [[arXiv:1506.05826](http://arxiv.org/abs/1506.05826)] [[ePrint](http://www.rose-hulman.edu/mathjournal/archives/2015/vol16-n1/paper14/v16n1-14pd.pdf)]
+- N. Diefenderfer, D.C. Ernst, M. Hastings, L.N. Heath, H. Prawzinsky, B. Preston, J. Rushall, E. White, A. Whittemore. Prime Vertex Labelings of Several Families of Graphs. Accepted to *Involve*. [[arXiv:1503.08386](http://arxiv.org/abs/1503.08386)]
 
 In addition, the students gave the following presentations:
 
