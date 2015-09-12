@@ -29,6 +29,6 @@ Here are the slides for the talk:
 
 <div><script async class="speakerdeck-embed" data-id="1608cda331724d1b97731b8ec1c91b0d" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script></div>
 
-A lot of the content of my slides came directly from the article [Friends You Can Count On](http://opinionator.blogs.nytimes.com/2012/09/17/friends-you-can-count-on/) by [Stephen Strogatz](http://www.stevenstrogatz.com) at NY Times Opinator.  I also relied on the [Wikipedia article on the Friendship Paradox](https://en.wikipedia.org/wiki/Friendship_paradox), which is excellent and contains a sketch of the proof of the paradox. I also took some ideas and used a figure from the article [The Majority Illusion in Social Networks](http://arxiv.org/abs/1506.03022) by Lerman, Yan, Wu.
+A lot of the content of my slides came directly from the article [Friends You Can Count On](http://opinionator.blogs.nytimes.com/2012/09/17/friends-you-can-count-on/) by [Stephen Strogatz](http://www.stevenstrogatz.com) at NY Times Opinator.  I also relied on the [Wikipedia article on the Friendship Paradox](https://en.wikipedia.org/wiki/Friendship_paradox), which contains a sketch of the proof of the paradox. I also took some ideas and used a figure from the article [The Majority Illusion in Social Networks](http://arxiv.org/abs/1506.03022) by Lerman, Yan, Wu.
 
 The faculty guest this week was [John Neuberger](http://jan.ucc.nau.edu/jmn3/).  I really enjoyed interviewing John and I think the audience found it pretty entertaining.
