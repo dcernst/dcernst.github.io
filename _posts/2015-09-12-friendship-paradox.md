@@ -1,5 +1,5 @@
 ---
-title: The Friendship Paradox: Your friends, on average, have more friends than you do (Talk)
+title: 'The Friendship Paradox: Your friends, on average, have more friends than you do (Talk)'
 author: Dana Ernst
 layout: post
 permalink: /friendship-paradox/
@@ -23,7 +23,7 @@ Yesterday kicked off the first FAMUS of the semester and we had close to 60 stud
 
 The official title of the talk was ``The Friendship Paradox: Your friends, on average, have more friends than you do" and here is the abstract:
 
-> The Friendship Paradox is the observation that your friends, on average, have more friends than you do. This phenomenon, which was first observed by the sociologist Scott L. Feld in 1991, is mathematically provable. In this episode of FAMUS, we will discuss the "paradox", sketch its proof, and explore some applications. 
+> The Friendship Paradox is the observation that your friends, on average, have more friends than you do. This phenomenon, which was first observed by the sociologist Scott L. Feld in 1991, is mathematically provable. In this episode of FAMUS, we will discuss the "paradox", sketch its proof, and explore some applications.
 
 Here are the slides for the talk:
 
