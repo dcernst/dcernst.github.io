@@ -3,6 +3,11 @@ layout: default
 title: Blog Posts
 ---
 
+<ol class="breadcrumb">
+  <li><a href="/"><i class="fa fa-home"></i></a></li>
+  <li class="active">Blog</li>
+</ol>
+
 <div>
 <!-- <div class="posts"> -->
   {% for post in site.posts %}
