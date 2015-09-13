@@ -28,7 +28,7 @@ title: Course Materials
 </div>
 </div>
 
-## Course Notes ##
+## Course Notes & Other Resources ##
 Below you will find notes and handouts that we have used in class, as well as some other useful stuff.
 
 - [Introduction to WeBWorK](http://www.youtube.com/watch?v=nqv2dk70IFw). **Note:** There are some inconsistencies in this video due to the fact that I made it for my Fall 2012 class.  The version of WeBWorK has been upgraded, but it should still be useful.
@@ -38,6 +38,7 @@ Below you will find notes and handouts that we have used in class, as well as so
 - [Required Knowledge from Precalculus]({{ site.baseurl }}/teaching/136RequiredKnowledge.pdf)
 - [Are You Ready for Calculus? Questions]({{ site.baseurl }}/teaching/136ReadyCalculusQuestions.pdf)
 - [Are You Ready for Calculus? Answers]({{ site.baseurl }}/teaching/136ReadyCalculusAnswers.pdf)
+- [Calculus Applets with GeoGebra](http://dcernst.github.io/CalculusApplets/)
 
 <!--
 - [Function Analysis](http://teaching.danaernst.com/files/fall2014/mat136/FunctionAnalysis.pdf)
@@ -50,7 +51,6 @@ Below you will find notes and handouts that we have used in class, as well as so
 ## Additional Videos, Applets, & Problems ##
 Below is a partial list of applet and video repositories related to calculus. There are lots more out there. If you know of a good resource that's not listed below, please let me know.
 
-  * [Calculus Applets with GeoGebra](http://dcernst.github.io/CalculusApplets/)
   * [MOOCulus Videos](https://mooculus.osu.edu/lectures)
   * [CalculusApplets.com](http://calculusapplets.com)
   * [Education Portal](http://education-portal.com/academy/course/calculus.html)

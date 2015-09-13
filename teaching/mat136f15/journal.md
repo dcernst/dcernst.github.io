@@ -41,5 +41,14 @@ We’ll use this page to keep track of what has happened each day in class. It w
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, September 7:</b> Labor Day.  No classes!</li>
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, September 9:</b> After synthesizing some ideas about average rate of change, secant lines, and tangent lines, we launched into some presentations.  MM3 and TB presented Problems 21 and 22, TR discussed Problem 26, and finally TM walked us through Problem 31.</li>
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Thursday, September 10:</b> Today was aimed at synthesizing ideas and solidifying concepts.  We postponed doing any presentations and I lectured over the intuitive approach to derivatives.</li>
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, September 11:</b> Coming soon.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, September 11:</b> Great day!  Maybe it was because the radiator thing in the back of the room was finally quite, but I think it was because the student presentations were awesome. First, EB did an excellent job discussing Problem 40.  Next, LL walked us through Problems 34 and 37, which spawned some great discussion.  Lastly, after announcing that she knew that she made a mistake, VK presented Problem 41 and addressed her mistake along the way.  With the few minutes we had left, I starting discussing limits and did a few quick graphical examples. </li>
+</ul>
+
+## Week 3 ##
+
+<ul class="fa-ul">
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, September 14:</b> Coming soon.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, September 16:</b> Coming soon.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Thursday, September 17:</b> Coming soon.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, September 18:</b> Coming soon.</li>
 </ul>
