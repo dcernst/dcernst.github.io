@@ -21,7 +21,7 @@ I usually give a couple talks in FAMUS each semester, but this year I'm also res
 
 Yesterday kicked off the first FAMUS of the semester and we had close to 60 students and faculty in attendance.  It was definitely the biggest turnout that I've seen at FAMUS.  Hopefully, we keep them coming.  The talk was given by me and the topic was the [Friendship Paradox](https://en.wikipedia.org/wiki/Friendship_paradox).  The idea for the talk was inspired by [a post by Richard Green](https://plus.google.com/101584889282878921052/posts/cHo5dMTQdsW) on Google+.  Richard has lots of great posts on Google+ on a variety of mathematical topics and I'll definitely be mining his posts for more ideas for talks.
 
-The official title of the talk was ``The Friendship Paradox: Your friends, on average, have more friends than you do" and here is the abstract:
+The official title of the talk was "The Friendship Paradox: Your friends, on average, have more friends than you do" and here is the abstract:
 
 > The Friendship Paradox is the observation that your friends, on average, have more friends than you do. This phenomenon, which was first observed by the sociologist Scott L. Feld in 1991, is mathematically provable. In this episode of FAMUS, we will discuss the "paradox", sketch its proof, and explore some applications.
 
