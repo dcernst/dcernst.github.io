@@ -44,11 +44,9 @@ The Daily Homework will generally consist of solving problems from the [IBL cour
 - **Daily Homework 7:** Read the rest of Chapter 1 in [Differential Calculus]({{ site.baseurl }}/teaching/mat136f15/DifferentialCalculus-JIBLM.pdf) up to Problem 41 and complete Problems 33-35, 37-41. *Hints:* For Problem 34, use Problem 26 and the idea from Problem 25. For Problem 35 use the same approach as Problem 34. For Problems 37 and 38, use Problems 33 and 34, respectively. (Due Friday, September 11)
 - **Daily Homework 8:** Read the rest of Chapter 1 and Chapter 2 in [Differential Calculus]({{ site.baseurl }}/teaching/mat136f15/DifferentialCalculus-JIBLM.pdf) up to Problem 51.  In addition, complete Problems 43-45, 47-51. *Note:* For Problems 47-51, feel free to utilize technology to graph the functions, but you should also attempt to explore the functions algebraically. (Due Monday, September 14)
 - **Daily Homework 9:** Read Chapter 2 in [Differential Calculus]({{ site.baseurl }}/teaching/mat136f15/DifferentialCalculus-JIBLM.pdf) up to Theorem 68.  In addition, complete Problems 52-54, 56-58, 66, 67. Also, read Theorem 68 and try to draw to picture that captures its meaning. *Note:* For Problems 52-54, feel free to utilize technology to graph the functions, but you should also attempt to explore the functions algebraically. *Hint:* For the third part of Problem 67, look up the formula for factoring a difference of two cubes. (Due Wednesday, September 16)
+- **Daily Homework 10:**  Read the rest of Chapter 2.  In addition, complete Problems 69-75. For Problem 69, you should just look up the answer (e.g., use a Google search). *Hints:* For Problem 72, you cannot "pull the 4 out of the sine function".  However, a key observation is that $4\theta\to 0$ as $\theta\to 0$. For Problem 73, consider multiplying the expression by $4/4$.  For Problem 74, consider multiplying by the conjugate and using a relevant trig identity.  For Problem 75, use the Sandwich/Squeeze Theorem. (Due Friday, September 17)
 
 <!--
-- **Daily Homework 7:** Read the rest of Chapter 1 and Chapter 2 up to Problem 54.  In addition, complete Problems 43-45, 47-54. *Note:* For Problems 47-54, feel free to utilize technology to graph the functions, but you should also attempt to explore the functions algebraically. (Due Friday, September 5)
-- **Daily Homework 8:** Read Chapter 2 up to Theorem 68.  In addition, complete Problems 56-58, 66, 67. Also, read Theorem 68 and try to draw to picture that captures its meaning. *Hint:* For the third part of Problem 67, look up the formula for factoring a difference of two cubes. (Due Wednesday, September 10)
-- **Daily Homework 9:** Read the rest of Chapter 2.  In addition, complete Problems 69-75. For Problem 69, you should just look up the answer (e.g., use a Google search). *Hints:* For Problem 72, you cannot "pull the 4 out of the sine function".  However, a key observation is that $4\theta\to 0$ as $\theta\to 0$. For Problem 73, consider multiplying the expression by $4/4$.  For Problem 74, consider multiplying by the conjugate and using a relevant trig identity.  For Problem 75, use the Sandwich/Squeeze Theorem. (Due Thursday, September 11)
 - **Daily Homework 10:** Read Chapter 3 up to Problem 85.  In addition, complete Problems 78, 80, 81, 83-85.  (Due Friday, September 12)
 - **Daily Homework 11:** Read Chapter 3 up to Problem 89.  In addition, complete Problems 86, 88, 89.  Also, complete the statement of Theorem 87.  (Due Monday, September 15)
 - **Daily Homework 12:** Complete Exercises 2.5.5, 2.5.6, and 2.5.8 in *Calculus I Lecture Notes*. (Due Wednesday, September 17)
@@ -114,16 +112,4 @@ The majority of the Weekly Homework assignments are to be completed via [WeBWorK
 
 - **Weekly Homework 1:** Complete the corresponding problems on [WeBWorK](https://webwork.math.nau.edu/webwork2/DErnst_136). (Due Wednesday, 9/9 by 8PM)
 - **Weekly Homework 2:** Complete the corresponding problems on [WeBWorK](https://webwork.math.nau.edu/webwork2/DErnst_136). (Due Tuesday, September 15 by 8PM)
-
-<!--
-- **Weekly Homework 1:** Complete the corresponding problems on [WeBWorK](https://webwork.math.nau.edu/webwork2/DErnst_136). (Due Tuesday, September 2 by 5PM)
-- **Weekly Homework 2:** Complete the corresponding problems on [WeBWorK](https://webwork.math.nau.edu/webwork2/DErnst_136). (Due Tuesday, September 9 by 8PM)
-- **Weekly Homework 3:** Complete the corresponding problems on [WeBWorK](https://webwork.math.nau.edu/webwork2/DErnst_136). (Due Tuesday, September 16 by 8PM)
-- **Weekly Homework 4:** Complete the corresponding problems on [WeBWorK](https://webwork.math.nau.edu/webwork2/DErnst_136). (Due Tuesday, September 30 by 8PM)
-- **Weekly Homework 5:** Complete the corresponding problems on [WeBWorK](https://webwork.math.nau.edu/webwork2/DErnst_136). (Due Tuesday, October 7 by 8PM)
-- **Weekly Homework 6:** Complete the corresponding problems on [WeBWorK](https://webwork.math.nau.edu/webwork2/DErnst_136). (Due Tuesday, October 20 by 8PM)
-- **Weekly Homework 7:** Complete the corresponding problems on [WeBWorK](https://webwork.math.nau.edu/webwork2/DErnst_136). (Due Tuesday, October 28 by 8PM)
-- **Weekly Homework 8:** Complete the corresponding problems on [WeBWorK](https://webwork.math.nau.edu/webwork2/DErnst_136). (Due Wednesday, November 12 by 8PM)
-- **Weekly Homework 9:** Complete the corresponding problems on [WeBWorK](https://webwork.math.nau.edu/webwork2/DErnst_136). (Due Tuesday, November 18 by 8PM)
-- **Weekly Homework 10:** Complete the corresponding problems on [WeBWorK](https://webwork.math.nau.edu/webwork2/DErnst_136). (Due Monday, November 24 by 9PM)
--->
+- **Weekly Homework 3:** Complete the corresponding problems on [WeBWorK](https://webwork.math.nau.edu/webwork2/DErnst_136). (Due Tuesday, September 22 by 8PM)
