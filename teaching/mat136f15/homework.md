@@ -47,6 +47,7 @@ The Daily Homework will generally consist of solving problems from the [IBL cour
 - **Daily Homework 10:**  Read the rest of Chapter 2.  In addition, complete Problems 69-75. For Problem 69, you should just look up the answer (e.g., use a Google search). *Hints:* For Problem 72, you cannot "pull the 4 out of the sine function".  However, a key observation is that $4\theta\to 0$ as $\theta\to 0$. For Problem 73, consider multiplying the expression by $4/4$.  For Problem 74, consider multiplying by the conjugate and using a relevant trig identity.  For Problem 75, use the Sandwich/Squeeze Theorem. (Due Friday, September 17)
 
 <!--
+Do 1-sided limits and infinite limits from Lecture Notes
 - **Daily Homework 10:** Read Chapter 3 up to Problem 85.  In addition, complete Problems 78, 80, 81, 83-85.  (Due Friday, September 12)
 - **Daily Homework 11:** Read Chapter 3 up to Problem 89.  In addition, complete Problems 86, 88, 89.  Also, complete the statement of Theorem 87.  (Due Monday, September 15)
 - **Daily Homework 12:** Complete Exercises 2.5.5, 2.5.6, and 2.5.8 in *Calculus I Lecture Notes*. (Due Wednesday, September 17)
