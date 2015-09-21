@@ -50,5 +50,14 @@ We’ll use this page to keep track of what has happened each day in class. It w
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, September 14:</b> We did a lot today...maybe too much.  After passing last time, MM2 presented the big picture of Problem 43.  Next, we had JC, SR, EB, and BB present Problems 45, 47/48, 50, and 51, respectively.  After the student presentations, I spent time discussing to applets from <a href="http://dcernst.github.io/CalculusApplets/">Calculus Applets with GeoGebra</a> and then cranked out some examples involving limits.</li>
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, September 16:</b> I had a lot of fun today. We slowed the pace a bit and had students present problems live at the board.  We kicked off with PD presenting Problem 53.  This resulted in a quick conversation about notation.  Next, we had JE present Problem 54 (without his notes!).  This led to a discussion about limits that don't exist and how sometimes we can be more specific about how they don't exist if they march off to $\infty$ or $-\infty$.  Utilizing the discussion that followed Problem 54, SC was able to quickly dispense with Problem 52.  With the little time we had left, I drew a picture that captured the essence of Problems 56-58.</li>
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Thursday, September 17:</b> Yay! Great presentations by CW, JC, and EB, who did Problems 66, 67(a), and 67(c), respectively.  I also spent some time discussing limit laws and the Squeeze Theorem.</li>
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, September 18:</b> Coming soon.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, September 18:</b> Today I spent a good chunk of time lecturing over a proof that $\lim_{\theta\to 0}\frac{\sin(\theta)}{\theta}=1$ using the Squeeze Theorem and then discussed one-sided limits.  As I was about to kick off discussing one-sided limits, HD volunteered to do an example for us.  Cool.  The last few minutes of class was spent on having students discussing Problems 72-75 with a partner while Hannah and I walked around and helped.</li>
+</ul>
+
+## Week 4 ##
+
+<ul class="fa-ul">
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, September 21:</b> Coming soon.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, September 23:</b> Coming soon.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Thursday, September 24:</b> Coming soon.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, September 25:</b> Exam 1!</li>
 </ul>
