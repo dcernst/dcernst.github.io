@@ -108,7 +108,7 @@ Generally, the written homework assignments will be due on Wednesdays, but I wil
 To compute your score on a given homework assignment, I will divide your total points by the total possible points to obtain a percent score. Each homework assignment has the same weight.  Your overall homework grade will be worth 20% of your final grade.
 
 ### Exams ###
-There will be 3 midterm exams and a cumulative final exam.  Exam 1 and Exam 2 will be written exams and may include a take-home portion.  These exams are tentatively scheduled for **Friday, October 9** and **Friday, November 20**, respectively, and each is worth 20% of your overall grade.  Exam 3 will be an oral exam taken individually in my office. The questions for the oral exam will predominately come from homework problems. Exam 3 will last roughly 30 minutes and will be worth 10% of your overall grade.  Students will schedule Exam 3 during **Monday, November 30-Thursday, December 17**.  The final exam will be on **Wednesday, December 16** at **7:30-9:30AM** and is worth 20% of your overall grade. Make-up exams will only be given under extreme circumstances, as judged by me. In general, it will be best to communicate conflicts ahead of time.
+There will be 3 midterm exams and a cumulative final exam.  Exam 1 and Exam 2 will be written exams and may include a take-home portion.  These exams are tentatively scheduled for **Monday, October 12** and **Friday, November 20**, respectively, and each is worth 20% of your overall grade.  Exam 3 will be an oral exam taken individually in my office. The questions for the oral exam will predominately come from homework problems. Exam 3 will last roughly 30 minutes and will be worth 10% of your overall grade.  Students will schedule Exam 3 during **Monday, November 30-Thursday, December 17**.  The final exam will be on **Wednesday, December 16** at **7:30-9:30AM** and is worth 20% of your overall grade. Make-up exams will only be given under extreme circumstances, as judged by me. In general, it will be best to communicate conflicts ahead of time.
 
 ### Presentations, Participation, and In-class Work ###
 On the day that homework is due (usually Wednesday), at least a portion of the class meeting will be devoted to students presenting their proposed solutions to a subset of the homework.  Presenters will be chosen at random, but students are allowed/encouraged to volunteer to present problems. Students are allowed (in fact, encouraged!) to modify their written solutions in light of presentations made in class; however, **you are required to use the colored marker pens provided in class**.  Despite being allowed to annotate your work, the grade you receive on the homework will be determined by the work you produced before class.  I will provide more guidance with respect to this during the first couple weeks of the semester.
@@ -216,7 +216,7 @@ Here are some important dates:
 
 - **Monday, September 7**: Labor Day, no classes
 - **Thursday, September 10**: Last day to drop/add (no W appears on transcript)
-- **Friday, October 9**: Exam 1
+- **Monday, October 12**: Exam 1
 - **Friday, Noveber 6**: Last day to withdraw from a course (W appears on transcript)
 - **Wednesday, November 11:** Veterans Day, no classes
 - **Friday, November 20**: Exam 2
