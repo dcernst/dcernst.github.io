@@ -40,6 +40,8 @@ Below you will find notes and handouts that we have used in class, as well as so
 - [Are You Ready for Calculus? Answers]({{ site.baseurl }}/teaching/136ReadyCalculusAnswers.pdf)
 - [Calculus Applets with GeoGebra](http://dcernst.github.io/CalculusApplets/)
 - [Supplemental Problems for Exam 1 Content]({{ site.baseurl }}/teaching/mat136f15/136Exam1-Supplemental.pdf)
+- [Solutions to Supplemental Problems for Exam 1 Content]({{ site.baseurl }}/teaching/mat136f15/136Exam1-SupplementalSolns.pdf)
+- [Solutions to Appendix: Chapter 1-2 Review]({{ site.baseurl }}/teaching/mat136f15/136Exam1-ReviewSolns.pdf)
 
 <!--
 - [Function Analysis](http://teaching.danaernst.com/files/fall2014/mat136/FunctionAnalysis.pdf)
