@@ -1,0 +1,142 @@
+\documentclass[11pt]{scrartcl}
+\usepackage[scale=1.5]{ccicons}
+\usepackage[notextcomp]{kpfonts} 
+\usepackage[margin=1in]{geometry}
+\usepackage{amsthm,amssymb}
+\usepackage{graphicx}
+\usepackage{enumitem}
+\usepackage{bm}
+\usepackage{tabu}
+\usepackage{tikz}
+
+\usepackage{color}
+\definecolor{darkblue}{rgb}{0, 0, .6}
+\definecolor{grey}{rgb}{.7, .7, .7}
+\usepackage[breaklinks]{hyperref}
+\hypersetup{
+	colorlinks=true,
+	linkcolor=darkblue,
+	anchorcolor=darkblue,
+	citecolor=darkblue,
+	pagecolor=darkblue,
+	urlcolor=darkblue,
+	pdftitle={},
+	pdfauthor={}
+}
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\lhead{MAT 511 - Fall 2015}
+\chead{}
+\rhead{Due Wednesday, September 30}
+%\lfoot{}%\scriptsize This work is licensed under the \href{http://creativecommons.org/licenses/by-sa/3.0/us/}{Creative Commons Attribution-Share Alike 3.0 License}.} 
+%\cfoot{}
+%\rfoot{\ccbysa}
+\renewcommand{\headrulewidth}{.4pt}
+%\renewcommand{\footrulewidth}{.4pt}
+
+\theoremstyle{definition}
+\newtheorem{theorem}{Theorem}
+\newtheorem{acknowledgement}[theorem]{Acknowledgement}
+\newtheorem{algorithm}[theorem]{Algorithm}
+\newtheorem{axiom}[theorem]{Axiom}
+\newtheorem{case}[theorem]{Case}
+\newtheorem{claim}[theorem]{Claim}
+\newtheorem*{claim*}{Claim}
+\newtheorem{conclusion}[theorem]{Conclusion}
+\newtheorem{condition}[theorem]{Condition}
+\newtheorem{conjecture}[theorem]{Conjecture}
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{criterion}[theorem]{Criterion}
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{example}[theorem]{Example}
+\newtheorem{exercise}[theorem]{Exercise}
+\newtheorem{journal}[theorem]{Journal}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{notation}[theorem]{Notation}
+\newtheorem{problem}[theorem]{Problem}
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{remark}[theorem]{Remark}
+\newtheorem{solution}[theorem]{Solution}
+\newtheorem{summary}[theorem]{Summary}
+\newtheorem{skeleton}[theorem]{Skeleton Proof}
+\newtheorem{activity}[theorem]{Activity}
+\newtheorem{intuitivedef}[theorem]{Intuitive Definition}
+
+\DeclareMathOperator{\Aut}{Aut}
+
+\newcommand{\blankline}{\pagebreak[2]\vspace{.5\baselineskip}}
+
+\setlength{\parindent}{0pt}
+
+%Useful for cut and paste
+%\begin{enumerate}[label=\rm{(\alph*)}]
+
+\begin{document}
+
+\title{Homework 5}
+\subtitle{Abstract Algebra I}
+\date{}
+
+\maketitle
+\thispagestyle{fancy}
+
+Complete the following problems. Note that you should only use results that we've discussed so far this semester. 
+
+\begin{problem}
+Let $G$ be a group and let $x\in G$ such that $|x|=n$.  Prove that $x^m=e$ iff $n$ divides $m$.\footnote{This problem doesn't have anything to do with group actions. Several of you have been implicitly using it on previous homework assignments, so I think we should make it an official tool.}
+\end{problem}
+
+\begin{problem}
+Let $G$ be a group acting on a set $A$. Prove one of the following.
+\begin{enumerate}[label=\rm{(\alph*)}]
+\item The set $\{g\in G\mid g\cdot a = a\text{ for all }a\in A\}$ is a subgroup of $G$.  This set is called the \emph{kernel} of the action of $G$.
+\item  Fix $b\in A$. The set $\{g\in G\mid g\cdot b =b\}$ is a subgroup of $G$. This set is called the \emph{stabilizer} of $b$ in $G$.
+\end{enumerate}
+\end{problem}
+
+\begin{problem}
+Prove that the kernel of an action of a group $G$ on a set $A$ is the same as the kernel of the corresponding permutation representation $G\to S_A$.
+\end{problem}
+
+\begin{problem}
+Prove that a group $G$ acts faithfully on a set $A$ iff the kernel of the action is trivial.
+\end{problem}
+
+%\begin{problem}
+%Assume $n$ is even and label the vertices of a regular $n$-gon $1$ through $n$ clockwise. Prove that $D_{2n}$ acts on the set consisting of pairs of opposite vertices of a regular $n$-gon. Find the kernel of this action.
+%\end{problem}
+
+\begin{problem}
+Find the kernel of the left regular action of a group $G$ on itself.
+\end{problem}
+
+\begin{problem}
+Let $G$ be a group.  For all $g,a\in G$, define $g\cdot a = gag^{-1}$. Prove that this defines a left action of $G$ on itself (called \emph{conjugation}).
+\end{problem}
+
+\begin{problem}
+Let $G$ be a group and fix $g\in G$. Prove that the function determined by left conjugation by $g$, i.e., $x\mapsto gxg^{-1}$, is an automorphism of $G$. Quickly deduce that $|x|=|gxg^{-1}|$ for all $x\in G$ and that for any subset $A$ of $G$, $|A|=|gAg^{-1}|$, where $gAg^{-1}=\{gag^{-1}\mid a\in A\}$.
+\end{problem}
+
+\begin{problem}
+Let $H$ be a group acting on a set $A$. Prove that the relation $\sim$ on $A$ defined via $a\sim b$ iff $a=hb$ for some $h\in H$ is an equivalence relation. For each $x\in A$, the equivalence class of $x$ under $\sim$ is called the \emph{orbit} of $x$ under the action of $H$. It follows immediately from $\sim$ being an equivalence relation that the orbits form a partition of $A$.
+\end{problem}
+
+\begin{problem}
+Let $H$ be a subgroup of the finite group $G$ and let $H$ act on $G$ by left multiplication. Let $x\in G$ and let $\mathcal{O}_x$ be the orbit of $x$ under the action of $H$. Prove that the map $H\to \mathcal{O}_x$ defined via $h\mapsto hx$ is a bijection.
+\end{problem}
+
+\begin{problem}
+Prove that if $G$ is a finite group and $H$ is a subgroup of $G$, then $|H|$ divides $|G|$.  This is called \emph{Lagrange's Theorem}.
+\end{problem}
+
+\begin{problem}
+Show that the group of rigid motions of a cube is isomorphic to $S_4$. \emph{Hint:} Consider the action of the group of rigid motions on the set of four long diagonals that join pairs of opposite corners of the cube.
+\end{problem}
+
+\begin{problem}
+Explain why the action of the group of rigid motions of a cube on the set of three pairs of opposite faces is not faithful. Find the kernel of this action.
+\end{problem}
+
+\end{document}
