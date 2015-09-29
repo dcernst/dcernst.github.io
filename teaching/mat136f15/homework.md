@@ -48,6 +48,7 @@ The Daily Homework will generally consist of solving problems from the [IBL cour
 - **Daily Homework 11:** Complete Exercises 2.4.16 and 2.4.17 in *Calculus I Lecture Notes*. (Due Monday, September 21)
 - **Daily Homework 12:** Complete Exercises 2.6.6-2.6.11 in *Calculus I Lecture Notes*. (Due Thursday, September 24)
 - **Daily Homework 13:** Read Chapter 3 up to Problem 89 in [Differential Calculus]({{ site.baseurl }}/teaching/mat136f15/DifferentialCalculus-JIBLM.pdf).  In addition, complete Problems 78, 80, 81, 83-89. *Note:* For all five parts of Problem 81, you should use what you learned in Problems 78 and 80 instead of computing the derivative using Definition 76.  For Theorem 82, your job is to prove both parts using Definition 76.  For Theorem 87, your job is to prove the product rule. For Problem 88, rewrite $x^3$ as $x\cdot x^2$ and use your work on previous problems together with the Product Rule.  Similar hint for Problem 89. (Due Wednesday, September 30)
+- **Daily Homework 14:** Read Chapter 3 up to Problem 93. In addition, complete Problems 90, 92, 93.  Also, complete the statement of Theorem 91. (Due Thursday, October 1)
 
 <!--
 - **Daily Homework 10:** Read Chapter 3 up to Problem 85.  In addition, complete Problems 78, 80, 81, 83-85.  (Due Friday, September 12)
