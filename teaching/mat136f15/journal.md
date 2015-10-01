@@ -67,6 +67,6 @@ We’ll use this page to keep track of what has happened each day in class. It w
 <ul class="fa-ul">
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, September 28:</b> Fun day!  After handing back exams (which the class did very well on as a whole), I did a mini-lecture on the formal definition of the derivative and highlighted what is to come over the next couple weeks.  With the 25 minutes that we had left, students worked in small groups on Daily Homework 13.</li>
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, September 30:</b> We accomplished a lot today. We split the class up into 6 small groups and had each group work on a specific problem or two.  Afterwards, we had MM3, EB, JE, HD, SM, and JC present Problems 80, 81/84, 82(a), 82(b), 86, and 88/89, respectively.  SM's proof of the Product Rule was impressive!</li>
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Thursday, October 1:</b> Coming soon.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Thursday, October 1:</b> I spent a good chunk of class reviewing and setting the stage for what is to come. Together as a class we proved the Power Rule (in the case that the exponent is a positive integer) and then we did a few examples.  With the few minutes we had left in class, folks started working on Daily Homework 15.</li>
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, October 2:</b> Coming soon.</li>
 </ul>
