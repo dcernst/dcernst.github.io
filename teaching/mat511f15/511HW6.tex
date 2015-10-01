@@ -1,0 +1,169 @@
+\documentclass[11pt]{scrartcl}
+\usepackage[scale=1.5]{ccicons}
+\usepackage[notextcomp]{kpfonts} 
+\usepackage[margin=1in]{geometry}
+\usepackage{amsthm,amssymb}
+\usepackage{graphicx}
+\usepackage{enumitem}
+\usepackage{bm}
+\usepackage{tabu}
+\usepackage{tikz}
+
+\usepackage{color}
+\definecolor{darkblue}{rgb}{0, 0, .6}
+\definecolor{grey}{rgb}{.7, .7, .7}
+\usepackage[breaklinks]{hyperref}
+\hypersetup{
+	colorlinks=true,
+	linkcolor=darkblue,
+	anchorcolor=darkblue,
+	citecolor=darkblue,
+	pagecolor=darkblue,
+	urlcolor=darkblue,
+	pdftitle={},
+	pdfauthor={}
+}
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\lhead{MAT 511 - Fall 2015}
+\chead{}
+\rhead{Due Friday, October 9}
+%\lfoot{}%\scriptsize This work is licensed under the \href{http://creativecommons.org/licenses/by-sa/3.0/us/}{Creative Commons Attribution-Share Alike 3.0 License}.} 
+%\cfoot{}
+%\rfoot{\ccbysa}
+\renewcommand{\headrulewidth}{.4pt}
+%\renewcommand{\footrulewidth}{.4pt}
+
+\theoremstyle{definition}
+\newtheorem{theorem}{Theorem}
+\newtheorem{acknowledgement}[theorem]{Acknowledgement}
+\newtheorem{algorithm}[theorem]{Algorithm}
+\newtheorem{axiom}[theorem]{Axiom}
+\newtheorem{case}[theorem]{Case}
+\newtheorem{claim}[theorem]{Claim}
+\newtheorem*{claim*}{Claim}
+\newtheorem{conclusion}[theorem]{Conclusion}
+\newtheorem{condition}[theorem]{Condition}
+\newtheorem{conjecture}[theorem]{Conjecture}
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{criterion}[theorem]{Criterion}
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{example}[theorem]{Example}
+\newtheorem{exercise}[theorem]{Exercise}
+\newtheorem{journal}[theorem]{Journal}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{notation}[theorem]{Notation}
+\newtheorem{problem}[theorem]{Problem}
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{remark}[theorem]{Remark}
+\newtheorem{solution}[theorem]{Solution}
+\newtheorem{summary}[theorem]{Summary}
+\newtheorem{skeleton}[theorem]{Skeleton Proof}
+\newtheorem{activity}[theorem]{Activity}
+\newtheorem{intuitivedef}[theorem]{Intuitive Definition}
+
+\DeclareMathOperator{\Aut}{Aut}
+
+\newcommand{\blankline}{\pagebreak[2]\vspace{.5\baselineskip}}
+
+\setlength{\parindent}{0pt}
+
+%Useful for cut and paste
+%\begin{enumerate}[label=\rm{(\alph*)}]
+
+\begin{document}
+
+\title{Homework 6}
+\subtitle{Abstract Algebra I}
+\date{}
+
+\maketitle
+\thispagestyle{fancy}
+
+Complete the following problems. Note that you should only use results that we've discussed so far this semester. 
+
+\begin{problem}
+Determine whether each of the specified subsets is a subgroup of the given group. If the subset is a subgroup, prove it.  If the subset is not a subgroup, explain why.
+\begin{enumerate}[label=\rm{(\alph*)}]
+\item The set of reflections from $D_{2n}$.
+\item $\{a+ai\mid a\in\mathbb{R}\}\subseteq\mathbb{C}$ (under addition).
+\item $\{z\in\mathbb{C}\mid |z|=1\}\subseteq\mathbb{C}\setminus\{0\}$ (under multiplication).
+\item $\{x\in\mathbb{R}\mid x^2\in\mathbb{Q}\}\subseteq\mathbb{R}$ (under addition).
+\end{enumerate}
+\end{problem}
+
+\begin{problem}
+Suppose $H$ and $K$ are subgroups of $G$.  Prove that $H\cap K$ is a also a subgroup of $G$.
+\end{problem}
+
+\begin{problem}
+Given an example of an infinite group $G$ and an infinite subset $H$ of $G$ such that $H$ is closed under the operation of $G$ but is not a subgroup of $G$.
+\end{problem}
+
+\begin{problem}
+Let $G$ be an abelian group.  
+\begin{enumerate}[label=\rm{(\alph*)}]
+\item Prove that $\{g\in G\mid |g|<\infty\}$ is a subgroup of $G$ (called the \emph{torsion subgroup of $G$}).  
+\item Give an example of a group $G$ where the set described above is not a subgroup. Briefly justify your answer.  \emph{Hint:}  Fiddle around some infinite non-abelian groups.
+\end{enumerate} 
+\end{problem}
+
+\begin{problem}
+For each of the following groups, compute the centralizers of each element and find the center of each group.
+\begin{enumerate}[label=\rm{(\alph*)}]
+\item $S_3$
+\item $D_8$
+\item $Q_8$
+\end{enumerate}
+\end{problem}
+
+\begin{problem}
+Compute the normalizer for each subgroup of $D_8$.  \emph{Note:} There are 10 subgroups of $D_8$.
+\end{problem}
+
+\begin{problem}
+Let $H\leq G$.  Prove one of the following.
+\begin{enumerate}[label=\rm{(\alph*)}]
+\item Prove that $H\leq N_G(H)$.
+\item Prove that $H\leq C_G(H)$ iff $H$ is abelian.
+\end{enumerate}
+\end{problem}
+
+\begin{problem}
+Determine whether each group is cyclic.  Justify your answer.
+\begin{enumerate}[label=\rm{(\alph*)}]
+\item $\mathbb{Z}\times \mathbb{Z}$.
+\item $\mathbb{Q}$
+\end{enumerate}
+\end{problem}
+
+\begin{problem}
+Provide an example of a group $G$ such that every proper subgroup of $G$ is cyclic, but $G$ is not cyclic.
+\end{problem}
+
+\begin{problem}
+Give an example of two sets $A$ and $B$ contained in a group $G$ such that (i) $A\subseteq B$, (ii) $A\neq B$, and (iii) $\langle A\rangle=\langle B\rangle$.
+\end{problem}
+
+\begin{problem}
+Let $C_n$ be a cyclic group of order $n$. Fix $a\in\mathbb{Z}$.  Define $\sigma_a:C_n\to C_n$ via $\sigma_a(x)=x^a$.  Prove that $\sigma_a$ is an automorphism of $C_n$ iff $a$ and $n$ are relatively prime.
+\end{problem}
+
+\begin{problem}
+Prove one of the following.
+\begin{enumerate}[label=\rm{(\alph*)}]
+\item Prove that the subgroup $\langle(1,2), (1,3)(2,4)\rangle$ of $S_4$ is isomorphic to $D_8$.
+\item Prove that the subgroup $\langle s,r^2\rangle$ of $D_8$ is isomorphic to $\mathbb{Z}_2\times \mathbb{Z}_2$.
+\end{enumerate}
+\end{problem}
+
+\begin{problem}
+Consider the group $\mathbb{Z}/48\mathbb{Z}$.
+\begin{enumerate}[label=\rm{(\alph*)}]
+\item Find all generators for $\mathbb{Z}/48\mathbb{Z}$.
+\item What is the order of $\overline{30}$ in $\mathbb{Z}/48\mathbb{Z}$?
+\item Draw the subgroup lattice for $\mathbb{Z}/48\mathbb{Z}$.
+\end{enumerate}
+\end{problem}
+\end{document}
