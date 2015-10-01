@@ -49,13 +49,12 @@ The Daily Homework will generally consist of solving problems from the [IBL cour
 - **Daily Homework 12:** Complete Exercises 2.6.6-2.6.11 in *Calculus I Lecture Notes*. (Due Thursday, September 24)
 - **Daily Homework 13:** Read Chapter 3 up to Problem 89 in [Differential Calculus]({{ site.baseurl }}/teaching/mat136f15/DifferentialCalculus-JIBLM.pdf).  In addition, complete Problems 78, 80, 81, 83-89. *Note:* For all five parts of Problem 81, you should use what you learned in Problems 78 and 80 instead of computing the derivative using Definition 76.  For Theorem 82, your job is to prove both parts using Definition 76.  For Theorem 87, your job is to prove the product rule. For Problem 88, rewrite $x^3$ as $x\cdot x^2$ and use your work on previous problems together with the Product Rule.  Similar hint for Problem 89. (Due Wednesday, September 30)
 - **Daily Homework 14:** Read Chapter 3 up to Problem 93. In addition, complete Problems 90, 92, 93.  Also, complete the statement of Theorem 91. (Due Thursday, October 1)
+- **Daily Homework 15:** We are going to hop around a little bit for the next few homework assignments.  Complete Problems 132-134, 136(a)(b), 139, 141, 142.  Also, complete the statement of Theorems 135 and 140 along the way.  (Due Friday, October 2)
 
 <!--
-- **Daily Homework 10:** Read Chapter 3 up to Problem 85.  In addition, complete Problems 78, 80, 81, 83-85.  (Due Friday, September 12)
-- **Daily Homework 11:** Read Chapter 3 up to Problem 89.  In addition, complete Problems 86, 88, 89.  Also, complete the statement of Theorem 87.  (Due Monday, September 15)
 - **Daily Homework 12:** Complete Exercises 2.5.5, 2.5.6, and 2.5.8 in *Calculus I Lecture Notes*. (Due Wednesday, September 17)
 - **Daily Homework 13:** Complete practice problems 4 and 5 from the Chapters 1-2 Review from *Calculus I Lecture Notes*. (Due Thursday, September 18)
-- **Daily Homework 14:** Read Chapter 3 up to Problem 93. In addition, complete Problems 90, 92, 93.  Also, complete the statement of Theorem 91.  (Due Monday, September 22)
+
 - **Daily Homework 15:** Complete Problems 132-134, 136(a)(b), 139, 141, 142.  Also, complete the statement of Theorems 135 and 140 along the way.  (Due Wednesday, September 24)
 - **Daily Homework 16:** Complete Problems 121, 125-129, 136(c), 137, 138.  *Hints:* To do 125 and 126, you will need Theorem 124.  Also, it may be useful to know that $$\frac{d}{dx}[\sin(x)]=\cos(x)$$ and $$\frac{d}{dx}[\cos(x)]=-\sin(x).$$
 To compute the derivatives of the functions for Problem 137, you should use the derivatives that I just mentioned and the quotient rule.  (Due Friday, September 26)
