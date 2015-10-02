@@ -11,7 +11,7 @@ tags:
   - prime factorizations
 ---
 
-Tonight I had a lot of fun helping my oldest son (age 9) with his math homework.  One of the problems was aimed at exploring the factors and prime factorization of 72.  The problem began by making the following claim.
+Tonight I had a lot of fun helping my oldest son (age 9) with his math homework.  One of the problems was aimed at exploring the factors and [prime factorization](https://en.wikipedia.org/wiki/Prime_factor) of 72.  The problem began by making the following claim.
 
 <div class="well">
 Claire said that all the factors of 72 are multiples of the prime factors of 72.
