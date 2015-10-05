@@ -70,3 +70,12 @@ We’ll use this page to keep track of what has happened each day in class. It w
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Thursday, October 1:</b> I spent a good chunk of class reviewing and setting the stage for what is to come. Together as a class we proved the Power Rule (in the case that the exponent is a positive integer) and then we did a few examples.  With the few minutes we had left in class, folks started working on Daily Homework 15.</li>
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, October 2:</b> Class began with a quick review of our current derivative shortcuts and a brief discussion of what's to come.  Next, TR crushed Problem 134 (Quotient Rule).  Then we took a step backwards and had the class help me tackle an alternate approach to Problem 132 using the Quotient Rule.  This was followed by AG and TM presenting solutions to Problems 136(a) and 136(b), respectively.  With help from the class, I presented solutions to Problems 139 and 141.  Class concluded with SC taking a crack at Problem 142.  I'm really happy with how the whole week went, but I need to find a way to get more students persevering a bit longer on the harder problems.</li>
 </ul>
+
+## Week 6 ##
+
+<ul class="fa-ul">
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, October 5:</b> We accomplished a lot today.  After a quick review, we divide the class up into 6 small groups to work on problems from Daily Homework 16.  We had TR, BB, HD, PD, and MM2 present solutions to Problems 125, 126, 137, 127/128/129/136(c), and 138, respectively.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, October 7:</b> Coming soon.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Thursday, October 8:</b> Coming soon.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, October 9:</b> Coming soon.</li>
+</ul>
