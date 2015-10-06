@@ -283,7 +283,7 @@ Here are some important dates:
 - **Thursday, September 10**: Last day to drop/add (no W appears on transcript)
 - **Friday, September 25**: Exam 1
 - **Friday, October 16**: Exam 2
-- **Friday, Noveber 6**: Last day to withdraw from a course (W appears on transcript)
+- **Friday, November 6**: Last day to withdraw from a course (W appears on transcript)
 - **Monday, November 9**: Exam 3
 - **Wednesday, November 11:** Veterans Day, no classes
 - **Thursday, November 26** and **Friday, November 27**: Thanksgiving Holiday, no classes
