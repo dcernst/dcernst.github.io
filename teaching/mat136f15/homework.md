@@ -52,15 +52,16 @@ The Daily Homework will generally consist of solving problems from the [IBL cour
 - **Daily Homework 15:** We are going to hop around a little bit for the next few homework assignments.  Complete Problems 132-134, 136(a)(b), 139, 141, 142 in [Differential Calculus]({{ site.baseurl }}/teaching/mat136f15/DifferentialCalculus-JIBLM.pdf).  Also, complete the statement of Theorems 135 and 140 along the way.  (Due Friday, October 2)
 - **Daily Homework 16:** Complete Problems 121, 125-129, 136(c), 137, 138 in [Differential Calculus]({{ site.baseurl }}/teaching/mat136f15/DifferentialCalculus-JIBLM.pdf).  *Hints:* To do 125 and 126, you will need Theorem 124.  Also, it may be useful to know in advance that $$\frac{d}{dx}[\sin(x)]=\cos(x)$$ and $$\frac{d}{dx}[\cos(x)]=-\sin(x).$$
 To compute the derivatives of the functions for Problem 137, you should use the derivatives that I just mentioned and the quotient rule. (Due Monday, October 5)
-- **Daily 17:** Complete Problems 149-153.  *Hints:* It will be useful to know that $$\frac{d}{dx}[e^x]=e^x$$ and $$\frac{d}{dx}[b^x]=b^x\ln(b).$$
+- **Daily 17:** Complete Problems 149-153 in [Differential Calculus]({{ site.baseurl }}/teaching/mat136f15/DifferentialCalculus-JIBLM.pdf).  *Hints:* It will be useful to know that $$\frac{d}{dx}[e^x]=e^x$$ and $$\frac{d}{dx}[b^x]=b^x\ln(b).$$
 You'll prove that the first formula is correct in Problem 150.  For now, you can just assume that the second formula is correct. (Due Wednesday, October 7)
+- **Daily 18:** Complete Problems 160, 163-166 in [Differential Calculus]({{ site.baseurl }}/teaching/mat136f15/DifferentialCalculus-JIBLM.pdf)  *Hints:* It will be useful to know that for $x>0$ $$\frac{d}{dx}[\ln(x)]=\frac{1}{x}$$ and $$\frac{d}{dx}[\log_b(x)]=\frac{1}{x\ln(b)}.$$ Also, when the author writes $\overline{f}$, you should just write $f^{-1}$. (Due Thursday, October 8)
+- **Daily 19:** Coming soon. (Due Friday, October 9)
+- **Daily 20:** Coming soon. (Due Monday, October 12)
 
 <!--
 - **Daily Homework 12:** Complete Exercises 2.5.5, 2.5.6, and 2.5.8 in *Calculus I Lecture Notes*. (Due Wednesday, September 17)
 - **Daily Homework 13:** Complete practice problems 4 and 5 from the Chapters 1-2 Review from *Calculus I Lecture Notes*. (Due Thursday, September 18)
 
-- **Daily Homework 17:** Complete Problems 149-153.  *Hints:* It will be useful to know that $$\frac{d}{dx}[e^x]=e^x$$ and $$\frac{d}{dx}[b^x]=b^x\ln(b).$$
-You'll prove that the first formula is correct in Problem 150.  For now, you can just assume that the second formula is correct. (Due Monday, September 29)
 - **Daily Homework 18:** Complete Problems 160, 163-166.  *Hints:* It will be useful to know that for $x>0$ $$\frac{d}{dx}[\ln(x)]=\frac{1}{x}$$ and $$\frac{d}{dx}[\log_b(x)]=\frac{1}{x\ln(b)}.$$ Also, when the author of the notes writes $\overline{f}$, you should just write $f^{-1}$. (Due Wednesday, October 1)
 - **Daily Homework 19:** Complete Exercises 3.10.2 and 3.10.3 from *Calculus I Lecture Notes*. (Due Friday, October 3)
 - **Daily Homework 20:** Complete Exercises 3.11.2 and 3.11.3 from *Calculus I Lecture Notes*. (Due Wednesday, October 8)
@@ -118,3 +119,4 @@ The majority of the Weekly Homework assignments are to be completed via [WeBWorK
 - **Weekly Homework 2:** Complete the corresponding problems on [WeBWorK](https://webwork.math.nau.edu/webwork2/DErnst_136). (Due Tuesday, September 15 by 8PM)
 - **Weekly Homework 3:** Complete the corresponding problems on [WeBWorK](https://webwork.math.nau.edu/webwork2/DErnst_136). (Due Tuesday, September 22 by 8PM)
 - **Weekly Homework 4:** Complete the corresponding problems on [WeBWorK](https://webwork.math.nau.edu/webwork2/DErnst_136). (Due Tuesday, October 6 by 8PM)
+- **Weekly Homework 5:** Complete the corresponding problems on [WeBWorK](https://webwork.math.nau.edu/webwork2/DErnst_136). (Due Tuesday, October 13 by 8PM)
