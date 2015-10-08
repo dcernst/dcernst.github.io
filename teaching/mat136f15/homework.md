@@ -54,15 +54,14 @@ The Daily Homework will generally consist of solving problems from the [IBL cour
 To compute the derivatives of the functions for Problem 137, you should use the derivatives that I just mentioned and the quotient rule. (Due Monday, October 5)
 - **Daily 17:** Complete Problems 149-153 in [Differential Calculus]({{ site.baseurl }}/teaching/mat136f15/DifferentialCalculus-JIBLM.pdf).  *Hints:* It will be useful to know that $$\frac{d}{dx}[e^x]=e^x$$ and $$\frac{d}{dx}[b^x]=b^x\ln(b).$$
 You'll prove that the first formula is correct in Problem 150.  For now, you can just assume that the second formula is correct. (Due Wednesday, October 7)
-- **Daily 18:** Complete Problems 160, 163-166 in [Differential Calculus]({{ site.baseurl }}/teaching/mat136f15/DifferentialCalculus-JIBLM.pdf)  *Hints:* It will be useful to know that for $x>0$ $$\frac{d}{dx}[\ln(x)]=\frac{1}{x}$$ and $$\frac{d}{dx}[\log_b(x)]=\frac{1}{x\ln(b)}.$$ Also, when the author writes $\overline{f}$, you should just write $f^{-1}$. (Due Thursday, October 8)
-- **Daily 19:** Read Section 3.10 in *Calculus I Lecture Notes*.  blah blah and pay special attention to the proof of Proposition 3.10.1,. (Due Friday, October 9)
+- **Daily 18:** Complete Problems 160, 163-166 in [Differential Calculus]({{ site.baseurl }}/teaching/mat136f15/DifferentialCalculus-JIBLM.pdf).  *Hints:* It will be useful to know that for $x>0$ $$\frac{d}{dx}[\ln(x)]=\frac{1}{x}$$ and $$\frac{d}{dx}[\log_b(x)]=\frac{1}{x\ln(b)}.$$ Also, when the author writes $\overline{f}$, you should just write $f^{-1}$. (Due Thursday, October 8)
+- **Daily 19:** Read Section 3.10 in *Calculus I Lecture Notes*.  In addition, copy down the proof of Proposition 3.10.1 and make sure you understand it.  Notice that the proof is using the result of Problem 164 from [Differential Calculus]({{ site.baseurl }}/teaching/mat136f15/DifferentialCalculus-JIBLM.pdf).  Then complete Exercises 3.10.2 and 3.10.3 in *Calculus I Lecture Notes*. *Hints:* For Problem 3.10.2, mimic the proof of Proposition  3.10.1. (Due Friday, October 9)
 - **Daily 20:** Coming soon. (Due Monday, October 12)
 
 <!--
 - **Daily Homework 12:** Complete Exercises 2.5.5, 2.5.6, and 2.5.8 in *Calculus I Lecture Notes*. (Due Wednesday, September 17)
 - **Daily Homework 13:** Complete practice problems 4 and 5 from the Chapters 1-2 Review from *Calculus I Lecture Notes*. (Due Thursday, September 18)
 
-- **Daily Homework 19:** Complete Exercises 3.10.2 and 3.10.3 from *Calculus I Lecture Notes*. (Due Friday, October 3)
 - **Daily Homework 20:** Complete Exercises 3.11.2 and 3.11.3 from *Calculus I Lecture Notes*. (Due Wednesday, October 8)
 - **Daily Homework 21:** Complete any 10 problems from 15-38 in Section 3.13 of *Calculus I Lecture Notes*. (Due Thursday, October 9)
 - **Daily Homework 22:** Complete all 11 parts of Exercise 4.1.6 in Section 4.1 of *Calculus I Lecture Notes*. (Due Wednesday, October 15)
