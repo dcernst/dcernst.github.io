@@ -58,7 +58,9 @@ You'll prove that the first formula is correct in Problem 150.  For now, you can
 - **Daily Homework 19:** Read Section 3.10 in *Calculus I Lecture Notes*.  In addition, copy down the proof of Proposition 3.10.1 and make sure you understand it.  Notice that the proof is using the result of Problem 164 from [Differential Calculus]({{ site.baseurl }}/teaching/mat136f15/DifferentialCalculus-JIBLM.pdf).  Then complete Exercises 3.10.2 and 3.10.3 in *Calculus I Lecture Notes*. *Hints:* For Problem 3.10.2, mimic the proof of Proposition  3.10.1. (Due Friday, October 9)
 - **Daily Homework 20:** Complete Exercises 3.11.2 and 3.11.3 from *Calculus I Lecture Notes*. (Due Monday, October 12)
 - **Daily Homework 21:** Complete any 10 problems from 15-38 in Section 3.13 of *Calculus I Lecture Notes*. (Due Wednesday, October 14)
+
 <!-- Implicit diff??? -->
+
 <!--
 - **Daily Homework 12:** Complete Exercises 2.5.5, 2.5.6, and 2.5.8 in *Calculus I Lecture Notes*. (Due Wednesday, September 17)
 - **Daily Homework 13:** Complete practice problems 4 and 5 from the Chapters 1-2 Review from *Calculus I Lecture Notes*. (Due Thursday, September 18)
