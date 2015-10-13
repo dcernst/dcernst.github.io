@@ -76,6 +76,15 @@ We’ll use this page to keep track of what has happened each day in class. It w
 <ul class="fa-ul">
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, October 5:</b> We accomplished a lot today.  After a quick review, we divide the class up into 6 small groups to work on problems from Daily Homework 16.  We had TR, BB, HD, PD, and MM2 present solutions to Problems 125, 126, 137, 127/128/129/136(c), and 138, respectively.</li>
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, October 7:</b> After a few quick announcements, we reviewed our current list of derivative shortcuts.  This was followed with some motivating examples for the Chain Rule, which led us to the statement and "proof" of the Chain Rule.  Next, we cranked through a few short examples.  We didn't have too much time before our derivative quiz, so instead of having students present, we discussed the definition of the irrational number $e$ and then proved $d/dx[e^x] = e^x$.  The last 10 minutes of class was reserved for students working in small groups (if they so chose) on our very first derivative quiz.</li>
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Thursday, October 8:</b> Coming soon.</li>
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, October 9:</b> Coming soon.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Thursday, October 8:</b> I was out of town for a conference and David covered for me while I was gone.  Hannah informed me that JE, NH, BL, SR, and CW presented.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, October 9:</b> Sarah covered for me while I was gone.  JC, JE, VK, BL, MM1, and TM presented.</li>
+</ul>
+
+## Week 7 ##
+
+<ul class="fa-ul">
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, October 12:</b> Today was a review, catch-up, and synthesize day. I spent most of the class period reviewing the derivative rules with focus on exponential and log functions that required use of the Chain Rule.  In addition, we discussed the use of logarithmic differentiation (aka, the "log trick").  Towards the end of class, TR presented Exercise 3.11.1(a).</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, October 14:</b> Coming soon.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Thursday, October 15:</b> Coming soon.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, October 16:</b> Coming soon.</li>
 </ul>
