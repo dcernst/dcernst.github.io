@@ -143,19 +143,29 @@ Complete the following tasks.  Write your solutions on your own paper and please
 
 \item (4 points) For Problem 9 on the in-class portion of the exam, you proved one of the following.  Now, prove the one you didn't prove.
 \begin{enumerate}[label=\text{(\alph*)}]
-\item Let $G$ be a group and define $\phi:G\to G$ via $\phi(g)=g^2$ for all $g\in G$.  Prove that $\phi$ is a homomorphism iff $G$ is abelian.
+\item Let $G$ be a group and define $\phi:G\to G$ via $\phi(g)=g^2$ for all $g\in G$.  Prove that $\phi$ is a homomorphism iff $G$ is abelian.\footnote{In case it wasn't obvious, $|z|$ is referring to the order of $z$ in the group, not its length.  More evidence that we use the absolute value delimiters for too many things in mathematics?}
 \item Define the group $G=\{z\in\mathbb{C}\mid |z|<\infty\}$ where the operation is ordinary multiplication of complex numbers.\footnote{You do not need to prove that this is a group.  It turns out that $G$ is the torsion subgroup of $\mathbb{C}\setminus\{0\}$.} Prove that the function $\psi:G\to G$ defined via $\psi(z)=z^k$ is a surjective homomorphism but not an isomorphism, where $k$ is a fixed positive integer greater than 1.
 \end{enumerate}
 
-\item (4 points each) Prove any \textbf{three} of the following.
+Some of problems below require the following definition.
+
+\bigskip
+
+\begin{definition*}
+A subgroup $H$ of a group $G$ is called \textbf{normal} if $gHg^{-1}=H$ for all $g\in G$.  Equivalently, $H$ is a normal subgroup of $G$ provided $N_G(H)=G$.  If $H$ is normal in $G$, then we write $H\unlhd G$.
+\end{definition*}
+
+\item (4 points each) Prove \textbf{three} of the following. Make sure that you are only using the results we have developed so far this semester.
 
 \begin{enumerate}[label=\text{(\alph*)}]
-\item Coming soon.
-\item Coming soon.
-\item Coming soon.
-\item Coming soon.
-\item Coming soon.
+\item If $G$ is a finite group such that $G=\langle x,y\rangle$, where $x\neq y$, $|x|=|y|=2$, and $|xy|=n$, then prove that $G\cong D_{2n}$. 
+\item If $G$ is a finite group and $H$ is a subgroup of $G$ such that $H=\langle S\rangle$ for some $S\subseteq G$, then prove that $H\unlhd G$ iff $gSg^{-1}\subseteq H$ for all $g\in G$.
+\item If $H$ is a subgroup of $G$, then prove that $H\unlhd G$ iff $gH=Hg$ for all $g\in G$.\footnote{Recall that $gH=\{gh\mid h\in H\}$ and similar for $Hg$.}
+\item If $H\leq G$, then prove that $N_G(H)$ is the largest subgroup of $G$ in which $H$ is normal.\footnote{Note that step one is prove that $H$ is actually normal in $N_G(H)$.}
+\item If $G$ is a finite group and $H\leq G$ such that $|G|=2|H|$, then prove that $H\unlhd G$.
 \end{enumerate}
+
+\item (2 points) \textbf{Optional Bonus Question!} In Problem 3(b) we required that $G$ be finite.  Is the result still true if $G$ is not finite?  Justify your answer.
 
 \end{enumerate}
 
