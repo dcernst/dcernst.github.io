@@ -58,14 +58,12 @@ You'll prove that the first formula is correct in Problem 150.  For now, you can
 - **Daily Homework 19:** Read Section 3.10 in *Calculus I Lecture Notes*.  In addition, copy down the proof of Proposition 3.10.1 and make sure you understand it.  Notice that the proof is using the result of Problem 164 from [Differential Calculus]({{ site.baseurl }}/teaching/mat136f15/DifferentialCalculus-JIBLM.pdf).  Then complete Exercises 3.10.2 and 3.10.3 in *Calculus I Lecture Notes*. *Hints:* For Problem 3.10.2, mimic the proof of Proposition  3.10.1. (Due Friday, October 9)
 - **Daily Homework 20:** Complete Exercises 3.11.2 and 3.11.3 from *Calculus I Lecture Notes*. (Due Monday, October 12)
 - **Daily Homework 21:** Complete any 10 problems from 15-38 in Section 3.13 of *Calculus I Lecture Notes*. (Due Wednesday, October 14)
-
-<!-- Implicit diff??? -->
+- **Daily Homework 22:** Complete Problems 167-170, 173, 175 in [Differential Calculus]({{ site.baseurl }}/teaching/mat136f15/DifferentialCalculus-JIBLM.pdf).  *Hints:* The point of Problem 169 is to not just use the Power Rule because we are trying to understand why the Power Rule works for fractional exponents.  Instead rewrite $y=x^{4/3}$ as $y^3=x^4$ and use implicit differentiation.  Alternatively, you can try to use the log trick.  To prove Theorem 170, mimic what you did in Problem 169. The point of Problem 173 is to prove the derivative formula for $b^x$. To do this, use the log trick.  Prove Theorem 175 by using the log trick. (Due Thursday, October 15)
 
 <!--
 - **Daily Homework 12:** Complete Exercises 2.5.5, 2.5.6, and 2.5.8 in *Calculus I Lecture Notes*. (Due Wednesday, September 17)
 - **Daily Homework 13:** Complete practice problems 4 and 5 from the Chapters 1-2 Review from *Calculus I Lecture Notes*. (Due Thursday, September 18)
 
-- **Daily Homework 21:** Complete any 10 problems from 15-38 in Section 3.13 of *Calculus I Lecture Notes*. (Due Thursday, October 9)
 - **Daily Homework 22:** Complete all 11 parts of Exercise 4.1.6 in Section 4.1 of *Calculus I Lecture Notes*. (Due Wednesday, October 15)
 - **Daily Homework 23:** Complete Problems 94, 97-100, 102, 103 in [Differential Calculus](http://teaching.danaernst.com/files/fall2014/mat136/DifferentialCalculus-JIBLM.pdf) (PDF).  Also, digest the relevant definitions nearby.  (Due Thursday, October 16)
 - **Daily Homework 24:** Complete Problems 104-113 in [Differential Calculus](http://teaching.danaernst.com/files/fall2014/mat136/DifferentialCalculus-JIBLM.pdf) (PDF).  (Due Friday, October 17)
