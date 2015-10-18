@@ -85,6 +85,15 @@ We’ll use this page to keep track of what has happened each day in class. It w
 <ul class="fa-ul">
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, October 12:</b> Today was a review, catch-up, and synthesize day. I spent most of the class period reviewing the derivative rules with focus on exponential and log functions that required use of the Chain Rule.  In addition, we discussed the use of logarithmic differentiation (aka, the "log trick").  Towards the end of class, TR presented Exercise 3.11.1(a).</li>
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, October 14:</b> Coming soon.</li>
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Thursday, October 15:</b> Coming soon.</li>
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, October 16:</b> Coming soon.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Thursday, October 15:</b> We reviewed for Exam 2 the whole class meeting.  This mostly consisted of me running my mouth and doing examples.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, October 16:</b> The students took Exam 2.</li>
+</ul>
+
+## Week 8 ##
+
+<ul class="fa-ul">
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, October 19:</b> Coming soon.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, October 21:</b> Coming soon.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Thursday, October 22:</b> Coming soon.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, October 23:</b> Coming soon.</li>
 </ul>
