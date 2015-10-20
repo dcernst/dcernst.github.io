@@ -32,7 +32,7 @@ Below you will find notes and handouts that we have used in class, as well as so
 Below are links to each exam.
 
 - [Exam 1 (in-class)]({{site.baseurl}}/teaching/mat511f15/511Exam1-Class.pdf) (PDF)
-- [Solutions to Exam 1 (in-class)]({{site.baseurl}}/teaching/mat511f15/511Exam1-Class-Solns.pdf) (PDF)
+- [Solutions to Exam 1 (in-class)]({{site.baseurl}}/teaching/mat511f15/511Exam1-Class-Solns.pdf) (PDF).  Note that in some cases I've opted to provide a solution that I thought would be easiest to understand, but may not be the most elegant.
 - [Exam 1 (take-home)]({{site.baseurl}}/teaching/mat511f15/511Exam1-Home.pdf) (PDF). If you are interested in using LaTeX to type up your solutions, then you can obtain the .tex file for the exam [here]({{site.baseurl}}/teaching/mat511f15/511Exam1-Home.tex). (Due Monday, October 19)
 
 ## Free Abstract Algebra Textbooks ##
