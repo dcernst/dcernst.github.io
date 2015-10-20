@@ -92,7 +92,7 @@ We’ll use this page to keep track of what has happened each day in class. It w
 ## Week 8 ##
 
 <ul class="fa-ul">
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, October 19:</b> Coming soon.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, October 19:</b> Class began with handing back and briefly discussing Exam 2.  Next, we decided to postpone discussing Daily Homework 22 and worked through a series of examples on implicit differentiation.  This included some historical discussion of the <a href="https://en.wikipedia.org/wiki/Folium_of_Descartes">Folium of Descartes</a>.</li>
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, October 21:</b> Coming soon.</li>
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Thursday, October 22:</b> Coming soon.</li>
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, October 23:</b> Coming soon.</li>
