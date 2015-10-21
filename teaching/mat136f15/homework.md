@@ -60,7 +60,7 @@ You'll prove that the first formula is correct in Problem 150.  For now, you can
 - **Daily Homework 21:** Complete any 10 problems from 15-38 in Section 3.13 of *Calculus I Lecture Notes*. (Due Wednesday, October 14)
 - **Daily Homework 22:** Complete Problems 167-170, 173, 175 in [Differential Calculus]({{ site.baseurl }}/teaching/mat136f15/DifferentialCalculus-JIBLM.pdf).  *Hints:* The point of Problem 169 is to not just use the Power Rule because we are trying to understand why the Power Rule works for fractional exponents.  Instead rewrite $y=x^{4/3}$ as $y^3=x^4$ and use implicit differentiation.  Alternatively, you can try to use the log trick.  To prove Theorem 170, mimic what you did in Problem 169. The point of Problem 173 is to prove the derivative formula for $b^x$. To do this, use the log trick.  Prove Theorem 175 by using the log trick. (Due Wednesday, October 21)
 - **Daily Homework 23:** Complete Problems 94, 97-100, 102-105 in [Differential Calculus]({{ site.baseurl }}/teaching/mat136f15/DifferentialCalculus-JIBLM.pdf). Also, digest the relevant definitions nearby.  (Due Thursday, October 22)
-- **Daily Homework 24:** Coming soon. (Due Friday, October 23)
+- **Daily Homework 24:** Complete Problems 106-113 in [Differential Calculus]({{ site.baseurl }}/teaching/mat136f15/DifferentialCalculus-JIBLM.pdf). (Due Friday, October 23)
 
 <!--
 
@@ -71,7 +71,6 @@ increasing, decreasing, critical points, concavity, graphing, L'H rule (with gra
 
 - **Daily Homework 22:** Complete all 11 parts of Exercise 4.1.6 in Section 4.1 of *Calculus I Lecture Notes*. (Due Wednesday, October 15)
 
-- **Daily Homework 24:** Complete Problems 104-113 in [Differential Calculus](http://teaching.danaernst.com/files/fall2014/mat136/DifferentialCalculus-JIBLM.pdf) (PDF).  (Due Friday, October 17)
 - **Daily Homework 25:** Complete Problems 114-119 in [Differential Calculus](http://teaching.danaernst.com/files/fall2014/mat136/DifferentialCalculus-JIBLM.pdf) (PDF).  (Due Monday, October 20)
 - **Daily Homework 26:** Complete the following exercises.  (Due Thursday, October 23)
     1. Sketch a graph of the function with the following properties:
@@ -96,7 +95,7 @@ increasing, decreasing, critical points, concavity, graphing, L'H rule (with gra
         - $f(x)=x-\ln(x)$, $[0.5,2]$  (You may use a calculator to evaluate $x$-values after you have the critical numbers.)
         - $f(x)=x-2\arctan(x)$, $[0,4]$
 - **Daily Homework 28:** Complete corresponding problems on WeBWorK.  (Due Monday, October 27 by 8:00pm)
-- **Daily Homework 29:** Complete Problems 167-169 in [Differential Calculus](http://teaching.danaernst.com/files/fall2014/mat136/DifferentialCalculus-JIBLM.pdf) (PDF). In addition, complete any 4 parts of Exercise 4.5.3 in Section 4.5 of *Calculus I Lecture Notes*. (Due Wednesday, October 29)
+
 - **Daily Homework 30:** Complete Problems 179-183 in [Differential Calculus](http://teaching.danaernst.com/files/fall2014/mat136/DifferentialCalculus-JIBLM.pdf) (PDF). (Due Wednesday, November 5)
 - **Daily Homework 31:** Complete Problems 185-197 in [Differential Calculus](http://teaching.danaernst.com/files/fall2014/mat136/DifferentialCalculus-JIBLM.pdf) (PDF). (Due Thursday, November 6)
 - **Daily Homework 32:** Complete Problems 198, 200-204, 206-208 in [Differential Calculus](http://teaching.danaernst.com/files/fall2014/mat136/DifferentialCalculus-JIBLM.pdf) (PDF). (Due Friday, November 7)
@@ -123,3 +122,4 @@ The majority of the Weekly Homework assignments are to be completed via [WeBWorK
 - **Weekly Homework 3:** Complete the corresponding problems on [WeBWorK](https://webwork.math.nau.edu/webwork2/DErnst_136). (Due Tuesday, September 22 by 8PM)
 - **Weekly Homework 4:** Complete the corresponding problems on [WeBWorK](https://webwork.math.nau.edu/webwork2/DErnst_136). (Due Tuesday, October 6 by 8PM)
 - **Weekly Homework 5:** Complete the corresponding problems on [WeBWorK](https://webwork.math.nau.edu/webwork2/DErnst_136). (Due Tuesday, October 13 by 8PM)
+- **Weekly Homework 6:** Complete the corresponding problems on [WeBWorK](https://webwork.math.nau.edu/webwork2/DErnst_136). (Due Tuesday, October 27 by 8PM)
