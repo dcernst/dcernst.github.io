@@ -84,7 +84,7 @@ We’ll use this page to keep track of what has happened each day in class. It w
 
 <ul class="fa-ul">
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, October 12:</b> Today was a review, catch-up, and synthesize day. I spent most of the class period reviewing the derivative rules with focus on exponential and log functions that required use of the Chain Rule.  In addition, we discussed the use of logarithmic differentiation (aka, the "log trick").  Towards the end of class, TR presented Exercise 3.11.1(a).</li>
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, October 14:</b> Coming soon.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, October 14:</b> Today was mostly a review day.  We spent quite a bit of time discussing how to combine the Chain Rule with the derivative formulas for logs, exponentials, and inverse trig functions.  </li>
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Thursday, October 15:</b> We reviewed for Exam 2 the whole class meeting.  This mostly consisted of me running my mouth and doing examples.</li>
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, October 16:</b> The students took Exam 2.</li>
 </ul>
@@ -93,7 +93,7 @@ We’ll use this page to keep track of what has happened each day in class. It w
 
 <ul class="fa-ul">
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, October 19:</b> Class began with handing back and briefly discussing Exam 2.  Next, we decided to postpone discussing Daily Homework 22 and worked through a series of examples on implicit differentiation.  This included some historical discussion of the <a href="https://en.wikipedia.org/wiki/Folium_of_Descartes">Folium of Descartes</a>.</li>
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, October 21:</b> Coming soon.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, October 21:</b> Today was productive and we had quite a few students present.  In particular, we had EB, RF, LL, MG, TB, and MM1 show us solutions to Problems 167, 168, 169, 170, 173, and 175, respectively. We had a few minutes at the end to start discussing what it means for a function to be increasing/decreasing on an interval and we briefly discussed local versus global maximums/minimums.</li>
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Thursday, October 22:</b> Coming soon.</li>
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, October 23:</b> Coming soon.</li>
 </ul>
