@@ -1,0 +1,156 @@
+\documentclass[11pt]{scrartcl}
+\usepackage[scale=1.5]{ccicons}
+\usepackage[notextcomp]{kpfonts} 
+\usepackage[margin=1in]{geometry}
+\usepackage{amsthm,amssymb}
+\usepackage{graphicx}
+\usepackage{enumitem}
+\usepackage{bm}
+\usepackage{tabu}
+\usepackage{tikz}
+
+\usepackage{color}
+\definecolor{darkblue}{rgb}{0, 0, .6}
+\definecolor{grey}{rgb}{.7, .7, .7}
+\usepackage[breaklinks]{hyperref}
+\hypersetup{
+	colorlinks=true,
+	linkcolor=darkblue,
+	anchorcolor=darkblue,
+	citecolor=darkblue,
+	pagecolor=darkblue,
+	urlcolor=darkblue,
+	pdftitle={},
+	pdfauthor={}
+}
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\lhead{MAT 511 - Fall 2015}
+\chead{}
+\rhead{Due Wednesday, October 28}
+%\lfoot{}%\scriptsize This work is licensed under the \href{http://creativecommons.org/licenses/by-sa/3.0/us/}{Creative Commons Attribution-Share Alike 3.0 License}.} 
+%\cfoot{}
+%\rfoot{\ccbysa}
+\renewcommand{\headrulewidth}{.4pt}
+%\renewcommand{\footrulewidth}{.4pt}
+
+\theoremstyle{definition}
+\newtheorem{theorem}{Theorem}
+\newtheorem{acknowledgement}[theorem]{Acknowledgement}
+\newtheorem{algorithm}[theorem]{Algorithm}
+\newtheorem{axiom}[theorem]{Axiom}
+\newtheorem{case}[theorem]{Case}
+\newtheorem{claim}[theorem]{Claim}
+\newtheorem*{claim*}{Claim}
+\newtheorem{conclusion}[theorem]{Conclusion}
+\newtheorem{condition}[theorem]{Condition}
+\newtheorem{conjecture}[theorem]{Conjecture}
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{criterion}[theorem]{Criterion}
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{example}[theorem]{Example}
+\newtheorem{exercise}[theorem]{Exercise}
+\newtheorem{journal}[theorem]{Journal}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{notation}[theorem]{Notation}
+\newtheorem{problem}[theorem]{Problem}
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{remark}[theorem]{Remark}
+\newtheorem{solution}[theorem]{Solution}
+\newtheorem{summary}[theorem]{Summary}
+\newtheorem{skeleton}[theorem]{Skeleton Proof}
+\newtheorem{activity}[theorem]{Activity}
+\newtheorem{intuitivedef}[theorem]{Intuitive Definition}
+
+\DeclareMathOperator{\Aut}{Aut}
+
+\newcommand{\blankline}{\pagebreak[2]\vspace{.5\baselineskip}}
+
+\setlength{\parindent}{0pt}
+
+%Useful for cut and paste
+%\begin{enumerate}[label=\rm{(\alph*)}]
+
+\begin{document}
+
+\title{Homework 7}
+\subtitle{Abstract Algebra I}
+\date{}
+
+\maketitle
+\thispagestyle{fancy}
+
+Complete the following problems. Note that you should only use results that we've discussed so far this semester.
+
+\blankline
+
+\emph{Note:} I told you that I was going to have you prove Cauchy's Theorem\footnote{Recall that Cauchy's Theorem tells is that if $G$ is a finite group and $p$ is a prime dividing $|G|$, then there exists an element in $G$ of order $p$.} on this homework assignment, but I decided against it.  I may come back and sketch its proof later in the semester.  Regardless, you can make use of this theorem as needed. (I'm not suggesting you need it on this assignment.)
+
+\begin{problem}
+Let $G$ be a group and suppose $H$ and $K$ are both normal subgroups of $G$.  Prove that $H\cap K$ is also a normal subgroup of $G$.
+\end{problem}
+
+\begin{problem}
+Find all normal subgroups of $D_8$ and then identify the isomorphism type of each of the corresponding quotient groups.
+\end{problem}
+
+\begin{problem}
+Let $G$ be a group and let $N\unlhd G$. 
+\begin{enumerate}[label=\rm{(\alph*)}]
+\item Prove that if $G$ is abelian, then $G/N$ is abelian.
+\item Provide a counterexample to the converse of part (a).
+\item Prove that if $G$ is cyclic, then $G/N$ is cyclic.
+\item Provide a counterexample to the converse of part (c).
+\end{enumerate}
+\end{problem}
+
+\begin{problem}
+Let $G$ be a group.
+\begin{enumerate}[label=\rm{(\alph*)}]
+\item Prove that $Z(G)\unlhd G$.\footnote{Recall that $Z(G)$ is the center of $G$.}
+\item Prove that if $G/Z(G)$ is cyclic, then $G$ is abelian.\footnote{This is one of my all-time favorite problems.}
+\item Prove that if $|G|=pq$, where $p$ and $q$ are primes (not necessarily distinct), then either $Z(G)=1$ or $G$ is abelian.
+\end{enumerate}
+\end{problem}
+
+\begin{problem}
+Let $G$ be a group and let $N\unlhd G$. 
+\begin{enumerate}[label=\rm{(\alph*)}]
+\item Prove that if $gN$ has finite order in $G/N$, then $|gN|$ is the smallest positive integer $n$ such that $g^n\in N$.
+\item Provide an example where $|gN|$ (in $G/N$) is strictly smaller than $|g|$ (in $G$).
+\end{enumerate}
+\end{problem}
+
+\newpage
+
+\begin{problem}
+Complete \textbf{one} of the following.
+\begin{enumerate}[label=\rm{(\alph*)}]
+\item Define $\pi:\mathbb{R}^2\to \mathbb{R}$ via $\pi((x,y))=x+y$.  Prove that $\pi$ is a surjective homomorphism and then describe the kernel and fibers of $\pi$ geometrically.  What does the First Isomorphism Theorem tell us in this case?
+%\item Define $\phi:\mathbb{R}\setminus\{0\}\to\mathbb{R}\setminus\{0\}$ via $\phi(x)$ equals the absolute value of $x$.  Prove that $\phi$ is a homomorphism and find the image of $\phi$.  Describe the kernel and fibers of $\phi$.  What does the First Isomorphism Theorem tell us in this case?
+\item Define $\tau:\mathbb{C}\to\mathbb{C}$ via $\tau(a+bi)=a^2+b^2$. Prove that $\tau$ is a homomorphism and find the image of $\tau$.  Describe the kernel and fibers of $\tau$ geometrically.  What does the First Isomorphism Theorem tell us in this case?
+\end{enumerate}
+\end{problem}
+
+\begin{problem}
+Let $H\leq G$ and fix $g\in G$. Prove that if $gHg^{-1}$ is a subgroup of $G$ of the same order as $H$. \emph{Hint:} I suggest you utilize a homework problem or two from a previous assignment instead of starting from scratch.  But starting from scratch isn't too hard either.
+\end{problem}
+
+\begin{problem}
+Let $H\leq G$ such that $|H|=n$. 
+\begin{enumerate}[label=\rm{(\alph*)}]
+\item Prove that if $H$ is the unique subgroup of order $n$ in $G$, then $H\unlhd G$.
+\item Provide a counterexample to the converse of part (a).
+\end{enumerate}
+\end{problem}
+
+\begin{problem}
+Prove each of the four Isomorphism Theorems as stated in class.  You may consult external resources (e.g., Dummit and Foote), but you may only make use of results in your proofs that we have discussed this semester.
+\end{problem}
+
+\begin{problem}
+Let $p$ be a prime and let $G$ be a group of order $p^am$, where $p$ does not divide $m$.  Assume $P\leq G$ and $N\unlhd G$ such that $|P|=p^a$ and $|N|=p^an$, where $p$ does not divide $n$.  Prove that $|P\cap N|=p^b$ and $|PN/N|=p^{a-b}$ for some $b$.
+\end{problem}
+
+\end{document}
