@@ -72,7 +72,6 @@ increasing, decreasing, critical points, concavity, graphing, L'H rule (with gra
 
 - **Daily Homework 22:** Complete all 11 parts of Exercise 4.1.6 in Section 4.1 of *Calculus I Lecture Notes*. (Due Wednesday, October 15)
 
-- **Daily Homework 25:** Complete Problems 114-119 in [Differential Calculus](http://teaching.danaernst.com/files/fall2014/mat136/DifferentialCalculus-JIBLM.pdf) (PDF).  (Due Monday, October 20)
 - **Daily Homework 26:** Complete the following exercises.  (Due Thursday, October 23)
     1. Sketch a graph of the function with the following properties:
         - $f(-4)=2$, $f(-2)=5$, $f(-1)=2$, and $f(0)=0$
