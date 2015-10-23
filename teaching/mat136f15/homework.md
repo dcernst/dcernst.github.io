@@ -61,6 +61,7 @@ You'll prove that the first formula is correct in Problem 150.  For now, you can
 - **Daily Homework 22:** Complete Problems 167-170, 173, 175 in [Differential Calculus]({{ site.baseurl }}/teaching/mat136f15/DifferentialCalculus-JIBLM.pdf).  *Hints:* The point of Problem 169 is to not just use the Power Rule because we are trying to understand why the Power Rule works for fractional exponents.  Instead rewrite $y=x^{4/3}$ as $y^3=x^4$ and use implicit differentiation.  Alternatively, you can try to use the log trick.  To prove Theorem 170, mimic what you did in Problem 169. The point of Problem 173 is to prove the derivative formula for $b^x$. To do this, use the log trick.  Prove Theorem 175 by using the log trick. (Due Wednesday, October 21)
 - **Daily Homework 23:** Complete Problems 94, 97-100, 102-105 in [Differential Calculus]({{ site.baseurl }}/teaching/mat136f15/DifferentialCalculus-JIBLM.pdf). Also, digest the relevant definitions nearby.  (Due Thursday, October 22)
 - **Daily Homework 24:** Complete Problems 106-113 in [Differential Calculus]({{ site.baseurl }}/teaching/mat136f15/DifferentialCalculus-JIBLM.pdf). (Due Friday, October 23)
+- **Daily Homework 24:** Complete Problems 114-119 in [Differential Calculus]({{ site.baseurl }}/teaching/mat136f15/DifferentialCalculus-JIBLM.pdf). (Due Monday, October 26)
 
 <!--
 
