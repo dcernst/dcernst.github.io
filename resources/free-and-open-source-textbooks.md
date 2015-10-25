@@ -10,7 +10,7 @@ layout: default
   <li class="active">Textbooks</li>
 </ol>
 
-Here is a (partial) list of free and/or open-source textbooks. If you find one of these more helpful than another, please <a href="mailto:dana.ernst@nau.edu">let me know</a>. Also, take a peek at [Rob Beezer’s](http://buzzard.ups.edu) selection on [this page](http://linear.ups.edu/opentexts.html). Moreover, the [American Institute of Mathematics](http://www.aimath.org) maintains a list of [approved open-source textbooks](http://www.aimath.org/textbooks/textbooklist.html).
+Here is a (partial) list of free and/or open-source textbooks. If you find one of these more helpful than another, please <a href="mailto:dana.ernst@nau.edu">let me know</a>. Also, take a peek at [Rob Beezer’s](http://buzzard.ups.edu) selection on [this page](http://linear.ups.edu/opentexts.html). Moreover, the [American Institute of Mathematics](http://www.aimath.org) maintains a list of [approved open-source textbooks](http://aimath.org/textbooks/approved-textbooks/).
 
 ### Calculus ###
   * [APEX Calclus](http://www.apexcalculus.com) is an open-source textbook by a group of faculty from Virginia Military Institute.  It has the look and feel of a traditional calculus (e.g., Stewart's *Calculus*). Includes interactive 3D graphics.
