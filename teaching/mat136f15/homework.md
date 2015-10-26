@@ -62,10 +62,18 @@ You'll prove that the first formula is correct in Problem 150.  For now, you can
 - **Daily Homework 23:** Complete Problems 94, 97-100, 102-105 in [Differential Calculus]({{ site.baseurl }}/teaching/mat136f15/DifferentialCalculus-JIBLM.pdf). Also, digest the relevant definitions nearby.  (Due Thursday, October 22)
 - **Daily Homework 24:** Complete Problems 106-113 in [Differential Calculus]({{ site.baseurl }}/teaching/mat136f15/DifferentialCalculus-JIBLM.pdf). (Due Friday, October 23)
 - **Daily Homework 25:** Complete Problems 114-119 in [Differential Calculus]({{ site.baseurl }}/teaching/mat136f15/DifferentialCalculus-JIBLM.pdf). (Due Monday, October 26)
+- **Daily Homework 26:**  Complete the following exercises. (Due Wednesday, October 28)
+    1. Sketch the graph of a function that is continuous on $[0,4]$, has an absolute min at 1, an absolute max at 2 and a local min at 3.
+    2. Sketch the graph of a function on $[1,4]$ that has an absolute max but no absolute min.
+    3. Sketch the graph of a function on $[1,4]$ that is *not* continuous but has both an absolute max and an absolute min.
+    4. Find the absolute max and absolute min values of $f$ on the given interval.  You may assume the function is continuous on the interval.
+        - $f(x)=3x^4-4x^3-12x^2+1$, $[-2,3]$
+        - $f(x)=x-\ln(x)$, $[0.5,2]$  (You may use a calculator to evaluate $x$-values after you have the critical points.)
+        - $f(x)=x-2\arctan(x)$, $[0,4]$
 
 <!--
 
-increasing, decreasing, critical points, concavity, graphing, L'H rule (with graphing),...
+increasing, decreasing, critical points, concavity, absolute max/min, optimization, L'H rule, graphing, related rates,...
 
 - **Daily Homework 12:** Complete Exercises 2.5.5, 2.5.6, and 2.5.8 in *Calculus I Lecture Notes*. (Due Wednesday, September 17)
 - **Daily Homework 13:** Complete practice problems 4 and 5 from the Chapters 1-2 Review from *Calculus I Lecture Notes*. (Due Thursday, September 18)
@@ -86,14 +94,7 @@ increasing, decreasing, critical points, concavity, graphing, L'H rule (with gra
     2. Sketch the graph of the following functions by following the algorithm we discussed in class.
         - $f(x) = \displaystyle \frac{x^2}{x-2}$
         - $g(x) = \displaystyle xe^x$
-- **Daily Homework 27:** Complete the following exercises. (Due Friday, October 24)
-    1. Sketch the graph of a function that is continuous on $[0,4]$, has an absolute min at 1, an absolute max at 2 and a local min at 3.
-    2. Sketch the graph of a function on $[1,4]$ that has an absolute max but no absolute min.
-    3. Sketch the graph of a function on $[1,4]$ that is *not* continuous but has both an absolute max and an absolute min.
-    4. Find the absolute max and absolute min values of $f$ on the given interval.  You may assume the function is continuous on the interval.
-        - $f(x)=3x^4-4x^3-12x^2+1$, $[-2,3]$
-        - $f(x)=x-\ln(x)$, $[0.5,2]$  (You may use a calculator to evaluate $x$-values after you have the critical numbers.)
-        - $f(x)=x-2\arctan(x)$, $[0,4]$
+
 - **Daily Homework 28:** Complete corresponding problems on WeBWorK.  (Due Monday, October 27 by 8:00pm)
 
 - **Daily Homework 30:** Complete Problems 179-183 in [Differential Calculus](http://teaching.danaernst.com/files/fall2014/mat136/DifferentialCalculus-JIBLM.pdf) (PDF). (Due Wednesday, November 5)
