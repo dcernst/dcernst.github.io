@@ -72,12 +72,11 @@ Below is a list of course materials that I have written to be used with an [inqu
 
 In addition to the posts that I write for my [personal blog]({{site.baseurl}}/blog/), [Angie Hodge](http://www.unomaha.edu/math/people/hodge/) and I are coauthors for [Math Ed Matters](http://maamathedmatters.blogspot.com), which is a (roughly) monthly column sponsored by the [Mathematical Association of America](http://maa.org). The column explores topics and current events related to undergraduate mathematics education. Posts aim to inspire, provoke deep thought, and provide ideas for the mathematics classroom. Our interest in and engagement with IBL color the column's content.
 
-## Online Interviews
+I have also written a few guest posts for other blogs.
 
-Here are some online interviews that I have given.
-
-  * R. Talbert. 4+1 interview with Dana Ernst. *Casting Out Nines*. The Chronicle Blog Network. August 2013. [[Blog Post](http://chronicle.com/blognetwork/castingoutnines/2013/08/01/41-interview-with-dana-ernst/)]
-  * S. Yoshinobu. IBL Instructor Perspectives: Professor Dana Ernst. *The IBL Blog*. February 2012. [[Blog Post](http://theiblblog.blogspot.com/2012/02/ibl-instructor-perspectives-professor.html)]
+  * Teaching Calculus 1 with a Focus on Student Presentations. *Discovering the Art of Mathematics*. October 2015. [[Blog Post](https://www.artofmathematics.org/blogs/cvonrenesse/guest-blog-by-dana-ernst)]
+  * 4+1 interview with Dana Ernst. *Casting Out Nines* by R. Talbert. . The Chronicle Blog Network. August 2013. [[Blog Post](http://chronicle.com/blognetwork/castingoutnines/2013/08/01/41-interview-with-dana-ernst/)]
+  * IBL Instructor Perspectives: Professor Dana Ernst. *The IBL Blog* by S. Yoshinobu. . February 2012. [[Blog Post](http://theiblblog.blogspot.com/2012/02/ibl-instructor-perspectives-professor.html)]
 
  [1]: http://en.wikipedia.org/wiki/Coxeter_group
  [2]: http://en.wikipedia.org/wiki/Hecke_algebra
