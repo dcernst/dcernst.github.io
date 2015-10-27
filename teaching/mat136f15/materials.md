@@ -45,6 +45,7 @@ Below you will find notes and handouts that we have used in class, as well as so
 - [Supplemental Problems for Exam 2 Content]({{ site.baseurl }}/teaching/mat136f15/136Exam2-Supplemental.pdf) *Note:* You can skip Problems 35 and 42.
 - [Solutions to Supplemental Problems for Exam 2 Content]({{ site.baseurl }}/teaching/mat136f15/136Exam2-SupplementalSolns.pdf)
 - [Solutions to Appendix: Chapter 3 Review]({{ site.baseurl }}/teaching/mat136f15/136Exam2-ReviewSolns.pdf) *Note:* You can skip Problems 6 and 7.  Also, "local linerization" just means "equation of the tangent line".
+- [Applied optimization]({{ site.baseurl }}/teaching/mat136f15/AppliedOptimization.pdf)
 
 <!--
 - [Function Analysis](http://teaching.danaernst.com/files/fall2014/mat136/FunctionAnalysis.pdf)
