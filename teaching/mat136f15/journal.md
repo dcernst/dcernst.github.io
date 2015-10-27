@@ -97,3 +97,12 @@ We’ll use this page to keep track of what has happened each day in class. It w
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Thursday, October 22:</b> I know I've said it before...but today was a good day!  I spent the first 10-15 minutes reviewing the definitions of increasing, decreasing, strictly increasing, strictly decreasing, local max/min, and critical point.  We then worked through a graphical example, where we examined each of these definitions.  With the time we had left, we divided up into 5 small groups.  The last 15 minutes of class was spent having SC/RF, SR, HD, KP presented Problems 97/98/99/100, 102, 103, 104, 105, respectively.</li>
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, October 23:</b> We had a very productive week.  Class started with a short review, which was followed by a brief introduction to second derivatives and concavity.  As usual, we divided the class up into small groups to discuss the current homework problems.  MM2, RF, AG, EB were the spokespersons for Problems 106, 108/109/110, 111, 112, respectively.  SC was prepared to present Problem 113, but we ran out of time.</li>
 </ul>
+
+## Week 9 ##
+
+<ul class="fa-ul">
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, October 26:</b> Today felt a bit rushed to me.  Perhaps we tried to do too many different things.  Class began with me providing a summary of all the recent connections between increasing/decreasing, local max/min, critical points, First Derivative Test, etc.  I also introduced the Extreme Value Theorem and we discussed a method for finding absolute max/min of a continuous function on a closed interval.  Next, we split up into 5 small groups to discuss the homework problems that were due today.  All we ended up having time for was EB and SM to share their proposed solutions to Problems 114/115 and 116, respectively.  Class ended with me explaining the pros and cons of the First Derivative Test versus the Second Derivative Test.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, October 28:</b> Coming soon.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Thursday, October 29:</b> Coming soon.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, October 30:</b> Coming soon.</li>
+</ul>
