@@ -1,0 +1,143 @@
+\documentclass[11pt]{scrartcl}
+\usepackage[scale=1.5]{ccicons}
+\usepackage[notextcomp]{kpfonts} 
+\usepackage[margin=1in]{geometry}
+\usepackage{amsthm,amssymb}
+\usepackage{graphicx}
+\usepackage{enumitem}
+\usepackage{bm}
+\usepackage{tabu}
+\usepackage{tikz}
+
+\usepackage{color}
+\definecolor{darkblue}{rgb}{0, 0, .6}
+\definecolor{grey}{rgb}{.7, .7, .7}
+\usepackage[breaklinks]{hyperref}
+\hypersetup{
+	colorlinks=true,
+	linkcolor=darkblue,
+	anchorcolor=darkblue,
+	citecolor=darkblue,
+	pagecolor=darkblue,
+	urlcolor=darkblue,
+	pdftitle={},
+	pdfauthor={}
+}
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\lhead{MAT 511 - Fall 2015}
+\chead{}
+\rhead{Due Wednesday, November 4}
+\renewcommand{\headrulewidth}{.4pt}
+
+\theoremstyle{definition}
+\newtheorem{theorem}{Theorem}
+\newtheorem{acknowledgement}[theorem]{Acknowledgement}
+\newtheorem{algorithm}[theorem]{Algorithm}
+\newtheorem{axiom}[theorem]{Axiom}
+\newtheorem{case}[theorem]{Case}
+\newtheorem{claim}[theorem]{Claim}
+\newtheorem*{claim*}{Claim}
+\newtheorem{conclusion}[theorem]{Conclusion}
+\newtheorem{condition}[theorem]{Condition}
+\newtheorem{conjecture}[theorem]{Conjecture}
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{criterion}[theorem]{Criterion}
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{example}[theorem]{Example}
+\newtheorem{exercise}[theorem]{Exercise}
+\newtheorem{journal}[theorem]{Journal}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{notation}[theorem]{Notation}
+\newtheorem{problem}[theorem]{Problem}
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{remark}[theorem]{Remark}
+\newtheorem{solution}[theorem]{Solution}
+\newtheorem{summary}[theorem]{Summary}
+\newtheorem{skeleton}[theorem]{Skeleton Proof}
+\newtheorem{activity}[theorem]{Activity}
+\newtheorem{intuitivedef}[theorem]{Intuitive Definition}
+
+\DeclareMathOperator{\Aut}{Aut}
+\DeclareMathOperator{\Stab}{Stab}
+
+\newcommand{\blankline}{\pagebreak[2]\vspace{.5\baselineskip}}
+
+\setlength{\parindent}{0pt}
+
+%Useful for cut and paste
+%\begin{enumerate}[label=\rm{(\alph*)}]
+
+\begin{document}
+
+\title{Homework 8}
+\subtitle{Abstract Algebra I}
+\date{}
+
+\maketitle
+\thispagestyle{fancy}
+
+Complete the following problems. Note that you should only use results that we've discussed so far this semester.
+
+\begin{problem}
+Suppose $G$ is a finite abelian group. If $p$ is a prime dividing $|G|$, then prove that $G$ contains an element of order $p$.  \emph{Note:} This result is a special case of Cauchy's Theorem, but you are not allowed to use Cauchy's Theorem to prove it.  One possible approach to proving this involves using strong induction on the order of $G$.
+\end{problem}
+
+\begin{problem}
+Suppose $G$ is an abelian group such that the only normal subgroups of $G$ are the trivial subgroup $\{e\}$ and $G$ itself.\footnote{Such a group is called a \emph{simple} group.} Prove that $G\cong \mathbb{Z}_p$ for some prime $p$.  \emph{Hint:} Use the result of the previous problem.
+\end{problem}
+
+\begin{problem}
+Prove that $\sigma^2$ is an even permutation for every permutation $\sigma\in S_n$.
+\end{problem}
+
+\begin{problem}
+Prove that $S_n=\langle (1,2),(1,2,\ldots,n)\rangle$ for all $n\geq 2$.
+\end{problem}
+
+%\begin{problem}
+%Prove that $\langle (1,3),(1,2,3,4)\rangle$ is a proper subgroup of $S_4$.  What is the isomorphism type of this subgroup?
+%\end{problem}
+
+\begin{problem}
+Prove that the group of rigid motions of a tetrahedron is isomorphic to $A_4$.
+\end{problem}
+
+\begin{problem}
+Prove that the subgroup of order 4 in $A_4$ is normal and is isomorphic to $V_4$.
+\end{problem}
+
+\begin{problem}
+A transitive permutation group $G$ on a set $A$ is called \emph{doubly transitive} if for any (hence all) $a\in A$, the subgroup $\Stab_G(a)$ is transitive on $A\setminus\{a\}$. Prove that $S_n$ is doubly transitive on $\{1,2,\ldots,n\}$ for all $n\geq 2$.
+\end{problem}
+
+\begin{problem}
+Exhibit Cayley's Theorem for $D_8$.  That is, find a subgroup of $S_8$ that is isomorphic to $D_8$.
+\end{problem}
+
+\begin{problem}
+Consider the group $Q_8$.
+\begin{enumerate}[label=\rm{(\alph*)}]
+\item Find a subgroup of $S_8$ that is isomorphic to $Q_8$.
+\item Prove that $Q_8$ is not isomorphic to a subgroup of $S_n$ for $n\geq 7$. \emph{Hint:} If $Q_8$ acts on any set $A$ of size less than or equal to 7, show that the stabilizer of any point $a\in A$ must contain the subgroup $\langle -1\rangle$.
+\end{enumerate}
+\end{problem}
+
+\begin{problem}
+Suppose $G$ is a group of order $p^{\alpha}$ for some prime $p$ and $\alpha\in\mathbb{Z}^+$.
+\begin{enumerate}[label=\rm{(\alph*)}]
+\item Prove that every subgroup of index $p$ is normal in $G$.
+\item Prove that if $\alpha=2$, then $G$ has a normal subgroup of order $p$.
+\end{enumerate}
+\end{problem}
+
+\begin{problem}
+Suppose $G$ is a non-abelian group of order 6.
+\begin{enumerate}[label=\rm{(\alph*)}]
+\item Prove $G$ has a nonnormal subgroup of order 2.
+\item Prove that $G$ is isomorphic to $S_3$.
+\end{enumerate}
+\end{problem}
+
+\end{document}
