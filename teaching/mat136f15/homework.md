@@ -70,7 +70,8 @@ You'll prove that the first formula is correct in Problem 150.  For now, you can
         - $f(x)=3x^4-4x^3-12x^2+1$, $[-2,3]$
         - $f(x)=x-\ln(x)$, $[0.5,2]$  (You may use a calculator to evaluate $x$-values after you have the critical points.)
         - $f(x)=x-2\arctan(x)$, $[0,4]$
-- **Daily Homework 27:** Complete corresponding problems on [WeBWorK](https://webwork.math.nau.edu/webwork2/DErnst_136).  (Due Friday, October 30 by 8:00pm)
+- **Daily Homework 27:** Complete corresponding problems on [WeBWorK](https://webwork.math.nau.edu/webwork2/DErnst_136).  (Due Monday, October 30 by 10:20am)
+- **Daily Homework 28:** Complete Examples 2-5 on [Applied Optimization]({{ site.baseurl }}/teaching/mat136f15/AppliedOptimization.pdf) handout. (Due Friday at end of class)
 
 <!--
 
