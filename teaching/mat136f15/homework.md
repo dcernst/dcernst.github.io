@@ -86,8 +86,8 @@ You'll prove that the first formula is correct in Problem 150.  For now, you can
     2. Sketch the graph of the following functions by following the algorithm we discussed in class.
        - $f(x) = \displaystyle \frac{x^2}{x-2}$
        - $g(x) = \displaystyle xe^x$
-<!--
 
+<!--
 - **Daily Homework 12:** Complete Exercises 2.5.5, 2.5.6, and 2.5.8 in *Calculus I Lecture Notes*. (Due Wednesday, September 17)
 - **Daily Homework 13:** Complete practice problems 4 and 5 from the Chapters 1-2 Review from *Calculus I Lecture Notes*. (Due Thursday, September 18)
 
