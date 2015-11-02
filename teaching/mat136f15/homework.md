@@ -72,32 +72,26 @@ You'll prove that the first formula is correct in Problem 150.  For now, you can
         - $f(x)=x-2\arctan(x)$, $[0,4]$
 - **Daily Homework 27:** Complete corresponding problems on [WeBWorK](https://webwork.math.nau.edu/webwork2/DErnst_136).  (Due Monday, October 30 by 10:20am)
 - **Daily Homework 28:** Complete Examples 2-5 on [Applied Optimization]({{ site.baseurl }}/teaching/mat136f15/AppliedOptimization.pdf) handout. (Due Friday at end of class)
-
+- **Daily Homework 29:** Complete the following exercises.  (Due Wednesday, November 4)
+  1. Sketch a graph of the function with the following properties:
+      - $f(-4)=2$, $f(-2)=5$, $f(-1)=2$, and $f(0)=0$
+      - vertical asymptote at $x=3$ such that $\displaystyle \lim_{x \to 3^{-}}f(x)=-\infty$ and $\displaystyle \lim_{x \to 3^{+}}f(x)=\infty$
+      - horizontal asymptote at $y=0$ such that $\displaystyle \lim_{x \to \infty}f(x)=0$ and $\displaystyle \lim_{x \to -\infty}f(x)=0$
+      - $f'(-2)=0$ and $f'(0)=0$
+      - $f'(x) >0$ on $(-\infty,-2)$
+      - $f'(x)&lt; 0$ on $(-2,0)$, $(0,3)$, and $(3,\infty)$
+      - $f^{\prime\prime}(-4)=0$, $f^{\prime\prime}(-1)=0$, and $f^{\prime\prime}(0)=0$
+      - $f^{\prime\prime}(x) >0$ on $(-\infty, -4)$, $(-1,0)$, and $(3,\infty)$
+      - $f^{\prime\prime}(x) <0$ on $(-4,-1)$ and $(0,3)$
+  2. Sketch the graph of the following functions by following the algorithm we discussed in class.
+      - $f(x) = \displaystyle \frac{x^2}{x-2}$
+      - $g(x) = \displaystyle xe^x$
 <!--
-
-increasing, decreasing, critical points, concavity, absolute max/min, optimization, L'H rule, graphing, related rates,...
 
 - **Daily Homework 12:** Complete Exercises 2.5.5, 2.5.6, and 2.5.8 in *Calculus I Lecture Notes*. (Due Wednesday, September 17)
 - **Daily Homework 13:** Complete practice problems 4 and 5 from the Chapters 1-2 Review from *Calculus I Lecture Notes*. (Due Thursday, September 18)
 
 - **Daily Homework 22:** Complete all 11 parts of Exercise 4.1.6 in Section 4.1 of *Calculus I Lecture Notes*. (Due Wednesday, October 15)
-
-- **Daily Homework 26:** Complete the following exercises.  (Due Thursday, October 23)
-    1. Sketch a graph of the function with the following properties:
-        - $f(-4)=2$, $f(-2)=5$, $f(-1)=2$, and $f(0)=0$
-        - vertical asymptote at $x=3$ such that $\displaystyle \lim_{x \to 3^{-}}f(x)=-\infty$ and $\displaystyle \lim_{x \to 3^{+}}f(x)=\infty$
-        - horizontal asymptote at $y=0$ such that $\displaystyle \lim_{x \to \infty}f(x)=0$ and $\displaystyle \lim_{x \to -\infty}f(x)=0$
-        - $f'(-2)=0$ and $f'(0)=0$
-        - $f'(x) >0$ on $(-\infty,-2)$
-        - $f'(x)&lt; 0$ on $(-2,0)$, $(0,3)$, and $(3,\infty)$
-        - $f^{\prime\prime}(-4)=0$, $f^{\prime\prime}(-1)=0$, and $f^{\prime\prime}(0)=0$
-        - $f^{\prime\prime}(x) >0$ on $(-\infty, -4)$, $(-1,0)$, and $(3,\infty)$
-        - $f^{\prime\prime}(x) <0$ on $(-4,-1)$ and $(0,3)$
-    2. Sketch the graph of the following functions by following the algorithm we discussed in class.
-        - $f(x) = \displaystyle \frac{x^2}{x-2}$
-        - $g(x) = \displaystyle xe^x$
-
-- **Daily Homework 28:** Complete corresponding problems on WeBWorK.  (Due Monday, October 27 by 8:00pm)
 
 - **Daily Homework 30:** Complete Problems 179-183 in [Differential Calculus](http://teaching.danaernst.com/files/fall2014/mat136/DifferentialCalculus-JIBLM.pdf) (PDF). (Due Wednesday, November 5)
 - **Daily Homework 31:** Complete Problems 185-197 in [Differential Calculus](http://teaching.danaernst.com/files/fall2014/mat136/DifferentialCalculus-JIBLM.pdf) (PDF). (Due Thursday, November 6)
