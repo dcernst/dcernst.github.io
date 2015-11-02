@@ -104,13 +104,13 @@ We’ll use this page to keep track of what has happened each day in class. It w
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, October 26:</b> Today felt a bit rushed to me.  Perhaps we tried to do too many different things.  Class began with me providing a summary of all the recent connections between increasing/decreasing, local max/min, critical points, First Derivative Test, etc.  I also introduced the Extreme Value Theorem and we discussed a method for finding absolute max/min of a continuous function on a closed interval.  Next, we split up into 5 small groups to discuss the homework problems that were due today.  All we ended up having time for was EB and SM to share their proposed solutions to Problems 114/115 and 116, respectively.  Class ended with me explaining the pros and cons of the First Derivative Test versus the Second Derivative Test.</li>
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, October 28:</b> Again, we started with a short review and then launched into students discussing homework problems in small groups while Hannah and I walked around to listen in and help out.  MM3, sC, BL, and CW presented Problems 1, 2/3, 4(a), and 4(b), respectively, from Daily Homework 26.</li>
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Thursday, October 29:</b> I spent most of class working through a couple applied optimization examples using applets from [Calculus Applets with GeoGebra](http://dcernst.github.io/CalculusApplets/) (made by Hannah!). With the time we had left, the students started working on some exercises from an [Applied Optimization]({{ site.baseurl }}/teaching/mat136f15/AppliedOptimization.pdf) handout.</li>
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, October 30:</b> Coming soon.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, October 30:</b> The students spent the entire class session working on the problems on the [Applied Optimization]({{ site.baseurl }}/teaching/mat136f15/AppliedOptimization.pdf) handout.</li>
 </ul>
 
 ## Week 10 ##
 
 <ul class="fa-ul">
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, November 2:</b> Coming soon.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, November 2:</b> The whole class meeting was devoted to me presenting examples from the [Function Analysis]({{ site.baseurl }}/teaching/mat136f15/FunctionAnalysis.pdf) handout.</li>
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, November 4:</b> Coming soon.</li>
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Thursday, November 5:</b> Coming soon.</li>
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, November 6:</b> Coming soon.</li>
