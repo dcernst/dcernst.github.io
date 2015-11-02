@@ -106,3 +106,12 @@ We’ll use this page to keep track of what has happened each day in class. It w
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Thursday, October 29:</b> I spent most of class working through a couple applied optimization examples using applets from [Calculus Applets with GeoGebra](http://dcernst.github.io/CalculusApplets/) (made by Hannah!). With the time we had left, the students started working on some exercises from an [Applied Optimization]({{ site.baseurl }}/teaching/mat136f15/AppliedOptimization.pdf) handout.</li>
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, October 30:</b> Coming soon.</li>
 </ul>
+
+## Week 10 ##
+
+<ul class="fa-ul">
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, November 2:</b> Coming soon.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, November 4:</b> Coming soon.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Thursday, November 5:</b> Coming soon.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, November 6:</b> Coming soon.</li>
+</ul>
