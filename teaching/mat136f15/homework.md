@@ -73,7 +73,7 @@ You'll prove that the first formula is correct in Problem 150.  For now, you can
 - **Daily Homework 27:** Complete corresponding problems on [WeBWorK](https://webwork.math.nau.edu/webwork2/DErnst_136).  (Due Monday, October 30 by 10:20am)
 - **Daily Homework 28:** Complete Examples 2-5 on [Applied Optimization]({{ site.baseurl }}/teaching/mat136f15/AppliedOptimization.pdf) handout. (Due Friday at end of class)
 - **Daily Homework 29:** Complete the following exercises.  (Due Wednesday, November 4)
-  1. Sketch a graph of the function with the following properties:
+    1. Sketch a graph of the function with the following properties:
       - $f(-4)=2$, $f(-2)=5$, $f(-1)=2$, and $f(0)=0$
       - vertical asymptote at $x=3$ such that $\displaystyle \lim_{x \to 3^{-}}f(x)=-\infty$ and $\displaystyle \lim_{x \to 3^{+}}f(x)=\infty$
       - horizontal asymptote at $y=0$ such that $\displaystyle \lim_{x \to \infty}f(x)=0$ and $\displaystyle \lim_{x \to -\infty}f(x)=0$
@@ -83,7 +83,7 @@ You'll prove that the first formula is correct in Problem 150.  For now, you can
       - $f^{\prime\prime}(-4)=0$, $f^{\prime\prime}(-1)=0$, and $f^{\prime\prime}(0)=0$
       - $f^{\prime\prime}(x) >0$ on $(-\infty, -4)$, $(-1,0)$, and $(3,\infty)$
       - $f^{\prime\prime}(x) <0$ on $(-4,-1)$ and $(0,3)$
-  2. Sketch the graph of the following functions by following the algorithm we discussed in class.
+    2. Sketch the graph of the following functions by following the algorithm we discussed in class.
       - $f(x) = \displaystyle \frac{x^2}{x-2}$
       - $g(x) = \displaystyle xe^x$
 <!--
