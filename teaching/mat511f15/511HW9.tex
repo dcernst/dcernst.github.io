@@ -1,0 +1,137 @@
+\documentclass[11pt]{scrartcl}
+\usepackage[scale=1.5]{ccicons}
+\usepackage[notextcomp]{kpfonts} 
+\usepackage[margin=1in]{geometry}
+\usepackage{amsthm,amssymb}
+\usepackage{graphicx}
+\usepackage{enumitem}
+\usepackage{bm}
+\usepackage{tabu}
+\usepackage{tikz}
+
+\usepackage{color}
+\definecolor{darkblue}{rgb}{0, 0, .6}
+\definecolor{grey}{rgb}{.7, .7, .7}
+\usepackage[breaklinks]{hyperref}
+\hypersetup{
+	colorlinks=true,
+	linkcolor=darkblue,
+	anchorcolor=darkblue,
+	citecolor=darkblue,
+	pagecolor=darkblue,
+	urlcolor=darkblue,
+	pdftitle={},
+	pdfauthor={}
+}
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\lhead{MAT 511 - Fall 2015}
+\chead{}
+\rhead{Due Friday, November 13}
+\renewcommand{\headrulewidth}{.4pt}
+
+\theoremstyle{definition}
+\newtheorem{theorem}{Theorem}
+\newtheorem{acknowledgement}[theorem]{Acknowledgement}
+\newtheorem{algorithm}[theorem]{Algorithm}
+\newtheorem{axiom}[theorem]{Axiom}
+\newtheorem{case}[theorem]{Case}
+\newtheorem{claim}[theorem]{Claim}
+\newtheorem*{claim*}{Claim}
+\newtheorem{conclusion}[theorem]{Conclusion}
+\newtheorem{condition}[theorem]{Condition}
+\newtheorem{conjecture}[theorem]{Conjecture}
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{criterion}[theorem]{Criterion}
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{example}[theorem]{Example}
+\newtheorem{exercise}[theorem]{Exercise}
+\newtheorem{journal}[theorem]{Journal}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{notation}[theorem]{Notation}
+\newtheorem{problem}[theorem]{Problem}
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{remark}[theorem]{Remark}
+\newtheorem{solution}[theorem]{Solution}
+\newtheorem{summary}[theorem]{Summary}
+\newtheorem{skeleton}[theorem]{Skeleton Proof}
+\newtheorem{activity}[theorem]{Activity}
+\newtheorem{intuitivedef}[theorem]{Intuitive Definition}
+
+\DeclareMathOperator{\Aut}{Aut}
+\DeclareMathOperator{\Stab}{Stab}
+
+\newcommand{\blankline}{\pagebreak[2]\vspace{.5\baselineskip}}
+
+\setlength{\parindent}{0pt}
+
+%Useful for cut and paste
+%\begin{enumerate}[label=\rm{(\alph*)}]
+
+\begin{document}
+
+\title{Homework 9}
+\subtitle{Abstract Algebra I}
+\date{}
+
+\maketitle
+\thispagestyle{fancy}
+
+Complete the following problems. Note that you should only use results that we've discussed so far this semester.
+
+\begin{problem}
+Find all conjugacy classes and their sizes for the following groups.
+\begin{enumerate}[label=\rm{(\alph*)}]
+\item $D_8$
+\item $Q_8$
+\item $A_4$
+\end{enumerate}
+\end{problem}
+
+\begin{problem}
+If $[G:Z(G)]=n$, prove that every conjugacy class has at most $n$ elements.
+\end{problem}
+
+\begin{problem}
+Assume $G$ is a non-abelian group of order 15.
+\begin{enumerate}[label=\rm{(\alph*)}]
+\item Prove that the center of $G$ is trivial.
+\item Use the fact that $\langle g\rangle \leq C_G(g)$ for all $g\in G$ to show that there is at most one possible class equation for $G$. 
+\end{enumerate}
+\emph{Hint:} Use my favorite problem.
+\end{problem}
+
+\begin{problem}
+Prove that the center of $S_n$ is trivial for all $n\geq 3$.
+\end{problem}
+
+\begin{problem}
+Find all finite groups that have exactly two conjugacy clases.
+\end{problem}
+
+\begin{problem}
+Prove that if $n$ is odd, then the set of all $n$-cycles consists of two conjugacy classes of equal size in $A_n$.
+\end{problem}
+
+\begin{problem}
+A proper subgroup $M$ of a group $G$ is called \emph{maximal} if whenever $M\leq H\leq G$, either $H=M$ or $H=G$. 
+\begin{enumerate}[label=\rm{(\alph*)}]
+\item Prove that if $M$ is a maximal subgroup of $G$, then either $N_G(M)=M$ or $N_G(M)=G$.
+\item Prove that if $M$ is a maximal subgroup of $G$ that is not normal in $G$, then the number of nonidentity elements of $G$ that are contained in conjugates of $M$ is at most $(|M|-1)[G:M]$.
+\end{enumerate}
+\end{problem}
+
+\begin{problem}
+Let $H$ be a proper subgroup of a finite group $G$. Prove that $G\neq \cup_{g\in G}gHg^{-1}$. \emph{Hint:} Use the previous problem.
+\end{problem}
+
+\begin{problem}
+Let $g_1,g_2,\ldots, g_r$ be representatives of the conjugacy classes of the finite group $G$ and assume these elements pairwise commute. Prove that $G$ is abelian.
+\end{problem}
+
+\begin{problem}
+Let $p$ be a prime and let $G$ be a group of order $p^{\alpha}$. Prove that $G$ has a subgroup of order $p^{\beta}$, for every $\beta$ with $0\leq \beta\leq \alpha$.
+\end{problem}
+
+\end{document}
