@@ -202,7 +202,7 @@ I will often ask for volunteers to present solutions, but when no volunteers com
 In order to receive a **passing grade** on the presentation portion of your grade, you must:
 
 1. present at least once prior to each of the four midterm exams and at least once after the fourth midterm exam, and
-2. present at least 6 times during semester.
+2. present at least 5 times during semester.
 
 Your overall performance during presentations, as well as your level of interaction/participation during class, will be worth 10% of your overall grade.
 
