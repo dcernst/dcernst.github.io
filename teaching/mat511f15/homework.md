@@ -37,4 +37,5 @@ Here are the assignments.  I will post them as we go. *Note:* You can obtain the
   <li><i class="fa fa-file-pdf-o"></i> <a href="{{ site.baseurl }}/teaching/mat511f15/511HW6.pdf">Homework 6</a> (Due Friday, 10/9)</li>
   <li><i class="fa fa-file-pdf-o"></i> <a href="{{ site.baseurl }}/teaching/mat511f15/511HW7.pdf">Homework 7</a> (Due Wednesday, 10/28)</li>
   <li><i class="fa fa-file-pdf-o"></i> <a href="{{ site.baseurl }}/teaching/mat511f15/511HW8.pdf">Homework 8</a> (Due Wednesday, 11/4)</li>
+  <li><i class="fa fa-file-pdf-o"></i> <a href="{{ site.baseurl }}/teaching/mat511f15/511HW9.pdf">Homework </a> (Due Friday, 11/13)</li>
 </ul>
