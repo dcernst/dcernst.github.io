@@ -112,6 +112,15 @@ We’ll use this page to keep track of what has happened each day in class. It w
 <ul class="fa-ul">
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, November 2:</b> The whole class meeting was devoted to me presenting examples from the [Function Analysis]({{ site.baseurl }}/teaching/mat136f15/FunctionAnalysis.pdf) handout.</li>
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, November 4:</b> We split the class up into several small groups and had them discuss the homework due today.  When all was said and done, we had SM, MM1, and TM present Problems 1, 2, and 3, respectively from Daily Homework 29.</li>
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Thursday, November 5:</b> Coming soon.</li>
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, November 6:</b> Coming soon.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Thursday, November 5:</b> After a quick introduction to L'Hospital's Rule together with a prove of the 0/0 case, I cranked through a bunch of examples.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, November 6:</b> We kicked off with a few quick presentations by MM2, MG, BB.  They presented Exercises 4.1.6(1), 4.1.6(6), and 4.1.6(11), respectively.  The rest of the class was spent reviewing for Exam 3.  This consisted mostly of me working through a few optimization problems.</li>
+</ul>
+
+## Week 11 ##
+
+<ul class="fa-ul">
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, November 9:</b> Coming soon.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, November 11:</b> No class due to Veteran's Day!</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Thursday, November 12:</b> Coming soon.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, November 13:</b> Coming soon.</li>
 </ul>
