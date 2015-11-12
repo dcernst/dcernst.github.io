@@ -87,6 +87,7 @@ You'll prove that the first formula is correct in Problem 150.  For now, you can
        - $f(x) = \displaystyle \frac{x^2}{x-2}$
        - $g(x) = \displaystyle xe^x$
 - **Daily Homework 30:** Complete all 11 parts of Exercise 4.1.6 in Section 4.1 of *Calculus I Lecture Notes*. (Due Friday, November 6)
+- **Daily Homework 31:** Complete Problems 179-183 in [Differential Calculus]({{ site.baseurl }}/teaching/mat136f15/DifferentialCalculus-JIBLM.pdf). (Due Friday, November 13)
 
 <!--
 - **Daily Homework 12:** Complete Exercises 2.5.5, 2.5.6, and 2.5.8 in *Calculus I Lecture Notes*. (Due Wednesday, September 17)
@@ -94,7 +95,6 @@ You'll prove that the first formula is correct in Problem 150.  For now, you can
 
 - **Daily Homework 22:** Complete all 11 parts of Exercise 4.1.6 in Section 4.1 of *Calculus I Lecture Notes*. (Due Wednesday, October 15)
 
-- **Daily Homework 30:** Complete Problems 179-183 in [Differential Calculus](http://teaching.danaernst.com/files/fall2014/mat136/DifferentialCalculus-JIBLM.pdf) (PDF). (Due Wednesday, November 5)
 - **Daily Homework 31:** Complete Problems 185-197 in [Differential Calculus](http://teaching.danaernst.com/files/fall2014/mat136/DifferentialCalculus-JIBLM.pdf) (PDF). (Due Thursday, November 6)
 - **Daily Homework 32:** Complete Problems 198, 200-204, 206-208 in [Differential Calculus](http://teaching.danaernst.com/files/fall2014/mat136/DifferentialCalculus-JIBLM.pdf) (PDF). (Due Friday, November 7)
 - **Daily Homework 33:** Complete Problems 211-216 in [Differential Calculus](http://teaching.danaernst.com/files/fall2014/mat136/DifferentialCalculus-JIBLM.pdf) (PDF). (Due Monday, November 10)
