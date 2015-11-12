@@ -121,6 +121,6 @@ We’ll use this page to keep track of what has happened each day in class. It w
 <ul class="fa-ul">
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, November 9:</b> The students took Exam 3.</li>
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, November 11:</b> No class due to Veteran's Day!</li>
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Thursday, November 12:</b> Coming soon.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Thursday, November 12:</b> After handing back Exam 3, I presented solutions to Problems 5 and 8(b) from the exam.  The rest of the class session was spent doing some related rates exams from the [Related Rates Handout]({{ site.baseurl }}/teaching/mat136f15/RelatedRates.pdf)</li>
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, November 13:</b> Coming soon.</li>
 </ul>
