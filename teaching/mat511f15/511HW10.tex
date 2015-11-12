@@ -1,0 +1,120 @@
+\documentclass[11pt]{scrartcl}
+\usepackage[scale=1.5]{ccicons}
+\usepackage[notextcomp]{kpfonts} 
+\usepackage[margin=1in]{geometry}
+\usepackage{amsthm,amssymb}
+\usepackage{graphicx}
+\usepackage{enumitem}
+\usepackage{bm}
+\usepackage{tabu}
+\usepackage{tikz}
+
+\usepackage{color}
+\definecolor{darkblue}{rgb}{0, 0, .6}
+\definecolor{grey}{rgb}{.7, .7, .7}
+\usepackage[breaklinks]{hyperref}
+\hypersetup{
+	colorlinks=true,
+	linkcolor=darkblue,
+	anchorcolor=darkblue,
+	citecolor=darkblue,
+	pagecolor=darkblue,
+	urlcolor=darkblue,
+	pdftitle={},
+	pdfauthor={}
+}
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\lhead{MAT 511 - Fall 2015}
+\chead{}
+\rhead{Due Wednesday, November 18}
+\renewcommand{\headrulewidth}{.4pt}
+
+\theoremstyle{definition}
+\newtheorem{theorem}{Theorem}
+\newtheorem{acknowledgement}[theorem]{Acknowledgement}
+\newtheorem{algorithm}[theorem]{Algorithm}
+\newtheorem{axiom}[theorem]{Axiom}
+\newtheorem{case}[theorem]{Case}
+\newtheorem{claim}[theorem]{Claim}
+\newtheorem*{claim*}{Claim}
+\newtheorem{conclusion}[theorem]{Conclusion}
+\newtheorem{condition}[theorem]{Condition}
+\newtheorem{conjecture}[theorem]{Conjecture}
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{criterion}[theorem]{Criterion}
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{example}[theorem]{Example}
+\newtheorem{exercise}[theorem]{Exercise}
+\newtheorem{journal}[theorem]{Journal}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{notation}[theorem]{Notation}
+\newtheorem{problem}[theorem]{Problem}
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{remark}[theorem]{Remark}
+\newtheorem{solution}[theorem]{Solution}
+\newtheorem{summary}[theorem]{Summary}
+\newtheorem{skeleton}[theorem]{Skeleton Proof}
+\newtheorem{activity}[theorem]{Activity}
+\newtheorem{intuitivedef}[theorem]{Intuitive Definition}
+
+\DeclareMathOperator{\Aut}{Aut}
+\DeclareMathOperator{\Inn}{Inn}
+\DeclareMathOperator{\Stab}{Stab}
+
+\newcommand{\blankline}{\pagebreak[2]\vspace{.5\baselineskip}}
+
+\setlength{\parindent}{0pt}
+
+%Useful for cut and paste
+%\begin{enumerate}[label=\rm{(\alph*)}]
+
+\begin{document}
+
+\title{Homework 10}
+\subtitle{Abstract Algebra I}
+\date{}
+
+\maketitle
+\thispagestyle{fancy}
+
+Complete the following problems. Note that you should only use results that we've discussed so far this semester.
+
+%\begin{problem}
+%Let $G$ be a group and consider the group $\Aut(G)$.
+%\begin{enumerate}[label=\rm{(\alph*)}]
+%\item If $\sigma\in \Aut(G)$ and $\phi_g$ is conjugation by $g\in G$, then prove that $\sigma\phi_g\sigma^{-1}=\phi_{\sigma(g)}$.
+%\item Prove that $\Inn(G)\unlhd\Aut(G)$.
+%\end{enumerate}
+%\end{problem}
+
+\begin{problem}
+Prove that if $G$ is an abelian group of order $pq$, where $p$ and $q$ are distinct primes, then $G$ is cyclic. \emph{Hint:} Use Problem 1 from Homework 8.
+\end{problem}
+
+\begin{problem}
+Prove that $|\Aut(D_8)|\leq 8$ by first proving that under any automorphism, $r$ has at most two possible images and $s$ has at most four possible images. 
+\end{problem}
+
+\begin{problem}
+Prove that characteristic subgroups are normal.
+\end{problem}
+
+\begin{problem}
+Provide an example of a normal subgroup that is not characteristic.
+\end{problem}
+
+\begin{problem}
+Prove that if $H$ is the unique subgroup of a given order in $G$, then $H$ is characteristic. \emph{Hint:} This problem is as easy as quoting a previous homework problem.
+\end{problem}
+
+\begin{problem}
+Prove \textbf{one} of the following.
+\begin{enumerate}[label=\rm{(\alph*)}]
+\item If $H$ is characteristic in $K$ and $K$ is normal in $G$, then $H$ is normal in $G$.
+\item If $H$ is characteristic in $K$ and $K$ is characteristic in $G$, then $H$ is characteristic in $G$.
+\end{enumerate}
+\end{problem}
+
+\end{document}
