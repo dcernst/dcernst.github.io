@@ -122,5 +122,14 @@ We’ll use this page to keep track of what has happened each day in class. It w
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, November 9:</b> The students took Exam 3.</li>
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, November 11:</b> No class due to Veteran's Day!</li>
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Thursday, November 12:</b> After handing back Exam 3, I presented solutions to Problems 5 and 8(b) from the exam.  The rest of the class session was spent doing some related rates exams from the [Related Rates Handout]({{ site.baseurl }}/teaching/mat136f15/RelatedRates.pdf)</li>
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, November 13:</b> Coming soon.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, November 13:</b> We had MM2, TB, MM1, and BB present Problems 180, 181, 182, and 183, respectively.  With the time we had left, I introduced Rolle's Theorem and the Mean Value Theorem.</li>
+</ul>
+
+## Week 12 ##
+
+<ul class="fa-ul">
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, November 16:</b> Coming soon.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, November 18:</b> Coming soon.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Thursday, November 19:</b> Coming soon.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, November 20:</b> WComing soon.</li>
 </ul>
