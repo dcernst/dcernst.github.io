@@ -89,6 +89,7 @@ You'll prove that the first formula is correct in Problem 150.  For now, you can
 - **Daily Homework 30:** Complete all 11 parts of Exercise 4.1.6 in Section 4.1 of *Calculus I Lecture Notes*. (Due Friday, November 6)
 - **Daily Homework 31:** Complete Problems 179-183 in [Differential Calculus]({{ site.baseurl }}/teaching/mat136f15/DifferentialCalculus-JIBLM.pdf). (Due Friday, November 13)
 - **Daily Homework 32:** Complete Problems 185-197 in [Differential Calculus]({{ site.baseurl }}/teaching/mat136f15/DifferentialCalculus-JIBLM.pdf). (Due Monday, November 16)
+- **Daily Homework 33:** Complete Problems 198, 200-204, 206-209 in [Differential Calculus]({{ site.baseurl }}/teaching/mat136f15/DifferentialCalculus-JIBLM.pdf). (Due Wednesday, November 18)
 
 <!--
 - **Daily Homework 12:** Complete Exercises 2.5.5, 2.5.6, and 2.5.8 in *Calculus I Lecture Notes*. (Due Wednesday, September 17)
