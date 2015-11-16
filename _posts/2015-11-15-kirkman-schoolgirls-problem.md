@@ -61,6 +61,6 @@ The content of my slides was inspired or came directly from the following source
   - There is a great write up of Kirkman's original problem, its connection to CDT, and a brief summary of Keevash's new result in [Quanta Magazine](https://www.quantamagazine.org/20150609-a-design-dilemma-solved-minus-designs/).
   - The Wikipedia article on [The Kirkman Schoolgirl Problem](https://en.wikipedia.org/wiki/Kirkman's_schoolgirl_problem) has a lot of cool information.
   - Also, check out the Wikipedia articles on [Steiner systems](https://en.wikipedia.org/wiki/Steiner_system), [Combinatorial Design Theory](https://en.wikipedia.org/wiki/Combinatorial_design), and the [Fano plane](https://en.wikipedia.org/wiki/Fano_plane).
-  - You can find Peter Keevash's article about the existence of Steiner systems over on the [arXiv(http://arxiv.org/pdf/1401.3665v1.pdf).
+  - You can find Peter Keevash's article about the existence of Steiner systems over on the [arXiv](http://arxiv.org/pdf/1401.3665v1.pdf).
 
 Most weeks in FAMUS, the host interviews a faculty member.  However, this week, [Dr. Derek Sonderegger](http://oak.ucc.nau.edu/dls354/Home/) gave a 30 minute talk on the merits of pursuing a graduate degree in mathematics, statistics, or mathematics education. In addition, Derek provided some details about our graduate program. We also had quite a few of our grad students in attendance that were able to chime in about their current experience.
