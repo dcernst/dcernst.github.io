@@ -50,6 +50,7 @@ Below you will find notes and handouts that we have used in class, as well as so
 - [Supplemental Problems for Exam 3 Content]({{ site.baseurl }}/teaching/mat136f15/136Exam3-Supplemental.pdf) *Note:* You can skip Problems 23-30. You should also go back and look at Problems 35 and 42 on the [Supplemental Problems for Exam 2 Content]({{ site.baseurl }}/teaching/mat136f15/136Exam2-Supplemental.pdf).
 - [Solutions to Supplemental Problems for Exam 3 Content]({{ site.baseurl }}/teaching/mat136f15/136Exam3-SupplementalSolns.pdf)
 - [Related Rates Handout]({{ site.baseurl }}/teaching/mat136f15/RelatedRates.pdf)
+- [Integration by Substitution Handout]({{ site.baseurl }}/teaching/mat136f15/Substitution.pdf)
 
 ## Additional Videos, Applets, & Problems ##
 Below is a partial list of applet and video repositories related to calculus. There are lots more out there. If you know of a good resource that's not listed below, please let me know.
