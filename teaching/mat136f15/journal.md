@@ -121,7 +121,7 @@ We’ll use this page to keep track of what has happened each day in class. It w
 <ul class="fa-ul">
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, November 9:</b> The students took Exam 3.</li>
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, November 11:</b> No class due to Veteran's Day!</li>
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Thursday, November 12:</b> After handing back Exam 3, I presented solutions to Problems 5 and 8(b) from the exam.  The rest of the class session was spent doing some related rates exams from the [Related Rates Handout]({{ site.baseurl }}/teaching/mat136f15/RelatedRates.pdf)</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Thursday, November 12:</b> After handing back Exam 3, I presented solutions to Problems 5 and 8(b) from the exam.  The rest of the class session was spent doing some related rates exams from the [Related Rates Handout]({{ site.baseurl }}/teaching/mat136f15/RelatedRates.pdf).</li>
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, November 13:</b> We had MM2, TB, MM1, and BB present Problems 180, 181, 182, and 183, respectively.  With the time we had left, I introduced Rolle's Theorem and the Mean Value Theorem.</li>
 </ul>
 
@@ -130,6 +130,6 @@ We’ll use this page to keep track of what has happened each day in class. It w
 <ul class="fa-ul">
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, November 16:</b> Busy day!  We split the class up into 8 small groups, where each group worked on a separate problem or two from the homework.  Before launching to presentations, I got philosophical while standing on the desk.  We got through most, but not all of the problems.  When all was said and done, we had HD, SC, PD, KP, LL, and MG present Problems 185/186, 189/190, 191, 192, 193/194, and 196, respectively.</li>
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, November 18:</b> I was surprised how much we got done today.  Very productive.  To help synthesize some ideas the students were already grappling with, I did a mini-lecture on antiderivatives and indefinite integrals.  One thing we did was write down a bunch of integral formulas that we now know are true.  Next, we split the class up into 8 small groups, where each group worked on one of the problems from the homework.  TB, NH, BB, PD, and CW presented Problems 200, 201, 202, 203, and 204, respectively. </li>
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Thursday, November 19:</b> Coming soon.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Thursday, November 19:</b> After Joe's reminder, I spent some time discussing Problem 188, which no one had previously figure out.  Cool problem!  Then I presented Problem 207, which we didn't get to last time.  The whole rest of the class session was spent cranking out examples of indefinite integrals where the method of substitution was handy.  All the examples came from the [Substituion Handout]({{ site.baseurl }}/teaching/mat136f15/Substitution.pdf).</li>
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, November 20:</b> Coming soon.</li>
 </ul>
