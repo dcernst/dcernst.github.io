@@ -24,8 +24,8 @@ My interests also include the [scholarship of teaching and learning][10] (SoTL) 
 Below is a list of my published articles and theses.
 
   * N. Diefenderfer, D.C. Ernst, M. Hastings, L.N. Heath, H. Prawzinsky, B. Preston, J. Rushall, E. White, A. Whittemore. Prime Vertex Labelings of Several Families of Graphs. Accepted to *Involve*. [[arXiv:1503.08386](http://arxiv.org/abs/1503.08386)]
-  * B. Love, A. Hodge, C. Corritore, and D.C. Ernst. Inquiry-Based Learning and the Flipped Classroom Model. Accepted to *PRIMUS*.
-  * B. Beaudrie, D.C. Ernst, E. Kennedy, and R. St. Laurent. Inverted Pedagogy in Second Semester Calculus. Accepted to *PRIMUS*.
+  * B. Love, A. Hodge, C. Corritore, and D.C. Ernst. Inquiry-Based Learning and the Flipped Classroom Model. *PRIMUS* 25(8), 745-762, 2015. [[DOI:10.1080/10511970.2015.1046005](http://www.tandfonline.com/doi/full/10.1080/10511970.2015.1046005)]
+  * B. Beaudrie, D.C. Ernst, E. Kennedy, and R. St. Laurent. Inverted Pedagogy in Second Semester Calculus. *PRIMUS* 25(9-10), 992-906, 2015. [[DOI:10.1080/10511970.2015.1031301](http://www.tandfonline.com/doi/full/10.1080/10511970.2015.1031301)]
   * D.C. Ernst and A. Hodge. Within $\epsilon$ of Independence: An Attempt to Produce Independent Proof-Writers via IBL. Accepted as book chapter to *Beyond Lecture: Techniques to Improve Student Proof-Writing Across the Curriculum*, MAA Notes.
   * D.C. Ernst, A. Hodge, M. Jones, and S. Yoshinobu. The Many Faces of IBL. Accepted as book chapter to *Handbook of Research on Pedagogical Practice in STEM Education*.
   * D.C. Ernst, M. Leingang, and R. Taylor. Facebook for Professional Educators: To Friend or Not to Friend? *MAA FOCUS* June/July 2015. [[ePrint](http://digital.ipcprintservices.com/publication/?i=260736&pre=1&p=7)]
@@ -52,6 +52,7 @@ Below is a list of papers that have been submitted, but not yet accepted for pub
 
 The following is a list of papers that are in progress.
 
+  * D.C. Ernst and D. Story. On the number of commutation classes of the longest element of the symmetric group.
   * D.C. Ernst and B. Fox. Conjugacy classes of cyclically fully commutative elements in Coxeter groups of type $A$.
   * D.C. Ernst and T. Laird. T-avoiding elements of Coxeter groups.
   * B.J. Benesh, D.C. Ernst, and N. Sieben. Impartial achievement games for generating finite groups.
