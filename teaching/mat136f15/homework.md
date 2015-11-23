@@ -91,6 +91,7 @@ You'll prove that the first formula is correct in Problem 150.  For now, you can
 - **Daily Homework 32:** Complete Problems 185-197 in [Differential Calculus]({{ site.baseurl }}/teaching/mat136f15/DifferentialCalculus-JIBLM.pdf). (Due Monday, November 16)
 - **Daily Homework 33:** Complete Problems 198, 200-204, 206-209 in [Differential Calculus]({{ site.baseurl }}/teaching/mat136f15/DifferentialCalculus-JIBLM.pdf). (Due Wednesday, November 18)
 - **Daily Homework 34:** Complete Problems 211-216 in [Differential Calculus]({{ site.baseurl }}/teaching/mat136f15/DifferentialCalculus-JIBLM.pdf). (Due Friday, November 20)
+- **Daily Homework 35:** Complete Problems 218-227 in [Differential Calculus]({{ site.baseurl }}/teaching/mat136f15/DifferentialCalculus-JIBLM.pdf). Your job on 224 is to come up with a definition. *Hint:* Check out Section 5.2 in *Calculus I Lecture Notes*. (Due Friday, November 20)
 
 <!--
 - **Daily Homework 12:** Complete Exercises 2.5.5, 2.5.6, and 2.5.8 in *Calculus I Lecture Notes*. (Due Wednesday, September 17)
@@ -122,3 +123,5 @@ The majority of the Weekly Homework assignments are to be completed via [WeBWorK
 - **Weekly Homework 5:** Complete the corresponding problems on [WeBWorK](https://webwork.math.nau.edu/webwork2/DErnst_136). (Due Tuesday, October 13 by 8PM)
 - **Weekly Homework 6:** Complete the corresponding problems on [WeBWorK](https://webwork.math.nau.edu/webwork2/DErnst_136). (Due Tuesday, October 27 by 8PM)
 - **Weekly Homework 7:** Complete the corresponding problems on [WeBWorK](https://webwork.math.nau.edu/webwork2/DErnst_136). (Due Tuesday, November 3 by 8PM)
+- **Weekly Homework 8:** Complete the corresponding problems on [WeBWorK](https://webwork.math.nau.edu/webwork2/DErnst_136). (Due Tuesday, November 17 by 8PM)
+- **Weekly Homework 9:** Complete the corresponding problems on [WeBWorK](https://webwork.math.nau.edu/webwork2/DErnst_136). (Due Tuesday, November 24 by 8PM)
