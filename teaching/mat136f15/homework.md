@@ -91,7 +91,12 @@ You'll prove that the first formula is correct in Problem 150.  For now, you can
 - **Daily Homework 32:** Complete Problems 185-197 in [Differential Calculus]({{ site.baseurl }}/teaching/mat136f15/DifferentialCalculus-JIBLM.pdf). (Due Monday, November 16)
 - **Daily Homework 33:** Complete Problems 198, 200-204, 206-209 in [Differential Calculus]({{ site.baseurl }}/teaching/mat136f15/DifferentialCalculus-JIBLM.pdf). (Due Wednesday, November 18)
 - **Daily Homework 34:** Complete Problems 211-216 in [Differential Calculus]({{ site.baseurl }}/teaching/mat136f15/DifferentialCalculus-JIBLM.pdf). (Due Friday, November 20)
-- **Daily Homework 35:** Complete Problems 218-227 in [Differential Calculus]({{ site.baseurl }}/teaching/mat136f15/DifferentialCalculus-JIBLM.pdf). Your job on 224 is to come up with a definition. *Hint:* Check out Section 5.2 in *Calculus I Lecture Notes*. (Due Friday, November 20)
+- **Daily Homework 35:** Complete Problems 218-227 in [Differential Calculus]({{ site.baseurl }}/teaching/mat136f15/DifferentialCalculus-JIBLM.pdf). Your job on 224 is to come up with a definition. *Hint:* Check out Section 5.2 in *Calculus I Lecture Notes*. (Due Wednesday, November 25)
+- **Daily Homework 36:** Complete the following. (Due Monday, November 30)
+   1. Consider the integral $\displaystyle \int_0^1 3x+1\ dx$.
+       - Compute the value of the integral using a limit of Riemann sums and right endpoints.
+       - Verify that your answer is correct by interpreting the integral in terms of areas of geometric shapes.
+   2. Compute the value of $\displaystyle \int_0^1 x^2-4x\ dx$ using a limit of Riemann sums and right endpoints. 
 
 <!--
 - **Daily Homework 12:** Complete Exercises 2.5.5, 2.5.6, and 2.5.8 in *Calculus I Lecture Notes*. (Due Wednesday, September 17)
