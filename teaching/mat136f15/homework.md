@@ -96,20 +96,9 @@ You'll prove that the first formula is correct in Problem 150.  For now, you can
    1. Consider the integral $\displaystyle \int_0^1 3x+1\ dx$.
        - Compute the value of the integral using a limit of Riemann sums and right endpoints.
        - Verify that your answer is correct by interpreting the integral in terms of areas of geometric shapes.
-   2. Compute the value of $\displaystyle \int_0^1 x^2-4x\ dx$ using a limit of Riemann sums and right endpoints. 
+   2. Compute the value of $\displaystyle \int_0^1 x^2-4x\ dx$ using a limit of Riemann sums and right endpoints.
 
 <!--
-- **Daily Homework 12:** Complete Exercises 2.5.5, 2.5.6, and 2.5.8 in *Calculus I Lecture Notes*. (Due Wednesday, September 17)
-- **Daily Homework 13:** Complete practice problems 4 and 5 from the Chapters 1-2 Review from *Calculus I Lecture Notes*. (Due Thursday, September 18)
-
-- **Daily Homework 22:** Complete all 11 parts of Exercise 4.1.6 in Section 4.1 of *Calculus I Lecture Notes*. (Due Wednesday, October 15)
-
-- **Daily Homework 34:** Complete Problems 218-224 in [Differential Calculus](http://teaching.danaernst.com/files/fall2014/mat136/DifferentialCalculus-JIBLM.pdf) (PDF). (Due Thursday, November 13)
-- **Daily Homework 35:** Complete Problems 225-227 in [Differential Calculus](http://teaching.danaernst.com/files/fall2014/mat136/DifferentialCalculus-JIBLM.pdf) (PDF). In addition, complete the following. (Due Thursday, November 13)
-    1. Consider the integral $\displaystyle \int_0^1 3x+1\ dx$.
-        - Compute the value of the integral using a limit of Riemann sums and right endpoints.
-        - Verify that your answer is correct by interpreting the integral in terms of areas of geometric shapes.
-    2. Compute the value of $\displaystyle \int_0^1 x^2-4x\ dx$ using a limit of Riemann sums and right endpoints.
 - **Daily Homework 36:** Complete Problems 228-232 in [Differential Calculus](http://teaching.danaernst.com/files/fall2014/mat136/DifferentialCalculus-JIBLM.pdf) (PDF). (Due Monday, November 17)
 - **Daily Homework 37:** Complete Problems 233-236 in [Differential Calculus](http://teaching.danaernst.com/files/fall2014/mat136/DifferentialCalculus-JIBLM.pdf) (PDF). (Due Wednesday, November 19)
 - **Daily Homework 38:** Complete Exercises 5.6.5(5) and 5.6.6 in Section 5.6 of *Calculus I Lecture Notes*. In addition, complete exercises 17-19, 35, plus any 4 more from Section 5.8 of *Calculus I Lecture Notes*. (Due Thursday, November 20)
