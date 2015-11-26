@@ -49,11 +49,13 @@ Below you will find notes and handouts that we have used in class, as well as so
 - [Function Analysis Handout]({{ site.baseurl }}/teaching/mat136f15/FunctionAnalysis.pdf)
 - [Supplemental Problems for Exam 3 Content]({{ site.baseurl }}/teaching/mat136f15/136Exam3-Supplemental.pdf) *Note:* You can skip Problems 23-30. You should also go back and look at Problems 35 and 42 on the [Supplemental Problems for Exam 2 Content]({{ site.baseurl }}/teaching/mat136f15/136Exam2-Supplemental.pdf).
 - [Solutions to Supplemental Problems for Exam 3 Content]({{ site.baseurl }}/teaching/mat136f15/136Exam3-SupplementalSolns.pdf)
+- [Solutions to Appendix: Chapter 4 Review]({{ site.baseurl }}/teaching/mat136f15/136Exam3-ReviewSolns.pdf)
 - [Related Rates Handout]({{ site.baseurl }}/teaching/mat136f15/RelatedRates.pdf)
 - [Integration by Substitution Handout]({{ site.baseurl }}/teaching/mat136f15/Substitution.pdf)
 - [Fundamental Theorem of Calculus Handout]({{ site.baseurl }}/teaching/mat136f15/FTC.pdf)
 - [Supplemental Problems for Exam 4 Content]({{ site.baseurl }}/teaching/mat136f15/136Exam4-Supplemental.pdf) *Note:* You can skip Problems 13-16, but you should know how to do these problems for the final exam.
 - [Solutions to Supplemental Problems for Exam 4 Content]({{ site.baseurl }}/teaching/mat136f15/136Exam4-SupplementalSolns.pdf)
+- [Solutions to Appendix: Chapter 5 Review]({{ site.baseurl }}/teaching/mat136f15/136Exam4-ReviewSolns.pdf) 
 
 ## Additional Videos, Applets, & Problems ##
 Below is a partial list of applet and video repositories related to calculus. There are lots more out there. If you know of a good resource that's not listed below, please let me know.
