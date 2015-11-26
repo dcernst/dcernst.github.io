@@ -99,9 +99,9 @@ You'll prove that the first formula is correct in Problem 150.  For now, you can
    2. Compute the value of $\displaystyle \int_0^1 x^2-4x\ dx$ using a limit of Riemann sums and right endpoints.
 
 <!--
-- **Daily Homework 36:** Complete Problems 228-232 in [Differential Calculus](http://teaching.danaernst.com/files/fall2014/mat136/DifferentialCalculus-JIBLM.pdf) (PDF). (Due Monday, November 17)
-- **Daily Homework 37:** Complete Problems 233-236 in [Differential Calculus](http://teaching.danaernst.com/files/fall2014/mat136/DifferentialCalculus-JIBLM.pdf) (PDF). (Due Wednesday, November 19)
-- **Daily Homework 38:** Complete Exercises 5.6.5(5) and 5.6.6 in Section 5.6 of *Calculus I Lecture Notes*. In addition, complete exercises 17-19, 35, plus any 4 more from Section 5.8 of *Calculus I Lecture Notes*. (Due Thursday, November 20)
+Rewrite the following to split up FTC1 vs FTC2
+- **Daily Homework 37:** 230-233, 235-236...Complete Exercises 5.6.5(5) and 5.6.6 in Section 5.6 of *Calculus I Lecture Notes*. In addition, complete exercises 17-19, 35 from Section 5.8 of *Calculus I Lecture Notes*. (Due Wednesday, December 2)
+
 - **Daily Homework 39:** Complete Exercises 5.7.5 (replace $\sinh(x)$ with $\sin(x)$ on part 4), 5.7.7, 5.7.10, 5.7.11 in Section 5.7 of *Calculus I Lecture Notes*. (Due Friday, November 21)
 - **Daily Homework 40:** Complete corresponding problems on WeBWorK. Be sure to also complete the problems on paper as we will be presenting the problems on Wednesday. (Due by 9:10am on Thursday, December 4)
 -->
@@ -119,4 +119,4 @@ The majority of the Weekly Homework assignments are to be completed via [WeBWorK
 - **Weekly Homework 7:** Complete the corresponding problems on [WeBWorK](https://webwork.math.nau.edu/webwork2/DErnst_136). (Due Tuesday, November 3 by 8PM)
 - **Weekly Homework 8:** Complete the corresponding problems on [WeBWorK](https://webwork.math.nau.edu/webwork2/DErnst_136). (Due Tuesday, November 17 by 8PM)
 - **Weekly Homework 9:** Complete the corresponding problems on [WeBWorK](https://webwork.math.nau.edu/webwork2/DErnst_136). (Due Tuesday, November 24 by 8PM)
-- **Weekly Homework 10:** Complete the corresponding problems on [WeBWorK](https://webwork.math.nau.edu/webwork2/DErnst_136). (Due Tuesday, December 1 by 8PM)
+- **Weekly Homework 10:** Complete the corresponding problems on [WeBWorK](https://webwork.math.nau.edu/webwork2/DErnst_136). (Due Wednesday, December 2 by 8PM)
