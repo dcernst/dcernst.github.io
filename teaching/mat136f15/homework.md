@@ -119,3 +119,4 @@ The majority of the Weekly Homework assignments are to be completed via [WeBWorK
 - **Weekly Homework 7:** Complete the corresponding problems on [WeBWorK](https://webwork.math.nau.edu/webwork2/DErnst_136). (Due Tuesday, November 3 by 8PM)
 - **Weekly Homework 8:** Complete the corresponding problems on [WeBWorK](https://webwork.math.nau.edu/webwork2/DErnst_136). (Due Tuesday, November 17 by 8PM)
 - **Weekly Homework 9:** Complete the corresponding problems on [WeBWorK](https://webwork.math.nau.edu/webwork2/DErnst_136). (Due Tuesday, November 24 by 8PM)
+- **Weekly Homework 10:** Complete the corresponding problems on [WeBWorK](https://webwork.math.nau.edu/webwork2/DErnst_136). (Due Tuesday, December 1 by 8PM)

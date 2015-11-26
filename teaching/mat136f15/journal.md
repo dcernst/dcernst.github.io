@@ -133,3 +133,30 @@ We’ll use this page to keep track of what has happened each day in class. It w
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Thursday, November 19:</b> After Joe's reminder, I spent some time discussing Problem 188, which no one had previously figure out.  Cool problem!  Then I presented Problem 207, which we didn't get to last time.  The whole rest of the class session was spent cranking out examples of indefinite integrals where the method of substitution was handy.  All the examples came from the [Substituion Handout]({{ site.baseurl }}/teaching/mat136f15/Substitution.pdf).</li>
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, November 20:</b> Coming soon.</li>
 </ul>
+
+## Week 13 ##
+
+<ul class="fa-ul">
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, November 23:</b> I was really sick, but managed to make it to class.  With an extremely raspy voice, I lectured over definite integrals as a limit of Riemann sums.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, November 25:</b> I was a bit disappointed in today's attendance.  Yes, I know that it was the day before Thanksgiving, but only a few of you that missed class informed me that you would be missing.  Thanks to the people that showed up.  We spent the first few minutes of class chatting about what everyone was doing for Thanksgiving.  Next, I summarized where we currently are in the course and where we are headed.  After that, I cranked out another example of computing a definite integral using a limit of Riemann sums.  The last few minutes of class were devoted to answering some questions that students had on the homework from a few days ago.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Thursday, November 26:</b> Thanksgiving!  No class.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, November 20:</b> Thanksgiving recovered day.  No class.</li>
+</ul>
+
+## Week 14 ##
+
+<ul class="fa-ul">
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, November 30:</b> Coming soon.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, December 2:</b> Coming soon.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Thursday, December 3:</b> Coming soon.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, December 4:</b> Coming soon.</li>
+</ul>
+
+## Week 15 ##
+
+<ul class="fa-ul">
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, December 7:</b> Coming soon.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, December 9:</b> Coming soon.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Thursday, December 10:</b> Coming soon.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, December 11:</b> Coming soon.</li>
+</ul>
