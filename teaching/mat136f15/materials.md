@@ -52,6 +52,8 @@ Below you will find notes and handouts that we have used in class, as well as so
 - [Related Rates Handout]({{ site.baseurl }}/teaching/mat136f15/RelatedRates.pdf)
 - [Integration by Substitution Handout]({{ site.baseurl }}/teaching/mat136f15/Substitution.pdf)
 - [Fundamental Theorem of Calculus Handout]({{ site.baseurl }}/teaching/mat136f15/FTC.pdf)
+- [Supplemental Problems for Exam 4 Content]({{ site.baseurl }}/teaching/mat136f15/136Exam4-Supplemental.pdf) *Note:* You can skip Problems 13-16, but you should know how to do these problems for the final exam.
+- [Solutions to Supplemental Problems for Exam 4 Content]({{ site.baseurl }}/teaching/mat136f15/136Exam4-SupplementalSolns.pdf)
 
 ## Additional Videos, Applets, & Problems ##
 Below is a partial list of applet and video repositories related to calculus. There are lots more out there. If you know of a good resource that's not listed below, please let me know.
