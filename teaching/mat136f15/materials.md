@@ -51,6 +51,7 @@ Below you will find notes and handouts that we have used in class, as well as so
 - [Solutions to Supplemental Problems for Exam 3 Content]({{ site.baseurl }}/teaching/mat136f15/136Exam3-SupplementalSolns.pdf)
 - [Related Rates Handout]({{ site.baseurl }}/teaching/mat136f15/RelatedRates.pdf)
 - [Integration by Substitution Handout]({{ site.baseurl }}/teaching/mat136f15/Substitution.pdf)
+- [Fundamental Theorem of Calculus Handout]({{ site.baseurl }}/teaching/mat136f15/FTC.pdf)
 
 ## Additional Videos, Applets, & Problems ##
 Below is a partial list of applet and video repositories related to calculus. There are lots more out there. If you know of a good resource that's not listed below, please let me know.
