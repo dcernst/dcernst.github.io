@@ -28,6 +28,11 @@ Below are links to each exam.
 - [Exam 1 (take-home)]({{site.baseurl}}/teaching/mat511f15/511Exam1-Home.pdf) (PDF). If you are interested in using LaTeX to type up your solutions, then you can obtain the .tex file for the exam [here]({{site.baseurl}}/teaching/mat511f15/511Exam1-Home.tex). (Due Monday, October 19)
 - [Exam 2 (take-home)]({{site.baseurl}}/teaching/mat511f15/511Exam2-Home.pdf) (PDF). If you are interested in using LaTeX to type up your solutions, then you can obtain the .tex file for the exam [here]({{site.baseurl}}/teaching/mat511f15/511Exam1-Home.tex). (Due Friday, December 4 by 5pm)
 
+## Ring Theory Notes ##
+I'll post notes about rings here as they become available.
+
+- [Introduction to rings]({{site.baseurl}}/teaching/mat511f15/Rings1.pdf) (PDF)
+
 ## Free Abstract Algebra Textbooks ##
 Here is a list of free abstract algebra texts that you may use as an additional resource.  If you find one of these more helpful than another, please let me know.  Also, if you know of other resources, please let me know.
 
