@@ -31,7 +31,8 @@ Below are links to each exam.
 ## Ring Theory Notes ##
 I'll post notes about rings here as they become available.
 
-- [Introduction to rings]({{site.baseurl}}/teaching/mat511f15/Rings1.pdf) (PDF)
+- [Introduction to Rings: Definitions and Examples]({{site.baseurl}}/teaching/mat511f15/511Rings1.pdf) (PDF)
+- [Ideals and Quotient Rings]({{site.baseurl}}/teaching/mat511f15/511Rings2.pdf) (Coming soon)
 
 ## Free Abstract Algebra Textbooks ##
 Here is a list of free abstract algebra texts that you may use as an additional resource.  If you find one of these more helpful than another, please let me know.  Also, if you know of other resources, please let me know.
