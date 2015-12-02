@@ -146,10 +146,10 @@ We’ll use this page to keep track of what has happened each day in class. It w
 ## Week 14 ##
 
 <ul class="fa-ul">
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, November 30:</b> Coming soon.</li>
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, December 2:</b> Coming soon.</li>
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Thursday, December 3:</b> Coming soon.</li>
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, December 4:</b> Coming soon.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, November 30:</b> We spent the whole class session discussing the First Fundament Theorem of Calculus (FTC1).  This included its proof and a bunch of examples.  The notes are available [here]({{ site.baseurl }}/teaching/mat136f15/FTC.pdf).  </li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, December 2:</b> The first 10 minutes or so were spent discussing questions from the homework.  After that, we discussed the Second Fundament Theorem of Calculus (FTC2).  After a motivating example, we stated and proved FTC2.  Next, we cranked through several examples.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Thursday, December 3:</b> We reviewed for Exam 4.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, December 4:</b> The students took Exam 4.</li>
 </ul>
 
 ## Week 15 ##
