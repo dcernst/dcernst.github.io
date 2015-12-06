@@ -34,7 +34,7 @@ I'll post notes about rings here as they become available.
 - [Introduction to Rings: Definitions and Examples]({{site.baseurl}}/teaching/mat511f15/511Rings1.pdf) (PDF)
 - [Ideals and Quotient Rings]({{site.baseurl}}/teaching/mat511f15/511Rings2.pdf) (PDF)
 - [Maximal and Prime Ideals]({{site.baseurl}}/teaching/mat511f15/511Rings3.pdf) (PDF)
-- [Rings of Fractions]({{site.baseurl}}/teaching/mat511f15/511Rings4.pdf) (coming soon)
+- [Rings of Fractions]({{site.baseurl}}/teaching/mat511f15/511Rings4.pdf) (PDF)
 - [Principal Ideal Domains]({{site.baseurl}}/teaching/mat511f15/511Rings5.pdf) (coming soon)
 - [Unique Factorization Domains]({{site.baseurl}}/teaching/mat511f15/511Rings6.pdf) (coming soon)
 
