@@ -99,15 +99,11 @@ You'll prove that the first formula is correct in Problem 150.  For now, you can
    2. Compute the value of $\displaystyle \int_0^1 x^2-4x\ dx$ using a limit of Riemann sums and right endpoints.
 - **Daily Homework 37:** Complete Problems 235-236 in [Differential Calculus]({{ site.baseurl }}/teaching/mat136f15/DifferentialCalculus-JIBLM.pdf).  Also, complete Exercises 5.6.5(5) and 5.6.6 in Section 5.6 of *Calculus I Lecture Notes*. Lastly, complete exercises 17-19, 35 from Section 5.8 of *Calculus I Lecture Notes*. (Due Wednesday, December 2)
 - **Daily Homework 38:** Complete Problems 230-233 in [Differential Calculus]({{ site.baseurl }}/teaching/mat136f15/DifferentialCalculus-JIBLM.pdf). (Due Thursday, December 3)
- 
-<!--
-- **Daily Homework 39:** Complete Exercises 5.7.5 (replace $\sinh(x)$ with $\sin(x)$ on part 4), 5.7.7, 5.7.10, 5.7.11 in Section 5.7 of *Calculus I Lecture Notes*. (Due Friday, November 21)
-- **Daily Homework 40:** Complete corresponding problems on WeBWorK. Be sure to also complete the problems on paper as we will be presenting the problems on Wednesday. (Due by 9:10am on Thursday, December 4)
--->
+- **Daily Homework 39:** Complete Exercises 5.7.5 (replace $\sinh(x)$ with $\sin(x)$ on part 4), 5.7.7, and 5.7.10 in Section 5.7 of *Calculus I Lecture Notes*. (Due Wednesday, December 9)
 
 ## Weekly Homework ##
 
-The majority of the Weekly Homework assignments are to be completed via [WeBWorK](https://webwork.math.nau.edu/webwork2/DErnst_136), which is an online homework system. You should log in with your NAU credentials.
+The Weekly Homework assignments are to be completed via [WeBWorK](https://webwork.math.nau.edu/webwork2/DErnst_136), which is an online homework system. You should log in with your NAU credentials.
 
 - **Weekly Homework 1:** Complete the corresponding problems on [WeBWorK](https://webwork.math.nau.edu/webwork2/DErnst_136). (Due Wednesday, 9/9 by 8PM)
 - **Weekly Homework 2:** Complete the corresponding problems on [WeBWorK](https://webwork.math.nau.edu/webwork2/DErnst_136). (Due Tuesday, September 15 by 8PM)
