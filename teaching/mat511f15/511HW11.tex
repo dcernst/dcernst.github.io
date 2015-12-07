@@ -1,0 +1,162 @@
+\documentclass[11pt]{scrartcl}
+\usepackage[scale=1.5]{ccicons}
+\usepackage[notextcomp]{kpfonts} 
+\usepackage[margin=1in]{geometry}
+\usepackage{amsthm,amssymb}
+\usepackage{graphicx}
+\usepackage{enumitem}
+\usepackage{bm}
+\usepackage{tabu}
+\usepackage{tikz}
+
+\usepackage{color}
+\definecolor{darkblue}{rgb}{0, 0, .6}
+\definecolor{grey}{rgb}{.7, .7, .7}
+\usepackage[breaklinks]{hyperref}
+\hypersetup{
+	colorlinks=true,
+	linkcolor=darkblue,
+	anchorcolor=darkblue,
+	citecolor=darkblue,
+	pagecolor=darkblue,
+	urlcolor=darkblue,
+	pdftitle={},
+	pdfauthor={}
+}
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\lhead{MAT 511 - Fall 2015}
+\chead{}
+\rhead{Due Friday, December 11 by 5pm}
+\renewcommand{\headrulewidth}{.4pt}
+
+\theoremstyle{definition}
+\newtheorem{theorem}{Theorem}
+\newtheorem{acknowledgement}[theorem]{Acknowledgement}
+\newtheorem{algorithm}[theorem]{Algorithm}
+\newtheorem{axiom}[theorem]{Axiom}
+\newtheorem{case}[theorem]{Case}
+\newtheorem{claim}[theorem]{Claim}
+\newtheorem*{claim*}{Claim}
+\newtheorem{conclusion}[theorem]{Conclusion}
+\newtheorem{condition}[theorem]{Condition}
+\newtheorem{conjecture}[theorem]{Conjecture}
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{criterion}[theorem]{Criterion}
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{example}[theorem]{Example}
+\newtheorem{exercise}[theorem]{Exercise}
+\newtheorem{journal}[theorem]{Journal}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{notation}[theorem]{Notation}
+\newtheorem{problem}[theorem]{Problem}
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{remark}[theorem]{Remark}
+\newtheorem{solution}[theorem]{Solution}
+\newtheorem{summary}[theorem]{Summary}
+\newtheorem{skeleton}[theorem]{Skeleton Proof}
+\newtheorem{activity}[theorem]{Activity}
+\newtheorem{intuitivedef}[theorem]{Intuitive Definition}
+
+\DeclareMathOperator{\Aut}{Aut}
+\DeclareMathOperator{\Inn}{Inn}
+\DeclareMathOperator{\Stab}{Stab}
+
+\newcommand{\blankline}{\pagebreak[2]\vspace{.5\baselineskip}}
+
+\setlength{\parindent}{0pt}
+
+%Useful for cut and paste
+%\begin{enumerate}[label=\rm{(\alph*)}]
+
+\begin{document}
+
+\title{Homework 11}
+\subtitle{Abstract Algebra I}
+\date{}
+
+\maketitle
+\thispagestyle{fancy}
+
+Complete the following problems. Note that you should only use results that we've discussed so far this semester.
+
+\begin{problem}
+Consider the ring $M_2(\mathbb{R})$ (i.e., the ring of $2\times 2$ matrices with real number entries, where the operation is matrix multiplication).  Recall that if $\displaystyle A=\begin{pmatrix} a & b\\ c & d\end{pmatrix}$, then $\det(A)=ad-bc$.  Is $\det$ a ring homomorphism?  Justify your answer.
+\end{problem}
+
+\begin{problem}
+Define $\phi:\mathbb{Z}_4\to \mathbb{Z}_{12}$ via $\phi(x)=3x$. Is $\phi$ a ring homomorphism? Justify your answer.
+\end{problem}
+
+\begin{problem}
+Consider the ring $M_2(\mathbb{Z})$.  Let $I=\left\{\begin{pmatrix}a & 0\\ c & 0\end{pmatrix}\mid a,c\in \mathbb{Z}\right\}$.  Show that $I$ is a left ideal, but not a right ideal.
+\end{problem}
+
+\begin{problem}
+Let $R$ be a ring.  If there exists a positive integer $n$ such that
+\[
+\underbrace{a+a+\cdots +a}_n=0
+\]
+for all $a\in R$, then the least such positive integer is called the \textbf{characteristic} of $R$. If no such positive integer exists, then $R$ is of characteristic 0. Find the characteristic of each of the following rings.
+\begin{enumerate}[label=\rm{(\alph*)}]
+\item $\mathbb{Z}_6$
+\item $\mathbb{Z}$
+\item $\mathbb{R}$
+\end{enumerate}
+\end{problem}
+
+\begin{problem}
+Prove \textbf{one} of the following.
+\begin{enumerate}[label=\rm{(\alph*)}]
+\item Prove that the characteristic of an integral domain is either 0 or prime.
+\item Let $R$ be a commutative ring with prime characteristic $p$.  Prove that if $x,y\in R$, then $(x+y)^p=x^p+y^p$.
+\end{enumerate}
+\end{problem}
+
+\begin{problem}
+Consider $E=\{0,2,4,6,8\}\subseteq \mathbb{Z}_{10}$.  Prove that $E$ is a field.
+\end{problem}
+
+\begin{problem}
+Define $\phi:\mathbb{Z}_{10}\to \mathbb{Z}_{10}$ via $\phi(x)=6x$. 
+\begin{enumerate}[label=\rm{(\alph*)}]
+\item Prove that $\phi$ is a ring homomorphism.
+\item Determine whether $\mathbb{Z}_{10}/\ker(\phi)$ is a field.
+\item Is $\ker(\phi)$ a maximal ideal of $\mathbb{Z}_{10}$?
+\end{enumerate}
+\end{problem}
+
+\begin{problem}
+A \textbf{simple ring} is a ring with no nonzero proper 2-sided ideals.  If $R$ is a ring, then the \textbf{center} of $R$ is defined to be $Z(R):=\{x\in R\mid rx=xr\text{ for all } r\in R\}$.  Prove that the center of a simple ring with 1 is a field.  \emph{Note:} You must first show that the center is a subring.
+\end{problem}
+
+\begin{problem}
+Let $R$ be a ring and let $I$ be a right ideal of $R$.  Suppose there exists an element $a\in R$ such that $a^2=a$ (such an element is called \textbf{idempotent}). Let $J=\{x\in I\mid ax=\}$. Prove that $J$ is a right ideal of $R$.
+\end{problem}
+
+\begin{problem}
+Let $\phi:R\to S$ be a ring homomorphism, where $R$ is a ring with 1, call it $1_R$.
+\begin{enumerate}[label=\rm{(\alph*)}]
+\item Prove that $\phi(1_R)$ is the multiplicative identity in $\phi(R)$.
+\item Provide an example of a ring homomorphism where $S$ has a multiplicative identity that is not equal to $\phi(1_R)$ or prove that such an example does not exist.
+\end{enumerate}
+\end{problem}
+
+\begin{problem}
+Prove \textbf{one} of the following.
+\begin{enumerate}[label=\rm{(\alph*)}]
+\item Let $R$ be a commutative ring with 1.  The \textbf{radical} of an ideal $I$ in $R$ is defined to be $\sqrt{I}:=\{x\in R\mid x^n\in I\text{ for some }n\in\mathbb{Z}^+\}$. Prove that every prime ideal is radical.
+\item Let $R$ be a commutative ring with 1 and let $U(R)$ be the group of units in $R$.  Prove that $R$ has a unique maximal ideal iff $R\setminus U(R)$ is an ideal.  \emph{Note:} You may use Theorem 38 from our class notes.
+\end{enumerate}
+\end{problem}
+
+\begin{problem}
+Prove \textbf{one} of the following.
+\begin{enumerate}[label=\rm{(\alph*)}]
+\item Prove that any subfield of $\mathbb{R}$ must contain $\mathbb{Q}$.
+\item Prove that a quotient of a principal ideal domain by a prime ideal is still a principal ideal domain.
+\end{enumerate}
+\end{problem}
+
+\end{document}
