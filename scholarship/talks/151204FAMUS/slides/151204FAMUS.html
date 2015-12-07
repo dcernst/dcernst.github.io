@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!-->  <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<link href='http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+<title>The Futurama Theorem</title>
+
+<meta name="description" content="The Futurama Theorem and some refinements">
+<meta name="author" content="Dana C. Ernst">
+<meta name="viewport" content="width=1024, user-scalable=no">
+
+<!-- computer modern fonts -->
+<link rel="stylesheet" href="../fonts/Bright/cmun-bright.css">
+<link rel="stylesheet" href="../fonts/Concrete/cmun-concrete.css">
+<link rel="stylesheet" href="../fonts/Serif/cmun-serif.css">
+
+<!-- Core and extension CSS files -->
+<link rel="stylesheet" href="../core/deck.core.css">
+<link rel="stylesheet" href="../extensions/goto/deck.goto.css">
+<link rel="stylesheet" href="../extensions/menu/deck.menu.css">
+<link rel="stylesheet" href="../extensions/navigation/deck.navigation.css">
+<link rel="stylesheet" href="../extensions/status/deck.status.css">
+<link rel="stylesheet" href="../extensions/hash/deck.hash.css">
+
+<!-- Theme CSS files (menu swaps these out) -->
+<link rel="stylesheet" href="../themes/style/custom2.css">
+<!-- <link rel="stylesheet" id="style-theme-link" href="../themes/style/cp.css"> -->
+<link rel="stylesheet" href="../themes/transition/horizontal-slide.css">
+
+<!-- <link rel="stylesheet" href="../themes/transition/fade.css"> -->
+
+<script src="../modernizr.custom.js"></script>
+
+<!--  MathJax  -->
+<script type="text/javascript"
+src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+MathJax.Hub.Config({
+extensions: ["tex2jax.js","TeX/AMSmath.js","TeX/AMSsymbols.js","color.js"],
+jax: ["input/TeX","output/HTML-CSS"],
+tex2jax: {inlineMath: [["$","$"],["\\(","\\)"]]}
+});
+</script>
+
+</head>
+
+<body class="deck-container">
+<!-- <body> -->
+
+<!-- <div class="deck-container"> -->
+
+<section class="slide" id="title-slide">
+<h1>The Futurama Theorem</h1>
+<h3>Dana C. Ernst</h3>
+<p><a href="http://dcernst.github.io" target="_blank">http://dcernst.github.io</a></p>
+<h4>Friday Afternoon Mathematics Undergraduate Seminar (FAMUS)</h4>
+<p>December 4, 2015</p>
+<p><a>Note:</a>  Use arrow keys to advance slides, get an overview of slides by typing "m", go to specific slide by typing "g".</p>
+</section>
+
+<section class="slide" id="background">
+<h2>Futurama</h2>
+<ul>
+<li class="slide"><a href="http://en.wikipedia.org/wiki/Futurama" target="_blank">Futurama</a> is an American animated science fiction sitcom created by Matt Groening (of The Simpsons).</li>
+<li class="slide">The series aired on Fox from 1999-2003, and then began airing on Comedy Central in 2008. Final season ended in the summer of 2013.</li>
+<li class="slide">The show follows the adventures of a late 20th-century New York City pizza delivery boy, Philip J. Fry, who was accidentally frozen in 1999 and then thawed out on New Year's Eve 2999.</li>
+<li class="slide">Some main characters: Fry, Leela (one-eyed alien), Bender (robot), Professor Farnsworth (Fry's distant nephew and mad scientist), Zoidberg (lobster-like alien), Amy (spoiled and accident prone student), and more.</li>
+</ul>
+</section>
+
+<section class="slide" id="diff-eq-clip">
+<h2>Futurama</h2>
+<p>Here is short clip with Professor Farnsworth and the Globe Trotters.</p>
+<iframe width="560" height="315" src="http://www.youtube.com/embed/_P1bu4HUAMs?rel=0" frameborder="0"></iframe>
+</section>
+
+<section class="slide" id="show-details">
+<h2>The Prisoner of Benda</h2>
+<ul>
+<li class="slide">"The Prisoner of Benda" is episode 10 of season 6 and aired in August, 2010.</li>
+<li class="slide">The title is a play on "The Prisoner of Zenda", a 1894 novel by Anthony Hope Hawkins.</li>
+<li class="slide">In the episode, Farnsworth and Amy build a machine that allows them to switch minds. However, they learn that the machine cannot be used twice on the same pair of <a>bodies</a>. After several characters swap minds, the rest of the episode is focused on how to return everyone's minds back to their original owner.</li>
+<li class="slide">With the help of two Harlem Globetrotters (and some mathematics), the irreversible mind swap problem is solved.</li>
+<li class="slide">Episode written by Ken Keeler, who has a PhD in applied mathematics from Harvard.</li>
+<li class="slide">Keeler came up with and proved a mathematical theorem specifically for the show. Called <a>The Futurama Theorem</a> or <a>Keeler's Theorem</a>.</li>
+</ul>
+</section>
+
+<section class="slide">
+<h2>The mind swap problem</h2>
+<p>Here are the swaps that take place during the episode:</p>
+<ul>
+<li class="slide">Professor ($p$) $\leftrightarrow$ Amy ($a$)</li>
+<li class="slide">Amy ($a$) $\leftrightarrow$ Bender ($b$)</li>
+<li class="slide">Professor ($p$) $\leftrightarrow$ Leela ($l$)</li>
+<li class="slide">Amy ($a$) $\leftrightarrow$ Wash Bucket ($w$)</li>
+<li class="slide">Fry ($f$) $\leftrightarrow$ Zoidberg ($z$)</li>
+<li class="slide">Emperor Nikolai ($e$) $\leftrightarrow$ Wash Bucket ($w$)</li>
+<li class="slide">Hermes ($h$)$\leftrightarrow$ Leela ($l$)</li>
+</ul>
+<p class="slide">The upshot:
+\[a \rightarrow h \rightarrow l \rightarrow p \rightarrow b \rightarrow e \rightarrow w \rightarrow a \text{ and } f \leftrightarrow z\]
+</p>
+</section>
+
+<section class="slide">
+<h2>The mind swap problem (continued)</h2>
+<p>The question is: </p>
+<blockquote class="slide">
+<p>Can the machine be used to put everyone's mind back in the proper body if we are <a>not</a> allowed to use the machine on the same pair of bodies more than once?</p>
+</blockquote>
+<p class="slide">We need to use math!</p>
+</section>
+
+<section class="slide">
+<h2>The symmetric group</h2>
+<p class="slide">We can model this problem in terms of permutations (i.e., rearrangements) of numbers.  It turns out that the set of all permutations of the numbers 1 through $n$ forms a "group" under composition.</p>
+
+<p class="slide">A <a>group</a> is a set with an associative binary operation satisfying:</p>
+<ul>
+<li class="slide"><h4>closure:</h4> the "product" of any two elements from the set is an element of the set.</li>
+<li class="slide"><h4>identity:</h4> there exists a "do nothing" element.</li>
+<li class="slide"><h4>inverses:</h4> for every element in the set, there exists another element in the set that "undoes" the original.</li>
+</ul>
+<p class="slide">The group of permutations of $\{1,2,\ldots, n\}$ is called the <a>symmetric group</a> and is denoted by $S_n$.</p>
+</section>
+
+<section class="slide">
+<h2>Permutation diagrams</h2>
+<p class="slide">One way of representing an element of the symmetric group is via <a>permutation diagrams</a>, which we illustrate by way of example.</p>
+<h3 class="slide">Example</h3>
+<p class="slide"><img src="Diagram1.png" width="300" alt="Diagram1"></p>
+</section>
+
+<section class="slide">
+<h2>Permutation diagrams (continued)</h2>
+<p>Let's try multiplying.</p>
+<h3 class="slide">Example</h3>
+<p class="slide">Let $\alpha$ and  $\beta$ be as on previous slide. Then</p>
+<p class="slide">
+<img src="Diagram2.png" width="500" alt="Diagram2"></p>
+<p class="slide">But on the other hand</p>
+<p class="slide">
+<img src="Diagram3.png" width="500" alt="Diagram3"></p>
+
+<p class="slide">We see that products of permutations do not necessarily commute (order matters).</p>
+</section>
+
+<section class="slide">
+<h2>Permutation diagrams (continued)</h2>
+<p>However, sometimes permutations do commute.</p>
+<h3 class="slide">Example</h3>
+<p class="slide">Let $\beta$ and $\gamma$ be as before.  Then</p>
+<p class="slide">
+<img src="Diagram4.png" width="550" alt="Diagram4"></p>
+<p class="slide">Notice that these result in the same diagram.  So, $\beta$ and $\gamma$ commute.</p>
+</section>
+
+<section class="slide">
+<h2>Some comments</h2>
+<ul>
+<li class="slide">Order matters, but not always.</li>
+<li class="slide">A diagram that swaps precisely two numbers is called a <a>transposition</a>.
+<img src="Diagram5.png" width="250" alt="Diagram5"></li>
+<li class="slide">"Disjoint" transpositions commute.</li>
+<li class="slide">$S_n$ is generated by the transpositions.  That is, every permutation can be written as a product of some sequence of transpositions.  (In fact, we only need the adjacent transpositions: $i$ swaps with $i+1$).</li>
+</ul>
+</section>
+
+<section class="slide">
+<h2>The mind swaps as a diagram</h2>
+<p class="slide">If we let $a=1$, $h=2$, $l=3$, $p=4$, $b=5$, $e=6$, and $w=7$, $f=8$, and $z=9$, then the mind swaps from Futurama can be depicted as:</p>
+<p class="slide">
+<img src="Diagram7.png" width="650" alt="Diagram7">
+</p>
+</section>
+
+<section class="slide">
+<h2>Rephrasing the problem</h2>
+<p>The problem can be restated as:</p>
+<blockquote class="slide">
+<p>Suppose $p$ is a permutation that results from multiplying distinct transpositions.  Can we multiply $p$ by a sequence of transpositions that we have <a>not</a> yet used to obtain the identity permutation?</p>
+</blockquote>
+<p class="slide">It turns out that, in general, the answer is yes.  Keeler's trick to pulling this off is to add in two more people that have not used the machine.</p>
+</section>
+
+<section class="slide">
+<h2>The Futurama Theorem</h2>
+<p>Here is the solution presented in the show.</p>
+<p>
+<img src="FuturamaTheorem.png" width="750" alt="FuturamaTheorem"></p>
+<p><a>Note:</a>This image is taken from <a href="http://theinfosphere.org/Futurama_theorem">The Infosphere: The Futurama Wiki</a>.</p>
+</section>
+
+<section class="slide">
+<h2>Cycle notation</h2>
+<p class="slide">Before describing the solution, we need to introduce a more efficient way of encoding our permutations.  One such method is called <a>cycle notation</a>.</p>
+<h3 class="slide">Example</h3>
+<p class="slide">
+<img src="Diagram6.png" width="500" alt="Diagram6"></p>
+</section>
+
+<section class="slide">
+<h2>Cycle notation (continued)</h2>
+<p>Let's try multiplying using cycle notation. <a>Note:</a> We will multiply right to left (like function composition).</p>
+<h3 class="slide">Example</h3>
+<p class="slide">Consider $\alpha, \beta$, and $\gamma$ in $S_{5}$ as in the previous examples. Then</p>
+<p class="slide">\[\alpha \beta=(1\; 2\; 3\; 4\; 5)(2\; 4\; 3)=(1\; 2\; 5).\]</p>
+<p class="slide">and</p>
+<p class="slide">\[\gamma\beta =(2\; 4\; 3)(1\; 5)=(1\; 5)(2\; 4\; 3).\]</p>
+<p class="slide">We saw earlier that $\beta$ and $\gamma$ commute with each other, which is why it looks like nothing happened in the second example.</p>
+</section>
+
+<section class="slide">
+<h2>Some more comments</h2>
+<ul>
+<li class="slide">In cycle notation, the Futurama permutation is $(8\; 9)(1\; 2\; 3\; 4\; 5\; 6\; 7)$.</li>
+<li class="slide">The interpretation of a cycle $(\ldots\; i\; j\; \ldots)$ is that the body numbered $i$ passes its mind to the body $j$, etc.</li>
+<li class="slide">Transpositions are of the form $(i\; j)$, which means that $i$ and $j$ swap minds.</li>
+<li class="slide">"Disjoint" cycles (including transpositions) commute.</li>
+<li class="slide">If we can figure out how to "fix" one cycle at a time, then we can likely fix them all.</li>
+</ul>
+</section>
+
+<section class="slide">
+<h2>Fixing a single 7-cycle</h2>
+<p class="slide">Consider just the 7-cycle $(1\; 2\; 3\; 4\; 5\; 6\; 7)$.  Introduce two new bodies that have not had their minds swapped with anyone else, say $x$ and $y$.  To return all minds of 1-7 back to their rightful owner, multiply the cycle (on the left) by the following sequence of transpositions:</p>
+
+<p class="slide">\[{\color{blue}{(x\; 7)}}{\color{red}{(y\; 1)(y\; 2)(y\; 3)(y\; 4)(y\; 5)(y\; 6)(y\; 7)}}{\color{blue}{(x\; 1)}}\]</p>
+
+<p class="slide">Let's verify that this actually works!  First, notice that all of these transpositions are distinct and since $x$ and $y$ are new, we never used any of the above transpositions to obtain our original scrambling of minds.</p>
+
+<p class="slide">\[{\color{blue}{(x\; 7)}}{\color{red}{(y\; 1)(y\; 2)(y\; 3)(y\; 4)(y\; 5)(y\; 6)(y\; 7)}}{\color{blue}{(x\; 1)}}(1\; 2\; 3\; 4\; 5\; 6\; 7)=???\]</p>
+
+<p class="slide"><strong>Note:</strong> $x$ and $y$ now have their minds swapped with each other, but they never sat in the machine at the same time!</p>
+
+</section>
+
+<section class="slide">
+<h2>Fixing an arbitrary $k$-cycle</h2>
+<p class="slide">Consider the $k$-cycle $(1\; 2\; \ldots\; k)$.  How do we "fix" this cycle?</p>
+
+<p class="slide">As before, introduce two new bodies that have not used the machine, say $x$ and $y$.  To fix a $k$-cycle, multiply the cycle (on the left) by the following:</p>
+
+<p class="slide">\[{\color{blue}{(x\; k)}}{\color{red}{(y\; 1)(y\; 2)\cdots (y\; k-1)(y\; k)}}{\color{blue}{(x\; 1)}}\]</p>
+
+<p class="slide">Why does this work?!</p>
+<ul>
+<li class="slide">First observation: ${\color{red}{(y\; k)}}{\color{blue}{(x\; 1)}}(1\; 2\; \ldots\; k-1\; k)=(1\; 2\; \ldots\; k-1\; y\; k\; x)$.</li>
+<li class="slide">Then ${\color{red}{(y\; k-1)}}$ puts the mind of $k-1$ back where it belongs.</li>
+<li class="slide">And then ${\color{red}{(y\; k-2)}}$ puts the mind of $k-2$ back where it belongs.</li>
+<li class="slide">We continue this way and in the second to last step, ${\color{red}{(y\; 1)}}$ puts the mind of 1 back where it belongs.</li>
+<li class="slide">And finally, we finish by swapping $x$ and $k$.</li>
+<li class="slide">We now have $x$ and $y$ with their minds swapped (but they never sat in the machine at the same time).</li>
+</ul>
+</section>
+
+<section class="slide">
+<h2>Fixing products of disjoint cycles</h2>
+<p>What do we do when we have multiple disjoint cycles to start with?</p>
+<ul>
+<li class="slide">Use $x$ and $y$ to fix each individual cycle.</li>
+<li class="slide">When doing this, $x$ and $y$ will sometimes have their minds swapped (but they never sat in machine at same time).</li>
+<li class="slide">If the number of disjoint cycles is even, then we are done after we fix each individual cycle.</li>
+<li class="slide">If the number of disjoint cycles is odd, then after fixing each individual cycle, finish by having $x$ and $y$ sit in the machine at the same time.</li>
+</ul>
+</section>
+
+<section class="slide">
+<h2>Some comments and questions</h2>
+<h3 class="slide">Comments</h3>
+<ul>
+<li class="slide">Our algorithm/proof is a special case of the one given on the board in the TV episode.</li>
+<li class="slide">Applying our algorithm to the arrangement of minds in Futurama requires 13 moves.</li>
+<li class="slide">But since Fry and Zoidberg only swapped with each other and since there is only one other cycle, we could use Fry and Zoidberg as $x$ and $y$, respectively in our algorithm.  This only requires 9 moves.</li>
+<li class="slide">In general, if $p\in S_n$ and the number of disjoint cycles in $p$ is $r$, then Keeler's algorithm requires $n+2r+1$ or $n+2r$ moves depending on whether $r$ is odd or even, respectively.</li>
+</ul>
+
+<h3 class="slide">Natural questions</h3>
+<ul>
+<li class="slide">Can we do better (i.e., fewer moves to fix the cycles)?</li>
+<li class="slide">Under what circumstances do we not need to introduce two "clean" people?  In particular, would only using one "clean" person ever be useful?</li>
+<li class="slide">In 2012, Evans, Huang, and Nguyen (University of California, San Diego) address both of these questions and more.  Their results appear on the <a href="http://arxiv.org/abs/1204.6086" target="_blank">arXiv</a>.</li>
+</ul>
+
+<center>
+<p class="slide">Okay, that's it.  Thank you!</p>
+<p class="slide">These slides were made using <a href="http://imakewebthings.github.com/deck.js/">deck.js</a> and <a href="http://mathjax.org">MathJax</a>.</p>
+</center>
+</section>
+
+<a href="#" class="deck-prev-link" title="Previous">&#8592;</a>
+<a href="#" class="deck-next-link" title="Next">&#8594;</a>
+
+<p class="deck-status">
+	<span class="deck-status-current"></span>
+	/
+	<span class="deck-status-total"></span>
+</p>
+
+<form action="." method="get" class="goto-form">
+	<label for="goto-slide">Go to slide:</label>
+	<input type="number" name="slidenum" id="goto-slide">
+	<input type="submit" value="Go">
+</form>
+
+<a href="." title="Permalink to this slide" class="deck-permalink">#</a>
+
+<script src="../jquery.min.js"></script>
+
+<!-- Deck Core and extensions -->
+<script src="../core/deck.core.js"></script>
+<script src="../extensions/menu/deck.menu.js"></script>
+<script src="../extensions/goto/deck.goto.js"></script>
+<script src="../extensions/status/deck.status.js"></script>
+<script src="../extensions/navigation/deck.navigation.js"></script>
+<script src="../extensions/hash/deck.hash.js"></script>
+
+<!-- Initialize the deck -->
+<script>
+$(function() {
+	$.deck('.slide');
+});
+</script>
+
+<!-- </div> -->
+
+</body>
+</html>
