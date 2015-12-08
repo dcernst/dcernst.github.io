@@ -155,7 +155,7 @@ We’ll use this page to keep track of what has happened each day in class. It w
 ## Week 15 ##
 
 <ul class="fa-ul">
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, December 7:</b> Coming soon.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, December 7:</b> We crushed some integrals involving integration by parts.  We followed the [Interation by Parts Handout]({{ site.baseurl }}/teaching/mat136f15/IntegrationByParts.pdf).</li>
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, December 9:</b> Coming soon.</li>
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Thursday, December 10:</b> Coming soon.</li>
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, December 11:</b> Coming soon.</li>
