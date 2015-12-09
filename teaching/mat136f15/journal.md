@@ -130,7 +130,7 @@ We’ll use this page to keep track of what has happened each day in class. It w
 <ul class="fa-ul">
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, November 16:</b> Busy day!  We split the class up into 8 small groups, where each group worked on a separate problem or two from the homework.  Before launching to presentations, I got philosophical while standing on the desk.  We got through most, but not all of the problems.  When all was said and done, we had HD, SC, PD, KP, LL, and MG present Problems 185/186, 189/190, 191, 192, 193/194, and 196, respectively.</li>
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, November 18:</b> I was surprised how much we got done today.  Very productive.  To help synthesize some ideas the students were already grappling with, I did a mini-lecture on antiderivatives and indefinite integrals.  One thing we did was write down a bunch of integral formulas that we now know are true.  Next, we split the class up into 8 small groups, where each group worked on one of the problems from the homework.  TB, NH, BB, PD, and CW presented Problems 200, 201, 202, 203, and 204, respectively. </li>
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Thursday, November 19:</b> After Joe's reminder, I spent some time discussing Problem 188, which no one had previously figure out.  Cool problem!  Then I presented Problem 207, which we didn't get to last time.  The whole rest of the class session was spent cranking out examples of indefinite integrals where the method of substitution was handy.  All the examples came from the [Substituion Handout]({{ site.baseurl }}/teaching/mat136f15/Substitution.pdf).</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Thursday, November 19:</b> After Joe's reminder, I spent some time discussing Problem 188, which no one had previously figure out.  Cool problem!  Then I presented Problem 207, which we didn't get to last time.  The whole rest of the class session was spent cranking out examples of indefinite integrals where the method of substitution was handy.  All the examples came from the [Substitution Handout]({{ site.baseurl }}/teaching/mat136f15/Substitution.pdf).</li>
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, November 20:</b> Today was productive.  We had AG, LL, MM3, MM2, BL, HD, EB, MM1, and TM present Problems 211, 212, 213, 214, 215(a), 215(b), 215(c), 216(a), and 216(b), respectively.</li>
 </ul>
 
@@ -156,7 +156,7 @@ We’ll use this page to keep track of what has happened each day in class. It w
 
 <ul class="fa-ul">
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, December 7:</b> We crushed some integrals involving integration by parts.  We followed the [Interation by Parts Handout]({{ site.baseurl }}/teaching/mat136f15/IntegrationByParts.pdf).</li>
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, December 9:</b> Coming soon.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, December 9:</b> After a quick discussion of Exam 4, we launched into student presentations.  We had CW, RF, LL/JE, SR, AG, TB, PD, and TR present Exercises 5.7.5(1)-5.7.5(4), 5.7.7(1)-5.7.7(3), and 5.7.10, respectively from "Calculus I Lecture Notes".</li>
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Thursday, December 10:</b> Coming soon.</li>
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, December 11:</b> Coming soon.</li>
 </ul>
