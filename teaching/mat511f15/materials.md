@@ -35,8 +35,7 @@ I'll post notes about rings here as they become available.
 - [Ideals and Quotient Rings]({{site.baseurl}}/teaching/mat511f15/511Rings2.pdf) (PDF)
 - [Maximal and Prime Ideals]({{site.baseurl}}/teaching/mat511f15/511Rings3.pdf) (PDF)
 - [Rings of Fractions]({{site.baseurl}}/teaching/mat511f15/511Rings4.pdf) (PDF)
-- [Principal Ideal Domains]({{site.baseurl}}/teaching/mat511f15/511Rings5.pdf) (coming soon)
-- [Unique Factorization Domains]({{site.baseurl}}/teaching/mat511f15/511Rings6.pdf) (coming soon)
+- [Principal Ideal Domains]({{site.baseurl}}/teaching/mat511f15/511Rings5.pdf) (PDF)
 
 ## Free Abstract Algebra Textbooks ##
 Here is a list of free abstract algebra texts that you may use as an additional resource.  If you find one of these more helpful than another, please let me know.  Also, if you know of other resources, please let me know.
