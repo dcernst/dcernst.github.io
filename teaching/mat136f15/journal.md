@@ -157,6 +157,6 @@ We’ll use this page to keep track of what has happened each day in class. It w
 <ul class="fa-ul">
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, December 7:</b> We crushed some integrals involving integration by parts.  We followed the [Interation by Parts Handout]({{ site.baseurl }}/teaching/mat136f15/IntegrationByParts.pdf).</li>
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, December 9:</b> After a quick discussion of Exam 4, we launched into student presentations.  We had CW, RF, LL/JE, SR, AG, TB, PD, and TR present Exercises 5.7.5(1)-5.7.5(4), 5.7.7(1)-5.7.7(3), and 5.7.10, respectively from "Calculus I Lecture Notes".</li>
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Thursday, December 10:</b> Coming soon.</li>
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, December 11:</b> Coming soon.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Thursday, December 10:</b> Most for the class session was spent having students work either independently or in a a small group on previous exam problems.  Towards the end of class, we had NH, MG, MM3, and SM present Problem 1 on Exam 4, Problem 4 on Exam 1, Problem 12 on Exam 1, and Problem 3(f) on Exam 4, respectively.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, December 11:</b> Last day of classes!  Today was more or less the same as yesterday.  In the midst of students studying, we had SR and KP present Problem 7(b) on Exam 1 and Problem 4 on Exam 3, respectively. What a great semester!  Thanks.</li>
 </ul>
