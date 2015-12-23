@@ -29,7 +29,7 @@ But a great one wants to know “why".<br>
 <br>
 A good mathematician "answers questions".<br>
 But a great one "questions answers".<br>
-
+<br>
 A good mathematician can "get out of a tricky corner".<br>
 But a great one can “get into a tricky corner".<br>
 <br>
