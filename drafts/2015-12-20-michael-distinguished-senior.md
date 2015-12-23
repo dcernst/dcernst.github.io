@@ -13,11 +13,18 @@ tags:
   - award
 ---
 
-On Thursday, I gave a short statement of accomplishments in honor of Michael Hastings being awarded "The Distinguished Senior" for the College of Engineering, Forestry, and Natural Sciences at [Northern Arizona University](http://nau.edu). Michael was a student in two of my classes (Foundations of Mathematics and Abstract Algebra) and he was also one of my [undergraduate research students]({{ site.baseurl }}/scholarship/undergraduate-research/) on two different year-long projects.  
+On Thursday last week (December 17, 2015), I gave a short statement of accomplishments in honor of Michael Hastings being awarded "The Distinguished Senior" for the College of Engineering, Forestry, and Natural Sciences at [Northern Arizona University](http://nau.edu). I've gotten to know Michael quite well over the past couple of years as he was a student in two of my classes (Foundations of Mathematics and Abstract Algebra) and he was also one of my [undergraduate research students]({{ site.baseurl }}/scholarship/undergraduate-research/) on two different year-long projects. (You can read more about the projects Michael was involved in [here]({{ site.baseurl }}/scholarship/undergraduate-research/#DiagramFactorization) and [here]({{ site.baseurl }}/scholarship/undergraduate-research/#PrimeGraphs).)  Michael is extremely deserving on this award and I was honored to be able to say a few words on his behalf.  
 
+Despite knowing for several weeks that I was going to have to stand up and say a few words about Michael in front of parents and faculty at the CEFNS Pre-commencement Ceremony, I put off coming up with what I was going to say until the night before.  It wasn't just procrastination and being busy that caused me to wait so long.  I was so freaking nervous about doing it that my defense mechanism was to ignore it as long as possible.  To most people, it might seem strange that I was so apprehensive since I spend so much time public speaking via teaching and talks at conferences and workshops.  However, things like wedding toasts and short speeches at pre-commencement ceremonies cause me great anxiety.
 
+When I sat down the night before the ceremony to draft what I might say, I spent equal time typing and deleting.  After a more than an hour, I pretty much had nothing.  For a little while I had some ideas that involved [Pokémon](https://en.wikipedia.org/wiki/Pokémon), but then decided my "great idea" was probably a bit silly and would likely be lost on most of the audience.  I decided to put it off one more day and cram the next day.
 
-A good mathematician (or physicist) wants to know “how”.
+Some time in the morning, I stumbled on the blog post titled [Good Mathematician vs Great Mathematician](http://mathwithbaddrawings.com/2015/12/16/good-mathematician-vs-great-mathematician/) on [Math with Bad Drawings](http://mathwithbaddrawings.com), which sparked some much needed inspiration.  Once I got cranking, the rest flowed pretty easily.  (Thanks to Roy St.Laurent for some early feedback.)  I'm pretty happy with how it turned out.  There's a bit of an abrupt transition in the middle.  I had a longer version (which I didn't save for some reason) that flowed a bit better, but I needed to keep it around 2 minutes long (and ran out of time to make improvements after nixing a few lines).
+
+Below is what I prepared to say about Michael. I ad libbed a little bit, but for the most part followed the script.  My opening is a slight modification of what appeared in [Good Mathematician vs Great Mathematician](http://mathwithbaddrawings.com/2015/12/16/good-mathematician-vs-great-mathematician/).  I'd also like to give a hat tip to [Brian Katz](https://twitter.com/thewordninja_bk) as I borrowed from his [call for papers](http://www.tandfonline.com/doi/abs/10.1080/10511970.2014.948319?journalCode=upri20) for the *PRIMUS* Special Issue on Teaching Inquiry.
+
+<div class="well">
+A good mathematician (or physicist, or geologist, or writer, etc.) wants to know “how”.
 But a great one wants to know “why".
 
 A good mathematician "answers questions".
@@ -47,8 +54,6 @@ Michael has conducted two different year-long research projects in mathematics. 
 But! By far, Michael’s greatest gift is his loud and extremely obnoxious laugh!
 
 I am grateful that I was able to share in Michael’s experience at NAU and I will miss having him around.  Congratulations Michael!
+</div>
 
-Credits:
-
-- http://mathwithbaddrawings.com/2015/12/16/good-mathematician-vs-great-mathematician/
-- Brian Katz’s call for “Teaching Inquiry"
+Phew!  I'm glad that's over.  But I'm also glad that I had the opportunity to honor Michael.
