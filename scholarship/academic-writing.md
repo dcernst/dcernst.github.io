@@ -52,7 +52,7 @@ Below is a list of papers that have been submitted, but not yet accepted for pub
 
 The following is a list of papers that are in progress.
 
-  * D.C. Ernst and D. Story. On the number of commutation classes of the longest element of the symmetric group.
+  * H. Denoncourt, D.C. Ernst, and D. Story. On the number of commutation classes of the longest element of the symmetric group.
   * D.C. Ernst and B. Fox. Conjugacy classes of cyclically fully commutative elements in Coxeter groups of type $A$.
   * D.C. Ernst and T. Laird. T-avoiding elements of Coxeter groups.
   * B.J. Benesh, D.C. Ernst, and N. Sieben. Impartial achievement games for generating finite groups.
