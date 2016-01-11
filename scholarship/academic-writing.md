@@ -23,6 +23,7 @@ My interests also include the [scholarship of teaching and learning][10] (SoTL) 
 
 Below is a list of my published articles and theses.
 
+  * B.J. Benesh, D.C. Ernst, and N. Sieben. Impartial avoidance games for generating finite groups. Accepted to *North-Western European Journal of Mathematics*. [[arXiv:1506.07105](http://arxiv.org/abs/1506.07105)]
   * N. Diefenderfer, D.C. Ernst, M. Hastings, L.N. Heath, H. Prawzinsky, B. Preston, J. Rushall, E. White, A. Whittemore. Prime Vertex Labelings of Several Families of Graphs. Accepted to *Involve*. [[arXiv:1503.08386](http://arxiv.org/abs/1503.08386)]
   * B. Love, A. Hodge, C. Corritore, and D.C. Ernst. Inquiry-Based Learning and the Flipped Classroom Model. *PRIMUS* 25(8), 745-762, 2015. [[DOI:10.1080/10511970.2015.1046005](http://www.tandfonline.com/doi/full/10.1080/10511970.2015.1046005)]
   * B. Beaudrie, D.C. Ernst, E. Kennedy, and R. St. Laurent. Inverted Pedagogy in Second Semester Calculus. *PRIMUS* 25(9-10), 992-906, 2015. [[DOI:10.1080/10511970.2015.1031301](http://www.tandfonline.com/doi/full/10.1080/10511970.2015.1031301)]
@@ -43,7 +44,6 @@ Below is a list of my published articles and theses.
 Below is a list of papers that have been submitted, but not yet accepted for publication.
 
   * D.C. Ernst, M. Hastings, and S. Salmon. Factorization of Temperley-Lieb diagrams. Submitted to *Involve*. [[arxiv:1509.01241](http://arxiv.org/abs/1509.01241)]
-  * B.J. Benesh, D.C. Ernst, and N. Sieben. Impartial avoidance games for generating finite groups. Submitted to *North-Western European Journal of Mathematics*. [[arXiv:1506.07105](http://arxiv.org/abs/1506.07105)]
   * B.J. Benesh, D.C. Ernst, and N. Sieben. Impartial avoidance and achievement games for generating symmetric and alternating groups. Submitted to *Int. Electron. J. Algebra*. [[arxiv:1508.03419](http://arxiv.org/abs/1508.03419)]
   * D.C. Ernst and N. Sieben. Impartial achievement and avoidance games for generating finite groups. Submitted to *Int. J. Game Theory*. [[arXiv:1407.0784](http://arxiv.org/abs/1407.0784)]
   * D.C. Ernst. Diagram calculus for a type affine *C* Temperley-Lieb algebra, II. Submitted to *J. Pure Appl. Alg.*. [[arXiv:1101.4215](http://arxiv.org/abs/1101.4215)]
