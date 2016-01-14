@@ -1,5 +1,5 @@
 ---
-title: Abstract Algebra
+title: Introduction to Abstract Algebra
 author: Dana Ernst
 layout: default
 ---
