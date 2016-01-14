@@ -11,9 +11,7 @@ title: Blog Posts
 <div>
 <ul>
 {% for post in site.posts %}
-<li>
-<a href="{{site.baseurl}}{{ post.url }}">{{ post.title }}</a><br>
-<div class="post-meta">{{ post.date | date: "%b %-d, %Y" }} </div>
+<li><i class="fa fa-file-text"></i>&nbsp; <div class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</div> &nbsp; <i class="fa fa-chevron-right"></i> &nbsp; <a href="{{site.baseurl}}{{ post.url }}">{{ post.title }}</a>
 </li>
 {% endfor %}
 </ul>
