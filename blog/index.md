@@ -8,13 +8,14 @@ title: Blog Posts
   <li class="active">Blog</li>
 </ol>
 
-<div class="posts">
+<div>
+  <!-- <div class="posts"> -->
     {% for post in site.posts %}
-      <h4><a href="{{ post.url | prepend: site.baseurl }}">
-        {{ post.date | date: "%b %-d, %Y" }}: {{ post.title }}</a></h4>
-
-      {{ post.excerpt }}
-
+    <div class="post">
+    <h2><a href="{{site.baseurl}}{{ post.url }}">{{ post.title }}</a></h2>
+    <div class="post-meta">{{ post.date | date: "%b %-d, %Y" }} </div>
+    {{ post.content }}
+    </div>
     {% endfor %}
   </div>
 
