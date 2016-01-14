@@ -2,30 +2,36 @@
 layout: default
 title: Homework
 ---
+
 <ol class="breadcrumb">
   <li><a href="/"><i class="fa fa-home"></i></a></li>
   <li><a href="/teaching/">Teaching</a></li>
-  <li><a href="/teaching/mat511f15">MAT 511</a></li>
+  <li><a href="/teaching/mat411s15">MAT 411</a></li>
   <li class="active">Homework</li>
 </ol>
 
 <div class="row">
 <div class="col-xs-12">
 <div class="btn-group btn-group-justified">
-<a class="btn btn-default btn-success" href="{{site.baseurl}}/teaching/mat511f15/syllabus/">Syllabus</a>
-<a class="btn btn-default btn-primary" href="{{site.baseurl}}/teaching/mat511f15/materials/">Materials</a>
-<a class="btn btn-default btn-warning" href="{{site.baseurl}}/teaching/mat511f15/homework/">Homework</a>
+<a class="btn btn-default btn-success" href="{{site.baseurl}}/teaching/mat411s16/syllabus/">Syllabus</a>
+<a class="btn btn-default btn-primary" href="{{site.baseurl}}/teaching/mat411s16/materials/">
+<span class="hidden-xs">Course Materials</span><span class="visible-xs">Stuff</span>
+</a>
+<a class="btn btn-default btn-warning" href="{{site.baseurl}}/teaching/mat411s16/homework/">
+<span class="hidden-xs">Homework</span><span class="visible-xs">HW</span>
+</a>
+<a class="btn btn-default btn-info" href="{{site.baseurl}}/teaching/mat411s16/journal/">Journal</a>
 </div>
 </div>
 </div>
 
 ## Guidelines ##
-On each homework assignment, please write (i) your name, (ii) name of course, and (iii) homework number. You are allowed and encouraged to work together on homework. Yet, each student is expected to turn in his or her own work. In general, late homework will not be accepted. However, you are allowed to turn in three late homework assignments with no questions asked. Unless you have made arrangements in advance with me, homework turned in after class will be considered late. When doing your homework, I encourage you to use the Elements of Style for Proofs (see Appendix B of the [course notes]({{site.baseurl}}/mat411s16/materials/) as a reference.
+On each homework assignment, please write (i) your name, (ii) name of course, and (iii) homework number. You are allowed and encouraged to work together on homework. Yet, each student is expected to turn in his or her own work. In general, late homework will not be accepted. However, you are allowed to turn in three late homework assignments with no questions asked. Unless you have made arrangements in advance with me, homework turned in after class will be considered late. When doing your homework, I encourage you to use the Elements of Style for Proofs (see Appendix B of the [course notes]({{site.baseurl}}/teaching/mat411s16/materials/) as a reference.
 
 ## Daily Homework ##
 The following assignments are to be turned in at the end of the indicated class period.  I reserve the right to modify the assignment if the need arises.  These exercises will form the basis of the student-led presentations each day.  Daily assignments will be graded on a $\checkmark$-system.  During class, **you are only allowed to annotate your homework using the marker pens that I provide**.
 
-- **Daily Homework 1:** Read the [syllabus]({{site.baseurl}}/mat411s16/syllabus/) and write down 5 important items.  *Note:*  All of the exam dates only count as a single item.  Turn in on your own paper at the beginning of class. (Due Friday, January 22)
+- **Daily Homework 1:** Read the [syllabus]({{site.baseurl}}/teaching/mat411s16/syllabus/) and write down 5 important items.  *Note:*  All of the exam dates only count as a single item.  Turn in on your own paper at the beginning of class. (Due Friday, January 22)
 - **Daily Homework 2:** Stop by my office (AMB 176) and say hello. If I'm not there, just slide note under my door saying you stopped by. (Due Friday, January 22)
 - **Daily Homework 3:** Coming soon.
 
