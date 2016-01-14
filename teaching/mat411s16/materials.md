@@ -1,5 +1,6 @@
 ---
 layout: default
+author: Dana Ernst
 title: Course Materials
 ---
 
