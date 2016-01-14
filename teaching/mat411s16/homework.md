@@ -25,7 +25,7 @@ On each homework assignment, please write (i) your name, (ii) name of course, an
 ## Daily Homework ##
 The following assignments are to be turned in at the end of the indicated class period.  I reserve the right to modify the assignment if the need arises.  These exercises will form the basis of the student-led presentations each day.  Daily assignments will be graded on a $\checkmark$-system.  During class, **you are only allowed to annotate your homework using the marker pens that I provide**.
 
-- **Daily Homework 1:** Read the [syllabus]({{site.baseurl}}/mat411s16/syllabus) and write down 5 important items.  *Note:*  All of the exam dates only count as a single item.  Turn in on your own paper at the beginning of class. (Due Friday, January 22)
+- **Daily Homework 1:** Read the [syllabus]({{site.baseurl}}/mat411s16/syllabus/) and write down 5 important items.  *Note:*  All of the exam dates only count as a single item.  Turn in on your own paper at the beginning of class. (Due Friday, January 22)
 - **Daily Homework 2:** Stop by my office (AMB 176) and say hello. If I'm not there, just slide note under my door saying you stopped by. (Due Friday, January 22)
 - **Daily Homework 3:** Coming soon.
 
@@ -93,11 +93,11 @@ In addition to the Daily Homework, we will also have Weekly Homework assignments
 -->
 
 ## Using LaTeX for Weekly Homework ##
-You are required to use $\LaTeX$ to type up your Weekly Homework assignments.  To do this, I suggest that you use my [LaTeX Homework Template](https://github.com/dcernst/MiscTeachingMaterials/blob/master/HWTemplate.tex).  The easiest way to get started with $\LaTeX$ is to use an online editor.  I recommend using [writeLaTeX](https://www.writelatex.com), but there are other options.  The good folks over at writeLaTeX have preloaded my template, so to get started, all you need to do is click the link below.
+You are required to use $\LaTeX$ to type up your Weekly Homework assignments.  To do this, I suggest that you use my [LaTeX Homework Template](https://github.com/dcernst/MiscTeachingMaterials/blob/master/HWTemplate.tex).  The easiest way to get started with $\LaTeX$ is to use an online editor.  I recommend using [Overleaf](https://overleaf.com), but there are other options.  The good folks over at Overleaf have preloaded my template, so to get started, all you need to do is click the link below.
 
 <center>
 <form action="https://www.writelatex.com/docs" method="POST">
     <input type="hidden" name="template" value="danaernst-weekly_homework_x">
-    <input type="submit" class="wl-submit" value="Start your homework in writeLaTeX">
+    <input type="submit" class="wl-submit" value="Start your homework in Overleaf">
   </form>
 </center>
