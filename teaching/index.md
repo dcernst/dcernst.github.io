@@ -47,18 +47,20 @@ Welcome to Dana C. Ernst's Teaching page.  This section is primarily designed fo
 </div>
 
 ## Office Hours ##
-My current office hours for Fall 2015 are 11:15-12:15 MWThF and 10-11 T (or by appointment). My office is located in room 176 of the [Adel Mathematics Building](http://maps.google.com/maps?q=Adel+Mathematics,+Flagstaff,+AZ&hl=en&sll=35.181208,-111.607959&sspn=0.231222,0.42675&oq=adel+mathe&hnear=Adel+Mathematics,+Flagstaff,+Arizona+86001&t=m&z=17) (Building 26).
+My current office hours for Spring 2016 are 11:15-12:15 MWF and 9-10 TTh (or by appointment). My office is located in room 176 of the [Adel Mathematics Building](http://maps.google.com/maps?q=Adel+Mathematics,+Flagstaff,+AZ&hl=en&sll=35.181208,-111.607959&sspn=0.231222,0.42675&oq=adel+mathe&hnear=Adel+Mathematics,+Flagstaff,+Arizona+86001&t=m&z=17) (Building 26).
 
 ## Current Courses ##
-Here are the courses that I am currently teaching (Fall 2015) at [Northern Arizona University](http://nau.edu).  For previous courses, see below.
+Here are the courses that I am currently teaching (Spring 2016) at [Northern Arizona University](http://nau.edu).  For previous courses, see below.
 
-- [MAT 136: Calclus I, Fall 2015]({{ site.baseurl }}/teaching/mat136f15)
-- [MAT 511: Abstract Algebra I, Fall 2015]({{ site.baseurl }}/teaching/mat511f15)
+- [MAT 411: Introduction to Abstract Algebra, Spring 2016]({{ site.baseurl }}/teaching/mat411s16)
+- [MAT 612: Abstract Algebra II, Spring 2016]({{ site.baseurl }}/teaching/mat612s16)
 
 ## Previous Courses ##
 This is a (partial) list of courses that I have taught over the past several semesters. **Note:** Some of the links on the pages below may be outdated.
 
 #### Northern Arizona University ####
+- [MAT 136: Calculus I, Fall 2015]({{ site.baseurl }}/teaching/mat136f15)
+- [MAT 511: Abstract Algebra I, Fall 2015]({{ site.baseurl }}/teaching/mat511f15)
 - [MAT 220: Introduction to Mathematical Reasoning, Spring 2015](http://teaching.danaernst.com/mat220s15/)
 - [MAT 690: Reflection Groups and Coxeter Groups, Spring 2015](http://teaching.danaernst.com/mat690s15/)
 - [MAT 136: Calculus I, Fall 2014](http://teaching.danaernst.com/mat136f14/)
