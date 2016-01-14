@@ -9,10 +9,9 @@ title: Blog Posts
 </ol>
 
 <div>
-<ul>
+<ul class="fa-ul">
 {% for post in site.posts %}
-<li><i class="fa fa-file-text"></i>&nbsp; <div class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</div> &nbsp; <i class="fa fa-chevron-right"></i> &nbsp; <a href="{{site.baseurl}}{{ post.url }}">{{ post.title }}</a>
-</li>
+<li><i class="fa fa-file-text"></i>&nbsp; {{ post.date | date: "%b %-d, %Y" }} &nbsp; <i class="fa fa-chevron-right"></i> &nbsp; <a href="{{site.baseurl}}{{ post.url }}">{{ post.title }}</a></li>
 {% endfor %}
 </ul>
 </div>
