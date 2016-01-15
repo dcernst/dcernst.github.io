@@ -83,7 +83,8 @@ I will not be covering every detail of the notes and the only way to achieve a s
 </blockquote>
 
 ## Miscellaneous Materials ##
-- Setting the Stage (first day activity)
+- [Setting the Stage]({{ site.baseurl }}/teaching/SettingTheStage.pdf) (first day activity)
+- Pictures of the quilts corresponding to the five groups of order 8
 
 ## Exams ##
 Below are links to each exam.
