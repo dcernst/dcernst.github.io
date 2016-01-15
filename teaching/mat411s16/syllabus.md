@@ -195,9 +195,10 @@ Presentations will be graded using the rubric below.
 
 However, you should not let the rubric deter you from presenting if you have an idea about a solution/proof that you'd like to present, but you are worried that your solution/proof is incomplete or you are not confident your solution/proof is correct.  You will be rewarded for being courageous and sharing your creative ideas!  Yet, you should not come to the board to present unless you have spent time thinking about the problem and have something meaningful to contribute.
 
-I will often ask for volunteers to present solutions, but when no volunteers come forward, I will call on someone to present.  If more than one student volunteers, the student with the fewest number of presentations has priority.  The problems chosen for presentation will come from the Daily Homework assignments.  Each student in the audience is expected to be engaged during another student's presentation.
+In general, I will curate the list of student presenters each class meeting.  However, students are welcome to volunteer. This type of behavior will be rewarded.
+If more than one student volunteers, the student with the fewest number of presentations has priority.  The problems chosen for presentation will come from the Daily Homework assignments.  Each student in the audience is expected to be engaged and respectful during another student's presentation.
 
-In order to receive a **passing grade** on the presentation portion of your grade, **you must present at least twice prior to each of the three midterm exams and at least once after the third midterm exam**  for a total of at least 7 times during semester. Your overall performance during presentations, as well as your level of interaction/participation during class, will be worth ??% of your overall grade.
+In order to receive a **passing grade** on the presentation portion of your grade, **you must present at least twice prior to each of the three midterm exams and at least once after the third midterm exam**  for a total of at least 7 times during semester. Notice that I've described a minimum.  To ensure a good grade, you should present as often as you can. Your overall performance during presentations, as well as your level of interaction/participation during class, will be worth ??% of your overall grade.
 
 ### Exams ###
 There will be three midterm exams and a cumulative final exam.  Each midterm exam will be worth ??% of your overall grade and the final exam will be worth 20%.  All of the exams will likely consist of both an in-class portion and a take-home portion.  The in-class portions of the midterm exams are *tentatively* scheduled for **???**, **???**, and **???**.  The final exam will be on **Monday, May 9** at 10:00AM-12:00PM.  Make-up exams will only be given under extreme circumstances, as judged by me.  In general, it will be best to communicate conflicts ahead of time.
@@ -226,7 +227,7 @@ In summary, your final grade will be determined by your scores in the following 
         <tr>
 		<td>Presentations &amp; Participation</td>
 		<td>??%</td>
-		<td>Each student must present <b>at least twice prior to each midterm exam &amp; once after Exam 3</b></td>
+		<td>See above for requirements</td>
 	</tr>
 	<tr>
 		<td>Exam 1</td>
