@@ -26,14 +26,68 @@ title: Course Materials
 </div>
 </div>
 
-## Under Construction ##
+## An Inquiry-Based Approach to Abstract Algebra (course notes) ##
 
-Coming soon.
+We will not be using a textbook this semester, but rather a task-sequence adopted for IBL.  The task-sequence that we are using was written by me.  Any errors in the notes are no one's fault but my own.  In this vein, if you think you see an error, please inform me, so that it can be remedied.
+
+I will not be covering every detail of the notes and the only way to achieve a sufficient understanding of the material is to be digesting the reading in a meaningful way.  You should be seeking clarification about the content of the notes whenever necessary by asking questions in class or posting questions to the course Google Group.  Here's what [Paul Halmos](http://en.wikipedia.org/wiki/Paul_Halmos) has to say about reading mathematics.
+
+<blockquote>
+  <p>Don’t just read it; fight it! Ask your own questions, look for your own examples, discover your own proofs. Is the hypothesis necessary? Is the converse true? What happens in the classical special case? What about the degenerate cases? Where does the proof use the hypothesis?</p>
+  <footer><a href="http://en.wikipedia.org/wiki/Paul_Halmos">Paul Halmos</a></footer>
+</blockquote>
+
+You can find the course notes below.   I reserve the right to modify them as we go, but I will always inform you of any significant changes.  The notes will be released incrementally.  Each link below is to a PDF file.
+
+- Title Page and Front Matter
+- Chapter 1: Introduction
+    - 1.1 What is Abstract Algebra?
+    - 1.2 An Inquiry-Based Approach
+    - 1.3 Rules of the Game
+    - 1.4 Structure of the Notes
+    - 1.5 Some Minimal Guidance
+- Chapter 2: An Intuitive Approach to Groups
+- Chapter 3: Cayley Diagrams
+- Chapter 4: An Introduction to Subgroups and Isomorphisms
+    - 4.1 Subgroups
+    - 4.2 Isomorphisms
+- Chapter 5: A Formal Approach to Groups
+    - 5.1 Binary Operations
+    - 5.2 Groups
+    - 5.3 Group Tables
+    - 5.4 Revisiting Cayley Diagrams and Our Original Definition of a Group
+    - 5.5 Revisiting Subgroups
+    - 5.6 Revisiting Isomorphisms
+- Chapter 6: Families of Groups
+    - 6.1 Cyclic Groups
+    - 6.2 Dihedral Groups
+    - 6.3 Symmetric Groups
+    - 6.4 Alternating Groups
+- Chapter 7: Cosets, Lagrange's Theorem, and Normal Subgroups
+    - 7.1 Cosets
+    - 7.2 Lagrange's Theorem
+    - 7.3 Normal Subgroups
+- Chapter 8: Products and Quotients of Groups
+    - 8.1 Products of Groups
+    - 8.2 Quotients of Groups
+- Chapter 9: Homomorphisms and the Isomorphism Theorems
+    - 9.1 Homomorphisms
+    - 9.2 The Isomorphism Theorems
+- Chapter 11: An Introduction to Rings
+- Appendix A: Prerequisites
+    - A.1 Basic Set Theory
+    - A.2 Relations
+    - A.3 Partitions
+    - A.4 Functions
+    - A.5 Induction
+- Appendix B: Elements of Style for Proofs
+- Appendix C: Fancy Mathematical Terms
+- Appendix D: Definitions in Mathematics
+
+## Miscellaneous Materials ##
+- Setting the Stage (first day activity)
 
 ## Exams ##
 Below are links to each exam.
 
-- [Exam 1 (in-class)]({{site.baseurl}}/teaching/mat511f15/511Exam1-Class.pdf) (PDF)
-- [Solutions to Exam 1 (in-class)]({{site.baseurl}}/teaching/mat511f15/511Exam1-Class-Solns.pdf) (PDF).  Note that in some cases I've opted to provide a solution that I thought would be easiest to understand, but may not be the most elegant.
-- [Exam 1 (take-home)]({{site.baseurl}}/teaching/mat511f15/511Exam1-Home.pdf) (PDF). If you are interested in using LaTeX to type up your solutions, then you can obtain the .tex file for the exam [here]({{site.baseurl}}/teaching/mat511f15/511Exam1-Home.tex). (Due Monday, October 19)
-- [Exam 2 (take-home)]({{site.baseurl}}/teaching/mat511f15/511Exam2-Home.pdf) (PDF). If you are interested in using LaTeX to type up your solutions, then you can obtain the .tex file for the exam [here]({{site.baseurl}}/teaching/mat511f15/511Exam1-Home.tex). (Due Friday, December 4 by 5pm)
+- Coming soon.
