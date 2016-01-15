@@ -111,7 +111,7 @@ Upon successful completion of the course, you will be able to:
 - Apply differentiation and integration in setting up and critically evaluating hypotheses in the fields of science, engineering and technology.
 
 ### Learning Management System ###
-We will make limited use of Bb Learn this semester, which is Northern Arizona University's default learning management system (LMS).  Most course content (e.g., syllabus, course notes, homework, etc.) will be housed here on our [course webpage]({{ site.baseurl }}/teaching/mat136f15/) that lives outside of Bb Learn.  I suggest you bookmark this page.  In addition, we will utilize a Google Group to facilitate out of class discussion.  I will send the class an invite to our Google Group and briefly discuss its use.  The only thing I will use Bb Learn for is to communicate grades.
+We will make limited use of BbLearn this semester, which is Northern Arizona University's default learning management system (LMS).  Most course content (e.g., syllabus, course notes, homework, etc.) will be housed here on our [course webpage]({{ site.baseurl }}/teaching/mat136f15/) that lives outside of BbLearn.  I suggest you bookmark this page.  In addition, we will utilize a Google Group to facilitate out of class discussion.  I will send the class an invite to our Google Group and briefly discuss its use.  The only thing I will use BbLearn for is to communicate grades.
 
 ### An Inquiry-Based Approach ###
 This is not a lecture-oriented class or one in which mimicking prefabricated examples will lead you to success. You will be expected to work actively to construct your own understanding of the topics at hand, with the readily available help of me, our Peer TA, and your classmates. Many of the concepts you learn and problems you work will be new to you and ask you to stretch your thinking. You will experience *frustration* and *failure* before you experience *understanding*. This is part of the normal learning process. **If you are doing things well, you should be confused at different points in the semester. The material is too rich for a human being to completely understand it immediately.** Your viability as a professional in the modern workforce depends on your ability to embrace this learning process and make it work for you.
@@ -238,7 +238,7 @@ In summary, your final grade will be determined by your scores in the following 
 	<tr>
 		<td>4 Midterm Exams</td>
 		<td>50%</td>
-		<td>Each exam is worth 12.5% of you overall grade.</td>
+		<td>Each exam is worth 12.5% of your overall grade.</td>
 	</tr>
 	<tr>
 		<td>Final Exam</td>
