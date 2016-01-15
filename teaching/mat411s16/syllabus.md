@@ -106,7 +106,7 @@ As the semester progresses, it should become clear to you what the expectations 
 ### Homework ###
 **Daily Homework:** Homework will be assigned each class meeting, and students are expected to complete (or try their best to complete) each assignment before walking into the next class period. All assignments should be *carefully*, *clearly*, and *cleanly* written. Among other things, this means your work should include proper grammar, punctuation and spelling. You will almost always write a draft of a given solution before you write down the final argument, so do yourself a favor and get in the habit of differentiating your scratch work from your submitted assignment.
 
-The Daily Homework will generally consist of proving theorems from the [course notes](http://teaching.danaernst.com/mat411f14/notes/).  On the day that a homework assignment is due, the majority of the class period will be devoted to students presenting some subset (maybe all) of the proofs/solutions that are due that day.  At the end of each class session, students should submit their write-ups for all of the proofs that were due that day.  Daily Homework will be graded on a $\checkmark$-system.
+The Daily Homework will generally consist of proving theorems from the [course notes]({{site.baseurl}}/teaching/mat411s16/materials/).  On the day that a homework assignment is due, the majority of the class period will be devoted to students presenting some subset (maybe all) of the proofs/solutions that are due that day.  At the end of each class session, students should submit their write-ups for all of the proofs that were due that day.  Daily Homework will be graded on a $\checkmark$-system.
 
 Students are allowed (in fact, encouraged!) to modify their written proofs in light of presentations made in class; however, **you are required to use the colored marker pens provided in class**.  I will provide more guidance with respect to this during the first couple weeks of the semester.
 
@@ -151,7 +151,7 @@ The Weekly Homework assignments described above are subject to the following rub
 
 Unlike a traditional Moore method course, you are allowed and encouraged to work together on homework.  However, each student is expected to turn in his or her own work.  In general, late homework will *not* be accepted.  However, you are allowed to turn in up to 5 homework assignments (Daily or Weekly) late with no questions asked.  Unless you have made arrangements *in advance* with me, homework turned in after class will be considered late.  Your overall homework grade will be worth 15% of your final grade.
 
-On each homework assignment, please write (i) your name, (ii) name of course, and (iii) Daily/Weekly Homework number.  You can find the list of homework assignments [here](http://teaching.danaernst.com/mat411f14/homework/).  I reserve the right to modify the homework assignments as I see necessary.
+On each homework assignment, please write (i) your name, (ii) name of course, and (iii) Daily/Weekly Homework number.  You can find the list of homework assignments [here]({{site.baseurl}}/teaching/mat411s16/homework/).  I reserve the right to modify the homework assignments as I see necessary.
 
 ### Class Presentations and Participation ###
 Though the atmosphere in this class should be informal and friendly, what we do in the class is serious business. In particular, the presentations made by students are to be taken seriously since they spearhead the work of the class.  Here are some of my expectations:
