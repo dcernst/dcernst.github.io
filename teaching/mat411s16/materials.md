@@ -26,18 +26,9 @@ title: Course Materials
 </div>
 </div>
 
-## An Inquiry-Based Approach to Abstract Algebra (course notes) ##
+## An Inquiry-Based Approach to Abstract Algebra ##
 
-We will not be using a textbook this semester, but rather a task-sequence adopted for IBL.  The task-sequence that we are using was written by me.  Any errors in the notes are no one's fault but my own.  In this vein, if you think you see an error, please inform me, so that it can be remedied.
-
-I will not be covering every detail of the notes and the only way to achieve a sufficient understanding of the material is to be digesting the reading in a meaningful way.  You should be seeking clarification about the content of the notes whenever necessary by asking questions in class or posting questions to the course Google Group.  Here's what [Paul Halmos](http://en.wikipedia.org/wiki/Paul_Halmos) has to say about reading mathematics.
-
-<blockquote>
-  <p>Don’t just read it; fight it! Ask your own questions, look for your own examples, discover your own proofs. Is the hypothesis necessary? Is the converse true? What happens in the classical special case? What about the degenerate cases? Where does the proof use the hypothesis?</p>
-  <footer><a href="http://en.wikipedia.org/wiki/Paul_Halmos">Paul Halmos</a></footer>
-</blockquote>
-
-You can find the course notes below.   I reserve the right to modify them as we go, but I will always inform you of any significant changes.  The notes will be released incrementally.  Each link below is to a PDF file.
+We will not be using a textbook this semester, but rather a task-sequence adopted for IBL.  The task-sequence that we are using was written by me.  Any errors in the notes are no one's fault but my own.  In this vein, if you think you see an error, please inform me, so that it can be remedied.  I reserve the right to modify them as we go, but I will always inform you of any significant changes.  The notes will be released incrementally.  Each link below is to a PDF file.
 
 - Title Page and Front Matter
 - Chapter 1: Introduction
@@ -83,6 +74,13 @@ You can find the course notes below.   I reserve the right to modify them as we 
 - Appendix B: Elements of Style for Proofs
 - Appendix C: Fancy Mathematical Terms
 - Appendix D: Definitions in Mathematics
+
+I will not be covering every detail of the notes and the only way to achieve a sufficient understanding of the material is to be digesting the reading in a meaningful way.  You should be seeking clarification about the content of the notes whenever necessary by asking questions.  Here's what [Paul Halmos](http://en.wikipedia.org/wiki/Paul_Halmos) has to say about reading mathematics.
+
+<blockquote>
+  <p>Don’t just read it; fight it! Ask your own questions, look for your own examples, discover your own proofs. Is the hypothesis necessary? Is the converse true? What happens in the classical special case? What about the degenerate cases? Where does the proof use the hypothesis?</p>
+  <footer><a href="http://en.wikipedia.org/wiki/Paul_Halmos">Paul Halmos</a></footer>
+</blockquote>
 
 ## Miscellaneous Materials ##
 - Setting the Stage (first day activity)
