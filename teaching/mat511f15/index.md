@@ -1,5 +1,5 @@
 ---
-title: Abstract Algebra
+title: Abstract Algebra I
 author: Dana Ernst
 layout: default
 ---
