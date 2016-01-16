@@ -105,7 +105,7 @@ As the semester progresses, it should become clear to you what the expectations 
 
 ### Homework ###
 
-You are allowed and encouraged to work together on homework.  However, each student is expected to turn in his or her own work.  In general, late homework will *not* be accepted.  However, you are allowed to turn in three late homework assignments with no questions asked. Unless you have made arrangements in advance with me, homework turned in after class will be considered late. When doing your homework, I encourage you to use the Elements of Style for Proofs (see Appendix B of the [course notes]({{site.baseurl}}/teaching/mat411s16/materials/) as a reference. Your overall homework grade will be worth 15% of your final grade.
+You are allowed and encouraged to work together on homework.  However, each student is expected to turn in his or her own work.  In general, late homework will *not* be accepted.  However, you are allowed to turn in three late homework assignments with no questions asked. Unless you have made arrangements in advance with me, homework turned in after class will be considered late. When doing your homework, I encourage you to use the Elements of Style for Proofs (see Appendix B of the [course notes]({{site.baseurl}}/teaching/mat411s16/materials/) as a reference. Your overall homework grade will be worth 20% of your final grade.
 
 On each homework assignment, please write (i) your name, (ii) name of course, and (iii) Daily/Weekly Homework number.  You can find the list of assignments on the [homework page]({{site.baseurl}}/teaching/mat411s16/homework/).  I reserve the right to modify the homework assignments as I see necessary.
 
@@ -198,10 +198,10 @@ However, you should not let the rubric deter you from presenting if you have an 
 In general, I will curate the list of student presenters each class meeting.  However, students are welcome to volunteer. This type of behavior will be rewarded.
 If more than one student volunteers, the student with the fewest number of presentations has priority.  The problems chosen for presentation will come from the Daily Homework assignments.  Each student in the audience is expected to be engaged and respectful during another student's presentation.
 
-In order to receive a **passing grade** on the presentation portion of your grade, **you must present at least twice prior to each of the three midterm exams and at least once after the third midterm exam**  for a total of at least 7 times during semester. Notice that I've described a minimum.  To ensure a good grade, you should present as often as you can. Your overall performance during presentations, as well as your level of interaction/participation during class, will be worth ??% of your overall grade.
+In order to receive a **passing grade** on the presentation portion of your grade, **you must present at least twice prior to each of the three midterm exams and at least once after the third midterm exam**  for a total of at least 7 times during semester. Notice that I've described a minimum.  To ensure a good grade, you should present as often as you can. Your overall performance during presentations, as well as your level of interaction/participation during class, will be worth 15% of your overall grade.
 
 ### Exams ###
-There will be three midterm exams and a cumulative final exam.  Each midterm exam will be worth ??% of your overall grade and the final exam will be worth 20%.  All of the exams will likely consist of both an in-class portion and a take-home portion.  The in-class portions of the midterm exams are *tentatively* scheduled for **???**, **???**, and **???**.  The final exam will be on **Monday, May 9** at 10:00AM-12:00PM.  Make-up exams will only be given under extreme circumstances, as judged by me.  In general, it will be best to communicate conflicts ahead of time.
+There will be three midterm exams and a cumulative final exam.  Each midterm exam will be worth 15% of your overall grade and the final exam will be worth 20%.  All of the exams will likely consist of both an in-class portion and a take-home portion.  The in-class portions of the midterm exams are *tentatively* scheduled for **Wednesday, February 17**, **Wednesday, March 23**, and **Wednesday, April 20**.  The final exam will be on **Monday, May 9** at 10:00AM-12:00PM.  Make-up exams will only be given under extreme circumstances, as judged by me.  In general, it will be best to communicate conflicts ahead of time.
 
 ### Rules of the Game ###
 You should *not* look to resources outside the context of this course for help.  That is, you should not be consulting the web, other texts, other faculty, or students outside of our course.  On the other hand, you may use each other, the course notes, me, and your own intuition.
@@ -221,28 +221,28 @@ In summary, your final grade will be determined by your scores in the following 
 	<tbody>
 	<tr>
 		<td>Homework</td>
-		<td>??%</td>
+		<td>20%</td>
 		<td>A combination of Daily &amp; Weekly Homework</td>
 	</tr>
         <tr>
 		<td>Presentations &amp; Participation</td>
-		<td>??%</td>
+		<td>15%</td>
 		<td>See above for requirements</td>
 	</tr>
 	<tr>
 		<td>Exam 1</td>
-		<td>??%</td>
-		<td>???</td>
+		<td>15%</td>
+		<td>Wednesday, February 17</td>
 	</tr>
   <tr>
     <td>Exam 2</td>
-    <td>??%</td>
-    <td>??</td>
+    <td>15%</td>
+    <td>Wednesday, March 23</td>
   </tr>
   <tr>
     <td>Exam 3</td>
-    <td>??%</td>
-    <td>??</td>
+    <td>15%</td>
+    <td>Wednesday, April 20</td>
   </tr>
 	<tr>
 		<td>Final Exam</td>
