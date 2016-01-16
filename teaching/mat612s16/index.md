@@ -26,7 +26,7 @@ Welcome to the course web page for the Spring 2016 manifestation of MAT 612: Abs
 <div class="row">
   <div class="col-xs-12 col-sm-6">
     <div>
-    <h2>General Info</h2>
+    <h2>Course Info</h2>
     <strong>Title:</strong> MAT 612: Abstract Algebra II<br />
     <strong>Semester:</strong> Spring 2016<br />
     <strong>Credits:</strong> 3<br />
