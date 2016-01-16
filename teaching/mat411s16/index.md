@@ -68,6 +68,7 @@ In this course, *everyone* will be required to
 
 As the semester progresses, it should become clear to you what the expectations are.  This will be new to many of you and there may be some growing pains associated with it. For more details, see the [syllabus]({{ site.baseurl }}/teaching/mat411s16/syllabus/).
 
+<!--
 ## Learning Management System ##
 We will be making limited use of BbLearn this semester, which is Northern Arizona University's default learning management system (LMS).  Most course content (e.g., syllabus, course notes, homework, etc.) will be housed on our course webpage that lives outside of Bb Learn.  I suggest you bookmark the page you are reading right now. The only thing I will use Bb Learn for is to communicate grades.
 
@@ -80,3 +81,4 @@ I will not be covering every detail of the notes and the only way to achieve a s
   <p>Don’t just read it; fight it! Ask your own questions, look for your own examples, discover your own proofs. Is the hypothesis necessary? Is the converse true? What happens in the classical special case? What about the degenerate cases? Where does the proof use the hypothesis?</p>
   <footer><a href="http://en.wikipedia.org/wiki/Paul_Halmos">Paul Halmos</a></footer>
 </blockquote>
+-->
