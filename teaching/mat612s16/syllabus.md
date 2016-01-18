@@ -66,10 +66,11 @@ There is no required textbook.  All necessary material (including homework) will
 
 ### Outline of Course ###
 The course will consist of four parts.  I'm not sure what order will cover these topics.
-  1.  Ring Theory. We will pick up where we left off in MAT 511 and continue our study of rings.  In particular, we introduce Euclidean domains and unique factorization domains (UFDs) and continue to tinker with principal ideal domains (PIDs) and polynomial rings.
-  2. Module Theory. After introducing basic definitions and examples, we study module homomorphisms and quotients.  We will also take a look at some subset of free modules, direct sums of modules, and exact sequences involving modules.
-  3. Field theory and Galois Theory.  We will take a closer look at fields (including finite fields) and introduce field extensions.  Time permitting, we will examine classical straightedge and compass constructions. Arguably, the punchline of the course is the Fundamental Theorem of Galois Theory.  In addition to proving this theorem, we will study several applications including the computation of Galois groups, solvable and radical extensions, and insolvability of the quintic.
-  4. Group Theory.  We will dabble in a few additional group theory topics including nilpotent groups, solvable groups, and semi-direct products. Time permitting, we will work on classifying groups of small order.
+
+    1.  **Ring Theory.** We will pick up where we left off in MAT 511 and continue our study of rings.  In particular, we introduce Euclidean domains and unique factorization domains (UFDs) and continue to tinker with principal ideal domains (PIDs) and polynomial rings.
+    2. **Module Theory.** After introducing basic definitions and examples, we study module homomorphisms and quotients.  We will also take a look at some subset of free modules, direct sums of modules, and exact sequences involving modules.
+    3. **Field theory and Galois Theory.**  We will take a closer look at fields (including finite fields) and introduce field extensions.  Time permitting, we will examine classical straightedge and compass constructions. Arguably, the punchline of the course is the Fundamental Theorem of Galois Theory.  In addition to proving this theorem, we will study several applications including the computation of Galois groups, solvable and radical extensions, and insolvability of the quintic.
+    4. **Group Theory.**  We will dabble in a few additional group theory topics including nilpotent groups, solvable groups, and semi-direct products. Time permitting, we will work on classifying groups of small order.
 
 ### Learning Management System ###
 We will make limited use of Bb Learn this semester, which is Northern Arizona University's default learning management system (LMS).  Most course content (e.g., syllabus, course notes, homework, etc.) will be housed here on our [course webpage]({{ site.baseurl }}/teaching/mat612s16/) that lives outside of Bb Learn.
@@ -112,7 +113,7 @@ Generally, the written homework assignments will be due on Wednesdays, but I wil
 </table>
 </center>
 
-To compute your score on a given homework assignment, I will divide your total points by the total possible points to obtain a percent score. Each homework assignment has the same weight.  Your overall homework grade will be worth 20% of your final grade.
+To compute your score on a given homework assignment, I will divide your total points by the total possible points to obtain a percent score. Each homework assignment has the same weight.  Your overall homework grade will be worth 20% of your final grade. I expect students to be citing 
 
 ### Exams ###
 There will be 3 midterm exams and a cumulative final exam.  Exam 1 and Exam 2 will be written exams and may include a take-home portion.  These exams are tentatively scheduled for **???** and **???**, respectively, and each is worth 25% of your overall grade.  Exam 3 will be an oral exam taken individually in my office. The questions for the oral exam will predominately come from homework problems. Exam 3 will last roughly 30 minutes.  Your score on Exam 3, as well as your performance on the presentation of in-class theorems (see below) will be worth 10% of your overall grade.  Students will schedule Exam 3 during **April 25-May 12**.  The final exam will be on **Wednesday, May 11** at **7:30-9:30AM** and is worth 25% of your overall grade. Make-up exams will only be given under extreme circumstances, as judged by me. In general, it will be best to communicate conflicts ahead of time.
