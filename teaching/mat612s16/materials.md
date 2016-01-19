@@ -21,9 +21,17 @@ title: Course Materials
 </div>
 
 ## Course Notes ##
-I'll post notes here as they become available.
+I'll post notes here as they become available. Each link below is to a PDF file.
 
-- Coming soon.
+- [Chapter 1: Ring Theory]({{site.baseurl}}/teaching/mat612s16/612Notes1.pdf)
+  - 1.1 Definitions and Examples
+  - 1.2 Ideals and Quotient Rings
+  - 1.3 Maximal and Prime Ideals
+  - 1.4 Rings of Fractions
+  - 1.5 Principal Ideal Domains
+  - 1.6 Euclidean Domains
+  - 1.7 Unique Factorization Domains
+  - More coming soon  
 
 ## Exams ##
 Below are links to each exam.
