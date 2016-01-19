@@ -1,0 +1,147 @@
+\documentclass[11pt]{scrartcl}
+\usepackage[scale=1.5]{ccicons}
+\usepackage[notextcomp]{kpfonts} 
+\usepackage[margin=1in]{geometry}
+\usepackage{amsthm,amssymb}
+\usepackage{graphicx}
+\usepackage{enumitem}
+\usepackage{bm}
+\usepackage{tabu}
+\usepackage{tikz}
+
+\usepackage{color}
+\definecolor{darkblue}{rgb}{0, 0, .6}
+\definecolor{grey}{rgb}{.7, .7, .7}
+\usepackage[breaklinks]{hyperref}
+\hypersetup{
+	colorlinks=true,
+	linkcolor=darkblue,
+	anchorcolor=darkblue,
+	citecolor=darkblue,
+	pagecolor=darkblue,
+	urlcolor=darkblue,
+	pdftitle={},
+	pdfauthor={}
+}
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\lhead{MAT 612 - Spring 2016}
+\chead{}
+\rhead{Due Wednesday, January 27}
+\renewcommand{\headrulewidth}{.4pt}
+
+\theoremstyle{definition}
+\newtheorem{theorem}{Theorem}
+\newtheorem{acknowledgement}[theorem]{Acknowledgement}
+\newtheorem{algorithm}[theorem]{Algorithm}
+\newtheorem{axiom}[theorem]{Axiom}
+\newtheorem{case}[theorem]{Case}
+\newtheorem{claim}[theorem]{Claim}
+\newtheorem*{claim*}{Claim}
+\newtheorem{conclusion}[theorem]{Conclusion}
+\newtheorem{condition}[theorem]{Condition}
+\newtheorem{conjecture}[theorem]{Conjecture}
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{criterion}[theorem]{Criterion}
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{example}[theorem]{Example}
+\newtheorem{exercise}[theorem]{Exercise}
+\newtheorem{journal}[theorem]{Journal}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{notation}[theorem]{Notation}
+\newtheorem{problem}[theorem]{Problem}
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{remark}[theorem]{Remark}
+\newtheorem{solution}[theorem]{Solution}
+\newtheorem{summary}[theorem]{Summary}
+\newtheorem{skeleton}[theorem]{Skeleton Proof}
+\newtheorem{activity}[theorem]{Activity}
+\newtheorem{intuitivedef}[theorem]{Intuitive Definition}
+
+\DeclareMathOperator{\Aut}{Aut}
+\DeclareMathOperator{\Inn}{Inn}
+\DeclareMathOperator{\Stab}{Stab}
+
+\newcommand{\blankline}{\pagebreak[2]\vspace{.5\baselineskip}}
+
+\setlength{\parindent}{0pt}
+
+%Useful for cut and paste
+%\begin{enumerate}[label=\rm{(\alph*)}]
+
+\begin{document}
+
+\title{Homework 1}
+\subtitle{Abstract Algebra II}
+\date{}
+
+\maketitle
+\thispagestyle{fancy}
+
+Complete the following problems. Note that you should only use results that we've discussed so far this semester or last semester.
+
+\begin{problem}
+Determine whether each of the following statements is `True' or `False'.  If a statement is False, provide a counterexample.  If a statement is True, then either provide a reference or a proof.
+
+\begin{enumerate}[label=\rm{(\alph*)}]
+\item The image of a ring with 10 elements under some ring homomorphism may consist of 3 elements.
+\item Every subring of an integral domain is an integral domain.
+\item If $R$ is an integral domain but not a field, then it is possible that $R$ contains a subring that is a field.
+\item Every ring consisting of exactly 5 elements is a field.
+\item If $R$ is a finite commutative ring with 1 having no zero divisors, then $R$ is a field.
+\item Suppose $R$ is an integral domain $R$. Then $R/I$ is a field iff $I$ is a prime ideal.
+\item The set of matrices
+\[
+F=\left\{\begin{bmatrix}
+1 & 0\\
+0 & 1
+\end{bmatrix},
+\begin{bmatrix}
+1 & 1\\
+1 & 0
+\end{bmatrix},
+\begin{bmatrix}
+0 & 1\\
+1 & 1
+\end{bmatrix},
+\begin{bmatrix}
+0 & 0\\
+0 & 0
+\end{bmatrix}
+\right\}
+\]
+with entries from the field $\mathbb{Z}_2$ is a field, under ordinary matrix addition and multiplication.
+\item Suppose $R$ is a commutative ring.  If $ra\in I$ for all $r\in R$ and $a\in I$, then $I$ is a two-sided ideal in $R$.
+\end{enumerate}
+\end{problem}
+
+\begin{problem}
+Let $R$ be a commutative ring with 1 and let $U(R)$ be the group of units in $R$.  Prove that $R$ has a unique maximal ideal iff $R\setminus U(R)$ is an ideal.  \emph{Note:} You may assume that maximal ideals exist.
+\end{problem}
+
+\begin{problem}
+A \textbf{simple ring} is a ring with no nonzero proper 2-sided ideals.  If $R$ is a ring, then the \textbf{center} of $R$ is defined to be $Z(R):=\{x\in R\mid rx=xr\text{ for all } r\in R\}$.  Prove that the center of a simple ring with 1 is a field.  \emph{Note:} You must first show that the center is a subring.
+\end{problem}
+
+\begin{problem}
+Assume $R$ is a commutative ring with 1. Prove that the ideal $(x)$ in $R[x]$ is a maximal ideal iff $R$ is a field.
+\end{problem}
+
+\begin{problem}
+Assume $R$ is a commutative ring and for each $r\in R$, there exists an integer $n>1$ such that $r^n=r$. Prove that every prime ideal of $R$ is maximal.
+\end{problem}
+
+\begin{problem}
+Assume $F$ is a finite field. Prove that there exists a prime $p$ such that all non-zero elements of $F$ have an additive order of $p$.
+\end{problem}
+
+\begin{problem}
+Assume $R$ is a Euclidean Domain.  Let $m$ be the minimum integer in the set of norms of nonzero elements of $R$. Prove that every nonzero element of $R$ of norm $m$ is a unit.  Deduce that a nonzero element of norm zero is a unit.
+\end{problem}
+
+\begin{problem}
+Assume $R$ is a Euclidean Domain.  Prove that if $(a,b)=1$ and $a$ divides $bc$, then $a$ divides $c$. More generally, prove that if $a$ divides $bc$ with nonzero $a$, then $a/(a,b)$ divides $c$. \emph{Note:} I don't care what order you do these in.  Certainly, the general statement handles the case when $(a,b)=1$. However, you may find it useful to do the special case first.
+\end{problem}
+
+\end{document}
