@@ -34,11 +34,10 @@ The following assignments are to be turned in at the end of the indicated class 
 
 - **Daily Homework 1:** Read the [syllabus]({{site.baseurl}}/teaching/mat411s16/syllabus/) and write down 5 important items.  *Note:*  All of the exam dates only count as a single item.  Turn in on your own paper at the beginning of class. (Due Friday, January 22)
 - **Daily Homework 2:** Stop by my office (AMB 176) and say hello. If I'm not there, just slide note under my door saying you stopped by. (Due Friday, January 22)
-- **Daily Homework 3:** Coming soon.
+- **Daily Homework 3:** Read and sign the [Student Contract]({{site.baseurl}}/teaching/StudentContract.pdf). (Due Friday, January 22)
+- **Daily Homework 4:** Read [Chapter 1: Introduction]({{site.baseurl}}/teaching/mat411s16/Introduction.pdf) of the course notes.  In addition, complete 2.2-2.6, 2.8-2.12 in [Chapter 2: An Intuitive Approach to Groups]({{site.baseurl}}/teaching/mat411s16/IntuitiveGroups.pdf) and digest the surrounding text along the way. (Due Friday, January 22)
 
 <!--
-- **Daily Homework 2:** Read Chapter 1: Introduction of the [course notes](http://teaching.danaernst.com/mat411f14/notes/).  In addition, complete 2.2, 2.3, 2.4, 2.5, 2.6, 2.8, 2.9, 2.10, 2.11, 2.12 in [Chapter 2: An Intuitive Approach to Groups](http://teaching.danaernst.com/files/fall2014/mat411/IntuitiveGroups.pdf) and digest the surrounding text along the way. (Due Wednesday, August 27)
-- **Daily Homework 3:** Stop by my office (AMB 176) and say hello. If I'm not there, just slide note under my door saying you stopped by. (Due Friday, August 29)
 - **Daily Homework 4:** Read [Appendix B: Elements of Style of Proof](http://teaching.danaernst.com/files/fall2014/mat411/ElementsOfStyle.pdf). Also, complete 2.13, 2.15-2.25 in [Chapter 2: An Intuitive Approach to Groups](http://teaching.danaernst.com/files/fall2014/mat411/IntuitiveGroups.pdf) and digest the surrounding text along the way. (Due Friday, August 29)
 - **Daily Homework 5:** Read [Appendix C: Fancy Mathematical Terms](http://teaching.danaernst.com/files/fall2014/mat411/FancyMathematicalTerms.pdf). Also, complete 3.1-3.10 in [Chapter 3: Cayley Diagrams](http://teaching.danaernst.com/files/fall2014/mat411/CayleyDiagrams.pdf) and digest the surrounding text along the way. (Due Wednesday, September 3)
 - **Daily Homework 6:** Read [Appendix D: Definitions in Mathematics](http://teaching.danaernst.com/files/fall2014/mat411/Definitions.pdf). Also, complete 3.11-3.17 in [Chapter 3: Cayley Diagrams](http://teaching.danaernst.com/files/fall2014/mat411/CayleyDiagrams.pdf) and digest the surrounding text along the way. (Due Friday, September 5)
