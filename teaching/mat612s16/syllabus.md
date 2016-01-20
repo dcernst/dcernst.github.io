@@ -113,10 +113,10 @@ Generally, the written homework assignments will be due on Wednesdays, but I wil
 </table>
 </center>
 
-To compute your score on a given homework assignment, I will divide your total points by the total possible points to obtain a percent score. Each homework assignment has the same weight.  Your overall homework grade will be worth 15% of your final grade. If you utilize any resources other than our course notes or Dummit and Foote, I expect you to cite your sources.  Better yet, try to complete your homework without relying on external resources.
+To compute your score on a given homework assignment, I will divide your total points by the total possible points to obtain a percent score. Each homework assignment has the same weight.  Your overall homework grade will be worth 25% of your final grade. If you utilize any resources other than our course notes or Dummit and Foote, I expect you to cite your sources.  Better yet, try to complete your homework without relying on external resources.
 
 ### Exams ###
-There will be 3 midterm exams and a cumulative final exam.  Exam 1 and Exam 2 will be written exams and may include a take-home portion.  These exams are tentatively scheduled for **Friday, February 26** and **Friday, April 15**, respectively, and each is worth 25% of your overall grade.  Exams 1 and 2 are likely to have take-home components. Exam 3 will be an oral exam taken individually in my office. The questions for the oral exam will predominately come from homework problems. Exam 3 will last roughly 30 minutes.  Your score on Exam 3 together with your performance on the presentation of in-class theorems (see below) will be worth 10% of your overall grade.  Students will schedule Exam 3 during **April 25-May 12**.  The final exam will be on **Wednesday, May 11** at **7:30-9:30AM** and is worth 25% of your overall grade. Make-up exams will only be given under extreme circumstances, as judged by me. In general, it will be best to communicate conflicts ahead of time.
+There will be 3 midterm exams and a cumulative final exam.  Exam 1 and Exam 2 will be written exams and may include a take-home portion.  These exams are tentatively scheduled for **Friday, February 26** and **Friday, April 15**, respectively, and each is worth 20% of your overall grade.  Exams 1 and 2 are likely to have take-home components. Exam 3 will be an oral exam taken individually in my office. The questions for the oral exam will predominately come from homework problems. Exam 3 will last roughly 30 minutes.  Your score on Exam 3 together with your performance on the presentation of in-class theorems (see below) will be worth 10% of your overall grade.  Students will schedule Exam 3 during **April 25-May 12**.  The final exam will be on **Wednesday, May 11** at **7:30-9:30AM** and is worth 25% of your overall grade. Make-up exams will only be given under extreme circumstances, as judged by me. In general, it will be best to communicate conflicts ahead of time.
 
 ### Presentations ###
 A couple times each week, I will ask individuals to prepare the proof of a theorem, or possibly a detailed description of an example, that will be presented to the class.  You are allowed to consult outside resources when preparing for these presentations (but you should cite your sources).  The goal will be for each student to present twice. All presentations will be graded using the rubric below.
@@ -170,15 +170,15 @@ In summary, your final grade will be determined by your scores in the following 
 	<tbody>
 	<tr>
 		<td>Homework</td>
-		<td>15%</td>
+		<td>25%</td>
 	</tr>
 	<tr>
 		<td>Exam 1 (written)</td>
-		<td>25%</td>
+		<td>20%</td>
 	</tr>
   <tr>
     <td>Exam 2 (written)</td>
-    <td>25%</td>
+    <td>20%</td>
   </tr>
   <tr>
     <td>Exam 3 (oral) and Presentations</td>
