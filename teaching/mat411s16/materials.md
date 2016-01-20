@@ -30,14 +30,14 @@ title: Course Materials
 
 We will not be using a textbook this semester, but rather a task-sequence adopted for IBL.  The task-sequence that we are using was written by me.  Any errors in the notes are no one's fault but my own.  In this vein, if you think you see an error, please inform me, so that it can be remedied.  I reserve the right to modify them as we go, but I will always inform you of any significant changes.  The notes will be released incrementally.  Each link below is to a PDF file.
 
-- Title Page and Front Matter
-- Chapter 1: Introduction
+- [Title Page]({{site.baseurl}}/teaching/mat411s16/TitlePage.pdf)
+- [Chapter 1: Introduction]({{site.baseurl}}/teaching/mat411s16/Introduction.pdf)
     - 1.1 What is Abstract Algebra?
     - 1.2 An Inquiry-Based Approach
     - 1.3 Rules of the Game
     - 1.4 Structure of the Notes
     - 1.5 Some Minimal Guidance
-- Chapter 2: An Intuitive Approach to Groups
+- [Chapter 2: An Intuitive Approach to Groups]({{site.baseurl}}/teaching/mat411s16/IntuitiveGroups.pdf)
 - Chapter 3: Cayley Diagrams
 - Chapter 4: An Introduction to Subgroups and Isomorphisms
     - 4.1 Subgroups
@@ -65,15 +65,15 @@ We will not be using a textbook this semester, but rather a task-sequence adopte
     - 9.1 Homomorphisms
     - 9.2 The Isomorphism Theorems
 - Chapter 11: An Introduction to Rings
-- Appendix A: Prerequisites
+- [Appendix A: Prerequisites]({{site.baseurl}}/teaching/mat411s16/Prerequisites.pdf)
     - A.1 Basic Set Theory
     - A.2 Relations
     - A.3 Partitions
     - A.4 Functions
     - A.5 Induction
-- Appendix B: Elements of Style for Proofs
-- Appendix C: Fancy Mathematical Terms
-- Appendix D: Definitions in Mathematics
+- [Appendix B: Elements of Style for Proofs]({{site.baseurl}}/teaching/mat411s16/ElementsOfStyle.pdf)
+- [Appendix C: Fancy Mathematical Terms]({{site.baseurl}}/teaching/mat411s16/FancyMathematicalTerms.pdf)
+- [Appendix D: Definitions in Mathematics]({{site.baseurl}}/teaching/mat411s16/Definitions.pdf)
 
 I will not be covering every detail of the notes and the only way to achieve a sufficient understanding of the material is to be digesting the reading in a meaningful way.  You should be seeking clarification about the content of the notes whenever necessary by asking questions.  Here's one of my favorite quotes about reading mathematics.
 
