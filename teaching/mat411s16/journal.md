@@ -31,7 +31,7 @@ We’ll use this page to keep track of what has happened each day in class. It w
 ## Week 1 ##
 
 <ul class="fa-ul">
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, January 20:</b> Coming soon.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, January 20:</b> First day!  After attempting to learn names, we launched in the [Setting the Stage]({{ site.baseurl }}/teaching/SettingTheStage.pdf) activity.  I was impressed by the level of engagement and everyone's willingness to share.  Some wonderful ideas were discussed! The last bit of class was devoted to touring the course website and discussing a few important items from the [syllabus]({{site.baseurl}}/teaching/mat411s16/syllabus/).</li>
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, January 22:</b> Coming soon.</li>
 </ul>
 

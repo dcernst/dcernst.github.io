@@ -36,6 +36,7 @@ The following assignments are to be turned in at the end of the indicated class 
 - **Daily Homework 2:** Stop by my office (AMB 176) and say hello. If I'm not there, just slide note under my door saying you stopped by. (Due Friday, January 22)
 - **Daily Homework 3:** Read and sign the [Student Contract]({{site.baseurl}}/teaching/StudentContract.pdf). (Due Friday, January 22)
 - **Daily Homework 4:** Read [Chapter 1: Introduction]({{site.baseurl}}/teaching/mat411s16/Introduction.pdf) of the course notes.  In addition, complete 2.2-2.6, 2.8-2.12 in [Chapter 2: An Intuitive Approach to Groups]({{site.baseurl}}/teaching/mat411s16/IntuitiveGroups.pdf) and digest the surrounding text along the way. (Due Friday, January 22)
+- **Daily Homework 5:** Skim through [Appendix B: Elements of Style of Proof]({{site.baseurl}}/teaching/mat411s16/ElementsOfStyle.pdf) of the course notes.  In addition, complete 2.13, 2.15-2.25 in [Chapter 2: An Intuitive Approach to Groups]({{site.baseurl}}/teaching/mat411s16/IntuitiveGroups.pdf) and digest the surrounding text along the way. (Due Monday, January 25)
 
 <!--
 - **Daily Homework 4:** Read [Appendix B: Elements of Style of Proof](http://teaching.danaernst.com/files/fall2014/mat411/ElementsOfStyle.pdf). Also, complete 2.13, 2.15-2.25 in [Chapter 2: An Intuitive Approach to Groups](http://teaching.danaernst.com/files/fall2014/mat411/IntuitiveGroups.pdf) and digest the surrounding text along the way. (Due Friday, August 29)
