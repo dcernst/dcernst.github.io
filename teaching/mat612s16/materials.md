@@ -23,7 +23,7 @@ title: Course Materials
 ## Course Notes ##
 I'll post notes here as they become available. Each link below is to a PDF file.
 
-- [Chapter 1: Ring Theory]({{site.baseurl}}/teaching/mat612s16/612Notes1.pdf)
+- Chapter 1: Ring Theory ([Slides version])({{site.baseurl}}/teaching/mat612s16/612Notes1-Landscape.pdf), [Student version]({{site.baseurl}}/teaching/mat612s16/612Notes1-Portrait.pdf)
   - 1.1 Definitions and Examples
   - 1.2 Ideals and Quotient Rings
   - 1.3 Maximal and Prime Ideals
