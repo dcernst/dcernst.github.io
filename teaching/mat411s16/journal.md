@@ -32,7 +32,7 @@ We’ll use this page to keep track of what has happened each day in class. It w
 
 <ul class="fa-ul">
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, January 20:</b> First day!  After attempting to learn names, we launched in the [Setting the Stage]({{ site.baseurl }}/teaching/SettingTheStage.pdf) activity.  I was impressed by the level of engagement and everyone's willingness to share.  Some wonderful ideas were discussed! The last bit of class was devoted to touring the course website and discussing a few important items from the [syllabus]({{site.baseurl}}/teaching/mat411s16/syllabus/).</li>
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, January 22:</b> Coming soon.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, January 22:</b> Great first day of student presentations!  I was extremely impressed that so many people readily volunteered.  After answering a few quick questions about the syllabus, I spent a few minutes highlighting a few key features of Spinpossible.  Next, we had JK, GG, LF, IA, EO, KS, and ES present 2.2, 2.3, 2.4, 2.5, 2.6, 2.8, and 2.9, respectively.  I was really pleased with how the presentations went, both for the presenters and for the audience.</li>
 </ul>
 
 ## Week 2 ##
