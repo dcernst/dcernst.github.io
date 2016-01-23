@@ -74,10 +74,8 @@ Lastly, I am a husband and a father of two incredible sons. Oh, I enjoy drinking
 
 </div>
 
-This website was created using [GitHub Pages](https://pages.github.com) and [Jekyll](http://jekyllrb.com) together with [Twitter Bootstrap](http://getbootstrap.com).
-
 <div class="alert alert-success" role="alert">
-<i class="fa fa-code fa-fw"></i> <a href="https://github.com/dcernst/dcernst.github.io" class="alert-link">Source Code</a> on GitHub.
+<i class="fa fa-code fa-fw"></i> This website was created using <a href="https://pages.github.com" class="alert-link">GitHub Pages</a> and <a href="http://jekyllrb.com" class="alert-link">Jekyll</a> together with <a href="http://getbootstrap.com" class="alert-link">Twitter Bootstrap</a>. <a href="https://github.com/dcernst/dcernst.github.io" class="alert-link">Source Code</a> on GitHub.
 </div>
 
 <div class="alert alert-info" role="alert">
