@@ -33,7 +33,9 @@ Perhaps this is sufficiently vague, but I believe that there are two essential e
 
 For me, the guiding principle of IBL is the following question:
 
-> Where do I draw the line between content I must impart to my students versus the content they can produce independently?
+<blockquote>
+  <p>Where do I draw the line between content I must impart to my students versus the content they can produce independently?</p>
+</blockquote>
 
 E. Lee May (Salisbury State University) may have said it best:
 
