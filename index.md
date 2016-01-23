@@ -43,12 +43,10 @@ For more info, check out my [about]({{ site.baseurl }}/about/), [scholarship]({{
 
 This website was created using [GitHub Pages](https://pages.github.com) and [Jekyll](http://jekyllrb.com) together with [Twitter Bootstrap](http://getbootstrap.com).
 
-<div class="alert alert-info" role="alert">
+<div class="alert alert-success" role="alert">
 <i class="fa fa-code fa-fw"></i> <href="https://github.com/dcernst/dcernst.github.io">Source Code on GitHub</a>.
 </div>
 
 <div class="alert alert-info" role="alert">
 <i class="fa fa-hand-peace-o fa-fw"></i>&nbsp; The views expressed on this blog are my own and are not necessarily shared by my employer <a href="http://nau.edu">Northern Arizona University</a>.
 </div>
-
-<i class="fa fa-exclamation-triangle fa-fw"></i> The views expressed on this blog are my own and are not necessarily shared by my employer [Northern Arizona University](http://nau.edu).
