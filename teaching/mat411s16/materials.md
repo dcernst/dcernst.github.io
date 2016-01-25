@@ -38,7 +38,7 @@ We will not be using a textbook this semester, but rather a task-sequence adopte
     - 1.4 Structure of the Notes
     - 1.5 Some Minimal Guidance
 - [Chapter 2: An Intuitive Approach to Groups]({{site.baseurl}}/teaching/mat411s16/IntuitiveGroups.pdf)
-- Chapter 3: Cayley Diagrams
+- [Chapter 3: Cayley Diagrams]({{site.baseurl}}/teaching/mat411s16/CayleyDiagrams.pdf)
 - Chapter 4: An Introduction to Subgroups and Isomorphisms
     - 4.1 Subgroups
     - 4.2 Isomorphisms
