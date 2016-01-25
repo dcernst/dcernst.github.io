@@ -56,6 +56,7 @@ Here is a (partial) list of free and/or open-source textbooks. If you find one o
 
   * [An Inquiry-Based Approach to Abstract Algebra](http://dcernst.github.io/IBL-AbstractAlgebra/) is a set of IBL course materials for an abstract algebra course that emphasizes visualization and incorporates technology. The notes are written by me with help from [Josh Wiscons](http://people.hamilton.edu/jwiscons/index.html) and [Ben Woodruff](http://emp.byui.edu/woodruffb/). A work in progress.
   * [Abstract Algebra: Theory and Applications](http://abstract.ups.edu/index.html) by [Tom Judson](http://faculty.sfasu.edu/judsontw/) (Stephen F. Austin University).
+  * [Elementary Abstract Algebra: Examples and Applications](https://www.tamuct.edu/departments/math/textbook.php) by Justin Hill (Temple College) and Chris Thron (Texas A\&M University-Central Texas) with contributions from others.  The text is designed for students who are planning to become secondary-school teachers. The authors particularly emphasize material that has relevance to high school math, as well as practical applications. Much of the content is derived from the Judson book mentioned above.
   * [Essential Group Theory](http://bookboon.com/en/textbooks/mathematics/essential-group-theory) by [Michael Batty](http://www.mendeley.com/profiles/michael-batty/) (University of Durham).
   * [Group Theory: Birdtracks, Lie’s, and Exceptional Groups](http://www.cns.gatech.edu/GroupTheory/index.html) by [Predrag Cvitanović](https://www.physics.gatech.edu/user/predrag-cvitanovic) (Georgia Tech).
 
