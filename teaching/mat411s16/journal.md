@@ -38,7 +38,7 @@ We’ll use this page to keep track of what has happened each day in class. It w
 ## Week 2 ##
 
 <ul class="fa-ul">
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, January 25:</b> Coming soon.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, January 25:</b> Today was a busy day.  As is typical at this point in the course notes, confusion and understanding seem to wax and wane, but I'm not at all worried about it.  After a quick discussion about possible ambiguities in our intuitive rules for a group, we had AM2, HG, CS, MT, SW, SC, RW, and AM1 present 2.10 (outstanding from last time), 2.13, 2.15, 2.16/2.17, 2.18, 2.19, 2.21, and 2.22, respectively.  With the few minutes of class we had remaining, I discussed 2.20 and 2.23.</li>
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, January 27:</b> Coming soon.</li>
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, January 29:</b> Coming soon.</li>
 </ul>
