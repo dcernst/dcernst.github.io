@@ -38,6 +38,7 @@ The following assignments are to be turned in at the end of the indicated class 
 - **Daily Homework 4:** Read [Chapter 1: Introduction]({{site.baseurl}}/teaching/mat411s16/Introduction.pdf) of the course notes.  In addition, complete 2.2-2.6, 2.8-2.12 in [Chapter 2: An Intuitive Approach to Groups]({{site.baseurl}}/teaching/mat411s16/IntuitiveGroups.pdf) and digest the surrounding text along the way. (Due Friday, January 22)
 - **Daily Homework 5:** Skim through [Appendix B: Elements of Style of Proof]({{site.baseurl}}/teaching/mat411s16/ElementsOfStyle.pdf) of the course notes.  In addition, complete 2.13, 2.15-2.25 in [Chapter 2: An Intuitive Approach to Groups]({{site.baseurl}}/teaching/mat411s16/IntuitiveGroups.pdf) and digest the surrounding text along the way. (Due Monday, January 25)
 - **Daily Homework 6:** Skim through [Appendix C: Fancy Mathematical Terms]({{site.baseurl}}/teaching/mat411s16/FancyMathematicalTerms.pdf) of the course notes.  In addition, complete 3.1-3.10 in [Chapter 3: Cayley Diagrams]({{site.baseurl}}/teaching/mat411s16/CayleyDiagrams.pdf) and digest the surrounding text along the way. (Due Wednesday, January 27)
+- **Daily Homework 7:** Skim through [Appendix D: Definitions in Mathematics]({{site.baseurl}}/teaching/mat411s16/Definitions.pdf) of the course notes.  In addition, complete 3.11-3.13 in [Chapter 3: Cayley Diagrams]({{site.baseurl}}/teaching/mat411s16/CayleyDiagrams.pdf) and digest the surrounding text along the way. (Due Friday, January 29)
 
 <!--
 - **Daily Homework 6:** Read [Appendix D: Definitions in Mathematics](http://teaching.danaernst.com/files/fall2014/mat411/Definitions.pdf). Also, complete 3.11-3.17 in [Chapter 3: Cayley Diagrams](http://teaching.danaernst.com/files/fall2014/mat411/CayleyDiagrams.pdf) and digest the surrounding text along the way. (Due Friday, September 5)
@@ -78,10 +79,9 @@ The following assignments are to be turned in at the end of the indicated class 
 ## Weekly Homework ##
 In addition to the Daily Homework, we will also have Weekly Homework assignments.  For most of these assignments, you will be required to submit 2-4 formally written proofs.  In general, two of the problems will come directly from the Daily Homework from the previous week.  Any additional problems will likely be new.  You will be required to type your submission using $\LaTeX$ (see below for more on this).  
 
-- **Weekly Homework 1:** Coming soon.
+- **Weekly Homework 1:** Prove **two** of Theorem A.43, Theorem A.44, Theorem A.75, or Theorem A.81 from [Appendix A]({{site.baseurl}}/teaching/mat411s16/Prerequisites.pdf). In addition, write up a solution to **one** of Exercise 2.13 or Exercise 2.19.  You are required to type your proofs using LaTeX.  For more information, see below.  You should email me the PDF of your completed work or turn in a hardcopy. (Due Tuesday, February 2 by 8PM)
 
 <!--
-- **Weekly Homework 1:** Prove Theorem A.8 and either Theorem A.74 or Theorem A.75 from [Appendix A](http://teaching.danaernst.com/files/fall2014/mat411/Prerequisites.pdf). You are required to type your proofs using LaTeX.  For more information, see below.  You should email me the PDF of your completed work. (Due Thursday, September 4 by 8PM)
 - **Weekly Homework 2:** Prove Theorem A.12 and Theorem A.43 from [Appendix A](http://teaching.danaernst.com/files/fall2014/mat411/Prerequisites.pdf). For Theorem A.43, it may be helpful to read Definition A.40.  You are required to type your proofs using LaTeX and you should email me the PDF of your completed work. (Due Tuesday, September 9 by 8PM)
 - **Weekly Homework 3:** Complete each of the following tasks. (Due Tuesday, September 16 by 8PM)
   - Prove either of Theorem 4.6 or Theorem 4.8.
