@@ -26,4 +26,5 @@ On each homework assignment, please write (i) your name, (ii) name of course, an
 Here are the assignments.  I will post them as we go. *Note:* You can obtain the corresponding LaTeX files by clicking on the link and replacing .pdf with .tex.
 <ul class="fa-ul">
   <li><i class="fa fa-file-pdf-o"></i> <a href="{{ site.baseurl }}/teaching/mat612s16/612HW1.pdf">Homework 1</a> (Due Wednesday, January 27)</li>
+  <li><i class="fa fa-file-pdf-o"></i> <a href="{{ site.baseurl }}/teaching/mat612s16/612HW2.pdf">Homework 2</a> (Due Wednesday, February 3)</li>
 </ul>

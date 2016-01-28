@@ -1,0 +1,132 @@
+\documentclass[11pt]{scrartcl}
+\usepackage[scale=1.5]{ccicons}
+\usepackage[notextcomp]{kpfonts} 
+\usepackage[margin=1in]{geometry}
+\usepackage{amsthm,amssymb}
+\usepackage{graphicx}
+\usepackage{enumitem}
+\usepackage{bm}
+\usepackage{tabu}
+\usepackage{tikz}
+
+\usepackage{color}
+\definecolor{darkblue}{rgb}{0, 0, .6}
+\definecolor{grey}{rgb}{.7, .7, .7}
+\usepackage[breaklinks]{hyperref}
+\hypersetup{
+	colorlinks=true,
+	linkcolor=darkblue,
+	anchorcolor=darkblue,
+	citecolor=darkblue,
+	pagecolor=darkblue,
+	urlcolor=darkblue,
+	pdftitle={},
+	pdfauthor={}
+}
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\lhead{MAT 612 - Spring 2016}
+\chead{}
+\rhead{Due Wednesday, February 3}
+\renewcommand{\headrulewidth}{.4pt}
+
+\theoremstyle{definition}
+\newtheorem{theorem}{Theorem}
+\newtheorem{acknowledgement}[theorem]{Acknowledgement}
+\newtheorem{algorithm}[theorem]{Algorithm}
+\newtheorem{axiom}[theorem]{Axiom}
+\newtheorem{case}[theorem]{Case}
+\newtheorem{claim}[theorem]{Claim}
+\newtheorem*{claim*}{Claim}
+\newtheorem{conclusion}[theorem]{Conclusion}
+\newtheorem{condition}[theorem]{Condition}
+\newtheorem{conjecture}[theorem]{Conjecture}
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{criterion}[theorem]{Criterion}
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{example}[theorem]{Example}
+\newtheorem{exercise}[theorem]{Exercise}
+\newtheorem{journal}[theorem]{Journal}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{notation}[theorem]{Notation}
+\newtheorem{problem}[theorem]{Problem}
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{remark}[theorem]{Remark}
+\newtheorem{solution}[theorem]{Solution}
+\newtheorem{summary}[theorem]{Summary}
+\newtheorem{skeleton}[theorem]{Skeleton Proof}
+\newtheorem{activity}[theorem]{Activity}
+\newtheorem{intuitivedef}[theorem]{Intuitive Definition}
+
+\DeclareMathOperator{\Aut}{Aut}
+\DeclareMathOperator{\Inn}{Inn}
+\DeclareMathOperator{\Stab}{Stab}
+
+\newcommand{\blankline}{\pagebreak[2]\vspace{.5\baselineskip}}
+
+\setlength{\parindent}{0pt}
+
+%Useful for cut and paste
+%\begin{enumerate}[label=\rm{(\alph*)}]
+
+\begin{document}
+
+\title{Homework 2}
+\subtitle{Abstract Algebra II}
+\date{}
+
+\maketitle
+\thispagestyle{fancy}
+
+Complete the following problems. Note that you should only use results that we've discussed so far this semester or last semester.
+
+\begin{problem}
+Let $R$ be a Euclidean Domain with norm $N$.  Prove that $a\in R$ is a unit iff $N(a)=N(1)$.
+\end{problem}
+
+\begin{problem}
+Consider the Euclidean Domain $\mathbb{Z}[i]$ with norm given by $N(a+bi)=a^2+b^2$.  
+\begin{enumerate}[label=\rm{(\alph*)}]
+\item Find the units in $\mathbb{Z}[i]$.
+\item For each of the following pairs, find $q$ and $r$ such that $a=bq+r$ with $r=0$ or $N(r)<N(b)$.
+\begin{enumerate}[label=\rm{(\roman*)}]
+\item $a=11+8i,b=1+2i$
+\item $a=-17+15i,b=3+i$
+\end{enumerate}
+\end{enumerate}
+\end{problem}
+
+\begin{problem}
+Consider the Euclidean Domain $\mathbb{Q}[x]$ with norm given by $N(p(x))=\deg(p(x))$. 
+\begin{enumerate}[label=\rm{(\alph*)}]
+\item Prove that $(x^2+1,x^3+1)=\mathbb{Q}[x]$.
+\item Find polynomials $a(x)$ and $b(x)$ such that $(x^2+1)a(x)+(x^3+1)b(x)=1$.
+\end{enumerate}
+\end{problem}
+
+\begin{problem}
+Let $R$ be an integral domain and let $u$ be a unit of $R$.
+\begin{enumerate}[label=\rm{(\alph*)}]
+\item Prove that if $p\in R$ is prime, then $up$ is prime.
+\item Prove that if $p\in R$ is irreducible, then $up$ is irreducible.
+\end{enumerate}
+\end{problem}
+
+\begin{problem}
+Consider the ring $\mathbb{Z}[\sqrt{-5}]$. Note that $\mathbb{Z}[\sqrt{-5}]$ is a Euclidean Domain with norm $N(a+b\sqrt{-5})=a^2+5b^2$.  
+\begin{enumerate}[label=\rm{(\alph*)}]
+\item Justify my claim in Example~1.85(3) that $6=2\cdot 3=(1+\sqrt{-5})(1-\sqrt{-5})$ are two distinct factorizations of 6 into irreducibles in $\mathbb{Z}[\sqrt{-5}]$.
+\item Prove that $1+\sqrt{-5}$ is not prime in $\mathbb{Z}[\sqrt{-5}]$.
+\end{enumerate}
+\end{problem}
+
+\begin{problem}
+Consider the ring $\mathbb{Z}[2\sqrt{2}]$.
+\begin{enumerate}[label=\rm{(\alph*)}]
+\item Prove that $\mathbb{Z}[2\sqrt{2}]$ is not a UFD. \emph{Hint:} Fiddle around with 8.  You will need to justify that certain ring elements are irreducibles.  One way to do this is to play with the map $N:\mathbb{Z}[2\sqrt{2}]\to \mathbb{Z}\cup\{0\}$ given by $N(a+2b\sqrt{2})=|a^2-8b^2|$ (the vertical bars denote absolute value). It would be useful to know $N(rs)=N(r)N(s)$, $N(r)=1$ iff $r$ is a unit, and $N(r)\neq 2$ for all $r\in R$. If you want to use these facts, you should prove them.
+\item If possible, give an example of an ideal of $\mathbb{Z}[2\sqrt{2}]$ that is not principal.  If not possible, briefly explain why.
+\end{enumerate}
+\end{problem}
+
+\end{document}
