@@ -31,7 +31,7 @@ I'll post notes here as they become available. Each link below is to a PDF file.
   - 1.5 Principal Ideal Domains
   - 1.6 Euclidean Domains
   - 1.7 Unique Factorization Domains
-  - More coming soon  
+  - 1.8 More on Polynomial Rings
 
 ## Exams ##
 Below are links to each exam.
