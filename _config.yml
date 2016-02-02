@@ -7,15 +7,15 @@ paginate: 10
 
 # Dependencies
 markdown: kramdown
-redcarpet:
- extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "with_toc_data"]
-highlighter: rogue
+# redcarpet:
+# extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "with_toc_data"]
+# highlighter: rogue
 
 # Permalinks
 # Use of `relative_permalinks` ensures post links from the index work properly.
 permalink: pretty
 # permalink: /:year/:month/:title/
-relative_permalinks: true
+# relative_permalinks: true
 
 # About/contact
 author:
