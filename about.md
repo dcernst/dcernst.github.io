@@ -39,7 +39,7 @@ Besides blogging here and for Math Ed Matters, I am also an editor for [Mathblog
 
 Moreover, I am active on [Google+](http://plus.google.com) and post regularly about mathematics, teaching, and technology.  You can find my G+ profile [here](https://plus.google.com/107135522210834007871/posts). You can find me on Twitter at [@danaernst](https://twitter.com/danaernst) and [@IBLMath](https://twitter.com/IBLMath).
 
-Lastly, I am a husband and a father of two incredible sons. Oh, I enjoy drinking copious amounts of coffee, too. Test.
+Lastly, I am a husband and a father of two incredible sons. Oh, I enjoy drinking copious amounts of coffee, too.
 
 ## Contact Info ##
 
