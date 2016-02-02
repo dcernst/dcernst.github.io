@@ -50,6 +50,6 @@ We’ll use this page to keep track of what has happened each day in class. It w
 
 <ul class="fa-ul">
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, February 1:</b> Today was a good day.  We had KF, AW, BS, JK, CM, and RV present 3.12, 3.13, 3.14, 3.15, 3.16, and 3.17, respectively.  Exercise 3.14 is an important one to keep in mind.</li>
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, February 3:</b> Coming soon.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, February 3:</b> Coming soon. Test</li>
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, February 5:</b> Coming soon.</li>
 </ul>
