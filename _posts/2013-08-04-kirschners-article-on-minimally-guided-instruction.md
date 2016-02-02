@@ -1,5 +1,5 @@
 ---
-title: 'Kirschner's article on minimally guided instruction'
+title: Kirschner's article on minimally guided instruction
 author: Dana Ernst
 layout: post
 permalink: /kirschners-article-on-minimally-guided-instruction/

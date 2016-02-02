@@ -1,16 +1,16 @@
 ---
-title: 'Euler's Research Rules'
+title: Euler's Research Rules
 author: Dana Ernst
 layout: post
 permalink: /eulers-research-rules/
 sharing_disabled:
   - 1
 standard_seo_post_level_layout:
-  - 
+  -
 standard_link_url_field:
-  - 
+  -
 standard_seo_post_meta_description:
-  - 
+  -
 categories:
   - Mathematics Posts
 tags:
