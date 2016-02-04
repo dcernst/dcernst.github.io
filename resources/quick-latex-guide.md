@@ -20,28 +20,24 @@ layout: default
 
 <p>The way most people (including myself) learn LaTeX is by taking existing examples, tweaking them, and seeing what happens.  To get started, you can open up and play with my <a href="{{site.baseurl}}/latex-homework-template">LaTeX Homework Template</a> that I have posted as a gist on <a href="https://gist.github.com/1827406">GitHub</a>. In fact, if you just click the link below, the template will open in <a href="http://overleaf.com">Overleaf</a>, which is an awesome and free online LaTeX editor.</p>
 
-<p><center></p>
-
+<center>
 <form action="https://www.Overleaf.com/docs" method="POST">
     <input type="hidden" name="template" value="danaernst-weekly_homework_x">
     <input type="submit" class="wl-submit" value="Open template in Overleaf">
   </form>
-
-<p></center></p>
+</center>
 
 <h2>The Basics</h2>
 
 <p>You can insert mathematical expressions within your text (i.e., "inline") by using code of the form:</p>
 
-<pre><code> $your-mathematical-expression-here$
-</code></pre>
+<pre><code> $your-mathematical-expression-here$</code></pre>
 
 <p>The pair of dollar signs that frame your mathematical expression are called <em>delimiters</em> and indicate where the expression begins and ends. You must have an opening and closing delimiter.</p>
 
 <p>For instance, this sentence -- which includes the equation $x^{2}+y^{2} = r^{2}$ -- is typeset as</p>
 
-<pre><code> For instance, this sentence -- which includes the equation $x^{2}+y^{2} = r^{2}$ -- is typeset as
-</code></pre>
+<pre><code> For instance, this sentence -- which includes the equation $x^{2}+y^{2} = r^{2}$ -- is typeset as</code></pre>
 
 <p>Notice that I didn't enclose every individual symbol with dollar signs, but rather the entire string of symbols.</p>
 
@@ -72,8 +68,7 @@ Man, that's complicated!</p>
 
 <p>Here are a few more examples that illustrate some of the mathematical notation we may want to use:</p>
 
-<p><center></p>
-
+<center>
 <table class="table table-striped">
     <thead>
     <tr>
@@ -124,8 +119,7 @@ Man, that's complicated!</p>
     </tr>
     </tbody>
 </table>
-
-<p></center></p>
+</center>
 
 <h2>Greek Letters</h2>
 
@@ -160,8 +154,7 @@ which is typeset using</p>
 
 <p>To correctly typeset double quotation marks in a full-fledged LaTeX document, you should use the following syntax; otherwise, the left pair of quotes will be backwards.</p>
 
-<pre><code> ``stuff you are quoting"
-</code></pre>
+<pre><code> ``stuff you are quoting"</code></pre>
 
 <p>To obtain the symbols on the left, look for the key on your keyboard in the upper left corner that also has the the tilde (~) on it. You'll need to hit this key twice. Using incorrect quotation marks is one of the most common mistakes that I see in documents written using LaTeX.</p>
 
