@@ -79,16 +79,17 @@ The following assignments are to be turned in at the end of the indicated class 
 In addition to the Daily Homework, we will also have Weekly Homework assignments.  For most of these assignments, you will be required to submit 2-4 formally written proofs.  In general, two of the problems will come directly from the Daily Homework from the previous week.  Any additional problems will likely be new.  You will be required to type your submission using $\LaTeX$ (see below for more on this).  
 
 - **Weekly Homework 1:** Prove **two** of Theorem A.43, Theorem A.44, Theorem A.75, or Theorem A.81 from [Appendix A]({{site.baseurl}}/teaching/mat411s16/Prerequisites.pdf). In addition, write up a solution to **one** of Exercise 2.13 or Exercise 2.19.  You are required to type your proofs using LaTeX.  For more information, see below.  You should email me the PDF of your completed work or turn in a hardcopy. *Note:* For the problems coming from Appendix A, you are welcome to consult external resources. (Due Tuesday, February 2 by 8PM)
-
-<!--
-- **Weekly Homework 2:** Prove Theorem A.12 and Theorem A.43 from [Appendix A](http://teaching.danaernst.com/files/fall2014/mat411/Prerequisites.pdf). For Theorem A.43, it may be helpful to read Definition A.40.  You are required to type your proofs using LaTeX and you should email me the PDF of your completed work. (Due Tuesday, September 9 by 8PM)
-- **Weekly Homework 3:** Complete each of the following tasks. (Due Tuesday, September 16 by 8PM)
-  - Prove either of Theorem 4.6 or Theorem 4.8.
-  - Determine whether each of the following statements is true or false. If a statement is true, write a short proof. If a statement is false, justify your reasoning. In each case, the context should make it clear what each letter represents. In particular, in items 1 and 3, $r$ represents rotation of a square by a quarter turn clockwise. But in item 4, $r$ represents rotating a triangle by a third of a turn clockwise.
+- **Weekly Homework 2:** Complete each of the following tasks. (Due Tuesday, February 9 by 8PM)
+  - Prove any **two** of Theorems 4.6, 4.8, or 4.20.
+  - Determine whether each of the following statements is true or false. If a statement is true, write a short proof. If a statement is false, justify your reasoning. In each case, the context should make it clear what each letter represents. In particular, in Items 1, 3, and 5, $r$ represents rotation of a square by a quarter turn clockwise. But in Item 4, $r$ represents rotating a triangle by a third of a turn clockwise.
       1. $\\{s, r, sr, rs\\}\leq D_4$
       2. $\\{1, -1, i, -i, j, -j\\}\leq Q_8$
       3. $\\{e, sr, rs, r^2\\}\leq D_4$
       4. $\\{e, r, r^2\\} \leq D_3$
+      5. $\\{e, r, r^2\\} \leq D_4$
+  - Suppose $G$ is a finite group such that $G=\langle g_1,\ldots, g_n\rangle$.  Consider the Cayley diagram for $G$ using $\\{g_1,\ldots,g_n\\}$ as a generating set.  Prove that for each $i$, if we follow a sequence of (forward) arrows corresponding to $g_i$ out of $e$, we eventually end up back at $e$.
+
+<!--
 - **Weekly Homework 4:** Prove one of Theorems 5.24, 5.25, 5.28 and prove one of Theorems 5.30, 5.32(2) from [Chapter 5: A Formal Approach to Groups](http://teaching.danaernst.com/files/fall2014/mat411/FormalGroups.pdf). (Due Tuesday, September 30 by 8PM)
 - **Weekly Homework 5:** Prove any two of Theorems 5.52, 5.58, 5.60, 5.62, 5.64 from [Chapter 5: A Formal Approach to Groups](http://teaching.danaernst.com/files/fall2014/mat411/FormalGroups.pdf). (Due Tuesday, October 7 by 8PM)
 - **Weekly Homework 6:** Prove any two of Problem 5.76, Theorems 5.79, 5.80, 5.82, 5.83 from [Chapter 5: A Formal Approach to Groups](http://teaching.danaernst.com/files/fall2014/mat411/FormalGroups.pdf). (Due Tuesday, October 14 by 8PM)
