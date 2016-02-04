@@ -42,6 +42,7 @@ The following assignments are to be turned in at the end of the indicated class 
 - **Daily Homework 8:** Complete 3.13-3.17 in [Chapter 3: Cayley Diagrams]({{site.baseurl}}/teaching/mat411s16/CayleyDiagrams.pdf) and digest the surrounding text along the way. (Due Monday, February 1)
 - **Daily Homework 9:** Complete 4.1-4.3, 4.5-4.8, 4.10-4.15 in [Chapter 4: An Introduction to Subgroups and Isomorphisms]({{site.baseurl}}/teaching/mat411s16/IntroSubgroupsIsomorphisms.pdf) and digest the surrounding text along the way. Recall that when you encounter a theorem, your job is to prove it. (Due Wednesday, February 3)
 - **Daily Homework 10:** Complete 4.16, 4.19-4.28 in [Chapter 4: An Introduction to Subgroups and Isomorphisms]({{site.baseurl}}/teaching/mat411s16/IntroSubgroupsIsomorphisms.pdf) and digest the surrounding text along the way. (Due Friday, February 5)
+- **Daily Homework 11:** Complete 5.8-5.11, 5.13-5.17 in [Chapter 5: A Formal Approach to Groups]({{site.baseurl}}/teaching/mat411s16/FormalGroups.pdf) and digest the surrounding text along the way. (Due Monday, February 8)
 
 <!--
 - **Daily Homework 10:** Complete 4.19-4.27 in [Chapter 4: An Introduction to Subgroups and Isomorphisms](http://teaching.danaernst.com/files/fall2014/mat411/IntroSubgroupsIsomorphisms.pdf) and digest the surrounding text along the way. (Due Monday, September 15)
