@@ -1,0 +1,121 @@
+\documentclass[11pt]{scrartcl}
+\usepackage[scale=1.5]{ccicons}
+\usepackage[notextcomp]{kpfonts} 
+\usepackage[margin=1in]{geometry}
+\usepackage{amsthm,amssymb}
+\usepackage{graphicx}
+\usepackage{enumitem}
+\usepackage{bm}
+\usepackage{tabu}
+\usepackage{tikz}
+
+\usepackage{color}
+\definecolor{darkblue}{rgb}{0, 0, .6}
+\definecolor{grey}{rgb}{.7, .7, .7}
+\usepackage[breaklinks]{hyperref}
+\hypersetup{
+	colorlinks=true,
+	linkcolor=darkblue,
+	anchorcolor=darkblue,
+	citecolor=darkblue,
+	pagecolor=darkblue,
+	urlcolor=darkblue,
+	pdftitle={},
+	pdfauthor={}
+}
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\lhead{MAT 612 - Spring 2016}
+\chead{}
+\rhead{Due Wednesday, February 10}
+\renewcommand{\headrulewidth}{.4pt}
+
+\theoremstyle{definition}
+\newtheorem{theorem}{Theorem}
+\newtheorem{acknowledgement}[theorem]{Acknowledgement}
+\newtheorem{algorithm}[theorem]{Algorithm}
+\newtheorem{axiom}[theorem]{Axiom}
+\newtheorem{case}[theorem]{Case}
+\newtheorem{claim}[theorem]{Claim}
+\newtheorem*{claim*}{Claim}
+\newtheorem{conclusion}[theorem]{Conclusion}
+\newtheorem{condition}[theorem]{Condition}
+\newtheorem{conjecture}[theorem]{Conjecture}
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{criterion}[theorem]{Criterion}
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{example}[theorem]{Example}
+\newtheorem{exercise}[theorem]{Exercise}
+\newtheorem{journal}[theorem]{Journal}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{notation}[theorem]{Notation}
+\newtheorem{problem}[theorem]{Problem}
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{remark}[theorem]{Remark}
+\newtheorem{solution}[theorem]{Solution}
+\newtheorem{summary}[theorem]{Summary}
+\newtheorem{skeleton}[theorem]{Skeleton Proof}
+\newtheorem{activity}[theorem]{Activity}
+\newtheorem{intuitivedef}[theorem]{Intuitive Definition}
+
+\DeclareMathOperator{\Aut}{Aut}
+\DeclareMathOperator{\Inn}{Inn}
+\DeclareMathOperator{\Stab}{Stab}
+
+\newcommand{\blankline}{\pagebreak[2]\vspace{.5\baselineskip}}
+
+\setlength{\parindent}{0pt}
+
+%Useful for cut and paste
+%\begin{enumerate}[label=\rm{(\alph*)}]
+
+\begin{document}
+
+\title{Homework 3}
+\subtitle{Abstract Algebra II}
+\date{}
+
+\maketitle
+\thispagestyle{fancy}
+
+Complete the following problems. Note that you should only use results that we've discussed so far this semester or last semester.
+
+\blankline
+
+For Problems 3--7, assume that $F$ is a field.
+
+\begin{problem}
+Let $R$ be a commutative ring with 1.  Prove that a polynomial ring in more than one variable over $R$ is a PID.
+\end{problem}
+
+\begin{problem}
+Consider the polynomial ring $\mathbb{Q}[x,y]$.
+\begin{enumerate}[label=\rm{(\alph*)}]
+\item Prove that the ideals $(x)$ and $(x,y)$ are prime in $\mathbb{Q}[x,y]$.
+\item Prove that $(x,y)$ is a maximal ideal but $(x)$ is not maximal.
+\item Prove that $(x,y)$ is not a principal ideal.
+\end{enumerate}
+\end{problem}
+
+\begin{problem}
+Prove that the rings $F[x,y]/(y^2-x)$ and $F[x,y]/(y^2-x^2)$ are not isomorphic for any field $F$.
+\end{problem}
+
+\begin{problem}
+Let $f(x)\in F[x]$ such that $\deg(f(x))\geq 1$.  Prove that for each $\overline{g(x)}\in F[x]/(f(x))$ there is a unique $g_0(x)\in F[x]$ with $\deg(g_0(x))\leq n-1$ such that $\overline{g(x)}=\overline{g_0(x)}$. \emph{Note:} $\overline{g(x)}$ denotes passage to the quotient $F[x]/(f(x))$.
+\end{problem}
+
+\begin{problem}
+Let $f(x)\in F[x]$.  Prove that $F[x]/(f(x))$ is a field iff $f(x)$ is irreducible.
+\end{problem}
+
+\begin{problem}
+Let $F$ be a finite field.  Prove that $F[x]$ contains infinitely many primes. \emph{Hint:} Mimic one of the well-known proofs that there are infinitely many primes in the natural numbers.  
+\end{problem}
+
+\begin{problem}
+Prove that the set $R$ of polynomials in $F[x]$ whose coefficient of $x$ is equal to 0 is a subring of $F[x]$ and that $R$ is is not a UFD.  \emph{Hint:} One approach is to fine two distinct factorizations of $x^6$ into irreducibles.
+\end{problem}
+
+\end{document}
