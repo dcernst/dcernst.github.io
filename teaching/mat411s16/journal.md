@@ -57,7 +57,7 @@ We’ll use this page to keep track of what has happened each day in class. It w
 ## Week 4 ##
 
 <ul class="fa-ul">
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, February 8:</b> Coming soon.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, February 8:</b> The major theme of the day was binary operations.  After a short discussion of where we are headed, MT presented 4.27/4.28.  Next, we had KG, KW, RV, RW, AM, and EO presented 5.8, 5.9, 5.10, 5.11, 5.13, and 5.14, respectively.  EO's attempt at Theorem 5.14 was pretty close, but had some minor notational issues.  Nonetheless, I was impressed.</li>
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, February 10:</b> Coming soon.</li>
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, February 12:</b> Coming soon.</li>
 </ul>
