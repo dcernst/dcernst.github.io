@@ -44,9 +44,9 @@ The following assignments are to be turned in at the end of the indicated class 
 - **Daily Homework 10:** Complete 4.16, 4.19-4.28 in [Chapter 4: An Introduction to Subgroups and Isomorphisms]({{site.baseurl}}/teaching/mat411s16/IntroSubgroupsIsomorphisms.pdf) and digest the surrounding text along the way. (Due Friday, February 5)
 - **Daily Homework 11:** Complete 5.8-5.11, 5.13, 5.14, 5.16, 5.17 in [Chapter 5: A Formal Approach to Groups]({{site.baseurl}}/teaching/mat411s16/FormalGroups.pdf) and digest the surrounding text along the way. (Due Monday, February 8)
 - **Daily Homework 12:** Complete 5.20-5.27 in [Chapter 5: A Formal Approach to Groups]({{site.baseurl}}/teaching/mat411s16/FormalGroups.pdf) and digest the surrounding text along the way. (Due Wednesday, February 10)
+- **Daily Homework 13:** Complete 5.28-5.30, 5.32-5.35 in [Chapter 5: A Formal Approach to Groups]({{site.baseurl}}/teaching/mat411s16/FormalGroups.pdf) and digest the surrounding text along the way. (Due Friday, February 12)
 
 <!--
-- **Daily Homework 12:** Complete 5.20-5.30 in [Chapter 5: A Formal Approach to Groups](http://teaching.danaernst.com/files/fall2014/mat411/FormalGroups.pdf) and digest the surrounding text along the way. You should also read and digest Definition 5.31 and Theorem 5.32.  (Due Friday, September 19)
 - **Daily Homework 13:** Read Section 5.3 in [Chapter 5: A Formal Approach to Groups](http://teaching.danaernst.com/files/fall2014/mat411/FormalGroups.pdf) and complete 5.40-5.45. You'll notice that I did not assign several problems and theorems in Section 5.3, but you more or less did these on the take-home portion of Exam 1.  Be sure to re-read them!  (Due Friday, September 26)
 - **Daily Homework 14:** Read Sections 5.4 and 5.5 in [Chapter 5: A Formal Approach to Groups](http://teaching.danaernst.com/files/fall2014/mat411/FormalGroups.pdf) and complete 5.46-5.50, 5.52, 5.54, 5.55. (Due Monday, September 29)
 - **Daily Homework 15:** Read Section 5.5 in [Chapter 5: A Formal Approach to Groups](http://teaching.danaernst.com/files/fall2014/mat411/FormalGroups.pdf) and complete 5.56-5.60, 5.62-5.63. (Due Wednesday, October 1)
