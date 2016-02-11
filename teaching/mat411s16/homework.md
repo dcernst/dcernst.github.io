@@ -89,6 +89,7 @@ In addition to the Daily Homework, we will also have Weekly Homework assignments
       4. $\\{e, r, r^2\\} \leq D_3$
       5. $\\{e, r, r^2\\} \leq D_4$
   - Suppose $G$ is a finite group such that $G=\langle g_1,\ldots, g_n\rangle$.  Consider the Cayley diagram for $G$ using $\\{g_1,\ldots,g_n\\}$ as a generating set.  Prove that for each $i$, if we follow a sequence of (forward) arrows corresponding to $g_i$ out of $e$, we eventually end up back at $e$.
+- **Weekly Homework 3:** Prove **two** of Theorems 5.24, 5.25, 5.28. (Due Tuesday, February 16 by 8PM)
 
 <!--
 - **Weekly Homework 4:** Prove one of Theorems 5.24, 5.25, 5.28 and prove one of Theorems 5.30, 5.32(2) from [Chapter 5: A Formal Approach to Groups](http://teaching.danaernst.com/files/fall2014/mat411/FormalGroups.pdf). (Due Tuesday, September 30 by 8PM)
