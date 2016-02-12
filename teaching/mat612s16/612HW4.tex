@@ -1,0 +1,126 @@
+\documentclass[11pt]{scrartcl}
+\usepackage[scale=1.5]{ccicons}
+\usepackage[notextcomp]{kpfonts} 
+\usepackage[margin=1in]{geometry}
+\usepackage{amsthm,amssymb}
+\usepackage{graphicx}
+\usepackage{enumitem}
+\usepackage{bm}
+\usepackage{tabu}
+\usepackage{tikz}
+
+\usepackage{color}
+\definecolor{darkblue}{rgb}{0, 0, .6}
+\definecolor{grey}{rgb}{.7, .7, .7}
+\usepackage[breaklinks]{hyperref}
+\hypersetup{
+	colorlinks=true,
+	linkcolor=darkblue,
+	anchorcolor=darkblue,
+	citecolor=darkblue,
+	pagecolor=darkblue,
+	urlcolor=darkblue,
+	pdftitle={},
+	pdfauthor={}
+}
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\lhead{MAT 612 - Spring 2016}
+\chead{}
+\rhead{Due Wednesday, February 17}
+\renewcommand{\headrulewidth}{.4pt}
+
+\theoremstyle{definition}
+\newtheorem{theorem}{Theorem}
+\newtheorem{acknowledgement}[theorem]{Acknowledgement}
+\newtheorem{algorithm}[theorem]{Algorithm}
+\newtheorem{axiom}[theorem]{Axiom}
+\newtheorem{case}[theorem]{Case}
+\newtheorem{claim}[theorem]{Claim}
+\newtheorem*{claim*}{Claim}
+\newtheorem{conclusion}[theorem]{Conclusion}
+\newtheorem{condition}[theorem]{Condition}
+\newtheorem{conjecture}[theorem]{Conjecture}
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{criterion}[theorem]{Criterion}
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{example}[theorem]{Example}
+\newtheorem{exercise}[theorem]{Exercise}
+\newtheorem{journal}[theorem]{Journal}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{notation}[theorem]{Notation}
+\newtheorem{problem}[theorem]{Problem}
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{remark}[theorem]{Remark}
+\newtheorem{solution}[theorem]{Solution}
+\newtheorem{summary}[theorem]{Summary}
+\newtheorem{skeleton}[theorem]{Skeleton Proof}
+\newtheorem{activity}[theorem]{Activity}
+\newtheorem{intuitivedef}[theorem]{Intuitive Definition}
+
+\DeclareMathOperator{\Aut}{Aut}
+\DeclareMathOperator{\Inn}{Inn}
+\DeclareMathOperator{\Stab}{Stab}
+
+\newcommand{\blankline}{\pagebreak[2]\vspace{.5\baselineskip}}
+
+\setlength{\parindent}{0pt}
+
+%Useful for cut and paste
+%\begin{enumerate}[label=\rm{(\alph*)}]
+
+\begin{document}
+
+\title{Homework 4}
+\subtitle{Abstract Algebra II}
+\date{}
+
+\maketitle
+\thispagestyle{fancy}
+
+Complete the following problems. Note that you should only use results that we've discussed so far this semester or last semester.
+
+%\blankline
+%
+%For Problems 3--7, assume that $F$ is a field.
+
+\begin{problem}
+Determine all ideals of the ring $\mathbb{Z}[x]/(2,x^3+1)$.
+\end{problem}
+
+\begin{problem}
+Prove that if $f(x),g(x)\in\mathbb{Q}[x]$ such that $f(x)g(x)\in\mathbb{Z}[x]$, then the product of any coefficient of $f(x)$ with any coefficient of $g(x)$ is an integer.
+\end{problem}
+
+%\begin{problem}
+%Prove that $\mathbb{Z}[2i]$ is not a UFD.
+%\end{problem}
+
+\begin{problem}
+Determine whether each of the following polynomials is irreducible in the given ring. Justify your answers. If a polynomial is reducible, write it as a product of irreducibles.
+\begin{enumerate}[label=\rm{(\alph*)}]
+\item $x^4+1$ in $\mathbb{Z}/5\mathbb{Z}[x]$.
+\item $x^4+10x^2+1$ in $\mathbb{Z}[x]$.
+\item $x^4-4x^3+6$ in $\mathbb{Z}[x]$.
+\item $x^6+30x^5-15x^3+6x-120$ in $\mathbb{Z}[x]$.
+\end{enumerate}
+\end{problem}
+
+\begin{problem}
+Prove that the polynomial $(x-1)(x-2)\cdots (x-n)-1$ is irreducible over $\mathbb{Z}$ for all $n\geq 1$.
+\end{problem}
+
+\begin{problem}
+Prove that the ring $\mathbb{R}[x]/(x^2+1)$ is isomorphic to the field $\mathbb{C}$.
+\end{problem}
+
+\begin{problem}
+Prove that the polynomial $x^2-\sqrt{2}$ is irreducible over $\mathbb{Z}[\sqrt{2}]$. \emph{Note:} You may assume that $\mathbb{Z}[\sqrt{2}]$ is a UFD.
+\end{problem}
+
+\begin{problem}
+Prove that $x^2+y^2-1$ is irreducible over $\mathbb{Q}[x,y]$. 
+\end{problem}
+
+\end{document}
