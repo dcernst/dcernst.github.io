@@ -59,5 +59,13 @@ We’ll use this page to keep track of what has happened each day in class. It w
 <ul class="fa-ul">
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, February 8:</b> The major theme of the day was binary operations.  After a short discussion of where we are headed, MT presented 4.27/4.28.  Next, we had KG, KW, RV, RW, AM, and EO presented 5.8, 5.9, 5.10, 5.11, 5.13, and 5.14, respectively.  EO's attempt at Theorem 5.14 was pretty close, but had some minor notational issues.  Nonetheless, I was impressed.</li>
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, February 10:</b> The first few minutes of class were devoted to discussing the upcoming exam.  Next, we looked at some interesting errors on student work from Weekly Homework 1.  This took quite a bit of time, but I think it was worthwhile.  With the time we had left, BA, HG, and FT presented 5.16, 5.17, and 5.20, respectively.  There were a bunch of problems that we didn't get to. Andrew will be covering for me on Friday and he will pick up where we left off.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, February 12:</b> Andrew covered for me while I was out of town.  According to his notes, MN, SW, LF, NW, ER, BS, EO, and GG presented 5.21, 5.23, 5.24, 5.25, 5.26, 5.27, 5.28, and 5.29, respectively.</li>
+</ul>
+
+## Week 5 ##
+
+<ul class="fa-ul">
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, February 15:</b> Coming soon.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, February 17:</b> The students took the in-class portion of Exam 1.</li>
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, February 12:</b> Coming soon.</li>
 </ul>
