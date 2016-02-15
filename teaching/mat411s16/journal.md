@@ -65,7 +65,7 @@ We’ll use this page to keep track of what has happened each day in class. It w
 ## Week 5 ##
 
 <ul class="fa-ul">
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, February 15:</b> Coming soon.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, February 15:</b> We chatted very briefly about the exam and then I spent a few minutes comparing solving equations in linear algebra to solving equations in the context of groups.  Next, we had CM, FT, AT, KF, RV, and KS present 5.30, 5.32, 5.33, 5.34, 5.35, and 5.37, respectively.  There were a few problems we didn't get to and students do not need to worry about these for the exams.</li>
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, February 17:</b> The students took the in-class portion of Exam 1.</li>
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, February 12:</b> Coming soon.</li>
 </ul>
