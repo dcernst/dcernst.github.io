@@ -90,4 +90,4 @@ I will not be covering every detail of the notes and the only way to achieve a s
 ## Exams ##
 Below are links to each exam.
 
-- Coming soon.
+- [Exam 1 (take-home)]({{site.baseurl}}/teaching/mat411s16/411Exam1-Home.pdf) (PDF). If you are interested in using LaTeX to type up your solutions, then you can obtain the .tex file for the exam [here]({{site.baseurl}}/teaching/mat411s16/411Exam1-Home.tex). (Due Wednesday, February 24)

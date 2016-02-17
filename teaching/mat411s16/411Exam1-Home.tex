@@ -1,0 +1,225 @@
+\documentclass[11pt]{article}
+
+\usepackage{url}
+\usepackage{array}
+\usepackage{multicol}
+\usepackage{tabu}
+\usepackage[table]{xcolor}
+\usepackage{tikz}
+\usetikzlibrary{shapes.geometric}
+\usepackage{fancyhdr}
+\usepackage[margin=.7in]{geometry}
+\usepackage[hang,flushmargin,symbol*]{footmisc}
+\usepackage{amsmath}
+\usepackage{amsthm}
+\usepackage{amssymb}
+\usepackage{mathtools}
+\usepackage{enumitem}
+\usepackage{graphicx}
+\usepackage{color}
+\definecolor{darkblue}{rgb}{0, 0, .6}
+\definecolor{grey}{rgb}{.7, .7, .7}
+\usepackage[breaklinks]{hyperref}
+
+\theoremstyle{definition} 
+\newtheorem{theorem}{Theorem}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{claim}[theorem]{Claim}
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{conjecture}[theorem]{Conjecture}
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{example}[theorem]{Example}
+\newtheorem{remark}[theorem]{Remark}
+\newtheorem{important}[theorem]{Important Note}
+\newtheorem{recall}[theorem]{Recall}
+\newtheorem{note}[theorem]{Note}
+\newtheorem{question}[theorem]{Question}
+\newtheorem*{definition*}{Definition}
+\newtheorem*{theorem*}{Theorem}
+\newtheorem*{claim*}{Claim}
+
+\newcommand{\ds}{\displaystyle}
+\newcommand{\Spin}{\operatorname{Spin}}
+\newcommand{\Rng}{\operatorname{Rng}}
+
+\setlength{\parindent}{0pt}
+\setlength{\fboxsep}{10pt}
+
+%%%%%%Header/Footer%%%%%%%
+
+\pagestyle{fancy}
+
+\lhead{\scriptsize  MAT 411: Introduction to Abstract Algebra - Spring 2016} 
+\chead{} 
+\rhead{\scriptsize Exam 1 (Take-Home Portion)} 
+\lfoot{\scriptsize This work is licensed under the \href{https://creativecommons.org/licenses/by-sa/4.0/}{Creative Commons Attribution-Share Alike 4.0 License}.} 
+\cfoot{} 
+\rfoot{\scriptsize Written by \href{http://dcernst.github.io}{D.C. Ernst}} 
+\renewcommand{\headrulewidth}{0.4pt} 
+\renewcommand{\footrulewidth}{0.4pt}
+
+%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+\begin{center}
+
+{\Large\bf MAT 411: Introduction to Abstract Algebra}\\
+\smallskip
+{\Large\bf Exam 1 (Take-Home Portion)}
+
+\bigskip
+
+  \fbox{\parbox{7in}{
+    \vspace{10pt}
+    \textbf{\large Your Name:}
+    \vspace{10pt}
+  }}
+  
+  \bigskip
+  
+  \fbox{\parbox{7in}{
+    \vspace{10pt}
+    \textbf{\large Names of Any Collaborators:}
+    \vspace{10pt}
+  }}
+
+\end{center}
+
+\section*{Instructions}
+
+This portion of Exam 1 is worth a total of 50 points and is due at the beginning of class on \textbf{Wednesday, February 24}.  Your total combined score on the in-class portion and take-home portion is worth 15\% of your overall grade.  
+
+\bigskip
+
+I expect your solutions to be \emph{well-written, neat, and organized}.  Do not turn in rough drafts.  What you turn in should be the ``polished'' version of potentially several drafts.  
+ 
+\bigskip
+
+Feel free to type up your final version.  The \LaTeX\ source file of this exam is also available if you are interested in typing up your solutions using \LaTeX.  I'll gladly help you do this if you'd like.
+
+\bigskip
+
+The simple rules for the exam are:
+
+\begin{enumerate}
+\item You may freely use any theorems that we have discussed in class, but you should make it clear where you are using a previous result and which result you are using.  For example, if a sentence in your proof follows from Theorem 1.41, then you should say so.
+\item Unless you prove them, you cannot use any results from the course notes that we have not yet covered.
+\item You are \textbf{NOT} allowed to consult external sources when working on the exam.  This includes people outside of the class, other textbooks, and online resources.
+\item You are \textbf{NOT} allowed to copy someone else's work.
+\item You are \textbf{NOT} allowed to let someone else copy your work.
+\item You are allowed to discuss the problems with each other and critique each other's work.
+\end{enumerate}
+
+\begin{center}
+\textbf{I will vigorously pursue anyone suspected of breaking these rules.}
+\end{center}
+
+\bigskip
+
+You should \textbf{turn in this cover page} and all of the work that you have decided to submit. \textbf{Please write your solutions and proofs on your own paper.}
+
+\bigskip
+
+To convince me that you have read and understand the instructions, sign in the box below.
+
+\bigskip
+
+  \fbox{\parbox{7in}{
+    \vspace{10pt}
+    \textbf{\large Signature:} \hfill
+    \vspace{10pt}
+  }}
+
+\bigskip
+
+Good luck and have fun!
+
+\newpage
+
+\begin{enumerate}
+
+\item (4 points) Consider the symmetry group of the square $D_4=\langle r,s\rangle$, where $r$ is a clockwise rotation by $90^{\circ}$ and $s$ is a reflection over the vertical midline of the square (assuming the standard orientation of the square).  Find two subgroups of $D_4$ that both have order 4 but are not isomorphic.
+
+\item (4 points) Let $(G,*)$ be a group and define $S=\{g\in G\mid g^2=e\}$.  If the statement below is true, prove it.  If the statement is false, provide a counterexample.
+
+\begin{claim*}
+The set $S$ is a subgroup of $G$.
+\end{claim*}
+
+\item (4 points each) Suppose $(G,*)$ is a group and let $H$ and $K$ be subgroups of $G$. One of the statements below is true and the other is false. Determine which statement is true and which is false. Prove the true statement and provide a counterexample for the false statement.  
+
+\begin{enumerate}
+\item The set $H\cup K$ is a subgroup of $G$.
+\item The set $H\cap K$ is a subgroup of $G$.
+\end{enumerate}
+
+\item (4 points each) On the in-class portion of the exam, you attempted to prove (and hopefully did!) two of the following theorems.  Prove \textbf{two} of the remaining theorems that you did not attempt on the in-class exam.
+
+\begin{theorem}
+If $(G,*)$ is a group of order 3, then $G$ cannot have a subgroup of order 2.
+\end{theorem}
+
+\begin{theorem}
+Suppose $(G,*)$ is a group.  Then $(x*y)^{-1}=y^{-1}*x^{-1}$ for all $x,y\in G$.
+\end{theorem}
+
+\begin{theorem}
+Suppose $(G,*)$ is a group and let $a,b\in G$.  If $c\in\langle a,b\rangle$, then $\langle a,b\rangle=\langle a,b,c\rangle$.
+\end{theorem}
+
+\begin{theorem}
+Suppose $(G,*)$ is a group.  If there exists $x\in G$ such that $\langle x\rangle =G$, then $G$ is abelian.
+\end{theorem}
+
+\begin{theorem}
+Assume $(G,\star)$ is a group and let $H$ be a nonempty subset of $G$ that is (i) closed under $\star$ and (ii) closed under inverses (i.e., for all $h,k\in H$, (i) $hk\in H$ and (ii) $h^{-1}\in H$).  Then $H\leq G$.
+\end{theorem}
+
+\item (4 points each) Prove \textbf{two} of the following theorems. In each theorem, assume that $(G,*)$ is a group.
+
+\begin{theorem}
+Every group of order 3 is isomorphic to $R_3$ (i.e., the group of rotations for an equilateral triangle).
+\end{theorem}
+
+\begin{theorem}
+If $x^2=e$ for all $x\in G$, then $G$ is abelian.
+\end{theorem}
+
+\begin{theorem}
+Let $x\in G$. Then $x^m=e$ iff $|\langle x\rangle|$ divides $m$.
+\end{theorem}
+
+\begin{theorem}
+If $x\in G\setminus\{e\}$ such that $x^n\neq e$ for all $n\in \mathbb{Z}^+$, then $x^i\neq x^j$ for all $i\neq j$.
+\end{theorem}
+
+\item (2 points each) Consider three light switches on a wall side by side.  Consider the group of actions that consists of all possible actions that you can do to the three light switches.  Let's call this group $L_3$. It should be easy to see that $L_3$ has 8 distinct actions.
+\begin{enumerate}[label=\rm{(\alph*)}]
+\item Can you find a minimal generating set for $L_3$?  If so, give these actions names and then write all of the actions of $L_3$ as words in your generator(s).
+\item Using your generating set from part (a), draw a Cayley diagram for $L_3$.
+\item Verify that $L_3$ is not isomorphic to any of the groups of order 8 that we've encountered so far this semester.  Explain your reasoning.
+\end{enumerate}
+
+\newpage
+
+\item (2 points each) Suppose $(G,*)$ and $(H,\circ)$ are groups.  Define $\star$ on $G\times H$ via $(g_1,h_1)\star(g_2,h_2)=(g_1*g_2,h_1\circ h_2)$.\footnote{This looks fancier than it is.  We're just doing the operation of each group in the appropriate component.}  Suppose $e_G$ and $e_H$ are the identity elements of $G$ and $H$, respectively.  It turns out that $(G\times H,\star)$ is a group.  If you need to touch up on your knowledge of Cartesian products of sets, see Appendix A of the course notes.
+
+\begin{enumerate}
+\item What is the identity element of $G\times H$?  Verify that this element is in fact the identity.
+
+\item Let $(g,h)\in G\times H$.  What is $(g,h)^{-1}$?  Verify that this element is in fact the inverse of $(g,h)$.
+
+\item Prove that $G\times H$ is closed under $\star$.
+
+\item Consider $S_2\times S_2$ (using the operation of $S_2$ in each component).  Find a generating set for $S_2\times S_2$ and then create a Cayley diagram for this group.  What well-known group is $S_2\times S_2$ isomorphic to?
+
+\item Consider $S_2\times R_4$ (using the operation of $S_2$ in the first component and the operation of $R_4$ in the second component). 
+
+\item Argue that $S_2\times R_4$ cannot be isomorphic to any of $D_4$, $R_8$, $Q_8$, and $L_3$.\footnote{The upshot of this last problem is that there are at least 5 distinct groups of order 8 up to isomorphism.  In turns out that there aren't any others (up to isomorphism).}
+
+\end{enumerate}
+
+\end{enumerate}
+
+\end{document}
