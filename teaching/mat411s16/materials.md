@@ -64,7 +64,7 @@ We will not be using a textbook this semester, but rather a task-sequence adopte
 - Chapter 9: Homomorphisms and the Isomorphism Theorems
     - 9.1 Homomorphisms
     - 9.2 The Isomorphism Theorems
-- Chapter 11: An Introduction to Rings
+- Chapter 10: An Introduction to Rings
 - [Appendix A: Prerequisites]({{site.baseurl}}/teaching/mat411s16/Prerequisites.pdf)
     - A.1 Basic Set Theory
     - A.2 Relations
