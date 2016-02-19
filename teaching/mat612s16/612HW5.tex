@@ -1,0 +1,124 @@
+\documentclass[11pt]{scrartcl}
+\usepackage[scale=1.5]{ccicons}
+\usepackage[notextcomp]{kpfonts} 
+\usepackage[margin=1in]{geometry}
+\usepackage{amsthm,amssymb}
+\usepackage{graphicx}
+\usepackage{enumitem}
+\usepackage{bm}
+\usepackage{tabu}
+\usepackage{tikz}
+
+\usepackage{color}
+\definecolor{darkblue}{rgb}{0, 0, .6}
+\definecolor{grey}{rgb}{.7, .7, .7}
+\usepackage[breaklinks]{hyperref}
+\hypersetup{
+	colorlinks=true,
+	linkcolor=darkblue,
+	anchorcolor=darkblue,
+	citecolor=darkblue,
+	pagecolor=darkblue,
+	urlcolor=darkblue,
+	pdftitle={},
+	pdfauthor={}
+}
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\lhead{MAT 612 - Spring 2016}
+\chead{}
+\rhead{Due Wednesday, February 24}
+\renewcommand{\headrulewidth}{.4pt}
+
+\theoremstyle{definition}
+\newtheorem{theorem}{Theorem}
+\newtheorem{acknowledgement}[theorem]{Acknowledgement}
+\newtheorem{algorithm}[theorem]{Algorithm}
+\newtheorem{axiom}[theorem]{Axiom}
+\newtheorem{case}[theorem]{Case}
+\newtheorem{claim}[theorem]{Claim}
+\newtheorem*{claim*}{Claim}
+\newtheorem{conclusion}[theorem]{Conclusion}
+\newtheorem{condition}[theorem]{Condition}
+\newtheorem{conjecture}[theorem]{Conjecture}
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{criterion}[theorem]{Criterion}
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{example}[theorem]{Example}
+\newtheorem{exercise}[theorem]{Exercise}
+\newtheorem{journal}[theorem]{Journal}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{notation}[theorem]{Notation}
+\newtheorem{problem}[theorem]{Problem}
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{remark}[theorem]{Remark}
+\newtheorem{solution}[theorem]{Solution}
+\newtheorem{summary}[theorem]{Summary}
+\newtheorem{skeleton}[theorem]{Skeleton Proof}
+\newtheorem{activity}[theorem]{Activity}
+\newtheorem{intuitivedef}[theorem]{Intuitive Definition}
+
+\DeclareMathOperator{\Aut}{Aut}
+\DeclareMathOperator{\Inn}{Inn}
+\DeclareMathOperator{\Stab}{Stab}
+
+\newcommand{\blankline}{\pagebreak[2]\vspace{.5\baselineskip}}
+
+\setlength{\parindent}{0pt}
+
+%Useful for cut and paste
+%\begin{enumerate}[label=\rm{(\alph*)}]
+
+\begin{document}
+
+\title{Homework 5}
+\subtitle{Abstract Algebra II}
+\date{}
+
+\maketitle
+\thispagestyle{fancy}
+
+Complete the following problems. Note that you should only use results that we've discussed so far this semester or last semester.
+
+%\blankline
+%
+%For Problems 3--7, assume that $F$ is a field.
+
+\begin{problem}
+Prove that $\mathbb{Z}[2i]$ is not a UFD.
+\end{problem}
+
+\begin{problem}
+Let $p\in \mathbb{Z}$ be prime and let $f(x)\in \mathbb{Z}[x]$.  Determine general conditions under which $(p,f(x))_{\mathbb{Z}[x]}/(p)_{\mathbb{Z}[x]}$ is isomorphic to $(f(x))_{\mathbb{Z}/p\mathbb{Z}[x]}$ and prove that your answer is correct.
+\end{problem}
+
+\begin{problem}
+Identify the the following ring. That is, describe them in simpler terms.
+\begin{enumerate}[label=\rm{(\alph*)}]
+\item $\mathbb{Z}[x]/(2,2x-1)$
+\item $\mathbb{Z}[x]/(4,2x-1)$
+\end{enumerate}
+\end{problem}
+
+\begin{problem}
+Consider $p(x)=x^3+9x+6\in\mathbb{Q}[x]$.
+\begin{enumerate}[label=\rm{(\alph*)}]
+\item Show that $p(x)$ is irreducible in $\mathbb{Q}[x]$.
+\item If $\theta$ is a root of $p(x)$, find the inverse of $1+\theta$ in $\mathbb{Q}(\theta)$.
+\end{enumerate}
+\end{problem}
+
+\begin{problem}
+Consider $p(x)=x^3+x+1\in\mathbb{Z}/2\mathbb{Z}[x]$.
+\begin{enumerate}[label=\rm{(\alph*)}]
+\item Show that $p(x)$ is irreducible in $\mathbb{Z}/2\mathbb{Z}[x]$.
+\item If $\theta$ is a root of $p(x)$, computer the powers of $\theta$ in $\mathbb{Z}/2\mathbb{Z}(\theta)$.
+\end{enumerate}
+\end{problem}
+
+\begin{problem}
+Prove that $x^5-ax-1\in\mathbb{Z}[x]$ is irreducible unless $a=0,2$, or $-1$.  The first two correspond to linear factors, the third corresponds to the factorization $(x^2-x+1)(x^3+x^2-1)$.
+\end{problem}
+
+\end{document}
