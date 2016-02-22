@@ -69,3 +69,11 @@ We’ll use this page to keep track of what has happened each day in class. It w
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, February 17:</b> The students took the in-class portion of Exam 1.</li>
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, February 12:</b> After a quick discussion of the take-home portion of Exam 1, we took care of a few outstanding problems.  We had ES, SC, and IA present 5.38, 5.40, and 5.41, respectively.  Next, I spent a few minutes summarizing "the taxonomy of groups" and the phrase "up to isomorphism."  I then lectured over 5.39, 5.42, 5.43, and 5.45.  I'll continue lecturing until the take-home exam is due next week.</li>
 </ul>
+
+## Week 6 ##
+
+<ul class="fa-ul">
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, February 22:</b> After handing back the in-class portion of Exam 1, I launched into lecturing.  We picked up where we left off on Friday with a discussion of the taxonomy of groups and then continued on with the course notes.  I covered 5.46-5.51</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, February 24:</b> Coming soon.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, February 26:</b> Coming soon.</li>
+</ul>
