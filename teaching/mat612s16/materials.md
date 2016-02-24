@@ -34,6 +34,7 @@ I'll post notes here as they become available. Each link below is to a PDF file.
   - 1.8 More on Polynomial Rings
 - Chapter 2: Field Theory ([Slides Version]({{site.baseurl}}/teaching/mat612s16/612Notes2-Landscape.pdf), [Student Version]({{site.baseurl}}/teaching/mat612s16/612Notes2-Portrait.pdf))
   - 2.1 Field Extensions
+  - 2.2 Algebraic Extensions
 
 ## Exams ##
 Below are links to each exam.
