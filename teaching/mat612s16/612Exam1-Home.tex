@@ -1,0 +1,170 @@
+\documentclass[11pt]{scrartcl}
+
+\usepackage[scale=1.5]{ccicons}
+\usepackage[notextcomp]{kpfonts}
+\usepackage{multicol}
+\usepackage{url}
+\usepackage{array}
+\usepackage{multicol}
+\usepackage{tabu}
+\usepackage{tikz}
+\usetikzlibrary{shapes.geometric}
+\usepackage{fancyhdr}
+\usepackage[margin=1in]{geometry}
+\usepackage[hang,flushmargin,symbol*]{footmisc}
+\usepackage{amsmath}
+\usepackage{amsthm}
+\usepackage{amssymb}
+\usepackage{mathtools}
+\usepackage{enumitem}
+\usepackage{graphicx}
+\usepackage{color}
+\definecolor{darkblue}{rgb}{0, 0, .6}
+\definecolor{grey}{rgb}{.7, .7, .7}
+\usepackage[breaklinks]{hyperref}
+
+\theoremstyle{definition} 
+\newtheorem{theorem}{Theorem}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{claim}[theorem]{Claim}
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{conjecture}[theorem]{Conjecture}
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{example}[theorem]{Example}
+\newtheorem{remark}[theorem]{Remark}
+\newtheorem{important}[theorem]{Important Note}
+\newtheorem{recall}[theorem]{Recall}
+\newtheorem{note}[theorem]{Note}
+\newtheorem{question}[theorem]{Question}
+\newtheorem*{definition*}{Definition}
+
+\newcommand{\ds}{\displaystyle}
+\newcommand{\lcm}{\operatorname{lcm}}
+\newcommand{\Rng}{\operatorname{Rng}}
+
+\setlength{\parindent}{0pt}
+\setlength{\fboxsep}{10pt}
+
+%%%%%%Header/Footer%%%%%%%
+
+\pagestyle{fancy}
+
+\lhead{MAT 612 - Spring 2016}
+\chead{}
+\rhead{Exam 1 (Take-home portion)}
+\lfoot{\scriptsize This work is licensed under the \href{https://creativecommons.org/licenses/by-sa/4.0/}{Creative Commons Attribution-Share Alike 4.0 License}.} 
+\cfoot{}
+\rfoot{\ccbysa}
+\renewcommand{\headrulewidth}{.4pt}
+\renewcommand{\footrulewidth}{.4pt}
+
+%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+\begin{center}
+
+  \fbox{\parbox{6in}{
+    \vspace{5pt}
+    \textbf{\large Your Name:}
+    \vspace{5pt}
+  }}
+  
+  \bigskip
+  
+  \fbox{\parbox{6in}{
+    \vspace{5pt}
+    \textbf{\large Names of Any Collaborators:}
+    \vspace{5pt}
+  }}
+
+\end{center}
+
+\section*{Instructions}
+
+This portion of Exam 1 is worth a total of 24 points and is due at the beginning of class on \textbf{Friday, March 4}.  Your total combined score on the in-class portion and take-home portion is worth 20\% of your overall grade.  
+
+\bigskip
+
+I expect your solutions to be \emph{well-written, neat, and organized}.  Do not turn in rough drafts.  What you turn in should be the ``polished'' version of potentially several drafts.  
+ 
+\bigskip
+
+Feel free to type up your final version.  The \LaTeX\ source file of this exam is also available if you are interested in typing up your solutions using \LaTeX.  I'll gladly help you do this if you'd like.
+
+\bigskip
+
+The simple rules for the exam are:
+
+\begin{enumerate}
+\item You may freely use any theorems that we have discussed in class, but you should make it clear where you are using a previous result and which result you are using.  For example, if a sentence in your proof follows from Theorem xyz, then you should say so. 
+\item Unless you prove them, you cannot use any results that we have not yet covered.
+\item You are \textbf{NOT} allowed to consult external sources when working on the exam.  This includes people outside of the class, other textbooks, and online resources.
+\item You are \textbf{NOT} allowed to copy someone else's work.
+\item You are \textbf{NOT} allowed to let someone else copy your work.
+\item You are allowed to discuss the problems with each other and critique each other's work.
+\end{enumerate}
+
+\begin{center}
+\textbf{I will vigorously pursue anyone suspected of breaking these rules.}
+\end{center}
+
+\bigskip
+
+You should \textbf{turn in this cover page} and all of the work that you have decided to submit. \textbf{Please write your solutions and proofs on your own paper.}
+
+\bigskip
+
+To convince me that you have read and understand the instructions, sign in the box below.
+
+\bigskip
+
+  \fbox{\parbox{6in}{
+    \vspace{5pt}
+    \textbf{\large Signature:} \hfill
+    \vspace{5pt}
+  }}
+
+\bigskip
+
+Good luck and have fun!
+
+\newpage
+
+Complete any \textbf{six} of following problems.  Each problem is worth 4 points. Write your solutions on your own paper and please put the problems in order. Assume $F$ is a field.
+
+\begin{enumerate}
+
+\item Prove that each of the following is irreducible in the given ring.
+\begin{enumerate}
+\item[(a)] $8x^7+6x^5-9x^3+24$ in $\mathbb{Q}[x]$
+\item[(b)] $x^2+x^3-y^2$ in $\mathbb{C}[x,y]$
+\end{enumerate}
+
+\item Let $I$ be a nonzero ideal of $\mathbb{Z}[i]$.  Prove that $\mathbb{Z}[i]/I$ is finite. \emph{Hint:} One approach makes use of the norm given by $N(a+bi)=a^2+b^2$. 
+
+\item Do \textbf{one} of the following.
+\begin{enumerate}
+\item[(a)] Prove that $\mathbb{Z}[i]/(1+i)\cong \mathbb{Z}/2\mathbb{Z}$.
+\item[(b)] Prove that $\mathbb{Z}[x]/(6,2x-1)\cong \mathbb{Z}/3\mathbb{Z}$.
+\end{enumerate}
+
+\item Let $\alpha\in F$.  Define the ring homomorphism $\phi:F[x]\to F$ via $\phi(p(x))=p(\alpha)$.  Prove that if $f(x)\in\ker(\phi)$ with $\deg(f(x))=1$, then $(f(x))=\ker(\phi)$. \emph{Note:} You may assume that $\phi$ is a homomorphism.
+
+\item Let $f(x)\in F[x]$ and let $c\in F$. Define $g(x)=f(x-c)$. Prove that $f(x)$ is irreducible in $F$ iff $g(x)$ is irreducible in $F$.
+
+\item Let $K/F$ be a field extension and let $\alpha,\beta\in K$ such that there does not exist a nonzero polynomial $p(x,y)\in F[x,y]$ such that $p(\alpha,\beta)=0$.  Prove that $F[x,y]\cong F[\alpha,\beta]$.
+
+\item Are there any fields $F$ such that $F[x]/(x^2)\cong F[y]/(y^2-1)$?  Justify your conclusion.
+
+\item Let $R$ be a commutative ring with 1 and let $S$ be an integral domain.  Prove that if $\phi:R\to S$ is a ring homomorphism, then $\ker(\phi)$ is a prime ideal.
+
+\item Let $\alpha\in \mathbb{R}$. Determine whether the ideal $(x-\alpha)$ is prime or maximal in $\mathbb{R}[x,y]$.  Justify your answer.
+
+\item Let $K/F$ and $K/E$ be field extensions. Prove that $[E:K][K:F]=[E:F]$.
+
+\item Let $K/F$ be a field extension and let $\alpha,\beta\in K$.  Suppose there exists distinct elements $s,t\in F$ such that $F[\alpha+s\beta]=F[\alpha+t\beta]$. Prove that $F[\alpha,\beta]=F[\alpha+s\beta]$.
+
+\end{enumerate}
+
+\end{document}

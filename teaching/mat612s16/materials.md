@@ -39,7 +39,7 @@ I'll post notes here as they become available. Each link below is to a PDF file.
 ## Exams ##
 Below are links to each exam.
 
-- Coming soon.
+- [Exam 1 (take-home)]({{site.baseurl}}/teaching/mat612s16/612Exam1-Home.pdf) (PDF). If you are interested in using LaTeX to type up your solutions, then you can obtain the .tex file for the exam [here]({{site.baseurl}}/teaching/mat612s16/612Exam1-Home.tex). (Due Friday, March 4)
 
 ## Free Abstract Algebra Textbooks ##
 Here is a list of free abstract algebra texts that you may use as an additional resource.  If you find one of these more helpful than another, please let me know.  Also, if you know of other resources, please let me know.
