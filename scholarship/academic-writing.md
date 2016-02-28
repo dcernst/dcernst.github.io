@@ -47,7 +47,7 @@ Below is a list of papers that have been submitted, but not yet accepted for pub
 
   * B.J. Benesh, D.C. Ernst, and N. Sieben. Impartial avoidance and achievement games for generating symmetric and alternating groups. Submitted to *Int. Electron. J. Algebra*. [[arxiv:1508.03419](http://arxiv.org/abs/1508.03419)]
   * D.C. Ernst and N. Sieben. Impartial achievement and avoidance games for generating finite groups. Submitted to *Int. J. Game Theory*. [[arXiv:1407.0784](http://arxiv.org/abs/1407.0784)]
-  * D.C. Ernst. Diagram calculus for a type affine *C* Temperley-Lieb algebra, II. Submitted to *J. Pure Appl. Alg.*. [[arXiv:1101.4215](http://arxiv.org/abs/1101.4215)]
+  * D.C. Ernst. Diagram calculus for a type affine *C* Temperley-Lieb algebra, II. Submitted to *J. Pure Appl. Alg.* [[arXiv:1101.4215](http://arxiv.org/abs/1101.4215)]
 
 ## In Preparation
 
