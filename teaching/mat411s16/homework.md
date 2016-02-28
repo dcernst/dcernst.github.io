@@ -48,6 +48,7 @@ The following assignments are to be turned in at the end of the indicated class 
 - **Daily Homework 14:** Complete 5.32-5.41 in [Chapter 5: A Formal Approach to Groups]({{site.baseurl}}/teaching/mat411s16/FormalGroups.pdf) and digest the surrounding text along the way. (Due Monday, February 15)
 - **Daily Homework 15:** Complete 5.56(d), 5.61, 5.63, 5.64, 5.66, 5.67, 5.68  in [Chapter 5: A Formal Approach to Groups]({{site.baseurl}}/teaching/mat411s16/FormalGroups.pdf) and digest the surrounding text along the way. (Due Friday, February 26)
 - **Daily Homework 16:** Complete 5.69-5.77 in [Chapter 5: A Formal Approach to Groups]({{site.baseurl}}/teaching/mat411s16/FormalGroups.pdf) and digest the surrounding text along the way. (Due Monday, February 29)
+- **Daily Homework 17:** Complete 5.78, 5.80-5.88 in [Chapter 5: A Formal Approach to Groups]({{site.baseurl}}/teaching/mat411s16/FormalGroups.pdf) and digest the surrounding text along the way. (Due Wednesday, March 2)
 
 <!--
 - **Daily Homework 13:** Read Section 5.3 in [Chapter 5: A Formal Approach to Groups](http://teaching.danaernst.com/files/fall2014/mat411/FormalGroups.pdf) and complete 5.40-5.45. You'll notice that I did not assign several problems and theorems in Section 5.3, but you more or less did these on the take-home portion of Exam 1.  Be sure to re-read them!  (Due Friday, September 26)
