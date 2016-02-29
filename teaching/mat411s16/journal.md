@@ -73,7 +73,15 @@ We’ll use this page to keep track of what has happened each day in class. It w
 ## Week 6 ##
 
 <ul class="fa-ul">
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, February 22:</b> After handing back the in-class portion of Exam 1, I launched into lecturing.  We picked up where we left off on Friday with a discussion of the taxonomy of groups and then continued on with the course notes.  I covered 5.46-5.51</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, February 22:</b> After handing back the in-class portion of Exam 1, I launched into lecturing.  We picked up where we left off on Friday with a discussion of the taxonomy of groups and then continued on with the course notes.  I covered 5.46-5.51.</li>
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, February 24:</b> We picked up where we left off. Theorem 5.53 was on Exam 1, so I talked about it very briefly.  Next, we carefully worked through 5.55-5.58.  We left 5.55(d) open with the intention of discussing it later.</li>
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, February 26:</b> New room!  We moved into a room with more white board space, which makes me very happy.  I divided the class up into 6 small groups and each group was tasked with discussing one of 5.61, 5.62/5.67, 5.63, 5.64, 5.66, and 5.68.  For 10-15 minutes, I let each group discuss their proposed solution to the problem they were assigned. Next, each group's spokesperson discussed their group's solution.  We had AM, BS, CS, and HG present 5.61, 5.62/5.67, 5.63, and 5.64, respectively.  CS's presentation of Theorem 5.63 was excellent.  We ran out of time and didn't get to discuss 5.66 and 5.68.  We'll likely skip discussing 5.68, but we will squeeze in 5.66 next time.</li>
+</ul>
+
+## Week 7 ##
+
+<ul class="fa-ul">
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, February 29:</b> I was a little out of it today, but had a lot of fun nonetheless.  Just like last time, we divided the class up into several small groups.  After the groups had a chance to work on their respective problems, I finally got around to discussing 5.56(d).  Next, KS walked us through 5.66, which was left over from last time.  The rest of the problems focused on subgroup lattices.  Problems 5.69, 5.70, 5.71, 5.72, 5.73, 5.74, and 5.76/5.77 were presented by GG, MT, SC, EO, RV, MT, and IA, respectively.  Along the way, I discussed 5.75.  Good day!</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, March 2:</b> Coming soon.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, March 4:</b> Coming soon.</li>
 </ul>
