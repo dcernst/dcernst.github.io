@@ -37,7 +37,7 @@ We will not be using a textbook this semester, but rather a task-sequence adopte
     - 1.3 Rules of the Game
     - 1.4 Structure of the Notes
     - 1.5 Some Minimal Guidance
-- [Chapter 2: An Intuitive Approach to Groups]({{site.baseurl}}/teaching/mat411s16/IntuitiveGroups.pdf) (Updated on 1/27/2016)
+- [Chapter 2: An Intuitive Approach to Groups]({{site.baseurl}}/teaching/mat411s16/IntuitiveGroups.pdf) (Updated on 3/1/2016)
 - [Chapter 3: Cayley Diagrams]({{site.baseurl}}/teaching/mat411s16/CayleyDiagrams.pdf) (Updated on 1/31/2016)
 - [Chapter 4: An Introduction to Subgroups and Isomorphisms]({{site.baseurl}}/teaching/mat411s16/IntroSubgroupsIsomorphisms.pdf)
     - 4.1 Subgroups
@@ -49,7 +49,7 @@ We will not be using a textbook this semester, but rather a task-sequence adopte
     - 5.4 Revisiting Cayley Diagrams and Our Original Definition of a Group
     - 5.5 Revisiting Subgroups
     - 5.6 Revisiting Isomorphisms
-- [Chapter 6: Families of Groups]({{site.baseurl}}/teaching/mat411s16/Families.pdf) (Sections 6.2-6.4 added soon)
+- [Chapter 6: Families of Groups]({{site.baseurl}}/teaching/mat411s16/Families.pdf) (Updated on 3/1/2016, Sections 6.2-6.4 added soon)
     - 6.1 Cyclic Groups
     - 6.2 Dihedral Groups
     - 6.3 Symmetric Groups
