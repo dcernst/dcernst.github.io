@@ -49,16 +49,11 @@ The following assignments are to be turned in at the end of the indicated class 
 - **Daily Homework 15:** Complete 5.56(d), 5.61, 5.63, 5.64, 5.66, 5.67, 5.68  in [Chapter 5: A Formal Approach to Groups]({{site.baseurl}}/teaching/mat411s16/FormalGroups.pdf) and digest the surrounding text along the way. (Due Friday, February 26)
 - **Daily Homework 16:** Complete 5.69-5.77 in [Chapter 5: A Formal Approach to Groups]({{site.baseurl}}/teaching/mat411s16/FormalGroups.pdf) and digest the surrounding text along the way. (Due Monday, February 29)
 - **Daily Homework 17:** Complete 5.78, 5.80-5.88 in [Chapter 5: A Formal Approach to Groups]({{site.baseurl}}/teaching/mat411s16/FormalGroups.pdf) and digest the surrounding text along the way. (Due Wednesday, March 2)
-- **Daily Homework 18:** Complete 5.89-5.91 in [Chapter 5: A Formal Approach to Groups]({{site.baseurl}}/teaching/mat411s16/FormalGroups.pdf) and 6.1, 6.3-6.9 in [Chapter 6: Families of Groups]({{site.baseurl}}/teaching/mat411s16/Families.pdf)and digest the surrounding text along the way. (Due Friday, March 4)
+- **Daily Homework 18:** Complete 5.89-5.91 in [Chapter 5: A Formal Approach to Groups]({{site.baseurl}}/teaching/mat411s16/FormalGroups.pdf) and digest the surrounding text along the way. (Due Friday, March 4)
 
 <!--
-- **Daily Homework 13:** Read Section 5.3 in [Chapter 5: A Formal Approach to Groups](http://teaching.danaernst.com/files/fall2014/mat411/FormalGroups.pdf) and complete 5.40-5.45. You'll notice that I did not assign several problems and theorems in Section 5.3, but you more or less did these on the take-home portion of Exam 1.  Be sure to re-read them!  (Due Friday, September 26)
-- **Daily Homework 14:** Read Sections 5.4 and 5.5 in [Chapter 5: A Formal Approach to Groups](http://teaching.danaernst.com/files/fall2014/mat411/FormalGroups.pdf) and complete 5.46-5.50, 5.52, 5.54, 5.55. (Due Monday, September 29)
-- **Daily Homework 15:** Read Section 5.5 in [Chapter 5: A Formal Approach to Groups](http://teaching.danaernst.com/files/fall2014/mat411/FormalGroups.pdf) and complete 5.56-5.60, 5.62-5.63. (Due Wednesday, October 1)
-- **Daily Homework 16:** Read Section 5.5 in [Chapter 5: A Formal Approach to Groups](http://teaching.danaernst.com/files/fall2014/mat411/FormalGroups.pdf) and complete 5.65-5.68. (Due Friday, October 3)
-- **Daily Homework 17:** Read Sections 5.5 and 5.6 in [Chapter 5: A Formal Approach to Groups](http://teaching.danaernst.com/files/fall2014/mat411/FormalGroups.pdf) and complete 5.69-5.70. And get caught up on any outstanding problems if you need to. (Due Monday, October 6)
-- **Daily Homework 18:** Read Section 5.6 in [Chapter 5: A Formal Approach to Groups](http://teaching.danaernst.com/files/fall2014/mat411/FormalGroups.pdf) and complete 5.71-5.74, 5.76-5.78. (Due Wednesday, October 8)
-- **Daily Homework 19:** Read Section 5.6 in [Chapter 5: A Formal Approach to Groups](http://teaching.danaernst.com/files/fall2014/mat411/FormalGroups.pdf) and complete 5.79, 5.80, 5.82, 5.83. (Due Friday, October 10)
+and 6.1, 6.3-6.9 in [Chapter 6: Families of Groups]({{site.baseurl}}/teaching/mat411s16/Families.pdf)
+
 - **Daily Homework 20:** Read Section 6.1 in [Chapter 6: Families of Groups](http://teaching.danaernst.com/files/fall2014/mat411/Families.pdf) and complete 5.85, 6.1, 6.2, 6.4-6.10. (Due Monday, October 13)
 - **Daily Homework 21:** Read Section 6.1 in [Chapter 6: Families of Groups](http://teaching.danaernst.com/files/fall2014/mat411/Families.pdf) and complete 6.12-6.14. (Due Wednesday, October 15)
 - **Daily Homework 22:** Read Section 6.1 in [Chapter 6: Families of Groups](http://teaching.danaernst.com/files/fall2014/mat411/Families.pdf) and complete 6.15-6.17. (Due Friday, October 17)
