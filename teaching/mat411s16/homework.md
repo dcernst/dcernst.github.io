@@ -50,11 +50,9 @@ The following assignments are to be turned in at the end of the indicated class 
 - **Daily Homework 16:** Complete 5.69-5.77 in [Chapter 5: A Formal Approach to Groups]({{site.baseurl}}/teaching/mat411s16/FormalGroups.pdf) and digest the surrounding text along the way. (Due Monday, February 29)
 - **Daily Homework 17:** Complete 5.78, 5.80-5.88 in [Chapter 5: A Formal Approach to Groups]({{site.baseurl}}/teaching/mat411s16/FormalGroups.pdf) and digest the surrounding text along the way. (Due Wednesday, March 2)
 - **Daily Homework 18:** Complete 5.89-5.91 in [Chapter 5: A Formal Approach to Groups]({{site.baseurl}}/teaching/mat411s16/FormalGroups.pdf) and digest the surrounding text along the way. (Due Friday, March 4)
+- **Daily Homework 19:** Complete 6.1, 6.3-6.11 in [Chapter 6: Families of Groups]({{site.baseurl}}/teaching/mat411s16/Families.pdf) and digest the surrounding text along the way. (Due Friday, March 4)
 
 <!--
-and 6.1, 6.3-6.9 in [Chapter 6: Families of Groups]({{site.baseurl}}/teaching/mat411s16/Families.pdf)
-
-- **Daily Homework 20:** Read Section 6.1 in [Chapter 6: Families of Groups](http://teaching.danaernst.com/files/fall2014/mat411/Families.pdf) and complete 5.85, 6.1, 6.2, 6.4-6.10. (Due Monday, October 13)
 - **Daily Homework 21:** Read Section 6.1 in [Chapter 6: Families of Groups](http://teaching.danaernst.com/files/fall2014/mat411/Families.pdf) and complete 6.12-6.14. (Due Wednesday, October 15)
 - **Daily Homework 22:** Read Section 6.1 in [Chapter 6: Families of Groups](http://teaching.danaernst.com/files/fall2014/mat411/Families.pdf) and complete 6.15-6.17. (Due Friday, October 17)
 - **Daily Homework 23:** Read Section 6.1 in [Chapter 6: Families of Groups](http://teaching.danaernst.com/files/fall2014/mat411/Families.pdf) and complete 6.27-6.29. (Due Friday, October 24)

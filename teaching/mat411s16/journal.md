@@ -82,6 +82,6 @@ We’ll use this page to keep track of what has happened each day in class. It w
 
 <ul class="fa-ul">
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, February 29:</b> I was a little out of it today, but had a lot of fun nonetheless.  Just like last time, we divided the class up into several small groups.  After the groups had a chance to work on their respective problems, I finally got around to discussing 5.56(d).  Next, KS walked us through 5.66, which was left over from last time.  The rest of the problems focused on subgroup lattices.  Problems 5.69, 5.70, 5.71, 5.72, 5.73, 5.74, and 5.76/5.77 were presented by GG, MT, SC, EO, RV, MT, and IA, respectively.  Along the way, I discussed 5.75.  Good day!</li>
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, March 2:</b> Coming soon.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, March 2:</b> Class began with me summarizing the homomorphic property and what it means. Next, we divvied up the class into several small groups to discuss problems from the homework.  After a few minutes we started discussing each group's proposed solution.  We had AW, AH, CL, ES, and CM present 5.80, 5.81(a), 5.81(bc), 5.82, and 5.83, respectively.  We didn't get through all of the problems, so we will start with those next time.</li>
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, March 4:</b> Coming soon.</li>
 </ul>
