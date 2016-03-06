@@ -51,6 +51,7 @@ The following assignments are to be turned in at the end of the indicated class 
 - **Daily Homework 17:** Complete 5.78, 5.80-5.88 in [Chapter 5: A Formal Approach to Groups]({{site.baseurl}}/teaching/mat411s16/FormalGroups.pdf) and digest the surrounding text along the way. (Due Wednesday, March 2)
 - **Daily Homework 18:** Complete 5.89-5.91 in [Chapter 5: A Formal Approach to Groups]({{site.baseurl}}/teaching/mat411s16/FormalGroups.pdf) and digest the surrounding text along the way. (Due Friday, March 4)
 - **Daily Homework 19:** Complete 6.1, 6.3-6.11 in [Chapter 6: Families of Groups]({{site.baseurl}}/teaching/mat411s16/Families.pdf) and digest the surrounding text along the way. (Due Monday, March 7)
+- **Daily Homework 20:** Complete 6.13-6.23 in [Chapter 6: Families of Groups]({{site.baseurl}}/teaching/mat411s16/Families.pdf) and digest the surrounding text along the way. (Due Wednesday, March 9)
 
 <!--
 - **Daily Homework 21:** Read Section 6.1 in [Chapter 6: Families of Groups](http://teaching.danaernst.com/files/fall2014/mat411/Families.pdf) and complete 6.12-6.14. (Due Wednesday, October 15)
