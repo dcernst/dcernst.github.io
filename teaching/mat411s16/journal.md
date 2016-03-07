@@ -89,7 +89,7 @@ We’ll use this page to keep track of what has happened each day in class. It w
 ## Week 8 ##
 
 <ul class="fa-ul">
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, March 7:</b> Coming soon.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, March 7:</b> Today began with me discussing which theorems at the end of Chapter 5 required the function to be an isomorphism.  We will return to this issue in a couple chapters.  Next, we split the class up into seven small groups, each of which was tasked with discussing a particular homework problem.  ER, GG and KF, AT, and AM presented 6.3/6.4(abcdef), 6.4(ghijk)/6.5, 6.6, and 6.7, respectively.  Unfortunately, we didn't get to 6.8, 6.9, 6.10, and 6.11, which we will try to squeeze in next time.</li>
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, March 9:</b> Coming soon.</li>
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, March 11:</b> coming soon.</li>
 </ul>
