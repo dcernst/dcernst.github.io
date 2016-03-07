@@ -50,14 +50,14 @@ We’ll use this page to keep track of what has happened each day in class. It w
 
 <ul class="fa-ul">
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, February 1:</b> Today was a good day.  We had KF, AW, BS, JK, CM, and RV present 3.12, 3.13, 3.14, 3.15, 3.16, and 3.17, respectively.  Exercise 3.14 is an important one to keep in mind.</li>
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, February 3:</b> I had my doubts about getting through everything today.  We came really close.  All of today's problems were related to the concept of subgroup.  We had KG, CS, ER, BA, CL, IA, and AM present 4.3, 4.5, 4.6/4.7/4.8, 4.10, 4.11, 4.12, and 4.13/4.14, respectively.  We didn't get to 4.15, which KS will kick off with next time.</li>
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, February 5:</b> Today's problems focused on understanding when two groups are isomorphic.  The problems presented today are among my favorite in the course.  It was an action-packed day with KS, MT, AH, ES, SC, MN, AM, and EO presenting 4.15, 4.16, 4.19, 4.20, 4.23/4.24, 4.25, and 4.26, respectively.  We didn't get to 4.27/4.28.  MT will kick off with those on Monday.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, February 3:</b> I had my doubts about getting through everything today.  We came really close.  All of today's problems were related to the concept of subgroup.  We had KG, CS, ER, BA, CL, IA, and AM1 present 4.3, 4.5, 4.6/4.7/4.8, 4.10, 4.11, 4.12, and 4.13/4.14, respectively.  We didn't get to 4.15, which KS will kick off with next time.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, February 5:</b> Today's problems focused on understanding when two groups are isomorphic.  The problems presented today are among my favorite in the course.  It was an action-packed day with KS, MT, AH, ES, SC, MN, AM2, and EO presenting 4.15, 4.16, 4.19, 4.20, 4.23/4.24, 4.25, and 4.26, respectively.  We didn't get to 4.27/4.28.  MT will kick off with those on Monday.</li>
 </ul>
 
 ## Week 4 ##
 
 <ul class="fa-ul">
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, February 8:</b> The major theme of the day was binary operations.  After a short discussion of where we are headed, MT presented 4.27/4.28.  Next, we had KG, KW, RV, RW, AM, and EO presented 5.8, 5.9, 5.10, 5.11, 5.13, and 5.14, respectively.  EO's attempt at Theorem 5.14 was pretty close, but had some minor notational issues.  Nonetheless, I was impressed.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, February 8:</b> The major theme of the day was binary operations.  After a short discussion of where we are headed, MT presented 4.27/4.28.  Next, we had KG, KW, RV, RW, AM1, and EO presented 5.8, 5.9, 5.10, 5.11, 5.13, and 5.14, respectively.  EO's attempt at Theorem 5.14 was pretty close, but had some minor notational issues.  Nonetheless, I was impressed.</li>
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, February 10:</b> The first few minutes of class were devoted to discussing the upcoming exam.  Next, we looked at some interesting errors on student work from Weekly Homework 1.  This took quite a bit of time, but I think it was worthwhile.  With the time we had left, BA, HG, and FT presented 5.16, 5.17, and 5.20, respectively.  There were a bunch of problems that we didn't get to. Andrew will be covering for me on Friday and he will pick up where we left off.</li>
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, February 12:</b> Andrew covered for me while I was out of town.  According to his notes, MN, SW, LF, NW, ER, BS, EO, and GG presented 5.21, 5.23, 5.24, 5.25, 5.26, 5.27, 5.28, and 5.29, respectively.</li>
 </ul>
@@ -89,7 +89,7 @@ We’ll use this page to keep track of what has happened each day in class. It w
 ## Week 8 ##
 
 <ul class="fa-ul">
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, March 7:</b> Today began with me discussing which theorems at the end of Chapter 5 required the function to be an isomorphism.  We will return to this issue in a couple chapters.  Next, we split the class up into seven small groups, each of which was tasked with discussing a particular homework problem.  ER, GG and KF, AT, and AM presented 6.3/6.4(abcdef), 6.4(ghijk)/6.5, 6.6, and 6.7, respectively.  Unfortunately, we didn't get to 6.8, 6.9, 6.10, and 6.11, which we will try to squeeze in next time.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, March 7:</b> Today began with me discussing which theorems at the end of Chapter 5 required the function to be an isomorphism.  We will return to this issue in a couple chapters.  Next, we split the class up into seven small groups, each of which was tasked with discussing a particular homework problem.  ER, GG and KF, AT, and AM1 presented 6.3/6.4(abcdef), 6.4(ghijk)/6.5, 6.6, and 6.7, respectively.  Unfortunately, we didn't get to 6.8, 6.9, 6.10, and 6.11, which we will try to squeeze in next time.</li>
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, March 9:</b> Coming soon.</li>
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, March 11:</b> coming soon.</li>
 </ul>
