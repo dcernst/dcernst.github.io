@@ -35,6 +35,8 @@ I'll post notes here as they become available. Each link below is to a PDF file.
 - Chapter 2: Field Theory ([Slides Version]({{site.baseurl}}/teaching/mat612s16/612Notes2-Landscape.pdf), [Student Version]({{site.baseurl}}/teaching/mat612s16/612Notes2-Portrait.pdf))
   - 2.1 Field Extensions
   - 2.2 Algebraic Extensions
+  - 2.3 Splitting Fields
+  - 2.4 Separable and Inseparable Extensions
 
 ## Exams ##
 Below are links to each exam.
