@@ -90,6 +90,6 @@ We’ll use this page to keep track of what has happened each day in class. It w
 
 <ul class="fa-ul">
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, March 7:</b> Today began with me discussing which theorems at the end of Chapter 5 required the function to be an isomorphism.  We will return to this issue in a couple chapters.  Next, we split the class up into seven small groups, each of which was tasked with discussing a particular homework problem.  ER, GG and KF, AT, and AM1 presented 6.3/6.4(abcdef), 6.4(ghijk)/6.5, 6.6, and 6.7, respectively.  Unfortunately, we didn't get to 6.8, 6.9, 6.10, and 6.11, which we will try to squeeze in next time.</li>
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, March 9:</b> Coming soon.</li>
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, March 11:</b> coming soon.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, March 9:</b> JK, AW, SC, ES, IA, and LF presented 6.8(b), 6.10, 6.11, 6.14, 6.16/6.17, and 6.18, respectively.  We'll do with 6.8(a) and 6.20 at the beginning of class next time.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, March 11:</b> We finally got to Theorem 6.8(a), which SW presented.  EO also presented 6.20, which was another left over.  After doing these problems, we split up into small groups to tackle most of the problems from homework.  We had MT, RV, RW, AM2, MT, and BS present 6.21, 6.23, 6.28, 6.29, 6.30, and 6.31, respectively.  We'd handle 6.24-6.27 after spring break.</li>
 </ul>
