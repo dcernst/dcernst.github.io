@@ -93,3 +93,11 @@ We’ll use this page to keep track of what has happened each day in class. It w
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, March 9:</b> JK, AW, SC, ES, IA, and LF presented 6.8(b), 6.10, 6.11, 6.14, 6.16/6.17, and 6.18, respectively.  We'll do with 6.8(a) and 6.20 at the beginning of class next time.</li>
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, March 11:</b> We finally got to Theorem 6.8(a), which SW presented.  EO also presented 6.20, which was another left over.  After doing these problems, we split up into small groups to tackle most of the problems from homework.  We had MT, RV, RW, AM2, MT, and BS present 6.21, 6.23, 6.28, 6.29, 6.30, and 6.31, respectively.  We'd handle 6.24-6.27 after spring break.</li>
 </ul>
+
+## Week 9 ##
+
+<ul class="fa-ul">
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, March 21:</b> I spent the whole class lecturing.  I picked up where we left off and covered material in the notes up to and including Corollary 6.36.  We started discussing Theorem 6.37 but ran out of time.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, March 23:</b> Coming soon.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, March 25:</b> Coming soon.</li>
+</ul>
