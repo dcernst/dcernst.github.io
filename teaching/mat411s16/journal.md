@@ -98,6 +98,6 @@ We’ll use this page to keep track of what has happened each day in class. It w
 
 <ul class="fa-ul">
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, March 21:</b> I spent the whole class lecturing.  I picked up where we left off and covered material in the notes up to and including Corollary 6.36.  We started discussing Theorem 6.37 but ran out of time.</li>
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, March 23:</b> Coming soon.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, March 23:</b> After a quick chat about the upcoming exam, we divvied the class up into small groups to work on problems from the homework.  When we brought everyone back together, we had AM2, MN, KF, AT, NW, KG present 6.37, 6.38, 6.41, 6.40(a), 6.40(b), and 6.43, respectively.  Along the way, I discussed 6.39 and 6.42.  We'll wrap up 6.45, 6.46, 6.47, and 6.48 next time.</li>
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, March 25:</b> Coming soon.</li>
 </ul>
