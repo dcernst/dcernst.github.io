@@ -55,6 +55,7 @@ The following assignments are to be turned in at the end of the indicated class 
 - **Daily Homework 21:** Complete 6.21-6.24, 6.26-6.31 in [Chapter 6: Families of Groups]({{site.baseurl}}/teaching/mat411s16/Families.pdf) and digest the surrounding text along the way. (Due Friday, March 11)
 - **Daily Homework 22:** Complete 6.37-6.48 in [Chapter 6: Families of Groups]({{site.baseurl}}/teaching/mat411s16/Families.pdf) and digest the surrounding text along the way. (Due Wednesday, March 23)
 - **Daily Homework 23:** Complete 6.50-6.54 in [Chapter 6: Families of Groups]({{site.baseurl}}/teaching/mat411s16/Families.pdf) and digest the surrounding text along the way. (Due Friday, March 25)
+- **Daily Homework 24:** Complete 6.56, 6.57, 6.59-6.66 in [Chapter 6: Families of Groups]({{site.baseurl}}/teaching/mat411s16/Families.pdf) and digest the surrounding text along the way. (Due Monday, March 28)
 
 <!--
 - **Daily Homework 21:** Read Section 6.1 in [Chapter 6: Families of Groups](http://teaching.danaernst.com/files/fall2014/mat411/Families.pdf) and complete 6.12-6.14. (Due Wednesday, October 15)
