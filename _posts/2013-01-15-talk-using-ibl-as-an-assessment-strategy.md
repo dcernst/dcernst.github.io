@@ -34,7 +34,7 @@ Here are the slides for my portion of the panel.
 <div>
 </div>
 
-Thanks to the organizers of the panel [Cassie Williams][7] (James Madison University), [Jane Butterfield][8] (University of Minnesota), [John Peter][9] (Utica College), and [Robert Campbell][10] (College of Saint Benedict and Saint John's University)) for providing me with the opportunity to speak on the panel.
+Thanks to the organizers of the panel [Cassie Williams][7] (James Madison University), [Jane Butterfield][8] (University of Minnesota), [John Peter][9] (Utica College), and [Robert Campbell][10] (College of Saint Benedict and Saint John's University) for providing me with the opportunity to speak on the panel.
 
  [1]: http://jointmathematicsmeetings.org/jmm
  [2]: http://www.inquirybasedlearning.org/?page=What_is_IBL
