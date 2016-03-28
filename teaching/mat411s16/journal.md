@@ -101,3 +101,11 @@ We’ll use this page to keep track of what has happened each day in class. It w
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, March 23:</b> After a quick chat about the upcoming exam, we divvied the class up into small groups to work on problems from the homework.  When we brought everyone back together, we had AM2, MN, KF, AT, NW, KG present 6.37, 6.38, 6.41, 6.40(a), 6.40(b), and 6.43, respectively.  Along the way, I discussed 6.39 and 6.42.  We'll wrap up 6.45, 6.46, 6.47, and 6.48 next time.</li>
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, March 25:</b> It was a fairly busy and action-packed class.  After some discussion about moving the exam to Wednesday, we jumped right into tackling the problems that were left over from last time.  After an involved discussion about 6.45, CS and AH presented 6.46 and 6.47, respectively.  Then we quickly dispensed with 6.48.  Next, we cranked through all of Section 6.2.  We had MT, CM, IA, JK, AM, RV, and SC present 6.50, 6.51, 6.52, 6.53(a), 6.53(b), 6.53(c), and 6.54, respectively.</li>
 </ul>
+
+## Week 10 ##
+
+<ul class="fa-ul">
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, March 28:</b> As usual, we split up into several small groups and after a short period of time, we regrouped to discuss what each group came up with.  We had NW, CL, KG, KS, CM, SC, MT, ER, AT, and BA present 6.56, 6.57, 6.59, 6.60, 6.61, 6.62, 6.63, 6.64, 6.65, and 6.66, respectively.  This was a nice set of problems to do just before the exam.  It seemed like no one had any difficulty.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, March 30:</b> The students took Exam 2.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, April 1:</b> Coming soon.</li>
+</ul>
