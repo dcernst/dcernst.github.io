@@ -85,9 +85,14 @@ I will not be covering every detail of the notes and the only way to achieve a s
 ## Miscellaneous Materials ##
 - [Student Contract]({{ site.baseurl }}/teaching/StudentContract.pdf)
 - [Setting the Stage]({{ site.baseurl }}/teaching/SettingTheStage.pdf) (first day activity)
-- Pictures of the quilts corresponding to the five groups of order 8
 
 ## Exams ##
 Below are links to each exam.
 
 - [Exam 1 (take-home)]({{site.baseurl}}/teaching/mat411s16/411Exam1-Home.pdf) (PDF). If you are interested in using LaTeX to type up your solutions, contact me and I will send you a link to the source file of the exam. (Due Wednesday, February 24)
+- [Exam 2 (take-home)]({{site.baseurl}}/teaching/mat411s16/411Exam2-Home.pdf) (PDF). If you are interested in using LaTeX to type up your solutions, contact me and I will send you a link to the source file of the exam. For the last question, you will need the following pictures of quilts that correspond to group tables for groups of order 8. (Due Monday, April 4)
+    - [Quilt 1]({{site.baseurl}}/teaching/mat411s16/Quilt1.JPG)
+    - [Quilt 2]({{site.baseurl}}/teaching/mat411s16/Quilt2.JPG)
+    - [Quilt 3]({{site.baseurl}}/teaching/mat411s16/Quilt3.JPG)
+    - [Quilt 4]({{site.baseurl}}/teaching/mat411s16/Quilt4.JPG)
+    - [Quilt 5]({{site.baseurl}}/teaching/mat411s16/Quilt5.JPG)
