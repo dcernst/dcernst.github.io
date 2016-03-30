@@ -201,7 +201,7 @@ If more than one student volunteers, the student with the fewest number of prese
 In order to receive a **passing grade** on the presentation portion of your grade, **you must present at least twice prior to each of the three midterm exams and at least once after the third midterm exam**  for a total of at least 7 times during semester. Notice that I've described a minimum.  To ensure a good grade, you should present as often as you can. Your overall performance during presentations, as well as your level of interaction/participation during class, will be worth 15% of your overall grade.
 
 ### Exams ###
-There will be three midterm exams and a cumulative final exam.  Each midterm exam will be worth 15% of your overall grade and the final exam will be worth 20%.  All of the exams will likely consist of both an in-class portion and a take-home portion.  The in-class portions of the midterm exams are *tentatively* scheduled for **Wednesday, February 17**, <s>Wednesday, March 23</s> **Monday, March 28**, and **Wednesday, April 20**.  The final exam will be on **Monday, May 9** at 10:00AM-12:00PM.  Make-up exams will only be given under extreme circumstances, as judged by me.  In general, it will be best to communicate conflicts ahead of time.
+There will be three midterm exams and a cumulative final exam.  Each midterm exam will be worth 15% of your overall grade and the final exam will be worth 20%.  All of the exams will likely consist of both an in-class portion and a take-home portion.  The in-class portions of the midterm exams are *tentatively* scheduled for **Wednesday, February 17**, <s>Wednesday, March 23</s> **Wednesday, March 30**, and **Wednesday, April 20**.  The final exam will be on **Monday, May 9** at 10:00AM-12:00PM.  Make-up exams will only be given under extreme circumstances, as judged by me.  In general, it will be best to communicate conflicts ahead of time.
 
 ### Rules of the Game ###
 You should *not* look to resources outside the context of this course for help.  That is, you should not be consulting the web, other texts, other faculty, or students outside of our course.  On the other hand, you may use each other, the course notes, me, and your own intuition.
@@ -237,7 +237,7 @@ In summary, your final grade will be determined by your scores in the following 
   <tr>
     <td>Exam 2</td>
     <td>15%</td>
-    <td><s>Wednesday, March 23</s> Monday, March 28</td>
+    <td><s>Wednesday, March 23</s> Wednesday, March 30</td>
   </tr>
   <tr>
     <td>Exam 3</td>
