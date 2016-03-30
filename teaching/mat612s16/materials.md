@@ -37,6 +37,9 @@ I'll post notes here as they become available. Each link below is to a PDF file.
   - 2.2 Algebraic Extensions
   - 2.3 Splitting Fields
   - 2.4 Separable and Inseparable Extensions
+- Chapter 3: Galois Theory ([Slides Version]({{site.baseurl}}/teaching/mat612s16/612Notes3-Landscape.pdf), [Student Version]({{site.baseurl}}/teaching/mat612s16/612Notes3-Portrait.pdf))
+  - 4.1 Definitions and Examples
+  - 4.2 The Fundamental Theorem of Galois Theory
 
 ## Exams ##
 Below are links to each exam.
