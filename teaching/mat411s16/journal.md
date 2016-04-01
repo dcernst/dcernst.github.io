@@ -107,5 +107,5 @@ We’ll use this page to keep track of what has happened each day in class. It w
 <ul class="fa-ul">
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, March 28:</b> As usual, we split up into several small groups and after a short period of time, we regrouped to discuss what each group came up with.  We had NW, CL, KG, KS, CM, SC, MT, ER, AT, and BA present 6.56, 6.57, 6.59, 6.60, 6.61, 6.62, 6.63, 6.64, 6.65, and 6.66, respectively.  This was a nice set of problems to do just before the exam.  It seemed like no one had any difficulty.</li>
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, March 30:</b> The students took Exam 2.</li>
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, April 1:</b> Coming soon.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, April 1:</b> I lectured over Section 6.3.  In particular, I discussed 6.67, 6.68, 6.69, 6.70, 6.76, and 6.77.</li>
 </ul>
