@@ -1,0 +1,126 @@
+\documentclass[11pt]{scrartcl}
+\usepackage[scale=1.5]{ccicons}
+\usepackage[notextcomp]{kpfonts} 
+\usepackage[margin=1in]{geometry}
+\usepackage{amsthm,amssymb}
+\usepackage{graphicx}
+\usepackage{enumitem}
+\usepackage{bm}
+\usepackage{tabu}
+\usepackage{tikz}
+
+\usepackage{color}
+\definecolor{darkblue}{rgb}{0, 0, .6}
+\definecolor{grey}{rgb}{.7, .7, .7}
+\usepackage[breaklinks]{hyperref}
+\hypersetup{
+	colorlinks=true,
+	linkcolor=darkblue,
+	anchorcolor=darkblue,
+	citecolor=darkblue,
+	pagecolor=darkblue,
+	urlcolor=darkblue,
+	pdftitle={},
+	pdfauthor={}
+}
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\lhead{MAT 612 - Spring 2016}
+\chead{}
+\rhead{Due Wednesday, April 6}
+\renewcommand{\headrulewidth}{.4pt}
+
+\theoremstyle{definition}
+\newtheorem{theorem}{Theorem}
+\newtheorem{acknowledgement}[theorem]{Acknowledgement}
+\newtheorem{algorithm}[theorem]{Algorithm}
+\newtheorem{axiom}[theorem]{Axiom}
+\newtheorem{case}[theorem]{Case}
+\newtheorem{claim}[theorem]{Claim}
+\newtheorem*{claim*}{Claim}
+\newtheorem{conclusion}[theorem]{Conclusion}
+\newtheorem{condition}[theorem]{Condition}
+\newtheorem{conjecture}[theorem]{Conjecture}
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{criterion}[theorem]{Criterion}
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{example}[theorem]{Example}
+\newtheorem{exercise}[theorem]{Exercise}
+\newtheorem{journal}[theorem]{Journal}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{notation}[theorem]{Notation}
+\newtheorem{problem}[theorem]{Problem}
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{remark}[theorem]{Remark}
+\newtheorem{solution}[theorem]{Solution}
+\newtheorem{summary}[theorem]{Summary}
+\newtheorem{skeleton}[theorem]{Skeleton Proof}
+\newtheorem{activity}[theorem]{Activity}
+\newtheorem{intuitivedef}[theorem]{Intuitive Definition}
+
+\DeclareMathOperator{\Aut}{Aut}
+\DeclareMathOperator{\Inn}{Inn}
+\DeclareMathOperator{\Stab}{Stab}
+\DeclareMathOperator{\Char}{Char}
+
+\newcommand{\blankline}{\pagebreak[2]\vspace{.5\baselineskip}}
+
+\setlength{\parindent}{0pt}
+
+%Useful for cut and paste
+%\begin{enumerate}[label=\rm{(\alph*)}]
+
+\begin{document}
+
+\title{Homework 8}
+\subtitle{Abstract Algebra II}
+\date{}
+
+\maketitle
+\thispagestyle{fancy}
+
+Complete the following problems. Note that you should only use results that we've discussed so far this semester or last semester.
+
+\begin{problem}
+Let $K/F$ be a field extension, where $F$ is a perfect field. If $f(x) \in F[x]$ has no repeated irreducible factors, prove that $f(x)$ has no repeated irreducible factors over $K$.	
+\end{problem}
+
+\begin{problem}
+Prove that there are only a finite number of roots of unity in any finite extension $K$ of $\mathbb{Q}$. \emph{Note:} You may use the fact that $[\mathbb{Q}(\zeta):\mathbb{Q}] = \phi(k)$, where $\zeta \in K$ is a primitive $k$th root of unity.
+\end{problem}
+
+\begin{problem}
+Let $\tau:\mathbb{C}\to \mathbb{C}$ be defined via $\tau(a+bi)=a-bi$ (complex conjugation).
+\begin{enumerate}[label=\rm{(\alph*)}]
+\item Prove that $\tau$ is an automorphism of $\mathbb{C}$.
+\item Determine the fixed field of $\tau$.
+\end{enumerate}
+\end{problem}
+
+\begin{problem}
+Prove that $\mathbb{Q}(\sqrt{2})$ and $\mathbb{Q}(\sqrt{3})$ are not isomorphic.	
+\end{problem}
+
+\begin{problem}
+Determine the automorphisms of the extension $\mathbb{Q}(\sqrt[4]{2})/\mathbb{Q}(\sqrt{2})$ explicitly.
+\end{problem}
+
+\begin{problem}
+Consider $\Aut(\mathbb{R}/\mathbb{Q})$.
+\begin{enumerate}[label=\rm{(\alph*)}]
+\item Prove that any $\sigma\in \Aut(\mathbb{R}/\mathbb{Q})$ takes squares to squares and takes positive reals to positive reals.  Conclude that $a<b$ imples $\sigma(a)<\sigma(b)$ for every $a,b\in\mathbb{R}$.
+\item Prove that
+\[
+-\frac{1}{m}<a-b<\frac{1}{m}\text{ implies } -\frac{1}{m}<\sigma(a)-\sigma(b)<\frac{1}{m}
+\]
+for every positive integer $m$. Conclude that $\sigma$ is a continuous map on $\mathbb{R}$.
+\item Prove that any continuous map on $\mathbb{R}$ that is the identity on $\mathbb{Q}$ is the identity map, hence $\Aut(\mathbb{R}/\mathbb{Q})$
+\end{enumerate}
+\end{problem}
+
+\begin{problem}
+Consider the polynomial $p(x)=x^4-5x^2+6\in\mathbb{Q}[x]$.  Determine $\Aut(K/\mathbb{Q})$, where $K$ is the splitting field of $p(x)$.
+\end{problem}
+
+\end{document}
