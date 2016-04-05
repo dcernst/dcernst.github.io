@@ -109,3 +109,11 @@ We’ll use this page to keep track of what has happened each day in class. It w
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, March 30:</b> The students took Exam 2.</li>
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, April 1:</b> I lectured over Section 6.3.  In particular, I discussed 6.67, 6.68, 6.69, 6.70, 6.76, and 6.77.</li>
 </ul>
+
+## Week 11 ##
+
+<ul class="fa-ul">
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, April 4:</b> I continued lecturing over Section 6.3 of the course notes.  We covered 6.71-6.75, 6.78, 6.79.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, April 6:</b> Coming soon.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, April 8:</b> Coming soon.</li>
+</ul>
