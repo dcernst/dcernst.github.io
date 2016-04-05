@@ -49,7 +49,7 @@ We will not be using a textbook this semester, but rather a task-sequence adopte
     - 5.4 Revisiting Cayley Diagrams and Our Original Definition of a Group
     - 5.5 Revisiting Subgroups
     - 5.6 Revisiting Isomorphisms
-- [Chapter 6: Families of Groups]({{site.baseurl}}/teaching/mat411s16/Families.pdf) (Updated on 3/22/2016, Section 6.4 added soon)
+- [Chapter 6: Families of Groups]({{site.baseurl}}/teaching/mat411s16/Families.pdf) (Updated on 4/5/2016)
     - 6.1 Cyclic Groups
     - 6.2 Dihedral Groups
     - 6.3 Symmetric Groups
