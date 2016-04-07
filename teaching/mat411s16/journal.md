@@ -114,6 +114,6 @@ We’ll use this page to keep track of what has happened each day in class. It w
 
 <ul class="fa-ul">
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, April 4:</b> I continued lecturing over Section 6.3 of the course notes.  We covered 6.71-6.75, 6.78, 6.79.</li>
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, April 6:</b> Coming soon.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, April 6:</b> We accomplished a lot today! We had EO, CS, SC, AM1, ER, ES, and IA present 6.80, 6.81, 6.82, 6.83, 6.84, 6.85, and 6.86, respectively.</li>
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, April 8:</b> Coming soon.</li>
 </ul>
