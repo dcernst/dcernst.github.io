@@ -1,0 +1,113 @@
+\documentclass[11pt]{scrartcl}
+\usepackage[scale=1.5]{ccicons}
+\usepackage[notextcomp]{kpfonts} 
+\usepackage[margin=1in]{geometry}
+\usepackage{amsthm,amssymb}
+\usepackage{graphicx}
+\usepackage{enumitem}
+\usepackage{bm}
+\usepackage{tabu}
+\usepackage{tikz}
+
+\usepackage{color}
+\definecolor{darkblue}{rgb}{0, 0, .6}
+\definecolor{grey}{rgb}{.7, .7, .7}
+\usepackage[breaklinks]{hyperref}
+\hypersetup{
+	colorlinks=true,
+	linkcolor=darkblue,
+	anchorcolor=darkblue,
+	citecolor=darkblue,
+	pagecolor=darkblue,
+	urlcolor=darkblue,
+	pdftitle={},
+	pdfauthor={}
+}
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\lhead{MAT 612 - Spring 2016}
+\chead{}
+\rhead{Due Wednesday, April 13}
+\renewcommand{\headrulewidth}{.4pt}
+
+\theoremstyle{definition}
+\newtheorem{theorem}{Theorem}
+\newtheorem{acknowledgement}[theorem]{Acknowledgement}
+\newtheorem{algorithm}[theorem]{Algorithm}
+\newtheorem{axiom}[theorem]{Axiom}
+\newtheorem{case}[theorem]{Case}
+\newtheorem{claim}[theorem]{Claim}
+\newtheorem*{claim*}{Claim}
+\newtheorem{conclusion}[theorem]{Conclusion}
+\newtheorem{condition}[theorem]{Condition}
+\newtheorem{conjecture}[theorem]{Conjecture}
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{criterion}[theorem]{Criterion}
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{example}[theorem]{Example}
+\newtheorem{exercise}[theorem]{Exercise}
+\newtheorem{journal}[theorem]{Journal}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{notation}[theorem]{Notation}
+\newtheorem{problem}[theorem]{Problem}
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{remark}[theorem]{Remark}
+\newtheorem{solution}[theorem]{Solution}
+\newtheorem{summary}[theorem]{Summary}
+\newtheorem{skeleton}[theorem]{Skeleton Proof}
+\newtheorem{activity}[theorem]{Activity}
+\newtheorem{intuitivedef}[theorem]{Intuitive Definition}
+
+\DeclareMathOperator{\Aut}{Aut}
+\DeclareMathOperator{\Gal}{Gal}
+\DeclareMathOperator{\Inn}{Inn}
+\DeclareMathOperator{\Stab}{Stab}
+\DeclareMathOperator{\Char}{Char}
+
+\newcommand{\blankline}{\pagebreak[2]\vspace{.5\baselineskip}}
+
+\setlength{\parindent}{0pt}
+
+%Useful for cut and paste
+%\begin{enumerate}[label=\rm{(\alph*)}]
+
+\begin{document}
+
+\title{Homework 9}
+\subtitle{Abstract Algebra II}
+\date{}
+
+\maketitle
+\thispagestyle{fancy}
+
+Complete the following problems. Note that you should only use results that we've discussed so far this semester or last semester.
+
+\begin{problem}
+Suppose $[K:F]=2$. Prove that $K$ is an algebraic extension of $F$ that is the splitting field over $F$ for a collection of polynomials in $F[x]$ (i.e., prove that $K$ is a normal extension).
+\end{problem}
+
+\begin{problem}
+Determine the Galois group of $f(x)=(x^2-2)(x^2-3)(x^2-5)$ over $\mathbb{Q}$.
+\end{problem}
+
+\begin{problem}
+Determine the Galois group of the splitting field over $\mathbb{Q}$ of $g(x)=x^4-14x^2+9$.
+\end{problem}
+
+\begin{problem}
+Let $K=\mathbb{Q}(\sqrt[8]{2},i)$, $F_1=\mathbb{Q}(i)$, and $F_2=\mathbb{Q}(\sqrt{2})$.
+\begin{enumerate}[label=\rm{(\alph*)}]
+\item Prove that $\Gal(K/F_1)\cong \mathbb{Z}_8$.
+\item Prove that $\Gal(K/F_2)\cong D_8$.
+\end{enumerate}
+\end{problem}
+
+\begin{problem}
+Let $f(x) \in \mathbb{Q}[x]$. Suppose that $z\in\mathbb{C}$ is a root of $f(x)$. 
+\begin{enumerate}[label=\rm{(\alph*)}]
+\item Prove that $\overline{z}$ (complex conjugate of $z$) is also a root of $f(x)$.\item Suppose $f(x)$ has degree 3. Prove that if the Galois group of the splitting field of $f(x)$ is isomorphic to $\mathbb{Z}_3$, then $f(x)$ has only real roots.
+\end{enumerate}
+\end{problem}
+
+\end{document}
