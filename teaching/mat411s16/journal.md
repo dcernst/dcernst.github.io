@@ -115,5 +115,13 @@ We’ll use this page to keep track of what has happened each day in class. It w
 <ul class="fa-ul">
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, April 4:</b> I continued lecturing over Section 6.3 of the course notes.  We covered 6.71-6.75, 6.78, 6.79.</li>
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, April 6:</b> We accomplished a lot today! We had EO, CS, SC, AM1, ER, ES, and IA present 6.80, 6.81, 6.82, 6.83, 6.84, 6.85, and 6.86, respectively.</li>
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, April 8:</b> Coming soon.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, April 8:</b> Another busy day.  We had AW, KG, MT, MN, CL, RW, AH, and BA present 6.92, 6.95, 6.96/6.97, 6.100, 6.101, 6.102, 6.103, 6.104, respectively.  As a class, we also discussed 6.98 and 6.105.  As promised, I will send you a write up of the proof of Lemma 6.91.</li>
+</ul>
+
+## Week 12 ##
+
+<ul class="fa-ul">
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, April 11:</b> After some discussion of Exam 2 and grades, I talked for a bit about cosets.  Along the way, I completed 7.2, 7.3, 7.5, 7.6, and 7.7.  We also had SC and ES show us 7.4(ab) and 7.4(cd), respectively.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, April 13:</b> Coming soon.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, April 15:</b> Coming soon.</li>
 </ul>
