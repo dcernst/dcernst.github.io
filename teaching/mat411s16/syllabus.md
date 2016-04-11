@@ -242,7 +242,7 @@ In summary, your final grade will be determined by your scores in the following 
   <tr>
     <td>Exam 3</td>
     <td>15%</td>
-    <td>Wednesday, April 20</td>
+    <td><s>Wednesday, April 20</s> Monday, April 25</td>
   </tr>
 	<tr>
 		<td>Final Exam</td>
