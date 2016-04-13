@@ -122,6 +122,6 @@ We’ll use this page to keep track of what has happened each day in class. It w
 
 <ul class="fa-ul">
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, April 11:</b> After some discussion of Exam 2 and grades, I talked for a bit about cosets.  Along the way, I completed 7.2, 7.3, 7.5, 7.6, and 7.7.  We also had SC and ES show us 7.4(ab) and 7.4(cd), respectively.</li>
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, April 13:</b> Coming soon.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, April 13:</b> After some discussion of cosets and Lagrange's Theorem, we launched into small groups discussing problems. We had KS, CL, IA, BS, MT, GG, RV, and AM2 present 7.8(1), 7.8(2), 7.8(3), 7.8(4), 7.18, 7.19, 7.21, and 7.22, respectively.  This is hard stuff and I'm really pleased with how things are going.</li>
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, April 15:</b> Coming soon.</li>
 </ul>
