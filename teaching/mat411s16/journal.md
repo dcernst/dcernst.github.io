@@ -123,5 +123,13 @@ We’ll use this page to keep track of what has happened each day in class. It w
 <ul class="fa-ul">
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, April 11:</b> After some discussion of Exam 2 and grades, I talked for a bit about cosets.  Along the way, I completed 7.2, 7.3, 7.5, 7.6, and 7.7.  We also had SC and ES show us 7.4(ab) and 7.4(cd), respectively.</li>
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, April 13:</b> After some discussion of cosets and Lagrange's Theorem, we launched into small groups discussing problems. We had KS, CL, IA, BS, MT, GG, RV, and AM2 present 7.8(1), 7.8(2), 7.8(3), 7.8(4), 7.18, 7.19, 7.21, and 7.22, respectively.  This is hard stuff and I'm really pleased with how things are going.</li>
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, April 15:</b> Coming soon.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, April 15:</b> We had SW, NW, LF, BA, AW, CM, and AM1 present 7.25, 7.26(a), 7.26(b), 7.27, 7.29, 7.30, and 7.31, respectively.  We didn't quite finish 7.31, so we'll start with that next time.</li>
+</ul>
+
+## Week 13 ##
+
+<ul class="fa-ul">
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, April 18:</b> Coming soon.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, April 20:</b> Coming soon.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, April 22:</b> Coming soon.</li>
 </ul>
