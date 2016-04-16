@@ -1,0 +1,151 @@
+\documentclass[11pt]{scrartcl}
+
+\usepackage[scale=1.5]{ccicons}
+\usepackage[notextcomp]{kpfonts}
+\usepackage{multicol}
+\usepackage{url}
+\usepackage{array}
+\usepackage{multicol}
+\usepackage{tabu}
+\usepackage{tikz}
+\usetikzlibrary{shapes.geometric}
+\usepackage{fancyhdr}
+\usepackage[margin=1in]{geometry}
+\usepackage[hang,flushmargin,symbol*]{footmisc}
+\usepackage{amsmath}
+\usepackage{amsthm}
+\usepackage{amssymb}
+\usepackage{mathtools}
+\usepackage{enumitem}
+\usepackage{graphicx}
+\usepackage{color}
+\definecolor{darkblue}{rgb}{0, 0, .6}
+\definecolor{grey}{rgb}{.7, .7, .7}
+\usepackage[breaklinks]{hyperref}
+
+\theoremstyle{definition} 
+\newtheorem{theorem}{Theorem}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{claim}[theorem]{Claim}
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{conjecture}[theorem]{Conjecture}
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{example}[theorem]{Example}
+\newtheorem{remark}[theorem]{Remark}
+\newtheorem{important}[theorem]{Important Note}
+\newtheorem{recall}[theorem]{Recall}
+\newtheorem{note}[theorem]{Note}
+\newtheorem{question}[theorem]{Question}
+\newtheorem*{definition*}{Definition}
+
+\newcommand{\ds}{\displaystyle}
+\newcommand{\lcm}{\operatorname{lcm}}
+\newcommand{\Rng}{\operatorname{Rng}}
+\DeclareMathOperator{\Aut}{Aut}
+\DeclareMathOperator{\Gal}{Gal}
+
+\setlength{\parindent}{0pt}
+\setlength{\fboxsep}{10pt}
+
+%%%%%%Header/Footer%%%%%%%
+
+\pagestyle{fancy}
+
+\lhead{MAT 612 - Spring 2016}
+\chead{}
+\rhead{Exam 2 (Take-home portion)}
+\lfoot{\scriptsize This work is licensed under the \href{https://creativecommons.org/licenses/by-sa/4.0/}{Creative Commons Attribution-Share Alike 4.0 License}.} 
+\cfoot{}
+\rfoot{\ccbysa}
+\renewcommand{\headrulewidth}{.4pt}
+\renewcommand{\footrulewidth}{.4pt}
+
+%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+\begin{center}
+
+  \fbox{\parbox{6in}{
+    \vspace{5pt}
+    \textbf{\large Your Name:}
+    \vspace{5pt}
+  }}
+  
+  \bigskip
+  
+  \fbox{\parbox{6in}{
+    \vspace{5pt}
+    \textbf{\large Names of Any Collaborators:}
+    \vspace{5pt}
+  }}
+
+\end{center}
+
+\section*{Instructions}
+
+This portion of Exam 2 is worth a total of ?? points and is due at the beginning of class on \textbf{Friday, April 22}.  Your total combined score on the in-class portion and take-home portion is worth 20\% of your overall grade.  
+
+\bigskip
+
+I expect your solutions to be \emph{well-written, neat, and organized}.  Do not turn in rough drafts.  What you turn in should be the ``polished'' version of potentially several drafts.  
+ 
+\bigskip
+
+Feel free to type up your final version.  The \LaTeX\ source file of this exam is also available if you are interested in typing up your solutions using \LaTeX.  I'll gladly help you do this if you'd like.
+
+\bigskip
+
+The simple rules for the exam are:
+
+\begin{enumerate}
+\item You may freely use any theorems that we have discussed in class, but you should make it clear where you are using a previous result and which result you are using.  For example, if a sentence in your proof follows from Theorem xyz, then you should say so. 
+\item Unless you prove them, you cannot use any results that we have not yet covered.
+\item You are \textbf{NOT} allowed to consult external sources when working on the exam.  This includes people outside of the class, other textbooks, and online resources.
+\item You are \textbf{NOT} allowed to copy someone else's work.
+\item You are \textbf{NOT} allowed to let someone else copy your work.
+\item You are allowed to discuss the problems with each other and critique each other's work.
+\end{enumerate}
+
+\begin{center}
+\textbf{I will vigorously pursue anyone suspected of breaking these rules.}
+\end{center}
+
+\bigskip
+
+You should \textbf{turn in this cover page} and all of the work that you have decided to submit. \textbf{Please write your solutions and proofs on your own paper.}
+
+\bigskip
+
+To convince me that you have read and understand the instructions, sign in the box below.
+
+\bigskip
+
+  \fbox{\parbox{6in}{
+    \vspace{5pt}
+    \textbf{\large Signature:} \hfill
+    \vspace{5pt}
+  }}
+
+\bigskip
+
+Good luck and have fun!
+
+\newpage
+
+Complete any \textbf{six} of following problems.  Each problem is worth 4 points. Write your solutions on your own paper and please put the problems in order. Assume $F$ is a field.
+
+\begin{enumerate}
+\item Let $K/F$ be a finite extension and let $p$ be prime. Suppose $f(x)\in F[x]$ be a polynomial of degree $p$ such that $f(x)$ is irreducible over $F$ but not over $K$. Prove that $p$ divides $[K:F]$.
+\item Let $p$ and $q$ be distinct primes. Prove that $\mathbb{Q}(\sqrt{p},\sqrt{q})=\mathbb{Q}(\sqrt{p}+\sqrt{q})$.
+\item Find a reasonable description for the splitting field of $g(x)=x^6+1$ over $\mathbb{Q}$ and then determine the degree of the corresponding extension.
+\item Find a reasonable description for the splitting field of $h(x)=x^6+x+1$ over $\mathbb{Q}$ and then determine the degree of the corresponding extension.
+\item Let $K$ be the splitting field of $f(x)=x^4-16x^2+4$ over $\mathbb{Q}$. Determine whether $K/\mathbb{Q}$ is a Galois extension.
+\item Completely describe $\Aut(\mathbb{Q}(\sqrt{1+\sqrt{3}})/\mathbb{Q})$.
+\item Let $F$ be a field and let $f(x)\in F[x]$ be a monic, irreducible, and separable polynomial of degree $n$ with splitting field $K$. Prove that $\Aut(K/F)$ acts transitively on the roots of $f(x)$.
+\item Determine the Galois group of the splitting field of the separable polynomial $f(x)=x^5-1$ over $\mathbb{Q}$.
+\item Let $K/\mathbb{Q}$ be an algebraic extension of degree $p$ such that $p$ is prime. Prove that if every irreducible polynomial over $\mathbb{Q}$ with a root in $K$ splits in $K$, then $\Aut(K/\mathbb{Q})\cong \mathbb{Z}_p$.
+\item Find a separable polynomial $f(x)\in \mathbb{Q}[x]$ that has Galois group isomorphic to $\mathbb{Z}_3$.
+\end{enumerate}
+
+\end{document}
