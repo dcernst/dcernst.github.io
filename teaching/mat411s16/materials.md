@@ -58,7 +58,7 @@ We will not be using a textbook this semester, but rather a task-sequence adopte
     - 7.1 Cosets
     - 7.2 Lagrange's Theorem
     - 7.3 Normal Subgroups
-- [Chapter 8: Products and Quotients of Groups]({{site.baseurl}}/teaching/mat411s16/ProductsQuotients.pdf)
+- [Chapter 8: Products and Quotients of Groups]({{site.baseurl}}/teaching/mat411s16/ProductsQuotients.pdf) (Updated on 4/20/2016)
     - 8.1 Products of Groups
     - 8.2 Quotients of Groups
 - Chapter 9: Homomorphisms and the Isomorphism Theorems
@@ -96,3 +96,4 @@ Below are links to each exam.
     - [Quilt 3]({{site.baseurl}}/teaching/mat411s16/Quilt3.JPG)
     - [Quilt 4]({{site.baseurl}}/teaching/mat411s16/Quilt4.JPG)
     - [Quilt 5]({{site.baseurl}}/teaching/mat411s16/Quilt5.JPG)
+- [Exam 3 (take-home)]({{site.baseurl}}/teaching/mat411s16/411Exam3-Home.pdf) (PDF). If you are interested in using LaTeX to type up your solutions, contact me and I will send you a link to the source file of the exam. (Due Wednesday, April 27)
