@@ -131,5 +131,21 @@ We’ll use this page to keep track of what has happened each day in class. It w
 <ul class="fa-ul">
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, April 18:</b> We kicked off with me walking through the proof of Theorem 7.31, which provides an alternative for checking whether a subgroup is normal.  Next, we split into small groups to discuss most of the problems due today.  We had MN, KF, AT, AH, and MT share their group's proposed solutions to 8.6, 8.7, 8.8, 8.13, and 8.15, respectively.  We still have 8.10, 8.11, 8.16, 8.17, and 8.18 as outstanding.</li>
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, April 20:</b> I was really impressed with how things went today.  After some discussion of 8.11 and 8.16, we split up into small groups as usual.  After a few minutes, we had ER, KF, HG, ES, EO, LF, and GG share solutions to 8.17, 8.18, 8.19, 8.20, 8.21, 8.22, and 8.25, respectively.  Theorem 8.10 is still outstanding, but we will tackle it on Friday.</li>
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, April 22:</b> Coming soon.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, April 22:</b> We finally wrote down a proof of Theorem 8.10 and then I lectured over quotient groups.</li>
+</ul>
+
+## Week 14 ##
+
+<ul class="fa-ul">
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, April 25:</b> Coming soon.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, April 27:</b> Coming soon.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, April 29:</b> Coming soon.</li>
+</ul>
+
+## Week 15 ##
+
+<ul class="fa-ul">
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, May 2:</b> Coming soon.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, May 4:</b> Coming soon.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, May 6:</b> Coming soon.</li>
 </ul>
