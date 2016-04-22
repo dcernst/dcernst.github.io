@@ -34,4 +34,5 @@ Here are the assignments.  I will post them as we go. *Note:* You can obtain the
   <li><i class="fa fa-file-pdf-o"></i> <a href="{{ site.baseurl }}/teaching/mat612s16/612HW7.pdf">Homework 7</a> (Due Wednesday, March 30)</li>
   <li><i class="fa fa-file-pdf-o"></i> <a href="{{ site.baseurl }}/teaching/mat612s16/612HW8.pdf">Homework 8</a> (Due Wednesday, April 6)</li>
   <li><i class="fa fa-file-pdf-o"></i> <a href="{{ site.baseurl }}/teaching/mat612s16/612HW9.pdf">Homework 9</a> (Due Wednesday, April 13)</li>
+  <li><i class="fa fa-file-pdf-o"></i> <a href="{{ site.baseurl }}/teaching/mat612s16/612HW10.pdf">Homework 10</a> (Due Wednesday, April 27)</li>
 </ul>
