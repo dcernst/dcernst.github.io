@@ -40,6 +40,8 @@ I'll post notes here as they become available. Each link below is to a PDF file.
 - Chapter 3: Galois Theory ([Slides Version]({{site.baseurl}}/teaching/mat612s16/612Notes3-Landscape.pdf), [Student Version]({{site.baseurl}}/teaching/mat612s16/612Notes3-Portrait.pdf))
   - 3.1 Definitions and Examples
   - 3.2 The Fundamental Theorem of Galois Theory
+- Chapter 4: Module Theory ([Slides Version]({{site.baseurl}}/teaching/mat612s16/612Notes4-Landscape.pdf), [Student Version]({{site.baseurl}}/teaching/mat612s16/612Notes4-Portrait.pdf))
+    - 4.1 Definitions and Examples
 
 ## Exams ##
 Below are links to each exam.
