@@ -137,7 +137,7 @@ We’ll use this page to keep track of what has happened each day in class. It w
 ## Week 14 ##
 
 <ul class="fa-ul">
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, April 25:</b> Coming soon.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, April 25:</b> The students took the in-class portion of Exam 3.</li>
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, April 27:</b> Coming soon.</li>
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, April 29:</b> Coming soon.</li>
 </ul>
