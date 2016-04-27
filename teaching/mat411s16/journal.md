@@ -138,7 +138,7 @@ We’ll use this page to keep track of what has happened each day in class. It w
 
 <ul class="fa-ul">
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, April 25:</b> The students took the in-class portion of Exam 3.</li>
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, April 27:</b> Coming soon.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, April 27:</b> At lightning speed, I lectured over Chapter 9: Homomorphisms and the First Isomorphism Theorems.</li>
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, April 29:</b> Coming soon.</li>
 </ul>
 
