@@ -42,6 +42,7 @@ I'll post notes here as they become available. Each link below is to a PDF file.
   - 3.2 The Fundamental Theorem of Galois Theory
 - Chapter 4: Module Theory ([Slides Version]({{site.baseurl}}/teaching/mat612s16/612Notes4-Landscape.pdf), [Student Version]({{site.baseurl}}/teaching/mat612s16/612Notes4-Portrait.pdf))
     - 4.1 Definitions and Examples
+    - 4.2 Quotient Modules and Module Homomorphisms
 
 ## Exams ##
 Below are links to each exam.
