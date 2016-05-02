@@ -139,13 +139,13 @@ We’ll use this page to keep track of what has happened each day in class. It w
 <ul class="fa-ul">
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, April 25:</b> The students took the in-class portion of Exam 3.</li>
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, April 27:</b> At lightning speed, I lectured over Chapter 9: Homomorphisms and the First Isomorphism Theorems.</li>
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, April 29:</b> Coming soon.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, April 29:</b> One of our best days!  AM2, GG, EO, AM1, and CS presented 9.14/9.21, 9.15, 9.16, 9.22, and 9.23, respectively.  There are a few problems we didn't get to, but the conversations we had on the ones we did definitely made up for it.</li>
 </ul>
 
 ## Week 15 ##
 
 <ul class="fa-ul">
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, May 2:</b> Coming soon.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, May 2:</b> Our first day of discussing rings.  We were a bit all of the place, but I think folks learned a few things nonetheless.  We had CS, AH, SW, and JK discuss 10.8/10.15/10.16, 10.10, 10.17, and 10.18 respectively.</li>
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, May 4:</b> Coming soon.</li>
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, May 6:</b> Coming soon.</li>
 </ul>
