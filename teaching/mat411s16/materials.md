@@ -101,3 +101,4 @@ Below are links to each exam.
     - [Quilt 4]({{site.baseurl}}/teaching/mat411s16/Quilt4.JPG)
     - [Quilt 5]({{site.baseurl}}/teaching/mat411s16/Quilt5.JPG)
 - [Exam 3 (take-home)]({{site.baseurl}}/teaching/mat411s16/411Exam3-Home.pdf) (PDF). If you are interested in using LaTeX to type up your solutions, contact me and I will send you a link to the source file of the exam. (Due Wednesday, April 27)
+- [Final Exam (take-home)]({{site.baseurl}}/teaching/mat411s16/411ExamFinal-Home.pdf) (PDF). If you are interested in using LaTeX to type up your solutions, contact me and I will send you a link to the source file of the exam. (Due by 5pm on Thursday, May 12)
