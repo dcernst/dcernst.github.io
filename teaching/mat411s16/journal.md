@@ -145,7 +145,7 @@ We’ll use this page to keep track of what has happened each day in class. It w
 ## Week 15 ##
 
 <ul class="fa-ul">
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, May 2:</b> Our first day of discussing rings.  We were a bit all of the place, but I think folks learned a few things nonetheless.  We had CS, AH, SW, and JK discuss 10.8/10.15/10.16, 10.10, 10.17, and 10.18 respectively.</li>
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, May 4:</b> Coming soon.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, May 2:</b> Our first day of discussing rings.  We were a bit all over the place, but I think folks learned a few things nonetheless.  We had CS, AH, SW, and JK discuss 10.8/10.15/10.16, 10.10, 10.17, and 10.18 respectively.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, May 4:</b> After handing back the take-home portion of Exam 3, I lectured over 10.10, 10.25, 10.31, and 10.37.  We will do more of the same next time.</li>
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, May 6:</b> Coming soon.</li>
 </ul>
