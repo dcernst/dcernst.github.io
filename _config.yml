@@ -29,5 +29,6 @@ github:
 
 # Feed Stuff
 gems:
- - jekyll-feed
- - jekyll-paginate
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-seo-tag
