@@ -57,7 +57,7 @@ The following is a list of papers that are in progress.
   * D.C. Ernst and B. Fox. Conjugacy classes of cyclically fully commutative elements in Coxeter groups of type $A$.
   * D.C. Ernst and T. Laird. T-avoiding elements of Coxeter groups.
   * B.J. Benesh, D.C. Ernst, and N. Sieben. Impartial achievement games for generating finite groups.
-  * B.J. Benesh, D.C. Ernst, and N. Sieben. Impartial achievement and avoidance games for generating generalized dihedral groups.  
+  * B.J. Benesh, D.C. Ernst, and N. Sieben. Impartial achievement games for generating generalized dihedral groups.  
   * D.C. Ernst and D. Jacobson. Optimizing Solutions of $2\times 2$ Spinpossible boards.
 
 <!-- * D.C. Ernst, R.M. Green, M. Macauley, and N. Sieben. A combinatorial proof the CFC elements are logarithmic. -->
