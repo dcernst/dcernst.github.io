@@ -23,7 +23,7 @@ My interests also include the [scholarship of teaching and learning][10] (SoTL) 
 
 Below is a list of my published articles and theses.
 
-  * H. Denoncourt, D.C. Ernst, and D. Story. On the number of commutation classes of the longest element of the symmetric group. *Open Problems in Mathematics* Vol 4 (2016). [[arXiv:1602.08328](http://arxiv.org/abs/1602.08328)] [[ePrint](http://opmath.org/index.php/opm/article/view/15)]
+  * H. Denoncourt, D.C. Ernst, and D. Story. On the number of commutation classes of the longest element of the symmetric group. *Open Problems in Mathematics* 4, 2016. [[arXiv:1602.08328](http://arxiv.org/abs/1602.08328)] [[ePrint](http://opmath.org/index.php/opm/article/view/15)]
   * D.C. Ernst, M. Hastings, and S. Salmon. Factorization of Temperley-Lieb diagrams. Accepted to *Involve*. [[arxiv:1509.01241](http://arxiv.org/abs/1509.01241)]
   * B.J. Benesh, D.C. Ernst, and N. Sieben. Impartial avoidance games for generating finite groups. *North-W. Eur. J. of Math.* 2, 83-101, 2016. [[arXiv:1506.07105](http://arxiv.org/abs/1506.07105)] [[ePrint](http://math.univ-lille1.fr/~nwejm/OnlinePapers/pdf/article2016-3.pdf)]
   * N. Diefenderfer, D.C. Ernst, M. Hastings, L.N. Heath, H. Prawzinsky, B. Preston, J. Rushall, E. White, A. Whittemore. Prime Vertex Labelings of Several Families of Graphs. Accepted to *Involve*. [[arXiv:1503.08386](http://arxiv.org/abs/1503.08386)]
