@@ -18,10 +18,10 @@ permalink: pretty
 relative_permalinks: false
 
 # About/contact
-author:
-  name: "Dana C. Ernst"
-  url: "https://twitter.com/danaernst"
-  email: "dana.ernst@nau.edu"
+# author:
+#   name: "Dana C. Ernst"
+#   url: "https://twitter.com/danaernst"
+#   email: "dana.ernst@nau.edu"
 
 twitter:
   username: danaernst
