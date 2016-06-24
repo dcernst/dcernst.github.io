@@ -19,8 +19,8 @@ relative_permalinks: false
 
 # About/contact
 author:
-  name: Dana C. Ernst
-  url: https://twitter.com/danaernst
+  name: "Dana C. Ernst"
+  url: "https://twitter.com/danaernst"
   email: dana.ernst@nau.edu
 
 twitter:
@@ -28,7 +28,7 @@ twitter:
 
 # GitHub
 github:
-  repo:             github.com/dcernst/dcernst.github.io
+  repo: github.com/dcernst/dcernst.github.io
 
 # Feed Stuff
 gems:
