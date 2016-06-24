@@ -31,7 +31,7 @@ layout: default
 
 <p>You can insert mathematical expressions within your text (i.e., "inline") by using code of the form:</p>
 
-<pre><code> $your-mathematical-expression-here$</code></pre>
+<pre><code> $mathematical-expression-here$</code></pre>
 
 <p>The pair of dollar signs that frame your mathematical expression are called <em>delimiters</em> and indicate where the expression begins and ends. You must have an opening and closing delimiter.</p>
 
