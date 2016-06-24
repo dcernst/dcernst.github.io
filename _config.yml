@@ -5,10 +5,7 @@ url: 'http://dcernst.github.io'
 baseurl: ''
 paginate: 10
 
-# Dependencies
 markdown: kramdown
-# redcarpet:
-# extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "with_toc_data"]
 highlighter: rouge
 
 # Permalinks
@@ -19,11 +16,6 @@ relative_permalinks: false
 
 # About/contact
 author: Dana C. Ernst
-email: dana.ernst@nau.edu
-#   name: "Dana C. Ernst"
-#   url: "https://twitter.com/danaernst"
-#   email: "dana.ernst@nau.edu"
-
 twitter:
   username: danaernst
 
