@@ -160,9 +160,9 @@ which is typeset using</p>
 
 <h2>More Information</h2>
 
-<p>A really cool tool for looking up $\LaTeX$ symbols is <a href="http://detexify.kirelabs.org/classify.html" target="_blank">Detexify</a>, which allows you to draw a picture of the symbol for which you are looking. Also, Dave Richeson of Dickinson College has put together a really great "cheat sheet", which you can find <a href="http://users.dickinson.edu/~richesod/latex/latexcheatsheet.pdf" target="_blank">here</a>.</p>
+<p>A really cool tool for looking up LaTeX symbols is <a href="http://detexify.kirelabs.org/classify.html" target="_blank">Detexify</a>, which allows you to draw a picture of the symbol for which you are looking. Also, Dave Richeson of Dickinson College has put together a really great "cheat sheet", which you can find <a href="http://users.dickinson.edu/~richesod/latex/latexcheatsheet.pdf" target="_blank">here</a>.</p>
 
-<p>For a list of some of the more common $\LaTeX$ symbols, see <a href="http://amath.colorado.edu/documentation/LaTeX/Symbols.pdf" target="_blank">here</a>. If you want to see a really, really, really long list of symbols, go <a href="http://www.ctan.org/tex-archive/info/symbols/comprehensive/symbols-a4.pdf" target="_blank">here</a>.</p>
+<p>For a list of some of the more common LaTeX symbols, see <a href="http://amath.colorado.edu/documentation/LaTeX/Symbols.pdf" target="_blank">here</a>. If you want to see a really, really, really long list of symbols, go <a href="http://www.ctan.org/tex-archive/info/symbols/comprehensive/symbols-a4.pdf" target="_blank">here</a>.</p>
 
 <p>Lastly, you may find the following resources useful:</p>
 
