@@ -37,7 +37,7 @@ My interests also include the [scholarship of teaching and learning](http://en.w
 
 Besides blogging here and for Math Ed Matters, I am also an editor for [Mathblogging.org](http://mathblogging.org), which is a site devoted to aggregating the multitude of math-related blogs and news sources across the Internet.  My job as editor is to select a blog posts to be included in the [Editors' Picks List](http://www.mathblogging.org/posts?type=post&amp;filter0=recommender-status&amp;value0=editor).
 
-Moreover, I am active on [Google+](http://plus.google.com) and post regularly about mathematics, teaching, and technology.  You can find my G+ profile [here](https://plus.google.com/107135522210834007871/posts). You can find me on Twitter at [@danaernst](https://twitter.com/danaernst) and [@IBLMath](https://twitter.com/IBLMath).
+You can find me on Twitter at [@danaernst](https://twitter.com/danaernst) and [@IBLMath](https://twitter.com/IBLMath).
 
 Lastly, I am a husband and a father of two incredible sons. Oh, I enjoy drinking copious amounts of coffee, too.
 
