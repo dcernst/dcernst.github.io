@@ -123,7 +123,7 @@ Man, that's complicated!</p>
 
 <h2>Greek Letters</h2>
 
-<p>Greek letters are typeset using <code>\name</code>.  For example, <code>\theta</code> produces &#40;\theta&#41; (as long as you also include the appropriate delimiters).</p>
+<p>Greek letters are typeset using <code>\name</code>.  For example, <code>\theta</code> produces $\theta$ (as long as you also include the appropriate delimiters).</p>
 
 <h2>Braces</h2>
 
@@ -132,13 +132,13 @@ Man, that's complicated!</p>
 <h2>Display Style</h2>
 
 <p>Using LaTeX allows you to do fancy things like the following:
-$$\begin{align&#42;}
+$$\begin{align&*}
 \sum_{i=1}^{k+1}i &amp; = \left(\sum_{i=1}^{k}i\right) +(k+1) \newline
 &amp; = \frac{k(k+1)}{2}+k+1 &amp; (\text{by inductive hypothesis}) \newline
 &amp; = \frac{k(k+1)+2(k+1)}{2} \newline
 &amp; = \frac{(k+1)(k+2)}{2} \newline
 &amp; = \frac{(k+1)((k+1)+1)}{2}.
-\end{align&#42;}$$
+\end{align*}$$
 which is typeset using</p>
 
 <pre><code> \begin{align*}
@@ -160,9 +160,9 @@ which is typeset using</p>
 
 <h2>More Information</h2>
 
-<p>A really cool tool for looking up &#40;\LaTeX&#41; symbols is <a href="http://detexify.kirelabs.org/classify.html" target="_blank">Detexify</a>, which allows you to draw a picture of the symbol for which you are looking. Also, Dave Richeson of Dickinson College has put together a really great "cheat sheet", which you can find <a href="http://users.dickinson.edu/~richesod/latex/latexcheatsheet.pdf" target="_blank">here</a>.</p>
+<p>A really cool tool for looking up $\LaTeX$ symbols is <a href="http://detexify.kirelabs.org/classify.html" target="_blank">Detexify</a>, which allows you to draw a picture of the symbol for which you are looking. Also, Dave Richeson of Dickinson College has put together a really great "cheat sheet", which you can find <a href="http://users.dickinson.edu/~richesod/latex/latexcheatsheet.pdf" target="_blank">here</a>.</p>
 
-<p>For a list of some of the more common &#40;\LaTeX&#41; symbols, see <a href="http://amath.colorado.edu/documentation/LaTeX/Symbols.pdf" target="_blank">here</a>. If you want to see a really, really, really long list of symbols, go <a href="http://www.ctan.org/tex-archive/info/symbols/comprehensive/symbols-a4.pdf" target="_blank">here</a>.</p>
+<p>For a list of some of the more common $\LaTeX$ symbols, see <a href="http://amath.colorado.edu/documentation/LaTeX/Symbols.pdf" target="_blank">here</a>. If you want to see a really, really, really long list of symbols, go <a href="http://www.ctan.org/tex-archive/info/symbols/comprehensive/symbols-a4.pdf" target="_blank">here</a>.</p>
 
 <p>Lastly, you may find the following resources useful:</p>
 
@@ -182,7 +182,7 @@ which is typeset using</p>
 <p>When you are typing the content of your document, you will partition your content into various <em>environments</em>. Examples of environments include: <code>theorem, proof, align*, itemize, enumerate</code>, but there are lots more. Every environment begins with <code>\begin{environment-name}</code> and ends with <code>\end{environment-name}</code>. For example, see the example above that uses the <code>align*</code> environment. As another example, if you wanted to write the statement of the theorem that divides is transitive, you would write:</p>
 
 <pre><code> \begin{theorem}
- Let $a,b,c\in \mathbb{Z}$. If $a|b$ and $b|c$, then $a|c$.
+ Let $a,b,c\in \mathbb{Z}$. If $a\mid b$ and $b\mid c$, then $a\mid c$.
  \end{theorem}
 </code></pre>
 
