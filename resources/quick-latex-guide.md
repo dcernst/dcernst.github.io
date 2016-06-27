@@ -132,7 +132,7 @@ Man, that's complicated!</p>
 <h2>Display Style</h2>
 
 <p>Using LaTeX allows you to do fancy things like the following:
-$$\begin{align&*}
+$$\begin{align*}
 \sum_{i=1}^{k+1}i &amp; = \left(\sum_{i=1}^{k}i\right) +(k+1) \newline
 &amp; = \frac{k(k+1)}{2}+k+1 &amp; (\text{by inductive hypothesis}) \newline
 &amp; = \frac{k(k+1)+2(k+1)}{2} \newline
