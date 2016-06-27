@@ -21,15 +21,14 @@ My interests also include the [scholarship of teaching and learning][10] (SoTL) 
 
 ## Publications
 
-Below is a list of my published articles and theses.
-
-  * H. Denoncourt, D.C. Ernst, and D. Story. On the number of commutation classes of the longest element of the symmetric group. *Open Problems in Mathematics* 4, 2016. [[arXiv:1602.08328](http://arxiv.org/abs/1602.08328)] [[ePrint](http://opmath.org/index.php/opm/article/view/15)]
+  * B.J. Benesh, D.C. Ernst, and N. Sieben. Impartial avoidance and achievement games for generating symmetric and alternating groups. Accepted to *Int. Electron. J. Algebra*. [[arxiv:1508.03419](http://arxiv.org/abs/1508.03419)]
   * D.C. Ernst, M. Hastings, and S. Salmon. Factorization of Temperley-Lieb diagrams. Accepted to *Involve*. [[arxiv:1509.01241](http://arxiv.org/abs/1509.01241)]
-  * B.J. Benesh, D.C. Ernst, and N. Sieben. Impartial avoidance games for generating finite groups. *North-W. Eur. J. of Math.* 2, 83-101, 2016. [[arXiv:1506.07105](http://arxiv.org/abs/1506.07105)] [[ePrint](http://math.univ-lille1.fr/~nwejm/OnlinePapers/pdf/article2016-3.pdf)]
-  * N. Diefenderfer, D.C. Ernst, M. Hastings, L.N. Heath, H. Prawzinsky, B. Preston, J. Rushall, E. White, A. Whittemore. Prime Vertex Labelings of Several Families of Graphs. Accepted to *Involve*. [[arXiv:1503.08386](http://arxiv.org/abs/1503.08386)]
-  * B. Love, A. Hodge, C. Corritore, and D.C. Ernst. Inquiry-Based Learning and the Flipped Classroom Model. *PRIMUS* 25(8), 745-762, 2015. [[DOI:10.1080/10511970.2015.1046005](http://www.tandfonline.com/doi/full/10.1080/10511970.2015.1046005)]
-  * B. Beaudrie, D.C. Ernst, E. Kennedy, and R. St. Laurent. Inverted Pedagogy in Second Semester Calculus. *PRIMUS* 25(9-10), 992-906, 2015. [[DOI:10.1080/10511970.2015.1031301](http://www.tandfonline.com/doi/full/10.1080/10511970.2015.1031301)]
   * D.C. Ernst and A. Hodge. Within \\(\epsilon\\) of Independence: An Attempt to Produce Independent Proof-Writers via IBL. Accepted as book chapter to *Beyond Lecture: Techniques to Improve Student Proof-Writing Across the Curriculum*, MAA Notes.
+  * N. Diefenderfer, D.C. Ernst, M. Hastings, L.N. Heath, H. Prawzinsky, B. Preston, J. Rushall, E. White, A. Whittemore. Prime Vertex Labelings of Several Families of Graphs. Accepted to *Involve*. [[arXiv:1503.08386](http://arxiv.org/abs/1503.08386)]
+  * B.J. Benesh, D.C. Ernst, and N. Sieben. Impartial avoidance games for generating finite groups. *North-W. Eur. J. of Math.* 2, 83-101, 2016. [[arXiv:1506.07105](http://arxiv.org/abs/1506.07105)] [[ePrint](http://math.univ-lille1.fr/~nwejm/OnlinePapers/pdf/article2016-3.pdf)]
+  * H. Denoncourt, D.C. Ernst, and D. Story. On the number of commutation classes of the longest element of the symmetric group. *Open Problems in Mathematics* 4, 2016. [[arXiv:1602.08328](http://arxiv.org/abs/1602.08328)] [[ePrint](http://opmath.org/index.php/opm/article/view/15)]
+  * B. Beaudrie, D.C. Ernst, E. Kennedy, and R. St. Laurent. Inverted Pedagogy in Second Semester Calculus. *PRIMUS* 25(9-10), 992-906, 2015. [[DOI:10.1080/10511970.2015.1031301](http://www.tandfonline.com/doi/full/10.1080/10511970.2015.1031301)]
+  * B. Love, A. Hodge, C. Corritore, and D.C. Ernst. Inquiry-Based Learning and the Flipped Classroom Model. *PRIMUS* 25(8), 745-762, 2015. [[DOI:10.1080/10511970.2015.1046005](http://www.tandfonline.com/doi/full/10.1080/10511970.2015.1046005)]
   * D.C. Ernst, A. Hodge, M. Jones, and S. Yoshinobu. The many faces of IBL. In *Handbook of Research on Pedagogical Practice in STEM Education*, E. Ostler (Ed.), 2015. Elkhorn, NE.
   * D.C. Ernst, M. Leingang, and R. Taylor. Facebook for Professional Educators: To Friend or Not to Friend? *MAA FOCUS* June/July 2015. [[ePrint](http://digital.ipcprintservices.com/publication/?i=260736&pre=1&p=7)]
   * D.C. Ernst, A. Hodge, and A. Schultz. Enhancing Proof Writing via Cross-Institutional Peer Review. *PRIMUS* 25(2), 121-130, 2015. [[DOI:10.1080/10511970.2014.921652](http://www.tandfonline.com/doi/full/10.1080/10511970.2014.921652)]
@@ -38,29 +37,28 @@ Below is a list of my published articles and theses.
   * D.C. Ernst. Diagram calculus for a type affine *C* Temperley-Lieb algebra, I. *J. Pure Appl. Alg.* 216(11), 2012. [[arXiv:0910.0925](http://arxiv.org/abs/0910.0925)]
   * T. Boothby, J. Burkert, M. Eichwald, D.C. Ernst, R.M. Green, and M. Macauley. On the Cyclically Fully Commutative Elements of Coxeter Groups. *J. Algebraic Combin.* 36(1), 2012. [[arXiv:1202.6657](http://arxiv.org/abs/1202.6657)]
   * D.C. Ernst. Non-cancellable elements in type affine *C* Coxeter groups, *Int. Electron. J. Algebra* 8, 2010. [[arXiv:0910.0923](http://arxiv.org/abs/0910.0923)]
+
+## Theses
+
   * D.C. Ernst. A diagrammatic representation of an affine *C* Temperley-Lieb algebra, PhD Thesis, University of Colorado, 2008. [[arXiv:0905.4457](http://arxiv.org/abs/0905.4457)]
   * D.C. Ernst. Cell Complexes for Arrangements with Group Actions, MS Thesis, Northern Arizona University, 2000. [[arXiv:0905.4434](http://arxiv.org/abs/0905.4434)]
 
 ## Submitted/Preprints
 
-Below is a list of papers that have been submitted, but not yet accepted for publication.
-
-  * B.J. Benesh, D.C. Ernst, and N. Sieben. Impartial avoidance and achievement games for generating symmetric and alternating groups. Submitted to *Int. Electron. J. Algebra*. [[arxiv:1508.03419](http://arxiv.org/abs/1508.03419)]
   * D.C. Ernst and N. Sieben. Impartial achievement and avoidance games for generating finite groups. Submitted to *Int. J. Game Theory*. [[arXiv:1407.0784](http://arxiv.org/abs/1407.0784)]
   * D.C. Ernst. Diagram calculus for a type affine *C* Temperley-Lieb algebra, II. Submitted to *J. Pure Appl. Alg.* [[arXiv:1101.4215](http://arxiv.org/abs/1101.4215)]
 
 ## In Preparation
 
-The following is a list of papers that are in progress.
-
-  * H. Denoncourt, D.C. Ernst, and D. Story. An upper bound on the number of commutation classes of the longest element of the symmetric group.
+  * D.C. Ernst and R.M. Green. Cominuscule elements of Coxeter groups of type affine $C$.
+  * B.J. Benesh, D.C. Ernst, and N. Sieben. Impartial achievement games for generating generalized dihedral groups.
+  * B.J. Benesh, D.C. Ernst, and N. Sieben. Impartial achievement games for generating finite groups.
   * D.C. Ernst and B. Fox. Conjugacy classes of cyclically fully commutative elements in Coxeter groups of type $A$.
   * D.C. Ernst and T. Laird. T-avoiding elements of Coxeter groups.
-  * B.J. Benesh, D.C. Ernst, and N. Sieben. Impartial achievement games for generating finite groups.
-  * B.J. Benesh, D.C. Ernst, and N. Sieben. Impartial achievement games for generating generalized dihedral groups.  
-  * D.C. Ernst and D. Jacobson. Optimizing Solutions of $2\times 2$ Spinpossible boards.
 
 <!-- * D.C. Ernst, R.M. Green, M. Macauley, and N. Sieben. A combinatorial proof the CFC elements are logarithmic. -->
+<!-- * H. Denoncourt, D.C. Ernst, and D. Story. An upper bound on the number of commutation classes of the longest element of the symmetric group. -->
+<!-- * D.C. Ernst and D. Jacobson. Optimizing Solutions of $2\times 2$ Spinpossible boards. -->
 
 ## Open-Source Course Materials
 
