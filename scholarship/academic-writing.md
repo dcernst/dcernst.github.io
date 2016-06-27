@@ -11,13 +11,13 @@ layout: default
 </ol>
 
 <!-- <img src="{{ site.baseurl }}/images/2012/02/TypeDHeap.png" align="left" width="100" img style="margin-right: 15px"/> -->
-My primary research interests are in the interplay between combinatorics and algebraic structures. More specifically, I study the combinatorics of [Coxeter groups][1] and their associated [Hecke algebras][2], [Kazhdan-Lusztig theory][3], generalized [Temperley-Lieb algebras][4], [diagram algebras][5], and [heaps of pieces][6]. By employing combinatorial tools such as diagram algebras and heaps of pieces, one can gain insight into algebraic structures associated to Coxeter groups, and, conversely, the corresponding structure theory can often lead to surprising combinatorial results.
-
-More recently, my research has expanded into [combinatorial game theory][7] (joint with [Nandor Sieben][8] and [Bret Benesh][9]). In particular, our research has focused on avoidance and achievement games involving finite groups.
+My primary research interests are in the interplay between combinatorics and algebraic structures. More specifically, I study the combinatorics of [Coxeter groups][1] and their associated [Hecke algebras][2], [Kazhdan-Lusztig theory][3], generalized [Temperley-Lieb algebras][4], [diagram algebras][5], and [heaps of pieces][6]. By employing combinatorial tools such as diagram algebras and heaps of pieces, one can gain insight into algebraic structures associated to Coxeter groups, and, conversely, the corresponding structure theory can often lead to surprising combinatorial results. More recently, my research has expanded into [combinatorial game theory][7] (joint with [Nandor Sieben][8] and [Bret Benesh][9]). In particular, our research has focused on avoidance and achievement games involving finite groups.
 
 The combinatorial nature of my research naturally lends itself to collaborations with undergraduate students, and my goal is to incorporate undergraduates in my research as much as possible. If you are an NAU student interested in conducting research in mathematics, please come talk to me! Occasionally, there may be funding available to pay students to do research.
 
 My interests also include the [scholarship of teaching and learning][10] (SoTL) with a focus on [inquiry-based learning][11] (IBL) as an approach to teaching/exploring mathematics. I am currently a Special Projects Coordinator for the [Academy of Inquiry-Based Learning][12] and a mentor for several new IBL practitioners. Moreover, I actively give [talks][13] and organize workshops on the benefits of IBL as well as the nuts and bolts of how to implement this approach in the mathematics classroom.
+
+You can find a recent version of my curriculum vitae [here]({{site.baseurl}}/scholarship/CVErnst.pdf).
 
 ## Publications
 
