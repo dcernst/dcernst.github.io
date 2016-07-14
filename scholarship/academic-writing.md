@@ -11,17 +11,30 @@ layout: default
 </ol>
 
 <!-- <img src="{{ site.baseurl }}/images/2012/02/TypeDHeap.png" align="left" width="100" img style="margin-right: 15px"/> -->
-My primary research interests are in the interplay between combinatorics and algebraic structures. More specifically, I study the combinatorics of [Coxeter groups][1] and their associated [Hecke algebras][2], [Kazhdan-Lusztig theory][3], generalized [Temperley-Lieb algebras][4], [diagram algebras][5], and [heaps of pieces][6]. By employing combinatorial tools such as diagram algebras and heaps of pieces, one can gain insight into algebraic structures associated to Coxeter groups, and, conversely, the corresponding structure theory can often lead to surprising combinatorial results. More recently, my research has expanded into [combinatorial game theory][7] (joint with [Nandor Sieben][8] and [Bret Benesh][9]). In particular, our research has focused on avoidance and achievement games involving finite groups.
+My primary research interests are in the interplay between combinatorics and algebraic structures. More specifically, I study the combinatorics of [Coxeter groups](http://en.wikipedia.org/wiki/Coxeter_group) and their associated [Hecke algebras](http://en.wikipedia.org/wiki/Hecke_algebra), [Kazhdan-Lusztig theory](http://en.wikipedia.org/wiki/Kazhdan%E2%80%93Lusztig_polynomial), generalized [Temperley-Lieb algebras](http://en.wikipedia.org/wiki/Temperley-Lieb_algebra), [diagram algebras](http://en.wikipedia.org/wiki/Planar_algebra), and [heaps of pieces](http://www.emis.de/journals/SLC/books/heaps.ps). By employing combinatorial tools such as diagram algebras and heaps of pieces, one can gain insight into algebraic structures associated to Coxeter groups, and, conversely, the corresponding structure theory can often lead to surprising combinatorial results. More recently, my research has expanded into [combinatorial game theory](https://en.wikipedia.org/wiki/Combinatorial_game_theory) (joint with [Nandor Sieben](http://jan.ucc.nau.edu/ns46/) and [Bret Benesh](http://www.users.csbsju.edu/~bbenesh/)). In particular, our research has focused on avoidance and achievement games involving finite groups.
 
 The combinatorial nature of my research naturally lends itself to collaborations with undergraduate students, and my goal is to incorporate undergraduates in my research as much as possible. If you are an NAU student interested in conducting research in mathematics, please come talk to me! Occasionally, there may be funding available to pay students to do research.
 
-My interests also include the [scholarship of teaching and learning][10] (SoTL) with a focus on [inquiry-based learning][11] (IBL) as an approach to teaching/exploring mathematics. I am currently a Special Projects Coordinator for the [Academy of Inquiry-Based Learning][12] and a mentor for several new IBL practitioners. Moreover, I actively give [talks][13] and organize workshops on the benefits of IBL as well as the nuts and bolts of how to implement this approach in the mathematics classroom.
+My interests also include the [scholarship of teaching and learning](http://en.wikipedia.org/wiki/Scholarship_of_Teaching_and_Learning) (SoTL) with a focus on [inquiry-based learning](http://maamathedmatters.blogspot.com/2013/05/what-heck-is-ibl.html) (IBL) as an approach to teaching/exploring mathematics. I am currently a Special Projects Coordinator for the [Academy of Inquiry-Based Learning](http://www.inquirybasedlearning.org) and a mentor for several new IBL practitioners. Moreover, I actively give [talks]({{site.baseurl}}/scholarship/talks/) and organize workshops on the benefits of IBL as well as the nuts and bolts of how to implement this approach in the mathematics classroom.
 
 You can find a recent version of my curriculum vitae [here]({{site.baseurl}}/scholarship/CVErnst.pdf).
 
+## In Preparation
+
+  * D.C. Ernst and R.M. Green. Cominuscule elements of Coxeter groups of type affine $C$.
+  * B.J. Benesh, D.C. Ernst, and N. Sieben. Impartial achievement games for generating finite groups.
+  * D.C. Ernst and B. Fox. Conjugacy classes of cyclically fully commutative elements in Coxeter groups of type $A$.
+  * D.C. Ernst and T. Laird. T-avoiding elements of Coxeter groups.
+
+## Submitted
+
+  * B.J. Benesh, D.C. Ernst, and N. Sieben. Impartial achievement games for generating generalized dihedral groups. Submitted to *Australas. J. Combin.* [[arXiv:coming soon]()]
+  * D.C. Ernst and N. Sieben. Impartial achievement and avoidance games for generating finite groups. Submitted to *Int. J. Game Theory*. [[arXiv:1407.0784](http://arxiv.org/abs/1407.0784)]
+  * D.C. Ernst. Diagram calculus for a type affine *C* Temperley-Lieb algebra, II. Submitted to *J. Pure Appl. Alg.* [[arXiv:1101.4215](http://arxiv.org/abs/1101.4215)]
+
 ## Publications
 
-  * B.J. Benesh, D.C. Ernst, and N. Sieben. Impartial avoidance and achievement games for generating symmetric and alternating groups. Accepted to *Int. Electron. J. Algebra*. [[arxiv:1508.03419](http://arxiv.org/abs/1508.03419)]
+  * B.J. Benesh, D.C. Ernst, and N. Sieben. Impartial avoidance and achievement games for generating symmetric and alternating groups. *Int. Electron. J. Algebra* 20, 2016. [[arxiv:1508.03419](http://arxiv.org/abs/1508.03419)]
   * D.C. Ernst, M. Hastings, and S. Salmon. Factorization of Temperley-Lieb diagrams. Accepted to *Involve*. [[arxiv:1509.01241](http://arxiv.org/abs/1509.01241)]
   * D.C. Ernst and A. Hodge. Within \\(\epsilon\\) of Independence: An Attempt to Produce Independent Proof-Writers via IBL. Accepted as book chapter to *Beyond Lecture: Techniques to Improve Student Proof-Writing Across the Curriculum*, MAA Notes.
   * N. Diefenderfer, D.C. Ernst, M. Hastings, L.N. Heath, H. Prawzinsky, B. Preston, J. Rushall, E. White, A. Whittemore. Prime Vertex Labelings of Several Families of Graphs. *Involve* 9(4), 667-688, 2016. [[arXiv:1503.08386](http://arxiv.org/abs/1503.08386)]
@@ -43,53 +56,30 @@ You can find a recent version of my curriculum vitae [here]({{site.baseurl}}/sch
   * D.C. Ernst. A diagrammatic representation of an affine *C* Temperley-Lieb algebra, PhD Thesis, University of Colorado, 2008. [[arXiv:0905.4457](http://arxiv.org/abs/0905.4457)]
   * D.C. Ernst. Cell Complexes for Arrangements with Group Actions, MS Thesis, Northern Arizona University, 2000. [[arXiv:0905.4434](http://arxiv.org/abs/0905.4434)]
 
-## Submitted/Preprints
-
-  * D.C. Ernst and N. Sieben. Impartial achievement and avoidance games for generating finite groups. Submitted to *Int. J. Game Theory*. [[arXiv:1407.0784](http://arxiv.org/abs/1407.0784)]
-  * D.C. Ernst. Diagram calculus for a type affine *C* Temperley-Lieb algebra, II. Submitted to *J. Pure Appl. Alg.* [[arXiv:1101.4215](http://arxiv.org/abs/1101.4215)]
-
-## In Preparation
-
-  * D.C. Ernst and R.M. Green. Cominuscule elements of Coxeter groups of type affine $C$.
-  * B.J. Benesh, D.C. Ernst, and N. Sieben. Impartial achievement games for generating generalized dihedral groups.
-  * B.J. Benesh, D.C. Ernst, and N. Sieben. Impartial achievement games for generating finite groups.
-  * D.C. Ernst and B. Fox. Conjugacy classes of cyclically fully commutative elements in Coxeter groups of type $A$.
-  * D.C. Ernst and T. Laird. T-avoiding elements of Coxeter groups.
-
-<!-- * D.C. Ernst, R.M. Green, M. Macauley, and N. Sieben. A combinatorial proof the CFC elements are logarithmic. -->
-<!-- * H. Denoncourt, D.C. Ernst, and D. Story. An upper bound on the number of commutation classes of the longest element of the symmetric group. -->
-<!-- * D.C. Ernst and D. Jacobson. Optimizing Solutions of $2\times 2$ Spinpossible boards. -->
-
 ## Open-Source Course Materials
 
 Below is a list of course materials that I have written to be used with an [inquiry-based learning][11] (IBL) approach.
 
-  * D.C. Ernst. *An Introduction to Proof via Inquiry-Based Learning*. IBL course materials for an introduction to proof course. The first half of the notes are an adaptation of notes written by [Stan Yoshinobu][27] and [Matthew Jones][28]. [[Source](http://dcernst.github.io/IBL-IntroToProof/)] [![DOI](https://zenodo.org/badge/5110/dcernst/IBL-IntroToProof.svg)](https://zenodo.org/badge/latestdoi/5110/dcernst/IBL-IntroToProof)
+  * D.C. Ernst. *An Introduction to Proof via Inquiry-Based Learning*. IBL course materials for an introduction to proof course. The first half of the notes are an adaptation of notes written by [Stan Yoshinobu](http://www.stanyoshinobu.com/) and [Matthew Jones](http://www.csudh.edu/math/mjones/). [[Source](http://dcernst.github.io/IBL-IntroToProof/)] [![DOI](https://zenodo.org/badge/5110/dcernst/IBL-IntroToProof.svg)](https://zenodo.org/badge/latestdoi/5110/dcernst/IBL-IntroToProof)
   * D.C. Ernst. *An Inquiry-Based Approach to Abstract Algebra*. IBL course materials for an abstract algebra course that emphasizes visualization and incorporates technology. Very much a work in progress. [[Source](http://dcernst.github.io/IBL-AbstractAlgebra/)] [![DOI](https://zenodo.org/badge/5110/dcernst/IBL-AbstractAlgebra.svg)](https://zenodo.org/badge/latestdoi/5110/dcernst/IBL-AbstractAlgebra)
   * D.C. Ernst, N.Sieben. *MAT 220 Problem Collection*. MAT 220 is an introductory course in mathematical reasoning in multi-step problems across different areas of mathematics. The goal is to use elementary mathematical tools to solve more complex problems in already familiar areas of study instead of teaching new mathematical tools that are used in straightforward one-step exercises. The focus is on problem solving and solution writing.
 
-## Blogging
+## Online Columns and Blog Posts
 
-In addition to the posts that I write for my [personal blog]({{site.baseurl}}/blog/), [Angie Hodge](http://www.unomaha.edu/math/people/hodge/) and I are coauthors for [Math Ed Matters](http://maamathedmatters.blogspot.com), which is a (roughly) monthly column sponsored by the [Mathematical Association of America](http://maa.org). The column explores topics and current events related to undergraduate mathematics education. Posts aim to inspire, provoke deep thought, and provide ideas for the mathematics classroom. Our interest in and engagement with IBL color the column's content.
-
-I have also written a few guest posts for other blogs.
-
+  * I am currently a co-editor/author for a new online column called *Teaching Tidbits*, which is sponsored by the [Mathematical Association of America](http://maa.org).  The column will launch in Fall 2016. Below are some of my upcoming posts.
+      * D.C. Ernst. Fostering productive failure. *Teaching Tidbits*. To appear in Spring 2017.
+      * D.C. Ernst. Encouraging students to generate examples and counterexamples. *Teaching Tidbits*. To appear in Fall 2016.
+  * [Angie Hodge](http://www.unomaha.edu/math/people/hodge/) and I are coauthors for [Math Ed Matters](http://maamathedmatters.blogspot.com), which is a (roughly) monthly online column sponsored by the [MAA](http://maa.org). The column explores topics and current events related to undergraduate mathematics education. Posts aim to inspire, provoke deep thought, and provide ideas for the mathematics classroom. Our interest in and engagement with IBL color the column's content. Below is a selection of my posts.
+      * D.C. Ernst. Setting the Stage. *Math Ed Matters*. January 2015. [[Blog Post](http://maamathedmatters.blogspot.com/2015/01/setting-stage.html)]
+      * D.C. Ernst. The Twin Pillars of IBL. *Math Ed Matters*. January 2015. [[Blog Post](http://maamathedmatters.blogspot.com/2015/01/the-twin-pillars-of-ibl.html)]
+      * D.C. Ernst. Fear is the mind-killer. *Math Ed Matters*. June 2014. [[Blog Post](http://maamathedmatters.blogspot.com/2014/06/fear-is-mind-killer.html)]
+      * D.C. Ernst. Encouraging Students to Tinker. *Math Ed Matters*. August 2014. [[Blog Post](http://maamathedmatters.blogspot.com/2014/04/encouraging-students-to-tinker.html)]
+      * D.C. Ernst. Give the Students the Colored Pen. *Math Ed Matters*. August 2013. [[Blog Post](http://maamathedmatters.blogspot.com/2013/08/give-students-colored-pen.html)]
+      * D.C. Ernst. Personality Matters?. *Math Ed Matters*. July 2013. [[Blog Post](http://maamathedmatters.blogspot.com/2013/07/personality-matters.html)]
+      * D.C. Ernst. Grade School Utopia?. *Math Ed Matters*. July 2013. [[Blog Post](http://maamathedmatters.blogspot.com/2013/07/grade-school-utopia.html)]
+      * D.C. Ernst and A. Hodge. Try, Fail, Understand, Win. *Math Ed Matters*. June 2013. [[Blog Post](http://maamathedmatters.blogspot.com/2013/06/try-fail-understand-win.html)]
+      * D.C. Ernst. What the Heck Is IBL? *Math Ed Matters*. May 2013. [[Blog Post](http://maamathedmatters.blogspot.com/2013/05/what-heck-is-ibl.html)]
   * Teaching Calculus 1 with a Focus on Student Presentations. *Discovering the Art of Mathematics*. October 2015. [[Blog Post](https://www.artofmathematics.org/blogs/cvonrenesse/guest-blog-by-dana-ernst)]
-  * 4+1 interview with Dana Ernst. *Casting Out Nines* by R. Talbert. . The Chronicle Blog Network. August 2013. [[Blog Post](http://chronicle.com/blognetwork/castingoutnines/2013/08/01/41-interview-with-dana-ernst/)]
+  * 4+1 interview with Dana Ernst. *Casting Out Nines* by R. Talbert. The Chronicle Blog Network. August 2013. [[Blog Post](http://chronicle.com/blognetwork/castingoutnines/2013/08/01/41-interview-with-dana-ernst/)]
   * IBL Instructor Perspectives: Professor Dana Ernst. *The IBL Blog* by S. Yoshinobu. February 2012. [[Blog Post](http://theiblblog.blogspot.com/2012/02/ibl-instructor-perspectives-professor.html)]
-
- [1]: http://en.wikipedia.org/wiki/Coxeter_group
- [2]: http://en.wikipedia.org/wiki/Hecke_algebra
- [3]: http://en.wikipedia.org/wiki/Kazhdan%E2%80%93Lusztig_polynomial
- [4]: http://en.wikipedia.org/wiki/Temperley-Lieb_algebra
- [5]: http://en.wikipedia.org/wiki/Planar_algebra
- [6]: http://www.emis.de/journals/SLC/books/heaps.ps
- [7]: https://en.wikipedia.org/wiki/Combinatorial_game_theory
- [8]: http://jan.ucc.nau.edu/ns46/
- [9]: http://www.users.csbsju.edu/~bbenesh/
- [10]: http://en.wikipedia.org/wiki/Scholarship_of_Teaching_and_Learning
- [11]: http://maamathedmatters.blogspot.com/2013/05/what-heck-is-ibl.html
- [12]: http://www.inquirybasedlearning.org
- [13]: {{site.baseurl}}/scholarship/talks/
- [27]: http://www.stanyoshinobu.com/
- [28]: http://www.csudh.edu/math/mjones/
+  * I also write sporadically on my [personal blog]({{site.baseurl}}/blog/). Topics focus on mathematics, teaching, and technology. 
