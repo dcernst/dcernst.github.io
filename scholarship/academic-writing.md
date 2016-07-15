@@ -58,7 +58,7 @@ You can find a recent version of my curriculum vitae [here]({{site.baseurl}}/sch
 
 ## Open-Source Course Materials
 
-Below is a list of course materials that I have written to be used with an [inquiry-based learning][11] (IBL) approach.
+Below is a list of course materials that I have written to be used with an [inquiry-based learning](http://maamathedmatters.blogspot.com/2013/05/what-heck-is-ibl.html) (IBL) approach.
 
   * D.C. Ernst. *An Introduction to Proof via Inquiry-Based Learning*. IBL course materials for an introduction to proof course. The first half of the notes are an adaptation of notes written by [Stan Yoshinobu](http://www.stanyoshinobu.com/) and [Matthew Jones](http://www.csudh.edu/math/mjones/). [[Source](http://dcernst.github.io/IBL-IntroToProof/)] [![DOI](https://zenodo.org/badge/5110/dcernst/IBL-IntroToProof.svg)](https://zenodo.org/badge/latestdoi/5110/dcernst/IBL-IntroToProof)
   * D.C. Ernst. *An Inquiry-Based Approach to Abstract Algebra*. IBL course materials for an abstract algebra course that emphasizes visualization and incorporates technology. Very much a work in progress. [[Source](http://dcernst.github.io/IBL-AbstractAlgebra/)] [![DOI](https://zenodo.org/badge/5110/dcernst/IBL-AbstractAlgebra.svg)](https://zenodo.org/badge/latestdoi/5110/dcernst/IBL-AbstractAlgebra)
