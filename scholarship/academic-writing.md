@@ -20,39 +20,39 @@ My interests also include the [scholarship of teaching and learning](http://en.w
 You can find a recent version of my curriculum vitae [here]({{site.baseurl}}/scholarship/CVErnst.pdf).
 
 ## In Preparation
-
   * D.C. Ernst and R.M. Green. Cominuscule elements of Coxeter groups of type affine $C$.
   * B.J. Benesh, D.C. Ernst, and N. Sieben. Impartial achievement games for generating finite groups.
   * D.C. Ernst and B. Fox. Conjugacy classes of cyclically fully commutative elements in Coxeter groups of type $A$.
   * D.C. Ernst and T. Laird. T-avoiding elements of Coxeter groups.
 
 ## Submitted
-
   * B.J. Benesh, D.C. Ernst, and N. Sieben. Impartial achievement games for generating generalized dihedral groups. Submitted to *Australas. J. Combin.* [[arXiv: coming soon]()]
   * D.C. Ernst and N. Sieben. Impartial achievement and avoidance games for generating finite groups. Submitted to *Int. J. Game Theory*. [[arXiv:1407.0784](http://arxiv.org/abs/1407.0784)]
   * D.C. Ernst. Diagram calculus for a type affine *C* Temperley-Lieb algebra, II. Submitted to *J. Pure Appl. Alg.* [[arXiv:1101.4215](http://arxiv.org/abs/1101.4215)]
 
-## Publications
-
-  * B.J. Benesh, D.C. Ernst, and N. Sieben. Impartial avoidance and achievement games for generating symmetric and alternating groups. *Int. Electron. J. Algebra* 20, 70-85, 2016. [[arXiv:1508.03419](http://arxiv.org/abs/1508.03419)] [[ePrint](http://www.ieja.net/files/papers/volume-20/4-V20-2016.pdf)]
+## Journal Articles
   * D.C. Ernst, M. Hastings, and S. Salmon. Factorization of Temperley-Lieb diagrams. Accepted to *Involve*. [[arXiv:1509.01241](http://arxiv.org/abs/1509.01241)]
-  * D.C. Ernst and A. Hodge. Within \\(\epsilon\\) of Independence: An Attempt to Produce Independent Proof-Writers via IBL. Accepted as book chapter to *Beyond Lecture: Techniques to Improve Student Proof-Writing Across the Curriculum*, MAA Notes.
+  * B.J. Benesh, D.C. Ernst, and N. Sieben. Impartial avoidance and achievement games for generating symmetric and alternating groups. *Int. Electron. J. Algebra* 20, 70-85, 2016. [[arXiv:1508.03419](http://arxiv.org/abs/1508.03419)] [[ePrint](http://www.ieja.net/files/papers/volume-20/4-V20-2016.pdf)]
   * N. Diefenderfer, D.C. Ernst, M. Hastings, L.N. Heath, H. Prawzinsky, B. Preston, J. Rushall, E. White, A. Whittemore. Prime Vertex Labelings of Several Families of Graphs. *Involve* 9(4), 667-688, 2016. [[arXiv:1503.08386](http://arxiv.org/abs/1503.08386)]
   * B.J. Benesh, D.C. Ernst, and N. Sieben. Impartial avoidance games for generating finite groups. *North-W. Eur. J. of Math.* 2, 83-101, 2016. [[arXiv:1506.07105](http://arxiv.org/abs/1506.07105)] [[ePrint](http://math.univ-lille1.fr/~nwejm/OnlinePapers/pdf/article2016-3.pdf)]
   * H. Denoncourt, D.C. Ernst, and D. Story. On the number of commutation classes of the longest element of the symmetric group. *Open Problems in Mathematics* 4, 2016. [[arXiv:1602.08328](http://arxiv.org/abs/1602.08328)] [[ePrint](http://opmath.org/index.php/opm/article/view/15)]
   * B. Beaudrie, D.C. Ernst, E. Kennedy, and R. St. Laurent. Inverted Pedagogy in Second Semester Calculus. *PRIMUS* 25(9-10), 992-906, 2015. [[DOI:10.1080/10511970.2015.1031301](http://www.tandfonline.com/doi/full/10.1080/10511970.2015.1031301)]
   * B. Love, A. Hodge, C. Corritore, and D.C. Ernst. Inquiry-Based Learning and the Flipped Classroom Model. *PRIMUS* 25(8), 745-762, 2015. [[DOI:10.1080/10511970.2015.1046005](http://www.tandfonline.com/doi/full/10.1080/10511970.2015.1046005)]
-  * D.C. Ernst, A. Hodge, M. Jones, and S. Yoshinobu. The many faces of IBL. In *Handbook of Research on Pedagogical Practice in STEM Education*, E. Ostler (Ed.), 2015. Elkhorn, NE.
   * D.C. Ernst, M. Leingang, and R. Taylor. Facebook for Professional Educators: To Friend or Not to Friend? *MAA FOCUS* June/July 2015. [[ePrint](http://digital.ipcprintservices.com/publication/?i=260736&pre=1&p=7)]
   * D.C. Ernst, A. Hodge, and A. Schultz. Enhancing Proof Writing via Cross-Institutional Peer Review. *PRIMUS* 25(2), 121-130, 2015. [[DOI:10.1080/10511970.2014.921652](http://www.tandfonline.com/doi/full/10.1080/10511970.2014.921652)]
-  * B. Beaudrie, D.C. Ernst, and B. Boschmans. Redesigning an Algebra for Precalculus Course. In *Proceedings of World Conference on E-Learning in Corporate, Government, Healthcare, and Higher Education*, T. Bastiaens & G. Marks (Eds.), 2013. Chesapeake, VA: AACE. [[EdITLib](http://www.editlib.org/p/115001/)]
-  * B. Beaudrie, B. Boschmans, and D.C. Ernst. First Semester Experiences in Implementing a Mathematics Emporium Model. In *Proceedings of Society for Information Technology & Teacher Education International Conference*, R. McBride & M. Searson (Eds.), 2013. Chesapeake, VA: AACE. [[EdITLib](http://www.editlib.org/p/48098)]
   * D.C. Ernst. Diagram calculus for a type affine *C* Temperley-Lieb algebra, I. *J. Pure Appl. Alg.* 216(11), 2012. [[arXiv:0910.0925](http://arxiv.org/abs/0910.0925)]
   * T. Boothby, J. Burkert, M. Eichwald, D.C. Ernst, R.M. Green, and M. Macauley. On the Cyclically Fully Commutative Elements of Coxeter Groups. *J. Algebraic Combin.* 36(1), 2012. [[arXiv:1202.6657](http://arxiv.org/abs/1202.6657)]
   * D.C. Ernst. Non-cancellable elements in type affine *C* Coxeter groups, *Int. Electron. J. Algebra* 8, 2010. [[arXiv:0910.0923](http://arxiv.org/abs/0910.0923)] [[ePrint](http://www.ieja.net/files/papers/volume-8/Volume-7--2010/14-V8-2010.pdf)]
 
-## Theses
+## Book Chapters
+  * D.C. Ernst and A. Hodge. Within \\(\epsilon\\) of Independence: An Attempt to Produce Independent Proof-Writers via IBL. Accepted as book chapter to *Beyond Lecture: Techniques to Improve Student Proof-Writing Across the Curriculum*, MAA Notes.
+  * D.C. Ernst, A. Hodge, M. Jones, and S. Yoshinobu. The many faces of IBL. In *Handbook of Research on Pedagogical Practice in STEM Education*, E. Ostler (Ed.), 2015. Elkhorn, NE.
 
+## Conference Proceedings
+  * B. Beaudrie, D.C. Ernst, and B. Boschmans. Redesigning an Algebra for Precalculus Course. In *Proceedings of World Conference on E-Learning in Corporate, Government, Healthcare, and Higher Education*, T. Bastiaens & G. Marks (Eds.), 2013. Chesapeake, VA: AACE. [[EdITLib](http://www.editlib.org/p/115001/)]
+  * B. Beaudrie, B. Boschmans, and D.C. Ernst. First Semester Experiences in Implementing a Mathematics Emporium Model. In *Proceedings of Society for Information Technology & Teacher Education International Conference*, R. McBride & M. Searson (Eds.), 2013. Chesapeake, VA: AACE. [[EdITLib](http://www.editlib.org/p/48098)]
+
+## Theses
   * D.C. Ernst. A diagrammatic representation of an affine *C* Temperley-Lieb algebra, PhD Thesis, University of Colorado, 2008. [[arXiv:0905.4457](http://arxiv.org/abs/0905.4457)]
   * D.C. Ernst. Cell Complexes for Arrangements with Group Actions, MS Thesis, Northern Arizona University, 2000. [[arXiv:0905.4434](http://arxiv.org/abs/0905.4434)]
 
