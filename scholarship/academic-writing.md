@@ -19,12 +19,6 @@ My interests also include the [scholarship of teaching and learning](http://en.w
 
 You can find a recent version of my curriculum vitae [here]({{site.baseurl}}/scholarship/CVErnst.pdf).
 
-## In Preparation
-  * D.C. Ernst and R.M. Green. Cominuscule elements of Coxeter groups of type affine $C$.
-  * B.J. Benesh, D.C. Ernst, and N. Sieben. Impartial achievement games for generating finite groups.
-  * D.C. Ernst and B. Fox. Conjugacy classes of cyclically fully commutative elements in Coxeter groups of type $A$.
-  * D.C. Ernst and T. Laird. T-avoiding elements of Coxeter groups.
-
 ## Submitted
   * B.J. Benesh, D.C. Ernst, and N. Sieben. Impartial achievement games for generating generalized dihedral groups. Submitted to *Australas. J. Combin.* [[arXiv: coming soon]()]
   * D.C. Ernst and N. Sieben. Impartial achievement and avoidance games for generating finite groups. Submitted to *Int. J. Game Theory*. [[arXiv:1407.0784](http://arxiv.org/abs/1407.0784)]
@@ -83,3 +77,9 @@ Below is a list of course materials that I have written to be used with an [inqu
   * 4+1 interview with Dana Ernst. *Casting Out Nines* by R. Talbert. The Chronicle Blog Network. August 2013. [[Blog Post](http://chronicle.com/blognetwork/castingoutnines/2013/08/01/41-interview-with-dana-ernst/)]
   * IBL Instructor Perspectives: Professor Dana Ernst. *The IBL Blog* by S. Yoshinobu. February 2012. [[Blog Post](http://theiblblog.blogspot.com/2012/02/ibl-instructor-perspectives-professor.html)]
   * I also write sporadically on my [personal blog]({{site.baseurl}}/blog/). Topics focus on mathematics, teaching, and technology.
+
+  ## In Preparation
+    * D.C. Ernst and R.M. Green. Cominuscule elements of Coxeter groups of type affine $C$.
+    * B.J. Benesh, D.C. Ernst, and N. Sieben. Impartial achievement games for generating finite groups.
+    * D.C. Ernst and B. Fox. Conjugacy classes of cyclically fully commutative elements in Coxeter groups of type $A$.
+    * D.C. Ernst and T. Laird. T-avoiding elements of Coxeter groups.
