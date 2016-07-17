@@ -73,12 +73,12 @@ Below is a list of course materials that I have written to be used with an [inqu
   * IBL Instructor Perspectives: Professor Dana Ernst. *The IBL Blog* by S. Yoshinobu. February 2012. [[Blog Post](http://theiblblog.blogspot.com/2012/02/ibl-instructor-perspectives-professor.html)]
   * I also write sporadically on my [personal blog]({{site.baseurl}}/blog/). Topics focus on mathematics, teaching, and technology.
 
-  ## Theses
-    * D.C. Ernst. A diagrammatic representation of an affine *C* Temperley-Lieb algebra, PhD Thesis, University of Colorado, 2008. [[arXiv:0905.4457](http://arxiv.org/abs/0905.4457)]
-    * D.C. Ernst. Cell Complexes for Arrangements with Group Actions, MS Thesis, Northern Arizona University, 2000. [[arXiv:0905.4434](http://arxiv.org/abs/0905.4434)]
+## Theses
+  * D.C. Ernst. A diagrammatic representation of an affine *C* Temperley-Lieb algebra, PhD Thesis, University of Colorado, 2008. [[arXiv:0905.4457](http://arxiv.org/abs/0905.4457)]
+  * D.C. Ernst. Cell Complexes for Arrangements with Group Actions, MS Thesis, Northern Arizona University, 2000. [[arXiv:0905.4434](http://arxiv.org/abs/0905.4434)]
 
-  ## In Preparation
-    * D.C. Ernst and R.M. Green. Cominuscule elements of Coxeter groups of type affine $C$.
-    * B.J. Benesh, D.C. Ernst, and N. Sieben. Impartial achievement games for generating finite groups.
-    * D.C. Ernst and B. Fox. Conjugacy classes of cyclically fully commutative elements in Coxeter groups of type $A$.
-    * D.C. Ernst and T. Laird. T-avoiding elements of Coxeter groups.
+## In Preparation
+  * D.C. Ernst and R.M. Green. Cominuscule elements of Coxeter groups of type affine $C$.
+  * B.J. Benesh, D.C. Ernst, and N. Sieben. Impartial achievement games for generating finite groups.
+  * D.C. Ernst and B. Fox. Conjugacy classes of cyclically fully commutative elements in Coxeter groups of type $A$.
+  * D.C. Ernst and T. Laird. T-avoiding elements of Coxeter groups.
