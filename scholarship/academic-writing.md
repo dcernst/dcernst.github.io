@@ -46,17 +46,12 @@ You can find a recent version of my curriculum vitae [here]({{site.baseurl}}/sch
   * B. Beaudrie, D.C. Ernst, and B. Boschmans. Redesigning an Algebra for Precalculus Course. In *Proceedings of World Conference on E-Learning in Corporate, Government, Healthcare, and Higher Education*, T. Bastiaens & G. Marks (Eds.), 2013. Chesapeake, VA: AACE. [[EdITLib](http://www.editlib.org/p/115001/)]
   * B. Beaudrie, B. Boschmans, and D.C. Ernst. First Semester Experiences in Implementing a Mathematics Emporium Model. In *Proceedings of Society for Information Technology & Teacher Education International Conference*, R. McBride & M. Searson (Eds.), 2013. Chesapeake, VA: AACE. [[EdITLib](http://www.editlib.org/p/48098)]
 
-## Theses
-  * D.C. Ernst. A diagrammatic representation of an affine *C* Temperley-Lieb algebra, PhD Thesis, University of Colorado, 2008. [[arXiv:0905.4457](http://arxiv.org/abs/0905.4457)]
-  * D.C. Ernst. Cell Complexes for Arrangements with Group Actions, MS Thesis, Northern Arizona University, 2000. [[arXiv:0905.4434](http://arxiv.org/abs/0905.4434)]
-
-## Open-Source Course Materials
-
+## Open-Source Books
 Below is a list of course materials that I have written to be used with an [inquiry-based learning](http://maamathedmatters.blogspot.com/2013/05/what-heck-is-ibl.html) (IBL) approach.
 
   * D.C. Ernst. *An Introduction to Proof via Inquiry-Based Learning*. IBL course materials for an introduction to proof course. The first half of the notes are an adaptation of notes written by [Stan Yoshinobu](http://www.stanyoshinobu.com/) and [Matthew Jones](http://www.csudh.edu/math/mjones/). [[Source](http://dcernst.github.io/IBL-IntroToProof/)] [![DOI](https://zenodo.org/badge/5110/dcernst/IBL-IntroToProof.svg)](https://zenodo.org/badge/latestdoi/5110/dcernst/IBL-IntroToProof)
   * D.C. Ernst. *An Inquiry-Based Approach to Abstract Algebra*. IBL course materials for an abstract algebra course that emphasizes visualization and incorporates technology. Very much a work in progress. [[Source](http://dcernst.github.io/IBL-AbstractAlgebra/)] [![DOI](https://zenodo.org/badge/5110/dcernst/IBL-AbstractAlgebra.svg)](https://zenodo.org/badge/latestdoi/5110/dcernst/IBL-AbstractAlgebra)
-  * D.C. Ernst, N.Sieben. *MAT 220 Problem Collection*. MAT 220 is an introductory course in mathematical reasoning in multi-step problems across different areas of mathematics. The goal is to use elementary mathematical tools to solve more complex problems in already familiar areas of study instead of teaching new mathematical tools that are used in straightforward one-step exercises. The focus is on problem solving and solution writing.
+  <!-- * D.C. Ernst, N.Sieben. *MAT 220 Problem Collection*. MAT 220 is an introductory course in mathematical reasoning in multi-step problems across different areas of mathematics. The goal is to use elementary mathematical tools to solve more complex problems in already familiar areas of study instead of teaching new mathematical tools that are used in straightforward one-step exercises. The focus is on problem solving and solution writing. -->
 
 ## Online Columns and Blog Posts
 
@@ -77,6 +72,10 @@ Below is a list of course materials that I have written to be used with an [inqu
   * 4+1 interview with Dana Ernst. *Casting Out Nines* by R. Talbert. The Chronicle Blog Network. August 2013. [[Blog Post](http://chronicle.com/blognetwork/castingoutnines/2013/08/01/41-interview-with-dana-ernst/)]
   * IBL Instructor Perspectives: Professor Dana Ernst. *The IBL Blog* by S. Yoshinobu. February 2012. [[Blog Post](http://theiblblog.blogspot.com/2012/02/ibl-instructor-perspectives-professor.html)]
   * I also write sporadically on my [personal blog]({{site.baseurl}}/blog/). Topics focus on mathematics, teaching, and technology.
+
+  ## Theses
+    * D.C. Ernst. A diagrammatic representation of an affine *C* Temperley-Lieb algebra, PhD Thesis, University of Colorado, 2008. [[arXiv:0905.4457](http://arxiv.org/abs/0905.4457)]
+    * D.C. Ernst. Cell Complexes for Arrangements with Group Actions, MS Thesis, Northern Arizona University, 2000. [[arXiv:0905.4434](http://arxiv.org/abs/0905.4434)]
 
   ## In Preparation
     * D.C. Ernst and R.M. Green. Cominuscule elements of Coxeter groups of type affine $C$.
