@@ -65,7 +65,7 @@ Below is a list of course materials that I have written to be used with an [inqu
       * D.C. Ernst. Encouraging Students to Tinker. *Math Ed Matters*. August 2014. [[Blog Post](http://maamathedmatters.blogspot.com/2014/04/encouraging-students-to-tinker.html)]
       * D.C. Ernst. Engaging in Inquiry-Based Learning. *Math Ed Matters*. February 2014. [[Blog Post](http://maamathedmatters.blogspot.com/2014/02/engaging-in-inquiry-based-learning.html)]
       * D.C. Ernst. Math Ed Mania at the JMM. *Math Ed Matters*. January 2014. [[Blog Post](http://maamathedmatters.blogspot.com/2014/01/math-ed-mania-at-jmm.html)]
-      * D.C. Ernst. The JMM: What's Mathematics Education Got to Do with It?. *Math Ed Matters*. December 2013. [[Blog Post](http://maamathedmatters.blogspot.com/2013/12/the-jmm-whats-mathematics-education-got.html)]
+      * D.C. Ernst. The JMM: What's Mathematics Education Got to Do with It? *Math Ed Matters*. December 2013. [[Blog Post](http://maamathedmatters.blogspot.com/2013/12/the-jmm-whats-mathematics-education-got.html)]
       * D.C. Ernst. Give the Students the Colored Pen. *Math Ed Matters*. August 2013. [[Blog Post](http://maamathedmatters.blogspot.com/2013/08/give-students-colored-pen.html)]
       * D.C. Ernst. Personality Matters? *Math Ed Matters*. July 2013. [[Blog Post](http://maamathedmatters.blogspot.com/2013/07/personality-matters.html)]
       * D.C. Ernst. Grade School Utopia? *Math Ed Matters*. July 2013. [[Blog Post](http://maamathedmatters.blogspot.com/2013/07/grade-school-utopia.html)]
