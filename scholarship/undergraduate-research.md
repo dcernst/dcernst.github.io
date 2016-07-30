@@ -60,7 +60,7 @@ If you want to know more about other open problems with monetary rewards, check 
 
 The students have given the following presentations:
 
-- J. Hazelman and P. Montfort. Explorations of Conway’s Sylver Coinage Game. [2016 Nebraska Conference for Undergraduate Women in Mathematics](http://www.math.unl.edu/~ncuwm/18thAnnual/), [University of Nebraska-Lincoln](http://www.unl.edu), Lincoln, NE. January 2015. [[Poster](https://speakerdeck.com/dcernst/explorations-of-conways-sylver-coinage-game)]
+- J. Hazelman and P. Montfort. Explorations of Conway’s Sylver Coinage Game. [2016 Nebraska Conference for Undergraduate Women in Mathematics](http://www.math.unl.edu/~ncuwm/18thAnnual/), [University of Nebraska-Lincoln](http://www.unl.edu), Lincoln, NE. January 2016. [[Poster](https://speakerdeck.com/dcernst/explorations-of-conways-sylver-coinage-game)]
 
 ### <a name="HeroinHero"></a>Commutation classes of the longest element in the symmetric group ###
 
