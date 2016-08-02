@@ -20,7 +20,7 @@ My interests also include the [scholarship of teaching and learning](http://en.w
 You can find a recent version of my curriculum vitae [here]({{site.baseurl}}/scholarship/CVErnst.pdf).
 
 ## Submitted
-  * B.J. Benesh, D.C. Ernst, and N. Sieben. Impartial achievement games for generating generalized dihedral groups. Submitted to *Australas. J. Combin.* [[arXiv: coming soon]()]
+  * B.J. Benesh, D.C. Ernst, and N. Sieben. Impartial achievement games for generating generalized dihedral groups. Submitted to *Australas. J. Combin.* [[arXiv:1608.00259](http://arxiv.org/abs/1608.00259)]
   * D.C. Ernst and N. Sieben. Impartial achievement and avoidance games for generating finite groups. Submitted to *Int. J. Game Theory*. [[arXiv:1407.0784](http://arxiv.org/abs/1407.0784)]
   * D.C. Ernst. Diagram calculus for a type affine *C* Temperley-Lieb algebra, II. Submitted to *J. Pure Appl. Alg.* [[arXiv:1101.4215](http://arxiv.org/abs/1101.4215)]
 
