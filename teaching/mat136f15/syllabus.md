@@ -32,7 +32,7 @@ layout: default
 <div class="row">
   <div class="col-xs-12 col-sm-6">
     <div>
-    <h2>General Info</h2>
+    <h3>Course Info</h3>
     <strong>Title:</strong> MAT 136H: Calculus I (Honors)<br />
     <strong>Semester:</strong> Fall 2015<br />
     <strong>Credits:</strong> 4<br />
@@ -44,7 +44,7 @@ layout: default
 
   <div class="col-xs-12 col-sm-6">
     <div>
-      <h2>Instructor Info</h2>
+      <h3>Instructor Info</h3>
       <i class="fa fa-user fa-fw"></i>&nbsp; Dana C. Ernst, PhD<br />
       <i class="fa fa-university fa-fw"></i>&nbsp; AMB 176<br />
       <i class="fa fa-users fa-fw"></i>&nbsp; 11:15-12:15 MWThF and 10-11 T (or by appointment)<br />
@@ -55,8 +55,6 @@ layout: default
   </div>
 
 </div>
-
-## Course Information ##
 
 ### Prerequisites ###
 MAT 125 or MAT 125H with a grade greater than or equal to C or satisfactory mathematics placement.

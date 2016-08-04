@@ -29,7 +29,7 @@ layout: default
 <div class="row">
   <div class="col-xs-12 col-sm-6">
     <div>
-    <h2>Course Info</h2>
+    <h3>Course Info</h3>
     <strong>Title:</strong> MAT 411: Introduction to Abstract Algebra<br />
     <strong>Semester:</strong> Spring 2016<br />
     <strong>Credits:</strong> 3<br />
@@ -41,7 +41,7 @@ layout: default
 
   <div class="col-xs-12 col-sm-6">
     <div>
-      <h2>Instructor Info</h2>
+      <h3>Instructor Info</h3>
       <i class="fa fa-user fa-fw"></i>&nbsp; Dana C. Ernst, PhD<br />
       <i class="fa fa-university fa-fw"></i>&nbsp; AMB 176<br />
       <i class="fa fa-users fa-fw"></i>&nbsp; 11:15-12:15 MWF and 9-10 TTh (or by appointment)<br />
