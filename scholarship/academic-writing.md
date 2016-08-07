@@ -40,7 +40,7 @@ You can find a recent version of my curriculum vitae [here]({{site.baseurl}}/sch
 
 ## Book Chapters
   * D.C. Ernst and A. Hodge. Within \\(\epsilon\\) of Independence: An Attempt to Produce Independent Proof-Writers via IBL. Accepted as book chapter to *Beyond Lecture: Techniques to Improve Student Proof-Writing Across the Curriculum*, MAA Notes.
-  * D.C. Ernst, A. Hodge, M. Jones, and S. Yoshinobu. The many faces of IBL. In *Handbook of Research on Pedagogical Practice in STEM Education*, E. Ostler (Ed.), 2015. Elkhorn, NE.
+  * D.C. Ernst, A. Hodge, M. Jones, and S. Yoshinobu. The many faces of IBL. In *STEM Education: An Overview of Contemporary Research, Trends, and Perspectives*, E. Ostler (Ed.), 2015. Elkhorn, NE.
 
 ## Conference Proceedings (Peer Reviewed)
   * B. Beaudrie, D.C. Ernst, and B. Boschmans. Redesigning an Algebra for Precalculus Course. In *Proceedings of World Conference on E-Learning in Corporate, Government, Healthcare, and Higher Education*, T. Bastiaens & G. Marks (Eds.), 2013. Chesapeake, VA: AACE. [[EdITLib](http://www.editlib.org/p/115001/)]
