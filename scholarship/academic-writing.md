@@ -39,7 +39,7 @@ You can find a recent version of my curriculum vitae [here]({{site.baseurl}}/sch
   * D.C. Ernst. Non-cancellable elements in type affine *C* Coxeter groups. *Int. Electron. J. Algebra* 8, 2010. [[arXiv:0910.0923](http://arxiv.org/abs/0910.0923)] [[ePrint](http://www.ieja.net/files/papers/volume-8/Volume-7--2010/14-V8-2010.pdf)]
 
 ## Book Chapters
-  * D.C. Ernst and A. Hodge. Within \\(\epsilon\\) of Independence: An Attempt to Produce Independent Proof-Writers via IBL. In *Beyond Lecture: Resources and Pedagogical Techniques for Enhancing the Teaching of Proof-Writing Across the Curriculum*, R. Schwell, A. Steurer, a\& J.F. Vasquez (Eds.), MAA Notes, 2016.
+  * D.C. Ernst and A. Hodge. Within \\(\epsilon\\) of Independence: An Attempt to Produce Independent Proof-Writers via IBL. In *Beyond Lecture: Resources and Pedagogical Techniques for Enhancing the Teaching of Proof-Writing Across the Curriculum*, R. Schwell, A. Steurer, & J.F. Vasquez (Eds.), MAA Notes, 2016.
   * D.C. Ernst, A. Hodge, M. Jones, and S. Yoshinobu. The many faces of IBL. In *STEM Education: An Overview of Contemporary Research, Trends, and Perspectives*, E. Ostler (Ed.), 2015. Elkhorn, NE.
 
 ## Conference Proceedings (Peer Reviewed)
