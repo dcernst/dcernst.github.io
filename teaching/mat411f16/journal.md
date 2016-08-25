@@ -48,7 +48,7 @@ We’ll use this page to keep track of what has happened each day in class. It w
 ## Week 2 ##
 
 <ul class="fa-ul">
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, September 5:</b> Coming soon.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, September 5:</b> Labor Day. No class.</li>
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, September 7:</b> Coming soon.</li>
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, September 9:</b> Coming soon.</li>
 </ul>
