@@ -7,31 +7,29 @@ layout: default
 <ol class="breadcrumb">
   <li><a href="/"><i class="fa fa-home"></i></a></li>
   <li><a href="/teaching/">Teaching</a></li>
-  <li><a href="/teaching/mat411s16">MAT 411</a></li>
+  <li><a href="/teaching/mat411f16">MAT 411</a></li>
   <li class="active">{{ page.title }}</li>
 </ol>
 
 <div class="row">
 <div class="col-xs-12">
 <div class="btn-group btn-group-justified">
-<a class="btn btn-default btn-success" href="{{site.baseurl}}/teaching/mat411s16/syllabus/">Syllabus</a>
-<a class="btn btn-default btn-primary" href="{{site.baseurl}}/teaching/mat411s16/materials/">
+<a class="btn btn-default btn-success" href="{{site.baseurl}}/teaching/mat411f16/syllabus/">Syllabus</a>
+<a class="btn btn-default btn-primary" href="{{site.baseurl}}/teaching/mat411f16/materials/">
 <span class="hidden-xs">Course Materials</span><span class="visible-xs">Stuff</span>
 </a>
-<a class="btn btn-default btn-warning" href="{{site.baseurl}}/teaching/mat411s16/homework/">
+<a class="btn btn-default btn-warning" href="{{site.baseurl}}/teaching/mat411f16/homework/">
 <span class="hidden-xs">Homework</span><span class="visible-xs">HW</span>
 </a>
-<a class="btn btn-default btn-info" href="{{site.baseurl}}/teaching/mat411s16/journal/">Journal</a>
+<a class="btn btn-default btn-info" href="{{site.baseurl}}/teaching/mat411f16/journal/">Journal</a>
 </div>
 </div>
 </div>
 
 <br />
 
-<div class="row">
 <div class="alert alert-info" role="alert">
 <i class="fa fa-hand-peace-o"></i>&nbsp; The syllabus is still under construction, so don't take the current version too seriously.
-</div>
 </div>
 
 <div class="row">
@@ -39,11 +37,11 @@ layout: default
     <div>
     <h3>Course Info</h3>
     <strong>Title:</strong> MAT 411: Introduction to Abstract Algebra<br />
-    <strong>Semester:</strong> Spring 2016<br />
+    <strong>Semester:</strong> Fall 2016<br />
     <strong>Credits:</strong> 3<br />
     <strong>Section:</strong> 1<br />
-    <strong>Time:</strong> MWF at 10:20-11:10AM<br />
-    <strong>Location:</strong> AMB 163
+    <strong>Time:</strong> MWF at 9:10-10:0AM<br />
+    <strong>Location:</strong> AMB 225
     </div>
   </div>
 
@@ -52,10 +50,10 @@ layout: default
       <h3>Instructor Info</h3>
       <i class="fa fa-user fa-fw"></i>&nbsp; Dana C. Ernst, PhD<br />
       <i class="fa fa-university fa-fw"></i>&nbsp; AMB 176<br />
-      <i class="fa fa-users fa-fw"></i>&nbsp; 11:15-12:15 MWF and 9-10 TTh (or by appointment)<br />
+      <i class="fa fa-users fa-fw"></i>&nbsp; 10:15-11:15 MWF and 9-10 TTh (or by appointment)<br />
       <i class="fa fa-envelope-o fa-fw"></i>&nbsp; <a href="mailto:dana.ernst@nau.edu">dana.ernst@nau.edu</a><br />
       <i class="fa fa-phone fa-fw"></i>&nbsp; 928.523.6852<br />
-      <i class="fa fa-link fa-fw"></i>&nbsp; <a href="{{site.baseurl}}/teaching/mat411s16/">dcernst.github.io/teaching/mat411s16</a>
+      <i class="fa fa-link fa-fw"></i>&nbsp; <a href="{{site.baseurl}}/teaching/mat411f16/">dcernst.github.io/teaching/mat411f16</a>
     </div>
   </div>
 
@@ -70,13 +68,13 @@ MAT 411 introduces students to the basic ideas, definitions, examples, theorems 
 3. **Fields:** axioms, examples; polynomials, divisibility criteria, irreducible polynomial, construction of finite fields and their cyclic multiplication groups.
 
 ### Goals ###
-Aside from the obvious goal of wanting you to learn how to write rigorous mathematical proofs, one of my principal ambitions is to make you independent of me.  Nothing else that I teach you will be half so valuable or powerful as the ability to reach conclusions by reasoning logically from first principles and being able to justify those conclusions in clear, persuasive language (either oral or written).   Furthermore, I want you to experience the unmistakable feeling that comes when one really understands something thoroughly.  Much "classroom knowledge" is fairly superﬁcial, and students often find it hard to judge their own level of understanding. For many of us, the only way we know whether we are "getting it" comes from the grade we make on an exam.  I want you to become less reliant on such externals.  When you can distinguish between really knowing something and merely knowing about something, you will be on your way to becoming an independent learner.  Lastly, it is my sincere hope that all of us (myself included) will improve our oral and written communications skills.
+Aside from the obvious goal of wanting you to learn how to write rigorous mathematical proofs, one of my principal ambitions is to make you independent of me.  Nothing else that I teach you will be half so valuable or powerful as the ability to reach conclusions by reasoning logically from first principles and being able to justify those conclusions in clear, persuasive language (either oral or written).   Furthermore, I want you to experience the unmistakable feeling that comes when one really understands something thoroughly.  Much "classroom knowledge" is fairly superficial, and students often find it hard to judge their own level of understanding. For many of us, the only way we know whether we are "getting it" comes from the grade we make on an exam.  I want you to become less reliant on such externals.  When you can distinguish between really knowing something and merely knowing about something, you will be on your way to becoming an independent learner.  Lastly, it is my sincere hope that all of us (myself included) will improve our oral and written communications skills.
 
 ### Learning Management System ###
-We will make limited use of BbLearn this semester, which is Northern Arizona University's default learning management system (LMS).  Most course content (e.g., syllabus, course notes, homework, etc.) will be housed here on our [course webpage]({{site.baseurl}}/teaching/mat411s16/) that lives outside of BbLearn.  I suggest you bookmark this page.  The only thing I will use BbLearn for is to communicate grades.
+We will make limited use of BbLearn this semester, which is Northern Arizona University's default learning management system (LMS).  Most course content (e.g., syllabus, course notes, homework, etc.) will be housed here on our [course webpage]({{site.baseurl}}/teaching/mat411f16/) that lives outside of BbLearn.  I suggest you bookmark this page.  The only thing I will use BbLearn for is to communicate grades.
 
 ### Course Notes ###
-We will not use a textbook this semester, but rather a task-sequence adopted for IBL.  The task-sequence that we are using was written by me. Any errors in the notes are no one's fault but my own.  In this vein, if you think you see an error, please inform me, so that it can be remedied.  The course notes are available [here]({{site.baseurl}}/teaching/mat411s16/materials/).
+We will not use a textbook this semester, but rather a task-sequence adopted for IBL.  The task-sequence that we are using was written by me. Any errors in the notes are no one's fault but my own.  In this vein, if you think you see an error, please inform me, so that it can be remedied.  The course notes are available [here]({{site.baseurl}}/teaching/mat411f16/materials/).
 
 I will not be covering every detail of the notes and the only way to achieve a sufficient understanding of the material is to be digesting the reading in a meaningful way.  You should be seeking clarification about the content of the notes whenever necessary by asking questions.  Here's one of my favorite quotes about reading mathematics.
 
@@ -112,17 +110,17 @@ In this course, *everyone* will be required to
 As the semester progresses, it should become clear to you what the expectations are.  This will be new to many of you and there may be some growing pains associated with it.
 
 ### Homework ###
-You are allowed and encouraged to work together on homework.  However, each student is expected to turn in his or her own work.  In general, late homework will *not* be accepted.  However, you are allowed to turn in three late homework assignments with no questions asked. Unless you have made arrangements in advance with me, homework turned in after class will be considered late. When doing your homework, I encourage you to use the Elements of Style for Proofs (see Appendix B of the [course notes]({{site.baseurl}}/teaching/mat411s16/materials/) as a reference. Your overall homework grade will be worth 20% of your final grade.
+You are allowed and encouraged to work together on homework.  However, each student is expected to turn in his or her own work.  In general, late homework will *not* be accepted.  However, you are allowed to turn in three late homework assignments with no questions asked. Unless you have made arrangements in advance with me, homework turned in after class will be considered late. When doing your homework, I encourage you to use the Elements of Style for Proofs (see Appendix B of the [course notes]({{site.baseurl}}/teaching/mat411f16/materials/) as a reference. Your overall homework grade will be worth 20% of your final grade.
 
-On each homework assignment, please write (i) your name, (ii) name of course, and (iii) Daily/Weekly Homework number.  You can find the list of assignments on the [homework page]({{site.baseurl}}/teaching/mat411s16/homework/).  I reserve the right to modify the homework assignments as I see necessary.
+On each homework assignment, please write (i) your name, (ii) name of course, and (iii) Daily/Weekly Homework number.  You can find the list of assignments on the [homework page]({{site.baseurl}}/teaching/mat411f16/homework/).  I reserve the right to modify the homework assignments as I see necessary.
 
 **Daily Homework:** Homework will be assigned each class meeting, and students are expected to complete (or try their best to complete) each assignment before walking into the next class period. All assignments should be *carefully*, *clearly*, and *cleanly* written. Among other things, this means your work should include proper grammar, punctuation, and spelling. You should write a draft of a given solution before you write down the final argument, so do yourself a favor and get in the habit of differentiating your scratch work from your submitted assignment.
 
-The Daily Homework will generally consist of completing exercises and proving theorems from the [course notes]({{site.baseurl}}/teaching/mat411s16/materials/).  In addition to completing the assigned problems, I also want you to assess your own work.  Next to each problem, I want you to write down a score between 0 and 4 that represents your perception of the validity and quality of your proposed solution/proof. Consider using the rubric given below in the description of the Weekly Homework assignments.  Not completing the self-assessment step will impact the score on your homework.  
+The Daily Homework will generally consist of completing exercises and proving theorems from the [course notes]({{site.baseurl}}/teaching/mat411f16/materials/).  In addition to completing the assigned problems, I also want you to assess your own work.  Next to each problem, I want you to write down a score between 0 and 4 that represents your perception of the validity and quality of your proposed solution/proof. Consider using the rubric given below in the description of the Weekly Homework assignments.  Not completing the self-assessment step will impact the score on your homework.  
 
 On the day that a homework assignment is due, the majority of the class period will be devoted to students presenting some subset (maybe all) of the proofs/solutions that are due that day.  At the end of each class session, students should submit their write-ups for all of the proofs that were due that day.  Daily Homework will be graded using a $\checkmark$-system.  Students are allowed (in fact, encouraged!) to modify their written proofs in light of presentations made in class; however, **you are required to use the colored marker pens provided in class**.  I will provide more guidance with respect to this during the first couple weeks of the semester.
 
-**Weekly Homework:** In addition to the Daily Homework, we will also have Weekly Homework assignments.  For most of these assignments, you will be required to submit 2-4 formally written proofs.  In general, two of the problems will come directly from the Daily Homework from the previous week.  Any additional problems will likely be new.  You will be required to type your submission using $\LaTeX$.  I will walk you through how to do this. Each problem on the Weekly Homework assignments is subject to the following rubric:
+**Weekly Homework:** In addition to the Daily Homework, we will also have Weekly Homework assignments.  For most of these assignments, you will be required to submit 2-3 formally written proofs.  Typically, two of the problems will come directly from the Daily Homework from the previous week.  Any additional problems will likely be new.  You will be required to type your submission using $\LaTeX$. I will walk you through how to do this.  You can either submit a hardcopy of your assignment or email me the PDF of your completed work. If you email me the PDF, please name your file as <code>WeeklyX-Lastname.pdf</code>, where <code>X</code> is the number of the assignment and <code>Lastname</code> is your last name.  Notice there are no spaces in the filename. Each problem on the Weekly Homework assignments is subject to the following rubric:
 
 <center>
 <table class="table table-striped">
@@ -202,13 +200,12 @@ Presentations will be graded using the rubric below.
 
 However, you should not let the rubric deter you from presenting if you have an idea about a solution/proof that you'd like to present, but you are worried that your solution/proof is incomplete or you are not confident your solution/proof is correct.  You will be rewarded for being courageous and sharing your creative ideas!  Yet, you should not come to the board to present unless you have spent time thinking about the problem and have something meaningful to contribute.
 
-In general, I will curate the list of student presenters each class meeting.  However, students are welcome to volunteer. This type of behavior will be rewarded.
-If more than one student volunteers, the student with the fewest number of presentations has priority.  The problems chosen for presentation will come from the Daily Homework assignments.  Each student in the audience is expected to be engaged and respectful during another student's presentation.
+In general, I will curate the list of student presenters each class meeting.  However, students are welcome to volunteer. This type of behavior will be rewarded. If more than one student volunteers, the student with the fewest number of presentations has priority.  The problems chosen for presentation will come from the Daily Homework assignments.  Each student in the audience is expected to be engaged and respectful during another student's presentation.
 
 In order to receive a **passing grade** on the presentation portion of your grade, **you must present at least twice prior to each of the three midterm exams and at least once after the third midterm exam**  for a total of at least 7 times during semester. Notice that I've described a minimum.  To ensure a good grade, you should present as often as you can. Your overall performance during presentations, as well as your level of interaction/participation during class, will be worth 15% of your overall grade.
 
 ### Exams ###
-There will be three midterm exams and a cumulative final exam.  Each midterm exam will be worth 15% of your overall grade and the final exam will be worth 20%.  All of the exams will likely consist of both an in-class portion and a take-home portion.  The in-class portions of the midterm exams are *tentatively* scheduled for **Wednesday, February 17**, <s>Wednesday, March 23</s> **Wednesday, March 30**, and **Wednesday, April 20**.  The final exam will be on **Monday, May 9** at 10:00AM-12:00PM.  Make-up exams will only be given under extreme circumstances, as judged by me.  In general, it will be best to communicate conflicts ahead of time.
+There will be three midterm exams and a cumulative final exam.  Each midterm exam will be worth 15% of your overall grade and the final exam will be worth 20%.  All of the exams will likely consist of both an in-class portion and a take-home portion.  The in-class portions of the midterm exams are *tentatively* scheduled for **???**, **???**, and **???**.  The final exam will be on **Wednesday, December 14** at 7:30-9:30M.  Make-up exams will only be given under extreme circumstances, as judged by me.  In general, it will be best to communicate conflicts ahead of time.
 
 ### Rules of the Game ###
 You should *not* look to resources outside the context of this course for help.  That is, you should not be consulting the web, other texts, other faculty, or students outside of our course.  On the other hand, you may use each other, the course notes, me, and your own intuition.
@@ -239,22 +236,22 @@ In summary, your final grade will be determined by your scores in the following 
 	<tr>
 		<td>Exam 1</td>
 		<td>15%</td>
-		<td>Wednesday, February 17</td>
+		<td>???</td>
 	</tr>
   <tr>
     <td>Exam 2</td>
     <td>15%</td>
-    <td><s>Wednesday, March 23</s> Wednesday, March 30</td>
+    <td>???</td>
   </tr>
   <tr>
     <td>Exam 3</td>
     <td>15%</td>
-    <td><s>Wednesday, April 20</s> Monday, April 25</td>
+    <td>???</td>
   </tr>
 	<tr>
 		<td>Final Exam</td>
 		<td>20%</td>
-		<td>Monday, May 9 at 10:00AM-12:00PM</td>
+		<td>Wednesday, December 14 at 7:30-9:30AM</td>
 	</tr>
 	</tbody>
 </table>
@@ -276,10 +273,12 @@ Please turn off the ringer on your cell phone.  I do not have a strict policy on
 ### Important Dates ###
 Here are some important dates:
 
-- **Thursday, January 28**: Last day to drop/add (no W appears on transcript)
-- **Monday, March 14-Friday, March 18:** Spring Break!
-- **Friday, March 25**: Last day to withdraw from a course (W appears on transcript)
-- **Monday, May 9**: Final Exam
+- **Monday, September 5:** Labor Day (no classes)
+- **Thursday, September 8**: Last day to drop/add (no W appears on transcript)
+- **Friday, November 4:**: Last day to withdraw from a course (W appears on transcript)
+- **Friday, November 11:** Veteran's Day (no classes)
+- **Thursday, November 24-Friday, November 25:** Thanksgiving Holiday (no classes)
+- **Wednesday, December 14**: Final Exam
 
 ### Getting Help ###
 There are many resources available to get help.  First, I recommend that you work on homework in small groups as much as possible, and to come see me whenever necessary.  I am always happy to help you.  If my office hours don't work for you, then we can probably find another time to meet.  It is your responsibility to be aware of how well you understand the material.  Don't wait until it is too late if you need help.  *Ask questions*!  Lastly, you can always [email me](mailto:dana.ernst@nau.edu).
