@@ -13,30 +13,30 @@ layout: default
 <div class="row">
 <div class="col-xs-12">
 <div class="btn-group btn-group-justified">
-<a class="btn btn-default btn-success" href="{{site.baseurl}}/teaching/mat411s16/syllabus/">Syllabus</a>
-<a class="btn btn-default btn-primary" href="{{site.baseurl}}/teaching/mat411s16/materials/">
+<a class="btn btn-default btn-success" href="{{site.baseurl}}/teaching/mat411f16/syllabus/">Syllabus</a>
+<a class="btn btn-default btn-primary" href="{{site.baseurl}}/teaching/mat411f16/materials/">
 <span class="hidden-xs">Course Materials</span><span class="visible-xs">Stuff</span>
 </a>
-<a class="btn btn-default btn-warning" href="{{site.baseurl}}/teaching/mat411s16/homework/">
+<a class="btn btn-default btn-warning" href="{{site.baseurl}}/teaching/mat411f16/homework/">
 <span class="hidden-xs">Homework</span><span class="visible-xs">HW</span>
 </a>
-<a class="btn btn-default btn-info" href="{{site.baseurl}}/teaching/mat411s16/journal/">Journal</a>
+<a class="btn btn-default btn-info" href="{{site.baseurl}}/teaching/mat411f16/journal/">Journal</a>
 </div>
 </div>
 </div>
 
 ## Welcome ##
-Welcome to the course web page for the Spring 2016 manifestation of MAT 411: Introduction to Abstract Algebra at [Northern Arizona University](http://nau.edu).
+Welcome to the course web page for the Fall 2016 manifestation of MAT 411: Introduction to Abstract Algebra at [Northern Arizona University](http://nau.edu).
 
 ## Instructor Info ##
 
 <address>
 <i class="fa fa-user fa-fw"></i>&nbsp; Dana C. Ernst, PhD<br />
 <i class="fa fa-university fa-fw"></i>&nbsp; AMB 176<br />
-<i class="fa fa-users fa-fw"></i>&nbsp; 11:15-12:15 MWF and 9-10 TTh (or by appointment)<br />
+<i class="fa fa-users fa-fw"></i>&nbsp; 10:15-11:15 MWF and 9-10 TTh (or by appointment)<br />
 <i class="fa fa-envelope-o fa-fw"></i>&nbsp; <a href="mailto:dana.ernst@nau.edu">dana.ernst@nau.edu</a><br />
 <i class="fa fa-phone fa-fw"></i>&nbsp; 928.523.6852<br />
-<i class="fa fa-link fa-fw"></i>&nbsp; <a href="http://dcernst.github.io/teaching/mat411s16">dcernst.github.io/teaching/mat411s16</a>
+<i class="fa fa-link fa-fw"></i>&nbsp; <a href="http://dcernst.github.io/teaching/mat411f16">dcernst.github.io/teaching/mat411f16</a>
 </address>
 
 ## What is This Course All About? ##
@@ -66,19 +66,4 @@ In this course, *everyone* will be required to
 - participate in discussions centered around a student's presented solution/proof;
 - call upon your own prodigious mental faculties to respond in flexible, thoughtful, and creative ways to problems that may seem unfamiliar on first glance.
 
-As the semester progresses, it should become clear to you what the expectations are.  This will be new to many of you and there may be some growing pains associated with it. For more details, see the [syllabus]({{ site.baseurl }}/teaching/mat411s16/syllabus/).
-
-<!--
-## Learning Management System ##
-We will be making limited use of BbLearn this semester, which is Northern Arizona University's default learning management system (LMS).  Most course content (e.g., syllabus, course notes, homework, etc.) will be housed on our course webpage that lives outside of Bb Learn.  I suggest you bookmark the page you are reading right now. The only thing I will use Bb Learn for is to communicate grades.
-
-## Course Notes ##
-We will not be using a textbook this semester, but rather a task-sequence adopted for IBL.  The task-sequence that we are using was written by me.  Any errors in the notes are no one's fault but my own.  In this vein, if you think you see an error, please inform me, so that it can be remedied.  The course notes are available [here]({{ site.baseurl }}/teaching/mat411s16/materials/).
-
-I will not be covering every detail of the notes and the only way to achieve a sufficient understanding of the material is to be digesting the reading in a meaningful way.  You should be seeking clarification about the content of the notes whenever necessary by asking questions. Here's one of my favorite quotes about reading mathematics.
-
-<blockquote>
-  <p>Don’t just read it; fight it! Ask your own questions, look for your own examples, discover your own proofs. Is the hypothesis necessary? Is the converse true? What happens in the classical special case? What about the degenerate cases? Where does the proof use the hypothesis?</p>
-  <footer><a href="http://en.wikipedia.org/wiki/Paul_Halmos">Paul Halmos</a></footer>
-</blockquote>
--->
+As the semester progresses, it should become clear to you what the expectations are.  This will be new to many of you and there may be some growing pains associated with it. For more details, see the [syllabus]({{ site.baseurl }}/teaching/mat411f16/syllabus/).
