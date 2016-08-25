@@ -26,6 +26,8 @@ layout: default
 </div>
 </div>
 
+<br />
+
 <div class="alert alert-info" role="alert">
 <i class="fa fa-hand-peace-o"></i>&nbsp; The syllabus is still under construction, so don't take the current version too seriously.
 </div>
