@@ -7,7 +7,7 @@ title: Homework
 <ol class="breadcrumb">
   <li><a href="/"><i class="fa fa-home"></i></a></li>
   <li><a href="/teaching/">Teaching</a></li>
-  <li><a href="/teaching/mat411s16">MAT 411</a></li>
+  <li><a href="/teaching/mat411s16">MAT 411 (Spring 2016)</a></li>
   <li class="active">{{ page.title }}</li>
 </ol>
 
