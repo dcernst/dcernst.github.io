@@ -7,7 +7,7 @@ layout: default
 <ol class="breadcrumb">
   <li><a href="/"><i class="fa fa-home"></i></a></li>
   <li><a href="/teaching/">Teaching</a></li>
-  <li class="active">MAT 411 (Fall 2016)</li>
+  <li class="active">MAT 411</li>
 </ol>
 
 <div class="row">
