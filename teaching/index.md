@@ -36,7 +36,7 @@ Welcome to Dana C. Ernst's Teaching page.  This section is primarily designed fo
       <i class="fa fa-university fa-fw"></i>&nbsp; AMB 176<br />
       <i class="fa fa-phone fa-fw"></i>&nbsp; 928.523.6852<br />
       <i class="fa fa-envelope-o fa-fw"></i>&nbsp; <a href="mailto:dana.ernst@nau.edu">dana.ernst@nau.edu</a><br />
-      <i class="fa fa-link fa-fw"></i>&nbsp; <a href="http://danaernst.com">http://danaernst.com</a><br />
+      <i class="fa fa-link fa-fw"></i>&nbsp; <a href="http://dcernst.github.io">hhttp://dcernst.github.io</a><br />
       <i class="fa fa-twitter fa-fw"></i>&nbsp; <a href="http://twitter.com/danaernst">@danaernst</a> and <a href="http://twitter.com/IBLMath">@IBLMath</a><br />
       <i class="fa fa-instagram fa-fw"></i>&nbsp; <a href="https://www.instagram.com/dcernst/">@dcernst</a><br />
       <i class="fa fa-github fa-fw"></i>&nbsp; <a href="https://github.com/dcernst">@dcernst</a>
@@ -53,7 +53,7 @@ My current office hours for Spring 2016 are 11:15-12:15 MWF and 9-10 TTh (or by 
 Here are the courses that I am currently teaching (Fall 2016) at [Northern Arizona University](http://nau.edu).
 
 - [MAT 411: Introduction to Abstract Algebra, Fall 2016]({{ site.baseurl }}/teaching/mat411f16)
-- [MAT 526: Combinatorics, Fall 2016]({{ site.baseurl }}/teaching/mat526f16)
+- [MAT 526: Topics in Combinatorics, Fall 2016]({{ site.baseurl }}/teaching/mat526f16)
 
 ## Previous Courses ##
 This is a (partial) list of courses that I have taught over the past several semesters. **Note:** Some of the links on the pages below may be outdated.
