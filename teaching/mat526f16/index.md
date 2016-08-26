@@ -49,7 +49,8 @@ Welcome to the course web page for the Fall 2016 manifestation of MAT 526: Topic
   </div>
 </div>
 
-The tentative plan is to cover Chapters 1-6 and 11, but we may cover more or less depending on time and interests.  Here are the proposed topics:
+## Proposed Topics ##
+The tentative plan is to cover Chapters 1-6 and 11 of [Eulerian Numbers](http://www.springer.com/us/book/9781493930906), but we may cover more or less depending on time and interests.  Here are the proposed topics:
 
 - Eulerian numbers
   - Binomial coefficients
