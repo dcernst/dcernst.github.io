@@ -26,7 +26,7 @@ On each homework assignment, please write (i) your name, (ii) name of course, an
 Here are the assignments.  I will post them as we go.
 
 <ul class="fa-ul">
-  <li><i class="fa a-pencil-square-o"></i> **Homework 1** Coming soon.</li>
+  <li><i class="fa a-pencil-square-o"></i> <b>Homework 1</b> Coming soon.</li>
 </ul>
 
 <!--
