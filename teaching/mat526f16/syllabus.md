@@ -7,16 +7,16 @@ layout: default
 <ol class="breadcrumb">
   <li><a href="/"><i class="fa fa-home"></i></a></li>
   <li><a href="/teaching/">Teaching</a></li>
-  <li><a href="/teaching/mat612s16">MAT 612</a></li>
+  <li><a href="/teaching/mat526f16">MAT 526</a></li>
   <li class="active">{{ page.title }}</li>
 </ol>
 
 <div class="row">
 <div class="col-xs-12">
 <div class="btn-group btn-group-justified">
-<a class="btn btn-default btn-success" href="{{site.baseurl}}/teaching/mat612s16/syllabus/">Syllabus</a>
-<a class="btn btn-default btn-primary" href="{{site.baseurl}}/teaching/mat612s16/materials/">Materials</a>
-<a class="btn btn-default btn-warning" href="{{site.baseurl}}/teaching/mat612s16/homework/">Homework</a>
+<a class="btn btn-default btn-success" href="{{site.baseurl}}/teaching/mat526f16/syllabus/">Syllabus</a>
+<a class="btn btn-default btn-primary" href="{{site.baseurl}}/teaching/mat526f16/materials/">Materials</a>
+<a class="btn btn-default btn-warning" href="{{site.baseurl}}/teaching/mat526f16/homework/">Homework</a>
 </div>
 </div>
 </div>
@@ -25,11 +25,11 @@ layout: default
   <div class="col-xs-12 col-sm-6">
     <div>
     <h3>Course Info</h3>
-    <strong>Title:</strong> MAT 612: Abstract Algebra II<br />
-    <strong>Semester:</strong> Spring 2016<br />
+    <strong>Title:</strong> MAT 526: Topics in Combinatorics<br />
+    <strong>Semester:</strong> Fall 2016<br />
     <strong>Credits:</strong> 3<br />
     <strong>Section:</strong> 1<br />
-    <strong>Time:</strong> MWF at 9:10-10:00AM<br />
+    <strong>Time:</strong> MWF at 11:30-12:20AM<br />
     <strong>Location:</strong> AMB 207
     </div>
   </div>
@@ -39,23 +39,23 @@ layout: default
       <h3>Instructor Info</h3>
       <i class="fa fa-user fa-fw"></i>&nbsp; Dana C. Ernst, PhD<br />
       <i class="fa fa-university fa-fw"></i>&nbsp; AMB 176<br />
-      <i class="fa fa-users fa-fw"></i>&nbsp; 11:15-12:15 MWF and 9-10 TTh (or by appointment)<br />
+      <i class="fa fa-users fa-fw"></i>&nbsp; 10:15-11:15 MWF and 9-10 TTh (or by appointment)<br />
       <i class="fa fa-envelope-o fa-fw"></i>&nbsp; <a href="mailto:dana.ernst@nau.edu">dana.ernst@nau.edu</a><br />
       <i class="fa fa-phone fa-fw"></i>&nbsp; 928.523.6852<br />
-      <i class="fa fa-link fa-fw"></i>&nbsp; <a href="http://dcernst.github.io/teaching/mat612s16">dcernst.github.io/teaching/mat612s16</a>
+      <i class="fa fa-link fa-fw"></i>&nbsp; <a href="http://dcernst.github.io/teaching/mat526f16">dcernst.github.io/teaching/mat526f16</a>
     </div>
   </div>
 
 </div>
 
 ### Prerequisites ###
-MAT 511 with grade of C or better.
+MAT 226, MAT 316 and MAT 411 with grades of C or better.
 
 ### Catalog Description ###
-Continuation of MAT 511. Rings and modules, field extensions and Galois theory, and advanced topics at instructor's discretion. Letter grade only.
+Topics in enumerative, algebraic, and geometric combinatorics, chosen at instructor's discretion; may include advanced counting techniques, graph theory, combinatorial designs, matroids, and error-correcting codes. Letter grade only.
 
-### Textbook ###
-There is no required textbook.  All necessary material (including homework) will be made available via handouts and postings on the course webpage.  However, I will be loosely following "Abstract Algebra" by Dummit and Foote.  So, if you want to purchase a textbook to use as a resource, this is the book I recommend getting.   I've also listed a few free abstract algebra books on the [Course Materials]({{ site.baseurl }}/teaching/mat612s16/materials/) page. Regardless of what resource you decide to use, the only way to achieve a sufficient understanding of the material is to be digesting it in a meaningful way.  You should be seeking clarification about the material whenever necessary by asking questions in class, working with our students, stopping by office hours, or emailing me.
+### Textbook and Course Materials ###
+We will be using the recently published textbook [Eulerian Numbers](http://www.springer.com/us/book/9781493930906) by [T. Kyle Peterson](http://math.depaul.edu/tpeter21/) (DePaul University). All other necessary material (including homework) will be made available via handouts and postings on the course webpage.  You should be seeking clarification about the material whenever necessary by asking questions in class, working with our students, stopping by office hours, or emailing me. Here's one of my favorite quotes about reading mathematics.
 
 <blockquote>
   <p>Don’t just read it; fight it! Ask your own questions, look for your own examples, discover your own proofs. Is the hypothesis necessary? Is the converse true? What happens in the classical special case? What about the degenerate cases? Where does the proof use the hypothesis?</p>
@@ -63,15 +63,69 @@ There is no required textbook.  All necessary material (including homework) will
 </blockquote>
 
 ### Outline of Course ###
-The course will consist of four parts.  I'm not sure what order will cover these topics.
+The tentative plan is to cover Chapters 1-6 and 11 of [Eulerian Numbers](http://www.springer.com/us/book/9781493930906), but we may cover more or less depending on time and interests.  Here are the proposed topics:
 
-  1.  **Ring Theory.** We will pick up where we left off in MAT 511 and continue our study of rings.  In particular, we introduce Euclidean domains and unique factorization domains (UFDs) and continue to tinker with principal ideal domains (PIDs) and polynomial rings.
-  2. **Module Theory.** After introducing basic definitions and examples, we study module homomorphisms and quotients.  We will also take a look at some subset of free modules, direct sums of modules, and exact sequences involving modules.
-  3. **Field theory and Galois Theory.**  We will take a closer look at fields (including finite fields) and introduce field extensions.  Time permitting, we will examine classical straightedge and compass constructions. Arguably, the punchline of the course is the Fundamental Theorem of Galois Theory.  In addition to proving this theorem, we will study several applications including the computation of Galois groups, solvable and radical extensions, and insolvability of the quintic.
-  4. **Group Theory.**  We will dabble in a few additional group theory topics including nilpotent groups, solvable groups, and semi-direct products. Time permitting, we will work on classifying groups of small order.
+- Eulerian numbers
+  - Binomial coefficients
+  - Generating functions
+  - Classical Eulerian numbers
+  - Eulerian polynomials
+  - Two important identities
+  - Exponential generating function
+- Narayana numbers
+  - Catalan numbers
+  - Pattern-avoiding permutations
+  - Narayana numbers
+  - Dyck paths
+  - Planar binary trees
+  - Noncrossing partitions
+- Partially ordered sets
+  - Basic definitions and terminology
+  - Labeled posets and P-partitions
+  - The shard intersection order
+  - The lattice of noncrossing partitions
+  - Absolute order and Noncrossing partitions
+- Gamma-nonnegativity
+  - The idea of gamma-nonnegativity
+  - Gamma-nonnegativity for Eulerian numbers
+  - Gamma-nonnegativity for Narayana numbers
+  - Palindromicity, unimodality, and the gamma basis
+  - Computing the gamma vector
+  - Real roots and log-concavity
+  - Symmetric boolean decomposition
+- Weak order, hyperplane arrangements, and the Tamari lattice
+  - Inversions
+  - The weak order
+  - The braid arrangement
+  - Euclidean hyperplane arrangements
+  - Products of faces and the weak order on chambers
+  - Set compositions
+  - The Tamari lattice
+  - Rooted planar trees and faces of the associahedron
+- Refined enumeration
+  - The idea of a $q$-analogue
+  - Lattice paths by area
+  - Lattice paths by major index
+  - Euler-Mahonian distributions
+  - Descents and major index
+  - $q$-Catalan numbers
+  - $q$-Narayana numbers
+  - Dyck paths by area
+- Coxeter groups
+  - The symmetric group
+  - Finite Coxeter groups: generators and relations
+  - $W$-Mahonian distribution
+  - $W$-Euleriannumbers
+  - Finite reflection groups and root systems
+  - The Coxeter arrangement and the Coxeter complex
+  - Action of $W$ and cosets of parabolic subgroups
+  - Counting faces in the Coxeter complex
+  - The $W$-Euler-Mahonian distribution
+  - The weak order
+  - The shard intersection order
 
 ### Learning Management System ###
-We will make limited use of Bb Learn this semester, which is Northern Arizona University's default learning management system (LMS).  Most course content (e.g., syllabus, course notes, homework, etc.) will be housed here on our [course webpage]({{ site.baseurl }}/teaching/mat612s16/) that lives outside of Bb Learn.
+We will make limited use of Bb Learn this semester, which is Northern Arizona University's default learning management system (LMS).  Most course content (e.g., syllabus, course notes, homework, etc.) will be housed here on our [course webpage]({{ site.baseurl }}/teaching/mat526f16/) that lives outside of BbLearn.
 
 ### Homework ###
 You are allowed and encouraged to work together on homework. Yet, each student is expected to turn in his or her own work. In general, late homework will not be accepted. However, you are allowed to turn in **one late homework assignment** with no questions asked. Unless you have made arrangements in advance with me, homework turned in after class will be considered late.
@@ -111,10 +165,10 @@ Generally, the written homework assignments will be due on Wednesdays, but I wil
 </table>
 </center>
 
-To compute your score on a given homework assignment, I will divide your total points by the total possible points to obtain a percent score. Each homework assignment has the same weight.  Your overall homework grade will be worth 25% of your final grade. If you utilize any resources other than our course notes or Dummit and Foote, I expect you to cite your sources.  Better yet, try to complete your homework without relying on external resources.
+To compute your score on a given homework assignment, I will divide your total points by the total possible points to obtain a percent score. Each homework assignment has the same weight.  Your overall homework grade will be worth 25% of your final grade. If you utilize any resources other than our textbook or course notes, I expect you to cite your sources.  Better yet, try to complete your homework without relying on external resources.
 
 ### Exams ###
-There will be 3 midterm exams and a cumulative final exam.  Exam 1 and Exam 2 will be written exams and may include a take-home portion.  These exams are tentatively scheduled for **Friday, February 26** and **Friday, April 15**, respectively, and each is worth 20% of your overall grade.  Exams 1 and 2 are likely to have take-home components. Exam 3 will be an oral exam taken individually in my office. The questions for the oral exam will predominately come from homework problems. Exam 3 will last roughly 30 minutes.  Your score on Exam 3 together with your performance on the presentation of in-class theorems (see below) will be worth 10% of your overall grade.  Students will schedule Exam 3 during **April 25-May 12**.  The final exam will be on **Wednesday, May 11** at **7:30-9:30AM** and is worth 25% of your overall grade. Make-up exams will only be given under extreme circumstances, as judged by me. In general, it will be best to communicate conflicts ahead of time.
+There will be 3 midterm exams and a cumulative final exam.  Exam 1 and Exam 2 will be written exams and may include a take-home portion.  These exams are tentatively scheduled for **Wednesday, October 5** and **Wednesday, November 16**, respectively, and each is worth 20% of your overall grade.  Exams 1 and 2 are likely to have take-home components. Exam 3 will be an oral exam taken individually in my office. The questions for the oral exam will predominately come from homework problems. Exam 3 will last roughly 30 minutes.  Your score on Exam 3 together with your performance on the presentation of in-class theorems (see below) will be worth 10% of your overall grade.  Students will schedule to take Exam 3 during **December 5-15**.  The final exam will be on **Wednesday, December 14** at **10:00-12:00** and is worth 25% of your overall grade. Make-up exams will only be given under extreme circumstances, as judged by me. In general, it will be best to communicate conflicts ahead of time.
 
 ### Presentations ###
 A couple times each week, I will ask individuals to prepare the proof of a theorem, or possibly a detailed description of an example, that will be presented to the class.  You are allowed to consult outside resources when preparing for these presentations (but you should cite your sources).  The goal will be for each student to present twice. All presentations will be graded using the rubric below.
@@ -198,7 +252,7 @@ A 100-90%, B 80-89%, C 70-79%, D 60-69%, F 0-59%.
 </center>
 
 ### Department and University Policies ###
-You are responsible for knowing and following the [Department of Mathematics and Statistics Policies]({{ site.baseurl }}/teaching/DepartmentPoliciesSpring2016.pdf) (PDF) and other University policies listed [here](http://nau.edu/OCLDAA/_Forms/UCC/SyllabusPolicyStmts2-2014/) (PDF).  More policies can be found in other university documents, especially the [NAU Student Handbook](http://nau.edu/Student-Life/Student-Handbook/) (see appendices) and the website of the [Office of Student Life](http://nau.edu/Student-Life/).
+You are responsible for knowing and following the [Department of Mathematics and Statistics Policies]({{ site.baseurl }}/teaching/DepartmentPoliciesFall2016.pdf) (PDF) and other University policies listed [here](http://nau.edu/OCLDAA/_Forms/UCC/SyllabusPolicyStmts2-2014/) (PDF).  More policies can be found in other university documents, especially the [NAU Student Handbook](http://nau.edu/Student-Life/Student-Handbook/) (see appendices) and the website of the [Office of Student Life](http://nau.edu/Student-Life/).
 
 As per Department Policy, cell phones, mp3 players and portable electronic communication devices, including but not limited to smart phones, cameras and recording devices, must be turned off and inaccessible during in-class tests. Any violation of this policy will be treated as academic dishonesty.
 
@@ -210,13 +264,12 @@ Please turn off the ringer on your cell phone.  I do not have a strict policy on
 ### Important Dates ###
 Here are some important dates:
 
-- **Thursday, January 28**: Last day to drop/add (no W appears on transcript)
-- **Friday, February, 26**: Exam 1
-- **Monday, March 14-Friday, March 18:** Spring Break!
-- **Friday, March 25**: Last day to withdraw from a course (W appears on transcript)
-- **Friday, April 15**: Exam 2
-- **April 25-May 12:** Exam 3
-- **Wednesday, May 11**: Final Exam
+- **Monday, September 5:** Labor Day (no classes)
+- **Thursday, September 8**: Last day to drop/add (no W appears on transcript)
+- **Friday, November 4:**: Last day to withdraw from a course (W appears on transcript)
+- **Friday, November 11:** Veteran's Day (no classes)
+- **Thursday, November 24-Friday, November 25:** Thanksgiving Holiday (no classes)
+- **Wednesday, December 14**: Final Exam
 
 ### Changes to the Syllabus ###
 Any changes in this syllabus made during the term will be properly communicated to the class.
