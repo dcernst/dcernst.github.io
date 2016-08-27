@@ -19,4 +19,4 @@ tags:
 <footer>Paul Wallace</footer>
 </blockquote>
 
-As far as I know, the original source of this quote is on [Paul Wallace's blog](http://psnt.net/blog/2010/03/100/).  This quote also appears in the introduction of the book *TeXas Style Introduction to Proof* by [Ron Taylor](http://www.berry.edu/Templates/FSdetail.aspx?id=51539610959) and [Patrick Rault](https://twitter.com/Patrick_Rault). A Facebook post by [David Failing](http://www.davidfailing.com) introduced me to this wonderful quote.
+As far as I know, the original source of this quote is on [Paul Wallace's blog](http://psnt.net/blog/2010/03/100/).  This quote also appears in the introduction of the book *A TeXas Style Introduction to Proof* by [Ron Taylor](http://www.berry.edu/Templates/FSdetail.aspx?id=51539610959) and [Patrick Rault](https://twitter.com/Patrick_Rault). A Facebook post by [David Failing](http://www.davidfailing.com) introduced me to this wonderful quote.
