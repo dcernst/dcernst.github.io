@@ -31,7 +31,7 @@ Welcome to the course web page for the Fall 2016 manifestation of MAT 526: Topic
     <strong>Semester:</strong> Spring 2016<br />
     <strong>Credits:</strong> 3<br />
     <strong>Section:</strong> 1<br />
-    <strong>Time:</strong> MWF at 9:10-10:00AM<br />
+    <strong>Time:</strong> MWF at 11:30AM-12:20PM<br />
     <strong>Location:</strong> AMB 207
     </div>
   </div>
