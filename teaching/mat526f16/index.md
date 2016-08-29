@@ -56,7 +56,7 @@ The tentative plan is to cover Chapters 1-6 and 11 of [Eulerian Numbers](http://
 
   <div class="col-xs-12 col-lg-8">
     <div>
-    Test
+    Test test test test test
     <!--
     <ul>
     <li>Eulerian numbers</li>
