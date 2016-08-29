@@ -56,6 +56,8 @@ The tentative plan is to cover Chapters 1-6 and 11 of [Eulerian Numbers](http://
 
   <div class="col-xs-12 col-lg-8">
     <div>
+    Test
+    <!--
     <ul>
     <li>Eulerian numbers</li>
     <ul>
@@ -130,6 +132,7 @@ The tentative plan is to cover Chapters 1-6 and 11 of [Eulerian Numbers](http://
       <li>The shard intersection order</li>
     </ul>
     </ul>
+    -->
     </div>
 
     <div class="col-xs-12 col-lg-4">
