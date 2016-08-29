@@ -134,7 +134,10 @@ The tentative plan is to cover Chapters 1-6 and 11 of [Eulerian Numbers](http://
   </div>
 
   <div class="col-xs-12 col-lg-6">
-    <div><img src="{{ site.baseurl }}/images/TamariLattice.png" class="img-responsive" img style="margin-bottom: 10px" /></div>
+  <figure>
+  <img src="{{ site.baseurl }}/images/TamariLattice.png" class="img-responsive" img style="margin-bottom: 10px" />
+  <figcaption>The Tamari lattice given by the weak order on $S_4(231)$. (Figure 5.12 in <i>Eulerian Numbers</i> by T. Kyle Peterson.)</figcaption>
+  </figure>
   </div>
 
 <!-- </div> -->
