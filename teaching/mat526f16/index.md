@@ -54,7 +54,7 @@ The tentative plan is to cover Chapters 1-6 and 11 of [Eulerian Numbers](http://
 
 <div class="row">
 
-  <div class="col-xs-12 col-lg-8">
+  <div class="col-xs-12 col-lg-6">
     <div>
     <ul>
     <li>Eulerian numbers</li>
@@ -133,7 +133,7 @@ The tentative plan is to cover Chapters 1-6 and 11 of [Eulerian Numbers](http://
     </div>
   </div>
 
-  <div class="col-xs-12 col-lg-4">
+  <div class="col-xs-12 col-lg-6">
     <div><img src="{{ site.baseurl }}/images/TamariLattice.png" class="img-responsive" img style="margin-bottom: 10px" /></div>
   </div>
 
