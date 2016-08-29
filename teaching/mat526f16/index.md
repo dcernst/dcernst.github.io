@@ -54,7 +54,7 @@ The tentative plan is to cover Chapters 1-6 and 11 of [Eulerian Numbers](http://
 
 <div class="row">
 
-  <div class="col-xs-12 col-lg-4">
+  <div class="col-xs-12 col-lg-8">
     <div>
     <p>
     <ul>
@@ -134,69 +134,10 @@ The tentative plan is to cover Chapters 1-6 and 11 of [Eulerian Numbers](http://
     </p>
     </div>
 
-    <div class="col-xs-12 col-lg-8">
+    <div class="col-xs-12 col-lg-4">
     <div><img src="{{ site.baseurl }}/images/TamariLattice.png" class="img-responsive" img style="margin-bottom: 10px" /></div>
     </div>
   </div>
 </div>
 
-- Eulerian numbers
-  - Binomial coefficients
-  - Generating functions
-  - Classical Eulerian numbers
-  - Eulerian polynomials
-  - Two important identities
-  - Exponential generating function
-- Narayana numbers
-  - Catalan numbers
-  - Pattern-avoiding permutations
-  - Narayana numbers
-  - Dyck paths
-  - Planar binary trees
-  - Noncrossing partitions
-- Partially ordered sets
-  - Basic definitions and terminology
-  - Labeled posets and P-partitions
-  - The shard intersection order
-  - The lattice of noncrossing partitions
-  - Absolute order and Noncrossing partitions
-- Gamma-nonnegativity
-  - The idea of gamma-nonnegativity
-  - Gamma-nonnegativity for Eulerian numbers
-  - Gamma-nonnegativity for Narayana numbers
-  - Palindromicity, unimodality, and the gamma basis
-  - Computing the gamma vector
-  - Real roots and log-concavity
-  - Symmetric boolean decomposition
-- Weak order, hyperplane arrangements, and the Tamari lattice
-  - Inversions
-  - The weak order
-  - The braid arrangement
-  - Euclidean hyperplane arrangements
-  - Products of faces and the weak order on chambers
-  - Set compositions
-  - The Tamari lattice
-  - Rooted planar trees and faces of the associahedron
-- Refined enumeration
-  - The idea of a $q$-analogue
-  - Lattice paths by area
-  - Lattice paths by major index
-  - Euler-Mahonian distributions
-  - Descents and major index
-  - $q$-Catalan numbers
-  - $q$-Narayana numbers
-  - Dyck paths by area
-- Coxeter groups
-  - The symmetric group
-  - Finite Coxeter groups: generators and relations
-  - $W$-Mahonian distribution
-  - $W$-Euleriannumbers
-  - Finite reflection groups and root systems
-  - The Coxeter arrangement and the Coxeter complex
-  - Action of $W$ and cosets of parabolic subgroups
-  - Counting faces in the Coxeter complex
-  - The $W$-Euler-Mahonian distribution
-  - The weak order
-  - The shard intersection order
-
-  <br />
+<br />
