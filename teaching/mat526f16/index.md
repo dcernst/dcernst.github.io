@@ -134,7 +134,7 @@ The tentative plan is to cover Chapters 1-6 and 11 of [Eulerian Numbers](http://
     </ul>
     -->
     </div>
-
+  </div>
     <div class="col-xs-12 col-lg-4">
     <div><img src="{{ site.baseurl }}/images/TamariLattice.png" class="img-responsive" img style="margin-bottom: 10px" /></div>
     </div>
