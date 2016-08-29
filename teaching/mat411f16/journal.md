@@ -34,7 +34,7 @@ We’ll use this page to keep track of what has happened each day in class. It w
 ## Week 1 ##
 
 <ul class="fa-ul">
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, August 29:</b> Coming soon.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, August 29:</b> First day!  After attempting to learn names, we launched in the <a href="{{ site.baseurl }}/teaching/SettingTheStage.pdf">Setting the Stage</a> activity.  I was impressed by the level of engagement and everyone's willingness to share.  Some wonderful ideas were discussed! The last bit of class was devoted to touring the course website and discussing a few important items from the <a href="{{site.baseurl}}/teaching/mat411f16/syllabus/">syllabus</a>.</li>
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, August 31:</b> Coming soon.</li>
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, September 2:</b> Coming soon.</li>
 </ul>
