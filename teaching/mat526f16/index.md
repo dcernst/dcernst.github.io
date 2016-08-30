@@ -21,7 +21,7 @@ layout: default
 </div>
 
 ## Welcome ##
-Welcome to the course web page for the Fall 2016 manifestation of MAT 526: Topics in Combinatorics at [Northern Arizona University](http://nau.edu). We will be using the recently published textbook [Eulerian Numbers](http://www.springer.com/us/book/9781493930906) by [T. Kyle Peterson](http://math.depaul.edu/tpeter21/) (DePaul University).
+Welcome to the course web page for the Fall 2016 manifestation of MAT 526: Topics in Combinatorics at [Northern Arizona University](http://nau.edu). We will be using the recently published textbook [Eulerian Numbers](http://www.springer.com/us/book/9781493930906) by [T. Petersen](http://math.depaul.edu/tpeter21/) (DePaul University).
 
 <div class="row">
   <div class="col-xs-12 col-sm-6">
@@ -136,7 +136,7 @@ The tentative plan is to cover Chapters 1-6 and 11 of [Eulerian Numbers](http://
   <div class="col-xs-12 col-lg-6">
   <figure>
   <img src="{{ site.baseurl }}/images/TamariLattice.png" class="img-responsive" img style="margin-bottom: 10px" />
-  <figcaption>The Tamari lattice given by the weak order on $S_4(231)$. (Figure 5.12 in <i>Eulerian Numbers</i> by T. Kyle Peterson.)</figcaption>
+  <figcaption>The Tamari lattice given by the weak order on $S_4(231)$. (Figure 5.12 in <i>Eulerian Numbers</i> by T. Petersen.)</figcaption>
   </figure>
   </div>
 
