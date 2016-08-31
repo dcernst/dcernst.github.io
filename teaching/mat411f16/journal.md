@@ -35,7 +35,7 @@ We’ll use this page to keep track of what has happened each day in class. It w
 
 <ul class="fa-ul">
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, August 29:</b> First day!  After attempting to learn names, we launched in the <a href="{{ site.baseurl }}/teaching/SettingTheStage.pdf">Setting the Stage</a> activity.  I was impressed by the level of engagement and everyone's willingness to share.  Some wonderful ideas were discussed! The last bit of class was devoted to touring the course website and discussing a few important items from the <a href="{{site.baseurl}}/teaching/mat411f16/syllabus/">syllabus</a>.</li>
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, August 31:</b> Absolutely spectacular first day of presentations.  I was extremely impressed that so many people readily volunteered. After dividing the class up into several small groups to discuss the homework problems, we had LL, AT, JM, JS, AO, EB, SS1, and ML present 2.2, 2.4, 2.5, 2.6, 2.8, 2.9, 2.10, and 2.13, respectively.  Along the way, we also discussed 2.3 and 2.12 as a class.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, August 31:</b> Absolutely spectacular first day of presentations.  I was extremely impressed that so many people readily volunteered. After dividing the class up into several small groups to discuss the homework problems, we had LL, AT, JM, JS, AO, EB, SS1, and MR present 2.2, 2.4, 2.5, 2.6, 2.8, 2.9, 2.10, and 2.13, respectively.  Along the way, we also discussed 2.3 and 2.12 as a class.</li>
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, September 2:</b> Coming soon.</li>
 </ul>
 <!--
