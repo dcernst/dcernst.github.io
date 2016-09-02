@@ -26,7 +26,7 @@ On each homework assignment, please write (i) your name, (ii) name of course, an
 Here are the assignments.  I will post them as we go.
 
 <ul class="fa-ul">
-  <li><i class="fa fa-pencil-square-o"></i> <b>Homework 1:</b> Coming soon.</li>
+  <li><i class="fa fa-pencil-square-o"></i> <b>Homework 1:</b> Complete 1.1, 1.2, 1.3, 1.4, 1.6, 1.7.  It's not required, but if you are motivated, I bet 1.5 is fun, too.  (Due Friday, September 9)</li>
 </ul>
 
 <!--
