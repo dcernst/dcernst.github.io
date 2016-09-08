@@ -23,6 +23,8 @@ title: Course Materials
 ## Course Materials ##
 Any relevant course materials will be posted here.
 
+- You can find the current errata for the book [here](http://math.depaul.edu/tpeter21/Errata.pdf).
+
 ## Exams ##
 Below are links to the take-home portion of each exam.
 
