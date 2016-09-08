@@ -49,7 +49,7 @@ We’ll use this page to keep track of what has happened each day in class. It w
 
 <ul class="fa-ul">
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, September 5:</b> Labor Day. No class.</li>
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, September 7:</b> Coming soon.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, September 7:</b> We got a lot done today and all the discussion was productive.  We kicked off with me explaining 3.1 and 3.2, which were left over from last time, and I also quickly explained 3.4.  After that we split up into small groups to discuss the remaining problems.  LG, SS1, JC, BG, JH, and PM present 3.5/3.6, 3.7, 3.8, 3.9(c)/3.10(cd), 3.11(g), and 3.12(g), respectively.</li>
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, September 9:</b> Coming soon.</li>
 </ul>
 
