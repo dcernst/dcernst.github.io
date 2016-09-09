@@ -50,17 +50,18 @@ We’ll use this page to keep track of what has happened each day in class. It w
 <ul class="fa-ul">
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, September 5:</b> Labor Day. No class.</li>
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, September 7:</b> We got a lot done today and all the discussion was productive.  We kicked off with me explaining 3.1 and 3.2, which were left over from last time, and I also quickly explained 3.4.  After that we split up into small groups to discuss the remaining problems.  LG, SS1, JC, BG, JH, and PM present 3.5/3.6, 3.7, 3.8, 3.9(c)/3.10(cd), 3.11(g), and 3.12(g), respectively.</li>
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, September 9:</b> Coming soon.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, September 9:</b> I spent the first 25 minutes or so discussing the use of LaTeX. Remember to holler if you have questions.  The rest of class was spent discussing 3.13 and 3.14, which SM and DJ presented, respectively.  If needed, we will revisit 3.15, 3.16, and 3.17.</li>
 </ul>
 
-<!--
 ## Week 3 ##
 
 <ul class="fa-ul">
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, February 1:</b> Today was a good day.  We had KF, AW, BS, JK, CM, and RV present 3.12, 3.13, 3.14, 3.15, 3.16, and 3.17, respectively.  Exercise 3.14 is an important one to keep in mind.</li>
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, February 3:</b> I had my doubts about getting through everything today.  We came really close.  All of today's problems were related to the concept of subgroup.  We had KG, CS, ER, BA, CL, IA, and AM1 present 4.3, 4.5, 4.6/4.7/4.8, 4.10, 4.11, 4.12, and 4.13/4.14, respectively.  We didn't get to 4.15, which KS will kick off with next time.</li>
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, February 5:</b> Today's problems focused on understanding when two groups are isomorphic.  The problems presented today are among my favorite in the course.  It was an action-packed day with KS, MT, AH, ES, SC, MN, AM2, and EO presenting 4.15, 4.16, 4.19, 4.20, 4.23/4.24, 4.25, and 4.26, respectively.  We didn't get to 4.27/4.28.  MT will kick off with those on Monday.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, September 12:</b> Coming soon.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, September 14:</b> Coming soon.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, September 16:</b> Coming soon.</li>
 </ul>
+
+<!--
 
 ## Week 4 ##
 
