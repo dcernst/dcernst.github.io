@@ -27,7 +27,7 @@ Here are the assignments.  I will post them as we go.
 
 <ul class="fa-ul">
   <li><i class="fa fa-pencil-square-o"></i> <b>Homework 1:</b> Complete 1.1, 1.2, 1.3, 1.4, 1.6.  It's not required, but if you are motivated, I bet 1.5 is fun, too.  (Due Friday, September 9)</li>
-  <li><i class="fa fa-pencil-square-o"></i> <b>Homework 2:</b> Complete 1.7, 1.8, 1.9, 1.11, 1.12. (Due Wednesday, September 14)</li>
+  <li><i class="fa fa-pencil-square-o"></i> <b>Homework 2:</b> Complete any four of 1.7, 1.8, 1.9, 1.11, 1.12. (Due Wednesday, September 14)</li>
 </ul>
 
 <!--
