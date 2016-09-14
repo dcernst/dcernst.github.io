@@ -56,7 +56,7 @@ We’ll use this page to keep track of what has happened each day in class. It w
 ## Week 3 ##
 
 <ul class="fa-ul">
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, September 12:</b> I was out of town and David Deville covered for me.  According to David, here is what transpired.  JS, LG, JC, MZ, EB, LL, and BG presented 4.2/4.3, 4.5, 4.6, 4.7, 4.8, 4.10, and 4.11, respectively.  We should have time to hit up 4.12-4.14 next time.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, September 12:</b> I was out of town and David Deville covered for me.  According to David, here is what transpired.  JS, LG, JC, MR, EB, LL, and BG presented 4.2/4.3, 4.5, 4.6, 4.7, 4.8, 4.10, and 4.11, respectively.  We should have time to hit up 4.12-4.14 next time.</li>
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, September 14:</b> Coming soon.</li>
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, September 16:</b> Coming soon.</li>
 </ul>
