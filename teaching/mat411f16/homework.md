@@ -42,7 +42,7 @@ The following assignments are to be turned in at the end of the indicated class 
 - **Daily Homework 8:** Complete 4.1-4.3, 4.5-4.8, 4.10-4.14 in [Chapter 4: An Introduction to Subgroups and Isomorphisms]({{site.baseurl}}/teaching/mat411f16/IntroSubgroupsIsomorphisms.pdf) and digest the surrounding text along the way. (Due Monday, September 12)
 - **Daily Homework 9:** Complete 4.15, 4.16, 4.19-4.22 in [Chapter 4: An Introduction to Subgroups and Isomorphisms]({{site.baseurl}}/teaching/mat411f16/IntroSubgroupsIsomorphisms.pdf) and digest the surrounding text along the way. (Due Wednesday, September 14)
 - **Daily Homework 10:** Complete 4.23-4.26 in [Chapter 4: An Introduction to Subgroups and Isomorphisms]({{site.baseurl}}/teaching/mat411f16/IntroSubgroupsIsomorphisms.pdf) and digest the surrounding text along the way. (Due Friday, September 16)
-- **Daily Homework 11:** Complete 4.27-4.28 in [Chapter 4: An Introduction to Subgroups and Isomorphisms]({{site.baseurl}}/teaching/mat411f16/IntroSubgroupsIsomorphisms.pdf), 5.8-5.11, 5.13, 5.14, 5.16, 5.17 in [Chapter 5: A Formal Approach to Groups]({{site.baseurl}}/teaching/mat411f16/FormalGroups.pdf), and digest the surrounding text along the way. (Due Monday, September 19)
+- **Daily Homework 11:** Complete 4.27-4.28 in [Chapter 4: An Introduction to Subgroups and Isomorphisms]({{site.baseurl}}/teaching/mat411f16/IntroSubgroupsIsomorphisms.pdf), 5.8-5.11, 5.13, 5.14, 5.16 in [Chapter 5: A Formal Approach to Groups]({{site.baseurl}}/teaching/mat411f16/FormalGroups.pdf), and digest the surrounding text along the way. (Due Monday, September 19)
 
 <!-- - **Daily Homework 4:** Read [Chapter 1: Introduction]({{site.baseurl}}/teaching/mat411f16/Introduction.pdf) of the course notes.  In addition, complete 2.2-2.6, 2.8-2.12 in [Chapter 2: An Intuitive Approach to Groups]({{site.baseurl}}/teaching/mat411f16/IntuitiveGroups.pdf) and digest the surrounding text along the way. (Due Friday, January 22)
 - **Daily Homework 5:** Skim through [Appendix B: Elements of Style of Proof]({{site.baseurl}}/teaching/mat411f16/ElementsOfStyle.pdf) of the course notes.  In addition, complete 2.13, 2.15-2.25 in [Chapter 2: An Intuitive Approach to Groups]({{site.baseurl}}/teaching/mat411f16/IntuitiveGroups.pdf) and digest the surrounding text along the way. (Due Monday, January 25)
@@ -89,7 +89,7 @@ In addition to the Daily Homework, we will also have Weekly Homework assignments
       3. $\\{e, sr, rs, r^2\\}\leq D_4$
       4. $\\{e, r, r^2\\} \leq D_3$
       5. $\\{e, r, r^2\\} \leq D_4$
-  
+
 <!-- - **Weekly Homework 1:** Prove **two** of Theorem A.43, Theorem A.44, Theorem A.75, or Theorem A.81 from [Appendix A]({{site.baseurl}}/teaching/mat411f16/Prerequisites.pdf). In addition, write up a solution to **one** of Exercise 2.13 or Exercise 2.19.  *Note:* For the problems coming from Appendix A, you are welcome to consult external resources. (Due Tuesday, February 2 by 8PM)
 - **Weekly Homework 2:** Complete each of the following tasks. You are required to type your proofs using LaTeX.  You should email me the PDF of your completed work or turn in a hardcopy. (Due Tuesday, February 9 by 8PM)
   - Prove any **two** of Theorems 4.6, 4.8, or 4.20.
