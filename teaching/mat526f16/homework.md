@@ -29,6 +29,7 @@ Here are the assignments.  I will post them as we go.
   <li><i class="fa fa-pencil-square-o"></i> <b>Homework 1:</b> Complete 1.1, 1.2, 1.3, 1.4, 1.6.  It's not required, but if you are motivated, I bet 1.5 is fun, too.  (Due Friday, September 9)</li>
   <li><i class="fa fa-pencil-square-o"></i> <b>Homework 2:</b> Complete any four of 1.7, 1.8, 1.9, 1.11, 1.12. (Due Wednesday, September 14)</li>
   <li><i class="fa fa-pencil-square-o"></i> <b>Homework 3:</b> Complete 1.10, 1.13, 1.14, 1.15. (Due Wednesday, September 21)</li>
+  <li><i class="fa fa-pencil-square-o"></i> <b>Homework 4:</b> Choose 3 from 2.1, 2.2, 2.3, 2.6, and 2.7 and then choose 1 from 2.4 and 2.5. (Due Wednesday, September 29)</li>
 </ul>
 
 <!--

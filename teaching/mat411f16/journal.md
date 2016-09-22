@@ -61,7 +61,7 @@ We’ll use this page to keep track of what has happened each day in class. It w
 
 <ul class="fa-ul">
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, September 19:</b> We got a lot accomplished today.  I spent the first few minutes discussing some thoughts about the first Weekly Homework assignment and then we got down to business.  We had JM, AO, AT, AN, SC, and HR present 4.27/4.28, 5.9, 5.10, 5.11, 5.13, 5.14, and 5.16, respectively.  Along the way I presented 5.8 and then we wrapped up with the proof of Theorem 5.14 (function composition is associative).</li>
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, September 21:</b> Coming soon.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, September 21:</b> We kicked off with a whole class discussion of 5.20, 5.21, 5.22, and 5.23.  These problems were aimed at developing intuition about the formal definition of a group.  Next, we had people work in groups of 2-3 on coming up with a proof for Theorem 5.24, which says that the identity in a group is unique.  After about 5 minutes, we had JM, SS2, and PM share 3 different proposed proofs.</li>
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, September 23:</b> Coming soon.</li>
 </ul>
 
