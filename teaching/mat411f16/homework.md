@@ -45,6 +45,7 @@ The following assignments are to be turned in at the end of the indicated class 
 - **Daily Homework 11:** Complete 4.27-4.28 in [Chapter 4: An Introduction to Subgroups and Isomorphisms]({{site.baseurl}}/teaching/mat411f16/IntroSubgroupsIsomorphisms.pdf), 5.8-5.11, 5.13, 5.14, 5.16 in [Chapter 5: A Formal Approach to Groups]({{site.baseurl}}/teaching/mat411f16/FormalGroups.pdf), and digest the surrounding text along the way. (Due Monday, September 19)
 - **Daily Homework 12:** Complete 5.20-5.30 in [Chapter 5: A Formal Approach to Groups]({{site.baseurl}}/teaching/mat411f16/FormalGroups.pdf) and digest the surrounding text along the way. (Due Wednesday, September 21)
 - **Daily Homework 13:** Complete 5.32-5.34 in [Chapter 5: A Formal Approach to Groups]({{site.baseurl}}/teaching/mat411f16/FormalGroups.pdf) and digest the surrounding text along the way. (Due Friday, September 23)
+- **Daily Homework 13:** Complete 5.35-??? in [Chapter 5: A Formal Approach to Groups]({{site.baseurl}}/teaching/mat411f16/FormalGroups.pdf) and digest the surrounding text along the way. (Due Monday, September 26)
 
 <!-- - **Daily Homework 4:** Read [Chapter 1: Introduction]({{site.baseurl}}/teaching/mat411f16/Introduction.pdf) of the course notes.  In addition, complete 2.2-2.6, 2.8-2.12 in [Chapter 2: An Intuitive Approach to Groups]({{site.baseurl}}/teaching/mat411f16/IntuitiveGroups.pdf) and digest the surrounding text along the way. (Due Friday, January 22)
 - **Daily Homework 5:** Skim through [Appendix B: Elements of Style of Proof]({{site.baseurl}}/teaching/mat411f16/ElementsOfStyle.pdf) of the course notes.  In addition, complete 2.13, 2.15-2.25 in [Chapter 2: An Intuitive Approach to Groups]({{site.baseurl}}/teaching/mat411f16/IntuitiveGroups.pdf) and digest the surrounding text along the way. (Due Monday, January 25)
@@ -91,6 +92,7 @@ In addition to the Daily Homework, we will also have Weekly Homework assignments
       3. $\\{e, sr, rs, r^2\\}\leq D_4$
       4. $\\{e, r, r^2\\} \leq D_3$
       5. $\\{e, r, r^2\\} \leq D_4$
+- **Weekly Homework 3:** Suppose $G$ is a finite group such that $G=\langle g_1,\ldots, g_n\rangle$.  Consider the Cayley diagram for $G$ using $\\{g_1,\ldots,g_n\\}$ as a generating set.  Prove that for each $i$, if we follow a sequence of (forward) arrows corresponding to $g_i$ out of $e$, we eventually end up back at $e$. Also, prove **two** of Theorems 5.24, 5.25, 5.28.  (Due Tuesday, September 27 by 8PM)
 
 <!-- - **Weekly Homework 1:** Prove **two** of Theorem A.43, Theorem A.44, Theorem A.75, or Theorem A.81 from [Appendix A]({{site.baseurl}}/teaching/mat411f16/Prerequisites.pdf). In addition, write up a solution to **one** of Exercise 2.13 or Exercise 2.19.  *Note:* For the problems coming from Appendix A, you are welcome to consult external resources. (Due Tuesday, February 2 by 8PM)
 - **Weekly Homework 2:** Complete each of the following tasks. You are required to type your proofs using LaTeX.  You should email me the PDF of your completed work or turn in a hardcopy. (Due Tuesday, February 9 by 8PM)
@@ -103,7 +105,6 @@ In addition to the Daily Homework, we will also have Weekly Homework assignments
       5. $\\{e, r, r^2\\} \leq D_4$
   - Suppose $G$ is a finite group such that $G=\langle g_1,\ldots, g_n\rangle$.  Consider the Cayley diagram for $G$ using $\\{g_1,\ldots,g_n\\}$ as a generating set.  Prove that for each $i$, if we follow a sequence of (forward) arrows corresponding to $g_i$ out of $e$, we eventually end up back at $e$.
 - **Weekly Homework 3:** Prove **two** of Theorems 5.24, 5.25, 5.28. (Due Tuesday, February 16 by 8PM)
-Add to Weekly 3: - Suppose $G$ is a finite group such that $G=\langle g_1,\ldots, g_n\rangle$.  Consider the Cayley diagram for $G$ using $\\{g_1,\ldots,g_n\\}$ as a generating set.  Prove that for each $i$, if we follow a sequence of (forward) arrows corresponding to $g_i$ out of $e$, we eventually end up back at $e$.
 - **Weekly Homework 4:** Prove **two** of Theorems 5.63, 5.83, 5.84, 5.86, 5.87, 5.89, 5.90.  In addition, prove that if $\phi:G_1\to G_2$ is a function between two groups that satisfies the homomorphic property (which may or may not be 1-1 or onto), then the set $K=\\{g\in G_1\mid \phi(g)=e_2\\}$ (where $e_2$ is the identity of $G_2$) is a subgroup of $G_1$.  (Due Tuesday, March 8 by 8PM)
 - **Weekly Homework 5:** Prove **two** of Theorems 6.7, 6.8(a), 6.8(b), 6.20, 6.21, 6.23.  In addition, prove that if $\phi:G_1\to G_2$ and $K$ are as in Weekly Homework 4, then $\phi$ is 1-1 iff $K=\\{e_1\\}$ (where $e_1$ is the identity of $G_1$).  (Due Tuesday, March 22 by 8PM)
 - **Weekly Homework 6:** Prove **two** of Theorems 6.64, 6.71, 6.87 (both parts), 6.92. (Due Tuesday, April 12 by 8PM)

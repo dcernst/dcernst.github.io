@@ -23,14 +23,13 @@ title: Course Materials
 ## Course Materials ##
 Any relevant course materials will be posted here.
 
-- You can find the current errata for the book [here](http://math.depaul.edu/tpeter21/Errata.pdf).
+- You can find the current errata for the book [here](http://math.depaul.edu/tpeter21/Errata.pdf) (PDF).
+- Zach's work for SP3 can be found [here]({{site.baseurl}}/teaching/mat526f16/ZachParker-SP3.pdf/) (PDF).
 
 ## Exams ##
 Below are links to the take-home portion of each exam.
 
-<ul class="fa-ul">
-  <li><i class="fa fa-pencil-square-o"></i> Exam 1 (take-home). Coming soon.</li>
-</ul>
+- Exam 1 (take-home). Coming soon.
 
 <!--
 - [Exam 1 (take-home)]({{site.baseurl}}/teaching/mat526f16/612Exam1-Home.pdf) (PDF). If you are interested in using LaTeX to type up your solutions, then you can obtain the .tex file for the exam [here]({{site.baseurl}}/teaching/mat526f16/612Exam1-Home.tex). (Due Friday, March 4)
