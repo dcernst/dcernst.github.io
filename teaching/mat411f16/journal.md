@@ -62,18 +62,18 @@ We’ll use this page to keep track of what has happened each day in class. It w
 <ul class="fa-ul">
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, September 19:</b> We got a lot accomplished today.  I spent the first few minutes discussing some thoughts about the first Weekly Homework assignment and then we got down to business.  We had JM, AO, AT, AN, SC, and HR present 4.27/4.28, 5.9, 5.10, 5.11, 5.13, 5.14, and 5.16, respectively.  Along the way I presented 5.8 and then we wrapped up with the proof of Theorem 5.14 (function composition is associative).</li>
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, September 21:</b> We kicked off with a whole class discussion of 5.20, 5.21, 5.22, and 5.23.  These problems were aimed at developing intuition about the formal definition of a group.  Next, we had people work in groups of 2-3 on coming up with a proof for Theorem 5.24, which says that the identity in a group is unique.  After about 5 minutes, we had JM, SS2, and PM share 3 different proposed proofs.</li>
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, September 23:</b> Coming soon.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, September 23:</b> Today is a perfect example of why I use to implement an IBL approach in this course.  Awesome discussion and many light bulbs getting turned on!  We had JM, KE, KS, JK, AN, JH, and DZ present 5.25, 5.26, 5.27, 5.28, 5.30, 5.32(a), and 5.32(b), respectively. With the few minutes we had left at the end of class, we had quick group discussion of 5.33 and 5.34.</li>
 </ul>
-
-<!--
 
 ## Week 5 ##
 
 <ul class="fa-ul">
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, February 15:</b> We chatted very briefly about the exam and then I spent a few minutes comparing solving equations in linear algebra to solving equations in the context of groups.  Next, we had CM, FT, AT, KF, RV, and KS present 5.30, 5.32, 5.33, 5.34, 5.35, and 5.37, respectively.  There were a few problems we didn't get to and students do not need to worry about these for the exams.</li>
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, February 17:</b> The students took the in-class portion of Exam 1.</li>
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, February 12:</b> After a quick discussion of the take-home portion of Exam 1, we took care of a few outstanding problems.  We had ES, SC, and IA present 5.38, 5.40, and 5.41, respectively.  Next, I spent a few minutes summarizing "the taxonomy of groups" and the phrase "up to isomorphism."  I then lectured over 5.39, 5.42, 5.43, and 5.45.  I'll continue lecturing until the take-home exam is due next week.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, September 26:</b> Coming soon.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, September 28:</b> The students took the in-class portion of Exam 1.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, September 30:</b> Coming soon.</li>
 </ul>
+
+<!--
 
 ## Week 6 ##
 
