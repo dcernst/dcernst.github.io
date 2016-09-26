@@ -68,7 +68,7 @@ We’ll use this page to keep track of what has happened each day in class. It w
 ## Week 5 ##
 
 <ul class="fa-ul">
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, September 26:</b> Coming soon.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, September 26:</b> Another highly productive day.  After discussing the upcoming exam, we got down to business.  We started by me discussing 5.36, 5.39, and 5.40.  Then we broke up into 6 small groups to discuss most of the remaining problems.  We had JK, AN, MR, LL, PM, and SC present 5.35, 5.37, 5.38, 5.41, 5.43, and 5.44, respectively.  Along the way, I also addressed 5.42 and discussed the phrase "up to isomorphism."</li>
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, September 28:</b> The students took the in-class portion of Exam 1.</li>
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, September 30:</b> Coming soon.</li>
 </ul>
