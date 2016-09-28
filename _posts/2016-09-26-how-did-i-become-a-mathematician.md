@@ -26,4 +26,4 @@ After a short-lived start to a master's degree in education, I went on to receiv
 
 While I readily admit that I am peculiar, my path from despising mathematics to loving the subject has given me a perspective that many mathematicians likely do not have as most of them either excelled at mathematics, had an interest in the subject from a very early age, or both.  This perspective has played a fundamental role in my teaching and has helped me relate to my students.
 
-By the way, I don't think Bob looks like a math geek anymore.  It's been a lot of fun to hang out with him a conferences and get to know each other as teachers and mathematicians.  Thanks Bob!
+By the way, I don't think Bob looks like a math geek anymore.  It's been a lot of fun to hang out with him at conferences and get to know each other as teachers and mathematicians.  Thanks Bob!
