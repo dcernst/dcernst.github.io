@@ -30,11 +30,11 @@ Since groups have binary operations at their core, we can represent a finite gro
 
 While I was teaching out of Carter's book during the summer of 2009, one of my students (Michelle Reagan) made five quilts that correspond to colored group tables for the five groups of order 8.  Here are pictures of the quilts.
 
-<img src="{{ site.baseurl }}/images/Quilt1.jpg" class="img-rounded">
-<img src="{{ site.baseurl }}/images/Quilt2.jpg" class="img-circle">
-<img src="{{ site.baseurl }}/images/Quilt3.jpg" class="img-thumbnail">
-<img src="{{ site.baseurl }}/images/Quilt4.jpg" class="img-thumbnail">
-<img src="{{ site.baseurl }}/images/Quilt5.jpg" class="img-thumbnail">
+<img src="{{ site.baseurl }}/images/Quilt1.JPG" class="img-rounded">
+<img src="{{ site.baseurl }}/images/Quilt2.JPG" class="img-circle">
+<img src="{{ site.baseurl }}/images/Quilt3.JPG" class="img-thumbnail">
+<img src="{{ site.baseurl }}/images/Quilt4.JPG" class="img-thumbnail">
+<img src="{{ site.baseurl }}/images/Quilt5.JPG" class="img-thumbnail">
 
 It's a fun exercise to figure out which quilt corresponds to which group.  I'll leave it to you to think about.
 
