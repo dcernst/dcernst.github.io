@@ -33,10 +33,10 @@ While I was teaching out of Carter's book during the summer of 2009, one of my s
 <div class="row">
 
 <img src="{{ site.baseurl }}/images/Quilt1.JPG" width="20%" class="img-thumbnail" class="img-responsive" img style="margin-right: 15px" img style="margin-left: 15px"  img style="margin-top: 15px" img style="margin-bottom: 15px">
-<img src="{{ site.baseurl }}/images/Quilt2.JPG" width="20% class="img-thumbnail" class="img-responsive" img style="margin-right: 15px" img style="margin-left: 15px" img style="margin-top: 15px" img style="margin-bottom: 15px">
-<img src="{{ site.baseurl }}/images/Quilt3.JPG" width="20% class="img-thumbnail" class="img-responsive" img style="margin-right: 15px" img style="margin-left: 15px" img style="margin-top: 15px" img style="margin-bottom: 15px">
-<img src="{{ site.baseurl }}/images/Quilt4.JPG" width="20% class="img-thumbnail" class="img-responsive" img style="margin-right: 15px" img style="margin-left: 15px" img style="margin-top: 15px" img style="margin-bottom: 15px">
-<img src="{{ site.baseurl }}/images/Quilt5.JPG" width="20% class="img-thumbnail" class="img-responsive" img style="margin-right: 15px" img style="margin-left: 15px" img style="margin-top: 15px" img style="margin-bottom: 15px">
+<img src="{{ site.baseurl }}/images/Quilt2.JPG" width="20%" class="img-thumbnail" class="img-responsive" img style="margin-right: 15px" img style="margin-left: 15px" img style="margin-top: 15px" img style="margin-bottom: 15px">
+<img src="{{ site.baseurl }}/images/Quilt3.JPG" width="20%"" class="img-thumbnail" class="img-responsive" img style="margin-right: 15px" img style="margin-left: 15px" img style="margin-top: 15px" img style="margin-bottom: 15px">
+<img src="{{ site.baseurl }}/images/Quilt4.JPG" width="20%"" class="img-thumbnail" class="img-responsive" img style="margin-right: 15px" img style="margin-left: 15px" img style="margin-top: 15px" img style="margin-bottom: 15px">
+<img src="{{ site.baseurl }}/images/Quilt5.JPG" width="20%"" class="img-thumbnail" class="img-responsive" img style="margin-right: 15px" img style="margin-left: 15px" img style="margin-top: 15px" img style="margin-bottom: 15px">
 
 </div>
 
