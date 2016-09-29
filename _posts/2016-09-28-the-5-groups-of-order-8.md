@@ -14,7 +14,7 @@ tags:
   - loveyourmath
 ---
 
-It's day 3 of the [#loveyourmath](https://twitter.com/hashtag/loveyourmath?src=hash) campaign!  For this post, I wanted to share some some pictures of some quilts that one of my former students made for me when I was at [Plymouth State University](http://plymouth.edu).
+It's day 3 of the [#loveyourmath](https://twitter.com/hashtag/loveyourmath?src=hash) campaign!  For this post, I wanted to share some pictures of some quilts that one of my former students made for me when I was at [Plymouth State University](http://plymouth.edu).
 
 It turns out that up to isomorphism, there are exactly 5 groups of order 8.  Below are representatives from each isomorphism class:
 
