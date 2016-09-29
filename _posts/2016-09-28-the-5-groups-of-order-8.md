@@ -31,13 +31,13 @@ Since groups have binary operations at their core, we can represent a finite gro
 While I was teaching out of Carter's book during the summer of 2009, one of my students (Michelle Reagan) made five quilts that correspond to colored group tables for the five groups of order 8.  Here are pictures of the quilts.
 
 <div class="row">
-
-<img src="{{ site.baseurl }}/images/Quilt1.JPG" width="20%" class="img-thumbnail" class="img-responsive" img style="margin-right: 15px" img style="margin-left: 15px"  img style="margin-top: 15px" img style="margin-bottom: 15px">
-<img src="{{ site.baseurl }}/images/Quilt2.JPG" width="20%" class="img-thumbnail" class="img-responsive" img style="margin-right: 15px" img style="margin-left: 15px" img style="margin-top: 15px" img style="margin-bottom: 15px">
-<img src="{{ site.baseurl }}/images/Quilt3.JPG" width="20%" class="img-thumbnail" class="img-responsive" img style="margin-right: 15px" img style="margin-left: 15px" img style="margin-top: 15px" img style="margin-bottom: 15px">
-<img src="{{ site.baseurl }}/images/Quilt4.JPG" width="20%" class="img-thumbnail" class="img-responsive" img style="margin-right: 15px" img style="margin-left: 15px" img style="margin-top: 15px" img style="margin-bottom: 15px">
-<img src="{{ site.baseurl }}/images/Quilt5.JPG" width="20%" class="img-thumbnail" class="img-responsive" img style="margin-right: 15px" img style="margin-left: 15px" img style="margin-top: 15px" img style="margin-bottom: 15px">
-
+<center>
+<img src="{{ site.baseurl }}/images/Quilt1.JPG" class="img-thumbnail" class="img-responsive" img style="margin-right: 15px" img style="margin-left: 15px"  img style="margin-top: 15px" img style="margin-bottom: 15px">
+<img src="{{ site.baseurl }}/images/Quilt2.JPG" class="img-thumbnail" class="img-responsive" img style="margin-right: 15px" img style="margin-left: 15px" img style="margin-top: 15px" img style="margin-bottom: 15px">
+<img src="{{ site.baseurl }}/images/Quilt3.JPG" class="img-thumbnail" class="img-responsive" img style="margin-right: 15px" img style="margin-left: 15px" img style="margin-top: 15px" img style="margin-bottom: 15px">
+<img src="{{ site.baseurl }}/images/Quilt4.JPG" class="img-thumbnail" class="img-responsive" img style="margin-right: 15px" img style="margin-left: 15px" img style="margin-top: 15px" img style="margin-bottom: 15px">
+<img src="{{ site.baseurl }}/images/Quilt5.JPG" class="img-thumbnail" class="img-responsive" img style="margin-right: 15px" img style="margin-left: 15px" img style="margin-top: 15px" img style="margin-bottom: 15px">
+</center>
 </div>
 
 It's a fun exercise to figure out which quilt corresponds to which group.  I'll leave it to you to think about.
