@@ -21,7 +21,7 @@ It turns out that up to isomorphism, there are exactly 5 groups of order 8.  Bel
 - $\mathbb{Z}_8$ ([cyclic group](https://en.wikipedia.org/wiki/Cyclic_group) of order 8)
 - $\mathbb{Z}_4\times \mathbb{Z}_2$
 - $\mathbb{Z}_2\times \mathbb{Z}_2\times \mathbb{Z}_2$
-- $D_4$ (the [dihedral group](https://en.wikipedia.org/wiki/Dihedral_group) of order 8)
+- $D_4$ ([dihedral group](https://en.wikipedia.org/wiki/Dihedral_group) of order 8)
 - $Q_8$ ([quaternion group](https://en.wikipedia.org/wiki/Quaternion_group))
 
 The first three groups listed above are abelian while the last two are not.  It's a fairly straightforward exercise to prove that none of these groups are isomorphic to each other.  It's a bit more work to prove that the list is complete.  [The Fundamental Theorem of Finitely Generated Abelian Groups](https://en.wikipedia.org/wiki/Finitely_generated_abelian_group#Classification) guarantees that we haven't omitted any abelian groups of order 8.  Handling the non-abelian case is trickier.  If you want to know more about to prove that the classification above is correct, check out the Mathematics Stack Exchange post [here](http://math.stackexchange.com/questions/64406/how-can-you-show-there-are-only-2-nonabelian-groups-of-order-8), the [GroupProps ](http://groupprops.subwiki.org/wiki/Main_Page) wiki page about [groups of order 8](http://groupprops.subwiki.org/wiki/Groups_of_order_8), and the nice classification of all groups of order less or equal to 8 that is located [here](http://www2.lawrence.edu/fast/corrys/Math300/8Groups.pdf).
@@ -32,11 +32,11 @@ While I was teaching out of Carter's book during the summer of 2009, one of my s
 
 <div class="row">
 
-<img src="{{ site.baseurl }}/images/Quilt1.JPG" class="img-thumbnail" class="img-responsive" img style="margin-right: 15px" img style="margin-left: 15px"  img style="margin-top: 15px" img style="margin-bottom: 15px">
-<img src="{{ site.baseurl }}/images/Quilt2.JPG" class="img-thumbnail" class="img-responsive" img style="margin-right: 15px" img style="margin-left: 15px" img style="margin-top: 15px" img style="margin-bottom: 15px">
-<img src="{{ site.baseurl }}/images/Quilt3.JPG" class="img-thumbnail" class="img-responsive" img style="margin-right: 15px" img style="margin-left: 15px" img style="margin-top: 15px" img style="margin-bottom: 15px">
-<img src="{{ site.baseurl }}/images/Quilt4.JPG" class="img-thumbnail" class="img-responsive" img style="margin-right: 15px" img style="margin-left: 15px" img style="margin-top: 15px" img style="margin-bottom: 15px">
-<img src="{{ site.baseurl }}/images/Quilt5.JPG" class="img-thumbnail" class="img-responsive" img style="margin-right: 15px" img style="margin-left: 15px" img style="margin-top: 15px" img style="margin-bottom: 15px">
+<img src="{{ site.baseurl }}/images/Quilt1.JPG" width="20%" class="img-thumbnail" class="img-responsive" img style="margin-right: 15px" img style="margin-left: 15px"  img style="margin-top: 15px" img style="margin-bottom: 15px">
+<img src="{{ site.baseurl }}/images/Quilt2.JPG" width="20% class="img-thumbnail" class="img-responsive" img style="margin-right: 15px" img style="margin-left: 15px" img style="margin-top: 15px" img style="margin-bottom: 15px">
+<img src="{{ site.baseurl }}/images/Quilt3.JPG" width="20% class="img-thumbnail" class="img-responsive" img style="margin-right: 15px" img style="margin-left: 15px" img style="margin-top: 15px" img style="margin-bottom: 15px">
+<img src="{{ site.baseurl }}/images/Quilt4.JPG" width="20% class="img-thumbnail" class="img-responsive" img style="margin-right: 15px" img style="margin-left: 15px" img style="margin-top: 15px" img style="margin-bottom: 15px">
+<img src="{{ site.baseurl }}/images/Quilt5.JPG" width="20% class="img-thumbnail" class="img-responsive" img style="margin-right: 15px" img style="margin-left: 15px" img style="margin-top: 15px" img style="margin-bottom: 15px">
 
 </div>
 
