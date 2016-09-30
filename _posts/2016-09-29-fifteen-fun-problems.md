@@ -17,7 +17,7 @@ It's day 4 of the [#loveyourmath](https://twitter.com/hashtag/loveyourmath?src=h
 Below are 15 problems from the course.  Originally I was only going to list 5, but it was hard enough to only pick 15. I attempted to showcase a variety of problems that utilize different ways of thinking.  I'm intentionally not providing any solutions.  Some of these problems are classics or variations on classics.  Have fun playing!
 
 1. I have 10 sticks in my bag. The length of each stick is an integer. No matter which 3 sticks I try to use, I cannot make a triangle out of those sticks. What is the minimum length of the longest stick?
-2. A mouse eats his way through a $3\times 3 \times 3$ cube of cheese by tunneling through all of the 27 $1\times 1\times 1$ sub-cubes. If she starts at one corner and always moves to an uneaten sub cube, can she finish at the center of the cube?
+2. A mouse eats his way through a 3 by 3 by 3 cube of cheese by tunneling through all 27 of the 1 by 1 by 1 sub-cubes. If she starts at one corner and always moves to an uneaten sub cube, can she finish at the center of the cube?
 3. We have two strings of pyrotechnic fuse. The strings do not look homogeneous in thickness but both of them have a label saying 4 minutes. So we can assume that it takes 4 minutes to burn through either of these fuses. How can we measure a one minute interval?
 4. Show that in any group of 6 students there are 3 students who know each other or 3 students who do not know each other.
 5. Suppose someone draws 20 random lines in the plane. What is the maximum number of intersections of these lines?
