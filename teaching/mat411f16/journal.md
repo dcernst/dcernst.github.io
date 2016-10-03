@@ -70,18 +70,18 @@ We’ll use this page to keep track of what has happened each day in class. It w
 <ul class="fa-ul">
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, September 26:</b> Another highly productive day.  After discussing the upcoming exam, we got down to business.  We started by me discussing 5.36, 5.39, and 5.40.  Then we broke up into 6 small groups to discuss most of the remaining problems.  We had JK, AN, MR, LL, PM, and SC present 5.35, 5.37, 5.38, 5.41, 5.43, and 5.44, respectively.  Along the way, I also addressed 5.42 and discussed the phrase "up to isomorphism."</li>
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, September 28:</b> The students took the in-class portion of Exam 1.</li>
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, September 30:</b> Coming soon.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, September 30:</b> Since the students are working on the take-home portion of Exam 1, I spent the day lecturing.  We began by reviewing the groups we are familiar with and organized them by order and identified which ones were isomorphic to others on our list.  Next, we had lengthy discussion of Problem 5.45, which classifies groups of order 4.  With the time we had left, we briefly discussed 5.46 and 5.47, which addresses one of the flaws with our original set of 4 rules that defined a group.</li>
 </ul>
-
-<!--
 
 ## Week 6 ##
 
 <ul class="fa-ul">
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, February 22:</b> After handing back the in-class portion of Exam 1, I launched into lecturing.  We picked up where we left off on Friday with a discussion of the taxonomy of groups and then continued on with the course notes.  I covered 5.46-5.51.</li>
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, February 24:</b> We picked up where we left off. Theorem 5.53 was on Exam 1, so I talked about it very briefly.  Next, we carefully worked through 5.55-5.58.  We left 5.55(d) open with the intention of discussing it later.</li>
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, February 26:</b> New room!  We moved into a room with more white board space, which makes me very happy.  I divided the class up into 6 small groups and each group was tasked with discussing one of 5.61, 5.62/5.67, 5.63, 5.64, 5.66, and 5.68.  For 10-15 minutes, I let each group discuss their proposed solution to the problem they were assigned. Next, each group's spokesperson discussed their group's solution.  We had AM2, BS, CS, and HG present 5.61, 5.62/5.67, 5.63, and 5.64, respectively.  CS's presentation of Theorem 5.63 was excellent.  We ran out of time and didn't get to discuss 5.66 and 5.68.  We'll likely skip discussing 5.68, but we will squeeze in 5.66 next time.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, October 3:</b> Coming soon.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, October 5:</b> Coming soon.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, October 7:</b> Coming soon.</li>
 </ul>
+
+<!--
 
 ## Week 7 ##
 
