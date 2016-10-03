@@ -76,7 +76,7 @@ We’ll use this page to keep track of what has happened each day in class. It w
 ## Week 6 ##
 
 <ul class="fa-ul">
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, October 3:</b> Coming soon.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, October 3:</b> After handing back the in-class portion of Exam 1 (I'm happy with how everyone did, by the way!), we picked up where we left off last week.  When all was said and done, we discussed 5.46-5.55.</li>
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, October 5:</b> Coming soon.</li>
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, October 7:</b> Coming soon.</li>
 </ul>
