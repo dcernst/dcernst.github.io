@@ -47,6 +47,7 @@ The following assignments are to be turned in at the end of the indicated class 
 - **Daily Homework 13:** Complete 5.32-5.34 in [Chapter 5: A Formal Approach to Groups]({{site.baseurl}}/teaching/mat411f16/FormalGroups.pdf) and digest the surrounding text along the way. (Due Friday, September 23)
 - **Daily Homework 14:** Complete 5.35-5.44 in [Chapter 5: A Formal Approach to Groups]({{site.baseurl}}/teaching/mat411f16/FormalGroups.pdf) and digest the surrounding text along the way. (Due Monday, September 26)
 - **Daily Homework 15:** Complete 5.56-5.58, 5.61-5.64 in [Chapter 5: A Formal Approach to Groups]({{site.baseurl}}/teaching/mat411f16/FormalGroups.pdf) and digest the surrounding text along the way. Note that 5.59 and 5.60 were on the take-home portion of Exam 1. (Due Wednesday, October 5)
+- **Daily Homework 16:** Complete 5.66-5.75 in [Chapter 5: A Formal Approach to Groups]({{site.baseurl}}/teaching/mat411f16/FormalGroups.pdf) and digest the surrounding text along the way. (Due Friday, October 7)
 
 <!-- - **Daily Homework 4:** Read [Chapter 1: Introduction]({{site.baseurl}}/teaching/mat411f16/Introduction.pdf) of the course notes.  In addition, complete 2.2-2.6, 2.8-2.12 in [Chapter 2: An Intuitive Approach to Groups]({{site.baseurl}}/teaching/mat411f16/IntuitiveGroups.pdf) and digest the surrounding text along the way. (Due Friday, January 22)
 - **Daily Homework 5:** Skim through [Appendix B: Elements of Style of Proof]({{site.baseurl}}/teaching/mat411f16/ElementsOfStyle.pdf) of the course notes.  In addition, complete 2.13, 2.15-2.25 in [Chapter 2: An Intuitive Approach to Groups]({{site.baseurl}}/teaching/mat411f16/IntuitiveGroups.pdf) and digest the surrounding text along the way. (Due Monday, January 25)
@@ -59,8 +60,8 @@ The following assignments are to be turned in at the end of the indicated class 
 - **Daily Homework 12:** Complete 5.20-5.27 in [Chapter 5: A Formal Approach to Groups]({{site.baseurl}}/teaching/mat411f16/FormalGroups.pdf) and digest the surrounding text along the way. (Due Wednesday, February 10)
 - **Daily Homework 13:** Complete 5.28-5.30 in [Chapter 5: A Formal Approach to Groups]({{site.baseurl}}/teaching/mat411f16/FormalGroups.pdf) and digest the surrounding text along the way. (Due Friday, February 12)
 - **Daily Homework 14:** Complete 5.32-5.41 in [Chapter 5: A Formal Approach to Groups]({{site.baseurl}}/teaching/mat411f16/FormalGroups.pdf) and digest the surrounding text along the way. (Due Monday, February 15)
-
 - **Daily Homework 15:** Complete 5.56(d), 5.61, 5.63, 5.64, 5.66, 5.67, 5.68  in [Chapter 5: A Formal Approach to Groups]({{site.baseurl}}/teaching/mat411f16/FormalGroups.pdf) and digest the surrounding text along the way. (Due Friday, February 26)
+
 - **Daily Homework 16:** Complete 5.69-5.77 in [Chapter 5: A Formal Approach to Groups]({{site.baseurl}}/teaching/mat411f16/FormalGroups.pdf) and digest the surrounding text along the way. (Due Monday, February 29)
 - **Daily Homework 17:** Complete 5.78, 5.80-5.88 in [Chapter 5: A Formal Approach to Groups]({{site.baseurl}}/teaching/mat411f16/FormalGroups.pdf) and digest the surrounding text along the way. (Due Wednesday, March 2)
 - **Daily Homework 18:** Complete 5.89-5.91 in [Chapter 5: A Formal Approach to Groups]({{site.baseurl}}/teaching/mat411f16/FormalGroups.pdf) and digest the surrounding text along the way. (Due Friday, March 4)
