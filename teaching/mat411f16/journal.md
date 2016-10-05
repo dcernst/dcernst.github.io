@@ -77,7 +77,7 @@ We’ll use this page to keep track of what has happened each day in class. It w
 
 <ul class="fa-ul">
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, October 3:</b> After handing back the in-class portion of Exam 1 (I'm happy with how everyone did, by the way!), we picked up where we left off last week.  When all was said and done, we discussed 5.46-5.55.</li>
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, October 5:</b> Coming soon.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, October 5:</b> The energy level was a bit low today, but I'm really happy with how things went.  SS1, LL, DJ, JM, HR, EB, and SC present 5.56(b), 5.56(c), 5.57, 5.61, 5.62, 5.63, and 5.64, respectively.  Along the way, I quickly addressed 5.58.</li>
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, October 7:</b> Coming soon.</li>
 </ul>
 
