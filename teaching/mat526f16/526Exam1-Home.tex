@@ -1,0 +1,173 @@
+\documentclass[11pt]{scrartcl}
+
+\usepackage[scale=1.5]{ccicons}
+\usepackage[notextcomp]{kpfonts}
+\usepackage{multicol}
+\usepackage{url}
+\usepackage{array}
+\usepackage{multicol}
+\usepackage{tabu}
+\usepackage{tikz}
+\usetikzlibrary{shapes.geometric}
+\usepackage{fancyhdr}
+\usepackage[margin=1in]{geometry}
+\usepackage[hang,flushmargin,symbol*]{footmisc}
+\usepackage{amsmath}
+\usepackage{amsthm}
+\usepackage{amssymb}
+\usepackage{mathtools}
+\usepackage{enumitem}
+\usepackage{graphicx}
+\usepackage{color}
+\definecolor{darkblue}{rgb}{0, 0, .6}
+\definecolor{grey}{rgb}{.7, .7, .7}
+\usepackage[breaklinks]{hyperref}
+
+\theoremstyle{definition} 
+\newtheorem{theorem}{Theorem}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{claim}[theorem]{Claim}
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{conjecture}[theorem]{Conjecture}
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{example}[theorem]{Example}
+\newtheorem{remark}[theorem]{Remark}
+\newtheorem{important}[theorem]{Important Note}
+\newtheorem{recall}[theorem]{Recall}
+\newtheorem{note}[theorem]{Note}
+\newtheorem{question}[theorem]{Question}
+\newtheorem*{definition*}{Definition}
+
+\newcommand{\ds}{\displaystyle}
+\newcommand{\lcm}{\operatorname{lcm}}
+\newcommand{\Rng}{\operatorname{Rng}}
+\newcommand{\tr}{\operatorname{tr}}
+\newcommand{\inv}{\operatorname{inv}}
+
+\setlength{\parindent}{0pt}
+\setlength{\fboxsep}{10pt}
+
+%%%%%%Header/Footer%%%%%%%
+
+\pagestyle{fancy}
+
+\lhead{MAT 526 - Fall 2016}
+\chead{}
+\rhead{Exam 1 (Take-home portion)}
+\lfoot{\scriptsize This work is licensed under the \href{https://creativecommons.org/licenses/by-sa/4.0/}{Creative Commons Attribution-Share Alike 4.0 License}.} 
+\cfoot{}
+\rfoot{\ccbysa}
+\renewcommand{\headrulewidth}{.4pt}
+\renewcommand{\footrulewidth}{.4pt}
+
+%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+\begin{center}
+
+  \fbox{\parbox{6in}{
+    \vspace{5pt}
+    \textbf{\large Your Name:}
+    \vspace{5pt}
+  }}
+  
+  \bigskip
+  
+  \fbox{\parbox{6in}{
+    \vspace{5pt}
+    \textbf{\large Names of Any Collaborators:}
+    \vspace{5pt}
+  }}
+
+\end{center}
+
+\section*{Instructions}
+
+This portion of Exam 1 is worth a total of 32 points and is due at the beginning of class on \textbf{Wednesday, October 12}.  Your total combined score on the in-class portion and take-home portion is worth 20\% of your overall grade.  
+
+\bigskip
+
+I expect your solutions to be \emph{well-written, neat, and organized}.  Do not turn in rough drafts.  What you turn in should be the ``polished'' version of potentially several drafts.  
+ 
+\bigskip
+
+Feel free to type up your final version.  The \LaTeX\ source file of this exam is also available if you are interested in typing up your solutions using \LaTeX.  I'll gladly help you do this if you'd like.
+
+\bigskip
+
+The simple rules for the exam are:
+
+\begin{enumerate}
+\item You may freely use any results that we have discussed in class, but you should make it clear where you are using a previous result and which result you are using.  For example, if a sentence in your proof follows from Proposition xyz, then you should say so. 
+\item Unless you prove them, you cannot use any results that we have not yet covered.
+\item You are \textbf{NOT} allowed to consult external sources when working on the exam.  This includes people outside of the class, other textbooks, and online resources.
+\item You are \textbf{NOT} allowed to copy someone else's work.
+\item You are \textbf{NOT} allowed to let someone else copy your work.
+\item You are allowed to discuss the problems with each other and critique each other's work.
+\end{enumerate}
+
+\begin{center}
+\textbf{I will vigorously pursue anyone suspected of breaking these rules.}
+\end{center}
+
+\bigskip
+
+You should \textbf{turn in this cover page} and all of the work that you have decided to submit. \textbf{Please write your solutions and proofs on your own paper.}
+
+\bigskip
+
+To convince me that you have read and understand the instructions, sign in the box below.
+
+\bigskip
+
+  \fbox{\parbox{6in}{
+    \vspace{5pt}
+    \textbf{\large Signature:} \hfill
+    \vspace{5pt}
+  }}
+
+\bigskip
+
+Good luck and have fun!
+
+\newpage
+
+Complete any \textbf{FOUR} of following problems.  Each problem is worth 8 points. Write your solutions on your own paper and please put the problems in order.
+
+\begin{enumerate}
+
+\item Consider the set $S_n(123)$.
+\begin{enumerate}
+\item[(a)] Show that every $w\in S_n(123)$ is the ``interweaving" of at two decreasing sequences $a_1,a_2,\ldots, a_k$ ($a_m>a_{m+1}$) and $b_1,b_2,\ldots,b_{n-k}$ ($b_m>b_{m+1}$) (where we allow one of the sequences to be empty).  That is, if $w=w_1\cdots w_n\in S_n(123)$ with $w_i=a_m$ and $w_j=a_{m+1}$ (respectively, $w_i=b_m$ and $w_j=b_{m+1}$), then $i<j$.
+\item[(b)] Let $xyz\in\{123,132,213,231,312,321\}$ and let $w=w_1w_2\cdots w_n\in S_n(xyz)$.  Choose a decreasing subsequence $a_1,\ldots,a_k$ from $w_1w_2\cdots w_n$ in the following way.  First, choose $a_1=w_1$.  Next, if possible, choose the smallest $i$ such that $a_1>w_i$ and define $a_2=w_i$. Again, if possible, choose the smallest $i$ such that $a_2>w_i$ and define $a_3=w_i$.  Continue this way until you can no longer find a letter in $w$ to the right of the previous choice that is smaller.  Let $B=\{w_1,\ldots,w_n\}\setminus \{a_1,\ldots,a_k\}$.  Now, define $\widetilde{w}$ be the permutation obtained from $w$ by fixing the subsequence $a_1,\ldots, a_k$ in their current positions of $w_1\cdots w_n$ but rearranging (if necessary) the letters from $B$ in the remaining positions of $w_1\cdots w_n$ in a decreasing manner.  For which $xyz$ is this process a bijection from $S_n(xyz)$ to $S_n(123)$?  When will the bijection(s) preserve the number of descents?
+\end{enumerate}
+
+\item Find an explicit bijection between $S_n(132)$ and $NC(n)$.  \emph{Note:} We know that both sets are counted by the Catalan numbers, but this problem is asking you to avoid using this fact.  If you want, you may compose bijections between other sets, but if you do this, you must explicitly describe each map.  However, a ``better" solution would not involve a composition.
+
+\item For $w=w_1\cdots w_n\in S_n$ define the \emph{trace} of $w$, denoted $\tr(w)$, to be the sum of the positions of the descents of $w$.  An \emph{inversion} of $w$ is a pair $(i,j)$ such that $i<j$ and $w_i>w_j$. Define $\inv(w)$ to be the number of inversions of $w$.  Prove that
+\[
+\sum_{w\in S_n}t^{\tr(w)}=\sum_{w\in S_n}t^{\inv(w)}.
+\]
+
+%\item Determine whether trace yields either an Eulerian and Narayanan distribution (or possibly neither).
+
+\item The \emph{wicked awesome length} (WAL) of a permutation $w=w_1\cdots w_n\in S_n$ is the number of adjacent transpositions required to unscramble $w$ into the identity permutation $12\cdots n$. For example, $31542$ has WAL at most 5 since the permutation can be unscrambled in five moves as follows: $31542 \to 13542 \to 13524 \to 13254 \to 12354 \to 12345$. In fact, the WAL of 31542 is exactly 5.\begin{enumerate}
+\item[(a)]  Show that applying an adjacent transposition to a permutation either increases the number of transpositions by one, or decreases the number of transpositions by one.
+\item[(b)] Describe an unscrambling algorithm (using adjacent transpositions) that decreases the number of inversions after each swap.
+\item[(c)] Prove that the WAL of a permutation $w$ is equal to $\inv(w)$ (see Problem 3).
+\end{enumerate}
+
+\item Let $p(n,k)$ equal the number of ways of partitioning $[n]$ into $k$ blocks.  Prove that $p(n,k)=p(n-1,k-1)+k\cdot p(n-1,k)$ and determine the values of $n$ and $k$ for which this makes sense.
+
+\item Consider a circle with $2n$ fixed points on the circle.  Determine the number of ways of drawing $n$ nonintersecting chords (where each point is connected to exactly 1 chord).
+
+\item Determine the number of ways we can stack coins in the plane such that the bottom row consists of $n$ consecutive coins.  You should think of this as the two-dimensional version of stacking apples.  For example, here are all the ways to stack coins so that the bottom row has 3 coins.
+\begin{center}
+\includegraphics[width=4in]{coins.png}
+\end{center}
+
+
+\end{enumerate}
+
+\end{document}

@@ -29,10 +29,9 @@ Any relevant course materials will be posted here.
 ## Exams ##
 Below are links to the take-home portion of each exam.
 
-- Exam 1 (take-home). Coming soon.
+- [Exam 1 (take-home)]({{site.baseurl}}/teaching/mat526f16/526Exam1-Home.pdf) (PDF). If you are interested in using LaTeX to type up your solutions, then you can obtain the .tex file for the exam [here]({{site.baseurl}}/teaching/mat526f16/526Exam1-Home.tex). (Due Wednesday, October 12)
 
 <!--
-- [Exam 1 (take-home)]({{site.baseurl}}/teaching/mat526f16/612Exam1-Home.pdf) (PDF). If you are interested in using LaTeX to type up your solutions, then you can obtain the .tex file for the exam [here]({{site.baseurl}}/teaching/mat526f16/612Exam1-Home.tex). (Due Friday, March 4)
 - [Exam 2 (take-home)]({{site.baseurl}}/teaching/mat526f16/612Exam2-Home.pdf) (PDF). If you are interested in using LaTeX to type up your solutions, then you can obtain the .tex file for the exam [here]({{site.baseurl}}/teaching/mat526f16/612Exam2-Home.tex). (Due Friday, April 22)
 - [Exam 3 (take-home)]({{site.baseurl}}/teaching/mat526f16/612Exam3-Home.pdf) (PDF). If you are interested in using LaTeX to type up your solutions, then you can obtain the .tex file for the exam [here]({{site.baseurl}}/teaching/mat526f16/612Exam3-Home.tex). (Due by 5pm on Thursday, May 12)
 -->
