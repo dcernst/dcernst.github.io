@@ -78,79 +78,13 @@ We’ll use this page to keep track of what has happened each day in class. It w
 <ul class="fa-ul">
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, October 3:</b> After handing back the in-class portion of Exam 1 (I'm happy with how everyone did, by the way!), we picked up where we left off last week.  When all was said and done, we discussed 5.46-5.55.</li>
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, October 5:</b> The energy level was a bit low today, but I'm really happy with how things went.  SS1, LL, DJ, JM, HR, EB, and SC present 5.56(b), 5.56(c), 5.57, 5.61, 5.62, 5.63, and 5.64, respectively.  Along the way, I quickly addressed 5.58.</li>
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, October 7:</b> Coming soon.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, October 7:</b> Today was a good example of where we tried to do too much.  As a result, I think we missed out on an opportunity to resolve some confusion about subgroup lattices.  We had AO, JH, KS, DZ, JC, MR, and SS2 present 5.67, 5.68, 5.69, 5.70, 5.71, 5.72, and 5.73, respectively.  We will review a couple of these next time and hit up Theorem 5.66 and tackle Exercise 5.74 and Problem 5.75.</li>
 </ul>
-
-<!--
 
 ## Week 7 ##
 
 <ul class="fa-ul">
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, February 29:</b> I was a little out of it today, but had a lot of fun nonetheless.  Just like last time, we divided the class up into several small groups.  After the groups had a chance to work on their respective problems, I finally got around to discussing 5.56(d).  Next, KS walked us through 5.66, which was left over from last time.  The rest of the problems focused on subgroup lattices.  Problems 5.69, 5.70, 5.71, 5.72, 5.73, 5.74, and 5.76/5.77 were presented by GG, MT, SC, EO, RV, MT, and IA, respectively.  Along the way, I discussed 5.75.  Good day!</li>
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, March 2:</b> Class began with me summarizing the homomorphic property and what it means. Next, we divvied up the class into several small groups to discuss problems from the homework.  After a few minutes we started discussing each group's proposed solution.  We had AW, AH, CL, ES, and CM present 5.80, 5.81(a), 5.81(bc), 5.82, and 5.83, respectively.  We didn't get through all of the problems, so we will start with those next time.</li>
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, March 4:</b> We picked up where we left off.  LF, MN, RW, BA, and IA presented 5.84, 8.85, 5.87, and 5.89, respectively.  Along the way, I discussed 5.88.  This ticked off all the leftovers from last time and got us most of the way through the new problems.  I will discuss Problem 5.91 at the beginning of class next time.  We may end up skipping a discussion on Theorem 5.90.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, October 10:</b> Coming soon.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, October 12:</b> Coming soon.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, October 14:</b> Coming soon.</li>
 </ul>
-
-## Week 8 ##
-
-<ul class="fa-ul">
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, March 7:</b> Today began with me discussing which theorems at the end of Chapter 5 required the function to be an isomorphism.  We will return to this issue in a couple chapters.  Next, we split the class up into seven small groups, each of which was tasked with discussing a particular homework problem.  ER, GG and KF, AT, and AM1 presented 6.3/6.4(abcdef), 6.4(ghijk)/6.5, 6.6, and 6.7, respectively.  Unfortunately, we didn't get to 6.8, 6.9, 6.10, and 6.11, which we will try to squeeze in next time.</li>
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, March 9:</b> JK, AW, SC, ES, IA, and LF presented 6.8(b), 6.10, 6.11, 6.14, 6.16/6.17, and 6.18, respectively.  We'll do with 6.8(a) and 6.20 at the beginning of class next time.</li>
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, March 11:</b> We finally got to Theorem 6.8(a), which SW presented.  EO also presented 6.20, which was another left over.  After doing these problems, we split up into small groups to tackle most of the problems from homework.  We had MT, RV, RW, AM2, MT, and BS present 6.21, 6.23, 6.28, 6.29, 6.30, and 6.31, respectively.  We'd handle 6.24-6.27 after spring break.</li>
-</ul>
-
-## Week 9 ##
-
-<ul class="fa-ul">
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, March 21:</b> I spent the whole class lecturing.  I picked up where we left off and covered material in the notes up to and including Corollary 6.36.  We started discussing Theorem 6.37 but ran out of time.</li>
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, March 23:</b> After a quick chat about the upcoming exam, we divvied the class up into small groups to work on problems from the homework.  When we brought everyone back together, we had AM2, MN, KF, AT, NW, KG present 6.37, 6.38, 6.41, 6.40(a), 6.40(b), and 6.43, respectively.  Along the way, I discussed 6.39 and 6.42.  We'll wrap up 6.45, 6.46, 6.47, and 6.48 next time.</li>
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, March 25:</b> It was a fairly busy and action-packed class.  After some discussion about moving the exam to Wednesday, we jumped right into tackling the problems that were left over from last time.  After an involved discussion about 6.45, CS and AH presented 6.46 and 6.47, respectively.  Then we quickly dispensed with 6.48.  Next, we cranked through all of Section 6.2.  We had MT, CM, IA, JK, AM, RV, and SC present 6.50, 6.51, 6.52, 6.53(a), 6.53(b), 6.53(c), and 6.54, respectively.</li>
-</ul>
-
-## Week 10 ##
-
-<ul class="fa-ul">
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, March 28:</b> As usual, we split up into several small groups and after a short period of time, we regrouped to discuss what each group came up with.  We had NW, CL, KG, KS, CM, SC, MT, ER, AT, and BA present 6.56, 6.57, 6.59, 6.60, 6.61, 6.62, 6.63, 6.64, 6.65, and 6.66, respectively.  This was a nice set of problems to do just before the exam.  It seemed like no one had any difficulty.</li>
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, March 30:</b> The students took Exam 2.</li>
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, April 1:</b> I lectured over Section 6.3.  In particular, I discussed 6.67, 6.68, 6.69, 6.70, 6.76, and 6.77.</li>
-</ul>
-
-## Week 11 ##
-
-<ul class="fa-ul">
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, April 4:</b> I continued lecturing over Section 6.3 of the course notes.  We covered 6.71-6.75, 6.78, 6.79.</li>
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, April 6:</b> We accomplished a lot today! We had EO, CS, SC, AM1, ER, ES, and IA present 6.80, 6.81, 6.82, 6.83, 6.84, 6.85, and 6.86, respectively.</li>
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, April 8:</b> Another busy day.  We had AW, KG, MT, MN, CL, RW, AH, and BA present 6.92, 6.95, 6.96/6.97, 6.100, 6.101, 6.102, 6.103, 6.104, respectively.  As a class, we also discussed 6.98 and 6.105.  As promised, I will send you a write up of the proof of Lemma 6.91.</li>
-</ul>
-
-## Week 12 ##
-
-<ul class="fa-ul">
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, April 11:</b> After some discussion of Exam 2 and grades, I talked for a bit about cosets.  Along the way, I completed 7.2, 7.3, 7.5, 7.6, and 7.7.  We also had SC and ES show us 7.4(ab) and 7.4(cd), respectively.</li>
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, April 13:</b> After some discussion of cosets and Lagrange's Theorem, we launched into small groups discussing problems. We had KS, CL, IA, BS, MT, GG, RV, and AM2 present 7.8(1), 7.8(2), 7.8(3), 7.8(4), 7.18, 7.19, 7.21, and 7.22, respectively.  This is hard stuff and I'm really pleased with how things are going.</li>
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, April 15:</b> We had SW, NW, LF, BA, AW, CM, and AM1 present 7.25, 7.26(a), 7.26(b), 7.27, 7.29, 7.30, and 7.31, respectively.  We didn't quite finish 7.31, so we'll start with that next time.</li>
-</ul>
-
-## Week 13 ##
-
-<ul class="fa-ul">
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, April 18:</b> We kicked off with me walking through the proof of Theorem 7.31, which provides an alternative for checking whether a subgroup is normal.  Next, we split into small groups to discuss most of the problems due today.  We had MN, KF, AT, AH, and MT share their group's proposed solutions to 8.6, 8.7, 8.8, 8.13, and 8.15, respectively.  We still have 8.10, 8.11, 8.16, 8.17, and 8.18 as outstanding.</li>
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, April 20:</b> I was really impressed with how things went today.  After some discussion of 8.11 and 8.16, we split up into small groups as usual.  After a few minutes, we had ER, KF, HG, ES, EO, LF, and GG share solutions to 8.17, 8.18, 8.19, 8.20, 8.21, 8.22, and 8.25, respectively.  Theorem 8.10 is still outstanding, but we will tackle it on Friday.</li>
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, April 22:</b> We finally wrote down a proof of Theorem 8.10 and then I lectured over quotient groups.</li>
-</ul>
-
-## Week 14 ##
-
-<ul class="fa-ul">
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, April 25:</b> The students took the in-class portion of Exam 3.</li>
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, April 27:</b> At lightning speed, I lectured over Chapter 9: Homomorphisms and the First Isomorphism Theorems.</li>
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, April 29:</b> One of our best days!  AM2, GG, EO, AM1, and CS presented 9.14/9.21, 9.15, 9.16, 9.22, and 9.23, respectively.  There are a few problems we didn't get to, but the conversations we had on the ones we did definitely made up for it.</li>
-</ul>
-
-## Week 15 ##
-
-<ul class="fa-ul">
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, May 2:</b> Our first day of discussing rings.  We were a bit all over the place, but I think folks learned a few things nonetheless.  We had CS, AH, SW, and JK discuss 10.8/10.15/10.16, 10.10, 10.17, and 10.18 respectively.</li>
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, May 4:</b> After handing back the take-home portion of Exam 3, I lectured over 10.10, 10.25, 10.31, and 10.37.  We will do more of the same next time.</li>
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, May 6:</b> Last day of class!  I'm going to miss this group of students.  After spending a little bit of time reflecting on the semester, I lectured (rather quickly) over the remaining content in Chapter 10.</li>
-</ul> -->
