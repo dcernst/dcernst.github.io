@@ -55,8 +55,6 @@ We’ll use this page to keep track of what has happened each day in class. It w
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, September 16:</b> Great day and one of my favorite topics!  After a quick summary of how to verify that two groups are or are not isomorphic using Cayley diagrams, we split up into 6 small groups.  I presented 4.19 and 4.20 and then we had DZ, HR, KE, SM, AO, and ZP discuss 4.21, 4.22, 4.23, 4.24, 4.25, and 4.26, respectively.</li>
 </ul>
 
-
-
 ## Week 4 ##
 
 <ul class="fa-ul">
@@ -84,7 +82,7 @@ We’ll use this page to keep track of what has happened each day in class. It w
 ## Week 7 ##
 
 <ul class="fa-ul">
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, October 10:</b> Coming soon.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, October 10:</b> After proving Theorem 5.66 as a class, AT did a quick presentation of 5.74, which was left over from last time.  Then we quickly discussed 5.75 and 5.78.  The remainder of class was spent discussing the formal definition of isomorphism and the homomorphic property.  We wrapped up class by doing 5.81 as a class.</li>
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, October 12:</b> Coming soon.</li>
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, October 14:</b> Coming soon.</li>
 </ul>
