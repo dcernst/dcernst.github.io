@@ -83,6 +83,6 @@ We’ll use this page to keep track of what has happened each day in class. It w
 
 <ul class="fa-ul">
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, October 10:</b> After proving Theorem 5.66 as a class, AT did a quick presentation of 5.74, which was left over from last time.  Then we quickly discussed 5.75 and 5.78.  The remainder of class was spent discussing the formal definition of isomorphism and the homomorphic property.  We wrapped up class by doing 5.81 as a class.</li>
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, October 12:</b> Coming soon.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, October 12:</b> We cranked out a bunch of proofs today.  I was really happy with the proofs that were presented, as well as the discussion around each problem.  We had LL, PM, AT, JS, BG, and LG present 5.80, 5.82, 5.83, 5.84, 5.86, and 5.87, respectively.</li>
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, October 14:</b> Coming soon.</li>
 </ul>
