@@ -25,6 +25,7 @@ Any relevant course materials will be posted here.
 
 - You can find the current errata for the book [here](http://math.depaul.edu/tpeter21/Errata.pdf) (PDF).
 - Zach's work for SP3 can be found [here]({{site.baseurl}}/teaching/mat526f16/ZachParker-SP3.pdf) (PDF).
+- Jimie's work for SP4 can be found [here]({{site.baseurl}}/teaching/mat526f16/JimieHorath-SP4.pdf) (JPG).
 
 ## Exams ##
 Below are links to the take-home portion of each exam.
