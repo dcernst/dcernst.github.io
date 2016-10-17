@@ -91,7 +91,7 @@ We’ll use this page to keep track of what has happened each day in class. It w
 ## Week 8 ##
 
 <ul class="fa-ul">
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, October 17:</b> Coming soon.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, October 17:</b> After groups had an opportunity to discuss problems, we had MR, JK, EB, and JC present 6.5/6.6, 6.11, 6.12, and 6.14, respectively.  With the time we had left, we had JM and KS/JS discuss 6.8 and 6.9(a), respectively.  Theorem 6.9(b) and Corollary 6.10 are still open.</li>
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, October 19:</b> Coming soon.</li>
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, October 21:</b> Coming soon.</li>
 </ul>
