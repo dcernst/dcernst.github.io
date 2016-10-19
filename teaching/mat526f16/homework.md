@@ -32,6 +32,7 @@ Here are the assignments.  I will post them as we go.
   <li><i class="fa fa-pencil-square-o"></i> <b>Homework 4:</b> Choose 3 from 2.1, 2.2, 2.3, and 2.6. (Due Wednesday, September 29)</li>
   <li><i class="fa fa-pencil-square-o"></i> <b>Homework 5:</b> Complete 2.4, 2.7, 2.8. (Due Wednesday, October 5)</li>
   <li><i class="fa fa-pencil-square-o"></i> <b>Homework 6:</b> Choose 2 from 3.1, 3.2(parts 3 and 6), 3.4(part 1), 3.5 and also complete 3.6. (Due Wednesday, October 19)</li>
+  <li><i class="fa fa-pencil-square-o"></i> <b>Homework 7:</b> Complete any 2 of 3.8, 3.9, 3.10, 3.11 (Due Wednesday, October 26)</li>
 </ul>
 
 <!--
