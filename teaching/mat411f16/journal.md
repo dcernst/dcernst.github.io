@@ -93,5 +93,13 @@ We’ll use this page to keep track of what has happened each day in class. It w
 <ul class="fa-ul">
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, October 17:</b> After groups had an opportunity to discuss problems, we had MR, JK, EB, and JC present 6.5/6.6, 6.11, 6.12, and 6.14, respectively.  With the time we had left, we had JM and KS/JS discuss 6.8 and 6.9(a), respectively.  Theorem 6.9(b) and Corollary 6.10 are still open.</li>
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, October 19:</b> Today went way better than expected.  We had SC/KE, LG, BG, DJ, SM, AN, and SS1 present 6.15, 6.16, 6.17/6.19, 6.20, 6.21, and 6.23, respectively.</li>
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, October 21:</b> Coming soon.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, October 21:</b> After discussing 6.26 and 6.27 together, we had HR, AN, PM, JH, SS2, BG, and JK present 6.28, 6.29, 6.30, 6.31, 6.32, 6.33, and 6.36, respectively.  We will kick off with 6.35 next time.</li>
+</ul>
+
+## Week 9 ##
+
+<ul class="fa-ul">
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, October 24:</b> Coming soon.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, October 26:</b> The students took the in-class portion of Exam 2.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, October 28:</b> Coming soon.</li>
 </ul>
