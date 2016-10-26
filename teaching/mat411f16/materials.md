@@ -94,7 +94,12 @@ I will not be covering every detail of the notes and the only way to achieve a s
 Below are links to each exam.
 
 - [Exam 1 (take-home)]({{site.baseurl}}/teaching/mat411f16/411Exam1-Home.pdf) (PDF). If you are interested in using LaTeX to type up your solutions, contact me and I will send you a link to the source file of the exam. (Due Monday, October 3)
-- Exam 2 (take-home). Coming soon.
+- [Exam 2 (take-home)]({{site.baseurl}}/teaching/mat411f16/411Exam2-Home.pdf) (PDF). If you are interested in using LaTeX to type up your solutions, contact me and I will send you a link to the source file of the exam. For the last question, you will need the following pictures of quilts that correspond to group tables for groups of order 8. (Due Monday, October 31)
+    - [Quilt 1]({{site.baseurl}}/teaching/mat411f16/Quilt1.JPG)
+    - [Quilt 2]({{site.baseurl}}/teaching/mat411f16/Quilt2.JPG)
+    - [Quilt 3]({{site.baseurl}}/teaching/mat411f16/Quilt3.JPG)
+    - [Quilt 4]({{site.baseurl}}/teaching/mat411f16/Quilt4.JPG)
+    - [Quilt 5]({{site.baseurl}}/teaching/mat411f16/Quilt5.JPG)
 - Exam 3 (take-home). Coming soon.
 - Final Exam (take-home). Coming soon.
 
