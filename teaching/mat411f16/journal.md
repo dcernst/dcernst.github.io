@@ -101,5 +101,13 @@ We’ll use this page to keep track of what has happened each day in class. It w
 <ul class="fa-ul">
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, October 24:</b> We kicked off with me proving Theorem 6.35.  Next, AN , JS, SS1, and HR tackled 6.38, 6.39, 6.41, and 6.42, respectively.  Along the way, KS attempted to address a question in the notes prior to Theorem 6.40.  We did not get to 6.37, 6.40, 6.43, and 6.44.  We'll address these on Friday.</li>
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, October 26:</b> The students took the in-class portion of Exam 2.</li>
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, October 28:</b> Coming soon.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, October 28:</b> After handing back the in-class portion of Exam 2, I picked up where we left off in the notes and lectured over some new material.  We covered 6.37, 6.40, and 6.44, which were left over from Monday.</li>
+</ul>
+
+## Week 10 ##
+
+<ul class="fa-ul">
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, October 31:</b> Coming soon.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, November 2:</b> Coming soon.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, November 4:</b> Coming soon.</li>
 </ul>
