@@ -107,7 +107,7 @@ We’ll use this page to keep track of what has happened each day in class. It w
 ## Week 10 ##
 
 <ul class="fa-ul">
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, October 31:</b> Coming soon.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, October 31:</b> I continued lecturing over Chapter 6.  We covered 6.45, 6.48, 6.50, 6.51, and most of 6.52.  I'll wrap up the last bit of 6.52 next time.</li>
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, November 2:</b> Coming soon.</li>
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, November 4:</b> Coming soon.</li>
 </ul>
