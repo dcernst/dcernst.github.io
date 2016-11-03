@@ -108,6 +108,6 @@ We’ll use this page to keep track of what has happened each day in class. It w
 
 <ul class="fa-ul">
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, October 31:</b> I continued lecturing over Chapter 6.  We covered 6.45, 6.48, 6.50, 6.51, and most of 6.52.  I'll wrap up the last bit of 6.52 next time.</li>
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, November 2:</b> Coming soon.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, November 2:</b> We kicked off by finishing up Theorem 6.52 and then sketched proofs for all four parts of Theorem 6.53. From there we moved into Section 6.3.  We had AT, AN, BG, JC, and SC present 6.56/6.57, 6.59, 6.60, 6.61, and 6.63, respectively.  With the time we had left, we discussed 6.54 and 6.64.</li>
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, November 4:</b> Coming soon.</li>
 </ul>
