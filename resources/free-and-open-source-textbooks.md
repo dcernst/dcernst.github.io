@@ -31,6 +31,7 @@ Here is a (partial) list of free and/or open-source textbooks. If you find one o
 
 ### Discrete Mathematics ###
 
+  * [Discrete Mathematics: An Open Introduction](http://discretetext.oscarlevin.com/home.php) by [Oscar Levin](http://math.oscarlevin.com/home.php) (University of Northern Colorado) is a free, open-source textbook appropriate for a first or second year undergraduate course for math majors. There is a really nice interactive [ebook version](http://discretetext.oscarlevin.com/dmoi/dmoi.html).
   * [Applied Discrete Structures](http://faculty.uml.edu/klevasseur/ads2/) by [Al Doerr](http://faculty.uml.edu/math/faculty/doerr.htm) (UMass Lowell) and [Kenneth M. Levasseur](http://faculty.uml.edu/klevasseur/) (UMass Lowell).
 
 ### Introduction to Proof
