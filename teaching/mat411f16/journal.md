@@ -115,7 +115,7 @@ We’ll use this page to keep track of what has happened each day in class. It w
 ## Week 11 ##
 
 <ul class="fa-ul">
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, November 7:</b> Coming soon.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, November 7:</b>  After handing back the take-home portion of Exam 2, we divided up into small groups to tackle the day's problems.  SS2, AT, HR, DZ, SM, and AN presented 6.74, 7.73/6.75, 6.77, 6.80, and 6.81, respectively.  Officially, 6.81 didn't get presented by AN, but the answer was correct and I gave her credit for it.</li>
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, November 9:</b> Coming soon.</li>
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, November 11:</b> Coming soon.</li>
 </ul>
