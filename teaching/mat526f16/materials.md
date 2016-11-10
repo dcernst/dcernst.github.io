@@ -26,7 +26,7 @@ Any relevant course materials will be posted here.
 - You can find the current errata for the book [here](http://math.depaul.edu/tpeter21/Errata.pdf) (PDF).
 - Zach's work for SP3 can be found [here]({{site.baseurl}}/teaching/mat526f16/ZachParker-SP3.pdf) (PDF).
 - Jimie's work for SP4 can be found [here]({{site.baseurl}}/teaching/mat526f16/JimieHorath-SP4.JPG) (JPG).
-- Click "Evaluate" on the [SageMathCell](https://sagecell.sagemath.org) below to check out the hyperplane arrangement $\mathcal{H}(3)$. The hyperplanes $H_{1,2}, H_{1,3}, H_{2,3}$ have been colored red, green, and blue, respectively.  The plane $x+y+z=0$ is also included and is colored purple. In addition, I've included the vector $(1,2,3)$ in orange to illustrate where the chamber corresponding to the intersection of the three positive half-spaces lies.
+- Click "Evaluate" on the [SageMathCell](https://sagecell.sagemath.org) below to check out the hyperplane arrangement $\mathcal{H}(3)$. The hyperplanes $H_{1,2}, H_{1,3}, H_{2,3}$ have been colored red, green, and blue, respectively.  The plane $x+y+z=0$ is also included and is colored purple. In addition, I've included the vector $(1,2,3)$ in orange to illustrate where the chamber corresponding to the intersection of the three positive half-spaces lies. After evaluating the cell, it may take a few seconds for the image to render.  You can click and drag the image to move it around and you can zoom in and out.
 
 <div class="sage">
 <script type="text/x-sage">
