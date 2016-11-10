@@ -35,6 +35,8 @@ Here are the assignments.  I will post them as we go.
   <li><i class="fa fa-pencil-square-o"></i> <b>Homework 7:</b> Complete any 2 of 3.8, 3.9, 3.10, 3.11 (Due Wednesday, October 26)</li>
   <li><i class="fa fa-pencil-square-o"></i> <b>Homework 8:</b> Complete 5.1 and 5.5 (skip last part about weak order). (Due Wednesday, November 2)</li>
   <li><i class="fa fa-pencil-square-o"></i> <b>Homework 9:</b> Complete 5.7 and 5.6 (in either order). (Due Wednesday, November 9)</li>
+  <li><i class="fa fa-pencil-square-o"></i> <b>Homework 10:</b> Complete 5.2 and 5.3. (Due Wednesday, November 16)</li>
+
 </ul>
 
 <!--
