@@ -26,6 +26,11 @@ Any relevant course materials will be posted here.
 - You can find the current errata for the book [here](http://math.depaul.edu/tpeter21/Errata.pdf) (PDF).
 - Zach's work for SP3 can be found [here]({{site.baseurl}}/teaching/mat526f16/ZachParker-SP3.pdf) (PDF).
 - Jimie's work for SP4 can be found [here]({{site.baseurl}}/teaching/mat526f16/JimieHorath-SP4.JPG) (JPG).
+- Click "Evaluate" on the [Sage Cell](https://sagecell.sagemath.org) below to check out the hyperplane arrangement $\mathcal{H}(3)$.
+
+<div class="sage">
+  <script type="text/x-sage">1+2</script>
+</div>
 
 ## Exams ##
 Below are links to the take-home portion of each exam.
