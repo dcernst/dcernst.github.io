@@ -124,6 +124,6 @@ We’ll use this page to keep track of what has happened each day in class. It w
 
 <ul class="fa-ul">
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, November 15:</b> We spent a good chunk of time proving Lemma 6.91.  After that, BG volunteered to prove Theorem 6.92. With the time we had left, we discussed 6.96, 6.97, and 6.98 as a class. We also briefly sketched a proof of Theorem 6.100.</li>
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, November 17:</b> Coming soon.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, November 17:</b> The first few minutes was devoted to discussing cosets.  In particular, we discussed 7.5. After that we had LG, DZ, MR, JH, EB, and JK present 6.100, 6.101, 6.104, 6.105, 7.2, and 7.3, respectively.  I gave AT credit for 7.4 even though we ran out of time.</li>
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, November 19:</b> Coming soon.</li>
 </ul>
