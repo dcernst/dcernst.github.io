@@ -44,3 +44,4 @@ plot(H12,color='red',opacity=0.5)+plot(H13,color="green",opacity=0.5)+plot(H23,o
 Below are links to the take-home portion of each exam.
 
 - [Exam 1 (take-home)]({{site.baseurl}}/teaching/mat526f16/526Exam1-Home.pdf) (PDF). If you are interested in using LaTeX to type up your solutions, then you can obtain the .tex file for the exam [here]({{site.baseurl}}/teaching/mat526f16/526Exam1-Home.tex). (Due Wednesday, October 12)
+- [Exam 2 (take-home)]({{site.baseurl}}/teaching/mat526f16/526Exam2-Home.pdf) (PDF). If you are interested in using LaTeX to type up your solutions, then you can obtain the .tex file for the exam [here]({{site.baseurl}}/teaching/mat526f16/526Exam2-Home.tex). (Due Wednesday, November 23)

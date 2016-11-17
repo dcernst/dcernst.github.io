@@ -1,0 +1,206 @@
+\documentclass[11pt]{scrartcl}
+
+\usepackage[scale=1.5]{ccicons}
+\usepackage[notextcomp]{kpfonts}
+\usepackage{multicol}
+\usepackage{url}
+\usepackage{array}
+\usepackage{multicol}
+\usepackage{tabu}
+\usepackage{tikz}
+\usetikzlibrary{arrows,automata,positioning}
+\usetikzlibrary{shapes.geometric}
+\usetikzlibrary{calc}
+\usetikzlibrary{scopes}
+\usepackage{mathdots}
+\usepackage{fancyhdr}
+\usepackage[margin=1in]{geometry}
+\usepackage[hang,flushmargin,symbol*]{footmisc}
+\usepackage{amsmath}
+\usepackage{amsthm}
+\usepackage{amssymb}
+\usepackage{mathtools}
+\usepackage{enumitem}
+\usepackage{graphicx}
+\usepackage{color}
+\definecolor{darkblue}{rgb}{0, 0, .6}
+\definecolor{grey}{rgb}{.7, .7, .7}
+\usepackage[breaklinks]{hyperref}
+
+\theoremstyle{definition} 
+\newtheorem{theorem}{Theorem}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{claim}[theorem]{Claim}
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{conjecture}[theorem]{Conjecture}
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{example}[theorem]{Example}
+\newtheorem{remark}[theorem]{Remark}
+\newtheorem{important}[theorem]{Important Note}
+\newtheorem{recall}[theorem]{Recall}
+\newtheorem{note}[theorem]{Note}
+\newtheorem{question}[theorem]{Question}
+\newtheorem*{definition*}{Definition}
+
+\newcommand{\ds}{\displaystyle}
+\newcommand{\lcm}{\operatorname{lcm}}
+\newcommand{\Rng}{\operatorname{Rng}}
+\newcommand{\tr}{\operatorname{tr}}
+\newcommand{\inv}{\operatorname{inv}}
+\newcommand{\Des}{\operatorname{Des}}
+
+\setlength{\parindent}{0pt}
+\setlength{\fboxsep}{10pt}
+
+%%%%%%Header/Footer%%%%%%%
+
+\pagestyle{fancy}
+
+\lhead{MAT 526 - Fall 2016}
+\chead{}
+\rhead{Exam 2 (Take-home portion)}
+\lfoot{\scriptsize This work is licensed under the \href{https://creativecommons.org/licenses/by-sa/4.0/}{Creative Commons Attribution-Share Alike 4.0 License}.} 
+\cfoot{}
+\rfoot{\ccbysa}
+\renewcommand{\headrulewidth}{.4pt}
+\renewcommand{\footrulewidth}{.4pt}
+
+%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+\begin{center}
+
+  \fbox{\parbox{6in}{
+    \vspace{5pt}
+    \textbf{\large Your Name:}
+    \vspace{5pt}
+  }}
+  
+  \bigskip
+  
+  \fbox{\parbox{6in}{
+    \vspace{5pt}
+    \textbf{\large Names of Any Collaborators:}
+    \vspace{5pt}
+  }}
+
+\end{center}
+
+\section*{Instructions}
+
+This portion of Exam 1 is worth a total of 32 points and is due at the beginning of class on \textbf{Wednesday, November 23}.  Your total combined score on the in-class portion and take-home portion is worth 20\% of your overall grade.  
+
+\bigskip
+
+I expect your solutions to be \emph{well-written, neat, and organized}.  Do not turn in rough drafts.  What you turn in should be the ``polished'' version of potentially several drafts.  
+ 
+\bigskip
+
+Feel free to type up your final version.  The \LaTeX\ source file of this exam is also available if you are interested in typing up your solutions using \LaTeX.  I'll gladly help you do this if you'd like.
+
+\bigskip
+
+The simple rules for the exam are:
+
+\begin{enumerate}
+\item You may freely use any results that we have discussed in class, but you should make it clear where you are using a previous result and which result you are using.  For example, if a sentence in your proof follows from Proposition xyz, then you should say so. 
+\item Unless you prove them, you cannot use any results that we have not yet covered.
+\item You are \textbf{NOT} allowed to consult external sources when working on the exam.  This includes people outside of the class, other textbooks, and online resources.
+\item You are \textbf{NOT} allowed to copy someone else's work.
+\item You are \textbf{NOT} allowed to let someone else copy your work.
+\item You are allowed to discuss the problems with each other and critique each other's work.
+\end{enumerate}
+
+\begin{center}
+\textbf{I will vigorously pursue anyone suspected of breaking these rules.}
+\end{center}
+
+\bigskip
+
+You should \textbf{turn in this cover page} and all of the work that you have decided to submit. \textbf{Please write your solutions and proofs on your own paper.}
+
+\bigskip
+
+To convince me that you have read and understand the instructions, sign in the box below.
+
+\bigskip
+
+  \fbox{\parbox{6in}{
+    \vspace{5pt}
+    \textbf{\large Signature:} \hfill
+    \vspace{5pt}
+  }}
+
+\bigskip
+
+Good luck and have fun!
+
+\newpage
+
+Complete any \textbf{FOUR} of following problems.  Each problem is worth 8 points. Write your solutions on your own paper and please put the problems in order.
+
+\begin{enumerate}
+
+\item Let $s\in S_n$. Prove that $\Des(w)=\{1\leq i\leq n-1\mid \ell(w)>\ell(ws_i)\}$, where $\ell(x)$ denotes the adjacent sorting length (i.e., wicked awesome length) of a permutation $x$ as described in Problem 5.5.
+
+\item Problem 3 on the take-home portion of Exam 1 defined the trace of a permutation $w$, denoted $\tr(w)$, to be the sum of the positions of the descents of $w$. Count the number of permutations in $S_n$ that have trace equal to $k$.
+
+\item Recall the definition of parking function given in Problem 3.9.  A parking function $(a_1,a_2,\cdots,a_n)$ is called an \emph{increasing} if $a_i\leq a_{i+1}$ for $1\leq i\leq n-1$. Count the number of increasing parking functions of length $n$.
+
+\item Find the number of linear extensions of the following poset on $\{1,2,\ldots,n\}$.
+
+\bigskip
+
+\tikzstyle{vert} = [circle, draw, fill=grey,inner sep=0pt, minimum size=7mm]
+\tikzstyle{b} = [draw, very thick, black,-]
+
+\begin{center}
+\begin{tikzpicture}[scale=1.5,auto]
+\node (1) at (1,0) [vert] {\scriptsize $1$};
+\node (2) at (0,1) [vert] {\scriptsize $2$};
+\node (3) at (2,1) [vert] {\scriptsize $3$};
+\node (4) at (1,2) [vert] {\scriptsize $4$};
+\node (5) at (3,2) [vert] {\scriptsize $5$};
+\node (6) at (2,3) [vert] {\scriptsize $6$};
+\node at (3,3) {$\iddots$};
+\node (n-2) at (3,4) [vert] {\scriptsize $n-1$};
+\node (n-3) at (4,3) [vert] {\scriptsize $n-3$};
+\node (n-1) at (5,4) [vert] {\scriptsize $n-1$};
+\node (n) at (4,5) [vert] {\scriptsize $n$};
+\path [b] (1) to (2);
+\path [b] (1) to (3);
+\path [b] (2) to (4);
+\path [b] (3) to (4);
+\path [b] (4) to (6);
+\path [b] (3) to (5);
+\path [b] (5) to (6);
+\path [b] (n-3) to (n-2);
+\path [b] (n-3) to (n-1);
+\path [b] (n-2) to (n);
+\path [b] (n-1) to (n);
+\end{tikzpicture}
+\end{center}
+
+\item Let $\mathcal{C}$ be the set of chambers for the braid arrangement $\mathcal{H}(n)$.  Let $C_0$ denote the chamber that satisfies $x_1<x_2<\cdots <x_n$ (i.e., $C_0$ is the chamber with sign vector $(+,+,\ldots,+)$). For a chamber $C\in\mathcal{C}$, let $d(C)$ equal the number of hyperplanes crossed by any line segment joining a point in $C_0$ to a point in $C$.  You may assume this definition is well-defined (i.e., independent of choice of points). Prove that
+\[
+\sum_{C\in \mathcal{C}}q^{d(C)}=I_n(q).
+\]
+
+\item (Hanoi Solitaire) Consider a deck of $n$ cards labeled $1,2,\ldots, n$. An arrangement of the cards is denoted $c_1c_2\cdots c_n$, where $c_1$ is the number corresponding to the top card and $c_n$ is the number corresponding to the bottom card.  We now describe a type of solitaire involving three piles of cards. Our starting configuration is an empty left pile, $c_1c_2\cdots c_n$ in the middle, and an empty right pile. We then employ the following algorithm:
+\begin{enumerate}
+\item[(1)] Move the current top card $c_i$ of the middle pile to the top of the left pile if the left pile is empty or if $c_i$ is smaller than the current top card $c_j$ of the left pile.
+\item[(2)] Otherwise, move the top card $c_j$ from the left pile to the bottom of the right pile. 
+\end{enumerate}
+Repeat until the left pile and middle pile are empty. Let $h(c_1c_2\cdots c_n)$ denote the final arrangement of the cards in the right pile.  We say that $c_1c_2\cdots c_n$ is a \emph{winning arrangement} if $h(c_1c_2\cdots c_n)=12\cdots n$, and otherwise, $c_1c_2\cdots c_n$ is called a \emph{losing arrangement}.
+\begin{enumerate}
+\item[(a)] Suppose $n$ is the $i$th card. Prove that 
+\[
+h(c_1\cdots c_{i-1}nc_{i+1}\cdots c_n)=h(c_1\cdots c_{i-1})h(c_{i+1}\cdots c_n)n.
+\]
+\item[(b)] How many winning arrangements of $n$ cards are there?
+\end{enumerate}
+
+\end{enumerate}
+
+\end{document}
