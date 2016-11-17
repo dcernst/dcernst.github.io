@@ -48,6 +48,7 @@
 \newcommand{\tr}{\operatorname{tr}}
 \newcommand{\inv}{\operatorname{inv}}
 \newcommand{\Des}{\operatorname{Des}}
+\newcommand{\Wk}{\operatorname{Wk}}
 
 \setlength{\parindent}{0pt}
 \setlength{\fboxsep}{10pt}
@@ -142,13 +143,13 @@ Complete any \textbf{FOUR} of following problems.  Each problem is worth 8 point
 
 \begin{enumerate}
 
-\item Let $s\in S_n$. Prove that $\Des(w)=\{1\leq i\leq n-1\mid \ell(w)>\ell(ws_i)\}$, where $\ell(x)$ denotes the adjacent sorting length (i.e., wicked awesome length) of a permutation $x$ as described in Problem 5.5.
+\item Let $w\in S_n$. Prove that $i\in \Des(w)$ iff $ws_i\leq_{\Wk^r}w$ is a covering relation in the right weak order of $S_n$.
 
 \item Problem 3 on the take-home portion of Exam 1 defined the trace of a permutation $w$, denoted $\tr(w)$, to be the sum of the positions of the descents of $w$. Count the number of permutations in $S_n$ that have trace equal to $k$.
 
 \item Recall the definition of parking function given in Problem 3.9.  A parking function $(a_1,a_2,\cdots,a_n)$ is called an \emph{increasing} if $a_i\leq a_{i+1}$ for $1\leq i\leq n-1$. Count the number of increasing parking functions of length $n$.
 
-\item Find the number of linear extensions of the following poset on $\{1,2,\ldots,n\}$.
+\item Find the number of linear extensions of the following poset on $\{1,2,\ldots,n\}$ for $n$ even.
 
 \bigskip
 
