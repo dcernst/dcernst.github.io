@@ -62,6 +62,7 @@ The following assignments are to be turned in at the end of the indicated class 
 - **Daily Homework 28:** Complete 6.92, 6.94-6.98, 6.100-6.105 in [Chapter 6: Families of Groups]({{site.baseurl}}/teaching/mat411f16/Families.pdf) and digest the surrounding text along the way. (Due Monday, November 14)
 - **Daily Homework 29:** Complete 7.2-7.5 in [Chapter 7: Cosets, Lagrange's Theorem, and Normal Subgroups]({{site.baseurl}}/teaching/mat411f16/CosetsLagrangeNormal.pdf) and digest the surrounding text along the way. (Due Wednesday, November 16)
 - **Daily Homework 30:** Complete 7.6-7.8, 7.15, 7.18, 7.19, 7.21, 7.22 in [Chapter 7: Cosets, Lagrange's Theorem, and Normal Subgroups]({{site.baseurl}}/teaching/mat411f16/CosetsLagrangeNormal.pdf) and digest the surrounding text along the way. In particular, you should recognize the several of the problems that I didn't assign from the take-home portion of Exam 2. Feel free to use these results. (Due Friday, November 18)
+- **Daily Homework 31:** Complete 7.24-7.31, 7.33-7.36 in [Chapter 7: Cosets, Lagrange's Theorem, and Normal Subgroups]({{site.baseurl}}/teaching/mat411f16/CosetsLagrangeNormal.pdf) and digest the surrounding text along the way.  (Due Monday, November 21)
 
 <!--
 - **Daily Homework 27:** Complete 7.2-7.8, 7.15 in [Chapter 7: Cosets, Lagrange's Theorem, and Normal Subgroups]({{site.baseurl}}/teaching/mat411f16/CosetsLagrangeNormal.pdf) and along the way read through 7.9-7.14 (these should look familiar from the take-home portion of Exam 2). (Due Monday, April 11)
@@ -89,6 +90,7 @@ In addition to the Daily Homework, we will also have Weekly Homework assignments
 - **Weekly Homework 4:**  Prove **two** of Theorems 5.29, 5.30, 5.35, 5.63. (Due Tuesday, October 11 by 8PM)
 - **Weekly Homework 5:**  Prove **two** of Theorems 5.83-5.89. (Due Tuesday, October 18 by 8PM)
 - **Weekly Homework 6:**  Prove **two** of Theorems 6.8 6.20, 6.35, 6.37, 6.40(a). (Due Tuesday, November 8 by 8PM)
+- **Weekly Homework 7:**  Prove **two** of Theorems 6.70, 6.71, 6.87, 6.92. (Due Tuesday, November 22 by 8PM)
 
 <!-- - **Weekly Homework 1:** Prove **two** of Theorem A.43, Theorem A.44, Theorem A.75, or Theorem A.81 from [Appendix A]({{site.baseurl}}/teaching/mat411f16/Prerequisites.pdf). In addition, write up a solution to **one** of Exercise 2.13 or Exercise 2.19.  *Note:* For the problems coming from Appendix A, you are welcome to consult external resources. (Due Tuesday, February 2 by 8PM)
 - **Weekly Homework 2:** Complete each of the following tasks. You are required to type your proofs using LaTeX.  You should email me the PDF of your completed work or turn in a hardcopy. (Due Tuesday, February 9 by 8PM)
