@@ -123,7 +123,31 @@ We’ll use this page to keep track of what has happened each day in class. It w
 ## Week 12 ##
 
 <ul class="fa-ul">
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, November 15:</b> We spent a good chunk of time proving Lemma 6.91.  After that, BG volunteered to prove Theorem 6.92. With the time we had left, we discussed 6.96, 6.97, and 6.98 as a class. We also briefly sketched a proof of Theorem 6.100.</li>
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, November 17:</b> The first few minutes was devoted to discussing cosets.  In particular, we discussed 7.5. After that we had LG, DZ, MR, JH, EB, and JK present 6.100, 6.101, 6.104, 6.105, 7.2, and 7.3, respectively.  I gave AT credit for 7.4 even though we ran out of time.</li>
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, November 19:</b> Coming soon.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, November 14:</b> We spent a good chunk of time proving Lemma 6.91.  After that, BG volunteered to prove Theorem 6.92. With the time we had left, we discussed 6.96, 6.97, and 6.98 as a class. We also briefly sketched a proof of Theorem 6.100.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, November 16:</b> The first few minutes was devoted to discussing cosets.  In particular, we discussed 7.5. After that we had LG, DZ, MR, JH, EB, and JK present 6.100, 6.101, 6.104, 6.105, 7.2, and 7.3, respectively.  I gave AT credit for 7.4 even though we ran out of time.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, November 18:</b> Despite several absences, today was a great day and is another illustration of why I truly believe in the IBL framework.  Awesome stuff! We had BG, JH, JS, JC, JK, LG, and PM present 7.6, 7.7, 7.8(1), 7.8(2), 7.8(3), 7.8(4), 7.18, and 7.21/7.22, respectively.  Along the way, we discussed 7.15 and 7.19.</li>
+</ul>
+
+## Week 13 ##
+
+<ul class="fa-ul">
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, November 21:</b> Coming soon.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, November 23:</b> Coming soon.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, November 25:</b> No classes, Thanksgiving Holiday.</li>
+</ul>
+
+## Week 14 ##
+
+<ul class="fa-ul">
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, November 28:</b> Coming soon.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, November 20:</b> Students took the in-class portion of Exam 3.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, December 1:</b> Coming soon.</li>
+</ul>
+
+## Week 15 ##
+
+<ul class="fa-ul">
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, December 4:</b> Coming soon.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, December 6:</b> Coming soon.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, 8:</b> Coming soon.</li>
 </ul>
