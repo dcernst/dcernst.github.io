@@ -17,6 +17,7 @@ The resources listed below are intended for both students and teachers. For a li
   * [MIT OpenCourseWare][3]
   * [Sage][4]
   * [The Sage Math Cloud][5]
+  * [Group Tables and Subgroup Diagrams](http://hobbes.la.asu.edu/groups/groups.html) by [Jon Jones](http://hobbes.la.asu.edu/contact.html).
   * [GeoGebra][6]
   * [Group Explorer][7]
   * [Remind101][8]
@@ -60,6 +61,7 @@ Below is a partial list of links to applets and video repositories related to ca
 
 ## Some Teaching-Oriented Blogs Worth Reading
 
+  * [Teaching Tidbits](http://maateachingtidbits.blogspot.com) by Jessica Deshler, Rachel Levy, Lew Ludwig, Rejoice Mudzimiri, Julie Phelps, and me. Sponsored by the [Mathematical Association of America][39].
   * [Math Ed Matters][38] by Angie Hodge and me. Sponsored by the [Mathematical Association of America][39].
   * [The IBL Blog][40] by Stan Yoshinobu.
   * [The Math Switch][41] by Matthew Jones.
