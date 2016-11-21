@@ -63,7 +63,7 @@ The following assignments are to be turned in at the end of the indicated class 
 - **Daily Homework 29:** Complete 7.2-7.5 in [Chapter 7: Cosets, Lagrange's Theorem, and Normal Subgroups]({{site.baseurl}}/teaching/mat411f16/CosetsLagrangeNormal.pdf) and digest the surrounding text along the way. (Due Wednesday, November 16)
 - **Daily Homework 30:** Complete 7.6-7.8, 7.15, 7.18, 7.19, 7.21, 7.22 in [Chapter 7: Cosets, Lagrange's Theorem, and Normal Subgroups]({{site.baseurl}}/teaching/mat411f16/CosetsLagrangeNormal.pdf) and digest the surrounding text along the way. In particular, you should recognize the several of the problems that I didn't assign from the take-home portion of Exam 2. Feel free to use these results. (Due Friday, November 18)
 - **Daily Homework 31:** Complete 7.24-7.31, 7.33-7.36 in [Chapter 7: Cosets, Lagrange's Theorem, and Normal Subgroups]({{site.baseurl}}/teaching/mat411f16/CosetsLagrangeNormal.pdf) and digest the surrounding text along the way.  (Due Monday, November 21)
-- **Daily Homework 32:** Complete 8.6-8.8, 8.10, 8.11, 8.16-8.20 in [Chapter 8: Products and Quotients of Groups]({{site.baseurl}}/teaching/mat411f16/ProductsQuotients.pdf) and digest the surrounding text along the way.  (Due Wednesday, November 23)
+- **Daily Homework 32:** Complete 8.6-8.8, 8.10, 8.11, 8.13, 8.16-8.20 in [Chapter 8: Products and Quotients of Groups]({{site.baseurl}}/teaching/mat411f16/ProductsQuotients.pdf) and digest the surrounding text along the way.  (Due Wednesday, November 23)
 - **Daily Homework 33:** Complete ??? in [Chapter 8: Products and Quotients of Groups]({{site.baseurl}}/teaching/mat411f16/ProductsQuotients.pdf) and digest the surrounding text along the way.  (Due Monday, November 28)
 
 <!--
