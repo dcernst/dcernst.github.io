@@ -115,7 +115,7 @@ The tentative plan is to cover Chapters 1-6 and 11 of [Eulerian Numbers](http://
   - The symmetric group
   - Finite Coxeter groups: generators and relations
   - $W$-Mahonian distribution
-  - $W$-Euleriannumbers
+  - $W$-Euleria nnumbers
   - Finite reflection groups and root systems
   - The Coxeter arrangement and the Coxeter complex
   - Action of $W$ and cosets of parabolic subgroups
