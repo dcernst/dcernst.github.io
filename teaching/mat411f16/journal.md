@@ -132,8 +132,8 @@ We’ll use this page to keep track of what has happened each day in class. It w
 
 <ul class="fa-ul">
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, November 21:</b> After discussing 7.24 and 7.25, we had LL, JC, DZ, EB, SS2, and KE present 7.26, 7.27, 7.28, 7.29, 7.30, and 7.31, respectively.  We still need to wrap up the second direction of 7.31 and we skipped discussing 7.33-7.36.</li>
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, November 23:</b> Coming soon.</li>
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, November 25:</b> No classes, Thanksgiving Holiday.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, November 23:</b> I was impressed with the attendance today. Thanks for showing up the day before Thanksgiving! We had HR, KE, JK, SM, AT, and PM present 8.6, 8.7, 8.13, 8.16, 8.17, and 8.18, respectively. Along the way, we discussed 8.8, 8.10 (although, we didn't have time to write down its proof), and 8.11.  Next time, we will prove 8.10 and to discuss 8.19 and 8.20.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, November 25:</b> No classes, Thanksgiving Holiday!</li>
 </ul>
 
 ## Week 14 ##
