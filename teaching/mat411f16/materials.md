@@ -100,7 +100,7 @@ Below are links to each exam.
     - [Quilt 3]({{site.baseurl}}/teaching/mat411f16/Quilt3.JPG)
     - [Quilt 4]({{site.baseurl}}/teaching/mat411f16/Quilt4.JPG)
     - [Quilt 5]({{site.baseurl}}/teaching/mat411f16/Quilt5.JPG)
-- Exam 3 (take-home). Coming soon.
+- [Exam 3 (take-home)]({{site.baseurl}}/teaching/mat411f16/411Exam3-Home.pdf) (PDF). If you are interested in using LaTeX to type up your solutions, contact me and I will send you a link to the source file of the exam. (Due Tuesday, December 6 by 5pm)
 - Final Exam (take-home). Coming soon.
 
 <!--
