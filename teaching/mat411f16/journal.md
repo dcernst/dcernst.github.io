@@ -141,7 +141,7 @@ We’ll use this page to keep track of what has happened each day in class. It w
 <ul class="fa-ul">
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, November 28:</b> The first third of class was devoted to me writing down the proof of Theorem 8.10.  After that we had small groups work on 8.19, 8.20, 8.25, 8.26, 8.27, and 8.28.  However, we only had time for LL and KE to present 8.19 and 8.20, respectively.  We'll tackle the remaining ones after the exam.</li>
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, November 30:</b> Students took the in-class portion of Exam 3.</li>
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, December 2:</b> Coming soon.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, December 2:</b> I lectured my butt off today.  We more or less covered 8.24-8.35.</li>
 </ul>
 
 ## Week 15 ##
