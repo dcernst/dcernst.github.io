@@ -65,10 +65,9 @@ The following assignments are to be turned in at the end of the indicated class 
 - **Daily Homework 31:** Complete 7.24-7.31, 7.33-7.36 in [Chapter 7: Cosets, Lagrange's Theorem, and Normal Subgroups]({{site.baseurl}}/teaching/mat411f16/CosetsLagrangeNormal.pdf) and digest the surrounding text along the way.  (Due Monday, November 21)
 - **Daily Homework 32:** Complete 8.6-8.8, 8.10, 8.11, 8.13, 8.16-8.20 in [Chapter 8: Products and Quotients of Groups]({{site.baseurl}}/teaching/mat411f16/ProductsQuotients.pdf) and digest the surrounding text along the way.  (Due Wednesday, November 23)
 - **Daily Homework 33:** Complete 8.24-8.28 in [Chapter 8: Products and Quotients of Groups]({{site.baseurl}}/teaching/mat411f16/ProductsQuotients.pdf) and digest the surrounding text along the way. You'll need to use Theorem 8.23 for 8.24 and 8.25. (Due Monday, November 28)
+- **Daily Homework 34:** Complete 9.15-9.17, 9.22, 9.23, 10.8, 10.9, 10.15, 10.16 in [Chapter 9: Homomorphisms and the Isomorphism Theorems]({{site.baseurl}}/teaching/mat411f16/Homomorphisms.pdf) and [Chapter 10: An Introduction to Rings]({{site.baseurl}}/teaching/mat411f16/Rings.pdf) and digest the surrounding text along the way. (Due Wednesday, December 7)
 
 <!--
-- **Daily Homework 32:** Complete 9.9, 9.10, 9.14-9.18, 9.21-9.23 in [Chapter 9: Homomorphisms and the Isomorphism Theorems]({{site.baseurl}}/teaching/mat411f16/Homomorphisms.pdf) and digest the surrounding text along the way. (Due Friday, April 29)
-- **Daily Homework 33:** Complete 10.6-10.11, 10.15-10.18, 10.20, 10.25, 10.27 in [Chapter 10: An Introduction to Rings]({{site.baseurl}}/teaching/mat411f16/Rings.pdf) and digest the surrounding text along the way. There are a few theorems that I did not assign you to prove.  You should make sure you understand these and you are welcome to use them for later exercises. (Due Monday, May 2)
 - **Daily Homework 34:** Complete 10.31, 10.37-10.39, 10.42, 10.44, 10.48, 10.49 in [Chapter 10: An Introduction to Rings]({{site.baseurl}}/teaching/mat411f16/Rings.pdf) and digest the surrounding text along the way. There are a few theorems that I did not assign you to prove.  You should make sure you understand these and you are welcome to use them for later exercises. (Due Wednesday, May 4) -->
 
 ## Weekly Homework ##
