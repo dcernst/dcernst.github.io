@@ -73,7 +73,7 @@ Below is a list of IBL-related resources.
   * [Math Ed Matters][4] is a (roughly) monthly column sponsored by the Mathematical Association of America and authored by me and Angie Hodge. The column explores topics and current events related to undergraduate mathematics education. Posts will aim to inspire, provoke deep thought, and provide ideas for the mathematics classroom. Our interest in and engagement with IBL color the column's content.
   * [The IBL Blog][10] focuses on promoting the use of IBL methods in the classroom at the college, secondary and elementary school levels. Sponsored by AIBL.
   * [AIBL's YouTube Channel][11] has a list of IBL-related videos.
-  * AIBL sponsors [IBL workshops][12], which are an excellent for anyone interested in learning to implement IBL in a college-level mathematics course.
+  * AIBL sponsors [IBL workshops][12], which are excellent for anyone interested in learning to implement IBL in a college-level mathematics course.
   * The [Inquiry-Based Learning in Mathematics Community on Google+][13] provides a forum for discussing IBL. This is a great place to ask questions.
   * The [Journal of Inquiry-Based Learning in Mathematics][14] publishes university-level IBL course notes that are free, refereed, and classroom-tested.
   * I have written some IBL course notes for an introduction to proof course. You can find the [GitHub][15] repository for the LaTeX source, by going [here][16].
