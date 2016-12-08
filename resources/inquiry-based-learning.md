@@ -69,7 +69,6 @@ Loosely speaking, the majority of a Moore Method course consists of students pre
 Below is a list of IBL-related resources.
 
   * The [Academy of Inquiry-Based Learning][2] is a hub for IBL in mathematics. I am a Special Projects Coordinator for AIBL.
-  * You can find my blog posts related to IBL [here][9].
   * [Math Ed Matters][4] is a (roughly) monthly column sponsored by the Mathematical Association of America and authored by me and Angie Hodge. The column explores topics and current events related to undergraduate mathematics education. Posts will aim to inspire, provoke deep thought, and provide ideas for the mathematics classroom. Our interest in and engagement with IBL color the column's content.
   * [The IBL Blog][10] focuses on promoting the use of IBL methods in the classroom at the college, secondary and elementary school levels. Sponsored by AIBL.
   * [AIBL's YouTube Channel][11] has a list of IBL-related videos.
@@ -103,7 +102,6 @@ In addition to the problem sequences available at [JIBLM][23] and the plethora o
  [6]: http://legacyrlmoore.org/reference/mahavier1.html
  [7]: http://legacyrlmoore.org/method.html
  [8]: http://legacyrlmoore.org/reference/quick_start-3.pdf
- [9]: {{site.baseurl}}/tag/inquiry-based-learning/
  [10]: http://theiblblog.blogspot.com
  [11]: http://www.youtube.com/user/AcademyIBL
  [12]: http://www.iblworkshop.org/home.html
@@ -118,7 +116,7 @@ In addition to the problem sequences available at [JIBLM][23] and the plethora o
  [21]: http://legacyrlmoore.org
  [22]: http://legacyrlmoore.org/events.html
  [23]: http://jiblm.org
- [24]: {{site.baseurl}}
+ [24]: http://dcernst.github.io
  [25]: http://www.stanyoshinobu.com/
  [26]: http://www.csudh.edu/math/mjones/
  [27]: http://dcernst.github.io/IBL-AbstractAlgebra/
