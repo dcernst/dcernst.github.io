@@ -149,5 +149,5 @@ We’ll use this page to keep track of what has happened each day in class. It w
 <ul class="fa-ul">
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, December 5:</b> After returning the in-class portion of Exam 3, I summarized the solution to a couple of the problems.  Next, I provided a few hints on problems for the take-home portion of the exam.  With the time we had left, I lectured over material from Chapter 9.</li>
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, December 7:</b> More action-packed lecturing.  Other than the proof of the First Isomorphism Theorem, we wrapped up Chapter 9.  In addition, we covered a substantial chunk of Chapter 10.  We will prove the First Isomorphism Theorem on Friday and do some more of the content in Chapter 10.</li>
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, December 9:</b> Coming soon.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, December 9:</b> Last day of class!  I'm going to miss this group of students.  Everyone has consistently had a positive attitude.  Today, I reviewed a couple homework problems that utilized the First Isomorphism Theorem for groups and then continued lecturing over Chapter 10.</li>
 </ul>
