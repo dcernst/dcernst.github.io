@@ -19,29 +19,9 @@ layout: default
 
 <span class="visible-md visible-lg">Nugget</span>
 
-<!--
-<div class="row">
-<div class="col-xs-12">
-<div class="btn-group btn-group-justified">
-<a class="btn btn-default btn-success" href="{{site.baseurl}}/teaching/mat136f15/syllabus/">Syllabus</a>
-
-<a class="btn btn-default btn-primary" href="{{site.baseurl}}/teaching/mat136f15/materials/">
-<span class="hidden-xs">Course Materials</span><span class="visible-xs">Stuff</span>
-</a>
-
-<a class="btn btn-default btn-warning" href="{{site.baseurl}}/teaching/mat136f15/homework/">
-<span class="hidden-xs">Homework</span><span class="visible-xs">HW</span>
-</a>
-
-<a class="btn btn-default btn-info" href="{{site.baseurl}}/teaching/mat136f15/journal/">Journal</a>
-</div>
-</div>
-</div>
--->
-
 <div class="row">
   <div class="col-xs-12 col-lg-4">
-  <div><img src="{{ site.baseurl }}/images/DanaTeaching.jpg" class="img-responsive" img style="margin-bottom: 10px" /></div>
+  <div><img src="{{ site.baseurl }}/images/DanaTeaching.jpg" class="img-responsive img-rounded" img style="margin-bottom: 10px" /></div>
   </div>
 
   <div class="col-xs-12 col-lg-8">
@@ -94,6 +74,8 @@ Lastly, I am a husband and a father of two incredible sons. Oh, I enjoy drinking
 
 </div>
 
+<img src="{{ site.baseurl }}/images/DanaTeaching.jpg" class="img-responsive img-rounded" img style="margin-bottom: 10px" />
+
 <!-- <div class="alert alert-success" role="alert">
 <i class="fa fa-code fa-fw"></i> This website was created using <a href="https://pages.github.com" class="alert-link">GitHub Pages</a> and <a href="http://jekyllrb.com" class="alert-link">Jekyll</a> together with <a href="http://getbootstrap.com" class="alert-link">Twitter Bootstrap</a>. <a href="https://github.com/dcernst/dcernst.github.io" class="alert-link">Source Code</a> on GitHub.
 </div> -->
@@ -101,9 +83,3 @@ Lastly, I am a husband and a father of two incredible sons. Oh, I enjoy drinking
 <div class="well">
 <i class="fa fa-hand-peace-o fa-fw"></i>&nbsp; The views expressed on this blog are my own and are not necessarily shared by my employer <a href="http://nau.edu">Northern Arizona University</a>.
 </div>
-
-<!--
-<div class="alert alert-info" role="alert">
-<i class="fa fa-hand-peace-o fa-fw"></i>&nbsp; The views expressed on this blog are my own and are not necessarily shared by my employer <a href="http://nau.edu" class="alert-link">Northern Arizona University</a>.
-</div>
--->
