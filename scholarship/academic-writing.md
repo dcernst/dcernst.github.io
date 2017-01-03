@@ -55,7 +55,7 @@ Below is a list of course materials that I have written to be used with an [inqu
 
 ## Online Columns and Blog Posts
 
-  * I am currently a co-editor/author for a new online column called [Teaching Tidbits](http://maateachingtidbits.blogspot.com), which is sponsored by the [Mathematical Association of America](http://maa.org).  Below are some of my posts.
+  * I am a co-editor/author for the online column [Teaching Tidbits](http://maateachingtidbits.blogspot.com), which is sponsored by the [Mathematical Association of America](http://maa.org).  Below are some of my posts.
       * D.C. Ernst. Resources for active learning. *Teaching Tidbits*. To appear in Spring 2017.
       * D.C. Ernst. Who generates the examples? *Teaching Tidbits*. Fall 2016. [[Blog Post](http://maateachingtidbits.blogspot.com/2016/11/who-generates-examples.html)]
   * I am a co-editor/author (joint with [Angie Hodge](http://www.unomaha.edu/math/people/hodge/)) for [Math Ed Matters](http://maamathedmatters.blogspot.com), which is an online column sponsored by the [MAA](http://maa.org).  Column explores topics and current events related to undergraduate mathematics education. Below is a selection of my posts.

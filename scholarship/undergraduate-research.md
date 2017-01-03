@@ -10,7 +10,7 @@ layout: default
   <li class="active">Ugrad Research</li>
 </ol>
 
-The combinatorial nature of [my research]({{ site.baseurl }}/scholarship/) naturally lends itself to collaborations with undergraduates, and my goal is to incorporate students in my research as much as possible. If you are an NAU student interested in conducting research in mathematics, please come talk to me! Occasionally, there may be funding available to pay students to do research.
+The combinatorial nature of [my research]({{ site.baseurl }}/scholarship/) naturally lends itself to collaborations with undergraduates, and my goal is to incorporate students in my research as much as possible.
 
 Here is a list of my current and recent undergraduate research projects that are roughly arranged chronologically.
 
