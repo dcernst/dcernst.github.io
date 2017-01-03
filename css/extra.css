@@ -39,3 +39,19 @@
 .navbar {
   border: 0;
 }
+
+.navbar-default .navbar-brand {
+  color: #333;
+}
+/* .navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  color: #5e5e5e;
+  background-color: transparent;
+} */
+
+.navbar-default .navbar-text {
+  color: #333;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #333;
+}
