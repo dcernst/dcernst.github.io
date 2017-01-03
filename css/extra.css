@@ -30,3 +30,8 @@
     border: 0;
     box-shadow: none;
 }
+
+.well-borderless {
+    border: 0;
+    box-shadow: none;
+}
