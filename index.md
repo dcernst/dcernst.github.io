@@ -11,6 +11,7 @@ My interests also include the [scholarship of teaching and learning](http://en.w
 
 For more info, check out my [about]({{ site.baseurl }}/about/), [scholarship]({{ site.baseurl }}/scholarship/), and [teaching]({{ site.baseurl }}/teaching/) pages.
 
+<!--
 <div class="row">
   <div class="col-xs-12 col-sm-6">
     <div>
@@ -40,6 +41,7 @@ For more info, check out my [about]({{ site.baseurl }}/about/), [scholarship]({{
     </div>
   </div>
 </div>
+-->
 
 <div class="alert alert-success" role="alert">
 <i class="fa fa-code fa-fw"></i> This website was created using <a href="https://pages.github.com" class="alert-link">GitHub Pages</a> and <a href="http://jekyllrb.com" class="alert-link">Jekyll</a> together with <a href="http://getbootstrap.com" class="alert-link">Twitter Bootstrap</a>. <a href="https://github.com/dcernst/dcernst.github.io" class="alert-link">Source Code</a> on GitHub.
