@@ -81,6 +81,8 @@ Below is a list of course materials that I have written to be used with an [inqu
   * D.C. Ernst. Cell Complexes for Arrangements with Group Actions, MS Thesis, Northern Arizona University, 2000. [[arXiv:0905.4434](http://arxiv.org/abs/0905.4434)]
 
 ## In Preparation
+  * D.C. Ernst and T.K. Petersen. The worst casino in Reno.
+  * D.C. Ernst and A. Lebovitz. Groups with cyclic subgroups.
   * D.C. Ernst and R.M. Green. Cominuscule elements of Coxeter groups of type affine $C$.
   * B.J. Benesh, D.C. Ernst, and N. Sieben. Impartial achievement games for generating finite groups.
   * D.C. Ernst and B. Fox. Conjugacy classes of cyclically fully commutative elements in Coxeter groups of type $A$.
