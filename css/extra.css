@@ -55,3 +55,7 @@
 .navbar-default .navbar-nav > li > a {
   color: #333;
 }
+
+.breadcrumb > .active {
+  color: #333;
+}
