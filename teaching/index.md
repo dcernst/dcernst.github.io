@@ -9,42 +9,7 @@ layout: default
   <li class="active">Teaching</li>
 </ol>
 
-## Welcome ##
-
-Welcome to Dana C. Ernst's Teaching page.  This section is primarily designed for my current students, but if you are not one of my students and somehow found your way here, feel free to poke around. Unless stated otherwise, content on this site that is authored by Dana C. Ernst is licensed under a [Creative Commons Attribution-Share Alike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/).
-
-## Instructor Info ##
-
-<div class="row">
-  <div class="col-xs-12 col-sm-6">
-    <div>
-      <address>
-      Dana C. Ernst, PhD<br />
-      Assistant Professor<br />
-      Department of Mathematics & Statistics<br />
-      Northern Arizona University<br />
-      805 South Osborne Drive<br />
-      PO Box 5717<br />
-      Flagstaff,  AZ  86011
-      </address>
-    </div>
-  </div>
-
-  <div class="col-xs-12 col-sm-6">
-    <div>
-      <address>
-      <i class="fa fa-university fa-fw"></i>&nbsp; AMB 176<br />
-      <i class="fa fa-phone fa-fw"></i>&nbsp; 928.523.6852<br />
-      <i class="fa fa-envelope-o fa-fw"></i>&nbsp; <a href="mailto:dana.ernst@nau.edu">dana.ernst@nau.edu</a><br />
-      <i class="fa fa-link fa-fw"></i>&nbsp; <a href="http://dcernst.github.io">http://dcernst.github.io</a><br />
-      <i class="fa fa-twitter fa-fw"></i>&nbsp; <a href="http://twitter.com/danaernst">@danaernst</a> and <a href="http://twitter.com/IBLMath">@IBLMath</a><br />
-      <i class="fa fa-instagram fa-fw"></i>&nbsp; <a href="https://www.instagram.com/dcernst/">@dcernst</a><br />
-      <i class="fa fa-github fa-fw"></i>&nbsp; <a href="https://github.com/dcernst">@dcernst</a>
-      </address>
-    </div>
-  </div>
-
-</div>
+This section is primarily designed for my current students, but if you are not one of my students and somehow found your way here, feel free to poke around. Unless stated otherwise, content on this site that is authored by Dana C. Ernst is licensed under a [Creative Commons Attribution-Share Alike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/).
 
 ## Office Hours ##
 My current office hours for Spring 2017 are [coming soon] (or by appointment). My office is located in room 176 of the [Adel Mathematics Building](http://maps.google.com/maps?q=Adel+Mathematics,+Flagstaff,+AZ&hl=en&sll=35.181208,-111.607959&sspn=0.231222,0.42675&oq=adel+mathe&hnear=Adel+Mathematics,+Flagstaff,+Arizona+86001&t=m&z=17) (Building 26).
