@@ -11,7 +11,7 @@ My interests also include the [scholarship of teaching and learning](http://en.w
 
 For more info, check out my [about]({{ site.baseurl }}/about/), [scholarship]({{ site.baseurl }}/scholarship/), and [teaching]({{ site.baseurl }}/teaching/) pages.
 
-<div class="well">
+<div class="well well-sm">
 Testing...
 </div>
 
