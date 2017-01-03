@@ -74,7 +74,7 @@ Lastly, I am a husband and a father of two incredible sons. Oh, I enjoy drinking
 
 </div>
 
-<img src="{{ site.baseurl }}/images/DanaTeaching.jpg" class="img-responsive img-rounded" img style="margin-bottom: 10px" />
+<img src="{{ site.baseurl }}/images/DanaTeachingWide.jpg" class="img-responsive img-rounded" img style="margin-bottom: 10px" />
 
 <!-- <div class="alert alert-success" role="alert">
 <i class="fa fa-code fa-fw"></i> This website was created using <a href="https://pages.github.com" class="alert-link">GitHub Pages</a> and <a href="http://jekyllrb.com" class="alert-link">Jekyll</a> together with <a href="http://getbootstrap.com" class="alert-link">Twitter Bootstrap</a>. <a href="https://github.com/dcernst/dcernst.github.io" class="alert-link">Source Code</a> on GitHub.
