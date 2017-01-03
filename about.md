@@ -78,6 +78,10 @@ Lastly, I am a husband and a father of two incredible sons. Oh, I enjoy drinking
 <i class="fa fa-code fa-fw"></i> This website was created using <a href="https://pages.github.com" class="alert-link">GitHub Pages</a> and <a href="http://jekyllrb.com" class="alert-link">Jekyll</a> together with <a href="http://getbootstrap.com" class="alert-link">Twitter Bootstrap</a>. <a href="https://github.com/dcernst/dcernst.github.io" class="alert-link">Source Code</a> on GitHub.
 </div> -->
 
+<div class="well">
+<i class="fa fa-hand-peace-o fa-fw"></i>&nbsp; The views expressed on this blog are my own and are not necessarily shared by my employer <a href="http://nau.edu">Northern Arizona University</a>.
+</div>
+
 <div class="alert alert-info" role="alert">
 <i class="fa fa-hand-peace-o fa-fw"></i>&nbsp; The views expressed on this blog are my own and are not necessarily shared by my employer <a href="http://nau.edu" class="alert-link">Northern Arizona University</a>.
 </div>
