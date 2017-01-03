@@ -32,7 +32,7 @@ For more info, check out my [about]({{ site.baseurl }}/about/), [scholarship]({{
       <i class="fa fa-university fa-fw"></i>&nbsp; AMB 176<br />
       <i class="fa fa-phone fa-fw"></i>&nbsp; 928.523.6852<br />
       <i class="fa fa-envelope-o fa-fw"></i>&nbsp; <a href="mailto:dana.ernst@nau.edu">dana.ernst@nau.edu</a><br />
-      <i class="fa fa-link fa-fw"></i>&nbsp; <a href="http://dcernst.github.io">hhttp://dcernst.github.io</a><br />
+      <i class="fa fa-link fa-fw"></i>&nbsp; <a href="http://dcernst.github.io">http://dcernst.github.io</a><br />
       <i class="fa fa-twitter fa-fw"></i>&nbsp; <a href="http://twitter.com/danaernst">@danaernst</a> and <a href="http://twitter.com/IBLMath">@IBLMath</a><br />
       <i class="fa fa-instagram fa-fw"></i>&nbsp; <a href="https://www.instagram.com/dcernst/">@dcernst</a><br />
       <i class="fa fa-github fa-fw"></i>&nbsp; <a href="https://github.com/dcernst">@dcernst</a>

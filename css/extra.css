@@ -25,3 +25,8 @@
   margin-bottom: 4em;
   border-bottom: 1px solid #eee;
 }
+
+.panel-borderless {
+    border: 0;
+    box-shadow: none;
+}
