@@ -33,4 +33,5 @@
 
 .well {
     border: 0;
+    box-shadow: none;
 }
