@@ -11,6 +11,10 @@ My interests also include the [scholarship of teaching and learning](http://en.w
 
 For more info, check out my [about]({{ site.baseurl }}/about/), [scholarship]({{ site.baseurl }}/scholarship/), and [teaching]({{ site.baseurl }}/teaching/) pages.
 
+<div class="well">
+Testing...
+</div>
+
 <div class="row">
   <div class="col-xs-12 col-sm-6">
     <div>
