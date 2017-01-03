@@ -31,7 +31,6 @@
     box-shadow: none;
 }
 
-.well-borderless {
+.well {
     border: 0;
-    box-shadow: none;
 }
