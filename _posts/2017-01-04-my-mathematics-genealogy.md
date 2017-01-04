@@ -23,23 +23,23 @@ I posted some of this information on Facebook and asked if anyone knew how to au
 
 Here are the steps that I completed to get Geneagrapher up and running on my computer running MacOS 10.11.  The Geneagrapher website suggests using <code>easy_install</code> via Terminal, but this didn't immediately work for me.  It often seems that doing anything with Python on my Mac requires a few extra steps.  After doing a little searching around, I found a [post on Stack Overflow](http://stackoverflow.com/questions/6012246/why-is-python-easy-install-not-working-on-my-mac) that solved my issue.  At the command line, I typed the following:
 
-<pre><code>sudo chown -R <your_user>:wheel /Library/Python/2.7/site-packages/ </code></pre>
+> sudo chown -R <your_user>:wheel /Library/Python/2.7/site-packages/
 
 Of course, you should replace <code><your_user></code> with your username.  Note that using <code>sudo</code> requires you to enter your password.  Next, I installed Geneagrapher using the following:
 
-<pre><code> easy_install http://www.davidalber.net/dist/geneagrapher/Geneagrapher-0.2.1-r2.tar.gz </code></pre>
+> easy_install http://www.davidalber.net/dist/geneagrapher/Geneagrapher-0.2.1-r2.tar.gz
 
 In order to use Geneagrapher, you need to input a record number from MGP.  Mine is 125763.  At the command line, I typed:
 
-<pre><code> ggrapher -f ernst.dot -a 125763 </code></pre>
+> ggrapher -f ernst.dot -a 125763
 
 You can replace <code>ernst</code> with whatever you'd like the output file to be called. The next step is to pass the dot file to Graphviz.  If you don't already have Graphviz installed, you can do so using [Homebrew](http://brew.sh) (which is also easy to install):
 
-<pre><code> brew install graphviz </code></pre>
+> brew install graphviz
 
 Following the Geneagrapher instructions, I typed the following to generate my family tree:
 
-<pre><code> dot -Tpng ernst.dot > ernst.png </code></pre>
+> dot -Tpng ernst.dot > ernst.png 
 
 Maybe it is worth mentioning that unless you specify otherwise, the dot and png files will be stored in your home directory.  Below is my mathematical family tree created using Geneagrapher. As you can see, it took a while for my ancestors to leave the [University of Cambridge](https://www.cam.ac.uk).
 
