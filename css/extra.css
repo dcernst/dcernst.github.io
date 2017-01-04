@@ -59,3 +59,7 @@
 .breadcrumb > .active {
   color: #333;
 }
+
+pre {
+    color: #c7254e;
+}
