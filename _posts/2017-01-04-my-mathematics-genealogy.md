@@ -25,7 +25,7 @@ Here are the steps that I completed to get Geneagrapher up and running on my com
 
 <pre><code>sudo chown -R &lt;your_user&gt;:wheel /Library/Python/2.7/site-packages/</code></pre>
 
-Of course, you should replace <code>&lt;your_user&gt;</code> with your username.  Note that using <code>sudo</code> requires you to enter your password.  Next, I installed Geneagrapher using the following:</p>
+Of course, you should replace <code>&lt;your_user&gt;</code> with your username.  Note that using <code>sudo</code> requires you to enter your password.  Next, I installed Geneagrapher using the following:
 
 <pre><code>easy_install http://www.davidalber.net/dist/geneagrapher/Geneagrapher-0.2.1-r2.tar.gz</code></pre>
 
