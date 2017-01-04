@@ -10,8 +10,6 @@ layout: default
   <li class="active">LaTeX Guide</li>
 </ol>
 
-<p>This page is intended to be a guide for my students. However, I'm hoping that this page will be of general interest to those just getting started with LaTeX.</p>
-
 <h2>What is LaTeX?</h2>
 
 <p><a href="http://en.wikipedia.org/wiki/LaTeX" target="_blank">LaTeX</a> (pronounced "lay-tech", or sometimes "la-tech") is a markup language that is the standard for typesetting mathematics.</p>
