@@ -15,7 +15,7 @@ This section is primarily designed for my current students, but if you are not o
 My current office hours for Spring 2017 are [coming soon] (or by appointment). My office is located in room 176 of the [Adel Mathematics Building](http://maps.google.com/maps?q=Adel+Mathematics,+Flagstaff,+AZ&hl=en&sll=35.181208,-111.607959&sspn=0.231222,0.42675&oq=adel+mathe&hnear=Adel+Mathematics,+Flagstaff,+Arizona+86001&t=m&z=17) (Building 26).
 
 ## Current Courses ##
-Here are the courses that I am currently teaching (Fall 2016) at [Northern Arizona University](http://nau.edu).
+Here are the courses that I am currently teaching (Spring 2017) at [Northern Arizona University](http://nau.edu).
 
 - [MAT 220: Introduction to Mathematical Reasoning]({{ site.baseurl }}/teaching/mat220s17)
 - [MAT 320: Foundations of Mathematics]({{ site.baseurl }}/teaching/mat320s17)
