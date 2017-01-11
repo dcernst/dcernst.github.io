@@ -35,7 +35,7 @@ Welcome to the course web page for the Spring 2017 manifestation of MAT 320: Fou
 <div class="row">
   <div class="col-xs-12 col-sm-6">
     <div>
-    <h3>Course Info</h3>
+    <h2>Course Information</h2>
     <strong>Title:</strong> MAT 320: Foundations of Mathematics<br />
     <strong>Semester:</strong> Spring 2017<br />
     <strong>Credits:</strong> 3<br />
@@ -47,7 +47,7 @@ Welcome to the course web page for the Spring 2017 manifestation of MAT 320: Fou
 
   <div class="col-xs-12 col-sm-6">
     <div>
-      <h3>Instructor Info</h3>
+      <h2>Instructor Information</h2>
       <i class="fa fa-user fa-fw"></i>&nbsp; Dana C. Ernst, PhD<br />
       <i class="fa fa-university fa-fw"></i>&nbsp; AMB 176<br />
       <i class="fa fa-users fa-fw"></i>&nbsp; TBA (or by appointment)<br />
@@ -57,17 +57,6 @@ Welcome to the course web page for the Spring 2017 manifestation of MAT 320: Fou
     </div>
   </div>
 </div>
-
-## Instructor Info ##
-
-<address>
-<i class="fa fa-user fa-fw"></i>&nbsp; Dana C. Ernst, PhD<br />
-<i class="fa fa-university fa-fw"></i>&nbsp; AMB 176<br />
-<i class="fa fa-users fa-fw"></i>&nbsp; TBA (or by appointment)<br />
-<i class="fa fa-envelope-o fa-fw"></i>&nbsp; <a href="mailto:dana.ernst@nau.edu">dana.ernst@nau.edu</a><br />
-<i class="fa fa-phone fa-fw"></i>&nbsp; 928.523.6852<br />
-<i class="fa fa-link fa-fw"></i>&nbsp; <a href="http://dcernst.github.io">dcernst.github.io</a>
-</address>
 
 ## What is This Course All About? ##
 The primary objective of this course is to develop skills necessary for effective proof writing. Students will improve their ability to read and write mathematics. Successful completion of MAT 320 provides students with the background necessary for upper division mathematics courses. Also, the purpose of any mathematics course is to challenge and train the mind. Learning mathematics enhances critical thinking and problem solving skills. The course description says:

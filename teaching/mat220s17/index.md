@@ -32,16 +32,31 @@ layout: default
 ## Welcome ##
 Welcome to the course web page for the Spring 2017 manifestation of MAT 220: Introduction to Mathematical Reasoning at [Northern Arizona University](http://nau.edu).
 
-## Instructor Info ##
+<div class="row">
+  <div class="col-xs-12 col-sm-6">
+    <div>
+    <h2>Course Information</h2>
+    <strong>Title:</strong> MAT 220: Introduction to Mathematical Reasoning<br />
+    <strong>Semester:</strong> Spring 2017<br />
+    <strong>Credits:</strong> 3<br />
+    <strong>Section:</strong> 1<br />
+    <strong>Time:</strong> MWF at 9:10-10:0AM<br />
+    <strong>Location:</strong> AMB 164
+    </div>
+  </div>
 
-<address>
-<i class="fa fa-user fa-fw"></i>&nbsp; Dana C. Ernst, PhD<br />
-<i class="fa fa-university fa-fw"></i>&nbsp; AMB 176<br />
-<i class="fa fa-users fa-fw"></i>&nbsp; TBA (or by appointment)<br />
-<i class="fa fa-envelope-o fa-fw"></i>&nbsp; <a href="mailto:dana.ernst@nau.edu">dana.ernst@nau.edu</a><br />
-<i class="fa fa-phone fa-fw"></i>&nbsp; 928.523.6852<br />
-<i class="fa fa-link fa-fw"></i>&nbsp; <a href="http://dcernst.github.io">dcernst.github.io</a>
-</address>
+  <div class="col-xs-12 col-sm-6">
+    <div>
+      <h2>Instructor Information</h2>
+      <i class="fa fa-user fa-fw"></i>&nbsp; Dana C. Ernst, PhD<br />
+      <i class="fa fa-university fa-fw"></i>&nbsp; AMB 176<br />
+      <i class="fa fa-users fa-fw"></i>&nbsp; TBA (or by appointment)<br />
+      <i class="fa fa-envelope-o fa-fw"></i>&nbsp; <a href="mailto:dana.ernst@nau.edu">dana.ernst@nau.edu</a><br />
+      <i class="fa fa-phone fa-fw"></i>&nbsp; 928.523.6852<br />
+      <i class="fa fa-link fa-fw"></i>&nbsp; <a href="{{site.baseurl}}">dcernst.github.io</a>
+    </div>
+  </div>
+</div>
 
 ## What is This Course All About? ##
 MAT 220 is an introductory course in mathematical reasoning in multi-step problems across different areas of mathematics. The goal is to use elementary mathematical tools to solve more complex problems in already familiar areas of study such as precalculus, basic number theory, geometry, and discrete mathematics, instead of teaching new mathematical tools that are used in straightforward one-step exercises. The focus is on problem solving and solution writing.

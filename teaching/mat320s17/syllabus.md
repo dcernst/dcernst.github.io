@@ -7,7 +7,7 @@ layout: default
 <ol class="breadcrumb">
   <li><a href="/"><i class="fa fa-home"></i></a></li>
   <li><a href="/teaching/">Teaching</a></li>
-  <li><a href="/teaching/mat320s17">MAT 411</a></li>
+  <li><a href="/teaching/mat320s17">MAT 320</a></li>
   <li class="active">{{ page.title }}</li>
 </ol>
 
@@ -33,7 +33,7 @@ layout: default
 <div class="row">
   <div class="col-xs-12 col-sm-6">
     <div>
-    <h3>Course Info</h3>
+    <h3>Course Information</h3>
     <strong>Title:</strong> MAT 320: Foundations of Mathematics<br />
     <strong>Semester:</strong> Spring 2017<br />
     <strong>Credits:</strong> 3<br />
@@ -45,7 +45,7 @@ layout: default
 
   <div class="col-xs-12 col-sm-6">
     <div>
-      <h3>Instructor Info</h3>
+      <h3>Instructor Information</h3>
       <i class="fa fa-user fa-fw"></i>&nbsp; Dana C. Ernst, PhD<br />
       <i class="fa fa-university fa-fw"></i>&nbsp; AMB 176<br />
       <i class="fa fa-users fa-fw"></i>&nbsp; TBA (or by appointment)<br />
