@@ -15,7 +15,7 @@ layout: default
 <div class="btn-group btn-group-justified">
 <a class="btn btn-default btn-success" href="{{site.baseurl}}/teaching/mat320s17/syllabus/">Syllabus</a>
 <a class="btn btn-default btn-primary" href="{{site.baseurl}}/teaching/mat320s17/materials/">
-<span class="hidden-xs">Course Materials</span><span class="visible-xs">Stuff</span>
+<span class="hidden-xs">Course Materials</span><span class="visible-xs">Materials</span>
 </a>
 <a class="btn btn-default btn-warning" href="{{site.baseurl}}/teaching/mat320s17/homework/">
 <span class="hidden-xs">Homework</span><span class="visible-xs">HW</span>
@@ -50,7 +50,7 @@ Welcome to the course web page for the Spring 2017 manifestation of MAT 320: Fou
       <h2>Instructor Information</h2>
       <i class="fa fa-user fa-fw"></i>&nbsp; Dana C. Ernst, PhD<br />
       <i class="fa fa-university fa-fw"></i>&nbsp; AMB 176<br />
-      <i class="fa fa-users fa-fw"></i>&nbsp; TBA (or by appointment)<br />
+      <i class="fa fa-users fa-fw"></i>&nbsp; 10:15AM-11:15AM on MWF and 11:00AM-12:00PM on T (or by appointment)<br />
       <i class="fa fa-envelope-o fa-fw"></i>&nbsp; <a href="mailto:dana.ernst@nau.edu">dana.ernst@nau.edu</a><br />
       <i class="fa fa-phone fa-fw"></i>&nbsp; 928.523.6852<br />
       <i class="fa fa-link fa-fw"></i>&nbsp; <a href="{{site.baseurl}}">dcernst.github.io</a>
