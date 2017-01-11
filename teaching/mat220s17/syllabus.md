@@ -34,12 +34,12 @@ layout: default
   <div class="col-xs-12 col-sm-6">
     <div>
     <h3>Course Info</h3>
-    <strong>Title:</strong> MAT 411: Introduction to Abstract Algebra<br />
-    <strong>Semester:</strong> Fall 2016<br />
+    <strong>Title:</strong> MAT 220: Introduction to Mathematical Reasoning<br />
+    <strong>Semester:</strong> Spring 2017<br />
     <strong>Credits:</strong> 3<br />
     <strong>Section:</strong> 1<br />
     <strong>Time:</strong> MWF at 9:10-10:0AM<br />
-    <strong>Location:</strong> AMB 225
+    <strong>Location:</strong> AMB 164
     </div>
   </div>
 
