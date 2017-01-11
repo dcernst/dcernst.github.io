@@ -17,7 +17,7 @@ title: Class Journal
 <a class="btn btn-default btn-success" href="{{site.baseurl}}/teaching/mat220s17/syllabus/">Syllabus</a>
 
 <a class="btn btn-default btn-primary" href="{{site.baseurl}}/teaching/mat220s17/materials/">
-<span class="hidden-xs">Course Materials</span><span class="visible-xs">Stuff</span>
+<span class="hidden-xs">Course Materials</span><span class="visible-xs">Materials</span>
 </a>
 
 <a class="btn btn-default btn-warning" href="{{site.baseurl}}/teaching/mat220s17/homework/">
