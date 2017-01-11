@@ -38,7 +38,7 @@ layout: default
     <strong>Semester:</strong> Spring 2017<br />
     <strong>Credits:</strong> 3<br />
     <strong>Section:</strong> 1<br />
-    <strong>Time:</strong> MWF at 9:10-10:0AM<br />
+    <strong>Time:</strong> MWF at 9:10-10:00AM<br />
     <strong>Location:</strong> AMB 164
     </div>
   </div>

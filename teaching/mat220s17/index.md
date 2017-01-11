@@ -40,7 +40,7 @@ Welcome to the course web page for the Spring 2017 manifestation of MAT 220: Int
     <strong>Semester:</strong> Spring 2017<br />
     <strong>Credits:</strong> 3<br />
     <strong>Section:</strong> 1<br />
-    <strong>Time:</strong> MWF at 9:10-10:0AM<br />
+    <strong>Time:</strong> MWF at 9:10-10:00AM<br />
     <strong>Location:</strong> AMB 164
     </div>
   </div>
