@@ -25,6 +25,10 @@ layout: default
 </div>
 </div>
 
+<div class="alert alert-info" role="alert">
+<i class="fa fa-exclamation-triangle"></i>&nbsp; This page is under construction and subject to change.</a>.
+</div>
+
 ## Welcome ##
 Welcome to the course web page for the Spring 2017 manifestation of MAT 220: Introduction to Mathematical Reasoning at [Northern Arizona University](http://nau.edu).
 
@@ -36,7 +40,7 @@ Welcome to the course web page for the Spring 2017 manifestation of MAT 220: Int
 <i class="fa fa-users fa-fw"></i>&nbsp; TBA (or by appointment)<br />
 <i class="fa fa-envelope-o fa-fw"></i>&nbsp; <a href="mailto:dana.ernst@nau.edu">dana.ernst@nau.edu</a><br />
 <i class="fa fa-phone fa-fw"></i>&nbsp; 928.523.6852<br />
-<i class="fa fa-link fa-fw"></i>&nbsp; <a href="http://dcernst.github.io/teaching/mat220s17">dcernst.github.io/teaching/mat220s17</a>
+<i class="fa fa-link fa-fw"></i>&nbsp; <a href="http://dcernst.github.io">dcernst.github.io</a>
 </address>
 
 ## What is This Course All About? ##

@@ -28,12 +28,12 @@ title: Course Materials
 
 ## Materials ##
 
-Below you will find notes and handouts that we have used in class, as well as some other useful stuff.
+Below you will find notes and handouts that we have used in class, as well as some other useful stuff. We will add to the problem collection as the semester progresses.
 
 - [Student Contract]({{ site.baseurl }}/teaching/StudentContract.pdf)
-- [Setting the Stage]({{ site.baseurl }}/teaching/SettingTheStage.pdf) (first day activity)
+- [Setting the Stage]({{ site.baseurl }}/teaching/SettingTheStage.pdf)
 - [Elements of Style for Proofs]({{ site.baseurl }}/teaching/ElementsOfStyle.pdf)
-- [MAT 220 Problem Collection]({{ site.baseurl }}/teaching/220ProblemCollection.pdf) (We will add to this as the semester progresses)
+- [MAT 220 Problem Collection]({{ site.baseurl }}/teaching/220ProblemCollection.pdf) (Coming soon)
 
 I will not be covering every detail of the notes and the only way to achieve a sufficient understanding of the material is to be digesting the reading in a meaningful way.  You should be seeking clarification about the content of the notes whenever necessary by asking questions.  Here's one of my favorite quotes about reading mathematics.
 

@@ -7,34 +7,38 @@ layout: default
 <ol class="breadcrumb">
   <li><a href="/"><i class="fa fa-home"></i></a></li>
   <li><a href="/teaching/">Teaching</a></li>
-  <li><a href="/teaching/mat411f16">MAT 411</a></li>
+  <li><a href="/teaching/mat320s17">MAT 411</a></li>
   <li class="active">{{ page.title }}</li>
 </ol>
 
 <div class="row">
 <div class="col-xs-12">
 <div class="btn-group btn-group-justified">
-<a class="btn btn-default btn-success" href="{{site.baseurl}}/teaching/mat411f16/syllabus/">Syllabus</a>
-<a class="btn btn-default btn-primary" href="{{site.baseurl}}/teaching/mat411f16/materials/">
+<a class="btn btn-default btn-success" href="{{site.baseurl}}/teaching/mat320s17/syllabus/">Syllabus</a>
+<a class="btn btn-default btn-primary" href="{{site.baseurl}}/teaching/mat320s17/materials/">
 <span class="hidden-xs">Course Materials</span><span class="visible-xs">Stuff</span>
 </a>
-<a class="btn btn-default btn-warning" href="{{site.baseurl}}/teaching/mat411f16/homework/">
+<a class="btn btn-default btn-warning" href="{{site.baseurl}}/teaching/mat320s17/homework/">
 <span class="hidden-xs">Homework</span><span class="visible-xs">HW</span>
 </a>
-<a class="btn btn-default btn-info" href="{{site.baseurl}}/teaching/mat411f16/journal/">Journal</a>
+<a class="btn btn-default btn-info" href="{{site.baseurl}}/teaching/mat320s17/journal/">Journal</a>
 </div>
 </div>
+</div>
+
+<div class="alert alert-info" role="alert">
+<i class="fa fa-exclamation-triangle"></i>&nbsp; This page is under construction and subject to change.</a>.
 </div>
 
 <div class="row">
   <div class="col-xs-12 col-sm-6">
     <div>
     <h3>Course Info</h3>
-    <strong>Title:</strong> MAT 411: Introduction to Abstract Algebra<br />
-    <strong>Semester:</strong> Fall 2016<br />
+    <strong>Title:</strong> MAT 320: Foundations of Mathematics<br />
+    <strong>Semester:</strong> Spring 2017<br />
     <strong>Credits:</strong> 3<br />
     <strong>Section:</strong> 1<br />
-    <strong>Time:</strong> MWF at 9:10-10:0AM<br />
+    <strong>Time:</strong> MWF at 11:30AM-12:20PM<br />
     <strong>Location:</strong> AMB 225
     </div>
   </div>
@@ -44,31 +48,41 @@ layout: default
       <h3>Instructor Info</h3>
       <i class="fa fa-user fa-fw"></i>&nbsp; Dana C. Ernst, PhD<br />
       <i class="fa fa-university fa-fw"></i>&nbsp; AMB 176<br />
-      <i class="fa fa-users fa-fw"></i>&nbsp; 10:15-11:15 MWF and 9-10 TTh (or by appointment)<br />
+      <i class="fa fa-users fa-fw"></i>&nbsp; TBA (or by appointment)<br />
       <i class="fa fa-envelope-o fa-fw"></i>&nbsp; <a href="mailto:dana.ernst@nau.edu">dana.ernst@nau.edu</a><br />
       <i class="fa fa-phone fa-fw"></i>&nbsp; 928.523.6852<br />
-      <i class="fa fa-link fa-fw"></i>&nbsp; <a href="{{site.baseurl}}/teaching/mat411f16/">dcernst.github.io/teaching/mat411f16</a>
+      <i class="fa fa-link fa-fw"></i>&nbsp; <a href="{{site.baseurl}}">dcernst.github.io</a>
     </div>
   </div>
 
 </div>
 
+## Course Information and Policies ##
+
+### Prerequisites ###
+MAT 137 with a grade greater than or equal to C.
+
+### Catalog Description ###
+Symbolic logic, set theory, functions, and number systems.  Focuses on techniques of proof and mathematical writing.  This course fulfills NAU's junior-level writing requirement.  This course contains an assessment that must be successfully completed in order to register for student teaching.  Letter grade only.
+
 ### Course Description ###
-MAT 411 introduces students to the basic ideas, definitions, examples, theorems and proof techniques of abstract algebra.
+The course trains students on methods and techniques of mathematical communication, focusing on proofs but also covering expository writing and problem-solving explanations.
 
-### Course Content ###
-1. **Group Theory:** axioms, examples of groups of numbers, matrices, and permutations; abelian groups, cyclic groups; order of an element, subgroups, cosets, normal subgroups, factor groups, homomorphisms, kernels; Cayley’s Theorem, LaGrange’s Theorem, First Isomorphism Theorem.
-2. **Rings:** axioms, examples of rings of numbers, matrices, and polynomials; unity, units, divisibility, zero divisors, integral domains, division rings, field of quotients, ideals, homomorphisms, factor rings, prime and maximal ideals.
-3. **Fields:** axioms, examples; polynomials, divisibility criteria, irreducible polynomial, construction of finite fields and their cyclic multiplication groups.
+### Learning Outcomes ###
+Upon successful completion of the course, students will be able to:
+1. Write a readable and mathematically rigorous proof.
+2. Express in writing, knowledge of the terminology, concepts, basic properties and methodology of symbolic logic, set theory, relations and functions, mathematical induction, cardinality, and number systems.
+3. Propose useful definitions and make correct deductions from definitions.
+4. Identify correct proof structures and criticize incorrect proof structures.
 
-### Goals ###
-Aside from the obvious goal of wanting you to learn how to write rigorous mathematical proofs, one of my principal ambitions is to make you independent of me.  Nothing else that I teach you will be half so valuable or powerful as the ability to reach conclusions by reasoning logically from first principles and being able to justify those conclusions in clear, persuasive language (either oral or written).   Furthermore, I want you to experience the unmistakable feeling that comes when one really understands something thoroughly.  Much "classroom knowledge" is fairly superficial, and students often find it hard to judge their own level of understanding. For many of us, the only way we know whether we are "getting it" comes from the grade we make on an exam.  I want you to become less reliant on such externals.  When you can distinguish between really knowing something and merely knowing about something, you will be on your way to becoming an independent learner.  Lastly, it is my sincere hope that all of us (myself included) will improve our oral and written communications skills.
+### Purpose ###
+The primary objective of this course is to develop skills necessary for effective proof writing.  Students will improve their ability to read and write mathematics.  Successful completion of MAT 320 provides students with the background necessary for upper division mathematics courses.  Also, the purpose of any mathematics course is to challenge and train the mind.  Learning mathematics enhances critical thinking and problem solving skills.
 
 ### Learning Management System ###
-We will make limited use of BbLearn this semester, which is Northern Arizona University's default learning management system (LMS).  Most course content (e.g., syllabus, course notes, homework, etc.) will be housed here on our [course webpage]({{site.baseurl}}/teaching/mat411f16/) that lives outside of BbLearn.  I suggest you bookmark this page.  The only thing I will use BbLearn for is to communicate grades.
+We will make limited use of BbLearn this semester, which is Northern Arizona University's default learning management system (LMS).  Most course content (e.g., syllabus, course notes, homework, etc.) will be housed here on our [course webpage]({{site.baseurl}}/teaching/mat320s17/) that lives outside of BbLearn.  I suggest you bookmark this page.  The only thing I will use BbLearn for is to communicate grades.
 
 ### Course Notes ###
-We will not use a textbook this semester, but rather a task-sequence adopted for IBL.  The task-sequence that we are using was written by me. Any errors in the notes are no one's fault but my own.  In this vein, if you think you see an error, please inform me, so that it can be remedied.  The course notes are available [here]({{site.baseurl}}/teaching/mat411f16/materials/).
+We will not use a textbook this semester, but rather a task-sequence adopted for IBL.  The task-sequence that we are using was written by me. Any errors in the notes are no one's fault but my own.  In this vein, if you think you see an error, please inform me, so that it can be remedied.  The course notes are available [here]({{site.baseurl}}/teaching/mat320s17/materials/).
 
 I will not be covering every detail of the notes and the only way to achieve a sufficient understanding of the material is to be digesting the reading in a meaningful way.  You should be seeking clarification about the content of the notes whenever necessary by asking questions.  Here's one of my favorite quotes about reading mathematics.
 
@@ -103,14 +117,52 @@ In this course, *everyone* will be required to
 
 As the semester progresses, it should become clear to you what the expectations are.  This will be new to many of you and there may be some growing pains associated with it.
 
-### Homework ###
-You are allowed and encouraged to work together on homework.  However, each student is expected to turn in his or her own work.  In general, late homework will *not* be accepted.  However, you are allowed to turn in three late homework assignments with no questions asked. Unless you have made arrangements in advance with me, homework turned in after class will be considered late. When doing your homework, I encourage you to use the Elements of Style for Proofs (see Appendix B of the [course notes]({{site.baseurl}}/teaching/mat411f16/materials/) as a reference. Your overall homework grade will be worth 20% of your final grade.
 
-On each homework assignment, please write (i) your name, (ii) name of course, and (iii) Daily/Weekly Homework number.  You can find the list of assignments on the [homework page]({{site.baseurl}}/teaching/mat411f16/homework/).  I reserve the right to modify the homework assignments as I see necessary.
+
+
+
+
+
+
+
+
+
+<!--
+### Comments about this course and expectations ###
+This course will likely be different than any other math class that you have taken before for two main reasons.  First, you are used to being asked to do things like: "solve for $x$," "take the derivative of this function," "integrate this function," etc.  Accomplishing tasks like these usually amounts to mimicking examples that you have seen in class or in your textbook.  The steps you take to "solve" problems like these are always justified by mathematical facts (theorems), but rarely are you paying explicit attention to when you are actually using these facts.  Furthermore, justifying (i.e., proving) the mathematical facts you use may have been omitted by the instructor.  And, even if the instructor did prove a given theorem, you may not have taken the time or have been able to digest the content of the proof.
+
+Unlike previous courses, this course is all about "proof."  Mathematicians are in the business of proving theorems and this is exactly our endeavor.  For the first time, you will be exposed to what "doing" mathematics is really all about.  This will most likely be a shock to your system.  Considering the number of math courses that you have taken before you arrived here, one would think that you have some idea what mathematics is all about.  You must be prepared to modify your paradigm.  The second reason why this course will be different for you is that the method by which the class will run and the expectations I have of you will be different.  In a typical course, math or otherwise, you sit and listen to a lecture.  (Hopefully) These lectures are polished and well-delivered.  You may have often been lured into believing that the instructor has opened up your head and is pouring knowledge into it.  I absolutely love lecturing and I do believe there is value in it, but I also believe that in reality most students do <i>not</i> learn by simply listening.  You must be active in the learning you are doing.  I'm sure each of you have said to yourselves, "Hmmm, I understood this concept when the professor was going over it, but now that I am alone, I am lost."  In order to promote a more active participation in your learning, we will incorporate ideas from an educational philosophy called the [Moore method](http://legacyrlmoore.org/method.html) (after R.L. Moore).  Modifications of the Moore method are also referred to as [inquiry-based learning](http://www.inquirybasedlearning.org/?page=What_is_IBL) (IBL) or discovery-based learning.  If you want to learn more about IBL, go [here](http://danaernst.com/resources/inquiry-based-learning/).
+
+Much of the course will be devoted to students proving theorems on the board and a significant portion of your grade will be determined by how much mathematics you produce.  I use the word "produce" because I believe that the best way to learn mathematics is by doing mathematics.  Someone cannot master a musical instrument or a martial art by simply watching, and in a similar fashion, you cannot master mathematics by simply watching; you must do mathematics!
+
+Furthermore, it is important to understand that proving theorems is difficult and takes time.  You shouldn't expect to complete a single proof in 10 minutes.  Sometimes, you might have to stare at the statement for an hour before even understanding how to get started.  In fact, proving theorems can be a lot like the clip from the *Big Bang Theory* located [here](http://www.youtube.com/watch?v=i5oc-70Fby4&feature=related).
+
+In this course, *everyone* will be required to
+
+- read and interact with course notes on your own;
+- write up quality proofs to assigned problems;
+- present proofs on the board to the rest of the class;
+- participate in discussions centered around a student's presented proof;
+- call upon your own prodigious mental faculties to respond in flexible, thoughtful, and creative ways to problems that may seem unfamiliar on first glance.
+
+As the semester progresses, it should become clear to you what the expectations are.  This will be new to many of you and there may be some growing pains associated with it.
+
+
+### Goals ###
+(Adopted from *Chapter Zero Instructor Resource Manual*) Aside from the obvious goal of wanting you to learn how to write rigorous mathematical proofs, one of my principal ambitions is to make you independent of me.  Nothing else that I teach you will be half so valuable or powerful as the ability to reach conclusions by reasoning logically from first principles and being able to justify those conclusions in clear, persuasive language (either oral or written).   Furthermore, I want you to experience the unmistakable feeling that comes when one really understands something thoroughly.  Much "classroom knowledge" is fairly superficial, and students often find it hard to judge their own level of understanding. For many of us, the only way we know whether we are "getting it" comes from the grade we make on an exam.  I want you to become less reliant on such externals.  When you can distinguish between really knowing something and merely knowing about something, you will be on your way to becoming an independent learner.  Lastly, it is my sincere hope that all of us (myself included) will improve our oral and written communications skills.
+
+### A little more propaganda ###
+All of the secondary skills you will develop in this course are highly valued by society. Whether you become a teacher, a lawyer, an engineer, or an artist, what differentiates you from your competition is your ability to think critically at a high level, collaborate professionally, and communicate effectively.
+-->
+
+### Homework ###
+You are allowed and encouraged to work together on homework.  However, each student is expected to turn in his or her own work.  In general, late homework will *not* be accepted.  However, you are allowed to turn in three late homework assignments with no questions asked. Unless you have made arrangements in advance with me, homework turned in after class will be considered late. When doing your homework, I encourage you to use the Elements of Style for Proofs (see Appendix B of the [course notes]({{site.baseurl}}/teaching/mat320s17/materials/) as a reference. Your overall homework grade will be worth 20% of your final grade.
+
+On each homework assignment, please write (i) your name, (ii) name of course, and (iii) Daily/Weekly Homework number.  You can find the list of assignments on the [homework page]({{site.baseurl}}/teaching/mat320s17/homework/).  I reserve the right to modify the homework assignments as I see necessary.
 
 **Daily Homework:** Homework will be assigned each class meeting, and students are expected to complete (or try their best to complete) each assignment before walking into the next class period. All assignments should be *carefully*, *clearly*, and *cleanly* written. Among other things, this means your work should include proper grammar, punctuation, and spelling. You should write a draft of a given solution before you write down the final argument, so do yourself a favor and get in the habit of differentiating your scratch work from your submitted assignment.
 
-The Daily Homework will generally consist of completing exercises and proving theorems from the [course notes]({{site.baseurl}}/teaching/mat411f16/materials/).  In addition to completing the assigned problems, I also want you to assess your own work.  Next to each problem, I want you to write down a score between 0 and 4 that represents your perception of the validity and quality of your proposed solution/proof. Consider using the rubric given below in the description of the Weekly Homework assignments.  Not completing the self-assessment step will impact the score on your homework.  
+The Daily Homework will generally consist of completing exercises and proving theorems from the [course notes]({{site.baseurl}}/teaching/mat320s17/materials/).  In addition to completing the assigned problems, I also want you to assess your own work.  Next to each problem, I want you to write down a score between 0 and 4 that represents your perception of the validity and quality of your proposed solution/proof. Consider using the rubric given below in the description of the Weekly Homework assignments.  Not completing the self-assessment step will impact the score on your homework.  
 
 On the day that a homework assignment is due, the majority of the class period will be devoted to students presenting some subset (maybe all) of the proofs/solutions that are due that day.  At the end of each class session, students should submit their write-ups for all of the proofs that were due that day.  Daily Homework will be graded using a $\checkmark$-system.  Students are allowed (in fact, encouraged!) to modify their written proofs in light of presentations made in class; however, **you are required to use the colored marker pens provided in class**.  I will provide more guidance with respect to this during the first couple weeks of the semester.
 
@@ -255,7 +307,7 @@ In summary, your final grade will be determined by your scores in the following 
 Regular attendance is expected and is vital to success in this course, but you will not explicitly be graded on attendance.  Yet, repeated absences may impact your participation grade (see above).  Students can find more information about NAU's attendance policy on the [Academic Policies](http://nau.edu/Student-Life/Student-Handbook/Academic-Policies/) page.
 
 ### Department and University Policies ###
-You are responsible for knowing and following the [Department of Mathematics and Statistics Policies]({{ site.baseurl }}/teaching/DepartmentPoliciesFall2016.pdf) (PDF) and other University policies listed [here](http://nau.edu/OCLDAA/_Forms/UCC/SyllabusPolicyStmts2-2014/) (PDF).  More policies can be found in other university documents, especially the [NAU Student Handbook](http://nau.edu/Student-Life/Student-Handbook/) (see appendices) and the website of the [Office of Student Life](http://nau.edu/Student-Life/).
+You are responsible for knowing and following the [Department of Mathematics and Statistics Policies]({{ site.baseurl }}/teaching/DepartmentPoliciesSpring2017.pdf) (PDF) and other University policies listed [here](http://nau.edu/OCLDAA/_Forms/UCC/SyllabusPolicyStmts2-2014/) (PDF).  More policies can be found in other university documents, especially the [NAU Student Handbook](http://nau.edu/Student-Life/Student-Handbook/) (see appendices) and the website of the [Office of Student Life](http://nau.edu/Student-Life/).
 
 As per Department Policy, cell phones, mp3 players and portable electronic communication devices, including but not limited to smart phones, cameras and recording devices, must be turned off and inaccessible during in-class tests. Any violation of this policy will be treated as academic dishonesty.
 
