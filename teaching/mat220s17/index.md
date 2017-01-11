@@ -63,7 +63,7 @@ Much of the course will be devoted to students presenting their proposed solutio
 
 Furthermore, it is important to understand that solving genuine problems is difficult and takes time.  You shouldn't expect to complete each problem in 10 minutes or less.  Sometimes, you might have to stare at the problem for an hour before even understanding how to get started.  In fact, solving difficult problems can be a lot like the clip from the *Big Bang Theory* located below.
 
-<div class="embed-responsive embed-responsive-16by9">
+<div class="embed-responsive embed-responsive-16by9" style="margin: 10px 0 10px 0">
 <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/i5oc-70Fby4"></iframe>
 </div>
 
