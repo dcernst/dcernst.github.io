@@ -32,6 +32,32 @@ layout: default
 ## Welcome ##
 Welcome to the course web page for the Spring 2017 manifestation of MAT 320: Foundations of Mathematics at [Northern Arizona University](http://nau.edu).
 
+<div class="row">
+  <div class="col-xs-12 col-sm-6">
+    <div>
+    <h3>Course Info</h3>
+    <strong>Title:</strong> MAT 320: Foundations of Mathematics<br />
+    <strong>Semester:</strong> Spring 2017<br />
+    <strong>Credits:</strong> 3<br />
+    <strong>Section:</strong> 1<br />
+    <strong>Time:</strong> MWF at 11:30AM-12:20PM<br />
+    <strong>Location:</strong> AMB 225
+    </div>
+  </div>
+
+  <div class="col-xs-12 col-sm-6">
+    <div>
+      <h3>Instructor Info</h3>
+      <i class="fa fa-user fa-fw"></i>&nbsp; Dana C. Ernst, PhD<br />
+      <i class="fa fa-university fa-fw"></i>&nbsp; AMB 176<br />
+      <i class="fa fa-users fa-fw"></i>&nbsp; TBA (or by appointment)<br />
+      <i class="fa fa-envelope-o fa-fw"></i>&nbsp; <a href="mailto:dana.ernst@nau.edu">dana.ernst@nau.edu</a><br />
+      <i class="fa fa-phone fa-fw"></i>&nbsp; 928.523.6852<br />
+      <i class="fa fa-link fa-fw"></i>&nbsp; <a href="{{site.baseurl}}">dcernst.github.io</a>
+    </div>
+  </div>
+</div>
+
 ## Instructor Info ##
 
 <address>
