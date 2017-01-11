@@ -10,13 +10,6 @@ title: Welcome
 
 <img src="{{ site.baseurl }}/images/DanaTeachingWide.jpg" class="img-responsive img-rounded" img style="margin-bottom: 10px" />
 
-<h2>Example</h2>
-<p>Resize this page to see how the text below changes:</p>
-<h1 class="hidden-xs bg-danger">This text is hidden on an EXTRA SMALL screen.</h1>
-<h1 class="hidden-sm bg-info">This text is hidden on a SMALL screen.</h1>
-<h1 class="hidden-md bg-warning">This is text hidden on a MEDIUM screen.</h1>
-<h1 class="hidden-lg bg-success">This is text hidden on a LARGE screen.</h1>
-
 My name is Dana Ernst and I am an assistant professor in the <a href="http://nau.edu/cefns/natsci/math/">Department of Mathematics and Statistics</a> at <a href="http://nau.edu">Northern Arizona University</a> in <a href="https://maps.google.com/maps?q=Flagstaff,+AZ&amp;hl=en&amp;sll=37.0625,-95.677068&amp;sspn=57.161276,109.511719&amp;oq=fl&amp;hnear=Flagstaff,+Coconino,+Arizona&amp;t=m&amp;z=12">Flagstaff, AZ</a>.  This site is part of the <a href="http://boolesrings.org">Booles' Rings</a> network of academic home pages/blogs.
 
 My primary research interests are in the interplay between combinatorics and algebraic structures. More specifically, I study the combinatorics of <a href="http://en.wikipedia.org/wiki/Coxeter_group">Coxeter groups</a> and their associated <a href="http://en.wikipedia.org/wiki/Hecke_algebra">Hecke algebras</a>, <a href="http://en.wikipedia.org/wiki/Kazhdan%E2%80%93Lusztig_polynomial">Kazhdan-Lusztig theory</a>, generalized <a href="http://en.wikipedia.org/wiki/Temperley-Lieb_algebra">Temperley-Lieb algebras</a>, <a href="http://en.wikipedia.org/wiki/Planar_algebra">diagram algebras</a>, and <a href="http://www.emis.de/journals/SLC/books/heaps.ps">heaps of pieces</a>. By employing combinatorial tools such as diagram algebras and heaps of pieces, one can gain insight into algebraic structures associated to Coxeter groups, and, conversely, the corresponding structure theory can often lead to surprising combinatorial results. More recently, my research has expanded into <a href="https://en.wikipedia.org/wiki/Combinatorial_game_theory">combinatorial game theory</a> (joint with <a href="http://jan.ucc.nau.edu/ns46/">Nandor Sieben</a> and <a href="http://www.users.csbsju.edu/~bbenesh/">Bret Benesh</a>).  In particular, our research has focused on avoidance and achievement games involving finite groups.  See my <a href="{{ site.baseurl }}/scholarship/">scholarship page</a> for more information.
