@@ -34,7 +34,7 @@ The following assignments are to be turned in at the end of the indicated class 
 
 - **Daily Homework 1:** Read the [syllabus]({{site.baseurl}}/teaching/mat220s17/syllabus/) and write down 5 important items.  *Note:*  All of the exam dates only count as a single item.  Turn in on your own paper at the beginning of class. (Due Friday, January 20)
 - **Daily Homework 2:** Read and sign the [Student Contract]({{site.baseurl}}/teaching/StudentContract.pdf). (Due Friday, January 20)
-- **Daily Homework 3:** Stop by my office (AMB 176) and say hello. If I'm not there, just slide note under my door saying you stopped by. (Due Friday, January 20)
+- **Daily Homework 3:** Stop by my office (AMB 176) and say hello. If I'm not there, just slide note under my door saying you stopped by. (Due by 4PM on Friday, January 20)
 - **Daily Homework 4:** Coming soon. (Due Friday, January 20)
 
 ## Weekly Homework ##
