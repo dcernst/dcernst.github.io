@@ -313,8 +313,8 @@ Please turn off the ringer on your cell phone.  I do not have a strict policy on
 Here are some important dates:
 
 - **Thursday, January 26**: Last day to drop/add (no W appears on transcript)
-- **Friday, March 24:**: Last day to withdraw from a course (W appears on transcript)
 - **Monday, March 13-Friday, March 17:** Spring Break (no classes)
+- **Friday, March 24:**: Last day to withdraw from a course (W appears on transcript)
 - **Wednesday, May 10**: Final Exam
 
 ### Getting Help ###
