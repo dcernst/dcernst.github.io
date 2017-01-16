@@ -204,7 +204,7 @@ In general, I will curate the list of student presenters each class meeting.  Ho
 In order to receive a **passing grade** on the presentation portion of your grade, **you must present at least three times prior to the end of week 7 of the semester** (Friday, March 3) and **at least three times after week 7 of the semester**. Notice that I've described a minimum.  To ensure a good grade, you should present as often as you can. Your overall performance during presentations, as well as your level of interaction/participation during class, is worth 15% of your overall grade.
 
 #### Quizzes and Final Exam ####
-We will have 7 quizzes this semester.  The first one will be given during week 3 and then we will have a quiz every 2 weeks after.  Tentatively, the quizzes are scheduled for the following Wednesdays:
+We will have 7 quizzes this semester.  The first one will be given during week 3 and then we will have a quiz every 2 weeks thereafter.  Tentatively, the quizzes are scheduled for the following Wednesdays:
 
 - Quiz 1: February 8
 - Quiz 2: February 22
