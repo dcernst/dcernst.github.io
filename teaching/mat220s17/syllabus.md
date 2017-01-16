@@ -283,7 +283,7 @@ In summary, your final grade is determined by your scores in the following categ
 		<td>See above for details</td>
 	</tr>
 	<tr>
-		<td>Quizzes/td>
+		<td>Quizzes</td>
 		<td>50%</td>
 		<td>Best six out of seven</td>
 	</tr>
