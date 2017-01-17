@@ -37,6 +37,7 @@ The following assignments are to be turned in at the end of the indicated class 
 - **Daily Homework 3:** Stop by my office (AMB 176) and say hello. If I'm not there, just slide note under my door saying you stopped by. (Due by 4PM on Friday, January 20)
 - **Daily Homework 4:** Coming soon. (Due Friday, January 20)
 
+<!--
 ## Weekly Homework ##
 In addition to the Daily Homework, we will also have Weekly Homework assignments.  For most of these assignments, you will be required to submit 2-3 formally written proofs.  Typically, two of the problems will come directly from the Daily Homework from the previous week.  Any additional problems will likely be new.  You will be required to type your submission using $\LaTeX$ (see below for more on this).  You can either submit a hardcopy of your assignment or email me the PDF of your completed work. If you email me the PDF, please name your file as <code>WeeklyX-Lastname.pdf</code>, where <code>X</code> is the number of the assignment and <code>Lastname</code> is your last name.  Notice there are no spaces in the filename.
 
@@ -53,8 +54,9 @@ You are required to use $\LaTeX$ to type up your Weekly Homework assignments.  T
 </center>
 
 <br>
-
+=
 ### Coding Homework ###
 There will be 3-4 short programming assignments given this semester that utilize the [Sage Math Cloud](https://cloud.sagemath.com) together with [Python](https://www.python.org), [Sage](http://www.sagemath.org), and the [iPython Notebook](http://ipython.org) interface.
 
 - **Coding Homework 1:** Complete the corresponding assignment in [Sage Math Cloud](https://cloud.sagemath.com). (Coming soon)
+-->
