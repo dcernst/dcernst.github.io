@@ -57,42 +57,38 @@ layout: default
 
 </div>
 
-## Course Information and Policies ##
+### Course Information and Policies ###
 
-### Prerequisites ###
+#### Prerequisites ####
 MAT 137 with a grade greater than or equal to C.
 
-### Catalog Description ###
+#### Catalog Description ####
 Symbolic logic, set theory, functions, and number systems.  Focuses on techniques of proof and mathematical writing.  This course fulfills NAU's junior-level writing requirement.  This course contains an assessment that must be successfully completed in order to register for student teaching.  Letter grade only.
 
-### Course Description ###
+#### Course Description ####
 The course trains students on methods and techniques of mathematical communication, focusing on proofs but also covering expository writing and problem-solving explanations.
 
-### Learning Outcomes ###
+#### Learning Outcomes ####
 Upon successful completion of the course, students will be able to:
+
 1. Write a readable and mathematically rigorous proof.
 2. Express in writing, knowledge of the terminology, concepts, basic properties and methodology of symbolic logic, set theory, relations and functions, mathematical induction, cardinality, and number systems.
 3. Propose useful definitions and make correct deductions from definitions.
 4. Identify correct proof structures and criticize incorrect proof structures.
 
-### Purpose ###
-The primary objective of this course is to develop skills necessary for effective proof writing.  Students will improve their ability to read and write mathematics.  Successful completion of MAT 320 provides students with the background necessary for upper division mathematics courses.  Also, the purpose of any mathematics course is to challenge and train the mind.  Learning mathematics enhances critical thinking and problem solving skills.
+#### What is This Course Really About? ###
+The primary objective of this course is to develop skills necessary for effective proof writing.  Students will improve their ability to read and write mathematics.  Successful completion of MAT 320 provides students with the background necessary for upper division mathematics courses.
 
-### Learning Management System ###
-We will make limited use of BbLearn this semester, which is Northern Arizona University's default learning management system (LMS).  Most course content (e.g., syllabus, course notes, homework, etc.) will be housed here on our [course webpage]({{site.baseurl}}/teaching/mat320s17/) that lives outside of BbLearn.  I suggest you bookmark this page.  The only thing I will use BbLearn for is to communicate grades.
+Aside from the obvious goal of wanting you to learn how to write rigorous mathematical proofs, one of my principal ambitions is to make you independent of me.  Nothing else that I teach you will be half so valuable or powerful as the ability to reach conclusions by reasoning logically from first principles and being able to justify those conclusions in clear, persuasive language (either oral or written).   Furthermore, I want you to experience the unmistakable feeling that comes when one really understands something thoroughly.  Much "classroom knowledge" is fairly superficial, and students often find it hard to judge their own level of understanding. For many of us, the only way we know whether we are "getting it" comes from the grade we make on an exam.  I want you to become less reliant on such externals.  When you can distinguish between really knowing something and merely knowing about something, you will be on your way to becoming an independent learner.  Lastly, it is my sincere hope that all of us (myself included) will improve our oral and written communications skills.
 
-### Course Notes ###
-We will not use a textbook this semester, but rather a task-sequence adopted for IBL.  The task-sequence that we are using was written by me. Any errors in the notes are no one's fault but my own.  In this vein, if you think you see an error, please inform me, so that it can be remedied.  The course notes are available [here]({{site.baseurl}}/teaching/mat320s17/materials/).
+This course will likely be different than any other math class that you have taken before for two main reasons.  First, you are used to being asked to do things like: "solve for $x$," "take the derivative of this function," "integrate this function," etc.  Accomplishing tasks like these usually amounts to mimicking examples that you have seen in class or in your textbook.  The steps you take to "solve" problems like these are always justified by mathematical facts (theorems), but rarely are you paying explicit attention to when you are actually using these facts.  Furthermore, justifying (i.e., proving) the mathematical facts you use may have been omitted by the instructor.  And, even if the instructor did prove a given theorem, you may not have taken the time or have been able to digest the content of the proof.
 
-I will not be covering every detail of the notes and the only way to achieve a sufficient understanding of the material is to be digesting the reading in a meaningful way.  You should be seeking clarification about the content of the notes whenever necessary by asking questions.  Here's one of my favorite quotes about reading mathematics.
+Unlike previous courses, this course is all about "proof."  Mathematicians are in the business of proving theorems and this is exactly our endeavor.  For the first time, you will be exposed to what "doing" mathematics is really all about.  This will most likely be a shock to your system.  Considering the number of math courses that you have taken before you arrived here, one would think that you have some idea what mathematics is all about.  You must be prepared to modify your paradigm.  The second reason why this course will be different for you is that the method by which the class will run and the expectations I have of you will be different.  In a typical course, math or otherwise, you sit and listen to a lecture.  (Hopefully) These lectures are polished and well-delivered.  You may have often been lured into believing that the instructor has opened up your head and is pouring knowledge into it.  I absolutely love lecturing and I do believe there is value in it, but I also believe that in reality most students do <i>not</i> learn by simply listening.  You must be active in the learning you are doing.
 
-<blockquote>
-  <p>Don’t just read it; fight it! Ask your own questions, look for your own examples, discover your own proofs. Is the hypothesis necessary? Is the converse true? What happens in the classical special case? What about the degenerate cases? Where does the proof use the hypothesis?</p>
-  <footer><a href="http://en.wikipedia.org/wiki/Paul_Halmos">Paul Halmos</a></footer>
-</blockquote>
+All of the secondary skills you will develop in this course are highly valued by society. Whether you become a teacher, a lawyer, an engineer, or an artist, what differentiates you from your competition is your ability to think critically at a high level, collaborate professionally, and communicate effectively.
 
 ### An Inquiry-Based Approach ###
-This is not a lecture-oriented class or one in which mimicking prefabricated examples will lead you to success. You will be expected to work actively to construct your own understanding of the topics at hand, with the readily available help of me and your classmates. Many of the concepts you learn and problems you work will be new to you and ask you to stretch your thinking. You will experience *frustration* and *failure* before you experience *understanding*. This is part of the normal learning process. **If you are doing things well, you should be confused at different points in the semester. The material is too rich for a human being to completely understand it immediately.** Your viability as a professional in the modern workforce depends on your ability to embrace this learning process and make it work for you.
+This is not a lecture-oriented class or one in which mimicking prefabricated examples will lead you to success. You will be expected to work actively to construct your own understanding of the topics at hand with the readily available help of me and your classmates. Many of the concepts you learn and problems you work on will be new to you and ask you to stretch your thinking. You will experience *frustration* and *failure* before you experience *understanding*. This is part of the normal learning process. **If you are doing things well, you should be confused at different points in the semester. The material is too rich for a human being to completely understand it immediately.** Your viability as a professional in the modern workforce depends on your ability to embrace this learning process and make it work for you.
 
 In order to promote a more active participation in your learning, we will incorporate ideas from an educational philosophy called [inquiry-based learning](http://maamathedmatters.blogspot.com/2013/05/what-heck-is-ibl.html) (IBL).  Loosely speaking, IBL is a student-centered method of teaching mathematics that engages students in sense-making activities.  Students are given tasks requiring them to solve problems, conjecture, experiment, explore, create, and communicate.  Rather than showing facts or a clear, smooth path to a solution, the instructor guides and mentors students via well-crafted problems through an adventure in mathematical discovery.  Effective IBL courses encourage deep engagement in rich mathematical activities and provide opportunities to collaborate with peers (either through class presentations or group-oriented work).
 
@@ -117,45 +113,30 @@ In this course, *everyone* will be required to
 
 As the semester progresses, it should become clear to you what the expectations are.  This will be new to many of you and there may be some growing pains associated with it.
 
+#### Course Structure and Approach ####
+Class meetings will consist of discussion of problems, student-led presentations, and group work focused on problems selected by the instructor. A typical class session may include:
 
+- Informal student presentations of progress on previously assigned homework problems;
+- Summary of major steps and techniques of the solution of a finished problem;
+- Exploration of alternative approaches, possible generalizations, consequences, special cases, converse;
+- Discussion of relationships to previously assigned or solved problems;
+- Assignment of new problems;
+- Explanation of unfamiliar mathematical concepts as needed.
 
+#### Course Notes ####
+We will not use a textbook this semester, but rather a task-sequence adopted for IBL.  The task-sequence that we are using was written by me. Any errors in the notes are no one's fault but my own.  In this vein, if you think you see an error, please inform me, so that it can be remedied.  The course notes are available [here]({{site.baseurl}}/teaching/mat320s17/materials/).
 
+I will not be covering every detail of the notes and the only way to achieve a sufficient understanding of the material is to be digesting the reading in a meaningful way.  You should be seeking clarification about the content of the notes whenever necessary by asking questions.  Here's one of my favorite quotes about reading mathematics.
 
+<blockquote>
+  <p>Don’t just read it; fight it! Ask your own questions, look for your own examples, discover your own proofs. Is the hypothesis necessary? Is the converse true? What happens in the classical special case? What about the degenerate cases? Where does the proof use the hypothesis?</p>
+  <footer><a href="http://en.wikipedia.org/wiki/Paul_Halmos">Paul Halmos</a></footer>
+</blockquote>
 
+#### Learning Management System ####
+We will make limited use of BbLearn this semester, which is Northern Arizona University's default learning management system (LMS).  Most course content (e.g., syllabus, course notes, homework, etc.) will be housed here on our [course webpage](http://teaching.danaernst.com/mat320s17/) that lives outside of BbLearn.  I suggest you bookmark this page.  The only thing I will use BbLearn for is to communicate grades.
 
-
-
-
-
-<!--
-### Comments about this course and expectations ###
-This course will likely be different than any other math class that you have taken before for two main reasons.  First, you are used to being asked to do things like: "solve for $x$," "take the derivative of this function," "integrate this function," etc.  Accomplishing tasks like these usually amounts to mimicking examples that you have seen in class or in your textbook.  The steps you take to "solve" problems like these are always justified by mathematical facts (theorems), but rarely are you paying explicit attention to when you are actually using these facts.  Furthermore, justifying (i.e., proving) the mathematical facts you use may have been omitted by the instructor.  And, even if the instructor did prove a given theorem, you may not have taken the time or have been able to digest the content of the proof.
-
-Unlike previous courses, this course is all about "proof."  Mathematicians are in the business of proving theorems and this is exactly our endeavor.  For the first time, you will be exposed to what "doing" mathematics is really all about.  This will most likely be a shock to your system.  Considering the number of math courses that you have taken before you arrived here, one would think that you have some idea what mathematics is all about.  You must be prepared to modify your paradigm.  The second reason why this course will be different for you is that the method by which the class will run and the expectations I have of you will be different.  In a typical course, math or otherwise, you sit and listen to a lecture.  (Hopefully) These lectures are polished and well-delivered.  You may have often been lured into believing that the instructor has opened up your head and is pouring knowledge into it.  I absolutely love lecturing and I do believe there is value in it, but I also believe that in reality most students do <i>not</i> learn by simply listening.  You must be active in the learning you are doing.  I'm sure each of you have said to yourselves, "Hmmm, I understood this concept when the professor was going over it, but now that I am alone, I am lost."  In order to promote a more active participation in your learning, we will incorporate ideas from an educational philosophy called the [Moore method](http://legacyrlmoore.org/method.html) (after R.L. Moore).  Modifications of the Moore method are also referred to as [inquiry-based learning](http://www.inquirybasedlearning.org/?page=What_is_IBL) (IBL) or discovery-based learning.  If you want to learn more about IBL, go [here](http://danaernst.com/resources/inquiry-based-learning/).
-
-Much of the course will be devoted to students proving theorems on the board and a significant portion of your grade will be determined by how much mathematics you produce.  I use the word "produce" because I believe that the best way to learn mathematics is by doing mathematics.  Someone cannot master a musical instrument or a martial art by simply watching, and in a similar fashion, you cannot master mathematics by simply watching; you must do mathematics!
-
-Furthermore, it is important to understand that proving theorems is difficult and takes time.  You shouldn't expect to complete a single proof in 10 minutes.  Sometimes, you might have to stare at the statement for an hour before even understanding how to get started.  In fact, proving theorems can be a lot like the clip from the *Big Bang Theory* located [here](http://www.youtube.com/watch?v=i5oc-70Fby4&feature=related).
-
-In this course, *everyone* will be required to
-
-- read and interact with course notes on your own;
-- write up quality proofs to assigned problems;
-- present proofs on the board to the rest of the class;
-- participate in discussions centered around a student's presented proof;
-- call upon your own prodigious mental faculties to respond in flexible, thoughtful, and creative ways to problems that may seem unfamiliar on first glance.
-
-As the semester progresses, it should become clear to you what the expectations are.  This will be new to many of you and there may be some growing pains associated with it.
-
-
-### Goals ###
-(Adopted from *Chapter Zero Instructor Resource Manual*) Aside from the obvious goal of wanting you to learn how to write rigorous mathematical proofs, one of my principal ambitions is to make you independent of me.  Nothing else that I teach you will be half so valuable or powerful as the ability to reach conclusions by reasoning logically from first principles and being able to justify those conclusions in clear, persuasive language (either oral or written).   Furthermore, I want you to experience the unmistakable feeling that comes when one really understands something thoroughly.  Much "classroom knowledge" is fairly superficial, and students often find it hard to judge their own level of understanding. For many of us, the only way we know whether we are "getting it" comes from the grade we make on an exam.  I want you to become less reliant on such externals.  When you can distinguish between really knowing something and merely knowing about something, you will be on your way to becoming an independent learner.  Lastly, it is my sincere hope that all of us (myself included) will improve our oral and written communications skills.
-
-### A little more propaganda ###
-All of the secondary skills you will develop in this course are highly valued by society. Whether you become a teacher, a lawyer, an engineer, or an artist, what differentiates you from your competition is your ability to think critically at a high level, collaborate professionally, and communicate effectively.
--->
-
-### Homework ###
+#### Homework ####
 You are allowed and encouraged to work together on homework.  However, each student is expected to turn in his or her own work.  In general, late homework will *not* be accepted.  However, you are allowed to turn in three late homework assignments with no questions asked. Unless you have made arrangements in advance with me, homework turned in after class will be considered late. When doing your homework, I encourage you to use the Elements of Style for Proofs (see Appendix B of the [course notes]({{site.baseurl}}/teaching/mat320s17/materials/) as a reference. Your overall homework grade will be worth 20% of your final grade.
 
 On each homework assignment, please write (i) your name, (ii) name of course, and (iii) Daily/Weekly Homework number.  You can find the list of assignments on the [homework page]({{site.baseurl}}/teaching/mat320s17/homework/).  I reserve the right to modify the homework assignments as I see necessary.
@@ -201,7 +182,7 @@ On the day that a homework assignment is due, the majority of the class period w
 </table>
 </center>
 
-### Class Presentations and Participation ###
+#### Presentations and Participation ####
 Though the atmosphere in this class should be informal and friendly, what we do in the class is serious business. In particular, the presentations made by students are to be taken seriously since they spearhead the work of the class.  Here are some of my expectations:
 
 - The purpose of class presentations is not to prove to me that the presenter has done the problem. It is to make the ideas of the solution clear to the other students.
@@ -250,13 +231,16 @@ In general, I will curate the list of student presenters each class meeting.  Ho
 
 In order to receive a **passing grade** on the presentation portion of your grade, **you must present at least twice prior to each of the three midterm exams and at least once after the third midterm exam**  for a total of at least 7 times during semester. Notice that I've described a minimum.  To ensure a good grade, you should present as often as you can. Your overall performance during presentations, as well as your level of interaction/participation during class, will be worth 15% of your overall grade.
 
-### Exams ###
+#### Exams ####
 There will be three midterm exams and a cumulative final exam.  Each midterm exam will be worth 15% of your overall grade and the final exam will be worth 20%.  All of the exams will likely consist of both an in-class portion and a take-home portion.  The in-class portions of the midterm exams are *tentatively* scheduled for **Wednesday, September 28**, **Wednesday, October 26**, and <s>Wednesday, November 23</s> **Wednesday, November 30**.  The final exam will be on **Wednesday, December 14** at 7:30-9:30M.  Make-up exams will only be given under extreme circumstances, as judged by me.  In general, it will be best to communicate conflicts ahead of time.
 
-### Rules of the Game ###
+#### Rules of the Game ####
 You should *not* look to resources outside the context of this course for help.  That is, you should not be consulting the web, other texts, other faculty, or students outside of our course.  On the other hand, you may use each other, the course notes, me, and your own intuition.
 
-### Basis for  Evaluation ###
+#### Attendance ####
+Regular attendance is expected and is vital to success in this course, but you will not explicitly be graded on attendance.  Yet, repeated absences may impact your participation grade (see above).  Students can find more information about NAU's attendance policy on the [Academic Policies](http://nau.edu/Student-Life/Student-Handbook/Academic-Policies/) page.
+
+#### Basis for  Evaluation ####
 In summary, your final grade will be determined by your scores in the following categories.
 
 <center>
@@ -303,9 +287,6 @@ In summary, your final grade will be determined by your scores in the following 
 </table>
 </center>
 
-### Attendance ###
-Regular attendance is expected and is vital to success in this course, but you will not explicitly be graded on attendance.  Yet, repeated absences may impact your participation grade (see above).  Students can find more information about NAU's attendance policy on the [Academic Policies](http://nau.edu/Student-Life/Student-Handbook/Academic-Policies/) page.
-
 ### Department and University Policies ###
 You are responsible for knowing and following the [Department of Mathematics and Statistics Policies]({{ site.baseurl }}/teaching/DepartmentPoliciesSpring2017.pdf) (PDF) and other University policies listed [here](http://nau.edu/OCLDAA/_Forms/UCC/SyllabusPolicyStmts2-2014/) (PDF).  More policies can be found in other university documents, especially the [NAU Student Handbook](http://nau.edu/Student-Life/Student-Handbook/) (see appendices) and the website of the [Office of Student Life](http://nau.edu/Student-Life/).
 
@@ -319,12 +300,10 @@ Please turn off the ringer on your cell phone.  I do not have a strict policy on
 ### Important Dates ###
 Here are some important dates:
 
-- **Monday, September 5:** Labor Day (no classes)
-- **Thursday, September 8**: Last day to drop/add (no W appears on transcript)
-- **Friday, November 4:**: Last day to withdraw from a course (W appears on transcript)
-- **Friday, November 11:** Veteran's Day (no classes)
-- **Thursday, November 24-Friday, November 25:** Thanksgiving Holiday (no classes)
-- **Wednesday, December 14**: Final Exam
+- **Thursday, January 26**: Last day to drop/add (no W appears on transcript)
+- **Monday, March 13-Friday, March 17:** Spring Break (no classes)
+- **Friday, March 24:**: Last day to withdraw from a course (W appears on transcript)
+- **Wednesday, May 10**: Final Exam
 
 ### Getting Help ###
 There are many resources available to get help.  First, I recommend that you work on homework in small groups as much as possible, and to come see me whenever necessary.  I am always happy to help you.  If my office hours don't work for you, then we can probably find another time to meet.  It is your responsibility to be aware of how well you understand the material.  Don't wait until it is too late if you need help.  *Ask questions*!  Lastly, you can always [email me](mailto:dana.ernst@nau.edu).
@@ -333,5 +312,5 @@ There are many resources available to get help.  First, I recommend that you wor
 Any changes in this syllabus made during the term will be properly communicated to the class.
 
 <div class="alert alert-info" role="alert">
-<i class="fa fa-hand-peace-o"></i>&nbsp; Portions of "Goals" and "Class Presentations and Participation" are adapted from <a href="http://www2.kenyon.edu/Depts/Math/schumacherc/public_html/" class="alert-link">Carol Schumacher's</a> <i>Chapter Zero Instructor Resource Manual</i>. The first paragraph of "An Inquiry-Based Approach" is borrowed from <a href="https://gist.github.com/RobertTalbert/7854aadbdfca232dbdda" class="alert-link">Robert Talbert</a>. Lastly, I've borrowed a few phrases here and there from <a href="http://www.users.csbsju.edu/~bbenesh/" class="alert-link">Bret Benesh</a>.
+<i class="fa fa-hand-peace-o"></i>&nbsp; Portions of "What is This Course Really About?" and "Class Presentations and Participation" are adapted from <a href="http://www2.kenyon.edu/Depts/Math/schumacherc/public_html/" class="alert-link">Carol Schumacher's</a> <i>Chapter Zero Instructor Resource Manual</i>. The first paragraph of "An Inquiry-Based Approach" is borrowed from <a href="https://gist.github.com/RobertTalbert/7854aadbdfca232dbdda" class="alert-link">Robert Talbert</a>. Lastly, I've borrowed a few phrases here and there from <a href="http://www.users.csbsju.edu/~bbenesh/" class="alert-link">Bret Benesh</a>.
 </div>

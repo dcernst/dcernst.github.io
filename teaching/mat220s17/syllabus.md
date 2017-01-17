@@ -76,47 +76,6 @@ The focus of this course is on reasoning and communication through problem solvi
 
 In addition to helping students develop procedural fluency and conceptual understanding, we must prepare them to ask and explore new questions after they leave our classrooms---a skill that we call **mathematical inquiry**.
 
-#### Course Content ####
-The content of the course includes, but is not limited to:
-
-- Problem solving strategies such as: use of figures and diagrams, use of variables, considering simpler cases, recognizing patterns, conjectures, counterexamples, breaking up into sub-problems, working backwards, case analysis, considering an extreme case, contradiction, induction, pigeon hole principle, symmetry, algorithms, coding, persistence;
-- Writing solutions such as: communicating a solution, planning, organization, lemmas, naming, figures, concise vs. detailed, proofreading;
-- Mathematical thinking such as: generalization, converse, hidden connections, new problem construction, open ended problems, ill-defined problems.
-
-#### Learning Management System ####
-We will make limited use of Bb Learn this semester, which is Northern Arizona University's default learning management system (LMS).  Most course content (e.g., syllabus, course notes, homework, etc.) will be housed here on our [course webpage](http://teaching.danaernst.com/mat220s17/) that lives outside of BbLearn.  I suggest you bookmark this page.  The only thing I will use BbLearn for is to communicate grades.
-
-#### Course Structure and Approach ####
-Class meetings will consist of discussion of problems, student-led presentations, and group work focused on problems selected by the instructor. A typical class session may include:
-
-- Informal student presentations of progress on previously assigned homework problems;
-- Summary of major steps and techniques of the solution of a finished problem;
-- Exploration of alternative approaches, possible generalizations, consequences, special cases, converse;
-- Discussion of relationships to previously assigned or solved problems;
-- Assignment of new problems;
-- Explanation of unfamiliar mathematical concepts as needed.
-
-#### Problem Collection ####
-We will not be using a textbook this semester, but rather a problem sequence designed for this course.  The problem collection will be available on the course webpage. We will not be covering every detail of the notes and the only way to achieve a sufficient understanding of the material is to be digesting the reading in a meaningful way. You should be seeking clarification about the content of the notes whenever necessary by asking questions in class or posting questions to the course forum.  Here's one of my favorite quotes about reading mathematics.
-
-<blockquote>
-  <p>Don’t just read it; fight it! Ask your own questions, look for your own examples, discover your own proofs. Is the hypothesis necessary? Is the converse true? What happens in the classical special case? What about the degenerate cases? Where does the proof use the hypothesis?</p>
-  <footer><a href="http://en.wikipedia.org/wiki/Paul_Halmos">Paul Halmos</a></footer>
-</blockquote>
-
-#### Course Outline ####
-We will work through the problem-sequence as the semester progresses.  The pace at which we cover the material depends largely on how quickly the class can digest the material in a meaningful way.  In general, the difficulty of the problems will increase as the course progresses.  Activities, assignments, and class discussions will be designed to introduce you to a variety of problem solving strategies.  
-
-#### Student Learning Expectations/Outcomes ####
-Upon successful completion of the course, you will be able to:
-
-- Solve multi-step, complex problems in elementary areas of mathematics using common problem solving strategies;
-- Judge what constitutes a solid mathematical argument;
-- Write readable and concise solutions using correct English with some mathematical notation.
-
-#### Assessment of Student Learning Outcomes ####
-Student assessment will be based on regular class attendance, participation during class meetings, consistent progress on assigned homework problems, in-class quizzes, and a comprehensive final examination.  Homework may include newly assigned problems, as well as formal write-ups of previously explored problems.  
-
 #### An Inquiry-Based Approach ####
 This is not a lecture-oriented class or one in which mimicking prefabricated examples will lead you to success. You will be expected to work actively to construct your own understanding of the topics at hand with the readily available help of me and your classmates. Many of the concepts you learn and problems you work on will be new to you and ask you to stretch your thinking. You will experience *frustration* and *failure* before you experience *understanding*. This is part of the normal learning process. **If you are doing things well, you should be confused at different points in the semester. The material is too rich for a human being to completely understand it immediately.** Your viability as a professional in the modern workforce depends on your ability to embrace this learning process and make it work for you.
 
@@ -142,6 +101,47 @@ In this course, *everyone* will be required to
 - call upon your own prodigious mental faculties to respond in flexible, thoughtful, and creative ways to problems that may seem unfamiliar on first glance.
 
 As the semester progresses, it should become clear to you what the expectations are.  This will be new to many of you and there may be some growing pains associated with it.
+
+#### Course Content ####
+The content of the course includes, but is not limited to:
+
+- Problem solving strategies such as: use of figures and diagrams, use of variables, considering simpler cases, recognizing patterns, conjectures, counterexamples, breaking up into sub-problems, working backwards, case analysis, considering an extreme case, contradiction, induction, pigeon hole principle, symmetry, algorithms, coding, persistence;
+- Writing solutions such as: communicating a solution, planning, organization, lemmas, naming, figures, concise vs. detailed, proofreading;
+- Mathematical thinking such as: generalization, converse, hidden connections, new problem construction, open ended problems, ill-defined problems.
+
+#### Course Structure and Approach ####
+Class meetings will consist of discussion of problems, student-led presentations, and group work focused on problems selected by the instructor. A typical class session may include:
+
+- Informal student presentations of progress on previously assigned homework problems;
+- Summary of major steps and techniques of the solution of a finished problem;
+- Exploration of alternative approaches, possible generalizations, consequences, special cases, converse;
+- Discussion of relationships to previously assigned or solved problems;
+- Assignment of new problems;
+- Explanation of unfamiliar mathematical concepts as needed.
+
+#### Course Outline ####
+We will work through the problem-sequence as the semester progresses.  The pace at which we cover the material depends largely on how quickly the class can digest the material in a meaningful way.  In general, the difficulty of the problems will increase as the course progresses.  Activities, assignments, and class discussions will be designed to introduce you to a variety of problem solving strategies.  
+
+#### Student Learning Expectations/Outcomes ####
+Upon successful completion of the course, you will be able to:
+
+- Solve multi-step, complex problems in elementary areas of mathematics using common problem solving strategies;
+- Judge what constitutes a solid mathematical argument;
+- Write readable and concise solutions using correct English with some mathematical notation.
+
+#### Assessment of Student Learning Outcomes ####
+Student assessment will be based on regular class attendance, participation during class meetings, consistent progress on assigned homework problems, in-class quizzes, and a comprehensive final examination.  Homework may include newly assigned problems, as well as formal write-ups of previously explored problems.  
+
+#### Problem Collection ####
+We will not be using a textbook this semester, but rather a problem sequence designed for this course.  The problem collection will be available on the course webpage. We will not be covering every detail of the notes and the only way to achieve a sufficient understanding of the material is to be digesting the reading in a meaningful way. You should be seeking clarification about the content of the notes whenever necessary by asking questions in class or posting questions to the course forum.  Here's one of my favorite quotes about reading mathematics.
+
+<blockquote>
+  <p>Don’t just read it; fight it! Ask your own questions, look for your own examples, discover your own proofs. Is the hypothesis necessary? Is the converse true? What happens in the classical special case? What about the degenerate cases? Where does the proof use the hypothesis?</p>
+  <footer><a href="http://en.wikipedia.org/wiki/Paul_Halmos">Paul Halmos</a></footer>
+</blockquote>
+
+#### Learning Management System ####
+We will make limited use of BbLearn this semester, which is Northern Arizona University's default learning management system (LMS).  Most course content (e.g., syllabus, course notes, homework, etc.) will be housed here on our [course webpage](http://teaching.danaernst.com/mat220s17/) that lives outside of BbLearn.  I suggest you bookmark this page.  The only thing I will use BbLearn for is to communicate grades.
 
 #### Homework ####
 Homework will be assigned each class meeting, and you are expected to complete (or try your best to complete) each assignment before walking into the next class period. All assignments should be carefully, clearly, and cleanly written. Among other things, this means your work should include proper grammar, punctuation and spelling. You will almost always write a draft of a given solution before you write down the final argument, so do yourself a favor and get in the habit of differentiating your scratch work from your submitted assignment.  
