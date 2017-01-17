@@ -146,7 +146,7 @@ We will make limited use of BbLearn this semester, which is Northern Arizona Uni
 #### Homework ####
 Homework will be assigned each class meeting, and you are expected to complete (or try your best to complete) each assignment before walking into the next class period. All assignments should be carefully, clearly, and cleanly written. Among other things, this means your work should include proper grammar, punctuation and spelling. You will almost always write a draft of a given solution before you write down the final argument, so do yourself a favor and get in the habit of differentiating your scratch work from your submitted assignment.  
 
-Homework assignments will generally consist of solving problems from the problem sequence.  Homework will be graded on a $\checkmark$-system. You are allowed (in fact, encouraged!) to modify your written solution in light of presentations made in class; however, **you are required to use the colored marker pens provided in class**. I will provide more guidance with respect to this during the first couple weeks of the semester.
+Homework assignments will generally consist of solving problems from the problem sequence.  Homework will be graded on a $\checkmark$-system. You are allowed (in fact, encouraged!) to modify your written solution in light of presentations made in class; however, **you are required to use the colored marker pens provided in class**. This will allow me to differentiate the work done in class versus the work you completed before class.  The grade you receive on an assignment will be determined by the work you completed prior to class.  I will provide more guidance with respect to this during the first couple weeks of the semester.
 
 Please understand that the purpose of the homework assignments is to teach you to solve problems. It is not expected that you started the class with this skill; hence, some low grades are to be expected. However, I expect that everyone will improve dramatically.
 
@@ -296,7 +296,6 @@ In summary, your final grade is determined by your scores in the following categ
 </table>
 </center>
 
-#### Determination of Course Grade ####
 In general, you should expect the grades to adhere to the standard letter-grade cutoffs: A 100-90%, B 80-89%, C 70-79%, D 60-69%, F 0-59%.
 
 ### Department and University Policies ###

@@ -141,13 +141,13 @@ You are allowed and encouraged to work together on homework.  However, each stud
 
 On each homework assignment, please write (i) your name, (ii) name of course, and (iii) Daily/Weekly Homework number.  You can find the list of assignments on the [homework page]({{site.baseurl}}/teaching/mat320s17/homework/).  I reserve the right to modify the homework assignments as I see necessary.
 
-**Daily Homework:** Homework will be assigned each class meeting, and students are expected to complete (or try their best to complete) each assignment before walking into the next class period. All assignments should be *carefully*, *clearly*, and *cleanly* written. Among other things, this means your work should include proper grammar, punctuation, and spelling. You should write a draft of a given solution before you write down the final argument, so do yourself a favor and get in the habit of differentiating your scratch work from your submitted assignment.
+**Daily Homework:** Homework will be assigned most class meetings, and students are expected to complete (or try their best to complete) each assignment before walking into the next class session. All assignments should be *carefully*, *clearly*, and *cleanly* written. Among other things, this means your work should include proper grammar, punctuation, and spelling. You should write a draft of a given solution before you write down the final argument, so do yourself a favor and get in the habit of differentiating your scratch work from your submitted assignment.
 
 The Daily Homework will generally consist of completing exercises and proving theorems from the [course notes]({{site.baseurl}}/teaching/mat320s17/materials/).  In addition to completing the assigned problems, I also want you to assess your own work.  Next to each problem, I want you to write down a score between 0 and 4 that represents your perception of the validity and quality of your proposed solution/proof. Consider using the rubric given below in the description of the Weekly Homework assignments.  Not completing the self-assessment step will impact the score on your homework.  
 
-On the day that a homework assignment is due, the majority of the class period will be devoted to students presenting some subset (maybe all) of the proofs/solutions that are due that day.  At the end of each class session, students should submit their write-ups for all of the proofs that were due that day.  Daily Homework will be graded using a $\checkmark$-system.  Students are allowed (in fact, encouraged!) to modify their written proofs in light of presentations made in class; however, **you are required to use the colored marker pens provided in class**.  I will provide more guidance with respect to this during the first couple weeks of the semester.
+On the day that a homework assignment is due, the majority of the class period will be devoted to students presenting some subset (maybe all) of the proofs/solutions that are due that day.  At the end of each class session, students should submit their write-ups for all of the proofs that were due that day.  Daily Homework will be graded using a $\checkmark$-system.  Students are allowed (in fact, encouraged!) to modify their written proofs in light of presentations made in class; however, **you are required to use the colored marker pens provided in class**.  This will allow me to differentiate the work done in class versus the work you completed before class.  The grade you receive on an assignment will be determined by the work you completed prior to class.  I will provide more guidance with respect to this during the first couple weeks of the semester.
 
-**Weekly Homework:** In addition to the Daily Homework, we will also have Weekly Homework assignments.  For most of these assignments, you will be required to submit 2-3 formally written proofs.  Typically, two of the problems will come directly from the Daily Homework from the previous week.  Any additional problems will likely be new.  You will be required to type your submission using $\LaTeX$. I will walk you through how to do this.  You can either submit a hardcopy of your assignment or email me the PDF of your completed work. If you email me the PDF, please name your file as <code>WeeklyX-Lastname.pdf</code>, where <code>X</code> is the number of the assignment and <code>Lastname</code> is your last name.  Notice there are no spaces in the filename. Each problem on the Weekly Homework assignments is subject to the following rubric:
+**Weekly Homework:** In addition to the Daily Homework, we will also have Weekly Homework assignments.  For most of these assignments, you will be required to submit 2 formally written proofs.  Typically, these problems will come directly from the Daily Homework assigned the previous week.  You will be required to type your submission using $\LaTeX$. I will walk you through how to do this.  You can either submit a hardcopy of your assignment or email me the PDF of your completed work. If you email me the PDF, please name your file as <code>WeeklyX-Lastname.pdf</code>, where <code>X</code> is the number of the assignment and <code>Lastname</code> is your last name.  Notice there are no spaces in the filename. Each problem on the Weekly Homework assignments is subject to the following rubric:
 
 <center>
 <table class="table table-striped">
@@ -229,10 +229,10 @@ However, you should not let the rubric deter you from presenting if you have an 
 
 In general, I will curate the list of student presenters each class meeting.  However, students are welcome to volunteer. This type of behavior will be rewarded. If more than one student volunteers, the student with the fewest number of presentations has priority.  The problems chosen for presentation will come from the Daily Homework assignments.  Each student in the audience is expected to be engaged and respectful during another student's presentation.
 
-In order to receive a **passing grade** on the presentation portion of your grade, **you must present at least twice prior to each of the three midterm exams and at least once after the third midterm exam**  for a total of at least 7 times during semester. Notice that I've described a minimum.  To ensure a good grade, you should present as often as you can. Your overall performance during presentations, as well as your level of interaction/participation during class, will be worth 15% of your overall grade.
+In order to receive a **passing grade** on the presentation portion of your grade, **you must present at least twice prior to each of midterm exam and at least once after the third midterm exam**  for a total of at least 7 times during semester. Notice that I've described a minimum.  To ensure a good grade, you should present as often as you can. Your overall performance during presentations, as well as your level of interaction/participation during class, will be worth 15% of your overall grade.
 
 #### Exams ####
-There will be three midterm exams and a cumulative final exam.  Each midterm exam will be worth 15% of your overall grade and the final exam will be worth 20%.  All of the exams will likely consist of both an in-class portion and a take-home portion.  The in-class portions of the midterm exams are *tentatively* scheduled for **Wednesday, September 28**, **Wednesday, October 26**, and <s>Wednesday, November 23</s> **Wednesday, November 30**.  The final exam will be on **Wednesday, December 14** at 7:30-9:30M.  Make-up exams will only be given under extreme circumstances, as judged by me.  In general, it will be best to communicate conflicts ahead of time.
+There will be three midterm exams and a cumulative final exam.  Each midterm exam will be worth 15% of your overall grade and the final exam will be worth 20%.  All of the exams will likely consist of both an in-class portion and a take-home portion.  The in-class portions of the midterm exams are *tentatively* scheduled for **Wednesday, February 15**, **Wednesday, March 22**, and **Wednesday, April 19**.  The final exam will be on **Wednesday, May 10** at 10:00AM-12:00PM.  Make-up exams will only be given under extreme circumstances, as judged by me.  In general, it will be best to communicate conflicts ahead of time.
 
 #### Rules of the Game ####
 You should *not* look to resources outside the context of this course for help.  That is, you should not be consulting the web, other texts, other faculty, or students outside of our course.  On the other hand, you may use each other, the course notes, me, and your own intuition.
@@ -240,7 +240,7 @@ You should *not* look to resources outside the context of this course for help. 
 #### Attendance ####
 Regular attendance is expected and is vital to success in this course, but you will not explicitly be graded on attendance.  Yet, repeated absences may impact your participation grade (see above).  Students can find more information about NAU's attendance policy on the [Academic Policies](http://nau.edu/Student-Life/Student-Handbook/Academic-Policies/) page.
 
-#### Basis for  Evaluation ####
+#### Basis for Evaluation ####
 In summary, your final grade will be determined by your scores in the following categories.
 
 <center>
@@ -266,26 +266,28 @@ In summary, your final grade will be determined by your scores in the following 
 	<tr>
 		<td>Exam 1</td>
 		<td>15%</td>
-		<td>Wednesday, September 28</td>
+		<td>Wednesday, February 15</td>
 	</tr>
   <tr>
     <td>Exam 2</td>
     <td>15%</td>
-    <td>Wednesday, October 26</td>
+    <td>Wednesday, March 22</td>
   </tr>
   <tr>
     <td>Exam 3</td>
     <td>15%</td>
-    <td><s>Wednesday, November 23</s> Wednesday, November 30</td>
+    <td>Wednesday, April 19</td>
   </tr>
 	<tr>
 		<td>Final Exam</td>
 		<td>20%</td>
-		<td>Wednesday, December 14 at 7:30-9:30AM</td>
+		<td>Wednesday, May 10 at 10:00AM-12:00PM</td>
 	</tr>
 	</tbody>
 </table>
 </center>
+
+In general, you should expect the grades to adhere to the standard letter-grade cutoffs: A 100-90%, B 80-89%, C 70-79%, D 60-69%, F 0-59%.
 
 ### Department and University Policies ###
 You are responsible for knowing and following the [Department of Mathematics and Statistics Policies]({{ site.baseurl }}/teaching/DepartmentPoliciesSpring2017.pdf) (PDF) and other University policies listed [here](http://nau.edu/OCLDAA/_Forms/UCC/SyllabusPolicyStmts2-2014/) (PDF).  More policies can be found in other university documents, especially the [NAU Student Handbook](http://nau.edu/Student-Life/Student-Handbook/) (see appendices) and the website of the [Office of Student Life](http://nau.edu/Student-Life/).
@@ -301,8 +303,11 @@ Please turn off the ringer on your cell phone.  I do not have a strict policy on
 Here are some important dates:
 
 - **Thursday, January 26**: Last day to drop/add (no W appears on transcript)
+- **Wednesday, February 15**: Exam 1
 - **Monday, March 13-Friday, March 17:** Spring Break (no classes)
+- **Wednesday, March 22**: Exam 2
 - **Friday, March 24:**: Last day to withdraw from a course (W appears on transcript)
+- **Wednesday, April 19**: Exam 3
 - **Wednesday, May 10**: Final Exam
 
 ### Getting Help ###
