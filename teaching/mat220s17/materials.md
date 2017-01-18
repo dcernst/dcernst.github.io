@@ -26,14 +26,15 @@ title: Course Materials
 </div>
 </div>
 
-## Materials ##
-
+<p style="margin-top:10px;">
 Below you will find notes and handouts that we have used in class, as well as some other useful stuff. We will add to the problem collection as the semester progresses.
+</p>
 
-- [Student Contract]({{ site.baseurl }}/teaching/StudentContract.pdf)
-- [Setting the Stage]({{ site.baseurl }}/teaching/SettingTheStage.pdf)
-- [Elements of Style for Proofs]({{ site.baseurl }}/teaching/ElementsOfStyle.pdf)
-- [MAT 220 Problem Collection]({{ site.baseurl }}/teaching/220ProblemCollection.pdf) (Coming soon)
+<ul class="fa-ul">
+  <li><i class="fa fa-file-pdf-o"></i> <a href"{{ site.baseurl }}/teaching/SettingTheStage.pdf">Setting the Stage</a></li>
+  <li><i class="fa fa-file-pdf-o"></i> <a href"{{ site.baseurl }}/teaching/ElementsOfStyle.pdf">Elements of Style for Proofs</a></li>
+  <li><i class="fa fa-file-pdf-o"></i> <a href"{{ site.baseurl }}/teaching/220ProblemCollection.pdf">Problem Collection for Mathematical Reasoning</a></li>
+</ul>
 
 I will not be covering every detail of the notes and the only way to achieve a sufficient understanding of the material is to be digesting the reading in a meaningful way.  You should be seeking clarification about the content of the notes whenever necessary by asking questions.  Here's one of my favorite quotes about reading mathematics.
 
@@ -42,6 +43,7 @@ I will not be covering every detail of the notes and the only way to achieve a s
   <footer><a href="http://en.wikipedia.org/wiki/Paul_Halmos">Paul Halmos</a></footer>
 </blockquote>
 
+<!--
 ## Exams ##
 Below are links to each exam.
 
@@ -49,3 +51,4 @@ Below are links to each exam.
 - Exam 2 (take-home). Coming soon.
 - Exam 3 (take-home). Coming soon.
 - Final Exam (take-home). Coming soon.
+-->

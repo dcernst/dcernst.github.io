@@ -32,29 +32,13 @@ On each homework assignment, please write (i) your name, (ii) name of course, an
 ## Daily Homework ##
 The following assignments are to be turned in at the end of the indicated class period.  I reserve the right to modify the assignment if the need arises.  These exercises will form the basis of the student-led sharing of solutions/proofs each day.  Daily assignments will be graded on a $\checkmark$-system.  During class, **you are only allowed to annotate your homework using the colored marker pens that I provide**.
 
-- **Daily Homework 1:** Read the [syllabus]({{site.baseurl}}/teaching/mat220s17/syllabus/) and write down 5 important items.  *Note:*  All of the exam dates only count as a single item.  Turn in on your own paper at the beginning of class. (Due Friday, January 20)
-- **Daily Homework 2:** Read and sign the [Student Contract]({{site.baseurl}}/teaching/StudentContract.pdf). (Due Friday, January 20)
-- **Daily Homework 3:** Stop by my office (AMB 176) and say hello. If I'm not there, just slide note under my door saying you stopped by. (Due by 4PM on Friday, January 20)
-- **Daily Homework 4:** Coming soon. (Due Friday, January 20)
+<ul class="fa-ul">
+  <li><i class="fa fa-pencil-square-o"></i> <b>Homework 1:</b> Read the <a href="{{site.baseurl}}/teaching/mat220s17/syllabus/">syllabus</a> and write down 5 important items.  <i>Note:</i>  All of the exam dates only count as a single item.  Turn in on your own paper at the beginning of class. (Due Friday, January 20)</li>
+  <li><i class="fa fa-pencil-square-o"></i> <b>Homework 2:</b> Stop by my office (AMB 176) and say hello. If I'm not there, just slide note under my door saying you stopped by. (Due by 4PM on Friday, January 20)</li>
+  <li><i class="fa fa-pencil-square-o"></i> <b>Homework 3:</b> Complete Problems 1-4 from the <a href="https://dcernst.github.io/teaching/mat220s17/220ProblemCollection.pdf">Problem Collection</a>. (Due Friday, January 20)</li>
+</ul>
 
 <!--
-## Weekly Homework ##
-In addition to the Daily Homework, we will also have Weekly Homework assignments.  For most of these assignments, you will be required to submit 2-3 formally written proofs.  Typically, two of the problems will come directly from the Daily Homework from the previous week.  Any additional problems will likely be new.  You will be required to type your submission using $\LaTeX$ (see below for more on this).  You can either submit a hardcopy of your assignment or email me the PDF of your completed work. If you email me the PDF, please name your file as <code>WeeklyX-Lastname.pdf</code>, where <code>X</code> is the number of the assignment and <code>Lastname</code> is your last name.  Notice there are no spaces in the filename.
-
-- **Weekly Homework 1:** Coming soon.
-
-## Using LaTeX for Weekly Homework ##
-You are required to use $\LaTeX$ to type up your Weekly Homework assignments.  To do this, I suggest that you use my [LaTeX Homework Template](https://github.com/dcernst/MiscTeachingMaterials/blob/master/HWTemplate.tex).  The easiest way to get started with $\LaTeX$ is to use an online editor.  I recommend using [Overleaf](https://overleaf.com), but there are other options.  The good folks over at Overleaf have preloaded my template, so to get started, all you need to do is click the link below.
-
-<center>
-<form action="https://www.writelatex.com/docs" method="POST">
-    <input type="hidden" name="template" value="danaernst-weekly_homework_x">
-    <input type="submit" class="wl-submit" value="Start your homework in Overleaf">
-  </form>
-</center>
-
-<br>
-=
 ### Coding Homework ###
 There will be 3-4 short programming assignments given this semester that utilize the [Sage Math Cloud](https://cloud.sagemath.com) together with [Python](https://www.python.org), [Sage](http://www.sagemath.org), and the [iPython Notebook](http://ipython.org) interface.
 
