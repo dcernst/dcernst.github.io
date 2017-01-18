@@ -33,9 +33,9 @@ On each homework assignment, please write (i) your name, (ii) name of course, an
 The following assignments are to be turned in at the end of the indicated class period.  I reserve the right to modify the assignment if the need arises.  These exercises will form the basis of the student-led sharing of solutions/proofs each day.  Daily assignments will be graded on a $\checkmark$-system.  During class, **you are only allowed to annotate your homework using the colored marker pens that I provide**.
 
 <ul class="fa-ul">
-  <li><i class="fa fa-pencil-square-o"></i><b>Homework 1:</b> Read the <a href="{{site.baseurl}}/teaching/mat220s17/syllabus/">syllabus</a> and write down 5 important items.  <i>Note:</i>  All of the exam dates only count as a single item.  Turn in on your own paper at the beginning of class. (Due Friday, January 20)</li>
-  <li><i class="fa fa-pencil-square-o"></i><b>Homework 2:</b> Stop by my office (AMB 176) and say hello. If I'm not there, just slide note under my door saying you stopped by. (Due by 4PM on Friday, January 20)</li>
-  <li><i class="fa fa-pencil-square-o"></i><b>Homework 3:</b> Complete Problems 1-4 from the <a href="https://dcernst.github.io/teaching/mat220s17/220ProblemCollection.pdf">Problem Collection</a>. (Due Friday, January 20)</li>
+  <li><i class="fa-li fa-pencil-square-o"></i><b>Homework 1:</b> Read the <a href="{{site.baseurl}}/teaching/mat220s17/syllabus/">syllabus</a> and write down 5 important items.  <i>Note:</i>  All of the exam dates only count as a single item.  Turn in on your own paper at the beginning of class. (Due Friday, January 20)</li>
+  <li><i class="fa-li fa-pencil-square-o"></i><b>Homework 2:</b> Stop by my office (AMB 176) and say hello. If I'm not there, just slide note under my door saying you stopped by. (Due by 4PM on Friday, January 20)</li>
+  <li><i class="fa-li fa-pencil-square-o"></i><b>Homework 3:</b> Complete Problems 1-4 from the <a href="https://dcernst.github.io/teaching/mat220s17/220ProblemCollection.pdf">Problem Collection</a>. (Due Friday, January 20)</li>
 </ul>
 
 <!--
