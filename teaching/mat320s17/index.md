@@ -25,10 +25,6 @@ layout: default
 </div>
 </div>
 
-<div class="alert alert-info" role="alert" style="margin: 10px 0 10px 0">
-<i class="fa fa-exclamation-triangle"></i>&nbsp; This page is under construction and subject to change.
-</div>
-
 ## Welcome ##
 Welcome to the course web page for the Spring 2017 manifestation of MAT 320: Foundations of Mathematics at [Northern Arizona University](http://nau.edu).
 
