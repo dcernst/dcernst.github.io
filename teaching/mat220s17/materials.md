@@ -31,9 +31,9 @@ Below you will find notes and handouts that we have used in class, as well as so
 </p>
 
 <ul class="fa-ul">
-  <li><i class="fa fa-file-pdf-o fa-fw fa-lg"></i>&nbsp; <a href="{{ site.baseurl }}/teaching/SettingTheStage.pdf">Setting the Stage</a></li>
-  <li><i class="fa fa-file-pdf-o fa-fw fa-lg"></i>&nbsp; <a href="{{ site.baseurl }}/teaching/ElementsOfStyle.pdf">Elements of Style for Proofs</a></li>
-  <li><i class="fa fa-file-pdf-o fa-fw fa-lg"></i>&nbsp; <a href="{{ site.baseurl }}/teaching/220ProblemCollection.pdf">Problem Collection for Mathematical Reasoning</a></li>
+  <li><i class="fa fa-file-pdf-o fa-fw"></i>&nbsp; <a href="{{ site.baseurl }}/teaching/SettingTheStage.pdf">Setting the Stage</a></li>
+  <li><i class="fa fa-file-pdf-o fa-fw"></i>&nbsp; <a href="{{ site.baseurl }}/teaching/ElementsOfStyle.pdf">Elements of Style for Proofs</a></li>
+  <li><i class="fa fa-file-pdf-o fa-fw"></i>&nbsp; <a href="{{ site.baseurl }}/teaching/220ProblemCollection.pdf">Problem Collection for Mathematical Reasoning</a></li>
 </ul>
 
 I will not be covering every detail of the notes and the only way to achieve a sufficient understanding of the material is to be digesting the reading in a meaningful way.  You should be seeking clarification about the content of the notes whenever necessary by asking questions.  Here's one of my favorite quotes about reading mathematics.
