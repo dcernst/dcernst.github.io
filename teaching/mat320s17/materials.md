@@ -80,7 +80,7 @@ I will not be covering every detail of the notes and the only way to achieve a s
 
 ## Miscellaneous Materials ##
 - [Student Contract]({{ site.baseurl }}/teaching/StudentContract.pdf)
-- [Deep Practice]({{ site.baseurl }}/teaching/DeepPractice.pdf)
+- [Deep Practice]({{ site.baseurl }}/teaching/mat320s17DeepPractice.pdf)
 
 ## Exams ##
 Below are links to each exam.
