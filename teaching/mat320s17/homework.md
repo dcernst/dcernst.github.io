@@ -35,12 +35,12 @@ The following assignments are to be turned in at the end of the indicated class 
 - **Daily Homework 1:** Read the [syllabus]({{site.baseurl}}/teaching/mat320s17/syllabus/) and write down 5 important items.  *Note:*  All of the exam dates only count as a single item.  Turn in on your own paper at the beginning of class. (Due Friday, January 20)
 - **Daily Homework 2:** Read and sign the [Student Contract]({{site.baseurl}}/teaching/StudentContract.pdf). (Due Friday, January 20)
 - **Daily Homework 3:** Stop by my office (AMB 176) and say hello. If I'm not there, just slide note under my door saying you stopped by. (Due by 4PM on Friday, January 20)
-- **Daily Homework 4:** Read all of [Chapter 1: Introduction]({{site.baseurl}}/teaching/mat320s17/Introduction.pdf) of the course notes.  In addition, complete 2.3-2.6 in [Chapter 2: Mathematics and Logic]({{site.baseurl}}/teaching/mat411f16/MathAndLogic.pdf) and digest the surrounding text along the way. (Due Friday, January 20)
+- **Daily Homework 4:** Read all of [Chapter 1: Introduction]({{site.baseurl}}/teaching/mat320s17/Introduction.pdf) of the course notes.  In addition, complete 2.3-2.6 in [Chapter 2: Mathematics and Logic]({{site.baseurl}}/teaching/mat320s17/MathAndLogic.pdf) and digest the surrounding text along the way. (Due Friday, January 20)
 
 ## Weekly Homework ##
 In addition to the Daily Homework, we will also have Weekly Homework assignments.  For most of these assignments, you will be required to submit 2-3 formally written proofs.  Typically, two of the problems will come directly from the Daily Homework from the previous week.  Any additional problems will likely be new.  You will be required to type your submission using LaTeX (see below for more on this).  You can either submit a hardcopy of your assignment or email me the PDF of your completed work. If you email me the PDF, please name your file as <code>WeeklyX-Lastname.pdf</code>, where <code>X</code> is the number of the assignment and <code>Lastname</code> is your last name.  Notice there are no spaces in the filename.
 
-- **Weekly Homework 1:** Coming soon. 
+- **Weekly Homework 1:** Coming soon.
 
 ## Using LaTeX for Weekly Homework ##
 You are required to use LaTeX to type up your Weekly Homework assignments.  To do this, I suggest that you use my [LaTeX Homework Template](https://github.com/dcernst/MiscTeachingMaterials/blob/master/HWTemplate.tex).  The easiest way to get started with LaTeX is to use an online editor.  I recommend using [Overleaf](https://overleaf.com), but there are other options.  The good folks over at Overleaf have preloaded my template, so to get started, all you need to do is click the link below.
