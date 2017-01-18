@@ -36,6 +36,6 @@ We’ll use this page to keep track of what has happened each day in class. It w
 ## Week 1 ##
 
 <ul class="fa-ul">
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, January 18:</b> Coming soon.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, January 18:</b> First day!  After attempting to learn names, I discussed the first few homework assignments and summarized what content can be found on the course webpage. Next, we spent a few minutes on an activity that I called [Deep Learning and Productive Struggle]({{site.baseurl}}/teaching/mat320s17/DeepPractice.pdf). We wrapped up class by doing a quick overview of the syllabus.</li>
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, January 20:</b> Coming soon.</li>
 </ul>
