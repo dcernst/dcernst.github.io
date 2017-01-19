@@ -36,7 +36,7 @@ We’ll use this page to keep track of what has happened each day in class. It w
 ## Week 1 ##
 
 <ul class="fa-ul">
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, January 18:</b> Coming soon.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, January 18:</b> First day!  After attempting to learn names, we took a tour of the course webpage and then discussed an overview of the course and the syllabus.  Next, groups of 2-3 pondered Problem 1 from the problem collection for a short bit before we had a brief full-class discussion about it.  We wrapped up with a quick discussion of Problem 2. Comically, I accidentally ended class 10 minutes early.  I won't do that again.</li>
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, January 20:</b> Coming soon.</li>
 </ul>
 
