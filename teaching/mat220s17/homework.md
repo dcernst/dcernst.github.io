@@ -36,7 +36,7 @@ The following assignments are to be turned in at the end of the indicated class 
   <li><i class="fa-li fa fa-pencil-square-o"></i><b>Homework 1:</b> Read the <a href="{{site.baseurl}}/teaching/mat220s17/syllabus/">syllabus</a> and write down 5 important items.  <i>Note:</i>  All of the exam dates only count as a single item.  Turn in on your own paper at the beginning of class. (Due Friday, January 20)</li>
   <li><i class="fa-li fa fa-pencil-square-o"></i><b>Homework 2:</b> Stop by my office (AMB 176) and say hello. If I'm not there, just slide a note under my door saying you stopped by. (Due by 4PM on Friday, January 20)</li>
   <li><i class="fa-li fa fa-pencil-square-o"></i><b>Homework 3:</b> Complete Problems 1-4 from the <a href="https://dcernst.github.io/teaching/mat220s17/220ProblemCollection.pdf">Problem Collection</a>. (Due Friday, January 20)</li>
-  <li><i class="fa-li fa fa-pencil-square-o"></i><b>Homework 4:</b> Complete Problems 5-8 from the <a href="https://dcernst.github.io/teaching/mat220s17/220ProblemCollection.pdf">Problem Collection</a>. (Due Friday, January 20)</li>
+  <li><i class="fa-li fa fa-pencil-square-o"></i><b>Homework 4:</b> Complete Problems 5-8 from the <a href="https://dcernst.github.io/teaching/mat220s17/220ProblemCollection.pdf">Problem Collection</a>. (Due Monday, January 23)</li>
 </ul>
 
 <!--
