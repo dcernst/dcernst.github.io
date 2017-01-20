@@ -58,8 +58,10 @@ layout: default
 #### Prerequisites ####
 MAT 137 with a grade greater than or equal to C.
 
+<!--
 #### Catalog Description ####
 Symbolic logic, set theory, functions, and number systems.  Focuses on techniques of proof and mathematical writing.  This course fulfills NAU's junior-level writing requirement.  This course contains an assessment that must be successfully completed in order to register for student teaching.  Letter grade only.
+-->
 
 #### Course Description ####
 The course trains students on methods and techniques of mathematical communication, focusing on proofs but also covering expository writing and problem-solving explanations.
