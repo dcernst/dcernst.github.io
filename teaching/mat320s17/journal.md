@@ -37,5 +37,13 @@ We’ll use this page to keep track of what has happened each day in class. It w
 
 <ul class="fa-ul">
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, January 18:</b> First day!  After attempting to learn names, I discussed the first few homework assignments and summarized what content can be found on the course webpage. Next, we spent a few minutes on an activity that I called [Deep Learning and Productive Struggle]({{site.baseurl}}/teaching/mat320s17/DeepPractice.pdf). We wrapped up class by doing a quick overview of the syllabus.</li>
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, January 20:</b> Coming soon.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, January 20:</b> Great first day of student presentations!  I was really pleased with how things went.  After answering a few quick questions and making some announcements, groups of 2-3 spent a couple minutes discussing their homework.  Next, we had LS volunteer to present a proof of Theorem 2.3.  LS did a great job and her proof generated lots of good discussion.  Afterwards, JN volunteered to present a proof of Theorem 2.4, which also provoked good discussion.</li>
+</ul>
+
+## Week 2 ##
+
+<ul class="fa-ul">
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, January 23:</b> Coming soon.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, January 25:</b> Coming soon.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, January 27:</b> Coming soon.</li>
 </ul>
