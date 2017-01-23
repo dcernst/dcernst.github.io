@@ -37,6 +37,7 @@ The following assignments are to be turned in at the end of the indicated class 
 - **Daily Homework 3:** Stop by my office (AMB 176) and say hello. If I'm not there, just slide a note under my door saying you stopped by. (Due by 4PM on Friday, January 20)
 - **Daily Homework 4:** Read all of [Chapter 1: Introduction]({{site.baseurl}}/teaching/mat320s17/Introduction.pdf) of the course notes.  In addition, complete 2.3-2.6 in [Chapter 2: Mathematics and Logic]({{site.baseurl}}/teaching/mat320s17/MathAndLogic.pdf) and digest the surrounding text along the way. (Due Friday, January 20)
 - **Daily Homework 5:** Skim through [Appendix A: Elements of Style of Proof]({{site.baseurl}}/teaching/mat320s17/ElementsOfStyle.pdf) of the course. In addition, complete 2.7-2.9, 2.11-2.17 in [Chapter 2: Mathematics and Logic]({{site.baseurl}}/teaching/mat320s17/MathAndLogic.pdf) and digest the surrounding text along the way. (Due Monday, January 23)
+- **Daily Homework 6:** Skim through [Appendix B: Fancy Mathematical Terms]({{site.baseurl}}/teaching/mat320s17/FancyMathematicalTerms.pdf) of the course notes.  In addition, complete 2.18-2.23 in [Chapter 2: Mathematics and Logic]({{site.baseurl}}/teaching/mat320s17/MathAndLogic.pdf) and digest the surrounding text along the way. (Due Wednesday, January 23)
 
 <!-- Don't forget to plan for covering LaTeX. Idea: spend time on it two days in a row.  Day 1: brief overview, Day 2: type up someone's proof. -->
 
