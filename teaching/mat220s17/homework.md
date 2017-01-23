@@ -37,7 +37,7 @@ The following assignments are to be turned in at the end of the indicated class 
   <li><i class="fa-li fa fa-pencil-square-o"></i><b>Homework 2:</b> Stop by my office (AMB 176) and say hello. If I'm not there, just slide a note under my door saying you stopped by. (Due by 4PM on Friday, January 20)</li>
   <li><i class="fa-li fa fa-pencil-square-o"></i><b>Homework 3:</b> Complete Problems 1-4 from the <a href="https://dcernst.github.io/teaching/mat220s17/220ProblemCollection.pdf">Problem Collection</a>. (Due Friday, January 20)</li>
   <li><i class="fa-li fa fa-pencil-square-o"></i><b>Homework 4:</b> Complete Problems 5-8 from the <a href="https://dcernst.github.io/teaching/mat220s17/220ProblemCollection.pdf">Problem Collection</a>. (Due Monday, January 23)</li>
-  <li><i class="fa-li fa fa-pencil-square-o"></i><b>Homework 4:</b> Complete Problems 9-11 from the <a href="https://dcernst.github.io/teaching/mat220s17/220ProblemCollection.pdf">Problem Collection</a>. (Due Wednesday, January 25)</li>
+  <li><i class="fa-li fa fa-pencil-square-o"></i><b>Homework 5:</b> Complete Problems 9-11 from the <a href="https://dcernst.github.io/teaching/mat220s17/220ProblemCollection.pdf">Problem Collection</a>. (Due Wednesday, January 25)</li>
 </ul>
 
 <!--
