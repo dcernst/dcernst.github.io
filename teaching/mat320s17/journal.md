@@ -44,6 +44,6 @@ We’ll use this page to keep track of what has happened each day in class. It w
 
 <ul class="fa-ul">
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, January 23:</b> Since classes starting after noon were canceled, we ended class 20 minutes early.  With the time we had available, we revisited the definition of even and odd and took at look at the definition of "divides".  In particular, we discussed some pitfalls related to the notation (see Question 2.11).  In addition, we spent a little time discussing the difference between "proofs" and "counterexamples".  Along the way, we tackled Problem 2.5, Problem 2.7, Theorem 2.14, and Problem 2.16.  At some point, we still need to address Problems 2.8, 2.9, 2.12, and 2.13, as well as Corollary 2.15 and Theorem 2.17.</li>
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, January 25:</b> Coming soon.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, January 25:</b> I was really happy with how things went today.  Lots of good discussion and comments.  We jumped right in and had SC, DF, QC, SG, and JN present Problem 2.8, Problem 2.12, Problem 2.13, Corollary 2.15, and Theorem 2.17, respectively.  JO, TC, and JR will tackle Theorem 2.18, Problem 2.19, and Theorem 2.20 next time.</li>
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, January 27:</b> Coming soon.</li>
 </ul>
