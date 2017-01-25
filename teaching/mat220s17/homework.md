@@ -38,7 +38,7 @@ The following assignments are to be turned in at the end of the indicated class 
   <li><i class="fa-li fa fa-pencil-square-o"></i><b>Homework 3:</b> Complete Problems 1-4 from the <a href="https://dcernst.github.io/teaching/mat220s17/220ProblemCollection.pdf">Problem Collection</a>. (Due Friday, January 20)</li>
   <li><i class="fa-li fa fa-pencil-square-o"></i><b>Homework 4:</b> Complete Problems 5-8 from the <a href="https://dcernst.github.io/teaching/mat220s17/220ProblemCollection.pdf">Problem Collection</a>. (Due Monday, January 23)</li>
   <li><i class="fa-li fa fa-pencil-square-o"></i><b>Homework 5:</b> Complete Problems 9-11 from the <a href="https://dcernst.github.io/teaching/mat220s17/220ProblemCollection.pdf">Problem Collection</a>. (Due Wednesday, January 25)</li>
-  <li><i class="fa-li fa fa-pencil-square-o"></i><b>Homework 6:</b> Complete Problems 12-14 from the <a href="https://dcernst.github.io/teaching/mat220s17/220ProblemCollection.pdf">Problem Collection</a> In addition, revisit Problem 9 and attempt to justify why the answer cannot be 10 or larger. (Due Friday, January 27)</li>
+  <li><i class="fa-li fa fa-pencil-square-o"></i><b>Homework 6:</b> Complete Problems 12-14 from the <a href="https://dcernst.github.io/teaching/mat220s17/220ProblemCollection.pdf">Problem Collection</a> In addition, revisit Problem 7 and attempt to justify why the answer cannot be 10 or larger. (Due Friday, January 27)</li>
 </ul>
 
 <!--

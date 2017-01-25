@@ -44,6 +44,6 @@ We’ll use this page to keep track of what has happened each day in class. It w
 
 <ul class="fa-ul">
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, January 23:</b> Despite the weather we had great attendance and class went really well.  After reviewing a few key ideas, we split the class up into four small groups to work on Problems 5, 4(b)/6, 7, and 8, respectively.  I left the groups chat for about 5 minutes and then we started discussing proposed solutions.  We had MH, JM, and RD present Problems 5, 4(b)/6, and 7, respectively.  Along the way, several other people chimed in.  We ran out of time to discuss Problem 8.  I hope we can squeeze that one in next time.</li>
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, January 25:</b> Coming soon.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, January 25:</b> Today was a good day and we got a lot accomplished.  After summarizing some key ideas and the status Problems 1-7, we moved onto Problems 8-11.  SW shared her solution to Problem 8 and then MS summarized a slick solution that involved less analysis. For Problem 9, we had AT1 and AC present their solutions to Problem 9.  Next, BG provided a nice take on Problem 10.  I spent the last few minutes of class giving some hints on Problem 11.</li>
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, January 27:</b> Coming soon.</li>
 </ul>
