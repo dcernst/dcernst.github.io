@@ -39,13 +39,14 @@ The following assignments are to be turned in at the end of the indicated class 
 - **Daily Homework 5:** Skim through [Appendix A: Elements of Style of Proof]({{site.baseurl}}/teaching/mat320s17/ElementsOfStyle.pdf) of the course. In addition, complete 2.7-2.9, 2.11-2.17 in [Chapter 2: Mathematics and Logic]({{site.baseurl}}/teaching/mat320s17/MathAndLogic.pdf) and digest the surrounding text along the way. (Due Monday, January 23)
 - **Daily Homework 6:** Skim through [Appendix B: Fancy Mathematical Terms]({{site.baseurl}}/teaching/mat320s17/FancyMathematicalTerms.pdf) of the course notes.  In addition, complete 2.18-2.20 in [Chapter 2: Mathematics and Logic]({{site.baseurl}}/teaching/mat320s17/MathAndLogic.pdf) and digest the surrounding text along the way. (Due Wednesday, January 25)
 - **Daily Homework 7:** Skim through [Appendix C: Definitions in Mathematics]({{site.baseurl}}/teaching/mat320s17/Definitions.pdf) of the course notes.  In addition, complete 2.21-2.23 in [Chapter 2: Mathematics and Logic]({{site.baseurl}}/teaching/mat320s17/MathAndLogic.pdf) and digest the surrounding text along the way. (Due Friday, January 27)
+- **Daily Homework 8:** Complete 2.25, 2.27, 2.28, 2.31, 2.32, 2.34-2.36 in [Chapter 2: Mathematics and Logic]({{site.baseurl}}/teaching/mat320s17/MathAndLogic.pdf) and digest the surrounding text along the way. (Due Monday, January 30)
 
 <!-- Don't forget to plan for covering LaTeX. Idea: spend time on it two days in a row.  Day 1: brief overview, Day 2: type up someone's proof. -->
 
 ## Weekly Homework ##
 In addition to the Daily Homework, we will also have Weekly Homework assignments.  For most of these assignments, you will be required to submit 2-3 formally written proofs.  Typically, two of the problems will come directly from the Daily Homework from the previous week.  Any additional problems will likely be new.  You will be required to type your submission using LaTeX (see below for more on this).  You can either submit a hardcopy of your assignment or email me the PDF of your completed work. If you email me the PDF, please name your file as <code>WeeklyX-Lastname.pdf</code>, where <code>X</code> is the number of the assignment and <code>Lastname</code> is your last name.  Notice there are no spaces in the filename.
 
-- **Weekly Homework 1:** Coming soon.
+- **Weekly Homework 1:** Prove **two** of Problem 2.9, Theorem 2.14, Theorem 2.18, or Theorem 2.22 from [Chapter 2: Mathematics and Logic]({{site.baseurl}}/teaching/mat320s17/MathAndLogic.pdf). (Due Thursday, February 2 by 8PM)
 
 ## Using LaTeX for Weekly Homework ##
 You are required to use LaTeX to type up your Weekly Homework assignments.  To do this, I suggest that you use my [LaTeX Homework Template](https://github.com/dcernst/MiscTeachingMaterials/blob/master/HWTemplate.tex).  The easiest way to get started with LaTeX is to use an online editor.  I recommend using [Overleaf](https://overleaf.com), but there are other options.  The good folks over at Overleaf have preloaded my template, so to get started, all you need to do is click the link below.
