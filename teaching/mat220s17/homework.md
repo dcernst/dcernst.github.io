@@ -42,10 +42,3 @@ The following assignments are to be turned in at the end of the indicated class 
   <li><i class="fa-li fa fa-pencil-square-o"></i><b>Homework 7:</b> Complete Problems 15-17 from the <a href="https://dcernst.github.io/teaching/mat220s17/220ProblemCollection.pdf">Problem Collection</a>. (Due Monday, January 30)</li>
 
 </ul>
-
-<!--
-### Coding Homework ###
-There will be 3-4 short programming assignments given this semester that utilize the [Sage Math Cloud](https://cloud.sagemath.com) together with [Python](https://www.python.org), [Sage](http://www.sagemath.org), and the [iPython Notebook](http://ipython.org) interface.
-
-- **Coding Homework 1:** Complete the corresponding assignment in [Sage Math Cloud](https://cloud.sagemath.com). (Coming soon)
--->
