@@ -39,7 +39,7 @@ The following assignments are to be turned in at the end of the indicated class 
 - **Daily Homework 5:** Skim through [Appendix A: Elements of Style of Proof]({{site.baseurl}}/teaching/mat320s17/ElementsOfStyle.pdf) of the course. In addition, complete 2.7-2.9, 2.11-2.17 in [Chapter 2: Mathematics and Logic]({{site.baseurl}}/teaching/mat320s17/MathAndLogic.pdf) and digest the surrounding text along the way. (Due Monday, January 23)
 - **Daily Homework 6:** Skim through [Appendix B: Fancy Mathematical Terms]({{site.baseurl}}/teaching/mat320s17/FancyMathematicalTerms.pdf) of the course notes.  In addition, complete 2.18-2.20 in [Chapter 2: Mathematics and Logic]({{site.baseurl}}/teaching/mat320s17/MathAndLogic.pdf) and digest the surrounding text along the way. (Due Wednesday, January 25)
 - **Daily Homework 7:** Skim through [Appendix C: Definitions in Mathematics]({{site.baseurl}}/teaching/mat320s17/Definitions.pdf) of the course notes.  In addition, complete 2.21-2.23 in [Chapter 2: Mathematics and Logic]({{site.baseurl}}/teaching/mat320s17/MathAndLogic.pdf) and digest the surrounding text along the way. (Due Friday, January 27)
-- **Daily Homework 8:** Complete 2.25, 2.27, 2.28, 2.31, 2.32, 2.34-2.36 in [Chapter 2: Mathematics and Logic]({{site.baseurl}}/teaching/mat320s17/MathAndLogic.pdf) and digest the surrounding text along the way. (Due Monday, January 30)
+- **Daily Homework 8:** Complete 2.25, 2.27, 2.28, 2.31, 2.32, 2.34 in [Chapter 2: Mathematics and Logic]({{site.baseurl}}/teaching/mat320s17/MathAndLogic.pdf) and digest the surrounding text along the way. (Due Monday, January 30)
 
 <!-- Don't forget to plan for covering LaTeX. Idea: spend time on it two days in a row.  Day 1: brief overview, Day 2: type up someone's proof. -->
 
