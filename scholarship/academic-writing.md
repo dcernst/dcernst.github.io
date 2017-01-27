@@ -25,7 +25,7 @@ You can find a recent version of my curriculum vitae [here]({{site.baseurl}}/sch
   * D.C. Ernst. Diagram calculus for a type affine *C* Temperley-Lieb algebra, II. Submitted to *J. Pure Appl. Alg.* [[arXiv:1101.4215](http://arxiv.org/abs/1101.4215)]
 
 ## Journal Articles
-  * D.C. Ernst, M. Hastings, and S. Salmon. Factorization of Temperley-Lieb diagrams. Accepted to *Involve* 10(1), 89-108, 2017. [[arXiv:1509.01241](http://arxiv.org/abs/1509.01241)]
+  * D.C. Ernst, M. Hastings, and S. Salmon. Factorization of Temperley-Lieb diagrams. *Involve* 10(1), 89-108, 2017. [[arXiv:1509.01241](http://arxiv.org/abs/1509.01241)]
   * B.J. Benesh, D.C. Ernst, and N. Sieben. Impartial avoidance and achievement games for generating symmetric and alternating groups. *Int. Electron. J. Algebra* 20, 70-85, 2016. [[arXiv:1508.03419](http://arxiv.org/abs/1508.03419)] [[ePrint](http://www.ieja.net/files/papers/volume-20/4-V20-2016.pdf)]
   * N. Diefenderfer, D.C. Ernst, M. Hastings, L.N. Heath, H. Prawzinsky, B. Preston, J. Rushall, E. White, A. Whittemore. Prime Vertex Labelings of Several Families of Graphs. *Involve* 9(4), 667-688, 2016. [[arXiv:1503.08386](http://arxiv.org/abs/1503.08386)]
   * B.J. Benesh, D.C. Ernst, and N. Sieben. Impartial avoidance games for generating finite groups. *North-W. Eur. J. of Math.* 2, 83-101, 2016. [[arXiv:1506.07105](http://arxiv.org/abs/1506.07105)] [[ePrint](http://math.univ-lille1.fr/~nwejm/OnlinePapers/pdf/article2016-3.pdf)]
