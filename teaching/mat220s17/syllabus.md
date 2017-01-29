@@ -311,10 +311,10 @@ Please turn off the ringer on your cell phone.  I do not have a strict policy on
 ### Important Dates ###
 Here are some important dates:
 
-- **Thursday, January 26**: Last day to drop/add (no W appears on transcript)
+- **Thursday, January 26:** Last day to drop/add (no W appears on transcript)
 - **Monday, March 13-Friday, March 17:** Spring Break (no classes)
-- **Friday, March 24:**: Last day to withdraw from a course (W appears on transcript)
-- **Wednesday, May 10**: Final Exam
+- **Friday, March 24:** Last day to withdraw from a course (W appears on transcript)
+- **Wednesday, May 10:** Final Exam
 
 ### Getting Help ###
 There are many resources available to get help.  First, I recommend that you work on homework in small groups as much as possible, and to come see me whenever necessary.  I am always happy to help you.  If my office hours don't work for you, then we can probably find another time to meet.  It is your responsibility to be aware of how well you understand the material.  Don't wait until it is too late if you need help.  *Ask questions*!  Lastly, you can always [email me](mailto:dana.ernst@nau.edu).
