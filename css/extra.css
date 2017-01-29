@@ -63,3 +63,7 @@
 pre {
     color: #c7254e;
 }
+
+p {
+  text-align: justify;
+}
