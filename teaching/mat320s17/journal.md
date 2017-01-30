@@ -51,7 +51,7 @@ We’ll use this page to keep track of what has happened each day in class. It w
 ## Week 3 ##
 
 <ul class="fa-ul">
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, January 30:</b> Coming soon.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, January 30:</b> We kicked of with CP presenting Theorem 2.25.  Next, we split the class into several small groups.  After several minutes, we had DD, FA, SR, and EV share out about Exercise 2.25.  Next, SG and DF presented Exercise 2.27 and Exercise 2.28, respectively.  We will get to Exercise 2.31, Problem 2.32, and Theorem 2.34 next time.</li>
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, February 1:</b> Coming soon.</li>
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, February 3:</b> Coming soon.</li>
 </ul>
