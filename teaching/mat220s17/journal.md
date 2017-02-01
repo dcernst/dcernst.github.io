@@ -52,6 +52,6 @@ We’ll use this page to keep track of what has happened each day in class. It w
 
 <ul class="fa-ul">
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, January 30:</b> The week is off to a good start.  We kicked off by having SS and MR present visual and algebraic proofs, respectively, for Problem 15.  After allowed students to chat in small groups for a few minutes, JS2 presented a slick solution to Problem 16. Next, we had students chat in small groups about Problem 17.  AS discussed a case analysis for Problem 17 and then we distilled the argument down to a single case.  We wrapped up by discussing Erdos and the next few homework problems.</li>
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, February 1:</b> The students took Quiz 1.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, February 1:</b> The students took Quiz 1. We will get back to working on problems on Friday.</li>
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, February 3:</b> Coming soon.</li>
 </ul>
