@@ -42,13 +42,12 @@ We will not be using a textbook this semester, but rather a task-sequence adopte
     - 1.4 Rules of the Game
     - 1.5 Structure of the Notes
     - 1.6 Some Minimal Guidance
-- [Chapter 2: Mathematics and Logic]({{site.baseurl}}/teaching/mat320s17/MathAndLogic.pdf) (currently only Sections 2.1-2.3)
+- [Chapter 2: Mathematics and Logic]({{site.baseurl}}/teaching/mat320s17/MathAndLogic.pdf) (currently only Sections 2.1-2.4)
     - 2.1 A Taste of Number Theory
     - 2.2 Introduction to Logic
     - 2.3 Negating Implications and Proof by Contradiction
     - 2.4 Introduction to Quantification
-    - 2.5 More on Quantification
-    - 2.6 And Even More on Quantification
+    - 2.5 More About Quantification
 - Chapter 3: Set Theory and Topology
     - 3.1 Sets
     - 3.2 Power Sets and Paradoxes
