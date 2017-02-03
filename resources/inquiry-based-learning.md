@@ -44,43 +44,25 @@ E. Lee May (Salisbury State University) may have said it best:
   <footer>E. Lee May</footer>
 </blockquote>
 
-For additional information, check out my post [What the Heck is IBL?]() that I wrote for [Math Ed Matters][4]. Also, see [Why use IBL?][5] at the [Academy of Inquiry-Based Learning][2].
+IBL has its roots in an instructional delivery method known as the [Moore Method][6], named after [R.L. Moore][7]. [Moore's connection to IBL is a bit controversial](http://www.colorado.edu/eer/research/IBLcommunity.html), but there's no doubt that his approach to teaching has had a tremendous impact on how many approach active learning in mathematics. For additional information, check out my post [What the Heck is IBL?](http://maamathedmatters.blogspot.com/2013/05/what-heck-is-ibl.html) that I wrote for [Math Ed Matters][4]. Also, see [Why use IBL?][5] at the [Academy of Inquiry-Based Learning][2].
 
-## The Moore Method
-
-IBL has its roots in an instructional delivery method known as the [Moore Method][6] (sometimes referred to as the Texas Method), named after [R.L. Moore][7]. In 1966, Moore wrote:
-
-<blockquote>
-  <p>That student is taught the best who is told the least.</p>
-  <footer>R.L. Moore</footer>
-</blockquote>
-
-In the words of J. Parker:
-
-<blockquote>
-  <p>Robert Lee Moore (1882-1974) was a towering figure in twentieth century mathematics, internationally recognized as founder of his own school of topology, which produced some of the most significant mathematicians in that field. The 50 students he guided to their PhDs can today claim 1,678 doctoral descendants. Many of them are still teaching courses in the style of their mentor, known universally as the Moore Method, which he devised. Its principal edicts virtually prohibit students from using textbooks during the learning process, call for only the briefest of lectures in class and demand no collaboration or conferring between classmates. (Exceptions were Moore's calculus and analytic geometry courses in which textbooks were used for setting problems. His doctoral students were allowed to refer to the literature mainly to ensure their theses were original.) It is in essence a Socratic method that encourages students to solve problems using their own skills of critical analysis and creativity. Moore summed it up in just eleven words: &#8216;That student is taught the best who is told the least.'</p>
-  <footer>J. Parker</footer>
-</blockquote>
-
-Loosely speaking, the majority of a Moore Method course consists of students presenting proofs/solutions that they have produced independently from material provided by the instructor. In a traditional Moore Method course, students are discouraged, in fact forbidden, to collaborate. Variations of the Moore Method take many forms and are often referred to by the generic name "modified-Moore method." In particular, one modification I make is that I not only allow students to work together, I encourage it. The Moore Method or one of its modifications is typically associated with pedagogies including inquiry-based, discovery-based, student-centered, Socratic, and constructivist learning. For more detailed information, including history, of Moore and his method, check out [A Quick-Start Guide to the Moore Method][8].
+<!-- Loosely speaking, the majority of a Moore Method course consists of students presenting proofs/solutions that they have produced independently from material provided by the instructor. In a traditional Moore Method course, students are discouraged, in fact forbidden, to collaborate. Variations of the Moore Method take many forms and are often referred to by the generic name "modified-Moore method." In particular, one modification I make is that I not only allow students to work together, I encourage it. The Moore Method or one of its modifications is typically associated with pedagogies including inquiry-based, discovery-based, student-centered, Socratic, and constructivist learning. For more detailed information, including history, of Moore and his method, check out [A Quick-Start Guide to the Moore Method][8]. -->
 
 ## IBL Resources
 
 Below is a list of IBL-related resources.
 
   * The [Academy of Inquiry-Based Learning][2] is a hub for IBL in mathematics. I am a Special Projects Coordinator for AIBL.
-  * [Math Ed Matters][4] is a (roughly) monthly column sponsored by the Mathematical Association of America and authored by me and Angie Hodge. The column explores topics and current events related to undergraduate mathematics education. Posts will aim to inspire, provoke deep thought, and provide ideas for the mathematics classroom. Our interest in and engagement with IBL color the column's content.
+  * [Math Ed Matters](http://maamathedmatters.blogspot.com), which is an online column sponsored by the [MAA](http://maa.org).  The column explores topics and current events related to undergraduate mathematics education.
   * [The IBL Blog][10] focuses on promoting the use of IBL methods in the classroom at the college, secondary and elementary school levels. Sponsored by AIBL.
   * [AIBL's YouTube Channel][11] has a list of IBL-related videos.
   * AIBL sponsors [IBL workshops][12], which are excellent for anyone interested in learning to implement IBL in a college-level mathematics course.
-  * The [Inquiry-Based Learning in Mathematics Community on Google+][13] provides a forum for discussing IBL. This is a great place to ask questions.
   * The [Journal of Inquiry-Based Learning in Mathematics][14] publishes university-level IBL course notes that are free, refereed, and classroom-tested.
-  * I have written some IBL course notes for an introduction to proof course. You can find the [GitHub][15] repository for the LaTeX source, by going [here][16].
   * [The Moore Method — A Pathway to Learner-Centered Instruction][17] by Charles A. Coppin, W. Ted Mahavier, E. Lee May, and Edgar Parker is an excellent book that provides an overview of what the Moore method is and how to implement it.
   * [5 Elements of Effective Thinking][18] by Edward B. Burger and Michael Starbird isn't explicitly a book about IBL, but the book is written by two long-time practitioners of IBL and the themes of the book are relevant to anyone interested in teaching using student-centered approaches.
   * A team of researchers at the [University of Colorado][19] led by Sandra Laursen have been working on the [Inquiry-Based Learning in College Mathematics Project][3], which an extensive study on the effectiveness of IBL. The is quasi-experimental study examined over 100 courses at four different campuses using a longitudinal study that spanned two years.
   * The [Educational Advancement Foundation][20] is a philanthropic organization that supports the development and implementation of IBL and the preservation and dissemination of the Moore method.
-  * The [Legacy of RL Moore Project][21] is primarily concerned with preserving the historical record, producing a comprehensive biography of R.L. Moore, and supporting research by others that relate to aspects of his life, work and influence. The Legacy Project hosts the [Legacy of RL Moore Conference][22] each summer.
+  * The [Legacy of RL Moore Project][21] is primarily concerned with preserving the historical record, producing a comprehensive biography of R.L. Moore, and supporting research by others that relate to aspects of his life, work and influence.
 
 ## IBL Textbooks
 
