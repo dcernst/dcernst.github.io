@@ -41,4 +41,5 @@ The following assignments are to be turned in at the end of the indicated class 
   <li><i class="fa-li fa fa-pencil-square-o"></i><b>Homework 6:</b> Complete Problems 12-14 from the <a href="https://dcernst.github.io/teaching/mat220s17/220ProblemCollection.pdf">Problem Collection</a> In addition, revisit Problem 7 and attempt to justify why the answer cannot be 10 or larger. (Due Friday, January 27)</li>
   <li><i class="fa-li fa fa-pencil-square-o"></i><b>Homework 7:</b> Complete Problems 15-17 from the <a href="https://dcernst.github.io/teaching/mat220s17/220ProblemCollection.pdf">Problem Collection</a>. (Due Monday, January 30)</li>
   <li><i class="fa-li fa fa-pencil-square-o"></i><b>Homework 8:</b> Complete Problems 18-20 from the <a href="https://dcernst.github.io/teaching/mat220s17/220ProblemCollection.pdf">Problem Collection</a>. (Due Friday, February 3)</li>
+  <li><i class="fa-li fa fa-pencil-square-o"></i><b>Homework 9:</b> Complete Problems 21-23 from the <a href="https://dcernst.github.io/teaching/mat220s17/220ProblemCollection.pdf">Problem Collection</a>. (Due Wednesday, February 8)</li>
 </ul>
