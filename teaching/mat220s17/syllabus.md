@@ -206,9 +206,9 @@ In order to receive a **passing grade** on the presentation portion of your grad
 #### Quizzes and Final Exam ####
 We will have 7 quizzes this semester.  The first one will be given during week 3 and then we will have a quiz every 2 weeks thereafter.  Tentatively, the quizzes are scheduled for the following Wednesdays:
 
-- Quiz 1: February 8
-- Quiz 2: February 22
-- Quiz 3: March 8
+- Quiz 1: February 1
+- Quiz 2: February 15
+- Quiz 3: March 1
 - Quiz 4: March 22
 - Quiz 5: April 5
 - Quiz 6: April 19
