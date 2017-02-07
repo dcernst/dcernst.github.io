@@ -53,5 +53,13 @@ We’ll use this page to keep track of what has happened each day in class. It w
 <ul class="fa-ul">
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, January 30:</b> The week is off to a good start.  We kicked off by having SS and MR present visual and algebraic proofs, respectively, for Problem 15.  After allowed students to chat in small groups for a few minutes, JS2 presented a slick solution to Problem 16. Next, we had students chat in small groups about Problem 17.  AS discussed a case analysis for Problem 17 and then we distilled the argument down to a single case.  We wrapped up by discussing Erdos and the next few homework problems.</li>
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, February 1:</b> The students took Quiz 1. We will get back to working on problems on Friday.</li>
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, February 3:</b> Coming soon.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, February 3:</b> While I was out of town, Monika Keindl covered for me.  Monika handed out a half sheet of paper that contained 4 problems. Students spent the majority of the class meeting working on these problems in small groups.  Along the way, BG and RD presented solutions to the first and second problems, respectively. The intention was for students to finish working on the remaining two problems over the weekend.</li>
+</ul>
+
+## Week 4 ##
+
+<ul class="fa-ul">
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, February 6:</b> After checking in to see how things went on Friday while I was out of town, we discussed solutions to the last 3 problems on Quiz 1. Next, we recapped the solutions to the first and second problems from Friday and then discussed the third and fourth problems.  We had the class split up into two groups to act out the solution to the third problem involving the frogs. NP suggested there is a nice formula to count the number of steps in the general case.  We wrapped up by discussing the fourth problem involving $x-y=85$ and $\sqrt{x}+\sqrt{y}=17$. MR presented a method for finding a solution, but we left it open as to whether there we any other solutions.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, February 8:</b> Coming soon.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, February 10:</b> Coming soon.</li>
 </ul>
