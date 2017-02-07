@@ -51,7 +51,15 @@ We’ll use this page to keep track of what has happened each day in class. It w
 ## Week 3 ##
 
 <ul class="fa-ul">
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, January 30:</b> We kicked of with CP presenting Theorem 2.25.  Next, we split the class into several small groups.  After several minutes, we had DD, FA, SR, and EV share out about Exercise 2.25.  Next, SG, DF, LS presented Exercises 2.27, 2.28, and 2.31 respectively.  We will get to Problem 2.32 and Theorem 2.34 next time.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, January 30:</b> We kicked off with CP presenting Theorem 2.25.  Next, we split the class into several small groups.  After several minutes, we had DD, FA, SR, and EV share out about Exercise 2.25.  Next, SG, DF, LS presented Exercises 2.27, 2.28, and 2.31 respectively.  We will get to Problem 2.32 and Theorem 2.34 next time.</li>
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, February 1:</b> We cruised through Problem 2.32, Theorem 2.34, and Theorem 2.35, which were presented by CP, CK, and AV, respectively.  Next, we collectively discussed Problem 2.36 and Exercises 2.38-2.41. This was followed by a presentation of Theorem 2.42 by JN2. I went to the board of presented a proof of Theorem 2.43 by proving the contrapositive.  We spent the last 10 minutes of class discussing LaTeX.  We'll get to Theorems 2.44 and 2.45 on Friday or Monday.</li>
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, February 3:</b> Coming soon.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, February 3:</b> While I was out of town, Dr. Falk covered for me. JO, SG, GC, JR/SR, LS, and AT presented Theorem 2.44, Theorem 2.45, Theorem 2.46, Corollary 2.47, Exercise 2.48, and Exercise 2.49, respectively.  JR and SR presented two different approaches to Corollary 2.47.</li>
+</ul>
+
+## Week 4 ##
+
+<ul class="fa-ul">
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, February 6:</b> After checking in to see how Friday went while I was out of town, I summarized the three approaches we can take to proving a conditional statement (direct, contraposition, and contradiction). I also quickly discussed the big picture of Section 2.4.  We kicked off with EV doing a quick presentation of Theorem 2.51.  Next, FA and JN1 presented two alternate approaches to Theorem 2.55.  We finished up with CD discussing Theorem 2.56.  Unfortunately, we had to end class in the middle of a great discussion.  AV will start us off with Exercise 2.57 next time.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, February 8:</b> Coming soon.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, February 10:</b> Coming soon.</li>
 </ul>
