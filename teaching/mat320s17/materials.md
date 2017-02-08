@@ -42,7 +42,7 @@ We will not be using a textbook this semester, but rather a task-sequence adopte
     - 1.4 Rules of the Game
     - 1.5 Structure of the Notes
     - 1.6 Some Minimal Guidance
-- [Chapter 2: Mathematics and Logic]({{site.baseurl}}/teaching/mat320s17/MathAndLogic.pdf) (currently only Sections 2.1-2.4)
+- [Chapter 2: Mathematics and Logic]({{site.baseurl}}/teaching/mat320s17/MathAndLogic.pdf)
     - 2.1 A Taste of Number Theory
     - 2.2 Introduction to Logic
     - 2.3 Negating Implications and Proof by Contradiction
