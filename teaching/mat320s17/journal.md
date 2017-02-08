@@ -60,6 +60,6 @@ We’ll use this page to keep track of what has happened each day in class. It w
 
 <ul class="fa-ul">
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, February 6:</b> After checking in to see how Friday went while I was out of town, I summarized the three approaches we can take to proving a conditional statement (direct, contraposition, and contradiction). I also quickly discussed the big picture of Section 2.4.  We kicked off with EV doing a quick presentation of Theorem 2.51.  Next, FA and JN1 presented two alternate approaches to Theorem 2.55.  We finished up with CD discussing Theorem 2.56.  Unfortunately, we had to end class in the middle of a great discussion.  AV will start us off with Exercise 2.57 next time.</li>
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, February 8:</b> Coming soon.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, February 8:</b> We started with a AV presenting Exercise 2.57.  Next, we walked through Exercises 2.58, 2.60-2.61 together.  This was followed by RF, GC, QC, and SC presenting Exercises 2.65(a), 2.65(b), 2.65(c), and 2.66, respectively.</li>
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, February 10:</b> Coming soon.</li>
 </ul>
