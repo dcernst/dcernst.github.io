@@ -45,12 +45,14 @@ The following assignments are to be turned in at the end of the indicated class 
 - **Daily Homework 11:** Complete 2.55, 2.56, 2.57, 2.58, 2.60-2.62 in [Chapter 2: Mathematics and Logic]({{site.baseurl}}/teaching/mat320s17/MathAndLogic.pdf) and digest the surrounding text along the way. (Due Monday, February 6)
 - **Daily Homework 12:** Complete 2.63, 2.65, 2.66 in [Chapter 2: Mathematics and Logic]({{site.baseurl}}/teaching/mat320s17/MathAndLogic.pdf) and digest the surrounding text along the way. (Due Wednesday, February 8)
 - **Daily Homework 13:** Complete 2.67-2.69, 2.71-2.74 in [Chapter 2: Mathematics and Logic]({{site.baseurl}}/teaching/mat320s17/MathAndLogic.pdf) and digest the surrounding text along the way. (Due Friday, February 10)
+- **Daily Homework 14:** Complete 2.79 and 2.80 in [Chapter 2: Mathematics and Logic]({{site.baseurl}}/teaching/mat320s17/MathAndLogic.pdf) and digest the surrounding text along the way. (Due Monday, February 13)
 
 ## Weekly Homework ##
 In addition to the Daily Homework, we will also have Weekly Homework assignments.  For most of these assignments, you will be required to submit 2-3 formally written proofs.  Typically, two of the problems will come directly from the Daily Homework from the previous week.  Any additional problems will likely be new.  You will be required to type your submission using LaTeX (see below for more on this).  You can either submit a hardcopy of your assignment or email me the PDF of your completed work. If you email me the PDF, please name your file as <code>WeeklyX-Lastname.pdf</code>, where <code>X</code> is the number of the assignment and <code>Lastname</code> is your last name.  Notice there are no spaces in the filename.
 
 - **Weekly Homework 1:** Prove **two** of Problem 2.9, Theorem 2.14, Theorem 2.18, or Theorem 2.22 from [Chapter 2: Mathematics and Logic]({{site.baseurl}}/teaching/mat320s17/MathAndLogic.pdf). (Due Thursday, February 2 by 8PM)
 - **Weekly Homework 2:** Prove **two** of Theorem 2.23, Theorem 2.43, Theorem 2.44, or Theorem 2.45 from [Chapter 2: Mathematics and Logic]({{site.baseurl}}/teaching/mat320s17/MathAndLogic.pdf). (Due Thursday, February 9 by 8PM)
+- **Weekly Homework 3:** Prove **one** of Theorem 2.55 or Theorem 2.56 from [Chapter 2: Mathematics and Logic]({{site.baseurl}}/teaching/mat320s17/MathAndLogic.pdf). *Note:* For Theorem 2.55, you can either prove the contrapositive or use a proof by contradiction; you do not need to do both. (Due Tuesday, February 14 by 8PM)
 
 
 ## Using LaTeX for Weekly Homework ##
