@@ -61,5 +61,13 @@ We’ll use this page to keep track of what has happened each day in class. It w
 <ul class="fa-ul">
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, February 6:</b> After checking in to see how things went on Friday while I was out of town, we discussed solutions to the last 3 problems on Quiz 1. Next, we recapped the solutions to the first and second problems from Friday and then discussed the third and fourth problems.  We had the class split up into two groups to act out the solution to the third problem involving the frogs. NP suggested there is a nice formula to count the number of steps in the general case.  We wrapped up by discussing the fourth problem involving $x-y=85$ and $\sqrt{x}+\sqrt{y}=17$. MR presented a method for finding a solution, but we left it open as to whether there are any other solutions. We still need to discuss Problems 18-20, which we will do on Wednesday.</li>
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, February 8:</b> We kicked off with a discussion of the problem involving $x-y=85$ and $\sqrt{x}+\sqrt{y}=17$. After discussing a few different approaches, we settled on there being a unique solution.  However, after class, MR pointed out to me that what we said only guarantees that there are at most 2 solutions. Perhaps we will have time to address this one on Friday.  Next, AC presented Problem 18, which generated good discussion about rigorous arguments compared to data having a pattern. This was followed by a nice argument for Problem 19 by KP. We finished up with AT1 giving a slick approach to Problem 21. We briefly discussed why we couldn't improve upon our answer in Problem 21.</li>
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, February 10:</b> Coming soon.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, February 10:</b> I really enjoyed today's class. We started with allowing students to chat in small groups about Problems 21 and 22.  We had LB and SW present Problem 21 and then MH, JM, and RD discussed Problem 22.  Next, AT2, AS, and JJ tackled Problem 23.  We wrapped up with NP presenting Problem 24.</li>
+</ul>
+
+## Week 5 ##
+
+<ul class="fa-ul">
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, February 13:</b> Coming soon.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, February 15:</b> Coming soon.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, February 17:</b> Coming soon.</li>
 </ul>
