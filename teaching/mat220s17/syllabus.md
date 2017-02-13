@@ -214,7 +214,7 @@ We will have 7 quizzes this semester.  The first one will be given during week 3
 - Quiz 6: April 19
 - Quiz 7: May 3
 
-Each quiz will last at least 30 minutes and will consist of a mixture of homework problems you encountered during the previous two weeks and new problems not previously attempted.   Each problem will be graded using the following rubric:
+Each quiz will consist of a mixture of homework problems you encountered during the previous two weeks and new problems not previously attempted.   Each problem will be graded using the following rubric:
 
 <center>
 <table class="table table-striped">
@@ -226,20 +226,20 @@ Each quiz will last at least 30 minutes and will consist of a mixture of homewor
 	</thead>
 	<tbody>
 	<tr>
-		<td style="text-align: center;">4</td>
+		<td style="text-align: center;">8</td>
 		<td>This is correct and well-written mathematics!</td>
 	</tr>
 	<tr>
-		<td style="text-align: center;">3</td>
+		<td style="text-align: center;">6-7</td>
 		<td>This is a good piece of work, yet there are some mathematical errors or some writing errors that need addressing.</td>
 	</tr>
 	<tr>
-		<td style="text-align: center;">2</td>
+		<td style="text-align: center;">4-5</td>
 		<td>There is some good intuition here, but there is at least one serious flaw. </td>
 	</tr>
 	<tr>
-		<td style="text-align: center;">1</td>
-		<td>I don't understand this, but I see that you have worked on it; come see me!</td>
+		<td style="text-align: center;">1-3</td>
+		<td>I don't understand this, but I see that you have worked on it</td>
 	</tr>
 	<tr>
 		<td style="text-align: center;">0</td>
