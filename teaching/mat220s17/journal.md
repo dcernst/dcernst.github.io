@@ -67,7 +67,7 @@ We’ll use this page to keep track of what has happened each day in class. It w
 ## Week 5 ##
 
 <ul class="fa-ul">
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, February 13:</b> Coming soon.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, February 13:</b> We accomplished more today than I expected.  We kicked off with small groups discussing potential solutions to Problem 25. We had JS1 share a solution he encountered when chatting with his group. Next, we had JS2 share his proposed solution to Problem 26, but we discovered it wasn't optimal because RB proposed a better solution.  I suggested folks attempt to prove that RB's solution is the best we can do.  After having AT2 share his proposed approach to Problem 27, we had BG present slick solutions to both Problems 27 and 28.</li>
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, February 15:</b> Coming soon.</li>
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, February 17:</b> Coming soon.</li>
 </ul>
