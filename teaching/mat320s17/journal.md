@@ -63,3 +63,11 @@ We’ll use this page to keep track of what has happened each day in class. It w
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, February 8:</b> We started with a AV presenting Exercise 2.57.  Next, we walked through Exercises 2.58, 2.60-2.61 together.  This was followed by RF, GC, QC, and SC presenting Exercises 2.65(a), 2.65(b), 2.65(c), and 2.66, respectively.</li>
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, February 10:</b> Busy day! After some discussion of Theorem 2.72, we split the class up into 9 small groups, where each group was tasked with discussing a chunk of the homework.  We had CD, JR AT, TC, JQ, DD, and JH present Exercises 2.67, 2.68, 2.69(abc), 2.69(abc), 2.71, 2.73(abcd), and 2.73(efgh), respectively.</li>
 </ul>
+
+## Week 5 ##
+
+<ul class="fa-ul">
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, February 13:</b> After briefly discussing the upcoming exam, we divided the class up into 9 small groups, where each group was responsible for one of the homework questions.  We had CK, DD, QC, JN1, CP, and JH Problem 2.79(a), (b), (c), (d), (f), and Theorem 2.80, respectively.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, February 15:</b> Coming soon.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, February 17:</b> Coming soon.</li>
+</ul>
