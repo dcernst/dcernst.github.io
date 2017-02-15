@@ -84,7 +84,7 @@ I will not be covering every detail of the notes and the only way to achieve a s
 ## Exams ##
 Below are links to each exam.
 
-- [Exam 1 (take-home)]({{site.baseurl}}/teaching/mat320s17/Exam1-Home.pdf). If you are interested in using LaTeX to type up your solutions, contact me and I will send you a link to the source file of the exam. (Due Monday, February 20)
+- [Exam 1 (take-home)]({{site.baseurl}}/teaching/mat320s17/320Exam1-Home.pdf). If you are interested in using LaTeX to type up your solutions, contact me and I will send you a link to the source file of the exam. (Due Monday, February 20)
 - Exam 2 (take-home). Coming soon.
 - Exam 3 (take-home). Coming soon.
 - Final Exam (take-home). Coming soon.
