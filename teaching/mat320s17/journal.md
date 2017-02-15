@@ -68,6 +68,6 @@ We’ll use this page to keep track of what has happened each day in class. It w
 
 <ul class="fa-ul">
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, February 13:</b> After briefly discussing the upcoming exam, we divided the class up into 9 small groups, where each group was responsible for one of the homework questions.  We had CK, DD, QC, JN1, CP, and JH Problem 2.79(a), (b), (c), (d), (f), and Theorem 2.80, respectively.</li>
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, February 15:</b> Coming soon.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, February 15:</b> The students took the in-class portion of Exam 1.</li>
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, February 17:</b> Coming soon.</li>
 </ul>
