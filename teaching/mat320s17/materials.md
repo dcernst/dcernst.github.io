@@ -48,7 +48,7 @@ We will not be using a textbook this semester, but rather a task-sequence adopte
     - 2.3 Negating Implications and Proof by Contradiction
     - 2.4 Introduction to Quantification
     - 2.5 More About Quantification
-- Chapter 3: Set Theory and Topology
+- [Chapter 3: Set Theory and Topology]({{site.baseurl}}/teaching/mat320s17/IntroSetTheoryTopology.pdf) (currently only Section 3.1)
     - 3.1 Sets
     - 3.2 Power Sets and Paradoxes
     - 3.3 Indexing Sets
