@@ -45,4 +45,5 @@ The following assignments are to be turned in at the end of the indicated class 
   <li><i class="fa-li fa fa-pencil-square-o"></i><b>Homework 10:</b> Complete Problems 22-24 from the <a href="https://dcernst.github.io/teaching/mat220s17/220ProblemCollection.pdf">Problem Collection</a>. (Due Friday, February 10)</li>
   <li><i class="fa-li fa fa-pencil-square-o"></i><b>Homework 11:</b> Complete Problems 25-28 from the <a href="https://dcernst.github.io/teaching/mat220s17/220ProblemCollection.pdf">Problem Collection</a>. (Due Monday, February 13)</li>
   <li><i class="fa-li fa fa-pencil-square-o"></i><b>Homework 12:</b> Complete Problems 33-35 from the <a href="https://dcernst.github.io/teaching/mat220s17/220ProblemCollection.pdf">Problem Collection</a>. Also, attempt to verify that 17 minutes is the minimum in Problem 26. (Due Friday, February 17)</li>
+  <li><i class="fa-li fa fa-pencil-square-o"></i><b>Homework 13:</b> Complete Problems 36-39 from the <a href="https://dcernst.github.io/teaching/mat220s17/220ProblemCollection.pdf">Problem Collection</a>. (Due Monday, February 20)</li>
 </ul>
