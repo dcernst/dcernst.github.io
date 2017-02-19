@@ -71,3 +71,11 @@ We’ll use this page to keep track of what has happened each day in class. It w
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, February 15:</b> The students took Quiz 2.  I love watching the students collaborate for the few minutes I allow them to chat.</li>
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, February 17:</b> I was energetic today, but I might have been the only one.  We started with a brief follow-up discussion on Problems 27 and 28.  NP told us how we could take the solutions from Problems 27 and 28 and combine them into a single strategy.  Next, KG provided an argument about why 17 minutes is the best we can do on Problem 26.  AT2 put Problem 33 to rest with easy; another example of triangular numbers.  RD and AT1 tackled Problem 34 for us. I think everyone should be able to handle any problem like this one in the future.  We spend the last 20 minutes of class discussing Problem 35.  LL and RB presented their proposed solutions, but it turns out that we can do better.  We'll revisit Problem 35 next week.</li>
 </ul>
+
+## Week 6 ##
+
+<ul class="fa-ul">
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, February 20:</b> Coming soon.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, February 22:</b> Coming soon.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, February 24:</b> Coming soon.</li>
+</ul>

@@ -71,3 +71,11 @@ We’ll use this page to keep track of what has happened each day in class. It w
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, February 15:</b> The students took the in-class portion of Exam 1.</li>
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, February 17:</b> After handing back the in-class portion of Exam 1, I lectured over the first bit of [Chapter 3: Set Theory and Topology]({{site.baseurl}}/teaching/mat320s17/IntroSetTheoryTopology.pdf). In particular, we cover 3.1-3.12. We will pick up where we left off on Monday.</li>
 </ul>
+
+## Week 6 ##
+
+<ul class="fa-ul">
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, February 20:</b> Coming soon.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, February 22:</b> Coming soon.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, February 24:</b> Coming soon.</li>
+</ul>
