@@ -75,7 +75,7 @@ We’ll use this page to keep track of what has happened each day in class. It w
 ## Week 6 ##
 
 <ul class="fa-ul">
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, February 20:</b> Coming soon.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, February 20:</b> Unfortunately, I spent almost the entire class talking.  I spent a good chunk of time going over Quiz 2 and then wrote down a complete solution to Problem 35 involving 12 coins.  There was a few minutes at the end for students to think about what to do with 11 coins.</li>
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, February 22:</b> Coming soon.</li>
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, February 24:</b> Coming soon.</li>
 </ul>
