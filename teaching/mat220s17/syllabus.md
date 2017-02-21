@@ -204,15 +204,15 @@ In general, I will curate the list of student presenters each class meeting.  Ho
 In order to receive a **passing grade** on the presentation portion of your grade, **you must present at least three times prior to the end of week 7 of the semester** (Friday, March 3) and **at least three times after week 7 of the semester**. Notice that I've described a minimum.  To ensure a good grade, you should present as often as you can. Your overall performance during presentations, as well as your level of interaction/participation during class, is worth 15% of your overall grade.
 
 #### Quizzes and Final Exam ####
-We will have 7 quizzes this semester.  The first one will be given during week 3 and then we will have a quiz every 2 weeks thereafter.  Tentatively, the quizzes are scheduled for the following Wednesdays:
+We will have 7 quizzes this semester.  The first one will be given during week 3 and then we will have a quiz every 2 weeks thereafter.  Tentatively, the quizzes are scheduled for the following dates:
 
-- Quiz 1: February 1
-- Quiz 2: February 15
-- Quiz 3: March 1
-- Quiz 4: March 22
-- Quiz 5: April 5
-- Quiz 6: April 19
-- Quiz 7: May 3
+- Quiz 1: Wednesday, February 1
+- Quiz 2: Wednesday, February 15
+- Quiz 3: <s>Wednesday, March 1</s> Friday, February 24
+- Quiz 4: <s>Wednesday, March 22</s> Friday, March 10
+- Quiz 5: Wednesday, April 5
+- Quiz 6: Wednesday, April 19
+- Quiz 7: Wednesday, May 3
 
 Each quiz will consist of a mixture of homework problems you encountered during the previous two weeks and new problems not previously attempted.   Each problem will be graded using the following rubric:
 
