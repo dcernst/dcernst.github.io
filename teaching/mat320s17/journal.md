@@ -75,7 +75,7 @@ We’ll use this page to keep track of what has happened each day in class. It w
 ## Week 6 ##
 
 <ul class="fa-ul">
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, February 20:</b> Coming soon.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, February 20:</b> I continued lecturing over [Chapter 3: Set Theory and Topology]({{site.baseurl}}/teaching/mat320s17/IntroSetTheoryTopology.pdf).  We covered 3.13-3.19.</li>
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, February 22:</b> Coming soon.</li>
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, February 24:</b> Coming soon.</li>
 </ul>
