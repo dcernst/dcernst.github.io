@@ -54,7 +54,8 @@ In addition to the Daily Homework, we will also have Weekly Homework assignments
 
 - **Weekly Homework 1:** Prove **two** of Problem 2.9, Theorem 2.14, Theorem 2.18, or Theorem 2.22 from [Chapter 2: Mathematics and Logic]({{site.baseurl}}/teaching/mat320s17/MathAndLogic.pdf). (Due Thursday, February 2 by 8PM)
 - **Weekly Homework 2:** Prove **two** of Theorem 2.23, Theorem 2.43, Theorem 2.44, or Theorem 2.45 from [Chapter 2: Mathematics and Logic]({{site.baseurl}}/teaching/mat320s17/MathAndLogic.pdf). (Due Thursday, February 9 by 8PM)
-- **Weekly Homework 3:** Prove **two** of Theorems 3.20(a), 3.21(a), 3.25, 3.26, 3.27 from [Chapter 3: Set Theory and Topology]({{site.baseurl}}/teaching/mat320s17/IntroSetTheoryTopology.pdf). (Due Tuesday, February 28 by 8PM)
+- **Weekly Homework 3:** Prove **one** of Theorem 2.55 or Theorem 2.56 from [Chapter 2: Mathematics and Logic]({{site.baseurl}}/teaching/mat320s17/MathAndLogic.pdf). (Due Tuesday, February 14 by 8PM)
+- **Weekly Homework 4:** Prove **two** of Theorem 3.20(a), Theorem 3.21(a), Theorem 3.25, Theorem 3.26, or Theorem 3.27 from [Chapter 3: Set Theory and Topology]({{site.baseurl}}/teaching/mat320s17/IntroSetTheoryTopology.pdf). (Due Tuesday, February 28 by 8PM)
 
 ## Using LaTeX for Weekly Homework ##
 You are required to use LaTeX to type up your Weekly Homework assignments.  To do this, I suggest that you use my [LaTeX Homework Template](https://github.com/dcernst/MiscTeachingMaterials/blob/master/HWTemplate.tex).  The easiest way to get started with LaTeX is to use an online editor.  I recommend using [Overleaf](https://overleaf.com), but there are other options.  The good folks over at Overleaf have preloaded my template, so to get started, all you need to do is click the link below.
