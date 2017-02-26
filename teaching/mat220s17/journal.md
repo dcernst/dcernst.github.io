@@ -79,3 +79,11 @@ We’ll use this page to keep track of what has happened each day in class. It w
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, February 22:</b> Great day! BS presented Problem 37, which illustrated the importance of working backwards. Next MS walked us through Problem 38. I followed this up with a discussion of how to explicitly count the number of friendships on each team. This lead to a brief discussion about how to generalize the problem. KG attempted Problem 39, but his approach was thwarted by an inability to resolve one inequality. KF followed this up with an elegant solution involving the triangle inequality. We wrapped up class with a short discussion of Problem 40, which turns out to not work as expected.</li>
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, February 24:</b> The students took [Quiz 3]({{site.baseurl}}/teaching/mat220s17/220Quiz3.pdf).</li>
 </ul>
+
+## Week 7 ##
+
+<ul class="fa-ul">
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, February 27:</b> Coming soon.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, March 1:</b> Coming soon.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, March 3:</b> Coming soon.</li>
+</ul>
