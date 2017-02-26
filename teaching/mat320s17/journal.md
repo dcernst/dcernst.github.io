@@ -69,13 +69,13 @@ We’ll use this page to keep track of what has happened each day in class. It w
 <ul class="fa-ul">
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, February 13:</b> After briefly discussing the upcoming exam, we divided the class up into 9 small groups, where each group was responsible for one of the homework questions.  We had CK, DD, QC, JN1, CP, and JH Problem 2.79(a), (b), (c), (d), (f), and Theorem 2.80, respectively.</li>
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, February 15:</b> The students took the in-class portion of Exam 1.</li>
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, February 17:</b> After handing back the in-class portion of Exam 1, I lectured over the first bit of [Chapter 3: Set Theory and Topology]({{site.baseurl}}/teaching/mat320s17/IntroSetTheoryTopology.pdf). In particular, we cover 3.1-3.12. We will pick up where we left off on Monday.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, February 17:</b> After handing back the in-class portion of Exam 1, I lectured over the first bit of <a href="{{site.baseurl}}/teaching/mat320s17/IntroSetTheoryTopology.pdf">Chapter 3: Set Theory and Topology</a>. In particular, we cover 3.1-3.12. We will pick up where we left off on Monday.</li>
 </ul>
 
 ## Week 6 ##
 
 <ul class="fa-ul">
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, February 20:</b> I continued lecturing over [Chapter 3: Set Theory and Topology]({{site.baseurl}}/teaching/mat320s17/IntroSetTheoryTopology.pdf).  We covered 3.13-3.19.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, February 20:</b> I continued lecturing over <a href="{{site.baseurl}}/teaching/mat320s17/IntroSetTheoryTopology.pdf">Chapter 3: Set Theory and Topology</a>.  We covered 3.13-3.19.</li>
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, February 22:</b> We had JO, DF, AV, QC, and EV present Theorem 3.20(a), Exercise 3.23(a), Exercise 3.23(b), Exercise 3.23(c), and Exercise 3.23(d), respectively.  Along the way, I wrote out the proof of Theorem 3.21(a). We didn't get to Theorems 3.25-3.27, so we will have squeeze those in next time.</li>
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, February 24:</b> As planned, I presented a proof of Theorem 3.25. Next, JR, LS, and JN2.</li>
 </ul>

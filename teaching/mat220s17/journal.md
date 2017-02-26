@@ -52,7 +52,7 @@ We’ll use this page to keep track of what has happened each day in class. It w
 
 <ul class="fa-ul">
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, January 30:</b> The week is off to a good start.  We kicked off by having SS and MR present visual and algebraic proofs, respectively, for Problem 15.  After allowed students to chat in small groups for a few minutes, JS2 presented a slick solution to Problem 16. Next, we had students chat in small groups about Problem 17.  AS discussed a case analysis for Problem 17 and then we distilled the argument down to a single case.  We wrapped up by discussing Erdos and the next few homework problems.</li>
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, February 1:</b> The students took [Quiz 1]({{site.baseurl}}/teaching/mat220s17/220Quiz1.pdf). We will get back to working on problems on Friday.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, February 1:</b> The students took <a href="{{site.baseurl}}/teaching/mat220s17/220Quiz2.pdf">Quiz 2</a>. We will get back to working on problems on Friday.</li>
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, February 3:</b> While I was out of town, Monika Keindl covered for me.  Monika handed out a half sheet of paper that contained 4 problems. Students spent the majority of the class meeting working on these problems in small groups.  Along the way, BG and RD presented solutions to the first and second problems, respectively. The intention was for students to finish working on the remaining two problems over the weekend.</li>
 </ul>
 
@@ -68,7 +68,7 @@ We’ll use this page to keep track of what has happened each day in class. It w
 
 <ul class="fa-ul">
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, February 13:</b> We accomplished more today than I expected.  We kicked off with small groups discussing potential solutions to Problem 25. We had JS1 share a solution he encountered when chatting with his group. Next, we had JS2 share his proposed solution to Problem 26, but we discovered it wasn't optimal because RB proposed a better solution.  I suggested folks attempt to prove that RB's solution is the best we can do.  After having AT2 share his proposed approach to Problem 27, we had BG present slick solutions to both Problems 27 and 28.</li>
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, February 15:</b> The students took [Quiz 2]({{site.baseurl}}/teaching/mat220s17/220Quiz2.pdf).  I love watching the students collaborate for the few minutes I allow them to chat.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, February 15:</b> The students took <a href="{{site.baseurl}}/teaching/mat220s17/220Quiz2.pdf">Quiz 2</a>.  I love watching the students collaborate for the few minutes I allow them to chat.</li>
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, February 17:</b> I was energetic today, but I might have been the only one.  We started with a brief follow-up discussion on Problems 27 and 28.  NP told us how we could take the solutions from Problems 27 and 28 and combine them into a single strategy.  Next, KG provided an argument about why 17 minutes is the best we can do on Problem 26.  AT2 put Problem 33 to rest with easy; another example of triangular numbers.  RD and AT1 tackled Problem 34 for us. I think everyone should be able to handle any problem like this one in the future.  We spend the last 20 minutes of class discussing Problem 35.  LL and RB presented their proposed solutions, but it turns out that we can do better.  We'll revisit Problem 35 next week.</li>
 </ul>
 
@@ -77,7 +77,7 @@ We’ll use this page to keep track of what has happened each day in class. It w
 <ul class="fa-ul">
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, February 20:</b> Unfortunately, I spent almost the entire class talking.  I spent a good chunk of time going over Quiz 2 and then wrote down a complete solution to Problem 35 involving 12 coins.  There was a few minutes at the end for students to think about what to do with 11 coins.</li>
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, February 22:</b> Great day! BS presented Problem 37, which illustrated the importance of working backwards. Next MS walked us through Problem 38. I followed this up with a discussion of how to explicitly count the number of friendships on each team. This lead to a brief discussion about how to generalize the problem. KG attempted Problem 39, but his approach was thwarted by an inability to resolve one inequality. KF followed this up with an elegant solution involving the triangle inequality. We wrapped up class with a short discussion of Problem 40, which turns out to not work as expected.</li>
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, February 24:</b> The students took [Quiz 3]({{site.baseurl}}/teaching/mat220s17/220Quiz3.pdf).</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, February 24:</b> The students took <a href="{{site.baseurl}}/teaching/mat220s17/220Quiz3.pdf">Quiz 3</a>.</li>
 </ul>
 
 ## Week 7 ##
