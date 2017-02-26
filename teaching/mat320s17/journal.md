@@ -77,7 +77,7 @@ We’ll use this page to keep track of what has happened each day in class. It w
 <ul class="fa-ul">
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, February 20:</b> I continued lecturing over <a href="{{site.baseurl}}/teaching/mat320s17/IntroSetTheoryTopology.pdf">Chapter 3: Set Theory and Topology</a>.  We covered 3.13-3.19.</li>
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, February 22:</b> We had JO, DF, AV, QC, and EV present Theorem 3.20(a), Exercise 3.23(a), Exercise 3.23(b), Exercise 3.23(c), and Exercise 3.23(d), respectively.  Along the way, I wrote out the proof of Theorem 3.21(a). We didn't get to Theorems 3.25-3.27, so we will have squeeze those in next time.</li>
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, February 24:</b> As planned, I presented a proof of Theorem 3.25. Next, JR, LS, and JN2.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, February 24:</b> As planned, I presented a proof of Theorem 3.25. Next, JR, LS, JN2, and TC presented Theorem 3.26, Theorem 3.27, Problem 3.28, and Problem 3.29, respectively.</li>
 </ul>
 
 ## Week 7 ##
