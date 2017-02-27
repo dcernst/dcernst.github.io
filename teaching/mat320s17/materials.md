@@ -53,8 +53,9 @@ We will not be using a textbook this semester, but rather a task-sequence adopte
     - 3.2 Power Sets and Paradoxes
     - 3.3 Indexing Sets
     - 3.4 Topology of $\mathbb{R}$
-- [Chapter 4: Two Famous Theorems]({{site.baseurl}}/teaching/mat320s17/TwoFamousTheorems.pdf)
-    - 4.1 The Irrationality of $\sqrt{2}$
+- [Chapter 4: Three Famous Theorems]({{site.baseurl}}/teaching/mat320s17/ThreeFamousTheorems.pdf)
+    - 4.1 The Fundamental Theorem of Arithmetic
+    - 4.2 The Irrationality of $\sqrt{2}$
     - 4.2 The Infinitude of Primes
 - Chapter 5: Induction
     - 5.1 Introduction to Induction
