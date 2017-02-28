@@ -83,7 +83,7 @@ We’ll use this page to keep track of what has happened each day in class. It w
 ## Week 7 ##
 
 <ul class="fa-ul">
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, February 27:</b> Coming soon.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, February 27:</b> I had surgery on my back this morning and I will be out for 2 weeks.  In my absence, Dr. Wilson is covering for me.  My understanding is that MS presented an elegant solution to Problem 41 and then there was some general discussion of Problems 42 and 43.  These problems and likely a couple more will be tackled on Wednesday.</li>
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, March 1:</b> Coming soon.</li>
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, March 3:</b> Coming soon.</li>
 </ul>
