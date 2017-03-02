@@ -85,5 +85,8 @@ We’ll use this page to keep track of what has happened each day in class. It w
 <ul class="fa-ul">
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, February 27:</b> I had surgery on my back this morning and I will be out for 2 weeks.  In my absence, Dr. Wilson is covering for me.  My understanding is that MS presented an elegant solution to Problem 41 and then there was some general discussion of Problems 42 and 43.  These problems and likely a couple more will be tackled on Wednesday.</li>
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, March 1:</b> Coming soon.</li>
+<!-- We discussed the Bin problem a little.  One guy had done a simulation, but got incorrect results.  He’ll give me his code and I’ll wrestle with it.
+On The Martian Artifacts, one guy showed that n = 5 could be done in 3 and we showed that n = 2k is sorta the same as n = 2k-1.  I was about to assign n = 7 when someone in the front says’I can do 7 in 4’  so she showed how to do that.  So I have assigned n = 9 for Friday.
+Then we looked at Aslant.  One guy had a solution, but it used an alternative fact.  Another _did_ have a solution, but it used ~~trig~~ that ended the hour and a girl in back sat she had a sol using similar triangles, which I’m looking forward to seeing. -->
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, March 3:</b> Coming soon.</li>
 </ul>

@@ -84,6 +84,6 @@ We’ll use this page to keep track of what has happened each day in class. It w
 
 <ul class="fa-ul">
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, February 27:</b> I had surgery on my back this morning and I will be out for 2 weeks.  In my absence, Dr. Falk is covering this week.  My understanding is that paradoxes, Russell's Paradox in particular, were discussed some more.  With the time that remained, SR and CP presented 3.35 and 3.36.  The plan for Wednesday will be to pick up where y'all left off.</li>
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, March 1:</b> Coming soon.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, March 1:</b> First, JN1, JN2, and SG presented 3.37, 3.38, and 3.39, respectively. Next, 3.41 and 3.42 were discussed as a class while Dr. Falk scribed. Class ended with RF presenting Theorem 3.44. Theorem 3.43 will likely get discussed next time.</li>
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, March 3:</b> Coming soon.</li>
 </ul>
