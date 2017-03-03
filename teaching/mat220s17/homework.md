@@ -50,4 +50,5 @@ The following assignments are to be turned in at the end of the indicated class 
   <li><i class="fa-li fa fa-pencil-square-o"></i><b>Homework 15:</b> Complete Problems 41-43 from the <a href="https://dcernst.github.io/teaching/mat220s17/220ProblemCollection.pdf">Problem Collection</a>. (Due Monday, February 27)</li>
   <li><i class="fa-li fa fa-pencil-square-o"></i><b>Homework 16:</b> If necessary, revisit Problems 42 and 43. Also, complete Problems 44-46 from the <a href="https://dcernst.github.io/teaching/mat220s17/220ProblemCollection.pdf">Problem Collection</a>. (Due Wednesday, March 1)</li>
   <li><i class="fa-li fa fa-pencil-square-o"></i><b>Homework 17:</b> Keep working on Problems 42 ($n=9$ case), 45, and 46. In addition, complete Problem 47 from the <a href="https://dcernst.github.io/teaching/mat220s17/220ProblemCollection.pdf">Problem Collection</a>. (Due Friday, March 3)</li>
+  <li><i class="fa-li fa fa-pencil-square-o"></i><b>Homework 18:</b> Complete Problems 48-50 (Magic!, Two Deep, Checker Mate) from the <a href="https://dcernst.github.io/teaching/mat220s17/220ProblemCollection.pdf">Problem Collection</a>. (Due Monday, March 6)</li>
 </ul>
