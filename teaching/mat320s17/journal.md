@@ -85,5 +85,13 @@ We’ll use this page to keep track of what has happened each day in class. It w
 <ul class="fa-ul">
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, February 27:</b> I had surgery on my back this morning and I will be out for 2 weeks.  In my absence, Dr. Falk is covering this week.  My understanding is that paradoxes, Russell's Paradox in particular, were discussed some more.  With the time that remained, SR and CP presented 3.35 and 3.36.  The plan for Wednesday will be to pick up where y'all left off.</li>
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, March 1:</b> First, JN1, JN2, and SG presented 3.37, 3.38, and 3.39, respectively. Next, 3.41 and 3.42 were discussed as a class while Dr. Falk scribed. Class ended with RF presenting Theorem 3.44. Theorem 3.43 will likely get discussed next time.</li>
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, March 3:</b> Coming soon.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, March 3:</b> The word on the street is that, class started off with SG presenting Theorem 3.43.  After an initial attempt, Dr. Falk pointed out some weaknesses and then SG was able to redo the whole thing and produce a valid proof. Next, DF, TC, and LS presented Exercise 4.2, Exercise 4.3, and Lemma 4.4.  Like Theorem 3.43, Lemma 4.4 required two attempts, but in the end LS was able to nail it using the hint in the footnote.</li>
+</ul>
+
+## Week 8 ##
+
+<ul class="fa-ul">
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, March 6:</b> Coming soon.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, March 8:</b> Coming soon.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, March 10:</b> Coming soon.</li>
 </ul>
