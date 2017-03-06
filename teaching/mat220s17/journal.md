@@ -87,3 +87,11 @@ We’ll use this page to keep track of what has happened each day in class. It w
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, March 1:</b> The word on the street is that after some discussion of Problem 42 (Bin Laden), KG and RB presented the cases for $n=5$ and $n=7$ for Problem 43 (Martian Artifacts), respectively which was followed up with some general discussion of the cases involving $n=2k$ versus $n=2k-1$. Next, RD, followed by MS, presented their proposed solutions to Problem 44 (Aslant).</li>
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, March 3:</b> Rumor has it that the following transpired: KG tackled the case with $n=9$ for Problem 43, RD led a discussion for Problem 45, and then MS and NP presented for Problem 46.</li>
 </ul>
+
+## Week 8 ##
+
+<ul class="fa-ul">
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, March 6:</b> My understanding is that KP presented Problem 44 (Aslant), MS finished off Problem 43 (Martian Artifacts), RB and AC tackled Problem 48 (Magic!), and RD presented Problem 49 (Two Deep).</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, March 8:</b> Coming soon.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, March 10:</b> Coming soon.</li>
+</ul>
