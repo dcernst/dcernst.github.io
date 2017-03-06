@@ -91,7 +91,7 @@ We’ll use this page to keep track of what has happened each day in class. It w
 ## Week 8 ##
 
 <ul class="fa-ul">
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, March 6:</b> Coming soon.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, March 6:</b> David Deville was there today to fill in for me. My understand is that BF, GC, AF, JN2, QC, and SG presented Exercise 4.6, Exercise 4.7, Exercise 4.9, Theorem 4.10, Problem 4.11, and Theorem 4.12, respectively.</li>
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, March 8:</b> Coming soon.</li>
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, March 10:</b> Coming soon.</li>
 </ul>
