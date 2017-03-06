@@ -12,7 +12,7 @@ tags:
   - mathematics
 ---
 
-<img src="{{ site.baseurl }}/images/SUnMaRCLogoLarge.jpg" class="img-responsive" width="100%" img style="margin-bottom: 10px" />
+<img src="{{ site.baseurl }}/images/SUnMaRCLogoLarge.jpg" class="img-responsive rounded" width="100%" img style="margin-bottom: 10px" />
 
 Registration for the [2017 Southwestern Undergraduate Mathematics Research Conference](https://naumathstat.github.io/sunmarc2017/) (aka SUnMaRC) is now open!  [Northern Arizona University](http://nau.edu) is hosting this year's conference on March 31-April 2, 2017.  We are excited to announce Kathryn Bryant (Colorado College), [Henry Segerman](http://www.segerman.org) (Oklahoma State University), and Steve Wilson (NAU, emeritus) as our [invited speakers(https://naumathstat.github.io/sunmarc2017/speakers/).
 
