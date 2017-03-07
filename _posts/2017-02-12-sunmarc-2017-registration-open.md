@@ -12,9 +12,9 @@ tags:
   - mathematics
 ---
 
-<img src="{{ site.baseurl }}/images/SUnMaRCLogoLarge.jpg" class="img-responsive rounded" width="100%" img style="margin-bottom: 10px" />
+<img src="{{ site.baseurl }}/images/SUnMaRCLogoLarge.jpg" class="img-responsive img-rounded" width="100%" img style="margin-bottom: 10px" />
 
-Registration for the [2017 Southwestern Undergraduate Mathematics Research Conference](https://naumathstat.github.io/sunmarc2017/) (aka SUnMaRC) is now open!  [Northern Arizona University](http://nau.edu) is hosting this year's conference on March 31-April 2, 2017.  We are excited to announce Kathryn Bryant (Colorado College), [Henry Segerman](http://www.segerman.org) (Oklahoma State University), and Steve Wilson (NAU, emeritus) as our [invited speakers(https://naumathstat.github.io/sunmarc2017/speakers/).
+Registration for the [2017 Southwestern Undergraduate Mathematics Research Conference](https://naumathstat.github.io/sunmarc2017/) (aka SUnMaRC) is now open!  [Northern Arizona University](http://nau.edu) is hosting this year's conference on March 31-April 2, 2017.  We are excited to announce Kathryn Bryant (Colorado College), [Henry Segerman](http://www.segerman.org) (Oklahoma State University), and Steve Wilson (NAU, emeritus) as our [invited speakers](https://naumathstat.github.io/sunmarc2017/speakers/).
 
 The goal of the conference is to welcome undergraduates to the wonderful world of mathematics research, to develop and foster a rich social network between the mathematics students and faculty throughout the great Southwest, and to celebrate the accomplishments of our undergraduate students. We encourage undergraduate students from all years of study to participate and give presentations in any area of mathematics, including applications to other disciplines.  However, while we do recommend giving a talk, it is not a requirement for conference participation. To register for the conference and to submit a title and abstract for a student presentation, visit the [2017 SunMaRC Registration page](https://naumathstat.github.io/sunmarc2017/registration/).
 
