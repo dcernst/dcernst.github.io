@@ -92,6 +92,6 @@ We’ll use this page to keep track of what has happened each day in class. It w
 
 <ul class="fa-ul">
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, March 6:</b> My understanding is that KP presented Problem 44 (Aslant), MS finished off Problem 43 (Martian Artifacts), RB and AC tackled Problem 48 (Magic!), and RD presented Problem 49 (Two Deep).</li>
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, March 8:</b> Coming soon.</li>
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, March 10:</b> Coming soon.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, March 8:</b> Today MS presented Problem 46 (the one with the $3\times 3$ and $2\times 2$ squares), RD presented Problem 45 (Double Tangent), SS and BS presented Problem 52 (One Over), and KG presented Problem 51 (The Good Teacher), but there was an algebra mistake in Problem 51, so we haven't found a solution to that one yet.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, March 10:</b> The students took <a href="{{site.baseurl}}/teaching/mat220s17/220Quiz4.pdf">Quiz 4</a>.</li>
 </ul>
