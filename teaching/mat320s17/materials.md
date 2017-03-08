@@ -57,16 +57,18 @@ We will not be using a textbook this semester, but rather a task-sequence adopte
     - 4.1 The Fundamental Theorem of Arithmetic
     - 4.2 The Irrationality of $\sqrt{2}$
     - 4.2 The Infinitude of Primes
-- Chapter 5: Induction
+- [Chapter 5: Induction]({{site.baseurl}}/teaching/mat320s17/Induction.pdf) (currently only Section 5.1)
     - 5.1 Introduction to Induction
-    - 5.2 Additional Induction Exercises
-- Chapter 6: Relations and Functions
+    - 5.2 TBA
+    - 5.3 TBA
+- Chapter 6: Relations
     - 6.1 Relations
     - 6.2 Equivalence Relations
     - 6.3 Partitions
-    - 6.4 Introduction to Functions
-    - 6.5 Compositions and Inverses
-    - 6.6 Order Relations
+    - 6.7 Order Relations
+- Chapter 7: Functions
+    - 7.1 Introduction to Functions
+    - 7.2 Compositions and Inverses
 - [Appendix A: Elements of Style for Proofs]({{site.baseurl}}/teaching/mat320s17/ElementsOfStyle.pdf)
 - [Appendix B: Fancy Mathematical Terms]({{site.baseurl}}/teaching/mat320s17/FancyMathematicalTerms.pdf)
 - [Appendix C: Definitions in Mathematics]({{site.baseurl}}/teaching/mat320s17/Definitions.pdf)
