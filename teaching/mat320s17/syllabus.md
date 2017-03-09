@@ -303,7 +303,7 @@ Here are some important dates:
 - **Thursday, January 26:** Last day to drop/add (no W appears on transcript)
 - **Wednesday, February 15:** Exam 1
 - **Monday, March 13-Friday, March 17:** Spring Break (no classes)
-- **Wednesday, <s>March 22<s> March 29:** Exam 2
+- **Wednesday, March 29:** Exam 2 (rescheduled from March 22)
 - **Friday, March 24:** Last day to withdraw from a course (W appears on transcript)
 - **Wednesday, April 19:** Exam 3
 - **Wednesday, May 10:** Final Exam
