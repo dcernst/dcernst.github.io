@@ -269,7 +269,7 @@ In summary, your final grade will be determined by your scores in the following 
   <tr>
     <td>Exam 2</td>
     <td>15%</td>
-    <td>Wednesday, March 22</td>
+    <td>Wednesday, <s>March 22</s> March 29</td>
   </tr>
   <tr>
     <td>Exam 3</td>
@@ -303,7 +303,7 @@ Here are some important dates:
 - **Thursday, January 26:** Last day to drop/add (no W appears on transcript)
 - **Wednesday, February 15:** Exam 1
 - **Monday, March 13-Friday, March 17:** Spring Break (no classes)
-- **Wednesday, March 22:** Exam 2
+- **Wednesday, <s>March 22<s> March 29:** Exam 2
 - **Friday, March 24:** Last day to withdraw from a course (W appears on transcript)
 - **Wednesday, April 19:** Exam 3
 - **Wednesday, May 10:** Final Exam
