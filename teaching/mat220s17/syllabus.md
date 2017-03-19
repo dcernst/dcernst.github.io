@@ -210,9 +210,9 @@ We will have 7 quizzes this semester.  The first one will be given during week 3
 - Quiz 2: Wednesday, February 15
 - Quiz 3: <s>Wednesday, March 1</s> Friday, February 24
 - Quiz 4: <s>Wednesday, March 22</s> Friday, March 10
-- Quiz 5: Wednesday, April 5
-- Quiz 6: Wednesday, April 19
-- Quiz 7: Wednesday, May 3
+- Quiz 5: <s>Wednesday, April 5</s> Wednesday, March 29
+- Quiz 6: <s>Wednesday, April 19</s> Wednesday, April 12
+- Quiz 7: <s>Wednesday, May 3</s> Wednesday, April 26
 
 Each quiz will consist of a mixture of homework problems you encountered during the previous two weeks and new problems not previously attempted.   Each problem will be graded using the following rubric:
 
