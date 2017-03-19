@@ -57,10 +57,10 @@ We will not be using a textbook this semester, but rather a task-sequence adopte
     - 4.1 The Fundamental Theorem of Arithmetic
     - 4.2 The Irrationality of $\sqrt{2}$
     - 4.2 The Infinitude of Primes
-- [Chapter 5: Induction]({{site.baseurl}}/teaching/mat320s17/Induction.pdf) (currently only Section 5.1)
+- [Chapter 5: Induction]({{site.baseurl}}/teaching/mat320s17/Induction.pdf) (currently only Sections 5.1 and 5.2)
     - 5.1 Introduction to Induction
-    - 5.2 TBA
-    - 5.3 TBA
+    - 5.2 More on Induction
+    - 5.3 Strong Induction
 - Chapter 6: Relations
     - 6.1 Relations
     - 6.2 Equivalence Relations
