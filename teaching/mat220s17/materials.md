@@ -36,6 +36,7 @@ Below you will find notes and handouts that we have used in class, as well as so
   <li><i class="fa-li fa fa-file-pdf-o fa-fw"></i>&nbsp; <a href="{{ site.baseurl }}/teaching/mat220s17/220Quiz1.pdf">Quiz 1</a></li>
   <li><i class="fa-li fa fa-file-pdf-o fa-fw"></i>&nbsp; <a href="{{ site.baseurl }}/teaching/mat220s17/220Quiz2.pdf">Quiz 2</a></li>
   <li><i class="fa-li fa fa-file-pdf-o fa-fw"></i>&nbsp; <a href="{{ site.baseurl }}/teaching/mat220s17/220Quiz3.pdf">Quiz 3</a></li>
+  <li><i class="fa-li fa fa-file-pdf-o fa-fw"></i>&nbsp; <a href="{{ site.baseurl }}/teaching/mat220s17/220Quiz4.pdf">Quiz 4</a></li>
 </ul>
 
 I will not be covering every detail of the notes and the only way to achieve a sufficient understanding of the material is to be digesting the reading in a meaningful way.  You should be seeking clarification about the content of the notes whenever necessary by asking questions.  Here's one of my favorite quotes about reading mathematics.
