@@ -53,7 +53,8 @@ The following assignments are to be turned in at the end of the indicated class 
 - **Daily Homework 19:** Complete 4.14-4.17 in [Chapter 4: Three Famous Theorems]({{site.baseurl}}/teaching/mat320s17/ThreeFamousTheorems.pdf) and digest the surrounding text along the way. (Due Wednesday, March 8)
 - **Daily Homework 20:** Complete 4.19 and 4.20 in [Chapter 4: Three Famous Theorems]({{site.baseurl}}/teaching/mat320s17/ThreeFamousTheorems.pdf) and 5.2 and 5.4 [Chapter 5: Induction]({{site.baseurl}}/teaching/mat320s17/Induction.pdf). (Due Friday, March 10)
 - **Daily Homework 21:** Complete 5.5-5.8 in [Chapter 5: Induction]({{site.baseurl}}/teaching/mat320s17/Induction.pdf). (Due Monday, March 20)
-- **Daily Homework 22:** Complete 5.11 and any five of 5.13-5.23 in [Chapter 5: Induction]({{site.baseurl}}/teaching/mat320s17/Induction.pdf). (Due Wednesday, March 22)
+- **Daily Homework 22:** Complete 5.11 and any three of 5.13-5.23 in [Chapter 5: Induction]({{site.baseurl}}/teaching/mat320s17/Induction.pdf). (Due Wednesday, March 22)
+- **Daily Homework 23:** Complete 5.25 and any three of 5.27-5.31 in [Chapter 5: Induction]({{site.baseurl}}/teaching/mat320s17/Induction.pdf). (Due Friday, March 24)
 
 ## Weekly Homework ##
 In addition to the Daily Homework, we will also have Weekly Homework assignments.  For most of these assignments, you will be required to submit 2-3 formally written proofs.  Typically, two of the problems will come directly from the Daily Homework from the previous week.  Any additional problems will likely be new.  You will be required to type your submission using LaTeX (see below for more on this).  You can either submit a hardcopy of your assignment or email me the PDF of your completed work. If you email me the PDF, please name your file as <code>WeeklyX-Lastname.pdf</code>, where <code>X</code> is the number of the assignment and <code>Lastname</code> is your last name.  Notice there are no spaces in the filename.
