@@ -100,7 +100,7 @@ We’ll use this page to keep track of what has happened each day in class. It w
 
 <ul class="fa-ul">
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, March 20:</b> After checking in and making a few announcements, we divided the class up into 11 small groups, where each groups was tasked with coming to consensus on one of multiple parts of the homework problems.  We had LB, JJ, SS, JK, SW, JM, MR, LL, BS, AT2, and RB present Problems 54(a), 54(b), 55(a), 55(b), 55(c), 55(d), 55(e), 55(f), 55(g), 55(h), and 55(i), respectively.</li>
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, March 22:</b> Coming soon.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, March 22:</b> We finally saw solutions to Problem 50 (Checkermate) and Problem 53 (Quilt), which were presented by RD and BG, respectively.  Next, AC tackled Problem 56(a). The solutions had an error, but the essence of it was correct. After this, I explained how we could model the soul-swapping via "string diagrams". This was followed by a presentation of solutions of parts (b) and (c) for Problem 56 by KG.</li>
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, March 24:</b> Coming soon.</li>
 </ul>
 
