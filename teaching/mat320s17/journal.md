@@ -100,6 +100,6 @@ We’ll use this page to keep track of what has happened each day in class. It w
 
 <ul class="fa-ul">
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, March 20:</b> We kicked off with me presenting a proof of Theorem 5.2 (Principle of Mathematical Induction), which was followed by proof of Theorem 5.4 and Theorem 5.5 by SC and FA, respectively.</li>
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, March 22:</b> Coming soon.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, March 22:</b> We started by dividing the class up into several small groups of size 2-3.  Each group was charged with working on one of the induction problems from the homework.  We didn't get to discuss them all, but we had JO, SR, LS, GC, and CD present Theorems 5.6, 5.8, 5.11, 5.14, and 5.21, respectively. I'm really impressed with how well things went.</li>
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, March 24:</b> Coming soon.</li>
 </ul>
