@@ -107,8 +107,8 @@ We’ll use this page to keep track of what has happened each day in class. It w
 ## Week 10 ##
 
 <ul class="fa-ul">
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, March 27:</b> Coming soon.</li>
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, March 29:</b> Coming soon.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, March 27:</b> We finally saw a solution to Problem 50 (Good Teacher), which NP presented for us. Next, we split the class up into 6 small groups, each tasked with discussing one of Problems 59-61. After a few minutes, JS1 presented a solution to Problem 59 (Modified Sylver Coinage). Next, we heard from JK, AT2, and LB about Problem 60 (Cookies). Lastly, AT1 discussed the beautiful solution to Problem 61 (Prisoners and a light switch).</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, March 29:</b> The students took <a href="{{site.baseurl}}/teaching/mat220s17/220Quiz5.pdf">Quiz 5</a>.</li>
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, March 31:</b> Coming soon.</li>
 </ul>
 
