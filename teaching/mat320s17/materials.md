@@ -61,7 +61,7 @@ We will not be using a textbook this semester, but rather a task-sequence adopte
     - 5.1 Introduction to Induction
     - 5.2 More on Induction
     - 5.3 Complete Induction
-- [Chapter 6: Relations]({{site.baseurl}}/teaching/mat320s17/Relations.pdf) (currently only Section 6.1)
+- [Chapter 6: Relations]({{site.baseurl}}/teaching/mat320s17/Relations.pdf) (currently only Sections 6.1 and 6.2)
     - 6.1 Relations
     - 6.2 Equivalence Relations
     - 6.3 Partitions
