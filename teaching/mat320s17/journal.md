@@ -107,7 +107,7 @@ We’ll use this page to keep track of what has happened each day in class. It w
 ## Week 10 ##
 
 <ul class="fa-ul">
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, March 27:</b> We spent a few minutes discussing the upcoming exam and then split the class up into 12 small groups.  We had QC, AV, JH, SC, AT, JN2, SG, DF, CP, CK, and JQ present solutions to Exercises 6.5, 6.6, 6.7, 6.8, 6.9, 6.10, 6.11, 6.12, 6.13, 6.20, and 6.22, respectively.  We never go to Exercise 6.19.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, March 27:</b> We spent a few minutes discussing the upcoming exam and then split the class up into 12 small groups.  We had QC, AV, JH, SC, AT, JN2, SG, DF, CP, CK, and JQ present solutions to Exercises 6.5, 6.6, 6.7, 6.8, 6.9, 6.10, 6.11, 6.12, 6.13, 6.20, and 6.22, respectively.  We never got to Exercise 6.19.</li>
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, March 29:</b> The students took the in-class portion of Exam 2.</li>
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, March 31:</b> Coming soon.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, March 31:</b> I lectured over the end of Section 6.1 and most of Section 6.2.  In particular, we covered 6.23-6.38.</li>
 </ul>
