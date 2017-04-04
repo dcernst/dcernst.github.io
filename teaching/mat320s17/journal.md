@@ -111,3 +111,11 @@ We’ll use this page to keep track of what has happened each day in class. It w
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, March 29:</b> The students took the in-class portion of Exam 2.</li>
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, March 31:</b> I lectured over the end of Section 6.1 and most of Section 6.2.  In particular, we covered 6.23-6.38.</li>
 </ul>
+
+## Week 11 ##
+
+<ul class="fa-ul">
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, April 3:</b> I continued lecturing over Chapter 6.  In particular, we covered 6.41-6.50.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, April 5:</b> Coming soon.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, April 7:</b> Coming soon.</li>
+</ul>

@@ -115,7 +115,7 @@ We’ll use this page to keep track of what has happened each day in class. It w
 ## Week 11 ##
 
 <ul class="fa-ul">
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, April 3:</b> Coming soon.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, April 3:</b> We started with a discussion about how to frame Problem 65 (7 positive integers and their gcd's mod 3) in terms of a graph with 7 vertices and edges that have been colored using 3 different colors.  The goal is the justify that there is always a triangle of the same color.  After discussing Problem 65, we split the class up into 3 small groups, which we tasked with discussing Problems 63-65, respectively.  We had KG share a solution to Problem 63, which was followed by a really nice solution to Problem 65 by LL.  We wrapped up with MR and RD discussing most of the details of Problem 64.  There is one remaining detail to resolve before we will have complete solution to Problem 64.</li>
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, April 5:</b> Coming soon.</li>
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, April 7:</b> Coming soon.</li>
 </ul>
