@@ -57,7 +57,7 @@ The following assignments are to be turned in at the end of the indicated class 
 - **Daily Homework 23:** Complete 5.25 and any three of 5.27-5.31 in [Chapter 5: Induction]({{site.baseurl}}/teaching/mat320s17/Induction.pdf). (Due Friday, March 24)
 - **Daily Homework 24:** Complete 6.5-6.13, 6.19, 6.20, 6.22 in [Chapter 6: Relations]({{site.baseurl}}/teaching/mat320s17/Relations.pdf). (Due Monday, March 27)
 - **Daily Homework 25:** Complete 6.51, 6.52, 6.54-6.61 in [Chapter 6: Relations]({{site.baseurl}}/teaching/mat320s17/Relations.pdf). (Due Wednesday, April 5)
-- **Daily Homework 26:** Complete 7.3, 7.5-7.9, 7.13-7.15 in [Chapter 7: Functions](({{site.baseurl}}/teaching/mat320s17/Functions.pdf). (Due Friday, April 7)
+- **Daily Homework 26:** Complete 7.3, 7.5-7.9, 7.13-7.15 in [Chapter 7: Functions]({{site.baseurl}}/teaching/mat320s17/Functions.pdf). (Due Friday, April 7)
 
 
 ## Weekly Homework ##
