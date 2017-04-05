@@ -66,7 +66,7 @@ We will not be using a textbook this semester, but rather a task-sequence adopte
     - 6.2 Equivalence Relations
     - 6.3 Partitions
     - 6.4 Order Relations
-- [Chapter 7: Functions](({{site.baseurl}}/teaching/mat320s17/Functions.pdf)
+- [Chapter 7: Functions]({{site.baseurl}}/teaching/mat320s17/Functions.pdf)
     - 7.1 Introduction to Functions
     - 7.2 Compositions and Inverses
 - [Appendix A: Elements of Style for Proofs]({{site.baseurl}}/teaching/mat320s17/ElementsOfStyle.pdf)
