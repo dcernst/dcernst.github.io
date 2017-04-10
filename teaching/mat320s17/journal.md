@@ -116,6 +116,14 @@ We’ll use this page to keep track of what has happened each day in class. It w
 
 <ul class="fa-ul">
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, April 3:</b> I continued lecturing over Chapter 6.  In particular, we covered 6.41-6.50.</li>
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, April 5:</b> Coming soon.</li>
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, April 7:</b> Coming soon.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, April 5:</b> After splitting the class up into several small groups, we had JO, EV, FA, JR, and LS present Exercises 6.52, 6.54, 6.57, and 6.61, respectively. I presented a proof of Theorem 6.59 during the last few minutes of class.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, April 7:</b> Today was a great day of student presentations! We had JQ, SG, GC, and TC present proofs for Theorems 6.51, 6.56, 6.58, and 6.60, respectively.  We start tacking Chapter 7 next time.</li>
+</ul>
+
+## Week 12 ##
+
+<ul class="fa-ul">
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, April 10:</b> Coming soon.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, April 12:</b> Coming soon.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, April 14:</b> Coming soon.</li>
 </ul>
