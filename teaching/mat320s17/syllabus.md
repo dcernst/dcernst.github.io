@@ -274,7 +274,7 @@ In summary, your final grade will be determined by your scores in the following 
   <tr>
     <td>Exam 3</td>
     <td>15%</td>
-    <td>Wednesday, April 19</td>
+    <td>Wednesday, <s>April 19</s> April 26</td>
   </tr>
 	<tr>
 		<td>Final Exam</td>
@@ -305,7 +305,7 @@ Here are some important dates:
 - **Monday, March 13-Friday, March 17:** Spring Break (no classes)
 - **Wednesday, March 29:** Exam 2 (rescheduled from March 22)
 - **Friday, March 24:** Last day to withdraw from a course (W appears on transcript)
-- **Wednesday, April 19:** Exam 3
+- **Wednesday, April 26:** Exam 3 (rescheduled from April 19)
 - **Wednesday, May 10:** Final Exam
 
 ### Getting Help ###
