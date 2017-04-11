@@ -123,8 +123,8 @@ We’ll use this page to keep track of what has happened each day in class. It w
 ## Week 12 ##
 
 <ul class="fa-ul">
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, April 10:</b> Coming soon.</li>
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, April 12:</b> Coming soon.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, April 10:</b> The first few minutes of class were devoted to wrapping up Problem 68 (rectangle vs pentagon), which I presented.  Next, SS led us on a discussion of Problem 71 (4 by 4 grid with lights) that involved some case analysis.  We attempted to generalize potential arguments to handle the 5 by 5 case and the 8 by 8 case.  We all believe the answer to Problem 72 (8 by 8 grid with lights) is that it is impossible to start with fewer than 8 lights, but the problem remains open.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, April 12:</b> The students took <a href="{{site.baseurl}}/teaching/mat220s17/220Quiz6.pdf">Quiz 6</a>.</li>
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, April 14:</b> Coming soon.</li>
 </ul>
 
