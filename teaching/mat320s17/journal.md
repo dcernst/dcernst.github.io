@@ -124,6 +124,6 @@ We’ll use this page to keep track of what has happened each day in class. It w
 
 <ul class="fa-ul">
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, April 10:</b> I was an action packed day.  I think everyone that was present presented something.  We had presentations from CD, SG, JR, SC, TC, AT, JN1, JQ, QC, AV, JH, LS, RF, JN2, DF, CP, FA, CK, and GC.  We covered 7.3, 7.5-7.9, 7.13-7.15.</li>
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, April 12:</b> Coming soon.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, April 12:</b> Everyone was a bit worn out today.  Instead of having students present, I slowly and methodically discussed all the parts of Exercise 7.16.  The plan is to have people keep working on Daily Homework 28 for Friday.</li>
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, April 14:</b> Coming soon.</li>
 </ul>
