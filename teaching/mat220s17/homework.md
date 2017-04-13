@@ -62,4 +62,5 @@ The following assignments are to be turned in at the end of the indicated class 
   <li><i class="fa-li fa fa-pencil-square-o"></i><b>Homework 27:</b> Complete Problems 68-70 from the <a href="https://dcernst.github.io/teaching/mat220s17/220ProblemCollection.pdf">Problem Collection</a>. (Due Friday, April 7)</li>
   <li><i class="fa-li fa fa-pencil-square-o"></i><b>Homework 28:</b> Complete Problems 71-72 from the <a href="https://dcernst.github.io/teaching/mat220s17/220ProblemCollection.pdf">Problem Collection</a>. (Due Monday, April 10)</li>
   <li><i class="fa-li fa fa-pencil-square-o"></i><b>Homework 29:</b> Complete Problems 73-75 from the <a href="https://dcernst.github.io/teaching/mat220s17/220ProblemCollection.pdf">Problem Collection</a>. (Due Friday, April 14)</li>
+  <li><i class="fa-li fa fa-pencil-square-o"></i><b>Homework 30:</b> Complete Problems 76 and 77 from the <a href="https://dcernst.github.io/teaching/mat220s17/220ProblemCollection.pdf">Problem Collection</a>. (Due Monday, April 17)</li>
 </ul>
