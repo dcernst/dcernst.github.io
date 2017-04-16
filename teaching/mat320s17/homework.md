@@ -61,6 +61,7 @@ The following assignments are to be turned in at the end of the indicated class 
 - **Daily Homework 27:** Complete 7.13-7.15 in [Chapter 7: Functions]({{site.baseurl}}/teaching/mat320s17/Functions.pdf). (Due Monday, April 10)
 - **Daily Homework 28:** Complete 7.16, 7.17, 7.19-7.22 in [Chapter 7: Functions]({{site.baseurl}}/teaching/mat320s17/Functions.pdf). (Due Wednesday, April 12)
 - **Daily Homework 29:** Complete 7.23, 7.25-7.27 in [Chapter 7: Functions]({{site.baseurl}}/teaching/mat320s17/Functions.pdf). (Due Monday, April 17)
+- **Daily Homework 30:** Complete 7.28-7.31 in [Chapter 7: Functions]({{site.baseurl}}/teaching/mat320s17/Functions.pdf). (Due Wednesday, April 19)
 
 ## Weekly Homework ##
 In addition to the Daily Homework, we will also have Weekly Homework assignments.  For most of these assignments, you will be required to submit 2-3 formally written proofs.  Typically, two of the problems will come directly from the Daily Homework from the previous week.  Any additional problems will likely be new.  You will be required to type your submission using LaTeX (see below for more on this).  You can either submit a hardcopy of your assignment or email me the PDF of your completed work. If you email me the PDF, please name your file as <code>WeeklyX-Lastname.pdf</code>, where <code>X</code> is the number of the assignment and <code>Lastname</code> is your last name.  Notice there are no spaces in the filename.
