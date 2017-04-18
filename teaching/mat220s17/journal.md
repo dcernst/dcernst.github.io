@@ -125,13 +125,13 @@ We’ll use this page to keep track of what has happened each day in class. It w
 <ul class="fa-ul">
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, April 10:</b> The first few minutes of class were devoted to wrapping up Problem 68 (rectangle vs pentagon), which I presented.  Next, SS led us on a discussion of Problem 71 (4 by 4 grid with lights) that involved some case analysis.  We attempted to generalize potential arguments to handle the 5 by 5 case and the 8 by 8 case.  We all believe the answer to Problem 72 (8 by 8 grid with lights) is that it is impossible to start with fewer than 8 lights, but the problem remains open.</li>
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, April 12:</b> The students took <a href="{{site.baseurl}}/teaching/mat220s17/220Quiz6.pdf">Quiz 6</a>.</li>
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, April 14:</b> Coming soon.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, April 14:</b> We spent the first few minutes of class discussing my proposed solution to Problem 72 (8 by 8 grid with lights). Next, we quickly dispensed with Problem 74 (liars and truth tellers) and then moved onto Problem 73, which AT2 presented. Then SW led a discussion of Problem 75 (lions on an island). I spent the last few minutes of class discussing induction.</li>
 </ul>
 
 ## Week 13 ##
 
 <ul class="fa-ul">
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, April 17:</b> Coming soon.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, April 17:</b> After handing back Quiz 6, I briefly discussed Problems B1, B2, and B3.  This was followed by another discussion of induction. Next, AT1 and NP presented two different approaches to Problem 77 (sums of distinct powers of 2). Then BG presented Problem 76 ($n$ lines).</li>
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, April 19:</b> Coming soon.</li>
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, April 21:</b> Coming soon.</li>
 </ul>
