@@ -91,7 +91,7 @@ We’ll use this page to keep track of what has happened each day in class. It w
 ## Week 8 ##
 
 <ul class="fa-ul">
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, March 6:</b> David Deville was there today to fill in for me. My understand is that BF, GC, AF, JN2, QC, and SG presented Exercise 4.6, Exercise 4.7, Exercise 4.9, Theorem 4.10, Problem 4.11, and Theorem 4.12, respectively.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, March 6:</b> David Deville was there today to fill in for me. My understand is that RF, GC, AF, JN2, QC, and SG presented Exercise 4.6, Exercise 4.7, Exercise 4.9, Theorem 4.10, Problem 4.11, and Theorem 4.12, respectively.</li>
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, March 8:</b> Today JH, JQ, and AV presented Theorems 4.14, 4.15, and 4.16, respectively. Problem 4.17 was discussed as a class.</li>
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, March 10:</b> After checking in and summarizing a few things that were discussed while I was out for almost two weeks, we had CK and AT presented Lemma 4.19 and Theorem 4.20.</li>
 </ul>
@@ -125,5 +125,13 @@ We’ll use this page to keep track of what has happened each day in class. It w
 <ul class="fa-ul">
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, April 10:</b> I was an action packed day.  I think everyone that was present presented something.  We had presentations from CD, SG, JR, SC, TC, AT, JN1, JQ, QC, AV, JH, LS, RF, JN2, DF, CP, FA, CK, and GC.  We covered 7.3, 7.5-7.9, 7.13-7.15.</li>
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, April 12:</b> Everyone was a bit worn out today.  Instead of having students present, I slowly and methodically discussed all the parts of Exercise 7.16.  The plan is to have people keep working on Daily Homework 28 for Friday.</li>
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, April 14:</b> Coming soon.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, April 14:</b> We had JN2, CP, LS, DF, SG, TC, and RF present 7.19(a), 7.19(b), 7.19(c), 7.19(d), 7.20, 7.21, and 7.22, respectively.</li>
+</ul>
+
+## Week 13 ##
+
+<ul class="fa-ul">
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, April 17:</b> Another productive day.  We had JH, SR, RF, JR, JN1, and AV present 7.23(a), 7.23(b), 7.23(c), 7.23(d), 7.25, and 7.26, respectively.  We'll tackle Theorem 7.27 next time.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, April 19:</b> Coming soon.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, April 21:</b> Coming soon.</li>
 </ul>
