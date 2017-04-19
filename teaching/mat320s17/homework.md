@@ -62,7 +62,7 @@ The following assignments are to be turned in at the end of the indicated class 
 - **Daily Homework 28:** Complete 7.16, 7.17, 7.19-7.22 in [Chapter 7: Functions]({{site.baseurl}}/teaching/mat320s17/Functions.pdf). (Due Wednesday, April 12)
 - **Daily Homework 29:** Complete 7.23, 7.25-7.27 in [Chapter 7: Functions]({{site.baseurl}}/teaching/mat320s17/Functions.pdf). (Due Monday, April 17)
 - **Daily Homework 30:** Complete 7.28-7.31 in [Chapter 7: Functions]({{site.baseurl}}/teaching/mat320s17/Functions.pdf). (Due Wednesday, April 19)
-- **Daily Homework 31:** Complete ??? in [Chapter 8: Cardinality]({{site.baseurl}}/teaching/mat320s17/Cardinality.pdf). (Due Friday, April 21)
+- **Daily Homework 31:** Complete 8.2-8.5, 8.7, 8.8 in [Chapter 8: Cardinality]({{site.baseurl}}/teaching/mat320s17/Cardinality.pdf). (Due Friday, April 21)
 
 ## Weekly Homework ##
 In addition to the Daily Homework, we will also have Weekly Homework assignments.  For most of these assignments, you will be required to submit 2-3 formally written proofs.  Typically, two of the problems will come directly from the Daily Homework from the previous week.  Any additional problems will likely be new.  You will be required to type your submission using LaTeX (see below for more on this).  You can either submit a hardcopy of your assignment or email me the PDF of your completed work. If you email me the PDF, please name your file as <code>WeeklyX-Lastname.pdf</code>, where <code>X</code> is the number of the assignment and <code>Lastname</code> is your last name.  Notice there are no spaces in the filename.
@@ -74,7 +74,7 @@ In addition to the Daily Homework, we will also have Weekly Homework assignments
 - **Weekly Homework 5:** Prove **one** of Theorem 3.43(a), Theorem 3.43(b), Theorem 3.44(a), and Theorem 3.44(b) from [Chapter 3: Set Theory and Topology]({{site.baseurl}}/teaching/mat320s17/IntroSetTheoryTopology.pdf). (Due Tuesday, March 7 by 8PM)
 - **Weekly Homework 6:** Prove **one** of Theorem 4.10, Theorem 4.12, Theorem 4.15, Theorem 4.20 from [Chapter 4: Three Famous Theorems]({{site.baseurl}}/teaching/mat320s17/ThreeFamousTheorems.pdf) and **one** of Theorem 5.7, Theorem 5.8, Theorem 5.11, Theorems 5.13-5.23 in [Chapter 5: Induction]({{site.baseurl}}/teaching/mat320s17/Induction.pdf). (Due Tuesday, March 28 by 8PM)
 - **Weekly Homework 7:** Prove **two** of Theorems 6.51, 6.56, 6.58 and 6.59  from [Chapter 6: Relations]({{site.baseurl}}/teaching/mat320s17/Relations.pdf). (Due Tuesday, April 11 by 8PM)
-- **Weekly Homework 8:** Prove **one** of Theorems 7.20 and 7.21 from [Chapter 7: Relations]({{site.baseurl}}/teaching/mat320s17Functions.pdf). (Due Tuesday, April 18 by 8PM)
+- **Weekly Homework 8:** Prove **one** of Theorems 7.20 and 7.21 from [Chapter 7: Functions]({{site.baseurl}}/teaching/mat320s17/Functions.pdf). (Due Tuesday, April 18 by 8PM)
 
 ## Using LaTeX for Weekly Homework ##
 You are required to use LaTeX to type up your Weekly Homework assignments.  To do this, I suggest that you use my [LaTeX Homework Template](https://github.com/dcernst/MiscTeachingMaterials/blob/master/HWTemplate.tex).  The easiest way to get started with LaTeX is to use an online editor.  I recommend using [Overleaf](https://overleaf.com), but there are other options.  The good folks over at Overleaf have preloaded my template, so to get started, all you need to do is click the link below.

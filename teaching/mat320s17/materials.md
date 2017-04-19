@@ -69,8 +69,12 @@ We will not be using a textbook this semester, but rather a task-sequence adopte
 - [Chapter 7: Functions]({{site.baseurl}}/teaching/mat320s17/Functions.pdf)
     - 7.1 Introduction to Functions
     - 7.2 Compositions and Inverses
-- [Chapter 8: Cardinality]({{site.baseurl}}/teaching/mat320s17/Cardinality.pdf)
-    - 8.1 ???
+- [Chapter 8: Cardinality]({{site.baseurl}}/teaching/mat320s17/Cardinality.pdf)  (currently only Section 8.1)
+    - 8.1 Introduction to Cardinality
+    - 8.2 Finite Sets
+    - 8.3 Infinite Sets
+    - 8.4 Countable Sets
+    - 8.5 Uncountable Sets
 - [Appendix A: Elements of Style for Proofs]({{site.baseurl}}/teaching/mat320s17/ElementsOfStyle.pdf)
 - [Appendix B: Fancy Mathematical Terms]({{site.baseurl}}/teaching/mat320s17/FancyMathematicalTerms.pdf)
 - [Appendix C: Definitions in Mathematics]({{site.baseurl}}/teaching/mat320s17/Definitions.pdf)
