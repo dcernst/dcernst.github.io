@@ -132,8 +132,8 @@ We’ll use this page to keep track of what has happened each day in class. It w
 
 <ul class="fa-ul">
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, April 17:</b> Another productive day.  We had JH, SR, RF, JR, JN1, and AV present 7.23(a), 7.23(b), 7.23(c), 7.23(d), 7.25, and 7.26, respectively.  We'll tackle Theorem 7.27 next time.</li>
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, April 19:</b> Coming soon.</li>
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, April 21:</b> Coming soon.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, April 19:</b> We didn't cover a lot of ground today, but we had productive discussions.  JN2 and RF present Theorem 7.27 and Theorem 7.28(a), respectively.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, April 21:</b> We finally finished tackling Chapter 7.  We had SC, SG, and AT present Theorems 7.29, 7.30, and 7.31, respectively.</li>
 </ul>
 
 ## Week 14 ##
