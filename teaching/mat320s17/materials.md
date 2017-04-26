@@ -95,5 +95,5 @@ Below are links to each exam.
 
 - [Exam 1 (take-home)]({{site.baseurl}}/teaching/mat320s17/320Exam1-Home.pdf). If you are interested in using LaTeX to type up your solutions, contact me and I will send you a link to the source file of the exam. (Due Monday, February 20)
 - [Exam 2 (take-home)]({{site.baseurl}}/teaching/mat320s17/320Exam2-Home.pdf). If you are interested in using LaTeX to type up your solutions, contact me and I will send you a link to the source file of the exam. (Due Monday, April 3)
-- Exam 3 (take-home). Coming soon.
+- [Exam 3 (take-home)]({{site.baseurl}}/teaching/mat320s17/320Exam3-Home.pdf). If you are interested in using LaTeX to type up your solutions, contact me and I will send you a link to the source file of the exam. (Due Wednesday, May 5)
 - Final Exam (take-home). Coming soon.
