@@ -147,7 +147,7 @@ We’ll use this page to keep track of what has happened each day in class. It w
 ## Week 15 ##
 
 <ul class="fa-ul">
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, May 1:</b> Coming soon.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, May 1:</b> We continued covering Chapter 8. In particular, I lectured over 8.8-8.14.</li>
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, May 3:</b> Coming soon.</li>
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, May 5:</b> Coming soon.</li>
 </ul>
