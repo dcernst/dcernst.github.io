@@ -141,7 +141,7 @@ We’ll use this page to keep track of what has happened each day in class. It w
 <ul class="fa-ul">
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, April 24:</b> We had 4 different solutions to Problem 82.  Three of these were from SW, RD, and KG, and the fourth was from me.  Next, we saw a solution to Problem 83 by NP.  We spent the last few minutes of class reviewing for Wednesday's quiz.</li>
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, April 26:</b> The students took <a href="{{site.baseurl}}/teaching/mat220s17/220Quiz7.pdf">Quiz 7</a>.</li>
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, April 28:</b> Coming soon.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, April 28:</b> We started by discussing Problem 85 (top player). RD discussed his intuition about the problem, but no one had a rigorous argument.  I walked us through an inductive proof (with some minor confusion on one case). With the time we had left, I guided a discussion of the first part of Problem 84.  The plan is to revisit this one and Problem 86 on Monday.</li>
 </ul>
 
 ## Week 15 ##
