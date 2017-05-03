@@ -64,7 +64,7 @@ The following assignments are to be turned in at the end of the indicated class 
 - **Daily Homework 30:** Complete 7.28-7.31 in [Chapter 7: Functions]({{site.baseurl}}/teaching/mat320s17/Functions.pdf). (Due Wednesday, April 19)
 - **Daily Homework 31:** Complete 8.2-8.5 in [Chapter 8: Cardinality]({{site.baseurl}}/teaching/mat320s17/Cardinality.pdf). (Due Friday, April 21)
 - **Daily Homework 32:** Complete 8.7 and 8.8 in [Chapter 8: Cardinality]({{site.baseurl}}/teaching/mat320s17/Cardinality.pdf). (Due Monday, April 24)
-- **Daily Homework 33:** Complete ??? in [Chapter 8: Cardinality]({{site.baseurl}}/teaching/mat320s17/Cardinality.pdf). (Due Friday, May 5)
+- **Daily Homework 33:** Complete 8.16, 8.17, 8.23, 8.24, 8.28-8.33, 8.37 in [Chapter 8: Cardinality]({{site.baseurl}}/teaching/mat320s17/Cardinality.pdf). (Due Friday, May 5)
 
 ## Weekly Homework ##
 In addition to the Daily Homework, we will also have Weekly Homework assignments.  For most of these assignments, you will be required to submit 2-3 formally written proofs.  Typically, two of the problems will come directly from the Daily Homework from the previous week.  Any additional problems will likely be new.  You will be required to type your submission using LaTeX (see below for more on this).  You can either submit a hardcopy of your assignment or email me the PDF of your completed work. If you email me the PDF, please name your file as <code>WeeklyX-Lastname.pdf</code>, where <code>X</code> is the number of the assignment and <code>Lastname</code> is your last name.  Notice there are no spaces in the filename.
