@@ -64,7 +64,7 @@ The following assignments are to be turned in at the end of the indicated class 
 - **Daily Homework 30:** Complete 7.28-7.31 in [Chapter 7: Functions]({{site.baseurl}}/teaching/mat320s17/Functions.pdf). (Due Wednesday, April 19)
 - **Daily Homework 31:** Complete 8.2-8.5 in [Chapter 8: Cardinality]({{site.baseurl}}/teaching/mat320s17/Cardinality.pdf). (Due Friday, April 21)
 - **Daily Homework 32:** Complete 8.7 and 8.8 in [Chapter 8: Cardinality]({{site.baseurl}}/teaching/mat320s17/Cardinality.pdf). (Due Monday, April 24)
-- **Daily Homework 33:** Complete 8.16, 8.17, 8.23, 8.24, 8.28-8.33, 8.37 in [Chapter 8: Cardinality]({{site.baseurl}}/teaching/mat320s17/Cardinality.pdf). (Due Friday, May 5)
+- **Daily Homework 33:** Complete 8.16, 8.17, 8.23, 8.24, 8.28, 8.29, 8.32, 8.33, 8.37 in [Chapter 8: Cardinality]({{site.baseurl}}/teaching/mat320s17/Cardinality.pdf). (Due Friday, May 5)
 
 
 ## Weekly Homework ##
