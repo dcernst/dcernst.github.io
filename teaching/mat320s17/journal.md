@@ -149,5 +149,5 @@ We’ll use this page to keep track of what has happened each day in class. It w
 <ul class="fa-ul">
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, May 1:</b> We continued covering Chapter 8. In particular, I lectured over 8.8-8.14.</li>
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, May 3:</b> More lecturing.  We discussed 8.15-8.42, skipping some details along the way, especially towards the end.</li>
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, May 5:</b> Coming soon.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, May 5:</b> A hectic final day, but we got a lot done.  We divided up into several small groups to discuss the day's problems.  After a few minutes, we started discussing a few of the problems.  In particular, we had JQ, JH, GC, and AV present Theorem 8.16, Exercise 8.29, Exercise 8.32, and Theorem 8.37, respectively. Thanks for a great semester!</li>
 </ul>
