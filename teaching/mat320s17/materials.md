@@ -30,10 +30,7 @@ title: Course Materials
 
 We will not be using a textbook this semester, but rather a task-sequence adopted for IBL.  The task-sequence that we are using was written by me.  Any errors in the notes are no one's fault but my own.  In this vein, if you think you see an error, please inform me, so that it can be remedied.  I reserve the right to modify them as we go, but I will always inform you of any significant changes.  The notes will be released incrementally.  Each link below is to a PDF file.
 
-<!--
 - [An Introduction to Proof via Inquiry-Based Learning]({{site.baseurl}}/teaching/mat320s17/IntroToProof.pdf) (complete set of notes)
-- -->
-
 - [Title Page and Front Matter]({{site.baseurl}}/teaching/mat320s17/TitlePage.pdf)
 - [Chapter 1: Introduction]({{site.baseurl}}/teaching/mat320s17/Introduction.pdf)
     - 1.1 What is This Course All About?
