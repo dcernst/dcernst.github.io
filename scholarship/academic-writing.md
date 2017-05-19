@@ -20,11 +20,11 @@ My interests also include the [scholarship of teaching and learning](http://en.w
 You can find a recent version of my curriculum vitae [here]({{site.baseurl}}/scholarship/CVErnst.pdf).
 
 ## Submitted
-  * B.J. Benesh, D.C. Ernst, and N. Sieben. Impartial achievement games for generating generalized dihedral groups. Submitted to *Australas. J. Combin.* [[arXiv:1608.00259](http://arxiv.org/abs/1608.00259)]
   * D.C. Ernst and N. Sieben. Impartial achievement and avoidance games for generating finite groups. Submitted to *Int. J. Game Theory*. [[arXiv:1407.0784](http://arxiv.org/abs/1407.0784)]
   * D.C. Ernst. Diagram calculus for a type affine *C* Temperley-Lieb algebra, II. Submitted to *J. Pure Appl. Alg.* [[arXiv:1101.4215](http://arxiv.org/abs/1101.4215)]
 
 ## Journal Articles
+  * B.J. Benesh, D.C. Ernst, and N. Sieben. Impartial achievement games for generating generalized dihedral groups. *Australas. J. Combin.* 68(3), 2017. [[arXiv:1608.00259](http://arxiv.org/abs/1608.00259)]
   * D.C. Ernst, M. Hastings, and S. Salmon. Factorization of Temperley-Lieb diagrams. *Involve* 10(1), 89-108, 2017. [[arXiv:1509.01241](http://arxiv.org/abs/1509.01241)]
   * B.J. Benesh, D.C. Ernst, and N. Sieben. Impartial avoidance and achievement games for generating symmetric and alternating groups. *Int. Electron. J. Algebra* 20, 70-85, 2016. [[arXiv:1508.03419](http://arxiv.org/abs/1508.03419)] [[ePrint](http://www.ieja.net/files/papers/volume-20/4-V20-2016.pdf)]
   * N. Diefenderfer, D.C. Ernst, M. Hastings, L.N. Heath, H. Prawzinsky, B. Preston, J. Rushall, E. White, A. Whittemore. Prime Vertex Labelings of Several Families of Graphs. *Involve* 9(4), 667-688, 2016. [[arXiv:1503.08386](http://arxiv.org/abs/1503.08386)]
@@ -81,9 +81,9 @@ Below is a list of course materials that I have written to be used with an [inqu
   * D.C. Ernst. Cell Complexes for Arrangements with Group Actions, MS Thesis, Northern Arizona University, 2000. [[arXiv:0905.4434](http://arxiv.org/abs/0905.4434)]
 
 ## In Preparation
+  * B.J. Benesh, D.C. Ernst, and N. Sieben. Impartial achievement games for generating nilpotent groups.
   * D.C. Ernst and T.K. Petersen. The worst casino in Reno.
   * D.C. Ernst and A. Lebovitz. Groups with cyclic subgroups.
-  * D.C. Ernst and R.M. Green. Cominuscule elements of Coxeter groups of type affine $C$.
   * B.J. Benesh, D.C. Ernst, and N. Sieben. Impartial achievement games for generating finite groups.
   * D.C. Ernst and B. Fox. Conjugacy classes of cyclically fully commutative elements in Coxeter groups of type $A$.
   * D.C. Ernst and T. Laird. T-avoiding elements of Coxeter groups.
