@@ -36,10 +36,10 @@ Here is a (partial) list of free and/or open-source textbooks. If you find one o
 
 ### Introduction to Proof
 
-  * [An Introduction to Proof via Inquiry-Based Learning][36] by Dana C. Ernst (Northern Arizona University). I wrote these IBL course materials for an introduction to proof course. The first half of the notes are an adaptation of notes written by [Stan Yoshinobu][37] (Cal Poly) and [Matthew Jones][38] (California State University Dominguez Hills). I'd be be thrilled if others decided to use these. Please let me know if you do.
-  * [Introduction to Proof][39] by Ron Taylor (Berry College). These IBL notes are available from the [Journal of Inquiry-Based Learning in Mathematics][40].
-  * [Notes for a Course on Proofs][41] by Jacqueline A. Jensen-Vallin (Slippery Rock University). Another set of IBL notes available from the [Journal of Inquiry-Based Learning in Mathematics][40].
-  * [Mathematical Reasoning: Writing and Proof][42] by Ted Sundstrom (Grand Valley State University). This textbook is designed for the first course in the college mathematics curriculum that introduces students to the process of constructing and writing proofs. This book is included in the approved list of textbooks for the [Open Textbook Initiative](http://www.aimath.org/textbooks/textbooklist.html) by the [American Institute of Mathematics](http://www.aimath.org). There are also over 100 screencasts that accompany the book.
+  * [An Introduction to Proof via Inquiry-Based Learning](http://dcernst.github.io/IBL-IntroToProof/) by Dana C. Ernst (Northern Arizona University). I wrote these IBL course materials for an introduction to proof course. The first half of the notes are an adaptation of notes written by [Stan Yoshinobu](http://www.stanyoshinobu.com/) (Cal Poly) and [Matthew Jones](http://www.csudh.edu/math/mjones/) (California State University Dominguez Hills). I'd be be thrilled if others decided to use these. Please let me know if you do.
+  * [Introduction to Proof](http://www.jiblm.org/downloads/dlitem.php?id=56&category=jiblmjournal) by Ron Taylor (Berry College). These IBL notes are available from the [Journal of Inquiry-Based Learning in Mathematics](http://www.jiblm.org).
+  * [Notes for a Course on Proofs](http://www.jiblm.org/downloads/dlitem.php?id=88&category=jiblmjournal) by Jacqueline A. Jensen-Vallin (Slippery Rock University). Another set of IBL notes available from the [Journal of Inquiry-Based Learning in Mathematics](http://www.jiblm.org).
+  * [Mathematical Reasoning: Writing and Proof](https://sites.google.com/site/mathematicalreasoning3ed/) by Ted Sundstrom (Grand Valley State University). This textbook is designed for the first course in the college mathematics curriculum that introduces students to the process of constructing and writing proofs. This book is included in the approved list of textbooks for the [Open Textbook Initiative](http://aimath.org/textbooks/approved-textbooks/) by the [American Institute of Mathematics](http://www.aimath.org). There are also over 100 screencasts that accompany the book.
 
 ### Linear Algebra
 
@@ -63,20 +63,6 @@ Here is a (partial) list of free and/or open-source textbooks. If you find one o
 
 ### Real Analysis
 
-  * [Analysis][63] by [W. Ted Mahavier][64] (Lamar University). These notes are for an IBL real analysis course and are available from the [Journal of Inquiry-Based Learning in Mathematics][40].
-  * [Analysis WebNotes][65] by [John Lindsay Orr][66] (University of Nebraska at Lincoln).
-  * [Classical Real Analysis][67] contains links to a few real analysis texts. The word on the street is that *Elementary Real Analysis* by Bruckner and Bruckner is excellent.
-
- [35]: http://faculty.uml.edu/klevasseur/
- [36]: http://dcernst.github.io/IBL-IntroToProof/
- [37]: http://www.stanyoshinobu.com/
- [38]: http://www.csudh.edu/math/mjones/
- [39]: http://www.jiblm.org/downloads/dlitem.aspx?id=56&category=jiblmjournal
- [40]: http://www.jiblm.org
- [41]: http://www.jiblm.org/downloads/dlitem.aspx?id=88&category=jiblmjournal
- [42]: https://sites.google.com/site/mathematicalreasoning3ed/
- [63]: http://www.jiblm.org/downloads/dlitem.aspx?id=66&category=jiblmjournal
- [64]: http://www.math.lamar.edu/faculty/mahavier/mahavier.aspx
- [65]: http://www.webskate101.com/webnotes/home.htmld/home.html
- [66]: http://www.math.unl.edu/~jorr1/
- [67]: http://classicalrealanalysis.info/Free-Downloads.php
+  * [Analysis](http://www.jiblm.org/downloads/dlitem.php?id=66&category=jiblmjournal) by [W. Ted Mahavier](http://www.jiblm.org/mahavier/) (Lamar University). These notes are for an IBL real analysis course and are available from the [Journal of Inquiry-Based Learning in Mathematics](http://www.jiblm.org).
+  * [Analysis WebNotes](http://www.webskate101.com/webnotes/home.htmld/home.html) by [John Lindsay Orr](http://www.math.unl.edu/~jorr1/) (University of Nebraska at Lincoln).
+  * [Classical Real Analysis](http://classicalrealanalysis.info/Free-Downloads.php) contains links to a few real analysis texts. The word on the street is that *Elementary Real Analysis* by Bruckner and Bruckner is excellent.
