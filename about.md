@@ -11,7 +11,7 @@ layout: default
 
 <img src="{{ site.baseurl }}/images/DanaTeachingWide.jpg" class="img-responsive img-rounded" img style="margin-bottom: 10px" />
 
-My name is Dana Ernst and I am an assistant professor in the <a href="http://nau.edu/cefns/natsci/math/">Department of Mathematics and Statistics</a> at <a href="http://nau.edu">Northern Arizona University</a> in <a href="https://maps.google.com/maps?q=Flagstaff,+AZ&amp;hl=en&amp;sll=37.0625,-95.677068&amp;sspn=57.161276,109.511719&amp;oq=fl&amp;hnear=Flagstaff,+Coconino,+Arizona&amp;t=m&amp;z=12">Flagstaff, AZ</a>.  This site is part of the <a href="http://boolesrings.org">Booles' Rings</a> network of academic home pages/blogs.
+My name is Dana Ernst and I am an associate professor in the <a href="http://nau.edu/cefns/natsci/math/">Department of Mathematics and Statistics</a> at <a href="http://nau.edu">Northern Arizona University</a> in <a href="https://maps.google.com/maps?q=Flagstaff,+AZ&amp;hl=en&amp;sll=37.0625,-95.677068&amp;sspn=57.161276,109.511719&amp;oq=fl&amp;hnear=Flagstaff,+Coconino,+Arizona&amp;t=m&amp;z=12">Flagstaff, AZ</a>.  This site is part of the <a href="http://boolesrings.org">Booles' Rings</a> network of academic home pages/blogs.
 
 My primary research interests are in the interplay between combinatorics and algebraic structures. More specifically, I study the combinatorics of <a href="http://en.wikipedia.org/wiki/Coxeter_group">Coxeter groups</a> and their associated <a href="http://en.wikipedia.org/wiki/Hecke_algebra">Hecke algebras</a>, <a href="http://en.wikipedia.org/wiki/Kazhdan%E2%80%93Lusztig_polynomial">Kazhdan-Lusztig theory</a>, generalized <a href="http://en.wikipedia.org/wiki/Temperley-Lieb_algebra">Temperley-Lieb algebras</a>, <a href="http://en.wikipedia.org/wiki/Planar_algebra">diagram algebras</a>, and <a href="http://www.emis.de/journals/SLC/books/heaps.ps">heaps of pieces</a>. By employing combinatorial tools such as diagram algebras and heaps of pieces, one can gain insight into algebraic structures associated to Coxeter groups, and, conversely, the corresponding structure theory can often lead to surprising combinatorial results.
 
@@ -33,7 +33,7 @@ Lastly, I am a husband and a father of two incredible sons. Oh, I enjoy drinking
 
 <address>
 Dana C. Ernst, PhD<br />
-Assistant Professor<br />
+Associate Professor<br />
 Department of Mathematics &amp; Statistics<br />
 Northern Arizona University<br />
 805 South Osborne Drive<br />
