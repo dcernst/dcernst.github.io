@@ -1,5 +1,5 @@
 ---
-title: My Students Favorite Problems from Spring 2017
+title: My Students' Favorite Problems from Spring 2017
 author: Dana Ernst
 layout: post
 permalink: /students-favorite-problems/
