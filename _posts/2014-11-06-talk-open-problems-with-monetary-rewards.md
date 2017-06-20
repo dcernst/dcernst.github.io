@@ -28,7 +28,11 @@ On October 12th, I saw [a post](https://plus.google.com/115742208154874814350/po
 *Update:* Problem 5 has been solved!  13532385396179 is a counterexample.  To learn more, check out the  [Aperiodical](http://aperiodical.com/2017/06/13532385396179-doesnt-climb-to-a-prime/) and the following video from [Numberphile](https://www.youtube.com/channel/UCoxcjq-8xIDTYp3uz647V5A):
 
 <div class="embed-responsive embed-responsive-16by9">
-  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/xrrjciGmgqw"></iframe>
+  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/3IMAUm2WY70"></iframe>
+</div>
+
+<div class="embed-responsive embed-responsive-16by9">
+  <iframe class="embed-responsive-item" src="https://youtu.be/3IMAUm2WY70"></iframe>
 </div>
 
 If you solve one of these, you can reach Conway by sending snail mail (only) in care of the Department of Mathematics at Princeton University.
