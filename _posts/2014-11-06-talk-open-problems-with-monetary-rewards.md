@@ -25,6 +25,12 @@ On October 12th, I saw [a post](https://plus.google.com/115742208154874814350/po
 * **Problem 5.** Climb to a Prime: Let $n$ be a positive integer. Write the prime factorization in the usual way, e.g., $60 = 22 \cdot 3 \cdot 5$, in which the primes are written in increasing order, and exponents of 1 are omitted. Then bring exponents down to the line and omit all multiplication signs, obtaining a number $f(n)$. Now repeat.So, for example, $f(60) = f(22 \cdot 3 \cdot 5) = 2235$. Next, because $24235 = 3 \cdot 5 \cdot 149$, it maps, under $f$, to 35149, and since 35149 is prime, it maps to itself. Thus, $60 \to 2235 \to 35149
 \to 35149$, so we have climbed to a prime, and we stop there forever. The conjecture, in which I (Conway) seem to be the only believer, is that every number eventually climbs to a prime. The number 20 has not been verified to do so. Observe that $20 \to 225 \to 3252 \to 223271 \to \cdots$, eventually getting to more than one hundred digits without yet reaching a prime.
 
+*Update:* Problem 5 has been solved!  13532385396179 is a counterexample.  To learn more, check out the  [Aperiodical](http://aperiodical.com/2017/06/13532385396179-doesnt-climb-to-a-prime/) and the following video from [Numberphile](https://www.youtube.com/channel/UCoxcjq-8xIDTYp3uz647V5A):
+
+<div class="embed-responsive embed-responsive-16by9">
+  <iframe class="embed-responsive-item" src="https://youtu.be/F6t2oIEjWlc"></iframe>
+</div>
+
 If you solve one of these, you can reach Conway by sending snail mail (only) in care of the Department of Mathematics at Princeton University.
 
 Around the same time that I stumbled onto these problems, I was brainstorming ideas for a couple of upcoming talks that I was slated to give (one for undergraduates and one for high school students).  I decided that discussing open problems with monetary rewards with an emphasis on Conway's problems would likely make for a nice talk.  Here is the abstract that I settled on for both talks.
