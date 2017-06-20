@@ -31,10 +31,6 @@ On October 12th, I saw [a post](https://plus.google.com/115742208154874814350/po
   <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/3IMAUm2WY70"></iframe>
 </div>
 
-<div class="embed-responsive embed-responsive-16by9">
-  <iframe class="embed-responsive-item" src="https://youtu.be/3IMAUm2WY70"></iframe>
-</div>
-
 If you solve one of these, you can reach Conway by sending snail mail (only) in care of the Department of Mathematics at Princeton University.
 
 Around the same time that I stumbled onto these problems, I was brainstorming ideas for a couple of upcoming talks that I was slated to give (one for undergraduates and one for high school students).  I decided that discussing open problems with monetary rewards with an emphasis on Conway's problems would likely make for a nice talk.  Here is the abstract that I settled on for both talks.
