@@ -19,14 +19,8 @@ tags:
 On December 7, 2011, I gave my [second talk][1] about the [Futurama Theorem][2] during a [Plymouth State University Mathematics Seminar][3]. The Futurama Theorem is a theorem about the symmetric group that was developed for and proved in the episode "The Prisoner of Benda" for the TV show [Futurama][4]. The theorem was proved by show writer Ken Keeler, who has a PhD in applied mathematics from Harvard.
 
 <div class="center-block">
-<img src="{{ site.baseurl }}/images/FuturamaTheoremBoard.png" class="img-responsive img-rounded" img style="margin-bottom: 10px" />
+<img src="{{ site.baseurl }}/images/FuturamaTheoremBoard.png" class="img-responsive img-rounded center-block" img style="margin-bottom: 10px" />
 </div>
-
-<div class="center-block">
-<img src="http://i1.wp.com/pool.theinfosphere.org/images/thumb/4/4e/Prisoner_of_Benda_Theorem_on_Chalkboard.png/800px-Prisoner_of_Benda_Theorem_on_Chalkboard.png?w=550" class="img-responsive img-rounded" img style="margin-bottom: 10px" />
-</div>
-
-<img alt="Image taken from http://theinfosphere.org/" class="aligncenter" src="http://i1.wp.com/pool.theinfosphere.org/images/thumb/4/4e/Prisoner_of_Benda_Theorem_on_Chalkboard.png/800px-Prisoner_of_Benda_Theorem_on_Chalkboard.png?w=550" data-recalc-dims="1" />
 
 The first time I gave a talk about this theorem was during the Mathematics Forum at [Gordon College][5] just few weeks earlier. You can find my blog post about my first talk by going [here][6].
 
