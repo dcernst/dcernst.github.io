@@ -26,11 +26,9 @@ layout: default
 </div>
 </div>
 
-<!--
 <div class="alert alert-info" role="alert" style="margin: 10px 0 10px 0">
 <i class="fa fa-exclamation-triangle"></i>&nbsp; This syllabus is under construction and subject to change.
 </div>
--->
 
 <div class="row">
   <div class="col-xs-12 col-sm-6">
