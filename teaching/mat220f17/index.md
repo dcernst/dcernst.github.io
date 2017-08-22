@@ -13,27 +13,27 @@ layout: default
 <div class="row">
 <div class="col-xs-12">
 <div class="btn-group btn-group-justified">
-<a class="btn btn-default btn-success" href="{{site.baseurl}}/teaching/mat220s17/syllabus/">Syllabus</a>
-<a class="btn btn-default btn-primary" href="{{site.baseurl}}/teaching/mat220s17/materials/">
+<a class="btn btn-default btn-success" href="{{site.baseurl}}/teaching/mat220f17/syllabus/">Syllabus</a>
+<a class="btn btn-default btn-primary" href="{{site.baseurl}}/teaching/mat220f17/materials/">
 <span class="hidden-xs">Course Materials</span><span class="visible-xs">Materials</span>
 </a>
-<a class="btn btn-default btn-warning" href="{{site.baseurl}}/teaching/mat220s17/homework/">
+<a class="btn btn-default btn-warning" href="{{site.baseurl}}/teaching/mat220f17/homework/">
 <span class="hidden-xs">Homework</span><span class="visible-xs">HW</span>
 </a>
-<a class="btn btn-default btn-info" href="{{site.baseurl}}/teaching/mat220s17/journal/">Journal</a>
+<a class="btn btn-default btn-info" href="{{site.baseurl}}/teaching/mat220f17/journal/">Journal</a>
 </div>
 </div>
 </div>
 
 ## Welcome ##
-Welcome to the course web page for the Spring 2017 manifestation of MAT 220: Introduction to Mathematical Reasoning at [Northern Arizona University](http://nau.edu).
+Welcome to the course web page for the Fall 2017 manifestation of MAT 220: Introduction to Mathematical Reasoning at [Northern Arizona University](http://nau.edu).
 
 <div class="row">
   <div class="col-xs-12 col-sm-6">
     <div>
     <h2>Course Information</h2>
     <strong>Title:</strong> MAT 220: Introduction to Mathematical Reasoning<br />
-    <strong>Semester:</strong> Spring 2017<br />
+    <strong>Semester:</strong> Fall 2017<br />
     <strong>Credits:</strong> 3<br />
     <strong>Section:</strong> 1<br />
     <strong>Time:</strong> MWF at 9:10-10:00AM<br />
@@ -90,4 +90,4 @@ In this course, *everyone* will be required to
 - participate in discussions centered around a student's presented solution/proof;
 - call upon your own prodigious mental faculties to respond in flexible, thoughtful, and creative ways to problems that may seem unfamiliar on first glance.
 
-As the semester progresses, it should become clear to you what the expectations are.  This will be new to many of you and there may be some growing pains associated with it. For more details, see the [syllabus]({{ site.baseurl }}/teaching/mat220s17/syllabus/).
+As the semester progresses, it should become clear to you what the expectations are.  This will be new to many of you and there may be some growing pains associated with it. For more details, see the [syllabus]({{ site.baseurl }}/teaching/mat220f17/syllabus/).

@@ -7,21 +7,21 @@ layout: default
 <ol class="breadcrumb">
   <li><a href="/"><i class="fa fa-home"></i></a></li>
   <li><a href="/teaching/">Teaching</a></li>
-  <li><a href="/teaching/mat220s17">MAT 220</a></li>
+  <li><a href="/teaching/mat220f17">MAT 220</a></li>
   <li class="active">{{ page.title }}</li>
 </ol>
 
 <div class="row">
 <div class="col-xs-12">
 <div class="btn-group btn-group-justified">
-<a class="btn btn-default btn-success" href="{{site.baseurl}}/teaching/mat220s17/syllabus/">Syllabus</a>
-<a class="btn btn-default btn-primary" href="{{site.baseurl}}/teaching/mat220s17/materials/">
+<a class="btn btn-default btn-success" href="{{site.baseurl}}/teaching/mat220f17/syllabus/">Syllabus</a>
+<a class="btn btn-default btn-primary" href="{{site.baseurl}}/teaching/mat220f17/materials/">
 <span class="hidden-xs">Course Materials</span><span class="visible-xs">Materials</span>
 </a>
-<a class="btn btn-default btn-warning" href="{{site.baseurl}}/teaching/mat220s17/homework/">
+<a class="btn btn-default btn-warning" href="{{site.baseurl}}/teaching/mat220f17/homework/">
 <span class="hidden-xs">Homework</span><span class="visible-xs">HW</span>
 </a>
-<a class="btn btn-default btn-info" href="{{site.baseurl}}/teaching/mat220s17/journal/">Journal</a>
+<a class="btn btn-default btn-info" href="{{site.baseurl}}/teaching/mat220f17/journal/">Journal</a>
 </div>
 </div>
 </div>
@@ -37,7 +37,7 @@ layout: default
     <div>
     <h3>Course Information</h3>
     <strong>Title:</strong> MAT 220: Introduction to Mathematical Reasoning<br />
-    <strong>Semester:</strong> Spring 2017<br />
+    <strong>Semester:</strong> Fall 2017<br />
     <strong>Credits:</strong> 3<br />
     <strong>Section:</strong> 1<br />
     <strong>Time:</strong> MWF at 9:10-10:00AM<br />
@@ -141,7 +141,7 @@ We will not be using a textbook this semester, but rather a problem sequence des
 </blockquote>
 
 #### Learning Management System ####
-We will make limited use of BbLearn this semester, which is Northern Arizona University's default learning management system (LMS).  Most course content (e.g., syllabus, course notes, homework, etc.) will be housed here on our [course webpage](http://teaching.danaernst.com/mat220s17/) that lives outside of BbLearn.  I suggest you bookmark this page.  The only thing I will use BbLearn for is to communicate grades.
+We will make limited use of BbLearn this semester, which is Northern Arizona University's default learning management system (LMS).  Most course content (e.g., syllabus, course notes, homework, etc.) will be housed here on our [course webpage](http://teaching.danaernst.com/mat220f17/) that lives outside of BbLearn.  I suggest you bookmark this page.  The only thing I will use BbLearn for is to communicate grades.
 
 #### Homework ####
 Homework will be assigned each class meeting, and you are expected to complete (or try your best to complete) each assignment before walking into the next class period. All assignments should be carefully, clearly, and cleanly written. Among other things, this means your work should include proper grammar, punctuation and spelling. You will almost always write a draft of a given solution before you write down the final argument, so do yourself a favor and get in the habit of differentiating your scratch work from your submitted assignment.  
@@ -299,7 +299,7 @@ In summary, your final grade is determined by your scores in the following categ
 In general, you should expect the grades to adhere to the standard letter-grade cutoffs: A 100-90%, B 80-89%, C 70-79%, D 60-69%, F 0-59%.
 
 ### Department and University Policies ###
-You are responsible for knowing and following the [Department of Mathematics and Statistics Policies]({{ site.baseurl }}/teaching/DepartmentPoliciesSpring2017.pdf) (PDF) and other University policies listed [here](http://nau.edu/OCLDAA/_Forms/UCC/SyllabusPolicyStmts2-2014/) (PDF).  More policies can be found in other university documents, especially the [NAU Student Handbook](http://nau.edu/Student-Life/Student-Handbook/) (see appendices) and the website of the [Office of Student Life](http://nau.edu/Student-Life/).
+You are responsible for knowing and following the [Department of Mathematics and Statistics Policies]({{ site.baseurl }}/teaching/DepartmentPoliciesFall2017.pdf) (PDF) and other University policies listed [here](http://nau.edu/OCLDAA/_Forms/UCC/SyllabusPolicyStmts2-2014/) (PDF).  More policies can be found in other university documents, especially the [NAU Student Handbook](http://nau.edu/Student-Life/Student-Handbook/) (see appendices) and the website of the [Office of Student Life](http://nau.edu/Student-Life/).
 
 As per Department Policy, cell phones, mp3 players and portable electronic communication devices, including but not limited to smart phones, cameras and recording devices, must be turned off and inaccessible during in-class tests. Any violation of this policy will be treated as academic dishonesty.
 
@@ -312,7 +312,7 @@ Please turn off the ringer on your cell phone.  I do not have a strict policy on
 Here are some important dates:
 
 - **Thursday, January 26:** Last day to drop/add (no W appears on transcript)
-- **Monday, March 13-Friday, March 17:** Spring Break (no classes)
+- **Monday, March 13-Friday, March 17:** Fall Break (no classes)
 - **Friday, March 24:** Last day to withdraw from a course (W appears on transcript)
 - **Wednesday, May 10:** Final Exam
 

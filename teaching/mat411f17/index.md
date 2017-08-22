@@ -13,14 +13,14 @@ layout: default
 <div class="row">
 <div class="col-xs-12">
 <div class="btn-group btn-group-justified">
-<a class="btn btn-default btn-success" href="{{site.baseurl}}/teaching/mat411f16/syllabus/">Syllabus</a>
-<a class="btn btn-default btn-primary" href="{{site.baseurl}}/teaching/mat411f16/materials/">
+<a class="btn btn-default btn-success" href="{{site.baseurl}}/teaching/mat411f17/syllabus/">Syllabus</a>
+<a class="btn btn-default btn-primary" href="{{site.baseurl}}/teaching/mat411f17/materials/">
 <span class="hidden-xs">Course Materials</span><span class="visible-xs">Stuff</span>
 </a>
-<a class="btn btn-default btn-warning" href="{{site.baseurl}}/teaching/mat411f16/homework/">
+<a class="btn btn-default btn-warning" href="{{site.baseurl}}/teaching/mat411f17/homework/">
 <span class="hidden-xs">Homework</span><span class="visible-xs">HW</span>
 </a>
-<a class="btn btn-default btn-info" href="{{site.baseurl}}/teaching/mat411f16/journal/">Journal</a>
+<a class="btn btn-default btn-info" href="{{site.baseurl}}/teaching/mat411f17/journal/">Journal</a>
 </div>
 </div>
 </div>
@@ -66,4 +66,4 @@ In this course, *everyone* will be required to
 - participate in discussions centered around a student's presented solution/proof;
 - call upon your own prodigious mental faculties to respond in flexible, thoughtful, and creative ways to problems that may seem unfamiliar on first glance.
 
-As the semester progresses, it should become clear to you what the expectations are.  This will be new to many of you and there may be some growing pains associated with it. For more details, see the [syllabus]({{ site.baseurl }}/teaching/mat411f16/syllabus/).
+As the semester progresses, it should become clear to you what the expectations are.  This will be new to many of you and there may be some growing pains associated with it. For more details, see the [syllabus]({{ site.baseurl }}/teaching/mat411f17/syllabus/).

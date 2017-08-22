@@ -7,24 +7,24 @@ title: Class Journal
 <ol class="breadcrumb">
   <li><a href="/"><i class="fa fa-home"></i></a></li>
   <li><a href="/teaching/">Teaching</a></li>
-  <li><a href="/teaching/mat220s17">MAT 220</a></li>
+  <li><a href="/teaching/mat220f17">MAT 220</a></li>
   <li class="active">Journal</li>
 </ol>
 
 <div class="row">
 <div class="col-xs-12">
 <div class="btn-group btn-group-justified">
-<a class="btn btn-default btn-success" href="{{site.baseurl}}/teaching/mat220s17/syllabus/">Syllabus</a>
+<a class="btn btn-default btn-success" href="{{site.baseurl}}/teaching/mat220f17/syllabus/">Syllabus</a>
 
-<a class="btn btn-default btn-primary" href="{{site.baseurl}}/teaching/mat220s17/materials/">
+<a class="btn btn-default btn-primary" href="{{site.baseurl}}/teaching/mat220f17/materials/">
 <span class="hidden-xs">Course Materials</span><span class="visible-xs">Materials</span>
 </a>
 
-<a class="btn btn-default btn-warning" href="{{site.baseurl}}/teaching/mat220s17/homework/">
+<a class="btn btn-default btn-warning" href="{{site.baseurl}}/teaching/mat220f17/homework/">
 <span class="hidden-xs">Homework</span><span class="visible-xs">HW</span>
 </a>
 
-<a class="btn btn-default btn-info" href="{{site.baseurl}}/teaching/mat220s17/journal/">Journal</a>
+<a class="btn btn-default btn-info" href="{{site.baseurl}}/teaching/mat220f17/journal/">Journal</a>
 </div>
 </div>
 </div>
@@ -52,7 +52,7 @@ We’ll use this page to keep track of what has happened each day in class. It w
 
 <ul class="fa-ul">
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, January 30:</b> The week is off to a good start.  We kicked off by having SS and MR present visual and algebraic proofs, respectively, for Problem 15.  After allowed students to chat in small groups for a few minutes, JS2 presented a slick solution to Problem 16. Next, we had students chat in small groups about Problem 17.  AS discussed a case analysis for Problem 17 and then we distilled the argument down to a single case.  We wrapped up by discussing Erdos and the next few homework problems.</li>
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, February 1:</b> The students took <a href="{{site.baseurl}}/teaching/mat220s17/220Quiz2.pdf">Quiz 2</a>. We will get back to working on problems on Friday.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, February 1:</b> The students took <a href="{{site.baseurl}}/teaching/mat220f17/220Quiz2.pdf">Quiz 2</a>. We will get back to working on problems on Friday.</li>
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, February 3:</b> While I was out of town, Monika Keindl covered for me.  Monika handed out a half sheet of paper that contained 4 problems. Students spent the majority of the class meeting working on these problems in small groups.  Along the way, BG and RD presented solutions to the first and second problems, respectively. The intention was for students to finish working on the remaining two problems over the weekend.</li>
 </ul>
 
@@ -68,7 +68,7 @@ We’ll use this page to keep track of what has happened each day in class. It w
 
 <ul class="fa-ul">
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, February 13:</b> We accomplished more today than I expected.  We kicked off with small groups discussing potential solutions to Problem 25. We had JS1 share a solution he encountered when chatting with his group. Next, we had JS2 share his proposed solution to Problem 26, but we discovered it wasn't optimal because RB proposed a better solution.  I suggested folks attempt to prove that RB's solution is the best we can do.  After having AT2 share his proposed approach to Problem 27, we had BG present slick solutions to both Problems 27 and 28.</li>
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, February 15:</b> The students took <a href="{{site.baseurl}}/teaching/mat220s17/220Quiz2.pdf">Quiz 2</a>.  I love watching the students collaborate for the few minutes I allow them to chat.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, February 15:</b> The students took <a href="{{site.baseurl}}/teaching/mat220f17/220Quiz2.pdf">Quiz 2</a>.  I love watching the students collaborate for the few minutes I allow them to chat.</li>
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, February 17:</b> I was energetic today, but I might have been the only one.  We started with a brief follow-up discussion on Problems 27 and 28.  NP told us how we could take the solutions from Problems 27 and 28 and combine them into a single strategy.  Next, KG provided an argument about why 17 minutes is the best we can do on Problem 26.  AT2 put Problem 33 to rest with easy; another example of triangular numbers.  RD and AT1 tackled Problem 34 for us. I think everyone should be able to handle any problem like this one in the future.  We spend the last 20 minutes of class discussing Problem 35.  LL and RB presented their proposed solutions, but it turns out that we can do better.  We'll revisit Problem 35 next week.</li>
 </ul>
 
@@ -77,7 +77,7 @@ We’ll use this page to keep track of what has happened each day in class. It w
 <ul class="fa-ul">
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, February 20:</b> Unfortunately, I spent almost the entire class talking.  I spent a good chunk of time going over Quiz 2 and then wrote down a complete solution to Problem 35 involving 12 coins.  There was a few minutes at the end for students to think about what to do with 11 coins.</li>
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, February 22:</b> Great day! BS presented Problem 37, which illustrated the importance of working backwards. Next MS walked us through Problem 38. I followed this up with a discussion of how to explicitly count the number of friendships on each team. This lead to a brief discussion about how to generalize the problem. KG attempted Problem 39, but his approach was thwarted by an inability to resolve one inequality. KF followed this up with an elegant solution involving the triangle inequality. We wrapped up class with a short discussion of Problem 40, which turns out to not work as expected.</li>
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, February 24:</b> The students took <a href="{{site.baseurl}}/teaching/mat220s17/220Quiz3.pdf">Quiz 3</a>.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, February 24:</b> The students took <a href="{{site.baseurl}}/teaching/mat220f17/220Quiz3.pdf">Quiz 3</a>.</li>
 </ul>
 
 ## Week 7 ##
@@ -93,7 +93,7 @@ We’ll use this page to keep track of what has happened each day in class. It w
 <ul class="fa-ul">
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, March 6:</b> My understanding is that KP presented Problem 44 (Aslant), MS finished off Problem 43 (Martian Artifacts), RB and AC tackled Problem 48 (Magic!), and RD presented Problem 49 (Two Deep).</li>
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, March 8:</b> Today MS presented Problem 46 (the one with the $3\times 3$ and $2\times 2$ squares), RD presented Problem 45 (Double Tangent), SS and BS presented Problem 52 (One Over), and KG presented Problem 51 (The Good Teacher), but there was an algebra mistake in Problem 51, so we haven't found a solution to that one yet.</li>
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, March 10:</b> The students took <a href="{{site.baseurl}}/teaching/mat220s17/220Quiz4.pdf">Quiz 4</a>.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, March 10:</b> The students took <a href="{{site.baseurl}}/teaching/mat220f17/220Quiz4.pdf">Quiz 4</a>.</li>
 </ul>
 
 ## Week 9 ##
@@ -108,7 +108,7 @@ We’ll use this page to keep track of what has happened each day in class. It w
 
 <ul class="fa-ul">
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, March 27:</b> We finally saw a solution to Problem 50 (Good Teacher), which NP presented for us. Next, we split the class up into 6 small groups, each tasked with discussing one of Problems 59-61. After a few minutes, JS1 presented a solution to Problem 59 (Modified Sylver Coinage). Next, we heard from JK, AT2, and LB about Problem 60 (Cookies). Lastly, AT1 discussed the beautiful solution to Problem 61 (Prisoners and a light switch).</li>
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, March 29:</b> The students took <a href="{{site.baseurl}}/teaching/mat220s17/220Quiz5.pdf">Quiz 5</a>.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, March 29:</b> The students took <a href="{{site.baseurl}}/teaching/mat220f17/220Quiz5.pdf">Quiz 5</a>.</li>
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, March 31:</b> Today, RB presented a wonderful solution to Problem 62. It appeared that no one had made much progress on on Problems 63 and 64, so we spent the rest of class kicking around some ideas about how to approach these problems.</li>
 </ul>
 
@@ -124,7 +124,7 @@ We’ll use this page to keep track of what has happened each day in class. It w
 
 <ul class="fa-ul">
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, April 10:</b> The first few minutes of class were devoted to wrapping up Problem 68 (rectangle vs pentagon), which I presented.  Next, SS led us on a discussion of Problem 71 (4 by 4 grid with lights) that involved some case analysis.  We attempted to generalize potential arguments to handle the 5 by 5 case and the 8 by 8 case.  We all believe the answer to Problem 72 (8 by 8 grid with lights) is that it is impossible to start with fewer than 8 lights, but the problem remains open.</li>
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, April 12:</b> The students took <a href="{{site.baseurl}}/teaching/mat220s17/220Quiz6.pdf">Quiz 6</a>.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, April 12:</b> The students took <a href="{{site.baseurl}}/teaching/mat220f17/220Quiz6.pdf">Quiz 6</a>.</li>
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, April 14:</b> We spent the first few minutes of class discussing my proposed solution to Problem 72 (8 by 8 grid with lights). Next, we quickly dispensed with Problem 74 (liars and truth tellers) and then moved onto Problem 73, which AT2 presented. Then SW led a discussion of Problem 75 (lions on an island). I spent the last few minutes of class discussing induction.</li>
 </ul>
 
@@ -140,7 +140,7 @@ We’ll use this page to keep track of what has happened each day in class. It w
 
 <ul class="fa-ul">
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, April 24:</b> We had 4 different solutions to Problem 82.  Three of these were from SW, RD, and KG, and the fourth was from me.  Next, we saw a solution to Problem 83 by NP.  We spent the last few minutes of class reviewing for Wednesday's quiz.</li>
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, April 26:</b> The students took <a href="{{site.baseurl}}/teaching/mat220s17/220Quiz7.pdf">Quiz 7</a>.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, April 26:</b> The students took <a href="{{site.baseurl}}/teaching/mat220f17/220Quiz7.pdf">Quiz 7</a>.</li>
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, April 28:</b> We started by discussing Problem 85 (top player). RD discussed his intuition about the problem, but no one had a rigorous argument.  I walked us through an inductive proof (with some minor confusion on one case). With the time we had left, I guided a discussion of the first part of Problem 84.  The plan is to revisit this one and Problem 86 on Monday.</li>
 </ul>
 

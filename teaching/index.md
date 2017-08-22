@@ -17,13 +17,15 @@ My current office hours for Spring 2017 are 10:15-11:15AM on Mondays, Wednesdays
 ## Current Courses ##
 Here are the courses that I am currently teaching (Spring 2017) at [Northern Arizona University](http://nau.edu).
 
-- [MAT 220: Introduction to Mathematical Reasoning]({{ site.baseurl }}/teaching/mat220s17)
-- [MAT 320: Foundations of Mathematics]({{ site.baseurl }}/teaching/mat320s17)
+- [MAT 220: Introduction to Mathematical Reasoning]({{ site.baseurl }}/teaching/mat220f17)
+- [MAT 411: Introduction to Abstract Algebra]({{ site.baseurl }}/teaching/mat411f17)
 
 ## Previous Courses ##
 This is a (partial) list of courses that I have taught over the past several semesters. **Note:** Some of the links on the pages below may be outdated.
 
 #### Northern Arizona University ####
+- [MAT 220: Introduction to Mathematical Reasoning, Spring 2017]({{ site.baseurl }}/teaching/mat220s17)
+- [MAT 320: Foundations of Mathematics, Spring 2017]({{ site.baseurl }}/teaching/mat320s17)
 - [MAT 411: Introduction to Abstract Algebra, Fall 2016]({{ site.baseurl }}/teaching/mat411f16)
 - [MAT 526: Topics in Combinatorics, Fall 2016]({{ site.baseurl }}/teaching/mat526f16)
 - [MAT 411: Introduction to Abstract Algebra, Spring 2016]({{ site.baseurl }}/teaching/mat411s16)
