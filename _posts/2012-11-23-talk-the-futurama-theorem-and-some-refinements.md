@@ -17,7 +17,7 @@ tags:
   - symmetric group
   - talk
 ---
-<img src="{{ site.baseurl }}/images/FuturamaTheoremBoard.png" class="img-responsive img-rounded" img style="margin-bottom: 10px" />
+<img src="{{ site.baseurl }}/images/FuturamaTheoremBoard.png" class="img-responsive img-rounded .center-block" img style="margin-bottom: 10px" />
 
 On Tuesday, November 6, 2012 I gave a talk titled "The Futurama Theorem and some refinements" in the [NAU Department of Mathematics and Statistics Colloquium][1]. This was the fourth time that I've given a talk about the [Futurama Theorem][2] (also known as Keeler's Theorem).
 
