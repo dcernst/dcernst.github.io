@@ -18,6 +18,8 @@ tags:
   - talk
 ---
 
+<img src="{{ site.baseurl }}/images/FuturamaTheoremBoard.png" class="img-responsive img-rounded center-block" img style="margin-bottom: 10px" alt="Image taken from http://theinfosphere.org/"/>
+
 <div class="center-block">
 <img src="{{ site.baseurl }}/images/FuturamaTheoremBoard.png" class="img-responsive img-rounded" img style="margin-bottom: 10px" />
 </div>
