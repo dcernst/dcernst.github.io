@@ -17,7 +17,8 @@ tags:
   - symmetric group
   - talk
 ---
-<div class="center-block">
+
+<div class="text-center">
 <img src="{{ site.baseurl }}/images/FuturamaTheoremBoard.png" class="img-responsive img-rounded" img style="margin-bottom: 10px" />
 </div>
 
