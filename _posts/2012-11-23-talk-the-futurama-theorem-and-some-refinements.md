@@ -20,10 +20,6 @@ tags:
 
 <img src="{{ site.baseurl }}/images/FuturamaTheoremBoard.png" class="img-responsive img-rounded center-block" img style="margin-bottom: 10px" alt="Image taken from http://theinfosphere.org/"/>
 
-<div class="center-block">
-<img src="{{ site.baseurl }}/images/FuturamaTheoremBoard.png" class="img-responsive img-rounded" img style="margin-bottom: 10px" />
-</div>
-
 On Tuesday, November 6, 2012 I gave a talk titled "The Futurama Theorem and some refinements" in the [NAU Department of Mathematics and Statistics Colloquium][1]. This was the fourth time that I've given a talk about the [Futurama Theorem][2] (also known as Keeler's Theorem).
 
 The Futurama Theorem is a theorem about the [symmetric group][3] that was developed for and proved in the episode “The Prisoner of Benda” for the TV show [Futurama][4]. The theorem was proved by show writer [Ken Keeler][5], who has a PhD in applied mathematics from Harvard. During the episode, Professor Farnsworth and Amy invent a mind swapping machine and after swapping minds, they realize that the machine cannot be used on the same pair of bodies again. After several characters swap minds, they are confronted with the problem of putting everyone’s mind back where it belongs. The Futurama Theorem proves that regardless of how many mind swaps have been made, all minds can be restored to their original bodies using only two extra people.
