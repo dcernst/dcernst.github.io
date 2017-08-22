@@ -36,8 +36,8 @@ Welcome to the course web page for the Fall 2017 manifestation of MAT 220: Intro
     <strong>Semester:</strong> Fall 2017<br />
     <strong>Credits:</strong> 3<br />
     <strong>Section:</strong> 1<br />
-    <strong>Time:</strong> MWF at 9:10-10:00AM<br />
-    <strong>Location:</strong> AMB 164
+    <strong>Time:</strong> MWF at 10:20-11:10AM<br />
+    <strong>Location:</strong> AMB 225
     </div>
   </div>
 
@@ -46,7 +46,7 @@ Welcome to the course web page for the Fall 2017 manifestation of MAT 220: Intro
       <h2>Instructor Information</h2>
       <i class="fa fa-user fa-fw"></i>&nbsp; Dana C. Ernst, PhD<br />
       <i class="fa fa-university fa-fw"></i>&nbsp; AMB 176<br />
-      <i class="fa fa-users fa-fw"></i>&nbsp; MWF 10:15-11:15AM, T 11:00-12:00PM<br />
+      <i class="fa fa-users fa-fw"></i>&nbsp; Coming soon.<br />
       <i class="fa fa-envelope-o fa-fw"></i>&nbsp; <a href="mailto:dana.ernst@nau.edu">dana.ernst@nau.edu</a><br />
       <i class="fa fa-phone fa-fw"></i>&nbsp; 928.523.6852<br />
       <i class="fa fa-link fa-fw"></i>&nbsp; <a href="{{site.baseurl}}">dcernst.github.io</a>
