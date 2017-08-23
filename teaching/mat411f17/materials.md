@@ -30,7 +30,11 @@ title: Course Materials
 
 We will not be using a textbook this semester, but rather a task-sequence adopted for IBL.  The task-sequence that we are using was written by me.  Any errors in the notes are no one's fault but my own.  In this vein, if you think you see an error, please inform me, so that it can be remedied.  I reserve the right to modify them as we go, but I will always inform you of any significant changes.  The notes will be released incrementally.  Each link below is to a PDF file.
 
-- [An Inquiry-Based Approach to Abstract Algebra]({{site.baseurl}}/teaching/mat411f17/IBL-AbstractAlgebra.pdf) (complete set of notes)
+<div class="alert alert-info" role="alert" style="margin: 10px 0 10px 0">
+<i class="fa fa-exclamation-triangle"></i>&nbsp; These notes are currently under construction and subject to change.
+</div>
+
+<!-- - [An Inquiry-Based Approach to Abstract Algebra]({{site.baseurl}}/teaching/mat411f17/IBL-AbstractAlgebra.pdf) (complete set of notes) -->
 - [Title Page]({{site.baseurl}}/teaching/mat411f17/TitlePage.pdf)
 - [Chapter 1: Introduction]({{site.baseurl}}/teaching/mat411f17/Introduction.pdf)
     - 1.1 What is Abstract Algebra?
@@ -94,7 +98,9 @@ I will not be covering every detail of the notes and the only way to achieve a s
 ## Exams ##
 Below are links to each exam.
 
-- [Exam 1 (take-home)]({{site.baseurl}}/teaching/mat411f17/411Exam1-Home.pdf) (PDF). If you are interested in using LaTeX to type up your solutions, contact me and I will send you a link to the source file of the exam. (Due Monday, October 3)
+- Exam 1. Coming soon.
+
+<!-- - [Exam 1 (take-home)]({{site.baseurl}}/teaching/mat411f17/411Exam1-Home.pdf) (PDF). If you are interested in using LaTeX to type up your solutions, contact me and I will send you a link to the source file of the exam. (Due Monday, October 3)
 - [Exam 2 (take-home)]({{site.baseurl}}/teaching/mat411f17/411Exam2-Home.pdf) (PDF). If you are interested in using LaTeX to type up your solutions, contact me and I will send you a link to the source file of the exam. For the last question, you will need the following pictures of quilts that correspond to group tables for groups of order 8. (Due Monday, October 31 by 4pm)
     - [Quilt 1]({{site.baseurl}}/teaching/mat411f17/Quilt1.JPG)
     - [Quilt 2]({{site.baseurl}}/teaching/mat411f17/Quilt2.JPG)
@@ -102,4 +108,4 @@ Below are links to each exam.
     - [Quilt 4]({{site.baseurl}}/teaching/mat411f17/Quilt4.JPG)
     - [Quilt 5]({{site.baseurl}}/teaching/mat411f17/Quilt5.JPG)
 - [Exam 3 (take-home)]({{site.baseurl}}/teaching/mat411f17/411Exam3-Home.pdf) (PDF). If you are interested in using LaTeX to type up your solutions, contact me and I will send you a link to the source file of the exam. (Due Tuesday, December 6 by 5pm)
-- [Final Exam (take-home)]({{site.baseurl}}/teaching/mat411f17/411ExamFinal-Home.pdf) (PDF). If you are interested in using LaTeX to type up your solutions, contact me and I will send you a link to the source file of the exam. (Due by 5pm on Thursday, December 15)
+- [Final Exam (take-home)]({{site.baseurl}}/teaching/mat411f17/411ExamFinal-Home.pdf) (PDF). If you are interested in using LaTeX to type up your solutions, contact me and I will send you a link to the source file of the exam. (Due by 5pm on Thursday, December 15) -->
