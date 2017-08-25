@@ -12,7 +12,7 @@ layout: default
 This section is primarily designed for my current students, but if you are not one of my students and somehow found your way here, feel free to poke around. Unless stated otherwise, content on this site that is authored by Dana C. Ernst is licensed under a [Creative Commons Attribution-Share Alike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/).
 
 ## Office Hours ##
-My current office hours for Fall 2017 are ??? (or by appointment). My office is located in room 176 of the [Adel Mathematics Building](http://maps.google.com/maps?q=Adel+Mathematics,+Flagstaff,+AZ&hl=en&sll=35.181208,-111.607959&sspn=0.231222,0.42675&oq=adel+mathe&hnear=Adel+Mathematics,+Flagstaff,+Arizona+86001&t=m&z=17) (Building 26).
+My current office hours for Fall 2017 are 11:30AM-1:00PM on Monday, Wednesday, and Friday and 10:00-11:00AM on Tuesday (or by appointment). My office is located in room 176 of the [Adel Mathematics Building](http://maps.google.com/maps?q=Adel+Mathematics,+Flagstaff,+AZ&hl=en&sll=35.181208,-111.607959&sspn=0.231222,0.42675&oq=adel+mathe&hnear=Adel+Mathematics,+Flagstaff,+Arizona+86001&t=m&z=17) (Building 26).
 
 ## Current Courses ##
 Here are the courses that I am currently teaching (Fall 2017) at [Northern Arizona University](http://nau.edu).

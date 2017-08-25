@@ -33,7 +33,7 @@ layout: default
 <div class="row">
   <div class="col-xs-12 col-sm-6">
     <div>
-    <h3>Course Information</h3>
+    <h3>Course Info</h3>
     <strong>Title:</strong> MAT 220: Introduction to Mathematical Reasoning<br />
     <strong>Semester:</strong> Fall 2017<br />
     <strong>Credits:</strong> 3<br />
@@ -45,10 +45,10 @@ layout: default
 
   <div class="col-xs-12 col-sm-6">
     <div>
-      <h3>Instructor Information</h3>
+      <h3>Instructor Info</h3>
       <i class="fa fa-user fa-fw"></i>&nbsp; Dana C. Ernst, PhD<br />
       <i class="fa fa-university fa-fw"></i>&nbsp; AMB 176<br />
-      <i class="fa fa-users fa-fw"></i>&nbsp;Coming soon<br />
+      <i class="fa fa-users fa-fw"></i>&nbsp;11:30AM-1:00PM MWF, 10:00-11:00AM T (or by appointment)<br />
       <i class="fa fa-envelope-o fa-fw"></i>&nbsp; <a href="mailto:dana.ernst@nau.edu">dana.ernst@nau.edu</a><br />
       <i class="fa fa-phone fa-fw"></i>&nbsp; 928.523.6852<br />
       <i class="fa fa-link fa-fw"></i>&nbsp; <a href="{{site.baseurl}}">danaernst.com</a>
@@ -139,7 +139,7 @@ We will not be using a textbook this semester, but rather a problem sequence des
 </blockquote>
 
 #### Learning Management System ####
-We will make limited use of BbLearn this semester, which is Northern Arizona University's default learning management system (LMS).  Most course content (e.g., syllabus, course notes, homework, etc.) will be housed here on our [course webpage](http://teaching.danaernst.com/mat220f17/) that lives outside of BbLearn.  I suggest you bookmark this page.  The only thing I will use BbLearn for is to communicate grades.
+We will make limited use of BbLearn this semester, which is Northern Arizona University's default learning management system (LMS).  Most course content (e.g., syllabus, course notes, homework, etc.) will be housed here on our [course webpage](http://danaernst.com/teaching/mat220f17/) that lives outside of BbLearn.  I suggest you bookmark this page.  The only thing I will use BbLearn for is to communicate grades.
 
 #### Homework ####
 Homework will be assigned each class meeting, and you are expected to complete (or try your best to complete) each assignment before walking into the next class period. All assignments should be carefully, clearly, and cleanly written. Among other things, this means your work should include proper grammar, punctuation and spelling. You will almost always write a draft of a given solution before you write down the final argument, so do yourself a favor and get in the habit of differentiating your scratch work from your submitted assignment.  
@@ -309,10 +309,12 @@ Please turn off the ringer on your cell phone.  I do not have a strict policy on
 ### Important Dates ###
 Here are some important dates:
 
-- **Thursday, January 26:** Last day to drop/add (no W appears on transcript)
-- **Monday, March 13-Friday, March 17:** Fall Break (no classes)
-- **Friday, March 24:** Last day to withdraw from a course (W appears on transcript)
-- **Wednesday, May 10:** Final Exam
+- **Monday, September 4:** Labor Day (no classes)
+- **Thursday, September 7**: Last day to Drop/Delete a class (without class appearing on students' transcripts)
+- **Friday, November 3:**: Course withdrawal deadline
+- **Friday, November 10:** Veteran's Day (no classes)
+- **Thursday, November 23-Friday, November 24:** Thanksgiving Holiday (no classes)
+- **Monday, December 11**: Final Exam
 
 ### Getting Help ###
 There are many resources available to get help.  First, I recommend that you work on homework in small groups as much as possible, and to come see me whenever necessary.  I am always happy to help you.  If my office hours don't work for you, then we can probably find another time to meet.  It is your responsibility to be aware of how well you understand the material.  Don't wait until it is too late if you need help.  *Ask questions*!  Lastly, you can always [email me](mailto:dana.ernst@nau.edu).

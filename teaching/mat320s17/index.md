@@ -31,7 +31,7 @@ Welcome to the course web page for the Spring 2017 manifestation of MAT 320: Fou
 <div class="row">
   <div class="col-xs-12 col-sm-6">
     <div>
-    <h2>Course Information</h2>
+    <h2>Course Info</h2>
     <strong>Title:</strong> MAT 320: Foundations of Mathematics<br />
     <strong>Semester:</strong> Spring 2017<br />
     <strong>Credits:</strong> 3<br />
@@ -43,7 +43,7 @@ Welcome to the course web page for the Spring 2017 manifestation of MAT 320: Fou
 
   <div class="col-xs-12 col-sm-6">
     <div>
-      <h2>Instructor Information</h2>
+      <h2>Instructor Info</h2>
       <i class="fa fa-user fa-fw"></i>&nbsp; Dana C. Ernst, PhD<br />
       <i class="fa fa-university fa-fw"></i>&nbsp; AMB 176<br />
       <i class="fa fa-users fa-fw"></i>&nbsp; MWF 10:15-11:15AM, T 11:00-12:00PM<br />

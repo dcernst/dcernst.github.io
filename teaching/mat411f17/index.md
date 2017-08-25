@@ -26,18 +26,33 @@ layout: default
 </div>
 
 ## Welcome ##
-Welcome to the course web page for the Fall 2016 manifestation of MAT 411: Introduction to Abstract Algebra at [Northern Arizona University](http://nau.edu).
+Welcome to the course web page for the Fall 2017 manifestation of MAT 411: Introduction to Abstract Algebra at [Northern Arizona University](http://nau.edu).
 
-## Instructor Info ##
+<div class="row">
+  <div class="col-xs-12 col-sm-6">
+    <div>
+    <h2>Course Info</h2>
+    <strong>Title:</strong> MAT 411: Introduction to Abstract Algebra<br />
+    <strong>Semester:</strong> Fall 2017<br />
+    <strong>Credits:</strong> 3<br />
+    <strong>Section:</strong> 1<br />
+    <strong>Time:</strong> MWF at 9:10-10:00AM<br />
+    <strong>Location:</strong> AMB 225
+    </div>
+  </div>
 
-<address>
-<i class="fa fa-user fa-fw"></i>&nbsp; Dana C. Ernst, PhD<br />
-<i class="fa fa-university fa-fw"></i>&nbsp; AMB 176<br />
-<i class="fa fa-users fa-fw"></i>&nbsp; Coming soon<br />
-<i class="fa fa-envelope-o fa-fw"></i>&nbsp; <a href="mailto:dana.ernst@nau.edu">dana.ernst@nau.edu</a><br />
-<i class="fa fa-phone fa-fw"></i>&nbsp; 928.523.6852<br />
-<i class="fa fa-link fa-fw"></i>&nbsp; <a href="http://dcernst.github.io">danaernst.com</a>
-</address>
+  <div class="col-xs-12 col-sm-6">
+    <div>
+      <h2>Instructor Info</h2>
+      <i class="fa fa-user fa-fw"></i>&nbsp; Dana C. Ernst, PhD<br />
+      <i class="fa fa-university fa-fw"></i>&nbsp; AMB 176<br />
+      <i class="fa fa-users fa-fw"></i>&nbsp; 11:30AM-1:00PM MWF, 10:00-11:00AM T (or by appointment)<br />
+      <i class="fa fa-envelope-o fa-fw"></i>&nbsp; <a href="mailto:dana.ernst@nau.edu">dana.ernst@nau.edu</a><br />
+      <i class="fa fa-phone fa-fw"></i>&nbsp; 928.523.6852<br />
+      <i class="fa fa-link fa-fw"></i>&nbsp; <a href="{{site.baseurl}}">danaernst.com</a>
+    </div>
+  </div>
+</div>
 
 ## What is This Course All About? ##
 Abstract algebra is the subject area of mathematics that studies algebraic structures, such as groups, rings, fields, modules, vector spaces, and algebras. This course is an introduction to abstract algebra. We will spend most of our time studying groups. Group theory is the study of symmetry, and is one of the most beautiful areas in all of mathematics. It arises in puzzles, visual arts, music, nature, the physical and life sciences, computer science, cryptography, and of course, throughout mathematics. This course will cover the basic concepts of group theory, and a special effort will be made to emphasize the intuition behind the concepts and motivate the subject matter.  In the last few weeks of the semester, we will also introduce rings and fields.
