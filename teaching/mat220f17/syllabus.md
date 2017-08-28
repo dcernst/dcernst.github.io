@@ -148,7 +148,7 @@ Please understand that the purpose of the homework assignments is to teach you t
 
 You are allowed and encouraged to work together on homework. Yet, each student is expected to turn in his or her own work. In general, late homework will not be accepted. However, you are allowed to turn in **up to three late homework assignments with no questions asked**. Unless you have made arrangements in advance with me, homework turned in after class will be considered late. When doing your homework, I encourage you to consult the [Elements of Style for Proofs]({{ site.baseurl }}/teaching/ElementsOfStyle.pdf) as a reference.
 
-Your overall homework grade is worth 15% of your final grade.
+Your overall homework grade is worth 10% of your final grade.
 
 ### Class Presentations and Participation ###
 Though the atmosphere in this class should be informal and friendly, what we do in the class is serious business. In particular, the presentations made by students are to be taken seriously since they spearhead the work of the class.  Here are some of my expectations:
@@ -197,7 +197,7 @@ However, you should not let the rubric deter you from presenting if you have an 
 
 In general, I will curate the list of student presenters each class meeting.  However, **students are welcome to volunteer to present**. This type of behavior will be rewarded. If more than one student volunteers, the student with the fewest number of presentations has priority.  The problems chosen for presentations will come from the homework.  Each student in the audience is expected to be engaged and respectful during another student's presentation.
 
-In order to receive a **passing grade** on the presentation portion of your grade, **you must present at least three times prior to the end of week 7 of the semester** (Friday, March 3) and **at least three times after week 7 of the semester**. Notice that I've described a minimum.  To ensure a good grade, you should present as often as you can. Your overall performance during presentations, as well as your level of interaction/participation during class, is worth 15% of your overall grade.
+In order to receive a **passing grade** on the presentation portion of your grade, **you must present at least three times prior to the end of week 7 of the semester** (Friday, March 3) and **at least three times after week 7 of the semester**. Notice that I've described a minimum.  To ensure a good grade, you should present as often as you can. Your overall performance during presentations, as well as your level of interaction/participation during class, is worth 10% of your overall grade.
 
 ### Quizzes and Final Exam ###
 We will have 7 quizzes this semester.  The first one will be given during week 3 and then we will have a quiz every 2 weeks thereafter.  Tentatively, the quizzes are scheduled for the following dates:
@@ -245,7 +245,7 @@ Each quiz will consist of a mixture of homework problems you encountered during 
 </table>
 </center>
 
-Make-up quizzes will only be given under extreme circumstances, as judged by me. In general, it will be best to communicate conflicts ahead of time.  Your overall quiz grade is worth 50% of your final grade and will be determined by your top 6 quiz scores.
+Make-up quizzes will only be given under extreme circumstances, as judged by me. In general, it will be best to communicate conflicts ahead of time.  Your overall quiz grade is worth 60% of your final grade and will be determined by your top 6 quiz scores.
 
 We will also have a cumulative final exam that takes place on **Monday, May 11 at 10:00AM-12:00PM**.  Your final exam score is worth 20% of your overall grade.
 
@@ -270,17 +270,17 @@ In summary, your final grade is determined by your scores in the following categ
 	<tbody>
 	<tr>
 		<td>Homework</td>
-		<td>15%</td>
+		<td>10%</td>
 		<td>See above for details</td>
 	</tr>
   <tr>
 		<td>Presentations &amp; Participation</td>
-		<td>15%</td>
+		<td>10%</td>
 		<td>See above for details</td>
 	</tr>
 	<tr>
 		<td>Quizzes</td>
-		<td>50%</td>
+		<td>60%</td>
 		<td>Best six out of seven</td>
 	</tr>
 	<tr>
