@@ -137,7 +137,7 @@ We will not be using a textbook this semester, but rather a problem sequence des
 </blockquote>
 
 ### Learning Management System ###
-We will make limited use of BbLearn this semester, which is Northern Arizona University's default learning management system (LMS).  Most course content (e.g., syllabus, course notes, homework, etc.) will be housed here on our [course webpage](http://danaernst.com/teaching/mat220f17/) that lives outside of BbLearn.  I suggest you bookmark this page.  The only thing I will use BbLearn for is to communicate grades.
+We will make limited use of BbLearn this semester, which is Northern Arizona University's default learning management system (LMS).  Most course content (e.g., syllabus, course notes, homework, etc.) will be housed here on our [course webpage](http://danaernst.com/teaching/mat220f17/) that lives outside of BbLearn.  I suggest you bookmark this page.  The only thing I will use BbLearn for is to occasionally communicate grades.
 
 ### Homework ###
 Homework will be assigned each class meeting, and you are expected to complete (or try your best to complete) each assignment before walking into the next class period. All assignments should be carefully, clearly, and cleanly written. Among other things, this means your work should include proper grammar, punctuation and spelling. You will almost always write a draft of a given solution before you write down the final argument, so do yourself a favor and get in the habit of differentiating your scratch work from your submitted assignment.  
@@ -202,13 +202,13 @@ In order to receive a **passing grade** on the presentation portion of your grad
 ### Quizzes and Final Exam ###
 We will have 7 quizzes this semester.  The first one will be given during week 3 and then we will have a quiz every 2 weeks thereafter.  Tentatively, the quizzes are scheduled for the following dates:
 
-- Quiz 1: Wednesday, ???
-- Quiz 2: Wednesday, ???
-- Quiz 3: Wednesday, ???
-- Quiz 4: Wednesday, ???
-- Quiz 5: Wednesday, ???
-- Quiz 6: Wednesday, ???
-- Quiz 7: Wednesday, ???
+- Quiz 1: Friday, September 8
+- Quiz 2: Friday, September 22
+- Quiz 3: Friday, October 6
+- Quiz 4: Friday, October 20
+- Quiz 5: Friday, November 3
+- Quiz 6: Friday, November 17
+- Quiz 7: Friday, December 1
 
 Each quiz will consist of a mixture of homework problems you encountered during the previous two weeks and new problems not previously attempted.   Each problem will be graded using the following rubric:
 
