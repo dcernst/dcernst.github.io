@@ -42,7 +42,7 @@ We will not be using a textbook this semester, but rather a task-sequence adopte
     - 1.3 Rules of the Game
     - 1.4 Structure of the Notes
     - 1.5 Some Minimal Guidance
-- Chapter 2: An Intuitive Approach to Groups
+- [Chapter 2: An Intuitive Approach to Groups]({{site.baseurl}}/teaching/mat411f17/IntuitiveGroups.pdf)
 - Chapter 3: Cayley Diagrams
 - Chapter 4: An Introduction to Subgroups and Isomorphisms
     - 4.1 Subgroups
