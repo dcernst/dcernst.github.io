@@ -32,7 +32,7 @@ Below you will find notes and handouts that we have used in class, as well as so
 
 <ul class="fa-ul">
   <li><i class="fa-li fa fa-file-pdf-o fa-fw"></i>&nbsp; <a href="{{ site.baseurl }}/teaching/ElementsOfStyle.pdf">Elements of Style for Proofs</a></li>
-  <li><i class="fa-li fa fa-file-pdf-o fa-fw"></i>&nbsp; <a href="{{ site.baseurl }}/teaching/mat220f17/220ProblemCollection.pdf">Problem Collection for Mathematical Reasoning</a> (coming soon)</li>
+  <li><i class="fa-li fa fa-file-pdf-o fa-fw"></i>&nbsp; <a href="{{ site.baseurl }}/teaching/mat220f17/220ProblemCollection.pdf">Problem Collection for Mathematical Reasoning</a></li>
   <!-- <li><i class="fa-li fa fa-file-pdf-o fa-fw"></i>&nbsp; <a href="{{ site.baseurl }}/teaching/mat220f17/220Quiz1.pdf">Quiz 1</a></li>
   <li><i class="fa-li fa fa-file-pdf-o fa-fw"></i>&nbsp; <a href="{{ site.baseurl }}/teaching/mat220f17/220Quiz2.pdf">Quiz 2</a></li>
   <li><i class="fa-li fa fa-file-pdf-o fa-fw"></i>&nbsp; <a href="{{ site.baseurl }}/teaching/mat220f17/220Quiz3.pdf">Quiz 3</a></li>
