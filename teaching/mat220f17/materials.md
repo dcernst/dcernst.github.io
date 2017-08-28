@@ -48,13 +48,3 @@ I will not be covering every detail of the notes and the only way to achieve a s
   <p>Don’t just read it; fight it! Ask your own questions, look for your own examples, discover your own proofs. Is the hypothesis necessary? Is the converse true? What happens in the classical special case? What about the degenerate cases? Where does the proof use the hypothesis?</p>
   <footer><a href="http://en.wikipedia.org/wiki/Paul_Halmos">Paul Halmos</a></footer>
 </blockquote>
-
-<!--
-## Exams ##
-Below are links to each exam.
-
-- Exam 1 (take-home). Coming soon.
-- Exam 2 (take-home). Coming soon.
-- Exam 3 (take-home). Coming soon.
-- Final Exam (take-home). Coming soon.
--->

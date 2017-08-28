@@ -56,25 +56,23 @@ layout: default
   </div>
 </div>
 
-### Course Information and Policies ###
-
-#### Prerequisites ####
+### Prerequisites ###
 MAT 136 with a grade greater than or equal to C.
 
-#### Catalog Description ####
+### Catalog Description ###
 Mathematical reasoning in multi-step problems across different areas of mathematics.  Focuses on problem solving and solution writing.
 
-#### Course Description ####
+### Course Description ###
 MAT 220 is an introductory course in mathematical reasoning in multi-step problems across different areas of mathematics. The goal is to use elementary mathematical tools to solve more complex problems in already familiar areas of study such as precalculus, basic number theory, geometry, and discrete mathematics, instead of teaching new mathematical tools that are used in straightforward one-step exercises. The focus is on problem solving and solution writing.
 
-#### What is This Course Really About? ###
+### What is This Course Really About? ###
 The world is changing faster and faster. An education must prepare a student to ask and explore questions in contexts that do not yet exist. That is, we need individuals capable of tackling problems they have never encountered and to ask questions no one has yet thought of.
 
 The focus of this course is on reasoning and communication through problem solving and written mathematical arguments in order to provide students with more experience and training early in their university studies.  The goal is for the students to work on interesting yet challenging multi-step problems that require almost zero background knowledge.  The hope is that students will develop (or at least move in the direction of) the habits of mind of a mathematician.  The problem solving of the type in this course is a fundamental component of mathematics that receives little focused attention elsewhere in our program.  There will be an explicit focus on students asking questions and developing conjectures.  
 
 In addition to helping students develop procedural fluency and conceptual understanding, we must prepare them to ask and explore new questions after they leave our classrooms---a skill that we call **mathematical inquiry**.
 
-#### An Inquiry-Based Approach ####
+### An Inquiry-Based Approach ###
 This is not a lecture-oriented class or one in which mimicking prefabricated examples will lead you to success. You will be expected to work actively to construct your own understanding of the topics at hand with the readily available help of me and your classmates. Many of the concepts you learn and problems you work on will be new to you and ask you to stretch your thinking. You will experience *frustration* and *failure* before you experience *understanding*. This is part of the normal learning process. **If you are doing things well, you should be confused at different points in the semester. The material is too rich for a human being to completely understand it immediately.** Your viability as a professional in the modern workforce depends on your ability to embrace this learning process and make it work for you.
 
 In order to promote a more active participation in your learning, we will incorporate ideas from an educational philosophy called [inquiry-based learning](http://maamathedmatters.blogspot.com/2013/05/what-heck-is-ibl.html) (IBL).  Loosely speaking, IBL is a student-centered method of teaching mathematics that engages students in sense-making activities.  Students are given tasks requiring them to solve problems, conjecture, experiment, explore, create, and communicate.  Rather than showing facts or a clear, smooth path to a solution, the instructor guides and mentors students via well-crafted problems through an adventure in mathematical discovery.  Effective IBL courses encourage deep engagement in rich mathematical activities and provide opportunities to collaborate with peers (either through class presentations or group-oriented work).
@@ -100,14 +98,14 @@ In this course, *everyone* will be required to
 
 As the semester progresses, it should become clear to you what the expectations are.  This will be new to many of you and there may be some growing pains associated with it.
 
-#### Course Content ####
+### Course Content ###
 The content of the course includes, but is not limited to:
 
 - Problem solving strategies such as: use of figures and diagrams, use of variables, considering simpler cases, recognizing patterns, conjectures, counterexamples, breaking up into sub-problems, working backwards, case analysis, considering an extreme case, contradiction, induction, pigeon hole principle, symmetry, algorithms, coding, persistence;
 - Writing solutions such as: communicating a solution, planning, organization, lemmas, naming, figures, concise vs. detailed, proofreading;
 - Mathematical thinking such as: generalization, converse, hidden connections, new problem construction, open ended problems, ill-defined problems.
 
-#### Course Structure and Approach ####
+### Course Structure and Approach ###
 Class meetings will consist of discussion of problems, student-led presentations, and group work focused on problems selected by the instructor. A typical class session may include:
 
 - Informal student presentations of progress on previously assigned homework problems;
@@ -117,20 +115,20 @@ Class meetings will consist of discussion of problems, student-led presentations
 - Assignment of new problems;
 - Explanation of unfamiliar mathematical concepts as needed.
 
-#### Course Outline ####
-We will work through the problem-sequence as the semester progresses.  The pace at which we cover the material depends largely on how quickly the class can digest the material in a meaningful way.  In general, the difficulty of the problems will increase as the course progresses.  Activities, assignments, and class discussions will be designed to introduce you to a variety of problem solving strategies.  
+<!-- ### Course Outline ###
+We will work through the problem-sequence as the semester progresses.  The pace at which we cover the material depends largely on how quickly the class can digest the material in a meaningful way.  In general, the difficulty of the problems will increase as the course progresses.  Activities, assignments, and class discussions will be designed to introduce you to a variety of problem solving strategies.   -->
 
-#### Student Learning Expectations/Outcomes ####
+### Student Learning Expectations/Outcomes ###
 Upon successful completion of the course, you will be able to:
 
 - Solve multi-step, complex problems in elementary areas of mathematics using common problem solving strategies;
 - Judge what constitutes a solid mathematical argument;
 - Write readable and concise solutions using correct English with some mathematical notation.
 
-#### Assessment of Student Learning Outcomes ####
+### Assessment of Student Learning Outcomes ###
 Student assessment will be based on regular class attendance, participation during class meetings, consistent progress on assigned homework problems, in-class quizzes, and a comprehensive final examination.  Homework may include newly assigned problems, as well as formal write-ups of previously explored problems.  
 
-#### Problem Collection ####
+### Problem Collection ###
 We will not be using a textbook this semester, but rather a problem sequence designed for this course.  The problem collection will be available on the course webpage. We will not be covering every detail of the notes and the only way to achieve a sufficient understanding of the material is to be digesting the reading in a meaningful way. You should be seeking clarification about the content of the notes whenever necessary by asking questions in class or posting questions to the course forum.  Here's one of my favorite quotes about reading mathematics.
 
 <blockquote>
@@ -138,10 +136,10 @@ We will not be using a textbook this semester, but rather a problem sequence des
   <footer><a href="http://en.wikipedia.org/wiki/Paul_Halmos">Paul Halmos</a></footer>
 </blockquote>
 
-#### Learning Management System ####
+### Learning Management System ###
 We will make limited use of BbLearn this semester, which is Northern Arizona University's default learning management system (LMS).  Most course content (e.g., syllabus, course notes, homework, etc.) will be housed here on our [course webpage](http://danaernst.com/teaching/mat220f17/) that lives outside of BbLearn.  I suggest you bookmark this page.  The only thing I will use BbLearn for is to communicate grades.
 
-#### Homework ####
+### Homework ###
 Homework will be assigned each class meeting, and you are expected to complete (or try your best to complete) each assignment before walking into the next class period. All assignments should be carefully, clearly, and cleanly written. Among other things, this means your work should include proper grammar, punctuation and spelling. You will almost always write a draft of a given solution before you write down the final argument, so do yourself a favor and get in the habit of differentiating your scratch work from your submitted assignment.  
 
 Homework assignments will generally consist of solving problems from the problem sequence.  Homework will be graded on a $\checkmark$-system. You are allowed (in fact, encouraged!) to modify your written solution in light of presentations made in class; however, **you are required to use the colored marker pens provided in class**. This will allow me to differentiate the work done in class versus the work you completed before class.  The grade you receive on an assignment will be determined by the work you completed prior to class.  I will provide more guidance with respect to this during the first couple weeks of the semester.
@@ -152,7 +150,7 @@ You are allowed and encouraged to work together on homework. Yet, each student i
 
 Your overall homework grade is worth 15% of your final grade.
 
-#### Class Presentations and Participation ####
+### Class Presentations and Participation ###
 Though the atmosphere in this class should be informal and friendly, what we do in the class is serious business. In particular, the presentations made by students are to be taken seriously since they spearhead the work of the class.  Here are some of my expectations:
 
 - The purpose of class presentations is not to prove to me that the presenter has done the problem. It is to make the ideas of the solution clear to the other students.
@@ -201,16 +199,16 @@ In general, I will curate the list of student presenters each class meeting.  Ho
 
 In order to receive a **passing grade** on the presentation portion of your grade, **you must present at least three times prior to the end of week 7 of the semester** (Friday, March 3) and **at least three times after week 7 of the semester**. Notice that I've described a minimum.  To ensure a good grade, you should present as often as you can. Your overall performance during presentations, as well as your level of interaction/participation during class, is worth 15% of your overall grade.
 
-#### Quizzes and Final Exam ####
+### Quizzes and Final Exam ###
 We will have 7 quizzes this semester.  The first one will be given during week 3 and then we will have a quiz every 2 weeks thereafter.  Tentatively, the quizzes are scheduled for the following dates:
 
-- Quiz 1: Wednesday, February 1
-- Quiz 2: Wednesday, February 15
-- Quiz 3: <s>Wednesday, March 1</s> Friday, February 24
-- Quiz 4: <s>Wednesday, March 22</s> Friday, March 10
-- Quiz 5: <s>Wednesday, April 5</s> Wednesday, March 29
-- Quiz 6: <s>Wednesday, April 19</s> Wednesday, April 12
-- Quiz 7: <s>Wednesday, May 3</s> Wednesday, April 26
+- Quiz 1: Wednesday, ???
+- Quiz 2: Wednesday, ???
+- Quiz 3: Wednesday, ???
+- Quiz 4: Wednesday, ???
+- Quiz 5: Wednesday, ???
+- Quiz 6: Wednesday, ???
+- Quiz 7: Wednesday, ???
 
 Each quiz will consist of a mixture of homework problems you encountered during the previous two weeks and new problems not previously attempted.   Each problem will be graded using the following rubric:
 
@@ -249,15 +247,15 @@ Each quiz will consist of a mixture of homework problems you encountered during 
 
 Make-up quizzes will only be given under extreme circumstances, as judged by me. In general, it will be best to communicate conflicts ahead of time.  Your overall quiz grade is worth 50% of your final grade and will be determined by your top 6 quiz scores.
 
-We will also have a cumulative final exam that takes place on **Wednesday, May 10 at 7:30-9:30AM**.  Your final exam score is worth 20% of your overall grade.
+We will also have a cumulative final exam that takes place on **Monday, May 11 at 10:00AM-12:00PM**.  Your final exam score is worth 20% of your overall grade.
 
-#### Rules of the Game ####
+### Rules of the Game ###
 You should not look to resources outside the context of this course for help. That is, you should not be consulting the web, other texts, other faculty, or students outside of our course. On the other hand, you may use each other, the course notes, your own intuition, and me.
 
-#### Attendance ####
+### Attendance ###
 Regular attendance is expected and is vital to success in this course, but you will not explicitly be graded on attendance.  Yet, repeated absences may impact your participation grade (see above).  Students can find more information about NAU's attendance policy on the [Academic Policies](http://nau.edu/Student-Life/Student-Handbook/Academic-Policies/) page.
 
-#### Basis for  Evaluation ####
+### Basis for  Evaluation ###
 In summary, your final grade is determined by your scores in the following categories.
 
 <center>
@@ -288,7 +286,7 @@ In summary, your final grade is determined by your scores in the following categ
 	<tr>
 		<td>Final Exam</td>
 		<td>20%</td>
-		<td>Wednesday, May 10 at 7:30-9:30AM</td>
+		<td>Monday, May 11 at 10:00AM-12:00PM</td>
 	</tr>
 	</tbody>
 </table>
@@ -301,10 +299,17 @@ You are responsible for knowing and following the [Department of Mathematics and
 
 As per Department Policy, cell phones, mp3 players and portable electronic communication devices, including but not limited to smart phones, cameras and recording devices, must be turned off and inaccessible during in-class tests. Any violation of this policy will be treated as academic dishonesty.
 
-### Class Etiquette ###
-Students are expected to treat each other with respect.  Students are also expected to promote a healthy learning environment, as well as minimize distracting behaviors.  In particular, you should be supportive of other students while they are making presentations.  Moreover, every attempt should be made to arrive to class on time.  If you must arrive late or leave early, please do not disrupt class.
+### Rights of the Learner ##
+As a student in this class, you have the right:
+1. to be confused,
+2. to make a mistake and to revise your thinking,
+3. to speak, listen, and be heard, and
+4. to enjoy doing mathematics.
 
-Please turn off the ringer on your cell phone.  I do not have a strict policy on the use of laptops, tablets, and cell phones.  You are expected to be paying attention and engaging in class discussions.  If your cell phone, etc. is interfering with your ability (or that of another student) to do this, then put it away, or I will ask you to put it away.
+### Class Etiquette ###
+In our classroom, diversity and individual differences are respected, appreciated, and recognized as a source of strength. Students in this class are encouraged and expected to speak up and participate during class and to carefully and respectfully listen to each other. Every member of this class *must* show respect for every other member of this class. Any attitudes or actions that are destructive to the sense of community that we strive to create are not welcome and will not be tolerated. In summary: Be good to each other.
+
+Students are also expected to minimize distracting behaviors.  In particular, every attempt should be made to arrive to class on time.  If you must arrive late or leave early, please do not disrupt class. Please turn off the ringer on your cell phone.  I do not have a strict policy on the use of laptops, tablets, and cell phones.  You are expected to be paying attention and engaging in class discussions.  If your cell phone, etc. is interfering with your ability (or that of another student) to do this, then put it away, or I will ask you to put it away.
 
 ### Important Dates ###
 Here are some important dates:
