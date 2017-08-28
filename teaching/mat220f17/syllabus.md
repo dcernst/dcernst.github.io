@@ -197,7 +197,7 @@ However, you should not let the rubric deter you from presenting if you have an 
 
 In general, I will curate the list of student presenters each class meeting.  However, **students are welcome to volunteer to present**. This type of behavior will be rewarded. If more than one student volunteers, the student with the fewest number of presentations has priority.  The problems chosen for presentations will come from the homework.  Each student in the audience is expected to be engaged and respectful during another student's presentation.
 
-In order to receive a **passing grade** on the presentation portion of your grade, **you must present at least three times prior to the end of week 7 of the semester** (Friday, March 3) and **at least three times after week 7 of the semester**. Notice that I've described a minimum.  To ensure a good grade, you should present as often as you can. Your overall performance during presentations, as well as your level of interaction/participation during class, is worth 10% of your overall grade.
+In order to receive a **passing grade** on the presentation portion of your grade, you must present **at least 6 times during the semester** and **at least once every 3 weeks**. Notice that I've described a minimum.  To ensure a good grade, you should present as often as you can. Your overall performance during presentations, as well as your level of interaction/participation during class, is worth 10% of your overall grade.
 
 ### Quizzes and Final Exam ###
 We will have 7 quizzes this semester.  The first one will be given during week 3 and then we will have a quiz every 2 weeks thereafter.  Tentatively, the quizzes are scheduled for the following dates:
