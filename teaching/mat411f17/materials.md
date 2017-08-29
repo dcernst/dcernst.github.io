@@ -93,7 +93,8 @@ I will not be covering every detail of the notes and the only way to achieve a s
 
 ## Miscellaneous Materials ##
 - [Student Contract]({{ site.baseurl }}/teaching/StudentContract.pdf)
-- [Setting the Stage]({{ site.baseurl }}/teaching/SettingTheStage.pdf) (first day activity)
+- [Setting the Stage]({{ site.baseurl }}/teaching/SettingTheStage.pdf)
+- [Productive Failure and Productive Struggle BMX Video](https://www.youtube.com/watch?v=9brnDOVJWnw)
 
 ## Exams ##
 Below are links to each exam.
