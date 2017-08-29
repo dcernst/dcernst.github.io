@@ -36,8 +36,7 @@ We’ll use this page to keep track of what has happened each day in class. It w
 ## Week 1 ##
 
 <ul class="fa-ul">
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, August 28:</b> Coming soon.
-<!-- First day!  After attempting to learn names, we took a tour of the course webpage and then discussed an overview of the course and the syllabus.  Next, groups of 2-3 pondered Problem 1 from the problem collection for a short bit before we had a brief full-class discussion about it.  We wrapped up with a quick discussion of Problem 2. Comically, I accidentally ended class 10 minutes early.  I won't do that again. -->
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, August 28:</b> First day! The first few minutes of class were devoted to me attempting to learn names. Next, I summarized the first few homework assignments, which was followed by a whirlwind tour of the <a href="{{site.baseurl}}/teaching/mat220f17/">course webpage</a>. After this, the students engaged in an exercise aimed at understanding "productive struggle". This exercise is the second half of the <a href="{{site.baseurl}}/teaching/SettingTheStage.pdf">Setting the Stage</a> activity.  The remaining portion of class was devoted to highlighting some key items on the syllabus.
 </li>
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, August 30:</b> Coming soon.</li>
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, September 1:</b> Coming soon.</li>
