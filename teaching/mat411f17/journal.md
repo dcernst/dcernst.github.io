@@ -34,7 +34,7 @@ We’ll use this page to keep track of what has happened each day in class. It w
 ## Week 1 ##
 
 <ul class="fa-ul">
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, August 28:</b> Coming soon.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, August 28:</b> First day! I kicked off class by summarizing the first few homework assignments, which was followed by a whirlwind tour of the <a href="{{site.baseurl}}/teaching/mat411f17/">course webpage</a>.  After this, the students engaged in the first half of the <a href="{{site.baseurl}}/teaching/SettingTheStage.pdf">Setting the Stage</a> activity, which was followed by a short discussion of productive failure and productive struggle. The remaining portion of class was devoted to highlighting some key items on the syllabus.</li>
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, August 30:</b> Coming soon.</li>
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, September 1:</b> Coming soon.</li>
 </ul>
