@@ -243,7 +243,7 @@ Each quiz will consist of a mixture of homework problems you encountered during 
 
 Make-up quizzes will only be given under extreme circumstances, as judged by me. In general, it will be best to communicate conflicts ahead of time.  Your overall quiz grade is worth 60% of your final grade and will be determined by your top 6 quiz scores.
 
-We will also have a cumulative final exam that takes place on **Monday, May 11 at 10:00AM-12:00PM**.  Your final exam score is worth 20% of your overall grade.
+We will also have a cumulative final exam that takes place on **Monday, December 11 at 10:00AM-12:00PM**.  Your final exam score is worth 20% of your overall grade.
 
 ### Rules of the Game ###
 You should not look to resources outside the context of this course for help. That is, you should not be consulting the web, other texts, other faculty, or students outside of our course. On the other hand, you may use each other, the course notes, your own intuition, and me.
