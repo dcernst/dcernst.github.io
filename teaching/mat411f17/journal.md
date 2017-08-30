@@ -35,7 +35,7 @@ We’ll use this page to keep track of what has happened each day in class. It w
 
 <ul class="fa-ul">
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, August 28:</b> First day! I kicked off class by summarizing the first few homework assignments, which was followed by a whirlwind tour of the <a href="{{site.baseurl}}/teaching/mat411f17/">course webpage</a>.  After this, the students engaged in the first half of the <a href="{{site.baseurl}}/teaching/SettingTheStage.pdf">Setting the Stage</a> activity, which was followed by a short discussion of productive failure and productive struggle. The remaining portion of class was devoted to highlighting some key items on the syllabus.</li>
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, August 30:</b> Coming soon.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, August 30:</b> The first few minutes of class were devoted to learning names and making sure there weren't any questions about the syllabus. We then split the class up into several small groups, where each group was responsible for one of problems from the homework.  After a few minutes we came back together to discuss the problems.  Our very first presentation was given by BH. She presented Exercise 2.2 and did a great job! With the time we had left had BH, AO, JC, and LC present Exercises 2.3, 2.5, and 2.9, respectively. Along the way, I discussed Exercise 2.4.  I'm really pleased with how things went today. Unfortunately, we didn't get to Exercises 2.6, 2.8, 2.10-2.14. The plan is tackle these problems during the next class.</li>
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, September 1:</b> Coming soon.</li>
 </ul>
 
