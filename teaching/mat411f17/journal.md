@@ -35,25 +35,19 @@ We’ll use this page to keep track of what has happened each day in class. It w
 
 <ul class="fa-ul">
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, August 28:</b> First day! I kicked off class by summarizing the first few homework assignments, which was followed by a whirlwind tour of the <a href="{{site.baseurl}}/teaching/mat411f17/">course webpage</a>.  After this, the students engaged in the first half of the <a href="{{site.baseurl}}/teaching/SettingTheStage.pdf">Setting the Stage</a> activity, which was followed by a short discussion of productive failure and productive struggle. The remaining portion of class was devoted to highlighting some key items on the syllabus.</li>
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, August 30:</b> The first few minutes of class were devoted to learning names and making sure there weren't any questions about the syllabus. We then split the class up into several small groups, where each group was responsible for one of problems from the homework.  After a few minutes we came back together to discuss the problems.  Our very first presentation was given by BH. She presented Exercise 2.2 and did a great job! With the time we had left had BH, AO, JC, and LC present Exercises 2.3, 2.5, and 2.9, respectively. Along the way, I discussed Exercise 2.4.  I'm really pleased with how things went today. Unfortunately, we didn't get to Exercises 2.6, 2.8, 2.10-2.14. The plan is tackle these problems during the next class.</li>
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, September 1:</b> Coming soon.</li>
-</ul>
-
-<!-- ## Week 1 ##
-
-<ul class="fa-ul">
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, August 29:</b> First day!  After attempting to learn names, we launched in the <a href="{{ site.baseurl }}/teaching/SettingTheStage.pdf">Setting the Stage</a> activity.  I was impressed by the level of engagement and everyone's willingness to share.  Some wonderful ideas were discussed! The last bit of class was devoted to touring the course website and discussing a few important items from the <a href="{{site.baseurl}}/teaching/mat411f17/syllabus/">syllabus</a>.</li>
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, August 31:</b> Absolutely spectacular first day of presentations.  I was extremely impressed that so many people readily volunteered. After dividing the class up into several small groups to discuss the homework problems, we had LL, AT, JM, JS, AO, EB, SS1, and MR present 2.2, 2.4, 2.5, 2.6, 2.8, 2.9, 2.10, and 2.13, respectively.  Along the way, we also discussed 2.3 and 2.12 as a class.</li>
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, September 2:</b> This might be the best start to the semester that I've ever experienced.  Awesome discussions so far. After answering a few quick questions, we split up into small groups just like last time.  We had DJ, SC, KS, SS1, and KE present 2.16/2.17, 2.18, 2.20, 2.21, and 2.22, respectively.  Along the way, I quickly discussed 2.19.  We were short on time at the end, so I very quickly summarized 2.24 and 2.25.  We never go to 3.1-3.3, so we will start with those next time.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, August 30:</b> The first few minutes of class were devoted to learning names and making sure there weren't any questions about the syllabus. We then split the class up into several small groups, where each group was responsible for one of problems from the homework.  After a few minutes we came back together to discuss the problems.  Our very first presentation was given by BW. She presented Exercise 2.2 and did a great job! With the time remaining we had AO, JC, and LC present Exercises 2.3, 2.5, and 2.9, respectively. Along the way, I discussed Exercise 2.4.  I'm really pleased with how things went today. Unfortunately, we didn't get to Exercises 2.6, 2.8, 2.10-2.14. The plan is tackle these problems during the next class.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, September 1:</b> Another busy but productive day.  I spent the first few minutes discussing few key points.  This discussion included a summary of the rules for the intuitive definition of a group.  The rest of class was devoted to covering ground in the notes.  Along the way, MG, JG, DW, and AB presented Exercises 2.8, 2.10, 2.11, and 2.17, respectively.  In addition, I lead discussions about Exercises 2.6, 2.12, 2.14, 2.18, and 2.19.  Exercises 2.20-2.23 are still outstanding.</li>
 </ul>
 
 ## Week 2 ##
 
 <ul class="fa-ul">
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, September 5:</b> Labor Day. No class.</li>
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, September 7:</b> We got a lot done today and all the discussion was productive.  We kicked off with me explaining 3.1 and 3.2, which were left over from last time, and I also quickly explained 3.4.  After that we split up into small groups to discuss the remaining problems.  LG, SS1, JC, BG, JH, and PM present 3.5/3.6, 3.7, 3.8, 3.9(c)/3.10(cd), 3.11(g), and 3.12(g), respectively.</li>
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, September 9:</b> I spent the first 25 minutes or so discussing the use of LaTeX. Remember to holler if you have questions.  The rest of class was spent discussing 3.13 and 3.14, which SM and DJ presented, respectively.  If needed, we will revisit 3.15, 3.16, and 3.17.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, September 4:</b> Labor Day, no class!</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, September 6:</b> Coming soon.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, September 8:</b> Coming soon.</li>
 </ul>
+
+<!--
 
 ## Week 3 ##
 
