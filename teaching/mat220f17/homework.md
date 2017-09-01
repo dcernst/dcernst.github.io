@@ -34,7 +34,7 @@ The following assignments are to be turned in at the end of the indicated class 
 
 <ul class="fa-ul">
   <li><i class="fa-li fa fa-pencil-square-o"></i><b>Homework 1:</b> Read the <a href="{{site.baseurl}}/teaching/mat220f17/syllabus/">syllabus</a> and write down 5 important items.  <i>Note:</i>  All of the exam dates only count as a single item.  Turn in on your own paper at the beginning of class. (Due Wednesday, August 30)</li>
-  <li><i class="fa-li fa fa-pencil-square-o"></i><b>Homework 2:</b> Stop by my office (AMB 176) and say hello. If I'm not there, just slide a note under my door saying you stopped by. (Due by 4PM on Friday, September 1)</li>
+  <li><i class="fa-li fa fa-pencil-square-o"></i><b>Homework 2:</b> Stop by my office (AMB 176) and say hello. If I'm not there, just slide a note under my door saying you stopped by. (Due by 5PM on Friday, September 1)</li>
   <li><i class="fa-li fa fa-pencil-square-o"></i><b>Homework 3:</b> Complete Problems 3-6 from the <a href="https://dcernst.github.io/teaching/mat220f17/220ProblemCollection.pdf">Problem Collection</a>. (Due Wednesday, August 30)</li>
   <li><i class="fa-li fa fa-pencil-square-o"></i><b>Homework 4:</b> Complete Problems 7-9 from the <a href="https://dcernst.github.io/teaching/mat220f17/220ProblemCollection.pdf">Problem Collection</a>. (Due Friday, September 1)</li>
   <li><i class="fa-li fa fa-pencil-square-o"></i><b>Homework 5:</b> Complete Problems 10-13 from the <a href="https://dcernst.github.io/teaching/mat220f17/220ProblemCollection.pdf">Problem Collection</a>. (Due Wednesday, September 6)</li>

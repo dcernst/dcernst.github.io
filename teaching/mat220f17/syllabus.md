@@ -252,7 +252,7 @@ You should not look to resources outside the context of this course for help. Th
 Regular attendance is expected and is vital to success in this course, but you will not explicitly be graded on attendance.  Yet, repeated absences may impact your participation grade (see above).  Students can find more information about NAU's attendance policy on the [Academic Policies](http://nau.edu/Student-Life/Student-Handbook/Academic-Policies/) page.
 
 ### Basis for  Evaluation ###
-In summary, your final grade is determined by your scores in the following categories.
+In summary, your overall grade is determined by your scores in the following categories.
 
 <center>
 <table class="table table-striped">
@@ -282,7 +282,7 @@ In summary, your final grade is determined by your scores in the following categ
 	<tr>
 		<td>Final Exam</td>
 		<td>20%</td>
-		<td>Monday, May 11 at 10:00AM-12:00PM</td>
+		<td>Monday, December 11 at 10:00AM-12:00PM</td>
 	</tr>
 	</tbody>
 </table>

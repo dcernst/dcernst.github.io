@@ -42,15 +42,15 @@ We’ll use this page to keep track of what has happened each day in class. It w
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, September 1:</b> Coming soon.</li>
 </ul>
 
-<!-- ## Week 2 ##
+## Week 2 ##
 
 <ul class="fa-ul">
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, January 23:</b> Despite the weather we had great attendance and class went really well.  After reviewing a few key ideas, we split the class up into four small groups to work on Problems 5, 4(b)/6, 7, and 8, respectively.  I left the groups chat for about 5 minutes and then we started discussing proposed solutions.  We had MH, JM, and RD present Problems 5, 4(b)/6, and 7, respectively.  Along the way, several other people chimed in.  We ran out of time to discuss Problem 8.  I hope we can squeeze that one in next time.</li>
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, January 25:</b> Today was a good day and we got a lot accomplished.  After summarizing some key ideas and the status Problems 1-7, we moved onto Problems 8-11.  SW shared her solution to Problem 8 and then MS summarized a slick solution that involved less analysis. For Problem 9, we had AT1 and AC present their solutions to Problem 9.  Next, BG provided a nice take on Problem 10.  I spent the last few minutes of class giving some hints on Problem 11.</li>
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, January 27:</b> Despite being a tremendous amount of pain, I think things went well today.  We were really productive.  KG's explanation (with comments from LL) for Problem 7 finally put that one to rest.  Next, we had RG discuss a conjecture for Problem 12, which connects with triangular numbers. Then BS, JK, and NP presented Problem 13, a visual approach to Problem 14, and an algebraic proof for Problem 14.  We wrapped up with a general discussion of Problem 11, which included guidance from RD and MS.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, September 4:</b> Labor Day, no class!</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, September 6:</b> Coming soon.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, September 8:</b> Coming soon.</li>
 </ul>
 
-## Week 3 ##
+<!-- ## Week 3 ##
 
 <ul class="fa-ul">
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, January 30:</b> The week is off to a good start.  We kicked off by having SS and MR present visual and algebraic proofs, respectively, for Problem 15.  After allowed students to chat in small groups for a few minutes, JS2 presented a slick solution to Problem 16. Next, we had students chat in small groups about Problem 17.  AS discussed a case analysis for Problem 17 and then we distilled the argument down to a single case.  We wrapped up by discussing Erdos and the next few homework problems.</li>
