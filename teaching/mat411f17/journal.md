@@ -43,7 +43,7 @@ We’ll use this page to keep track of what has happened each day in class. It w
 
 <ul class="fa-ul">
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, September 4:</b> Labor Day, no class!</li>
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, September 6:</b> Coming soon.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, September 6:</b> I really enjoyed today!  The first few minutes were devoted to discussing Exercises 2.20-2.23, which were left over from last week.  This discussion included a review of the Rules 1-4 for the intuitive definition of a group.  Next, we split the class up into 8 small groups, where each group was tasked with discussing one of Exercises 3.1, 3.2/3.3, 3.4, 3.5/3.6.  We had SS, RF, NF, and DF present 3.1, 3.2/3.3, 3.4, and 3.5/3.6, respectively.</li>
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, September 8:</b> Coming soon.</li>
 </ul>
 
