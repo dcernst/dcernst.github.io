@@ -46,7 +46,7 @@ We’ll use this page to keep track of what has happened each day in class. It w
 
 <ul class="fa-ul">
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, September 4:</b> Labor Day, no class!</li>
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, September 6:</b> Coming soon.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, September 6:</b> I was surprised how much we accomplished today.  After a quick discussion of the upcoming quiz, we split the class up into 8 small groups, where each group was tasked with discussing their proposed solution to one of Problems 10-13.  When all was said and done, we had AT, MF, HR, and QS present solutions to Problems 10, 11, 12, and 13, respectively.  Our discussion of Problem 13 (ants on a log) was a bit rushed, so I hope to return to that one on Monday (since we have a quiz on Friday).</li>
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, September 8:</b> Coming soon.</li>
 </ul>
 
