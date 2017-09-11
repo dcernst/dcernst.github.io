@@ -49,7 +49,7 @@ Anyway, the Hangout was a cool experience and next time I'll plan things out a l
  [5]: http://en.wikipedia.org/wiki/Ken_Keeler
  [6]: http://imakewebthings.github.com/deck.js
  [7]: http://www.mathjax.org/
- [8]: http://danaernst.com/talks/NAUFall2012/slides/NAUFall2012Talk.html
+ [8]: http://danaernst.com/talks/NAUFall2012/slides/NAUFall2012.html
  [9]: http://www.maa.org/pubs/monthly.html
  [10]: http://arxiv.org/abs/1204.6086
  [11]: http://danaernst.com/talk-the-futurama-theorem/
