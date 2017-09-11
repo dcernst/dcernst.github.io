@@ -47,16 +47,16 @@ We’ll use this page to keep track of what has happened each day in class. It w
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, September 8:</b> We cranked through a lot of stuff today. We kicked off with a general discussion of Cayley diagrams and then we chatted about Exercises 3.7 and 3.8. After small groups discussed problems, we had CK, GC, DV, and AO present Exercises 3.9(c), 3.10(cd), 3.11(bcd), and 3.11(fg), respectively. All the presentations were great.  With the 10 minutes we had remaining, we spent some time discussing LaTeX, which students will use to type up their first weekly homework assignment. </li>
 </ul>
 
-<!--
 
 ## Week 3 ##
 
 <ul class="fa-ul">
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, September 12:</b> I was out of town and David Deville covered for me.  According to David, here is what transpired.  JS, LG, JC, MR, EB, LL, and BG presented 4.2/4.3, 4.5, 4.6, 4.7, 4.8, 4.10, and 4.11, respectively.  We should have time to hit up 4.12-4.14 next time.</li>
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, September 14:</b> Today was a recalibration day.  I spent the entire time lecturing over 4.12-4.15.  We kick off Friday by finishing up discussion of 4.19-4.22.</li>
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, September 16:</b> Great day and one of my favorite topics!  After a quick summary of how to verify that two groups are or are not isomorphic using Cayley diagrams, we split up into 6 small groups.  I presented 4.19 and 4.20 and then we had DZ, HR, KE, SM, AO, and ZP discuss 4.21, 4.22, 4.23, 4.24, 4.25, and 4.26, respectively.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, September 12:</b> After a few quick announcements, we jumped right into student presentations.  JN, EM, BD, and AB2 presented Exercises 3.12, 3.13, 3.14, and 3.15, respectively.  All of the presentations generated good discussion.  Next, I summarized the key points of Exercises 3.16 and 3.17.  With the few minutes we had left, I discussed the use of LaTeX for the Weekly Homework.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, September 13:</b> Coming soon.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, September 15:</b> Coming soon.</li>
 </ul>
 
+<!--
 ## Week 4 ##
 
 <ul class="fa-ul">

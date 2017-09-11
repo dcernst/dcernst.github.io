@@ -50,13 +50,15 @@ We’ll use this page to keep track of what has happened each day in class. It w
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, September 8:</b> The students took Quiz 1.</li>
 </ul>
 
-<!-- ## Week 3 ##
+## Week 3 ##
 
 <ul class="fa-ul">
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, January 30:</b> The week is off to a good start.  We kicked off by having SS and MR present visual and algebraic proofs, respectively, for Problem 15.  After allowed students to chat in small groups for a few minutes, JS2 presented a slick solution to Problem 16. Next, we had students chat in small groups about Problem 17.  AS discussed a case analysis for Problem 17 and then we distilled the argument down to a single case.  We wrapped up by discussing Erdos and the next few homework problems.</li>
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, February 1:</b> The students took <a href="{{site.baseurl}}/teaching/mat220f17/220Quiz2.pdf">Quiz 2</a>. We will get back to working on problems on Friday.</li>
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, February 3:</b> While I was out of town, Monika Keindl covered for me.  Monika handed out a half sheet of paper that contained 4 problems. Students spent the majority of the class meeting working on these problems in small groups.  Along the way, BG and RD presented solutions to the first and second problems, respectively. The intention was for students to finish working on the remaining two problems over the weekend.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, September 11:</b> The week is off to a good start.  After a few quick announcement, we split the class up into 5 small groups.  After a few minutes, we had YS, OW, VM, AG, and KR present solutions for Problems 14, 15(algebraic), 15(visual), 16, and 17, respectively (but not in that order as KR actually went first).  I meant to revisit Problem 11, but I completely forgot, so we'll have to do that at another time.  We had some time left at the end, which we devoted to discussing the upcoming problems.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, September 13:</b> Coming soon.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, September 15:</b> Coming soon.</li>
 </ul>
+
+<!--
 
 ## Week 4 ##
 
