@@ -54,7 +54,7 @@ We’ll use this page to keep track of what has happened each day in class. It w
 
 <ul class="fa-ul">
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, September 11:</b> The week is off to a good start.  After a few quick announcement, we split the class up into 5 small groups.  After a few minutes, we had YS, OW, VM, AG, and KR present solutions for Problems 14, 15(algebraic), 15(visual), 16, and 17, respectively (but not in that order as KR actually went first).  I meant to revisit Problem 11, but I completely forgot, so we'll have to do that at another time.  We had some time left at the end, which we devoted to discussing the upcoming problems.</li>
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, September 13:</b> Coming soon.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, September 13:</b> While I was out today, Monika Keindl covered for me.  My understanding is that Problems 18-21 were presented and that there was some preliminary discussion of Problem 22.</li>
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, September 15:</b> Coming soon.</li>
 </ul>
 
