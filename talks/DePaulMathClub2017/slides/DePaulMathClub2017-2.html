@@ -276,7 +276,7 @@
 <ul>
 <li class="slide"><a>Fun Problem:</a> Which permutations in $S_n$ can we obtain by multiplying distinct transpositions? That is, what configurations of mind swaps are possible with $n$ people?</li>
 <li class="slide">Regardless of what the answer to the previous problem is, notice that the Futurama Theorem doesn't care how the permutation arose.</li>
-<li class="slide">In general, if $p\in S_n$ consisting of $r$ disjoint cycles, then Keeler's algorithm requires $n+2r+1$ or $n+2r$ moves depending on whether $r$ is odd or even, respectively.</li>
+<li class="slide">In general, if $\sigma\in S_n$ consisting of $r$ disjoint cycles, then Keeler's algorithm requires $n+2r+1$ or $n+2r$ moves depending on whether $r$ is odd or even, respectively.</li>
 <li class="slide">Can we do better (i.e., fewer moves to fix the cycles)?</li>
 <li class="slide">Applying our algorithm to the arrangement of minds in Futurama requires 13 moves.</li>
 <li class="slide">But since Fry and Zoidberg only swapped with each other and since there is only one other cycle, we could use Fry and Zoidberg as $x$ and $y$, respectively in our algorithm.  This only requires 9 moves.</li>
@@ -305,30 +305,13 @@
 <h2>Stargate</h2>
 <p>Speaking of Stargate...</a>
 <ul>
-<li class="slide"><a href="http://en.wikipedia.org/wiki/Stargate" target="_blank">Stargate</a> is an adventure military science fiction franchise.</li>
-<li class="slide">The first film (called Stargate) was released in October 1994</li>
+<li class="slide"><a href="http://en.wikipedia.org/wiki/Stargate" target="_blank">Stargate</a> is an adventure military science fiction franchise. The first film (called Stargate) was released in October 1994.</li>
 <li class="slide">The movies and TV shoes focus on "stargates", which are circular devices that create wormholes, enabling instantaneous transportation to another stargate located many light years away from the starting point.</li>
 <li class="slide"><a href="http://en.wikipedia.org/wiki/Stargate_SG-1" target="_blank">Stargate SG-1</a> is a television show based on the 1994 film. The series ran from 1997 to 2007.</li>
 <!-- <li class="slide">With 214 episodes over 10 seasons, Stargate SG-1 had surpassed The X-Files as the longest-running North American science fiction television series, a record later broken by Smallville.</li>
 <li class="slide">The story of Stargate SG-1 begins about a year after the events of the feature film. SG-1 is an elite Air Force special forces squad, one of more than two dozen teams from Earth who explore the galaxy and defend against alien threats.</li> -->
-<li class="slide">"Holiday" is a 1999 episode from Season 2 of Stargate SG-1.</li>
-<li class="slide">In the episode, the character Ma'chello tricks Daniel into swapping minds with him.  In an attempt to save Daniel, Jack and Teal'c accidentally swap minds.</li>
-<li class="slide">They then discover a limitation: the machine will not work more than once on the same pair of <i>bodies</i>.
-<li class="slide">Physicist Samantha Carter saves the day by improvising a sequence of 4 switches that brings everyone back to normal.</li>
-</ul>
-<p class="slide">
-<iframe width="420" height="315" src="http://www.youtube.com/embed/gmdvV2bMVqA" frameborder="0" allowfullscreen></iframe>
-</p>
-</section>
-
-<section class="slide">
-<h2>Stargate SG-1, "Holiday", Season 2</h2>
-<ul>
-<li class="slide">"Holiday" is a 1999 episode from season 2 of Stargate SG-1.</li>
-<li class="slide">In the episode, the character Ma'chello tricks Daniel into swapping minds with him.  In an attempt to save Daniel, Jack and Teal'c accidentally swap minds.</li>
-<li class="slide">They then discover a limitation: the machine will not work more than once on the same pair of <i>bodies</i>.
-<li class="slide">This is the same limitation suffered by the mind-switching machine in <a href="http://danaernst.com/talk-the-futurama-theorem-and-some-refinements/" target="_blank">Futurama's 2010 episode "The Prisoner of Benda"</a>.</li>
-<li class="slide">Physicist Samantha Carter saves the day by improvising a sequence of 4 switches that brings everyone back to normal.</li>
+<li class="slide">"Holiday" is a 1999 episode from Season 2 of Stargate SG-1. In the episode, the character Ma'chello tricks Daniel into swapping minds with him.  In an attempt to save Daniel, Jack and Teal'c accidentally swap minds.</li>
+<li class="slide">They then discover a limitation: the machine will not work more than once on the same pair of <i>bodies</i>. Physicist Samantha Carter saves the day by improvising a sequence of 4 switches that brings everyone back to normal.
 </ul>
 <p class="slide">
 <iframe width="420" height="315" src="http://www.youtube.com/embed/gmdvV2bMVqA" frameborder="0" allowfullscreen></iframe>
@@ -339,21 +322,15 @@
 <h2>The Stargate Switch Problem</h2>
 <p>Here are the swaps that take place during the episode:</p>
 <ul>
-<li class="slide">Ma'chello $\leftrightarrow$ Daniel</li>
-<li class="slide">Jack $\leftrightarrow$ Teal'c</li>
+<li>Ma'chello $\leftrightarrow$ Daniel</li>
+<li>Jack $\leftrightarrow$ Teal'c</li>
 </ul>
 
-<p class="slide">The question is: </p>
-<blockquote class="slide">
+<p>The question is: </p>
+<blockquote>
 <p>Can the machine be used to put everyone's mind back in the proper body if we are <a>not</a> allowed to use the machine on the same pair of bodies more than once?</p>
 </blockquote>
 </section>
-
-<!--
-<section class="slide">
-<h1>Let's try it!</h1>
-</section>
--->
 
 <section class="slide">
 <h2>The Generalized Stargate Switch</h2>
@@ -361,14 +338,74 @@
 <li class="slide">Suppose we have $m$ pairs of bodies, where each pair swaps minds.</li>
 <li class="slide">Can the machine be used to put everyone's mind back in the proper body if we are <a>not</a> allowed to use the machine on the same pair of bodies more than once?</li>
 <li class="slide">If so, what is the minimal number of "moves" required to put everyone's mind back where it belongs?</li>
+<!-- </ul>
+<h3 class="slide">Comments</h3>
+<ul> -->
+<li class="slide">This is not as general as the problem posed in Futurama. In that case, we needed to introduce outsiders to solve the problem.</li>
+<li class="slide">In cycle notation, the original Stargate Switch permutation can be written as
+\[\sigma=(1, 2)(3, 4),\]
+where 1 is Ma'chello, 2 is Daniel, 3 is Jack, and 4 is Teal'c.</li>
+<li class="slide">The Generalized Stargate Switch permutation is of the form
+\[\sigma=(1, 2)(3, 4)\cdots (2m-1, 2m).\]</li>
+<li class="slide">To solve the problem, we must produce a permutation $\mu$ consisting of distinct transpositions, none equaling a factor of $\sigma$, such that the product $\mu\sigma$ is the identity in $S_{2m}$.</li>
 </ul>
-<h3 class="slide">Note</h3>
-<p class="slide">This is not as general as the problem posed in Futurama. In that case, we needed to introduce outsiders to solve the problem. But here we can solve the problem without outsiders (as long as we have at least 2 pairs of bodies).</p>
+</section>
 
-<center>
-<p class="slide">Let's use some math!</p>
-</center>
+<section class="slide">
+<h2>Solution to Original Stargate Switch</h2>
+<!-- <p class="slide">Evans and Huang from the University of California, San Diego recently proved the following theorem. [<a href="http://arxiv.org/abs/1204.6086" target="_blank">arXiv</a>]</p>
+<h3 class="slide">Theorem</h3> -->
+<p class="slide">The following permutation solves the original Stargate Switch Problem.</p>
+<p class="slide">\[\mu=(2, 4)(1, 3)(2, 3)(1, 4)\]</p>
+<p class="slide">Moreover, this solution is optimal in the sense that no solution with fewer than 4 moves will work.</p>
 
+<h3 class="slide">Proof</h3>
+<p class="slide">First, easy to check that $\mu\sigma$ yields the identity:</p>
+<p class="slide">\[\mu\sigma=(2, 4)(1, 3)(2, 3)(1, 4)\circ (1,2)(3,4)=\text{identity permutation}\]</p>
+<p class="slide">Why is $\mu$ optimal?  Well, it's easy to check that 2 transpositions (not reusing the originals and only using $1,2,3,4$) won't work.  The reason why $\mu$ cannot only have 3 cycles is because of a general fact that says that the identity permutation cannot be equal to a product of an odd number of transpositions.</p>
+</section>
+
+<section class="slide">
+<h2>Solution to Generalized Stargate Switch</h2>
+<p>Evans and Huang also proved the following more general theorem.</p>
+<h3>Theorem</h3>
+<p>Let $m>1$.  Then the Generalized Stargate Switch permutation
+\[\sigma=(1, 2)(3, 4)\cdots (2m-1, 2m)\]
+can be undone by a product $\mu$ of $N(m)$ distinct transpositions, where for $j=4i$
+\[\mu=\begin{cases}\tau \prod_{i=2}^{(m-1)/2} (j, j+2)(j-1, j+1)(j, j+1)(j-1, j+2), & \text{if }m\text{ is odd}\\
+\prod_{i=1}^{m/2}(j-1, j)(j-3, j-1)(j-2, j-1)(j-3, j), & \text{if }m\text{ is even}\end{cases}\]
+with
+\[\tau=(1,3)(1,6)(4,5)(4,6)(3,5)(2,5)(1,5).\]
+and
+\[N(m)=\begin{cases}2m+1, & \text{if }m\text{ is odd (and greater than 1),}\\
+2m, & \text{if }m\text{ is even.}\end{cases}\]
+(The empty product for $m=3$ is interpreted as the identity permutation.) Moreover, $N(m)$ is optimal.</p>
+</section>
+
+<section class="slide">
+<h2>Examples of Solutions</h2>
+<p>The previous formula looks pretty scary, but it's not too bad.</p>
+
+<h3>Example</h3>
+<p>When $m=3$, we have</p>
+<p>\[\mu= \tau=(1,3)(1,6)(4,5)(4,6)(3,5)(2,5)(1,5),\]</p>
+<p>which consists of $N(3)=7$ transpositions.</p>
+
+<p>When $m=4$, we have</p>
+<p>\[\mu=(2,4)(1,3)(2,3)(1,4)(6,8)(5,7)(6,7)(5,8),\]</p>
+<p>which consists of $N(4)=8$ transpositions.
+</section>
+
+<section class="slide">
+<h2>Resources and More Information</h2>
+
+<p>If you'd like to know more, check out the following papers:</p>
+<ul>
+<li>Evans & Huang. Mind switches in Futurama and Stargate. <i>Mathematics Magazine</a> 87(4), 252-262, 2014.</li>
+<li>Evans, Huang, & Nguyen. Keeler’s Theorem and products of disjoint transpositions. <i>Amer. Math. Monthly</i> 121, 136–144, 2014.</li>
+</ul>
+
+<p>These slides were made using <a href="http://imakewebthings.github.com/deck.js/">deck.js</a> and <a href="http://mathjax.org">MathJax</a>.</p>
 </section>
 
 <a href="#" class="deck-prev-link" title="Previous">&#8592;</a>
