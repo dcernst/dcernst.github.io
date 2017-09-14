@@ -27,11 +27,11 @@
 	<link rel="stylesheet" href="../extensions/hash/deck.hash.css">
 
 	<!-- Theme CSS files (menu swaps these out) -->
-    <link rel="stylesheet" href="../themes/style/custom2.css">
-    <!-- <link rel="stylesheet" id="style-theme-link" href="../themes/style/cp.css"> -->
-	<link rel="stylesheet" href="../themes/transition/horizontal-slide.css">
+    <!-- <link rel="stylesheet" href="../themes/style/custom2.css"> -->
+    <link rel="stylesheet" id="style-theme-link" href="../themes/style/cp.css">
+	<!-- <link rel="stylesheet" href="../themes/transition/horizontal-slide.css"> -->
 
-	<!-- <link rel="stylesheet" href="../themes/transition/fade.css"> -->
+	<link rel="stylesheet" href="../themes/transition/fade.css">
 
 	<script src="../modernizr.custom.js"></script>
 
@@ -66,9 +66,9 @@
 <section class="slide" id="background">
 <h2>Futurama</h2>
 <ul>
-<li class="slide"><a href="http://en.wikipedia.org/wiki/Futurama" target="_blank">Futurama</a> is an American animated science fiction sitcom created by Matt Groening (of The Simpsons).</li>
-<li class="slide">The series aired on Fox from 1999-2003, and then began airing on Comedy Central in 2008. Season 7 currently airing.</li>
-<li class="slide">The show follows the adventures of a late 20th-century New York City pizza delivery boy, Philip J. Fry, who was accidentally frozen in 1999 and then thawed out on New Year's Eve 2999.</li>
+<li class="slide"><small><a href="http://en.wikipedia.org/wiki/Futurama" target="_blank">Futurama</a> is an American animated science fiction sitcom created by Matt Groening (of The Simpsons).</small></li>
+<li class="slide"><small>Aired on Fox from 1999-2013 with some time off in the middle.</small></li>
+<li class="slide"><small>Show follows the adventures of pizza delivery boy, Philip J. Fry, who was accidentally frozen in 1999 and then thawed out on New Year's Eve 2999.</small></li>
 <li class="slide">Some main characters: Fry, Leela (one-eyed alien), Bender (robot), Professor Farnsworth (Fry's distant nephew and mad scientist), Zoidberg (lobster-like alien), Amy (spoiled and accident prone student), and more.</li>
 </ul>
 </section>
@@ -82,18 +82,18 @@
 <section class="slide" id="show-details">
 <h2>The Prisoner of Benda</h2>
 <ul>
-<li class="slide">"The Prisoner of Benda" is episode 10 of season 6 and aired on August, 2010.</li>
+<li class="slide">"The Prisoner of Benda" is Episode 10 of Season 6 and aired in August 2010.</li>
 <li class="slide">The title is a play on "The Prisoner of Zenda", a 1894 novel by Anthony Hope Hawkins.</li>
-<li class="slide">In the episode, Farnsworth and Amy build a machine that allows them to switch minds. However, they learn that the machine cannot be used twice on the same pair of <a>bodies</a>. After several characters swap minds, the rest of the episode is focused on how to return everyone's minds back to their original owner.</li>
-<li class="slide">With the help of two Harlem Globetrotters (and some mathematics), the irreversible mind swap problem is solved.</li>
+<li class="slide">In episode, the Professor and Amy create a mind-switching machine but quickly discover a serious limitation: when two <a>bodies</a> have switched <a>minds</a>, they can never switch back with each other.</li>
+<li class="slide">After a mind-switching bonanza involving several of the show’s characters, the Professor aided by the Globetrotters try to find a way to return each mind to its rightful owner.</li>
 <li class="slide">Episode written by Ken Keeler, who has a PhD in applied mathematics from Harvard.</li>
-<li class="slide">Keeler invented and proved a mathematical theorem specifically for the show.</li>
+<li class="slide">Keeler proved a new theorem specifically for the show.</li>
 </ul>
 </section>
 
 <section class="slide">
-<h2>The mind swap problem</h2>
-<p>Here are the swaps that take place during the episode:</p>
+<h2>The Futurama Mind Swap Problem</h2>
+<p>Here are the swaps that take place during the episode. We are indicating which bodies sat in machine.</p>
 <ul>
 <li class="slide">Professor ($p$) $\leftrightarrow$ Amy ($a$)</li>
 <li class="slide">Amy ($a$) $\leftrightarrow$ Bender ($b$)</li>
@@ -109,7 +109,7 @@
 </section>
 
 <section class="slide">
-<h2>The mind swap problem (continued)</h2>
+<h2>The Futurama Mind Swap Problem (continued)</h2>
 <p>The question is: </p>
 <blockquote class="slide">
 <p>Can the machine be used to put everyone's mind back in the proper body if we are <a>not</a> allowed to use the machine on the same pair of bodies more than once?</p>
@@ -118,30 +118,30 @@
 </section>
 
 <section class="slide">
-<h2>The symmetric group</h2>
-<p class="slide">We can model this problem in terms of permutations (i.e., rearrangements) of numbers.  It turns out that the set of all permutations of the numbers 1 through $n$ forms a "group" under composition.</p>
+<h2>The Symmetric Group</h2>
+<p class="slide">We can model this problem in terms of permutations (i.e., rearrangements) of numbers.  It turns out that the set of all permutations of the numbers 1 through $n$ forms a <a>group</a> under composition.</p>
 
 <p class="slide">A <a>group</a> is a set with an associative binary operation satisfying:</p>
 <ul>
-<li class="slide"><h4>closure:</h4> the "product" of any two elements from the set is an element of the set.</li>
-<li class="slide"><h4>identity:</h4> there exists a "do nothing" element.</li>
-<li class="slide"><h4>inverses:</h4> for every element in the set, there exists another element in the set that "undoes" the original.</li>
+<li class="slide"><h4>Closure</h4> The "product" of any two elements from the set is an element of the set.</li>
+<li class="slide"><h4>Identity</h4> There exists a "do-nothing" element.</li>
+<li class="slide"><h4>Inverses</h4> For every element in the set, there exists another element in the set that "undoes" the original.</li>
 </ul>
-<p class="slide">The group of permutations of $\{1,2,\ldots, n\}$ is called the <a>symmetric group</a> and is denoted by $S_n$.</p>
+<p class="slide">The group of permutations of $\{1,2,\ldots, n\}$ is called the <a>symmetric group</a> and is denoted by $S_n$. <a>Note:</a> We will multiply right to left (like function composition).</p>
 </section>
 
 <section class="slide">
-<h2>Permutation diagrams</h2>
-<p class="slide">One way of representing an element of the symmetric group is via <a>permutation diagrams</a>, which we illustrate by way of example.</p>
+<h2>Permutation Diagrams</h2>
+<p class="slide">One way of representing an element of the symmetric group is via <a>permutation diagrams</a>, which we illustrate with examples.</p>
 <h3 class="slide">Example</h3>
 <p class="slide"><img src="Diagram1.png" width="300" alt="Diagram1"></p>
 </section>
 
 <section class="slide">
-<h2>Permutation diagrams (continued)</h2>
+<h2>Permutation Diagrams (continued)</h2>
 <p>Let's try multiplying.</p>
 <h3 class="slide">Example</h3>
-<p class="slide">Let $\alpha$ and  $\beta$ be as on previous slide. Then</p>
+<p class="slide">Let $\alpha$ and $\beta$ be as on previous slide. Then</p>
 <p class="slide">
 <img src="Diagram2.png" width="500" alt="Diagram2"></p>
 <p class="slide">But on the other hand</p>
@@ -152,7 +152,7 @@
 </section>
 
 <section class="slide">
-<h2>Permutation diagrams (continued)</h2>
+<h2>Permutation Diagrams (continued)</h2>
 <p>However, sometimes permutations do commute.</p>
 <h3 class="slide">Example</h3>
 <p class="slide">Let $\beta$ and $\gamma$ be as before.  Then</p>
@@ -162,18 +162,18 @@
 </section>
 
 <section class="slide">
-<h2>Some comments</h2>
+<h2>Comments</h2>
 <ul>
 <li class="slide">Order matters, but not always.</li>
-<li class="slide">A diagram that swaps precisely two numbers is called a <a>transposition</a>.
+<li class="slide">A permutation/diagram that swaps precisely two numbers is called a <a>transposition</a>.
 <img src="Diagram5.png" width="250" alt="Diagram5"></li>
 <li class="slide">"Disjoint" transpositions commute.</li>
-<li class="slide">$S_n$ is generated by the transpositions.  That is, every permutation can be written as a product of some sequence of transpositions.  (In fact, we only need the adjacent transpositions: $i$ swaps with $i+1$).</li>
+<li class="slide">$S_n$ is generated by the transpositions.  That is, every permutation can be written as a product of some sequence of transpositions.  In fact, we only need the adjacent transpositions: $i$ swaps with $i+1$.</li>
 </ul>
 </section>
 
 <section class="slide">
-<h2>The mind swaps as a diagram</h2>
+<h2>The Futurama Mind Swap Problem as a Diagram</h2>
 <p class="slide">If we let $a=1$, $h=2$, $l=3$, $p=4$, $b=5$, $e=6$, and $w=7$, $f=8$, and $z=9$, then the mind swaps from Futurama can be depicted as:</p>
 <p class="slide">
 <img src="Diagram7.png" width="650" alt="Diagram7">
@@ -181,12 +181,12 @@
 </section>
 
 <section class="slide">
-<h2>Rephrasing the problem</h2>
+<h2>Rephrasing the Problem</h2>
 <p>The problem can be restated as:</p>
 <blockquote class="slide">
 <p>Suppose $p$ is a permutation that results from multiplying distinct transpositions.  Can we multiply $p$ by a sequence of transpositions that we have <a>not</a> yet used to obtain the identity permutation?</p>
 </blockquote>
-<p class="slide">It turns out that, in general, the answer is yes.  Keeler's trick to pulling this off is to add in two more people that have not used the machine.</p>
+<p class="slide">It turns out that the answer is yes.  Keeler's trick to pulling this off is to utilize two additional people that have not sat in the machine.</p>
 </section>
 
 <section class="slide">
@@ -198,16 +198,16 @@
 </section>
 
 <section class="slide">
-<h2>Cycle notation</h2>
-<p class="slide">Before describing the solution, we need to introduce a more efficient way of encoding our permutations.  One such method is called <a>cycle notation</a>.</p>
+<h2>Cycle Notation</h2>
+<p class="slide">Before describing the solution, we need to introduce a more efficient way of encoding permutations.  One such method is called <a>cycle notation</a>.</p>
 <h3 class="slide">Example</h3>
 <p class="slide">
 <img src="Diagram6.png" width="500" alt="Diagram6"></p>
 </section>
 
 <section class="slide">
-<h2>Cycle notation (continued)</h2>
-<p>Let's try multiplying using cycle notation. <a>Note:</a> We will multiply right to left (like function composition).</p>
+<h2>Cycle Notation (continued)</h2>
+<p>Let's try multiplying using cycle notation. <a>Reminder:</a> We multiply right to left (like function composition).</p>
 <h3 class="slide">Example</h3>
 <p class="slide">Consider $\alpha, \beta$, and $\gamma$ in $S_{5}$ as in the previous examples. Then</p>
 <p class="slide">\[\alpha \beta=(1\; 2\; 3\; 4\; 5)(2\; 4\; 3)=(1\; 2\; 5).\]</p>
@@ -217,10 +217,10 @@
 </section>
 
 <section class="slide">
-<h2>Some more comments</h2>
+<h2>More Comments</h2>
 <ul>
 <li class="slide">In cycle notation, the Futurama permutation is $(8\; 9)(1\; 2\; 3\; 4\; 5\; 6\; 7)$.</li>
-<li class="slide">The interpretation of a cycle $(\ldots\; i\; j\; \ldots)$ is that the body numbered $i$ passes its mind to the body $j$, etc.</li>
+<li class="slide">The interpretation of a cycle $(\cdots\; i\; j\; \cdots)$ is that the body numbered $i$ passes its mind to the body numbered $j$, etc.</li>
 <li class="slide">Transpositions are of the form $(i\; j)$, which means that $i$ and $j$ swap minds.</li>
 <li class="slide">"Disjoint" cycles (including transpositions) commute.</li>
 <li class="slide">If we can figure out how to "fix" one cycle at a time, then we can likely fix them all.</li>
@@ -228,7 +228,7 @@
 </section>
 
 <section class="slide">
-<h2>Fixing a single 7-cycle</h2>
+<h2>Fixing a Single 7-cycle</h2>
 <p class="slide">Consider just the 7-cycle $(1\; 2\; 3\; 4\; 5\; 6\; 7)$.  Introduce two new bodies that have not had their minds swapped with anyone else, say $x$ and $y$.  To return all minds of 1-7 back to their rightful owner, multiply the cycle (on the left) by the following sequence of transpositions:</p>
 
 <p class="slide">\[(x\; 7)(y\; 1)(y\; 2)(y\; 3)(y\; 4)(y\; 5)(y\; 6)(y\; 7)(x\; 1)\]</p>
@@ -237,12 +237,12 @@
 
 <p class="slide">\[(x\; 7)(y\; 1)(y\; 2)(y\; 3)(y\; 4)(y\; 5)(y\; 6)(y\; 7)(x\; 1)(1\; 2\; 3\; 4\; 5\; 6\; 7)=???\]</p>
 
-<p class="slide"><strong>Note:</strong> $x$ and $y$ now have their minds swapped with each other, but they never sat in the machine at the same time!</p>
+<p class="slide"><a>Note:</a> $x$ and $y$ now have their minds swapped with each other, but they never sat in the machine at the same time!</p>
 
 </section>
 
 <section class="slide">
-<h2>Fixing an arbitrary $k$-cycle</h2>
+<h2>Fixing an Arbitrary $k$-cycle</h2>
 <p class="slide">Consider the $k$-cycle $(1\; 2\; \ldots\; k)$.  How do we "fix" this cycle?</p>
 
 <p class="slide">As before, introduce two new bodies that have not used the machine, say $x$ and $y$.  To fix a $k$-cycle, multiply the cycle (on the left) by the following:</p>
@@ -261,7 +261,7 @@
 </section>
 
 <section class="slide">
-<h2>Fixing products of disjoint cycles</h2>
+<h2>Fixing Products of Disjoint Cycles</h2>
 <p>What do we do when we have multiple cycles to start with?</p>
 <ul>
 <li class="slide">Use $x$ and $y$ to fix each individual cycle.</li>
@@ -272,42 +272,21 @@
 </section>
 
 <section class="slide">
-<h2>Some comments and questions</h2>
-<h3 class="slide">Comments</h3>
+<h2>Observations and Questions</h2>
 <ul>
-<li class="slide">Our algorithm/proof is a special case of the one given on the board in the TV episode.</li>
+<li class="slide"><a>Fun Problem:</a> Which permutations in $S_n$ can we obtain by multiplying distinct transpositions? That is, what configurations of mind swaps are possible with $n$ people?</li>
+<li class="slide">Regardless of what the answer to the previous problem is, notice that the Futurama Theorem doesn't care how the permutation arose.</li>
+<li class="slide">In general, if $\sigma\in S_n$ consisting of $r$ disjoint cycles, then Keeler's algorithm requires $n+2r+1$ or $n+2r$ moves depending on whether $r$ is odd or even, respectively.</li>
+<li class="slide">Can we do better (i.e., fewer moves to fix the cycles)?</li>
 <li class="slide">Applying our algorithm to the arrangement of minds in Futurama requires 13 moves.</li>
 <li class="slide">But since Fry and Zoidberg only swapped with each other and since there is only one other cycle, we could use Fry and Zoidberg as $x$ and $y$, respectively in our algorithm.  This only requires 9 moves.</li>
-<li class="slide">In general, if $p\in S_n$ and the number of disjoint cycles in $p$ is $r$, then Keeler's algorithm requires $n+2r+1$ or $n+2r$ moves depending on whether $r$ is odd or even, respectively.</li>
-</ul>
-
-<h3 class="slide">Natural questions</h3>
-<ul>
-<li class="slide">Can we do better (i.e., fewer moves to fix the cycles)?</li>
-<li class="slide">Under what circumstances do we not need to introduce two "clean" people?  In particular, would only using one "clean" person ever be useful?</li>
-</ul>
-</center>
-</section>
-
-<section class="slide">
-<h2>An optimal solution</h2>
-<p class="slide">Evans, Huang, and Nguyen (University of California, San Diego) recently proved the following theorem [<a href="http://arxiv.org/abs/1204.6086" target="_blank">arXiv</a>].</p>
-<h3 class="slide">Theorem</h3>
-<p class="slide">Let $p=C_1C_2\cdots C_r$ be a product of $r$ disjoint $k_i$-cycles $C_i$ in $S_n$ with $k_i\geq 2$ and $n=k_1+\cdots +k_r$.  Then $p$ can be undone by a product of $\lambda$ of $n+r+2$ distinct transpositions in $S_{n+2}$, each containing at least one of the entries $x=n+1$ and $y=n+2$.  Moreover, this result is optimal.</p>
-
-<p class="slide">Here's how you do it.</p>
-<ul>
-<li class="slide">Let $k=k_1$, so that $C_1$ is a $k$-cycle $(a_1\; \dots a_k)$.</li>
-<li class="slide">Define $G_1(x)=(a_1\; x)(a_2\; x)\cdots (a_k\; x)$ and $F_1(x)=(a_1\; x)$
-<li class="slide">For each cycle $C_i$, define $G_i(x)$ and $F_i(x)$ in an analogous way.</li>
-<li class="slide">Now, define
-\[\lambda=(x\; y)G_r(x)\cdots G_2(x)(a_k\; x)G_1(y)(a_1\; x)F_2(y)\cdots F_r(y).\]
-</li>
-<li class="slide">Next verify that $\lambda p$ is actually the identify permutation.</li>
+<li class="slide">Under what circumstances do we not need to introduce two "clean" people?</li>
+<li class="slide">Evans and Huang address questions related to optimality in <a>Mind Switches in in Futurama and Stargate</a> (Mathematics Magazine 2014).</li>
 </ul>
 </section>
 
-<section class="slide">
+
+<!-- <section class="slide">
 <h2>Two special cases</h2>
 <p class="slide">Evans, Huang, and Nguyen also proved the following special cases involving the cycle $(1\; 2\; \dots n)$.</p>
 <h3 class="slide">Theorem</h3>
@@ -320,6 +299,113 @@
 <p class="slide">Okay, that's it.  Thank you!</p>
 <p class="slide">These slides were made using <a href="http://imakewebthings.github.com/deck.js/">deck.js</a> and <a href="http://mathjax.org">MathJax</a>.</p>
 </center>
+</section> -->
+
+<section class="slide">
+<h2>Stargate</h2>
+<p>Speaking of Stargate...</a>
+<ul>
+<li class="slide"><a href="http://en.wikipedia.org/wiki/Stargate" target="_blank">Stargate</a> is an adventure military science fiction franchise. The first film (called Stargate) was released in October 1994.</li>
+<li class="slide">The movies and TV shoes focus on "stargates", which are circular devices that create wormholes, enabling instantaneous transportation to another stargate located many light years away from the starting point.</li>
+<li class="slide"><a href="http://en.wikipedia.org/wiki/Stargate_SG-1" target="_blank">Stargate SG-1</a> is a television show based on the 1994 film. The series ran from 1997 to 2007.</li>
+<!-- <li class="slide">With 214 episodes over 10 seasons, Stargate SG-1 had surpassed The X-Files as the longest-running North American science fiction television series, a record later broken by Smallville.</li>
+<li class="slide">The story of Stargate SG-1 begins about a year after the events of the feature film. SG-1 is an elite Air Force special forces squad, one of more than two dozen teams from Earth who explore the galaxy and defend against alien threats.</li> -->
+<li class="slide">"Holiday" is a 1999 episode from Season 2 of Stargate SG-1. In the episode, the character Ma'chello tricks Daniel into swapping minds with him.  In an attempt to save Daniel, Jack and Teal'c accidentally swap minds.</li>
+<li class="slide">They then discover a limitation: the machine will not work more than once on the same pair of <i>bodies</i>. Physicist Samantha Carter saves the day by improvising a sequence of 4 switches that brings everyone back to normal.
+</ul>
+<p class="slide">
+<iframe width="420" height="315" src="http://www.youtube.com/embed/gmdvV2bMVqA" frameborder="0" allowfullscreen></iframe>
+</p>
+</section>
+
+<section class="slide">
+<h2>The Stargate Switch Problem</h2>
+<p>Here are the swaps that take place during the episode:</p>
+<ul>
+<li>Ma'chello $\leftrightarrow$ Daniel</li>
+<li>Jack $\leftrightarrow$ Teal'c</li>
+</ul>
+
+<p>The question is: </p>
+<blockquote>
+<p>Can the machine be used to put everyone's mind back in the proper body if we are <a>not</a> allowed to use the machine on the same pair of bodies more than once?</p>
+</blockquote>
+</section>
+
+<section class="slide">
+<h2>The Generalized Stargate Switch</h2>
+<ul>
+<li class="slide">Suppose we have $m$ pairs of bodies, where each pair swaps minds.</li>
+<li class="slide">Can the machine be used to put everyone's mind back in the proper body if we are <a>not</a> allowed to use the machine on the same pair of bodies more than once?</li>
+<li class="slide">If so, what is the minimal number of "moves" required to put everyone's mind back where it belongs?</li>
+<!-- </ul>
+<h3 class="slide">Comments</h3>
+<ul> -->
+<li class="slide">This is not as general as the problem posed in Futurama. In that case, we needed to introduce outsiders to solve the problem.</li>
+<li class="slide">In cycle notation, the original Stargate Switch permutation can be written as
+\[\sigma=(1\; 2)(3\; 4),\]
+where 1 is Ma'chello, 2 is Daniel, 3 is Jack, and 4 is Teal'c.</li>
+<li class="slide">The Generalized Stargate Switch permutation is of the form
+\[\sigma=(1\; 2)(3\; 4)\cdots (2m-1\; 2m).\]</li>
+<li class="slide">To solve the problem, we must produce a permutation $\mu$ consisting of distinct transpositions, none equaling a factor of $\sigma$, such that the product $\mu\sigma$ is the identity in $S_{2m}$.</li>
+</ul>
+</section>
+
+<section class="slide">
+<h2>Solution to Original Stargate Switch</h2>
+<!-- <p class="slide">Evans and Huang from the University of California, San Diego recently proved the following theorem. [<a href="http://arxiv.org/abs/1204.6086" target="_blank">arXiv</a>]</p>
+<h3 class="slide">Theorem</h3> -->
+<p class="slide">The following permutation solves the original Stargate Switch Problem.</p>
+<p class="slide">\[\mu=(2\; 4)(1\; 3)(2\; 3)(1\; 4)\]</p>
+<p class="slide">Moreover, this solution is optimal in the sense that no solution with fewer than 4 moves will work.</p>
+
+<h3 class="slide">Proof</h3>
+<p class="slide">First, easy to check that $\mu\sigma$ yields the identity:</p>
+<p class="slide">\[\mu\sigma=(2\; 4)(1\; 3)(2\; 3)(1\; 4)\circ (1\; 2)(3\; 4)=\text{identity permutation}\]</p>
+<p class="slide">Why is $\mu$ optimal?  Well, it's easy to check that 2 transpositions (not reusing the originals and only using $1,2,3,4$) won't work.  The reason why $\mu$ cannot only have 3 cycles is because of a general fact that says that the identity permutation cannot be equal to a product of an odd number of transpositions.</p>
+</section>
+
+<section class="slide">
+<h2>Solution to Generalized Stargate Switch</h2>
+<p>Evans and Huang also proved the following more general theorem.</p>
+<h3>Theorem</h3>
+<p>Let $m>1$.  Then the Generalized Stargate Switch permutation
+\[\sigma=(1\; 2)(3\; 4)\cdots (2m-1\; 2m)\]
+can be undone by a product $\mu$ of $N(m)$ distinct transpositions, where for $j=4i$
+\[\mu=\begin{cases}\tau \prod_{i=2}^{(m-1)/2} (j\; j+2)(j-1\; j+1)(j\; j+1)(j-1\; j+2), & \text{if }m\text{ is odd}\\
+\prod_{i=1}^{m/2}(j-1\; j)(j-3\; j-1)(j-2\; j-1)(j-3\; j), & \text{if }m\text{ is even}\end{cases}\]
+with
+\[\tau=(1\; 3)(1\; 6)(4\; 5)(4\; 6)(3\; 5)(2\; 5)(1\; 5).\]
+and
+\[N(m)=\begin{cases}2m+1, & \text{if }m\text{ is odd (and greater than 1),}\\
+2m, & \text{if }m\text{ is even.}\end{cases}\]
+(The empty product for $m=3$ is interpreted as the identity permutation.) Moreover, $N(m)$ is optimal.</p>
+</section>
+
+<section class="slide">
+<h2>Examples of Solutions</h2>
+<p>The previous formula looks pretty scary, but it's not too bad.</p>
+
+<h3>Example</h3>
+<p>When $m=3$, we have</p>
+<p>\[\mu= \tau=(1\; 3)(1\; 6)(4\; 5)(4\; 6)(3\; 5)(2\; 5)(1\; 5),\]</p>
+<p>which consists of $N(3)=7$ transpositions.</p>
+
+<p>When $m=4$, we have</p>
+<p>\[\mu=(2\; 4)(1\; 3)(2\; 3)(1\; 4)(6\; 8)(5\; 7)(6\; 7)(5\; 8),\]</p>
+<p>which consists of $N(4)=8$ transpositions.
+</section>
+
+<section class="slide">
+<h2>Resources and More Information</h2>
+
+<p>If you'd like to know more, check out the following papers:</p>
+<ul>
+<li>Evans & Huang. Mind switches in Futurama and Stargate. <i>Mathematics Magazine</i> 87(4), 252-262, 2014.</li>
+<li>Evans, Huang, & Nguyen. Keeler’s Theorem and products of disjoint transpositions. <i>Amer. Math. Monthly</i> 121, 136–144, 2014.</li>
+</ul>
+
+<p>These slides were made using <a href="http://imakewebthings.github.com/deck.js/">deck.js</a> and <a href="http://mathjax.org">MathJax</a>.</p>
 </section>
 
 <a href="#" class="deck-prev-link" title="Previous">&#8592;</a>
