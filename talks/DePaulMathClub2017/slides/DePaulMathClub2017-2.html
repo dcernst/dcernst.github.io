@@ -125,7 +125,7 @@
 <ul>
 <li class="slide"><h4>Closure</h4> The "product" of any two elements from the set is an element of the set.</li>
 <li class="slide"><h4>Identity</h4> There exists a "do-nothing" element.</li>
-<li class="slide"><h4>Inverses:</h4> For every element in the set, there exists another element in the set that "undoes" the original.</li>
+<li class="slide"><h4>Inverses</h4> For every element in the set, there exists another element in the set that "undoes" the original.</li>
 </ul>
 <p class="slide">The group of permutations of $\{1,2,\ldots, n\}$ is called the <a>symmetric group</a> and is denoted by $S_n$. <a>Note:</a> We will multiply right to left (like function composition).</p>
 </section>
@@ -237,7 +237,7 @@
 
 <p class="slide">\[(x\; 7)(y\; 1)(y\; 2)(y\; 3)(y\; 4)(y\; 5)(y\; 6)(y\; 7)(x\; 1)(1\; 2\; 3\; 4\; 5\; 6\; 7)=???\]</p>
 
-<p class="slide"><strong>Note:</strong> $x$ and $y$ now have their minds swapped with each other, but they never sat in the machine at the same time!</p>
+<p class="slide"><a>Note:</a> $x$ and $y$ now have their minds swapped with each other, but they never sat in the machine at the same time!</p>
 
 </section>
 
@@ -343,10 +343,10 @@
 <ul> -->
 <li class="slide">This is not as general as the problem posed in Futurama. In that case, we needed to introduce outsiders to solve the problem.</li>
 <li class="slide">In cycle notation, the original Stargate Switch permutation can be written as
-\[\sigma=(1, 2)(3, 4),\]
+\[\sigma=(1\; 2)(3\; 4),\]
 where 1 is Ma'chello, 2 is Daniel, 3 is Jack, and 4 is Teal'c.</li>
 <li class="slide">The Generalized Stargate Switch permutation is of the form
-\[\sigma=(1, 2)(3, 4)\cdots (2m-1, 2m).\]</li>
+\[\sigma=(1\; 2)(3\; 4)\cdots (2m-1\; 2m).\]</li>
 <li class="slide">To solve the problem, we must produce a permutation $\mu$ consisting of distinct transpositions, none equaling a factor of $\sigma$, such that the product $\mu\sigma$ is the identity in $S_{2m}$.</li>
 </ul>
 </section>
@@ -356,12 +356,12 @@ where 1 is Ma'chello, 2 is Daniel, 3 is Jack, and 4 is Teal'c.</li>
 <!-- <p class="slide">Evans and Huang from the University of California, San Diego recently proved the following theorem. [<a href="http://arxiv.org/abs/1204.6086" target="_blank">arXiv</a>]</p>
 <h3 class="slide">Theorem</h3> -->
 <p class="slide">The following permutation solves the original Stargate Switch Problem.</p>
-<p class="slide">\[\mu=(2, 4)(1, 3)(2, 3)(1, 4)\]</p>
+<p class="slide">\[\mu=(2\; 4)(1\; 3)(2\; 3)(1\; 4)\]</p>
 <p class="slide">Moreover, this solution is optimal in the sense that no solution with fewer than 4 moves will work.</p>
 
 <h3 class="slide">Proof</h3>
 <p class="slide">First, easy to check that $\mu\sigma$ yields the identity:</p>
-<p class="slide">\[\mu\sigma=(2, 4)(1, 3)(2, 3)(1, 4)\circ (1,2)(3,4)=\text{identity permutation}\]</p>
+<p class="slide">\[\mu\sigma=(2\; 4)(1\; 3)(2\; 3)(1\; 4)\circ (1\; 2)(3\; 4)=\text{identity permutation}\]</p>
 <p class="slide">Why is $\mu$ optimal?  Well, it's easy to check that 2 transpositions (not reusing the originals and only using $1,2,3,4$) won't work.  The reason why $\mu$ cannot only have 3 cycles is because of a general fact that says that the identity permutation cannot be equal to a product of an odd number of transpositions.</p>
 </section>
 
@@ -370,12 +370,12 @@ where 1 is Ma'chello, 2 is Daniel, 3 is Jack, and 4 is Teal'c.</li>
 <p>Evans and Huang also proved the following more general theorem.</p>
 <h3>Theorem</h3>
 <p>Let $m>1$.  Then the Generalized Stargate Switch permutation
-\[\sigma=(1, 2)(3, 4)\cdots (2m-1, 2m)\]
+\[\sigma=(1\; 2)(3\; 4)\cdots (2m-1\; 2m)\]
 can be undone by a product $\mu$ of $N(m)$ distinct transpositions, where for $j=4i$
-\[\mu=\begin{cases}\tau \prod_{i=2}^{(m-1)/2} (j, j+2)(j-1, j+1)(j, j+1)(j-1, j+2), & \text{if }m\text{ is odd}\\
-\prod_{i=1}^{m/2}(j-1, j)(j-3, j-1)(j-2, j-1)(j-3, j), & \text{if }m\text{ is even}\end{cases}\]
+\[\mu=\begin{cases}\tau \prod_{i=2}^{(m-1)/2} (j\; j+2)(j-1\; j+1)(j\; j+1)(j-1\; j+2), & \text{if }m\text{ is odd}\\
+\prod_{i=1}^{m/2}(j-1\; j)(j-3\; j-1)(j-2\; j-1)(j-3\; j), & \text{if }m\text{ is even}\end{cases}\]
 with
-\[\tau=(1,3)(1,6)(4,5)(4,6)(3,5)(2,5)(1,5).\]
+\[\tau=(1\; 3)(1\; 6)(4\; 5)(4\; 6)(3\; 5)(2\; 5)(1\; 5).\]
 and
 \[N(m)=\begin{cases}2m+1, & \text{if }m\text{ is odd (and greater than 1),}\\
 2m, & \text{if }m\text{ is even.}\end{cases}\]
@@ -388,11 +388,11 @@ and
 
 <h3>Example</h3>
 <p>When $m=3$, we have</p>
-<p>\[\mu= \tau=(1,3)(1,6)(4,5)(4,6)(3,5)(2,5)(1,5),\]</p>
+<p>\[\mu= \tau=(1\; 3)(1\; 6)(4\; 5)(4\; 6)(3\; 5)(2\; 5)(1\; 5),\]</p>
 <p>which consists of $N(3)=7$ transpositions.</p>
 
 <p>When $m=4$, we have</p>
-<p>\[\mu=(2,4)(1,3)(2,3)(1,4)(6,8)(5,7)(6,7)(5,8),\]</p>
+<p>\[\mu=(2\; 4)(1\; 3)(2\; 3)(1\; 4)(6\; 8)(5\; 7)(6\; 7)(5\; 8),\]</p>
 <p>which consists of $N(4)=8$ transpositions.
 </section>
 
