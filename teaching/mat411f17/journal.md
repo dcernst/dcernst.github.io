@@ -53,18 +53,18 @@ We’ll use this page to keep track of what has happened each day in class. It w
 <ul class="fa-ul">
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, September 12:</b> After a few quick announcements, we jumped right into student presentations.  JN, EM, BD, and AB2 presented Exercises 3.12, 3.13, 3.14, and 3.15, respectively.  All of the presentations generated good discussion.  Next, I summarized the key points of Exercises 3.16 and 3.17.  With the few minutes we had left, I discussed the use of LaTeX for the Weekly Homework.</li>
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, September 13:</b> Dr. Falk covered for me today while I was out.  My understanding is that 4.1-4.3, 4.5-4.8, and 4.9-4.11 we presented.  The plan is to wrap up 4.12 and 4.13 next time.</li>
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, September 15:</b> Coming soon.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, September 15:</b> Dr. Falk covered for me again today.  Exercises 4.12-4.15 were presented by students.  Our goal on Monday will be to wrap up discussion of 4.16, 4.19-4.24 and tackle 4.25-4.28.</li>
 </ul>
 
-<!--
 ## Week 4 ##
 
 <ul class="fa-ul">
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, September 19:</b> We got a lot accomplished today.  I spent the first few minutes discussing some thoughts about the first Weekly Homework assignment and then we got down to business.  We had JM, AO, AT, AN, SC, and HR present 4.27/4.28, 5.9, 5.10, 5.11, 5.13, 5.14, and 5.16, respectively.  Along the way I presented 5.8 and then we wrapped up with the proof of Theorem 5.14 (function composition is associative).</li>
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, September 21:</b> We kicked off with a whole class discussion of 5.20, 5.21, 5.22, and 5.23.  These problems were aimed at developing intuition about the formal definition of a group.  Next, we had people work in groups of 2-3 on coming up with a proof for Theorem 5.24, which says that the identity in a group is unique.  After about 5 minutes, we had JM, SS2, and PM share 3 different proposed proofs.</li>
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, September 23:</b> Today is a perfect example of why I use to implement an IBL approach in this course.  Awesome discussion and many light bulbs getting turned on!  We had JM, KE, KS, JK, AN, JH, and DZ present 5.25, 5.26, 5.27, 5.28, 5.30, 5.32(a), and 5.32(b), respectively. With the few minutes we had left at the end of class, we had quick group discussion of 5.33 and 5.34.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, September 18:</b> Coming soon.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, September 20:</b> Coming soon.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, September 22:</b> Coming soon.</li>
 </ul>
 
+<!--
 ## Week 5 ##
 
 <ul class="fa-ul">
