@@ -47,7 +47,7 @@ We will not be using a textbook this semester, but rather a task-sequence adopte
 - [Chapter 4: An Introduction to Subgroups and Isomorphisms]({{site.baseurl}}/teaching/mat411f17/IntroSubgroupsIsomorphisms.pdf)
     - 4.1 Subgroups
     - 4.2 Isomorphisms
-- Chapter 5: A Formal Approach to Groups
+- [Chapter 5: A Formal Approach to Groups]({{site.baseurl}}/teaching/mat411f17/FormalGroups.pdf)
     - 5.1 Binary Operations
     - 5.2 Groups
     - 5.3 Group Tables
