@@ -30,9 +30,9 @@ title: Course Materials
 
 We will not be using a textbook this semester, but rather a task-sequence adopted for IBL.  The task-sequence that we are using was written by me.  Any errors in the notes are no one's fault but my own.  In this vein, if you think you see an error, please inform me, so that it can be remedied.  I reserve the right to modify them as we go, but I will always inform you of any significant changes.  The notes will be released incrementally.  Each link below is to a PDF file.
 
-<div class="alert alert-info" role="alert" style="margin: 10px 0 10px 0">
+<!-- <div class="alert alert-info" role="alert" style="margin: 10px 0 10px 0">
 <i class="fa fa-exclamation-triangle"></i>&nbsp; These notes are currently under construction and subject to change.
-</div>
+</div> -->
 
 <!-- - [An Inquiry-Based Approach to Abstract Algebra]({{site.baseurl}}/teaching/mat411f17/IBL-AbstractAlgebra.pdf) (complete set of notes) -->
 - [Title Page]({{site.baseurl}}/teaching/mat411f17/TitlePage.pdf)
