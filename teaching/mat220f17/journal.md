@@ -54,14 +54,14 @@ We’ll use this page to keep track of what has happened each day in class. It w
 
 <ul class="fa-ul">
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, September 11:</b> The week is off to a good start.  After a few quick announcement, we split the class up into 5 small groups.  After a few minutes, we had YS, OW, VM, AG, and KR present solutions for Problems 14, 15(algebraic), 15(visual), 16, and 17, respectively (but not in that order as KR actually went first).  I meant to revisit Problem 11, but I completely forgot, so we'll have to do that at another time.  We had some time left at the end, which we devoted to discussing the upcoming problems.</li>
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, September 13:</b> While I was out today, Monika Keindl covered for me.  My understanding is that Problems 18-21 were presented and that there was some preliminary discussion of Problem 22.</li>
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, September 15:</b> Nandor Sieben covered for me today.  The class tackled Problems 22-25.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, September 13:</b> While I was out today, Monika Keindl covered for me.  My understanding is that JK, KS/DO, VM, and MG presented their proposed solutions to Problems 18, 19,20, and 21, respectively. There was also some preliminary discussion of Problem 22.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, September 15:</b> Nandor Sieben covered for me today.  It appears that EB, KW/KR, VM, and HR presented Problems 22, 23, 24, and 25, respectively.</li>
 </ul>
 
 ## Week 4 ##
 
 <ul class="fa-ul">
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, September 18:</b> Coming soon.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, September 18:</b> After some discussion about Problems 22 and 23, we started discussing Problem 27, which is a lot more involved than it looks at first glance.  As a class, we discussed the cases of 2, 3, 4, and 5 orbs.  We also got most of the way through discussing the cases involving 6 orbs.  Along the way, we heard from QS, EB, TN, JR, AT, MG, HR, and KW.  The goal is for the students to wrap up the cases involving 6, 7, 8, 9, and 10 orbs.</li>
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, September 20:</b> Coming soon.</li>
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, September 22:</b> Coming soon.</li>
 </ul>
