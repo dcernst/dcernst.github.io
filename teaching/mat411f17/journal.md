@@ -53,13 +53,13 @@ We’ll use this page to keep track of what has happened each day in class. It w
 <ul class="fa-ul">
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, September 12:</b> After a few quick announcements, we jumped right into student presentations.  JN, EM, BD, and AB2 presented Exercises 3.12, 3.13, 3.14, and 3.15, respectively.  All of the presentations generated good discussion.  Next, I summarized the key points of Exercises 3.16 and 3.17.  With the few minutes we had left, I discussed the use of LaTeX for the Weekly Homework.</li>
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, September 13:</b> Dr. Falk covered for me today while I was out.  My understanding is that DW, JG, TR, JC, GF, JN, and DV presented Exercise 4.2, Exercise 4.3, Exercise 4.5, Theorem 4.6, Exercise 4.7, Theorem 4.8, and Exercise 4.11, respectively.  The plan is to wrap up 4.12 and 4.13 next time.</li>
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, September 15:</b> Dr. Falk covered for me again today. SS, and JR ??? Exercise 4.14, and Exercise 4.15  Our goal on Monday will be to wrap up discussion of 4.16, 4.19-4.24 and tackle 4.25-4.28.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, September 15:</b> Dr. Falk covered for me again today. BD, LC, SS, and JR presented Exercises 4.12, 4.13, 4.14, and Exercise 4.15  Our goal on Monday will be to wrap up discussion of 4.16, 4.19-4.24 and tackle 4.25-4.28.</li>
 </ul>
 
 ## Week 4 ##
 
 <ul class="fa-ul">
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, September 18:</b> Coming soon.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, September 18:</b> Today was action packed.  We kicked off with reviewing some key ideas and looking over all of the Cayley Diagrams we have encountered so far this semester.  As we marched through the notes, we had MG, JG, AO, and NF presented Exercise 4.19, Theorem 4.20, Problem 4.22, and Problem 4.25, respectively.  I also led discussion on Problem 4.21, Exercise 4.23, Problem 4.24, and Problem 4.26, respectively.</li>
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, September 20:</b> Coming soon.</li>
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, September 22:</b> Coming soon.</li>
 </ul>
