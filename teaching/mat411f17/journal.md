@@ -60,7 +60,7 @@ We’ll use this page to keep track of what has happened each day in class. It w
 
 <ul class="fa-ul">
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, September 18:</b> Today was action packed.  We kicked off with reviewing some key ideas and looking over all of the Cayley Diagrams we have encountered so far this semester.  As we marched through the notes, we had MG, JG, AO, and NF presented Exercise 4.19, Theorem 4.20, Problem 4.22, and Problem 4.25, respectively.  I also led discussion on Problem 4.21, Exercise 4.23, Problem 4.24, and Problem 4.26, respectively.</li>
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, September 20:</b> Coming soon.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, September 20:</b> After a few announcements, we split the class up into 7 small groups, where each group was tasked with discussing one of the homework problems.  After some time, we had NF, BH, GL, BA1, JQ, BH, and MB present Exercise 4.27, Problem 4.28, Exercise 5.8, Exercise 5.9, Exercise 5.10, Exercise 5.11, and Exercise 5.16, respectively.  During the last few minutes, I led a discussion about the proof of Theorem 5.14.</li>
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, September 22:</b> Coming soon.</li>
 </ul>
 
