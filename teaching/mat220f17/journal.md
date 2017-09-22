@@ -63,7 +63,7 @@ We’ll use this page to keep track of what has happened each day in class. It w
 <ul class="fa-ul">
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, September 18:</b> After some discussion about Problems 22 and 23, we started discussing Problem 27, which is a lot more involved than it looks at first glance.  As a class, we discussed the cases of 2, 3, 4, and 5 orbs.  We also got most of the way through discussing the cases involving 6 orbs.  Along the way, we heard from QS, EB, TN, JR, AT, MG, HR, and KW.  The goal is for the students to wrap up the cases involving 6, 7, 8, 9, and 10 orbs.</li>
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, September 20:</b> After a few announcements, the students formed 8 small groups with 3 students each.  Each group was tasked with discussing 2 of the 4 problems that were currently outstanding.  After 10 minutes or so, we started having students share out.  We had MQ, JL/JK, JR, and SS present solutions or ideas for Problems 26, 27, 28, and 29, respectively.  Problems 26 and 27 are still outstanding. VM conjectured a solution to Problem 26 and students were asked to prove this for Monday.</li>
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, September 22:</b> Coming soon.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, September 22:</b> The students took Quiz 2.</li>
 </ul>
 
 <!--
