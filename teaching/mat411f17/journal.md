@@ -64,15 +64,15 @@ We’ll use this page to keep track of what has happened each day in class. It w
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, September 22:</b> We started with a discussion of Exercises 5.21 and 5.22. Next, we had students present one at a time. TR, GC, GF, RF, GL, BW, DF, and AB1 presented Exercise 5.20, Exercise 5.23(ab), Exercise 5.23(cd), Exercise 5.23(ef), Exercise 5.23(gh), Exercise 5.23(ij), Theorem 5.24, and Theorem 5.25, respectively.  We will tackle Exercise 5.26 and Corollary 5.27 next week.</li>
 </ul>
 
-<!--
 ## Week 5 ##
 
 <ul class="fa-ul">
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, September 26:</b> Another highly productive day.  After discussing the upcoming exam, we got down to business.  We started by me discussing 5.36, 5.39, and 5.40.  Then we broke up into 6 small groups to discuss most of the remaining problems.  We had JK, AN, MR, LL, PM, and SC present 5.35, 5.37, 5.38, 5.41, 5.43, and 5.44, respectively.  Along the way, I also addressed 5.42 and discussed the phrase "up to isomorphism."</li>
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, September 28:</b> The students took the in-class portion of Exam 1.</li>
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, September 30:</b> Since the students are working on the take-home portion of Exam 1, I spent the day lecturing.  We began by reviewing the groups we are familiar with and organized them by order and identified which ones were isomorphic to others on our list.  Next, we had lengthy discussion of Problem 5.45, which classifies groups of order 4.  With the time we had left, we briefly discussed 5.46 and 5.47, which addresses one of the flaws with our original set of 4 rules that defined a group.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, September 25:</b> We didn't finish everything today, but we made good progress.  We have BH, MG, HH, DW, EM, DW, and JG present Exercise 5.26, Corollary 5.27, Theorem 5.28, Theorem 5.29, Theorem 5.30, Theorem 5.32(a), and Theorem 5.30(b), respectively.  We will try to squeeze Exercise 5.34 and Theorem 5.35 next time.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, September 27:</b> Coming soon.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, September 29:</b> The students took the in-class portion of Exam 1.</li>
 </ul>
 
+<!--
 ## Week 6 ##
 
 <ul class="fa-ul">

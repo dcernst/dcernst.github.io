@@ -66,15 +66,15 @@ We’ll use this page to keep track of what has happened each day in class. It w
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, September 22:</b> The students took Quiz 2.</li>
 </ul>
 
-<!--
 ## Week 5 ##
 
 <ul class="fa-ul">
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, February 13:</b> We accomplished more today than I expected.  We kicked off with small groups discussing potential solutions to Problem 25. We had JS1 share a solution he encountered when chatting with his group. Next, we had JS2 share his proposed solution to Problem 26, but we discovered it wasn't optimal because RB proposed a better solution.  I suggested folks attempt to prove that RB's solution is the best we can do.  After having AT2 share his proposed approach to Problem 27, we had BG present slick solutions to both Problems 27 and 28.</li>
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, February 15:</b> The students took <a href="{{site.baseurl}}/teaching/mat220f17/220Quiz2.pdf">Quiz 2</a>.  I love watching the students collaborate for the few minutes I allow them to chat.</li>
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, February 17:</b> I was energetic today, but I might have been the only one.  We started with a brief follow-up discussion on Problems 27 and 28.  NP told us how we could take the solutions from Problems 27 and 28 and combine them into a single strategy.  Next, KG provided an argument about why 17 minutes is the best we can do on Problem 26.  AT2 put Problem 33 to rest with easy; another example of triangular numbers.  RD and AT1 tackled Problem 34 for us. I think everyone should be able to handle any problem like this one in the future.  We spend the last 20 minutes of class discussing Problem 35.  LL and RB presented their proposed solutions, but it turns out that we can do better.  We'll revisit Problem 35 next week.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, September 25:</b> We started with a discussion of Problem 27 (Martian Artifacts). We determined that we had a list of upper bounds on the number of tests required for $n$ orbs, but we left open the issue of optimality. We believe that our list is accurate, but we have not verified this. Next, we split the class up into 6 small groups, each tasked with discussing one of Problems 26, 30, and 31.  After several minutes, we had HH share his group's proposed solution to Problem 31, which involved some brute-force checking of cases. We also had MQ and QS present their groups' progress on Problem 30 (plate of cookies). We didn't have time to discuss Viola's conjecture to Problem 26.  Hopefully, we can revisit this one on Wednesday.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, September 27:</b> Coming soon.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, September 29:</b> Coming soon.</li>
 </ul>
 
+<!--
 ## Week 6 ##
 
 <ul class="fa-ul">
