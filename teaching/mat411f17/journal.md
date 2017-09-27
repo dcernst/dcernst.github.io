@@ -68,7 +68,7 @@ We’ll use this page to keep track of what has happened each day in class. It w
 
 <ul class="fa-ul">
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, September 25:</b> We didn't finish everything today, but we made good progress.  We have BH, MG, HH, DW, EM, DW, and JG present Exercise 5.26, Corollary 5.27, Theorem 5.28, Theorem 5.29, Theorem 5.30, Theorem 5.32(a), and Theorem 5.30(b), respectively.  We will try to squeeze Exercise 5.34 and Theorem 5.35 next time.</li>
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, September 27:</b> Coming soon.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, September 27:</b> We spent quite a bit of time discussing the upcoming exam.  After that we had WC, JC, JR, BD/EM, and CK present Exercise 5.34($D_3$), Exercise 5.34($S_3$), Exercise 5.34($D_4$), Exercise 5.34($Q_8$), and Exercise 5.38, respectively.  Along the way, I also guided us through Theorem 5.35 and Exercise 5.37.</li>
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, September 29:</b> The students took the in-class portion of Exam 1.</li>
 </ul>
 
