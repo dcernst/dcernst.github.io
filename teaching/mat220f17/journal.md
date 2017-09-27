@@ -70,7 +70,7 @@ We’ll use this page to keep track of what has happened each day in class. It w
 
 <ul class="fa-ul">
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, September 25:</b> We started with a discussion of Problem 27 (Martian Artifacts). We determined that we had a list of upper bounds on the number of tests required for $n$ orbs, but we left open the issue of optimality. We believe that our list is accurate, but we have not verified this. Next, we split the class up into 6 small groups, each tasked with discussing one of Problems 26, 30, and 31.  After several minutes, we had HH share his group's proposed solution to Problem 31, which involved some brute-force checking of cases. We also had MQ and QS present their groups' progress on Problem 30 (plate of cookies). We didn't have time to discuss Viola's conjecture to Problem 26.  Hopefully, we can revisit this one on Wednesday.</li>
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, September 27:</b> Coming soon.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, September 27:</b> To start, I walked us through one potential approach to solving Problem 32 (light up squares in an $n\times n$ grid).  Next, we had VM present a proof of "Viola's Conjecture" concerning Problem 26 (Star Base hyperdrive).  The was followed by a quick presentation of Problem 34 (signed permutations) by HH. With the few minutes we had left, OW attacked Problem 33, although we discovered that her solution was for a problem with different constraints.  We will revisit Problem 33 next time.</li>
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, September 29:</b> Coming soon.</li>
 </ul>
 
