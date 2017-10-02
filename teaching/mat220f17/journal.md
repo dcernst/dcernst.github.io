@@ -74,15 +74,15 @@ We’ll use this page to keep track of what has happened each day in class. It w
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, September 29:</b> We kicked off with JG and MQ presenting solutions to Problem 33 (Turnaround).  We believe that 6 moves is optimal, but we did not prove this.  VM discussed her computer code that hunted for an optimal solution.  Next, we discussed some potential notation for Problem 35 (soul swapping) that utilized some diagrams.  MG shared her solution to part (a) of Problem 35.  This was followed by a presentation of part (b) by SS.  VM presented a solution for part (c) that utilized the answer for part (a) and then JG shared a nice solution using only one of Wonder Woman or Superman. With the time we had left, I discussed a solution to the Futurama mind swapping problem, which essentially solves parts (d) and (e) of Problem 35.  We will address Problems 36 and 37 on Monday.</li>
 </ul>
 
-<!--
 ## Week 6 ##
 
 <ul class="fa-ul">
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, February 20:</b> Unfortunately, I spent almost the entire class talking.  I spent a good chunk of time going over Quiz 2 and then wrote down a complete solution to Problem 35 involving 12 coins.  There was a few minutes at the end for students to think about what to do with 11 coins.</li>
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, February 22:</b> Great day! BS presented Problem 37, which illustrated the importance of working backwards. Next MS walked us through Problem 38. I followed this up with a discussion of how to explicitly count the number of friendships on each team. This lead to a brief discussion about how to generalize the problem. KG attempted Problem 39, but his approach was thwarted by an inability to resolve one inequality. KF followed this up with an elegant solution involving the triangle inequality. We wrapped up class with a short discussion of Problem 40, which turns out to not work as expected.</li>
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, February 24:</b> The students took <a href="{{site.baseurl}}/teaching/mat220f17/220Quiz3.pdf">Quiz 3</a>.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, October 2:</b> Coming soon.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, October 4:</b> Coming soon.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, October 4:</b> The students took Quiz 3.</li>
 </ul>
 
+<!--
 ## Week 7 ##
 
 <ul class="fa-ul">

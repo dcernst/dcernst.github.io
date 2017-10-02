@@ -72,15 +72,15 @@ We’ll use this page to keep track of what has happened each day in class. It w
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, September 29:</b> The students took the in-class portion of Exam 1.</li>
 </ul>
 
-<!--
 ## Week 6 ##
 
 <ul class="fa-ul">
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, October 3:</b> After handing back the in-class portion of Exam 1 (I'm happy with how everyone did, by the way!), we picked up where we left off last week.  When all was said and done, we discussed 5.46-5.55.</li>
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, October 5:</b> The energy level was a bit low today, but I'm really happy with how things went.  SS1, LL, DJ, JM, HR, EB, and SC present 5.56(b), 5.56(c), 5.57, 5.61, 5.62, 5.63, and 5.64, respectively.  Along the way, I quickly addressed 5.58.</li>
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, October 7:</b> Today was a good example of where we tried to do too much.  As a result, I think we missed out on an opportunity to resolve some confusion about subgroup lattices.  We had AO, JH, KS, DZ, JC, MR, and SS2 present 5.67, 5.68, 5.69, 5.70, 5.71, 5.72, and 5.73, respectively.  We will review a couple of these next time and hit up Theorem 5.66 and tackle Exercise 5.74 and Problem 5.75.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, October 2:</b> Coming soon.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, October 4:</b> Coming soon.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, October 6:</b> Coming soon.</li>
 </ul>
 
+<!--
 ## Week 7 ##
 
 <ul class="fa-ul">
