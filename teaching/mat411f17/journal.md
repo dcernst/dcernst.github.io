@@ -75,7 +75,7 @@ We’ll use this page to keep track of what has happened each day in class. It w
 ## Week 6 ##
 
 <ul class="fa-ul">
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, October 2:</b> Coming soon.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, October 2:</b> While the students are working on the take-home portion of Exam 1, I will lecture over stuff in the notes.  Today, I discussed Problem 5.39, Problem 5.40, Problem 5.42, Problem 5.43, and Problem 5.45.  We'll pick up where we left off on Wednesday.</li>
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, October 4:</b> Coming soon.</li>
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, October 6:</b> Coming soon.</li>
 </ul>
