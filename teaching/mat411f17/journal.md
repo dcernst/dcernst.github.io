@@ -76,7 +76,7 @@ We’ll use this page to keep track of what has happened each day in class. It w
 
 <ul class="fa-ul">
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, October 2:</b> While the students are working on the take-home portion of Exam 1, I will lecture over stuff in the notes.  Today, I discussed Problem 5.39, Problem 5.40, Problem 5.42, Problem 5.43, and Problem 5.45.  We'll pick up where we left off on Wednesday.</li>
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, October 4:</b> Coming soon.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, October 4:</b> After handing back the in-class portion of Exam 1, we had a quick discussion of a few of the commonly missed problems.  Next, I continued lecturing over Chapter 5. In particular, I gave a quick summary of Section 5.4 and then covered Definition 5.52, Theorem 5.53, Remark 5.54, Exercises 5.55-5.58, Theorem 5.59, Problem 5.60, Theorem 5.61, and Problem 5.62.</li>
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, October 6:</b> Coming soon.</li>
 </ul>
 

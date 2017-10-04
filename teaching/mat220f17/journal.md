@@ -78,7 +78,7 @@ We’ll use this page to keep track of what has happened each day in class. It w
 
 <ul class="fa-ul">
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, October 2:</b> At the beginning of class, JG volunteered to show us a solution to Problem 35(d) that utilized a single new person instead of two.  She conjectures that her approach generalizes.  Next, we discussed Problems B.1 and B.2 from Quiz 2.  After this, we had students pair-off to discuss Problems 36-39.  We had JK/OW, KR, and JR present their proposed solutions to Problem 36, 38, and 39, respectively.  We ran out of time and didn't get to discuss Problem 37 (fastest 3 horses).  We'll discuss this one next time.</li>
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, October 4:</b> Coming soon.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, October 4:</b> Today was super productive.  After a short "pep talk" about putting more effort into homework and letting me know when students plan to miss class, we had a short discussion about Problem 35 (soul swapping problem).  In particular, I clarified the types of scramblings that our proposed solution works on.  We also spent some time wrapping up Problems 38 and 39.  Then AG, YS, DO, and KW presented proposed solutions Problems 37, 41, 42, and 43, respectively.  We will have CW present Problem 40 on Monday.</li>
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, October 4:</b> The students took Quiz 3.</li>
 </ul>
 
