@@ -48,6 +48,8 @@ The following assignments are to be turned in at the end of the indicated class 
 - **Daily Homework 14:** Complete 5.28-5.30, 5.32-5.36 in [Chapter 5: A Formal Approach to Groups]({{site.baseurl}}/teaching/mat411f17/FormalGroups.pdf) and digest the surrounding text along the way. (Due Monday, September 25)
 - **Daily Homework 15:** Complete 5.38-5.44 in [Chapter 5: A Formal Approach to Groups]({{site.baseurl}}/teaching/mat411f17/FormalGroups.pdf) and digest the surrounding text along the way. (Due Wednesday, September 27)
 - **Daily Homework 16:** Complete 5.63, 5.64, 5.66-5.69 in [Chapter 5: A Formal Approach to Groups]({{site.baseurl}}/teaching/mat411f17/FormalGroups.pdf) and digest the surrounding text along the way. (Due Friday, October 6)
+- **Daily Homework 17:** Complete 5.70-5.77 in [Chapter 5: A Formal Approach to Groups]({{site.baseurl}}/teaching/mat411f17/FormalGroups.pdf) and digest the surrounding text along the way. (Due Monday, October 9)
+
 
 <!-- - **Daily Homework 5:** Skim through [Appendix C: Fancy Mathematical Terms]({{site.baseurl}}/teaching/mat411f17/FancyMathematicalTerms.pdf) of the course notes. In addition, complete 2.16-2.25 in [Chapter 2: An Intuitive Approach to Groups]({{site.baseurl}}/teaching/mat411f17/IntuitiveGroups.pdf) and 3.1-3.3 in [Chapter 3: Cayley Diagrams]({{site.baseurl}}/teaching/mat411f17/CayleyDiagrams.pdf) digest the surrounding text along the way. (Due Friday, September 2)
 - **Daily Homework 6:** Skim through [Appendix D: Definitions in Mathematics]({{site.baseurl}}/teaching/mat411f17/Definitions.pdf) of the course notes. Also, complete 3.4-3.12 in [Chapter 3: Cayley Diagrams]({{site.baseurl}}/teaching/mat411f17/CayleyDiagrams.pdf) and digest the surrounding text along the way. (Due Wednesday, September 7)
@@ -94,7 +96,7 @@ In addition to the Daily Homework, we will also have Weekly Homework assignments
       4. $\\{e, r, r^2\\} \leq D_3$
       5. $\\{e, r, r^2\\} \leq D_4$
 **Weekly Homework 3:** Complete **two** of Problem 4.25, Theorem 5.24, and Theorem 5.25. (Due Tuesday, September 26 by 8PM)
-
+**Weekly Homework 4:** Suppose $G$ is a finite group such that $G=\langle g_1,\ldots, g_n\rangle$.  Consider the Cayley diagram for $G$ using $\\{g_1,\ldots,g_n\\}$ as a generating set.  Prove that for each $i$, if we follow a sequence of (forward) arrows corresponding to $g_i$ out of $e$, we eventually end up back at $e$. Also, prove **one** of Theorems 5.32(a), 5.32(b), or 5.61.  (Due Tuesday, October 10 by 8PM)
 
 <!-- - **Weekly Homework 1:** Prove **two** of Theorem A.43, Theorem A.44, Theorem A.75, or Theorem A.81 from [Appendix A]({{site.baseurl}}/teaching/mat411f17/Prerequisites.pdf). In addition, write up a solution to **one** of Exercise 2.13 or Exercise 2.19.  *Note:* For the problems coming from Appendix A, you are welcome to consult external resources. (Due Wednesday, September 14 by 8PM)
 - **Weekly Homework 2:** Complete each of the following tasks. You are required to type your proofs using LaTeX.  You should email me the PDF of your completed work or turn in a hardcopy. (Due Tuesday, September 20 by 8PM)
