@@ -49,6 +49,7 @@ The following assignments are to be turned in at the end of the indicated class 
 - **Daily Homework 15:** Complete 5.38-5.44 in [Chapter 5: A Formal Approach to Groups]({{site.baseurl}}/teaching/mat411f17/FormalGroups.pdf) and digest the surrounding text along the way. (Due Wednesday, September 27)
 - **Daily Homework 16:** Complete 5.63, 5.64, 5.66-5.69 in [Chapter 5: A Formal Approach to Groups]({{site.baseurl}}/teaching/mat411f17/FormalGroups.pdf) and digest the surrounding text along the way. (Due Friday, October 6)
 - **Daily Homework 17:** Complete 5.70-5.77 in [Chapter 5: A Formal Approach to Groups]({{site.baseurl}}/teaching/mat411f17/FormalGroups.pdf) and digest the surrounding text along the way. (Due Monday, October 9)
+- **Daily Homework 18:** Complete 5.78, 5.80-5.85 in [Chapter 5: A Formal Approach to Groups]({{site.baseurl}}/teaching/mat411f17/FormalGroups.pdf) and digest the surrounding text along the way. (Due Wednesday, October 11)
 
 
 <!-- - **Daily Homework 5:** Skim through [Appendix C: Fancy Mathematical Terms]({{site.baseurl}}/teaching/mat411f17/FancyMathematicalTerms.pdf) of the course notes. In addition, complete 2.16-2.25 in [Chapter 2: An Intuitive Approach to Groups]({{site.baseurl}}/teaching/mat411f17/IntuitiveGroups.pdf) and 3.1-3.3 in [Chapter 3: Cayley Diagrams]({{site.baseurl}}/teaching/mat411f17/CayleyDiagrams.pdf) digest the surrounding text along the way. (Due Friday, September 2)
