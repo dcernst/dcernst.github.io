@@ -80,16 +80,15 @@ We’ll use this page to keep track of what has happened each day in class. It w
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, October 6:</b> Today was our first day back to student presentations since last week.  We kicked off with some quick discussion about centers of groups, and then we split the class up into 7 small groups.  After a few minutes, we had JG, DV, AO, AB1, MB, JN, and AB2 present solutions to Theorem 5.63, Exercise 5.64(abcd), Exercise 5.64(efgh), Exercise 5.64(ijk), Exercise 5.67, and Exercise 5.69.  With the few minutes we had left, I proved closure for Theorem 5.66.  We will wrap up Theorem 5.66 next time and address Theorem 5.68.</li>
 </ul>
 
-<!--
 ## Week 7 ##
 
 <ul class="fa-ul">
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, October 10:</b> After proving Theorem 5.66 as a class, AT did a quick presentation of 5.74, which was left over from last time.  Then we quickly discussed 5.75 and 5.78.  The remainder of class was spent discussing the formal definition of isomorphism and the homomorphic property.  We wrapped up class by doing 5.81 as a class.</li>
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, October 12:</b> We cranked out a bunch of proofs today.  I was really happy with the proofs that were presented, as well as the discussion around each problem.  We had LL, PM, AT, JS, BG, and LG present 5.80, 5.82, 5.83, 5.84, 5.86, and 5.87, respectively.</li>
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, October 14:</b> Another action packed day, but I think things went well.  We had SM, JH, KS, DZ, JK, and KE presented 5.88, 5.89, 5.90, 5.91, 6.1, and 6.4, respectively.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, October 9:</b> After handing back the take-home portion of Exam 1, I finished proving Theorem 6.6 and then tackled Theorem 6.8. Next, we had NF, WC, DW, JR, and MG present Exercises 5.70, 5.71, 5.72, 5.73, and 5.74, respectively.  I hope to discuss Problem 5.75 next time.  We may not formally discuss Problems 5.76 and 5.77.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, October 11:</b> Coming soon.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, October 13:</b> Coming soon.</li>
 </ul>
 
-
+<!--
 ## Week 8 ##
 
 <ul class="fa-ul">

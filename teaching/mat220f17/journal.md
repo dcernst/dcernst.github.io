@@ -82,14 +82,15 @@ We’ll use this page to keep track of what has happened each day in class. It w
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, October 4:</b> The students took Quiz 3.</li>
 </ul>
 
-<!--
 ## Week 7 ##
 
 <ul class="fa-ul">
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, February 27:</b> I had surgery on my back this morning and I will be out for 2 weeks.  In my absence, Dr. Wilson is covering for me.  My understanding is that MS presented an elegant solution to Problem 41 and then there was some general discussion of Problems 42 and 43.  These problems and likely a couple more will be tackled on Wednesday.</li>
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, March 1:</b> The word on the street is that after some discussion of Problem 42 (Bin Laden), KG and RB presented the cases for $n=5$ and $n=7$ for Problem 43 (Martian Artifacts), respectively which was followed up with some general discussion of the cases involving $n=2k$ versus $n=2k-1$. Next, RD, followed by MS, presented their proposed solutions to Problem 44 (Aslant).</li>
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, March 3:</b> Rumor has it that the following transpired: KG tackled the case with $n=9$ for Problem 43, RD led a discussion for Problem 45, and then MS and NP presented for Problem 46.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, October 9:</b> We had CW, EB, MQ, VM, SS, MG, and JR present Problems 40, 44(a), 44(b), 44(c), 45, 46(ab), and 46(e), respectively.  Along the way, we tackled Problem 46(d) as a class.  With the time we had remaining at the end, we started discussing Problem 47.  AT came to the board and got us started.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, October 11:</b> Coming soon.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, October 13:</b> Coming soon.</li>
 </ul>
+
+<!--
 
 ## Week 8 ##
 
