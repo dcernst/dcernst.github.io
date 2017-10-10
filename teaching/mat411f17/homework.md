@@ -97,8 +97,8 @@ In addition to the Daily Homework, we will also have Weekly Homework assignments
       3. $\\{e, sr, rs, r^2\\}\leq D_4$
       4. $\\{e, r, r^2\\} \leq D_3$
       5. $\\{e, r, r^2\\} \leq D_4$
-**Weekly Homework 3:** Complete **two** of Problem 4.25, Theorem 5.24, and Theorem 5.25. (Due Tuesday, September 26 by 8PM)
-**Weekly Homework 4:** Suppose $G$ is a finite group such that $G=\langle g_1,\ldots, g_n\rangle$.  Consider the Cayley diagram for $G$ using $\\{g_1,\ldots,g_n\\}$ as a generating set.  Prove that for each $i$, if we follow a sequence of (forward) arrows corresponding to $g_i$ out of $e$, we eventually end up back at $e$. Also, prove **one** of Theorems 5.32(a), 5.32(b), or 5.61.  (Due Tuesday, October 10 by 8PM)
+- **Weekly Homework 3:** Complete **two** of Problem 4.25, Theorem 5.24, and Theorem 5.25. (Due Tuesday, September 26 by 8PM)
+- **Weekly Homework 4:** Suppose $G$ is a finite group such that $G=\langle g_1,\ldots, g_n\rangle$.  Consider the Cayley diagram for $G$ using $\\{g_1,\ldots,g_n\\}$ as a generating set.  Prove that for each $i$, if we follow a sequence of (forward) arrows corresponding to $g_i$ out of $e$, we eventually end up back at $e$. Also, prove **one** of Theorems 5.32(a), 5.32(b), or 5.61.  (Due Tuesday, October 10 by 8PM)
 
 <!-- - **Weekly Homework 1:** Prove **two** of Theorem A.43, Theorem A.44, Theorem A.75, or Theorem A.81 from [Appendix A]({{site.baseurl}}/teaching/mat411f17/Prerequisites.pdf). In addition, write up a solution to **one** of Exercise 2.13 or Exercise 2.19.  *Note:* For the problems coming from Appendix A, you are welcome to consult external resources. (Due Wednesday, September 14 by 8PM)
 - **Weekly Homework 2:** Complete each of the following tasks. You are required to type your proofs using LaTeX.  You should email me the PDF of your completed work or turn in a hardcopy. (Due Tuesday, September 20 by 8PM)
