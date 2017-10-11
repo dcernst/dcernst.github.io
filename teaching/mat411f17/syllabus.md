@@ -296,11 +296,11 @@ Students are also expected to minimize distracting behaviors.  In particular, ev
 Here are some important dates:
 
 - **Monday, September 4:** Labor Day (no classes)
-- **Thursday, September 7**: Last day to Drop/Delete a class (without class appearing on students' transcripts)
-- **Friday, November 3:**: Course withdrawal deadline
+- **Thursday, September 7:** Last day to Drop/Delete a class (without class appearing on students' transcripts)
+- **Friday, November 3:** Course withdrawal deadline
 - **Friday, November 10:** Veteran's Day (no classes)
 - **Thursday, November 23-Friday, November 24:** Thanksgiving Holiday (no classes)
-- **Wednesday, December 13**: Final Exam
+- **Wednesday, December 13:** Final Exam
 
 ### Getting Help ###
 There are many resources available to get help.  First, I recommend that you work on homework in small groups as much as possible, and to come see me whenever necessary.  I am always happy to help you.  If my office hours don't work for you, then we can probably find another time to meet.  It is your responsibility to be aware of how well you understand the material.  Don't wait until it is too late if you need help.  *Ask questions*!  Lastly, you can always [email me](mailto:dana.ernst@nau.edu).
