@@ -86,7 +86,7 @@ We’ll use this page to keep track of what has happened each day in class. It w
 
 <ul class="fa-ul">
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, October 9:</b> We had CW, EB, MQ, VM, SS, MG, and JR present Problems 40, 44(a), 44(b), 44(c), 45, 46(ab), and 46(e), respectively.  Along the way, we tackled Problem 46(d) as a class.  With the time we had remaining at the end, we started discussing Problem 47.  AT came to the board and got us started.</li>
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, October 11:</b> Coming soon.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, October 11:</b> EB quickly cranked out a nice coloring for Problem 47 and then QS, OW, and DC used this coloring to tackled Problems 48(a), 48(b), and 48(c), respectively.  We cranked through this quickly and then spend the rest of our time discussing Problem 49, which asks which rectangles we can tile using L-shapped trominos.  After discussing some necessary conditions, we claimed that the 3 conditions were also sufficient and then started trying to prove this.  We got most of the way through a case analysis and left one subcase for the students to resolve for homework.</li>
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, October 13:</b> Coming soon.</li>
 </ul>
 

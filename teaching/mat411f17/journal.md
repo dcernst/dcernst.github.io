@@ -84,7 +84,7 @@ We’ll use this page to keep track of what has happened each day in class. It w
 
 <ul class="fa-ul">
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, October 9:</b> After handing back the take-home portion of Exam 1, I finished proving Theorem 6.6 and then tackled Theorem 6.8. Next, we had NF, WC, DW, JR, and MG present Exercises 5.70, 5.71, 5.72, 5.73, and 5.74, respectively.  I hope to discuss Problem 5.75 next time.  We may not formally discuss Problems 5.76 and 5.77.</li>
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, October 11:</b> Coming soon.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, October 11:</b> I got the room early and put skeleton proofs on the board for Problem 5.80, Exercise 5.81(a), Exercise 5.81(b), Exercise 5.81(c), and Problem 5.82.  We kicked off with a discussion of how the homomorphic property follows from our intuitive understanding of isomorphisms. Next, we had pairs work on filling in the blanks on the skeleton proofs that I put on the board.  After a few minutes, we had DV, JQ, EM, JN, and AO present Problem 5.80, Exercise 5.81(a), Exercise 5.81(b), Exercise 5.81(c), and Problem 5.82, respectively.  We didn't get to Theorems 5.83-5.85 today, so we will have to squeeze them in on Friday.</li>
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, October 13:</b> Coming soon.</li>
 </ul>
 
