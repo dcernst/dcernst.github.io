@@ -86,19 +86,19 @@ We’ll use this page to keep track of what has happened each day in class. It w
 
 <ul class="fa-ul">
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, October 9:</b> We had CW, EB, MQ, VM, SS, MG, and JR present Problems 40, 44(a), 44(b), 44(c), 45, 46(ab), and 46(e), respectively.  Along the way, we tackled Problem 46(d) as a class.  With the time we had remaining at the end, we started discussing Problem 47.  AT came to the board and got us started.</li>
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, October 11:</b> EB quickly cranked out a nice coloring for Problem 47 and then QS, OW, and DC used this coloring to tackled Problems 48(a), 48(b), and 48(c), respectively.  We cranked through this quickly and then spend the rest of our time discussing Problem 49, which asks which rectangles we can tile using L-shapped trominos.  After discussing some necessary conditions, we claimed that the 3 conditions were also sufficient and then started trying to prove this.  We got most of the way through a case analysis and left one subcase for the students to resolve for homework.</li>
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, October 13:</b> Coming soon.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, October 11:</b> EB quickly cranked out a nice coloring for Problem 47 and then QS, OW, and DC used this coloring to tackled Problems 48(a), 48(b), and 48(c), respectively.  We cranked through this quickly and then spend the rest of our time discussing Problem 49, which asks which rectangles we can tile using L-shaped trominoes.  After discussing some necessary conditions, we claimed that the 3 conditions were also sufficient and then started trying to prove this.  We got most of the way through a case analysis and left one subcase for the students to resolve for homework.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, October 13:</b> After handing back Quiz 3, I told students the correct answer and then sketched the argument. I asked students to wrap up the argument for Monday. Next, QS volunteered to present the last remaining case on Problem 49 (L-shaped trominoes). This was followed up by a discussion of Problem 50 (product of 3 integers satisfying 3 conditions), which TN got us started on. KS started to present Problem 51 (12 coins), but then realized that he made an extra assumption about the problem.  His modified version of the problems was worthwhile, so we spent some time thinking about it. Problem 51 is still open.</li>
 </ul>
-
-<!--
 
 ## Week 8 ##
 
 <ul class="fa-ul">
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, March 6:</b> My understanding is that KP presented Problem 44 (Aslant), MS finished off Problem 43 (Martian Artifacts), RB and AC tackled Problem 48 (Magic!), and RD presented Problem 49 (Two Deep).</li>
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, March 8:</b> Today MS presented Problem 46 (the one with the $3\times 3$ and $2\times 2$ squares), RD presented Problem 45 (Double Tangent), SS and BS presented Problem 52 (One Over), and KG presented Problem 51 (The Good Teacher), but there was an algebra mistake in Problem 51, so we haven't found a solution to that one yet.</li>
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, March 10:</b> The students took <a href="{{site.baseurl}}/teaching/mat220f17/220Quiz4.pdf">Quiz 4</a>.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, October 16:</b> Coming soon.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, October 18:</b> Coming soon.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, October 20:</b> The students took Quiz 4.</li>
 </ul>
+
+<!--
 
 ## Week 9 ##
 
