@@ -93,7 +93,7 @@ We’ll use this page to keep track of what has happened each day in class. It w
 ## Week 8 ##
 
 <ul class="fa-ul">
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, October 16:</b> Coming soon.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, October 16:</b> Today wasn't quite as productive as I'd hoped.  I got us started on Problem B.3 from Quiz 3 and then QS finished it off for us.  Next, we had JL share his thoughts on Problem 51 (12 coins).  His solution was almost perfect, but then he realized that the last case would require 4 steps instead of 3.  I proposed an alternative approach and then AT showed us how to finish one of the cases.  JK provided an alternative (and potentially simpler) approach to the same case.  We ended with me quickly summarizing what to do on the remaining cases.</li>
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, October 18:</b> Coming soon.</li>
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, October 20:</b> The students took Quiz 4.</li>
 </ul>

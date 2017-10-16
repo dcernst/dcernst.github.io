@@ -88,14 +88,15 @@ We’ll use this page to keep track of what has happened each day in class. It w
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, October 13:</b> I was kind of amazed that we got through everything today, especially in light of the energy level in the room.  I gave students to chat in pairs about the proofs that were due today and then solicited volunteers to present.  We had JN, AB2, JR, NF, and RF present proofs for Theorems 5.83, 5.84, 5.85, 5.86, and 5.87, respectively.  With the few minutes we had left at the end of class I summarized the proof of Theorem 5.88.</li>
 </ul>
 
-<!--
 ## Week 8 ##
 
 <ul class="fa-ul">
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, October 17:</b> After groups had an opportunity to discuss problems, we had MR, JK, EB, and JC present 6.5/6.6, 6.11, 6.12, and 6.14, respectively.  With the time we had left, we had JM and KS/JS discuss 6.8 and 6.9(a), respectively.  Theorem 6.9(b) and Corollary 6.10 are still open.</li>
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, October 19:</b> Today went way better than expected.  We had SC/KE, LG, BG, DJ, SM, AN, and SS1 present 6.15, 6.16, 6.17/6.19, 6.20, 6.21, and 6.23, respectively.</li>
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, October 21:</b> After discussing 6.26 and 6.27 together, we had HR, AN, PM, JH, SS2, BG, and JK present 6.28, 6.29, 6.30, 6.31, 6.32, 6.33, and 6.36, respectively.  We will kick off with 6.35 next time.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, October 16:</b> We covered a tremendous amount of material today. I assigned 14 people (a couple of which didn't show up) to specific problems and then gave them a few minutes to collaborate with a buddy and write something on the board.  I kicked off with proving that the subset in question was nonempty for Theorem 5.89. Then we had BH, CK, GC, LC, GF, TR, JC, DF, GC, GL, SS, BW, and BD present Theorem 5.89 (closure), Theorem 5.89 (inverses), Exercise 6.1(d), Exercise 6.1(f), Exercise 6.2(b), Exercise 6.2(c), Theorem 6.3, Exercise 6.5, Exercise 6.6(k), Exercise 6.6(b), Exercise 6.6(f), Exercise 6.6(a), and Exercise 6.6(d), respectively.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, October 18:</b> Coming soon.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, October 20:</b> Coming soon.</li>
 </ul>
+
+<!--
 
 ## Week 9 ##
 
