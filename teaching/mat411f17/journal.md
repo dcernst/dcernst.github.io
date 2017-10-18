@@ -92,7 +92,7 @@ We’ll use this page to keep track of what has happened each day in class. It w
 
 <ul class="fa-ul">
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, October 16:</b> We covered a tremendous amount of material today. I assigned 14 people (a couple of which didn't show up) to specific problems and then gave them a few minutes to collaborate with a buddy and write something on the board.  I kicked off with proving that the subset in question was nonempty for Theorem 5.89. Then we had BH, CK, GC, LC, GF, TR, JC, DF, GC, GL, SS, BW, and BD present Theorem 5.89 (closure), Theorem 5.89 (inverses), Exercise 6.1(d), Exercise 6.1(f), Exercise 6.2(b), Exercise 6.2(c), Theorem 6.3, Exercise 6.5, Exercise 6.6(k), Exercise 6.6(b), Exercise 6.6(f), Exercise 6.6(a), and Exercise 6.6(d), respectively.</li>
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, October 18:</b> Coming soon.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, October 18:</b> Great day!  We had AO, BH, GF, HH, JQ, LC, GL, and DF present Exercise 6.7, Exercise 6.8(a), Exercise 6.8(b), Exercise 6.8(c), Theorem 6.12, Corolllary 6.13, Exercise 6.14, and Exercise 6.15, respectively. Along the way, I discussed Theorems 6.9-6.11.  We had some time at the end to get started on the next batch of problems. We were able to discuss 6.16-6.19.</li>
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, October 20:</b> Coming soon.</li>
 </ul>
 
