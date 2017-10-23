@@ -96,15 +96,15 @@ We’ll use this page to keep track of what has happened each day in class. It w
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, October 20:</b> We had TR, CK, AB1, EM, JC, RF, BW, and JG presented Theorem 6.20, Exercise 6.21/6.22, Theorem 6.23, Theorem 6.24, Theorem 6.25, Theorem 6.27 ($n=1,2$), and Theorem 6.27 ($n\geq 3$), respectively.</li>
 </ul>
 
-<!--
-
 ## Week 9 ##
 
 <ul class="fa-ul">
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, October 24:</b> We kicked off with me proving Theorem 6.35.  Next, AN , JS, SS1, and HR tackled 6.38, 6.39, 6.41, and 6.42, respectively.  Along the way, KS attempted to address a question in the notes prior to Theorem 6.40.  We did not get to 6.37, 6.40, 6.43, and 6.44.  We'll address these on Friday.</li>
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, October 26:</b> The students took the in-class portion of Exam 2.</li>
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, October 28:</b> After handing back the in-class portion of Exam 2, I picked up where we left off in the notes and lectured over some new material.  We covered 6.37, 6.40, and 6.44, which were left over from Monday.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, October 23:</b> We started with a discussion of Theorem 6.30 and deferred a proof of Theorem 6.31 until later.  Next, we had MB, SS, HH, AB2, BD, and MG present Exercise 6.32, Exercise 6.33Exercise 6.34, Theorem 6.35, Theorem 6.36 ($n=1,2$), and Theorem 6.36 ($n\geq 3$), respectively.  We will tackle Theorem 6.37 at the beginning of class on Wednesday.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, October 25:</b> Coming soon.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, October 28:</b> The students took the in-class portion of Exam 2.</li>
 </ul>
+
+<!--
 
 ## Week 10 ##
 
