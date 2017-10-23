@@ -55,6 +55,7 @@ The following assignments are to be turned in at the end of the indicated class 
 - **Daily Homework 21:** Complete 6.7-6.9, 6.12-6.15 in [Chapter 6: Families of Groups]({{site.baseurl}}/teaching/mat411f17/Families.pdf) and digest the surrounding text along the way. In addition, convince yourself that the paragraphs above Theorem 6.10 really do prove the theorem. (Due Wednesday, October 18)
 - **Daily Homework 22:** Complete 6.16, 6.18-6.28 in [Chapter 6: Families of Groups]({{site.baseurl}}/teaching/mat411f17/Families.pdf) and digest the surrounding text along the way. (Due Friday, October 20)
 - **Daily Homework 23:** Complete one of 6.30 or 6.31 and then all of 6.32-6.37 in [Chapter 6: Families of Groups]({{site.baseurl}}/teaching/mat411f17/Families.pdf) and digest the surrounding text along the way. (Due Monday, October 23)
+- **Daily Homework 24:** Complete 6.38-6.42, 6.44-6.47 in [Chapter 6: Families of Groups]({{site.baseurl}}/teaching/mat411f17/Families.pdf) and digest the surrounding text along the way. For 6.44-6.47, you can use Theorem 6.43 (which will appear on the take-home portion of Exam 2). (Due Wednesday, October 25)
 
 <!-- - **Daily Homework 5:** Skim through [Appendix C: Fancy Mathematical Terms]({{site.baseurl}}/teaching/mat411f17/FancyMathematicalTerms.pdf) of the course notes. In addition, complete 2.16-2.25 in [Chapter 2: An Intuitive Approach to Groups]({{site.baseurl}}/teaching/mat411f17/IntuitiveGroups.pdf) and 3.1-3.3 in [Chapter 3: Cayley Diagrams]({{site.baseurl}}/teaching/mat411f17/CayleyDiagrams.pdf) digest the surrounding text along the way. (Due Friday, September 2)
 - **Daily Homework 6:** Skim through [Appendix D: Definitions in Mathematics]({{site.baseurl}}/teaching/mat411f17/Definitions.pdf) of the course notes. Also, complete 3.4-3.12 in [Chapter 3: Cayley Diagrams]({{site.baseurl}}/teaching/mat411f17/CayleyDiagrams.pdf) and digest the surrounding text along the way. (Due Wednesday, September 7)
@@ -104,22 +105,6 @@ In addition to the Daily Homework, we will also have Weekly Homework assignments
 - **Weekly Homework 4:** Suppose $G$ is a finite group such that $G=\langle g_1,\ldots, g_n\rangle$.  Consider the Cayley diagram for $G$ using $\\{g_1,\ldots,g_n\\}$ as a generating set.  Prove that for each $i$, if we follow a sequence of (forward) arrows corresponding to $g_i$ out of $e$, we eventually end up back at $e$. Also, prove **one** of Theorems 5.32(a), 5.32(b), or 5.61.  (Due Tuesday, October 10 by 8PM)
 - **Weekly Homework 5:**  Prove **two** of Theorems 5.83-5.87. (Due Tuesday, October 17 by 8PM)
 - **Weekly Homework 6:**  Prove **two** of Theorems 5.89, 5.90, 6.12, 6.20, 6.24. (Due Tuesday, October 24 by 8PM)
-
-
-<!-- - **Weekly Homework 1:** Prove **two** of Theorem A.43, Theorem A.44, Theorem A.75, or Theorem A.81 from [Appendix A]({{site.baseurl}}/teaching/mat411f17/Prerequisites.pdf). In addition, write up a solution to **one** of Exercise 2.13 or Exercise 2.19.  *Note:* For the problems coming from Appendix A, you are welcome to consult external resources. (Due Wednesday, September 14 by 8PM)
-- **Weekly Homework 2:** Complete each of the following tasks. You are required to type your proofs using LaTeX.  You should email me the PDF of your completed work or turn in a hardcopy. (Due Tuesday, September 20 by 8PM)
-  - Prove any **two** of Theorems 4.6, 4.8, or 4.20.
-  - Determine whether each of the following statements is true or false. If a statement is true, write a short proof. If a statement is false, justify your reasoning. In each case, the context should make it clear what each letter represents. In particular, in Items 1, 3, and 5, $r$ represents rotation of a square by a quarter turn clockwise. But in Item 4, $r$ represents rotating a triangle by a third of a turn clockwise.
-      1. $\\{s, r, sr, rs\\}\leq D_4$
-      2. $\\{1, -1, i, -i, j, -j\\}\leq Q_8$
-      3. $\\{e, sr, rs, r^2\\}\leq D_4$
-      4. $\\{e, r, r^2\\} \leq D_3$
-      5. $\\{e, r, r^2\\} \leq D_4$
-- **Weekly Homework 3:** Suppose $G$ is a finite group such that $G=\langle g_1,\ldots, g_n\rangle$.  Consider the Cayley diagram for $G$ using $\\{g_1,\ldots,g_n\\}$ as a generating set.  Prove that for each $i$, if we follow a sequence of (forward) arrows corresponding to $g_i$ out of $e$, we eventually end up back at $e$. Also, prove **two** of Theorems 5.24, 5.25, 5.28.  (Due Tuesday, September 27 by 8PM)
-- **Weekly Homework 4:**  Prove **two** of Theorems 5.29, 5.30, 5.35, 5.63. (Due Tuesday, October 11 by 8PM)
-- **Weekly Homework 5:**  Prove **two** of Theorems 5.83-5.89. (Due Tuesday, October 18 by 8PM)
-- **Weekly Homework 6:**  Prove **two** of Theorems 6.8 6.20, 6.35, 6.37, 6.40(a). (Due Tuesday, November 8 by 8PM)
-- **Weekly Homework 7:**  Prove **two** of Theorems 6.70, 6.71, 6.87, 6.92. (Due Tuesday, November 22 by 8PM) -->
 
 ## Using LaTeX for Weekly Homework ##
 You are required to use $\LaTeX$ to type up your Weekly Homework assignments.  To do this, I suggest that you use my [LaTeX Homework Template](https://github.com/dcernst/MiscTeachingMaterials/blob/master/HWTemplate.tex).  The easiest way to get started with $\LaTeX$ is to use an online editor.  I recommend using [Overleaf](https://overleaf.com), but there are other options.  The good folks over at Overleaf have preloaded my template, so to get started, all you need to do is click the link below.
