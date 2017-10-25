@@ -100,7 +100,7 @@ We’ll use this page to keep track of what has happened each day in class. It w
 
 <ul class="fa-ul">
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, October 23:</b> We started with a discussion of Theorem 6.30 and deferred a proof of Theorem 6.31 until later.  Next, we had MB, SS, HH, AB2, BD, and MG present Exercise 6.32, Exercise 6.33Exercise 6.34, Theorem 6.35, Theorem 6.36 ($n=1,2$), and Theorem 6.36 ($n\geq 3$), respectively.  We will tackle Theorem 6.37 at the beginning of class on Wednesday.</li>
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, October 25:</b> Coming soon.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, October 25:</b> We split the class up into several small groups, each tasked with discussing one of the homework problems.  We had DW, JR, JN, GF, BH, DV, and BD share solutions to Theorem 6.37, Theorem 6.38 (forward direction), Theorem 6.38 (reverse direction), Exercise 6.44, Corollary 6.45, Exercise 6.46, and Exercise 6.47, respectively.  With the few minutes we had left at the end, I blitzed through a proof of Theorem 6.40.  We never got to Corollary 6.39, Exercise 6.41, and Corollary 6.42.</li>
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, October 28:</b> The students took the in-class portion of Exam 2.</li>
 </ul>
 

@@ -102,7 +102,7 @@ We’ll use this page to keep track of what has happened each day in class. It w
 
 <ul class="fa-ul">
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, October 23:</b> I think we were all a bit sluggish today.  I gave students a few minutes to chat about today's problems and then we had KR present his solution to Problem 55.  Next, CW presented Problem 54 (All Different).  We got started on Problem 56 (Checker Mate), but we didn't quite nail it down.</li>
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, October 25:</b> Coming soon.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, October 25:</b> First, we discussed B.2 from Quiz 4 and then potential generalizations for Problem 55. This was followed by presentations by HR, KS, AG, MG, and VM of Problems 58(a), 58(b), 59(a), 59(b), and 59(c), respectively. With the few minutes we had left, we quickly discussed Problem 57.  Problem 56 (Checker Mate) is still outstanding.</li>
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, October 27:</b> Coming soon.</li>
 </ul>
 
