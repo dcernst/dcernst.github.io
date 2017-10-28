@@ -102,19 +102,19 @@ We’ll use this page to keep track of what has happened each day in class. It w
 
 <ul class="fa-ul">
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, October 23:</b> I think we were all a bit sluggish today.  I gave students a few minutes to chat about today's problems and then we had KR present his solution to Problem 55.  Next, CW presented Problem 54 (All Different).  We got started on Problem 56 (Checker Mate), but we didn't quite nail it down.</li>
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, October 25:</b> First, we discussed B.2 from Quiz 4 and then potential generalizations for Problem 55. This was followed by presentations by HR, KS, AG, MG, and VM of Problems 58(a), 58(b), 59(a), 59(b), and 59(c), respectively. With the few minutes we had left, we quickly discussed Problem 57.  Problem 56 (Checker Mate) is still outstanding.</li>
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, October 27:</b> I had a lot of fun today, but the energy level in the room was low.  </li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, October 25:</b> First, we discussed B.2 from Quiz 4 and then potential generalizations for Problem 55. This was followed by presentations by HR, KS, AG, MG, and VM of Problems 58(a), 58(b), 59(a), 59(b), and 59(c), respectively. With the few minutes we had left, we quickly discussed Problem 57 group of 6 people).  Problem 56 (Checker Mate) is still outstanding.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, October 27:</b> I had a lot of fun today, but the energy level in the room was low.  Our first order of business was revisiting Problem 57 (group of 6 people). In particular, we reviewed our argument and discussed how many cases would need to be checked in order to attack the problem via brute-force.  Next, JK quickly put Problem 60 (balls in incorrectly labeled bins) to rest.  No one seemed to have progress on Problem 61, so we discussed it as a class.  Lastly, AG had some good ideas about Problem 62 (Quilt), but his analysis overlooked one of the hypotheses in the problem.  Together we solved this one during the last few minutes of class.</li>
 </ul>
-
-<!--
 
 ## Week 10 ##
 
 <ul class="fa-ul">
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, March 27:</b> We finally saw a solution to Problem 50 (Good Teacher), which NP presented for us. Next, we split the class up into 6 small groups, each tasked with discussing one of Problems 59-61. After a few minutes, JS1 presented a solution to Problem 59 (Modified Sylver Coinage). Next, we heard from JK, AT2, and LB about Problem 60 (Cookies). Lastly, AT1 discussed the beautiful solution to Problem 61 (Prisoners and a light switch).</li>
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, March 29:</b> The students took <a href="{{site.baseurl}}/teaching/mat220f17/220Quiz5.pdf">Quiz 5</a>.</li>
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, March 31:</b> Today, RB presented a wonderful solution to Problem 62. It appeared that no one had made much progress on on Problems 63 and 64, so we spent the rest of class kicking around some ideas about how to approach these problems.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, October 30:</b> Coming soon.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, November 1:</b> Coming soon.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, November 3:</b> The students took Quiz 5.</li>
 </ul>
+
+<!--
 
 ## Week 11 ##
 
