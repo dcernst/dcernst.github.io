@@ -109,7 +109,7 @@ We’ll use this page to keep track of what has happened each day in class. It w
 ## Week 10 ##
 
 <ul class="fa-ul">
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, October 30:</b> I divided the class up into 5 small groups, 4 of which were responsible for working on various cases of Problem 63 (set of 7 integers) and 1 group was responsible for working on Problem 64 (puzzle pieces). We had JL, TN, MQ, and EB present the 4 cases of Problem 63.  Next, we had CW and JK present potential solutions for Problem 64. It wasn't clear whether we solved Problem 64 or not, so we will have to return to that one on Wednesday.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, October 30:</b> I divided the class up into 5 small groups, 4 of which were responsible for working on various cases of Problem 63 (set of 7 integers) and 1 group was responsible for working on Problem 64 (puzzle pieces). We had JL, TN, MQ, and EB present the 4 cases of Problem 63.  Next, we had CW, JK, and MF present potential solutions for Problem 64. It wasn't clear whether we solved Problem 64 or not, so we will have to return to that one on Wednesday.</li>
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, November 1:</b> Coming soon.</li>
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, November 3:</b> The students took Quiz 5.</li>
 </ul>
