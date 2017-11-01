@@ -110,7 +110,7 @@ We’ll use this page to keep track of what has happened each day in class. It w
 
 <ul class="fa-ul">
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, October 30:</b> I divided the class up into 5 small groups, 4 of which were responsible for working on various cases of Problem 63 (set of 7 integers) and 1 group was responsible for working on Problem 64 (puzzle pieces). We had JL, TN, MQ, and EB present the 4 cases of Problem 63.  Next, we had CW, JK, and MF present potential solutions for Problem 64. It wasn't clear whether we solved Problem 64 or not, so we will have to return to that one on Wednesday.</li>
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, November 1:</b> Coming soon.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, November 1:</b> To start, our visitor Oliver presented an elegant algebraic proof to Problem 64 (puzzle pieces). Next, we had DC and JR discuss their approaches to Problem 67 (paper folding problem).  This was followed by discussion of Problem 66 ($1/3 = 1/A+1/B+1/C$).  We had some insight from KR, MG, JG, and VM along the way.  With the few minutes left, we had KC get us started on Problem 65 (Klingon senate).</li>
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, November 3:</b> The students took Quiz 5.</li>
 </ul>
 
