@@ -108,8 +108,8 @@ We’ll use this page to keep track of what has happened each day in class. It w
 
 <ul class="fa-ul">
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, October 30:</b> I lectured over the remaining bit of Section 6.1 and started Section 6.2.  We got up to part (a) of Theorem 6.56.</li>
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, November 2:</b> We kicked off by finishing up Theorem 6.52 and then sketched proofs for all four parts of Theorem 6.53. From there we moved into Section 6.3.  We had AT, AN, BG, JC, and SC present 6.56/6.57, 6.59, 6.60, 6.61, and 6.63, respectively.  With the time we had left, we discussed 6.54 and 6.64.</li>
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, November 4:</b> After a quick review of 6.64, we split up into small groups as usual.  We had EB, LL, LG, MR, SM, PM, and KS present 6.66, 6.67, 6.68, 6.69, 6.70, 6.71, and 6.72, respectively.  Along the way, we addressed 6.55.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, November 1:</b> I continued lecturing over Chapter 6.  We wrapped up Section 6.2 and started Section 6.3.  We got up to Problem 6.67.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, November 3:</b> After handing back the in-class portion of Exam 2, I discussed a few of the problems from the exam.  Next, we picked up where we left off in the notes.  We covered Theorem 6.68 through Theorem 6.75.</li>
 </ul>
 
 <!--
