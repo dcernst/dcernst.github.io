@@ -114,15 +114,15 @@ We’ll use this page to keep track of what has happened each day in class. It w
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, November 3:</b> The students took Quiz 5.</li>
 </ul>
 
-<!--
-
 ## Week 11 ##
 
 <ul class="fa-ul">
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, April 3:</b> We started with a discussion about how to frame Problem 65 (7 positive integers and their gcd's mod 3) in terms of a graph with 7 vertices and edges that have been colored using 3 different colors.  The goal is the justify that there is always a triangle of the same color.  After discussing Problem 65, we split the class up into 3 small groups, which we tasked with discussing Problems 63-65, respectively.  We had KG share a solution to Problem 63, which was followed by a really nice solution to Problem 65 by LL.  We wrapped up with MR and RD discussing most of the details of Problem 64.  There is one remaining detail to resolve before we will have complete solution to Problem 64.</li>
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, April 5:</b> We finally nailed down Problem 64 (Federation ambassadors around table). After I got us up to speed with what we knew about the problem, MS and KG filled in the rest of the details.  Next, we had AC present an algebraic proof for Problem 66.  This was followed by attempts at a visual proof by SW, NP, and MR for the same problem.  We were pressed for time at the end, but JM was able to share his approach to Problem 67 before we departed.</li>
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, April 7:</b> Since Problem 67 was discussed so quickly on Monday, we revisited that problem first.  During our discussion, we heard from MR, BS, MS, and RD.  Next, JK presented a quick solution to Problem 69 (mellow yellow and high fructose thorn scallop). This was followed by presentations by AC, KG, MS, and MR for Problem 70 (ten people in a circle). Problem 68 (rectangle vs pentagon) was the last one we discussed.  MH shared his progress and then KG started to share his approach using the triangle inequality, but we ran out of time.  We will revisit this one on Monday.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, November 6:</b> I was out sick today and class ran without me.  According to a report from MQ, here is what transpired in my absence.  EB's job was to keep everything running smoothly. JR presented Problem 68 and showed that we can arrange the ambassadors.  I'd like to revisit this one on Wednesday (along with Problem 65) to make sure we have the right approach. OW presented Problem 69 and went with a "half-life" approach, reasoning that if the man took the pills after a certain amount of time, the dosage would be small enough to not kill him. MG followed up and said that if all four pills were cut in half, and the man took one of each half, the total dosage would add up to one pill of each. Next, JG worked through the algebraic proof for Problem 70 and using the triangular number formula, plugged it in and rearranged as needed. Lastly, VM showed us the visual proof for Problem 70 by clever rearrangement.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, November 8:</b> Coming soon.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, November 10:</b> Veteran's Day! No class.</li>
 </ul>
+
+<!--
 
 ## Week 12 ##
 

@@ -112,15 +112,15 @@ We’ll use this page to keep track of what has happened each day in class. It w
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, November 3:</b> After handing back the in-class portion of Exam 2, I discussed a few of the problems from the exam.  Next, we picked up where we left off in the notes.  We covered Theorem 6.68 through Theorem 6.75.</li>
 </ul>
 
-<!--
-
 ## Week 11 ##
 
 <ul class="fa-ul">
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, November 7:</b>  After handing back the take-home portion of Exam 2, we divided up into small groups to tackle the day's problems.  SS2, AT, HR, DZ, SM, and AN presented 6.74, 7.73/6.75, 6.77, 6.80, and 6.81, respectively.  Officially, 6.81 didn't get presented by AN, but the answer was correct and I gave her credit for it.</li>
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, November 9:</b> Despite the somber emotional energy in the room post election night, today was a good day.  We had PM, LL, SS1, MR, AN, KE, and JS present 6.82, 6.83(a), 6.83(b), 6.84, 6.85, 6.86, and 6.90, respectively.  Along the way, we discussed how 6.87 follows from 6.85 and 6.86 and how 6.88 follows from 6.87.</li>
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, November 11:</b> Veteran's Day! No class.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, November 6:</b>  I was out sick today and class ran without me.  According to a report from AO, here is what transpired in my absence. DW, GF, MG, JN, RF, CK, EM, TR, DV, and JR presented Theorem 6.75, Problem 6.76, Exercises 6.77, 6.78, 6.79, 6.80, 6.81, 6.84, 6.85, and 6.86, respectively. We'll save some time on Wednesday to cover the highlights from these.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, November 8:</b> Coming soon.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, November 10:</b> Veteran's Day! No class.</li>
 </ul>
+
+<!--
 
 ## Week 12 ##
 
