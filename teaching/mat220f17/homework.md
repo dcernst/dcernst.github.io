@@ -60,5 +60,5 @@ The following assignments are to be turned in at the end of the indicated class 
 <li><i class="fa-li fa fa-pencil-square-o"></i><b>Homework 25:</b> Complete Problems 65-67 from the <a href="https://dcernst.github.io/teaching/mat220f17/220ProblemCollection.pdf">Problem Collection</a>. (Due Wednesday, November 1)</li>
 <li><i class="fa-li fa fa-pencil-square-o"></i><b>Homework 26:</b> Complete Problems 68-70 from the <a href="https://dcernst.github.io/teaching/mat220f17/220ProblemCollection.pdf">Problem Collection</a>. (Due Monday, November 6)</li>
 <li><i class="fa-li fa fa-pencil-square-o"></i><b>Homework 27:</b> Complete Problems 71 and 72 from the <a href="https://dcernst.github.io/teaching/mat220f17/220ProblemCollection.pdf">Problem Collection</a>. (Due Wednesday, November 8)</li>
-<li><i class="fa-li fa fa-pencil-square-o"></i><b>Homework 28:</b> Complete Problems 73 and 74 from the <a href="https://dcernst.github.io/teaching/mat220f17/220ProblemCollection.pdf">Problem Collection</a>. (Due Monday, November 13)</li>
+<li><i class="fa-li fa fa-pencil-square-o"></i><b>Homework 28:</b> Revisit Problem 68 and complete Problems 73 and 74 from the <a href="https://dcernst.github.io/teaching/mat220f17/220ProblemCollection.pdf">Problem Collection</a>. (Due Monday, November 13)</li>
 </ul>
