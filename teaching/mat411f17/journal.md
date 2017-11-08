@@ -116,7 +116,7 @@ We’ll use this page to keep track of what has happened each day in class. It w
 
 <ul class="fa-ul">
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, November 6:</b>  I was out sick today and class ran without me.  According to a report from AO, here is what transpired in my absence. DW, GF, MG, JN, RF, CK, EM, TR, DV, and JR presented Theorem 6.75, Problem 6.76, Exercises 6.77, 6.78, 6.79, 6.80, 6.81, 6.84, 6.85, and 6.86, respectively. We'll save some time on Wednesday to cover the highlights from these.</li>
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, November 8:</b> Coming soon.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, November 8:</b> After handing back the take-home portion of Exam 2, I discussed Problem 3(b) from the exam.  Next, I reviewed Theorem 6.75, Exercise 6.80, Theorem 6.83 (Cayley's Theorem), and Exercise 6.84, which were covered on Monday.  With the time we had left, we had GC and BH present Exercises 6.87 and 6.88.</li>
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, November 10:</b> Veteran's Day! No class.</li>
 </ul>
 
