@@ -120,15 +120,15 @@ We’ll use this page to keep track of what has happened each day in class. It w
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, November 10:</b> Veteran's Day! No class.</li>
 </ul>
 
-<!--
-
 ## Week 12 ##
 
 <ul class="fa-ul">
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, November 14:</b> We spent a good chunk of time proving Lemma 6.91.  After that, BG volunteered to prove Theorem 6.92. With the time we had left, we discussed 6.96, 6.97, and 6.98 as a class. We also briefly sketched a proof of Theorem 6.100.</li>
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, November 16:</b> The first few minutes was devoted to discussing cosets.  In particular, we discussed 7.5. After that we had LG, DZ, MR, JH, EB, and JK present 6.100, 6.101, 6.104, 6.105, 7.2, and 7.3, respectively.  I gave AT credit for 7.4 even though we ran out of time.</li>
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, November 18:</b> Despite several absences, today was a great day and is another illustration of why I truly believe in the IBL framework.  Awesome stuff! We had BG, JH, JS, JC, JK, LG, and PM present 7.6, 7.7, 7.8(1), 7.8(2), 7.8(3), 7.8(4), 7.18, and 7.21/7.22, respectively.  Along the way, we discussed 7.15 and 7.19.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, November 13:</b> Coming soon.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, November 15:</b> Coming soon.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, November 17:</b> Coming soon.</li>
 </ul>
+
+<!--
 
 ## Week 13 ##
 
