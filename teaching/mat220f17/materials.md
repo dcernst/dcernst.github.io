@@ -40,8 +40,8 @@ Below you will find notes and handouts that we have used in class, as well as so
   <li><i class="fa-li fa fa-file-pdf-o fa-fw"></i>&nbsp; <a href="{{ site.baseurl }}/teaching/mat220f17/220Quiz2.pdf">Quiz 2</a></li>
   <li><i class="fa-li fa fa-file-pdf-o fa-fw"></i>&nbsp; <a href="{{ site.baseurl }}/teaching/mat220f17/220Quiz3.pdf">Quiz 3</a></li>
   <li><i class="fa-li fa fa-file-pdf-o fa-fw"></i>&nbsp; <a href="{{ site.baseurl }}/teaching/mat220f17/220Quiz4.pdf">Quiz 4</a></li>
-    <!--  <li><i class="fa-li fa fa-file-pdf-o fa-fw"></i>&nbsp; <a href="{{ site.baseurl }}/teaching/mat220f17/220Quiz5.pdf">Quiz 5</a></li>
-  <li><i class="fa-li fa fa-file-pdf-o fa-fw"></i>&nbsp; <a href="{{ site.baseurl }}/teaching/mat220f17/220Quiz6.pdf">Quiz 6</a></li>
+  <li><i class="fa-li fa fa-file-pdf-o fa-fw"></i>&nbsp; <a href="{{ site.baseurl }}/teaching/mat220f17/220Quiz5.pdf">Quiz 5</a></li>
+  <!--  <li><i class="fa-li fa fa-file-pdf-o fa-fw"></i>&nbsp; <a href="{{ site.baseurl }}/teaching/mat220f17/220Quiz6.pdf">Quiz 6</a></li>
   <li><i class="fa-li fa fa-file-pdf-o fa-fw"></i>&nbsp; <a href="{{ site.baseurl }}/teaching/mat220f17/220Quiz7.pdf">Quiz 7</a></li> -->
 </ul>
 
