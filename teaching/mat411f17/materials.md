@@ -59,7 +59,7 @@ We will not be using a textbook this semester, but rather a task-sequence adopte
     - 6.2 Dihedral Groups
     - 6.3 Symmetric Groups
     - 6.4 Alternating Groups
-- Chapter 7: Cosets, Lagrange's Theorem, and Normal Subgroups
+- [Chapter 7: Cosets, Lagrange's Theorem, and Normal Subgroups]({{site.baseurl}}/teaching/mat411f17/CosetsLagrangeNormal.pdf)
     - 7.1 Cosets
     - 7.2 Lagrange's Theorem
     - 7.3 Normal Subgroups
