@@ -125,7 +125,7 @@ We’ll use this page to keep track of what has happened each day in class. It w
 ## Week 12 ##
 
 <ul class="fa-ul">
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, November 13:</b> I spent the first few minutes discussing the rigid and non-rigid symmetries of the cube.  This was related to Remark 6.93. Then we had JG, JC, AB2, DF, LC, JN, and BD present Problem 6.89, Problem 6.90, Theorem 6.96, Exercise 6.99, Exercise 6.100, Problem 6.101, and Problem 6.102, respectively.  Along the way, I sketched proofs of Theorem 6.91 and Corollary 6.92.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, November 13:</b> We finally wrapped up Problem 68 (ambassadors at table), which I spent the first minutes of class going over.  Next, we had TN discuss her approach to Problem 71 (paper folding area).  This was followed up by a very elegant solution to the problem by KR.  Then MQ presented his excellent solution to Problem 74 (100 prisoners and a light switch). After that we had AG discuss his solution to Problem 73, but we realized that we made a mistake.  We will return to this one on Wednesday.  With the few minutes we had left, I quickly summarized the technique of induction.</li>
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, November 15:</b> Coming soon.</li>
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, November 17:</b> The students took Quiz 6.</li>
 </ul>
