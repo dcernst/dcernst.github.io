@@ -126,7 +126,7 @@ We’ll use this page to keep track of what has happened each day in class. It w
 
 <ul class="fa-ul">
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, November 13:</b> We finally wrapped up Problem 68 (ambassadors at table), which I spent the first minutes of class going over.  Next, we had TN discuss her approach to Problem 71 (paper folding area).  This was followed up by a very elegant solution to the problem by KR.  Then MQ presented his excellent solution to Problem 74 (100 prisoners and a light switch). After that we had AG discuss his solution to Problem 73, but we realized that we made a mistake.  We will return to this one on Wednesday.  With the few minutes we had left, I quickly summarized the technique of induction.</li>
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, November 15:</b> Coming soon.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, November 15:</b> We had VM/MQ, SS, and JL present solutions to Problems 73, 75, and 76, respectively.  With the time we had left, we had a brief discussion of the Four Color Theorem and got started on two of the next problems.</li>
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, November 17:</b> The students took Quiz 6.</li>
 </ul>
 
