@@ -125,7 +125,7 @@ We’ll use this page to keep track of what has happened each day in class. It w
 <ul class="fa-ul">
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, November 13:</b> I spent the first few minutes discussing the rigid and non-rigid symmetries of the cube.  This was related to Remark 6.93. Then we had JG, JC, AB2, DF, LC, JN, and BD present Problem 6.89, Problem 6.90, Theorem 6.96, Exercise 6.99, Exercise 6.100, Problem 6.101, and Problem 6.102, respectively.  Along the way, I sketched proofs of Theorem 6.91 and Corollary 6.92.</li>
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, November 15:</b> After discussing the symmetry groups of the tetrahedron, dodecahedron, and the icosahedron, I walked us through Exercises 6.106 and 7.4.  Next, we had AO, DV, MG, and DW present Exercises 6.108, 7.5, 7.6, and 7.7, respectively.</li>
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, November 17:</b> Coming soon.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, November 17:</b> Disappointing attendance today, but c'est la vie.  After summarizing a few of the key theorems, we jumped in and tried to prove some stuff. We had BD, NF, AB1, DW, RF, and TR present Theorem 7.9(a), Theorem 7.10(reflexive), Theorem 7.10(symmetric), Theorem 7.10(transitive), Theorem 7.13(injective), and Theorem 7.13(surjective), respectively. Along the way, I proved Corollary 7.12 and Corollary 7.14.</li>
 </ul>
 
 <!--
