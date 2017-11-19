@@ -63,7 +63,7 @@ We will not be using a textbook this semester, but rather a task-sequence adopte
     - 7.1 Cosets
     - 7.2 Lagrange's Theorem
     - 7.3 Normal Subgroups
-- Chapter 8: Products and Quotients of Groups
+- [Chapter 8: Products and Quotients of Groups]({{site.baseurl}}/teaching/mat411f17/ProductsQuotients.pdf)
     - 8.1 Products of Groups
     - 8.2 Quotients of Groups
 - Chapter 9: Homomorphisms and the Isomorphism Theorems
