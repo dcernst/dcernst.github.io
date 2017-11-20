@@ -130,15 +130,15 @@ We’ll use this page to keep track of what has happened each day in class. It w
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, November 17:</b> The students took Quiz 6.</li>
 </ul>
 
-<!--
-
 ## Week 13 ##
 
 <ul class="fa-ul">
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, April 17:</b> After handing back Quiz 6, I briefly discussed Problems B1, B2, and B3.  This was followed by another discussion of induction. Next, AT1 and NP presented two different approaches to Problem 77 (sums of distinct powers of 2). Then BG presented Problem 76 ($n$ lines).</li>
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, April 19:</b> More than half of the class period was spent discussing Google's PageRank, which was inspired by Problem 78 (who is the coolest?).  With the time we had left, NP and LL presented both parts of Problem 79 (infinite hotel). We'll come back to Problem 80 on Friday.</li>
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, April 21:</b> We had JS1 and MR present Problem 80(a) and 80(b), respectively, which was followed by me presenting Problem 80(c).  Next, we heard from JK and KP on Problem 81.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, November 20:</b> We had KS, EB, and CW presented Problems 77, 78, and 79, respectively.  I also discussed Google Page Rank after Problem 79.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, November 22:</b> Coming soon.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, November 26:</b> No classes, Thanksgiving Holiday!</li>
 </ul>
+
+<!--
 
 ## Week 14 ##
 
