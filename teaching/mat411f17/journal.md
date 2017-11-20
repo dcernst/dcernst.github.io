@@ -128,15 +128,15 @@ We’ll use this page to keep track of what has happened each day in class. It w
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, November 17:</b> Disappointing attendance today, but c'est la vie.  After summarizing a few of the key theorems, we jumped in and tried to prove some stuff. We had BD, NF, AB1, DW, RF, and TR present Theorem 7.9(a), Theorem 7.10(reflexive), Theorem 7.10(symmetric), Theorem 7.10(transitive), Theorem 7.13(injective), and Theorem 7.13(surjective), respectively. Along the way, I proved Corollary 7.12 and Corollary 7.14.</li>
 </ul>
 
-<!--
-
 ## Week 13 ##
 
 <ul class="fa-ul">
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, November 21:</b> After discussing 7.24 and 7.25, we had LL, JC, DZ, EB, SS2, and KE present 7.26, 7.27, 7.28, 7.29, 7.30, and 7.31, respectively.  We still need to wrap up the second direction of 7.31 and we skipped discussing 7.33-7.36.</li>
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, November 23:</b> I was impressed with the attendance today. Thanks for showing up the day before Thanksgiving! We had HR, KE, JK, SM, AT, and PM present 8.6, 8.7, 8.13, 8.16, 8.17, and 8.18, respectively. Along the way, we discussed 8.8, 8.10 (although, we didn't have time to write down its proof), and 8.11.  Next time, we will prove 8.10 and to discuss 8.19 and 8.20.</li>
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, November 25:</b> No classes, Thanksgiving Holiday!</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, November 20:</b> We cranked through several problems today.  We had BW, JC, CK, JG, LC, DF, NF, and JN present Exercise 7.17, Theorem 7.19, Corollary 7.20, Problem 7.21, Exercise 7.23, Exercise 7.24, Exercise 7.26, and Theorem 7.29, respectively.  Along the way, I proved Theorem 7.16 (Lagrange's Theorem) and tackled Problems 7.30 and 7.32 and proved Theorem 7.31.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, November 22:</b> Coming soon.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, November 26:</b> No classes, Thanksgiving Holiday!</li>
 </ul>
+
+<!--
 
 ## Week 14 ##
 
