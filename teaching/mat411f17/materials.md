@@ -66,10 +66,10 @@ We will not be using a textbook this semester, but rather a task-sequence adopte
 - [Chapter 8: Products and Quotients of Groups]({{site.baseurl}}/teaching/mat411f17/ProductsQuotients.pdf)
     - 8.1 Products of Groups
     - 8.2 Quotients of Groups
-- Chapter 9: Homomorphisms and the Isomorphism Theorems
+- [Chapter 9: Homomorphisms and the Isomorphism Theorems]({{site.baseurl}}/teaching/mat411f17/Homomorphisms.pdf)
     - 9.1 Homomorphisms
     - 9.2 The Isomorphism Theorems
-- Chapter 10: An Introduction to Rings
+- [Chapter 10: An Introduction to Rings]({{site.baseurl}}/teaching/mat411f17/Rings.pdf)
     - 10.1 Definitions and Examples
     - 10.2 Ring Homomorphisms
     - 10.3 Ideals and Quotient Rings
