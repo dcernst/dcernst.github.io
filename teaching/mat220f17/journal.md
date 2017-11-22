@@ -134,7 +134,7 @@ We’ll use this page to keep track of what has happened each day in class. It w
 
 <ul class="fa-ul">
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, November 20:</b> We had KS, EB, and CW presented Problems 77, 78, and 79, respectively.  I also discussed Google Page Rank after Problem 79.</li>
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, November 22:</b> Coming soon.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, November 22:</b> First, we quickly summarized Problem 80 (which turned out to more or less be identical to Problem 79). After that I walked us through Problem 81(a), which was followed up by a presentation of Problem 81(b) by DC. After showing an alternative approach to Problem 81(b), we modified it to get a solution to Problem 81(c).  Next, MQ presented a short and slick solution to Problem 82.  We we spent the last few minutes going over the problems due for the next homework assignment.</li>
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, November 26:</b> No classes, Thanksgiving Holiday!</li>
 </ul>
 
