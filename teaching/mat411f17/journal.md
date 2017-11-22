@@ -132,7 +132,7 @@ We’ll use this page to keep track of what has happened each day in class. It w
 
 <ul class="fa-ul">
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, November 20:</b> We cranked through several problems today.  We had BW, JC, CK, JG, LC, DF, NF, and JN present Exercise 7.17, Theorem 7.19, Corollary 7.20, Problem 7.21, Exercise 7.23, Exercise 7.24, Exercise 7.26, and Theorem 7.29, respectively.  Along the way, I proved Theorem 7.16 (Lagrange's Theorem) and tackled Problems 7.30 and 7.32 and proved Theorem 7.31.</li>
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, November 22:</b> Coming soon.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, November 22:</b> We had decent turn out considering it was the Wednesday before Thanksgiving. We covered quite a bit.  We had RF, JC, BH, MG, MB, JG, AB2, and GC present Exercise 8.6, Exercise 8.7, Exercise 8.8, Corollary 8.11, Exercise 8.13, Theorem 8.14, Exercise 8.17, and Exercise 8.18, respectively. I also discussed Theorem 8.19 and Problem 8.20.  Along the way, we also discussed a few of the results that I did not assign. We will tackle Exercise 8.24 and 8.25 next time.</li>
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, November 26:</b> No classes, Thanksgiving Holiday!</li>
 </ul>
 
