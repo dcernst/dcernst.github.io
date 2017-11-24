@@ -13,6 +13,7 @@ layout: default
 <!-- <img src="{{ site.baseurl }}/images/2012/02/Screen-Shot-2013-08-07-at-11.21.58-PM.png" width="200" align="left" img style="margin-right: 15px" /> -->
 Below is list of talks and presentations that I have given over the past several years.  In most cases, there are links to slides.  In particular, you can find the collection of my recent slides on [Speaker Deck](https://speakerdeck.com/dcernst). Check out my [scholarship overview page]({{ site.baseurl }}/scholarship/) for additional information about my research interests.  If you are interested in presentations that my undergraduate research students have given, check out my [undergraduate research page]({{ site.baseurl }}/scholarship/undergraduate-research/).
 
+- An introduction to the combinatorics of genome rearrangements. [NAU Mathematics and Statistics Colloquium](http://naumathstat.github.io/seminars/colloquiumFall2017), NAU, Flagstaff, AZ. November 2017.
 - Proofs Without Words. Guest lecture for MAT 123, NAU, Flagstaff, AZ. October 2017. [[Slides](http://danaernst.com/talks/MAT123Fall2017/MAT123Talk171023.pdf)]
 - The ubiquitous Catalan numbers. [Friday Afternoon Mathematics Undergrad Seminar](http://naumathstat.github.io/seminars/famusFall2017/) (FAMUS), NAU, Flagstaff, AZ. October 2017.
 - Impartial achievement and avoidance games for generating finite groups. [Algebra, Combinatorics, Geometry, and Topology Seminar](http://naumathstat.github.io/seminars/acgtFall2017/) (ACGT), NAU, Flagstaff, AZ. September 2017. [[Slides](http://danaernst.com/talks/ACGT2017/ACGT2017.pdf)]
