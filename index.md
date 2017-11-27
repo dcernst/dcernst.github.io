@@ -24,7 +24,7 @@ Besides the occasional [blog posts]({{ site.baseurl }}/blog/) I write for this s
 
 I am a husband and a father of two incredible sons. My passions include cycling and rock climbing.  I try to do a few ultra endurance mountain bike events each year.  You can follow my cycling endeavors on [Strava](https://www.strava.com/athletes/122321). Oh, I enjoy drinking copious amounts of coffee, too.
 
-To contact me, shoot me an [email](mailto:dana.ernst@nau.edu) or use any of social media contacts in the sidebar.  Here is my physical work address:
+To contact me, shoot me an [email](mailto:dana.ernst@nau.edu) or use any of the social media contacts in the sidebar.  Here is my physical work address:
 
 <address>
 Dana C. Ernst, PhD<br />
