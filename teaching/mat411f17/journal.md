@@ -136,20 +136,18 @@ We’ll use this page to keep track of what has happened each day in class. It w
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, November 26:</b> No classes, Thanksgiving Holiday!</li>
 </ul>
 
-<!--
-
 ## Week 14 ##
 
 <ul class="fa-ul">
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, November 28:</b> The first third of class was devoted to me writing down the proof of Theorem 8.10.  After that we had small groups work on 8.19, 8.20, 8.25, 8.26, 8.27, and 8.28.  However, we only had time for LL and KE to present 8.19 and 8.20, respectively.  We'll tackle the remaining ones after the exam.</li>
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, November 30:</b> Students took the in-class portion of Exam 3.</li>
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, December 2:</b> I lectured my butt off today.  We more or less covered 8.24-8.35.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, November 27:</b> Today was mostly me lecturing.  We covered 8.24 through 8.32.  Along the way DV presented Exercise 8.27.  We will pick up where we left off on Wednesday.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, November 29:</b> Coming soon.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, December 1:</b> Students took the in-class portion of Exam 3.</li>
 </ul>
 
 ## Week 15 ##
 
 <ul class="fa-ul">
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, December 5:</b> After returning the in-class portion of Exam 3, I summarized the solution to a couple of the problems.  Next, I provided a few hints on problems for the take-home portion of the exam.  With the time we had left, I lectured over material from Chapter 9.</li>
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, December 7:</b> More action-packed lecturing.  Other than the proof of the First Isomorphism Theorem, we wrapped up Chapter 9.  In addition, we covered a substantial chunk of Chapter 10.  We will prove the First Isomorphism Theorem on Friday and do some more of the content in Chapter 10.</li>
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, December 9:</b> Last day of class!  I'm going to miss this group of students.  Everyone has consistently had a positive attitude.  Today, I reviewed a couple homework problems that utilized the First Isomorphism Theorem for groups and then continued lecturing over Chapter 10.</li>
-</ul> -->
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, December 4:</b> Coming soon.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, December 6:</b> Coming soon.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, December 8:</b> Coming soon.</li>
+</ul>
