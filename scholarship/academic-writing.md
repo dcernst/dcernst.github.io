@@ -24,6 +24,7 @@ You can find a recent version of my curriculum vitae [here]({{site.baseurl}}/sch
 
 ## Journal Articles
   * D.C. Ernst and N. Sieben. Impartial achievement and avoidance games for generating finite groups. *Int. J. Game Theory* (to appear). [[arXiv:1407.0784](http://arxiv.org/abs/1407.0784)]
+  * D.C. Ernst, T.J. Hitchman, and A. Hodge. Bringing Inquiry to the First Two Years of College Mathematics. *PRIMUS* 27(7), 641-645, 2017. [[DOI:10.1080/10511970.2017.1393846](http://www.tandfonline.com/doi/full/10.1080/10511970.2017.1393846)]
   * D.C. Ernst, A. Hodge, and S. Yoshinobu. Doceamus: What Is Inquiry-Based Learning? *Notices of the AMS* 64(6), 2017. [[ePrint](http://www.ams.org/publications/journals/notices/201706/rnoti-p570.pdf)]
   * B.J. Benesh, D.C. Ernst, and N. Sieben. Impartial achievement games for generating generalized dihedral groups. *Australas. J. Combin.* 68(3), 371-384, 2017. [[arXiv:1608.00259](http://arxiv.org/abs/1608.00259)] [[ePrint](https://ajc.maths.uq.edu.au/pdf/68/ajc_v68_p371.pdf)]
   * D.C. Ernst, M. Hastings, and S. Salmon. Factorization of Temperley-Lieb diagrams. *Involve* 10(1), 89-108, 2017. [[arXiv:1509.01241](http://arxiv.org/abs/1509.01241)]
