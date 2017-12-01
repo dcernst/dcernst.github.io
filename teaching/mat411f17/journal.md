@@ -140,7 +140,7 @@ We’ll use this page to keep track of what has happened each day in class. It w
 
 <ul class="fa-ul">
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, November 27:</b> Today was mostly me lecturing.  We covered 8.24 through 8.32.  Along the way DV presented Exercise 8.27.  We will pick up where we left off on Wednesday.</li>
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, November 29:</b> Coming soon.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, November 29:</b> We had a fairly productive day, wrapping up Chapter 8 and getting most of the way through Chapter 9.  We had JG, EM, SS, AB2, DF, GF, AO, and JQ present Theorem 8.36, Exercise 9.3, Theorem 9.4, Theorem 9.6, Theorem 9.7, Exercise 9.9, Exercise 9.10, and Theorem 9.12, respectively.  In addition, I presented Exercise 8.33, Theorem 8.35, Problem 8.37, Theorem 8.39, Problem 8.40, and Exercise 9.2.</li>
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, December 1:</b> Students took the in-class portion of Exam 3.</li>
 </ul>
 
