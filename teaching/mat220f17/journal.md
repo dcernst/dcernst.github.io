@@ -142,7 +142,7 @@ We’ll use this page to keep track of what has happened each day in class. It w
 
 <ul class="fa-ul">
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, November 27:</b> We accomplished quite a bit today. After discussing Problem B.1 from Quiz 6, we started discussing the problems that were due today. We had AT, YS/JL/TN, and JK/QS/MQ present Problems 83, 84, and 85, respectively.  We had time at the end to get a jump start on Problems 86-88.</li>
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, November 29:</b> Coming soon.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, November 29:</b> DC, HR, and MG each made contributions to Problem 86 (chameleons) and then I led a discussion to wrap it all up.  Next, MF and VM presented two distinct solutions to Problem 88 (cut to make square).  This was followed by discussion of Problem 87 (Good Teacher). JG showed us a solution that involved a repeated root and then EB shared her proposed method of attack. VM summarized her approach to the problem and provided a solution that did not involve a repeated root.  We spent the last few minutes getting a start on Problem 89 (colored number line).</li>
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, December 1:</b> Students took Quiz 7.</li>
 </ul>
 
