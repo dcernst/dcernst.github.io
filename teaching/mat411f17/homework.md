@@ -65,6 +65,7 @@ The following assignments are to be turned in at the end of the indicated class 
 - **Daily Homework 31:** Complete 7.31 and 7.32 in [Chapter 7: Cosets, Lagrange's Theorem, and Normal Subgroups]({{site.baseurl}}/teaching/mat411f17/CosetsLagrangeNormal.pdf) and read the remainder of the chapter. In addition, complete 8.6-8.8, 8.11, 8.13, 8.14, 8.17-8.20, 8.24, 8.25 in [Chapter 8: Products and Quotients of Groups]({{site.baseurl}}/teaching/mat411f17/ProductsQuotients.pdf) and carefully read the surrounding text. (Due Wednesday, November 22)
 - **Daily Homework 32:** Complete 8.26-8.28, 8.30-8.33, 8.35-8.37, 8.39, 8.40 in [Chapter 8: Products and Quotients of Groups]({{site.baseurl}}/teaching/mat411f17/ProductsQuotients.pdf) and digest the surrounding text along the way. (Due Monday, November 27)
 - **Daily Homework 33:** Complete 9.2-9.4, 9.6, 9.7, 9.9-9.12, 9.15 in [Chapter 9: Homomorphisms and the Isomorphism Theorems]({{site.baseurl}}/teaching/mat411f17/Homomorphisms.pdf) and digest the surrounding text along the way. (Due Wednesday, November 29)
+- **Daily Homework 34:** Complete ??? in [Chapter 10: An Introduction to Rings]({{site.baseurl}}/teaching/mat411f17/Rings.pdf) and digest the surrounding text along the way. (Due Wednesday, December 6)
 
 <!--
 - **Daily Homework 34:** Complete 9.15, 9.17, 10.8, 10.9, 10.15, 10.16 in [Chapter 9: Homomorphisms and the Isomorphism Theorems]({{site.baseurl}}/teaching/mat411f17/Homomorphisms.pdf) and [Chapter 10: An Introduction to Rings]({{site.baseurl}}/teaching/mat411f17/Rings.pdf). (Due Wednesday, December 7)
