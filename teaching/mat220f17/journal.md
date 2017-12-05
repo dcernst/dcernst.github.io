@@ -149,7 +149,7 @@ We’ll use this page to keep track of what has happened each day in class. It w
 ## Week 15 ##
 
 <ul class="fa-ul">
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, December 4:</b> Coming soon.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, December 4:</b> We had JG, JR, HR/MQ, and EB present Problems 90, 91, 92, and 89(a).  We didn't have time to discuss part (b) of Problem 89.  Hopefully, we can do that on Wednesday.</li>
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, December 6:</b> Coming soon.</li>
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, December 8:</b> Coming soon.</li>
 </ul>

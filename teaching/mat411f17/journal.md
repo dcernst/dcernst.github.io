@@ -147,7 +147,7 @@ We’ll use this page to keep track of what has happened each day in class. It w
 ## Week 15 ##
 
 <ul class="fa-ul">
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, December 4:</b> Coming soon.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, December 4:</b> We wrapped up Chapter 9 and I started lecturing over Chapter 10.</li>
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, December 6:</b> Coming soon.</li>
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, December 8:</b> Coming soon.</li>
 </ul>
