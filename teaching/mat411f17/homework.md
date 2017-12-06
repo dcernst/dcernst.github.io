@@ -66,7 +66,7 @@ The following assignments are to be turned in at the end of the indicated class 
 - **Daily Homework 32:** Complete 8.26-8.28, 8.30-8.33, 8.35-8.37, 8.39, 8.40 in [Chapter 8: Products and Quotients of Groups]({{site.baseurl}}/teaching/mat411f17/ProductsQuotients.pdf) and digest the surrounding text along the way. (Due Monday, November 27)
 - **Daily Homework 33:** Complete 9.2-9.4, 9.6, 9.7, 9.9-9.12, 9.15 in [Chapter 9: Homomorphisms and the Isomorphism Theorems]({{site.baseurl}}/teaching/mat411f17/Homomorphisms.pdf) and digest the surrounding text along the way. (Due Wednesday, November 29)
 - **Daily Homework 34:** Complete 10.9, 10.15, 10.20, 10.27, 10.31, 10.33, 10.36(ab) in [Chapter 10: An Introduction to Rings]({{site.baseurl}}/teaching/mat411f17/Rings.pdf) and digest the surrounding text along the way. (Due Wednesday, December 6)
-- **Daily Homework 35:** Complete (coming soon) in [Chapter 10: An Introduction to Rings]({{site.baseurl}}/teaching/mat411f17/Rings.pdf) and digest the surrounding text along the way. (Due Friday, December 8)
+- **Daily Homework 35:** Complete 10.38, 10.39, 10.44, 10.48 in [Chapter 10: An Introduction to Rings]({{site.baseurl}}/teaching/mat411f17/Rings.pdf) and digest the surrounding text along the way. (Due Friday, December 8)
 
 <!--
 - **Daily Homework 34:** Complete 9.15, 9.17, 10.8, 10.9, 10.15, 10.16 in [Chapter 9: Homomorphisms and the Isomorphism Theorems]({{site.baseurl}}/teaching/mat411f17/Homomorphisms.pdf) and [Chapter 10: An Introduction to Rings]({{site.baseurl}}/teaching/mat411f17/Rings.pdf). (Due Wednesday, December 7)
