@@ -148,6 +148,6 @@ We’ll use this page to keep track of what has happened each day in class. It w
 
 <ul class="fa-ul">
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, December 4:</b> We wrapped up Chapter 9 and I started lecturing over Chapter 10.</li>
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, December 6:</b> Coming soon.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, December 6:</b> I continued lecturing over Chapter 10.  Along the way, we had JQ, EM, AO, and NF present Exercises 10.9, 10.15, 10.20, and 10.27, respectively.</li>
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, December 8:</b> Coming soon.</li>
 </ul>
