@@ -151,5 +151,5 @@ We’ll use this page to keep track of what has happened each day in class. It w
 <ul class="fa-ul">
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Monday, December 4:</b> We had JG, JR, HR/MQ, and EB present Problems 90, 91, 92, and 89(a).  We didn't have time to discuss part (b) of Problem 89.  Hopefully, we can do that on Wednesday.</li>
   <li><i class="fa-li fa fa-calendar-check-o"></i><b>Wednesday, December 6:</b> We began by revisiting Problems 89 and 92. Next, we had MF present his solution to Problem 93, which TN also chimed in on. This was followed by a discussion of Problem 94, which was mostly lead by me.  With the time we had left, JG presented Problem 95.</li>
-  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, December 8:</b> Coming soon.</li>
+  <li><i class="fa-li fa fa-calendar-check-o"></i><b>Friday, December 8:</b> Last day!  I'll miss this group of students. After discussing the final exam briefly, we had YS, JL, EB, and JR present Problems 96(a), 96(b), 96(c), and 97, respectively.  Next, we reviewed a few problems and key ideas.  In particular, we discussed parity arguments, in general.</li>
 </ul>
