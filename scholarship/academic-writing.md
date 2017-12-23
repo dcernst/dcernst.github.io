@@ -53,31 +53,28 @@ Below is a list of course materials that I have written to be used with an [inqu
 
   * D.C. Ernst. *An Inquiry-Based Approach to Abstract Algebra*. IBL course materials for an abstract algebra course with an emphasis on visualization. [[Source](http://dcernst.github.io/IBL-AbstractAlgebra/)] [![DOI](https://zenodo.org/badge/5110/dcernst/IBL-AbstractAlgebra.svg)](https://zenodo.org/badge/latestdoi/5110/dcernst/IBL-AbstractAlgebra)
   * D.C. Ernst. *An Introduction to Proof via Inquiry-Based Learning*. IBL course materials for an introduction to proof course. [[Source](http://dcernst.github.io/IBL-IntroToProof/)] [![DOI](https://zenodo.org/badge/5110/dcernst/IBL-IntroToProof.svg)](https://zenodo.org/badge/latestdoi/5110/dcernst/IBL-IntroToProof)
-  <!-- * D.C. Ernst, N.Sieben. *MAT 220 Problem Collection*. MAT 220 is an introductory course in mathematical reasoning in multi-step problems across different areas of mathematics. The goal is to use elementary mathematical tools to solve more complex problems in already familiar areas of study instead of teaching new mathematical tools that are used in straightforward one-step exercises. The focus is on problem solving and solution writing. -->
 
 ## Online Columns and Blog Posts
+From Spring 2016 through Spring 2016, I was co-editor and author for [Math Ed Matters](http://maamathedmatters.blogspot.com) and from Fall 2016 through Fall 2017, was a co-editor and author for [Teaching Tidbits](http://maateachingtidbits.blogspot.com). Both are online columns sponsored by the [Mathematical Association of America](http://maa.org). Below are several posts that I wrote for *Math Ed Matters*, *Teaching Tidbits*, as well as a few other online venues.  I also write sporadically about mathematics and teaching on my [personal blog]({{site.baseurl}}/blog/).
 
-  * I am a co-editor/author for the online column [Teaching Tidbits](http://maateachingtidbits.blogspot.com), which is sponsored by the [Mathematical Association of America](http://maa.org).  Below are some of my posts.
-      * D.C. Ernst. Fostering Productive Failure. *Teaching Tidbits*. To appear Fall 2017.  
-      * D.C. Ernst. Want to Give Your Teaching Style a Makeover This Summer? Here’s How. *Teaching Tidbits*. April 2017. [[Blog Post](http://maateachingtidbits.blogspot.com/2017/04/want-to-give-your-teaching-style.html)]
-      * D.C. Ernst. Who generates the examples? *Teaching Tidbits*. November 2016. [[Blog Post](http://maateachingtidbits.blogspot.com/2016/11/who-generates-examples.html)]
-  * I am a co-editor/author (joint with [Angie Hodge](http://www.unomaha.edu/math/people/hodge/)) for [Math Ed Matters](http://maamathedmatters.blogspot.com), which is an online column sponsored by the [MAA](http://maa.org).  The column explores topics and current events related to undergraduate mathematics education. Below is a selection of my posts.
-      * D.C. Ernst. Setting the Stage. *Math Ed Matters*. January 2015. [[Blog Post](http://maamathedmatters.blogspot.com/2015/01/setting-stage.html)]
-      * D.C. Ernst. The Twin Pillars of IBL. *Math Ed Matters*. January 2015. [[Blog Post](http://maamathedmatters.blogspot.com/2015/01/the-twin-pillars-of-ibl.html)]
-      * D.C. Ernst. Fear is the mind-killer. *Math Ed Matters*. June 2014. [[Blog Post](http://maamathedmatters.blogspot.com/2014/06/fear-is-mind-killer.html)]
-      * D.C. Ernst. Encouraging Students to Tinker. *Math Ed Matters*. August 2014. [[Blog Post](http://maamathedmatters.blogspot.com/2014/04/encouraging-students-to-tinker.html)]
-      * D.C. Ernst, A. Hodge, and T.J. Hitchman. Engaging in Inquiry-Based Learning. *Math Ed Matters*. February 2014. [[Blog Post](http://maamathedmatters.blogspot.com/2014/02/engaging-in-inquiry-based-learning.html)]
-      * D.C. Ernst and A. Hodge. Math Ed Mania at the JMM. *Math Ed Matters*. January 2014. [[Blog Post](http://maamathedmatters.blogspot.com/2014/01/math-ed-mania-at-jmm.html)]
-      * D.C. Ernst and A. Hodge. The JMM: What's Mathematics Education Got to Do with It? *Math Ed Matters*. December 2013. [[Blog Post](http://maamathedmatters.blogspot.com/2013/12/the-jmm-whats-mathematics-education-got.html)]
-      * D.C. Ernst. Give the Students the Colored Pen. *Math Ed Matters*. August 2013. [[Blog Post](http://maamathedmatters.blogspot.com/2013/08/give-students-colored-pen.html)]
-      * D.C. Ernst. Personality Matters? *Math Ed Matters*. July 2013. [[Blog Post](http://maamathedmatters.blogspot.com/2013/07/personality-matters.html)]
-      * D.C. Ernst. Grade School Utopia? *Math Ed Matters*. July 2013. [[Blog Post](http://maamathedmatters.blogspot.com/2013/07/grade-school-utopia.html)]
-      * D.C. Ernst and A. Hodge. Try, Fail, Understand, Win. *Math Ed Matters*. June 2013. [[Blog Post](http://maamathedmatters.blogspot.com/2013/06/try-fail-understand-win.html)]
-      * D.C. Ernst. What the Heck Is IBL? *Math Ed Matters*. May 2013. [[Blog Post](http://maamathedmatters.blogspot.com/2013/05/what-heck-is-ibl.html)]
+  * D.C. Ernst. The Role of Failure and Struggle in the Mathematics Classroom. *Teaching Tidbits*. November 2017. [Blog Post](http://maateachingtidbits.blogspot.com/2017/11/the-role-of-failure-and-struggle-in.htmll)]
+  * D.C. Ernst. Want to Give Your Teaching Style a Makeover This Summer? Here’s How. *Teaching Tidbits*. April 2017. [[Blog Post](http://maateachingtidbits.blogspot.com/2017/04/want-to-give-your-teaching-style.html)]
+  * D.C. Ernst. Who generates the examples? *Teaching Tidbits*. November 2016. [[Blog Post](http://maateachingtidbits.blogspot.com/2016/11/who-generates-examples.html)]
+  * D.C. Ernst. Setting the Stage. *Math Ed Matters*. January 2015. [[Blog Post](http://maamathedmatters.blogspot.com/2015/01/setting-stage.html)]
+  * D.C. Ernst. The Twin Pillars of IBL. *Math Ed Matters*. January 2015. [[Blog Post](http://maamathedmatters.blogspot.com/2015/01/the-twin-pillars-of-ibl.html)]
+  * D.C. Ernst. Fear is the mind-killer. *Math Ed Matters*. June 2014. [[Blog Post](http://maamathedmatters.blogspot.com/2014/06/fear-is-mind-killer.html)]
+  * D.C. Ernst. Encouraging Students to Tinker. *Math Ed Matters*. August 2014. [[Blog Post](http://maamathedmatters.blogspot.com/2014/04/encouraging-students-to-tinker.html)]
+  * D.C. Ernst, A. Hodge, and T.J. Hitchman. Engaging in Inquiry-Based Learning. *Math Ed Matters*. February 2014. [[Blog Post](http://maamathedmatters.blogspot.com/2014/02/engaging-in-inquiry-based-learning.html)]
+  * D.C. Ernst and A. Hodge. Math Ed Mania at the JMM. *Math Ed Matters*. January 2014. [[Blog Post](http://maamathedmatters.blogspot.com/2014/01/math-ed-mania-at-jmm.html)]
+  * D.C. Ernst and A. Hodge. The JMM: What's Mathematics Education Got to Do with It? *Math Ed Matters*. December 2013. [[Blog Post](http://maamathedmatters.blogspot.com/2013/12/the-jmm-whats-mathematics-education-got.html)]
+  * D.C. Ernst. Give the Students the Colored Pen. *Math Ed Matters*. August 2013. [[Blog Post](http://maamathedmatters.blogspot.com/2013/08/give-students-colored-pen.html)]
+  * D.C. Ernst. Personality Matters? *Math Ed Matters*. July 2013. [[Blog Post](http://maamathedmatters.blogspot.com/2013/07/personality-matters.html)]
+  * D.C. Ernst. Grade School Utopia? *Math Ed Matters*. July 2013. [[Blog Post](http://maamathedmatters.blogspot.com/2013/07/grade-school-utopia.html)]
+  * D.C. Ernst and A. Hodge. Try, Fail, Understand, Win. *Math Ed Matters*. June 2013. [[Blog Post](http://maamathedmatters.blogspot.com/2013/06/try-fail-understand-win.html)]
+  * D.C. Ernst. What the Heck Is IBL? *Math Ed Matters*. May 2013. [[Blog Post](http://maamathedmatters.blogspot.com/2013/05/what-heck-is-ibl.html)]
   * Teaching Calculus 1 with a Focus on Student Presentations. *Discovering the Art of Mathematics*. October 2015. [[Blog Post](https://www.artofmathematics.org/blogs/cvonrenesse/guest-blog-by-dana-ernst)]
   * 4+1 interview with Dana Ernst. *Casting Out Nines* by R. Talbert. The Chronicle Blog Network. August 2013. [[Blog Post](http://chronicle.com/blognetwork/castingoutnines/2013/08/01/41-interview-with-dana-ernst/)]
   * IBL Instructor Perspectives: Professor Dana Ernst. *The IBL Blog* by S. Yoshinobu. February 2012. [[Blog Post](http://theiblblog.blogspot.com/2012/02/ibl-instructor-perspectives-professor.html)]
-  * I also write sporadically on my [personal blog]({{site.baseurl}}/blog/). Topics focus on mathematics, teaching, and technology.
 
 ## Theses
   * D.C. Ernst. A diagrammatic representation of an affine *C* Temperley-Lieb algebra, PhD Thesis, University of Colorado, 2008. [[arXiv:0905.4457](http://arxiv.org/abs/0905.4457)]
