@@ -8,8 +8,8 @@ categories:
 tags:
   - productive struggle
   - productive failure
+  - growth mindset
   - Bruce Lee
-  - beauty
   - quote
 ---
 
