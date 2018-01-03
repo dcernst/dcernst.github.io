@@ -45,7 +45,7 @@ layout: default
       <i class="fa fa-user fa-fw"></i>&nbsp; Dana C. Ernst, PhD<br />
       <i class="fa fa-university fa-fw"></i>&nbsp; AMB 176<br />
       <i class="fa fa-users fa-fw"></i>&nbsp; 10:15-11:15 MWF and 9-10 TTh (or by appointment)<br />
-      <i class="fa fa-envelope-o fa-fw"></i>&nbsp; <a href="mailto:dana.ernst@nau.edu">dana.ernst@nau.edu</a><br />
+      <i class="fa fa-envelope fa-fw"></i>&nbsp; <a href="mailto:dana.ernst@nau.edu">dana.ernst@nau.edu</a><br />
       <i class="fa fa-phone fa-fw"></i>&nbsp; 928.523.6852<br />
       <i class="fa fa-link fa-fw"></i>&nbsp; <a href="{{site.baseurl}}/teaching/mat411f16/">dcernst.github.io/teaching/mat411f16</a>
     </div>
@@ -281,5 +281,5 @@ There are many resources available to get help.  First, I recommend that you wor
 Any changes in this syllabus made during the term will be properly communicated to the class.
 
 <div class="alert alert-info" role="alert">
-<i class="fa fa-hand-peace-o"></i>&nbsp; Portions of "Goals" and "Class Presentations and Participation" are adapted from <a href="http://www2.kenyon.edu/Depts/Math/schumacherc/public_html/" class="alert-link">Carol Schumacher's</a> <i>Chapter Zero Instructor Resource Manual</i>. The first paragraph of "An Inquiry-Based Approach" is borrowed from <a href="https://gist.github.com/RobertTalbert/7854aadbdfca232dbdda" class="alert-link">Robert Talbert</a>. Lastly, I've borrowed a few phrases here and there from <a href="http://www.users.csbsju.edu/~bbenesh/" class="alert-link">Bret Benesh</a>.
+<i class="fa fa-hand-peace"></i>&nbsp; Portions of "Goals" and "Class Presentations and Participation" are adapted from <a href="http://www2.kenyon.edu/Depts/Math/schumacherc/public_html/" class="alert-link">Carol Schumacher's</a> <i>Chapter Zero Instructor Resource Manual</i>. The first paragraph of "An Inquiry-Based Approach" is borrowed from <a href="https://gist.github.com/RobertTalbert/7854aadbdfca232dbdda" class="alert-link">Robert Talbert</a>. Lastly, I've borrowed a few phrases here and there from <a href="http://www.users.csbsju.edu/~bbenesh/" class="alert-link">Bret Benesh</a>.
 </div>
