@@ -28,7 +28,7 @@ If you want to know more about IBL, check out my [What the Heck is IBL?][6] blog
 
  [1]: http://nau.edu
  [2]: http://www.colorado.edu/eer/research/steminquiry.html
- [3]: http://danaernst.com/talks/IBLMathTwoPageSummary.pdf
+ [3]: http://danaernst.com/resources/IBLSummary.pdf
  [4]: http://danaernst.com/talks/SeriesDialogue.pdf
  [5]: http://www.artofmathematics.org/
  [6]: http://maamathedmatters.blogspot.com/2013/05/what-heck-is-ibl.html
