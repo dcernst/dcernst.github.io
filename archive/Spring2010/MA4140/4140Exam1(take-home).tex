@@ -1,0 +1,196 @@
+\documentclass[11pt]{article}
+
+\usepackage{url} 
+\usepackage{tikz}
+\usepackage{fancyhdr}
+\usepackage[margin=.75in]{geometry}
+\usepackage[parfill]{parskip}
+\usepackage{subfig}
+\usepackage[hang,flushmargin,symbol*]{footmisc}
+\usepackage{amsmath}
+\usepackage{amsthm}
+\usepackage{amssymb}
+\usepackage{mathtools}
+\usepackage{enumitem}
+\usepackage{graphicx}
+\usepackage{color}
+\definecolor{darkblue}{rgb}{0, 0, .6}
+\definecolor{grey}{rgb}{.7, .7, .7}
+\usepackage[breaklinks]{hyperref}
+\hypersetup{
+	colorlinks=true,
+	linkcolor=darkblue,
+	anchorcolor=darkblue,
+	citecolor=darkblue,
+	pagecolor=darkblue,
+	urlcolor=darkblue,
+	pdftitle={},
+	pdfauthor={}
+}
+
+\newtheorem{theorem}{Theorem}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{claim}[theorem]{Claim}
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{conjecture}[theorem]{Conjecture}
+
+\theoremstyle{definition} 
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{example}[theorem]{Example}
+\newtheorem{remark}[theorem]{Remark}
+\newtheorem{important}[theorem]{Important Note}
+\newtheorem{recall}[theorem]{Recall}
+\newtheorem{note}[theorem]{Note}
+\newtheorem{question}[theorem]{Question}
+
+\newcommand{\blank}{\underline{\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ }}
+\newcommand{\ds}{\displaystyle}
+\newcommand{\sech}{\mathrm{sech\ }}
+\newcommand{\csch}{\mathrm{csch\ }}
+\newcommand{\arcsec}{\mathrm{arcsec\ }}
+\newcommand{\derx}{\frac{d}{dx}}
+
+\setlength{\parindent}{0pt}
+
+%%%%%%Header/Footer%%%%%%%
+
+\pagestyle{fancy}
+
+\lhead{\scriptsize Exam 1 (take-home portion)} 
+\chead{} 
+\rhead{\scriptsize \thepage} 
+\lfoot{\scriptsize This work is licensed under the \href{http://creativecommons.org/licenses/by-sa/3.0/us/}{Creative Commons Attribution-Share Alike 3.0 License}.} 
+\cfoot{} 
+\rfoot{\scriptsize Written by \href{http://oz.plymouth.edu/~dcernst}{D.C. Ernst}} 
+\renewcommand{\headrulewidth}{0.4pt} 
+\renewcommand{\footrulewidth}{0.4pt} 
+
+%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+\begin{center}
+
+{\Large\bf MA 4140: Algebraic Structures (Spring 2010)}\\
+\smallskip
+{\Large\bf Exam 1 (take-home portion)}
+
+\bigskip
+
+  \fbox{\parbox{7in}{
+    \vspace{12pt}
+    \textbf{\large NAME:}
+    \vspace{12pt}
+  }}
+
+\end{center}
+
+\setlength{\fboxsep}{10pt}
+
+\section*{Instructions}
+This portion of Exam 1 consists of two parts.
+
+\begin{enumerate}
+
+\item The theorems in part 1 are identical to the ones given on the in-class portion of Exam 1.  For this part, prove any \emph{one} of the theorems that you did \emph{not} prove on the in-class exam.
+
+\item In part 2, there are four theorems given.  Prove any \emph{two} of these theorems.
+
+\end{enumerate}
+
+This portion of Exam 1 is worth 40 points.  Each of the three proofs that you complete is worth 10 points.  Your written presentation of the proofs (which includes spelling, grammar, punctuation, clarity, and legibility) is worth the remaining 10 points.
+
+I expect your proofs to be \emph{well-written, neat, and organized}.  You should write in \emph{complete sentences}.  Do not turn in rough drafts.  What you turn in should be the ``polished'' version of potentially several drafts.  Feel free to type up your final version.  If you want the \LaTeX\ source file of this exam, so that you can type up your solutions using \LaTeX, please let me know.
+
+The simple rules for this portion of the exam are:
+
+\begin{enumerate}
+\item You may freely use any theorems that we have discussed in class, but you should make it clear where you are using a previous result and which result you are using.  For example, if a sentence in your proof follows from Proposition 2.9, then you should say so.
+\item You cannot use any results from the book or otherwise that we have not covered, unless you prove them.
+\item You are NOT allowed to copy someone else's work.
+\item You are NOT allowed to let someone else copy your work.
+\item You are allowed to discuss the problems with each other and critique each other's work.
+\end{enumerate}
+
+This portion of Exam 1 is due by 5\textsc{pm} on Friday, 3.12.  You should turn in this cover page and the three proofs (one from part 1 and two from part 2) that you have decided to submit.
+
+\bigskip
+
+To convince me that you have read and understand the instructions, sign in the box below.
+
+\bigskip
+
+  \fbox{\parbox{7in}{
+    \vspace{12pt}
+    \textbf{\large Signature:} \hfill
+    \vspace{12pt}
+  }}
+
+\bigskip
+
+Good luck and have fun!
+
+\newpage
+
+\section*{Part 1}
+Prove \emph{one} of the following four theorems that you did \emph{not} attempt on the in-class portion of the exam.
+
+\bigskip
+
+\begin{theorem}
+Let $f: A\to B$ and $g: B \to C$ be functions.  If $g\circ f$ is onto, then $g$ is onto.
+\end{theorem}
+
+\newpage
+
+\begin{theorem}
+For all $n\in \mathbb{N}$, $5n+3$ and $7n+4$ are relatively prime.\footnote{Hint: Do not use induction, but rather use the Euclidean Algorithm.}
+\end{theorem}
+
+\newpage
+
+\begin{theorem}
+Let $G$ be a group.  Then $(xy)^{-1}=y^{-1}x^{-1}$ for all $x,y\in G$.
+\end{theorem}
+
+\newpage
+
+\begin{theorem}
+Let $G$ be a group such that $a^4 ba=ba^2$ and $a^3=e$ for all $a,b\in G$.  Then $G$ is abelian.
+\end{theorem}
+
+\newpage
+
+\section*{Part 2}
+Prove any \emph{two} of the following four theorems.
+
+\bigskip
+
+\begin{theorem}
+Let $H\leq G$, where $G$ is a group.  Define the \emph{normalizer} of $H$ to be
+\[ 
+N(H)=\{x\in G : xHx^{-1}=H\}.
+\]
+Then $N(H)\leq G.$\footnote{Note that  $xHx^{-1}=H$ does not necessarily mean that $xhx^{-1}=h$ for all $h\in H$.  Rather, $ xHx^{-1}=H$ means that $xhx^{-1}$ is equal to some element of $H$ for all $h\in H$.  Be careful with how you name elements.}
+\end{theorem}
+
+\newpage
+
+\begin{theorem}
+Suppose that $G=\{e, x, x^2, y, yx, yx^2 \}$ is a non-abelian group with $|x|=3$ and $|y|=2.$  Show that $xy=yx^2.$
+\end{theorem}
+
+\newpage
+
+\begin{theorem}
+Let $G$ and $H$ be groups (and assume the binary operation in both groups is multiplication).  Suppose $f: G\to H$ is a function satisfying $f(g_{1}g_{2})=f(g_{1})f(g_{2})$ for all $g_{1},g_{2}\in G$.  If $e$ is the identity in $G$ and $e'$ is the identity in $H$, then (i) $f(g^{-1})=(f(g))^{-1}$ for all $g\in G$, and (ii) $f(e)=e'$.\footnote{You can prove (i) and (ii) in either order, but probably you'll need one for the other.}
+
+\end{theorem}
+
+\newpage
+
+\begin{theorem}
+Suppose that $G$ is an abelian group and let $H=\{g\in G: g^2=e\}$, where $e$ is the identity element in $G$ (and we are assuming that the binary operation is written as multiplication).  Then $H\leq G$.
+\end{theorem}
+
+\end{document}

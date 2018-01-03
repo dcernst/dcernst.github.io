@@ -1,0 +1,235 @@
+\documentclass[11pt]{article}
+
+\usepackage{url}
+\usepackage{tikz}
+\usepackage{fancyhdr}
+\usepackage[margin=.7in]{geometry}
+\usepackage[hang,flushmargin,symbol*]{footmisc}
+\usepackage{amsmath}
+\usepackage{todonotes}
+\usepackage{amsthm}
+\usepackage{amssymb}
+\usepackage{mathtools}
+\usepackage{enumitem}
+\usepackage{graphicx}
+\usepackage{array}
+\usepackage{color}
+\usepackage{tipa} %to get \textpipe to work
+\definecolor{darkblue}{rgb}{0, 0, .6}
+\definecolor{grey}{rgb}{.7, .7, .7}
+\usepackage[breaklinks]{hyperref}
+\hypersetup{
+	colorlinks=true,
+	linkcolor=darkblue,
+	anchorcolor=darkblue,
+	citecolor=darkblue,
+	pagecolor=darkblue,
+	urlcolor=darkblue,
+	pdftitle={},
+	pdfauthor={}
+}
+
+\theoremstyle{definition} 
+\newtheorem{theorem}{Theorem}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{claim}[theorem]{Claim}
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{conjecture}[theorem]{Conjecture}
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{example}[theorem]{Example}
+\newtheorem{remark}[theorem]{Remark}
+\newtheorem{important}[theorem]{Important Note}
+\newtheorem{recall}[theorem]{Recall}
+\newtheorem{note}[theorem]{Note}
+\newtheorem{question}[theorem]{Question}
+
+\newcommand{\blank}{\underline{\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ }}
+\newcommand{\ds}{\displaystyle}
+\newcommand{\ord}{\mathrm{ord}}
+
+%todo commants
+\newcommand{\insertref}[1]{\todo[color=green!40]{#1}}
+\newcommand{\comment}[1]{\todo[color=blue!20!white,inline]{#1}}
+\setlength{\marginparwidth}{2cm}
+
+\setlength{\parindent}{0pt}
+\setlength{\fboxsep}{10pt}
+
+\newcolumntype{x}[1]{%
+>{\centering\hspace{0pt}}p{#1}}%
+\renewcommand\arraystretch{2}
+
+%%%%%%Header/Footer%%%%%%%
+
+\pagestyle{fancy}
+
+\lhead{\scriptsize  MA4140: Abstract Algebra (Fall 2011)} 
+\chead{} 
+\rhead{\scriptsize Final Exam} 
+\lfoot{\scriptsize This work is licensed under the \href{http://creativecommons.org/licenses/by-sa/3.0/us/}{Creative Commons Attribution-Share Alike 3.0 License}.} 
+\cfoot{} 
+\rfoot{\scriptsize Written by \href{http://oz.plymouth.edu/~dcernst}{D.C. Ernst}} 
+\renewcommand{\headrulewidth}{0.4pt} 
+\renewcommand{\footrulewidth}{0.4pt} 
+
+%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+\begin{center}
+
+{\Large\bf MA4140: Abstract Algebra (Fall 2011)}\\
+\smallskip
+{\Large\bf Final Exam}
+
+\bigskip
+
+  \fbox{\parbox{7in}{
+    \vspace{10pt}
+    \textbf{\large Your Name:}
+    \vspace{10pt}
+  }}
+  
+  \bigskip
+  
+  \fbox{\parbox{7in}{
+    \vspace{10pt}
+    \textbf{\large Names of any collaborators:}
+    \vspace{10pt}
+  }}
+
+\end{center}
+
+\setlength{\fboxsep}{10pt}
+
+\section*{Instructions}
+
+This exam is worth a total of 86 points and 15\% of your overall grade.  For each part of the exam, read the instructions carefully.
+
+\bigskip
+
+I expect your proofs to be \emph{well-written, neat, and organized}.  You should write in \emph{complete sentences}.  Do not turn in rough drafts.  What you turn in should be the ``polished'' version of potentially several drafts.  Feel free to type up your final version.  
+
+\bigskip
+
+The \LaTeX\ source file of this exam is also available if you are interested in typing up your solutions using \LaTeX.  I'll help you do this if you'd like.
+
+\bigskip
+
+The simple rules for the exam are:
+
+\begin{enumerate}
+\item You may freely use any theorems that we have discussed in class, but you should make it clear where you are using a previous result and which result you are using.  For example, if a sentence in your proof follows from Theorem 28, then you should say so.
+\item Unless you prove them, you cannot use any results from the course notes that we have not covered.
+\item You are NOT allowed to consult external sources when working on the exam.  This includes people outside of the class, other textbooks, and online resources.
+\item You are NOT allowed to copy someone else's work.
+\item You are NOT allowed to let someone else copy your work.
+\item You are allowed to discuss the problems with each other and critique each other's work.
+\end{enumerate}
+
+The exam is due to my office by 5\textsc{pm} on \textbf{Friday, December 16}.  You should turn in this cover page and all of the work that you have decided to submit.
+
+\bigskip
+
+To convince me that you have read and understand the instructions, sign in the box below.
+
+\bigskip
+
+  \fbox{\parbox{7in}{
+    \vspace{10pt}
+    \textbf{\large Signature:} \hfill
+    \vspace{10pt}
+  }}
+
+\bigskip
+
+Good luck and have fun!
+
+\newpage
+
+\section*{Part 1}
+
+Complete each of the following problems.  You should provide sufficient justification where necessary.
+
+\begin{enumerate}
+
+\item (5 points) Suppose that $f$ is a homomorphism from $\mathbb{Z}_{30}$ to $\mathbb{Z}_{30}$ such that $K_f=\{0,10,20\}$.  If $f(23)=6$, determine all elements that map to 6.
+
+\item (3 points each)  Suppose $\phi: D_{3}\to \mathbb{Z}_{2}$ is a group homomorphism satisfying 
+\[
+\phi(e)=0, \phi(r)=0, \phi(r^2)=0, \phi(s)=1, \phi(sr^2)=1.
+\]
+
+\begin{enumerate}
+
+\item Assuming that $\phi$ is a group homomorphism, find $\phi(sr)$.
+
+\item Find $\ker(\phi)$.
+
+\item Explain why $\phi$ is \emph{not} an isomorphism.
+
+\item What well-known group is $D_{3}/\ker(\phi)$ isomorphic to?  Explain your answer.
+
+\end{enumerate}
+
+\item (5 points)  Consider the group $Q_4=\{\pm 1, \pm i, \pm j, \pm k\}$ and let $H=\langle -1 \rangle$.\footnote{You may consult Group Explorer if you need to be reminded how to multiply in this group.}  It turns out that $H$ is normal in $Q_4$.  (You do \emph{not} need to prove this.)  What well-known group is $Q_4/H$ isomorphic?  Be sure to justify your answer.
+
+\item (3 points each) Consider $D_4=\langle s, r: s^2=r^4=e, sr=r^3s\rangle$.  Let $H_1=\{e,s\}$ and $H_2=\{e,s,r^2, sr^2\}$.  It turns out that both $H_1$ and $H_2$ are subgroups of $D_4$.  (You do \emph{not} need to prove this.)
+
+\begin{enumerate}
+\item Briefly justify why $H_2$ is a normal subgroup of $D_4$.
+
+\item Briefly justify why $H_1$ is a normal subgroup of $H_2$.
+
+\item Show that $H_1$ is not a normal subgroup of $D_4$.\footnote{This shows that being a normal subgroup is not transitive.}
+
+\item Briefly explain why $D_4/H_2$ and $H_2/H_1$ are isomorphic.
+\end{enumerate}
+
+\item (5 points)  Briefly explain why $Q_4$ and $D_4$ are not isomorphic.
+
+\end{enumerate}
+
+\section*{Part 2}
+
+(15 points) For each $n\in \{1,2,\ldots, 15\}$, make as complete a list as possible which gives all of the non-isomorphic $n$-element groups.  In each case, you should briefly justify your answer by citing relevant theorems (including ones that I discussed in class that may not be in the course notes).  You do \emph{not} need to list groups that are isomorphic.  For example, we know that $K_4$ and $\mathbb{Z}_2\times \mathbb{Z}_2$ are isomorphic, so when handling $n=4$, you only need to list one of these.  In some situations (e.g., $n=8$), you may not be able to list all of the possible groups of a given order or you may not be able to prove that your list is complete.  In these situations, you should state that this is the case.  You may use Group Explorer to help you, but you should not rely on it for justification.\footnote{In class, I mentioned that I wanted you to do this for 1--20, but you only need to handle 1--15.}
+
+\section*{Part 3}
+
+(8 points each) Prove any \textbf{four} of the following theorems.
+
+\begin{theorem}
+Let $G_1$ and $G_2$ be groups and let $H_1$ and $H_2$ be normal subgroups of $G_1$ and $G_2$, respectively.  Then $H_1\times H_2$ is a normal subgroup of $G_1\times G_2$.
+\end{theorem}
+
+\begin{theorem}
+Let $G$ be a group of order $p^2$ such that $p$ is prime and let $H\leq G$ such that the order of $H$ is $p$.  Then $H$ is normal in $G$.
+\end{theorem}
+
+\begin{theorem}
+Let $G$ be a group.  If $G/Z(G)$ is cyclic, then $G$ is abelian.
+\end{theorem}
+
+\begin{theorem}
+Let $f:G\to G'$ be a group homomorphism.  Then $K_f$ is a normal subgroup of $G$.\footnote{This is Corollary 90 of our course notes.}
+\end{theorem}
+
+\begin{theorem}
+If $N$ is a normal subgroup of $G$, then the natural homomorphism $h:G \to G/N$, given by $h(x) := Nx$, is a homomorphism from $G$ onto $G/N$.\footnote{This is Theorem 95 from our course notes. Note that you need to prove that $h$ is a homomorphism and that it is onto.}
+\end{theorem}
+
+\begin{theorem}
+Let $G$ be a group and let $H\leq G$. Then $H$ is a normal subgroup of the normalizer of $H$ in $G$.\footnote{Recall that the normalizer of $H$ in $G$ is defined to be $N_G(H)=\{g\in G: g^{-1}hg\in H\text{ for all } h\in H\}$.  The normalizer is a pretty good name for this set, huh?}
+\end{theorem}
+
+\begin{theorem}
+Let $n,m \in \mathbb{Z}$.  Then $(\mathbb{Z}\times \mathbb{Z})/(n\mathbb{Z}\times m\mathbb{Z})\cong \mathbb{Z}_n\times \mathbb{Z}_m$.\footnote{Since $\mathbb{Z}$ is abelian, $\mathbb{Z}\times \mathbb{Z}$ is abelian.  This implies that all subgroups of  $\mathbb{Z}\times \mathbb{Z}$ are normal.  In particular, $n\mathbb{Z}\times m\mathbb{Z}\trianglelefteq \mathbb{Z}\times \mathbb{Z}$, so that $(\mathbb{Z}\times \mathbb{Z})/(n\mathbb{Z}\times m\mathbb{Z})$ is a well-defined group.  So, all you need to do is exhibit an isomorphism and prove that it is, in fact, an isomorphism.}
+\end{theorem}
+
+\begin{theorem}
+Let $N$ be a normal subgroup of a group $G$.  If $g\in G$, then the order of $Ng$ (in $G/N$) divides the order of $g$ (in $G$).
+\end{theorem}
+
+By the way, the upshot of Theorem 4 and Theorem 5 is that normal subgroups and kernels are really the same thing.
+
+\end{document}

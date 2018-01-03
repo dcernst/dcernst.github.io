@@ -1,0 +1,315 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<link rel="icon" type="image/jpg" href="../../images/favicon.jpg" />
+<link href='http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="description" content=" " />
+<meta name="keywords" content=" " />
+<link rel="stylesheet" type="text/css" href="default2.css" media="screen" title="style (screen)" />
+<title>Quick LaTeX Guide</title>
+<script type="text/javascript"> var currentPage = "Quick LaTeX Guide";</script>
+<script type="text/javascript"> var currentCourse = "Quick LaTeX Guide";</script>
+<script type="text/javascript" src="globalFunctions.js"></script>
+<script type="text/javascript">makeTitle();</script>
+
+<script type="text/javascript"
+  src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+  MathJax.Hub.Config({
+    extensions: ["tex2jax.js","TeX/AMSmath.js","TeX/AMSsymbols.js"],
+    jax: ["input/TeX","output/HTML-CSS"],
+    tex2jax: {inlineMath: [["$","$"],["\\(","\\)"]]}
+  });
+</script>
+
+</head>
+
+<body>
+
+<div id="breadcrumbs"><a href="http://danaernst">Dr. Dana C. Ernst</a> &gt; <a href="latex.html">Quick LaTeX Guide</a>
+</div>
+
+<script type="text/javascript">makeLogo();</script>
+
+<script type="text/javascript">makeNavbar();</script>
+
+<div class="main">
+
+<script type="text/javascript">makeSidebar();</script>
+
+<div id="content">
+
+<h1>Quick LaTeX Guide</h1>
+
+<h2>About this page</h2>
+<p>This page is mostly meant to be a reference for my students, so that they can effectively use $\LaTeX$ to typeset their homework and to write mathematics in thes in Moodle.</p>
+
+<p>For information on using $\LaTeX$ via <a href="http://www.scribtex.com" target="_blank">ScribTeX</a> or installing $\LaTeX$ on your own computer, go to the bottom of this page.</p>
+
+<h2>What is LaTeX?</h2>
+<p><a href="http://en.wikipedia.org/wiki/LaTeX" target="_blank">LaTeX</a> (pronounced "lay-tech", or sometimes "la-tech") is a markup language that is the standard for typesetting mathematics.</p> 
+
+<h2>Special Considerations for Moodle</h2>
+<p>Plymouth State University's Moodle implements a subset of $\LaTeX$ via <a href="http://www.math.union.edu/~dpvc/jsMath/" target="_blank">jsMath</a>.  In ordinary $\LaTeX$, most people would use dollar signs ($\$$) as delimiters (more on this below), but things are intentionally not set up this way in Moodle since there are many circumstances when someone might want to use dollar signs and not typeset mathematics.  If you are already familar with the basics of $\LaTeX$, then the only thing you really need to know to use $\LaTeX$ in Moodle is that you must use <code>\(</code> and <code>\)</code> as delimiters instead of dollar signs.</p>
+
+<p>The upshot of this is that if you are typesetting in Moodle, everywhere you see an opening (respectively, closing) dollar sign below, you should replace it with <code>\(</code> (respectively, <code>\)</code>).</p>
+
+<h2>The Basics</h2>
+<p>You can insert mathematical expressions within your text (i.e., "inline") by using code of the form:</p>
+
+<div id="codecontainer">
+<code>
+$your-mathematical-expression-here$
+</code>
+</div>
+
+<p><i>Note:</i> If you are typesetting in Moodle, then you should use:</p>
+
+<div id="codecontainer">
+<code>
+\(your-mathematical-expression-here\)
+</code>
+</div>
+
+<p>The pair of dollar signs that frame your mathematical expression are called <i>delimiters</i> and indicate where the expression begins and ends.  You must have an opening and closing delimiter. </p>
+
+<p class="blockquote">For instance, this sentence -- which includes the equation $x^{2}+y^{2} = r^{2}$ -- is typeset as</p>
+
+<div id="codecontainer">
+<code>
+For instance, this sentence -- which includes the equation $x^{2}+y^{2} = r^{2}$ -- is typeset as
+</code>
+</div>
+<p>Notice that I didn't enclose every individual symbol with dollar signs, but rather the entire string of symbols.</p>
+
+<p>You can also have your mathematical expressions separated from the text and placed on their own line for emphasis.  For instance, if you wanted to type:</p>
+
+<p class="blockquote">Here's some fancy mathematics that I don't really understand
+\[ 
+\log \zeta(s) = s\int_{2}^{\infty} \frac{\pi(x)}{x(x^{s}-1)}~dx = \log \prod_{p} (1-p^{-s})^{-1}.
+\] 
+Man, that's complicated!</p>
+
+<p>then you'd use the code</p>
+
+<div id="codecontainer">
+<code>
+Here's some fancy mathematics that I don't really understand <br>
+\[ <br>
+\log \zeta(s) = s\int_{2}^{\infty} \frac{\pi(x)}{x(x^{s}-1)}~dx = \log \prod_{p} (1-p^{-s})^{-1}.<br>
+\] <br>
+Man, that's complicated!
+</code>
+</div>
+<p>In this case, we are using the pair of delimiters <code>\[</code> and <code>\]</code> as opposed to dollar signs.  This works in ordinary $\LaTeX$ and in Moodle.</p>
+
+<p>Here are a few things to keep in mind:</p>
+<ul>
+<li> All inline mathematical notation must be framed by dollar signs (or <code>\(</code> and <code>\)</code> in the case of Moodle).</li>
+<li>All displayed mathematical notation (i.e., on its own line and centered) is of the form <code>\[ math-stuff \]</code>.</li>
+<li>All special symbols in $\LaTeX$ are of the form <code>\some-command</code>.  Once you've used $\LaTeX$ enough, you can almost guess what the command is for a certain symbol.</li>
+</ul>
+
+<h2>Some Examples</h2>
+<p>Here are a few more examples that illustrate some of the mathematical notation we may want to use:</p>
+
+<p>
+<center>
+<table>
+	<thead>
+	<tr>
+		<th>Expression you want</th> 
+		<th>Code you type</th>
+	</tr>
+	</thead>
+	<tbody>
+	<tr>
+		<td>$\int_a^b f(x)\; dx=F(b)-F(a)$</td>
+		<td><code>$\int_a^b f(x)\; dx=F(b)-F(a)$</code></td>
+	</tr>
+	<tr>
+		<td>$n \in \mathbb{N} \subseteq \mathbb{Z}$</td>
+		<td><code>$n \in \mathbb{N} \subseteq \mathbb{Z}$</code></td>
+	</tr>
+	<tr>
+		<td>$\sum_{i=1}^n i^2=1^2+2^2+ \cdots +(n-1)^2+n^2$</td>
+		<td><code>$\sum_{i=1}^n i^2=1^2+2^2+ \cdots (n-1)^2+n^2$</code></td>
+	</tr>
+	<tr>
+		<td> $\sqrt{2} \notin \mathbb{Q}$</td>
+		<td><code>$ \sqrt{2} \notin \mathbb{Q}$</code></td>
+	</tr>
+	<tr>
+		<td> $2\in \{2,3,4\} \cap \{1,2,3\}$</td>
+		<td><code>$2\in \{2,3,4\} \cap \{1,2,3\}$</code></td>
+	</tr>
+	<tr>
+		<td>$f:A\to B$</td>
+		<td> <code>$f:A\to B$</code></td>
+	</tr>
+	<tr>
+		<td> $f(x_1)\neq f(x_2)$</td>
+		<td>  <code>$f(x_1)\neq f(x_2)$</code></td>
+	</tr>
+	<tr>
+		<td> $\{a_n\}_{n=1}^{\infty}$  </td>
+		<td> <code> $\{a_n\}_{n=1}^{\infty}$</code></td>
+	</tr>
+	<tr>
+		<td>  $(f\circ g)(x)=f(g(x))$</td>
+		<td> <code> $(f\circ g)(x)=f(g(x))$</code></td>
+	</tr>
+	<tr>
+		<td> $\frac{a}{b}+\frac{c}{d}\neq \frac{a+b}{c+d}$</td>
+		<td> <code> $\frac{a}{b}+\frac{c}{d}\neq \frac{a+b}{c+d}$</code></td>
+	</tr>
+	</tbody>
+</table>
+</center>
+</p>
+
+<h2>Greek Letters</h2>
+<p>Greek letters are typeset using <code>\name</code>: for example, <code>\theta</code> produces \(\theta\) (as long as you also include the appropriate delimiters).  In order to produce a left or right brace, the brace needs to be preceded by a backslash.  For example, $\mathbb{N}=\{1,2,3,\ldots\}$ is typeset with <code>$\mathbb{N}=\{1,2,3,\ldots\}$</code> and notice the use of <code>\{</code> and <code>\}</code>, which are needed to obtain the braces for the set.</p>
+
+<h2>Display Style</h2>
+<p>Using $\LaTeX$ allows you to do fancy things like the following:</p>
+
+<p class="blockquote">
+\begin{align*}
+\sum_{i=1}^{k+1}i & = \left(\sum_{i=1}^{k}i\right) +(k+1)\\ 
+& = \frac{k(k+1)}{2}+k+1 & (\text{by inductive hypothesis})\\
+& = \frac{k(k+1)+2(k+1)}{2}\\
+& = \frac{(k+1)(k+2)}{2}\\
+& = \frac{(k+1)((k+1)+1)}{2}.
+\end{align*}
+</p>
+
+<p>which is typeset using</p>
+
+<div id="codecontainer">
+<code>
+\begin{align*}<br>
+\sum_{i=1}^{k+1}i & = \left(\sum_{i=1}^{k}i\right) +(k+1)\\ <br>
+& = \frac{k(k+1)}{2}+k+1 & (\text{by inductive hypothesis})\\<br>
+& = \frac{k(k+1)+2(k+1)}{2}\\<br>
+& = \frac{(k+1)(k+2)}{2}\\<br>
+& = \frac{(k+1)((k+1)+1)}{2}.<br>
+\end{align*}
+</code>
+</div>
+
+<p><i>Note:</i>  In Moodle, you need to frame the above code with the display delimiters: <code>\[</code> and <code>\]</code>.
+
+<h2>Quotation Marks</h2>
+<p>To correctly typeset double quotation marks in a full-fledged $\LaTeX$ document (not Moodle), you should use the following syntax; otherwise, the left pair of quotes will be backwards.</p>
+
+<div id="codecontainer">
+<code>
+``stuff you are quoting"
+</code>
+</div>
+
+<p>To obtain the symbols on the left, look for the key on your keyboard in the upper left corner that also has the the tilde (~) on it.  You'll need to hit this key twice.  Using incorrect quotation marks is one of the most common mistakes that I see in documents written using $\LaTeX$.</p>
+
+<h2>More Information</h2>
+<p>Memorizing or looking up \(LaTeX\) commands can difficult for beginners.  Thankfully, there are a couple of really neat web-based tools available to help out.
+<ul>
+<li><a href="http://webdemo.visionobjects.com/equation.html?locale=default">Web Equation</a> by VisionObjects:  Allows you to draw complicated mathematical expressions and it will return to you the appropriate \(LaTeX\) code.</li>
+<li><a href="http://detexify.kirelabs.org/classify.html" target="_blank">Detexify</a>:  Similar to above, but you can only draw one symbol at a time.</li>
+</ul>
+
+Also, Dave Richeson of Dickinson College has put together a really great "cheat sheet", which you can find <a href="http://users.dickinson.edu/~richesod/latex/latexcheatsheet.pdf" target="_blank">here</a>.</p>
+
+<p>Below is a more comprehensive list of symbols taken from <a href="http://www.math.harvard.edu/texman/node21.html" target="_blank">here</a>. </p>
+
+<iframe src="http://www.math.harvard.edu/texman/node21.html" width="100%" height="500" scrolling="yes" frameborder="1"></iframe>
+
+<p>For a list of some of the more common \(\LaTeX\) symbols, see <a href="http://amath.colorado.edu/documentation/LaTeX/Symbols.pdf" target="_blank">here</a>.  If you want to see a really, really, really long list of symbols, go <a href="http://www.ctan.org/tex-archive/info/symbols/comprehensive/symbols-a4.pdf" target="_blank">here</a>.</p>
+
+<p>Lastly, you may find the following resources useful:</p>
+<ul>
+<li><a href="http://en.wikibooks.org/wiki/LaTeX" target="_blank">LaTeX Wiki Book</a></li>
+<li><a href="http://www.latex-community.org/" target="_blank">LaTeX Community</a></li>
+<li><a href="http://tex.stackexchange.com/" target="_blank">LaTeX Stack Exchange</a></li>
+<li><a href="http://users.dickinson.edu/~richesod/latex/index.html" target="_blank">Dave Richeson's Quick Introduction to LaTeX</a></li>
+</ul>
+
+<p><i>Note:</i> The rest of this page only applies to using a full-blown $\LaTeX$ editor and does not apply to typesetting in Moodle.</p>
+
+<h2>Using a LaTeX Editor</h2>
+<p>Writing a $\LaTeX$ document is much more complicated than just starting to write.  There are a whole host of things that you need to put at the top of your document and this can be rather intimidating at first.  The big picture is that the content of your document comes after the line <code>\begin{document}</code>.  All of the stuff before this line is called the <i>preamble</i> and when you first start learning $\LaTeX$, you should just ignore this stuff.  Below, I've included some templates to get you started.  In the beginning, don't worry too much about all of the complicated stuff in the preamble.</p>
+
+<p>The .tex file is where you type the content of your file.  You won't see the output until you <i>compile</i> it.  If you've done everything correctly, the output after compiling will be a PDF.  I highly recommend compiling often to see what you've got so far and to make it easier to find your syntax errors if you have any.</p>
+
+<p>When you are typing the content of your document, you will partition your content into various <i>environments</i>.  Examples of environments include: <code>theorem, proof, align*, itemize, enumerate</code>, but there are lots more.  Every environment begins with <code>\begin{environment-name}</code> and ends with <code>\end{environment-name}</code>.  For example, see the example above that uses the <code>align*</code> environment.  As another example, if you wanted to write the statement of the theorem that divides is transitive, you would write:</p>
+
+<div id="codecontainer">
+<code>
+\begin{theorem}<br>
+Let $a,b,c\in \mathbb{Z}$.  If $a|b$ and $b|c$, then $a|c$.<br>
+\end{theorem}
+</code>
+</div>
+
+<p><i>Note:</i>  $\LaTeX$ ignores whitespace.  What this means is that extra spaces and carriage returns (i.e., hitting the space bar or return/enter key repeatedly) have no impact on the output of the .tex document.  You can adjust vertical spacing using commands like: <code>\newline, \bigskip, \medskip, \smallskip, \vspace{1cm}, \vfill</code>.   If you experiment with these commands, you'll be able to see what impact they have.</p>
+
+<h2>LaTeX Template for Homework</h2>
+<p>You can find a $\LaTeX$ template for typing up your homework <a href="https://gist.github.com/1827406">here</a>.  Either download the .tex file or copy the contents of the gist.  Alternatively, you can find the template in my <a href="http://www.scribtex.com/projects/dcernst/dana-s-shared-scribtex-stuff/" target="_blank">public ScribTeX folder</a>.  In this directory you will also find a help file for using $\LaTeX$ with ScribTeX.  You can download the entire directory (and then if you are using ScribTeX, upload the files you are interested in using) or you can copy the content of the file and paste it into a new .tex file.</p>
+
+<h2>Using LaTeX via ScribTeX</h2>
+<p><a href="http://www.scribtex.com" target="_blank">ScribTeX</a> is a free online $\LaTeX$ editor and has everything you need to use $\LaTeX$.  To get started, go to <a href="http://www.scribtex.com" target="_blank">ScribTeX</a> and create a free account.  After logging in, you will be taken to your dashboard, which shows your current projects.  Create a new project and name it whatever you'd like.  The free version of ScribTeX allows you to make up to 3 projects and each project may have as many files as you want in it.  If you are using ScribTeX to write up your homework, having one project called "Homework" should work.  In that project, you can store each of your write-ups.  However, if you plan to share your project with another ScribTeX user, I suggest appending your last name to the title of the project.  For example: "Homework (Ernst)".</p>
+
+<p>Once you have created a project, you can create new files by clicking the "New File" link within your project.  You should append .tex to each of your filenames, which is the file extension for $\LaTeX$/$\TeX$ files (similar to .doc for MS Word files).  You should probably avoid spaces in your filenames.</p>
+
+<p>I recommend uploading the two templates that I have provided in my <a href="http://www.scribtex.com/projects/dcernst/dana-s-shared-scribtex-stuff/" target="_blank">public ScribTeX folder</a>.  It might be a good idea to upload two copies of each: one that you leave as a template and another that you modify.  Once you have done some editing of your .tex file, click "Compile" in the upper lefthand corner.  If you've not made any syntax errors, you should obtain a PDF file as output, which you can then download.  If you make some errors, ScribTeX will either compile what it thinks you mean and tell you there are errors (look in the upper righthand corner of the screen with the PDF) or it will fail to compile, in which case, it will attempt to tell you what the errors are.  In the latter case, you'll have to go figure out what they are and fix them.  As I said above, I highly recommend compiling often to see what you've got so far and to make it easier to find your syntax errors if you have any.</p>
+
+<h2>Installing LaTeX on Your Own Computer</h2>
+
+<h3>Installing on a Mac</h3>
+<p>If you have a Mac, installing and using $\LaTeX$ is easy.  All you need to do is go to</p>
+<p>
+<center>
+<a href="http://www.tug.org/mactex/" target="_blank">http://www.tug.org/mactex/</a>
+</center>
+</p>
+<p>and download the latest version of the MacTeX distribution (filename should be MacTeX.mpkg.zip).  Once you have downloaded the package, double-click the installer (if it doesn't run automatically).  If you follow the instructions during the installation, you will be provided with the $\LaTeX$ "backend" (which you can safely ignore) and the "frontend" editor TeXShop (which will be located in a folder called TeX in your Applications folder).  TeXShop will be the default application for editing any file with a .tex extension.  To get started, I suggest opening up and playing with the homework template from my <a href="http://www.scribtex.com/projects/dcernst/dana-s-shared-scribtex-stuff/" target="_blank">public ScribTeX folder</a>.  After editing the file, click "Typeset" and if you don't have any errors, TeXShop will render the corresponding PDF.  I recommend clicking "Trash Aux Files" in the Console window after you are down editing.  If you have questions about using TeXShop on a Mac, please ask!
+</p>
+
+<h3>Installing on a PC</h3>
+<p>To get up and running with $\LaTeX$ on a computer running Windows, you need to install two things.  First, install the MiKTeX "backend":</p>
+<p>
+<center>
+<a href="http://miktex.org/" target="_blank">http://miktex.org/</a>
+</center>
+</p>
+
+<p>Click the "download" link at the top of the list under MiKTeX Releases and following the instructions.  After installing, search for the application TeXWorks, which you will use to actually type \(\LaTeX\) documents.</p>
+
+<!--Next, download TeXnicCenter by going to</p>
+<p>
+<center>
+<a href="http://www.texniccenter.org/" target="_blank">http://www.texniccenter.org/</a>
+</center>
+</p>
+<p>Download the latest version and proceed according to the instructions.  TeXnicCenter will now be your default application for editing any file with a .tex extension.  You can safely ignore the MiKTeX "backend".</p> -->
+
+<h3>Installing on a computer running Linux</h3>
+<p>Most Linux distributions (e.g., Ubuntu, Debian, Fedora, etc.) use a package manager to install and update software. (Don't use a web browser to look for LaTeX online. Your computer already knows where to go online to find LaTeX and how to install it.) These instructions assume you are using Ubuntu, but similar actions will work on any Linux distro with a modern package management system. Using your package manager ("Ubuntu Software Center" or similar in your applications menu) and assuming you have an internet connection, you need to search for and install two things:</p>
+<ul>
+<li>A LaTeX backend: For the most basic install, search for and install "texlive-base". For a more comprehensive install, search for an install "texlive-full".</li>
+<li>A LaTeX editor: Search for and install "Kile". Kile is the editor of choice for many Linux users writing LaTeX.</li>
+</ul>
+<p>After Ubuntu installs these, you should find Kile in your applications menu and it should be capable of calling the various LaTeX programs automatically.</p>
+
+<h2>Credits</h2>
+<p>This page is an adaptation of <a href="http://math453fall2008.wikidot.com/quick-latex-guide" target="_blank">Andy Schultz's Quick LaTeX Guide</a> and <a href="http://elishapeterson.wikidot.com/courses:latex-help" target="_blank">Elisha Peterson's LaTeX Help</a>.  Thanks to <a href="http://math.jasonbhill.com/" target="_blank">Jason B. Hill</a> for providing instructions for installing $\LaTeX$ on a computer running Linux.  The mathematical symbols on this page were typeset using <a href="http://www.mathjax.org/" target="_blank">MathJax</a>.</p>
+
+</div>
+</div>
+
+<script type="text/javascript">makeFooter();</script>
+
+</div>
+
+</body>
+</html>

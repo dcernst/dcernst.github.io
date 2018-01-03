@@ -1,0 +1,250 @@
+\documentclass[11pt]{article}
+
+\usepackage{url}
+\usepackage{tikz}
+\usepackage{fancyhdr}
+\usepackage[margin=.7in]{geometry}
+\usepackage[hang,flushmargin,symbol*]{footmisc}
+\usepackage{amsmath}
+\usepackage{todonotes}
+\usepackage{amsthm}
+\usepackage{amssymb}
+\usepackage{mathtools}
+\usepackage{enumitem}
+\usepackage{graphicx}
+\usepackage{array}
+\usepackage{color}
+\usepackage{tipa} %to get \textpipe to work
+\definecolor{darkblue}{rgb}{0, 0, .6}
+\definecolor{grey}{rgb}{.7, .7, .7}
+\usepackage[breaklinks]{hyperref}
+\hypersetup{
+	colorlinks=true,
+	linkcolor=darkblue,
+	anchorcolor=darkblue,
+	citecolor=darkblue,
+	pagecolor=darkblue,
+	urlcolor=darkblue,
+	pdftitle={},
+	pdfauthor={}
+}
+
+\theoremstyle{definition} 
+\newtheorem{theorem}{Theorem}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{claim}[theorem]{Claim}
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{conjecture}[theorem]{Conjecture}
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{example}[theorem]{Example}
+\newtheorem{remark}[theorem]{Remark}
+\newtheorem{important}[theorem]{Important Note}
+\newtheorem{recall}[theorem]{Recall}
+\newtheorem{note}[theorem]{Note}
+\newtheorem{question}[theorem]{Question}
+
+\newcommand{\blank}{\underline{\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ }}
+\newcommand{\ds}{\displaystyle}
+
+\setlength{\parindent}{0pt}
+
+%%%%%%Header/Footer%%%%%%%
+
+\pagestyle{fancy}
+
+\lhead{\scriptsize  MA3120: Linear Algebra - Spring 2012} 
+\chead{} 
+\rhead{\scriptsize Exam 2} 
+\lfoot{\scriptsize This work is licensed under the \href{http://creativecommons.org/licenses/by-sa/3.0/us/}{Creative Commons Attribution-Share Alike 3.0 License}.} 
+\cfoot{} 
+\rfoot{\scriptsize Written by \href{http://danaernst.com}{D.C. Ernst}} 
+\renewcommand{\headrulewidth}{0.4pt} 
+\renewcommand{\footrulewidth}{0.4pt} 
+
+%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+\begin{center}
+
+{\Large\bf MA3120: Linear Algebra - Spring 2012}\\
+\smallskip
+{\Large\bf Exam 2}
+
+\bigskip
+
+  \fbox{\parbox{7in}{
+    \vspace{10pt}
+    \textbf{\large Your Name:}
+    \vspace{10pt}
+  }}
+  
+  \bigskip
+  
+  \fbox{\parbox{7in}{
+    \vspace{10pt}
+    \textbf{\large Names of any collaborators:}
+    \vspace{10pt}
+  }}
+
+\end{center}
+
+\section*{Instructions}
+
+This exam is worth a total of 78 points and 20\% of your overall grade.  Please read the instructions for each question carefully.
+
+\bigskip
+
+I expect your solutions to be \emph{well-written, neat, and organized}.  Do not turn in rough drafts.  What you turn in should be the ``polished'' version of potentially several drafts.  
+
+\bigskip
+
+Show \emph{all} of your work and \emph{justify} your solutions fully.  If you use a calculator or computer software (e.g., Sage), be sure to write down both the input and output.
+
+\bigskip
+
+Feel free to type up your final version.  The \LaTeX\ source file of this exam is also available if you are interested in typing up your solutions using \LaTeX.  I'll gladly help you do this if you'd like.
+
+\bigskip
+
+The simple rules for the exam are:
+
+\begin{enumerate}
+\item Unless you prove them, you cannot use any results from the course notes or book that we have not yet covered.
+\item You are \textbf{NOT} allowed to consult external sources when working on the exam.  This includes people outside of the class, other textbooks, and online resources.
+\item You are \textbf{NOT} allowed to copy someone else's work.
+\item You are \textbf{NOT} allowed to let someone else copy your work.
+\item You are allowed to discuss the problems with each other and critique each other's work.
+\end{enumerate}
+
+The exam is due to my office by 5\textsc{pm} on \textbf{Wednesday, April 18}.  You should turn in this cover page and all of the work that you have decided to submit.
+
+\bigskip
+
+To convince me that you have read and understand the instructions, sign in the box below.
+
+\bigskip
+
+  \fbox{\parbox{7in}{
+    \vspace{10pt}
+    \textbf{\large Signature:} \hfill
+    \vspace{10pt}
+  }}
+
+\bigskip
+
+Good luck and have fun!
+
+\newpage
+
+\begin{enumerate}
+
+\item (2 points each) Suppose $A$ is a matrix that is row equivalent to one of the following matrices.
+
+\[M_1 = \begin{bmatrix}1 & 2 & 0 \\0 & 1 & 3 \\0 & 0 & 1\end{bmatrix} \hspace{1cm} M_2 = \begin{bmatrix}1 & 2 & 3 \\0 & 0 & 1 \\0 & 0 & 0\end{bmatrix}\hspace{1cm} M_3=\begin{bmatrix}1 & 2 & 3 & 4 \\0 & 1 & 5 & 6 \\0 & 0 & 1 & 7\end{bmatrix}\]
+
+For each of the following statements, state whether $A$ is row equivalent to $M_1$, $M_2$, or $M_{3}$.  If there is more than one correct answer, then list them all.  If none of $M_1$, $M_2$, or $M_{3}$ satisfy the given conditions, then state this. You do \emph{not} need to justify your answers. 
+
+\begin{enumerate}
+\item The columns of $A$ are linearly independent.
+\item The columns of $A$ span $\mathbb{R}^3$.
+\item The columns of $A^T$ are linearly independent.
+\item The columns of $A^T$ span $\mathbb{R}^3$.
+\item The columns of $A$ form a basis for $\mathbb{R}^3$.
+\item The null space of $A$ equals $\{\vec{0}\}$.
+\item The null space of $A$ has a basis consisting of exactly one non-zero vector.
+\item $A$ is invertible.
+\item The column space of $A$ has a basis consisting of exactly two non-zero vectors.
+\item The row space of $A$ equals $\mathbb{R}^3$.
+\item The row space of $A$ has a basis consisting of exactly two non-zero vectors.
+\item The matrix-vector equation $A\vec{x}=\vec{b}$ has a unique solution for all $\vec{b}\in\mathbb{R}^3$.
+\end{enumerate}
+
+\item (4 points each) Consider the following collection of vectors.
+  	\[
+	\vec{v}_1=\begin{bmatrix}1 \\-1 \\-3\end{bmatrix}, \vec{v}_2=\begin{bmatrix}-5 \\7 \\8\end{bmatrix}, \vec{v}_3=\begin{bmatrix}1 \\1 \\h\end{bmatrix}
+	\]
+\begin{enumerate}
+\item Find the values of $h$ for which the vectors are linearly \emph{dependent}.  Be sure to justify your answer.
+  
+\item Find the values of $h$ for which $\langle\{ \vec{v}_1, \vec{v}_2, \vec{v}_3\}\rangle=\mathbb{R}^3$.  Again, be sure to justify your answer.
+\end{enumerate}
+
+\item (4 points each) Consider the following matrix.
+	\[
+	A = \begin{bmatrix}
+	-1 & -2 & 2 & 1 & 5\\
+	1 & 2 & 1 & 1 & 5\\
+	3 & 6 & 1 & 2 & 7\\
+	2 & 4 & 0 & 1 & 2
+	\end{bmatrix}
+	\]
+\begin{enumerate}
+\item Find a basis for $\mathcal{N}(A)$.
+
+\item Find a basis for $\mathcal{R}(A)$.
+
+\item Find a basis for $\mathcal{C}(A)$.
+
+\item Using your answer from part (c), find an orthonormal basis for $\mathcal{C}(A)$.
+
+\end{enumerate}
+
+\newpage
+
+%\item (4 points) The following statement is \textbf{FALSE} in general.
+%
+%\begin{enumerate}
+%  \item[] If $A$ and $B$ are $n \times n$ matrices, then $(A+B)(A-B)=A^2-B^2$.
+%\end{enumerate}
+%
+%Provide a counterexample where $A$ and $B$ are $2 \times 2$ matrices and justify your answer by calculating both sides of the equation above. 
+
+\item The following statement is \textbf{FALSE} in general.
+\begin{itemize}
+\item[] If $A$ is an $m\times n$ matrix such that $A\vec{x}=\vec{0}$ has only the trivial solution, then $A\vec{x}=\vec{b}$ has a solution for every $\vec{b}\in\mathbb{R}^m$.
+\end{itemize}
+
+\begin{enumerate}
+\item (4 points) Provide a counterexample where $m=3$ and $n=2$ and briefly justify your answer.  Your counterexample should consist of a $3 \times 2$ matrix $A$ and a vector $\vec{b}$.
+    
+\item (2 points) The above statement is \textbf{TRUE} if $m=n$.  Briefly justify this fact.
+
+\end{enumerate}
+
+\item (4 points) Let $p_1(x)=1+x^2, p_2(x)=x+x^2, p_3(x)=1+2x+x^2 \in P_2$.  Determine whether $\{p_1(x), p_2(x), p_3(x)\}$ is linearly independent in $P_2$.  You must justify your answer.
+
+\item (4 points) Let
+	\[
+	H=\left\{\begin{bmatrix}x_{1}\\ x_{2}\end{bmatrix}: x_{1}\leq x_{2}\right\}.
+	\]
+Determine whether $H$ is a subspace of $\mathbb{R}^{2}$.  Be sure to justify your answer.
+
+\item (4 points) Let
+	\[
+	W=\left\{\begin{bmatrix}x_{1}\\ x_{2}\\x_3\end{bmatrix}: 2x_{1}+5x_2-7x_3=0\right\}.
+	\]
+Determine whether $W$ is a subspace of $\mathbb{R}^{3}$.  Be sure to justify your answer.
+
+\item (4 points) Find a linearly independent spanning set for the following subspace of $\mathbb{R}^3$.
+	\[
+	X=\left\langle \left\{\begin{bmatrix}1\\ 5\\1\end{bmatrix}, \begin{bmatrix}6\\ -1\\2\end{bmatrix}, \begin{bmatrix}9\\ -3\\8\end{bmatrix}, \begin{bmatrix}3\\ -2\\0\end{bmatrix}\right\}\right\rangle
+	\]
+
+\item (4 points) Let
+	\[
+	S=\left\{\begin{bmatrix}2 & 1\\ -1 & 3\end{bmatrix}, \begin{bmatrix}-3 & 0\\ 2 & -2\end{bmatrix}, \begin{bmatrix}-1 & 4\\ 2 & 6\end{bmatrix}\right\}
+	\]
+and let
+	\[
+	M=\begin{bmatrix}6 & 6\\-2 & 14\end{bmatrix}.
+	\]
+Determine whether $M$ is in the span of $S$.  If so, write $M$ as a linear combination of the matrices in $S$.
+
+\item (4 points) Suppose $\{\vec{v}_1,\vec{v}_2,\vec{v}_3\}$ is a basis for a vector space $V$.  Prove that $\{\vec{v}_1+\vec{v}_2+\vec{v}_3, \vec{v}_1+\vec{v}_2,\vec{v}_3\}$ is a spanning set for $V$.\footnote{It turns out that the second set is also linearly independent, but I'm not asking you to prove this fact.  The upshot is that the second set is also a basis for $V$.}
+
+\item \textbf{Bonus Question} (4 points) Consider $\mathcal{R}(A)$ and $\mathcal{N}(A)$ from Problem 3.  Prove that any vector from $\mathcal{R}(A)$ is orthogonal to any vector in $\mathcal{N}(A)$.
+
+\end{enumerate}
+
+\end{document}

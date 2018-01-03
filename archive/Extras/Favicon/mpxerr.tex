@@ -1,0 +1,31 @@
+\gdef \mpxshipout {\afterassignment \middlempxshipout \setbox 0=\hbox }%
+\gdef \middlempxshipout {\aftergroup \finishmpxshipout }%
+\gdef \finishmpxshipout {\dimen 1=\ht 0 \dimen 2=\dp 0
+\dimen 0=\dimen 1 \advance \dimen 0\dimen 2
+\setbox 0=\hbox {\hbox {\box 0
+\ifnum \dimen 0>0 \vrule width1sp height\dimen 1 depth\dimen 2
+\else \vrule width1sp height1sp depth0sp\relax 
+\fi }}%
+\ht 0=0pt \dp 0=0pt \shipout \hbox {\box 0}}%
+\def \MFPtext #1{\vbox {\def \\{\cr }\MFPcfont \everylabel 
+\halign {##\hfil \cr #1\crcr }}}%
+
+\def \everylabel {}%
+% line 37 favicon.mp
+\bgroup \font \MFPcfont =cmr10\relax%
+\gdef\mpxshipout{\shipout\hbox\bgroup
+  \setbox0=\hbox\bgroup}
+\gdef\stopmpxshipout{\egroup  \dimen0=\ht0 \advance\dimen0\dp0
+  \dimen1=\ht0 \dimen2=\dp0
+  \setbox0=\hbox\bgroup
+    \box0
+    \ifnum\dimen0>0 \vrule width1sp height\dimen1 depth\dimen2 
+    \else \vrule width1sp height1sp depth0sp\relax
+    \fi\egroup
+  \ht0=0pt \dp0=0pt \box0 \egroup}
+\mpxshipout% line 45 favicon.mp
+\MFPtext {\Huge DCE}%
+\stopmpxshipout
+% line 48 favicon.mp
+\egroup%
+\end{document}

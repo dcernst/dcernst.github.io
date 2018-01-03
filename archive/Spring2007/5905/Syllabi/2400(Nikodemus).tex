@@ -1,0 +1,268 @@
+
+%###############################################################################
+
+  \documentclass[10pt]{article}
+
+  \addtolength{\topmargin}{-0.60in}
+  \addtolength{\textheight}{2\baselineskip}
+  \setlength{\oddsidemargin}{0pt}
+  \setlength{\evensidemargin}{0pt}
+  \setlength{\textwidth}{6.5in}
+  \setlength{\textheight}{9.5in}
+  \setlength{\parindent}{0pt}
+  \setlength{\leftmargini}{10pt}
+% \renewcommand{\baselinestretch}{1.1}
+  \pagestyle{myheadings}
+  \markright{\sc MATH2400 --- Summer 2006 --- M. Nickodemus}
+
+%###############################################################################
+
+\begin{document}
+
+%###############################################################################
+
+\thispagestyle{plain}
+
+\addtolength{\topmargin}{-0.40in}
+\centerline{
+  \framebox{\parbox{4.0in}{
+    \vspace{6pt}
+      \begin{centering}
+             \Large       \bf C~A~L~C~U~L~U~S~~~~3            \\
+             \normalsize  \bf (~M~A~T~H~~~~2~4~0~0)  \\[1pt]
+             \normalsize  \bf S~u~m~m~e~r~~~2~0~0~6           \\[1pt]
+      \end{centering}
+    \vspace{6pt}
+  }}
+}
+
+\vspace{20pt}
+
+%===============================================================================
+
+\normalsize
+
+\begin{tabular}{lp{5.2in}}
+%
+\textbf{Instructor:}   
+      & Matt Nickodemus
+        \hspace{0.50ex} ---
+        \hspace{0.50ex} MATH~362
+        \hspace{1.75ex} nickodem@euclid.colorado.EDU
+      \\[8pt]
+%
+\textbf{Lect. :} 
+      & MTWTF 12:45-1:50      \\[-2pt]
+%
+\textbf{Office Hours:} 
+      & MTWRF  11:30\/AM -- 12:30\/PM, or by appointment
+      \\[10pt]
+%
+\textbf{Text:}
+      & \textbf{\textsl{Multivariable Calculus }}
+      \\[8pt]
+%
+\textbf{Calculators:}  
+      & Can be helpful for homework and actually may be needed for some of the 
+        problems but, to even the field for everybody, \textsl{they are not 
+        allowed in tests!}
+      \\[8pt]
+%
+\textbf{Prerequisite:}
+      & Calculus 2.
+      \\[8pt]
+%
+\textbf{Work Load:} 
+      & This course will require \textsl{two hours work per day} outside class.
+      \\[8pt]
+%
+\textbf{Grading:}      
+      & $\triangleright$~Your course grade will be computed from:
+      \\
+      & $\circ\;$
+        \makebox[6cm][s]{
+        {\bf homework} 
+        \dotfill
+        {\bf 100 pts.}}
+       \\
+      & $\circ\;$
+        \makebox[6cm][s]{
+        {\bf 1 midterm exam}
+        \dotfill 
+        {\bf 100 pts.}}
+      \\
+      & $\circ\;$
+        \makebox[6cm][s]{
+        {\bf 1~final exam}
+        \dotfill 
+        {\bf 200 pts.}}
+      \\[4pt]
+      & $\triangleright$~\textbf{IF \& IW.}
+%       It is not up to your instructor the granting of an IF or an IW grade.
+        The Math Department has strict policies regarding these grades that
+        require of \textsl{proper documentation} to accompany your 
+        \textsl{petition} for an IF or an IW.
+        These grades are \textbf{not} a substitute for timely filed 
+        course-withdrawal form!
+      \\[8pt]
+%
+\textbf{Homework:}    
+      & Unless otherwise stated there will be a quiz over each homework assignment two days after it is given.       \\[8pt]
+%
+\textbf{Tests:}    
+      & $\triangleright$~\textbf{Midterm Exam}.\/ 
+        T.B.A.
+            \\
+      & $\triangleright$~\textbf{Final Exam}.\/ 
+        T.B.A.      \\
+       & $\triangleright$~Bring your CU student-ID to all your exams.
+%     \\
+%     & $\triangleright$~Try to write your tests \textbf{in ink!}
+%       Tests written in pencil will \textbf{not} be accepted for revision due 
+%       to alleged mistakes in the original grading.
+      \\
+      & $\triangleright$~The use of cellular phones, or any type of headset 
+        during tests is strictly forbidden.
+      \\
+%     & $\triangleright$~Having \textsl{``the right concept''} 
+%       is the first step in order to solve a test problem, but
+%       \textsl{``the right concept''} alone is not enough to get credit for
+%       it.
+%       You will also need to make \textsl{considerable progress} towards the
+%       \textsl{correct solution of the problem you were given}.
+%     \\
+      & $\triangleright$~Do not expect your test problems to be from the book!
+      \\[8pt]
+%
+%\textbf{Important:}    
+%      & Please be aware that you do not get a passing grade just for showing 
+%        up for class or with written projects! 
+%        \textsl{To pass this course you have to do well on your tests!}
+%        Necessary conditions to achieve this goal are \textsl{attending class} 
+%        and \textsl{doing your work regularly}.
+%        Also, in tests you do not get points for \textsl{``how much you 
+%        studied,''} 
+%        or for \textsl{``how much you know,''} 
+%        or \textsl{``for trying.''}
+%        \textbf{\textsl{In tests you only get points for fully developed right 
+%        solutions in writing to the test questions!}}
+%        The \textsl{``right concept''} accounts only for a small part of the 
+%        points a problem is worth.
+%      \\[8pt]
+%
+\textbf{Web-pages:} 
+      &  \texttt{http://registrar.colorado.edu/}
+      \\ 
+      &  \texttt{http://www.colorado.edu/sacs/disabilityservices/}
+      \\ 
+      &  \texttt{http://www.colorado.edu/policies/index.html}
+      \\ 
+      &  \texttt{http://www.colorado.edu/academics/honorcode/}
+      \\[8pt]
+\textbf{All the rest:} 
+      & Please see me for any other problem not addressed in this set of 
+        guidelines or for any questions you may have.
+      \\[8pt]
+%
+\end{tabular}
+
+%===============================================================================
+\newpage
+%===============================================================================
+
+\textbf{\normalsize STUDENTS WITH DISABILITIES}
+
+If you qualify for special accommodation because of disability, please submit
+a letter from Disability Services to me early in the semester so that your
+needs may be properly addressed.
+Disability Services determines accommodations based on documented disabilities.
+(\textbf{Disability Services Office, Willard~322, phone 303--492--8671},
+see \texttt{http://www.colorado.edu/sacs/disabilityservices/}).
+
+%-----------------------------------------------------------------------------
+
+\medskip
+
+\textbf{\normalsize RELIGIOUS OBLIGATIONS}
+
+In case of conflict with a test, please let me know at least two weeks in
+advance.
+\\
+See \texttt{http://www.colorado.edu/policies/index.html}
+for the University's policy on religious obligations.
+
+%-----------------------------------------------------------------------------
+
+\medskip
+
+\textbf{\normalsize STUDENT CLASSROOM AND COURSE-RELATED BEHAVIOR}
+
+See \texttt{http://www.colorado.edu/policies/index.html} for the University's 
+policy.
+
+%-----------------------------------------------------------------------------
+
+\medskip
+
+\textbf{\normalsize UNIVERSITY'S HONOR CODE}
+
+See \texttt{http://www.colorado.edu/academics/honorcode/}
+for information on the University's honor code.
+
+%=============================================================================
+
+\bigskip \bigskip \bigskip \bigskip 
+
+\centerline{\Large \bf HOMEWORK PROBLEMS UP TO JUNE 12}
+
+\bigskip \bigskip 
+
+\small
+\begin{centering}
+\begin{tabular}{||c|l|p{3.25in}|p{2.00in}||} \hline \hline
+%------------------------------------------------------------------------------
+              &          &                     &               \\
+\bf hw \#        & \bf sctn & \centerline{\bf problems} & \centerline{\bf comments}
+                              \\ \hline
+%--------------------------------------------------------------------------
+\multicolumn{4}{||c||}{\textbf{Capter 12}}
+\\ \hline
+
+%------------------------------------------------------------------------------
+\bf  1 & 12.1  & 9, 11, 15,  21, 25, 33  &
+               
+\\ \hline
+%------------------------------------------------------------------------------
+\bf  1 & 12.2  & 5, 9, 11, 13, 17, 21, 23, 43, 45, 49   &
+               
+\\ \hline
+%------------------------------------------------------------------------------
+\bf  2 & 12.3  & 1, 3, 5, 13, 15, 25, 27, 28, 29, 32, 35  &
+               
+\\ \hline
+%------------------------------------------------------------------------------
+\bf  3 & 12.4  & 1, 3, 7, 11, 13, 15, 17, 21, 23, 25, 26, 29  &
+               
+\\ \hline
+%------------------------------------------------------------------------------
+\bf  4 & 12.5  & 3, 5, 7, 9, 11, 13, 17, 21, 23, 25, 29, 31, 33, 45, 49, 53  & 
+                
+\\ \hline
+%------------------------------------------------------------------------------
+\bf  5 & 12.6  & 1, 3, 7,  9, 11, 13, 15, 17, 19, 21, 25, 29, 33, 43, 47 &
+                
+\\ \hline
+%------------------------------------------------------------------------------
+\bf  6 & 12.7  & 1, 3, 7, 11, 13, 15, 19, 29, 37, 39, 43, 49  &
+               
+\\ \hline
+\end{tabular}
+\\
+\end{centering}
+
+%###############################################################################
+
+\end{document}
+
+%###############################################################################
+

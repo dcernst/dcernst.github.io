@@ -1,0 +1,236 @@
+\documentclass[11pt]{article}
+
+\usepackage{url}
+\usepackage{tikz}
+\usepackage{fancyhdr}
+\usepackage[margin=.7in]{geometry}
+\usepackage[hang,flushmargin,symbol*]{footmisc}
+\usepackage{amsmath}
+\usepackage{todonotes}
+\usepackage{amsthm}
+\usepackage{amssymb}
+\usepackage{mathtools}
+\usepackage{enumitem}
+\usepackage{graphicx}
+\usepackage{array}
+\usepackage{color}
+\usepackage{tipa} %to get \textpipe to work
+\definecolor{darkblue}{rgb}{0, 0, .6}
+\definecolor{grey}{rgb}{.7, .7, .7}
+\usepackage[breaklinks]{hyperref}
+\hypersetup{
+	colorlinks=true,
+	linkcolor=darkblue,
+	anchorcolor=darkblue,
+	citecolor=darkblue,
+	pagecolor=darkblue,
+	urlcolor=darkblue,
+	pdftitle={},
+	pdfauthor={}
+}
+
+\theoremstyle{definition} 
+\newtheorem{theorem}{Theorem}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{claim}[theorem]{Claim}
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{conjecture}[theorem]{Conjecture}
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{example}[theorem]{Example}
+\newtheorem{remark}[theorem]{Remark}
+\newtheorem{important}[theorem]{Important Note}
+\newtheorem{recall}[theorem]{Recall}
+\newtheorem{note}[theorem]{Note}
+\newtheorem{question}[theorem]{Question}
+\newtheorem*{definition*}{Definition}
+
+\setlength{\parindent}{0pt}
+\setlength{\fboxsep}{10pt}
+
+%\newcolumntype{x}[1]{%
+%>{\centering\hspace{0pt}}p{#1}}%
+%\renewcommand\arraystretch{2}
+
+%%%%%%Header/Footer%%%%%%%
+
+\pagestyle{fancy}
+
+\lhead{\scriptsize  MA4140: Abstract Algebra (Fall 2011)} 
+\chead{} 
+\rhead{\scriptsize Exam 2} 
+\lfoot{\scriptsize This work is licensed under the \href{http://creativecommons.org/licenses/by-sa/3.0/us/}{Creative Commons Attribution-Share Alike 3.0 License}.} 
+\cfoot{} 
+\rfoot{\scriptsize Written by \href{http://oz.plymouth.edu/~dcernst}{D.C. Ernst}} 
+\renewcommand{\headrulewidth}{0.4pt} 
+\renewcommand{\footrulewidth}{0.4pt} 
+
+%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+\begin{center}
+
+{\Large\bf MA4140: Abstract Algebra (Fall 2011)}\\
+\smallskip
+{\Large\bf Exam 2}
+
+\bigskip
+
+  \fbox{\parbox{7in}{
+    \vspace{10pt}
+    \textbf{\large Your Name:}
+    \vspace{10pt}
+  }}
+  
+  \bigskip
+  
+  \fbox{\parbox{7in}{
+    \vspace{10pt}
+    \textbf{\large Names of any collaborators:}
+    \vspace{10pt}
+  }}
+
+\end{center}
+
+\setlength{\fboxsep}{10pt}
+
+\section*{Instructions}
+
+This exam is worth a total of 68 points and 15\% of your overall grade.  For each part of the exam, read the instructions carefully.
+
+\bigskip
+
+I expect your proofs to be \emph{well-written, neat, and organized}.  You should write in \emph{complete sentences}.  Do not turn in rough drafts.  What you turn in should be the ``polished'' version of potentially several drafts.  Feel free to type up your final version.  
+
+\bigskip
+
+The \LaTeX\ source file of this exam is also available if you are interested in typing up your solutions using \LaTeX.  I'll help you do this if you'd like.
+
+\bigskip
+
+The simple rules for the exam are:
+
+\begin{enumerate}
+\item You may freely use any theorems that we have discussed in class, but you should make it clear where you are using a previous result and which result you are using.  For example, if a sentence in your proof follows from Theorem 28, then you should say so.
+\item Unless you prove them, you cannot use any results from the course notes that we have not covered.
+\item You are NOT allowed to consult external sources when working on the exam.  This includes people outside of the class, other textbooks, and online resources.
+\item You are NOT allowed to copy someone else's work.
+\item You are NOT allowed to let someone else copy your work.
+\item You are allowed to discuss the problems with each other and critique each other's work.
+\end{enumerate}
+
+The exam is due to my office by 5\textsc{pm} on \textbf{Tuesday, November 22}.  You should turn in this cover page and all of the work that you have decided to submit.
+
+\bigskip
+
+To convince me that you have read and understand the instructions, sign in the box below.
+
+\bigskip
+
+  \fbox{\parbox{7in}{
+    \vspace{10pt}
+    \textbf{\large Signature:} \hfill
+    \vspace{10pt}
+  }}
+
+\bigskip
+
+Good luck and have fun!
+
+\newpage
+
+\section*{Part 1}
+
+Complete each of the following problems.  You should provide sufficient justification where necessary.
+
+\begin{enumerate}
+
+\item (3 points) Find a subgroup of $S_6$ that is isomorphic to $\mathbb{Z}_6$.
+
+\item (3 points) Find all conjugacy classes of $D_4=\langle s,r:s^2=r^4=e, sr=r^3s\rangle$.  That is, find all of the equivalence classes of $D_4$ under the equivalence relation determined by conjugation (i.e., two elements are equivalent iff they are conjugate).
+
+\item Let $n\in \mathbb{N}$ and define $U(n)$ to be the set of all natural numbers less than or equal to $n$ that are relatively prime to $n$.  It turns out that $U(n)$ forms a group under multiplication modulo $n$ (but you do \emph{not} need to prove this).
+
+\begin{enumerate}
+
+\item (3 points) Create a group multiplication table for $U(8)$.
+
+\item (3 points) What group is $U(8)$ isomorphic to?  Be sure to justify your answer by citing recent theorems.
+
+\end{enumerate}
+
+\end{enumerate}
+
+\section*{Part 2}
+
+Let $G$ be a group and let $H\leq G$. Consider the following definitions.
+
+\begin{definition*}
+The \emph{normalizer} of $H$ in $G$ is defined via
+\[
+N_G(H)=\{g\in G: g^{-1}hg\in H \text{ for all } h\in H\}.
+\]
+\end{definition*}
+
+\begin{definition*}
+The \emph{centralizer} of $H$ in $G$ is defined via
+\[
+C_G(H)=\{g\in G: g^{-1}hg=h \text{ for all } h\in H\}.
+\]
+\end{definition*}
+
+Now, consider the group $D_3=\langle s,r:s^2=r^3=e, sr=r^2s\rangle$ and let $H$ be the subgroup generated by the reflection $s$ and let $K$ be the subgroup generated by the rotation $r$.
+
+\begin{enumerate}
+
+\item (3 points) Compute all left cosets of $H$ in $D_3$.
+
+\item (3 points) Compute all right cosets of $H$ in $D_3$.
+
+\item (3 points) Compute all left cosets of $K$ in $D_3$.
+
+\item (3 points) Compute all right cosets of $K$ in $D_3$.
+
+\item (3 points) Compute the normalizer of $H$ in $D_3$.
+
+\item (3 points) Compute the normalizer of $K$ in $D_3$.
+
+\item (3 points) Compute the centralizer of $H$ in $D_3$.
+
+\item (3 points) Compute the centralizer of $K$ in $D_3$.
+
+\end{enumerate}
+
+\section*{Part 3}
+
+(8 points each) Prove any \textbf{4} of the following theorems.
+
+\begin{theorem}
+Let $\mathbb{R}^+$ denote the group of real numbers under addition and let $\mathbb{R}^{\times}$ denote the group of all positive real numbers under multiplication.  Then $\mathbb{R}^+$ is isomorphic to $\mathbb{R}^{\times}$.\footnote{This is Lemma 62 in the course notes.}
+\end{theorem}
+
+\begin{theorem}
+Let $G$ be a group of order $pq$, where $p$ and $q$ are distinct primes.  Then $G$ has at least one element of order $p$ and at least one element of order $q$.\footnote{By symmetry, you really only need to prove this for either $p$ or $q$. Also, this is a special case of a theorem called Cauchy's Theorem, but you don't need to know this to prove the theorem.}
+\end{theorem}
+
+\begin{theorem}
+Let $G$ be a group and let $H\leq G$.  Then the normalizer $N_G(H)$ is a subgroup of $G$.\footnote{See Part 2 for the definition of normalizer.}
+\end{theorem}
+
+\begin{theorem}
+Let $G$ and $H$ be two groups such that $G$ is cyclic. Also, let $\phi:G\to H$ be an onto homomorphism.  Then $H$ is cyclic.
+\end{theorem}
+
+\begin{theorem}
+Let $G$ be a group and fix $g\in G$. Also, define $\psi_g: G\to G$ via $\psi_g(x)=g^{-1}xg$ for all $x\in G$.  Then $\psi_g$ is an isomorphism.\footnote{An isomorphism from a group to itself is called an \emph{automorphism}.}
+\end{theorem}
+
+\begin{theorem}
+Let $G$ be a group and let $H\leq G$ such that $gH=Hg$ for all $g\in G$ (i.e., all left cosets and corresponding right cosets are equal).  Then if $x\in aH$ and $y\in bH$ for $a,b\in G$, then $xy\in abH$.
+\end{theorem}
+
+\begin{theorem}
+Let $G$ and $H$ be two groups and let $\phi:G\to H$ be a homomorphism.  If $g\in G$, then the order of $\phi(g)$ (in $H$) divides the order of $g$ (in $G$). 
+\end{theorem}
+
+\end{document}

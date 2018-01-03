@@ -1,0 +1,53 @@
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{amssymb}
+
+\newcommand{\Z}{\mathbb{Z}}
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\C}{\mathbb{C}}
+\newcommand{\Q}{\mathbb{Q}}
+\newcommand{\dx}{\textrm{d}}
+
+
+\begin{document}
+
+\begin{flushright}
+
+Dana Ernst \\
+Analysis II\\
+January 31, 2005\\
+
+\end{flushright}
+
+\medskip
+
+\begin{flushleft}
+\textbf{Royden, Exercise 5.11:}  Let $f$ be of bounded variation on $[a,b]$.  Then
+$$\int_a^b\left|f'\right|\leq T_a^b(f)$$.
+
+\medskip
+
+\textit{Proof:} Since $f$ is of bounded variation on $[a,b]$, $T_a^b(f)<\infty$.  Define
+$$g(x)=T_a^x(f).$$
+Then $g$ is a monotone increasing function on $[a,b]$.  By Theorem 5.3, $g$ is differentiable a.e., $g'$ is measurable, and
+$$\int_a^b g'(x) \;\dx x \leq g(b)-g(a).$$
+But by definition, $g(b)=T_a^b(f)$ and $g(a)=T_a^a(f)=0$.  So, we have
+$$\int_a^b g'(x) \;\dx x \leq T_a^b(f)<\infty.$$
+Now, we will show that $\left|f'\right| \leq g'$ a.e.  Since $f$ is of bounded variation on $[a,b]$, $f'$ exists a.e. on $[a,b]$ (by Corollary 5.6).  Note that for $h>0$, we have
+$$\left|f(x+h)-f(x)\right| \leq \sup_{\mathcal{P}}\sum_{i=1}^n \left|f(x_i)-f({x'}_i)\right|=T_x^{x+h}(f),$$
+where we take suprema over all possible finite partitions of $[x,x+h]$.  Let $x\in [a,b]$ such that $f'(x)$ and $g'(x)$ both exist.  Then we have
+\begin{eqnarray*}
+\left|f'(x)\right|&=&\left| \lim_{h\rightarrow 0} \frac{f(x+h)-f(x)}{h} \right| \\
+&=&\lim_{h\rightarrow 0^+} \left| \frac{f(x+h)-f(x)}{h}\right| \\
+&\leq &\lim_{h \rightarrow 0^+} \frac{T_{x}^{x+h}(f)}{h} \\
+&=&\lim_{h\rightarrow 0^+} \frac{T_a^{x+h}(f)-T_a^x(f)}{h} \\
+&=&\lim_{h\rightarrow 0^+} \frac{g(x+h)-g(x)}{h} \\
+&=&\lim_{h\rightarrow 0} \frac{g(x+h)-g(x)}{h} \\
+&=&g'(x).
+\end{eqnarray*}
+This show that $\left|f'\right|\leq g'$ a.e. on $[a,b]$, and so
+$$\int_a^b \left|f'(x)\right| \; \dx x \leq \int_a^b g'(x) \; \dx x \leq T_a^b(f) <\infty.$$
+\begin{flushright}$\square$\end{flushright}
+
+\end{flushleft}
+\end{document} 

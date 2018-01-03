@@ -1,0 +1,291 @@
+\documentclass[11pt]{article}
+
+\usepackage{url}
+\usepackage{tikz}
+\usepackage{fancyhdr}
+\usepackage[margin=.7in]{geometry}
+\usepackage[hang,flushmargin,symbol*]{footmisc}
+\usepackage{amsmath}
+\usepackage{todonotes}
+\usepackage{amsthm}
+\usepackage{amssymb}
+\usepackage{mathtools}
+\usepackage{enumitem}
+\usepackage{graphicx}
+\usepackage{array}
+\usepackage{color}
+\usepackage{tipa} %to get \textpipe to work
+\definecolor{darkblue}{rgb}{0, 0, .6}
+\definecolor{grey}{rgb}{.7, .7, .7}
+\usepackage[breaklinks]{hyperref}
+\hypersetup{
+	colorlinks=true,
+	linkcolor=darkblue,
+	anchorcolor=darkblue,
+	citecolor=darkblue,
+	pagecolor=darkblue,
+	urlcolor=darkblue,
+	pdftitle={},
+	pdfauthor={}
+}
+
+\theoremstyle{definition} 
+\newtheorem{theorem}{Theorem}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{claim}[theorem]{Claim}
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{conjecture}[theorem]{Conjecture}
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{example}[theorem]{Example}
+\newtheorem{remark}[theorem]{Remark}
+\newtheorem{important}[theorem]{Important Note}
+\newtheorem{recall}[theorem]{Recall}
+\newtheorem{note}[theorem]{Note}
+\newtheorem{question}[theorem]{Question}
+
+\newcommand{\blank}{\underline{\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ }}
+\newcommand{\ds}{\displaystyle}
+
+\setlength{\parindent}{0pt}
+
+%%%%%%Header/Footer%%%%%%%
+
+\pagestyle{fancy}
+
+\lhead{\scriptsize  MA3120: Linear Algebra - Spring 2012} 
+\chead{} 
+\rhead{\scriptsize Final Exam} 
+\lfoot{\scriptsize This work is licensed under the \href{http://creativecommons.org/licenses/by-sa/3.0/us/}{Creative Commons Attribution-Share Alike 3.0 License}.} 
+\cfoot{} 
+\rfoot{\scriptsize Written by \href{http://danaernst.com}{D.C. Ernst}} 
+\renewcommand{\headrulewidth}{0.4pt} 
+\renewcommand{\footrulewidth}{0.4pt} 
+
+%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+\begin{center}
+
+{\Large\bf MA3120: Linear Algebra - Spring 2012}\\
+\smallskip
+{\Large\bf Final Exam}
+
+\bigskip
+
+  \fbox{\parbox{7in}{
+    \vspace{10pt}
+    \textbf{\large Your Name:}
+    \vspace{10pt}
+  }}
+  
+  \bigskip
+  
+  \fbox{\parbox{7in}{
+    \vspace{10pt}
+    \textbf{\large Names of any collaborators:}
+    \vspace{10pt}
+  }}
+
+\end{center}
+
+\section*{Instructions}
+
+This exam is worth a total of 100 points and 20\% of your overall grade.  Please read the instructions for each question carefully.
+
+\bigskip
+
+I expect your solutions to be \emph{well-written, neat, and organized}.  Do not turn in rough drafts.  What you turn in should be the ``polished'' version of potentially several drafts.  
+
+\bigskip
+
+Show \emph{all} of your work and \emph{justify} your solutions fully.  If you use a calculator or computer software (e.g., Sage), be sure to write down both the input and output.
+
+\bigskip
+
+Feel free to type up your final version.  The \LaTeX\ source file of this exam is also available if you are interested in typing up your solutions using \LaTeX.  I'll gladly help you do this if you'd like.
+
+\bigskip
+
+The simple rules for the exam are:
+
+\begin{enumerate}
+\item Unless you prove them, you cannot use any results from the course notes or book that we have not yet covered.
+\item You are \textbf{NOT} allowed to consult external sources when working on the exam.  This includes people outside of the class, other textbooks, and online resources.
+\item You are \textbf{NOT} allowed to copy someone else's work.
+\item You are \textbf{NOT} allowed to let someone else copy your work.
+\item You are allowed to discuss the problems with each other and critique each other's work.
+\end{enumerate}
+
+The exam is due to my office by 5\textsc{pm} on \textbf{Friday, May 18}.  You should turn in this cover page and all of the work that you have decided to submit.
+
+\bigskip
+
+To convince me that you have read and understand the instructions, sign in the box below.
+
+\bigskip
+
+  \fbox{\parbox{7in}{
+    \vspace{10pt}
+    \textbf{\large Signature:} \hfill
+    \vspace{10pt}
+  }}
+
+\bigskip
+
+Good luck and have fun!
+
+\newpage
+
+\begin{enumerate}
+
+\item (2 points each) Suppose $A$ is a matrix that is row equivalent to one of the following matrices.
+
+\[M_1 = \begin{bmatrix}1 & 0 & 0 \\0 & 1 & 0 \\0 & 0 & 1\end{bmatrix} \hspace{1cm} M_2 = \begin{bmatrix}1 & -3 & 0 \\0 & 0 & 1 \\0 & 0 & 0\end{bmatrix}\hspace{1cm} M_3=\begin{bmatrix}1 & 0 & 0 & -2 \\0 & 1 & 0 & 3 \\0 & 0 & 1 & -1\end{bmatrix} \hspace{1cm} M_4=\begin{bmatrix}1 & 0 & -2 \\0 & 1 & 3 \\0 & 0 & 0\\ 0 & 0 & 0\end{bmatrix}\]
+
+For each of the following statements, state whether $A$ is row equivalent to $M_1$, $M_2$, $M_{3}$, or $M_{4}$.  If there is more than one correct answer, then list them all.  If none of $M_1$, $M_2$, $M_{3}$, or $M_4$ satisfy the given conditions, then state this. If you do not have enough information to determine whether one of the given matrices has the desired property, then do not list it.  You do \emph{not} need to justify your answers. 
+
+\begin{enumerate}
+\item The linear system $\mathcal{LS}(A,\vec{0})$ has only the trivial solution.
+\item There exists at least one vector $\vec{b} \in \mathbb{R}^3$ such that $\mathcal{LS}(A,\vec{b})$ does \emph{not} have a solution.
+\item The linear system $\mathcal{LS}(A,\vec{b})$ has a unique solution for all $\vec{b}\in\mathbb{R}^{3}$.
+%\item The matrix $A$ is singular.
+%\item The matrix $A$ is nonsingular.
+%\item The span of the columns of $A$ equals $\mathbb{R}^4$.
+%\item The span of the columns of $A$ equals $\mathbb{R}^3$.
+%\item The planes corresponding to the 3 linear equations all intersect at a unique point.
+%\item The planes corresponding to the 3 linear equations all intersect in a line.
+%\item The planes corresponding to the 3 linear equations do not have a common intersection.
+\item The null space of $A$ contains infinitely many vectors.
+\item The null space of $A$ has a basis consisting of exactly one non-zero vector.
+%\item There exists $\vec{b}\in\mathbb{R}^{3}$ such that $\vec{b}\notin\mathcal{N}(A)$.
+\item The columns of $A$ are linearly independent.
+%\item The columns of $A$ span $\mathbb{R}^3$.
+%\item The columns of $A^T$ are linearly independent.
+%\item The columns of $A^T$ span $\mathbb{R}^3$.
+\item The columns of $A$ form a basis for $\mathbb{R}^3$.
+%\item The null space of $A$ equals $\{\vec{0}\}$.
+\item The columns of $A$ are linearly dependent, but span all of $\mathbb{R}^3$.
+\item The column space of $A$ has a basis consisting of exactly two non-zero vectors.
+%\item The row space of $A$ equals $\mathbb{R}^3$.
+%\item The row space of $A$ has a basis consisting of exactly two non-zero vectors.
+\item The matrix-vector equation $A\vec{x}=\vec{b}$ has a unique solution for all $\vec{b}\in\mathbb{R}^3$.
+\item $A$ is invertible.
+
+\item $A^T$ has the same size at $A$, but is not invertible.
+\item The determinant of $A$ exists, but $\det A \neq 0$.
+\item $\det A = 0$.
+\item If $T(\mathbf{x})=A\mathbf{x}$, then $T$ is neither one-to-one nor onto.
+\item If $T(\mathbf{x})=A\mathbf{x}$, then $T$ is onto (surjective).
+\item If $T(\mathbf{x})=A\mathbf{x}$, then $T$ is one-to-one (injective).
+\item If $T(\mathbf{x})=A\mathbf{x}$, then the kernel of $T$ contains more than the zero vector.
+\item $A$ has 0 as an eigenvalue.
+\item $A$ has at least one nonzero eigenvalue.
+\end{enumerate}
+
+\item (4 points) The following statement is \textbf{FALSE} in general.
+
+\begin{enumerate}
+  \item[] If $A$ and $B$ are $n \times n$ matrices, then $(A+B)(A-B)=A^2-B^2$.
+\end{enumerate}
+
+Provide a counterexample where $A$ and $B$ are $2 \times 2$ matrices and justify your answer by calculating both sides of the equation above. 
+
+\newpage
+
+\item (4 points) Assume that $T:\mathbb{R}^3\to \mathbb{R}^2$ is a linear transformation such that
+  	$$T\left(\left[\begin{array}{r}1 \\0 \\0\end{array}\right]\right)=\left[\begin{array}{r}3 \\5\end{array}\right], T\left(\left[\begin{array}{r}0 \\1 \\0\end{array}\right]\right)=\left[\begin{array}{r}-1 \\2\end{array}\right], \textrm{\ and\ } T\left(\left[\begin{array}{c}0 \\0 \\1\end{array}\right]\right)=\left[\begin{array}{c}0 \\1\end{array}\right].$$
+Use this information to find $T\left(\left[\begin{array}{r}-2 \\3 \\4\end{array}\right]\right).$
+
+\item Let $T: \mathbb{R}^2 \to \mathbb{R}^2$ be the linear transformation that first reflects points over the $y$-axis and then rotates points $\pi/2$ radians counterclockwise.  
+
+\begin{enumerate}
+\item (4 points) Find the standard matrix representation for this linear transformation.
+    
+\item (2 points) What single geometric transformation is $T$ equivalent to?  Briefly justify your answer.
+
+\item (4 points) Using your matrix from part (a), find the eigenvalues for the matrix representation by finding the roots of the characteristic polynomial.  Do your computations by hand.
+
+\item (2 points) Describe geometrically why your answer in part (c) makes sense.
+
+\end{enumerate}
+
+\item \label{lower triangular} (4 points) Let
+\[
+A=\begin{bmatrix} a & 0 & 0\\ b & c & 0 \\ d & e & f \end{bmatrix}
+\]
+Show that $\det(A)=acf$.\footnote{This a special case of a more general fact that says that the determinant of any lower triangular matrix has a determinant equal to the product of the entries on the diagonal.}
+
+\item Let 
+\[
+A=\begin{bmatrix} 1 & 0 & 0\\ -1 & 2 & 0 \\ 3 & -2 & 2 \end{bmatrix}
+\]
+\begin{enumerate}
+\item (2 points) Use the result of Problem \ref{lower triangular} to find the eigenvalues for $A$.
+
+\item (4 points) For each eigenvalue of $A$ that you found in part (a), find a basis for the corresponding eigenspace.
+
+\end{enumerate}
+
+\item (2 points each) For each of the following functions, determine whether the function is a linear transformation.  If the function is not linear, explain why. If the function is linear, you do \emph{not} need to prove it.
+
+\begin{enumerate}
+\item Define $R:\mathbb{R}\to \mathbb{R}$ via $R(x)=\sqrt{x}$.
+\item Define $B:\mathbb{R}^2\to P_2$ via $B\left(\begin{bmatrix}a\\ b\end{bmatrix}\right)=ax^2+bx+1$.
+\item Define $L:\mathbb{R}^2\to \mathbb{R}^2$ via $L\left(\begin{bmatrix}x\\ y\end{bmatrix}\right)=\begin{bmatrix}x+2y\\ y-x\end{bmatrix}$.
+\item Define $D:M_{2\times 2} \to \mathbb{R}$ via $D(A)=\det(A)$.
+%\item Define $T:P_2\to P_1$ via $T(f(x))=f'(x)$.
+\item Define $I:P_2\to \mathbb{R}$ via $\displaystyle I(f)=\int_0^1 f(x)\ dx$.
+\item Define $S:P_2\to P_3$ via $S(p(x))=(x-2)p(x)$.
+%\item Define $S:M_{2\times 2} \to M_{2\times 2}$ via $S(A)=A-A^t$
+\end{enumerate}
+
+\item Let $R:M_{2\times 2} \to P_2$ be defined via
+\[
+R\left(\begin{bmatrix}a & b\\ c & d\end{bmatrix}\right)=(a+2b+c-4d)+(-a-b+2c+d)x+(-3a-4b+4c+5d)x^2.
+\]
+It turns out that $R$ is a linear transformation (you do not need to prove this).
+
+\begin{enumerate}
+\item (4 points) Determine the kernel of $R$.
+
+\item (2 points) Is $R$ one-to-one (injective)?  Justify your answer.
+
+\end{enumerate}
+
+\item (4 points) Let $A$ be an $n\times n$ matrix have real eigenvalue $\lambda$.  Suppose that $\vec{x}$ and $\vec{y}$ are both eigenvectors for $\lambda$.  Show that $\vec{x}+\vec{y}$ is also an eigenvector for $\lambda$.  Show this directly without appealing to the fact that the set of eigenvectors for $\lambda$ form a subspace.
+
+\item (4 points each) Prove any \textbf{two} of the following facts.
+
+\begin{enumerate}
+
+\item Let $T: U\to V$ be a linear transformation, where $U$ and $V$ are vector spaces.  Define
+\[
+R=\{\vec{y}\in V: \text{there exists } \vec{x}\in U \text{ such that } T(\vec{x})=\vec{y}\}.\footnote{Note that this is just the range of $T$.}
+\]
+Then $R$ is a subspace of $V$.
+
+\item Let $A$ be an $m\times n$ matrix.  If $\{\vec{u},\vec{v},\vec{w}\}$ is a linearly dependent set in $\mathbb{R}^n$, then $\{A\vec{u}, A\vec{v}, A\vec{w}\}$ is linearly dependent in $\mathbb{R}^m$.
+
+\item Let $A$ be an $m\times n$ matrix and define $T:\mathbb{R}^n\to \mathbb{R}^m$ via $T(\vec{x})=A\vec{x}$. If the rank of $A$ is $n$, then $T$ is onto (surjective).\footnote{Actually, the converse of this statement is also true, but I'm not asking you to prove it.}
+
+\end{enumerate}
+
+\item \textbf{Bonus Question:} (4 points) Imagine a baby world wide web with precisely 5 webpages, say $P_1, P_2, P_3, P_4, P_5$.  Suppose that these pages having the following link structure:
+\begin{center}
+\begin{tabular}{|l|l|}
+\hline
+Webpage & Links to\\
+\hline
+$P_1$ & $P_2, P_3, P_4, P_5$\\
+$P_2$ & $P_1, P_3, P_4$\\
+$P_3$ & $P_1, P_2$\\
+$P_4$ & $P_3$\\
+$P_5$ & $P_1, P_4$\\
+\hline
+\end{tabular}
+\end{center}
+Using a transition matrix (not the Google matrix), compute the PageRank for this world wide web.  If necessary, approximate your values to two decimal places.  If you want help automating this in Sage, just ask.
+\end{enumerate}
+
+\end{document}

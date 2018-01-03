@@ -1,0 +1,58 @@
+/* old color: #FF9900 */
+
+thead th {
+	color: #66ccff;
+}
+
+#nav li a:hover {
+	color: #999999;
+}
+
+#uberlink a:link, #uberlink a:visited, 
+#uberlink a:hover, #uberlink a:active {
+	color: #66ccff;
+}
+
+#right li a:hover, .right2 li a:hover {
+	color: #66ccff;
+}
+
+#head h1 {
+	font: 400 3em 'Lato', sans-serif;
+}
+
+#head h2 {
+	color: #66ccff;
+}
+	
+h2 {
+	color: #66ccff;
+}
+
+h3 {
+	color: #66ccff;
+}
+
+img.content, a img.content {
+	background-color: #66ccff;
+}
+
+#right li a {
+	color: #66ccff;
+}
+
+#content a, #foot a {
+	color: #66ccff;
+}
+
+table caption {
+  	color: #666;;
+}
+
+#breadcrumbs {
+	color: #66ccff;
+}
+
+#breadcrumbs a {
+	color: #66ccff;
+}

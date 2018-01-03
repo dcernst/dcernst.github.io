@@ -1,0 +1,155 @@
+\documentclass[11pt]{article}
+
+\usepackage{url}
+\usepackage{tikz}
+\usepackage{fancyhdr}
+\usepackage[margin=.7in]{geometry}
+\usepackage[hang,flushmargin,symbol*]{footmisc}
+\usepackage{amsmath}
+\usepackage{todonotes}
+\usepackage{amsthm}
+\usepackage{amssymb}
+\usepackage{mathtools}
+\usepackage{enumitem}
+\usepackage{graphicx}
+\usepackage{color}
+\usepackage{tipa} %to get \textpipe to work
+\definecolor{darkblue}{rgb}{0, 0, .6}
+\definecolor{grey}{rgb}{.7, .7, .7}
+\usepackage[breaklinks]{hyperref}
+\hypersetup{
+	colorlinks=true,
+	linkcolor=darkblue,
+	anchorcolor=darkblue,
+	citecolor=darkblue,
+	pagecolor=darkblue,
+	urlcolor=darkblue,
+	pdftitle={},
+	pdfauthor={}
+}
+
+\theoremstyle{definition} 
+\newtheorem{theorem}{Theorem}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{claim}[theorem]{Claim}
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{conjecture}[theorem]{Conjecture}
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{example}[theorem]{Example}
+\newtheorem{remark}[theorem]{Remark}
+\newtheorem{important}[theorem]{Important Note}
+\newtheorem{recall}[theorem]{Recall}
+\newtheorem{note}[theorem]{Note}
+\newtheorem{question}[theorem]{Question}
+
+\newcommand{\blank}{\underline{\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ }}
+\newcommand{\ds}{\displaystyle}
+
+%todo commants
+\newcommand{\insertref}[1]{\todo[color=green!40]{#1}}
+\newcommand{\comment}[1]{\todo[color=blue!20!white,inline]{#1}}
+\setlength{\marginparwidth}{2cm}
+
+\setlength{\parindent}{0pt}
+\setlength{\fboxsep}{10pt}
+
+%%%%%%Header/Footer%%%%%%%
+
+\pagestyle{fancy}
+
+\lhead{\scriptsize  MA3110: Logic, Proof, \& Axiomatic Systems - Spring 2011} 
+\chead{} 
+\rhead{\scriptsize Take-Home Portion of Final Exam} 
+\lfoot{\scriptsize This work is licensed under the \href{http://creativecommons.org/licenses/by-sa/3.0/us/}{Creative Commons Attribution-Share Alike 3.0 License}.} 
+\cfoot{} 
+\rfoot{\scriptsize Written by \href{http://oz.plymouth.edu/~dcernst}{D.C. Ernst}} 
+\renewcommand{\headrulewidth}{0.4pt} 
+\renewcommand{\footrulewidth}{0.4pt} 
+
+%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+\begin{center}
+
+{\Large\bf MA3110: Logic, Proof, \& Axiomatic Systems - Spring 2011}\\
+\smallskip
+{\Large\bf Take-Home Portion of Final Exam}
+
+\bigskip
+
+  \fbox{\parbox{7in}{
+    \vspace{12pt}
+    \textbf{\large NAME:}
+    \vspace{12pt}
+  }}
+
+\end{center}
+
+\setlength{\fboxsep}{10pt}
+
+\section*{Instructions}
+
+This portion of Final Exam is worth 20 points.  Prove any \textbf{two} theorems on the following page.  Each proof is worth 10 points.
+
+\bigskip
+
+You should write in \emph{complete sentences}.  I expect your proofs to be \emph{well-written, neat}, and \emph{organized}.  Do \emph{not} turn in rough drafts.  What you turn in should be the ``polished'' version of potentially several drafts.  Feel free to type up your final version.  
+
+\bigskip
+
+The \LaTeX\ source file of this exam is also available if you are interested in typing up your solutions using \LaTeX.  I'll help you do this if you'd like.
+
+\bigskip
+
+The simple rules for the exam are:
+
+\begin{enumerate}
+\item You may freely use any theorems that we have discussed in class, but you should make it clear where you are using a previous result and which result you are using.  For example, if a sentence in your proof follows from Theorem 1.41, then you should say so.
+\item Unless you prove them, you cannot use any results from the course notes or otherwise that we have not covered.
+\item You are NOT allowed to copy someone else's work.
+\item You are NOT allowed to let someone else copy your work.
+\item You are allowed to discuss the problems with each other and critique each other's work.
+\end{enumerate}
+
+This portion of the Final Exam is due by 5\textsc{pm} on \textbf{Friday, May 20}.  You should turn in this cover page and all of the work that you have decided to submit.
+
+\bigskip
+
+To convince me that you have read and understand the instructions, sign in the box below.
+
+\bigskip
+
+  \fbox{\parbox{7in}{
+    \vspace{12pt}
+    \textbf{\large Signature:} \hfill
+    \vspace{12pt}
+  }}
+
+\bigskip
+
+Good luck and have fun!
+
+\newpage
+
+\begin{theorem}
+Let $f:X\to Y$ be a one-to-one correspondence.  For $A\subseteq X$, define $f(A)=\{f(a):a\in A\}$.  Suppose that $\Omega$ is a partition of $X$.  Then
+\[
+\Omega^{*}=\{f(A):A\in\Omega\}
+\]
+is a partition of $Y$.
+\end{theorem}
+
+\begin{theorem}
+Let $f:X\to Y$ be a function.  Define a relation on $X$ via $x_{1}\sim x_{2}$ iff $f(x_{1})=f(x_{2})$.  Then $\sim$ is an equivalence relation.
+\end{theorem}
+
+\begin{theorem}
+Let $f:X\to Y$ and $g:Y\to Z$ be functions.  If $f$ and $g$ are both one-to-one correspondences, then $(g\circ f)^{-1}=f^{-1}\circ g^{-1}$.\footnote{This is Theorem 3.107 from the course notes.}
+\end{theorem}
+
+\begin{theorem}
+For all $n\in\mathbb{N}$, $\displaystyle \frac{1}{1\cdot 2}+\frac{1}{2\cdot 3}+\cdots +\frac{1}{n(n+1)}=\frac{n}{n+1}$.
+\end{theorem}
+
+\end{document}

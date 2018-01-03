@@ -1,0 +1,269 @@
+\documentclass[11pt]{article}
+
+\usepackage{url}
+\usepackage{tikz}
+\usepackage{fancyhdr}
+\usepackage[margin=.7in]{geometry}
+\usepackage[hang,flushmargin,symbol*]{footmisc}
+\usepackage{amsmath}
+\usepackage{todonotes}
+\usepackage{amsthm}
+\usepackage{amssymb}
+\usepackage{mathtools}
+\usepackage{enumitem}
+\usepackage{graphicx}
+\usepackage{array}
+\usepackage{color}
+\usepackage{tipa} %to get \textpipe to work
+\definecolor{darkblue}{rgb}{0, 0, .6}
+\definecolor{grey}{rgb}{.7, .7, .7}
+\usepackage[breaklinks]{hyperref}
+\hypersetup{
+	colorlinks=true,
+	linkcolor=darkblue,
+	anchorcolor=darkblue,
+	citecolor=darkblue,
+	pagecolor=darkblue,
+	urlcolor=darkblue,
+	pdftitle={},
+	pdfauthor={}
+}
+
+\theoremstyle{definition} 
+\newtheorem{theorem}{Theorem}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{claim}[theorem]{Claim}
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{conjecture}[theorem]{Conjecture}
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{example}[theorem]{Example}
+\newtheorem{remark}[theorem]{Remark}
+\newtheorem{important}[theorem]{Important Note}
+\newtheorem{recall}[theorem]{Recall}
+\newtheorem{note}[theorem]{Note}
+\newtheorem{question}[theorem]{Question}
+
+\newcommand{\blank}{\underline{\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ }}
+\newcommand{\ds}{\displaystyle}
+\newcommand{\ord}{\mathrm{ord}}
+
+%todo commants
+\newcommand{\insertref}[1]{\todo[color=green!40]{#1}}
+\newcommand{\comment}[1]{\todo[color=blue!20!white,inline]{#1}}
+\setlength{\marginparwidth}{2cm}
+
+\setlength{\parindent}{0pt}
+\setlength{\fboxsep}{10pt}
+
+\newcolumntype{x}[1]{%
+>{\centering\hspace{0pt}}p{#1}}%
+\renewcommand\arraystretch{2}
+
+%%%%%%Header/Footer%%%%%%%
+
+\pagestyle{fancy}
+
+\lhead{\scriptsize  MA4140: Abstract Algebra (Fall 2011)} 
+\chead{} 
+\rhead{\scriptsize Exam 1} 
+\lfoot{\scriptsize This work is licensed under the \href{http://creativecommons.org/licenses/by-sa/3.0/us/}{Creative Commons Attribution-Share Alike 3.0 License}.} 
+\cfoot{} 
+\rfoot{\scriptsize Written by \href{http://oz.plymouth.edu/~dcernst}{D.C. Ernst}} 
+\renewcommand{\headrulewidth}{0.4pt} 
+\renewcommand{\footrulewidth}{0.4pt} 
+
+%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+\begin{center}
+
+{\Large\bf MA4140: Abstract Algebra (Fall 2011)}\\
+\smallskip
+{\Large\bf Exam 1}
+
+\bigskip
+
+  \fbox{\parbox{7in}{
+    \vspace{10pt}
+    \textbf{\large Your Name:}
+    \vspace{10pt}
+  }}
+  
+  \bigskip
+  
+  \fbox{\parbox{7in}{
+    \vspace{10pt}
+    \textbf{\large Names of any collaborators:}
+    \vspace{10pt}
+  }}
+
+\end{center}
+
+\setlength{\fboxsep}{10pt}
+
+\section*{Instructions}
+
+This exam is worth a total of 85 points and 15\% of your overall grade.  For each part of the exam, read the instructions carefully.
+
+\bigskip
+
+I expect your proofs to be \emph{well-written, neat, and organized}.  You should write in \emph{complete sentences}.  Do not turn in rough drafts.  What you turn in should be the ``polished'' version of potentially several drafts.  Feel free to type up your final version.  
+
+\bigskip
+
+The \LaTeX\ source file of this exam is also available if you are interested in typing up your solutions using \LaTeX.  I'll help you do this if you'd like.
+
+\bigskip
+
+The simple rules for the exam are:
+
+\begin{enumerate}
+\item You may freely use any theorems that we have discussed in class, but you should make it clear where you are using a previous result and which result you are using.  For example, if a sentence in your proof follows from Theorem 28, then you should say so.
+\item Unless you prove them, you cannot use any results from the course notes that we have not covered.
+\item You are NOT allowed to consult external sources when working on the exam.  This includes people outside of the class, other textbooks, and online resources.
+\item You are NOT allowed to copy someone else's work.
+\item You are NOT allowed to let someone else copy your work.
+\item You are allowed to discuss the problems with each other and critique each other's work.
+\end{enumerate}
+
+The exam is due to my office by 5\textsc{pm} on \textbf{Friday, October 14}.  You should turn in this cover page and all of the work that you have decided to submit.
+
+\bigskip
+
+To convince me that you have read and understand the instructions, sign in the box below.
+
+\bigskip
+
+  \fbox{\parbox{7in}{
+    \vspace{10pt}
+    \textbf{\large Signature:} \hfill
+    \vspace{10pt}
+  }}
+
+\bigskip
+
+Good luck and have fun!
+
+\newpage
+
+\section*{Part 1}
+
+Provide an example of each of the following.  You do not need to justify your answers. (3 points each)
+
+\begin{enumerate}
+
+\item A group $G$ that is abelian (i.e., commutative) but not cyclic.
+
+\item A group $G$ such that all of the proper subgroups of $G$ are cyclic but $G$ is \emph{not} cyclic.\footnote{A \emph{proper} subgroup is a subgroup that is not equal to the whole parent group.}
+
+\item A group $G$ that is not abelian. 
+
+\item A group $G$ and elements $a,b \in G$, where $(ab)^2\neq a^2b^2$.
+
+\item A group $G$ with more than one element such that the only subgroups of $G$ are $G$ itself and the subgroup consisting solely of the identity (i.e., $\{e\}$).
+
+\item A group $G$ that is infinite and cyclic.
+
+\item A group $G$ that is infinite but not cyclic.
+
+\end{enumerate}
+
+\section*{Part 2}
+
+Complete each of the following problems.  You should provide sufficient justification where necessary.
+
+\begin{enumerate}
+
+\item (4 points) Complete the following table so that it represents the multiplication table for a group.
+
+\begin{center}
+\begin{tabular}{|x{.75cm}||x{.75cm}|x{.75cm}|x{.75cm}|x{.75cm}|}\hline $*$ & $e$ & $a$ & $b$ & $c$ \tabularnewline \hline\hline $e$ &  &  &  & \tabularnewline\hline $a$ &  & $c$ &  &  \tabularnewline \hline $b$ &  &  &  &  \tabularnewline \hline $c$ &  &  &  &  \tabularnewline \hline 
+\end{tabular}
+\end{center}
+\textbf{Bonus Question:} (3 points) What group is this in disguise?  Justify your answer.
+
+\item (3 points each) Provide at least one reason why each of the following does not form a group.
+\begin{enumerate}
+\item The set of odd integers under the operation of addition.
+
+\item The set of real numbers under the operation of multiplication.
+
+\item The set of $2\times 2$ matrices with real number entries under the operation of matrix multiplication.
+
+\end{enumerate}
+
+\item (3 points each) Imagine that you have a penny and a nickel sitting side by side.  So that we both have the same starting point, assume that both coins are showing heads (as opposed to tails) and the penny is on the left.  Consider the following actions on the coins:
+
+\begin{enumerate}
+
+\item[] $S$: Swap left and right coins. 
+
+\item[] $F_L$: Flip over the left coin.
+
+\end{enumerate}
+
+It turns out that the set of all possible combinations of $S$'s and $F_L$'s forms a group with 8 elements.  We'll stick with our convention of applying actions from right to left and we'll use $*$ to denote the binary operation.  For example, $F_L*S*F_L$ first flips over the left coin, then swaps both coins, and finally flips the coin in the left position.  The net result is that we flipped over both coins and swapped their position; let's call this action $D$ (I'm thinking ``$D$ for ``double").
+
+\begin{enumerate}
+
+\item List the remaining 5 elements of this group by describing the action on the coins.  In addition, give each of the elements a name (similar to how I named elements by $S$, $F_L$, and $D$).
+
+\item For each of the 8 elements of this group, write the element as a combination of $S$ and $F_L$.  (For each element, there are many correct answers.)
+
+\item It turns out that there are two elements of order 4 in this group.  Find both of them.
+
+\item Is this group cyclic?  Justify your answer.
+
+\item Is this group abelian?  Justify your answer.
+
+\end{enumerate}
+
+\item (3 points each) Consider the group $\mathbb{Z}_{20}$ (i.e, the set $\{0, 1,\ldots, 19\}$ under the operation of addition modulo 20).
+\begin{enumerate}
+
+\item Find all generators of this group.
+
+\item What are the orders of the elements in this group?  You don't need to list all of the elements and their corresponding orders (although, you can if you want to), but rather you just have to tell me what the orders end up being.
+
+\item Find all elements of order 4.
+
+\item Does the set of all elements of order 4 form a subgroup?  Explain your answer.
+
+\end{enumerate}
+
+\end{enumerate}
+
+\section*{Part 3}
+
+(8 points each) Prove any 3 of the following theorems.
+
+\begin{theorem}
+Let $G$ be a group and let $H$ and $K$ be subgroups of $G$.  Then $H\cap K$ is a subgroup of $G$.
+\end{theorem}
+
+\begin{theorem}
+Let $G=\mathrm{sg}(b)$, where $\circ(b)=k$.  Then $b^{m}$ generates $G$ if and only if $m$ and $k$ are relatively prime.\footnote{This is Theorem 35 on page 12 of the course notes.}
+\end{theorem}
+
+\begin{theorem}
+Let $G$ be a group and suppose that $g\in G$ such that $\circ(g)=n$.  Then $\circ(g^{-1})=n$, as well.
+\end{theorem}
+
+\begin{theorem}
+Let $G$ be a group such that $a^4 ba=ba^2$ and $a^3=e$ for all $a,b\in G$.  Then $G$ is abelian.
+\end{theorem}
+
+\begin{theorem}
+Consider the group $\langle \mathbb{Z},+\rangle$ and let $H$ be a subgroup of $\mathbb{Z}$ consisting of more than one element.  Then $H$ has finitely many elements if and only if $H$ has two elements.
+\end{theorem}
+
+\begin{theorem}
+Suppose that $G$ is an abelian group and let $H=\{g\in G: g^2=e\}$, where $e$ is the identity element in $G$.  Then $H$ is a subgroup of $G$.
+\end{theorem}
+
+\begin{theorem}
+Let $\langle G_1,*\rangle$ and $\langle G_2,\cdot \rangle$ be two groups.  Suppose $f:G_1\to G_2$ satisfies $f(a* b)=f(a)\cdot f(b)$ for all $a,b\in G_1$, and define $K=\{a\in G_1:f(a)=e'\}$, where $e'$ is the identity in $G_2$.  Then $K$ is a subgroup of $G_1$.
+\end{theorem}
+
+\end{document}

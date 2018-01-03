@@ -1,0 +1,251 @@
+\documentclass[11pt]{article}
+
+\usepackage{url}
+\usepackage{tikz}
+\usepackage{fancyhdr}
+\usepackage[margin=.7in]{geometry}
+\usepackage[hang,flushmargin,symbol*]{footmisc}
+\usepackage{amsmath}
+\usepackage{todonotes}
+\usepackage{amsthm}
+\usepackage{amssymb}
+\usepackage{mathtools}
+\usepackage{enumitem}
+\usepackage{graphicx}
+\usepackage{color}
+\usepackage{tipa} %to get \textpipe to work
+\definecolor{darkblue}{rgb}{0, 0, .6}
+\definecolor{grey}{rgb}{.7, .7, .7}
+\usepackage[breaklinks]{hyperref}
+\hypersetup{
+	colorlinks=true,
+	linkcolor=darkblue,
+	anchorcolor=darkblue,
+	citecolor=darkblue,
+	pagecolor=darkblue,
+	urlcolor=darkblue,
+	pdftitle={},
+	pdfauthor={}
+}
+
+\theoremstyle{definition} 
+\newtheorem{theorem}{Theorem}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{claim}[theorem]{Claim}
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{conjecture}[theorem]{Conjecture}
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{example}[theorem]{Example}
+\newtheorem{remark}[theorem]{Remark}
+\newtheorem{important}[theorem]{Important Note}
+\newtheorem{recall}[theorem]{Recall}
+\newtheorem{note}[theorem]{Note}
+\newtheorem{question}[theorem]{Question}
+
+\newcommand{\blank}{\underline{\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ }}
+\newcommand{\ds}{\displaystyle}
+
+\setlength{\parindent}{0pt}
+\setlength{\fboxsep}{10pt}
+
+%%%%%%Header/Footer%%%%%%%
+
+\pagestyle{fancy}
+
+\lhead{\scriptsize  MA3110: Logic, Proof, \& Axiomatic Systems - Spring 2012} 
+\chead{} 
+\rhead{\scriptsize Exam 1} 
+\lfoot{\scriptsize This work is licensed under the \href{http://creativecommons.org/licenses/by-sa/3.0/us/}{Creative Commons Attribution-Share Alike 3.0 License}.} 
+\cfoot{} 
+\rfoot{\scriptsize Written by \href{http://danaernst.com}{D.C. Ernst}} 
+\renewcommand{\headrulewidth}{0.4pt} 
+\renewcommand{\footrulewidth}{0.4pt} 
+
+%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+\begin{center}
+
+{\Large\bf MA3110: Logic, Proof, \& Axiomatic Systems}\\
+\smallskip
+{\Large\bf Exam 1}
+
+\bigskip
+
+  \fbox{\parbox{7in}{
+    \vspace{10pt}
+    \textbf{\large Your Name:}
+    \vspace{10pt}
+  }}
+  
+  \bigskip
+  
+  \fbox{\parbox{7in}{
+    \vspace{10pt}
+    \textbf{\large Names of any collaborators:}
+    \vspace{10pt}
+  }}
+
+\end{center}
+
+\section*{Instructions}
+
+This exam is worth a total of 34 points and 15\% of your overall grade.  Please read the instructions for each question carefully.
+
+\bigskip
+
+I expect your solutions to be \emph{well-written, neat, and organized}.  Do not turn in rough drafts.  What you turn in should be the ``polished'' version of potentially several drafts.  Show \emph{all} of your work and \emph{justify} your answers where appropriate. 
+ 
+\bigskip
+
+Feel free to type up your final version.  The \LaTeX\ source file of this exam is also available if you are interested in typing up your solutions using \LaTeX.  I'll gladly help you do this if you'd like.
+
+\bigskip
+
+The simple rules for the exam are:
+
+\begin{enumerate}
+\item You may freely use any theorems that we have discussed in class, but you should make it clear where you are using a previous result and which result you are using.  For example, if a sentence in your proof follows from Theorem 1.41, then you should say so.
+\item Unless you prove them, you cannot use any results from the course notes or book that we have not yet covered.
+\item You are \textbf{NOT} allowed to consult external sources when working on the exam.  This includes people outside of the class, other textbooks, and online resources.
+\item You are \textbf{NOT} allowed to copy someone else's work.
+\item You are \textbf{NOT} allowed to let someone else copy your work.
+\item You are allowed to discuss the problems with each other and critique each other's work.
+\end{enumerate}
+
+\begin{center}
+\textbf{I will vigorously pursue anyone suspected of breaking these rules.}
+\end{center}
+
+\bigskip
+
+The exam is due to my office by 5\textsc{pm} on \textbf{Wednesday, March 7}.  You should turn in this cover page and all of the work that you have decided to submit.
+
+\bigskip
+
+To convince me that you have read and understand the instructions, sign in the box below.
+
+\bigskip
+
+  \fbox{\parbox{7in}{
+    \vspace{10pt}
+    \textbf{\large Signature:} \hfill
+    \vspace{10pt}
+  }}
+
+\bigskip
+
+Good luck and have fun!
+
+\newpage
+
+\section*{Part 1}
+
+Answer each of the following questions completely.
+
+\begin{enumerate}
+
+\item (2 points) Provide an example of an English sentence that is \emph{not} a proposition.
+
+\item (2 points) Provide an example of an English sentence that is a true conditional proposition, but whose converse is false.
+
+\item (2 points) Provide an example of a predicate with a two free variables.
+
+\item (2 points) Consider the following proposition, where the universe of discourse is the set of integers.
+
+\begin{enumerate}
+\item[] ``If $xy$ is odd, then both $x$ and $y$ are odd.''
+\end{enumerate}
+
+Find the contrapositive of this statement.
+
+\item (2 points) Let $n\in\mathbb{Z}$ and consider the following proposition.
+
+\begin{enumerate}
+\item[] ``If 3 divides $n$, then 6 divides $n$.''
+\end{enumerate}
+
+It turns out that this statement is false.  Find the negation of this statement and word your statement so that it contains the phrase ``does not''.
+
+\item (2 points each)  Each of the following propositions is false.  In each case, provide a counterexample to show that the proposition is false.  (You should show sufficient work to justify that your example does in fact show that the proposition is false.)
+
+\begin{enumerate}
+
+\item Let $a, b, c \in \mathbb{Z}$. If $a$ divides $bc$, then either $a$ divides $b$ or $a$ divides $c$.
+
+\item Let $x,y,z \in \mathbb{N}$. If $x+y$ is odd and $y+z$ is odd, then $x+z$ is odd.
+
+\end{enumerate}
+
+\item (2 points each)  Consider the following proposition.
+\begin{enumerate}
+\item[] ``For all $x$, there exists $y$ such that $x+y=0$.''
+\end{enumerate}
+
+\begin{enumerate}
+\item Provide an example of a universe of discourse where this proposition is true.
+
+\item Provide an example of a universe of discourse where this proposition is false.
+
+\end{enumerate}
+
+%\item (5 points)  Explain why the following ``proof'' is not a valid argument.
+%
+%\begin{enumerate}
+%
+%\item[] \textbf{Claim.}  For all integers $x$ and $y$, if $x$ and $y$ are even, then $x+y$ is even.
+%
+%\bigskip
+%
+%\emph{``Proof.''}  Suppose $x, y \in \mathbb{Z}$ such that $x$ and $y$ are even.  For sake of a contradiction, assume that $x+y$ is odd.  Then there exists $k \in \mathbb{Z}$ such that $x+y=2k+1$.  This implies that $x+y-2k=1$.  We see that the left side of the equation is even because it is the sum of even numbers.  However, the right side is odd.  Since an even number cannot equal an odd number, we have a contradiction.  Therefore, $x+y$ is even.  \hfill $\Box$
+%\end{enumerate}
+
+\end{enumerate}
+
+Part 2 is on the next page.
+
+\newpage
+
+\section*{Part 2}
+
+Prove any \textbf{four} of the following theorems.  Please put your proofs in order and make sure it is clear which theorem you are proving.  Each proof is worth 4 points.
+
+%\bigskip
+%
+%\emph{Important:} When proving a statement, you should prove it directly from our definitions and/or by appealing to previous results that we have proved in this course.  If you appeal to a previous result, you need to make it explicit where you are doing this.
+
+\begin{theorem}
+The sum of any four consecutive odd integers is divisible by four.
+\end{theorem}
+
+\begin{theorem}
+Let $n\in\mathbb{N}$ and consider an $n$ by $n$ chess board where each square on the board is colored white or black such that the square in the upper left hand corner is white and no two adjacent squares are the same color.  If $n$ odd, then the number of white squares is also odd while the number of black squares is even.\footnote{Be careful with this one!  I expect a rigorous mathematical proof.}
+
+\end{theorem}
+
+%\begin{theorem}
+%There is a natural number $N$ such that for all $n\in\mathbb{N}$, if $n>N$, then $\frac{1}{n}<0.001$.
+%\end{theorem}
+
+\begin{theorem}
+For every $z\in\mathbb{Z}$, if $z$ is odd, then 8 divides $z^{2}-1$.
+\end{theorem}
+
+\begin{theorem}
+Let $a,b,c,x,y\in\mathbb{Z}$. If $a$ divides $b$ and $a$ divides $c$, then $a$ divides $bx+cy$.
+\end{theorem}
+
+\begin{theorem}
+Let $a,b\in\mathbb{Z}$ and let $n\in\mathbb{N}$.  If $a$ divides $b$, then $a^{n}$ divides $b^{n}$.
+\end{theorem}
+
+%\begin{theorem}
+%For all $t\in\mathbb{Z}$, if there exists $m,n\in\mathbb{Z}$ such that $15m+16n=t$, then there exists $r,s\in\mathbb{Z}$ such that $3r+8s=t$.
+%\end{theorem}
+
+\begin{theorem}
+If there exists an odd natural number $n>5$ such that $n$ is not the sum of three prime numbers, then there exists an even natural number $m>2$ such that $m$ is not the sum of two prime numbers.\footnote{Recall that a prime number is a natural number greater than or equal to 2 that has exactly two natural number divisors.  This problem is related to the Goldbach Conjecture, proposed by Christian Goldbach in 1742, which says that every even number greater than 2 is the sum of two prime numbers.  No one knows whether the Goldbach Conjecture is true or false, but a proof one way or the other has a million dollar prize.  Fortunately, you don't have to prove Goldbach's Conjecture to do this problem.}
+\end{theorem}
+
+\end{document}

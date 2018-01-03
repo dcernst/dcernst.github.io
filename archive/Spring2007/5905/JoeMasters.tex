@@ -1,0 +1,152 @@
+\documentclass{beamer}
+
+\usepackage{amsfonts}
+\usepackage{amsmath}
+\usepackage{latexsym}
+\usepackage{mathrsfs}
+\usepackage{amssymb}
+\usepackage{graphicx}
+
+\begin{document}
+
+\title{Fixed Points and Minimax Theorems}
+\author{Joseph Newhall}
+\date{14 Nov. 06}
+\frame{\titlepage}
+
+\frame{\frametitle{Backround}
+ \textbf{Definition 1:} Suppose $X,Y$ are nonempty sets and let $f:X \times Y\rightarrow \mathbb{R}$.  We say $f$ satisfies the \alert{minimax condition} if 
+ $$\sup_{y\in Y}\inf_{x\in X}f(x,y)= \inf_{x\in X}\sup_{y\in Y}f(x,y).$$
+ 
+\pause \textbf{Main Question:} Under what conditions on $f,X$ and $Y$ will $f$ satisfy the minimax condition?
+
+\pause (some pictures)
+
+}
+\frame{\frametitle{Backround}
+\textbf{Brouwer's Fixed Point Theorem:} Let $f:D^{n}\rightarrow D^{n}$ be a continuous map.  Then there is some $x\in D^{n} $ such that $f(x)=x.$\\
+\vspace{0.5in}
+
+\pause \textbf{Note:} The theorem is still true if we replace $D^{n}$ with any space homeomorphic to $D^{n}$.
+
+}
+\frame{\frametitle{History}
+ \textbf{1912:} Brouwer proves his theorem for arbitrary $n$.\\
+ \pause \textbf{1928:} Von Neumann proves his first minimax theorem.\\
+ \pause \textbf{1937:} Von Neumann solves a problem posed by Leon Walras, concerning equilibria, using a generalization of Brouwer's Theorem.\\
+ \pause \textbf{1941:} Kakutani publishes his theorem.\\
+ \pause \textbf{1944:} Von Neumann proves his theorem. No fixed point theorem used.\\
+ \pause \textbf{1950:} John Nash writes his dissertation.\\
+ \pause \textbf{1952:} John Nash publishes his theorem.  Attributes the idea of using Kakutani's Theorem to Dr. David Gale.\\
+ \pause \textbf{1952,1959:} Fan Publishes his results concerning minimax theorems.}
+  
+
+
+
+
+\frame{\frametitle{2}
+
+\textbf{Proposition 1:}  If $X,Y$ are nonempty and if $f:X\times Y\rightarrow \mathbb{R}$, then 
+ $$\sup_{y\in Y}\inf_{x\in X}f(x,y)\leq \inf_{x\in X}\sup_{y\in Y}f(x,y).$$
+ \pause \textbf{Proof:} Inequality-ology
+
+\pause \textbf{Definition 2:} Let $X,Y$ be two nonempty sets.  Let$f$ be a real-valued function defined on $X\times Y$.  We say $(\bar{x},\bar{y})\in X \times Y$ is a \alert{saddle point} if 
+ $$ f(\bar{x},y) \leq f(\bar{x},\bar{y}) \leq f(x,\bar{y}), \forall x\in X, \forall y\in Y.$$
+
+ 
+\pause \textbf{Proposition 2:} Suppose $X,Y$ are nonempty sets and let $f$ be a real valued function on $X\times Y$.  Then $(\bar{x},\bar{y})$ is a saddle point if and only if
+ $$f(\bar{x},\bar{y})= \min_{x\in X}\sup_{y\in Y}f(x,y)=\max_{y\in Y}\inf_{x\in X}f(x,y).$$
+ \pause \textbf{Proof:} More Inequality-ology}
+\frame{\frametitle{3}
+  \textbf{Main Lemma (Fan 1959):} Let $X$ be a nonempty compact convex subset of a topological vector space.  Let $f$ be a continuous real-valued function on $X\times X$.  Suppose that for each fixed $y\in X$, $f(x,y)$ is convex function of $x$.  Then there exists $y_{o}\in X$ such that $f(x,y_{o})\geq f(y_{o},y_{o})$ for all $x\in X$.
+
+\pause \textbf{Proof:} \pause For $x\in X$, define $$F_{x} = \{y\in X |f(x,y)\geq f(y,y)\}.$$  
+\pause Since $f$ is continuous, $F_{x}$ is closed $\forall x\in X$.  
+\pause We need to show $\displaystyle{\bigcap_{x\in X}F_{x}}\ne \emptyset$.  
+\pause Since $X$ is compact and each $F_{x}$ is closed, it is enough to show $\{F_{x}\}$ satisfies the Finite Intersection Condition\pause, i.e., for any $x_{1},...,x_{n}\in X, \displaystyle{\bigcap_{i=1}^{n}F_{x_{i}}}\ne \emptyset$.\\
+
+\pause Let $\{x_{1},...,x_{n}\}\subseteq X $ and let $K=co(x_{1},...,x_{n})$ be their convex hull.  \pause Since $X$ is convex, $K\subseteq X$.
+
+}
+
+
+
+\frame{\frametitle{4}
+For each $i=1,2,...,n$, define $g_{i}:K\rightarrow \mathbb{R}$ via $g_{i}(y)=\max\{f(y,y)-f(x_{i},y),0\}$, for $y\in K.$  Then each $g_{i}$ is continuous and non-negative.\\
+
+For any $y\in K$, write $y=\displaystyle{\sum_{i=1}^{n}a_{i}x_{i}}$, where $a_{i}\geq 0$ and $\displaystyle{\sum_{i=1}^{n}a_{i}}=1.$ Then TFAE:
+\begin{enumerate}
+\item[a)] $f(x_{i},y)\geq f(y,y)$,  for $i=1,2,...,n$
+\item[b)] $g_{i}(y)=0$, for $i=1,2,...,n$
+\item[c)] $a_{i}\sum_{k=1}^{n}g_{k}(y)=g_{i}(y)$, for $i=1,2,...,n$
+
+\end{enumerate}}
+\frame{\frametitle{4.5}Next, let $S=\{(a_{1},...,a_{n})\in \mathbb{R}^{n}| a_{i}\geq 0, \sum{a_{i}}=1     \}$
+Then $S$ is a compact subset of $\mathbb{R}^{n}$.  Let $\psi:S\rightarrow S$ via $\psi(a_{1},...,a_{n})=(a'_{1},...,a'_{n})$, where 
+$$a'_{i}= \frac{a_{i}+g_{i}(\sum_{j=1}^{n}a_{j}x_{j})}{1+\sum_{k=1}^{n}g_{k}(\sum_{j=1}^{n}a_{j}x_{j})}$$
+Note that $\psi$ really doe map into $S$.  Also, $\psi $ is continuous since each component function is continuous.  Since $\psi$ is a continuous map from the compact $S$ into itself,the Brouwer Fixed Point Theorem says $\psi$ must have some fixed point, $(a_{1},...,a_{n})$.  Let $y=\sum_{i=1}^{n}a_{i}x_{i}$.  Then for each $i=1,...n$ 
+$$a_{i}= \frac{a_{i}+g_{i}(y)}{1+\sum_{k=1}^{n}g_{k}(y)}$$
+$$\Rightarrow  a_{i}\sum_{k=1}^{n}g_{k}(y)=g_{i}(y) $$}
+
+\frame{\frametitle{4.7}But this is condition (c) from above, which is equivalent to $$f(x_{i},y)\geq f(y,y), \text{for} i=1,2....,n.$$ 
+Thus $y\in \bigcap_{i=1}^{n}F_{x_{i}}$ $\Rightarrow \bigcap_{i=1}^{n}F_{x_{i}}\ne \emptyset$  $\Rightarrow \bigcap_{x\in X}F_{x}\ne \emptyset$.
+$\blacksquare$
+
+}
+
+
+\frame{\frametitle{5}
+ \textbf{Lemma 2:} Suppose $L_{1},L_{2}$ are topological vector spaces and suppose $X_{1}\subseteq L_{1}, X_{2}\subseteq L_{2}$ are nonempty compact convex subsets.  Let $f_{1},f_{2}:X=X_{1}\times X_{2}\rightarrow \mathbb{R}$ be continuous functions such that $f_{1}(x,y)$ is concave in $x$ for each fixed $y$ and $f_{2}(x,y)$ is concave in $y$ for each fixed $x$.  Then there exists $\hat{x}=(\hat{x_{1}},\hat{x_{2}})\in X$ such that 
+ $$f_{1}(\hat{x_{1}},\hat{x_{2}})=\max_{x_{1}\in X_{1}}f(x_{1},\hat{x_{2}}) \hspace{.2in}   \text{and}$$
+ $$f_{2}(\hat{x_{1}},\hat{x_{2}})=\max_{x_{2}\in X_{2}}f(\hat{x_{1}},x_{2}).$$
+\pause \textbf{Proof:} Apply the previous lemma to $g:X\times X\rightarrow \mathbb{R}$ given by 
+$$g(x,y)=f_{1}(x_{1},y_{2})+f_{2}(y_{1},x_{2}), \text{where } x=(x_{1},x_{2}); y=(y_{1},y_{2}).$$
+This gives an $\hat{x}=(\hat{x_{1}},\hat{x_{2}}).$ Check that this works.
+}
+
+\begin{frame}
+\frametitle{5.5}
+ \textbf{Theorem(Fan 1959):} Let $X,Y$ be nonempty compact convex sets, each in a topological vector space.  Suppose that $f$ is real-valued continuous function on $X\times Y$ such that for each fixed $y\in Y$, $f(x,y)$ is a convex function of $x$, and for each fixed $x\in X$, $f(x,y)$ is a concave function of $y$.  Then there exists $\bar{x}\in X$ and $\bar{y}\in Y$ such that $(\bar{x},\bar{y})$ is a saddle point of $f$, i.e. 
+ $$f(\bar{x},\bar{y})= \min_{x\in X}\max_{y\in Y}f(x,y)=\max_{y\in Y}\min_{x\in X}f(x,y).$$
+ \pause \textbf{Proof:} Apply lemma 2 to $f_{1}=-f$ and $f_{2}=f.$ Check it all works. 
+\end{frame}
+
+
+
+\frame{\frametitle{6}
+\textbf{Theorem (Von Neumann):} Let $c_{ik}$ be an arbitrary set of real numbers, $1\leq i\leq n, 1\leq k \leq m$.  Define the sets 
+ $$ S = \{\vec{\xi}=(\xi_{1},\xi_{2},...,\xi_{n})\in \mathbb{R}^{n}| \xi_{i}\geq 0,\sum_{i=1}^{n}{\xi_{i}}=1\}$$
+  $$ T = \{\vec{\eta}=(\eta_{1},\eta_{2},...,\eta_{m})\in \mathbb{R}^{m}| \eta_{k}\geq 0,\sum_{k=1}^{m}{\eta_{k}}=1\}$$
+Define $K:S\times T\rightarrow \mathbb{R}$ via $K(\vec{\xi},\vec{\eta})=\sum_{i=1}^{n}\sum_{k=1}^{m}{c_{ik}\xi_{i}\eta_{k}}.$  
+  Then there exists $(\vec{\xi}_{o},\vec{\eta}_{o})\in S\times T$ such that
+  $$K(\vec{\xi}_{o},\vec{\eta}_{o})= \min_{\vec{\xi}\in S}\max_{\vec{\eta}\in T}K(\vec{\xi},\vec{\eta})=\max_{\vec{\eta}\in T}\min_{\vec{\xi}\in S}K(\vec{\xi},\vec{\eta})$$
+  
+  
+\pause  \textbf{Proof:} Use Fan's Theorem: S \& T are compact convex subsets and $K$ is linear in $\vec{\xi}$ for fixed $\vec{\eta}$ (and thus convex in $\vec{\xi}$ for fixed $\vec{\eta}$) and  linear in $\vec{\eta}$ for fixed $\vec{\xi}$ (and thus concave in $\vec{\eta}$ for fixed $\vec{\xi}$). $\blacksquare$
+}
+
+\frame{\frametitle{7} \textbf{Lemma 3(Fan,1952):}  Let $X,Y$ be nonempty compact convex sets, each in a topological vector space.  Suppose that $f$ is a real-valued continuous function on $X\times Y$ such that for each fixed $y\in Y$, $f(x,y)$ is a lower semicontinuous function of $x$, and for each fixed $x\in X$, $f(x,y)$ is an upper semicontinuous function of $y$.  Then
+  $$\min_{x\in X}\max_{y\in Y}f(x,y)=\max_{y\in Y}\min_{x\in X}f(x,y)$$
+  holds if and only if the following condition is satisfied: For any two finite sets $\{x_{1},x_{2},...,x_{n}\}\subseteq X$ and $\{y_{1},y_{2},...,y_{m}\}\subseteq Y$, there exists $(x_{o},y_{o})\in X\times Y$ such that
+  $$f(x_{o},y_{k})\leq f(x_{i},y_{o}), 1\leq i\leq n, 1\leq k\leq m.$$
+  \pause  \textbf{Proof:} Similar to the proof of the Main Lemma.
+}
+
+\frame{\frametitle{8}\textbf{Theorem(Fan 1959):} Let $X,Y$ be nonempty compact convex sets, each in a topological vector space and let $f$ be a real-valued function on $X\times Y$.  Suppose that for each fixed $y\in Y$, $f(x,y)$ is a continuous convex function of $x$, and for each fixed $x\in X$, $f(x,y)$ is a continuous concave function of $y$.  Then there exists $\bar{x}\in X$ and $\bar{y}\in Y$ such that $(\bar{x},\bar{y})$ is a saddle point of $f$, i.e. 
+ $$f(\bar{x},\bar{y})= \min_{x\in X}\max_{y\in Y}f(x,y)=\max_{y\in Y}\min_{x\in X}f(x,y).$$
+ \pause  \textbf{Proof:} Use lemma 3 and Von Neumann's Theorem.
+}
+\begin{frame}
+\frametitle{Bibliography}
+
+[1] Lorin W. Woo, Maximal Points of Convex Sets in Locally Convex Topological Vector Spaces, 1999\\
+\vspace{.2in}
+[2] Ky Fan, Minimax Theorems, \textit{Proc. Nat. Acad. Sci.} 39:42-47 \\
+\vspace{.2in}
+[3] John Nash, Equilibrium Points in $N$-Person Games, \textit{Proc. Nat. Acad. Sci.}36:48-49  \\
+\vspace{.2in}
+[4] James R. Munkres, \textit{Topology, 2nd Edition}, Prentice Hall Inc.,1975\\
+
+\end{frame}
+
+\end{document}

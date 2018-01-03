@@ -1,0 +1,216 @@
+\documentclass[11pt]{article}
+
+\usepackage{url}
+\usepackage{tikz}
+\usepackage{fancyhdr}
+\usepackage{todonotes}
+\usepackage[margin=1in]{geometry}
+\usepackage[hang,flushmargin,symbol*]{footmisc}
+\usepackage{amsmath}
+\usepackage{amsthm}
+\usepackage{amssymb}
+\usepackage{mathtools}
+\usepackage{enumitem}
+\usepackage{graphicx}
+\usepackage{color}
+\usepackage{tipa} %to get \textpipe to work
+\definecolor{darkblue}{rgb}{0, 0, .6}
+\definecolor{grey}{rgb}{.7, .7, .7}
+\usepackage[breaklinks]{hyperref}
+\hypersetup{
+	colorlinks=true,
+	linkcolor=darkblue,
+	anchorcolor=darkblue,
+	citecolor=darkblue,
+	pagecolor=darkblue,
+	urlcolor=darkblue,
+	pdftitle={},
+	pdfauthor={}
+}
+
+\theoremstyle{definition}
+\newtheorem{theorem}{Theorem}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{claim}[theorem]{Claim}
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{conjecture}[theorem]{Conjecture}
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{example}[theorem]{Example}
+\newtheorem{remark}[theorem]{Remark}
+\newtheorem{important}[theorem]{Important Note}
+\newtheorem{recall}[theorem]{Recall}
+\newtheorem{note}[theorem]{Note}
+\newtheorem{question}[theorem]{Question}
+
+%todo commants
+\newcommand{\insertref}[1]{\todo[color=green!40]{#1}}
+\newcommand{\comment}[1]{\todo[color=blue!20!white,inline]{#1}}
+\setlength{\marginparwidth}{2cm}
+
+\setlength{\parindent}{0pt}
+
+%%%%%%Header/Footer%%%%%%%
+
+\pagestyle{fancy}
+
+\lhead{\scriptsize MA2000: Intro to Formal Math (Fall 2011)} 
+\chead{} 
+\rhead{\scriptsize Exam 2} 
+\lfoot{\scriptsize This work is licensed under the \href{http://creativecommons.org/licenses/by-sa/3.0/us/}{Creative Commons Attribution-Share Alike 3.0 License}.} 
+\cfoot{} 
+\rfoot{\scriptsize Written by \href{http://oz.plymouth.edu/~dcernst}{D.C. Ernst}} 
+\renewcommand{\headrulewidth}{0.4pt} 
+\renewcommand{\footrulewidth}{0.4pt}
+
+\setlength{\parindent}{0pt}
+
+%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+\begin{center}
+
+{\Large\bf MA 2000: Introduction to Formal Mathematics (Fall 2011)}\\
+\smallskip
+{\Large\bf Exam 2}
+
+\setlength{\fboxsep}{10pt}
+
+\bigskip
+
+  \fbox{\parbox{6.5in}{
+    \vspace{12pt}
+    \textbf{\large Your name:} 
+    \vspace{12pt}
+  }}
+  
+  \bigskip
+  
+  \fbox{\parbox{6.5in}{
+    \vspace{12pt}
+    \textbf{\large Names of any collaborators:} 
+       \vspace{12pt}
+  }}
+
+
+\end{center}
+
+\section*{Instructions}
+
+For each part, read the instructions carefully.  If you have any questions, please let me know.
+
+\bigskip
+
+This exam is worth 80 points and a total of 20\% of your overall grade in the course.
+
+\bigskip
+
+I expect your solutions to be \emph{well-written, neat, and organized}.  You should write in \emph{complete sentences} when appropriate.  Do not turn in rough drafts.  What you turn in should be the ``polished'' version of potentially several drafts.  Feel free to type up your final version.  
+
+\bigskip
+
+The \LaTeX\ source file of this exam is also available if you are interested in typing up your solutions using \LaTeX.  I'll be happy to help you do this.
+
+\bigskip
+
+The simple rules for this portion of the exam are:
+
+\begin{enumerate}
+\item You are \textbf{NOT} allowed to consult external sources when working on the exam.  This includes people outside of the class, other textbooks, and online resources.
+\item You are \textbf{NOT} allowed to copy someone else's work.
+\item You are \textbf{NOT} allowed to let someone else copy your work.
+\item You are allowed to discuss the problems with each other and critique each other's work.
+\end{enumerate}
+
+I will vigorously pursue anyone suspected of breaking these rules. 
+
+\bigskip
+
+To convince me that you have read and understand the instructions, sign in the box below.
+
+\bigskip
+
+\setlength{\fboxsep}{10pt}
+
+  \fbox{\parbox{6.5in}{
+    \vspace{12pt}
+    \textbf{\large Signature:} \hfill (1 point)
+    \vspace{12pt}
+  }}
+
+\bigskip
+
+This Exam is due by 5:00\textsc{pm} on \textbf{Tuesday, November 22}.  You should turn in this cover page and all of the problems you have decided to submit.
+
+\bigskip
+
+Good luck and have fun!
+
+\newpage
+
+\section*{Part 1}
+
+Answer each of the following questions completely.
+
+\begin{enumerate}
+
+\item (5 points)  Explain why the following proposed ``proof'' is not a valid argument.
+
+\bigskip
+
+\textbf{Claim:}  For all integers $x$ and $y$, if $x$ and $y$ are even, then $x+y$ is even.
+
+\bigskip
+
+\textbf{``Proof.''}  Suppose $x, y \in \mathbb{Z}$ such that $x$ and $y$ are even.  For sake of a contradiction, assume that $x+y$ is odd.  Then there exists $k \in \mathbb{Z}$ such that $x+y=2k+1$.  This implies that $x+y-2k=1$.  We see that the left side of the equation is even because it is the sum of even numbers.  However, the right side is odd.  Since an even number cannot equal an odd number, we have a contradiction.  Therefore, $x+y$ is even.  \hfill $\Box$
+
+\item (5 points)  What is Fermat's Last Theorem?  Be as explicit as possible with your answer.  Who proved it and when?
+
+\item (5 points)  Consider a tournament with 15 teams.  If every team plays every other team, how games were played?  You must show sufficient work.
+\end{enumerate}
+
+\section*{Part 2}
+
+(8 points each) Prove any \textbf{two} of the following theorems.
+
+\bigskip
+
+\emph{Important:} When proving a statement, you should prove it directly from the known axioms, given definitions, or by appealing to previous results that we have proved in this course.  If you appeal to a previous result, you need to make it explicit where you are doing this.
+
+\begin{enumerate}
+
+\item If every even natural number greater than 2 is the sum of two primes, then every odd natural number greater than 5 is the sum of three primes.\footnote{No one knows whether every even number greater than 2 is the sum of two primes.  This is the famous Goldbach conjecture, proposed by Christian Goldbach in 1742.  Solving the Goldbach conjecture would net you a million dollars.  Thankfully, you don't need to prove Goldbach's conjecture to do this problem.}
+
+\item For all $n\in \mathbb{N}$, $\displaystyle 1^2+2^2+3^2+\cdots+n^2=\frac{n(n+1)(2n+1)}{6}$.
+
+\item In a certain kind of tournament, every player plays every other player exactly once and either wins or loses (there are no ties.)  Define a \emph{top player} to be a player who, for every other player $x$, either beats $x$ or beats a player $y$ who beats $x$.\footnote{There may be more than one top player.}  Then every $n$-player tournament has a top player.\footnote{\emph{Hint:} Use weak induction.}
+
+\item Let $x,y,z\in \mathbb{N}$, where $x$ is prime.  Then $x$ divides $yz$ if and only if $x$ divides $y$ or $x$ divides $z$.
+
+\end{enumerate}
+
+\section*{Part 3}
+
+(8 points each) For each of the following, determine whether the statement is true or false.  If the statement is true, prove it.  If the statement is false, provide a counterexample.
+
+\bigskip
+
+\emph{Important:}  If you are proving a true statement, you should prove it directly from the known axioms, given definitions, or by appealing to previous results that we have proved in this course.  If you appeal to a previous result, you need to make it explicit where you are doing this.
+
+\begin{enumerate}
+
+\item Every natural number can be written as the sum of distinct powers of three. 
+
+\item Let $p$ and $q$ be distinct primes.  Then $\sqrt{pq}$ is irrational.
+
+\item If $x$ is a rational number and $y$ is an irrational number, then $x+y$ is irrational.
+
+\item If $x$ is a irrational number and $y$ is an irrational number, then $x+y$ is irrational.
+
+\item Let $x,y,z\in \mathbb{N}$.  Then $x$ divides $yz$ if and only if $x$ divides $y$ or $x$ divides $z$.
+
+\item Let $t_n$ denote the $n$th triangular number.  Then for all $n\in \mathbb{N}$, $t_n+t_{n-1}=(t_n-t_{n-1})^2$.
+
+\end{enumerate}
+
+\end{document}

@@ -1,0 +1,24 @@
+\documentclass[40pt]{article}
+
+%to compile use TeX & Ghostscript: latex, mpost, latex
+
+%in the terminal run dvips -E -i favicon.dvi; this produces a separate .ps file (in the form favicon.001).  did i really need to do this?
+
+\usepackage[metapost,mplabels]{mfpic}
+
+\opengraphsfile{favicon}
+
+\pagestyle{empty}
+
+\begin{document}
+
+\begin{mfpic}[10]{0}{6}{0}{9}
+\fillcolor[RGB]{111,181,54}
+\gfill \rect{(0,0),(2.2,2.2)}
+%\tlabelcolor[RGB]{51,51,51}
+\tlabelcolor[RGB]{255,255,255}
+\tlabel[cc](1.1,1.1){DCE}
+
+\end{mfpic}
+
+\end{document}

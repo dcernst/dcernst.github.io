@@ -1,0 +1,292 @@
+\documentclass[11pt]{article}
+
+\usepackage{url}
+\usepackage{tikz}
+\usepackage{fancyhdr}
+\usepackage[margin=.7in]{geometry}
+\usepackage[hang,flushmargin,symbol*]{footmisc}
+\usepackage{amsmath}
+\usepackage{todonotes}
+\usepackage{amsthm}
+\usepackage{amssymb}
+\usepackage{mathtools}
+\usepackage{enumitem}
+\usepackage{graphicx}
+\usepackage{color}
+\usepackage{tipa} %to get \textpipe to work
+\definecolor{darkblue}{rgb}{0, 0, .6}
+\definecolor{grey}{rgb}{.7, .7, .7}
+\usepackage[breaklinks]{hyperref}
+\hypersetup{
+	colorlinks=true,
+	linkcolor=darkblue,
+	anchorcolor=darkblue,
+	citecolor=darkblue,
+	pagecolor=darkblue,
+	urlcolor=darkblue,
+	pdftitle={},
+	pdfauthor={}
+}
+
+\theoremstyle{definition} 
+\newtheorem{theorem}{Theorem}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{claim}[theorem]{Claim}
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{conjecture}[theorem]{Conjecture}
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{example}[theorem]{Example}
+\newtheorem{remark}[theorem]{Remark}
+\newtheorem{important}[theorem]{Important Note}
+\newtheorem{recall}[theorem]{Recall}
+\newtheorem{note}[theorem]{Note}
+\newtheorem{question}[theorem]{Question}
+
+\newcommand{\blank}{\underline{\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ }}
+\newcommand{\ds}{\displaystyle}
+
+\setlength{\parindent}{0pt}
+\setlength{\fboxsep}{10pt}
+
+%%%%%%Header/Footer%%%%%%%
+
+\pagestyle{fancy}
+
+\lhead{\scriptsize  MA3110: Logic, Proof, \& Axiomatic Systems - Spring 2012} 
+\chead{} 
+\rhead{\scriptsize Exam 2} 
+\lfoot{\scriptsize This work is licensed under the \href{http://creativecommons.org/licenses/by-sa/3.0/us/}{Creative Commons Attribution-Share Alike 3.0 License}.} 
+\cfoot{} 
+\rfoot{\scriptsize Written by \href{http://danaernst.com}{D.C. Ernst}} 
+\renewcommand{\headrulewidth}{0.4pt} 
+\renewcommand{\footrulewidth}{0.4pt} 
+
+%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+\begin{center}
+
+{\Large\bf MA3110: Logic, Proof, \& Axiomatic Systems}\\
+\smallskip
+{\Large\bf Exam 2}
+
+\bigskip
+
+  \fbox{\parbox{7in}{
+    \vspace{10pt}
+    \textbf{\large Your Name:}
+    \vspace{10pt}
+  }}
+  
+  \bigskip
+  
+  \fbox{\parbox{7in}{
+    \vspace{10pt}
+    \textbf{\large Names of any collaborators:}
+    \vspace{10pt}
+  }}
+
+\end{center}
+
+\section*{Instructions}
+
+This exam is worth a total of 64 points and 15\% of your overall grade.  Please read the instructions for each question carefully.
+
+\bigskip
+
+I expect your solutions to be \emph{well-written, neat, and organized}.  Do not turn in rough drafts.  What you turn in should be the ``polished'' version of potentially several drafts.  Show \emph{all} of your work and \emph{justify} your answers where appropriate. 
+ 
+\bigskip
+
+Feel free to type up your final version.  The \LaTeX\ source file of this exam is also available if you are interested in typing up your solutions using \LaTeX.  I'll gladly help you do this if you'd like.
+
+\bigskip
+
+The simple rules for the exam are:
+
+\begin{enumerate}
+\item You may freely use any theorems that we have discussed in class, but you should make it clear where you are using a previous result and which result you are using.  For example, if a sentence in your proof follows from Theorem 1.41, then you should say so.
+\item Unless you prove them, you cannot use any results from the course notes or book that we have not yet covered.
+\item You are \textbf{NOT} allowed to consult external sources when working on the exam.  This includes people outside of the class, other textbooks, and online resources.
+\item You are \textbf{NOT} allowed to copy someone else's work.
+\item You are \textbf{NOT} allowed to let someone else copy your work.
+\item You are allowed to discuss the problems with each other and critique each other's work.
+\end{enumerate}
+
+\begin{center}
+\textbf{I will vigorously pursue anyone suspected of breaking these rules.}
+\end{center}
+
+\bigskip
+
+The exam is due to my office by 5\textsc{pm} on \textbf{Friday, April 20}.  You should \textbf{turn in this cover page} and all of the work that you have decided to submit. \textbf{Please write your solutions and proofs on your own paper.}
+
+\bigskip
+
+To convince me that you have read and understand the instructions, sign in the box below.
+
+\bigskip
+
+  \fbox{\parbox{7in}{
+    \vspace{10pt}
+    \textbf{\large Signature:} \hfill
+    \vspace{10pt}
+  }}
+
+\bigskip
+
+Good luck and have fun!
+
+\newpage
+
+\section*{Part 1}
+
+Answer each of the following questions completely.
+
+\begin{enumerate}
+
+\item (2 points each)  For each of the statements (a)--(d) on the left, find an equivalent symbolic proposition chosen from the list (i)--(v) on the right.  Note that not every statement on the right will get used.  (You do \emph{not} need to justify your answer.)
+
+\medskip
+
+\begin{tabular}{@{}ll}
+\begin{minipage}[l]{3.25in}
+\begin{enumerate}
+\item[(a)] $A \nsubseteq B$
+
+\item[(b)] $A \cap B= \emptyset$
+
+\item[(c)] $(A \cup B)^{c} \neq \emptyset$
+
+\item[(d)] $(A \cap B)^{c} = \emptyset$
+
+\end{enumerate}
+\end{minipage}
+ &
+\begin{minipage}[l]{3.25in}
+\begin{enumerate}
+
+\item[(i)] $(\forall x)(x \in A \wedge x \in B)$ 
+
+\item[(ii)] $(\forall x)(x \in A \implies x \notin B)$ 
+
+\item[(iii)] $(\exists x)(x \notin A \wedge x \notin B)$
+
+\item[(iv)] $(\exists x)(x \in A \vee x \in B)$
+
+\item[(v)] $(\exists x)(x \in A \wedge x\notin B)$
+
+\end{enumerate}
+\end{minipage}
+\end{tabular}
+
+\item (2 points each)  Provide a counterexample to show that each of the following statements is \emph{false}.  (You do \emph{not} need to justify your answer.)
+
+\begin{enumerate}
+\item If $A \cup C \subseteq B \cup C$, then $A \subseteq B$.
+
+\item If $S$ is not an open set, then $S$ is closed.
+
+\end{enumerate} 
+
+\item (2 points each) Provide an example of each of the following.  (You do \emph{not} need to justify your answers.
+
+\begin{enumerate}
+
+\item A set $A$ such that $\mathcal{P}(A)$ has 16 elements.
+
+\item An open set that is not an open interval.
+
+\item A set that is neither open nor closed.
+
+\item A collection of closed sets $\{A_{\alpha}\}_{\alpha\in\Delta}$ such that $\displaystyle \bigcup_{\alpha\in \Delta} A_{\alpha}$ is a \emph{not} closed set.
+
+\item A set $T$ with exactly one limit point.
+
+\item An infinite set $X$ with no limit points.
+
+\end{enumerate}
+
+\item (2 points each) For each statement below, determine whether it is TRUE or FALSE.  If a statement is FALSE, indicate a minor change that will make the statement true (negations are \emph{not} allowable minor changes).  For example, the statement ``$1 \subseteq \{1,2,3\}$" is false. There are two minor changes that would make this statement true.  Here's one: ``$1\in \{1,2,3\}$".  Here's another: ``$\{1\}\subseteq \{1,2,3\}$."
+
+\begin{enumerate}
+
+\item $\emptyset \subseteq \{\emptyset\}$
+
+\item $\emptyset \in \{\emptyset\}$
+
+\item $\{1\} \in \mathcal{P}(\{1, 2, 3\} \cup \{2, 3, 4\})$
+
+\item $1 \in \mathcal{P}(\{1,2,3\})$.
+
+\item $\mathcal{P}(\emptyset)=\emptyset$
+
+\item $\{a\} \subseteq \{a,\{a\}\}$.
+
+\end{enumerate}
+
+\item (2 points each)  For each $n \in \mathbb{N}$, let $A_{n}=[2-\frac{1}{n},3+\frac{1}{n})$.  Compute each of the following.
+
+\begin{enumerate}
+
+\item $\displaystyle \bigcup_{n=1}^{\infty}A_{n}$
+
+\item $\displaystyle \bigcap_{n=1}^{\infty}A_{n}$
+
+\end{enumerate}
+
+\item (2 points each)  Let $U=\{a,b, \{b\}, c, \{a,c\}\}$ be the universe for the sets $A=\{a,b,c\}$ and $B=\{a,\{b\}\}$.  Find each of the following.  (Be careful: make sure you have the right number of $\{\}$ around things.)
+
+\begin{enumerate}
+
+\item $A \cup B$
+
+\item $A^{c} \cap B^{c}$
+
+\item $A\setminus B$
+
+\item $B \cap \mathcal{P}(A)$
+
+\end{enumerate}
+
+\end{enumerate}
+
+\section*{Part 2}
+
+Prove any \textbf{four} of the following theorems.  Please put your proofs in order and make sure it is clear which theorem you are proving.  Each proof is worth 4 points.
+
+\bigskip
+
+\emph{Important:} When proving a statement, you should prove it directly from our definitions and/or by appealing to previous results that we have proved in this course.  If you appeal to a previous result, you need to make it explicit where you are doing this.
+
+\begin{theorem}
+Let $A$ and $B$ be sets in a universe $U$.  Then $A\cup B^{c}=U$ iff $B\subseteq A$.
+\end{theorem}
+
+\begin{theorem}
+Let $A$, $B$, $C$, and $D$ be sets.  If $A\cup B\subseteq C\cup D$ and $A\cap D=\emptyset$, then $A\subseteq C$.
+\end{theorem}
+
+\begin{theorem}
+Let $A$, $B$, and $C$ be sets.  If $(A\cap C)^{c}\subseteq B$, then $A\subseteq (A\setminus B^{c})\cup C$.
+\end{theorem}
+
+\begin{theorem}
+Let $U\subseteq \mathbb{R}$.  Define $T(U)=\{x\in \mathbb{R}:x-1\in U\}$.  If $U$ is open, then $T(U)$ is open, as well.
+\end{theorem}
+
+
+\begin{theorem}
+Let $A$ and $B$ be nonempty subset of $\mathbb{R}$ and let $A'$ and $B'$ denote the set of limit points of $A$ and $B$, respectively.  If $A\subseteq B$, then $A'\subseteq B'$.
+\end{theorem}
+
+\begin{theorem}
+The set of integers is closed.
+\end{theorem}
+
+\begin{theorem}
+Let $\{A_{\alpha}\}_{\alpha\in\Delta}$ be a collection of closed sets.  Then $\displaystyle \bigcap_{\alpha\in \Delta} A_{\alpha}$ is a closed set.\footnote{This is Theorem 2.97 from our notes.  You should not quote the result of this theorem, but rather prove it.}
+\end{theorem}
+
+\end{document}

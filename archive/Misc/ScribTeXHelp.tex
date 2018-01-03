@@ -1,0 +1,119 @@
+% --------------------------------------------------------------
+% This is all preamble stuff that you don't have to worry about.
+% Head down to where it says "Start here"
+% --------------------------------------------------------------
+
+\documentclass[12pt]{article}
+
+\usepackage[margin=1in]{geometry} 
+\usepackage{amsmath,amsthm,amssymb}
+\usepackage{color}
+\definecolor{darkblue}{rgb}{0, 0, .6}
+\usepackage[breaklinks]{hyperref}
+\hypersetup{
+  colorlinks=true,
+  linkcolor=darkblue,
+  anchorcolor=darkblue,
+  citecolor=darkblue,
+  pagecolor=darkblue,
+  urlcolor=darkblue,
+  pdftitle={},
+  pdfauthor={}
+}
+
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\Z}{\mathbb{Z}}
+\renewcommand{\mod}[1]{~\textrm{(mod }#1\textrm{)}}
+
+\newenvironment{theorem}[2][Theorem]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+\newenvironment{lemma}[2][Lemma]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+\newenvironment{exercise}[2][Exercise]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+\newenvironment{problem}[2][Problem]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+\newenvironment{question}[2][Question]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+
+\begin{document}
+
+% --------------------------------------------------------------
+%                         Start here
+% --------------------------------------------------------------
+
+\title{Help with \LaTeX\ via Scrib\TeX}
+
+\maketitle
+
+This document is to help get you started using \LaTeX\ with Scrib\TeX.  There's a very good chance that it won't answer all your questions, but your professor should be able to.
+
+\section{Writing up proofs}
+
+Probably the most important thing for you to know is that \LaTeX\ will format anything between dollar signs as mathematics, such as $a+b=c$.  Scrib\TeX will color-code any mathematical text in purple so it stands out for you.  If you want your equation to be displayed on its own line, the easiest way to do this is is via
+\[
+a+b=c.
+\]
+You can also use double dollar signs to display, like so:
+$$a+b=c.$$
+These kinds of equations are called ``displayed" equations.  Typically displayed equations are reserved for important equations to which you'll make reference several times in the course of your proof, or if the equation is especially long.  Generally speaking, it's considered good style to refrain from abusing displayed equations.
+
+Sometimes, you'll want to display a chain of equalities.  One way to do this is using the \texttt{align} environment.  Here is an example, which you can mimic:
+\begin{align*}
+\sum_{i=1}^{k+1}i & = \left(\sum_{i=1}^{k}i\right) +(k+1)\\ 
+& = \frac{k(k+1)}{2}+k+1 & (\text{by inductive hypothesis})\\
+& = \frac{k(k+1)+2(k+1)}{2}\\
+& = \frac{(k+1)(k+2)}{2}\\
+& = \frac{(k+1)((k+1)+1)}{2}.
+\end{align*}
+Notice that I didn't need to enclose the \texttt{align} environment with backslash brackets (or double dollar signs).
+
+Here's how you format the statement of a given assigned problem, followed by the formatting for the proof:
+
+\begin{theorem}{x.xx}
+Here's where I restate the problem, and I'm sure to typeset mathematics like $a+b=c$ within dollar signs as usual.  You should change x.xx to be whatever the theorem number is.  You can also change ``theorem" to be ``lemma", ``exercise", ``problem", and ``question."
+\end{theorem}
+
+\begin{proof}
+Here's my proof!  It's not very long, nor does it even address the stated theorem.  It's a bad proof.
+\end{proof}
+
+\section{Recognizing problems}
+
+How do you know if \LaTeX\ doesn't understand something you've typed?  When you hit ``Compile," a window pops up that produces the PDF version of the document.  In the top right corner of that pop-up screen, you'll see a link that says ``View Log."  If you have errors in your document, there will be a notice to the left of ``View Log" that tells you how many errors you have.
+
+To fix the problem, click on ``View Log."  At the top of the log in a red box will be a list of the errors you made.  You can then search through the log to find the instance of that particular error.  \LaTeX\ will tell you the line where the error occurred, which can be useful for tracking down the problem.
+
+Don't spend forever trying to hunt down problems with your code, especially when you first get started!  Email your instructor and they can help you debug.
+
+\section{Useful \LaTeX\ character codes}
+
+If you want to use some characters which aren't on your keyboard, you'll need to know the \LaTeX\ code for these symbols.  Here's a handy-dandy list that will include many of the ones you might need.
+
+\begin{itemize}
+\item if you want to say that $a$ is congruent to $b$ modulo $n$, write $a \equiv b \mod{n}$
+\item if you want a summation sign, type $\sum$, or give the bounds of summation with $\sum_{i=1}^{n}$
+\item if you want to show that $a$ divides $b$, type $a \mid b$
+\item if you want to show that $a$ doesn't divide $b$, type $a \nmid b$
+\item if you want to say that two elements aren't equal, write $a \neq b$
+\item if you want to say that one element is larger than another, write $a \geq b$ or $a \leq b$ (or $a<b$ if you have strict inequality)
+\item if you want open and close braces for set notation, use $\{$ and $\}$. 
+\item if you want to write something as a superscript, use the `carrot' symbol and braces, like so: $a^{b}$
+\item if you want to write something as a subscript, use the underscore symbol and braces, like so: $a_{b}$
+\item if you want to typeset a Z for the integers, use $\Z$
+\item if you want to typeset an N for the natural numbers, use $\N$
+\item if you want to show that an element is in a set, use $n \in S$
+\item if you want to show that an element is not in a set, use $n \notin S$
+\item if you want to show that one set is contained in another, use either $T \subset S$ or $T\subseteq S$
+\item if you want to show that one set is a proper subset of another, use $T \subsetneq S$
+\item if you want to write the infinity symbol, use $\infty$
+\item if you want dots to denote a certain patter is continuing, you use either $\cdots$ if you want them centered vertically (as in $1+2+\cdots+n$) and $\ldots$ if you want them aligned to the bottom of the line (as in $\{1,2,\ldots,n\}$)
+\end{itemize}
+
+For additional help, visit Dana's \href{http://oz.plymouth.edu/~dcernst/latex.html}{Quick LaTeX Guide}.
+
+% --------------------------------------------------------------
+%     You don't have to mess with anything below this line.
+% --------------------------------------------------------------
+
+\end{document}

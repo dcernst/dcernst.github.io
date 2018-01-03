@@ -1,0 +1,197 @@
+\documentclass[11pt]{article}
+
+\usepackage{url}
+\usepackage{tikz}
+\usepackage{fancyhdr}
+\usepackage[margin=.7in]{geometry}
+\usepackage[hang,flushmargin,symbol*]{footmisc}
+\usepackage{amsmath}
+\usepackage{todonotes}
+\usepackage{amsthm}
+\usepackage{amssymb}
+\usepackage{mathtools}
+\usepackage{enumitem}
+\usepackage{graphicx}
+\usepackage{color}
+\usepackage{tipa} %to get \textpipe to work
+\definecolor{darkblue}{rgb}{0, 0, .6}
+\definecolor{grey}{rgb}{.7, .7, .7}
+\usepackage[breaklinks]{hyperref}
+\hypersetup{
+	colorlinks=true,
+	linkcolor=darkblue,
+	anchorcolor=darkblue,
+	citecolor=darkblue,
+	pagecolor=darkblue,
+	urlcolor=darkblue,
+	pdftitle={},
+	pdfauthor={}
+}
+
+\theoremstyle{definition} 
+\newtheorem{theorem}{Theorem}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{claim}[theorem]{Claim}
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{conjecture}[theorem]{Conjecture}
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{example}[theorem]{Example}
+\newtheorem{remark}[theorem]{Remark}
+\newtheorem{important}[theorem]{Important Note}
+\newtheorem{recall}[theorem]{Recall}
+\newtheorem{note}[theorem]{Note}
+\newtheorem{question}[theorem]{Question}
+
+\newcommand{\blank}{\underline{\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ }}
+\newcommand{\ds}{\displaystyle}
+
+%todo commants
+\newcommand{\insertref}[1]{\todo[color=green!40]{#1}}
+\newcommand{\comment}[1]{\todo[color=blue!20!white,inline]{#1}}
+\setlength{\marginparwidth}{2cm}
+
+\setlength{\parindent}{0pt}
+\setlength{\fboxsep}{10pt}
+
+%%%%%%Header/Footer%%%%%%%
+
+\pagestyle{fancy}
+
+\lhead{\scriptsize  MA4220: Number Theory - Spring 2011} 
+\chead{} 
+\rhead{\scriptsize Exam 2} 
+\lfoot{\scriptsize This work is licensed under the \href{http://creativecommons.org/licenses/by-sa/3.0/us/}{Creative Commons Attribution-Share Alike 3.0 License}.} 
+\cfoot{} 
+\rfoot{\scriptsize Written by \href{http://oz.plymouth.edu/~dcernst}{D.C. Ernst}} 
+\renewcommand{\headrulewidth}{0.4pt} 
+\renewcommand{\footrulewidth}{0.4pt} 
+
+%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+\begin{center}
+
+{\Large\bf MA4220: Number Theory - Spring 2011}\\
+\smallskip
+{\Large\bf Exam 2}
+
+\bigskip
+
+  \fbox{\parbox{7in}{
+    \vspace{12pt}
+    \textbf{\large NAME:}
+    \vspace{12pt}
+  }}
+
+\end{center}
+
+\setlength{\fboxsep}{10pt}
+
+\section*{Instructions}
+
+This exam is worth 15\% of your overall grade and all of the problems have equal weight.  For each part of the exam, read the instructions carefully.
+
+\bigskip
+
+I expect your proofs to be \emph{well-written, neat, and organized}.  You should write in \emph{complete sentences}.  Do not turn in rough drafts.  What you turn in should be the ``polished'' version of potentially several drafts.  Feel free to type up your final version.  
+
+\bigskip
+
+The \LaTeX\ source file of this exam is also available if you are interested in typing up your solutions using \LaTeX.  I'll help you do this if you'd like.
+
+\bigskip
+
+The simple rules for the exam are:
+
+\begin{enumerate}
+\item You may freely use any theorems that we have discussed in class, but you should make it clear where you are using a previous result and which result you are using.  For example, if a sentence in your proof follows from Theorem 1.41, then you should say so.
+\item Unless you prove them, you cannot use any results from the textbook that we have not covered.
+\item You are NOT allowed to consult external sources when working on the exam.  This includes people outside of the class, other textbooks, and online resources.
+\item You are NOT allowed to copy someone else's work.
+\item You are NOT allowed to let someone else copy your work.
+\item You are allowed to discuss the problems with each other and critique each other's work.
+\end{enumerate}
+
+The exam is due at the beginning of class on \textbf{Tuesday, April 26}.  You should turn in this cover page and all of the work that you have decided to submit.
+
+\bigskip
+
+To convince me that you have read and understand the instructions, sign in the box below.
+
+\bigskip
+
+  \fbox{\parbox{7in}{
+    \vspace{12pt}
+    \textbf{\large Signature:} \hfill
+    \vspace{12pt}
+  }}
+
+\bigskip
+
+Good luck and have fun!
+
+\newpage
+
+\section*{Part 1}
+Answer each of the following questions.  You need to justify your answers with sufficient work and should not rely on technology such as a graphing calculator or \texttt{WolframAlpha}. 
+
+\begin{enumerate}
+
+\item Find all integers $x$ such that $1\leq x\leq 65$ and $4x+1\equiv 1 \mbox{ (mod } 65)$.
+
+\item Find all integers $x$ such that $1\leq x\leq 98$ and $8x+5\equiv 7 \mbox{ (mod } 98)$.
+
+\item Find all integers $x$ such that $1\leq x\leq 65\cdot 98$ and simultaneously satisfies $4x+1\equiv 1 \mbox{ (mod } 65)$ and $8x+5\equiv 7 \mbox{ (mod } 98)$.
+
+\end{enumerate}
+
+\section*{Part 2}
+
+Complete any 2 of the following problems.
+
+\begin{enumerate}[resume]
+
+\item Prove that there is only one integer $x$ such that $1\leq x\leq 2011$ and satisfies $x^{13}\equiv 1 \mbox{ (mod } 2011)$.\footnote{You may use the fact that 2011 is prime.}
+
+\item Let $p$ and $q$ be distinct primes such that $p-1|q-1$.  Prove that if $(a,pq)=1$, then $a^{q-1}\equiv 1 \mbox{ (mod } pq)$
+
+\item Prove that there are infinitely many primes that are congruent to 5 modulo 6.  You may not use Dirichlet's Theorem (i.e., the theorem following 2.39 in our textbook).  You may freely use each of the following facts:
+\begin{enumerate}
+\item There are no primes congruent to 4 modulo 6 or 0 modulo 6.
+
+\item If $r_{1},\ldots, r_{m}$ are congruent to 1 modulo 6, then the product $r_{1}\cdots r_{m}$ is congruent to 1 modulo 6.
+\end{enumerate}
+
+\item A \emph{Carmichael number} is defined to be a composite number $n$ such that $a^{n-1}\equiv 1 \mbox{ (mod } n)$ for every integer $a$ with $(a,n)=1$.  Prove that 561 is Carmichael number.\footnote{561 is the smallest Carmichael number.  It is not known whether there are infinitely many Carmichael numbers.}
+\end{enumerate}
+
+\section*{Part 3}
+
+Here are the instructions for this portion of the exam.
+
+\begin{itemize}
+
+\item Prove both of the following theorems.
+
+\item You are required to type your proofs and submit them to me via email at \url{dcernst@plymouth.edu}.  
+
+\item Please put each proof on its own page.  If you choose to type your entire exam, I would like these problems to be in a separate file.  
+
+\item Send me a PDF file and name your file according to: \texttt{Exam2Part3Last-Name.pdf}.  
+
+\item Do \emph{not} include your name anywhere on the typeset document.
+
+\end{itemize}
+
+Like the first exam, these proofs will be sent to students at Wellesley College to be peer reviewed.  You will receive a critical review of each proof from a student at Wellesley, but their critique will \emph{not} impact your grade.  Similarly, we will be reviewing proofs submitted by students from Wellesley in the near future.
+
+\begin{theorem}
+Let $p$ be prime and let $a$ be an integer such that $1\leq a <p$.  Then there exists a unique natural number $b$ less than $p$ such that $ab \equiv 1 \mbox{ (mod } p)$.\footnote{This is Theorem 4.36 in our textbook. This theorem is making claims about multiplicative inverses.}
+\end{theorem}
+
+\begin{theorem}
+If $p$ and $q$ are distinct primes and $a$ is a natural number such that $(a,pq)=1$, then $a^{(p-1)(q-1)}\equiv 1 \mbox{ (mod } pq)$.\footnote{Make sure you only use results that we've actually proved. If there is a result that you want to use, then prove it.}
+\end{theorem}
+
+\end{document}

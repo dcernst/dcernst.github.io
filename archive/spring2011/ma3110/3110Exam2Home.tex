@@ -1,0 +1,159 @@
+\documentclass[11pt]{article}
+
+\usepackage{url}
+\usepackage{tikz}
+\usepackage{fancyhdr}
+\usepackage[margin=.7in]{geometry}
+\usepackage[hang,flushmargin,symbol*]{footmisc}
+\usepackage{amsmath}
+\usepackage{todonotes}
+\usepackage{amsthm}
+\usepackage{amssymb}
+\usepackage{mathtools}
+\usepackage{enumitem}
+\usepackage{graphicx}
+\usepackage{color}
+\usepackage{tipa} %to get \textpipe to work
+\definecolor{darkblue}{rgb}{0, 0, .6}
+\definecolor{grey}{rgb}{.7, .7, .7}
+\usepackage[breaklinks]{hyperref}
+\hypersetup{
+	colorlinks=true,
+	linkcolor=darkblue,
+	anchorcolor=darkblue,
+	citecolor=darkblue,
+	pagecolor=darkblue,
+	urlcolor=darkblue,
+	pdftitle={},
+	pdfauthor={}
+}
+
+\theoremstyle{definition} 
+\newtheorem{theorem}{Theorem}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{claim}[theorem]{Claim}
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{conjecture}[theorem]{Conjecture}
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{example}[theorem]{Example}
+\newtheorem{remark}[theorem]{Remark}
+\newtheorem{important}[theorem]{Important Note}
+\newtheorem{recall}[theorem]{Recall}
+\newtheorem{note}[theorem]{Note}
+\newtheorem{question}[theorem]{Question}
+
+\newcommand{\blank}{\underline{\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ }}
+\newcommand{\ds}{\displaystyle}
+
+%todo commants
+\newcommand{\insertref}[1]{\todo[color=green!40]{#1}}
+\newcommand{\comment}[1]{\todo[color=blue!20!white,inline]{#1}}
+\setlength{\marginparwidth}{2cm}
+
+\setlength{\parindent}{0pt}
+\setlength{\fboxsep}{10pt}
+
+%%%%%%Header/Footer%%%%%%%
+
+\pagestyle{fancy}
+
+\lhead{\scriptsize  MA3110: Logic, Proof, \& Axiomatic Systems - Spring 2011} 
+\chead{} 
+\rhead{\scriptsize Take-Home Portion of Exam 2} 
+\lfoot{\scriptsize This work is licensed under the \href{http://creativecommons.org/licenses/by-sa/3.0/us/}{Creative Commons Attribution-Share Alike 3.0 License}.} 
+\cfoot{} 
+\rfoot{\scriptsize Written by \href{http://oz.plymouth.edu/~dcernst}{D.C. Ernst}} 
+\renewcommand{\headrulewidth}{0.4pt} 
+\renewcommand{\footrulewidth}{0.4pt} 
+
+%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+\begin{center}
+
+{\Large\bf MA3110: Logic, Proof, \& Axiomatic Systems - Spring 2011}\\
+\smallskip
+{\Large\bf Take-Home Portion of Exam 2}
+
+\bigskip
+
+  \fbox{\parbox{7in}{
+    \vspace{12pt}
+    \textbf{\large NAME:}
+    \vspace{12pt}
+  }}
+
+\end{center}
+
+\setlength{\fboxsep}{10pt}
+
+\section*{Instructions}
+
+This portion of Exam 2 is worth 50 points.  Prove any \textbf{four} theorems on the following page.  Each proof is worth 10 points.  Your written presentation of the proofs (which includes spelling, grammar, punctuation, clarity, and legibility) is worth the remaining 10 points.
+
+\bigskip
+
+You should write in \emph{complete sentences}.  I expect your proofs to be \emph{well-written, neat}, and \emph{organized}.  Do \emph{not} turn in rough drafts.  What you turn in should be the ``polished'' version of potentially several drafts.  Feel free to type up your final version.  
+
+\bigskip
+
+The \LaTeX\ source file of this exam is also available if you are interested in typing up your solutions using \LaTeX.  I'll help you do this if you'd like.
+
+\bigskip
+
+The simple rules for the exam are:
+
+\begin{enumerate}
+\item You may freely use any theorems that we have discussed in class, but you should make it clear where you are using a previous result and which result you are using.  For example, if a sentence in your proof follows from Theorem 1.41, then you should say so.
+\item Unless you prove them, you cannot use any results from the course notes or otherwise that we have not covered.
+\item You are NOT allowed to copy someone else's work.
+\item You are NOT allowed to let someone else copy your work.
+\item You are allowed to discuss the problems with each other and critique each other's work.
+\end{enumerate}
+
+This portion of  Exam 2 is due by 5\textsc{pm} on \textbf{Tuesday, April 19}.  You should turn in this cover page and all of the work that you have decided to submit.
+
+\bigskip
+
+To convince me that you have read and understand the instructions, sign in the box below.
+
+\bigskip
+
+  \fbox{\parbox{7in}{
+    \vspace{12pt}
+    \textbf{\large Signature:} \hfill
+    \vspace{12pt}
+  }}
+
+\bigskip
+
+Good luck and have fun!
+
+\newpage
+
+\begin{theorem}
+Let $A$ and $B$ be sets in a universe $U$.  Then $A\cup B^{c}=U$ iff $B\subseteq A$.
+\end{theorem}
+
+\begin{theorem}
+Let $A$, $B$, $C$, and $D$ be sets.  If $A\cup B\subseteq C\cup D$ and $A\cap D=\emptyset$, then $A\subseteq C$.
+\end{theorem}
+
+\begin{theorem}
+Let $A$, $B$, and $C$ be sets.  If $(A\cap C)^{c}\subseteq B$, then $A\subseteq (A\setminus B^{c})\cup C$.
+\end{theorem}
+
+\begin{theorem}
+Suppose $A$ is a nonempty subset of $\mathbb{R}$.  If for all $x\in\mathbb{R}$, $\{a+x:a\in A\}\cap B=\emptyset$, then $B=\emptyset$.\footnote{The set $\{a+x:a\in A\}$ is called the \emph{translation} of $A$ by $x$ and is often denoted by $A+x$.}
+\end{theorem}
+
+\begin{theorem}
+Let $A$ and $B$ be nonempty subset of $\mathbb{R}$ and let $A'$ and $B'$ denote the set of limit points of $A$ and $B$, respectively.  If $A\subseteq B$, then $A'\subseteq B'$.
+\end{theorem}
+
+\begin{theorem}
+Let $\{A_{\alpha}\}_{\alpha\in\Delta}$ be a collection of closed sets.  Then $\displaystyle \bigcap_{\alpha\in \Delta} A_{\alpha}$ is a closed set.\footnote{This is Theorem 2.97 from our notes.  You should not quote the result of this theorem, but rather prove it.}
+\end{theorem}
+
+\end{document}

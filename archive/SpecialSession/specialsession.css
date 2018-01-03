@@ -1,0 +1,255 @@
+body {
+	margin-left: 30px;
+	font-size: 90%;
+	
+font-family: 'Lato', sans-serif;
+	margin: 10px;
+	background: #999;
+	}
+
+p {
+  text-align: justify;
+  font-size: 14px;
+}
+
+ul, ol {
+  text-align: justify;
+  font-size: 14px;
+}  
+
+h1, h2, h3 {
+	
+font-family: 'Lato', sans-serif;
+	font-weight: normal;
+	font-size: 23px;
+	font-style: bold;
+	color: #000;
+	padding: 5px 0px 5px 0;
+	border-bottom: 2px solid #EEEEEE;
+}
+
+h4 {
+	
+font-family: 'Lato', sans-serif;
+	font-weight: normal;
+	font-style: italic;
+	color: #000;
+	padding: 0px 5px 0px 15px;
+	border-left: 2px solid #EEEEEE;
+	font-size: .5em;
+}
+
+a, a:visited, a:hover, a:active {
+	color: #069;
+	text-decoration: none;
+	}
+
+table.floatright {
+	float: right;
+	margin-left: 20px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	clear: right;
+	border: 1px solid #000;
+}
+
+table.floatleft {
+	float: left;
+	margin-right: 20px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	clear: left;
+}
+
+caption {
+	caption-side: bottom;
+	font-size: 80%;
+}
+
+img {
+  	border:  none;
+}
+
+img.left {
+  	float: left;
+  	margin-right: 15px;
+}
+
+img.right {
+  	float: right;
+  	margin-left: 15px;
+	margin-bottom: 5px;
+}
+
+/*
+img.imgover {
+	float: right;
+	margin-right: 20px;
+	margin-left:20px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	border: 2px solid #a36;
+	clear: left;
+}
+
+img.floatleft {
+	float: left;
+	margin-right: 20px;
+	margin-left:20px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	clear: left;
+}
+
+img.floatright {
+	float: right;
+	margin-right:20px;
+	margin-left: 20px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	clear: right;
+}
+*/
+
+dd.tab {
+	padding-left: 20px;
+	margin-left: 20px;
+}
+
+#logo {
+	height: 150px;
+	background: url(ChalkBoard01.JPG);
+	padding-right: 30px;
+	color: #fff;
+	margin: 2px;
+	border: 2px solid #000;
+}
+
+#logo h1 {
+	padding: 0px 0 0 0px;
+	color: #fff;
+	font-size: 33px;
+	text-transform: capitalize;
+	border-bottom: 0px;
+	text-align: right;
+	margin-bottom: .75em;
+}
+
+#logo h2 {
+	color: #fff;
+	font-size: 18px;
+	border-bottom: 0px;
+	text-align: right;
+	margin-top: -1em;
+}
+
+#logo a {
+	color: #fff;
+	border: 0px;
+}
+
+#actualcontent {
+	margin: 0px 30px 0px 30px;
+	clear: left;
+}
+
+#content {
+	padding: 10px 10px 25px 10px;
+	width: 923px;
+	border: 2px solid #000;
+	background: #fff;
+	margin: 20px 10px 10px 40px;
+}
+
+#content page{
+	padding: 15px;
+}
+
+#footer {
+	clear: both;
+	}
+
+#navbar {
+	background: #fff;
+	padding: 1px;
+	margin: 10px;
+	font-size: 90%;
+}
+	
+#navbar li {
+	float: left;
+	list-style-type: none;
+	padding: 0px;
+	white-space: nowrap;
+}
+
+#navbar ul {
+	margin: 0;
+	padding: 0;
+}
+
+#navbar a {
+	padding: 0px 20px 0px 20px;
+	background-color: #fff;
+	border: 1px solid #fff;
+}
+
+#navbar a:link, #navbar a:visited {
+}
+
+#navbar a:hover, #navbar a:active {
+	color: #fff;
+	border: 1px solid #000;
+	background-color: #999;
+}
+
+#uberlink a:link, #uberlink a:visited, 
+#uberlink a:hover, #uberlink a:active {
+	text-decoration: underline;
+	color: #000;
+	background-color: #fff;
+	border: 1px solid #fff;
+}
+
+.alignleft {
+	float: left;
+}
+.alignright {
+	float: right;
+}
+
+table {
+  	border-collapse: collapse;
+    font-size: 14px;
+}
+
+table caption {
+  	margin-top: 0px;
+	padding: 0 1em 0em 0px;
+	font: 400 1.5em 'Lato', sans-serif;
+	text-align: left;  
+}
+
+table th {
+	text-align: center;
+    border: 2px solid #666;
+	background-color: #F0F0F0;
+    vertical-align: top;
+}
+
+table td {
+	text-align: left;
+	vertical-align: top;
+	border: 5px;
+}
+
+thead th {
+  	border: 2px solid #666;
+	background-color: #F0F0F0;
+}
+
+tbody td {
+}
+
+tbody tr:hover {
+}

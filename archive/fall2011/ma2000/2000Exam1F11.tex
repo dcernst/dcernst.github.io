@@ -1,0 +1,252 @@
+\documentclass[11pt]{article}
+
+\usepackage{url}
+\usepackage{tikz}
+\usepackage{fancyhdr}
+\usepackage{todonotes}
+\usepackage[margin=1in]{geometry}
+\usepackage[hang,flushmargin,symbol*]{footmisc}
+\usepackage{amsmath}
+\usepackage{amsthm}
+\usepackage{amssymb}
+\usepackage{mathtools}
+\usepackage{enumitem}
+\usepackage{graphicx}
+\usepackage{color}
+\usepackage{tipa} %to get \textpipe to work
+\definecolor{darkblue}{rgb}{0, 0, .6}
+\definecolor{grey}{rgb}{.7, .7, .7}
+\usepackage[breaklinks]{hyperref}
+\hypersetup{
+	colorlinks=true,
+	linkcolor=darkblue,
+	anchorcolor=darkblue,
+	citecolor=darkblue,
+	pagecolor=darkblue,
+	urlcolor=darkblue,
+	pdftitle={},
+	pdfauthor={}
+}
+
+\theoremstyle{definition}
+\newtheorem{theorem}{Theorem}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{claim}[theorem]{Claim}
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{conjecture}[theorem]{Conjecture}
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{example}[theorem]{Example}
+\newtheorem{remark}[theorem]{Remark}
+\newtheorem{important}[theorem]{Important Note}
+\newtheorem{recall}[theorem]{Recall}
+\newtheorem{note}[theorem]{Note}
+\newtheorem{question}[theorem]{Question}
+
+%todo commants
+\newcommand{\insertref}[1]{\todo[color=green!40]{#1}}
+\newcommand{\comment}[1]{\todo[color=blue!20!white,inline]{#1}}
+\setlength{\marginparwidth}{2cm}
+
+\setlength{\parindent}{0pt}
+
+%%%%%%Header/Footer%%%%%%%
+
+\pagestyle{fancy}
+
+\lhead{\scriptsize MA2000: Intro to Formal Math (Fall 2011)} 
+\chead{} 
+\rhead{\scriptsize Exam 1} 
+\lfoot{\scriptsize This work is licensed under the \href{http://creativecommons.org/licenses/by-sa/3.0/us/}{Creative Commons Attribution-Share Alike 3.0 License}.} 
+\cfoot{} 
+\rfoot{\scriptsize Written by \href{http://oz.plymouth.edu/~dcernst}{D.C. Ernst}} 
+\renewcommand{\headrulewidth}{0.4pt} 
+\renewcommand{\footrulewidth}{0.4pt}
+
+\setlength{\parindent}{0pt}
+
+%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+\begin{center}
+
+{\Large\bf MA 2000: Introduction to Formal Mathematics (Fall 2011)}\\
+\smallskip
+{\Large\bf Exam 1}
+
+\setlength{\fboxsep}{10pt}
+
+\bigskip
+
+  \fbox{\parbox{6.5in}{
+    \vspace{12pt}
+    \textbf{\large Your name:} 
+    \vspace{12pt}
+  }}
+  
+  \bigskip
+  
+  \fbox{\parbox{6.5in}{
+    \vspace{12pt}
+    \textbf{\large Names of any collaborators:} \hfill (1 point)
+    \vspace{12pt}
+  }}
+
+
+\end{center}
+
+\section*{Instructions}
+
+For each part, read the instructions carefully.  If you have any questions, please let me know.
+
+\bigskip
+
+This exam is worth 100 points and a total of 20\% of your overall grade in the course.
+
+\bigskip
+
+I expect your solutions to be \emph{well-written, neat, and organized}.  You should write in \emph{complete sentences} when appropriate.  Do not turn in rough drafts.  What you turn in should be the ``polished'' version of potentially several drafts.  Feel free to type up your final version.  
+
+\bigskip
+
+The \LaTeX\ source file of this exam is also available if you are interested in typing up your solutions using \LaTeX.  I'll be happy to help you do this.
+
+\bigskip
+
+The simple rules for this portion of the exam are:
+
+\begin{enumerate}
+\item You are \textbf{NOT} allowed to consult external sources when working on the exam.  This includes people outside of the class, other textbooks, and online resources.
+\item You are \textbf{NOT} allowed to copy someone else's work.
+\item You are \textbf{NOT} allowed to let someone else copy your work.
+\item You are allowed to discuss the problems with each other and critique each other's work.
+\end{enumerate}
+
+I will vigorously pursue anyone suspected of breaking these rules. 
+
+\bigskip
+
+To convince me that you have read and understand the instructions, sign in the box below.
+
+\bigskip
+
+\setlength{\fboxsep}{10pt}
+
+  \fbox{\parbox{6.5in}{
+    \vspace{12pt}
+    \textbf{\large Signature:} \hfill (1 point)
+    \vspace{12pt}
+  }}
+
+\bigskip
+
+This Exam is due by 5:00\textsc{pm} on \textbf{Tuesday, October 11}.  You should turn in this cover page and all of the problems you have decided to submit.
+
+\bigskip
+
+Good luck and have fun!
+
+\newpage
+
+\section*{Part 1}
+
+Answer each of the following questions completely.
+
+\begin{enumerate}
+
+%\item (5 points each)  Define each of the following terms.
+%
+%\begin{enumerate}
+%
+%\item Axiom:
+%
+%\vfill
+%
+%\item Theorem:
+%
+%\vfill
+%
+%\end{enumerate}
+
+\item (5 points)  Given an axiomatic system, what might potentially happen if you change the axioms?  Briefly explain why.
+
+\vfill
+
+\item (5 points)  What features of Traffic Jam and Circle-Dot make them similar to proving theorems in ``ordinary'' mathematics?  Be sure to explain your answer.
+
+\vfill
+
+\item (8 points each) Consider an $n\times n$ chess board.
+
+\begin{enumerate}
+\item Consider variation 1 of the pebble puzzle from Homework 7.  For what values of $n$ is the puzzle solvable?  For what values of $n$ is the puzzle unsolvable?  Justify your answers by either providing a method for a solution or an explanation for why a solution is not possible.
+
+\vfill
+
+\vfill
+
+\item Consider variation 2 of the pebble puzzle from Homework 7.  For what values of $n$ is the puzzle solvable?  For what values of $n$ is the puzzle unsolvable?  Justify your answers by either providing a method for a solution or an explanation for why a solution is not possible.
+
+\vfill
+
+\vfill
+
+\end{enumerate}
+
+\newpage
+
+\item (8 points)  Consider the prisoners with dots on the back of their heads puzzle that we introduced in Homework 8.  However, this time suppose that their are 11 prisoners.  Describe a strategy for maximizing the number of prisoners that will live.  Justify your answer.
+
+\vfill
+
+\item (8 points) Imagine a hallway with 1000 doors numbered consecutively 1 through 1000.  Suppose all of the doors are closed to start with.  Then some dude with nothing better to do walks down the hallway and opens all of the doors.  Because the dude is still bored, he decides to close every other door starting with door number 2.  Then he walks down the hall and changes (i.e., if open, he closes it; if closed, he opens it) every third door starting with door 3.  Then he walks down the hall and changes every fourth door starting with door 4.  He continues this way, making a total of 1000 passes down the hallway, so that on the 1000th pass, he changes door 1000.  At the end of this process, which doors are open and which doors are closed?  Justify your answer.  \emph{Note:}  I do not expect you to list all of the numbers from 1 to 1000, but rather provide a verbal description that completely captures the answer.
+
+\vfill
+
+\end{enumerate}
+
+\newpage
+
+\section*{Part 2}
+
+(8 points each) For each of the following, determine whether the statement is true or false.  If the statement is true, prove it.  If the statement is false, provide a counterexample.
+
+\bigskip
+
+\emph{Important:}  If you are proving a true statement, you should prove it directly from the known axioms, given definitions, or by appealing to previous results that we have proved in this course.  If you appeal to a previous result, you need to make it explicit where you are doing this.
+
+\begin{enumerate}
+
+\item In the axiomatic system for Traffic Jam that we developed, $\underline{\ \ }\bullet~\circ~\bullet~\circ~\bullet~\circ~\bullet~\circ$ is obtainable.
+
+\vfill
+
+\item In the Circle-Dot system, o.o is obtainable.
+
+\vfill
+
+\item If $a, b, c\in\mathbb{Z}$ such that $a$ divides $c$ and $b$ divides $c$, then $ab$ divides $c$.
+
+\vfill
+
+\newpage
+
+\item If $x$ and $y$ are integers and $x+y$ is even, then at least one of $x$ or $y$ is even.
+
+\vfill
+
+\item If $x$ is an integer, then $4x^{2}-1$ is odd.
+
+\vfill
+
+\item For all $x,y,z \in \mathbb{Z}$, if $x+y$ is odd and $y+z$ is odd, then $x+z$ is odd.
+
+\vfill
+
+\item If $n\in\mathbb{Z}$, then $n^{2}+n$ is even.
+
+\vfill
+
+\end{enumerate}
+
+\end{document}

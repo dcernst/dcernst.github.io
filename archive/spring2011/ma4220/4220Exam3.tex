@@ -1,0 +1,190 @@
+\documentclass[11pt]{article}
+
+\usepackage{url}
+\usepackage{tikz}
+\usepackage{fancyhdr}
+\usepackage[margin=.7in]{geometry}
+\usepackage[hang,flushmargin,symbol*]{footmisc}
+\usepackage{amsmath}
+\usepackage{todonotes}
+\usepackage{amsthm}
+\usepackage{amssymb}
+\usepackage{mathtools}
+\usepackage{enumitem}
+\usepackage{graphicx}
+\usepackage{color}
+\usepackage{tipa} %to get \textpipe to work
+\definecolor{darkblue}{rgb}{0, 0, .6}
+\definecolor{grey}{rgb}{.7, .7, .7}
+\usepackage[breaklinks]{hyperref}
+\hypersetup{
+	colorlinks=true,
+	linkcolor=darkblue,
+	anchorcolor=darkblue,
+	citecolor=darkblue,
+	pagecolor=darkblue,
+	urlcolor=darkblue,
+	pdftitle={},
+	pdfauthor={}
+}
+
+\theoremstyle{definition} 
+\newtheorem{theorem}{Theorem}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{claim}[theorem]{Claim}
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{conjecture}[theorem]{Conjecture}
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{example}[theorem]{Example}
+\newtheorem{remark}[theorem]{Remark}
+\newtheorem{important}[theorem]{Important Note}
+\newtheorem{recall}[theorem]{Recall}
+\newtheorem{note}[theorem]{Note}
+\newtheorem{question}[theorem]{Question}
+
+\newcommand{\blank}{\underline{\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ }}
+\newcommand{\ds}{\displaystyle}
+
+%todo commants
+\newcommand{\insertref}[1]{\todo[color=green!40]{#1}}
+\newcommand{\comment}[1]{\todo[color=blue!20!white,inline]{#1}}
+\setlength{\marginparwidth}{2cm}
+
+\setlength{\parindent}{0pt}
+\setlength{\fboxsep}{10pt}
+
+\DeclareMathOperator{\ord}{ord}
+
+%%%%%%Header/Footer%%%%%%%
+
+\pagestyle{fancy}
+
+\lhead{\scriptsize  MA4220: Number Theory - Spring 2011} 
+\chead{} 
+\rhead{\scriptsize Final Exam} 
+\lfoot{\scriptsize This work is licensed under the \href{http://creativecommons.org/licenses/by-sa/3.0/us/}{Creative Commons Attribution-Share Alike 3.0 License}.} 
+\cfoot{} 
+\rfoot{\scriptsize Written by \href{http://oz.plymouth.edu/~dcernst}{D.C. Ernst}} 
+\renewcommand{\headrulewidth}{0.4pt} 
+\renewcommand{\footrulewidth}{0.4pt} 
+
+%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+\begin{center}
+
+{\Large\bf MA4220: Number Theory - Spring 2011}\\
+\smallskip
+{\Large\bf Final Exam}
+
+\bigskip
+
+  \fbox{\parbox{7in}{
+    \vspace{12pt}
+    \textbf{\large NAME:}
+    \vspace{12pt}
+  }}
+
+\end{center}
+
+\setlength{\fboxsep}{10pt}
+
+\section*{Instructions}
+
+The Final Exam is worth 15\% of your overall grade.  For each part of the exam, read the instructions carefully.
+
+\bigskip
+
+I expect your proofs to be \emph{well-written, neat, and organized}.  You should write in \emph{complete sentences}.  Do not turn in rough drafts.  What you turn in should be the ``polished'' version of potentially several drafts.  Feel free to type up your final version.  
+
+\bigskip
+
+The \LaTeX\ source file of this exam is also available if you are interested in typing up your solutions using \LaTeX.  I'll help you do this if you'd like.
+
+\bigskip
+
+The simple rules for the exam are:
+
+\begin{enumerate}
+\item You may freely use any theorems that we have discussed in class, but you should make it clear where you are using a previous result and which result you are using.  For example, if a sentence in your proof follows from Theorem 1.41, then you should say so.
+\item Unless you prove them, you cannot use any results from the textbook that we have not covered.
+\item You are NOT allowed to consult external sources when working on the exam.  This includes people outside of the class, other textbooks, and online resources.
+\item You are NOT allowed to copy someone else's work.
+\item You are NOT allowed to let someone else copy your work.
+\item You are allowed to discuss the problems with each other and critique each other's work.
+\end{enumerate}
+
+The Final Exam is due to my office by 5\textsc{pm} on \textbf{Friday, May 20}.  You should turn in this cover page and all of the work that you have decided to submit.
+
+\bigskip
+
+To convince me that you have read and understand the instructions, sign in the box below.
+
+\bigskip
+
+  \fbox{\parbox{7in}{
+    \vspace{12pt}
+    \textbf{\large Signature:} \hfill
+    \vspace{12pt}
+  }}
+
+\bigskip
+
+Good luck and have fun!
+
+\newpage
+
+\section*{Part 1}
+
+Suppose that $pq=11537$ and $E=85$ and consider the following message that has been encrypted using $pq$ and $E$:
+\begin{center}
+8664, 1840,2615, 178, 1, 5483, 10096, 2373, 2615, 11393, 178, 8199, 10096, 178, 1793, 10098, 11393, 8664, 8321, 8664, 2373, 10098
+\end{center}
+Assume that the block length is 2 and that the dictionary from the RSA handout was used to encrypt.  Use whatever means necessary to decipher the message.  You may rely on technology such as \texttt{Sage} or \texttt{WolframAlpha}.  However, you should explain what steps you took to solve the problem and how you utilized the technology.  
+
+\section*{Part 2}
+
+Complete any \textbf{four} of the following theorems.
+
+\begin{theorem}[Chinese Remainder Theorem]
+Suppose $n_{1}, n_{2},\ldots, n_{L}$ are positive integers that are pairwise relatively prime, that is, $(n_{i},n_{j})=1$ for $i\neq j$, $1\leq i,j,\leq L$.  Then the system of $L$ congruences
+\begin{align*}
+x & \equiv a_{1} \pmod{n_{1}}\\
+x & \equiv a_{2} \pmod{n_{2}}\\
+& \vdots \\
+x & \equiv  a_{L} \pmod{n_{L}}
+\end{align*}
+has a unique solution modulo the product $n_{1}n_{2}\cdots n_{L}$.\footnote{This is Theorem 3.29 in our textbook.  We discussed a potential proof for this one day in class, but no one presented a satisfactory proof.  So, now is your chance.  You can only use theorems that come before this theorem in the book to prove it.}
+\end{theorem}
+
+\begin{theorem}[Euler's Theorem]
+If $a$ and $n$ are integers with $n>0$ and $(a,n)=1$, then
+\[
+a^{\phi(n)}\equiv 1 \pmod{n}.\footnote{This is Theorem 4.32 in our textbook.  As with the Chinese Remainder Theorem, no one presented a satisfactory proof.  You can only use theorems that come before this theorem in the book to prove it.}
+\]
+\end{theorem}
+
+\begin{theorem}
+Let $n$ and $m$ be natural numbers that are relatively prime, and let $a$ be an integer.  If $x\equiv a \pmod n$ and $x\equiv a\pmod m$, then $x\equiv a \pmod{nm}$.\footnote{This is Theorem 4.21 in the textbook. We've used this theorem a few times, but I'm pretty sure that we never proved it.}
+\end{theorem}
+
+\begin{theorem}
+Suppose that $p$ is a prime number and $a$ is an integer such that $(a,p)=1$.  Then for all $k\in\mathbb{N}$, we have
+\[
+\ord_{p}(a^{k})=\frac{\ord_{p}(a)}{(k,\ord_{p}(a))}.
+\]
+\end{theorem}
+
+\begin{theorem}
+Suppose that $n$ is a natural number and $a$ is an integer such that $(a,n)=1$ and $a^{n-1}\equiv 1 \pmod n$.  Then $\ord_{n}(a)<n-1$ iff there exists a prime $p$ such that $p\mid n-1$ and
+\[
+a^{\frac{n-1}{p}}\equiv 1 \pmod n.
+\]
+\end{theorem}
+
+\begin{theorem}
+Suppose that $n$ is a natural number and $a$ is an integer such that $(a,n)=1$ and $a^{n-1}\equiv 1 \pmod n$.  If $\ord_{n}(a)=n-1$, then $n$ is prime.
+\end{theorem}
+
+\end{document}

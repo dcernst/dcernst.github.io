@@ -1,0 +1,302 @@
+#codecontainer {
+	background-color:  #F0F0F0;
+	margin: 10px 20px 10px 30px;
+	padding: 10px;
+	border: 1px dashed;
+	width: 500px;
+}
+
+#breadcrumbs {
+	padding-top: 10px;
+	padding-bottom:1px;
+	font-size:10px;
+}
+
+#breadcrumbs a {
+	font-size:10px;
+	
+font-family: 'Lato', sans-serif;
+	text-decoration:underline;
+}
+
+#breadcrumbs a:hover {
+	text-decoration:none;
+}
+	
+#search {
+	width: 175px;
+	float: right;
+	font-size: 0.9em;
+	padding: 15px;
+	background-color: #F0F0F0;
+	line-height: 1.8em;
+	margin: 40px 0 0px 0;
+	color: #777;
+	font-size: 0.9em;
+	float: right;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	width: 90%;
+	margin: 0 auto;
+	font: 400 1.0em 'Lato', sans-serif;
+}
+
+.tweet {
+	float: right;
+	padding: 0px 0;
+	margin: 20px 0;
+}
+
+#nav {
+	margin: 0px 0;
+	width: 100%;
+	padding-top: 20px;
+	padding-bottom: 40px;
+}
+	
+#nav ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	float: left;
+}
+	
+#nav li {
+	float: left;
+	clear: none;
+}
+	
+#nav li a {
+	margin-right: 50px;
+	padding-top: 0px;
+	display: block;
+	text-decoration: none;
+	font: 400 1em 'Lato', sans-serif;
+	color: #666;
+	letter-spacing: -1px;
+}
+
+#nav li a:hover {
+	text-decoration: none;
+}
+
+#nav li a:active {
+	text-decoration: none;
+	color: #999999;
+}
+
+#uberlink a:link, #uberlink a:visited, 
+#uberlink a:hover, #uberlink a:active {
+	text-decoration: none;
+}
+	
+#head {
+	margin: 0.5em 0;
+	width: 100%;
+	line-height: 0.8em;
+	border-bottom: 5px solid #666;
+	padding: 0 0 1em 0;
+}
+
+#head h1 {
+	font: 400 4em 'Lato', sans-serif;
+	color: #666;
+	letter-spacing: -0.05em;
+	margin-top: 20px;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+}
+
+#head h2 {
+	font: 400 1.5em 'Lato', sans-serif;
+	padding: 0;
+	margin-bottom: 5px;
+	letter-spacing: -0.05em;	
+}
+
+#main {
+	position: relative;
+	margin: 40px 0 0 0;
+	padding: 0;
+	width: 100%;
+}
+	
+#right {
+	background-color: #F0F0F0;
+	width: 175px;
+	float: right;
+	font-size: 0.9em;
+	padding: 15px;
+	text-align: left;
+	margin-bottom: 20px;
+	margin-right:0px;
+	margin-left:20px;
+}
+
+#right ul {
+	list-style: none;
+	margin: 0 0 20px 0;
+	padding: 0;
+}
+	
+#right li {
+	padding: 5px 0 5px 0px;
+}
+
+#right li a:hover {
+	text-decoration: none;
+}
+
+#right li a {
+	padding: 0 0 0 0px;
+}
+
+#content {
+	padding-top: 15px;
+	margin-bottom: 20px;
+}
+
+#content a:hover, #content2 a:hover, #foot a:hover {
+	text-decoration: none;
+}
+	
+h1 {
+	font: 400 2.5em 'Lato', sans-serif;
+	color: #666;
+	margin-bottom: 10px;
+}
+
+h2 {
+	font: 400 1.5em 'Lato', sans-serif;
+	margin-bottom: 10px;
+}
+	
+h3 {
+	font: 400 1em 'Lato', sans-serif;
+	color: #666;
+	margin-bottom: 0px;
+}
+	
+p {
+	line-height: 1.5em;
+	margin-bottom: 10px;
+	font-size: 0.9em;
+	text-align: justify;
+}
+
+img.content, a img.content {
+	float: right;
+	padding: 4px;
+	border: 1px solid #D6D6D6;
+	margin: 10px 0 10px 10px;
+}
+	
+a:hover img.content {
+	border: 1px solid #BBB;
+}
+	
+img.color, a img.color {
+	float: left;
+	padding: 1px;
+	border: 1px solid #CCC;
+	margin: 0 8px 0 0;
+}
+	
+a:hover img.color {
+	border: 1px solid #999;
+}
+	
+ol {
+	font: 600 1.0em 'Lato', sans-serif;
+	padding: 10px;
+}
+ 
+ol span {
+	font: 400 1.0em 'Lato', sans-serif;
+	font-style: normal;
+}
+
+ol li {
+	margin-left: 25px;
+	padding: 4px 0
+}
+
+#content ul {
+	list-style-type: none;
+	padding-left: 20px;
+	padding-bottom: 10px;
+	list-style-type: disc;
+}
+	
+#content ul li {
+	padding-left: 0px;
+	line-height: 1.5em;
+	margin-left: 10px;
+	font-size: 0.9em;
+	text-align: justify;
+}
+
+table {
+  	font-size: .9em;
+  	border-collapse: collapse;
+}
+
+table caption {
+  	margin-top: 0px;
+	padding: 0 1em 0em 0px;
+	font: 400 1.5em 'Lato', sans-serif;
+	text-align: left;  
+	letter-spacing: -1px;
+}
+
+table th,
+table td {
+	text-align: left;
+	vertical-align: top;
+	padding: 4px 7px !important;
+  	padding: 6px 10px;
+}
+
+thead th {
+  	border: 2px solid #666;
+	background-color: #F0F0F0;
+}
+
+tbody td {
+}
+
+tbody tr:hover {
+}
+
+.blockquote {
+	display: block;
+	width: 100%;
+	border-top: 1px solid #E0E0E0;
+	border-bottom: 1px solid #E0E0E0;
+	background-color: #F0F0F0;
+	margin: 10px 0 20px 10px;
+	padding: 5px;
+	font-style: italic;
+}
+
+#foot {
+	width: 100%;
+	border-top: 5px solid #666;
+	padding: 20px 0 20px 0;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	font-size: 0.9em;
+}
+
+.alignleft {
+	float: left;
+}
+.alignright {
+	float: right;
+}

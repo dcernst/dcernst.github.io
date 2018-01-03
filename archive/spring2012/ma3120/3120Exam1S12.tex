@@ -1,0 +1,225 @@
+\documentclass[11pt]{article}
+
+\usepackage{url}
+\usepackage{tikz}
+\usepackage{fancyhdr}
+\usepackage[margin=.7in]{geometry}
+\usepackage[hang,flushmargin,symbol*]{footmisc}
+\usepackage{amsmath}
+\usepackage{todonotes}
+\usepackage{amsthm}
+\usepackage{amssymb}
+\usepackage{mathtools}
+\usepackage{enumitem}
+\usepackage{graphicx}
+\usepackage{array}
+\usepackage{color}
+\usepackage{tipa} %to get \textpipe to work
+\definecolor{darkblue}{rgb}{0, 0, .6}
+\definecolor{grey}{rgb}{.7, .7, .7}
+\usepackage[breaklinks]{hyperref}
+\hypersetup{
+	colorlinks=true,
+	linkcolor=darkblue,
+	anchorcolor=darkblue,
+	citecolor=darkblue,
+	pagecolor=darkblue,
+	urlcolor=darkblue,
+	pdftitle={},
+	pdfauthor={}
+}
+
+\theoremstyle{definition} 
+\newtheorem{theorem}{Theorem}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{claim}[theorem]{Claim}
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{conjecture}[theorem]{Conjecture}
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{example}[theorem]{Example}
+\newtheorem{remark}[theorem]{Remark}
+\newtheorem{important}[theorem]{Important Note}
+\newtheorem{recall}[theorem]{Recall}
+\newtheorem{note}[theorem]{Note}
+\newtheorem{question}[theorem]{Question}
+
+\newcommand{\blank}{\underline{\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ }}
+\newcommand{\ds}{\displaystyle}
+
+\setlength{\parindent}{0pt}
+
+%%%%%%Header/Footer%%%%%%%
+
+\pagestyle{fancy}
+
+\lhead{\scriptsize  MA3120: Linear Algebra - Spring 2012} 
+\chead{} 
+\rhead{\scriptsize Exam 1} 
+\lfoot{\scriptsize This work is licensed under the \href{http://creativecommons.org/licenses/by-sa/3.0/us/}{Creative Commons Attribution-Share Alike 3.0 License}.} 
+\cfoot{} 
+\rfoot{\scriptsize Written by \href{http://danaernst.com}{D.C. Ernst}} 
+\renewcommand{\headrulewidth}{0.4pt} 
+\renewcommand{\footrulewidth}{0.4pt} 
+
+%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+\begin{center}
+
+{\Large\bf MA3120: Linear Algebra - Spring 2012}\\
+\smallskip
+{\Large\bf Exam 1}
+
+\bigskip
+
+  \fbox{\parbox{7in}{
+    \vspace{10pt}
+    \textbf{\large Your Name:}
+    \vspace{10pt}
+  }}
+  
+  \bigskip
+  
+  \fbox{\parbox{7in}{
+    \vspace{10pt}
+    \textbf{\large Names of any collaborators:}
+    \vspace{10pt}
+  }}
+
+\end{center}
+
+\section*{Instructions}
+
+This exam is worth a total of 68 points and 20\% of your overall grade.  Please read the instructions for each question carefully.
+
+\bigskip
+
+I expect your solutions to be \emph{well-written, neat, and organized}.  Do not turn in rough drafts.  What you turn in should be the ``polished'' version of potentially several drafts.  
+
+\bigskip
+
+Show \emph{all} of your work and \emph{justify} your solutions fully.  If you use a calculator or computer software (e.g., Sage), be sure to write down both the input and output.
+
+\bigskip
+
+Feel free to type up your final version.  The \LaTeX\ source file of this exam is also available if you are interested in typing up your solutions using \LaTeX.  I'll gladly help you do this if you'd like.
+
+\bigskip
+
+The simple rules for the exam are:
+
+\begin{enumerate}
+\item Unless you prove them, you cannot use any results from the course notes or book that we have not yet covered.
+\item You are \textbf{NOT} allowed to consult external sources when working on the exam.  This includes people outside of the class, other textbooks, and online resources.
+\item You are \textbf{NOT} allowed to copy someone else's work.
+\item You are \textbf{NOT} allowed to let someone else copy your work.
+\item You are allowed to discuss the problems with each other and critique each other's work.
+\end{enumerate}
+
+The exam is due to my office by 5\textsc{pm} on \textbf{Wednesday, March 7}.  You should turn in this cover page and all of the work that you have decided to submit.
+
+\bigskip
+
+To convince me that you have read and understand the instructions, sign in the box below.
+
+\bigskip
+
+  \fbox{\parbox{7in}{
+    \vspace{10pt}
+    \textbf{\large Signature:} \hfill
+    \vspace{10pt}
+  }}
+
+\bigskip
+
+Good luck and have fun!
+
+\newpage
+
+\begin{enumerate}
+
+\item (2 points each) Suppose $A$ is a coefficient matrix corresponding to a system of linear equations that is row equivalent to one of the following matrices.
+
+\[M_1 = \begin{bmatrix}1 & 2 & 0 \\0 & 1 & 3 \\0 & 0 & 1\end{bmatrix} \hspace{1cm} M_2 = \begin{bmatrix}1 & 2 & 3 \\0 & 0 & 1 \\0 & 0 & 0\end{bmatrix}\hspace{1cm} M_3=\begin{bmatrix}1 & 2 & 3 & 4 \\0 & 1 & 5 & 6 \\0 & 0 & 1 & 7\end{bmatrix}\]
+
+For each of the following statements, state whether $A$ is row equivalent to $M_1$, $M_2$, or $M_{3}$.  If there is more than one correct answer, then list them all.  If none of $M_1$, $M_2$, or $M_{3}$ satisfy the given conditions, then state this. You do \emph{not} need to justify your answers. 
+
+\begin{enumerate}
+\item The linear system $\mathcal{LS}(A,\vec{0})$ has only the trivial solution.
+\item There exists at least one vector $\vec{b} \in \mathbb{R}^3$ such that $\mathcal{LS}(A,\vec{b})$ does \emph{not} have a solution.
+\item The linear system $\mathcal{LS}(A,\vec{b})$ has a unique solution for all $\vec{b}\in\mathbb{R}^{3}$.
+\item The matrix $A$ is singular.
+\item The matrix $A$ is nonsingular.
+\item The span of the columns of $A$ equals $\mathbb{R}^4$.
+\item The span of the columns of $A$ equals $\mathbb{R}^3$.
+\item The planes corresponding to the 3 linear equations all intersect at a unique point.
+\item The planes corresponding to the 3 linear equations all intersect in a line.
+\item The planes corresponding to the 3 linear equations do not have a common intersection.
+\item The null space of $A$ contains infinitely many vectors.
+\item There exists $\vec{b}\in\mathbb{R}^{3}$ such that $\vec{b}\notin\mathcal{N}(A)$.
+
+\end{enumerate}
+
+\item (4 points) Consider the following matrix $A$.  Doing all the computations by hand, convert $A$ to a matrix in reduced row-echelon form.  Clearly indicate which row operations you are performing.
+\[A=\begin{bmatrix}
+1 & 2 & -4 & -4\\
+1 & 1 & -3 & -3\\
+-2 & -1 & 6 & 8
+\end{bmatrix}\]
+
+\item (4 points) Find all solutions to the system of equations below.  Express your solution as a \textbf{set of column vectors}.
+\begin{align*}
+2x_{1}+4x_{2}+x_{3}+13x_{4} & = -1\\
+2x_{1}+4x_{2}+5x_{3}+25x_{4} & = 0\\
+-2x_{1}-4x_{2}\phantom{10x_{3}}-10x_{4} & = 1
+\end{align*}
+
+\item (4 points) Find all solutions to the system of equations below.  Express your solution as a \textbf{set of column vectors}.
+\begin{align*}
+-x_{1}+5x_{2} & = 8\\
+-x_{1}+4x_{2} & = 7\\
+2x_{1}-3x_{2} & = -9\\
+-1x_{1}+7x_{2} & = 10
+\end{align*}
+
+\item (4 points) Find all solutions to the system of equations below.  Express your solution in \textbf{vector form} (i.e., as a linear combination of vectors).
+\begin{align*}
+-2x_{1}-6x_{2}+x_{3}+4x_{4}+9x_{5} & = 7\\
+3x_{1}+9x_{2}+5x_{3}+7x_{4}-7x_{5} & = 9\\
+\end{align*}
+
+\item (4 points)  Determine whether the following matrix $B$ is singular or nonsingular.  Justify your answer.
+\[B=\begin{bmatrix}
+2 & 0 & 3 & 0\\
+3 & 3 & -1 & 0\\
+1 & 3 & 2 & 3\\
+4 & 1 & 4 & 5
+\end{bmatrix}\]
+
+\item (4 points) Let $\displaystyle \vec{x}=\begin{bmatrix}8\\ 2\\ 1\end{bmatrix}$ and let $\displaystyle U= \left\{\begin{bmatrix} 2\\ 1\\ 3\end{bmatrix}, \begin{bmatrix} 1\\ 2\\ 3\end{bmatrix}, \begin{bmatrix} -1\\ -1\\ -2\end{bmatrix}, \begin{bmatrix} 3\\ 2\\ 5\end{bmatrix}\right\}$.  Is $\vec{x}\in \langle U\rangle$?
+
+\item (4 points each) Consider the following matrix $C$.
+\[C=\begin{bmatrix}
+-1 & 1 & 1 & 2\\
+2 & 1 & 7 & -1\\
+-3 & 4 & 6 & 7
+\end{bmatrix}\]
+
+\begin{enumerate}
+
+\item Find a set of vectors whose span is equal to $\mathcal{N}(C)$.
+
+\item Determine whether $\displaystyle \vec{z}=\begin{bmatrix}-7\\ -3\\ 2\\ -3\end{bmatrix}$ is an element of $\mathcal{N}(C)$.
+
+\item If possible, write $\vec{z}$ as a linear combination of the vectors you found in part (a).  If this is not possible, explain why.
+
+\end{enumerate}
+
+\item (4 points) Let $\vec{v}_{1},\vec{v}_{2}\in\mathbb{R}^{m}$.  Prove that $\langle\{\vec{v}_{1},\vec{v}_{2}\}\rangle=\langle\{\vec{v}_{1},\vec{v}_{2},2\vec{v}_{1}-3\vec{v}_{2}\}\rangle$.  (\emph{Hint:} Argue that each set contains the other.)
+
+\item (4 points) Complete either of T21 or T22 from SS.EXC.  Be sure to state which one you are doing.
+
+\end{enumerate}
+
+\end{document}

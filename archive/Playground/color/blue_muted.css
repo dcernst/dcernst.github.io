@@ -1,0 +1,29 @@
+
+#nav li a:hover {
+	color: #82B0BF;
+	}
+
+#head h2 {
+	color: #82B0BF;
+	}
+
+#right li a:hover, .right2 li a:hover {
+	color: #82B0BF;
+	}
+	
+h2 {
+	color: #82B0BF;
+	}
+	
+#content a, #content2 a, #foot a {
+	color: #82B0BF;
+	border-bottom: 1px dotted #82B0BF;
+	}
+	
+img.content, a img.content {
+	background-color: #D7E4EA;
+	}
+	
+thead th {
+  color: #82B0BF;
+}

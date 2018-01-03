@@ -1,0 +1,255 @@
+\documentclass[11pt]{article}
+
+\usepackage{url}
+\usepackage{tikz}
+\usepackage{fancyhdr}
+\usepackage[margin=.7in]{geometry}
+\usepackage[hang,flushmargin,symbol*]{footmisc}
+\usepackage{amsmath}
+\usepackage{stmaryrd}
+\usepackage{wasysym}
+\usepackage{todonotes}
+\usepackage{amsthm}
+\usepackage{amssymb}
+\usepackage{mathtools}
+\usepackage{enumitem}
+\usepackage{graphicx}
+\usepackage{color}
+\usepackage{tipa} %to get \textpipe to work
+\definecolor{darkblue}{rgb}{0, 0, .6}
+\definecolor{grey}{rgb}{.7, .7, .7}
+\usepackage[breaklinks]{hyperref}
+\hypersetup{
+	colorlinks=true,
+	linkcolor=darkblue,
+	anchorcolor=darkblue,
+	citecolor=darkblue,
+	pagecolor=darkblue,
+	urlcolor=darkblue,
+	pdftitle={},
+	pdfauthor={}
+}
+
+\theoremstyle{definition} 
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{claim}[theorem]{Claim}
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{conjecture}[theorem]{Conjecture}
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{example}[theorem]{Example}
+\newtheorem{remark}[theorem]{Remark}
+\newtheorem{important}[theorem]{Important Note}
+\newtheorem{recall}[theorem]{Recall}
+\newtheorem{note}[theorem]{Note}
+\newtheorem{question}[theorem]{Question}
+\newtheorem{exercise}[theorem]{Exercise}
+
+\newcommand{\blank}{\underline{\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ }}
+\newcommand{\ds}{\displaystyle}
+\newcommand{\dom}{\operatorname{Dom}}
+\newcommand{\codom}{\operatorname{Codom}}
+\newcommand{\range}{\operatorname{Rng}}
+
+\setlength{\parindent}{0pt}
+\setlength{\fboxsep}{10pt}
+
+%%%%%%Header/Footer%%%%%%%
+
+\pagestyle{fancy}
+
+\lhead{\scriptsize  MA3110: Logic, Proof, \& Axiomatic Systems - Spring 2012} 
+\chead{} 
+\rhead{\scriptsize Final Exam} 
+\lfoot{\scriptsize This work is licensed under the \href{http://creativecommons.org/licenses/by-sa/3.0/us/}{Creative Commons Attribution-Share Alike 3.0 License}.} 
+\cfoot{} 
+\rfoot{\scriptsize Written by \href{http://danaernst.com}{D.C. Ernst}} 
+\renewcommand{\headrulewidth}{0.4pt} 
+\renewcommand{\footrulewidth}{0.4pt} 
+
+%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+\addtocounter{section}{3}
+
+\begin{center}
+
+{\Large\bf MA3110: Logic, Proof, \& Axiomatic Systems}\\
+\smallskip
+{\Large\bf Final Exam}
+
+\bigskip
+
+  \fbox{\parbox{7in}{
+    \vspace{10pt}
+    \textbf{\large Your Name:}
+    \vspace{10pt}
+  }}
+  
+  \bigskip
+  
+  \fbox{\parbox{7in}{
+    \vspace{10pt}
+    \textbf{\large Names of any collaborators:}
+    \vspace{10pt}
+  }}
+
+\end{center}
+
+\section*{Instructions}
+
+This exam is worth a total of 58 points and 15\% of your overall grade.  Please read the instructions for each question carefully.
+
+\bigskip
+
+I expect your solutions to be \emph{well-written, neat, and organized}.  Do not turn in rough drafts.  What you turn in should be the ``polished'' version of potentially several drafts.  Show \emph{all} of your work and \emph{justify} your answers where appropriate. 
+ 
+\bigskip
+
+Feel free to type up your final version.  The \LaTeX\ source file of this exam is also available if you are interested in typing up your solutions using \LaTeX.  I'll gladly help you do this if you'd like.
+
+\bigskip
+
+The simple rules for the exam are:
+
+\begin{enumerate}
+\item You may freely use any theorems that we have discussed in class, but you should make it clear where you are using a previous result and which result you are using.  For example, if a sentence in your proof follows from Theorem 1.41, then you should say so.
+\item Unless you prove them, you cannot use any results from the course notes or book that we have not yet covered.
+\item You are \textbf{NOT} allowed to consult external sources when working on the exam.  This includes people outside of the class, other textbooks, and online resources.
+\item You are \textbf{NOT} allowed to copy someone else's work.
+\item You are \textbf{NOT} allowed to let someone else copy your work.
+\item You are allowed to discuss the problems with each other and critique each other's work.
+\end{enumerate}
+
+\begin{center}
+\textbf{I will vigorously pursue anyone suspected of breaking these rules.}
+\end{center}
+
+\bigskip
+
+The exam is due to my office by 5\textsc{pm} on \textbf{Friday, May 18}.  You should \textbf{turn in this cover page} and all of the work that you have decided to submit. \textbf{Please write your solutions and proofs on your own paper.}
+
+\bigskip
+
+To convince me that you have read and understand the instructions, sign in the box below.
+
+\bigskip
+
+  \fbox{\parbox{7in}{
+    \vspace{10pt}
+    \textbf{\large Signature:} \hfill
+    \vspace{10pt}
+  }}
+
+\bigskip
+
+Good luck and have fun!
+
+\newpage
+
+\section*{Part 1}
+
+(2 points each) Complete any \textbf{five} of the following exercises from the course notes.
+
+\begin{center}
+2.39, 2.52, 2.56, 2.67, 2.78, 2.90, 2.98, 4.9, 4.20, 4.33 (just the first 5), 4.38, 4.51, 4.55, 4.59 
+\end{center}
+
+\section*{Part 2}
+
+(4 points each) Prove any \textbf{four} of the following theorems from the course notes.
+
+\begin{center}
+2.26(2), 2.36, 2.37, 2.77, 2.92, 2.97, 3.7, 3.9, 4.41, 4.54, 4.63
+\end{center}
+
+When proving the theorems, you can use any results in the course notes that come \textbf{before} the given theorem.
+
+\section*{Part 3}
+
+The purpose of this part of the exam is to test your ability to digest new material and prove related theorems.  First, we need a couple definitions (which ought to look familiar to you).
+
+\begin{definition}
+Let $X$ and $Y$ be two nonempty sets.  A \textbf{function} from set $X$ to set $Y$, denoted $f:X\to Y$, is a relation (i.e., subset of $X\times Y$) such that:
+\begin{enumerate}\label{def:function}
+\item For each $x\in X$, there exists $y\in Y$ such that $(x,y)\in f$, and
+\item If $(x,y_{1}), (x,y_{2}) \in f$, then $y_{1}=y_{2}$.
+\end{enumerate}
+Note that if $(x,y)\in f$, we usually write $y=f(x)$ and say that ``$f$ maps $x$ to $y$.''  (Note that item 1 implies that every element of the first set must get used in order to have a function.)
+
+\bigskip
+
+The set $X$ from above is called the \textbf{domain} of $f$ and is denoted by $\dom(f)$.  The set $Y$ is called the \textbf{codomain} of $f$ and is denoted by $\codom(f)$.  The set
+\[
+\range(f)=\{y\in Y: \mbox{there exists }x\mbox{ such that } y=f(x)\}
+\]
+is called the \textbf{range} of $f$.
+\end{definition}
+
+\begin{remark}
+It follows immediately from the definition that $\range(f)\subseteq \codom(f)$.  However, it is possible that the range of $f$ is smaller.
+\end{remark}
+
+\begin{exercise}
+(2 points each) Let $X=\{\circ, \square,\triangle,\smiley,\}$ and $Y=\{a,b,c,d,e\}$.  Determine whether each of the following represent a function.  Briefly explain your answer.  If the relation is a function, determine the domain, codomain, and range.
+
+\begin{enumerate}
+\item $f:X\to Y$ defined via $f=\{(\circ, a),(\square,b),(\triangle,c),(\smiley,d)\}$.
+\item $g:X\to Y$ defined via $g=\{(\circ, a),(\square,b),(\triangle,c),(\smiley,c)\}$.
+\item $h:X\to Y$ defined via $h=\{(\circ, a),(\square,b),(\triangle,c),(\circ,d)\}$.
+\item $k:X\to Y$ defined via $k=\{(\circ, a),(\square,b),(\triangle,c),(\smiley,d),(\square,e)\}$.
+\item $l:X\to Y$ defined via $l=\{(\circ, e),(\square,e),(\triangle,e),(\smiley,e)\}$.
+\item $\operatorname{happy}:Y\to X$ defined via $\operatorname{happy}(y)=\smiley$ for all $y\in Y$.
+\item $\operatorname{nugget}:X\to X$ defined via 
+\[
+\operatorname{nugget}(x)=\begin{cases}
+x, & \mbox{if } x\mbox{ is a geometric shape},\\
+\square, & \mbox{otherwise}.
+\end{cases}
+\]
+\end{enumerate}
+\end{exercise}
+
+\begin{remark}
+One way of representing functions is via algebraic functions (where the domain and codomain are usually assumed to be $\mathbb{R}$).  For example, the formula $f(x)=x^2$ represents the function $f=\{(x,x^2):x\in \mathbb{R}\}$.
+\end{remark}
+
+\begin{definition}
+Let $f:X\to Y$ be a function.
+\begin{enumerate}
+\item The function $f$ is said to be \textbf{one-to-one} (or \textbf{injective}) if for all $y\in \range(f)$, there is a unique $x\in X$ such that $y=f(x)$.
+\item The function $f$ is said to be \textbf{onto} (or \textbf{surjective}) if for all $y\in Y$, there exists $x\in X$ such that $y=f(x)$.
+\end{enumerate}
+\end{definition}
+
+\begin{exercise}
+(2 points each) Determine which of the following functions are one-to-one, onto, both, or neither.  Briefly justify your answer.
+\begin{enumerate}
+\item $f:\mathbb{R}\to \mathbb{R}$ defined via $f(x)=x^{2}$
+\item $g:\mathbb{R}\to [0,\infty)$ defined via $g(x)=x^{2}$
+\item $h:\mathbb{R}\to \mathbb{R}$ defined via $g(x)=x^{3}$
+\item $k:\mathbb{R}\to \mathbb{R}$ defined via $k(x)=x^{3}-x$
+\item $d:\mathbb{N}\to \mathbb{N}\times \mathbb{N}$ defined via $d(n)=(n,n)$
+\end{enumerate}
+\end{exercise}
+
+Prove any \textbf{two} of the following theorems.
+
+\begin{theorem}
+(4 points) Let $f:X\to Y$ be a function.  Then $f$ is one-to-one iff for all $x_{1}, x_{2}\in X$, if $f(x_{1})=f(x_{2})$, then $x_{1}=x_{2}$.
+\end{theorem}
+
+\begin{theorem}
+(4 points) Let $f:X\to Y$ be a function that is one-to-one and onto.  For $A\subseteq X$, define $f(A)=\{f(a):a\in A\}$.  Suppose that $\Omega$ is a partition of $X$.  Then
+\[
+\Omega^{*}=\{f(A):A\in\Omega\}
+\]
+is a partition of $Y$.
+\end{theorem}
+
+\begin{theorem}
+(4 points) Let $f:X\to Y$ be a function.  Define a relation on $X$ via $x_{1}\sim x_{2}$ iff $f(x_{1})=f(x_{2})$.  Then $\sim$ is an equivalence relation.
+\end{theorem}
+
+\end{document}

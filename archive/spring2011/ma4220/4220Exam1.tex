@@ -1,0 +1,204 @@
+\documentclass[11pt]{article}
+
+\usepackage{url}
+\usepackage{tikz}
+\usepackage{fancyhdr}
+\usepackage[margin=.7in]{geometry}
+\usepackage[hang,flushmargin,symbol*]{footmisc}
+\usepackage{amsmath}
+\usepackage{todonotes}
+\usepackage{amsthm}
+\usepackage{amssymb}
+\usepackage{mathtools}
+\usepackage{enumitem}
+\usepackage{graphicx}
+\usepackage{color}
+\usepackage{tipa} %to get \textpipe to work
+\definecolor{darkblue}{rgb}{0, 0, .6}
+\definecolor{grey}{rgb}{.7, .7, .7}
+\usepackage[breaklinks]{hyperref}
+\hypersetup{
+	colorlinks=true,
+	linkcolor=darkblue,
+	anchorcolor=darkblue,
+	citecolor=darkblue,
+	pagecolor=darkblue,
+	urlcolor=darkblue,
+	pdftitle={},
+	pdfauthor={}
+}
+
+\theoremstyle{definition} 
+\newtheorem{theorem}{Theorem}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{claim}[theorem]{Claim}
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{conjecture}[theorem]{Conjecture}
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{example}[theorem]{Example}
+\newtheorem{remark}[theorem]{Remark}
+\newtheorem{important}[theorem]{Important Note}
+\newtheorem{recall}[theorem]{Recall}
+\newtheorem{note}[theorem]{Note}
+\newtheorem{question}[theorem]{Question}
+
+\newcommand{\blank}{\underline{\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ }}
+\newcommand{\ds}{\displaystyle}
+
+%todo commants
+\newcommand{\insertref}[1]{\todo[color=green!40]{#1}}
+\newcommand{\comment}[1]{\todo[color=blue!20!white,inline]{#1}}
+\setlength{\marginparwidth}{2cm}
+
+\setlength{\parindent}{0pt}
+\setlength{\fboxsep}{10pt}
+
+%%%%%%Header/Footer%%%%%%%
+
+\pagestyle{fancy}
+
+\lhead{\scriptsize  MA4220: Number Theory- Spring 2011} 
+\chead{} 
+\rhead{\scriptsize Exam 1} 
+\lfoot{\scriptsize This work is licensed under the \href{http://creativecommons.org/licenses/by-sa/3.0/us/}{Creative Commons Attribution-Share Alike 3.0 License}.} 
+\cfoot{} 
+\rfoot{\scriptsize Written by \href{http://oz.plymouth.edu/~dcernst}{D.C. Ernst}} 
+\renewcommand{\headrulewidth}{0.4pt} 
+\renewcommand{\footrulewidth}{0.4pt} 
+
+%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+\begin{center}
+
+{\Large\bf MA4220: Number Theory - Spring 2011}\\
+\smallskip
+{\Large\bf Exam 1}
+
+\bigskip
+
+  \fbox{\parbox{7in}{
+    \vspace{12pt}
+    \textbf{\large NAME:}
+    \vspace{12pt}
+  }}
+
+\end{center}
+
+\setlength{\fboxsep}{10pt}
+
+\section*{Instructions}
+
+This exam is worth 15\% of your overall grade and all of the problems have equal weight.  For each part of the exam, read the instructions carefully.
+
+\bigskip
+
+I expect your proofs to be \emph{well-written, neat, and organized}.  You should write in \emph{complete sentences}.  Do not turn in rough drafts.  What you turn in should be the ``polished'' version of potentially several drafts.  Feel free to type up your final version.  
+
+\bigskip
+
+The \LaTeX\ source file of this exam is also available if you are interested in typing up your solutions using \LaTeX.  I'll help you do this if you'd like.
+
+\bigskip
+
+The simple rules for the exam are:
+
+\begin{enumerate}
+\item You may freely use any theorems that we have discussed in class, but you should make it clear where you are using a previous result and which result you are using.  For example, if a sentence in your proof follows from Theorem 1.41, then you should say so.
+\item Unless you prove them, you cannot use any results from the textbook that we have not covered.
+\item You are NOT allowed to consult external sources when working on the exam.  This includes people outside of the class, other textbooks, and online resources.
+\item You are NOT allowed to copy someone else's work.
+\item You are NOT allowed to let someone else copy your work.
+\item You are allowed to discuss the problems with each other and critique each other's work.
+\end{enumerate}
+
+The exam is due to my office by 5\textsc{pm} on \textbf{Friday, March 11}.  You should turn in this cover page and all of the work that you have decided to submit.
+
+\bigskip
+
+To convince me that you have read and understand the instructions, sign in the box below.
+
+\bigskip
+
+  \fbox{\parbox{7in}{
+    \vspace{12pt}
+    \textbf{\large Signature:} \hfill
+    \vspace{12pt}
+  }}
+
+\bigskip
+
+Good luck and have fun!
+
+\newpage
+
+\section*{Part 1}
+Complete \emph{one} of the following problems.  You need to justify your answers with sufficient work and should not rely on technology.
+
+\begin{enumerate}
+
+\item Exercise 1.50 on page 21.
+
+\item Exercise 1.54 on page 22.
+
+\end{enumerate}
+
+\section*{Part 2}
+
+Complete any 3 of the following problems.
+
+\begin{enumerate}[resume]
+
+\item The Fibonacci sequence is an infinite sequence that begins $1,1,2,3, 5,8,13,\ldots$.  Let $F_{n}$ denote the $n$th Fibonacci number.  The sequence is defined by $F_{1}=1$, $F_{2}=1$, and $F_{n}=F_{n-1}+F_{n-2}$ for all $n\geq 3$.  Prove that for any natural number $n$, $(F_{n},F_{n+1})=1$.
+
+\item Suppose $p$ and $q$ are prime numbers such that $q=p+2$.  (Such primes are called \emph{twin primes}.)  Also, suppose that $p>3$.  Prove that $p\equiv 2 \mbox{ (mod } 3)$.
+
+\item Theorem 2.28 on page 34.
+
+\item Which of the following statements is true?  Prove your assertion.
+\begin{enumerate}
+
+\item There are no integers $n$ such that $n^{2}-1$ is prime.
+
+\item There are a nonzero but finite number of integers $n$ such that $n^{2}-1$ is prime.
+
+\item There are infinitely many integers $n$ such that $n^{2}-1$ is prime.
+
+\end{enumerate}
+
+\item Prove that if $n+1$ integers are chosen from the set $\{1,2,...,2n\}$ then at least $2$ of the chosen integers are relatively prime.\footnote{Make a clever use of the Fundamental Theorem of Arithmetic.}
+
+\end{enumerate}
+
+\section*{Part 3}
+
+Here are the instructions for this portion of the exam.
+
+\begin{itemize}
+
+\item Prove both of the following theorems.
+
+\item You are required to type your proofs and submit them to me via email at \url{dcernst@plymouth.edu}.  
+
+\item Please put each proof on its own page.  If you choose to type your entire exam, I would like these problems to be in a separate file.  
+
+\item Send me a PDF file and name your file according to: \texttt{Exam1Part3Last-Name.pdf}.  
+
+\item Do \emph{not} include your name anywhere on the typeset document (but you should include your last name in the filename).
+
+\end{itemize}
+
+These proofs will be sent to students in a number theory course at Wellesley College to be peer reviewed.  You will receive a critical review of your proof from a student at Wellesley, but their critique will \emph{not} impact your grade.  Similarly, we will be reviewing proofs submitted by students from Wellesley in the near future.
+
+\begin{theorem}
+If $a,b\in\mathbb{Z}$, not both 0, and $k\in\mathbb{N}$, then $\gcd(ka,kb)=k\cdot \gcd(a,b)$.\footnote{This is Theorem 1.55 on page 22.}
+\end{theorem}
+
+\begin{theorem}
+Suppose that $p_{1}, p_{2}, \ldots, p_{n}$ are distinct primes (i.e., each $p_{i}$ is prime, but $p_{i}\neq p_{j}$ for $i\neq j$).  Then $\sqrt{p_{1}p_{2}\cdots p_{n}}$ is irrational.
+\end{theorem}
+
+
+
+\end{document}

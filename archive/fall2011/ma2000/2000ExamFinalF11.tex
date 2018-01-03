@@ -1,0 +1,275 @@
+\documentclass[11pt]{article}
+
+\usepackage{url}
+\usepackage{tikz}
+\usepackage{fancyhdr}
+\usepackage{multicol}
+\usepackage{todonotes}
+\usepackage[margin=.75in]{geometry}
+\usepackage[hang,flushmargin,symbol*]{footmisc}
+\usepackage{amsmath}
+\usepackage{amsthm}
+\usepackage{amssymb}
+\usepackage{mathtools}
+\usepackage{enumitem}
+\usepackage{graphicx}
+\usepackage{color}
+\usepackage{tipa} %to get \textpipe to work
+\definecolor{darkblue}{rgb}{0, 0, .6}
+\definecolor{grey}{rgb}{.7, .7, .7}
+\usepackage[breaklinks]{hyperref}
+\hypersetup{
+	colorlinks=true,
+	linkcolor=darkblue,
+	anchorcolor=darkblue,
+	citecolor=darkblue,
+	pagecolor=darkblue,
+	urlcolor=darkblue,
+	pdftitle={},
+	pdfauthor={}
+}
+
+\theoremstyle{definition}
+\newtheorem{theorem}{Theorem}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{claim}[theorem]{Claim}
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{conjecture}[theorem]{Conjecture}
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{example}[theorem]{Example}
+\newtheorem{remark}[theorem]{Remark}
+\newtheorem{important}[theorem]{Important Note}
+\newtheorem{recall}[theorem]{Recall}
+\newtheorem{note}[theorem]{Note}
+\newtheorem{question}[theorem]{Question}
+
+%todo commants
+\newcommand{\insertref}[1]{\todo[color=green!40]{#1}}
+\newcommand{\comment}[1]{\todo[color=blue!20!white,inline]{#1}}
+\setlength{\marginparwidth}{2cm}
+
+\setlength{\parindent}{0pt}
+
+%%%%%%Header/Footer%%%%%%%
+
+\pagestyle{fancy}
+
+\lhead{\scriptsize MA2000: Intro to Formal Math (Fall 2011)} 
+\chead{} 
+\rhead{\scriptsize Final Exam} 
+\lfoot{\scriptsize This work is licensed under the \href{http://creativecommons.org/licenses/by-sa/3.0/us/}{Creative Commons Attribution-Share Alike 3.0 License}.} 
+\cfoot{} 
+\rfoot{\scriptsize Written by \href{http://oz.plymouth.edu/~dcernst}{D.C. Ernst}} 
+\renewcommand{\headrulewidth}{0.4pt} 
+\renewcommand{\footrulewidth}{0.4pt}
+
+\setlength{\parindent}{0pt}
+
+%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+\begin{center}
+
+{\Large\bf MA 2000: Introduction to Formal Mathematics (Fall 2011)}\\
+\smallskip
+{\Large\bf Final Exam}
+
+%\setlength{\fboxsep}{10pt}
+
+\bigskip
+
+  \fbox{\parbox{7in}{
+    \vspace{12pt}
+    \textbf{\large Your name:} 
+    \vspace{12pt}
+  }}
+  
+  \bigskip
+  
+  \fbox{\parbox{7in}{
+    \vspace{12pt}
+    \textbf{\large Names of any collaborators:} 
+       \vspace{12pt}
+  }}
+
+
+\end{center}
+
+\section*{Instructions}
+
+For each part, read the instructions carefully.  If you have any questions, please let me know.
+
+\bigskip
+
+This exam is worth 90 points and a total of 20\% of your overall grade in the course.
+
+\bigskip
+
+I expect your solutions to be \emph{well-written, neat, and organized}.  You should write in \emph{complete sentences} when appropriate.  Do not turn in rough drafts.  What you turn in should be the ``polished'' version of potentially several drafts.  Feel free to type up your final version.  
+
+\bigskip
+
+The \LaTeX\ source file of this exam is also available if you are interested in typing up your solutions using \LaTeX.  I'll be happy to help you do this.
+
+\bigskip
+
+The simple rules for this portion of the exam are:
+
+\begin{enumerate}
+\item You are \textbf{NOT} allowed to consult external sources when working on the exam.  This includes people outside of the class, other textbooks, and online resources.
+\item You are \textbf{NOT} allowed to copy someone else's work.
+\item You are \textbf{NOT} allowed to let someone else copy your work.
+\item You are allowed to discuss the problems with each other and critique each other's work.
+\end{enumerate}
+
+I will vigorously pursue anyone suspected of breaking these rules. 
+
+\bigskip
+
+To convince me that you have read and understand the instructions, sign in the box below.
+
+\bigskip
+
+%\setlength{\fboxsep}{10pt}
+
+  \fbox{\parbox{7in}{
+    \vspace{12pt}
+    \textbf{\large Signature:} %\hfill (1 point)
+    \vspace{12pt}
+  }}
+
+\bigskip
+
+This Exam is due by 5:00\textsc{pm} on \textbf{Friday, December 16}.  You should turn in this cover page and all of the problems you have decided to submit.
+
+\bigskip
+
+Good luck and have fun!
+
+\newpage
+
+\section*{Part 1}
+
+Answer each of the following questions on your own paper.
+
+\begin{enumerate}
+
+\item (4 points) Let $t_n$ denote the $n$th triangular number.  Find a visual proof that for all $n\in\mathbb{N}$, $t_n+t_{n+1}=(n+1)^2$.
+
+\item (4 points) Suppose someone draws 20 random lines in the plane.  What is the maximum number of intersections of these lines?  Justify your answer.  (\emph{Hint:}  You've answered questions like this before; you just need to think about it the right way.)
+
+\item Consider the following graph.
+\begin{multicols}{2}
+
+\begin{center}
+\includegraphics[height=2.5in]{EulerGraph.jpg}
+\end{center}
+
+\begin{enumerate}
+\item (2 points) Explain why this graph does \emph{not} have an Euler circuit.
+
+\item (4 points) What is the minimum number of edges that one would have to retravel in order to create a circuit that traverses each edge at least once?  Illustrate one possible solution for which edges would need to be retraveled by adding duplicate edges to the graph above (but only where edges currently exist).
+
+\item (2 points) Does this graph have a Hamilton circuit?  Justify your answer.
+
+\end{enumerate}
+
+\end{multicols}
+
+\item (4 points each)  Provide examples of each of the following.  You do \emph{not} need to justify your answers.
+
+\begin{enumerate}
+
+\item A connected graph with 5 vertices that has a Hamilton circuit, but not an Euler circuit.
+
+\item A connected graph with 5 vertices that has neither an Euler circuit or a Hamilton circuit.
+
+\item A connected graph with 6 vertices that has an Euler circuit, but not a Hamilton circuit.
+
+\end{enumerate}
+
+\item (4 points) Suppose a connected graph with $n$ vertices has both an Euler circuit and a Hamilton circuit.  What must this graph look like?  Justify your answer.
+
+\item Consider the following weighted graph.
+
+\begin{multicols}{2}
+
+\begin{center}
+\includegraphics[height=2.5in]{k6.jpg}
+\end{center}
+
+\begin{enumerate}
+
+\item (2 points) How many Hamilton circuits does this graph have?
+
+\item (4 points) If you were really motivated and could compute a Hamilton circuit and its weight every 20 seconds, how long would it take you to find all Hamilton circuits?  Give your answer in the most appropriate units.
+
+\item (4 points) Approximate an optimal Hamilton circuit using the Nearest Neighbor algorithm starting at vertex $I$.
+
+\item (4 points) Approximate an optimal Hamilton circuit using the Cheapest Link algorithm.
+
+\end{enumerate}
+
+\end{multicols}
+
+\item (4 points) Explain what the Traveling Salesman Problem is.  What is the only guaranteed method for solving it?  What drawback is there to this method?  What is an advantage of the Nearest Neighbor and Cheapest Link algorithms?  How about a disadvantage?
+
+\item (4 points) Determine whether the following graph can be drawn so that it is planar.  If it is possible, draw one.  If it is not possible, explain why.
+
+\begin{center}
+\includegraphics[height=2in]{OctahedralGraph.jpg}
+\end{center}
+
+\item (4 points) Find a valid four-coloring of the following map (i.e., planar graph).  Use any four colors that you like.
+
+\begin{center}
+\includegraphics[height=3in]{FourColorMap.jpg}
+\end{center}
+
+\item (4 points each)  Determine whether each of the following complex numbers is in the Mandelbrot set.  You must provide sufficient justification.
+
+\begin{enumerate}
+\item $-i$
+\item $1+i$
+\end{enumerate}
+
+\end{enumerate}
+
+\section*{Part 2}
+
+Write proofs for the following theorems on your own paper.
+
+\bigskip
+
+\emph{Important:} When proving a statement, you should prove it directly from the known axioms, given definitions, or by appealing to previous results that we have proved in this course.  If you appeal to a previous result, you need to make it explicit where you are doing this.
+
+\begin{enumerate}
+
+\item (8 points) Prove any \textbf{one} of the following theorems.
+
+\begin{enumerate}
+
+\item Let $f_n$ denote the $n$th Fibonacci number.\footnote{Recall that $f_1=1, f_2=1$, and $f_n=f_{n-1}+f_{n-2}$ for $n\geq 3$.}  Then for all $n\in\mathbb{N}$, $f_{n+6}=4f_{n+3}+f_n$.
+
+\item In a certain kind of tournament, every player plays every other player exactly once and either wins or loses (there are no ties.)  Define a \emph{top player} to be a player who, for every other player $x$, either beats $x$ or beats a player $y$ who beats $x$.\footnote{There may be more than one top player.}  Then every $n$-player tournament has a top player.\footnote{\emph{Hint:} Use weak induction.}
+
+\end{enumerate}
+
+\item (8 points each) Prove any \textbf{two} of the following theorems.
+
+\begin{enumerate}
+
+\item If every even natural number greater than 2 is the sum of two primes, then every odd natural number greater than 5 is the sum of three primes.\footnote{No one knows whether every even number greater than 2 is the sum of two primes.  This is the famous Goldbach conjecture, proposed by Christian Goldbach in 1742.  Solving the Goldbach conjecture would net you a million dollars.  Thankfully, you don't need to prove Goldbach's conjecture to do this problem.}
+
+\item If $a,b,c\in \mathbb{Z}$ such that $a$ divides $b$ and $a$ divides $c$, then for all $x,y\in \mathbb{Z}$, $a$ divides $bx+cy$.
+
+\item If $x$ and $y$ are rational numbers such that $x<y$, then there exists a rational number $r$ such that $x<r<y$.
+
+\item If $x$ and $y$ are positive real numbers, then $\displaystyle \frac{x+y}{2}\geq \sqrt{xy}$.
+
+\end{enumerate}
+
+\end{enumerate}
+
+\end{document}

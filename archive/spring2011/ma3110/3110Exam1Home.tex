@@ -1,0 +1,159 @@
+\documentclass[11pt]{article}
+
+\usepackage{url}
+\usepackage{tikz}
+\usepackage{fancyhdr}
+\usepackage[margin=.7in]{geometry}
+\usepackage[hang,flushmargin,symbol*]{footmisc}
+\usepackage{amsmath}
+\usepackage{todonotes}
+\usepackage{amsthm}
+\usepackage{amssymb}
+\usepackage{mathtools}
+\usepackage{enumitem}
+\usepackage{graphicx}
+\usepackage{color}
+\usepackage{tipa} %to get \textpipe to work
+\definecolor{darkblue}{rgb}{0, 0, .6}
+\definecolor{grey}{rgb}{.7, .7, .7}
+\usepackage[breaklinks]{hyperref}
+\hypersetup{
+	colorlinks=true,
+	linkcolor=darkblue,
+	anchorcolor=darkblue,
+	citecolor=darkblue,
+	pagecolor=darkblue,
+	urlcolor=darkblue,
+	pdftitle={},
+	pdfauthor={}
+}
+
+\theoremstyle{definition} 
+\newtheorem{theorem}{Theorem}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{claim}[theorem]{Claim}
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{conjecture}[theorem]{Conjecture}
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{example}[theorem]{Example}
+\newtheorem{remark}[theorem]{Remark}
+\newtheorem{important}[theorem]{Important Note}
+\newtheorem{recall}[theorem]{Recall}
+\newtheorem{note}[theorem]{Note}
+\newtheorem{question}[theorem]{Question}
+
+\newcommand{\blank}{\underline{\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ }}
+\newcommand{\ds}{\displaystyle}
+
+%todo commants
+\newcommand{\insertref}[1]{\todo[color=green!40]{#1}}
+\newcommand{\comment}[1]{\todo[color=blue!20!white,inline]{#1}}
+\setlength{\marginparwidth}{2cm}
+
+\setlength{\parindent}{0pt}
+\setlength{\fboxsep}{10pt}
+
+%%%%%%Header/Footer%%%%%%%
+
+\pagestyle{fancy}
+
+\lhead{\scriptsize  MA3110: Logic, Proof, \& Axiomatic Systems - Spring 2011} 
+\chead{} 
+\rhead{\scriptsize Take-Home Portion of Exam 1} 
+\lfoot{\scriptsize This work is licensed under the \href{http://creativecommons.org/licenses/by-sa/3.0/us/}{Creative Commons Attribution-Share Alike 3.0 License}.} 
+\cfoot{} 
+\rfoot{\scriptsize Written by \href{http://oz.plymouth.edu/~dcernst}{D.C. Ernst}} 
+\renewcommand{\headrulewidth}{0.4pt} 
+\renewcommand{\footrulewidth}{0.4pt} 
+
+%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+\begin{center}
+
+{\Large\bf MA3110: Logic, Proof, \& Axiomatic Systems - Spring 2011}\\
+\smallskip
+{\Large\bf Take-Home Portion of Exam 1}
+
+\bigskip
+
+  \fbox{\parbox{7in}{
+    \vspace{12pt}
+    \textbf{\large NAME:}
+    \vspace{12pt}
+  }}
+
+\end{center}
+
+\setlength{\fboxsep}{10pt}
+
+\section*{Instructions}
+
+This portion of Exam 1 is worth 50 points.  Prove any \textbf{four} theorems on the following page.  Each proof is worth 10 points.  Your written presentation of the proofs (which includes spelling, grammar, punctuation, clarity, and legibility) is worth the remaining 10 points.
+
+\bigskip
+
+You should write in \emph{complete sentences}.  I expect your proofs to be \emph{well-written, neat}, and \emph{organized}.  Do \emph{not} turn in rough drafts.  What you turn in should be the ``polished'' version of potentially several drafts.  Feel free to type up your final version.  
+
+\bigskip
+
+The \LaTeX\ source file of this exam is also available if you are interested in typing up your solutions using \LaTeX.  I'll help you do this if you'd like.
+
+\bigskip
+
+The simple rules for the exam are:
+
+\begin{enumerate}
+\item You may freely use any theorems that we have discussed in class, but you should make it clear where you are using a previous result and which result you are using.  For example, if a sentence in your proof follows from Theorem 1.41, then you should say so.
+\item Unless you prove them, you cannot use any results from the course notes or otherwise that we have not covered.
+\item You are NOT allowed to copy someone else's work.
+\item You are NOT allowed to let someone else copy your work.
+\item You are allowed to discuss the problems with each other and critique each other's work.
+\end{enumerate}
+
+This portion of  Exam 1 is due by 5\textsc{pm} on \textbf{Tuesday, March 8}.  You should turn in this cover page and all of the work that you have decided to submit.
+
+\bigskip
+
+To convince me that you have read and understand the instructions, sign in the box below.
+
+\bigskip
+
+  \fbox{\parbox{7in}{
+    \vspace{12pt}
+    \textbf{\large Signature:} \hfill
+    \vspace{12pt}
+  }}
+
+\bigskip
+
+Good luck and have fun!
+
+\newpage
+
+\begin{theorem}
+There is a natural number $N$ such that for all $n\in\mathbb{N}$, if $n>N$, then $\frac{1}{n}<0.001$.
+\end{theorem}
+
+\begin{theorem}
+For every $m\in\mathbb{Z}$, if $m$ is odd, then there exists $k\in\mathbb{Z}$ such that $m^2=8k+1$.
+\end{theorem}
+
+\begin{theorem}
+For all integers $a, b$, and $c$, if $a$ divides $b$ and $a$ divides $c$, then for all integers $x$ and $y$, $a$ divides $bx+cy$.
+\end{theorem}
+
+\begin{theorem}
+For all $a,b\in\mathbb{Z}$, if $a$ divides $b$, then for all $n\in\mathbb{N}$, $a^{n}$ divides $b^{n}$.
+\end{theorem}
+
+\begin{theorem}
+For all $t\in\mathbb{Z}$, if there exists $m,n\in\mathbb{Z}$ such that $15m+16n=t$, then there exists $r,s\in\mathbb{Z}$ such that $3r+8s=t$.
+\end{theorem}
+
+\begin{theorem}
+If there exists an odd natural number $n>5$ such that $n$ is not the sum of three prime numbers, then there exists an even natural number $m>2$ such that $m$ is not the sum of two prime numbers.\footnote{Recall that a prime number is a natural number greater than or equal to 2 that has exactly two natural number divisors.  This problem is related to the Goldbach Conjecture, proposed by Christian Goldbach in 1742, which says that every even number greater than 2 is the sum of two prime numbers.  No one knows whether the Goldbach Conjecture is true or false, but a proof one way or the other has a million dollar prize.  Fortunately, you don't have to prove Goldbach's Conjecture to do this problem.}
+\end{theorem}
+
+\end{document}

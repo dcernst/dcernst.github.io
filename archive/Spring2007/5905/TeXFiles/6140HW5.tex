@@ -1,0 +1,165 @@
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{amssymb}
+
+\newcommand{\Z}{\mathbb{Z}}
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\C}{\mathbb{C}}
+\newcommand{\D}{\mathbb{D}}
+\newcommand{\Tor}{\textrm{Tor}}
+\newcommand{\Ob}{\textrm{Ob}}
+
+
+\begin{document}
+
+\begin{flushright}
+
+Dana Ernst \\
+Math 6140\\
+February 25, 2004\\
+
+\end{flushright}
+
+\medskip
+
+\begin{center}
+
+\textbf{Homework 5}
+
+\end{center}
+
+\begin{flushleft}
+\textbf{Additional Problem 2:} Let $R$ be a commutative ring, and let $X$  be an arbitrary set.  Then $R[X]$ is a free commutative $R$-algebra with free generating set $X$.
+
+\medskip
+
+\textit{Proof:} It is given that $R[X]$ is an $R$-algebra.  Since $R$ is a commutative, the ring $R[X]$ is commutative as well.  That is, $R[X]$ is a commutative $R$-algebra.  It remains to show that $R[X]$ is free with generating set $X$.
+
+\medskip
+
+Let $\mathcal{F}$ be the forgetful functor from the category of $R$-algebras to the category of sets, and let $A$ be an $R$-algebra.  Now, let $\phi$ be a set map from $X$ to $\mathcal{F}A$, and let $i$ be the inclusion map from $X$ to $\mathcal{F}R[X]$.  Note that, $X\subseteq \mathcal{F}R[X]$.  Next, let 
+$$\Phi_1,\Phi_2:\mathcal{F}R[X]\rightarrow\mathcal{F}A$$
+be $R$-algebra homomorphisms such that for all $x \in X$,
+$$\phi(x)=(\mathcal{F}\Phi_1\circ i)(x)=(\mathcal{F}\Phi_2\circ i)(x).$$
+Then 
+$$\mathcal{F}\Phi_1|_X=\phi=\mathcal{F}\Phi_2.$$
+Assume that $\Phi_1\neq \Phi_2$.  Then
+$$\Phi_1(1_{R[X]})=1_A=\Phi_2(1_{R[X]}),$$
+and for all $r \in R$, we have
+ \begin{eqnarray*}
+ \Phi_1(r)&=&\Phi_1(r1_{R[X]})\\
+ &=&r\Phi_1(1_{R[X]})\\
+ &=&r1_{R[X]}\\
+ &=&r\\
+ &=&r\Phi_2(1_{R[X]})\\
+ &=&\Phi_2(r1_{R[X]})\\
+ &=&\Phi_2(r).
+ \end{eqnarray*}
+So, $\Phi_1|_R=\Phi_2|_R$, which implies that $\mathcal{F}\Phi_1|_R=\mathcal{F}\Phi_2|_R$.  Since $\Phi_1\neq \Phi_2$, $\mathcal{F}\Phi_1\neq \mathcal{F}\Phi_2$.  Then there must exist $y \in \R[X]$ with $y \notin X$ and $y \notin R$ such that $\mathcal{F}\Phi_1(y)\neq \mathcal{F}\Phi_2(y)$.  For some reason, this yields a contradiction?  Therefore, for each set map $\phi$, $\exists! \Phi$ such that $\mathcal{F}\Phi\circ i=\phi$.  Hence $R[X]$ is the free commutative $R$-algebra with free generating set $X$.
+
+\bigskip
+
+\textbf{Additional Problem 3:} Let $R$ be an integral domain, and let $R\textrm{-}\mathbf{TfMod}$ denote the category of all torsion free $R$-modules with all $R$-homomorphisms between them.  Then $\exists$ a universal arrow from each $R$-module $M$ to the inclusion functor $\mathcal{U}:R\textrm{-}\mathbf{TfMod}\rightarrow R\textrm{-}\mathbf{Mod}$.
+
+\medskip
+
+\textit{Proof}: Let $M$ be an $R$-module.  We need to find a pair $(U,\iota)$ with $U \in 
+Ob(R\textrm{-}\mathbf{TfMod})$ and $\iota:M\rightarrow\mathcal{U}U$ such that for all pairs $(T,\phi)$ with $T \in Ob(R\textrm{-}\mathbf{TfMod})$ and $\phi:M\rightarrow\mathcal{U}T$,
+
+$$\exists!  \Phi:U\rightarrow T$$
+
+such that $\mathcal{U}\Phi \circ \iota=\phi$.
+
+\medskip
+
+Define $\iota :M\rightarrow\mathcal{U}(M/\Tor(M)=M/\Tor(M)$ via 
+$$\iota(m)=m+\Tor(M).$$
+Now, we will show that $M/\Tor(M)$ is torsion free.  Let 
+
+$$m+\Tor(M) \in \Tor(M/\Tor(M)).$$
+
+ Then $\exists$ $r_1 \in R$ with $r_1\neq 0$ such that 
+ 
+ $$r_1(m+\Tor(M))=r_1m+\Tor(M)=\Tor(M).$$
+ 
+ This implies that $r_1m\in \Tor(M)$, and so $\exists r_2\in M$ with $r_2\neq 0$ such that 
+ \begin{eqnarray*}
+ r_2(r_1m)&=&0\\
+ (r_1r_2)m&=&0.
+ \end{eqnarray*}
+ Since $R$ is an integral domain and $r_1,r_2\neq 0$, $r_1r_2\neq 0$.  Hence $m\in \Tor(M)$, which implies that
+ $$m+\Tor(M)=\Tor(M).$$
+ Therefore, $\Tor(M/\Tor(M))$ is trivial, and so $M/\Tor(M)$ is torsion free.  That is, 
+ $$M/\Tor(M) \in \Ob(R\textrm{-}\mathbf{TfMod}).$$
+ 
+ \medskip
+ 
+ Now, let $T \in \Ob(R\textrm{-}\mathbf{TfMod}$ and let $\phi:M\rightarrow\mathcal{U}T=T$ be a morphism.  Define $\Phi:M/\Tor(M)\rightarrow T$ via
+ $$\Phi(m+\Tor(M))=\phi(m).$$
+ We must show that $\Phi$ is well-defined.  First, we will show that $\Tor(M)\subseteq \ker\phi$.  Let $m \in \Tor(M)$.  Then $\exists r \in R$ with $r\neq 0$ such that $rm=0$.  Then
+ $$0=\phi(0)=\phi(rm)=r\phi(m).$$
+ Thus, $\phi(m)=0$ (since $r\neq0$).  This implies that $m \in \ker\phi$, and so
+ $$\Tor(M) \subseteq \ker\phi.$$
+ Next, assume that $m+\Tor(M)=n+\Tor(M)$.  Then $m-n \in \Tor(M)$, which implies that $m-n \in \ker\phi$.  So, we have
+  \begin{eqnarray*}
+ \phi(m-n)&=&0\\
+ \phi(m)-\phi(n)&=&0\\
+ \phi(m)&=&\phi(n)\\
+ \Phi(m+\Tor(M))&=&\Phi(n+\Tor(M).
+ \end{eqnarray*}
+ Therefore, $\Phi$ is well-defined.
+ 
+ \medskip
+ 
+ Now, let $m \in M$.  Then
+  \begin{eqnarray*}
+ \mathcal{U}\Phi\circ\iota(m)&=& \mathcal{U}\Phi(m+\Tor(M))\\
+ &=&\Phi(m+\Tor(M))\\
+ &=&\phi(m).
+ \end{eqnarray*}
+ We must show that $\Phi$ is the unique map with satisfies the above relation.  Suppose that $\exists \Psi:M/\Tor(M)\rightarrow T$ such that
+ $$\mathcal{U}\Psi\circ\iota=\phi.$$
+ Then
+ \begin{eqnarray*}
+ \mathcal{U}\Psi\circ\iota(m)&=& \mathcal{U}\Psi(m+\Tor(M))\\
+ &=&\Psi(m+\Tor(M))\\
+ &=&\phi(m).
+ \end{eqnarray*}
+ That is, $\Psi(m+\Tor(M))=\phi(m)$.  But this is exactly what $\Phi$ does, and so $\Psi=\Phi$.  Therefore, $\Phi$ is unique.
+ 
+ \medskip
+ 
+ Hence $(M/\Tor(M),\iota)$ is a universal arrow from $M$ to $\mathcal{U}$.
+ 
+ \bigskip
+ 
+ \textbf{Additional Problem 5:} If $(U,\iota)$ and $(U',\iota')$ are universal arrows from $X \in \Ob\D$ to a functor $\mathcal{G}:\C\rightarrow\D$, then $\exists!$ isomorphism $f:U\rightarrow U'$ such that $\mathcal{G}f\circ\iota=\iota'$.
+ 
+ \medskip
+ 
+ \textit{Proof}: Assume that  $(U,\iota)$ and $(U',\iota')$ are universal arrows from $X \in \Ob\D$ to a functor $\mathcal{G}:\C\rightarrow\D$.  Then for the pairs  $(U,\iota)$ and $(U',\iota')$, we have
+ $$\exists! f:U\rightarrow U' \textrm{such that} \mathcal{G}f\circ\iota=\iota'$$
+ and
+ $$\exists! g:U'\rightarrow U \textrm{such that} \mathcal{G}g\circ\iota'=\iota.$$
+ This implies that
+ \begin{eqnarray*}
+ \mathcal{G}(f\circ g)\circ\iota'&=& \mathcal{G}f\circ\mathcal{G}g\iota'\\
+ &=&\mathcal{G}f\circ\iota'\\
+ &=&\iota',
+ \end{eqnarray*}
+ and
+ \begin{eqnarray*}
+ \mathcal{G}(g\circ f)\circ\iota&=& \mathcal{G}g\circ\mathcal{G}f\iota\\
+ &=&\mathcal{G}g\circ\iota\\
+ &=&\iota.
+ \end{eqnarray*}
+ But since $f$ is the unique morphism such that $\mathcal{G}f\circ\iota=\iota'$ and $g$ is the unique morphism such that $\mathcal{G}g\circ\iota'=\iota$, $f\circ g$ is the unique morphism such that
+ $$\mathcal{G}(f\circ g)\circ\iota'=\iota'.$$
+ Similarly, $g\circ f$ is the unique morphism such that
+ $$\mathcal{G}(g\circ f)\circ\iota=\iota.$$
+However, $1_{\mathcal{G}U'}\circ\iota'=\iota'$ and $1_{\mathcal{G}U}\circ\iota=\iota$, as well.  So, $\mathcal{G}(f\circ g)=1_{\mathcal{G}U'}$ and $\mathcal{G}(g\circ f)=1_{\mathcal{G}U}$.  Hence $f\circ g=1_{U'}$ and $g\circ f=1_{U}$.  Therefore, $f$ is the unique isomorphism such that
+$\mathcal{G}f\circ \iota=\iota'$.
+
+
+\end{flushleft}
+\end{document} 

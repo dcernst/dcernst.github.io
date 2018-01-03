@@ -1,0 +1,152 @@
+\documentclass[11pt]{article}
+
+\usepackage{url} 
+\usepackage{tikz}
+\usepackage{fancyhdr}
+\usepackage[margin=.75in]{geometry}
+\usepackage{subfig}
+\usepackage[hang,flushmargin,symbol*]{footmisc}
+\usepackage{amsmath}
+\usepackage{amsthm}
+\usepackage{amssymb}
+\usepackage{mathtools}
+\usepackage{enumitem}
+\usepackage{graphicx}
+\usepackage{color}
+\definecolor{darkblue}{rgb}{0, 0, .6}
+\definecolor{grey}{rgb}{.7, .7, .7}
+\usepackage[breaklinks]{hyperref}
+\hypersetup{
+	colorlinks=true,
+	linkcolor=darkblue,
+	anchorcolor=darkblue,
+	citecolor=darkblue,
+	pagecolor=darkblue,
+	urlcolor=darkblue,
+	pdftitle={},
+	pdfauthor={}
+}
+
+\theoremstyle{definition} 
+\newtheorem{theorem}{Theorem}
+
+\setlength{\parindent}{0pt}
+
+%%%%%%Header/Footer%%%%%%%
+
+\pagestyle{fancy}
+
+\lhead{\scriptsize Exam 3 (take-home portion)} 
+\chead{} 
+\rhead{\scriptsize \thepage} 
+\lfoot{\scriptsize This work is licensed under the \href{http://creativecommons.org/licenses/by-sa/3.0/us/}{Creative Commons Attribution-Share Alike 3.0 License}.} 
+\cfoot{} 
+\rfoot{\scriptsize Written by \href{http://oz.plymouth.edu/~dcernst}{D.C. Ernst}} 
+\renewcommand{\headrulewidth}{0.4pt} 
+\renewcommand{\footrulewidth}{0.4pt} 
+
+%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+\begin{center}
+
+{\Large\bf MA 4140: Algebraic Structures (Spring 2010)}\\
+\smallskip
+{\Large\bf Exam 3 (take-home portion)}
+
+\bigskip
+
+  \fbox{\parbox{7in}{
+    \vspace{12pt}
+    \textbf{\large NAME:}
+    \vspace{12pt}
+  }}
+
+\end{center}
+
+\setlength{\fboxsep}{10pt}
+
+\section*{Instructions}
+
+Prove any \emph{three} of the following theorems.
+
+\bigskip
+
+This portion of Exam 3 is worth 40 points.  Each of the three proofs that you complete is worth 10 points.  Your written presentation of the proofs (which includes spelling, grammar, punctuation, clarity, and legibility) is worth the remaining 10 points.
+
+\bigskip
+
+I expect your proofs to be \emph{well-written, neat, and organized}.  You should write in \emph{complete sentences}.  Do not turn in rough drafts.  What you turn in should be the ``polished'' version of potentially several drafts.  Feel free to type up your final version.  
+
+\bigskip
+
+The \LaTeX\ source file of this exam is also available if you are interested in typing up your solutions using \LaTeX.  I'll be happy to help you do this.
+
+\bigskip
+
+The simple rules for this portion of the exam are:
+
+\begin{enumerate}
+\item You may freely use any theorems that we have discussed in class, but you should make it clear where you are using a previous result and which result you are using.  For example, if a sentence in your proof follows from Proposition 2.9, then you should say so.
+\item You cannot use any results from the book or otherwise that we have not covered, unless you prove them.
+\item You are NOT allowed to copy someone else's work.
+\item You are NOT allowed to let someone else copy your work.
+\item You are allowed to discuss the problems with each other and critique each other's work.
+\end{enumerate}
+
+This portion of Exam 3 is due by 5\textsc{pm} on Friday, May 21.  You should turn in this cover page and the three proofs that you have decided to submit.
+
+\bigskip
+
+To convince me that you have read and understand the instructions, sign in the box below.
+
+\bigskip
+
+  \fbox{\parbox{7in}{
+    \vspace{12pt}
+    \textbf{\large Signature:} \hfill
+    \vspace{12pt}
+  }}
+
+\bigskip
+
+Good luck and have fun!
+
+\newpage
+
+\begin{theorem}
+Let $H_1$ and $H_2$ be subgroups of $G_1$ and $G_2$, respectively.  Then $H_1\times H_2\leq G_1\times G_2$.
+\end{theorem}
+
+\newpage
+
+\begin{theorem}
+Let $\phi: G\to H$ be a group homomorphism from a group $G$ to a group $H$.  Then for all $g\in G$, the order of $\phi(g)$ divides the order of $g$.
+\end{theorem}
+
+\newpage
+
+\textbf{Definition.}  Let $G$ be a group.  Define the \emph{center} of $G$ to be the set
+\[
+Z(G)=\{x\in G: xg=gx \text{ for all } g\in G\}.
+\]
+In other words, the center of $G$ is the collection of elements that commute with all the elements of $G$.  It turns out that $Z(G)\trianglelefteq G$.  (You do \emph{not} need to prove this.)
+
+\begin{theorem}
+Let $G$ be a group.  If $G/Z(G)$ is cyclic, then $G$ is abelian.
+\end{theorem}
+
+\newpage
+
+\begin{theorem}
+Let $G$ be a group with order $p^2$, where $p$ is prime.  If $H$ is a subgroup of $G$ with order $p$, then $H$ is normal in $G$.
+\end{theorem}
+
+\newpage
+
+\begin{theorem}
+Let $n,m \in \mathbb{Z}$.  Then $(\mathbb{Z}\times \mathbb{Z})/(n\mathbb{Z}\times m\mathbb{Z})\cong \mathbb{Z}_n\times \mathbb{Z}_m$.\footnote{Since $\mathbb{Z}$ is abelian, $\mathbb{Z}\times \mathbb{Z}$ is abelian.  This implies that all subgroups of  $\mathbb{Z}\times \mathbb{Z}$ are normal.  In particular, $n\mathbb{Z}\times m\mathbb{Z}\trianglelefteq \mathbb{Z}\times \mathbb{Z}$, so that $(\mathbb{Z}\times \mathbb{Z})/(n\mathbb{Z}\times m\mathbb{Z})$ is a well-defined group.}
+\end{theorem}
+
+\end{document}
