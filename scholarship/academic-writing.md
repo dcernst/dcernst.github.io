@@ -19,10 +19,10 @@ My interests also include the [scholarship of teaching and learning](http://en.w
 
 You can find a recent version of my curriculum vitae [here]({{site.baseurl}}/scholarship/CVErnst.pdf).
 
-## Submitted
-  * D.C. Ernst. Diagram calculus for a type affine *C* Temperley-Lieb algebra, II. Submitted to *J. Pure Appl. Alg.* [[arXiv:1101.4215](http://arxiv.org/abs/1101.4215)]
-
+<!-- ## Submitted -->
+  
 ## Journal Articles
+  * D.C. Ernst. Diagram calculus for a type affine *C* Temperley-Lieb algebra, II. Accepted to *J. Pure Appl. Alg.* [[arXiv:1101.4215](http://arxiv.org/abs/1101.4215)]
   * D.C. Ernst and N. Sieben. Impartial achievement and avoidance games for generating finite groups. *Int. J. Game Theory* 2017. [[arXiv:1407.0784](http://arxiv.org/abs/1407.0784)] [[DOI:10.1007/s00182-017-0602-x](https://doi.org/10.1007/s00182-017-0602-x)]
   * D.C. Ernst, T.J. Hitchman, and A. Hodge. Bringing Inquiry to the First Two Years of College Mathematics. *PRIMUS* 27(7), 641-645, 2017. [[DOI:10.1080/10511970.2017.1393846](http://www.tandfonline.com/doi/full/10.1080/10511970.2017.1393846)]
   * D.C. Ernst, A. Hodge, and S. Yoshinobu. Doceamus: What Is Inquiry-Based Learning? *Notices of the AMS* 64(6), 2017. [[ePrint](http://www.ams.org/publications/journals/notices/201706/rnoti-p570.pdf)]
