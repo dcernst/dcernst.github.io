@@ -15,6 +15,7 @@ Below is list of talks and presentations that I have given over the past several
 
 - Open-source course materials for an inquiry-based approach to an introduction to proof course and abstract algebra. MAA Session on The Advancement of Open Educational Resources, [Joint Mathematics Meetings](http://jointmathematicsmeetings.org/jmm), San Diego, CA.  January 2018. [[Slides](???)]
 - Enhancing student engagement and understanding via inquiry-based learning. Creating Meaningful Classroom Activities to Deepen Student Learning, [Project NExT](https://www.maa.org/programs-and-communities/professional-development/project-next) Panel Discussion, [Joint Mathematics Meetings](http://jointmathematicsmeetings.org/jmm), San Diego, CA.  January 2018. [[Slides](???)]
+- More combinatorics of genome rearrangements. [Algebra, Combinatorics, Geometry, and Topology Seminar](http://naumathstat.github.io/seminars/acgtFall2017/) (ACGT), NAU, Flagstaff, AZ. November 2017.
 - An introduction to the combinatorics of genome rearrangements. [NAU Mathematics and Statistics Colloquium](http://naumathstat.github.io/seminars/colloquiumFall2017), NAU, Flagstaff, AZ. November 2017.
 - Proofs Without Words. Guest lecture for MAT 123, NAU, Flagstaff, AZ. October 2017. [[Slides](https://speakerdeck.com/dcernst/proofs-without-words-2)]
 - The ubiquitous Catalan numbers. [Friday Afternoon Mathematics Undergrad Seminar](http://naumathstat.github.io/seminars/famusFall2017/) (FAMUS), NAU, Flagstaff, AZ. October 2017.
