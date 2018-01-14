@@ -40,7 +40,7 @@ layout: default
     <strong>Semester:</strong> Spring 2018<br />
     <strong>Credits:</strong> 3<br />
     <strong>Section:</strong> 1<br />
-    <strong>Time:</strong> MWF at 9:10-10:0AM<br />
+    <strong>Time:</strong> 11:30AM-12:20PM MWF<br />
     <strong>Location:</strong> AMB 225
     </div>
   </div>
@@ -50,7 +50,7 @@ layout: default
       <h3>Instructor Info</h3>
       <i class="fa fa-user fa-fw"></i>&nbsp; Dana C. Ernst, PhD<br />
       <i class="fa fa-university fa-fw"></i>&nbsp; AMB 176<br />
-      <i class="fa fa-users fa-fw"></i>&nbsp; 11:30AM-1:00PM MWF, 10:00-11:00AM T<br />
+      <i class="fa fa-users fa-fw"></i>&nbsp; 10:15-11:15AM MWF and 2:30-3:45PM T<br />
       <i class="far fa-envelope fa-fw"></i>&nbsp; <a href="mailto:dana.ernst@nau.edu">dana.ernst@nau.edu</a><br />
       <i class="fa fa-phone fa-fw"></i>&nbsp; 928.523.6852<br />
       <i class="fa fa-link fa-fw"></i>&nbsp; <a href="{{site.baseurl}}">danaernst.com</a>
