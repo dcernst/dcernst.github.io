@@ -35,7 +35,7 @@ layout: default
 <div class="row">
   <div class="col-xs-12 col-sm-6">
     <div>
-    <h3>Course Information</h3>
+    <h3>Course Info</h3>
     <strong>Title:</strong> MAT 220: Introduction to Mathematical Reasoning<br />
     <strong>Semester:</strong> Spring 2017<br />
     <strong>Credits:</strong> 3<br />
@@ -47,7 +47,7 @@ layout: default
 
   <div class="col-xs-12 col-sm-6">
     <div>
-      <h3>Instructor Information</h3>
+      <h3>Instructor Info</h3>
       <i class="fa fa-user fa-fw"></i>&nbsp; Dana C. Ernst, PhD<br />
       <i class="fa fa-university fa-fw"></i>&nbsp; AMB 176<br />
       <i class="fa fa-users fa-fw"></i>&nbsp; MWF 10:15-11:15AM, T 11:00-12:00PM<br />
