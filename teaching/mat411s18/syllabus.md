@@ -107,9 +107,8 @@ In this course, *everyone* will be required to
 
 As the semester progresses, it should become clear to you what the expectations are.  
 
-<div class="card card-inverse card-primary">
-<div class="card-block">
-<blockquote class="card-blockquote">
+<div class="alert alert-info" role="primary">
+<blockquote>
 <p>I must not fear.<br />
 Fear is the mind-killer.<br />
 Fear is the little-death that brings total obliteration.<br />
@@ -120,16 +119,6 @@ Where the fear has gone there will be nothing.<br />
 Only I will remain.</p>
 <footer><a href="https://en.wikipedia.org/wiki/Bene_Gesserit#Litany_against_fear">Bene Gesserit litany against fear</a> from Frank Herbert's <a href="https://en.wikipedia.org/wiki/Frank_Herbert%27s_Dune">Dune</a></footer>
 </blockquote>
-</div>
-</div>
-
-<div class="card card-inverse card-primary mb-3 text-center">
-  <div class="card-block">
-    <blockquote class="card-blockquote">
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-      <footer>Someone famous in <cite title="Source Title">Source Title</cite></footer>
-    </blockquote>
-  </div>
 </div>
 
 <!-- This will be new to many of you and there may be some growing pains associated with it. -->
