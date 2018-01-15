@@ -112,6 +112,7 @@ The notes will be released incrementally. Each link below is to a PDF file. If y
 Below are links to the take-home portions of each exam.
 
   - Exam 1. Coming soon.
+
  <!-- - [Exam 1 (take-home)]({{site.baseurl}}/teaching/mat411s18/411Exam1-Home.pdf) (PDF). If you are interested in using LaTeX to type up your solutions, contact me and I will send you a link to the source file of the exam. (Due Wednesday, October 4)
  - [Exam 2 (take-home)]({{site.baseurl}}/teaching/mat411s18/411Exam2-Home.pdf) (PDF). If you are interested in using LaTeX to type up your solutions, contact me and I will send you a link to the source file of the exam. (Due Friday, November 3)
  - [Exam 3 (take-home)]({{site.baseurl}}/teaching/mat411s18/411Exam3-Home.pdf) (PDF). If you are interested in using LaTeX to type up your solutions, contact me and I will send you a link to the source file of the exam. (Due Tuesday, December 5 by 8pm)
