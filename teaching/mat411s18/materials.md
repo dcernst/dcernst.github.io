@@ -104,16 +104,27 @@ The notes will be released incrementally. Each link below is to a PDF file. If y
     - A.5 Induction -->
 
 ## Miscellaneous Materials ##
-- [Student Contract]({{ site.baseurl }}/teaching/StudentContract.pdf)
-- [Setting the Stage]({{ site.baseurl }}/teaching/SettingTheStage.pdf)
-- [Productive Failure and Productive Struggle BMX Video](https://www.youtube.com/watch?v=9brnDOVJWnw)
+- [Student Contract]({{ site.baseurl }}/teaching/StudentContract.pdf) (PDF)
+- [Setting the Stage]({{ site.baseurl }}/teaching/SettingTheStage.pdf) (PDF)
+- Videos on Growth Mindset and Productive Failure
+    - [Productive Failure/Struggle Skateboard Video](https://www.youtube.com/watch?time_continue=98&v=1QSocgE3yFY)
+    - [Productive Failure/Struggle BMX Video](https://www.youtube.com/watch?v=9brnDOVJWnw) (1:39 min)
+    - [Michael Jordan Failure Commercial](https://www.youtube.com/watch?v=JA7G7AV-LT8) (0:32 min)
+    - [Mindsets: Fixed Versus Growth](https://www.youtube.com/watch?v=M1CHPnZfFmU) (2:19 min)
+    - [Grit: the power of passion and perseverance | Angela Lee Duckworth](https://www.youtube.com/watch?v=H14bBuluwB8) (6:12 min)
+    - [Growth Mindset Animation](https://www.youtube.com/watch?v=-_oqghnxBmY) (3:50 min)
+    - [KhanAcademy interview with Carol Dweck about growth mindset](https://www.youtube.com/watch?time_continue=1&v=wh0OS4MrN3E) (3:06 min)
+    - [Make Mistakes | Michael Starbird](https://www.youtube.com/watch?v=2yYQ-1X2ocU) (2:11 min)
+    - [On being wrong | Kathryn Schulz](https://www.youtube.com/watch?v=QleRgTBMX88) (17:51 min)
+
+    <!-- - [The unexpected benefit of celebrating failure | Astro Teller](https://www.youtube.com/watch?time_continue=1&v=2t13Rq4oc7A) -->
 
 ## Exams ##
 Below are links to the take-home portions of each exam.
 
   - Exam 1. Coming soon.
 
-<!-- 
+<!--
 - [Exam 1 (take-home)]({{site.baseurl}}/teaching/mat411s18/411Exam1-Home.pdf) (PDF). If you are interested in using LaTeX to type up your solutions, contact me and I will send you a link to the source file of the exam. (Due Wednesday, October 4)
  - [Exam 2 (take-home)]({{site.baseurl}}/teaching/mat411s18/411Exam2-Home.pdf) (PDF). If you are interested in using LaTeX to type up your solutions, contact me and I will send you a link to the source file of the exam. (Due Friday, November 3)
  - [Exam 3 (take-home)]({{site.baseurl}}/teaching/mat411s18/411Exam3-Home.pdf) (PDF). If you are interested in using LaTeX to type up your solutions, contact me and I will send you a link to the source file of the exam. (Due Tuesday, December 5 by 8pm)
