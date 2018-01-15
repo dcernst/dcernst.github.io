@@ -78,6 +78,11 @@ Upon successful completion of the course, students will be able to do the follow
 2. **Rings:** axioms, examples of rings of numbers, matrices, and polynomials; unity, units, divisibility, zero divisors, integral domains, division rings, field of quotients, ideals, homomorphisms, factor rings, prime and maximal ideals.
 3. **Fields:** axioms, examples; polynomials, divisibility criteria, irreducible polynomial, construction of finite fields and their cyclic multiplication groups.
 
+<blockquote>
+<p>The mathematician does not study pure mathematics because it is useful; he studies it because he delights in it, and he delights in it because it is beautiful.</p>
+<footer>Henri Poincaré</footer>
+</blockquote>
+
 ### Goals ###
 Aside from the obvious goal of wanting you to learn how to write rigorous mathematical proofs, one of my principal ambitions is to make you independent of me.  Nothing else that I teach you will be half so valuable or powerful as the ability to reach conclusions by reasoning logically from first principles and being able to justify those conclusions in clear, persuasive language (either oral or written).   Furthermore, I want you to experience the unmistakable feeling that comes when one really understands something thoroughly.  Much "classroom knowledge" is fairly superficial, and students often find it hard to judge their own level of understanding. For many of us, the only way we know whether we are "getting it" comes from the grade we make on an exam.  I want you to become less reliant on such externals.  When you can distinguish between really knowing something and merely knowing about something, you will be on your way to becoming an independent learner.  Lastly, it is my sincere hope that all of us (myself included) will improve our oral and written communications skills.
 
@@ -105,18 +110,11 @@ In this course, *everyone* will be required to
 - participate in discussions centered around a student's presented solution/proof;
 - call upon your own prodigious mental faculties to respond in flexible, thoughtful, and creative ways to problems that may seem unfamiliar on first glance.
 
-As the semester progresses, it should become clear to you what the expectations are.  
+As the semester progresses, it should become clear to you what the expectations are.
 
 <blockquote>
-<p>I must not fear.<br />
-Fear is the mind-killer.<br />
-Fear is the little-death that brings total obliteration.<br />
-I will face my fear.<br />
-I will permit it to pass over me and through me.<br />
-And when it has gone past I will turn the inner eye to see its path.<br />
-Where the fear has gone there will be nothing.<br />
-Only I will remain.</p>
-<footer class="blockquote-footer"><a href="https://en.wikipedia.org/wiki/Bene_Gesserit#Litany_against_fear">Bene Gesserit litany against fear</a> from Frank Herbert's <a href="https://en.wikipedia.org/wiki/Frank_Herbert%27s_Dune">Dune</a></footer>
+<p>Don’t fear failure.  Not failure, but low aim, is the crime. In great attempts it is glorious even to fail.</p>
+<footer>Bruce Lee</footer>
 </blockquote>
 
 ### Course Structure and Approach ###
@@ -129,14 +127,19 @@ Class meetings will consist of discussion of problems, student-led presentations
 - Assignment of new problems;
 - Explanation of unfamiliar mathematical concepts as needed.
 
-### Course Notes ###
-We will not use a textbook this semester, but rather a task-sequence adopted for IBL.  The task-sequence that we are using was written by me. Any errors in the notes are no one's fault but my own.  In this vein, if you think you see an error, please inform me, so that it can be remedied.  The course notes are available [here]({{site.baseurl}}/teaching/mat411s18/materials/).
+<blockquote>
+<p>The impediment to action advances action. What stands in the way becomes the way.</p>
+<footer>Marcus Aurelius</footer>
+</blockquote>
+
+### Textbook ###
+Our textbook for the semester is <i>An Inquiry-Based Approach to Abstract Algebra</i>, which is a free and open-source textbook that written by me ([Dana C. Ernst](http://danaernst.com)). The textbook is designed to used with an [inquiry-based learning](http://maamathedmatters.blogspot.com/2013/05/what-heck-is-ibl.html) (IBL) approach to a first-semester undergraduate abstract algebra course. While the textbook covers many of the standard topics, the focus is on building intuition and emphasizes visualization. The textbook is available [here]({{site.baseurl}}/teaching/mat411s18/materials/).
 
 I will not be covering every detail of the notes and the only way to achieve a sufficient understanding of the material is to be digesting the reading in a meaningful way.  You should be seeking clarification about the content of the notes whenever necessary by asking questions.  Here's one of my favorite quotes about reading mathematics.
 
 <blockquote>
-  <p>Don’t just read it; fight it! Ask your own questions, look for your own examples, discover your own proofs. Is the hypothesis necessary? Is the converse true? What happens in the classical special case? What about the degenerate cases? Where does the proof use the hypothesis?</p>
-  <footer><a href="http://en.wikipedia.org/wiki/Paul_Halmos">Paul Halmos</a></footer>
+<p>Don’t just read it; fight it! Ask your own questions, look for your own examples, discover your own proofs. Is the hypothesis necessary? Is the converse true? What happens in the classical special case? What about the degenerate cases? Where does the proof use the hypothesis?</p>
+<footer><a href="http://en.wikipedia.org/wiki/Paul_Halmos">Paul Halmos</a></footer>
 </blockquote>
 
 ### Learning Management System ###
@@ -237,6 +240,18 @@ In general, I will curate the list of student presenters each class meeting.  Ho
 
 In order to receive a **passing grade** on the presentation portion of your grade, **you must present at least twice prior to each of the three midterm exams and at least once after the third midterm exam**  for a total of at least 7 times during semester. Notice that I've described a minimum.  To ensure a good grade, you should present as often as you can. Your overall performance during presentations, as well as your level of interaction/participation during class, will be worth 14% of your overall grade.
 
+<blockquote>
+<p>I must not fear.<br />
+Fear is the mind-killer.<br />
+Fear is the little-death that brings total obliteration.<br />
+I will face my fear.<br />
+I will permit it to pass over me and through me.<br />
+And when it has gone past I will turn the inner eye to see its path.<br />
+Where the fear has gone there will be nothing.<br />
+Only I will remain.</p>
+<footer class="blockquote-footer"><a href="https://en.wikipedia.org/wiki/Bene_Gesserit#Litany_against_fear">Bene Gesserit litany against fear</a> from Frank Herbert's <a href="https://en.wikipedia.org/wiki/Frank_Herbert%27s_Dune">Dune</a></footer>
+</blockquote>
+
 ### Exams ###
 There will be three midterm exams and a cumulative final exam.  Each midterm exam will be worth 18% of your overall grade and the final exam will be worth 18%.  All of the exams will likely consist of both an in-class portion and a take-home portion.  The in-class portions of the midterm exams are *tentatively* scheduled for **Friday, September 29**, **Friday, October 27**, and **Friday, December 1**.  The final exam will be on **Wednesday, December 13** at 7:30-9:30AM.  Make-up exams will only be given under extreme circumstances, as judged by me.  In general, it will be best to communicate conflicts ahead of time.
 
@@ -246,7 +261,7 @@ You should *not* look to resources outside the context of this course for help. 
 ### Attendance ###
 Regular attendance is expected and is vital to success in this course, but you will not explicitly be graded on attendance.  Yet, repeated absences may impact your participation grade (see above).  Students can find more information about NAU's attendance policy on the [Academic Policies](http://nau.edu/Student-Life/Student-Handbook/Academic-Policies/) page.
 
-### Basis for  Evaluation ###
+### Basis for Evaluation ###
 In summary, your final grade will be determined by your scores in the following categories.
 
 <center>
