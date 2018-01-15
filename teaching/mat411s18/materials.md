@@ -114,10 +114,10 @@ The notes will be released incrementally. Each link below is to a PDF file. If y
     - [Grit: the power of passion and perseverance &#124; Angela Lee Duckworth](https://www.youtube.com/watch?v=H14bBuluwB8) (6:12 min)
     - [Growth Mindset Animation](https://www.youtube.com/watch?v=-_oqghnxBmY) (3:50 min)
     - [KhanAcademy interview with Carol Dweck about growth mindset](https://www.youtube.com/watch?time_continue=1&v=wh0OS4MrN3E) (3:06 min)
-    - [Make Mistakes | Michael Starbird](https://www.youtube.com/watch?v=2yYQ-1X2ocU) (2:11 min)
-    - [On being wrong | Kathryn Schulz](https://www.youtube.com/watch?v=QleRgTBMX88) (17:51 min)
+    - [Make Mistakes &#124; Michael Starbird](https://www.youtube.com/watch?v=2yYQ-1X2ocU) (2:11 min)
+    - [On being wrong &#124; Kathryn Schulz](https://www.youtube.com/watch?v=QleRgTBMX88) (17:51 min)
 
-    <!-- - [The unexpected benefit of celebrating failure | Astro Teller](https://www.youtube.com/watch?time_continue=1&v=2t13Rq4oc7A) -->
+    <!-- - [The unexpected benefit of celebrating failure &#124; Astro Teller](https://www.youtube.com/watch?time_continue=1&v=2t13Rq4oc7A) -->
 
 ## Exams ##
 Below are links to the take-home portions of each exam.
