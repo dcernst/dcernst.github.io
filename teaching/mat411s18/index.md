@@ -57,6 +57,11 @@ Welcome to the course web page for the Spring 2018 manifestation of MAT 411: Int
 ## What is This Course All About? ##
 Abstract algebra is the subject area of mathematics that studies algebraic structures, such as groups, rings, fields, modules, vector spaces, and algebras. This course is an introduction to abstract algebra. We will spend most of our time studying groups. Group theory is the study of symmetry, and is one of the most beautiful areas in all of mathematics. It arises in puzzles, visual arts, music, nature, the physical and life sciences, computer science, cryptography, and of course, throughout mathematics. This course will cover the basic concepts of group theory, and a special effort will be made to emphasize the intuition behind the concepts and motivate the subject matter.  In the last few weeks of the semester, we will also introduce rings and fields.
 
+<blockquote>
+<p>The mathematician does not study pure mathematics because it is useful; he studies it because he delights in it, and he delights in it because it is beautiful.</p>
+<footer>Henri Poincaré</footer>
+</blockquote>
+
 ## An Inquiry-Based Approach ##
 This is not a lecture-oriented class or one in which mimicking prefabricated examples will lead you to success. You will be expected to work actively to construct your own understanding of the topics at hand, with the readily available help of me and your classmates. Many of the concepts you learn and problems you work will be new to you and ask you to stretch your thinking. You will experience *frustration* and *failure* before you experience *understanding*. This is part of the normal learning process. **If you are doing things well, you should be confused at different points in the semester. The material is too rich for a human being to completely understand it immediately.** Your viability as a professional in the modern workforce depends on your ability to embrace this learning process and make it work for you.
 
@@ -81,4 +86,4 @@ In this course, *everyone* will be required to
 - participate in discussions centered around a student's presented solution/proof;
 - call upon your own prodigious mental faculties to respond in flexible, thoughtful, and creative ways to problems that may seem unfamiliar on first glance.
 
-As the semester progresses, it should become clear to you what the expectations are.  This will be new to many of you and there may be some growing pains associated with it. For more details, see the [syllabus]({{ site.baseurl }}/teaching/mat411s18/syllabus/).
+As the semester progresses, it should become clear to you what the expectations are.  For more details, see the [syllabus]({{ site.baseurl }}/teaching/mat411s18/syllabus/).
