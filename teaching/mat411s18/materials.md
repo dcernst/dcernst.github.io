@@ -111,7 +111,7 @@ The notes will be released incrementally. Each link below is to a PDF file. If y
     - [Productive Failure/Struggle BMX Video](https://www.youtube.com/watch?v=9brnDOVJWnw) (1:39 min)
     - [Michael Jordan Failure Commercial](https://www.youtube.com/watch?v=JA7G7AV-LT8) (0:32 min)
     - [Mindsets: Fixed Versus Growth](https://www.youtube.com/watch?v=M1CHPnZfFmU) (2:19 min)
-    - [Grit: the power of passion and perseverance | Angela Lee Duckworth](https://www.youtube.com/watch?v=H14bBuluwB8) (6:12 min)
+    - [Grit: the power of passion and perseverance &#124; Angela Lee Duckworth](https://www.youtube.com/watch?v=H14bBuluwB8) (6:12 min)
     - [Growth Mindset Animation](https://www.youtube.com/watch?v=-_oqghnxBmY) (3:50 min)
     - [KhanAcademy interview with Carol Dweck about growth mindset](https://www.youtube.com/watch?time_continue=1&v=wh0OS4MrN3E) (3:06 min)
     - [Make Mistakes | Michael Starbird](https://www.youtube.com/watch?v=2yYQ-1X2ocU) (2:11 min)
