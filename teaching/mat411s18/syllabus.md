@@ -108,7 +108,7 @@ In this course, *everyone* will be required to
 As the semester progresses, it should become clear to you what the expectations are.  
 
 <div class="alert alert-info" role="primary">
-<blockquote>
+<!-- <blockquote> -->
 <p>I must not fear.<br />
 Fear is the mind-killer.<br />
 Fear is the little-death that brings total obliteration.<br />
@@ -117,8 +117,8 @@ I will permit it to pass over me and through me.<br />
 And when it has gone past I will turn the inner eye to see its path.<br />
 Where the fear has gone there will be nothing.<br />
 Only I will remain.</p>
-<footer><a href="https://en.wikipedia.org/wiki/Bene_Gesserit#Litany_against_fear">Bene Gesserit litany against fear</a> from Frank Herbert's <a href="https://en.wikipedia.org/wiki/Frank_Herbert%27s_Dune">Dune</a></footer>
-</blockquote>
+<footer class="blockquote-footer"><a href="https://en.wikipedia.org/wiki/Bene_Gesserit#Litany_against_fear">Bene Gesserit litany against fear</a> from Frank Herbert's <a href="https://en.wikipedia.org/wiki/Frank_Herbert%27s_Dune">Dune</a></footer>
+<!-- </blockquote> -->
 </div>
 
 <!-- This will be new to many of you and there may be some growing pains associated with it. -->
