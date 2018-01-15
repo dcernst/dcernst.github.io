@@ -105,7 +105,27 @@ In this course, *everyone* will be required to
 - participate in discussions centered around a student's presented solution/proof;
 - call upon your own prodigious mental faculties to respond in flexible, thoughtful, and creative ways to problems that may seem unfamiliar on first glance.
 
-As the semester progresses, it should become clear to you what the expectations are.  This will be new to many of you and there may be some growing pains associated with it.
+As the semester progresses, it should become clear to you what the expectations are.  
+
+<div class="alert alert-success" role="alert">
+<i class="far fa-quote-left"></i>&nbsp;
+I must not fear.<br />
+Fear is the mind-killer.<br />
+Fear is the little-death that brings total obliteration.<br />
+I will face my fear.<br />
+I will permit it to pass over me and through me.<br />
+And when it has gone past I will turn the inner eye to see its path.<br />
+Where the fear has gone there will be nothing.<br />
+Only I will remain.<br />
+<footer><a href="https://en.wikipedia.org/wiki/Bene_Gesserit#Litany_against_fear">Bene Gesserit litany against fear</a> from Frank Herbert's <a href="https://en.wikipedia.org/wiki/Frank_Herbert%27s_Dune">Dune</a></footer>
+</div>
+
+<blockquote>
+  <p>Don’t just read it; fight it! Ask your own questions, look for your own examples, discover your own proofs. Is the hypothesis necessary? Is the converse true? What happens in the classical special case? What about the degenerate cases? Where does the proof use the hypothesis?</p>
+  <footer><a href="http://en.wikipedia.org/wiki/Paul_Halmos">Paul Halmos</a></footer>
+</blockquote>
+
+<!-- This will be new to many of you and there may be some growing pains associated with it. -->
 
 ### Course Structure and Approach ###
 Class meetings will consist of discussion of problems, student-led presentations, and group work focused on problems selected by the instructor. A typical class session may include:
