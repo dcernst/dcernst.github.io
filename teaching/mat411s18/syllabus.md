@@ -107,7 +107,7 @@ In this course, *everyone* will be required to
 
 As the semester progresses, it should become clear to you what the expectations are.  
 
-<div class="card class="card card-inverse card-primary">
+<div class="card card-inverse card-primary">
 <div class="card-block">
 <blockquote class="card-blockquote">
 <p>I must not fear.<br />
