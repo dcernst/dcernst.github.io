@@ -107,7 +107,7 @@ The notes will be released incrementally. Each link below is to a PDF file. If y
 - [Student Contract]({{ site.baseurl }}/teaching/StudentContract.pdf) (PDF)
 - [Setting the Stage]({{ site.baseurl }}/teaching/SettingTheStage.pdf) (PDF)
 - Videos on Growth Mindset and Productive Failure
-    - [Productive Failure/Struggle Skateboard Video](https://www.youtube.com/watch?time_continue=98&v=1QSocgE3yFY)
+    - [Productive Failure/Struggle Skateboard Video](https://www.youtube.com/watch?time_continue=98&v=1QSocgE3yFY) (1:46 min)
     - [Productive Failure/Struggle BMX Video](https://www.youtube.com/watch?v=9brnDOVJWnw) (1:39 min)
     - [Michael Jordan Failure Commercial](https://www.youtube.com/watch?v=JA7G7AV-LT8) (0:32 min)
     - [Mindsets: Fixed Versus Growth](https://www.youtube.com/watch?v=M1CHPnZfFmU) (2:19 min)
