@@ -80,7 +80,7 @@ Upon successful completion of the course, students will be able to do the follow
 
 <blockquote>
 <p>The mathematician does not study pure mathematics because it is useful; he studies it because he delights in it, and he delights in it because it is beautiful.</p>
-<footer>Henri Poincaré</footer>
+<footer><a href="https://en.wikipedia.org/wiki/Henri_Poincaré">Henri Poincaré</a></footer>
 </blockquote>
 
 ### Goals ###
@@ -114,7 +114,7 @@ As the semester progresses, it should become clear to you what the expectations 
 
 <blockquote>
 <p>Don’t fear failure.  Not failure, but low aim, is the crime. In great attempts it is glorious even to fail.</p>
-<footer>Bruce Lee</footer>
+<footer><a href="https://en.wikipedia.org/wiki/Bruce_Lee">Bruce Lee</a></footer>
 </blockquote>
 
 ### Course Structure and Approach ###
@@ -156,7 +156,7 @@ The Daily Homework will generally consist of completing exercises and proving th
 
 On the day that a homework assignment is due, the majority of the class period will be devoted to students presenting some subset (maybe all) of the proofs/solutions that are due that day.  At the end of each class session, students should submit their write-ups for all of the proofs that were due that day.  Daily Homework will be graded using a $\checkmark$-system.  Students are allowed (in fact, encouraged!) to modify their written proofs in light of presentations made in class; however, **you are required to use the colored marker pens provided in class**.  This will allow me to differentiate the work done in class versus the work you completed before class.  The grade you receive on an assignment will be determined by the work you completed prior to class.  I will provide more guidance with respect to this during the first couple weeks of the semester.
 
-**Weekly Homework:** In addition to the Daily Homework, we will also have Weekly Homework assignments.  For most of these assignments, you will be required to submit 2 formally written proofs.  Typically, these problems will come directly from the Daily Homework assigned the previous week.  You will be required to type your submission using $\LaTeX$. I will walk you through how to do this.  You can either submit a hardcopy of your assignment or email me the PDF of your completed work. If you email me the PDF, please name your file as <code>WeeklyX-Lastname.pdf</code>, where <code>X</code> is the number of the assignment and <code>Lastname</code> is your last name.  Notice there are no spaces in the filename. Each problem on the Weekly Homework assignments is subject to the following rubric:
+**Weekly Homework:** In addition to the Daily Homework, we will also have Weekly Homework assignments.  For most of these assignments, you will be required to submit 2 formally written proofs.  Typically, these problems will come directly from the Daily Homework assigned the previous week.  You will be required to type your submission using $\LaTeX$. I will walk you through how to do this.  You can either submit a hardcopy of your assignment or email me the PDF of your completed work. If you email me the PDF, please name your file as <code>WeeklyX-LastName.pdf</code>, where <code>X</code> is the number of the assignment and <code>LastName</code> is your last name.  Notice there are no spaces in the filename. Each problem on the Weekly Homework assignments is subject to the following rubric:
 
 <center>
 <table class="table table-striped">

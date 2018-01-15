@@ -59,7 +59,7 @@ Abstract algebra is the subject area of mathematics that studies algebraic struc
 
 <blockquote>
 <p>The mathematician does not study pure mathematics because it is useful; he studies it because he delights in it, and he delights in it because it is beautiful.</p>
-<footer>Henri Poincaré</footer>
+<footer><a href="https://en.wikipedia.org/wiki/Henri_Poincaré">Henri Poincaré</a></footer>
 </blockquote>
 
 ## An Inquiry-Based Approach ##
@@ -87,3 +87,8 @@ In this course, *everyone* will be required to
 - call upon your own prodigious mental faculties to respond in flexible, thoughtful, and creative ways to problems that may seem unfamiliar on first glance.
 
 As the semester progresses, it should become clear to you what the expectations are.  For more details, see the [syllabus]({{ site.baseurl }}/teaching/mat411s18/syllabus/).
+
+<blockquote>
+<p>Don’t fear failure.  Not failure, but low aim, is the crime. In great attempts it is glorious even to fail.</p>
+<footer><a href="https://en.wikipedia.org/wiki/Bruce_Lee">Bruce Lee</a></footer>
+</blockquote>
