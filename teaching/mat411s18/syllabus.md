@@ -123,6 +123,15 @@ Only I will remain.</p>
 </div>
 </div>
 
+<div class="card card-inverse card-primary mb-3 text-center">
+  <div class="card-block">
+    <blockquote class="card-blockquote">
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+      <footer>Someone famous in <cite title="Source Title">Source Title</cite></footer>
+    </blockquote>
+  </div>
+</div>
+
 <!-- This will be new to many of you and there may be some growing pains associated with it. -->
 
 ### Course Structure and Approach ###
