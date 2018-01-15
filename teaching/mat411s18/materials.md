@@ -35,6 +35,7 @@ We will not be using a textbook this semester, but rather a task-sequence adopte
 </div>
 
 <!-- - [An Inquiry-Based Approach to Abstract Algebra]({{site.baseurl}}/teaching/mat411s18/IBL-AbstractAlgebra.pdf) (complete set of notes) -->
+
 - [Title Page]({{site.baseurl}}/teaching/mat411s18/TitlePage.pdf)
 - [Chapter 1: Introduction]({{site.baseurl}}/teaching/mat411s18/Introduction.pdf)
     - 1.1 What is Abstract Algebra?
@@ -42,7 +43,19 @@ We will not be using a textbook this semester, but rather a task-sequence adopte
     - 1.3 Rules of the Game
     - 1.4 Structure of the Notes
     - 1.5 Some Minimal Guidance
-<!-- - [Chapter 2: An Intuitive Approach to Groups]({{site.baseurl}}/teaching/mat411s18/IntuitiveGroups.pdf)
+- [Chapter 2: An Introduction to Groups]({{site.baseurl}}/teaching/mat411s18/IntroGroups.pdf) (under construction)
+    - 2.1 A First Example
+    - 2.2 Binary Operations
+    - 2.3 Groups
+    - 2.4 Generating Sets
+    - More coming soon...
+- [Appendix A: Elements of Style for Proofs]({{site.baseurl}}/teaching/mat411s18/ElementsOfStyle.pdf)
+- [Appendix B: Fancy Mathematical Terms]({{site.baseurl}}/teaching/mat411s18/FancyMathematicalTerms.pdf)
+- [Appendix C: Definitions in Mathematics]({{site.baseurl}}/teaching/mat411s18/Definitions.pdf)
+
+
+<!--
+- [Chapter 2: An Intuitive Approach to Groups]({{site.baseurl}}/teaching/mat411s18/IntuitiveGroups.pdf)
 - [Chapter 3: Cayley Diagrams]({{site.baseurl}}/teaching/mat411s18/CayleyDiagrams.pdf)
 - [Chapter 4: An Introduction to Subgroups and Isomorphisms]({{site.baseurl}}/teaching/mat411s18/IntroSubgroupsIsomorphisms.pdf)
     - 4.1 Subgroups
@@ -80,9 +93,7 @@ We will not be using a textbook this semester, but rather a task-sequence adopte
     - A.3 Partitions
     - A.4 Functions
     - A.5 Induction -->
-- [Appendix A: Elements of Style for Proofs]({{site.baseurl}}/teaching/mat411s18/ElementsOfStyle.pdf)
-- [Appendix B: Fancy Mathematical Terms]({{site.baseurl}}/teaching/mat411s18/FancyMathematicalTerms.pdf)
-- [Appendix C: Definitions in Mathematics]({{site.baseurl}}/teaching/mat411s18/Definitions.pdf)
+
 
 I will not be covering every detail of the notes and the only way to achieve a sufficient understanding of the material is to be digesting the reading in a meaningful way.  You should be seeking clarification about the content of the notes whenever necessary by asking questions.  Here's one of my favorite quotes about reading mathematics.
 
