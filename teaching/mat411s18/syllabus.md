@@ -277,7 +277,7 @@ If you are chosen to present but would prefer not to present that particular pro
 	<tbody>
 	<tr>
 		<td style="text-align: center;">V</td>
-		<td><b>Volunteer</b>. Student volunteered during class or in advance to present.</td>
+		<td><b>Volunteered</b>. Student volunteered during class or in advance to present.</td>
 	</tr>
 	<tr>
 		<td style="text-align: center;">C</td>
