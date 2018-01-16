@@ -111,13 +111,14 @@ The notes will be released incrementally. Each link below is to a PDF file. If y
     - [Productive Failure/Struggle BMX Video](https://www.youtube.com/watch?v=9brnDOVJWnw) (1:39 min)
     - [Michael Jordan Failure Commercial](https://www.youtube.com/watch?v=JA7G7AV-LT8) (0:32 min)
     - [Mindsets: Fixed Versus Growth](https://www.youtube.com/watch?v=M1CHPnZfFmU) (2:19 min)
-    - [Grit: the power of passion and perseverance &#124; Angela Lee Duckworth](https://www.youtube.com/watch?v=H14bBuluwB8) (6:12 min)
     - [Growth Mindset Animation](https://www.youtube.com/watch?v=-_oqghnxBmY) (3:50 min)
+    - [Grit: the power of passion and perseverance &#124; Angela Lee Duckworth](https://www.youtube.com/watch?v=H14bBuluwB8) (6:12 min)
     - [KhanAcademy interview with Carol Dweck about growth mindset](https://www.youtube.com/watch?time_continue=1&v=wh0OS4MrN3E) (3:06 min)
     - [Make Mistakes &#124; Michael Starbird](https://www.youtube.com/watch?v=2yYQ-1X2ocU) (2:11 min)
-    - [On being wrong &#124; Kathryn Schulz](https://www.youtube.com/watch?v=QleRgTBMX88) (17:51 min)
 
-    <!-- - [The unexpected benefit of celebrating failure &#124; Astro Teller](https://www.youtube.com/watch?time_continue=1&v=2t13Rq4oc7A) -->
+<!--
+    - [On being wrong &#124; Kathryn Schulz](https://www.youtube.com/watch?v=QleRgTBMX88) (17:51 min)
+    - [The unexpected benefit of celebrating failure &#124; Astro Teller](https://www.youtube.com/watch?time_continue=1&v=2t13Rq4oc7A) -->
 
 ## Exams ##
 Below are links to the take-home portions of each exam.
