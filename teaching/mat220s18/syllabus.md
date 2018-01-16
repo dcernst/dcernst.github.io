@@ -329,8 +329,8 @@ Students are also expected to minimize distracting behaviors.  In particular, ev
 Here are some important dates:
 
 - **Monday, January 15:** Martin Luther King Jr. Day (no classes)
-- **???:** Last day to Drop/Delete a class (without class appearing on students' transcripts)
-- **???:** Course withdrawal deadline
+- **Thursday, January 25:** Last day to Drop/Delete a class (without class appearing on students' transcripts)
+- **Monday, March 26:** Course withdrawal deadline
 - **Monday, March 19-Friday, March 23:** Spring Break (no classes)
 - **Wednesday, May 9:** Final Exam
 

@@ -129,7 +129,7 @@ Class meetings will consist of discussion of problems, student-led presentations
 
 <blockquote>
 <p>The impediment to action advances action. What stands in the way becomes the way.</p>
-<footer>Marcus Aurelius</footer>
+<footer><a href="https://en.wikipedia.org/wiki/Marcus_Aurelius">Marcus Aurelius</a></footer>
 </blockquote>
 
 ### Textbook ###
@@ -287,17 +287,17 @@ In summary, your final grade will be determined by your scores in the following 
 	<tr>
 		<td>Exam 1</td>
 		<td>18%</td>
-		<td>???</td>
+		<td>Friday, February 9</td>
 	</tr>
   <tr>
     <td>Exam 2</td>
     <td>18%</td>
-    <td>???</td>
+    <td>Friday, March 9</td>
   </tr>
   <tr>
     <td>Exam 3</td>
     <td>18%</td>
-    <td>???</td>
+    <td>Friday, April 13</td>
   </tr>
 	<tr>
 		<td>Final Exam</td>
@@ -329,8 +329,8 @@ Students are also expected to minimize distracting behaviors.  In particular, ev
 Here are some important dates:
 
 - **Monday, January 15:** Martin Luther King Jr. Day (no classes)
-- **???:** Last day to Drop/Delete a class (without class appearing on students' transcripts)
-- **???:** Course withdrawal deadline
+- **Thursday, January 25:** Last day to Drop/Delete a class (without class appearing on students' transcripts)
+- **Monday, March 26:** Course withdrawal deadline
 - **Monday, March 19-Friday, March 23:** Spring Break (no classes)
 - **Wednesday, May 9:** Final Exam
 
