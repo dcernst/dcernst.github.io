@@ -330,7 +330,7 @@ Your Presentation and Participation grade is determined by your frequencey and a
 <table class="table table-striped">
 	<thead>
 	<tr>
-		<th style="text-align: center;">Grade Range</th>
+		<th style="text-align: center;">Grade&nbsp;Range</th>
 		<th>Criteria</th>
 	</tr>
 	</thead>
