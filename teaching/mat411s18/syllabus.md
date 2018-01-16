@@ -433,39 +433,39 @@ In summary, your final grade will be determined by your scores in the following 
 	<thead>
 	<tr>
 		<th>Category</th>
-		<th>Weight</th>
+		<th style="text-align: center;">Weight</th>
 		<th>Notes </th>
 	</tr>
 	</thead>
 	<tbody>
 	<tr>
 		<td>Homework</td>
-		<td>14%</td>
+		<td style="text-align: center;">14%</td>
 		<td>A combination of Daily &amp; Weekly Homework</td>
 	</tr>
   <tr>
 		<td>Presentations &amp; Participation</td>
-		<td>14%</td>
+		<td style="text-align: center;">14%</td>
 		<td>See above for requirements</td>
 	</tr>
 	<tr>
 		<td>Exam 1</td>
-		<td>18%</td>
+		<td style="text-align: center;">18%</td>
 		<td>Friday, February 9</td>
 	</tr>
   <tr>
     <td>Exam 2</td>
-    <td>18%</td>
+    <td style="text-align: center;">18%</td>
     <td>Friday, March 9</td>
   </tr>
   <tr>
     <td>Exam 3</td>
-    <td>18%</td>
+    <td style="text-align: center;">18%</td>
     <td>Friday, April 13</td>
   </tr>
 	<tr>
 		<td>Final Exam</td>
-		<td>18%</td>
+		<td style="text-align: center;">18%</td>
 		<td>Wednesday, May 9 at 10:00AM-12:00PM</td>
 	</tr>
 	</tbody>
