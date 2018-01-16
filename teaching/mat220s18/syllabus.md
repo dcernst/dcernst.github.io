@@ -214,15 +214,15 @@ In general, I will curate the list of student presenters each class meeting.  Ho
 In order to receive a **passing grade** on the presentation portion of your grade, you must present **at least 6 times during the semester** and **at least once every 3 weeks**. Notice that I've described a minimum.  To ensure a good grade, you should present as often as you can. Your overall performance during presentations, as well as your level of interaction/participation during class, is worth 10% of your overall grade.
 
 ### Quizzes and Final Exam ###
-We will have 7 quizzes this semester. Tentatively, the quizzes are scheduled for the following dates:
+We will have 7 quizzes this semester. Tentatively, the quizzes are scheduled for the following Fridays:
 
-- Quiz 1: ???
-- Quiz 2: ???
-- Quiz 3: ???
-- Quiz 4: ???
-- Quiz 5: ???
-- Quiz 6: ???
-- Quiz 7: ???
+- Quiz 1: January 26
+- Quiz 2: February 9
+- Quiz 3: February 23
+- Quiz 4: March 9
+- Quiz 5: March 30
+- Quiz 6: April 13
+- Quiz 7: April 27
 
 Each quiz will consist of a mixture of homework problems you encountered during the previous two weeks and new problems not previously attempted.   Each problem will be graded using the following rubric:
 
@@ -236,20 +236,20 @@ Each quiz will consist of a mixture of homework problems you encountered during 
 	</thead>
 	<tbody>
 	<tr>
-		<td style="text-align: center;">8</td>
+		<td style="text-align: center;">4</td>
 		<td>This is correct and well-written mathematics!</td>
 	</tr>
 	<tr>
-		<td style="text-align: center;">6-7</td>
+		<td style="text-align: center;">3</td>
 		<td>This is a good piece of work, yet there are some mathematical errors or some writing errors that need addressing.</td>
 	</tr>
 	<tr>
-		<td style="text-align: center;">4-5</td>
+		<td style="text-align: center;">2</td>
 		<td>There is some good intuition here, but there is at least one serious flaw. </td>
 	</tr>
 	<tr>
-		<td style="text-align: center;">1-3</td>
-		<td>I don't understand this, but I see that you have worked on it</td>
+		<td style="text-align: center;">1</td>
+		<td>I don't understand this, but I see that you have worked on it.</td>
 	</tr>
 	<tr>
 		<td style="text-align: center;">0</td>
@@ -341,5 +341,5 @@ There are many resources available to get help.  First, I recommend that you wor
 Any changes to this syllabus made during the term will be properly communicated to the class.
 
 <div class="alert alert-info" role="alert">
-<i class="far fa-hand-peace"></i>&nbsp; Portions of "Goals" and "Class Presentations and Participation" are adapted from <a href="http://www2.kenyon.edu/Depts/Math/schumacherc/public_html/" class="alert-link">Carol Schumacher's</a> <i>Chapter Zero Instructor Resource Manual</i>. The first paragraph of "An Inquiry-Based Approach" is borrowed from <a href="https://gist.github.com/RobertTalbert/7854aadbdfca232dbdda" class="alert-link">Robert Talbert</a>. The "Rights of the Learner" were adapted from a similar list written by <a href="https://embracinglifewithmajorrevisions.wordpress.com/2017/07/12/rights-of-the-learner-an-introduction/" class="alert-link">Crystal Kalinec Craig</a>. The first paragraph of "Class Etiquette" is a modified version of statement that <a href="http://www.unco.edu/nhs/mathematical-sciences/faculty/bagley.aspx" class="alert-link">Spencer Bagley</a> has in his syllabi. Lastly, I've borrowed a few phrases here and there from <a href="http://www.users.csbsju.edu/~bbenesh/" class="alert-link">Bret Benesh</a>.
+<i class="far fa-hand-peace"></i>&nbsp; Portions of "Goals" and "Class Presentations and Participation" are adapted from <a href="http://www2.kenyon.edu/Depts/Math/schumacherc/public_html/" class="alert-link">Carol Schumacher's</a> <i>Chapter Zero Instructor Resource Manual</i>. The first paragraph of "An Inquiry-Based Approach" is borrowed from <a href="https://gist.github.com/RobertTalbert/7854aadbdfca232dbdda" class="alert-link">Robert Talbert</a>. The "Rights of the Learner" were adapted from a similar list written by <a href="https://embracinglifewithmajorrevisions.wordpress.com/2017/07/12/rights-of-the-learner-an-introduction/" class="alert-link">Crystal Kalinec-Craig</a>. The first paragraph of "Class Etiquette" is a modified version of statement that <a href="http://www.unco.edu/nhs/mathematical-sciences/faculty/bagley.aspx" class="alert-link">Spencer Bagley</a> has in his syllabi. Lastly, I've borrowed a few phrases here and there from <a href="http://www.users.csbsju.edu/~bbenesh/" class="alert-link">Bret Benesh</a>.
 </div>
