@@ -240,25 +240,25 @@ Presentations will be assessed using the following criteria.
 	<tbody>
 	<tr>
 		<td style="text-align: center;">U</td>
-		<td><b>Unsatisfactory</b>. Minimal progress was made that included relevant information. Alternatively, the student was unprepared.</td>
+		<td><b>Unsatisfactory</b>. Minimal progress was made that included relevant information or the student was unprepared.</td>
 	</tr>
 	<tr>
 		<td style="text-align: center;">I</td>
 		<td><b>In progress</b>. The student made an honest attempt at the problem but recognized a flaw that prevented them from being able to complete the problem during the presentation. Alternatively, the student reported on their current progress on a problem and attempted to convey where or why they are currently "stuck".</td>
 	</tr>
 	<tr>
-		<td style="text-align: center;">S</td>
-		<td><b>Satisfactory</b>. The student demonstrated an understanding of the problem and presented the key ideas. Perhaps some details were omitted or interesting mistakes were made. The presentation led to fruitful class discussion.</td>
+		<td style="text-align: center;">M</td>
+		<td><b>Meets Expectations</b>. The student demonstrated an understanding of the problem and presented the key ideas. Perhaps some details were omitted or interesting mistakes were made. The presentation led to fruitful class discussion.</td>
 	</tr>
 	<tr>
 		<td style="text-align: center;">E</td>
-		<td><b>Exceptional</b>. The presentation was flawless and the student demonstrated keen insight into the problem.</td>
+		<td><b>Exceeds Expectations</b>. The presentation was flawless and the student demonstrated keen insight into the problem. The presentation led to fruitful class discussion.</td>
 	</tr>
 	</tbody>
 </table>
 </center>
 
-You should aim to avoid unsatisfactory (U) presentations. An in progress (I) presentation should not be viewed as a bad thing as each of us will occasionally get stuck. However, you should strive for the majority of your presentations to be satisfactory (S) or exceptional (E).  Most presentations will be satisfactory (S) while exceptional (E) presentations will be rare. You should not let the rubric deter you from presenting if you have an idea about a solution/proof that you'd like to present, but you are worried that your solution/proof is incomplete or you are not confident your solution/proof is correct.  You will be rewarded for being courageous and sharing your creative ideas!  In my view, an interestingly wrong solution or proof makes for the best presentation since it generates the best discussion. This is really what we are after. However, you should not come to the board to present unless you have spent time thinking about the problem and have something meaningful to contribute. I will provide a progress report concerning each student's presentation history after each of the midterm exams.
+You should aim to avoid unsatisfactory (U) presentations. An in progress (I) presentation should not be viewed as a bad thing as each of us will occasionally get stuck. However, you should strive for the majority of your presentations to meet (M) or exceed (E) expectations.  Most presentations will meet expectations (M) while presentations that exceed expectations (E) will be rare. You should not let the rubric deter you from presenting if you have an idea about a solution/proof that you'd like to present but are worried that your solution/proof is incomplete or you are not confident your solution/proof is correct.  You will be rewarded for being courageous and sharing your creative ideas!  In my view, an interestingly wrong solution or proof makes for the best presentation since it generates the best discussion. This is really what we are after. On the other hand, you should not come to the board to present unless you have spent time thinking about the problem and have something meaningful to contribute. I will provide a progress report concerning each student's presentation history after each of the midterm exams.
 
 #### Selecting Presenters
 
@@ -291,7 +291,7 @@ If you are chosen to present but would prefer not to present that particular pro
 </table>
 </center>
 
-In summary, for each student presentation, I will record one of V, C, or P. In the case of V or C, I will also record one of U, I, S, or E based on the rubric given above. The most common pair will likely be C,S.
+In summary, for each student presentation, I will record one of V, C, or P. In the case of V or C, I will also record one of U, I, M, or E based on the rubric given above. The most common pair will likely be CM (i.e., students was chosen to present and presentation meets expectations).
 
 #### Participation
 
@@ -311,12 +311,12 @@ You expected to respectfully particpate and contribute to class discussions. Thi
 		<td><b>Unsatisfactory</b>. Student was often disengaged or disrespectful. Alternatively, the student regularly missed class.</td>
 	</tr>
 	<tr>
-		<td style="text-align: center;">S</td>
-		<td><b>Satisfactory</b>. Student was respectful, engaged, and contributed to meaningful class discussions. In addition, the student regularly attends class.</td>
+		<td style="text-align: center;">E</td>
+		<td><b>Meets Expectations</b>. Student was consistently respectful, engaged, and contributed to meaningful class discussions. In addition, the student regularly attends class.</td>
 	</tr>
 	<tr>
 		<td style="text-align: center;">E</td>
-		<td><b>Exceptional</b>. Student's presence in the classroom truly enhances the learning environment.</td>
+		<td><b>Exceeds Expectations</b>. Student's presence in the classroom truly enhances the learning environment.</td>
 	</tr>
 	</tbody>
 </table>
