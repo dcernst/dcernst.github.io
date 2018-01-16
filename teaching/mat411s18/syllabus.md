@@ -132,6 +132,19 @@ Class meetings will consist of discussion of problems, student-led presentations
 <footer><a href="https://en.wikipedia.org/wiki/Marcus_Aurelius">Marcus Aurelius</a></footer>
 </blockquote>
 
+### Rights of the Learner ##
+As a student in this class, you have the right:
+
+1. to be confused,
+2. to make a mistake and to revise your thinking,
+3. to speak, listen, and be heard, and
+4. to enjoy doing mathematics.
+
+### Commitment to the Learning Community ###
+In our classroom, diversity and individual differences are respected, appreciated, and recognized as a source of strength. Students in this class are encouraged and expected to speak up and participate during class and to carefully and respectfully listen to each other. Every member of this class *must* show respect for every other member of this class. Any attitudes or actions that are destructive to the sense of community that we strive to create are not welcome and will not be tolerated. In summary: Be good to each other.
+
+Students are also expected to minimize distracting behaviors.  In particular, every attempt should be made to arrive to class on time.  If you must arrive late or leave early, please do not disrupt class. Please turn off the ringer on your cell phone.  I do not have a strict policy on the use of laptops, tablets, and cell phones.  You are expected to be paying attention and engaging in class discussions.  If your cell phone, etc. is interfering with your ability (or that of another student) to do this, then put it away, or I will ask you to put it away.
+
 ### Textbook ###
 Our textbook for the semester is <i>An Inquiry-Based Approach to Abstract Algebra</i>, which is a free and open-source textbook that written by me ([Dana C. Ernst](http://danaernst.com)). The textbook is designed to used with an [inquiry-based learning](http://maamathedmatters.blogspot.com/2013/05/what-heck-is-ibl.html) (IBL) approach to a first-semester undergraduate abstract algebra course. While the textbook covers many of the standard topics, the focus is on building intuition and emphasizes visualization. The textbook is available [here]({{site.baseurl}}/teaching/mat411s18/materials/).
 
@@ -145,18 +158,28 @@ I will not be covering every detail of the notes and the only way to achieve a s
 ### Learning Management System ###
 We will make limited use of BbLearn this semester, which is Northern Arizona University's default learning management system (LMS).  Most course content (e.g., syllabus, course notes, homework, etc.) will be housed here on our [course webpage]({{site.baseurl}}/teaching/mat411s18/) that lives outside of BbLearn.  I suggest you bookmark this page.  The only thing I will use BbLearn for is to occasionally communicate grades.
 
+### Rules of the Game ###
+You should *not* look to resources outside the context of this course for help.  That is, you should not be consulting the web, other texts, other faculty, or students outside of our course.  On the other hand, you may use each other, the course notes, me, and your own intuition. However, please know that if you feel you need additional resources, please come talk to me and we will come up with an appropriate plan of action.
+
+### Exams ###
+There will be three midterm exams and a cumulative final exam.  Each exam will be worth 18% of your overall grade.  Moreover, each exam will consist of an in-class portion (weighted 70%) and a take-home portion (weighted 30%).  The in-class portions of the midterm exams are *tentatively* scheduled for **Friday, February 9**, **Friday, March 9**, and **Friday, April 13**.  The take-home portions of midterm exams will typically be due the following Wednesday.  The final exam is schedule for **Wednesday, May 9** at 10:00AM-12:00PM.  Make-up exams will only be given under extreme circumstances, as judged by me.  In general, it will be best to communicate conflicts ahead of time.
+
 ### Homework ###
+
+#### General Comments
 You are allowed and encouraged to work together on homework.  However, each student is expected to turn in his or her own work.  In general, late homework will *not* be accepted.  However, you are allowed to turn in three late homework assignments with no questions asked. Unless you have made arrangements in advance with me, homework turned in after class will be considered late. When doing your homework, I encourage you to use the Elements of Style for Proofs (see Appendix B of the [course notes]({{site.baseurl}}/teaching/mat411s18/materials/) as a reference. Your overall homework grade will be worth 14% of your final grade.
 
 On each homework assignment, please write (i) your name, (ii) name of course, and (iii) Daily/Weekly Homework number.  You can find the list of assignments on the [homework page]({{site.baseurl}}/teaching/mat411s18/homework/).  I reserve the right to modify the homework assignments as I see necessary.
 
-**Daily Homework:** Homework will be assigned each class meeting, and students are expected to complete (or try their best to complete) each assignment before walking into the next class period. All assignments should be *carefully*, *clearly*, and *cleanly* written. Among other things, this means your work should include proper grammar, punctuation, and spelling. You should write a draft of a given solution before you write down the final argument, so do yourself a favor and get in the habit of differentiating your scratch work from your submitted assignment.
+#### Daily Homework
+Homework will be assigned each class meeting, and students are expected to complete (or try their best to complete) each assignment before walking into the next class period. All assignments should be *carefully*, *clearly*, and *cleanly* written. Among other things, this means your work should include proper grammar, punctuation, and spelling. You should write a draft of a given solution before you write down the final argument, so do yourself a favor and get in the habit of differentiating your scratch work from your submitted assignment.
 
 The Daily Homework will generally consist of completing exercises and proving theorems from the [course notes]({{site.baseurl}}/teaching/mat411s18/materials/).  In addition to completing the assigned problems, I also want you to assess your own work.  Next to each problem, I want you to write down a score between 0 and 4 that represents your perception of the validity and quality of your proposed solution/proof. Consider using the rubric given below in the description of the Weekly Homework assignments.  Not completing the self-assessment step will impact the score on your homework.
 
 On the day that a homework assignment is due, the majority of the class period will be devoted to students presenting some subset (maybe all) of the proofs/solutions that are due that day.  At the end of each class session, students should submit their write-ups for all of the proofs that were due that day.  Daily Homework will be graded using a $\checkmark$-system.  Students are allowed (in fact, encouraged!) to modify their written proofs in light of presentations made in class; however, **you are required to use the colored marker pens provided in class**.  This will allow me to differentiate the work done in class versus the work you completed before class.  The grade you receive on an assignment will be determined by the work you completed prior to class.  I will provide more guidance with respect to this during the first couple weeks of the semester.
 
-**Weekly Homework:** In addition to the Daily Homework, we will also have Weekly Homework assignments.  For most of these assignments, you will be required to submit 2 formally written proofs.  Typically, these problems will come directly from the Daily Homework assigned the previous week.  You will be required to type your submission using $\LaTeX$. I will walk you through how to do this.  You can either submit a hardcopy of your assignment or email me the PDF of your completed work. If you email me the PDF, please name your file as <code>WeeklyX-LastName.pdf</code>, where <code>X</code> is the number of the assignment and <code>LastName</code> is your last name.  Notice there are no spaces in the filename. Each problem on the Weekly Homework assignments is subject to the following rubric:
+#### Weekly Homework
+In addition to the Daily Homework, we will also have Weekly Homework assignments.  For most of these assignments, you will be required to submit 2 formally written proofs.  Typically, these problems will come directly from the Daily Homework assigned the previous week.  You will be required to type your submission using $\LaTeX$. I will walk you through how to do this.  You can either submit a hardcopy of your assignment or email me the PDF of your completed work. If you email me the PDF, please name your file as <code>WeeklyX-LastName.pdf</code>, where <code>X</code> is the number of the assignment and <code>LastName</code> is your last name.  Notice there are no spaces in the filename. Each problem on the Weekly Homework assignments is subject to the following rubric:
 
 <center>
 <table class="table table-striped">
@@ -204,12 +227,7 @@ The problems chosen for presentations will come from the Daily Homework assignme
 
 #### Assessing Presentations
 
-Presentations will be assessed using the following rubric.
-
-- U: Unsatisfactory. Minimal progress was made that included relevant information. Alternatively, the student was unprepared.
-- I: Incomplete or in progress. The student made an honest attempt at the problem but recognized a flaw that prevented them from being able to complete the problem during the presentation. Alternatively, the student reported on their current progress on a problem and attempted to convey where or why they are currently "stuck".
-- S: Satisfactory. The student demonstrated an understanding of the problem and presented the key ideas. Perhaps some details were omitted or interesting mistakes were made. The presentation led to fruitful class discussion.
-- E: Exceptional. The presentation was flawless and the student demonstrated keen insight into the problem.
+Presentations will be assessed using the following criteria.
 
 <center>
 <table class="table table-striped">
@@ -222,19 +240,19 @@ Presentations will be assessed using the following rubric.
 	<tbody>
 	<tr>
 		<td style="text-align: center;">U</td>
-		<td><i>Unsatisfactory</i>. Minimal progress was made that included relevant information. Alternatively, the student was unprepared.</td>
+		<td><b>Unsatisfactory</b>. Minimal progress was made that included relevant information. Alternatively, the student was unprepared.</td>
 	</tr>
 	<tr>
 		<td style="text-align: center;">I</td>
-		<td>Incomplete or in progress. The student made an honest attempt at the problem but recognized a flaw that prevented them from being able to complete the problem during the presentation. Alternatively, the student reported on their current progress on a problem and attempted to convey where or why they are currently "stuck".</td>
+		<td><b>Incomplete</b> or <b>In progress</b>. The student made an honest attempt at the problem but recognized a flaw that prevented them from being able to complete the problem during the presentation. Alternatively, the student reported on their current progress on a problem and attempted to convey where or why they are currently "stuck".</td>
 	</tr>
 	<tr>
 		<td style="text-align: center;">S</td>
-		<td><i>Satisfactory</i>. The student demonstrated an understanding of the problem and presented the key ideas. Perhaps some details were omitted or interesting mistakes were made. The presentation led to fruitful class discussion.</td>
+		<td><b>Satisfactory</b>. The student demonstrated an understanding of the problem and presented the key ideas. Perhaps some details were omitted or interesting mistakes were made. The presentation led to fruitful class discussion.</td>
 	</tr>
 	<tr>
 		<td style="text-align: center;">E</td>
-		<td><i>Exceptional</i>. The presentation was flawless and the student demonstrated keen insight into the problem.</td>
+		<td><b>Exceptional</b>. The presentation was flawless and the student demonstrated keen insight into the problem.</td>
 	</tr>
 	</tbody>
 </table>
@@ -248,21 +266,61 @@ In general, I will curate the list of student presenters each class meeting.  A 
 
 If you are chosen to present but would prefer not to present that particular problem, you can either negotiate presenting a different problem or take a pass (P). You may elect to pass at most three times during the semester, after which a presentation will be be deemed unsatisfactory (U). By default, if you have an unexcused absence on a day when you have been chosen to present, then your presentation will be recorded as a pass (P) unless you have already exhausted your three passes, in which case the presentation will be recorded as unsatisfactory (U).
 
-In summary:
+<center>
+<table class="table table-striped">
+	<thead>
+	<tr>
+		<th style="text-align: center;">Specification</th>
+		<th>Criteria</th>
+	</tr>
+	</thead>
+	<tbody>
+	<tr>
+		<td style="text-align: center;">V</td>
+		<td><b>Volunteer</b>. Student volunteered during class or in advance to present.</td>
+	</tr>
+	<tr>
+		<td style="text-align: center;">C</td>
+		<td><b>Chosen</b>. Student was selected by the instructor and agreed to present.</td>
+	</tr>
+	<tr>
+		<td style="text-align: center;">P</td>
+		<td><b>Pass</b>. Student was selected to present, but asked to take a pass. Allowed at most three.</td>
+	</tr>
+	</tbody>
+</table>
+</center>
 
-- V: Volunteer. Student volunteered during class or in advance to present.
-- C: Chosen. Student was selected by the instructor and agreed to present.
-- P: Pass. Student was selected to present, but asked to take a pass. Allowed at most three.
-
-For each student presentation, I will record one of V, C, or P. In the case of V or C, I will also record one of U, I, S, or E based on the rubric given above. The most common pair will likely be C,S.
+In summary, for each student presentation, I will record one of V, C, or P. In the case of V or C, I will also record one of U, I, S, or E based on the rubric given above. The most common pair will likely be C,S.
 
 #### Participation
 
-You expected to respectfully particpate and contribute to class discussions. This includes asking relevant and meaningful questions to both the instructor and your peers. Moreover, you are expected to be engaged and respectful during another student's presentation. Your class participation will be assessed as follows:
+You expected to respectfully particpate and contribute to class discussions. This includes asking relevant and meaningful questions to both the instructor and your peers. Moreover, you are expected to be engaged and respectful during another student's presentation. Your class participation will be assessed as follows.
 
-- U: Unsatisfactory. Student was often disengaged or disrespectful. Alternatively, the student regularly missed class.
-- S: Satisfactory. Student was respectful, engaged, and contributed to meaningful class discussions. In addition, the student regularly attends class.
-- E: Exceptional. Student's presence in the classroom truly enhances the learning environment.
+<center>
+<table class="table table-striped">
+	<thead>
+	<tr>
+		<th style="text-align: center;">Specification</th>
+		<th>Criteria</th>
+	</tr>
+	</thead>
+	<tbody>
+	<tr>
+		<td style="text-align: center;">U</td>
+		<td><b>Unsatisfactory</b>. Student was often disengaged or disrespectful. Alternatively, the student regularly missed class.</td>
+	</tr>
+	<tr>
+		<td style="text-align: center;">S</td>
+		<td><b>Satisfactory</b>. Student was respectful, engaged, and contributed to meaningful class discussions. In addition, the student regularly attends class.</td>
+	</tr>
+	<tr>
+		<td style="text-align: center;">E</td>
+		<td><b>Exceptional</b>. Student's presence in the classroom truly enhances the learning environment.</td>
+	</tr>
+	</tbody>
+</table>
+</center>
 
 #### Assessing Presentation and Participation Grades
 
@@ -364,12 +422,6 @@ Only I will remain.</p>
 <footer class="blockquote-footer"><a href="https://en.wikipedia.org/wiki/Bene_Gesserit#Litany_against_fear">Bene Gesserit litany against fear</a> from Frank Herbert's <a href="https://en.wikipedia.org/wiki/Frank_Herbert%27s_Dune">Dune</a></footer>
 </blockquote>
 
-### Exams ###
-There will be three midterm exams and a cumulative final exam.  Each exam will be worth 18% of your overall grade.  Moreover, each exam will consist of an in-class portion (weighted 70%) and a take-home portion (weighted 30%).  The in-class portions of the midterm exams are *tentatively* scheduled for **Friday, February 9**, **Friday, March 9**, and **Friday, April 13**.  The take-home portions of midterm exams will typically be due the following Wednesday.  The final exam is schedule for **Wednesday, May 9** at 10:00AM-12:00PM.  Make-up exams will only be given under extreme circumstances, as judged by me.  In general, it will be best to communicate conflicts ahead of time.
-
-### Rules of the Game ###
-You should *not* look to resources outside the context of this course for help.  That is, you should not be consulting the web, other texts, other faculty, or students outside of our course.  On the other hand, you may use each other, the course notes, me, and your own intuition.
-
 ### Attendance ###
 Regular attendance is expected and is vital to success in this course, but you will not explicitly be graded on attendance.  Yet, repeated absences may impact your participation grade (see above).  Students can find more information about NAU's attendance policy on the [Academic Policies](http://nau.edu/Student-Life/Student-Handbook/Academic-Policies/) page.
 
@@ -424,18 +476,6 @@ In summary, your final grade will be determined by your scores in the following 
 You are responsible for knowing and following the [Department of Mathematics and Statistics Policies]({{ site.baseurl }}/teaching/DepartmentPoliciesSpring2018.pdf) (PDF) and other University policies listed [here](http://nau.edu/OCLDAA/_Forms/UCC/SyllabusPolicyStmts2-2014/) (PDF).  More policies can be found in other university documents, especially the [NAU Student Handbook](http://nau.edu/Student-Life/Student-Handbook/) (see appendices) and the website of the [Office of Student Life](http://nau.edu/Student-Life/).
 
 As per Department Policy, cell phones, mp3 players and portable electronic communication devices, including but not limited to smart phones, cameras and recording devices, must be turned off and inaccessible during in-class tests. Any violation of this policy will be treated as academic dishonesty.
-
-### Rights of the Learner ##
-As a student in this class, you have the right:
-1. to be confused,
-2. to make a mistake and to revise your thinking,
-3. to speak, listen, and be heard, and
-4. to enjoy doing mathematics.
-
-### Class Etiquette ###
-In our classroom, diversity and individual differences are respected, appreciated, and recognized as a source of strength. Students in this class are encouraged and expected to speak up and participate during class and to carefully and respectfully listen to each other. Every member of this class *must* show respect for every other member of this class. Any attitudes or actions that are destructive to the sense of community that we strive to create are not welcome and will not be tolerated. In summary: Be good to each other.
-
-Students are also expected to minimize distracting behaviors.  In particular, every attempt should be made to arrive to class on time.  If you must arrive late or leave early, please do not disrupt class. Please turn off the ringer on your cell phone.  I do not have a strict policy on the use of laptops, tablets, and cell phones.  You are expected to be paying attention and engaging in class discussions.  If your cell phone, etc. is interfering with your ability (or that of another student) to do this, then put it away, or I will ask you to put it away.
 
 ### Important Dates ###
 Here are some important dates:
