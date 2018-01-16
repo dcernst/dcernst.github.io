@@ -244,7 +244,7 @@ Presentations will be assessed using the following criteria.
 	</tr>
 	<tr>
 		<td style="text-align: center;">I</td>
-		<td><b>Incomplete</b> or <b>In progress</b>. The student made an honest attempt at the problem but recognized a flaw that prevented them from being able to complete the problem during the presentation. Alternatively, the student reported on their current progress on a problem and attempted to convey where or why they are currently "stuck".</td>
+		<td><b>In progress</b>. The student made an honest attempt at the problem but recognized a flaw that prevented them from being able to complete the problem during the presentation. Alternatively, the student reported on their current progress on a problem and attempted to convey where or why they are currently "stuck".</td>
 	</tr>
 	<tr>
 		<td style="text-align: center;">S</td>
@@ -258,7 +258,7 @@ Presentations will be assessed using the following criteria.
 </table>
 </center>
 
-You should aim to avoid unsatisfactory (U) presentations. An incomplete or in progress (I) presentation should not be viewed as a bad thing as each of us will occasionally get stuck. However, you should strive for the majority of your presentations to be satisfactory (S) or exceptional (E).  Most presentations will be satisfactory (S) while exceptional (E) presentations will be rare. You should not let the rubric deter you from presenting if you have an idea about a solution/proof that you'd like to present, but you are worried that your solution/proof is incomplete or you are not confident your solution/proof is correct.  You will be rewarded for being courageous and sharing your creative ideas!  In my view, an interestingly wrong solution or proof makes for the best presentation since it generates the best discussion. This is really what we are after. However, you should not come to the board to present unless you have spent time thinking about the problem and have something meaningful to contribute. I will provide a progress report concerning each student's presentation history after each of the midterm exams.
+You should aim to avoid unsatisfactory (U) presentations. An in progress (I) presentation should not be viewed as a bad thing as each of us will occasionally get stuck. However, you should strive for the majority of your presentations to be satisfactory (S) or exceptional (E).  Most presentations will be satisfactory (S) while exceptional (E) presentations will be rare. You should not let the rubric deter you from presenting if you have an idea about a solution/proof that you'd like to present, but you are worried that your solution/proof is incomplete or you are not confident your solution/proof is correct.  You will be rewarded for being courageous and sharing your creative ideas!  In my view, an interestingly wrong solution or proof makes for the best presentation since it generates the best discussion. This is really what we are after. However, you should not come to the board to present unless you have spent time thinking about the problem and have something meaningful to contribute. I will provide a progress report concerning each student's presentation history after each of the midterm exams.
 
 #### Selecting Presenters
 
