@@ -359,7 +359,7 @@ Your Presentation and Participation grade is determined by your frequencey and a
 </table>
 </center>
 
-Your Presentation and Participation grade is worth 14% of your overall grade.
+I anticipate that most students will fall in the 80-89% range. Your Presentation and Participation grade is worth 14% of your overall grade.
 
 <!-- ### Class Presentations and Participation ###
 Though the atmosphere in this class should be informal and friendly, what we do in the class is serious business. In particular, the presentations made by students are to be taken seriously since they spearhead the work of the class.  Here are some of my expectations:
