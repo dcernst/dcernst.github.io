@@ -35,7 +35,7 @@ V = Volunteer. The student volunteered during class or in advance to present.
 Comments: Volunteering is good, but being selected without volunteering isn't bad.
 
 
-Todo: Add examples or descriptions for benchmarks for letter grades.
+Todo: Add examples or descriptions for benchmarks for letter grades. Add H = Hold? For student that want to come back to a problem.
 
 
 <center>
