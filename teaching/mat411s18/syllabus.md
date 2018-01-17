@@ -63,7 +63,7 @@ layout: default
  MAT 320 with a grade of C or better.
 
 ### Course Description ###
-MAT 411 introduces students to the basic ideas, definitions, examples, theorems and proof techniques of abstract algebra.
+MAT 411 introduces students to the basic ideas, definitions, examples, theorems, and proof techniques of abstract algebra.
 
 ### Learning Outcomes ###
 Upon successful completion of the course, students will be able to do the following within the topics of groups, rings and fields:
