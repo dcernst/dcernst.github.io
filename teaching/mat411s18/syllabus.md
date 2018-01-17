@@ -26,11 +26,11 @@ layout: default
 </div>
 </div>
 
-<br />
+<!-- <br />
 
 <div class="alert alert-info" role="alert">
 <i class="far fa-hand-peace"></i>&nbsp; This page is under construction!
-</div>
+</div> -->
 
 <div class="row">
   <div class="col-xs-12 col-sm-6">
@@ -360,55 +360,6 @@ Your Presentation and Participation grade is determined by your frequencey and a
 </center>
 
 I anticipate that most students will fall in the 80-89% range. Your Presentation and Participation grade is worth 14% of your overall grade.
-
-<!-- ### Class Presentations and Participation ###
-Though the atmosphere in this class should be informal and friendly, what we do in the class is serious business. In particular, the presentations made by students are to be taken seriously since they spearhead the work of the class.  Here are some of my expectations:
-
-- The purpose of class presentations is not to prove to me that the presenter has done the problem. It is to make the ideas of the solution clear to the other students.
-- Presenters should explain their reasoning as they go along, not simply write everything down and then turn to explain.
-- Fellow students are allowed to ask questions at any point and it is the responsibility of the person making the presentation to answer those questions to the best of his or her ability.
-- Since the presentation is directed at the students, the presenter should frequently make eye-contact with the students in order to address questions when they arise and also be able to see how well the other students are following the presentation.
-
-Presentations will be graded using the rubric below.
-
-<center>
-<table class="table table-striped">
-	<thead>
-	<tr>
-		<th style="text-align: center;">Grade</th>
-		<th>Criteria</th>
-	</tr>
-	</thead>
-	<tbody>
-	<tr>
-		<td style="text-align: center;">4</td>
-		<td>Completely correct and clear solution/proof. Yay!</td>
-	</tr>
-	<tr>
-		<td style="text-align: center;">3</td>
-		<td>Solution/proof has minor technical flaws, some unclear language, or lacking some details. Essentially correct.</td>
-	</tr>
-	<tr>
-		<td style="text-align: center;">2</td>
-		<td>A partial explanation or solution is provided but a significant gap still exists.</td>
-	</tr>
-	<tr>
-		<td style="text-align: center;">1</td>
-		<td>Minimal progress has been made that includes relevant information &amp; could lead to a solution/proof.</td>
-	</tr>
-	<tr>
-		<td style="text-align: center;">0</td>
-		<td>You were completely unprepared.</td>
-	</tr>
-	</tbody>
-</table>
-</center>
-
-However, you should not let the rubric deter you from presenting if you have an idea about a solution/proof that you'd like to present, but you are worried that your solution/proof is incomplete or you are not confident your solution/proof is correct.  You will be rewarded for being courageous and sharing your creative ideas!  Yet, you should not come to the board to present unless you have spent time thinking about the problem and have something meaningful to contribute.
-
-In general, I will curate the list of student presenters each class meeting.  However, students are welcome to volunteer. This type of behavior will be rewarded. If more than one student volunteers, the student with the fewest number of presentations has priority.  The problems chosen for presentations will come from the Daily Homework assignments.  Each student in the audience is expected to be engaged and respectful during another student's presentation.
-
-In order to receive a **passing grade** on the presentation portion of your grade, **you must present at least twice prior to each of the three midterm exams and at least once after the third midterm exam**  for a total of at least 7 times during semester. Notice that I've described a minimum.  To ensure a good grade, you should present as often as you can. Your overall performance during presentations, as well as your level of interaction/participation during class, will be worth 14% of your overall grade. -->
 
 <blockquote>
 <p>I must not fear.<br />
