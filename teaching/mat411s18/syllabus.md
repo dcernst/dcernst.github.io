@@ -311,7 +311,7 @@ You expected to respectfully particpate and contribute to class discussions. Thi
 		<td><b>Unsatisfactory</b>. Student was often disengaged or disrespectful. Alternatively, the student regularly missed class.</td>
 	</tr>
 	<tr>
-		<td style="text-align: center;">E</td>
+		<td style="text-align: center;">M</td>
 		<td><b>Meets Expectations</b>. Student was consistently respectful, engaged, and contributed to meaningful class discussions. In addition, the student regularly attends class.</td>
 	</tr>
 	<tr>
@@ -487,7 +487,7 @@ Here are some important dates:
 - **Wednesday, May 9:** Final Exam
 
 ### Getting Help ###
-There are many resources available to get help.  First, I recommend that you work on homework in small groups as much as possible, and to come see me whenever necessary.  I am always happy to help you.  If my office hours don't work for you, then we can probably find another time to meet.  It is your responsibility to be aware of how well you understand the material.  Don't wait until it is too late if you need help.  *Ask questions*!  Lastly, you can always [email me](mailto:dana.ernst@nau.edu).
+There are many resources available to get help.  First, I recommend that you work on homework in small groups as much as possible and to come see me whenever necessary.  I am always happy to help you.  If my office hours don't work for you, then we can probably find another time to meet.  It is your responsibility to be aware of how well you understand the material.  Don't wait until it is too late if you need help.  *Ask questions*!  Lastly, you can always [email me](mailto:dana.ernst@nau.edu).
 
 ### Changes to the Syllabus ###
 Any changes to this syllabus made during the term will be properly communicated to the class.
