@@ -337,11 +337,11 @@ Your Presentation and Participation grade is determined by your frequencey and a
 	<tbody>
 	<tr>
 		<td style="text-align: center;">90-100%</td>
-		<td>Student receives M or E for participation. Student averages at least 3 presentations prior to each of the exams. Student often volunteers to present and some of these problems are challenging. Most presentations receive S or E.</td>
+		<td>Student receives M or E for participation. Student averages at least 3 presentations prior to each of the exams. Student often volunteers to present and some of these problems are challenging. Most presentations receive M or E.</td>
 	</tr>
 	<tr>
 		<td style="text-align: center;">80-89%</td>
-		<td>Student receives M or E for participation. Student averages at least 2 presentations prior to each of the exams. Student occasionally volunteers to present. Most presentations receive S.</td>
+		<td>Student receives M or E for participation. Student averages at least 2 presentations prior to each of the exams. Student occasionally volunteers to present. Most presentations receive M.</td>
 	</tr>
 	<tr>
 		<td style="text-align: center;">70-79%</td>
