@@ -35,7 +35,7 @@ We’ll use this page to keep track of what has happened each day in class. It w
 
 <ul class="fa-ul">
   <li><i class="fa-li far fa-calendar-check"></i><b>Monday, January 15:</b> Martin Luther King Jr. Day, no classes.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, January 17:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, January 17:</b> First day! The first few minutes of class were devoted to me attempting to learn names. Next, I summarized what to expect from the course, toured the the <a href="{{site.baseurl}}/teaching/mat411s18/">course webpage</a>, and summarized a few items on the <a href="{{site.baseurl}}/teaching/mat411s18/syllabus/">syllabus</a>. With the time we had left, we briefly tinkered with Spinpossible.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Friday, January 19:</b> Coming soon.</li>
 </ul>
 

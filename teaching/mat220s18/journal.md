@@ -36,6 +36,31 @@ We’ll use this page to keep track of what has happened each day in class. It w
 ## Week 1 ##
 
 <ul class="fa-ul">
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, January 15:</b> Martin Luther King Jr. Day, no classes.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, January 17:</b> First day! The first few minutes of class were devoted to me attempting to learn names. Next, I summarized what to expect from the course, toured the the <a href="{{site.baseurl}}/teaching/mat220s18/">course webpage</a>, and summarized a few items on the <a href="{{site.baseurl}}/teaching/mat220s18/syllabus/">syllabus</a>. With the time we had left, we discussed Problems 1 and 2 from the <a href="{{site.baseurl}}/teaching/mat220s18/220ProblemCollection.pdf">Problem Collection</a>. AM, CN, and JS2 volunteered to discuss their approaches to Problem 1. Since we were short on time, I blurted out the answer to Problem 2 in the last minute of class.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, January 19:</b> Coming soon.</li>
+</ul>
+
+## Week 2 ##
+
+<ul class="fa-ul">
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, January 22:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, January 24:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, January 26:</b> Coming soon.</li>
+</ul>
+
+
+## Week 3 ##
+
+<ul class="fa-ul">
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, January 29:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, January 31:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, February 2:</b> Coming soon.</li>
+</ul>
+
+## Week 1 ##
+
+<ul class="fa-ul">
   <li><i class="fa-li far fa-calendar-check"></i><b>Monday, August 28:</b> First day! The first few minutes of class were devoted to me attempting to learn names. Next, I summarized the first few homework assignments, which was followed by a whirlwind tour of the <a href="{{site.baseurl}}/teaching/mat220s18/">course webpage</a>. After this, the students engaged in an exercise aimed at understanding "productive struggle". This exercise is the second half of the <a href="{{site.baseurl}}/teaching/SettingTheStage.pdf">Setting the Stage</a> activity.  The remaining portion of class was devoted to highlighting some key items on the syllabus.
 </li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, August 30:</b> The first few minutes of class were devoted to learning names and making sure there weren't any questions about the syllabus.  Next, we had a quick discuss about writing code to solve some of the problems. For the record, I'm totally fine with students occasionally taking this approach.  However, it is important to reflect on the meaning of the output.  We also discussed trying to avoid "legal battles" when interpreting the wording of problems. This was followed by a quick discussion of Problem 1 involving taxi fares.  We then split the class up into 6 small groups, where each group was responsible for one of Problems 3, 4, 5, 6(a), 6(b), and 6(c). After a few minutes we came back together to discuss the problems.  Our very first presentation was given by OW. She presented Problem 3 (1000 doors in a hallway) and did an excellent job! With the time we had left had EB and HR present Problem 5 (sticks in a bag) and Problem 4 (triangles with toothpicks), respectively. Both of these presentations were also great.  I'm very happy with how things went today. Unfortunately, we didn't get to Problem 6. The plan is tackle the 3 parts of this problem during the next class.</li>
