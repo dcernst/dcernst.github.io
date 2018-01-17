@@ -171,7 +171,7 @@ We will have 7 quizzes this semester. Tentatively, the quizzes are scheduled for
 - Quiz 6: April 13
 - Quiz 7: April 27
 
-Each quiz will consist of a mixture of homework problems you encountered during the previous two weeks and new problems not previously attempted.   Each problem will be graded using the following rubric:
+Each quiz will consist of a mixture of homework problems you encountered during the previous two weeks and new problems not previously attempted.   During each exam, you will have the opportunity to collaborate with your peers for a few minutes.  The amount of time you have to collaborate will diminish over the semester. Each problem will be graded using the following rubric:
 
 <center>
 <table class="table table-striped">
