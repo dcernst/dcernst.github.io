@@ -36,7 +36,9 @@ The following assignments are due at the beginning of the indicated class meetin
 - **Daily Homework 2:** Read and sign the [Student Contract]({{site.baseurl}}/teaching/StudentContract.pdf). (Due Friday, January 19)
 - **Daily Homework 3:** Stop by my office (AMB 176) and say hello. If I'm not there, just slide note under my door saying you stopped by. (Due by 5PM on Friday, January 19)
 - **Daily Homework 4:** Read all of [Chapter 1: Introduction]({{site.baseurl}}/teaching/mat411s18/Introduction.pdf) of the course notes.  In addition, complete 2.1-2.11 in [Chapter 2: An Introduction to Groups]({{site.baseurl}}/teaching/mat411s18/IntroGroups.pdf) and digest the surrounding text along the way. (Due Friday, January 19)
-- **Daily Homework 5:** Skim through [Appendix A: Elements of Style of Proof]({{site.baseurl}}/teaching/mat411s18/ElementsOfStyle.pdf) of the course notes. In addition, complete ??? in [Chapter 2: An Introduction to Groups]({{site.baseurl}}/teaching/mat411s18/IntroGroups.pdf) and digest the surrounding text along the way. (Due Monday, January 22)
+- **Daily Homework 5:** Skim through [Appendix A: Elements of Style of Proof]({{site.baseurl}}/teaching/mat411s18/ElementsOfStyle.pdf) of the course notes. In addition, complete 2.12-2.14, 2.17-2.22 in [Chapter 2: An Introduction to Groups]({{site.baseurl}}/teaching/mat411s18/IntroGroups.pdf) and digest the surrounding text along the way. (Due Monday, January 22)
+
+<!-- Save time on Monday for an intro to LaTeX. -->
 
 <!-- - **Daily Homework 5:** Skim through [Appendix B: Fancy Mathematical Terms]({{site.baseurl}}/teaching/mat411s18/FancyMathematicalTerms.pdf) of the course notes. In addition, complete 2.16-2.23 in [Chapter 2: An Intuitive Approach to Groups]({{site.baseurl}}/teaching/mat411s18/IntuitiveGroups.pdf) digest the surrounding text along the way. (Due Friday, September 1)
 - **Daily Homework 6:** Skim through [Appendix C: Definitions in Mathematics]({{site.baseurl}}/teaching/mat411s18/Definitions.pdf) of the course notes. In addition, complete 3.1-3.7 in [Chapter 3: Cayley Diagrams]({{site.baseurl}}/teaching/mat411s18/CayleyDiagrams.pdf) digest the surrounding text along the way. (Due Wednesday, September 6)
@@ -74,6 +76,14 @@ The following assignments are due at the beginning of the indicated class meetin
 In addition to the Daily Homework, we will also have Weekly Homework assignments.  For most of these assignments, you will be required to submit 2-3 formally written proofs.  Typically, two of the problems will come directly from the Daily Homework from the previous week.  Any additional problems will likely be new.  You will be required to type your submission using $\LaTeX$ (see below for more on this).  You can either submit a hardcopy of your assignment or email me the PDF of your completed work. If you email me the PDF, please name your file as <code>WeeklyX-Lastname.pdf</code>, where <code>X</code> is the number of the assignment and <code>Lastname</code> is your last name.  Notice there are no spaces in the filename.
 
 - **Weekly Homework 1:** Coming soon. (Due Thursday, January 25 by 8PM)
+
+<!-- For Weekly 1, have them write a reflection on growth mindset videos
+
+<center>
+  <a href="https://www.overleaf.com/latex/templates/thkxsshhbgdf/clone">
+    <button>Start your homework in Overleaf</button>
+  </a>
+</center> -->
 
 <!-- - **Weekly Homework 1:** Prove **two** of Theorem A.43, Theorem A.44, Theorem A.75, or Theorem A.81 from [Appendix A]({{site.baseurl}}/teaching/mat411s18/Prerequisites.pdf). In addition, write up a solution to **one** of Exercise 2.13 or Exercise 2.19.  *Note:* For the problems coming from Appendix A, you are welcome to consult external resources. (Due Thursday, September 14 by 8PM)
 - **Weekly Homework 2:** Complete each of the following tasks. You are required to type your proofs using LaTeX.  You should email me the PDF of your completed work or turn in a hardcopy. (Due Thursday, September 21 by 8PM)
