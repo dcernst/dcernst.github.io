@@ -36,7 +36,7 @@ We’ll use this page to keep track of what has happened each day in class. It w
 <ul class="fa-ul">
   <li><i class="fa-li far fa-calendar-check"></i><b>Monday, January 15:</b> Martin Luther King Jr. Day, no classes.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, January 17:</b> First day! The first few minutes of class were devoted to me attempting to learn names. Next, I summarized what to expect from the course, toured the the <a href="{{site.baseurl}}/teaching/mat411s18/">course webpage</a>, and summarized a few items on the <a href="{{site.baseurl}}/teaching/mat411s18/syllabus/">syllabus</a>. With the time we had left, we briefly tinkered with Spinpossible.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, January 19:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, January 19:</b> I think we had a great second day! After fielding a few questions about the syllabus and reminding students about the day-to-day structure, we divided the class up into 10 small groups, each tasked with discussing one of the homework problems.  We had RF, RD, SJ, JB, VM, ER, and HH presented their proposed solutions to Problems 2.1, 2.2, 2.3, 2.4, 2.5, 2.7, and 2.8, respectively. Along the way I presented a solution to Problem 2.6.  We will wrap up Problems 2.9, 2.10, and 2.11.</li>
 </ul>
 
 ## Week 2 ##
