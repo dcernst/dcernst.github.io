@@ -1,7 +1,7 @@
 ---
 title: Sitemap
 author: Dana Ernst
-layout: page
+layout: default
 sharing_disabled:
   - 1
 ---
