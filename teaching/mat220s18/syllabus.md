@@ -206,7 +206,7 @@ Each quiz will consist of a mixture of homework problems you encountered during 
 </table>
 </center>
 
-Make-up quizzes will only be given under extreme circumstances, as judged by me. In general, it will be best to communicate conflicts ahead of time.  Your Quiz grade is worth 60% of your overall grade. We will also have a cumulative final exam that takes place on **Monday, May 9 at 7:30-9:30AM**.  Your Final Exam grade is worth 20% of your overall grade.
+Make-up quizzes will only be given under extreme circumstances, as judged by me. In general, it will be best to communicate conflicts ahead of time.  Your Quiz grade is worth 60% of your overall grade. We will also have a cumulative final exam that takes place on **Wednesday, May 9 at 7:30-9:30AM**.  Your Final Exam grade is worth 20% of your overall grade.
 
 ### Homework ###
 Homework will be assigned each class meeting, and you are expected to complete (or try your best to complete) each assignment before walking into the next class period. Homework assignments will generally consist of solving problems from the problem sequence.  Homework will be graded on a $\checkmark$-system. You are allowed (in fact, encouraged!) to modify your written solution in light of presentations made in class. However, **you are required to use the colored marker pens provided in class**. This will allow me to differentiate the work done in class versus the work you completed before class.  The grade you receive on an assignment will be determined by the work you completed prior to class.  I will provide more guidance with respect to this during the first couple weeks of the semester.
