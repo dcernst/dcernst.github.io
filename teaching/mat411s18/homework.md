@@ -36,7 +36,7 @@ The following assignments are due at the beginning of the indicated class meetin
 - **Daily Homework 2:** Read and sign the [Student Contract]({{site.baseurl}}/teaching/StudentContract.pdf). (Due Friday, January 19)
 - **Daily Homework 3:** Stop by my office (AMB 176) and say hello. If I'm not there, just slide note under my door saying you stopped by. (Due by 5PM on Friday, January 19)
 - **Daily Homework 4:** Read all of [Chapter 1: Introduction]({{site.baseurl}}/teaching/mat411s18/Introduction.pdf) of the course notes.  In addition, complete 2.1-2.11 in [Chapter 2: An Introduction to Groups]({{site.baseurl}}/teaching/mat411s18/IntroGroups.pdf) and digest the surrounding text along the way. (Due Friday, January 19)
-- **Daily Homework 5:** Skim through [Appendix A: Elements of Style of Proof]({{site.baseurl}}/teaching/mat411s18/ElementsOfStyle.pdf) of the course notes. In addition, complete 2.12-2.14, 2.17-2.22 in [Chapter 2: An Introduction to Groups]({{site.baseurl}}/teaching/mat411s18/IntroGroups.pdf) and digest the surrounding text along the way. (Due Monday, January 22)
+- **Daily Homework 5:** Skim through [Appendix A: Elements of Style of Proof]({{site.baseurl}}/teaching/mat411s18/ElementsOfStyle.pdf) of the course notes. In addition, complete 2.12-2.14, 2.17-2.19 in [Chapter 2: An Introduction to Groups]({{site.baseurl}}/teaching/mat411s18/IntroGroups.pdf) and digest the surrounding text along the way. (Due Monday, January 22)
 
 <!-- Save time on Monday for an intro to LaTeX. -->
 
