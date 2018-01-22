@@ -44,7 +44,7 @@ We’ll use this page to keep track of what has happened each day in class. It w
 ## Week 2 ##
 
 <ul class="fa-ul">
-  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, January 22:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, January 22:</b> Another great day!  We kicked off with KP presenting Problem 6(a), which involved pebbles on a 5 by 5 grid.  Next, we divided the class up into small groups, each tasked with discussing one of the remaining homework problems.  After a few minutes, we had KF, HM, JC, JS1 and JG present Problems 6(b), 6(c), 7, 8, and 9, respectively.  We spent the last few minutes of class discussing the next few problems.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, January 24:</b> Coming soon.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Friday, January 26:</b> Coming soon.</li>
 </ul>
