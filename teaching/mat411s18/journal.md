@@ -42,7 +42,7 @@ We’ll use this page to keep track of what has happened each day in class. It w
 ## Week 2 ##
 
 <ul class="fa-ul">
-  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, January 22:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, January 22:</b> Another great day! We had AS, ML, SJ, JW, QC, LD, and MD present Problems 2.10, 2.11, 2.12/2.14, 2.13(a), 2.13(b), 2.14(c), 2.14, and 2.17, respectively.  Along the way, I presented Problems 2.9, 2.18, and 2.19. We had 2 minutes at the end to discuss Weekly Homework 1 and do a quick introduction to LaTeX.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, January 24:</b> Coming soon.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Friday, January 26:</b> Coming soon.</li>
 </ul>
