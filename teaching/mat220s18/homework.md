@@ -38,8 +38,9 @@ The following assignments are due at the beginning of the indicated class meetin
 <li><i class="fa-li fa fa-edit"></i><b>Homework 3:</b> Complete Problems 3-5 from the <a href="https://dcernst.github.io/teaching/mat220s18/220ProblemCollection.pdf">Problem Collection</a>. (Due Friday, January 19)</li>
 <li><i class="fa-li fa fa-edit"></i><b>Homework 4:</b> Complete Problems 6-9 from the <a href="https://dcernst.github.io/teaching/mat220s18/220ProblemCollection.pdf">Problem Collection</a>. (Due Monday, January 22)</li>
 <li><i class="fa-li fa fa-edit"></i><b>Homework 5:</b> Complete Problems 10-12 from the <a href="https://dcernst.github.io/teaching/mat220s18/220ProblemCollection.pdf">Problem Collection</a>. (Due Wednesday, January 24)</li>
+<li><i class="fa-li fa fa-edit"></i><b>Homework 6:</b> Complete Problems 13-17 from the <a href="https://dcernst.github.io/teaching/mat220s18/220ProblemCollection.pdf">Problem Collection</a>. (Due Monday, January 29)</li>
 
-<!-- Put reflection on Growth Mindset on HW 6
+<!-- Put reflection on Growth Mindset on HW 7
 
 <li><i class="fa-li fa fa-edit"></i><b>Homework 6:</b> Complete Problems 14-17 from the <a href="https://dcernst.github.io/teaching/mat220s18/220ProblemCollection.pdf">Problem Collection</a>. (Due Monday, September 11)</li>
 <li><i class="fa-li fa fa-edit"></i><b>Homework 7:</b> Complete Problems 18-21 from the <a href="https://dcernst.github.io/teaching/mat220s18/220ProblemCollection.pdf">Problem Collection</a>. (Due Wednesday, September 13)</li>
