@@ -45,8 +45,8 @@ We’ll use this page to keep track of what has happened each day in class. It w
 
 <ul class="fa-ul">
   <li><i class="fa-li far fa-calendar-check"></i><b>Monday, January 22:</b> Another great day!  We kicked off with KP presenting Problem 6(a), which involved pebbles on a 5 by 5 grid.  Next, we divided the class up into small groups, each tasked with discussing one of the remaining homework problems.  After a few minutes, we had KF, HM, JC, JS1 and JG present Problems 6(b), 6(c), 7, 8, and 9, respectively.  We spent the last few minutes of class discussing the next few problems.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, January 24:</b> Coming soon.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, January 26:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, January 24:</b> I had a lot of fun today.  We kicked off by briefly discussing the upcoming quiz. Next, we had GS present his method of attack on Problem 10.  This was followed by AM discussing an alternative approach. Next up was Problem 11, which was a disguised version of the Sleeping Beauty Problem. This problem is famous for not having an agreed upon solution.  The two most commonly argued answers are 1/2 and 1/3.  Roughly a third of the class believed the answer was 1/3 and the rest were in the 1/2 camp.  We had DW argue the 1/2 answer and then DC and TM argued the 1/3 position. Problem 12 is meant to be a modified version of Problem 11. TB used a clever sleeping strategy to argue his point of view while PH avoided the attempt to relay extra information.  Interestingly, both approaches arrived at the same expected dollar amount in the end.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, January 26:</b> The students took Quiz 1.</li>
 </ul>
 
 
