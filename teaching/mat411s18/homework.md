@@ -77,17 +77,9 @@ The following assignments are due at the beginning of the indicated class meetin
 In addition to the Daily Homework, we will also have Weekly Homework assignments.  For most of these assignments, you will be required to submit 2-3 formally written proofs.  Typically, two of the problems will come directly from the Daily Homework from the previous week.  Any additional problems will likely be new.  You will be required to type your submission using $\LaTeX$ (see below for more on this).  You can either submit a hardcopy of your assignment or email me the PDF of your completed work. If you email me the PDF, please name your file as <code>WeeklyX-Lastname.pdf</code>, where <code>X</code> is the number of the assignment and <code>Lastname</code> is your last name.  Notice there are no spaces in the filename.
 
 - **Weekly Homework 1:** On the [Course Materials]({{site.baseurl}}/teaching/mat411s18/materials/) page there is a list of videos about growth mindset and productive failure under "Miscellaneous Materials". Watch "Grit: the power of passion and perseverance" and any other 4 from the list and then write a reflection that is at least 10 sentences long. You should comment on each of the videos you watched, but rather than reflecting on each video separately, try to reflect on growth mindset, productive failure, and grit, in general. You are required to type your reflection in [LaTeX](https://en.wikipedia.org/wiki/LaTeX).  For this assignment, I suggest you use the template on [Overleaf](https://www.overleaf.com/) found [here](https://www.overleaf.com/latex/templates/thkxsshhbgdf/clone) instead of using the "Start your homework in Overleaf" link below. (Due Thursday, January 25 by 8PM)
+- **Weekly Homework 2:** Prove **two** of Theorems 2.29, 2.37, 2.39. You must type up your proofs using LaTeX.  I suggest you use my Overleaf template, which you can access by clicking the "Start your homework in Overleaf" link below. (Due Thursday, February 1 by 8PM)
 
-<!-- For Weekly 1, have them write a reflection on growth mindset videos
-
-<center>
-  <a href="https://www.overleaf.com/latex/templates/thkxsshhbgdf/clone">
-    <button>Start your homework in Overleaf</button>
-  </a>
-</center> -->
-
-<!-- - **Weekly Homework 1:** Prove **two** of Theorem A.43, Theorem A.44, Theorem A.75, or Theorem A.81 from [Appendix A]({{site.baseurl}}/teaching/mat411s18/Prerequisites.pdf). In addition, write up a solution to **one** of Exercise 2.13 or Exercise 2.19.  *Note:* For the problems coming from Appendix A, you are welcome to consult external resources. (Due Thursday, September 14 by 8PM)
-- **Weekly Homework 2:** Complete each of the following tasks. You are required to type your proofs using LaTeX.  You should email me the PDF of your completed work or turn in a hardcopy. (Due Thursday, September 21 by 8PM)
+<!-- - **Weekly Homework 2:** Complete each of the following tasks. You are required to type your proofs using LaTeX.  You should email me the PDF of your completed work or turn in a hardcopy. (Due Thursday, September 21 by 8PM)
   - Prove any **two** of Theorems 4.6, 4.8, or 4.20.
   - Determine whether each of the following statements is true or false. If a statement is true, write a short proof. If a statement is false, justify your reasoning. In each case, the context should make it clear what each letter represents. In particular, in Items 1, 3, and 5, $r$ represents rotation of a square by a quarter turn clockwise. But in Item 4, $r$ represents rotating a triangle by a third of a turn clockwise.
       1. $\\{s, r, sr, rs\\}\leq D_4$

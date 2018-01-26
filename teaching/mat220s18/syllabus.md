@@ -327,7 +327,7 @@ You expected to respectfully particpate and contribute to class discussions. Thi
 
 #### Assessing Presentation and Participation Grades
 
-Your Presentation and Participation grade is determined by your frequencey and ability to foster productive class discussions through presentations and audience participation. The greatest determinging factor in your Presentation and Participation grade is your willingness to present often. You should aim to present at least twice prior to each midterm exam.  The table below provides a summary of how your Presentation and Participation grade will be determined.
+Your Presentation and Participation grade is determined by your frequency and ability to foster productive class discussions through presentations and audience participation. The greatest determining factor in your Presentation and Participation grade is your willingness to present often. You should aim to present at least twice prior to each midterm exam.  The table below provides a summary of how your Presentation and Participation grade will be determined.
 
 <center>
 <table class="table table-striped">
