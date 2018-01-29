@@ -53,12 +53,12 @@ We’ll use this page to keep track of what has happened each day in class. It w
 ## Week 3 ##
 
 <ul class="fa-ul">
-  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, January 29:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, January 29:</b> Lots of student presentations today!  We had KB, SG, BK, KP, MN, JR, KR, MA, DW, and JS2 present Problems 14(a), 14(b), 14(c), 15, 16(a), 16(b), 16(c), 16(d), 16(e), and 17, respectively.  We didn't have time for Problem 13, so we will tackle that one next time.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, January 31:</b> Coming soon.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Friday, February 2:</b> Coming soon.</li>
 </ul>
 
-## Week 1 ##
+<!-- ## Week 1 ##
 
 <ul class="fa-ul">
   <li><i class="fa-li far fa-calendar-check"></i><b>Monday, August 28:</b> First day! The first few minutes of class were devoted to me attempting to learn names. Next, I summarized the first few homework assignments, which was followed by a whirlwind tour of the <a href="{{site.baseurl}}/teaching/mat220s18/">course webpage</a>. After this, the students engaged in an exercise aimed at understanding "productive struggle". This exercise is the second half of the <a href="{{site.baseurl}}/teaching/SettingTheStage.pdf">Setting the Stage</a> activity.  The remaining portion of class was devoted to highlighting some key items on the syllabus.
@@ -177,4 +177,4 @@ We’ll use this page to keep track of what has happened each day in class. It w
   <li><i class="fa-li far fa-calendar-check"></i><b>Monday, December 4:</b> We had JG, JR, HR/MQ, and EB present Problems 90, 91, 92, and 89(a).  We didn't have time to discuss part (b) of Problem 89.  Hopefully, we can do that on Wednesday.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, December 6:</b> We began by revisiting Problems 89 and 92. Next, we had MF present his solution to Problem 93, which TN also chimed in on. This was followed by a discussion of Problem 94, which was mostly lead by me.  With the time we had left, JG presented Problem 95.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Friday, December 8:</b> Last day!  I'll miss this group of students. After discussing the final exam briefly, we had YS, JL, EB, and JR present Problems 96(a), 96(b), 96(c), and 97, respectively.  Next, we reviewed a few problems and key ideas.  In particular, we discussed parity arguments, in general.</li>
-</ul>
+</ul> -->
