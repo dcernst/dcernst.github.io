@@ -51,7 +51,7 @@ We’ll use this page to keep track of what has happened each day in class. It w
 ## Week 3 ##
 
 <ul class="fa-ul">
-  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, January 29:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, January 29:</b> After reviewing Problems 2.35, 2.36, and 2.38, we spent 10 minutes discussing LaTeX.  Next, I somewhat sloppily divided the class up into 5 small groups, each tasked with discussing one of the homework problems.  After a few minutes, we had CW, JB, MS, and RF present Theorem 2.39, Problem 2.40, Corollary 2.41, and Theorem 2.42, respectively.  We will discuss Theorem 2.43 on Wednesday.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, January 31:</b> Coming soon.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Friday, February 2:</b> Coming soon.</li>
 </ul>
