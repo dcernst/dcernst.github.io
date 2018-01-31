@@ -42,23 +42,7 @@ Below you will find notes and handouts that we have used in class, as well as so
     - [KhanAcademy interview with Carol Dweck about growth mindset](https://www.youtube.com/watch?time_continue=1&v=wh0OS4MrN3E) (3:06 min)
     - [Make Mistakes &#124; Michael Starbird](https://www.youtube.com/watch?v=2yYQ-1X2ocU) (2:11 min)
 - [Problem Collection for Mathematical Reasoning]({{ site.baseurl }}/teaching/mat220s18/220ProblemCollection.pdf) (PDF)
-
-<!-- <ul class="fa-ul">
-  <li><i class="fa-li far fa-file-pdf fa-fw"></i>&nbsp; <a href="{{ site.baseurl }}/teaching/SettingTheStage.pdf">Setting the Stage</a></li>
-  <li><i class="fa-li far fa-file-pdf fa-fw"></i>&nbsp; <a href="{{ site.baseurl }}/teaching/ElementsOfStyle.pdf">Elements of Style for Proofs</a></li>
-  <li><i class="fa-li far fa-file-pdf fa-fw"></i>&nbsp; <a href="https://www.youtube.com/watch?v=9brnDOVJWnw">Productive Failure and Productive Struggle BMX Video</a></li>
-  <li><i class="fa-li far fa-file-pdf fa-fw"></i>&nbsp; <a href="{{ site.baseurl }}/teaching/mat220s18/220ProblemCollection.pdf">Problem Collection for Mathematical Reasoning</a></li>
-  <li><i class="fa-li far fa-file-pdf fa-fw"></i>&nbsp; <a href="{{ site.baseurl }}/teaching/mat220s18/220Problem64.jpg">Oliver's solution to Problem 64</a></li>
-  <li><i class="fa-li far fa-file-pdf fa-fw"></i>&nbsp; <a href="{{ site.baseurl }}/teaching/mat220s18/220Quiz1.pdf">Quiz 1</a></li>
-  <li><i class="fa-li far fa-file-pdf fa-fw"></i>&nbsp; <a href="{{ site.baseurl }}/teaching/mat220s18/220Quiz2.pdf">Quiz 2</a></li>
-  <li><i class="fa-li far fa-file-pdf fa-fw"></i>&nbsp; <a href="{{ site.baseurl }}/teaching/mat220s18/220Quiz3.pdf">Quiz 3</a></li>
-  <li><i class="fa-li far fa-file-pdf fa-fw"></i>&nbsp; <a href="{{ site.baseurl }}/teaching/mat220s18/220Quiz4.pdf">Quiz 4</a></li>
-  <li><i class="fa-li far fa-file-pdf fa-fw"></i>&nbsp; <a href="{{ site.baseurl }}/teaching/mat220s18/220Quiz5.pdf">Quiz 5</a></li>
-  <li><i class="fa-li far fa-file-pdf fa-fw"></i>&nbsp; <a href="{{ site.baseurl }}/teaching/mat220s18/220Quiz6.pdf">Quiz 6</a></li>
-  <li><i class="fa-li far fa-file-pdf fa-fw"></i>&nbsp; <a href="{{ site.baseurl }}/teaching/mat220s18/220Quiz7.pdf">Quiz 7</a></li>
-</ul> -->
-
-<!-- I will not be covering every detail of the notes and the only way to achieve a sufficient understanding of the material is to be digesting the reading in a meaningful way.  You should be seeking clarification about the content of the notes whenever necessary by asking questions.  Here's one of my favorite quotes about reading mathematics. -->
+- [Quiz 1]({{ site.baseurl }}/teaching/mat220s18/220Quiz1.pdf) (PDF)
 
 <blockquote>
   <p>Don’t just read it; fight it! Ask your own questions, look for your own examples, discover your own proofs. Is the hypothesis necessary? Is the converse true? What happens in the classical special case? What about the degenerate cases? Where does the proof use the hypothesis?</p>
