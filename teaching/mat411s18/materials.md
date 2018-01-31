@@ -57,7 +57,10 @@ The notes will be released incrementally. Each link below is to a PDF file. If y
     - 2.2 Binary Operations
     - 2.3 Groups
     - 2.4 Generating Sets
-    - More coming soon...
+    - 2.5 Group Tables
+    - 2.6 Cayley Diagrams
+    - 2.7 Isomorphisms
+    - 2.7 Subgroups
 - [Appendix A: Elements of Style for Proofs]({{site.baseurl}}/teaching/mat411s18/ElementsOfStyle.pdf)
 - [Appendix B: Fancy Mathematical Terms]({{site.baseurl}}/teaching/mat411s18/FancyMathematicalTerms.pdf)
 - [Appendix C: Definitions in Mathematics]({{site.baseurl}}/teaching/mat411s18/Definitions.pdf)
