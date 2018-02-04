@@ -53,5 +53,13 @@ We’ll use this page to keep track of what has happened each day in class. It w
 <ul class="fa-ul">
   <li><i class="fa-li far fa-calendar-check"></i><b>Monday, January 29:</b> After reviewing Problems 2.35, 2.36, and 2.38, we spent 10 minutes discussing LaTeX.  Next, I somewhat sloppily divided the class up into 5 small groups, each tasked with discussing one of the homework problems.  After a few minutes, we had CW, JB, MS, and RF present Theorem 2.39, Problem 2.40, Corollary 2.41, and Theorem 2.42, respectively.  We will discuss Theorem 2.43 on Wednesday.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, January 31:</b> Even though we didn't get to all the problems today, I feel like we covered a tremendous amount of content.  We had JC, DS, RH, GT, DC, and JS present Theorem 2.43 (which as left over from Monday), Theorem 2.44, Theorem 2.45, Theorem 2.47(a), Theorem 2.47(b), and Problem 2.48, respectively. Theorem 2.50 and Problems 2.53-2.55 will likely get discussed on Friday when Dr. Falk covers for me.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, February 2:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, February 2:</b> Dr. Falk covered for me while I was out of town.  My understanding is that Dr. Falk covered Theorem 2.50, Problem 2.53, and Problem 2.54. Along the way, there was also some discussion of the free group on one letter and the free group on two letters.</li>
+</ul>
+
+## Week 4 ##
+
+<ul class="fa-ul">
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, February 5:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, February 7:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, February 9:</b> Coming soon.</li>
 </ul>
