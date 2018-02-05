@@ -55,13 +55,13 @@ We’ll use this page to keep track of what has happened each day in class. It w
 <ul class="fa-ul">
   <li><i class="fa-li far fa-calendar-check"></i><b>Monday, January 29:</b> Lots of student presentations today!  We had KB, SG, BK, KP, MN, JR, KR, MA, DW, and JS2 present Problems 14(a), 14(b), 14(c), 15, 16(a), 16(b), 16(c), 16(d), 16(e), and 17, respectively.  We didn't have time for Problem 13, so we will tackle that one next time.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, January 31:</b> After handing back the quiz, we discussed Problems B1, B2, and B3 from Quiz 1.  AM presented an elegant solution to Problem 17, which was left over from last time. Then CN, TM, AM, and JS1 presented Problems 18(a), 18(b), 18(c), and 19, respectively.  We didn't have time to discuss Problem 20, so that one will have to wait until Friday.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, February 2:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, February 2:</b> Dr. Hagood covered for me while I was out of town.  My understanding is that JS2, BH, DW, and PH presented Problems 20, 21, 22, and 23, respectively.</li>
 </ul>
 
 ## Week 4 ##
 
 <ul class="fa-ul">
-  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, February 5:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, February 5:</b> We spent the first half of class reviewing Problems 20-23.  I drew pictures for the visual proofs for Problems 20-22 and then we discussed two different approaches to Problem 23.  Next, we had KF and AM present Problem 24.  We didn't have enough time to discuss Problems 25 and 26, so we will tackle those next time.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, February 7:</b> Coming soon.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Friday, February 9:</b> Coming soon.</li>
 </ul>
