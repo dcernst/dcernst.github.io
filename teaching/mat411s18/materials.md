@@ -61,7 +61,8 @@ The notes will be released incrementally. Each link below is to a PDF file. If y
     - 2.6 Cayley Diagrams
 - [Chapter 3: Subgroups and Isomorphisms]({{site.baseurl}}/teaching/mat411s18/SubgroupsIsomorphisms.pdf) (under construction)
     - 3.1 Subgroups
-    - 3.2 Isomorphisms
+    - 3.2 Subgroup Lattices
+    - 3.3 Isomorphisms
 - [Appendix A: Elements of Style for Proofs]({{site.baseurl}}/teaching/mat411s18/ElementsOfStyle.pdf)
 - [Appendix B: Fancy Mathematical Terms]({{site.baseurl}}/teaching/mat411s18/FancyMathematicalTerms.pdf)
 - [Appendix C: Definitions in Mathematics]({{site.baseurl}}/teaching/mat411s18/Definitions.pdf)
@@ -131,8 +132,7 @@ The notes will be released incrementally. Each link below is to a PDF file. If y
 ## Exams ##
 Below are links to the take-home portions of each exam.
 
-  - Exam 1. Coming soon.
-
+- [Exam 1 (take-home)]({{site.baseurl}}/teaching/mat411s18/411Exam1-Home.pdf) (PDF). **Currently incomplete.  I'll post the rest later tonight.** If you are interested in using LaTeX to type up your solutions, contact me and I will send you a link to the source file of the exam. (Due Wednesday, October 4)
 <!--
 - [Exam 1 (take-home)]({{site.baseurl}}/teaching/mat411s18/411Exam1-Home.pdf) (PDF). If you are interested in using LaTeX to type up your solutions, contact me and I will send you a link to the source file of the exam. (Due Wednesday, October 4)
  - [Exam 2 (take-home)]({{site.baseurl}}/teaching/mat411s18/411Exam2-Home.pdf) (PDF). If you are interested in using LaTeX to type up your solutions, contact me and I will send you a link to the source file of the exam. (Due Friday, November 3)
