@@ -52,15 +52,16 @@ The notes will be released incrementally. Each link below is to a PDF file. If y
     - 1.3 Rules of the Game
     - 1.4 Structure of the Notes
     - 1.5 Some Minimal Guidance
-- [Chapter 2: An Introduction to Groups]({{site.baseurl}}/teaching/mat411s18/IntroGroups.pdf) (under construction)
+- [Chapter 2: An Introduction to Groups]({{site.baseurl}}/teaching/mat411s18/IntroGroups.pdf)
     - 2.1 A First Example
     - 2.2 Binary Operations
     - 2.3 Groups
     - 2.4 Generating Sets
     - 2.5 Group Tables
     - 2.6 Cayley Diagrams
-    - 2.7 Isomorphisms
-    - 2.8 Subgroups
+- [Chapter 3: Subgroups and Isomorphisms]({{site.baseurl}}/teaching/mat411s18/SubgroupsIsomorphisms.pdf) (under construction)
+    - 3.1 Subgroups
+    - 3.2 Isomorphisms
 - [Appendix A: Elements of Style for Proofs]({{site.baseurl}}/teaching/mat411s18/ElementsOfStyle.pdf)
 - [Appendix B: Fancy Mathematical Terms]({{site.baseurl}}/teaching/mat411s18/FancyMathematicalTerms.pdf)
 - [Appendix C: Definitions in Mathematics]({{site.baseurl}}/teaching/mat411s18/Definitions.pdf)

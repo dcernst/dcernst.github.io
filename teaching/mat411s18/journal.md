@@ -60,6 +60,6 @@ We’ll use this page to keep track of what has happened each day in class. It w
 
 <ul class="fa-ul">
   <li><i class="fa-li far fa-calendar-check"></i><b>Monday, February 5:</b> We almost got caught up today. After I lead some discussion about Problems 2.55-2.58, we had TC, QC, MM, MD, AT, AM, CW, BH, and RD present Problems 2.59(a), 2.59(b), 2.59(c), 2.61, 2.62, 2.70(a), 2.70(b), and 2.70(c), respectively. We also discussed Problems 2.64-2.66.  We will discuss Theorem 2.63, Problem 2.67, and Problem 2.69 next time.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, February 7:</b> Coming soon.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, February 9:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, February 7:</b> It was a busy day and we managed to get caught up on all the outstanding problems.  We had RH, FZ, FA, ML, HH, VM, AS, and SJ present Theorem 2.63, Problem 2.67, Problem 2.69, Problem 2.70(d), Problem 2.70(e), Problem 2.70(f), Problem 2.70(g), and Problem 2.71(ab).  In the last couple minutes of class I cranked through Problem 2.71(c).</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, February 9:</b> The students took the in-class portion of Exam 1.</li>
 </ul>
