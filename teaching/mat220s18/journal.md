@@ -66,6 +66,14 @@ We’ll use this page to keep track of what has happened each day in class. It w
   <li><i class="fa-li far fa-calendar-check"></i><b>Friday, February 9:</b> The students took Quiz 2.</li>
 </ul>
 
+## Week 5 ##
+
+<ul class="fa-ul">
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, February 12:</b> After a quick rambling about growth mindset and productive failure, we jumped into student presentations.  We had BK, JB, KR, and KB present Problems 30 (prisoners with flashlight), 31 (color vertices in grid), 32 (color points in plane), and 33 (nuggetable numbers).</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, February 14:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, February 16:</b> Coming soon.</li>
+</ul>
+
 <!-- ## Week 1 ##
 
 <ul class="fa-ul">
