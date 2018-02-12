@@ -43,6 +43,7 @@ Below you will find notes and handouts that we have used in class, as well as so
     - [Make Mistakes &#124; Michael Starbird](https://www.youtube.com/watch?v=2yYQ-1X2ocU) (2:11 min)
 - [Problem Collection for Mathematical Reasoning]({{ site.baseurl }}/teaching/mat220s18/220ProblemCollection.pdf) (PDF)
 - [Quiz 1]({{ site.baseurl }}/teaching/mat220s18/220Quiz1.pdf) (PDF)
+- [Quiz 2]({{ site.baseurl }}/teaching/mat220s18/220Quiz2.pdf) (PDF)
 
 <blockquote>
   <p>Don’t just read it; fight it! Ask your own questions, look for your own examples, discover your own proofs. Is the hypothesis necessary? Is the converse true? What happens in the classical special case? What about the degenerate cases? Where does the proof use the hypothesis?</p>
