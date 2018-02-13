@@ -63,3 +63,11 @@ We’ll use this page to keep track of what has happened each day in class. It w
   <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, February 7:</b> It was a busy day and we managed to get caught up on all the outstanding problems.  We had RH, FZ, FA, ML, HH, VM, AS, and SJ present Theorem 2.63, Problem 2.67, Problem 2.69, Problem 2.70(d), Problem 2.70(e), Problem 2.70(f), Problem 2.70(g), and Problem 2.71(ab).  In the last couple minutes of class I cranked through Problem 2.71(c).</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Friday, February 9:</b> The students took the in-class portion of Exam 1.</li>
 </ul>
+
+## Week 5 ##
+
+<ul class="fa-ul">
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, February 12:</b> I lectured over the remaining portion of Chapter 2.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, February 14:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, February 16:</b> Coming soon.</li>
+</ul>
