@@ -68,6 +68,6 @@ We’ll use this page to keep track of what has happened each day in class. It w
 
 <ul class="fa-ul">
   <li><i class="fa-li far fa-calendar-check"></i><b>Monday, February 12:</b> I lectured over the remaining portion of Chapter 2.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, February 14:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, February 14:</b> I lectured over the beginning of Chapter 3.  We discussed up to Problem 3.12.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Friday, February 16:</b> Coming soon.</li>
 </ul>
