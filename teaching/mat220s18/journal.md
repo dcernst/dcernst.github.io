@@ -70,7 +70,7 @@ We’ll use this page to keep track of what has happened each day in class. It w
 
 <ul class="fa-ul">
   <li><i class="fa-li far fa-calendar-check"></i><b>Monday, February 12:</b> After a quick rambling about growth mindset and productive failure, we jumped into student presentations.  We had BK, JB, KR, and KB present Problems 30 (prisoners with flashlight), 31 (color vertices in grid), 32 (color points in plane), and 33 (nuggetable numbers).</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, February 14:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, February 14:</b> After handing back Quiz 2, we discussed Problems B1, B2, and B3.  Next, we had JR, DW, and AW present Problems 34 (Star Base), 35 (more Star Base), and 36 (Zoltar).  We made a conjecture about Problem 35, but didn't wrap up the details.  We'll revisit this problem on Friday.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Friday, February 16:</b> Coming soon.</li>
 </ul>
 
