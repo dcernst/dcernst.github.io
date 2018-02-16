@@ -37,3 +37,10 @@ Flagstaff,  AZ  86011
 </address>
 
 This website was created using <a href="https://pages.github.com">GitHub Pages</a> and <a href="http://jekyllrb.com">Jekyll</a> together with <a href="http://getbootstrap.com">Twitter Bootstrap</a>. You can find the <a href="https://github.com/dcernst/dcernst.github.io">source code</a> on GitHub.
+
+# Links for discussing undergrad research
+
+- [Maximal reversal distance]({{ site.baseurl }}/images/JMM2018-Rosenberg2.pdf)
+- [Mastumoto graph for longest element in $A_3$]({{ site.baseurl }}/images/DanaTeachingWide.jpg)
+- [Steinhaus–Johnson–Trotter algorithm](https://en.wikipedia.org/wiki/Steinhaus–Johnson–Trotter_algorithm)
+- Combinatorial game theory stuff with light up grid...
