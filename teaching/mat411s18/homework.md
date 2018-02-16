@@ -45,7 +45,7 @@ The following assignments are due at the beginning of the indicated class meetin
 - **Daily Homework 11:** Complete 2.65-2.67, 2.69, 270(abc) in [Chapter 2: An Introduction to Groups]({{site.baseurl}}/teaching/mat411s18/IntroGroups.pdf) and digest the surrounding text along the way. (Due Monday, February 5)
 - **Daily Homework 12:** Complete 2.70(defg) and 2.71 in [Chapter 2: An Introduction to Groups]({{site.baseurl}}/teaching/mat411s18/IntroGroups.pdf) and digest the surrounding text along the way. (Due Wednesday, February 7)
 - **Daily Homework 13:** Complete 3.13-3.20 in [Chapter 3: Subgroups and Isomorphisms]({{site.baseurl}}/teaching/mat411s18/SubgroupsIsomorphisms.pdf) and digest the surrounding text along the way. (Due Friday, February 16)
-- **Daily Homework 14:** Complete ??? in [Chapter 3: Subgroups and Isomorphisms]({{site.baseurl}}/teaching/mat411s18/SubgroupsIsomorphisms.pdf) and digest the surrounding text along the way. (Due Monday, February 19)
+- **Daily Homework 14:** Complete 3.21, 3.22, and ??? in [Chapter 3: Subgroups and Isomorphisms]({{site.baseurl}}/teaching/mat411s18/SubgroupsIsomorphisms.pdf) and digest the surrounding text along the way. (Due Monday, February 19)
 
 ## Weekly Homework ##
 In addition to the Daily Homework, we will also have Weekly Homework assignments.  For most of these assignments, you will be required to submit 2-3 formally written proofs.  Typically, two of the problems will come directly from the Daily Homework from the previous week.  Any additional problems will likely be new.  You will be required to type your submission using LaTeX (see below for more on this).  You can either submit a hardcopy of your assignment or email me the PDF of your completed work. If you email me the PDF, please name your file as <code>WeeklyX-Lastname.pdf</code>, where <code>X</code> is the number of the assignment and <code>Lastname</code> is your last name.  Notice there are no spaces in the filename.
@@ -53,6 +53,14 @@ In addition to the Daily Homework, we will also have Weekly Homework assignments
 - **Weekly Homework 1:** On the [Course Materials]({{site.baseurl}}/teaching/mat411s18/materials/) page there is a list of videos about growth mindset and productive failure under "Miscellaneous Materials". Watch "Grit: the power of passion and perseverance" and any other 4 from the list and then write a reflection that is at least 10 sentences long. You should comment on each of the videos you watched, but rather than reflecting on each video separately, try to reflect on growth mindset, productive failure, and grit, in general. You are required to type your reflection in [LaTeX](https://en.wikipedia.org/wiki/LaTeX).  For this assignment, I suggest you use the template on [Overleaf](https://www.overleaf.com/) found [here](https://www.overleaf.com/latex/templates/thkxsshhbgdf/clone) instead of using the "Start your homework in Overleaf" link below. (Due Thursday, January 25 by 8PM)
 - **Weekly Homework 2:** Prove **two** of Theorems 2.29, 2.37, 2.39. You must type up your proofs using LaTeX.  I suggest you use my Overleaf template, which you can access by clicking the "Start your homework in Overleaf" link below. (Due Thursday, February 1 by 8PM)
 - **Weekly Homework 3:** Prove **two** of Corollary 2.41, Theorem 2.42, Theorem 2.44, Theorem 2.45, Theorem 2.47(a), Theorem 2.47(b), Theorem 2.50, Theorem 2.63. You must type up your proofs using LaTeX.  (Due Thursday, February 8 by 8PM)
+- **Weekly Homework 4:** Complete each of the following tasks. (Due Thursday, February 22 by 8PM)
+  - Prove **one** of Theorems 3.19 and 3.21.
+  - Determine whether each of the following statements is true or false. If a statement is true, write a short proof. If a statement is false, justify your reasoning. In each case, the context should make it clear what each letter represents. In particular, in Items 1, 3, and 5, $r$ represents rotation of a square by a quarter turn clockwise. But in Item 4, $r$ represents rotating a triangle by a third of a turn clockwise.
+      1. $\\{s, r, sr, rs\\}\leq D_4$
+      2. $\\{1, -1, i, -i, j, -j\\}\leq Q_8$
+      3. $\\{e, sr, rs, r^2\\}\leq D_4$
+      4. $\\{e, r, r^2\\} \leq D_3$
+      5. $\\{e, r, r^2\\} \leq D_4$
 
 <!-- - **Weekly Homework 2:** Complete each of the following tasks. You are required to type your proofs using LaTeX.  You should email me the PDF of your completed work or turn in a hardcopy. (Due Thursday, September 21 by 8PM)
   - Prove any **two** of Theorems 4.6, 4.8, or 4.20.
