@@ -41,6 +41,6 @@ This website was created using <a href="https://pages.github.com">GitHub Pages</
 # Links for discussing undergrad research
 
 - [Maximal reversal distance]({{ site.baseurl }}/images/JMM2018-Rosenberg2.pdf)
-- [Mastumoto graph for longest element in $A_3$]({{ site.baseurl }}/images/DanaTeachingWide.jpg)
+- [Mastumoto graph for longest element in $A_3$]({{ site.baseurl }}/images/matsumoto.pdf)
 - [Steinhaus–Johnson–Trotter algorithm](https://en.wikipedia.org/wiki/Steinhaus–Johnson–Trotter_algorithm)
 - Combinatorial game theory stuff with light up grid...
