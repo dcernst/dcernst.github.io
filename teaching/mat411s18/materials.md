@@ -124,8 +124,8 @@ The notes will be released incrementally. Each link below is to a PDF file. If y
     - [Problem 2.10]({{ site.baseurl }}/teaching/mat411s18/Problem2.10.jpg)
     - [Problem 2.11]({{ site.baseurl }}/teaching/mat411s18/Problem2.11.jpg)
     - [Theorem 2.43]({{ site.baseurl }}/teaching/mat411s18/Theorem2.43.jpg)
-    - [Problem 3.17]({{ site.baseurl }}/teaching/mat411s18/Problem3.17.jpg)
-    - [Theorem 3.19]({{ site.baseurl }}/teaching/mat411s18/Theorem3.19.jpg)
+    - [Problem 3.17]({{ site.baseurl }}/teaching/mat411s18/Problem3.17.JPG)
+    - [Theorem 3.19]({{ site.baseurl }}/teaching/mat411s18/Theorem3.19.JPG)
 
 <!--
     - [On being wrong &#124; Kathryn Schulz](https://www.youtube.com/watch?v=QleRgTBMX88) (17:51 min)
