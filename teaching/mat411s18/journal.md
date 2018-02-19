@@ -69,5 +69,13 @@ We’ll use this page to keep track of what has happened each day in class. It w
 <ul class="fa-ul">
   <li><i class="fa-li far fa-calendar-check"></i><b>Monday, February 12:</b> I lectured over the remaining portion of Chapter 2.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, February 14:</b> I lectured over the beginning of Chapter 3.  We discussed up to Problem 3.12.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, February 16:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, February 16:</b> After handing back the in-class portion of Exam 1, we split the class up into several small groups.  We had LD, ER, JB, ML, CW, DC, RH, FZ, and RD present Problems 3.13(a), 3.13(b), 3.13(c), 3.13(d), 3.15(a), 3.15(b), 3.16(a), 3.16(b), and 3.16(e), respectively.  We will tackle the leftover problems on Monday.</li>
+</ul>
+
+## Week 6 ##
+
+<ul class="fa-ul">
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, February 19:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, February 21:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, February 23:</b> Coming soon.</li>
 </ul>
