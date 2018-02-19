@@ -74,6 +74,14 @@ We’ll use this page to keep track of what has happened each day in class. It w
   <li><i class="fa-li far fa-calendar-check"></i><b>Friday, February 16:</b> Most of the class meeting was spent discussing Problem 35 (Star Base). AM2 proved one implication of the conjecture about Problem 35 and AM1 attempted to prove the reverse implication.  With the time we had left, BH and TB quickly presented proofs for Theorems D and E from Problem 37.</li>
 </ul>
 
+## Week 6 ##
+
+<ul class="fa-ul">
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, February 19:</b> Lots of Circle-Dot today!  We divided the class up into 6 small groups, each tasked with proving one of the remaining theorems about Circle-Dot.  We had MY, BH/JS1, MN/TM, KF, GS, and PH, present Theorems F, G, H, I, J, and K, respectively from Problem 37.  We also had AM share her conjecture and some justification about which sequences of circles and dots are attainable in Circle-Dot.  We left it as an open question.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, February 21:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, February 23:</b> The students took Quiz 3.</li>
+</ul>
+
 <!-- ## Week 1 ##
 
 <ul class="fa-ul">
