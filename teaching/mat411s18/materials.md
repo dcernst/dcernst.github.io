@@ -59,10 +59,15 @@ The notes will be released incrementally. Each link below is to a PDF file. If y
     - 2.4 Generating Sets
     - 2.5 Group Tables
     - 2.6 Cayley Diagrams
-- [Chapter 3: Subgroups and Isomorphisms]({{site.baseurl}}/teaching/mat411s18/SubgroupsIsomorphisms.pdf) (under construction)
+- [Chapter 3: Subgroups and Isomorphisms]({{site.baseurl}}/teaching/mat411s18/SubgroupsIsomorphisms.pdf)
     - 3.1 Subgroups
     - 3.2 Subgroup Lattices
     - 3.3 Isomorphisms
+- [Chapter 4: Families of Groups]({{site.baseurl}}/teaching/mat411s18/Families.pdf) (coming soon)
+    - 4.1 Cyclic Groups
+    - 4.2 Dihedral Groups
+    - 4.3 Symmetric Groups
+    - 4.4 Alternating Groups
 - [Appendix A: Elements of Style for Proofs]({{site.baseurl}}/teaching/mat411s18/ElementsOfStyle.pdf)
 - [Appendix B: Fancy Mathematical Terms]({{site.baseurl}}/teaching/mat411s18/FancyMathematicalTerms.pdf)
 - [Appendix C: Definitions in Mathematics]({{site.baseurl}}/teaching/mat411s18/Definitions.pdf)
