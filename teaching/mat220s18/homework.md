@@ -50,4 +50,5 @@ The following assignments are due at the beginning of the indicated class meetin
 <li><i class="fa-li fa fa-edit"></i><b>Homework 15:</b> Complete the rest of Problem 37 from the <a href="https://dcernst.github.io/teaching/mat220s18/220ProblemCollection.pdf">Problem Collection</a>. (Due Monday, February 19)</li>
 <li><i class="fa-li fa fa-edit"></i><b>Homework 16:</b> Complete Problems 38-40 from the <a href="https://dcernst.github.io/teaching/mat220s18/220ProblemCollection.pdf">Problem Collection</a>. (Due Wednesday, February 21)</li>
 <li><i class="fa-li fa fa-edit"></i><b>Homework 17:</b> Complete Problems 41-43 from the <a href="https://dcernst.github.io/teaching/mat220s18/220ProblemCollection.pdf">Problem Collection</a>. (Due Monday, February 26)</li>
+<li><i class="fa-li fa fa-edit"></i><b>Homework 18:</b> Complete Problems 44-46 from the <a href="https://dcernst.github.io/teaching/mat220s18/220ProblemCollection.pdf">Problem Collection</a>. (Due Wednesday, February 28)</li>
 </ul>

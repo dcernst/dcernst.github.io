@@ -77,5 +77,13 @@ We’ll use this page to keep track of what has happened each day in class. It w
 <ul class="fa-ul">
   <li><i class="fa-li far fa-calendar-check"></i><b>Monday, February 19:</b> We spent the first few minutes summarizing the notion of the center of a group.  Next, AM, GT, BH, JW, JC, MD, DC, JS, and SJ presented Problem 3.17, Theorem 3.19, Problem 3.20, Theorem 3.21, Problem 3.22(a)(b), Problem 3.22(c)(d), Problem 3.22(e), Problem 3.22(f)(g), and Problem 3.22(j)(k), respectively.  Along the way, I presented Problem 3.18. We will address parts (h) and (i) of Problem 3.22 on Wednesday.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, February 21:</b> After handing back the take-home portion of Exam 1, we jumped right into student presentations.  We had QC, RF, VM, RD, AT, JS, MS, and AS present Problem 3.22(h), Problem 3.22(i), Theorem 3.23, Problem 3.25, Problem 3.27, Problem 3.28, Problem 3.29, and Problem 3.30, respectively.  Along the way, I also quickly proved Theorem 3.26.  We will take care of Problems 3.31 and 3.32 next time.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, February 23:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, February 23:</b> We got a lot done today and nearly got through everything. We kicked off with a quick discussion of matching for finite groups involving Cayley diagrams.  We had MM, MD, VM, CW, FZ, TC, ER, MS, and SJ present Problem 3.31, Problem 3.32, Problem 3.33, Theorem 3.34, Problem 3.35, Problem 3.36, Problem 3.37, Problem 3.38, and Problem 3.39, respectively.  We will take a look at Problem 3.40 on Monday.</li>
+</ul>
+
+## Week 7 ##
+
+<ul class="fa-ul">
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, February 26:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, February 28:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, March 2:</b> Coming soon.</li>
 </ul>
