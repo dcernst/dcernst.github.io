@@ -126,6 +126,7 @@ The notes will be released incrementally. Each link below is to a PDF file. If y
     - [KhanAcademy interview with Carol Dweck about growth mindset](https://www.youtube.com/watch?time_continue=1&v=wh0OS4MrN3E) (3:06 min)
     - [Make Mistakes &#124; Michael Starbird](https://www.youtube.com/watch?v=2yYQ-1X2ocU) (2:11 min)
     - [Learning Like a Jungle Tiger &#124; Trevor Ragan](https://www.youtube.com/watch?v=muoVtDjjonM&feature=youtu.be) (5:23 min)
+    - [Ira Glass on the Creative Process](https://www.youtube.com/watch?v=PbC4gqZGPSY&feature=youtu.be) (1:54 min)
 - Pictures of board work that we ran out of time to discuss. *Note:* You should not assume that the solutions/proof posted below are valid.
     - [Problem 2.10]({{ site.baseurl }}/teaching/mat411s18/Problem2.10.jpg)
     - [Problem 2.11]({{ site.baseurl }}/teaching/mat411s18/Problem2.11.jpg)
