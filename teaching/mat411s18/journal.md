@@ -83,7 +83,7 @@ We’ll use this page to keep track of what has happened each day in class. It w
 ## Week 7 ##
 
 <ul class="fa-ul">
-  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, February 26:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, February 26:</b> We had FA/JC, AT, QC, AM, and SJ present Problems 3.40(b), 3.40(cd), 3.40(e), 3.41, and 3.42.  This was followed by a discussion of Problem 3.43, Problem 3.44, Theorem 3.45, and Problem 3.47.  There were a few we didn't get to, so we will have to address them next time.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, February 28:</b> Coming soon.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Friday, March 2:</b> Coming soon.</li>
 </ul>

@@ -81,3 +81,11 @@ We’ll use this page to keep track of what has happened each day in class. It w
   <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, February 21:</b> At the beginning of class, JS2 offered to revisit Circle-Dot.  His initial conjecture was that all sequences of circles and dots were obtainable, but he realized there was a flaw in his argument.  Note that this doesn't imply anything one way or the other.  All we know is that his approach failed.  Our discussion of Circle-Dot was followed by a discussion of axioms, axiomatic systems, theorems, incompleteness, and decidability.  Next, KP and AW nicely handled Problem 38 (number of ways to make 110 from 14 distinct numbers).  Then HM presented an easy to follow algebraic proof of Problem 39 (yet another identity involving triangular numbers).  With the few minutes we had left, I hinted at a visual proof for Problem 38.  We will tackle Problem 40 on Monday next week.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Friday, February 23:</b> The students took Quiz 3.</li>
 </ul>
+
+## Week 6 ##
+
+<ul class="fa-ul">
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, February 26:</b> The first thing we did was revisit a visual proof for Problem 39.  Next, we had JC, GS/TB, KP, and SG present Problems 40, 41, 42, and 43.  Along the way, I discussed pancake sorting, as well as the connection between genome rearrangements and reversal sorting.  We had a couple minutes left at the end to discuss Problems 44 and 45, which are due on Wednesday.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, February 28:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, March 2:</b> Coming soon.</li>
+</ul>
