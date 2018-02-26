@@ -41,6 +41,7 @@ Below you will find notes and handouts that we have used in class, as well as so
     - [Grit: the power of passion and perseverance &#124; Angela Lee Duckworth](https://www.youtube.com/watch?v=H14bBuluwB8) (6:12 min)
     - [KhanAcademy interview with Carol Dweck about growth mindset](https://www.youtube.com/watch?time_continue=1&v=wh0OS4MrN3E) (3:06 min)
     - [Make Mistakes &#124; Michael Starbird](https://www.youtube.com/watch?v=2yYQ-1X2ocU) (2:11 min)
+    - [Learning Like a Jungle Tiger &#124; Trevor Ragan](https://www.youtube.com/watch?v=muoVtDjjonM&feature=youtu.be) (5:23 min)
 - [Problem Collection for Mathematical Reasoning]({{ site.baseurl }}/teaching/mat220s18/220ProblemCollection.pdf) (PDF)
 - [Quiz 1]({{ site.baseurl }}/teaching/mat220s18/220Quiz1.pdf) (PDF)
 - [Quiz 2]({{ site.baseurl }}/teaching/mat220s18/220Quiz2.pdf) (PDF)
