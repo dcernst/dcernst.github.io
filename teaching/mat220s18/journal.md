@@ -82,10 +82,18 @@ We’ll use this page to keep track of what has happened each day in class. It w
   <li><i class="fa-li far fa-calendar-check"></i><b>Friday, February 23:</b> The students took Quiz 3.</li>
 </ul>
 
-## Week 6 ##
+## Week 7 ##
 
 <ul class="fa-ul">
   <li><i class="fa-li far fa-calendar-check"></i><b>Monday, February 26:</b> The first thing we did was revisit a visual proof for Problem 39.  Next, we had JC, GS/TB, KP, and SG present Problems 40, 41, 42, and 43.  Along the way, I discussed pancake sorting, as well as the connection between genome rearrangements and reversal sorting.  We had a couple minutes left at the end to discuss Problems 44 and 45, which are due on Wednesday.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, February 28:</b> Despite the weather, most students were in attendance.  We had KF, JS2, and AM present Problems 44-46, respectively.  Problem 44 went smoothly, but as expected Problems 45 and 46 were left slightly unresolved.  Certainly, a solution to Problem 46 will take care of Problem 45.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Friday, March 2:</b> Coming soon.</li>
+</ul>
+
+## Week 8 ##
+
+<ul class="fa-ul">
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, March 5:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, March 7:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, March 9:</b> The students took Quiz 4.</li>
 </ul>
