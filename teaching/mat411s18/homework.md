@@ -68,6 +68,7 @@ In addition to the Daily Homework, we will also have Weekly Homework assignments
       3. $\\{e, sr, rs, r^2\\}\leq D_4$
       4. $\\{e, r, r^2\\} \leq D_3$
       5. $\\{e, r, r^2\\} \leq D_4$
+- **Weekly Homework 5:** Prove **two** of Theorem 3.23, Theorem 3.24, Theorem 3.51, Theorem 3.52, Theorem 3.53, Theorem 3.54.  (Due Thursday, March 8 by 8PM)
 
 <!-- - **Weekly Homework 2:** Complete each of the following tasks. You are required to type your proofs using LaTeX.  You should email me the PDF of your completed work or turn in a hardcopy. (Due Thursday, September 21 by 8PM)
   - Prove any **two** of Theorems 4.6, 4.8, or 4.20.
