@@ -93,7 +93,7 @@ We’ll use this page to keep track of what has happened each day in class. It w
 ## Week 8 ##
 
 <ul class="fa-ul">
-  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, March 5:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, March 5:</b> After finally handing back Quiz 3, I spent a few minutes discussing Problem B3 (Circle-Dot stuff). After talking about the quiz, we revisited Problem 46 (light up squares in $n\times n$ grid), which we never officially settled last week. Next, we had PH and MA present Problems 49 and 51.  Problem 49 was left over from last week. We will tackle Problems 53 and 54 on Wednesday.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, March 7:</b> Coming soon.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Friday, March 9:</b> The students took Quiz 4.</li>
 </ul>
