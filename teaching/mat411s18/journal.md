@@ -91,7 +91,7 @@ We’ll use this page to keep track of what has happened each day in class. It w
 ## Week 8 ##
 
 <ul class="fa-ul">
-  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, March 5:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, March 5:</b> We tried to get caught up today, but we are still a bit behind. Before class started, I sketched skeleton proofs for Theorems 3.60-3.62 on the board. After some discussion of a few of the problems from last time, we divided the class up into 6 small groups, each tasked with discussing the proof/solution for a problem or two.  We had AM, HH, BH, and JC/VM presented Theorem 3.60, Theorem 3.61, Theorem 3.62, and Problem 4.4, respectively. After Theorem 3.62 was presented, I discussed Problems 3.64 and 3.65.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, March 7:</b> Coming soon.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Friday, March 9:</b> The students took the in-class portion of Exam 2.</li>
 </ul>
