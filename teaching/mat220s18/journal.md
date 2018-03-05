@@ -87,13 +87,13 @@ We’ll use this page to keep track of what has happened each day in class. It w
 <ul class="fa-ul">
   <li><i class="fa-li far fa-calendar-check"></i><b>Monday, February 26:</b> The first thing we did was revisit a visual proof for Problem 39.  Next, we had JC, GS/TB, KP, and SG present Problems 40, 41, 42, and 43.  Along the way, I discussed pancake sorting, as well as the connection between genome rearrangements and reversal sorting.  We had a couple minutes left at the end to discuss Problems 44 and 45, which are due on Wednesday.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, February 28:</b> Despite the weather, most students were in attendance.  We had KF, JS2, and AM present Problems 44-46, respectively.  Problem 44 went smoothly, but as expected Problems 45 and 46 were left slightly unresolved.  Certainly, a solution to Problem 46 will take care of Problem 45.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, March 2:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, March 2:</b> Dr. Hagood covered for me while I was out of town. My understanding is that SG, DW, KP, KR, and JS2 presented Problems 47(abc), 47(def), 48, 49, and 50, respectively.</li>
 </ul>
 
 ## Week 8 ##
 
 <ul class="fa-ul">
-  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, March 5:</b> After finally handing back Quiz 3, I spent a few minutes discussing Problem B3 (Circle-Dot stuff). After talking about the quiz, we revisited Problem 46 (light up squares in $n\times n$ grid), which we never officially settled last week. Next, we had PH and MA present Problems 49 and 51.  Problem 49 was left over from last week. We will tackle Problems 53 and 54 on Wednesday.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, March 5:</b> After finally handing back Quiz 3, I spent a few minutes discussing Problem B3 (Circle-Dot stuff). After talking about the quiz, we revisited Problem 46 (light up squares in $n\times n$ grid), which we never officially settled last week. Next, we had PH and MA present Problems 49 and 51.  We revisited Problem 49 because it wasn't officially settled. We will tackle Problems 53 and 54 on Wednesday.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, March 7:</b> Coming soon.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Friday, March 9:</b> The students took Quiz 4.</li>
 </ul>
