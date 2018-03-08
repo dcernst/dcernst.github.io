@@ -92,6 +92,6 @@ We’ll use this page to keep track of what has happened each day in class. It w
 
 <ul class="fa-ul">
   <li><i class="fa-li far fa-calendar-check"></i><b>Monday, March 5:</b> We tried to get caught up today, but we are still a bit behind. Before class started, I sketched skeleton proofs for Theorems 3.60-3.62 on the board. After some discussion of a few of the problems from last time, we divided the class up into 6 small groups, each tasked with discussing the proof/solution for a problem or two.  We had AM, HH, BH, and JC/VM presented Theorem 3.60, Theorem 3.61, Theorem 3.62, and Problem 4.4, respectively. After Theorem 3.62 was presented, I discussed Problems 3.64 and 3.65.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, March 7:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, March 7:</b> I think we were super productive today.  After discussing the upcoming exam, we jumped right into the current problems.  I presented Theorem 4.8, Problem 4.11, Problem 4.12, Problem 4.14, Theorem 4.17, Theorem 4.19, and Corollary 4.20.  Along the way, we had LD, JW, and FA present Problem 4.13, Theorem 4.15, and Corollary 4.18, respectively.  Theorem 3.63 is still outstanding and we will address it next week.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Friday, March 9:</b> The students took the in-class portion of Exam 2.</li>
 </ul>

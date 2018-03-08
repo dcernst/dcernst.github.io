@@ -77,7 +77,7 @@ We’ll use this page to keep track of what has happened each day in class. It w
 ## Week 6 ##
 
 <ul class="fa-ul">
-  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, February 19:</b> Lots of Circle-Dot today!  We divided the class up into 6 small groups, each tasked with proving one of the remaining theorems about Circle-Dot.  We had MY, BH/JS1, MN/TM, KF, GS, and PH, present Theorems F, G, H, I, J, and K, respectively from Problem 37.  We also had AM share her conjecture and some justification about which sequences of circles and dots are attainable in Circle-Dot.  We left it as an open question.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, February 19:</b> Lots of Circle-Dot today!  We divided the class up into 6 small groups, each tasked with proving one of the remaining theorems about Circle-Dot.  We had MY, BH/JS1, MN/TM, KF, GS, and PH, present Theorems F, G, H, I, J, and K, respectively from Problem 37.  We also had AM2 share her conjecture and some justification about which sequences of circles and dots are attainable in Circle-Dot.  We left it as an open question.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, February 21:</b> At the beginning of class, JS2 offered to revisit Circle-Dot.  His initial conjecture was that all sequences of circles and dots were obtainable, but he realized there was a flaw in his argument.  Note that this doesn't imply anything one way or the other.  All we know is that his approach failed.  Our discussion of Circle-Dot was followed by a discussion of axioms, axiomatic systems, theorems, incompleteness, and decidability.  Next, KP and AW nicely handled Problem 38 (number of ways to make 110 from 14 distinct numbers).  Then HM presented an easy to follow algebraic proof of Problem 39 (yet another identity involving triangular numbers).  With the few minutes we had left, I hinted at a visual proof for Problem 38.  We will tackle Problem 40 on Monday next week.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Friday, February 23:</b> The students took Quiz 3.</li>
 </ul>
@@ -86,7 +86,7 @@ We’ll use this page to keep track of what has happened each day in class. It w
 
 <ul class="fa-ul">
   <li><i class="fa-li far fa-calendar-check"></i><b>Monday, February 26:</b> The first thing we did was revisit a visual proof for Problem 39.  Next, we had JC, GS/TB, KP, and SG present Problems 40, 41, 42, and 43.  Along the way, I discussed pancake sorting, as well as the connection between genome rearrangements and reversal sorting.  We had a couple minutes left at the end to discuss Problems 44 and 45, which are due on Wednesday.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, February 28:</b> Despite the weather, most students were in attendance.  We had KF, JS2, and AM present Problems 44-46, respectively.  Problem 44 went smoothly, but as expected Problems 45 and 46 were left slightly unresolved.  Certainly, a solution to Problem 46 will take care of Problem 45.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, February 28:</b> Despite the weather, most students were in attendance.  We had KF, JS2, and AM2 present Problems 44-46, respectively.  Problem 44 went smoothly, but as expected Problems 45 and 46 were left slightly unresolved.  Certainly, a solution to Problem 46 will take care of Problem 45.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Friday, March 2:</b> Dr. Hagood covered for me while I was out of town. My understanding is that SG, DW, KP, KR, and JS2 presented Problems 47(abc), 47(def), 48, 49, and 50, respectively.</li>
 </ul>
 
@@ -94,6 +94,6 @@ We’ll use this page to keep track of what has happened each day in class. It w
 
 <ul class="fa-ul">
   <li><i class="fa-li far fa-calendar-check"></i><b>Monday, March 5:</b> After finally handing back Quiz 3, I spent a few minutes discussing Problem B3 (Circle-Dot stuff). After talking about the quiz, we revisited Problem 46 (light up squares in $n\times n$ grid), which we never officially settled last week. Next, we had PH and MA present Problems 49 and 51.  We revisited Problem 49 because it wasn't officially settled. We will tackle Problems 53 and 54 on Wednesday.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, March 7:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, March 7:</b> I started class by kicking around ideas about Problem 57, but we never ended up formally discussing it.  We will come back to this one next week.  We had JR, JB, AM1, BK, MN, and AW present Problems 52, 53, 54, 55(a), 55(b), and 56, respectively.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Friday, March 9:</b> The students took Quiz 4.</li>
 </ul>
