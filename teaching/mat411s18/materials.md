@@ -142,7 +142,12 @@ The notes will be released incrementally. Each link below is to a PDF file. If y
 Below are links to the take-home portions of each exam.
 
 - [Exam 1 (take-home)]({{site.baseurl}}/teaching/mat411s18/411Exam1-Home.pdf) (PDF). If you are interested in using LaTeX to type up your solutions, contact me and I will send you a link to the source file of the exam. (Due Wednesday, February 14)
-
+- [Exam 2 (take-home)]({{site.baseurl}}/teaching/mat411s18/411Exam2-Home.pdf) (PDF). If you are interested in using LaTeX to type up your solutions, contact me and I will send you a link to the source file of the exam. For the last question, you will need the following pictures of quilts that correspond to tables for groups of order 8. (Due Friday, March 16)
+    - [Quilt 1]({{site.baseurl}}/teaching/mat411s16/Quilt1.JPG)
+    - [Quilt 2]({{site.baseurl}}/teaching/mat411s16/Quilt2.JPG)
+    - [Quilt 3]({{site.baseurl}}/teaching/mat411s16/Quilt3.JPG)
+    - [Quilt 4]({{site.baseurl}}/teaching/mat411s16/Quilt4.JPG)
+    - [Quilt 5]({{site.baseurl}}/teaching/mat411s16/Quilt5.JPG)
 
 <!--
 - [Exam 1 (take-home)]({{site.baseurl}}/teaching/mat411s18/411Exam1-Home.pdf) (PDF). If you are interested in using LaTeX to type up your solutions, contact me and I will send you a link to the source file of the exam. (Due Wednesday, October 4)
