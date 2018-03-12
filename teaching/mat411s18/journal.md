@@ -95,3 +95,12 @@ We’ll use this page to keep track of what has happened each day in class. It w
   <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, March 7:</b> I think we were super productive today.  After discussing the upcoming exam, we jumped right into the current problems.  I presented Theorem 4.8, Problem 4.11, Problem 4.12, Problem 4.14, Theorem 4.17, Theorem 4.19, and Corollary 4.20.  Along the way, we had LD, JW, and FA present Problem 4.13, Theorem 4.15, and Corollary 4.18, respectively.  Theorem 3.63 is still outstanding and we will address it next week.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Friday, March 9:</b> The students took the in-class portion of Exam 2.</li>
 </ul>
+
+
+## Week 9 ##
+
+<ul class="fa-ul">
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, March 12:</b> I spent the entire class period lecturing.  We finally wrapped up Theorem 3.63 and then spent a few minutes discussing automorphisms. With the time we had left, we covered Problems 4.21 and 4.22.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, March 14:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, March 16:</b> Coming soon.</li>
+</ul>
