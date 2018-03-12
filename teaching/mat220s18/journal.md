@@ -97,3 +97,11 @@ We’ll use this page to keep track of what has happened each day in class. It w
   <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, March 7:</b> I started class by kicking around ideas about Problem 57, but we never ended up formally discussing it.  We will come back to this one next week.  We had JR, JB, AM1, BK, MN, and AW present Problems 52, 53, 54, 55(a), 55(b), and 56, respectively.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Friday, March 9:</b> The students took Quiz 4.</li>
 </ul>
+
+## Week 9 ##
+
+<ul class="fa-ul">
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, March 12:</b> DW, HM, PH, and KB presented Problems 57, 58(a), 58(bc), and 59, respectively.  We will get to Problem 60 next time.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, March 14:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, March 16:</b> Coming soon.</li>
+</ul>
