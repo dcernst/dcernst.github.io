@@ -56,4 +56,5 @@ The following assignments are due at the beginning of the indicated class meetin
 <li><i class="fa-li fa fa-edit"></i><b>Homework 21:</b> Complete Problems 55-57 from the <a href="https://dcernst.github.io/teaching/mat220s18/220ProblemCollection.pdf">Problem Collection</a>. (Due Wednesday, March 7)</li>
 <li><i class="fa-li fa fa-edit"></i><b>Homework 22:</b> Complete Problems 58-60 from the <a href="https://dcernst.github.io/teaching/mat220s18/220ProblemCollection.pdf">Problem Collection</a>. (Due Monday, March 12)</li>
 <li><i class="fa-li fa fa-edit"></i><b>Homework 23:</b> Complete Problems 61-63 from the <a href="https://dcernst.github.io/teaching/mat220s18/220ProblemCollection.pdf">Problem Collection</a>. (Due Wednesday, March 14)</li>
+<li><i class="fa-li fa fa-edit"></i><b>Homework 24:</b> Complete Problems 64-66 from the <a href="https://dcernst.github.io/teaching/mat220s18/220ProblemCollection.pdf">Problem Collection</a>. (Due Friday, March 16)</li>
 </ul>
