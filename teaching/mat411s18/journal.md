@@ -101,6 +101,6 @@ We’ll use this page to keep track of what has happened each day in class. It w
 
 <ul class="fa-ul">
   <li><i class="fa-li far fa-calendar-check"></i><b>Monday, March 12:</b> I spent the entire class period lecturing.  We finally wrapped up Theorem 3.63 and then spent a few minutes discussing automorphisms. With the time we had left, we covered Problems 4.21 and 4.22.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, March 14:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, March 14:</b> I continued lecturing over Chapter 4.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Friday, March 16:</b> Coming soon.</li>
 </ul>

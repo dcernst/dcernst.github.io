@@ -102,6 +102,6 @@ We’ll use this page to keep track of what has happened each day in class. It w
 
 <ul class="fa-ul">
   <li><i class="fa-li far fa-calendar-check"></i><b>Monday, March 12:</b> DW, HM, PH, and KB presented Problems 57, 58(a), 58(bc), and 59, respectively.  We will get to Problem 60 next time.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, March 14:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, March 14:</b> The first few minutes of class were devoted to wrapping up Problem 57.  Next, we had TM, KR, DW, and BK present Problems 60, 61, 62, and 63, respectively.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Friday, March 16:</b> Coming soon.</li>
 </ul>
