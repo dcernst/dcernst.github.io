@@ -104,3 +104,11 @@ We’ll use this page to keep track of what has happened each day in class. It w
   <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, March 14:</b> I continued lecturing over Chapter 4.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Friday, March 16:</b> More lecturing.  We more or less covered up to Theorem 4.39.</li>
 </ul>
+
+## Week 10 ##
+
+<ul class="fa-ul">
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, March 26:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, March 28:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, March 30:</b> Coming soon.</li>
+</ul>

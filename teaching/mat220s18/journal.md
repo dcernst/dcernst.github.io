@@ -105,3 +105,11 @@ We’ll use this page to keep track of what has happened each day in class. It w
   <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, March 14:</b> The first few minutes of class were devoted to wrapping up Problem 57.  Next, we had TM, KR, DW, and BK present Problems 60, 61, 62, and 63, respectively.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Friday, March 16:</b> Good turn out today, considering it is the day before spring break.  We had CN, JC, AM, and BK present Problems 64, 65, 66/67, and 68, respectively. We didn't nail down all the details about Problem 67, so we will have to briefly revisit that one after the break.</li>
 </ul>
+
+## Week 10 ##
+
+<ul class="fa-ul">
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, March 26:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, March 28:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, March 30:</b> Coming soon.</li>
+</ul>
