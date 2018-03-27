@@ -108,7 +108,7 @@ We’ll use this page to keep track of what has happened each day in class. It w
 ## Week 10 ##
 
 <ul class="fa-ul">
-  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, March 26:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, March 26:</b> Final day of lecturing before jumping back into student presentations.  We covered Corollary 4.40, Theorem 4.41, Problem 4.42, Corollary 4.43, Problem 4.46, and Corollary 4.47.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, March 28:</b> Coming soon.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Friday, March 30:</b> Coming soon.</li>
 </ul>

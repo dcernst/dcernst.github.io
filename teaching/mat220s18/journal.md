@@ -109,7 +109,7 @@ We’ll use this page to keep track of what has happened each day in class. It w
 ## Week 10 ##
 
 <ul class="fa-ul">
-  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, March 26:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, March 26:</b> After reviewing Problem 68, we had KR, DW, JR, MA, PH, and AM present aspects of Problem 67. With the time we had left, we discussed the next batch of problems, making progress on most of them.  Along the way, we had AW present Problem 71.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, March 28:</b> Coming soon.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Friday, March 30:</b> Coming soon.</li>
 </ul>
