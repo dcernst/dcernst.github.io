@@ -110,5 +110,13 @@ We’ll use this page to keep track of what has happened each day in class. It w
 <ul class="fa-ul">
   <li><i class="fa-li far fa-calendar-check"></i><b>Monday, March 26:</b> Final day of lecturing before jumping back into student presentations.  We covered Corollary 4.40, Theorem 4.41, Problem 4.42, Corollary 4.43, Problem 4.46, and Corollary 4.47.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, March 28:</b> After reviewing some of the key ideas from Section 4.1, we had RH, QC, FA, BH, and ER present Theorem 4.44, Theorem 4.45 (forward implication), Theorem 4.45 (punchline for reverse implication), Theorem 4.45 (intermediate set containments), and Problem 4.48, respectively. Part of Theorem 4.44 remains outstanding and I offered up some extra credit for figuring it out.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, March 30:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, March 30:</b> Before doing any student presentations, we discussed Corollary 4.50, Problem 4.53, Definition 4.54, Theorems 4.55-4.58, and Problems 4.59 and 4.60.  Next, we split the class up into 6 small groups, each tasked with discussing one of the remaining problems. We had SJ, AM, AS, MD, JC, and TC presented Problem 4.65, Problem 4.66, Problem 4.67, Problem 4.68, Problem 4.69, and Theorem 4.70, respectively.</li>
+</ul>
+
+## Week 11 ##
+
+<ul class="fa-ul">
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, April 2:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, April 4:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, April 6:</b> Coming soon.</li>
 </ul>

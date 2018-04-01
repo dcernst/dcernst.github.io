@@ -113,3 +113,11 @@ We’ll use this page to keep track of what has happened each day in class. It w
   <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, March 28:</b> We kicked off by reviewing Problem 64 (Quilt), which we discovered we had made a mistake on previously.  Next, we had JS1, JS2, and HM present their proposed solutions to Problem 69. This was followed by presentations for parts (b) and (c) of Problem 70 by JB and AM, respectively. Next, we had AW summarize his approach to Problem 71, which he had previously shown us on Monday.  Then TB did an excellent job of describing the solution to Problem 72. We had some time at the end of class to discuss the next batch of problems.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Friday, March 30:</b> The students took Quiz 5.</li>
 </ul>
+
+## Week 11 ##
+
+<ul class="fa-ul">
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, April 2:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, April 4:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, April 6:</b> Coming soon.</li>
+</ul>

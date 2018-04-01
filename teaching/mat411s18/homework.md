@@ -56,6 +56,7 @@ The following assignments are due at the beginning of the indicated class meetin
 - **Daily Homework 22:** Complete 4.44, 4.45, one of 4.48-4.49, one of 4.51-4.53, and think about 4.55-4.57 in [Chapter 4: Families of Groups]({{site.baseurl}}/teaching/mat411s18/Families.pdf). (Due Wednesday, March 28)
 - **Daily Homework 23:** Complete 4.58-4.60, 4.62, 4.63, 4.65-4.70 in [Chapter 4: Families of Groups]({{site.baseurl}}/teaching/mat411s18/Families.pdf). (Due Friday, March 30)
 - **Daily Homework 24:** Complete 4.71-4.84 in [Chapter 4: Families of Groups]({{site.baseurl}}/teaching/mat411s18/Families.pdf). (Due Monday, April 2)
+- **Daily Homework 25:** Complete 4.85-4.90, 4.94, 4.95 in [Chapter 4: Families of Groups]({{site.baseurl}}/teaching/mat411s18/Families.pdf). (Due Wednesday, April 4)
 
 ## Weekly Homework ##
 In addition to the Daily Homework, we will also have Weekly Homework assignments.  For most of these assignments, you will be required to submit 2-3 formally written proofs.  Typically, two of the problems will come directly from the Daily Homework from the previous week.  Any additional problems will likely be new.  You will be required to type your submission using LaTeX (see below for more on this).  You can either submit a hardcopy of your assignment or email me the PDF of your completed work. If you email me the PDF, please name your file as <code>WeeklyX-Lastname.pdf</code>, where <code>X</code> is the number of the assignment and <code>Lastname</code> is your last name.  Notice there are no spaces in the filename.
@@ -73,6 +74,7 @@ In addition to the Daily Homework, we will also have Weekly Homework assignments
       5. $\\{e, r, r^2\\} \leq D_4$
 - **Weekly Homework 5:** Prove **two** of Theorem 3.23, Theorem 3.24, Theorem 3.51, Theorem 3.52, Theorem 3.53, Theorem 3.54.  (Due Thursday, March 8 by 8PM)
 - **Weekly Homework 6:** Prove **two** of Theorem 4.10, Theorem 4.17, Theorem 4.19, Theorem 4.27, Theorem 4.39.  (Due Thursday, March 29 by 8PM)
+- **Weekly Homework 7:** Prove **two** of Theorem 4.41, Theorem 4.44, Theorem 4.45, Problem 4.51, Problem 4.52.  (Due Thursday, April 5 by 8PM)
 
 <!-- - **Weekly Homework 2:** Complete each of the following tasks. You are required to type your proofs using LaTeX.  You should email me the PDF of your completed work or turn in a hardcopy. (Due Thursday, September 21 by 8PM)
   - Prove any **two** of Theorems 4.6, 4.8, or 4.20.
