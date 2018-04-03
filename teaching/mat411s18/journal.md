@@ -116,7 +116,7 @@ We’ll use this page to keep track of what has happened each day in class. It w
 ## Week 11 ##
 
 <ul class="fa-ul">
-  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, April 2:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, April 2:</b> Somehow we managed to get through everything today. After splitting up into a few small groups, we had HH, MM, GT, JB, QC, MD, JC, and RD present Problem 4.73, Problem 4.74, Problem 4.77, Problem 4.80, Problem 4.81, Problem 4.82, Problem 4.83, and Problem 4.84, respectively.  This was followed by me presenting the proofs of Theorems 4.78 and 4.79.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, April 4:</b> Coming soon.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Friday, April 6:</b> Coming soon.</li>
 </ul>
