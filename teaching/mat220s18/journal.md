@@ -118,6 +118,6 @@ We’ll use this page to keep track of what has happened each day in class. It w
 
 <ul class="fa-ul">
   <li><i class="fa-li far fa-calendar-check"></i><b>Monday, April 2:</b> We had BH, TM, GS, and KF present Problems 73, 74, 75, and 76, respectively. With the time we had left at the end, we briefly discussed Problems 77 and 78.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, April 4:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, April 4:</b> We had AW, JG, KP, AM, and KF present B2 from Quiz 5, B3 from Quiz 5, Problem 77, Problem 78, and Problem 79, respectively.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Friday, April 6:</b> Coming soon.</li>
 </ul>
