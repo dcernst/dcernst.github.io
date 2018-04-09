@@ -162,7 +162,7 @@ We will make limited use of BbLearn this semester, which is Northern Arizona Uni
 You should *not* look to resources outside the context of this course for help.  That is, you should not be consulting the web, other texts, other faculty, or students outside of our course.  On the other hand, you may use each other, the course notes, me, and your own intuition. However, please know that if you feel you need additional resources, please come talk to me and we will come up with an appropriate plan of action.
 
 ### Exams ###
-There will be three midterm exams and a cumulative final exam.  Each exam will be worth 18% of your overall grade.  Moreover, each exam will consist of an in-class portion (weighted 70%) and a take-home portion (weighted 30%).  The in-class portions of the midterm exams are *tentatively* scheduled for **Friday, February 9**, **Friday, March 9**, and **Friday, April 13**.  The take-home portions of midterm exams will typically be due the following Wednesday.  The final exam is schedule for **Wednesday, May 9** at 10:00AM-12:00PM.  Make-up exams will only be given under extreme circumstances, as judged by me.  In general, it will be best to communicate conflicts ahead of time.
+There will be three midterm exams and a cumulative final exam.  Each exam will be worth 18% of your overall grade.  Moreover, each exam will consist of an in-class portion (weighted 70%) and a take-home portion (weighted 30%).  The in-class portions of the midterm exams are *tentatively* scheduled for **Friday, February 9**, **Friday, March 9**, and <s>Friday, April 13</s> **Wednesday, April 18**.  The take-home portions of midterm exams will typically be due the following Wednesday.  The final exam is schedule for **Wednesday, May 9** at 10:00AM-12:00PM.  Make-up exams will only be given under extreme circumstances, as judged by me.  In general, it will be best to communicate conflicts ahead of time.
 
 ### Homework ###
 
@@ -415,7 +415,7 @@ In summary, your final grade will be determined by your scores in the following 
   <tr>
     <td>Exam 3</td>
     <td style="text-align: center;">18%</td>
-    <td>Friday, April 13</td>
+    <td>Wednesday, April 18</td>
   </tr>
 	<tr>
 		<td>Final Exam</td>
