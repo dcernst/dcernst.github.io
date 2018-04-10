@@ -119,5 +119,13 @@ We’ll use this page to keep track of what has happened each day in class. It w
 <ul class="fa-ul">
   <li><i class="fa-li far fa-calendar-check"></i><b>Monday, April 2:</b> We had BH, TM, GS, and KF present Problems 73, 74, 75, and 76, respectively. With the time we had left at the end, we briefly discussed Problems 77 and 78.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, April 4:</b> We had AW, JG, KP, AM, and KF present B2 from Quiz 5, B3 from Quiz 5, Problem 77, Problem 78, and Problem 79, respectively.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, April 6:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, April 6:</b> Sarah Watson covered for me while I was out. SG, KB, and JS2 presented Problems 80, 81, and 82 respectively.</li>
+</ul>
+
+## Week 12 ##
+
+<ul class="fa-ul">
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, April 9:</b> We spent the majority of the time reviewing the key ideas from Problems 80 and 82.  We left one aspect of Problem 82 open with the intention that students would resolve it by Wednesday.  We also had AW summarize his approach to Problem 81. With the time we had left, CN presented a solution to Problem 84, which is one of my all-time favorite problems.  Problems 83 and 85 are still outstanding.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, April 11:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, April 13:</b> The students took Quiz 6.</li>
 </ul>
