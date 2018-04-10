@@ -117,6 +117,14 @@ We’ll use this page to keep track of what has happened each day in class. It w
 
 <ul class="fa-ul">
   <li><i class="fa-li far fa-calendar-check"></i><b>Monday, April 2:</b> Somehow we managed to get through everything today. After splitting up into a few small groups, we had HH, MM, GT, JB, QC, MD, JC, and RD present Problem 4.73, Problem 4.74, Problem 4.77, Problem 4.80, Problem 4.81, Problem 4.82, Problem 4.83, and Problem 4.84, respectively.  This was followed by me presenting the proofs of Theorems 4.78 and 4.79.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, April 4:</b> Coming soon.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, April 6:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, April 4:</b> Busy day!  We had MD, AM, RH, JW, VM, and FA present Problem 4.85(ab), Problem 4.86(cd), Problem 4.87, Problem 4.88, Theorem 4.89, and Corollary 4.90, respectively.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, April 6:</b> David Deville covered for me while I was out.  RD, QC, FZ, RH, and MD presented Problem 4.94(a), Problem 4.94(b), Problem 4.95(b), Problem 4.96, and Lemma 4.97, respectively.</li>
+</ul>
+
+## Week 12 ##
+
+<ul class="fa-ul">
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, April 9:</b> After discussing my crazy bike race for a bit, we jumped back into mathematics.  After I presented the proofs of Theorems 4.97 and 4.106, we had RD, AM, MS, MM, and RH presented Problem 4.101, Problem 4.102, Problem 4.103, Problem 4.107, and Problem 4.110, respectively.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, April 11:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, April 13:</b> Coming soon.</li>
 </ul>
