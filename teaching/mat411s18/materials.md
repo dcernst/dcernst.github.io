@@ -43,7 +43,7 @@ The notes will be released incrementally. Each link below is to a PDF file. If y
 <i class="fa fa-exclamation-triangle"></i>&nbsp; These notes are currently under construction and subject to change.
 </div>
 
-<!-- - [An Inquiry-Based Approach to Abstract Algebra]({{site.baseurl}}/teaching/mat411s18/IBL-AbstractAlgebra.pdf) (complete set of notes) -->
+- [An Inquiry-Based Approach to Abstract Algebra]({{site.baseurl}}/teaching/mat411s18/IBL-AbstractAlgebra.pdf) (complete set of notes)
 
 - [Title Page]({{site.baseurl}}/teaching/mat411s18/TitlePage.pdf)
 - [Chapter 1: Introduction]({{site.baseurl}}/teaching/mat411s18/Introduction.pdf)
@@ -72,13 +72,13 @@ The notes will be released incrementally. Each link below is to a PDF file. If y
     - 5.1 Cosets
     - 5.2 Lagrange's Theorem
     - 5.3 Normal Subgroups
-- [Chapter 6: Products and Quotients of Groups]({{site.baseurl}}/teaching/mat411s18/ProductsQuotients.pdf) (Coming soon)
+- [Chapter 6: Products and Quotients of Groups]({{site.baseurl}}/teaching/mat411s18/ProductsQuotients.pdf)
     - 6.1 Products of Groups
     - 6.2 Quotients of Groups
-- [Chapter 7: Homomorphisms and the Isomorphism Theorems]({{site.baseurl}}/teaching/mat411s18/Homomorphisms.pdf) (Coming soon)
+- [Chapter 7: Homomorphisms and the Isomorphism Theorems]({{site.baseurl}}/teaching/mat411s18/Homomorphisms.pdf)
     - 7.1 Homomorphisms
     - 7.2 The Isomorphism Theorems
-- [Chapter 8: An Introduction to Rings]({{site.baseurl}}/teaching/mat411s18/Rings.pdf) (Coming soon)
+- [Chapter 8: An Introduction to Rings]({{site.baseurl}}/teaching/mat411s18/Rings.pdf)
     - 8.1 Definitions and Examples
     - 8.2 Ring Homomorphisms
     - 8.3 Ideals and Quotient Rings
