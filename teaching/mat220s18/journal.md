@@ -126,6 +126,6 @@ We’ll use this page to keep track of what has happened each day in class. It w
 
 <ul class="fa-ul">
   <li><i class="fa-li far fa-calendar-check"></i><b>Monday, April 9:</b> We spent the majority of the time reviewing the key ideas from Problems 80 and 82.  We left one aspect of Problem 82 open with the intention that students would resolve it by Wednesday.  We also had AW summarize his approach to Problem 81. With the time we had left, CN presented a solution to Problem 84, which is one of my all-time favorite problems.  Problems 83 and 85 are still outstanding.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, April 11:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, April 11:</b> After revisiting Problem 81, we had KF, DW, and AM/PH presented Problems 82, 83, and 85, respectively.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Friday, April 13:</b> The students took Quiz 6.</li>
 </ul>
