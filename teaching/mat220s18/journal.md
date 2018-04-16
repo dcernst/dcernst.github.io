@@ -129,3 +129,11 @@ We’ll use this page to keep track of what has happened each day in class. It w
   <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, April 11:</b> After revisiting Problem 81, we had KF, DW, and AM/PH presented Problems 82, 83, and 85, respectively.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Friday, April 13:</b> The students took Quiz 6.</li>
 </ul>
+
+## Week 13 ##
+
+<ul class="fa-ul">
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, April 16:</b> We spent some time reviewing Problem 85 (12 coins) and then started discussing Problem 87.  MA and TB discussed their thoughts on parts (a) and (b) of Problem 87 and then we spend the rest of class discussing my potentially sketchy approach to parts (b) and (c).</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, April 18:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, April 20:</b> Coming soon.</li>
+</ul>

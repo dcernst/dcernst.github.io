@@ -126,5 +126,13 @@ We’ll use this page to keep track of what has happened each day in class. It w
 <ul class="fa-ul">
   <li><i class="fa-li far fa-calendar-check"></i><b>Monday, April 9:</b> After discussing my crazy bike race for a bit, we jumped back into mathematics.  After I presented the proofs of Theorems 4.97 and 4.106, we had RD, AM, MS, MM, and RH presented Problem 4.101, Problem 4.102, Problem 4.103, Problem 4.107, and Problem 4.110, respectively.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, April 11:</b> Another busy day. We had ML, AS, ER, RD, GT, MD, JB, and TC presented Problem 4.111, Problem 5.2, Problem 5.3, Problem 5.4, Problem 5.5, Problem 5.6, Problem 5.7, Theorem 5.8, and Problem 5.20, respectively.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, April 13:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, April 13:</b> Dr. Falk covered for me while I was at the Southwestern Undergraduate Mathematics Research Conference with several students from class.  Dr. Falk lectured over the beginning of Chapter 8.</li>
+</ul>
+
+## Week 13 ##
+
+<ul class="fa-ul">
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, April 16:</b> Exciting and busy day!  We more or less wrapped up Chapter 5.  We had FA, JW, and JB present Problem 5.24, Problem 5.25, and Theorem 5.30 and I presented Theorem 5.21, Corollary 5.22, Problem 5.28, Theorem 5.29, Problem 5.31, Theorem 5.32, Problem 5.33, and Theorem 5.35 (although, we didn't finish 5.35).</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, April 18:</b> The students took the in-class portion of Exam 3.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, April 20:</b> Coming soon.</li>
 </ul>
