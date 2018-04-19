@@ -66,5 +66,5 @@ The following assignments are due at the beginning of the indicated class meetin
 <li><i class="fa-li fa fa-edit"></i><b>Homework 31:</b> Revisit Problem 82 (and Problems 83 and 85 if necessary) from the <a href="https://dcernst.github.io/teaching/mat220s18/220ProblemCollection.pdf">Problem Collection</a>. (Due Wednesday, April 11)</li>
 <li><i class="fa-li fa fa-edit"></i><b>Homework 32:</b> Complete Problems 86 and 87 from the <a href="https://dcernst.github.io/teaching/mat220s18/220ProblemCollection.pdf">Problem Collection</a>. (Due Monday, April 16)</li>
 <li><i class="fa-li fa fa-edit"></i><b>Homework 33:</b> Revisit Problem 87 and complete Problem 88 from the <a href="https://dcernst.github.io/teaching/mat220s18/220ProblemCollection.pdf">Problem Collection</a>. (Due Wednesday, April 18)</li>
-<li><i class="fa-li fa fa-edit"></i><b>Homework 34:</b> Complete Problems 89-91 from the <a href="https://dcernst.github.io/teaching/mat220s18/220ProblemCollection.pdf">Problem Collection</a>. (Due Friday, April 20)</li>
+<li><i class="fa-li fa fa-edit"></i><b>Homework 34:</b> Revisit Problem 88 and complete Problems 89 and 90 from the <a href="https://dcernst.github.io/teaching/mat220s18/220ProblemCollection.pdf">Problem Collection</a>. (Due Friday, April 20)</li>
 </ul>
