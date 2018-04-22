@@ -135,7 +135,7 @@ We’ll use this page to keep track of what has happened each day in class. It w
 <ul class="fa-ul">
   <li><i class="fa-li far fa-calendar-check"></i><b>Monday, April 16:</b> We spent some time reviewing Problem 85 (12 coins) and then started discussing Problem 87.  MA and TB discussed their thoughts on parts (a) and (b) of Problem 87 and then we spend the rest of class discussing my potentially sketchy approach to parts (b) and (c).</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, April 18:</b> AM shared her thoughts on part (b) of Problem 87 and then I addressed part (d). Next, we had KP, TM, MN, JC, and KR, DW present the remaining parts of Problem 87. This was followed by presentations of the cases for 2, 3, 4, and 5 orbs by DW, KF, and JS2.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, April 20:</b> We kicked off with JS presenting Problem B.2 from Quiz 6 and then I discussed Problem B.3.  After I fumbled with the case of 5 orbs for Problem 88, we decided to put it aside and tackle Problem 89.  We had ??, BH, MN, and JS present parts (a), (b), (c), and (d), respectively, of Problem 89.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, April 20:</b> We kicked off with JS presenting Problem B.2 from Quiz 6 and then I discussed Problem B.3.  After I fumbled with the case of 5 orbs for Problem 88, we decided to put it aside and tackle Problem 89.  We had KF, BH, MN, and JS present parts (a), (b), (c), and (d), respectively, of Problem 89.</li>
 </ul>
 
 ## Week 14 ##
