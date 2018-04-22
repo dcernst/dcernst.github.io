@@ -68,4 +68,6 @@ The following assignments are due at the beginning of the indicated class meetin
 <li><i class="fa-li fa fa-edit"></i><b>Homework 33:</b> Revisit Problem 87 and complete Problem 88 from the <a href="https://dcernst.github.io/teaching/mat220s18/220ProblemCollection.pdf">Problem Collection</a>. (Due Wednesday, April 18)</li>
 <li><i class="fa-li fa fa-edit"></i><b>Homework 34:</b> Revisit Problem 88 and complete Problem 89 from the <a href="https://dcernst.github.io/teaching/mat220s18/220ProblemCollection.pdf">Problem Collection</a>. (Due Friday, April 20)</li>
 <li><i class="fa-li fa fa-edit"></i><b>Homework 35:</b> Revisit Problem 88 yet again and complete Problems 90 and 91 from the <a href="https://dcernst.github.io/teaching/mat220s18/220ProblemCollection.pdf">Problem Collection</a>. (Due Monday, April 23)</li>
+<li><i class="fa-li fa fa-edit"></i><b>Homework 36:</b> Complete Problems 92 and 93 from the <a href="https://dcernst.github.io/teaching/mat220s18/220ProblemCollection.pdf">Problem Collection</a>. (Due Wednesday, April 25)</li>
+
 </ul>
