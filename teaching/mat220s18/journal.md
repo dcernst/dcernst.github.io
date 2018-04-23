@@ -141,7 +141,7 @@ We’ll use this page to keep track of what has happened each day in class. It w
 ## Week 14 ##
 
 <ul class="fa-ul">
-  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, April 23:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, April 23:</b> We spent some time at the beginning of class discussing the Futurama Theorem. Then we had TB, JB, AM, JR, and GS present Problems 88($n=6$), 88($n=7$), 88($n=8$), 91, and 90, respectively. Problem 90 is related to Google PageRank and we will return to this on Wednesday.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, April 25:</b> Coming soon.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Friday, April 27:</b> Coming soon.</li>
 </ul>
