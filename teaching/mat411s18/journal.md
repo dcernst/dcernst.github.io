@@ -142,7 +142,7 @@ We’ll use this page to keep track of what has happened each day in class. It w
 <ul class="fa-ul">
   <li><i class="fa-li far fa-calendar-check"></i><b>Monday, April 23:</b> I continued lecturing over Chapter 6.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, April 25:</b> More lecturing.  We wrapped up Chapter 6 and discussed some of Chapter 7.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, April 27:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, April 27:</b> We had LD and HH present Theorem 7.12 and Problem 7.18, respectively.  Along the way, I presented Problem 7.15, Problem 7.16, Problem 7.17, and most of the proof of the Theorem 7.20 (First Isomorphism Theorem).</li>
 </ul>
 
 ## Week 15 ##
