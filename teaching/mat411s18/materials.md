@@ -113,14 +113,14 @@ The notes will be released incrementally. Each link below is to a PDF file. If y
     - [The unexpected benefit of celebrating failure &#124; Astro Teller](https://www.youtube.com/watch?time_continue=1&v=2t13Rq4oc7A) -->
 
 ## Exams
-Below are links to the take-home portions of each exam.
+Below are links to the take-home portions of each exam. If you are interested in using LaTeX to type up your solutions, contact me and I will send you a link to the source file of the exam.
 
-- [Exam 1 (take-home portion)]({{site.baseurl}}/teaching/mat411s18/411Exam1-Home.pdf) (PDF). If you are interested in using LaTeX to type up your solutions, contact me and I will send you a link to the source file of the exam. (Due Wednesday, February 14)
-- [Exam 2 (take-home portion)]({{site.baseurl}}/teaching/mat411s18/411Exam2-Home.pdf) (PDF). If you are interested in using LaTeX to type up your solutions, contact me and I will send you a link to the source file of the exam. For the last question, you will need the following pictures of quilts that correspond to tables for groups of order 8. (Due Friday, March 16)
+- [Exam 1 (take-home portion)]({{site.baseurl}}/teaching/mat411s18/411Exam1-Home.pdf) (PDF). (Due Wednesday, February 14)
+- [Exam 2 (take-home portion)]({{site.baseurl}}/teaching/mat411s18/411Exam2-Home.pdf) (PDF). For the last question, you will need the following pictures of quilts that correspond to tables for groups of order 8. (Due Friday, March 16)
     - [Quilt 1]({{site.baseurl}}/teaching/mat411s16/Quilt1.JPG)
     - [Quilt 2]({{site.baseurl}}/teaching/mat411s16/Quilt2.JPG)
     - [Quilt 3]({{site.baseurl}}/teaching/mat411s16/Quilt3.JPG)
     - [Quilt 4]({{site.baseurl}}/teaching/mat411s16/Quilt4.JPG)
     - [Quilt 5]({{site.baseurl}}/teaching/mat411s16/Quilt5.JPG)
-- [Exam 3 (take-home portion)]({{site.baseurl}}/teaching/mat411s18/411Exam3-Home.pdf) (PDF). If you are interested in using LaTeX to type up your solutions, contact me and I will send you a link to the source file of the exam. (Due Wednesday, April 25)
-- [Final Exam (take-home portion)]({{site.baseurl}}/teaching/mat411s18/411ExamFinal-Home.pdf) (PDF). If you are interested in using LaTeX to type up your solutions, contact me and I will send you a link to the source file of the exam. (Due by 10am on Friday, May 11)
+- [Exam 3 (take-home portion)]({{site.baseurl}}/teaching/mat411s18/411Exam3-Home.pdf) (PDF). (Due Wednesday, April 25)
+- [Final Exam (take-home portion)]({{site.baseurl}}/teaching/mat411s18/411ExamFinal-Home.pdf) (PDF). (Due by 10am on Friday, May 11)
