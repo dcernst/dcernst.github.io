@@ -66,6 +66,8 @@ The following assignments are due at the beginning of the indicated class meetin
 - **Daily Homework 32:** Complete 8.8, 8.9, 8.15-8.18, 8.20, 8.27, 8.31-8.33 in [Chapter 8: An Introduction to Rings]({{site.baseurl}}/teaching/mat411s18/Rings.pdf). (Due Monday, April 30)
 - **Daily Homework 33:** Complete 8.36-8.38 in [Chapter 8: An Introduction to Rings]({{site.baseurl}}/teaching/mat411s18/Rings.pdf). (Due Wednesday, May 2)
 
+<!-- - **Daily Homework 34:** Complete 8.39, 8.42, 8.48, and ??? in [Chapter 8: An Introduction to Rings]({{site.baseurl}}/teaching/mat411s18/Rings.pdf). (Due Friday, May 4) -->
+
 ## Weekly Homework ##
 In addition to the Daily Homework, we will also have Weekly Homework assignments.  For most of these assignments, you will be required to submit 2-3 formally written proofs.  Typically, two of the problems will come directly from the Daily Homework from the previous week.  Any additional problems will likely be new.  You will be required to type your submission using LaTeX (see below for more on this).  You can either submit a hardcopy of your assignment or email me the PDF of your completed work. If you email me the PDF, please name your file as <code>WeeklyX-Lastname.pdf</code>, where <code>X</code> is the number of the assignment and <code>Lastname</code> is your last name.  Notice there are no spaces in the filename.
 
