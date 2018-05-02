@@ -71,4 +71,5 @@ The following assignments are due at the beginning of the indicated class meetin
 <li><i class="fa-li fa fa-edit"></i><b>Homework 36:</b> Complete Problems 92 and 93 from the <a href="https://dcernst.github.io/teaching/mat220s18/220ProblemCollection.pdf">Problem Collection</a>. (Due Wednesday, April 25)</li>
 <li><i class="fa-li fa fa-edit"></i><b>Homework 37:</b> Complete Problems 94 and 95 from the <a href="https://dcernst.github.io/teaching/mat220s18/220ProblemCollection.pdf">Problem Collection</a>. (Due Friday, April 27)</li>
 <li><i class="fa-li fa fa-edit"></i><b>Homework 38:</b> Complete any three of Problems 96-100 from the <a href="https://dcernst.github.io/teaching/mat220s18/220ProblemCollection.pdf">Problem Collection</a>. (Due Wednesday, May 2)</li>
+<li><i class="fa-li fa fa-edit"></i><b>Homework 39:</b> Complete any three of Problems 101-105 from the <a href="https://dcernst.github.io/teaching/mat220s18/220ProblemCollection.pdf">Problem Collection</a>. (Due Friday, May 4)</li>
 </ul>

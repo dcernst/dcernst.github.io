@@ -148,7 +148,7 @@ We’ll use this page to keep track of what has happened each day in class. It w
 ## Week 15 ##
 
 <ul class="fa-ul">
-  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, April 30:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, April 30:</b> After wrapping up the proof of the First Isomorphism Theorem, we had MS, LD, RF, and AS present Problem 7.21, Problem 7.23, Problem 8.9, and Problem 8.15, respectively.  We'll tackle the ones we didn't get to next time.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, May 2:</b> Coming soon.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Friday, May 4:</b> Coming soon.</li>
 </ul>

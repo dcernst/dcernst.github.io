@@ -143,13 +143,13 @@ We’ll use this page to keep track of what has happened each day in class. It w
 <ul class="fa-ul">
   <li><i class="fa-li far fa-calendar-check"></i><b>Monday, April 23:</b> We spent some time at the beginning of class discussing the Futurama Theorem. Then we had TB, JB, AM, JR, and GS present Problems 88($n=6$), 88($n=7$), 88($n=8$), 91, and 90, respectively. Problem 90 is related to Google PageRank and we will return to this on Wednesday.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, April 25:</b> I spent the first few minutes discussing Google PageRank in the context of Problem 90. Then we had KB and AM share their proposed solutions to Problem 92 (Good Teacher).  This one was left unresolved.  Next, SG presented an elegant solution to Problem 93.  With the few minutes we had left, we briefly discussed induction.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, April 27:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, April 27:</b> After a short wrap-up discussion of Problem 92, we had AW and BH present Problems 94 and 95, respectively.</li>
 </ul>
 
 ## Week 15 ##
 
 <ul class="fa-ul">
-  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, April 30:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, April 30:</b> The students took Quiz 6.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, May 2:</b> Coming soon.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Friday, May 4:</b> Coming soon.</li>
 </ul>
