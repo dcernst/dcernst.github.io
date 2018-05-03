@@ -150,6 +150,6 @@ We’ll use this page to keep track of what has happened each day in class. It w
 
 <ul class="fa-ul">
   <li><i class="fa-li far fa-calendar-check"></i><b>Monday, April 30:</b> The students took Quiz 6.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, May 2:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, May 2:</b> We had KP, JS1, and JC/PH present Problems 96, 97, and 98, respectively.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Friday, May 4:</b> Coming soon.</li>
 </ul>

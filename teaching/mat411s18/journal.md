@@ -149,6 +149,6 @@ We’ll use this page to keep track of what has happened each day in class. It w
 
 <ul class="fa-ul">
   <li><i class="fa-li far fa-calendar-check"></i><b>Monday, April 30:</b> After wrapping up the proof of the First Isomorphism Theorem, we had MS, LD, RF, and AS present Problem 7.21, Problem 7.23, Problem 8.9, and Problem 8.15, respectively.  We'll tackle the ones we didn't get to next time.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, May 2:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, May 2:</b> We didn't get through everything today, but we accomplished a lot.  We had JS, ML, MM, ER, TC, BH, JB and LD present Problem 8.16, Problem 8.17, Theorem 8.18, Problem 8.31(a), Problem 8.31(b), Problem 8.31(c), Problem 8.32, and Theorem 8.38(b), respectively.  Along the way, we also addressed Problem 8.20.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Friday, May 4:</b> Coming soon.</li>
 </ul>
