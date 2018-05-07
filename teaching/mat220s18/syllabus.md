@@ -261,7 +261,7 @@ Presentations will be assessed using the following criteria.
 </table>
 </center>
 
-You should aim to avoid unsatisfactory (U) presentations. An in progress (I) presentation should not be viewed as a bad thing as each of us will occasionally get stuck. However, you should strive for the majority of your presentations to meet (M) or exceed (E) expectations.  Most presentations will meet expectations (M) while presentations that exceed expectations (E) will be rare. You should not let the rubric deter you from presenting if you have an idea about a solution/proof that you'd like to present but are worried that your solution/proof is incomplete or you are not confident your solution/proof is correct.  You will be rewarded for being courageous and sharing your creative ideas!  In my view, an interestingly wrong solution or proof makes for the best presentation since it generates the best discussion. This is really what we are after. On the other hand, you should not come to the board to present unless you have spent time thinking about the problem and have something meaningful to contribute. I will provide a progress report concerning each student's presentation history after each of the midterm exams.
+You should aim to avoid unsatisfactory (U) presentations. An in progress (I) presentation should not be viewed as a bad thing as each of us will occasionally get stuck. However, you should strive for the majority of your presentations to meet (M) or exceed (E) expectations.  Most presentations will meet expectations (M) while presentations that exceed expectations (E) will be rare. You should not let the rubric deter you from presenting if you have an idea about a solution/proof that you'd like to present but are worried that your solution/proof is incomplete or you are not confident your solution/proof is correct.  You will be rewarded for being courageous and sharing your creative ideas!  In my view, an interestingly wrong solution or proof makes for the best presentation since it generates the best discussion. This is really what we are after. On the other hand, you should not come to the board to present unless you have spent time thinking about the problem and have something meaningful to contribute.
 
 #### Selecting Presenters
 
@@ -340,15 +340,15 @@ Your Presentation and Participation grade is determined by your frequency and ab
 	<tbody>
 	<tr>
 		<td style="text-align: center;">90-100%</td>
-		<td>Student receives M or E for participation. Student averages at least 3 presentations prior to each of the exams. Student often volunteers to present and some of these problems are challenging. Most presentations receive M or E.</td>
+		<td>Student receives M or E for participation. Student averages at least 3 presentations every four weeks. Student often volunteers to present and some of these problems are challenging. Most presentations receive M or E.</td>
 	</tr>
 	<tr>
 		<td style="text-align: center;">80-89%</td>
-		<td>Student receives M or E for participation. Student averages at least 2 presentations prior to each of the exams. Student occasionally volunteers to present. Most presentations receive M.</td>
+		<td>Student receives M or E for participation. Student averages at least 2 presentations every four weeks. Student occasionally volunteers to present. Most presentations receive M.</td>
 	</tr>
 	<tr>
 		<td style="text-align: center;">70-79%</td>
-		<td>Student receives M for participation. Student averages less than 2 presentations prior to each of the exams. Student rarely volunteers to present and actively avoids presenting challenging problems. A few presentations receive U.</td>
+		<td>Student receives M for participation. Student averages less than 2 presentations every four weeks. Student rarely volunteers to present and actively avoids presenting challenging problems. A few presentations receive U.</td>
 	</tr>
 	<tr>
 		<td style="text-align: center;">60-69%</td>
