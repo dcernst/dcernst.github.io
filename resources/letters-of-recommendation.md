@@ -46,8 +46,6 @@ Of course, it's never pleasant to nag, but with a little effort you can do it ki
 <p>Hi Dr. Ernst, I just wanted to remind you that the letter of recommendation to the Committee on Giving People Money for Being Awesome is due this Friday.  The letter can be sent electronically to committee@gpmfba.org.  Thanks!</p>
 </blockquote>
 
-> Hi Dr. Ernst, I just wanted to remind you that the letter of recommendation to the Committee on Giving People Money for Being Awesome is due this Friday.  The letter can be sent electronically to committee@gpmfba.org.  Thanks!
-
 <div class="alert alert-info" role="alert">
 <i class="far fa-hand-peace"></i>&nbsp; This page is an adaptation of <a href="http://ozark.hendrix.edu/~yorgey/pub/reference-guide.pdf" class="alert-link">Letters of Recommendation: A Guide for Students</a>, which was written by <a href="http://ozark.hendrix.edu/~yorgey" class="alert-link">Dr. Brent A. Yorgey</a> (Hendrix College). Yorgey's version is a derivation of <a href="http://cs.wellesley.edu/~anderson/recommendations-policy.html" class="alert-link">Getting a Letter of Recommendation</a> by <a href="http://cs.wellesley.edu/~anderson/" class="alert-link">Dr. Scott D. Anderson</a>.
 </div>
