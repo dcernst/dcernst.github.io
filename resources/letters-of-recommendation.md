@@ -5,9 +5,9 @@ layout: default
 ---
 
 <ol class="breadcrumb">
-  - <a href="/"><i class="fa fa-home"></i></a>
-  - <a href="/resources/">Resources</a>
-  <li class="active">{{ page.title }}
+  <li><a href="/"><i class="fa fa-home"></i></a></li>
+  <li><a href="/resources">Resources</a></li>
+  <li class="active">{{ page.title }}</li>
 </ol>
 
 Part of my job as a professor is to write letters of recommendations for students, and I'm happy to do it. Here's what you need to know to make sure the process is pleasant and effective for both of us.
