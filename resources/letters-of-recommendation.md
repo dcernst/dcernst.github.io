@@ -1,5 +1,5 @@
 ---
-title: Letters of Recommendation: A Guide for Students
+title: "Letters of Recommendation: A Guide for Students"
 author: Dana Ernst
 layout: default
 ---
