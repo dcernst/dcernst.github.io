@@ -42,6 +42,10 @@ As happy as I am to write letters of recommendation, they take time, which is al
 
 Of course, it's never pleasant to nag, but with a little effort you can do it kindly and politely, especially since I have explicitly asked you to do so. For example, you could send an email saying something like:
 
+<blockquote>
+<p>Hi Dr. Ernst, I just wanted to remind you that the letter of recommendation to the Committee on Giving People Money for Being Awesome is due this Friday.  The letter can be sent electronically to committee@gpmfba.org.  Thanks!</p>
+</blockquote>
+
 > Hi Dr. Ernst, I just wanted to remind you that the letter of recommendation to the Committee on Giving People Money for Being Awesome is due this Friday.  The letter can be sent electronically to committee@gpmfba.org.  Thanks!
 
 <div class="alert alert-info" role="alert">
