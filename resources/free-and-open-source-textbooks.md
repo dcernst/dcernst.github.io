@@ -6,7 +6,7 @@ layout: default
 
 <ol class="breadcrumb">
   <li><a href="/"><i class="fa fa-home"></i></a></li>
-  <li><a href="/resources">Resources</a></li>
+  <li>Resources</li>
   <li class="active">Textbooks</li>
 </ol>
 
