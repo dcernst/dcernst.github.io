@@ -7,24 +7,24 @@ title: Class Journal
 <ol class="breadcrumb">
   <li><a href="/"><i class="fa fa-home"></i></a></li>
   <li><a href="/teaching/">Teaching</a></li>
-  <li><a href="/teaching/mat220s18">MAT 220</a></li>
+  <li><a href="/teaching/mat220f18">MAT 220</a></li>
   <li class="active">Journal</li>
 </ol>
 
 <div class="row">
 <div class="col-xs-12">
 <div class="btn-group btn-group-justified">
-<a class="btn btn-default btn-success" href="{{site.baseurl}}/teaching/mat220s18/syllabus/">Syllabus</a>
+<a class="btn btn-default btn-success" href="{{site.baseurl}}/teaching/mat220f18/syllabus/">Syllabus</a>
 
-<a class="btn btn-default btn-primary" href="{{site.baseurl}}/teaching/mat220s18/materials/">
+<a class="btn btn-default btn-primary" href="{{site.baseurl}}/teaching/mat220f18/materials/">
 <span class="hidden-xs">Course Materials</span><span class="visible-xs">Stuff</span>
 </a>
 
-<a class="btn btn-default btn-warning" href="{{site.baseurl}}/teaching/mat220s18/homework/">
+<a class="btn btn-default btn-warning" href="{{site.baseurl}}/teaching/mat220f18/homework/">
 <span class="hidden-xs">Homework</span><span class="visible-xs">HW</span>
 </a>
 
-<a class="btn btn-default btn-info" href="{{site.baseurl}}/teaching/mat220s18/journal/">Journal</a>
+<a class="btn btn-default btn-info" href="{{site.baseurl}}/teaching/mat220f18/journal/">Journal</a>
 </div>
 </div>
 </div>
@@ -36,8 +36,24 @@ We’ll use this page to keep track of what has happened each day in class. It w
 ## Week 1 ##
 
 <ul class="fa-ul">
-  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, January 15:</b> Martin Luther King Jr. Day, no classes.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, January 17:</b> First day! The first few minutes of class were devoted to me attempting to learn names. Next, I summarized what to expect from the course, toured the the <a href="{{site.baseurl}}/teaching/mat220s18/">course webpage</a>, and summarized a few items on the <a href="{{site.baseurl}}/teaching/mat220s18/syllabus/">syllabus</a>. With the time we had left, we discussed Problems 1 and 2 from the <a href="{{site.baseurl}}/teaching/mat220s18/220ProblemCollection.pdf">Problem Collection</a>. AM2, CN, and JS2 volunteered to discuss their approaches to Problem 1. Since we were short on time, I blurted out the answer to Problem 2 in the last minute of class.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, August 27:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, August 29:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, August 31:</b> Coming soon.</li>
+</ul>
+
+## Week 2 ##
+
+<ul class="fa-ul">
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, September 3:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, September 5:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, September 7:</b> Coming soon.</li>
+</ul>
+
+<!-- ## Week 1 ##
+
+<ul class="fa-ul">
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, August 27:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, January 17:</b> First day! The first few minutes of class were devoted to me attempting to learn names. Next, I summarized what to expect from the course, toured the the <a href="{{site.baseurl}}/teaching/mat220f18/">course webpage</a>, and summarized a few items on the <a href="{{site.baseurl}}/teaching/mat220f18/syllabus/">syllabus</a>. With the time we had left, we discussed Problems 1 and 2 from the <a href="{{site.baseurl}}/teaching/mat220f18/220ProblemCollection.pdf">Problem Collection</a>. AM2, CN, and JS2 volunteered to discuss their approaches to Problem 1. Since we were short on time, I blurted out the answer to Problem 2 in the last minute of class.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Friday, January 19:</b> I think we had a great second day. After fielding a few questions about the syllabus and reminding students about the day-to-day structure, we divided the class up into 6 small groups, each tasked with discussing one of the homework problems.  We had JG/JS2, JB/DW/AM2, AW/PH presented their proposed solutions to Problems 3, 4, and 5, respectively.</li>
 </ul>
 
@@ -152,4 +168,4 @@ We’ll use this page to keep track of what has happened each day in class. It w
   <li><i class="fa-li far fa-calendar-check"></i><b>Monday, April 30:</b> The students took Quiz 6.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, May 2:</b> We had KP, JS1, and JC/PH present Problems 96, 97, and 98, respectively.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Friday, May 4:</b> Last day of classes! I had a fun semester with this group of students.  We had BK, CN, TB, JS2, JS1, and GS present Problems 99, 100, 101, 102(b), 103, and 104, respectively.</li>
-</ul>
+</ul> -->

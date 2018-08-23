@@ -7,21 +7,21 @@ layout: default
 <ol class="breadcrumb">
   <li><a href="/"><i class="fa fa-home"></i></a></li>
   <li><a href="/teaching/">Teaching</a></li>
-  <li><a href="/teaching/mat220s18">MAT 220</a></li>
+  <li><a href="/teaching/mat220f18">MAT 220</a></li>
   <li class="active">{{ page.title }}</li>
 </ol>
 
 <div class="row">
 <div class="col-xs-12">
 <div class="btn-group btn-group-justified">
-<a class="btn btn-default btn-success" href="{{site.baseurl}}/teaching/mat220s18/syllabus/">Syllabus</a>
-<a class="btn btn-default btn-primary" href="{{site.baseurl}}/teaching/mat220s18/materials/">
+<a class="btn btn-default btn-success" href="{{site.baseurl}}/teaching/mat220f18/syllabus/">Syllabus</a>
+<a class="btn btn-default btn-primary" href="{{site.baseurl}}/teaching/mat220f18/materials/">
 <span class="hidden-xs">Course Materials</span><span class="visible-xs">Stuff</span>
 </a>
-<a class="btn btn-default btn-warning" href="{{site.baseurl}}/teaching/mat220s18/homework/">
+<a class="btn btn-default btn-warning" href="{{site.baseurl}}/teaching/mat220f18/homework/">
 <span class="hidden-xs">Homework</span><span class="visible-xs">HW</span>
 </a>
-<a class="btn btn-default btn-info" href="{{site.baseurl}}/teaching/mat220s18/journal/">Journal</a>
+<a class="btn btn-default btn-info" href="{{site.baseurl}}/teaching/mat220f18/journal/">Journal</a>
 </div>
 </div>
 </div>
@@ -37,10 +37,10 @@ layout: default
     <div>
     <h3>Course Info</h3>
     <strong>Title:</strong> MAT 220: Introduction to Mathematical Reasoning<br />
-    <strong>Semester:</strong> Spring 2018<br />
+    <strong>Semester:</strong> Fall 2018<br />
     <strong>Credits:</strong> 3<br />
     <strong>Section:</strong> 1<br />
-    <strong>Time:</strong> 9:10-10:00AM MWF<br />
+    <strong>Time:</strong> 10:20-11:10AM MWF<br />
     <strong>Location:</strong> AMB 225
     </div>
   </div>
@@ -50,7 +50,7 @@ layout: default
       <h3>Instructor Info</h3>
       <i class="fa fa-user fa-fw"></i>&nbsp; Dana C. Ernst, PhD<br />
       <i class="fa fa-university fa-fw"></i>&nbsp; AMB 176<br />
-      <i class="fa fa-users fa-fw"></i>&nbsp; 10:15-11:15AM MWF, 2:30-3:45PM T<br />
+      <i class="fa fa-users fa-fw"></i>&nbsp; TBA<br />
       <i class="far fa-envelope fa-fw"></i>&nbsp; <a href="mailto:dana.ernst@nau.edu">dana.ernst@nau.edu</a><br />
       <i class="fa fa-phone fa-fw"></i>&nbsp; 928.523.6852<br />
       <i class="fa fa-link fa-fw"></i>&nbsp; <a href="{{site.baseurl}}">danaernst.com</a>
@@ -155,7 +155,7 @@ We will not be using a textbook this semester, but rather a problem sequence des
 </blockquote>
 
 ### Learning Management System ###
-We will make limited use of BbLearn this semester, which is Northern Arizona University's default learning management system (LMS).  Most course content (e.g., syllabus, course notes, homework, etc.) will be housed here on our [course webpage](http://danaernst.com/teaching/mat220s18/) that lives outside of BbLearn.  I suggest you bookmark this page.  The only thing I will use BbLearn for is to occasionally communicate grades.
+We will make limited use of BbLearn this semester, which is Northern Arizona University's default learning management system (LMS).  Most course content (e.g., syllabus, course notes, homework, etc.) will be housed here on our [course webpage](http://danaernst.com/teaching/mat220f18/) that lives outside of BbLearn.  I suggest you bookmark this page.  The only thing I will use BbLearn for is to occasionally communicate grades.
 
 ### Rules of the Game ###
 You should not look to resources outside the context of this course for help. That is, you should not be consulting the web, other texts, other faculty, or students outside of our course. On the other hand, you may use each other, the course notes, your own intuition, and me.
@@ -163,13 +163,13 @@ You should not look to resources outside the context of this course for help. Th
 ### Quizzes and Final Exam ###
 We will have 7 quizzes this semester. Tentatively, the quizzes are scheduled for the following Fridays:
 
-- Quiz 1: January 26
-- Quiz 2: February 9
-- Quiz 3: February 23
-- Quiz 4: March 9
-- Quiz 5: March 30
-- Quiz 6: April 13
-- Quiz 7: April 27
+- Quiz 1: September 7
+- Quiz 2: September 21
+- Quiz 3: October 5
+- Quiz 4: October 19
+- Quiz 5: November 2
+- Quiz 6: November 16
+- Quiz 7: November 30
 
 Each quiz will consist of a mixture of homework problems you encountered during the previous two weeks and new problems not previously attempted.   During each exam, you will have the opportunity to collaborate with your peers for a few minutes.  The amount of time you have to collaborate will diminish over the semester. Each problem will be graded using the following rubric:
 
@@ -206,7 +206,7 @@ Each quiz will consist of a mixture of homework problems you encountered during 
 </table>
 </center>
 
-Make-up quizzes will only be given under extreme circumstances, as judged by me. In general, it will be best to communicate conflicts ahead of time.  Your Quiz grade is worth 60% of your overall grade. We will also have a cumulative final exam that takes place on **Wednesday, May 9 at 7:30-9:30AM**.  Your Final Exam grade is worth 20% of your overall grade.
+Make-up quizzes will only be given under extreme circumstances, as judged by me. In general, it will be best to communicate conflicts ahead of time.  Your Quiz grade is worth 60% of your overall grade. We will also have a cumulative final exam that takes place on **Monday, December 10 at 10:00AM-12:00PM**.  Your Final Exam grade is worth 20% of your overall grade.
 
 ### Homework ###
 Homework will be assigned each class meeting, and you are expected to complete (or try your best to complete) each assignment before walking into the next class period. Homework assignments will generally consist of solving problems from the problem sequence.  Homework will be graded on a $\checkmark$-system. You are allowed (in fact, encouraged!) to modify your written solution in light of presentations made in class. However, **you are required to use the colored marker pens provided in class**. This will allow me to differentiate the work done in class versus the work you completed before class.  The grade you receive on an assignment will be determined by the work you completed prior to class.  I will provide more guidance with respect to this during the first couple weeks of the semester.
@@ -267,7 +267,7 @@ You should aim to avoid unsatisfactory (U) presentations. An in progress (I) pre
 
 In general, I will curate the list of student presenters each class meeting.  A presenter is a student that either volunteered (V) or was chosen (C) by me. Volunteering is encouraged, but being chosen without volunteering isn't bad. If more than one student volunteers for a specific problem, the student with the fewest number of presentations has priority.  I reserve the right to decline your offer to present. This may happen if you are volunteering too often (and hence removing another student's opportunity to present) or if I know in advance that another student's presentation will lead to a fruitful discussion.
 
-If you are chosen to present but would prefer not to present that particular problem, you can either negotiate presenting a different problem or take a pass (P). You may elect to pass at most three times during the semester, after which a presentation will be be deemed unsatisfactory (U). By default, if you have an unexcused absence on a day when you have been chosen to present, then your presentation will be recorded as a pass (P) unless you have already exhausted your three passes, in which case the presentation will be recorded as unsatisfactory (U).
+If you are chosen to present but would prefer not to present that particular problem, you can either negotiate presenting a different problem or take a pass (P). You may elect to pass **at most two times during the semester**, after which a presentation will be be deemed unsatisfactory (U). By default, if you have an unexcused absence on a day when you have been chosen to present, then your presentation will be recorded as a pass (P) unless you have already exhausted your three passes, in which case the presentation will be recorded as unsatisfactory (U).
 
 <center>
 <table class="table table-striped">
@@ -288,7 +288,7 @@ If you are chosen to present but would prefer not to present that particular pro
 	</tr>
 	<tr>
 		<td style="text-align: center;">P</td>
-		<td><b>Pass</b>. Student was selected to present, but asked to take a pass. Allowed at most three.</td>
+		<td><b>Pass</b>. Student was selected to present, but asked to take a pass. Allowed at most two.</td>
 	</tr>
 	</tbody>
 </table>
@@ -410,7 +410,7 @@ In summary, your overall grade is determined by your scores in the following cat
 	<tr>
 		<td>Final Exam</td>
 		<td style="text-align: center;">20%</td>
-		<td>Wednesday, May 9 at 7:30-9:30AM</td>
+		<td>Monday, December 10 at 10:00AM-12:00PM</td>
 	</tr>
 	</tbody>
 </table>
@@ -419,18 +419,19 @@ In summary, your overall grade is determined by your scores in the following cat
 In general, you should expect the grades to adhere to the standard letter-grade cutoffs: A 100-90%, B 80-89%, C 70-79%, D 60-69%, F 0-59%.
 
 ### Department and University Policies ###
-You are responsible for knowing and following the [Department of Mathematics and Statistics Policies]({{ site.baseurl }}/teaching/DepartmentPoliciesSpring2018.pdf) (PDF) and other University policies listed [here](http://nau.edu/OCLDAA/_Forms/UCC/SyllabusPolicyStmts2-2014/) (PDF).  More policies can be found in other university documents, especially the [NAU Student Handbook](http://nau.edu/Student-Life/Student-Handbook/) (see appendices) and the website of the [Office of Student Life](http://nau.edu/Student-Life/).
+You are responsible for knowing and following the [Department of Mathematics and Statistics Policies]({{ site.baseurl }}/teaching/DepartmentPoliciesFall2018.pdf) (PDF) and other University policies listed [here](https://nau.edu/OCLDAA/_Forms/UCC/SyllabusPolicyStmts/) (PDF).  More policies can be found in other university documents, especially the [NAU Student Handbook](http://nau.edu/Student-Life/Student-Handbook/) (see appendices) and the website of the [Office of Student Life](http://nau.edu/Student-Life/).
 
 As per Department Policy, cell phones, mp3 players and portable electronic communication devices, including but not limited to smart phones, cameras and recording devices, must be turned off and inaccessible during in-class tests. Any violation of this policy will be treated as academic dishonesty.
 
 ### Important Dates ###
 Here are some important dates:
 
-- **Monday, January 15:** Martin Luther King Jr. Day (no classes)
-- **Thursday, January 25:** Last day to Drop/Delete a class (without class appearing on students' transcripts)
-- **Monday, March 26:** Course withdrawal deadline
-- **Monday, March 19-Friday, March 23:** Spring Break (no classes)
-- **Wednesday, May 9:** Final Exam
+- **Monday, September 3:** Labor Day (no classes)
+- **Thursday, September 6:** Last day to Drop/Delete a class (without class appearing on students' transcripts)
+- **Friday, November 2:** Course withdrawal deadline
+- **Monday, November 12:** Veteran's Day (no classes)
+- **Wednesday, November 22-Thursday, November 23:** Thanksgiving Break (no classes)
+- **Monday, December 10:** Final Exam
 
 ### Getting Help ###
 There are many resources available to get help.  First, I recommend that you work on homework in small groups as much as possible and to come see me whenever necessary.  I am always happy to help you.  If my office hours don't work for you, then we can probably find another time to meet.  It is your responsibility to be aware of how well you understand the material.  Don't wait until it is too late if you need help.  *Ask questions*!  Lastly, you can always [email me](mailto:dana.ernst@nau.edu).

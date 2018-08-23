@@ -162,7 +162,7 @@ We will make limited use of BbLearn this semester, which is Northern Arizona Uni
 You should *not* look to resources outside the context of this course for help.  That is, you should not be consulting the web, other texts, other faculty, or students outside of our course.  On the other hand, you may use each other, the course notes, me, and your own intuition. However, please know that if you feel you need additional resources, please come talk to me and we will come up with an appropriate plan of action.
 
 ### Exams ###
-There will be three midterm exams and a cumulative final exam.  Each exam will be worth 18% of your overall grade.  Moreover, each exam will consist of an in-class portion (weighted 70%) and a take-home portion (weighted 30%).  The in-class portions of the midterm exams are *tentatively* scheduled for **Friday, February 9**, **Friday, March 9**, and <s>Friday, April 13</s> **Wednesday, April 18**.  The take-home portions of midterm exams will typically be due the following Wednesday.  The final exam is schedule for **Wednesday, May 9** at 10:00AM-12:00PM.  Make-up exams will only be given under extreme circumstances, as judged by me.  In general, it will be best to communicate conflicts ahead of time.
+There will be three midterm exams and a cumulative final exam.  Each exam will be worth 18% of your overall grade.  Moreover, each exam will consist of an in-class portion (weighted 70%) and a take-home portion (weighted 30%).  The in-class portions of the midterm exams are *tentatively* scheduled for **???**, **???**, and **???**.  The take-home portions of midterm exams will typically be due the following Wednesday.  The final exam is schedule for **Wednesday, December 12 at 7:30-9:30AM**.  Make-up exams will only be given under extreme circumstances, as judged by me.  In general, it will be best to communicate conflicts ahead of time.
 
 ### Homework ###
 
@@ -264,7 +264,7 @@ You should aim to avoid unsatisfactory (U) presentations. An in progress (I) pre
 
 In general, I will curate the list of student presenters each class meeting.  A presenter is a student that either volunteered (V) or was chosen (C) by me. Volunteering is encouraged, but being chosen without volunteering isn't bad. If more than one student volunteers for a specific problem, the student with the fewest number of presentations has priority.  I reserve the right to decline your offer to present. This may happen if you are volunteering too often (and hence removing another student's opportunity to present) or if I know in advance that another student's presentation will lead to a fruitful discussion.
 
-If you are chosen to present but would prefer not to present that particular problem, you can either negotiate presenting a different problem or take a pass (P). You may elect to pass at most three times during the semester, after which a presentation will be be deemed unsatisfactory (U). By default, if you have an unexcused absence on a day when you have been chosen to present, then your presentation will be recorded as a pass (P) unless you have already exhausted your three passes, in which case the presentation will be recorded as unsatisfactory (U).
+If you are chosen to present but would prefer not to present that particular problem, you can either negotiate presenting a different problem or take a pass (P). You may elect to pass **at most two times during the semester**, after which a presentation will be be deemed unsatisfactory (U). By default, if you have an unexcused absence on a day when you have been chosen to present, then your presentation will be recorded as a pass (P) unless you have already exhausted your three passes, in which case the presentation will be recorded as unsatisfactory (U).
 
 <center>
 <table class="table table-striped">
@@ -285,7 +285,7 @@ If you are chosen to present but would prefer not to present that particular pro
 	</tr>
 	<tr>
 		<td style="text-align: center;">P</td>
-		<td><b>Pass</b>. Student was selected to present, but asked to take a pass. Allowed at most three.</td>
+		<td><b>Pass</b>. Student was selected to present, but asked to take a pass. Allowed at most two.</td>
 	</tr>
 	</tbody>
 </table>
@@ -405,40 +405,41 @@ In summary, your final grade will be determined by your scores in the following 
 	<tr>
 		<td>Exam 1</td>
 		<td style="text-align: center;">18%</td>
-		<td>Friday, February 9</td>
+		<td>???</td>
 	</tr>
   <tr>
     <td>Exam 2</td>
     <td style="text-align: center;">18%</td>
-    <td>Friday, March 9</td>
+    <td>???</td>
   </tr>
   <tr>
     <td>Exam 3</td>
     <td style="text-align: center;">18%</td>
-    <td>Wednesday, April 18</td>
+    <td>???</td>
   </tr>
 	<tr>
 		<td>Final Exam</td>
 		<td style="text-align: center;">18%</td>
-		<td>Wednesday, May 9 at 10:00AM-12:00PM</td>
+		<td>Wednesday, December 12 at 7:30-9:30AM</td>
 	</tr>
 	</tbody>
 </table>
 </center>
 
 ### Department and University Policies ###
-You are responsible for knowing and following the [Department of Mathematics and Statistics Policies]({{ site.baseurl }}/teaching/DepartmentPoliciesSpring2018.pdf) (PDF) and other University policies listed [here](http://nau.edu/OCLDAA/_Forms/UCC/SyllabusPolicyStmts2-2014/) (PDF).  More policies can be found in other university documents, especially the [NAU Student Handbook](http://nau.edu/Student-Life/Student-Handbook/) (see appendices) and the website of the [Office of Student Life](http://nau.edu/Student-Life/).
+You are responsible for knowing and following the [Department of Mathematics and Statistics Policies]({{ site.baseurl }}/teaching/DepartmentPoliciesSpring2018.pdf) (PDF) and other University policies listed [here](https://nau.edu/OCLDAA/_Forms/UCC/SyllabusPolicyStmts/) (PDF).  More policies can be found in other university documents, especially the [NAU Student Handbook](http://nau.edu/Student-Life/Student-Handbook/) (see appendices) and the website of the [Office of Student Life](http://nau.edu/Student-Life/).
 
 As per Department Policy, cell phones, mp3 players and portable electronic communication devices, including but not limited to smart phones, cameras and recording devices, must be turned off and inaccessible during in-class tests. Any violation of this policy will be treated as academic dishonesty.
 
 ### Important Dates ###
 Here are some important dates:
 
-- **Monday, January 15:** Martin Luther King Jr. Day (no classes)
-- **Thursday, January 25:** Last day to Drop/Delete a class (without class appearing on students' transcripts)
-- **Monday, March 26:** Course withdrawal deadline
-- **Monday, March 19-Friday, March 23:** Spring Break (no classes)
-- **Wednesday, May 9:** Final Exam
+- **Monday, September 3:** Labor Day (no classes)
+- **Thursday, September 6:** Last day to Drop/Delete a class (without class appearing on students' transcripts)
+- **Friday, November 2:** Course withdrawal deadline
+- **Monday, November 12:** Veteran's Day (no classes)
+- **Wednesday, November 22-Thursday, November 23:** Thanksgiving Break (no classes)
+- **Wednesday, December 12:** Final Exam
 
 ### Getting Help ###
 There are many resources available to get help.  First, I recommend that you work on homework in small groups as much as possible and to come see me whenever necessary.  I am always happy to help you.  If my office hours don't work for you, then we can probably find another time to meet.  It is your responsibility to be aware of how well you understand the material.  Don't wait until it is too late if you need help.  *Ask questions*!  Lastly, you can always [email me](mailto:dana.ernst@nau.edu).
