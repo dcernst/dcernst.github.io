@@ -7,24 +7,24 @@ title: Class Journal
 <ol class="breadcrumb">
   <li><a href="/"><i class="fa fa-home"></i></a></li>
   <li><a href="/teaching/">Teaching</a></li>
-  <li><a href="/teaching/mat411s18">MAT 411</a></li>
+  <li><a href="/teaching/mat411f18">MAT 411</a></li>
   <li class="active">Journal</li>
 </ol>
 
 <div class="row">
 <div class="col-xs-12">
 <div class="btn-group btn-group-justified">
-<a class="btn btn-default btn-success" href="{{site.baseurl}}/teaching/mat411s18/syllabus/">Syllabus</a>
+<a class="btn btn-default btn-success" href="{{site.baseurl}}/teaching/mat411f18/syllabus/">Syllabus</a>
 
-<a class="btn btn-default btn-primary" href="{{site.baseurl}}/teaching/mat411s18/materials/">
+<a class="btn btn-default btn-primary" href="{{site.baseurl}}/teaching/mat411f18/materials/">
 <span class="hidden-xs">Course Materials</span><span class="visible-xs">Stuff</span>
 </a>
 
-<a class="btn btn-default btn-warning" href="{{site.baseurl}}/teaching/mat411s18/homework/">
+<a class="btn btn-default btn-warning" href="{{site.baseurl}}/teaching/mat411f18/homework/">
 <span class="hidden-xs">Homework</span><span class="visible-xs">HW</span>
 </a>
 
-<a class="btn btn-default btn-info" href="{{site.baseurl}}/teaching/mat411s18/journal/">Journal</a>
+<a class="btn btn-default btn-info" href="{{site.baseurl}}/teaching/mat411f18/journal/">Journal</a>
 </div>
 </div>
 </div>
@@ -34,8 +34,24 @@ We’ll use this page to keep track of what has happened each day in class. It w
 ## Week 1 ##
 
 <ul class="fa-ul">
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, August 27:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, August 29:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, August 31:</b> Coming soon.</li>
+</ul>
+
+## Week 2 ##
+
+<ul class="fa-ul">
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, September 3:</b> Labor Day! No classes.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, September 5:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, September 7:</b> Coming soon.</li>
+</ul>
+
+<!-- ## Week 1 ##
+
+<ul class="fa-ul">
   <li><i class="fa-li far fa-calendar-check"></i><b>Monday, January 15:</b> Martin Luther King Jr. Day, no classes.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, January 17:</b> First day! The first few minutes of class were devoted to me attempting to learn names. Next, I summarized what to expect from the course, toured the the <a href="{{site.baseurl}}/teaching/mat411s18/">course webpage</a>, and summarized a few items on the <a href="{{site.baseurl}}/teaching/mat411s18/syllabus/">syllabus</a>. With the time we had left, we briefly tinkered with Spinpossible.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, January 17:</b> First day! The first few minutes of class were devoted to me attempting to learn names. Next, I summarized what to expect from the course, toured the the <a href="{{site.baseurl}}/teaching/mat411f18/">course webpage</a>, and summarized a few items on the <a href="{{site.baseurl}}/teaching/mat411f18/syllabus/">syllabus</a>. With the time we had left, we briefly tinkered with Spinpossible.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Friday, January 19:</b> I think we had a great second day! After fielding a few questions about the syllabus and reminding students about the day-to-day structure, we divided the class up into 10 small groups, each tasked with discussing one of the homework problems.  We had RF, RD, SJ, JB, VM, ER, and HH presented their proposed solutions to Problems 2.1, 2.2, 2.3, 2.4, 2.5, 2.7, and 2.8, respectively. Along the way I presented a solution to Problem 2.6.  We will wrap up Problems 2.9, 2.10, and 2.11.</li>
 </ul>
 
@@ -151,4 +167,4 @@ We’ll use this page to keep track of what has happened each day in class. It w
   <li><i class="fa-li far fa-calendar-check"></i><b>Monday, April 30:</b> After wrapping up the proof of the First Isomorphism Theorem, we had MS, LD, RF, and AS present Problem 7.21, Problem 7.23, Problem 8.9, and Problem 8.15, respectively.  We'll tackle the ones we didn't get to next time.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, May 2:</b> We didn't get through everything today, but we accomplished a lot.  We had JS, ML, MM, ER, TC, BH, JB and LD present Problem 8.16, Problem 8.17, Theorem 8.18, Problem 8.31(a), Problem 8.31(b), Problem 8.31(c), Problem 8.32, and Theorem 8.38(b), respectively.  Along the way, we also addressed Problem 8.20.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Friday, May 4:</b> Last day of classes! I had a fun semester with this group of students.  We had AM, GT, FZ, LD, JW, and RD present Problem 8.33, Problem 8.36(a), Problem 8.36(b), Theorem 8.39, Theorem 8.42, and Theorem 8.43, respectively.  Along the way, I presented Problem 8.48.</li>
-</ul>
+</ul> -->
