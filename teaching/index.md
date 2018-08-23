@@ -12,18 +12,20 @@ layout: default
 This section is primarily designed for my current students, but if you are not one of my students and somehow found your way here, feel free to poke around. Unless stated otherwise, content on this site that is authored by Dana C. Ernst is licensed under a [Creative Commons Attribution-Share Alike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/).
 
 ## Office Hours ##
-My current office hours for Spring 2018 are 10:15-11:15AM on Monday, Wednesday, and Friday and 2:30-3:45PM on Tuesday (or by appointment). My office is located in room 176 of the [Adel Mathematics Building](http://maps.google.com/maps?q=Adel+Mathematics,+Flagstaff,+AZ&hl=en&sll=35.181208,-111.607959&sspn=0.231222,0.42675&oq=adel+mathe&hnear=Adel+Mathematics,+Flagstaff,+Arizona+86001&t=m&z=17) (Building 26).
+My current office hours for Fall 2018 are TBA (or by appointment). My office is located in room 176 of the [Adel Mathematics Building](http://maps.google.com/maps?q=Adel+Mathematics,+Flagstaff,+AZ&hl=en&sll=35.181208,-111.607959&sspn=0.231222,0.42675&oq=adel+mathe&hnear=Adel+Mathematics,+Flagstaff,+Arizona+86001&t=m&z=17) (Building 26).
 
 ## Current Courses ##
-Here are the courses that I am currently teaching (Fall 2017) at [Northern Arizona University](http://nau.edu).
+Here are the courses that I am currently teaching (Fall 2018) at [Northern Arizona University](http://nau.edu).
 
-- [MAT 220: Introduction to Mathematical Reasoning]({{ site.baseurl }}/teaching/mat220s18)
-- [MAT 411: Introduction to Abstract Algebra]({{ site.baseurl }}/teaching/mat411s18)
+- [MAT 220: Introduction to Mathematical Reasoning]({{ site.baseurl }}/teaching/mat220f18)
+- [MAT 411: Introduction to Abstract Algebra]({{ site.baseurl }}/teaching/mat411f18)
 
 ## Previous Courses ##
 This is a (partial) list of courses that I have taught over the past several semesters. **Note:** Some of the links on the pages below may be outdated.
 
 #### Northern Arizona University ####
+- [MAT 220: Introduction to Mathematical Reasoning]({{ site.baseurl }}/teaching/mat220s18)
+- [MAT 411: Introduction to Abstract Algebra]({{ site.baseurl }}/teaching/mat411s18)
 - [MAT 220: Introduction to Mathematical Reasoning, Fall 2017]({{ site.baseurl }}/teaching/mat220f17)
 - [MAT 411: Introduction to Abstract Algebra, Fall 2017]({{ site.baseurl }}/teaching/mat411f17)
 - [MAT 220: Introduction to Mathematical Reasoning, Spring 2017]({{ site.baseurl }}/teaching/mat220s17)
