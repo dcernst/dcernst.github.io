@@ -28,9 +28,9 @@ layout: default
 
 <br />
 
-<div class="alert alert-info" role="alert">
+<!-- <div class="alert alert-info" role="alert">
 <i class="far fa-hand-peace"></i>&nbsp; This page is under construction!
-</div>
+</div> -->
 
 <div class="row">
   <div class="col-xs-12 col-sm-6">
@@ -40,7 +40,7 @@ layout: default
     <strong>Semester:</strong> Fall 2018<br />
     <strong>Credits:</strong> 3<br />
     <strong>Section:</strong> 1<br />
-    <strong>Time:</strong> 9:10-10:00AM MWF<br />
+    <strong>Time:</strong> 9:10-10:00 MWF<br />
     <strong>Location:</strong> AMB 225
     </div>
   </div>
@@ -162,7 +162,7 @@ We will make limited use of BbLearn this semester, which is Northern Arizona Uni
 You should *not* look to resources outside the context of this course for help.  That is, you should not be consulting the web, other texts, other faculty, or students outside of our course.  On the other hand, you may use each other, the course notes, me, and your own intuition. However, please know that if you feel you need additional resources, please come talk to me and we will come up with an appropriate plan of action.
 
 ### Exams ###
-There will be three midterm exams and a cumulative final exam.  Each exam will be worth 18% of your overall grade.  Moreover, each exam will consist of an in-class portion (weighted 70%) and a take-home portion (weighted 30%).  The in-class portions of the midterm exams are *tentatively* scheduled for **???**, **???**, and **???**.  The take-home portions of midterm exams will typically be due the following Wednesday.  The final exam is schedule for **Wednesday, December 12 at 7:30-9:30AM**.  Make-up exams will only be given under extreme circumstances, as judged by me.  In general, it will be best to communicate conflicts ahead of time.
+There will be three midterm exams and a cumulative final exam.  Each exam will be worth 18% of your overall grade.  Moreover, each exam will consist of an in-class portion (weighted 70%) and a take-home portion (weighted 30%).  The in-class portions of the midterm exams are *tentatively* scheduled for the following Fridays **September 21** (week 4), **October 8** (week 8), and **November 16** (week 12).  The take-home portions of midterm exams will typically be due the following Wednesday.  The final exam is schedule for **Wednesday, December 12 at 7:30-9:30AM**.  Make-up exams will only be given under extreme circumstances, as judged by me.  In general, it will be best to communicate conflicts ahead of time.
 
 ### Homework ###
 
@@ -405,17 +405,17 @@ In summary, your final grade will be determined by your scores in the following 
 	<tr>
 		<td>Exam 1</td>
 		<td style="text-align: center;">18%</td>
-		<td>???</td>
+		<td>September 21</td>
 	</tr>
   <tr>
     <td>Exam 2</td>
     <td style="text-align: center;">18%</td>
-    <td>???</td>
+    <td>October 19</td>
   </tr>
   <tr>
     <td>Exam 3</td>
     <td style="text-align: center;">18%</td>
-    <td>???</td>
+    <td>November 16</td>
   </tr>
 	<tr>
 		<td>Final Exam</td>
