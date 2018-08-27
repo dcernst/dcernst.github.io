@@ -34,7 +34,7 @@ We’ll use this page to keep track of what has happened each day in class. It w
 ## Week 1 ##
 
 <ul class="fa-ul">
-  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, August 27:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, August 27:</b> CFirst day! The first few minutes of class were devoted to me attempting to learn names. I think I got them all! Next, I summarized what to expect from the course, toured the the <a href="{{site.baseurl}}/teaching/mat411f18/">course webpage</a>, and summarized a few items on the <a href="{{site.baseurl}}/teaching/mat411f18/syllabus/">syllabus</a>. With the time we had left, we briefly tinkered with Spinpossible.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, August 29:</b> Coming soon.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Friday, August 31:</b> Coming soon.</li>
 </ul>
