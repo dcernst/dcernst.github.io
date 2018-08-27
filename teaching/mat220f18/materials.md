@@ -44,6 +44,7 @@ Below you will find notes and handouts that we have used in class, as well as so
     - [Learning Like a Jungle Tiger &#124; Trevor Ragan](https://www.youtube.com/watch?v=muoVtDjjonM&feature=youtu.be) (5:23 min)
     - [Ira Glass on the Creative Process](https://www.youtube.com/watch?v=PbC4gqZGPSY&feature=youtu.be) (1:54 min)
 - [The Chinese Farmer](https://www.youtube.com/watch?feature=share&v=eJShr4VdvxQ&app=desktop) by Alan Watts (2:26 min)
+- [The Secret to Raising Smart Kids](https://www.scientificamerican.com/article/the-secret-to-raising-smart-kids1/) by Carol Dweck (article on Scientific American)
 - [Lessons from My Math Degree That Have Nothing to Do with Math](https://medium.com/s/story/6-life-lessons-from-my-math-degree-that-have-nothing-to-do-with-math-d38aba90edfe) (6 min read on Medium)
 - [Problem Collection for Mathematical Reasoning]({{ site.baseurl }}/teaching/mat220f18/220ProblemCollection.pdf) (PDF)
 - Quiz 1 (coming soon)
