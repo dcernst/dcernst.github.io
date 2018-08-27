@@ -30,6 +30,7 @@ title: Course Materials
 Below you will find notes and handouts that we have used in class, as well as some other useful stuff. We will add to the problem collection as the semester progresses.
 </p>
 
+- [Problem Collection for Mathematical Reasoning]({{ site.baseurl }}/teaching/mat220f18/220ProblemCollection.pdf) (PDF)
 - [Setting the Stage]({{ site.baseurl }}/teaching/SettingTheStage.pdf) (PDF)
 - [Elements of Style for Proofs]({{ site.baseurl }}/teaching/ElementsOfStyle.pdf) (PDF)
 - Videos on Growth Mindset and Productive Failure
@@ -46,7 +47,6 @@ Below you will find notes and handouts that we have used in class, as well as so
 - [The Chinese Farmer &#124; Alan Watts](https://www.youtube.com/watch?feature=share&v=eJShr4VdvxQ&app=desktop) (2:26 min)
 - [The Secret to Raising Smart Kids &#124; Carol Dweck](https://www.scientificamerican.com/article/the-secret-to-raising-smart-kids1/) (article on Scientific American)
 - [Lessons from My Math Degree That Have Nothing to Do with Math](https://medium.com/s/story/6-life-lessons-from-my-math-degree-that-have-nothing-to-do-with-math-d38aba90edfe) (6 min read on Medium)
-- [Problem Collection for Mathematical Reasoning]({{ site.baseurl }}/teaching/mat220f18/220ProblemCollection.pdf) (PDF)
 - Quiz 1 (coming soon)
 
 
