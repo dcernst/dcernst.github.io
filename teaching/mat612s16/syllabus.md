@@ -200,7 +200,7 @@ A 100-90%, B 80-89%, C 70-79%, D 60-69%, F 0-59%.
 ### Department and University Policies ###
 You are responsible for knowing and following the [Department of Mathematics and Statistics Policies]({{ site.baseurl }}/teaching/DepartmentPoliciesSpring2016.pdf) (PDF) and other University policies listed [here](http://nau.edu/OCLDAA/_Forms/UCC/SyllabusPolicyStmts2-2014/) (PDF).  More policies can be found in other university documents, especially the [NAU Student Handbook](http://nau.edu/Student-Life/Student-Handbook/) (see appendices) and the website of the [Office of Student Life](http://nau.edu/Student-Life/).
 
-As per Department Policy, cell phones, mp3 players and portable electronic communication devices, including but not limited to smart phones, cameras and recording devices, must be turned off and inaccessible during in-class tests. Any violation of this policy will be treated as academic dishonesty.
+As per Department Policy, cell phones, MP3 players and portable electronic communication devices, including but not limited to smart phones, cameras and recording devices, must be turned off and inaccessible during in-class tests. Any violation of this policy will be treated as academic dishonesty.
 
 ### Class Etiquette ###
 Students are expected to treat each other with respect.  Students are also expected to promote a healthy learning environment, as well as minimize distracting behaviors.  In particular, you should be supportive of other students while they are making presentations.  Moreover, every attempt should be made to arrive to class on time.  If you must arrive late or leave early, please do not disrupt class.
