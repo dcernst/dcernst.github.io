@@ -104,8 +104,10 @@ The notes will be released incrementally. Each link below is to a PDF file. If y
 - [The Chinese Farmer &#124; Alan Watts](https://www.youtube.com/watch?feature=share&v=eJShr4VdvxQ&app=desktop) (2:26 min)
 - [The Secret to Raising Smart Kids &#124; Carol Dweck](https://www.scientificamerican.com/article/the-secret-to-raising-smart-kids1/) (article on Scientific American)
 - [Lessons from My Math Degree That Have Nothing to Do with Math](https://medium.com/s/story/6-life-lessons-from-my-math-degree-that-have-nothing-to-do-with-math-d38aba90edfe) (6 min read on Medium)
-- Pictures of board work that we ran out of time to discuss. *Note:* You should not assume that the solutions/proof posted below are valid.
-    - None at this time.
+- Pictures of board work that we ran out of time to discuss. *Note:* You should not assume that the solutions/proofs posted below are valid or sufficient.
+    - [Problem 2.9]({{site.baseurl}}/teaching/mat411f18/Problem2.9.JPG)
+    - [Problem 2.10]({{site.baseurl}}/teaching/mat411f18/Problem2.10.JPG)
+    - [Problem 2.11]({{site.baseurl}}/teaching/mat411f18/Problem2.11.JPG)
 
 ## Exams
 Below are links to the take-home portions of each exam. If you are interested in using LaTeX to type up your solutions, contact me and I will send you a link to the source file of the exam.
