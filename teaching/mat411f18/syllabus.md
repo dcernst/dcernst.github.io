@@ -438,7 +438,7 @@ Here are some important dates:
 - **Thursday, September 6:** Last day to Drop/Delete a class (without class appearing on students' transcripts)
 - **Friday, November 2:** Course withdrawal deadline
 - **Monday, November 12:** Veteran's Day (no classes)
-- **Wednesday, November 22-Thursday, November 23:** Thanksgiving Break (no classes)
+- **Thursday, November 22-Friday, November 23:** Thanksgiving Break (no classes)
 - **Wednesday, December 12:** Final Exam
 
 ### Getting Help ###
