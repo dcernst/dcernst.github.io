@@ -37,7 +37,7 @@ We’ll use this page to keep track of what has happened each day in class. It w
 
 <ul class="fa-ul">
   <li><i class="fa-li far fa-calendar-check"></i><b>Monday, August 27:</b> First day! The first few minutes of class were devoted to me attempting to learn names. I think I got them all! Next, I summarized what to expect from the course, toured the the <a href="{{site.baseurl}}/teaching/mat220f18/">course webpage</a>, and summarized a few items on the <a href="{{site.baseurl}}/teaching/mat220f18/syllabus/">syllabus</a>. With the time we had left, we discussed Problem 1 from the <a href="{{site.baseurl}}/teaching/mat220f18/220ProblemCollection.pdf">Problem Collection</a>. ZK, NZ, and WS volunteered to discuss their approaches to Problem 1.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, August 29:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, August 29:</b> We had a great second day! After fielding a few questions about the syllabus and reminding students about the day-to-day structure, we divided the class up into 8 small groups, each tasked with discussing one of the homework problems.  We had ST/JT, ER/JS, JJ/AP, RH presented their proposed solutions to Problems 2, 3, 5(b), and 5(c) respectively. We will wrap up Problems 4 and 5(a) on Friday.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Friday, August 31:</b> Coming soon.</li>
 </ul>
 

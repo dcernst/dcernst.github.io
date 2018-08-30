@@ -34,8 +34,8 @@ We’ll use this page to keep track of what has happened each day in class. It w
 ## Week 1 ##
 
 <ul class="fa-ul">
-  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, August 27:</b> CFirst day! The first few minutes of class were devoted to me attempting to learn names. I think I got them all! Next, I summarized what to expect from the course, toured the the <a href="{{site.baseurl}}/teaching/mat411f18/">course webpage</a>, and summarized a few items on the <a href="{{site.baseurl}}/teaching/mat411f18/syllabus/">syllabus</a>. With the time we had left, we briefly tinkered with Spinpossible.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, August 29:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, August 27:</b> First day! The first few minutes of class were devoted to me attempting to learn names. I think I got them all! Next, I summarized what to expect from the course, toured the the <a href="{{site.baseurl}}/teaching/mat411f18/">course webpage</a>, and summarized a few items on the <a href="{{site.baseurl}}/teaching/mat411f18/syllabus/">syllabus</a>. With the time we had left, we briefly tinkered with Spinpossible.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, August 29:</b> Awesome first day of student presentations!  We spent the first few minutes on announcements and making sure we were all on the same page.  Next, we divided the class up into 9 small groups, where each group was tasked with writing their proposed solution to a designated problem.  We had WR, AS1/JS, JH/WC, KP, AM, and YS present Problems 2.1, 2.2, 2.3, 2.4, 2.5, and 2.8 respectively.  Along the way, I summarized Problems 2.6 and 2.7.  We will wrap up 2.9-2.11 next time.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Friday, August 31:</b> Coming soon.</li>
 </ul>
 
