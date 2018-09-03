@@ -58,7 +58,7 @@ Below is a list of course materials that I have written to be used with an [inqu
 ## Online Columns and Blog Posts
 From Spring 2013 through Spring 2016, I was co-editor and author for [Math Ed Matters](http://maamathedmatters.blogspot.com) and from Fall 2016 through Fall 2017, was a co-editor and author for [Teaching Tidbits](http://maateachingtidbits.blogspot.com). Both are online columns sponsored by the [Mathematical Association of America](http://maa.org). Below are several posts that I wrote for *Math Ed Matters*, *Teaching Tidbits*, as well as a few other online venues.  I also write sporadically about mathematics and teaching on my [personal blog]({{site.baseurl}}/blog/).
 
-  * D.C. Ernst. The Role of Failure and Struggle in the Mathematics Classroom. *Teaching Tidbits*. November 2017. [Blog Post](http://maateachingtidbits.blogspot.com/2017/11/the-role-of-failure-and-struggle-in.htmll)]
+  * D.C. Ernst. The Role of Failure and Struggle in the Mathematics Classroom. *Teaching Tidbits*. November 2017. [[Blog Post](http://maateachingtidbits.blogspot.com/2017/11/the-role-of-failure-and-struggle-in.htmll)]
   * D.C. Ernst. Want to Give Your Teaching Style a Makeover This Summer? Here’s How. *Teaching Tidbits*. April 2017. [[Blog Post](http://maateachingtidbits.blogspot.com/2017/04/want-to-give-your-teaching-style.html)]
   * D.C. Ernst. Who generates the examples? *Teaching Tidbits*. November 2016. [[Blog Post](http://maateachingtidbits.blogspot.com/2016/11/who-generates-examples.html)]
   * D.C. Ernst. Setting the Stage. *Math Ed Matters*. January 2015. [[Blog Post](http://maamathedmatters.blogspot.com/2015/01/setting-stage.html)]
