@@ -82,8 +82,12 @@ From Spring 2013 through Spring 2016, I was co-editor and author for [Math Ed Ma
   * D.C. Ernst. Cell Complexes for Arrangements with Group Actions, MS Thesis, Northern Arizona University, 2000. [[arXiv:0905.4434](http://arxiv.org/abs/0905.4434)]
 
 ## In Preparation
-  * D.C. Ernst and T.K. Petersen. The worst casino in Reno.
-  * D.C. Ernst and A. Lebovitz. Groups with cyclic subgroups.
   * B.J. Benesh, D.C. Ernst, and N. Sieben. The spectrum of impartial achievement games for generating finite groups.
+  * H. Denoncourt, D.C. Ernst, and T. Rosenberg. On signed permutations of maximal reversal length.
+  * E. Bidari, D.C. Ernst, and B. Samz. Structure of braid graphs for
+  * D.C. Ernst and A. Lebovitz. Groups with cyclic subgroups.
   * D.C. Ernst and B. Fox. Conjugacy classes of cyclically fully commutative elements in Coxeter groups of type $A$.
   * D.C. Ernst and T. Laird. T-avoiding elements of Coxeter groups.
+
+  <!-- * D.C. Ernst and M. Falk. ????
+  * D.C. Ernst and T.K. Petersen. The worst casino in Reno. -->
