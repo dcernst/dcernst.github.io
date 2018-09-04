@@ -89,5 +89,7 @@ From Spring 2013 through Spring 2016, I was co-editor and author for [Math Ed Ma
   * D.C. Ernst and B. Fox. Conjugacy classes of cyclically fully commutative elements in Coxeter groups of type $A$.
   * D.C. Ernst and T. Laird. T-avoiding elements of Coxeter groups.
 
-  <!-- * D.C. Ernst and M. Falk. ????
-  * D.C. Ernst and T.K. Petersen. The worst casino in Reno. -->
+<!--
+* D.C. Ernst and M. Falk. ????
+* D.C. Ernst and T.K. Petersen. The worst casino in Reno.
+* -->
