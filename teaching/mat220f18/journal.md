@@ -45,7 +45,7 @@ We’ll use this page to keep track of what has happened each day in class. It w
 
 <ul class="fa-ul">
   <li><i class="fa-li far fa-calendar-check"></i><b>Monday, September 3:</b> Labor Day! No classes.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, September 5:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, September 5:</b> We kicked off with some discussion of the upcoming quiz and then I revisited Problem 4 (Sunny Day Juice Stand).  Next wek had CB, CC, and BC present Problems 8, 9, and 11.  We ran out of time for a thourough discussion of Problem 10, so we will come back to that one next week.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Friday, September 7:</b> Coming soon.</li>
 </ul>
 
