@@ -44,7 +44,7 @@ We’ll use this page to keep track of what has happened each day in class. It w
 <ul class="fa-ul">
   <li><i class="fa-li far fa-calendar-check"></i><b>Monday, September 3:</b> Labor Day! No classes.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, September 5:</b> Fun day and we accomplished quite a bit!  We had WR, WC, KL, JH, MS, DD, RB, and SM present Problems 2.13(b), 2.13(c), 2.17, 2.18, 2.19, 2.20, 2.21, and 2.22, respectively.  In last minute of class, I quickly summarized Problem 2.24.  We will come back to Problem 2.23 on Friday.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, September 7:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, September 7:</b> Busy day.  After splitting up in small groups, we had AM, AS2, RB, JH, KP, RV, and KL present Problem 2.23, Problem 2.26, Problem 2.27, Theorem 2.29, Problem 2.31, Problem 2.32, and Problem 2.34, respectively.  We opted to skip Problem 2.28 and I quickly summarized Problems 2.35 and 2.36 at the end of class.  We will catch up on Theorem 2.37 and Problem 2.38 next time.</li>
 </ul>
 
 <!-- ## Week 1 ##
