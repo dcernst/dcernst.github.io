@@ -24,8 +24,8 @@ Here are the courses that I am currently teaching (Fall 2018) at [Northern Arizo
 This is a (partial) list of courses that I have taught over the past several semesters. **Note:** Some of the links on the pages below may be outdated.
 
 #### Northern Arizona University ####
-- [MAT 220: Introduction to Mathematical Reasoning]({{ site.baseurl }}/teaching/mat220s18)
-- [MAT 411: Introduction to Abstract Algebra]({{ site.baseurl }}/teaching/mat411s18)
+- [MAT 220: Introduction to Mathematical Reasoning, Spring 2018]({{ site.baseurl }}/teaching/mat220s18)
+- [MAT 411: Introduction to Abstract Algebra, Spring 2018]({{ site.baseurl }}/teaching/mat411s18)
 - [MAT 220: Introduction to Mathematical Reasoning, Fall 2017]({{ site.baseurl }}/teaching/mat220f17)
 - [MAT 411: Introduction to Abstract Algebra, Fall 2017]({{ site.baseurl }}/teaching/mat411f17)
 - [MAT 220: Introduction to Mathematical Reasoning, Spring 2017]({{ site.baseurl }}/teaching/mat220s17)

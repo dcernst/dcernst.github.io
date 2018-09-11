@@ -41,6 +41,7 @@ The following assignments are due at the beginning of the indicated class meetin
 - **Daily Homework 7:** Skim through [Appendix C: Definitions in Mathematics]({{site.baseurl}}/teaching/mat411f18/Definitions.pdf) of the textbook. In addition, complete 2.26-2.29, 2.31, 2.32, 2.34-2.38 in [Chapter 2: An Introduction to Groups]({{site.baseurl}}/teaching/mat411f18/IntroGroups.pdf) and digest the surrounding text along the way. (Due Friday, September 7)
 - **Daily Homework 8:** Complete 2.39-2.43 in [Chapter 2: An Introduction to Groups]({{site.baseurl}}/teaching/mat411f18/IntroGroups.pdf) and digest the surrounding text along the way. (Due Monday, September 10)
 - **Daily Homework 9:** Complete 2.44, 2.45, 2.47, 2.48, 2.50 in [Chapter 2: An Introduction to Groups]({{site.baseurl}}/teaching/mat411f18/IntroGroups.pdf) and digest the surrounding text along the way. (Due Wednesday, September 12)
+- **Daily Homework 10:** Complete 2.53-2.58 in [Chapter 2: An Introduction to Groups]({{site.baseurl}}/teaching/mat411f18/IntroGroups.pdf) and digest the surrounding text along the way. (Due Friday, September 14)
 
 <!--
 - **Daily Homework 10:** Complete 2.56-2.64 in [Chapter 2: An Introduction to Groups]({{site.baseurl}}/teaching/mat411f18/IntroGroups.pdf) and digest the surrounding text along the way. (Due Friday, February 2)
