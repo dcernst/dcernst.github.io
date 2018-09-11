@@ -90,7 +90,7 @@ In addition to the Daily Homework, we will also have Weekly Homework assignments
 - **Weekly Homework 7:** Prove **two** of Theorem 4.41, Theorem 4.44, Theorem 4.45, Problem 4.51, Problem 4.52.  (Due Thursday, April 5 by 8PM) -->
 
 ## Using LaTeX for Weekly Homework ##
-You are required to use LaTeX to type up your Weekly Homework assignments.  To do this, I suggest that you use my [LaTeX Homework Template](https://github.com/dcernst/MiscTeachingMaterials/blob/master/HWTemplate.tex).  The easiest way to get started with LaTeX is to use an online editor.  I recommend using [Overleaf](https://overleaf.com), but there are other options.  The good folks over at Overleaf have preloaded my template, so to get started, all you need to do is click the link below.
+You are required to use LaTeX to type up your Weekly Homework assignments.  To do this, I suggest that you use my [LaTeX Homework Template](https://github.com/dcernst/MiscTeachingMaterials/blob/master/HWTemplate/HWTemplate.tex).  The easiest way to get started with LaTeX is to use an online editor.  I recommend using [Overleaf](https://overleaf.com), but there are other options.  The good folks over at Overleaf have preloaded my template, so to get started, all you need to do is click the link below.
 
 <center>
 <form action="https://www.writelatex.com/docs" method="POST">
