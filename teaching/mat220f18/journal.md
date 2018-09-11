@@ -45,8 +45,22 @@ We’ll use this page to keep track of what has happened each day in class. It w
 
 <ul class="fa-ul">
   <li><i class="fa-li far fa-calendar-check"></i><b>Monday, September 3:</b> Labor Day! No classes.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, September 5:</b> We kicked off with some discussion of the upcoming quiz and then I revisited Problem 4 (Sunny Day Juice Stand).  Next wek had CB, CC, and BC present Problems 8, 9, and 11.  We ran out of time for a thourough discussion of Problem 10, so we will come back to that one next week.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, September 5:</b> We kicked off with some discussion of the upcoming quiz and then I revisited Problem 4 (Sunny Day Juice Stand).  Next we had CB, CC, and BC present Problems 8, 9, and 11.  We ran out of time for a thourough discussion of Problem 10, so we will come back to that one next week.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Friday, September 7:</b> The students took Quiz 1.</li>
+</ul>
+
+<ul class="fa-ul">
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, September 10:</b> After a little chit chat, we split the class up into 8 small groups, where each group was tasked with coming to consensus on two of the assigned problems.  After some time, we had AP, SW, RH, and JJ present Problems 10, 12, 13, and 14, respectively.  We didn't quite have enough time to do Problem 14 justice, so we will revisit this one next time.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, September 12:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, September 14:</b> Coming soon.</li>
+</ul>
+
+## Week 4 ##
+
+<ul class="fa-ul">
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, September 17:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, September 19:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, September 21:</b> Coming soon.</li>
 </ul>
 
 <!-- ## Week 1 ##
