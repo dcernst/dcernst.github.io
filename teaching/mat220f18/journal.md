@@ -53,7 +53,7 @@ We’ll use this page to keep track of what has happened each day in class. It w
 
 <ul class="fa-ul">
   <li><i class="fa-li far fa-calendar-check"></i><b>Monday, September 10:</b> After a little chit chat, we split the class up into 8 small groups, where each group was tasked with coming to consensus on two of the assigned problems.  After some time, we had AP, SW, RH, and JJ present Problems 10, 12, 13, and 14, respectively.  We didn't quite have enough time to do Problem 14 justice, so we will revisit this one next time.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, September 12:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, September 12:</b> After handing back Quiz 1, I revisited Problems 4 and 14. Nex, we jumped into presentations.  We had KW, KN, YF, JH, JJ, NZ, DH, SK, WC, and JM present Problems 15(a), 15(b), 15(c), 16, 17(a), 17(b), 17(c), 17(d), 17(e), and 18, respectively.  Dang, we covered a lot.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Friday, September 14:</b> Coming soon.</li>
 </ul>
 

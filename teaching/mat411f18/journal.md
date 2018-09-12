@@ -51,7 +51,7 @@ We’ll use this page to keep track of what has happened each day in class. It w
 
 <ul class="fa-ul">
   <li><i class="fa-li far fa-calendar-check"></i><b>Monday, September 10:</b> We spent the first few minutes discussing LaTeX and then jumped into student presentations. We had SA, AS1, and JO present Theorem 2.37, Problem 2.38, and Theorem 2.39, respectively.  We didn't cover much ground, but I think the conversations were fruitful.  We'll try to get caught up on Wednesday.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, September 12:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, September 12:</b> We didn't quite get caught up, but we made good progress. I think the discussions around the problems we discussed today were excellent.  We had AS, AM, WR, TS, and KL present Problem 2.40, Corollary 2.41, Theorem 2.42, Theorem 2.43, and Theorem 2.44, respectively.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Friday, September 14:</b> Coming soon.</li>
 </ul>
 
