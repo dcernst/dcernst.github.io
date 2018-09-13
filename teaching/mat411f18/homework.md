@@ -42,6 +42,8 @@ The following assignments are due at the beginning of the indicated class meetin
 - **Daily Homework 8:** Complete 2.39-2.43 in [Chapter 2: An Introduction to Groups]({{site.baseurl}}/teaching/mat411f18/IntroGroups.pdf) and digest the surrounding text along the way. (Due Monday, September 10)
 - **Daily Homework 9:** Complete 2.44, 2.45, 2.47, 2.48, 2.50 in [Chapter 2: An Introduction to Groups]({{site.baseurl}}/teaching/mat411f18/IntroGroups.pdf) and digest the surrounding text along the way. (Due Wednesday, September 12)
 - **Daily Homework 10:** Complete 2.53-2.58 in [Chapter 2: An Introduction to Groups]({{site.baseurl}}/teaching/mat411f18/IntroGroups.pdf) and digest the surrounding text along the way. (Due Friday, September 14)
+- **Daily Homework 11:** Complete 2.59-??? in [Chapter 2: An Introduction to Groups]({{site.baseurl}}/teaching/mat411f18/IntroGroups.pdf) and digest the surrounding text along the way. (Due Monday, September 17)
+
 
 <!--
 - **Daily Homework 10:** Complete 2.56-2.64 in [Chapter 2: An Introduction to Groups]({{site.baseurl}}/teaching/mat411f18/IntroGroups.pdf) and digest the surrounding text along the way. (Due Friday, February 2)
@@ -75,6 +77,8 @@ In addition to the Daily Homework, we will also have Weekly Homework assignments
 
 - **Weekly Homework 1:** On the [Course Materials]({{site.baseurl}}/teaching/mat411f18/materials/) page there is a list of videos about growth mindset and productive failure under "Miscellaneous Materials". Watch "Grit: the power of passion and perseverance" and any other 4 videos from the list and then write a reflection that is at least 15 sentences long. You should list the videos you watched. Rather than reflecting on each video separately, try to reflect on growth mindset, productive failure, and grit, in general. You are required to type your reflection in [LaTeX](https://en.wikipedia.org/wiki/LaTeX).  For this assignment, I suggest you use the template on [Overleaf](https://www.overleaf.com/) found [here](https://www.overleaf.com/latex/templates/thkxsshhbgdf/clone) instead of using the "Start your homework in Overleaf" link below. (Due Thursday, September 6 by 8PM)
 - **Weekly Homework 2:** Prove **two** of Theorems 2.29, 2.37, 2.39. You must type up your proofs using LaTeX.  I suggest you use my Overleaf template, which you can access by clicking the "Start your homework in Overleaf" link below. (Due Thursday, September 13 by 8PM)
+- **Weekly Homework 3:** Prove **two** of Corollary 2.41, Theorem 2.42, Theorem 2.47, Theorem 2.50. You must type up your proofs using LaTeX.  I suggest you use my Overleaf template, which you can access by clicking the "Start your homework in Overleaf" link below. (Due Tuesday, September 18 by 8PM)
+
 
 <!-- - **Weekly Homework 3:** Prove **two** of Corollary 2.41, Theorem 2.42, Theorem 2.44, Theorem 2.45, Theorem 2.47(a), Theorem 2.47(b), Theorem 2.50, Theorem 2.63. You must type up your proofs using LaTeX.  (Due Thursday, February 8 by 8PM)
 - **Weekly Homework 4:** Complete each of the following tasks. (Due Thursday, February 22 by 8PM)
