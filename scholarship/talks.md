@@ -13,6 +13,7 @@ layout: default
 <!-- <img src="{{ site.baseurl }}/images/2012/02/Screen-Shot-2013-08-07-at-11.21.58-PM.png" width="200" align="left" img style="margin-right: 15px" /> -->
 Below is list of talks and presentations that I have given over the past several years.  In most cases, there are links to slides.  In particular, you can find the collection of my recent slides on [Speaker Deck](https://speakerdeck.com/dcernst). Check out my [scholarship overview page]({{ site.baseurl }}/scholarship/) for additional information about my research interests.  If you are interested in presentations that my undergraduate research students have given, check out my [undergraduate research page]({{ site.baseurl }}/scholarship/undergraduate-research/).
 
+- The Dating Game. [Friday Afternoon Mathematics Undergrad Seminar](http://naumathstat.github.io/seminars/famusFall2018/) (FAMUS), NAU, Flagstaff, AZ. September 2018.
 - What is mathematical inquiry? Plenary talk at [2018 IBL Workshop](http://www.inquirybasedlearning.org/past-ibl-workshops/), DePaul University, Chicago, IL. June 2018.
 - Experiencing IBL. Plenary talk at [2018 IBL Workshop](http://www.inquirybasedlearning.org/past-ibl-workshops/), DePaul University, Chicago, IL. June 2018.
 - Structure of braid graphs for reduced words in Coxeter groups (2 talks). [Algebra, Combinatorics, Geometry, and Topology Seminar](http://naumathstat.github.io/seminars/acgtSpring2018/) (ACGT), NAU, Flagstaff, AZ. February 2017.
@@ -50,7 +51,7 @@ Below is list of talks and presentations that I have given over the past several
 - T-avoiding elements in Coxeter groups (2 talks). Algebra, Combinatorics, Geometry, and Topology Seminar (ACGT), NAU, Flagstaff, AZ. October 2014.
 - Open problems with monetary rewards. 2014 Northern Arizona University High School Math Day, NAU, Flagstaff, AZ. October 2014.  [[Slides](https://speakerdeck.com/dcernst/open-problems-with-monetary-rewards-1)]
 - Open problems with monetary rewards. Friday Afternoon Mathematics Undergrad Seminar (FAMUS), NAU, Flagstaff, AZ. October 2014.  [[Slides](https://speakerdeck.com/dcernst/open-problems-with-monetary-rewards)]
-- What is MAT 220? Friday Afternoon Mathematics Undergrad Seminar (FAMUS), NAU, Flagstaff, AZ. October 2014.  [[Slides](https://speakerdeck.com/dcernst/what-is-mat-220)]  
+- What is MAT 220? Friday Afternoon Mathematics Undergrad Seminar (FAMUS), NAU, Flagstaff, AZ. October 2014.  [[Slides](https://speakerdeck.com/dcernst/what-is-mat-220)]
 - Mathematics as a Creative Endeavor. Is Mathematics Communication?, Liberal Studies Town Hall, NAU, Flagstaff, AZ. September 2014.  Joint with Terry Blows. [[Slides](https://speakerdeck.com/dcernst/mathematics-as-a-creative-endeavor)]
 - Creating Independent Learners. NAU Fall 2014 Tutor Training. NAU, Flagstaff, AZ. August 2014. Joint with Ellie Kennedy. [[Slides](https://speakerdeck.com/dcernst/creating-independent-learners)]
 - Soup to Nuts: My Approach to IBL. Plenary talk at [2014 IBL Workshop](http://www.inquirybasedlearning.org/past-ibl-workshops/), Portland, OR. August 2014. [[Slides](https://speakerdeck.com/dcernst/soup-to-nuts-my-approach-to-ibl)] [[Blog Post]({{ site.baseurl }}/talk-soup-to-nuts-my-approach-to-ibl)]
