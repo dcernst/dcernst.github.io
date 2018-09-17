@@ -42,13 +42,11 @@ The following assignments are due at the beginning of the indicated class meetin
 - **Daily Homework 8:** Complete 2.39-2.43 in [Chapter 2: An Introduction to Groups]({{site.baseurl}}/teaching/mat411f18/IntroGroups.pdf) and digest the surrounding text along the way. (Due Monday, September 10)
 - **Daily Homework 9:** Complete 2.44, 2.45, 2.47, 2.48, 2.50 in [Chapter 2: An Introduction to Groups]({{site.baseurl}}/teaching/mat411f18/IntroGroups.pdf) and digest the surrounding text along the way. (Due Wednesday, September 12)
 - **Daily Homework 10:** Complete 2.53-2.58 in [Chapter 2: An Introduction to Groups]({{site.baseurl}}/teaching/mat411f18/IntroGroups.pdf) and digest the surrounding text along the way. (Due Friday, September 14)
-- **Daily Homework 11:** Complete 2.59-??? in [Chapter 2: An Introduction to Groups]({{site.baseurl}}/teaching/mat411f18/IntroGroups.pdf) and digest the surrounding text along the way. (Due Monday, September 17)
+- **Daily Homework 11:** Complete 2.59 in [Chapter 2: An Introduction to Groups]({{site.baseurl}}/teaching/mat411f18/IntroGroups.pdf) and digest the surrounding text along the way. (Due Monday, September 17)
+- **Daily Homework 12:** Complete 2.60-2.67, 2.69 in [Chapter 2: An Introduction to Groups]({{site.baseurl}}/teaching/mat411f18/IntroGroups.pdf) and digest the surrounding text along the way. (Due Wednesday, September 19)
 
 
 <!--
-- **Daily Homework 10:** Complete 2.56-2.64 in [Chapter 2: An Introduction to Groups]({{site.baseurl}}/teaching/mat411f18/IntroGroups.pdf) and digest the surrounding text along the way. (Due Friday, February 2)
-- **Daily Homework 11:** Complete 2.65-2.67, 2.69, 270(abc) in [Chapter 2: An Introduction to Groups]({{site.baseurl}}/teaching/mat411f18/IntroGroups.pdf) and digest the surrounding text along the way. (Due Monday, February 5)
-- **Daily Homework 12:** Complete 2.70(defg) and 2.71 in [Chapter 2: An Introduction to Groups]({{site.baseurl}}/teaching/mat411f18/IntroGroups.pdf) and digest the surrounding text along the way. (Due Wednesday, February 7)
 - **Daily Homework 13:** Complete 3.13-3.20 in [Chapter 3: Subgroups and Isomorphisms]({{site.baseurl}}/teaching/mat411f18/SubgroupsIsomorphisms.pdf) and digest the surrounding text along the way. (Due Friday, February 16)
 - **Daily Homework 14:** Complete 3.21 and 3.22 in [Chapter 3: Subgroups and Isomorphisms]({{site.baseurl}}/teaching/mat411f18/SubgroupsIsomorphisms.pdf) and digest the surrounding text along the way. (Due Monday, February 19)
 - **Daily Homework 15:** Complete 3.23, 3.25-3.32 in [Chapter 3: Subgroups and Isomorphisms]({{site.baseurl}}/teaching/mat411f18/SubgroupsIsomorphisms.pdf) and digest the surrounding text along the way. (Due Wednesday, February 21)
