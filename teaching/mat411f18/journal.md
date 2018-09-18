@@ -52,13 +52,13 @@ We’ll use this page to keep track of what has happened each day in class. It w
 <ul class="fa-ul">
   <li><i class="fa-li far fa-calendar-check"></i><b>Monday, September 10:</b> We spent the first few minutes discussing LaTeX and then jumped into student presentations. We had SA, AS1, and JO present Theorem 2.37, Problem 2.38, and Theorem 2.39, respectively.  We didn't cover much ground, but I think the conversations were fruitful.  We'll try to get caught up on Wednesday.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, September 12:</b> We didn't quite get caught up, but we made good progress. I think the discussions around the problems we discussed today were excellent.  We had AS2, AM, WR, TS, and KL present Problem 2.40, Corollary 2.41, Theorem 2.42, Theorem 2.43, and Theorem 2.44, respectively.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, September 14:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, September 14:</b> We kicked off with LH presenting a proof of Theorem 2.45. This was followed by leading a discussion about Theorem 2.47 and Problem 2.48. Next, we had WR and KP present Theorem 2.50 and Problem 2.54(abc).</li>
 </ul>
 
 ## Week 4 ##
 
 <ul class="fa-ul">
-  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, September 17:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, September 17:</b> We finally got caught up!  We had WC, SM, RV, YS, LH, and MS present Problems 2.55(a), 2.55(b), 2.57, 2.59(a), 2.59(b), and 2.59(c), respectively.  Along the way, I discussed the remaining parts of Problem 2.54 and Problem 2.58.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, September 19:</b> Coming soon.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Friday, September 21:</b> Coming soon.</li>
 </ul>
