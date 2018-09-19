@@ -61,8 +61,8 @@ We’ll use this page to keep track of what has happened each day in class. It w
 
 <ul class="fa-ul">
   <li><i class="fa-li far fa-calendar-check"></i><b>Monday, September 17:</b> I'm not sure everyone was as entertained as I was today. I really enjoyed the conversation.  We had CC/WC/YF, KN, ER/ZK, and HO/ZK present Problems 23, 24, 25, and 26, respectively.  As expected, Problems 23 and 26 generated some passionate discussion.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, September 19:</b> Coming soon.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, September 21:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, September 19:</b> We devoted the first few minutes to making sure everyone was up to speed on the problems we were about to discuss.  Then we briefly revisited Problem 26.  Next, we split the class up into several small groups, each tasked with discussing two of the day's problems.  After a few minutes, we had AS, YF, SK, and ST present Problems 29, 30(visual), 30(algebraic), and 27, respectively.  With the few minutes we had left, I very quickly summarized Problem 28.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, September 21:</b> The students took Quiz 2.</li>
 </ul>
 
 <!-- ## Week 1 ##

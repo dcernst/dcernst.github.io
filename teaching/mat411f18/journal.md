@@ -59,8 +59,8 @@ We’ll use this page to keep track of what has happened each day in class. It w
 
 <ul class="fa-ul">
   <li><i class="fa-li far fa-calendar-check"></i><b>Monday, September 17:</b> We finally got caught up!  We had WC, SM, RV, YS, LH, and MS present Problems 2.55(a), 2.55(b), 2.57, 2.59(a), 2.59(b), and 2.59(c), respectively.  Along the way, I discussed the remaining parts of Problem 2.54 and Problem 2.58.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, September 19:</b> Coming soon.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, September 21:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, September 19:</b> After a quick discussion of the upcoming exam, we jumped into student presentations.  We had DD, TS, RB, and AS1 present Problem 2.60, Problem 2.61, Problem 2.62, and Theorem 2.63, respectively.  With the time we had left, I summarized Problem 2.65.  We will hit up Problems 2.67 and 2.69 on Monday next week.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, September 21:</b> The students took the in-class portion of Exam 1.</li>
 </ul>
 
 
