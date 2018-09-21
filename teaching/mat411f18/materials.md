@@ -59,7 +59,7 @@ The notes will be released incrementally. Each link below is to a PDF file. If y
     - 2.4 Generating Sets
     - 2.5 Group Tables
     - 2.6 Cayley Diagrams
-- Chapter 3: Subgroups and Isomorphisms (coming soon)
+- [Chapter 3: Subgroups and Isomorphisms]({{site.baseurl}}/teaching/mat411f18/SubgroupsIsomorphisms.pdf) 
     - 3.1 Subgroups
     - 3.2 Subgroup Lattices
     - 3.3 Isomorphisms
@@ -112,7 +112,7 @@ The notes will be released incrementally. Each link below is to a PDF file. If y
 ## Exams
 Below are links to the take-home portions of each exam. If you are interested in using LaTeX to type up your solutions, contact me and I will send you a link to the source file of the exam.
 
-- Exam 1 (take-home portion) (coming soon)
+- [Exam 1 (take-home portion)]({{site.baseurl}}/teaching/mat411f18/411Exam1-Home.pdf) (PDF). (Due Wednesday, September 26)
 
 <!-- - [Exam 1 (take-home portion)]({{site.baseurl}}/teaching/mat411f18/411Exam1-Home.pdf) (PDF). (Due Wednesday, February 14)
 - [Exam 2 (take-home portion)]({{site.baseurl}}/teaching/mat411f18/411Exam2-Home.pdf) (PDF). For the last question, you will need the following pictures of quilts that correspond to tables for groups of order 8. (Due Friday, March 16)
