@@ -68,7 +68,7 @@ We’ll use this page to keep track of what has happened each day in class. It w
 ## Week 4 ##
 
 <ul class="fa-ul">
-  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, September 24:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, September 24:</b> We spent a few minutes revisiting Problem 28 and then we divided into small groups.  We had SK/JJ, WC/YF, and CB present their proposed solutions to Problems 31, 32, and 33, respectively.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, September 26:</b> Coming soon.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Friday, September 28:</b> Coming soon.</li>
 </ul>
