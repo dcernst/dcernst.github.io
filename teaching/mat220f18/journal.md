@@ -69,6 +69,6 @@ We’ll use this page to keep track of what has happened each day in class. It w
 
 <ul class="fa-ul">
   <li><i class="fa-li far fa-calendar-check"></i><b>Monday, September 24:</b> We spent a few minutes revisiting Problem 28 and then we divided into small groups.  We had SK/JJ, WC/YF, and CB present their proposed solutions to Problems 31, 32, and 33, respectively.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, September 26:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, September 26:</b> Lots of cool stuff happened today.  We had CB, HO, BC/ST, and NZ present Problems 33(algebraic), 33(visual), 35, and 36, respectivley.  Typically, no one comes up with a solution for the visual proof for Problem 33, but HO pretty much had it. Also, rarely does anyone have a complete solution for Problem 36, but NZ nailed it.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Friday, September 28:</b> Coming soon.</li>
 </ul>

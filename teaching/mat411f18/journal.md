@@ -67,6 +67,6 @@ We’ll use this page to keep track of what has happened each day in class. It w
 
 <ul class="fa-ul">
   <li><i class="fa-li far fa-calendar-check"></i><b>Monday, September 24:</b> While the students are busy working on the take-home exam, I lectured over Chapter 2.  In particular, we discussed Definition 2.68, Problem 2.69, and Problem 2.70(abc).</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, September 26:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, September 26:</b> I continued lecturing over Chapter 2 and made it through Problem 2.73.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Friday, September 28:</b> Coming soon.</li>
 </ul>
