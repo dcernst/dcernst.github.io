@@ -65,10 +65,18 @@ We’ll use this page to keep track of what has happened each day in class. It w
   <li><i class="fa-li far fa-calendar-check"></i><b>Friday, September 21:</b> The students took Quiz 2.</li>
 </ul>
 
-## Week 4 ##
+## Week 5 ##
 
 <ul class="fa-ul">
   <li><i class="fa-li far fa-calendar-check"></i><b>Monday, September 24:</b> We spent a few minutes revisiting Problem 28 and then we divided into small groups.  We had SK/JJ, WC/YF, and CB present their proposed solutions to Problems 31, 32, and 33, respectively.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, September 26:</b> Lots of cool stuff happened today.  We had CB, HO, BC/ST, and NZ present Problems 34(algebraic), 34(visual), 35, and 36, respectivley.  Typically, no one comes up with a solution for the visual proof for Problem 34, but HO pretty much had it. Also, rarely does anyone have a complete solution for Problem 36, but NZ nailed it.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, September 28:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, September 28:</b> After handing back Quiz 2, we spent some time discussing solutions to Problems B1 and B2 from the quiz. Next, we had JS/WC and GC/ER present Problems 37 and 38, respectively.  We ran out of time for Problem 39, so we will kick off with that one next time.</li>
+</ul>
+
+## Week 6 ##
+
+<ul class="fa-ul">
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, October 1:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, October 3:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, October 5:</b> Coming soon.</li>
 </ul>

@@ -63,10 +63,18 @@ We’ll use this page to keep track of what has happened each day in class. It w
   <li><i class="fa-li far fa-calendar-check"></i><b>Friday, September 21:</b> The students took the in-class portion of Exam 1.</li>
 </ul>
 
-## Week 4 ##
+## Week 5 ##
 
 <ul class="fa-ul">
   <li><i class="fa-li far fa-calendar-check"></i><b>Monday, September 24:</b> While the students are busy working on the take-home exam, I lectured over Chapter 2.  In particular, we discussed Definition 2.68, Problem 2.69, and Problem 2.70(abc).</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, September 26:</b> I continued lecturing over Chapter 2 and made it through Problem 2.73.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, September 28:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, September 28:</b> We wrapped up Chapter 2 and briefly discussed the Two-Step Subgroup Test from Chapter 3.</li>
+</ul>
+
+## Week 6 ##
+
+<ul class="fa-ul">
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, October 1:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, October 3:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, October 5:</b> Coming soon.</li>
 </ul>
