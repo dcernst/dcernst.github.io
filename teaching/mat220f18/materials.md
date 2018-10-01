@@ -49,17 +49,9 @@ Below you will find notes and handouts that we have used in class, as well as so
 - [Lessons from My Math Degree That Have Nothing to Do with Math](https://medium.com/s/story/6-life-lessons-from-my-math-degree-that-have-nothing-to-do-with-math-d38aba90edfe) (6 min read on Medium)
 - Pictures of board work that we ran out of time to discuss. *Note:* You should not assume that the solutions/proofs posted below are valid or sufficient.
     - [Problem 5(a)]({{site.baseurl}}/teaching/mat220f18/Problem5a1.JPG) (version 1), [Problem 5(a)]({{site.baseurl}}/teaching/mat220f18/Problem5a2.JPG) (version 2)
-- Quiz 1 (coming soon)
-
-
 - [Quiz 1]({{ site.baseurl }}/teaching/mat220f18/220Quiz1.pdf) (PDF)
 - [Quiz 2]({{ site.baseurl }}/teaching/mat220f18/220Quiz2.pdf) (PDF)
 
-<!--- [Quiz 3]({{ site.baseurl }}/teaching/mat220f18/220Quiz3.pdf) (PDF)
-- [Quiz 4]({{ site.baseurl }}/teaching/mat220f18/220Quiz4.pdf) (PDF)
-- [Quiz 5]({{ site.baseurl }}/teaching/mat220f18/220Quiz5.pdf) (PDF)
-- [Quiz 6]({{ site.baseurl }}/teaching/mat220f18/220Quiz6.pdf) (PDF)
-- [Quiz 7]({{ site.baseurl }}/teaching/mat220f18/220Quiz7.pdf) (PDF) -->
 
 <blockquote>
   <p>Don’t just read it; fight it! Ask your own questions, look for your own examples, discover your own proofs. Is the hypothesis necessary? Is the converse true? What happens in the classical special case? What about the degenerate cases? Where does the proof use the hypothesis?</p>
