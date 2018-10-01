@@ -52,9 +52,10 @@ Below you will find notes and handouts that we have used in class, as well as so
 - Quiz 1 (coming soon)
 
 
-<!-- - [Quiz 1]({{ site.baseurl }}/teaching/mat220f18/220Quiz1.pdf) (PDF)
+- [Quiz 1]({{ site.baseurl }}/teaching/mat220f18/220Quiz1.pdf) (PDF)
 - [Quiz 2]({{ site.baseurl }}/teaching/mat220f18/220Quiz2.pdf) (PDF)
-- [Quiz 3]({{ site.baseurl }}/teaching/mat220f18/220Quiz3.pdf) (PDF)
+
+<!--- [Quiz 3]({{ site.baseurl }}/teaching/mat220f18/220Quiz3.pdf) (PDF)
 - [Quiz 4]({{ site.baseurl }}/teaching/mat220f18/220Quiz4.pdf) (PDF)
 - [Quiz 5]({{ site.baseurl }}/teaching/mat220f18/220Quiz5.pdf) (PDF)
 - [Quiz 6]({{ site.baseurl }}/teaching/mat220f18/220Quiz6.pdf) (PDF)
