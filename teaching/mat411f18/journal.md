@@ -74,7 +74,7 @@ We’ll use this page to keep track of what has happened each day in class. It w
 ## Week 6 ##
 
 <ul class="fa-ul">
-  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, October 1:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, October 1:</b> I was impressed with the quality of the presentations today.  AFter dividing the class up into small groups, we had AS2, AS1, JH/TS/RB, RV, and KL present Theorem 3.7/Problem 3.8, Theorem 3.9, Problem 3.12, Problem 3.14(abcdef), and Problem 3.14(ghi), respectively.  Along the way, I presented Problem 3.5 and Problem 3.13.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, October 3:</b> Coming soon.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Friday, October 5:</b> Coming soon.</li>
 </ul>

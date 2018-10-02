@@ -59,7 +59,7 @@ The notes will be released incrementally. Each link below is to a PDF file. If y
     - 2.4 Generating Sets
     - 2.5 Group Tables
     - 2.6 Cayley Diagrams
-- [Chapter 3: Subgroups and Isomorphisms]({{site.baseurl}}/teaching/mat411f18/SubgroupsIsomorphisms.pdf) 
+- [Chapter 3: Subgroups and Isomorphisms]({{site.baseurl}}/teaching/mat411f18/SubgroupsIsomorphisms.pdf)
     - 3.1 Subgroups
     - 3.2 Subgroup Lattices
     - 3.3 Isomorphisms
@@ -108,6 +108,8 @@ The notes will be released incrementally. Each link below is to a PDF file. If y
     - [Problem 2.9]({{site.baseurl}}/teaching/mat411f18/Problem2.9.JPG)
     - [Problem 2.10]({{site.baseurl}}/teaching/mat411f18/Problem2.10.JPG)
     - [Problem 2.11]({{site.baseurl}}/teaching/mat411f18/Problem2.11.JPG)
+    - [Problem 3.15]({{site.baseurl}}/teaching/mat411f18/Problem3.15.JPG)
+    - [Problem 3.17]({{site.baseurl}}/teaching/mat411f18/Problem3.17.JPG)
 
 ## Exams
 Below are links to the take-home portions of each exam. If you are interested in using LaTeX to type up your solutions, contact me and I will send you a link to the source file of the exam.
