@@ -46,6 +46,7 @@ The following assignments are due at the beginning of the indicated class meetin
 - **Daily Homework 12:** Complete 2.60-2.67, 2.69 in [Chapter 2: An Introduction to Groups]({{site.baseurl}}/teaching/mat411f18/IntroGroups.pdf) and digest the surrounding text along the way. (Due Wednesday, September 19)
 - **Daily Homework 13:** Complete 3.2, 3.3, 3.5, 3.7-3.9, 3.12-3.14, any two of 3.15-3.17, 3.18 in [Chapter 3: Subgroups and Isomorphisms]({{site.baseurl}}/teaching/mat411f18/SubgroupsIsomorphisms.pdf) and digest the surrounding text along the way. (Due Monday, October 1)
 - **Daily Homework 14:** Complete 3.19-3.23, 3.26-3.28 in [Chapter 3: Subgroups and Isomorphisms]({{site.baseurl}}/teaching/mat411f18/SubgroupsIsomorphisms.pdf) and digest the surrounding text along the way. (Due Wednesday, October 3)
+- **Daily Homework 15:** Complete 3.29-3.33, 3.35, 3.36 in [Chapter 3: Subgroups and Isomorphisms]({{site.baseurl}}/teaching/mat411f18/SubgroupsIsomorphisms.pdf) and digest the surrounding text along the way. (Due Friday, October 5)
 
 <!--
 - **Daily Homework 13:** Complete 3.13-3.20 in [Chapter 3: Subgroups and Isomorphisms]({{site.baseurl}}/teaching/mat411f18/SubgroupsIsomorphisms.pdf) and digest the surrounding text along the way. (Due Friday, February 16)
