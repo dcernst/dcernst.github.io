@@ -78,3 +78,11 @@ We’ll use this page to keep track of what has happened each day in class. It w
   <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, October 3:</b> After handing back the take-home exam, we jumped into student presentations.  We had AM/WR, KP, KP (again), and WC present Problem 3.15, Problem 3.17, Theorem 3.19, and Problem 3.20, respectively.  Along the way, I led discussions on Problem 3.16, Problem 3.18, Problem 3.22, and Theorem 3.23.  Hopefully, we can wrap up the ones we didn't have time for on Friday.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Friday, October 5:</b> Coming soon.</li>
 </ul>
+
+## Week 7 ##
+
+<ul class="fa-ul">
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, October 8:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, October 10:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, October 12:</b> Coming soon.</li>
+</ul>

@@ -80,3 +80,11 @@ We’ll use this page to keep track of what has happened each day in class. It w
   <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, October 3:</b> After revisiting Problem 39, NZ presented an alternative solution to Problem 41 and then we agreed that his solution could also be made to work for Problem 40.  Next, we had JM and AS present Problems 42 and 43, respectively.  With the few minutes we had left, we briefly discussed the next two problems.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Friday, October 5:</b> The students took Quiz 3.</li>
 </ul>
+
+## Week 7 ##
+
+<ul class="fa-ul">
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, October 8:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, October 10:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, October 12:</b> Coming soon.</li>
+</ul>
