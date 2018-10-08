@@ -84,7 +84,7 @@ We’ll use this page to keep track of what has happened each day in class. It w
 ## Week 7 ##
 
 <ul class="fa-ul">
-  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, October 8:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, October 8:</b> After some stories about mountain lions, bears, and lightning, we had AP/SK and JM present Problems 44 and 45, respectively.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, October 10:</b> Coming soon.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Friday, October 12:</b> Coming soon.</li>
 </ul>
