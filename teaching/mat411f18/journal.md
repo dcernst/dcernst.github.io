@@ -82,7 +82,7 @@ We’ll use this page to keep track of what has happened each day in class. It w
 ## Week 7 ##
 
 <ul class="fa-ul">
-  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, October 8:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, October 8:</b> We didn't quite through everything, but we still covered a lot of ground. We had JS, AS2, TS, AS1, WR, RV, and JO presented Problems 3.32, 3.33, 3.35, 3.36, 3.37, 3.38, 3.39, and 3.40, respectively.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, October 10:</b> Coming soon.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Friday, October 12:</b> Coming soon.</li>
 </ul>
