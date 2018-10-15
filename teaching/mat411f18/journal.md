@@ -84,5 +84,13 @@ We’ll use this page to keep track of what has happened each day in class. It w
 <ul class="fa-ul">
   <li><i class="fa-li far fa-calendar-check"></i><b>Monday, October 8:</b> We didn't quite through everything, but we still covered a lot of ground. We had JS, AS2, TS, AS1, WR, RV, and JO presented Problems 3.32, 3.33, 3.35, 3.36, 3.37, 3.38, 3.39, and 3.40, respectively.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, October 10:</b> After revisiting Problem 3.40, we had TS, JS, YS, JO, and RV present Problems 3.41, 3.43, 3.47(mutliple parts), 3.49(a), and 3.49(b), respectively.  Along the way, I presented Problem 3.42, Problem 3.44, and Theorem 3.45. We will come back to Problem 3.48 and Problem 3.49(c) next time.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, October 12:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, October 12:</b> We covered a lot of ground today. We had AS2, SA, MS, JH, AS1, and WC present Problem 3.48, Problem 3.49(c), Problem 3.50, Theorem 3.51, Theorem 3.52, and Theorem 3.53, respectively. We will catch up on Theorems 3.54 and 3.55 on Monday.</li>
+</ul>
+
+## Week 8 ##
+
+<ul class="fa-ul">
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, October 15:</b> We kicked off with discussing Theorems 3.54 and 3.55 and then revisiting Theorem 3.53. Next, we split the class up into 6 small groups, where each group was tasked with writing up a solution to one of the problems due today. We had YS, KP, SM, JS, JH, and RB present Problem 3.56, Problem 3.57, Problem 3.58, Problem 3.59(case 1), Problem 3.59(case 2), and Theorem 3.61, respectively. We briefly discussed Theorem 3.60 and will come back to it on Wednesday.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, October 17:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, October 19:</b> Coming soon.</li>
 </ul>

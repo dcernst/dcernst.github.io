@@ -86,5 +86,13 @@ We’ll use this page to keep track of what has happened each day in class. It w
 <ul class="fa-ul">
   <li><i class="fa-li far fa-calendar-check"></i><b>Monday, October 8:</b> After some stories about mountain lions, bears, and lightning, we had AP/SK and JM present Problems 44 and 45, respectively.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, October 10:</b> We had BC and KW/YF/CC present Problems 47 and 48.  We didn't get to Problem 46, but we will come back to it on Friday.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, October 12:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, October 12:</b> Another productive day. We had WS, JJ, BC, and JT present Problems 46, 49, 50, and 51, respectively.</li>
+</ul>
+
+## Week 8 ##
+
+<ul class="fa-ul">
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, October 15:</b> We divided the class up into six small groups and each group was tasked with writing up at least two of the problems that were due today.  After about 15 minutes, we had YF/HO, CC, and AP present Problems 52, 53, and 54, respectively. Along the way, I presented an alternate solution to Problem 52 and discussed the two competing definitions of trapezoid.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, October 17:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, October 19:</b> The students took Quiz 4.</li>
 </ul>
