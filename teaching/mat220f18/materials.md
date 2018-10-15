@@ -51,6 +51,7 @@ Below you will find notes and handouts that we have used in class, as well as so
     - [Problem 5(a)]({{site.baseurl}}/teaching/mat220f18/Problem5a1.JPG) (version 1), [Problem 5(a)]({{site.baseurl}}/teaching/mat220f18/Problem5a2.JPG) (version 2)
 - [Quiz 1]({{ site.baseurl }}/teaching/mat220f18/220Quiz1.pdf) (PDF)
 - [Quiz 2]({{ site.baseurl }}/teaching/mat220f18/220Quiz2.pdf) (PDF)
+- [Quiz 3]({{ site.baseurl }}/teaching/mat220f18/220Quiz3.pdf) (PDF)
 
 
 <blockquote>
