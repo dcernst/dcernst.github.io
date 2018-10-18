@@ -93,6 +93,6 @@ We’ll use this page to keep track of what has happened each day in class. It w
 
 <ul class="fa-ul">
   <li><i class="fa-li far fa-calendar-check"></i><b>Monday, October 15:</b> We divided the class up into six small groups and each group was tasked with writing up at least two of the problems that were due today.  After about 15 minutes, we had YF/HO, CC, and AP present Problems 52, 53, and 54, respectively. Along the way, I presented an alternate solution to Problem 52 and discussed the two competing definitions of trapezoid.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, October 17:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, October 17:</b> We had KN, ER, and CB present Problems 55, 56, and 57, respectively.  The first two went fairly quickly and then we discussed Problem 57 for quite a while.  I accidentally let the class go 10 minutes early.  Oops.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Friday, October 19:</b> The students took Quiz 4.</li>
 </ul>
