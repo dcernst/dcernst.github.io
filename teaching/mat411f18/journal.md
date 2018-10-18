@@ -91,6 +91,6 @@ We’ll use this page to keep track of what has happened each day in class. It w
 
 <ul class="fa-ul">
   <li><i class="fa-li far fa-calendar-check"></i><b>Monday, October 15:</b> We kicked off with discussing Theorems 3.54 and 3.55 and then revisiting Theorem 3.53. Next, we split the class up into 6 small groups, where each group was tasked with writing up a solution to one of the problems due today. We had YS, KP, SM, JS, JH, and RB present Problem 3.56, Problem 3.57, Problem 3.58, Problem 3.59(case 1), Problem 3.59(case 2), and Theorem 3.61, respectively. We briefly discussed Theorem 3.60 and will come back to it on Wednesday.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, October 17:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, October 17:</b> The first few minutes of class were devoted to me sketching proofs of Theorems 3.60 and 3.62.  Next, we had KL and AM each prove parts of Theorem 3.63.  This was followed by class discussions of Problems 3.64 and 3.65.  With the few minutes we had left, WR quickly presented Problem 4.2.  We will address the ones we didn't get to next time.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Friday, October 19:</b> Coming soon.</li>
 </ul>
