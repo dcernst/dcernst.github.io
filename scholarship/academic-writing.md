@@ -20,7 +20,7 @@ My interests also include the [scholarship of teaching and learning](http://en.w
 You can find a recent version of my curriculum vitae [here]({{site.baseurl}}/scholarship/CVErnst.pdf).
 
 ## Submitted
-  * B.J. Benesh, D.C. Ernst, and N. Sieben. Impartial achievement games for generating nilpotent groups. Submitted to *J. Group Theory* 2018.
+  * B.J. Benesh, D.C. Ernst, and N. Sieben. Impartial achievement games for generating nilpotent groups. Submitted to *J. Group Theory* 2018. [[arXiv:1805.01409](https://arxiv.org/abs/1805.01409)]
 
 ## Journal Articles
   * D.C. Ernst. Diagram calculus for a type affine *C* Temperley-Lieb algebra, II. *J. Pure Appl. Alg.* 222(12), 3795-3830, 2018. [[arXiv:1101.4215](http://arxiv.org/abs/1101.4215)] [[DOI:10.1016/j.jpaa.2018.02.008](https://doi.org/10.1016/j.jpaa.2018.02.008)]
