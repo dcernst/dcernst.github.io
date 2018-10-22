@@ -100,7 +100,7 @@ We’ll use this page to keep track of what has happened each day in class. It w
 ## Week 9 ##
 
 <ul class="fa-ul">
-  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, October 22:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, October 22:</b> We had JS, JH, and DH present Problems 58, 59, and 60, respectively.  All three problems were a team effort, but we got them done.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, October 24:</b> Coming soon.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Friday, October 26:</b> Coming soon.</li>
 </ul>
