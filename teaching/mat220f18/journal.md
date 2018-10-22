@@ -96,3 +96,11 @@ We’ll use this page to keep track of what has happened each day in class. It w
   <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, October 17:</b> We had KN, ER, and CB present Problems 55, 56, and 57, respectively.  The first two went fairly quickly and then we discussed Problem 57 for quite a while.  I accidentally let the class go 10 minutes early.  Oops.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Friday, October 19:</b> The students took Quiz 4.</li>
 </ul>
+
+## Week 9 ##
+
+<ul class="fa-ul">
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, October 22:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, October 24:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, October 26:</b> Coming soon.</li>
+</ul>

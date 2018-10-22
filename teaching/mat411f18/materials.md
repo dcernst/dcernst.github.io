@@ -115,6 +115,7 @@ The notes will be released incrementally. Each link below is to a PDF file. If y
 Below are links to the take-home portions of each exam. If you are interested in using LaTeX to type up your solutions, contact me and I will send you a link to the source file of the exam.
 
 - [Exam 1 (take-home portion)]({{site.baseurl}}/teaching/mat411f18/411Exam1-Home.pdf) (PDF). (Due Wednesday, September 26)
+- [Exam 2 (take-home portion)]({{site.baseurl}}/teaching/mat411f18/411Exam1-Home.pdf) (PDF). (Due Monday, October 29)
 
 <!-- - [Exam 1 (take-home portion)]({{site.baseurl}}/teaching/mat411f18/411Exam1-Home.pdf) (PDF). (Due Wednesday, February 14)
 - [Exam 2 (take-home portion)]({{site.baseurl}}/teaching/mat411f18/411Exam2-Home.pdf) (PDF). For the last question, you will need the following pictures of quilts that correspond to tables for groups of order 8. (Due Friday, March 16)
