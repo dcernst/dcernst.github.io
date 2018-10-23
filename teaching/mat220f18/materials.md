@@ -46,13 +46,14 @@ Below you will find notes and handouts that we have used in class, as well as so
     - [Ira Glass on the Creative Process](https://www.youtube.com/watch?v=PbC4gqZGPSY&feature=youtu.be) (1:54 min)
 - [The Chinese Farmer &#124; Alan Watts](https://www.youtube.com/watch?feature=share&v=eJShr4VdvxQ&app=desktop) (2:26 min)
 - [The Secret to Raising Smart Kids &#124; Carol Dweck](https://www.scientificamerican.com/article/the-secret-to-raising-smart-kids1/) (article on Scientific American)
+- [Do Schools Kill Creativity? &#124; Ken Robinson](https://www.ted.com/talks/ken_robinson_says_schools_kill_creativity?language=en) (19:22 min)
 - [Lessons from My Math Degree That Have Nothing to Do with Math](https://medium.com/s/story/6-life-lessons-from-my-math-degree-that-have-nothing-to-do-with-math-d38aba90edfe) (6 min read on Medium)
 - Pictures of board work that we ran out of time to discuss. *Note:* You should not assume that the solutions/proofs posted below are valid or sufficient.
     - [Problem 5(a)]({{site.baseurl}}/teaching/mat220f18/Problem5a1.JPG) (version 1), [Problem 5(a)]({{site.baseurl}}/teaching/mat220f18/Problem5a2.JPG) (version 2)
 - [Quiz 1]({{ site.baseurl }}/teaching/mat220f18/220Quiz1.pdf) (PDF)
 - [Quiz 2]({{ site.baseurl }}/teaching/mat220f18/220Quiz2.pdf) (PDF)
 - [Quiz 3]({{ site.baseurl }}/teaching/mat220f18/220Quiz3.pdf) (PDF)
-
+- [Quiz 4]({{ site.baseurl }}/teaching/mat220f18/220Quiz4.pdf) (PDF)
 
 <blockquote>
   <p>Don’t just read it; fight it! Ask your own questions, look for your own examples, discover your own proofs. Is the hypothesis necessary? Is the converse true? What happens in the classical special case? What about the degenerate cases? Where does the proof use the hypothesis?</p>

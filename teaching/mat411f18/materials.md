@@ -103,6 +103,7 @@ The notes will be released incrementally. Each link below is to a PDF file. If y
     - [Ira Glass on the Creative Process](https://www.youtube.com/watch?v=PbC4gqZGPSY&feature=youtu.be) (1:54 min)
 - [The Chinese Farmer &#124; Alan Watts](https://www.youtube.com/watch?feature=share&v=eJShr4VdvxQ&app=desktop) (2:26 min)
 - [The Secret to Raising Smart Kids &#124; Carol Dweck](https://www.scientificamerican.com/article/the-secret-to-raising-smart-kids1/) (article on Scientific American)
+- [Do Schools Kill Creativity? &#124; Ken Robinson](https://www.ted.com/talks/ken_robinson_says_schools_kill_creativity?language=en) (19:22 min)
 - [Lessons from My Math Degree That Have Nothing to Do with Math](https://medium.com/s/story/6-life-lessons-from-my-math-degree-that-have-nothing-to-do-with-math-d38aba90edfe) (6 min read on Medium)
 - Pictures of board work that we ran out of time to discuss. *Note:* You should not assume that the solutions/proofs posted below are valid or sufficient.
     - [Problem 2.9]({{site.baseurl}}/teaching/mat411f18/Problem2.9.JPG)
@@ -115,7 +116,7 @@ The notes will be released incrementally. Each link below is to a PDF file. If y
 Below are links to the take-home portions of each exam. If you are interested in using LaTeX to type up your solutions, contact me and I will send you a link to the source file of the exam.
 
 - [Exam 1 (take-home portion)]({{site.baseurl}}/teaching/mat411f18/411Exam1-Home.pdf) (PDF). (Due Wednesday, September 26)
-- [Exam 2 (take-home portion)]({{site.baseurl}}/teaching/mat411f18/411Exam1-Home.pdf) (PDF). (Due Monday, October 29)
+- [Exam 2 (take-home portion)]({{site.baseurl}}/teaching/mat411f18/411Exam2-Home.pdf) (PDF). (Due Monday, October 29)
 
 <!-- - [Exam 1 (take-home portion)]({{site.baseurl}}/teaching/mat411f18/411Exam1-Home.pdf) (PDF). (Due Wednesday, February 14)
 - [Exam 2 (take-home portion)]({{site.baseurl}}/teaching/mat411f18/411Exam2-Home.pdf) (PDF). For the last question, you will need the following pictures of quilts that correspond to tables for groups of order 8. (Due Friday, March 16)
