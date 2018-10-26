@@ -100,5 +100,13 @@ We’ll use this page to keep track of what has happened each day in class. It w
 <ul class="fa-ul">
   <li><i class="fa-li far fa-calendar-check"></i><b>Monday, October 22:</b> The students took the in-class portion of Exam 2.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, October 24:</b> While the students are busy working on the take-home portion of Exam 2, I will spend the next few class meetings doing some lecturing.  We covered Theorem 4.16-Problem 4.23.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, October 26:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, October 26:</b> I continued lecturing over Chapter 4.  We go through Theorem 4.27.</li>
+</ul>
+
+## Week 10 ##
+
+<ul class="fa-ul">
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, October 29:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, October 31:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, November 2:</b> Coming soon.</li>
 </ul>

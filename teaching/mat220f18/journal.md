@@ -102,5 +102,13 @@ We’ll use this page to keep track of what has happened each day in class. It w
 <ul class="fa-ul">
   <li><i class="fa-li far fa-calendar-check"></i><b>Monday, October 22:</b> We had JS, JH, and DH present Problems 58, 59, and 60, respectively.  All three problems were a team effort, but we got them done.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, October 24:</b> After time for some groups to discuss problems, we had RH/AP, JS/NZ, and ZK present Problems 61, 62, and 63, respectively</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, October 26:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, October 26:</b> The students divided themselves into small groups and then spent several minutes discussing their proposed solutions to Problems 64-66.  Next, we had CC and RH present Problems 64 and 65, respectively.  After this GC presented an alternate solutions to both Problems 64 and 65.  The rest of the class period was devoted to losing our minds about Problem 66.  We heard from KW, AP, and SK concerning Problem 66.  We will spend a few minutes at the beginning of Monday's class revisiting Problem 66.</li>
+</ul>
+
+## Week 10 ##
+
+<ul class="fa-ul">
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, October 29:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, October 31:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, November 2:</b> Coming soon.</li>
 </ul>
