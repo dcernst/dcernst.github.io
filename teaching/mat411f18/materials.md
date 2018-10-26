@@ -63,7 +63,7 @@ The notes will be released incrementally. Each link below is to a PDF file. If y
     - 3.1 Subgroups
     - 3.2 Subgroup Lattices
     - 3.3 Isomorphisms
-- [Chapter 4: Families of Groups]({{site.baseurl}}/teaching/mat411f18/Families.pdf) (under construction)
+- [Chapter 4: Families of Groups]({{site.baseurl}}/teaching/mat411f18/Families.pdf)
     - 4.1 Cyclic Groups
     - 4.2 Dihedral Groups
     - 4.3 Symmetric Groups
