@@ -106,7 +106,7 @@ We’ll use this page to keep track of what has happened each day in class. It w
 ## Week 10 ##
 
 <ul class="fa-ul">
-  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, October 29:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, October 29:</b> Today was the last day of lecturing before jumping back into student presentations.  I covered Theorem 4.28, Theorem 4.29, Definition 4.30, Example 4.31, Theorem 4.32, Corollary 4.33, Problem 4.36, and Problem 4.37.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, October 31:</b> Coming soon.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Friday, November 2:</b> Coming soon.</li>
 </ul>
