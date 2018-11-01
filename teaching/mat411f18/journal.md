@@ -107,6 +107,14 @@ We’ll use this page to keep track of what has happened each day in class. It w
 
 <ul class="fa-ul">
   <li><i class="fa-li far fa-calendar-check"></i><b>Monday, October 29:</b> Today was the last day of lecturing before jumping back into student presentations.  I covered Theorem 4.28, Theorem 4.29, Definition 4.30, Example 4.31, Theorem 4.32, Corollary 4.33, Problem 4.36, and Problem 4.37.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, October 31:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, October 31:</b> We had KP, TS, JH, and RV present Problem 4.38, Theorem 4.42, Problem 4.43, and the forward implication of Theorem 4.46, respectively.  Along the way, I discussed Corollary 4.44 and Theorem 4.45.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Friday, November 2:</b> Coming soon.</li>
+</ul>
+
+## Week 11 ##
+
+<ul class="fa-ul">
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, November 5:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, November 7:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, November 9:</b> Coming soon.</li>
 </ul>
