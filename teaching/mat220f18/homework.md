@@ -60,4 +60,5 @@ The following assignments are due at the beginning of the indicated class meetin
 <li><i class="fa-li fa fa-edit"></i><b>Homework 25:</b> Complete Problems 67-69 from the <a href="https://dcernst.github.io/teaching/mat220f18/220ProblemCollection.pdf">Problem Collection</a>. (Due Monday, October 29)</li>
 <li><i class="fa-li fa fa-edit"></i><b>Homework 26:</b> Complete Problems 70-72 from the <a href="https://dcernst.github.io/teaching/mat220f18/220ProblemCollection.pdf">Problem Collection</a>. (Due Wednesday, October 31)</li>
 <li><i class="fa-li fa fa-edit"></i><b>Homework 27:</b> Complete Problems 73-75 from the <a href="https://dcernst.github.io/teaching/mat220f18/220ProblemCollection.pdf">Problem Collection</a>. (Due Monday, November 5)</li>
+<li><i class="fa-li fa fa-edit"></i><b>Homework 28:</b> Complete Problems 76-78 from the <a href="https://dcernst.github.io/teaching/mat220f18/220ProblemCollection.pdf">Problem Collection</a>. (Due Wednesday, November 7)</li>
 </ul>
