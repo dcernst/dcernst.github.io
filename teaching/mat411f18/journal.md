@@ -114,7 +114,7 @@ We’ll use this page to keep track of what has happened each day in class. It w
 ## Week 11 ##
 
 <ul class="fa-ul">
-  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, November 5:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, November 5:</b> I spent the first several minutes sketching proofs for Theorems 4.58 and 4.59.  Then we had AS2, AS1, KP, WR, SA, and TS present Problems 4.61, 4.66, 4.67, 4.68, 4.69, and 4.70, respectively.  We wrapped up with me sketching a proof of Theorem 4.71.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, November 7:</b> Coming soon.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Friday, November 9:</b> Coming soon.</li>
 </ul>
