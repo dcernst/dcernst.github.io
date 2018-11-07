@@ -117,6 +117,6 @@ We’ll use this page to keep track of what has happened each day in class. It w
 
 <ul class="fa-ul">
   <li><i class="fa-li far fa-calendar-check"></i><b>Monday, November 5:</b> After dividing the class up into several small groups, we had ER, AS, and YF present Problems 73, 74, and 75, respectively.  I was impressed with the quality of all three arguments.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, November 7:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, November 7:</b> We split the class up into several groups and each group tried to come to consensus on as many of the homework problems as possible. We had KW/AP/JJ, KN/RH/JS, and BC/ST present Problems 76, 77, and 78, respectively.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Friday, November 9:</b> Coming soon.</li>
 </ul>
