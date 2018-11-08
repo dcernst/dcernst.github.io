@@ -57,7 +57,7 @@ The following assignments are due at the beginning of the indicated class meetin
 - **Daily Homework 23:** Complete 4.49-4.52 and sketch arguments for 4.56-4.58 in [Chapter 4: Families of Groups]({{site.baseurl}}/teaching/mat411f18/Families.pdf). (Due Friday, November 2)
 - **Daily Homework 24:** Sketch arguments for 4.59-4.61 and complete 4.63, 4.64, 4.66-4.71 in [Chapter 4: Families of Groups]({{site.baseurl}}/teaching/mat411f18/Families.pdf). (Due Monday, November 5)
 - **Daily Homework 25:** Complete 4.72-4.82 in [Chapter 4: Families of Groups]({{site.baseurl}}/teaching/mat411f18/Families.pdf). (Due Wednesday, November 7)
-- **Daily Homework 26:** Complete 4.83- in [Chapter 4: Families of Groups]({{site.baseurl}}/teaching/mat411f18/Families.pdf). (Due Friday, November 9)
+- **Daily Homework 26:** Complete 4.83-4.91, 4.95, 4.96 in [Chapter 4: Families of Groups]({{site.baseurl}}/teaching/mat411f18/Families.pdf). (Due Friday, November 9)
 
 ## Weekly Homework ##
 In addition to the Daily Homework, we will also have Weekly Homework assignments.  For most of these assignments, you will be required to submit 2-3 formally written proofs.  Typically, two of the problems will come directly from the Daily Homework from the previous week.  Any additional problems will likely be new.  You will be required to type your submission using LaTeX (see below for more on this).  You can either submit a hardcopy of your assignment or email me the PDF of your completed work. If you email me the PDF, please name your file as <code>WeeklyX-Lastname.pdf</code>, where <code>X</code> is the number of the assignment and <code>Lastname</code> is your last name.  Notice there are no spaces in the filename.
