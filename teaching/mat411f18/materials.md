@@ -72,13 +72,13 @@ The notes will be released incrementally. Each link below is to a PDF file. If y
     - 5.1 Cosets
     - 5.2 Lagrange's Theorem
     - 5.3 Normal Subgroups
-- Chapter 6: Products and Quotients of Groups (coming soon)
+- [Chapter 6: Products and Quotients of Groups]({{site.baseurl}}/teaching/mat411f18/ProductsQuotients.pdf)
     - 6.1 Products of Groups
     - 6.2 Quotients of Groups
-- Chapter 7: Homomorphisms and the Isomorphism Theorems (coming soon)
+- [Chapter 7: Homomorphisms and the Isomorphism Theorems]({{site.baseurl}}/teaching/mat411f18/Homomorphisms.pdf)
     - 7.1 Homomorphisms
     - 7.2 The Isomorphism Theorems
-- Chapter 8: An Introduction to Rings (coming soon)
+- [Chapter 8: An Introduction to Rings]({{site.baseurl}}/teaching/mat411f18/Rings.pdf)
     - 8.1 Definitions and Examples
     - 8.2 Ring Homomorphisms
     - 8.3 Ideals and Quotient Rings
