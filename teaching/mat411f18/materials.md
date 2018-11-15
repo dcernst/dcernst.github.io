@@ -117,13 +117,4 @@ Below are links to the take-home portions of each exam. If you are interested in
 
 - [Exam 1 (take-home portion)]({{site.baseurl}}/teaching/mat411f18/411Exam1-Home.pdf) (PDF). (Due Wednesday, September 26)
 - [Exam 2 (take-home portion)]({{site.baseurl}}/teaching/mat411f18/411Exam2-Home.pdf) (PDF). (Due Monday, October 29)
-
-<!-- - [Exam 1 (take-home portion)]({{site.baseurl}}/teaching/mat411f18/411Exam1-Home.pdf) (PDF). (Due Wednesday, February 14)
-- [Exam 2 (take-home portion)]({{site.baseurl}}/teaching/mat411f18/411Exam2-Home.pdf) (PDF). For the last question, you will need the following pictures of quilts that correspond to tables for groups of order 8. (Due Friday, March 16)
-    - [Quilt 1]({{site.baseurl}}/teaching/mat411s16/Quilt1.JPG)
-    - [Quilt 2]({{site.baseurl}}/teaching/mat411s16/Quilt2.JPG)
-    - [Quilt 3]({{site.baseurl}}/teaching/mat411s16/Quilt3.JPG)
-    - [Quilt 4]({{site.baseurl}}/teaching/mat411s16/Quilt4.JPG)
-    - [Quilt 5]({{site.baseurl}}/teaching/mat411s16/Quilt5.JPG)
-- [Exam 3 (take-home portion)]({{site.baseurl}}/teaching/mat411f18/411Exam3-Home.pdf) (PDF). (Due Wednesday, April 25)
-- [Final Exam (take-home portion)]({{site.baseurl}}/teaching/mat411f18/411ExamFinal-Home.pdf) (PDF). (Due by 10am on Friday, May 11) -->
+- [Exam 3 (take-home portion)]({{site.baseurl}}/teaching/mat411f18/411Exam3-Home.pdf) (PDF). (Due Wednesday, November 21)
