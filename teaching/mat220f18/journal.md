@@ -118,5 +118,13 @@ We’ll use this page to keep track of what has happened each day in class. It w
 <ul class="fa-ul">
   <li><i class="fa-li far fa-calendar-check"></i><b>Monday, November 5:</b> After dividing the class up into several small groups, we had ER, AS, and YF present Problems 73, 74, and 75, respectively.  I was impressed with the quality of all three arguments.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, November 7:</b> We split the class up into several groups and each group tried to come to consensus on as many of the homework problems as possible. We had KW/AP/JJ, KN/RH/JS, and BC/ST present Problems 76, 77, and 78, respectively.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, November 9:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, November 9:</b> We started with JJ showing us an alternative approach to Problem 78.  After that, we had JS, CC, CB, GC, and JH present Problems 79(a), 79(b), 79(c), 80, and 81, respectively.</li>
+</ul>
+
+## Week 12 ##
+
+<ul class="fa-ul">
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, November 12:</b> No class due to Veteran's Day.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, November 14:</b> As we've been doing a lot lately, we split the class up into several small groups, where each group was tasked with coming to consensus about solutions for Problems 82-84.  We had CB and RH present Problems 82 and 84, respectively.  It appeared no one made much progress on Problem 83, so I sketched the argument at the end of class.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, November 16:</b> The students took Quiz 6.</li>
 </ul>
