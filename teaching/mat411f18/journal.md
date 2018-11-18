@@ -126,3 +126,27 @@ We’ll use this page to keep track of what has happened each day in class. It w
   <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, November 14:</b> The students took the in-class portion of Exam 3.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Friday, November 16:</b> I lectured over most of Section 5.1.</li>
 </ul>
+
+## Week 13 ##
+
+<ul class="fa-ul">
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, November 19:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, November 21:</b> Coming soon</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, November 23:</b> No class due to Thanksgiving break.</li>
+</ul>
+
+## Week 14 ##
+
+<ul class="fa-ul">
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, November 26:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, November 28:</b> Coming soon</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, November 30:</b> Coming soon.</li>
+</ul>
+
+## Week 13 ##
+
+<ul class="fa-ul">
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, December 3:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, December 5:</b> Coming soon</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, December 7:</b> Coming soon.</li>
+</ul>

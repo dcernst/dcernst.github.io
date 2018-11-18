@@ -128,3 +128,27 @@ We’ll use this page to keep track of what has happened each day in class. It w
   <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, November 14:</b> As we've been doing a lot lately, we split the class up into several small groups, where each group was tasked with coming to consensus about solutions for Problems 82-84.  We had CB and RH present Problems 82 and 84, respectively.  It appeared no one made much progress on Problem 83, so I sketched the argument at the end of class.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Friday, November 16:</b> The students took Quiz 6.</li>
 </ul>
+
+## Week 13 ##
+
+<ul class="fa-ul">
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, November 19:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, November 21:</b> Coming soon</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, November 23:</b> No class due to Thanksgiving break.</li>
+</ul>
+
+## Week 14 ##
+
+<ul class="fa-ul">
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, November 26:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, November 28:</b> Coming soon</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, November 30:</b> Coming soon.</li>
+</ul>
+
+## Week 13 ##
+
+<ul class="fa-ul">
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, December 3:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, December 5:</b> Coming soon</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, December 7:</b> Coming soon.</li>
+</ul>
