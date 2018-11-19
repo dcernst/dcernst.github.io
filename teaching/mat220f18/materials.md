@@ -56,7 +56,7 @@ Below you will find notes and handouts that we have used in class, as well as so
 - [Quiz 4]({{ site.baseurl }}/teaching/mat220f18/220Quiz4.pdf) (PDF)
 - [Quiz 5]({{ site.baseurl }}/teaching/mat220f18/220Quiz5.pdf) (PDF)
 - [Quiz 6]({{ site.baseurl }}/teaching/mat220f18/220Quiz6.pdf) (PDF)
-- Quiz 7 (coming soon)
+- Quiz 7 (coming soon) 
 
 <blockquote>
   <p>Don’t just read it; fight it! Ask your own questions, look for your own examples, discover your own proofs. Is the hypothesis necessary? Is the converse true? What happens in the classical special case? What about the degenerate cases? Where does the proof use the hypothesis?</p>
