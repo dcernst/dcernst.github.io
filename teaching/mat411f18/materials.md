@@ -118,3 +118,4 @@ Below are links to the take-home portions of each exam. If you are interested in
 - [Exam 1 (take-home portion)]({{site.baseurl}}/teaching/mat411f18/411Exam1-Home.pdf) (PDF). (Due Wednesday, September 26)
 - [Exam 2 (take-home portion)]({{site.baseurl}}/teaching/mat411f18/411Exam2-Home.pdf) (PDF). (Due Monday, October 29)
 - [Exam 3 (take-home portion)]({{site.baseurl}}/teaching/mat411f18/411Exam3-Home.pdf) (PDF). (Due Wednesday, November 21)
+- [Final Exam (take-home portion)]({{site.baseurl}}/teaching/mat411f18/411ExamFinal-Home.pdf) (PDF). (Due by 5pm on Thursday, December 13)
