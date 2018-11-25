@@ -65,5 +65,6 @@ The following assignments are due at the beginning of the indicated class meetin
 <li><i class="fa-li fa fa-edit"></i><b>Homework 30:</b> Complete Problems 82-84 from the <a href="https://dcernst.github.io/teaching/mat220f18/220ProblemCollection.pdf">Problem Collection</a>. (Due Wednesday, November 14)</li>
 <li><i class="fa-li fa fa-edit"></i><b>Homework 31:</b> Complete Problems 85-87 from the <a href="https://dcernst.github.io/teaching/mat220f18/220ProblemCollection.pdf">Problem Collection</a>. (Due Monday, November 19)</li>
 <li><i class="fa-li fa fa-edit"></i><b>Homework 32:</b> Complete Problems 88-90 from the <a href="https://dcernst.github.io/teaching/mat220f18/220ProblemCollection.pdf">Problem Collection</a>. (Due Wednesday, November 21)</li>
-<li><i class="fa-li fa fa-edit"></i><b>Homework 33:</b> Complete Problem 91 from the <a href="https://dcernst.github.io/teaching/mat220f18/220ProblemCollection.pdf">Problem Collection</a>. (Due Monday, November 26)</li>
+<li><i class="fa-li fa fa-edit"></i><b>Homework 33:</b> Revisit Problem 90 and complete Problem 91  from the <a href="https://dcernst.github.io/teaching/mat220f18/220ProblemCollection.pdf">Problem Collection</a>. (Due Monday, November 26)</li>
+<li><i class="fa-li fa fa-edit"></i><b>Homework 34:</b> Complete Problems 92-94 from the <a href="https://dcernst.github.io/teaching/mat220f18/220ProblemCollection.pdf">Problem Collection</a>. (Due Wednesday, November 28)</li>
 </ul>
