@@ -59,6 +59,7 @@ The following assignments are due at the beginning of the indicated class meetin
 - **Daily Homework 25:** Complete 4.72-4.82 in [Chapter 4: Families of Groups]({{site.baseurl}}/teaching/mat411f18/Families.pdf). (Due Wednesday, November 7)
 - **Daily Homework 26:** Complete 4.83-4.91, 4.95, 4.96 in [Chapter 4: Families of Groups]({{site.baseurl}}/teaching/mat411f18/Families.pdf). (Due Friday, November 9)
 - **Daily Homework 27:** Complete 4.99 (using Lemma 4.98), 4.102-4.105, 4.107, 4.108-4.112, 5.5, 5.24(a), 6.33(eh), 6.35(a). (Due Wednesday, November 28)
+- **Daily Homework 28:** Complete 6.32, 6.33, 7.15, 7.17. (Due Friday, November 30)
 
 ## Weekly Homework ##
 In addition to the Daily Homework, we will also have Weekly Homework assignments.  For most of these assignments, you will be required to submit 2-3 formally written proofs.  Typically, two of the problems will come directly from the Daily Homework from the previous week.  Any additional problems will likely be new.  You will be required to type your submission using LaTeX (see below for more on this).  You can either submit a hardcopy of your assignment or email me the PDF of your completed work. If you email me the PDF, please name your file as <code>WeeklyX-Lastname.pdf</code>, where <code>X</code> is the number of the assignment and <code>Lastname</code> is your last name.  Notice there are no spaces in the filename.
