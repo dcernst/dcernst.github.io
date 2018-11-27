@@ -133,14 +133,14 @@ We’ll use this page to keep track of what has happened each day in class. It w
 
 <ul class="fa-ul">
   <li><i class="fa-li far fa-calendar-check"></i><b>Monday, November 19:</b> After splitting up into groups, we had DH and JM present Problems 86 and 87, respectively.  This was followed by a short discussion of the connection of these problems to the Monty Hall Problem.  We wrapped up with a presentation by SK of Problem 85.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, November 21:</b> Coming soon</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, November 21:</b> Attendance wasn't too bad considering it was the day before Thanksgiving.  We had JJ and YF/JJ/AP present Problems 88 and 89, respectively.  We also got a start on Problem 90, but didn't quite wrap it up.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Friday, November 23:</b> No class due to Thanksgiving break.</li>
 </ul>
 
 ## Week 14 ##
 
 <ul class="fa-ul">
-  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, November 26:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, November 26:</b> After revisiting Problem 90, we had BC present his proposed solution to Problem 91. We also had JS and RH each present their proposed solutions to a modified version of Problem 91.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, November 28:</b> Coming soon</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Friday, November 30:</b> Coming soon.</li>
 </ul>

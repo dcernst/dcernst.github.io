@@ -131,14 +131,14 @@ We’ll use this page to keep track of what has happened each day in class. It w
 
 <ul class="fa-ul">
   <li><i class="fa-li far fa-calendar-check"></i><b>Monday, November 19:</b> I continued lecturing over Chapter 5.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, November 21:</b> Coming soon</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, November 21:</b> More lecturing.  I covered the rest of Chapter 5 and part of Section 6.1.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Friday, November 23:</b> No class due to Thanksgiving break.</li>
 </ul>
 
 ## Week 14 ##
 
 <ul class="fa-ul">
-  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, November 26:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, November 26:</b> We picked up where we left off and covered nearly all of Section 6.1.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, November 28:</b> Coming soon</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Friday, November 30:</b> Coming soon.</li>
 </ul>
