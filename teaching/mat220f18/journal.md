@@ -141,8 +141,8 @@ We’ll use this page to keep track of what has happened each day in class. It w
 
 <ul class="fa-ul">
   <li><i class="fa-li far fa-calendar-check"></i><b>Monday, November 26:</b> After revisiting Problem 90, we had BC present his proposed solution to Problem 91. We also had JS and RH each present their proposed solutions to a modified version of Problem 91.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, November 28:</b> Coming soon</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, November 30:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, November 28:</b> We had lots of good discussion today, but didn't cover much ground.  We had ER and HO/WS/WC present their proposed solutions to Problems 92 and 93. We made good progress on a system for finding a solution for 92, but we sort of fizzled out towards the end.  We ended up finding a function that satisfied the constraints, but we came up with it by guessing.  There was lots of good discussion about Problem 93 (12 coins), but things got a little chaotic towards the end.  We will revisit both of these next week if we have some spare time.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, November 30:</b> The students took Quiz 7.</li>
 </ul>
 
 ## Week 13 ##

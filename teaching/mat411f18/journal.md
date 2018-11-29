@@ -139,7 +139,7 @@ We’ll use this page to keep track of what has happened each day in class. It w
 
 <ul class="fa-ul">
   <li><i class="fa-li far fa-calendar-check"></i><b>Monday, November 26:</b> We picked up where we left off and covered nearly all of Section 6.1.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, November 28:</b> Coming soon</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, November 28:</b> We finally got back to student presentations!  It's really nice to get back to letting the students drive. We had SM, JS, RB, WC, WR, KL, JO, and MS present Theorem 4.99, Problem 4.102, Problem 4.104, 4.105, Theorem 4.107, Problem 4.109, Problem 4.111, and Problem 5.5, respectively.  Along the way, we also discussed Problems 4.103, 4.108, 4.110, and 4.112.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Friday, November 30:</b> Coming soon.</li>
 </ul>
 
