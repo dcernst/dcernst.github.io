@@ -60,6 +60,9 @@ The following assignments are due at the beginning of the indicated class meetin
 - **Daily Homework 26:** Complete 4.83-4.91, 4.95, 4.96 in [Chapter 4: Families of Groups]({{site.baseurl}}/teaching/mat411f18/Families.pdf). (Due Friday, November 9)
 - **Daily Homework 27:** Complete 4.99 (using Lemma 4.98), 4.102-4.105, 4.107, 4.108-4.112, 5.5, 5.24(a), 6.33(eh), 6.35(a). (Due Wednesday, November 28)
 - **Daily Homework 28:** Complete 6.32, 6.33, 7.15, 7.17. (Due Friday, November 30)
+- **Daily Homework 29:** Complete 8.3, 8.6-8.10. (Due Monday, December 3)
+- **Daily Homework 30:** Complete 7.23, 7.24, 8.15-8.17. (Due Wednesday, December 5)
+- **Daily Homework 31:** Complete 8.32, 8.36(ab), 8.37(b), 8.39. (Due Friday, December 7)
 
 ## Weekly Homework ##
 In addition to the Daily Homework, we will also have Weekly Homework assignments.  For most of these assignments, you will be required to submit 2-3 formally written proofs.  Typically, two of the problems will come directly from the Daily Homework from the previous week.  Any additional problems will likely be new.  You will be required to type your submission using LaTeX (see below for more on this).  You can either submit a hardcopy of your assignment or email me the PDF of your completed work. If you email me the PDF, please name your file as <code>WeeklyX-Lastname.pdf</code>, where <code>X</code> is the number of the assignment and <code>Lastname</code> is your last name.  Notice there are no spaces in the filename.
@@ -71,19 +74,6 @@ In addition to the Daily Homework, we will also have Weekly Homework assignments
 - **Weekly Homework 5:** Prove **two** of Theorem 3.51, Theorem 3.52, Theorem 3.53, Theorem 3.54. You must type up your proofs using LaTeX.  I suggest you use my Overleaf template, which you can access by clicking the "Start your homework in Overleaf" link below. (Due Tuesday, October 16 by 8PM)
 - **Weekly Homework 6:** Prove **two** of Theorem 4.42, Theorem 4.45, Theorem 4.46, Theorem 4.58, Theorem 4.59. You must type up your proofs using LaTeX.  I suggest you use my Overleaf template, which you can access by clicking the "Start your homework in Overleaf" link below. (Due Tuesday, November 6 by 8PM)
 - **Weekly Homework 7:** Prove **two** of Theorem 4.76, Theorem 4.79, Theorem 4.80, Theorem 4.90. You must type up your proofs using LaTeX.  I suggest you use my Overleaf template, which you can access by clicking the "Start your homework in Overleaf" link below. (Due Tuesday, November 13 by 8PM)
-
-<!-- - **Weekly Homework 3:** Prove **two** of Corollary 2.41, Theorem 2.42, Theorem 2.44, Theorem 2.45, Theorem 2.47(a), Theorem 2.47(b), Theorem 2.50, Theorem 2.63. You must type up your proofs using LaTeX.  (Due Thursday, February 8 by 8PM)
-- **Weekly Homework 4:** Complete each of the following tasks. (Due Thursday, February 22 by 8PM)
-  - Prove **one** of Theorems 3.19 and 3.21.
-  - Determine whether each of the following statements is true or false. If a statement is true, write a short proof. If a statement is false, justify your reasoning. In each case, the context should make it clear what each letter represents. In particular, in Items 1, 3, and 5, $r$ represents rotation of a square by a quarter turn clockwise. But in Item 4, $r$ represents rotating a triangle by a third of a turn clockwise.
-      1. $\\{s, r, sr, rs\\}\leq D_4$
-      2. $\\{1, -1, i, -i, j, -j\\}\leq Q_8$
-      3. $\\{e, sr, rs, r^2\\}\leq D_4$
-      4. $\\{e, r, r^2\\} \leq D_3$
-      5. $\\{e, r, r^2\\} \leq D_4$
-- **Weekly Homework 5:** Prove **two** of Theorem 3.23, Theorem 3.24, Theorem 3.51, Theorem 3.52, Theorem 3.53, Theorem 3.54.  (Due Thursday, March 8 by 8PM)
-- **Weekly Homework 6:** Prove **two** of Theorem 4.10, Theorem 4.17, Theorem 4.19, Theorem 4.27, Theorem 4.39.  (Due Thursday, March 29 by 8PM)
-- **Weekly Homework 7:** Prove **two** of Theorem 4.41, Theorem 4.44, Theorem 4.45, Problem 4.51, Problem 4.52.  (Due Thursday, April 5 by 8PM) -->
 
 ## Using LaTeX for Weekly Homework ##
 You are required to use LaTeX to type up your Weekly Homework assignments.  To do this, I suggest that you use my [LaTeX Homework Template](https://github.com/dcernst/MiscTeachingMaterials/blob/master/HWTemplate/HWTemplate.tex).  The easiest way to get started with LaTeX is to use an online editor.  I recommend using [Overleaf](https://overleaf.com), but there are other options.  The good folks over at Overleaf have preloaded my template, so to get started, all you need to do is click the link below.
