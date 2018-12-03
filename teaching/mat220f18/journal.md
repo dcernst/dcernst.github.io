@@ -145,7 +145,7 @@ We’ll use this page to keep track of what has happened each day in class. It w
   <li><i class="fa-li far fa-calendar-check"></i><b>Friday, November 30:</b> The students took Quiz 7.</li>
 </ul>
 
-## Week 13 ##
+## Week 15 ##
 
 <ul class="fa-ul">
   <li><i class="fa-li far fa-calendar-check"></i><b>Monday, December 3:</b> Coming soon.</li>

@@ -143,7 +143,7 @@ We’ll use this page to keep track of what has happened each day in class. It w
   <li><i class="fa-li far fa-calendar-check"></i><b>Friday, November 30:</b> We kicked off with presentations of Problems 3.32(a) and 6.32(d) by WC and JO.  Then I lectured over the rest of Section 6.1 and most of Section 7.2.</li>
 </ul>
 
-## Week 13 ##
+## Week 15 ##
 
 <ul class="fa-ul">
   <li><i class="fa-li far fa-calendar-check"></i><b>Monday, December 3:</b> Coming soon.</li>
