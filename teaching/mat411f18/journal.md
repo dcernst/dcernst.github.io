@@ -146,7 +146,7 @@ We’ll use this page to keep track of what has happened each day in class. It w
 ## Week 15 ##
 
 <ul class="fa-ul">
-  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, December 3:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, December 3:</b> We wrapped up Chapter 7, proved the First Isomorphism Theorem, and started Chapter 8.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, December 5:</b> Coming soon</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Friday, December 7:</b> Coming soon.</li>
 </ul>

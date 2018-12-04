@@ -148,7 +148,7 @@ We’ll use this page to keep track of what has happened each day in class. It w
 ## Week 15 ##
 
 <ul class="fa-ul">
-  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, December 3:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, December 3:</b> After discussing the basics of induction, we revisited Problem 93 (which has nothing to do with induction).  Next, we had ER present Problem 97, which was followed by some short presentations of the $n=2, 3, 4$ cases for Problem 96 by JH, AP, and SK, respectively.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, December 5:</b> Coming soon</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Friday, December 7:</b> Coming soon.</li>
 </ul>
