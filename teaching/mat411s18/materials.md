@@ -28,7 +28,7 @@ title: Course Materials
 
 ## An Inquiry-Based Approach to Abstract Algebra ##
 
-This free and open-source textbook was written by me ([Dana C. Ernst](http://danaernst.com)) and is designed to used with an [inquiry-based learning](http://maamathedmatters.blogspot.com/2013/05/what-heck-is-ibl.html) (IBL) approach to a first-semester undergraduate abstract algebra course. The textbook starts with groups (up to the First Isomorphism Theorem) and finishes with an introduction to rings (up to quotients by maximal and prime ideals). While the textbook covers many of the standard topics, the focus is on building intuition and emphasizes visualization. The source files are located on [GitHub](https://github.com/dcernst/IBL-AbstractAlgebra).
+This free and open-source textbook was written by me ([Dana C. Ernst](http://danaernst.com)) and is designed to be used with an [inquiry-based learning](http://maamathedmatters.blogspot.com/2013/05/what-heck-is-ibl.html) (IBL) approach to a first-semester undergraduate abstract algebra course. The textbook starts with groups (up to the First Isomorphism Theorem) and finishes with an introduction to rings (up to quotients by maximal and prime ideals). While the textbook covers many of the standard topics, the focus is on building intuition and emphasizes visualization. The source files are located on [GitHub](https://github.com/dcernst/IBL-AbstractAlgebra).
 
 I will not be covering every detail of the notes and the only way to achieve a sufficient understanding of the material is to be digesting the reading in a meaningful way.  You should be seeking clarification about the content of the notes whenever necessary by asking questions.  Here's one of my favorite quotes about reading mathematics.
 
