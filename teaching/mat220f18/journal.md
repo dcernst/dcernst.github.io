@@ -149,6 +149,6 @@ We’ll use this page to keep track of what has happened each day in class. It w
 
 <ul class="fa-ul">
   <li><i class="fa-li far fa-calendar-check"></i><b>Monday, December 3:</b> After discussing the basics of induction, we revisited Problem 93 (which has nothing to do with induction).  Next, we had ER present Problem 97, which was followed by some short presentations of the $n=2, 3, 4$ cases for Problem 96 by JH, AP, and SK, respectively.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, December 5:</b> Coming soon</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, December 7:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, December 5:</b> We started off with Problem 95. HO showed how we could circumnavigate my outline and get to the desired conclusion via a much easier approach!  I had been hoping to find an easier way to do that problem for a few years now.  Yay!  Next, AS and ZK did a really nice job showcasing induction by presenting Problems 98 and 99, respectively.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, December 7:</b> Last day!  I'm miss this group of students. After some discussion of all the things we've accomplished this semester, we divided up into groups of size 2-4 and spread around the room to discuss Problem 100, 101, and 102.  We had KN and JT/WS present Problems 100 and 102, respectively.  I spent the final few minutes wrapping up Problem 102.  Unfortunately, we ran out of time to discuss Problem 101.</li>
 </ul>

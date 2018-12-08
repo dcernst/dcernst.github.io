@@ -147,6 +147,6 @@ We’ll use this page to keep track of what has happened each day in class. It w
 
 <ul class="fa-ul">
   <li><i class="fa-li far fa-calendar-check"></i><b>Monday, December 3:</b> We wrapped up Chapter 7, proved the First Isomorphism Theorem, and started Chapter 8.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, December 5:</b> Coming soon</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, December 7:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, December 5:</b> We tinkered with some problems involving the First Isomorphism Theorem for groups and then covered more of Chapter 8.  Along the way, we had JH, WR, SM, TS, AS1, and JO present Problems 7.23, 7.24, 8.9(a), 8.9(b), 8.9(c), and 8.15, respectively.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, December 7:</b> Last day!  I've really enjoyed this group of students.  We cranked through most of the rest of Chapter 8 and along the way, we had JS and JO present Problem 8.36 and Theorem 8.37(b), respectively.</li>
 </ul>
