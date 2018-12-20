@@ -85,11 +85,11 @@ From Spring 2013 through Spring 2016, I was co-editor and author for [Math Ed Ma
   * B.J. Benesh, D.C. Ernst, and N. Sieben. The spectrum of impartial achievement games for generating finite groups.
   * H. Denoncourt, D.C. Ernst, and T. Rosenberg. On signed permutations of maximal reversal length.
   * E. Bidari, D.C. Ernst, and B. Samz. Structure of braid graphs for reduced words in Coxeter groups of types $A$ and $B$
-  * D.C. Ernst and A. Lebovitz. Groups with cyclic subgroups.
-  * D.C. Ernst and B. Fox. Conjugacy classes of cyclically fully commutative elements in Coxeter groups of type $A$.
-  * D.C. Ernst and T. Laird. T-avoiding elements of Coxeter groups.
 
 <!--
+* D.C. Ernst and A. Lebovitz. Groups with cyclic subgroups.
+* D.C. Ernst and B. Fox. Conjugacy classes of cyclically fully commutative elements in Coxeter groups of type $A$.
+* D.C. Ernst and T. Laird. T-avoiding elements of Coxeter groups.
 * D.C. Ernst and M. Falk. ????
 * D.C. Ernst and T.K. Petersen. The worst casino in Reno.
 * -->
