@@ -7,24 +7,24 @@ title: Class Journal
 <ol class="breadcrumb">
   <li><a href="/"><i class="fa fa-home"></i></a></li>
   <li><a href="/teaching/">Teaching</a></li>
-  <li><a href="/teaching/mat411f18">MAT 411</a></li>
+  <li><a href="/teaching/mat526s19">MAT 526</a></li>
   <li class="active">Journal</li>
 </ol>
 
 <div class="row">
 <div class="col-xs-12">
 <div class="btn-group btn-group-justified">
-<a class="btn btn-default btn-success" href="{{site.baseurl}}/teaching/mat411f18/syllabus/">Syllabus</a>
+<a class="btn btn-default btn-success" href="{{site.baseurl}}/teaching/mat526s19/syllabus/">Syllabus</a>
 
-<a class="btn btn-default btn-primary" href="{{site.baseurl}}/teaching/mat411f18/materials/">
+<a class="btn btn-default btn-primary" href="{{site.baseurl}}/teaching/mat526s19/materials/">
 <span class="hidden-xs">Course Materials</span><span class="visible-xs">Stuff</span>
 </a>
 
-<a class="btn btn-default btn-warning" href="{{site.baseurl}}/teaching/mat411f18/homework/">
+<a class="btn btn-default btn-warning" href="{{site.baseurl}}/teaching/mat526s19/homework/">
 <span class="hidden-xs">Homework</span><span class="visible-xs">HW</span>
 </a>
 
-<a class="btn btn-default btn-info" href="{{site.baseurl}}/teaching/mat411f18/journal/">Journal</a>
+<a class="btn btn-default btn-info" href="{{site.baseurl}}/teaching/mat526s19/journal/">Journal</a>
 </div>
 </div>
 </div>
@@ -34,12 +34,12 @@ We’ll use this page to keep track of what has happened each day in class. It w
 ## Week 1 ##
 
 <ul class="fa-ul">
-  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, August 27:</b> First day! The first few minutes of class were devoted to me attempting to learn names. I think I got them all! Next, I summarized what to expect from the course, toured the the <a href="{{site.baseurl}}/teaching/mat411f18/">course webpage</a>, and summarized a few items on the <a href="{{site.baseurl}}/teaching/mat411f18/syllabus/">syllabus</a>. With the time we had left, we briefly tinkered with Spinpossible.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, August 29:</b> Awesome first day of student presentations!  We spent the first few minutes on announcements and making sure we were all on the same page.  Next, we divided the class up into 9 small groups, where each group was tasked with writing their proposed solution to a designated problem.  We had WR, AS1/JS, JH/WC, KP, AM, and YS present Problems 2.1, 2.2, 2.3, 2.4, 2.5, and 2.8 respectively.  Along the way, I summarized Problems 2.6 and 2.7.  We will wrap up 2.9-2.11 next time.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, August 31:</b> We spent the first 15 minutes discussing LaTeX and the first Weekly Homework assignment.  Next, we had TS, JO, AS, and RV present Problems 2.9, 2.10, 2.11, and 2.13(a), respectively.  Along the way, I discussed Problems 2.12 and 2.14.  We got caught up on the ones we ran out of time for last class, but then we didn't get to a few of the new ones.  We will tackle those next week.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, January 14:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, January 16:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, January 18:</b> Coming soon.</li>
 </ul>
 
-## Week 2 ##
+<!-- ## Week 2 ##
 
 <ul class="fa-ul">
   <li><i class="fa-li far fa-calendar-check"></i><b>Monday, September 3:</b> Labor Day! No classes.</li>
@@ -149,4 +149,4 @@ We’ll use this page to keep track of what has happened each day in class. It w
   <li><i class="fa-li far fa-calendar-check"></i><b>Monday, December 3:</b> We wrapped up Chapter 7, proved the First Isomorphism Theorem, and started Chapter 8.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, December 5:</b> We tinkered with some problems involving the First Isomorphism Theorem for groups and then covered more of Chapter 8.  Along the way, we had JH, WR, SM, TS, AS1, and JO present Problems 7.23, 7.24, 8.9(a), 8.9(b), 8.9(c), and 8.15, respectively.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Friday, December 7:</b> Last day!  I've really enjoyed this group of students.  We cranked through most of the rest of Chapter 8 and along the way, we had JS and JO present Problem 8.36 and Theorem 8.37(b), respectively.</li>
-</ul>
+</ul> -->
