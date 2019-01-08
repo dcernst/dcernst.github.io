@@ -7,23 +7,27 @@ title: Course Materials
 <ol class="breadcrumb">
   <li><a href="/"><i class="fa fa-home"></i></a></li>
   <li><a href="/teaching/">Teaching</a></li>
-  <li><a href="/teaching/mat411f18">MAT 411</a></li>
+  <li><a href="/teaching/mat441s19">MAT 441</a></li>
   <li class="active">Materials</li>
 </ol>
 
 <div class="row">
 <div class="col-xs-12">
 <div class="btn-group btn-group-justified">
-<a class="btn btn-default btn-success" href="{{site.baseurl}}/teaching/mat411f18/syllabus/">Syllabus</a>
-<a class="btn btn-default btn-primary" href="{{site.baseurl}}/teaching/mat411f18/materials/">
+<a class="btn btn-default btn-success" href="{{site.baseurl}}/teaching/mat441s19/syllabus/">Syllabus</a>
+<a class="btn btn-default btn-primary" href="{{site.baseurl}}/teaching/mat441s19/materials/">
 <span class="hidden-xs">Course Materials</span><span class="visible-xs">Stuff</span>
 </a>
-<a class="btn btn-default btn-warning" href="{{site.baseurl}}/teaching/mat411f18/homework/">
+<a class="btn btn-default btn-warning" href="{{site.baseurl}}/teaching/mat441s19/homework/">
 <span class="hidden-xs">Homework</span><span class="visible-xs">HW</span>
 </a>
-<a class="btn btn-default btn-info" href="{{site.baseurl}}/teaching/mat411f18/journal/">Journal</a>
+<a class="btn btn-default btn-info" href="{{site.baseurl}}/teaching/mat441s19/journal/">Journal</a>
 </div>
 </div>
+</div>
+
+<div class="alert alert-info" role="alert">
+<i class="far fa-hand-peace"></i>&nbsp; This page is under construction!
 </div>
 
 ## An Inquiry-Based Approach to Abstract Algebra ##
@@ -43,49 +47,49 @@ The notes will be released incrementally. Each link below is to a PDF file. If y
 <i class="fa fa-exclamation-triangle"></i>&nbsp; These notes are currently under construction and subject to change.
 </div> -->
 
-- [An Inquiry-Based Approach to Abstract Algebra]({{site.baseurl}}/teaching/mat411f18/IBL-AbstractAlgebra.pdf) (complete set of notes)
+- [An Inquiry-Based Approach to Abstract Algebra]({{site.baseurl}}/teaching/mat441s19/IBL-AbstractAlgebra.pdf) (complete set of notes)
 
-- [Title Page]({{site.baseurl}}/teaching/mat411f18/TitlePage.pdf)
-- [Chapter 1: Introduction]({{site.baseurl}}/teaching/mat411f18/Introduction.pdf)
+- [Title Page]({{site.baseurl}}/teaching/mat441s19/TitlePage.pdf)
+- [Chapter 1: Introduction]({{site.baseurl}}/teaching/mat441s19/Introduction.pdf)
     - 1.1 What is Abstract Algebra?
     - 1.2 An Inquiry-Based Approach
     - 1.3 Rules of the Game
     - 1.4 Structure of the Notes
     - 1.5 Some Minimal Guidance
-- [Chapter 2: An Introduction to Groups]({{site.baseurl}}/teaching/mat411f18/IntroGroups.pdf)
+- [Chapter 2: An Introduction to Groups]({{site.baseurl}}/teaching/mat441s19/IntroGroups.pdf)
     - 2.1 A First Example
     - 2.2 Binary Operations
     - 2.3 Groups
     - 2.4 Generating Sets
     - 2.5 Group Tables
     - 2.6 Cayley Diagrams
-- [Chapter 3: Subgroups and Isomorphisms]({{site.baseurl}}/teaching/mat411f18/SubgroupsIsomorphisms.pdf)
+- [Chapter 3: Subgroups and Isomorphisms]({{site.baseurl}}/teaching/mat441s19/SubgroupsIsomorphisms.pdf)
     - 3.1 Subgroups
     - 3.2 Subgroup Lattices
     - 3.3 Isomorphisms
-- [Chapter 4: Families of Groups]({{site.baseurl}}/teaching/mat411f18/Families.pdf)
+- [Chapter 4: Families of Groups]({{site.baseurl}}/teaching/mat441s19/Families.pdf)
     - 4.1 Cyclic Groups
     - 4.2 Dihedral Groups
     - 4.3 Symmetric Groups
     - 4.4 Alternating Groups
-- [Chapter 5: Cosets, Lagrange's Theorem, and Normal Subgroups]({{site.baseurl}}/teaching/mat411f18/CosetsLagrangeNormal.pdf)
+- [Chapter 5: Cosets, Lagrange's Theorem, and Normal Subgroups]({{site.baseurl}}/teaching/mat441s19/CosetsLagrangeNormal.pdf)
     - 5.1 Cosets
     - 5.2 Lagrange's Theorem
     - 5.3 Normal Subgroups
-- [Chapter 6: Products and Quotients of Groups]({{site.baseurl}}/teaching/mat411f18/ProductsQuotients.pdf)
+- [Chapter 6: Products and Quotients of Groups]({{site.baseurl}}/teaching/mat441s19/ProductsQuotients.pdf)
     - 6.1 Products of Groups
     - 6.2 Quotients of Groups
-- [Chapter 7: Homomorphisms and the Isomorphism Theorems]({{site.baseurl}}/teaching/mat411f18/Homomorphisms.pdf)
+- [Chapter 7: Homomorphisms and the Isomorphism Theorems]({{site.baseurl}}/teaching/mat441s19/Homomorphisms.pdf)
     - 7.1 Homomorphisms
     - 7.2 The Isomorphism Theorems
-- [Chapter 8: An Introduction to Rings]({{site.baseurl}}/teaching/mat411f18/Rings.pdf)
+- [Chapter 8: An Introduction to Rings]({{site.baseurl}}/teaching/mat441s19/Rings.pdf)
     - 8.1 Definitions and Examples
     - 8.2 Ring Homomorphisms
     - 8.3 Ideals and Quotient Rings
     - 8.4 Maximal and Prime Ideals
-- [Appendix A: Elements of Style for Proofs]({{site.baseurl}}/teaching/mat411f18/ElementsOfStyle.pdf)
-- [Appendix B: Fancy Mathematical Terms]({{site.baseurl}}/teaching/mat411f18/FancyMathematicalTerms.pdf)
-- [Appendix C: Definitions in Mathematics]({{site.baseurl}}/teaching/mat411f18/Definitions.pdf)
+- [Appendix A: Elements of Style for Proofs]({{site.baseurl}}/teaching/mat441s19/ElementsOfStyle.pdf)
+- [Appendix B: Fancy Mathematical Terms]({{site.baseurl}}/teaching/mat441s19/FancyMathematicalTerms.pdf)
+- [Appendix C: Definitions in Mathematics]({{site.baseurl}}/teaching/mat441s19/Definitions.pdf)
 
 ## Miscellaneous Materials ##
 - [Student Contract]({{ site.baseurl }}/teaching/StudentContract.pdf) (PDF)
@@ -105,17 +109,15 @@ The notes will be released incrementally. Each link below is to a PDF file. If y
 - [The Secret to Raising Smart Kids &#124; Carol Dweck](https://www.scientificamerican.com/article/the-secret-to-raising-smart-kids1/) (article on Scientific American)
 - [Do Schools Kill Creativity? &#124; Ken Robinson](https://www.ted.com/talks/ken_robinson_says_schools_kill_creativity?language=en) (19:22 min)
 - [Lessons from My Math Degree That Have Nothing to Do with Math](https://medium.com/s/story/6-life-lessons-from-my-math-degree-that-have-nothing-to-do-with-math-d38aba90edfe) (6 min read on Medium)
-- Pictures of board work that we ran out of time to discuss. *Note:* You should not assume that the solutions/proofs posted below are valid or sufficient.
-    - [Problem 2.9]({{site.baseurl}}/teaching/mat411f18/Problem2.9.JPG)
-    - [Problem 2.10]({{site.baseurl}}/teaching/mat411f18/Problem2.10.JPG)
-    - [Problem 2.11]({{site.baseurl}}/teaching/mat411f18/Problem2.11.JPG)
-    - [Problem 3.15]({{site.baseurl}}/teaching/mat411f18/Problem3.15.JPG)
-    - [Problem 3.17]({{site.baseurl}}/teaching/mat411f18/Problem3.17.JPG)
+
+<!-- - Pictures of board work that we ran out of time to discuss. *Note:* You should not assume that the solutions/proofs posted below are valid or sufficient.
+    - [Problem 2.9]({{site.baseurl}}/teaching/mat441s19/Problem2.9.JPG)
+    - [Problem 2.10]({{site.baseurl}}/teaching/mat441s19/Problem2.10.JPG)
+    - [Problem 2.11]({{site.baseurl}}/teaching/mat441s19/Problem2.11.JPG)
+    - [Problem 3.15]({{site.baseurl}}/teaching/mat441s19/Problem3.15.JPG)
+    - [Problem 3.17]({{site.baseurl}}/teaching/mat441s19/Problem3.17.JPG) -->
 
 ## Exams
 Below are links to the take-home portions of each exam. If you are interested in using LaTeX to type up your solutions, contact me and I will send you a link to the source file of the exam.
 
-- [Exam 1 (take-home portion)]({{site.baseurl}}/teaching/mat411f18/411Exam1-Home.pdf) (PDF). (Due Wednesday, September 26)
-- [Exam 2 (take-home portion)]({{site.baseurl}}/teaching/mat411f18/411Exam2-Home.pdf) (PDF). (Due Monday, October 29)
-- [Exam 3 (take-home portion)]({{site.baseurl}}/teaching/mat411f18/411Exam3-Home.pdf) (PDF). (Due Wednesday, November 21)
-- [Final Exam (take-home portion)]({{site.baseurl}}/teaching/mat411f18/411ExamFinal-Home.pdf) (PDF). (Due by 5pm on Thursday, December 13)
+- Coming soon.
