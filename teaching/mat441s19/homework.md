@@ -55,14 +55,7 @@ In addition to the Daily Homework, we will also have Weekly Homework assignments
 You are required to use LaTeX to type up your Weekly Homework assignments.  To do this, I suggest that you use my [LaTeX Homework Template](https://github.com/dcernst/MiscTeachingMaterials/blob/master/HWTemplate/HWTemplate.tex).  The easiest way to get started with LaTeX is to use an online editor.  I recommend using [Overleaf](https://overleaf.com), but there are other options.  The good folks over at Overleaf have preloaded my template, so to get started, all you need to do is click the link below and then click on "Open as Template". Be sure to update your name and the course title.
 
 <center>
-<a href="https://www.overleaf.com/latex/templates/weekly-homework-x/cbpdxbqknrvq" class="btn btn-primary btn-lg" role="button">Start your homework in Overleaf</a>
-</center>
-
-<center>
-<form action="https://www.writelatex.com/docs" method="POST">
-    <input type="hidden" name="template" value="danaernst-weekly_homework_x">
-    <input type="submit" class="wl-submit" value="Start your homework in Overleaf">
-  </form>
+<a href="https://www.overleaf.com/latex/templates/weekly-homework-x/cbpdxbqknrvq" class="btn btn-secondary btn-lg" role="button" target="_blank">Start your homework in Overleaf</a>
 </center>
 
 <br>
