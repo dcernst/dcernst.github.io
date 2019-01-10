@@ -54,13 +54,10 @@ In addition to the Daily Homework, we will also have Weekly Homework assignments
 - **Weekly Homework 7:** Prove **two** of Theorem 4.76, Theorem 4.79, Theorem 4.80, Theorem 4.90. You must type up your proofs using LaTeX.  I suggest you use my Overleaf template, which you can access by clicking the "Start your homework in Overleaf" link below. (Due Tuesday, November 13 by 8PM) -->
 
 ## Using LaTeX for Weekly Homework ##
-You are required to use LaTeX to type up your Weekly Homework assignments.  To do this, I suggest that you use my [LaTeX Homework Template](https://github.com/dcernst/MiscTeachingMaterials/blob/master/HWTemplate/HWTemplate.tex).  The easiest way to get started with LaTeX is to use an online editor.  I recommend using [Overleaf](https://overleaf.com), but there are other options.  The good folks over at Overleaf have preloaded my template, so to get started, all you need to do is click the link below.
+You are required to use LaTeX to type up your Weekly Homework assignments.  To do this, I suggest that you use my [LaTeX Homework Template](https://github.com/dcernst/MiscTeachingMaterials/blob/master/HWTemplate/HWTemplate.tex).  The easiest way to get started with LaTeX is to use an online editor.  I recommend using [Overleaf](https://overleaf.com), but there are other options.  The good folks over at Overleaf have preloaded my template, so to get started, all you need to do is click the link below and then click on "Open as Template". Be sure to update your name and the course title.
 
 <center>
-<form action="https://www.writelatex.com/docs" method="POST">
-    <input type="hidden" name="template" value="danaernst-weekly_homework_x">
-    <input type="submit" class="wl-submit" value="Start your homework in Overleaf">
-  </form>
+<a href="https://www.overleaf.com/latex/templates/weekly-homework-x/cbpdxbqknrvq" class="btn btn-primary btn-lg" role="button" target="_blank">Start your homework in Overleaf</a>
 </center>
 
 <br>
