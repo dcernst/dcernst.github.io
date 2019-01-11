@@ -140,8 +140,6 @@ The tentative plan is to cover Chapters 1-6 and 11 of [Eulerian Numbers](http://
   </figure>
   </div>
 
-<!-- </div> -->
-
 </div>
 
 <br />

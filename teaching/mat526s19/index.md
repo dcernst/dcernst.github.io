@@ -69,40 +69,6 @@ This course focuses on a branch of [combinatorics](https://en.wikipedia.org/wiki
 <li>Partition theory</li>
 </ul>
 
-<!-- <div class="row">
-
-<div class="col-xs-12 col-lg-6">
-<div>
-<ul>
-<li>Permutations</li>
-<li>Combinations</li>
-<li>The Binomial Theorem</li>
-<li>Recurrences</li>
-<li>Generating functions</li>
-<li>Exponential generating functions and Bell numbers</li>
-<li>Eulerian numbers</li>
-<li>Catalan and Narayana numbers</li>
-<li>Partition theory</li>
-</ul>
-</div>
-
-<blockquote>
-<p>The mathematician does not study pure mathematics because it is useful; he studies it because he delights in it, and he delights in it because it is beautiful.</p>
-<footer><a href="https://en.wikipedia.org/wiki/Henri_Poincaré">Henri Poincaré</a></footer>
-</blockquote>
-</div>
-
-<div class="col-xs-12 col-lg-6">
-<figure>
-<img src="{{ site.baseurl }}/images/TamariLattice.png" class="img-responsive" img style="margin-bottom: 10px" />
-<figcaption>The Tamari lattice given by the weak order on $S_4(231)$. Figure 5.12 in <i>Eulerian Numbers</i> by T. Kyle Petersen.</figcaption>
-</figure>
-</div>
-
-</div>
-
-<br /> -->
-
 <blockquote>
 <p>The mathematician does not study pure mathematics because it is useful; he studies it because he delights in it, and he delights in it because it is beautiful.</p>
 <footer><a href="https://en.wikipedia.org/wiki/Henri_Poincaré">Henri Poincaré</a></footer>
