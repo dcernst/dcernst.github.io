@@ -26,10 +26,6 @@ title: Homework
 </div>
 </div>
 
-<div class="alert alert-info" role="alert">
-<i class="far fa-hand-peace"></i>&nbsp; This page is under construction!
-</div>
-
 ## Guidelines ##
 On each homework assignment, please write (i) your name, (ii) name of course, and (iii) homework number. You are allowed and encouraged to work together on homework. Yet, each student is expected to turn in his or her own work. In general, late homework will not be accepted. However, you are allowed to turn in **up to three late homework assignments with no questions asked**. Unless you have made arrangements in advance with me, homework turned in after class will be considered late. When doing your homework, I encourage you to use the Elements of Style for Proofs (see Appendix B of the [course notes]({{site.baseurl}}/teaching/mat526s19/materials/) as a reference.
 
