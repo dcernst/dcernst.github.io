@@ -28,9 +28,9 @@ layout: default
 
 <br />
 
-<div class="alert alert-info" role="alert">
+<!-- <div class="alert alert-info" role="alert">
 <i class="far fa-hand-peace"></i>&nbsp; This page is under construction!
-</div>
+</div> -->
 
 <div class="row">
   <div class="col-xs-12 col-sm-6">
@@ -60,7 +60,7 @@ layout: default
 </div>
 
 ### Prerequisites ###
-MAT 226, MAT 316 and MAT 411 with grades of C or better.
+MAT 226, MAT 316, and MAT 411 with grades of C or better.
 
 ### Catalog Description ###
 Topics in enumerative, algebraic, and geometric combinatorics, chosen at instructor's discretion; may include advanced counting techniques, graph theory, combinatorial designs, matroids, and error-correcting codes. Letter grade only.

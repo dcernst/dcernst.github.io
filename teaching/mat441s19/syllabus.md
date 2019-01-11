@@ -60,10 +60,15 @@ layout: default
 </div>
 
 ### Prerequisites ###
-???
+MAT 431 with a grade of C or better.
 
 ### Catalog Description ###
-???
+Topological spaces, continuous maps, homeomorphism, metric spaces, connectedness, compactness, product spaces, quotient spaces, elementary geometric topology.
+
+<blockquote>
+<p>The mathematician does not study pure mathematics because it is useful; he studies it because he delights in it, and he delights in it because it is beautiful.</p>
+<footer><a href="https://en.wikipedia.org/wiki/Henri_Poincaré">Henri Poincaré</a></footer>
+</blockquote>
 
 ### Course Content ###
 Loosely speaking, [topology](https://en.wikipedia.org/wiki/Topology) is the branch of mathematics concerned with the properties of space that are preserved under continuous deformations, such as stretching, bending, and twisting, but not ripping or gluing. Topology is sometimes referred to as "rubber sheet geometry", but truth be told, this only vaguely captures one aspect of the subject. The driving force behind topology is a desire to distill familiar mathematical concepts such as convergence, connectedness, continuity, and dimension down to their essence. Formally, topology is the study of properties of [topological spaces](https://en.wikipedia.org/wiki/Topological_space) that are invariant under continuous maps. Of particular interest are the properties that are preserved under [homeomorphisms](https://en.wikipedia.org/wiki/Homeomorphism), which are invertible continuous maps with continuous inverses. Homeomorphisms are isomorphisms between topological spaces. Chapter 1 of our textbook "Topology Through Inquiry" contains the following beautiful quote:
@@ -71,13 +76,6 @@ Loosely speaking, [topology](https://en.wikipedia.org/wiki/Topology) is the bran
 <blockquote>
 <p>Topology is a subject whose power arises from the impulse to abstract essential features from complex situations and then to let our curiosity roam while striving to truly understand what is essential about fundamental ideas.</p>
 <footer><a href="https://web.ma.utexas.edu/users/starbird/" target="_blank">Michael Starbird</a> and <a href="https://www.math.hmc.edu/~su/" target="_blank">Francis Su</a></footer>
-</blockquote>
-
-Here's another wonderful quote about mathematics in general:
-
-<blockquote>
-<p>The mathematician does not study pure mathematics because it is useful; he studies it because he delights in it, and he delights in it because it is beautiful.</p>
-<footer><a href="https://en.wikipedia.org/wiki/Henri_Poincaré">Henri Poincaré</a></footer>
 </blockquote>
 
 ### An Inquiry-Based Approach ###
