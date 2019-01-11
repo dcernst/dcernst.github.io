@@ -25,10 +25,6 @@ layout: default
 </div>
 </div>
 
-<div class="alert alert-info" role="alert">
-<i class="far fa-hand-peace"></i>&nbsp; This page is under construction!
-</div>
-
 ## Welcome ##
 Welcome to the course web page for the Spring 2019 manifestation of MAT 441: Introduction to Topology at [Northern Arizona University](http://nau.edu).
 
@@ -63,6 +59,7 @@ Loosely speaking, [topology](https://en.wikipedia.org/wiki/Topology) is the bran
 
 <blockquote>
 <p>Topology is a subject whose power arises from the impulse to abstract essential features from complex situations and then to let our curiosity roam while striving to truly understand what is essential about fundamental ideas.</p>
+<footer><a href="https://web.ma.utexas.edu/users/starbird/" target="_blank">Michael Starbird</a> and <a href="https://www.math.hmc.edu/~su/" target="_blank">Francis Su</a></footer>
 </blockquote>
 
 Here's another wonderful quote about mathematics in general:
