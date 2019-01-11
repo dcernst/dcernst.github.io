@@ -26,7 +26,7 @@ layout: default
 </div>
 </div>
 
-<br />
+<!-- <br /> -->
 
 <!-- <div class="alert alert-info" role="alert">
 <i class="far fa-hand-peace"></i>&nbsp; This page is under construction!
@@ -63,7 +63,7 @@ layout: default
 MAT 226, MAT 316, and MAT 411 with grades of C or better.
 
 ### Catalog Description ###
-Topics in enumerative, algebraic, and geometric combinatorics, chosen at instructor's discretion; may include advanced counting techniques, graph theory, combinatorial designs, matroids, and error-correcting codes. Letter grade only.
+Topics in enumerative, algebraic, and geometric combinatorics, chosen at instructor's discretion; may include advanced counting techniques, graph theory, combinatorial designs, matroids, and error-correcting codes.
 
 ### Course Content ###
 This course focuses on [enumerative combinatorics](https://en.wikipedia.org/wiki/Enumerative_combinatorics) with an emphasis on [generating function](https://en.wikipedia.org/wiki/Generating_function) techniques. The tentative plan is to cover content from Chapters 0-9 of *Inquiry Based Enumerative Combinatorics* by [T. Kyle Petersen](http://math.depaul.edu/tpeter21/). Here are the proposed topics:
