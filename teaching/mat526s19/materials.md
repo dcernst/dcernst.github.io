@@ -37,7 +37,6 @@ I will not be covering every detail of the book and the only way to achieve a su
 </blockquote>
 
 ## Miscellaneous Materials ##
-<!-- - [Student Contract]({{ site.baseurl }}/teaching/StudentContract.pdf) (PDF) -->
 - [Setting the Stage]({{ site.baseurl }}/teaching/SettingTheStage.pdf) (PDF)
 - [Elements of Style for Proofs]({{site.baseurl}}/teaching/ElementsOfStyle.pdf) (PDF)
 - Videos on Growth Mindset and Productive Failure

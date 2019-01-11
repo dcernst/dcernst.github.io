@@ -60,31 +60,30 @@ layout: default
 </div>
 
 ### Prerequisites ###
-MAT 320 with a grade of C or better.
+MAT 226, MAT 316 and MAT 411 with grades of C or better.
 
-### Course Description ###
-MAT 411 introduces students to the basic ideas, definitions, examples, theorems, and proof techniques of abstract algebra.
-
-### Learning Outcomes ###
-Upon successful completion of the course, students will be able to do the following within the topics of groups, rings and fields:
-1. Read and write expository text on elementary aspects.
-2. Distinguish truth from falsehood.
-3. Provide examples and counterexamples of statements.
-4. Perform needed computations.
-5. Construct concise and correct proofs.
+### Catalog Description ###
+Topics in enumerative, algebraic, and geometric combinatorics, chosen at instructor's discretion; may include advanced counting techniques, graph theory, combinatorial designs, matroids, and error-correcting codes. Letter grade only.
 
 ### Course Content ###
-1. **Group Theory:** axioms, examples of groups of numbers, matrices, and permutations; abelian groups, cyclic groups; order of an element, subgroups, cosets, normal subgroups, factor groups, homomorphisms, kernels; Cayley’s Theorem, LaGrange’s Theorem, First Isomorphism Theorem.
-2. **Rings:** axioms, examples of rings of numbers, matrices, and polynomials; unity, units, divisibility, zero divisors, integral domains, division rings, field of quotients, ideals, homomorphisms, factor rings, prime and maximal ideals.
-3. **Fields:** axioms, examples; polynomials, divisibility criteria, irreducible polynomial, construction of finite fields and their cyclic multiplication groups.
+This course focuses on [enumerative combinatorics](https://en.wikipedia.org/wiki/Enumerative_combinatorics) with an emphasis on [generating function](https://en.wikipedia.org/wiki/Generating_function) techniques. The tentative plan is to cover content from Chapters 0-9 of *Inquiry Based Enumerative Combinatorics* by [T. Kyle Petersen](http://math.depaul.edu/tpeter21/). Here are the proposed topics:
+
+<ul>
+<li>Permutations</li>
+<li>Combinations</li>
+<li>The Binomial Theorem</li>
+<li>Recurrences</li>
+<li>Generating functions</li>
+<li>Exponential generating functions and Bell numbers</li>
+<li>Eulerian numbers</li>
+<li>Catalan and Narayana numbers</li>
+<li>Partition theory</li>
+</ul>
 
 <blockquote>
 <p>The mathematician does not study pure mathematics because it is useful; he studies it because he delights in it, and he delights in it because it is beautiful.</p>
 <footer><a href="https://en.wikipedia.org/wiki/Henri_Poincaré">Henri Poincaré</a></footer>
 </blockquote>
-
-### Goals ###
-Aside from the obvious goal of wanting you to learn how to write rigorous mathematical proofs, one of my principal ambitions is to make you independent of me.  Nothing else that I teach you will be half so valuable or powerful as the ability to reach conclusions by reasoning logically from first principles and being able to justify those conclusions in clear, persuasive language (either oral or written).   Furthermore, I want you to experience the unmistakable feeling that comes when one really understands something thoroughly.  Much "classroom knowledge" is fairly superficial, and students often find it hard to judge their own level of understanding. For many of us, the only way we know whether we are "getting it" comes from the grade we make on an exam.  I want you to become less reliant on such externals.  When you can distinguish between really knowing something and merely knowing about something, you will be on your way to becoming an independent learner.  Lastly, it is my sincere hope that all of us (myself included) will improve our oral and written communications skills.
 
 ### An Inquiry-Based Approach ###
 This is not a lecture-oriented class or one in which mimicking prefabricated examples will lead you to success. You will be expected to work actively to construct your own understanding of the topics at hand with the readily available help of me and your classmates. Many of the concepts you learn and problems you work on will be new to you and ask you to stretch your thinking. You will experience *frustration* and *failure* before you experience *understanding*. This is part of the normal learning process. **If you are doing things well, you should be confused at different points in the semester. The material is too rich for a human being to completely understand it immediately.** Your viability as a professional in the modern workforce depends on your ability to embrace this learning process and make it work for you.
@@ -117,7 +116,7 @@ As the semester progresses, it should become clear to you what the expectations 
 <footer><a href="https://en.wikipedia.org/wiki/Bruce_Lee">Bruce Lee</a></footer>
 </blockquote>
 
-### Course Structure and Approach ###
+### Course Structure ###
 Class meetings will consist of discussion of problems, student-led presentations, and group work focused on problems selected by the instructor. A typical class session may include:
 
 - Informal student presentations of progress on previously assigned homework problems;
@@ -145,29 +144,26 @@ In our classroom, diversity and individual differences are respected, appreciate
 
 Students are also expected to minimize distracting behaviors.  In particular, every attempt should be made to arrive to class on time.  If you must arrive late or leave early, please do not disrupt class. Please turn off the ringer on your cell phone.  I do not have a strict policy on the use of laptops, tablets, and cell phones.  You are expected to be paying attention and engaging in class discussions.  If your cell phone, etc. is interfering with your ability (or that of another student) to do this, then put it away, or I will ask you to put it away.
 
-### Textbook ###
-Our textbook for the semester is <i>An Inquiry-Based Approach to Abstract Algebra</i>, which is a free and open-source textbook that was written by me ([Dana C. Ernst](http://danaernst.com)). The textbook is designed to be used with an [inquiry-based learning](http://maamathedmatters.blogspot.com/2013/05/what-heck-is-ibl.html) (IBL) approach to a first-semester undergraduate abstract algebra course. While the textbook covers many of the standard topics, the focus is on building intuition and emphasizes visualization. The textbook is available [here]({{site.baseurl}}/teaching/mat526s19/materials/).
+## Textbook ##
+The textbook for the course is “Inquiry Based Enumerative Combinatorics” by [T. Kyle Petersen](http://math.depaul.edu/tpeter21/).  The book is brand new and not yet in print. The good news is that the author and publisher are allowing us to use the book for free!  The bad news is that the book will only be available in digital format and it cannot be posted publicly.  A PDF of the book is available in [BbLearn](https://bblearn.nau.edu).
 
-I will not be covering every detail of the notes and the only way to achieve a sufficient understanding of the material is to be digesting the reading in a meaningful way.  You should be seeking clarification about the content of the notes whenever necessary by asking questions.  Here's one of my favorite quotes about reading mathematics.
+I will not be covering every detail of the book and the only way to achieve a sufficient understanding of the material is to be digesting the reading in a meaningful way.  You should be seeking clarification about the content of the notes whenever necessary by asking questions.  Here's one of my favorite quotes about reading mathematics.
 
 <blockquote>
-<p>Don’t just read it; fight it! Ask your own questions, look for your own examples, discover your own proofs. Is the hypothesis necessary? Is the converse true? What happens in the classical special case? What about the degenerate cases? Where does the proof use the hypothesis?</p>
-<footer><a href="http://en.wikipedia.org/wiki/Paul_Halmos">Paul Halmos</a></footer>
+  <p>Don’t just read it; fight it! Ask your own questions, look for your own examples, discover your own proofs. Is the hypothesis necessary? Is the converse true? What happens in the classical special case? What about the degenerate cases? Where does the proof use the hypothesis?</p>
+  <footer><a href="http://en.wikipedia.org/wiki/Paul_Halmos">Paul Halmos</a></footer>
 </blockquote>
-
-### Learning Management System ###
-We will make limited use of BbLearn this semester, which is Northern Arizona University's default learning management system (LMS).  Most course content (e.g., syllabus, course notes, homework, etc.) will be housed here on our [course webpage]({{site.baseurl}}/teaching/mat526s19/) that lives outside of BbLearn.  I suggest you bookmark this page.  The only thing I will use BbLearn for is to occasionally communicate grades.
 
 ### Rules of the Game ###
 Reviewing material from previous courses and looking up definitions and theorems you may have forgotten is fair game. However, when it comes to completing assignments for this course, you should *not* look to resources outside the context of this course for help.  That is, you should not be consulting the web, other texts, other faculty, or students outside of our course in an attempt to find solutions to the problems you are assigned.  On the other hand, you may use each other, the textbook, me, and your own intuition. If you feel you need additional resources, please come talk to me and we will come up with an appropriate plan of action.
 
 ### Exams ###
-There will be three midterm exams and a cumulative final exam.  Each exam will be worth 18% of your overall grade.  Moreover, each exam will consist of an in-class portion (weighted 70%) and a take-home portion (weighted 30%).  The in-class portions of the midterm exams are *tentatively* scheduled for the following Fridays **September 21** (week 4), <s>October 19</s> **October 22** (week 9), and **November 16** (week 12).  The take-home portions of midterm exams will typically be due the following Wednesday.  The final exam is schedule for **Wednesday, December 12 at 7:30-9:30AM**.  Make-up exams will only be given under extreme circumstances, as judged by me.  In general, it will be best to communicate conflicts ahead of time.
+There will be 3 midterm exams and a cumulative final exam.  Exam 1 and Exam 2 will be written exams consisting of an in-class portion (weighted 70%) and a take-home portion (weighted 30%).  The in-class portion of Exam 1 is *tentatively* scheduled for **Wednesday, February 13** and the take-home portion of the exam will be due on **Monday, February 18**.  The in-class portion of Exam 2 is *tentatively* scheduled for **Wednesday, April 3** and the take-home portion of the exam will be due on **Monday, April 8**.  Each of Exam 1 and Exam 2 will be worth 20% of your overall grade. Exam 3 will be a 30-minute oral exam taken individually in my office during the last week of classes. Exam 3 will be worth 10% of your overall grade. The final exam will be on **Wednesday, May 8** at **7:30-9:30AM** and is worth 20% of your overall grade. The final exam will not have a take-home portion.  Make-up exams will only be given under extreme circumstances, as judged by me. In general, it will be best to communicate conflicts ahead of time.
 
 ### Homework ###
 
 #### General Comments
-You are allowed and encouraged to work together on homework.  However, each student is expected to turn in his or her own work.  In general, late homework will *not* be accepted.  However, you are allowed to turn in three late homework assignments with no questions asked. Unless you have made arrangements in advance with me, homework turned in after class will be considered late. When doing your homework, I encourage you to use the Elements of Style for Proofs (see Appendix B of the [course notes]({{site.baseurl}}/teaching/mat526s19/materials/) as a reference. Your overall homework grade will be worth 14% of your final grade.
+You are allowed and encouraged to work together on homework.  However, each student is expected to turn in his or her own work.  In general, late homework will *not* be accepted.  However, you are allowed to turn in three late homework assignments with no questions asked. Unless you have made arrangements in advance with me, homework turned in after class will be considered late. When doing your homework, I encourage you to use the Elements of Style for Proofs (see Appendix B of the [course notes]({{site.baseurl}}/teaching/mat526s19/materials/) as a reference. Your overall homework grade will be worth 15% of your final grade.
 
 On each homework assignment, please write (i) your name, (ii) name of course, and (iii) Daily/Weekly Homework number.  You can find the list of assignments on the [homework page]({{site.baseurl}}/teaching/mat526s19/homework/).  I reserve the right to modify the homework assignments as I see necessary.
 
@@ -359,7 +355,7 @@ Your Presentation and Participation grade is determined by your frequency and ab
 </table>
 </center>
 
-I anticipate that most students will fall in the 80-89% range. Your Presentation and Participation grade is worth 14% of your overall grade.
+I anticipate that most students will fall in the 80-89% range. Your Presentation and Participation grade is worth 15% of your overall grade.
 
 <blockquote>
 <p>I must not fear.<br />
@@ -377,7 +373,7 @@ Only I will remain.</p>
 Regular attendance is expected and is vital to success in this course, but you will not explicitly be graded on attendance.  Yet, repeated absences may impact your participation grade (see above).  Students can find more information about NAU's attendance policy on the [Academic Policies](http://nau.edu/Student-Life/Student-Handbook/Academic-Policies/) page.
 
 ### Extra Credit
-The only thing I will award extra credit for is finding typos on course materials (e.g., textbook, exams, syllabus, webpage).  This includes broken  links on the webpage.  However, it does not include the placement of commas and such.  If you find a typo, I will add one percentage point to your next exam.  You can earn at most two percentage points per exam and at most five percentage points over the course of the semester.
+The only thing I will award extra credit for is finding typos on course materials (e.g., textbook, exams, syllabus, webpage).  This includes broken links on the webpage.  However, it does not include the placement of commas and such.  If you find a typo, I will add one percentage point to your next exam.  You can earn at most two percentage points per exam and at most five percentage points over the course of the semester.
 
 ### Basis for Evaluation ###
 In summary, your final grade will be determined by your scores in the following categories.
@@ -394,33 +390,33 @@ In summary, your final grade will be determined by your scores in the following 
 	<tbody>
 	<tr>
 		<td>Homework</td>
-		<td style="text-align: center;">14%</td>
+		<td style="text-align: center;">15%</td>
 		<td>A combination of Daily &amp; Weekly Homework</td>
 	</tr>
   <tr>
 		<td>Presentations &amp; Participation</td>
-		<td style="text-align: center;">14%</td>
+		<td style="text-align: center;">15%</td>
 		<td>See above for requirements</td>
 	</tr>
 	<tr>
-		<td>Exam 1</td>
-		<td style="text-align: center;">18%</td>
-		<td>September 21</td>
+		<td>Exam 1 (written)</td>
+		<td style="text-align: center;">20%</td>
+		<td>Wednesday, February 13</td>
 	</tr>
   <tr>
-    <td>Exam 2</td>
-    <td style="text-align: center;">18%</td>
-    <td><s>October 19</s> October 22</td>
+    <td>Exam 2 (written)</td>
+    <td style="text-align: center;">20%</td>
+    <td>Wednesday, April 3</td>
   </tr>
   <tr>
-    <td>Exam 3</td>
-    <td style="text-align: center;">18%</td>
-    <td>November 16</td>
+    <td>Exam 3 (oral)</td>
+    <td style="text-align: center;">10%</td>
+    <td>April 29-May 3</td>
   </tr>
 	<tr>
 		<td>Final Exam</td>
-		<td style="text-align: center;">18%</td>
-		<td>Wednesday, December 12 at 7:30-9:30AM</td>
+		<td style="text-align: center;">20%</td>
+		<td>Wednesday, May 8 at 7:30-9:30AM</td>
 	</tr>
 	</tbody>
 </table>
@@ -434,12 +430,11 @@ As per Department Policy, cell phones, MP3 players and portable electronic commu
 ### Important Dates ###
 Here are some important dates:
 
-- **Monday, September 3:** Labor Day (no classes)
-- **Thursday, September 6:** Last day to Drop/Delete a class (without class appearing on students' transcripts)
-- **Friday, November 2:** Course withdrawal deadline
-- **Monday, November 12:** Veteran's Day (no classes)
-- **Thursday, November 22-Friday, November 23:** Thanksgiving Break (no classes)
-- **Wednesday, December 12:** Final Exam
+- **Monday, January 21:** Martin Luther King Jr. Day (no classes)
+- **Thursday, January 24:** Last day to Drop/Delete a class (without class appearing on students' transcripts)
+- **Monday, March 25:** Course withdrawal deadline
+- **Monday, March 18-Friday, March 22:** Spring Break (no classes)
+- **Wednesday, May 8:** Final Exam
 
 ### Getting Help ###
 There are many resources available to get help.  First, I recommend that you work on homework in small groups as much as possible and to come see me whenever necessary.  I am always happy to help you.  If my office hours don't work for you, then we can probably find another time to meet.  It is your responsibility to be aware of how well you understand the material.  Don't wait until it is too late if you need help.  *Ask questions*!  Lastly, you can always [email me](mailto:dana.ernst@nau.edu).
@@ -448,5 +443,5 @@ There are many resources available to get help.  First, I recommend that you wor
 Any changes to this syllabus made during the term will be properly communicated to the class.
 
 <div class="alert alert-info" role="alert">
-<i class="far fa-hand-peace"></i>&nbsp; Portions of "Goals" and "Class Presentations and Participation" are adapted from <a href="http://www2.kenyon.edu/Depts/Math/schumacherc/public_html/" class="alert-link">Carol Schumacher's</a> <i>Chapter Zero Instructor Resource Manual</i>. The first paragraph of "An Inquiry-Based Approach" is borrowed from <a href="https://gist.github.com/RobertTalbert/7854aadbdfca232dbdda" class="alert-link">Robert Talbert</a>. The "Rights of the Learner" were adapted from a similar list written by <a href="https://embracinglifewithmajorrevisions.wordpress.com/2017/07/12/rights-of-the-learner-an-introduction/" class="alert-link">Crystal Kalinec-Craig</a>. The first paragraph of "Class Etiquette" is a modified version of statement that <a href="http://www.unco.edu/nhs/mathematical-sciences/faculty/bagley.aspx" class="alert-link">Spencer Bagley</a> has in his syllabi. Lastly, I've borrowed a few phrases here and there from <a href="http://www.users.csbsju.edu/~bbenesh/" class="alert-link">Bret Benesh</a>.
+<i class="far fa-hand-peace"></i>&nbsp; Portions of "Presentations and Participation" are adapted from <a href="http://www2.kenyon.edu/Depts/Math/schumacherc/public_html/" class="alert-link">Carol Schumacher's</a> <i>Chapter Zero Instructor Resource Manual</i>. The first paragraph of "An Inquiry-Based Approach" is borrowed from <a href="https://gist.github.com/RobertTalbert/7854aadbdfca232dbdda" class="alert-link">Robert Talbert</a>. The "Rights of the Learner" were adapted from a similar list written by <a href="https://embracinglifewithmajorrevisions.wordpress.com/2017/07/12/rights-of-the-learner-an-introduction/" class="alert-link">Crystal Kalinec-Craig</a>. The first paragraph of "Commitment to the Learning Community" is a modified version of statement that <a href="http://www.unco.edu/nhs/mathematical-sciences/faculty/bagley.aspx" class="alert-link">Spencer Bagley</a> has in his syllabi. Lastly, I've borrowed a few phrases here and there from <a href="http://www.users.csbsju.edu/~bbenesh/" class="alert-link">Bret Benesh</a>.
 </div>
