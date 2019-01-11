@@ -60,45 +60,39 @@ layout: default
 </div>
 
 ### Prerequisites ###
-MAT 320 with a grade of C or better.
+???
 
-### Course Description ###
-MAT 411 introduces students to the basic ideas, definitions, examples, theorems, and proof techniques of abstract algebra.
-
-### Learning Outcomes ###
-Upon successful completion of the course, students will be able to do the following within the topics of groups, rings and fields:
-1. Read and write expository text on elementary aspects.
-2. Distinguish truth from falsehood.
-3. Provide examples and counterexamples of statements.
-4. Perform needed computations.
-5. Construct concise and correct proofs.
+### Catalog Description ###
+???
 
 ### Course Content ###
-1. **Group Theory:** axioms, examples of groups of numbers, matrices, and permutations; abelian groups, cyclic groups; order of an element, subgroups, cosets, normal subgroups, factor groups, homomorphisms, kernels; Cayley’s Theorem, LaGrange’s Theorem, First Isomorphism Theorem.
-2. **Rings:** axioms, examples of rings of numbers, matrices, and polynomials; unity, units, divisibility, zero divisors, integral domains, division rings, field of quotients, ideals, homomorphisms, factor rings, prime and maximal ideals.
-3. **Fields:** axioms, examples; polynomials, divisibility criteria, irreducible polynomial, construction of finite fields and their cyclic multiplication groups.
+Loosely speaking, [topology](https://en.wikipedia.org/wiki/Topology) is the branch of mathematics concerned with the properties of space that are preserved under continuous deformations, such as stretching, bending, and twisting, but not ripping or gluing. Topology is sometimes referred to as "rubber sheet geometry", but truth be told, this only vaguely captures one aspect of the subject. The driving force behind topology is a desire to distill familiar mathematical concepts such as convergence, connectedness, continuity, and dimension down to their essence. Formally, topology is the study of properties of [topological spaces](https://en.wikipedia.org/wiki/Topological_space) that are invariant under continuous maps. Of particular interest are the properties that are preserved under [homeomorphisms](https://en.wikipedia.org/wiki/Homeomorphism), which are invertible continuous maps with continuous inverses. Homeomorphisms are isomorphisms between topological spaces. Chapter 1 of our textbook "Topology Through Inquiry" contains the following beautiful quote:
+
+<blockquote>
+<p>Topology is a subject whose power arises from the impulse to abstract essential features from complex situations and then to let our curiosity roam while striving to truly understand what is essential about fundamental ideas.</p>
+<footer><a href="https://web.ma.utexas.edu/users/starbird/" target="_blank">Michael Starbird</a> and <a href="https://www.math.hmc.edu/~su/" target="_blank">Francis Su</a></footer>
+</blockquote>
+
+Here's another wonderful quote about mathematics in general:
 
 <blockquote>
 <p>The mathematician does not study pure mathematics because it is useful; he studies it because he delights in it, and he delights in it because it is beautiful.</p>
 <footer><a href="https://en.wikipedia.org/wiki/Henri_Poincaré">Henri Poincaré</a></footer>
 </blockquote>
 
-### Goals ###
-Aside from the obvious goal of wanting you to learn how to write rigorous mathematical proofs, one of my principal ambitions is to make you independent of me.  Nothing else that I teach you will be half so valuable or powerful as the ability to reach conclusions by reasoning logically from first principles and being able to justify those conclusions in clear, persuasive language (either oral or written).   Furthermore, I want you to experience the unmistakable feeling that comes when one really understands something thoroughly.  Much "classroom knowledge" is fairly superficial, and students often find it hard to judge their own level of understanding. For many of us, the only way we know whether we are "getting it" comes from the grade we make on an exam.  I want you to become less reliant on such externals.  When you can distinguish between really knowing something and merely knowing about something, you will be on your way to becoming an independent learner.  Lastly, it is my sincere hope that all of us (myself included) will improve our oral and written communications skills.
-
 ### An Inquiry-Based Approach ###
 This is not a lecture-oriented class or one in which mimicking prefabricated examples will lead you to success. You will be expected to work actively to construct your own understanding of the topics at hand with the readily available help of me and your classmates. Many of the concepts you learn and problems you work on will be new to you and ask you to stretch your thinking. You will experience *frustration* and *failure* before you experience *understanding*. This is part of the normal learning process. **If you are doing things well, you should be confused at different points in the semester. The material is too rich for a human being to completely understand it immediately.** Your viability as a professional in the modern workforce depends on your ability to embrace this learning process and make it work for you.
 
-In order to promote a more active participation in your learning, we will incorporate ideas from an educational philosophy called [inquiry-based learning](http://maamathedmatters.blogspot.com/2013/05/what-heck-is-ibl.html) (IBL).  Loosely speaking, IBL is a student-centered method of teaching mathematics that engages students in sense-making activities.  Students are given tasks requiring them to solve problems, conjecture, experiment, explore, create, and communicate.  Rather than showing facts or a clear, smooth path to a solution, the instructor guides and mentors students via well-crafted problems through an adventure in mathematical discovery.  Effective IBL courses encourage deep engagement in rich mathematical activities and provide opportunities to collaborate with peers (either through class presentations or group-oriented work).
-
-Perhaps this is sufficiently vague, but I believe that there are two essential elements to IBL.  Students should as much as possible be responsible for:
-
-- Guiding the acquisition of knowledge, and
-- Validating the ideas presented.  That is, students should not be looking to the instructor as the sole authority.
-
-If you want to learn more about IBL, read my blog post titled [What the Heck is IBL?](http://maamathedmatters.blogspot.com/2013/05/what-heck-is-ibl.html)
+In order to promote a more active participation in your learning, we will incorporate ideas from an educational philosophy called [inquiry-based learning](http://maamathedmatters.blogspot.com/2013/05/what-heck-is-ibl.html) (IBL).  Loosely speaking, IBL is a student-centered method of teaching mathematics that engages students in sense-making activities.  Students are given tasks requiring them to solve problems, conjecture, experiment, explore, create, and communicate.  Rather than showing facts or a clear, smooth path to a solution, the instructor guides and mentors students via well-crafted problems through an adventure in mathematical discovery.  Effective IBL courses encourage deep engagement in rich mathematical activities and provide opportunities to collaborate with peers (either through class presentations or group-oriented work). If you want to learn more about IBL, read my blog post titled [What the Heck is IBL?](http://maamathedmatters.blogspot.com/2013/05/what-heck-is-ibl.html).
 
 Much of the course will be devoted to students presenting their proposed solutions/proofs on the board and a significant portion of your grade will be determined by how much mathematics you produce.  I use the word "produce" because I believe that the best way to learn mathematics is by doing mathematics.  Someone cannot master a musical instrument or a martial art by simply watching, and in a similar fashion, you cannot master mathematics by simply watching; you must do mathematics!
+
+In any act of creation, there must be room for experimentation, and thus allowance for mistakes, even failure. A key goal of our community is that we support each other&mdash;sharpening each other’s thinking but also bolstering each other's confidence&mdash;so that we can make failure a productive experience. Mistakes are inevitable, and they should not be an obstacle to further progress. It’s normal to struggle and be confused as you work through new material. Accepting that means you can keep working even while feeling stuck, until you overcome and reach even greater accomplishments.
+
+<blockquote>
+<p>Don’t fear failure.  Not failure, but low aim, is the crime. In great attempts it is glorious even to fail.</p>
+<footer><a href="https://en.wikipedia.org/wiki/Bruce_Lee">Bruce Lee</a></footer>
+</blockquote>
 
 Furthermore, it is important to understand that solving genuine problems is difficult and takes time.  You shouldn't expect to complete each problem in 10 minutes or less.  Sometimes, you might have to stare at the problem for an hour before even understanding how to get started.  In fact, solving difficult problems can be a lot like the clip from the *Big Bang Theory* located [here](http://www.youtube.com/watch?v=i5oc-70Fby4&feature=related).
 
@@ -112,12 +106,7 @@ In this course, *everyone* will be required to
 
 As the semester progresses, it should become clear to you what the expectations are.
 
-<blockquote>
-<p>Don’t fear failure.  Not failure, but low aim, is the crime. In great attempts it is glorious even to fail.</p>
-<footer><a href="https://en.wikipedia.org/wiki/Bruce_Lee">Bruce Lee</a></footer>
-</blockquote>
-
-### Course Structure and Approach ###
+### Course Structure ###
 Class meetings will consist of discussion of problems, student-led presentations, and group work focused on problems selected by the instructor. A typical class session may include:
 
 - Informal student presentations of progress on previously assigned homework problems;
@@ -148,15 +137,12 @@ Students are also expected to minimize distracting behaviors.  In particular, ev
 ### Textbook ###
 Our textbook for the semester is <i>An Inquiry-Based Approach to Abstract Algebra</i>, which is a free and open-source textbook that was written by me ([Dana C. Ernst](http://danaernst.com)). The textbook is designed to be used with an [inquiry-based learning](http://maamathedmatters.blogspot.com/2013/05/what-heck-is-ibl.html) (IBL) approach to a first-semester undergraduate abstract algebra course. While the textbook covers many of the standard topics, the focus is on building intuition and emphasizes visualization. The textbook is available [here]({{site.baseurl}}/teaching/mat441s19/materials/).
 
-I will not be covering every detail of the notes and the only way to achieve a sufficient understanding of the material is to be digesting the reading in a meaningful way.  You should be seeking clarification about the content of the notes whenever necessary by asking questions.  Here's one of my favorite quotes about reading mathematics.
+I will not be covering every detail of the textbook and the only way to achieve a sufficient understanding of the material is to be digesting the reading in a meaningful way.  You should be seeking clarification about the content of the material whenever necessary by asking questions.  Here's one of my favorite quotes about reading mathematics.
 
 <blockquote>
 <p>Don’t just read it; fight it! Ask your own questions, look for your own examples, discover your own proofs. Is the hypothesis necessary? Is the converse true? What happens in the classical special case? What about the degenerate cases? Where does the proof use the hypothesis?</p>
 <footer><a href="http://en.wikipedia.org/wiki/Paul_Halmos">Paul Halmos</a></footer>
 </blockquote>
-
-### Learning Management System ###
-We will make limited use of BbLearn this semester, which is Northern Arizona University's default learning management system (LMS).  Most course content (e.g., syllabus, course notes, homework, etc.) will be housed here on our [course webpage]({{site.baseurl}}/teaching/mat441s19/) that lives outside of BbLearn.  I suggest you bookmark this page.  The only thing I will use BbLearn for is to occasionally communicate grades.
 
 ### Rules of the Game ###
 Reviewing material from previous courses and looking up definitions and theorems you may have forgotten is fair game. However, when it comes to completing assignments for this course, you should *not* look to resources outside the context of this course for help.  That is, you should not be consulting the web, other texts, other faculty, or students outside of our course in an attempt to find solutions to the problems you are assigned.  On the other hand, you may use each other, the textbook, me, and your own intuition. If you feel you need additional resources, please come talk to me and we will come up with an appropriate plan of action.
@@ -167,14 +153,14 @@ There will be three midterm exams and a cumulative final exam.  Each exam will b
 ### Homework ###
 
 #### General Comments
-You are allowed and encouraged to work together on homework.  However, each student is expected to turn in his or her own work.  In general, late homework will *not* be accepted.  However, you are allowed to turn in three late homework assignments with no questions asked. Unless you have made arrangements in advance with me, homework turned in after class will be considered late. When doing your homework, I encourage you to use the Elements of Style for Proofs (see Appendix B of the [course notes]({{site.baseurl}}/teaching/mat441s19/materials/) as a reference. Your overall homework grade will be worth 14% of your final grade.
+You are allowed and encouraged to work together on homework.  However, each student is expected to turn in his or her own work.  In general, late homework will *not* be accepted.  However, you are allowed to turn in three late homework assignments with no questions asked. Unless you have made arrangements in advance with me, homework turned in after class will be considered late. When doing your homework, I encourage you to consult the [Elements of Style for Proofs]({{site.baseurl}}/teaching/ElementsOfStyle.pdf). Your overall homework grade will be worth 14% of your final grade.
 
 On each homework assignment, please write (i) your name, (ii) name of course, and (iii) Daily/Weekly Homework number.  You can find the list of assignments on the [homework page]({{site.baseurl}}/teaching/mat441s19/homework/).  I reserve the right to modify the homework assignments as I see necessary.
 
 #### Daily Homework
 Homework will be assigned each class meeting, and students are expected to complete (or try their best to complete) each assignment before walking into the next class period. All assignments should be *carefully*, *clearly*, and *cleanly* written. Among other things, this means your work should include proper grammar, punctuation, and spelling. You should write a draft of a given solution before you write down the final argument, so do yourself a favor and get in the habit of differentiating your scratch work from your submitted assignment.
 
-The Daily Homework will generally consist of completing exercises and proving theorems from the [course notes]({{site.baseurl}}/teaching/mat441s19/materials/).  In addition to completing the assigned problems, I also want you to assess your own work.  Next to each problem, I want you to write down a score between 0 and 4 that represents your perception of the validity and quality of your proposed solution/proof. Consider using the rubric given below in the description of the Weekly Homework assignments.  Not completing the self-assessment step may impact the score on your homework.
+The Daily Homework will generally consist of completing exercises and proving theorems from the textbook.  In addition to completing the assigned problems, I also want you to assess your own work.  Next to each problem, I want you to write down a score between 0 and 4 that represents your perception of the validity and quality of your proposed solution/proof. Consider using the rubric given below in the description of the Weekly Homework assignments.  Not completing the self-assessment step may impact the score on your homework.
 
 On the day that a homework assignment is due, the majority of the class period will be devoted to students presenting some subset (maybe all) of the proofs/solutions that are due that day.  At the end of each class session, students should submit their write-ups for all of the proofs that were due that day.  Daily Homework will be graded using a $\checkmark$-system.  Students are allowed (in fact, encouraged!) to modify their written proofs in light of presentations made in class; however, **you are required to use the colored marker pens provided in class**.  This will allow me to differentiate the work done in class versus the work you completed before class.  The grade you receive on an assignment will be determined by the work you completed prior to class.  I will provide more guidance with respect to this during the first couple weeks of the semester.
 
@@ -434,12 +420,11 @@ As per Department Policy, cell phones, MP3 players and portable electronic commu
 ### Important Dates ###
 Here are some important dates:
 
-- **Monday, September 3:** Labor Day (no classes)
-- **Thursday, September 6:** Last day to Drop/Delete a class (without class appearing on students' transcripts)
-- **Friday, November 2:** Course withdrawal deadline
-- **Monday, November 12:** Veteran's Day (no classes)
-- **Thursday, November 22-Friday, November 23:** Thanksgiving Break (no classes)
-- **Wednesday, December 12:** Final Exam
+- **Monday, January 21:** Martin Luther King Jr. Day (no classes)
+- **Thursday, January 24:** Last day to Drop/Delete a class (without class appearing on students' transcripts)
+- **Monday, March 25:** Course withdrawal deadline
+- **Monday, March 18-Friday, March 22:** Spring Break (no classes)
+- **Wednesday, May 8:** Final Exam
 
 ### Getting Help ###
 There are many resources available to get help.  First, I recommend that you work on homework in small groups as much as possible and to come see me whenever necessary.  I am always happy to help you.  If my office hours don't work for you, then we can probably find another time to meet.  It is your responsibility to be aware of how well you understand the material.  Don't wait until it is too late if you need help.  *Ask questions*!  Lastly, you can always [email me](mailto:dana.ernst@nau.edu).
@@ -448,5 +433,5 @@ There are many resources available to get help.  First, I recommend that you wor
 Any changes to this syllabus made during the term will be properly communicated to the class.
 
 <div class="alert alert-info" role="alert">
-<i class="far fa-hand-peace"></i>&nbsp; Portions of "Goals" and "Class Presentations and Participation" are adapted from <a href="http://www2.kenyon.edu/Depts/Math/schumacherc/public_html/" class="alert-link">Carol Schumacher's</a> <i>Chapter Zero Instructor Resource Manual</i>. The first paragraph of "An Inquiry-Based Approach" is borrowed from <a href="https://gist.github.com/RobertTalbert/7854aadbdfca232dbdda" class="alert-link">Robert Talbert</a>. The "Rights of the Learner" were adapted from a similar list written by <a href="https://embracinglifewithmajorrevisions.wordpress.com/2017/07/12/rights-of-the-learner-an-introduction/" class="alert-link">Crystal Kalinec-Craig</a>. The first paragraph of "Class Etiquette" is a modified version of statement that <a href="http://www.unco.edu/nhs/mathematical-sciences/faculty/bagley.aspx" class="alert-link">Spencer Bagley</a> has in his syllabi. Lastly, I've borrowed a few phrases here and there from <a href="http://www.users.csbsju.edu/~bbenesh/" class="alert-link">Bret Benesh</a>.
+<i class="far fa-hand-peace"></i>&nbsp; Portions of "Presentations and Participation" are adapted from <a href="http://www2.kenyon.edu/Depts/Math/schumacherc/public_html/" class="alert-link">Carol Schumacher's</a> <i>Chapter Zero Instructor Resource Manual</i>. The first and fourth paragraphs of "An Inquiry-Based Approach" are borrowed from <a href="https://gist.github.com/RobertTalbert/7854aadbdfca232dbdda" class="alert-link">Robert Talbert</a> and <a href="https://thalestriangles.blogspot.com/2018/12/an-ibl-preface.html" class="alert-link">Joshua Bowman</a>, respectively. The "Rights of the Learner" were adapted from a similar list written by <a href="https://embracinglifewithmajorrevisions.wordpress.com/2017/07/12/rights-of-the-learner-an-introduction/" class="alert-link">Crystal Kalinec-Craig</a>. The first paragraph of "Commitment to the Learning Community" is a modified version of statement that <a href="http://www.unco.edu/nhs/mathematical-sciences/faculty/bagley.aspx" class="alert-link">Spencer Bagley</a> has in his syllabi. Lastly, I've borrowed a few phrases here and there from <a href="http://www.users.csbsju.edu/~bbenesh/" class="alert-link">Bret Benesh</a>.
 </div>

@@ -29,7 +29,7 @@ title: Course Materials
 ## Textbook ##
 The textbook for the course is “Topology Through Inquiry” by [Michael Starbird](https://web.ma.utexas.edu/users/starbird/) and [Francis Su](https://www.math.hmc.edu/~su/).  The book is brand new and not yet in print. The good news is that the author and publisher are allowing us to use the book for free!  The bad news is that the book will only be available in digital format and it cannot be posted publicly.  A PDF of the book is available in [BbLearn](https://bblearn.nau.edu).
 
-I will not be covering every detail of the book and the only way to achieve a sufficient understanding of the material is to be digesting the reading in a meaningful way.  You should be seeking clarification about the content of the notes whenever necessary by asking questions.  Here's one of my favorite quotes about reading mathematics.
+I will not be covering every detail of the textbook and the only way to achieve a sufficient understanding of the material is to be digesting the reading in a meaningful way.  You should be seeking clarification about the content of the material whenever necessary by asking questions.  Here's one of my favorite quotes about reading mathematics.
 
 <blockquote>
   <p>Don’t just read it; fight it! Ask your own questions, look for your own examples, discover your own proofs. Is the hypothesis necessary? Is the converse true? What happens in the classical special case? What about the degenerate cases? Where does the proof use the hypothesis?</p>

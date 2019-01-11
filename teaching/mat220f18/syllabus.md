@@ -97,7 +97,7 @@ Perhaps this is sufficiently vague, but I believe that there are two essential e
 - Guiding the acquisition of knowledge, and
 - Validating the ideas presented.  That is, students should not be looking to the instructor as the sole authority.
 
-If you want to learn more about IBL, read my blog post titled [What the Heck is IBL?](http://maamathedmatters.blogspot.com/2013/05/what-heck-is-ibl.html)
+If you want to learn more about IBL, read my blog post titled [What the Heck is IBL?](http://maamathedmatters.blogspot.com/2013/05/what-heck-is-ibl.html).
 
 Much of the course will be devoted to students presenting their proposed solutions/proofs on the board and a significant portion of your grade will be determined by how much mathematics you produce.  I use the word "produce" because I believe that the best way to learn mathematics is by doing mathematics.  Someone cannot master a musical instrument or a martial art by simply watching, and in a similar fashion, you cannot master mathematics by simply watching; you must do mathematics!
 
