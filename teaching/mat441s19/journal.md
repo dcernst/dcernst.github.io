@@ -7,7 +7,7 @@ title: Class Journal
 <ol class="breadcrumb">
   <li><a href="/"><i class="fa fa-home"></i></a></li>
   <li><a href="/teaching/">Teaching</a></li>
-  <li><a href="/teaching/mat411f18">MAT 411</a></li>
+  <li><a href="/teaching/mat411f18">MAT 441</a></li>
   <li class="active">Journal</li>
 </ol>
 

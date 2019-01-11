@@ -15,9 +15,9 @@ This section is primarily designed for my current students, but if you are not o
 My current office hours for Spring 2019 are (coming soon) or by appointment. My office is located in room 176 of the [Adel Mathematics Building](http://maps.google.com/maps?q=Adel+Mathematics,+Flagstaff,+AZ&hl=en&sll=35.181208,-111.607959&sspn=0.231222,0.42675&oq=adel+mathe&hnear=Adel+Mathematics,+Flagstaff,+Arizona+86001&t=m&z=17) (Building 26).
 
 ## Current Courses ##
-Here are the courses that I am currently teaching (Fall 2018) at [Northern Arizona University](http://nau.edu).
+Here are the courses that I am currently teaching (Spring 2019) at [Northern Arizona University](http://nau.edu).
 
-- [MAT 441: Topology]({{ site.baseurl }}/teaching/mat441s19)
+- [MAT 441: Introduction to Topology]({{ site.baseurl }}/teaching/mat441s19)
 - [MAT 526: Topics in Combinatorics]({{ site.baseurl }}/teaching/mat526s19)
 
 ## Previous Courses ##

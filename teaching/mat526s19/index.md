@@ -1,5 +1,5 @@
 ---
-title: Topology
+title: Combinatorics
 author: Dana Ernst
 layout: default
 ---
@@ -7,7 +7,7 @@ layout: default
 <ol class="breadcrumb">
   <li><a href="/"><i class="fa fa-home"></i></a></li>
   <li><a href="/teaching/">Teaching</a></li>
-  <li class="active">MAT 441</li>
+  <li class="active">MAT 526</li>
 </ol>
 
 <div class="row">
