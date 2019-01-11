@@ -59,28 +59,33 @@ This course focuses on a branch of [combinatorics](https://en.wikipedia.org/wiki
 
 <div class="row">
 
-  <div class="col-xs-12 col-lg-6">
-    <div>
-    <ul>
-    <li>Permutations</li>
-    <li>Combinations</li>
-    <li>The Binomial Theorem</li>
-    <li>Recurrences</li>
-    <li>Generating functions</li>
-    <li>Exponential generating functions and Bell numbers</li>
-    <li>Eulerian numbers</li>
-    <li>Catalan and Narayana numbers</li>
-    <li>Some partition theory</li>
-    </ul>
-    </div>
-  </div>
+<div class="col-xs-12 col-lg-6">
+<div>
+<ul>
+<li>Permutations</li>
+<li>Combinations</li>
+<li>The Binomial Theorem</li>
+<li>Recurrences</li>
+<li>Generating functions</li>
+<li>Exponential generating functions and Bell numbers</li>
+<li>Eulerian numbers</li>
+<li>Catalan and Narayana numbers</li>
+<li>Partition theory</li>
+</ul>
+</div>
 
-  <div class="col-xs-12 col-lg-6">
-  <figure>
-  <img src="{{ site.baseurl }}/images/TamariLattice.png" class="img-responsive" img style="margin-bottom: 10px" />
-  <figcaption>The weak order on $S_4$. (Figure on page 101 in <i>Inquiry Based Enumerative Combinatorics</i> by T. Petersen.)</figcaption>
-  </figure>
-  </div>
+<blockquote>
+<p>The mathematician does not study pure mathematics because it is useful; he studies it because he delights in it, and he delights in it because it is beautiful.</p>
+<footer><a href="https://en.wikipedia.org/wiki/Henri_Poincaré">Henri Poincaré</a></footer>
+</blockquote>
+</div>
+
+<div class="col-xs-12 col-lg-6">
+<figure>
+<img src="{{ site.baseurl }}/images/WeakOrder.png" class="img-responsive" img style="margin-bottom: 10px" />
+<figcaption>The weak order on $S_4$. (Figure on page 101 in <i>Inquiry Based Enumerative Combinatorics</i> by T. Petersen.)</figcaption>
+</figure>
+</div>
 
 </div>
 
