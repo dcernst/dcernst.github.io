@@ -26,73 +26,18 @@ title: Course Materials
 </div>
 </div>
 
-<div class="alert alert-info" role="alert">
-<i class="far fa-hand-peace"></i>&nbsp; This page is under construction!
-</div>
+## Textbook ##
+The textbook for the course is “Inquiry Based Enumerative Combinatorics” by [T. Kyle Petersen](http://math.depaul.edu/tpeter21/).  The book is brand new and not yet in print. The good news is that the author and publisher are allowing us to use the book for free!  The bad news is that the book will only be available in digital format and it cannot be posted publicly.  A PDF of the book is available in [BbLearn](https://bblearn.nau.edu).
 
-## An Inquiry-Based Approach to Abstract Algebra ##
-
-This free and open-source textbook was written by me ([Dana C. Ernst](http://danaernst.com)) and is designed to be used with an [inquiry-based learning](http://maamathedmatters.blogspot.com/2013/05/what-heck-is-ibl.html) (IBL) approach to a first-semester undergraduate abstract algebra course. The textbook starts with groups (up to the First Isomorphism Theorem) and finishes with an introduction to rings (up to quotients by maximal and prime ideals). While the textbook covers many of the standard topics, the focus is on building intuition and emphasizes visualization. The source files are located on [GitHub](https://github.com/dcernst/IBL-AbstractAlgebra).
-
-I will not be covering every detail of the notes and the only way to achieve a sufficient understanding of the material is to be digesting the reading in a meaningful way.  You should be seeking clarification about the content of the notes whenever necessary by asking questions.  Here's one of my favorite quotes about reading mathematics.
+I will not be covering every detail of the book and the only way to achieve a sufficient understanding of the material is to be digesting the reading in a meaningful way.  You should be seeking clarification about the content of the notes whenever necessary by asking questions.  Here's one of my favorite quotes about reading mathematics.
 
 <blockquote>
   <p>Don’t just read it; fight it! Ask your own questions, look for your own examples, discover your own proofs. Is the hypothesis necessary? Is the converse true? What happens in the classical special case? What about the degenerate cases? Where does the proof use the hypothesis?</p>
   <footer><a href="http://en.wikipedia.org/wiki/Paul_Halmos">Paul Halmos</a></footer>
 </blockquote>
 
-The notes will be released incrementally. Each link below is to a PDF file. If you've found an error and have suggestions for improvements, please let me know.
-
-<!-- <div class="alert alert-info" role="alert" style="margin: 10px 0 10px 0">
-<i class="fa fa-exclamation-triangle"></i>&nbsp; These notes are currently under construction and subject to change.
-</div> -->
-
-- [An Inquiry-Based Approach to Abstract Algebra]({{site.baseurl}}/teaching/mat526s19/IBL-AbstractAlgebra.pdf) (complete set of notes)
-
-- [Title Page]({{site.baseurl}}/teaching/mat526s19/TitlePage.pdf)
-- [Chapter 1: Introduction]({{site.baseurl}}/teaching/mat526s19/Introduction.pdf)
-    - 1.1 What is Abstract Algebra?
-    - 1.2 An Inquiry-Based Approach
-    - 1.3 Rules of the Game
-    - 1.4 Structure of the Notes
-    - 1.5 Some Minimal Guidance
-- [Chapter 2: An Introduction to Groups]({{site.baseurl}}/teaching/mat526s19/IntroGroups.pdf)
-    - 2.1 A First Example
-    - 2.2 Binary Operations
-    - 2.3 Groups
-    - 2.4 Generating Sets
-    - 2.5 Group Tables
-    - 2.6 Cayley Diagrams
-- [Chapter 3: Subgroups and Isomorphisms]({{site.baseurl}}/teaching/mat526s19/SubgroupsIsomorphisms.pdf)
-    - 3.1 Subgroups
-    - 3.2 Subgroup Lattices
-    - 3.3 Isomorphisms
-- [Chapter 4: Families of Groups]({{site.baseurl}}/teaching/mat526s19/Families.pdf)
-    - 4.1 Cyclic Groups
-    - 4.2 Dihedral Groups
-    - 4.3 Symmetric Groups
-    - 4.4 Alternating Groups
-- [Chapter 5: Cosets, Lagrange's Theorem, and Normal Subgroups]({{site.baseurl}}/teaching/mat526s19/CosetsLagrangeNormal.pdf)
-    - 5.1 Cosets
-    - 5.2 Lagrange's Theorem
-    - 5.3 Normal Subgroups
-- [Chapter 6: Products and Quotients of Groups]({{site.baseurl}}/teaching/mat526s19/ProductsQuotients.pdf)
-    - 6.1 Products of Groups
-    - 6.2 Quotients of Groups
-- [Chapter 7: Homomorphisms and the Isomorphism Theorems]({{site.baseurl}}/teaching/mat526s19/Homomorphisms.pdf)
-    - 7.1 Homomorphisms
-    - 7.2 The Isomorphism Theorems
-- [Chapter 8: An Introduction to Rings]({{site.baseurl}}/teaching/mat526s19/Rings.pdf)
-    - 8.1 Definitions and Examples
-    - 8.2 Ring Homomorphisms
-    - 8.3 Ideals and Quotient Rings
-    - 8.4 Maximal and Prime Ideals
-- [Appendix A: Elements of Style for Proofs]({{site.baseurl}}/teaching/mat526s19/ElementsOfStyle.pdf)
-- [Appendix B: Fancy Mathematical Terms]({{site.baseurl}}/teaching/mat526s19/FancyMathematicalTerms.pdf)
-- [Appendix C: Definitions in Mathematics]({{site.baseurl}}/teaching/mat526s19/Definitions.pdf)
-
 ## Miscellaneous Materials ##
-- [Student Contract]({{ site.baseurl }}/teaching/StudentContract.pdf) (PDF)
+<!-- - [Student Contract]({{ site.baseurl }}/teaching/StudentContract.pdf) (PDF) -->
 - [Setting the Stage]({{ site.baseurl }}/teaching/SettingTheStage.pdf) (PDF)
 - Videos on Growth Mindset and Productive Failure
     - [Productive Failure/Struggle Skateboard Video](https://www.youtube.com/watch?time_continue=98&v=1QSocgE3yFY) (1:46 min)
