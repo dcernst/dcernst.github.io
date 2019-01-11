@@ -57,7 +57,19 @@ Welcome to the course web page for the Spring 2019 manifestation of MAT 526: Top
 ## What is This Course All About? ##
 This course focuses on a branch of [combinatorics](https://en.wikipedia.org/wiki/Combinatorics) called is [enumerative combinatorics](https://en.wikipedia.org/wiki/Enumerative_combinatorics) with an emphasis on [generating function](https://en.wikipedia.org/wiki/Generating_function) techniques. The tentative plan is to cover content from Chapters 0-9 of *Inquiry Based Enumerative Combinatorics* by [T. Kyle Petersen](http://math.depaul.edu/tpeter21/). Here are the proposed topics:
 
-<div class="row">
+<ul>
+<li>Permutations</li>
+<li>Combinations</li>
+<li>The Binomial Theorem</li>
+<li>Recurrences</li>
+<li>Generating functions</li>
+<li>Exponential generating functions and Bell numbers</li>
+<li>Eulerian numbers</li>
+<li>Catalan and Narayana numbers</li>
+<li>Partition theory</li>
+</ul>
+
+<!-- <div class="row">
 
 <div class="col-xs-12 col-lg-6">
 <div>
@@ -82,14 +94,14 @@ This course focuses on a branch of [combinatorics](https://en.wikipedia.org/wiki
 
 <div class="col-xs-12 col-lg-6">
 <figure>
-<img src="{{ site.baseurl }}/images/WeakOrder.png" class="img-responsive" img style="margin-bottom: 10px" />
-<figcaption>The weak order on $S_4$. (Figure on page 101 in <i>Inquiry Based Enumerative Combinatorics</i> by T. Petersen.)</figcaption>
+<img src="{{ site.baseurl }}/images/TamariLattice.png" class="img-responsive" img style="margin-bottom: 10px" />
+<figcaption>The Tamari lattice given by the weak order on $S_4(231)$. Figure 5.12 in <i>Eulerian Numbers</i> by T. Kyle Petersen.</figcaption>
 </figure>
 </div>
 
 </div>
 
-<br />
+<br /> -->
 
 <blockquote>
 <p>The mathematician does not study pure mathematics because it is useful; he studies it because he delights in it, and he delights in it because it is beautiful.</p>
