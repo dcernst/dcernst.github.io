@@ -29,6 +29,8 @@ title: Class Journal
 </div>
 </div>
 
+<br>
+
 We’ll use this page to keep track of what has happened each day in class. It won’t contain any of the nitty-gritty details, but will instead serve to summarize what has transpired each day.
 
 ## Week 1 ##
