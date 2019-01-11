@@ -55,8 +55,36 @@ Welcome to the course web page for the Spring 2019 manifestation of MAT 526: Top
 </div>
 
 ## What is This Course All About? ##
-Coming soon...
-<!-- Abstract algebra is the subject area of mathematics that studies algebraic structures, such as groups, rings, fields, modules, vector spaces, and algebras. This course is an introduction to abstract algebra. We will spend most of our time studying groups. Group theory is the study of symmetry, and is one of the most beautiful areas in all of mathematics. It arises in puzzles, visual arts, music, nature, the physical and life sciences, computer science, cryptography, and of course, throughout mathematics. This course will cover the basic concepts of group theory, and a special effort will be made to emphasize the intuition behind the concepts and motivate the subject matter.  In the last few weeks of the semester, we will also introduce rings and fields. -->
+This course focuses on a branch of [combinatorics](https://en.wikipedia.org/wiki/Combinatorics) called is [enumerative combinatorics](https://en.wikipedia.org/wiki/Enumerative_combinatorics) with an emphasis on [generating function](https://en.wikipedia.org/wiki/Generating_function) techniques. The tentative plan is to cover content from Chapters 0-9 of *Inquiry Based Enumerative Combinatorics* by [T. Kyle Petersen](http://math.depaul.edu/tpeter21/). Here are the proposed topics:
+
+<div class="row">
+
+  <div class="col-xs-12 col-lg-6">
+    <div>
+    <ul>
+    <li>Permutations</li>
+    <li>Combinations</li>
+    <li>The Binomial Theorem</li>
+    <li>Recurrences</li>
+    <li>Generating functions</li>
+    <li>Exponential generating functions and Bell numbers</li>
+    <li>Eulerian numbers</li>
+    <li>Catalan and Narayana numbers</li>
+    <li>Some partition theory</li>
+    </ul>
+    </div>
+  </div>
+
+  <div class="col-xs-12 col-lg-6">
+  <figure>
+  <img src="{{ site.baseurl }}/images/TamariLattice.png" class="img-responsive" img style="margin-bottom: 10px" />
+  <figcaption>The weak order on $S_4$. (Figure on page 101 in <i>Inquiry Based Enumerative Combinatorics</i> by T. Petersen.)</figcaption>
+  </figure>
+  </div>
+
+</div>
+
+<br />
 
 <blockquote>
 <p>The mathematician does not study pure mathematics because it is useful; he studies it because he delights in it, and he delights in it because it is beautiful.</p>
