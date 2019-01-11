@@ -40,7 +40,7 @@ layout: default
     <strong>Semester:</strong> Spring 2019<br />
     <strong>Credits:</strong> 3<br />
     <strong>Section:</strong> 1<br />
-    <strong>Time:</strong> 11:30-12:20<br />
+    <strong>Time:</strong> 11:30AM-12:20PM<br />
     <strong>Location:</strong> SAS 201A
     </div>
   </div>
@@ -146,12 +146,12 @@ I will not be covering every detail of the textbook and the only way to achieve 
 Reviewing material from previous courses and looking up definitions and theorems you may have forgotten is fair game. However, when it comes to completing assignments for this course, you should *not* look to resources outside the context of this course for help.  That is, you should not be consulting the web, other texts, other faculty, or students outside of our course in an attempt to find solutions to the problems you are assigned.  On the other hand, you may use each other, the textbook, me, and your own intuition. If you feel you need additional resources, please come talk to me and we will come up with an appropriate plan of action.
 
 ### Exams ###
-There will be three midterm exams and a cumulative final exam.  Each exam will be worth 18% of your overall grade.  Moreover, each exam will consist of an in-class portion (weighted 70%) and a take-home portion (weighted 30%).  The in-class portions of the midterm exams are *tentatively* scheduled for the following Fridays **September 21** (week 4), <s>October 19</s> **October 22** (week 9), and **November 16** (week 12).  The take-home portions of midterm exams will typically be due the following Wednesday.  The final exam is schedule for **Wednesday, December 12 at 7:30-9:30AM**.  Make-up exams will only be given under extreme circumstances, as judged by me.  In general, it will be best to communicate conflicts ahead of time.
+There will be two midterm exams and a cumulative final exam. Each exam will consist of an in-class portion (weighted 70%) and a take-home portion (weighted 30%).  The in-class portions of the midterm exams are *tentatively* scheduled for **Friday, February 22** (week 6) and **Friday, April 12** (week 12).  The take-home portions of midterm exams will typically be due the following Wednesday. Each midterm exam will be worth 20% of your overall grade. The final exam is schedule for **Wednesday, May 8** at 10:00AM-12:00PM and is worth 25% of your overall grade.  Make-up exams will only be given under extreme circumstances, as judged by me.  In general, it will be best to communicate conflicts ahead of time.
 
 ### Homework ###
 
 #### General Comments
-You are allowed and encouraged to work together on homework.  However, each student is expected to turn in his or her own work.  In general, late homework will *not* be accepted.  However, you are allowed to turn in three late homework assignments with no questions asked. Unless you have made arrangements in advance with me, homework turned in after class will be considered late. When doing your homework, I encourage you to consult the [Elements of Style for Proofs]({{site.baseurl}}/teaching/ElementsOfStyle.pdf). Your overall homework grade will be worth 14% of your final grade.
+You are allowed and encouraged to work together on homework.  However, each student is expected to turn in his or her own work.  In general, late homework will *not* be accepted.  However, you are allowed to turn in three late homework assignments with no questions asked. Unless you have made arrangements in advance with me, homework turned in after class will be considered late. When doing your homework, I encourage you to consult the [Elements of Style for Proofs]({{site.baseurl}}/teaching/ElementsOfStyle.pdf). Your overall homework grade will be worth 20% of your final grade.
 
 On each homework assignment, please write (i) your name, (ii) name of course, and (iii) Daily/Weekly Homework number.  You can find the list of assignments on the [homework page]({{site.baseurl}}/teaching/mat441s19/homework/).  I reserve the right to modify the homework assignments as I see necessary.
 
@@ -343,7 +343,7 @@ Your Presentation and Participation grade is determined by your frequency and ab
 </table>
 </center>
 
-I anticipate that most students will fall in the 80-89% range. Your Presentation and Participation grade is worth 14% of your overall grade.
+I anticipate that most students will fall in the 80-89% range. Your Presentation and Participation grade is worth 15% of your overall grade.
 
 <blockquote>
 <p>I must not fear.<br />
@@ -378,33 +378,28 @@ In summary, your final grade will be determined by your scores in the following 
 	<tbody>
 	<tr>
 		<td>Homework</td>
-		<td style="text-align: center;">14%</td>
+		<td style="text-align: center;">20%</td>
 		<td>A combination of Daily &amp; Weekly Homework</td>
 	</tr>
   <tr>
 		<td>Presentations &amp; Participation</td>
-		<td style="text-align: center;">14%</td>
+		<td style="text-align: center;">15%</td>
 		<td>See above for requirements</td>
 	</tr>
 	<tr>
 		<td>Exam 1</td>
-		<td style="text-align: center;">18%</td>
-		<td>September 21</td>
+		<td style="text-align: center;">20%</td>
+		<td>February 22</td>
 	</tr>
   <tr>
     <td>Exam 2</td>
-    <td style="text-align: center;">18%</td>
-    <td><s>October 19</s> October 22</td>
-  </tr>
-  <tr>
-    <td>Exam 3</td>
-    <td style="text-align: center;">18%</td>
-    <td>November 16</td>
+    <td style="text-align: center;">20%</td>
+    <td>April 12</td>
   </tr>
 	<tr>
 		<td>Final Exam</td>
-		<td style="text-align: center;">18%</td>
-		<td>Wednesday, December 12 at 7:30-9:30AM</td>
+		<td style="text-align: center;">25%</td>
+		<td>Wednesday, May 8 at 10:00AM-12:00PM</td>
 	</tr>
 	</tbody>
 </table>

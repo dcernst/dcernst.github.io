@@ -36,7 +36,7 @@ Welcome to the course web page for the Spring 2019 manifestation of MAT 441: Int
     <strong>Semester:</strong> Spring 2019<br />
     <strong>Credits:</strong> 3<br />
     <strong>Section:</strong> 1<br />
-    <strong>Time:</strong> 11:30-12:20 MWF<br />
+    <strong>Time:</strong> 11:30AM-12:20PM MWF<br />
     <strong>Location:</strong> SAS 201A
     </div>
   </div>
