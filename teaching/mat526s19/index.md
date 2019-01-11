@@ -55,7 +55,7 @@ Welcome to the course web page for the Spring 2019 manifestation of MAT 526: Top
 </div>
 
 ## What is This Course All About? ##
-This course focuses on a branch of [combinatorics](https://en.wikipedia.org/wiki/Combinatorics) called is [enumerative combinatorics](https://en.wikipedia.org/wiki/Enumerative_combinatorics) with an emphasis on [generating function](https://en.wikipedia.org/wiki/Generating_function) techniques. The tentative plan is to cover content from Chapters 0-9 of *Inquiry Based Enumerative Combinatorics* by [T. Kyle Petersen](http://math.depaul.edu/tpeter21/). Here are the proposed topics:
+This course focuses [enumerative combinatorics](https://en.wikipedia.org/wiki/Enumerative_combinatorics) with an emphasis on [generating function](https://en.wikipedia.org/wiki/Generating_function) techniques. The tentative plan is to cover content from Chapters 0-9 of *Inquiry Based Enumerative Combinatorics* by [T. Kyle Petersen](http://math.depaul.edu/tpeter21/). Here are the proposed topics:
 
 <ul>
 <li>Permutations</li>
