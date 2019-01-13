@@ -50,7 +50,7 @@ layout: default
       <h3>Instructor Info</h3>
       <i class="fa fa-user fa-fw"></i>&nbsp; Dana C. Ernst, PhD<br />
       <i class="fa fa-university fa-fw"></i>&nbsp; AMB 176<br />
-      <i class="fa fa-users fa-fw"></i>&nbsp; 10:15-11:15 MWF, 10:30-12:30 T<br />
+      <i class="fa fa-users fa-fw"></i>&nbsp; 10:15-11:15 MF, 10:30-12:30 T, 10:15-11:15 W<br />
       <i class="far fa-envelope fa-fw"></i>&nbsp; <a href="mailto:dana.ernst@nau.edu">dana.ernst@nau.edu</a><br />
       <i class="fa fa-phone fa-fw"></i>&nbsp; 928.523.6852<br />
       <i class="fa fa-link fa-fw"></i>&nbsp; <a href="{{site.baseurl}}">danaernst.com</a>
@@ -75,7 +75,7 @@ Loosely speaking, [topology](https://en.wikipedia.org/wiki/Topology) is the bran
 
 <blockquote>
 <p>Topology is a subject whose power arises from the impulse to abstract essential features from complex situations and then to let our curiosity roam while striving to truly understand what is essential about fundamental ideas.</p>
-<footer><a href="https://web.ma.utexas.edu/users/starbird/" target="_blank">Michael Starbird</a> and <a href="https://www.math.hmc.edu/~su/" target="_blank">Francis Su</a></footer>
+<footer><a href="https://web.ma.utexas.edu/users/starbird/">Michael Starbird</a> and <a href="https://www.math.hmc.edu/~su/">Francis Su</a></footer>
 </blockquote>
 
 ### An Inquiry-Based Approach ###
@@ -160,10 +160,10 @@ Homework will be assigned each class meeting, and students are expected to compl
 
 The Daily Homework will generally consist of completing exercises and proving theorems from the textbook.  In addition to completing the assigned problems, I also want you to assess your own work.  Next to each problem, I want you to write down a score between 0 and 4 that represents your perception of the validity and quality of your proposed solution/proof. Consider using the rubric given below in the description of the Weekly Homework assignments.  Not completing the self-assessment step may impact the score on your homework.
 
-On the day that a homework assignment is due, the majority of the class period will be devoted to students presenting some subset (maybe all) of the proofs/solutions that are due that day.  At the end of each class session, students should submit their write-ups for all of the proofs that were due that day.  Daily Homework will be graded using a $\checkmark$-system.  Students are allowed (in fact, encouraged!) to modify their written proofs in light of presentations made in class; however, **you are required to use the colored marker pens provided in class**.  This will allow me to differentiate the work done in class versus the work you completed before class.  The grade you receive on an assignment will be determined by the work you completed prior to class.  I will provide more guidance with respect to this during the first couple weeks of the semester.
+On the day that a homework assignment is due, the majority of the class period will be devoted to students presenting some subset (maybe all) of the proofs/solutions that are due that day.  Daily Homework will be graded using a $\checkmark$-system.  You are allowed (in fact, encouraged!) to modify your written work in light of presentations made in class; however, **you are required to use the colored marker pens provided in class**.  This will allow me to differentiate the work done in class versus the work you completed before class.  The grade you receive on an assignment will be determined by the work you completed prior to class.  I will provide more guidance with respect to this during the first couple weeks of the semester.
 
 #### Weekly Homework
-In addition to the Daily Homework, we will also have Weekly Homework assignments.  For most of these assignments, you will be required to submit 2 formally written proofs.  Typically, these problems will come directly from the Daily Homework assigned the previous week.  You will be required to type your submission using $\LaTeX$. I will walk you through how to do this.  You can either submit a hardcopy of your assignment or email me the PDF of your completed work. If you email me the PDF, please name your file as <code>WeeklyX-LastName.pdf</code>, where <code>X</code> is the number of the assignment and <code>LastName</code> is your last name.  Notice there are no spaces in the filename. Each problem on the Weekly Homework assignments is subject to the following rubric:
+In addition to the Daily Homework, we will also have Weekly Homework assignments.  For most of these assignments, you will be required to submit 2-3 formally written proofs.  Some or all of these problems will come directly from the Daily Homework assigned the previous week.  You are required to type your submission using $\LaTeX$. You can either submit a hardcopy of your assignment or email me the PDF of your completed work. If you email me the PDF, please name your file as <code>WeeklyX-LastName.pdf</code>, where <code>X</code> is the number of the assignment and <code>LastName</code> is your last name.  Notice there are no spaces in the filename. Each problem on the Weekly Homework assignments is subject to the following rubric:
 
 <center>
 <table class="table table-striped">
