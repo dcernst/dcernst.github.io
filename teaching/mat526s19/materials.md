@@ -27,7 +27,7 @@ title: Course Materials
 </div>
 
 ## Textbook ##
-The textbook for the course is “Inquiry Based Enumerative Combinatorics” by [T. Kyle Petersen](http://math.depaul.edu/tpeter21/).  The book is brand new and not yet in print. The good news is that the author and publisher are allowing us to use the book for free!  The bad news is that the book will only be available in digital format and it cannot be posted publicly.  A PDF of the book is available in [BbLearn](https://bblearn.nau.edu).
+The textbook for the course is *Inquiry Based Enumerative Combinatorics* by [T. Kyle Petersen](http://math.depaul.edu/tpeter21/).  The book is brand new and not yet in print. The good news is that the author and publisher are allowing us to use the book for free!  The bad news is that the book will only be available in digital format and it cannot be posted publicly.  A PDF of the book is available in [BbLearn](https://bblearn.nau.edu).
 
 I will not be covering every detail of the book and the only way to achieve a sufficient understanding of the material is to be digesting the reading in a meaningful way.  You should be seeking clarification about the content of the material whenever necessary by asking questions.  Here's one of my favorite quotes about reading mathematics.
 
