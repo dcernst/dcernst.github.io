@@ -34,6 +34,7 @@ The following assignments are due at the beginning of the indicated class meetin
 
 - **Daily Homework 1:** Read the [syllabus]({{site.baseurl}}/teaching/mat526s19/syllabus/) and write down 5 important items.  *Note:*  All of the exam dates only count as a single item.  Turn in on your own paper at the beginning of class. (Due Wednesday, January 16)
 - **Daily Homework 2:** If you haven't already, read the Preface (3 pages) and Chapter 0: Introduction to this book (14 pages) in *Inquiry Based Enumerative Combinatorics*. Jot down some notes and be prepared to explain/justify (1) the recurrence relation, (2) the closed form, and (3) the structural recurrence diagram for the $n$-disk version of the Towers of Hanoi. (Due Wednesday, January 16)
+- **Daily Homework 3:** Complete Problems 1-7 in Chapter 1 and digest the surrounding text along the way. (Due Friday, January 18)
 
 ## Weekly Homework ##
 For most of the assignments below, you will be required to submit 2-3 formally written proofs. You are required to type your submission using LaTeX (see below).  You can either submit a hardcopy of your assignment or email me the PDF of your completed work. If you email me the PDF, please name your file as <code>WeeklyX-LastName.pdf</code>, where <code>X</code> is the number of the assignment and <code>Lastname</code> is your last name.  Notice there are no spaces in the filename.
