@@ -37,7 +37,7 @@ We’ll use this page to keep track of what has happened each day in class. It w
 
 <ul class="fa-ul">
   <li><i class="fa-li far fa-calendar-check"></i><b>Monday, January 14:</b> Frist day! The first few minutes of class were devoted to me attempting to learn names. I think I got them all! Next, we did a very quick tour of BbLearn and the course website.  The remainder of the class meeting was devoted to discussing isomorphisms as they occur in mutliple mathematical contexts and we started to explore an example of a bijection between collections of "combinatorial objects" where some aspect of the structure is preserved.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, January 16:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, January 16:</b> After answering a few quick questions about the syllabus, I wrapped up the "prologue".  Next, we had VM/DW and AM/JG1 present the recursive formula and closed form, respectively, for the minimum number of moves required to solve the $n$-disk Towers of Hanoi. Great first day of student presentations!</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Friday, January 18:</b> Coming soon.</li>
 </ul>
 
