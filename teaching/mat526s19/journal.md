@@ -38,7 +38,7 @@ We’ll use this page to keep track of what has happened each day in class. It w
 <ul class="fa-ul">
   <li><i class="fa-li far fa-calendar-check"></i><b>Monday, January 14:</b> First day! The first few minutes of class were devoted to me attempting to learn names. I think I got them all! Next, we did a very quick tour of BbLearn and the course website.  The remainder of the class meeting was devoted to discussing isomorphisms as they occur in multiple mathematical contexts and we started to explore an example of a bijection between collections of "combinatorial objects" where some aspect of the structure is preserved.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, January 16:</b> After answering a few quick questions about the syllabus, I wrapped up the "prologue".  Next, we had VM/DW and AM/JG1 present the recursive formula and closed form, respectively, for the minimum number of moves required to solve the $n$-disk Towers of Hanoi. Great first day of student presentations!</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, January 18:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, January 18:</b> Busy day!  We didn't discuss anything too ground breaking, but we covered a lot of territory.  After a quick discussion of LaTeX and the first Weekly Homework assignment, we jumped into student presentations.  We had JC, MG, MF, ND, and MS present Problems 3, 4, 5, 6, and 7, respectively.  This left of us with plenty of time to get started on the next couple problems.  After students worked in groups of 2-3, MR and VM presented two different approaches to Problem 8. I spent the remaining few minutes tying some ideas together.</li>
 </ul>
 
 <!-- ## Week 2 ##
