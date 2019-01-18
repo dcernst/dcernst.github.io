@@ -36,6 +36,8 @@ The following assignments are due at the beginning of the indicated class meetin
 - **Daily Homework 2:** If you haven't already, read the Preface (3 pages) and Chapter 0: Introduction to this book (14 pages) in *Inquiry Based Enumerative Combinatorics*. Jot down some notes and be prepared to explain/justify (1) the recurrence relation, (2) the closed form, and (3) the structural recurrence diagram for the $n$-disk version of the Towers of Hanoi. (Due Wednesday, January 16)
 - **Daily Homework 3:** Complete Problems 1-7 in Chapter 1 and digest the surrounding text along the way. (Due Friday, January 18)
 - **Daily Homework 4:** Complete Problems 8-13 in Chapter 1 and digest the surrounding text along the way. (Due Wednesday, January 23)
+- **Daily Homework 5:** (Tentative) Complete Problems 14-18 in Chapter 1 and digest the surrounding text along the way. (Due Friday, January 25)
+- **Daily Homework 6:** (Tentative) Complete Problems 19-24 in Chapter 1 and digest the surrounding text along the way. Be sure to read the exposition at the end of Chapter 1. (Due Monday, January 28)
 
 ## Weekly Homework ##
 For most of the assignments below, you will be required to submit 2-3 formally written proofs. You are required to type your submission using LaTeX (see below).  You can either submit a hardcopy of your assignment or email me the PDF of your completed work. If you email me the PDF, please name your file as <code>WeeklyX-LastName.pdf</code>, where <code>X</code> is the number of the assignment and <code>Lastname</code> is your last name.  Notice there are no spaces in the filename.
