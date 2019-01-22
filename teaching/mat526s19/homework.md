@@ -36,13 +36,17 @@ The following assignments are due at the beginning of the indicated class meetin
 - **Daily Homework 2:** If you haven't already, read the Preface (3 pages) and Chapter 0: Introduction to this book (14 pages) in *Inquiry Based Enumerative Combinatorics*. Jot down some notes and be prepared to explain/justify (1) the recurrence relation, (2) the closed form, and (3) the structural recurrence diagram for the $n$-disk version of the Towers of Hanoi. (Due Wednesday, January 16)
 - **Daily Homework 3:** Complete Problems 1-7 in Chapter 1 and digest the surrounding text along the way. (Due Friday, January 18)
 - **Daily Homework 4:** Complete Problems 8-13 in Chapter 1 and digest the surrounding text along the way. (Due Wednesday, January 23)
-- **Daily Homework 5:** (Tentative) Complete Problems 14-18 in Chapter 1 and digest the surrounding text along the way. (Due Friday, January 25)
+- **Daily Homework 5:** Complete Problems 14-18 in Chapter 1 and digest the surrounding text along the way. (Due Friday, January 25)
 - **Daily Homework 6:** (Tentative) Complete Problems 19-24 in Chapter 1 and digest the surrounding text along the way. Be sure to read the exposition at the end of Chapter 1. (Due Monday, January 28)
 
 ## Weekly Homework ##
 For most of the assignments below, you will be required to submit 2-3 formally written proofs. You are required to type your submission using LaTeX (see below).  You can either submit a hardcopy of your assignment or email me the PDF of your completed work. If you email me the PDF, please name your file as <code>WeeklyX-LastName.pdf</code>, where <code>X</code> is the number of the assignment and <code>Lastname</code> is your last name.  Notice there are no spaces in the filename.
 
 - **Weekly Homework 1:** Read <a href="https://www.scientificamerican.com/article/the-secret-to-raising-smart-kids1/">The Secret to Raising Smart Kids</a> by <a href="https://en.wikipedia.org/wiki/Carol_Dweck/">Carol Dweck</a> and write a one-page summary/reflection about the article. For this assignment, I suggest you use the template on <a href="https://www.overleaf.com/">Overleaf</a> found <a href="https://www.overleaf.com/latex/templates/weekly-homework-1-for-reflection-on-the-secret-to-raising-smart-kids/wsqscmkyzrsr">here</a> instead of using the "Start your homework in Overleaf" link below. (Due Tuesday, January 22 by 8PM)
+- **Weekly Homework 2:** Complete the following problems. You must type up your proofs using LaTeX.  I suggest you use my Overleaf template, which you can access by clicking the "Start your homework in Overleaf" link below. (Due ??? by 8PM)
+     1. Either (a) establish a bijection between the set of dominoes consisting of double blank through double $n$ and the set of edges in the complete graph on $n+2$ vertices, or (b) complete Problem 10 (including a closed form).
+     2. Complete Problem 6 in the Supplementary Exercises for Chapter 1 (page 197).
+     3. Carefully prove Version 3 of Theorem 2.
 
 ## Using LaTeX for Weekly Homework ##
 You are required to use LaTeX to type up your Weekly Homework assignments. The easiest way to get started with LaTeX is to use an online editor.  I recommend using [Overleaf](https://overleaf.com), but there are other options.  The good folks over at Overleaf have preloaded my homework template, so to get started, all you need to do is click the link below and then click on "Open as Template". Be sure to update your name and the course title.
