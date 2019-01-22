@@ -35,12 +35,13 @@ The following assignments are due at the beginning of the indicated class meetin
 - **Daily Homework 1:** Read the [syllabus]({{site.baseurl}}/teaching/mat441s19/syllabus/) and write down 5 important items.  *Note:*  All of the exam dates only count as a single item.  Turn in on your own paper at the beginning of class. (Due Wednesday, January 16)
 - **Daily Homework 2:** If you haven't already, read Chapter 1: Introduction (6 pages) in *Topology Through Inquiry*. In addition, complete 2.2-2.8 in Chapter 2 and digest the surrounding text along the way. These problems should be review. (Due Wednesday, January 16)
 - **Daily Homework 3:** Complete 2.9-2.12 in Chapter 2 and digest the surrounding text along the way. Again, these problems should be review. (Due Friday, January 18)
-- **Daily Homework 4:** Complete 2.13 in Chapter 2 and digest the surrounding text along the way. (Due Wednesday, January 23)
+- **Daily Homework 4:** Complete 2.14, 2.16-2.20 in Chapter 2 and digest the surrounding text along the way. (Due Friday, January 25)
 
 ## Weekly Homework ##
 For most of the assignments below, you will be required to submit 2-3 formally written proofs. You are required to type your submission using LaTeX (see below).  You can either submit a hardcopy of your assignment or email me the PDF of your completed work. If you email me the PDF, please name your file as <code>WeeklyX-LastName.pdf</code>, where <code>X</code> is the number of the assignment and <code>LastName</code> is your last name.  Notice there are no spaces in the filename.
 
 - **Weekly Homework 1:** Read <a href="https://www.scientificamerican.com/article/the-secret-to-raising-smart-kids1/">The Secret to Raising Smart Kids</a> by <a href="https://en.wikipedia.org/wiki/Carol_Dweck/">Carol Dweck</a> and write a one-page summary/reflection about the article. For this assignment, I suggest you use the template on <a href="https://www.overleaf.com/">Overleaf</a> found <a href="https://www.overleaf.com/latex/templates/weekly-homework-1-for-reflection-on-the-secret-to-raising-smart-kids/wsqscmkyzrsr">here</a> instead of using the "Start your homework in Overleaf" link below. (Due Tuesday, January 22 by 8PM)
+- **Weekly Homework 2:** Prove **two** of Theorems ???. You must type up your proofs using LaTeX.  I suggest you use my Overleaf template, which you can access by clicking the "Start your homework in Overleaf" link below. (Due ??? by 8PM)
 
 ## Using LaTeX for Weekly Homework ##
 You are required to use LaTeX to type up your Weekly Homework assignments. The easiest way to get started with LaTeX is to use an online editor.  I recommend using [Overleaf](https://overleaf.com), but there are other options.  The good folks over at Overleaf have preloaded my homework template, so to get started, all you need to do is click the link below and then click on "Open as Template". Be sure to update your name and the course title.
