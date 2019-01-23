@@ -35,7 +35,8 @@ The following assignments are due at the beginning of the indicated class meetin
 - **Daily Homework 1:** Read the [syllabus]({{site.baseurl}}/teaching/mat441s19/syllabus/) and write down 5 important items.  *Note:*  All of the exam dates only count as a single item.  Turn in on your own paper at the beginning of class. (Due Wednesday, January 16)
 - **Daily Homework 2:** If you haven't already, read Chapter 1: Introduction (6 pages) in *Topology Through Inquiry*. In addition, complete 2.2-2.8 in Chapter 2 and digest the surrounding text along the way. These problems should be review. (Due Wednesday, January 16)
 - **Daily Homework 3:** Complete 2.9-2.12 in Chapter 2 and digest the surrounding text along the way. Again, these problems should be review. (Due Friday, January 18)
-- **Daily Homework 4:** Complete 2.14, 2.16-2.20 in Chapter 2 and digest the surrounding text along the way. (Due Friday, January 25)
+- **Daily Homework 4:** Complete 2.13 in Chapter 2 and digest the surrounding text along the way. (Due Wednesday, January 23)
+- **Daily Homework 5:** Complete 2.14, 2.16-2.20 in Chapter 2 and digest the surrounding text along the way. (Due Friday, January 25)
 
 ## Weekly Homework ##
 For most of the assignments below, you will be required to submit 2-3 formally written proofs. You are required to type your submission using LaTeX (see below).  You can either submit a hardcopy of your assignment or email me the PDF of your completed work. If you email me the PDF, please name your file as <code>WeeklyX-LastName.pdf</code>, where <code>X</code> is the number of the assignment and <code>LastName</code> is your last name.  Notice there are no spaces in the filename.
