@@ -45,7 +45,7 @@ We’ll use this page to keep track of what has happened each day in class. It w
 
 <ul class="fa-ul">
   <li><i class="fa-li far fa-calendar-check"></i><b>Monday, January 21:</b> MLK Day, no class.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, January 21:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, January 21:</b> We had JG, PG/AM/JW, JL, and JG present Problems 9, 10, 11, and 13, respectively.  We had a nice discussion about the connection between Problem 8 (edges in complete graph) and Problem 9 (dominoes). Seeing multiple approaches to Problem 10 was cool.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Friday, January 18:</b> Coming soon.</li>
 </ul>
 
