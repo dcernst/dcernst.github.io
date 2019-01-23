@@ -38,5 +38,13 @@ We’ll use this page to keep track of what has happened each day in class. It w
 <ul class="fa-ul">
   <li><i class="fa-li far fa-calendar-check"></i><b>Monday, January 14:</b> First day! The first few minutes of class were devoted to me attempting to learn names. I think I got them all! Next, we did a very quick tour of BbLearn and the course website.  The remainder of the class meeting was devoted to discussing isomorphisms as they occur in multiple mathematical contexts.  We concluded with an example of a continuous bijection whose inverse is not continuous.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, January 16:</b> After answering a few quick questions about the syllabus, we jumped into student presentations.  We had AS, FA, JH, WC, and SM present Theorem 2.2, Exercise 2.3, visual for Exercise 2.3, Theorem 2.6, and Theorem 2.7, respectively. We ran out of time for Theorem 2.8 and we will address that one at the beginning of class on Friday.  Great first day of student presentations!</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, January 18:</b> Another good day of student presentations.  We did not get through everything that was planned, but we should be able to catch up.  We had RD, PB, JN, and MS present Theorems 2.8, 2.9, 2.10(forward implication), and 2.10(reverse implication), respectively.</li>
+</ul>
+
+## Week 2 ##
+
+<ul class="fa-ul">
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, January 21:</b> MLK Day, no class.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, January 21:</b> Coming soon.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Friday, January 18:</b> Coming soon.</li>
 </ul>

@@ -41,6 +41,14 @@ We’ll use this page to keep track of what has happened each day in class. It w
   <li><i class="fa-li far fa-calendar-check"></i><b>Friday, January 18:</b> Busy day!  We didn't discuss anything too ground breaking, but we covered a lot of territory.  After a quick discussion of LaTeX and the first Weekly Homework assignment, we jumped into student presentations.  We had JC, MG, MF, ND, and MS present Problems 3, 4, 5, 6, and 7, respectively.  This left of us with plenty of time to get started on the next couple problems.  After students worked in groups of 2-3, MR and VM presented two different approaches to Problem 8. I spent the remaining few minutes tying some ideas together.</li>
 </ul>
 
+## Week 2 ##
+
+<ul class="fa-ul">
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, January 21:</b> MLK Day, no class.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, January 21:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, January 18:</b> Coming soon.</li>
+</ul>
+
 <!-- ## Week 2 ##
 
 <ul class="fa-ul">
