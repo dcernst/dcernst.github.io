@@ -45,6 +45,6 @@ We’ll use this page to keep track of what has happened each day in class. It w
 
 <ul class="fa-ul">
   <li><i class="fa-li far fa-calendar-check"></i><b>Monday, January 21:</b> MLK Day, no class.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, January 21:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, January 21:</b> We devoted the first few minutes of class to discussing the relationship between the Axiom of Choice, the Well Ordering Theorem, and Zorn's Lemma, as well as the relationship between the Well Ordering Property and the Axiom of Induction. Next, we had RB/JW, QC, and PH presented Theorems 2.11, 2.12, and 2.13, respectively.  I'm really pleased with how things are progressing.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Friday, January 18:</b> Coming soon.</li>
 </ul>
