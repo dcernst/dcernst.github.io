@@ -39,6 +39,7 @@ The following assignments are due at the beginning of the indicated class meetin
 - **Daily Homework 5:** Complete 2.14, 2.16-2.20 in Chapter 2 and digest the surrounding text along the way. (Due Friday, January 25)
 - **Daily Homework 6:** Complete 2.21, 2.22, 3.1, 3.2 and digest the surrounding text along the way. In addition, carefully read (but don't worry about proving the theorems, unless you want to) Section 2.4 (focusing on Theorems 2.25 and 2.26) and skim Section 2.5. (Due Monday, January 28)
 - **Daily Homework 7:** Complete 3.3-3.7 in Chapter 3 and digest the surrounding text along the way. If you haven't already, be sure to carefully read Section 3.1. (Due Wednesday, January 31)
+- **Daily Homework 8:** Complete 3.8-3.13 in Chapter 3 and digest the surrounding text along the way. (Due Friday, February 2)
 
 ## Weekly Homework ##
 For most of the assignments below, you will be required to submit 2-3 formally written proofs. You are required to type your submission using LaTeX (see below).  You can either submit a hardcopy of your assignment or email me the PDF of your completed work. If you email me the PDF, please name your file as <code>WeeklyX-LastName.pdf</code>, where <code>X</code> is the number of the assignment and <code>LastName</code> is your last name.  Notice there are no spaces in the filename.
