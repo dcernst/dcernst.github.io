@@ -37,7 +37,8 @@ The following assignments are due at the beginning of the indicated class meetin
 - **Daily Homework 3:** Complete Problems 1-7 in Chapter 1 and digest the surrounding text along the way. (Due Friday, January 18)
 - **Daily Homework 4:** Complete Problems 8-13 in Chapter 1 and digest the surrounding text along the way. (Due Wednesday, January 23)
 - **Daily Homework 5:** Complete Problems 14-18 in Chapter 1 and digest the surrounding text along the way. (Due Friday, January 25)
-- **Daily Homework 6:** Complete Problems 19-25 in Chapter 1. In addition, read "Organizing data" (pages 26-31). (Due Monday, January 28)
+- **Daily Homework 6:** Complete Problems 19-25 in Chapters 1 and 2. In addition, read "Organizing data" (pages 26-31). (Due Monday, January 28)
+- **Daily Homework 7:** Complete Problems 26-37 in Chapters 2 and 3. In addition, carefully read and digest "The symmetric group" (pages 38-41). (Due Wednesday, January 31)
 
 ## Weekly Homework ##
 For most of the assignments below, you will be required to submit 2-3 formally written proofs. You are required to type your submission using LaTeX (see below).  You can either submit a hardcopy of your assignment or email me the PDF of your completed work. If you email me the PDF, please name your file as <code>WeeklyX-LastName.pdf</code>, where <code>X</code> is the number of the assignment and <code>Lastname</code> is your last name.  Notice there are no spaces in the filename.
