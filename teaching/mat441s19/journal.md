@@ -52,7 +52,7 @@ We’ll use this page to keep track of what has happened each day in class. It w
 ## Week 3 ##
 
 <ul class="fa-ul">
-  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, January 28:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, January 28:</b> First, we had MS and VM present Theorems 2.20 and 2.21, respectively.  Then we had EP and RB present Theorems 2.19 and 2.22, respectively.  This was followed with a quick summary of the Schroeder-Bernstein Theorems.  With the time we had left, we discussed the definitions of topology and topological space and tinkered with some examples.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, January 30:</b> Coming soon.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Friday, February 2:</b> Coming soon.</li>
 </ul>
