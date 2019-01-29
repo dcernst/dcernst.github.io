@@ -13,6 +13,7 @@ layout: default
 <!-- <img src="{{ site.baseurl }}/images/2012/02/Screen-Shot-2013-08-07-at-11.21.58-PM.png" width="200" align="left" img style="margin-right: 15px" /> -->
 Below is list of talks and presentations that I have given over the past several years.  In most cases, there are links to slides.  In particular, you can find the collection of my recent slides on [Speaker Deck](https://speakerdeck.com/dcernst). Check out my [scholarship overview page]({{ site.baseurl }}/scholarship/) for additional information about my research interests.  If you are interested in presentations that my undergraduate research students have given, check out my [undergraduate research page]({{ site.baseurl }}/scholarship/undergraduate-research/).
 
+- Should you consider graduate school in statistics or mathematics education or mathematics? [Friday Afternoon Mathematics Undergrad Seminar](http://naumathstat.github.io/seminars/famusSpring2019/) (FAMUS), NAU, Flagstaff, AZ. January 2019.
 - Braid shadows in simply-laced Coxeter systems (2 talks). [Algebra, Combinatorics, Geometry, and Topology Seminar](http://naumathstat.github.io/seminars/acgtFall2018/) (ACGT), NAU, Flagstaff, AZ. November 2018.
 - The Dating Game. [Friday Afternoon Mathematics Undergrad Seminar](http://naumathstat.github.io/seminars/famusFall2018/) (FAMUS), NAU, Flagstaff, AZ. September 2018.
 - What is mathematical inquiry? Plenary talk at [2018 IBL Workshop](http://www.inquirybasedlearning.org/past-ibl-workshops/), DePaul University, Chicago, IL. June 2018.
