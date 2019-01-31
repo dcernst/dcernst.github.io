@@ -53,6 +53,6 @@ We’ll use this page to keep track of what has happened each day in class. It w
 
 <ul class="fa-ul">
   <li><i class="fa-li far fa-calendar-check"></i><b>Monday, January 28:</b> We kicked off with me summarizing Problems 19 and 20.  Then we had JC, MF, and MG present Problems 22, 24, and 25, respectively.  With the time we had left, we discussed permutations in their various guises.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, January 30:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, January 30:</b> We spent the first few minutes setting the stage and then jumped into student presentations.  We had PG, JL, MR, AM and MG present Problems 27/29/30, 31(algebraic), 31(bijection), 32(algebraic), and 32(bijection), respectively.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Friday, February 2:</b> Coming soon.</li>
 </ul>
