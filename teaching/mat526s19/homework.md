@@ -34,13 +34,14 @@ The following assignments are due at the beginning of the indicated class meetin
 
 - **Daily Homework 1:** Read the [syllabus]({{site.baseurl}}/teaching/mat526s19/syllabus/) and write down 5 important items.  *Note:*  All of the exam dates only count as a single item.  Turn in on your own paper at the beginning of class. (Due Wednesday, January 16)
 - **Daily Homework 2:** If you haven't already, read the Preface (3 pages) and Chapter 0: Introduction to this book (14 pages) in *Inquiry Based Enumerative Combinatorics*. Jot down some notes and be prepared to explain/justify (1) the recurrence relation, (2) the closed form, and (3) the structural recurrence diagram for the $n$-disk version of the Towers of Hanoi. (Due Wednesday, January 16)
-- **Daily Homework 3:** Complete Problems 1-7 in Chapter 1 and digest the surrounding text along the way. (Due Friday, January 18)
-- **Daily Homework 4:** Complete Problems 8-13 in Chapter 1 and digest the surrounding text along the way. (Due Wednesday, January 23)
-- **Daily Homework 5:** Complete Problems 14-18 in Chapter 1 and digest the surrounding text along the way. (Due Friday, January 25)
-- **Daily Homework 6:** Complete Problems 19-25 in Chapters 1 and 2. In addition, read "Organizing data" (pages 26-31). (Due Monday, January 28)
-- **Daily Homework 7:** Complete Problems 26-37 in Chapters 2 and 3. In addition, carefully read and digest "The symmetric group" (pages 38-41). (Due Wednesday, January 30)
-- **Daily Homework 8:** Complete Problems 38-40 in Chapter 3. (Due Friday, February 1)
-- **Daily Homework 9:** Complete Problems 41-46 in Chapter 3. In addition, read "Anagrams, or multiset permutations" (pages 49-53). (Due Monday, February 4)
+- **Daily Homework 3:** Complete Problems 1-7 and digest the surrounding text along the way. (Due Friday, January 18)
+- **Daily Homework 4:** Complete Problems 8-13 and digest the surrounding text along the way. (Due Wednesday, January 23)
+- **Daily Homework 5:** Complete Problems 14-18 and digest the surrounding text along the way. (Due Friday, January 25)
+- **Daily Homework 6:** Complete Problems 19-25. In addition, read "Organizing data" (pages 26-31). (Due Monday, January 28)
+- **Daily Homework 7:** Complete Problems 26-37. In addition, carefully read and digest "The symmetric group" (pages 38-41). (Due Wednesday, January 30)
+- **Daily Homework 8:** Complete Problems 38-40. (Due Friday, February 1)
+- **Daily Homework 9:** Complete Problems 41-46. In addition, read "Anagrams, or multiset permutations" (pages 49-53). (Due Monday, February 4)
+- **Daily Homework 10:** Complete Problems 47-53. (Due Wednesday, February 6)
 
 ## Weekly Homework ##
 For most of the assignments below, you will be required to submit 2-3 formally written proofs. You are required to type your submission using LaTeX (see below).  You can either submit a hardcopy of your assignment or email me the PDF of your completed work. If you email me the PDF, please name your file as <code>WeeklyX-LastName.pdf</code>, where <code>X</code> is the number of the assignment and <code>Lastname</code> is your last name.  Notice there are no spaces in the filename.
