@@ -53,6 +53,6 @@ We’ll use this page to keep track of what has happened each day in class. It w
 
 <ul class="fa-ul">
   <li><i class="fa-li far fa-calendar-check"></i><b>Monday, January 28:</b> First, we had MS and VM present Theorems 2.20 and 2.21, respectively.  Then we had EP and RB present Theorems 2.19 and 2.22, respectively.  This was followed with a quick summary of the Schroeder-Bernstein Theorems.  With the time we had left, we discussed the definitions of topology and topological space and tinkered with some examples.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, January 30:</b> Coming soon.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, February 2:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, January 30:</b> AB, JH, FA, RD, AS, and ZF presented Theorem 3.3, Exercise 3.6(discrete), Exercise 3.6(indiscrete), Exercise 3.6(co-finite), Exercise 3.6(co-countable), and Exercise 3.7, respectively.  Along the way, we also discussed Exercises 3.1, 3.2, 3.3, and 3.4.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, February 1:</b> We divided the class up into a few small groups and then had RD, SM, PH, EP, RH, and QC present Exercise 3.8(indiscrete and co-finite), Exercise 3.8(standard and discrete), Exercise 3.10, Exercise 3.11(1)(2), Exercise 3.11(3)(4), and Exercise 3.12(1)(2), respectively.</li>
 </ul>
