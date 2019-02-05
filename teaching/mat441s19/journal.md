@@ -56,3 +56,11 @@ We’ll use this page to keep track of what has happened each day in class. It w
   <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, January 30:</b> AB, JH, FA, RD, AS, and ZF presented Theorem 3.3, Exercise 3.6(discrete), Exercise 3.6(indiscrete), Exercise 3.6(co-finite), Exercise 3.6(co-countable), and Exercise 3.7, respectively.  Along the way, we also discussed Exercises 3.1, 3.2, 3.3, and 3.4.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Friday, February 1:</b> We divided the class up into a few small groups and then had RD, SM, PH, EP, RH, and QC present Exercise 3.8(indiscrete and co-finite), Exercise 3.8(standard and discrete), Exercise 3.10, Exercise 3.11(1)(2), Exercise 3.11(3)(4), and Exercise 3.12(1)(2), respectively.</li>
 </ul>
+
+## Week 4 ##
+
+<ul class="fa-ul">
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, February 4:</b> We didn't cover much ground today, but that's okay. We spent a good chunk of time reviewing the key concepts related open and closed sets and then I presented a proof of Theorem 3.13.  We took our time with this, which didn't leave a lot of time for much else.  We had JW present Theorem 3.14. The second implication in Theorem 3.14 was a little rushed due to time constraints, so we will likely revisit it next time.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, February 6:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, February 8:</b> Coming soon.</li>
+</ul>

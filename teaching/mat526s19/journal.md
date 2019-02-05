@@ -56,3 +56,11 @@ We’ll use this page to keep track of what has happened each day in class. It w
   <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, January 30:</b> We spent the first few minutes setting the stage and then jumped into student presentations.  We had PG, JL, MR, AM and MG present Problems 27/29/30, 31(algebraic), 31(bijection), 32(algebraic), and 32(bijection), respectively.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Friday, February 2:</b> JG, RW, AM, and JG presented Problems 34, 36, 37, and 38, respectively.  We very quickly summarized Problems 39 and 30 in the last couple minutes of class.</li>
 </ul>
+
+## Week 4 ##
+
+<ul class="fa-ul">
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, February 4:</b> I had my doubts about getting through everything today, but somehow we pulled it off. We had MS/AM, FA, JL, and PG present Problems 41, 42, 43/44, and 46, respectively. Along the way, I summarized Problem 45.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, February 6:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, February 8:</b> Coming soon.</li>
+</ul>
