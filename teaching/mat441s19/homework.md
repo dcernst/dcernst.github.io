@@ -43,6 +43,7 @@ The following assignments are due at the beginning of the indicated class meetin
 - **Daily Homework 9:** Complete 3.13-3.17 in Chapter 3 and digest the surrounding text along the way. (Due Monday, February 4)
 - **Daily Homework 10:** Complete 3.18-3.20. (Due Wednesday, February 6)
 - **Daily Homework 11:** Complete 3.21-3.25. (Due Friday, February 8)
+- **Daily Homework 12:** Complete 3.26-3.30. (Due Monday, February 11)
 
 ## Weekly Homework ##
 For most of the assignments below, you will be required to submit 2-3 formally written proofs. You are required to type your submission using LaTeX (see below).  You can either submit a hardcopy of your assignment or email me the PDF of your completed work. If you email me the PDF, please name your file as <code>WeeklyX-LastName.pdf</code>, where <code>X</code> is the number of the assignment and <code>LastName</code> is your last name.  Notice there are no spaces in the filename.
@@ -50,6 +51,7 @@ For most of the assignments below, you will be required to submit 2-3 formally w
 - **Weekly Homework 1:** Read <a href="https://www.scientificamerican.com/article/the-secret-to-raising-smart-kids1/">The Secret to Raising Smart Kids</a> by <a href="https://en.wikipedia.org/wiki/Carol_Dweck/">Carol Dweck</a> and write a one-page summary/reflection about the article. For this assignment, I suggest you use the template on <a href="https://www.overleaf.com/">Overleaf</a> found <a href="https://www.overleaf.com/latex/templates/weekly-homework-1-for-reflection-on-the-secret-to-raising-smart-kids/wsqscmkyzrsr">here</a> instead of using the "Start your homework in Overleaf" link below. (Due Tuesday, January 22 by 8PM)
 - **Weekly Homework 2:** Prove **two** of Theorems 2.10, 2.11, 2.12, 2.14, 2.16. You must type up your proofs using LaTeX.  I suggest you use my Overleaf template, which you can access by clicking the "Start your homework in Overleaf" link below. (Due Tuesday, January 29 by 8PM)
 - **Weekly Homework 3:** Prove **two** of Theorems 2.20, 2.21, 2.22. You must type up your proofs using LaTeX. (Due Tuesday, February 5 by 8PM)
+- **Weekly Homework 4:** Prove **two** of Theorems 3.3, 3.13, 3.15, 3.20. You must type up your proofs using LaTeX. (Due Tuesday, February 12 by 8PM)
 
 ## Using LaTeX for Weekly Homework ##
 You are required to use LaTeX to type up your Weekly Homework assignments. The easiest way to get started with LaTeX is to use an online editor.  I recommend using [Overleaf](https://overleaf.com), but there are other options.  The good folks over at Overleaf have preloaded my homework template, so to get started, all you need to do is click the link below and then click on "Open as Template". Be sure to update your name and the course title.
