@@ -62,5 +62,13 @@ We’ll use this page to keep track of what has happened each day in class. It w
 <ul class="fa-ul">
   <li><i class="fa-li far fa-calendar-check"></i><b>Monday, February 4:</b> I had my doubts about getting through everything today, but somehow we pulled it off. We had MS/AM, FA, JL, and PG present Problems 41, 42, 43/44, and 46, respectively. Along the way, I summarized Problem 45.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, February 6:</b> We had DW, ND, VM, and AM present Problems 47, 48/49/50, 51, and 52, respectively.  We'll tackle Problem 53 on Friday.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, February 8:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, February 8:</b> After discussing the upcoming exam, we had MR present Problem 53. This was followed by a class discussion of all six parts of Problem 54. Next, we had LD and RW present parts 1/2 and 3 of Problem 55, respectively.  We should have time to get caught up on Problem 56 on Monday.</li>
+</ul>
+
+## Week 5 ##
+
+<ul class="fa-ul">
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, February 11:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, February 13:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, February 15:</b> Coming soon.</li>
 </ul>
