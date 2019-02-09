@@ -62,5 +62,13 @@ We’ll use this page to keep track of what has happened each day in class. It w
 <ul class="fa-ul">
   <li><i class="fa-li far fa-calendar-check"></i><b>Monday, February 4:</b> We didn't cover much ground today, but that's okay. We spent a good chunk of time reviewing the key concepts related open and closed sets and then I presented a proof of Theorem 3.13.  We took our time with this, which didn't leave a lot of time for much else.  We had JW present Theorem 3.14. The second implication in Theorem 3.14 was a little rushed due to time constraints, so we will likely revisit it next time.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, February 6:</b> The first few minutes were devoted to summarizing some recent key concepts and setting the stage for what is coming later in the semester.  We had JW, JN, and YD present Theorem 3.14, Theorem 3.15, and Theorem 3.16, respectively. After the student presentations, we chatted about Exercises 3.17 and 3.18 together as a class.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, February 8:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, February 8:</b> Another busy day. We had JB and AS/JW present Theorem 3.20 and part (1) of Theorem 3.22, respectively.  Along the way, we discussed Exercises 3.19 and 3.21 together as a class.</li>
+</ul>
+
+## Week 5 ##
+
+<ul class="fa-ul">
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, February 11:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, February 13:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, February 15:</b> Coming soon.</li>
 </ul>
