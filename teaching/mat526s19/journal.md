@@ -37,7 +37,7 @@ We’ll use this page to keep track of what has happened each day in class. It w
 
 <ul class="fa-ul">
   <li><i class="fa-li far fa-calendar-check"></i><b>Monday, January 14:</b> First day! The first few minutes of class were devoted to me attempting to learn names. I think I got them all! Next, we did a very quick tour of BbLearn and the course website.  The remainder of the class meeting was devoted to discussing isomorphisms as they occur in multiple mathematical contexts and we started to explore an example of a bijection between collections of "combinatorial objects" where some aspect of the structure is preserved.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, January 16:</b> After answering a few quick questions about the syllabus, I wrapped up the "prologue".  Next, we had VM/DW and AM/JG1 present the recursive formula and closed form, respectively, for the minimum number of moves required to solve the $n$-disk Towers of Hanoi. Great first day of student presentations!</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, January 16:</b> After answering a few quick questions about the syllabus, I wrapped up the "prologue".  Next, we had VM/DW and AM/JG2 present the recursive formula and closed form, respectively, for the minimum number of moves required to solve the $n$-disk Towers of Hanoi. Great first day of student presentations!</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Friday, January 18:</b> Busy day!  We didn't discuss anything too ground breaking, but we covered a lot of territory.  After a quick discussion of LaTeX and the first Weekly Homework assignment, we jumped into student presentations.  We had JC, MG, MF, ND, and MS present Problems 3, 4, 5, 6, and 7, respectively.  This left of us with plenty of time to get started on the next couple problems.  After students worked in groups of 2-3, MR and VM presented two different approaches to Problem 8. I spent the remaining few minutes tying some ideas together.</li>
 </ul>
 
@@ -45,8 +45,8 @@ We’ll use this page to keep track of what has happened each day in class. It w
 
 <ul class="fa-ul">
   <li><i class="fa-li far fa-calendar-check"></i><b>Monday, January 21:</b> MLK Day, no class.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, January 21:</b> We had JG, PG/AM/JW, JL, and JG present Problems 9, 10, 11, and 13, respectively.  We had a nice discussion about the connection between Problem 8 (edges in complete graph) and Problem 9 (dominoes). Seeing multiple approaches to Problem 10 was cool.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, January 18:</b> We had FA, DW, RW, JG, RW, and MS present Problems 14(2), 14(3), 14(4), 16, 18(via product principle), and 18(via induction), respectively.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, January 23:</b> We had JG1, PG/AM/JW, JL, and JG3 present Problems 9, 10, 11, and 13, respectively.  We had a nice discussion about the connection between Problem 8 (edges in complete graph) and Problem 9 (dominoes). Seeing multiple approaches to Problem 10 was cool.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, January 25:</b> We had FA, DW, RW, JG1, RW, and MS present Problems 14(2), 14(3), 14(4), 16, 18(via product principle), and 18(via induction), respectively.</li>
 </ul>
 
 ## Week 3 ##
@@ -54,7 +54,7 @@ We’ll use this page to keep track of what has happened each day in class. It w
 <ul class="fa-ul">
   <li><i class="fa-li far fa-calendar-check"></i><b>Monday, January 28:</b> We kicked off with me summarizing Problems 19 and 20.  Then we had JC, MF, and MG present Problems 22, 24, and 25, respectively.  With the time we had left, we discussed permutations in their various guises.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, January 30:</b> We spent the first few minutes setting the stage and then jumped into student presentations.  We had PG, JL, MR, AM and MG present Problems 27/29/30, 31(algebraic), 31(bijection), 32(algebraic), and 32(bijection), respectively.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, February 2:</b> JG, RW, AM, and JG presented Problems 34, 36, 37, and 38, respectively.  We very quickly summarized Problems 39 and 30 in the last couple minutes of class.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, February 1:</b> JG3, RW, AM, and JG1 presented Problems 34, 36, 37, and 38, respectively.  We very quickly summarized Problems 39 and 30 in the last couple minutes of class.</li>
 </ul>
 
 ## Week 4 ##
@@ -68,7 +68,7 @@ We’ll use this page to keep track of what has happened each day in class. It w
 ## Week 5 ##
 
 <ul class="fa-ul">
-  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, February 11:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, February 11:</b> After discussing the upcoming exam, we cranked through all of the problems.  We had JG1, FA, JG2/MS, and MF present Problems 56, 57, 58, and 60, respectively.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, February 13:</b> Coming soon.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Friday, February 15:</b> Coming soon.</li>
 </ul>

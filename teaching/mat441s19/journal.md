@@ -68,7 +68,7 @@ We’ll use this page to keep track of what has happened each day in class. It w
 ## Week 5 ##
 
 <ul class="fa-ul">
-  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, February 11:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, February 11:</b> Well, we're behind schedule again, but that' okay.  We had RH present part (2) of Theorem 3.22, which provided some rich discussion.  This was followed by a presentation of Exercise 3.23 by ZF.  We quickly discussed Exericse 3.24 as a class and then YD presented a proof of Theorem 3.26.  We will pick up iwht Exercise 3.27 next time.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, February 13:</b> Coming soon.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Friday, February 15:</b> Coming soon.</li>
 </ul>
