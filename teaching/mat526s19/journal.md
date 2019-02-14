@@ -69,6 +69,6 @@ We’ll use this page to keep track of what has happened each day in class. It w
 
 <ul class="fa-ul">
   <li><i class="fa-li far fa-calendar-check"></i><b>Monday, February 11:</b> After discussing the upcoming exam, we cranked through all of the problems.  We had JG1, FA, JG2/MS, and MF present Problems 56, 57, 58, and 60, respectively.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, February 13:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, February 13:</b> The students took the in-class portion of Exam 1.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Friday, February 15:</b> Coming soon.</li>
 </ul>
