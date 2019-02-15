@@ -70,5 +70,5 @@ We’ll use this page to keep track of what has happened each day in class. It w
 <ul class="fa-ul">
   <li><i class="fa-li far fa-calendar-check"></i><b>Monday, February 11:</b> Well, we're behind schedule again, but that's okay.  We had RH present part (2) of Theorem 3.22, which provided some rich discussion.  This was followed by a presentation of Exercise 3.23 by ZF.  We quickly discussed Exericse 3.24 as a class and then YD presented a proof of Theorem 3.26.  We will pick up with Exercise 3.27 next time.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, February 13:</b> After discussing bases of topological spaces, we had SM and RB present Exercise 3.27 and Theorem 3.28, respectively.  Next, we discussed Exercises 3.29 and 4.2 together as a class.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, February 15:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, February 15:</b> Today was all about making sure everyone is up to speed.  We had FA present Theorem 3.30 and then we slowly discussed the proof of Theorem 4.1 and most of the proof of Theorem 4.3.</li>
 </ul>
