@@ -65,4 +65,4 @@ I will not be covering every detail of the book and the only way to achieve a su
 ## Exams
 Below are links to the take-home portions of each exam. If you are interested in using LaTeX to type up your solutions, contact me and I will send you a link to the source file of the exam.
 
-- [Exam 1 (take-home portion)]({{site.baseurl}}/teaching/mat526s19/526Exam1-Home.pdf) (PDF). (Due Monday, February 18)
+- [Exam 1 (take-home portion)]({{site.baseurl}}/teaching/mat526s19/526Exam1-Home.pdf) (PDF). (Due Tuesday, February 19)
