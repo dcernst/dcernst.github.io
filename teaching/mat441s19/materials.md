@@ -57,6 +57,7 @@ I will not be covering every detail of the textbook and the only way to achieve 
 - Pictures of board work that we ran out of time to discuss. *Note:* You should not assume that the solutions/proofs posted below are valid or sufficient.
     - [Theorem 2.19]({{site.baseurl}}/teaching/mat441s19/Theorem2.19.JPG)
     - [Theorem 2.20]({{site.baseurl}}/teaching/mat441s19/Theorem2.20.JPG)
+    - [Theorem 4.25]({{site.baseurl}}/teaching/mat441s19/Theorem4.25.JPG)
 
 ## Exams
 Below are links to the take-home portions of each exam. If you are interested in using LaTeX to type up your solutions, contact me and I will send you a link to the source file of the exam.
