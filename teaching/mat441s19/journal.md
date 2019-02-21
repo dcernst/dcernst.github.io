@@ -77,6 +77,6 @@ We’ll use this page to keep track of what has happened each day in class. It w
 
 <ul class="fa-ul">
   <li><i class="fa-li far fa-calendar-check"></i><b>Monday, February 18:</b> We kicked off by wrapping up the proof of Theorem 4.3 and then we discussed Exercises 4.4, 4.5, and 4.10.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, February 20:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, February 20:</b> After enjoying "Hitler Learns Topology", we had a quick discussion of Exercise 4.10 (which we will come back to after the exam) and then had PB, VM, and WC present Theorem 4.25, Exercise 4.26, and Exercise 4.27, respectively.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Friday, February 22:</b> Coming soon.</li>
 </ul>

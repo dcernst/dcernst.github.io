@@ -77,6 +77,6 @@ We’ll use this page to keep track of what has happened each day in class. It w
 
 <ul class="fa-ul">
   <li><i class="fa-li far fa-calendar-check"></i><b>Monday, February 18:</b> After handing back the in-class portion of Exam 1, we spent the entire class period discussing problems from both the in-class exam and the take-home exam.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, February 20:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, February 20:</b> Today we continued our discussion of generating functions.  Along the way, we covered Problems 63-66.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Friday, February 22:</b> Coming soon.</li>
 </ul>
