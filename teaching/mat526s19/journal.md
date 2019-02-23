@@ -80,3 +80,11 @@ We’ll use this page to keep track of what has happened each day in class. It w
   <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, February 20:</b> Today we continued our discussion of generating functions.  Along the way, we covered Problems 63-66.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Friday, February 22:</b> Coming soon.</li>
 </ul>
+
+## Week 7 ##
+
+<ul class="fa-ul">
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, February 25:</b> Students took the in-class portion of Exam 1.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, February 27:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, March 1:</b> Coming soon.</li>
+</ul>
