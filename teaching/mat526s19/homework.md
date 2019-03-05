@@ -70,6 +70,9 @@ For most of the assignments below, you will be required to submit 2-3 formally w
 - **Weekly Homework 5:** Complete the following problems. You must type up your proofs using LaTeX. (Due Tuesday, March 5 by 8PM)
     1. Complete one of Problems 69-74.
     2. Complete one of Problems 3-8 in the Supplementary Exercises for Chapter 6 (pages 209).
+- **Weekly Homework 6:** Complete the following problems. You must type up your proofs using LaTeX. (Due Tuesday, March 12 by 8PM)
+    1. Complete one of Problems 75, 76, 81.
+    2. Complete one of Problems 2, 4 in the Supplementary Exercises for Chapter 7 (pages 211).
 
 ## Using LaTeX for Weekly Homework ##
 You are required to use LaTeX to type up your Weekly Homework assignments. The easiest way to get started with LaTeX is to use an online editor.  I recommend using [Overleaf](https://overleaf.com), but there are other options.  The good folks over at Overleaf have preloaded my homework template, so to get started, all you need to do is click the link below and then click on "Open as Template". Be sure to update your name and the course title.
