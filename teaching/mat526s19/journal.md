@@ -84,7 +84,15 @@ We’ll use this page to keep track of what has happened each day in class. It w
 ## Week 7 ##
 
 <ul class="fa-ul">
-  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, February 25:</b> After discussing the plan for the upcoming week, we had FA and RW present both parts of Problem 67.  Next, we discussed Problem 68..</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, February 27:</b> Coming soon.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, March 1:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, February 25:</b> After discussing the plan for the upcoming week, we had FA and RW present both parts of Problem 67.  Next, we discussed Problem 68.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, February 27:</b> Dr. Sieben covered for me while I was out of town.  JC, JG3, MF, RW, ND/VM, and AM presented Problems 69(1,2), 69(3), 69(4), 69(4,5), 70, and 71, respectively.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, March 1:</b> After diving the class up into small groups, we had JL, MG, JG1 presented Problems 72, 73, and 74, respectively.</li>
+</ul>
+
+## Week 8 ##
+
+<ul class="fa-ul">
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, March 4:</b> We had JC, PG, MR, and AM present Problems 75(1), 75(2), 75(3), and 76, respectively.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, March 6:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, March 8:</b> Coming soon.</li>
 </ul>
