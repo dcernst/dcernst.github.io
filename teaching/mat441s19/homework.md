@@ -50,6 +50,7 @@ The following assignments are due at the beginning of the indicated class meetin
 - **Daily Homework 16:** Complete 4.26-4.28. (Due Wednesday, February 20)
 - **Daily Homework 17:** Read the rest of Chapter 4 and then complete 5.1-5.6. (Due Monday, March 4)
 - **Daily Homework 18:** Complete 5.7-5.8. (Due Wednesday, March 6)
+- **Daily Homework 19:** Complete 5.9, 5.12-5.14. (Due Friday, March 8)
 
 ## Weekly Homework ##
 For most of the assignments below, you will be required to submit 2-3 formally written proofs. You are required to type your submission using LaTeX (see below).  You can either submit a hardcopy of your assignment or email me the PDF of your completed work. If you email me the PDF, please name your file as <code>WeeklyX-LastName.pdf</code>, where <code>X</code> is the number of the assignment and <code>LastName</code> is your last name.  Notice there are no spaces in the filename.
@@ -59,7 +60,7 @@ For most of the assignments below, you will be required to submit 2-3 formally w
 - **Weekly Homework 3:** Prove **two** of Theorems 2.20, 2.21, 2.22. You must type up your proofs using LaTeX. (Due Tuesday, February 5 by 8PM)
 - **Weekly Homework 4:** Prove **two** of Theorems 3.3, 3.13, 3.15, 3.20. You must type up your proofs using LaTeX. (Due Tuesday, February 12 by 8PM)
 - **Weekly Homework 5:** Prove **one** of Theorems 3.22(1), 3.22(2), 3.28. You must type up your proofs using LaTeX. (Due Tuesday, February 19 by 8PM)
-<!-- - **Weekly Homework 6:** Either rove **one** of Theorems 3.22(1), 3.22(2), 3.28. You must type up your proofs using LaTeX. (Due Tuesday, February 19 by 8PM) -->
+- **Weekly Homework 6:** Either prove **two** of Theorems ???, or complete the last part of Exercise 4.10. You must type up your proofs using LaTeX. (Due Tuesday, March 12 by 8PM)
 
 
 ## Using LaTeX for Weekly Homework ##
