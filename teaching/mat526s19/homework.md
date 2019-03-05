@@ -50,6 +50,7 @@ The following assignments are due at the beginning of the indicated class meetin
 - **Daily Homework 16:** Complete Problems 72-74. (Due Friday, March 1)
 - **Daily Homework 17:** Complete Problems 75 and 76. (Due Monday, March 4)
 - **Daily Homework 18:** Complete Problems 77-81. (Due Wednesday, March 6)
+- **Daily Homework 19:** Complete Problems 82-84. (Due Friday, March 8)
 
 ## Weekly Homework ##
 For most of the assignments below, you will be required to submit 2-3 formally written proofs. You are required to type your submission using LaTeX (see below).  You can either submit a hardcopy of your assignment or email me the PDF of your completed work. If you email me the PDF, please name your file as <code>WeeklyX-LastName.pdf</code>, where <code>X</code> is the number of the assignment and <code>Lastname</code> is your last name.  Notice there are no spaces in the filename.
@@ -69,7 +70,6 @@ For most of the assignments below, you will be required to submit 2-3 formally w
 - **Weekly Homework 5:** Complete the following problems. You must type up your proofs using LaTeX. (Due Tuesday, March 5 by 8PM)
     1. Complete one of Problems 69-74.
     2. Complete one of Problems 3-8 in the Supplementary Exercises for Chapter 6 (pages 209).
-
 
 ## Using LaTeX for Weekly Homework ##
 You are required to use LaTeX to type up your Weekly Homework assignments. The easiest way to get started with LaTeX is to use an online editor.  I recommend using [Overleaf](https://overleaf.com), but there are other options.  The good folks over at Overleaf have preloaded my homework template, so to get started, all you need to do is click the link below and then click on "Open as Template". Be sure to update your name and the course title.
