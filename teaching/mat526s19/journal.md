@@ -93,6 +93,6 @@ We’ll use this page to keep track of what has happened each day in class. It w
 
 <ul class="fa-ul">
   <li><i class="fa-li far fa-calendar-check"></i><b>Monday, March 4:</b> We had JC, PG, MR, and AM present Problems 75(1), 75(2), 75(3), and 76, respectively.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, March 6:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, March 6:</b> We covered a lot of ground today!  We had JG2, MS, JG3, AM, and MG present Problems 77, 78, 79, 80, and 81, respectively. With the few minutes we had left at the end of class, we briefly discussed Bell numbers.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Friday, March 8:</b> Coming soon.</li>
 </ul>
