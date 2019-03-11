@@ -100,7 +100,7 @@ We’ll use this page to keep track of what has happened each day in class. It w
 ## Week 9 ##
 
 <ul class="fa-ul">
-  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, March 11:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, March 11:</b> After handing back the take-home portion of Exam 1, we briefly discussed the last question on the exam.  Next, we revisited part (2) of Exercise 5.12, which was left over from last time.  Then AB presented Theorem 5.16 and RD got us started on Theorem 5.17.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, March 13:</b> Coming soon.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Friday, March 15:</b> Coming soon.</li>
 </ul>
