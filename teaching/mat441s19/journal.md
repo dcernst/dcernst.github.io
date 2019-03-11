@@ -94,5 +94,13 @@ We’ll use this page to keep track of what has happened each day in class. It w
 <ul class="fa-ul">
   <li><i class="fa-li far fa-calendar-check"></i><b>Monday, March 4:</b> After handing back the exams, we discussed the various separation properties. Next, I divided the class up into several small groups, each tasked with discussing one of the problems due today.  We summarized Theorem 5.1 and Exercise 5.2 and then had RD present Exercise 5.5.  This was followed by quick presentations of parts (1) and (2) of Exercise 5.6 by QC and RH, respectively.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, March 6:</b> We had YD, VM, EP/AS present  Exercise 5.6(3), Exercise 5.6(4), and Theorem 5.8, respectively.  I'm really happy with how things are going.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, March 8:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, March 8:</b> After quickly discussing Theorem 5.19, parts (1) and (3) of Exercise 5.12, and Exercise 5.14, we divided the class up into several small groups, each tasked with discussing Exercise 5.13.  We came together after several minutes and filled out the table for Exercise 5.13 as a class.</li>
+</ul>
+
+## Week 9 ##
+
+<ul class="fa-ul">
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, March 11:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, March 13:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, March 15:</b> Coming soon.</li>
 </ul>
