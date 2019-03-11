@@ -72,7 +72,7 @@ For most of the assignments below, you will be required to submit 2-3 formally w
 - **Weekly Homework 5:** Complete the following problems. You must type up your proofs using LaTeX. (Due Tuesday, March 5 by 8PM)
     1. Complete one of Problems 69-74.
     2. Complete one of Problems 3-8 in the Supplementary Exercises for Chapter 6 (pages 209).
-- **Weekly Homework 6:** Complete the following problems. You must type up your proofs using LaTeX. (Due Tuesday, March 12 by 8PM)
+- **Weekly Homework 6:** Complete the following problems. You must type up your proofs using LaTeX. (Due Thursday, March 14 by 8PM)
     1. Complete one of Problems 75, 76, 81.
     2. Complete one of Problems 2, 4 in the Supplementary Exercises for Chapter 7 (pages 211).
 
