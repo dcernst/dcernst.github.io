@@ -51,7 +51,8 @@ The following assignments are due at the beginning of the indicated class meetin
 - **Daily Homework 17:** Read the rest of Chapter 4 and then complete 5.1-5.6. (Due Monday, March 4)
 - **Daily Homework 18:** Complete 5.7-5.8. (Due Wednesday, March 6)
 - **Daily Homework 19:** Complete 5.9, 5.12-5.14. (Due Friday, March 8)
-- **Daily Homework 20:** Complete ???. (Due Monday, March 11)
+- **Daily Homework 20:** Complete 5.16-5.18. (Due Monday, March 11)
+- **Daily Homework 21:** Complete ???. (Due Wednesday, March 13)
 
 ## Weekly Homework ##
 For most of the assignments below, you will be required to submit 2-3 formally written proofs. You are required to type your submission using LaTeX (see below).  You can either submit a hardcopy of your assignment or email me the PDF of your completed work. If you email me the PDF, please name your file as <code>WeeklyX-LastName.pdf</code>, where <code>X</code> is the number of the assignment and <code>LastName</code> is your last name.  Notice there are no spaces in the filename.
