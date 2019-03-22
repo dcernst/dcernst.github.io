@@ -97,7 +97,7 @@ I work too much. Period. Work is constantly competing for time with family and t
  [5]: http://math.colorado.edu/~rmg/
  [6]: http://plymouth.edu
  [7]: http://www.edies.org/
- [8]: http://www.inquirybasedlearning.org/?page=What_is_IBL
+ [8]: http://www.inquirybasedlearning.org/inquiry-based-learning
  [9]: http://danaernst.com/talk-an-open-problem-of-the-symmetric-group/
  [10]: http://danaernst.com/talk-inquiry-based-learning-what-why-and-how/
  [11]: http://math.arizona.edu/weeklynews/poster.html?id=6666

@@ -38,7 +38,7 @@ Even if the students are sold on IBL, you still have to be willing to adapt, ove
 
  [1]: http://theiblblog.blogspot.com/
  [2]: http://theiblblog.blogspot.com/2012/02/ibl-instructor-perspectives-professor.html
- [3]: http://www.inquirybasedlearning.org/?page=What_is_IBL
+ [3]: http://www.inquirybasedlearning.org/inquiry-based-learning
  [4]: http://archives.math.utk.edu/projnext/
  [5]: http://www2.kenyon.edu/Depts/Math/schumacherc/public_html/index.htm
  [6]: http://plymouth.edu

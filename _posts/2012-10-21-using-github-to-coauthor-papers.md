@@ -48,7 +48,7 @@ The only problem is that SciGit is not yet available. I'm looking forward to Sci
  [5]: https://github.com/
  [6]: http://en.wikipedia.org/wiki/GitHub
  [7]: http://en.wikipedia.org/wiki/Git_(software)
- [8]: http://www.inquirybasedlearning.org/?page=What_is_IBL
+ [8]: http://www.inquirybasedlearning.org/inquiry-based-learning
  [9]: https://github.com/dcernst/IBL-IntroToProof
  [10]: https://help.github.com/articles/fork-a-repo
  [11]: https://help.github.com/articles/using-pull-requests

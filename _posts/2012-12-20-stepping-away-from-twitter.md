@@ -31,7 +31,7 @@ I'll treat this as an experiment and see how it goes after a few months. I don't
 
  [1]: https://twitter.com/danaernst
  [2]: https://twitter.com/IBLMath
- [3]: http://www.inquirybasedlearning.org/?page=What_is_IBL
+ [3]: http://www.inquirybasedlearning.org/inquiry-based-learning
  [4]: http://howlonghaveyoubeentweeting.com
  [5]: https://plus.google.com
  [6]: http://elevationgain.danaernst.com

@@ -37,7 +37,7 @@ Here are the slides for my portion of the panel.
 Thanks to the organizers of the panel [Cassie Williams][7] (James Madison University), [Jane Butterfield][8] (University of Minnesota), [John Peter][9] (Utica College), and [Robert Campbell][10] (College of Saint Benedict and Saint John's University) for providing me with the opportunity to speak on the panel.
 
  [1]: http://jointmathematicsmeetings.org/jmm
- [2]: http://www.inquirybasedlearning.org/?page=What_is_IBL
+ [2]: http://www.inquirybasedlearning.org/inquiry-based-learning
  [3]: http://www.uni.edu/theron/
  [4]: http://www.monmouth.edu/academics/mathematics/faculty/gold.asp
  [5]: https://docs.google.com/presentation/d/1bnaffRRPs_bjPirxQmghQy03HtGoxvEiGEn_MoFEHYY/edit?pli=1#slide=id.p

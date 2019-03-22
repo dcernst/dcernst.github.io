@@ -21,7 +21,7 @@ tags:
 
 <img src="{{ site.baseurl }}/images/2013/04/MathEdMatters.jpg" class="img-responsive" width="100%" img style="margin-bottom: 10px" />
 
-[Angie Hodge](http://www.unomaha.edu/math/people/hodge/) and I are excited to announce that [Math Ed Matters](http://maamathedmatters.blogspot.com) went live earlier today. *Math Ed Matters* is a (roughly) monthly column sponsored by the [Mathematical Association of America](http://maa.org) and authored by me and Angie. The column will explore topics and current events related to undergraduate mathematics education. Posts will aim to inspire, provoke deep thought, and provide ideas for the mathematics—and mathematics education—classroom. Our interest in and engagement with [inquiry-based learning](http://www.inquirybasedlearning.org/?page=What_is_IBL) (IBL) will color the column's content.
+[Angie Hodge](http://www.unomaha.edu/math/people/hodge/) and I are excited to announce that [Math Ed Matters](http://maamathedmatters.blogspot.com) went live earlier today. *Math Ed Matters* is a (roughly) monthly column sponsored by the [Mathematical Association of America](http://maa.org) and authored by me and Angie. The column will explore topics and current events related to undergraduate mathematics education. Posts will aim to inspire, provoke deep thought, and provide ideas for the mathematics—and mathematics education—classroom. Our interest in and engagement with [inquiry-based learning](http://www.inquirybasedlearning.org/inquiry-based-learning) (IBL) will color the column's content.
 
 Our first post is isn't terribly exciting; it's just an introduction to who we are. Here's a sample of what we hope to discuss in future posts:
 

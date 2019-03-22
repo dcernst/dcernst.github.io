@@ -39,4 +39,4 @@ While I was observing, I kept daydreaming; "What if students were provided with 
 
  [1]: http://havenmontessori.org
  [2]: http://en.wikipedia.org/wiki/Montessori_education
- [3]: http://www.inquirybasedlearning.org/?page=What_is_IBL
+ [3]: http://www.inquirybasedlearning.org/inquiry-based-learning
