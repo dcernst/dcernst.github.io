@@ -118,6 +118,8 @@ This template is set up exactly how I want the Weekly Homework to look. I also p
 <a href="https://www.overleaf.com/latex/templates/weekly-homework-x/cbpdxbqknrvq" class="btn btn-primary btn-lg" role="button">Start your homework in Overleaf</a>
 </center>
 
+<br>
+
 Feel free to use the template and if you have ideas for improvements, I'd love to hear about them. Lastly, I've written a <a href="{{ site.baseurl }}/quick-latex-guide/">Quick LaTeX Guide</a> to help my students get started with the actual writing of LaTeX.
 
 <em>Update June 2013:</em> I originally encouraged my students to use <a href="http://scribtex.com">ScribTeX</a>, which seems to have joined forces with <a href="http://sharelatex.com">ShareLaTeX</a>. However, I now have my students use <a href="http://Overleaf.com">Overleaf</a>, which my students and I have been very happy with. I modified my original post to reflect my current use of Overleaf.
