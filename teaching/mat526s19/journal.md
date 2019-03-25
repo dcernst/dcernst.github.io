@@ -104,3 +104,11 @@ We’ll use this page to keep track of what has happened each day in class. It w
   <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, March 13:</b> Coming soon.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Friday, March 15:</b> Coming soon.</li>
 </ul>
+
+## Week 10 ##
+
+<ul class="fa-ul">
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, March 25:</b> Today I lectured over Problems 99 and 100.  We also got a start on Problem 101.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, March 27:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, March 29:</b> Coming soon.</li>
+</ul>
