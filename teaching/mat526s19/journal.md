@@ -101,8 +101,8 @@ We’ll use this page to keep track of what has happened each day in class. It w
 
 <ul class="fa-ul">
   <li><i class="fa-li far fa-calendar-check"></i><b>Monday, March 11:</b> We had JG1 and ND present Problems 85 and 86, respectively.  This left us with plenty of time to get a jump on Problem 87.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, March 13:</b> Coming soon.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, March 15:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, March 13:</b> We had RW/LD, VM, MS, and FA present Problems 87(3), 87(4), 93, and 94, respectively.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, March 15:</b> PG, ND, and AM presented Problems 97 and both parts of Problem 98, respectively.</li>
 </ul>
 
 ## Week 10 ##
