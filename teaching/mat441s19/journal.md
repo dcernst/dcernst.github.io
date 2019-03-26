@@ -101,8 +101,8 @@ We’ll use this page to keep track of what has happened each day in class. It w
 
 <ul class="fa-ul">
   <li><i class="fa-li far fa-calendar-check"></i><b>Monday, March 11:</b> After handing back the take-home portion of Exam 1, we briefly discussed the last question on the exam.  Next, we revisited part (2) of Exercise 5.12, which was left over from last time.  Then AB presented Theorem 5.16 and RD got us started on Theorem 5.17.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, March 13:</b> Coming soon.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, March 15:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, March 13:</b> RD wrapped up the proof of Theorem 5.17 and then we finally had JN present the last part of Exercise 4.10. We finished up by discussing Exercise 5.18 together.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, March 15:</b> Busy day! We had MS, JB, PH, PB, and WC/JH/ZF/QC/SM/FA present Theorem 5.19, Theorem 5.20, Theorem 5.23, Exercise 6.1, and Exercise 6.2, respectively.</li>
 </ul>
 
 ## Week 10 ##
