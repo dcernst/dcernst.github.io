@@ -56,6 +56,7 @@ The following assignments are due at the beginning of the indicated class meetin
 - **Daily Homework 22:** Complete 5.20, 5.23, 6.1, 6.2. (Due Friday, March 15)
 - **Daily Homework 23:** Complete 6.10-6.13. (Due Wednesday, March 27)
 - **Daily Homework 24:** Complete 7.1-7.4. (Due Friday, March 29)
+- **Daily Homework 25:** Complete 7.5-7.7. (Due Monday, April 1)
 
 ## Weekly Homework ##
 For most of the assignments below, you will be required to submit 2-3 formally written proofs. You are required to type your submission using LaTeX (see below).  You can either submit a hardcopy of your assignment or email me the PDF of your completed work. If you email me the PDF, please name your file as <code>WeeklyX-LastName.pdf</code>, where <code>X</code> is the number of the assignment and <code>LastName</code> is your last name.  Notice there are no spaces in the filename.
@@ -66,6 +67,7 @@ For most of the assignments below, you will be required to submit 2-3 formally w
 - **Weekly Homework 4:** Prove **two** of Theorems 3.3, 3.13, 3.15, 3.20. You must type up your proofs using LaTeX. (Due Tuesday, February 12 by 8PM)
 - **Weekly Homework 5:** Prove **one** of Theorems 3.22(1), 3.22(2), 3.28. You must type up your proofs using LaTeX. (Due Tuesday, February 19 by 8PM)
 - **Weekly Homework 6:** Either prove **two** of Theorem 5.1, Exercise 5.6(4), Theorem 5.8, Theorem 5.9, or complete the last part of Exercise 4.10. You must type up your proofs using LaTeX. (Due Tuesday, March 12 by 8PM)
+- **Weekly Homework 7:** Prove **two** of Theorems 5.17, 5.20, 5.23, 6.11. You must type up your proofs using LaTeX. (Due Tuesday, April 2 by 8PM)
 
 ## Using LaTeX for Weekly Homework ##
 You are required to use LaTeX to type up your Weekly Homework assignments. The easiest way to get started with LaTeX is to use an online editor.  I recommend using [Overleaf](https://overleaf.com), but there are other options.  The good folks over at Overleaf have preloaded my homework template, so to get started, all you need to do is click the link below and then click on "Open as Template". Be sure to update your name and the course title.
