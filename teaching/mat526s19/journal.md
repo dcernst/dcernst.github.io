@@ -109,6 +109,6 @@ We’ll use this page to keep track of what has happened each day in class. It w
 
 <ul class="fa-ul">
   <li><i class="fa-li far fa-calendar-check"></i><b>Monday, March 25:</b> Today I lectured over Problems 99 and 100.  We also got a start on Problem 101.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, March 27:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, March 27:</b> After a quick discussion of the upcoming exam, we had MF, MG, and MR present Problems 101, 102, and 103, respectively.  I really like Problem 103!</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Friday, March 29:</b> Coming soon.</li>
 </ul>
