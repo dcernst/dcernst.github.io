@@ -109,6 +109,6 @@ We’ll use this page to keep track of what has happened each day in class. It w
 
 <ul class="fa-ul">
   <li><i class="fa-li far fa-calendar-check"></i><b>Monday, March 25:</b> Today we spent some time reviewing and then I lectured over Exercise 6.3, Exercise 6.5, Theorem 6.5, and Theorem 6.9. Along the way, we introduced the notion of second countable.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, March 27:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, March 27:</b> We split the class up into small groups, where each groups was responsible for discussing the solution/proof to a designated problem.  We had PB, MS, WC, PH, and AS present Exercise 6.10(2), Exercise 6.10(3), Theorem 6.11, Exercise 6.12, and Exercise 6.13, respectively.  We had a few minutes left at the end, so we started discussing compact spaces.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Friday, March 29:</b> Coming soon.</li>
 </ul>
