@@ -110,5 +110,13 @@ We’ll use this page to keep track of what has happened each day in class. It w
 <ul class="fa-ul">
   <li><i class="fa-li far fa-calendar-check"></i><b>Monday, March 25:</b> Today I lectured over Problems 99 and 100.  We also got a start on Problem 101.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, March 27:</b> After a quick discussion of the upcoming exam, we had MF, MG, and MR present Problems 101, 102, and 103, respectively.  I really like Problem 103!</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, March 29:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, March 29:</b>  I kicked off by quickly sketching a proof for Problem 107.  The goal for the rest of the class meeting was to make progress on Problem 108, which I split up into five lemmas.  I split the class up into five small groups, each of which was tasked with tackling one of the lemmas.  We had MS, AM1, and MG present proofs for the first three lemmas.</li>
+</ul>
+
+## Week 11 ##
+
+<ul class="fa-ul">
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, April 1:</b> Picking up where we left off last week, we had PG and FA present the remaining two lemmas for Problem 108.  Next, we had RW and MS present Problems 109 and 110, respectively.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, April 3:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, April 5:</b> Coming soon.</li>
 </ul>
