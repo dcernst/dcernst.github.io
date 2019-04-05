@@ -117,6 +117,38 @@ We’ll use this page to keep track of what has happened each day in class. It w
 
 <ul class="fa-ul">
   <li><i class="fa-li far fa-calendar-check"></i><b>Monday, April 1:</b> Picking up where we left off last week, we had PG and FA present the remaining two lemmas for Problem 108.  Next, we had RW and MS present Problems 109 and 110, respectively.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, April 3:</b> Coming soon.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, April 5:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, April 3:</b> The students took the in-class portion of Exam 2 (and there was chaos involving a typo on one of the problems).</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, April 5:</b> We revisited Problems 107 and 109 and tied up some loose ends.</li>
+</ul>
+
+## Week 12 ##
+
+<ul class="fa-ul">
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, April 8:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, April 10:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, April 12:</b> Coming soon.</li>
+</ul>
+
+## Week 13 ##
+
+<ul class="fa-ul">
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, April 15:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, April 17:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, April 19:</b> Coming soon.</li>
+</ul>
+
+## Week 14 ##
+
+<ul class="fa-ul">
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, April 22:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, April 24:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, April 26:</b> Coming soon.</li>
+</ul>
+
+# Week 15 ##
+
+<ul class="fa-ul">
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, April 29:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, May 1:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, May 3:</b> Coming soon.</li>
 </ul>
