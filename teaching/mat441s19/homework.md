@@ -59,7 +59,7 @@ The following assignments are due at the beginning of the indicated class meetin
 - **Daily Homework 25:** Complete 7.5-7.7. (Due Monday, April 1)
 - **Daily Homework 26:** Complete 7.8 and 7.9. (Due Wednesday, April 3)
 - **Daily Homework 27:** Complete 7.12-7.14. (Due Friday, April 5)
-- **Daily Homework 28:** Complete 7.15-7.17. (Due Monday, April 8)
+- **Daily Homework 28:** Complete 7.15. (Due Monday, April 8)
 
 ## Weekly Homework ##
 For most of the assignments below, you will be required to submit 2-3 formally written proofs. You are required to type your submission using LaTeX (see below).  You can either submit a hardcopy of your assignment or email me the PDF of your completed work. If you email me the PDF, please name your file as <code>WeeklyX-LastName.pdf</code>, where <code>X</code> is the number of the assignment and <code>LastName</code> is your last name.  Notice there are no spaces in the filename.
