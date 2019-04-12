@@ -54,6 +54,7 @@ I will not be covering every detail of the book and the only way to achieve a su
 - [The Secret to Raising Smart Kids &#124; Carol Dweck](https://www.scientificamerican.com/article/the-secret-to-raising-smart-kids1/) (article on Scientific American)
 - [Do Schools Kill Creativity? &#124; Ken Robinson](https://www.ted.com/talks/ken_robinson_says_schools_kill_creativity?language=en) (19:22 min)
 - [Lessons from My Math Degree That Have Nothing to Do with Math](https://medium.com/s/story/6-life-lessons-from-my-math-degree-that-have-nothing-to-do-with-math-d38aba90edfe) (6 min read on Medium)
+- [Learner Lab Podcasts &#124; Train Ugly](https://trainugly.com/learner-lab-podcast/)
 
 <!-- - Pictures of board work that we ran out of time to discuss. *Note:* You should not assume that the solutions/proofs posted below are valid or sufficient.
     - [Problem 2.9]({{site.baseurl}}/teaching/mat526s19/Problem2.9.JPG)
