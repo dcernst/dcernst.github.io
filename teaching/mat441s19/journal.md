@@ -125,8 +125,8 @@ We’ll use this page to keep track of what has happened each day in class. It w
 
 <ul class="fa-ul">
   <li><i class="fa-li far fa-calendar-check"></i><b>Monday, April 8:</b> Coming soon.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, April 10:</b> Coming soon.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, April 12:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, April 10:</b> To give students a break, I lectured over 7.16, 7.19, and 7.19</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, April 12:</b> The students took the in-class portion of Exam 2.</li>
 </ul>
 
 ## Week 13 ##
