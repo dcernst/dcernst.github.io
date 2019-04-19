@@ -133,7 +133,7 @@ We’ll use this page to keep track of what has happened each day in class. It w
 
 <ul class="fa-ul">
   <li><i class="fa-li far fa-calendar-check"></i><b>Monday, April 15:</b> We had JL and MS present Problems 115 and 117, respectively.  With the time we had left, I presented Problem 118.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, April 17:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, April 17:</b> We had JC, JG3, and AM present Problems 120, 121, and 122, respectively.  We spent quite a bit of time on Problem 121, which generated lots of great discussion.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Friday, April 19:</b> Coming soon.</li>
 </ul>
 
