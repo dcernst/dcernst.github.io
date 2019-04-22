@@ -61,8 +61,7 @@ The following assignments are due at the beginning of the indicated class meetin
 - **Daily Homework 27:** Complete Problems 120-122. (Due Wednesday, April 17)
 - **Daily Homework 28:** Complete Problem 124. (Due Friday, April 19)
 - **Daily Homework 29:** Complete Problems 125 and 126. (Due Monday, April 22)
-- **Daily Homework 30:** Prove that $L_{n,k}(q)=\sum_{w\in S_n, \text{Des}(w)\subseteq \{k\}}q^{\text{inv}(w)}$ using a bijection between $L(k,n-k)$ and $\{w\in S_n\mid \text{Des}(w)\subseteq \{k\}\}$. (Due Wednesday, April 24)
-
+- **Daily Homework 30:** Prove that $L_{n,k}(q)=\sum_{w\in S_n, \text{Des}(w)\subseteq \\{k\\}}q^{\text{inv}(w)}$ using a bijection between $L(k,n-k)$ and $\\{w\in S_n\mid \text{Des}(w)\subseteq \\{k\\}\\}$. (Due Wednesday, April 24)
 
 ## Weekly Homework ##
 For most of the assignments below, you will be required to submit 2-3 formally written proofs. You are required to type your submission using LaTeX (see below).  You can either submit a hardcopy of your assignment or email me the PDF of your completed work. If you email me the PDF, please name your file as <code>WeeklyX-LastName.pdf</code>, where <code>X</code> is the number of the assignment and <code>Lastname</code> is your last name.  Notice there are no spaces in the filename.
