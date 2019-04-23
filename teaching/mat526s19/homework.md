@@ -63,9 +63,9 @@ The following assignments are due at the beginning of the indicated class meetin
 - **Daily Homework 29:** Complete Problems 125 and 126. (Due Monday, April 22)
 - **Daily Homework 30:** Prove that $L_{n,k}(q)=\sum_{w\in S_n, \text{Des}(w)\subseteq \\{k\\}}q^{\text{inv}(w)}$ using a bijection between $L(k,n-k)$ and $\\{w\in S_n\mid \text{Des}(w)\subseteq \\{k\\}\\}$. (Due Wednesday, April 24)
 - **Daily Homework 31:** Define the $q$-multinomial via
-\[\begin{bmatrix}n\\\ a_1,\ldots, a_k\end{bmatrix}=\frac{[n]!}{[a_1]!\cdots [a_k]!}.\]
+\\[\begin{bmatrix}n\\\ a_1,\ldots, a_k\end{bmatrix}=\frac{[n]!}{[a_1]!\cdots [a_k]!}.\\]
 Prove that for any $J=\\{j_1,\ldots,j_{k-1}\\}\subseteq \\{1,\ldots,n-1\\}$, the distribution of inversions for all $w\in S_n$ with descent set contained in $J$ is given by the $q$-multinomial coefficient.  That is,
-\[\sum_{w\in S_n, \text{Des}(w)\subseteq J}q^{\text{inv}(w)}=\begin{bmatrix}n\\\ a_1,\ldots, a_k\end{bmatrix},\]
+\\[\sum_{w\in S_n, \text{Des}(w)\subseteq J}q^{\text{inv}(w)}=\begin{bmatrix}n\\\ a_1,\ldots, a_k\end{bmatrix},\\]
 where $a_1=j_1, a_k=n-j_{k-1}$, and $a_i=j_i-j_{i-1}$ for all $1<i<k$. (Due Friday, April 26)
 
 ## Weekly Homework ##
