@@ -62,6 +62,11 @@ The following assignments are due at the beginning of the indicated class meetin
 - **Daily Homework 28:** Complete Problem 124. (Due Friday, April 19)
 - **Daily Homework 29:** Complete Problems 125 and 126. (Due Monday, April 22)
 - **Daily Homework 30:** Prove that $L_{n,k}(q)=\sum_{w\in S_n, \text{Des}(w)\subseteq \\{k\\}}q^{\text{inv}(w)}$ using a bijection between $L(k,n-k)$ and $\\{w\in S_n\mid \text{Des}(w)\subseteq \\{k\\}\\}$. (Due Wednesday, April 24)
+- **Daily Homework 31:** Define the $q$-multinomial via $\begin{bmatrix}n\\ a_1,\ldots, a_k\end{bmatrix}:=\frac{[n]!}{[a_1]!\cdots [a_k]!}$.  Prove that for any $J=\\{j_1,\ldots,j_{k-1}\\}\subseteq \\{1,\ldots,n-1\\}$, the distribution of inversions for all $w\in S_n$ with descent set contained in $J$ is given by the $$-multinomial coefficient.  That is,
+$$\sum_{w\in S_n, \text{Des}(w)\subseteq J}q^{\text{inv}(w)}=\begin{bmatrix}n\\ a_1,\ldots, a_k\end{bmatrix},$$
+where $a_1=j_1, a_k=n-j_{k-1}$, and $a_i=j_i-j_{i-1}$ for all $1<i<k$.
+
+Prove that $L_{n,k}(q)=\sum_{w\in S_n, \text{Des}(w)\subseteq \\{k\\}}q^{\text{inv}(w)}$ using a bijection between $L(k,n-k)$ and $\\{w\in S_n\mid \text{Des}(w)\subseteq \\{k\\}\\}$. (Due Wednesday, April 24)
 
 ## Weekly Homework ##
 For most of the assignments below, you will be required to submit 2-3 formally written proofs. You are required to type your submission using LaTeX (see below).  You can either submit a hardcopy of your assignment or email me the PDF of your completed work. If you email me the PDF, please name your file as <code>WeeklyX-LastName.pdf</code>, where <code>X</code> is the number of the assignment and <code>Lastname</code> is your last name.  Notice there are no spaces in the filename.
