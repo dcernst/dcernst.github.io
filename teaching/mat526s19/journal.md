@@ -134,14 +134,14 @@ We’ll use this page to keep track of what has happened each day in class. It w
 <ul class="fa-ul">
   <li><i class="fa-li far fa-calendar-check"></i><b>Monday, April 15:</b> We had JL and MS present Problems 115 and 117, respectively.  With the time we had left, I presented Problem 118.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, April 17:</b> We had JC, JG3, and AM present Problems 120, 121, and 122, respectively.  We spent quite a bit of time on Problem 121, which generated lots of great discussion.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, April 19:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, April 19:</b> There was only one problem to discuss, but it took us the whole class session to get through it.  We had FA, MS, RW, and AM  present parts (2), (3), (4), and (5) of Problem 124, respectively.</li>
 </ul>
 
 ## Week 14 ##
 
 <ul class="fa-ul">
-  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, April 22:</b> Coming soon.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, April 24:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, April 22:</b> We kicked off with LD showing us a beautiful bijections from triangulations of an $(n+2)$-gon to planar binary trees with $n$ internal nodes.  Next, I presented part (2) of Problem 125 and then FA presented a portion of part (3).  With the time we had left, we kicked around some ideas about the remaining bits of part (3).</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, April 24:</b> After (finally!) handing back the take-home exams, I summarized part (3) of Problem 125 and then MF presented part (2) of Problem 126.  Next, MR proved that $L_{n,k}(q)=\sum_{w\in S_n, \text{Des}(w)\subseteq \\{k\\}}q^{\text{inv}(w)}$ using a bijection between $L(k,n-k)$ and $\\{w\in S_n\mid \text{Des}(w)\subseteq \\{k\\}\\}$.  We will returned to part (3) of Problem 126 on Friday.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Friday, April 26:</b> Coming soon.</li>
 </ul>
 
