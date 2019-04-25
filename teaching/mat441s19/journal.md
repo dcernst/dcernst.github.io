@@ -124,7 +124,7 @@ We’ll use this page to keep track of what has happened each day in class. It w
 ## Week 12 ##
 
 <ul class="fa-ul">
-  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, April 8:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, April 8:</b> Busy day!  We had JB, FA, YD, and JH present Theorem 7.12 (regular), Theorem 7.12 (normal), Theorem 7.15 (forward implication), and Theorem 7.15 (reverse implication).</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, April 10:</b> To give students a break, I lectured over 7.16, 7.19, and 7.19</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Friday, April 12:</b> The students took the in-class portion of Exam 2.</li>
 </ul>
@@ -132,16 +132,16 @@ We’ll use this page to keep track of what has happened each day in class. It w
 ## Week 13 ##
 
 <ul class="fa-ul">
-  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, April 15:</b> Coming soon.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, April 17:</b> Coming soon.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, April 19:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, April 15:</b> While the students are working on their take-home exams, I'll lecture for a few class meetings.  Today, we started Chapter 8.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, April 17:</b> More lecturing. We continued where we left off in Chapter 8.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, April 19:</b> We picked up where we left off on Wednesday and continued discussing Chapter 8.</li>
 </ul>
 
 ## Week 14 ##
 
 <ul class="fa-ul">
-  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, April 22:</b> Coming soon.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, April 24:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, April 22:</b> Last day of lecturing for a bit.  We got through Theorem 8.26.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, April 24:</b> We divided the class up into several small groups, each tasked with coming to consensus on one of the problems from the homework.  We had RB, JH, AS, RH, PB, QC, and JB present Exercise 8.27, Theorem 8.28 ((a) implies (b)), Theorem 8.28 ((b) implies (c)), Theorem 8.28 ((c) implies (a)), Theorem 8.29, Exericse 5.30, and Corollary 8.31, respectively.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Friday, April 26:</b> Coming soon.</li>
 </ul>
 
