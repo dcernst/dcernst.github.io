@@ -59,6 +59,7 @@ I will not be covering every detail of the textbook and the only way to achieve 
     - [Theorem 2.19]({{site.baseurl}}/teaching/mat441s19/Theorem2.19.JPG)
     - [Theorem 2.20]({{site.baseurl}}/teaching/mat441s19/Theorem2.20.JPG)
     - [Theorem 4.25]({{site.baseurl}}/teaching/mat441s19/Theorem4.25.JPG)
+    - [Theorem 8.36]({{site.baseurl}}/teaching/mat441s19/Theorem8.36.JPG)
 
 ## Exams
 Below are links to the take-home portions of each exam. If you are interested in using LaTeX to type up your solutions, contact me and I will send you a link to the source file of the exam.
