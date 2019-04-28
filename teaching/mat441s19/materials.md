@@ -66,3 +66,4 @@ Below are links to the take-home portions of each exam. If you are interested in
 
 - [Exam 1 (take-home portion)]({{site.baseurl}}/teaching/mat441s19/441Exam1-Home.pdf) (PDF). (Due Friday, March 1)
 - [Exam 2 (take-home portion)]({{site.baseurl}}/teaching/mat441s19/441Exam2-Home.pdf) (PDF). (Due Friday, April 19)
+- [Final Exam (take-home portion)]({{site.baseurl}}/teaching/mat441s19/441ExamFinal-Home.pdf) (PDF). (Due Thursday, May 9)
