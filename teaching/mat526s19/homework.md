@@ -71,7 +71,7 @@ where $a_1=j_1, a_k=n-j_{k-1}$, and $a_i=j_i-j_{i-1}$ for all $1<i<k$. (Due Frid
     1. Prove that for any $n\geq k\geq 0$, we have
     \\[\sum_{p\in L(k,n-k)}q^{\text{maj}(p)}=\begin{bmatrix}n\\\ k\end{bmatrix}.\\]
     2. Let $P$ be the labeled poset consisting of the disjoint union of the chains $1<_P 2 <_P <\cdots <_P k$ and $k+1 <_P k+2 <_P \ldots <_P n$ for some $k$. A *linear extension* of $P$ is a permutation in $S_n$ whose ordering respects the ordering of $P$.  Characterize the set of linear extensions of $P$.  *Hint:* For a linear extension $w$, consider $\text{Des}(w^{-1})$.
-- **Daily Homework 32:** Coming soon. (Due Wednesday, May 1)
+- **Daily Homework 33:** Coming soon. (Due Wednesday, May 1)
 
 ## Weekly Homework ##
 For most of the assignments below, you will be required to submit 2-3 formally written proofs. You are required to type your submission using LaTeX (see below).  You can either submit a hardcopy of your assignment or email me the PDF of your completed work. If you email me the PDF, please name your file as <code>WeeklyX-LastName.pdf</code>, where <code>X</code> is the number of the assignment and <code>Lastname</code> is your last name.  Notice there are no spaces in the filename.
