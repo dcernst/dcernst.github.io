@@ -22,7 +22,7 @@ You can find a recent version of my curriculum vitae [here]({{site.baseurl}}/sch
 <!-- ## Submitted -->
 
 ## Journal Articles
-  * B.J. Benesh, D.C. Ernst, and N. Sieben. Impartial achievement games for generating nilpotent groups. Accepted to *J. Group Theory* 2018. [[arXiv:1805.01409](https://arxiv.org/abs/1805.01409)]
+  * B.J. Benesh, D.C. Ernst, and N. Sieben. Impartial achievement games for generating nilpotent groups. *J. Group Theory* 22(3), 515–527, 2019. [[arXiv:1805.01409](https://arxiv.org/abs/1805.01409)] [[DOI:10.1515/s00182-017-0602-x](https://doi.org/10.1515/jgth-2018-0117)]
   * D.C. Ernst. Diagram calculus for a type affine *C* Temperley-Lieb algebra, II. *J. Pure Appl. Alg.* 222(12), 3795-3830, 2018. [[arXiv:1101.4215](http://arxiv.org/abs/1101.4215)] [[DOI:10.1016/j.jpaa.2018.02.008](https://doi.org/10.1016/j.jpaa.2018.02.008)]
   * D.C. Ernst and N. Sieben. Impartial achievement and avoidance games for generating finite groups. *Int. J. Game Theory* 47(2), 509-542, 2018. [[arXiv:1407.0784](http://arxiv.org/abs/1407.0784)] [[DOI:10.1007/s00182-017-0602-x](https://doi.org/10.1007/s00182-017-0602-x)]
   * D.C. Ernst, T.J. Hitchman, and A. Hodge. Bringing Inquiry to the First Two Years of College Mathematics. *PRIMUS* 27(7), 641-645, 2017. [[DOI:10.1080/10511970.2017.1393846](http://www.tandfonline.com/doi/full/10.1080/10511970.2017.1393846)]
