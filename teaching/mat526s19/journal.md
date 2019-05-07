@@ -142,13 +142,13 @@ We’ll use this page to keep track of what has happened each day in class. It w
 <ul class="fa-ul">
   <li><i class="fa-li far fa-calendar-check"></i><b>Monday, April 22:</b> We kicked off with LD showing us a beautiful bijections from triangulations of an $(n+2)$-gon to planar binary trees with $n$ internal nodes.  Next, I presented part (2) of Problem 125 and then FA presented a portion of part (3).  With the time we had left, we kicked around some ideas about the remaining bits of part (3).</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, April 24:</b> After (finally!) handing back the take-home exams, I summarized part (3) of Problem 125 and then MF presented part (2) of Problem 126.  Next, MR proved that $L_{n,k}(q)$ is given by sum over permututations have descent set at most $k$. We will return to part (3) of Problem 126 on Friday.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, April 26:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, April 26:</b> We pretty much spent the whole class meeting discussing part (3) of Problem 126.</li>
 </ul>
 
 # Week 15 ##
 
 <ul class="fa-ul">
-  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, April 29:</b> Coming soon.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, May 1:</b> Coming soon.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, May 3:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, April 29:</b> I presented a fairly involved bijection for the first problem on Daily Homework 32.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, May 1:</b> We had MG and MR present the second problem from Daily Homework 32 and the problem for Daily Homework 33, respectively.  In addition, I sketched an argument for the problem from Daily Homework 31.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, May 3:</b> Last day!  I presented a cute bijection from $S_n$ to $S_n$ that mapped a permutation with $k$ inversions to a permutation with major index $k$.</li>
 </ul>

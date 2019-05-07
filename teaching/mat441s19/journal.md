@@ -141,14 +141,14 @@ We’ll use this page to keep track of what has happened each day in class. It w
 
 <ul class="fa-ul">
   <li><i class="fa-li far fa-calendar-check"></i><b>Monday, April 22:</b> Last day of lecturing for a bit.  We got through Theorem 8.26.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, April 24:</b> We divided the class up into several small groups, each tasked with coming to consensus on one of the problems from the homework.  We had RB, JH, AS, RH, PB, QC, and JB present Exercise 8.27, Theorem 8.28 ((a) implies (b)), Theorem 8.28 ((b) implies (c)), Theorem 8.28 ((c) implies (a)), Theorem 8.29, Exericse 5.30, and Corollary 8.31, respectively.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, April 26:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, April 24:</b> We divided the class up into several small groups, each tasked with coming to consensus on one of the problems from the homework.  We had RB, JH, AS, RH, PB, QC, and JB present Exercise 8.27, Theorem 8.28 ((a) implies (b)), Theorem 8.28 ((b) implies (c)), Theorem 8.28 ((c) implies (a)), Theorem 8.29, Exercise 5.30, and Corollary 8.31, respectively.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, April 26:</b> We split the class up into several small groups and then had SM, RD, AS, FA, and WC present Theorem 8.32(continuous), Theorem 8.32(onto), Theorem 8.32(open), Exercise 8.34, and Theorem 8.35, respectively.</li>
 </ul>
 
 # Week 15 ##
 
 <ul class="fa-ul">
-  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, April 29:</b> Coming soon.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, May 1:</b> Coming soon.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, May 3:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, April 29:</b> We kicked off with ZF presenting the proof of Theorem 8.36 and then I discussed homeomorphisms.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, May 1:</b> I lectured over Exercise 8.44, Exercise 8.45, Exercise 8.46, and Theorem 8.47.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, May 3:</b> Last day!  I lectured over metric spaces.</li>
 </ul>
