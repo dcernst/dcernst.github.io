@@ -40,6 +40,7 @@ I will not be covering every detail of the textbook and the only way to achieve 
 - [Setting the Stage]({{ site.baseurl }}/teaching/SettingTheStage.pdf) (PDF)
 - [Elements of Style for Proofs]({{site.baseurl}}/teaching/ElementsOfStyle.pdf) (PDF)
 - [The Secret to Raising Smart Kids &#124; Carol Dweck](https://www.scientificamerican.com/article/the-secret-to-raising-smart-kids1/) (article on Scientific American)
+- [7 Things Growth Mindset is Not](https://www.turnaroundusa.org/7-things-growth-mindset-is-not/) (article on Turn Around for Children)
 - Videos on Growth Mindset and Productive Failure
     - [Productive Failure/Struggle Skateboard Video](https://www.youtube.com/watch?time_continue=98&v=1QSocgE3yFY) (1:46 min)
     - [Productive Failure/Struggle BMX Video](https://www.youtube.com/watch?v=9brnDOVJWnw) (1:39 min)
