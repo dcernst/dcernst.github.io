@@ -39,6 +39,8 @@ I will not be covering every detail of the book and the only way to achieve a su
 ## Miscellaneous Materials ##
 - [Setting the Stage]({{ site.baseurl }}/teaching/SettingTheStage.pdf) (PDF)
 - [Elements of Style for Proofs]({{site.baseurl}}/teaching/ElementsOfStyle.pdf) (PDF)
+- [The Secret to Raising Smart Kids &#124; Carol Dweck](https://www.scientificamerican.com/article/the-secret-to-raising-smart-kids1/) (article on Scientific American)
+- [7 Things Growth Mindset is Not](https://www.turnaroundusa.org/7-things-growth-mindset-is-not/) (article on Turn Around for Children)
 - Videos on Growth Mindset and Productive Failure
     - [Productive Failure/Struggle Skateboard Video](https://www.youtube.com/watch?time_continue=98&v=1QSocgE3yFY) (1:46 min)
     - [Productive Failure/Struggle BMX Video](https://www.youtube.com/watch?v=9brnDOVJWnw) (1:39 min)
@@ -51,7 +53,6 @@ I will not be covering every detail of the book and the only way to achieve a su
     - [Learning Like a Jungle Tiger &#124; Trevor Ragan](https://www.youtube.com/watch?v=muoVtDjjonM&feature=youtu.be) (5:23 min)
     - [Ira Glass on the Creative Process](https://www.youtube.com/watch?v=PbC4gqZGPSY&feature=youtu.be) (1:54 min)
 - [The Chinese Farmer &#124; Alan Watts](https://www.youtube.com/watch?feature=share&v=eJShr4VdvxQ&app=desktop) (2:26 min)
-- [The Secret to Raising Smart Kids &#124; Carol Dweck](https://www.scientificamerican.com/article/the-secret-to-raising-smart-kids1/) (article on Scientific American)
 - [Do Schools Kill Creativity? &#124; Ken Robinson](https://www.ted.com/talks/ken_robinson_says_schools_kill_creativity?language=en) (19:22 min)
 - [Lessons from My Math Degree That Have Nothing to Do with Math](https://medium.com/s/story/6-life-lessons-from-my-math-degree-that-have-nothing-to-do-with-math-d38aba90edfe) (6 min read on Medium)
 - [Learner Lab Podcasts &#124; Train Ugly](https://trainugly.com/learner-lab-podcast/)
