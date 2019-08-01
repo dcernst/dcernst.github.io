@@ -42,7 +42,8 @@ I will not be covering every detail of the textbook and the only way to achieve 
 - [The Secret to Raising Smart Kids &#124; Carol Dweck](https://www.scientificamerican.com/article/the-secret-to-raising-smart-kids1/) (article on Scientific American)
 - [7 Things Growth Mindset is Not](https://www.turnaroundusa.org/7-things-growth-mindset-is-not/) (article on Turn Around for Children)
 - Videos on Growth Mindset and Productive Failure
-    - [Productive Failure/Struggle Skateboard Video](https://www.youtube.com/watch?time_continue=98&v=1QSocgE3yFY) (1:46 min)
+    - [Productive Failure/Struggle Skateboard Video 1](https://www.youtube.com/watch?time_continue=98&v=1QSocgE3yFY) (1:46 min)
+    - [Productive Failure/Struggle Skateboard Video 2](https://www.instagram.com/p/BzKyyLchuve/) (0:40 min)
     - [Productive Failure/Struggle BMX Video](https://www.youtube.com/watch?v=9brnDOVJWnw) (1:39 min)
     - [Michael Jordan Failure Commercial](https://www.youtube.com/watch?v=JA7G7AV-LT8) (0:32 min)
     - [Mindsets: Fixed Versus Growth](https://www.youtube.com/watch?v=M1CHPnZfFmU) (2:19 min)
