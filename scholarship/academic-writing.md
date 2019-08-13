@@ -17,7 +17,7 @@ The combinatorial nature of my research naturally lends itself to collaborations
 
 My interests also include the [scholarship of teaching and learning](http://en.wikipedia.org/wiki/Scholarship_of_Teaching_and_Learning) (SoTL) with a focus on [inquiry-based learning](http://maamathedmatters.blogspot.com/2013/05/what-heck-is-ibl.html) (IBL) as an approach to teaching/exploring mathematics. I am currently a Special Projects Coordinator for the [Academy of Inquiry-Based Learning](http://www.inquirybasedlearning.org) and a mentor for several new IBL practitioners. Moreover, I actively give [talks]({{site.baseurl}}/scholarship/talks/) and organize workshops on the benefits of IBL as well as the nuts and bolts of how to implement this approach in the mathematics classroom.
 
-You can find a recent version of my curriculum vitae [here]({{site.baseurl}}/scholarship/CVErnst.pdf).
+You can find a recent version of my curriculum vitae [here]({{site.baseurl}}/scholarship/CV-Ernst.pdf).
 
 <!-- ## Submitted -->
 
