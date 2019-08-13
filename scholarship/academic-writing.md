@@ -84,7 +84,7 @@ From Spring 2013 through Spring 2016, I was co-editor and author for [Math Ed Ma
 ## In Preparation
   * B.J. Benesh, D.C. Ernst, and N. Sieben. The spectrum of impartial achievement games for generating finite groups.
   * H. Denoncourt, D.C. Ernst, and T. Rosenberg. On signed permutations of maximal reversal length.
-  * F.Awik, J. Breland, Q.Cadman, and D.C. Ernst. Architecture of braid classes in simply-laced Coxeter groups.
+  * F.Awik, J. Breland, Q.Cadman, and D.C. Ernst. Architecture of braid classes in simply-laced Coxeter systems.
   * R. Davis, D.C. Ernst, and A. Moll. Switch: An impartial game for generating graphs.
 
 <!--
