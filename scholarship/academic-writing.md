@@ -19,6 +19,12 @@ My interests also include the [scholarship of teaching and learning](http://en.w
 
 You can find a recent version of my curriculum vitae [here]({{site.baseurl}}/scholarship/CV-Ernst.pdf).
 
+## In Preparation
+  * B.J. Benesh, D.C. Ernst, and N. Sieben. The spectrum of impartial achievement games for generating finite groups.
+  * H. Denoncourt, D.C. Ernst, and T. Rosenberg. On signed permutations of maximal reversal length.
+  * F.Awik, J. Breland, Q.Cadman, and D.C. Ernst. Architecture of braid classes in simply-laced Coxeter systems.
+  * R. Davis, D.C. Ernst, and A. Moll. Switch: An impartial game for generating graphs.
+
 <!-- ## Submitted -->
 
 ## Journal Articles
@@ -81,11 +87,8 @@ From Spring 2013 through Spring 2016, I was co-editor and author for [Math Ed Ma
   * D.C. Ernst. A diagrammatic representation of an affine *C* Temperley-Lieb algebra, PhD Thesis, University of Colorado, 2008. [[arXiv:0905.4457](http://arxiv.org/abs/0905.4457)]
   * D.C. Ernst. Cell Complexes for Arrangements with Group Actions, MS Thesis, Northern Arizona University, 2000. [[arXiv:0905.4434](http://arxiv.org/abs/0905.4434)]
 
-## In Preparation
-  * B.J. Benesh, D.C. Ernst, and N. Sieben. The spectrum of impartial achievement games for generating finite groups.
-  * H. Denoncourt, D.C. Ernst, and T. Rosenberg. On signed permutations of maximal reversal length.
-  * F.Awik, J. Breland, Q.Cadman, and D.C. Ernst. Architecture of braid classes in simply-laced Coxeter systems.
-  * R. Davis, D.C. Ernst, and A. Moll. Switch: An impartial game for generating graphs.
+## Miscellaneous
+  * D.C. Ernst. 2019 Pinyons and Pines: Event Recap. *Bikepacking.com*. August 2019. [[Article](https://bikepacking.com/news/2019-pinyons-pines-event-recap/)]
 
 <!--
 * D.C. Ernst and A. Lebovitz. Groups with cyclic subgroups.
