@@ -414,18 +414,19 @@ In summary, your final grade will be determined by your scores in the following 
 </center>
 
 ### Department and University Policies ###
-You are responsible for knowing and following the [Department of Mathematics and Statistics Policies]({{ site.baseurl }}/teaching/DepartmentPoliciesSpring2019.pdf) (PDF) and other University policies listed [here](https://nau.edu/OCLDAA/_Forms/UCC/SyllabusPolicyStmts/) (PDF).  More policies can be found in other university documents, especially the [NAU Student Handbook](http://nau.edu/Student-Life/Student-Handbook/) (see appendices) and the website of the [Office of Student Life](http://nau.edu/Student-Life/).
+You are responsible for knowing and following the [Department of Mathematics and Statistics Policies]({{ site.baseurl }}/teaching/DepartmentPoliciesFall2019.pdf) (PDF) and other University policies listed [here](https://nau.edu/university-policy-library/wp-content/uploads/sites/26/Syllabus-Policy-Statements.pdf) (PDF).  More policies can be found in other university documents, especially the [NAU Student Handbook](https://in.nau.edu/dean-of-students/Student-Handbook/) (see appendices) and the website of the [Student Outreach and Support](https://in.nau.edu/dean-of-students/nau-sos/) (SOS).
 
 As per Department Policy, cell phones, MP3 players and portable electronic communication devices, including but not limited to smart phones, cameras and recording devices, must be turned off and inaccessible during in-class tests. Any violation of this policy will be treated as academic dishonesty.
 
 ### Important Dates ###
 Here are some important dates:
 
-- **Monday, January 21:** Martin Luther King Jr. Day (no classes)
-- **Thursday, January 24:** Last day to Drop/Delete a class (without class appearing on students' transcripts)
-- **Monday, March 25:** Course withdrawal deadline
-- **Monday, March 18-Friday, March 22:** Spring Break (no classes)
-- **Wednesday, May 8:** Final Exam
+- **Monday, September 2:** Labor Day (no classes)
+- **Thursday, September 5:** Last day to Drop/Delete a class (without class appearing on students' transcripts)
+- **Friday, November 1:** Course withdrawal deadline
+- **Monday, November 11:** Veteran's Day (no classes)
+- **Thursday, November 28-Friday, November 29:** Thanksgiving Break (no classes)
+- **Wednesday, December 11:** Final Exam
 
 ### Getting Help ###
 There are many resources available to get help.  First, I recommend that you work on homework in small groups as much as possible and to come see me whenever necessary.  I am always happy to help you.  If my office hours don't work for you, then we can probably find another time to meet.  It is your responsibility to be aware of how well you understand the material.  Don't wait until it is too late if you need help.  *Ask questions*!  Lastly, you can always [email me](mailto:dana.ernst@nau.edu).
