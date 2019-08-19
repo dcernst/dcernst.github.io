@@ -7,41 +7,41 @@ layout: default
 <ol class="breadcrumb">
   <li><a href="/"><i class="fa fa-home"></i></a></li>
   <li><a href="/teaching/">Teaching</a></li>
-  <li><a href="/teaching/mat441s19">MAT441</a></li>
+  <li><a href="/teaching/mat411f19">MAT411</a></li>
   <li class="active">{{ page.title }}</li>
 </ol>
 
 <div class="row">
 <div class="col-xs-12">
 <div class="btn-group btn-group-justified">
-<a class="btn btn-default btn-success" href="{{site.baseurl}}/teaching/mat441s19/syllabus/">Syllabus</a>
-<a class="btn btn-default btn-primary" href="{{site.baseurl}}/teaching/mat441s19/materials/">
+<a class="btn btn-default btn-success" href="{{site.baseurl}}/teaching/mat411f19/syllabus/">Syllabus</a>
+<a class="btn btn-default btn-primary" href="{{site.baseurl}}/teaching/mat411f19/materials/">
 <span class="hidden-xs">Course Materials</span><span class="visible-xs">Stuff</span>
 </a>
-<a class="btn btn-default btn-warning" href="{{site.baseurl}}/teaching/mat441s19/homework/">
+<a class="btn btn-default btn-warning" href="{{site.baseurl}}/teaching/mat411f19/homework/">
 <span class="hidden-xs">Homework</span><span class="visible-xs">HW</span>
 </a>
-<a class="btn btn-default btn-info" href="{{site.baseurl}}/teaching/mat441s19/journal/">Journal</a>
+<a class="btn btn-default btn-info" href="{{site.baseurl}}/teaching/mat411f19/journal/">Journal</a>
 </div>
 </div>
 </div>
 
-<!-- <br />
+<br />
 
 <div class="alert alert-info" role="alert">
 <i class="far fa-hand-peace"></i>&nbsp; This page is under construction!
-</div> -->
+</div>
 
 <div class="row">
   <div class="col-xs-12 col-sm-6">
     <div>
     <h3>Course Info</h3>
-    <strong>Title:</strong> MAT 441: Introduction to Topology<br />
-    <strong>Semester:</strong> Spring 2019<br />
+    <strong>Title:</strong> MAT 411: Introduction to Abstract Algebra<br />
+    <strong>Semester:</strong> Fall 2019<br />
     <strong>Credits:</strong> 3<br />
     <strong>Section:</strong> 1<br />
-    <strong>Time:</strong> 11:30AM-12:20PM<br />
-    <strong>Location:</strong> SAS 201A
+    <strong>Time:</strong> 9:10-10:00AM<br />
+    <strong>Location:</strong> AMB 225
     </div>
   </div>
 
@@ -50,7 +50,7 @@ layout: default
       <h3>Instructor Info</h3>
       <i class="fa fa-user fa-fw"></i>&nbsp; Dana C. Ernst, PhD<br />
       <i class="fa fa-university fa-fw"></i>&nbsp; AMB 176<br />
-      <i class="fa fa-users fa-fw"></i>&nbsp; 2:00-3:00 MF, 10:30-12:30 T, 10:15-11:15 W<br />
+      <i class="fa fa-users fa-fw"></i>&nbsp; 11:30AM-1:00PM MWF, 10:00-11:00AM T<br />
       <i class="far fa-envelope fa-fw"></i>&nbsp; <a href="mailto:dana.ernst@nau.edu">dana.ernst@nau.edu</a><br />
       <i class="fa fa-phone fa-fw"></i>&nbsp; 928.523.6852<br />
       <i class="fa fa-link fa-fw"></i>&nbsp; <a href="{{site.baseurl}}">danaernst.com</a>
@@ -60,23 +60,31 @@ layout: default
 </div>
 
 ### Prerequisites ###
-MAT 431 with a grade of C or better.
+ MAT 320 with a grade of C or better.
 
-### Catalog Description ###
-Topological spaces, continuous maps, homeomorphism, metric spaces, connectedness, compactness, product spaces, quotient spaces, elementary geometric topology.
+### Course Description ###
+MAT 411 introduces students to the basic ideas, definitions, examples, theorems, and proof techniques of abstract algebra.
+
+### Learning Outcomes ###
+Upon successful completion of the course, students will be able to do the following within the topics of groups, rings and fields:
+1. Read and write expository text on elementary aspects.
+2. Distinguish truth from falsehood.
+3. Provide examples and counterexamples of statements.
+4. Perform needed computations.
+5. Construct concise and correct proofs.
+
+### Course Content ###
+1. **Group Theory:** axioms, examples of groups of numbers, matrices, and permutations; abelian groups, cyclic groups; order of an element, subgroups, cosets, normal subgroups, factor groups, homomorphisms, kernels; Cayley’s Theorem, LaGrange’s Theorem, First Isomorphism Theorem.
+2. **Rings:** axioms, examples of rings of numbers, matrices, and polynomials; unity, units, divisibility, zero divisors, integral domains, division rings, field of quotients, ideals, homomorphisms, factor rings, prime and maximal ideals.
+3. **Fields:** axioms, examples; polynomials, divisibility criteria, irreducible polynomial, construction of finite fields and their cyclic multiplication groups.
 
 <blockquote>
 <p>The mathematician does not study pure mathematics because it is useful; he studies it because he delights in it, and he delights in it because it is beautiful.</p>
 <footer><a href="https://en.wikipedia.org/wiki/Henri_Poincaré">Henri Poincaré</a></footer>
 </blockquote>
 
-### Course Content ###
-Loosely speaking, [topology](https://en.wikipedia.org/wiki/Topology) is the branch of mathematics concerned with the properties of space that are preserved under continuous deformations, such as stretching, bending, and twisting, but not ripping or gluing. Topology is sometimes referred to as "rubber sheet geometry", but truth be told, this only vaguely captures one aspect of the subject. The driving force behind topology is a desire to distill familiar mathematical concepts such as convergence, connectedness, continuity, and dimension down to their essence. Formally, topology is the study of properties of [topological spaces](https://en.wikipedia.org/wiki/Topological_space) that are invariant under continuous maps. Of particular interest are the properties that are preserved under [homeomorphisms](https://en.wikipedia.org/wiki/Homeomorphism), which are invertible continuous maps with continuous inverses. Homeomorphisms are isomorphisms between topological spaces. Chapter 1 of our textbook "Topology Through Inquiry" contains the following beautiful quote:
-
-<blockquote>
-<p>Topology is a subject whose power arises from the impulse to abstract essential features from complex situations and then to let our curiosity roam while striving to truly understand what is essential about fundamental ideas.</p>
-<footer><a href="https://web.ma.utexas.edu/users/starbird/">Michael Starbird</a> and <a href="https://www.math.hmc.edu/~su/">Francis Su</a></footer>
-</blockquote>
+### Goals ###
+Aside from the obvious goal of wanting you to learn how to write rigorous mathematical proofs, one of my principal ambitions is to make you independent of me.  Nothing else that I teach you will be half so valuable or powerful as the ability to reach conclusions by reasoning logically from first principles and being able to justify those conclusions in clear, persuasive language (either oral or written).   Furthermore, I want you to experience the unmistakable feeling that comes when one really understands something thoroughly.  Much "classroom knowledge" is fairly superficial, and students often find it hard to judge their own level of understanding. For many of us, the only way we know whether we are "getting it" comes from the grade we make on an exam.  I want you to become less reliant on such externals.  When you can distinguish between really knowing something and merely knowing about something, you will be on your way to becoming an independent learner.  Lastly, it is my sincere hope that all of us (myself included) will improve our oral and written communications skills.
 
 ### An Inquiry-Based Approach ###
 This is not a lecture-oriented class or one in which mimicking prefabricated examples will lead you to success. You will be expected to work actively to construct your own understanding of the topics at hand with the readily available help of me and your classmates. Many of the concepts you learn and problems you work on will be new to you and ask you to stretch your thinking. You will experience *frustration* and *failure* before you experience *understanding*. This is part of the normal learning process. **If you are doing things well, you should be confused at different points in the semester. The material is too rich for a human being to completely understand it immediately.** Your viability as a professional in the modern workforce depends on your ability to embrace this learning process and make it work for you.
@@ -153,7 +161,7 @@ There will be two midterm exams and a cumulative final exam. Each exam will cons
 #### General Comments
 You are allowed and encouraged to work together on homework.  However, each student is expected to turn in his or her own work.  In general, late homework will *not* be accepted.  However, you are allowed to turn in three late homework assignments with no questions asked. Unless you have made arrangements in advance with me, homework turned in after class will be considered late. When doing your homework, I encourage you to consult the [Elements of Style for Proofs]({{site.baseurl}}/teaching/ElementsOfStyle.pdf). Your overall homework grade will be worth 20% of your final grade.
 
-On each homework assignment, please write (i) your name, (ii) name of course, and (iii) Daily/Weekly Homework number.  You can find the list of assignments on the [homework page]({{site.baseurl}}/teaching/mat441s19/homework/).  I reserve the right to modify the homework assignments as I see necessary.
+On each homework assignment, please write (i) your name, (ii) name of course, and (iii) Daily/Weekly Homework number.  You can find the list of assignments on the [homework page]({{site.baseurl}}/teaching/mat411f19/homework/).  I reserve the right to modify the homework assignments as I see necessary.
 
 #### Daily Homework
 Homework will be assigned each class meeting, and students are expected to complete (or try their best to complete) each assignment before walking into the next class period. All assignments should be *carefully*, *clearly*, and *cleanly* written. Among other things, this means your work should include proper grammar, punctuation, and spelling. You should write a draft of a given solution before you write down the final argument, so do yourself a favor and get in the habit of differentiating your scratch work from your submitted assignment.
