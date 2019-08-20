@@ -45,7 +45,8 @@ The notes will be released incrementally. Each link below is to a PDF file. If y
 
 <!-- - [An Inquiry-Based Approach to Abstract Algebra]({{site.baseurl}}/teaching/mat411f19/IBL-AbstractAlgebra.pdf) (complete set of notes) -->
 
-- [Title Page]({{site.baseurl}}/teaching/mat411f19/TitlePage.pdf)
+- [Title Page and Table of Contents]({{site.baseurl}}/teaching/mat411f19/TitlePage.pdf)
+- [Preface]({{site.baseurl}}/teaching/mat411f19/Preface.pdf)
 - [Chapter 1: Introduction]({{site.baseurl}}/teaching/mat411f19/Introduction.pdf)
     - 1.1 What is Abstract Algebra?
     - 1.2 An Inquiry-Based Approach
@@ -59,26 +60,32 @@ The notes will be released incrementally. Each link below is to a PDF file. If y
     - 2.4 Generating Sets
     - 2.5 Group Tables
     - 2.6 Cayley Diagrams
-- [Chapter 3: Subgroups and Isomorphisms]({{site.baseurl}}/teaching/mat411f19/SubgroupsIsomorphisms.pdf)
+<!-- - [Chapter 3: Subgroups and Isomorphisms]({{site.baseurl}}/teaching/mat411f19/SubgroupsIsomorphisms.pdf) -->
+- Chapter 3: Subgroups and Isomorphisms
     - 3.1 Subgroups
     - 3.2 Subgroup Lattices
     - 3.3 Isomorphisms
-- [Chapter 4: Families of Groups]({{site.baseurl}}/teaching/mat411f19/Families.pdf)
+<!-- - [Chapter 4: Families of Groups]({{site.baseurl}}/teaching/mat411f19/Families.pdf) -->
+- Chapter 4: Families of Groups
     - 4.1 Cyclic Groups
     - 4.2 Dihedral Groups
     - 4.3 Symmetric Groups
     - 4.4 Alternating Groups
-- [Chapter 5: Cosets, Lagrange's Theorem, and Normal Subgroups]({{site.baseurl}}/teaching/mat411f19/CosetsLagrangeNormal.pdf)
+<!-- - [Chapter 5: Cosets, Lagrange's Theorem, and Normal Subgroups]({{site.baseurl}}/teaching/mat411f19/CosetsLagrangeNormal.pdf) -->
+- Chapter 5: Cosets, Lagrange's Theorem, and Normal Subgroups
     - 5.1 Cosets
     - 5.2 Lagrange's Theorem
     - 5.3 Normal Subgroups
-- [Chapter 6: Products and Quotients of Groups]({{site.baseurl}}/teaching/mat411f19/ProductsQuotients.pdf)
+<!-- - [Chapter 6: Products and Quotients of Groups]({{site.baseurl}}/teaching/mat411f19/ProductsQuotients.pdf) -->
+- Chapter 6: Products and Quotients of Groups
     - 6.1 Products of Groups
     - 6.2 Quotients of Groups
-- [Chapter 7: Homomorphisms and the Isomorphism Theorems]({{site.baseurl}}/teaching/mat411f19/Homomorphisms.pdf)
+<!-- - [Chapter 7: Homomorphisms and the Isomorphism Theorems]({{site.baseurl}}/teaching/mat411f19/Homomorphisms.pdf) -->
+- Chapter 7: Homomorphisms and the Isomorphism Theorems
     - 7.1 Homomorphisms
     - 7.2 The Isomorphism Theorems
-- [Chapter 8: An Introduction to Rings]({{site.baseurl}}/teaching/mat411f19/Rings.pdf)
+<!-- - [Chapter 8: An Introduction to Rings]({{site.baseurl}}/teaching/mat411f19/Rings.pdf) -->
+- Chapter 8: An Introduction to Rings
     - 8.1 Definitions and Examples
     - 8.2 Ring Homomorphisms
     - 8.3 Ideals and Quotient Rings
