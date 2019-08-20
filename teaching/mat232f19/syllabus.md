@@ -63,7 +63,7 @@ layout: default
 MAT 136 with a grade greater than or equal to C.
 
 ### Course Description ###
-MAT 220 is an introductory course in mathematical reasoning in multi-step problems across different areas of mathematics. The goal is to use elementary mathematical tools to solve more complex problems in already familiar areas of study such as precalculus, basic number theory, geometry, and discrete mathematics, instead of teaching new mathematical tools that are used in straightforward one-step exercises. The focus is on problem solving and solution writing.
+MAT 232 is an introductory course in mathematical reasoning in multi-step problems across different areas of mathematics. The goal is to use elementary mathematical tools to solve more complex problems in already familiar areas of study such as precalculus, basic number theory, geometry, and discrete mathematics, instead of teaching new mathematical tools that are used in straightforward one-step exercises. The focus is on problem solving and solution writing.
 
 ### Learning Outcomes ###
 Upon successful completion of the course, you will be able to:
