@@ -1,5 +1,5 @@
 ---
-title: Introduction to Topology
+title: Abstract Algebra
 author: Dana Ernst
 layout: default
 ---
