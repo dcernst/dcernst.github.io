@@ -141,20 +141,22 @@ In our classroom, diversity and individual differences are respected, appreciate
 Students are also expected to minimize distracting behaviors.  In particular, every attempt should be made to arrive to class on time.  If you must arrive late or leave early, please do not disrupt class. Please turn off the ringer on your cell phone.  I do not have a strict policy on the use of laptops, tablets, and cell phones.  You are expected to be paying attention and engaging in class discussions.  If your cell phone, etc. is interfering with your ability (or that of another student) to do this, then put it away, or I will ask you to put it away.
 
 ### Textbook ###
-The textbook for the course is *Topology Through Inquiry* by [Michael Starbird](https://web.ma.utexas.edu/users/starbird/) and [Francis Su](https://www.math.hmc.edu/~su/).  The book is brand new and not yet in print. The good news is that the author and publisher are allowing us to use the book for free!  The bad news is that the book will only be available in digital format and it cannot be posted publicly.  A PDF of the book is available in [BbLearn](https://bblearn.nau.edu).
+Our textbook for the semester is <i>An Inquiry-Based Approach to Abstract Algebra</i>, which is a free and open-source textbook that was written by me ([Dana C. Ernst](http://danaernst.com)). The textbook is designed to be used with an [inquiry-based learning](http://maamathedmatters.blogspot.com/2013/05/what-heck-is-ibl.html) (IBL) approach to a first-semester undergraduate abstract algebra course. While the textbook covers many of the standard topics, the focus is on building intuition and emphasizes visualization. The textbook is available [here]({{site.baseurl}}/teaching/mat411s18/materials/).
 
-I will not be covering every detail of the textbook and the only way to achieve a sufficient understanding of the material is to be digesting the reading in a meaningful way.  You should be seeking clarification about the content of the material whenever necessary by asking questions.  Here's one of my favorite quotes about reading mathematics.
+I will not be covering every detail of the notes and the only way to achieve a sufficient understanding of the material is to be digesting the reading in a meaningful way.  You should be seeking clarification about the content of the notes whenever necessary by asking questions.  Here's one of my favorite quotes about reading mathematics.
 
 <blockquote>
-  <p>Don’t just read it; fight it! Ask your own questions, look for your own examples, discover your own proofs. Is the hypothesis necessary? Is the converse true? What happens in the classical special case? What about the degenerate cases? Where does the proof use the hypothesis?</p>
-  <footer><a href="http://en.wikipedia.org/wiki/Paul_Halmos">Paul Halmos</a></footer>
+<p>Don’t just read it; fight it! Ask your own questions, look for your own examples, discover your own proofs. Is the hypothesis necessary? Is the converse true? What happens in the classical special case? What about the degenerate cases? Where does the proof use the hypothesis?</p>
+<footer><a href="http://en.wikipedia.org/wiki/Paul_Halmos">Paul Halmos</a></footer>
 </blockquote>
 
 ### Rules of the Game ###
 Reviewing material from previous courses and looking up definitions and theorems you may have forgotten is fair game. However, when it comes to completing assignments for this course, you should *not* look to resources outside the context of this course for help.  That is, you should not be consulting the web, other texts, other faculty, or students outside of our course in an attempt to find solutions to the problems you are assigned.  On the other hand, you may use each other, the textbook, me, and your own intuition. If you feel you need additional resources, please come talk to me and we will come up with an appropriate plan of action.
 
 ### Exams ###
-There will be two midterm exams and a cumulative final exam. Each exam will consist of an in-class portion (weighted 70%) and a take-home portion (weighted 30%).  The in-class portions of the midterm exams are *tentatively* scheduled for **Friday, February 22** (week 6) and **Friday, April 12** (week 12).  The take-home portions of midterm exams will typically be due the following Wednesday. Each midterm exam will be worth 20% of your overall grade. The final exam is schedule for **Wednesday, May 8** at 10:00AM-12:00PM and is worth 25% of your overall grade.  Make-up exams will only be given under extreme circumstances, as judged by me.  In general, it will be best to communicate conflicts ahead of time.
+There will be 3 midterm exams and a cumulative final exam.  Exam 1 and Exam 2 will be written exams consisting of an in-class portion (weighted 70%) and a take-home portion (weighted 30%).  The in-class portion of Exam 1 is *tentatively* scheduled for **Wednesday, ???** and the take-home portion of the exam will be due on **Monday, ???**.  The in-class portion of Exam 2 is *tentatively* scheduled for **Wednesday, ???** and the take-home portion of the exam will be due on **Monday, ???**.  Each of Exam 1 and Exam 2 will be worth 20% of your overall grade. Exam 3 will be a 30-minute oral exam taken individually in my office sometime during the last two weeks of classes. Exam 3 will be worth 10% of your overall grade. The final exam will be on **Wednesday, December 11** at **7:30-9:30AM** and is worth 20% of your overall grade. The final exam may or may not have a take-home portion.  Make-up exams will only be given under extreme circumstances, as judged by me. In general, it will be best to communicate conflicts ahead of time.
+
+<!-- There will be two midterm exams and a cumulative final exam. Each exam will consist of an in-class portion (weighted 70%) and a take-home portion (weighted 30%).  The in-class portions of the midterm exams are *tentatively* scheduled for **Friday, February 22** (week 6) and **Friday, April 12** (week 12).  The take-home portions of midterm exams will typically be due the following Wednesday. Each midterm exam will be worth 20% of your overall grade. The final exam is schedule for **Wednesday, May 8** at 10:00AM-12:00PM and is worth 25% of your overall grade.  Make-up exams will only be given under extreme circumstances, as judged by me.  In general, it will be best to communicate conflicts ahead of time. -->
 
 ### Homework ###
 
@@ -386,7 +388,7 @@ In summary, your final grade will be determined by your scores in the following 
 	<tbody>
 	<tr>
 		<td>Homework</td>
-		<td style="text-align: center;">20%</td>
+		<td style="text-align: center;">15%</td>
 		<td>A combination of Daily &amp; Weekly Homework</td>
 	</tr>
   <tr>
@@ -395,19 +397,24 @@ In summary, your final grade will be determined by your scores in the following 
 		<td>See above for requirements</td>
 	</tr>
 	<tr>
-		<td>Exam 1</td>
+		<td>Exam 1 (written)</td>
 		<td style="text-align: center;">20%</td>
-		<td>February 22</td>
+		<td>Wednesday, February 13</td>
 	</tr>
   <tr>
-    <td>Exam 2</td>
+    <td>Exam 2 (written)</td>
     <td style="text-align: center;">20%</td>
-    <td>April 12</td>
+    <td>Wednesday, April 3</td>
+  </tr>
+  <tr>
+    <td>Exam 3 (oral)</td>
+    <td style="text-align: center;">10%</td>
+    <td>April 29-May 3</td>
   </tr>
 	<tr>
 		<td>Final Exam</td>
-		<td style="text-align: center;">25%</td>
-		<td>Wednesday, May 8 at 10:00AM-12:00PM</td>
+		<td style="text-align: center;">20%</td>
+		<td>Wednesday, May 8 at 7:30-9:30AM</td>
 	</tr>
 	</tbody>
 </table>
