@@ -196,7 +196,7 @@ On the day that a homework assignment is due, the majority of the class period w
 </blockquote>
 
 #### Weekly Homework
-In addition to the Daily Homework, we will also have Weekly Homework assignments.  For most of these assignments, you will be required to submit 2-3 formally written proofs.  Some or all of these problems will come directly from the Daily Homework assigned the previous week.  You are required to type your submission using $\LaTeX$. You can either submit a hardcopy of your assignment or email me the PDF of your completed work. If you email me the PDF, please name your file as <code>WeeklyX-LastName.pdf</code>, where <code>X</code> is the number of the assignment and <code>LastName</code> is your last name.  Notice there are no spaces in the filename. Each problem on the Weekly Homework assignments is subject to the following rubric:
+In addition to the Daily Homework, we will also have Weekly Homework assignments.  For most of these assignments, you will be required to submit 2-3 formally written proofs.  Some or all of these problems will come directly from the Daily Homework assigned the previous week.  You are required to type your submission using LaTeX. You can either submit a hardcopy of your assignment or email me the PDF of your completed work. If you email me the PDF, please name your file as <code>WeeklyX-LastName.pdf</code>, where <code>X</code> is the number of the assignment and <code>LastName</code> is your last name.  Notice there are no spaces in the filename. Each problem on the Weekly Homework assignments is subject to the following rubric:
 
 <center>
 <table class="table table-striped">
