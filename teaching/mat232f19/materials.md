@@ -52,8 +52,6 @@ Below you will find notes and handouts that we have used in class, as well as so
 - [Learner Lab Podcasts &#124; Train Ugly](https://trainugly.com/learner-lab-podcast/)
 - [The Subtle Art of the Mathematical Conjecture](https://www.quantamagazine.org/the-subtle-art-of-the-mathematical-conjecture-20190507/) (article on Quanta Magazine)
 - [Lessons from My Math Degree That Have Nothing to Do with Math](https://medium.com/s/story/6-life-lessons-from-my-math-degree-that-have-nothing-to-do-with-math-d38aba90edfe) (6 min read on Medium)
-<!-- - Pictures of board work that we ran out of time to discuss. *Note:* You should not assume that the solutions/proofs posted below are valid or sufficient.
-    - Coming soon. -->
 - Quizzes:
    - Quiz 1 (coming soon)
    - Quiz 2 (coming soon)
@@ -62,6 +60,9 @@ Below you will find notes and handouts that we have used in class, as well as so
    - Quiz 5 (coming soon)
    - Quiz 6 (coming soon)
    - Quiz 7 (coming soon)
+
+<!-- - Pictures of board work that we ran out of time to discuss. *Note:* You should not assume that the solutions/proofs posted below are valid or sufficient.
+       - Coming soon. -->
 
 <blockquote>
   <p>Don’t just read it; fight it! Ask your own questions, look for your own examples, discover your own proofs. Is the hypothesis necessary? Is the converse true? What happens in the classical special case? What about the degenerate cases? Where does the proof use the hypothesis?</p>
