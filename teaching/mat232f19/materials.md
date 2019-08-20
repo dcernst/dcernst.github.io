@@ -30,7 +30,7 @@ title: Course Materials
 Below you will find notes and handouts that we have used in class, as well as some other useful stuff. We will add to the problem collection as the semester progresses.
 </p>
 
-- [Problem Collection for Mathematical Reasoning]({{ site.baseurl }}/teaching/mat220f18/220ProblemCollection.pdf) (PDF)
+- [Problem Collection for Mathematical Reasoning]({{ site.baseurl }}/teaching/mat232f19/232ProblemCollection.pdf) (PDF)
 - [Student Contract]({{ site.baseurl }}/teaching/StudentContract.pdf) (PDF)
 - [Setting the Stage]({{ site.baseurl }}/teaching/SettingTheStage.pdf) (PDF)
 - [The Secret to Raising Smart Kids &#124; Carol Dweck](https://www.scientificamerican.com/article/the-secret-to-raising-smart-kids1/) (article on Scientific American)
@@ -52,9 +52,16 @@ Below you will find notes and handouts that we have used in class, as well as so
 - [Learner Lab Podcasts &#124; Train Ugly](https://trainugly.com/learner-lab-podcast/)
 - [The Subtle Art of the Mathematical Conjecture](https://www.quantamagazine.org/the-subtle-art-of-the-mathematical-conjecture-20190507/) (article on Quanta Magazine)
 - [Lessons from My Math Degree That Have Nothing to Do with Math](https://medium.com/s/story/6-life-lessons-from-my-math-degree-that-have-nothing-to-do-with-math-d38aba90edfe) (6 min read on Medium)
-- Pictures of board work that we ran out of time to discuss. *Note:* You should not assume that the solutions/proofs posted below are valid or sufficient.
-    - Coming soon.
-- Quiz 1 (coming soon)
+<!-- - Pictures of board work that we ran out of time to discuss. *Note:* You should not assume that the solutions/proofs posted below are valid or sufficient.
+    - Coming soon. -->
+- Quizzes:
+   - Quiz 1 (coming soon)
+   - Quiz 2 (coming soon)
+   - Quiz 3 (coming soon)
+   - Quiz 4 (coming soon)
+   - Quiz 5 (coming soon)
+   - Quiz 6 (coming soon)
+   - Quiz 7 (coming soon)
 
 <blockquote>
   <p>Don’t just read it; fight it! Ask your own questions, look for your own examples, discover your own proofs. Is the hypothesis necessary? Is the converse true? What happens in the classical special case? What about the degenerate cases? Where does the proof use the hypothesis?</p>
