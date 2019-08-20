@@ -154,9 +154,7 @@ I will not be covering every detail of the notes and the only way to achieve a s
 Reviewing material from previous courses and looking up definitions and theorems you may have forgotten is fair game. However, when it comes to completing assignments for this course, you should *not* look to resources outside the context of this course for help.  That is, you should not be consulting the web, other texts, other faculty, or students outside of our course in an attempt to find solutions to the problems you are assigned.  On the other hand, you may use each other, the textbook, me, and your own intuition. If you feel you need additional resources, please come talk to me and we will come up with an appropriate plan of action.
 
 ### Exams ###
-There will be 3 midterm exams and a cumulative final exam.  Exam 1 and Exam 2 will be written exams consisting of an in-class portion (weighted 70%) and a take-home portion (weighted 30%).  The in-class portion of Exam 1 is *tentatively* scheduled for **Wednesday, ???** and the take-home portion of the exam will be due on **Monday, ???**.  The in-class portion of Exam 2 is *tentatively* scheduled for **Wednesday, ???** and the take-home portion of the exam will be due on **Monday, ???**.  Each of Exam 1 and Exam 2 will be worth 20% of your overall grade. Exam 3 will be a 30-minute oral exam taken individually in my office sometime during the last two weeks of classes. Exam 3 will be worth 10% of your overall grade. The final exam will be on **Wednesday, December 11** at **7:30-9:30AM** and is worth 20% of your overall grade. The final exam may or may not have a take-home portion.  Make-up exams will only be given under extreme circumstances, as judged by me. In general, it will be best to communicate conflicts ahead of time.
-
-<!-- There will be two midterm exams and a cumulative final exam. Each exam will consist of an in-class portion (weighted 70%) and a take-home portion (weighted 30%).  The in-class portions of the midterm exams are *tentatively* scheduled for **Friday, February 22** (week 6) and **Friday, April 12** (week 12).  The take-home portions of midterm exams will typically be due the following Wednesday. Each midterm exam will be worth 20% of your overall grade. The final exam is schedule for **Wednesday, May 8** at 10:00AM-12:00PM and is worth 25% of your overall grade.  Make-up exams will only be given under extreme circumstances, as judged by me.  In general, it will be best to communicate conflicts ahead of time. -->
+There will be 3 midterm exams and a cumulative final exam.  Exam 1 and Exam 2 will be written exams consisting of an in-class portion (weighted 70%) and a take-home portion (weighted 30%).  The in-class portion of Exam 1 is *tentatively* scheduled for **Wednesday, September 25** (week 5) and the take-home portion of the exam will be due on **Wednesday, October 2**.  The in-class portion of Exam 2 is *tentatively* scheduled for **Wednesday, November 6** (week 11) and the take-home portion of the exam will be due on **Wednesday, November 13**.  Each of Exam 1 and Exam 2 will be worth 20% of your overall grade. Exam 3 will be a 30-minute oral exam taken individually in my office sometime during the last two weeks of classes. Exam 3 will be worth 10% of your overall grade. The final exam will be on **Wednesday, December 11** at **7:30-9:30AM** and is worth 20% of your overall grade. The final exam may or may not have a take-home portion.  Make-up exams will only be given under extreme circumstances, as judged by me. In general, it will be best to communicate conflicts ahead of time.
 
 ### Homework ###
 
@@ -397,19 +395,19 @@ In summary, your final grade will be determined by your scores in the following 
 		<td>See above for requirements</td>
 	</tr>
 	<tr>
-		<td>Exam 1 (written)</td>
+		<td>Exam 1</td>
 		<td style="text-align: center;">20%</td>
-		<td>Wednesday, February 13</td>
+		<td>In-class portion (70%) and take-home portion (30%)</td>
 	</tr>
   <tr>
-    <td>Exam 2 (written)</td>
+    <td>Exam 2</td>
     <td style="text-align: center;">20%</td>
-    <td>Wednesday, April 3</td>
+    <td>In-class portion (70%) and take-home portion (30%)</td>
   </tr>
   <tr>
-    <td>Exam 3 (oral)</td>
+    <td>Exam 3</td>
     <td style="text-align: center;">10%</td>
-    <td>April 29-May 3</td>
+    <td>Individual oral exam</td>
   </tr>
 	<tr>
 		<td>Final Exam</td>
