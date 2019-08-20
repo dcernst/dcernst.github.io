@@ -288,11 +288,11 @@ If you are chosen to present but would prefer not to present that particular pro
 </table>
 </center>
 
-In summary, for each student presentation, I will record one of V, C, or P. In the case of V or C, I will also record one of U, I, M, or E based on the rubric given above. The most common pair will likely be CM (i.e., students was chosen to present and presentation meets expectations).
+In summary, for each student presentation, I will record one of V, C, or P. In the case of V or C, I will also record one of U, I, M, or E based on the rubric given above. The most common pair will likely be CM (i.e., student was chosen to present and presentation met expectations).
 
 #### Participation
 
-You expected to respectfully particpate and contribute to class discussions. This includes asking relevant and meaningful questions to both the instructor and your peers. Moreover, you are expected to be engaged and respectful during another student's presentation. Your class participation will be assessed as follows.
+You are expected to respectfully participate and contribute to class discussions. This includes asking relevant and meaningful questions to both the instructor and your peers. Moreover, you are expected to be engaged and respectful during another student's presentation. Your class participation will be assessed as follows.
 
 <center>
 <table class="table table-striped">
@@ -321,7 +321,7 @@ You expected to respectfully particpate and contribute to class discussions. Thi
 
 #### Determining Presentation and Participation Grades
 
-Your Presentation and Participation grade is determined by your frequency and ability to foster productive class discussions through presentations and audience participation. The greatest determining factor in your Presentation and Participation grade is your willingness to present often. You should aim to present at least twice prior to each midterm exam.  The table below provides a summary of how your Presentation and Participation grade will be determined.
+Your Presentation and Participation grade is determined by your frequency and ability to foster productive class discussions through presentations and audience participation. The greatest determining factor in your Presentation and Participation grade is your willingness to present often. You should aim to present at least once prior to each quiz.  The table below provides a summary of how your Presentation and Participation grade will be determined.
 
 <center>
 <table class="table table-striped">
@@ -342,11 +342,11 @@ Your Presentation and Participation grade is determined by your frequency and ab
 	</tr>
 	<tr>
 		<td style="text-align: center;">70-79%</td>
-		<td>Student receives M for participation. Student averages less than 2 presentations every four weeks. Student rarely volunteers to present and actively avoids presenting challenging problems. A few presentations receive U.</td>
+		<td>Student receives M for participation. Student averages less than 2 presentations every four weeks. Student rarely volunteers to present and actively avoids presenting challenging problems. Some presentations receive U.</td>
 	</tr>
 	<tr>
 		<td style="text-align: center;">60-69%</td>
-		<td>Student receives U for participation. Student rarely presents and actively avoids presenting challenging problems. Most presentations receive U.</td>
+		<td>Student receives U for participation. Student rarely presents and actively avoids presenting challenging problems. Some presentations receive U.</td>
 	</tr>
 <tr>
   <td style="text-align: center;">Below 60%</td>
@@ -371,7 +371,7 @@ Only I will remain.</p>
 </blockquote>
 
 ### Attendance ###
-Regular attendance is expected and is vital to success in this course, but you will not explicitly be graded on attendance.  Yet, repeated absences may impact your participation grade (see above).  Students can find more information about NAU's attendance policy on the [Academic Policies](http://nau.edu/Student-Life/Student-Handbook/Academic-Policies/) page.
+Regular attendance is expected and is vital to success in this course, but you will not explicitly be graded on attendance.  Yet, repeated absences may impact your participation grade (see above).  Students can find more information about NAU's attendance policy on the [Academic Policies](https://in.nau.edu/dean-of-students/academic-policies/) page.
 
 ### Basis for  Evaluation ###
 In summary, your overall grade is determined by your scores in the following categories.
@@ -434,5 +434,5 @@ There are many resources available to get help.  First, I recommend that you wor
 Any changes to this syllabus made during the term will be properly communicated to the class.
 
 <div class="alert alert-info" role="alert">
-<i class="far fa-hand-peace"></i>&nbsp; Portions of "Presentations and Participation" are adapted from <a href="http://www2.kenyon.edu/Depts/Math/schumacherc/public_html/" class="alert-link">Carol Schumacher's</a> <i>Chapter Zero Instructor Resource Manual</i>. The first paragraph of "An Inquiry-Based Approach" is borrowed from <a href="https://gist.github.com/RobertTalbert/7854aadbdfca232dbdda" class="alert-link">Robert Talbert</a>. The "Rights of the Learner" were adapted from a similar list written by <a href="https://embracinglifewithmajorrevisions.wordpress.com/2017/07/12/rights-of-the-learner-an-introduction/" class="alert-link">Crystal Kalinec-Craig</a>. The first paragraph of "Commitment to the Learning Community" is a modified version of statement that <a href="http://www.unco.edu/nhs/mathematical-sciences/faculty/bagley.aspx" class="alert-link">Spencer Bagley</a> has in his syllabi. Lastly, I've borrowed a few phrases here and there from <a href="http://www.users.csbsju.edu/~bbenesh/" class="alert-link">Bret Benesh</a>.
+<i class="far fa-hand-peace"></i>&nbsp; Portions of "Presentations and Participation" are adapted from <a href="http://www2.kenyon.edu/Depts/Math/schumacherc/public_html/" class="alert-link">Carol Schumacher's</a> <i>Chapter Zero Instructor Resource Manual</i>. The first paragraph of "An Inquiry-Based Approach" is borrowed from <a href="https://gist.github.com/RobertTalbert/7854aadbdfca232dbdda" class="alert-link">Robert Talbert</a>. The "Rights of the Learner" were adapted from a similar list written by <a href="https://embracinglifewithmajorrevisions.wordpress.com/2017/07/12/rights-of-the-learner-an-introduction/" class="alert-link">Crystal Kalinec-Craig</a>. The first paragraph of "Commitment to the Learning Community" is a modified version of statement that <a href="https://sbagleyteaches.wordpress.com" class="alert-link">Spencer Bagley</a> has in his syllabi. Lastly, I've borrowed a few phrases here and there from <a href="http://www.users.csbsju.edu/~bbenesh/" class="alert-link">Bret Benesh</a>.
 </div>
