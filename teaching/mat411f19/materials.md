@@ -37,7 +37,7 @@ I will not be covering every detail of the notes and the only way to achieve a s
   <footer><a href="http://en.wikipedia.org/wiki/Paul_Halmos">Paul Halmos</a></footer>
 </blockquote>
 
-The notes will be released incrementally. Each link below is to a PDF file. If you've found an error and have suggestions for improvements, please let me know.
+The notes will be released incrementally. Each link below is to a PDF file. If you've found an error or have suggestions for improvements, please let me know.
 
 <div class="alert alert-info" role="alert" style="margin: 10px 0 10px 0">
 <i class="fa fa-exclamation-triangle"></i>&nbsp; These notes are currently under construction and subject to change.
