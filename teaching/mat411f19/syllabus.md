@@ -161,7 +161,7 @@ In our classroom, diversity and individual differences are respected, appreciate
 Students are also expected to minimize distracting behaviors.  In particular, every attempt should be made to arrive to class on time.  If you must arrive late or leave early, please do not disrupt class. Please turn off the ringer on your cell phone.  I do not have a strict policy on the use of laptops, tablets, and cell phones.  You are expected to be paying attention and engaging in class discussions.  If your cell phone, etc. is interfering with your ability (or that of another student) to do this, then put it away, or I will ask you to put it away.
 
 ### Textbook ###
-Our textbook for the semester is <i>An Inquiry-Based Approach to Abstract Algebra</i>, which is a free and open-source textbook that was written by me ([Dana C. Ernst](http://danaernst.com)). The textbook is designed to be used with an [inquiry-based learning](http://maamathedmatters.blogspot.com/2013/05/what-heck-is-ibl.html) (IBL) approach to a first-semester undergraduate abstract algebra course. While the textbook covers many of the standard topics, the focus is on building intuition and emphasizes visualization. The textbook is available [here]({{site.baseurl}}/teaching/mat411s18/materials/).
+Our textbook for the semester is <i>An Inquiry-Based Approach to Abstract Algebra</i>, which is a free and open-source textbook that was written by me ([Dana C. Ernst](http://danaernst.com)). The textbook is designed to be used with an [inquiry-based learning](http://maamathedmatters.blogspot.com/2013/05/what-heck-is-ibl.html) (IBL) approach to a first-semester undergraduate abstract algebra course. While the textbook covers many of the standard topics, the focus is on building intuition and emphasizes visualization. The textbook is available [here]({{site.baseurl}}/teaching/mat411f19/materials/).
 
 I will not be covering every detail of the notes and the only way to achieve a sufficient understanding of the material is to be digesting the reading in a meaningful way.  You should be seeking clarification about the content of the notes whenever necessary by asking questions.  Here's one of my favorite quotes about reading mathematics.
 
@@ -447,7 +447,7 @@ In summary, your final grade will be determined by your scores in the following 
 	<tr>
 		<td>Final Exam</td>
 		<td style="text-align: center;">20%</td>
-		<td>Wednesday, May 8 at 7:30-9:30AM</td>
+		<td>Wednesday, December 11 at 7:30-9:30AM</td>
 	</tr>
 	</tbody>
 </table>
