@@ -1,5 +1,5 @@
 ---
-title: Introduction to Topology
+title: Introduction to Mathematical Reasoning
 author: Dana Ernst
 layout: default
 ---
