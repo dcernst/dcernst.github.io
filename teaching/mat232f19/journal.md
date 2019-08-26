@@ -36,7 +36,7 @@ We’ll use this page to keep track of what has happened each day in class. It w
 ## Week 1 ##
 
 <ul class="fa-ul">
-  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, August 26:</b> Coming soon!</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, August 26:</b> First day! The first few minutes of class were devoted to me attempting to learn names. I think I got them all! Next, I summarized what to expect from the course, toured the the <a href="{{site.baseurl}}/teaching/mat232f19/">course webpage</a>, and summarized a few items on the <a href="{{site.baseurl}}/teaching/mat232f19/syllabus/">syllabus</a>. With the time we had left, I split the class up into small groups and them work on a few variations of the mind-swapping problem from the TV show Futurama.  Great first day.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, August 28:</b> Coming soon!</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Friday, August 30:</b> Coming soon!</li>
 </ul>
