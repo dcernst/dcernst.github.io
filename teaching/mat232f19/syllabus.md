@@ -557,7 +557,7 @@ Here are some important dates:
 - **Friday, November 1:** Course withdrawal deadline
 - **Monday, November 11:** Veteran's Day (no classes)
 - **Thursday, November 28-Friday, November 29:** Thanksgiving Break (no classes)
-- **Wednesday, December 11:** Final Exam
+- **Monday, December 9:** Final Exam
 
 ### Getting Help ###
 There are many resources available to get help.  First, I recommend that you work on homework in small groups as much as possible and to come see me whenever necessary.  I am always happy to help you.  If my office hours don't work for you, then we can probably find another time to meet.  It is your responsibility to be aware of how well you understand the material.  Don't wait until it is too late if you need help.  *Ask questions*!  Lastly, you can always [email me](mailto:dana.ernst@nau.edu).
