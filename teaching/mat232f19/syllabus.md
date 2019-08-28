@@ -442,7 +442,7 @@ Your Presentation and Participation grade is determined by your frequency and ab
 </table>
 </center>
 
-I anticipate that most students will fall in the 80-89% range. Your Presentation and Participation grade is worth 15% of your overall grade.
+I anticipate that most students will fall in the 80-89% range. Your Presentation and Participation grade is worth 10% of your overall grade.
 
 <blockquote>
 <p>I must not fear.<br />
