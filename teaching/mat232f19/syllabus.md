@@ -334,7 +334,9 @@ Presentations will be assessed using the following criteria.
 </table>
 </center>
 
-You should aim to avoid unsatisfactory (U) presentations. An in progress (I) presentation should not be viewed as a bad thing as each of us will occasionally get stuck. However, you should strive for the majority of your presentations to meet (M) or exceed (E) expectations.  Most presentations will meet expectations (M) while presentations that exceed expectations (E) will be rare. You should not let the rubric deter you from presenting if you have an idea about a solution/proof that you'd like to present but are worried that your solution/proof is incomplete or you are not confident your solution/proof is correct.  You will be rewarded for being courageous and sharing your creative ideas!  In my view, an interestingly wrong solution or proof makes for the best presentation since it generates the best discussion. This is really what we are after. On the other hand, you should not come to the board to present unless you have spent time thinking about the problem and have something meaningful to contribute. I will provide a progress report concerning each student's presentation history after each of the midterm exams.
+You should aim to avoid unsatisfactory (U) presentations. An in progress (I) presentation should not be viewed as a bad thing as each of us will occasionally get stuck. However, you should strive for the majority of your presentations to meet (M) or exceed (E) expectations.  Most presentations will meet expectations (M) while presentations that exceed expectations (E) will be rare. You should not let the rubric deter you from presenting if you have an idea about a solution/proof that you'd like to present but are worried that your solution/proof is incomplete or you are not confident your solution/proof is correct.  You will be rewarded for being courageous and sharing your creative ideas!  In my view, an interestingly wrong solution or proof makes for the best presentation since it generates the best discussion. This is really what we are after. On the other hand, you should not come to the board to present unless you have spent time thinking about the problem and have something meaningful to contribute.
+
+<!-- I will provide a progress report concerning each student's presentation history after each of the midterm exams. -->
 
 <blockquote>
 <p>I alone cannot change the world, but I can cast a stone across the waters to create many ripples.</p>
@@ -405,7 +407,7 @@ You are expected to respectfully participate and contribute to class discussions
 
 #### Determining Presentation and Participation Grades
 
-Your Presentation and Participation grade is determined by your frequency and ability to foster productive class discussions through presentations and audience participation. The greatest determining factor in your Presentation and Participation grade is your willingness to present often. You should aim to present at least twice prior to each midterm exam.  The table below provides a summary of how your Presentation and Participation grade will be determined.
+Your Presentation and Participation grade is determined by your frequency and ability to foster productive class discussions through presentations and audience participation. The greatest determining factor in your Presentation and Participation grade is your willingness to present often. You should aim to present at least once prior to each quiz.  The table below provides a summary of how your Presentation and Participation grade will be determined.
 
 <center>
 <table class="table table-striped">
@@ -418,15 +420,15 @@ Your Presentation and Participation grade is determined by your frequency and ab
 	<tbody>
 	<tr>
 		<td style="text-align: center;">90-100%</td>
-		<td>Student receives M or E for participation. Student averages at least 3 presentations prior to each of the exams. Student often volunteers to present and some of these problems are challenging. Most presentations receive M or E.</td>
+		<td>Student receives M or E for participation. Student averages at least 3 presentations every four weeks. Student often volunteers to present and some of these problems are challenging. Most presentations receive M or E.</td>
 	</tr>
 	<tr>
 		<td style="text-align: center;">80-89%</td>
-		<td>Student receives M or E for participation. Student averages at least 2 presentations prior to each of the exams. Student occasionally volunteers to present. Most presentations receive M.</td>
+		<td>Student receives M or E for participation. Student averages at least 2 presentations every four weeks. Student occasionally volunteers to present. Most presentations receive M.</td>
 	</tr>
 	<tr>
 		<td style="text-align: center;">70-79%</td>
-		<td>Student receives M for participation. Student averages less than 2 presentations prior to each of the exams. Student rarely volunteers to present and actively avoids presenting challenging problems. Some presentations receive U.</td>
+		<td>Student receives M for participation. Student averages less than 2 presentations every four weeks. Student rarely volunteers to present and actively avoids presenting challenging problems. Some presentations receive U.</td>
 	</tr>
 	<tr>
 		<td style="text-align: center;">60-69%</td>
@@ -458,7 +460,7 @@ Only I will remain.</p>
 Regular attendance is expected and is vital to success in this course, but you will not explicitly be graded on attendance.  Yet, repeated absences may impact your participation grade (see above).  Students can find more information about NAU's attendance policy on the [Academic Policies](https://in.nau.edu/dean-of-students/academic-policies/) page.
 
 ### Extra Credit
-The only thing I will award extra credit for is finding typos on course materials (e.g., textbook, exams, syllabus, webpage).  This includes broken  links on the webpage.  However, it does not include the placement of commas and such.  If you find a typo, I will add one percentage point to your next exam.  You can earn at most two percentage points per exam and at most five percentage points over the course of the semester.
+The only thing I will award extra credit for is finding typos on course materials (e.g., textbook, quizzes, syllabus, webpage).  This includes broken  links on the webpage.  However, it does not include the placement of commas and such.  If you find a typo, I will add one percentage point to your next quiz.  You can earn at most two percentage points per quiz and at most five percentage points over the course of the semester.
 
 ### Basis for Evaluation ###
 In summary, your final grade will be determined by your scores in the following categories.
@@ -496,53 +498,6 @@ In summary, your final grade will be determined by your scores in the following 
 	</tbody>
 </table>
 </center>
-
-<!-- ### Basis for Evaluation ###
-In summary, your final grade will be determined by your scores in the following categories.
-
-<center>
-<table class="table table-striped">
-	<thead>
-	<tr>
-		<th>Category</th>
-		<th style="text-align: center;">Weight</th>
-		<th>Notes </th>
-	</tr>
-	</thead>
-	<tbody>
-	<tr>
-		<td>Homework</td>
-		<td style="text-align: center;">15%</td>
-		<td>A combination of Daily &amp; Weekly Homework</td>
-	</tr>
-  <tr>
-		<td>Presentations &amp; Participation</td>
-		<td style="text-align: center;">15%</td>
-		<td>See above for requirements</td>
-	</tr>
-	<tr>
-		<td>Exam 1</td>
-		<td style="text-align: center;">20%</td>
-		<td>In-class portion (70%) and take-home portion (30%)</td>
-	</tr>
-  <tr>
-    <td>Exam 2</td>
-    <td style="text-align: center;">20%</td>
-    <td>In-class portion (70%) and take-home portion (30%)</td>
-  </tr>
-  <tr>
-    <td>Exam 3</td>
-    <td style="text-align: center;">10%</td>
-    <td>Individual oral exam</td>
-  </tr>
-	<tr>
-		<td>Final Exam</td>
-		<td style="text-align: center;">20%</td>
-		<td>Wednesday, May 8 at 7:30-9:30AM</td>
-	</tr>
-	</tbody>
-</table>
-</center> -->
 
 ### Department and University Policies ###
 You are responsible for knowing and following the [Department of Mathematics and Statistics Policies]({{ site.baseurl }}/teaching/DepartmentPoliciesFall2019.pdf) (PDF) and other University policies listed [here](https://nau.edu/university-policy-library/wp-content/uploads/sites/26/Syllabus-Policy-Statements.pdf) (PDF).  More policies can be found in other university documents, especially the [NAU Student Handbook](https://in.nau.edu/dean-of-students/Student-Handbook/) (see appendices) and the website of the [Student Outreach and Support](https://in.nau.edu/dean-of-students/nau-sos/) (SOS).
