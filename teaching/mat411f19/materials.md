@@ -117,7 +117,8 @@ The notes will be released incrementally. Each link below is to a PDF file. If y
 - [The Subtle Art of the Mathematical Conjecture](https://www.quantamagazine.org/the-subtle-art-of-the-mathematical-conjecture-20190507/) (article on Quanta Magazine)
 - [Lessons from My Math Degree That Have Nothing to Do with Math](https://medium.com/s/story/6-life-lessons-from-my-math-degree-that-have-nothing-to-do-with-math-d38aba90edfe) (6 min read on Medium)
 - Pictures of board work that we ran out of time to discuss. *Note:* You should not assume that the solutions/proofs posted below are valid or sufficient.
-    - Coming soon.
+    - [Problem 2.7]({{site.baseurl}}/teaching/mat411f19/Problem2.7.jpeg)
+    - [Problem 2.9]({{site.baseurl}}/teaching/mat411f19/Problem2.9.jpeg)
 
 ## Exams
 Below are links to the take-home portions of each exam. If you are interested in using LaTeX to type up your solutions, contact me and I will send you a link to the source file of the exam.
