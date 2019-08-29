@@ -163,7 +163,7 @@ In our classroom, diversity and individual differences are respected, appreciate
 Students are also expected to minimize distracting behaviors.  In particular, every attempt should be made to arrive to class on time.  If you must arrive late or leave early, please do not disrupt class. Please turn off the ringer on your cell phone.  I do not have a strict policy on the use of laptops, tablets, and cell phones.  You are expected to be paying attention and engaging in class discussions.  If your cell phone, etc. is interfering with your ability (or that of another student) to do this, then put it away, or I will ask you to put it away.
 
 ### Problem Collection ###
-We will not be using a textbook this semester, but rather a problem sequence designed for this course.  The problem collection will be available on the course webpage. We will not be covering every detail of the notes and the only way to achieve a sufficient understanding of the material is to be digesting the reading in a meaningful way. You should be seeking clarification about the content of the notes whenever necessary by asking questions in class or posting questions to the course forum.  Here's one of my favorite quotes about reading mathematics.
+We will not be using a formal textbook this semester, but rather a problem sequence designed for this course.  The problem collection will be available on the course webpage. We will not be covering every detail of the notes and the only way to achieve a sufficient understanding of the material is to be digesting the reading in a meaningful way. You should be seeking clarification about the content of the notes whenever necessary by asking questions in class or posting questions to the course forum.  Here's one of my favorite quotes about reading mathematics.
 
 <blockquote>
 <p>Don’t just read it; fight it! Ask your own questions, look for your own examples, discover your own proofs. Is the hypothesis necessary? Is the converse true? What happens in the classical special case? What about the degenerate cases? Where does the proof use the hypothesis?</p>
@@ -171,7 +171,7 @@ We will not be using a textbook this semester, but rather a problem sequence des
 </blockquote>
 
 ### Rules of the Game ###
-Reviewing material from previous courses and looking up definitions and theorems/facts you may have forgotten is fair game. However, when it comes to completing assignments for this course, you should *not* look to resources outside the context of this course for help.  That is, you should not be consulting the web, other texts, other faculty, or students outside of our course in an attempt to find solutions to the problems you are assigned.  On the other hand, you may use each other, the textbook, me, and your own intuition. If you feel you need additional resources, please come talk to me and we will come up with an appropriate plan of action. Please read NAU's [Academic Integrity Policy](https://www5.nau.edu/policies/Client/Details/828?whoIsLooking=Students&pertainsTo=All&sortDirection=Ascending&page=1).
+Reviewing material from previous courses and looking up definitions and theorems/facts you may have forgotten is fair game. However, when it comes to completing assignments for this course, you should *not* look to resources outside the context of this course for help.  That is, you should not be consulting the web, other texts, other faculty, or students outside of our course in an attempt to find solutions to the problems you are assigned.  On the other hand, you may use each other, the course notes, me, and your own intuition. If you feel you need additional resources, please come talk to me and we will come up with an appropriate plan of action. Please read NAU's [Academic Integrity Policy](https://www5.nau.edu/policies/Client/Details/828?whoIsLooking=Students&pertainsTo=All&sortDirection=Ascending&page=1).
 
 ### Quizzes and Final Exam ###
 We will have 7 quizzes this semester. Tentatively, the quizzes are scheduled for the following Mondays:
@@ -220,61 +220,6 @@ Each quiz will consist of a mixture of homework problems you encountered during 
 </center>
 
 Make-up quizzes will only be given under extreme circumstances, as judged by me. In general, it will be best to communicate conflicts ahead of time.  Your Quiz grade is worth 60% of your overall grade. We will also have a cumulative final exam that takes place on **Monday, December 9 at 10:00AM-12:00PM**.  Your Final Exam grade is worth 20% of your overall grade.
-
-<!-- ### Homework ###
-
-#### General Comments
-You are allowed and encouraged to work together on homework.  However, each student is expected to turn in his or her own work.  In general, late homework will *not* be accepted.  However, you are allowed to turn in three late homework assignments with no questions asked. Unless you have made arrangements in advance with me, homework turned in after class will be considered late. When doing your homework, I encourage you to consult the [Elements of Style for Proofs]({{site.baseurl}}/teaching/ElementsOfStyle.pdf). Your overall homework grade will be worth 20% of your final grade.
-
-On each homework assignment, please write (i) your name, (ii) name of course, and (iii) Daily/Weekly Homework number.  You can find the list of assignments on the [homework page]({{site.baseurl}}/teaching/mat411f19/homework/).  I reserve the right to modify the homework assignments as I see necessary.
-
-#### Daily Homework
-Homework will be assigned each class meeting, and students are expected to complete (or try their best to complete) each assignment before walking into the next class period. All assignments should be *carefully*, *clearly*, and *cleanly* written. Among other things, this means your work should include proper grammar, punctuation, and spelling. You should write a draft of a given solution before you write down the final argument, so do yourself a favor and get in the habit of differentiating your scratch work from your submitted assignment.
-
-The Daily Homework will generally consist of completing exercises and proving theorems from the textbook.  In addition to completing the assigned problems, I also want you to assess your own work.  Next to each problem, I want you to write down a score between 0 and 4 that represents your perception of the validity and quality of your proposed solution/proof. Consider using the rubric given below in the description of the Weekly Homework assignments.  Not completing the self-assessment step may impact the score on your homework.
-
-On the day that a homework assignment is due, the majority of the class period will be devoted to students presenting some subset (maybe all) of the proofs/solutions that are due that day.  Daily Homework will be graded using a $\checkmark$-system.  You are allowed (in fact, encouraged!) to modify your written work in light of presentations made in class; however, **you are required to use the colored marker pens provided in class**.  This will allow me to differentiate the work done in class versus the work you completed before class.  The grade you receive on an assignment will be determined by the work you completed prior to class.  I will provide more guidance with respect to this during the first couple weeks of the semester.
-
-<blockquote>
-<p>I write one page of masterpiece to ninety-one pages of shit.</p>
-<footer><a href="https://en.wikipedia.org/wiki/Ernest_Hemingway">Ernest Hemingway</a></footer>
-</blockquote>
-
-#### Weekly Homework
-In addition to the Daily Homework, we will also have Weekly Homework assignments.  For most of these assignments, you will be required to submit 2-3 formally written proofs.  Some or all of these problems will come directly from the Daily Homework assigned the previous week.  You are required to type your submission using LaTeX. You can either submit a hardcopy of your assignment or email me the PDF of your completed work. If you email me the PDF, please name your file as <code>WeeklyX-LastName.pdf</code>, where <code>X</code> is the number of the assignment and <code>LastName</code> is your last name.  Notice there are no spaces in the filename. Each problem on the Weekly Homework assignments is subject to the following rubric:
-
-<center>
-<table class="table table-striped">
-	<thead>
-	<tr>
-		<th style="text-align: center;">Grade</th>
-		<th>Criteria</th>
-	</tr>
-	</thead>
-	<tbody>
-	<tr>
-		<td style="text-align: center;">4</td>
-		<td>This is correct and well-written mathematics!</td>
-	</tr>
-	<tr>
-		<td style="text-align: center;">3</td>
-		<td>This is a good piece of work, yet there are some mathematical errors or some writing errors that need addressing.</td>
-	</tr>
-	<tr>
-		<td style="text-align: center;">2</td>
-		<td>There is some good intuition here, but there is at least one serious flaw. </td>
-	</tr>
-	<tr>
-		<td style="text-align: center;">1</td>
-		<td>I don't understand this, but I see that you have worked on it; come see me!</td>
-	</tr>
-	<tr>
-		<td style="text-align: center;">0</td>
-		<td>I believe that you have not worked on this problem enough or you didn't submit any work.</td>
-	</tr>
-	</tbody>
-</table>
-</center> -->
 
 ### Homework ###
 Homework will be assigned each class meeting, and you are expected to complete (or try your best to complete) each assignment before walking into the next class period. Homework assignments will generally consist of solving problems from the problem sequence.  Homework will be graded on a $\checkmark$-system. You are allowed (in fact, encouraged!) to modify your written solution in light of presentations made in class. However, **you are required to use the colored marker pens provided in class**. This will allow me to differentiate the work done in class versus the work you completed before class.  The grade you receive on an assignment will be determined by the work you completed prior to class.  I will provide more guidance with respect to this during the first couple weeks of the semester.
@@ -460,7 +405,7 @@ Only I will remain.</p>
 Regular attendance is expected and is vital to success in this course, but you will not explicitly be graded on attendance.  Yet, repeated absences may impact your participation grade (see above).  Students can find more information about NAU's attendance policy on the [Academic Policies](https://in.nau.edu/dean-of-students/academic-policies/) page.
 
 ### Extra Credit
-The only thing I will award extra credit for is finding typos on course materials (e.g., textbook, quizzes, syllabus, webpage).  This includes broken  links on the webpage.  However, it does not include the placement of commas and such.  If you find a typo, I will add one percentage point to your next quiz.  You can earn at most two percentage points per quiz and at most five percentage points over the course of the semester.
+The only thing I will award extra credit for is finding typos on course materials (e.g., course notes, quizzes, syllabus, webpage).  This includes broken  links on the webpage.  However, it does not include the placement of commas and such.  If you find a typo, I will add one percentage point to your next quiz.  You can earn at most two percentage points per quiz and at most five percentage points over the course of the semester.
 
 ### Basis for Evaluation ###
 In summary, your final grade will be determined by your scores in the following categories.
