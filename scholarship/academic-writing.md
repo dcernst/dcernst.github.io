@@ -22,7 +22,7 @@ You can find a recent version of my curriculum vitae [here]({{site.baseurl}}/sch
 ## In Preparation
   * B.J. Benesh, D.C. Ernst, and N. Sieben. The spectrum of impartial achievement games for generating finite groups.
   * H. Denoncourt, D.C. Ernst, and T. Rosenberg. On signed permutations of maximal reversal length.
-  * F.Awik, J. Breland, Q.Cadman, and D.C. Ernst. Architecture of braid classes in simply-laced Coxeter systems.
+  * F. Awik, J. Breland, Q.Cadman, and D.C. Ernst. Architecture of braid classes in simply-laced Coxeter systems.
   * R. Davis, D.C. Ernst, and A. Moll. Switch: An impartial game for generating graphs.
 
 <!-- ## Submitted -->
