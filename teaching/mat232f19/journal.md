@@ -45,6 +45,6 @@ We’ll use this page to keep track of what has happened each day in class. It w
 
 <ul class="fa-ul">
   <li><i class="fa-li far fa-calendar-check"></i><b>Monday, September 2:</b> Labor Day, no class.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, September 4:</b> Coming soon!</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, September 4:</b> Today was one of those days where I was reminded how awesome my job is.  We kicked off by discussing the videos on grit and growth mindset I asked the students to watch.  Perhaps I ran my mouth too much, but we had a nice discussion nonetheless.  After discussing the videos, I asked the class to split up into groups of size 2-3.  The intention was for people to work with people they hadn't interacted with much yet.  Each group was tasked with discussing at least two parts of Problem 7 (soul swapping).  We had DM/AS and TB present parts (a) and (b), respectively.  It was nice to see a variety of approaches to notation.  We'll catch up on parts (c) and (d) next time.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Friday, September 6:</b> Coming soon!</li>
 </ul>
