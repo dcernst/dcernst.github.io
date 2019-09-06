@@ -119,7 +119,7 @@ The notes will be released incrementally. Each link below is to a PDF file. If y
 - Pictures of board work that we ran out of time to discuss. *Note:* You should not assume that the solutions/proofs posted below are valid or sufficient.
     - [Problem 2.7]({{site.baseurl}}/teaching/mat411f19/Problem2.7.jpeg)
     - [Problem 2.9]({{site.baseurl}}/teaching/mat411f19/Problem2.9.jpeg)
-    - [Theorem 2.29]({{site.baseurl}}/teaching/mat411f19/Theorem2.29.jpeg)
+    - [Theorem 2.29]({{site.baseurl}}/teaching/mat411f19/Theorem2.29.jpg)
     - [Problem 2.31]({{site.baseurl}}/teaching/mat411f19/Problem2.31.jpg)
 
 ## Exams
