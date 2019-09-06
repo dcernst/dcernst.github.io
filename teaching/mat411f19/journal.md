@@ -46,5 +46,5 @@ We’ll use this page to keep track of what has happened each day in class. It w
 <ul class="fa-ul">
   <li><i class="fa-li far fa-calendar-check"></i><b>Monday, September 2:</b> Labor Day, no class.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, September 4:</b> Fun day of class today.  We kicked off with a brief discussion of LaTeX and then jumped into student presentations.  We had DT, BS, HA, HL, AR, and CM present Problems 2.13(a), 2.13(b), 2.13(c), 2.14, 2.20(a), and 2.20(b), respectively.  Along the way, we also discussed Problems 2.17-2.19 and ended with a class discussion of Problem 2.21.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, September 6:</b> Coming soon!</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, September 6:</b> Busy day, but we managed to get through almost everything that was planned.  We had TN, SB, and MG present Problems 2.22, 2.23, and 2.26, respectively.  Along the way, we also discussed Problems 2.24 and 2.27.</li>
 </ul>
