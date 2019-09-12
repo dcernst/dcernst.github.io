@@ -121,6 +121,7 @@ The notes will be released incrementally. Each link below is to a PDF file. If y
     - [Problem 2.9]({{site.baseurl}}/teaching/mat411f19/Problem2.9.jpeg)
     - [Theorem 2.29]({{site.baseurl}}/teaching/mat411f19/Theorem2.29.jpg)
     - [Problem 2.31]({{site.baseurl}}/teaching/mat411f19/Problem2.31.jpg)
+    - [Theorem 2.45]({{site.baseurl}}/teaching/mat411f19/Theorem2.45.jpg)
 
 ## Exams
 Below are links to the take-home portions of each exam. If you are interested in using LaTeX to type up your solutions, contact me and I will send you a link to the source file of the exam.

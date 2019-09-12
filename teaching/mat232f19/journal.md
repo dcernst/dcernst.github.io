@@ -53,6 +53,6 @@ We’ll use this page to keep track of what has happened each day in class. It w
 
 <ul class="fa-ul">
   <li><i class="fa-li far fa-calendar-check"></i><b>Monday, September 9:</b> The students took Quiz 1.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, September 11:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, September 11:</b> I felt like we accomplished a lot today. We spent some time reviewing the solution to Problem 10(a) and then had CM, WE, TY, and SE present Problems 10(b), 10(c), 11, and 12, respectively. All of these problems had the same theme. With the few minutes we had left, VS did a quick run down of his approach to Problem 9. We'll revisit this one on Friday.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Friday, September 13:</b> Coming soon.</li>
 </ul>
