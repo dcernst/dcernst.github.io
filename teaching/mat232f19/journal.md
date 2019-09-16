@@ -54,5 +54,13 @@ We’ll use this page to keep track of what has happened each day in class. It w
 <ul class="fa-ul">
   <li><i class="fa-li far fa-calendar-check"></i><b>Monday, September 9:</b> The students took Quiz 1.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, September 11:</b> I felt like we accomplished a lot today. We spent some time reviewing the solution to Problem 10(a) and then had CM, WE, TY, and SE present Problems 10(b), 10(c), 11, and 12, respectively. All of these problems had the same theme. With the few minutes we had left, VS did a quick run down of his approach to Problem 9. We'll revisit this one on Friday.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, September 13:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, September 13:</b> I think I ran my mouth too much today. After reviewing the big picture for Problems 13-15, we divided the class up into 5 small groups. After letting each group chat about their assigned problem for several minutes, we had CP, VS, DM, DB, and MB present Problems 13, 14(b), 14(c), 14(d), and 15, respectively.  We still need to find time to revisit Problem 9.</li>
+</ul>
+
+## Week 4 ##
+
+<ul class="fa-ul">
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, September 16:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, September 18:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, September 20:</b> Coming soon.</li>
 </ul>

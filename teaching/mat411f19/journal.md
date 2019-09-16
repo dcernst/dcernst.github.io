@@ -54,5 +54,13 @@ We’ll use this page to keep track of what has happened each day in class. It w
 <ul class="fa-ul">
   <li><i class="fa-li far fa-calendar-check"></i><b>Monday, September 9:</b> I haven't done a good job of keeping us on schedule or picking the correct number of problems for homework.  Hopefully, we'll get on track soon. Nonetheless, I think things are going well.  I kicked off today by discussing the axioms of a group. Next, we had SW, DC, and BS present Theorem 2.29, Problem 2.31(a), and Problem 2.38, respectively.  Along the way, we discussed Problems 2.32-2.36. We will catch up on Theorems 2.37 and 2.39 next time.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, September 11:</b> After reviewing the axioms of a group, we discussed a few key ideas related to the recent proofs.  We had RH, CM, and AA present proofs for Theorems 2.37, 2.39, and 2.45, respectively.  We also discussed Problem 2.40. The goal is to tackle Theorems 2.41-2.44 next time.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, September 13:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, September 13:</b> We are making progress and I think the students are feeling much more comfortable with writing proofs, but we're still a bit behind where I'd like to be. After dividing the class up into small groups, we had HL, MG, and JT present Theorems 2.41, 2.42, and 2.44, respectively.</li>
+</ul>
+
+## Week 4 ##
+
+<ul class="fa-ul">
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, September 16:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, September 18:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, September 20:</b> Coming soon.</li>
 </ul>
