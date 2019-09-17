@@ -60,7 +60,7 @@ We’ll use this page to keep track of what has happened each day in class. It w
 ## Week 4 ##
 
 <ul class="fa-ul">
-  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, September 16:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, September 16:</b> Today was mostly about catching up and reviewing previous problems.  We spent some time discussing Problem 9 and then AC presented Problem 17. This was followed by revisiting Problems 14 and 15. We will catch up on Problem 16 next time.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, September 18:</b> Coming soon.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Friday, September 20:</b> Coming soon.</li>
 </ul>
