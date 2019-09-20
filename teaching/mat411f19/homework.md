@@ -45,6 +45,8 @@ The following assignments are due at the beginning of the indicated class meetin
 - **Daily Homework 11:** Complete 2.51, 2.54-2.56 in [Chapter 2: An Introduction to Groups]({{site.baseurl}}/teaching/mat411f19/IntroGroups.pdf) and digest the surrounding text along the way. (Due Monday, September 16)
 - **Daily Homework 12:** Complete 2.57-2.59 in [Chapter 2: An Introduction to Groups]({{site.baseurl}}/teaching/mat411f19/IntroGroups.pdf) and digest the surrounding text along the way. (Due Wednesday, September 18)
 - **Daily Homework 13:** Complete 2.60-2.68 in [Chapter 2: An Introduction to Groups]({{site.baseurl}}/teaching/mat411f19/IntroGroups.pdf) and digest the surrounding text along the way. (Due Friday, September 20)
+- **Daily Homework 14:** Complete 2.70-2.72 in [Chapter 2: An Introduction to Groups]({{site.baseurl}}/teaching/mat411f19/IntroGroups.pdf) and digest the surrounding text along the way. (Due Monday, September 23)
+
 
 <!-- - **Daily Homework 1:** Read the [syllabus]({{site.baseurl}}/teaching/mat411f19/syllabus/) and write down 5 important items.  *Note:*  All of the exam dates only count as a single item.  Turn in on your own paper at the beginning of class. (Due Wednesday, August 29)
 - **Daily Homework 2:** Read and sign the [Student Contract]({{site.baseurl}}/teaching/StudentContract.pdf). (Due Wednesday, August 29)
