@@ -61,6 +61,14 @@ We’ll use this page to keep track of what has happened each day in class. It w
 
 <ul class="fa-ul">
   <li><i class="fa-li far fa-calendar-check"></i><b>Monday, September 16:</b> Lots of awesome stuff happened today.  Things are coming together! We had BS and SW present proofs for Theorem 2.48(a) and Theorem 2.51. Along the way, we discussed the proof of Theorem 2.48(b) and rehashed Theorem 2.51.  In addition, we tackled Problem 2.49.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, September 18:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, September 18:</b> We had CW, DT, JS, HA, and KG present Problems 2.55(abc), 2.55(de), 2.56(a), 2.57(abcd), and 2.57(ef), respectively</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Friday, September 20:</b> Coming soon.</li>
+</ul>
+
+## Week 5 ##
+
+<ul class="fa-ul">
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, September 23:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, September 25:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, September 27:</b> Coming soon.</li>
 </ul>
