@@ -62,5 +62,13 @@ We’ll use this page to keep track of what has happened each day in class. It w
 <ul class="fa-ul">
   <li><i class="fa-li far fa-calendar-check"></i><b>Monday, September 16:</b> Today was mostly about catching up and reviewing previous problems.  We spent some time discussing Problem 9 and then AC presented Problem 17. This was followed by revisiting Problems 14 and 15. We will catch up on Problem 16 next time.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, September 18:</b> We covered a lot of problems today! We had SS, VM, JL, TR, SC, DB, DE, LF, AL, AS, CS, HT/TB, DT present Problems 16(a), 16(b), 16(c), 16(d), 19(a), 19(b), 19(c), 20, 21(a), 21(b), 21(c), 21(d), and 21(e), respectively.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, September 20:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, September 20:</b> After revisiting Problem 21(d), we had DT/JL, CS, and CP present Problems 18, 22, and 23, respectively. We will likely revisit Problem 22 since we were a bit rushed at the end of class.</li>
+</ul>
+
+## Week 5 ##
+
+<ul class="fa-ul">
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, September 23:</b> The students took Quiz 2.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, September 25:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, September 27:</b> Coming soon.</li>
 </ul>
