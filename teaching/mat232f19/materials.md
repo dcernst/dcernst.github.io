@@ -54,7 +54,7 @@ Below you will find notes and handouts that we have used in class, as well as so
 - [Lessons from My Math Degree That Have Nothing to Do with Math](https://medium.com/s/story/6-life-lessons-from-my-math-degree-that-have-nothing-to-do-with-math-d38aba90edfe) (6 min read on Medium)
 - Quizzes:
    - [Quiz 1]({{ site.baseurl }}/teaching/mat232f19/232Quiz1.pdf) (PDF)
-   - Quiz 2 (coming soon)
+   - [Quiz 2]({{ site.baseurl }}/teaching/mat232f19/232Quiz2.pdf) (PDF)
    - Quiz 3 (coming soon)
    - Quiz 4 (coming soon)
    - Quiz 5 (coming soon)
