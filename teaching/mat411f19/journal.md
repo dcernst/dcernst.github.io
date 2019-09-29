@@ -70,5 +70,13 @@ We’ll use this page to keep track of what has happened each day in class. It w
 <ul class="fa-ul">
   <li><i class="fa-li far fa-calendar-check"></i><b>Monday, September 23:</b> I think a lot of connections were made today.  We had RH, TN, JC, DC, AL, and HL present Theorem 2.64, Problem 2.70, Problem 2.71(a), Problem 2.71(b), Problem 2.71(c), and Problem 2.71(d), respectively. We also tackled Problems 2.66, 2.67, and 2.68.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, September 25:</b> The students took the in-class portion of Exam 1.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, September 27:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, September 27:</b> While the students are working on the take-home portion of Exam 1, I will lecture for the next few class meetings.  I covered up to Theorem 2.75.</li>
+</ul>
+
+## Week 6 ##
+
+<ul class="fa-ul">
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, September 30:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, October 2:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, October 4:</b> Coming soon.</li>
 </ul>

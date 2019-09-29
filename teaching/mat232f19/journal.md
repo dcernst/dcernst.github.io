@@ -70,5 +70,13 @@ We’ll use this page to keep track of what has happened each day in class. It w
 <ul class="fa-ul">
   <li><i class="fa-li far fa-calendar-check"></i><b>Monday, September 23:</b> The students took Quiz 2.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, September 25:</b> We started off by revisiting Problem 22 (ants on a stick) and then split the class up into a few small groups.  We had SE, SS, WE, SC, and TR present Problems 24(a), 24(b), 24(c), 25, and 26, respectively.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, September 27:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, September 27:</b> We had DE, TY, and JL present Problems 27, 28, and 29, respectively. With the few minutes we had left at the end, we quickly discussed what "visual proof" means.</li>
+</ul>
+
+## Week 6 ##
+
+<ul class="fa-ul">
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, September 30:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, October 2:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, October 4:</b> Coming soon.</li>
 </ul>
