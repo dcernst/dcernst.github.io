@@ -76,7 +76,7 @@ We’ll use this page to keep track of what has happened each day in class. It w
 ## Week 6 ##
 
 <ul class="fa-ul">
-  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, September 30:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, September 30:</b> More lecturing.  We wrapped up Chapter 2 and got started on Chapter 3.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, October 2:</b> Coming soon.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Friday, October 4:</b> Coming soon.</li>
 </ul>
