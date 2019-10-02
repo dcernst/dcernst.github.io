@@ -77,6 +77,6 @@ We’ll use this page to keep track of what has happened each day in class. It w
 
 <ul class="fa-ul">
   <li><i class="fa-li far fa-calendar-check"></i><b>Monday, September 30:</b> More lecturing.  We wrapped up Chapter 2 and got started on Chapter 3.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, October 2:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, October 2:</b> After handing back the in-class portion of Exam 1 and giving the class a short pep talk, I continued lecturing over Chapter 3.  We got through Problem 3.18.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Friday, October 4:</b> Coming soon.</li>
 </ul>
