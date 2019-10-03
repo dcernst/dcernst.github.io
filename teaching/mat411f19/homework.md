@@ -47,7 +47,7 @@ The following assignments are due at the beginning of the indicated class meetin
 - **Daily Homework 13:** Complete 2.60-2.68 in [Chapter 2: An Introduction to Groups]({{site.baseurl}}/teaching/mat411f19/IntroGroups.pdf) and digest the surrounding text along the way. (Due Friday, September 20)
 - **Daily Homework 14:** Complete 2.70-2.72 in [Chapter 2: An Introduction to Groups]({{site.baseurl}}/teaching/mat411f19/IntroGroups.pdf) and digest the surrounding text along the way. (Due Monday, September 23)
 - **Daily Homework 15:** Complete 3.15, 3.16, 3.20, 3.22, 3.25 in [Chapter 3: Subgroups and Isomorphisms]({{site.baseurl}}/teaching/mat411f19/SubgroupsIsomorphisms.pdf) and digest the surrounding text along the way. (Due Friday, October 4)
-
+- **Daily Homework 16:** Complete ??? in [Chapter 3: Subgroups and Isomorphisms]({{site.baseurl}}/teaching/mat411f19/SubgroupsIsomorphisms.pdf) and digest the surrounding text along the way. (Due Monday, October 7)
 
 <!-- - **Daily Homework 1:** Read the [syllabus]({{site.baseurl}}/teaching/mat411f19/syllabus/) and write down 5 important items.  *Note:*  All of the exam dates only count as a single item.  Turn in on your own paper at the beginning of class. (Due Wednesday, August 29)
 - **Daily Homework 2:** Read and sign the [Student Contract]({{site.baseurl}}/teaching/StudentContract.pdf). (Due Wednesday, August 29)
@@ -87,6 +87,7 @@ For most of the assignments below, you will be required to submit 2-3 formally w
 - **Weekly Homework 1:** Read <a href="https://www.scientificamerican.com/article/the-secret-to-raising-smart-kids1/">The Secret to Raising Smart Kids</a> by <a href="https://en.wikipedia.org/wiki/Carol_Dweck/">Carol Dweck</a> and <a href="https://www.turnaroundusa.org/7-things-growth-mindset-is-not/">7 Things Growth Mindset is Not</a>. Write a one-page summary/reflection about the article. For this assignment, I suggest you use the template on <a href="https://www.overleaf.com/">Overleaf</a> found <a href="https://www.overleaf.com/latex/templates/weekly-homework-1-for-reflection-on-the-secret-to-raising-smart-kids/wsqscmkyzrsr">here</a> instead of using the "Start your homework in Overleaf" link below. (Due Thursday, September 5 by 8PM)
 - **Weekly Homework 2:** Prove **two** of Theorems 2.29, 2.37, 2.39, 2.41, 2.42. You must type up your proofs using LaTeX.  I suggest you use my Overleaf template, which you can access by clicking the "Start your homework in Overleaf" link below. (Due Friday, September 13 by 8PM)
 - **Weekly Homework 3:** Prove **two** of Theorems 2.44, 2.45, 2.48(a), 2.48(b). You must type up your proofs using LaTeX.  (Due Thursday, September 19 by 8PM)
+- **Weekly Homework 4:** Prove **two** of Theorems 2.75, 2.76, 2.78, 3.19, 3.21. You must type up your proofs using LaTeX.  (Due Thursday, October 10 by 8PM)
 
 
 <!-- - **Weekly Homework 2:** Prove **two** of Theorems 2.29, 2.37, 2.39. You must type up your proofs using LaTeX.  I suggest you use my Overleaf template, which you can access by clicking the "Start your homework in Overleaf" link below. (Due Thursday, September 13 by 8PM)
