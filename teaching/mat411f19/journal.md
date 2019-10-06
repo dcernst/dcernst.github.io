@@ -78,5 +78,13 @@ We’ll use this page to keep track of what has happened each day in class. It w
 <ul class="fa-ul">
   <li><i class="fa-li far fa-calendar-check"></i><b>Monday, September 30:</b> More lecturing.  We wrapped up Chapter 2 and got started on Chapter 3.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, October 2:</b> After handing back the in-class portion of Exam 1 and giving the class a short pep talk, I continued lecturing over Chapter 3.  We got through Problem 3.18.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, October 4:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, October 4:</b> Busy day! I think we made substantial progress, but we will have to catch up on a few problems that we did not get to.  After reviewing the key ideas of subgroups and center of a group, I split the class until into several small groups and then jumped into student presentations.  We had AL, JS, HA, HL, and MK present Problems 3.15(a), 3.15(b), 3.15(c), 3.16(b), and 3.16(c), respectively. Along the way, I also discussed parts (d) and (e) of Problem 3.16.</li>
+</ul>
+
+## Week 7 ##
+
+<ul class="fa-ul">
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, October 7:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, October 9:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, October 11:</b> Coming soon.</li>
 </ul>

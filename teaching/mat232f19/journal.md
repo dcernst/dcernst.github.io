@@ -78,5 +78,13 @@ We’ll use this page to keep track of what has happened each day in class. It w
 <ul class="fa-ul">
   <li><i class="fa-li far fa-calendar-check"></i><b>Monday, September 30:</b> I spent the first few minutes summarizing solutions to the problems on part B of Quiz 2. Next, we divided the class up into several small groups.  We had MB and BM present Problems 30 and 31, respectively.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, October 2:</b> The first ten minutes or so were devoted to discussing the big picture of axiomatic systems and giving an introduction to Circle-Dot. Next, we had LF, DM, AL, CP, and DW present Problems 32(algebra), 32(visual), 33, 34, and 35, respectively.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, October 4:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, October 4:</b> We had CM, DT, AC, SC, SE, and WE present Problems 36(algebra), 37(Theorem D), 37(Theorem E), 37(Theorem F), 37(Theorem G), and 37(Theorem H), respectively. Along the way, I presented a visual proof of Problem 36. We will catch up on Theorems I, J, and K after next week's quiz.</li>
+</ul>
+
+## Week 7 ##
+
+<ul class="fa-ul">
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, October 7:</b> The students took Quiz 3.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, October 9:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, October 11:</b> Coming soon.</li>
 </ul>

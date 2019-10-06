@@ -48,6 +48,7 @@ The following assignments are due at the beginning of the indicated class meetin
 - **Daily Homework 14:** Complete 2.70-2.72 in [Chapter 2: An Introduction to Groups]({{site.baseurl}}/teaching/mat411f19/IntroGroups.pdf) and digest the surrounding text along the way. (Due Monday, September 23)
 - **Daily Homework 15:** Complete 3.15, 3.16, 3.20, 3.22, 3.25 in [Chapter 3: Subgroups and Isomorphisms]({{site.baseurl}}/teaching/mat411f19/SubgroupsIsomorphisms.pdf) and digest the surrounding text along the way. (Due Friday, October 4)
 - **Daily Homework 16:** Complete 3.26-3.30 in [Chapter 3: Subgroups and Isomorphisms]({{site.baseurl}}/teaching/mat411f19/SubgroupsIsomorphisms.pdf) and digest the surrounding text along the way. (Due Monday, October 7)
+- **Daily Homework 17:** Complete 3.32, 3.33, 3.35-3.40 in [Chapter 3: Subgroups and Isomorphisms]({{site.baseurl}}/teaching/mat411f19/SubgroupsIsomorphisms.pdf) and digest the surrounding text along the way. (Due Wednesday, October 9)
 
 <!-- - **Daily Homework 1:** Read the [syllabus]({{site.baseurl}}/teaching/mat411f19/syllabus/) and write down 5 important items.  *Note:*  All of the exam dates only count as a single item.  Turn in on your own paper at the beginning of class. (Due Wednesday, August 29)
 - **Daily Homework 2:** Read and sign the [Student Contract]({{site.baseurl}}/teaching/StudentContract.pdf). (Due Wednesday, August 29)
@@ -88,7 +89,6 @@ For most of the assignments below, you will be required to submit 2-3 formally w
 - **Weekly Homework 2:** Prove **two** of Theorems 2.29, 2.37, 2.39, 2.41, 2.42. You must type up your proofs using LaTeX.  I suggest you use my Overleaf template, which you can access by clicking the "Start your homework in Overleaf" link below. (Due Friday, September 13 by 8PM)
 - **Weekly Homework 3:** Prove **two** of Theorems 2.44, 2.45, 2.48(a), 2.48(b). You must type up your proofs using LaTeX.  (Due Thursday, September 19 by 8PM)
 - **Weekly Homework 4:** Prove **two** of Theorems 2.75, 2.76, 2.78, 3.19, 3.21. You must type up your proofs using LaTeX.  (Due Thursday, October 10 by 8PM)
-
 
 <!-- - **Weekly Homework 2:** Prove **two** of Theorems 2.29, 2.37, 2.39. You must type up your proofs using LaTeX.  I suggest you use my Overleaf template, which you can access by clicking the "Start your homework in Overleaf" link below. (Due Thursday, September 13 by 8PM)
 - **Weekly Homework 3:** Prove **two** of Corollary 2.41, Theorem 2.42, Theorem 2.47, Theorem 2.50. You must type up your proofs using LaTeX.  I suggest you use my Overleaf template, which you can access by clicking the "Start your homework in Overleaf" link below. (Due Tuesday, September 18 by 8PM)
