@@ -84,7 +84,7 @@ We’ll use this page to keep track of what has happened each day in class. It w
 ## Week 7 ##
 
 <ul class="fa-ul">
-  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, October 7:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, October 7:</b> Somehow we got through everything, which I didn't expect to happen. We had SB, CM, HL, YC, YT, TN, MG, JC, SW, AR, RH, and DT present Problems 3.20, 3.22(abfg), 3.22(c), 3.22(d), 3.22(e), 3.22(h), 3.22(jk), 3.25, 3.27, 3.28, 3.29, and 3.30, respectively. Along the way, I presented Problem 3.22(i) and a proof of Theorem 3.26.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, October 9:</b> Coming soon.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Friday, October 11:</b> Coming soon.</li>
 </ul>
