@@ -91,11 +91,7 @@ For most of the assignments below, you will be required to submit 2-3 formally w
 - **Weekly Homework 2:** Prove **two** of Theorems 2.29, 2.37, 2.39, 2.41, 2.42. You must type up your proofs using LaTeX.  I suggest you use my Overleaf template, which you can access by clicking the "Start your homework in Overleaf" link below. (Due Friday, September 13 by 8PM)
 - **Weekly Homework 3:** Prove **two** of Theorems 2.44, 2.45, 2.48(a), 2.48(b). You must type up your proofs using LaTeX.  (Due Thursday, September 19 by 8PM)
 - **Weekly Homework 4:** Prove **two** of Theorems 2.75, 2.76, 2.78, 3.19, 3.21. You must type up your proofs using LaTeX.  (Due Thursday, October 10 by 8PM)
-- **Weekly Homework 5:** Suppose $\phi:G_1\to G_2$ is a function between two groups that satisfies the homomorphic property (but may or may not be 1-1 or onto).  Prove that the set
-\[
-\ker(\phi):=\{g\in G_1\mid\phi(g)=e_2\},
-\]
-(where $e_1$ and $e_2$ are the identities of $G_1$ and $G_2$, respectively) is a subgroup of $G_1$. You must type up your proofs using LaTeX.  (Due Thursday, October 17 by 8PM)
+- **Weekly Homework 5:** Suppose $\phi:G_1\to G_2$ is a function between two groups that satisfies the homomorphic property (but may or may not be 1-1 or onto).  Prove that the set $\ker(\phi):=\{g\in G_1\mid\phi(g)=e_2\}$, (where $e_1$ and $e_2$ are the identities of $G_1$ and $G_2$, respectively) is a subgroup of $G_1$. You must type up your proofs using LaTeX.  (Due Thursday, October 17 by 8PM)
 
 <!-- - **Weekly Homework 2:** Prove **two** of Theorems 2.29, 2.37, 2.39. You must type up your proofs using LaTeX.  I suggest you use my Overleaf template, which you can access by clicking the "Start your homework in Overleaf" link below. (Due Thursday, September 13 by 8PM)
 - **Weekly Homework 3:** Prove **two** of Corollary 2.41, Theorem 2.42, Theorem 2.47, Theorem 2.50. You must type up your proofs using LaTeX.  I suggest you use my Overleaf template, which you can access by clicking the "Start your homework in Overleaf" link below. (Due Tuesday, September 18 by 8PM)
