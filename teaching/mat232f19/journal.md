@@ -86,5 +86,13 @@ We’ll use this page to keep track of what has happened each day in class. It w
 <ul class="fa-ul">
   <li><i class="fa-li far fa-calendar-check"></i><b>Monday, October 7:</b> The students took Quiz 3.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, October 9:</b> We got caught up with Circle-Dot stuff, but didn't make much progress on the new stuff.  We had DW, TB, and SS present Theorems I, J, and K, respectively, from Problem 37.  Next, I spent a few minutes discussing how Problems 39 and 40 are related to sorting problems in computer science and how Problem 40 is connected to genetics. With the time we had left, we had MR and AS present two different approaches to Problem 39. We will come back to Problems 38 and 40 on Friday.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, October 11:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, October 11:</b> We cranked through stuff today! We had AR/DE, TR, DW, and MR present Problems 39, 40, 38, and 41, respectively. With the time we had left, I spent a few minutes summarizing the next few problems.</li>
+</ul>
+
+## Week 8 ##
+
+<ul class="fa-ul">
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, October 14:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, October 16:</b> AComing soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, October 18:</b> Coming soon.</li>
 </ul>

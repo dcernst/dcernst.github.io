@@ -86,5 +86,13 @@ We’ll use this page to keep track of what has happened each day in class. It w
 <ul class="fa-ul">
   <li><i class="fa-li far fa-calendar-check"></i><b>Monday, October 7:</b> Somehow we got through everything, which I didn't expect to happen. We had SB, CM, HL, YC, YT, TN, MG, JC, SW, AR, RH, and DT present Problems 3.20, 3.22(abfg), 3.22(c), 3.22(d), 3.22(e), 3.22(h), 3.22(jk), 3.25, 3.27, 3.28, 3.29, and 3.30, respectively. Along the way, I presented Problem 3.22(i) and a proof of Theorem 3.26.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, October 9:</b> After handing back the take-home portion of Exam 1, I briefly discussed two of the problems from the exam.  Next, we had BS, AR, HL, CW, and JS present Problems 3.32, 3.33, 3.35, 3.36, and 3.37, respectively. Along the way, I also discussed Theorem 3.34 and Problem 3.38.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, October 11:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, October 11:</b> We had DC, JC, JH, MG, and RH present Problems 3.39(c), 3.39(d), 3.40(b), 3.40(e), and 3.41, respectively.  After the students presented, I summarized 3.42-3.45, and 3.47. We will catch up on Problems 3.48 and 3.49 next time.</li>
+</ul>
+
+## Week 8 ##
+
+<ul class="fa-ul">
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, October 14:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, October 16:</b> AComing soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, October 18:</b> Coming soon.</li>
 </ul>
