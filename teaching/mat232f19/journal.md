@@ -92,7 +92,7 @@ We’ll use this page to keep track of what has happened each day in class. It w
 ## Week 8 ##
 
 <ul class="fa-ul">
-  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, October 14:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, October 14:</b> After handing back Quiz 3, I briefly discussed "good" versus "bad" approaches to Problem B1 on Quiz 3. Next, we split the class up into several small groups, each tasked with discussing one of Problems 42-44.  We had CS, SE, and AS present Problems 42, 43, and 44, respectively.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, October 16:</b> Coming soon.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Friday, October 18:</b> Coming soon.</li>
 </ul>

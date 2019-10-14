@@ -92,7 +92,7 @@ We’ll use this page to keep track of what has happened each day in class. It w
 ## Week 8 ##
 
 <ul class="fa-ul">
-  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, October 14:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, October 14:</b> We had MG, AR, KG, SW, and MK present Problem 3.48, Problem 3.49, Problem 3.50, Theorem 3.51, and Theorem 3.53, respectively. Along the way, I presented a proof of Theorem 3.52.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, October 16:</b> Coming soon.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Friday, October 18:</b> Coming soon.</li>
 </ul>
