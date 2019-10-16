@@ -52,6 +52,7 @@ The following assignments are due at the beginning of the indicated class meetin
 - **Daily Homework 18:** Complete 3.41-3.45, 3.47-3.49 in [Chapter 3: Subgroups and Isomorphisms]({{site.baseurl}}/teaching/mat411f19/SubgroupsIsomorphisms.pdf) and digest the surrounding text along the way. (Due Friday, October 11)
 - **Daily Homework 19:** Complete 3.50-3.57 in [Chapter 3: Subgroups and Isomorphisms]({{site.baseurl}}/teaching/mat411f19/SubgroupsIsomorphisms.pdf) and digest the surrounding text along the way. (Due Monday, October 14)
 - **Daily Homework 20:** Complete 3.58-3.63 in [Chapter 3: Subgroups and Isomorphisms]({{site.baseurl}}/teaching/mat411f19/SubgroupsIsomorphisms.pdf) and digest the surrounding text along the way. (Due Wednesday, October 16)
+- **Daily Homework 21:** Complete 3.64-3.66 and 4.1, 4.3, 4.4, 4.7, 4.12, 4.13 in [Chapter 3: Subgroups and Isomorphisms]({{site.baseurl}}/teaching/mat411f19/SubgroupsIsomorphisms.pdf) and [Chapter 4: Families of Groups]({{site.baseurl}}/teaching/mat411f19/Families.pdf). Be sure to skim the problems in Chapter 4 that I did not assign. (Due Friday, October 18)
 
 <!-- - **Daily Homework 1:** Read the [syllabus]({{site.baseurl}}/teaching/mat411f19/syllabus/) and write down 5 important items.  *Note:*  All of the exam dates only count as a single item.  Turn in on your own paper at the beginning of class. (Due Wednesday, August 29)
 - **Daily Homework 2:** Read and sign the [Student Contract]({{site.baseurl}}/teaching/StudentContract.pdf). (Due Wednesday, August 29)
