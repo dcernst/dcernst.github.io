@@ -53,6 +53,7 @@ The following assignments are due at the beginning of the indicated class meetin
 - **Daily Homework 19:** Complete 3.50-3.57 in [Chapter 3: Subgroups and Isomorphisms]({{site.baseurl}}/teaching/mat411f19/SubgroupsIsomorphisms.pdf) and digest the surrounding text along the way. (Due Monday, October 14)
 - **Daily Homework 20:** Complete 3.58-3.63 in [Chapter 3: Subgroups and Isomorphisms]({{site.baseurl}}/teaching/mat411f19/SubgroupsIsomorphisms.pdf) and digest the surrounding text along the way. (Due Wednesday, October 16)
 - **Daily Homework 21:** Complete 3.64-3.66 and 4.1, 4.3, 4.4, 4.7, 4.12, 4.13 in [Chapter 3: Subgroups and Isomorphisms]({{site.baseurl}}/teaching/mat411f19/SubgroupsIsomorphisms.pdf) and [Chapter 4: Families of Groups]({{site.baseurl}}/teaching/mat411f19/Families.pdf). Be sure to skim the problems in Chapter 4 that I did not assign. (Due Friday, October 18)
+- **Daily Homework 22:** Complete 4.20, 4.21, 4.23-4.29 in [Chapter 4: Families of Groups]({{site.baseurl}}/teaching/mat411f19/Families.pdf). Also, be sure to read and digest 4.15-4.19 (some of which appeared on the take-home portion of Exam 1). (Due Monday, October 21)
 
 <!-- - **Daily Homework 1:** Read the [syllabus]({{site.baseurl}}/teaching/mat411f19/syllabus/) and write down 5 important items.  *Note:*  All of the exam dates only count as a single item.  Turn in on your own paper at the beginning of class. (Due Wednesday, August 29)
 - **Daily Homework 2:** Read and sign the [Student Contract]({{site.baseurl}}/teaching/StudentContract.pdf). (Due Wednesday, August 29)
@@ -94,6 +95,7 @@ For most of the assignments below, you will be required to submit 2-3 formally w
 - **Weekly Homework 3:** Prove **two** of Theorems 2.44, 2.45, 2.48(a), 2.48(b). You must type up your proofs using LaTeX.  (Due Thursday, September 19 by 8PM)
 - **Weekly Homework 4:** Prove **two** of Theorems 2.75, 2.76, 2.78, 3.19, 3.21. You must type up your proofs using LaTeX.  (Due Thursday, October 10 by 8PM)
 - **Weekly Homework 5:** Suppose $\phi:G_1\to G_2$ is a function between two groups that satisfies the homomorphic property (but may or may not be 1-1 or onto).  Prove that the set $\ker(\phi):=\\{g\in G_1\mid\phi(g)=e_2\\}$, (where $e_1$ and $e_2$ are the identities of $G_1$ and $G_2$, respectively) is a subgroup of $G_1$. You must type up your proofs using LaTeX.  (Due Thursday, October 17 by 8PM)
+- **Weekly Homework 6:** Prove **two** of Theorems 3.51, 3.52, 3.53, 3.54, 3.60, 3.64. You must type up your proofs using LaTeX.  (Due Thursday, October 24 by 8PM)
 
 <!-- - **Weekly Homework 2:** Prove **two** of Theorems 2.29, 2.37, 2.39. You must type up your proofs using LaTeX.  I suggest you use my Overleaf template, which you can access by clicking the "Start your homework in Overleaf" link below. (Due Thursday, September 13 by 8PM)
 - **Weekly Homework 3:** Prove **two** of Corollary 2.41, Theorem 2.42, Theorem 2.47, Theorem 2.50. You must type up your proofs using LaTeX.  I suggest you use my Overleaf template, which you can access by clicking the "Start your homework in Overleaf" link below. (Due Tuesday, September 18 by 8PM)
