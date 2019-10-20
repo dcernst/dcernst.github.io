@@ -94,5 +94,13 @@ We’ll use this page to keep track of what has happened each day in class. It w
 <ul class="fa-ul">
   <li><i class="fa-li far fa-calendar-check"></i><b>Monday, October 14:</b> After handing back Quiz 3, I briefly discussed "good" versus "bad" approaches to Problem B1 on Quiz 3. Next, we split the class up into several small groups, each tasked with discussing one of Problems 42-44.  We had CS, SE, and AS present Problems 42, 43, and 44, respectively.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, October 16:</b> We started with me doing a quick presentation of a visual proof of Problem 36.  I had meant to do this ages ago, but had forgotten. Next, we had TB show us some cool images that he produced using code and illustrated which points we could get to in Problem 45. This was followed by a rather lengthy discussion of a sketch of a proof that we can get to the point $(a,b)$ if and only if $\gcd(a,b)=1$. With the time we had left, AC presented an elegant solution to Problem 46.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, October 18:</b> JL presented an alternative approach to Problem 46 and then I split the class up into several small groups, each tasked with discussing one of Problems 47, 48, and 49.  We had MB and SC present two different approaches to Problem 47. I quickly summarized Problem 48 in the last few minutes of class, but we did not have time to discuss Problem 49. We will come back to that problem next week after the quiz.</li>
+</ul>
+
+## Week 9 ##
+
+<ul class="fa-ul">
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, October 21:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, October 23:</b> Coming soon.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Friday, October 18:</b> Coming soon.</li>
 </ul>
