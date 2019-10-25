@@ -100,7 +100,15 @@ We’ll use this page to keep track of what has happened each day in class. It w
 ## Week 9 ##
 
 <ul class="fa-ul">
-  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, October 21:</b> Coming soon.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, October 23:</b> Coming soon.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, October 18:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, October 21:</b> The students took Quiz 4.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, October 23:</b> Productive day!  After reviewing Problem 48, we had DT/MR, DM, JL, and CP present Problems 49, 50, 51, and 52, respectively.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, October 18:</b> I enjoy every day of class, but today was particularly enjoyable.  We kicked off with a quick solution to Problem 54 presented by TY.  This was followed by an elegant solution to Problem 55, which HT presented. Next, SS did a really nice job at presenting a solution to Problem 53.  With the time we had left, we started discussing Problem 56 (chameleons). MB thought he had a solution, but realized while he was presenting that it didn't quite work.</li>
+</ul>
+
+## Week 10 ##
+
+<ul class="fa-ul">
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, October 28:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, October 30:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, November 1:</b> Coming soon.</li>
 </ul>

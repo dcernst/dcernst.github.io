@@ -96,3 +96,19 @@ We’ll use this page to keep track of what has happened each day in class. It w
   <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, October 16:</b> Despite not getting through everything that was planned, we still covered a lot of ground.  We had YC, HA, CM, JS, SW, and MK present Theorem 3.54, Problem 3.56, Problem 3.57, Problem 3.58,, Problem 3.59, and Theorem 3.60, respectively.  Along the the way, I presented a proof of Theorem 3.55.  MK will wrap up Theorem 3.60 next time and I will present Problem 3.61.  I sent out written proofs for Theorems 3.62 and 3.63.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Friday, October 18:</b> Massive progress today. Although, this was in large part because I wrote solutions to many of the problems on the board in advance.  In particular, I sketched solutions to Problems 4.1, 4.3, 4.4, 4.12, and 4.13.  We had MK wrap up the proof of Theorem 3.61 and then RH nailed the proof of Theorem 3.64. Next, BS presented a short and sweet solution to Problem 4.7.</li>
 </ul>
+
+## Week 9 ##
+
+<ul class="fa-ul">
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, October 21:</b> We had DT, SB, JH, YC, and YC present Theorems 4.24(forward), 4.24(reverse), 4.27, 4.28(forward), and 4.28(reverse), respectively. Along the way, we discussed Corollary 4.20, Problem 4.21, Problem 4.23, Corollary 4.25, and Theorem 4.26.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, October 23:</b> Productive day! We had HL, AR, JC, TN, DT, and MG present Theorem 4.29, Theorem 4.32(forward), Theorem 4.32(reverse), Problem 4.36, Problem 4.37, and Problem 4.38, respectively.  I wrote sketches for Corollary 4.33 and Theorem 4.39 on the board.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, October 18:</b> We took some time to collect ourselves today. Instead of launching into the proofs for today, we attempted to wrap our heads around the current state of affairs. We had BS, AL, JS, and CW present Problem 4.43, Corollary 4.44, Problem 4.47(a), and Problem 4.47(b), respectively. We will tackle Theorems 4.42, 4.45, and 4.46 on Monday.</li>
+</ul>
+
+## Week 10 ##
+
+<ul class="fa-ul">
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, October 28:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, October 30:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, November 1:</b> Coming soon.</li>
+</ul>
