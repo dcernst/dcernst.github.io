@@ -56,7 +56,7 @@ The following assignments are due at the beginning of the indicated class meetin
 - **Daily Homework 22:** Complete 4.20, 4.21, 4.23-4.29 in [Chapter 4: Families of Groups]({{site.baseurl}}/teaching/mat411f19/Families.pdf). Also, be sure to read and digest 4.15-4.19 (some of which appeared on the take-home portion of Exam 1). (Due Monday, October 21)
 - **Daily Homework 23:** Complete 4.32, 4.33, 4.36-4.39 in [Chapter 4: Families of Groups]({{site.baseurl}}/teaching/mat411f19/Families.pdf). Also, be sure to read and digest 4.34 and 4.35. (Due Wednesday, October 23)
 - **Daily Homework 24:** Complete 4.40-4.47 in [Chapter 4: Families of Groups]({{site.baseurl}}/teaching/mat411f19/Families.pdf). (Due Friday, October 25)
-- **Daily Homework 25:** Complete 4.48-4.53, 4.56, 4.57, and complete one of 4.54 or 4.55 in [Chapter 4: Families of Groups]({{site.baseurl}}/teaching/mat411f19/Families.pdf). (Due Monday, October 28)
+- **Daily Homework 25:** Complete 4.49-4.53 in [Chapter 4: Families of Groups]({{site.baseurl}}/teaching/mat411f19/Families.pdf). (Due Monday, October 28)
 
 <!-- - **Daily Homework 1:** Read the [syllabus]({{site.baseurl}}/teaching/mat411f19/syllabus/) and write down 5 important items.  *Note:*  All of the exam dates only count as a single item.  Turn in on your own paper at the beginning of class. (Due Wednesday, August 29)
 - **Daily Homework 2:** Read and sign the [Student Contract]({{site.baseurl}}/teaching/StudentContract.pdf). (Due Wednesday, August 29)
