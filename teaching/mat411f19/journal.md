@@ -108,7 +108,7 @@ We’ll use this page to keep track of what has happened each day in class. It w
 ## Week 10 ##
 
 <ul class="fa-ul">
-  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, October 28:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, October 28:</b> I proved Theorem 4.42, Theorem 4.46, and Corollary 4.48. With the time we had left, HL attempted Problem 4.49.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, October 30:</b> Coming soon.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Friday, November 1:</b> Coming soon.</li>
 </ul>
