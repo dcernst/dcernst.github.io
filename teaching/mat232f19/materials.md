@@ -59,7 +59,7 @@ Below you will find notes and handouts that we have used in class, as well as so
    - [Quiz 1]({{ site.baseurl }}/teaching/mat232f19/232Quiz1.pdf) (PDF)
    - [Quiz 2]({{ site.baseurl }}/teaching/mat232f19/232Quiz2.pdf) (PDF)
    - [Quiz 3]({{ site.baseurl }}/teaching/mat232f19/232Quiz3.pdf) (PDF)
-   - Quiz 4 (coming soon)
+   - [Quiz 4]({{ site.baseurl }}/teaching/mat232f19/232Quiz4.pdf) (PDF)   
    - Quiz 5 (coming soon)
    - Quiz 6 (coming soon)
    - Quiz 7 (coming soon)
