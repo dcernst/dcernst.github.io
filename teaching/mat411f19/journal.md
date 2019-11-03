@@ -109,6 +109,14 @@ We’ll use this page to keep track of what has happened each day in class. It w
 
 <ul class="fa-ul">
   <li><i class="fa-li far fa-calendar-check"></i><b>Monday, October 28:</b> I proved Theorem 4.42, Theorem 4.46, and Corollary 4.48. With the time we had left, HL attempted Problem 4.49.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, October 30:</b> Coming soon.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, November 1:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, October 30:</b> I revisitd Problem 4.49 and then sketched proofs for Corollary 4.51 and Problem 4.52. Next, we had AR, SW, CM, SW, HA, and RH present Problems 4.53, 4.71, 4.72, 4.73, 4.75, and 4.77, respectively.  Along the way, I proved Theorem 4.76.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, November 1:</b> We had MK, CW, SB, and AL present Problems 4.79, 4.80, 4.82, and 4.83, respectively.</li>
+</ul>
+
+## Week 11 ##
+
+<ul class="fa-ul">
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, November 4:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, November 6:</b> The students took the in-class portion of Exam 2.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, November 8:</b> Coming soon.</li>
 </ul>

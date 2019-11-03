@@ -109,6 +109,14 @@ We’ll use this page to keep track of what has happened each day in class. It w
 
 <ul class="fa-ul">
   <li><i class="fa-li far fa-calendar-check"></i><b>Monday, October 28:</b> We had BM, TY, DB/TL present Problems 56, 57, and 58, respectively.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, October 30:</b> Coming soon.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, November 1:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, October 30:</b> After handing back Quiz 4, we split up into several small groups. After some time, we had VM, AL, TR, CS, and TY/DT/DE present Problems 59(a), 59(b), 59(c), 60, and 61, respectively.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, November 1:</b> We divided up the class into several small groups of size 2-3.  Each group was tasked with discussing at least two of Problems 61-64.  After 15 or so minutes, we had SS, HT, WE/TY, and LF/TR present Problems 61, 62, 63, and 64, respectively.</li>
+</ul>
+
+## Week 11 ##
+
+<ul class="fa-ul">
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, November 4:</b> The students took Quiz 5.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, November 6:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, November 8:</b> Coming soon.</li>
 </ul>
