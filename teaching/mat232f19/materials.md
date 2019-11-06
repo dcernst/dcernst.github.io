@@ -60,7 +60,7 @@ Below you will find notes and handouts that we have used in class, as well as so
    - [Quiz 2]({{ site.baseurl }}/teaching/mat232f19/232Quiz2.pdf) (PDF)
    - [Quiz 3]({{ site.baseurl }}/teaching/mat232f19/232Quiz3.pdf) (PDF)
    - [Quiz 4]({{ site.baseurl }}/teaching/mat232f19/232Quiz4.pdf) (PDF)   
-   - Quiz 5 (coming soon)
+   - [Quiz 5]({{ site.baseurl }}/teaching/mat232f19/232Quiz5.pdf) (PDF)
    - Quiz 6 (coming soon)
    - Quiz 7 (coming soon)
 - Pictures of board work that we ran out of time to discuss. *Note:* You should not assume that the solutions/proofs posted below are valid or sufficient.
