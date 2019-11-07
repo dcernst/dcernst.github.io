@@ -69,7 +69,7 @@ The notes will be released incrementally. Each link below is to a PDF file. If y
     - 4.2 Dihedral Groups
     - 4.3 Symmetric Groups
     - 4.4 Alternating Groups
-- [Chapter 5: Cosets, Lagrange's Theorem, and Normal Subgroups]({{site.baseurl}}/teaching/mat411f19/CosetsLagrangeNormal.pdf) 
+- [Chapter 5: Cosets, Lagrange's Theorem, and Normal Subgroups]({{site.baseurl}}/teaching/mat411f19/CosetsLagrangeNormal.pdf)
     - 5.1 Cosets
     - 5.2 Lagrange's Theorem
     - 5.3 Normal Subgroups
@@ -136,4 +136,4 @@ The notes will be released incrementally. Each link below is to a PDF file. If y
 Below are links to the take-home portions of each exam. If you are interested in using LaTeX to type up your solutions, contact me and I will send you a link to the source file of the exam.
 
 - [Exam 1 (take-home portion)]({{site.baseurl}}/teaching/mat411f19/411Exam1-Home.pdf) (PDF). (Due Wednesday, October 2)
-- [Exam 2 (take-home portion)]({{site.baseurl}}/teaching/mat411f19/411Exam2-Home.pdf) (Posted soon). (Due Friday, November 15)
+- [Exam 2 (take-home portion)]({{site.baseurl}}/teaching/mat411f19/411Exam2-Home.pdf) (PDF). (Due Friday, November 15)
