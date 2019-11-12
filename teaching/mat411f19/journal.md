@@ -118,5 +118,13 @@ We’ll use this page to keep track of what has happened each day in class. It w
 <ul class="fa-ul">
   <li><i class="fa-li far fa-calendar-check"></i><b>Monday, November 4:</b> We cranked through a surprising amount of material.  I kicked off my sketching the proof of Theorem 4.85 and then we split the class up into several small groups.  We had J, HL, AA, JC, MG, YT, JH, and SB present Problems 4.86/4.87, 4.88, 4.89, 4.90, 4.91(a), 4.91(b), 4.93, and 4.94, respectively.  Along the way, I presented Problem 4.92, Theorem 4.95, and Corollary 4.96.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, November 6:</b> The students took the in-class portion of Exam 2.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, November 8:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, November 8:</b> Due to my wife having surgery, I missed class and Zach Parker filled in for me.  The students worked on the take-home portion of Exam 2.</li>
+</ul>
+
+## Week 12 ##
+
+<ul class="fa-ul">
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, November 11:</b> Veteran's Day.  No classes.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, November 13:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, November 15:</b> Coming soon.</li>
 </ul>
