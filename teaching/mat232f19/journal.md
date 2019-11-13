@@ -117,14 +117,14 @@ We’ll use this page to keep track of what has happened each day in class. It w
 
 <ul class="fa-ul">
   <li><i class="fa-li far fa-calendar-check"></i><b>Monday, November 4:</b> The students took Quiz 5.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, November 6:</b> Coming soon.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, November 8:</b> Due to my wife having surgery, I missed class and Adam Leighton filled in for me. Adam divided the class up into small groups to discuss the problems due today. Near the end of class, ?? presented Problem 69, which they argued pretty straightforwardly that it was a Pigeonhole Principle problem, but without using that phrasing. ?? presented Problem 70 about the prime numbers argued that 2 of the numbers had to multiply to unity and they couldn't share polarity. The remaining number had to be the negative of a prime whose average with $-1$ was $1$ or whose average with $1$ was $-1$.  So, $(p+1)/2=-1$ which implies that $p=-3$, or $(p-1)/2=1$, which implies that $p=3$, but this one is positive.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, November 6:</b> After twisting some arms, we had VM/SC/DE/CS, DB, and CM present Problems 65, 66, and 67, respectively.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, November 8:</b> Due to my wife having surgery, I missed class and Adam Leighton filled in for me. Adam divided the class up into small groups to discuss the problems due today. Near the end of class, MR presented Problem 69, which they argued pretty straightforwardly that it was a Pigeonhole Principle problem, but without using that phrasing. DM presented Problem 70 about the prime numbers argued that 2 of the numbers had to multiply to unity and they couldn't share polarity. The remaining number had to be the negative of a prime whose average with $-1$ was $1$ or whose average with $1$ was $-1$.  So, $(p+1)/2=-1$ which implies that $p=-3$, or $(p-1)/2=1$, which implies that $p=3$, but this one is positive.</li>
 </ul>
 
 ## Week 12 ##
 
 <ul class="fa-ul">
   <li><i class="fa-li far fa-calendar-check"></i><b>Monday, November 11:</b> Veteran's Day.  No classes.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, November 13:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, November 13:</b> We had VS/VM, DB, and HT/DW presented Problems 68, 71, and 72, respectively.  After the initial discussion of Problem 68, we spent quite a bit of time chatting about the general approach.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Friday, November 15:</b> Coming soon.</li>
 </ul>

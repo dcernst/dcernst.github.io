@@ -125,6 +125,6 @@ We’ll use this page to keep track of what has happened each day in class. It w
 
 <ul class="fa-ul">
   <li><i class="fa-li far fa-calendar-check"></i><b>Monday, November 11:</b> Veteran's Day.  No classes.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, November 13:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, November 13:</b> After answering questions about the take-home exam, I lectured over most of what remained in Chapter 4.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Friday, November 15:</b> Coming soon.</li>
 </ul>
