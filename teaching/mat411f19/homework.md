@@ -60,7 +60,7 @@ The following assignments are due at the beginning of the indicated class meetin
 - **Daily Homework 26:** Read/skim 4.54, 4.55-4.57, 4.60-4.66 and then complete 4.68, 4.69, 4.71-4.77 in [Chapter 4: Families of Groups]({{site.baseurl}}/teaching/mat411f19/Families.pdf). (Due Wednesday, October 30)
 - **Daily Homework 27:** Complete 4.78-4.84 in [Chapter 4: Families of Groups]({{site.baseurl}}/teaching/mat411f19/Families.pdf). (Due Friday, November 1)
 - **Daily Homework 28:** Complete 4.85-4.96 in [Chapter 4: Families of Groups]({{site.baseurl}}/teaching/mat411f19/Families.pdf). (Due Monday, November 4)
-- **Daily Homework 29:** Read/skim 6.1, 6.3-6.7 and complete 6.2, 6.9-6.14 in [Chapter 6: Products and Quotients of Groups]({{site.baseurl}}/teaching/mat411f19/ProductsQuotients.pdf). (Due Wednesday, November 20)
+- **Daily Homework 29:** Read/skim 6.1, 6.3-6.8 and complete 6.2, 6.9-6.14 in [Chapter 6: Products and Quotients of Groups]({{site.baseurl}}/teaching/mat411f19/ProductsQuotients.pdf). (Due Wednesday, November 20)
 - **Daily Homework 30:** Read/skim 6.16, 6.17, 6.19, 6.20, 6.24 and complete 6.15, 6.18, 6.21, 6.22, 6.23, 6.25, 6.26 in [Chapter 6: Products and Quotients of Groups]({{site.baseurl}}/teaching/mat411f19/ProductsQuotients.pdf). (Due Friday, November 22)
 
 <!-- - **Daily Homework 1:** Read the [syllabus]({{site.baseurl}}/teaching/mat411f19/syllabus/) and write down 5 important items.  *Note:*  All of the exam dates only count as a single item.  Turn in on your own paper at the beginning of class. (Due Wednesday, August 29)
