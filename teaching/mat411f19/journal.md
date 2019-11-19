@@ -132,7 +132,7 @@ We’ll use this page to keep track of what has happened each day in class. It w
 ## Week 13 ##
 
 <ul class="fa-ul">
-  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, November 18:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, November 18:</b> More lecturing.  I finished covering Chapter 5.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, November 20:</b> Coming soon.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Friday, November 22:</b> Coming soon.</li>
 </ul>
