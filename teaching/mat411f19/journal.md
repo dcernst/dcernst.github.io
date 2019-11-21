@@ -133,7 +133,7 @@ We’ll use this page to keep track of what has happened each day in class. It w
 
 <ul class="fa-ul">
   <li><i class="fa-li far fa-calendar-check"></i><b>Monday, November 18:</b> More lecturing.  I finished covering Chapter 5.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, November 20:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, November 20:</b> After splitting up into several small groups, we had DC, BS, AL, AA, AR, KG, and TR presented Problem 6.2, Problem 6.9, Problem 6.10, Problem 6.11, Theorem 6.12, Problem 6.13, and Problem 6.14, respectively.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Friday, November 22:</b> Coming soon.</li>
 </ul>
 
