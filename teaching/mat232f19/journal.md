@@ -134,7 +134,7 @@ We’ll use this page to keep track of what has happened each day in class. It w
 <ul class="fa-ul">
   <li><i class="fa-li far fa-calendar-check"></i><b>Monday, November 18:</b> First, we revisited Problem 75 and discussed "necessary" vs "sufficient" conditions, as well as what it means for a bound to be sharp.  Next, we had DW and MR made attempts at Problem 76. With the time we had left, we started discussing Problem 77.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, November 20:</b> The students took Quiz 6.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, November 22:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, November 22:</b> We had LF, WE, JL, and AL present Problems 77, 78, 79, and 80, respectively.  Discussing Problem 77 was quite entertaining.</li>
 </ul>
 
 ## Week 14 ##
