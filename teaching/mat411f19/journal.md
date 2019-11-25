@@ -140,7 +140,7 @@ We’ll use this page to keep track of what has happened each day in class. It w
 ## Week 14 ##
 
 <ul class="fa-ul">
-  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, November 25:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, November 25:</b> After splitting the class up into a few small groups, we had SW, YT, JC, AL, and HA present Problem 6.34(a), 6.34(b), 6.34(c), 6.34(d), and 6.34(e), respectively. Along the way, I presented Problems 6.27, 6.28, 6.33, 6.35, and 6.36.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, November 27:</b> Coming soon.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Friday, November 29:</b> Thanksgiving Break. No classes.</li>
 </ul>

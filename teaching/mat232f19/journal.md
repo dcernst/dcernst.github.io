@@ -140,7 +140,7 @@ We’ll use this page to keep track of what has happened each day in class. It w
 ## Week 14 ##
 
 <ul class="fa-ul">
-  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, November 25:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, November 25:</b> We had CP, SE, and TB present Problems 81, 82, and 83, respectively.  With the time we had remaining, I briefly discussed Ramsey Theory and got us started on Problem 84.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, November 27:</b> Coming soon.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Friday, November 29:</b> Thanksgiving Break. No classes.</li>
 </ul>
