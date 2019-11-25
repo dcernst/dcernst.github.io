@@ -39,9 +39,9 @@ I will not be covering every detail of the notes and the only way to achieve a s
 
 The notes will be released incrementally. Each link below is to a PDF file. If you've found an error or have suggestions for improvements, please let me know.
 
-<div class="alert alert-info" role="alert" style="margin: 10px 0 10px 0">
+<!-- <div class="alert alert-info" role="alert" style="margin: 10px 0 10px 0">
 <i class="fa fa-exclamation-triangle"></i>&nbsp; These notes are currently under construction and subject to change.
-</div>
+</div> -->
 
 - [An Inquiry-Based Approach to Abstract Algebra]({{site.baseurl}}/teaching/mat411f19/IBL-AbstractAlgebra.pdf) (complete set of notes)
 
