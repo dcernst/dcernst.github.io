@@ -128,6 +128,9 @@ The notes will be released incrementally. Each link below is to a PDF file. If y
     - [Problem 3.22(gh)]({{site.baseurl}}/teaching/mat411f19/Problem3.22gh.jpg)
     - [Problem 3.22(jk)]({{site.baseurl}}/teaching/mat411f19/Problem3.22jk.jpg)
     - [Problem 3.25]({{site.baseurl}}/teaching/mat411f19/Problem3.25.jpg)
+    - [Problem 6.29]({{site.baseurl}}/teaching/mat411f19/Problem6.29.jpg)
+    - [Theorem 6.39]({{site.baseurl}}/teaching/mat411f19/Theorem6.39.jpg)
+    - [Problem 6.40]({{site.baseurl}}/teaching/mat411f19/Problem6.40.jpg)
 
 ## Exams
 Below are links to the take-home portions of each exam. If you are interested in using LaTeX to type up your solutions, contact me and I will send you a link to the source file of the exam.
