@@ -141,14 +141,14 @@ We’ll use this page to keep track of what has happened each day in class. It w
 
 <ul class="fa-ul">
   <li><i class="fa-li far fa-calendar-check"></i><b>Monday, November 25:</b> We had CP, SE, and TB present Problems 81, 82, and 83, respectively.  With the time we had remaining, I briefly discussed Ramsey Theory and got us started on Problem 84.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, November 27:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, November 27:</b> Attendance was pretty darn good! I presented Problems 84 and 86 while DT presented an example for Problem 86 and BM presented a solution to Problem 87.  We didn't get to Problems 88 and 89.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Friday, November 29:</b> Thanksgiving Break. No classes.</li>
 </ul>
 
 ## Week 15 ##
 
 <ul class="fa-ul">
-  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, December 2:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, December 2:</b> The students took the final quiz of the semester.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, December 4:</b> Coming soon.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Friday, December 6:</b> Coming soon.</li>
 </ul>

@@ -141,7 +141,7 @@ We’ll use this page to keep track of what has happened each day in class. It w
 
 <ul class="fa-ul">
   <li><i class="fa-li far fa-calendar-check"></i><b>Monday, November 25:</b> After splitting the class up into a few small groups, we had SW, YT, JC, AL, and HA present Problem 6.34(a), 6.34(b), 6.34(c), 6.34(d), and 6.34(e), respectively. Along the way, I presented Problems 6.27, 6.28, 6.33, 6.35, and 6.36.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, November 27:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, November 27:</b> Attendance was pretty darn good for the day before the holiday!  It was an action-packed day and we covered a lot of ground.  Prior to class, I wrote solutions for Problems 7.2, 7.9, 7.10, and 7.19 on the board.  We had MG and JH present Problem 6.29 and Theorem 7.13.  Next, I presented Problems 7.14 and 7.16.  This was followed by a proof of the First Isomorphism Theorem.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Friday, November 29:</b> Thanksgiving Break. No classes.</li>
 </ul>
 
