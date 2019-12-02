@@ -64,7 +64,7 @@ The following assignments are due at the beginning of the indicated class meetin
 - **Daily Homework 30:** Read/skim 6.16, 6.17, 6.19, 6.20, 6.24 and complete 6.15, 6.18, 6.21, 6.22, 6.23, 6.25, 6.26 in [Chapter 6: Products and Quotients of Groups]({{site.baseurl}}/teaching/mat411f19/ProductsQuotients.pdf). (Due Friday, November 22)
 - **Daily Homework 31:** Read/skim 6.30, 6.31, 6.32, 6.37, 6.38 and complete 6.27, 6.28, 6.29, 6.33, 6.34, 6.35, 6.36, 6.39, 6.40 in [Chapter 6: Products and Quotients of Groups]({{site.baseurl}}/teaching/mat411f19/ProductsQuotients.pdf). (Due Monday, November 25)
 - **Daily Homework 32:** Read/skim 7.1, 7.3-7.8, 7.11, 7.12, 7.14 and complete 7.2, 7.9, 7.10, 7.13, 7.14, 7.16, 7.19 in [Chapter 7: Homomorphisms and the Isomorphism Theorems]({{site.baseurl}}/teaching/mat411f19/Homomorphisms.pdf). (Due Wednesday, November 27)
-- **Daily Homework 33:** Complete ??? in [Chapter 8: An Introduction to Rings]({{site.baseurl}}/teaching/mat411f19/Rings.pdf). (Due Wednesday, December 4)
+- **Daily Homework 33:** Complete 8.9, 8.11, 9.15-8.17 in [Chapter 8: An Introduction to Rings]({{site.baseurl}}/teaching/mat411f19/Rings.pdf). (Due Wednesday, December 4)
 - **Daily Homework 34:** Complete ??? in [Chapter 8: An Introduction to Rings]({{site.baseurl}}/teaching/mat411f19/Rings.pdf). (Due Friday, December 6)
 
 <!-- - **Daily Homework 1:** Read the [syllabus]({{site.baseurl}}/teaching/mat411f19/syllabus/) and write down 5 important items.  *Note:*  All of the exam dates only count as a single item.  Turn in on your own paper at the beginning of class. (Due Wednesday, August 29)
