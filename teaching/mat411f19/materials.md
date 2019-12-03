@@ -140,3 +140,4 @@ Below are links to the take-home portions of each exam. If you are interested in
 - For Exam 3, you have two options:
   - **Option 1:** Complete a 30-minute oral exam with me in my office.  The questions will come directly from homework and previous exams. The oral exams will take place during Monday, November 25 to Thursday, December 12.
   - **Option 2:** Complete the take-home exam found [here]({{site.baseurl}}/teaching/mat411f19/411Exam3-Home.pdf) (PDF). (Due Friday, December 6)
+- [Final Exam (take-home portion)]({{site.baseurl}}/teaching/mat411f19/411ExamFinal-Home.pdf) (PDF). (Due by 9am on Friday, December 13)
