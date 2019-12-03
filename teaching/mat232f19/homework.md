@@ -69,5 +69,5 @@ The following assignments are due at the beginning of the indicated class meetin
 <li><i class="fa-li fa fa-edit"></i><b>Homework 34:</b> Complete Problems 81-83 from the <a href="https://dcernst.github.io/teaching/mat232f19/232ProblemCollection.pdf">Problem Collection</a>. (Due Monday, November 25)</li>
 <li><i class="fa-li fa fa-edit"></i><b>Homework 35:</b> Complete Problems 84, 86, 87, and one of 88 or 89 from the <a href="https://dcernst.github.io/teaching/mat232f19/232ProblemCollection.pdf">Problem Collection</a>. (Due Wednesday, November 27)</li>
 <li><i class="fa-li fa fa-edit"></i><b>Homework 36:</b> Complete either of Problems 90 or 91 and also do 92 and 93 from the <a href="https://dcernst.github.io/teaching/mat232f19/232ProblemCollection.pdf">Problem Collection</a>. (Due Wednesday, December 4)</li>
-<!-- <li><i class="fa-li fa fa-edit"></i><b>Homework 37:</b> Complete two of Problems 100-102 from the <a href="https://dcernst.github.io/teaching/mat232f19/232ProblemCollection.pdf">Problem Collection</a>. (Due Friday, December 7)</li> -->
+<li><i class="fa-li fa fa-edit"></i><b>Homework 37:</b> Complete Problems 93 and 94 from the <a href="https://dcernst.github.io/teaching/mat232f19/232ProblemCollection.pdf">Problem Collection</a>. (Due Friday, December 6)</li>
 </ul>
