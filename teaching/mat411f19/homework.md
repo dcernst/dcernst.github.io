@@ -65,7 +65,7 @@ The following assignments are due at the beginning of the indicated class meetin
 - **Daily Homework 31:** Read/skim 6.30, 6.31, 6.32, 6.37, 6.38 and complete 6.27, 6.28, 6.29, 6.33, 6.34, 6.35, 6.36, 6.39, 6.40 in [Chapter 6: Products and Quotients of Groups]({{site.baseurl}}/teaching/mat411f19/ProductsQuotients.pdf). (Due Monday, November 25)
 - **Daily Homework 32:** Read/skim 7.1, 7.3-7.8, 7.11, 7.12, 7.14 and complete 7.2, 7.9, 7.10, 7.13, 7.14, 7.16, 7.19 in [Chapter 7: Homomorphisms and the Isomorphism Theorems]({{site.baseurl}}/teaching/mat411f19/Homomorphisms.pdf). (Due Wednesday, November 27)
 - **Daily Homework 33:** Complete 8.9, 8.11, 8.15-8.17 in [Chapter 8: An Introduction to Rings]({{site.baseurl}}/teaching/mat411f19/Rings.pdf). (Due Wednesday, December 4)
-- **Daily Homework 34:** Complete ??? in [Chapter 8: An Introduction to Rings]({{site.baseurl}}/teaching/mat411f19/Rings.pdf). (Due Friday, December 6)
+- **Daily Homework 34:** Complete 8.33, 8.36(a)(b), 8.38, 8.39 in [Chapter 8: An Introduction to Rings]({{site.baseurl}}/teaching/mat411f19/Rings.pdf). (Due Friday, December 6)
 
 <!-- - **Daily Homework 29:** Complete 8.3, 8.6-8.10. (Due Monday, December 3)
 - **Daily Homework 30:** Complete 7.23, 7.24, 8.15-8.17. (Due Wednesday, December 5)
