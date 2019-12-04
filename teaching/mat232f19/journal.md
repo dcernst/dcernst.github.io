@@ -149,6 +149,6 @@ We’ll use this page to keep track of what has happened each day in class. It w
 
 <ul class="fa-ul">
   <li><i class="fa-li far fa-calendar-check"></i><b>Monday, December 2:</b> The students took the final quiz of the semester.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, December 4:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, December 4:</b> After discussing the Final Exam, I presented solutions to B1 and B3 on Quiz 6.  Next, DW, CS, and SC presented their proposed solutions to Problems 88, 89, and 90.  I'm hoping we have time to discuss Problems 91, 92, and 93 next time.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Friday, December 6:</b> Coming soon.</li>
 </ul>
