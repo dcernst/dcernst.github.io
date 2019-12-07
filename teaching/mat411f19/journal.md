@@ -150,5 +150,5 @@ We’ll use this page to keep track of what has happened each day in class. It w
 <ul class="fa-ul">
   <li><i class="fa-li far fa-calendar-check"></i><b>Monday, December 2:</b> After cranking out some examples that utilized the First Isomorphism Theorem, I started lecturing over Chapter 8.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, December 4:</b> After a quick review, we jumped back into Chapter 8.  We more or less discussed content up to and including Problem 8.27.  Along the way, we had JH and HA present Problems 8.11 and 8.15, respectively.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, December 6:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, December 6:</b> Last day!  After discussing the Final Exam, I flew through a summary of the remaining content in Chapter 8.  I thoroughly enjoyed this class this semester.</li>
 </ul>
