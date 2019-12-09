@@ -62,7 +62,7 @@ Below you will find notes and handouts that we have used in class, as well as so
    - [Quiz 4]({{ site.baseurl }}/teaching/mat232f19/232Quiz4.pdf) (PDF)   
    - [Quiz 5]({{ site.baseurl }}/teaching/mat232f19/232Quiz5.pdf) (PDF)
    - [Quiz 6]({{ site.baseurl }}/teaching/mat232f19/232Quiz6.pdf) (PDF)
-   - Quiz 7 (coming soon)
+   - [Quiz 7]({{ site.baseurl }}/teaching/mat232f19/232Quiz7.pdf) (PDF)
 - Pictures of board work that we ran out of time to discuss. *Note:* You should not assume that the solutions/proofs posted below are valid or sufficient.
   - [Problem 32 (algebra)]({{site.baseurl}}/teaching/mat232f19/Problem32algebra.jpg)
   - [Problem 32 (visual)]({{site.baseurl}}/teaching/mat232f19/Problem32visual.jpg)
