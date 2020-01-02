@@ -476,7 +476,7 @@ Any changes to this syllabus made during the term will be properly communicated 
 
 <blockquote>
 <p>If you want to sharpen a sword, you have to remove a little metal.</p>
-<footer><a href=" ">Uknown</a></footer>
+<footer><a href=" ">Unknown</a></footer>
 </blockquote>
 
 <div class="alert alert-info" role="alert">
