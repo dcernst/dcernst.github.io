@@ -1,5 +1,5 @@
 ---
-title: Abstract Algebra
+title: Foundations of Mathematics
 author: Dana Ernst
 layout: default
 ---

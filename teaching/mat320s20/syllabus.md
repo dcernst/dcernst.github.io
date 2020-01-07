@@ -36,7 +36,7 @@ layout: default
   <div class="col-xs-12 col-sm-6">
     <div>
     <h3>Course Info</h3>
-    <strong>Title:</strong> MAT MAT 320: Foundations of Mathematics<br />
+    <strong>Title:</strong> MAT 320: Foundations of Mathematics<br />
     <strong>Semester:</strong> Spring 2020<br />
     <strong>Credits:</strong> 3<br />
     <strong>Section:</strong> 2<br />
