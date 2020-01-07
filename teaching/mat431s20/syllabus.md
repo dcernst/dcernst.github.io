@@ -7,41 +7,41 @@ layout: default
 <ol class="breadcrumb">
   <li><a href="/"><i class="fa fa-home"></i></a></li>
   <li><a href="/teaching/">Teaching</a></li>
-  <li><a href="/teaching/mat411f19">MAT411</a></li>
+  <li><a href="/teaching/mat431s20">MAT431</a></li>
   <li class="active">{{ page.title }}</li>
 </ol>
 
 <div class="row">
 <div class="col-xs-12">
 <div class="btn-group btn-group-justified">
-<a class="btn btn-default btn-success" href="{{site.baseurl}}/teaching/mat411f19/syllabus/">Syllabus</a>
-<a class="btn btn-default btn-primary" href="{{site.baseurl}}/teaching/mat411f19/materials/">
+<a class="btn btn-default btn-success" href="{{site.baseurl}}/teaching/mat431s20/syllabus/">Syllabus</a>
+<a class="btn btn-default btn-primary" href="{{site.baseurl}}/teaching/mat431s20/materials/">
 <span class="hidden-xs">Course Materials</span><span class="visible-xs">Stuff</span>
 </a>
-<a class="btn btn-default btn-warning" href="{{site.baseurl}}/teaching/mat411f19/homework/">
+<a class="btn btn-default btn-warning" href="{{site.baseurl}}/teaching/mat431s20/homework/">
 <span class="hidden-xs">Homework</span><span class="visible-xs">HW</span>
 </a>
-<a class="btn btn-default btn-info" href="{{site.baseurl}}/teaching/mat411f19/journal/">Journal</a>
+<a class="btn btn-default btn-info" href="{{site.baseurl}}/teaching/mat431s20/journal/">Journal</a>
 </div>
 </div>
 </div>
 
-<!-- <br />
+<br />
 
 <div class="alert alert-info" role="alert">
 <i class="far fa-hand-peace"></i>&nbsp; This page is under construction!
-</div> -->
+</div>
 
 <div class="row">
   <div class="col-xs-12 col-sm-6">
     <div>
     <h3>Course Info</h3>
-    <strong>Title:</strong> MAT 411: Introduction to Abstract Algebra<br />
-    <strong>Semester:</strong> Fall 2019<br />
+    <strong>Title:</strong> MAT 431: Introduction to Analysis<br />
+    <strong>Semester:</strong> Spring 2020<br />
     <strong>Credits:</strong> 3<br />
     <strong>Section:</strong> 1<br />
-    <strong>Time:</strong> 9:10-10:00AM<br />
-    <strong>Location:</strong> AMB 225
+    <strong>Time:</strong> 10:20-11:10AM<br />
+    <strong>Location:</strong> AMB 147
     </div>
   </div>
 
@@ -50,7 +50,7 @@ layout: default
       <h3>Instructor Info</h3>
       <i class="fa fa-user fa-fw"></i>&nbsp; Dana C. Ernst, PhD<br />
       <i class="fa fa-university fa-fw"></i>&nbsp; AMB 176<br />
-      <i class="fa fa-users fa-fw"></i>&nbsp; 11:30AM-1:00PM MWF, 10:00-11:00AM T<br />
+      <i class="fa fa-users fa-fw"></i>&nbsp; 9:00-10:00AM MWF, ():00-11:00AM T<br />
       <i class="far fa-envelope fa-fw"></i>&nbsp; <a href="mailto:dana.ernst@nau.edu">dana.ernst@nau.edu</a><br />
       <i class="fa fa-phone fa-fw"></i>&nbsp; 928.523.6852<br />
       <i class="fa fa-link fa-fw"></i>&nbsp; <a href="{{site.baseurl}}">danaernst.com</a>
@@ -60,23 +60,25 @@ layout: default
 </div>
 
 ### Prerequisites ###
- MAT 320 with a grade of C or better.
+MAT 320 with a grade of C or better.
 
-### Course Description ###
-MAT 411 introduces students to the basic ideas, definitions, examples, theorems, and proof techniques of abstract algebra.
+<!-- ### Catalog Description ###
+The real number system, topology of the real line, limits of sequences and functions, continuity, differentiation, and integration. -->
 
 ### Learning Outcomes ###
-Upon successful completion of the course, students will be able to do the following within the topics of groups, rings and fields:
-1. Read and write expository text on elementary aspects.
-2. Distinguish truth from falsehood.
-3. Provide examples and counterexamples of statements.
-4. Perform needed computations.
-5. Construct concise and correct proofs.
+Upon completion of the course, students will be able to:
+1. Express an understanding of and apply basic properties and concepts of elementary analysis.
+2. Find limits, accumulation points, derivatives, and other objects and features of analysis.
+3. Identify and verify properties of given objects, e.g. convergence of a sequence; topological properties of a set such as openness and compactness; continuity; differentiability; integrability.
+4. Construct proofs in analysis.
+5. Determine truth or falsity of statements regarding analysis.
+6. Devise conjectures and construct examples within the area of analysis.
+7. Express work and results in coherent form using correct language and mathematics.
 
-### Course Content ###
-1. **Group Theory:** axioms, examples of groups of numbers, matrices, and permutations; abelian groups, cyclic groups; order of an element, subgroups, cosets, normal subgroups, factor groups, homomorphisms, kernels; Cayley’s Theorem, LaGrange’s Theorem, First Isomorphism Theorem.
-2. **Rings:** axioms, examples of rings of numbers, matrices, and polynomials; unity, units, divisibility, zero divisors, integral domains, division rings, field of quotients, ideals, homomorphisms, factor rings, prime and maximal ideals.
-3. **Fields:** axioms, examples; polynomials, divisibility criteria, irreducible polynomial, construction of finite fields and their cyclic multiplication groups.
+## What is This Course All About? ##
+This course is an introduction to [real analysis](https://en.wikipedia.org/wiki/Real_analysis), which is a subject area of mathematics that deals with the set of real numbers. In particular, it deals with the [analytic](https://en.wikipedia.org/wiki/Analytic_function) properties of real [functions](https://en.wikipedia.org/wiki/Function_(mathematics)) and [sequences](https://en.wikipedia.org/wiki/Sequence), including convergence and [limits of sequences](https://en.wikipedia.org/wiki/Limit_of_a_sequence) of real numbers, the [calculus](https://en.wikipedia.org/wiki/Calculus) of the real numbers, and [continuity](https://en.wikipedia.org/wiki/Continuous_function), and related properties of real-valued functions.
+
+We will spend most of our time studying sequences and the continuity of functions. We will take an axiomatic approach (definition, theorem, and proof) to the subject, but along the way, you will develop intuition about the objects of real analysis and pick up more proof-writing skills. The emphasis of this course is on your ability to read, understand, and communicate mathematics in the context of real analysis.
 
 <blockquote>
 <p>The mathematician does not study pure mathematics because it is useful; he studies it because he delights in it, and he delights in it because it is beautiful.</p>
@@ -161,7 +163,7 @@ In our classroom, diversity and individual differences are respected, appreciate
 Students are also expected to minimize distracting behaviors.  In particular, every attempt should be made to arrive to class on time.  If you must arrive late or leave early, please do not disrupt class. Please turn off the ringer on your cell phone.  I do not have a strict policy on the use of laptops, tablets, and cell phones.  You are expected to be paying attention and engaging in class discussions.  If your cell phone, etc. is interfering with your ability (or that of another student) to do this, then put it away, or I will ask you to put it away.
 
 ### Textbook ###
-Our textbook for the semester is <i>An Inquiry-Based Approach to Abstract Algebra</i>, which is a free and open-source textbook that was written by me ([Dana C. Ernst](http://danaernst.com)). The textbook is designed to be used with an [inquiry-based learning](http://maamathedmatters.blogspot.com/2013/05/what-heck-is-ibl.html) (IBL) approach to a first-semester undergraduate abstract algebra course. While the textbook covers many of the standard topics, the focus is on building intuition and emphasizes visualization. The textbook is available [here]({{site.baseurl}}/teaching/mat411f19/materials/).
+Our textbook for the semester is <i>An Inquiry-Based Approach to Abstract Algebra</i>, which is a free and open-source textbook that was written by me ([Dana C. Ernst](http://danaernst.com)). The textbook is designed to be used with an [inquiry-based learning](http://maamathedmatters.blogspot.com/2013/05/what-heck-is-ibl.html) (IBL) approach to a first-semester undergraduate abstract algebra course. While the textbook covers many of the standard topics, the focus is on building intuition and emphasizes visualization. The textbook is available [here]({{site.baseurl}}/teaching/mat431s20/materials/).
 
 I will not be covering every detail of the notes and the only way to achieve a sufficient understanding of the material is to be digesting the reading in a meaningful way.  You should be seeking clarification about the content of the notes whenever necessary by asking questions.  Here's one of my favorite quotes about reading mathematics.
 
@@ -181,7 +183,7 @@ There will be 3 midterm exams and a cumulative final exam.  Exam 1 and Exam 2 wi
 #### General Comments
 You are allowed and encouraged to work together on homework.  However, each student is expected to turn in his or her own work.  In general, late homework will *not* be accepted.  However, you are allowed to turn in three late homework assignments with no questions asked. Unless you have made arrangements in advance with me, homework turned in after class will be considered late. When doing your homework, I encourage you to consult the [Elements of Style for Proofs]({{site.baseurl}}/teaching/ElementsOfStyle.pdf). Your overall homework grade will be worth 15% of your final grade.
 
-On each homework assignment, please write (i) your name, (ii) name of course, and (iii) Daily/Weekly Homework number.  You can find the list of assignments on the [homework page]({{site.baseurl}}/teaching/mat411f19/homework/).  I reserve the right to modify the homework assignments as I see necessary.
+On each homework assignment, please write (i) your name, (ii) name of course, and (iii) Daily/Weekly Homework number.  You can find the list of assignments on the [homework page]({{site.baseurl}}/teaching/mat431s20/homework/).  I reserve the right to modify the homework assignments as I see necessary.
 
 #### Daily Homework
 Homework will be assigned each class meeting, and students are expected to complete (or try their best to complete) each assignment before walking into the next class period. All assignments should be *carefully*, *clearly*, and *cleanly* written. Among other things, this means your work should include proper grammar, punctuation, and spelling. You should write a draft of a given solution before you write down the final argument, so do yourself a favor and get in the habit of differentiating your scratch work from your submitted assignment.
@@ -447,7 +449,7 @@ In summary, your final grade will be determined by your scores in the following 
 	<tr>
 		<td>Final Exam</td>
 		<td style="text-align: center;">20%</td>
-		<td>Wednesday, December 11 at 7:30-9:30AM</td>
+		<td>Monday, May 4 at 10:00AM-12:00PM</td>
 	</tr>
 	</tbody>
 </table>
@@ -461,12 +463,12 @@ As per Department Policy, cell phones, MP3 players and portable electronic commu
 ### Important Dates ###
 Here are some important dates:
 
-- **Monday, September 2:** Labor Day (no classes)
-- **Thursday, September 5:** Last day to Drop/Delete a class (without class appearing on students' transcripts)
-- **Friday, November 1:** Course withdrawal deadline
-- **Monday, November 11:** Veteran's Day (no classes)
-- **Thursday, November 28-Friday, November 29:** Thanksgiving Break (no classes)
-- **Wednesday, December 11:** Final Exam
+- **Monday, January 20:** MLK Day (no classes)
+- **Thursday, January 23:** Last day to Add (without having to file a petition and pay a late add fee)
+- **Thursday, January 23:** Last day to Drop/Delete (without class appearing on students’ transcripts)
+- **Monday, March 16-Friday, March 20:** Spring break (no classes)
+- **Friday, March 23:** Course withdrawal deadline
+- **Monday, May 4:** Final Exam
 
 ### Getting Help ###
 There are many resources available to get help.  First, I recommend that you work on homework in small groups as much as possible and to come see me whenever necessary.  I am always happy to help you.  If my office hours don't work for you, then we can probably find another time to meet.  It is your responsibility to be aware of how well you understand the material.  Don't wait until it is too late if you need help.  *Ask questions*!  Lastly, you can always [email me](mailto:dana.ernst@nau.edu).
