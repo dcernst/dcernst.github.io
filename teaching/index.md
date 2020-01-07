@@ -18,7 +18,7 @@ My current office hours for Spring 2020 are 9:00-10:00AM on Monday, Wednesday, F
 Here are the courses that I am currently teaching (Spring 2020) at [Northern Arizona University](http://nau.edu).
 
 - [MAT 320: Foundations of Mathematics, Spring 2020]({{ site.baseurl }}/teaching/mat320s20)
-- [MAT 431: Introduction to Analysis]({{ site.baseurl }}/teaching/mat431s20)
+- [MAT 431: Introduction to Analysis, Spring 2020]({{ site.baseurl }}/teaching/mat431s20)
 
 ## Previous Courses ##
 This is a (partial) list of courses that I have taught over the past several semesters. **Note:** Some of the links on the pages below may be outdated.
