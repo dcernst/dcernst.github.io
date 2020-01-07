@@ -118,6 +118,7 @@ The notes will be released incrementally. Each link below is to a PDF file. If y
 - [Is Mathematics Invented or Discovered? &#124; Roger Penrose](https://www.youtube.com/watch?v=TKlPj_qGIt8) (4:14 min)
 - Pictures of board work that we ran out of time to discuss. *Note:* You should not assume that the solutions/proofs posted below are valid or sufficient.
     - Coming soon.
+    
     <!-- - [Problem 2.7]({{site.baseurl}}/teaching/mat320s20/Problem2.7.jpeg)
     - [Problem 2.9]({{site.baseurl}}/teaching/mat320s20/Problem2.9.jpeg)
     - [Theorem 2.29]({{site.baseurl}}/teaching/mat320s20/Theorem2.29.jpg)
