@@ -13,14 +13,14 @@ layout: default
 <div class="row">
 <div class="col-xs-12">
 <div class="btn-group btn-group-justified">
-<a class="btn btn-default btn-success" href="{{site.baseurl}}/teaching/mat320s20/syllabus/">Syllabus</a>
-<a class="btn btn-default btn-primary" href="{{site.baseurl}}/teaching/mat320s20/materials/">
+<a class="btn btn-default btn-success" href="{{site.baseurl}}/teaching/mat431s20/syllabus/">Syllabus</a>
+<a class="btn btn-default btn-primary" href="{{site.baseurl}}/teaching/mat431s20/materials/">
 <span class="hidden-xs">Course Materials</span><span class="visible-xs">Stuff</span>
 </a>
-<a class="btn btn-default btn-warning" href="{{site.baseurl}}/teaching/mat320s20/homework/">
+<a class="btn btn-default btn-warning" href="{{site.baseurl}}/teaching/mat431s20/homework/">
 <span class="hidden-xs">Homework</span><span class="visible-xs">HW</span>
 </a>
-<a class="btn btn-default btn-info" href="{{site.baseurl}}/teaching/mat320s20/journal/">Journal</a>
+<a class="btn btn-default btn-info" href="{{site.baseurl}}/teaching/mat431s20/journal/">Journal</a>
 </div>
 </div>
 </div>
