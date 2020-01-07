@@ -459,6 +459,11 @@ In summary, your final grade will be determined by your scores in the following 
 </table>
 </center>
 
+<blockquote>
+<p>It is not the critic who counts; not the man who points out how the strong man stumbles, or where the doer of deeds could have done them better. The credit belongs to the man who is actually in the arena, whose face is marred by dust and sweat and blood; who strives valiantly; who errs, who comes short again and again, because there is no effort without error and shortcoming; but who does actually strive to do the deeds; who knows great enthusiasms, the great devotions; who spends himself in a worthy cause; who at the best knows in the end the triumph of high achievement, and who at the worst, if he fails, at least fails while daring greatly, so that his place shall never be with those cold and timid souls who neither know victory nor defeat.</p>
+<footer><a href="https://en.wikipedia.org/wiki/Theodore_Roosevelt">Theodore Roosevelt</a>, <a href="https://en.wikipedia.org/wiki/Citizenship_in_a_Republic">Citizenship in a Republic</a>.</footer>
+</blockquote>
+
 ### Department and University Policies ###
 You are responsible for knowing and following the [Department of Mathematics and Statistics Policies]({{ site.baseurl }}/teaching/DepartmentPoliciesSpring2020.pdf) (PDF) and other University policies listed [here](https://nau.edu/university-policy-library/wp-content/uploads/sites/26/Syllabus-Policy-Statements.pdf) (PDF).  More policies can be found in other university documents, especially the [NAU Student Handbook](https://in.nau.edu/dean-of-students/Student-Handbook/) (see appendices) and the website of the [Student Outreach and Support](https://in.nau.edu/dean-of-students/nau-sos/) (SOS).
 
