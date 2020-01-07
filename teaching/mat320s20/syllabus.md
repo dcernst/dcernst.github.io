@@ -7,41 +7,41 @@ layout: default
 <ol class="breadcrumb">
   <li><a href="/"><i class="fa fa-home"></i></a></li>
   <li><a href="/teaching/">Teaching</a></li>
-  <li><a href="/teaching/mat411f19">MAT411</a></li>
+  <li><a href="/teaching/mat320s20">MAT320</a></li>
   <li class="active">{{ page.title }}</li>
 </ol>
 
 <div class="row">
 <div class="col-xs-12">
 <div class="btn-group btn-group-justified">
-<a class="btn btn-default btn-success" href="{{site.baseurl}}/teaching/mat411f19/syllabus/">Syllabus</a>
-<a class="btn btn-default btn-primary" href="{{site.baseurl}}/teaching/mat411f19/materials/">
+<a class="btn btn-default btn-success" href="{{site.baseurl}}/teaching/mat320s20/syllabus/">Syllabus</a>
+<a class="btn btn-default btn-primary" href="{{site.baseurl}}/teaching/mat320s20/materials/">
 <span class="hidden-xs">Course Materials</span><span class="visible-xs">Stuff</span>
 </a>
-<a class="btn btn-default btn-warning" href="{{site.baseurl}}/teaching/mat411f19/homework/">
+<a class="btn btn-default btn-warning" href="{{site.baseurl}}/teaching/mat320s20/homework/">
 <span class="hidden-xs">Homework</span><span class="visible-xs">HW</span>
 </a>
-<a class="btn btn-default btn-info" href="{{site.baseurl}}/teaching/mat411f19/journal/">Journal</a>
+<a class="btn btn-default btn-info" href="{{site.baseurl}}/teaching/mat320s20/journal/">Journal</a>
 </div>
 </div>
 </div>
 
-<!-- <br />
+<br />
 
 <div class="alert alert-info" role="alert">
 <i class="far fa-hand-peace"></i>&nbsp; This page is under construction!
-</div> -->
+</div>
 
 <div class="row">
   <div class="col-xs-12 col-sm-6">
     <div>
     <h3>Course Info</h3>
-    <strong>Title:</strong> MAT 411: Introduction to Abstract Algebra<br />
-    <strong>Semester:</strong> Fall 2019<br />
+    <strong>Title:</strong> MAT MAT 320: Foundations of Mathematics<br />
+    <strong>Semester:</strong> Spring 2020<br />
     <strong>Credits:</strong> 3<br />
-    <strong>Section:</strong> 1<br />
-    <strong>Time:</strong> 9:10-10:00AM<br />
-    <strong>Location:</strong> AMB 225
+    <strong>Section:</strong> 2<br />
+    <strong>Time:</strong> 12:40-1:30PM<br />
+    <strong>Location:</strong> AMB 146
     </div>
   </div>
 
@@ -50,7 +50,7 @@ layout: default
       <h3>Instructor Info</h3>
       <i class="fa fa-user fa-fw"></i>&nbsp; Dana C. Ernst, PhD<br />
       <i class="fa fa-university fa-fw"></i>&nbsp; AMB 176<br />
-      <i class="fa fa-users fa-fw"></i>&nbsp; 11:30AM-1:00PM MWF, 10:00-11:00AM T<br />
+      <i class="fa fa-users fa-fw"></i>&nbsp; 9:00-10:00AM MWF, 9:00-11:00AM T<br />
       <i class="far fa-envelope fa-fw"></i>&nbsp; <a href="mailto:dana.ernst@nau.edu">dana.ernst@nau.edu</a><br />
       <i class="fa fa-phone fa-fw"></i>&nbsp; 928.523.6852<br />
       <i class="fa fa-link fa-fw"></i>&nbsp; <a href="{{site.baseurl}}">danaernst.com</a>
@@ -60,23 +60,28 @@ layout: default
 </div>
 
 ### Prerequisites ###
- MAT 320 with a grade of C or better.
+MAT 137 with a grade greater than or equal to C.
 
 ### Course Description ###
-MAT 411 introduces students to the basic ideas, definitions, examples, theorems, and proof techniques of abstract algebra.
+The course trains students on methods and techniques of mathematical communication, focusing on proofs but also covering expository writing and problem-solving explanations.
 
 ### Learning Outcomes ###
-Upon successful completion of the course, students will be able to do the following within the topics of groups, rings and fields:
-1. Read and write expository text on elementary aspects.
-2. Distinguish truth from falsehood.
-3. Provide examples and counterexamples of statements.
-4. Perform needed computations.
-5. Construct concise and correct proofs.
+Upon successful completion of the course, students will be able to:
+1. Write a readable and mathematically rigorous proof.
+2. Express in writing, knowledge of the terminology, concepts, basic properties and methodology of symbolic logic, set theory, relations and functions, mathematical induction, cardinality, and number systems.
+3. Propose useful definitions and make correct deductions from definitions.
+4. Identify correct proof structures and criticize incorrect proof structures.
 
-### Course Content ###
-1. **Group Theory:** axioms, examples of groups of numbers, matrices, and permutations; abelian groups, cyclic groups; order of an element, subgroups, cosets, normal subgroups, factor groups, homomorphisms, kernels; Cayley’s Theorem, LaGrange’s Theorem, First Isomorphism Theorem.
-2. **Rings:** axioms, examples of rings of numbers, matrices, and polynomials; unity, units, divisibility, zero divisors, integral domains, division rings, field of quotients, ideals, homomorphisms, factor rings, prime and maximal ideals.
-3. **Fields:** axioms, examples; polynomials, divisibility criteria, irreducible polynomial, construction of finite fields and their cyclic multiplication groups.
+### What is This Course Really About? ###
+The primary objective of this course is to develop skills necessary for effective proof writing.  Students will improve their ability to read and write mathematics.  Successful completion of MAT 320 provides students with the background necessary for upper division mathematics courses.
+
+Aside from the obvious goal of wanting you to learn how to write rigorous mathematical proofs, one of my principal ambitions is to make you independent of me.  Nothing else that I teach you will be half so valuable or powerful as the ability to reach conclusions by reasoning logically from first principles and being able to justify those conclusions in clear, persuasive language (either oral or written).   Furthermore, I want you to experience the unmistakable feeling that comes when one really understands something thoroughly.  Much "classroom knowledge" is fairly superficial, and students often find it hard to judge their own level of understanding. For many of us, the only way we know whether we are "getting it" comes from the grade we make on an exam.  I want you to become less reliant on such externals.  When you can distinguish between really knowing something and merely knowing about something, you will be on your way to becoming an independent learner.  Lastly, it is my sincere hope that all of us (myself included) will improve our oral and written communications skills.
+
+This course will likely be different than any other math class that you have taken before for two main reasons.  First, you are used to being asked to do things like: "solve for $x$," "take the derivative of this function," "integrate this function," etc.  Accomplishing tasks like these usually amounts to mimicking examples that you have seen in class or in your textbook.  The steps you take to "solve" problems like these are always justified by mathematical facts (theorems), but rarely are you paying explicit attention to when you are actually using these facts.  Furthermore, justifying (i.e., proving) the mathematical facts you use may have been omitted by the instructor.  And, even if the instructor did prove a given theorem, you may not have taken the time or have been able to digest the content of the proof.
+
+Unlike previous courses, this course is all about "proof."  Mathematicians are in the business of proving theorems and this is exactly our endeavor.  For the first time, you will be exposed to what "doing" mathematics is really all about.  This will most likely be a shock to your system.  Considering the number of math courses that you have taken before you arrived here, one would think that you have some idea what mathematics is all about.  You must be prepared to modify your paradigm.  The second reason why this course will be different for you is that the method by which the class will run and the expectations I have of you will be different.  In a typical course, math or otherwise, you sit and listen to a lecture.  (Hopefully) These lectures are polished and well-delivered.  You may have often been lured into believing that the instructor has opened up your head and is pouring knowledge into it.  I absolutely love lecturing and I do believe there is value in it, but I also believe that in reality most students do <i>not</i> learn by simply listening.  You must be active in the learning you are doing.
+
+All of the secondary skills you will develop in this course are highly valued by society. Whether you become a teacher, a lawyer, an engineer, or an artist, what differentiates you from your competition is your ability to think critically at a high level, collaborate professionally, and communicate effectively.
 
 <blockquote>
 <p>The mathematician does not study pure mathematics because it is useful; he studies it because he delights in it, and he delights in it because it is beautiful.</p>
@@ -161,7 +166,7 @@ In our classroom, diversity and individual differences are respected, appreciate
 Students are also expected to minimize distracting behaviors.  In particular, every attempt should be made to arrive to class on time.  If you must arrive late or leave early, please do not disrupt class. Please turn off the ringer on your cell phone.  I do not have a strict policy on the use of laptops, tablets, and cell phones.  You are expected to be paying attention and engaging in class discussions.  If your cell phone, etc. is interfering with your ability (or that of another student) to do this, then put it away, or I will ask you to put it away.
 
 ### Textbook ###
-Our textbook for the semester is <i>An Inquiry-Based Approach to Abstract Algebra</i>, which is a free and open-source textbook that was written by me ([Dana C. Ernst](http://danaernst.com)). The textbook is designed to be used with an [inquiry-based learning](http://maamathedmatters.blogspot.com/2013/05/what-heck-is-ibl.html) (IBL) approach to a first-semester undergraduate abstract algebra course. While the textbook covers many of the standard topics, the focus is on building intuition and emphasizes visualization. The textbook is available [here]({{site.baseurl}}/teaching/mat411f19/materials/).
+Our textbook for the semester is <i>An Inquiry-Based Approach to Abstract Algebra</i>, which is a free and open-source textbook that was written by me ([Dana C. Ernst](http://danaernst.com)). The textbook is designed to be used with an [inquiry-based learning](http://maamathedmatters.blogspot.com/2013/05/what-heck-is-ibl.html) (IBL) approach to a first-semester undergraduate abstract algebra course. While the textbook covers many of the standard topics, the focus is on building intuition and emphasizes visualization. The textbook is available [here]({{site.baseurl}}/teaching/mat320s20/materials/).
 
 I will not be covering every detail of the notes and the only way to achieve a sufficient understanding of the material is to be digesting the reading in a meaningful way.  You should be seeking clarification about the content of the notes whenever necessary by asking questions.  Here's one of my favorite quotes about reading mathematics.
 
@@ -174,14 +179,15 @@ I will not be covering every detail of the notes and the only way to achieve a s
 Reviewing material from previous courses and looking up definitions and theorems you may have forgotten is fair game. However, when it comes to completing assignments for this course, you should *not* look to resources outside the context of this course for help.  That is, you should not be consulting the web, other texts, other faculty, or students outside of our course in an attempt to find solutions to the problems you are assigned.  On the other hand, you may use each other, the textbook, me, and your own intuition. If you feel you need additional resources, please come talk to me and we will come up with an appropriate plan of action. Please read NAU's [Academic Integrity Policy](https://www5.nau.edu/policies/Client/Details/828?whoIsLooking=Students&pertainsTo=All&sortDirection=Ascending&page=1).
 
 ### Exams ###
-There will be 3 midterm exams and a cumulative final exam.  Exam 1 and Exam 2 will be written exams consisting of an in-class portion (weighted 70%) and a take-home portion (weighted 30%).  The in-class portion of Exam 1 is *tentatively* scheduled for **Wednesday, September 25** (week 5) and the take-home portion of the exam will be due on **Wednesday, October 2**.  The in-class portion of Exam 2 is *tentatively* scheduled for **Wednesday, November 6** (week 11) and the take-home portion of the exam will be due on **Wednesday, November 13**.  Each of Exam 1 and Exam 2 will be worth 20% of your overall grade. Exam 3 will be a 30-minute oral exam taken individually in my office sometime during the last two weeks of classes. Exam 3 will be worth 10% of your overall grade. The final exam will be on **Wednesday, December 11** at **7:30-9:30AM** and is worth 20% of your overall grade. The final exam may or may not have a take-home portion.  Make-up exams will only be given under extreme circumstances, as judged by me. In general, it will be best to communicate conflicts ahead of time.
+Coming soon...
+<!-- There will be 3 midterm exams and a cumulative final exam.  Exam 1 and Exam 2 will be written exams consisting of an in-class portion (weighted 70%) and a take-home portion (weighted 30%).  The in-class portion of Exam 1 is *tentatively* scheduled for **Wednesday, September 25** (week 5) and the take-home portion of the exam will be due on **Wednesday, October 2**.  The in-class portion of Exam 2 is *tentatively* scheduled for **Wednesday, November 6** (week 11) and the take-home portion of the exam will be due on **Wednesday, November 13**.  Each of Exam 1 and Exam 2 will be worth 20% of your overall grade. Exam 3 will be a 30-minute oral exam taken individually in my office sometime during the last two weeks of classes. Exam 3 will be worth 10% of your overall grade. The final exam will be on **Wednesday, December 11** at **7:30-9:30AM** and is worth 20% of your overall grade. The final exam may or may not have a take-home portion.  Make-up exams will only be given under extreme circumstances, as judged by me. In general, it will be best to communicate conflicts ahead of time. -->
 
 ### Homework ###
 
 #### General Comments
 You are allowed and encouraged to work together on homework.  However, each student is expected to turn in his or her own work.  In general, late homework will *not* be accepted.  However, you are allowed to turn in three late homework assignments with no questions asked. Unless you have made arrangements in advance with me, homework turned in after class will be considered late. When doing your homework, I encourage you to consult the [Elements of Style for Proofs]({{site.baseurl}}/teaching/ElementsOfStyle.pdf). Your overall homework grade will be worth 15% of your final grade.
 
-On each homework assignment, please write (i) your name, (ii) name of course, and (iii) Daily/Weekly Homework number.  You can find the list of assignments on the [homework page]({{site.baseurl}}/teaching/mat411f19/homework/).  I reserve the right to modify the homework assignments as I see necessary.
+On each homework assignment, please write (i) your name, (ii) name of course, and (iii) Daily/Weekly Homework number.  You can find the list of assignments on the [homework page]({{site.baseurl}}/teaching/mat320s20/homework/).  I reserve the right to modify the homework assignments as I see necessary.
 
 #### Daily Homework
 Homework will be assigned each class meeting, and students are expected to complete (or try their best to complete) each assignment before walking into the next class period. All assignments should be *carefully*, *clearly*, and *cleanly* written. Among other things, this means your work should include proper grammar, punctuation, and spelling. You should write a draft of a given solution before you write down the final argument, so do yourself a favor and get in the habit of differentiating your scratch work from your submitted assignment.
@@ -447,26 +453,26 @@ In summary, your final grade will be determined by your scores in the following 
 	<tr>
 		<td>Final Exam</td>
 		<td style="text-align: center;">20%</td>
-		<td>Wednesday, December 11 at 7:30-9:30AM</td>
+		<td>Monday, May 4 at 12:30-2:30PM</td>
 	</tr>
 	</tbody>
 </table>
 </center>
 
 ### Department and University Policies ###
-You are responsible for knowing and following the [Department of Mathematics and Statistics Policies]({{ site.baseurl }}/teaching/DepartmentPoliciesFall2019.pdf) (PDF) and other University policies listed [here](https://nau.edu/university-policy-library/wp-content/uploads/sites/26/Syllabus-Policy-Statements.pdf) (PDF).  More policies can be found in other university documents, especially the [NAU Student Handbook](https://in.nau.edu/dean-of-students/Student-Handbook/) (see appendices) and the website of the [Student Outreach and Support](https://in.nau.edu/dean-of-students/nau-sos/) (SOS).
+You are responsible for knowing and following the [Department of Mathematics and Statistics Policies]({{ site.baseurl }}/teaching/DepartmentPoliciesSpring2020.pdf) (PDF) and other University policies listed [here](https://nau.edu/university-policy-library/wp-content/uploads/sites/26/Syllabus-Policy-Statements.pdf) (PDF).  More policies can be found in other university documents, especially the [NAU Student Handbook](https://in.nau.edu/dean-of-students/Student-Handbook/) (see appendices) and the website of the [Student Outreach and Support](https://in.nau.edu/dean-of-students/nau-sos/) (SOS).
 
 As per Department Policy, cell phones, MP3 players and portable electronic communication devices, including but not limited to smart phones, cameras and recording devices, must be turned off and inaccessible during in-class tests. Any violation of this policy will be treated as academic dishonesty.
 
 ### Important Dates ###
 Here are some important dates:
 
-- **Monday, September 2:** Labor Day (no classes)
-- **Thursday, September 5:** Last day to Drop/Delete a class (without class appearing on students' transcripts)
-- **Friday, November 1:** Course withdrawal deadline
-- **Monday, November 11:** Veteran's Day (no classes)
-- **Thursday, November 28-Friday, November 29:** Thanksgiving Break (no classes)
-- **Wednesday, December 11:** Final Exam
+- **Monday, January 20:** MLK Day (no classes)
+- **Thursday, January 23:** Last day to Add (without having to file a petition and pay a late add fee)
+- **Thursday, January 23:** Last day to Drop/Delete (without class appearing on students’ transcripts)
+- **Monday, March 16-Friday, March 20:** Spring break (no classes)
+- **Friday, March 23:** Course withdrawal deadline
+- **Monday, May 4:** Final Exam
 
 ### Getting Help ###
 There are many resources available to get help.  First, I recommend that you work on homework in small groups as much as possible and to come see me whenever necessary.  I am always happy to help you.  If my office hours don't work for you, then we can probably find another time to meet.  It is your responsibility to be aware of how well you understand the material.  Don't wait until it is too late if you need help.  *Ask questions*!  Lastly, you can always [email me](mailto:dana.ernst@nau.edu).

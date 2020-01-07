@@ -7,37 +7,37 @@ layout: default
 <ol class="breadcrumb">
   <li><a href="/"><i class="fa fa-home"></i></a></li>
   <li><a href="/teaching/">Teaching</a></li>
-  <li class="active">MAT411</li>
+  <li class="active">MAT320</li>
 </ol>
 
 <div class="row">
 <div class="col-xs-12">
 <div class="btn-group btn-group-justified">
-<a class="btn btn-default btn-success" href="{{site.baseurl}}/teaching/mat411f19/syllabus/">Syllabus</a>
-<a class="btn btn-default btn-primary" href="{{site.baseurl}}/teaching/mat411f19/materials/">
+<a class="btn btn-default btn-success" href="{{site.baseurl}}/teaching/mat320s20/syllabus/">Syllabus</a>
+<a class="btn btn-default btn-primary" href="{{site.baseurl}}/teaching/mat320s20/materials/">
 <span class="hidden-xs">Course Materials</span><span class="visible-xs">Stuff</span>
 </a>
-<a class="btn btn-default btn-warning" href="{{site.baseurl}}/teaching/mat411f19/homework/">
+<a class="btn btn-default btn-warning" href="{{site.baseurl}}/teaching/mat320s20/homework/">
 <span class="hidden-xs">Homework</span><span class="visible-xs">HW</span>
 </a>
-<a class="btn btn-default btn-info" href="{{site.baseurl}}/teaching/mat411f19/journal/">Journal</a>
+<a class="btn btn-default btn-info" href="{{site.baseurl}}/teaching/mat320s20/journal/">Journal</a>
 </div>
 </div>
 </div>
 
 ## Welcome ##
-Welcome to the course web page for the Fall 2019 manifestation of MAT 411: Introduction to Abstract Algebra at [Northern Arizona University](http://nau.edu).
+Welcome to the course web page for the Spring 2020 manifestation of MAT 320: Foundations of Mathematics at [Northern Arizona University](http://nau.edu).
 
 <div class="row">
   <div class="col-xs-12 col-sm-6">
     <div>
     <h2>Course Info</h2>
-    <strong>Title:</strong> MAT 411: Introduction to Abstract Algebra<br />
-    <strong>Semester:</strong> Fall 2019<br />
+    <strong>Title:</strong> MAT 320: Foundations of Mathematics<br />
+    <strong>Semester:</strong> Spring 2020<br />
     <strong>Credits:</strong> 3<br />
-    <strong>Section:</strong> 1<br />
-    <strong>Time:</strong> 9:10-10:00AM MWF<br />
-    <strong>Location:</strong> AMB 225
+    <strong>Section:</strong> 2<br />
+    <strong>Time:</strong> 12:40-1:30PM MWF<br />
+    <strong>Location:</strong> AMB 146
     </div>
   </div>
 
@@ -46,7 +46,7 @@ Welcome to the course web page for the Fall 2019 manifestation of MAT 411: Intro
       <h2>Instructor Info</h2>
       <i class="fa fa-user fa-fw"></i>&nbsp; Dana C. Ernst, PhD<br />
       <i class="fa fa-university fa-fw"></i>&nbsp; AMB 176<br />
-      <i class="fa fa-users fa-fw"></i>&nbsp; 11:30AM-1:00PM MWF, 10:00-11:00AM T<br />
+      <i class="fa fa-users fa-fw"></i>&nbsp; 9:00-10:00AM MWF, 9:00-11:00AM T<br />
       <i class="far fa-envelope fa-fw"></i>&nbsp; <a href="mailto:dana.ernst@nau.edu">dana.ernst@nau.edu</a><br />
       <i class="fa fa-phone fa-fw"></i>&nbsp; 928.523.6852<br />
       <i class="fa fa-link fa-fw"></i>&nbsp; <a href="{{site.baseurl}}">danaernst.com</a>
@@ -55,7 +55,13 @@ Welcome to the course web page for the Fall 2019 manifestation of MAT 411: Intro
 </div>
 
 ## What is This Course All About? ##
-Abstract algebra is the subject area of mathematics that studies algebraic structures, such as groups, rings, fields, modules, vector spaces, and algebras. This course is an introduction to abstract algebra. We will spend most of our time studying groups. Group theory is the study of symmetry, and is one of the most beautiful areas in all of mathematics. It arises in puzzles, visual arts, music, nature, the physical and life sciences, computer science, cryptography, and of course, throughout mathematics. This course will cover the basic concepts of group theory, and a special effort will be made to emphasize the intuition behind the concepts and motivate the subject matter.  In the last few weeks of the semester, we will also introduce rings and fields.
+The primary objective of this course is to develop skills necessary for effective proof writing. Students will improve their ability to read and write mathematics. Successful completion of MAT 320 provides students with the background necessary for upper division mathematics courses. Also, the purpose of any mathematics course is to challenge and train the mind. Learning mathematics enhances critical thinking and problem solving skills. The course description says:
+
+> The course trains students on methods and techniques of mathematical communication, focusing on proofs but also covering expository writing and problem-solving explanations.
+
+This course will likely be different than any other math class that you have taken before for two main reasons.  First, you are used to being asked to do things like: "solve for $x$," "take the derivative of this function," "integrate this function," etc.  Accomplishing tasks like these usually amounts to mimicking examples that you have seen in class or in your textbook.  The steps you take to "solve" problems like these are always justified by mathematical facts (theorems), but rarely are you paying explicit attention to when you are actually using these facts.  Furthermore, justifying (i.e., proving) the mathematical facts you use may have been omitted by the instructor.  And, even if the instructor did prove a given theorem, you may not have taken the time or have been able to digest the content of the proof.
+
+Unlike previous courses, this course is all about "proof."  Mathematicians are in the business of proving theorems and this is exactly our endeavor.  For the first time, you will be exposed to what "doing" mathematics is really all about.  This will most likely be a shock to your system.  Considering the number of math courses that you have taken before you arrived here, one would think that you have some idea what mathematics is all about.  You must be prepared to modify your paradigm.  The second reason why this course will be different for you is that the method by which the class will run and the expectations I have of you will be different.  In a typical course, math or otherwise, you sit and listen to a lecture.  (Hopefully) These lectures are polished and well-delivered.  You may have often been lured into believing that the instructor has opened up your head and is pouring knowledge into it.  I absolutely love lecturing and I do believe there is value in it, but I also believe that in reality most students do <i>not</i> learn by simply listening.  You must be active in the learning you are doing.  I'm sure each of you have said to yourselves, "Hmmm, I understood this concept when the professor was going over it, but now that I am alone, I am lost."  In order to promote a more active participation in your learning, we will incorporate ideas from an educational philosophy called [inquiry-based learning](http://maamathedmatters.blogspot.com/2013/05/what-heck-is-ibl.html) (IBL).
 
 <blockquote>
 <p>The mathematician does not study pure mathematics because it is useful; he studies it because he delights in it, and he delights in it because it is beautiful.</p>
