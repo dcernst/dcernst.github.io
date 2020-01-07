@@ -12,18 +12,20 @@ layout: default
 This section is primarily designed for my current students, but if you are not one of my students and somehow found your way here, feel free to poke around. Unless stated otherwise, content on this site that is authored by Dana C. Ernst is licensed under a [Creative Commons Attribution-Share Alike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/).
 
 ## Office Hours ##
-My current office hours for Fall 2019 are 11:30AM-1:00PM on Mondays, Wednesdays, and Fridays, and 10:00-11:00AM on Tuesdays (or by appointment). My office is located in room 176 of the [Adel Mathematics Building](http://maps.google.com/maps?q=Adel+Mathematics,+Flagstaff,+AZ&hl=en&sll=35.181208,-111.607959&sspn=0.231222,0.42675&oq=adel+mathe&hnear=Adel+Mathematics,+Flagstaff,+Arizona+86001&t=m&z=17) (Building 26).
+My current office hours for Spring 2020 are 9:00-10:00AM on Monday, Wednesday, Friday and 9:00-11:AM on Tuesday (or by appointment). My office is located in room 176 of the [Adel Mathematics Building](http://maps.google.com/maps?q=Adel+Mathematics,+Flagstaff,+AZ&hl=en&sll=35.181208,-111.607959&sspn=0.231222,0.42675&oq=adel+mathe&hnear=Adel+Mathematics,+Flagstaff,+Arizona+86001&t=m&z=17) (Building 26).
 
 ## Current Courses ##
-Here are the courses that I am currently teaching (Fall 2019) at [Northern Arizona University](http://nau.edu).
+Here are the courses that I am currently teaching (Spring 2020) at [Northern Arizona University](http://nau.edu).
 
-- [MAT 232: Introduction to Mathematical Reasoning]({{ site.baseurl }}/teaching/mat232f19)
-- [MAT 411: Introduction to Abstract Algebra]({{ site.baseurl }}/teaching/mat411f19)
+- [MAT 320: Foundations of Mathematics, Spring 2020]({{ site.baseurl }}/teaching/mat320s20)
+- [MAT 431: Introduction to Analysis]({{ site.baseurl }}/teaching/mat431s20)
 
 ## Previous Courses ##
 This is a (partial) list of courses that I have taught over the past several semesters. **Note:** Some of the links on the pages below may be outdated.
 
 #### Northern Arizona University ####
+- [MAT 232: Introduction to Mathematical Reasoning, Fall 2019]({{ site.baseurl }}/teaching/mat232f19)
+- [MAT 411: Introduction to Abstract Algebra, Fall 2019]({{ site.baseurl }}/teaching/mat411f19)
 - [MAT 441: Introduction to Topology, Spring 2019]({{ site.baseurl }}/teaching/mat441s19)
 - [MAT 526: Topics in Combinatorics, Spring 2019]({{ site.baseurl }}/teaching/mat526s19)
 - [MAT 220: Introduction to Mathematical Reasoning, Fall 2018]({{ site.baseurl }}/teaching/mat220f18)
