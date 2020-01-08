@@ -179,9 +179,9 @@ In our classroom, diversity and individual differences are respected, appreciate
 Students are also expected to minimize distracting behaviors.  In particular, every attempt should be made to arrive to class on time.  If you must arrive late or leave early, please do not disrupt class. Please turn off the ringer on your cell phone.  I do not have a strict policy on the use of laptops, tablets, and cell phones.  You are expected to be paying attention and engaging in class discussions.  If your cell phone, etc. is interfering with your ability (or that of another student) to do this, then put it away, or I will ask you to put it away.
 
 ### Textbook ###
-Our textbook for the semester is <i>An Inquiry-Based Approach to Abstract Algebra</i>, which is a free and open-source textbook that was written by me ([Dana C. Ernst](http://danaernst.com)). The textbook is designed to be used with an [inquiry-based learning](http://maamathedmatters.blogspot.com/2013/05/what-heck-is-ibl.html) (IBL) approach to a first-semester undergraduate abstract algebra course. While the textbook covers many of the standard topics, the focus is on building intuition and emphasizes visualization. The textbook is available [here]({{site.baseurl}}/teaching/mat320s20/materials/).
+Our textbook for the semester is <i>An Introduction to Proof via Inquiry-Based Learning</i>, which is a free and open-source textbook that was written by me ([Dana C. Ernst](http://danaernst.com)). The textbook is designed to be used with an [inquiry-based learning](http://maamathedmatters.blogspot.com/2013/05/what-heck-is-ibl.html) (IBL) approach to an introduction to proof course. The textbook is available [here]({{site.baseurl}}/teaching/mat320s20/materials/).
 
-I will not be covering every detail of the notes and the only way to achieve a sufficient understanding of the material is to be digesting the reading in a meaningful way.  You should be seeking clarification about the content of the notes whenever necessary by asking questions.  Here's one of my favorite quotes about reading mathematics.
+I will not be covering every detail of the textbook and the only way to achieve a sufficient understanding of the material is to be digesting the reading in a meaningful way.  You should be seeking clarification about the content whenever necessary by asking questions.  Here's one of my favorite quotes about reading mathematics.
 
 <blockquote>
 <p>Don’t just read it; fight it! Ask your own questions, look for your own examples, discover your own proofs. Is the hypothesis necessary? Is the converse true? What happens in the classical special case? What about the degenerate cases? Where does the proof use the hypothesis?</p>
@@ -192,8 +192,7 @@ I will not be covering every detail of the notes and the only way to achieve a s
 Reviewing material from previous courses and looking up definitions and theorems you may have forgotten is fair game. However, when it comes to completing assignments for this course, you should *not* look to resources outside the context of this course for help.  That is, you should not be consulting the web, other texts, other faculty, or students outside of our course in an attempt to find solutions to the problems you are assigned.  On the other hand, you may use each other, the textbook, me, and your own intuition. If you feel you need additional resources, please come talk to me and we will come up with an appropriate plan of action. Please read NAU's [Academic Integrity Policy](https://www5.nau.edu/policies/Client/Details/828?whoIsLooking=Students&pertainsTo=All&sortDirection=Ascending&page=1).
 
 ### Exams ###
-Coming soon...
-<!-- There will be 3 midterm exams and a cumulative final exam.  Exam 1 and Exam 2 will be written exams consisting of an in-class portion (weighted 70%) and a take-home portion (weighted 30%).  The in-class portion of Exam 1 is *tentatively* scheduled for **Wednesday, September 25** (week 5) and the take-home portion of the exam will be due on **Wednesday, October 2**.  The in-class portion of Exam 2 is *tentatively* scheduled for **Wednesday, November 6** (week 11) and the take-home portion of the exam will be due on **Wednesday, November 13**.  Each of Exam 1 and Exam 2 will be worth 20% of your overall grade. Exam 3 will be a 30-minute oral exam taken individually in my office sometime during the last two weeks of classes. Exam 3 will be worth 10% of your overall grade. The final exam will be on **Wednesday, December 11** at **7:30-9:30AM** and is worth 20% of your overall grade. The final exam may or may not have a take-home portion.  Make-up exams will only be given under extreme circumstances, as judged by me. In general, it will be best to communicate conflicts ahead of time. -->
+There will be 4 midterm exams and a cumulative final exam.  Exam 1 and Exam 3 will be taken individually out of class during a two-hour time block that you will schedule in advance.  Exam 1 is tentatively scheduled for **Friday, February 21** (week 6) and Exam 3 is scheduled for **Friday, April 10** (week 12). We will not have class on the days that Exams 1 and 3 are given. The reason for the two-hour time block is to reduce pressure and eliminate time constraints. I will provide additional information about signing up for your two-hour time block as we get closer to Exam 1. Each of Exams 1 and 3 are worth 15% of your overall grade in the course.  Exam 2 and Exam 4 will be take-home exams. Exam 2 is tentatively scheduled to be released on Friday, March 6 (week 8) and due on **Friday, March 13** (week 9). Exam 4 is tentatively scheduled to be released on Friday, April 17 (week 13) and due on on **Friday, April 24** (week 14). Each of Exams 2 and 4 are worth 10% of your overall grade in the course. The final exam will be on **Monday, May 4** at **12:30-2:30PM** and is worth 20% of your overall grade. Make-up exams will only be given under extreme circumstances, as judged by me. In general, it will be best to communicate conflicts ahead of time.
 
 ### Homework ###
 
@@ -383,15 +382,15 @@ Your Presentation and Participation grade is determined by your frequency and ab
 	<tbody>
 	<tr>
 		<td style="text-align: center;">90-100%</td>
-		<td>Student receives M or E for participation. Student averages at least 3 presentations prior to each of the exams. Student often volunteers to present and some of these problems are challenging. Most presentations receive M or E.</td>
+		<td>Student receives M or E for participation. Student averages more than 1 presentation every two weeks. Student often volunteers to present and some of these problems are challenging. Most presentations receive M or E.</td>
 	</tr>
 	<tr>
 		<td style="text-align: center;">80-89%</td>
-		<td>Student receives M or E for participation. Student averages at least 2 presentations prior to each of the exams. Student occasionally volunteers to present. Most presentations receive M.</td>
+		<td>Student receives M or E for participation. Student averages roughly 1 presentation every two weeks. Student occasionally volunteers to present. Most presentations receive M.</td>
 	</tr>
 	<tr>
 		<td style="text-align: center;">70-79%</td>
-		<td>Student receives M for participation. Student averages less than 2 presentations prior to each of the exams. Student rarely volunteers to present and actively avoids presenting challenging problems. Some presentations receive U.</td>
+		<td>Student receives M for participation. Student averages less than 1 presentation every two weeks. Student rarely volunteers to present and actively avoids presenting challenging problems. Some presentations receive U.</td>
 	</tr>
 	<tr>
 		<td style="text-align: center;">60-69%</td>
@@ -423,7 +422,7 @@ Only I will remain.</p>
 Regular attendance is expected and is vital to success in this course, but you will not explicitly be graded on attendance.  Yet, repeated absences may impact your participation grade (see above).  Students can find more information about NAU's attendance policy on the [Academic Policies](https://in.nau.edu/dean-of-students/academic-policies/) page.
 
 ### Extra Credit
-The only thing I will award extra credit for is finding typos on course materials (e.g., textbook, exams, syllabus, webpage).  This includes broken  links on the webpage.  However, it does not include the placement of commas and such.  If you find a typo, I will add one percentage point to your next exam.  You can earn at most two percentage points per exam and at most five percentage points over the course of the semester.
+The only thing I will award extra credit for is finding typos on course materials (e.g., textbook, exams, syllabus, webpage).  This includes broken  links on the webpage.  However, it does not include the placement of commas and such.  If you find a typo, I will add one percentage point to your next exam.  You can earn at most two percentage points per exam and at most five percentage points over the course of the semester. They're is a typo right here.
 
 ### Basis for Evaluation ###
 In summary, your final grade will be determined by your scores in the following categories.
@@ -450,18 +449,23 @@ In summary, your final grade will be determined by your scores in the following 
 	</tr>
 	<tr>
 		<td>Exam 1</td>
-		<td style="text-align: center;">20%</td>
-		<td>In-class portion (70%) and take-home portion (30%)</td>
+		<td style="text-align: center;">15%</td>
+		<td>2-hour exam on Friday, February 21</td>
 	</tr>
   <tr>
     <td>Exam 2</td>
-    <td style="text-align: center;">20%</td>
-    <td>In-class portion (70%) and take-home portion (30%)</td>
+    <td style="text-align: center;">10%</td>
+    <td>Take-home exam, due Friday, March 13</td>
   </tr>
   <tr>
-    <td>Exam 3</td>
+		<td>Exam 3</td>
+		<td style="text-align: center;">15%</td>
+		<td>2-hour exam on Friday, April 10</td>
+	</tr>
+  <tr>
+    <td>Exam 4</td>
     <td style="text-align: center;">10%</td>
-    <td>Individual oral exam</td>
+    <td>Take-home exam, due Friday, April 24</td>
   </tr>
 	<tr>
 		<td>Final Exam</td>
