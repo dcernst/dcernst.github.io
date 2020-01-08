@@ -116,9 +116,10 @@ The notes will be released incrementally. Each link below is to a PDF file. If y
 - [The Subtle Art of the Mathematical Conjecture](https://www.quantamagazine.org/the-subtle-art-of-the-mathematical-conjecture-20190507/) (article on Quanta Magazine)
 - [Lessons from My Math Degree That Have Nothing to Do with Math](https://medium.com/s/story/6-life-lessons-from-my-math-degree-that-have-nothing-to-do-with-math-d38aba90edfe) (6 min read on Medium)
 - [Is Mathematics Invented or Discovered? &#124; Roger Penrose](https://www.youtube.com/watch?v=TKlPj_qGIt8) (4:14 min)
+- [What is Mathematics? The Most Misunderstood Subject](https://www.fordham.edu/info/20603/what_math) (short article by Dr. Robert H. Lewis, Professor of Mathematics, Fordham University)
 - Pictures of board work that we ran out of time to discuss. *Note:* You should not assume that the solutions/proofs posted below are valid or sufficient.
     - Coming soon.
-    
+
     <!-- - [Problem 2.7]({{site.baseurl}}/teaching/mat320s20/Problem2.7.jpeg)
     - [Problem 2.9]({{site.baseurl}}/teaching/mat320s20/Problem2.9.jpeg)
     - [Theorem 2.29]({{site.baseurl}}/teaching/mat320s20/Theorem2.29.jpg)
