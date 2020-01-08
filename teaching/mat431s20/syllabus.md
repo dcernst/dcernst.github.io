@@ -62,9 +62,6 @@ layout: default
 ### Prerequisites ###
 MAT 320 with a grade of C or better.
 
-<!-- ### Catalog Description ###
-The real number system, topology of the real line, limits of sequences and functions, continuity, differentiation, and integration. -->
-
 ### Learning Outcomes ###
 Upon completion of the course, students will be able to:
 1. Express an understanding of and apply basic properties and concepts of elementary analysis.
@@ -96,7 +93,20 @@ Aside from the obvious goal of wanting you to learn how to write rigorous mathem
 ### An Inquiry-Based Approach ###
 This is not a lecture-oriented class or one in which mimicking prefabricated examples will lead you to success. You will be expected to work actively to construct your own understanding of the topics at hand with the readily available help of me and your classmates. Many of the concepts you learn and problems you work on will be new to you and ask you to stretch your thinking. You will experience *frustration* and *failure* before you experience *understanding*. This is part of the normal learning process. **If you are doing things well, you should be confused at different points in the semester. The material is too rich for a human being to completely understand it immediately.** Your viability as a professional in the modern workforce depends on your ability to embrace this learning process and make it work for you.
 
-In order to promote a more active participation in your learning, we will incorporate ideas from an educational philosophy called [inquiry-based learning](http://maamathedmatters.blogspot.com/2013/05/what-heck-is-ibl.html) (IBL).  Loosely speaking, IBL is a student-centered method of teaching mathematics that engages students in sense-making activities.  Students are given tasks requiring them to solve problems, conjecture, experiment, explore, create, and communicate.  Rather than showing facts or a clear, smooth path to a solution, the instructor guides and mentors students via well-crafted problems through an adventure in mathematical discovery.  Effective IBL courses encourage deep engagement in rich mathematical activities and provide opportunities to collaborate with peers (either through class presentations or group-oriented work). If you want to learn more about IBL, read my blog post titled [What the Heck is IBL?](http://maamathedmatters.blogspot.com/2013/05/what-heck-is-ibl.html).
+In order to promote a more active participation in your learning, we will incorporate ideas from an educational philosophy called [inquiry-based learning](http://maamathedmatters.blogspot.com/2013/05/what-heck-is-ibl.html) (IBL).  Loosely speaking, IBL is a student-centered method of teaching mathematics that engages students in sense-making activities.  Students are given tasks requiring them to solve problems, conjecture, experiment, explore, create, and communicate.  Rather than showing facts or a clear, smooth path to a solution, the instructor guides and mentors students via well-crafted problems through an adventure in mathematical discovery.  According to [Laursen and Rasmussen](https://www.colorado.edu/eer/sites/default/files/attached-files/laursenrasmussencommentaryauthorversion0219.pdf) (PDF), the Four Pillars of IBL are:
+
+- Students engage deeply with coherent \& meaningful mathematical tasks.
+- Students collaboratively process mathematical ideas.
+- Instructors inquire into student thinking.
+- Instructors foster equity in their design and facilitation choices.
+
+<div class="row">
+<center>
+<img src="{{ site.baseurl }}/images/FourPillars.png" class="img-responsive img-rounded" width="80%" img style="margin-right: 5px" img style="margin-left: 5px"  img style="margin-top: 5px" img style="margin-bottom: 5px" />
+</center>
+</div>
+
+If you want to learn more about IBL, read my blog post titled [What the Heck is IBL?](http://maamathedmatters.blogspot.com/2013/05/what-heck-is-ibl.html).
 
 <blockquote>
 <p>Don’t fear failure.  Not failure, but low aim, is the crime. In great attempts it is glorious even to fail.</p>
