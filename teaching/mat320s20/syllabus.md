@@ -106,7 +106,7 @@ In order to promote a more active participation in your learning, we will incorp
 - Instructors inquire into student thinking.
 - Instructors foster equity in their design and facilitation choices.
 
-<img src="{{ site.baseurl }}/images/FourPillars.png" class="img-responsive img-rounded" img style="margin-bottom: 10px" />
+<img src="{{ site.baseurl }}/images/FourPillars.png" class="img-responsive img-rounded" width="80%" img style="margin-right: 5px" img style="margin-left: 5px"  img style="margin-top: 5px" img style="margin-bottom: 5px" />
 
 If you want to learn more about IBL, read my blog post titled [What the Heck is IBL?](http://maamathedmatters.blogspot.com/2013/05/what-heck-is-ibl.html).
 
