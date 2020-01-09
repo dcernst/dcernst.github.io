@@ -27,9 +27,27 @@ title: Course Materials
 </div>
 
 ## An Inquiry-Based Approach to Real Analysis ##
-We will not be using a traditional textbook this semester, but rather a problem sequence adopted for an [inquiry-based learning](http://maamathedmatters.blogspot.com/2013/05/what-heck-is-ibl.html) (IBL) approach to real analysis. The problem sequence that we are using is an adaptation of the analysis notes by [W. Ted Mahavier](https://www.lamar.edu/arts-sciences/mathematics/faculty/w-ted-mahavier.html) published by [The Journal of Inquiry Based Learning in Mathematics](http://jiblm.org). The author has been gracious enough to grant me access to the source of these notes, so that we can modify and tweak for our needs if necessary.  The notes will be released incrementally. Each link below is to a PDF file.
+We will not be using a traditional textbook this semester, but rather a problem sequence adopted for an [inquiry-based learning](http://maamathedmatters.blogspot.com/2013/05/what-heck-is-ibl.html) (IBL) approach to real analysis. The problem sequence that we are using is an adaptation of the analysis notes by [Karl-Dieter Crisman](http://www.math-cs.gordon.edu/~kcrisman/), which are a modified version of notes by [W. Ted Mahavier](https://www.lamar.edu/arts-sciences/mathematics/faculty/w-ted-mahavier.html). Both authors have been gracious enough to grant me access to the source of these notes, so that we can modify and tweak for our needs if necessary. The notes will be released incrementally. Each link below is to a PDF file.
 
-- Notes posted soon.
+- [Title Page and Front Matter]({{site.baseurl}}/teaching/mat431s20/TitlePage.pdf)
+- [Preface]({{site.baseurl}}/teaching/mat431s20/Preface.pdf)
+- [Chapter 1: Introduction]({{site.baseurl}}/teaching/mat431s20/Introduction.pdf)
+    - 1.1 What is This Course All About?
+    - 1.2 An Inquiry-Based Approach
+    - 1.3 Rights of theLearner
+    - 1.4 Your Toolbox, Questions, and Observations
+    - 1.5 Rules of the Game
+    - 1.6 Structure of the Notes
+    - 1.7 Some Minimal Guidance
+- [Chapter 2: Preliminaries]({{site.baseurl}}/teaching/mat431s20/Preliminaries.pdf)
+    - 2.1 Absolute Basics
+    - 2.2 Logic Review
+    - 2.3 Sets and Functions
+    - 2.4 Order Properties of the Real Numbers
+- Chapter 3: Coming soon!
+- [Appendix A: Elements of Style for Proofs]({{site.baseurl}}/teaching/mat431s20/ElementsOfStyle.pdf)
+- [Appendix B: Fancy Mathematical Terms]({{site.baseurl}}/teaching/mat431s20/FancyMathematicalTerms.pdf)
+- [Appendix C: Definitions in Mathematics]({{site.baseurl}}/teaching/mat431s20/Definitions.pdf)
 
 I will not be covering every detail of the notes and the only way to achieve a sufficient understanding of the material is to be digesting the reading in a meaningful way.  You should be seeking clarification about the content of the notes whenever necessary by asking questions.  Here's one of my favorite quotes about reading mathematics.
 
