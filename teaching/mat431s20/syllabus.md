@@ -172,7 +172,7 @@ In our classroom, diversity and individual differences are respected, appreciate
 
 Students are also expected to minimize distracting behaviors.  In particular, every attempt should be made to arrive to class on time.  If you must arrive late or leave early, please do not disrupt class. Please turn off the ringer on your cell phone.  I do not have a strict policy on the use of laptops, tablets, and cell phones.  You are expected to be paying attention and engaging in class discussions.  If your cell phone, etc. is interfering with your ability (or that of another student) to do this, then put it away, or I will ask you to put it away.
 
-### Textbook ###
+### Problem Sequence ###
 We will not be using a traditional textbook this semester, but rather a problem sequence adopted for an [inquiry-based learning](http://maamathedmatters.blogspot.com/2013/05/what-heck-is-ibl.html) (IBL) approach to real analysis. The problem sequence that we are using is an adaptation of the analysis notes by [W. Ted Mahavier](https://www.lamar.edu/arts-sciences/mathematics/faculty/w-ted-mahavier.html) published by [The Journal of Inquiry Based Learning in Mathematics](http://jiblm.org). The author has been gracious enough to grant me access to the source of these notes, so that we can modify and tweak for our needs if necessary. The problem sequence is available [here]({{site.baseurl}}/teaching/mat431s20/materials/).
 
 I will not be covering every detail of the notes and the only way to achieve a sufficient understanding of the material is to be digesting the reading in a meaningful way.  You should be seeking clarification about the content of the notes whenever necessary by asking questions.  Here's one of my favorite quotes about reading mathematics.
@@ -189,26 +189,14 @@ Reviewing material from previous courses and looking up definitions and theorems
 There will be 3 midterm exams and a cumulative final exam.  Exam 1 and Exam 2 will be written exams consisting of an in-class portion (weighted 70%) and a take-home portion (weighted 30%).  The in-class portion of Exam 1 is *tentatively* scheduled for **Wednesday, September 25** (week 5) and the take-home portion of the exam will be due on **Wednesday, October 2**.  The in-class portion of Exam 2 is *tentatively* scheduled for **Wednesday, November 6** (week 11) and the take-home portion of the exam will be due on **Wednesday, November 13**.  Each of Exam 1 and Exam 2 will be worth 20% of your overall grade. Exam 3 will be a 30-minute oral exam taken individually in my office sometime during the last two weeks of classes. Exam 3 will be worth 10% of your overall grade. The final exam will be on **Wednesday, December 11** at **7:30-9:30AM** and is worth 20% of your overall grade. The final exam may or may not have a take-home portion.  Make-up exams will only be given under extreme circumstances, as judged by me. In general, it will be best to communicate conflicts ahead of time.
 
 ### Homework ###
-
-#### General Comments
-You are allowed and encouraged to work together on homework.  However, each student is expected to turn in his or her own work.  In general, late homework will *not* be accepted.  However, you are allowed to turn in three late homework assignments with no questions asked. Unless you have made arrangements in advance with me, homework turned in after class will be considered late. When doing your homework, I encourage you to consult the [Elements of Style for Proofs]({{site.baseurl}}/teaching/ElementsOfStyle.pdf). Your overall homework grade will be worth 15% of your final grade.
-
-On each homework assignment, please write (i) your name, (ii) name of course, and (iii) Daily/Weekly Homework number.  You can find the list of assignments on the [homework page]({{site.baseurl}}/teaching/mat431s20/homework/).  I reserve the right to modify the homework assignments as I see necessary.
-
-#### Daily Homework
-Homework will be assigned each class meeting, and students are expected to complete (or try their best to complete) each assignment before walking into the next class period. All assignments should be *carefully*, *clearly*, and *cleanly* written. Among other things, this means your work should include proper grammar, punctuation, and spelling. You should write a draft of a given solution before you write down the final argument, so do yourself a favor and get in the habit of differentiating your scratch work from your submitted assignment.
-
-The Daily Homework will generally consist of completing exercises and proving theorems from the textbook.  In addition to completing the assigned problems, I also want you to assess your own work.  Next to each problem, I want you to write down a score between 0 and 4 that represents your perception of the validity and quality of your proposed solution/proof. Consider using the rubric given below in the description of the Weekly Homework assignments.  Not completing the self-assessment step may impact the score on your homework.
-
-On the day that a homework assignment is due, the majority of the class period will be devoted to students presenting some subset (maybe all) of the proofs/solutions that are due that day.  Daily Homework will be graded using a $\checkmark$-system.  You are allowed (in fact, encouraged!) to modify your written work in light of presentations made in class; however, **you are required to use the colored marker pens provided in class**.  This will allow me to differentiate the work done in class versus the work you completed before class.  The grade you receive on an assignment will be determined by the work you completed prior to class.  I will provide more guidance with respect to this during the first couple weeks of the semester.
+Homework will usually be assigned each class meeting, and students are expected to complete each assignment before walking into the next class period. All assignments should be *carefully*, *clearly*, and *cleanly* written. Among other things, this means your work should include proper grammar, punctuation, and spelling. You should write a draft of a given solution before you write down the final argument, so do yourself a favor and get in the habit of differentiating your scratch work from your submitted assignment. The homework will generally consist of completing exercises and proving theorems from the [problem sequence]({{site.baseurl}}/teaching/mat431s20/materials/).  In addition to completing the assigned problems, I also want you to assess your own work.  Next to each problem, I want you to write down a score between 0 and 4 that represents your perception of the validity and quality of your proposed solution/proof. Consider using the rubric given below.  Not completing the self-assessment may impact the score on your homework.
 
 <blockquote>
 <p>I write one page of masterpiece to ninety-one pages of shit.</p>
 <footer><a href="https://en.wikipedia.org/wiki/Ernest_Hemingway">Ernest Hemingway</a></footer>
 </blockquote>
 
-#### Weekly Homework
-In addition to the Daily Homework, we will also have Weekly Homework assignments.  For most of these assignments, you will be required to submit 2-3 formally written proofs.  Some or all of these problems will come directly from the Daily Homework assigned the previous week.  You are required to type your submission using LaTeX. You can either submit a hardcopy of your assignment or email me the PDF of your completed work. If you email me the PDF, please name your file as <code>WeeklyX-LastName.pdf</code>, where <code>X</code> is the number of the assignment and <code>LastName</code> is your last name.  Notice there are no spaces in the filename. Each problem on the Weekly Homework assignments is subject to the following rubric:
+On the day that a homework assignment is due, the majority of the class period will be devoted to students presenting some subset (maybe all) of the problems that are due that day. At the end of each class session, you should submit the written work for all of your proposed solutions for problems that are due that day. On each homework assignment, I will provide grade of 0-2 based on the completeness of the assignment (not correctness). In addition, I will grade 1-2 problems (perhaps ones that were not presented in class), where each problem that is graded is worth 4 points and subject to the following rubric:
 
 <center>
 <table class="table table-striped">
@@ -242,6 +230,19 @@ In addition to the Daily Homework, we will also have Weekly Homework assignments
 	</tbody>
 </table>
 </center>
+
+You are allowed (in fact, encouraged!) to modify your written work in light of presentations made in class; however, **you are required to use the colored marker pens provided in class**.  This will allow me to differentiate the work done in class versus the work you completed before class.  The grade you receive on an assignment will be determined by the work you completed prior to class. When annotating your work, keep in mind that I need to be able to clearly see what you wrote prior to class since this is the work that I am grading.
+
+Please understand that the purpose of the homework assignments is to teach you to prove theorems in the context of real analysis. It is not expected that you started the class with this skill; hence, some low grades are to be expected. However, I expect that everyone will improve dramatically. Improvement over the course of the semester will be taken into consideration when assigning grades. **Up to five times during the semester, you may resubmit a graded problem subject to the following constraints:**
+
+- A graded problem that received a score of 1, 2, or 3 is eligible to be be resubmitted. Resubmissions on problems that received a 0 are not allowed.
+- Resubmissions are due one week after the corresponding problem has been returned to the class.
+- The grade on the resubmitted problem will replace the original score.
+- Please write "Resubmission" on top of any problem that you are resubmitting and keep separate from any other problems that you are turning in.
+
+You are allowed and encouraged to work together on homework.  However, each student is expected to turn in his or her own work.  In general, late homework will *not* be accepted.  However, you are allowed to turn in **up to three late homework assignments** with no questions asked. Unless you have made arrangements in advance with me, homework turned in after class will be considered late. When doing your homework, I encourage you to consult the [Elements of Style for Proofs]({{site.baseurl}}/teaching/ElementsOfStyle.pdf).
+
+On each homework assignment, please write (i) your name, (ii) name of course, and (iii) assignment number.  You can find the list of assignments on the [homework page]({{site.baseurl}}/teaching/mat431s20/homework/).  I reserve the right to modify the homework assignments as I see necessary. Your overall homework grade will be worth 15% of your final grade.
 
 ### Presentations and Participation ###
 
