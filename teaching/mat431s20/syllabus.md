@@ -73,9 +73,17 @@ Upon completion of the course, students will be able to:
 7. Express work and results in coherent form using correct language and mathematics.
 
 ## What is This Course All About? ##
-This course is an introduction to [real analysis](https://en.wikipedia.org/wiki/Real_analysis), which is a subject area of mathematics that deals with the set of real numbers. In particular, it deals with the [analytic](https://en.wikipedia.org/wiki/Analytic_function) properties of real [functions](https://en.wikipedia.org/wiki/Function_(mathematics)) and [sequences](https://en.wikipedia.org/wiki/Sequence), including convergence and [limits of sequences](https://en.wikipedia.org/wiki/Limit_of_a_sequence) of real numbers, the [calculus](https://en.wikipedia.org/wiki/Calculus) of the real numbers, and [continuity](https://en.wikipedia.org/wiki/Continuous_function), and related properties of real-valued functions.
+This course introduces basic concepts and methods of analysis. The course focuses on the theory of the real number system and calculus of functions of a real variable. The content will include:
 
-We will spend most of our time studying sequences and the continuity of functions. We will take an axiomatic approach (definition, theorem, and proof) to the subject, but along the way, you will develop intuition about the objects of real analysis and pick up more proof-writing skills. The emphasis of this course is on your ability to read, understand, and communicate mathematics in the context of real analysis.
+- The Real Number System: axioms; supremum and infimum.
+- Topology of the real number system including completeness, compactness.
+- Sequences and Convergence, including the algebra of limits.
+- Limits of Functions, including the algebra of limits.% and limits for monotone functions.
+- Continuity, including the algebra of continuous functions, continuity of compositions, and uniform continuity.
+- Differentiation, including the algebra of derivatives, chain rule, Mean Value Theorem, Inverse Function Theorem, applications to behavior of functions, Taylor's Theorem and L'Hospital's Rule.
+- Riemann integration, including linearity and order properties, integrability of continuous functions, Riemann sums, the Fundamental Theorem of Calculus.
+
+We will take an axiomatic approach (definition, theorem, and proof) to the subject, but along the way, you will develop intuition about the objects of real analysis and pick up more proof-writing skills. The emphasis of this course is on your ability to read, understand, and communicate mathematics in the context of real analysis.
 
 <blockquote>
 <p>The mathematician does not study pure mathematics because it is useful; he studies it because he delights in it, and he delights in it because it is beautiful.</p>
@@ -95,7 +103,7 @@ This is not a lecture-oriented class or one in which mimicking prefabricated exa
 
 In order to promote a more active participation in your learning, we will incorporate ideas from an educational philosophy called [inquiry-based learning](http://maamathedmatters.blogspot.com/2013/05/what-heck-is-ibl.html) (IBL).  Loosely speaking, IBL is a student-centered method of teaching mathematics that engages students in sense-making activities.  Students are given tasks requiring them to solve problems, conjecture, experiment, explore, create, and communicate.  Rather than showing facts or a clear, smooth path to a solution, the instructor guides and mentors students via well-crafted problems through an adventure in mathematical discovery.  According to [Laursen and Rasmussen](https://www.colorado.edu/eer/sites/default/files/attached-files/laursenrasmussencommentaryauthorversion0219.pdf) (PDF), the Four Pillars of IBL are:
 
-- Students engage deeply with coherent \& meaningful mathematical tasks.
+- Students engage deeply with coherent and meaningful mathematical tasks.
 - Students collaboratively process mathematical ideas.
 - Instructors inquire into student thinking.
 - Instructors foster equity in their design and facilitation choices.
@@ -186,6 +194,8 @@ I will not be covering every detail of the notes and the only way to achieve a s
 Reviewing material from previous courses and looking up definitions and theorems you may have forgotten is fair game. However, when it comes to completing assignments for this course, you should *not* look to resources outside the context of this course for help.  That is, you should not be consulting the web, other texts, other faculty, or students outside of our course in an attempt to find solutions to the problems you are assigned.  On the other hand, you may use each other, the textbook, me, and your own intuition. If you feel you need additional resources, please come talk to me and we will come up with an appropriate plan of action. Please read NAU's [Academic Integrity Policy](https://www5.nau.edu/policies/Client/Details/828?whoIsLooking=Students&pertainsTo=All&sortDirection=Ascending&page=1).
 
 ### Exams ###
+2 midterms with option for take-home portions...
+
 There will be 3 midterm exams and a cumulative final exam.  Exam 1 and Exam 2 will be written exams consisting of an in-class portion (weighted 70%) and a take-home portion (weighted 30%).  The in-class portion of Exam 1 is *tentatively* scheduled for **Wednesday, September 25** (week 5) and the take-home portion of the exam will be due on **Wednesday, October 2**.  The in-class portion of Exam 2 is *tentatively* scheduled for **Wednesday, November 6** (week 11) and the take-home portion of the exam will be due on **Wednesday, November 13**.  Each of Exam 1 and Exam 2 will be worth 20% of your overall grade. Exam 3 will be a 30-minute oral exam taken individually in my office sometime during the last two weeks of classes. Exam 3 will be worth 10% of your overall grade. The final exam will be on **Wednesday, December 11** at **7:30-9:30AM** and is worth 20% of your overall grade. The final exam may or may not have a take-home portion.  Make-up exams will only be given under extreme circumstances, as judged by me. In general, it will be best to communicate conflicts ahead of time.
 
 ### Homework ###

@@ -101,7 +101,7 @@ This is not a lecture-oriented class or one in which mimicking prefabricated exa
 
 In order to promote a more active participation in your learning, we will incorporate ideas from an educational philosophy called [inquiry-based learning](http://maamathedmatters.blogspot.com/2013/05/what-heck-is-ibl.html) (IBL).  Loosely speaking, IBL is a student-centered method of teaching mathematics that engages students in sense-making activities.  Students are given tasks requiring them to solve problems, conjecture, experiment, explore, create, and communicate.  Rather than showing facts or a clear, smooth path to a solution, the instructor guides and mentors students via well-crafted problems through an adventure in mathematical discovery.  According to [Laursen and Rasmussen](https://www.colorado.edu/eer/sites/default/files/attached-files/laursenrasmussencommentaryauthorversion0219.pdf) (PDF), the Four Pillars of IBL are:
 
-- Students engage deeply with coherent \& meaningful mathematical tasks.
+- Students engage deeply with coherent and meaningful mathematical tasks.
 - Students collaboratively process mathematical ideas.
 - Instructors inquire into student thinking.
 - Instructors foster equity in their design and facilitation choices.
