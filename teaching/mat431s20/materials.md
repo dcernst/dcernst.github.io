@@ -29,7 +29,7 @@ title: Course Materials
 ## An Inquiry-Based Approach to Real Analysis ##
 We will not be using a traditional textbook this semester, but rather a problem sequence adopted for an [inquiry-based learning](http://maamathedmatters.blogspot.com/2013/05/what-heck-is-ibl.html) (IBL) approach to real analysis. The problem sequence that we are using is an adaptation of the analysis notes by [Karl-Dieter Crisman](http://www.math-cs.gordon.edu/~kcrisman/), which are a modified version of notes by [W. Ted Mahavier](https://www.lamar.edu/arts-sciences/mathematics/faculty/w-ted-mahavier.html). Both authors have been gracious enough to grant me access to the source of these notes, so that we can modify and tweak for our needs if necessary. The notes will be released incrementally. Each link below is to a PDF file.
 
-- [Title Page and Front Matter]({{site.baseurl}}/teaching/mat431s20/TitlePage.pdf)
+- [Title Page and Front Matter]({{site.baseurl}}/teaching/mat431s20/FrontMatter.pdf)
 - [Preface]({{site.baseurl}}/teaching/mat431s20/Preface.pdf)
 - [Chapter 1: Introduction]({{site.baseurl}}/teaching/mat431s20/Introduction.pdf)
     - 1.1 What is This Course All About?
