@@ -194,9 +194,7 @@ I will not be covering every detail of the notes and the only way to achieve a s
 Reviewing material from previous courses and looking up definitions and theorems you may have forgotten is fair game. However, when it comes to completing assignments for this course, you should *not* look to resources outside the context of this course for help.  That is, you should not be consulting the web, other texts, other faculty, or students outside of our course in an attempt to find solutions to the problems you are assigned.  On the other hand, you may use each other, the textbook, me, and your own intuition. If you feel you need additional resources, please come talk to me and we will come up with an appropriate plan of action. Please read NAU's [Academic Integrity Policy](https://www5.nau.edu/policies/Client/Details/828?whoIsLooking=Students&pertainsTo=All&sortDirection=Ascending&page=1).
 
 ### Exams ###
-2 midterms with option for take-home portions...
-
-<!-- There will be 3 midterm exams and a cumulative final exam.  Exam 1 and Exam 2 will be written exams consisting of an in-class portion (weighted 70%) and a take-home portion (weighted 30%).  The in-class portion of Exam 1 is *tentatively* scheduled for **Wednesday, September 25** (week 5) and the take-home portion of the exam will be due on **Wednesday, October 2**.  The in-class portion of Exam 2 is *tentatively* scheduled for **Wednesday, November 6** (week 11) and the take-home portion of the exam will be due on **Wednesday, November 13**.  Each of Exam 1 and Exam 2 will be worth 20% of your overall grade. Exam 3 will be a 30-minute oral exam taken individually in my office sometime during the last two weeks of classes. Exam 3 will be worth 10% of your overall grade. The final exam will be on **Wednesday, December 11** at **7:30-9:30AM** and is worth 20% of your overall grade. The final exam may or may not have a take-home portion.  Make-up exams will only be given under extreme circumstances, as judged by me. In general, it will be best to communicate conflicts ahead of time. -->
+There will be two midterm exams and a cumulative final exam.  All exams will consist of an in-class part and may consist of a take-home part. The in-class portions of Exam 1 and Exam 2 will be taken individually out of class during a two-hour time block that you will schedule in advance.  Exam 1 is tentatively scheduled for **Friday, February 21** (week 6) and Exam 2 is scheduled for **Friday, April 10** (week 12). We will not have class on the days that Exams 1 and 2 are given. The reason for the two-hour time block is to reduce pressure and eliminate time constraints. I will provide additional information about signing up for your two-hour time block as we get closer to Exam 1. Each of Exams 1 and 2 are worth ??% of your overall grade in the course. The final exam will be on **Monday, May 4** at **10:00A-12:00PM** and is worth 20% of your overall grade. Make-up exams will only be given under extreme circumstances, as judged by me. In general, it will be best to communicate conflicts ahead of time.
 
 ### Homework ###
 Homework will usually be assigned each class meeting, and students are expected to complete each assignment before walking into the next class period. All assignments should be *carefully*, *clearly*, and *cleanly* written. Among other things, this means your work should include proper grammar, punctuation, and spelling. You should write a draft of a given solution before you write down the final argument, so do yourself a favor and get in the habit of differentiating your scratch work from your submitted assignment. The homework will generally consist of completing exercises and proving theorems from the [problem sequence]({{site.baseurl}}/teaching/mat431s20/materials/).  In addition to completing the assigned problems, I also want you to assess your own work.  Next to each problem, I want you to write down a score between 0 and 4 that represents your perception of the validity and quality of your proposed solution/proof. Consider using the rubric given below.  Not completing the self-assessment may impact the score on your homework.
@@ -387,15 +385,15 @@ Your Presentation and Participation grade is determined by your frequency and ab
 	<tbody>
 	<tr>
 		<td style="text-align: center;">90-100%</td>
-		<td>Student receives M or E for participation. Student averages at least 3 presentations prior to each of the exams. Student often volunteers to present and some of these problems are challenging. Most presentations receive M or E.</td>
+		<td>Student receives M or E for participation. Student averages at least 1 presentation every week. Student often volunteers to present and some of these problems are challenging. Most presentations receive M or E.</td>
 	</tr>
 	<tr>
 		<td style="text-align: center;">80-89%</td>
-		<td>Student receives M or E for participation. Student averages at least 2 presentations prior to each of the exams. Student occasionally volunteers to present. Most presentations receive M.</td>
+		<td>Student receives M or E for participation. Student averages roughly 1.5 presentations every two weeks. Student occasionally volunteers to present. Most presentations receive M.</td>
 	</tr>
 	<tr>
 		<td style="text-align: center;">70-79%</td>
-		<td>Student receives M for participation. Student averages less than 2 presentations prior to each of the exams. Student rarely volunteers to present and actively avoids presenting challenging problems. Some presentations receive U.</td>
+		<td>Student receives M for participation. Student averages roughly 1 presentation every two weeks. Student rarely volunteers to present and actively avoids presenting challenging problems. Some presentations receive U.</td>
 	</tr>
 	<tr>
 		<td style="text-align: center;">60-69%</td>
@@ -409,7 +407,7 @@ Your Presentation and Participation grade is determined by your frequency and ab
 </table>
 </center>
 
-I anticipate that most students will fall in the 80-89% range. Your Presentation and Participation grade is worth 15% of your overall grade.
+I anticipate that most students will fall in the 80-89% range. Your Presentation and Participation grade is worth ??% of your overall grade.
 
 <blockquote>
 <p>I must not fear.<br />
@@ -444,30 +442,25 @@ In summary, your final grade will be determined by your scores in the following 
 	<tbody>
 	<tr>
 		<td>Homework</td>
-		<td style="text-align: center;">15%</td>
-		<td>A combination of Daily &amp; Weekly Homework</td>
+		<td style="text-align: center;">??%</td>
+		<td>See above for requirements</td>
 	</tr>
   <tr>
 		<td>Presentations &amp; Participation</td>
-		<td style="text-align: center;">15%</td>
+		<td style="text-align: center;">??%</td>
 		<td>See above for requirements</td>
 	</tr>
 	<tr>
 		<td>Exam 1</td>
-		<td style="text-align: center;">20%</td>
-		<td>In-class portion (70%) and take-home portion (30%)</td>
+		<td style="text-align: center;">??%</td>
+		<td>In-class portion on Friday, February 21</td>
 	</tr>
   <tr>
     <td>Exam 2</td>
-    <td style="text-align: center;">20%</td>
-    <td>In-class portion (70%) and take-home portion (30%)</td>
+    <td style="text-align: center;">??%</td>
+    <td>In-class portion on Friday, April 10</td>
   </tr>
   <tr>
-    <td>Exam 3</td>
-    <td style="text-align: center;">10%</td>
-    <td>Individual oral exam</td>
-  </tr>
-	<tr>
 		<td>Final Exam</td>
 		<td style="text-align: center;">20%</td>
 		<td>Monday, May 4 at 10:00AM-12:00PM</td>
