@@ -34,5 +34,5 @@ The following assignments are due at the beginning of the indicated class meetin
 
 - **Homework 1:** Read the [syllabus]({{site.baseurl}}/teaching/mat431s20/syllabus/) and write down 5 important items.  *Note:*  All of the exam dates only count as a single item.  Turn in on your own paper at the beginning of class. (Due Wednesday, January 15)
 - **Homework 2:** Read and sign the [Student Contract]({{site.baseurl}}/teaching/StudentContract.pdf). (Due Wednesday, January 15)
-- **Homework 3:** Stop by my office (AMB 176) and say hello. If I'm not there, just slide note under my door saying you stopped by. (Due by 5PM on Friday, January 24)
-- **Homework 4:** Coming soon. (Due Wednesday, January 15)
+- **Homework 3:** Read the [Preface]({{site.baseurl}}/teaching/mat431s20/Preface.pdf) and [Introduction]({{site.baseurl}}/teaching/mat431s20/Introduction.pdf). In addition, complete 2.1-2.12, 2.14-2.16 in [Chapter 2: Preliminaries]({{site.baseurl}}/teaching/mat431s20/Preliminaries.pdf). (Due Wednesday, January 15)
+- **Homework 4:** Quickly skim [Appendix A: Elements of Style for Proofs]({{site.baseurl}}/teaching/mat320s20/ElementsOfStyle.pdf), [Appendix B: Fancy Mathematical Terms]({{site.baseurl}}/teaching/mat320s20/FancyMathematicalTerms.pdf), and [Appendix C: Definitions in Mathematics]({{site.baseurl}}/teaching/mat320s20/Definitions.pdf). In addition, complete 2.18-2.19 in [Chapter 2: Preliminaries]({{site.baseurl}}/teaching/mat431s20/Preliminaries.pdf). (Due Friday, January 17)

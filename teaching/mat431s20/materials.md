@@ -40,7 +40,7 @@ We will not be using a traditional textbook this semester, but rather a problem 
     - 1.6 Structure of the Notes
     - 1.7 Some Minimal Guidance
 - [Chapter 2: Preliminaries]({{site.baseurl}}/teaching/mat431s20/Preliminaries.pdf)
-    - 2.1 Absolute Basics
+    - 2.1 Basics
     - 2.2 Logic Review
     - 2.3 Sets and Functions
     - 2.4 Order Properties of the Real Numbers
