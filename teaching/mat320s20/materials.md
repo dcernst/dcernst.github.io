@@ -40,7 +40,7 @@ I will not be covering every detail of the notes and the only way to achieve a s
 The notes will be released incrementally. Each link below is to a PDF file. If you've found an error or have suggestions for improvements, please let me know.
 
 <!-- - [An Introduction to Proof via Inquiry-Based Learning]({{site.baseurl}}/teaching/mat320s20/IntroToProof.pdf) (complete set of notes) -->
-- [Title Page and Front Matter]({{site.baseurl}}/teaching/mat320s20/TitlePage.pdf)
+- [Title Page and Front Matter]({{site.baseurl}}/teaching/mat320s20/FrontMatter.pdf)
 - [Chapter 1: Introduction]({{site.baseurl}}/teaching/mat320s20/Introduction.pdf)
     - 1.1 What is This Course All About?
     - 1.2 An Inquiry-Based Approach
