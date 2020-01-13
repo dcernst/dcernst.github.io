@@ -57,7 +57,7 @@ I will not be covering every detail of the notes and the only way to achieve a s
 </blockquote>
 
 ## Miscellaneous Materials ##
-- [Student Contract]({{ site.baseurl }}/teaching/StudentContract.pdf) (PDF)
+<!-- - [Student Contract]({{ site.baseurl }}/teaching/StudentContract.pdf) (PDF) -->
 - [Setting the Stage]({{ site.baseurl }}/teaching/SettingTheStage.pdf) (PDF)
 - [The Secret to Raising Smart Kids &#124; Carol Dweck](https://www.scientificamerican.com/article/the-secret-to-raising-smart-kids1/) (article on Scientific American)
 - [7 Things Growth Mindset is Not](https://www.turnaroundusa.org/7-things-growth-mindset-is-not/) (article on Turn Around for Children)

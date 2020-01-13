@@ -33,10 +33,23 @@ On each homework assignment, please write (i) your name, (ii) name of course, an
 The following assignments are due at the beginning of the indicated class meeting. However, most assignments will be collected at the end of the class meeting.  I reserve the right to modify the assignment if the need arises.  These exercises will form the basis of the student-led presentations.  Daily assignments will be graded on a $\checkmark$-system.  During class, **you are only allowed and encouraged to annotate your homework using the colored marker pens that I provide**.
 
 - **Daily Homework 1:** Read the [syllabus]({{site.baseurl}}/teaching/mat320s20/syllabus/) and write down 5 important items.  *Note:*  All of the exam dates only count as a single item.  Turn in on your own paper at the beginning of class. (Due Wednesday, January 15)
-- **Daily Homework 2:** Read and sign the [Student Contract]({{site.baseurl}}/teaching/StudentContract.pdf). (Due Wednesday, January 15)
-- **Daily Homework 3:** Read the [Preface]({{site.baseurl}}/teaching/mat320s20/Preface.pdf) and [Introduction]({{site.baseurl}}/teaching/mat320s20/Introduction.pdf). In addition, complete 2.3-2.9, 2.11 in [Chapter 2: Mathematics and Logic]({{site.baseurl}}/teaching/mat320s20/MathAndLogic.pdf). (Due Wednesday, January 15)
-- **Daily Homework 4:** Quickly skim [Appendix A: Elements of Style for Proofs]({{site.baseurl}}/teaching/mat320s20/ElementsOfStyle.pdf), [Appendix B: Fancy Mathematical Terms]({{site.baseurl}}/teaching/mat320s20/FancyMathematicalTerms.pdf), and [Appendix C: Definitions in Mathematics]({{site.baseurl}}/teaching/mat320s20/Definitions.pdf). In addition, complete 2.12-2.19 in [Chapter 2: Mathematics and Logic]({{site.baseurl}}/teaching/mat320s20/MathAndLogic.pdf). (Due Friday, January 17)
-- **Daily Homework 5:** Complete 2.20-2.23, 2.25, 2.27, 2.29, 2.30 in [Chapter 2: Mathematics and Logic]({{site.baseurl}}/teaching/mat320s20/MathAndLogic.pdf). (Due Wednesday, January 22)
+<!-- - **Daily Homework 2:** Read and sign the [Student Contract]({{site.baseurl}}/teaching/StudentContract.pdf). (Due Wednesday, January 15) -->
+- **Daily Homework 2:** Read the [Preface]({{site.baseurl}}/teaching/mat320s20/Preface.pdf) and [Introduction]({{site.baseurl}}/teaching/mat320s20/Introduction.pdf). In addition, complete 2.3-2.9 in [Chapter 2: Mathematics and Logic]({{site.baseurl}}/teaching/mat320s20/MathAndLogic.pdf). (Due Wednesday, January 15)
+- **Daily Homework 3:** Answer the following questions. (Due Friday, January 17)
+    1. What are some words you would use to describe mathematics?
+    2. What words would you use to describe a typical mathematician?
+    3. What do you think it means to be “good at mathematics”?
+    4. What does the phrase “doing mathematics” mean to you?
+    5. What do you do when you are struggling with a mathematical problem?
+    6. When has most of the mathematics we know been developed?
+    7. Who are some famous mathematicians? Can you name some contemporary mathematicians? I.e. mathematicians from the 20th or 21st century?
+    8. What is your major (if you have declared one already)?
+    9. What do you think are the goals for this course?
+    10. What concerns, if any, do you have about taking this course?
+- **Daily Homework 4:** Complete 2.11-2.19 in [Chapter 2: Mathematics and Logic]({{site.baseurl}}/teaching/mat320s20/MathAndLogic.pdf). (Due Friday, January 17)
+- **Daily Homework 5:** Quickly skim [Appendix A: Elements of Style for Proofs]({{site.baseurl}}/teaching/mat320s20/ElementsOfStyle.pdf), [Appendix B: Fancy Mathematical Terms]({{site.baseurl}}/teaching/mat320s20/FancyMathematicalTerms.pdf), and [Appendix C: Definitions in Mathematics]({{site.baseurl}}/teaching/mat320s20/Definitions.pdf). In addition, complete ??? in [Chapter 2: Mathematics and Logic]({{site.baseurl}}/teaching/mat320s20/MathAndLogic.pdf). (Due Wednesday, January 22)
+
+<!-- 2.20-2.23, 2.25, 2.27, 2.29, 2.30 -->
 
 ## Weekly Homework ##
 For most of the assignments below, you will be required to submit 2-3 formally written proofs. You are required to type your submission using LaTeX (see below).  You can either submit a hardcopy of your assignment or email me the PDF of your completed work. If you email me the PDF, please name your file as <code>WeeklyX-LastName.pdf</code>, where <code>X</code> is the number of the assignment and <code>LastName</code> is your last name.  Notice there are no spaces in the filename.
