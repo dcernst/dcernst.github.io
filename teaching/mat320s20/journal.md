@@ -37,7 +37,7 @@ We’ll use this page to keep track of what has happened each day in class. It w
 
 <ul class="fa-ul">
   <li><i class="fa-li far fa-calendar-check"></i><b>Monday, January 13:</b> First day! The first few minutes of class were devoted to me attempting to learn names. I think I got them all! Next, I summarized what to expect from the course, toured the the <a href="{{site.baseurl}}/teaching/mat320s20/">course webpage</a>, and summarized a few items on the <a href="{{site.baseurl}}/teaching/mat320s20/syllabus/">syllabus</a>. With the time we had left, we started discussing some of the content due on Wednesday.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, January 15:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, January 15:</b> Unfortunately, I missed today due to being at a conference. Zach Parker covered for me while I was away. JJ, SS, FB, YF, AS, and ID presented Theorem 2.3, Theorem 2.4, Problem 2.5, Problem 2.7, Problem 2.8, and Problem 2.9, respectively.  That's a lot of student presentations!</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Friday, January 17:</b> Coming soon.</li>
 </ul>
 

@@ -37,6 +37,6 @@ We’ll use this page to keep track of what has happened each day in class. It w
 
 <ul class="fa-ul">
   <li><i class="fa-li far fa-calendar-check"></i><b>Monday, January 13:</b> First day! The first few minutes of class were devoted to me attempting to learn names. I think I got them all! Next, I summarized what to expect from the course, toured the the <a href="{{site.baseurl}}/teaching/mat431s20/">course webpage</a>, and summarized a few items on the <a href="{{site.baseurl}}/teaching/mat431s20/syllabus/">syllabus</a>. With the time we had left, we started discussing the homework due Wednesday.  We even had two presentations by HA and MB (Problem 2.6).</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, January 15:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, January 15:</b> Unfortunately, I missed today due to being at a conference. David Deville covered for me while I was away. AS, AA, SW, RT, NM, TH, CC, MK, LC, JS, and MB presented Exercises 2.4, 2.5(a), 2.5(b), 2.5(c), 2.9, 2.10, 2.11, 2.12, 2.14, 2.16, and 2.17, respectively.  That's a lot of student presentations!</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Friday, January 17:</b> Coming soon.</li>
 </ul>
