@@ -47,7 +47,8 @@ The following assignments are due at the beginning of the indicated class meetin
     9. What do you think are the goals for this course?
     10. What concerns, if any, do you have about taking this course?
 - **Daily Homework 4:** Complete 2.11-2.19 in [Chapter 2: Mathematics and Logic]({{site.baseurl}}/teaching/mat320s20/MathAndLogic.pdf). (Due Friday, January 17)
-- **Daily Homework 5:** Quickly skim [Appendix A: Elements of Style for Proofs]({{site.baseurl}}/teaching/mat320s20/ElementsOfStyle.pdf), [Appendix B: Fancy Mathematical Terms]({{site.baseurl}}/teaching/mat320s20/FancyMathematicalTerms.pdf), and [Appendix C: Definitions in Mathematics]({{site.baseurl}}/teaching/mat320s20/Definitions.pdf). In addition, complete ??? in [Chapter 2: Mathematics and Logic]({{site.baseurl}}/teaching/mat320s20/MathAndLogic.pdf). (Due Wednesday, January 22)
+- **Daily Homework 5:** Quickly skim [Appendix A: Elements of Style for Proofs]({{site.baseurl}}/teaching/mat320s20/ElementsOfStyle.pdf), [Appendix B: Fancy Mathematical Terms]({{site.baseurl}}/teaching/mat320s20/FancyMathematicalTerms.pdf), and [Appendix C: Definitions in Mathematics]({{site.baseurl}}/teaching/mat320s20/Definitions.pdf). In addition, complete 2.20-2.23 in [Chapter 2: Mathematics and Logic]({{site.baseurl}}/teaching/mat320s20/MathAndLogic.pdf). (Due Wednesday, January 22)
+- **Daily Homework 6:** Complete 2.25, 2.27, 2.29, 2.30, 2.33, 2.34, 2.36-2.38 in [Chapter 2: Mathematics and Logic]({{site.baseurl}}/teaching/mat320s20/MathAndLogic.pdf). (Due Friday, January 24)
 
 <!-- 2.20-2.23, 2.25, 2.27, 2.29, 2.30 -->
 
