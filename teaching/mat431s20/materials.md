@@ -83,7 +83,10 @@ I will not be covering every detail of the notes and the only way to achieve a s
 - [Is Mathematics Invented or Discovered? &#124; Roger Penrose](https://www.youtube.com/watch?v=TKlPj_qGIt8) (4:14 min)
 - [What is Mathematics? The Most Misunderstood Subject](https://www.fordham.edu/info/20603/what_math) (short article by Dr. Robert H. Lewis, Professor of Mathematics, Fordham University)
 - Pictures of board work that we ran out of time to discuss. *Note:* You should not assume that the solutions/proofs posted below are valid or sufficient.
-    - Coming soon.
+    - [Problem 2.23]({{site.baseurl}}/teaching/mat431s20/Problem2.23.JPG)
+    - [Exercise 2.27]({{site.baseurl}}/teaching/mat431s20/Exercise2.27.JPG)
+    - [Problem 2.28]({{site.baseurl}}/teaching/mat431s20/Problem2.28.JPG)
+    - [Problem 2.29]({{site.baseurl}}/teaching/mat431s20/Problem2.29.JPG)
 
 <!-- ## Exams
 Below are links to the take-home portions of each exam. If you are interested in using LaTeX to type up your solutions, contact me and I will send you a link to the source file of the exam.
