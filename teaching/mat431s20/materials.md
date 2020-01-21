@@ -44,7 +44,7 @@ We will not be using a traditional textbook this semester, but rather a problem 
     - 2.2 Logic Review
     - 2.3 Sets and Functions
     - 2.4 Order Properties of the Real Numbers
-- Chapter 3: Coming soon!
+- [Chapter 3: Point Sets and Sequences]({{site.baseurl}}/teaching/mat431s20/PointSetsSequences.pdf)
 - [Appendix A: Elements of Style for Proofs]({{site.baseurl}}/teaching/mat431s20/ElementsOfStyle.pdf)
 - [Appendix B: Fancy Mathematical Terms]({{site.baseurl}}/teaching/mat431s20/FancyMathematicalTerms.pdf)
 - [Appendix C: Definitions in Mathematics]({{site.baseurl}}/teaching/mat431s20/Definitions.pdf)
