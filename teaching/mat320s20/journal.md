@@ -45,6 +45,6 @@ We’ll use this page to keep track of what has happened each day in class. It w
 
 <ul class="fa-ul">
   <li><i class="fa-li far fa-calendar-check"></i><b>Monday, January 20:</b> MLK Day, no classes.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, January 22:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, January 22:</b> Today was all about recalibrating after me being gone most of last week. After some discussion of course expectations, we briefly discussed the use of LaTeX for the Weekly Homework assignments.  Next, we had CH and AL present Problem 2.16 and Theorem 2.17, respectively.  The proof of Theorem 2.17 generated lots of great discussion.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Friday, January 24:</b> Coming soon.</li>
 </ul>
