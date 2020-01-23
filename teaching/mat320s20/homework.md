@@ -49,8 +49,7 @@ The following assignments are due at the beginning of the indicated class meetin
 - **Daily Homework 4:** Complete 2.11-2.19 in [Chapter 2: Mathematics and Logic]({{site.baseurl}}/teaching/mat320s20/MathAndLogic.pdf). (Due Friday, January 17)
 - **Daily Homework 5:** Quickly skim [Appendix A: Elements of Style for Proofs]({{site.baseurl}}/teaching/mat320s20/ElementsOfStyle.pdf), [Appendix B: Fancy Mathematical Terms]({{site.baseurl}}/teaching/mat320s20/FancyMathematicalTerms.pdf), and [Appendix C: Definitions in Mathematics]({{site.baseurl}}/teaching/mat320s20/Definitions.pdf). In addition, complete 2.20-2.23 in [Chapter 2: Mathematics and Logic]({{site.baseurl}}/teaching/mat320s20/MathAndLogic.pdf). (Due Wednesday, January 22)
 - **Daily Homework 6:** Complete 2.25, 2.27 in [Chapter 2: Mathematics and Logic]({{site.baseurl}}/teaching/mat320s20/MathAndLogic.pdf). (Due Friday, January 24)
-
-<!-- 2.20-2.23, 2.25, 2.27, 2.29, 2.30 -->
+- **Daily Homework 7:** Complete 2.29, 2.30, 2.33, 2.34, 2.36-2.38 in [Chapter 2: Mathematics and Logic]({{site.baseurl}}/teaching/mat320s20/MathAndLogic.pdf). (Due Monday, January 27)
 
 ## Weekly Homework ##
 For most of the assignments below, you will be required to submit 2-3 formally written proofs. You are required to type your submission using LaTeX (see below).  You can either submit a hardcopy of your assignment or email me the PDF of your completed work. If you email me the PDF, please name your file as <code>WeeklyX-LastName.pdf</code>, where <code>X</code> is the number of the assignment and <code>LastName</code> is your last name.  Notice there are no spaces in the filename.
