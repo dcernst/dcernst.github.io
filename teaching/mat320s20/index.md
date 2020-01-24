@@ -37,7 +37,7 @@ Welcome to the course web page for the Spring 2020 manifestation of MAT 320: Fou
     <strong>Credits:</strong> 3<br />
     <strong>Section:</strong> 2<br />
     <strong>Time:</strong> 12:40-1:30PM MWF<br />
-    <strong>Location:</strong> AMB 146
+    <strong>Location:</strong> AMB 163
     </div>
   </div>
 

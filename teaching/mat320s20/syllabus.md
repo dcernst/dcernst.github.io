@@ -41,7 +41,7 @@ layout: default
     <strong>Credits:</strong> 3<br />
     <strong>Section:</strong> 2<br />
     <strong>Time:</strong> 12:40-1:30PM<br />
-    <strong>Location:</strong> AMB 146
+    <strong>Location:</strong> AMB 163
     </div>
   </div>
 
