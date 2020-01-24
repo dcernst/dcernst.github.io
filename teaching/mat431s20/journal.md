@@ -46,5 +46,5 @@ We’ll use this page to keep track of what has happened each day in class. It w
 <ul class="fa-ul">
   <li><i class="fa-li far fa-calendar-check"></i><b>Monday, January 20:</b> MLK Day, no classes.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, January 22:</b> Today was all about recalibrating after me being gone most of last week.  After some discussion of the grading of homework, we revisited the order axioms and the big picture of where we are and where are headed.  Next, I presented a proof of Problem 2.30.  This was followed by presentations of Problem 2.23 and Exercise 2.27 (both left over from Friday) by AS/LC and JA, respectively.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, January 24:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, January 24:</b> Today was awesome!  I split the class up into four small groups, each tasked with working on one of 2.29-2.33. After a few minutes, we had WM, JI, JS, and JA present Problems 2.29, 2.31, 2.32, and 2.33, respectively. Along the way, we discussed alternate approaches to the proofs.</li>
 </ul>
