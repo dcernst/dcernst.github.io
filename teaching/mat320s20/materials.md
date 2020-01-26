@@ -119,26 +119,7 @@ The notes will be released incrementally. Each link below is to a PDF file. If y
 - [Is Mathematics Invented or Discovered? &#124; Roger Penrose](https://www.youtube.com/watch?v=TKlPj_qGIt8) (4:14 min)
 - [What is Mathematics? The Most Misunderstood Subject](https://www.fordham.edu/info/20603/what_math) (short article by Dr. Robert H. Lewis, Professor of Mathematics, Fordham University)
 - Pictures of board work that we ran out of time to discuss. *Note:* You should not assume that the solutions/proofs posted below are valid or sufficient.
-    - Coming soon.
-
-<!--
-    - [Problem 2.7]({{site.baseurl}}/teaching/mat320s20/Problem2.7.jpeg)
-    - [Problem 2.9]({{site.baseurl}}/teaching/mat320s20/Problem2.9.jpeg)
-    - [Theorem 2.29]({{site.baseurl}}/teaching/mat320s20/Theorem2.29.jpg)
-    - [Problem 2.31]({{site.baseurl}}/teaching/mat320s20/Problem2.31.jpg)
-    - [Theorem 2.45]({{site.baseurl}}/teaching/mat320s20/Theorem2.45.jpg)
-    - [Theorem 2.48(a)]({{site.baseurl}}/teaching/mat320s20/Theorem2.48.jpeg)
-    - [Problem 2.55(abc)]({{site.baseurl}}/teaching/mat320s20/Problem2.55.jpeg)
-    - [Problem 3.20]({{site.baseurl}}/teaching/mat320s20/Problem3.20.jpg)
-    - [Problem 3.22(abf)]({{site.baseurl}}/teaching/mat320s20/Problem3.22abf.jpg)
-    - [Problem 3.22(cd)]({{site.baseurl}}/teaching/mat320s20/Problem3.22cd.jpg)
-    - [Problem 3.22(e)]({{site.baseurl}}/teaching/mat320s20/Problem3.22e.jpg)
-    - [Problem 3.22(gh)]({{site.baseurl}}/teaching/mat320s20/Problem3.22gh.jpg)
-    - [Problem 3.22(jk)]({{site.baseurl}}/teaching/mat320s20/Problem3.22jk.jpg)
-    - [Problem 3.25]({{site.baseurl}}/teaching/mat320s20/Problem3.25.jpg)
-    - [Problem 6.29]({{site.baseurl}}/teaching/mat320s20/Problem6.29.jpg)
-    - [Theorem 6.39]({{site.baseurl}}/teaching/mat320s20/Theorem6.39.jpg)
-    - [Problem 6.40]({{site.baseurl}}/teaching/mat320s20/Problem6.40.jpg) -->
+    - [Theorem 2.23]({{site.baseurl}}/teaching/mat320s20/Theorem2.23.jpg)
 
 <!-- ## Exams
 Below are links to the take-home portions of each exam. If you are interested in using LaTeX to type up your solutions, contact me and I will send you a link to the source file of the exam.
