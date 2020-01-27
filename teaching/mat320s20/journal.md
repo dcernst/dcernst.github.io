@@ -52,7 +52,7 @@ We’ll use this page to keep track of what has happened each day in class. It w
 ## Week 3 ##
 
 <ul class="fa-ul">
-  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, January 27:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, January 27:</b> I spent way too long discussing LaTeX, but hopefully it was helpful.  Our only presentation of the day was of Theorem 2.23 by TF. With the time left, we discussed Exercise 2.25.  We will play catch up on Wednesday.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, January 29:</b> Coming soon.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Friday, January 31:</b> Coming soon.</li>
 </ul>
