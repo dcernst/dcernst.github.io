@@ -95,6 +95,7 @@ The notes will be released incrementally. Each link below is to a PDF file. If y
 ## Miscellaneous Materials ##
 <!-- - [Student Contract]({{ site.baseurl }}/teaching/StudentContract.pdf) (PDF) -->
 - [Setting the Stage]({{ site.baseurl }}/teaching/SettingTheStage.pdf) (PDF)
+- [Living Proof]({{site.baseurl}}/teaching/LivingProof.pdf)
 - [The Secret to Raising Smart Kids &#124; Carol Dweck](https://www.scientificamerican.com/article/the-secret-to-raising-smart-kids1/) (article on Scientific American)
 - [7 Things Growth Mindset is Not](https://www.turnaroundusa.org/7-things-growth-mindset-is-not/) (article on Turn Around for Children)
 - Videos on Growth Mindset and Productive Failure

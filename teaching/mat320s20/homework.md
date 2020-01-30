@@ -52,12 +52,19 @@ The following assignments are due at the beginning of the indicated class meetin
 - **Daily Homework 7:** Complete 2.29, 2.30, 2.33, 2.34, 2.36-2.38 in [Chapter 2: Mathematics and Logic]({{site.baseurl}}/teaching/mat320s20/MathAndLogic.pdf). (Due Monday, January 27)
 - **Daily Homework 8:** Complete 2.40, 2.42, 2.44, 2.45 in [Chapter 2: Mathematics and Logic]({{site.baseurl}}/teaching/mat320s20/MathAndLogic.pdf). (Due Wednesday, January 29)
 - **Daily Homework 9:** Complete 2.46, 2.48-2.51 in [Chapter 2: Mathematics and Logic]({{site.baseurl}}/teaching/mat320s20/MathAndLogic.pdf). (Due Friday, January 31)
+- **Daily Homework 10:** Complete 2.52-2.55, 2.57, 2.58 in [Chapter 2: Mathematics and Logic]({{site.baseurl}}/teaching/mat320s20/MathAndLogic.pdf). (Due Monday, February 3)
 
 ## Weekly Homework ##
 For most of the assignments below, you will be required to submit 2-3 formally written proofs. You are required to type your submission using LaTeX (see below).  You can either submit a hardcopy of your assignment or email me the PDF of your completed work. If you email me the PDF, please name your file as <code>WeeklyX-LastName.pdf</code>, where <code>X</code> is the number of the assignment and <code>LastName</code> is your last name.  Notice there are no spaces in the filename.
 
 - **Weekly Homework 1:** Watch "Grit: the power of passion and perseverance" and any other 4 videos listed under Growth Mindset and Productive Failure on the <a href="{{site.baseurl}}/teaching/mat320s20/materials/">Course Materials</a> page and then write a reflection that is at least 15 sentences long. You should list the videos you watched. Rather than reflecting on each video separately, try to reflect on growth mindset, productive failure, and grit, in general. <b>You are required to type your reflection using LaTeX.</b>. For this assignment, I suggest you use the template on [Overleaf](https://www.overleaf.com/) found [here](https://www.overleaf.com/latex/templates/weekly-homework-1-for-reflection-on-growth-mindset-and-productive-failure-foundations-of-mathematics/pxwcxqqrqmdv) (after clicking link, click on "Open as Template") instead of using the "Start your homework in Overleaf" link below.  (Due Friday, January 24 by 3PM)
 - **Weekly Homework 2:** Prove **one** of 2.3, 2.4, 2.8, 2.14, 2.18, 2.22, 2.23. You must type up your proofs using LaTeX.  I suggest you use my Overleaf template, which you can access by clicking the "Start your homework in Overleaf" link below. (Due Thursday, January 30 by 8PM)
+- **Weekly Homework 3:** Prove **one** of 2.49-2.51. You must type up your proofs using LaTeX. In addition, read the Foreword, Preface, and any **two** stories (they aren't too long) from [Living Proof]({{site.baseurl}}/teaching/LivingProof.pdf), and then type up responses to the following questions for each story.  Be sure to indicate which stories you read. Once again, use the "Start your homework in Overleaf" link below. You'll need to delete one of the theorem/proof pairs to write your responses to the reflection questions. (Due Thursday, February 6 by 8PM)
+    1. Did you identify with the author of the story? If so, in what way?
+    2. How does the author's experience differ from your own?
+    3. What surprised you about the author's story?
+    4. Did this story make you think differently about mathematics? I'm expecting more than "yes/no".
+    5. What about the story inspires and/or bothers you?
 
 ## Using LaTeX for Weekly Homework ##
 You are required to use LaTeX to type up your Weekly Homework assignments. The easiest way to get started with LaTeX is to use an online editor.  I recommend using [Overleaf](https://overleaf.com), but there are other options.  The good folks over at Overleaf have preloaded my homework template, so to get started, all you need to do is click the link below and then click on "Open as Template". Be sure to update your name and the course title.
