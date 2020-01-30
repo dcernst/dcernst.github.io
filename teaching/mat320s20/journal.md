@@ -53,6 +53,6 @@ We’ll use this page to keep track of what has happened each day in class. It w
 
 <ul class="fa-ul">
   <li><i class="fa-li far fa-calendar-check"></i><b>Monday, January 27:</b> I spent way too long discussing LaTeX, but hopefully it was helpful.  Our only presentation of the day was of Theorem 2.23 by TF. With the time left, we discussed Exercise 2.25.  We will play catch up on Wednesday.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, January 29:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, January 29:</b> After a short discussion of growth mindset and grit, we had RB, RP, NC, JD, SR, and AL present Exercise 2.30, Exercise 2.33, Problem 2.34, Theorem 2.36, Theorem 2.37, and Problem 2.38, respectively.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Friday, January 31:</b> Coming soon.</li>
 </ul>
