@@ -204,7 +204,7 @@ Homework will usually be assigned each class meeting, and students are expected 
 <footer><a href="https://en.wikipedia.org/wiki/Ernest_Hemingway">Ernest Hemingway</a></footer>
 </blockquote>
 
-On the day that a homework assignment is due, the majority of the class period will be devoted to students presenting some subset (maybe all) of the problems that are due that day. At the end of each class session, you should submit the written work for all of your proposed solutions for problems that are due that day. On each homework assignment, I will provide grade of 0-2 based on the completeness of the assignment (not correctness). In addition, I will grade 1-2 problems (perhaps ones that were not presented in class), where each problem that is graded is worth 4 points and subject to the following rubric:
+On the day that a homework assignment is due, the majority of the class period will be devoted to students presenting some subset (maybe all) of the problems that are due that day. At the end of each class session, you should submit the written work for all of your proposed solutions for problems that are due that day. On each homework assignment, I will provide grade of 0-2 based on the completeness of the assignment (not correctness). In addition, I will grade 1-2 problems (perhaps ones that were not presented in class), where each problem that is graded is worth either 2 or 4 points.  If the problem is worth 4 points, it is subject to the following rubric.  A scaled version of this rubric is used if the problem is worth 2 points.
 
 <center>
 <table class="table table-striped">
