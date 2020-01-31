@@ -54,5 +54,5 @@ We’ll use this page to keep track of what has happened each day in class. It w
 <ul class="fa-ul">
   <li><i class="fa-li far fa-calendar-check"></i><b>Monday, January 27:</b> Another productive day.  We spent the first few minutes discussing the "big picture" of accumulation points.  Then we had AC, CC, JQ, RT, and TH present Exercise 3.6, Problem 3.8, Problem 3.9, Problem 3.10, and Problem 3.11, respectively.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, January 29:</b> I divided the class up into a few small groups.  We had MK, TH, and JI present Problems 3.13, 3.13(a), and 3.13(b), respectively.  We'll catch up on the ones we didn't get to next time.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, January 31:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, January 31:</b> Today seemed like a good day for me to run the show.  I spent some time reviewing the fundamentals of "accumulation point" and "limit of a sequence," which was followed by discussions of Problem 3.14, 3.18, 3.20, and 3.22.</li>
 </ul>
