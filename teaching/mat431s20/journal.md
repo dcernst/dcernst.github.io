@@ -56,3 +56,11 @@ We’ll use this page to keep track of what has happened each day in class. It w
   <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, January 29:</b> I divided the class up into a few small groups.  We had MK, TH, and JI present Problems 3.13, 3.13(a), and 3.13(b), respectively.  We'll catch up on the ones we didn't get to next time.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Friday, January 31:</b> Today seemed like a good day for me to run the show.  I spent some time reviewing the fundamentals of "accumulation point" and "limit of a sequence," which was followed by discussions of Problem 3.14, 3.18, 3.20, and 3.22.</li>
 </ul>
+
+## Week 4 ##
+
+<ul class="fa-ul">
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, February 3:</b> We started by tinkering with a bunch of examples involving accumulation points and convergence of sequences. Next, we sketched a solution to Problem 3.21 together.  This was followed by presentations of Problems 3.23 and 3.26 by SW and JS, respectively.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, February 5:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, February 7:</b> Coming soon.</li>
+</ul>
