@@ -54,5 +54,5 @@ We’ll use this page to keep track of what has happened each day in class. It w
 <ul class="fa-ul">
   <li><i class="fa-li far fa-calendar-check"></i><b>Monday, January 27:</b> I spent way too long discussing LaTeX, but hopefully it was helpful.  Our only presentation of the day was of Theorem 2.23 by TF. With the time left, we discussed Exercise 2.25.  We will play catch up on Wednesday.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, January 29:</b> After a short discussion of growth mindset and grit, we had RB, RP, NC, JD, SR, and AL present Exercise 2.30, Exercise 2.33, Problem 2.34, Theorem 2.36, Theorem 2.37, and Problem 2.38, respectively.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, January 31:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, January 31:</b> Fantastic day!  Lots of ideas were synthesized.  After a brief discussion of contrapositives and proof by contradiction, I split the class up into groups of size 2-3.  Lots of great discussion! We had DW, GI, FB, and HG present Theorem 2.46, Problem 2.48, Theorem 2.49, and Theorem 2.50, respectively.</li>
 </ul>
