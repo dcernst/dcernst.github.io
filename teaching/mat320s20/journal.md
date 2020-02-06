@@ -56,3 +56,11 @@ We’ll use this page to keep track of what has happened each day in class. It w
   <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, January 29:</b> After a short discussion of growth mindset and grit, we had RB, RP, NC, JD, SR, and AL present Exercise 2.30, Exercise 2.33, Problem 2.34, Theorem 2.36, Theorem 2.37, and Problem 2.38, respectively.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Friday, January 31:</b> Fantastic day!  Lots of ideas were synthesized.  After a brief discussion of contrapositives and proof by contradiction, I split the class up into groups of size 2-3.  Lots of great discussion! We had DW, GI, FB, and HG present Theorem 2.46, Problem 2.48, Theorem 2.49, and Theorem 2.50, respectively.</li>
 </ul>
+
+## Week 4 ##
+
+<ul class="fa-ul">
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, February 3:</b> Prior to the beginning of class, I wrote some stuff on the board for Theorem 2.52 and Exercise 2.54.  Next, we had NC, KB, LC, and PC present Corollary 2.53, Exercise 2.55, Theorem 2.57, and Exercise 2.58, respectively. With the time we had left, I discussed the big picture of proof by contradiction.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, February 5:</b> After some short discussion of the upcoming exam, we had IS and RP present Theorems 2.61 and 2.62.  Both of these generated excellent discussion!  With the time we had left, we discussed Exercises 2.63 and 2.64 as a class.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, February 7:</b> Coming soon.</li>
+</ul>

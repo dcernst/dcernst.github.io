@@ -61,6 +61,6 @@ We’ll use this page to keep track of what has happened each day in class. It w
 
 <ul class="fa-ul">
   <li><i class="fa-li far fa-calendar-check"></i><b>Monday, February 3:</b> We started by tinkering with a bunch of examples involving accumulation points and convergence of sequences. Next, we sketched a solution to Problem 3.21 together.  This was followed by presentations of Problems 3.23 and 3.26 by SW and JS, respectively.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, February 5:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, February 5:</b> More hard stuff today!  After discussing the upcoming exam, we had WM and LC present Problems 3.27 and 3.28.  Both generated excellent discussions!  With the time we had left, I sketched the general structure of the proof of Problem 3.35, which we will revisit next time.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Friday, February 7:</b> Coming soon.</li>
 </ul>
