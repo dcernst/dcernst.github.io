@@ -62,5 +62,13 @@ We’ll use this page to keep track of what has happened each day in class. It w
 <ul class="fa-ul">
   <li><i class="fa-li far fa-calendar-check"></i><b>Monday, February 3:</b> Prior to the beginning of class, I wrote some stuff on the board for Theorem 2.52 and Exercise 2.54.  Next, we had NC, KB, LC, and PC present Corollary 2.53, Exercise 2.55, Theorem 2.57, and Exercise 2.58, respectively. With the time we had left, I discussed the big picture of proof by contradiction.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, February 5:</b> After some short discussion of the upcoming exam, we had IS and RP present Theorems 2.61 and 2.62.  Both of these generated excellent discussion!  With the time we had left, we discussed Exercises 2.63 and 2.64 as a class.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, February 7:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, February 7:</b> Prior to the beginning of class, I wrote solutions for Exercises 2.67 and 2.72 on the board.  Once class started, I split students up into several small groups.  We had AP, GI, MW, HG, NH, and RB present Exercises 2.68(ab), 2.68(cd), 2.71(a), 2.71(b), 2.71(c), and 2.75, respectively.</li>
+</ul>
+
+## Week 5 ##
+
+<ul class="fa-ul">
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, February 10:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, February 12:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, February 14:</b> Coming soon.</li>
 </ul>
