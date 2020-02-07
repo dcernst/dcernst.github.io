@@ -55,7 +55,7 @@ The following assignments are due at the beginning of the indicated class meetin
 - **Daily Homework 10:** Complete 2.52-2.55, 2.57, 2.58 in [Chapter 2: Mathematics and Logic]({{site.baseurl}}/teaching/mat320s20/MathAndLogic.pdf). (Due Monday, February 3)
 - **Daily Homework 11:** Complete 2.61-2.64, 2.66-2.69 in [Chapter 2: Mathematics and Logic]({{site.baseurl}}/teaching/mat320s20/MathAndLogic.pdf). (Due Wednesday, February 5)
 - **Daily Homework 12:** Complete 2.71-2.75 in [Chapter 2: Mathematics and Logic]({{site.baseurl}}/teaching/mat320s20/MathAndLogic.pdf). (Due Friday, February 7)
-- **Daily Homework 13:** Complete 2.77-2.80, 2.85, 2.86 in [Chapter 2: Mathematics and Logic]({{site.baseurl}}/teaching/mat320s20/MathAndLogic.pdf). (Due Monday, February 10)
+- **Daily Homework 13:** Complete 2.77-2.80, 2.85 in [Chapter 2: Mathematics and Logic]({{site.baseurl}}/teaching/mat320s20/MathAndLogic.pdf). (Due Monday, February 10)
 
 ## Weekly Homework ##
 For most of the assignments below, you will be required to submit 2-3 formally written proofs. You are required to type your submission using LaTeX (see below).  You can either submit a hardcopy of your assignment or email me the PDF of your completed work. If you email me the PDF, please name your file as <code>WeeklyX-LastName.pdf</code>, where <code>X</code> is the number of the assignment and <code>LastName</code> is your last name.  Notice there are no spaces in the filename.
