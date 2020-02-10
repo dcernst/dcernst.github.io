@@ -68,7 +68,7 @@ We’ll use this page to keep track of what has happened each day in class. It w
 ## Week 5 ##
 
 <ul class="fa-ul">
-  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, February 10:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, February 10:</b> Lots of entertaining discussion today.  We had FB, NC, SR, and JJ present Exercises 2.73(a), 2.73(b), 2.74, and 2.77, respectively.  Along the way, we also discussed Exercise 2.69 and Theorem 2.78.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, February 12:</b> Coming soon.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Friday, February 14:</b> Coming soon.</li>
 </ul>
