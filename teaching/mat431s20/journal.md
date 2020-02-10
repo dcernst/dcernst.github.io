@@ -68,7 +68,7 @@ We’ll use this page to keep track of what has happened each day in class. It w
 ## Week 5 ##
 
 <ul class="fa-ul">
-  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, February 10:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, February 10:</b> We had AC present Problem 3.39 and then I divided students up into four small groups.  After a bit, we had RT, JI/JS, and CC present Problem 3.40, Problem 3.41, and Exercise 3.42, respectively.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, February 12:</b> Coming soon.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Friday, February 14:</b> Coming soon.</li>
 </ul>
