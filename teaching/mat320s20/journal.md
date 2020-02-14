@@ -69,8 +69,8 @@ We’ll use this page to keep track of what has happened each day in class. It w
 
 <ul class="fa-ul">
   <li><i class="fa-li far fa-calendar-check"></i><b>Monday, February 10:</b> Lots of entertaining discussion today.  We had FB, NC, SR, and JJ present Exercises 2.73(a), 2.73(b), 2.74, and 2.77, respectively.  Along the way, we also discussed Exercise 2.69 and Theorem 2.78.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, February 12:</b> Coming soon.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, February 14:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, February 12:</b> We spent quite a bit of time discussing Exercise 2.79, Exercise 2.80, and Problem 2.85 as a whole class.  With the time we had left, RT presented Theorem 2.86.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, February 14:</b> After a brief discussion of the upcoming exam, we spent time discussing several of the new set-theoretic concepts.  We also discussed Exercises 3.3, 3.4, 3.6, and 3.7 together as a class. We're a little off schedule, but we'll get caught up.</li>
 </ul>
 
 ## Week 6 ##
