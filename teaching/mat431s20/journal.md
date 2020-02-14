@@ -69,6 +69,14 @@ We’ll use this page to keep track of what has happened each day in class. It w
 
 <ul class="fa-ul">
   <li><i class="fa-li far fa-calendar-check"></i><b>Monday, February 10:</b> We had AC present Problem 3.39 and then I divided students up into four small groups.  After a bit, we had RT, JI/JS, and CC present Problem 3.40, Problem 3.41, and Exercise 3.42, respectively.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, February 12:</b> We had AA, HA, and JA present Problems 3.46, 3.47, and 3.48, respectively.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, February 14:</b> Lots of interesting discussion today, but most of it involved solidifying our understanding as opposed to making new progress. We discussed the upcoming exam, whether the Complete Axiom is an axiom, equivalent forms of the Completeness Axiom (including the Monotone Convergence Theorem), shortcomings of our attempted proof of Problem 3.48, and a proof of Problem 3.49.  With the time we had left, MB presented a proof of Problem 3.50.</li>
+</ul>
+
+## Week 6 ##
+
+<ul class="fa-ul">
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, February 17:</b> Coming soon.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, February 12:</b> Coming soon.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Friday, February 14:</b> Coming soon.</li>
 </ul>

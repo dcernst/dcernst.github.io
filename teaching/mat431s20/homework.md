@@ -46,3 +46,4 @@ The following assignments are due at the beginning of the indicated class meetin
 - **Homework 12:** Complete 3.40-3.44 in [Chapter 3: Point Sets and Sequences]({{site.baseurl}}/teaching/mat431s20/PointSetsSequences.pdf). (Due Monday, February 10)
 - **Homework 13:** Complete 3.46-3.49 in [Chapter 3: Point Sets and Sequences]({{site.baseurl}}/teaching/mat431s20/PointSetsSequences.pdf). (Due Wednesday, February 12)
 - **Homework 14:** Complete 3.50, 3.52-3.54. (Due Friday, February 14)
+- **Homework 15:** Complete 3.55. (Due Monday, February 17)
