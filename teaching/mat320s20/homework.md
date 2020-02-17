@@ -73,7 +73,7 @@ For most of the assignments below, you will be required to submit 2-3 formally w
     4. Did this story make you think differently about mathematics? I'm expecting more than "yes/no".
     5. What about the story inspires and/or bothers you?
 - **Weekly Homework 4:** Prove **two** of 2.49, 2.50, 2.61 (only need to prove in one way, your choice), 2.86. You must type up your proofs using LaTeX.  I suggest you use my Overleaf template, which you can access by clicking the "Start your homework in Overleaf" link below. (Due Thursday, February 13 by 8PM)
-- **Weekly Homework 6:** Prove **two** of 3.9, 3.18, 3.19(a), 3.19(b), 3.20(a), 3.20(b). You must type up your proofs using LaTeX.  I suggest you use my Overleaf template, which you can access by clicking the "Start your homework in Overleaf" link below. (Due Sunday, February 23 by 8PM)
+- **Weekly Homework 5:** Prove **two** of 3.9, 3.18, 3.19(a), 3.19(b), 3.20(a), 3.20(b). You must type up your proofs using LaTeX.  I suggest you use my Overleaf template, which you can access by clicking the "Start your homework in Overleaf" link below. (Due Sunday, February 23 by 8PM)
 
 ## Using LaTeX for Weekly Homework ##
 You are required to use LaTeX to type up your Weekly Homework assignments. The easiest way to get started with LaTeX is to use an online editor.  I recommend using [Overleaf](https://overleaf.com), but there are other options.  The good folks over at Overleaf have preloaded my homework template, so to get started, all you need to do is click the link below and then click on "Open as Template". Be sure to update your name and the course title.
