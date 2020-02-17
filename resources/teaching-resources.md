@@ -14,9 +14,8 @@ The resources listed below are intended for both students and teachers. For a li
 
 ## General Teaching
 
+  * [CoCalc](https://cocalc.com/)
   * [MIT OpenCourseWare][3]
-  * [Sage][4]
-  * [The Sage Math Cloud][5]
   * [Group Tables and Subgroup Diagrams](http://hobbes.la.asu.edu/groups/groups.html) by [Jon Jones](http://hobbes.la.asu.edu/contact.html).
   * [GeoGebra][6]
   * [Group Explorer][7]
@@ -52,12 +51,12 @@ Below is a partial list of links to applets and video repositories related to ca
   * [Dana's Quick LaTeX Guide]({{site.baseurl}}/quick-latex-guide/)
   * [Dana's LaTeX Homework Template][30]
   * [Overleaf][31]
-  * [Web Equation by Vision Objects][32]
   * [Detexify][33]
+  * [MathJax][37]
+  * [Web Equation by Vision Objects][32]
   * [MacTeX][34]
   * [LaTeX Community][35]
   * [TeX Stack Exchange][36]
-  * [MathJax][37]
 
 ## Some Teaching-Oriented Blogs Worth Reading
 
@@ -78,8 +77,6 @@ Below is a partial list of links to applets and video repositories related to ca
  [1]: {{ site.baseurl }}/resources/free-and-open-source-textbooks/
  [2]: http://jasongrout.org/teaching_resources
  [3]: http://ocw.mit.edu/index.htm
- [4]: http://sagemath.com
- [5]: https://cloud.sagemath.com/
  [6]: http://www.geogebra.org
  [7]: http://groupexplorer.sourceforge.net
  [8]: http://www.remind101.com
