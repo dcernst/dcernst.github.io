@@ -77,6 +77,6 @@ We’ll use this page to keep track of what has happened each day in class. It w
 
 <ul class="fa-ul">
   <li><i class="fa-li far fa-calendar-check"></i><b>Monday, February 17:</b> We had JQ, MB, CC, and JS present Problems 3.52, 3.53, 3.54, and 3.55, respectively.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, February 12:</b> Coming soon.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, February 14:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, February 12:</b> After discussing the upcoming exam, we had JQ and AA present Problems 3.56 and 3.57, respectively.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, February 14:</b> The students took Exam 1.</li>
 </ul>
