@@ -90,11 +90,12 @@ I will not be covering every detail of the notes and the only way to achieve a s
     - [Problem 2.28]({{site.baseurl}}/teaching/mat431s20/Problem2.28.JPG)
     - [Problem 2.29]({{site.baseurl}}/teaching/mat431s20/Problem2.29.JPG)
 
-<!-- ## Exams
+## Exams
 Below are links to the take-home portions of each exam. If you are interested in using LaTeX to type up your solutions, contact me and I will send you a link to the source file of the exam.
 
-- [Exam 1 (take-home portion)]({{site.baseurl}}/teaching/mat431s20/411Exam1-Home.pdf) (PDF). (Due Wednesday, October 2)
-- [Exam 2 (take-home portion)]({{site.baseurl}}/teaching/mat431s20/411Exam2-Home.pdf) (PDF). (Due Friday, November 15)
+- [Exam 1 (take-home portion)]({{site.baseurl}}/teaching/mat431s20/411Exam1-Home.pdf) (Coming soon!). (Due Friday, February 28)
+
+<!-- - [Exam 2 (take-home portion)]({{site.baseurl}}/teaching/mat431s20/411Exam2-Home.pdf) (PDF). (Due Friday, November 15)
 - For Exam 3, you have two options:
   - **Option 1:** Complete a 30-minute oral exam with me in my office.  The questions will come directly from homework and previous exams. The oral exams will take place during Monday, November 25 to Thursday, December 12.
   - **Option 2:** Complete the take-home exam found [here]({{site.baseurl}}/teaching/mat431s20/411Exam3-Home.pdf) (PDF). (Due Friday, December 6)
