@@ -77,6 +77,14 @@ We’ll use this page to keep track of what has happened each day in class. It w
 
 <ul class="fa-ul">
   <li><i class="fa-li far fa-calendar-check"></i><b>Monday, February 17:</b> We jumped right in and had JD, TF, JW, and ID present Exercise 3.8, Theorem 3.9, Exercise 3.14, and Exercise 3.15, respectively.  With the time we had left, I presented proofs of Theorem 3.16 and 3.18.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, February 12:</b> After discussing the upcoming exam, we fiddled around with confusing examples concerning power sets. Next, I presented a proof of Theorem 3.19(a) and then YF presented Theorem 3.20(a).</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, February 14:</b> The students took Exam 1.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, February 19:</b> After discussing the upcoming exam, we fiddled around with confusing examples concerning power sets. Next, I presented a proof of Theorem 3.19(a) and then YF presented Theorem 3.20(a).</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, February 21:</b> The students took Exam 1.</li>
+</ul>
+
+## Week 7 ##
+
+<ul class="fa-ul">
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, February 24:</b> I lectured over 3.20-3.25.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, February 26:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, February 28:</b> Coming soon.</li>
 </ul>
