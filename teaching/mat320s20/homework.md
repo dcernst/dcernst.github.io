@@ -61,7 +61,7 @@ The following assignments are due at the beginning of the indicated class meetin
 - **Daily Homework 16:** Complete 3.18 and 3.19 in [Chapter 3: Set Theory and Topology]({{site.baseurl}}/teaching/mat320s20/IntroSetTheoryTopology.pdf). (Due Monday, February 17)
 - **Daily Homework 17:** Complete 3.20, 3.22-3.24 in [Chapter 3: Set Theory and Topology]({{site.baseurl}}/teaching/mat320s20/IntroSetTheoryTopology.pdf). (Due Wednesday, February 19)
 - **Daily Homework 18:** Complete 3.26-3.31 in [Chapter 3: Set Theory and Topology]({{site.baseurl}}/teaching/mat320s20/IntroSetTheoryTopology.pdf). (Due Wednesday, February 26)
-- **Daily Homework 19:** Complete (posted later) in [Chapter 3: Set Theory and Topology]({{site.baseurl}}/teaching/mat320s20/IntroSetTheoryTopology.pdf). (Due Friday, February 28)
+- **Daily Homework 19:** Complete 3.33-3.37, 3.39-3.42 in [Chapter 3: Set Theory and Topology]({{site.baseurl}}/teaching/mat320s20/IntroSetTheoryTopology.pdf). (Due Friday, February 28)
 
 ## Weekly Homework ##
 For most of the assignments below, you will be required to submit 2-3 formally written proofs. You are required to type your submission using LaTeX (see below).  You can either submit a hardcopy of your assignment or email me the PDF of your completed work. If you email me the PDF, please name your file as <code>WeeklyX-LastName.pdf</code>, where <code>X</code> is the number of the assignment and <code>LastName</code> is your last name.  Notice there are no spaces in the filename.
