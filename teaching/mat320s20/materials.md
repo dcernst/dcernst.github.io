@@ -60,16 +60,15 @@ The notes will be released incrementally. Each link below is to a PDF file. If y
     - 3.2 Power Sets and Paradoxes
     - 3.3 Indexing Sets
     - 3.4 Topology of $\mathbb{R}$
-- Chapter 4: Three Famous Theorems
-<!-- - [Chapter 4: Three Famous Theorems]({{site.baseurl}}/teaching/mat320s20/ThreeFamousTheorems.pdf) -->
-    - 4.1 The Fundamental Theorem of Arithmetic
-    - 4.2 The Irrationality of $\sqrt{2}$
-    - 4.3 The Infinitude of Primes
-- Chapter 5: Induction
-<!-- - [Chapter 5: Induction]({{site.baseurl}}/teaching/mat320s20/Induction.pdf) -->
-    - 5.1 Introduction to Induction
-    - 5.2 More on Induction
-    - 5.3 Complete Induction
+- [Chapter 4: Induction]({{site.baseurl}}/teaching/mat320s20/Induction.pdf)
+    - 4.1 Introduction to Induction
+    - 4.2 More on Induction
+    - 4.3 Complete Induction
+- Chapter 5: Three Famous Theorems
+<!-- - [Chapter 5: Three Famous Theorems]({{site.baseurl}}/teaching/mat320s20/ThreeFamousTheorems.pdf) -->
+    - 5.1 The Fundamental Theorem of Arithmetic
+    - 5.2 The Irrationality of $\sqrt{2}$
+    - 5.3 The Infinitude of Primes
 - Chapter 6: Relations
 <!-- - [Chapter 6: Relations]({{site.baseurl}}/teaching/mat320s20/Relations.pdf) (currently only Sections 6.1-6.3) -->
     - 6.1 Relations
