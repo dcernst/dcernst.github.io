@@ -86,5 +86,13 @@ We’ll use this page to keep track of what has happened each day in class. It w
 <ul class="fa-ul">
   <li><i class="fa-li far fa-calendar-check"></i><b>Monday, February 24:</b> I lectured over 3.20-3.25.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, February 26:</b> We had CH, ID, MW, and IS present Theorem 3.26, Problem 3.27, Problem 3.28, and Problems 3.29/3.30, respectively.  This left us with a little time to discuss a couple more paradoxes and briefly introduce indexing sets.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, February 28:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, February 28:</b> After handing back Exam 1, we divided the class up into several small groups.  After a few minutes, we had PC, MW, SS, DW, HG, AS, RB, and TF present Exercises 3.33(a), 3.33(b), 3.35(a), 3.35(b), 3.36(a), 3.36(b), 3.37(a), and 3.37(b), respectively.  Along the way we also discussed Exercise 3.34.</li>
+</ul>
+
+## Week 8 ##
+
+<ul class="fa-ul">
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, March 2:</b> The first few minutes were devoted to discussing the upcoming take-home exam.  Next, we had NC and FB present the containments of Theorem 3.41(a). This brought up a variety of issues that students were struggling with and I did my best to alleviate any confusion.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, March 4:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, March 6:</b> Coming soon.</li>
 </ul>

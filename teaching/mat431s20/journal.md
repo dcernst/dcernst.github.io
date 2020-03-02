@@ -86,5 +86,13 @@ We’ll use this page to keep track of what has happened each day in class. It w
 <ul class="fa-ul">
   <li><i class="fa-li far fa-calendar-check"></i><b>Monday, February 24:</b> I lectured over most of Chapter 4.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, February 26:</b> I continued lecturing.  We wrapped up Chapter 4 and started Chapter 5.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, February 28:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, February 28:</b> Last day of lecturing for a bit.  We continued discussing Chapter 5.</li>
+</ul>
+
+## Week 8 ##
+
+<ul class="fa-ul">
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, March 2:</b> We divided the class up into several small groups.  Next, we had MK, JA, HA, AS, WM, and JS present Problems 5.8, 5.10, 5.14(a), 5.14(b), 5.14(c), and 5.14(d), respectively.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, March 4:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, March 6:</b> Coming soon.</li>
 </ul>
