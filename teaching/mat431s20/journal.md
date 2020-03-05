@@ -93,6 +93,6 @@ We’ll use this page to keep track of what has happened each day in class. It w
 
 <ul class="fa-ul">
   <li><i class="fa-li far fa-calendar-check"></i><b>Monday, March 2:</b> We divided the class up into several small groups.  Next, we had MK, JA, HA, AS, WM, and JS present Problems 5.8, 5.10, 5.14(a), 5.14(b), 5.14(c), and 5.14(d), respectively.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, March 4:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, March 4:</b> We kicked off with a quick discussion of Exercise 5.15 and then we spent some time discussing a couple of sequences of partial sums that we will revisit later in the semester. Next, SW presented Problem 5.16. This was followed with some discussion about whether the image of a closed or bounded set under a continuous function was necessarily closed or bounded, respectively. Then we had MB and JA present parts of Problem 5.17.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Friday, March 6:</b> Coming soon.</li>
 </ul>
