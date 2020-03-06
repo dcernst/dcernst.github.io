@@ -64,8 +64,7 @@ The notes will be released incrementally. Each link below is to a PDF file. If y
     - 4.1 Introduction to Induction
     - 4.2 More on Induction
     - 4.3 Complete Induction
-- Chapter 5: Three Famous Theorems
-<!-- - [Chapter 5: Three Famous Theorems]({{site.baseurl}}/teaching/mat320s20/ThreeFamousTheorems.pdf) -->
+- [Chapter 5: Three Famous Theorems]({{site.baseurl}}/teaching/mat320s20/ThreeFamousTheorems.pdf)
     - 5.1 The Fundamental Theorem of Arithmetic
     - 5.2 The Irrationality of $\sqrt{2}$
     - 5.3 The Infinitude of Primes
