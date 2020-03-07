@@ -122,7 +122,7 @@ The notes will be released incrementally. Each link below is to a PDF file. If y
 ## Exams
 Below are links to the take-home exams. If you are interested in using LaTeX to type up your solutions (this is optional), contact me and I will send you a link to the source file of the exam.
 
-- [Exam 2]({{site.baseurl}}/teaching/mat320s20/411Exam2.pdf) (PDF). (Due Friday, March 13)
+- [Exam 2]({{site.baseurl}}/teaching/mat320s20/320Exam2.pdf) (PDF). (Due Friday, March 13)
 
 <!-- - [Exam 2 (take-home portion)]({{site.baseurl}}/teaching/mat320s20/411Exam2-Home.pdf) (PDF). (Due Friday, November 15)
 - For Exam 3, you have two options:
