@@ -44,7 +44,7 @@ We will not be using a traditional textbook this semester, but rather a problem 
     - 2.2 Logic Review
     - 2.3 Sets and Functions
     - 2.4 Order Properties of the Real Numbers
-- [Chapter 3: Point Sets and Sequences]({{site.baseurl}}/teaching/mat431s20/PointSetsSequences.pdf)
+- [Chapter 3: Point Sets and Sequences]({{site.baseurl}}/teaching/mat431s20/PointSetsSequences.pdf) (incomplete!)
 - [Chapter 4: Standard Topology of the Real Line]({{site.baseurl}}/teaching/mat431s20/Topology.pdf)
 - [Chapter 5: Continuity]({{site.baseurl}}/teaching/mat431s20/Continuity.pdf)
 - [Chapter 6: Differentiation]({{site.baseurl}}/teaching/mat431s20/Differentition.pdf)
