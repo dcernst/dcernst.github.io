@@ -52,4 +52,4 @@ The following assignments are due at the beginning of the indicated class meetin
 - **Homework 18:** Complete 5.16-5.20 in [Chapter 5: Continuity]({{site.baseurl}}/teaching/mat431s20/Continuity.pdf). (Due Wednesday, March 4)
 - **Homework 19:** Complete 5.21, 5.23, 5.24 in [Chapter 5: Continuity]({{site.baseurl}}/teaching/mat431s20/Continuity.pdf). (Due Friday, March 6)
 - **Homework 20:** Complete 5.25-5.31 in [Chapter 5: Continuity]({{site.baseurl}}/teaching/mat431s20/Continuity.pdf). (Due Monday, March 9)
-- **Homework 21:** Complete (coming soon) in [Chapter 6: Differentiation]({{site.baseurl}}/teaching/mat431s20/Differentiation.pdf). (Due Wednesday, March 1)
+- **Homework 21:** Complete (coming soon) in [Chapter 6: Differentiation]({{site.baseurl}}/teaching/mat431s20/Differentiation.pdf). (Due Wednesday, March 11)
