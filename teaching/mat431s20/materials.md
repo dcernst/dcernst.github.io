@@ -90,11 +90,11 @@ I will not be covering every detail of the notes and the only way to achieve a s
     - [Exercise 2.27]({{site.baseurl}}/teaching/mat431s20/Exercise2.27.JPG)
     - [Problem 2.28]({{site.baseurl}}/teaching/mat431s20/Problem2.28.JPG)
     - [Problem 2.29]({{site.baseurl}}/teaching/mat431s20/Problem2.29.JPG)
-    - [Problem 5.27]({{site.baseurl}}/teaching/mat431s20/Problem5.27.JPG)
-    - [Problem 5.28]({{site.baseurl}}/teaching/mat431s20/Problem5.28.JPG)
-    - [Problem 5.29]({{site.baseurl}}/teaching/mat431s20/Problem5.29.JPG)
-    - [Problem 5.30]({{site.baseurl}}/teaching/mat431s20/Problem5.30.JPG)
-    - [Problem 5.31]({{site.baseurl}}/teaching/mat431s20/Problem5.31.JPG)
+    - [Problem 5.27]({{site.baseurl}}/teaching/mat431s20/Problem5.27.jpg)
+    - [Problem 5.28]({{site.baseurl}}/teaching/mat431s20/Problem5.28.jpg)
+    - [Problem 5.29]({{site.baseurl}}/teaching/mat431s20/Problem5.29.jpg)
+    - [Problem 5.30]({{site.baseurl}}/teaching/mat431s20/Problem5.30.jpg)
+    - [Problem 5.31]({{site.baseurl}}/teaching/mat431s20/Problem5.31.jpg)
 
 ## Exams
 Below are links to the take-home portions of each exam. If you are interested in using LaTeX to type up your solutions, contact me and I will send you a link to the source file of the exam.
