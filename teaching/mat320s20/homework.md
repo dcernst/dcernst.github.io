@@ -65,6 +65,7 @@ The following assignments are due at the beginning of the indicated class meetin
 - **Daily Homework 20:** If needed, revisit 3.41 and 3.42. Also, complete 4.2 and 4.4 in [Chapter 4: Induction]({{site.baseurl}}/teaching/mat320s20/Induction.pdf). (Due Monday, March 2)
 - **Daily Homework 21:** Complete 4.5 in [Chapter 4: Induction]({{site.baseurl}}/teaching/mat320s20/Induction.pdf). (Due Wednesday, March 4)
 - **Daily Homework 22:** Complete 4.6-4.8, 4.11 in [Chapter 4: Induction]({{site.baseurl}}/teaching/mat320s20/Induction.pdf). (Due Friday, March 6)
+- **Daily Homework 23:** Submit a two-page PDF of any written work to the corresponding assignment on BbLearn. See BbLearn for details. (Due by noon on Wednesday, March 25)
 
 ## Weekly Homework ##
 For most of the assignments below, you will be required to submit 2-3 formally written proofs. You are required to type your submission using LaTeX (see below).  You can either submit a hardcopy of your assignment or email me the PDF of your completed work. If you email me the PDF, please name your file as <code>WeeklyX-LastName.pdf</code>, where <code>X</code> is the number of the assignment and <code>LastName</code> is your last name.  Notice there are no spaces in the filename.
