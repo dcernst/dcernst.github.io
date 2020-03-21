@@ -94,5 +94,13 @@ We’ll use this page to keep track of what has happened each day in class. It w
 <ul class="fa-ul">
   <li><i class="fa-li far fa-calendar-check"></i><b>Monday, March 2:</b> We divided the class up into several small groups.  Next, we had MK, JA, HA, AS, WM, and JS present Problems 5.8, 5.10, 5.14(a), 5.14(b), 5.14(c), and 5.14(d), respectively.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, March 4:</b> We kicked off with a quick discussion of Exercise 5.15 and then we spent some time discussing a couple of sequences of partial sums that we will revisit later in the semester. Next, SW presented Problem 5.16. This was followed with some discussion about whether the image of a closed or bounded set under a continuous function was necessarily closed or bounded, respectively. Then we had MB and JA present parts of Problem 5.17.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, March 6:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, March 6:</b> We had WM, JI, LC, AS, AA, TH, RT, JQ, and HA present Problem 5.18, Problem 5.19, Problem 5.20, Problem 5.21, Exercise 5.23(a), Exercise 5.23(b), Exercise 5.23(c), Exercise 5.23(d), and Exercise 5.23(e), respectively.</li>
+</ul>
+
+## Week 9 ##
+
+<ul class="fa-ul">
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, March 9:</b> After splitting the class up into small groups, we had MB and MK present Problems 5.25 and 5.26, respectively.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, March 11:</b> Using pictures of board work from Monday, we had WM, TH, SW, JI, and CH present Problems 5.27, 5.28, 5.29, and 5.30, respectively.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, March 13:</b> Last day of face-to-face class. I started lecturing over Chapter 6 material. In light of the COVID-19 Pandemic, all classes at NAU will be taught via remote instruction for the remainder of the Spring 2020 semester. I won't be updating the journal for the rest of the semester.</li>
 </ul>
