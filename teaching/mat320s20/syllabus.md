@@ -32,6 +32,25 @@ layout: default
 <i class="far fa-hand-peace"></i>&nbsp; This page is under construction!
 </div> -->
 
+### Amendments to Syllabus ###
+
+In light of the Covid-19 Pandemic, all classes at NAU will be taught online for the remainder of the Spring 2020 semester. Changes to the syllabus and class structure are outlined below. As we adjust to this new paradigm, we will need to adapt and improvise. Further changes might be necessary. Patience and compassion are vital.
+
+- Starting Monday, March 22, I will use our shared [Discord](https://discordapp.com) server to communicate.  Please see your email for an invite code. I suggest you download the free Discord apps for your phone and computer. Contact me if you having trouble using Discord.
+- We may have some synchronous live classes (using [Zoom](http://zoom.us)), but for the most part we will take an asynchronous approach. This will maximize flexibility and minimize reliance on technology and bandwidth. Any live classes will be announced in advance and will be recorded for those that cannot make it. Please create a free Zoom account. I suggest you download the free Zoom apps for your phone and computer. Contact me if you having trouble using Zoom.
+- I will have several hours of open virtual office hours (using Zoom). I will post my scheduled office hours soon. I will also be available via Discord (text and video).
+- I will occasionally make videos to introduce new topics and to review solutions to a subset of the homework problems. I will post links to these videos in BbLearn and Discord.
+- I plan to trim the content we cover to the absolute essentials.  If we have time for extra stuff near the end of the semester, we will fill some stuff in. I have no doubt that we will cover enough material to get everyone ready for additional upper-level math courses.
+- Each of the remaining exams will be take-home exams. The usual rules apply. The weights of the remaining exams are as follows: Exam 3 (15%), Exam 4 (15%), Final Exam (15%).
+- There will be no Weekly Homework assignments for the remainder of the semester.
+- As before, Daily Homework will be assigned regularly and will continue to be the backbone of our work. For each assignment, you will need to capture your handwritten work digitally and then upload a PDF to BbLearn. Daily Homework will be graded using the same system as before.
+- MORE HERE!
+- Any plan that we implement can be adapted if it isn't working out. Of course, I'll have the final say.
+- The remaining content for this course isn't easy and shifting to this new format will likely complicate things. However, if you engage and put in time and effort, everything will be okay. We are in this together and I'm here to assist.
+- I know that you have other classes/commitments, so I'll do my best to be reasonable with the workload.
+
+<br />
+
 <div class="row">
   <div class="col-xs-12 col-sm-6">
     <div>
@@ -58,17 +77,6 @@ layout: default
   </div>
 
 </div>
-
-<div class="alert alert-info" role="alert">
-<i class="far fa-hand-peace"></i>&nbsp; In light of the Covid-19 Pandemic, all classes at NAU will be taught online for the remainder of the Spring 2020 semester. Changes to the syllabus and class structure are outlined below. As we adjust to this new paradigm, we will need to adapt and improvise. Patience and compassion are vital.
-
-### Office Hours ###
-
-blah
-</div>
-
-
-
 
 ### Prerequisites ###
 MAT 137 with a grade greater than or equal to C.
