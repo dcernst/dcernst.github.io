@@ -59,6 +59,17 @@ layout: default
 
 </div>
 
+<div class="alert alert-info" role="alert">
+<i class="far fa-hand-peace"></i>&nbsp; In light of the Covid-19 Pandemic, all classes at NAU will be taught online for the remainder of the Spring 2020 semester. Changes to the syllabus and class structure are outlined below. As we adjust to this new paradigm, we will need to adapt and improvise. Patience and compassion are vital.
+
+### Office Hours ###
+
+blah
+</div>
+
+
+
+
 ### Prerequisites ###
 MAT 137 with a grade greater than or equal to C.
 
