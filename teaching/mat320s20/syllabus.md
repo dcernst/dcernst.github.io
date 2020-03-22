@@ -41,7 +41,7 @@ In light of the COVID-19 Pandemic, all classes at NAU will be taught via remote 
 - I will have several hours of **virtual office hours** (using Zoom). I will post my scheduled office hours soon. I will also be available via Discord (text and video).
 - I will occasionally make videos to introduce new topics and to review solutions to a subset of the homework problems. I will post links to these videos in BbLearn and Discord.
 - I plan to trim the content we cover to the absolute essentials.  If we have time for extra stuff near the end of the semester, we will fill some stuff in. I have no doubt that we will cover enough material to get everyone ready for additional upper-level math courses.
-- Each of the remaining exams will be take-home exams. The usual rules apply. The weights of the remaining exams are as follows: **Exam 3 (15%)**, **Exam 4 (15%)**, **Final Exam (15%)**. The dates for the exams have yet to be determined.
+- Each of the remaining **exams** will be take-home exams. The usual rules apply. The weights of the remaining exams are as follows: Exam 3 (15%), Exam 4 (15%), Final Exam (15%). The dates for the exams have yet to be determined.
 - **Daily Homework:**
     - As before, Daily Homework will be assigned regularly and will continue to be the backbone of our work.
     - For each assignment, you will need to capture your handwritten work digitally and then upload a PDF to BbLearn.
