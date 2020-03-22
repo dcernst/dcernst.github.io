@@ -94,13 +94,13 @@ We’ll use this page to keep track of what has happened each day in class. It w
 <ul class="fa-ul">
   <li><i class="fa-li far fa-calendar-check"></i><b>Monday, March 2:</b> The first few minutes were devoted to discussing the upcoming take-home exam.  Next, we had NC and FB present the containments of Theorem 3.41(a). This brought up a variety of issues that students were struggling with and I did my best to alleviate any confusion.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, March 4:</b> We had NH and SR present the two containments of the proof of Theorem 3.42(a), respectively. Next, I spent a few minutes discussing the big picture of induction and then proved Theorem 4.2.  With the time we had left, DW presented Theorem 4.4.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, March 6:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, March 6:</b> We had PC, JH, SS, and RP presented Theorem 4.5, Theorem 4.6, Theorem 4.7, and Problem 4.8, respectively.</li>
 </ul>
 
 ## Week 9 ##
 
 <ul class="fa-ul">
-  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, March 9:</b> Coming soon.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, March 11:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, March 9:</b> I lectured over content in Chapter 4.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, March 11:</b> I continued lecturing over content in Chapter 4.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Friday, March 13:</b> Last day of face-to-face class. I started lecturing over Chapter 5 material. In light of the COVID-19 Pandemic, all classes at NAU will be taught via remote instruction for the remainder of the Spring 2020 semester. I won't be updating the journal for the rest of the semester.</li>
 </ul>
