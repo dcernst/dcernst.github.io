@@ -38,25 +38,24 @@ In light of the COVID-19 Pandemic, all classes at NAU will be taught via remote 
 
 - Starting Monday, March 22, I will use our shared [Discord](https://discordapp.com) server to communicate.  Please see your email for an invite code. I suggest you download the free Discord apps for your phone and computer. Contact me if you having trouble using Discord.
 - We may have some synchronous live classes (using [Zoom](http://zoom.us)), but for the most part we will take an asynchronous approach. This will maximize flexibility and minimize reliance on technology and bandwidth. Any live classes will be announced in advance and will be recorded for those that cannot make it. Please create a free Zoom account. I suggest you download the free Zoom apps for your phone and computer. Contact me if you having trouble using Zoom.
-- I will have several hours of open virtual office hours (using Zoom). I will post my scheduled office hours soon. I will also be available via Discord (text and video).
+- I will have several hours of **virtual office hours** (using Zoom). I will post my scheduled office hours soon. I will also be available via Discord (text and video).
 - I will occasionally make videos to introduce new topics and to review solutions to a subset of the homework problems. I will post links to these videos in BbLearn and Discord.
 - I plan to trim the content we cover to the absolute essentials.  If we have time for extra stuff near the end of the semester, we will fill some stuff in. I have no doubt that we will cover enough material to get everyone ready for additional upper-level math courses.
-- Each of the remaining exams will be take-home exams. The usual rules apply. The weights of the remaining exams are as follows: Exam 3 (15%), Exam 4 (15%), Final Exam (15%). The dates for the exams have yet to be determined.
-- Daily Homework:
+- Each of the remaining exams will be take-home exams. The usual rules apply. The weights of the remaining exams are as follows: **Exam 3 (15%)**, **Exam 4 (15%)**, **Final Exam (15%)**. The dates for the exams have yet to be determined.
+- **Daily Homework:**
     - As before, Daily Homework will be assigned regularly and will continue to be the backbone of our work.
     - For each assignment, you will need to capture your handwritten work digitally and then upload a PDF to BbLearn.
     - The Daily Homework assignments will consist of a combination of working on new problems together with reflecting on a selection of student work from a previous assignment.
-    - Students are highly encouraged to discuss the homework on Discord. In fact, doing so will have a positive impact on your Presentation and Participation grade.
+    - Students are highly encouraged to discuss the homework on Discord. This includes reflecting on student work from previous problems. Engaging on Discord will have a positive impact on your Presentation and Participation grade.
     - Daily Homework will be graded using the same system as before.
-- Weekly Homework:
+- **Weekly Homework:**
     - The purpose and format of the Weekly Homework will be different going forward.
     - Every few days, I will post solutions (likely using video) to a subset of the problems that were recently due. Your task will be to reflect on the work you previously did for the corresponding problems and to take notes on my proposed solutions.
     - As with the Daily Homework, you will submit your work as a PDF to BbLearn.
     - Each Weekly Homework assignment will be worth 4 points and your score will be based on the quality of the work that you submit.
+- The remainder of your **Presentation and Participation** grade will be determined by your engagement with me and other students on Discord and in Zoom for office hours and/or live classes. With that being said, I want the engagement to be meaningful.  I'm not interested in each person trying to reach a quota for number of posts. The material is sufficiently difficult that helping each other out just makes sense.  
 - The remaining content for this course is challenging and shifting to this new format will likely complicate things. However, if you engage and put in time and effort, everything will be okay. We are in this together and I'm here to assist.
 - I know that you have other classes/commitments, so I'll do my best to be reasonable with the workload.
-
-<br />
 
 <div class="row">
   <div class="col-xs-12 col-sm-6">
