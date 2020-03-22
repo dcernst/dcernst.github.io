@@ -85,7 +85,7 @@ For most of the assignments below, you will be required to submit 2-3 formally w
 
 In light of our move to remote instruction for the remainder of the Spring 2020 semester, the format and purpose of the Weekly Homework has changed.  Every few days, I will post solutions (likely using video) to a subset of the problems that were recently due. Your task will be to reflect on the work you previously did for the corresponding problems and to take notes on my proposed solutions. As with the Daily Homework, you will submit your work as a PDF to BbLearn. Each Weekly Homework assignment will be worth 4 points and your score will be based on the quality of the work that you submit.
 
-- **Weekly Homework 7:** Coming soon. (Due by noon on Tuesday, March 31 by 8PM)
+- **Weekly Homework 7:** Coming soon. (Due by noon on Tuesday, March 31)
 
 ## Using LaTeX for Weekly Homework ##
 You are required to use LaTeX to type up your Weekly Homework assignments. The easiest way to get started with LaTeX is to use an online editor.  I recommend using [Overleaf](https://overleaf.com), but there are other options.  The good folks over at Overleaf have preloaded my homework template, so to get started, all you need to do is click the link below and then click on "Open as Template". Be sure to update your name and the course title.

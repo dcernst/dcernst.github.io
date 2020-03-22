@@ -59,4 +59,4 @@ The following assignments are due at the beginning of the indicated class meetin
 ## Weekly Homework ##
 The purpose of the Weekly Homework will be to reflect on your work done in the Daily Homework and to ensure you understand how to do the problems on your second pass. Every few days, I will post solutions (likely using video) to a subset of the problems that were recently due. Your task will be to reflect on the work you previously did for the corresponding problems and to take notes on my proposed solutions. As with the Daily Homework, you will submit your work as a PDF to BbLearn. Each Weekly Homework assignment will be worth 4 points and your score will be based on the quality of the work that you submit.
 
-- **Weekly Homework 1:** Coming soon. (Due by noon on Tuesday, March 31 by 8PM)
+- **Weekly Homework 1:** Coming soon. (Due by noon on Tuesday, March 31)
