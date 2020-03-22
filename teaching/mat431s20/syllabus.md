@@ -32,6 +32,32 @@ layout: default
 <i class="far fa-hand-peace"></i>&nbsp; This page is under construction!
 </div> -->
 
+### Amendments to Syllabus ###
+
+In light of the COVID-19 Pandemic, all classes at NAU will be taught via remote instruction for the remainder of the Spring 2020 semester. Changes to the syllabus and class structure are outlined below. As we adjust to this new paradigm, we will need to adapt and improvise. Further changes might be necessary. Patience and compassion are vital.
+
+- Starting Monday, March 22, I will use our shared [Discord](https://discordapp.com) server to communicate.  Please see your email for an invite code. I suggest you download the free Discord apps for your phone and computer. Contact me if you having trouble using Discord.
+- We may have some synchronous live classes (using [Zoom](http://zoom.us)), but for the most part we will take an asynchronous approach. This will maximize flexibility and minimize reliance on technology and bandwidth. Any live classes will be announced in advance and will be recorded for those that cannot make it. Please create a free Zoom account. I suggest you download the free Zoom apps for your phone and computer. Contact me if you having trouble using Zoom.
+- I will have several hours of **virtual office hours** (using Zoom). I will post my scheduled office hours soon. I will also be available via Discord (text and video).
+- I will occasionally make videos to introduce new topics and to review solutions to a subset of the homework problems. I will post links to these videos in BbLearn and Discord.
+- I plan to trim the content we cover to the absolute essentials.  If we have time for extra stuff near the end of the semester, we will fill some stuff in. I have no doubt that we will cover a sufficient amount of material.
+- Each of the remaining **exams** will be take-home exams. The usual rules apply. Due to the limited time we have left, you will likely have less time to work on the take-home exams than the previous one. I'll take this into account when writing the exams. The release dates for the exams have yet to be determined.
+- There will now be two types of homework assignments: Daily vs Weekly. Those of you that have had me before are somewhat familiar with this scheme, but my implementation will be different in this case.
+- **Daily Homework:**
+    - Daily Homework is essentially the same as what we were previously calling "Homework".
+    - For each assignment, you will need to capture your handwritten work digitally and then upload a PDF to BbLearn.
+    - The Daily Homework assignments will consist of a combination of working on new problems together with reflecting on a selection of student work from a previous assignment.
+    - Students are highly encouraged to discuss the homework on Discord. This includes reflecting on student work from previous problems. Engaging on Discord will have a positive impact on your Presentation and Participation grade.
+    - Daily Homework will be graded using a $\checkmark$-system: $\checkmark- = 1$, $\checkmark=2$, $\checkmark+=4$. Your grade will be determined by how much mathematics you produce. I'm looking for a good faith effort on completeness as opposed to doing everything perfectly.
+- **Weekly Homework:**
+    - The purpose of the Weekly Homework will be to reflect on your work done in the Daily Homework and to ensure you understand how to do the problems on your second pass.
+    - Every few days, I will post solutions (likely using video) to a subset of the problems that were recently due. Your task will be to reflect on the work you previously did for the corresponding problems and to take notes on my proposed solutions.
+    - As with the Daily Homework, you will submit your work as a PDF to BbLearn.
+    - Each Weekly Homework assignment will be worth 4 points and your score will be based on the quality of the work that you submit.
+- The remainder of your **Presentation and Participation** grade will be determined by your engagement with me and other students on Discord and in Zoom for office hours and/or live classes. With that being said, I want the engagement to be meaningful.  I'm not interested in each person trying to reach a quota for number of posts. The material is sufficiently difficult that helping each other out just makes sense.  
+- The remaining content for this course is challenging and shifting to this new format will likely complicate things. However, if you engage and put in time and effort, everything will be okay. We are in this together and I'm here to assist.
+- I know that you have other classes/commitments, so I'll do my best to be reasonable with the workload.
+
 <div class="row">
   <div class="col-xs-12 col-sm-6">
     <div>

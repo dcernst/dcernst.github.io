@@ -66,7 +66,7 @@ The following assignments are due at the beginning of the indicated class meetin
 - **Daily Homework 21:** Complete 4.5 in [Chapter 4: Induction]({{site.baseurl}}/teaching/mat320s20/Induction.pdf). (Due Wednesday, March 4)
 - **Daily Homework 22:** Complete 4.6-4.8, 4.11 in [Chapter 4: Induction]({{site.baseurl}}/teaching/mat320s20/Induction.pdf). (Due Friday, March 6)
 - **Daily Homework 23:** Submit a two-page PDF of any written work to the corresponding assignment on BbLearn. See BbLearn for details. (Due by noon on Tuesday, March 24)
-- **Daily Homework 24:** Complete 5.16-5.18, 5.21, 5.22 in [Chapter 5: Three Famous Theorems]({{site.baseurl}}/teaching/mat320s20/ThreeFamousTheorems.pdf). (Due by noon on Wednesday, March 25)
+- **Daily Homework 24:** Complete 5.16-5.18, 5.21, 5.22 in [Chapter 5: Three Famous Theorems]({{site.baseurl}}/teaching/mat320s20/ThreeFamousTheorems.pdf). Submit a digital copy (PDF) of your work in BbLearn. (Due by noon on Wednesday, March 25)
 
 ## Weekly Homework ##
 For most of the assignments below, you will be required to submit 2-3 formally written proofs. You are required to type your submission using LaTeX (see below).  You can either submit a hardcopy of your assignment or email me the PDF of your completed work. If you email me the PDF, please name your file as <code>WeeklyX-LastName.pdf</code>, where <code>X</code> is the number of the assignment and <code>LastName</code> is your last name.  Notice there are no spaces in the filename.
@@ -82,6 +82,9 @@ For most of the assignments below, you will be required to submit 2-3 formally w
 - **Weekly Homework 4:** Prove **two** of 2.49, 2.50, 2.61 (only need to prove in one way, your choice), 2.86. You must type up your proofs using LaTeX.  I suggest you use my Overleaf template, which you can access by clicking the "Start your homework in Overleaf" link below. (Due Thursday, February 13 by 8PM)
 - **Weekly Homework 5:** Prove **two** of 3.9, 3.18, 3.19(a), 3.19(b), 3.20(a), 3.20(b). You must type up your proofs using LaTeX.  I suggest you use my Overleaf template, which you can access by clicking the "Start your homework in Overleaf" link below. (Due Sunday, February 23 by 8PM)
 - **Weekly Homework 6:** Prove **two** of 3.26, 3.41(a), 3.41(b), 3.42(a), 3.42(b). You must type up your proofs using LaTeX.  I suggest you use my Overleaf template, which you can access by clicking the "Start your homework in Overleaf" link below. (Due Thursday, March 5 by 8PM)
+
+In light of our move to remote instruction for the remainder of the Spring 2020 semester, the format and purpose of the Weekly Homework has changed.  Every few days, I will post solutions (likely using video) to a subset of the problems that were recently due. Your task will be to reflect on the work you previously did for the corresponding problems and to take notes on my proposed solutions. As with the Daily Homework, you will submit your work as a PDF to BbLearn. Each Weekly Homework assignment will be worth 4 points and your score will be based on the quality of the work that you submit.
+
 - **Weekly Homework 7:** Coming soon. (Due by noon on Tuesday, March 31 by 8PM)
 
 ## Using LaTeX for Weekly Homework ##
