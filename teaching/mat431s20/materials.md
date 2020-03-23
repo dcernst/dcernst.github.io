@@ -47,7 +47,7 @@ We will not be using a traditional textbook this semester, but rather a problem 
 - [Chapter 3: Point Sets and Sequences]({{site.baseurl}}/teaching/mat431s20/PointSetsSequences.pdf) (incomplete!)
 - [Chapter 4: Standard Topology of the Real Line]({{site.baseurl}}/teaching/mat431s20/Topology.pdf)
 - [Chapter 5: Continuity]({{site.baseurl}}/teaching/mat431s20/Continuity.pdf)
-- [Chapter 6: Differentiation]({{site.baseurl}}/teaching/mat431s20/Differentition.pdf)
+- [Chapter 6: Differentiation]({{site.baseurl}}/teaching/mat431s20/Differentiation.pdf)
 - [Appendix A: Elements of Style for Proofs]({{site.baseurl}}/teaching/mat431s20/ElementsOfStyle.pdf)
 - [Appendix B: Fancy Mathematical Terms]({{site.baseurl}}/teaching/mat431s20/FancyMathematicalTerms.pdf)
 - [Appendix C: Definitions in Mathematics]({{site.baseurl}}/teaching/mat431s20/Definitions.pdf)
