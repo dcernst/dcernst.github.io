@@ -68,7 +68,7 @@ The notes will be released incrementally. Each link below is to a PDF file. If y
     - 5.1 The Fundamental Theorem of Arithmetic
     - 5.2 The Irrationality of $\sqrt{2}$
     - 5.3 The Infinitude of Primes
-- [Chapter 6: Relations]({{site.baseurl}}/teaching/mat320s20/Relations.pdf) (currently only Sections 6.1-6.3)
+- [Chapter 6: Relations]({{site.baseurl}}/teaching/mat320s20/Relations.pdf)
     - 6.1 Relations
     - 6.2 Equivalence Relations
     - 6.3 Partitions
