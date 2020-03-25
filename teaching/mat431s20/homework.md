@@ -53,8 +53,10 @@ The following assignments are due at the beginning of the indicated class meetin
 - **Homework 19:** Complete 5.21, 5.23, 5.24 in [Chapter 5: Continuity]({{site.baseurl}}/teaching/mat431s20/Continuity.pdf). (Due Friday, March 6)
 - **Homework 20:** Complete 5.25-5.31 in [Chapter 5: Continuity]({{site.baseurl}}/teaching/mat431s20/Continuity.pdf). (Due Monday, March 9)
 - **Homework 21:** Complete 6.2-6.4 in [Chapter 6: Differentiation]({{site.baseurl}}/teaching/mat431s20/Differentiation.pdf). (Due Wednesday, March 11)
-- **Daily Homework 22:** Submit a two-page PDF of any written work to the corresponding assignment on BbLearn. See BbLearn for details. (Due by noon on Tuesday, March 24)
-- **Daily Homework 23:** Complete 6.7-6.9 in [Chapter 6: Differentiation]({{site.baseurl}}/teaching/mat431s20/Differentiation.pdf). Submit a digital copy (PDF) of your work in BbLearn. (Due by noon on Wednesday, March 25)
+- **Daily Homework 22:** Submit a two-page PDF of any written work to the corresponding assignment on BbLearn. See BbLearn for details. (Due by 5pm on Tuesday, March 24)
+- **Daily Homework 23:** Complete 6.7-6.9 in [Chapter 6: Differentiation]({{site.baseurl}}/teaching/mat431s20/Differentiation.pdf). Submit a digital copy (PDF) of your work in BbLearn. (Due by 5pm on Wednesday, March 25)
+- **Daily Homework 24:** Complete 6.10, 6.11(a) or 6.11(b), 6.14, 6.16, 6.17 in [Chapter 6: Differentiation]({{site.baseurl}}/teaching/mat431s20/Differentiation.pdf). In addition, write a reflection on the student work for Problems 6.7, 6.8, and 6.9 that is posted under "Student Work" in BbLearn. Submit a digital copy (PDF) of your work in BbLearn. (Due by 5pm on Friday, March 27)
+
 
 ## Weekly Homework ##
 The purpose of the Weekly Homework will be to reflect on your work done in the Daily Homework and to ensure you understand how to do the problems on your second pass. Every few days, I will post solutions (likely using video) to a subset of the problems that were recently due. Your task will be to reflect on the work you previously did for the corresponding problems and to take notes on my proposed solutions. As with the Daily Homework, you will submit your work as a PDF to BbLearn. Each Weekly Homework assignment will be worth 4 points and your score will be based on the quality of the work that you submit.
