@@ -72,11 +72,12 @@ The notes will be released incrementally. Each link below is to a PDF file. If y
     - 6.1 Relations
     - 6.2 Equivalence Relations
     - 6.3 Partitions
+    - 6.4 Modular Arithmetic
     <!-- - 6.4 Order Relations -->
-- Chapter 7: Functions
-<!-- - [Chapter 7: Functions]({{site.baseurl}}/teaching/mat320s20/Functions.pdf) -->
+- [Chapter 7: Functions]({{site.baseurl}}/teaching/mat320s20/Functions.pdf)
     - 7.1 Introduction to Functions
-    - 7.2 Compositions and Inverses
+    - 7.2 Images and Inverse Images of Functions
+    - 7.2 Compositions and Inverse Functions
 - Chapter 8: Cardinality
 <!-- - [Chapter 8: Cardinality]({{site.baseurl}}/teaching/mat320s20/Cardinality.pdf) -->
     - 8.1 Introduction to Cardinality
