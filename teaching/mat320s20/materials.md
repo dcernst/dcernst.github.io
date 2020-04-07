@@ -123,9 +123,4 @@ The notes will be released incrementally. Each link below is to a PDF file. If y
 Below are links to the take-home exams. If you are interested in using LaTeX to type up your solutions (this is optional), contact me and I will send you a link to the source file of the exam.
 
 - [Exam 2]({{site.baseurl}}/teaching/mat320s20/320Exam2.pdf) (PDF). (Due Friday, March 13)
-
-<!-- - [Exam 2 (take-home portion)]({{site.baseurl}}/teaching/mat320s20/411Exam2-Home.pdf) (PDF). (Due Friday, November 15)
-- For Exam 3, you have two options:
-  - **Option 1:** Complete a 30-minute oral exam with me in my office.  The questions will come directly from homework and previous exams. The oral exams will take place during Monday, November 25 to Thursday, December 12.
-  - **Option 2:** Complete the take-home exam found [here]({{site.baseurl}}/teaching/mat320s20/411Exam3-Home.pdf) (PDF). (Due Friday, December 6)
-- [Final Exam (take-home portion)]({{site.baseurl}}/teaching/mat320s20/411ExamFinal-Home.pdf) (PDF). (Due by 9am on Friday, December 13) -->
+- [Exam 3]({{site.baseurl}}/teaching/mat320s20/320Exam3.pdf) (PDF). (Submit via BbLearn. Due by midnight on Friday, April 10)
