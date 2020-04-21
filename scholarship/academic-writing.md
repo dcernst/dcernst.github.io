@@ -25,7 +25,7 @@ You can find a recent version of my curriculum vitae [here]({{site.baseurl}}/sch
   * R. Davis, D.C. Ernst, and A. Moll. Switch: An impartial game for generating graphs.
 
 ## Submitted
-  * B.J. Benesh, D.C. Ernst, and N. Sieben. The spectrum of nim-values for achievement games for generating finite groups. [[arXiv:???](???)]
+  * B.J. Benesh, D.C. Ernst, and N. Sieben. The spectrum of nim-values for achievement games for generating finite groups. [[arXiv:2004.08980](https://arxiv.org/abs/2004.08980)]
 
 ## Journal Articles
   * B.J. Benesh, D.C. Ernst, and N. Sieben. Impartial achievement games for generating nilpotent groups. *J. Group Theory* 22(3), 515–527, 2019. [[arXiv:1805.01409](https://arxiv.org/abs/1805.01409)] [[DOI:10.1515/s00182-017-0602-x](https://doi.org/10.1515/jgth-2018-0117)]
