@@ -37,9 +37,9 @@ I will not be covering every detail of the notes and the only way to achieve a s
   <footer><a href="http://en.wikipedia.org/wiki/Paul_Halmos">Paul Halmos</a></footer>
 </blockquote>
 
-The notes will be released incrementally. Each link below is to a PDF file. If you've found an error or have suggestions for improvements, please let me know.
+<!-- The notes will be released incrementally. Each link below is to a PDF file.  -->
 
-<!-- - [An Introduction to Proof via Inquiry-Based Learning]({{site.baseurl}}/teaching/mat320s20/IntroToProof.pdf) (complete set of notes) -->
+- [An Introduction to Proof via Inquiry-Based Learning]({{site.baseurl}}/teaching/mat320s20/IntroToProof.pdf) (complete set of notes)
 - [Title Page and Front Matter]({{site.baseurl}}/teaching/mat320s20/FrontMatter.pdf)
 - [Preface]({{site.baseurl}}/teaching/mat320s20/Preface.pdf)
 - [Chapter 1: Introduction]({{site.baseurl}}/teaching/mat320s20/Introduction.pdf)
@@ -78,8 +78,7 @@ The notes will be released incrementally. Each link below is to a PDF file. If y
     - 7.1 Introduction to Functions
     - 7.2 Images and Inverse Images of Functions
     - 7.2 Compositions and Inverse Functions
-- Chapter 8: Cardinality
-<!-- - [Chapter 8: Cardinality]({{site.baseurl}}/teaching/mat320s20/Cardinality.pdf) -->
+- [Chapter 8: Cardinality]({{site.baseurl}}/teaching/mat320s20/Cardinality.pdf)
     - 8.1 Introduction to Cardinality
     - 8.2 Finite Sets
     - 8.3 Infinite Sets
@@ -88,6 +87,8 @@ The notes will be released incrementally. Each link below is to a PDF file. If y
 - [Appendix A: Elements of Style for Proofs]({{site.baseurl}}/teaching/mat320s20/ElementsOfStyle.pdf)
 - [Appendix B: Fancy Mathematical Terms]({{site.baseurl}}/teaching/mat320s20/FancyMathematicalTerms.pdf)
 - [Appendix C: Definitions in Mathematics]({{site.baseurl}}/teaching/mat320s20/Definitions.pdf)
+
+If you've found an error or have suggestions for improvements, please let me know.
 
 ## Miscellaneous Materials ##
 <!-- - [Student Contract]({{ site.baseurl }}/teaching/StudentContract.pdf) (PDF) -->
@@ -124,3 +125,5 @@ Below are links to the take-home exams. If you are interested in using LaTeX to 
 
 - [Exam 2]({{site.baseurl}}/teaching/mat320s20/320Exam2.pdf) (PDF). (Due Friday, March 13)
 - [Exam 3]({{site.baseurl}}/teaching/mat320s20/320Exam3.pdf) (PDF). (Submit via BbLearn. Due by midnight on Saturday, April 11)
+- [Exam 4]({{site.baseurl}}/teaching/mat320s20/320Exam4.pdf) (PDF). (Please email me a PDF of your work. Due by midnight on Monday, April 27)
+- Final Exam (coming soon)
