@@ -49,7 +49,6 @@ We will not be using a traditional textbook this semester, but rather a problem 
 - [Chapter 5: Continuity]({{site.baseurl}}/teaching/mat431s20/Continuity.pdf)
 - [Chapter 6: Differentiation]({{site.baseurl}}/teaching/mat431s20/Differentiation.pdf)
 - [Chapter 7: Integration]({{site.baseurl}}/teaching/mat431s20/Integration.pdf)
-- Chapter 8: Miscellaneous Topics (coming soon)
 - [Appendix A: Elements of Style for Proofs]({{site.baseurl}}/teaching/mat431s20/ElementsOfStyle.pdf)
 - [Appendix B: Fancy Mathematical Terms]({{site.baseurl}}/teaching/mat431s20/FancyMathematicalTerms.pdf)
 - [Appendix C: Definitions in Mathematics]({{site.baseurl}}/teaching/mat431s20/Definitions.pdf)
