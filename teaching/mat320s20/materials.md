@@ -125,5 +125,5 @@ Below are links to the take-home exams. If you are interested in using LaTeX to 
 
 - [Exam 2]({{site.baseurl}}/teaching/mat320s20/320Exam2.pdf) (PDF). (Due Friday, March 13)
 - [Exam 3]({{site.baseurl}}/teaching/mat320s20/320Exam3.pdf) (PDF). (Submit via BbLearn. Due by midnight on Saturday, April 11)
-- [Exam 4]({{site.baseurl}}/teaching/mat320s20/320Exam4.pdf) (PDF). (Please email me a PDF of your work. Due by midnight on Monday, April 27)
+- [Exam 4]({{site.baseurl}}/teaching/mat320s20/320Exam4.pdf) (PDF). (Please email me a PDF of your work. Due extended to 5pm on Tuesday, April 28)
 - Final Exam (coming soon)
