@@ -102,3 +102,4 @@ Below are links to the take-home portions of each exam. If you are interested in
 
 - [Exam 1 (take-home portion)]({{site.baseurl}}/teaching/mat431s20/431Exam1-Home.pdf) (PDF). (Due Friday, February 28)
 - [Exam 2]({{site.baseurl}}/teaching/mat431s20/431Exam2.pdf) (PDF). (Due by midnight on Saturday, April 18)
+- [Final Exam]({{site.baseurl}}/teaching/mat431s20/431ExamFinal.pdf) (PDF). (Due by 9am on Friday, May 8)
