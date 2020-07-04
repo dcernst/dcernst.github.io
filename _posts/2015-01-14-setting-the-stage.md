@@ -63,4 +63,4 @@ Below is the Spring 2015 version of the slides that accompany the activity.
 <script async class="speakerdeck-embed" data-id="4591c4107e8b013259f02ed1d5d39548" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
 </div>
 
-You can always find the current version of the LaTeX source at my GitHub repo located [here](https://github.com/dcernst/MiscTeachingMaterials). Note that I'm using the [beamer m theme](https://github.com/matze/mtheme) for the slides, which require the [Mozilla Fira fonts](https://github.com/mozilla/Fira) by default.  Feel fee to steal, modify, and improve. And please let me know if do.
+You can always find the current version of the LaTeX source at my GitHub repo located [here](https://github.com/dcernst/MiscTeachingMaterials). Note that I'm using the [beamer m theme](https://github.com/matze/mtheme) for the slides, which require the [Mozilla Fira fonts](https://github.com/mozilla/Fira) by default.  Feel fee to steal, modify, and improve. And please let me know if you do.
