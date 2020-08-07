@@ -59,13 +59,6 @@ Below you will find notes and resources that we will utilize. We will add to the
 - [What is Mathematics? The Most Misunderstood Subject](https://www.fordham.edu/info/20603/what_math) (short article by Dr. Robert H. Lewis, Professor of Mathematics, Fordham University)
 - Quizzes:
     - Coming soon.
-   <!-- - [Quiz 1]({{ site.baseurl }}/teaching/mat232f20/232Quiz1.pdf) (PDF)
-   - [Quiz 2]({{ site.baseurl }}/teaching/mat232f20/232Quiz2.pdf) (PDF)
-   - [Quiz 3]({{ site.baseurl }}/teaching/mat232f20/232Quiz3.pdf) (PDF)
-   - [Quiz 4]({{ site.baseurl }}/teaching/mat232f20/232Quiz4.pdf) (PDF)   
-   - [Quiz 5]({{ site.baseurl }}/teaching/mat232f20/232Quiz5.pdf) (PDF)
-   - [Quiz 6]({{ site.baseurl }}/teaching/mat232f20/232Quiz6.pdf) (PDF)
-   - [Quiz 7]({{ site.baseurl }}/teaching/mat232f20/232Quiz7.pdf) (PDF) -->
 - Pictures of board work that we ran out of time to discuss. *Note:* You should not assume that the solutions/proofs posted below are valid or sufficient.
    - Coming soon.
 
