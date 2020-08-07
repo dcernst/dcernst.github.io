@@ -14,7 +14,7 @@ Here is a partial list of free and/or open-source textbooks. If you find one of 
 
 ### Calculus ###
   * [CLP Calculus Textbooks](http://www.math.ubc.ca/~CLP/index.html) by [Joel Feldman](http://www.math.ubc.ca/~feldman/), [Andrew Rechnitzer](http://www.math.ubc.ca/~andrewr/front_page.html), and [Elyse Yeager](http://www.math.ubc.ca/~elyse/index.html) were written for standard university calculus courses at the University of British Colombia.  Free PDF and web-based textbooks.
-  * [APEX Calclus](http://www.apexcalculus.com) is an open-source textbook by a group of faculty from Virginia Military Institute.  It has the look and feel of a traditional calculus (e.g., Stewart's *Calculus*). Includes interactive 3D graphics.
+  * [APEX Calculus](http://www.apexcalculus.com) is an open-source textbook by a group of faculty from Virginia Military Institute.  It has the look and feel of a traditional calculus (e.g., Stewart's *Calculus*). Includes interactive 3D graphics.
   * [MOOCulus Textbook](https://mooculus.osu.edu/handouts) is a free textbook from the [MOOCulus](https://mooculus.osu.edu/) folks at Ohio State University. This text is mostly an adaptation of the Community Calculus text listed below.
   * [Community Calculus](http://communitycalculus.org) by [David Guichard](http://skink.whitman.edu/~guichard/) (Whitman College). This one is also available as a free PDF. You can also purchase a very inexpensive hardcopy from [Lulu](http://www.lulu.com/spotlight/whitmancalculus).
   * [Active Calculus](http://faculty.gvsu.edu/boelkinm/Home/Download.html) by [Matt Boelkins](http://faculty.gvsu.edu/boelkinm/Home/MB.html) (Grand Valley State College). This is one of the newer additions to the list of free calculus texts.
