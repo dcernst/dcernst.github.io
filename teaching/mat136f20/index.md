@@ -1,5 +1,5 @@
 ---
-title: Introduction to Mathematical Reasoning
+title: Calculus I
 author: Dana Ernst
 layout: default
 ---
@@ -7,7 +7,7 @@ layout: default
 <ol class="breadcrumb">
   <li><a href="/"><i class="fa fa-home"></i></a></li>
   <li><a href="/teaching/">Teaching</a></li>
-  <li class="active">mat136</li>
+  <li class="active">MAT136</li>
 </ol>
 
 <div class="row">
@@ -26,12 +26,12 @@ layout: default
 </div>
 
 ## Welcome ##
-Welcome to the course web page for the Fall 2020 manifestation of MAT 136: Calculus I at [Northern Arizona University](http://nau.edu). This course is a first calculus course concentrating on limits, continuity, the derivative, and integration. Applications are made to classical problems in physics and other sciences. Calculus is one of the great achievements in human history, and I am happy that I get to share it with you. Detailed information about the course and its structure is available at the links above.
+<!-- Welcome to the course web page for the Fall 2020 manifestation of MAT 136: Calculus I at [Northern Arizona University](http://nau.edu). This course is a first calculus course concentrating on limits, continuity, the derivative, and integration. Applications are made to classical problems in physics and other sciences. Calculus is one of the great achievements in human history, and I am happy that I get to share it with you. Detailed information about the course and its structure is available at the links above. -->
 
 <div class="row">
   <div class="col-xs-12 col-lg-8">
     <div>
-    <p>Welcome to the course web page for the Fall 2020 manifestation of MAT 136: Calculus I at [Northern Arizona University](http://nau.edu). This course is a first calculus course concentrating on limits, continuity, the derivative, and integration. Applications are made to classical problems in physics and other sciences. Calculus is one of the great achievements in human history, and I am happy that I get to share it with you. Detailed information about the course and its structure is available at the links above.</p>
+    <p>Welcome to the course web page for the Fall 2020 manifestation of MAT 136: Calculus I at <a href="http://nau.edu">Northern Arizona University</a>. This course is a first calculus course concentrating on limits, continuity, the derivative, and integration. Applications are made to classical problems in physics and other sciences. Calculus is one of the great achievements in human history, and I am happy that I get to share it with you. Detailed information about the course and its structure is available at the links above.</p>
     </div>
   </div>
 
