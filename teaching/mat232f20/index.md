@@ -13,27 +13,27 @@ layout: default
 <div class="row">
 <div class="col-xs-12">
 <div class="btn-group btn-group-justified">
-<a class="btn btn-default btn-success" href="{{site.baseurl}}/teaching/mat232f19/syllabus/">Syllabus</a>
-<a class="btn btn-default btn-primary" href="{{site.baseurl}}/teaching/mat232f19/materials/">
+<a class="btn btn-default btn-success" href="{{site.baseurl}}/teaching/mat232f20/syllabus/">Syllabus</a>
+<a class="btn btn-default btn-primary" href="{{site.baseurl}}/teaching/mat232f20/materials/">
 <span class="hidden-xs">Course Materials</span><span class="visible-xs">Stuff</span>
 </a>
-<a class="btn btn-default btn-warning" href="{{site.baseurl}}/teaching/mat232f19/homework/">
+<a class="btn btn-default btn-warning" href="{{site.baseurl}}/teaching/mat232f20/homework/">
 <span class="hidden-xs">Homework</span><span class="visible-xs">HW</span>
 </a>
-<a class="btn btn-default btn-info" href="{{site.baseurl}}/teaching/mat232f19/journal/">Journal</a>
+<a class="btn btn-default btn-info" href="{{site.baseurl}}/teaching/mat232f20/journal/">Journal</a>
 </div>
 </div>
 </div>
 
 ## Welcome ##
-Welcome to the course web page for the Fall 2019 manifestation of MAT 232: Introduction to Mathematical Reasoning at [Northern Arizona University](http://nau.edu).
+Welcome to the course web page for the Fall 2020 manifestation of MAT 232: Introduction to Mathematical Reasoning at [Northern Arizona University](http://nau.edu).
 
 <div class="row">
   <div class="col-xs-12 col-sm-6">
     <div>
     <h2>Course Info</h2>
     <strong>Title:</strong> MAT 232: Introduction to Mathematical Reasoning<br />
-    <strong>Semester:</strong> Fall 2019<br />
+    <strong>Semester:</strong> Fall 2020<br />
     <strong>Credits:</strong> 3<br />
     <strong>Section:</strong> 1<br />
     <strong>Time:</strong> 10:20-11:10AM MWF<br />
@@ -46,7 +46,7 @@ Welcome to the course web page for the Fall 2019 manifestation of MAT 232: Intro
       <h2>Instructor Info</h2>
       <i class="fa fa-user fa-fw"></i>&nbsp; Dana C. Ernst, PhD<br />
       <i class="fa fa-university fa-fw"></i>&nbsp; AMB 176<br />
-      <i class="fa fa-users fa-fw"></i>&nbsp; 11:30AM-1:00PM MWF, 10:00-11:00AM T<br />
+      <i class="fa fa-users fa-fw"></i>&nbsp; TBA<br />
       <i class="far fa-envelope fa-fw"></i>&nbsp; <a href="mailto:dana.ernst@nau.edu">dana.ernst@nau.edu</a><br />
       <i class="fa fa-phone fa-fw"></i>&nbsp; 928.523.6852<br />
       <i class="fa fa-link fa-fw"></i>&nbsp; <a href="{{site.baseurl}}">danaernst.com</a>
@@ -57,7 +57,7 @@ Welcome to the course web page for the Fall 2019 manifestation of MAT 232: Intro
 ## What is This Course All About? ##
 MAT 232 is an introductory course in mathematical reasoning in multi-step problems across different areas of mathematics. The goal is to use elementary mathematical tools to solve more complex problems in already familiar areas of study such as precalculus, basic number theory, geometry, and discrete mathematics, instead of teaching new mathematical tools that are used in straightforward one-step exercises. The focus is on problem solving and solution writing.
 
-The world is changing faster and faster. An education must prepare a student to ask and explore questions in contexts that do not yet exist. That is, we need individuals capable of tackling problems they have never encountered and to ask questions no one has yet thought of. 
+The world is changing faster and faster. An education must prepare a student to ask and explore questions in contexts that do not yet exist. That is, we need individuals capable of tackling problems they have never encountered and to ask questions no one has yet thought of.
 
 The focus of this course is on reasoning and communication through problem solving and written mathematical arguments in order to provide students with more experience and training early in their university studies. The goal is for the students to work on interesting yet challenging multi-step problems that require almost zero background knowledge. The hope is that students will develop (or at least move in the direction of) the habits of mind of a mathematician. The problem solving of the type in this course is a fundamental component of mathematics that receives little focused attention elsewhere in our program. There will be an explicit focus on students asking questions and developing conjectures.
 
@@ -90,4 +90,4 @@ In this course, *everyone* will be required to
 - participate in discussions centered around a student's presented solution/proof;
 - call upon your own prodigious mental faculties to respond in flexible, thoughtful, and creative ways to problems that may seem unfamiliar on first glance.
 
-As the semester progresses, it should become clear to you what the expectations are.  This will be new to many of you and there may be some growing pains associated with it. For more details, see the [syllabus]({{ site.baseurl }}/teaching/mat232f19/syllabus/).
+As the semester progresses, it should become clear to you what the expectations are.  This will be new to many of you and there may be some growing pains associated with it. For more details, see the [syllabus]({{ site.baseurl }}/teaching/mat232f20/syllabus/).

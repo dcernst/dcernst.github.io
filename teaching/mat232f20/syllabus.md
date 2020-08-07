@@ -7,37 +7,37 @@ layout: default
 <ol class="breadcrumb">
   <li><a href="/"><i class="fa fa-home"></i></a></li>
   <li><a href="/teaching/">Teaching</a></li>
-  <li><a href="/teaching/mat232f19">MAT232</a></li>
+  <li><a href="/teaching/mat232f20">MAT232</a></li>
   <li class="active">{{ page.title }}</li>
 </ol>
 
 <div class="row">
 <div class="col-xs-12">
 <div class="btn-group btn-group-justified">
-<a class="btn btn-default btn-success" href="{{site.baseurl}}/teaching/mat232f19/syllabus/">Syllabus</a>
-<a class="btn btn-default btn-primary" href="{{site.baseurl}}/teaching/mat232f19/materials/">
+<a class="btn btn-default btn-success" href="{{site.baseurl}}/teaching/mat232f20/syllabus/">Syllabus</a>
+<a class="btn btn-default btn-primary" href="{{site.baseurl}}/teaching/mat232f20/materials/">
 <span class="hidden-xs">Course Materials</span><span class="visible-xs">Stuff</span>
 </a>
-<a class="btn btn-default btn-warning" href="{{site.baseurl}}/teaching/mat232f19/homework/">
+<a class="btn btn-default btn-warning" href="{{site.baseurl}}/teaching/mat232f20/homework/">
 <span class="hidden-xs">Homework</span><span class="visible-xs">HW</span>
 </a>
-<a class="btn btn-default btn-info" href="{{site.baseurl}}/teaching/mat232f19/journal/">Journal</a>
+<a class="btn btn-default btn-info" href="{{site.baseurl}}/teaching/mat232f20/journal/">Journal</a>
 </div>
 </div>
 </div>
 
-<!-- <br />
+<br />
 
 <div class="alert alert-info" role="alert">
 <i class="far fa-hand-peace"></i>&nbsp; This page is under construction!
-</div> -->
+</div>
 
 <div class="row">
   <div class="col-xs-12 col-sm-6">
     <div>
     <h3>Course Info</h3>
     <strong>Title:</strong> MAT 232: Introduction to Mathematical Reasoning<br />
-    <strong>Semester:</strong> Fall 2019<br />
+    <strong>Semester:</strong> Fall 2020<br />
     <strong>Credits:</strong> 3<br />
     <strong>Section:</strong> 1<br />
     <strong>Time:</strong> 10:20-11:10AM MWF<br />
@@ -50,7 +50,7 @@ layout: default
       <h3>Instructor Info</h3>
       <i class="fa fa-user fa-fw"></i>&nbsp; Dana C. Ernst, PhD<br />
       <i class="fa fa-university fa-fw"></i>&nbsp; AMB 176<br />
-      <i class="fa fa-users fa-fw"></i>&nbsp; 11:30AM-1:00PM MWF, 10:00-11:00AM T<br />
+      <i class="fa fa-users fa-fw"></i>&nbsp; TBA<br />
       <i class="far fa-envelope fa-fw"></i>&nbsp; <a href="mailto:dana.ernst@nau.edu">dana.ernst@nau.edu</a><br />
       <i class="fa fa-phone fa-fw"></i>&nbsp; 928.523.6852<br />
       <i class="fa fa-link fa-fw"></i>&nbsp; <a href="{{site.baseurl}}">danaernst.com</a>
@@ -176,13 +176,21 @@ Reviewing material from previous courses and looking up definitions and theorems
 ### Quizzes and Final Exam ###
 We will have 7 quizzes this semester. Tentatively, the quizzes are scheduled for the following Mondays:
 
-- Quiz 1: September 9 (week 3)
+<!-- - Quiz 1: September 9 (week 3)
 - Quiz 2: September 23 (week 5)
 - Quiz 3: October 7 (week 7)
 - Quiz 4: October 21 (week 9)
 - Quiz 5: November 4 (week 11)
 - Quiz 6: November 18 (week 13)
-- Quiz 7: December 2 (week 15)
+- Quiz 7: December 2 (week 15) -->
+
+- Quiz 1: ???
+- Quiz 2: ???
+- Quiz 3: ???
+- Quiz 4: ???
+- Quiz 5: ???
+- Quiz 6: ???
+- Quiz 7: ???
 
 Each quiz will consist of a mixture of homework problems you encountered during the previous two weeks and new problems not previously attempted.   During each quiz, you will have the opportunity to collaborate with your peers for a few minutes.  The amount of time you have to collaborate will diminish over the semester. Each problem will be graded using the following rubric:
 
@@ -438,14 +446,14 @@ In summary, your final grade will be determined by your scores in the following 
 	<tr>
 		<td>Final Exam</td>
 		<td style="text-align: center;">20%</td>
-		<td>Monday, December 9 at 10:00AM-12:00PM</td>
+		<td>???</td>
 	</tr>
 	</tbody>
 </table>
 </center>
 
 ### Department and University Policies ###
-You are responsible for knowing and following the [Department of Mathematics and Statistics Policies]({{ site.baseurl }}/teaching/DepartmentPoliciesFall2019.pdf) (PDF) and other University policies listed [here](https://nau.edu/university-policy-library/wp-content/uploads/sites/26/Syllabus-Policy-Statements.pdf) (PDF).  More policies can be found in other university documents, especially the [NAU Student Handbook](https://in.nau.edu/dean-of-students/Student-Handbook/) (see appendices) and the website of the [Student Outreach and Support](https://in.nau.edu/dean-of-students/nau-sos/) (SOS).
+You are responsible for knowing and following the [Department of Mathematics and Statistics Policies]({{ site.baseurl }}/teaching/DepartmentPoliciesFall2020.pdf) (PDF) and other University policies listed [here](https://nau.edu/university-policy-library/wp-content/uploads/sites/26/Syllabus-Policy-Statements.pdf) (PDF).  More policies can be found in other university documents, especially the [NAU Student Handbook](https://in.nau.edu/dean-of-students/Student-Handbook/) (see appendices) and the website of the [Student Outreach and Support](https://in.nau.edu/dean-of-students/nau-sos/) (SOS).
 
 As per Department Policy, cell phones, MP3 players and portable electronic communication devices, including but not limited to smart phones, cameras and recording devices, must be turned off and inaccessible during in-class tests. Any violation of this policy will be treated as academic dishonesty.
 

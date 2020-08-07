@@ -7,21 +7,21 @@ title: Course Materials
 <ol class="breadcrumb">
   <li><a href="/"><i class="fa fa-home"></i></a></li>
   <li><a href="/teaching/">Teaching</a></li>
-  <li><a href="/teaching/mat411f19">MAT411</a></li>
+  <li><a href="/teaching/mat411f20">MAT411</a></li>
   <li class="active">Materials</li>
 </ol>
 
 <div class="row">
 <div class="col-xs-12">
 <div class="btn-group btn-group-justified">
-<a class="btn btn-default btn-success" href="{{site.baseurl}}/teaching/mat411f19/syllabus/">Syllabus</a>
-<a class="btn btn-default btn-primary" href="{{site.baseurl}}/teaching/mat411f19/materials/">
+<a class="btn btn-default btn-success" href="{{site.baseurl}}/teaching/mat411f20/syllabus/">Syllabus</a>
+<a class="btn btn-default btn-primary" href="{{site.baseurl}}/teaching/mat411f20/materials/">
 <span class="hidden-xs">Course Materials</span><span class="visible-xs">Stuff</span>
 </a>
-<a class="btn btn-default btn-warning" href="{{site.baseurl}}/teaching/mat411f19/homework/">
+<a class="btn btn-default btn-warning" href="{{site.baseurl}}/teaching/mat411f20/homework/">
 <span class="hidden-xs">Homework</span><span class="visible-xs">HW</span>
 </a>
-<a class="btn btn-default btn-info" href="{{site.baseurl}}/teaching/mat411f19/journal/">Journal</a>
+<a class="btn btn-default btn-info" href="{{site.baseurl}}/teaching/mat411f20/journal/">Journal</a>
 </div>
 </div>
 </div>
@@ -39,58 +39,59 @@ I will not be covering every detail of the notes and the only way to achieve a s
 
 The notes will be released incrementally. Each link below is to a PDF file. If you've found an error or have suggestions for improvements, please let me know.
 
-<!-- <div class="alert alert-info" role="alert" style="margin: 10px 0 10px 0">
+<div class="alert alert-info" role="alert" style="margin: 10px 0 10px 0">
 <i class="fa fa-exclamation-triangle"></i>&nbsp; These notes are currently under construction and subject to change.
-</div> -->
+</div>
 
-- [An Inquiry-Based Approach to Abstract Algebra]({{site.baseurl}}/teaching/mat411f19/IBL-AbstractAlgebra.pdf) (complete set of notes)
+- [An Inquiry-Based Approach to Abstract Algebra]({{site.baseurl}}/teaching/mat411f20/IBL-AbstractAlgebra.pdf) (complete set of notes)
 
-- [Title Page and Table of Contents]({{site.baseurl}}/teaching/mat411f19/TitlePage.pdf)
-- [Preface]({{site.baseurl}}/teaching/mat411f19/Preface.pdf)
-- [Chapter 1: Introduction]({{site.baseurl}}/teaching/mat411f19/Introduction.pdf)
+- [Title Page and Table of Contents]({{site.baseurl}}/teaching/mat411f20/TitlePage.pdf)
+- [Preface]({{site.baseurl}}/teaching/mat411f20/Preface.pdf)
+- [Chapter 1: Introduction]({{site.baseurl}}/teaching/mat411f20/Introduction.pdf)
     - 1.1 What is Abstract Algebra?
     - 1.2 An Inquiry-Based Approach
     - 1.3 Rules of the Game
     - 1.4 Structure of the Notes
     - 1.5 Some Minimal Guidance
-- [Chapter 2: An Introduction to Groups]({{site.baseurl}}/teaching/mat411f19/IntroGroups.pdf)
+- [Chapter 2: An Introduction to Groups]({{site.baseurl}}/teaching/mat411f20/IntroGroups.pdf)
     - 2.1 A First Example
     - 2.2 Binary Operations
     - 2.3 Groups
     - 2.4 Generating Sets
     - 2.5 Group Tables
     - 2.6 Cayley Diagrams
-- [Chapter 3: Subgroups and Isomorphisms]({{site.baseurl}}/teaching/mat411f19/SubgroupsIsomorphisms.pdf)
+- [Chapter 3: Subgroups and Isomorphisms]({{site.baseurl}}/teaching/mat411f20/SubgroupsIsomorphisms.pdf)
     - 3.1 Subgroups
     - 3.2 Subgroup Lattices
     - 3.3 Isomorphisms
-- [Chapter 4: Families of Groups]({{site.baseurl}}/teaching/mat411f19/Families.pdf)
+- [Chapter 4: Families of Groups]({{site.baseurl}}/teaching/mat411f20/Families.pdf)
     - 4.1 Cyclic Groups
     - 4.2 Dihedral Groups
     - 4.3 Symmetric Groups
     - 4.4 Alternating Groups
-- [Chapter 5: Cosets, Lagrange's Theorem, and Normal Subgroups]({{site.baseurl}}/teaching/mat411f19/CosetsLagrangeNormal.pdf)
+- [Chapter 5: Cosets, Lagrange's Theorem, and Normal Subgroups]({{site.baseurl}}/teaching/mat411f20/CosetsLagrangeNormal.pdf)
     - 5.1 Cosets
     - 5.2 Lagrange's Theorem
     - 5.3 Normal Subgroups
-- [Chapter 6: Products and Quotients of Groups]({{site.baseurl}}/teaching/mat411f19/ProductsQuotients.pdf)
+- [Chapter 6: Products and Quotients of Groups]({{site.baseurl}}/teaching/mat411f20/ProductsQuotients.pdf)
     - 6.1 Products of Groups
     - 6.2 Quotients of Groups
-- [Chapter 7: Homomorphisms and the Isomorphism Theorems]({{site.baseurl}}/teaching/mat411f19/Homomorphisms.pdf)
+- [Chapter 7: Homomorphisms and the Isomorphism Theorems]({{site.baseurl}}/teaching/mat411f20/Homomorphisms.pdf)
     - 7.1 Homomorphisms
     - 7.2 The Isomorphism Theorems
-- [Chapter 8: An Introduction to Rings]({{site.baseurl}}/teaching/mat411f19/Rings.pdf)
+- [Chapter 8: An Introduction to Rings]({{site.baseurl}}/teaching/mat411f20/Rings.pdf)
     - 8.1 Definitions and Examples
     - 8.2 Ring Homomorphisms
     - 8.3 Ideals and Quotient Rings
     - 8.4 Maximal and Prime Ideals
-- [Appendix A: Elements of Style for Proofs]({{site.baseurl}}/teaching/mat411f19/ElementsOfStyle.pdf)
-- [Appendix B: Fancy Mathematical Terms]({{site.baseurl}}/teaching/mat411f19/FancyMathematicalTerms.pdf)
-- [Appendix C: Definitions in Mathematics]({{site.baseurl}}/teaching/mat411f19/Definitions.pdf)
+- [Appendix A: Elements of Style for Proofs]({{site.baseurl}}/teaching/mat411f20/ElementsOfStyle.pdf)
+- [Appendix B: Fancy Mathematical Terms]({{site.baseurl}}/teaching/mat411f20/FancyMathematicalTerms.pdf)
+- [Appendix C: Definitions in Mathematics]({{site.baseurl}}/teaching/mat411f20/Definitions.pdf)
 
 ## Miscellaneous Materials ##
 - [Student Contract]({{ site.baseurl }}/teaching/StudentContract.pdf) (PDF)
 - [Setting the Stage]({{ site.baseurl }}/teaching/SettingTheStage.pdf) (PDF)
+- [Living Proof]({{site.baseurl}}/teaching/LivingProof.pdf)
 - [The Secret to Raising Smart Kids &#124; Carol Dweck](https://www.scientificamerican.com/article/the-secret-to-raising-smart-kids1/) (article on Scientific American)
 - [7 Things Growth Mindset is Not](https://www.turnaroundusa.org/7-things-growth-mindset-is-not/) (article on Turn Around for Children)
 - Videos on Growth Mindset and Productive Failure
@@ -113,31 +114,34 @@ The notes will be released incrementally. Each link below is to a PDF file. If y
 - [The Subtle Art of the Mathematical Conjecture](https://www.quantamagazine.org/the-subtle-art-of-the-mathematical-conjecture-20190507/) (article on Quanta Magazine)
 - [Lessons from My Math Degree That Have Nothing to Do with Math](https://medium.com/s/story/6-life-lessons-from-my-math-degree-that-have-nothing-to-do-with-math-d38aba90edfe) (6 min read on Medium)
 - [Is Mathematics Invented or Discovered? &#124; Roger Penrose](https://www.youtube.com/watch?v=TKlPj_qGIt8) (4:14 min)
+- [What is Mathematics? The Most Misunderstood Subject](https://www.fordham.edu/info/20603/what_math) (short article by Dr. Robert H. Lewis, Professor of Mathematics, Fordham University)
 - Pictures of board work that we ran out of time to discuss. *Note:* You should not assume that the solutions/proofs posted below are valid or sufficient.
-    - [Problem 2.7]({{site.baseurl}}/teaching/mat411f19/Problem2.7.jpeg)
-    - [Problem 2.9]({{site.baseurl}}/teaching/mat411f19/Problem2.9.jpeg)
-    - [Theorem 2.29]({{site.baseurl}}/teaching/mat411f19/Theorem2.29.jpg)
-    - [Problem 2.31]({{site.baseurl}}/teaching/mat411f19/Problem2.31.jpg)
-    - [Theorem 2.45]({{site.baseurl}}/teaching/mat411f19/Theorem2.45.jpg)
-    - [Theorem 2.48(a)]({{site.baseurl}}/teaching/mat411f19/Theorem2.48.jpeg)
-    - [Problem 2.55(abc)]({{site.baseurl}}/teaching/mat411f19/Problem2.55.jpeg)
-    - [Problem 3.20]({{site.baseurl}}/teaching/mat411f19/Problem3.20.jpg)
-    - [Problem 3.22(abf)]({{site.baseurl}}/teaching/mat411f19/Problem3.22abf.jpg)
-    - [Problem 3.22(cd)]({{site.baseurl}}/teaching/mat411f19/Problem3.22cd.jpg)
-    - [Problem 3.22(e)]({{site.baseurl}}/teaching/mat411f19/Problem3.22e.jpg)
-    - [Problem 3.22(gh)]({{site.baseurl}}/teaching/mat411f19/Problem3.22gh.jpg)
-    - [Problem 3.22(jk)]({{site.baseurl}}/teaching/mat411f19/Problem3.22jk.jpg)
-    - [Problem 3.25]({{site.baseurl}}/teaching/mat411f19/Problem3.25.jpg)
-    - [Problem 6.29]({{site.baseurl}}/teaching/mat411f19/Problem6.29.jpg)
-    - [Theorem 6.39]({{site.baseurl}}/teaching/mat411f19/Theorem6.39.jpg)
-    - [Problem 6.40]({{site.baseurl}}/teaching/mat411f19/Problem6.40.jpg)
+    - Coming soon.
+    <!-- - [Problem 2.7]({{site.baseurl}}/teaching/mat411f20/Problem2.7.jpeg)
+    - [Problem 2.9]({{site.baseurl}}/teaching/mat411f20/Problem2.9.jpeg)
+    - [Theorem 2.29]({{site.baseurl}}/teaching/mat411f20/Theorem2.29.jpg)
+    - [Problem 2.31]({{site.baseurl}}/teaching/mat411f20/Problem2.31.jpg)
+    - [Theorem 2.45]({{site.baseurl}}/teaching/mat411f20/Theorem2.45.jpg)
+    - [Theorem 2.48(a)]({{site.baseurl}}/teaching/mat411f20/Theorem2.48.jpeg)
+    - [Problem 2.55(abc)]({{site.baseurl}}/teaching/mat411f20/Problem2.55.jpeg)
+    - [Problem 3.20]({{site.baseurl}}/teaching/mat411f20/Problem3.20.jpg)
+    - [Problem 3.22(abf)]({{site.baseurl}}/teaching/mat411f20/Problem3.22abf.jpg)
+    - [Problem 3.22(cd)]({{site.baseurl}}/teaching/mat411f20/Problem3.22cd.jpg)
+    - [Problem 3.22(e)]({{site.baseurl}}/teaching/mat411f20/Problem3.22e.jpg)
+    - [Problem 3.22(gh)]({{site.baseurl}}/teaching/mat411f20/Problem3.22gh.jpg)
+    - [Problem 3.22(jk)]({{site.baseurl}}/teaching/mat411f20/Problem3.22jk.jpg)
+    - [Problem 3.25]({{site.baseurl}}/teaching/mat411f20/Problem3.25.jpg)
+    - [Problem 6.29]({{site.baseurl}}/teaching/mat411f20/Problem6.29.jpg)
+    - [Theorem 6.39]({{site.baseurl}}/teaching/mat411f20/Theorem6.39.jpg)
+    - [Problem 6.40]({{site.baseurl}}/teaching/mat411f20/Problem6.40.jpg) -->
 
 ## Exams
 Below are links to the take-home portions of each exam. If you are interested in using LaTeX to type up your solutions, contact me and I will send you a link to the source file of the exam.
+- Coming soon.
 
-- [Exam 1 (take-home portion)]({{site.baseurl}}/teaching/mat411f19/411Exam1-Home.pdf) (PDF). (Due Wednesday, October 2)
-- [Exam 2 (take-home portion)]({{site.baseurl}}/teaching/mat411f19/411Exam2-Home.pdf) (PDF). (Due Friday, November 15)
+<!-- - [Exam 1 (take-home portion)]({{site.baseurl}}/teaching/mat411f20/411Exam1-Home.pdf) (PDF). (Due Wednesday, October 2)
+- [Exam 2 (take-home portion)]({{site.baseurl}}/teaching/mat411f20/411Exam2-Home.pdf) (PDF). (Due Friday, November 15)
 - For Exam 3, you have two options:
   - **Option 1:** Complete a 30-minute oral exam with me in my office.  The questions will come directly from homework and previous exams. The oral exams will take place during Monday, November 25 to Thursday, December 12.
-  - **Option 2:** Complete the take-home exam found [here]({{site.baseurl}}/teaching/mat411f19/411Exam3-Home.pdf) (PDF). (Due Friday, December 6)
-- [Final Exam (take-home portion)]({{site.baseurl}}/teaching/mat411f19/411ExamFinal-Home.pdf) (PDF). (Due by 9am on Friday, December 13)
+  - **Option 2:** Complete the take-home exam found [here]({{site.baseurl}}/teaching/mat411f20/411Exam3-Home.pdf) (PDF). (Due Friday, December 6)
+- [Final Exam (take-home portion)]({{site.baseurl}}/teaching/mat411f20/411ExamFinal-Home.pdf) (PDF). (Due by 9am on Friday, December 13) -->

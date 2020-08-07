@@ -7,32 +7,33 @@ title: Course Materials
 <ol class="breadcrumb">
   <li><a href="/"><i class="fa fa-home"></i></a></li>
   <li><a href="/teaching/">Teaching</a></li>
-  <li><a href="/teaching/mat232f19">MAT232</a></li>
+  <li><a href="/teaching/mat232f20">MAT232</a></li>
   <li class="active">Materials</li>
 </ol>
 
 <div class="row">
 <div class="col-xs-12">
 <div class="btn-group btn-group-justified">
-<a class="btn btn-default btn-success" href="{{site.baseurl}}/teaching/mat232f19/syllabus/">Syllabus</a>
-<a class="btn btn-default btn-primary" href="{{site.baseurl}}/teaching/mat232f19/materials/">
+<a class="btn btn-default btn-success" href="{{site.baseurl}}/teaching/mat232f20/syllabus/">Syllabus</a>
+<a class="btn btn-default btn-primary" href="{{site.baseurl}}/teaching/mat232f20/materials/">
 <span class="hidden-xs">Course Materials</span><span class="visible-xs">Stuff</span>
 </a>
-<a class="btn btn-default btn-warning" href="{{site.baseurl}}/teaching/mat232f19/homework/">
+<a class="btn btn-default btn-warning" href="{{site.baseurl}}/teaching/mat232f20/homework/">
 <span class="hidden-xs">Homework</span><span class="visible-xs">HW</span>
 </a>
-<a class="btn btn-default btn-info" href="{{site.baseurl}}/teaching/mat232f19/journal/">Journal</a>
+<a class="btn btn-default btn-info" href="{{site.baseurl}}/teaching/mat232f20/journal/">Journal</a>
 </div>
 </div>
 </div>
 
 <p style="margin-top:10px;">
-Below you will find notes and handouts that we have used in class, as well as some other useful stuff. We will add to the problem collection as the semester progresses.
+Below you will find notes and resources that we will utilize. We will add to the problem collection as the semester progresses.
 </p>
 
-- [Problem Collection for Mathematical Reasoning]({{ site.baseurl }}/teaching/mat232f19/232ProblemCollection.pdf) (PDF)
-- [Student Contract]({{ site.baseurl }}/teaching/StudentContract.pdf) (PDF)
+- [Problem Collection for Mathematical Reasoning]({{ site.baseurl }}/teaching/mat232f20/232ProblemCollection.pdf) (PDF)
+<!-- - [Student Contract]({{ site.baseurl }}/teaching/StudentContract.pdf) (PDF) -->
 - [Setting the Stage]({{ site.baseurl }}/teaching/SettingTheStage.pdf) (PDF)
+- [Living Proof]({{site.baseurl}}/teaching/LivingProof.pdf)
 - [The Secret to Raising Smart Kids &#124; Carol Dweck](https://www.scientificamerican.com/article/the-secret-to-raising-smart-kids1/) (article on Scientific American)
 - [7 Things Growth Mindset is Not](https://www.turnaroundusa.org/7-things-growth-mindset-is-not/) (article on Turn Around for Children)
 - Videos on Growth Mindset and Productive Failure
@@ -55,18 +56,18 @@ Below you will find notes and handouts that we have used in class, as well as so
 - [The Subtle Art of the Mathematical Conjecture](https://www.quantamagazine.org/the-subtle-art-of-the-mathematical-conjecture-20190507/) (article on Quanta Magazine)
 - [Lessons from My Math Degree That Have Nothing to Do with Math](https://medium.com/s/story/6-life-lessons-from-my-math-degree-that-have-nothing-to-do-with-math-d38aba90edfe) (6 min read on Medium)
 - [Is Mathematics Invented or Discovered? &#124; Roger Penrose](https://www.youtube.com/watch?v=TKlPj_qGIt8) (4:14 min)
+- [What is Mathematics? The Most Misunderstood Subject](https://www.fordham.edu/info/20603/what_math) (short article by Dr. Robert H. Lewis, Professor of Mathematics, Fordham University)
 - Quizzes:
-   - [Quiz 1]({{ site.baseurl }}/teaching/mat232f19/232Quiz1.pdf) (PDF)
-   - [Quiz 2]({{ site.baseurl }}/teaching/mat232f19/232Quiz2.pdf) (PDF)
-   - [Quiz 3]({{ site.baseurl }}/teaching/mat232f19/232Quiz3.pdf) (PDF)
-   - [Quiz 4]({{ site.baseurl }}/teaching/mat232f19/232Quiz4.pdf) (PDF)   
-   - [Quiz 5]({{ site.baseurl }}/teaching/mat232f19/232Quiz5.pdf) (PDF)
-   - [Quiz 6]({{ site.baseurl }}/teaching/mat232f19/232Quiz6.pdf) (PDF)
-   - [Quiz 7]({{ site.baseurl }}/teaching/mat232f19/232Quiz7.pdf) (PDF)
+    - Coming soon.
+   <!-- - [Quiz 1]({{ site.baseurl }}/teaching/mat232f20/232Quiz1.pdf) (PDF)
+   - [Quiz 2]({{ site.baseurl }}/teaching/mat232f20/232Quiz2.pdf) (PDF)
+   - [Quiz 3]({{ site.baseurl }}/teaching/mat232f20/232Quiz3.pdf) (PDF)
+   - [Quiz 4]({{ site.baseurl }}/teaching/mat232f20/232Quiz4.pdf) (PDF)   
+   - [Quiz 5]({{ site.baseurl }}/teaching/mat232f20/232Quiz5.pdf) (PDF)
+   - [Quiz 6]({{ site.baseurl }}/teaching/mat232f20/232Quiz6.pdf) (PDF)
+   - [Quiz 7]({{ site.baseurl }}/teaching/mat232f20/232Quiz7.pdf) (PDF) -->
 - Pictures of board work that we ran out of time to discuss. *Note:* You should not assume that the solutions/proofs posted below are valid or sufficient.
-  - [Problem 32 (algebra)]({{site.baseurl}}/teaching/mat232f19/Problem32algebra.jpg)
-  - [Problem 32 (visual)]({{site.baseurl}}/teaching/mat232f19/Problem32visual.jpg)
-  - [Problem 33]({{site.baseurl}}/teaching/mat232f19/Problem33.jpg)
+   - Coming soon.
 
 <blockquote>
   <p>Don’t just read it; fight it! Ask your own questions, look for your own examples, discover your own proofs. Is the hypothesis necessary? Is the converse true? What happens in the classical special case? What about the degenerate cases? Where does the proof use the hypothesis?</p>
