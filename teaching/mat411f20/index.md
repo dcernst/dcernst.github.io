@@ -13,31 +13,31 @@ layout: default
 <div class="row">
 <div class="col-xs-12">
 <div class="btn-group btn-group-justified">
-<a class="btn btn-default btn-success" href="{{site.baseurl}}/teaching/mat411f19/syllabus/">Syllabus</a>
-<a class="btn btn-default btn-primary" href="{{site.baseurl}}/teaching/mat411f19/materials/">
+<a class="btn btn-default btn-success" href="{{site.baseurl}}/teaching/mat411f20/syllabus/">Syllabus</a>
+<a class="btn btn-default btn-primary" href="{{site.baseurl}}/teaching/mat411f20/materials/">
 <span class="hidden-xs">Course Materials</span><span class="visible-xs">Stuff</span>
 </a>
-<a class="btn btn-default btn-warning" href="{{site.baseurl}}/teaching/mat411f19/homework/">
+<a class="btn btn-default btn-warning" href="{{site.baseurl}}/teaching/mat411f20/homework/">
 <span class="hidden-xs">Homework</span><span class="visible-xs">HW</span>
 </a>
-<a class="btn btn-default btn-info" href="{{site.baseurl}}/teaching/mat411f19/journal/">Journal</a>
+<a class="btn btn-default btn-info" href="{{site.baseurl}}/teaching/mat411f20/journal/">Journal</a>
 </div>
 </div>
 </div>
 
 ## Welcome ##
-Welcome to the course web page for the Fall 2019 manifestation of MAT 411: Introduction to Abstract Algebra at [Northern Arizona University](http://nau.edu).
+Welcome to the course web page for the Fall 2020 manifestation of MAT 411: Introduction to Abstract Algebra at [Northern Arizona University](http://nau.edu).
 
 <div class="row">
   <div class="col-xs-12 col-sm-6">
     <div>
     <h2>Course Info</h2>
     <strong>Title:</strong> MAT 411: Introduction to Abstract Algebra<br />
-    <strong>Semester:</strong> Fall 2019<br />
+    <strong>Semester:</strong> Fall 2020<br />
     <strong>Credits:</strong> 3<br />
     <strong>Section:</strong> 1<br />
     <strong>Time:</strong> 9:10-10:00AM MWF<br />
-    <strong>Location:</strong> AMB 225
+    <strong>Location:</strong> SAS 201A
     </div>
   </div>
 
@@ -46,7 +46,7 @@ Welcome to the course web page for the Fall 2019 manifestation of MAT 411: Intro
       <h2>Instructor Info</h2>
       <i class="fa fa-user fa-fw"></i>&nbsp; Dana C. Ernst, PhD<br />
       <i class="fa fa-university fa-fw"></i>&nbsp; AMB 176<br />
-      <i class="fa fa-users fa-fw"></i>&nbsp; 11:30AM-1:00PM MWF, 10:00-11:00AM T<br />
+      <i class="fa fa-users fa-fw"></i>&nbsp; TBA<br />
       <i class="far fa-envelope fa-fw"></i>&nbsp; <a href="mailto:dana.ernst@nau.edu">dana.ernst@nau.edu</a><br />
       <i class="fa fa-phone fa-fw"></i>&nbsp; 928.523.6852<br />
       <i class="fa fa-link fa-fw"></i>&nbsp; <a href="{{site.baseurl}}">danaernst.com</a>

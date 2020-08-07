@@ -7,21 +7,21 @@ layout: default
 <ol class="breadcrumb">
   <li><a href="/"><i class="fa fa-home"></i></a></li>
   <li><a href="/teaching/">Teaching</a></li>
-  <li><a href="/teaching/mat411f19">MAT411</a></li>
+  <li><a href="/teaching/mat411f20">MAT411</a></li>
   <li class="active">{{ page.title }}</li>
 </ol>
 
 <div class="row">
 <div class="col-xs-12">
 <div class="btn-group btn-group-justified">
-<a class="btn btn-default btn-success" href="{{site.baseurl}}/teaching/mat411f19/syllabus/">Syllabus</a>
-<a class="btn btn-default btn-primary" href="{{site.baseurl}}/teaching/mat411f19/materials/">
+<a class="btn btn-default btn-success" href="{{site.baseurl}}/teaching/mat411f20/syllabus/">Syllabus</a>
+<a class="btn btn-default btn-primary" href="{{site.baseurl}}/teaching/mat411f20/materials/">
 <span class="hidden-xs">Course Materials</span><span class="visible-xs">Stuff</span>
 </a>
-<a class="btn btn-default btn-warning" href="{{site.baseurl}}/teaching/mat411f19/homework/">
+<a class="btn btn-default btn-warning" href="{{site.baseurl}}/teaching/mat411f20/homework/">
 <span class="hidden-xs">Homework</span><span class="visible-xs">HW</span>
 </a>
-<a class="btn btn-default btn-info" href="{{site.baseurl}}/teaching/mat411f19/journal/">Journal</a>
+<a class="btn btn-default btn-info" href="{{site.baseurl}}/teaching/mat411f20/journal/">Journal</a>
 </div>
 </div>
 </div>
@@ -37,11 +37,11 @@ layout: default
     <div>
     <h3>Course Info</h3>
     <strong>Title:</strong> MAT 411: Introduction to Abstract Algebra<br />
-    <strong>Semester:</strong> Fall 2019<br />
+    <strong>Semester:</strong> Fall 2020<br />
     <strong>Credits:</strong> 3<br />
     <strong>Section:</strong> 1<br />
     <strong>Time:</strong> 9:10-10:00AM<br />
-    <strong>Location:</strong> AMB 225
+    <strong>Location:</strong> SAS 201A
     </div>
   </div>
 
@@ -50,7 +50,7 @@ layout: default
       <h3>Instructor Info</h3>
       <i class="fa fa-user fa-fw"></i>&nbsp; Dana C. Ernst, PhD<br />
       <i class="fa fa-university fa-fw"></i>&nbsp; AMB 176<br />
-      <i class="fa fa-users fa-fw"></i>&nbsp; 11:30AM-1:00PM MWF, 10:00-11:00AM T<br />
+      <i class="fa fa-users fa-fw"></i>&nbsp; TBA<br />
       <i class="far fa-envelope fa-fw"></i>&nbsp; <a href="mailto:dana.ernst@nau.edu">dana.ernst@nau.edu</a><br />
       <i class="fa fa-phone fa-fw"></i>&nbsp; 928.523.6852<br />
       <i class="fa fa-link fa-fw"></i>&nbsp; <a href="{{site.baseurl}}">danaernst.com</a>
@@ -161,7 +161,7 @@ In our classroom, diversity and individual differences are respected, appreciate
 Students are also expected to minimize distracting behaviors.  In particular, every attempt should be made to arrive to class on time.  If you must arrive late or leave early, please do not disrupt class. Please turn off the ringer on your cell phone.  I do not have a strict policy on the use of laptops, tablets, and cell phones.  You are expected to be paying attention and engaging in class discussions.  If your cell phone, etc. is interfering with your ability (or that of another student) to do this, then put it away, or I will ask you to put it away.
 
 ### Textbook ###
-Our textbook for the semester is <i>An Inquiry-Based Approach to Abstract Algebra</i>, which is a free and open-source textbook that was written by me ([Dana C. Ernst](http://danaernst.com)). The textbook is designed to be used with an [inquiry-based learning](http://maamathedmatters.blogspot.com/2013/05/what-heck-is-ibl.html) (IBL) approach to a first-semester undergraduate abstract algebra course. While the textbook covers many of the standard topics, the focus is on building intuition and emphasizes visualization. The textbook is available [here]({{site.baseurl}}/teaching/mat411f19/materials/).
+Our textbook for the semester is <i>An Inquiry-Based Approach to Abstract Algebra</i>, which is a free and open-source textbook that was written by me ([Dana C. Ernst](http://danaernst.com)). The textbook is designed to be used with an [inquiry-based learning](http://maamathedmatters.blogspot.com/2013/05/what-heck-is-ibl.html) (IBL) approach to a first-semester undergraduate abstract algebra course. While the textbook covers many of the standard topics, the focus is on building intuition and emphasizes visualization. The textbook is available [here]({{site.baseurl}}/teaching/mat411f20/materials/).
 
 I will not be covering every detail of the notes and the only way to achieve a sufficient understanding of the material is to be digesting the reading in a meaningful way.  You should be seeking clarification about the content of the notes whenever necessary by asking questions.  Here's one of my favorite quotes about reading mathematics.
 
@@ -181,7 +181,7 @@ There will be 3 midterm exams and a cumulative final exam.  Exam 1 and Exam 2 wi
 #### General Comments
 You are allowed and encouraged to work together on homework.  However, each student is expected to turn in his or her own work.  In general, late homework will *not* be accepted.  However, you are allowed to turn in three late homework assignments with no questions asked. Unless you have made arrangements in advance with me, homework turned in after class will be considered late. When doing your homework, I encourage you to consult the [Elements of Style for Proofs]({{site.baseurl}}/teaching/ElementsOfStyle.pdf). Your overall homework grade will be worth 15% of your final grade.
 
-On each homework assignment, please write (i) your name, (ii) name of course, and (iii) Daily/Weekly Homework number.  You can find the list of assignments on the [homework page]({{site.baseurl}}/teaching/mat411f19/homework/).  I reserve the right to modify the homework assignments as I see necessary.
+On each homework assignment, please write (i) your name, (ii) name of course, and (iii) Daily/Weekly Homework number.  You can find the list of assignments on the [homework page]({{site.baseurl}}/teaching/mat411f20/homework/).  I reserve the right to modify the homework assignments as I see necessary.
 
 #### Daily Homework
 Homework will be assigned each class meeting, and students are expected to complete (or try their best to complete) each assignment before walking into the next class period. All assignments should be *carefully*, *clearly*, and *cleanly* written. Among other things, this means your work should include proper grammar, punctuation, and spelling. You should write a draft of a given solution before you write down the final argument, so do yourself a favor and get in the habit of differentiating your scratch work from your submitted assignment.
@@ -454,7 +454,7 @@ In summary, your final grade will be determined by your scores in the following 
 </center>
 
 ### Department and University Policies ###
-You are responsible for knowing and following the [Department of Mathematics and Statistics Policies]({{ site.baseurl }}/teaching/DepartmentPoliciesFall2019.pdf) (PDF) and other University policies listed [here](https://nau.edu/university-policy-library/wp-content/uploads/sites/26/Syllabus-Policy-Statements.pdf) (PDF).  More policies can be found in other university documents, especially the [NAU Student Handbook](https://in.nau.edu/dean-of-students/Student-Handbook/) (see appendices) and the website of the [Student Outreach and Support](https://in.nau.edu/dean-of-students/nau-sos/) (SOS).
+You are responsible for knowing and following the [Department of Mathematics and Statistics Policies]({{ site.baseurl }}/teaching/DepartmentPoliciesFall2020.pdf) (PDF) and other University policies listed [here](https://nau.edu/university-policy-library/wp-content/uploads/sites/26/Syllabus-Policy-Statements.pdf) (PDF).  More policies can be found in other university documents, especially the [NAU Student Handbook](https://in.nau.edu/dean-of-students/Student-Handbook/) (see appendices) and the website of the [Student Outreach and Support](https://in.nau.edu/dean-of-students/nau-sos/) (SOS).
 
 As per Department Policy, cell phones, MP3 players and portable electronic communication devices, including but not limited to smart phones, cameras and recording devices, must be turned off and inaccessible during in-class tests. Any violation of this policy will be treated as academic dishonesty.
 

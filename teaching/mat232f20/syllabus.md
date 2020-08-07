@@ -41,7 +41,7 @@ layout: default
     <strong>Credits:</strong> 3<br />
     <strong>Section:</strong> 1<br />
     <strong>Time:</strong> 10:20-11:10AM MWF<br />
-    <strong>Location:</strong> AMB 225
+    <strong>Location:</strong> SAS 201A
     </div>
   </div>
 
