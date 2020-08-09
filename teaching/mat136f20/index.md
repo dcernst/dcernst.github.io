@@ -65,7 +65,8 @@ The primary objective of this course is to aid students in becoming confident an
   </div>
 
   <div class="col-xs-12 col-lg-5">
-  <div><img src="{{ site.baseurl }}/images/RiemannSum.png" class="img-responsive" /></div>
+  <div><br />
+  <img src="{{ site.baseurl }}/images/RiemannSum.png" class="img-responsive" /></div>
   </div>
 </div>
 
