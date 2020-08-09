@@ -174,11 +174,121 @@ I will not be covering every detail of the notes and the only way to achieve a s
 Reviewing material from previous courses and looking up definitions and theorems you may have forgotten is fair game. However, when it comes to completing assignments for this course, you should *not* look to resources outside the context of this course for help.  That is, you should not be consulting the web, other texts, other faculty, or students outside of our course in an attempt to find solutions to the problems you are assigned.  On the other hand, you may use each other, the textbook, me, and your own intuition. If you feel you need additional resources, please come talk to me and we will come up with an appropriate plan of action. Please read NAU's [Academic Integrity Policy](https://www5.nau.edu/policies/Client/Details/828?whoIsLooking=Students&pertainsTo=All&sortDirection=Ascending&page=1).
 
 ### Exams ###
-There will be 3 midterm exams and a cumulative final exam.  Exam 1 and Exam 2 will be written exams consisting of an in-class portion (weighted 70%) and a take-home portion (weighted 30%).  The in-class portion of Exam 1 is *tentatively* scheduled for **Wednesday, September 25** (week 5) and the take-home portion of the exam will be due on **Wednesday, October 2**.  The in-class portion of Exam 2 is *tentatively* scheduled for **Wednesday, November 6** (week 11) and the take-home portion of the exam will be due on **Wednesday, November 13**.  Each of Exam 1 and Exam 2 will be worth 20% of your overall grade. Exam 3 will be a 30-minute oral exam taken individually in my office sometime during the last two weeks of classes. Exam 3 will be worth 10% of your overall grade. The final exam will be on **Wednesday, December 11** at **7:30-9:30AM** and is worth 20% of your overall grade. The final exam may or may not have a take-home portion.  Make-up exams will only be given under extreme circumstances, as judged by me. In general, it will be best to communicate conflicts ahead of time.
+There will be 3 midterm exams and a cumulative final exam.  Exam 1 and Exam 2 will be written exams consisting of an in-class portion, and possibly a take-home portion.  The in-class portions of Exam 1 and Exam 2 are *tentatively* scheduled for **Wednesday, September 16** (week 6) and **Wednesday, October 21** (week 11), respectively. If there are take-home portions for either of these exams, you will have a few days to complete the take-home part.  Each of Exam 1 and Exam 2 will be worth 20% of your overall grade. Exam 3 will be a 30-minute oral exam taken individually with me (via Zoom or in my office, depending on how the semester proceeds) sometime during the last two weeks of classes (starting Monday, November 9). Exam 3 will be worth 10% of your overall grade. The final exam will be on **Monday, November 23** at 7:30-9:30AM and is worth 20% of your overall grade. As with the midterms, the final exam may or may not have a take-home portion.  Make-up exams will only be given under extreme circumstances, as judged by me. In general, it will be best to communicate conflicts ahead of time.
+
+<!-- There will be 3 midterm exams and a cumulative final exam.  Exam 1 and Exam 2 will be written exams consisting of an in-class portion (weighted 70%) and a take-home portion (weighted 30%).  The in-class portion of Exam 1 is *tentatively* scheduled for **Wednesday, September 25** (week 5) and the take-home portion of the exam will be due on **Wednesday, October 2**.  The in-class portion of Exam 2 is *tentatively* scheduled for **Wednesday, November 6** (week 11) and the take-home portion of the exam will be due on **Wednesday, November 13**.  Each of Exam 1 and Exam 2 will be worth 20% of your overall grade. Exam 3 will be a 30-minute oral exam taken individually in my office sometime during the last two weeks of classes. Exam 3 will be worth 10% of your overall grade. The final exam will be on **Wednesday, December 11** at **7:30-9:30AM** and is worth 20% of your overall grade. The final exam may or may not have a take-home portion.  Make-up exams will only be given under extreme circumstances, as judged by me. In general, it will be best to communicate conflicts ahead of time. -->
 
 ### Homework ###
 
-#### General Comments
+You are allowed and encouraged to work together on homework.  However, each student is expected to turn in his or her own work.  In general, late homework will *not* be accepted.  However, you are allowed to turn in three late homework assignments with no questions asked. Unless you have made arrangements in advance with me, homework turned in after class will be considered late. When doing your homework, I encourage you to consult the [Elements of Style for Proofs]({{site.baseurl}}/teaching/ElementsOfStyle.pdf). Your overall homework grade will be worth 15% of your final grade.
+
+On each homework assignment, please write (i) your name, (ii) name of course, and (iii) Homework number.  You can find the list of assignments on the [homework page]({{site.baseurl}}/teaching/mat411f20/homework/).  I reserve the right to modify the homework assignments as I see necessary.
+
+Homework will be assigned almost every class meeting, and students are expected to complete (or try their best to complete) each assignment before walking into the next class period. Homework will generally consist of completing exercises and proving theorems from the textbook.  In addition to completing the assigned problems, I also want you to assess your own work.  Next to each problem, I want you to write down a score between 0 and 4 that represents your perception of the validity and quality of your proposed solution/proof. Consider using the following rubric.  
+
+<center>
+<table class="table table-striped">
+	<thead>
+	<tr>
+		<th style="text-align: center;">Grade</th>
+		<th>Criteria</th>
+	</tr>
+	</thead>
+	<tbody>
+	<tr>
+		<td style="text-align: center;">4</td>
+		<td>This is correct and well-written mathematics!</td>
+	</tr>
+	<tr>
+		<td style="text-align: center;">3</td>
+		<td>This is a good piece of work, yet there are some mathematical errors or some writing errors that need addressing.</td>
+	</tr>
+	<tr>
+		<td style="text-align: center;">2</td>
+		<td>There is some good intuition here, but there is at least one serious flaw. </td>
+	</tr>
+	<tr>
+		<td style="text-align: center;">1</td>
+		<td>I don't understand this, but I see that you have worked on it; come see me!</td>
+	</tr>
+	<tr>
+		<td style="text-align: center;">0</td>
+		<td>I believe that you have not worked on this problem enough or you didn't submit any work.</td>
+	</tr>
+	</tbody>
+</table>
+</center>
+
+Not completing the self-assessment step may impact the score on your homework. On the day that a homework assignment is due, the majority of the class period will be devoted to students presenting some subset (maybe all) of the proofs/solutions that are due that day.  
+
+The following framework assumes that we will be in a remote setting. If we happen to return to face-to-face classes, we will adjust in a natural way. With a few exceptions, homework assignment will consist of two parts.
+
+**Part 1:** Prior to the start of class, you will need to capture your handwritten work digitally and then upload a PDF to BbLearn. There are many free smartphone apps for doing this. I use TurboScan on my iPhone. Submitting your work prior to class allows me to see what you accomplished outside of class. Part 1 will be assessed using the following rubric.
+
+<center>
+<table class="table table-striped">
+	<thead>
+	<tr>
+		<th style="text-align: center;">Grade</th>
+		<th>Criteria</th>
+	</tr>
+	</thead>
+	<tbody>
+	<tr>
+		<td style="text-align: center;">4</td>
+		<td>Sufficient effort was put into nearly all the problems.</td>
+	</tr>
+	<tr>
+		<td style="text-align: center;">2</td>
+		<td>Some problems were omitted and/or sufficient effort was not exhibited.</td>
+	</tr>
+	<tr>
+		<td style="text-align: center;">1</td>
+		<td>Many problems omitted and/or minimal effort exhibited.</td>
+	</tr>
+	<tr>
+		<td style="text-align: center;">0</td>
+		<td>Assignment was not turned in.</td>
+	</tr>
+	</tbody>
+</table>
+</center>
+
+**Part 2:** During class, we will discuss most of the problems that due that day. While we are discussing them, you should either annotate your work and/or take notes on separate paper. It's expected that most of the work you did prior to class will need to be refined. It is your responsibility to process this in some way. Annotating your work or taking notes will increase the chances that you are processing the work in a meaningful way. If you choose to annotate your work, **please use a different color** than what you originally used to complete your assignment.  After class, you will need to capture your annotations/notes digitally and then upload a PDF to BbLearn.
+
+Part 1 will be assessed using the following rubric.
+
+<center>
+<table class="table table-striped">
+	<thead>
+	<tr>
+		<th style="text-align: center;">Grade</th>
+		<th>Criteria</th>
+	</tr>
+	</thead>
+	<tbody>
+	<tr>
+		<td style="text-align: center;">2</td>
+		<td>Student annotated their work in a meaningful way and/or took sufficient notes.</td>
+	</tr>
+	<tr>
+		<td style="text-align: center;">1</td>
+		<td>Student annotated their work and/or took notes but effort and/or attention to detail was insufficient.</td>
+	</tr>
+	<tr>
+		<td style="text-align: center;">0</td>
+		<td>Student did not submit this portion of the assignment.</td>
+	</tr>
+	</tbody>
+</table>
+</center>
+
+<blockquote>
+<p>I write one page of masterpiece to ninety-one pages of shit.</p>
+<footer><a href="https://en.wikipedia.org/wiki/Ernest_Hemingway">Ernest Hemingway</a></footer>
+</blockquote>
+
+<!-- #### General Comments
 You are allowed and encouraged to work together on homework.  However, each student is expected to turn in his or her own work.  In general, late homework will *not* be accepted.  However, you are allowed to turn in three late homework assignments with no questions asked. Unless you have made arrangements in advance with me, homework turned in after class will be considered late. When doing your homework, I encourage you to consult the [Elements of Style for Proofs]({{site.baseurl}}/teaching/ElementsOfStyle.pdf). Your overall homework grade will be worth 15% of your final grade.
 
 On each homework assignment, please write (i) your name, (ii) name of course, and (iii) Daily/Weekly Homework number.  You can find the list of assignments on the [homework page]({{site.baseurl}}/teaching/mat411f20/homework/).  I reserve the right to modify the homework assignments as I see necessary.
@@ -229,13 +339,13 @@ In addition to the Daily Homework, we will also have Weekly Homework assignments
 	</tr>
 	</tbody>
 </table>
-</center>
+</center> -->
 
 ### Presentations and Participation ###
 
 #### General Comments
 
-The problems chosen for presentations will come from the Daily Homework assignments. Though the atmosphere in this class should be informal and friendly, what we do in the class is serious business. In particular, the presentations made by students are to be taken seriously since they spearhead the work of the class. Here are some of my expectations for the presenter:
+The problems chosen for presentations will come from the homework assignments. Though the atmosphere in this class should be informal and friendly, what we do in the class is serious business. In particular, the presentations made by students are to be taken seriously since they spearhead the work of the class. Here are some of my expectations for the presenter:
 
 - The purpose of class presentations is not to prove to me that the presenter has done the problem. It is to make the ideas of the solution clear to the other students.
 - Presenters should explain their reasoning as they go along, not simply write everything down and then turn to explain.
@@ -422,7 +532,7 @@ In summary, your final grade will be determined by your scores in the following 
 	<tr>
 		<td>Homework</td>
 		<td style="text-align: center;">15%</td>
-		<td>A combination of Daily &amp; Weekly Homework</td>
+		<td>See above for requirements</td>
 	</tr>
   <tr>
 		<td>Presentations &amp; Participation</td>
@@ -432,26 +542,31 @@ In summary, your final grade will be determined by your scores in the following 
 	<tr>
 		<td>Exam 1</td>
 		<td style="text-align: center;">20%</td>
-		<td>In-class portion (70%) and take-home portion (30%)</td>
+		<td>In-class portion on September 16, possible take-home portion</td>
 	</tr>
   <tr>
     <td>Exam 2</td>
     <td style="text-align: center;">20%</td>
-    <td>In-class portion (70%) and take-home portion (30%)</td>
+    <td>In-class portion on October 21, possible take-home portion</td>
   </tr>
   <tr>
     <td>Exam 3</td>
     <td style="text-align: center;">10%</td>
-    <td>Individual oral exam</td>
+    <td>Individual oral exam taken during last 2 weeks of semester</td>
   </tr>
 	<tr>
 		<td>Final Exam</td>
 		<td style="text-align: center;">20%</td>
-		<td>Wednesday, December 11 at 7:30-9:30AM</td>
+		<td>Monday, November 23 at 7:30-9:30AM</td>
 	</tr>
 	</tbody>
 </table>
 </center>
+
+<blockquote>
+<p>It is not the critic who counts; not the man who points out how the strong man stumbles, or where the doer of deeds could have done them better. The credit belongs to the man who is actually in the arena, whose face is marred by dust and sweat and blood; who strives valiantly; who errs, who comes short again and again, because there is no effort without error and shortcoming; but who does actually strive to do the deeds; who knows great enthusiasms, the great devotions; who spends himself in a worthy cause; who at the best knows in the end the triumph of high achievement, and who at the worst, if he fails, at least fails while daring greatly, so that his place shall never be with those cold and timid souls who neither know victory nor defeat.</p>
+<footer><a href="https://en.wikipedia.org/wiki/Theodore_Roosevelt">Theodore Roosevelt</a>, <a href="https://en.wikipedia.org/wiki/Citizenship_in_a_Republic">Citizenship in a Republic</a></footer>
+</blockquote>
 
 ### Department and University Policies ###
 You are responsible for knowing and following the [Department of Mathematics and Statistics Policies]({{ site.baseurl }}/teaching/DepartmentPoliciesFall2020.pdf) (PDF) and other University policies listed [here](https://nau.edu/university-policy-library/wp-content/uploads/sites/26/Syllabus-Policy-Statements.pdf) (PDF).  More policies can be found in other university documents, especially the [NAU Student Handbook](https://in.nau.edu/dean-of-students/Student-Handbook/) (see appendices) and the website of the [Student Outreach and Support](https://in.nau.edu/dean-of-students/nau-sos/) (SOS).
@@ -461,15 +576,16 @@ As per Department Policy, cell phones, MP3 players and portable electronic commu
 ### Important Dates ###
 Here are some important dates:
 
-- **Monday, September 2:** Labor Day (no classes)
-- **Thursday, September 5:** Last day to Drop/Delete a class (without class appearing on students' transcripts)
-- **Friday, November 1:** Course withdrawal deadline
-- **Monday, November 11:** Veteran's Day (no classes)
-- **Thursday, November 28-Friday, November 29:** Thanksgiving Break (no classes)
-- **Wednesday, December 11:** Final Exam
+- **Friday, August 21:** Last day to Drop courses without a "W"
+- **Monday, September 7:** Labor Day (no classes)
+- **Monday, October 19:** Last day to drop individual courses without a petition
+- **Wednesday, November 11:** Veteran's Day (no classes)
+- **Wednesday, November 11:** Last Day to withdraw from all classes in session
+- **Thursday, November 19:** Reading Day (no classes)
+- **Monday, November 23:** Final Exam (7:30-9:30AM)
 
 ### Getting Help ###
-There are many resources available to get help.  First, I recommend that you work on homework in small groups as much as possible and to come see me whenever necessary.  I am always happy to help you.  If my office hours don't work for you, then we can probably find another time to meet.  It is your responsibility to be aware of how well you understand the material.  Don't wait until it is too late if you need help.  *Ask questions*!  Lastly, you can always [email me](mailto:dana.ernst@nau.edu).
+There are many resources available to get help.  First, you are allowed and encouraged to work together on homework.  However, each student is expected to turn in his or her own work. You are strongly encouraged to ask questions in our Discord discussion group, as I (and hopefully other members of the class) will post comments there for all to benefit from.  You can also encouraged to stop by during my office hours and you can always [email me](mailto:dana.ernst@nau.edu).  I am always happy to help you.  If my office hours don't work for you, then we can probably find another time to meet.  It is your responsibility to be aware of how well you understand the material.  Don't wait until it is too late if you need help.  *Ask questions*!
 
 ### Changes to the Syllabus ###
 Any changes to this syllabus made during the term will be properly communicated to the class.

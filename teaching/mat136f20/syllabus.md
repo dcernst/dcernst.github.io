@@ -60,3 +60,29 @@ layout: default
 </div>
 
 Coming soon...
+
+## Important Dates ###
+Here are some important dates:
+
+- **Friday, August 21:** Last day to Drop courses without a "W"
+- **Monday, September 7:** Labor Day (no classes)
+- **Monday, October 19:** Last day to drop individual courses without a petition
+- **Wednesday, November 11:** Veteran's Day (no classes)
+- **Wednesday, November 11:** Last Day to withdraw from all classes in session
+- **Thursday, November 19:** Reading Day (no classes)
+- **Saturday, November 21:** Final Exam (12:30-2:30PM)
+
+### Getting Help ###
+There are many resources available to get help.  First, you are allowed and encouraged to work together on homework.  However, each student is expected to turn in his or her own work. You are strongly encouraged to ask questions in our Discord discussion group, as I (and hopefully other members of the class) will post comments there for all to benefit from.  You can also encouraged to stop by during my office hours and you can always [email me](mailto:dana.ernst@nau.edu).  I am always happy to help you.  If my office hours don't work for you, then we can probably find another time to meet.  It is your responsibility to be aware of how well you understand the material.  Don't wait until it is too late if you need help.  *Ask questions*!
+
+### Changes to the Syllabus ###
+Any changes to this syllabus made during the term will be properly communicated to the class.
+
+<blockquote>
+<p>If you want to sharpen a sword, you have to remove a little metal.</p>
+<footer><a href=" ">Unknown</a></footer>
+</blockquote>
+
+<div class="alert alert-info" role="alert">
+<i class="far fa-hand-peace"></i>&nbsp; The "Rights of the Learner" were adapted from a similar list written by <a href="https://embracinglifewithmajorrevisions.wordpress.com/2017/07/12/rights-of-the-learner-an-introduction/" class="alert-link">Crystal Kalinec-Craig</a>. The first paragraph of "Commitment to the Learning Community" is a modified version of statement that <a href="https://sbagleyteaches.wordpress.com" class="alert-link">Spencer Bagley</a> has in his syllabi. Lastly, I've borrowed a few phrases here and there from <a href="http://www.users.csbsju.edu/~bbenesh/" class="alert-link">Bret Benesh</a>.
+</div>
