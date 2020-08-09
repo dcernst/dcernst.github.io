@@ -57,13 +57,13 @@ Welcome to the course web page for the Fall 2020 manifestation of MAT 136: Calcu
 ### Purpose and Goals ###
 
 <div class="row">
-  <div class="col-xs-12 col-lg-8">
+  <div class="col-xs-12 col-lg-6">
     <div>
     <p>The primary objective of this course is to aid students in becoming confident and competent in solving problems that require techniques developed in calculus. Successful completion of MAT 136 provides students with skills necessary for upper division mathematics courses, such as MAT 137: Calculus II. In general, calculus is a study of functions. The main tools are differentiation, which measures instantaneous change in a function, and integration, which gauges the cumulative effect of that change. The crowning achievement of first semester calculus is the Fundamental Theorem of Calculus, which explains how differentiation and integration are related. Students will have a working understanding of limits and continuity. Students will also be able to utilize various techniques to differentiate and integrate numerous functions including trigonometric functions. In addition, students will understand and be able to apply the Mean Value Theorem, the First and Second Derivative Tests, and the Fundamental Theorem of Calculus in both theoretical problems and applications. Also, the purpose of any mathematics class is to challenge and train the mind. Learning mathematics enhances critical thinking and problem solving skills.</p>
     </div>
   </div>
 
-  <div class="col-xs-12 col-lg-4">
+  <div class="col-xs-12 col-lg-6">
   <div><img src="{{ site.baseurl }}/images/RiemannSum.png" class="img-responsive" /></div>
   </div>
 </div>
