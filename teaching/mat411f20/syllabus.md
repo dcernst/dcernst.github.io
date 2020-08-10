@@ -430,7 +430,7 @@ In summary, for each student presentation, I will record one of V, C, or P. In t
 
 #### Participation
 
-You are expected to respectfully participate and contribute to class discussions. This includes asking relevant and meaningful questions to both the instructor and your peers. Moreover, you are expected to be engaged and respectful during another student's presentation. Your class participation will be assessed as follows.
+You are expected to respectfully participate and contribute to class discussions. This includes asking relevant and meaningful questions to both the instructor and your peers. Moreover, you are expected to be engaged and respectful during another student's presentation. Posting questions and/or responses in our Discord server counts as class participation, but posting in Discord in not required. Your class participation will be assessed as follows.
 
 <center>
 <table class="table table-striped">
@@ -512,7 +512,7 @@ Only I will remain.</p>
 Regular attendance is expected and is vital to success in this course, but you will not explicitly be graded on attendance.  Yet, repeated absences may impact your participation grade (see above).  Students can find more information about NAU's attendance policy on the [Academic Policies](https://in.nau.edu/dean-of-students/academic-policies/) page.
 
 ### Extra Credit
-The only thing I will award extra credit for is finding typos on course materials (e.g., textbook, exams, syllabus, webpage).  This includes broken  links on the webpage.  However, it does not include the placement of commas and such.  If you find a typo, I will add one percentage point to your next exam.  You can earn at most two percentage points per exam and at most five percentage points over the course of the semester.
+The only thing I will award extra credit for is finding typos on course materials (e.g., textbook, exams, syllabus, webpage).  This includes broken  links on the webpage.  However, it does not include the placement of commas and such.  If you find a typo, I will add one percentage point to your next exam.  You can earn at most two percentage points per exam and at most five percentage points over the course of the semester. They're is a typo right here.
 
 ### Basis for Evaluation ###
 In summary, your final grade will be determined by your scores in the following categories.
