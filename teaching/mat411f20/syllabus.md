@@ -180,7 +180,7 @@ There will be 3 midterm exams and a cumulative final exam.  Exam 1 and Exam 2 wi
 
 ### Homework ###
 
-You are allowed and encouraged to work together on homework.  However, each student is expected to turn in his or her own work.  In general, late homework will *not* be accepted.  However, you are allowed to turn in three late homework assignments with no questions asked. Unless you have made arrangements in advance with me, homework turned in after class will be considered late. When doing your homework, I encourage you to consult the [Elements of Style for Proofs]({{site.baseurl}}/teaching/ElementsOfStyle.pdf). Your overall homework grade will be worth 15% of your final grade.
+You are allowed and encouraged to work together on homework.  However, each student is expected to turn in his or her own work.  In general, late homework will *not* be accepted.  However, you are allowed to turn in up to **three late homework assignments** with no questions asked. Unless you have made arrangements in advance with me, homework turned in after class will be considered late. When doing your homework, I encourage you to consult the [Elements of Style for Proofs]({{site.baseurl}}/teaching/ElementsOfStyle.pdf). Your overall homework grade will be worth 15% of your final grade.
 
 On each homework assignment, please write (i) your name, (ii) name of course, and (iii) Homework number.  You can find the list of assignments on the [homework page]({{site.baseurl}}/teaching/mat411f20/homework/).  I reserve the right to modify the homework assignments as I see necessary.
 
@@ -254,9 +254,7 @@ The following framework assumes that we will be in a remote setting. If we happe
 </table>
 </center>
 
-**Part 2:** During class, we will discuss most of the problems that due that day. While we are discussing them, you should either annotate your work and/or take notes on separate paper. It's expected that most of the work you did prior to class will need to be refined. It is your responsibility to process this in some way. Annotating your work or taking notes will increase the chances that you are processing the work in a meaningful way. If you choose to annotate your work, **please use a different color** than what you originally used to complete your assignment.  After class, you will need to capture your annotations/notes digitally and then upload a PDF to BbLearn.
-
-Part 1 will be assessed using the following rubric.
+**Part 2:** During class, we will discuss most of the problems that due that day. While we are discussing them, you should either annotate your work and/or take notes on separate paper. It's expected that most of the work you did prior to class will need to be refined. It is your responsibility to process this in some way. Annotating your work or taking notes will increase the chances that you are processing the work in a meaningful way. If you choose to annotate your work, **please use a different color** than what you originally used to complete your assignment.  After class, you will need to capture your annotations/notes digitally and then upload a PDF to BbLearn. Part 2 will be assessed using the following rubric.
 
 <center>
 <table class="table table-striped">

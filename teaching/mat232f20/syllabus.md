@@ -174,9 +174,9 @@ We will not be using a formal textbook this semester, but rather a problem seque
 Reviewing material from previous courses and looking up definitions and theorems/facts you may have forgotten is fair game. However, when it comes to completing assignments for this course, you should *not* look to resources outside the context of this course for help.  That is, you should not be consulting the web, other texts, other faculty, or students outside of our course in an attempt to find solutions to the problems you are assigned.  On the other hand, you may use each other, the course notes, me, and your own intuition. If you feel you need additional resources, please come talk to me and we will come up with an appropriate plan of action. Please read NAU's [Academic Integrity Policy](https://www5.nau.edu/policies/Client/Details/828?whoIsLooking=Students&pertainsTo=All&sortDirection=Ascending&page=1).
 
 ### Quizzes and Final Exam ###
-We will have 7 quizzes this semester. Tentatively, the quizzes are scheduled for the following Mondays:
+We will have 6 quizzes this semester. Tentatively, the quizzes are scheduled for the following Fridays:
 
-<!-- - Quiz 1: September 9 (week 3)
+<!-- - Quiz 1: September 9 (week 3) Note to self: quizzes were on Mondays previously. Better?
 - Quiz 2: September 23 (week 5)
 - Quiz 3: October 7 (week 7)
 - Quiz 4: October 21 (week 9)
@@ -184,15 +184,14 @@ We will have 7 quizzes this semester. Tentatively, the quizzes are scheduled for
 - Quiz 6: November 18 (week 13)
 - Quiz 7: December 2 (week 15) -->
 
-- Quiz 1: ???
-- Quiz 2: ???
-- Quiz 3: ???
-- Quiz 4: ???
-- Quiz 5: ???
-- Quiz 6: ???
-- Quiz 7: ???
+- Quiz 1: August 28 (week 3)
+- Quiz 2: September 11 (week 5)
+- Quiz 3: September 25 (week 7)
+- Quiz 4: October 9 (week 9)
+- Quiz 5: October 23 (week 11)
+- Quiz 6: November 6 (week 13)
 
-Each quiz will consist of a mixture of homework problems you encountered during the previous two weeks and new problems not previously attempted.   During each quiz, you will have the opportunity to collaborate with your peers for a few minutes.  The amount of time you have to collaborate will diminish over the semester. Each problem will be graded using the following rubric:
+Each quiz will consist of a mixture of homework problems you encountered during the previous two weeks and new problems not previously attempted.   During each quiz, you will have the opportunity to collaborate with your peers for a few minutes.  The amount of time you have to collaborate may diminish over the course of the semester. Each problem will be graded using the following rubric:
 
 <center>
 <table class="table table-striped">
@@ -227,14 +226,120 @@ Each quiz will consist of a mixture of homework problems you encountered during 
 </table>
 </center>
 
-Make-up quizzes will only be given under extreme circumstances, as judged by me. In general, it will be best to communicate conflicts ahead of time.  Your Quiz grade is worth 60% of your overall grade. We will also have a cumulative final exam that takes place on **Monday, December 9 at 10:00AM-12:00PM**.  Your Final Exam grade is worth 20% of your overall grade.
+Make-up quizzes will only be given under extreme circumstances, as judged by me. In general, it will be best to communicate conflicts ahead of time.  Each Quiz is worth 10% of your overall grade (Quizzes constitute 60% of your overall grade). We will also have a cumulative final exam that takes place on **Friday, November 20 at 10:00AM-12:00PM**.  Your Final Exam grade is worth 20% of your overall grade.
 
 ### Homework ###
-Homework will be assigned each class meeting, and you are expected to complete (or try your best to complete) each assignment before walking into the next class period. Homework assignments will generally consist of solving problems from the problem sequence.  Homework will be graded on a $\checkmark$-system. You are allowed (in fact, encouraged!) to modify your written solution in light of presentations made in class. However, **you are required to use the colored marker pens provided in class**. This will allow me to differentiate the work done in class versus the work you completed before class.  The grade you receive on an assignment will be determined by the work you completed prior to class.  I will provide more guidance with respect to this during the first couple weeks of the semester.
+You are allowed and encouraged to work together on homework.  However, each student is expected to turn in his or her own work.  In general, late homework will *not* be accepted.  However, you are allowed to turn in up to **three late homework assignments** with no questions asked. Unless you have made arrangements in advance with me, homework turned in after class will be considered late. Your overall homework grade will be worth 10% of your final grade.
+
+On each homework assignment, please write (i) your name, (ii) name of course, and (iii) Homework number.  You can find the list of assignments on the [homework page]({{site.baseurl}}/teaching/mat232f20/homework/).  I reserve the right to modify the homework assignments as I see necessary.
+
+Homework will be assigned almost every class meeting, and students are expected to complete (or try their best to complete) each assignment before walking into the next class period. Homework will generally consist of completing exercises and proving theorems from the textbook.  In addition to completing the assigned problems, I also want you to assess your own work.  Next to each problem, I want you to write down a score between 0 and 4 that represents your perception of the validity and quality of your proposed solution/proof. Consider using the following rubric.  
+
+<center>
+<table class="table table-striped">
+	<thead>
+	<tr>
+		<th style="text-align: center;">Grade</th>
+		<th>Criteria</th>
+	</tr>
+	</thead>
+	<tbody>
+	<tr>
+		<td style="text-align: center;">4</td>
+		<td>This is correct and well-written mathematics!</td>
+	</tr>
+	<tr>
+		<td style="text-align: center;">3</td>
+		<td>This is a good piece of work, yet there are some mathematical errors or some writing errors that need addressing.</td>
+	</tr>
+	<tr>
+		<td style="text-align: center;">2</td>
+		<td>There is some good intuition here, but there is at least one serious flaw. </td>
+	</tr>
+	<tr>
+		<td style="text-align: center;">1</td>
+		<td>I don't understand this, but I see that you have worked on it; come see me!</td>
+	</tr>
+	<tr>
+		<td style="text-align: center;">0</td>
+		<td>I believe that you have not worked on this problem enough or you didn't submit any work.</td>
+	</tr>
+	</tbody>
+</table>
+</center>
+
+Not completing the self-assessment step may impact the score on your homework. On the day that a homework assignment is due, the majority of the class period will be devoted to students presenting some subset (maybe all) of the proofs/solutions that are due that day.  
+
+The following framework assumes that we will be in a remote setting. If we happen to return to face-to-face classes, we will adjust in a natural way. With a few exceptions, homework assignment will consist of two parts.
+
+**Part 1:** Prior to the start of class, you will need to capture your handwritten work digitally and then upload a PDF to BbLearn. There are many free smartphone apps for doing this. I use TurboScan on my iPhone. Submitting your work prior to class allows me to see what you accomplished outside of class. Part 1 will be assessed using the following rubric.
+
+<center>
+<table class="table table-striped">
+	<thead>
+	<tr>
+		<th style="text-align: center;">Grade</th>
+		<th>Criteria</th>
+	</tr>
+	</thead>
+	<tbody>
+	<tr>
+		<td style="text-align: center;">4</td>
+		<td>Sufficient effort was put into nearly all the problems.</td>
+	</tr>
+	<tr>
+		<td style="text-align: center;">2</td>
+		<td>Some problems were omitted and/or sufficient effort was not exhibited.</td>
+	</tr>
+	<tr>
+		<td style="text-align: center;">1</td>
+		<td>Many problems omitted and/or minimal effort exhibited.</td>
+	</tr>
+	<tr>
+		<td style="text-align: center;">0</td>
+		<td>Assignment was not turned in.</td>
+	</tr>
+	</tbody>
+</table>
+</center>
+
+**Part 2:** During class, we will discuss most of the problems that due that day. While we are discussing them, you should either annotate your work and/or take notes on separate paper. It's expected that most of the work you did prior to class will need to be refined. It is your responsibility to process this in some way. Annotating your work or taking notes will increase the chances that you are processing the work in a meaningful way. If you choose to annotate your work, **please use a different color** than what you originally used to complete your assignment.  After class, you will need to capture your annotations/notes digitally and then upload a PDF to BbLearn. Part 2 will be assessed using the following rubric.
+
+<center>
+<table class="table table-striped">
+	<thead>
+	<tr>
+		<th style="text-align: center;">Grade</th>
+		<th>Criteria</th>
+	</tr>
+	</thead>
+	<tbody>
+	<tr>
+		<td style="text-align: center;">2</td>
+		<td>Student annotated their work in a meaningful way and/or took sufficient notes.</td>
+	</tr>
+	<tr>
+		<td style="text-align: center;">1</td>
+		<td>Student annotated their work and/or took notes but effort and/or attention to detail was insufficient.</td>
+	</tr>
+	<tr>
+		<td style="text-align: center;">0</td>
+		<td>Student did not submit this portion of the assignment.</td>
+	</tr>
+	</tbody>
+</table>
+</center>
+
+<blockquote>
+<p>I write one page of masterpiece to ninety-one pages of shit.</p>
+<footer><a href="https://en.wikipedia.org/wiki/Ernest_Hemingway">Ernest Hemingway</a></footer>
+</blockquote>
+
+<!-- Homework will be assigned each class meeting, and you are expected to complete (or try your best to complete) each assignment before walking into the next class period. Homework assignments will generally consist of solving problems from the problem sequence.  Homework will be graded on a $\checkmark$-system. You are allowed (in fact, encouraged!) to modify your written solution in light of presentations made in class. However, **you are required to use the colored marker pens provided in class**. This will allow me to differentiate the work done in class versus the work you completed before class.  The grade you receive on an assignment will be determined by the work you completed prior to class.  I will provide more guidance with respect to this during the first couple weeks of the semester.
 
 You are allowed and encouraged to work together on homework. Yet, each student is expected to turn in his or her own work. In general, late homework will not be accepted. However, you are allowed to turn in **up to three late homework assignments with no questions asked**. Unless you have made arrangements in advance with me, homework turned in after class will be considered late. When doing your homework, I encourage you to consult the [Elements of Style for Proofs]({{ site.baseurl }}/teaching/ElementsOfStyle.pdf) as a reference.
 
-All assignments should be carefully, clearly, and cleanly written. Among other things, this means your work should include proper grammar, punctuation, and spelling. Do yourself and me a favor and get in the habit of differentiating your scratch work from your submitted assignment.
+All assignments should be carefully, clearly, and cleanly written. Among other things, this means your work should include proper grammar, punctuation, and spelling. Do yourself and me a favor and get in the habit of differentiating your scratch work from your submitted assignment.-->x
 
 Please understand that the purpose of the homework assignments is to teach you to solve problems. It is not expected that you started the class with this skill; hence, some low grades are to be expected. However, I expect that everyone will improve dramatically. Your Homework grade is worth 10% of your overall grade.
 
@@ -327,7 +432,9 @@ If you are chosen to present but would prefer not to present that particular pro
 </table>
 </center>
 
-In summary, for each student presentation, I will record one of V, C, or P. In the case of V or C, I will also record one of U, I, M, or E based on the rubric given above. The most common pair will likely be CM (i.e., student was chosen to present and presentation met expectations).
+In summary, for each student presentation, I will record one of V, C, or P. In the case of V or C, I will also record one of U, I, M, or E based on the rubric given above.
+
+<!-- The most common pair will likely be CM (i.e., student was chosen to present and presentation met expectations). -->
 
 #### Participation
 
@@ -446,7 +553,7 @@ In summary, your final grade will be determined by your scores in the following 
 	<tr>
 		<td>Final Exam</td>
 		<td style="text-align: center;">20%</td>
-		<td>???</td>
+		<td>Friday, November 20 at 10:00AM-12:00PM</td>
 	</tr>
 	</tbody>
 </table>
