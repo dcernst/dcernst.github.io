@@ -38,7 +38,7 @@ layout: default
     <h3>Course Info</h3>
     <strong>Title:</strong> MAT 136: Calculus I<br />
     <strong>Semester:</strong> Fall 2020<br />
-    <strong>Credits:</strong> 3<br />
+    <strong>Credits:</strong> 4<br />
     <strong>Section:</strong> 14<br />
     <strong>Time:</strong> 1:50-2:40PM MWThF<br />
     <strong>Location:</strong> AMB 225
@@ -209,7 +209,9 @@ You are responsible for knowing and following the [Department of Mathematics and
 As per Department Policy, cell phones, MP3 players and portable electronic communication devices, including but not limited to smart phones, cameras and recording devices, must be turned off and inaccessible during in-class tests. Any violation of this policy will be treated as academic dishonesty.
 
 ### About Calculators and Other Technology ###
-I am a huge fan of technology and believe that when it is used appropriately, it can greatly enhance one's learning experience.  However, when learning, technology should never replace one's own amazing cognitive abilities.  When we are discussing concepts in class or when you are doing homework, you should feel free to use whatever resources you feel will help you understand the concepts better.  So, feel free to use things like [Sage](http://www.sagemath.org/), [Wolfram|Alpha](http://wolframalpha.com), [Mathematica](http://www.wolfram.com/mathematica/), your graphing calculator, etc. when doing homework.  However, on exams **you will not be allowed to use a calculator**.
+I am a huge fan of technology and believe that when it is used appropriately, it can greatly enhance one's learning experience.  However, when learning, technology should never replace one's own amazing cognitive abilities.  When we are discussing concepts in class or when you are doing homework, you should feel free to use whatever resources you feel will help you understand the concepts better.  So, feel free to use things like [Sage](http://www.sagemath.org/), [Wolfram|Alpha](http://wolframalpha.com), [Mathematica](http://www.wolfram.com/mathematica/), your graphing calculator, etc. when doing homework.  You will likely be able to use a calculator during exams. We will lay out some guidelines prior to the first exam.
+
+<!-- However, on exams **you will not be allowed to use a calculator**. -->
 
 Moreover, be warned that I am much more interested in the process by which you arrived at your answer than the answer itself.  An answer to a homework or exam question that is correct but lacks justification may be worth little to no points.  If you understand a concept, then barring a silly computational error, the correct answer comes along for the ride.  Yet, getting the correct answer does not imply that you understand anything!
 
