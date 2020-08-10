@@ -89,7 +89,12 @@ The notes will be released incrementally. Each link below is to a PDF file. If y
 - [Appendix C: Definitions in Mathematics]({{site.baseurl}}/teaching/mat411f20/Definitions.pdf)
 
 ## Miscellaneous Materials ##
-- [Student Contract]({{ site.baseurl }}/teaching/StudentContract.pdf) (PDF)
+<!-- - [Student Contract]({{ site.baseurl }}/teaching/StudentContract.pdf) (PDF) -->
+- Abstract Algebra videos
+    - [What is Abstract Algebra? &#124; Socratica](https://www.youtube.com/watch?v=IP7nW_hKB7I&list=PLi01XoE8jYoi3SgnnGorR_XOW3IcK-TP6) (3:21 min)
+    - [Abstract Algebra: The definition of a Group &#124; Socratica](https://www.youtube.com/watch?v=QudbrUcVPxk&list=PLi01XoE8jYoi3SgnnGorR_XOW3IcK-TP6&index=3) (3:10 min)
+    - [Abstract Algebra: Motivation for the definition of a group &#124; Socratica](https://www.youtube.com/watch?v=yHq_yzYZV6U&list=PLi01XoE8jYoi3SgnnGorR_XOW3IcK-TP6&index=4) (2:04 min)
+    - [Group Definition (expanded) - Abstract Algebra &#124; Socratica](https://www.youtube.com/watch?v=g7L_r6zw4-c&list=PLi01XoE8jYoi3SgnnGorR_XOW3IcK-TP6&index=2) (11:14 min)
 - [Setting the Stage]({{ site.baseurl }}/teaching/SettingTheStage.pdf) (PDF)
 - [Living Proof]({{site.baseurl}}/teaching/LivingProof.pdf)
 - [The Secret to Raising Smart Kids &#124; Carol Dweck](https://www.scientificamerican.com/article/the-secret-to-raising-smart-kids1/) (article on Scientific American)

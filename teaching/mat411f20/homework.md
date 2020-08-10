@@ -36,7 +36,7 @@ The following framework assumes that we will be in a remote setting. If we happe
 **Part 2:** During class, we will discuss most of the problems that due that day. While we are discussing them, you should either annotate your work and/or take notes on separate paper. It's expected that most of the work you did prior to class will need to be refined. It is your responsibility to process this in some way. Annotating your work or taking notes will increase the chances that you are processing the work in a meaningful way. If you choose to annotate your work, **please use a different color** than what you originally used to complete your assignment.  After class, you will need to capture your annotations/notes digitally and then upload a PDF to BbLearn. Part 2 will be assessed using the following rubric.
 
 ## Assignments ##
-Unless otherwise indicated, submit each of the following assignments via BbLearn. I reserve the right to modify the assignment if the need arises.  These exercises will form the basis of the student-led presentations. 
+Unless otherwise indicated, submit each of the following assignments via BbLearn. I reserve the right to modify the assignment if the need arises.  These exercises will form the basis of the student-led presentations.
 <!-- The following assignments are due at the beginning of the indicated class meeting. However, most assignments will be collected at the end of the class meeting.  I reserve the right to modify the assignment if the need arises.  These exercises will form the basis of the student-led presentations.  Daily assignments will be graded on a $\checkmark$-system.  During class, **you are only allowed and encouraged to annotate your homework using the colored marker pens that I provide**. -->
 
 - **Homework 1:** Read the [syllabus]({{site.baseurl}}/teaching/mat411f20/syllabus/) and write down 5 important items. Submit a PDF of your written work to the corresponding assignment on BbLearn. *Note:*  All of the exam dates only count as a single item.  (Due Friday, August 14)
@@ -75,19 +75,19 @@ Unless otherwise indicated, submit each of the following assignments via BbLearn
 - **Daily Homework 33:** Complete 8.9, 8.11, 8.15-8.17 in [Chapter 8: An Introduction to Rings]({{site.baseurl}}/teaching/mat411f20/Rings.pdf). (Due Wednesday, December 4)
 - **Daily Homework 34:** Complete 8.33, 8.36(a)(b), 8.38, 8.39 in [Chapter 8: An Introduction to Rings]({{site.baseurl}}/teaching/mat411f20/Rings.pdf). (Due Friday, December 6) -->
 
-## Weekly Homework ##
+<!-- ## Weekly Homework ##
 For most of the assignments below, you will be required to submit 2-3 formally written proofs. You are required to type your submission using LaTeX (see below).
-<!-- For most of the assignments below, you will be required to submit 2-3 formally written proofs. You are required to type your submission using LaTeX (see below).  You can either submit a hardcopy of your assignment or email me the PDF of your completed work. If you email me the PDF, please name your file as <code>WeeklyX-LastName.pdf</code>, where <code>X</code> is the number of the assignment and <code>LastName</code> is your last name.  Notice there are no spaces in the filename. -->
+<!-- For most of the assignments below, you will be required to submit 2-3 formally written proofs. You are required to type your submission using LaTeX (see below).  You can either submit a hardcopy of your assignment or email me the PDF of your completed work. If you email me the PDF, please name your file as <code>WeeklyX-LastName.pdf</code>, where <code>X</code> is the number of the assignment and <code>LastName</code> is your last name.  Notice there are no spaces in the filename. 
 
 - **Weekly Homework 1:** Coming soon.
 
-<!-- - **Weekly Homework 1:** Read <a href="https://www.scientificamerican.com/article/the-secret-to-raising-smart-kids1/">The Secret to Raising Smart Kids</a> by <a href="https://en.wikipedia.org/wiki/Carol_Dweck/">Carol Dweck</a> and <a href="https://www.turnaroundusa.org/7-things-growth-mindset-is-not/">7 Things Growth Mindset is Not</a>. Write a one-page summary/reflection about the article. For this assignment, I suggest you use the template on <a href="https://www.overleaf.com/">Overleaf</a> found <a href="https://www.overleaf.com/latex/templates/weekly-homework-1-for-reflection-on-the-secret-to-raising-smart-kids/wsqscmkyzrsr">here</a> instead of using the "Start your homework in Overleaf" link below. (Due Thursday, September 5 by 8PM)
+- **Weekly Homework 1:** Read <a href="https://www.scientificamerican.com/article/the-secret-to-raising-smart-kids1/">The Secret to Raising Smart Kids</a> by <a href="https://en.wikipedia.org/wiki/Carol_Dweck/">Carol Dweck</a> and <a href="https://www.turnaroundusa.org/7-things-growth-mindset-is-not/">7 Things Growth Mindset is Not</a>. Write a one-page summary/reflection about the article. For this assignment, I suggest you use the template on <a href="https://www.overleaf.com/">Overleaf</a> found <a href="https://www.overleaf.com/latex/templates/weekly-homework-1-for-reflection-on-the-secret-to-raising-smart-kids/wsqscmkyzrsr">here</a> instead of using the "Start your homework in Overleaf" link below. (Due Thursday, September 5 by 8PM)
 - **Weekly Homework 2:** Prove **two** of Theorems 2.29, 2.37, 2.39, 2.41, 2.42. You must type up your proofs using LaTeX.  I suggest you use my Overleaf template, which you can access by clicking the "Start your homework in Overleaf" link below. (Due Friday, September 13 by 8PM)
 - **Weekly Homework 3:** Prove **two** of Theorems 2.44, 2.45, 2.48(a), 2.48(b). You must type up your proofs using LaTeX.  (Due Thursday, September 19 by 8PM)
 - **Weekly Homework 4:** Prove **two** of Theorems 2.75, 2.76, 2.78, 3.19, 3.21. You must type up your proofs using LaTeX.  (Due Thursday, October 10 by 8PM)
 - **Weekly Homework 5:** Suppose $\phi:G_1\to G_2$ is a function between two groups that satisfies the homomorphic property (but may or may not be 1-1 or onto).  Prove that the set $\ker(\phi):=\\{g\in G_1\mid\phi(g)=e_2\\}$, (where $e_1$ and $e_2$ are the identities of $G_1$ and $G_2$, respectively) is a subgroup of $G_1$. You must type up your proofs using LaTeX.  (Due Thursday, October 17 by 8PM)
 - **Weekly Homework 6:** Prove **two** of Theorems 3.51, 3.52, 3.53, 3.54, 3.60, 3.64. You must type up your proofs using LaTeX.  (Due Thursday, October 24 by 8PM)
-- **Weekly Homework 7:** Prove **one** of Theorems 4.24, 4.28, 4.32, 4.42. You must type up your proofs using LaTeX.  (Due Thursday, October 31 by 8PM) -->
+- **Weekly Homework 7:** Prove **one** of Theorems 4.24, 4.28, 4.32, 4.42. You must type up your proofs using LaTeX.  (Due Thursday, October 31 by 8PM)
 
 ## Using LaTeX for Weekly Homework ##
 You are required to use LaTeX to type up your Weekly Homework assignments. The easiest way to get started with LaTeX is to use an online editor.  I recommend using [Overleaf](https://overleaf.com), but there are other options.  The good folks over at Overleaf have preloaded my homework template, so to get started, all you need to do is click the link below and then click on "Open as Template". Be sure to update your name and the course title.
@@ -96,4 +96,4 @@ You are required to use LaTeX to type up your Weekly Homework assignments. The e
 <a href="https://www.overleaf.com/latex/templates/weekly-homework-x/cbpdxbqknrvq" class="btn btn-primary btn-lg" role="button">Start your homework in Overleaf</a>
 </center>
 
-<br>
+<br> -->
