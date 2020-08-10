@@ -32,9 +32,9 @@ Unless a student has a documented excused absence, late homework will not be acc
 ## Daily Homework ##
 Most of the Daily Homework assignments are to be completed via [WeBWorK](https://webwork.math.nau.edu/), which is an online homework system. You should log in with your NAU credentials. Occasionally, an assignment will be submitted via [BbLearn](http://bblearn.nau.edu).
 
-- **Daily Homework 1:** Read the [syllabus]({{site.baseurl}}/teaching/mat136f20/syllabus/) and write down 5 important items.  *Note:*  All of the exam dates only count as a single item. Submit your work to BbLearn. (Due Friday, August 14)
-- **Daily Homework 3:** Create a free [Discord](http://discord.com) account and accept the invite to our Discord Channel. (Due Friday, August 14)
-- **Daily Homework 4:** Complete the corresponding problems on [WeBWorK](https://webwork.math.nau.edu/webwork2/DErnst_136/). (Due Friday, August 14)
+- **Daily Homework 1:** Read the [syllabus]({{site.baseurl}}/teaching/mat136f20/syllabus/) and write down 5 important items.  *Note:*  All of the exam dates only count as a single item. Submit your work to BbLearn. (Due Thursday, August 13)
+- **Daily Homework 2:** Create a free [Discord](http://discord.com) account, accept the invite to our Discord server, and post something about yourself in the #introductions channel. (Due Thursday, August 13)
+- **Daily Homework 3:** Complete the corresponding problems on [WeBWorK](https://webwork.math.nau.edu/webwork2/DErnst_136/). (Due Thursday, August 13)
 
 ## Weekly Homework ##
 For each of the Weekly Homework assignments, answer each of the indicated questions. To receive full credit on a problem, you must show sufficient work for each of your answers (unless stated otherwise).  How you reach your answer is more important than the answer itself. I expect your solutions to be *well-written*, *neat*, and *organized*.  Do not turn in rough drafts.  What you turn in should be the polished version of potentially several drafts. You should submit your work to the corresponding assignment on BbLearn. Most students will likely use pencil and paper to complete their assignment. In this case, you should scan your work as single PDF document. There are many free applications available for doing this on your smartphone. I use TurboScan on my iPhone.

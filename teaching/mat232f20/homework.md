@@ -26,19 +26,28 @@ title: Homework
 </div>
 </div>
 
-## Guidelines ##
+## Instructions ##
 On each homework assignment, please write (i) your name, (ii) name of course, and (iii) homework number. You are allowed and encouraged to work together on homework. Yet, each student is expected to turn in his or her own work. In general, late homework will not be accepted. However, you are allowed to turn in **up to three late homework assignments with no questions asked**.
-<!-- Unless you have made arrangements in advance with me, homework turned in after class will be considered late. When doing your homework, I encourage you to consult the [Elements of Style for Proofs]({{ site.baseurl }}/teaching/ElementsOfStyle.pdf) as a reference. -->
 
-## Homework ##
-The following assignments are due at the beginning of the indicated class meeting.  I reserve the right to modify the assignment if the need arises.  These exercises will form the basis of the student-led presentations.
+The following framework assumes that we will be in a remote setting. If we happen to return to face-to-face classes, we will adjust in a natural way. With a few exceptions, homework assignment will consist of two parts.
+
+**Part 1:** Prior to the start of class, you will need to capture your handwritten work digitally and then upload a PDF to BbLearn. There are many free smartphone apps for doing this. I use TurboScan on my iPhone. Submitting your work prior to class allows me to see what you accomplished outside of class. Part 1 will be assessed using the following rubric.
+
+**Part 2:** During class, we will discuss most of the problems that due that day. While we are discussing them, you should either annotate your work and/or take notes on separate paper. It's expected that most of the work you did prior to class will need to be refined. It is your responsibility to process this in some way. Annotating your work or taking notes will increase the chances that you are processing the work in a meaningful way. If you choose to annotate your work, **please use a different color** than what you originally used to complete your assignment.  After class, you will need to capture your annotations/notes digitally and then upload a PDF to BbLearn. Part 2 will be assessed using the following rubric.
+
+## Assignments ##
+Unless otherwise indicated, submit each of the following assignments via BbLearn. I reserve the right to modify the assignment if the need arises.  These exercises will form the basis of the student-led presentations.
 <!-- The following assignments are due at the beginning of the indicated class meeting. However, most assignments will be collected at the end of the class meeting.  I reserve the right to modify the assignment if the need arises.  These exercises will form the basis of the student-led presentations.  Daily assignments will be graded on a $\checkmark$-system.  During class, **you are only allowed and encouraged to annotate your homework using the colored marker pens that I provide**. -->
 
-<ul class="fa-ul">
+- **Homework 1:** Read the [syllabus]({{site.baseurl}}/teaching/mat232f20/syllabus/) and write down 5 important items. Submit a PDF of your written work to the corresponding assignment on BbLearn. *Note:*  All of the exam dates only count as a single item.  (Due Friday, August 14)
+- **Homework 2:** Create a free [Discord](http://discord.com) account, accept the invite to our Discord server, and post something about yourself in the #introductions channel. (Due Friday, August 14)
+- **Homework 3:** Coming soon. (Due Friday, August 14)
+
+<!--<ul class="fa-ul">
 <li><i class="fa-li fa fa-edit"></i><b>Homework 1:</b> Read the <a href="{{site.baseurl}}/teaching/mat232f20/syllabus/">syllabus</a> and write down 5 important items.  <i>Note:</i>  All of the quiz dates only count as a single item. (Due Friday, August 14)</li>
 <li><i class="fa-li fa fa-edit"></i><b>Homework 2:</b> Create a free <a href="http://discord.com">Discord</a> account and accept the invite to our Discord Channel. (Due Friday, August 14)</li>
 <li><i class="fa-li fa fa-edit"></i><b>Homework 3:</b> Complete Problems ??? from the <a href="https://dcernst.github.io/teaching/mat232f20/232ProblemCollection.pdf">Problem Collection</a>. (Due Friday, August 14)</li>
-<!-- <li><i class="fa-li fa fa-edit"></i><b>Homework 2:</b> Stop by my office (AMB 176) and say hello. If I'm not there, just slide a note under my door saying you stopped by. (Due by 5PM on Friday, August 30)</li>
+ <li><i class="fa-li fa fa-edit"></i><b>Homework 2:</b> Stop by my office (AMB 176) and say hello. If I'm not there, just slide a note under my door saying you stopped by. (Due by 5PM on Friday, August 30)</li>
 <li><i class="fa-li fa fa-edit"></i><b>Homework 3:</b> Complete Problems 1-4 from the <a href="https://dcernst.github.io/teaching/mat232f20/232ProblemCollection.pdf">Problem Collection</a>. (Due Wednesday, August 28)</li>
 <li><i class="fa-li fa fa-edit"></i><b>Homework 4:</b> Complete Problems 5 and 6 from the <a href="https://dcernst.github.io/teaching/mat232f20/232ProblemCollection.pdf">Problem Collection</a>. (Due Friday, August 30)</li>
 <li><i class="fa-li fa fa-edit"></i><b>Homework 5:</b> Watch "Grit: the power of passion and perseverance" and any other 4 videos listed under Growth Mindset and Productive Failure on the <a href="{{site.baseurl}}/teaching/mat232f20/materials/">Course Materials</a> page and then write a reflection that is at least 15 sentences long. You should list the videos you watched. Rather than reflecting on each video separately, try to reflect on growth mindset, productive failure, and grit, in general. <b>You are required to type your reflection.</b></li>
