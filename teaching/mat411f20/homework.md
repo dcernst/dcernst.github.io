@@ -31,9 +31,9 @@ On each homework assignment, please write (i) your name, (ii) name of course, an
 
 The following framework assumes that we will be in a remote setting. If we happen to return to face-to-face classes, we will adjust in a natural way. With a few exceptions, homework assignment will consist of two parts.
 
-**Part 1:** Prior to the start of class, you will need to capture your handwritten work digitally and then upload a PDF to BbLearn. There are many free smartphone apps for doing this. I use TurboScan on my iPhone. Submitting your work prior to class allows me to see what you accomplished outside of class. Part 1 will be assessed using the following rubric.
+**Part 1:** Prior to the start of class, you will need to capture your handwritten work digitally and then upload a PDF to BbLearn. There are many free smartphone apps for doing this. I use TurboScan on my iPhone. Submitting your work prior to class allows me to see what you accomplished outside of class. 
 
-**Part 2:** During class, we will discuss most of the problems that due that day. While we are discussing them, you should either annotate your work and/or take notes on separate paper. It's expected that most of the work you did prior to class will need to be refined. It is your responsibility to process this in some way. Annotating your work or taking notes will increase the chances that you are processing the work in a meaningful way. If you choose to annotate your work, **please use a different color** than what you originally used to complete your assignment.  After class, you will need to capture your annotations/notes digitally and then upload a PDF to BbLearn. Part 2 will be assessed using the following rubric.
+**Part 2:** During class, we will discuss most of the problems that due that day. While we are discussing them, you should either annotate your work and/or take notes on separate paper. It's expected that most of the work you did prior to class will need to be refined. It is your responsibility to process this in some way. Annotating your work or taking notes will increase the chances that you are processing the work in a meaningful way. If you choose to annotate your work, **please use a different color** than what you originally used to complete your assignment.  After class, you will need to capture your annotations/notes digitally and then upload a PDF to BbLearn.
 
 ## Assignments ##
 Unless otherwise indicated, submit each of the following assignments via BbLearn. I reserve the right to modify the assignment if the need arises.  These exercises will form the basis of the student-led presentations.
@@ -41,7 +41,7 @@ Unless otherwise indicated, submit each of the following assignments via BbLearn
 
 - **Homework 1:** Read the [syllabus]({{site.baseurl}}/teaching/mat411f20/syllabus/) and write down 5 important items. Submit a PDF of your written work to the corresponding assignment on BbLearn. *Note:*  All of the exam dates only count as a single item.  (Due Friday, August 14)
 - **Homework 2:** Create a free [Discord](http://discord.com) account, accept the invite to our Discord server, and post something about yourself in the #introductions channel. (Due Friday, August 14)
-- **Homework 3:** Read all of the [Preface]({{site.baseurl}}/teaching/mat411f20/Preface.pdf) and [Chapter 1: Introduction]({{site.baseurl}}/teaching/mat411f20/Introduction.pdf) of the course notes.  In addition, complete ??? in [Chapter 2: An Introduction to Groups]({{site.baseurl}}/teaching/mat411f20/IntroGroups.pdf) and digest the surrounding text along the way. (Due Friday, August 14)
+- **Homework 3:** Read all of the [Preface]({{site.baseurl}}/teaching/mat411f20/Preface.pdf) and [Chapter 1: Introduction]({{site.baseurl}}/teaching/mat411f20/Introduction.pdf) of the course notes.  In addition, complete 2.1-2.11 in [Chapter 2: An Introduction to Groups]({{site.baseurl}}/teaching/mat411f20/IntroGroups.pdf) and digest the surrounding text along the way. (Due Friday, August 14)
 
 
 <!-- - **Daily Homework 5:** Skim through [Appendix A: Elements of Style of Proof]({{site.baseurl}}/teaching/mat411f20/ElementsOfStyle.pdf) of the textbook. In addition, complete 2.12-2.14 in [Chapter 2: An Introduction to Groups]({{site.baseurl}}/teaching/mat411f20/IntroGroups.pdf) and digest the surrounding text along the way. (Due Friday, August 30)
@@ -77,7 +77,7 @@ Unless otherwise indicated, submit each of the following assignments via BbLearn
 
 <!-- ## Weekly Homework ##
 For most of the assignments below, you will be required to submit 2-3 formally written proofs. You are required to type your submission using LaTeX (see below).
-<!-- For most of the assignments below, you will be required to submit 2-3 formally written proofs. You are required to type your submission using LaTeX (see below).  You can either submit a hardcopy of your assignment or email me the PDF of your completed work. If you email me the PDF, please name your file as <code>WeeklyX-LastName.pdf</code>, where <code>X</code> is the number of the assignment and <code>LastName</code> is your last name.  Notice there are no spaces in the filename. 
+<!-- For most of the assignments below, you will be required to submit 2-3 formally written proofs. You are required to type your submission using LaTeX (see below).  You can either submit a hardcopy of your assignment or email me the PDF of your completed work. If you email me the PDF, please name your file as <code>WeeklyX-LastName.pdf</code>, where <code>X</code> is the number of the assignment and <code>LastName</code> is your last name.  Notice there are no spaces in the filename.
 
 - **Weekly Homework 1:** Coming soon.
 
