@@ -43,7 +43,7 @@ The notes will be released incrementally. Each link below is to a PDF file. If y
 <i class="fa fa-exclamation-triangle"></i>&nbsp; These notes are currently under construction and subject to change.
 </div>
 
-- [An Inquiry-Based Approach to Abstract Algebra]({{site.baseurl}}/teaching/mat411f20/IBL-AbstractAlgebra.pdf) (complete set of notes)
+<!-- - [An Inquiry-Based Approach to Abstract Algebra]({{site.baseurl}}/teaching/mat411f20/IBL-AbstractAlgebra.pdf) (complete set of notes) -->
 
 - [Title Page and Table of Contents]({{site.baseurl}}/teaching/mat411f20/FrontMatter.pdf)
 - [Preface]({{site.baseurl}}/teaching/mat411f20/Preface.pdf)
