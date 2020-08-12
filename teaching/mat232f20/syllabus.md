@@ -303,7 +303,7 @@ The following framework assumes that we will be in a remote setting. If we happe
 </table>
 </center>
 
-**Part 2:** During class, we will discuss most of the problems that due that day. While we are discussing them, you should either annotate your work and/or take notes on separate paper. It's expected that most of the work you did prior to class will need to be refined. It is your responsibility to process this in some way. Annotating your work or taking notes will increase the chances that you are processing the work in a meaningful way. If you choose to annotate your work, **please use a different color** than what you originally used to complete your assignment.  After class, you will need to capture your annotations/notes digitally and then upload a PDF to BbLearn. Part 2 will be assessed using the following rubric.
+**Part 2:** During class, we will discuss most of the problems that are due that day. While we are discussing them, you should either annotate your work and/or take notes on separate paper. It's expected that most of the work you did prior to class will need to be refined. It is your responsibility to process this in some way. Annotating your work or taking notes will increase the chances that you are processing the work in a meaningful way. If you choose to annotate your work, **please use a different color** than what you originally used to complete your assignment.  After class, you will need to capture your annotations/notes digitally and then upload a PDF to BbLearn. Part 2 will be assessed using the following rubric.
 
 <center>
 <table class="table table-striped">
