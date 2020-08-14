@@ -42,3 +42,4 @@ Unless otherwise indicated, submit each of the following assignments via BbLearn
 - **Homework 1:** Read the [syllabus]({{site.baseurl}}/teaching/mat232f20/syllabus/) and write down 5 important items. Submit a PDF of your written work to the corresponding assignment on BbLearn. *Note:*  All of the exam dates only count as a single item.  (Due Friday, August 14)
 - **Homework 2:** Create a free [Discord](http://discord.com) account, accept the invite to our Discord server, and post something about yourself in the #introductions channel. (Due Friday, August 14)
 - **Homework 3:** Complete Problems 1-4 from the [Problem Collection](https://dcernst.github.io/teaching/mat232f20/232ProblemCollection.pdf). (Due Friday, August 14)
+- **Homework 4:** Complete Problems 5-8 from the [Problem Collection](https://dcernst.github.io/teaching/mat232f20/232ProblemCollection.pdf). (Due Monday, August 17)
