@@ -37,7 +37,7 @@ We’ll use this page to keep track of what has happened each day in class. It w
 
 <ul class="fa-ul">
   <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, August 12:</b> First Day!  We spent the majority of the time discussing logistics.  In particular, we did a brief overview of Zoom (chat, raise/lower hand, thumbs up, breakout rooms, polling) and toured the course webpage and BbLearn. We spent a few minutes discussing the framework for homework, but I'm leaving the rest of the syllabus for students to read on their own.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, August 14:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, August 14:</b> Awesome first day of presentations!  After reviewing a few logistics items, we jumped into student presentations (with me acting as scribe).  We had RP/SS, FB/RL, JA, HG, and KB/BJ present Problems 2.1, 2.2, 2.3, 2.4, and 2.5, respectively.</li>
 </ul>
 
 ## Week 2 ##
