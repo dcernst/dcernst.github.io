@@ -37,6 +37,8 @@ Most of the Daily Homework assignments are to be completed via [WeBWorK](https:/
 - **Daily Homework 3:** Complete the corresponding problems on [WeBWorK](https://webwork.math.nau.edu/webwork2/DErnst_136/). (Due Thursday, August 13  by 8:00pm)
 - **Daily Homework 4:** Complete the corresponding problems on [WeBWorK](https://webwork.math.nau.edu/webwork2/DErnst_136/). (Due Saturday, August 15 by 8:00pm)
 - **Daily Homework 5:** Complete the corresponding problems on [WeBWorK](https://webwork.math.nau.edu/webwork2/DErnst_136/). (Due Monday, August 17 by 8:00pm)
+- **Daily Homework 6:** Complete the corresponding problems on [WeBWorK](https://webwork.math.nau.edu/webwork2/DErnst_136/). (Due Wednesday, August 19 by 8:00pm)
+
 
 <!-- https://www.youtube.com/watch?v=w3GV9pumczQ&list=PLi01XoE8jYogpKUjykd53HjG8a8ruDmW1&index=2&t=0s
 https://www.youtube.com/watch?v=O_cwTAfjgAQ&list=PLi01XoE8jYogpKUjykd53HjG8a8ruDmW1&index=2-->
@@ -44,4 +46,4 @@ https://www.youtube.com/watch?v=O_cwTAfjgAQ&list=PLi01XoE8jYogpKUjykd53HjG8a8ruD
 ## Weekly Homework ##
 For each of the Weekly Homework assignments, answer each of the indicated questions. To receive full credit on a problem, you must show sufficient work for each of your answers (unless stated otherwise).  How you reach your answer is more important than the answer itself. I expect your solutions to be *well-written*, *neat*, and *organized*.  Do not turn in rough drafts.  What you turn in should be the polished version of potentially several drafts. You should submit your work to the corresponding assignment on BbLearn. Most students will likely use pencil and paper to complete their assignment. In this case, you should scan your work as single PDF document. There are many free applications available for doing this on your smartphone. I use TurboScan on my iPhone.
 
-- **Weekly Homework 1:** Coming soon.
+- **Weekly Homework 1:** *Coming soon*. You will need to capture your handwritten work digitally and then upload a single PDF document (possibly with multiple pages) to BbLearn. There are many free smartphone apps for doing this. I use TurboScan on my iPhone. (Due Thursday, August 20 by 8pm)

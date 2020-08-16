@@ -43,3 +43,4 @@ Unless otherwise indicated, submit each of the following assignments via BbLearn
 - **Homework 2:** Create a free [Discord](http://discord.com) account, accept the invite to our Discord server, and post something about yourself in the #introductions channel. (Due Friday, August 14)
 - **Homework 3:** Complete Problems 1-4 from the [Problem Collection](https://dcernst.github.io/teaching/mat232f20/232ProblemCollection.pdf). (Due Friday, August 14)
 - **Homework 4:** Complete Problems 5-8 from the [Problem Collection](https://dcernst.github.io/teaching/mat232f20/232ProblemCollection.pdf). (Due Monday, August 17)
+- **Homework 5:** Complete Problems 9-11 from the [Problem Collection](https://dcernst.github.io/teaching/mat232f20/232ProblemCollection.pdf). (Due Wednesday, August 19)
