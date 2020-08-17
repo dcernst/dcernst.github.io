@@ -43,7 +43,7 @@ We’ll use this page to keep track of what has happened each day in class. It w
 ## Week 2 ##
 
 <ul class="fa-ul">
-  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, August 17:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, August 17:</b> Busy day!  We didn't quite get through everything, but we were productive nonetheless.  After a few quick announcements, I revisited Problem 4 (Sunny Day Juice Stand) and attempted to convince everyone that the amounts would be the same in each.  Next, we had MM, AR/NB, AS/KI, and MW present Problems 5(a), 5(b), 5(c), and 6, respectively.  We'll tackle Problems 7 and 8 next time.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, August 19:</b> Coming soon.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Friday, August 21:</b> Coming soon.</li>
 </ul>
