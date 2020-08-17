@@ -43,7 +43,7 @@ Unless otherwise indicated, submit each of the following assignments via BbLearn
 - **Homework 2:** Create a free [Discord](http://discord.com) account, accept the invite to our Discord server, and post something about yourself in the #introductions channel. (Due Friday, August 14)
 - **Homework 3:** Read all of the [Preface]({{site.baseurl}}/teaching/mat411f20/Preface.pdf) and [Chapter 1: Introduction]({{site.baseurl}}/teaching/mat411f20/Introduction.pdf) of the course notes.  In addition, complete 2.1-2.11 in [Chapter 2: An Introduction to Groups]({{site.baseurl}}/teaching/mat411f20/IntroGroups.pdf) and digest the surrounding text along the way. (Due Friday, August 14)
 - **Homework 4:** Complete 2.12-2.14 in [Chapter 2: An Introduction to Groups]({{site.baseurl}}/teaching/mat411f20/IntroGroups.pdf) and digest the surrounding text along the way. (Due Monday, August 17)
-- **Homework 5:** Complete 2.17-2.21 in [Chapter 2: An Introduction to Groups]({{site.baseurl}}/teaching/mat411f20/IntroGroups.pdf) and digest the surrounding text along the way. In addition, brainstorm and write down a game plan for how you can display your work to the class (i.e., phone as a doc camera, write on iPad and share screen, share PDF of written work, Google Doc, other). (Due Wednesday, August 19)
+- **Homework 5:** Complete 2.17 and 2.18 in [Chapter 2: An Introduction to Groups]({{site.baseurl}}/teaching/mat411f20/IntroGroups.pdf) and digest the surrounding text along the way. In addition, brainstorm and write down a game plan for how you can display your work to the class (i.e., phone as a doc camera, write on iPad and share screen, share PDF of written work, Google Doc, other). (Due Wednesday, August 19)
 
 <!-- ideas for presenting your work? -->
 
