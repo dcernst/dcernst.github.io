@@ -36,15 +36,15 @@ We’ll use this page to keep track of what has happened each day in class. It w
 ## Week 1 ##
 
 <ul class="fa-ul">
-  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, August 12:</b> Coming soon.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Thursday, August 13:</b> Coming soon.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, August 14:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, August 12:</b> First Day!  We spent the majority of the time discussing logistics.  In particular, we did a brief overview of Zoom (chat, raise/lower hand, thumbs up, breakout rooms, polling) and toured the course webpage and BbLearn.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Thursday, August 13:</b> After spending time discussing questions on the syllabus, we tackled several homework questions.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, August 14:</b> We kicked off by answering a couple homework questions and then I started Section 2.1: Rates of Change, Limits, and Tangent Lines. In particular, we discussed average rate of change and introduced instantaneous rate of change as the slope of the tangent line.</li>
 </ul>
 
 ## Week 2 ##
 
 <ul class="fa-ul">
-  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, August 17:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, August 17:</b> First, we wrapped up Section 2.1. This entailed understanding how to approximate the slope of a tangent line by using secant lines. This was followed by answering a couple homework questions. We spent the last bit of class getting started on Section 2.2: Limits: A Numerical and Graphical Approach.  We focused on a graphical approach.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, August 19:</b> Coming soon.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Thursday, August 20:</b> Coming soon.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Friday, August 21:</b> Coming soon.</li>
