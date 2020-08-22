@@ -45,7 +45,16 @@ We’ll use this page to keep track of what has happened each day in class. It w
 
 <ul class="fa-ul">
   <li><i class="fa-li far fa-calendar-check"></i><b>Monday, August 17:</b> First, we wrapped up Section 2.1. This entailed understanding how to approximate the slope of a tangent line by using secant lines. This was followed by answering a couple homework questions. We spent the last bit of class getting started on Section 2.2: Limits: A Numerical and Graphical Approach.  We focused on a graphical approach.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, August 19:</b> Coming soon.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Thursday, August 20:</b> Coming soon.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, August 21:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, August 19:</b> We wrapped up Section 2.2 and then answered a couple homework questions at the end.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Thursday, August 20:</b> We cranked through Section 2.3: Limit Laws.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, August 21:</b> We covered about half of Section 2.4: Limits and Continuity. At the very end, I answered a couple questions about homework.</li>
+</ul>
+
+## Week 3 ##
+
+<ul class="fa-ul">
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, August 24:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, August 26:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Thursday, August 27:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, August 28:</b> Coming soon.</li>
 </ul>
