@@ -47,3 +47,11 @@ We’ll use this page to keep track of what has happened each day in class. It w
   <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, August 19:</b> Another good day.After a few announcements, I reviewed the strategies for Problems 5 and 6. Next, we had NC, BW/BT, and KB present Problems 7, 8, and 9, respectively, although we didn't quite finish Problem 9.  We'll pick up there next time and tackle Problem 10, as well.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Friday, August 21:</b> Friday! We kicked off with KB wrapping up Problem 9 and then had AB and CB present Problems 10 and 11, respectively. We will catch up on Problem 12 next time.</li>
 </ul>
+
+## Week 3 ##
+
+<ul class="fa-ul">
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, August 24:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, August 26:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, August 28:</b> Coming soon.</li>
+</ul>

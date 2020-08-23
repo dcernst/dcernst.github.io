@@ -47,3 +47,11 @@ We’ll use this page to keep track of what has happened each day in class. It w
   <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, August 19:</b> Productive day!  We got caught up with some time to spare.  After a quick review of some key concepts, we had AA, JW, JB, AC, AS, and CH present Problems 2.12, 2.13(a), 2.13(b), 2.13(c), 2.14, and 2.18, respectively.  Along the way, I presented Problem 2.17.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Friday, August 21:</b> Friday!  After some chit chat about the potential of classes staying remote vs NAUFlex, I quickly summarized Problem 2.19 and then we jumped into student presentations.  We had JK, AL, SS, MK2, and KG present Problems 2.20, 2.21, 2.23, 2.26(a), and 2.26(b), respectively.  Along the way, I discussed Problems 2.22 and 2.24.</li>
 </ul>
+
+## Week 3 ##
+
+<ul class="fa-ul">
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, August 24:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, August 26:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, August 28:</b> Coming soon.</li>
+</ul>
