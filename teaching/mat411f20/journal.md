@@ -51,7 +51,7 @@ We’ll use this page to keep track of what has happened each day in class. It w
 ## Week 3 ##
 
 <ul class="fa-ul">
-  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, August 24:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, August 24:</b> I'm happy with what we got through today.  We had MK, MW, RP/MC, JA, RL, and IS present Problem 2.27, Problem 2.29, Theorem 2.29, Problem 2.31(a), Problem 2.31(b), and Problem 2.32, respectively. In the last few minutes, I reviewed the definition of group.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, August 26:</b> Coming soon.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Friday, August 28:</b> Coming soon.</li>
 </ul>
