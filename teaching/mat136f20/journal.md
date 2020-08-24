@@ -53,7 +53,7 @@ We’ll use this page to keep track of what has happened each day in class. It w
 ## Week 3 ##
 
 <ul class="fa-ul">
-  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, August 24:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, August 24:</b> I continued lecturing over Section 2.4: Limits and Continuity.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, August 26:</b> Coming soon.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Thursday, August 27:</b> Coming soon.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Friday, August 28:</b> Coming soon.</li>
