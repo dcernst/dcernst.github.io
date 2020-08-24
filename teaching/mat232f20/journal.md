@@ -51,7 +51,7 @@ We’ll use this page to keep track of what has happened each day in class. It w
 ## Week 3 ##
 
 <ul class="fa-ul">
-  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, August 24:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, August 24:</b> We got caught up and finished all the new stuff. Yay! We had ZW, CT, KC, and KF present Problems 12, 13, 14, and 15, respectively (although, we didn't do them in that order). Lots of good discussion today, even though most of the class was kind of quiet.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, August 26:</b> Coming soon.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Friday, August 28:</b> Coming soon.</li>
 </ul>
