@@ -50,7 +50,7 @@ Unless otherwise indicated, submit each of the following assignments via BbLearn
     - [What is Abstract Algebra? &#124; Socratica](https://www.youtube.com/watch?v=IP7nW_hKB7I&list=PLi01XoE8jYoi3SgnnGorR_XOW3IcK-TP6) (3:21 min)
     - [Abstract Algebra: The definition of a Group &#124; Socratica](https://www.youtube.com/watch?v=QudbrUcVPxk&list=PLi01XoE8jYoi3SgnnGorR_XOW3IcK-TP6&index=3) (3:10 min)
     - [Abstract Algebra: Motivation for the definition of a group &#124; Socratica](https://www.youtube.com/watch?v=yHq_yzYZV6U&list=PLi01XoE8jYoi3SgnnGorR_XOW3IcK-TP6&index=4) (2:04 min)
-
+- **Homework 9:** Complete 2.42-2.44, 2.47, 2.48 in [Chapter 2: An Introduction to Groups]({{site.baseurl}}/teaching/mat411f20/IntroGroups.pdf) and digest the surrounding text along the way. (Due Friday, August 26)
 
 <!-- https://www.youtube.com/watch?v=g7L_r6zw4-c&list=PLi01XoE8jYoi3SgnnGorR_XOW3IcK-TP6&index=2 -->
 
