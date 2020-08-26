@@ -52,6 +52,6 @@ We’ll use this page to keep track of what has happened each day in class. It w
 
 <ul class="fa-ul">
   <li><i class="fa-li far fa-calendar-check"></i><b>Monday, August 24:</b> I'm happy with what we got through today.  We had MK/AC, MW, RP/MC, JA, RL, and IS present Problem 2.27, Problem 2.29, Theorem 2.29, Problem 2.31(a), Problem 2.31(b), and Problem 2.32, respectively. In the last few minutes, I reviewed the definition of group.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, August 26:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, August 26:</b> After briefly discussing the potential plan for next week, we had KB, FB, and BJ present Problem 2.34, Theorem 2.37, and Theorem 2.39, respectively.  Along the way, I presented Problems 2.35, 2.36, and 2.38.  We didn't quite finish Theorem 2.39, so we will start with that next time.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Friday, August 28:</b> Coming soon.</li>
 </ul>
