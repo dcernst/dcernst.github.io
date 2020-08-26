@@ -52,6 +52,6 @@ We’ll use this page to keep track of what has happened each day in class. It w
 
 <ul class="fa-ul">
   <li><i class="fa-li far fa-calendar-check"></i><b>Monday, August 24:</b> We got caught up and finished all the new stuff. Yay! We had ZW, CT, KC, and KF present Problems 12, 13, 14, and 15, respectively (although, we didn't do them in that order). Lots of good discussion today, even though most of the class was kind of quiet.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, August 26:</b> Coming soon.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, August 28:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, August 26:</b> After chatting about the quiz on Friday and the plan for next week, we had UA, CH, TH, JV, and SV present Problems 16, 17(a), 17(b), 17(c), and 18, respectively.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, August 28:</b> The students took Quiz 1.</li>
 </ul>
