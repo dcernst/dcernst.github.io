@@ -55,6 +55,6 @@ We’ll use this page to keep track of what has happened each day in class. It w
 <ul class="fa-ul">
   <li><i class="fa-li far fa-calendar-check"></i><b>Monday, August 24:</b> I continued lecturing over Section 2.4: Limits and Continuity.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, August 26:</b> We wrapped up Section 2.4 and started Section 2.5: Evaluating Limit Algebraically.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Thursday, August 27:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Thursday, August 27:</b> We wrapped up Section 2.5 after discussing logistics for next week.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Friday, August 28:</b> Coming soon.</li>
 </ul>
