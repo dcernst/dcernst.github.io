@@ -51,9 +51,8 @@ Unless otherwise indicated, submit each of the following assignments via BbLearn
     - [Abstract Algebra: The definition of a Group &#124; Socratica](https://www.youtube.com/watch?v=QudbrUcVPxk&list=PLi01XoE8jYoi3SgnnGorR_XOW3IcK-TP6&index=3) (3:10 min)
     - [Abstract Algebra: Motivation for the definition of a group &#124; Socratica](https://www.youtube.com/watch?v=yHq_yzYZV6U&list=PLi01XoE8jYoi3SgnnGorR_XOW3IcK-TP6&index=4) (2:04 min)
 - **Homework 9:** Complete 2.42-2.44, 2.47, 2.48 in [Chapter 2: An Introduction to Groups]({{site.baseurl}}/teaching/mat411f20/IntroGroups.pdf) and digest the surrounding text along the way. (Due Friday, August 28)
-
-<!-- - **Homework 10:** Complete ??? in [Chapter 2: An Introduction to Groups]({{site.baseurl}}/teaching/mat411f20/IntroGroups.pdf) and digest the surrounding text along the way. In addition, watch the following Socratica video: (Due Monday, August 31)
-    - [Group Definition (expanded) - Abstract Algebra &#124; Socratica](https://www.youtube.com/watch?v=g7L_r6zw4-c&list=PLi01XoE8jYoi3SgnnGorR_XOW3IcK-TP6&index=2) (11:14 min) -->
+- **Homework 10:** Complete 2.49, 2.52, 2.55-2.57 in [Chapter 2: An Introduction to Groups]({{site.baseurl}}/teaching/mat411f20/IntroGroups.pdf) and digest the surrounding text along the way. In addition, watch the following Socratica video: (Due Monday, August 31)
+    - [Group Definition (expanded) - Abstract Algebra &#124; Socratica](https://www.youtube.com/watch?v=g7L_r6zw4-c&list=PLi01XoE8jYoi3SgnnGorR_XOW3IcK-TP6&index=2) (11:14 min)
 
 <!-- - **Daily Homework 5:** Skim through [Appendix A: Elements of Style of Proof]({{site.baseurl}}/teaching/mat411f20/ElementsOfStyle.pdf) of the textbook. In addition, complete 2.12-2.14 in [Chapter 2: An Introduction to Groups]({{site.baseurl}}/teaching/mat411f20/IntroGroups.pdf) and digest the surrounding text along the way. (Due Friday, August 30)
 - **Daily Homework 6:** Skim through [Appendix B: Fancy Mathematical Terms]({{site.baseurl}}/teaching/mat411f20/FancyMathematicalTerms.pdf) of the textbook. In addition, complete 2.17-2.21 in [Chapter 2: An Introduction to Groups]({{site.baseurl}}/teaching/mat411f20/IntroGroups.pdf) and digest the surrounding text along the way. (Due Wednesday, September 4)
