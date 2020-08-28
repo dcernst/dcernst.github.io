@@ -53,4 +53,4 @@ For each of the Weekly Homework assignments, answer each of the indicated questi
 
 - **Weekly Homework 1:** Complete the problems posted [here]({{site.baseurl}}/teaching/mat136f20/136Weekly1.pdf). You will need to capture your handwritten work digitally and then upload a single PDF document (possibly with multiple pages) to BbLearn (look in "Assignments Submitted via BbLearn" folder). There are many free smartphone apps for doing this. I use TurboScan on my iPhone. (Due Thursday, August 20 by 8pm)
 - **Weekly Homework 2:** Complete the problems posted [here]({{site.baseurl}}/teaching/mat136f20/136Weekly2.pdf). You will need to capture your handwritten work digitally and then upload a single PDF document (possibly with multiple pages) to BbLearn (look in "Assignments Submitted via BbLearn" folder). There are many free smartphone apps for doing this. I use TurboScan on my iPhone. (Due Thursday, August 27 by 8pm)
-- **Weekly Homework 3:** *Posted over weekend*. (Due Wednesday, September 2 by 8pm)
+- **Weekly Homework 3:** Complete the problems posted [here]({{site.baseurl}}/teaching/mat136f20/136Weekly3.pdf). (Due Wednesday, September 2 by 8pm)
