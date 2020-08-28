@@ -58,7 +58,7 @@ Below you will find notes and resources that we will utilize. We will add to the
 - [Is Mathematics Invented or Discovered? &#124; Roger Penrose](https://www.youtube.com/watch?v=TKlPj_qGIt8) (4:14 min)
 - [What is Mathematics? The Most Misunderstood Subject](https://www.fordham.edu/info/20603/what_math) (short article by Dr. Robert H. Lewis, Professor of Mathematics, Fordham University)
 - Quizzes:
-    - Coming soon.
+    - [Quiz 1]({{ site.baseurl }}/teaching/mat232f20/232Quiz1.pdf) (PDF)
 - Pictures of board work that we ran out of time to discuss. *Note:* You should not assume that the solutions/proofs posted below are valid or sufficient.
    - Coming soon.
 
