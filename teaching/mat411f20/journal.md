@@ -55,3 +55,11 @@ We’ll use this page to keep track of what has happened each day in class. It w
   <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, August 26:</b> After briefly discussing the potential plan for next week, we had KB, FB, and BJ present Problem 2.34, Theorem 2.37, and Theorem 2.39, respectively.  Along the way, I presented Problems 2.35, 2.36, and 2.38.  We didn't quite finish Theorem 2.39, so we will start with that next time.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Friday, August 28:</b> Maybe our best day yet! After BJ wrapped up Theorem 2.39, we had NC, JF, IV, EB/SS/IS, and AC present Problem 2.40, Theorem 2.41, Theorem 2.42, Theorem 2.43, and Theorem 2.44, respectively.</li>
 </ul>
+
+## Week 4 ##
+
+<ul class="fa-ul">
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, August 31:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, September 2:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, September 4:</b> Coming soon.</li>
+</ul>

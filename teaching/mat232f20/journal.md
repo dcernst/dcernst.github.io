@@ -55,3 +55,11 @@ We’ll use this page to keep track of what has happened each day in class. It w
   <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, August 26:</b> After chatting about the quiz on Friday and the plan for next week, we had UA, CH, TH, JV, and SV present Problems 16, 17(a), 17(b), 17(c), and 18, respectively.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Friday, August 28:</b> The students took Quiz 1.</li>
 </ul>
+
+## Week 4 ##
+
+<ul class="fa-ul">
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, August 31:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, September 2:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, September 4:</b> Coming soon.</li>
+</ul>

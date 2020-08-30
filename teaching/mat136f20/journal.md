@@ -58,3 +58,12 @@ We’ll use this page to keep track of what has happened each day in class. It w
   <li><i class="fa-li far fa-calendar-check"></i><b>Thursday, August 27:</b> We wrapped up Section 2.5 after discussing logistics for next week.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Friday, August 28:</b> I lectured over Section 2.6.</li>
 </ul>
+
+## Week 4 ##
+
+<ul class="fa-ul">
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, August 31:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, September 2:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Thursday, September 3:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, September 4:</b> Students took the in-class portion of Exam 1.</li>
+</ul>
