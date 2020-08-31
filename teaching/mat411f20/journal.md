@@ -59,7 +59,7 @@ We’ll use this page to keep track of what has happened each day in class. It w
 ## Week 4 ##
 
 <ul class="fa-ul">
-  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, August 31:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, August 31:</b> First day having a mix of face-to-face students and remote students.  I'd say it wasn't awful.  Wearing a mask for two hours straight is tough (but necessary!). After I sketched the proofs of the three parts of Theorem 2.47, we had MJ, MK, and JB present Problem 2.48, Problem 2.49, and Theorem 2.52. Hopefully, we will get caught up or close to it next time.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, September 2:</b> Coming soon.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Friday, September 4:</b> Coming soon.</li>
 </ul>

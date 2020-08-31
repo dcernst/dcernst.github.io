@@ -59,7 +59,7 @@ We’ll use this page to keep track of what has happened each day in class. It w
 ## Week 4 ##
 
 <ul class="fa-ul">
-  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, August 31:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, August 31:</b> First day having a mix of face-to-face students and remote students.  I'd say it wasn't awful.  Wearing a mask for two hours straight is tough (but necessary!). We cranked through quite a bit today. We had SG, AR, JY, DZ, KB, ZW, and TH present Problems 19, 20(a), 20(b), 20(c), 20(d), 20(d), and 21, respectively.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, September 2:</b> Coming soon.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Friday, September 4:</b> Coming soon.</li>
 </ul>
