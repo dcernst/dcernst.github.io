@@ -63,7 +63,7 @@ We’ll use this page to keep track of what has happened each day in class. It w
 
 <ul class="fa-ul">
   <li><i class="fa-li far fa-calendar-check"></i><b>Monday, August 31:</b> We wrapped up Section 2.6 and cranked through Section 2.7: Limits at Infinity.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, September 2:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, September 2:</b> I did one more example from Section 2.7 and then started Sections 3.1/3.2, which introduce derivatives.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Thursday, September 3:</b> Coming soon.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Friday, September 4:</b> Students took the in-class portion of Exam 1.</li>
 </ul>
