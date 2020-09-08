@@ -61,5 +61,13 @@ We’ll use this page to keep track of what has happened each day in class. It w
 <ul class="fa-ul">
   <li><i class="fa-li far fa-calendar-check"></i><b>Monday, August 31:</b> First day having a mix of face-to-face students and remote students.  I'd say it wasn't awful.  Wearing a mask for two hours straight is tough (but necessary!). After I sketched the proofs of the three parts of Theorem 2.47, we had MJ, MK, and JB present Problem 2.48, Problem 2.49, and Theorem 2.52. Hopefully, we will get caught up or close to it next time.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, September 2:</b> I got thrown off my game with some technology issues before class started, but I think we managed just fine.  We had ZM, MW, JK, AL, AB, AA, EB, and NC present Problems 2.55, 2.56(abc), 2.56(d), 2.56(e), 2.57, 2.58(ab), 2.58(cd), and 2.58(e), respectively.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, September 4:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, September 4:</b> We had CH, HG, AS, MJ, NC, KG, MC, SS, and JW present Problems 2.58(f), 2.59, 2.60, 2.61(a), 2.61(b), 2.61(c), 2.62, 2.63, and 2.64, respectively.</li>
+</ul>
+
+## Week 5 ##
+
+<ul class="fa-ul">
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, September 7:</b> Labor Day. No classes!</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, September 9:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, September 11:</b> Coming soon.</li>
 </ul>

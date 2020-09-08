@@ -61,5 +61,13 @@ We’ll use this page to keep track of what has happened each day in class. It w
 <ul class="fa-ul">
   <li><i class="fa-li far fa-calendar-check"></i><b>Monday, August 31:</b> First day having a mix of face-to-face students and remote students.  I'd say it wasn't awful.  Wearing a mask for two hours straight is tough (but necessary!). We cranked through quite a bit today. We had SG, AR, JY, DZ, KB, ZW, and TH present Problems 19, 20(a), 20(b), 20(c), 20(d), 20(d), and 21, respectively.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, September 2:</b> Some battling with technology today, but we managed okay.  After revisiting Problem 21 from last time, we had KF, AS, RR, KB, MK, CB, JC, and AR present Problems 22, 23(a), 23(b), 23(c), 24(b), 24(c), 24(d), and 24(a), respectively.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, September 4:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, September 4:</b> We had UA, MW, CB, KI, MM, and NB present Problems 25, 26(a), 26(b), 26(c), 26(d), and 27, respectively.</li>
+</ul>
+
+## Week 5 ##
+
+<ul class="fa-ul">
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, September 7:</b> Labor Day. No classes!</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, September 9:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, September 11:</b> Coming soon.</li>
 </ul>

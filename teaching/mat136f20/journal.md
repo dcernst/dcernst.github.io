@@ -67,3 +67,12 @@ We’ll use this page to keep track of what has happened each day in class. It w
   <li><i class="fa-li far fa-calendar-check"></i><b>Thursday, September 3:</b> We spent a few minutes more on Sections 3.1/3.2 and then reviewed for the exam.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Friday, September 4:</b> Students took the in-class portion of Exam 1.</li>
 </ul>
+
+## Week 5 ##
+
+<ul class="fa-ul">
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, September 7:</b> Labor Day. No classes!</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, September 9:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Thursday, September 10:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, September 11:</b> Coming soon.</li>
+</ul>
