@@ -55,7 +55,7 @@ Unless otherwise indicated, submit each of the following assignments via BbLearn
     - [Group Definition (expanded) - Abstract Algebra &#124; Socratica](https://www.youtube.com/watch?v=g7L_r6zw4-c&list=PLi01XoE8jYoi3SgnnGorR_XOW3IcK-TP6&index=2) (11:14 min)
 - **Homework 11:** Complete 2.57-2.60 in [Chapter 2: An Introduction to Groups]({{site.baseurl}}/teaching/mat411f20/IntroGroups.pdf) and digest the surrounding text along the way. (Due Wednesday, September 2)
 - **Homework 12:** Complete 2.61-2.66 in [Chapter 2: An Introduction to Groups]({{site.baseurl}}/teaching/mat411f20/IntroGroups.pdf) and digest the surrounding text along the way. (Due Friday, September 4)
-- **Homework 13:** Complete 2.67-2.68, 2.71, 2.72 in [Chapter 2: An Introduction to Groups]({{site.baseurl}}/teaching/mat411f20/IntroGroups.pdf) and digest the surrounding text along the way. (Due Wednesday, September 9)
+- **Homework 13:** Complete 2.67-2.69, 2.71, 2.72 in [Chapter 2: An Introduction to Groups]({{site.baseurl}}/teaching/mat411f20/IntroGroups.pdf) and digest the surrounding text along the way. (Due Wednesday, September 9)
 - **Homework 14:** Complete 2.73. 2.74, 2.78-2.82 (optional: 2.75, 2.76, 2.77) in [Chapter 2: An Introduction to Groups]({{site.baseurl}}/teaching/mat411f20/IntroGroups.pdf) and digest the surrounding text along the way. (Due Friday, September 11)
 
 <!-- - **Daily Homework 5:** Skim through [Appendix A: Elements of Style of Proof]({{site.baseurl}}/teaching/mat411f20/ElementsOfStyle.pdf) of the textbook. In addition, complete 2.12-2.14 in [Chapter 2: An Introduction to Groups]({{site.baseurl}}/teaching/mat411f20/IntroGroups.pdf) and digest the surrounding text along the way. (Due Friday, August 30)
