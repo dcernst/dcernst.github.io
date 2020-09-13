@@ -540,7 +540,7 @@ In summary, your final grade will be determined by your scores in the following 
 	<tr>
 		<td>Exam 1</td>
 		<td style="text-align: center;">20%</td>
-		<td>In-class portion on <s>September 16</s> September 16, possible take-home portion</td>
+		<td>In-class portion on <s>September 16</s> September 18, possible take-home portion</td>
 	</tr>
   <tr>
     <td>Exam 2</td>
