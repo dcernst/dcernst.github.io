@@ -60,8 +60,7 @@ The notes will be released incrementally. Each link below is to a PDF file. If y
     - 2.4 Generating Sets
     - 2.5 Group Tables
     - 2.6 Cayley Diagrams
-- Chapter 3: Subgroups and Isomorphisms
-<!-- - [Chapter 3: Subgroups and Isomorphisms]({{site.baseurl}}/teaching/mat411f20/SubgroupsIsomorphisms.pdf) -->
+- [Chapter 3: Subgroups and Isomorphisms]({{site.baseurl}}/teaching/mat411f20/SubgroupsIsomorphisms.pdf)
     - 3.1 Subgroups
     - 3.2 Subgroup Lattices
     - 3.3 Isomorphisms
