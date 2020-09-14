@@ -71,3 +71,11 @@ We’ll use this page to keep track of what has happened each day in class. It w
   <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, September 9:</b> We kicked off with BT revisiting Problem 24(c), so that we could address something that I said last time that wasn't quite right.  Next, we had BW, JV, and CH present Problems 28, 29, and 30, respectively.  We had some technical issues during Problem 30, but I think it worked out okay. At the end, I revisited Problem 27 to make some useful observations about winning versus losing positions in combinatorial games.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Friday, September 11:</b> The students took Quiz 2.</li>
 </ul>
+
+## Week 6 ##
+
+<ul class="fa-ul">
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, September 14:</b> After discussing Problem B.3 from Quiz 2, we had AB, SG, and DZ/KB present Problems 31, 32, and 33, respectively.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, September 16:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, September 18:</b> Coming soon.</li>
+</ul>

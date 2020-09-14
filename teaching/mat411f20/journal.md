@@ -71,3 +71,11 @@ We’ll use this page to keep track of what has happened each day in class. It w
   <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, September 9:</b> We briefly discussed the upcoming exam and then reviewed Problem 2.64. Next, we had RP, JA, HG, JF, and FB present Theorem 2.65, Problem 2.66, Problem 2.67, Problem 2.68, and Problem 2.71, respectively.  Along the way, I presented Problem 2.69 and discussed some of the Cayley diagrams in Problem 2.72.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Friday, September 11:</b> After a quick discussion of next week's exam, we had AC, MJ, and ZM present Problems 2.73, 2.78, and 2.79, respectively.  Along the way, I revisited Problem 2.72 and discussed Problem 2.74.</li>
 </ul>
+
+## Week 6 ##
+
+<ul class="fa-ul">
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, September 14:</b> We had AS and MW present Problems 2.80 and 2.81, respectively. I led discussions on Theorem 2.76, Theorem 2.77, Problem 2.82, Problem 3.1, Problem 3.2 and Problem 3.3. We will catch up on Problem 3.5 next time.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, September 16:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, September 18:</b> Students took Part 1 of Exam 1.</li>
+</ul>
