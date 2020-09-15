@@ -53,3 +53,4 @@ Unless otherwise indicated, submit each of the following assignments via BbLearn
 - **Homework 12:** Complete Problems 28-30 from the [Problem Collection](https://dcernst.github.io/teaching/mat232f20/232ProblemCollection.pdf). (Due Wednesday, September 9)
 - **Homework 13:** Complete Problems 31-33 from the [Problem Collection](https://dcernst.github.io/teaching/mat232f20/232ProblemCollection.pdf). (Due Monday, September 14)
 - **Homework 14:** Complete Problems 34-37 from the [Problem Collection](https://dcernst.github.io/teaching/mat232f20/232ProblemCollection.pdf). (Due Wednesday, September 16)
+- **Homework 15:** Complete Problems 38-40 from the [Problem Collection](https://dcernst.github.io/teaching/mat232f20/232ProblemCollection.pdf). (Due Friday, September 18)
