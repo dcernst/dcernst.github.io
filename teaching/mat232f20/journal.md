@@ -76,6 +76,6 @@ We’ll use this page to keep track of what has happened each day in class. It w
 
 <ul class="fa-ul">
   <li><i class="fa-li far fa-calendar-check"></i><b>Monday, September 14:</b> After discussing Problem B.3 from Quiz 2, we had AB, SG, and DZ/KB present Problems 31, 32, and 33, respectively.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, September 16:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, September 16:</b> Lots of good stuff today! We had KF/SV, CF, RR, and JY present Problems 34(algebra/visual), 35, 36, and 37, respectively.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Friday, September 18:</b> Coming soon.</li>
 </ul>

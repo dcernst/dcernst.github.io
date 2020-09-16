@@ -76,6 +76,6 @@ We’ll use this page to keep track of what has happened each day in class. It w
 
 <ul class="fa-ul">
   <li><i class="fa-li far fa-calendar-check"></i><b>Monday, September 14:</b> We had AS and MW present Problems 2.80 and 2.81, respectively. I led discussions on Theorem 2.76, Theorem 2.77, Problem 2.82, Problem 3.1, Problem 3.2 and Problem 3.3. We will catch up on Problem 3.5 next time.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, September 16:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, September 16:</b> Super productive day.  We had BJ, MK, AL, AB, IV, and FB present Problem 3.5, Theorem 3.6, Theorem 3.7, Problem 3.8, Theorem 3.9, and Theorem 3.10, respectively.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Friday, September 18:</b> Students took Part 1 of Exam 1.</li>
 </ul>
