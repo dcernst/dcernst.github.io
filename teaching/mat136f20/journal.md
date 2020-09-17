@@ -82,6 +82,6 @@ We’ll use this page to keep track of what has happened each day in class. It w
 <ul class="fa-ul">
   <li><i class="fa-li far fa-calendar-check"></i><b>Monday, September 14:</b> I lectured over Section 3.7: The Chain Rule. We will go back to Sections 3.6 and 3.5 over the next few days.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, September 16:</b> We discussed Section 3.6, which introduced the derivatives of the 6 trigonometric functions.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Thursday, September 17:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Thursday, September 17:</b> I covered Section 3.5: Higher Derivatives.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Friday, September 18:</b> Coming soon.</li>
 </ul>
