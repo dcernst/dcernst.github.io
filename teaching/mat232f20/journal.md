@@ -79,3 +79,11 @@ We’ll use this page to keep track of what has happened each day in class. It w
   <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, September 16:</b> Lots of good stuff today! We had KF/SV, CF, RR, and JY present Problems 34(algebra/visual), 35, 36, and 37, respectively.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Friday, September 18:</b> We had CT, MK/BW/JV, and NC/KB present Problems 38, 39, and 40, respectively.  Problem 39 was left hanging a little bit, but that was mostly my fault.  I also spent some time discussing Problem 41.</li>
 </ul>
+
+## Week 7 ##
+
+<ul class="fa-ul">
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, September 21:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, September 23:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, September 25:</b> The students took Quiz 3.</li>
+</ul>

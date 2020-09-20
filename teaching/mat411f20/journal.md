@@ -79,3 +79,11 @@ We’ll use this page to keep track of what has happened each day in class. It w
   <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, September 16:</b> Super productive day.  We had BJ, MK, AL, AB, IV, and FB present Problem 3.5, Theorem 3.6, Theorem 3.7, Problem 3.8, Theorem 3.9, and Theorem 3.10, respectively.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Friday, September 18:</b> Students took Part 1 of Exam 1.</li>
 </ul>
+
+## Week 7 ##
+
+<ul class="fa-ul">
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, September 21:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, September 23:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, September 25:</b> Coming soon.</li>
+</ul>
