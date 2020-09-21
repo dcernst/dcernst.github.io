@@ -83,7 +83,7 @@ We’ll use this page to keep track of what has happened each day in class. It w
 ## Week 7 ##
 
 <ul class="fa-ul">
-  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, September 21:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, September 21:</b> After revisiting Problem 40 (pancake sort), we had UA/BT, CT, CH, KI/KF, and MM present Problems 41, 42(a), 42(b), 42(c), and 42(d), respectively.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, September 23:</b> Coming soon.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Friday, September 25:</b> The students took Quiz 3.</li>
 </ul>
