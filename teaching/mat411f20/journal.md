@@ -83,7 +83,7 @@ We’ll use this page to keep track of what has happened each day in class. It w
 ## Week 7 ##
 
 <ul class="fa-ul">
-  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, September 21:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, September 21:</b> While the students are working on the take-home portion of Exam 1, I will lecture this week.  I discussed 3.11 through part of 3.16.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, September 23:</b> Coming soon.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Friday, September 25:</b> Coming soon.</li>
 </ul>
