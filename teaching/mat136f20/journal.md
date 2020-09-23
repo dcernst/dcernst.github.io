@@ -90,7 +90,7 @@ We’ll use this page to keep track of what has happened each day in class. It w
 
 <ul class="fa-ul">
   <li><i class="fa-li far fa-calendar-check"></i><b>Monday, September 21:</b> We wrapped up Section 3.8 Implicit Differentiation.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, September 23:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, September 23:</b> I lectured over Section 3.9: Derivatives of Exponentials and Logarithms.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Thursday, September 24:</b> Coming soon.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Friday, September 25:</b> Coming soon.</li>
 </ul>
