@@ -60,6 +60,7 @@ Below you will find notes and resources that we will utilize. We will add to the
 - Quizzes:
     - [Quiz 1]({{ site.baseurl }}/teaching/mat232f20/232Quiz1.pdf) (PDF)
     - [Quiz 2]({{ site.baseurl }}/teaching/mat232f20/232Quiz2.pdf) (PDF)
+    - [Quiz 3]({{ site.baseurl }}/teaching/mat232f20/232Quiz3.pdf) (PDF)
 
 <blockquote>
   <p>Don’t just read it; fight it! Ask your own questions, look for your own examples, discover your own proofs. Is the hypothesis necessary? Is the converse true? What happens in the classical special case? What about the degenerate cases? Where does the proof use the hypothesis?</p>
