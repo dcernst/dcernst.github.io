@@ -33,8 +33,10 @@ Below you will find notes and handouts that we have used in class, as well as so
 - [Are You Ready for Calculus? Questions]({{ site.baseurl }}/teaching/136ReadyCalculusQuestions.pdf)
 - [Are You Ready for Calculus? Answers]({{ site.baseurl }}/teaching/136ReadyCalculusAnswers.pdf)
 - [Calculus Applets with GeoGebra](http://dcernst.github.io/CalculusApplets/)
-- [Supplementary Problems for Exam 1]({{ site.baseurl }}/teaching/mat136f20/Exam1Supplemental.pdf)
-- [Supplementary Problems for Exam 1 with solutions]({{ site.baseurl }}/teaching/mat136f20/Exam1Supplemental-Solutions.pdf) (*Note:* The solutions were written by a variety of people. So, the style is inconsistent and it's possible there are some typos.)
+- [Supplementary Problems for Exam 1]({{ site.baseurl }}/teaching/mat136f20/Exam1SupplementalFall2020.pdf)
+- [Supplementary Problems for Exam 1 with solutions]({{ site.baseurl }}/teaching/mat136f20/Exam1SupplementalFall2020-Solutions.pdf) (*Note:* The solutions were written by a variety of people. So, the style is inconsistent and it's possible there are some typos.)
+- [Supplementary Problems for Exam 2]({{ site.baseurl }}/teaching/mat136f20/Exam2SupplementalFall2020.pdf)
+- [Solutions to Supplementary Problems for Exam 2]({{ site.baseurl }}/teaching/mat136f20/Exam2SupplementalFall2020-Solutions.pdf) (*Note:* The solutions were written by a variety of people. So, the style is inconsistent and it's possible there are some typos.)
 
 <blockquote>
   <p>Don’t just read it; fight it! Ask your own questions, look for your own examples, discover your own proofs. Is the hypothesis necessary? Is the converse true? What happens in the classical special case? What about the degenerate cases? Where does the proof use the hypothesis?</p>
