@@ -87,3 +87,11 @@ We’ll use this page to keep track of what has happened each day in class. It w
   <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, September 23:</b> We had UA/NC/MM, ZW, MK, BW, and CB present Problems 43, 44(a), 44(bc), 44(d), and 45, respectively.  With the time we had left, I quickly discussed Problem 44(e).  We will revisit Problem 44(d) on Monday next week.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Friday, September 25:</b> The students took Quiz 3.</li>
 </ul>
+
+## Week 8 ##
+
+<ul class="fa-ul">
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, September 28:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, September 30:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, October 2:</b> Coming soon.</li>
+</ul>

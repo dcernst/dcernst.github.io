@@ -92,5 +92,14 @@ We’ll use this page to keep track of what has happened each day in class. It w
   <li><i class="fa-li far fa-calendar-check"></i><b>Monday, September 21:</b> We wrapped up Section 3.8 Implicit Differentiation.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, September 23:</b> I lectured over Section 3.9: Derivatives of Exponentials and Logarithms.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Thursday, September 24:</b> I wrapped up Section 3.9 and then discussed a technique known as logarithmic differentiation.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, September 25:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, September 25:</b> We started discussing Section 3.10: Related Rates.</li>
+</ul>
+
+## Week 8 ##
+
+<ul class="fa-ul">
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, September 28:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, September 30:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Thursday, October 1:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, October 2:</b> Coming soon.</li>
 </ul>
