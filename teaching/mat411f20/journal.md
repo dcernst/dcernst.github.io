@@ -91,7 +91,7 @@ We’ll use this page to keep track of what has happened each day in class. It w
 ## Week 8 ##
 
 <ul class="fa-ul">
-  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, September 28:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, September 28:</b> After a quick discussion of Theorem 3.24 and Problem 3.25, we had MJ, AS, KG, SS, KB, and CH present Theorem 3.26, Problem 3.27, Problem 3.28, Problem 3.29, Problem 3.30, and Problem 3.32, respectively.  With the time we had left at the end, I presented Problem 3.31.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, September 30:</b> Coming soon.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Friday, October 2:</b> Coming soon.</li>
 </ul>
