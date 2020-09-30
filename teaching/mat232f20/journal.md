@@ -92,6 +92,6 @@ We’ll use this page to keep track of what has happened each day in class. It w
 
 <ul class="fa-ul">
   <li><i class="fa-li far fa-calendar-check"></i><b>Monday, September 28:</b> After quickly revisiting Problem 44 (safe packing), we had AB and JY present Problems 46 and 47, respectively.  Next, we previewed Problem 48.  With the time we had left, I (poorly) discussed the Futurama Theorem and how it relates to Problem 43 (soul swapping).</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, September 30:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, September 30:</b> Super productive day!  We had AR/BT/SG/BW/CT, MK/KB, and MW tackle Problems 48, 49, and 50, respectively. There are some loose ends on Problem 48 and we should probably review Problem 50 since we did it quickly at the end of class.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Friday, October 2:</b> Coming soon.</li>
 </ul>

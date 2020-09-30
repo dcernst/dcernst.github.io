@@ -99,7 +99,7 @@ We’ll use this page to keep track of what has happened each day in class. It w
 
 <ul class="fa-ul">
   <li><i class="fa-li far fa-calendar-check"></i><b>Monday, September 28:</b> We wrapped up Section 3.10: Related Rates.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, September 30:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, September 30:</b> Today, we discussed approximations using tangent lines. This went quickly and then we did some more related rates stuff.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Thursday, October 1:</b> Coming soon.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, October 2:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, October 2:</b> The students took Part 1 of Exam 2.</li>
 </ul>
