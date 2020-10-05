@@ -93,5 +93,13 @@ We’ll use this page to keep track of what has happened each day in class. It w
 <ul class="fa-ul">
   <li><i class="fa-li far fa-calendar-check"></i><b>Monday, September 28:</b> After a quick discussion of Theorem 3.24 and Problem 3.25, we had MJ, AS, KG, SS, KB, and CH present Theorem 3.26, Problem 3.27, Problem 3.28, Problem 3.29, Problem 3.30, and Problem 3.32, respectively.  With the time we had left at the end, I presented Problem 3.31.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, September 30:</b> We didn't get through everything, but it was still a productive day.  A few people passed on presentations today. Doing this a couple times is no big deal, but it'll have a negative impact if done repeatedly (see syllabus). We had RP, JB, ZM, MJ, and AS present Problems 3.33, 3.34, 3.35, 3.36 and 3.37, respectively.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, October 2:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, October 2:</b> First, we had MW, IV, MK, and AB present Problems 3.38, 3.39, 3.40, and 3.41, respectively.  Next, I outlined the proofs of Problems 3.42-3.44 and Theorem 3.45. We try to get caught up next class.</li>
+</ul>
+
+## Week 9 ##
+
+<ul class="fa-ul">
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, October 5:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, October 7:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, October 9:</b> Coming soon.</li>
 </ul>

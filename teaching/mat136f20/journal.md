@@ -103,3 +103,12 @@ We’ll use this page to keep track of what has happened each day in class. It w
   <li><i class="fa-li far fa-calendar-check"></i><b>Thursday, October 1:</b> Coming soon.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Friday, October 2:</b> The students took Part 1 of Exam 2.</li>
 </ul>
+
+## Week 9 ##
+
+<ul class="fa-ul">
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, October 5:</b> We started discussing Section 4.2: Extreme Values.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, October 7:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Thursday, October 8:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, October 9:</b> Coming soon.</li>
+</ul>
