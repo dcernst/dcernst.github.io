@@ -100,6 +100,6 @@ We’ll use this page to keep track of what has happened each day in class. It w
 
 <ul class="fa-ul">
   <li><i class="fa-li far fa-calendar-check"></i><b>Monday, October 5:</b> We made a lot of progress, but we are still a bit behind. We had SS, JA, and EB present Problems 3.47, 3.48, and 3.49, respectively.  We also discussed isomorphisms and the homomorphic property.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, October 7:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, October 7:</b> We had MC, RP, AL, and KG present Problem 3.50, Theorem 3.53, Theorem 3.54, and Theorem 3.55, respectively.  Along the way, we revisited Theorems 3.51 and 3.52 and summarized some key points about Theorems 3.51-3.55.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Friday, October 9:</b> Coming soon.</li>
 </ul>

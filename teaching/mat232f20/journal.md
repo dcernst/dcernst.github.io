@@ -100,6 +100,6 @@ We’ll use this page to keep track of what has happened each day in class. It w
 
 <ul class="fa-ul">
   <li><i class="fa-li far fa-calendar-check"></i><b>Monday, October 5:</b> We covered a lot of ground today.  We had AB, CF, AS/CF, MW, SG, BT, KI/MK, and BW present Theorems D-K of Problem 52.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, October 7:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, October 7:</b> We crushed the problems today!  We had SV, NB, DZ/AR/MM, and RR/BW present Problems 53, 54, 55, and 56, respectively.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Friday, October 9:</b> The students took Quiz 4.</li>
 </ul>
