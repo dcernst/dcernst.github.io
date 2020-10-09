@@ -103,3 +103,11 @@ We’ll use this page to keep track of what has happened each day in class. It w
   <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, October 7:</b> We crushed the problems today!  We had SV, NB, DZ/AR/MM, and RR/BW present Problems 53, 54, 55, and 56, respectively.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Friday, October 9:</b> The students took Quiz 4.</li>
 </ul>
+
+## Week 10 ##
+
+<ul class="fa-ul">
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, October 12:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, October 14:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, October 16:</b> Coming soon.</li>
+</ul>
