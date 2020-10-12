@@ -269,7 +269,7 @@ You are allowed (in fact, encouraged!) to modify your written work in light of p
 
 Please understand that the purpose of the homework assignments is to teach you to prove theorems in the context of real analysis. It is not expected that you started the class with this skill; hence, some low grades are to be expected. However, I expect that everyone will improve dramatically. Improvement over the course of the semester will be taken into consideration when assigning grades. **Up to five times during the semester, you may resubmit a graded problem subject to the following constraints:**
 
-- A graded problem that received a score of 1, 2, or 3 is eligible to be be resubmitted. Resubmissions on problems that received a 0 are not allowed.
+- A graded problem that received a score of 1, 2, or 3 is eligible to be resubmitted. Resubmissions on problems that received a 0 are not allowed.
 - Resubmissions are due one week after the corresponding problem has been returned to the class.
 - The grade on the resubmitted problem will replace the original score.
 - Please write "Resubmission" on top of any problem that you are resubmitting and keep separate from any other problems that you are turning in.
@@ -338,7 +338,7 @@ You should aim to avoid unsatisfactory (U) presentations. An in progress (I) pre
 
 In general, I will curate the list of student presenters each class meeting.  A presenter is a student that either volunteered (V) or was chosen (C) by me. Volunteering is encouraged, but being chosen without volunteering isn't bad. If more than one student volunteers for a specific problem, the student with the fewest number of presentations has priority.  I reserve the right to decline your offer to present. This may happen if you are volunteering too often (and hence removing another student's opportunity to present) or if I know in advance that another student's presentation will lead to a fruitful discussion.
 
-If you are chosen to present but would prefer not to present that particular problem, you can either negotiate presenting a different problem or take a pass (P). You may elect to pass **at most two times during the semester**, after which a presentation will be be deemed unsatisfactory (U). By default, if you have an unexcused absence on a day when you have been chosen to present, then your presentation will be recorded as a pass (P) unless you have already exhausted your two passes, in which case the presentation will be recorded as unsatisfactory (U).
+If you are chosen to present but would prefer not to present that particular problem, you can either negotiate presenting a different problem or take a pass (P). You may elect to pass **at most two times during the semester**, after which a presentation will be deemed unsatisfactory (U). By default, if you have an unexcused absence on a day when you have been chosen to present, then your presentation will be recorded as a pass (P) unless you have already exhausted your two passes, in which case the presentation will be recorded as unsatisfactory (U).
 
 <center>
 <table class="table table-striped">
