@@ -109,6 +109,15 @@ We’ll use this page to keep track of what has happened each day in class. It w
 <ul class="fa-ul">
   <li><i class="fa-li far fa-calendar-check"></i><b>Monday, October 5:</b> We started discussing Section 4.2: Extreme Values.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, October 7:</b> We continued with Section 4.2.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Thursday, October 8:</b> Coming soon.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, October 9:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Thursday, October 8:</b> Zoom stopped working on us, so we threw in the towel.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, October 9:</b> We got halfway through Section 4.3: The Mean Value Theorem and Monotonocity.</li>
+</ul>
+
+## Week 10 ##
+
+<ul class="fa-ul">
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, October 12:</b> We wrapped up Section 4.3 and discussed the relationship between increasing/decreasing and the derivative.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, October 14:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Thursday, October 15:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, October 16:</b> Coming soon.</li>
 </ul>

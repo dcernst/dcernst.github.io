@@ -107,7 +107,7 @@ We’ll use this page to keep track of what has happened each day in class. It w
 ## Week 10 ##
 
 <ul class="fa-ul">
-  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, October 12:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, October 12:</b> We had ZW, UA, CF, and CH present Problems 57, 58, 59, and 60, respectively.  I was suprised we got through all of them as smoothly as we did.  Well done!</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, October 14:</b> Coming soon.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Friday, October 16:</b> Coming soon.</li>
 </ul>
