@@ -108,6 +108,6 @@ We’ll use this page to keep track of what has happened each day in class. It w
 
 <ul class="fa-ul">
   <li><i class="fa-li far fa-calendar-check"></i><b>Monday, October 12:</b> We had FB, IS, MC, MJ, and NC present Theorem 3.62, Theorem 3.63, Theorem 3.64, Problem 3.65, and Problem 3.66, respectively.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, October 14:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, October 14:</b> Dang, we covered a lot of ground today. After a quick summary of Problems 4.1 and 4.2, we had AA, JW, HG, JK, MK, JF, CH, and JB/MC present Problem 4.3, Problem 4.4, Theorem 4.5, Problem 4.6, Problem 4.7, Theorem 4.8, Theorem 4.9, and Theorem 4.10, respectively. With the time we had left, I discussed Problems 4.11 and 4.12.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Friday, October 16:</b> Coming soon.</li>
 </ul>

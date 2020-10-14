@@ -117,7 +117,7 @@ We’ll use this page to keep track of what has happened each day in class. It w
 
 <ul class="fa-ul">
   <li><i class="fa-li far fa-calendar-check"></i><b>Monday, October 12:</b> We wrapped up Section 4.3 and discussed the relationship between increasing/decreasing and the derivative.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, October 14:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, October 14:</b> We discussed Section 4.4: The Shape of a Graph.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Thursday, October 15:</b> Coming soon.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Friday, October 16:</b> Coming soon.</li>
 </ul>
