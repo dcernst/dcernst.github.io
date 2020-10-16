@@ -118,6 +118,15 @@ We’ll use this page to keep track of what has happened each day in class. It w
 <ul class="fa-ul">
   <li><i class="fa-li far fa-calendar-check"></i><b>Monday, October 12:</b> We wrapped up Section 4.3 and discussed the relationship between increasing/decreasing and the derivative.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, October 14:</b> We discussed Section 4.4: The Shape of a Graph.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Thursday, October 15:</b> Coming soon.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, October 16:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Thursday, October 15:</b> We got most of the way through Section 4.5: L'Hospital's Rule.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, October 16:</b> After revisiting Problem 8 from Daily Homework 26, we tackled more examples of L'Hospital's Rule.</li>
+</ul>
+
+## Week 11 ##
+
+<ul class="fa-ul">
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, October 19:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, October 21:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Thursday, October 22:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, October 23:</b> Coming soon.</li>
 </ul>
