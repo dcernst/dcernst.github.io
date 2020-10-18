@@ -109,5 +109,13 @@ We’ll use this page to keep track of what has happened each day in class. It w
 <ul class="fa-ul">
   <li><i class="fa-li far fa-calendar-check"></i><b>Monday, October 12:</b> We had ZW, UA, CF, and CH present Problems 57, 58, 59, and 60, respectively.  I was surprised we got through all of them as smoothly as we did.  Well done!</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, October 14:</b> We had KF, JY/UA, and SV/NC present Problems 61, 62, and 63, respectively.  I had an error in the wording on Problem 63. With the time we had left, I discussed the difficulty in finding Hamilton Paths/Circuits and the difficulty in finding an optimal weighted Hamilton Path/Circuit.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, October 16:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, October 16:</b> We covered a lot of ground today.  We had CB, CT, DZ, AS, and JV present Problems 64, 65, 66(a), 66(b), and 66(c).  Along the way, I briefly discussed Catalan numbers. With the time we had available at the end of class, we started working on Problems 67 and 68.</li>
+</ul>
+
+## Week 11 ##
+
+<ul class="fa-ul">
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, October 19:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, October 21:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, October 23:</b> Coming soon.</li>
 </ul>
