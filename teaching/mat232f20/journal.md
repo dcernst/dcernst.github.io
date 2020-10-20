@@ -115,7 +115,7 @@ We’ll use this page to keep track of what has happened each day in class. It w
 ## Week 11 ##
 
 <ul class="fa-ul">
-  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, October 19:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, October 19:</b> We had BW, CB/KB, and NB present Problems 67, 68, and 69, respectively. In the last few minutes, I outlined the justification of why we found all the desired configurations in Problem 68.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, October 21:</b> Coming soon.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Friday, October 23:</b> Coming soon.</li>
 </ul>

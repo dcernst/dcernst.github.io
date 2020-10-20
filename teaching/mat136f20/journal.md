@@ -125,7 +125,7 @@ We’ll use this page to keep track of what has happened each day in class. It w
 ## Week 11 ##
 
 <ul class="fa-ul">
-  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, October 19:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, October 19:</b> After cranking out one more example of L'Hospital's Rule, we started Section 4.7: Applied Optimization.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, October 21:</b> Coming soon.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Thursday, October 22:</b> Coming soon.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Friday, October 23:</b> Coming soon.</li>

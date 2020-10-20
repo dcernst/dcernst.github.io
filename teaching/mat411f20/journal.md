@@ -115,7 +115,7 @@ We’ll use this page to keep track of what has happened each day in class. It w
 ## Week 11 ##
 
 <ul class="fa-ul">
-  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, October 19:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, October 19:</b> Another productive day.  We had KB, SS, EB, MK, and KG present Problem 4.21, Problem 4.22, Problem 4.23, Corollary 4.25, and Theorem 4.28, respectively.  Along the way, we discussed Theorems 4.24, 4.26, and 4.27.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, October 21:</b> Coming soon.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Friday, October 23:</b> Coming soon.</li>
 </ul>
