@@ -66,6 +66,8 @@ The notes will be released incrementally. Each link below is to a PDF file. If y
     - 3.3 Isomorphisms
 - [Chapter 4: Families of Groups]({{site.baseurl}}/teaching/mat411f20/Families.pdf)
     - 4.1 Cyclic Groups
+        - [Proof of Theorem 4.34]({{site.baseurl}}/teaching/mat411f20/Theorem4.34.pdf)
+        - [Proof of Theorem 4.35]({{site.baseurl}}/teaching/mat411f20/Theorem4.35.pdf)
     - 4.2 Dihedral Groups
     - 4.3 Symmetric Groups
     - 4.4 Alternating Groups
