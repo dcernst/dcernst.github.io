@@ -116,6 +116,6 @@ We’ll use this page to keep track of what has happened each day in class. It w
 
 <ul class="fa-ul">
   <li><i class="fa-li far fa-calendar-check"></i><b>Monday, October 19:</b> Another productive day.  We had KB, SS, EB, MK, and KG present Problem 4.21, Problem 4.22, Problem 4.23, Corollary 4.25, and Theorem 4.28, respectively.  Along the way, we discussed Theorems 4.24, 4.26, and 4.27.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, October 21:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, October 21:</b> After a quick discussion of the upcoming exam, we had FB, IV, BJ, and RL present Theorem 4.32, Problem 4.36, Problem 4.37, and Problem 4.38, respectively.  Along the way, I presented Theorem 4.29, Corollary 4.33, Theorem 4.39, and Theorem 4.40.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Friday, October 23:</b> Coming soon.</li>
 </ul>
