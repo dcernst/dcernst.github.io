@@ -117,5 +117,36 @@ We’ll use this page to keep track of what has happened each day in class. It w
 <ul class="fa-ul">
   <li><i class="fa-li far fa-calendar-check"></i><b>Monday, October 19:</b> Another productive day.  We had KB, SS, EB, MK, and KG present Problem 4.21, Problem 4.22, Problem 4.23, Corollary 4.25, and Theorem 4.28, respectively.  Along the way, we discussed Theorems 4.24, 4.26, and 4.27.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, October 21:</b> After a quick discussion of the upcoming exam, we had FB, IV, BJ, and RL present Theorem 4.32, Problem 4.36, Problem 4.37, and Problem 4.38, respectively.  Along the way, I presented Theorem 4.29, Corollary 4.33, Theorem 4.39, and Theorem 4.40.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, October 23:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, October 23:</b> After discussing the upcoming exam, we had HG, MJ, IS, EB, AB, and RP present Theorem 4.41, Problem 4.42, Corollary 4.43, Problem 4.46, Corollary 4.47(forward implication), and Corollary 4.47(reverse implication), respectively.  With the few minutes we had left at the end of class, we discussed Problems 4.48 and 4.49.</li>
+</ul>
+
+## Week 12 ##
+
+<ul class="fa-ul">
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, October 26:</b> The students took Part 1 of Exam 2.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, October 28:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, October 30:</b> Coming soon.</li>
+</ul>
+
+## Week 13 ##
+
+<ul class="fa-ul">
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, November 2:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, November 4:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, November 6:</b> Coming soon.</li>
+</ul>
+
+## Week 14 ##
+
+<ul class="fa-ul">
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, November 9:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, November 11:</b> Veteran's Day. No classes.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, November 13:</b> Coming soon.</li>
+</ul>
+
+## Week 15 ##
+
+<ul class="fa-ul">
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, November 16:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, November 18:</b> Coming soon.</li>
 </ul>

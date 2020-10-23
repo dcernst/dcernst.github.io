@@ -130,3 +130,37 @@ We’ll use this page to keep track of what has happened each day in class. It w
   <li><i class="fa-li far fa-calendar-check"></i><b>Thursday, October 22:</b> We covered Section 5.3: The Indefinite Integral.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Friday, October 23:</b> We wrapped up Section 5.3 and discussed a couple problems on Weekly Homework 6.</li>
 </ul>
+
+## Week 12 ##
+
+<ul class="fa-ul">
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, October 26:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, October 28:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Thursday, October 29:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, October 30:</b> Coming soon.</li>
+</ul>
+
+## Week 13 ##
+
+<ul class="fa-ul">
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, November 2:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, November 4:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Thursday, November 5:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, November 6:</b> Coming soon.</li>
+</ul>
+
+## Week 14 ##
+
+<ul class="fa-ul">
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, November 9:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, November 11:</b> Veteran's Day. No classes.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Thursday, November 12:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, November 13:</b> Coming soon.</li>
+</ul>
+
+## Week 15 ##
+
+<ul class="fa-ul">
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, November 16:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, November 18:</b> Coming soon.</li>
+</ul>

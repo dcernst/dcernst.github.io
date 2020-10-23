@@ -117,5 +117,36 @@ We’ll use this page to keep track of what has happened each day in class. It w
 <ul class="fa-ul">
   <li><i class="fa-li far fa-calendar-check"></i><b>Monday, October 19:</b> We had BW, CB/KB, and NB present Problems 67, 68, and 69, respectively. In the last few minutes, I outlined the justification of why we found all the desired configurations in Problem 68.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, October 21:</b> We had ZW/AS, SV/MK, and UA/KF/BW present Problems 70, 71, and 72, respectively.  I added some comments about Problem 71 (Good Teacher) with the time we had left.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, October 23:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, October 23:</b> The students took Quiz 4.</li>
+</ul>
+
+## Week 12 ##
+
+<ul class="fa-ul">
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, October 26:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, October 28:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, October 30:</b> Coming soon.</li>
+</ul>
+
+## Week 13 ##
+
+<ul class="fa-ul">
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, November 2:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, November 4:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, November 6:</b> Coming soon.</li>
+</ul>
+
+## Week 14 ##
+
+<ul class="fa-ul">
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, November 9:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, November 11:</b> Veteran's Day. No classes.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, November 13:</b> Coming soon.</li>
+</ul>
+
+## Week 15 ##
+
+<ul class="fa-ul">
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, November 16:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, November 18:</b> Coming soon.</li>
 </ul>
