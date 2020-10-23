@@ -127,6 +127,6 @@ We’ll use this page to keep track of what has happened each day in class. It w
 <ul class="fa-ul">
   <li><i class="fa-li far fa-calendar-check"></i><b>Monday, October 19:</b> After cranking out one more example of L'Hospital's Rule, we started Section 4.7: Applied Optimization.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, October 21:</b> We tinkered around with a couple more optimization problems.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Thursday, October 22:</b> We covered Section 5.1: Approximating and Computing Area.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, October 23:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Thursday, October 22:</b> We covered Section 5.3: The Indefinite Integral.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, October 23:</b> We wrapped up Section 5.3 and discussed a couple problems on Weekly Homework 6.</li>
 </ul>
