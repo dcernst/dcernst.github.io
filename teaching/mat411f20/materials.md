@@ -126,16 +126,12 @@ The notes will be released incrementally. Each link below is to a PDF file. If y
 - [Lessons from My Math Degree That Have Nothing to Do with Math](https://medium.com/s/story/6-life-lessons-from-my-math-degree-that-have-nothing-to-do-with-math-d38aba90edfe) (6 min read on Medium)
 - [Is Mathematics Invented or Discovered? &#124; Roger Penrose](https://www.youtube.com/watch?v=TKlPj_qGIt8) (4:14 min)
 - [What is Mathematics? The Most Misunderstood Subject](https://www.fordham.edu/info/20603/what_math) (short article by Dr. Robert H. Lewis, Professor of Mathematics, Fordham University)
-- Pictures of board work that we ran out of time to discuss. *Note:* You should not assume that the solutions/proofs posted below are valid or sufficient.
-    - Coming soon.
+
+<!-- - Pictures of board work that we ran out of time to discuss. *Note:* You should not assume that the solutions/proofs posted below are valid or sufficient.
+    - Coming soon. -->
 
 ## Exams
 Below are links to the take-home portions of each exam. If you are interested in using LaTeX to type up your solutions, contact me and I will send you a link to the source file of the exam.
 
 - [Exam 1 (Part 2)]({{site.baseurl}}/teaching/mat411f20/411Exam1-Part2.pdf) (PDF). (Due by 11:59PM on <s>Wednesday, September 23</s> Friday, September 25)
-
-<!--- [Exam 2 (take-home portion)]({{site.baseurl}}/teaching/mat411f20/411Exam2-Home.pdf) (PDF). (Due Friday, November 15)
-- For Exam 3, you have two options:
-  - **Option 1:** Complete a 30-minute oral exam with me in my office.  The questions will come directly from homework and previous exams. The oral exams will take place during Monday, November 25 to Thursday, December 12.
-  - **Option 2:** Complete the take-home exam found [here]({{site.baseurl}}/teaching/mat411f20/411Exam3-Home.pdf) (PDF). (Due Friday, December 6)
-- [Final Exam (take-home portion)]({{site.baseurl}}/teaching/mat411f20/411ExamFinal-Home.pdf) (PDF). (Due by 9am on Friday, December 13) -->
+- [Exam 2 (Part 2)]({{site.baseurl}}/teaching/mat411f20/411Exam2-Part2.pdf) (PDF). (Due by 11:59PM on Monday, November 2)
