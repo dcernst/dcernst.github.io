@@ -134,7 +134,7 @@ We’ll use this page to keep track of what has happened each day in class. It w
 ## Week 12 ##
 
 <ul class="fa-ul">
-  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, October 26:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, October 26:</b> We started discussing Sections 5.1 and 5.2.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, October 28:</b> Coming soon.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Thursday, October 29:</b> Coming soon.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Friday, October 30:</b> Coming soon.</li>
