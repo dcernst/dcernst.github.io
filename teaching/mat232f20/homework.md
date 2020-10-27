@@ -68,4 +68,4 @@ Unless otherwise indicated, submit each of the following assignments via BbLearn
 - **Homework 27:** Complete Problems 70-72 from the [Problem Collection](https://dcernst.github.io/teaching/mat232f20/232ProblemCollection.pdf). (Due Wednesday, October 21)
 - **Homework 28:** Complete Problems 73-75 from the [Problem Collection](https://dcernst.github.io/teaching/mat232f20/232ProblemCollection.pdf). (Due Monday, October 26)
 - **Homework 29:** Revisit Problem 73 and complete Problems 76 and 77 from the [Problem Collection](https://dcernst.github.io/teaching/mat232f20/232ProblemCollection.pdf). (Due Wednesday, October 28)
-- **Homework 30:** Complete Problems 78-80 from the [Problem Collection](https://dcernst.github.io/teaching/mat232f20/232ProblemCollection.pdf). (Due Wednesday, October 30)
+- **Homework 30:** Complete Problems 78-80 from the [Problem Collection](https://dcernst.github.io/teaching/mat232f20/232ProblemCollection.pdf). (Due Friday, October 30)
