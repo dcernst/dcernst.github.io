@@ -117,14 +117,14 @@ We’ll use this page to keep track of what has happened each day in class. It w
 <ul class="fa-ul">
   <li><i class="fa-li far fa-calendar-check"></i><b>Monday, October 19:</b> We had BW, CB/KB, and NB present Problems 67, 68, and 69, respectively. In the last few minutes, I outlined the justification of why we found all the desired configurations in Problem 68.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, October 21:</b> We had ZW/AS, SV/MK, and UA/KF/BW present Problems 70, 71, and 72, respectively.  I added some comments about Problem 71 (Good Teacher) with the time we had left.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, October 23:</b> The students took Quiz 4.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, October 23:</b> The students took Quiz 5.</li>
 </ul>
 
 ## Week 12 ##
 
 <ul class="fa-ul">
-  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, October 26:</b> Coming soon.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, October 28:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, October 26:</b> We kicked off by discussing B1 and B3 from Quiz 4.  Next, KI and AR presented Problems 74 and 75, respectively.  The rest of class was devoted to discussing Problem 73 (Martian Artifacts).  We had DZ, CH, and MK/BT present the cases involving 2, 3, 4, and 5 spheres.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, October 28:</b> We spent a good chunk of time revisiting Problem 73.  In particular, we had BT, MK, and SV discuss the cases involving 5 and 6 spheres.  We left the cases involving 7 and 8 spheres.  Next, we had BW and CF present Problems 76 and 77, respectively.  We will revisit Problem 77 on Friday.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Friday, October 30:</b> Coming soon.</li>
 </ul>
 
