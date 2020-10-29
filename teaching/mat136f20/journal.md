@@ -135,15 +135,15 @@ We’ll use this page to keep track of what has happened each day in class. It w
 
 <ul class="fa-ul">
   <li><i class="fa-li far fa-calendar-check"></i><b>Monday, October 26:</b> We started discussing Sections 5.1 and 5.2.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, October 28:</b> Coming soon.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Thursday, October 29:</b> Coming soon.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, October 30:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, October 28:</b> More discussion of Section 5.1 and 5.2. In particular, we introduced the formal definition of the definite integral. </li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Thursday, October 29:</b> We wrapped up our formal introduction to the definite integral.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, October 30:</b> Review day for Exam 3.</li>
 </ul>
 
 ## Week 13 ##
 
 <ul class="fa-ul">
-  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, November 2:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, November 2:</b> Students took Part 1 of Exam 3.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, November 4:</b> Coming soon.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Thursday, November 5:</b> Coming soon.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Friday, November 6:</b> Coming soon.</li>
