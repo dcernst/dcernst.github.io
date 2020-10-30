@@ -38,7 +38,7 @@ Below you will find notes and handouts that we have used in class, as well as so
 - [Supplementary Problems for Exam 2]({{ site.baseurl }}/teaching/mat136f20/Exam2SupplementalFall2020.pdf)
 - [Solutions to Supplementary Problems for Exam 2]({{ site.baseurl }}/teaching/mat136f20/Exam2SupplementalFall2020-Solutions.pdf) (*Note:* The solutions were written by a variety of people. So, the style is inconsistent and it's possible there are some typos.)
 - [Supplementary Problems for Exam 3]({{ site.baseurl }}/teaching/mat136f20/Exam3SupplementalFall2020.pdf) (*Note:* Numbering restarts after Problem 37.)
-- [Solutions to Supplementary Problems for Exam 3]({{ site.baseurl }}/teaching/mat136f20/Exam2SupplementalFall2020-Solutions.pdf) (*Note:* Solutions not included after numbering restarts. Also, the solutions were written by a variety of people. So, the style is inconsistent and it's possible there are some typos.)
+- [Solutions to Supplementary Problems for Exam 3]({{ site.baseurl }}/teaching/mat136f20/Exam3SupplementalFall2020-Solutions.pdf) (*Note:* Solutions not included after numbering restarts. Also, the solutions were written by a variety of people. So, the style is inconsistent and it's possible there are some typos.)
 
 <blockquote>
   <p>Don’t just read it; fight it! Ask your own questions, look for your own examples, discover your own proofs. Is the hypothesis necessary? Is the converse true? What happens in the classical special case? What about the degenerate cases? Where does the proof use the hypothesis?</p>
