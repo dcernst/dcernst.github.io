@@ -63,6 +63,7 @@ Below you will find notes and resources that we will utilize. We will add to the
     - [Quiz 3]({{ site.baseurl }}/teaching/mat232f20/232Quiz3.pdf) (PDF)
     - [Quiz 4]({{ site.baseurl }}/teaching/mat232f20/232Quiz4.pdf) (PDF)
     - [Quiz 5]({{ site.baseurl }}/teaching/mat232f20/232Quiz5.pdf) (PDF)
+- [Solution for 7 spheres in the Martian Artifacts Problem (Problem 73)]({{ site.baseurl }}/teaching/mat232f20/MartianArtifacts-Solution.pdf) (PDF)
 
 <blockquote>
   <p>Don’t just read it; fight it! Ask your own questions, look for your own examples, discover your own proofs. Is the hypothesis necessary? Is the converse true? What happens in the classical special case? What about the degenerate cases? Where does the proof use the hypothesis?</p>
