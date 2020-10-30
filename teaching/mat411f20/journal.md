@@ -125,7 +125,7 @@ We’ll use this page to keep track of what has happened each day in class. It w
 <ul class="fa-ul">
   <li><i class="fa-li far fa-calendar-check"></i><b>Monday, October 26:</b> The students took Part 1 of Exam 2.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, October 28:</b> I lectured today while students are working on Part 2 of Exam 2.  We discussed up to Problem 4.75.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, October 30:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, October 30:</b> More lecturing.  I discussed material in Chapter 4 up to Theorem 4.84.</li>
 </ul>
 
 ## Week 13 ##
