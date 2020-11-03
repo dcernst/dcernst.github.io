@@ -71,17 +71,14 @@ The notes will be released incrementally. Each link below is to a PDF file. If y
     - 4.2 Dihedral Groups
     - 4.3 Symmetric Groups
     - 4.4 Alternating Groups
-- Chapter 5: Cosets, Lagrange's Theorem, and Normal Subgroups
-  <!-- [Chapter 5: Cosets, Lagrange's Theorem, and Normal Subgroups]({{site.baseurl}}/teaching/mat411f20/CosetsLagrangeNormal.pdf) -->
+- [Chapter 5: Cosets, Lagrange's Theorem, and Normal Subgroups]({{site.baseurl}}/teaching/mat411f20/CosetsLagrangeNormal.pdf)
     - 5.1 Cosets
     - 5.2 Lagrange's Theorem
     - 5.3 Normal Subgroups
-- Chapter 6: Products and Quotients of Groups
-  <!-- [Chapter 6: Products and Quotients of Groups]({{site.baseurl}}/teaching/mat411f20/ProductsQuotients.pdf) -->
+- [Chapter 6: Products and Quotients of Groups]({{site.baseurl}}/teaching/mat411f20/ProductsQuotients.pdf)
     - 6.1 Products of Groups
     - 6.2 Quotients of Groups
-- Chapter 7: Homomorphisms and the Isomorphism Theorems
-  <!-- [Chapter 7: Homomorphisms and the Isomorphism Theorems]({{site.baseurl}}/teaching/mat411f20/Homomorphisms.pdf) -->
+- [Chapter 7: Homomorphisms and the Isomorphism Theorems]({{site.baseurl}}/teaching/mat411f20/Homomorphisms.pdf)
     - 7.1 Homomorphisms
     - 7.2 The Isomorphism Theorems
 - Chapter 8: An Introduction to Rings
