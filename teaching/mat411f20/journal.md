@@ -132,7 +132,7 @@ We’ll use this page to keep track of what has happened each day in class. It w
 
 <ul class="fa-ul">
   <li><i class="fa-li far fa-calendar-check"></i><b>Monday, November 2:</b> I continued lecturing.  We more or less covered content up to and including Cayley's Theorem and the example that follows.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, November 4:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, November 4:</b> After a short discussion about Exam 3, we had SS, ZM, JB, JA, and JF present Problems 4.86, 4.90, 4.92, 4.93, and 4.94, respectively.  Along the way, I presented Problem 4.87 and sketched a solution to Problem 4.101.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Friday, November 6:</b> Coming soon.</li>
 </ul>
 

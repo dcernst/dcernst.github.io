@@ -132,7 +132,7 @@ We’ll use this page to keep track of what has happened each day in class. It w
 
 <ul class="fa-ul">
   <li><i class="fa-li far fa-calendar-check"></i><b>Monday, November 2:</b> We stared off with discussing the solution to Problem B3 from Quiz 5.  Net, we had KF, KI/JV, and MW present Problems 80, 81, and 82, respectively.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, November 4:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, November 4:</b> We had MM, CH, and AS present Problems 83, 94, and 85, respectively, and had excellent discussions along the way.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Friday, November 6:</b> The students took Quiz 6.</li>
 </ul>
 
