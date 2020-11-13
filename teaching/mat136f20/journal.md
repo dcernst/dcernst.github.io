@@ -155,7 +155,7 @@ We’ll use this page to keep track of what has happened each day in class. It w
   <li><i class="fa-li far fa-calendar-check"></i><b>Monday, November 9:</b> We discussed Section 5.6: Net Change as an Integral of a Rate of Change. </li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, November 11:</b> Veteran's Day. No classes.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Thursday, November 12:</b> We wrapped up Section 5.6 and then started Section 5.7: Substitution.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, November 13:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, November 13:</b> After a short discussion about differentials, we cranked through lots of examples involving integration by substitution.</li>
 </ul>
 
 ## Week 15 ##
