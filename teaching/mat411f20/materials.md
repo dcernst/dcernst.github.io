@@ -133,4 +133,4 @@ Below are links to the take-home portions of each exam. If you are interested in
 
 - [Exam 1 (Part 2)]({{site.baseurl}}/teaching/mat411f20/411Exam1-Part2.pdf) (PDF). (Due by 11:59PM on <s>Wednesday, September 23</s> Friday, September 25)
 - [Exam 2 (Part 2)]({{site.baseurl}}/teaching/mat411f20/411Exam2-Part2.pdf) (PDF). (Due by 11:59PM on Monday, November 2)
-- [Exam 3 (Option 2)]({{site.baseurl}}/teaching/mat411f20/411Exam3-Option2.pdf) (PDF). (Due by 11:59PM on Friday, November 20)
+- [Exam 3 (Option 2)]({{site.baseurl}}/teaching/mat411f20/411Exam3-Option2.pdf) (PDF). (Due by 11:59PM on Monday, November 23)
