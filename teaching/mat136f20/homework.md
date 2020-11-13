@@ -64,7 +64,7 @@ Most of the Daily Homework assignments are to be completed via [WeBWorK](https:/
 - **Daily Homework 30:** Complete the corresponding problems on [WeBWorK](https://webwork.math.nau.edu/webwork2/DErnst_136/). (Due Wednesday, October 28 by 8:00pm)
 - **Daily Homework 31:** Complete the corresponding problems on [WeBWorK](https://webwork.math.nau.edu/webwork2/DErnst_136/). (Due Thursday, October 29 by 8:00pm)
 - **Daily Homework 32:** Complete the corresponding problems on [WeBWorK](https://webwork.math.nau.edu/webwork2/DErnst_136/). (Due Monday, November 9 by 8:00pm)
-- **Daily Homework 33:** Complete the corresponding problems on [WeBWorK](https://webwork.math.nau.edu/webwork2/DErnst_136/). (Due Thursday, November 12 by 8:00pm)
+- **Daily Homework 33:** Complete the corresponding problems on [WeBWorK](https://webwork.math.nau.edu/webwork2/DErnst_136/). (Due Friday, November 13 by 8:00pm)
 - **Daily Homework 34:** Complete the corresponding problems on [WeBWorK](https://webwork.math.nau.edu/webwork2/DErnst_136/). (Due Monday, November 16 by 8:00pm)
 
 
