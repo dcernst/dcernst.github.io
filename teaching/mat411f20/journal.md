@@ -139,9 +139,9 @@ We’ll use this page to keep track of what has happened each day in class. It w
 ## Week 14 ##
 
 <ul class="fa-ul">
-  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, November 9:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, November 9:</b> We had IS, AB, AL, RP, and NC present Problems 4.108, 4.109, 4.113, 4.114, and 4.115, respectively. Along the way, I presented Problem 4.110 and Theorem 4.112.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, November 11:</b> Veteran's Day. No classes.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, November 13:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, November 13:</b> We kicked off with CH presenting Problem 4.117 and then I presented Problems 5.5-5.7 and Theorem 5.8. Next, we had RL, JB, and MJ present Problems 5.17, 5.27, and 5.31, respectively. Along the way, I squeezed in Problem 5.18.</li>
 </ul>
 
 ## Week 15 ##

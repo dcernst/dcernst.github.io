@@ -139,9 +139,9 @@ We’ll use this page to keep track of what has happened each day in class. It w
 ## Week 14 ##
 
 <ul class="fa-ul">
-  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, November 9:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, November 9:</b> After discussing B1 and B2 from Quiz 6, we had AB, AR, and BW present Problems 86(a), 86(b), and 87, respectively. We didn't have time for Problem 88, so we will revisit that one later.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, November 11:</b> Veteran's Day. No classes.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, November 13:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, November 13:</b> We kicked off with a quick discussion of B3 from Quiz 6 and then had JY and NC/BT/KF present Problems 89 and 90, respectively. With the time we had left at the end, we discussed a proof technique called induction.</li>
 </ul>
 
 ## Week 15 ##
