@@ -78,6 +78,7 @@ The notes will be released incrementally. Each link below is to a PDF file. If y
     - 5.3 Normal Subgroups
 - [Chapter 6: Products and Quotients of Groups]({{site.baseurl}}/teaching/mat411f20/ProductsQuotients.pdf)
     - 6.1 Products of Groups
+        - [Proof of Theorem 6.20]({{site.baseurl}}/teaching/mat411f20/Theorem6.20.pdf)
     - 6.2 Quotients of Groups
 - [Chapter 7: Homomorphisms and the Isomorphism Theorems]({{site.baseurl}}/teaching/mat411f20/Homomorphisms.pdf)
     - 7.1 Homomorphisms
