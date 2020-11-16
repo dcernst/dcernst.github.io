@@ -43,7 +43,7 @@ The notes will be released incrementally. Each link below is to a PDF file. If y
 <i class="fa fa-exclamation-triangle"></i>&nbsp; These notes are currently under construction and subject to change.
 </div>
 
-<!-- - [An Inquiry-Based Approach to Abstract Algebra]({{site.baseurl}}/teaching/mat411f20/IBL-AbstractAlgebra.pdf) (complete set of notes) -->
+- [An Inquiry-Based Approach to Abstract Algebra]({{site.baseurl}}/teaching/mat411f20/IBL-AbstractAlgebra.pdf) (complete set of notes)
 
 - [Title Page and Table of Contents]({{site.baseurl}}/teaching/mat411f20/FrontMatter.pdf)
 - [Preface]({{site.baseurl}}/teaching/mat411f20/Preface.pdf)
@@ -83,8 +83,7 @@ The notes will be released incrementally. Each link below is to a PDF file. If y
 - [Chapter 7: Homomorphisms and the Isomorphism Theorems]({{site.baseurl}}/teaching/mat411f20/Homomorphisms.pdf)
     - 7.1 Homomorphisms
     - 7.2 The Isomorphism Theorems
-- Chapter 8: An Introduction to Rings
-  <!-- [Chapter 8: An Introduction to Rings]({{site.baseurl}}/teaching/mat411f20/Rings.pdf) -->
+- [Chapter 8: An Introduction to Rings]({{site.baseurl}}/teaching/mat411f20/Rings.pdf)
     - 8.1 Definitions and Examples
     - 8.2 Ring Homomorphisms
     - 8.3 Ideals and Quotient Rings
