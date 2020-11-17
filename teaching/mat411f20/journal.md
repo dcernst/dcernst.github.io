@@ -147,6 +147,6 @@ We’ll use this page to keep track of what has happened each day in class. It w
 ## Week 15 ##
 
 <ul class="fa-ul">
-  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, November 16:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, November 16:</b> We had JK, ZM, and KB present Problems 6.18, 6.27, and 6.28. Next, I blitzed through 6.29-6.32, 6.34.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, November 18:</b> Coming soon.</li>
 </ul>
