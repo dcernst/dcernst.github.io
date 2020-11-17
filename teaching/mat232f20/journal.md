@@ -147,6 +147,6 @@ We’ll use this page to keep track of what has happened each day in class. It w
 ## Week 15 ##
 
 <ul class="fa-ul">
-  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, November 16:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, November 16:</b> I spent a good chunk of time presenting Problem 88 (left over from a while back) and Problem 93.  Next, we had MK and CT/AR present Problems 94 and 95, respectively.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, November 18:</b> Coming soon.</li>
 </ul>
