@@ -162,5 +162,5 @@ We’ll use this page to keep track of what has happened each day in class. It w
 
 <ul class="fa-ul">
   <li><i class="fa-li far fa-calendar-check"></i><b>Monday, November 16:</b> Lots of examples of integration by substitution!</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, November 18:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, November 18:</b> We spent some time reviewing today.  In particular, we discussed limits, tangent lines, Mean Value Theorem, optimization, and implicit differentiation.</li>
 </ul>
