@@ -80,6 +80,8 @@ The notes will be released incrementally. Each link below is to a PDF file. If y
     - 6.1 Products of Groups
         - [Proof of Theorem 6.20]({{site.baseurl}}/teaching/mat411f20/Theorem6.20.pdf)
     - 6.2 Quotients of Groups
+        - [Solution to Problem 6.33]({{site.baseurl}}/teaching/mat411f20/Problem6.33.pdf)
+        - [Solution to Problem 6.34]({{site.baseurl}}/teaching/mat411f20/Problem6.34.pdf)
 - [Chapter 7: Homomorphisms and the Isomorphism Theorems]({{site.baseurl}}/teaching/mat411f20/Homomorphisms.pdf)
     - 7.1 Homomorphisms
     - 7.2 The Isomorphism Theorems
