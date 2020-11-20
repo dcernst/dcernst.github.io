@@ -148,5 +148,5 @@ We’ll use this page to keep track of what has happened each day in class. It w
 
 <ul class="fa-ul">
   <li><i class="fa-li far fa-calendar-check"></i><b>Monday, November 16:</b> We had JK, ZM, and KB present Problems 6.18, 6.27, and 6.28. Next, I blitzed through 6.29-6.32, 6.34.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, November 18:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, November 18:</b> Last day! After a very quick summary of Section 7.1, which included proofs of Theorems 7.11 and 7.13, we had JB, RP, and AL present the 3 parts of Problem 7.16. Next, we discussed the First Isomorphism Theorem and did some examples. That more or less wrapped things up nicely.</li>
 </ul>
