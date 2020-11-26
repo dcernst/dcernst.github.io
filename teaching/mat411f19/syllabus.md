@@ -118,7 +118,7 @@ In this course, *everyone* will be required to
 - write up quality solutions/proofs to assigned problems;
 - present solutions/proofs on the board to the rest of the class;
 - participate in discussions centered around a student's presented solution/proof;
-- call upon your own prodigious mental faculties to respond in flexible, thoughtful, and creative ways to problems that may seem unfamiliar on first glance.
+- call upon your own prodigious mental faculties to respond in flexible, thoughtful, and creative ways to problems that may seem unfamiliar at first glance.
 
 As the semester progresses, it should become clear to you what the expectations are.
 
