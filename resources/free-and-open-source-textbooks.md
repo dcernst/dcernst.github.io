@@ -33,13 +33,13 @@ Here is a partial list of free and/or open-source textbooks. If you find one of 
 
 ### Discrete Mathematics ###
 
-  * [Discrete Mathematics: An Open Introduction](http://discretetext.oscarlevin.com/home.php) by [Oscar Levin](http://math.oscarlevin.com/home.php) (University of Northern Colorado) is a free, open-source textbook appropriate for a first or second year undergraduate course for math majors. There is a really nice interactive [ebook version](http://discretetext.oscarlevin.com/dmoi/dmoi.html).
+  * [Discrete Mathematics: An Open Introduction](http://discrete.openmathbooks.org/dmoi3.html) by [Oscar Levin](http://math.oscarlevin.com) (University of Northern Colorado) is a free, open-source textbook appropriate for a first or second year undergraduate course for math majors. There is a really nice interactive [ebook version](http://discretetext.oscarlevin.com/dmoi/dmoi.html).
   * [Applied Discrete Structures](http://faculty.uml.edu/klevasseur/ads2/) by [Al Doerr](http://faculty.uml.edu/math/faculty/doerr.htm) (UMass Lowell) and [Kenneth M. Levasseur](http://faculty.uml.edu/klevasseur/) (UMass Lowell).
 
 ### Introduction to Proof
 
   * [An Introduction to Proof via Inquiry-Based Learning](http://dcernst.github.io/IBL-IntroToProof/) by [Dana C. Ernst](http://danaernst.com) (Northern Arizona University). IBL course materials for an introduction to proof course. The first half of the notes are an adaptation of notes written by [Stan Yoshinobu](http://www.stanyoshinobu.com/) (Cal Poly) and [Matthew Jones](http://www.csudh.edu/math/mjones/) (California State University Dominguez Hills).
-  * [Introduction to Proof](http://www.jiblm.org/downloads/dlitem.php?id=56&category=jiblmjournal) by Ron Taylor (Berry College). These IBL notes are available from the [Journal of Inquiry-Based Learning in Mathematics](http://www.jiblm.org).
+  * [Introduction to Proof](http://jiblm.org/index.php) by Ron Taylor (Berry College). These IBL notes are available from the [Journal of Inquiry-Based Learning in Mathematics](http://www.jiblm.org).
   * [Notes for a Course on Proofs](http://www.jiblm.org/downloads/dlitem.php?id=88&category=jiblmjournal) by Jacqueline A. Jensen-Vallin (Slippery Rock University). Another set of IBL notes available from the [Journal of Inquiry-Based Learning in Mathematics](http://www.jiblm.org).
   * [Mathematical Reasoning: Writing and Proof](https://sites.google.com/site/mathematicalreasoning3ed/) by Ted Sundstrom (Grand Valley State University). This textbook is designed for the first course in the college mathematics curriculum that introduces students to the process of constructing and writing proofs. This book is included in the approved list of textbooks for the [Open Textbook Initiative](http://aimath.org/textbooks/approved-textbooks/) by the [American Institute of Mathematics](http://www.aimath.org). There are also over 100 screencasts that accompany the book.
 
@@ -47,7 +47,7 @@ Here is a partial list of free and/or open-source textbooks. If you find one of 
 
   * [A First Course in Linear Algebra](http://linear.ups.edu/index.html) by [Rob Beezer](http://buzzard.ups.edu/) (Puget Sound University). FCLA is a free and open-source introductory textbook designed for university sophomores and juniors. The book begins with systems of linear equations, then covers matrix algebra, before taking up finite-dimensional vector spaces in full generality. The book is available for free in PDF and HTML form.
   * [Linear Algebra](http://joshua.smcvt.edu/linearalgebra/) by [Jim Hefferon](http://joshua.smcvt.edu/math/hefferon.html) (St. Michael's College). This is another free and open-source textbook.
-  * [Linear Algebra](http://www.jiblm.org/downloads/dlitem.aspx?id=63&category=jiblmjournal) by David Clark (SUNY New Paltz). These notes are available for free from the [Journal of Inquiry-Based Learning in Mathematics](http://www.jiblm.org/index.aspx). The notes are designed for an inquiry-based learning (IBL) approach to the subject.
+  * [Linear Algebra](http://jiblm.org/downloads/dlitem.php?id=63&category=jiblmjournal) by David Clark (SUNY New Paltz). These notes are available for free from the [Journal of Inquiry-Based Learning in Mathematics](http://jiblm.org/index.php). The notes are designed for an inquiry-based learning (IBL) approach to the subject.
   * [Linear Algebra](http://ocw.mit.edu/courses/mathematics/18-06sc-linear-algebra-fall-2011/) by [Gilbert Strang](http://www-math.mit.edu/~gs/) (MIT). This isn't really a textbook, but rather free course materials, including videos, available from the [MIT Open Courseware Project](http://ocw.mit.edu/index.htm).
   * [Paul’s Online Math Notes](http://tutorial.math.lamar.edu/) by [Paul Dawkins](http://www.math.lamar.edu/faculty/dawkins/dawkins.aspx) (Lamar University).
 
