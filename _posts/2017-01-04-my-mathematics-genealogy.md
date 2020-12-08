@@ -44,3 +44,12 @@ Following the Geneagrapher instructions, I typed the following to generate my fa
 Maybe it is worth mentioning that unless you specify otherwise, the dot and png files will be stored in your home directory.  Below is my mathematical family tree created using Geneagrapher. As you can see, it took a while for my ancestors to leave the [University of Cambridge](https://www.cam.ac.uk).
 
 <img src="{{ site.baseurl }}/images/FamilyTree.png" class="img-responsive" width="100%" img style="margin-bottom: 10px" />
+
+**Update:** The code was written in Python 2.7 and Python is not backward compatible. You may need to create a new virtual environment to use Python 2.7. Thanks to [Harihar Khanal](https://faculty.erau.edu/khana66a) for suggesting the fix. Open a terminal and do the following steps.
+
+<pre><code>
+conda create -n python27 python=2.7
+conda activate python27
+pip install geneagrapher
+brew install graphviz
+</code></pre>
