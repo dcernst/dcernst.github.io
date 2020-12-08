@@ -47,9 +47,7 @@ Maybe it is worth mentioning that unless you specify otherwise, the dot and png 
 
 **Update:** The code was written in Python 2.7 and Python is not backward compatible. You may need to create a new virtual environment to use Python 2.7. Thanks to [Harihar Khanal](https://faculty.erau.edu/khana66a) for suggesting the fix. Open a terminal and do the following steps.
 
-<pre><code>
-conda create -n python27 python=2.7
+<pre><code>conda create -n python27 python=2.7
 conda activate python27
 pip install geneagrapher
-brew install graphviz
-</code></pre>
+brew install graphviz</code></pre>
