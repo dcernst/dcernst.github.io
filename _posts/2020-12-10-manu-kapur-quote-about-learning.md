@@ -1,5 +1,5 @@
 ---
-title: Quote by Manu Kapur
+title: Two quotes by Manu Kapur about learning and productive failure
 author: Dana Ernst
 layout: post
 permalink: /manu-kapur-quote-about-learning/
