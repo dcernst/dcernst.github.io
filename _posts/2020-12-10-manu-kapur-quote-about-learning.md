@@ -1,5 +1,4 @@
 ---
----
 title: Quote by Manu Kapur
 author: Dana Ernst
 layout: post
