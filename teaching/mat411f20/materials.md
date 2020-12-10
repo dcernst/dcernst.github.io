@@ -103,7 +103,7 @@ The notes will be released incrementally. Each link below is to a PDF file. If y
     - [Group Definition (expanded) - Abstract Algebra &#124; Socratica](https://www.youtube.com/watch?v=g7L_r6zw4-c&list=PLi01XoE8jYoi3SgnnGorR_XOW3IcK-TP6&index=2) (11:14 min)
 - [Setting the Stage]({{ site.baseurl }}/teaching/SettingTheStage.pdf) (PDF)
 - [Living Proof]({{site.baseurl}}/teaching/LivingProof.pdf)
-- [Inquiry-Based Learning in Less Than Five Minutes](https://www.youtube.com/watch?v=QlwkerwaV2E) (4:37 min)
+<!-- - [Inquiry-Based Learning in Less Than Five Minutes](https://www.youtube.com/watch?v=QlwkerwaV2E) (4:37 min) -->
 - [The Secret to Raising Smart Kids &#124; Carol Dweck](https://www.scientificamerican.com/article/the-secret-to-raising-smart-kids1/) (article on Scientific American)
 - [7 Things Growth Mindset is Not](https://www.turnaroundusa.org/7-things-growth-mindset-is-not/) (article on Turn Around for Children)
 - Videos on Growth Mindset and Productive Failure

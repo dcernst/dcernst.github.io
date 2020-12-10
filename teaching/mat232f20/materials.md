@@ -34,7 +34,7 @@ Below you will find notes and resources that we will utilize. We will add to the
 <!-- - [Student Contract]({{ site.baseurl }}/teaching/StudentContract.pdf) (PDF) -->
 - [Setting the Stage]({{ site.baseurl }}/teaching/SettingTheStage.pdf) (PDF)
 - [Living Proof]({{site.baseurl}}/teaching/LivingProof.pdf)
-- [Inquiry-Based Learning in Less Than Five Minutes](https://www.youtube.com/watch?v=QlwkerwaV2E) (4:37 min)
+<!-- - [Inquiry-Based Learning in Less Than Five Minutes](https://www.youtube.com/watch?v=QlwkerwaV2E) (4:37 min) -->
 - [The Secret to Raising Smart Kids &#124; Carol Dweck](https://www.scientificamerican.com/article/the-secret-to-raising-smart-kids1/) (article on Scientific American)
 - [7 Things Growth Mindset is Not](https://www.turnaroundusa.org/7-things-growth-mindset-is-not/) (article on Turn Around for Children)
 - Videos on Growth Mindset and Productive Failure
