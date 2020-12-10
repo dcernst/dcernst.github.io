@@ -34,6 +34,7 @@ Below you will find notes and resources that we will utilize. We will add to the
 <!-- - [Student Contract]({{ site.baseurl }}/teaching/StudentContract.pdf) (PDF) -->
 - [Setting the Stage]({{ site.baseurl }}/teaching/SettingTheStage.pdf) (PDF)
 - [Living Proof]({{site.baseurl}}/teaching/LivingProof.pdf)
+- [Inquiry-Based Learning in Less Than Five Minutes](https://www.youtube.com/watch?v=QlwkerwaV2E) (4:37 min)
 - [The Secret to Raising Smart Kids &#124; Carol Dweck](https://www.scientificamerican.com/article/the-secret-to-raising-smart-kids1/) (article on Scientific American)
 - [7 Things Growth Mindset is Not](https://www.turnaroundusa.org/7-things-growth-mindset-is-not/) (article on Turn Around for Children)
 - Videos on Growth Mindset and Productive Failure
@@ -49,6 +50,7 @@ Below you will find notes and resources that we will utilize. We will add to the
     - [KhanAcademy interview with Carol Dweck about growth mindset](https://www.youtube.com/watch?time_continue=1&v=wh0OS4MrN3E) (3:06 min)
     - [Make Mistakes &#124; Michael Starbird](https://www.youtube.com/watch?v=2yYQ-1X2ocU) (2:11 min)
     - [Ira Glass on the Creative Process](https://www.youtube.com/watch?v=PbC4gqZGPSY&feature=youtu.be) (1:54 min)
+    - [Productive Failure &#124; Manu Kapur &#124; TEDxLugano](https://www.youtube.com/watch?feature=youtu.be&v=VOKJmg34wME&app=desktop) (17:28 min)
 - [The State of Being Stuck &#124; Ben Orlin](https://mathwithbaddrawings.com/2017/09/20/the-state-of-being-stuck/) (blog post on Math with Bad Drawings)
 - [The Chinese Farmer &#124; Alan Watts](https://www.youtube.com/watch?feature=share&v=eJShr4VdvxQ&app=desktop) (2:26 min)
 - [Do Schools Kill Creativity? &#124; Ken Robinson](https://www.ted.com/talks/ken_robinson_says_schools_kill_creativity?language=en) (19:22 min)
