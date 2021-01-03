@@ -7,7 +7,7 @@ layout: default
 <ol class="breadcrumb">
   <li><a href="/"><i class="fa fa-home"></i></a></li>
   <li><a href="/teaching/">Teaching</a></li>
-  <li><a href="/teaching/mat526s21">MAT411</a></li>
+  <li><a href="/teaching/mat526s21">MAT526</a></li>
   <li class="active">{{ page.title }}</li>
 </ol>
 
