@@ -15,10 +15,10 @@ This section is primarily designed for my current students, but if you are not o
 My current office hours for Spring 2021 are TBA (or by appointment). Until further notice, all of my office hours will be held via Zoom. You can find the Zoom link for office hours in [BbLearn](https://bblearn.nau.edu). My office is located in room 176 of the [Adel Mathematics Building](http://maps.google.com/maps?q=Adel+Mathematics,+Flagstaff,+AZ&hl=en&sll=35.181208,-111.607959&sspn=0.231222,0.42675&oq=adel+mathe&hnear=Adel+Mathematics,+Flagstaff,+Arizona+86001&t=m&z=17) (Building 26).
 
 ## Current Courses ##
-Here are the courses that I am currently teaching (Fall 2020) at [Northern Arizona University](http://nau.edu).
+Here are the courses that I am currently teaching (Spring 2021) at [Northern Arizona University](http://nau.edu).
 
-- [MAT 431: Introduction to Analysis, Spring 2020]({{ site.baseurl }}/teaching/mat431s21)
-- [MAT 526: Topics in Combinatorics, Spring 2019]({{ site.baseurl }}/teaching/mat526s21)
+- [MAT 431: Introduction to Analysis, Spring 2021]({{ site.baseurl }}/teaching/mat431s21)
+- [MAT 526: Topics in Combinatorics, Spring 2021]({{ site.baseurl }}/teaching/mat526s21)
 
 ## Previous Courses ##
 This is a (partial) list of courses that I have taught over the past several semesters. **Note:** Some of the links on the pages below may be outdated.
