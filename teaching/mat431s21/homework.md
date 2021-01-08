@@ -39,6 +39,6 @@ The following framework assumes that we will be in a remote setting. If we happe
 Unless otherwise indicated, submit each of the following assignments via BbLearn. I reserve the right to modify the assignment if the need arises.  These exercises will form the basis of the student-led presentations.
 <!-- The following assignments are due at the beginning of the indicated class meeting. However, most assignments will be collected at the end of the class meeting.  I reserve the right to modify the assignment if the need arises.  These exercises will form the basis of the student-led presentations.  Daily assignments will be graded on a $\checkmark$-system.  During class, **you are only allowed and encouraged to annotate your homework using the colored marker pens that I provide**. -->
 
-- **Homework 1:** Read the [syllabus]({{site.baseurl}}/teaching/mat431s21/syllabus/) and write down 5 important items. Submit a PDF of your written work to the corresponding assignment on BbLearn. *Note:*  All of the exam dates only count as a single item.  (Due ???)
-- **Homework 2:** Create a free [Discord](http://discord.com) account, accept the invite to our Discord server, and post something about yourself in the #introductions channel. (Due ???)
-- **Homework 3:** TBA (Due ???)
+- **Homework 1:** Read the [syllabus]({{site.baseurl}}/teaching/mat431s21/syllabus/) and write down 5 important items. Submit a PDF of your written work to the corresponding assignment on BbLearn. *Note:*  All of the exam dates only count as a single item.  (Due Wednesday, January 13)
+- **Homework 2:** Create a free [Discord](http://discord.com) account, accept the invite to our Discord server, and post something about yourself in the #introductions channel. (Due Wednesday, January 13)
+- **Homework 3:** TBA (Due Wednesday, January 13)

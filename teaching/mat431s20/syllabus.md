@@ -104,7 +104,7 @@ This course introduces basic concepts and methods of analysis. The course focuse
 - The Real Number System: axioms; supremum and infimum.
 - Topology of the real number system including completeness, compactness.
 - Sequences and Convergence, including the algebra of limits.
-- Limits of Functions, including the algebra of limits.% and limits for monotone functions.
+- Limits of Functions, including the algebra of limits.
 - Continuity, including the algebra of continuous functions, continuity of compositions, and uniform continuity.
 - Differentiation, including the algebra of derivatives, chain rule, Mean Value Theorem, Inverse Function Theorem, applications to behavior of functions, Taylor's Theorem and L'Hospital's Rule.
 - Riemann integration, including linearity and order properties, integrability of continuous functions, Riemann sums, the Fundamental Theorem of Calculus.
