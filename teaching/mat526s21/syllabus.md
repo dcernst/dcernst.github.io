@@ -58,8 +58,6 @@ layout: default
   </div>
 </div>
 
-</div>
-
 ### Prerequisites ###
 MAT 226, MAT 316, and MAT 411 with grades of C or better.
 
