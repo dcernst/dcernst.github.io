@@ -50,7 +50,7 @@ layout: default
       <h2>Instructor Info</h2>
       <i class="fa fa-user fa-fw"></i>&nbsp; Dana C. Ernst, PhD<br />
       <i class="fa fa-university fa-fw"></i>&nbsp; AMB 176<br />
-      <i class="fa fa-users fa-fw"></i>&nbsp; TBAF<br />
+      <i class="fa fa-users fa-fw"></i>&nbsp; MWF 1:30-2:30PM, T 1:00-2:00PM via Zoom<br />
       <i class="far fa-envelope fa-fw"></i>&nbsp; <a href="mailto:dana.ernst@nau.edu">dana.ernst@nau.edu</a><br />
       <i class="fa fa-phone fa-fw"></i>&nbsp; 928.523.6852<br />
       <i class="fa fa-link fa-fw"></i>&nbsp; <a href="{{site.baseurl}}">danaernst.com</a>
@@ -584,13 +584,10 @@ As per Department Policy, cell phones, MP3 players and portable electronic commu
 ### Important Dates ###
 Here are some important dates:
 
-- **Friday, August 21:** Last day to Drop courses without a "W"
-- **Monday, September 7:** Labor Day (no classes)
-- **Monday, October 19:** Last day to drop individual courses without a petition
-- **Wednesday, November 11:** Veteran's Day (no classes)
-- **Wednesday, November 11:** Last Day to withdraw from all classes in session
-- **Thursday, November 19:** Reading Day (no classes)
-- **Monday, November 23:** Final Exam (7:30-9:30AM)
+- **January 18:** Martin Luther King Day (no classes)
+- **January 20:** Last day to drop a course without a "W"
+- **March 14:** Last day to drop a course without a petition
+- **April 28:** Final Exam (7:30-9:30AM)
 
 ### Getting Help ###
 There are many resources available to get help.  First, you are allowed and encouraged to work together on homework.  However, each student is expected to turn in his or her own work. You are strongly encouraged to ask questions in our Discord discussion group, as I (and hopefully other members of the class) will post comments there for all to benefit from.  You are also encouraged to stop by during my office hours and you can always [email me](mailto:dana.ernst@nau.edu).  I am always happy to help you.  If my office hours don't work for you, then we can probably find another time to meet.  It is your responsibility to be aware of how well you understand the material.  Don't wait until it is too late if you need help.  *Ask questions*!
