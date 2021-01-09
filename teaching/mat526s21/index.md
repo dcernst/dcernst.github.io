@@ -54,6 +54,8 @@ Welcome to the course web page for the Spring 2021 manifestation of MAT 526: Top
   </div>
 </div>
 
+<br />
+
 <blockquote>
 <p>The mathematician does not study pure mathematics because it is useful; he studies it because he delights in it, and he delights in it because it is beautiful.</p>
 <footer><a href="https://en.wikipedia.org/wiki/Henri_Poincaré">Henri Poincaré</a></footer>
