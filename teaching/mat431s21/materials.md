@@ -52,14 +52,15 @@ We will not be using a traditional textbook this semester, but rather a problem 
 - Chapter 5: Continuity (Coming soon)
 - Chapter 6: Differentiation (Coming soon)
 - Chapter 7: Integration (Coming soon)
+- [Appendix A: Elements of Style for Proofs]({{site.baseurl}}/teaching/mat431s20/ElementsOfStyle.pdf)
+- [Appendix B: Fancy Mathematical Terms]({{site.baseurl}}/teaching/mat431s20/FancyMathematicalTerms.pdf)
+- [Appendix C: Definitions in Mathematics]({{site.baseurl}}/teaching/mat431s20/Definitions.pdf)
+
 <!-- - [Chapter 3: Sequences and Completeness]({{site.baseurl}}/teaching/mat431s20/PointSetsSequences.pdf)
 - [Chapter 4: Standard Topology of the Real Line]({{site.baseurl}}/teaching/mat431s20/Topology.pdf)
 - [Chapter 5: Continuity]({{site.baseurl}}/teaching/mat431s20/Continuity.pdf)
 - [Chapter 6: Differentiation]({{site.baseurl}}/teaching/mat431s20/Differentiation.pdf)
 - [Chapter 7: Integration]({{site.baseurl}}/teaching/mat431s20/Integration.pdf) -->
-- [Appendix A: Elements of Style for Proofs]({{site.baseurl}}/teaching/mat431s20/ElementsOfStyle.pdf)
-- [Appendix B: Fancy Mathematical Terms]({{site.baseurl}}/teaching/mat431s20/FancyMathematicalTerms.pdf)
-- [Appendix C: Definitions in Mathematics]({{site.baseurl}}/teaching/mat431s20/Definitions.pdf)
 
 I will not be covering every detail of the notes and the only way to achieve a sufficient understanding of the material is to be digesting the reading in a meaningful way.  You should be seeking clarification about the content of the notes whenever necessary by asking questions.  Here's one of my favorite quotes about reading mathematics.
 
