@@ -44,15 +44,19 @@ We will not be using a traditional textbook this semester, but rather a problem 
     - 1.6 Structure of the Notes
     - 1.7 Some Minimal Guidance
 - [Chapter 2: Preliminaries]({{site.baseurl}}/teaching/mat431s20/Preliminaries.pdf)
-    - 2.1 Basics
-    - 2.2 Logic Review
-    - 2.3 Sets and Functions
-    - 2.4 Order Properties of the Real Numbers
-- [Chapter 3: Point Sets and Sequences]({{site.baseurl}}/teaching/mat431s20/PointSetsSequences.pdf)
+    - 2.1 Sets
+    - 2.2 Functions
+    - 2.3 The Real Numbers (This section may get an update!)
+- Chapter 3: Sequences and Completeness (Coming soon)
+- Chapter 4: Standard Topology of the Real Line (Coming soon)
+- Chapter 5: Continuity (Coming soon)
+- Chapter 6: Differentiation (Coming soon)
+- Chapter 7: Integration (Coming soon)
+<!-- - [Chapter 3: Sequences and Completeness]({{site.baseurl}}/teaching/mat431s20/PointSetsSequences.pdf)
 - [Chapter 4: Standard Topology of the Real Line]({{site.baseurl}}/teaching/mat431s20/Topology.pdf)
 - [Chapter 5: Continuity]({{site.baseurl}}/teaching/mat431s20/Continuity.pdf)
 - [Chapter 6: Differentiation]({{site.baseurl}}/teaching/mat431s20/Differentiation.pdf)
-- [Chapter 7: Integration]({{site.baseurl}}/teaching/mat431s20/Integration.pdf)
+- [Chapter 7: Integration]({{site.baseurl}}/teaching/mat431s20/Integration.pdf) -->
 - [Appendix A: Elements of Style for Proofs]({{site.baseurl}}/teaching/mat431s20/ElementsOfStyle.pdf)
 - [Appendix B: Fancy Mathematical Terms]({{site.baseurl}}/teaching/mat431s20/FancyMathematicalTerms.pdf)
 - [Appendix C: Definitions in Mathematics]({{site.baseurl}}/teaching/mat431s20/Definitions.pdf)

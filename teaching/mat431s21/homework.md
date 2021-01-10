@@ -41,4 +41,4 @@ Unless otherwise indicated, submit each of the following assignments via BbLearn
 
 - **Homework 1:** Read the [syllabus]({{site.baseurl}}/teaching/mat431s21/syllabus/) and write down 5 important items. Submit a PDF of your written work to the corresponding assignment on BbLearn. *Note:*  All of the exam dates only count as a single item.  (Due Wednesday, January 13)
 - **Homework 2:** Create a free [Discord](http://discord.com) account, accept the invite to our Discord server, and post something about yourself in the #introductions channel. (Due Wednesday, January 13)
-- **Homework 3:** TBA (Due Wednesday, January 13)
+- **Homework 3:** Read the [Preface]({{site.baseurl}}/teaching/mat431s21/Preface.pdf) and [Introduction]({{site.baseurl}}/teaching/mat431s21/Introduction.pdf). In addition, complete 2.1, 2.2, 2.4-2.14 in [Chapter 2: Preliminaries]({{site.baseurl}}/teaching/mat431s21/Preliminaries.pdf). (Due Wednesday, January 13)
