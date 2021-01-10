@@ -34,7 +34,7 @@ We will not be using a traditional textbook this semester, but rather a problem 
 - [Chapter 1: Introduction]({{site.baseurl}}/teaching/mat431s20/Introduction.pdf)
     - 1.1 What is This Course All About?
     - 1.2 An Inquiry-Based Approach
-    - 1.3 Rights of theLearner
+    - 1.3 Rights of the Learner
     - 1.4 Your Toolbox, Questions, and Observations
     - 1.5 Rules of the Game
     - 1.6 Structure of the Notes
