@@ -36,4 +36,13 @@ I reserve the right to modify the assignment if the need arises.
 
 - **Homework 1:** Read the [syllabus]({{site.baseurl}}/teaching/mat526s21/syllabus/) and write down 5 important items. Submit a PDF of your written work to the corresponding assignment on BbLearn. *Note:*  All of the exam dates only count as a single item.  (Due Wednesday, January 13)
 - **Homework 2:** Create a free [Discord](http://discord.com) account, accept the invite to our Discord server, and post something about yourself in the #introductions channel. (Due Wednesday, January 13)
-- **Homework 3:** TBA (Due Wednesday, January 20)
+- **Homework 3:** Complete the following problems. (Due Wednesday, January 20)
+    1. Find all 231-avoiding permutations in $S_5$ (*Hint:* There are 42) and organize them based on the number of maximal decreasing runs.
+    2. Find all non-crossing partitions on 5 elements and organize them based on the number of blocks.
+    3. Pick any five 231-permutations from $S_5$ and determine which NC-partitions they map to using the bijection that I outlined in class on January 13.
+    4. Complete Problem 1.1.
+    5. Prove that the total number of compositions of $n$ is $2^{n-1}$ without appealing to Problem 1.1. Try to find a bijective proof.  Consider using the stones and bars model described in the solution to Problem 1.1. For example, the composition $(1,3,2)$ on $n=6$ could corresponds to $\circ | \circ \circ \circ | \circ \circ$.
+    6. Use the previous two problems to explain why $\sum_{k=1}^n\binom{n-1}{k-1}=2^{n-1}$.
+    7. Complete Problem 1.2 (all three parts).
+    8. Enumerate the compositions of $n$ such that each part is odd and greater than 1.
+    9. Complete Problem 1.3. Do this in two different ways: Using Pascal's Triangle vs. using Problem 1.2.
