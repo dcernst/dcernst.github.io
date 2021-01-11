@@ -33,9 +33,9 @@ We will not be using a traditional textbook this semester, but rather a problem 
 <i class="fa fa-exclamation-triangle"></i>&nbsp; These notes are currently under construction and subject to change.
 </div>
 
-- [Title Page and Front Matter]({{site.baseurl}}/teaching/mat431s20/FrontMatter.pdf)
-- [Preface]({{site.baseurl}}/teaching/mat431s20/Preface.pdf)
-- [Chapter 1: Introduction]({{site.baseurl}}/teaching/mat431s20/Introduction.pdf)
+- [Title Page and Front Matter]({{site.baseurl}}/teaching/mat431s21/FrontMatter.pdf)
+- [Preface]({{site.baseurl}}/teaching/mat431s21/Preface.pdf)
+- [Chapter 1: Introduction]({{site.baseurl}}/teaching/mat431s21/Introduction.pdf)
     - 1.1 What is This Course All About?
     - 1.2 An Inquiry-Based Approach
     - 1.3 Rights of the Learner
@@ -43,7 +43,7 @@ We will not be using a traditional textbook this semester, but rather a problem 
     - 1.5 Rules of the Game
     - 1.6 Structure of the Notes
     - 1.7 Some Minimal Guidance
-- [Chapter 2: Preliminaries]({{site.baseurl}}/teaching/mat431s20/Preliminaries.pdf)
+- [Chapter 2: Preliminaries]({{site.baseurl}}/teaching/mat431s21/Preliminaries.pdf)
     - 2.1 Sets
     - 2.2 Functions
     - 2.3 The Real Numbers (This section may get an update!)
@@ -52,15 +52,15 @@ We will not be using a traditional textbook this semester, but rather a problem 
 - Chapter 5: Continuity (Coming soon)
 - Chapter 6: Differentiation (Coming soon)
 - Chapter 7: Integration (Coming soon)
-- [Appendix A: Elements of Style for Proofs]({{site.baseurl}}/teaching/mat431s20/ElementsOfStyle.pdf)
-- [Appendix B: Fancy Mathematical Terms]({{site.baseurl}}/teaching/mat431s20/FancyMathematicalTerms.pdf)
-- [Appendix C: Definitions in Mathematics]({{site.baseurl}}/teaching/mat431s20/Definitions.pdf)
+- [Appendix A: Elements of Style for Proofs]({{site.baseurl}}/teaching/mat431s21/ElementsOfStyle.pdf)
+- [Appendix B: Fancy Mathematical Terms]({{site.baseurl}}/teaching/mat431s21/FancyMathematicalTerms.pdf)
+- [Appendix C: Definitions in Mathematics]({{site.baseurl}}/teaching/mat431s21/Definitions.pdf)
 
-<!-- - [Chapter 3: Sequences and Completeness]({{site.baseurl}}/teaching/mat431s20/PointSetsSequences.pdf)
-- [Chapter 4: Standard Topology of the Real Line]({{site.baseurl}}/teaching/mat431s20/Topology.pdf)
-- [Chapter 5: Continuity]({{site.baseurl}}/teaching/mat431s20/Continuity.pdf)
-- [Chapter 6: Differentiation]({{site.baseurl}}/teaching/mat431s20/Differentiation.pdf)
-- [Chapter 7: Integration]({{site.baseurl}}/teaching/mat431s20/Integration.pdf) -->
+<!-- - [Chapter 3: Sequences and Completeness]({{site.baseurl}}/teaching/mat431s21/PointSetsSequences.pdf)
+- [Chapter 4: Standard Topology of the Real Line]({{site.baseurl}}/teaching/mat431s21/Topology.pdf)
+- [Chapter 5: Continuity]({{site.baseurl}}/teaching/mat431s21/Continuity.pdf)
+- [Chapter 6: Differentiation]({{site.baseurl}}/teaching/mat431s21/Differentiation.pdf)
+- [Chapter 7: Integration]({{site.baseurl}}/teaching/mat431s21/Integration.pdf) -->
 
 I will not be covering every detail of the notes and the only way to achieve a sufficient understanding of the material is to be digesting the reading in a meaningful way.  You should be seeking clarification about the content of the notes whenever necessary by asking questions.  Here's one of my favorite quotes about reading mathematics.
 
