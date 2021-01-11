@@ -279,14 +279,6 @@ Not completing the self-assessment step may impact the score on your homework. O
 </table>
 </center>
 
-### Exams ###
-There will be two midterm exams and a cumulative final exam.  Each exam will consist of an "in-class" and possibly a take-home portion. Exam 1 and Exam 2 are *tentatively* scheduled for **Friday, February 19** (week 6) and **Friday, April 2** (week 12), respectively.  Each of Exam 1 and Exam 2 will be worth 20% of your overall grade. The final exam will be on **Monday, April 26** at 7:30-9:30AM and is worth 20% of your overall grade. If any of the exams have a take-home portion, you will have a few days to complete it. Make-up exams will only be given under extreme circumstances, as judged by me. In general, it will be best to communicate conflicts ahead of time.
-
-<blockquote>
-<p>I write one page of masterpiece to ninety-one pages of shit.</p>
-<footer><a href="https://en.wikipedia.org/wiki/Ernest_Hemingway">Ernest Hemingway</a></footer>
-</blockquote>
-
 ### Presentations and Participation ###
 
 #### General Comments
@@ -449,6 +441,14 @@ And when it has gone past I will turn the inner eye to see its path.<br />
 Where the fear has gone there will be nothing.<br />
 Only I will remain.</p>
 <footer class="blockquote-footer"><a href="https://en.wikipedia.org/wiki/Bene_Gesserit#Litany_against_fear">Bene Gesserit litany against fear</a> from Frank Herbert's <a href="https://en.wikipedia.org/wiki/Frank_Herbert%27s_Dune">Dune</a></footer>
+</blockquote>
+
+### Exams ###
+There will be two midterm exams and a cumulative final exam.  Each exam will consist of an "in-class" and possibly a take-home portion. Exam 1 and Exam 2 are *tentatively* scheduled for **Friday, February 19** (week 6) and **Friday, April 2** (week 12), respectively.  Each of Exam 1 and Exam 2 will be worth 20% of your overall grade. The final exam will be on **Monday, April 26** at 7:30-9:30AM and is worth 20% of your overall grade. If any of the exams have a take-home portion, you will have a few days to complete it. Make-up exams will only be given under extreme circumstances, as judged by me. In general, it will be best to communicate conflicts ahead of time.
+
+<blockquote>
+<p>I write one page of masterpiece to ninety-one pages of shit.</p>
+<footer><a href="https://en.wikipedia.org/wiki/Ernest_Hemingway">Ernest Hemingway</a></footer>
 </blockquote>
 
 ### Attendance ###
