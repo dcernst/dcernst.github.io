@@ -219,11 +219,9 @@ Homework will be assigned almost every class meeting, and students are expected 
 </table>
 </center>
 
-Not completing the self-assessment step may impact the score on your homework. On the day that a homework assignment is due, the majority of the class period will be devoted to students presenting some subset (maybe all) of the proofs/solutions that are due that day.  
+Not completing the self-assessment step may impact the score on your homework. On the day that a homework assignment is due, the majority of the class period will be devoted to students presenting some subset (maybe all) of the proofs/solutions that are due that day.  With a few exceptions, homework assignment will consist of two parts.
 
-The following framework assumes that we will be in a remote setting. If we happen to return to face-to-face classes, we will adjust in a natural way. With a few exceptions, homework assignment will consist of two parts.
-
-**Part 1:** Prior to the start of class, you will need to capture your handwritten work digitally and then upload a PDF to BbLearn. There are many free smartphone apps for doing this. I use TurboScan on my iPhone. Submitting your work prior to class allows me to see what you accomplished outside of class. Part 1 will be assessed using the following rubric.
+**Part 1:** This portion of the assignment is named "Homework X" in BbLearn, where "X" is the number of the assignment. Prior to the start of class, you will need to capture your handwritten work digitally and then upload a PDF to BbLearn. There are many free smartphone apps for doing this. I use TurboScan on my iPhone. Submitting your work prior to class allows me to see what you accomplished outside of class. Part 1 will be assessed using the following rubric.
 
 <center>
 <table class="table table-striped">
@@ -254,7 +252,7 @@ The following framework assumes that we will be in a remote setting. If we happe
 </table>
 </center>
 
-**Part 2:** During class, we will discuss most of the problems that are due that day. While we are discussing them, you should either annotate your work and/or take notes on separate paper. It's expected that most of the work you did prior to class will need to be refined. It is your responsibility to process this in some way. Annotating your work or taking notes will increase the chances that you are processing the work in a meaningful way. If you choose to annotate your work, **please use a different color** than what you originally used to complete your assignment.  After class, you will need to capture your annotations/notes digitally and then upload a PDF to BbLearn. Part 2 will be assessed using the following rubric.
+**Part 2:** This portion of the assignment is named "Notes X.Y" in BbLearn, where "X.Y" is the date of class. During class, we will discuss most of the problems that are due that day. While we are discussing them, you should either annotate your work and/or take notes on separate paper. It's expected that most of the work you did prior to class will need to be refined. It is your responsibility to process this in some way. Annotating your work or taking notes will increase the chances that you are processing the work in a meaningful way. If you choose to annotate your work, **please use a different color** than what you originally used to complete your assignment.  After class, you will need to capture your annotations/notes digitally and then upload a PDF to BbLearn. Part 2 will be assessed using the following rubric.
 
 <center>
 <table class="table table-striped">
