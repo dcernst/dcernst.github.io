@@ -36,7 +36,7 @@ We’ll use this page to keep track of what has happened each day in class. It w
 ## Week 1 ##
 
 <ul class="fa-ul">
-  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, January 11:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, January 11:</b> First day! We spent the majority of the time discussing logistics.  In particular, we did took a brief tour of the course webpage, BbLearn, and Discord. We spent a few minutes discussing the first few homework problems.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, January 13:</b> Coming soon.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Friday, January 15:</b> Coming soon.</li>
 </ul>
