@@ -41,7 +41,7 @@ I reserve the right to modify the assignment if the need arises.
     2. Find all non-crossing partitions on 5 elements and organize them based on the number of blocks.
     3. Pick any five 231-permutations from $S_5$ and determine which NC-partitions they map to using the bijection that I outlined in class on January 13.
     4. Complete Problem 1.1.
-    5. Prove that the total number of compositions of $n$ is $2^{n-1}$ without appealing to Problem 1.1. Try to find a bijective proof.  Consider using the stones and bars model described in the solution to Problem 1.1. For example, the composition $(1,3,2)$ on $n=6$ could corresponds to $\circ \mid \circ \circ \circ \mid \circ \circ$.
+    5. Prove that the total number of compositions of $n$ is $2^{n-1}$ without appealing to Problem 1.1. Try to find a bijective proof.  Consider using the stones and bars model described in the solution to Problem 1.1. For example, the composition $(1,3,2)$ on $n=6$ corresponds to $\circ \mid \circ \circ \circ \mid \circ \circ$.
     6. Use the previous two problems to explain why $\sum_{k=1}^n\binom{n-1}{k-1}=2^{n-1}$.
     7. Complete Problem 1.2 (all three parts).
     8. Consider a $1\times n$ array of the numbers 1 through $n$. Suppose we have tiles of size $1\times 1$ and $1\times 2$ such that the tiles cover exactly one and two numbers of our array, respectively.  In how many ways can we tile our array?
