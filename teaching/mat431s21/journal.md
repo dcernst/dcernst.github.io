@@ -37,6 +37,6 @@ We’ll use this page to keep track of what has happened each day in class. It w
 
 <ul class="fa-ul">
   <li><i class="fa-li far fa-calendar-check"></i><b>Monday, January 11:</b> First day! We spent the majority of the time discussing logistics.  In particular, we did took a brief tour of the course webpage, BbLearn, and Discord. We spent a few minutes discussing the first few homework problems.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, January 13:</b> After reviewing some nuts and bolts about the course, we quickly went over solutions to a few of the homework problems, and then we jumped into student presentations.  We had ZM, AG, and MW present 2.4, 2.5, and 2.13(a), respectively.  Great first day of presentations!</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, January 13:</b> After reviewing some nuts and bolts about the course, we quickly went over solutions to a few of the homework problems, and then we jumped into student presentations.  We had ZM, AG/MH, and MW present 2.4, 2.5, and 2.13(a), respectively.  Great first day of presentations!</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Friday, January 15:</b> Coming soon.</li>
 </ul>
