@@ -208,7 +208,7 @@ Generally, the written homework assignments will be due on Mondays, but I will a
 </table>
 </center>
 
-To compute your score on a given homework assignment, I will divide your total points by the total possible points to obtain a percent score. Each homework assignment has the same weight.  Your overall homework grade will be worth 25% of your final grade.
+To compute your score on a given homework assignment, I will divide your total points by the total possible points to obtain a percent score. Each homework assignment has the same weight.  Your overall homework grade will be worth 35% of your final grade.
 
 <blockquote>
 <p>I write one page of masterpiece to ninety-one pages of shit.</p>
@@ -262,7 +262,7 @@ In summary, your final grade will be determined by your scores in the following 
 	<tr>
 		<td>Exam 1</td>
 		<td style="text-align: center;">25%</td>
-		<td>In-class portion on Fridy, February 26, possible take-home portion</td>
+		<td>In-class portion on Friday, February 26, possible take-home portion</td>
 	</tr>
   <tr>
     <td>Exam 2</td>
