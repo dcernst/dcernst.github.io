@@ -46,4 +46,4 @@ I reserve the right to modify the assignment if the need arises.
     7. Complete Problem 1.2 (all three parts).
     8. Consider a $1\times n$ array of the numbers 1 through $n$. Suppose we have tiles of size $1\times 1$ and $1\times 2$ such that the tiles cover exactly one and two numbers of our array, respectively.  In how many ways can we tile our array?
     9. Enumerate the compositions of $n$ such that each part is odd and greater than 1.
-    10. Complete Problem 1.3. Do this in two different ways: Using Pascal's Triangle vs. using Problem 1.2.
+    10. Complete Problem 1.3. Do this in two different ways: Using Pascal's Recurrence vs. using Problem 1.2.
