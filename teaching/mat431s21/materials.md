@@ -46,7 +46,7 @@ We will not be using a traditional textbook this semester, but rather a problem 
 - [Chapter 2: Preliminaries]({{site.baseurl}}/teaching/mat431s21/Preliminaries.pdf)
     - 2.1 Sets
     - 2.2 Functions
-    - 2.3 The Real Numbers (This section may get an update!)
+    - 2.3 The Real Numbers
 - Chapter 3: Sequences and Completeness (Coming soon)
 - Chapter 4: Standard Topology of the Real Line (Coming soon)
 - Chapter 5: Continuity (Coming soon)
