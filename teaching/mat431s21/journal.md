@@ -46,5 +46,13 @@ We’ll use this page to keep track of what has happened each day in class. It w
 <ul class="fa-ul">
   <li><i class="fa-li far fa-calendar-check"></i><b>Monday, January 18:</b> No classes.  MLK Day!</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, January 20:</b> Another busy day.  We more or less got caught up.  We had SA, KB, HG, MH, AR, MS, JL, ML, and EB present Problems 2.32(a), 2.32(b), 2.32(c), 2.32(d), 2.33, 2.34, 2.35, 2.42(a), and 2.42(c), respectively.  Along the way, I presented Problems 2.24, 2.25, 2.30, 2.32(e), 2.37, 2.38, and 2.42(b).</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, January 22:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, January 22:</b> We slowed way down today, but totally worth it.  We had JC, ID, LG, and HH present Problems 2.43, 2.44, 2.46(a), and 2.46(b), respectively.  I wrote a solution down to Problem 2.47 at the beginning of class and then I presented Problem 2.45 along the way.</li>
+</ul>
+
+## Week 3 ##
+
+<ul class="fa-ul">
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, January 25:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, January 27:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, January 29:</b> Coming soon.</li>
 </ul>
