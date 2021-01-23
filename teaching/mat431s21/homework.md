@@ -45,3 +45,4 @@ Unless otherwise indicated, submit each of the following assignments via BbLearn
 - **Homework 4:** Quickly skim Appendices A, B, and C. In addition, complete 2.16-2.22, 2.24, 2.25, 2.28, 2.30 in [Chapter 2: Preliminaries]({{site.baseurl}}/teaching/mat431s21/Preliminaries.pdf). (Due Friday, January 15)
 - **Homework 5:** Complete 2.31-2.38, 2.40-2.42 in [Chapter 2: Preliminaries]({{site.baseurl}}/teaching/mat431s21/Preliminaries.pdf). (Due Wednesday, January 20)
 - **Homework 6:** Complete 2.43-2.50 in [Chapter 2: Preliminaries]({{site.baseurl}}/teaching/mat431s21/Preliminaries.pdf). (Due Friday, January 22)
+- **Homework 7:** Complete (posted later) in [Chapter 2: Preliminaries]({{site.baseurl}}/teaching/mat431s21/Preliminaries.pdf). (Due Wednesday, January 27)
