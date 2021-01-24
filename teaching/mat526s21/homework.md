@@ -37,4 +37,4 @@ I reserve the right to modify the assignment if the need arises.
 - **Homework 1:** Read the [syllabus]({{site.baseurl}}/teaching/mat526s21/syllabus/) and write down 5 important items. Submit a PDF of your written work to the corresponding assignment on BbLearn. *Note:*  All of the exam dates only count as a single item.  (Due Wednesday, January 13)
 - **Homework 2:** Create a free [Discord](http://discord.com) account, accept the invite to our Discord server, and post something about yourself in the #introductions channel. (Due Wednesday, January 13)
 - **Homework 3:** Complete the problems found [here]({{site.baseurl}}/teaching/mat526s21/526HW3.pdf). (Due Wednesday, January 20)
-- **Homework 4:** Complete the problems found [here]({{site.baseurl}}/teaching/mat526s21/526HW4.pdf). (Due Monday, January 25)
+- **Homework 4:** Complete the problems found [here]({{site.baseurl}}/teaching/mat526s21/526HW4.pdf). **Important!** Problem 2 has been updated.  It had an "off by one" error in the index. (Due <s>Monday, January 25</s> Tuesday, January 26)
