@@ -38,3 +38,4 @@ I reserve the right to modify the assignment if the need arises.
 - **Homework 2:** Create a free [Discord](http://discord.com) account, accept the invite to our Discord server, and post something about yourself in the #introductions channel. (Due Wednesday, January 13)
 - **Homework 3:** Complete the problems found [here]({{site.baseurl}}/teaching/mat526s21/526HW3.pdf). (Due Wednesday, January 20)
 - **Homework 4:** Complete the problems found [here]({{site.baseurl}}/teaching/mat526s21/526HW4.pdf). **Important!** Problem 2 has been updated.  It had an "off by one" error in the index. (Due <s>Monday, January 25</s> Tuesday, January 26)
+- **Homework 5:** Complete the problems found [here]({{site.baseurl}}/teaching/mat526s21/526HW5.pdf). (Due Monday, February 1)
