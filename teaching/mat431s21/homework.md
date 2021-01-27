@@ -46,4 +46,4 @@ Unless otherwise indicated, submit each of the following assignments via BbLearn
 - **Homework 5:** Complete 2.31-2.38, 2.40-2.42 in [Chapter 2: Preliminaries]({{site.baseurl}}/teaching/mat431s21/Preliminaries.pdf). (Due Wednesday, January 20)
 - **Homework 6:** Complete 2.43-2.50 in [Chapter 2: Preliminaries]({{site.baseurl}}/teaching/mat431s21/Preliminaries.pdf). (Due Friday, January 22)
 - **Homework 7:** Complete 2.53, 2.55-2.58, 2.60 in [Chapter 2: Preliminaries]({{site.baseurl}}/teaching/mat431s21/Preliminaries.pdf). (Due Wednesday, January 27)
-- **Homework 8:** Complete 2.61-2.65, 2.67, 2.68 in [Chapter 2: Preliminaries]({{site.baseurl}}/teaching/mat431s21/Preliminaries.pdf). (Due Friday, January 29)
+- **Homework 8:** Complete 2.61-2.65 in [Chapter 2: Preliminaries]({{site.baseurl}}/teaching/mat431s21/Preliminaries.pdf). (Due Friday, January 29)
