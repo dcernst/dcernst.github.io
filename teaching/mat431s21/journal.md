@@ -53,6 +53,6 @@ We’ll use this page to keep track of what has happened each day in class. It w
 
 <ul class="fa-ul">
   <li><i class="fa-li far fa-calendar-check"></i><b>Monday, January 25:</b> Snow day!  Or not. We had ML/MS and AL present Problems 2.46(c) and 2.46(d), respectively. Next, I presented Problems 2.48 and 2.49.  With the time we had left, I started discussing Section 2.3.  I forgot class ended at 8:50am and ran my mouth until 9:00am.  Doh!  I guess I was excited.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, January 27:</b> Coming soon.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, January 29:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, January 27:</b> First day teaching in classroom. Transition seemed to work out well. After I started us off with a presentation of Problem 2.53, we had BP, JO, and KD present Problems 2.55, 2.56, and 2.57, respectively.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, January 29:</b> We had TR, ID, HG, ZM, RM, and JL present Problems 2.58, 2.60, 2.61, 2.62, 2.63, and 2.64, respectively.  Things seemed to go really smoothly today.  Better than I would have expected.</li>
 </ul>
