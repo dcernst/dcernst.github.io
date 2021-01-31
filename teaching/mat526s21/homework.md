@@ -39,4 +39,4 @@ I reserve the right to modify the assignment if the need arises.
 - **Homework 3:** Complete the problems found [here]({{site.baseurl}}/teaching/mat526s21/526HW3.pdf). (Due Wednesday, January 20)
 - **Homework 4:** Complete the problems found [here]({{site.baseurl}}/teaching/mat526s21/526HW4.pdf). **Important!** Problem 2 has been updated.  It had an "off by one" error in the index. (Due <s>Monday, January 25</s> Tuesday, January 26)
 - **Homework 5:** Complete the problems found [here]({{site.baseurl}}/teaching/mat526s21/526HW5.pdf). (Due Monday, February 1)
-- **Homework 6:** Complete the problems found [here]({{site.baseurl}}/teaching/mat526s21/526HW6.pdf). (Due Wednesday, February 3)
+- **Homework 6:** Complete the problems found [here]({{site.baseurl}}/teaching/mat526s21/526HW6.pdf). (Due Monday, February 8)
