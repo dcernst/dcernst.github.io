@@ -1,0 +1,140 @@
+\documentclass[11pt]{article}%{scrartcl}
+\usepackage[scale=1.5]{ccicons}
+\usepackage[notextcomp]{kpfonts} 
+\usepackage[margin=1in]{geometry}
+\usepackage{amsthm,amssymb}
+\usepackage{graphicx}
+\usepackage{mathtools}
+\usepackage{enumitem}
+\usepackage{bm}
+%\usepackage{ulem}
+\usepackage{tikz}
+
+\usepackage{color}
+\definecolor{darkblue}{rgb}{0, 0, .6}
+\definecolor{grey}{rgb}{.7, .7, .7}
+\usepackage[breaklinks]{hyperref}
+\hypersetup{
+	colorlinks=true,
+	linkcolor=darkblue,
+	anchorcolor=darkblue,
+	citecolor=darkblue,
+	pagecolor=darkblue,
+	urlcolor=darkblue,
+	pdftitle={},
+	pdfauthor={}
+}
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\lhead{MAT 526 - Spring 2021}
+\chead{}
+\rhead{Due Monday, February 8}
+%\lfoot{}%\scriptsize This work is licensed under the \href{http://creativecommons.org/licenses/by-sa/3.0/us/}{Creative Commons Attribution-Share Alike 3.0 License}.} 
+%\cfoot{}
+%\rfoot{\ccbysa}
+\renewcommand{\headrulewidth}{.4pt}
+%\renewcommand{\footrulewidth}{.4pt}
+
+\theoremstyle{definition}
+\newtheorem{theorem}{Theorem}
+\newtheorem{acknowledgement}[theorem]{Acknowledgement}
+\newtheorem{algorithm}[theorem]{Algorithm}
+\newtheorem{axiom}[theorem]{Axiom}
+\newtheorem{case}[theorem]{Case}
+\newtheorem{claim}[theorem]{Claim}
+\newtheorem*{claim*}{Claim}
+\newtheorem{conclusion}[theorem]{Conclusion}
+\newtheorem{condition}[theorem]{Condition}
+\newtheorem{conjecture}[theorem]{Conjecture}
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{criterion}[theorem]{Criterion}
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{example}[theorem]{Example}
+\newtheorem{exercise}[theorem]{Exercise}
+\newtheorem{journal}[theorem]{Journal}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{notation}[theorem]{Notation}
+\newtheorem{problem}[theorem]{Problem}
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{remark}[theorem]{Remark}
+\newtheorem{solution}[theorem]{Solution}
+\newtheorem{summary}[theorem]{Summary}
+\newtheorem{skeleton}[theorem]{Skeleton Proof}
+\newtheorem{activity}[theorem]{Activity}
+\newtheorem{intuitivedef}[theorem]{Intuitive Definition}
+
+\DeclareMathOperator{\des}{des}
+
+\newcommand{\blankline}{\pagebreak[2]\vspace{.5\baselineskip}}
+
+\newcommand{\euler}[2]{
+  \displaystyle \left\langle\begin{matrix}#1  \\#2  \\ \end{matrix}\right\rangle}
+\newcommand{\stirling}[2]{
+  \displaystyle \left\{\begin{matrix}#1  \\#2  \\ \end{matrix}\right\}}
+
+\setlength{\parindent}{0pt}
+
+%Useful for cut and paste
+%\begin{enumerate}[label=\rm{(\alph*)}]
+
+\begin{document}
+
+\begin{center}
+{\Large\bf Homework 6}
+
+\smallskip
+
+Combinatorics
+\end{center}
+
+\thispagestyle{fancy}
+
+You are allowed and encouraged to work together on homework. Yet, each student is expected to turn in his or her own work. In general, late homework will not be accepted. However, you are allowed to turn in \textbf{up to two late homework assignments with no questions asked}. When doing your homework, I encourage you to consult the \href{http://danaernst.com/teaching/ElementsOfStyle.pdf}{Elements of Style for Proofs}. Unless otherwise indicated, submit each of the following assignments via BbLearn by the due date. You will need to capture your handwritten work digitally and then upload a PDF to BbLearn. There are many free smartphone apps for doing this. I use TurboScan on my iPhone.
+
+\blankline
+
+Reviewing material from previous courses and looking up definitions and theorems you may have forgotten is fair game. However, when it comes to completing assignments for this course, you should \emph{not} look to resources outside the context of this course for help.  That is, you should not be consulting the web, other texts, other faculty, or students outside of our course in an attempt to find solutions to the problems you are assigned.  This includes Chegg and Course Hero. On the other hand, you may use each other, the textbook, me, and your own intuition. \textbf{If you feel you need additional resources, please come talk to me and we will come up with an appropriate plan of action.} Please read NAU's \href{https://www5.nau.edu/policies/Client/Details/828?whoIsLooking=Students&pertainsTo=All&sortDirection=Ascending&page=1}{Academic Integrity Policy}.
+
+\blankline
+
+Complete the following problems. 
+\begin{enumerate}
+	
+%\item Recall the definition of Stirling numbers given in Problem 1 on Homework 5.  For $k\geq 1$, let $S_k(t)$ be the exponential generating function for the number of set partitions with $k$ blocks:
+%\[
+%S_k(t)\coloneqq \sum_{n\geq k} \stirling{n}{k}\frac{t^n}{n!}.
+%\]
+%Notice that for each $k$, we are letting $n$ vary. Prove that $S'_k(t)=S_{k-1}(t)+kS_k(t)$.
+%\item Recall the definition of Bell numbers given in Problem 2 on Homework 5. Define the $n$th \textbf{Bell polynomial} to be the ordinary generating function for the Stirling numbers with $n$ fixed:
+%\[
+%B_n(t)\coloneqq \sum_{k=0}^n \stirling{n}{k}t^k.
+%\]
+%We define $B_0(t)\coloneqq t$. Prove that the Bell polynomials satisfy the following recurrence for $n\geq 1$:
+%\[
+%B_{n}(t)=t(B_{n-1}(t)+B'_{n-1}(t)).
+%\]
+\item Recall the definition of multiset given in Problem 3 on Homework 5.  For fixed $n\in \mathbb{N}$, let $M_n(t)$ denote the generating function for the number of multisets of $[n]$ of size $k$:
+\[
+M_n(t)\coloneqq \sum_{k\geq 0}\left(\binom{n}{k}\right)t^k.
+\]
+Also, define $\mathcal{M}_n\coloneqq \{A\mid A\text{ is a multiset on}[n]\}$.
+\begin{enumerate}
+\item Explain why $\displaystyle M_n(t)=\sum_{A\in\mathcal{M}_n} t^{|A|}$, where $|A|$ is the size of the multiset $A$.
+\item Explain why $\displaystyle \sum_{A\in\mathcal{M}_n} t^{|A|}=(1+t+t^2+\cdots)^n$.
+\item Explain why $\displaystyle M_n(t)=\frac{1}{(1-t)^n}$.
+\end{enumerate}
+\emph{Hint:} For part (b), notice that if you were to expand $(1+t+t^2+\cdots)^n$, each resulting term (prior to collecting like terms) corresponds to choosing a term from each of the $n$ factors and then multiplying them together.  Each such product of choices corresponds to a unique multiset.  In particular, think of the $i$th factor of $(1+t+t^2+\cdots)^n$ as corresponding to $i\in [n]$.  Choosing $t^j$ in the $i$th factor corresponds to having $i$ occur with multiplicity $j$ in a multiset.
+\item Complete Problem 1.12 from textbook.
+\item Complete any \emph{three} of Problems 1.6(1), 1.6(2), 1.7, 1.8 from textbook.
+\item We define a \textbf{barred permutation} on $n$ as follows.  Given $w\in S_n$, we must place at least one vertical bar after each descent position and we can place finitely many additional vertical bars in gaps that do not correspond to descents.  For example, $1|5|237||46$ is a barred permutation with 4 vertical bars.  A single vertical bar was required after 5 and 7, respectively, and the other two bars were optional.
+\begin{enumerate}
+\item Explain why there is a one-to-one correspondence (i.e., bijection) between the collection of barred permutations on $n$ with $k$ bars and the collection of configurations of $n$ labeled balls into $k+1$ labeled boxes.
+\item Fix $n\in \mathbb{N}$. Using your correspondence in part (a), prove that the generating function for the number of barred permutations that have a fixed $w\in S_n$ as their underlying permutation is given by
+\[
+\frac{t^{\des(w)}}{(1-t)^{n+1}}.
+\]
+\end{enumerate}
+\emph{Hint:} As an example, the barred permutation  $1|5|237||46$ corresponds to placing 7 balls into 5 boxes such that the first box contains ball 1, the second box contains ball 5, the third box contains balls 2, 3, 7, the fourth box is empty, and the fifth box has balls 4 and 6. The underlying permutation for this example is $w=1523746$. For part (b), mimic the approach we took in Problem~2(b).  Utilize a factor of $1+t+t^2+\cdots$ when there is no descent and a factor of $t+t^2+t^3+\cdots$ is there is a descent.
+\end{enumerate}
+\end{document}
