@@ -56,3 +56,11 @@ We’ll use this page to keep track of what has happened each day in class. It w
   <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, January 27:</b> First day teaching in classroom. Transition seemed to work out well. After I started us off with a presentation of Problem 2.53, we had BP, JO, and KD present Problems 2.55, 2.56, and 2.57, respectively.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Friday, January 29:</b> We had TR, ID, HG, ZM, RM, and JL present Problems 2.58, 2.60, 2.61, 2.62, 2.63, and 2.64, respectively.  Things seemed to go really smoothly today.  Better than I would have expected.</li>
 </ul>
+
+## Week 4 ##
+
+<ul class="fa-ul">
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, February 1:</b> Today was a little chaotic.  Not ideal while we are battling through some challenging problems.  We probably need to recalibrate soon.  We had CM and ND present Problems 2.65 and 2.67. Next, I summarized the statements of Problems 2.68-2.70 and started presenting Problem 2.69. Hopefully we can get caught up on Wednesday.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, February 3:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, February 5:</b> Coming soon.</li>
+</ul>
