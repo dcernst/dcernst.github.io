@@ -61,6 +61,6 @@ We’ll use this page to keep track of what has happened each day in class. It w
 
 <ul class="fa-ul">
   <li><i class="fa-li far fa-calendar-check"></i><b>Monday, February 1:</b> Today was a little chaotic.  Not ideal while we are battling through some challenging problems.  We probably need to recalibrate soon.  We had CM and ND present Problems 2.65 and 2.67. Next, I summarized the statements of Problems 2.68-2.70 and started presenting Problem 2.69. Hopefully we can get caught up on Wednesday.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, February 3:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, February 3:</b> We got caught up!  After I presented 2.69, we had JO, AR, JL, and EB present Problems 2.68, 2.70, 2.71, and 2.73, respectively.  I put a sketch of Problem 2.72 on the screen at the beginning of class.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Friday, February 5:</b> Coming soon.</li>
 </ul>
