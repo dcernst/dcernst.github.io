@@ -1,0 +1,135 @@
+\documentclass[11pt]{article}%{scrartcl}
+\usepackage[scale=1.5]{ccicons}
+\usepackage[notextcomp]{kpfonts} 
+\usepackage[margin=1in]{geometry}
+\usepackage{amsthm,amssymb}
+\usepackage{graphicx}
+\usepackage{mathtools}
+\usepackage{enumitem}
+\usepackage{bm}
+%\usepackage{ulem}
+\usepackage{tikz}
+
+\usepackage{color}
+\definecolor{darkblue}{rgb}{0, 0, .6}
+\definecolor{grey}{rgb}{.7, .7, .7}
+\usepackage[breaklinks]{hyperref}
+\hypersetup{
+	colorlinks=true,
+	linkcolor=darkblue,
+	anchorcolor=darkblue,
+	citecolor=darkblue,
+	pagecolor=darkblue,
+	urlcolor=darkblue,
+	pdftitle={},
+	pdfauthor={}
+}
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\lhead{MAT 526 - Spring 2021}
+\chead{}
+\rhead{Due Monday, February 15}
+%\lfoot{}%\scriptsize This work is licensed under the \href{http://creativecommons.org/licenses/by-sa/3.0/us/}{Creative Commons Attribution-Share Alike 3.0 License}.} 
+%\cfoot{}
+%\rfoot{\ccbysa}
+\renewcommand{\headrulewidth}{.4pt}
+%\renewcommand{\footrulewidth}{.4pt}
+
+\theoremstyle{definition}
+\newtheorem{theorem}{Theorem}
+\newtheorem{acknowledgement}[theorem]{Acknowledgement}
+\newtheorem{algorithm}[theorem]{Algorithm}
+\newtheorem{axiom}[theorem]{Axiom}
+\newtheorem{case}[theorem]{Case}
+\newtheorem{claim}[theorem]{Claim}
+\newtheorem*{claim*}{Claim}
+\newtheorem{conclusion}[theorem]{Conclusion}
+\newtheorem{condition}[theorem]{Condition}
+\newtheorem{conjecture}[theorem]{Conjecture}
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{criterion}[theorem]{Criterion}
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{example}[theorem]{Example}
+\newtheorem{exercise}[theorem]{Exercise}
+\newtheorem{journal}[theorem]{Journal}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{notation}[theorem]{Notation}
+\newtheorem{problem}[theorem]{Problem}
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{remark}[theorem]{Remark}
+\newtheorem{solution}[theorem]{Solution}
+\newtheorem{summary}[theorem]{Summary}
+\newtheorem{skeleton}[theorem]{Skeleton Proof}
+\newtheorem{activity}[theorem]{Activity}
+\newtheorem{intuitivedef}[theorem]{Intuitive Definition}
+
+\DeclareMathOperator{\des}{des}
+\DeclareMathOperator{\Inv}{Inv}
+\DeclareMathOperator{\inv}{inv}
+
+\newcommand{\blankline}{\pagebreak[2]\vspace{.5\baselineskip}}
+
+\newcommand{\euler}[2]{
+  \displaystyle \left\langle\begin{matrix}#1  \\#2  \\ \end{matrix}\right\rangle}
+\newcommand{\stirling}[2]{
+  \displaystyle \left\{\begin{matrix}#1  \\#2  \\ \end{matrix}\right\}}
+
+\setlength{\parindent}{0pt}
+
+%Useful for cut and paste
+%\begin{enumerate}[label=\rm{(\alph*)}]
+
+\begin{document}
+
+\begin{center}
+{\Large\bf Homework 7}
+
+\smallskip
+
+Combinatorics
+\end{center}
+
+\thispagestyle{fancy}
+
+You are allowed and encouraged to work together on homework. Yet, each student is expected to turn in his or her own work. In general, late homework will not be accepted. However, you are allowed to turn in \textbf{up to two late homework assignments with no questions asked}. When doing your homework, I encourage you to consult the \href{http://danaernst.com/teaching/ElementsOfStyle.pdf}{Elements of Style for Proofs}. Unless otherwise indicated, submit each of the following assignments via BbLearn by the due date. You will need to capture your handwritten work digitally and then upload a PDF to BbLearn. There are many free smartphone apps for doing this. I use TurboScan on my iPhone.
+
+\blankline
+
+Reviewing material from previous courses and looking up definitions and theorems you may have forgotten is fair game. However, when it comes to completing assignments for this course, you should \emph{not} look to resources outside the context of this course for help.  That is, you should not be consulting the web, other texts, other faculty, or students outside of our course in an attempt to find solutions to the problems you are assigned.  This includes Chegg and Course Hero. On the other hand, you may use each other, the textbook, me, and your own intuition. \textbf{If you feel you need additional resources, please come talk to me and we will come up with an appropriate plan of action.} Please read NAU's \href{https://www5.nau.edu/policies/Client/Details/828?whoIsLooking=Students&pertainsTo=All&sortDirection=Ascending&page=1}{Academic Integrity Policy}.
+
+\blankline
+
+Complete the following problems. 
+\begin{enumerate}
+\item Recall that for a permutation $w$ an \textbf{inversion} is a pair $i<j$ such that $w(i)>w(j)$.  The set of all inversions for $w$ is denoted by
+\[
+\Inv(w)\coloneqq \{1\leq i<j\leq n\mid w(i)>w(j)\}
+\] 
+and $\inv(w)\coloneqq |\Inv(w)|$. Let $I_{n,k}$ denote the number of permutations in $S_n$ with $k$ inversions.  Notice that the notation for $I_{n,k}$ is a departure from our usual style.  In particular, we are using a capital letter to represent a number, not a set. The numbers $I_{n,k}$ are often called the \textbf{Mahonian numbers} (named after Percy MacMahon). As expected the Mahonian numbers form a triangular array. Let $I_n(t)$ denote the generating function for the Mahonian numbers with fixed $n$. That is, for each $n$, we define
+\[
+I_n(t)\coloneqq \sum_{k\geq 0}I_{n,k}(t)=\sum_{w\in S_n} t^{\inv(w)}.
+\]
+\emph{Note:} In light of part (b) below, the sum above is actually a finite sum (with an infinite number of zeros added on).
+\begin{enumerate}
+\item Explain why $\des(w)\leq \inv(w)$ for all $w\in S_n$.
+\item Explain why $0\leq \inv(w)\leq \binom{n}{2}$ for all $w\in S_n$.
+\item Prove that $\inv(w)=\inv(w^{-1})$ for all $w\in S_n$. Is $\Inv(w)$ always equal to $\inv(w^{-1})$?
+\item What is the meaning of $I_n(1)$ and what is its value?
+\item Prove that $I_n(t)=(1+t+\cdots +t^{n-1})I_{n-1}(t)$.
+\item Explain why $I_n(t)=\prod_{i=1}^n (1+t+\cdots +t^{i-1})$. \emph{Food for thought:} This product is sometimes called a \textbf{$t$-factorial}. Do you see why? Perhaps compare with your answer for part~(d).
+\item Explain why $\displaystyle I_n(t)=\frac{\prod_{i=1}^n(1-t^i)}{(1-t)^n}$. \emph{Food for thought:} Why might you be bothered by this formula in light of part~(d)?
+\end{enumerate}
+\item Recall our definition of a barred permutation on $n$ from Problem 4 on Homework 6.
+\begin{enumerate}
+\item Let $n\geq 1$ and $k>0$. Explain why the number of configurations of $n$ labeled balls into $k+1$ labeled boxes is $(k+1)^n$.
+\item Using part (a) above together with Problem 4 on Homework 6, prove that
+\[
+\frac{S_n(t)}{(1-t)^{n+}}=\sum_{k\geq 0}(k+1)^nt^k.
+\]
+\end{enumerate}
+\item Complete Problem 1.6(3) from textbook.
+%\item Complete Problem 1.11 from textbook.
+\item Use Worpitzsky's identity to find a closed form for $\euler{n}{4}$.
+\end{enumerate}
+\end{document}
