@@ -64,3 +64,11 @@ We’ll use this page to keep track of what has happened each day in class. It w
   <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, February 3:</b> We got caught up!  After I presented 2.69, we had JO, AR, JL, and EB present Problems 2.68, 2.70, 2.71, and 2.73, respectively.  I put a sketch of Problem 2.72 on the screen at the beginning of class.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Friday, February 5:</b> I displayed the proofs for Problems 2.74 and 2.76 and then MW and HG tackled the two directions of Problem 2.75. Next, I presented the proof of Problem 2.77 (Triangle Inequality) and briefly discussed the first definition in Chapter 3.</li>
 </ul>
+
+## Week 5 ##
+
+<ul class="fa-ul">
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, February 8:</b> After displaying a proof for Problem 2.78, we had BP, JH, and ML present Problems 3.2, 3.3, and 3.4, respectively.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, February 10:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, February 5\12:</b> Coming soon.</li>
+</ul>
