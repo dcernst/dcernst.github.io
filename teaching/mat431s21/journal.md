@@ -69,6 +69,6 @@ We’ll use this page to keep track of what has happened each day in class. It w
 
 <ul class="fa-ul">
   <li><i class="fa-li far fa-calendar-check"></i><b>Monday, February 8:</b> After displaying a proof for Problem 2.78, we had BP, JH, and ML present Problems 3.2, 3.3, and 3.4, respectively.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, February 10:</b> Coming soon.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, February 5\12:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, February 10:</b> We kicked off with communicating a typo I had on the solution for 2.78 and then had JC, MS, CM, and SA present Problems 3.5, 3.6, 3.8, and 3.7(b), respectively. We'll pick up where we left off next time.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, February 12:</b> Coming soon.</li>
 </ul>
