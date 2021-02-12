@@ -108,7 +108,7 @@ Complete the following problems.
 \] 
 and $\inv(w)\coloneqq |\Inv(w)|$. Let $I_{n,k}$ denote the number of permutations in $S_n$ with $k$ inversions.  Notice that the notation for $I_{n,k}$ is a departure from our usual style.  In particular, we are using a capital letter to represent a number, not a set. The numbers $I_{n,k}$ are often called the \textbf{Mahonian numbers} (named after Percy MacMahon). As expected the Mahonian numbers form a triangular array. Let $I_n(t)$ denote the generating function for the Mahonian numbers with fixed $n$. That is, for each $n$, we define
 \[
-I_n(t)\coloneqq \sum_{k\geq 0}I_{n,k}(t)=\sum_{w\in S_n} t^{\inv(w)}.
+I_n(t)\coloneqq \sum_{k\geq 0}I_{n,k}t^k=\sum_{w\in S_n} t^{\inv(w)}.
 \]
 \emph{Note:} In light of part (b) below, the sum above is actually a finite sum (with an infinite number of zeros added on).
 \begin{enumerate}
