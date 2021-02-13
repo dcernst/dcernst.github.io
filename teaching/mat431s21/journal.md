@@ -70,5 +70,13 @@ We’ll use this page to keep track of what has happened each day in class. It w
 <ul class="fa-ul">
   <li><i class="fa-li far fa-calendar-check"></i><b>Monday, February 8:</b> After displaying a proof for Problem 2.78, we had BP, JH, and ML present Problems 3.2, 3.3, and 3.4, respectively.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, February 10:</b> We kicked off with communicating a typo I had on the solution for 2.78 and then had JC, MS, CM, and SA present Problems 3.5, 3.6, 3.8, and 3.7(b), respectively. We'll pick up where we left off next time.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, February 12:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, February 12:</b> After a quick discussion of upcoming exam, we had JO, JW, and LG present Problems 3.7(b), 3.12, and 3.14, respectively.  I also did a quick summary of Problem 3.15.</li>
+</ul>
+
+## Week 6 ##
+
+<ul class="fa-ul">
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, February 15:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, February 17:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, February 19:</b> Students took Part 1 of Exam 1.</li>
 </ul>

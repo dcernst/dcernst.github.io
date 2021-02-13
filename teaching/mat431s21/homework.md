@@ -54,3 +54,4 @@ Unless otherwise indicated, submit each of the following assignments via BbLearn
 - **Homework 13:** Complete 3.5-3.8, 3.11, 3.12 in [Chapter 3: Sequences]({{site.baseurl}}/teaching/mat431s21/Sequences.pdf). (Due Wednesday, February 10)
 - **Homework 14:** Complete 3.14-3.18 in [Chapter 3: Sequences]({{site.baseurl}}/teaching/mat431s21/Sequences.pdf). (Due Friday, February 12)
 - **Homework 15:** Complete 3.19 and 3.20 in [Chapter 3: Sequences]({{site.baseurl}}/teaching/mat431s21/Sequences.pdf). (Due Monday, February 15)
+- **Homework 16:** Complete 3.21, 3.22, 3.25-3.28 in [Chapter 3: Sequences]({{site.baseurl}}/teaching/mat431s21/Sequences.pdf). (Due Wednesday, February 17)
