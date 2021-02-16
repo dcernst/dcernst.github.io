@@ -67,6 +67,7 @@
 \DeclareMathOperator{\des}{des}
 \DeclareMathOperator{\Inv}{Inv}
 \DeclareMathOperator{\inv}{inv}
+\DeclareMathOperator{\Dyck}{Dyck}
 
 \newcommand{\blankline}{\pagebreak[2]\vspace{.5\baselineskip}}
 
@@ -115,7 +116,16 @@ B(t)\coloneqq \sum_{k\geq 0}B_k\frac{t^k}{k!}.
 \[
 I_{n,k}=I_{n,\binom{n}{2}-k}.
 \]
-\item TBD
+\item A \textbf{Dyck path} of length $2n$ is a lattice path from $(0,0)$ to $(n,n)$ consisting of $n$ horizontal steps ``East" from $(i, j)$ to $(i + 1, j)$ and $n$ vertical steps ``North" from $(i, j)$ to $(i, j + 1)$, such that all points on the path satisfy $i\leq j$, i.e., the path, when drawn in the Cartesian plane, lies on or above the line $y = x$. Let $\Dyck(n)$ denote the collection of all Dyck paths of length $2n$.
+ \begin{enumerate}
+\item Draw all Dyck paths in $\Dyck(1)$, $\Dyck(2)$, $\Dyck(3)$, and $\Dyck(4)$.
+\item Prove that $\displaystyle |\Dyck(n)|=\binom{2n}{n}-\binom{2n}{n-1}$.
+\item Using the formula for computing binomial coefficients, prove that
+\[
+\binom{2n}{n}-\binom{2n}{n-1}=\frac{1}{n+1}\binom{2n}{n}.
+\]
+\end{enumerate}
+It follows from parts (b) and (c) that $|\Dyck(n)|=\displaystyle \frac{1}{n+1}\binom{2n}{n}$.
 \item Complete Problem 2.1 from textbook.
 \item Complete Problem 2.3 from textbook.
 \item Complete Problem 2.6 from textbook.
