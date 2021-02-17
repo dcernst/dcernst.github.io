@@ -76,7 +76,7 @@ We’ll use this page to keep track of what has happened each day in class. It w
 ## Week 6 ##
 
 <ul class="fa-ul">
-  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, February 15:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, February 15:</b> We had another quick chat about the upcoming exam and then I walked us through a solution to Problem 3.16.  Next, we had RM, DR, AG/AR present Problems 3.17, 3.18, and 3.20, respectively.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, February 17:</b> Coming soon.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Friday, February 19:</b> Students took Part 1 of Exam 1.</li>
 </ul>
