@@ -47,7 +47,7 @@ We will not be using a traditional textbook this semester, but rather a problem 
     - 2.1 Sets
     - 2.2 Functions
     - 2.3 The Real Numbers
-- [Chapter 3: Sequences and Completeness]({{site.baseurl}}/teaching/mat431s21/Sequences.pdf) 
+- [Chapter 3: Sequences and Completeness]({{site.baseurl}}/teaching/mat431s21/Sequences.pdf)
 - Chapter 4: Standard Topology of the Real Line (Coming soon)
 - Chapter 5: Continuity (Coming soon)
 - Chapter 6: Differentiation (Coming soon)
@@ -97,4 +97,4 @@ I will not be covering every detail of the notes and the only way to achieve a s
 ## Exams
 Below are links to the take-home portions of each exam. If you are interested in using LaTeX to type up your solutions, contact me and I will send you a link to the source file of the exam.
 
-- Coming soon.
+- [Exam 1 (Part 2)]({{site.baseurl}}/teaching/mat431s21/431Exam1-Part2.pdf) (PDF). (Due by 11:59PM on Friday, February 26)
