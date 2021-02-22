@@ -80,3 +80,11 @@ We’ll use this page to keep track of what has happened each day in class. It w
   <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, February 17:</b> Once again, we chatted about the upcoming exam and then jumped into student presentations. We had HH, ML, EB, KB, and AL present Problems 3.21, 3.22, 3.25/3.26, 3.27, and 3.28, respectively.  We left one issue involving Problem 3.22 on the table to discuss later.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Friday, February 19:</b> Students took Part 1 of Exam 1.</li>
 </ul>
+
+## Week 7 ##
+
+<ul class="fa-ul">
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, February 22:</b> After a few announcements, I discussed an alternate viewpoint of accumulation points, convergence of sequences, and bounded sets that utilizes absolute value.  Next, we introduced the notions of supremum and infimum of a set and did a few examples.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, February 24:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, February 26:</b> Coming soon.</li>
+</ul>
