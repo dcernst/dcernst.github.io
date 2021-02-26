@@ -64,6 +64,6 @@ The textbook for the course is [Eulerian Numbers](http://www.springer.com/us/boo
 - [What is Mathematics? The Most Misunderstood Subject](https://www.fordham.edu/info/20603/what_math) (short article by Dr. Robert H. Lewis, Professor of Mathematics, Fordham University)
 
 ## Exams
-Below are links to the take-home portions of each exam. If you are interested in using LaTeX to type up your solutions, contact me and I will send you a link to the source file of the exam.
+Below are links to the take-home portions of each exam. If you are interested in using LaTeX to type up your solutions, you can obtain the source file by replacing .pdf with .tex in the urls below.
 
-- Coming soon.
+- [Exam 1 (Part 2)]({{site.baseurl}}/teaching/mat526s21/526Exam1-Part2.pdf) (PDF). (Due by 11:59PM on Friday, February 26)
