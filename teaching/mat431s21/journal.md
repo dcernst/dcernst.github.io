@@ -92,7 +92,7 @@ We’ll use this page to keep track of what has happened each day in class. It w
 ## Week 8 ##
 
 <ul class="fa-ul">
-  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, March 1:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, March 1:</b> Back to student presentations!  We had ZM and ND present Problems 3.53 and 4.2, respectively.  Along the way, I presented Problem 3.54 (Bolzano-Wiererstrass) and discussed the definition of open.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, March 3:</b> Coming soon.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Friday, March 5:</b> Coming soon.</li>
 </ul>
