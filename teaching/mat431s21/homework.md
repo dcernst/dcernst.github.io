@@ -57,3 +57,4 @@ Unless otherwise indicated, submit each of the following assignments via BbLearn
 - **Homework 16:** Complete 3.21, 3.22, 3.25-3.28 in [Chapter 3: Sequences]({{site.baseurl}}/teaching/mat431s21/Sequences.pdf). (Due Wednesday, February 17)
 - **Homework 17:** Complete 3.53 and 3.54 in [Chapter 3: Sequences]({{site.baseurl}}/teaching/mat431s21/Sequences.pdf) and 4.2, 4.3, 4.5 in [Chapter 4: Standard Topology of the Real Line]({{site.baseurl}}/teaching/mat431s21/Topology.pdf). (Due Monday, March 1)
 - **Homework 18:** Complete 4.6-4.10 in [Chapter 4: Standard Topology of the Real Line]({{site.baseurl}}/teaching/mat431s21/Topology.pdf). (Due Wednesday, March 3)
+- **Homework 19:** Complete 4.12-4.15 in [Chapter 4: Standard Topology of the Real Line]({{site.baseurl}}/teaching/mat431s21/Topology.pdf). (Due Friday, March 5)
