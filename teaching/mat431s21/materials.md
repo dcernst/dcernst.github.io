@@ -49,7 +49,7 @@ We will not be using a traditional textbook this semester, but rather a problem 
     - 2.3 The Real Numbers
 - [Chapter 3: Sequences and Completeness]({{site.baseurl}}/teaching/mat431s21/Sequences.pdf)
 - [Chapter 4: Standard Topology of the Real Line]({{site.baseurl}}/teaching/mat431s21/Topology.pdf)
-- Chapter 5: Continuity (Coming soon)
+- [Chapter 5: Continuity]({{site.baseurl}}/teaching/mat431s21/Continuity.pdf)
 - Chapter 6: Differentiation (Coming soon)
 - Chapter 7: Integration (Coming soon)
 - [Appendix A: Elements of Style for Proofs]({{site.baseurl}}/teaching/mat431s21/ElementsOfStyle.pdf)
