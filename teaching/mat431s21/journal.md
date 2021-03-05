@@ -94,5 +94,13 @@ We’ll use this page to keep track of what has happened each day in class. It w
 <ul class="fa-ul">
   <li><i class="fa-li far fa-calendar-check"></i><b>Monday, March 1:</b> Back to student presentations!  We had ZM and ND present Problems 3.53 and 4.2, respectively.  Along the way, I presented Problem 3.54 (Bolzano-Wiererstrass) and discussed the definition of open.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, March 3:</b> We had TR, BT, JO, AR, and AG present Problems 4.3, 4.5, 4.6, 4.7, and 4.8, respectively.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, March 5:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, March 5:</b> Super productive today!  We had RM, EB, KD, SA, and ID present Problems 4.9, 4.10, 4.12, 4.13, and 4.14, respectively.</li>
+</ul>
+
+## Week 9 ##
+
+<ul class="fa-ul">
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, March 8:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, March 10:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, March 12:</b> SComing soon.</li>
 </ul>
