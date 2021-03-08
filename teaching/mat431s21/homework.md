@@ -59,4 +59,4 @@ Unless otherwise indicated, submit each of the following assignments via BbLearn
 - **Homework 18:** Complete 4.6-4.10 in [Chapter 4: Standard Topology of the Real Line]({{site.baseurl}}/teaching/mat431s21/Topology.pdf). (Due Wednesday, March 3)
 - **Homework 19:** Complete 4.12-4.14 in [Chapter 4: Standard Topology of the Real Line]({{site.baseurl}}/teaching/mat431s21/Topology.pdf). (Due Friday, March 5)
 - **Homework 20:** Complete 4.15 in [Chapter 4: Standard Topology of the Real Line]({{site.baseurl}}/teaching/mat431s21/Topology.pdf) and 5.3-5.5 in [Chapter 5: Continuity]({{site.baseurl}}/teaching/mat431s21/Continuity.pdf). (Due Monday, March 8)
-- **Homework 21:** Complete 5.6-5.11, 5.13 in [Chapter 5: Continuity]({{site.baseurl}}/teaching/mat431s21/Continuity.pdf). (Due Wednesday, March 10)
+- **Homework 21:** Complete 5.6-5.10 in [Chapter 5: Continuity]({{site.baseurl}}/teaching/mat431s21/Continuity.pdf). (Due Wednesday, March 10)
