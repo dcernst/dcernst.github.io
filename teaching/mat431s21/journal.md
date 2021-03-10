@@ -100,7 +100,7 @@ We’ll use this page to keep track of what has happened each day in class. It w
 ## Week 9 ##
 
 <ul class="fa-ul">
-  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, March 8:</b> Coming soon.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, March 10:</b> Coming soon.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, March 12:</b> SComing soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, March 8:</b> Unfortunately, I was home sick today. Students were responsible for annotating their work based on solutions that I posted.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, March 10:</b> Mostly me running my mouth today in an attempt to solidify our understanding of continuity. I reviewed the definition and the equivalent form given in Problem 5.5 and then spent time playing with a couple of applets. Next, I sketched a solution to Problem 5.6. We will pick up where we left off next time.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, March 12:</b> Coming soon.</li>
 </ul>
