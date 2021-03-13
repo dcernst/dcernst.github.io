@@ -95,7 +95,7 @@ This course focuses on [enumerative combinatorics](https://en.wikipedia.org/wiki
       <li>The lattice of noncrossing partitions</li>
       <li>Absolute order and Noncrossing partitions</li>
     </ul>
-    <li>Gamma-nonnegativity</li>
+    <!-- <li>Gamma-nonnegativity</li>
     <ul>
       <li>The idea of gamma-nonnegativity</li>
       <li>Gamma-nonnegativity for Eulerian numbers</li>
@@ -104,7 +104,7 @@ This course focuses on [enumerative combinatorics](https://en.wikipedia.org/wiki
       <li>Computing the gamma vector</li>
       <li>Real roots and log-concavity</li>
       <li>Symmetric boolean decomposition</li>
-    </ul>
+    </ul> -->
     <li>Weak order, hyperplane arrangements, and the Tamari lattice</li>
     <ul>
       <li>Inversions</li>
@@ -127,7 +127,7 @@ This course focuses on [enumerative combinatorics](https://en.wikipedia.org/wiki
       <li>$q$-Narayana numbers</li>
       <li>Dyck paths by area</li>
     </ul>
-    <li>Coxeter groups</li>
+    <!-- <li>Coxeter groups</li>
     <ul>
       <li>The symmetric group</li>
       <li>Finite Coxeter groups: generators and relations</li>
@@ -140,7 +140,7 @@ This course focuses on [enumerative combinatorics](https://en.wikipedia.org/wiki
       <li>The $W$-Euler-Mahonian distribution</li>
       <li>The weak order</li>
       <li>The shard intersection order</li>
-    </ul>
+    </ul> -->
     </ul>
     </div>
   </div>

@@ -95,14 +95,6 @@ The tentative plan is to cover Chapters 1-6 and 11 of [Eulerian Numbers](http://
   - The shard intersection order
   - The lattice of noncrossing partitions
   - Absolute order and Noncrossing partitions
-- Gamma-nonnegativity
-  - The idea of gamma-nonnegativity
-  - Gamma-nonnegativity for Eulerian numbers
-  - Gamma-nonnegativity for Narayana numbers
-  - Palindromicity, unimodality, and the gamma basis
-  - Computing the gamma vector
-  - Real roots and log-concavity
-  - Symmetric boolean decomposition
 - Weak order, hyperplane arrangements, and the Tamari lattice
   - Inversions
   - The weak order
@@ -121,18 +113,6 @@ The tentative plan is to cover Chapters 1-6 and 11 of [Eulerian Numbers](http://
   - $q$-Catalan numbers
   - $q$-Narayana numbers
   - Dyck paths by area
-- Coxeter groups
-  - The symmetric group
-  - Finite Coxeter groups: generators and relations
-  - $W$-Mahonian distribution
-  - $W$-Euleria numbers
-  - Finite reflection groups and root systems
-  - The Coxeter arrangement and the Coxeter complex
-  - Action of $W$ and cosets of parabolic subgroups
-  - Counting faces in the Coxeter complex
-  - The $W$-Euler-Mahonian distribution
-  - The weak order
-  - The shard intersection order
 
 <blockquote>
 <p>An ounce of practice is worth more than tons of preaching.</p>
