@@ -62,3 +62,4 @@ Unless otherwise indicated, submit each of the following assignments via BbLearn
 - **Homework 21:** Complete 5.6-5.10 in [Chapter 5: Continuity]({{site.baseurl}}/teaching/mat431s21/Continuity.pdf). (Due Wednesday, March 10)
 - **Homework 22:** Complete 5.11 in [Chapter 5: Continuity]({{site.baseurl}}/teaching/mat431s21/Continuity.pdf). (Due Friday, March 12)
 - **Homework 23:** Complete 5.13, 5.14 (any two), 5.15 in [Chapter 5: Continuity]({{site.baseurl}}/teaching/mat431s21/Continuity.pdf). (Due Monday, March 15)
+- **Homework 24:** Complete 5.16-5.20 in [Chapter 5: Continuity]({{site.baseurl}}/teaching/mat431s21/Continuity.pdf). (Due Wednesday, March 17)
