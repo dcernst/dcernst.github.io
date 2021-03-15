@@ -104,3 +104,11 @@ We’ll use this page to keep track of what has happened each day in class. It w
   <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, March 10:</b> Mostly me running my mouth today in an attempt to solidify our understanding of continuity. I reviewed the definition and the equivalent form given in Problem 5.5 and then spent time playing with a couple of applets. Next, I sketched a solution to Problem 5.6. We will pick up where we left off next time.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Friday, March 12:</b> After a bit of a "pep talk", we had AR, JH, and MW present Problems 5.7, 5.8, and 5.10, respectively.  Along the way, I presented Problem 5.9.</li>
 </ul>
+
+## Week 10 ##
+
+<ul class="fa-ul">
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, March 15:</b> How is it week 10 already?! We didn't get through everything, but a productive day nonetheless. After a quick summary of the various approaches to proving continuity, we had JC, AG, HG, and CM present Problems 5.14(a), 5.14(b), 5.15, and 5.11(reverse implication), respectively.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, March 17:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, March 19:</b> Coming soon.</li>
+</ul>
