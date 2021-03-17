@@ -109,6 +109,6 @@ We’ll use this page to keep track of what has happened each day in class. It w
 
 <ul class="fa-ul">
   <li><i class="fa-li far fa-calendar-check"></i><b>Monday, March 15:</b> How is it week 10 already?! We didn't get through everything, but a productive day nonetheless. After a quick summary of the various approaches to proving continuity, we had JC, AG, HG, and CM present Problems 5.14(a), 5.14(b), 5.15, and 5.11(reverse implication), respectively.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, March 17:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, March 17:</b> We kicked off by revisiting Problems 5.11 and 5.13.  Next, we had JL and SA present Problems 5.17 and 5.19, respectively.  Along the way, I cranked out a few examples.  We will go back to Problem 5.18 on Friday.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Friday, March 19:</b> Coming soon.</li>
 </ul>
