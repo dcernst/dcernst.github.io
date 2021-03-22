@@ -112,3 +112,11 @@ We’ll use this page to keep track of what has happened each day in class. It w
   <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, March 17:</b> We kicked off by revisiting Problems 5.11 and 5.13.  Next, we had JL and SA present Problems 5.17 and 5.19, respectively.  Along the way, I cranked out a few examples.  We will go back to Problem 5.18 on Friday.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Friday, March 19:</b> Awesome day, in my opinion.  We had MW, MS, RM, and ID present Problems 5.18, 5.20, 5.23, and 5.26, respectively.  Along the way, we discussed several examples, as well as Problem 5.25.</li>
 </ul>
+
+## Week 11 ##
+
+<ul class="fa-ul">
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, March 22:</b> Another busy day! After I presented the proof of the Intermediate Value Theorem (Problem 5.27), JW generalized it and proved Problem 5.28.  Next, I discussed Problem 5.29, which was followed by a presentation of Problem 5.30 by EB. This completed Chapter 5 and then we launched into Chapter 6.  After I discussed Definition 6.1 and Problems 6.2 and 6.3, KB presented Problem 6.6.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, March 24:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, March 26:</b> Coming soon.</li>
+</ul>
