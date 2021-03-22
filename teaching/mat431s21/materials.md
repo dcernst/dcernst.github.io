@@ -51,7 +51,7 @@ We will not be using a traditional textbook this semester, but rather a problem 
 - [Chapter 4: Standard Topology of the Real Line]({{site.baseurl}}/teaching/mat431s21/Topology.pdf)
 - [Chapter 5: Continuity]({{site.baseurl}}/teaching/mat431s21/Continuity.pdf)
 - [Chapter 6: Limits]({{site.baseurl}}/teaching/mat431s21/Limits.pdf)
-- Chapter 7: Differentiation (Coming soon)
+- [Chapter 7: Diffferentiation]({{site.baseurl}}/teaching/mat431s21/Differentiation.pdf)
 - Chapter 8: Integration (Coming soon)
 - [Appendix A: Elements of Style for Proofs]({{site.baseurl}}/teaching/mat431s21/ElementsOfStyle.pdf)
 - [Appendix B: Fancy Mathematical Terms]({{site.baseurl}}/teaching/mat431s21/FancyMathematicalTerms.pdf)
