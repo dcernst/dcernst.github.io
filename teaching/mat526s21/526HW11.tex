@@ -1,0 +1,145 @@
+\documentclass[11pt]{article}%{scrartcl}
+\usepackage[scale=1.5]{ccicons}
+\usepackage[notextcomp]{kpfonts} 
+\usepackage[margin=1in]{geometry}
+\usepackage{amsthm,amssymb}
+\usepackage{graphicx}
+\usepackage{mathtools}
+\usepackage{enumitem}
+\usepackage{bm}
+%\usepackage{ulem}
+\usepackage{tikz}
+
+\usepackage{color}
+\definecolor{darkblue}{rgb}{0, 0, .6}
+\definecolor{grey}{rgb}{.7, .7, .7}
+\usepackage[breaklinks]{hyperref}
+\hypersetup{
+	colorlinks=true,
+	linkcolor=darkblue,
+	anchorcolor=darkblue,
+	citecolor=darkblue,
+	pagecolor=darkblue,
+	urlcolor=darkblue,
+	pdftitle={},
+	pdfauthor={}
+}
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\lhead{MAT 526 - Spring 2021}
+\chead{}
+\rhead{Due Monday, March 29}
+%\lfoot{}%\scriptsize This work is licensed under the \href{http://creativecommons.org/licenses/by-sa/3.0/us/}{Creative Commons Attribution-Share Alike 3.0 License}.} 
+%\cfoot{}
+%\rfoot{\ccbysa}
+\renewcommand{\headrulewidth}{.4pt}
+%\renewcommand{\footrulewidth}{.4pt}
+
+\theoremstyle{definition}
+\newtheorem{theorem}{Theorem}
+\newtheorem{acknowledgement}[theorem]{Acknowledgement}
+\newtheorem{algorithm}[theorem]{Algorithm}
+\newtheorem{axiom}[theorem]{Axiom}
+\newtheorem{case}[theorem]{Case}
+\newtheorem{claim}[theorem]{Claim}
+\newtheorem*{claim*}{Claim}
+\newtheorem{conclusion}[theorem]{Conclusion}
+\newtheorem{condition}[theorem]{Condition}
+\newtheorem{conjecture}[theorem]{Conjecture}
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{criterion}[theorem]{Criterion}
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{example}[theorem]{Example}
+\newtheorem{exercise}[theorem]{Exercise}
+\newtheorem{journal}[theorem]{Journal}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{notation}[theorem]{Notation}
+\newtheorem{problem}[theorem]{Problem}
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{remark}[theorem]{Remark}
+\newtheorem{solution}[theorem]{Solution}
+\newtheorem{summary}[theorem]{Summary}
+\newtheorem{skeleton}[theorem]{Skeleton Proof}
+\newtheorem{activity}[theorem]{Activity}
+\newtheorem{intuitivedef}[theorem]{Intuitive Definition}
+
+\DeclareMathOperator{\des}{des}
+\DeclareMathOperator{\Des}{Des}
+\DeclareMathOperator{\Inv}{Inv}
+\DeclareMathOperator{\inv}{inv}
+\DeclareMathOperator{\area}{area}
+\DeclareMathOperator{\Dyck}{Dyck}
+\DeclareMathOperator{\rk}{rk}
+
+\newcommand{\blankline}{\pagebreak[2]\vspace{.5\baselineskip}}
+
+\newcommand{\euler}[2]{
+  \displaystyle \left\langle\begin{matrix}#1  \\#2  \\ \end{matrix}\right\rangle}
+\newcommand{\stirling}[2]{
+  \displaystyle \left\{\begin{matrix}#1  \\#2  \\ \end{matrix}\right\}}
+
+\setlength{\parindent}{0pt}
+
+%Useful for cut and paste
+%\begin{enumerate}[label=\rm{(\alph*)}]
+
+\begin{document}
+
+\begin{center}
+{\Large\bf Homework 11}
+
+\smallskip
+
+Combinatorics
+\end{center}
+
+\thispagestyle{fancy}
+
+You are allowed and encouraged to work together on homework. Yet, each student is expected to turn in his or her own work. In general, late homework will not be accepted. However, you are allowed to turn in \textbf{up to two late homework assignments with no questions asked}. When doing your homework, I encourage you to consult the \href{http://danaernst.com/teaching/ElementsOfStyle.pdf}{Elements of Style for Proofs}. Unless otherwise indicated, submit each of the following assignments via BbLearn by the due date. You will need to capture your handwritten work digitally and then upload a PDF to BbLearn. There are many free smartphone apps for doing this. I use TurboScan on my iPhone.
+
+\blankline
+
+Reviewing material from previous courses and looking up definitions and theorems you may have forgotten is fair game. However, when it comes to completing assignments for this course, you should \emph{not} look to resources outside the context of this course for help.  That is, you should not be consulting the web, other texts, other faculty, or students outside of our course in an attempt to find solutions to the problems you are assigned.  This includes Chegg and Course Hero. On the other hand, you may use each other, the textbook, me, and your own intuition. \textbf{If you feel you need additional resources, please come talk to me and we will come up with an appropriate plan of action.} Please read NAU's \href{https://www5.nau.edu/policies/Client/Details/828?whoIsLooking=Students&pertainsTo=All&sortDirection=Ascending&page=1}{Academic Integrity Policy}.
+
+\blankline
+
+Complete the following problems. 
+\begin{enumerate}
+\item Find a reasonable formula for the number of linear extensions of the following poset on $[n]$ for $n$ even.
+
+\tikzstyle{vert} = [circle, draw, fill=grey,inner sep=0pt, minimum size=7mm]
+\tikzstyle{b} = [draw, very thick, black,-]
+
+\begin{center}
+\begin{tikzpicture}[scale=1.5,auto]
+\node (1) at (1,0) [vert] {\scriptsize $1$};
+\node (2) at (1,1) [vert] {\scriptsize $2$};
+\node (3) at (2,0) [vert] {\scriptsize $3$};
+\node (4) at (2,1) [vert] {\scriptsize $4$};
+\node at (3,.5) {$\hdots$};
+\node (n-1) at (4,0) [vert] {\scriptsize $n-1$};
+\node (n) at (4,1) [vert] {\scriptsize $n$};
+\path [b] (1) to (2);
+\path [b] (3) to (4);
+\path [b] (n-1) to (n);
+\end{tikzpicture}
+\end{center}
+
+\item Suppose $P$ is an antichain on $[n]$ (i.e., there are no relations among $\{1,2,\ldots,n\}$).
+\begin{enumerate}
+\item Prove that $\Omega(P;k)=k^n$.
+\item Prove that the order polynomial generating function for $P$ is given by
+\[
+H(P;t)=\frac{tS_n(t)}{(1-t)^{n+1}},
+\]
+where $S_n(t)$ is the $n$th Eulerian polynomial.
+\item Use parts (a) and (b) to derive the Carlitz identity.
+\end{enumerate}
+\item Complete Problem 3.6 in textbook.
+\item Complete Problem 3.8 in textbook.
+\item Complete Problem 3.9 in textbook.
+%\item Complete Problem 3.10 in textbook.
+%\item Complete Problem 3.11 in textbook.
+\end{enumerate}
+\end{document}
