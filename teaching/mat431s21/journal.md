@@ -118,7 +118,7 @@ We’ll use this page to keep track of what has happened each day in class. It w
 <ul class="fa-ul">
   <li><i class="fa-li far fa-calendar-check"></i><b>Monday, March 22:</b> Another busy day! After I presented the proof of the Intermediate Value Theorem (Problem 5.27), JW generalized it and proved Problem 5.28.  Next, I discussed Problem 5.29, which was followed by a presentation of Problem 5.30 by EB. This completed Chapter 5 and then we launched into Chapter 6.  After I discussed Definition 6.1 and Problems 6.2 and 6.3, KB presented Problem 6.6.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, March 24:</b> After a quick discussion of upcoming exam, we had BP and AL present Problems 6.9 and 6.13(forward implication), respectively.  Along the way, I presented Problem 6.12.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, March 26:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, March 26:</b> We had DR and JH present Problems 6.14(a) and 7.7, respectively.  Along the way, I presented Problems 7.5 and 7.6 and summarized Definition 7.1.</li>
 </ul>
 
 ## Week 12 ##
