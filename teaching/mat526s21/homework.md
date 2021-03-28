@@ -45,3 +45,4 @@ I reserve the right to modify the assignment if the need arises.
 - **Homework 9:** Complete the problems found [here]({{site.baseurl}}/teaching/mat526s21/526HW9.pdf). **Note:** Updated on March 11. (Due Monday, March 15)
 - **Homework 10:** Complete the problems found [here]({{site.baseurl}}/teaching/mat526s21/526HW10.pdf). (Due Monday, March 22)
 - **Homework 11:** Complete the problems found [here]({{site.baseurl}}/teaching/mat526s21/526HW11.pdf). (Due Monday, March 29)
+- **Homework 12:** Complete the problems found [here]({{site.baseurl}}/teaching/mat526s21/526HW12.pdf). (Due Monday, April 5)
