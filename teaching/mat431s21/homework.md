@@ -67,5 +67,5 @@ Unless otherwise indicated, submit each of the following assignments via BbLearn
 - **Homework 26:** Complete 5.29, 5.30, 6.2, 6.3, 6.6, 6.9, 6.12 in [Chapter 5: Continuity]({{site.baseurl}}/teaching/mat431s21/Continuity.pdf) and [Chapter 6: Limits]({{site.baseurl}}/teaching/mat431s21/Limits.pdf). In addition, read and digest everything in Chapter 6 that we omitted. (Due Monday, March 22)
 - **Homework 27:** Reread all of Chapter 6 again and then complete 6.13 and at least one part of 6.14 in [Chapter 6: Limits]({{site.baseurl}}/teaching/mat431s21/Limits.pdf). (Due Wednesday, March 24)
 - **Homework 28:** Complete 7.2-7.9 in [Chapter 7: Differentiation]({{site.baseurl}}/teaching/mat431s21/Differentiation.pdf). (Due Friday, March 26)
-- **Homework 29:** Complete 7.10, 7.11, 7.12(choose one), 7.12, 7.14 in [Chapter 7: Differentiation]({{site.baseurl}}/teaching/mat431s21/Differentiation.pdf). (Due Monday, March 29)
+- **Homework 29:** Complete 7.10, 7.11, 7.12(choose one), 7.14 in [Chapter 7: Differentiation]({{site.baseurl}}/teaching/mat431s21/Differentiation.pdf). (Due Monday, March 29)
 - **Homework 30:** Complete 7.15-7.18 in [Chapter 7: Differentiation]({{site.baseurl}}/teaching/mat431s21/Differentiation.pdf). (Due Wednesday, March 31)
