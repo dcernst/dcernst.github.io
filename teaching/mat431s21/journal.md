@@ -125,7 +125,7 @@ We’ll use this page to keep track of what has happened each day in class. It w
 
 <ul class="fa-ul">
   <li><i class="fa-li far fa-calendar-check"></i><b>Monday, March 29:</b> We had ML, HH, and ND present Problems 7.8, 7.9 and 7.10(b), respectively. With the time we had left, I got started on Problem 7.12(a).</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, March 31:</b> Another great day.  After I presented Problems 7.12 and 7.14, we had TR and HH present Problems 7.15 and 7.16, respectively.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, March 31:</b> Another great day.  After I presented Problems 7.12 and 7.14, we had TR and HG present Problems 7.15 and 7.16, respectively.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Friday, April 2:</b> The students took part 1 of Exam 2.</li>
 </ul>
 
