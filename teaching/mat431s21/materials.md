@@ -29,9 +29,11 @@ title: Course Materials
 ## An Inquiry-Based Approach to Real Analysis ##
 We will not be using a traditional textbook this semester, but rather a problem sequence adopted for an [inquiry-based learning](http://maamathedmatters.blogspot.com/2013/05/what-heck-is-ibl.html) (IBL) approach to real analysis. The problem sequence that we are using is an adaptation of the analysis notes by [Karl-Dieter Crisman](http://www.math-cs.gordon.edu/~kcrisman/), which are a modified version of notes by [W. Ted Mahavier](https://www.lamar.edu/arts-sciences/mathematics/faculty/w-ted-mahavier.html). Both authors have been gracious enough to grant me access to the source of these notes, so that we can modify and tweak for our needs if necessary. The notes will be released incrementally. Each link below is to a PDF file.
 
-<div class="alert alert-info" role="alert" style="margin: 10px 0 10px 0">
+<!-- <div class="alert alert-info" role="alert" style="margin: 10px 0 10px 0">
 <i class="fa fa-exclamation-triangle"></i>&nbsp; These notes are currently under construction and subject to change.
-</div>
+</div> -->
+
+- [Introduction to Real Analysis]({{site.baseurl}}/teaching/mat431s21/Analysis.pdf) (complete set of notes)
 
 - [Title Page and Front Matter]({{site.baseurl}}/teaching/mat431s21/FrontMatter.pdf)
 - [Preface]({{site.baseurl}}/teaching/mat431s21/Preface.pdf)
@@ -52,7 +54,7 @@ We will not be using a traditional textbook this semester, but rather a problem 
 - [Chapter 5: Continuity]({{site.baseurl}}/teaching/mat431s21/Continuity.pdf)
 - [Chapter 6: Limits]({{site.baseurl}}/teaching/mat431s21/Limits.pdf)
 - [Chapter 7: Differentiation]({{site.baseurl}}/teaching/mat431s21/Differentiation.pdf)
-- Chapter 8: Integration (Coming soon)
+- [Chapter 8: Integration]({{site.baseurl}}/teaching/mat431s21/Integration.pdf)
 - [Appendix A: Elements of Style for Proofs]({{site.baseurl}}/teaching/mat431s21/ElementsOfStyle.pdf)
 - [Appendix B: Fancy Mathematical Terms]({{site.baseurl}}/teaching/mat431s21/FancyMathematicalTerms.pdf)
 - [Appendix C: Definitions in Mathematics]({{site.baseurl}}/teaching/mat431s21/Definitions.pdf)
