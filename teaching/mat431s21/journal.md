@@ -134,7 +134,7 @@ We’ll use this page to keep track of what has happened each day in class. It w
 <ul class="fa-ul">
   <li><i class="fa-li far fa-calendar-check"></i><b>Monday, April 5:</b> While students are working on take-home exam, I am lecturing. We wrapped up Chapter 7 and started Chapter 8.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, April 7:</b> More lecturing.  I reviewed the definitions of Riemann sum, upper Riemann sum, and lower Riemann sum and then discussed Problems 8.8, 8.9, and 8.10.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, April 9:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, April 9:</b> We reviewed a bit and then discussed 8.11-8.16 (mixture of problems and definitions).</li>
 </ul>
 
 ## Week 14 ##
