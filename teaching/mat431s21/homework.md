@@ -70,4 +70,4 @@ Unless otherwise indicated, submit each of the following assignments via BbLearn
 - **Homework 29:** Complete 7.10, 7.11, 7.12(choose one), 7.14 in [Chapter 7: Differentiation]({{site.baseurl}}/teaching/mat431s21/Differentiation.pdf). (Due Monday, March 29)
 - **Homework 30:** Complete 7.15-7.17 in [Chapter 7: Differentiation]({{site.baseurl}}/teaching/mat431s21/Differentiation.pdf). (Due Wednesday, March 31)
 - **Homework 31:** Complete 8.17 and 8.18 in [Chapter 8: Integration]({{site.baseurl}}/teaching/mat431s21/Integration.pdf). (Due Monday, April 12)
-- **Homework 32:** Complete ??? in [Chapter 8: Integration]({{site.baseurl}}/teaching/mat431s21/Integration.pdf). (Due Wednesday, April 14)
+- **Homework 32:** Complete 8.19, 8.21-8.23 in [Chapter 8: Integration]({{site.baseurl}}/teaching/mat431s21/Integration.pdf). (Due Wednesday, April 14)
