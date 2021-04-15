@@ -72,3 +72,6 @@ Unless otherwise indicated, submit each of the following assignments via BbLearn
 - **Homework 31:** Complete 8.17 and 8.18 in [Chapter 8: Integration]({{site.baseurl}}/teaching/mat431s21/Integration.pdf). (Due Monday, April 12)
 - **Homework 32:** Complete 8.19, 8.21-8.23 in [Chapter 8: Integration]({{site.baseurl}}/teaching/mat431s21/Integration.pdf). (Due Wednesday, April 14)
 - **Homework 33:** Complete 8.24, 8.25, 8.27 in [Chapter 8: Integration]({{site.baseurl}}/teaching/mat431s21/Integration.pdf). (Due Friday, April 16)
+- **Homework 34:** Complete 8.28, 8.29(pick one), 8.30, 8.31 in [Chapter 8: Integration]({{site.baseurl}}/teaching/mat431s21/Integration.pdf). (Due Monday, April 19)
+- **Homework 35:** Complete ??? in [Chapter 8: Integration]({{site.baseurl}}/teaching/mat431s21/Integration.pdf). (Due Wednesday, April 21)
+- **Homework 36:** Complete ??? in [Chapter 8: Integration]({{site.baseurl}}/teaching/mat431s21/Integration.pdf). (Due Friday, April 23)
