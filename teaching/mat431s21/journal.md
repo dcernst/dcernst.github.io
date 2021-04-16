@@ -142,7 +142,7 @@ We’ll use this page to keep track of what has happened each day in class. It w
 <ul class="fa-ul">
   <li><i class="fa-li far fa-calendar-check"></i><b>Monday, April 12:</b> We got a late start due to battling technology.  Once we got started, we did a quick review and then had LG and SA present Problems 8.17 and 8.18, respectively.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, April 14:</b> After revisiting Problem 8.18, we had DR, JC, and ML present Problems 8.19, 8.21, and 8.22, respectively.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, April 16:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, April 16:</b> After tinkering with an applet that illustrated lower and upper sums, we had AR, HG, and JO present Problems 8.23, 8.24, and 8.25, respectively.</li>
 </ul>
 
 ## Week 15 ##
