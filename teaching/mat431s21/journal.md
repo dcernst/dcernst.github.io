@@ -148,7 +148,7 @@ We’ll use this page to keep track of what has happened each day in class. It w
 ## Week 15 ##
 
 <ul class="fa-ul">
-  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, April 19:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, April 19:</b> Wow.  I was super impressed with today's presentations!  We had HH, LG, KB, and BP present Problems 8.27, 8.29(a), 8.30, and 8.31, respectively. We didn't quite finish Problem 8.31 and will revisit on Wednesday.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, April 21:</b> Coming soon.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Friday, April 23:</b> Coming soon.</li>
 </ul>
