@@ -1,0 +1,491 @@
+\documentclass[11pt]{article}
+\usepackage[scale=1.5]{ccicons}
+\usepackage{url}
+\usepackage{array}
+\usepackage{multicol}
+\usepackage{tabu}
+\usepackage[table]{xcolor}
+\usepackage{tikz}
+\usetikzlibrary{shapes.geometric}
+\usepackage{fancyhdr}
+\usepackage[margin=.7in]{geometry}
+\usepackage[hang,flushmargin,symbol*]{footmisc}
+\usepackage{amsmath}
+\usepackage{amsthm}
+\usepackage{amssymb}
+\usepackage{mathtools}
+\usepackage{enumitem}
+\usepackage{graphicx}
+\usepackage{color}
+\definecolor{darkblue}{rgb}{0, 0, .6}
+\definecolor{grey}{rgb}{.7, .7, .7}
+\usepackage[breaklinks]{hyperref}
+\usepackage{mathdots}
+\usepackage{shuffle}
+
+\theoremstyle{definition} 
+\newtheorem{theorem}{Theorem}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{claim}[theorem]{Claim}
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{conjecture}[theorem]{Conjecture}
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{example}[theorem]{Example}
+\newtheorem{remark}[theorem]{Remark}
+\newtheorem{important}[theorem]{Important Note}
+\newtheorem{recall}[theorem]{Recall}
+\newtheorem{note}[theorem]{Note}
+\newtheorem{question}[theorem]{Question}
+\newtheorem*{definition*}{Definition}
+\newtheorem*{theorem*}{Theorem}
+\newtheorem*{claim*}{Claim}
+
+\newcommand{\ds}{\displaystyle}
+\newcommand{\Spin}{\operatorname{Spin}}
+\newcommand{\Rng}{\operatorname{Rng}}
+
+\DeclareMathOperator{\Aut}{Aut}
+\DeclareMathOperator{\Inv}{Inv}
+\DeclareMathOperator{\inv}{inv}
+\DeclareMathOperator{\Two}{Two}
+\DeclareMathOperator{\des}{des}
+\DeclareMathOperator{\asc}{asc}
+\DeclareMathOperator{\Asc}{Asc}
+\DeclareMathOperator{\Des}{Des}
+\DeclareMathOperator{\rev}{rev}
+\DeclareMathOperator{\runs}{runs}
+\DeclareMathOperator{\TL}{TL}
+\DeclareMathOperator{\tr}{tr}
+\DeclareMathOperator{\Tr}{Tr}
+\DeclareMathOperator{\pk}{pk}
+\DeclareMathOperator{\coins}{coins}
+\DeclareMathOperator{\Dyck}{Dyck}
+\DeclareMathOperator{\maj}{maj}
+\DeclareMathOperator{\Shuff}{Shuff}
+\DeclareMathOperator{\Wk}{Wk}
+\DeclareMathOperator{\Abs}{Abs}
+\DeclareMathOperator{\NC}{NC}
+\DeclareMathOperator{\rk}{rk}
+
+\newcommand{\euler}[2]{
+  \displaystyle \left\langle\begin{matrix}#1  \\#2  \\ \end{matrix}\right\rangle}
+\newcommand{\qbinom}[2]{
+  \displaystyle \left[\begin{matrix}#1  \\#2  \\ \end{matrix}\right]}
+\newcommand{\stirling}[2]{
+  \displaystyle \left\{\begin{matrix}#1  \\#2  \\ \end{matrix}\right\}}
+
+
+\setlength{\parindent}{0pt}
+\setlength{\fboxsep}{10pt}
+
+%%%%%%Header/Footer%%%%%%%
+
+\pagestyle{fancy}
+
+\lhead{MAT 526 - Spring 2021}
+\chead{}
+\rhead{Final Exam}
+\lfoot{\scriptsize This work is licensed under the \href{https://creativecommons.org/licenses/by-sa/4.0/}{Creative Commons Attribution-Share Alike 4.0 License}.} 
+\cfoot{}
+\rfoot{\ccbysa}
+\renewcommand{\headrulewidth}{.4pt}
+\renewcommand{\footrulewidth}{.4pt}
+
+%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+\tikzstyle{vert} = [circle, draw, fill=grey,inner sep=0pt, minimum size=6mm]
+\tikzstyle{vertsmall} = [circle=3pt, draw, fill=grey]
+\tikzstyle{s} = [draw, very  thick, black, stealth-stealth]
+\tikzstyle{s1} = [draw, very  thick, black,-stealth]
+\tikzstyle{d} = [draw, very  thick, black, dashed,-stealth]
+\tikzstyle{d2} = [draw, very thick, dashed,stealth-stealth]
+\tikzstyle{s2} = [draw, very thick, stealth-stealth]
+\tikzstyle{snake} = [draw, very thick, snake it,-stealth]
+\tikzstyle{snake2} = [draw, very thick, snake it, stealth-stealth]
+\tikzstyle{g} = [draw, very thick, grey,-stealth]
+\tikzstyle{g2} = [draw, very thick, grey, stealth-stealth]
+
+\begin{center}
+
+{\Large\bf Final Exam}
+
+\bigskip
+
+  \fbox{\parbox{7in}{
+    \vspace{5pt}
+    \textbf{\large Your Name:}
+    \vspace{5pt}
+  }}
+  
+  \bigskip
+  
+  \fbox{\parbox{7in}{
+    \vspace{5pt}
+    \textbf{\large Names of Any Collaborators:}
+    \vspace{5pt}
+  }}
+
+\end{center}
+
+\section*{Instructions}
+
+Answer each of the following questions and then submit your solutions to BbLearn by \textbf{5:00\textsc{pm} on Thursday, April 28}. You can either write your solutions on paper and then capture your work digitally or you can write your solutions digitally on a tablet (e.g., iPad). This exam is worth a total of 52 points and is worth 25\% of your overall grade.
+
+\bigskip
+
+I expect your solutions to be \emph{well-written, neat, and organized}.  Do not turn in rough drafts.  What you turn in should be the ``polished'' version of potentially several drafts.  Feel free to type up your final version.  The \LaTeX\ source file of this exam is also available if you are interested in typing up your solutions using \LaTeX.  I'll gladly help you do this if you'd like.
+
+\bigskip
+
+Reviewing material from previous courses and looking up definitions and theorems you may have forgotten is fair game. However, when it comes to completing the following problems, you should \emph{not} look to resources outside the context of this course for help.  That is, you should not be consulting the web, other texts, other faculty, or students outside of our course in an attempt to find solutions to the problems you are assigned.  This includes Chegg and Course Hero. On the other hand, you may use each other, the textbook, me, and your own intuition. Further information:
+\begin{enumerate}
+\item You may freely use any theorems that we have discussed in class, but you should make it clear where you are using a previous result and which result you are using.  %For example, if a sentence in your proof follows from Problem 3.16, then you should say so.
+\item Unless you prove them, you cannot use any results from the course notes/book that we have not yet covered.
+\item You are \textbf{NOT} allowed to consult external sources when working on the exam.  This includes people outside of the class, other textbooks, and online resources.
+\item You are \textbf{NOT} allowed to copy someone else's work.
+\item You are \textbf{NOT} allowed to let someone else copy your work.
+\item You are allowed to discuss the problems with each other and critique each other's work.
+\end{enumerate}
+
+\begin{center}
+\textbf{I will vigorously pursue anyone suspected of breaking these rules.}
+\end{center}
+
+You should \textbf{turn in this cover page} and all of the work that you have decided to submit. \textbf{Please write your solutions and proofs on your own paper.} To convince me that you have read and understand the instructions, sign in the box below.
+
+\bigskip
+
+  \fbox{\parbox{7in}{
+    \vspace{5pt}
+    \textbf{\large Signature:} \hfill
+    \vspace{5pt}
+  }}
+
+\bigskip
+
+Good luck and have fun!
+
+\newpage
+
+\begin{enumerate}
+
+\item (1 points each) For each statement below, determine whether it is TRUE or FALSE.  Circle the correct answer. You do not need to justify your answer.
+
+\begin{enumerate}[label=\text{(\alph*)}]
+
+\item For all $n>0$ and $k\geq 0$, $N_{n,k}=N_{n,n-k-1}$.
+
+\smallskip
+
+TRUE \qquad FALSE
+
+%\item For $n\geq 1$, $\ds n!=\sum_{k=0}^{n-1}\euler{n}{k}$.
+%
+%\smallskip
+%
+%TRUE \qquad FALSE
+
+%\item For $n\geq 1$, $\ds C_n=\sum_{k=0}^{n-1}N_{n,k}$.
+%
+%\smallskip
+%
+%TRUE \qquad FALSE
+
+%\item $C_n(1)=C_n$, $C_n(t)$ is the generating function for the Narayana numbers.
+%
+%\smallskip
+%
+%TRUE \qquad FALSE
+
+%\item The number of non-Dyck lattice paths from $(0,0)$ to $(n,n)$ is equal to $|S_n\setminus S_n(231)|$.
+%
+%\smallskip
+%
+%TRUE \qquad FALSE
+
+%\item For $n\geq 1$, $\ds B_n=\sum_{k=1}^n\stirling{n}{k}$, where $B_n$ is the $n$th Bell number.
+%
+%\smallskip
+%
+%TRUE \qquad FALSE
+
+%\item For $n\geq 1$, $I_n(1)=n!$, where $I_n(q)$ is the generating function for the inversion numbers $I_{n,k}$.
+%
+%\smallskip
+%
+%TRUE \qquad FALSE
+
+\item For all $w\in S_n$, $\Inv(w)=\Inv(w^{-1})$.
+
+\smallskip
+
+TRUE \qquad FALSE
+
+\item For $n\geq 1$, $\displaystyle \sum_{p\in\Dyck(n)} q^{\maj(p)} =\sum_{p\in\Dyck(n)}q^{\pk(p)}$. 
+
+\smallskip
+
+TRUE \qquad FALSE
+
+\item For $n\geq 1$, $\displaystyle \sum_{p\in L(n,n)} q^{\maj(p)} =\qbinom{2n}{n}$. 
+
+\smallskip
+
+TRUE \qquad FALSE
+
+\item If $w\in S_n$, then $\maj(w)=\inv(w)$.
+
+\smallskip
+
+TRUE \qquad FALSE
+
+\item For $1\leq k\leq n$, $\stirling{n}{k}=\stirling{n}{n-k}$.
+
+\smallskip
+
+TRUE \qquad FALSE
+
+%\item For all $0\leq k \leq n$, $\displaystyle \qbinom{n}{k}=q^{k(n-k)}\left.\qbinom{n}{k}\right|_{1/q}$. %true
+%
+%\smallskip
+%
+%TRUE \qquad FALSE
+
+\item For all $0\leq k \leq n$, $\displaystyle a_{n,k}(1)=\binom{n}{k}$, where $a_{n,k}(q)$ is the generating function for paths in $L(k,n-k)$ according to area.
+
+\smallskip
+
+TRUE \qquad FALSE
+
+\item For $n\geq 1$, $\ds \sum_{k=0}^{n-1}\euler{n}{k}=\sum_{k=0}^{\binom{n}{2}}I_{n,k}$.
+
+\smallskip
+
+TRUE \qquad FALSE
+
+%\item For $0\leq k\leq n-1$, $\displaystyle N_{n,k}\leq \euler{n}{k}$. %true
+%
+%\smallskip
+%
+%TRUE \qquad FALSE
+
+\item If $P$ is a finite poset having unique maximal and unique minimal elements, then $P$ is a lattice.
+
+\smallskip
+
+TRUE \qquad FALSE
+
+\item The number of permutations of rank $k$ in $\Wk^{\ell}(S_n)$ is equal to the coefficient on $q^k$ in $[n]_q!$. %the product $(1+q)(1+q+q^2)\cdots (1+q+q^2+\cdots +q^{n-1})$.
+
+\smallskip
+
+TRUE \qquad FALSE
+
+\item The number of permutations in $S_n$ with major index $k$ is equal to the coefficient on $q^k$ in $[n]_q!$. %the product $(1+q)(1+q+q^2)\cdots (1+q+q^2+\cdots +q^{n-1})$.
+
+\smallskip
+
+TRUE \qquad FALSE
+
+\item The number of subsets of $[n]$ of size $k$ is equal to the coefficient on $q^k$ in the expansion of $(1+q)^n$. %the product $(1+q)(1+q+q^2)\cdots (1+q+q^2+\cdots +q^{n-1})$.
+
+\smallskip
+
+TRUE \qquad FALSE
+
+%\item The number of maximal elements in the absolute order of $S_n$, denoted $\Abs(S_n)$, is $(n-1)!$.
+%
+%\smallskip
+%
+%TRUE \qquad FALSE
+
+\item Each vertex in the Hasse diagram for the absolute order of $S_n$ has degree $\displaystyle\binom{n}{2}$.
+
+\smallskip
+
+TRUE \qquad FALSE
+
+\item The number of edges in any path from the minimal element to the maximal element in the Hasse diagram for the noncrossing partition lattice $\NC(n)$ is $n-1$.
+
+\smallskip
+
+TRUE \qquad FALSE
+
+\item The number of partitions of rank $k$ in $\NC(n)$ is equal to $N_{n,k}$.
+
+\smallskip
+
+TRUE \qquad FALSE
+
+%\item If $i<_P j$ is a chain in some labeled poset $P$, then every linear extension $w$ of $P$ satisfies $w(i) < w(j)$.
+%
+%\smallskip
+%
+%TRUE \qquad FALSE
+
+%\item The maximum adjacent sorting length (aka, wicked awesome sorting length) of a permutation $w\in S_n$, denoted $\ell(w)$, is $\ds \binom{n}{2}$.
+%
+%\smallskip
+%
+%TRUE \qquad FALSE
+
+\item If $u,v\in S_n$, then there exists a permutation $w$ such that $\Inv(w)=\Inv(u)\cup \Inv(v)$.
+
+\smallskip
+
+TRUE \qquad FALSE
+
+\item If $([n],\leq)$ is a poset and $i<_P j$, then for all linear extensions $w$, we have $w^{-1} (i)<w^{-1}(j)$ (where we interpret $w$ as a permutation).
+
+\smallskip
+
+TRUE \qquad FALSE
+
+\item If $(P,\leq)$ is a ranked poset and $Q$ is a subposet of $P$, then $Q$ is also a ranked poset.
+
+\smallskip
+
+TRUE \qquad FALSE
+
+%\item For $1\leq k\leq n$, $\displaystyle \sum_{p\in L(k,n-k)}q^{\maj(p)}=\sum_{w\in S_n}q^{\maj(w)}$.
+%
+%\smallskip
+%
+%TRUE \qquad FALSE
+
+\item $\displaystyle \sum_{p\in\Dyck(n)}q^{\maj(p)}=\sum_{w\in S_n(231)}q^{\maj(w)}$.
+
+\smallskip
+
+TRUE \qquad FALSE
+
+\item The polynomial $\qbinom{n}{k}$ evaluated at $q=1$ is equal to $\displaystyle \binom{n}{k}$.
+
+\smallskip
+
+TRUE \qquad FALSE
+%
+%\item $\deg\left(\qbinom{n}{k}\right)\leq \deg\left([n]_q!\right)$.
+%
+%\smallskip
+%
+%TRUE \qquad FALSE
+
+%\item For all $w\in S_n$, $\maj(w)=\inv(w^{-1})$.
+%
+%\smallskip
+%
+%TRUE \qquad FALSE
+
+%\item $\displaystyle \qbinom{n}{k}=\sum_{\substack{w\in S_n \\ \Des(w)\subseteq \{k\}}} q^{\maj(w)}$. 
+%
+%\smallskip
+%
+%TRUE \qquad FALSE
+
+%\item If $(P,\leq)$ is a lattice and $Q$ is a subposet of $P$ with a unique minimum value and unique maximum value, then $Q$ is also a lattice.%false
+%
+%\smallskip
+%
+%TRUE \qquad FALSE
+
+\end{enumerate}
+
+	
+\item (8 points each) Complete \textbf{four} of the following.
+\begin{enumerate}
+%\item Let $s_n$ denote the number of subsets of $[n]$ that contain no two consecutive elements.  Determine $s_n$ in terms of a recurrence or a closed form, or by describing a bijection to a set we already know how to count.
+\item Show that every $w\in S_n(123)$ is the ``interweaving" (i.e., shuffle) of two decreasing sequences $a_1,a_2,\ldots, a_k$ ($a_m>a_{m+1}$) and $b_1,b_2,\ldots,b_{n-k}$ ($b_m>b_{m+1}$) (where we allow one of the sequences to be empty).  %That is, if $w=w(1)\cdots w(n)\in S_n(123)$ with $w(i)=a_m$ and $w(j)=a_{m+1}$ (respectively, $w(i)=b_m$ and $w(j)=b_{m+1}$), then $i<j$.
+%\item Find an explicit bijection between $S_n(132)$ and $\NC(n)$.  \emph{Note:} We know that both sets are counted by the Catalan numbers, but this problem is asking you to avoid using this fact.  If you want, you may compose bijections between other sets, but if you do this, you must explicitly describe each map.  However, a ``better" solution would not involve a composition.
+\item Consider a circle with $2n$ fixed points on the circle.  Determine the number of ways of drawing $n$ nonintersecting chords (where each point is connected to exactly one chord).
+\item Recall the definition of parking function given in Problem 3.9.  A parking function $(a_1,a_2,\cdots,a_n)$ is called an \emph{increasing} if $a_i\leq a_{i+1}$ for $1\leq i\leq n-1$. Count the number of increasing parking functions of length $n$.
+
+%\item Suppose there are $n$ Jedi Knights all of different heights.  How many ways can the Jedi Knights stand in a line so that we cannot find any 3 (not necessarily consecutive) that are arranged tallest to shortest from left to right?
+
+\item Find an explicit bijection between triangulations of a convex $(n+2)$-gon and $PB(n)$.
+
+\item Recall the definition of integer partition given in Problem~3.4 in the textbook. Let $p_n$ denote the number of integer partitions of $n$ (with $p_0=1$). Define the \emph{nugget} of an integer partition $\lambda$ of $n$ to be the largest $d\times d$ square that exists in the Young diagram for $\lambda$. Prove that
+\[
+\sum_{n\geq 0}p_nz^n = \sum_{d\geq 0}\frac{z^{d^2}}{(1-z)^2(1-z^2)^2\cdots (1-z^d)^2},
+\]
+where $d\times d$ corresponds to the dimensions of the nugget for an integer partition.
+
+\item Let $u=12\cdots k$ and $v=(k+1)(k+2)\cdots n$ for $0\leq k\leq n$ (those are permutations written in one-line notation).  How many elements are in $u\shuffle v$?  You can either find a recurrence or a closed form for your enumeration.
+
+%\item Prove that each vertex in Hasse diagram for absolute order of $S_n$ has degree $\displaystyle\binom{n}{2}$.
+
+\item Prove that the number of outcomes for a race with $n$ cyclists (with ties allowed) is
+\[
+\displaystyle\sum_{k=0}^n k!\stirling{n}{k}.
+\]
+\emph{Fun Fact!} The number of faces of the permutahedron (polytope we obtain from the weak order) has the same count.
+
+\item Recall that an \emph{involution} in $S_n$ is a permutation $w$ with the property that $w^{-1}=w$. Let $i_n$ denote the number of involutions in $S_n$ and take $i_0:=1$. It's clear that $i_1=1$ since the identity is an involution. Prove that for $n\geq 2$, we have $i_n=i_{n-1}+(n-1)i_{n-2}$.
+
+\item Using the recursion in the previous problem, prove that the exponential generating function for $i_n$ has the following closed form:
+\[
+\sum_{n\geq 0}i_n\frac{z^n}{n!}=e^{z+z^2/2}.
+\]
+You will likely need to solve a separable differential equation along the way.
+
+\item Find the number of linear extensions of the following poset on $[n]$ for $n$ even.
+
+\bigskip
+
+\tikzstyle{vert} = [circle, draw, fill=grey,inner sep=0pt, minimum size=8mm]
+\tikzstyle{b} = [draw, very thick, black,-]
+
+\begin{center}
+\begin{tikzpicture}[scale=1.5,auto]
+\node (1) at (1,0) [vert] {\scriptsize $1$};
+\node (2) at (0,1) [vert] {\scriptsize $2$};
+\node (3) at (2,1) [vert] {\scriptsize $3$};
+\node (4) at (1,2) [vert] {\scriptsize $4$};
+\node (5) at (3,2) [vert] {\scriptsize $5$};
+\node (6) at (2,3) [vert] {\scriptsize $6$};
+\node at (3,3) {$\iddots$};
+\node (n-2) at (3,4) [vert] {\scriptsize $n-2$};
+\node (n-3) at (4,3) [vert] {\scriptsize $n-3$};
+\node (n-1) at (5,4) [vert] {\scriptsize $n-1$};
+\node (n) at (4,5) [vert] {\scriptsize $n$};
+\path [b] (1) to (2);
+\path [b] (1) to (3);
+\path [b] (2) to (4);
+\path [b] (3) to (4);
+\path [b] (4) to (6);
+\path [b] (3) to (5);
+\path [b] (5) to (6);
+\path [b] (n-3) to (n-2);
+\path [b] (n-3) to (n-1);
+\path [b] (n-2) to (n);
+\path [b] (n-1) to (n);
+\end{tikzpicture}
+\end{center}
+
+\end{enumerate}
+
+%\item (4 points each) Complete \textbf{two} of the following.
+%\begin{enumerate}
+%
+%\item Assume $G$ is a finite simple graph and let $V(G)$ and $E(G)$ denote the vertex set and edge set for $G$, respectively.  A subgraph $H$ of $G$ is induced if $\{u,w\}\in E(G)$ implies $\{u,w\}\in E(H)$ for all $u,w\in V(H)$. In words, every edge of $G$ between vertices of $H$ must be in $H$. For example, given the graph $G$ below, the first subgraph is induced while the second is not because it is missing the edge $\{u,x\}\in E(G)$.
+%
+%\begin{center}
+%Figure here.
+%\end{center}
+%
+%A bond of $G$ is a spanning subgraph such that each component is induced. The bond lattice of $G$, denoted $\mathcal{L}(G)$, is the set of bonds of $G$ ordered by containment.
+%\begin{enumerate}
+%\item Draw the Hasse diagram for the bond lattice for the graph $G$ given above.
+%\item If $G$ is a finite simple graph, prove that $\mathcal{L}(G)$ is a lattice as the name advertises.
+%\item If $G$ is a finite simple graph, prove that $\mathcal{L}(G)$ is ranked with rank function $\rk(H):=|V(G)|-c(H)$, where $c(H)$ is the number of connected components of $G$.
+%\item Prove that if $K_n$ is the complete graph on $n$ vertices, then $\mathcal{L}(G)\cong \Pi(n)$ as posets, where $\Pi(n)$ is the partition lattice introduced in Problem~3.8 in the textbook. If you don't know what a poset isomorphism is, feel free to ask me or look it up.
+%\item Prove that if $T$ is a tree on $n$ vertices, then $\mathcal{L}(G)\cong B_{n-1}$, where $B_{n-1}$ is the lattice of subsets of $[n-1]$ ordered by set containment.  The poset $(B_{k},\subseteq)$ is sometimes called the \emph{Boolean algebra}.
+%
+%\end{enumerate}
+
+\end{enumerate}
+
+
+\end{document}
