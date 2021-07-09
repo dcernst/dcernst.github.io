@@ -1,0 +1,1159 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+<meta http-equiv="Content-Language" Content="en">
+<title>2.3 Limits</title>
+<!--
+<script type="text/javascript" src="js/deployJava.js"></script>
+<link rel="stylesheet" type="text/css" href="http://jsxgraph.uni-bayreuth.de/distrib/jsxgraph.css" />
+-->
+<!-- use Jsxgraph to create figures: http://jsxgraph.uni-bayreuth.de/wp/ -->
+<link rel="stylesheet" type="text/css" href="css/jsxgraph.css" />
+<script type="text/javascript" src="js/jsxgraphcore.js"></script>
+<script src="js/three.min.js"></script>
+<script src="js/Detector.js"></script>
+<script src="js/TrackballControls.js"></script>
+<script src="js/OrthographicTrackballControls.js"></script>
+<script src="js/THREEx.KeyboardState.js"></script>
+<script src="js/THREEx.FullScreen.js"></script>
+<script src="js/THREEx.WindowResize.js"></script>
+<script type='text/javascript' src='js/DAT.GUI.min.js'></script>
+<script>
+window.requestAnimFrame = (function(){
+    return  window.requestAnimationFrame       || 
+        window.webkitRequestAnimationFrame || 
+        window.mozRequestAnimationFrame    || 
+        window.oRequestAnimationFrame      || 
+        window.msRequestAnimationFrame     || 
+        function(/* function */ callback, /* DOMElement */
+            element){
+            window.setTimeout(callback, 1000 / 60);
+        };
+})();
+</script>
+<script src="js/ifvisible.min.js"></script>
+<script src="js/conrec.js"></script>
+<script>
+active = true;
+ifvisible.setIdleDuration(10);
+ifvisible.on("idle", function(){
+    active = false;
+//    console.log("idle");
+});
+
+ifvisible.on("wakeup", function(){
+    active = true;
+//    console.log("wakeup");
+});
+</script>
+<script src="js/parser.js"></script>
+<link href="css/whitman.css" rel="stylesheet" type="text/css" /><link href="css/calculus.css" rel="stylesheet" type="text/css" /><link href="css/knowlstyle.css" rel="stylesheet" type="text/css" />
+
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  extensions: ["tex2jax.js","TeX/AMSmath.js","TeX/AMSsymbols.js"],
+  jax: ["input/TeX","output/HTML-CSS"],
+  tex2jax: {
+    inlineMath: [['$','$'],["\\(","\\)"]],
+    processEscapes: true,
+  },
+TeX: {
+   Macros: {
+    val: "\\mathop{\\rm val}",
+    divides: "\\mid",
+    ndivides: "\\mathrel{\\not|}",
+    fix: "\\mathop{\\rm fix}",
+    id: "\\mathop{\\rm id}",
+    na: "\\mathop{\\rm na}",
+    d: "\\mathop{\\rm\\strut d}\\nolimits ",
+    legendre: ["\\left(\\frac{#1}{#2}\\right)",2],
+    normalbaselines: "",
+    notdiv: "\\nmid",
+    implies: "\\Rightarrow",
+    iff: "\\Leftrightarrow",
+    sevenpoint: "\\scriptsize",
+    ds: "\\displaystyle",
+    lcm: "\\operatorname{lcm}",
+    arccot: "\\operatorname{arccot}",
+    arcsec: "\\operatorname{arcsec}",
+    arccsc: "\\operatorname{arccsc}",
+    arccosh: "\\operatorname{arccosh}",
+    arcsinh: "\\operatorname{arcsinh}",
+    arcsech: "\\operatorname{arcsech}",
+    sech: "\\operatorname{sech}",
+    csch: "\\operatorname{csch}",
+    R: "{\\mathbb R}",
+    sb: "_",
+    sp: "^",
+    Q: "{\\mathbb Q}",
+    C: "{\\mathbb C}",
+    N: "{\\mathbb N}",
+    Z: "{\\mathbb Z}",
+    U: "{\\mathbb U}",
+    v: ["\\langle #1\\rangle",1],
+    dint: ["{\\mathchoice{\\mathop{\\int\\!\\!\\!\\int}_{#1}}{\\mathop{\\int\\!\\!\\!\\int}_{#1}}{\\mathop{\\int\\!\\!\\!\\int}}{\\mathop{\\int\\!\\!\\!\\int}}}",1],
+    tint: ["{\\mathchoice{\\mathop{\\int\\!\\!\\!\\int\\!\\!\\!\\int}_{#1\\;}}{\\mathop{\\int\\!\\!\\!\\int\\!\\!\\!\\int}_{#1}}{\\mathop{\\int\\!\\!\\!\\int\\!\\!\\!\\int}_{#1}}{\\mathop{\\int\\!\\!\\!\\int\\!\\!\\!\\int}_{#1}}}",1]
+   }
+},
+  "HTML-CSS": { scale: 100},
+  menuSettings: { zscale: "150%", zoom: "Double-Click" }
+});
+    JXG.Options.text.display = 'html';
+    JXG.Options.text.useMathJax = true;
+</script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/math
+jax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+<script>
+MathJax.Hub.Register.StartupHook("End",function () {
+  if(typeof window.orientation === 'undefined'){
+    var i,x;
+    x = document.getElementsByClassName("webgl_display");
+    for (i=0; i<x.length; i++) {
+      x[i].style.display = "block";
+    }
+    x = document.getElementsByClassName("no_webgl_display");
+    for (i=0; i<x.length; i++) {
+      x[i].style.display = "none";
+    }
+  }
+});
+</script>
+
+<script src="js/jquery-3.1.0.min.js"></script>
+<script src="https://sagecell.sagemath.org/static/embedded_sagecell.js"></script>
+<script src="js/jquery.visible.min.js"></script>
+<script type="text/javascript" src="js/knowl.js"></script>
+<style type="text/css">
+
+.sagecell .CodeMirror {
+  height: auto;
+}
+
+.sagecell .CodeMirror-scroll {
+  overflow-y: hidden;
+  overflow-x: auto;
+}
+
+.sagecell-practice .CodeMirror-scroll {
+}
+
+.sagecell button.sagecell_evalButton {
+    font-size: 50%;
+}
+
+.sagecell_sessionContainer {
+    margin-bottom:1em;
+}
+</style>
+<script>
+function toggle(a) {
+  var b = String(a);
+  b=b.replace("contents","button");
+  if (document.getElementById(a).style.display == "block") {
+    document.getElementById(a).style.display = "none";
+    document.getElementById(b).src = "expand_submenu.png";
+  } else {
+    document.getElementById(a).style.display = "block";
+    document.getElementById(b).src = "collapse_submenu.png";
+  }
+}
+function toggle_sidebar() {
+  if (document.getElementById('sidebar').style.display == "block") {
+    document.getElementById('sidebar').style.display = "none";
+    document.getElementById('menu_expand').style.display = "block";
+  } else {
+    document.getElementById('sidebar').style.display = "block";
+    document.getElementById('menu_expand').style.display = "none";
+  }
+}
+</script>
+
+</head>
+
+<body class="" onload="toggle('chapter_02_contents')">
+<div id="header">
+<div class="right">
+<div class="bread">
+  <a href=".">Home</a> &raquo; <a href="chapter02.html">Instantaneous Rate of Change:  The Derivative</a> &raquo; <a href="section02.03.html">Limits</a>
+</div>
+
+<FORM method=GET action=https://www.google.com/custom id="search">
+<INPUT TYPE=text name=q size=31 maxlength=255 value="" style="font-size:small">
+<INPUT type=submit name=sa VALUE="Search the book" style="font-size:small">
+<INPUT type=hidden name=cof VALUE="AH:center;AWFID:198dc2b883340b1f;">
+<input type=hidden name=domains value="www.whitman.edu">
+<input type=hidden name=sitesearch value="www.whitman.edu/mathematics/calculus_online/">
+</FORM>
+<div id="title"><span id="title-content">2.3 Limits</span></div><a href="#exercises">[Jump to exercises]</a>
+</div>
+</div>
+<div id="menu_expand" style="display:none"><a href="javascript:toggle_sidebar()">Expand menu</a></div>
+<div id="sidebar" style="display:block">
+<h2 id="menu_collapse"><a href='javascript:toggle_sidebar()'>Collapse menu</a></h2>
+<h2 class="link"><img id="chapter_01_button" src="expand_submenu.png" onclick='toggle("chapter_01_contents")'><a href="chapter01.html">1 Analytic Geometry</a></h2>
+
+<ul class="list" id="chapter_01_contents">
+<li><a href="section01.01.html">1. Lines</a></li>
+<li><a href="section01.02.html">2. Distance Between Two Points; Circles</a></li>
+<li><a href="section01.03.html">3. Functions</a></li>
+<li><a href="section01.04.html">4. Shifts and Dilations</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_02_button" src="expand_submenu.png" onclick='toggle("chapter_02_contents")'><a href="chapter02.html">2 Instantaneous Rate of Change:  The Derivative</a></h2>
+
+<ul class="list" id="chapter_02_contents">
+<li><a href="section02.01.html">1. The slope of a function</a></li>
+<li><a href="section02.02.html">2. An example</a></li>
+<li><a href="section02.03.html">3. Limits</a></li>
+<li><a href="section02.04.html">4. The Derivative Function</a></li>
+<li><a href="section02.05.html">5. Adjectives For Functions</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_03_button" src="expand_submenu.png" onclick='toggle("chapter_03_contents")'><a href="chapter03.html">3 Rules for Finding Derivatives</a></h2>
+
+<ul class="list" id="chapter_03_contents">
+<li><a href="section03.01.html">1. The Power Rule</a></li>
+<li><a href="section03.02.html">2. Linearity of the Derivative</a></li>
+<li><a href="section03.03.html">3. The Product Rule</a></li>
+<li><a href="section03.04.html">4. The Quotient Rule</a></li>
+<li><a href="section03.05.html">5. The Chain Rule</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_04_button" src="expand_submenu.png" onclick='toggle("chapter_04_contents")'><a href="chapter04.html">4 Transcendental Functions</a></h2>
+
+<ul class="list" id="chapter_04_contents">
+<li><a href="section04.01.html">1. Trigonometric Functions</a></li>
+<li><a href="section04.02.html">2. The Derivative of $\sin x$</a></li>
+<li><a href="section04.03.html">3. A hard limit</a></li>
+<li><a href="section04.04.html">4. The Derivative of $\sin x$, continued</a></li>
+<li><a href="section04.05.html">5. Derivatives of the Trigonometric Functions</a></li>
+<li><a href="section04.06.html">6. Exponential and Logarithmic functions</a></li>
+<li><a href="section04.07.html">7. Derivatives of the exponential and  logarithmic functions</a></li>
+<li><a href="section04.08.html">8. Implicit Differentiation</a></li>
+<li><a href="section04.09.html">9. Inverse Trigonometric Functions</a></li>
+<li><a href="section04.10.html">10. Limits revisited</a></li>
+<li><a href="section04.11.html">11. Hyperbolic Functions</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_05_button" src="expand_submenu.png" onclick='toggle("chapter_05_contents")'><a href="chapter05.html">5 Curve Sketching</a></h2>
+
+<ul class="list" id="chapter_05_contents">
+<li><a href="section05.01.html">1. Maxima and Minima</a></li>
+<li><a href="section05.02.html">2. The first derivative test</a></li>
+<li><a href="section05.03.html">3. The second derivative test</a></li>
+<li><a href="section05.04.html">4. Concavity and inflection points</a></li>
+<li><a href="section05.05.html">5. Asymptotes and Other Things to Look For</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_06_button" src="expand_submenu.png" onclick='toggle("chapter_06_contents")'><a href="chapter06.html">6 Applications of the Derivative</a></h2>
+
+<ul class="list" id="chapter_06_contents">
+<li><a href="section06.01.html">1. Optimization</a></li>
+<li><a href="section06.02.html">2. Related Rates</a></li>
+<li><a href="section06.03.html">3. Newton's Method</a></li>
+<li><a href="section06.04.html">4. Linear Approximations</a></li>
+<li><a href="section06.05.html">5. The Mean Value Theorem</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_07_button" src="expand_submenu.png" onclick='toggle("chapter_07_contents")'><a href="chapter07.html">7 Integration</a></h2>
+
+<ul class="list" id="chapter_07_contents">
+<li><a href="section07.01.html">1. Two examples</a></li>
+<li><a href="section07.02.html">2. The Fundamental Theorem of Calculus</a></li>
+<li><a href="section07.03.html">3. Some Properties of Integrals</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_08_button" src="expand_submenu.png" onclick='toggle("chapter_08_contents")'><a href="chapter08.html">8 Techniques of Integration</a></h2>
+
+<ul class="list" id="chapter_08_contents">
+<li><a href="section08.01.html">1. Substitution</a></li>
+<li><a href="section08.02.html">2. Powers of sine and cosine</a></li>
+<li><a href="section08.03.html">3. Trigonometric Substitutions</a></li>
+<li><a href="section08.04.html">4. Integration by Parts</a></li>
+<li><a href="section08.05.html">5. Rational Functions</a></li>
+<li><a href="section08.06.html">6. Numerical Integration</a></li>
+<li><a href="section08.07.html">7. Additional exercises</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_09_button" src="expand_submenu.png" onclick='toggle("chapter_09_contents")'><a href="chapter09.html">9 Applications of Integration</a></h2>
+
+<ul class="list" id="chapter_09_contents">
+<li><a href="section09.01.html">1. Area between curves</a></li>
+<li><a href="section09.02.html">2. Distance, Velocity, Acceleration</a></li>
+<li><a href="section09.03.html">3. Volume</a></li>
+<li><a href="section09.04.html">4. Average value of a function</a></li>
+<li><a href="section09.05.html">5. Work</a></li>
+<li><a href="section09.06.html">6. Center of Mass</a></li>
+<li><a href="section09.07.html">7. Kinetic energy; improper integrals</a></li>
+<li><a href="section09.08.html">8. Probability</a></li>
+<li><a href="section09.09.html">9. Arc Length</a></li>
+<li><a href="section09.10.html">10. Surface Area</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_10_button" src="expand_submenu.png" onclick='toggle("chapter_10_contents")'><a href="chapter10.html">10 Polar Coordinates,  Parametric Equations</a></h2>
+
+<ul class="list" id="chapter_10_contents">
+<li><a href="section10.01.html">1. Polar Coordinates</a></li>
+<li><a href="section10.02.html">2. Slopes in polar coordinates</a></li>
+<li><a href="section10.03.html">3. Areas in polar coordinates</a></li>
+<li><a href="section10.04.html">4. Parametric Equations</a></li>
+<li><a href="section10.05.html">5. Calculus with Parametric Equations</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_11_button" src="expand_submenu.png" onclick='toggle("chapter_11_contents")'><a href="chapter11.html">11 Sequences and Series</a></h2>
+
+<ul class="list" id="chapter_11_contents">
+<li><a href="section11.01.html">1. Sequences</a></li>
+<li><a href="section11.02.html">2. Series</a></li>
+<li><a href="section11.03.html">3. The Integral Test</a></li>
+<li><a href="section11.04.html">4. Alternating Series</a></li>
+<li><a href="section11.05.html">5. Comparison Tests</a></li>
+<li><a href="section11.06.html">6. Absolute Convergence</a></li>
+<li><a href="section11.07.html">7. The Ratio and Root Tests</a></li>
+<li><a href="section11.08.html">8. Power Series</a></li>
+<li><a href="section11.09.html">9. Calculus with Power Series</a></li>
+<li><a href="section11.10.html">10. Taylor Series</a></li>
+<li><a href="section11.11.html">11. Taylor's Theorem</a></li>
+<li><a href="section11.12.html">12. Additional exercises</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_12_button" src="expand_submenu.png" onclick='toggle("chapter_12_contents")'><a href="chapter12.html">12 Three Dimensions</a></h2>
+
+<ul class="list" id="chapter_12_contents">
+<li><a href="section12.01.html">1. The Coordinate System</a></li>
+<li><a href="section12.02.html">2. Vectors</a></li>
+<li><a href="section12.03.html">3. The Dot Product</a></li>
+<li><a href="section12.04.html">4. The Cross Product</a></li>
+<li><a href="section12.05.html">5. Lines and Planes</a></li>
+<li><a href="section12.06.html">6. Other Coordinate Systems</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_13_button" src="expand_submenu.png" onclick='toggle("chapter_13_contents")'><a href="chapter13.html">13 Vector Functions</a></h2>
+
+<ul class="list" id="chapter_13_contents">
+<li><a href="section13.01.html">1. Space Curves</a></li>
+<li><a href="section13.02.html">2. Calculus with vector functions</a></li>
+<li><a href="section13.03.html">3. Arc length and curvature</a></li>
+<li><a href="section13.04.html">4. Motion along a curve</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_14_button" src="expand_submenu.png" onclick='toggle("chapter_14_contents")'><a href="chapter14.html">14 Partial Differentiation</a></h2>
+
+<ul class="list" id="chapter_14_contents">
+<li><a href="section14.01.html">1. Functions of Several Variables</a></li>
+<li><a href="section14.02.html">2. Limits and Continuity</a></li>
+<li><a href="section14.03.html">3. Partial Differentiation</a></li>
+<li><a href="section14.04.html">4. The Chain Rule</a></li>
+<li><a href="section14.05.html">5. Directional Derivatives</a></li>
+<li><a href="section14.06.html">6. Higher order derivatives</a></li>
+<li><a href="section14.07.html">7. Maxima and minima</a></li>
+<li><a href="section14.08.html">8. Lagrange Multipliers</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_15_button" src="expand_submenu.png" onclick='toggle("chapter_15_contents")'><a href="chapter15.html">15 Multiple Integration</a></h2>
+
+<ul class="list" id="chapter_15_contents">
+<li><a href="section15.01.html">1. Volume and Average Height</a></li>
+<li><a href="section15.02.html">2. Double Integrals in Cylindrical Coordinates</a></li>
+<li><a href="section15.03.html">3. Moment and Center of Mass</a></li>
+<li><a href="section15.04.html">4. Surface Area</a></li>
+<li><a href="section15.05.html">5. Triple Integrals</a></li>
+<li><a href="section15.06.html">6. Cylindrical and Spherical Coordinates</a></li>
+<li><a href="section15.07.html">7. Change of Variables</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_16_button" src="expand_submenu.png" onclick='toggle("chapter_16_contents")'><a href="chapter16.html">16 Vector Calculus</a></h2>
+
+<ul class="list" id="chapter_16_contents">
+<li><a href="section16.01.html">1. Vector Fields</a></li>
+<li><a href="section16.02.html">2. Line Integrals</a></li>
+<li><a href="section16.03.html">3. The Fundamental Theorem of Line Integrals</a></li>
+<li><a href="section16.04.html">4. Green's Theorem</a></li>
+<li><a href="section16.05.html">5. Divergence and Curl</a></li>
+<li><a href="section16.06.html">6. Vector Functions for Surfaces</a></li>
+<li><a href="section16.07.html">7. Surface Integrals</a></li>
+<li><a href="section16.08.html">8. Stokes's Theorem</a></li>
+<li><a href="section16.09.html">9. The Divergence Theorem</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_17_button" src="expand_submenu.png" onclick='toggle("chapter_17_contents")'><a href="chapter17.html">17 Differential Equations</a></h2>
+
+<ul class="list" id="chapter_17_contents">
+<li><a href="section17.01.html">1. First Order Differential Equations</a></li>
+<li><a href="section17.02.html">2. First Order Homogeneous Linear Equations</a></li>
+<li><a href="section17.03.html">3. First Order Linear Equations</a></li>
+<li><a href="section17.04.html">4. Approximation</a></li>
+<li><a href="section17.05.html">5. Second Order Homogeneous Equations</a></li>
+<li><a href="section17.06.html">6. Second Order Linear Equations</a></li>
+<li><a href="section17.07.html">7. Second Order Linear Equations, take two</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_18_button" src="expand_submenu.png" onclick='toggle("chapter_18_contents")'><a href="chapter18.html">18 Useful formulas</a></h2>
+
+<ul class="list" id="chapter_18_contents">
+</ul>
+
+</div>
+
+<div id="main">
+
+<div id="next"><a href="section02.02.html"><img src=previous_section.png width="30"></a>&nbsp;&nbsp;<a href="section02.04.html"><img src=next_section.png width="30"></a></div>
+
+<div id="content">
+<p>
+<p><a id="sec:limits"></a>
+
+</p><p>
+
+In the previous two sections we computed some quantities of interest
+(slope, velocity) by seeing that some expression "goes to'' or
+"approaches'' or "gets really close to'' a particular value. In the
+examples we saw, this idea may have been clear enough, but it is too
+fuzzy to rely on in more difficult circumstances. In this section we
+will see how to make the idea more precise.
+</p><p>
+There is an important feature of the examples we have seen. Consider
+again the formula
+$${-19.6\Delta x-4.9\Delta x^2\over \Delta x}.
+$$
+We wanted to know what happens to this fraction as "$\Delta x$ goes
+to zero.'' Because we were able to simplify the fraction, it was easy
+to see the answer, but it was not quite as simple as "substituting
+zero for $\Delta x$,'' as that would give
+$${-19.6\cdot 0 - 4.9\cdot 0\over 0},$$
+which is meaningless. The quantity we are really interested in does
+not make sense "at zero,'' and this is why the answer to the original
+problem (finding a velocity or a slope) was not immediately obvious. In
+other words, we are generally going to want to figure out what a
+quantity "approaches'' in situations where we can't merely plug in a
+value. If you would like to think about a hard example (which we will
+analyze later) consider what happens to $(\sin x)/x$ as $x$ approaches
+zero. 
+</p><p>
+</p>
+<div class="example">
+<p>
+<span class="theoremlabel">Example 2.3.1 </span>
+Does $\ds \sqrt{x}$ approach 1.41 as $x$ approaches 2? In this case it
+is possible to compute the actual value $\ds \sqrt{2}$ to a high precision
+to answer the question. But since in general we won't be able to do
+that, let's not. We might start by computing $\ds \sqrt{x}$ for values of
+$x$ close to 2, as we did in the previous sections. Here are some
+values: $\ds \sqrt{2.05} = 1.431782106$,
+        $\ds \sqrt{2.04} = 1.428285686$,
+        $\ds \sqrt{2.03} = 1.424780685$,
+        $\ds \sqrt{2.02} = 1.421267040$,
+        $\ds \sqrt{2.01} = 1.417744688$,
+        $\ds \sqrt{2.005} = 1.415980226$,
+        $\ds \sqrt{2.004} = 1.415627070$,
+        $\ds \sqrt{2.003} = 1.415273825$,
+        $\ds \sqrt{2.002} = 1.414920492$,
+        $\ds \sqrt{2.001} = 1.414567072$.
+So it looks at least possible that indeed these values "approach''
+1.41&mdash;already $\ds \sqrt{2.001}$ is quite close. If we continue this
+process, however, at some point we will appear to "stall.'' In fact, 
+$\ds \sqrt{2}=1.414213562\ldots$, so we will never even get as far as
+1.4142, no matter how long we continue the sequence. 
+
+</p>
+</div><!-- example -->
+<p>
+</p><p>
+So in a fuzzy,
+everyday sort of sense, it is true that $\ds \sqrt{x}$ "gets close to''
+1.41, but it does not "approach'' 1.41 in the sense we want. To
+compute an exact slope or an exact velocity, what we want to know is that
+a given quantity becomes "arbitrarily close'' to a fixed value,
+meaning that the first quantity can be made "as close as we like'' to
+the fixed value. Consider again the quantities
+$${-19.6\Delta x-4.9\Delta x^2\over \Delta x}=-19.6-4.9\Delta x.
+$$
+These two quantities are equal as long as $\Delta x$ is not zero; if
+$\Delta x$ is zero, the left hand quantity is meaningless, while the
+right hand one is $-19.6$. Can we say more than we did before about
+why the right hand side "approaches'' $-19.6$, in the desired sense?
+Can we really make it "as close as we want'' to $-19.6$? Let's try a
+test case. Can we make $-19.6-4.9\Delta x$ within one millionth
+($0.000001$) of $-19.6$? The values within a millionth of $-19.6$ are
+those in the interval $(-19.600001,-19.599999)$. As $\Delta x$
+approaches zero, does $-19.6-4.9\Delta x$ eventually reside inside
+this interval? If $\Delta x$ is positive, this would require that
+$-19.6-4.9\Delta x> -19.600001$. This is something we can manipulate
+with a little algebra:
+$$\eqalign{-19.6-4.9\Delta x&> -19.600001\cr
+-4.9\Delta x&>-0.000001\cr
+\Delta x&< -0.000001/-4.9\cr
+\Delta x&< 0.0000002040816327\ldots\cr
+}$$
+Thus, we can say with certainty that if $\Delta x$ is positive and
+less than $0.0000002$, then $\Delta x <  0.0000002040816327\ldots$ and
+so $-19.6-4.9\Delta x > -19.600001$. We could do a similar calculation
+if $\Delta x$ is negative.
+</p><p>
+So now we know that we can make $-19.6-4.9\Delta x$ within one
+millionth of $-19.6$. But can we make it "as close as we want''?
+In this case, it is quite simple to see that the answer is yes, by
+modifying the calculation we've just done. It may be helpful to think
+of this as a game. I claim that I can make $-19.6-4.9\Delta x$ as
+close as you desire to $-19.6$ by making $\Delta x$ "close enough''
+to zero. So the game is: you give me a number, like $\ds 10^{-6}$, and I
+have to come up with a number representing how close $\Delta x$ must
+be to zero to guarantee that $-19.6-4.9\Delta x$ is at least as close
+to $-19.6$ as you have requested. 
+</p><p>
+Now if we actually play this game, I could redo the calculation above
+for each new number you provide. What I'd like to do is somehow see
+that I will always succeed, and even more, I'd like to have a simple
+strategy so that I don't have to do all that algebra every time.
+A strategy in this case would be a formula that gives me a correct
+answer no matter what you specify. So suppose the number you give me
+is $\epsilon$. How close does $\Delta x$ have to be to zero to
+guarantee that $-19.6-4.9\Delta x$ is in $(-19.6-\epsilon,
+-19.6+\epsilon)$? If $\Delta x$ is positive, we need:
+$$\eqalign{-19.6-4.9\Delta x&> -19.6-\epsilon\cr
+-4.9\Delta x&>-\epsilon\cr
+\Delta x&< -\epsilon/-4.9\cr
+\Delta x&< \epsilon/4.9\cr
+}$$
+So if I pick any number $\delta$ that is less than $\epsilon/4.9$, the
+algebra tells me that whenever $\Delta x< \delta$ then 
+$\Delta x< \epsilon/4.9$ and so $-19.6-4.9\Delta x$ is within
+$\epsilon$ of $-19.6$. (This is exactly what I did in the example:
+I picked $\delta = 0.0000002 <  0.0000002040816327\ldots$.)
+A similar calculation again works for negative
+$\Delta x$.
+The important fact is that this is now a completely general result&mdash;it
+shows that I can always win, no matter what "move'' you make.
+</p><p>
+Now we can codify this by giving a precise definition to replace the
+fuzzy, "gets closer and closer'' language we have used so
+far. Henceforward, we will say something like "the limit of
+$\ds (-19.6\Delta x-4.9\Delta x^2)/\Delta x$ as $\Delta x$ goes to zero is
+$-19.6$,'' and abbreviate this mouthful as
+$$\lim_{\Delta x\to 0} {-19.6\Delta x-4.9\Delta x^2\over \Delta x}
+= -19.6.
+$$
+Here is the actual, official definition of "limit''.
+</p><p>
+</p>
+<div class="definition">
+<p>
+<span class="theoremlabel">Definition 2.3.2 </span>(Limit) Suppose $f$ is a function. We say that $\ds \lim_{x\to
+  a}f(x)=L$ if for every $\epsilon>0$ there is a $\delta > 0$ so that
+  whenever $0 <  |x-a| <  \delta$, $|f(x)-L|< \epsilon$.
+<a id="def:limit"></a>
+
+</p>
+</div><!-- definition -->
+<p>
+</p><p>
+The $\epsilon$ and $\delta$ here play exactly the role they did in the
+preceding discussion. The definition says, in a very precise way, that
+$f(x)$ can be made as close as desired to $L$ (that's the 
+$|f(x)-L|< \epsilon$ part) by making $x$ close enough to $a$ (the 
+$0 <  |x-a| <  \delta$ part). Note that we specifically make no mention
+of what must happen if $x=a$, that is, if $|x-a|=0$. This is because
+in the cases we are most interested in, substituting $a$ for $x$
+doesn't even make sense.
+</p><p>
+Make sure you are not confused by the names of important
+quantities. The generic definition talks about $f(x)$, but the
+function and the variable might have other names. In the discussion
+above, the function we analyzed was 
+$${-19.6\Delta x-4.9\Delta x^2\over \Delta x}.
+$$
+and the variable of the limit was not $x$ but $\Delta x$. The $x$ was
+the variable of the original function; when we were trying to compute
+a slope or a velocity, $x$ was essentially a fixed quantity, telling us
+at what point we wanted the slope. (In the velocity problem, it was
+literally a fixed quantity, as we focused on the time 2.) The quantity
+$a$ of the definition in all the examples was zero: we were always
+interested in what happened as $\Delta x$ became very close to zero.
+</p><p>
+Armed with a precise definition, we can now prove that certain
+quantities behave in a particular way. The bad news is that even
+proofs for simple quantities can be quite tedious and complicated; the
+good news is that we rarely need to do such proofs, because most
+expressions act the way you would expect, and this can be proved once
+and for all.
+</p><p>
+</p>
+<div class="example">
+<p>
+<span class="theoremlabel">Example 2.3.3 </span>
+<a id="exam:epsilon-delta proof"></a>
+Let's show carefully that $\ds \lim_{x\to 2} x+4 = 6$. This is not
+something we "need'' to prove, since it is "obviously'' true. But if
+we couldn't prove it using our official definition there would be
+something very wrong with the definition.
+</p><p>
+As is often the case in mathematical proofs, it helps to work
+backwards. We want to end up showing that under certain circumstances
+$x+4$ is close to 6; precisely, we want to show that
+$|x+4-6|< \epsilon$,
+or $|x-2|< \epsilon$. Under what circumstances? We want this to be true
+whenever $0< |x-2|< \delta$. So the question becomes: can we choose a
+value for $\delta$ that guarantees that $0< |x-2|< \delta$ implies
+$|x-2|< \epsilon$? Of course: no matter what $\epsilon$ is,
+$\delta=\epsilon$ works.
+
+</p>
+</div><!-- example -->
+<p>
+</p><p>
+So it turns out to be very easy to prove something "obvious,'' which
+is nice. It doesn't take long before things get trickier, however.
+</p><p>
+</p>
+<div class="example">
+<p>
+<span class="theoremlabel">Example 2.3.4 </span>
+It seems clear that $\ds \lim_{x\to 2} x^2=4$. Let's try to prove it. We
+will want to be able to show that $\ds |x^2-4|< \epsilon$ whenever 
+$0< |x-2|< \delta$, by choosing $\delta$ carefully. Is there any
+connection between $|x-2|$ and $\ds |x^2-4|$? Yes, and it's not hard to
+spot, but it is not so simple as the previous example. We can write
+$\ds |x^2-4|=|(x+2)(x-2)|$. Now when $|x-2|$ is small, part of 
+$|(x+2)(x-2)|$ is small, namely $(x-2)$. What about $(x+2)$? If $x$ is
+close to 2, $(x+2)$ certainly can't be too big, but we need to somehow
+be precise about it. Let's recall the "game'' version of what is
+going on here. You get to pick an $\epsilon$ and I have to pick a
+$\delta$ that makes things work out. Presumably it is the really tiny
+values of $\epsilon$ I need to worry about, but I have to be prepared
+for anything, even an apparently "bad'' move like $\epsilon=1000$.
+I expect that $\epsilon$ is going to be small, and that the
+corresponding $\delta$ will be small, certainly less than 1.
+If $\delta\le 1$ then
+$|x+2|< 5$ when $|x-2|< \delta$ (because if $x$ is
+within 1 of 2, then $x$ is between 1 and 3 and $x+2$ is between 3 and
+5). So then I'd be trying to show that
+$|(x+2)(x-2)|< 5|x-2|< \epsilon$. So now how can I pick $\delta$ so that 
+$|x-2|< \delta$ implies $5|x-2|< \epsilon$? This is easy: use
+$\delta=\epsilon/5$, so $5|x-2|< 5(\epsilon/5) = \epsilon$. But what if
+the $\epsilon$ you choose is not small? If you choose
+$\epsilon=1000$, should I pick $\delta=200$? No, to keep things
+"sane'' I will never pick a $\delta$ bigger than 1. Here's the final
+"game strategy:'' When you pick a value for $\epsilon$ I will pick
+$\delta=\epsilon/5$ or $\delta=1$, whichever is smaller. Now when 
+$|x-2|< \delta$, I know both that $|x+2|< 5$ and that
+$|x-2|< \epsilon/5$. Thus $|(x+2)(x-2)|< 5(\epsilon/5) = \epsilon$.
+</p><p>
+This has been a long discussion, but most of it was explanation and
+scratch work. If this were written down as a proof, it would be quite
+short, like this:
+</p><p>
+Proof that $\ds \lim_{x\to 2}x^2=4$. Given any $\epsilon$, pick
+$\delta=\epsilon/5$ or $\delta=1$, whichever is smaller. Then when
+$|x-2|< \delta$, $|x+2|< 5$ and
+$|x-2|< \epsilon/5$. Hence $\ds |x^2-4|=|(x+2)(x-2)|< 5(\epsilon/5) =
+\epsilon$. 
+
+</p>
+</div><!-- example -->
+<p>
+</p><p>
+It probably seems obvious that $\ds \lim_{x\to2}x^2=4$, and it is worth
+examining more closely why it seems obvious. If we write $\ds x^2=x\cdot
+x$, and ask what happens when $x$ approaches 2, we might say something
+like, "Well, the first $x$ approaches 2, and the second $x$
+approaches 2, so the product must approach $2\cdot2$.'' In fact this is
+pretty much right on the money, except for that word "must.'' Is it
+really true that if $x$ approaches $a$ and $y$ approaches $b$ then
+$xy$ approaches $ab$? It is, but it is not really obvious, since $x$
+and $y$ might be quite complicated. The good news is that we can see
+that this is true once and for all, and then we don't have to worry
+about it ever again. When we say that $x$ might be "complicated'' we
+really mean that in practice it might be a function. Here is then what
+we want to know:
+</p><p>
+</p>
+<div class="theorem">
+<p>
+<span class="theoremlabel">Theorem 2.3.5 </span>Suppose $\ds \lim_{x\to a} f(x)=L$ and $\ds \lim_{x\to a}g(x)=M$. Then
+</p><p>
+$\lim_{x\to a} f(x)g(x) = LM$.
+
+</p>
+</div><!-- theorem -->
+<p>
+<div class="proof"><p><b>Proof.</b><br>
+We have to use the official definition of limit to make sense
+of this. So given any $\epsilon$ we need to find a $\delta$ so that
+$0< |x-a|< \delta$ implies $|f(x)g(x)-LM|< \epsilon$. What do we have to
+work with? We know that we can make $f(x)$ close to $L$ and $g(x)$
+close to $M$, and we have to somehow connect these facts to make
+$f(x)g(x)$ close to $LM$.
+</p><p>
+We use, as is so often the case, a little algebraic
+trick: 
+$$\eqalign{|f(x)g(x)-LM|&= |f(x)g(x)-f(x)M+f(x)M-LM|\cr
+&=|f(x)(g(x)-M)+(f(x)-L)M|\cr
+&\le |f(x)(g(x)-M)|+|(f(x)-L)M|\cr
+&=|f(x)||g(x)-M|+|f(x)-L||M|.\cr}
+$$ 
+This is all straightforward except perhaps for the "$\le$''. That is
+an example of the <b>triangle inequality</b> 
+<a id="page:triangle inequality"></a>, 
+which says that if $a$ and $b$ are any real
+numbers then $|a+b|\le |a|+|b|$. If you look at a few examples, using
+positive and negative numbers in various combinations for $a$ and $b$,
+you should quickly understand why this is true; we will not prove it
+formally. 
+</p><p>
+Since $\ds \lim_{x\to a}f(x) =L$, there is a value $\ds \delta_1$ so that
+$0< |x-a|< \delta_1$ implies $|f(x)-L|< |\epsilon/(2M)|$, 
+This means that $0< |x-a|< \delta_1$ implies
+$|f(x)-L||M|<  \epsilon/2$. You can see where this is going: if we can
+make $|f(x)||g(x)-M|< \epsilon/2$ also, then we'll be done.
+</p><p>
+We can make $|g(x)-M|$ smaller than any fixed number by making $x$
+close enough to $a$; unfortunately, $\epsilon/(2f(x))$ is not a fixed
+number, since $x$ is a variable. Here we need another little trick,
+just like the one we used in analyzing $x^2$. We can find a $\delta_2$
+so that $|x-a|< \delta_2$ implies that $|f(x)-L|< 1$, meaning that $L-1
+<  f(x) <  L+1$. This means that $|f(x)|< N$, where $N$ is either $|L-1|$
+or $|L+1|$, depending on whether $L$ is negative or positive. The
+important point is that $N$ doesn't depend on $x$. Finally, we know that
+there is a $\delta_3$ so that $0< |x-a|< \delta_3$ implies
+$|g(x)-M|< \epsilon/(2N)$. Now we're ready to put everything
+together. Let $\delta$ be the smallest of $\delta_1$, $\delta_2$, and
+$\delta_3$. Then $|x-a|< \delta$ implies that
+$|f(x)-L|< |\epsilon/(2M)|$, $|f(x)|< N$, and
+$|g(x)-M|< \epsilon/(2N)$. Then 
+$$\eqalign{|f(x)g(x)-LM|&\le|f(x)||g(x)-M|+|f(x)-L||M|\cr
+&< N{\epsilon\over 2N}+\left|{\epsilon\over 2M}\right||M|\cr
+&={\epsilon\over 2}+{\epsilon\over 2}=\epsilon.\cr}
+$$ 
+This is just what we needed, so by the official definition,
+$\ds \lim_{x\to a}f(x)g(x)=LM$.
+
+</p>
+</div>
+
+<div class="qed">$\square$</div>
+
+</p><p>
+A handful of such theorems give us the tools to compute many limits
+without explicitly working with the definition of limit.
+</p><p>
+</p>
+<div class="theorem">
+<p>
+<span class="theoremlabel">Theorem 2.3.6 </span>Suppose that $\ds \lim_{x\to a}f(x)=L$ and $\ds \lim_{x\to a}g(x)=M$ and
+$k$ is some constant. Then
+$$\eqalign{
+&\lim_{x\to a} kf(x) = k\lim_{x\to a}f(x)=kL\cr
+&\lim_{x\to a} (f(x)+g(x)) = \lim_{x\to a}f(x)+\lim_{x\to a}g(x)=L+M\cr
+&\lim_{x\to a} (f(x)-g(x)) = \lim_{x\to a}f(x)-\lim_{x\to a}g(x)=L-M\cr
+&\lim_{x\to a} (f(x)g(x)) = \lim_{x\to a}f(x)\cdot\lim_{x\to a}g(x)=LM\cr
+&\lim_{x\to a} {f(x)\over g(x)} = {\lim_{x\to a}f(x)\over\lim_{x\to
+    a}g(x)}={L\over M},\hbox{ if $M$ is not 0}\cr
+}$$
+<a id="thm:properties of limits"></a>
+
+</p>
+</div><!-- theorem -->
+<p>
+</p><p>
+Roughly speaking, these rules say that to compute the limit of an
+algebraic expression, it is enough to compute the limits of the
+"innermost bits'' and then combine these limits. This often means
+that it is possible to simply plug in a value for the variable, since
+$\ds \lim_{x\to a} x =a$.
+</p><p>
+</p>
+<div class="example">
+<p>
+<span class="theoremlabel">Example 2.3.7 </span>
+Compute $\ds
+\lim_{x\to 1}{x^2-3x+5\over x-2}$. If we apply the theorem
+in all its gory detail, we get
+$$\eqalign{
+\lim_{x\to 1}{x^2-3x+5\over x-2}&=
+{\lim_{x\to 1}(x^2-3x+5)\over \lim_{x\to1}(x-2)}\cr
+&={(\lim_{x\to 1}x^2)-(\lim_{x\to1}3x)+(\lim_{x\to1}5)\over 
+  (\lim_{x\to1}x)-(\lim_{x\to1}2)}\cr
+&={(\lim_{x\to 1}x)^2-3(\lim_{x\to1}x)+5\over (\lim_{x\to1}x)-2}\cr
+&={1^2-3\cdot1+5\over 1-2}\cr
+&={1-3+5\over -1} = -3\cr
+}$$
+
+</p>
+</div><!-- example -->
+<p>
+</p><p>
+It is worth commenting on the trivial limit $\ds \lim_{x\to1}5$. From one
+point of view this might seem meaningless, as the number 5 can't
+"approach'' any value, since it is simply a fixed number. But 5 can,
+and should, be interpreted here as the function that has value 5
+everywhere, $f(x)=5$, with graph a horizontal line. From this point of
+view it makes sense to ask what happens to the height of the function
+as $x$ approaches 1.
+</p><p>
+Of course, as we've already seen, we're primarily interested in limits
+that aren't so easy, namely, limits in which a denominator approaches
+zero. There are a handful of algebraic tricks that work on many of
+these limits.
+</p><p>
+</p>
+<div class="example">
+<p>
+<span class="theoremlabel">Example 2.3.8 </span>
+Compute $\ds\lim_{x\to1}{x^2+2x-3\over x-1}$. We can't
+simply plug in $x=1$ because that makes the denominator zero. 
+However:
+$$\eqalign{
+\lim_{x\to1}{x^2+2x-3\over x-1}&=\lim_{x\to1}{(x-1)(x+3)\over x-1}\cr
+&=\lim_{x\to1}(x+3)=4\cr
+}$$
+</p><p>
+
+</p>
+</div><!-- example -->
+<p>
+</p><p>
+While theorem <a href="section02.03.html#thm:properties of limits">2.3.6</a> is very helpful, we
+need a bit more to work easily with limits. Since the theorem applies
+when some limits are already known, we need to know the behavior of
+some functions that cannot themselves be constructed from the simple
+arithmetic operations of the theorem, such as $\ds\sqrt{x}$. Also,
+there is one other extraordinarily useful way to put functions
+together: composition. If $f(x)$ and
+$g(x)$ are functions, we can form two functions by composition:
+$f(g(x))$ and $g(f(x))$. For example, if $\ds f(x)=\sqrt{x}$ and $\ds
+\ds g(x)=x^2+5$, then $\ds f(g(x))=\sqrt{x^2+5}$ and $\ds
+g(f(x))=(\sqrt{x})^2+5=x+5$.  Here is a companion to
+theorem <a href="section02.03.html#thm:properties of limits">2.3.6</a> for composition:
+</p><p>
+</p>
+<div class="theorem">
+<p>
+<span class="theoremlabel">Theorem 2.3.9 </span>Suppose that $\ds \lim_{x\to a}g(x)=L$ and $\ds \lim_{x\to L}f(x)=f(L)$. Then
+$$\lim_{x\to a} f(g(x)) = f(L).$$
+<a id="thm:limit of composition"></a>
+
+</p>
+</div><!-- theorem -->
+<p>
+</p><p>
+Note the special form of the condition on $f$: it is not enough to
+know that $\ds\lim_{x\to L}f(x) = M$, though it is a bit tricky to see
+why. Many of the most familiar functions do have this property, and
+this theorem can therefore be applied. For example:
+</p><p>
+</p>
+<div class="theorem">
+<p>
+<span class="theoremlabel">Theorem 2.3.10 </span>Suppose that $n$ is a positive integer. Then
+$$\lim_{x\to a}\root n\of{x} = \root n\of{a},$$
+provided that $a$ is positive if $n$ is even.
+<a id="thm:continuity of roots"></a>
+
+</p>
+</div><!-- theorem -->
+<p>
+</p><p>
+This theorem is not too difficult to prove from the definition of limit.
+</p><p>
+Another of the most common algebraic tricks was used in
+section <a href="section02.01.html#sec:slope of a function">2.1</a>. Here's another example:
+</p><p>
+</p>
+<div class="example">
+<p>
+<span class="theoremlabel">Example 2.3.11 </span>
+Compute $\ds\lim_{x\to-1} {\sqrt{x+5}-2\over x+1}$.
+$$\eqalign{\lim_{x\to-1} {\sqrt{x+5}-2\over x+1}&=
+\lim_{x\to-1} {\sqrt{x+5}-2\over x+1}{\sqrt{x+5}+2\over \sqrt{x+5}+2}\cr
+&=\lim_{x\to-1} {x+5-4\over (x+1)(\sqrt{x+5}+2)}\cr
+&=\lim_{x\to-1} {x+1\over (x+1)(\sqrt{x+5}+2)}\cr
+&=\lim_{x\to-1} {1\over \sqrt{x+5}+2}={1\over4}\cr}
+$$
+At the very last step we have used theorems <a href="section02.03.html#thm:limit of composition">2.3.9</a> and <a href="section02.03.html#thm:continuity of roots">2.3.10</a>.
+
+</p>
+</div><!-- example -->
+<p>
+</p><p>
+Occasionally we will need a slightly modified version of the limit
+definition. Consider the function $\ds f(x)=\sqrt{1-x^2}$, the upper half of
+the unit circle. What can we say about $\ds \lim_{x\to 1}f(x)$? It is
+apparent from the graph of this familiar function that as $x$ gets
+close to 1 from the left, the value of $f(x)$ gets close to zero. It
+does not even make sense to ask what happens as $x$ approaches 1 from
+the right, since $f(x)$ is not defined there. The definition of the
+limit, however, demands that $f(1+\Delta x)$ be close to $f(1)$
+whether $\Delta x$ is positive or negative. Sometimes the limit of a
+function exists from one side or the other (or both) even though the
+limit does not exist. Since it is useful to be able to talk about this
+situation, we introduce the concept of 
+<b>one sided limit</b>:
+</p><p>
+</p>
+<div class="definition">
+<p>
+<span class="theoremlabel">Definition 2.3.12 </span>(One-sided limit) Suppose that $f(x)$ is a function. We say that
+$\ds \lim_{x\to a^-}f(x)=L$ if for every $\epsilon>0$ there is a $\delta >
+0$ so that whenever $0 <  a-x <  \delta$, $|f(x)-L|< \epsilon$.  We say
+that $\lim_{x\to a^+}f(x)=L$ if for every $\epsilon>0$ there is a
+$\delta > 0$ so that whenever $0 <  x-a <  \delta$, $|f(x)-L|< \epsilon$.
+
+</p>
+</div><!-- definition -->
+<p>
+</p><p>
+Usually $\ds \lim_{x\to a^-}f(x)$ is read "the limit of $f(x)$ from the
+left'' and $\ds \lim_{x\to a^+}f(x)$ is read "the limit of $f(x)$ from the
+right''.
+</p><p>
+</p>
+<div class="example">
+<p>
+<span class="theoremlabel">Example 2.3.13 </span>
+Discuss $\ds\lim_{x\to 0}{x\over|x|}$, 
+$\ds\lim_{x\to 0^-}{x\over|x|}$,
+and $\ds\lim_{x\to 0^+}{x\over|x|}$.
+</p><p>
+The function $f(x)=x/|x|$ is undefined at 0; when $x>0$, $|x|=x$ and
+so $f(x)=1$; when $x< 0$, $|x|=-x$ and $f(x)=-1$. Thus
+$\ds \lim_{x\to 0^-}{x\over|x|}=\lim_{x\to 0^-}-1=-1$ while 
+$\ds \lim_{x\to 0^+}{x\over|x|}=\lim_{x\to 0^+}1=1$. The limit of $f(x)$
+must be equal to both the left and right limits; since they are
+different, the limit $\ds \lim_{x\to 0}{x\over|x|}$ does not exist.
+
+</p>
+</div><!-- example -->
+<p>
+</p><p>
+</p>
+<a id="exercises"></a><h2 class="exercises">Exercises 2.3</h2>
+<p></p><p>
+Compute the limits. If a limit does not exist, explain why.
+</p><p>
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 2.3.1</b>
+$\ds \lim_{x\to 3}{x^2+x-12\over x-3}$
+(<a knowl="" class="internal" value="7">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 2.3.2</b>
+$\ds \lim_{x\to 1}{x^2+x-12\over x-3}$
+(<a knowl="" class="internal" value="5">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 2.3.3</b>
+$\ds \lim_{x\to -4}{x^2+x-12\over x-3}$
+(<a knowl="" class="internal" value="0">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 2.3.4</b>
+$\ds \lim_{x\to 2} {x^2+x-12\over x-2}$
+(<a knowl="" class="internal" value="undefined">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 2.3.5</b>
+$\ds \lim_{x\to 1} {\sqrt{x+8}-3\over x-1}$
+(<a knowl="" class="internal" value="$1/6$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 2.3.6</b>
+$\ds \lim_{x\to 0^+} \sqrt{{1\over x}+2} - \sqrt{1\over x}$.
+(<a knowl="" class="internal" value="0">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 2.3.7</b>
+$\ds\lim _{x\to 2} 3$
+(<a knowl="" class="internal" value="3">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 2.3.8</b>
+$\ds\lim _{x\to 4 } 3x^3 - 5x $
+(<a knowl="" class="internal" value="172">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 2.3.9</b>
+$\ds \lim _{x\to 0 } {4x - 5x^2\over x-1}$
+(<a knowl="" class="internal" value="0">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 2.3.10</b>
+$\ds\lim _{x\to 1 } {x^2 -1 \over x-1 }$
+(<a knowl="" class="internal" value="2">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 2.3.11</b>
+$\ds\lim _{x\to 0^ + } {\sqrt{2-x^2 }\over x}$
+(<a knowl="" class="internal" value="does not exist">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 2.3.12</b>
+$\ds\lim _{x\to 0^ + } {\sqrt{2-x^2}\over x+1}$
+(<a knowl="" class="internal" value="$\ds \sqrt2$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 2.3.13</b>
+$\ds\lim _{x\to a } {x^3 -a^3\over x-a}$
+(<a knowl="" class="internal" value="$\ds 3a^2$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 2.3.14</b>
+$\ds\lim _{x\to 2 } (x^2 +4)^3$
+(<a knowl="" class="internal" value="512">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 2.3.15</b>
+$\ds\lim _{x\to 1 } \cases{ 
+x-5 & $x\neq 1$,\cr
+7 & $x=1$.\cr}$
+(<a knowl="" class="internal" value="$-4$">answer</a>)
+
+
+</p><p>
+
+</p><p>
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 2.3.16</b>
+$\ds\lim _{x\to 0 } x\sin \left( {1\over x}\right)$
+(Hint: Use the fact that $|\sin a |<  1 $ for any real number $a$. You
+should probably use the definition of a limit here.)
+(<a knowl="" class="internal" value="$0$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 2.3.17</b>
+Give an $\epsilon$&ndash;$\delta$ proof, similar to
+example <a href="section02.03.html#exam:epsilon-delta proof">2.3.3</a>,
+of the fact that 
+$\ds \lim_{x\to 4} (2x-5) = 3$. 
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 2.3.18</b>
+Evaluate the expressions by reference to this graph:</p><p><div class='figure'><div id="limits_on_graph" class="jxgbox" style="width:385px; height:500px;"></div>
+<script type="text/javascript">
+ (function () {  // BEGIN: scope limiting function wrapper
+  var xmin=-4, xmax=6, ymin=-3, ymax=10;
+  var AspectRatio = ((ymax-ymin)/(xmax-xmin)); // height/width
+  var wd=document.getElementById('limits_on_graph').offsetWidth;
+  var ht=wd*AspectRatio;
+  var yfactor = (ymax-ymin)/(ht);
+  var xfactor = (xmax-xmin)/(wd);
+  var xaxis_label_offset = yfactor*15;
+  var yaxis_label_offset = xfactor*20;
+  document.getElementById('limits_on_graph').style.height=ht+'px';
+var f=function(x) { 
+  if(x<-2) {
+   return 6;
+  }
+  else if(x>=-2 && x<0) {
+   return x*x-2;
+  }
+  else if(x>=0 && x<2) {
+   return 4*Math.pow((x-1),3) + 3;
+  }
+  else {
+   return Math.pow((x-4),3) + 8;
+  }
+ };
+  
+var brd = JXG.JSXGraph.initBoard('limits_on_graph', {axis:false,
+  showCopyright:false, shownavigation:false, boundingbox:
+  [xmin,ymax,xmax,ymin]});
+var graph = brd.create('functiongraph', [f,-4,6]);
+brd.create('grid');
+var x_axis = brd.create('line',[[0,0],[1.5,0]],{strokeColor:'#000000',fixed:true});
+brd.createElement('ticks',[x_axis,2],{drawLabels:true,minorTicks:1});
+var y_axis = brd.create('line',[[0,0],[0,1.5]],{strokeColor:'#000000',fixed:true});
+brd.createElement('ticks',[y_axis,2],{drawLabels:true,minorTicks:1});
+brd.create('text',[3,-1,function() { return '$x$'; }],{fontSize:15});
+// hollow points
+brd.create('point', [-2,2] , {withLabel:false,fillColor:'white',strokeColor:'black',fixed:true});
+brd.create('point', [-2,6] , {withLabel:false,fillColor:'white',strokeColor:'black',fixed:true});
+brd.create('point', [0,-2] , {withLabel:false,fillColor:'white',strokeColor:'black',fixed:true});
+brd.create('point', [0,-1] , {withLabel:false,fillColor:'white',strokeColor:'black',fixed:true});
+brd.create('point', [2,0] , {withLabel:false,fillColor:'white',strokeColor:'black',fixed:true});
+// solid points
+brd.create('point', [-2,8] , {withLabel:false,fillColor:'black',strokeColor:'black',fixed:true});
+brd.create('point', [0,-1.5] , {withLabel:false,fillColor:'black',strokeColor:'black',fixed:true});
+brd.create('point', [2,7] , {withLabel:false,fillColor:'black',strokeColor:'black',fixed:true});
+})(); // END: scope limiting function wrapper
+</script>
+
+</div></p><p><table style="width:100%">
+<tr style="width:100%">
+<td style="width:33%;text-align:left">(a)&nbsp; $\ds \lim_{x\to 4} f(x)$
+</td><td style="width:33%;text-align:left">(b)&nbsp; $\ds \lim_{x\to -3} f(x)$
+</td><td style="width:33%;text-align:left">(c)&nbsp; $\ds \lim_{x\to 0} f(x)$
+</td></tr>
+<tr>
+<td style="width:33%;text-align:left">(d)&nbsp; $\ds \lim_{x\to 0^-} f(x)$
+</td><td style="width:33%;text-align:left">(e)&nbsp; $\ds \lim_{x\to 0^+} f(x)$
+</td><td style="width:33%;text-align:left">(f)&nbsp; $\ds f(-2)$
+</td></tr>
+<tr>
+<td style="width:33%;text-align:left">(g)&nbsp; $\ds \lim_{x\to 2^-} f(x)$
+</td><td style="width:33%;text-align:left">(h)&nbsp; $\ds \lim_{x\to -2^-} f(x)$
+</td><td style="width:33%;text-align:left">(i)&nbsp; $\ds \lim_{x\to 0} f(x+1)$
+</td></tr>
+<tr>
+<td style="width:33%;text-align:left">(j)&nbsp; $\ds f(0)$
+</td><td style="width:33%;text-align:left">(k)&nbsp; $\ds \lim_{x\to 1^-} f(x-4)$
+</td><td style="width:33%;text-align:left">(l)&nbsp; $\ds \lim_{x\to 0^+} f(x-2)$
+</td></tr></table>
+(<a knowl="" class="internal" value="(a) $8$, (b) $6$, (c) dne, (d) $-2$, (e) $-1$, (f) $8$,
+ (g) $7$, (h) $6$, (i) $3$, (j) $-3/2$, (k) $6$, (l) $2$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 2.3.19</b>
+Use a calculator to estimate $\ds\lim_{x\to 0}
+{\sin x\over x}$.
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 2.3.20</b>
+Use a calculator to estimate $\ds\lim_{x\to 0}
+{\tan(3x)\over\tan(5x)}$.
+
+</p><p>
+
+
+</div></div></body>
+</html>

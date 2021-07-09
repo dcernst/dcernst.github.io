@@ -1,0 +1,699 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+<meta http-equiv="Content-Language" Content="en">
+<title>7.3 Some Properties of Integrals</title>
+<!--
+<script type="text/javascript" src="js/deployJava.js"></script>
+<link rel="stylesheet" type="text/css" href="http://jsxgraph.uni-bayreuth.de/distrib/jsxgraph.css" />
+-->
+<!-- use Jsxgraph to create figures: http://jsxgraph.uni-bayreuth.de/wp/ -->
+<link rel="stylesheet" type="text/css" href="css/jsxgraph.css" />
+<script type="text/javascript" src="js/jsxgraphcore.js"></script>
+<script src="js/three.min.js"></script>
+<script src="js/Detector.js"></script>
+<script src="js/TrackballControls.js"></script>
+<script src="js/OrthographicTrackballControls.js"></script>
+<script src="js/THREEx.KeyboardState.js"></script>
+<script src="js/THREEx.FullScreen.js"></script>
+<script src="js/THREEx.WindowResize.js"></script>
+<script type='text/javascript' src='js/DAT.GUI.min.js'></script>
+<script>
+window.requestAnimFrame = (function(){
+    return  window.requestAnimationFrame       || 
+        window.webkitRequestAnimationFrame || 
+        window.mozRequestAnimationFrame    || 
+        window.oRequestAnimationFrame      || 
+        window.msRequestAnimationFrame     || 
+        function(/* function */ callback, /* DOMElement */
+            element){
+            window.setTimeout(callback, 1000 / 60);
+        };
+})();
+</script>
+<script src="js/ifvisible.min.js"></script>
+<script src="js/conrec.js"></script>
+<script>
+active = true;
+ifvisible.setIdleDuration(10);
+ifvisible.on("idle", function(){
+    active = false;
+//    console.log("idle");
+});
+
+ifvisible.on("wakeup", function(){
+    active = true;
+//    console.log("wakeup");
+});
+</script>
+<script src="js/parser.js"></script>
+<link href="css/whitman.css" rel="stylesheet" type="text/css" /><link href="css/calculus.css" rel="stylesheet" type="text/css" /><link href="css/knowlstyle.css" rel="stylesheet" type="text/css" />
+
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  extensions: ["tex2jax.js","TeX/AMSmath.js","TeX/AMSsymbols.js"],
+  jax: ["input/TeX","output/HTML-CSS"],
+  tex2jax: {
+    inlineMath: [['$','$'],["\\(","\\)"]],
+    processEscapes: true,
+  },
+TeX: {
+   Macros: {
+    val: "\\mathop{\\rm val}",
+    divides: "\\mid",
+    ndivides: "\\mathrel{\\not|}",
+    fix: "\\mathop{\\rm fix}",
+    id: "\\mathop{\\rm id}",
+    na: "\\mathop{\\rm na}",
+    d: "\\mathop{\\rm\\strut d}\\nolimits ",
+    legendre: ["\\left(\\frac{#1}{#2}\\right)",2],
+    normalbaselines: "",
+    notdiv: "\\nmid",
+    implies: "\\Rightarrow",
+    iff: "\\Leftrightarrow",
+    sevenpoint: "\\scriptsize",
+    ds: "\\displaystyle",
+    lcm: "\\operatorname{lcm}",
+    arccot: "\\operatorname{arccot}",
+    arcsec: "\\operatorname{arcsec}",
+    arccsc: "\\operatorname{arccsc}",
+    arccosh: "\\operatorname{arccosh}",
+    arcsinh: "\\operatorname{arcsinh}",
+    arcsech: "\\operatorname{arcsech}",
+    sech: "\\operatorname{sech}",
+    csch: "\\operatorname{csch}",
+    R: "{\\mathbb R}",
+    sb: "_",
+    sp: "^",
+    Q: "{\\mathbb Q}",
+    C: "{\\mathbb C}",
+    N: "{\\mathbb N}",
+    Z: "{\\mathbb Z}",
+    U: "{\\mathbb U}",
+    v: ["\\langle #1\\rangle",1],
+    dint: ["{\\mathchoice{\\mathop{\\int\\!\\!\\!\\int}_{#1}}{\\mathop{\\int\\!\\!\\!\\int}_{#1}}{\\mathop{\\int\\!\\!\\!\\int}}{\\mathop{\\int\\!\\!\\!\\int}}}",1],
+    tint: ["{\\mathchoice{\\mathop{\\int\\!\\!\\!\\int\\!\\!\\!\\int}_{#1\\;}}{\\mathop{\\int\\!\\!\\!\\int\\!\\!\\!\\int}_{#1}}{\\mathop{\\int\\!\\!\\!\\int\\!\\!\\!\\int}_{#1}}{\\mathop{\\int\\!\\!\\!\\int\\!\\!\\!\\int}_{#1}}}",1]
+   }
+},
+  "HTML-CSS": { scale: 100},
+  menuSettings: { zscale: "150%", zoom: "Double-Click" }
+});
+    JXG.Options.text.display = 'html';
+    JXG.Options.text.useMathJax = true;
+</script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/math
+jax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+<script>
+MathJax.Hub.Register.StartupHook("End",function () {
+  if(typeof window.orientation === 'undefined'){
+    var i,x;
+    x = document.getElementsByClassName("webgl_display");
+    for (i=0; i<x.length; i++) {
+      x[i].style.display = "block";
+    }
+    x = document.getElementsByClassName("no_webgl_display");
+    for (i=0; i<x.length; i++) {
+      x[i].style.display = "none";
+    }
+  }
+});
+</script>
+
+<script src="js/jquery-3.1.0.min.js"></script>
+<script src="https://sagecell.sagemath.org/static/embedded_sagecell.js"></script>
+<script src="js/jquery.visible.min.js"></script>
+<script type="text/javascript" src="js/knowl.js"></script>
+<style type="text/css">
+
+.sagecell .CodeMirror {
+  height: auto;
+}
+
+.sagecell .CodeMirror-scroll {
+  overflow-y: hidden;
+  overflow-x: auto;
+}
+
+.sagecell-practice .CodeMirror-scroll {
+}
+
+.sagecell button.sagecell_evalButton {
+    font-size: 50%;
+}
+
+.sagecell_sessionContainer {
+    margin-bottom:1em;
+}
+</style>
+<script>
+function toggle(a) {
+  var b = String(a);
+  b=b.replace("contents","button");
+  if (document.getElementById(a).style.display == "block") {
+    document.getElementById(a).style.display = "none";
+    document.getElementById(b).src = "expand_submenu.png";
+  } else {
+    document.getElementById(a).style.display = "block";
+    document.getElementById(b).src = "collapse_submenu.png";
+  }
+}
+function toggle_sidebar() {
+  if (document.getElementById('sidebar').style.display == "block") {
+    document.getElementById('sidebar').style.display = "none";
+    document.getElementById('menu_expand').style.display = "block";
+  } else {
+    document.getElementById('sidebar').style.display = "block";
+    document.getElementById('menu_expand').style.display = "none";
+  }
+}
+</script>
+
+</head>
+
+<body class="" onload="toggle('chapter_07_contents')">
+<div id="header">
+<div class="right">
+<div class="bread">
+  <a href=".">Home</a> &raquo; <a href="chapter07.html">Integration</a> &raquo; <a href="section07.03.html">Some Properties of Integrals</a>
+</div>
+
+<FORM method=GET action=https://www.google.com/custom id="search">
+<INPUT TYPE=text name=q size=31 maxlength=255 value="" style="font-size:small">
+<INPUT type=submit name=sa VALUE="Search the book" style="font-size:small">
+<INPUT type=hidden name=cof VALUE="AH:center;AWFID:198dc2b883340b1f;">
+<input type=hidden name=domains value="www.whitman.edu">
+<input type=hidden name=sitesearch value="www.whitman.edu/mathematics/calculus_online/">
+</FORM>
+<div id="title"><span id="title-content">7.3 Some Properties of Integrals</span></div><a href="#exercises">[Jump to exercises]</a>
+</div>
+</div>
+<div id="menu_expand" style="display:none"><a href="javascript:toggle_sidebar()">Expand menu</a></div>
+<div id="sidebar" style="display:block">
+<h2 id="menu_collapse"><a href='javascript:toggle_sidebar()'>Collapse menu</a></h2>
+<h2 class="link"><img id="chapter_01_button" src="expand_submenu.png" onclick='toggle("chapter_01_contents")'><a href="chapter01.html">1 Analytic Geometry</a></h2>
+
+<ul class="list" id="chapter_01_contents">
+<li><a href="section01.01.html">1. Lines</a></li>
+<li><a href="section01.02.html">2. Distance Between Two Points; Circles</a></li>
+<li><a href="section01.03.html">3. Functions</a></li>
+<li><a href="section01.04.html">4. Shifts and Dilations</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_02_button" src="expand_submenu.png" onclick='toggle("chapter_02_contents")'><a href="chapter02.html">2 Instantaneous Rate of Change:  The Derivative</a></h2>
+
+<ul class="list" id="chapter_02_contents">
+<li><a href="section02.01.html">1. The slope of a function</a></li>
+<li><a href="section02.02.html">2. An example</a></li>
+<li><a href="section02.03.html">3. Limits</a></li>
+<li><a href="section02.04.html">4. The Derivative Function</a></li>
+<li><a href="section02.05.html">5. Adjectives For Functions</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_03_button" src="expand_submenu.png" onclick='toggle("chapter_03_contents")'><a href="chapter03.html">3 Rules for Finding Derivatives</a></h2>
+
+<ul class="list" id="chapter_03_contents">
+<li><a href="section03.01.html">1. The Power Rule</a></li>
+<li><a href="section03.02.html">2. Linearity of the Derivative</a></li>
+<li><a href="section03.03.html">3. The Product Rule</a></li>
+<li><a href="section03.04.html">4. The Quotient Rule</a></li>
+<li><a href="section03.05.html">5. The Chain Rule</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_04_button" src="expand_submenu.png" onclick='toggle("chapter_04_contents")'><a href="chapter04.html">4 Transcendental Functions</a></h2>
+
+<ul class="list" id="chapter_04_contents">
+<li><a href="section04.01.html">1. Trigonometric Functions</a></li>
+<li><a href="section04.02.html">2. The Derivative of $\sin x$</a></li>
+<li><a href="section04.03.html">3. A hard limit</a></li>
+<li><a href="section04.04.html">4. The Derivative of $\sin x$, continued</a></li>
+<li><a href="section04.05.html">5. Derivatives of the Trigonometric Functions</a></li>
+<li><a href="section04.06.html">6. Exponential and Logarithmic functions</a></li>
+<li><a href="section04.07.html">7. Derivatives of the exponential and  logarithmic functions</a></li>
+<li><a href="section04.08.html">8. Implicit Differentiation</a></li>
+<li><a href="section04.09.html">9. Inverse Trigonometric Functions</a></li>
+<li><a href="section04.10.html">10. Limits revisited</a></li>
+<li><a href="section04.11.html">11. Hyperbolic Functions</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_05_button" src="expand_submenu.png" onclick='toggle("chapter_05_contents")'><a href="chapter05.html">5 Curve Sketching</a></h2>
+
+<ul class="list" id="chapter_05_contents">
+<li><a href="section05.01.html">1. Maxima and Minima</a></li>
+<li><a href="section05.02.html">2. The first derivative test</a></li>
+<li><a href="section05.03.html">3. The second derivative test</a></li>
+<li><a href="section05.04.html">4. Concavity and inflection points</a></li>
+<li><a href="section05.05.html">5. Asymptotes and Other Things to Look For</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_06_button" src="expand_submenu.png" onclick='toggle("chapter_06_contents")'><a href="chapter06.html">6 Applications of the Derivative</a></h2>
+
+<ul class="list" id="chapter_06_contents">
+<li><a href="section06.01.html">1. Optimization</a></li>
+<li><a href="section06.02.html">2. Related Rates</a></li>
+<li><a href="section06.03.html">3. Newton's Method</a></li>
+<li><a href="section06.04.html">4. Linear Approximations</a></li>
+<li><a href="section06.05.html">5. The Mean Value Theorem</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_07_button" src="expand_submenu.png" onclick='toggle("chapter_07_contents")'><a href="chapter07.html">7 Integration</a></h2>
+
+<ul class="list" id="chapter_07_contents">
+<li><a href="section07.01.html">1. Two examples</a></li>
+<li><a href="section07.02.html">2. The Fundamental Theorem of Calculus</a></li>
+<li><a href="section07.03.html">3. Some Properties of Integrals</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_08_button" src="expand_submenu.png" onclick='toggle("chapter_08_contents")'><a href="chapter08.html">8 Techniques of Integration</a></h2>
+
+<ul class="list" id="chapter_08_contents">
+<li><a href="section08.01.html">1. Substitution</a></li>
+<li><a href="section08.02.html">2. Powers of sine and cosine</a></li>
+<li><a href="section08.03.html">3. Trigonometric Substitutions</a></li>
+<li><a href="section08.04.html">4. Integration by Parts</a></li>
+<li><a href="section08.05.html">5. Rational Functions</a></li>
+<li><a href="section08.06.html">6. Numerical Integration</a></li>
+<li><a href="section08.07.html">7. Additional exercises</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_09_button" src="expand_submenu.png" onclick='toggle("chapter_09_contents")'><a href="chapter09.html">9 Applications of Integration</a></h2>
+
+<ul class="list" id="chapter_09_contents">
+<li><a href="section09.01.html">1. Area between curves</a></li>
+<li><a href="section09.02.html">2. Distance, Velocity, Acceleration</a></li>
+<li><a href="section09.03.html">3. Volume</a></li>
+<li><a href="section09.04.html">4. Average value of a function</a></li>
+<li><a href="section09.05.html">5. Work</a></li>
+<li><a href="section09.06.html">6. Center of Mass</a></li>
+<li><a href="section09.07.html">7. Kinetic energy; improper integrals</a></li>
+<li><a href="section09.08.html">8. Probability</a></li>
+<li><a href="section09.09.html">9. Arc Length</a></li>
+<li><a href="section09.10.html">10. Surface Area</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_10_button" src="expand_submenu.png" onclick='toggle("chapter_10_contents")'><a href="chapter10.html">10 Polar Coordinates,  Parametric Equations</a></h2>
+
+<ul class="list" id="chapter_10_contents">
+<li><a href="section10.01.html">1. Polar Coordinates</a></li>
+<li><a href="section10.02.html">2. Slopes in polar coordinates</a></li>
+<li><a href="section10.03.html">3. Areas in polar coordinates</a></li>
+<li><a href="section10.04.html">4. Parametric Equations</a></li>
+<li><a href="section10.05.html">5. Calculus with Parametric Equations</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_11_button" src="expand_submenu.png" onclick='toggle("chapter_11_contents")'><a href="chapter11.html">11 Sequences and Series</a></h2>
+
+<ul class="list" id="chapter_11_contents">
+<li><a href="section11.01.html">1. Sequences</a></li>
+<li><a href="section11.02.html">2. Series</a></li>
+<li><a href="section11.03.html">3. The Integral Test</a></li>
+<li><a href="section11.04.html">4. Alternating Series</a></li>
+<li><a href="section11.05.html">5. Comparison Tests</a></li>
+<li><a href="section11.06.html">6. Absolute Convergence</a></li>
+<li><a href="section11.07.html">7. The Ratio and Root Tests</a></li>
+<li><a href="section11.08.html">8. Power Series</a></li>
+<li><a href="section11.09.html">9. Calculus with Power Series</a></li>
+<li><a href="section11.10.html">10. Taylor Series</a></li>
+<li><a href="section11.11.html">11. Taylor's Theorem</a></li>
+<li><a href="section11.12.html">12. Additional exercises</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_12_button" src="expand_submenu.png" onclick='toggle("chapter_12_contents")'><a href="chapter12.html">12 Three Dimensions</a></h2>
+
+<ul class="list" id="chapter_12_contents">
+<li><a href="section12.01.html">1. The Coordinate System</a></li>
+<li><a href="section12.02.html">2. Vectors</a></li>
+<li><a href="section12.03.html">3. The Dot Product</a></li>
+<li><a href="section12.04.html">4. The Cross Product</a></li>
+<li><a href="section12.05.html">5. Lines and Planes</a></li>
+<li><a href="section12.06.html">6. Other Coordinate Systems</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_13_button" src="expand_submenu.png" onclick='toggle("chapter_13_contents")'><a href="chapter13.html">13 Vector Functions</a></h2>
+
+<ul class="list" id="chapter_13_contents">
+<li><a href="section13.01.html">1. Space Curves</a></li>
+<li><a href="section13.02.html">2. Calculus with vector functions</a></li>
+<li><a href="section13.03.html">3. Arc length and curvature</a></li>
+<li><a href="section13.04.html">4. Motion along a curve</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_14_button" src="expand_submenu.png" onclick='toggle("chapter_14_contents")'><a href="chapter14.html">14 Partial Differentiation</a></h2>
+
+<ul class="list" id="chapter_14_contents">
+<li><a href="section14.01.html">1. Functions of Several Variables</a></li>
+<li><a href="section14.02.html">2. Limits and Continuity</a></li>
+<li><a href="section14.03.html">3. Partial Differentiation</a></li>
+<li><a href="section14.04.html">4. The Chain Rule</a></li>
+<li><a href="section14.05.html">5. Directional Derivatives</a></li>
+<li><a href="section14.06.html">6. Higher order derivatives</a></li>
+<li><a href="section14.07.html">7. Maxima and minima</a></li>
+<li><a href="section14.08.html">8. Lagrange Multipliers</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_15_button" src="expand_submenu.png" onclick='toggle("chapter_15_contents")'><a href="chapter15.html">15 Multiple Integration</a></h2>
+
+<ul class="list" id="chapter_15_contents">
+<li><a href="section15.01.html">1. Volume and Average Height</a></li>
+<li><a href="section15.02.html">2. Double Integrals in Cylindrical Coordinates</a></li>
+<li><a href="section15.03.html">3. Moment and Center of Mass</a></li>
+<li><a href="section15.04.html">4. Surface Area</a></li>
+<li><a href="section15.05.html">5. Triple Integrals</a></li>
+<li><a href="section15.06.html">6. Cylindrical and Spherical Coordinates</a></li>
+<li><a href="section15.07.html">7. Change of Variables</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_16_button" src="expand_submenu.png" onclick='toggle("chapter_16_contents")'><a href="chapter16.html">16 Vector Calculus</a></h2>
+
+<ul class="list" id="chapter_16_contents">
+<li><a href="section16.01.html">1. Vector Fields</a></li>
+<li><a href="section16.02.html">2. Line Integrals</a></li>
+<li><a href="section16.03.html">3. The Fundamental Theorem of Line Integrals</a></li>
+<li><a href="section16.04.html">4. Green's Theorem</a></li>
+<li><a href="section16.05.html">5. Divergence and Curl</a></li>
+<li><a href="section16.06.html">6. Vector Functions for Surfaces</a></li>
+<li><a href="section16.07.html">7. Surface Integrals</a></li>
+<li><a href="section16.08.html">8. Stokes's Theorem</a></li>
+<li><a href="section16.09.html">9. The Divergence Theorem</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_17_button" src="expand_submenu.png" onclick='toggle("chapter_17_contents")'><a href="chapter17.html">17 Differential Equations</a></h2>
+
+<ul class="list" id="chapter_17_contents">
+<li><a href="section17.01.html">1. First Order Differential Equations</a></li>
+<li><a href="section17.02.html">2. First Order Homogeneous Linear Equations</a></li>
+<li><a href="section17.03.html">3. First Order Linear Equations</a></li>
+<li><a href="section17.04.html">4. Approximation</a></li>
+<li><a href="section17.05.html">5. Second Order Homogeneous Equations</a></li>
+<li><a href="section17.06.html">6. Second Order Linear Equations</a></li>
+<li><a href="section17.07.html">7. Second Order Linear Equations, take two</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_18_button" src="expand_submenu.png" onclick='toggle("chapter_18_contents")'><a href="chapter18.html">18 Useful formulas</a></h2>
+
+<ul class="list" id="chapter_18_contents">
+</ul>
+
+</div>
+
+<div id="main">
+
+<div id="next"><a href="section07.02.html"><img src=previous_section.png width="30"></a>&nbsp;&nbsp;<a href="chapter08.html"><img src=next_section.png width="30"></a></div>
+
+<div id="content">
+<p>
+
+
+</p><p>
+Suppose an object moves so that its speed, or more properly velocity,
+is given by $\ds v(t)=-t^2+5t$, as shown in figure <a href="section07.03.html#fig:speed can be negative">7.3.1</a>. Let's examine the motion of this object carefully. We know
+that the velocity is the derivative of position, so position is 
+given by $\ds s(t)=-t^3/3+5t^2/2+C$. Let's suppose that at time $t=0$ the
+object is at position 0, so $\ds s(t)=-t^3/3+5t^2/2$; this function is
+also pictured in figure <a href="section07.03.html#fig:speed can be negative">7.3.1</a>.
+</p><p>
+</p><div class='figure'><!-- Integration-Position_vs_velocity.html -->
+<!-- Figure 7.1.1 -->
+<table style="width:100%">
+<tr style="width:100%">
+<td style="width:8%"></td>
+<td style="width:40%">
+<div id="velocity" class="jxgbox"></div>
+</td>
+<td style="width:4%"></td>
+<td style="width:40%">
+<div id="position" class="jxgbox"></div>
+</td>
+<td style="width:8%"></td>
+</tr></table>
+
+<script type="text/javascript">
+(function () {  // BEGIN: scope limiting function wrapper
+  var vxmin=-0.75, vxmax= 6.5, vymin=-7, vymax=7;
+//  var vAspectRatio = ((vymax-vymin)/(vxmax-vxmin)); // height/width
+  var vAspectRatio = (1); // height/width
+  var vwd=document.getElementById('velocity').offsetWidth;
+  var vht=vwd*vAspectRatio;
+  var vyfactor = (vymax-vymin)/(vht);
+  var vxfactor = (vxmax-vxmin)/(vwd);
+  var vxaxis_label_offset = vyfactor*15;
+  var vyaxis_label_offset = vxfactor*20;
+  document.getElementById('velocity').style.height=vht+'px';
+  var pxmin=-0.75, pxmax= 6.5, pymin=-3, pymax=25;
+  var pAspectRatio = (1); // height/width
+  var pwd=document.getElementById('position').offsetWidth;
+  var pht=pwd*pAspectRatio;
+  var pyfactor = (pymax-pymin)/(pht);
+  var pxfactor = (pxmax-pxmin)/(pwd);
+  var pxaxis_label_offset = pyfactor*15;
+  var pyaxis_label_offset = pxfactor*20;
+  document.getElementById('position').style.height=pht+'px';
+  var vbrd =
+  JXG.JSXGraph.initBoard('velocity',{boundingbox:[vxmin,vymax,vxmax,vymin], showCopyright:false, showNavigation:false}) ;
+  var pbrd = JXG.JSXGraph.initBoard('position',{boundingbox:[pxmin,pymax,pxmax,pymin], showCopyright:false, showNavigation:false}) ;
+  var rejax = function() {
+     MathJax.Hub.Queue(["Typeset",MathJax.Hub]); 
+  }
+  vbrd.addHook(rejax); pbrd.addHook(rejax);
+  var v = function(x) { return x*(5-x); };
+  var vxaxis = vbrd.create('segment', [[0,0], [6,0]],{strokeColor:'black',strokeWidth:1});
+  var vyaxis = vbrd.create('segment', [[0,-6],[0,6]],{strokeColor:'black',strokeWidth:1});
+  var vxi = vbrd.create('segment',[[0,0],[6.1,0]],{visible:false});
+  vbrd.createElement('ticks',[vxi,1],{minorTicks:false});
+  var vyi = vbrd.create('segment',[[0,0],[0,6.1]],{visible:false});
+  vbrd.createElement('ticks',[vyi,1],{minorTicks:false});
+  var vyi2 = vbrd.create('segment',[[0,0],[0,-6.1]],{visible:false});
+  vbrd.createElement('ticks',[vyi2,1],{minorTicks:false});
+  vbrd.createElement('text',[6,-vxaxis_label_offset,'$6$']);
+  vbrd.createElement('text',[-vyaxis_label_offset,6,'$6$']);
+  var velo = vbrd.create('functiongraph', [v,0,6],{strokeWidth: 2, dash:0});
+  var vg = vbrd.create('glider',[1,v(1),velo],{withLabel:false,strokeColor:'#0000ff',fillColor:'#0000ff'});
+  var p = function(x) { return -x*x*x/3+5*x*x/2; }; 
+  var pxaxis = pbrd.create('segment', [[0,0], [6,0]],{strokeColor:'black',strokeWidth:1});
+  var pyaxis = pbrd.create('segment',[[0,0],[0,22]],{strokeColor:'black',strokeWidth:1});
+  var pxi = pbrd.create('segment',[[0,0],[6.1,0]],{visible:false});
+  pbrd.createElement('ticks',[pxi,1],{minorTicks:false});
+  var pyi = pbrd.create('segment',[[0,0],[0,22.1]],{visible:false});
+  pbrd.createElement('ticks',[pyi,1],{minorTicks:false});
+  pbrd.createElement('text',[6,-pxaxis_label_offset,'$6$']);
+  pbrd.createElement('text',[-pyaxis_label_offset,22,'$22$']);
+  var posi = pbrd.create('functiongraph', [p,0,6],{strokeWidth: 2, dash:0});
+  var pg=pbrd.create('point',[function () { return vg.X(); }, 
+                       function () { return p(vg.X()); }],
+                       {withLabel:false});
+  var sync = function() {
+    pbrd.update();
+  }
+  vbrd.addHook(sync);
+})(); // END: scope limiting function wrapper
+</script>
+
+
+<a id="fig:speed can be negative"></a><div class='figcaption'><span class="figurenumber">Figure 7.3.1.</span> The velocity of an object and its position. You can drag the blue dot
+and the red dot will follow.</div></div>
+<p>
+</p><p>
+Between $t=0$ and $t=5$ the velocity is positive, so the object moves
+away from the starting point, until it is a bit past position 20. Then
+the velocity becomes negative and the object moves back toward its
+starting point. The position of the object at $t=5$ is exactly 
+$s(5)=125/6$, and at $t=6$ it is $s(6)=18$. The total distance
+traveled by the object is therefore $125/6 + (125/6 - 18) =
+71/3\approx 23.7$. 
+</p><p>
+As we have seen, we can also compute distance traveled with an
+integral; let's try it.
+$$
+  \int_0^6 v(t)\,dt = \int_0^6 -t^2+5t\,dt = 
+\left.{-t^3\over 3}+{5\over2}t^2\right|_0^6  = 
+18.
+$$
+What went wrong? Well, nothing really, except that it's not really
+true after all that "we can also compute distance traveled with an
+integral''. Instead, as you might guess from this example, the
+integral actually computes the <em>net</em> distance traveled, that is,
+the difference between the starting and ending point.
+</p><p>
+As we have already seen,
+$$
+  \int_0^6 v(t)\,dt=\int_0^5 v(t)\,dt+\int_5^6 v(t)\,dt.
+$$
+Computing the two integrals on the right (do it!) gives
+$125/6$ and $-17/6$, and the sum of these is indeed 18. But what does
+that negative sign mean? It means precisely what you might think: it
+means that the object moves backwards. To get the total distance
+traveled we can add $125/6+17/6=71/3$, the same answer we got before.
+</p><p>
+Remember that we can also interpret an integral as measuring an area,
+but now we see that this too is a little more complicated that we have
+suspected. The area under the curve $v(t)$ from 0 to 5 is given by 
+$$
+  \int_0^5 v(t)\,dt={125\over6},
+$$
+and the "area'' from 5 to 6 is 
+$$
+  \int_5^6 v(t)\,dt=-{17\over 6}.
+$$
+In other words, the area between the $x$-axis and the curve, but under
+the $x$-axis, "counts as negative area''. So the integral
+$$
+  \int_0^6 v(t)\,dt=18
+$$ 
+measures "net area'', the area above the axis minus the (positive)
+area below the axis.
+</p><p>
+If we recall that the integral is the limit of a certain kind of sum,
+this behavior is not surprising. Recall the sort of sum involved:
+$$
+  \sum_{i=0}^{n-1} v(t_i)\Delta t.
+$$
+In each term $v(t)\Delta t$ the $\Delta t$ is positive, but if
+$\ds v(t_i)$ is negative then the term is negative. If over an entire
+interval, like 5 to 6, the function is always negative, then the
+entire sum is negative. In terms of area, $v(t)\Delta t$ is then a
+negative height times a positive width, giving a negative rectangle
+"area''. 
+</p><p>
+So now we see that when evaluating $$\ds\int_5^6 v(t)\,dt=-{17\over 6}$$
+by finding an antiderivative, substituting, and subtracting, we get a
+surprising answer, but one that turns out to make sense.
+</p><p>
+Let's now try something a bit different:
+$$
+  \int_6^5 v(t)\,dt=\left.{-t^3\over 3}+{5\over2}t^2\right|_6^5 =
+  {-5^3\over 3}+{5\over2}5^2-{-6^3\over 3}-{5\over2}6^2 ={17\over 6}.
+$$
+Here we simply interchanged the limits 5 and 6, so of course when we
+substitute and subtract we're subtracting in the opposite order and we
+end up multiplying the answer by $-1$. This too makes sense in terms
+of the underlying sum, though it takes a bit more thought. Recall that
+in the sum
+$$
+  \sum_{i=0}^{n-1} v(t_i)\Delta t,
+$$
+the $\Delta t$ is the "length'' of each little subinterval, but more
+precisely we could say that $\ds \Delta t = t_{i+1}-t_i$, the difference
+between two endpoints of a subinterval. We have until now assumed that
+we were working left to right, but could as well number the
+subintervals from right to left, so that $\ds t_0=b$ and $\ds t_n=a$.
+Then $\ds \Delta t=t_{i+1}-t_i$ is negative and
+in 
+$$
+  \int_6^5 v(t)\,dt=\sum_{i=0}^{n-1} v(t_i)\Delta t,
+$$
+the values $\ds v(t_i)$ are negative but also $\Delta t$ is negative, so all
+terms are positive again. On the other hand, in
+$$
+  \int_5^0 v(t)\,dt=\sum_{i=0}^{n-1} v(t_i)\Delta t,
+$$
+the values $\ds v(t_i)$ are positive but $\Delta t$ is negative,and we get
+a negative result:
+$$
+  \int_5^0 v(t)\,dt=\left.{-t^3\over 3}+{5\over2}t^2\right|_5^0 =
+  0-{-5^3\over 3}-{5\over2}5^2 = -{125\over6}.
+$$
+</p><p>
+Finally we note one simple property of integrals:
+$$
+  \int_a^b f(x)+g(x)\,dx=\int_a^b f(x)\,dx+\int_a^b g(x)\,dx.
+$$
+This is easy to understand once you recall that
+$(F(x)+G(x))'=F'(x)+G'(x)$. Hence, if $F'(x)=f(x)$ and $G'(x)=g(x)$,
+then
+$$
+  \eqalign{
+  \int_a^b f(x)+g(x)\,dx&=\left.(F(x)+G(x))\right|_a^b\cr
+  &=F(b)+G(b)-F(a)-G(a)\cr
+  &=F(b)-F(a)+G(b)-G(a)\cr
+  &=\left.F(x)\right|_a^b+\left.G(x)\right|_a^b\cr
+  &=\int_a^b f(x)\,dx+\int_a^b g(x)\,dx.\cr
+  }
+$$
+</p><p>
+In summary, we will frequently use these properties of 
+integrals:
+$$\displaylines{
+  \int_a^b f(x)\,dx = \int_a^c f(x)\,dx + \int_c^b f(x)\,dx\cr
+  \int_a^b f(x)+g(x)\,dx=\int_a^b f(x)\,dx+\int_a^b g(x)\,dx\cr
+  \int_a^b f(x)\,dx=-\int_b^a f(x)\,dx\cr
+}$$
+and if $a< b$ and $f(x)\le 0$ on $[a,b]$ then
+$$
+  \int_a^b f(x)\,dx\le 0$$
+and in fact
+$$
+  \int_a^b f(x)\,dx=-\int_a^b |f(x)|\,dx.
+$$
+</p><p>
+</p>
+<a id="exercises"></a><h2 class="exercises">Exercises 7.3</h2>
+<p></p><p>
+</p>
+<p class="exercise"><b>Ex 7.3.1</b>
+An object moves so that its velocity at time $t$ is
+$v(t)=-9.8t+20$ m/s. Describe the motion of the object between $t=0$ and
+$t=5$, find the total distance traveled by the object during that
+time, and find the net distance traveled.
+(<a knowl="" class="internal" value="It rises until $t=100/49$, then falls. The position of the
+object at time $t$ is $\ds s(t)=-4.9t^2+20t+k$. The net distance traveled
+is $-45/2$, that is, it ends up $45/2$ meters below where it started.
+The total distance traveled is $6205/98$ meters. ">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 7.3.2</b>
+An object moves so that its velocity at time $t$ is $v(t)=\sin t$.
+Set up and evaluate a single definite integral to compute the
+net distance traveled between $t=0$ and $t=2\pi$.
+(<a knowl="" class="internal" value="$\ds\int_0^{2\pi}\sin t\,dt=0$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 7.3.3</b>
+An object moves so that its velocity at time $t$ is
+$v(t)=1+2\sin t$ m/s. Find the net distance traveled by the object
+between $t=0$ and $t=2\pi$, and find the total distance traveled
+during the same period.
+(<a knowl="" class="internal" value="net: $2\pi$, total: $\ds 2\pi/3+4\sqrt3$ ">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 7.3.4</b>
+Consider the function $f(x)=(x+2)(x+1)(x-1)(x-2)$ on
+$[-2,2]$. Find the total area between the curve and the $x$-axis
+(measuring all area as positive).
+(<a knowl="" class="internal" value="$8$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 7.3.5</b>
+Consider the function $\ds f(x)=x^2-3x+2$ on
+$[0,4]$. Find the total area between the curve and the $x$-axis
+(measuring all area as positive).
+(<a knowl="" class="internal" value="$17/3$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 7.3.6</b>
+Evaluate the three integrals:
+$$
+  A=\int_0^3 (-x^2+9)\,dx\qquad B=\int_0^{4} (-x^2+9)\,dx\qquad 
+  C=\int_{4}^3 (-x^2+9)\,dx,
+$$
+and verify that $A=B+C$.
+(<a knowl="" class="internal" value="$A=18$, $B=44/3$, $C=10/3$">answer</a>)
+
+
+</p><p>
+
+
+</p><p>
+</div></div></body>
+</html>

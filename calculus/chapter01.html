@@ -1,0 +1,525 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+<meta http-equiv="Content-Language" Content="en">
+<title>1. Analytic Geometry</title>
+<!--
+<script type="text/javascript" src="js/deployJava.js"></script>
+<link rel="stylesheet" type="text/css" href="http://jsxgraph.uni-bayreuth.de/distrib/jsxgraph.css" />
+-->
+<!-- use Jsxgraph to create figures: http://jsxgraph.uni-bayreuth.de/wp/ -->
+<link rel="stylesheet" type="text/css" href="css/jsxgraph.css" />
+<script type="text/javascript" src="js/jsxgraphcore.js"></script>
+<script src="js/three.min.js"></script>
+<script src="js/Detector.js"></script>
+<script src="js/TrackballControls.js"></script>
+<script src="js/OrthographicTrackballControls.js"></script>
+<script src="js/THREEx.KeyboardState.js"></script>
+<script src="js/THREEx.FullScreen.js"></script>
+<script src="js/THREEx.WindowResize.js"></script>
+<script type='text/javascript' src='js/DAT.GUI.min.js'></script>
+<script>
+window.requestAnimFrame = (function(){
+    return  window.requestAnimationFrame       || 
+        window.webkitRequestAnimationFrame || 
+        window.mozRequestAnimationFrame    || 
+        window.oRequestAnimationFrame      || 
+        window.msRequestAnimationFrame     || 
+        function(/* function */ callback, /* DOMElement */
+            element){
+            window.setTimeout(callback, 1000 / 60);
+        };
+})();
+</script>
+<script src="js/ifvisible.min.js"></script>
+<script src="js/conrec.js"></script>
+<script>
+active = true;
+ifvisible.setIdleDuration(10);
+ifvisible.on("idle", function(){
+    active = false;
+//    console.log("idle");
+});
+
+ifvisible.on("wakeup", function(){
+    active = true;
+//    console.log("wakeup");
+});
+</script>
+<script src="js/parser.js"></script>
+<link href="css/whitman.css" rel="stylesheet" type="text/css" /><link href="css/calculus.css" rel="stylesheet" type="text/css" /><link href="css/knowlstyle.css" rel="stylesheet" type="text/css" />
+
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  extensions: ["tex2jax.js","TeX/AMSmath.js","TeX/AMSsymbols.js"],
+  jax: ["input/TeX","output/HTML-CSS"],
+  tex2jax: {
+    inlineMath: [['$','$'],["\\(","\\)"]],
+    processEscapes: true,
+  },
+TeX: {
+   Macros: {
+    val: "\\mathop{\\rm val}",
+    divides: "\\mid",
+    ndivides: "\\mathrel{\\not|}",
+    fix: "\\mathop{\\rm fix}",
+    id: "\\mathop{\\rm id}",
+    na: "\\mathop{\\rm na}",
+    d: "\\mathop{\\rm\\strut d}\\nolimits ",
+    legendre: ["\\left(\\frac{#1}{#2}\\right)",2],
+    normalbaselines: "",
+    notdiv: "\\nmid",
+    implies: "\\Rightarrow",
+    iff: "\\Leftrightarrow",
+    sevenpoint: "\\scriptsize",
+    ds: "\\displaystyle",
+    lcm: "\\operatorname{lcm}",
+    arccot: "\\operatorname{arccot}",
+    arcsec: "\\operatorname{arcsec}",
+    arccsc: "\\operatorname{arccsc}",
+    arccosh: "\\operatorname{arccosh}",
+    arcsinh: "\\operatorname{arcsinh}",
+    arcsech: "\\operatorname{arcsech}",
+    sech: "\\operatorname{sech}",
+    csch: "\\operatorname{csch}",
+    R: "{\\mathbb R}",
+    sb: "_",
+    sp: "^",
+    Q: "{\\mathbb Q}",
+    C: "{\\mathbb C}",
+    N: "{\\mathbb N}",
+    Z: "{\\mathbb Z}",
+    U: "{\\mathbb U}",
+    v: ["\\langle #1\\rangle",1],
+    dint: ["{\\mathchoice{\\mathop{\\int\\!\\!\\!\\int}_{#1}}{\\mathop{\\int\\!\\!\\!\\int}_{#1}}{\\mathop{\\int\\!\\!\\!\\int}}{\\mathop{\\int\\!\\!\\!\\int}}}",1],
+    tint: ["{\\mathchoice{\\mathop{\\int\\!\\!\\!\\int\\!\\!\\!\\int}_{#1\\;}}{\\mathop{\\int\\!\\!\\!\\int\\!\\!\\!\\int}_{#1}}{\\mathop{\\int\\!\\!\\!\\int\\!\\!\\!\\int}_{#1}}{\\mathop{\\int\\!\\!\\!\\int\\!\\!\\!\\int}_{#1}}}",1]
+   }
+},
+  "HTML-CSS": { scale: 100},
+  menuSettings: { zscale: "150%", zoom: "Double-Click" }
+});
+    JXG.Options.text.display = 'html';
+    JXG.Options.text.useMathJax = true;
+</script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/math
+jax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+<script>
+MathJax.Hub.Register.StartupHook("End",function () {
+  if(typeof window.orientation === 'undefined'){
+    var i,x;
+    x = document.getElementsByClassName("webgl_display");
+    for (i=0; i<x.length; i++) {
+      x[i].style.display = "block";
+    }
+    x = document.getElementsByClassName("no_webgl_display");
+    for (i=0; i<x.length; i++) {
+      x[i].style.display = "none";
+    }
+  }
+});
+</script>
+
+<script src="js/jquery-3.1.0.min.js"></script>
+<script src="https://sagecell.sagemath.org/static/embedded_sagecell.js"></script>
+<script src="js/jquery.visible.min.js"></script>
+<script type="text/javascript" src="js/knowl.js"></script>
+<style type="text/css">
+
+.sagecell .CodeMirror {
+  height: auto;
+}
+
+.sagecell .CodeMirror-scroll {
+  overflow-y: hidden;
+  overflow-x: auto;
+}
+
+.sagecell-practice .CodeMirror-scroll {
+}
+
+.sagecell button.sagecell_evalButton {
+    font-size: 50%;
+}
+
+.sagecell_sessionContainer {
+    margin-bottom:1em;
+}
+</style>
+<script>
+function toggle(a) {
+  var b = String(a);
+  b=b.replace("contents","button");
+  if (document.getElementById(a).style.display == "block") {
+    document.getElementById(a).style.display = "none";
+    document.getElementById(b).src = "expand_submenu.png";
+  } else {
+    document.getElementById(a).style.display = "block";
+    document.getElementById(b).src = "collapse_submenu.png";
+  }
+}
+function toggle_sidebar() {
+  if (document.getElementById('sidebar').style.display == "block") {
+    document.getElementById('sidebar').style.display = "none";
+    document.getElementById('menu_expand').style.display = "block";
+  } else {
+    document.getElementById('sidebar').style.display = "block";
+    document.getElementById('menu_expand').style.display = "none";
+  }
+}
+</script>
+
+</head>
+
+<body class="" onload="toggle('chapter_01_contents')">
+<div id="header">
+<div class="right">
+<div class="bread">
+  <a href=".">Home</a> &raquo; <a href="chapter01.html">Analytic Geometry</a>
+</div>
+
+<FORM method=GET action=https://www.google.com/custom id="search">
+<INPUT TYPE=text name=q size=31 maxlength=255 value="" style="font-size:small">
+<INPUT type=submit name=sa VALUE="Search the book" style="font-size:small">
+<INPUT type=hidden name=cof VALUE="AH:center;AWFID:198dc2b883340b1f;">
+<input type=hidden name=domains value="www.whitman.edu">
+<input type=hidden name=sitesearch value="www.whitman.edu/mathematics/calculus_online/">
+</FORM>
+<div id="title"><span id="title-content">1. Analytic Geometry</span></div></div>
+</div>
+<div id="menu_expand" style="display:none"><a href="javascript:toggle_sidebar()">Expand menu</a></div>
+<div id="sidebar" style="display:block">
+<h2 id="menu_collapse"><a href='javascript:toggle_sidebar()'>Collapse menu</a></h2>
+<h2 class="link"><img id="chapter_01_button" src="expand_submenu.png" onclick='toggle("chapter_01_contents")'><a href="chapter01.html">1 Analytic Geometry</a></h2>
+
+<ul class="list" id="chapter_01_contents">
+<li><a href="section01.01.html">1. Lines</a></li>
+<li><a href="section01.02.html">2. Distance Between Two Points; Circles</a></li>
+<li><a href="section01.03.html">3. Functions</a></li>
+<li><a href="section01.04.html">4. Shifts and Dilations</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_02_button" src="expand_submenu.png" onclick='toggle("chapter_02_contents")'><a href="chapter02.html">2 Instantaneous Rate of Change:  The Derivative</a></h2>
+
+<ul class="list" id="chapter_02_contents">
+<li><a href="section02.01.html">1. The slope of a function</a></li>
+<li><a href="section02.02.html">2. An example</a></li>
+<li><a href="section02.03.html">3. Limits</a></li>
+<li><a href="section02.04.html">4. The Derivative Function</a></li>
+<li><a href="section02.05.html">5. Adjectives For Functions</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_03_button" src="expand_submenu.png" onclick='toggle("chapter_03_contents")'><a href="chapter03.html">3 Rules for Finding Derivatives</a></h2>
+
+<ul class="list" id="chapter_03_contents">
+<li><a href="section03.01.html">1. The Power Rule</a></li>
+<li><a href="section03.02.html">2. Linearity of the Derivative</a></li>
+<li><a href="section03.03.html">3. The Product Rule</a></li>
+<li><a href="section03.04.html">4. The Quotient Rule</a></li>
+<li><a href="section03.05.html">5. The Chain Rule</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_04_button" src="expand_submenu.png" onclick='toggle("chapter_04_contents")'><a href="chapter04.html">4 Transcendental Functions</a></h2>
+
+<ul class="list" id="chapter_04_contents">
+<li><a href="section04.01.html">1. Trigonometric Functions</a></li>
+<li><a href="section04.02.html">2. The Derivative of $\sin x$</a></li>
+<li><a href="section04.03.html">3. A hard limit</a></li>
+<li><a href="section04.04.html">4. The Derivative of $\sin x$, continued</a></li>
+<li><a href="section04.05.html">5. Derivatives of the Trigonometric Functions</a></li>
+<li><a href="section04.06.html">6. Exponential and Logarithmic functions</a></li>
+<li><a href="section04.07.html">7. Derivatives of the exponential and  logarithmic functions</a></li>
+<li><a href="section04.08.html">8. Implicit Differentiation</a></li>
+<li><a href="section04.09.html">9. Inverse Trigonometric Functions</a></li>
+<li><a href="section04.10.html">10. Limits revisited</a></li>
+<li><a href="section04.11.html">11. Hyperbolic Functions</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_05_button" src="expand_submenu.png" onclick='toggle("chapter_05_contents")'><a href="chapter05.html">5 Curve Sketching</a></h2>
+
+<ul class="list" id="chapter_05_contents">
+<li><a href="section05.01.html">1. Maxima and Minima</a></li>
+<li><a href="section05.02.html">2. The first derivative test</a></li>
+<li><a href="section05.03.html">3. The second derivative test</a></li>
+<li><a href="section05.04.html">4. Concavity and inflection points</a></li>
+<li><a href="section05.05.html">5. Asymptotes and Other Things to Look For</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_06_button" src="expand_submenu.png" onclick='toggle("chapter_06_contents")'><a href="chapter06.html">6 Applications of the Derivative</a></h2>
+
+<ul class="list" id="chapter_06_contents">
+<li><a href="section06.01.html">1. Optimization</a></li>
+<li><a href="section06.02.html">2. Related Rates</a></li>
+<li><a href="section06.03.html">3. Newton's Method</a></li>
+<li><a href="section06.04.html">4. Linear Approximations</a></li>
+<li><a href="section06.05.html">5. The Mean Value Theorem</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_07_button" src="expand_submenu.png" onclick='toggle("chapter_07_contents")'><a href="chapter07.html">7 Integration</a></h2>
+
+<ul class="list" id="chapter_07_contents">
+<li><a href="section07.01.html">1. Two examples</a></li>
+<li><a href="section07.02.html">2. The Fundamental Theorem of Calculus</a></li>
+<li><a href="section07.03.html">3. Some Properties of Integrals</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_08_button" src="expand_submenu.png" onclick='toggle("chapter_08_contents")'><a href="chapter08.html">8 Techniques of Integration</a></h2>
+
+<ul class="list" id="chapter_08_contents">
+<li><a href="section08.01.html">1. Substitution</a></li>
+<li><a href="section08.02.html">2. Powers of sine and cosine</a></li>
+<li><a href="section08.03.html">3. Trigonometric Substitutions</a></li>
+<li><a href="section08.04.html">4. Integration by Parts</a></li>
+<li><a href="section08.05.html">5. Rational Functions</a></li>
+<li><a href="section08.06.html">6. Numerical Integration</a></li>
+<li><a href="section08.07.html">7. Additional exercises</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_09_button" src="expand_submenu.png" onclick='toggle("chapter_09_contents")'><a href="chapter09.html">9 Applications of Integration</a></h2>
+
+<ul class="list" id="chapter_09_contents">
+<li><a href="section09.01.html">1. Area between curves</a></li>
+<li><a href="section09.02.html">2. Distance, Velocity, Acceleration</a></li>
+<li><a href="section09.03.html">3. Volume</a></li>
+<li><a href="section09.04.html">4. Average value of a function</a></li>
+<li><a href="section09.05.html">5. Work</a></li>
+<li><a href="section09.06.html">6. Center of Mass</a></li>
+<li><a href="section09.07.html">7. Kinetic energy; improper integrals</a></li>
+<li><a href="section09.08.html">8. Probability</a></li>
+<li><a href="section09.09.html">9. Arc Length</a></li>
+<li><a href="section09.10.html">10. Surface Area</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_10_button" src="expand_submenu.png" onclick='toggle("chapter_10_contents")'><a href="chapter10.html">10 Polar Coordinates,  Parametric Equations</a></h2>
+
+<ul class="list" id="chapter_10_contents">
+<li><a href="section10.01.html">1. Polar Coordinates</a></li>
+<li><a href="section10.02.html">2. Slopes in polar coordinates</a></li>
+<li><a href="section10.03.html">3. Areas in polar coordinates</a></li>
+<li><a href="section10.04.html">4. Parametric Equations</a></li>
+<li><a href="section10.05.html">5. Calculus with Parametric Equations</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_11_button" src="expand_submenu.png" onclick='toggle("chapter_11_contents")'><a href="chapter11.html">11 Sequences and Series</a></h2>
+
+<ul class="list" id="chapter_11_contents">
+<li><a href="section11.01.html">1. Sequences</a></li>
+<li><a href="section11.02.html">2. Series</a></li>
+<li><a href="section11.03.html">3. The Integral Test</a></li>
+<li><a href="section11.04.html">4. Alternating Series</a></li>
+<li><a href="section11.05.html">5. Comparison Tests</a></li>
+<li><a href="section11.06.html">6. Absolute Convergence</a></li>
+<li><a href="section11.07.html">7. The Ratio and Root Tests</a></li>
+<li><a href="section11.08.html">8. Power Series</a></li>
+<li><a href="section11.09.html">9. Calculus with Power Series</a></li>
+<li><a href="section11.10.html">10. Taylor Series</a></li>
+<li><a href="section11.11.html">11. Taylor's Theorem</a></li>
+<li><a href="section11.12.html">12. Additional exercises</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_12_button" src="expand_submenu.png" onclick='toggle("chapter_12_contents")'><a href="chapter12.html">12 Three Dimensions</a></h2>
+
+<ul class="list" id="chapter_12_contents">
+<li><a href="section12.01.html">1. The Coordinate System</a></li>
+<li><a href="section12.02.html">2. Vectors</a></li>
+<li><a href="section12.03.html">3. The Dot Product</a></li>
+<li><a href="section12.04.html">4. The Cross Product</a></li>
+<li><a href="section12.05.html">5. Lines and Planes</a></li>
+<li><a href="section12.06.html">6. Other Coordinate Systems</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_13_button" src="expand_submenu.png" onclick='toggle("chapter_13_contents")'><a href="chapter13.html">13 Vector Functions</a></h2>
+
+<ul class="list" id="chapter_13_contents">
+<li><a href="section13.01.html">1. Space Curves</a></li>
+<li><a href="section13.02.html">2. Calculus with vector functions</a></li>
+<li><a href="section13.03.html">3. Arc length and curvature</a></li>
+<li><a href="section13.04.html">4. Motion along a curve</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_14_button" src="expand_submenu.png" onclick='toggle("chapter_14_contents")'><a href="chapter14.html">14 Partial Differentiation</a></h2>
+
+<ul class="list" id="chapter_14_contents">
+<li><a href="section14.01.html">1. Functions of Several Variables</a></li>
+<li><a href="section14.02.html">2. Limits and Continuity</a></li>
+<li><a href="section14.03.html">3. Partial Differentiation</a></li>
+<li><a href="section14.04.html">4. The Chain Rule</a></li>
+<li><a href="section14.05.html">5. Directional Derivatives</a></li>
+<li><a href="section14.06.html">6. Higher order derivatives</a></li>
+<li><a href="section14.07.html">7. Maxima and minima</a></li>
+<li><a href="section14.08.html">8. Lagrange Multipliers</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_15_button" src="expand_submenu.png" onclick='toggle("chapter_15_contents")'><a href="chapter15.html">15 Multiple Integration</a></h2>
+
+<ul class="list" id="chapter_15_contents">
+<li><a href="section15.01.html">1. Volume and Average Height</a></li>
+<li><a href="section15.02.html">2. Double Integrals in Cylindrical Coordinates</a></li>
+<li><a href="section15.03.html">3. Moment and Center of Mass</a></li>
+<li><a href="section15.04.html">4. Surface Area</a></li>
+<li><a href="section15.05.html">5. Triple Integrals</a></li>
+<li><a href="section15.06.html">6. Cylindrical and Spherical Coordinates</a></li>
+<li><a href="section15.07.html">7. Change of Variables</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_16_button" src="expand_submenu.png" onclick='toggle("chapter_16_contents")'><a href="chapter16.html">16 Vector Calculus</a></h2>
+
+<ul class="list" id="chapter_16_contents">
+<li><a href="section16.01.html">1. Vector Fields</a></li>
+<li><a href="section16.02.html">2. Line Integrals</a></li>
+<li><a href="section16.03.html">3. The Fundamental Theorem of Line Integrals</a></li>
+<li><a href="section16.04.html">4. Green's Theorem</a></li>
+<li><a href="section16.05.html">5. Divergence and Curl</a></li>
+<li><a href="section16.06.html">6. Vector Functions for Surfaces</a></li>
+<li><a href="section16.07.html">7. Surface Integrals</a></li>
+<li><a href="section16.08.html">8. Stokes's Theorem</a></li>
+<li><a href="section16.09.html">9. The Divergence Theorem</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_17_button" src="expand_submenu.png" onclick='toggle("chapter_17_contents")'><a href="chapter17.html">17 Differential Equations</a></h2>
+
+<ul class="list" id="chapter_17_contents">
+<li><a href="section17.01.html">1. First Order Differential Equations</a></li>
+<li><a href="section17.02.html">2. First Order Homogeneous Linear Equations</a></li>
+<li><a href="section17.03.html">3. First Order Linear Equations</a></li>
+<li><a href="section17.04.html">4. Approximation</a></li>
+<li><a href="section17.05.html">5. Second Order Homogeneous Equations</a></li>
+<li><a href="section17.06.html">6. Second Order Linear Equations</a></li>
+<li><a href="section17.07.html">7. Second Order Linear Equations, take two</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_18_button" src="expand_submenu.png" onclick='toggle("chapter_18_contents")'><a href="chapter18.html">18 Useful formulas</a></h2>
+
+<ul class="list" id="chapter_18_contents">
+</ul>
+
+</div>
+
+<div id="main">
+
+<div id="next">&nbsp;&nbsp;<a href="section01.01.html"><img src=next_section.png width="30"></a></div>
+
+<div id="content">
+<p>
+<p>
+
+Much of the mathematics in this chapter will be review for you.  However, the
+examples will be oriented toward applications and so 
+will take some thought.
+</p><p>
+In the $(x,y)$ coordinate system we normally write the $x$-axis
+horizontally, with positive numbers to the right of the origin, and
+the $y$-axis vertically, with positive numbers above the origin.  That
+is, unless stated otherwise, we take "rightward'' to be the positive
+$x$-direction and "upward'' to be the positive $y$-direction.  In a
+purely mathematical situation, we normally choose the same scale for
+the $x$- and $y$-axes.  For example, the line joining the origin to
+the point $(a,a)$ makes an angle of 45${}^\circ$ with the $x$-axis
+(and also with the $y$-axis).
+</p><p>
+In applications, often letters other than $x$ and $y$ are used, and
+often different scales are chosen in the horizontal and vertical
+directions.  For example, suppose you drop something from a window,
+and you want to study how its height above the ground changes from
+second to second.  It is natural to let the letter $t$ denote the time
+(the number of seconds since the object was released) and to let the
+letter $h$ denote the height.  For each $t$ (say, at one-second
+intervals) you have a corresponding height $h$.  This information can
+be tabulated, and then plotted on the $(t,h)$ coordinate plane, as
+shown in figure <a href="chapter01.html#fig:data plot">1.0.1</a>.
+</p><p>
+<a id="fig:data plot"></a>
+</p><div class='figure'><!-- Analytic_geometry-ht_vs_time.html -->
+<!-- Figure 1.1 -->
+<table width="100%">
+<tr width="100%">
+  <table width="100%" border>
+  <tr>
+    <th>seconds</th> <td align="center"> 0 </td> <td align="center">1 </td>
+    <td align="center"> 2</td> <td align="center">  3</td> <td align="center"> 4</td> 
+ </tr>
+ <tr>
+  <th> meters</th> <td align="center"> 80 </td> <td align="center"> 75.1
+  </td> <td align="center"> 60.4 </td> <td align="center"> 35.9 </td> <td
+  align="center"> 1.6 </td>
+ </tr>
+ </table>
+</tr>
+<tr width="100%"> <td align="center" colspan="6">
+  <div id="height_vs_time" class="jxgbox"></div>
+  </td> 
+</tr>
+</table>
+
+<script type="text/javascript">
+(function () {  // BEGIN: scope limiting function wrapper
+  var xmin=-0.5, xmax= 4.5, ymin=-10, ymax=90;
+  //var AspectRatio = ((ymax-ymin)/(xmax-xmin)); // height/width
+  var AspectRatio = (0.5); // height/width
+  var wd=document.getElementById('height_vs_time').offsetWidth;
+  var ht=wd*AspectRatio;
+  var yfactor = (ymax-ymin)/(ht);
+  var xfactor = (xmax-xmin)/(wd);
+  var xaxis_label_offset = yfactor*15;
+  var yaxis_label_offset = xfactor*20;
+  document.getElementById('height_vs_time').style.height=ht+'px';
+  var brd = JXG.JSXGraph.initBoard('height_vs_time', {axis:true, boundingbox: [-0.5,90, 4.5, -10], showCopyright:false, showNavigation:false, grid:false});
+  var f = function(x){ if(x>=0 && x<=4) return -4.9*x*x +80; }
+  var plot = brd.create('functiongraph',[f], {strokeWidth:2});
+  brd.create('point', [0,80] ,
+    {name:'$t=0$',fillColor:'black',strokeColor:'black',fixed:true});
+  brd.create('point', [1,75.1] ,
+    {name:'$t=1$',fillColor:'black',strokeColor:'black',fixed:true});
+  brd.create('point', [2,60.4] ,
+    {name:'$t=2$',fillColor:'black',strokeColor:'black',fixed:true});
+  brd.create('point', [3,35.9] ,
+    {name:'$t=3$',fillColor:'black',strokeColor:'black',fixed:true});
+  brd.create('point', [4,1.6] ,
+    {name:'$t=4$',fillColor:'black',strokeColor:'black',fixed:true});
+  brd.update();
+ })(); // END: scope limiting function wrapper
+</script>
+<div class='figcaption'><span class="figurenumber">Figure 1.0.1.</span> A data plot, height versus time.</div></div>
+<p>
+</p><p>
+We use the word "quadrant'' for each of the four regions into which
+the plane is divided by the axes: the first quadrant is where points
+have both coordinates positive, or the "northeast'' portion of the
+plot, and the second, third, and fourth quadrants are counted off
+counterclockwise, so the second quadrant is the northwest, the third
+is the southwest, and the fourth is the southeast.
+</p><p>
+Suppose we have two points $A$ and $B$ in the $(x,y)$-plane.
+We often want to know the change in $x$-coordinate (also called the
+"horizontal distance'') in going from $A$ to $B$.  This is often
+written $\Delta x$, where the meaning of $\Delta$ (a capital delta in
+the Greek alphabet) is "change in''. (Thus, $\Delta x$ can be read as
+"change in $x$'' although it usually is read as "delta $x$''. The
+point is that $\Delta x$ denotes a single number, and should not be
+interpreted as "delta times $x$''.)  
+For example, if $A=(2,1)$ and $B=(3,3)$, $\Delta
+x=3-2=1$.  Similarly, the "change in $y$'' is written $\Delta y$.  In
+our example, $\Delta y= 3-1=2$, the difference between the
+$y$-coordinates of the two points.  It is the vertical distance you
+have to move in going from $A$ to $B$.  The general formulas for the
+change in $x$ and the change in $y$ between a point $(x_1,y_1)$ and a
+point $(x_2,y_2)$ are:
+$$
+\Delta x=x_2-x_1,\qquad\qquad\Delta y=y_2-y_1.
+$$
+Note that either or both of these might be negative.
+</p><p>
+
+<h3><a href="section01.01.html">1. Lines</a></h3>
+
+<h3><a href="section01.02.html">2. Distance Between Two Points; Circles</a></h3>
+
+<h3><a href="section01.03.html">3. Functions</a></h3>
+
+<h3><a href="section01.04.html">4. Shifts and Dilations</a></h3>
+
+</div>
+</div>
+</body>

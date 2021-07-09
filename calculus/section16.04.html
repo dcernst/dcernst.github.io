@@ -1,0 +1,752 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+<meta http-equiv="Content-Language" Content="en">
+<title>16.4 Green's Theorem</title>
+<!--
+<script type="text/javascript" src="js/deployJava.js"></script>
+<link rel="stylesheet" type="text/css" href="http://jsxgraph.uni-bayreuth.de/distrib/jsxgraph.css" />
+-->
+<!-- use Jsxgraph to create figures: http://jsxgraph.uni-bayreuth.de/wp/ -->
+<link rel="stylesheet" type="text/css" href="css/jsxgraph.css" />
+<script type="text/javascript" src="js/jsxgraphcore.js"></script>
+<script src="js/three.min.js"></script>
+<script src="js/Detector.js"></script>
+<script src="js/TrackballControls.js"></script>
+<script src="js/OrthographicTrackballControls.js"></script>
+<script src="js/THREEx.KeyboardState.js"></script>
+<script src="js/THREEx.FullScreen.js"></script>
+<script src="js/THREEx.WindowResize.js"></script>
+<script type='text/javascript' src='js/DAT.GUI.min.js'></script>
+<script>
+window.requestAnimFrame = (function(){
+    return  window.requestAnimationFrame       || 
+        window.webkitRequestAnimationFrame || 
+        window.mozRequestAnimationFrame    || 
+        window.oRequestAnimationFrame      || 
+        window.msRequestAnimationFrame     || 
+        function(/* function */ callback, /* DOMElement */
+            element){
+            window.setTimeout(callback, 1000 / 60);
+        };
+})();
+</script>
+<script src="js/ifvisible.min.js"></script>
+<script src="js/conrec.js"></script>
+<script>
+active = true;
+ifvisible.setIdleDuration(10);
+ifvisible.on("idle", function(){
+    active = false;
+//    console.log("idle");
+});
+
+ifvisible.on("wakeup", function(){
+    active = true;
+//    console.log("wakeup");
+});
+</script>
+<script src="js/parser.js"></script>
+<link href="css/whitman.css" rel="stylesheet" type="text/css" /><link href="css/calculus.css" rel="stylesheet" type="text/css" /><link href="css/knowlstyle.css" rel="stylesheet" type="text/css" />
+
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  extensions: ["tex2jax.js","TeX/AMSmath.js","TeX/AMSsymbols.js"],
+  jax: ["input/TeX","output/HTML-CSS"],
+  tex2jax: {
+    inlineMath: [['$','$'],["\\(","\\)"]],
+    processEscapes: true,
+  },
+TeX: {
+   Macros: {
+    val: "\\mathop{\\rm val}",
+    divides: "\\mid",
+    ndivides: "\\mathrel{\\not|}",
+    fix: "\\mathop{\\rm fix}",
+    id: "\\mathop{\\rm id}",
+    na: "\\mathop{\\rm na}",
+    d: "\\mathop{\\rm\\strut d}\\nolimits ",
+    legendre: ["\\left(\\frac{#1}{#2}\\right)",2],
+    normalbaselines: "",
+    notdiv: "\\nmid",
+    implies: "\\Rightarrow",
+    iff: "\\Leftrightarrow",
+    sevenpoint: "\\scriptsize",
+    ds: "\\displaystyle",
+    lcm: "\\operatorname{lcm}",
+    arccot: "\\operatorname{arccot}",
+    arcsec: "\\operatorname{arcsec}",
+    arccsc: "\\operatorname{arccsc}",
+    arccosh: "\\operatorname{arccosh}",
+    arcsinh: "\\operatorname{arcsinh}",
+    arcsech: "\\operatorname{arcsech}",
+    sech: "\\operatorname{sech}",
+    csch: "\\operatorname{csch}",
+    R: "{\\mathbb R}",
+    sb: "_",
+    sp: "^",
+    Q: "{\\mathbb Q}",
+    C: "{\\mathbb C}",
+    N: "{\\mathbb N}",
+    Z: "{\\mathbb Z}",
+    U: "{\\mathbb U}",
+    v: ["\\langle #1\\rangle",1],
+    dint: ["{\\mathchoice{\\mathop{\\int\\!\\!\\!\\int}_{#1}}{\\mathop{\\int\\!\\!\\!\\int}_{#1}}{\\mathop{\\int\\!\\!\\!\\int}}{\\mathop{\\int\\!\\!\\!\\int}}}",1],
+    tint: ["{\\mathchoice{\\mathop{\\int\\!\\!\\!\\int\\!\\!\\!\\int}_{#1\\;}}{\\mathop{\\int\\!\\!\\!\\int\\!\\!\\!\\int}_{#1}}{\\mathop{\\int\\!\\!\\!\\int\\!\\!\\!\\int}_{#1}}{\\mathop{\\int\\!\\!\\!\\int\\!\\!\\!\\int}_{#1}}}",1]
+   }
+},
+  "HTML-CSS": { scale: 100},
+  menuSettings: { zscale: "150%", zoom: "Double-Click" }
+});
+    JXG.Options.text.display = 'html';
+    JXG.Options.text.useMathJax = true;
+</script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/math
+jax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+<script>
+MathJax.Hub.Register.StartupHook("End",function () {
+  if(typeof window.orientation === 'undefined'){
+    var i,x;
+    x = document.getElementsByClassName("webgl_display");
+    for (i=0; i<x.length; i++) {
+      x[i].style.display = "block";
+    }
+    x = document.getElementsByClassName("no_webgl_display");
+    for (i=0; i<x.length; i++) {
+      x[i].style.display = "none";
+    }
+  }
+});
+</script>
+
+<script src="js/jquery-3.1.0.min.js"></script>
+<script src="https://sagecell.sagemath.org/static/embedded_sagecell.js"></script>
+<script src="js/jquery.visible.min.js"></script>
+<script type="text/javascript" src="js/knowl.js"></script>
+<style type="text/css">
+
+.sagecell .CodeMirror {
+  height: auto;
+}
+
+.sagecell .CodeMirror-scroll {
+  overflow-y: hidden;
+  overflow-x: auto;
+}
+
+.sagecell-practice .CodeMirror-scroll {
+}
+
+.sagecell button.sagecell_evalButton {
+    font-size: 50%;
+}
+
+.sagecell_sessionContainer {
+    margin-bottom:1em;
+}
+</style>
+<script>
+function toggle(a) {
+  var b = String(a);
+  b=b.replace("contents","button");
+  if (document.getElementById(a).style.display == "block") {
+    document.getElementById(a).style.display = "none";
+    document.getElementById(b).src = "expand_submenu.png";
+  } else {
+    document.getElementById(a).style.display = "block";
+    document.getElementById(b).src = "collapse_submenu.png";
+  }
+}
+function toggle_sidebar() {
+  if (document.getElementById('sidebar').style.display == "block") {
+    document.getElementById('sidebar').style.display = "none";
+    document.getElementById('menu_expand').style.display = "block";
+  } else {
+    document.getElementById('sidebar').style.display = "block";
+    document.getElementById('menu_expand').style.display = "none";
+  }
+}
+</script>
+
+</head>
+
+<body class="" onload="toggle('chapter_16_contents')">
+<div id="header">
+<div class="right">
+<div class="bread">
+  <a href=".">Home</a> &raquo; <a href="chapter16.html">Vector Calculus</a> &raquo; <a href="section16.04.html">Green's Theorem</a>
+</div>
+
+<FORM method=GET action=https://www.google.com/custom id="search">
+<INPUT TYPE=text name=q size=31 maxlength=255 value="" style="font-size:small">
+<INPUT type=submit name=sa VALUE="Search the book" style="font-size:small">
+<INPUT type=hidden name=cof VALUE="AH:center;AWFID:198dc2b883340b1f;">
+<input type=hidden name=domains value="www.whitman.edu">
+<input type=hidden name=sitesearch value="www.whitman.edu/mathematics/calculus_online/">
+</FORM>
+<div id="title"><span id="title-content">16.4 Green's Theorem</span></div><a href="#exercises">[Jump to exercises]</a>
+</div>
+</div>
+<div id="menu_expand" style="display:none"><a href="javascript:toggle_sidebar()">Expand menu</a></div>
+<div id="sidebar" style="display:block">
+<h2 id="menu_collapse"><a href='javascript:toggle_sidebar()'>Collapse menu</a></h2>
+<h2 class="link"><img id="chapter_01_button" src="expand_submenu.png" onclick='toggle("chapter_01_contents")'><a href="chapter01.html">1 Analytic Geometry</a></h2>
+
+<ul class="list" id="chapter_01_contents">
+<li><a href="section01.01.html">1. Lines</a></li>
+<li><a href="section01.02.html">2. Distance Between Two Points; Circles</a></li>
+<li><a href="section01.03.html">3. Functions</a></li>
+<li><a href="section01.04.html">4. Shifts and Dilations</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_02_button" src="expand_submenu.png" onclick='toggle("chapter_02_contents")'><a href="chapter02.html">2 Instantaneous Rate of Change:  The Derivative</a></h2>
+
+<ul class="list" id="chapter_02_contents">
+<li><a href="section02.01.html">1. The slope of a function</a></li>
+<li><a href="section02.02.html">2. An example</a></li>
+<li><a href="section02.03.html">3. Limits</a></li>
+<li><a href="section02.04.html">4. The Derivative Function</a></li>
+<li><a href="section02.05.html">5. Adjectives For Functions</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_03_button" src="expand_submenu.png" onclick='toggle("chapter_03_contents")'><a href="chapter03.html">3 Rules for Finding Derivatives</a></h2>
+
+<ul class="list" id="chapter_03_contents">
+<li><a href="section03.01.html">1. The Power Rule</a></li>
+<li><a href="section03.02.html">2. Linearity of the Derivative</a></li>
+<li><a href="section03.03.html">3. The Product Rule</a></li>
+<li><a href="section03.04.html">4. The Quotient Rule</a></li>
+<li><a href="section03.05.html">5. The Chain Rule</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_04_button" src="expand_submenu.png" onclick='toggle("chapter_04_contents")'><a href="chapter04.html">4 Transcendental Functions</a></h2>
+
+<ul class="list" id="chapter_04_contents">
+<li><a href="section04.01.html">1. Trigonometric Functions</a></li>
+<li><a href="section04.02.html">2. The Derivative of $\sin x$</a></li>
+<li><a href="section04.03.html">3. A hard limit</a></li>
+<li><a href="section04.04.html">4. The Derivative of $\sin x$, continued</a></li>
+<li><a href="section04.05.html">5. Derivatives of the Trigonometric Functions</a></li>
+<li><a href="section04.06.html">6. Exponential and Logarithmic functions</a></li>
+<li><a href="section04.07.html">7. Derivatives of the exponential and  logarithmic functions</a></li>
+<li><a href="section04.08.html">8. Implicit Differentiation</a></li>
+<li><a href="section04.09.html">9. Inverse Trigonometric Functions</a></li>
+<li><a href="section04.10.html">10. Limits revisited</a></li>
+<li><a href="section04.11.html">11. Hyperbolic Functions</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_05_button" src="expand_submenu.png" onclick='toggle("chapter_05_contents")'><a href="chapter05.html">5 Curve Sketching</a></h2>
+
+<ul class="list" id="chapter_05_contents">
+<li><a href="section05.01.html">1. Maxima and Minima</a></li>
+<li><a href="section05.02.html">2. The first derivative test</a></li>
+<li><a href="section05.03.html">3. The second derivative test</a></li>
+<li><a href="section05.04.html">4. Concavity and inflection points</a></li>
+<li><a href="section05.05.html">5. Asymptotes and Other Things to Look For</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_06_button" src="expand_submenu.png" onclick='toggle("chapter_06_contents")'><a href="chapter06.html">6 Applications of the Derivative</a></h2>
+
+<ul class="list" id="chapter_06_contents">
+<li><a href="section06.01.html">1. Optimization</a></li>
+<li><a href="section06.02.html">2. Related Rates</a></li>
+<li><a href="section06.03.html">3. Newton's Method</a></li>
+<li><a href="section06.04.html">4. Linear Approximations</a></li>
+<li><a href="section06.05.html">5. The Mean Value Theorem</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_07_button" src="expand_submenu.png" onclick='toggle("chapter_07_contents")'><a href="chapter07.html">7 Integration</a></h2>
+
+<ul class="list" id="chapter_07_contents">
+<li><a href="section07.01.html">1. Two examples</a></li>
+<li><a href="section07.02.html">2. The Fundamental Theorem of Calculus</a></li>
+<li><a href="section07.03.html">3. Some Properties of Integrals</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_08_button" src="expand_submenu.png" onclick='toggle("chapter_08_contents")'><a href="chapter08.html">8 Techniques of Integration</a></h2>
+
+<ul class="list" id="chapter_08_contents">
+<li><a href="section08.01.html">1. Substitution</a></li>
+<li><a href="section08.02.html">2. Powers of sine and cosine</a></li>
+<li><a href="section08.03.html">3. Trigonometric Substitutions</a></li>
+<li><a href="section08.04.html">4. Integration by Parts</a></li>
+<li><a href="section08.05.html">5. Rational Functions</a></li>
+<li><a href="section08.06.html">6. Numerical Integration</a></li>
+<li><a href="section08.07.html">7. Additional exercises</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_09_button" src="expand_submenu.png" onclick='toggle("chapter_09_contents")'><a href="chapter09.html">9 Applications of Integration</a></h2>
+
+<ul class="list" id="chapter_09_contents">
+<li><a href="section09.01.html">1. Area between curves</a></li>
+<li><a href="section09.02.html">2. Distance, Velocity, Acceleration</a></li>
+<li><a href="section09.03.html">3. Volume</a></li>
+<li><a href="section09.04.html">4. Average value of a function</a></li>
+<li><a href="section09.05.html">5. Work</a></li>
+<li><a href="section09.06.html">6. Center of Mass</a></li>
+<li><a href="section09.07.html">7. Kinetic energy; improper integrals</a></li>
+<li><a href="section09.08.html">8. Probability</a></li>
+<li><a href="section09.09.html">9. Arc Length</a></li>
+<li><a href="section09.10.html">10. Surface Area</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_10_button" src="expand_submenu.png" onclick='toggle("chapter_10_contents")'><a href="chapter10.html">10 Polar Coordinates,  Parametric Equations</a></h2>
+
+<ul class="list" id="chapter_10_contents">
+<li><a href="section10.01.html">1. Polar Coordinates</a></li>
+<li><a href="section10.02.html">2. Slopes in polar coordinates</a></li>
+<li><a href="section10.03.html">3. Areas in polar coordinates</a></li>
+<li><a href="section10.04.html">4. Parametric Equations</a></li>
+<li><a href="section10.05.html">5. Calculus with Parametric Equations</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_11_button" src="expand_submenu.png" onclick='toggle("chapter_11_contents")'><a href="chapter11.html">11 Sequences and Series</a></h2>
+
+<ul class="list" id="chapter_11_contents">
+<li><a href="section11.01.html">1. Sequences</a></li>
+<li><a href="section11.02.html">2. Series</a></li>
+<li><a href="section11.03.html">3. The Integral Test</a></li>
+<li><a href="section11.04.html">4. Alternating Series</a></li>
+<li><a href="section11.05.html">5. Comparison Tests</a></li>
+<li><a href="section11.06.html">6. Absolute Convergence</a></li>
+<li><a href="section11.07.html">7. The Ratio and Root Tests</a></li>
+<li><a href="section11.08.html">8. Power Series</a></li>
+<li><a href="section11.09.html">9. Calculus with Power Series</a></li>
+<li><a href="section11.10.html">10. Taylor Series</a></li>
+<li><a href="section11.11.html">11. Taylor's Theorem</a></li>
+<li><a href="section11.12.html">12. Additional exercises</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_12_button" src="expand_submenu.png" onclick='toggle("chapter_12_contents")'><a href="chapter12.html">12 Three Dimensions</a></h2>
+
+<ul class="list" id="chapter_12_contents">
+<li><a href="section12.01.html">1. The Coordinate System</a></li>
+<li><a href="section12.02.html">2. Vectors</a></li>
+<li><a href="section12.03.html">3. The Dot Product</a></li>
+<li><a href="section12.04.html">4. The Cross Product</a></li>
+<li><a href="section12.05.html">5. Lines and Planes</a></li>
+<li><a href="section12.06.html">6. Other Coordinate Systems</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_13_button" src="expand_submenu.png" onclick='toggle("chapter_13_contents")'><a href="chapter13.html">13 Vector Functions</a></h2>
+
+<ul class="list" id="chapter_13_contents">
+<li><a href="section13.01.html">1. Space Curves</a></li>
+<li><a href="section13.02.html">2. Calculus with vector functions</a></li>
+<li><a href="section13.03.html">3. Arc length and curvature</a></li>
+<li><a href="section13.04.html">4. Motion along a curve</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_14_button" src="expand_submenu.png" onclick='toggle("chapter_14_contents")'><a href="chapter14.html">14 Partial Differentiation</a></h2>
+
+<ul class="list" id="chapter_14_contents">
+<li><a href="section14.01.html">1. Functions of Several Variables</a></li>
+<li><a href="section14.02.html">2. Limits and Continuity</a></li>
+<li><a href="section14.03.html">3. Partial Differentiation</a></li>
+<li><a href="section14.04.html">4. The Chain Rule</a></li>
+<li><a href="section14.05.html">5. Directional Derivatives</a></li>
+<li><a href="section14.06.html">6. Higher order derivatives</a></li>
+<li><a href="section14.07.html">7. Maxima and minima</a></li>
+<li><a href="section14.08.html">8. Lagrange Multipliers</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_15_button" src="expand_submenu.png" onclick='toggle("chapter_15_contents")'><a href="chapter15.html">15 Multiple Integration</a></h2>
+
+<ul class="list" id="chapter_15_contents">
+<li><a href="section15.01.html">1. Volume and Average Height</a></li>
+<li><a href="section15.02.html">2. Double Integrals in Cylindrical Coordinates</a></li>
+<li><a href="section15.03.html">3. Moment and Center of Mass</a></li>
+<li><a href="section15.04.html">4. Surface Area</a></li>
+<li><a href="section15.05.html">5. Triple Integrals</a></li>
+<li><a href="section15.06.html">6. Cylindrical and Spherical Coordinates</a></li>
+<li><a href="section15.07.html">7. Change of Variables</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_16_button" src="expand_submenu.png" onclick='toggle("chapter_16_contents")'><a href="chapter16.html">16 Vector Calculus</a></h2>
+
+<ul class="list" id="chapter_16_contents">
+<li><a href="section16.01.html">1. Vector Fields</a></li>
+<li><a href="section16.02.html">2. Line Integrals</a></li>
+<li><a href="section16.03.html">3. The Fundamental Theorem of Line Integrals</a></li>
+<li><a href="section16.04.html">4. Green's Theorem</a></li>
+<li><a href="section16.05.html">5. Divergence and Curl</a></li>
+<li><a href="section16.06.html">6. Vector Functions for Surfaces</a></li>
+<li><a href="section16.07.html">7. Surface Integrals</a></li>
+<li><a href="section16.08.html">8. Stokes's Theorem</a></li>
+<li><a href="section16.09.html">9. The Divergence Theorem</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_17_button" src="expand_submenu.png" onclick='toggle("chapter_17_contents")'><a href="chapter17.html">17 Differential Equations</a></h2>
+
+<ul class="list" id="chapter_17_contents">
+<li><a href="section17.01.html">1. First Order Differential Equations</a></li>
+<li><a href="section17.02.html">2. First Order Homogeneous Linear Equations</a></li>
+<li><a href="section17.03.html">3. First Order Linear Equations</a></li>
+<li><a href="section17.04.html">4. Approximation</a></li>
+<li><a href="section17.05.html">5. Second Order Homogeneous Equations</a></li>
+<li><a href="section17.06.html">6. Second Order Linear Equations</a></li>
+<li><a href="section17.07.html">7. Second Order Linear Equations, take two</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_18_button" src="expand_submenu.png" onclick='toggle("chapter_18_contents")'><a href="chapter18.html">18 Useful formulas</a></h2>
+
+<ul class="list" id="chapter_18_contents">
+</ul>
+
+</div>
+
+<div id="main">
+
+<div id="next"><a href="section16.03.html"><img src=previous_section.png width="30"></a>&nbsp;&nbsp;<a href="section16.05.html"><img src=next_section.png width="30"></a></div>
+
+<div id="content">
+<p>
+
+
+</p><p>
+We now come to the first of three important theorems that extend the
+Fundamental Theorem of Calculus to higher dimensions. (The Fundamental
+Theorem of Line Integrals has already done this in one way, but in
+that case we were still dealing with an essentially one-dimensional
+integral.) They all share with the Fundamental Theorem the following
+rather vague description: <em>To compute a certain sort of integral over a
+region, we may do a computation on the boundary of the region
+that involves one fewer integrations.</em>
+</p><p>
+Note that this does indeed describe the Fundamental Theorem of
+Calculus and the Fundamental Theorem of Line Integrals: to
+compute a single integral over an interval, we do a computation on the
+boundary (the endpoints) that involves one fewer integrations, namely,
+no integrations at all.
+</p><p>
+</p>
+<div class="theorem">
+<p>
+<span class="theoremlabel">Theorem 16.4.1 </span>(Green's Theorem) 
+<a id="thm:greens theorem"></a>
+If the vector field ${\bf F}=\langle
+P,Q\rangle$ and the region $D$ are sufficiently nice, and if $C$ is
+the boundary of $D$ ($C$ is a closed curve), then
+$$\dint{D} {\partial Q\over\partial x}
+-{\partial P\over\partial y} \,dA = \int_C P\,dx +Q\,dy ,$$
+provided the integration on the right is done counter-clockwise around
+$C$.
+
+</p>
+</div><!-- theorem -->
+<p>
+</p><p>
+To indicate that an integral $\ds\int_C$ is being done over a closed
+curve in the counter-clockwise direction, we usually write
+$\ds\oint_C$. We also use the notation $\partial D$ to mean the
+boundary of $D$ <b>oriented</b> in the
+counterclockwise direction. With this notation,
+$\ds\oint_C=\int_{\partial D}$.
+</p><p>
+We already know one case, not particularly interesting, in which this
+theorem is true: If $\bf F$ is conservative, we know that the integral
+$\ds\oint_C {\bf F}\cdot d{\bf r}=0$, because any integral of a
+conservative vector field around a closed curve is zero. We also know
+in this case that $\partial P/\partial y=\partial Q/\partial x$, so
+the double integral  in the theorem is simply the integral of the zero
+function, namely, 0. So in the case that $\bf F$ is conservative, the
+theorem says simply that $0=0$. 
+</p><p>
+</p>
+<div class="example">
+<p>
+<span class="theoremlabel">Example 16.4.2 </span>We illustrate the theorem by computing both sides of
+$$\int_{\partial D} x^4\,dx + xy\,dy=\dint{D} y-0\,dA,$$
+where $D$ is the triangular region with corners $(0,0)$, $(1,0)$,
+$(0,1)$. 
+</p><p>
+Starting with the double integral:
+$$\dint{D} y-0\,dA=\int_0^1\int_0^{1-x} y\,dy\,dx=
+\int_0^1
+{(1-x)^2\over2}\,dx=\left.-{(1-x)^3\over6}\right|_0^1={1\over6}.$$
+</p><p>
+There is no single formula to describe the boundary of $D$, so to
+compute the left side directly we need to compute three separate
+integrals corresponding to the three sides of the triangle, and each
+of these integrals we break into two integrals, the "$dx$'' part and
+the "$dy$'' part.
+The three sides are described by $y=0$, $y=1-x$, and $x=0$. The
+integrals are then
+$$\eqalign{
+\int_{\partial D}\!\!\! x^4\,dx + xy\,dy&=
+\int_0^1 x^4\,dx+\int_0^0 0\,dy+\int_1^0 x^4\,dx+\int_0^1 (1-y)y\,dy+
+\int_0^0 0\,dx+\int_1^0 0\,dy\cr
+&={1\over5}+0-{1\over5}+{1\over6}+0+0={1\over6}.\cr}
+$$
+</p><p>
+Alternately, we could describe the three sides in vector form as
+$\langle t,0\rangle$, $\langle 1-t,t\rangle$, and $\langle
+0,1-t\rangle$. Note that in each case, as $t$ ranges from 0 to 1, we
+follow the corresponding side in the correct direction. Now
+$$\eqalign{
+\int_{\partial D} x^4\,dx + xy\,dy&=
+\int_0^1 t^4 + t\cdot 0\,dt + \int_0^1 -(1-t)^4 + (1-t)t\,dt
++\int_0^1 0 + 0\,dt\cr
+&=\int_0^1 t^4\,dt + \int_0^1 -(1-t)^4 + (1-t)t\,dt
+={1\over6}.\cr
+}$$ 
+
+</p>
+</div><!-- example -->
+<p>
+</p><p>
+In this case, none of the integrations are difficult, but the second
+approach is somewhat tedious because of the necessity to set up three
+different integrals. In different circumstances, either of the
+integrals, the single or the double, might be easier to
+compute. Sometimes it is worthwhile to turn a single integral into the
+corresponding double integral, sometimes exactly the opposite approach
+is best.
+</p><p>
+Here is a clever use of Green's Theorem: We know that areas can be
+computed using double integrals, namely,
+$$\dint{D} 1\,dA$$
+computes the area of region $D$. If we can find $P$ and $Q$ so that
+$\partial Q/\partial x-\partial P/\partial y=1$, then the area is also
+$$\int_{\partial D} P\,dx+Q\,dy.$$
+It is quite easy to do this: $P=0,Q=x$ works, as do
+$P=-y, Q=0$ and $P=-y/2,Q=x/2$. 
+</p><p>
+</p>
+<div class="example">
+<p>
+<span class="theoremlabel">Example 16.4.3 </span>An ellipse centered at the origin, with its two principal axes
+aligned with the $x$ and $y$ axes, is given by
+$${x^2\over a^2}+{y^2\over b^2}=1.$$ We find the area of the interior
+of the ellipse
+via Green's theorem. To do this we need a vector equation for the
+boundary; one such equation is $\langle a\cos t,b\sin t\rangle$, as
+$t$ ranges from 0 to $2\pi$. We
+can easily verify this by substitution:
+$${x^2\over a^2}+{y^2\over b^2}=
+{a^2\cos^2 t\over a^2}+{b^2\sin^2t\over b^2}=
+\cos^2t+\sin^2t=1.$$
+Let's consider the three possibilities for $P$ and $Q$ above:
+Using 0 and $x$ gives
+$$\oint_C 0\,dx+x\,dy=\int_0^{2\pi} a\cos(t)b\cos(t)\,dt=
+\int_0^{2\pi} ab\cos^2(t)\,dt.$$
+Using $-y$ and 0 gives
+$$\oint_C -y\,dx+0\,dy=\int_0^{2\pi} -b\sin(t)(-a\sin(t))\,dt=
+\int_0^{2\pi} ab\sin^2(t)\,dt.$$
+Finally, using $-y/2$ and $x/2$ gives
+$$\eqalign{
+\oint_C -{y\over2}\,dx+{x\over2}\,dy&=
+\int_0^{2\pi} -{b\sin(t)\over2}(-a\sin(t))\,dt
++{a\cos(t)\over2}(b\cos(t))\,dt\cr
+&=\int_0^{2\pi} {ab\sin^2t\over2}+{ab\cos^2t\over2}\,dt=
+\int_0^{2\pi} {ab\over2}\,dt=\pi ab.\cr}$$
+The first two integrals are not particularly difficult, but the third
+is very easy, though the choice of $P$ and $Q$ seems more complicated.
+
+</p>
+</div><!-- example -->
+<p>
+</p><p>
+<a id="fig:standard ellipse"></a>
+</p><div class='figure'><!-- Multiple_integration-typical_ellipse.html -->
+<!-- Figure 16.4.1 -->
+<div id='typical_ellipse' class='jxgbox' style="width:60%"></div>
+
+<script type='text/javascript'>
+(function () {  // BEGIN: scope limiting function wrapper
+  var xmin=-4, xmax=4, ymin=-3, ymax=3;
+  var AspectRatio =  ((ymax-ymin)/(xmax-xmin)); // height/width
+  var wd=document.getElementById('typical_ellipse').offsetWidth;
+  var ht=wd*AspectRatio;
+  var yfactor = (ymax-ymin)/(ht);
+  var xfactor = (xmax-xmin)/(wd);
+  var xaxis_label_offset = yfactor*15;
+  var yaxis_label_offset = xfactor*20;
+  document.getElementById('typical_ellipse').style.height=ht+'px';
+  var brd = JXG.JSXGraph.initBoard('typical_ellipse',{boundingbox:[xmin,ymax,xmax,ymin], showCopyright:false, showNavigation:false}) ;
+  var rejax = function() {
+     MathJax.Hub.Queue(["Typeset",MathJax.Hub]); 
+  }
+  brd.addHook(rejax)
+
+  var xaxis = brd.create('arrow', [[-3.5,0], [3.5,0]],{strokeWidth:1,strokeColor:'black',fixed:true});
+  var yaxis = brd.create('arrow', [[0,-2.5],[0,2.5]],{strokeWidth:1,strokeColor:'black',fixed:true});
+  brd.create('text',[xfactor*5,2+yfactor*10,'$(0,b)$'],{fixed:true});
+  brd.create('text',[3+xfactor*5,-yfactor*10,'$(a,0)$'],{fixed:true});
+  var x = function(t) { return 3*Math.cos(t); }
+  var y = function(t) { return 2*Math.sin(t); }
+  brd.create('curve',[x,y,0,Math.PI*2],{fixed:true});
+})(); // END: scope limiting function wrapper
+</script>
+
+<div class='figcaption'><span class="figurenumber">Figure 16.4.1.</span> A "standard'' ellipse, ${x^2\over a^2}+{y^2\over b^2}=1$.</div></div>
+<p>
+</p><p>
+
+<div class="proof"><p><b>Proof of Green's Theorem.</b><br>
+We cannot here prove Green's Theorem in general, but we can do a
+special case. We seek to prove that 
+$$\oint_C P\,dx +Q\,dy = \dint{D} {\partial Q\over\partial x}
+-{\partial P\over\partial y} \,dA.$$
+It is sufficient to show that
+$$\oint_C P\,dx=\dint{D}-{\partial P\over\partial y} \,dA\qquad\hbox{and}
+\qquad\oint_C Q\,dy=\dint{D} {\partial Q\over\partial x}\,dA,$$
+which we can do if we can compute the double integral in both possible
+ways, that is, using $dA=dy\,dx$ and $dA=dx\,dy$.
+</p><p>
+For the first equation, we start with
+$$\dint{D}{\partial P\over\partial y}\,dA=
+\int_a^b\int_{g_1(x)}^{g_2(x)} {\partial P\over \partial y}\,dy\,dx=
+\int_a^b P(x,g_2(x))-P(x,g_1(x))\,dx.$$
+Here we have simply used the ordinary Fundamental Theorem of Calculus,
+since for the inner integral we are integrating a derivative with
+respect to $y$: an antiderivative of $\partial P/\partial y$ with
+respect to $y$ is simply $P(x,y)$, and then we substitute $g_1$ and
+$g_2$ for $y$ and subtract.
+</p><p>
+Now we need to manipulate $\oint_C P\,dx$. The boundary of region $D$
+consists of 4 parts, given by the equations $y=g_1(x)$, $x=b$,
+$y=g_2(x)$, and $x=a$. On the portions $x=b$ and $x=a$, $dx=0\,dt$, so
+the corresponding integrals are zero. For the other two portions, we
+use the parametric forms $x=t$, $y=g_1(t)$, $a\le t\le b$, and
+$x=t$, $y=g_2(t)$, letting $t$ range from $b$ to $a$, since we are
+integrating counter-clockwise around the boundary.
+The resulting integrals give us
+$$\eqalign{
+\oint_C P\,dx = \int_a^b P(t,g_1(t))\,dt+\int_b^a P(t,g_2(t))\,dt
+&=\int_a^b P(t,g_1(t))\,dt-\int_a^b P(t,g_2(t))\,dt\cr
+&=\int_a^b P(t,g_1(t))-P(t,g_2(t))\,dt\cr
+}$$
+which is the result of the double integral times $-1$, as desired.
+</p><p>
+The equation involving $Q$ is essentially the same, and left as an
+exercise.
+
+</p>
+</div>
+
+<div class="qed">$\square$</div>
+
+</p><p>
+</p>
+<a id="exercises"></a><h2 class="exercises">Exercises 16.4</h2>
+<p></p><p>
+</p>
+<p class="exercise"><b>Ex 16.4.1</b>
+Compute $\ds\int_{\partial D} 2y\,dx + 3x\,dy$, 
+where $D$ is described by $0\le x\le1$, $0\le y\le 1$.
+(<a knowl="" class="internal" value="$1$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 16.4.2</b>
+Compute $\ds\int_{\partial D} xy\,dx + xy\,dy$, 
+where $D$ is described by $0\le x\le1$, $0\le y\le 1$.
+(<a knowl="" class="internal" value="$0$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 16.4.3</b>
+Compute $\ds\int_{\partial D} e^{2x+3y}\,dx + e^{xy}\,dy$, 
+where $D$ is described by $-2\le x\le 2$, $-1\le y\le 1$.
+(<a knowl="" class="internal" value="$1/(2e)-1/(2e^7)+e/2-e^7/2$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 16.4.4</b>
+Compute $\ds\int_{\partial D} y\cos x\,dx + y\sin x\,dy$, 
+where $D$ is described by $0\le x\le \pi/2$, $1\le y\le 2$.
+(<a knowl="" class="internal" value="$1/2$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 16.4.5</b>
+Compute $\ds\int_{\partial D} x^2y\,dx + xy^2\,dy$, 
+where $D$ is described by $0\le x\le 1$, $0\le y\le x$.
+(<a knowl="" class="internal" value="$-1/6$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 16.4.6</b>
+Compute $\ds\int_{\partial D} x\sqrt{y}\,dx + \sqrt{x+y}\,dy$, 
+where $D$ is described by $1\le x\le 2$, $2x\le y\le 4$.
+(<a knowl="" class="internal" value="$(2\sqrt3-10\sqrt5+8\sqrt6)/3-2\sqrt2/5+1/5$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 16.4.7</b>
+Compute $\ds\int_{\partial D} (x/y)\,dx + (2+3x)\,dy$, 
+where $D$ is described by $1\le x\le 2$, $1\le y\le x^2$.
+(<a knowl="" class="internal" value="$11/2-\ln(2)$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 16.4.8</b>
+Compute $\ds\int_{\partial D} \sin y\,dx + \sin x\,dy$, 
+where $D$ is described by $0\le x\le \pi/2$, $x\le y\le \pi/2$.
+(<a knowl="" class="internal" value="$2-\pi/2$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 16.4.9</b>
+Compute $\ds\int_{\partial D} x\ln y\,dx$,
+where $D$ is described by $1\le x\le 2$, $\ds e^x\le y\le e^{x^2}$.
+(<a knowl="" class="internal" value="$-17/12$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 16.4.10</b>
+Compute $\ds\int_{\partial D} \sqrt{1+x^2}\,dy$, 
+where $D$ is described by $-1\le x\le 1$, $x^2\le y\le 1$.
+(<a knowl="" class="internal" value="$0$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 16.4.11</b>
+Compute $\ds\int_{\partial D} x^2y\,dx - xy^2\,dy$, 
+where $D$ is described by $x^2+y^2\le 1$.
+(<a knowl="" class="internal" value="$-\pi/2$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 16.4.12</b>
+Compute $\ds\int_{\partial D} y^3\,dx + 2x^3\,dy$, 
+where $D$ is described by $x^2+y^2\le 4$.
+(<a knowl="" class="internal" value="$12\pi$">answer</a>)
+
+</p><p>
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 16.4.13</b>
+Evaluate $\ds\oint_C (y-\sin(x))\,dx + \cos(x) \, dy$,
+where $C$ is the boundary of the triangle with vertices $(0,0)$,
+$(1,0)$, and $(1,2)$ oriented counter-clockwise.
+(<a knowl="" class="internal" value="$2\cos(1)-2\sin(1)-1$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 16.4.14</b>
+Finish our proof of Green's Theorem by showing that
+$\ds\oint_C Q\,dy=\dint{D} {\partial Q\over\partial x}\,dA$.
+
+</p><p>
+
+
+</div></div></body>
+</html>

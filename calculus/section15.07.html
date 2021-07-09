@@ -1,0 +1,1196 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+<meta http-equiv="Content-Language" Content="en">
+<title>15.7 Change of Variables</title>
+<!--
+<script type="text/javascript" src="js/deployJava.js"></script>
+<link rel="stylesheet" type="text/css" href="http://jsxgraph.uni-bayreuth.de/distrib/jsxgraph.css" />
+-->
+<!-- use Jsxgraph to create figures: http://jsxgraph.uni-bayreuth.de/wp/ -->
+<link rel="stylesheet" type="text/css" href="css/jsxgraph.css" />
+<script type="text/javascript" src="js/jsxgraphcore.js"></script>
+<script src="js/three.min.js"></script>
+<script src="js/Detector.js"></script>
+<script src="js/TrackballControls.js"></script>
+<script src="js/OrthographicTrackballControls.js"></script>
+<script src="js/THREEx.KeyboardState.js"></script>
+<script src="js/THREEx.FullScreen.js"></script>
+<script src="js/THREEx.WindowResize.js"></script>
+<script type='text/javascript' src='js/DAT.GUI.min.js'></script>
+<script>
+window.requestAnimFrame = (function(){
+    return  window.requestAnimationFrame       || 
+        window.webkitRequestAnimationFrame || 
+        window.mozRequestAnimationFrame    || 
+        window.oRequestAnimationFrame      || 
+        window.msRequestAnimationFrame     || 
+        function(/* function */ callback, /* DOMElement */
+            element){
+            window.setTimeout(callback, 1000 / 60);
+        };
+})();
+</script>
+<script src="js/ifvisible.min.js"></script>
+<script src="js/conrec.js"></script>
+<script>
+active = true;
+ifvisible.setIdleDuration(10);
+ifvisible.on("idle", function(){
+    active = false;
+//    console.log("idle");
+});
+
+ifvisible.on("wakeup", function(){
+    active = true;
+//    console.log("wakeup");
+});
+</script>
+<script src="js/parser.js"></script>
+<link href="css/whitman.css" rel="stylesheet" type="text/css" /><link href="css/calculus.css" rel="stylesheet" type="text/css" /><link href="css/knowlstyle.css" rel="stylesheet" type="text/css" />
+
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  extensions: ["tex2jax.js","TeX/AMSmath.js","TeX/AMSsymbols.js"],
+  jax: ["input/TeX","output/HTML-CSS"],
+  tex2jax: {
+    inlineMath: [['$','$'],["\\(","\\)"]],
+    processEscapes: true,
+  },
+TeX: {
+   Macros: {
+    val: "\\mathop{\\rm val}",
+    divides: "\\mid",
+    ndivides: "\\mathrel{\\not|}",
+    fix: "\\mathop{\\rm fix}",
+    id: "\\mathop{\\rm id}",
+    na: "\\mathop{\\rm na}",
+    d: "\\mathop{\\rm\\strut d}\\nolimits ",
+    legendre: ["\\left(\\frac{#1}{#2}\\right)",2],
+    normalbaselines: "",
+    notdiv: "\\nmid",
+    implies: "\\Rightarrow",
+    iff: "\\Leftrightarrow",
+    sevenpoint: "\\scriptsize",
+    ds: "\\displaystyle",
+    lcm: "\\operatorname{lcm}",
+    arccot: "\\operatorname{arccot}",
+    arcsec: "\\operatorname{arcsec}",
+    arccsc: "\\operatorname{arccsc}",
+    arccosh: "\\operatorname{arccosh}",
+    arcsinh: "\\operatorname{arcsinh}",
+    arcsech: "\\operatorname{arcsech}",
+    sech: "\\operatorname{sech}",
+    csch: "\\operatorname{csch}",
+    R: "{\\mathbb R}",
+    sb: "_",
+    sp: "^",
+    Q: "{\\mathbb Q}",
+    C: "{\\mathbb C}",
+    N: "{\\mathbb N}",
+    Z: "{\\mathbb Z}",
+    U: "{\\mathbb U}",
+    v: ["\\langle #1\\rangle",1],
+    dint: ["{\\mathchoice{\\mathop{\\int\\!\\!\\!\\int}_{#1}}{\\mathop{\\int\\!\\!\\!\\int}_{#1}}{\\mathop{\\int\\!\\!\\!\\int}}{\\mathop{\\int\\!\\!\\!\\int}}}",1],
+    tint: ["{\\mathchoice{\\mathop{\\int\\!\\!\\!\\int\\!\\!\\!\\int}_{#1\\;}}{\\mathop{\\int\\!\\!\\!\\int\\!\\!\\!\\int}_{#1}}{\\mathop{\\int\\!\\!\\!\\int\\!\\!\\!\\int}_{#1}}{\\mathop{\\int\\!\\!\\!\\int\\!\\!\\!\\int}_{#1}}}",1]
+   }
+},
+  "HTML-CSS": { scale: 100},
+  menuSettings: { zscale: "150%", zoom: "Double-Click" }
+});
+    JXG.Options.text.display = 'html';
+    JXG.Options.text.useMathJax = true;
+</script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/math
+jax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+<script>
+MathJax.Hub.Register.StartupHook("End",function () {
+  if(typeof window.orientation === 'undefined'){
+    var i,x;
+    x = document.getElementsByClassName("webgl_display");
+    for (i=0; i<x.length; i++) {
+      x[i].style.display = "block";
+    }
+    x = document.getElementsByClassName("no_webgl_display");
+    for (i=0; i<x.length; i++) {
+      x[i].style.display = "none";
+    }
+  }
+});
+</script>
+
+<script src="js/jquery-3.1.0.min.js"></script>
+<script src="https://sagecell.sagemath.org/static/embedded_sagecell.js"></script>
+<script src="js/jquery.visible.min.js"></script>
+<script type="text/javascript" src="js/knowl.js"></script>
+<style type="text/css">
+
+.sagecell .CodeMirror {
+  height: auto;
+}
+
+.sagecell .CodeMirror-scroll {
+  overflow-y: hidden;
+  overflow-x: auto;
+}
+
+.sagecell-practice .CodeMirror-scroll {
+}
+
+.sagecell button.sagecell_evalButton {
+    font-size: 50%;
+}
+
+.sagecell_sessionContainer {
+    margin-bottom:1em;
+}
+</style>
+<script>
+function toggle(a) {
+  var b = String(a);
+  b=b.replace("contents","button");
+  if (document.getElementById(a).style.display == "block") {
+    document.getElementById(a).style.display = "none";
+    document.getElementById(b).src = "expand_submenu.png";
+  } else {
+    document.getElementById(a).style.display = "block";
+    document.getElementById(b).src = "collapse_submenu.png";
+  }
+}
+function toggle_sidebar() {
+  if (document.getElementById('sidebar').style.display == "block") {
+    document.getElementById('sidebar').style.display = "none";
+    document.getElementById('menu_expand').style.display = "block";
+  } else {
+    document.getElementById('sidebar').style.display = "block";
+    document.getElementById('menu_expand').style.display = "none";
+  }
+}
+</script>
+
+</head>
+
+<body class="" onload="toggle('chapter_15_contents')">
+<div id="header">
+<div class="right">
+<div class="bread">
+  <a href=".">Home</a> &raquo; <a href="chapter15.html">Multiple Integration</a> &raquo; <a href="section15.07.html">Change of Variables</a>
+</div>
+
+<FORM method=GET action=https://www.google.com/custom id="search">
+<INPUT TYPE=text name=q size=31 maxlength=255 value="" style="font-size:small">
+<INPUT type=submit name=sa VALUE="Search the book" style="font-size:small">
+<INPUT type=hidden name=cof VALUE="AH:center;AWFID:198dc2b883340b1f;">
+<input type=hidden name=domains value="www.whitman.edu">
+<input type=hidden name=sitesearch value="www.whitman.edu/mathematics/calculus_online/">
+</FORM>
+<div id="title"><span id="title-content">15.7 Change of Variables</span></div><a href="#exercises">[Jump to exercises]</a>
+</div>
+</div>
+<div id="menu_expand" style="display:none"><a href="javascript:toggle_sidebar()">Expand menu</a></div>
+<div id="sidebar" style="display:block">
+<h2 id="menu_collapse"><a href='javascript:toggle_sidebar()'>Collapse menu</a></h2>
+<h2 class="link"><img id="chapter_01_button" src="expand_submenu.png" onclick='toggle("chapter_01_contents")'><a href="chapter01.html">1 Analytic Geometry</a></h2>
+
+<ul class="list" id="chapter_01_contents">
+<li><a href="section01.01.html">1. Lines</a></li>
+<li><a href="section01.02.html">2. Distance Between Two Points; Circles</a></li>
+<li><a href="section01.03.html">3. Functions</a></li>
+<li><a href="section01.04.html">4. Shifts and Dilations</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_02_button" src="expand_submenu.png" onclick='toggle("chapter_02_contents")'><a href="chapter02.html">2 Instantaneous Rate of Change:  The Derivative</a></h2>
+
+<ul class="list" id="chapter_02_contents">
+<li><a href="section02.01.html">1. The slope of a function</a></li>
+<li><a href="section02.02.html">2. An example</a></li>
+<li><a href="section02.03.html">3. Limits</a></li>
+<li><a href="section02.04.html">4. The Derivative Function</a></li>
+<li><a href="section02.05.html">5. Adjectives For Functions</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_03_button" src="expand_submenu.png" onclick='toggle("chapter_03_contents")'><a href="chapter03.html">3 Rules for Finding Derivatives</a></h2>
+
+<ul class="list" id="chapter_03_contents">
+<li><a href="section03.01.html">1. The Power Rule</a></li>
+<li><a href="section03.02.html">2. Linearity of the Derivative</a></li>
+<li><a href="section03.03.html">3. The Product Rule</a></li>
+<li><a href="section03.04.html">4. The Quotient Rule</a></li>
+<li><a href="section03.05.html">5. The Chain Rule</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_04_button" src="expand_submenu.png" onclick='toggle("chapter_04_contents")'><a href="chapter04.html">4 Transcendental Functions</a></h2>
+
+<ul class="list" id="chapter_04_contents">
+<li><a href="section04.01.html">1. Trigonometric Functions</a></li>
+<li><a href="section04.02.html">2. The Derivative of $\sin x$</a></li>
+<li><a href="section04.03.html">3. A hard limit</a></li>
+<li><a href="section04.04.html">4. The Derivative of $\sin x$, continued</a></li>
+<li><a href="section04.05.html">5. Derivatives of the Trigonometric Functions</a></li>
+<li><a href="section04.06.html">6. Exponential and Logarithmic functions</a></li>
+<li><a href="section04.07.html">7. Derivatives of the exponential and  logarithmic functions</a></li>
+<li><a href="section04.08.html">8. Implicit Differentiation</a></li>
+<li><a href="section04.09.html">9. Inverse Trigonometric Functions</a></li>
+<li><a href="section04.10.html">10. Limits revisited</a></li>
+<li><a href="section04.11.html">11. Hyperbolic Functions</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_05_button" src="expand_submenu.png" onclick='toggle("chapter_05_contents")'><a href="chapter05.html">5 Curve Sketching</a></h2>
+
+<ul class="list" id="chapter_05_contents">
+<li><a href="section05.01.html">1. Maxima and Minima</a></li>
+<li><a href="section05.02.html">2. The first derivative test</a></li>
+<li><a href="section05.03.html">3. The second derivative test</a></li>
+<li><a href="section05.04.html">4. Concavity and inflection points</a></li>
+<li><a href="section05.05.html">5. Asymptotes and Other Things to Look For</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_06_button" src="expand_submenu.png" onclick='toggle("chapter_06_contents")'><a href="chapter06.html">6 Applications of the Derivative</a></h2>
+
+<ul class="list" id="chapter_06_contents">
+<li><a href="section06.01.html">1. Optimization</a></li>
+<li><a href="section06.02.html">2. Related Rates</a></li>
+<li><a href="section06.03.html">3. Newton's Method</a></li>
+<li><a href="section06.04.html">4. Linear Approximations</a></li>
+<li><a href="section06.05.html">5. The Mean Value Theorem</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_07_button" src="expand_submenu.png" onclick='toggle("chapter_07_contents")'><a href="chapter07.html">7 Integration</a></h2>
+
+<ul class="list" id="chapter_07_contents">
+<li><a href="section07.01.html">1. Two examples</a></li>
+<li><a href="section07.02.html">2. The Fundamental Theorem of Calculus</a></li>
+<li><a href="section07.03.html">3. Some Properties of Integrals</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_08_button" src="expand_submenu.png" onclick='toggle("chapter_08_contents")'><a href="chapter08.html">8 Techniques of Integration</a></h2>
+
+<ul class="list" id="chapter_08_contents">
+<li><a href="section08.01.html">1. Substitution</a></li>
+<li><a href="section08.02.html">2. Powers of sine and cosine</a></li>
+<li><a href="section08.03.html">3. Trigonometric Substitutions</a></li>
+<li><a href="section08.04.html">4. Integration by Parts</a></li>
+<li><a href="section08.05.html">5. Rational Functions</a></li>
+<li><a href="section08.06.html">6. Numerical Integration</a></li>
+<li><a href="section08.07.html">7. Additional exercises</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_09_button" src="expand_submenu.png" onclick='toggle("chapter_09_contents")'><a href="chapter09.html">9 Applications of Integration</a></h2>
+
+<ul class="list" id="chapter_09_contents">
+<li><a href="section09.01.html">1. Area between curves</a></li>
+<li><a href="section09.02.html">2. Distance, Velocity, Acceleration</a></li>
+<li><a href="section09.03.html">3. Volume</a></li>
+<li><a href="section09.04.html">4. Average value of a function</a></li>
+<li><a href="section09.05.html">5. Work</a></li>
+<li><a href="section09.06.html">6. Center of Mass</a></li>
+<li><a href="section09.07.html">7. Kinetic energy; improper integrals</a></li>
+<li><a href="section09.08.html">8. Probability</a></li>
+<li><a href="section09.09.html">9. Arc Length</a></li>
+<li><a href="section09.10.html">10. Surface Area</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_10_button" src="expand_submenu.png" onclick='toggle("chapter_10_contents")'><a href="chapter10.html">10 Polar Coordinates,  Parametric Equations</a></h2>
+
+<ul class="list" id="chapter_10_contents">
+<li><a href="section10.01.html">1. Polar Coordinates</a></li>
+<li><a href="section10.02.html">2. Slopes in polar coordinates</a></li>
+<li><a href="section10.03.html">3. Areas in polar coordinates</a></li>
+<li><a href="section10.04.html">4. Parametric Equations</a></li>
+<li><a href="section10.05.html">5. Calculus with Parametric Equations</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_11_button" src="expand_submenu.png" onclick='toggle("chapter_11_contents")'><a href="chapter11.html">11 Sequences and Series</a></h2>
+
+<ul class="list" id="chapter_11_contents">
+<li><a href="section11.01.html">1. Sequences</a></li>
+<li><a href="section11.02.html">2. Series</a></li>
+<li><a href="section11.03.html">3. The Integral Test</a></li>
+<li><a href="section11.04.html">4. Alternating Series</a></li>
+<li><a href="section11.05.html">5. Comparison Tests</a></li>
+<li><a href="section11.06.html">6. Absolute Convergence</a></li>
+<li><a href="section11.07.html">7. The Ratio and Root Tests</a></li>
+<li><a href="section11.08.html">8. Power Series</a></li>
+<li><a href="section11.09.html">9. Calculus with Power Series</a></li>
+<li><a href="section11.10.html">10. Taylor Series</a></li>
+<li><a href="section11.11.html">11. Taylor's Theorem</a></li>
+<li><a href="section11.12.html">12. Additional exercises</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_12_button" src="expand_submenu.png" onclick='toggle("chapter_12_contents")'><a href="chapter12.html">12 Three Dimensions</a></h2>
+
+<ul class="list" id="chapter_12_contents">
+<li><a href="section12.01.html">1. The Coordinate System</a></li>
+<li><a href="section12.02.html">2. Vectors</a></li>
+<li><a href="section12.03.html">3. The Dot Product</a></li>
+<li><a href="section12.04.html">4. The Cross Product</a></li>
+<li><a href="section12.05.html">5. Lines and Planes</a></li>
+<li><a href="section12.06.html">6. Other Coordinate Systems</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_13_button" src="expand_submenu.png" onclick='toggle("chapter_13_contents")'><a href="chapter13.html">13 Vector Functions</a></h2>
+
+<ul class="list" id="chapter_13_contents">
+<li><a href="section13.01.html">1. Space Curves</a></li>
+<li><a href="section13.02.html">2. Calculus with vector functions</a></li>
+<li><a href="section13.03.html">3. Arc length and curvature</a></li>
+<li><a href="section13.04.html">4. Motion along a curve</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_14_button" src="expand_submenu.png" onclick='toggle("chapter_14_contents")'><a href="chapter14.html">14 Partial Differentiation</a></h2>
+
+<ul class="list" id="chapter_14_contents">
+<li><a href="section14.01.html">1. Functions of Several Variables</a></li>
+<li><a href="section14.02.html">2. Limits and Continuity</a></li>
+<li><a href="section14.03.html">3. Partial Differentiation</a></li>
+<li><a href="section14.04.html">4. The Chain Rule</a></li>
+<li><a href="section14.05.html">5. Directional Derivatives</a></li>
+<li><a href="section14.06.html">6. Higher order derivatives</a></li>
+<li><a href="section14.07.html">7. Maxima and minima</a></li>
+<li><a href="section14.08.html">8. Lagrange Multipliers</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_15_button" src="expand_submenu.png" onclick='toggle("chapter_15_contents")'><a href="chapter15.html">15 Multiple Integration</a></h2>
+
+<ul class="list" id="chapter_15_contents">
+<li><a href="section15.01.html">1. Volume and Average Height</a></li>
+<li><a href="section15.02.html">2. Double Integrals in Cylindrical Coordinates</a></li>
+<li><a href="section15.03.html">3. Moment and Center of Mass</a></li>
+<li><a href="section15.04.html">4. Surface Area</a></li>
+<li><a href="section15.05.html">5. Triple Integrals</a></li>
+<li><a href="section15.06.html">6. Cylindrical and Spherical Coordinates</a></li>
+<li><a href="section15.07.html">7. Change of Variables</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_16_button" src="expand_submenu.png" onclick='toggle("chapter_16_contents")'><a href="chapter16.html">16 Vector Calculus</a></h2>
+
+<ul class="list" id="chapter_16_contents">
+<li><a href="section16.01.html">1. Vector Fields</a></li>
+<li><a href="section16.02.html">2. Line Integrals</a></li>
+<li><a href="section16.03.html">3. The Fundamental Theorem of Line Integrals</a></li>
+<li><a href="section16.04.html">4. Green's Theorem</a></li>
+<li><a href="section16.05.html">5. Divergence and Curl</a></li>
+<li><a href="section16.06.html">6. Vector Functions for Surfaces</a></li>
+<li><a href="section16.07.html">7. Surface Integrals</a></li>
+<li><a href="section16.08.html">8. Stokes's Theorem</a></li>
+<li><a href="section16.09.html">9. The Divergence Theorem</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_17_button" src="expand_submenu.png" onclick='toggle("chapter_17_contents")'><a href="chapter17.html">17 Differential Equations</a></h2>
+
+<ul class="list" id="chapter_17_contents">
+<li><a href="section17.01.html">1. First Order Differential Equations</a></li>
+<li><a href="section17.02.html">2. First Order Homogeneous Linear Equations</a></li>
+<li><a href="section17.03.html">3. First Order Linear Equations</a></li>
+<li><a href="section17.04.html">4. Approximation</a></li>
+<li><a href="section17.05.html">5. Second Order Homogeneous Equations</a></li>
+<li><a href="section17.06.html">6. Second Order Linear Equations</a></li>
+<li><a href="section17.07.html">7. Second Order Linear Equations, take two</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_18_button" src="expand_submenu.png" onclick='toggle("chapter_18_contents")'><a href="chapter18.html">18 Useful formulas</a></h2>
+
+<ul class="list" id="chapter_18_contents">
+</ul>
+
+</div>
+
+<div id="main">
+
+<div id="next"><a href="section15.06.html"><img src=previous_section.png width="30"></a>&nbsp;&nbsp;<a href="chapter16.html"><img src=next_section.png width="30"></a></div>
+
+<div id="content">
+<p>
+
+
+</p><p>
+One of the most useful techniques for evaluating integrals is
+substitution, both 
+"$u$-substitution'' 
+and trigonometric
+substitution, in which we change the variable to something more
+convenient. As we have seen, sometimes changing from rectangular
+coordinates to another coordinate system is helpful, and this too
+changes the variables. This is certainly a more complicated change,
+since instead of changing one variable for another we change an entire
+suite of variables, but as it turns out it is really very similar to
+the kinds of change of variables we already know as substitution.
+</p><p>
+<a id="fig:one change of variable"></a>
+</p><div class='figure'><!-- Multiple_integration-single_change_of_variable.html -->
+<!-- Figure 15.7.1 -->
+
+<table style="width:120%">
+<tr style="width:100%">
+<td style="width:44%">
+<div id='single_variable_change' class='jxgbox'></div>
+</td><td style="width:56%">
+<div id='single_variable_change_2' class='jxgbox'></div>
+</td></tr></table>
+
+<script type='text/javascript'>
+(function () {  // BEGIN: scope limiting function wrapper
+  var i;
+  var xmin=-0.25, xmax= 1.5, ymin=-0.25, ymax=0.8;
+  var AspectRatio =  ((ymax-ymin)/(xmax-xmin)); // height/width
+  var wd=document.getElementById('single_variable_change').offsetWidth;
+  var ht=wd*AspectRatio;
+  var yfactor = (ymax-ymin)/(ht);
+  var xfactor = (xmax-xmin)/(wd);
+  var xaxis_label_offset = yfactor*15;
+  var yaxis_label_offset = xfactor*20;
+  document.getElementById('single_variable_change').style.height=ht+'px';
+  var brd =
+  JXG.JSXGraph.initBoard('single_variable_change',{boundingbox:[xmin,ymax,xmax,ymin],
+  showCopyright:false, showNavigation:false}) ;
+  var xaxis = brd.create('arrow', [[0,0],
+  [1.25,0]],{strokeWidth:1,strokeColor:'black',fixed:true});
+  brd.create('text',[1.25+xfactor*5,0,'$x$'],{fixed:true});
+  var xi =
+  brd.create('segment',[[-0.5,0],[1.1,0]],{visible:false,fixed:true});
+  for (i=0; i<=2; i++) {
+    brd.create('text',[i*0.5-xfactor*5,-xaxis_label_offset,'$'+i/2+'$'],{fixed:true});
+  }
+  brd.create('ticks',[xi,0.5],{minorTicks:false,fixed:true});
+  var yaxis = brd.create('arrow',
+  [[0,0],[0,0.7]],{strokeWidth:1,strokeColor:'black',fixed:true});
+  var yi =
+  brd.create('segment',[[0,-0.1],[0,0.6]],{visible:false,fixed:true});
+  for (i=0; i<=5; i++) {
+    brd.create('text',[-yaxis_label_offset-xfactor*5,i*0.1,'$'+i/10+'$'],{fixed:true});
+  }
+  brd.create('ticks',[yi,0.1],{minorTicks:false,fixed:true});
+  var f = function(x) { return x*x*Math.sqrt(1-x*x); }
+  brd.create('functiongraph',[f,0,1],{fillColor:'#FFB7D5',fillOpacity:1,strokeWidth:1,fixed:true});
+  var p1 = brd.create('point',[0.7,0],{visible:false,fixed:true});
+  var p2 = brd.create('point',[0.7,f(0.7)],{visible:false,fixed:true});
+  var p3 = brd.create('point',[0.8,f(0.7)],{visible:false,fixed:true});
+  var p4 = brd.create('point',[0.8,0],{visible:false,fixed:true});
+  brd.create('polygon',[p1,p2,p3,p4],{fillOpacity:0});
+})(); // END: scope limiting function wrapper
+</script>
+
+<script type='text/javascript'>
+(function () {  // BEGIN: scope limiting function wrapper
+  var i;
+  var xmin=-0.25, xmax= 2, ymin=-0.25, ymax=0.8;
+  var AspectRatio =  ((ymax-ymin)/(xmax-xmin)); // height/width
+  var wd=document.getElementById('single_variable_change_2').offsetWidth;
+  var ht=wd*AspectRatio;
+  var yfactor = (ymax-ymin)/(ht);
+  var xfactor = (xmax-xmin)/(wd);
+  var xaxis_label_offset = yfactor*15;
+  var yaxis_label_offset = xfactor*20;
+  document.getElementById('single_variable_change_2').style.height=ht+'px';
+  var brd =
+  JXG.JSXGraph.initBoard('single_variable_change_2',{boundingbox:[xmin,ymax,xmax,ymin],
+  showCopyright:false, showNavigation:false}) ;
+  var xaxis = brd.create('arrow', [[0,0],
+  [1.75,0]],{strokeWidth:1,strokeColor:'black',fixed:true});
+  brd.create('text',[1.75+xfactor*5,0,'$u$'],{fixed:true});
+  var xi =
+  brd.create('segment',[[-0.5,0],[1.6,0]],{visible:false,fixed:true});
+  for (i=0; i<=3; i++) {
+    brd.create('text',[i*0.5-xfactor*5,-xaxis_label_offset,'$'+i/2+'$'],{fixed:true});
+  }
+  brd.create('ticks',[xi,0.5],{minorTicks:false,fixed:true});
+  var yaxis = brd.create('arrow',
+  [[0,0],[0,0.7]],{strokeWidth:1,strokeColor:'black',fixed:true});
+  var yi =
+  brd.create('segment',[[0,-0.1],[0,0.6]],{visible:false,fixed:true});
+  for (i=0; i<=5; i++) {
+    brd.create('text',[-yaxis_label_offset-xfactor*5,i*0.1,'$'+i/10+'$'],{fixed:true});
+  }
+  brd.create('ticks',[yi,0.1],{minorTicks:false,fixed:true});
+  var f = function(x) { return x*x*Math.sqrt(1-x*x); }
+  var g = function(x) { return f(Math.sin(x)); }
+  brd.create('functiongraph',[g,0,Math.PI/2],{fillColor:'#FFB7D5',fillOpacity:1,strokeWidth:1,fixed:true});
+  var p1 = brd.create('point',[Math.asin(0.7),0],{visible:false,fixed:true});
+  var p2 = brd.create('point',[Math.asin(0.7),f(0.7)],{visible:false,fixed:true});
+  var p3 = brd.create('point',[Math.asin(0.8),f(0.7)],{visible:false,fixed:true});
+  var p4 = brd.create('point',[Math.asin(0.8),0],{visible:false,fixed:true});
+  brd.create('polygon',[p1,p2,p3,p4],{fillOpacity:0});
+})(); // END: scope limiting function wrapper
+</script>
+
+<div class='figcaption'><span class="figurenumber">Figure 15.7.1.</span> Single change of variable.</div></div>
+<p>
+</p><p>
+Let's examine the single variable case again, from a slightly
+different perspective than we have previously used.
+Suppose we start with the problem
+$$\int_0^1 x^2\sqrt{1-x^2}\,dx;$$
+this computes the area in the left graph of 
+figure <a href="section15.07.html#fig:one change of variable">15.7.1</a>.
+We use the substitution $x=\sin u$ to transform the function from 
+$x^2\sqrt{1-x^2}$ to $\sin^2u\sqrt{1-\sin^2u}$, and we also convert
+$dx$ to $\cos u\,du$. Finally, we convert the
+limits 0 and 1 to 0 and $\pi/2$.
+This transforms the integral:
+$$\int_0^1 x^2\sqrt{1-x^2}\,dx = 
+\int_0^{\pi/2}\sin^2u\sqrt{1-\sin^2u} \cos u\,du.$$
+We want to notice that there are three different conversions: the
+main function, the differential $dx$, and the interval of
+integration. The function is converted to
+$\sin^2u\sqrt{1-\sin^2u}$, shown in the right-hand graph of 
+figure <a href="section15.07.html#fig:one change of variable">15.7.1</a>. It is evident that the two
+curves pictured there have the same $y$-values in the same order, but
+the horizontal scale has been changed. Even though the heights are the
+same, the two integrals
+$$\int_0^1 x^2\sqrt{1-x^2}\,dx\qquad\hbox{and}\qquad
+\int_0^{\pi/2}\sin^2u\sqrt{1-\sin^2u}\,du
+$$
+are not the same; clearly the right hand area is larger. One way to
+understand the problem is to note that if both areas are approximated
+using, say, ten subintervals, that the approximating rectangles on the
+right are wider than their counterparts on the left, as indicated. In
+the picture, the width of the rectangle on the left is $\Delta x=0.1$,
+between $0.7$ and $0.8$.  The rectangle on the right is situated
+between the corresponding values $\arcsin(0.7)$ and $\arcsin(0.8)$ so
+that $\Delta u=\arcsin(0.8)-\arcsin(0.7)$. To
+make the widths match, and the areas therefore the same, we can
+multiply $\Delta u$ by a correction factor; in this case the
+correction factor is approximately $\cos u=\cos(\arcsin(0.7))$, which
+we compute when we convert $dx$ to $\cos u\,du$.
+</p><p>
+
+Now let's move to functions of two variables. Suppose we want to
+convert an integral
+$$\int_{x_0}^{x_1}\int_{y_0}^{y_1} f(x,y)\,dy\,dx$$ 
+to use new variables $u$ and $v$. In the single variable case, there's
+typically just one reason to want to change the variable: to make the
+function "nicer'' so that we can find an antiderivative. In the two
+variable case, there is a second potential reason: the two-dimensional
+region over which we need to integrate is somehow unpleasant, and we
+want the region in terms of $u$ and $v$ to be nicer&mdash;to be a
+rectangle, for example. Ideally, of course, the new function and the
+new region will be no worse than the originals, and at least one of
+them will be better; this doesn't always pan out.
+</p><p>
+As before, there are three parts to the conversion: the function
+itself must be rewritten in terms of $u$ and $v$, $dy\,dx$ must be
+converted to $du\,dv$, and the old region must be converted to the new
+region. We will develop the necessary techniques by considering a
+particular example, and we will use an example we already know how to
+do by other means.
+</p><p>
+Consider 
+$$\int_{-1}^1\int_0^{\sqrt{1-x^2}} \sqrt{x^2+y^2}\,dy\,dx.$$
+The limits correspond to integrating over the top half of a circular
+disk, and we recognize that the function will simplify in polar
+coordinates, so we would normally convert to polar coordinates:
+$$\int_{0}^\pi\int_0^1 \sqrt{r^2}\;r\,dr\,d\theta={\pi\over3}.$$
+But let's instead approach this as a substitution problem, starting
+with $x=r\cos\theta$, $y=r\sin\theta$. This pair of equations
+describes a function from "$r$-$\theta$ space'' to "$x$-$y$ space'',
+and because it involves familiar concepts, it is not too hard to
+understand what it does. In figure <a href="section15.07.html#fig:two dimensional transformation">15.7.2</a> we have indicated geometrically a bit about how this
+function behaves. The four dots labeled <em>a</em>&ndash;<em>d</em> in the $r$-$\theta$ plane
+correspond to the three dots in the $x$-$y$ plane; dots <em>a</em> and 
+<em>b</em> both
+go to the origin because $r=0$. The horizontal arrow in the
+$r$-$\theta$ plane has $r=1$ everywhere and $\theta$ ranges from 0 to
+$\pi$, so the corresponding points 
+$x=r\cos\theta$, $y=r\sin\theta$ start at $(1,0)$ and follow the unit
+circle counter-clockwise. Finally, the vertical arrow has
+$\theta=\pi/4$ and $r$ ranges from 0 to 1, so it maps to the straight
+arrow in the $x$-$y$ plane. Extrapolating from these few examples,
+it's not hard to see that every vertical line in the $r$-$\theta$ plane
+is transformed to a line through the origin in the $x$-$y$ plane, and
+every horizontal line in the $r$-$\theta$ plane
+is transformed to a circle with center at the origin in the $x$-$y$
+plane. Since we are interested in integrating over the half-disk in
+the $x$-$y$ plane, we will integrate over the rectangle
+$[0,\pi]\times[0,1]$ in the $r$-$\theta$ plane, because we now see
+that the points in this rectangle are sent precisely to the upper half
+disk by $x=r\cos\theta$ and $y=r\sin\theta$.
+</p><p>
+<a id="fig:two dimensional transformation"></a>
+</p><div class='figure'><!-- Multiple_integration-double_change_of_variable.html -->
+<!-- Figure 15.7.2 -->
+
+<table style="width:120%">
+<tr style="width:100%">
+<td style="width:59%">
+<div id='double_variable_change' class='jxgbox'></div>
+</td><td style="width:41%">
+<div id='double_variable_change_2' class='jxgbox'></div>
+</td></tr></table>
+
+<script type='text/javascript'>
+(function () {  // BEGIN: scope limiting function wrapper
+  var i;
+  var xmin=-0.5, xmax= 3.85, ymin=-0.5, ymax=1.5;
+  var AspectRatio =  ((ymax-ymin)/(xmax-xmin)); // height/width
+  var wd=document.getElementById('double_variable_change').offsetWidth;
+  var ht=wd*AspectRatio;
+  var yfactor = (ymax-ymin)/(ht);
+  var xfactor = (xmax-xmin)/(wd);
+  var xaxis_label_offset = yfactor*15;
+  var yaxis_label_offset = xfactor*20;
+  document.getElementById('double_variable_change').style.height=ht+'px';
+  var brd =
+  JXG.JSXGraph.initBoard('double_variable_change',{boundingbox:[xmin,ymax,xmax,ymin],
+  showCopyright:false, showNavigation:false}) ;
+  var xaxis = brd.create('arrow', [[0,0],
+  [3.5,0]],{strokeWidth:1,strokeColor:'black',fixed:true});
+  brd.create('text',[3.5+xfactor*5,0,'$\\\\theta$'],{fixed:true});
+  var xi =
+  brd.create('segment',[[-Math.PI/2,0],[Math.PI+0.1,0]],{visible:false,fixed:true});
+  brd.create('ticks',[xi,Math.PI/2],{minorTicks:false,fixed:true});
+  var yaxis = brd.create('arrow',
+  [[0,0],[0,1.25]],{strokeWidth:1,strokeColor:'black',fixed:true});
+  brd.create('text',[0,1.25+yfactor*5,'$r$'],{fixed:true});
+  var yi =
+  brd.create('segment',[[0,-1],[0,1.1]],{visible:false,fixed:true});
+  for (i=0; i<=1; i++) {
+    brd.create('text',[-yaxis_label_offset,i,'$'+i+'$'],{fixed:true});
+  }
+  brd.create('ticks',[yi,1],{minorTicks:false,fixed:true});
+  brd.create('arrow',[[0,1],[Math.PI,1]],{strokeWidth:1,fixed:true,strokeColor:'green'});
+  brd.create('arrow',[[Math.PI/4,0],[Math.PI/4,1]],{strokeWidth:1,fixed:true});
+  brd.create('point',[0,0],{withLabel:false,size:1,fixed:true});
+  brd.create('point',[0,1],{withLabel:false,size:1,fixed:true});
+  brd.create('point',[Math.PI/2,0],{withLabel:false,size:1,fixed:true});
+  brd.create('point',[Math.PI/2,0.5],{withLabel:false,size:1,fixed:true});
+  brd.create('text',[0-xfactor*3,-xaxis_label_offset,'$a$'],{fixed:true});
+  brd.create('text',[Math.PI/2-xfactor*3,-xaxis_label_offset,'$b$'],{fixed:true});
+  brd.create('text',[Math.PI-xfactor*3,-xaxis_label_offset,'$\\\\pi$'],{fixed:true});
+  brd.create('text',[Math.PI/2+xfactor*5,0.5-yfactor*10,'$d$'],{fixed:true});
+  brd.create('text',[xfactor*5,1-yfactor*13,'$c$'],{fixed:true});
+})(); // END: scope limiting function wrapper
+</script>
+
+<script type='text/javascript'>
+(function () {  // BEGIN: scope limiting function wrapper
+  var i;
+  var xmin=-1.5, xmax= 1.5, ymin=-0.5, ymax=1.5;
+  var AspectRatio =  ((ymax-ymin)/(xmax-xmin)); // height/width
+  var wd=document.getElementById('double_variable_change_2').offsetWidth;
+  var ht=wd*AspectRatio;
+  var yfactor = (ymax-ymin)/(ht);
+  var xfactor = (xmax-xmin)/(wd);
+  var xaxis_label_offset = yfactor*15;
+  var yaxis_label_offset = xfactor*20;
+  document.getElementById('double_variable_change_2').style.height=ht+'px';
+  var brd =
+  JXG.JSXGraph.initBoard('double_variable_change_2',{boundingbox:[xmin,ymax,xmax,ymin],
+  showCopyright:false, showNavigation:false}) ;
+  var xaxis = brd.create('arrow', [[-1.25,0],
+  [1.25,0]],{strokeWidth:1,strokeColor:'black',fixed:true});
+  brd.create('text',[1.25+xfactor*5,0,'$x$'],{fixed:true});
+  var xi =
+  brd.create('segment',[[-2,0],[1.1,0]],{visible:false,fixed:true});
+  brd.create('ticks',[xi,1],{minorTicks:false,fixed:true});
+  for (i=-1; i<=1; i++) {
+    brd.create('text',[i-xfactor*3,-xaxis_label_offset,'$'+i+'$'],{fixed:true});
+  }
+  var yaxis = brd.create('arrow',
+  [[0,0],[0,1.25]],{strokeWidth:1,strokeColor:'black',fixed:true});
+  brd.create('text',[0,1.25+yfactor*8,'$y$'],{fixed:true});
+  brd.create('arrow',[[0,0],[Math.sqrt(1/2),Math.sqrt(1/2)]],{strokeWidth:1,fixed:true});
+  var p1 = brd.create('point',[0,0],{visible:false,withLabel:false,size:1,fixed:true});
+  var p2 = brd.create('point',[1,0],{visible:false,withLabel:false,size:1,fixed:true});
+  var p3 = brd.create('point',[-1,0],{visible:false,withLabel:false,size:1,fixed:true});
+  brd.create('arc',[p1,p2,p3],{withLabel:false,size:1,fixed:true,lastArrow:true,strokeColor:'green'});
+  brd.create('point',[0,0],{withLabel:false,size:1,fixed:true});
+  brd.create('point',[1,0],{withLabel:false,size:1,fixed:true});
+  brd.create('point',[0,0.5],{withLabel:false,size:1,fixed:true});
+  brd.create('text',[-xfactor*23,yfactor*8,'$a,b$'],{fixed:true});
+  brd.create('text',[-xfactor*15,0.5,'$d$'],{fixed:true});
+  brd.create('text',[1-xfactor*10,yfactor*8,'$c$'],{fixed:true});
+})(); // END: scope limiting function wrapper
+</script>
+
+<div class='figcaption'><span class="figurenumber">Figure 15.7.2.</span> Double change of variable.</div></div>
+<p>
+</p><p>
+At this point we are two-thirds done with the task: we know the
+$r$-$\theta$ limits of integration, and we can easily convert the
+function to the new variables:
+<a id="eq:transformed function"></a>
+$$\eqalignno{
+\sqrt{x^2+y^2} &= \sqrt{r^2\cos^2\theta+r^2\sin^2\theta}
+= r\sqrt{\cos^2\theta+\sin^2\theta} = r.&
+(15.7.1)\cr
+}$$
+The final, and most difficult, task is to figure out what replaces
+$dx\,dy$. (Of course, we actually know the answer, because we are in
+effect converting to polar coordinates. What we really want is a
+series of steps that gets to that right answer but that will also work
+for other substitutions that are not so familiar.)
+</p><p>
+Let's take a step back and remember how integration arises from
+approximation. When we approximate the integral in the $x$-$y$ plane,
+we are computing the volumes of tall thin boxes, in this case boxes
+that are $\Delta x\times \Delta y\times \sqrt{x^2+y^2}$. We are aiming
+to come up with an integral in the $r$-$\theta$ plane that looks like
+this:
+<a id="eq:target integral"></a>
+$$\eqalignno{
+&\int_0^\pi\int_0^1 r (?) \,dr\,d\theta.&
+(15.7.2)\cr
+}$$
+What we're missing is exactly the right quantity to replace the "?''
+so that we get the correct answer. Of course, this integral is also
+the result of an approximation, in which we add up volumes of boxes
+that are $\Delta r\times\Delta \theta\times\hbox{height}$; the problem
+is that the height that will give us the correct answer is not simply
+$r$. Or put another way, we can think of the correct height as $r$,
+but the area of the base $\Delta r\Delta\theta$ as being wrong. The
+height $r$ comes from equation <a href="section15.07.html#eq:transformed function">15.7.1</a>, which
+is to say, it is precisely the same as the corresponding height in the
+$x$-$y$ version of the integral. The problem is that the area of the
+base $\Delta x\times \Delta y$ is not the same as the area of the base
+$\Delta r\times\Delta\theta$. We can think of the "?'' in the integral as a
+correction factor that is needed so that
+$?\,dr\,d\theta$ = $dx\,dy$.
+</p><p>
+So let's think about what that little base $\Delta
+r\times\Delta\theta$ corresponds to. We know that each bit of
+horizontal line in the $r$-$\theta$ plane corresponds to a bit of
+circular arc in the $x$-$y$ plane, and each bit of vertical line
+in the $r$-$\theta$ plane corresponds to a bit of
+"radial line'' in the $x$-$y$ plane. In
+figure <a href="section15.07.html#fig:corresponding areas">15.7.3</a> we show a typical rectangle in
+the $r$-$\theta$ plane and its corresponding area in the $x$-$y$ plane.
+</p><p>
+</p><div class='figure'><!-- Multiple_integration-2d_change_of_variable_mapping.html -->
+<!-- Figure 15.7.3 -->
+
+<div style="width:120%;margin-left:auto;margin-right:auto;padding:25px;border-width:2px;border-style:outset;border-color:gray;">
+  <div id='change_of_variables_map' class='jxgbox'
+     style='width:100%;border:0px;margin-left:auto;margin-right:auto;'></div>
+  <div>
+  The $\theta r$ coordinate system and the $xy$ coordinate system are
+  related by $x=r\cos\theta$ and $y=r\sin\theta$. The small rectangle
+  in the $\theta r$ plane corresponds under the mapping to the 
+  four-sided figure in the $xy$ plane.
+  The large rectangle in the $\theta r$ plane is $[0,\pi]\times[0,1]$ and
+  corresponds to the half-circle in the $xy$ plane. 
+  <p>
+  Drag the
+  blue dot in the $\theta r$ plane to move the rectangle; drag the green
+  dot to resize the rectangle. 
+  </div>
+</div>
+
+<script type="text/javascript">
+(function () {
+  var xmin=-0.1, xmax= 5.9, ymin=-0.2, ymax=1.2;
+//  var AspectRatio =  ((ymax-ymin)/(xmax-xmin)); // height/width
+  var AspectRatio =  (0.232); // height/width
+  var wd=document.getElementById('change_of_variables_map').offsetWidth;
+  var ht=wd*AspectRatio;
+  var yfactor = (ymax-ymin)/(ht);
+  var xfactor = (xmax-xmin)/(wd);
+  var xaxis_label_offset = yfactor*15;
+  var yaxis_label_offset = xfactor*20;
+  document.getElementById('change_of_variables_map').style.height=ht+'px';
+// Displays two coordinate planes connected by functions
+// x=changeofvariables_xfunc(u,v) and y=changeofvariables_yfunc(u,v). A rectangle in the uv-plane
+// is mapped to the corresponding region in the xy-plane.
+// Will require tweaking to get domain and range suitable; this
+// is set up for x=u*cos(v) and y=u*sin(v).
+
+changeofvariables_xfunc = function(u,v){ return v*Math.cos(u); }
+changeofvariables_yfunc = function(u,v){ return v*Math.sin(u); }
+
+var changeofvariables_board = JXG.JSXGraph.initBoard('change_of_variables_map', {showNavigation:false,showCopyright:false,boundingbox: [xmin,ymax,xmax,ymin]});
+
+var changeofvariables_graph2_offset = 4.5;
+var changeofvariables_origin = changeofvariables_board.create('point',[changeofvariables_graph2_offset,0],
+  {withLabel:false,size:0,strokeColor:'#0000ff',fillColor:'#0000ff'});
+
+// Axes.
+var changeofvariables_axuv = changeofvariables_board.create('arrow', [[0,0], [3.2,0]],{fixed:true,strokeWidth:1,strokeColor:'black'});
+var changeofvariables_ayuv = changeofvariables_board.create('arrow', [[0,0], [0,1.1]],{fixed:true,strokeWidth:1,strokeColor:'black'});
+var changeofvariables_vlab = changeofvariables_board.create('text',[0.05,1.05,"$r$"]);
+var changeofvariables_ulab = changeofvariables_board.create('text',[3.2+xfactor*5,0,"$\\\\theta$"]);
+var changeofvariables_axxy = changeofvariables_board.create('arrow', [[changeofvariables_graph2_offset-1,0], [changeofvariables_graph2_offset+1.2,0]],{fixed:true,strokeWidth:1,strokeColor:'black'});
+var changeofvariables_ayxy = changeofvariables_board.create('arrow', [[changeofvariables_graph2_offset,0], [changeofvariables_graph2_offset,1.1]],{fixed:true,strokeWidth:1,strokeColor:'black'});
+var changeofvariables_ylab = changeofvariables_board.create('text',[changeofvariables_graph2_offset+xfactor*5,1+yfactor*10,"$y$"]);
+var changeofvariables_xlab = changeofvariables_board.create('text',[changeofvariables_graph2_offset+1.2+xfactor*5,0,"$x$"]);
+
+// Large domain rectangle.
+var changeofvariables_top = changeofvariables_board.create('segment', [[0,1], [Math.PI,1]],{strokeColor:'blue',strokeWidth:1});
+var changeofvariables_bot = changeofvariables_board.create('segment', [[Math.PI,0],[Math.PI,1]],{strokeColor:'blue',strokeWidth:1});
+// Corresponding range--half circle.
+var changeofvariables_aux1 =  changeofvariables_board.create('point',[changeofvariables_graph2_offset+1,0], {withLabel:false,size:0,strokeColor:'#0000ff',fillColor:'#0000ff'});
+var changeofvariables_aux2 =  changeofvariables_board.create('point',[changeofvariables_graph2_offset-1,0], {withLabel:false,size:0,strokeColor:'#0000ff',fillColor:'#0000ff'});
+var c = changeofvariables_board.create('arc',[changeofvariables_origin,changeofvariables_aux1,changeofvariables_aux2],{strokeColor:'blue'});
+
+// Rectangle corners in uv-plane.
+var changeofvariables_psw = changeofvariables_board.create('point', [0.5,0.5], {withLabel:false,strokeColor:'#0000ff',fillColor:'#0000ff'});
+var changeofvariables_pne = changeofvariables_board.create('point',[0.8,0.7], {withLabel:false,strokeColor:'#00ff00',fillColor:'#00ff00'});
+var changeofvariables_pse = changeofvariables_board.create('point',[ function() { return changeofvariables_pne.X(); }, function() { return changeofvariables_psw.Y(); }], {withLabel:false,strokeColor:'#ffff00',fillColor:'#ffff00'});
+var changeofvariables_pnw = changeofvariables_board.create('point',[ function() { return changeofvariables_psw.X(); }, function() { return changeofvariables_pne.Y(); }], {withLabel:false});
+
+var changeofvariables_rectangle = changeofvariables_board.create('polygon', [changeofvariables_psw,changeofvariables_pnw,changeofvariables_pne,changeofvariables_pse],{dash:3,strokecolor:'#000000'});
+
+// A group to bind psw & pne together, except when the pne point is
+// being dragged.
+var changeofvariables_gr = changeofvariables_board.create('group',[changeofvariables_psw,changeofvariables_pne]);
+JXG.addEvent(changeofvariables_pne.rendNode, 'mousedown', 
+             function(){ changeofvariables_gr.ungroup(); }, 
+             changeofvariables_pne);
+JXG.addEvent(changeofvariables_pne.rendNode, 'mouseup', 
+             function(){ changeofvariables_gr = changeofvariables_board.create('group',[changeofvariables_psw,changeofvariables_pne]);}, 
+             changeofvariables_pne);
+
+// The corresponding points in the xy-plane.
+var changeofvariables_qsw = changeofvariables_board.create('point',[
+  function(){return changeofvariables_graph2_offset+changeofvariables_xfunc(changeofvariables_psw.X(),changeofvariables_psw.Y());},
+  function(){return changeofvariables_yfunc(changeofvariables_psw.X(),changeofvariables_psw.Y());} ], {withLabel:false,strokeColor:'#0000ff',fillColor:'#0000ff'});
+var changeofvariables_qnw = changeofvariables_board.create('point',[
+  function(){return changeofvariables_graph2_offset+changeofvariables_xfunc(changeofvariables_pnw.X(),changeofvariables_pnw.Y());},
+  function(){return changeofvariables_yfunc(changeofvariables_pnw.X(),changeofvariables_pnw.Y());} ], {withLabel:false});
+var changeofvariables_qne = changeofvariables_board.create('point',[
+  function(){return changeofvariables_graph2_offset+changeofvariables_xfunc(changeofvariables_pne.X(),changeofvariables_pne.Y());},
+  function(){return changeofvariables_yfunc(changeofvariables_pne.X(),changeofvariables_pne.Y());} ], {withLabel:false,strokeColor:'#00ff00',fillColor:'#00ff00'});
+var changeofvariables_qse = changeofvariables_board.create('point',[
+  function(){return changeofvariables_graph2_offset+changeofvariables_xfunc(changeofvariables_pse.X(),changeofvariables_pse.Y());},
+  function(){return changeofvariables_yfunc(changeofvariables_pse.X(),changeofvariables_pse.Y());} ], {withLabel:false,strokeColor:'#ffff00',fillColor:'#ffff00'});
+
+// The curves corresponding to the rectangle sides.
+var changeofvariables_arcn = changeofvariables_board.createElement('curve', [
+    function(t){return changeofvariables_graph2_offset+changeofvariables_xfunc(t,changeofvariables_pnw.Y());},
+    function(t){return changeofvariables_yfunc(t,changeofvariables_pnw.Y());},
+    function(){return changeofvariables_pnw.X();}, 
+    function(){return changeofvariables_pne.X();},
+  ]);
+var changeofvariables_arcs = changeofvariables_board.createElement('curve', [
+    function(t){return changeofvariables_graph2_offset+changeofvariables_xfunc(t,changeofvariables_psw.Y());},
+    function(t){return changeofvariables_yfunc(t,changeofvariables_psw.Y());},
+    function(){return changeofvariables_psw.X();}, 
+    function(){return changeofvariables_pse.X();},
+  ]);
+var arcw = changeofvariables_board.createElement('curve', [
+    function(t){return changeofvariables_graph2_offset+changeofvariables_xfunc(changeofvariables_psw.X(),t);},
+    function(t){return changeofvariables_yfunc(changeofvariables_psw.X(),t);},
+    function(){return changeofvariables_psw.Y();}, 
+    function(){return changeofvariables_pnw.Y();},
+  ]);
+var arce = changeofvariables_board.createElement('curve', [
+    function(t){return changeofvariables_graph2_offset+changeofvariables_xfunc(changeofvariables_pse.X(),t);},
+    function(t){return changeofvariables_yfunc(changeofvariables_pse.X(),t);},
+    function(){return changeofvariables_pse.Y();}, 
+    function(){return changeofvariables_pne.Y();},
+  ]);
+})();
+</script>
+<a id="fig:corresponding areas"></a>
+<div class='figcaption'><span class="figurenumber">Figure 15.7.3.</span> Corresponding areas.</div></div>
+<p>
+</p><p>
+In this case, the region in the $x$-$y$ plane is approximately a
+rectangle with dimensions $\Delta r\times r\Delta\theta$, but in
+general the corner angles will not be right angles, so the region will
+typically be (almost) a parallelogram. We need to compute the area of
+this parallelogram. We know
+a neat way to do this: compute the length of a certain cross product
+(section <a href="section12.04.html#page:parallelogram area">12.4</a>).
+If we can determine an
+appropriate two vectors we'll be nearly done.
+</p><p>
+Fortunately, we've really done this before. The sides of the region in
+the $x$-$y$ plane are formed by temporarily fixing either $r$ or
+$\theta$ and letting the other variable range over a small interval.
+In figure <a href="section15.07.html#fig:small approximating parallelogram">15.7.4</a>, for example, the upper right
+edge of the region is formed by fixing $\theta=2\pi/3$ and letting $r$
+run from $0.5$ to $0.75$. In other words, we have a vector function
+${\bf v}(r)=\langle r\cos\theta_0, r\sin\theta_0, 0\rangle$, and we
+are interested in a restricted set of values for $r$. A vector tangent
+to this path is given by the derivative ${\bf v}'(r)=\langle
+\cos\theta_0, \sin\theta_0, 0\rangle$, and a small tangent vector,
+with length approximately equal to the side of the region, is $\langle
+\cos\theta_0, \sin\theta_0, 0\rangle\,dr$. Likewise, if we fix
+$r=r_0=0.5$, we get the vector function ${\bf w}(\theta)=\langle
+r_0\cos\theta, r_0\sin\theta, 0\rangle$ with derivative ${\bf
+  w}'(\theta)=\langle -r_0\sin\theta, r_0\cos\theta, 0\rangle$ and a
+small tangent vector $\langle -r_0\sin\theta_0, r_0\cos\theta_0,
+0\rangle\,d\theta$ when $\theta=\theta_0$ (at the corner we're
+focusing on). These vectors are shown in 
+figure <a href="section15.07.html#fig:small approximating parallelogram">15.7.4</a>, with the actual
+region outlined by a dotted boundary. Of course, since both $\Delta r$
+and $\Delta\theta$ are quite large, the parallelogram is not a
+particularly good approximation to the true area.
+</p><p>
+<a id="fig:small approximating parallelogram"></a>
+</p><div class='figure'><!-- Multiple_integration-change_of_variables_parallelogram.html -->
+<!-- Figure 15.7.4 -->
+<div id='approximating_parallelogram' class='jxgbox' style="width:70%"></div>
+
+
+<script type='text/javascript'>
+(function () {  // BEGIN: scope limiting function wrapper
+  var i;
+  var xmin=-1.5, xmax= 1.5, ymin=-0.5, ymax=1.5;
+  var AspectRatio =  ((ymax-ymin)/(xmax-xmin)); // height/width
+  var wd=document.getElementById('approximating_parallelogram').offsetWidth;
+  var ht=wd*AspectRatio;
+  var yfactor = (ymax-ymin)/(ht);
+  var xfactor = (xmax-xmin)/(wd);
+  var xaxis_label_offset = yfactor*15;
+  var yaxis_label_offset = xfactor*20;
+  document.getElementById('approximating_parallelogram').style.height=ht+'px';
+  var brd =
+  JXG.JSXGraph.initBoard('approximating_parallelogram',{boundingbox:[xmin,ymax,xmax,ymin],
+  showCopyright:false, showNavigation:false}) ;
+  var xaxis = brd.create('arrow', [[-1.25,0],
+  [1.25,0]],{strokeWidth:1,strokeColor:'black',fixed:true});
+  brd.create('text',[1.25+xfactor*5,0,'$x$'],{fixed:true});
+  var xi =
+  brd.create('segment',[[-2,0],[1.1,0]],{visible:false,fixed:true});
+  brd.create('ticks',[xi,1],{minorTicks:false,fixed:true});
+  for (i=-1; i<=1; i++) {
+    brd.create('text',[i-xfactor*3,-xaxis_label_offset,'$'+i+'$'],{fixed:true});
+  }
+  var yaxis = brd.create('arrow',
+  [[0,0],[0,1.25]],{strokeWidth:1,strokeColor:'black',fixed:true});
+  brd.create('text',[xfactor*5,1.25+yfactor*5,'$y$'],{fixed:true});
+  brd.create('arrow',[[-0.25,0.433],[-0.375,0.65]],{strokeWidth:1,fixed:true});
+  brd.create('arrow',[[-0.25,0.433],[-0.477,0.302]],{strokeWidth:1,fixed:true});
+  brd.create('segment',[[-0.477,0.302],[-0.602,0.519]],{dash:2,strokeWidth:1,fixed:true});
+  brd.create('segment',[[-0.602,0.519],[-0.375,0.65]],{dash:2,strokeWidth:1,fixed:true});
+  var x = function(t) { return Math.cos(t)/2; }
+  var y = function(t) { return Math.sin(t)/2; }
+  brd.create('curve',[x,y,Math.PI/3*2,Math.PI/6*5],{dash:1,strokeWidth:1,fixed:true,strokeColor:'green'});
+  x = function(t) { return Math.cos(t)/4*3; }
+  y = function(t) { return Math.sin(t)/4*3; }
+  brd.create('curve',[x,y,Math.PI/3*2,Math.PI/6*5],{dash:1,strokeWidth:1,fixed:true,strokeColor:'green'});
+  brd.create('segment',[[Math.cos(Math.PI*5/6)/2,Math.sin(Math.PI*5/6)/2],
+    [Math.cos(Math.PI*5/6)/4*3,Math.sin(Math.PI*5/6)/4*3]],
+    {dash:1,strokeWidth:1,fixed:true,strokeColor:'green'});
+})(); // END: scope limiting function wrapper
+</script>
+<div class='figcaption'><span class="figurenumber">Figure 15.7.4.</span> The approximating parallelogram.</div></div>
+<p>
+</p><p>
+The area of this parallelogram is the length of the cross product:
+$$\eqalign{
+\langle -r_0\sin\theta_0, r_0\cos\theta_0,
+0\rangle\,d\theta\times\langle
+\cos\theta_0, \sin\theta_0, 0\rangle\,dr &= 
+\left|\matrix{{\bf i}&{\bf j}&{\bf k}\cr
+-r_0\sin\theta_0&r_0\cos\theta_0&0\cr
+\cos\theta_0&\sin\theta_0&0\cr}\right|\,d\theta\,dr\cr
+&=\langle 0,0,-r_0\sin^2\theta_0-r_0\cos^2\theta_0\rangle\,d\theta\,dr\cr
+&=\langle 0,0,-r_0\rangle\,d\theta\,dr.\cr
+}$$
+The length of this vector is $r_0\,dr\,d\theta$. So in general, for
+any values of $r$ and $\theta$, the area in the $x$-$y$ plane
+corresponding to a small rectangle anchored at $(\theta,r)$ in the
+$r$-$\theta$ plane is approximately $r\,dr\,d\theta$. In other words, "$r$''
+replaces the "?'' in  equation <a href="section15.07.html#eq:target integral">15.7.2</a>.
+</p><p>
+In general, a substitution will start with equations $x=f(u,v)$ and
+$y=g(u,v)$. Again, it will be straightforward to convert the function
+being integrated. Converting the limits will require, as above, an
+understanding of just how the functions $f$ and $g$ transform the
+$u$-$v$ plane into the $x$-$y$ plane. Finally, the small vectors we
+need to approximate an area will be
+$\langle f_u,g_u,0\rangle\,du$ and $\langle f_v,g_v,0\rangle\,dv$.
+The cross product of these is $\langle
+0,0,f_ug_v-g_uf_v\rangle\,du\,dv$ with length 
+$|f_ug_v-g_uf_v|\,du\,dv$. The quantity $|f_ug_v-g_uf_v|$ is usually
+denoted
+$$\left|{\partial(x,y)\over\partial(u,v)}\right|=|f_ug_v-g_uf_v|$$
+and called the <b>Jacobian</b>.
+Note that this is the absolute value of the two by two determinant
+$$\left|\matrix{f_u&g_u\cr
+f_v&g_v\cr}\right|,$$
+which may be easier to remember. (Confusingly, the matrix, the
+determinant of the matrix, and the absolute value of the determinant
+are all called the Jacobian by various authors.)
+</p><p>
+Because there are two things to worry about, namely, the form of the
+function and the region of integration, transformations in two (or
+more) variables are quite tricky to discover.
+</p><p>
+</p>
+<div class="example">
+<p>
+<span class="theoremlabel">Example 15.7.1 </span>Integrate $x^2-xy+y^2$ over the region $x^2-xy+y^2\le 2$.
+</p><p>
+The equation $x^2-xy+y^2= 2$ describes an ellipse as in
+figure <a href="section15.07.html#fig:skewed ellipse">15.7.5</a>; the region of integration is the
+interior of the ellipse. We will use the transformation 
+$x=\sqrt2 u-\sqrt{2/3}v$, $y=\sqrt2 u+\sqrt{2/3}v$.
+Substituting into the function itself we get
+$$x^2-xy+y^2=2u^2+2v^2.
+$$
+The boundary of the ellipse is $x^2-xy+y^2=2$, so the boundary of
+the corresponding region in the $u$-$v$ plane is $2u^2+2v^2=2$
+or $u^2+v^2=1$, the unit circle, so this substitution makes the region
+of integration simpler. 
+</p><p>
+Next, we compute the Jacobian, using $f=\sqrt2 u-\sqrt{2/3}v$ and 
+$g=\sqrt2 u+\sqrt{2/3}v$:
+$$f_ug_v-g_uf_v=\sqrt2\sqrt{2/3}+\sqrt2\sqrt{2/3}={4\over\sqrt3}.$$
+Hence the new integral is 
+$$\dint{R} (2u^2+2v^2){4\over\sqrt3}\,du\,dv,$$
+where $R$ is the interior of the unit circle.
+This is still not an easy integral, but it is easily transformed to
+polar coordinates, and then easily integrated.
+<a id="example:change of variables"></a>
+
+</p>
+</div><!-- example -->
+<p>
+</p><p>
+<a id="fig:skewed ellipse"></a>
+</p><div class='figure'><!-- Multiple_integration-skewed_ellipse.html -->
+<!-- Figure 15.2.5 -->
+<div id='skewed_ellipse' class='jxgbox' style="width:60%"></div>
+
+<script type='text/javascript'>
+(function () {  // BEGIN: scope limiting function wrapper
+  var xmin=-2.2, xmax=2.2, ymin=-2.2, ymax=2.2;
+  var AspectRatio =  ((ymax-ymin)/(xmax-xmin)); // height/width
+  var wd=document.getElementById('skewed_ellipse').offsetWidth;
+  var ht=wd*AspectRatio;
+  var yfactor = (ymax-ymin)/(ht);
+  var xfactor = (xmax-xmin)/(wd);
+  var xaxis_label_offset = yfactor*15;
+  var yaxis_label_offset = xfactor*20;
+  document.getElementById('skewed_ellipse').style.height=ht+'px';
+  var brd = JXG.JSXGraph.initBoard('skewed_ellipse',{boundingbox:[xmin,ymax,xmax,ymin], showCopyright:false, showNavigation:false}) ;
+  var rejax = function() {
+     MathJax.Hub.Queue(["Typeset",MathJax.Hub]); 
+  }
+  brd.addHook(rejax)
+
+  var xaxis = brd.create('arrow', [[-2,0], [2,0]],{strokeWidth:1,strokeColor:'black',fixed:true});
+  var yaxis = brd.create('arrow', [[0,-2],[0,2]],{strokeWidth:1,strokeColor:'black',fixed:true});
+  var x = function(t) { 
+    return Math.cos(t)*Math.sqrt(2)/Math.sqrt(Math.cos(t)*Math.cos(t)-
+           Math.sin(t)*Math.cos(t)+Math.sin(t)*Math.sin(t)); 
+  }
+  var y = function(t) { 
+    return Math.sin(t)*Math.sqrt(2)/Math.sqrt(Math.cos(t)*Math.cos(t)-
+           Math.sin(t)*Math.cos(t)+Math.sin(t)*Math.sin(t)); 
+  }
+  brd.create('curve',[x,y,0,Math.PI*2],{fixed:true});
+})(); // END: scope limiting function wrapper
+</script>
+
+<div class='figcaption'><span class="figurenumber">Figure 15.7.5.</span> $x^2-xy+y^2=2$</div></div>
+<p>
+</p><p>
+There is a similar change of variables formula for triple integrals,
+though it is a bit more difficult to derive.
+Suppose we use three substitution functions, $x=f(u,v,w)$,
+$y=g(u,v,w)$, and $z=h(u,v,w)$.  The Jacobian determinant is now
+$$
+  {\partial(x,y,z)\over\partial(u,v,w)} =  
+  \left|\matrix{f_u&g_u&h_u\cr
+  f_v&g_v&h_v\cr
+  f_w&g_w&h_w\cr}\right|.
+$$
+Then the integral is transformed in a similar fashion:
+$$
+  \int\!\int\!\int_R F(x,y,z) \, dV = 
+  \int\!\int\!\int_S F(f(u,v,w),g(u,v,w),h(u,v,w)) 
+  \left|{\partial(x,y,z)\over\partial(u,v,w)}\right| \,du\,dv\,dw,
+$$
+where of course the region $S$ in $uvw$ space corresponds to the
+region $R$ in $xyz$ space.
+</p><p>
+</p>
+<a id="exercises"></a><h2 class="exercises">Exercises 15.7</h2>
+<p></p><p>
+</p>
+<p class="exercise"><b>Ex 15.7.1</b>
+Complete example <a href="section15.07.html#example:change of variables">15.7.1</a> by
+converting to polar coordinates and evaluating the integral.
+(<a knowl="" class="internal" value="$\ds 4\pi\sqrt3/3$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 15.7.2</b>
+Evaluate $\ds\dint{} xy\,dx\,dy$ over the square
+with corners $(0,0)$, $(1,1)$, $(2,0)$, and $(1,-1)$ in two ways:
+directly, and using $x=(u+v)/2$, $y=(u-v)/2$.
+(<a knowl="" class="internal" value="$0$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 15.7.3</b>
+Evaluate $\ds\dint{} x^2+y^2\,dx\,dy$ over the square
+with corners $(-1,0)$, $(0,1)$, $(1,0)$, and $(0,-1)$ in two ways:
+directly, and using $x=(u+v)/2$, $y=(u-v)/2$.
+(<a knowl="" class="internal" value="$2/3$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 15.7.4</b>
+Evaluate $\ds\dint{} (x+y)e^{x-y}\,dx\,dy$ over the triangle
+with corners $(0,0)$, $(-1,1)$, and $(1,1)$ in two ways:
+directly, and using $x=(u+v)/2$, $y=(u-v)/2$.
+(<a knowl="" class="internal" value="$\ds {e^2-1\over 2e^2}$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 15.7.5</b>
+Evaluate $\ds\dint{} y(x-y)\,dx\,dy$ over the parallelogram
+with corners $(0,0)$, $(3,3)$, $(7,3)$, and $(4,0)$ in two ways:
+directly, and using $x=u+v$, $y=u$.
+(<a knowl="" class="internal" value="$36$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 15.7.6</b>
+Evaluate $\ds\dint{} \sqrt{x^2+y^2}\,dx\,dy$ over the
+triangle with corners $(0,0)$, $(4,4)$, and $(4,0)$ using $x=u$, $y=uv$.
+(<a knowl="" class="internal" value="$32(\sqrt2+\ln(1+\sqrt2))/3$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 15.7.7</b>
+Evaluate $\ds\dint{} y\sin(xy)\,dx\,dy$ over the
+region bounded by $xy=1$, $xy=4$, $y=1$, and $y=4$ using
+$x=u/v$, $y=v$.
+(<a knowl="" class="internal" value="$3\cos(1)-3\cos(4)$">answer</a>)
+
+</p><p>
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 15.7.8</b>
+Evaluate $\ds\dint{} \sin(9x^2 + 4y^2)\,dA,$ over the region
+ in the first quadrant bounded by the ellipse $9x^2+4y^2 = 1$.
+(<a knowl="" class="internal" value="$\pi(1-\cos(1))/24$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 15.7.9</b>
+Compute the Jacobian for the substitutions 
+$x=\rho\sin\phi\cos\theta$, $y=\rho\sin\phi\sin\theta$, 
+$z=\rho\cos\phi$.
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 15.7.10</b>
+Evaluate $\ds\tint{E}dV$ where $E$ is the solid
+enclosed by the ellipsoid
+$${x^2\over a^2} + {y^2\over b^2} + {z^2\over c^2} = 1,$$ 
+using the transformation $x=au$, $y=bv$, and $z=cw$.
+(<a knowl="" class="internal" value="$(4/3)\pi abc$">answer</a>)
+
+
+</p><p>
+
+
+</div></div></body>
+</html>

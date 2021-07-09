@@ -1,0 +1,843 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+<meta http-equiv="Content-Language" Content="en">
+<title>5.1 Maxima and Minima</title>
+<!--
+<script type="text/javascript" src="js/deployJava.js"></script>
+<link rel="stylesheet" type="text/css" href="http://jsxgraph.uni-bayreuth.de/distrib/jsxgraph.css" />
+-->
+<!-- use Jsxgraph to create figures: http://jsxgraph.uni-bayreuth.de/wp/ -->
+<link rel="stylesheet" type="text/css" href="css/jsxgraph.css" />
+<script type="text/javascript" src="js/jsxgraphcore.js"></script>
+<script src="js/three.min.js"></script>
+<script src="js/Detector.js"></script>
+<script src="js/TrackballControls.js"></script>
+<script src="js/OrthographicTrackballControls.js"></script>
+<script src="js/THREEx.KeyboardState.js"></script>
+<script src="js/THREEx.FullScreen.js"></script>
+<script src="js/THREEx.WindowResize.js"></script>
+<script type='text/javascript' src='js/DAT.GUI.min.js'></script>
+<script>
+window.requestAnimFrame = (function(){
+    return  window.requestAnimationFrame       || 
+        window.webkitRequestAnimationFrame || 
+        window.mozRequestAnimationFrame    || 
+        window.oRequestAnimationFrame      || 
+        window.msRequestAnimationFrame     || 
+        function(/* function */ callback, /* DOMElement */
+            element){
+            window.setTimeout(callback, 1000 / 60);
+        };
+})();
+</script>
+<script src="js/ifvisible.min.js"></script>
+<script src="js/conrec.js"></script>
+<script>
+active = true;
+ifvisible.setIdleDuration(10);
+ifvisible.on("idle", function(){
+    active = false;
+//    console.log("idle");
+});
+
+ifvisible.on("wakeup", function(){
+    active = true;
+//    console.log("wakeup");
+});
+</script>
+<script src="js/parser.js"></script>
+<link href="css/whitman.css" rel="stylesheet" type="text/css" /><link href="css/calculus.css" rel="stylesheet" type="text/css" /><link href="css/knowlstyle.css" rel="stylesheet" type="text/css" />
+
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  extensions: ["tex2jax.js","TeX/AMSmath.js","TeX/AMSsymbols.js"],
+  jax: ["input/TeX","output/HTML-CSS"],
+  tex2jax: {
+    inlineMath: [['$','$'],["\\(","\\)"]],
+    processEscapes: true,
+  },
+TeX: {
+   Macros: {
+    val: "\\mathop{\\rm val}",
+    divides: "\\mid",
+    ndivides: "\\mathrel{\\not|}",
+    fix: "\\mathop{\\rm fix}",
+    id: "\\mathop{\\rm id}",
+    na: "\\mathop{\\rm na}",
+    d: "\\mathop{\\rm\\strut d}\\nolimits ",
+    legendre: ["\\left(\\frac{#1}{#2}\\right)",2],
+    normalbaselines: "",
+    notdiv: "\\nmid",
+    implies: "\\Rightarrow",
+    iff: "\\Leftrightarrow",
+    sevenpoint: "\\scriptsize",
+    ds: "\\displaystyle",
+    lcm: "\\operatorname{lcm}",
+    arccot: "\\operatorname{arccot}",
+    arcsec: "\\operatorname{arcsec}",
+    arccsc: "\\operatorname{arccsc}",
+    arccosh: "\\operatorname{arccosh}",
+    arcsinh: "\\operatorname{arcsinh}",
+    arcsech: "\\operatorname{arcsech}",
+    sech: "\\operatorname{sech}",
+    csch: "\\operatorname{csch}",
+    R: "{\\mathbb R}",
+    sb: "_",
+    sp: "^",
+    Q: "{\\mathbb Q}",
+    C: "{\\mathbb C}",
+    N: "{\\mathbb N}",
+    Z: "{\\mathbb Z}",
+    U: "{\\mathbb U}",
+    v: ["\\langle #1\\rangle",1],
+    dint: ["{\\mathchoice{\\mathop{\\int\\!\\!\\!\\int}_{#1}}{\\mathop{\\int\\!\\!\\!\\int}_{#1}}{\\mathop{\\int\\!\\!\\!\\int}}{\\mathop{\\int\\!\\!\\!\\int}}}",1],
+    tint: ["{\\mathchoice{\\mathop{\\int\\!\\!\\!\\int\\!\\!\\!\\int}_{#1\\;}}{\\mathop{\\int\\!\\!\\!\\int\\!\\!\\!\\int}_{#1}}{\\mathop{\\int\\!\\!\\!\\int\\!\\!\\!\\int}_{#1}}{\\mathop{\\int\\!\\!\\!\\int\\!\\!\\!\\int}_{#1}}}",1]
+   }
+},
+  "HTML-CSS": { scale: 100},
+  menuSettings: { zscale: "150%", zoom: "Double-Click" }
+});
+    JXG.Options.text.display = 'html';
+    JXG.Options.text.useMathJax = true;
+</script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/math
+jax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+<script>
+MathJax.Hub.Register.StartupHook("End",function () {
+  if(typeof window.orientation === 'undefined'){
+    var i,x;
+    x = document.getElementsByClassName("webgl_display");
+    for (i=0; i<x.length; i++) {
+      x[i].style.display = "block";
+    }
+    x = document.getElementsByClassName("no_webgl_display");
+    for (i=0; i<x.length; i++) {
+      x[i].style.display = "none";
+    }
+  }
+});
+</script>
+
+<script src="js/jquery-3.1.0.min.js"></script>
+<script src="https://sagecell.sagemath.org/static/embedded_sagecell.js"></script>
+<script src="js/jquery.visible.min.js"></script>
+<script type="text/javascript" src="js/knowl.js"></script>
+<style type="text/css">
+
+.sagecell .CodeMirror {
+  height: auto;
+}
+
+.sagecell .CodeMirror-scroll {
+  overflow-y: hidden;
+  overflow-x: auto;
+}
+
+.sagecell-practice .CodeMirror-scroll {
+}
+
+.sagecell button.sagecell_evalButton {
+    font-size: 50%;
+}
+
+.sagecell_sessionContainer {
+    margin-bottom:1em;
+}
+</style>
+<script>
+function toggle(a) {
+  var b = String(a);
+  b=b.replace("contents","button");
+  if (document.getElementById(a).style.display == "block") {
+    document.getElementById(a).style.display = "none";
+    document.getElementById(b).src = "expand_submenu.png";
+  } else {
+    document.getElementById(a).style.display = "block";
+    document.getElementById(b).src = "collapse_submenu.png";
+  }
+}
+function toggle_sidebar() {
+  if (document.getElementById('sidebar').style.display == "block") {
+    document.getElementById('sidebar').style.display = "none";
+    document.getElementById('menu_expand').style.display = "block";
+  } else {
+    document.getElementById('sidebar').style.display = "block";
+    document.getElementById('menu_expand').style.display = "none";
+  }
+}
+</script>
+
+</head>
+
+<body class="" onload="toggle('chapter_05_contents')">
+<div id="header">
+<div class="right">
+<div class="bread">
+  <a href=".">Home</a> &raquo; <a href="chapter05.html">Curve Sketching</a> &raquo; <a href="section05.01.html">Maxima and Minima</a>
+</div>
+
+<FORM method=GET action=https://www.google.com/custom id="search">
+<INPUT TYPE=text name=q size=31 maxlength=255 value="" style="font-size:small">
+<INPUT type=submit name=sa VALUE="Search the book" style="font-size:small">
+<INPUT type=hidden name=cof VALUE="AH:center;AWFID:198dc2b883340b1f;">
+<input type=hidden name=domains value="www.whitman.edu">
+<input type=hidden name=sitesearch value="www.whitman.edu/mathematics/calculus_online/">
+</FORM>
+<div id="title"><span id="title-content">5.1 Maxima and Minima</span></div><a href="#exercises">[Jump to exercises]</a>
+</div>
+</div>
+<div id="menu_expand" style="display:none"><a href="javascript:toggle_sidebar()">Expand menu</a></div>
+<div id="sidebar" style="display:block">
+<h2 id="menu_collapse"><a href='javascript:toggle_sidebar()'>Collapse menu</a></h2>
+<h2 class="link"><img id="chapter_01_button" src="expand_submenu.png" onclick='toggle("chapter_01_contents")'><a href="chapter01.html">1 Analytic Geometry</a></h2>
+
+<ul class="list" id="chapter_01_contents">
+<li><a href="section01.01.html">1. Lines</a></li>
+<li><a href="section01.02.html">2. Distance Between Two Points; Circles</a></li>
+<li><a href="section01.03.html">3. Functions</a></li>
+<li><a href="section01.04.html">4. Shifts and Dilations</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_02_button" src="expand_submenu.png" onclick='toggle("chapter_02_contents")'><a href="chapter02.html">2 Instantaneous Rate of Change:  The Derivative</a></h2>
+
+<ul class="list" id="chapter_02_contents">
+<li><a href="section02.01.html">1. The slope of a function</a></li>
+<li><a href="section02.02.html">2. An example</a></li>
+<li><a href="section02.03.html">3. Limits</a></li>
+<li><a href="section02.04.html">4. The Derivative Function</a></li>
+<li><a href="section02.05.html">5. Adjectives For Functions</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_03_button" src="expand_submenu.png" onclick='toggle("chapter_03_contents")'><a href="chapter03.html">3 Rules for Finding Derivatives</a></h2>
+
+<ul class="list" id="chapter_03_contents">
+<li><a href="section03.01.html">1. The Power Rule</a></li>
+<li><a href="section03.02.html">2. Linearity of the Derivative</a></li>
+<li><a href="section03.03.html">3. The Product Rule</a></li>
+<li><a href="section03.04.html">4. The Quotient Rule</a></li>
+<li><a href="section03.05.html">5. The Chain Rule</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_04_button" src="expand_submenu.png" onclick='toggle("chapter_04_contents")'><a href="chapter04.html">4 Transcendental Functions</a></h2>
+
+<ul class="list" id="chapter_04_contents">
+<li><a href="section04.01.html">1. Trigonometric Functions</a></li>
+<li><a href="section04.02.html">2. The Derivative of $\sin x$</a></li>
+<li><a href="section04.03.html">3. A hard limit</a></li>
+<li><a href="section04.04.html">4. The Derivative of $\sin x$, continued</a></li>
+<li><a href="section04.05.html">5. Derivatives of the Trigonometric Functions</a></li>
+<li><a href="section04.06.html">6. Exponential and Logarithmic functions</a></li>
+<li><a href="section04.07.html">7. Derivatives of the exponential and  logarithmic functions</a></li>
+<li><a href="section04.08.html">8. Implicit Differentiation</a></li>
+<li><a href="section04.09.html">9. Inverse Trigonometric Functions</a></li>
+<li><a href="section04.10.html">10. Limits revisited</a></li>
+<li><a href="section04.11.html">11. Hyperbolic Functions</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_05_button" src="expand_submenu.png" onclick='toggle("chapter_05_contents")'><a href="chapter05.html">5 Curve Sketching</a></h2>
+
+<ul class="list" id="chapter_05_contents">
+<li><a href="section05.01.html">1. Maxima and Minima</a></li>
+<li><a href="section05.02.html">2. The first derivative test</a></li>
+<li><a href="section05.03.html">3. The second derivative test</a></li>
+<li><a href="section05.04.html">4. Concavity and inflection points</a></li>
+<li><a href="section05.05.html">5. Asymptotes and Other Things to Look For</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_06_button" src="expand_submenu.png" onclick='toggle("chapter_06_contents")'><a href="chapter06.html">6 Applications of the Derivative</a></h2>
+
+<ul class="list" id="chapter_06_contents">
+<li><a href="section06.01.html">1. Optimization</a></li>
+<li><a href="section06.02.html">2. Related Rates</a></li>
+<li><a href="section06.03.html">3. Newton's Method</a></li>
+<li><a href="section06.04.html">4. Linear Approximations</a></li>
+<li><a href="section06.05.html">5. The Mean Value Theorem</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_07_button" src="expand_submenu.png" onclick='toggle("chapter_07_contents")'><a href="chapter07.html">7 Integration</a></h2>
+
+<ul class="list" id="chapter_07_contents">
+<li><a href="section07.01.html">1. Two examples</a></li>
+<li><a href="section07.02.html">2. The Fundamental Theorem of Calculus</a></li>
+<li><a href="section07.03.html">3. Some Properties of Integrals</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_08_button" src="expand_submenu.png" onclick='toggle("chapter_08_contents")'><a href="chapter08.html">8 Techniques of Integration</a></h2>
+
+<ul class="list" id="chapter_08_contents">
+<li><a href="section08.01.html">1. Substitution</a></li>
+<li><a href="section08.02.html">2. Powers of sine and cosine</a></li>
+<li><a href="section08.03.html">3. Trigonometric Substitutions</a></li>
+<li><a href="section08.04.html">4. Integration by Parts</a></li>
+<li><a href="section08.05.html">5. Rational Functions</a></li>
+<li><a href="section08.06.html">6. Numerical Integration</a></li>
+<li><a href="section08.07.html">7. Additional exercises</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_09_button" src="expand_submenu.png" onclick='toggle("chapter_09_contents")'><a href="chapter09.html">9 Applications of Integration</a></h2>
+
+<ul class="list" id="chapter_09_contents">
+<li><a href="section09.01.html">1. Area between curves</a></li>
+<li><a href="section09.02.html">2. Distance, Velocity, Acceleration</a></li>
+<li><a href="section09.03.html">3. Volume</a></li>
+<li><a href="section09.04.html">4. Average value of a function</a></li>
+<li><a href="section09.05.html">5. Work</a></li>
+<li><a href="section09.06.html">6. Center of Mass</a></li>
+<li><a href="section09.07.html">7. Kinetic energy; improper integrals</a></li>
+<li><a href="section09.08.html">8. Probability</a></li>
+<li><a href="section09.09.html">9. Arc Length</a></li>
+<li><a href="section09.10.html">10. Surface Area</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_10_button" src="expand_submenu.png" onclick='toggle("chapter_10_contents")'><a href="chapter10.html">10 Polar Coordinates,  Parametric Equations</a></h2>
+
+<ul class="list" id="chapter_10_contents">
+<li><a href="section10.01.html">1. Polar Coordinates</a></li>
+<li><a href="section10.02.html">2. Slopes in polar coordinates</a></li>
+<li><a href="section10.03.html">3. Areas in polar coordinates</a></li>
+<li><a href="section10.04.html">4. Parametric Equations</a></li>
+<li><a href="section10.05.html">5. Calculus with Parametric Equations</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_11_button" src="expand_submenu.png" onclick='toggle("chapter_11_contents")'><a href="chapter11.html">11 Sequences and Series</a></h2>
+
+<ul class="list" id="chapter_11_contents">
+<li><a href="section11.01.html">1. Sequences</a></li>
+<li><a href="section11.02.html">2. Series</a></li>
+<li><a href="section11.03.html">3. The Integral Test</a></li>
+<li><a href="section11.04.html">4. Alternating Series</a></li>
+<li><a href="section11.05.html">5. Comparison Tests</a></li>
+<li><a href="section11.06.html">6. Absolute Convergence</a></li>
+<li><a href="section11.07.html">7. The Ratio and Root Tests</a></li>
+<li><a href="section11.08.html">8. Power Series</a></li>
+<li><a href="section11.09.html">9. Calculus with Power Series</a></li>
+<li><a href="section11.10.html">10. Taylor Series</a></li>
+<li><a href="section11.11.html">11. Taylor's Theorem</a></li>
+<li><a href="section11.12.html">12. Additional exercises</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_12_button" src="expand_submenu.png" onclick='toggle("chapter_12_contents")'><a href="chapter12.html">12 Three Dimensions</a></h2>
+
+<ul class="list" id="chapter_12_contents">
+<li><a href="section12.01.html">1. The Coordinate System</a></li>
+<li><a href="section12.02.html">2. Vectors</a></li>
+<li><a href="section12.03.html">3. The Dot Product</a></li>
+<li><a href="section12.04.html">4. The Cross Product</a></li>
+<li><a href="section12.05.html">5. Lines and Planes</a></li>
+<li><a href="section12.06.html">6. Other Coordinate Systems</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_13_button" src="expand_submenu.png" onclick='toggle("chapter_13_contents")'><a href="chapter13.html">13 Vector Functions</a></h2>
+
+<ul class="list" id="chapter_13_contents">
+<li><a href="section13.01.html">1. Space Curves</a></li>
+<li><a href="section13.02.html">2. Calculus with vector functions</a></li>
+<li><a href="section13.03.html">3. Arc length and curvature</a></li>
+<li><a href="section13.04.html">4. Motion along a curve</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_14_button" src="expand_submenu.png" onclick='toggle("chapter_14_contents")'><a href="chapter14.html">14 Partial Differentiation</a></h2>
+
+<ul class="list" id="chapter_14_contents">
+<li><a href="section14.01.html">1. Functions of Several Variables</a></li>
+<li><a href="section14.02.html">2. Limits and Continuity</a></li>
+<li><a href="section14.03.html">3. Partial Differentiation</a></li>
+<li><a href="section14.04.html">4. The Chain Rule</a></li>
+<li><a href="section14.05.html">5. Directional Derivatives</a></li>
+<li><a href="section14.06.html">6. Higher order derivatives</a></li>
+<li><a href="section14.07.html">7. Maxima and minima</a></li>
+<li><a href="section14.08.html">8. Lagrange Multipliers</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_15_button" src="expand_submenu.png" onclick='toggle("chapter_15_contents")'><a href="chapter15.html">15 Multiple Integration</a></h2>
+
+<ul class="list" id="chapter_15_contents">
+<li><a href="section15.01.html">1. Volume and Average Height</a></li>
+<li><a href="section15.02.html">2. Double Integrals in Cylindrical Coordinates</a></li>
+<li><a href="section15.03.html">3. Moment and Center of Mass</a></li>
+<li><a href="section15.04.html">4. Surface Area</a></li>
+<li><a href="section15.05.html">5. Triple Integrals</a></li>
+<li><a href="section15.06.html">6. Cylindrical and Spherical Coordinates</a></li>
+<li><a href="section15.07.html">7. Change of Variables</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_16_button" src="expand_submenu.png" onclick='toggle("chapter_16_contents")'><a href="chapter16.html">16 Vector Calculus</a></h2>
+
+<ul class="list" id="chapter_16_contents">
+<li><a href="section16.01.html">1. Vector Fields</a></li>
+<li><a href="section16.02.html">2. Line Integrals</a></li>
+<li><a href="section16.03.html">3. The Fundamental Theorem of Line Integrals</a></li>
+<li><a href="section16.04.html">4. Green's Theorem</a></li>
+<li><a href="section16.05.html">5. Divergence and Curl</a></li>
+<li><a href="section16.06.html">6. Vector Functions for Surfaces</a></li>
+<li><a href="section16.07.html">7. Surface Integrals</a></li>
+<li><a href="section16.08.html">8. Stokes's Theorem</a></li>
+<li><a href="section16.09.html">9. The Divergence Theorem</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_17_button" src="expand_submenu.png" onclick='toggle("chapter_17_contents")'><a href="chapter17.html">17 Differential Equations</a></h2>
+
+<ul class="list" id="chapter_17_contents">
+<li><a href="section17.01.html">1. First Order Differential Equations</a></li>
+<li><a href="section17.02.html">2. First Order Homogeneous Linear Equations</a></li>
+<li><a href="section17.03.html">3. First Order Linear Equations</a></li>
+<li><a href="section17.04.html">4. Approximation</a></li>
+<li><a href="section17.05.html">5. Second Order Homogeneous Equations</a></li>
+<li><a href="section17.06.html">6. Second Order Linear Equations</a></li>
+<li><a href="section17.07.html">7. Second Order Linear Equations, take two</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_18_button" src="expand_submenu.png" onclick='toggle("chapter_18_contents")'><a href="chapter18.html">18 Useful formulas</a></h2>
+
+<ul class="list" id="chapter_18_contents">
+</ul>
+
+</div>
+
+<div id="main">
+
+<div id="next"><a href="chapter05.html"><img src=previous_section.png width="30"></a>&nbsp;&nbsp;<a href="section05.02.html"><img src=next_section.png width="30"></a></div>
+
+<div id="content">
+<p>
+
+
+</p><p>
+A <b>local maximum point</b> on a function is a
+point $(x,y)$ on the graph of the function whose $y$ coordinate is
+larger than all other $y$ coordinates on the graph at points "close
+to'' $(x,y)$. More precisely, $(x,f(x))$ is a local maximum if there
+is an interval $(a,b)$ with $a< x< b$ and $f(x)\ge f(z)$ for every $z$
+in $(a,b)$. Similarly, $(x,y)$ is a 
+<b>local minimum point</b>
+if it has locally the smallest $y$ coordinate. Again
+being more precise: $(x,f(x))$ is a local minimum if there
+is an interval $(a,b)$ with $a< x< b$ and $f(x)\le f(z)$ for every $z$
+in $(a,b)$. A 
+<b>local extremum</b>
+is either a local minimum or a local maximum.
+</p><p>
+Local maximum and minimum points are quite distinctive on the graph of
+a function, and are therefore useful in understanding the shape of the
+graph. In many applied problems we want to find the largest or
+smallest value that a function achieves (for example, we might want
+to find the minimum cost at which some task can be performed) and so
+identifying maximum and minimum points will be useful for applied
+problems as well. Some examples of local maximum and minimum points
+are shown in figure <a href="section05.01.html#fig:max and min points">5.1.1</a>.
+</p><p>
+<a id="fig:max and min points"></a>
+</p><div class='figure'><table style="width:100%">
+<tr style="width:100%">
+<td style="width:50%">
+<div id="max_min_points_1" class="jxgbox"></div>
+</td> <td style="width:50%">
+<div id="max_min_points_2" class="jxgbox"></div>
+</td> </tr></table>
+
+<script type="text/javascript">
+ (function () {  // BEGIN: scope limiting function wrapper
+  var xmin=-2, xmax=2, ymin=-2, ymax=2;
+  var AspectRatio = ((ymax-ymin)/(xmax-xmin)); // height/width
+  var wd=document.getElementById('max_min_points_1').offsetWidth;
+  var ht=wd*AspectRatio;
+  var yfactor = (ymax-ymin)/(ht);
+  var xfactor = (xmax-xmin)/(wd);
+  var xaxis_label_offset = yfactor*15;
+  var yaxis_label_offset = xfactor*20;
+  document.getElementById('max_min_points_1').style.height=ht+'px';
+  var f = function(x){ return (x-1)*x*(x+1); }
+  var brd = JXG.JSXGraph.initBoard('max_min_points_1', {axis:false, boundingbox:
+        [xmin,ymax,xmax,ymin], showCopyright:false, showNavigation:false});
+  var graph = brd.create('functiongraph', [f,-2,2], {strokeColor:'#00FF00'});
+  var x_axis = brd.create('line',[[0,0],[1,0]],{strokeColor:'#000000',fixed:true});
+  brd.createElement('ticks',[x_axis,1],{drawLabels:false,minorTicks:0});
+  var y_axis = brd.create('line',[[0,0],[0,1]],{strokeColor:'#000000',fixed:true});
+  brd.createElement('ticks',[y_axis,1],{drawLabels:false,minorTicks:0});
+  brd.create('point', [-1/Math.sqrt(3),2/3/Math.sqrt(3)] , {name:'$A$',fillColor:'black',strokeColor:'black',fixed:true,fontSize:15});
+  brd.create('point', [1/Math.sqrt(3),-2/3/Math.sqrt(3)] , 
+    {name:'$B$',fillColor:'black',strokeColor:'black',fixed:true,fontSize:15});
+})(); // END: scope limiting function wrapper
+      </script>
+
+
+<script type="text/javascript">
+ (function () {  // BEGIN: scope limiting function wrapper
+  var xmin=-6, xmax=6, ymin=-6, ymax=6;
+  var AspectRatio = ((ymax-ymin)/(xmax-xmin)); // height/width
+  var wd=document.getElementById('max_min_points_2').offsetWidth;
+  var ht=wd*AspectRatio;
+  var yfactor = (ymax-ymin)/(ht);
+  var xfactor = (xmax-xmin)/(wd);
+  var xaxis_label_offset = yfactor*15;
+  var yaxis_label_offset = xfactor*20;
+  document.getElementById('max_min_points_2').style.height=ht+'px';
+  var brd = JXG.JSXGraph.initBoard('max_min_points_2', 
+     {axis:false, boundingbox:[xmin,ymax,xmax,ymin], 
+     showCopyright:false, showNavigation:false});
+  var x_axis = brd.create('line',[[0,0],[1,0]],
+    {strokeColor:'#000000',fixed:true});
+  var y_axis = brd.create('line',[[0,0],[0,1]],
+    {strokeColor:'#000000',fixed:true});
+  brd.create('segment',[[-6,-3],[-4,2]],
+    {strokeWidth:1,fixed:true,strokeColor:'#00FF00'})
+  brd.create('segment',[[-2,-1],[-4,2]],
+    {strokeWidth:1,fixed:true,strokeColor:'#00FF00'});
+  brd.create('segment',[[-2,-1],[2,4]],
+    {strokeWidth:1,fixed:true,strokeColor:'#00FF00'});
+  brd.create('segment',[[2,4],[6,-1.5]],
+    {strokeWidth:1,fixed:true,strokeColor:'#00FF00'});
+  brd.create('point', [-4,2] , {name:'$A$',fillColor:'black',strokeColor:'black',fixed:true,fontSize:15});
+  brd.create('point', [2,4] , {name:'$A$',fillColor:'black',strokeColor:'black',fixed:true,fontSize:15});
+  brd.create('point', [-2,-1] , {name:'$B$',fillColor:'black',strokeColor:'black',fixed:true,fontSize:15});
+})(); // END: scope limiting function wrapper
+      </script>
+<div class='figcaption'><span class="figurenumber">Figure 5.1.1.</span> Some local maximum points ($A$) and minimum points ($B$).</div></div>
+<p>
+</p><p>
+If $(x,f(x))$ is a point where $f(x)$ reaches a local maximum or minimum,
+and if the derivative of $f$ exists at $x$, then the graph has a
+tangent line and the tangent line must be horizontal. This is
+important enough to state as a theorem, though we will not prove it.
+</p><p>
+</p>
+<div class="theorem">
+<p>
+<span class="theoremlabel">Theorem 5.1.1 </span>(Fermat's Theorem) If $f(x)$ has a local extremum at $x=a$ and
+$f$ is differentiable at $a$, then $f'(a)=0$.
+
+</p>
+</div><!-- theorem -->
+<p>
+
+</p><p>
+Thus, the only
+points at which a function can have a local maximum or minimum are
+points at which the derivative is zero, as in the left hand graph in
+figure <a href="section05.01.html#fig:max and min points">5.1.1</a>,
+or the derivative is undefined, as in the right hand graph. Any value
+of $x$ for which $f'(x)$ is zero or undefined is called a
+<b>critical value</b> for $f$.
+When looking for local maximum and minimum points, you are likely to
+make two sorts of mistakes: You may forget that a maximum or minimum
+can occur where the derivative does not exist, and so forget to check
+whether the derivative exists everywhere. You might also assume that
+any place that the derivative is zero is a local maximum or minimum
+point, but this is not true. A portion of the graph of $\ds f(x)=x^3$ is
+shown in figure <a href="section05.01.html#fig:non extremum">5.1.2</a>. The derivative of $f$ is
+$f'(x)=3x^2$, and $f'(0)=0$, but there is neither a maximum nor
+minimum at $(0,0)$.
+</p><p>
+<a id="fig:non extremum"></a>
+</p><div class='figure'><div id="no_max_min_at_crit_pt" class="jxgbox" style="width:50%;margin-left:auto;margin-right:auto"></div>
+<script type="text/javascript">
+ (function () {  // BEGIN: scope limiting function wrapper
+  var xmin=-1.26, xmax=1.26, ymin=-2, ymax=2;
+  var AspectRatio = (1); // height/width
+  var wd=document.getElementById('no_max_min_at_crit_pt').offsetWidth;
+  var ht=wd*AspectRatio;
+  var yfactor = (ymax-ymin)/(ht);
+  var xfactor = (xmax-xmin)/(wd);
+  var xaxis_label_offset = yfactor*15;
+  var yaxis_label_offset = xfactor*20;
+  document.getElementById('no_max_min_at_crit_pt').style.height=ht+'px';
+  var f = function(x){ return Math.pow(x,3); }
+  var brd = JXG.JSXGraph.initBoard('no_max_min_at_crit_pt', {axis:false, boundingbox:
+    [xmin,ymax,xmax,ymin], showCopyright:false, showNavigation:false});
+  var x_axis = brd.create('line',[[0,0],[1,0]],{strokeColor:'#000000',fixed:true});
+  var y_axis = brd.create('line',[[0,0],[0,1]],{strokeColor:'#000000',fixed:true});
+  var graph = brd.create('functiongraph', [f,xmin,xmax], {strokeColor:'#00FF00'});
+})(); // END: scope limiting function wrapper
+</script>
+<div class='figcaption'><span class="figurenumber">Figure 5.1.2.</span> No maximum or minimum even though the derivative is zero.</div></div>
+<p>
+</p><p>
+Since the derivative is zero or undefined at both local maximum and
+local minimum points, we need a way to determine which, if either,
+actually occurs. The most
+elementary approach, but one that is often tedious or difficult, is to
+test directly whether the $y$ coordinates "near'' the potential
+maximum or minimum are above or below the $y$ coordinate at the point
+of interest. Of course, there are too many points "near'' the point
+to test, but a little thought shows we need only test two provided we
+know that $f$ is continuous (recall that this means that the graph of
+$f$ has no jumps or gaps).
+</p><p>
+Suppose, for example, that we have identified three points at which
+$f'$ is zero or nonexistent: $\ds (x_1,y_1)$, $\ds (x_2,y_2)$, $\ds (x_3,y_3)$,
+and $\ds x_1< x_2< x_3$ (see figure <a href="section05.01.html#fig:testing for max and min">5.1.3</a>). Suppose that we compute the value of $f(a)$ for $\ds x_1< a< x_2$, and
+that $\ds f(a)< f(x_2)$. What can we say about the graph between $a$ and
+$\ds x_2$? Could there be a point $\ds (b,f(b))$, $\ds a< b< x_2$ with
+$\ds f(b)>f(x_2)$? No: if there were, the graph would go up from
+$(a,f(a))$ to $(b,f(b))$ then down to $\ds (x_2,f(x_2))$ and somewhere in
+between would have a local maximum point. (This is not obvious; it is
+a result of the Extreme Value Theorem, theorem <a href="section06.01.html#thm:evt">6.1.2</a>.)
+But at that local maximum
+point the derivative of $f$ would be zero or nonexistent, yet we
+already know that the derivative is zero or nonexistent only at $\ds x_1$,
+$\ds x_2$, and $\ds x_3$. The upshot is that one computation tells us that
+$\ds (x_2,f(x_2))$ has the largest $y$ coordinate of any point on the
+graph near $\ds x_2$ and to the left of $\ds x_2$. We can perform the same
+test on the right. If we find that on both sides of $\ds x_2$ the values
+are smaller, then there must be a local maximum at $\ds (x_2,f(x_2))$; if
+we find that on both sides of $\ds x_2$ the values are larger, then there
+must be a local minimum at $\ds (x_2,f(x_2))$; if we find one of each,
+then there is neither a local maximum or minimum at $\ds x_2$.
+</p><p>
+<a id="fig:testing for max and min"></a>
+</p><div class='figure'><div id="testing_for_max_min" class="jxgbox" style="width:50%;margin-left:auto;margin-right:auto"></div>
+<script type="text/javascript">
+ (function () {  // BEGIN: scope limiting function wrapper
+  var xmin=-6, xmax=6, ymin=-2, ymax=6;
+  var AspectRatio = ((ymax-ymin)/(xmax-xmin)); // height/width
+  var wd=document.getElementById('testing_for_max_min').offsetWidth;
+  var ht=wd*AspectRatio;
+  var yfactor = (ymax-ymin)/(ht);
+  var xfactor = (xmax-xmin)/(wd);
+  var xaxis_label_offset = yfactor*15;
+  var yaxis_label_offset = xfactor*20;
+  document.getElementById('testing_for_max_min').style.height=ht+'px';
+  var brd = JXG.JSXGraph.initBoard('testing_for_max_min', {axis:false, boundingbox:
+    [xmin,ymax,xmax,ymin], showCopyright:false, showNavigation:false});
+  var x_axis = brd.create('line',[[0,0],[1,0]],{strokeColor:'#000000',fixed:true});
+  var y_axis = brd.create('line',[[0,0],[0,1]],{strokeColor:'#000000',fixed:true});
+  var xi = brd.create('segment',[[-6,0],[4.1,0]],{visible:false});
+  brd.create('ticks',[xi,2],{minorTicks:0});
+  var xi2 = brd.create('segment',[[-6,0],[-4.9,0]],{visible:false});
+  brd.create('ticks',[xi2,1],{minorTicks:0});
+  brd.create('text',[-5-xfactor*3,-xaxis_label_offset,'$x\\\\sb1$'],{fontSize:15});
+  brd.create('text',[-4-xfactor*3,-xaxis_label_offset,'$a$'],{fontSize:15});
+  brd.create('text',[-2-xfactor*3,-xaxis_label_offset,'$b$'],{fontSize:15});
+  brd.create('text',[2-xfactor*3,-xaxis_label_offset,'$x\\\\sb2$'],{fontSize:15});
+  brd.create('text',[4-xfactor*3,-xaxis_label_offset,'$x\\\\sb3$'],{fontSize:15});
+  brd.create('point', [-5,2], {size:1,fillColor:'black',strokeColor:'black',fixed:true,withLabel:false});
+  brd.create('point', [-4,3], {size:1,fillColor:'black',strokeColor:'black',fixed:true,withLabel:false});
+  brd.create('point', [2,5] , {size:1,fillColor:'black',strokeColor:'black',fixed:true,withLabel:false});
+  brd.create('point', [4,1] , {size:1,fillColor:'black',strokeColor:'black',fixed:true,withLabel:false});
+})(); // END: scope limiting function wrapper
+</script>
+<div class='figcaption'><span class="figurenumber">Figure 5.1.3.</span> Testing for a maximum or minimum.</div></div>
+<p>
+</p><p>
+It is not always easy to compute the value of a function at a
+particular point. The task is made easier by the availability of
+calculators and computers, but they have their own drawbacks&mdash;they do
+not always allow us to distinguish between values that are very close
+together. Nevertheless, because this method is conceptually simple and
+sometimes easy to perform, you should always consider it.
+</p><p>
+</p>
+<div class="example">
+<p>
+<span class="theoremlabel">Example 5.1.2 </span>
+Find all local maximum and minimum points for the function 
+$\ds f(x)=x^3-x$. The derivative is $\ds f'(x)=3x^2-1$. This is defined
+everywhere and is zero at $\ds x=\pm \sqrt{3}/3$. Looking first at
+$\ds x=\sqrt{3}/3$, we see that $\ds f(\sqrt{3}/3)=-2\sqrt{3}/9$. Now we test
+two points on either side of 
+$\ds x=\sqrt{3}/3$, making sure that neither is farther away than
+the nearest critical value; since $\ds \sqrt{3}< 3$, $\ds \sqrt{3}/3< 1$ and
+we can use $x=0$ and $x=1$. Since
+$\ds f(0)=0>-2\sqrt{3}/9$
+and $\ds f(1)=0>-2\sqrt{3}/9$, there must be a local minimum at 
+$\ds x=\sqrt{3}/3$. For $\ds x=-\sqrt{3}/3$, we see that
+$\ds f(-\sqrt{3}/3)=2\sqrt{3}/9$. This time we can use $x=0$ and $x=-1$,
+and we find that $\ds f(-1)=f(0)=0<  2\sqrt{3}/9$, so there must be a local
+maximum at $\ds x=-\sqrt{3}/3$.
+<a id="exam:simple cubic"></a>
+
+</p>
+</div><!-- example -->
+<p>
+</p><p>
+Of course this example is made very simple by our choice of points to
+test, namely $x=-1$, $0$, $1$. We could have used other values, say
+$-5/4$, $1/3$, and $3/4$, but this would have made the calculations
+considerably more tedious.
+</p><p>
+</p>
+<div class="example">
+<p>
+<span class="theoremlabel">Example 5.1.3 </span>
+<a id="example:max and min"></a>
+Find all local maximum and minimum points for 
+$f(x)=\sin x+\cos x$. The derivative is $f'(x)=\cos x-\sin x$. This is
+always defined and is zero whenever $\cos x=\sin x$. Recalling that
+the $\cos x$ and $\sin x$ are the $x$ and $y$ coordinates of points on
+a unit circle, we see that $\cos x=\sin x$ when $x$ is $\pi/4$, 
+$\pi/4\pm\pi$, $\pi/4\pm2\pi$, $\pi/4\pm3\pi$, etc. Since both sine
+and cosine have a period of $2\pi$, we need only determine the status
+of $x=\pi/4$ and $x=5\pi/4$. We can use $0$ and $\pi/2$ to test the
+critical value $x= \pi/4$. 
+We find that $\ds f(\pi/4)=\sqrt{2}$, $\ds f(0)=1< \sqrt{2}$ and $\ds f(\pi/2)=1$,
+so there is a local maximum when $x=\pi/4$ and also when
+$x=\pi/4\pm2\pi$, $\pi/4\pm4\pi$, etc. We can summarize this more
+neatly by saying that there are local maxima at $\pi/4\pm 2k\pi$ for
+every integer $k$.
+</p><p>
+We use $\pi$ and $2\pi$ to test the critical value $x=5\pi/4$. The
+relevant values are $\ds f(5\pi/4)=-\sqrt2$, $\ds f(\pi)=-1>-\sqrt2$,
+$\ds f(2\pi)=1>-\sqrt2$, so there is a local minimum at $x=5\pi/4$,
+$5\pi/4\pm2\pi$, $5\pi/4\pm4\pi$, etc. More succinctly, there are
+local minima at $5\pi/4\pm 2k\pi$ for
+every integer $k$.
+
+</p>
+</div><!-- example -->
+<p>
+</p><p>
+
+</p>
+<a id="exercises"></a><h2 class="exercises">Exercises 5.1</h2>
+<p>In problems 1&ndash;12, find all local maximum and minimum
+points $(x,y)$ by the method of this section.
+</p><p>
+
+</p>
+<p class="exercise"><b>Ex 5.1.1</b>
+$\ds y=x^2-x$ 
+(<a knowl="" class="internal" value="min at $x=1/2$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 5.1.2</b>
+$\ds y=2+3x-x^3$ 
+(<a knowl="" class="internal" value="min at $x=-1$, max at $x=1$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 5.1.3</b>
+$\ds y=x^3-9x^2+24x$
+(<a knowl="" class="internal" value="max at $x=2$, min at $x=4$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 5.1.4</b>
+$\ds y=x^4-2x^2+3$ 
+(<a knowl="" class="internal" value="min at $x=\pm 1$, max at $x=0$.">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 5.1.5</b>
+$\ds y=3x^4-4x^3$
+(<a knowl="" class="internal" value="min at $x=1$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 5.1.6</b>
+$\ds y=(x^2-1)/x$
+(<a knowl="" class="internal" value="none">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 5.1.7</b>
+$\ds y=3x^2-(1/x^2)$ 
+(<a knowl="" class="internal" value="none">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 5.1.8</b>
+$y=\cos(2x)-x$ 
+(<a knowl="" class="internal" value="min at $x=7\pi/12+k\pi$, max at $x=-\pi/12+k\pi$, for integer $k$.">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 5.1.9</b>
+$\ds f(x) =\cases{ x-1 & $x <  2$ \cr
+x^2 & $x\geq 2$\cr}$
+(<a knowl="" class="internal" value="none">answer</a>)
+
+
+</p><p>
+ </p>
+<p class="exercise"><b>Ex 5.1.10</b>
+$\ds f(x) =\cases{x-3 & $x <  3$ \cr
+x^3  & $3\leq x \leq 5$\cr
+1/x  &$x>5$\cr}$
+(<a knowl="" class="internal" value="local max at $x=5$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 5.1.11</b>
+$\ds f(x) = x^2 - 98x + 4$
+(<a knowl="" class="internal" value="local min at $x=49$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 5.1.12</b>
+$\ds f(x) =\cases{ -2 & $x = 0$ \cr
+1/x^2 &$x \neq 0$\cr}$
+(<a knowl="" class="internal" value="local min at $x=0$">answer</a>)
+
+
+</p><p>
+
+</p><p>
+
+</p>
+<p class="exercise"><b>Ex 5.1.13</b>
+For any real number $x$ there is a unique
+  integer $n$ such that $n \leq x <  n +1$, and the greatest
+  integer function is defined as $\ds\lfloor
+  x\rfloor = n$. Where
+  are the critical values of the greatest integer function?  Which are
+  local maxima and which are local minima?
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 5.1.14</b>
+Explain why the function $f(x) =1/x$ has no local
+maxima or minima.
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 5.1.15</b>
+How many critical points can a quadratic polynomial function have?
+(<a knowl="" class="internal" value="one">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 5.1.16</b>
+Show that a cubic polynomial can have at most two critical
+points. Give examples to show that a cubic polynomial can have zero,
+one, or two critical points.
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 5.1.17</b>
+Explore the family of functions $\ds f(x) = x^3 + cx +1$ where $c$
+ is a constant.  How many and what types of local extremes are there?
+ Your answer should depend on the value of $c$, that is, different
+ values of $c$ will give different answers.
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 5.1.18</b>
+We generalize the preceding two questions. Let $n$ be a
+positive integer and let $f$ be a polynomial of degree $n$. How many
+critical points can $f$ have? (Hint: Recall the <b>Fundamental
+  Theorem of Algebra</b>, 
+which says that a polynomial of degree $n$ has
+  at most $n$ roots.)
+
+</p><p>
+
+
+</p><p>
+</div></div></body>
+</html>

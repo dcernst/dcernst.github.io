@@ -1,0 +1,755 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+<meta http-equiv="Content-Language" Content="en">
+<title>10.4 Parametric Equations</title>
+<!--
+<script type="text/javascript" src="js/deployJava.js"></script>
+<link rel="stylesheet" type="text/css" href="http://jsxgraph.uni-bayreuth.de/distrib/jsxgraph.css" />
+-->
+<!-- use Jsxgraph to create figures: http://jsxgraph.uni-bayreuth.de/wp/ -->
+<link rel="stylesheet" type="text/css" href="css/jsxgraph.css" />
+<script type="text/javascript" src="js/jsxgraphcore.js"></script>
+<script src="js/three.min.js"></script>
+<script src="js/Detector.js"></script>
+<script src="js/TrackballControls.js"></script>
+<script src="js/OrthographicTrackballControls.js"></script>
+<script src="js/THREEx.KeyboardState.js"></script>
+<script src="js/THREEx.FullScreen.js"></script>
+<script src="js/THREEx.WindowResize.js"></script>
+<script type='text/javascript' src='js/DAT.GUI.min.js'></script>
+<script>
+window.requestAnimFrame = (function(){
+    return  window.requestAnimationFrame       || 
+        window.webkitRequestAnimationFrame || 
+        window.mozRequestAnimationFrame    || 
+        window.oRequestAnimationFrame      || 
+        window.msRequestAnimationFrame     || 
+        function(/* function */ callback, /* DOMElement */
+            element){
+            window.setTimeout(callback, 1000 / 60);
+        };
+})();
+</script>
+<script src="js/ifvisible.min.js"></script>
+<script src="js/conrec.js"></script>
+<script>
+active = true;
+ifvisible.setIdleDuration(10);
+ifvisible.on("idle", function(){
+    active = false;
+//    console.log("idle");
+});
+
+ifvisible.on("wakeup", function(){
+    active = true;
+//    console.log("wakeup");
+});
+</script>
+<script src="js/parser.js"></script>
+<link href="css/whitman.css" rel="stylesheet" type="text/css" /><link href="css/calculus.css" rel="stylesheet" type="text/css" /><link href="css/knowlstyle.css" rel="stylesheet" type="text/css" />
+
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  extensions: ["tex2jax.js","TeX/AMSmath.js","TeX/AMSsymbols.js"],
+  jax: ["input/TeX","output/HTML-CSS"],
+  tex2jax: {
+    inlineMath: [['$','$'],["\\(","\\)"]],
+    processEscapes: true,
+  },
+TeX: {
+   Macros: {
+    val: "\\mathop{\\rm val}",
+    divides: "\\mid",
+    ndivides: "\\mathrel{\\not|}",
+    fix: "\\mathop{\\rm fix}",
+    id: "\\mathop{\\rm id}",
+    na: "\\mathop{\\rm na}",
+    d: "\\mathop{\\rm\\strut d}\\nolimits ",
+    legendre: ["\\left(\\frac{#1}{#2}\\right)",2],
+    normalbaselines: "",
+    notdiv: "\\nmid",
+    implies: "\\Rightarrow",
+    iff: "\\Leftrightarrow",
+    sevenpoint: "\\scriptsize",
+    ds: "\\displaystyle",
+    lcm: "\\operatorname{lcm}",
+    arccot: "\\operatorname{arccot}",
+    arcsec: "\\operatorname{arcsec}",
+    arccsc: "\\operatorname{arccsc}",
+    arccosh: "\\operatorname{arccosh}",
+    arcsinh: "\\operatorname{arcsinh}",
+    arcsech: "\\operatorname{arcsech}",
+    sech: "\\operatorname{sech}",
+    csch: "\\operatorname{csch}",
+    R: "{\\mathbb R}",
+    sb: "_",
+    sp: "^",
+    Q: "{\\mathbb Q}",
+    C: "{\\mathbb C}",
+    N: "{\\mathbb N}",
+    Z: "{\\mathbb Z}",
+    U: "{\\mathbb U}",
+    v: ["\\langle #1\\rangle",1],
+    dint: ["{\\mathchoice{\\mathop{\\int\\!\\!\\!\\int}_{#1}}{\\mathop{\\int\\!\\!\\!\\int}_{#1}}{\\mathop{\\int\\!\\!\\!\\int}}{\\mathop{\\int\\!\\!\\!\\int}}}",1],
+    tint: ["{\\mathchoice{\\mathop{\\int\\!\\!\\!\\int\\!\\!\\!\\int}_{#1\\;}}{\\mathop{\\int\\!\\!\\!\\int\\!\\!\\!\\int}_{#1}}{\\mathop{\\int\\!\\!\\!\\int\\!\\!\\!\\int}_{#1}}{\\mathop{\\int\\!\\!\\!\\int\\!\\!\\!\\int}_{#1}}}",1]
+   }
+},
+  "HTML-CSS": { scale: 100},
+  menuSettings: { zscale: "150%", zoom: "Double-Click" }
+});
+    JXG.Options.text.display = 'html';
+    JXG.Options.text.useMathJax = true;
+</script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/math
+jax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+<script>
+MathJax.Hub.Register.StartupHook("End",function () {
+  if(typeof window.orientation === 'undefined'){
+    var i,x;
+    x = document.getElementsByClassName("webgl_display");
+    for (i=0; i<x.length; i++) {
+      x[i].style.display = "block";
+    }
+    x = document.getElementsByClassName("no_webgl_display");
+    for (i=0; i<x.length; i++) {
+      x[i].style.display = "none";
+    }
+  }
+});
+</script>
+
+<script src="js/jquery-3.1.0.min.js"></script>
+<script src="https://sagecell.sagemath.org/static/embedded_sagecell.js"></script>
+<script src="js/jquery.visible.min.js"></script>
+<script type="text/javascript" src="js/knowl.js"></script>
+<style type="text/css">
+
+.sagecell .CodeMirror {
+  height: auto;
+}
+
+.sagecell .CodeMirror-scroll {
+  overflow-y: hidden;
+  overflow-x: auto;
+}
+
+.sagecell-practice .CodeMirror-scroll {
+}
+
+.sagecell button.sagecell_evalButton {
+    font-size: 50%;
+}
+
+.sagecell_sessionContainer {
+    margin-bottom:1em;
+}
+</style>
+<script>
+function toggle(a) {
+  var b = String(a);
+  b=b.replace("contents","button");
+  if (document.getElementById(a).style.display == "block") {
+    document.getElementById(a).style.display = "none";
+    document.getElementById(b).src = "expand_submenu.png";
+  } else {
+    document.getElementById(a).style.display = "block";
+    document.getElementById(b).src = "collapse_submenu.png";
+  }
+}
+function toggle_sidebar() {
+  if (document.getElementById('sidebar').style.display == "block") {
+    document.getElementById('sidebar').style.display = "none";
+    document.getElementById('menu_expand').style.display = "block";
+  } else {
+    document.getElementById('sidebar').style.display = "block";
+    document.getElementById('menu_expand').style.display = "none";
+  }
+}
+</script>
+
+</head>
+
+<body class="" onload="toggle('chapter_10_contents')">
+<div id="header">
+<div class="right">
+<div class="bread">
+  <a href=".">Home</a> &raquo; <a href="chapter10.html">Polar Coordinates,  Parametric Equations</a> &raquo; <a href="section10.04.html">Parametric Equations</a>
+</div>
+
+<FORM method=GET action=https://www.google.com/custom id="search">
+<INPUT TYPE=text name=q size=31 maxlength=255 value="" style="font-size:small">
+<INPUT type=submit name=sa VALUE="Search the book" style="font-size:small">
+<INPUT type=hidden name=cof VALUE="AH:center;AWFID:198dc2b883340b1f;">
+<input type=hidden name=domains value="www.whitman.edu">
+<input type=hidden name=sitesearch value="www.whitman.edu/mathematics/calculus_online/">
+</FORM>
+<div id="title"><span id="title-content">10.4 Parametric Equations</span></div><a href="#exercises">[Jump to exercises]</a>
+</div>
+</div>
+<div id="menu_expand" style="display:none"><a href="javascript:toggle_sidebar()">Expand menu</a></div>
+<div id="sidebar" style="display:block">
+<h2 id="menu_collapse"><a href='javascript:toggle_sidebar()'>Collapse menu</a></h2>
+<h2 class="link"><img id="chapter_01_button" src="expand_submenu.png" onclick='toggle("chapter_01_contents")'><a href="chapter01.html">1 Analytic Geometry</a></h2>
+
+<ul class="list" id="chapter_01_contents">
+<li><a href="section01.01.html">1. Lines</a></li>
+<li><a href="section01.02.html">2. Distance Between Two Points; Circles</a></li>
+<li><a href="section01.03.html">3. Functions</a></li>
+<li><a href="section01.04.html">4. Shifts and Dilations</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_02_button" src="expand_submenu.png" onclick='toggle("chapter_02_contents")'><a href="chapter02.html">2 Instantaneous Rate of Change:  The Derivative</a></h2>
+
+<ul class="list" id="chapter_02_contents">
+<li><a href="section02.01.html">1. The slope of a function</a></li>
+<li><a href="section02.02.html">2. An example</a></li>
+<li><a href="section02.03.html">3. Limits</a></li>
+<li><a href="section02.04.html">4. The Derivative Function</a></li>
+<li><a href="section02.05.html">5. Adjectives For Functions</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_03_button" src="expand_submenu.png" onclick='toggle("chapter_03_contents")'><a href="chapter03.html">3 Rules for Finding Derivatives</a></h2>
+
+<ul class="list" id="chapter_03_contents">
+<li><a href="section03.01.html">1. The Power Rule</a></li>
+<li><a href="section03.02.html">2. Linearity of the Derivative</a></li>
+<li><a href="section03.03.html">3. The Product Rule</a></li>
+<li><a href="section03.04.html">4. The Quotient Rule</a></li>
+<li><a href="section03.05.html">5. The Chain Rule</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_04_button" src="expand_submenu.png" onclick='toggle("chapter_04_contents")'><a href="chapter04.html">4 Transcendental Functions</a></h2>
+
+<ul class="list" id="chapter_04_contents">
+<li><a href="section04.01.html">1. Trigonometric Functions</a></li>
+<li><a href="section04.02.html">2. The Derivative of $\sin x$</a></li>
+<li><a href="section04.03.html">3. A hard limit</a></li>
+<li><a href="section04.04.html">4. The Derivative of $\sin x$, continued</a></li>
+<li><a href="section04.05.html">5. Derivatives of the Trigonometric Functions</a></li>
+<li><a href="section04.06.html">6. Exponential and Logarithmic functions</a></li>
+<li><a href="section04.07.html">7. Derivatives of the exponential and  logarithmic functions</a></li>
+<li><a href="section04.08.html">8. Implicit Differentiation</a></li>
+<li><a href="section04.09.html">9. Inverse Trigonometric Functions</a></li>
+<li><a href="section04.10.html">10. Limits revisited</a></li>
+<li><a href="section04.11.html">11. Hyperbolic Functions</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_05_button" src="expand_submenu.png" onclick='toggle("chapter_05_contents")'><a href="chapter05.html">5 Curve Sketching</a></h2>
+
+<ul class="list" id="chapter_05_contents">
+<li><a href="section05.01.html">1. Maxima and Minima</a></li>
+<li><a href="section05.02.html">2. The first derivative test</a></li>
+<li><a href="section05.03.html">3. The second derivative test</a></li>
+<li><a href="section05.04.html">4. Concavity and inflection points</a></li>
+<li><a href="section05.05.html">5. Asymptotes and Other Things to Look For</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_06_button" src="expand_submenu.png" onclick='toggle("chapter_06_contents")'><a href="chapter06.html">6 Applications of the Derivative</a></h2>
+
+<ul class="list" id="chapter_06_contents">
+<li><a href="section06.01.html">1. Optimization</a></li>
+<li><a href="section06.02.html">2. Related Rates</a></li>
+<li><a href="section06.03.html">3. Newton's Method</a></li>
+<li><a href="section06.04.html">4. Linear Approximations</a></li>
+<li><a href="section06.05.html">5. The Mean Value Theorem</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_07_button" src="expand_submenu.png" onclick='toggle("chapter_07_contents")'><a href="chapter07.html">7 Integration</a></h2>
+
+<ul class="list" id="chapter_07_contents">
+<li><a href="section07.01.html">1. Two examples</a></li>
+<li><a href="section07.02.html">2. The Fundamental Theorem of Calculus</a></li>
+<li><a href="section07.03.html">3. Some Properties of Integrals</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_08_button" src="expand_submenu.png" onclick='toggle("chapter_08_contents")'><a href="chapter08.html">8 Techniques of Integration</a></h2>
+
+<ul class="list" id="chapter_08_contents">
+<li><a href="section08.01.html">1. Substitution</a></li>
+<li><a href="section08.02.html">2. Powers of sine and cosine</a></li>
+<li><a href="section08.03.html">3. Trigonometric Substitutions</a></li>
+<li><a href="section08.04.html">4. Integration by Parts</a></li>
+<li><a href="section08.05.html">5. Rational Functions</a></li>
+<li><a href="section08.06.html">6. Numerical Integration</a></li>
+<li><a href="section08.07.html">7. Additional exercises</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_09_button" src="expand_submenu.png" onclick='toggle("chapter_09_contents")'><a href="chapter09.html">9 Applications of Integration</a></h2>
+
+<ul class="list" id="chapter_09_contents">
+<li><a href="section09.01.html">1. Area between curves</a></li>
+<li><a href="section09.02.html">2. Distance, Velocity, Acceleration</a></li>
+<li><a href="section09.03.html">3. Volume</a></li>
+<li><a href="section09.04.html">4. Average value of a function</a></li>
+<li><a href="section09.05.html">5. Work</a></li>
+<li><a href="section09.06.html">6. Center of Mass</a></li>
+<li><a href="section09.07.html">7. Kinetic energy; improper integrals</a></li>
+<li><a href="section09.08.html">8. Probability</a></li>
+<li><a href="section09.09.html">9. Arc Length</a></li>
+<li><a href="section09.10.html">10. Surface Area</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_10_button" src="expand_submenu.png" onclick='toggle("chapter_10_contents")'><a href="chapter10.html">10 Polar Coordinates,  Parametric Equations</a></h2>
+
+<ul class="list" id="chapter_10_contents">
+<li><a href="section10.01.html">1. Polar Coordinates</a></li>
+<li><a href="section10.02.html">2. Slopes in polar coordinates</a></li>
+<li><a href="section10.03.html">3. Areas in polar coordinates</a></li>
+<li><a href="section10.04.html">4. Parametric Equations</a></li>
+<li><a href="section10.05.html">5. Calculus with Parametric Equations</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_11_button" src="expand_submenu.png" onclick='toggle("chapter_11_contents")'><a href="chapter11.html">11 Sequences and Series</a></h2>
+
+<ul class="list" id="chapter_11_contents">
+<li><a href="section11.01.html">1. Sequences</a></li>
+<li><a href="section11.02.html">2. Series</a></li>
+<li><a href="section11.03.html">3. The Integral Test</a></li>
+<li><a href="section11.04.html">4. Alternating Series</a></li>
+<li><a href="section11.05.html">5. Comparison Tests</a></li>
+<li><a href="section11.06.html">6. Absolute Convergence</a></li>
+<li><a href="section11.07.html">7. The Ratio and Root Tests</a></li>
+<li><a href="section11.08.html">8. Power Series</a></li>
+<li><a href="section11.09.html">9. Calculus with Power Series</a></li>
+<li><a href="section11.10.html">10. Taylor Series</a></li>
+<li><a href="section11.11.html">11. Taylor's Theorem</a></li>
+<li><a href="section11.12.html">12. Additional exercises</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_12_button" src="expand_submenu.png" onclick='toggle("chapter_12_contents")'><a href="chapter12.html">12 Three Dimensions</a></h2>
+
+<ul class="list" id="chapter_12_contents">
+<li><a href="section12.01.html">1. The Coordinate System</a></li>
+<li><a href="section12.02.html">2. Vectors</a></li>
+<li><a href="section12.03.html">3. The Dot Product</a></li>
+<li><a href="section12.04.html">4. The Cross Product</a></li>
+<li><a href="section12.05.html">5. Lines and Planes</a></li>
+<li><a href="section12.06.html">6. Other Coordinate Systems</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_13_button" src="expand_submenu.png" onclick='toggle("chapter_13_contents")'><a href="chapter13.html">13 Vector Functions</a></h2>
+
+<ul class="list" id="chapter_13_contents">
+<li><a href="section13.01.html">1. Space Curves</a></li>
+<li><a href="section13.02.html">2. Calculus with vector functions</a></li>
+<li><a href="section13.03.html">3. Arc length and curvature</a></li>
+<li><a href="section13.04.html">4. Motion along a curve</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_14_button" src="expand_submenu.png" onclick='toggle("chapter_14_contents")'><a href="chapter14.html">14 Partial Differentiation</a></h2>
+
+<ul class="list" id="chapter_14_contents">
+<li><a href="section14.01.html">1. Functions of Several Variables</a></li>
+<li><a href="section14.02.html">2. Limits and Continuity</a></li>
+<li><a href="section14.03.html">3. Partial Differentiation</a></li>
+<li><a href="section14.04.html">4. The Chain Rule</a></li>
+<li><a href="section14.05.html">5. Directional Derivatives</a></li>
+<li><a href="section14.06.html">6. Higher order derivatives</a></li>
+<li><a href="section14.07.html">7. Maxima and minima</a></li>
+<li><a href="section14.08.html">8. Lagrange Multipliers</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_15_button" src="expand_submenu.png" onclick='toggle("chapter_15_contents")'><a href="chapter15.html">15 Multiple Integration</a></h2>
+
+<ul class="list" id="chapter_15_contents">
+<li><a href="section15.01.html">1. Volume and Average Height</a></li>
+<li><a href="section15.02.html">2. Double Integrals in Cylindrical Coordinates</a></li>
+<li><a href="section15.03.html">3. Moment and Center of Mass</a></li>
+<li><a href="section15.04.html">4. Surface Area</a></li>
+<li><a href="section15.05.html">5. Triple Integrals</a></li>
+<li><a href="section15.06.html">6. Cylindrical and Spherical Coordinates</a></li>
+<li><a href="section15.07.html">7. Change of Variables</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_16_button" src="expand_submenu.png" onclick='toggle("chapter_16_contents")'><a href="chapter16.html">16 Vector Calculus</a></h2>
+
+<ul class="list" id="chapter_16_contents">
+<li><a href="section16.01.html">1. Vector Fields</a></li>
+<li><a href="section16.02.html">2. Line Integrals</a></li>
+<li><a href="section16.03.html">3. The Fundamental Theorem of Line Integrals</a></li>
+<li><a href="section16.04.html">4. Green's Theorem</a></li>
+<li><a href="section16.05.html">5. Divergence and Curl</a></li>
+<li><a href="section16.06.html">6. Vector Functions for Surfaces</a></li>
+<li><a href="section16.07.html">7. Surface Integrals</a></li>
+<li><a href="section16.08.html">8. Stokes's Theorem</a></li>
+<li><a href="section16.09.html">9. The Divergence Theorem</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_17_button" src="expand_submenu.png" onclick='toggle("chapter_17_contents")'><a href="chapter17.html">17 Differential Equations</a></h2>
+
+<ul class="list" id="chapter_17_contents">
+<li><a href="section17.01.html">1. First Order Differential Equations</a></li>
+<li><a href="section17.02.html">2. First Order Homogeneous Linear Equations</a></li>
+<li><a href="section17.03.html">3. First Order Linear Equations</a></li>
+<li><a href="section17.04.html">4. Approximation</a></li>
+<li><a href="section17.05.html">5. Second Order Homogeneous Equations</a></li>
+<li><a href="section17.06.html">6. Second Order Linear Equations</a></li>
+<li><a href="section17.07.html">7. Second Order Linear Equations, take two</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_18_button" src="expand_submenu.png" onclick='toggle("chapter_18_contents")'><a href="chapter18.html">18 Useful formulas</a></h2>
+
+<ul class="list" id="chapter_18_contents">
+</ul>
+
+</div>
+
+<div id="main">
+
+<div id="next"><a href="section10.03.html"><img src=previous_section.png width="30"></a>&nbsp;&nbsp;<a href="section10.05.html"><img src=next_section.png width="30"></a></div>
+
+<div id="content">
+<p>
+<p><a id="sec:parametric equations"></a>
+
+</p><p>
+
+When we computed the derivative $dy/dx$ using polar coordinates, we
+used the expressions $x=f(\theta)\cos\theta$ and
+$y=f(\theta)\sin\theta$. These two equations completely specify the
+curve, though the form $r=f(\theta)$ is simpler. The expanded form has
+the virtue that it can easily be generalized to describe a wider range
+of curves than can be specified in rectangular or polar coordinates. 
+</p><p>
+Suppose $f(t)$ and $g(t)$ are functions. Then the equations
+$x=f(t)$ and $y=g(t)$ describe a curve in the plane. In the case of
+the polar coordinates equations, the variable $t$ is replaced by
+$\theta$ which has a natural geometric interpretation. But $t$ in
+general is simply an arbitrary variable, often called in this case a
+<b>parameter</b>, and this method of specifying a curve is known as 
+<b>parametric equations</b>. One
+important interpretation of $t$ is <em>time</em>. In this interpretation,
+the equations $x=f(t)$ and $y=g(t)$ give the position of an object at
+time $t$.
+</p><p>
+</p>
+<div class="example">
+<p>
+<span class="theoremlabel">Example 10.4.1 </span>Describe the path of an object that moves so that its
+position at time $t$ is given by $x=\cos t$, $\ds y=\cos^2 t$. We see
+immediately that $\ds y=x^2$, so the path lies on this parabola. The path
+is not the entire parabola, however, since $x=\cos t$ is always
+between $-1$ and $1$. It is now easy to see that the object oscillates
+back and forth on the parabola between the endpoints $(1,1)$ and
+$(-1,1)$, and is at point $(1,1)$ at time $t=0$.
+
+</p>
+</div><!-- example -->
+<p>
+</p><p>
+It is sometimes quite easy to describe a complicated path in
+parametric equations when rectangular and polar coordinate expressions
+are difficult or impossible to devise.
+</p><p>
+</p>
+<div class="example">
+<p>
+<span class="theoremlabel">Example 10.4.2 </span>A wheel of radius 1 rolls along a straight line, say the
+$x$-axis. A point on the rim of the wheel will trace out a curve, called a
+cycloid. Assume the point starts at the origin; find
+parametric equations for the curve.
+</p><p>
+Figure <a href="section10.04.html#fig:cycloid">10.4.1</a> illustrates the generation of the curve
+(click on the AP link to see an animation). The wheel is shown at its
+starting point, and again after it has rolled through about 490
+degrees. We take as our parameter $t$ the angle through which the
+wheel has turned, measured as shown clockwise from the line connecting
+the center of the wheel to the ground. Because the radius is 1, the
+center of the wheel has coordinates $(t,1)$. We seek to write the
+coordinates of the point on the rim as $(t+\Delta x,1+\Delta y)$,
+where $\Delta x$ and $\Delta y$ are as shown in figure <a href="section10.04.html#fig:blow up of wheel">10.4.2</a>. These values are nearly the sine and cosine of the
+angle $t$, from the unit circle definition of sine and
+cosine. However, some care is required because we are measuring $t$
+from a nonstandard starting line and in a clockwise direction, as
+opposed to the usual counterclockwise direction. A bit of thought
+reveals that $\Delta x=-\sin t$ and $\Delta y=-\cos t$. Thus the
+parametric equations for the cycloid are $x=t-\sin t$, $y=1-\cos t$.
+
+</p>
+</div><!-- example -->
+<p>
+</p><p>
+<a id="fig:cycloid"></a>
+</p><div class='figure'><!-- Polar-Parametric-cycloid.html -->
+<!-- Figure 10.4.1 -->
+
+<div id='cycloid' class='jxgbox' style='width:100%;'></div>
+
+<script type='text/javascript'>
+(function () {  // BEGIN: scope limiting function wrapper
+  var xmin=-2, xmax= 21, ymin=-1, ymax=3;
+  var AspectRatio =  ((ymax-ymin)/(xmax-xmin)); // height/width
+  var wd=document.getElementById('cycloid').offsetWidth;
+  var ht=wd*AspectRatio;
+  var yfactor = (ymax-ymin)/(ht);
+  var xfactor = (xmax-xmin)/(wd);
+  var xaxis_label_offset = yfactor*15;
+  var yaxis_label_offset = xfactor*20;
+  document.getElementById('cycloid').style.height=ht+'px';
+  var brd = JXG.JSXGraph.initBoard('cycloid',{boundingbox:[xmin,ymax,xmax,ymin], showCopyright:false, showNavigation:false}) ;
+  var rejax = function() {
+     MathJax.Hub.Queue(["Typeset",MathJax.Hub]); 
+  }
+  brd.addHook(rejax)
+  var x = function(t) { return t-Math.sin(t); }
+  var y = function(t) { return 1-Math.cos(t); }
+  var xaxis = brd.create('arrow', [[-1.5,0], [20,0]],{strokeWidth:1,strokeColor:'black',fixed:true});
+  var yaxis = brd.create('arrow', [[0,-0.5],[0,2.5]],{strokeWidth:1,strokeColor:'black',fixed:true});
+  brd.create('curve',[x,y,0,Math.PI*6]);
+  brd.create('circle',[[0,1],[0,2]],{fixed:true,strokeWidth:1,strokeColor:'black'});
+  brd.create('circle',[[8.5,1],[8.5,2]],{fixed:true,strokeWidth:1,strokeColor:'black'});
+  brd.create('segment',[[7.7,1.602],[8.5,1]],{fixed:true,strokeWidth:1,strokeColor:'black'});
+  brd.create('segment',[[8.5,0],[8.5,1]],{fixed:true,strokeWidth:1,strokeColor:'black'});
+  var xs = function(t) { return 8.5-(1+t/2/Math.PI)*Math.sin(t)/5; }
+  var ys = function(t) { return 1-(1+t/2/Math.PI)*Math.cos(t)/5; }
+  brd.create('curve',[xs,ys,0,Math.PI*2.7],{strokeWidth:1,strokeColor:'black',fixed:true});
+  brd.create('point',[0,0],{size:1,fixed:true,withLabel:false});
+  brd.create('point',[7.70,1.602],{size:1,fixed:true,withLabel:false});
+  brd.create('text',[xs(Math.PI*5/4)+xfactor*5,ys(Math.PI*5/4)+yfactor*5,'$t$']);
+})(); // END: scope limiting function wrapper
+</script>
+
+<p>
+<a knowl="Polar-Parametric-cycloid_sage.html">Animated Cycloid</a>
+</p>
+<div class='figcaption'><span class="figurenumber">Figure 10.4.1.</span> A cycloid.</div></div>
+<p>
+</p><p>
+<a id="fig:blow up of wheel"></a>
+</p><div class='figure'><!-- Polar-Parametric-cycloid_wheel.html -->
+<!-- Figure 10.4.2 -->
+
+<div id='cycloid_wheel' class='jxgbox' style='width:30%;'></div>
+
+<script type='text/javascript'>
+(function () {  // BEGIN: scope limiting function wrapper
+  var xmin=-1.1, xmax=1.1, ymin=-1.1, ymax=1.1;
+  var AspectRatio =  ((ymax-ymin)/(xmax-xmin)); // height/width
+  var wd=document.getElementById('cycloid_wheel').offsetWidth;
+  var ht=wd*AspectRatio;
+  var yfactor = (ymax-ymin)/(ht);
+  var xfactor = (xmax-xmin)/(wd);
+  var xaxis_label_offset = yfactor*15;
+  var yaxis_label_offset = xfactor*20;
+  document.getElementById('cycloid_wheel').style.height=ht+'px';
+  var brd = JXG.JSXGraph.initBoard('cycloid_wheel',{boundingbox:[xmin,ymax,xmax,ymin], showCopyright:false, showNavigation:false}) ;
+  var rejax = function() {
+     MathJax.Hub.Queue(["Typeset",MathJax.Hub]); 
+  }
+  brd.addHook(rejax)
+  brd.create('text',[-0.4,-yfactor*10,'$\\\\Delta x$'],{fixed:true});
+  brd.create('text',[-0.8+xfactor*5,0.3,'$\\\\Delta y$'],{fixed:true});
+  brd.create('circle',[[0,0],[0,1]],{strokeWidth:1,strokeColor:'black'});
+  brd.create('segment',[[0,0],[0,-1]],{strokeWidth:1,strokeColor:'black',fixed:true});
+  brd.create('segment',[[0,0],[-0.8,0.602]],{strokeWidth:1,strokeColor:'black',fixed:true});
+  brd.create('segment',[[-0.8,0],[-0.8,0.602]],{strokeWidth:1,strokeColor:'black',fixed:true});
+  brd.create('segment',[[0,0],[-0.8,0]],{strokeWidth:1,strokeColor:'black',fixed:true});
+})(); // END: scope limiting function wrapper
+</script>
+<div class='figcaption'><span class="figurenumber">Figure 10.4.2.</span> The wheel.</div></div>
+<p>
+</p><p>
+
+</p>
+<a id="exercises"></a><h2 class="exercises">Exercises 10.4</h2>
+<p></p><p>
+</p>
+<p class="exercise"><b>Ex 10.4.1</b>
+What curve is described by $\ds x=t^2$, $\ds y=t^4$? If $t$ is
+interpreted as time, describe how the object moves on the curve.
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 10.4.2</b>
+What curve is described by $x=3\cos t$, $y=3\sin t$? If $t$ is
+interpreted as time, describe how the object moves on the curve.
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 10.4.3</b>
+What curve is described by $x=3\cos t$, $y=2\sin t$? If $t$ is
+interpreted as time, describe how the object moves on the curve.
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 10.4.4</b>
+What curve is described by $x=3\sin t$, $y=3\cos t$? If $t$ is
+interpreted as time, describe how the object moves on the curve.
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 10.4.5</b>
+Sketch the curve described by $\ds x=t^3-t$, $\ds y=t^2$. If $t$ is
+interpreted as time, describe how the object moves on the curve.
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 10.4.6</b>
+A wheel of radius 1 rolls along a straight line, say the
+$x$-axis. A point $P$ is located halfway between the center of the
+wheel and the rim; assume $P$ starts at the point $(0,1/2)$. As the
+wheel rolls, $P$ traces a curve; find parametric equations for the
+curve.
+<a id="exer:pseudo cycloid"></a>
+(<a knowl="" class="internal" value="$\ds x=t-{\sin(t)\over2}$, $\ds y=1-{\cos(t)\over2}$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 10.4.7</b>
+A wheel of radius 1 rolls around the outside of a circle of
+radius 3. A point $P$ on the rim of the wheel traces out a curve
+called a <b>hypercycloid</b>, as indicated in
+figure <a href="section10.04.html#fig:hypercycloid and hypocycloid">10.4.3</a>.  Assuming $P$
+starts at the point $(3,0)$, find parametric equations for the curve.
+(<a knowl="" class="internal" value="$x=4\cos t-\cos(4t)$,  $y=4\sin t-\sin(4t)$">answer</a>)
+
+<a id="exer:hypercycloid"></a>
+</p><p>
+<a id="fig:hypercycloid and hypocycloid"></a>
+</p><div class='figure'><!-- Polar-Parametric-hyper_hypo_cycloid.html -->
+<!-- Figure 10.4.3 -->
+
+<table style="width:100%">
+<tr style="width:100%">
+<td style="width:50%">
+<div id='hypercycloid' class='jxgbox'></div>
+</td><td style="width:50%">
+<div id='hypocycloid' class='jxgbox'></div>
+</td></tr></table>
+
+<script type='text/javascript'>
+(function () {  // BEGIN: scope limiting function wrapper
+  var xmin=-6, xmax= 6, ymin=-5.5, ymax=6;
+  var AspectRatio =  ((ymax-ymin)/(xmax-xmin)); // height/width
+  var wd=document.getElementById('hypercycloid').offsetWidth;
+  var ht=wd*AspectRatio;
+  var yfactor = (ymax-ymin)/(ht);
+  var xfactor = (xmax-xmin)/(wd);
+  var xaxis_label_offset = yfactor*15;
+  var yaxis_label_offset = xfactor*20;
+  document.getElementById('hypercycloid').style.height=ht+'px';
+  var brd = JXG.JSXGraph.initBoard('hypercycloid',{boundingbox:[xmin,ymax,xmax,ymin], showCopyright:false, showNavigation:false}) ;
+  var rejax = function() {
+     MathJax.Hub.Queue(["Typeset",MathJax.Hub]); 
+  }
+  brd.addHook(rejax)
+  brd.create('circle',[[0,0],[0,3]],{strokeWidth:1,strokeColor:'black',fixed:true});
+  brd.create('circle',[[4,0],[5,0]],{strokeWidth:1,strokeColor:'black',fixed:true});
+  brd.create('circle',[[2.16,3.366],[2.81,4.12]],{strokeWidth:1,strokeColor:'black',fixed:true});
+  var x = function(t) { return 4*Math.cos(t)-Math.cos(4*t); }
+  var y = function(t) { return 4*Math.sin(t)-Math.sin(4*t); }
+  var xaxis = brd.create('arrow', [[-5.5,0], [5.5,0]],{strokeWidth:1,strokeColor:'black',fixed:true});
+  var yaxis = brd.create('arrow',
+  [[0,-5],[0,5.5]],{strokeWidth:1,strokeColor:'black',fixed:true});
+  brd.create('curve',[x,y,0,Math.PI*2],{strokeColor:'red'});
+  brd.create('point',[3,0],{withLabel:false,fixed:true,size:1,strokeColor:'black',fillColor:'black'});
+  brd.create('point',[2.81,4.12],{withLabel:false,fixed:true,size:1,strokeColor:'black',fillColor:'black'});
+})(); // END: scope limiting function wrapper
+</script>
+
+<script type='text/javascript'>
+(function () {  // BEGIN: scope limiting function wrapper
+  var xmin=-6, xmax= 6, ymin=-5.5, ymax=6;
+  var AspectRatio =  ((ymax-ymin)/(xmax-xmin)); // height/width
+  var wd=document.getElementById('hypocycloid').offsetWidth;
+  var ht=wd*AspectRatio;
+  var yfactor = (ymax-ymin)/(ht);
+  var xfactor = (xmax-xmin)/(wd);
+  var xaxis_label_offset = yfactor*15;
+  var yaxis_label_offset = xfactor*20;
+  document.getElementById('hypocycloid').style.height=ht+'px';
+  var brd = JXG.JSXGraph.initBoard('hypocycloid',{boundingbox:[xmin,ymax,xmax,ymin], showCopyright:false, showNavigation:false}) ;
+  var rejax = function() {
+     MathJax.Hub.Queue(["Typeset",MathJax.Hub]); 
+  }
+  brd.addHook(rejax)
+  brd.create('circle',[[0,0],[0,3]],{strokeWidth:1,strokeColor:'black',fixed:true});
+  brd.create('circle',[[2,0],[3,0]],{strokeWidth:1,strokeColor:'black',fixed:true});
+  var x = function(t) { return 2*Math.cos(t)+Math.cos(2*t); }
+  var y = function(t) { return 2*Math.sin(t)-Math.sin(2*t); }
+  var xaxis = brd.create('arrow', [[-5.5,0], [5.5,0]],{strokeWidth:1,strokeColor:'black',fixed:true});
+  var yaxis = brd.create('arrow',
+  [[0,-5],[0,5.5]],{strokeWidth:1,strokeColor:'black',fixed:true});
+  brd.create('curve',[x,y,0,Math.PI*2],{strokeColor:'red'});
+  brd.create('point',[3,0],{withLabel:false,fixed:true,size:1,strokeColor:'black',fillColor:'black'});
+})(); // END: scope limiting function wrapper
+</script>
+<div class='figcaption'><span class="figurenumber">Figure 10.4.3.</span> A hypercycloid and a hypocycloid.</div></div>
+<p>
+</p><p>
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 10.4.8</b>
+A wheel of radius 1 rolls around the inside of 
+a circle of radius 3. A point $P$ on the rim of the wheel traces out a
+curve called a <b>hypocycloid</b>, as indicated in
+figure <a href="section10.04.html#fig:hypercycloid and hypocycloid">10.4.3</a>. Assuming $P$
+starts at the point $(3,0)$, find parametric equations for the curve.
+(<a knowl="" class="internal" value="$x=2\cos t+\cos(2t)$, $y=2\sin t-\sin(2t)$">answer</a>)
+
+<a id="exer:hypocycloid"></a>
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 10.4.9</b>
+An <b>involute</b> of a circle is formed
+as follows: Imagine that a long (that is, infinite) string is wound tightly
+around a circle, and that you grasp the end of the string and begin to
+unwind it, keeping the string taut. The end of the string traces out
+the involute. Find parametric equations for this curve, using a circle
+of radius 1, and assuming that the string unwinds counter-clockwise
+and the end of the string is initially at $(1,0)$. 
+Figure <a href="section10.04.html#fig:involute">10.4.4</a> shows part of the curve; the
+dotted lines represent the string at a few different times.
+(<a knowl="" class="internal" value="$x=\cos t+t\sin t$,  $y=\sin t-t\cos t$">answer</a>)
+
+<a id="exer:involute of a circle"></a>
+</p><p>
+<a id="fig:involute"></a>
+</p><div class='figure'><!-- Polar-Parametric-involute_of_circle.html -->
+<!-- Figure 10.4.4 -->
+
+<div id='involute_of_circle' class='jxgbox' style='width:50%'></div>
+
+<script type='text/javascript'>
+(function () {  // BEGIN: scope limiting function wrapper
+  var xmin=-5.5, xmax= 2.5, ymin=-4.5, ymax=4;
+  var AspectRatio =  ((ymax-ymin)/(xmax-xmin)); // height/width
+  var wd=document.getElementById('involute_of_circle').offsetWidth;
+  var ht=wd*AspectRatio;
+  var yfactor = (ymax-ymin)/(ht);
+  var xfactor = (xmax-xmin)/(wd);
+  var xaxis_label_offset = yfactor*15;
+  var yaxis_label_offset = xfactor*20;
+  document.getElementById('involute_of_circle').style.height=ht+'px';
+  var brd = JXG.JSXGraph.initBoard('involute_of_circle',{boundingbox:[xmin,ymax,xmax,ymin], showCopyright:false, showNavigation:false}) ;
+  var rejax = function() {
+     MathJax.Hub.Queue(["Typeset",MathJax.Hub]); 
+  }
+  brd.addHook(rejax)
+  brd.create('circle',[[0,0],[0,1]],{strokeWidth:1,strokeColor:'black',fixed:true});
+  brd.create('segment',[[0.54,0.84],[1.38,0.3]],{dash:2,strokeWidth:1,strokeColor:'black',fixed:true});
+  brd.create('segment',[[-0.65,-0.757],[-3.68,1.86]],{dash:2,strokeWidth:1,strokeColor:'black',fixed:true});
+  brd.create('segment',[[-0.42,0.91],[1.4,1.74]],{dash:2,strokeWidth:1,strokeColor:'black',fixed:true});
+  var x = function(t) { return Math.cos(t)+t*Math.sin(t); }
+  var y = function(t) { return Math.sin(t)-t*Math.cos(t); }
+  var xaxis = brd.create('arrow', [[-5,0], [2,0]],{strokeWidth:1,strokeColor:'black',fixed:true});
+  var yaxis = brd.create('arrow',
+  [[0,-4],[0,3.5]],{strokeWidth:1,strokeColor:'black',fixed:true});
+  brd.create('curve',[x,y,0,Math.PI*1.7],{strokeColor:'red'});
+})(); // END: scope limiting function wrapper
+</script>
+<div class='figcaption'><span class="figurenumber">Figure 10.4.4.</span> An involute of a circle.</div></div>
+<p>
+
+</p><p>
+
+
+</div></div></body>
+</html>

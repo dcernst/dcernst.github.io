@@ -1,0 +1,4226 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+<meta http-equiv="Content-Language" Content="en">
+<title>16.6 Vector Functions for Surfaces</title>
+<!--
+<script type="text/javascript" src="js/deployJava.js"></script>
+<link rel="stylesheet" type="text/css" href="http://jsxgraph.uni-bayreuth.de/distrib/jsxgraph.css" />
+-->
+<!-- use Jsxgraph to create figures: http://jsxgraph.uni-bayreuth.de/wp/ -->
+<link rel="stylesheet" type="text/css" href="css/jsxgraph.css" />
+<script type="text/javascript" src="js/jsxgraphcore.js"></script>
+<script src="js/three.min.js"></script>
+<script src="js/Detector.js"></script>
+<script src="js/TrackballControls.js"></script>
+<script src="js/OrthographicTrackballControls.js"></script>
+<script src="js/THREEx.KeyboardState.js"></script>
+<script src="js/THREEx.FullScreen.js"></script>
+<script src="js/THREEx.WindowResize.js"></script>
+<script type='text/javascript' src='js/DAT.GUI.min.js'></script>
+<script>
+window.requestAnimFrame = (function(){
+    return  window.requestAnimationFrame       || 
+        window.webkitRequestAnimationFrame || 
+        window.mozRequestAnimationFrame    || 
+        window.oRequestAnimationFrame      || 
+        window.msRequestAnimationFrame     || 
+        function(/* function */ callback, /* DOMElement */
+            element){
+            window.setTimeout(callback, 1000 / 60);
+        };
+})();
+</script>
+<script src="js/ifvisible.min.js"></script>
+<script src="js/conrec.js"></script>
+<script>
+active = true;
+ifvisible.setIdleDuration(10);
+ifvisible.on("idle", function(){
+    active = false;
+//    console.log("idle");
+});
+
+ifvisible.on("wakeup", function(){
+    active = true;
+//    console.log("wakeup");
+});
+</script>
+<script src="js/parser.js"></script>
+<link href="css/whitman.css" rel="stylesheet" type="text/css" /><link href="css/calculus.css" rel="stylesheet" type="text/css" /><link href="css/knowlstyle.css" rel="stylesheet" type="text/css" />
+
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  extensions: ["tex2jax.js","TeX/AMSmath.js","TeX/AMSsymbols.js"],
+  jax: ["input/TeX","output/HTML-CSS"],
+  tex2jax: {
+    inlineMath: [['$','$'],["\\(","\\)"]],
+    processEscapes: true,
+  },
+TeX: {
+   Macros: {
+    val: "\\mathop{\\rm val}",
+    divides: "\\mid",
+    ndivides: "\\mathrel{\\not|}",
+    fix: "\\mathop{\\rm fix}",
+    id: "\\mathop{\\rm id}",
+    na: "\\mathop{\\rm na}",
+    d: "\\mathop{\\rm\\strut d}\\nolimits ",
+    legendre: ["\\left(\\frac{#1}{#2}\\right)",2],
+    normalbaselines: "",
+    notdiv: "\\nmid",
+    implies: "\\Rightarrow",
+    iff: "\\Leftrightarrow",
+    sevenpoint: "\\scriptsize",
+    ds: "\\displaystyle",
+    lcm: "\\operatorname{lcm}",
+    arccot: "\\operatorname{arccot}",
+    arcsec: "\\operatorname{arcsec}",
+    arccsc: "\\operatorname{arccsc}",
+    arccosh: "\\operatorname{arccosh}",
+    arcsinh: "\\operatorname{arcsinh}",
+    arcsech: "\\operatorname{arcsech}",
+    sech: "\\operatorname{sech}",
+    csch: "\\operatorname{csch}",
+    R: "{\\mathbb R}",
+    sb: "_",
+    sp: "^",
+    Q: "{\\mathbb Q}",
+    C: "{\\mathbb C}",
+    N: "{\\mathbb N}",
+    Z: "{\\mathbb Z}",
+    U: "{\\mathbb U}",
+    v: ["\\langle #1\\rangle",1],
+    dint: ["{\\mathchoice{\\mathop{\\int\\!\\!\\!\\int}_{#1}}{\\mathop{\\int\\!\\!\\!\\int}_{#1}}{\\mathop{\\int\\!\\!\\!\\int}}{\\mathop{\\int\\!\\!\\!\\int}}}",1],
+    tint: ["{\\mathchoice{\\mathop{\\int\\!\\!\\!\\int\\!\\!\\!\\int}_{#1\\;}}{\\mathop{\\int\\!\\!\\!\\int\\!\\!\\!\\int}_{#1}}{\\mathop{\\int\\!\\!\\!\\int\\!\\!\\!\\int}_{#1}}{\\mathop{\\int\\!\\!\\!\\int\\!\\!\\!\\int}_{#1}}}",1]
+   }
+},
+  "HTML-CSS": { scale: 100},
+  menuSettings: { zscale: "150%", zoom: "Double-Click" }
+});
+    JXG.Options.text.display = 'html';
+    JXG.Options.text.useMathJax = true;
+</script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/math
+jax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+<script>
+MathJax.Hub.Register.StartupHook("End",function () {
+  if(typeof window.orientation === 'undefined'){
+    var i,x;
+    x = document.getElementsByClassName("webgl_display");
+    for (i=0; i<x.length; i++) {
+      x[i].style.display = "block";
+    }
+    x = document.getElementsByClassName("no_webgl_display");
+    for (i=0; i<x.length; i++) {
+      x[i].style.display = "none";
+    }
+  }
+});
+</script>
+
+<script src="js/jquery-3.1.0.min.js"></script>
+<script src="https://sagecell.sagemath.org/static/embedded_sagecell.js"></script>
+<script src="js/jquery.visible.min.js"></script>
+<script type="text/javascript" src="js/knowl.js"></script>
+<style type="text/css">
+
+.sagecell .CodeMirror {
+  height: auto;
+}
+
+.sagecell .CodeMirror-scroll {
+  overflow-y: hidden;
+  overflow-x: auto;
+}
+
+.sagecell-practice .CodeMirror-scroll {
+}
+
+.sagecell button.sagecell_evalButton {
+    font-size: 50%;
+}
+
+.sagecell_sessionContainer {
+    margin-bottom:1em;
+}
+</style>
+<script>
+function toggle(a) {
+  var b = String(a);
+  b=b.replace("contents","button");
+  if (document.getElementById(a).style.display == "block") {
+    document.getElementById(a).style.display = "none";
+    document.getElementById(b).src = "expand_submenu.png";
+  } else {
+    document.getElementById(a).style.display = "block";
+    document.getElementById(b).src = "collapse_submenu.png";
+  }
+}
+function toggle_sidebar() {
+  if (document.getElementById('sidebar').style.display == "block") {
+    document.getElementById('sidebar').style.display = "none";
+    document.getElementById('menu_expand').style.display = "block";
+  } else {
+    document.getElementById('sidebar').style.display = "block";
+    document.getElementById('menu_expand').style.display = "none";
+  }
+}
+</script>
+
+</head>
+
+<body class="" onload="toggle('chapter_16_contents')">
+<div id="header">
+<div class="right">
+<div class="bread">
+  <a href=".">Home</a> &raquo; <a href="chapter16.html">Vector Calculus</a> &raquo; <a href="section16.06.html">Vector Functions for Surfaces</a>
+</div>
+
+<FORM method=GET action=https://www.google.com/custom id="search">
+<INPUT TYPE=text name=q size=31 maxlength=255 value="" style="font-size:small">
+<INPUT type=submit name=sa VALUE="Search the book" style="font-size:small">
+<INPUT type=hidden name=cof VALUE="AH:center;AWFID:198dc2b883340b1f;">
+<input type=hidden name=domains value="www.whitman.edu">
+<input type=hidden name=sitesearch value="www.whitman.edu/mathematics/calculus_online/">
+</FORM>
+<div id="title"><span id="title-content">16.6 Vector Functions for Surfaces</span></div><a href="#exercises">[Jump to exercises]</a>
+</div>
+</div>
+<div id="menu_expand" style="display:none"><a href="javascript:toggle_sidebar()">Expand menu</a></div>
+<div id="sidebar" style="display:block">
+<h2 id="menu_collapse"><a href='javascript:toggle_sidebar()'>Collapse menu</a></h2>
+<h2 class="link"><img id="chapter_01_button" src="expand_submenu.png" onclick='toggle("chapter_01_contents")'><a href="chapter01.html">1 Analytic Geometry</a></h2>
+
+<ul class="list" id="chapter_01_contents">
+<li><a href="section01.01.html">1. Lines</a></li>
+<li><a href="section01.02.html">2. Distance Between Two Points; Circles</a></li>
+<li><a href="section01.03.html">3. Functions</a></li>
+<li><a href="section01.04.html">4. Shifts and Dilations</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_02_button" src="expand_submenu.png" onclick='toggle("chapter_02_contents")'><a href="chapter02.html">2 Instantaneous Rate of Change:  The Derivative</a></h2>
+
+<ul class="list" id="chapter_02_contents">
+<li><a href="section02.01.html">1. The slope of a function</a></li>
+<li><a href="section02.02.html">2. An example</a></li>
+<li><a href="section02.03.html">3. Limits</a></li>
+<li><a href="section02.04.html">4. The Derivative Function</a></li>
+<li><a href="section02.05.html">5. Adjectives For Functions</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_03_button" src="expand_submenu.png" onclick='toggle("chapter_03_contents")'><a href="chapter03.html">3 Rules for Finding Derivatives</a></h2>
+
+<ul class="list" id="chapter_03_contents">
+<li><a href="section03.01.html">1. The Power Rule</a></li>
+<li><a href="section03.02.html">2. Linearity of the Derivative</a></li>
+<li><a href="section03.03.html">3. The Product Rule</a></li>
+<li><a href="section03.04.html">4. The Quotient Rule</a></li>
+<li><a href="section03.05.html">5. The Chain Rule</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_04_button" src="expand_submenu.png" onclick='toggle("chapter_04_contents")'><a href="chapter04.html">4 Transcendental Functions</a></h2>
+
+<ul class="list" id="chapter_04_contents">
+<li><a href="section04.01.html">1. Trigonometric Functions</a></li>
+<li><a href="section04.02.html">2. The Derivative of $\sin x$</a></li>
+<li><a href="section04.03.html">3. A hard limit</a></li>
+<li><a href="section04.04.html">4. The Derivative of $\sin x$, continued</a></li>
+<li><a href="section04.05.html">5. Derivatives of the Trigonometric Functions</a></li>
+<li><a href="section04.06.html">6. Exponential and Logarithmic functions</a></li>
+<li><a href="section04.07.html">7. Derivatives of the exponential and  logarithmic functions</a></li>
+<li><a href="section04.08.html">8. Implicit Differentiation</a></li>
+<li><a href="section04.09.html">9. Inverse Trigonometric Functions</a></li>
+<li><a href="section04.10.html">10. Limits revisited</a></li>
+<li><a href="section04.11.html">11. Hyperbolic Functions</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_05_button" src="expand_submenu.png" onclick='toggle("chapter_05_contents")'><a href="chapter05.html">5 Curve Sketching</a></h2>
+
+<ul class="list" id="chapter_05_contents">
+<li><a href="section05.01.html">1. Maxima and Minima</a></li>
+<li><a href="section05.02.html">2. The first derivative test</a></li>
+<li><a href="section05.03.html">3. The second derivative test</a></li>
+<li><a href="section05.04.html">4. Concavity and inflection points</a></li>
+<li><a href="section05.05.html">5. Asymptotes and Other Things to Look For</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_06_button" src="expand_submenu.png" onclick='toggle("chapter_06_contents")'><a href="chapter06.html">6 Applications of the Derivative</a></h2>
+
+<ul class="list" id="chapter_06_contents">
+<li><a href="section06.01.html">1. Optimization</a></li>
+<li><a href="section06.02.html">2. Related Rates</a></li>
+<li><a href="section06.03.html">3. Newton's Method</a></li>
+<li><a href="section06.04.html">4. Linear Approximations</a></li>
+<li><a href="section06.05.html">5. The Mean Value Theorem</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_07_button" src="expand_submenu.png" onclick='toggle("chapter_07_contents")'><a href="chapter07.html">7 Integration</a></h2>
+
+<ul class="list" id="chapter_07_contents">
+<li><a href="section07.01.html">1. Two examples</a></li>
+<li><a href="section07.02.html">2. The Fundamental Theorem of Calculus</a></li>
+<li><a href="section07.03.html">3. Some Properties of Integrals</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_08_button" src="expand_submenu.png" onclick='toggle("chapter_08_contents")'><a href="chapter08.html">8 Techniques of Integration</a></h2>
+
+<ul class="list" id="chapter_08_contents">
+<li><a href="section08.01.html">1. Substitution</a></li>
+<li><a href="section08.02.html">2. Powers of sine and cosine</a></li>
+<li><a href="section08.03.html">3. Trigonometric Substitutions</a></li>
+<li><a href="section08.04.html">4. Integration by Parts</a></li>
+<li><a href="section08.05.html">5. Rational Functions</a></li>
+<li><a href="section08.06.html">6. Numerical Integration</a></li>
+<li><a href="section08.07.html">7. Additional exercises</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_09_button" src="expand_submenu.png" onclick='toggle("chapter_09_contents")'><a href="chapter09.html">9 Applications of Integration</a></h2>
+
+<ul class="list" id="chapter_09_contents">
+<li><a href="section09.01.html">1. Area between curves</a></li>
+<li><a href="section09.02.html">2. Distance, Velocity, Acceleration</a></li>
+<li><a href="section09.03.html">3. Volume</a></li>
+<li><a href="section09.04.html">4. Average value of a function</a></li>
+<li><a href="section09.05.html">5. Work</a></li>
+<li><a href="section09.06.html">6. Center of Mass</a></li>
+<li><a href="section09.07.html">7. Kinetic energy; improper integrals</a></li>
+<li><a href="section09.08.html">8. Probability</a></li>
+<li><a href="section09.09.html">9. Arc Length</a></li>
+<li><a href="section09.10.html">10. Surface Area</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_10_button" src="expand_submenu.png" onclick='toggle("chapter_10_contents")'><a href="chapter10.html">10 Polar Coordinates,  Parametric Equations</a></h2>
+
+<ul class="list" id="chapter_10_contents">
+<li><a href="section10.01.html">1. Polar Coordinates</a></li>
+<li><a href="section10.02.html">2. Slopes in polar coordinates</a></li>
+<li><a href="section10.03.html">3. Areas in polar coordinates</a></li>
+<li><a href="section10.04.html">4. Parametric Equations</a></li>
+<li><a href="section10.05.html">5. Calculus with Parametric Equations</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_11_button" src="expand_submenu.png" onclick='toggle("chapter_11_contents")'><a href="chapter11.html">11 Sequences and Series</a></h2>
+
+<ul class="list" id="chapter_11_contents">
+<li><a href="section11.01.html">1. Sequences</a></li>
+<li><a href="section11.02.html">2. Series</a></li>
+<li><a href="section11.03.html">3. The Integral Test</a></li>
+<li><a href="section11.04.html">4. Alternating Series</a></li>
+<li><a href="section11.05.html">5. Comparison Tests</a></li>
+<li><a href="section11.06.html">6. Absolute Convergence</a></li>
+<li><a href="section11.07.html">7. The Ratio and Root Tests</a></li>
+<li><a href="section11.08.html">8. Power Series</a></li>
+<li><a href="section11.09.html">9. Calculus with Power Series</a></li>
+<li><a href="section11.10.html">10. Taylor Series</a></li>
+<li><a href="section11.11.html">11. Taylor's Theorem</a></li>
+<li><a href="section11.12.html">12. Additional exercises</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_12_button" src="expand_submenu.png" onclick='toggle("chapter_12_contents")'><a href="chapter12.html">12 Three Dimensions</a></h2>
+
+<ul class="list" id="chapter_12_contents">
+<li><a href="section12.01.html">1. The Coordinate System</a></li>
+<li><a href="section12.02.html">2. Vectors</a></li>
+<li><a href="section12.03.html">3. The Dot Product</a></li>
+<li><a href="section12.04.html">4. The Cross Product</a></li>
+<li><a href="section12.05.html">5. Lines and Planes</a></li>
+<li><a href="section12.06.html">6. Other Coordinate Systems</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_13_button" src="expand_submenu.png" onclick='toggle("chapter_13_contents")'><a href="chapter13.html">13 Vector Functions</a></h2>
+
+<ul class="list" id="chapter_13_contents">
+<li><a href="section13.01.html">1. Space Curves</a></li>
+<li><a href="section13.02.html">2. Calculus with vector functions</a></li>
+<li><a href="section13.03.html">3. Arc length and curvature</a></li>
+<li><a href="section13.04.html">4. Motion along a curve</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_14_button" src="expand_submenu.png" onclick='toggle("chapter_14_contents")'><a href="chapter14.html">14 Partial Differentiation</a></h2>
+
+<ul class="list" id="chapter_14_contents">
+<li><a href="section14.01.html">1. Functions of Several Variables</a></li>
+<li><a href="section14.02.html">2. Limits and Continuity</a></li>
+<li><a href="section14.03.html">3. Partial Differentiation</a></li>
+<li><a href="section14.04.html">4. The Chain Rule</a></li>
+<li><a href="section14.05.html">5. Directional Derivatives</a></li>
+<li><a href="section14.06.html">6. Higher order derivatives</a></li>
+<li><a href="section14.07.html">7. Maxima and minima</a></li>
+<li><a href="section14.08.html">8. Lagrange Multipliers</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_15_button" src="expand_submenu.png" onclick='toggle("chapter_15_contents")'><a href="chapter15.html">15 Multiple Integration</a></h2>
+
+<ul class="list" id="chapter_15_contents">
+<li><a href="section15.01.html">1. Volume and Average Height</a></li>
+<li><a href="section15.02.html">2. Double Integrals in Cylindrical Coordinates</a></li>
+<li><a href="section15.03.html">3. Moment and Center of Mass</a></li>
+<li><a href="section15.04.html">4. Surface Area</a></li>
+<li><a href="section15.05.html">5. Triple Integrals</a></li>
+<li><a href="section15.06.html">6. Cylindrical and Spherical Coordinates</a></li>
+<li><a href="section15.07.html">7. Change of Variables</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_16_button" src="expand_submenu.png" onclick='toggle("chapter_16_contents")'><a href="chapter16.html">16 Vector Calculus</a></h2>
+
+<ul class="list" id="chapter_16_contents">
+<li><a href="section16.01.html">1. Vector Fields</a></li>
+<li><a href="section16.02.html">2. Line Integrals</a></li>
+<li><a href="section16.03.html">3. The Fundamental Theorem of Line Integrals</a></li>
+<li><a href="section16.04.html">4. Green's Theorem</a></li>
+<li><a href="section16.05.html">5. Divergence and Curl</a></li>
+<li><a href="section16.06.html">6. Vector Functions for Surfaces</a></li>
+<li><a href="section16.07.html">7. Surface Integrals</a></li>
+<li><a href="section16.08.html">8. Stokes's Theorem</a></li>
+<li><a href="section16.09.html">9. The Divergence Theorem</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_17_button" src="expand_submenu.png" onclick='toggle("chapter_17_contents")'><a href="chapter17.html">17 Differential Equations</a></h2>
+
+<ul class="list" id="chapter_17_contents">
+<li><a href="section17.01.html">1. First Order Differential Equations</a></li>
+<li><a href="section17.02.html">2. First Order Homogeneous Linear Equations</a></li>
+<li><a href="section17.03.html">3. First Order Linear Equations</a></li>
+<li><a href="section17.04.html">4. Approximation</a></li>
+<li><a href="section17.05.html">5. Second Order Homogeneous Equations</a></li>
+<li><a href="section17.06.html">6. Second Order Linear Equations</a></li>
+<li><a href="section17.07.html">7. Second Order Linear Equations, take two</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_18_button" src="expand_submenu.png" onclick='toggle("chapter_18_contents")'><a href="chapter18.html">18 Useful formulas</a></h2>
+
+<ul class="list" id="chapter_18_contents">
+</ul>
+
+</div>
+
+<div id="main">
+
+<div id="next"><a href="section16.05.html"><img src=previous_section.png width="30"></a>&nbsp;&nbsp;<a href="section16.07.html"><img src=next_section.png width="30"></a></div>
+
+<div id="content">
+<p>
+
+
+</p><p>
+We have dealt extensively with vector equations for curves, 
+${\bf r}(t)=\langle x(t),y(t),z(t)\rangle$. A similar technique
+can be used to represent surfaces in a way that is more general than
+the equations for surfaces we have used so far. Recall that
+when we use ${\bf r}(t)$ to represent a curve, we imagine the vector 
+${\bf r}(t)$ with its tail at the origin, and then we follow the head
+of the arrow as $t$ changes. The vector "draws'' the curve through
+space as $t$ varies.
+</p><p>
+Suppose we instead have a vector function of two variables,
+$${\bf r}(u,v)=\langle x(u,v),y(u,v),z(u,v)\rangle.$$ As both $u$ and
+$v$ vary, we again imagine the vector ${\bf r}(u,v)$ with its tail at
+the origin, and its head sweeps out a surface in space. A useful
+analogy is the technology of CRT video screens, in which an electron
+gun fires electrons in the direction of the screen. The gun's
+direction sweeps horizontally and vertically to "paint'' the screen
+with the desired image. In practice, the gun moves horizontally
+through an entire line, then moves vertically to the next line and
+repeats the operation. In the same way, it can be useful to imagine
+fixing a value of $v$ and letting ${\bf r}(u,v)$ sweep out a curve as
+$u$ changes. Then $v$ can change a bit, and ${\bf r}(u,v)$ sweeps out
+a new curve very close to the first. Put enough of these curves
+together and they form a surface.
+</p><p>
+</p>
+<div class="example">
+<p>
+<span class="theoremlabel">Example 16.6.1 </span>Consider the function ${\bf r}(u,v)=\langle v\cos u,v\sin u,
+v\rangle$.  For a fixed value of $v$, as $u$ varies from 0 to $2\pi$,
+this traces a circle of radius $v$ at height $v$ above the
+$x$-$y$ plane. Put lots and lots of these together,and they form a
+cone, as in figure <a href="section16.06.html#fig:parametric cone">16.6.1</a>.
+
+</p>
+</div><!-- example -->
+<p>
+</p><p>
+<a id="fig:parametric cone"></a>
+</p><div class='figure'><!-- Vector_calculus-parametric_cone.html -->
+<!-- Figure 16.6.1 -->
+
+<table class="webgl_display" style="display:none;left-margin:auto;right-margin:auto">
+<tr>
+<td id="cone_solid" style='text-align:center'></td>
+<td id="cone_circles" style='text-align:center'></td>
+<td id="cone_radii" style='text-align:center'></td>
+</tr>
+</table>
+<table class="no_webgl_display" style="display:block;left-margin:auto;right-margin:auto">
+<tr>
+<td style='text-align:center'>
+<a href="http://www.whitman.edu/mathematics/calculus_applets/parametric_cone">
+<img src="images/cone_level_curves.png" style="width:350px"></a>
+</td>
+<td style='text-align:center'>
+<a href="http://www.whitman.edu/mathematics/calculus_applets/parametric_cone">
+<img src="images/parametric_cone.png" style="width:300px"></a>
+</td>
+</tr>
+</table>
+
+<script>
+    MathJax.Hub.Register.StartupHook("End",function(){    
+	var xoffset = 0; yoffset = 0; zoffset = -1.5;
+	var SCREEN_WIDTH = 300, SCREEN_HEIGHT = 300;
+	var container, scene, camera, renderer, controls;
+	var keyboard = new THREEx.KeyboardState();
+	var clock = new THREE.Clock();
+	var meshFunction;
+	var usegments = 40, vsegments=10;
+	
+	var xMin = xMax = yMin = yMax = 0; // for autosizing window
+	
+	var graphGeometry;
+	
+	if(typeof window.orientation === 'undefined') {
+	    init();
+	    animate();
+	}
+
+	function init() 
+	{
+	    scene = new THREE.Scene();
+	    if ( Detector.webgl )
+		renderer = new THREE.WebGLRenderer( {alpha:true, antialias:true} );
+	    else
+		renderer = new THREE.CanvasRenderer(); 
+	    renderer.setSize(SCREEN_WIDTH, SCREEN_HEIGHT);
+	    container = document.getElementById( 'cone_solid' );
+	    container.appendChild( renderer.domElement );
+	    var light = new THREE.PointLight(0xffffff,1,100);
+	    light.position.set(3,0,10);
+	    scene.add(light);
+	    var light_amb = new THREE.AmbientLight( 0xaaaaaa ); // soft white light
+	    scene.add( light_amb );
+	    
+	    // Background clear color
+	    // renderer.setClearColorHex( 0xffffff, 0 );
+	    
+	    plot_it_0();
+	    plot_axes();
+	    resetCamera();
+	}
+	
+	
+	function resetCamera()
+	{
+	    var VIEW_ANGLE = 25, ASPECT = SCREEN_WIDTH / SCREEN_HEIGHT, NEAR = 0.1, FAR = 20000;
+	    // Orthog camera
+	    //      var zoom = 3;
+	    //      camera = new THREE.OrthographicCamera( -zoom*ASPECT,zoom*ASPECT,zoom,-zoom, NEAR, FAR);
+	    //      camera.position.x = zoom*2;
+	    //      camera.position.y = zoom*1.5;
+	    //      camera.position.z = zoom*1.5;
+	    // Perspective camera
+	    camera = new THREE.PerspectiveCamera( VIEW_ANGLE, ASPECT, NEAR, FAR);
+	    scene.add(camera);
+	    camera.position.set(10,10,10);
+	    camera.lookAt(scene.position);  
+	    
+	    camera.up.set( 0, 0, 1 ); 
+	    scene.add(camera);
+	    
+	    controls = new THREE.TrackballControls( camera, renderer.domElement );
+	    controls.rotateSpeed = 1;
+	    THREEx.WindowResize(renderer, camera);
+	}
+	
+	function animate() 
+	{
+	    requestAnimationFrame( animate );
+	    if ($('#cone_solid').visible(true) && active ) {
+		render();
+		update();
+	    }
+	}
+
+	function update()
+	{
+	    if ( keyboard.pressed("z") ) 
+	    { 
+		// do something
+	    }
+	    
+	    controls.update();
+	    //	stats.update();
+	}
+	
+	function render() 
+	{
+	    renderer.render( scene, camera );
+	}
+	
+	function f(x,y) {
+	    return x+y;
+	}
+
+	function plot_it_0()
+	{
+	    var loader = new THREE.TextureLoader();
+	    var gridTexture = loader.load( 'images/square.png');
+	    gridTexture.wrapS = gridTexture.wrapT = THREE.RepeatWrapping;
+	    gridTexture.repeat.set( 20,10 );
+	    var gridMaterial = new THREE.MeshLambertMaterial( {map:gridTexture, vertexColors: THREE.VertexColors,side:THREE.DoubleSide } );
+	    var useg = 40,vseg = 10;
+	    function x(u,v) {
+		return v*Math.cos(u)+xoffset;
+	    }
+	    function y(u,v) {
+		return v*Math.sin(u)+yoffset;
+	    }
+	    function z(u,v) {
+		return v+zoffset;
+	    }
+	    createGraph(x,y,z,0,2*Math.PI,0,3,useg,vseg,scene,gridMaterial,new THREE.Color( 0xffffff ),false,false);
+//	    createGraph(x,y,z,0,Math.PI*2,0,1,useg,vseg,scene,backMaterial,new THREE.Color( 0x00ffff ),true,false);
+//	    createGraph(x,y,z,0,Math.PI*2,0,1,useg,vseg,scene,frontMaterial,new THREE.Color( 0x00ffff ),true,false);
+	}
+	
+	function plot_axes()
+	{
+	    var spritex = makeTextSprite( "x", { fontsize: 85, borderColor: {r:0, g:0, b:255, a:1.0}, xoffset:-40, yoffset:30 } );
+	    spritex.position.set(3+xoffset,yoffset,0+zoffset);
+	    scene.add( spritex );
+	    var spritey = makeTextSprite( "y", { fontsize: 85, borderColor: {r:0, g:0, b:255, a:1.0},xoffset:15, yoffset:25 } );
+	    spritey.position.set(xoffset,3+yoffset,zoffset);
+	    scene.add( spritey );
+	    var spritez = makeTextSprite( "z", { fontsize: 85, borderColor: {r:0, g:0, b:255, a:1.0}, yoffset:-10 } );
+	    spritez.position.set(xoffset,yoffset,3+zoffset);
+	    scene.add( spritez );
+	    
+	    var axes = buildAxes();
+	    scene.add(axes);
+	}
+
+	function createGraph(xFunc,yFunc,zFunc,uMin,uMax,vMin,vMax,useg,vseg,sc,material,clr,solid,box)
+	{
+	    var graphMesh;
+	    uRange = uMax - uMin;
+	    vRange = vMax - vMin;
+	    meshFunction = function(u0, v0) 
+	    {
+		var u = uRange * u0 + uMin;
+		var v = vRange * v0 + vMin;
+		var x = xFunc(u,v);
+		var y = yFunc(u,v);
+		var z = zFunc(u,v);
+		if ( isNaN(x) || isNaN(y) || isNaN(z) )
+		    return new THREE.Vector3(0,0,0); // TODO: better fix
+		else
+		    return new THREE.Vector3(x, y, z);
+	    };
+	    
+	    // true => sensible image tile repeat...
+	    graphGeometry = new THREE.ParametricGeometry( meshFunction, useg, vseg, true );
+	    ///////////////////////////////////////////////
+	    // calculate vertex colors based on Z values //
+	    ///////////////////////////////////////////////
+	    graphGeometry.computeBoundingBox();
+	    zMin = graphGeometry.boundingBox.min.z;
+	    zMax = graphGeometry.boundingBox.max.z;
+	    zRange = zMax - zMin;
+	    var defaultcolor = new THREE.Color( 0xff0000 );
+	    var color, point, face, numberOfSides, vertexIndex;
+	    // faces are indexed using characters
+	    var faceIndices = [ 'a', 'b', 'c', 'd' ];
+	    // first, assign colors to vertices as desired
+	    if (!solid) {
+		for ( var i = 0; i < graphGeometry.vertices.length; i++ ) 
+		{
+		    point = graphGeometry.vertices[ i ];
+		    color = new THREE.Color( 0x0000ff );
+		    //	  color.setHSL( 0.7 *(10-point.x)/10 , 1, 0.1+0.3*(10 - point.z) / 10 );
+		    color.setHSL( 0+0.8*(zMax - point.z)/zRange , 0.6, 0.5 );
+		    graphGeometry.colors[i] = color; // use this array for convenience
+		}
+	    }
+	    // copy the colors as necessary to the face's vertexColors array.
+	    for ( var i = 0; i < graphGeometry.faces.length; i++ ) 
+	    {
+		face = graphGeometry.faces[ i ];
+		numberOfSides = ( face instanceof THREE.Face3 ) ? 3 : 4;
+		for( var j = 0; j < numberOfSides; j++ ) 
+		{
+		    if (solid) {
+			face.vertexColors[ j ] = clr;
+		    } else {
+			vertexIndex = face[ faceIndices[ j ] ];
+			face.vertexColors[ j ] = graphGeometry.colors[vertexIndex ];
+			//	      face.vertexColors[ j ] = clr;
+		    }
+		}
+	    }
+	    ///////////////////////
+	    // end vertex colors //
+	    ///////////////////////
+	    
+	    
+	    xMin = graphGeometry.boundingBox.min.x;
+	    xMax = graphGeometry.boundingBox.max.x;
+	    yMin = graphGeometry.boundingBox.min.y;
+	    yMax = graphGeometry.boundingBox.max.y;
+	    
+	    if (graphMesh) 
+	    {
+		sc.remove( graphMesh );
+		// renderer.deallocateObject( graphMesh );
+	    }
+	    
+	    graphMesh = new THREE.Mesh( graphGeometry,material );
+	    
+	    graphMesh.doubleSided = true;
+	    sc.add(graphMesh);
+	    if (box) {
+		var bbox = new THREE.BoundingBoxHelper( graphMesh, 0x000000 );
+		bbox.update();
+		scene.add( bbox );	
+	    }
+	}
+
+	function buildAxes() {
+	    var axes = new THREE.Object3D();
+	    
+	    axes.add( buildAxis( new THREE.Vector3( xoffset, yoffset, zoffset ), new THREE.Vector3( 3+xoffset, yoffset, zoffset ), 0x000000, false ) ); // +X
+//	    axes.add( buildAxis( new THREE.Vector3( xoffset, yoffset, zoffset ), new THREE.Vector3( -5+xoffset, yoffset, zoffset ), 0x000000, true) ); // -X
+	    axes.add( buildAxis( new THREE.Vector3( xoffset, yoffset, zoffset ), new THREE.Vector3( xoffset, 3+yoffset, zoffset ), 0x000000, false ) ); // +Y
+//	    axes.add( buildAxis( new THREE.Vector3( xoffset, yoffset, zoffset ), new THREE.Vector3( xoffset, -5+yoffset, zoffset ), 0x000000, true ) ); // -Y
+	    axes.add( buildAxis( new THREE.Vector3( xoffset, yoffset, zoffset ), new THREE.Vector3( xoffset, yoffset, 3+zoffset ), 0x000000, false ) ); // +Z
+//	    axes.add( buildAxis( new THREE.Vector3( xoffset, yoffset, zoffset ), new THREE.Vector3( xoffset, yoffset, -5+zoffset ), 0x000000, true ) ); // -Z
+	    return axes;
+	}	
+	
+	function buildAxis( src, dst, colorHex, dashed ) {
+	    var geom = new THREE.Geometry();
+	    var mat;
+	    
+	    if(dashed) {
+		mat = new THREE.LineDashedMaterial({ linewidth: 1, color: colorHex, dashSize: 0.05, gapSize: 0.05 });
+	    } else {
+		mat = new THREE.LineBasicMaterial({ linewidth: 1, color: colorHex });
+	    }
+	    
+	    geom.vertices.push( src.clone() );
+	    geom.vertices.push( dst.clone() );
+	    geom.computeLineDistances();
+	    
+	    var axis = new THREE.Line( geom, mat );
+	    
+	    return axis;
+	}
+
+	function makeTextSprite(message, opts) {
+	    var parameters = opts || {};
+	    var fontface = parameters.fontface || 'Helvetiker';
+	    var fontsize = parameters.fontsize || 70;
+	    var borderThickness = parameters.borderThickness || 1;
+	    var xoffset = parameters.xoffset || 0;
+	    var yoffset = parameters.yoffset || 0;
+	    var canvas = document.createElement('canvas');
+	    canvas.width = canvas.height = 200;
+	    var context = canvas.getContext('2d');
+	    context.font = fontsize + "px " + fontface;
+
+  // get size data (height depends only on font size)
+	    var metrics = context.measureText(message);
+	    var textWidth = metrics.width;
+	    
+  // text color
+	    context.fillStyle = 'rgba(0, 0, 0, 1.0)';
+	    context.fillText(message, canvas.width/2+xoffset, canvas.width/2+yoffset);
+//	    alert(canvas.width);
+  // canvas contents will be used for a texture
+	    var texture = new THREE.Texture(canvas)
+	    texture.minFilter = THREE.LinearFilter;
+	    texture.needsUpdate = true;
+	    //roundRect(context, borderThickness, borderThickness, textWidth + 2 * borderThickness, fontsize * 1.4 + 2* borderThickness, 6);
+	    var spriteMaterial = new THREE.SpriteMaterial({
+		map: texture
+//              useScreenCoordinates: false
+	    });
+	    var sprite = new THREE.Sprite(spriteMaterial);
+	    sprite.scale.set(1,1,1);
+	    return sprite;
+	}
+    });
+
+  MathJax.Hub.Register.StartupHook("End",function(){    
+	var xoffset = 0; yoffset = 0; zoffset = -1.5;
+	var SCREEN_WIDTH = 300, SCREEN_HEIGHT = 300;
+	var container, scene, camera, renderer, controls;
+	var keyboard = new THREEx.KeyboardState();
+	var clock = new THREE.Clock();
+	var meshFunction;
+	var usegments = 40, vsegments=10;
+	
+	var xMin = xMax = yMin = yMax = 0; // for autosizing window
+	
+	var graphGeometry;
+	
+      if(typeof window.orientation === 'undefined') {
+	  init();
+	  animate();
+      }
+
+	function init() 
+	{
+	    scene = new THREE.Scene();
+	    if ( Detector.webgl )
+		renderer = new THREE.WebGLRenderer( {alpha:true, antialias:true} );
+	    else
+		renderer = new THREE.CanvasRenderer(); 
+	    renderer.setSize(SCREEN_WIDTH, SCREEN_HEIGHT);
+	    container = document.getElementById( 'cone_circles' );
+	    container.appendChild( renderer.domElement );
+	    var light = new THREE.PointLight(0xffffff,1,100);
+	    light.position.set(3,0,10);
+	    scene.add(light);
+	    var light_amb = new THREE.AmbientLight( 0xaaaaaa ); // soft white light
+	    scene.add( light_amb );
+	    
+	    // Background clear color
+	    // renderer.setClearColorHex( 0xffffff, 0 );
+	    
+	    plot_it_0();
+	    plot_axes();
+	    resetCamera();
+	}
+	
+	
+	function resetCamera()
+	{
+	    var VIEW_ANGLE = 25, ASPECT = SCREEN_WIDTH / SCREEN_HEIGHT, NEAR = 0.1, FAR = 20000;
+	    // Orthog camera
+	    //      var zoom = 3;
+	    //      camera = new THREE.OrthographicCamera( -zoom*ASPECT,zoom*ASPECT,zoom,-zoom, NEAR, FAR);
+	    //      camera.position.x = zoom*2;
+	    //      camera.position.y = zoom*1.5;
+	    //      camera.position.z = zoom*1.5;
+	    // Perspective camera
+	    camera = new THREE.PerspectiveCamera( VIEW_ANGLE, ASPECT, NEAR, FAR);
+	    scene.add(camera);
+	    camera.position.set(10,10,10);
+	    camera.lookAt(scene.position);  
+	    
+	    camera.up.set( 0, 0, 1 ); 
+	    scene.add(camera);
+	    
+	    controls = new THREE.TrackballControls( camera, renderer.domElement );
+	    controls.rotateSpeed = 1;
+	    THREEx.WindowResize(renderer, camera);
+	}
+	
+      function animate() 
+      {
+	  requestAnimationFrame( animate );
+	  if ($('#cone_circles').visible(true) && active ) {
+	      render();
+	      update();
+	  }
+      }
+
+	function update()
+	{
+	    if ( keyboard.pressed("z") ) 
+	    { 
+		// do something
+	    }
+	    
+	    controls.update();
+	    //	stats.update();
+	}
+	
+	function render() 
+	{
+	    renderer.render( scene, camera );
+	}
+	
+	function f(x,y) {
+	    return x+y;
+	}
+
+	function plot_it_0()
+	{
+	    var i,levels = 15;
+	    for (i=0; i<=levels; i++) {
+		function x(t) {
+		    return 3*i/levels*Math.cos(t)+xoffset;
+		}
+		function y(t) {
+		    return 3*i/levels*Math.sin(t)+yoffset;
+		}
+		function z(t) {
+		    return 3*i/levels+zoffset;
+		}
+	    curveGraph(x,y,z,0,2*Math.PI,30,new THREE.Color( 0x6495ED ));
+	    }
+	}
+	
+	function plot_axes()
+	{
+	    var spritex = makeTextSprite( "x", { fontsize: 85, borderColor: {r:0, g:0, b:255, a:1.0}, xoffset:-40, yoffset:30 } );
+	    spritex.position.set(3+xoffset,yoffset,0+zoffset);
+	    scene.add( spritex );
+	    var spritey = makeTextSprite( "y", { fontsize: 85, borderColor: {r:0, g:0, b:255, a:1.0},xoffset:15, yoffset:25 } );
+	    spritey.position.set(xoffset,3+yoffset,zoffset);
+	    scene.add( spritey );
+	    var spritez = makeTextSprite( "z", { fontsize: 85, borderColor: {r:0, g:0, b:255, a:1.0}, yoffset:-10 } );
+	    spritez.position.set(xoffset,yoffset,3+zoffset);
+	    scene.add( spritez );
+	    
+	    var axes = buildAxes();
+	    scene.add(axes);
+	}
+
+	function createGraph(xFunc,yFunc,zFunc,uMin,uMax,vMin,vMax,useg,vseg,sc,material,clr,solid,box)
+	{
+	    var graphMesh;
+	    uRange = uMax - uMin;
+	    vRange = vMax - vMin;
+	    meshFunction = function(u0, v0) 
+	    {
+		var u = uRange * u0 + uMin;
+		var v = vRange * v0 + vMin;
+		var x = xFunc(u,v);
+		var y = yFunc(u,v);
+		var z = zFunc(u,v);
+		if ( isNaN(x) || isNaN(y) || isNaN(z) )
+		    return new THREE.Vector3(0,0,0); // TODO: better fix
+		else
+		    return new THREE.Vector3(x, y, z);
+	    };
+	    
+	    // true => sensible image tile repeat...
+	    graphGeometry = new THREE.ParametricGeometry( meshFunction, useg, vseg, true );
+	    ///////////////////////////////////////////////
+	    // calculate vertex colors based on Z values //
+	    ///////////////////////////////////////////////
+	    graphGeometry.computeBoundingBox();
+	    zMin = graphGeometry.boundingBox.min.z;
+	    zMax = graphGeometry.boundingBox.max.z;
+	    zRange = zMax - zMin;
+	    var defaultcolor = new THREE.Color( 0xff0000 );
+	    var color, point, face, numberOfSides, vertexIndex;
+	    // faces are indexed using characters
+	    var faceIndices = [ 'a', 'b', 'c', 'd' ];
+	    // first, assign colors to vertices as desired
+	    if (!solid) {
+		for ( var i = 0; i < graphGeometry.vertices.length; i++ ) 
+		{
+		    point = graphGeometry.vertices[ i ];
+		    color = new THREE.Color( 0x0000ff );
+		    //	  color.setHSL( 0.7 *(10-point.x)/10 , 1, 0.1+0.3*(10 - point.z) / 10 );
+		    color.setHSL( 0+0.8*(zMax - point.z)/zRange , 0.6, 0.5 );
+		    graphGeometry.colors[i] = color; // use this array for convenience
+		}
+	    }
+	    // copy the colors as necessary to the face's vertexColors array.
+	    for ( var i = 0; i < graphGeometry.faces.length; i++ ) 
+	    {
+		face = graphGeometry.faces[ i ];
+		numberOfSides = ( face instanceof THREE.Face3 ) ? 3 : 4;
+		for( var j = 0; j < numberOfSides; j++ ) 
+		{
+		    if (solid) {
+			face.vertexColors[ j ] = clr;
+		    } else {
+			vertexIndex = face[ faceIndices[ j ] ];
+			face.vertexColors[ j ] = graphGeometry.colors[vertexIndex ];
+			//	      face.vertexColors[ j ] = clr;
+		    }
+		}
+	    }
+	    ///////////////////////
+	    // end vertex colors //
+	    ///////////////////////
+	    
+	    
+	    xMin = graphGeometry.boundingBox.min.x;
+	    xMax = graphGeometry.boundingBox.max.x;
+	    yMin = graphGeometry.boundingBox.min.y;
+	    yMax = graphGeometry.boundingBox.max.y;
+	    
+	    if (graphMesh) 
+	    {
+		sc.remove( graphMesh );
+		// renderer.deallocateObject( graphMesh );
+	    }
+	    
+	    graphMesh = new THREE.Mesh( graphGeometry,material );
+	    
+	    graphMesh.doubleSided = true;
+	    sc.add(graphMesh);
+	    if (box) {
+		var bbox = new THREE.BoundingBoxHelper( graphMesh, 0x000000 );
+		bbox.update();
+		scene.add( bbox );	
+	    }
+	}
+
+	function curveGraph(xFunc,yFunc,zFunc,tMin,tMax,segments,color)
+	{
+	    var normMaterial = new THREE.MeshBasicMaterial( { vertexColors: THREE.VertexColors,side:THREE.DoubleSide } );
+	    var graphMesh;
+	    var tRange = tMax - tMin;
+	    var  mycurve = THREE.Curve.create( 
+		function() {},
+		function(t) 
+		{
+                    // default:    0 < t < 1
+                    //    want: tMin < t < tMax
+		    t = t * tRange + tMin;
+		    return new THREE.Vector3(xFunc(t), yFunc(t), zFunc(t)).multiplyScalar(1);
+		}
+	    );
+	    var curve = new mycurve;
+            
+	    var closedTube = false;
+	    var debug = false; // show normal vectors
+	    var tubeGeometry = new THREE.TubeGeometry(curve, segments, 0.02, 3, false, debug);
+            
+	    var  point, face, numberOfSides;
+	    for ( var i = 0; i < tubeGeometry.faces.length; i++ ) 
+	    {
+		face = tubeGeometry.faces[ i ];
+		numberOfSides = ( face instanceof THREE.Face3 ) ? 3 : 4;
+		for( var j = 0; j < numberOfSides; j++ ) 
+		{
+		    face.vertexColors[ j ] = color;
+		}
+	    }
+            
+            // for auto-sizing window
+	    tubeGeometry.computeBoundingBox();
+	    xMin = tubeGeometry.boundingBox.min.x;
+	    xMax = tubeGeometry.boundingBox.max.x;
+	    yMin = tubeGeometry.boundingBox.min.y;
+	    yMax = tubeGeometry.boundingBox.max.y;
+	    zMin = tubeGeometry.boundingBox.min.z;
+	    zMax = tubeGeometry.boundingBox.max.z;
+            
+	    if (graphMesh) 
+	    {
+		scene.remove( graphMesh );
+                // renderer.deallocateObject( graphMesh );
+	    }
+            
+	    graphMesh = new THREE.Mesh( tubeGeometry, normMaterial );
+	    graphMesh.doubleSided = true;
+	    scene.add(graphMesh);
+	}
+
+	function buildAxes() {
+	    var axes = new THREE.Object3D();
+	    
+	    axes.add( buildAxis( new THREE.Vector3( xoffset, yoffset, zoffset ), new THREE.Vector3( 3+xoffset, yoffset, zoffset ), 0x000000, false ) ); // +X
+//	    axes.add( buildAxis( new THREE.Vector3( xoffset, yoffset, zoffset ), new THREE.Vector3( -5+xoffset, yoffset, zoffset ), 0x000000, true) ); // -X
+	    axes.add( buildAxis( new THREE.Vector3( xoffset, yoffset, zoffset ), new THREE.Vector3( xoffset, 3+yoffset, zoffset ), 0x000000, false ) ); // +Y
+//	    axes.add( buildAxis( new THREE.Vector3( xoffset, yoffset, zoffset ), new THREE.Vector3( xoffset, -5+yoffset, zoffset ), 0x000000, true ) ); // -Y
+	    axes.add( buildAxis( new THREE.Vector3( xoffset, yoffset, zoffset ), new THREE.Vector3( xoffset, yoffset, 3+zoffset ), 0x000000, false ) ); // +Z
+//	    axes.add( buildAxis( new THREE.Vector3( xoffset, yoffset, zoffset ), new THREE.Vector3( xoffset, yoffset, -5+zoffset ), 0x000000, true ) ); // -Z
+	    return axes;
+	}	
+	
+	function buildAxis( src, dst, colorHex, dashed ) {
+	    var geom = new THREE.Geometry();
+	    var mat;
+	    
+	    if(dashed) {
+		mat = new THREE.LineDashedMaterial({ linewidth: 1, color: colorHex, dashSize: 0.05, gapSize: 0.05 });
+	    } else {
+		mat = new THREE.LineBasicMaterial({ linewidth: 1, color: colorHex });
+	    }
+	    
+	    geom.vertices.push( src.clone() );
+	    geom.vertices.push( dst.clone() );
+	    geom.computeLineDistances();
+	    
+	    var axis = new THREE.Line( geom, mat );
+	    
+	    return axis;
+	}
+
+	function makeTextSprite(message, opts) {
+	    var parameters = opts || {};
+	    var fontface = parameters.fontface || 'Helvetiker';
+	    var fontsize = parameters.fontsize || 70;
+	    var borderThickness = parameters.borderThickness || 1;
+	    var xoffset = parameters.xoffset || 0;
+	    var yoffset = parameters.yoffset || 0;
+	    var canvas = document.createElement('canvas');
+	    canvas.width = canvas.height = 200;
+	    var context = canvas.getContext('2d');
+	    context.font = fontsize + "px " + fontface;
+
+  // get size data (height depends only on font size)
+	    var metrics = context.measureText(message);
+	    var textWidth = metrics.width;
+	    
+  // text color
+	    context.fillStyle = 'rgba(0, 0, 0, 1.0)';
+	    context.fillText(message, canvas.width/2+xoffset, canvas.width/2+yoffset);
+//	    alert(canvas.width);
+  // canvas contents will be used for a texture
+	    var texture = new THREE.Texture(canvas)
+	    texture.minFilter = THREE.LinearFilter;
+	    texture.needsUpdate = true;
+	    //roundRect(context, borderThickness, borderThickness, textWidth + 2 * borderThickness, fontsize * 1.4 + 2* borderThickness, 6);
+	    var spriteMaterial = new THREE.SpriteMaterial({
+		map: texture
+//              useScreenCoordinates: false
+	    });
+	    var sprite = new THREE.Sprite(spriteMaterial);
+	    sprite.scale.set(1,1,1);
+	    return sprite;
+	}
+    });
+
+  MathJax.Hub.Register.StartupHook("End",function(){    
+	var xoffset = 0; yoffset = 0; zoffset = -1.5;
+	var SCREEN_WIDTH = 300, SCREEN_HEIGHT = 300;
+	var container, scene, camera, renderer, controls;
+	var keyboard = new THREEx.KeyboardState();
+	var clock = new THREE.Clock();
+	var meshFunction;
+	var usegments = 40, vsegments=10;
+	
+	var xMin = xMax = yMin = yMax = 0; // for autosizing window
+	
+	var graphGeometry;
+	
+      if(typeof window.orientation === 'undefined') {
+	  init();
+	  animate();
+      }
+
+	function init() 
+	{
+	    scene = new THREE.Scene();
+	    if ( Detector.webgl )
+		renderer = new THREE.WebGLRenderer( {alpha:true, antialias:true} );
+	    else
+		renderer = new THREE.CanvasRenderer(); 
+	    renderer.setSize(SCREEN_WIDTH, SCREEN_HEIGHT);
+	    container = document.getElementById( 'cone_radii' );
+	    container.appendChild( renderer.domElement );
+	    var light = new THREE.PointLight(0xffffff,1,100);
+	    light.position.set(3,0,10);
+	    scene.add(light);
+	    var light_amb = new THREE.AmbientLight( 0xaaaaaa ); // soft white light
+	    scene.add( light_amb );
+	    
+	    // Background clear color
+	    // renderer.setClearColorHex( 0xffffff, 0 );
+	    
+	    plot_it_0();
+	    plot_axes();
+	    resetCamera();
+	}
+	
+	
+	function resetCamera()
+	{
+	    var VIEW_ANGLE = 25, ASPECT = SCREEN_WIDTH / SCREEN_HEIGHT, NEAR = 0.1, FAR = 20000;
+	    // Orthog camera
+	    //      var zoom = 3;
+	    //      camera = new THREE.OrthographicCamera( -zoom*ASPECT,zoom*ASPECT,zoom,-zoom, NEAR, FAR);
+	    //      camera.position.x = zoom*2;
+	    //      camera.position.y = zoom*1.5;
+	    //      camera.position.z = zoom*1.5;
+	    // Perspective camera
+	    camera = new THREE.PerspectiveCamera( VIEW_ANGLE, ASPECT, NEAR, FAR);
+	    scene.add(camera);
+	    camera.position.set(10,10,10);
+	    camera.lookAt(scene.position);  
+	    
+	    camera.up.set( 0, 0, 1 ); 
+	    scene.add(camera);
+	    
+	    controls = new THREE.TrackballControls( camera, renderer.domElement );
+	    controls.rotateSpeed = 1;
+	    THREEx.WindowResize(renderer, camera);
+	}
+	
+      function animate() 
+      {
+	  requestAnimationFrame( animate );
+	  if ($('#cone_radii').visible(true) && active ) {
+	      render();
+	      update();
+	  }
+      }
+
+	function update()
+	{
+	    if ( keyboard.pressed("z") ) 
+	    { 
+		// do something
+	    }
+	    
+	    controls.update();
+	    //	stats.update();
+	}
+	
+	function render() 
+	{
+	    renderer.render( scene, camera );
+	}
+	
+	function f(x,y) {
+	    return x+y;
+	}
+
+	function plot_it_0()
+	{
+	    var i,radii = 30;
+	    for (i=0; i<=radii; i++) {
+		function x(t) {
+		    return t*Math.cos(i/radii*2*Math.PI)+xoffset;
+		}
+		function y(t) {
+		    return t*Math.sin(i/radii*2*Math.PI)+yoffset;
+		}
+		function z(t) {
+		    return t+zoffset;
+		}
+	    curveGraph(x,y,z,0,3,30,new THREE.Color( 0x6495ED ));
+	    }
+	}
+	
+	function plot_axes()
+	{
+	    var spritex = makeTextSprite( "x", { fontsize: 85, borderColor: {r:0, g:0, b:255, a:1.0}, xoffset:-40, yoffset:30 } );
+	    spritex.position.set(3+xoffset,yoffset,0+zoffset);
+	    scene.add( spritex );
+	    var spritey = makeTextSprite( "y", { fontsize: 85, borderColor: {r:0, g:0, b:255, a:1.0},xoffset:15, yoffset:25 } );
+	    spritey.position.set(xoffset,3+yoffset,zoffset);
+	    scene.add( spritey );
+	    var spritez = makeTextSprite( "z", { fontsize: 85, borderColor: {r:0, g:0, b:255, a:1.0}, yoffset:-10 } );
+	    spritez.position.set(xoffset,yoffset,3+zoffset);
+	    scene.add( spritez );
+	    
+	    var axes = buildAxes();
+	    scene.add(axes);
+	}
+
+	function createGraph(xFunc,yFunc,zFunc,uMin,uMax,vMin,vMax,useg,vseg,sc,material,clr,solid,box)
+	{
+	    var graphMesh;
+	    uRange = uMax - uMin;
+	    vRange = vMax - vMin;
+	    meshFunction = function(u0, v0) 
+	    {
+		var u = uRange * u0 + uMin;
+		var v = vRange * v0 + vMin;
+		var x = xFunc(u,v);
+		var y = yFunc(u,v);
+		var z = zFunc(u,v);
+		if ( isNaN(x) || isNaN(y) || isNaN(z) )
+		    return new THREE.Vector3(0,0,0); // TODO: better fix
+		else
+		    return new THREE.Vector3(x, y, z);
+	    };
+	    
+	    // true => sensible image tile repeat...
+	    graphGeometry = new THREE.ParametricGeometry( meshFunction, useg, vseg, true );
+	    ///////////////////////////////////////////////
+	    // calculate vertex colors based on Z values //
+	    ///////////////////////////////////////////////
+	    graphGeometry.computeBoundingBox();
+	    zMin = graphGeometry.boundingBox.min.z;
+	    zMax = graphGeometry.boundingBox.max.z;
+	    zRange = zMax - zMin;
+	    var defaultcolor = new THREE.Color( 0xff0000 );
+	    var color, point, face, numberOfSides, vertexIndex;
+	    // faces are indexed using characters
+	    var faceIndices = [ 'a', 'b', 'c', 'd' ];
+	    // first, assign colors to vertices as desired
+	    if (!solid) {
+		for ( var i = 0; i < graphGeometry.vertices.length; i++ ) 
+		{
+		    point = graphGeometry.vertices[ i ];
+		    color = new THREE.Color( 0x0000ff );
+		    //	  color.setHSL( 0.7 *(10-point.x)/10 , 1, 0.1+0.3*(10 - point.z) / 10 );
+		    color.setHSL( 0+0.8*(zMax - point.z)/zRange , 0.6, 0.5 );
+		    graphGeometry.colors[i] = color; // use this array for convenience
+		}
+	    }
+	    // copy the colors as necessary to the face's vertexColors array.
+	    for ( var i = 0; i < graphGeometry.faces.length; i++ ) 
+	    {
+		face = graphGeometry.faces[ i ];
+		numberOfSides = ( face instanceof THREE.Face3 ) ? 3 : 4;
+		for( var j = 0; j < numberOfSides; j++ ) 
+		{
+		    if (solid) {
+			face.vertexColors[ j ] = clr;
+		    } else {
+			vertexIndex = face[ faceIndices[ j ] ];
+			face.vertexColors[ j ] = graphGeometry.colors[vertexIndex ];
+			//	      face.vertexColors[ j ] = clr;
+		    }
+		}
+	    }
+	    ///////////////////////
+	    // end vertex colors //
+	    ///////////////////////
+	    
+	    
+	    xMin = graphGeometry.boundingBox.min.x;
+	    xMax = graphGeometry.boundingBox.max.x;
+	    yMin = graphGeometry.boundingBox.min.y;
+	    yMax = graphGeometry.boundingBox.max.y;
+	    
+	    if (graphMesh) 
+	    {
+		sc.remove( graphMesh );
+		// renderer.deallocateObject( graphMesh );
+	    }
+	    
+	    graphMesh = new THREE.Mesh( graphGeometry,material );
+	    
+	    graphMesh.doubleSided = true;
+	    sc.add(graphMesh);
+	    if (box) {
+		var bbox = new THREE.BoundingBoxHelper( graphMesh, 0x000000 );
+		bbox.update();
+		scene.add( bbox );	
+	    }
+	}
+
+	function curveGraph(xFunc,yFunc,zFunc,tMin,tMax,segments,color)
+	{
+	    var normMaterial = new THREE.MeshBasicMaterial( { vertexColors: THREE.VertexColors,side:THREE.DoubleSide } );
+	    var graphMesh;
+	    var tRange = tMax - tMin;
+	    var  mycurve = THREE.Curve.create( 
+		function() {},
+		function(t) 
+		{
+                    // default:    0 < t < 1
+                    //    want: tMin < t < tMax
+		    t = t * tRange + tMin;
+		    return new THREE.Vector3(xFunc(t), yFunc(t), zFunc(t)).multiplyScalar(1);
+		}
+	    );
+	    var curve = new mycurve;
+            
+	    var closedTube = false;
+	    var debug = false; // show normal vectors
+	    var tubeGeometry = new THREE.TubeGeometry(curve, segments, 0.02, 3, false, debug);
+            
+	    var  point, face, numberOfSides;
+	    for ( var i = 0; i < tubeGeometry.faces.length; i++ ) 
+	    {
+		face = tubeGeometry.faces[ i ];
+		numberOfSides = ( face instanceof THREE.Face3 ) ? 3 : 4;
+		for( var j = 0; j < numberOfSides; j++ ) 
+		{
+		    face.vertexColors[ j ] = color;
+		}
+	    }
+            
+            // for auto-sizing window
+	    tubeGeometry.computeBoundingBox();
+	    xMin = tubeGeometry.boundingBox.min.x;
+	    xMax = tubeGeometry.boundingBox.max.x;
+	    yMin = tubeGeometry.boundingBox.min.y;
+	    yMax = tubeGeometry.boundingBox.max.y;
+	    zMin = tubeGeometry.boundingBox.min.z;
+	    zMax = tubeGeometry.boundingBox.max.z;
+            
+	    if (graphMesh) 
+	    {
+		scene.remove( graphMesh );
+                // renderer.deallocateObject( graphMesh );
+	    }
+            
+	    graphMesh = new THREE.Mesh( tubeGeometry, normMaterial );
+	    graphMesh.doubleSided = true;
+	    scene.add(graphMesh);
+	}
+
+	function buildAxes() {
+	    var axes = new THREE.Object3D();
+	    
+	    axes.add( buildAxis( new THREE.Vector3( xoffset, yoffset, zoffset ), new THREE.Vector3( 3+xoffset, yoffset, zoffset ), 0x000000, false ) ); // +X
+//	    axes.add( buildAxis( new THREE.Vector3( xoffset, yoffset, zoffset ), new THREE.Vector3( -5+xoffset, yoffset, zoffset ), 0x000000, true) ); // -X
+	    axes.add( buildAxis( new THREE.Vector3( xoffset, yoffset, zoffset ), new THREE.Vector3( xoffset, 3+yoffset, zoffset ), 0x000000, false ) ); // +Y
+//	    axes.add( buildAxis( new THREE.Vector3( xoffset, yoffset, zoffset ), new THREE.Vector3( xoffset, -5+yoffset, zoffset ), 0x000000, true ) ); // -Y
+	    axes.add( buildAxis( new THREE.Vector3( xoffset, yoffset, zoffset ), new THREE.Vector3( xoffset, yoffset, 3+zoffset ), 0x000000, false ) ); // +Z
+//	    axes.add( buildAxis( new THREE.Vector3( xoffset, yoffset, zoffset ), new THREE.Vector3( xoffset, yoffset, -5+zoffset ), 0x000000, true ) ); // -Z
+	    return axes;
+	}	
+	
+	function buildAxis( src, dst, colorHex, dashed ) {
+	    var geom = new THREE.Geometry();
+	    var mat;
+	    
+	    if(dashed) {
+		mat = new THREE.LineDashedMaterial({ linewidth: 1, color: colorHex, dashSize: 0.05, gapSize: 0.05 });
+	    } else {
+		mat = new THREE.LineBasicMaterial({ linewidth: 1, color: colorHex });
+	    }
+	    
+	    geom.vertices.push( src.clone() );
+	    geom.vertices.push( dst.clone() );
+	    geom.computeLineDistances();
+	    
+	    var axis = new THREE.Line( geom, mat );
+	    
+	    return axis;
+	}
+
+	function makeTextSprite(message, opts) {
+	    var parameters = opts || {};
+	    var fontface = parameters.fontface || 'Helvetiker';
+	    var fontsize = parameters.fontsize || 70;
+	    var borderThickness = parameters.borderThickness || 1;
+	    var xoffset = parameters.xoffset || 0;
+	    var yoffset = parameters.yoffset || 0;
+	    var canvas = document.createElement('canvas');
+	    canvas.width = canvas.height = 200;
+	    var context = canvas.getContext('2d');
+	    context.font = fontsize + "px " + fontface;
+
+  // get size data (height depends only on font size)
+	    var metrics = context.measureText(message);
+	    var textWidth = metrics.width;
+	    
+  // text color
+	    context.fillStyle = 'rgba(0, 0, 0, 1.0)';
+	    context.fillText(message, canvas.width/2+xoffset, canvas.width/2+yoffset);
+//	    alert(canvas.width);
+  // canvas contents will be used for a texture
+	    var texture = new THREE.Texture(canvas)
+	    texture.minFilter = THREE.LinearFilter;
+	    texture.needsUpdate = true;
+	    //roundRect(context, borderThickness, borderThickness, textWidth + 2 * borderThickness, fontsize * 1.4 + 2* borderThickness, 6);
+	    var spriteMaterial = new THREE.SpriteMaterial({
+		map: texture
+//              useScreenCoordinates: false
+	    });
+	    var sprite = new THREE.Sprite(spriteMaterial);
+	    sprite.scale.set(1,1,1);
+	    return sprite;
+	}
+    });
+</script>  
+
+<div class='figcaption'><span class="figurenumber">Figure 16.6.1.</span> Tracing a surface.</div></div>
+<p>
+</p><p>
+</p>
+<div class="example">
+<p>
+<span class="theoremlabel">Example 16.6.2 </span>Let ${\bf r}=\langle v\cos u, v\sin u, u\rangle$. If $v$ is
+constant, the resulting curve is a helix (as in
+figure <a href="section13.01.html#fig:helixes">13.1.1</a>). If $u$ is constant, the resulting curve
+is a straight line at height $u$ in the direction $u$ radians from the
+positive $x$ axis. Note in figure <a href="section16.06.html#fig:helical ramp">16.6.2</a> how the
+helixes and the lines both paint the same surface in a different way.
+
+</p>
+</div><!-- example -->
+<p>
+</p><p>
+<a id="fig:helical ramp"></a>
+</p><div class='figure'><!-- Vector_calculus-helical_ramp.html -->
+<!-- Figure 16.6.2 -->
+
+<table class="webgl_display" style="display:none;left-margin:auto;right-margin:auto">
+<tr>
+<td id="helical_ramp_solid" style='text-align:center'></td>
+<td id="helical_ramp_circles" style='text-align:center'></td>
+<td id="helical_ramp_radii" style='text-align:center'></td>
+</tr>
+</table>
+<table class="no_webgl_display" style="display:block;left-margin:auto;right-margin:auto">
+<tr>
+<td style='text-align:center'>
+<a href="http://www.whitman.edu/mathematics/calculus_applets/helical_ramp">
+<img src="images/helical_ramp.png" style="width:300px"></a>
+</td>
+<td style='text-align:center'>
+<a href="http://www.whitman.edu/mathematics/calculus_applets/helical_ramp">
+<img src="images/helical_ramp_2.png" style="width:300px"></a>
+</td>
+<td style='text-align:center'>
+<a href="http://www.whitman.edu/mathematics/calculus_applets/helical_ramp">
+<img src="images/helical_ramp_3.png" style="width:300px"></a>
+</td>
+</tr>
+</table>
+
+<script>
+    MathJax.Hub.Register.StartupHook("End",function(){    
+	var xoffset = 0; yoffset = 0; zoffset = -3.14;
+	var SCREEN_WIDTH = 300, SCREEN_HEIGHT = 400;
+	var container, scene, camera, renderer, controls;
+	var keyboard = new THREEx.KeyboardState();
+	var clock = new THREE.Clock();
+	var meshFunction;
+	var usegments = 40, vsegments=10;
+	
+	var xMin = xMax = yMin = yMax = 0; // for autosizing window
+	
+	var graphGeometry;
+	
+	if(typeof window.orientation === 'undefined') {
+	    init();
+	    animate();
+	}
+
+	function init() 
+	{
+	    scene = new THREE.Scene();
+	    if ( Detector.webgl )
+		renderer = new THREE.WebGLRenderer( {alpha:true, antialias:true} );
+	    else
+		renderer = new THREE.CanvasRenderer(); 
+	    renderer.setSize(SCREEN_WIDTH, SCREEN_HEIGHT);
+	    container = document.getElementById( 'helical_ramp_solid' );
+	    container.appendChild( renderer.domElement );
+	    var light = new THREE.PointLight(0xffffff,1,100);
+	    light.position.set(3,0,10);
+	    scene.add(light);
+	    var light_amb = new THREE.AmbientLight( 0xaaaaaa ); // soft white light
+	    scene.add( light_amb );
+	    
+	    // Background clear color
+	    // renderer.setClearColorHex( 0xffffff, 0 );
+	    
+	    plot_it_0();
+	    resetCamera();
+	}
+	
+	
+	function resetCamera()
+	{
+	    var VIEW_ANGLE = 35, ASPECT = SCREEN_WIDTH / SCREEN_HEIGHT, NEAR = 0.1, FAR = 20000;
+	    // Orthog camera
+	    //      var zoom = 3;
+	    //      camera = new THREE.OrthographicCamera( -zoom*ASPECT,zoom*ASPECT,zoom,-zoom, NEAR, FAR);
+	    //      camera.position.x = zoom*2;
+	    //      camera.position.y = zoom*1.5;
+	    //      camera.position.z = zoom*1.5;
+	    // Perspective camera
+	    camera = new THREE.PerspectiveCamera( VIEW_ANGLE, ASPECT, NEAR, FAR);
+	    scene.add(camera);
+	    camera.position.set(10,10,10);
+	    camera.lookAt(scene.position);  
+	    
+	    camera.up.set( 0, 0, 1 ); 
+	    scene.add(camera);
+	    
+	    controls = new THREE.TrackballControls( camera, renderer.domElement );
+	    controls.rotateSpeed = 1;
+	    THREEx.WindowResize(renderer, camera);
+	}
+	
+	function animate() 
+	{
+	    requestAnimationFrame( animate );
+	    if ($('#helical_ramp_solid').visible(true) && active ) {
+		render();
+		update();
+	    }
+	}
+
+	function update()
+	{
+	    if ( keyboard.pressed("z") ) 
+	    { 
+		// do something
+	    }
+	    
+	    controls.update();
+	    //	stats.update();
+	}
+	
+	function render() 
+	{
+	    renderer.render( scene, camera );
+	}
+	
+	function f(x,y) {
+	    return x+y;
+	}
+
+	function plot_it_0()
+	{
+	    var loader = new THREE.TextureLoader();
+	    var gridTexture = loader.load( 'images/square.png');
+	    gridTexture.wrapS = gridTexture.wrapT = THREE.RepeatWrapping;
+	    gridTexture.repeat.set( 60,10 );
+	    var gridMaterial = new THREE.MeshBasicMaterial( {map:gridTexture, vertexColors: THREE.VertexColors,side:THREE.DoubleSide } );
+	    var useg = 80,vseg = 10;
+	    function x(u,v) {
+		return v*Math.cos(u)+xoffset;
+	    }
+	    function y(u,v) {
+		return v*Math.sin(u)+yoffset;
+	    }
+	    function z(u,v) {
+		return u/2+zoffset;
+	    }
+	    createGraph(x,y,z,0,4*Math.PI,0,3,useg,vseg,scene,gridMaterial,new THREE.Color( 0xffffff ),false,false);
+	}
+	
+	function plot_axes()
+	{
+	    var spritex = makeTextSprite( "x", { fontsize: 65, borderColor: {r:0, g:0, b:255, a:1.0}, xoffset:-40, yoffset:30 } );
+	    spritex.position.set(3+xoffset,yoffset,0+zoffset);
+	    scene.add( spritex );
+	    var spritey = makeTextSprite( "y", { fontsize: 65, borderColor: {r:0, g:0, b:255, a:1.0},xoffset:15, yoffset:25 } );
+	    spritey.position.set(xoffset,3+yoffset,zoffset);
+	    scene.add( spritey );
+	    var spritez = makeTextSprite( "z", { fontsize: 65, borderColor: {r:0, g:0, b:255, a:1.0}, yoffset:-10 } );
+	    spritez.position.set(xoffset,yoffset,3+zoffset);
+	    scene.add( spritez );
+	    
+	    var axes = buildAxes();
+	    scene.add(axes);
+	}
+
+	function createGraph(xFunc,yFunc,zFunc,uMin,uMax,vMin,vMax,useg,vseg,sc,material,clr,solid,box)
+	{
+	    var graphMesh;
+	    uRange = uMax - uMin;
+	    vRange = vMax - vMin;
+	    meshFunction = function(u0, v0) 
+	    {
+		var u = uRange * u0 + uMin;
+		var v = vRange * v0 + vMin;
+		var x = xFunc(u,v);
+		var y = yFunc(u,v);
+		var z = zFunc(u,v);
+		if ( isNaN(x) || isNaN(y) || isNaN(z) )
+		    return new THREE.Vector3(0,0,0); // TODO: better fix
+		else
+		    return new THREE.Vector3(x, y, z);
+	    };
+	    
+	    // true => sensible image tile repeat...
+	    graphGeometry = new THREE.ParametricGeometry( meshFunction, useg, vseg, true );
+	    ///////////////////////////////////////////////
+	    // calculate vertex colors based on Z values //
+	    ///////////////////////////////////////////////
+	    graphGeometry.computeBoundingBox();
+	    zMin = graphGeometry.boundingBox.min.z;
+	    zMax = graphGeometry.boundingBox.max.z;
+	    zRange = zMax - zMin;
+	    var defaultcolor = new THREE.Color( 0xff0000 );
+	    var color, point, face, numberOfSides, vertexIndex;
+	    // faces are indexed using characters
+	    var faceIndices = [ 'a', 'b', 'c', 'd' ];
+	    // first, assign colors to vertices as desired
+	    if (!solid) {
+		for ( var i = 0; i < graphGeometry.vertices.length; i++ ) 
+		{
+		    point = graphGeometry.vertices[ i ];
+		    color = new THREE.Color( 0x0000ff );
+		    //	  color.setHSL( 0.7 *(10-point.x)/10 , 1, 0.1+0.3*(10 - point.z) / 10 );
+		    color.setHSL( 0+0.8*(zMax - point.z)/zRange , 0.6, 0.5 );
+		    graphGeometry.colors[i] = color; // use this array for convenience
+		}
+	    }
+	    // copy the colors as necessary to the face's vertexColors array.
+	    for ( var i = 0; i < graphGeometry.faces.length; i++ ) 
+	    {
+		face = graphGeometry.faces[ i ];
+		numberOfSides = ( face instanceof THREE.Face3 ) ? 3 : 4;
+		for( var j = 0; j < numberOfSides; j++ ) 
+		{
+		    if (solid) {
+			face.vertexColors[ j ] = clr;
+		    } else {
+			vertexIndex = face[ faceIndices[ j ] ];
+			face.vertexColors[ j ] = graphGeometry.colors[vertexIndex ];
+			//	      face.vertexColors[ j ] = clr;
+		    }
+		}
+	    }
+	    ///////////////////////
+	    // end vertex colors //
+	    ///////////////////////
+	    
+	    
+	    xMin = graphGeometry.boundingBox.min.x;
+	    xMax = graphGeometry.boundingBox.max.x;
+	    yMin = graphGeometry.boundingBox.min.y;
+	    yMax = graphGeometry.boundingBox.max.y;
+	    
+	    if (graphMesh) 
+	    {
+		sc.remove( graphMesh );
+		// renderer.deallocateObject( graphMesh );
+	    }
+	    
+	    graphMesh = new THREE.Mesh( graphGeometry,material );
+	    
+	    graphMesh.doubleSided = true;
+	    sc.add(graphMesh);
+	    if (box) {
+		var bbox = new THREE.BoundingBoxHelper( graphMesh, 0x000000 );
+		bbox.update();
+		scene.add( bbox );	
+	    }
+	}
+
+	function buildAxes() {
+	    var axes = new THREE.Object3D();
+	    
+	    axes.add( buildAxis( new THREE.Vector3( xoffset, yoffset, zoffset ), new THREE.Vector3( 3+xoffset, yoffset, zoffset ), 0x000000, false ) ); // +X
+//	    axes.add( buildAxis( new THREE.Vector3( xoffset, yoffset, zoffset ), new THREE.Vector3( -5+xoffset, yoffset, zoffset ), 0x000000, true) ); // -X
+	    axes.add( buildAxis( new THREE.Vector3( xoffset, yoffset, zoffset ), new THREE.Vector3( xoffset, 3+yoffset, zoffset ), 0x000000, false ) ); // +Y
+//	    axes.add( buildAxis( new THREE.Vector3( xoffset, yoffset, zoffset ), new THREE.Vector3( xoffset, -5+yoffset, zoffset ), 0x000000, true ) ); // -Y
+	    axes.add( buildAxis( new THREE.Vector3( xoffset, yoffset, zoffset ), new THREE.Vector3( xoffset, yoffset, 3+zoffset ), 0x000000, false ) ); // +Z
+//	    axes.add( buildAxis( new THREE.Vector3( xoffset, yoffset, zoffset ), new THREE.Vector3( xoffset, yoffset, -5+zoffset ), 0x000000, true ) ); // -Z
+	    return axes;
+	}	
+	
+	function buildAxis( src, dst, colorHex, dashed ) {
+	    var geom = new THREE.Geometry();
+	    var mat;
+	    
+	    if(dashed) {
+		mat = new THREE.LineDashedMaterial({ linewidth: 1, color: colorHex, dashSize: 0.05, gapSize: 0.05 });
+	    } else {
+		mat = new THREE.LineBasicMaterial({ linewidth: 1, color: colorHex });
+	    }
+	    
+	    geom.vertices.push( src.clone() );
+	    geom.vertices.push( dst.clone() );
+	    geom.computeLineDistances();
+	    
+	    var axis = new THREE.Line( geom, mat );
+	    
+	    return axis;
+	}
+
+	function makeTextSprite(message, opts) {
+	    var parameters = opts || {};
+	    var fontface = parameters.fontface || 'Helvetiker';
+	    var fontsize = parameters.fontsize || 70;
+	    var borderThickness = parameters.borderThickness || 1;
+	    var xoffset = parameters.xoffset || 0;
+	    var yoffset = parameters.yoffset || 0;
+	    var canvas = document.createElement('canvas');
+	    canvas.width = canvas.height = 200;
+	    var context = canvas.getContext('2d');
+	    context.font = fontsize + "px " + fontface;
+
+  // get size data (height depends only on font size)
+	    var metrics = context.measureText(message);
+	    var textWidth = metrics.width;
+	    
+  // text color
+	    context.fillStyle = 'rgba(0, 0, 0, 1.0)';
+	    context.fillText(message, canvas.width/2+xoffset, canvas.width/2+yoffset);
+//	    alert(canvas.width);
+  // canvas contents will be used for a texture
+	    var texture = new THREE.Texture(canvas)
+	    texture.minFilter = THREE.LinearFilter;
+	    texture.needsUpdate = true;
+	    //roundRect(context, borderThickness, borderThickness, textWidth + 2 * borderThickness, fontsize * 1.4 + 2* borderThickness, 6);
+	    var spriteMaterial = new THREE.SpriteMaterial({
+		map: texture
+//              useScreenCoordinates: false
+	    });
+	    var sprite = new THREE.Sprite(spriteMaterial);
+	    sprite.scale.set(1,1,1);
+	    return sprite;
+	}
+    });
+
+  MathJax.Hub.Register.StartupHook("End",function(){    
+	var xoffset = 0; yoffset = 0; zoffset = -3.14;
+	var SCREEN_WIDTH = 300, SCREEN_HEIGHT = 400;
+	var container, scene, camera, renderer, controls;
+	var keyboard = new THREEx.KeyboardState();
+	var clock = new THREE.Clock();
+	var meshFunction;
+	var usegments = 40, vsegments=10;
+	
+	var xMin = xMax = yMin = yMax = 0; // for autosizing window
+	
+	var graphGeometry;
+	
+      if(typeof window.orientation === 'undefined') {
+	  init();
+	  animate();
+      }
+
+	function init() 
+	{
+	    scene = new THREE.Scene();
+	    if ( Detector.webgl )
+		renderer = new THREE.WebGLRenderer( {alpha:true, antialias:true} );
+	    else
+		renderer = new THREE.CanvasRenderer(); 
+	    renderer.setSize(SCREEN_WIDTH, SCREEN_HEIGHT);
+	    container = document.getElementById( 'helical_ramp_circles' );
+	    container.appendChild( renderer.domElement );
+	    var light = new THREE.PointLight(0xffffff,1,100);
+	    light.position.set(3,0,10);
+	    scene.add(light);
+	    var light_amb = new THREE.AmbientLight( 0xaaaaaa ); // soft white light
+	    scene.add( light_amb );
+	    
+	    // Background clear color
+	    // renderer.setClearColorHex( 0xffffff, 0 );
+	    
+	    plot_it_0();
+	    resetCamera();
+	}
+	
+	
+	function resetCamera()
+	{
+	    var VIEW_ANGLE = 35, ASPECT = SCREEN_WIDTH / SCREEN_HEIGHT, NEAR = 0.1, FAR = 20000;
+	    // Orthog camera
+	    //      var zoom = 3;
+	    //      camera = new THREE.OrthographicCamera( -zoom*ASPECT,zoom*ASPECT,zoom,-zoom, NEAR, FAR);
+	    //      camera.position.x = zoom*2;
+	    //      camera.position.y = zoom*1.5;
+	    //      camera.position.z = zoom*1.5;
+	    // Perspective camera
+	    camera = new THREE.PerspectiveCamera( VIEW_ANGLE, ASPECT, NEAR, FAR);
+	    scene.add(camera);
+	    camera.position.set(10,10,10);
+	    camera.lookAt(scene.position);  
+	    
+	    camera.up.set( 0, 0, 1 ); 
+	    scene.add(camera);
+	    
+	    controls = new THREE.TrackballControls( camera, renderer.domElement );
+	    controls.rotateSpeed = 1;
+	    THREEx.WindowResize(renderer, camera);
+	}
+	
+      function animate() 
+      {
+	  requestAnimationFrame( animate );
+	  if ($('#helical_ramp_circles').visible(true) && active ) {
+	      render();
+	      update();
+	  }
+      }
+
+	function update()
+	{
+	    if ( keyboard.pressed("z") ) 
+	    { 
+		// do something
+	    }
+	    
+	    controls.update();
+	    //	stats.update();
+	}
+	
+	function render() 
+	{
+	    renderer.render( scene, camera );
+	}
+	
+	function f(x,y) {
+	    return x+y;
+	}
+
+	function plot_it_0()
+	{
+	    var i,levels = 15;
+	    for (i=0; i<=levels; i++) {
+		function x(t) {
+		    return 3*i/levels*Math.cos(t)+xoffset;
+		}
+		function y(t) {
+		    return 3*i/levels*Math.sin(t)+yoffset;
+		}
+		function z(t) {
+		    return t/2+zoffset;
+		}
+	    curveGraph(x,y,z,0,4*Math.PI,80,new THREE.Color( 0x6495ED ));
+	    }
+	}
+	
+	function plot_axes()
+	{
+	    var spritex = makeTextSprite( "x", { fontsize: 65, borderColor: {r:0, g:0, b:255, a:1.0}, xoffset:-40, yoffset:30 } );
+	    spritex.position.set(3+xoffset,yoffset,0+zoffset);
+	    scene.add( spritex );
+	    var spritey = makeTextSprite( "y", { fontsize: 65, borderColor: {r:0, g:0, b:255, a:1.0},xoffset:15, yoffset:25 } );
+	    spritey.position.set(xoffset,3+yoffset,zoffset);
+	    scene.add( spritey );
+	    var spritez = makeTextSprite( "z", { fontsize: 65, borderColor: {r:0, g:0, b:255, a:1.0}, yoffset:-10 } );
+	    spritez.position.set(xoffset,yoffset,3+zoffset);
+	    scene.add( spritez );
+	    
+	    var axes = buildAxes();
+	    scene.add(axes);
+	}
+
+	function createGraph(xFunc,yFunc,zFunc,uMin,uMax,vMin,vMax,useg,vseg,sc,material,clr,solid,box)
+	{
+	    var graphMesh;
+	    uRange = uMax - uMin;
+	    vRange = vMax - vMin;
+	    meshFunction = function(u0, v0) 
+	    {
+		var u = uRange * u0 + uMin;
+		var v = vRange * v0 + vMin;
+		var x = xFunc(u,v);
+		var y = yFunc(u,v);
+		var z = zFunc(u,v);
+		if ( isNaN(x) || isNaN(y) || isNaN(z) )
+		    return new THREE.Vector3(0,0,0); // TODO: better fix
+		else
+		    return new THREE.Vector3(x, y, z);
+	    };
+	    
+	    // true => sensible image tile repeat...
+	    graphGeometry = new THREE.ParametricGeometry( meshFunction, useg, vseg, true );
+	    ///////////////////////////////////////////////
+	    // calculate vertex colors based on Z values //
+	    ///////////////////////////////////////////////
+	    graphGeometry.computeBoundingBox();
+	    zMin = graphGeometry.boundingBox.min.z;
+	    zMax = graphGeometry.boundingBox.max.z;
+	    zRange = zMax - zMin;
+	    var defaultcolor = new THREE.Color( 0xff0000 );
+	    var color, point, face, numberOfSides, vertexIndex;
+	    // faces are indexed using characters
+	    var faceIndices = [ 'a', 'b', 'c', 'd' ];
+	    // first, assign colors to vertices as desired
+	    if (!solid) {
+		for ( var i = 0; i < graphGeometry.vertices.length; i++ ) 
+		{
+		    point = graphGeometry.vertices[ i ];
+		    color = new THREE.Color( 0x0000ff );
+		    //	  color.setHSL( 0.7 *(10-point.x)/10 , 1, 0.1+0.3*(10 - point.z) / 10 );
+		    color.setHSL( 0+0.8*(zMax - point.z)/zRange , 0.6, 0.5 );
+		    graphGeometry.colors[i] = color; // use this array for convenience
+		}
+	    }
+	    // copy the colors as necessary to the face's vertexColors array.
+	    for ( var i = 0; i < graphGeometry.faces.length; i++ ) 
+	    {
+		face = graphGeometry.faces[ i ];
+		numberOfSides = ( face instanceof THREE.Face3 ) ? 3 : 4;
+		for( var j = 0; j < numberOfSides; j++ ) 
+		{
+		    if (solid) {
+			face.vertexColors[ j ] = clr;
+		    } else {
+			vertexIndex = face[ faceIndices[ j ] ];
+			face.vertexColors[ j ] = graphGeometry.colors[vertexIndex ];
+			//	      face.vertexColors[ j ] = clr;
+		    }
+		}
+	    }
+	    ///////////////////////
+	    // end vertex colors //
+	    ///////////////////////
+	    
+	    
+	    xMin = graphGeometry.boundingBox.min.x;
+	    xMax = graphGeometry.boundingBox.max.x;
+	    yMin = graphGeometry.boundingBox.min.y;
+	    yMax = graphGeometry.boundingBox.max.y;
+	    
+	    if (graphMesh) 
+	    {
+		sc.remove( graphMesh );
+		// renderer.deallocateObject( graphMesh );
+	    }
+	    
+	    graphMesh = new THREE.Mesh( graphGeometry,material );
+	    
+	    graphMesh.doubleSided = true;
+	    sc.add(graphMesh);
+	    if (box) {
+		var bbox = new THREE.BoundingBoxHelper( graphMesh, 0x000000 );
+		bbox.update();
+		scene.add( bbox );	
+	    }
+	}
+
+	function curveGraph(xFunc,yFunc,zFunc,tMin,tMax,segments,color)
+	{
+	    var normMaterial = new THREE.MeshBasicMaterial( { vertexColors: THREE.VertexColors,side:THREE.DoubleSide } );
+	    var graphMesh;
+	    var tRange = tMax - tMin;
+	    var  mycurve = THREE.Curve.create( 
+		function() {},
+		function(t) 
+		{
+                    // default:    0 < t < 1
+                    //    want: tMin < t < tMax
+		    t = t * tRange + tMin;
+		    return new THREE.Vector3(xFunc(t), yFunc(t), zFunc(t)).multiplyScalar(1);
+		}
+	    );
+	    var curve = new mycurve;
+            
+	    var closedTube = false;
+	    var debug = false; // show normal vectors
+	    var tubeGeometry = new THREE.TubeGeometry(curve, segments, 0.02, 3, false, debug);
+            
+	    var  point, face, numberOfSides;
+	    for ( var i = 0; i < tubeGeometry.faces.length; i++ ) 
+	    {
+		face = tubeGeometry.faces[ i ];
+		numberOfSides = ( face instanceof THREE.Face3 ) ? 3 : 4;
+		for( var j = 0; j < numberOfSides; j++ ) 
+		{
+		    face.vertexColors[ j ] = color;
+		}
+	    }
+            
+            // for auto-sizing window
+	    tubeGeometry.computeBoundingBox();
+	    xMin = tubeGeometry.boundingBox.min.x;
+	    xMax = tubeGeometry.boundingBox.max.x;
+	    yMin = tubeGeometry.boundingBox.min.y;
+	    yMax = tubeGeometry.boundingBox.max.y;
+	    zMin = tubeGeometry.boundingBox.min.z;
+	    zMax = tubeGeometry.boundingBox.max.z;
+            
+	    if (graphMesh) 
+	    {
+		scene.remove( graphMesh );
+                // renderer.deallocateObject( graphMesh );
+	    }
+            
+	    graphMesh = new THREE.Mesh( tubeGeometry, normMaterial );
+	    graphMesh.doubleSided = true;
+	    scene.add(graphMesh);
+	}
+
+	function buildAxes() {
+	    var axes = new THREE.Object3D();
+	    
+	    axes.add( buildAxis( new THREE.Vector3( xoffset, yoffset, zoffset ), new THREE.Vector3( 3+xoffset, yoffset, zoffset ), 0x000000, false ) ); // +X
+//	    axes.add( buildAxis( new THREE.Vector3( xoffset, yoffset, zoffset ), new THREE.Vector3( -5+xoffset, yoffset, zoffset ), 0x000000, true) ); // -X
+	    axes.add( buildAxis( new THREE.Vector3( xoffset, yoffset, zoffset ), new THREE.Vector3( xoffset, 3+yoffset, zoffset ), 0x000000, false ) ); // +Y
+//	    axes.add( buildAxis( new THREE.Vector3( xoffset, yoffset, zoffset ), new THREE.Vector3( xoffset, -5+yoffset, zoffset ), 0x000000, true ) ); // -Y
+	    axes.add( buildAxis( new THREE.Vector3( xoffset, yoffset, zoffset ), new THREE.Vector3( xoffset, yoffset, 3+zoffset ), 0x000000, false ) ); // +Z
+//	    axes.add( buildAxis( new THREE.Vector3( xoffset, yoffset, zoffset ), new THREE.Vector3( xoffset, yoffset, -5+zoffset ), 0x000000, true ) ); // -Z
+	    return axes;
+	}	
+	
+	function buildAxis( src, dst, colorHex, dashed ) {
+	    var geom = new THREE.Geometry();
+	    var mat;
+	    
+	    if(dashed) {
+		mat = new THREE.LineDashedMaterial({ linewidth: 1, color: colorHex, dashSize: 0.05, gapSize: 0.05 });
+	    } else {
+		mat = new THREE.LineBasicMaterial({ linewidth: 1, color: colorHex });
+	    }
+	    
+	    geom.vertices.push( src.clone() );
+	    geom.vertices.push( dst.clone() );
+	    geom.computeLineDistances();
+	    
+	    var axis = new THREE.Line( geom, mat );
+	    
+	    return axis;
+	}
+
+	function makeTextSprite(message, opts) {
+	    var parameters = opts || {};
+	    var fontface = parameters.fontface || 'Helvetiker';
+	    var fontsize = parameters.fontsize || 70;
+	    var borderThickness = parameters.borderThickness || 1;
+	    var xoffset = parameters.xoffset || 0;
+	    var yoffset = parameters.yoffset || 0;
+	    var canvas = document.createElement('canvas');
+	    canvas.width = canvas.height = 200;
+	    var context = canvas.getContext('2d');
+	    context.font = fontsize + "px " + fontface;
+
+  // get size data (height depends only on font size)
+	    var metrics = context.measureText(message);
+	    var textWidth = metrics.width;
+	    
+  // text color
+	    context.fillStyle = 'rgba(0, 0, 0, 1.0)';
+	    context.fillText(message, canvas.width/2+xoffset, canvas.width/2+yoffset);
+//	    alert(canvas.width);
+  // canvas contents will be used for a texture
+	    var texture = new THREE.Texture(canvas)
+	    texture.minFilter = THREE.LinearFilter;
+	    texture.needsUpdate = true;
+	    //roundRect(context, borderThickness, borderThickness, textWidth + 2 * borderThickness, fontsize * 1.4 + 2* borderThickness, 6);
+	    var spriteMaterial = new THREE.SpriteMaterial({
+		map: texture
+//              useScreenCoordinates: false
+	    });
+	    var sprite = new THREE.Sprite(spriteMaterial);
+	    sprite.scale.set(1,1,1);
+	    return sprite;
+	}
+    });
+
+  MathJax.Hub.Register.StartupHook("End",function(){    
+	var xoffset = 0; yoffset = 0; zoffset = -3.14;
+	var SCREEN_WIDTH = 300, SCREEN_HEIGHT = 400;
+	var container, scene, camera, renderer, controls;
+	var keyboard = new THREEx.KeyboardState();
+	var clock = new THREE.Clock();
+	var meshFunction;
+	var usegments = 40, vsegments=10;
+	
+	var xMin = xMax = yMin = yMax = 0; // for autosizing window
+	
+	var graphGeometry;
+	
+      if(typeof window.orientation === 'undefined') {
+	  init();
+	  animate();
+      }
+
+	function init() 
+	{
+	    scene = new THREE.Scene();
+	    if ( Detector.webgl )
+		renderer = new THREE.WebGLRenderer( {alpha:true, antialias:true} );
+	    else
+		renderer = new THREE.CanvasRenderer(); 
+	    renderer.setSize(SCREEN_WIDTH, SCREEN_HEIGHT);
+	    container = document.getElementById( 'helical_ramp_radii' );
+	    container.appendChild( renderer.domElement );
+	    var light = new THREE.PointLight(0xffffff,1,100);
+	    light.position.set(3,0,10);
+	    scene.add(light);
+	    var light_amb = new THREE.AmbientLight( 0xaaaaaa ); // soft white light
+	    scene.add( light_amb );
+	    
+	    // Background clear color
+	    // renderer.setClearColorHex( 0xffffff, 0 );
+	    
+	    plot_it_0();
+	    resetCamera();
+	}
+	
+	
+	function resetCamera()
+	{
+	    var VIEW_ANGLE = 35, ASPECT = SCREEN_WIDTH / SCREEN_HEIGHT, NEAR = 0.1, FAR = 20000;
+	    // Orthog camera
+	    //      var zoom = 3;
+	    //      camera = new THREE.OrthographicCamera( -zoom*ASPECT,zoom*ASPECT,zoom,-zoom, NEAR, FAR);
+	    //      camera.position.x = zoom*2;
+	    //      camera.position.y = zoom*1.5;
+	    //      camera.position.z = zoom*1.5;
+	    // Perspective camera
+	    camera = new THREE.PerspectiveCamera( VIEW_ANGLE, ASPECT, NEAR, FAR);
+	    scene.add(camera);
+	    camera.position.set(10,10,10);
+	    camera.lookAt(scene.position);  
+	    
+	    camera.up.set( 0, 0, 1 ); 
+	    scene.add(camera);
+	    
+	    controls = new THREE.TrackballControls( camera, renderer.domElement );
+	    controls.rotateSpeed = 1;
+	    THREEx.WindowResize(renderer, camera);
+	}
+	
+      function animate() 
+      {
+	  requestAnimationFrame( animate );
+	  if ($('#helical_ramp_radii').visible(true) && active ) {
+	      render();
+	      update();
+	  }
+      }
+
+	function update()
+	{
+	    if ( keyboard.pressed("z") ) 
+	    { 
+		// do something
+	    }
+	    
+	    controls.update();
+	    //	stats.update();
+	}
+	
+	function render() 
+	{
+	    renderer.render( scene, camera );
+	}
+	
+	function f(x,y) {
+	    return x+y;
+	}
+
+	function plot_it_0()
+	{
+	    var i,radii = 100;
+	    for (i=0; i<=radii; i++) {
+		function x(t) {
+		    return t*Math.cos(i/radii*4*Math.PI)+xoffset;
+		}
+		function y(t) {
+		    return t*Math.sin(i/radii*4*Math.PI)+yoffset;
+		}
+		function z(t) {
+		    return i/radii*4*Math.PI/2+zoffset;
+		}
+	    curveGraph(x,y,z,0,3,2,new THREE.Color( 0x6495ED ));
+	    }
+	}
+	
+	function plot_axes()
+	{
+	    var spritex = makeTextSprite( "x", { fontsize: 65, borderColor: {r:0, g:0, b:255, a:1.0}, xoffset:-40, yoffset:30 } );
+	    spritex.position.set(3+xoffset,yoffset,0+zoffset);
+	    scene.add( spritex );
+	    var spritey = makeTextSprite( "y", { fontsize: 65, borderColor: {r:0, g:0, b:255, a:1.0},xoffset:15, yoffset:25 } );
+	    spritey.position.set(xoffset,3+yoffset,zoffset);
+	    scene.add( spritey );
+	    var spritez = makeTextSprite( "z", { fontsize: 65, borderColor: {r:0, g:0, b:255, a:1.0}, yoffset:-10 } );
+	    spritez.position.set(xoffset,yoffset,3+zoffset);
+	    scene.add( spritez );
+	    
+	    var axes = buildAxes();
+	    scene.add(axes);
+	}
+
+	function createGraph(xFunc,yFunc,zFunc,uMin,uMax,vMin,vMax,useg,vseg,sc,material,clr,solid,box)
+	{
+	    var graphMesh;
+	    uRange = uMax - uMin;
+	    vRange = vMax - vMin;
+	    meshFunction = function(u0, v0) 
+	    {
+		var u = uRange * u0 + uMin;
+		var v = vRange * v0 + vMin;
+		var x = xFunc(u,v);
+		var y = yFunc(u,v);
+		var z = zFunc(u,v);
+		if ( isNaN(x) || isNaN(y) || isNaN(z) )
+		    return new THREE.Vector3(0,0,0); // TODO: better fix
+		else
+		    return new THREE.Vector3(x, y, z);
+	    };
+	    
+	    // true => sensible image tile repeat...
+	    graphGeometry = new THREE.ParametricGeometry( meshFunction, useg, vseg, true );
+	    ///////////////////////////////////////////////
+	    // calculate vertex colors based on Z values //
+	    ///////////////////////////////////////////////
+	    graphGeometry.computeBoundingBox();
+	    zMin = graphGeometry.boundingBox.min.z;
+	    zMax = graphGeometry.boundingBox.max.z;
+	    zRange = zMax - zMin;
+	    var defaultcolor = new THREE.Color( 0xff0000 );
+	    var color, point, face, numberOfSides, vertexIndex;
+	    // faces are indexed using characters
+	    var faceIndices = [ 'a', 'b', 'c', 'd' ];
+	    // first, assign colors to vertices as desired
+	    if (!solid) {
+		for ( var i = 0; i < graphGeometry.vertices.length; i++ ) 
+		{
+		    point = graphGeometry.vertices[ i ];
+		    color = new THREE.Color( 0x0000ff );
+		    //	  color.setHSL( 0.7 *(10-point.x)/10 , 1, 0.1+0.3*(10 - point.z) / 10 );
+		    color.setHSL( 0+0.8*(zMax - point.z)/zRange , 0.6, 0.5 );
+		    graphGeometry.colors[i] = color; // use this array for convenience
+		}
+	    }
+	    // copy the colors as necessary to the face's vertexColors array.
+	    for ( var i = 0; i < graphGeometry.faces.length; i++ ) 
+	    {
+		face = graphGeometry.faces[ i ];
+		numberOfSides = ( face instanceof THREE.Face3 ) ? 3 : 4;
+		for( var j = 0; j < numberOfSides; j++ ) 
+		{
+		    if (solid) {
+			face.vertexColors[ j ] = clr;
+		    } else {
+			vertexIndex = face[ faceIndices[ j ] ];
+			face.vertexColors[ j ] = graphGeometry.colors[vertexIndex ];
+			//	      face.vertexColors[ j ] = clr;
+		    }
+		}
+	    }
+	    ///////////////////////
+	    // end vertex colors //
+	    ///////////////////////
+	    
+	    
+	    xMin = graphGeometry.boundingBox.min.x;
+	    xMax = graphGeometry.boundingBox.max.x;
+	    yMin = graphGeometry.boundingBox.min.y;
+	    yMax = graphGeometry.boundingBox.max.y;
+	    
+	    if (graphMesh) 
+	    {
+		sc.remove( graphMesh );
+		// renderer.deallocateObject( graphMesh );
+	    }
+	    
+	    graphMesh = new THREE.Mesh( graphGeometry,material );
+	    
+	    graphMesh.doubleSided = true;
+	    sc.add(graphMesh);
+	    if (box) {
+		var bbox = new THREE.BoundingBoxHelper( graphMesh, 0x000000 );
+		bbox.update();
+		scene.add( bbox );	
+	    }
+	}
+
+	function curveGraph(xFunc,yFunc,zFunc,tMin,tMax,segments,color)
+	{
+	    var normMaterial = new THREE.MeshBasicMaterial( { vertexColors: THREE.VertexColors,side:THREE.DoubleSide } );
+	    var graphMesh;
+	    var tRange = tMax - tMin;
+	    var  mycurve = THREE.Curve.create( 
+		function() {},
+		function(t) 
+		{
+                    // default:    0 < t < 1
+                    //    want: tMin < t < tMax
+		    t = t * tRange + tMin;
+		    return new THREE.Vector3(xFunc(t), yFunc(t), zFunc(t)).multiplyScalar(1);
+		}
+	    );
+	    var curve = new mycurve;
+            
+	    var closedTube = false;
+	    var debug = false; // show normal vectors
+	    var tubeGeometry = new THREE.TubeGeometry(curve, segments, 0.02, 3, false, debug);
+            
+	    var  point, face, numberOfSides;
+	    for ( var i = 0; i < tubeGeometry.faces.length; i++ ) 
+	    {
+		face = tubeGeometry.faces[ i ];
+		numberOfSides = ( face instanceof THREE.Face3 ) ? 3 : 4;
+		for( var j = 0; j < numberOfSides; j++ ) 
+		{
+		    face.vertexColors[ j ] = color;
+		}
+	    }
+            
+            // for auto-sizing window
+	    tubeGeometry.computeBoundingBox();
+	    xMin = tubeGeometry.boundingBox.min.x;
+	    xMax = tubeGeometry.boundingBox.max.x;
+	    yMin = tubeGeometry.boundingBox.min.y;
+	    yMax = tubeGeometry.boundingBox.max.y;
+	    zMin = tubeGeometry.boundingBox.min.z;
+	    zMax = tubeGeometry.boundingBox.max.z;
+            
+	    if (graphMesh) 
+	    {
+		scene.remove( graphMesh );
+                // renderer.deallocateObject( graphMesh );
+	    }
+            
+	    graphMesh = new THREE.Mesh( tubeGeometry, normMaterial );
+	    graphMesh.doubleSided = true;
+	    scene.add(graphMesh);
+	}
+
+	function buildAxes() {
+	    var axes = new THREE.Object3D();
+	    
+	    axes.add( buildAxis( new THREE.Vector3( xoffset, yoffset, zoffset ), new THREE.Vector3( 3+xoffset, yoffset, zoffset ), 0x000000, false ) ); // +X
+//	    axes.add( buildAxis( new THREE.Vector3( xoffset, yoffset, zoffset ), new THREE.Vector3( -5+xoffset, yoffset, zoffset ), 0x000000, true) ); // -X
+	    axes.add( buildAxis( new THREE.Vector3( xoffset, yoffset, zoffset ), new THREE.Vector3( xoffset, 3+yoffset, zoffset ), 0x000000, false ) ); // +Y
+//	    axes.add( buildAxis( new THREE.Vector3( xoffset, yoffset, zoffset ), new THREE.Vector3( xoffset, -5+yoffset, zoffset ), 0x000000, true ) ); // -Y
+	    axes.add( buildAxis( new THREE.Vector3( xoffset, yoffset, zoffset ), new THREE.Vector3( xoffset, yoffset, 3+zoffset ), 0x000000, false ) ); // +Z
+//	    axes.add( buildAxis( new THREE.Vector3( xoffset, yoffset, zoffset ), new THREE.Vector3( xoffset, yoffset, -5+zoffset ), 0x000000, true ) ); // -Z
+	    return axes;
+	}	
+	
+	function buildAxis( src, dst, colorHex, dashed ) {
+	    var geom = new THREE.Geometry();
+	    var mat;
+	    
+	    if(dashed) {
+		mat = new THREE.LineDashedMaterial({ linewidth: 1, color: colorHex, dashSize: 0.05, gapSize: 0.05 });
+	    } else {
+		mat = new THREE.LineBasicMaterial({ linewidth: 1, color: colorHex });
+	    }
+	    
+	    geom.vertices.push( src.clone() );
+	    geom.vertices.push( dst.clone() );
+	    geom.computeLineDistances();
+	    
+	    var axis = new THREE.Line( geom, mat );
+	    
+	    return axis;
+	}
+
+	function makeTextSprite(message, opts) {
+	    var parameters = opts || {};
+	    var fontface = parameters.fontface || 'Helvetiker';
+	    var fontsize = parameters.fontsize || 70;
+	    var borderThickness = parameters.borderThickness || 1;
+	    var xoffset = parameters.xoffset || 0;
+	    var yoffset = parameters.yoffset || 0;
+	    var canvas = document.createElement('canvas');
+	    canvas.width = canvas.height = 200;
+	    var context = canvas.getContext('2d');
+	    context.font = fontsize + "px " + fontface;
+
+  // get size data (height depends only on font size)
+	    var metrics = context.measureText(message);
+	    var textWidth = metrics.width;
+	    
+  // text color
+	    context.fillStyle = 'rgba(0, 0, 0, 1.0)';
+	    context.fillText(message, canvas.width/2+xoffset, canvas.width/2+yoffset);
+//	    alert(canvas.width);
+  // canvas contents will be used for a texture
+	    var texture = new THREE.Texture(canvas)
+	    texture.minFilter = THREE.LinearFilter;
+	    texture.needsUpdate = true;
+	    //roundRect(context, borderThickness, borderThickness, textWidth + 2 * borderThickness, fontsize * 1.4 + 2* borderThickness, 6);
+	    var spriteMaterial = new THREE.SpriteMaterial({
+		map: texture
+//              useScreenCoordinates: false
+	    });
+	    var sprite = new THREE.Sprite(spriteMaterial);
+	    sprite.scale.set(1,1,1);
+	    return sprite;
+	}
+    });
+</script>  
+<div class='figcaption'><span class="figurenumber">Figure 16.6.2.</span> Tracing a surface.</div></div>
+<p>
+</p><p>
+This technique allows us to represent many more surfaces than
+previously. 
+</p><p>
+</p>
+<div class="example">
+<p>
+<span class="theoremlabel">Example 16.6.3 </span>The curve given by 
+$${\bf r}=\langle (2+\cos(3u/2))\cos u,
+(2+\cos(3u/2))\sin u, \sin(3u/2)\rangle$$
+ is called a trefoil knot.
+Recall that from the vector equation of the curve we can compute the
+unit tangent $\bf T$, the unit normal $\bf N$, and the 
+binormal vector ${\bf B}={\bf T}\times{\bf N}$; you may
+  want to review section <a href="section13.03.html#sec:arc length 3D">13.3</a>. The binormal 
+is
+perpendicular to both $\bf T$ and $\bf N$; one way to interpret this
+is that ${\bf N}$ and ${\bf B}$ define a plane perpendicular to $\bf
+T$, that is, perpendicular to the curve; since ${\bf N}$ and ${\bf B}$
+are perpendicular to each other, they can function just as $\bf i$ and
+$\bf j$ do for the $x$-$y$ plane. Of course, $\bf N$ and $\bf B$ are
+functions of $u$, changing as we move along the curve ${\bf r}(u)$.
+So, for example, ${\bf c}(u,v)={\bf N}\cos v+{\bf B}\sin v$
+is a vector equation for a unit circle in a plane
+perpendicular to the curve described by $\bf r$, except that the usual
+interpretation of $\bf c$ would put its center at the origin. We can
+fix that simply by adding $\bf c$ to the original $\bf r$:
+let ${\bf f}={\bf r}(u) +{\bf c}(u,v)$. For a
+fixed $u$ this draws a circle around the point ${\bf r}(u)$; as $u$
+varies we get a sequence of such circles around the curve $\bf r$,
+that is, a tube of radius 1 with $\bf r$ at its center. We can easily
+change the radius; for example ${\bf r}(u) +a{\bf c}(u,v)$
+gives the tube radius $a$; we can make the radius vary as we
+move along the curve with ${\bf r}(u) +g(u){\bf c}(u,v)$,
+where $g(u)$ is a function of $u$.
+As shown in
+figure <a href="section16.06.html#fig:trefoil">16.6.3</a>, it is hard to see that the plain knot is
+knotted; the tube makes the structure apparent. Of course, there is
+nothing special about the trefoil knot in this example; we can put a
+tube around (almost) any curve in the same way.
+
+</p>
+</div><!-- example -->
+<p>
+</p><p>
+<a id="fig:trefoil"></a>
+</p><div class='figure'><!-- Vector_calculus-trefoil.html -->
+<!-- Figure 16.6.3 -->
+
+<table class="webgl_display" style="display:none;left-margin:auto;right-margin:auto">
+<tr>
+<td id="trefoil" style='text-align:center'></td>
+<td id="solid_trefoil_1" style='text-align:center'></td>
+<td id="solid_trefoil_2" style='text-align:center'></td>
+</tr>
+</table>
+<table class="no_webgl_display" style="display:block;left-margin:auto;right-margin:auto">
+<tr>
+<td style='text-align:center'>
+<a href="http://www.whitman.edu/mathematics/calculus_applets/trefoil">
+<img src="images/trefoil.png" style="width:300px"></a>
+</td>
+<td style='text-align:center'>
+<a href="http://www.whitman.edu/mathematics/calculus_applets/trefoil">
+<img src="images/trefoil_tube.png" style="width:300px"></a>
+</td>
+<td style='text-align:center'>
+<a href="http://www.whitman.edu/mathematics/calculus_applets/trefoil">
+<img src="images/trefoil_sausage.png" style="width:300px"></a>
+</td>
+</tr>
+</table>
+
+<script>
+    MathJax.Hub.Register.StartupHook("End",function(){    
+	var xoffset = 0; yoffset = 0; zoffset = 0;
+	var SCREEN_WIDTH = 400, SCREEN_HEIGHT = 400;
+	var container, scene, camera, renderer, controls;
+	var keyboard = new THREEx.KeyboardState();
+	var clock = new THREE.Clock();
+	var meshFunction;
+	var usegments = 40, vsegments=10;
+	
+	var xMin = xMax = yMin = yMax = 0; // for autosizing window
+	
+	var graphGeometry;
+	
+	if(typeof window.orientation === 'undefined') {
+	    init();
+	    animate();
+	}
+
+	function init() 
+	{
+	    scene = new THREE.Scene();
+	    if ( Detector.webgl )
+		renderer = new THREE.WebGLRenderer( {alpha:true, antialias:true} );
+	    else
+		renderer = new THREE.CanvasRenderer(); 
+	    renderer.setSize(SCREEN_WIDTH, SCREEN_HEIGHT);
+	    container = document.getElementById( 'trefoil' );
+	    container.appendChild( renderer.domElement );
+	    var light = new THREE.PointLight(0xffffff,1,100);
+	    light.position.set(3,0,10);
+	    scene.add(light);
+	    var light_amb = new THREE.AmbientLight( 0xaaaaaa ); // soft white light
+	    scene.add( light_amb );
+	    
+	    // Background clear color
+	    // renderer.setClearColorHex( 0xffffff, 0 );
+	    
+	    plot_it_0();
+//	    plot_axes();
+	    resetCamera();
+	}
+	
+	
+	function resetCamera()
+	{
+	    var VIEW_ANGLE = 40, ASPECT = SCREEN_WIDTH / SCREEN_HEIGHT, NEAR = 0.1, FAR = 20000;
+	    // Orthog camera
+	    //      var zoom = 3;
+	    //      camera = new THREE.OrthographicCamera( -zoom*ASPECT,zoom*ASPECT,zoom,-zoom, NEAR, FAR);
+	    //      camera.position.x = zoom*2;
+	    //      camera.position.y = zoom*1.5;
+	    //      camera.position.z = zoom*1.5;
+	    // Perspective camera
+	    camera = new THREE.PerspectiveCamera( VIEW_ANGLE, ASPECT, NEAR, FAR);
+	    scene.add(camera);
+	    camera.position.set(10,0,0);
+	    camera.lookAt(scene.position);  
+	    
+	    camera.up.set( 0, 0, 1 ); 
+	    scene.add(camera);
+	    
+	    controls = new THREE.OrthographicTrackballControls( camera, renderer.domElement );
+	    controls.rotateSpeed = 1;
+	    THREEx.WindowResize(renderer, camera);
+	}
+	
+	function animate() 
+	{
+	    requestAnimationFrame( animate );
+	    if ($('#trefoil').visible(true) && active ) {
+		render();
+		update();
+	    }
+	}
+
+	function update()
+	{
+	    if ( keyboard.pressed("z") ) 
+	    { 
+		// do something
+	    }
+	    
+	    controls.update();
+	    //	stats.update();
+	}
+	
+	function render() 
+	{
+	    renderer.render( scene, camera );
+	}
+	
+	function f(x,y) {
+	    return x+y;
+	}
+
+	function plot_it_0()
+	{
+	    function x(t) {
+		return Math.sin(3*t)+xoffset;
+	    }
+	    function y(t) {
+		return Math.sin(t)+2*Math.sin(2*t)+yoffset;
+	    }
+	    function z(t) {
+		return Math.cos(t)-2*Math.cos(2*t)+zoffset;
+	    }
+	    curveGraph(x,y,z,0,4*Math.PI,200,new THREE.Color( 0x6495ED ));
+	}
+	
+	function plot_axes()
+	{
+	    var spritex = makeTextSprite( "x", { fontsize: 65, borderColor: {r:0, g:0, b:255, a:1.0}, xoffset:-40, yoffset:30 } );
+	    spritex.position.set(3+xoffset,yoffset,0+zoffset);
+	    scene.add( spritex );
+	    var spritey = makeTextSprite( "y", { fontsize: 65, borderColor: {r:0, g:0, b:255, a:1.0},xoffset:15, yoffset:25 } );
+	    spritey.position.set(xoffset,3+yoffset,zoffset);
+	    scene.add( spritey );
+	    var spritez = makeTextSprite( "z", { fontsize: 65, borderColor: {r:0, g:0, b:255, a:1.0}, yoffset:-10 } );
+	    spritez.position.set(xoffset,yoffset,3+zoffset);
+	    scene.add( spritez );
+	    
+	    var axes = buildAxes();
+	    scene.add(axes);
+	}
+
+	function curveGraph(xFunc,yFunc,zFunc,tMin,tMax,segments,color)
+	{
+	    var normMaterial = new THREE.MeshBasicMaterial( { vertexColors: THREE.VertexColors,side:THREE.DoubleSide } );
+	    var graphMesh;
+	    var tRange = tMax - tMin;
+	    var  mycurve = THREE.Curve.create( 
+		function() {},
+		function(t) 
+		{
+                    // default:    0 < t < 1
+                    //    want: tMin < t < tMax
+		    t = t * tRange + tMin;
+		    return new THREE.Vector3(xFunc(t), yFunc(t), zFunc(t)).multiplyScalar(1);
+		}
+	    );
+	    var curve = new mycurve;
+            
+	    var closedTube = false;
+	    var debug = false; // show normal vectors
+	    var tubeGeometry = new THREE.TubeGeometry(curve, segments, 0.03, 3, false, debug);
+            
+	    var  point, face, numberOfSides;
+	    for ( var i = 0; i < tubeGeometry.faces.length; i++ ) 
+	    {
+		face = tubeGeometry.faces[ i ];
+		numberOfSides = ( face instanceof THREE.Face3 ) ? 3 : 4;
+		for( var j = 0; j < numberOfSides; j++ ) 
+		{
+		    face.vertexColors[ j ] = color;
+		}
+	    }
+            
+            // for auto-sizing window
+	    tubeGeometry.computeBoundingBox();
+	    xMin = tubeGeometry.boundingBox.min.x;
+	    xMax = tubeGeometry.boundingBox.max.x;
+	    yMin = tubeGeometry.boundingBox.min.y;
+	    yMax = tubeGeometry.boundingBox.max.y;
+	    zMin = tubeGeometry.boundingBox.min.z;
+	    zMax = tubeGeometry.boundingBox.max.z;
+            
+	    if (graphMesh) 
+	    {
+		scene.remove( graphMesh );
+                // renderer.deallocateObject( graphMesh );
+	    }
+            
+	    graphMesh = new THREE.Mesh( tubeGeometry, normMaterial );
+	    graphMesh.doubleSided = true;
+	    scene.add(graphMesh);
+	}
+
+	function buildAxes() {
+	    var axes = new THREE.Object3D();
+	    
+	    axes.add( buildAxis( new THREE.Vector3( xoffset, yoffset, zoffset ), new THREE.Vector3( 3+xoffset, yoffset, zoffset ), 0x000000, false ) ); // +X
+//	    axes.add( buildAxis( new THREE.Vector3( xoffset, yoffset, zoffset ), new THREE.Vector3( -5+xoffset, yoffset, zoffset ), 0x000000, true) ); // -X
+	    axes.add( buildAxis( new THREE.Vector3( xoffset, yoffset, zoffset ), new THREE.Vector3( xoffset, 3+yoffset, zoffset ), 0x000000, false ) ); // +Y
+//	    axes.add( buildAxis( new THREE.Vector3( xoffset, yoffset, zoffset ), new THREE.Vector3( xoffset, -5+yoffset, zoffset ), 0x000000, true ) ); // -Y
+	    axes.add( buildAxis( new THREE.Vector3( xoffset, yoffset, zoffset ), new THREE.Vector3( xoffset, yoffset, 3+zoffset ), 0x000000, false ) ); // +Z
+//	    axes.add( buildAxis( new THREE.Vector3( xoffset, yoffset, zoffset ), new THREE.Vector3( xoffset, yoffset, -5+zoffset ), 0x000000, true ) ); // -Z
+	    return axes;
+	}	
+	
+	function buildAxis( src, dst, colorHex, dashed ) {
+	    var geom = new THREE.Geometry();
+	    var mat;
+	    
+	    if(dashed) {
+		mat = new THREE.LineDashedMaterial({ linewidth: 1, color: colorHex, dashSize: 0.05, gapSize: 0.05 });
+	    } else {
+		mat = new THREE.LineBasicMaterial({ linewidth: 1, color: colorHex });
+	    }
+	    
+	    geom.vertices.push( src.clone() );
+	    geom.vertices.push( dst.clone() );
+	    geom.computeLineDistances();
+	    
+	    var axis = new THREE.Line( geom, mat );
+	    
+	    return axis;
+	}
+
+	function makeTextSprite(message, opts) {
+	    var parameters = opts || {};
+	    var fontface = parameters.fontface || 'Helvetiker';
+	    var fontsize = parameters.fontsize || 70;
+	    var borderThickness = parameters.borderThickness || 1;
+	    var xoffset = parameters.xoffset || 0;
+	    var yoffset = parameters.yoffset || 0;
+	    var canvas = document.createElement('canvas');
+	    canvas.width = canvas.height = 200;
+	    var context = canvas.getContext('2d');
+	    context.font = fontsize + "px " + fontface;
+
+  // get size data (height depends only on font size)
+	    var metrics = context.measureText(message);
+	    var textWidth = metrics.width;
+	    
+  // text color
+	    context.fillStyle = 'rgba(0, 0, 0, 1.0)';
+	    context.fillText(message, canvas.width/2+xoffset, canvas.width/2+yoffset);
+//	    alert(canvas.width);
+  // canvas contents will be used for a texture
+	    var texture = new THREE.Texture(canvas)
+	    texture.minFilter = THREE.LinearFilter;
+	    texture.needsUpdate = true;
+	    //roundRect(context, borderThickness, borderThickness, textWidth + 2 * borderThickness, fontsize * 1.4 + 2* borderThickness, 6);
+	    var spriteMaterial = new THREE.SpriteMaterial({
+		map: texture
+//              useScreenCoordinates: false
+	    });
+	    var sprite = new THREE.Sprite(spriteMaterial);
+	    sprite.scale.set(1,1,1);
+	    return sprite;
+	}
+    });
+
+  MathJax.Hub.Register.StartupHook("End",function(){
+	var xoffset = 0; yoffset = 0; zoffset = 0;
+	var SCREEN_WIDTH = 400, SCREEN_HEIGHT = 400;
+	var container, scene, camera, renderer, controls;
+	var keyboard = new THREEx.KeyboardState();
+	var clock = new THREE.Clock();
+	var meshFunction;
+	var usegments = 40, vsegments=10;
+	
+	var xMin = xMax = yMin = yMax = 0; // for autosizing window
+	
+	var graphGeometry;
+	
+	var Nxtext = "-9*sqrt(144*cos(t)^6 - 216*cos(t)^4 + 32*cos(t)^3 + 81*cos(t)^2 - 24*cos(t) + 17)*(64*cos(t)^5 - 64*cos(t)^3 + 68*cos(t)^2 + 12*cos(t) - 17)*sin(t)/((20736*sqrt(2)*sin(t)^12 - 62208*sqrt(2)*sin(t)^10 + 288*(32*sqrt(2)*cos(t) + 243*sqrt(2))*sin(t)^8 - 16*(1008*sqrt(2)*cos(t) + 2719*sqrt(2))*sin(t)^6 + 3*(2880*sqrt(2)*cos(t) + 6443*sqrt(2))*sin(t)^4 - 4*(740*sqrt(2)*cos(t) + 1197*sqrt(2))*sin(t)^2 + 416*sqrt(2)*cos(t) + 740*sqrt(2))*sqrt(-(4608*cos(t)*sin(t)^8 - 64*(126*cos(t) + 97)*sin(t)^6 + 96*(45*cos(t) + 97)*sin(t)^4 - 4*(110*cos(t) + 873)*sin(t)^2 - 52*cos(t) - 781)/(20736*sin(t)^12 - 62208*sin(t)^10 + 288*(32*cos(t) + 243)*sin(t)^8 - 16*(1008*cos(t) + 2719)*sin(t)^6 + 3*(2880*cos(t) + 6443)*sin(t)^4 - 4*(740*cos(t) + 1197)*sin(t)^2 + 416*cos(t) + 740)))";
+	var Nx = Parser.parse(Nxtext).toJSFunction(['t']);
+	
+	var Nytext = "(1152*cos(t)^7 + 288*cos(t)^6 - 1728*cos(t)^5 - 344*cos(t)^4 + 1096*cos(t)^3 + 96*cos(t)^2 - 584*cos(t) + 31)*sqrt(144*cos(t)^6 - 216*cos(t)^4 + 32*cos(t)^3 + 81*cos(t)^2 - 24*cos(t) + 17)*sin(t)/((20736*sqrt(2)*sin(t)^12 - 62208*sqrt(2)*sin(t)^10 + 288*(32*sqrt(2)*cos(t) + 243*sqrt(2))*sin(t)^8 - 16*(1008*sqrt(2)*cos(t) + 2719*sqrt(2))*sin(t)^6 + 3*(2880*sqrt(2)*cos(t) + 6443*sqrt(2))*sin(t)^4 - 4*(740*sqrt(2)*cos(t) + 1197*sqrt(2))*sin(t)^2 + 416*sqrt(2)*cos(t) + 740*sqrt(2))*sqrt(-(4608*cos(t)*sin(t)^8 - 64*(126*cos(t) + 97)*sin(t)^6 + 96*(45*cos(t) + 97)*sin(t)^4 - 4*(110*cos(t) + 873)*sin(t)^2 - 52*cos(t) - 781)/(20736*sin(t)^12 - 62208*sin(t)^10 + 288*(32*cos(t) + 243)*sin(t)^8 - 16*(1008*cos(t) + 2719)*sin(t)^6 + 3*(2880*cos(t) + 6443)*sin(t)^4 - 4*(740*cos(t) + 1197)*sin(t)^2 + 416*cos(t) + 740)))";
+	var Ny = Parser.parse(Nytext).toJSFunction(['t']);
+	
+	var Nztext = "-(576*sqrt(2)*sin(t)^8 + 144*(sqrt(2)*cos(t) - 8*sqrt(2))*sin(t)^6 - 4*(43*sqrt(2)*cos(t) - 133*sqrt(2))*sin(t)^4 + 2*(24*sqrt(2)*cos(t) + 103*sqrt(2))*sin(t)^2 - 19*sqrt(2)*cos(t) - 100*sqrt(2))*sqrt(-144*sin(t)^6 + 216*sin(t)^4 - (32*cos(t) + 81)*sin(t)^2 + 8*cos(t) + 26)/((20736*sin(t)^12 - 62208*sin(t)^10 + 288*(32*cos(t) + 243)*sin(t)^8 - 16*(1008*cos(t) + 2719)*sin(t)^6 + 3*(2880*cos(t) + 6443)*sin(t)^4 - 4*(740*cos(t) + 1197)*sin(t)^2 + 416*cos(t) + 740)*sqrt(-(4608*cos(t)*sin(t)^8 - 64*(126*cos(t) + 97)*sin(t)^6 + 96*(45*cos(t) + 97)*sin(t)^4 - 4*(110*cos(t) + 873)*sin(t)^2 - 52*cos(t) - 781)/(20736*sin(t)^12 - 62208*sin(t)^10 + 288*(32*cos(t) + 243)*sin(t)^8 - 16*(1008*cos(t) + 2719)*sin(t)^6 + 3*(2880*cos(t) + 6443)*sin(t)^4 - 4*(740*cos(t) + 1197)*sin(t)^2 + 416*cos(t) + 740)))";
+	var Nz = Parser.parse(Nztext).toJSFunction(['t']);
+	
+	
+	var Bxtext = "(16*cos(t)^3 - 12*cos(t) + 31)/((144*sqrt(2)*cos(t)^6 - 216*sqrt(2)*cos(t)^4 + 32*sqrt(2)*cos(t)^3 + 81*sqrt(2)*cos(t)^2 - 24*sqrt(2)*cos(t) + 17*sqrt(2))*sqrt(-(4608*cos(t)^9 - 10368*cos(t)^7 + 6208*cos(t)^6 + 7776*cos(t)^5 - 9312*cos(t)^4 - 2440*cos(t)^3 + 3492*cos(t)^2 + 372*cos(t) - 1169)/(20736*cos(t)^12 - 62208*cos(t)^10 + 9216*cos(t)^9 + 69984*cos(t)^8 - 20736*cos(t)^7 - 29072*cos(t)^6 + 15552*cos(t)^5 - 2319*cos(t)^4 - 2800*cos(t)^3 + 3330*cos(t)^2 - 816*cos(t) + 289)))";
+	var Bx = Parser.parse(Bxtext).toJSFunction(['t']);
+	
+	var Bytext = "3*(32*cos(t)^5 - 8*cos(t)^4 - 40*cos(t)^3 + 12*cos(t)^2 - 3)/((144*sqrt(2)*cos(t)^6 - 216*sqrt(2)*cos(t)^4 + 32*sqrt(2)*cos(t)^3 + 81*sqrt(2)*cos(t)^2 - 24*sqrt(2)*cos(t) + 17*sqrt(2))*sqrt(-(4608*cos(t)^9 - 10368*cos(t)^7 + 6208*cos(t)^6 + 7776*cos(t)^5 - 9312*cos(t)^4 - 2440*cos(t)^3 + 3492*cos(t)^2 + 372*cos(t) - 1169)/(20736*cos(t)^12 - 62208*cos(t)^10 + 9216*cos(t)^9 + 69984*cos(t)^8 - 20736*cos(t)^7 - 29072*cos(t)^6 + 15552*cos(t)^5 - 2319*cos(t)^4 - 2800*cos(t)^3 + 3330*cos(t)^2 - 816*cos(t) + 289)))";
+	var By = Parser.parse(Bytext).toJSFunction(['t']);
+	
+	
+	var Bztext = "6*(3*sqrt(2)*sin(t)^5 + (5*sqrt(2)*cos(t)^4 + 2*sqrt(2)*cos(t)^3)*sin(t))/((144*cos(t)^6 - 216*cos(t)^4 + 32*cos(t)^3 + 81*cos(t)^2 - 24*cos(t) + 17)*sqrt(-(4608*cos(t)^9 - 10368*cos(t)^7 + 6208*cos(t)^6 + 7776*cos(t)^5 - 9312*cos(t)^4 - 2440*cos(t)^3 + 3492*cos(t)^2 + 372*cos(t) - 1169)/(20736*cos(t)^12 - 62208*cos(t)^10 + 9216*cos(t)^9 + 69984*cos(t)^8 - 20736*cos(t)^7 - 29072*cos(t)^6 + 15552*cos(t)^5 - 2319*cos(t)^4 - 2800*cos(t)^3 + 3330*cos(t)^2 - 816*cos(t) + 289)))";
+	var Bz = Parser.parse(Bztext).toJSFunction(['t']);
+
+      if(typeof window.orientation === 'undefined') {
+	  init();
+	  animate();
+      }
+
+	function init() 
+	{
+	    scene = new THREE.Scene();
+	    if ( Detector.webgl )
+		renderer = new THREE.WebGLRenderer( {alpha:true, antialias:true} );
+	    else
+		renderer = new THREE.CanvasRenderer(); 
+	    renderer.setSize(SCREEN_WIDTH, SCREEN_HEIGHT);
+	    container = document.getElementById( 'solid_trefoil_1' );
+	    container.appendChild( renderer.domElement );
+	    var light = new THREE.PointLight(0xffffff,1,100);
+	    light.position.set(3,0,10);
+	    scene.add(light);
+	    var light_amb = new THREE.AmbientLight( 0xaaaaaa ); // soft white light
+	    scene.add( light_amb );
+	    
+	    // Background clear color
+	    // renderer.setClearColorHex( 0xffffff, 0 );
+	    
+	    plot_tube();
+//	    plot_axes();
+	    resetCamera();
+	}
+	
+	function resetCamera()
+	{
+	    var VIEW_ANGLE = 45, ASPECT = SCREEN_WIDTH / SCREEN_HEIGHT, NEAR = 0.1, FAR = 20000;
+	    // Orthog camera
+	    //      var zoom = 3;
+	    //      camera = new THREE.OrthographicCamera( -zoom*ASPECT,zoom*ASPECT,zoom,-zoom, NEAR, FAR);
+	    //      camera.position.x = zoom*2;
+	    //      camera.position.y = zoom*1.5;
+	    //      camera.position.z = zoom*1.5;
+	    // Perspective camera
+	    camera = new THREE.PerspectiveCamera( VIEW_ANGLE, ASPECT, NEAR, FAR);
+	    scene.add(camera);
+	    camera.position.set(10,0,0);
+	    camera.lookAt(scene.position);  
+	    
+	    camera.up.set( 0, 0, 1 ); 
+	    scene.add(camera);
+	    
+	    controls = new THREE.TrackballControls( camera, renderer.domElement );
+	    controls.rotateSpeed = 1;
+	    THREEx.WindowResize(renderer, camera);
+	}
+	
+      function animate() 
+      {
+	  requestAnimationFrame( animate );
+	  if ($('#solid_trefoil_1').visible(true) && active ) {
+	      render();
+	      update();
+	  }
+      }
+
+	function update()
+	{
+	    if ( keyboard.pressed("z") ) 
+	    { 
+		// do something
+	    }
+	    
+	    controls.update();
+	    //	stats.update();
+	}
+	
+	function render() 
+	{
+	    renderer.render( scene, camera );
+	}
+	
+	function diam(t) {
+	    return 0.5;
+	}
+	
+	
+
+	function plot_tube()
+	{
+	    var loader = new THREE.TextureLoader();
+	    var gridTexture = loader.load( 'images/square.png');
+	    gridTexture.wrapS = gridTexture.wrapT = THREE.RepeatWrapping;
+	    gridTexture.repeat.set( 100,10 );
+	    var gridMaterial = new THREE.MeshLambertMaterial( {map:gridTexture, vertexColors: THREE.VertexColors,side:THREE.DoubleSide } );
+	    var normMaterial = new THREE.MeshLambertMaterial( {vertexColors: THREE.VertexColors,side:THREE.DoubleSide } );
+	    var useg = 200,vseg = 30;
+	    function x(u,v) {
+		return Math.sin(3*u)+diam(u)*Math.cos(v)*Nx(u)+diam(u)*Math.sin(v)*Bx(u)+xoffset;
+	    }
+	    function y(u,v) {
+		return Math.sin(u)+2*Math.sin(2*u)+diam(u)*Math.cos(v)*Ny(u)+diam(u)*Math.sin(v)*By(u)+yoffset;
+	    }
+	    function z(u,v) {
+		return Math.cos(u)-2*Math.cos(2*u)+diam(u)*Math.cos(v)*Nz(u)+diam(u)*Math.sin(v)*Bz(u)+zoffset;
+	    }
+	    createGraph(x,y,z,0,4*Math.PI,0,2*Math.PI,useg,vseg,scene,normMaterial,new THREE.Color( 0xffffff ),false,false);
+	}
+	
+	function plot_axes()
+	{
+	    var spritex = makeTextSprite( "x", { fontsize: 55, borderColor: {r:0, g:0, b:255, a:1.0}, xoffset:-25, yoffset:25 } );
+	    spritex.position.set(2.2+xoffset,yoffset,0+zoffset);
+	    scene.add( spritex );
+	    var spritey = makeTextSprite( "y", { fontsize: 55, borderColor: {r:0, g:0, b:255, a:1.0},xoffset:0 } );
+	    spritey.position.set(xoffset,3.5+yoffset,zoffset);
+	    scene.add( spritey );
+	    var spritez = makeTextSprite( "z", { fontsize: 55, borderColor: {r:0, g:0, b:255, a:1.0}, yoffset:-10 } );
+	    spritez.position.set(xoffset,yoffset,5+zoffset);
+	    scene.add( spritez );
+	    
+	    var axes = buildAxes();
+	    scene.add(axes);
+	}
+
+	function createGraph(xFunc,yFunc,zFunc,uMin,uMax,vMin,vMax,useg,vseg,sc,material,clr,solid,box)
+	{
+	    var graphMesh;
+	    uRange = uMax - uMin;
+	    vRange = vMax - vMin;
+	    meshFunction = function(u0, v0) 
+	    {
+		var u = uRange * u0 + uMin;
+		var v = vRange * v0 + vMin;
+		var x = xFunc(u,v);
+		var y = yFunc(u,v);
+		var z = zFunc(u,v);
+		if ( isNaN(x) || isNaN(y) || isNaN(z) )
+		    return new THREE.Vector3(0,0,0); // TODO: better fix
+		else
+		    return new THREE.Vector3(x, y, z);
+	    };
+	    
+	    // true => sensible image tile repeat...
+	    graphGeometry = new THREE.ParametricGeometry( meshFunction, useg, vseg, true );
+	    ///////////////////////////////////////////////
+	    // calculate vertex colors based on Z values //
+	    ///////////////////////////////////////////////
+	    graphGeometry.computeBoundingBox();
+	    zMin = graphGeometry.boundingBox.min.z;
+	    zMax = graphGeometry.boundingBox.max.z;
+	    zRange = zMax - zMin;
+	    var defaultcolor = new THREE.Color( 0xff0000 );
+	    var color, point, face, numberOfSides, vertexIndex;
+	    // faces are indexed using characters
+	    var faceIndices = [ 'a', 'b', 'c', 'd' ];
+	    // first, assign colors to vertices as desired
+	    if (!solid) {
+		for ( var i = 0; i < graphGeometry.vertices.length; i++ ) 
+		{
+		    point = graphGeometry.vertices[ i ];
+		    color = new THREE.Color( 0x0000ff );
+		    //	  color.setHSL( 0.7 *(10-point.x)/10 , 1, 0.1+0.3*(10 - point.z) / 10 );
+		    color.setHSL( 0.2+0.8*(zMax - point.z)/zRange, 0.6, 0.5 );
+		    graphGeometry.colors[i] = color; // use this array for convenience
+		}
+	    }
+	    // copy the colors as necessary to the face's vertexColors array.
+	    for ( var i = 0; i < graphGeometry.faces.length; i++ ) 
+	    {
+		face = graphGeometry.faces[ i ];
+		numberOfSides = ( face instanceof THREE.Face3 ) ? 3 : 4;
+		for( var j = 0; j < numberOfSides; j++ ) 
+		{
+		    if (solid) {
+			face.vertexColors[ j ] = clr;
+		    } else {
+			vertexIndex = face[ faceIndices[ j ] ];
+			face.vertexColors[ j ] = graphGeometry.colors[vertexIndex ];
+			//	      face.vertexColors[ j ] = clr;
+		    }
+		}
+	    }
+	    ///////////////////////
+	    // end vertex colors //
+	    ///////////////////////
+	    
+	    
+	    xMin = graphGeometry.boundingBox.min.x;
+	    xMax = graphGeometry.boundingBox.max.x;
+	    yMin = graphGeometry.boundingBox.min.y;
+	    yMax = graphGeometry.boundingBox.max.y;
+	    
+	    if (graphMesh) 
+	    {
+		sc.remove( graphMesh );
+		// renderer.deallocateObject( graphMesh );
+	    }
+	    
+	    graphMesh = new THREE.Mesh( graphGeometry,material );
+	    
+	    graphMesh.doubleSided = true;
+	    sc.add(graphMesh);
+	    if (box) {
+		var bbox = new THREE.BoundingBoxHelper( graphMesh, 0x000000 );
+		bbox.update();
+		scene.add( bbox );	
+	    }
+	}
+
+	function buildAxes() {
+	    var axes = new THREE.Object3D();
+	    
+	    axes.add( buildAxis( new THREE.Vector3( xoffset, yoffset, zoffset ), new THREE.Vector3( 2.2+xoffset, yoffset, zoffset ), 0x000000, false ) ); // +X
+//	    axes.add( buildAxis( new THREE.Vector3( xoffset, yoffset, zoffset ), new THREE.Vector3( -5+xoffset, yoffset, zoffset ), 0x000000, true) ); // -X
+	    axes.add( buildAxis( new THREE.Vector3( xoffset, yoffset, zoffset ), new THREE.Vector3( xoffset, 3.5+yoffset, zoffset ), 0x000000, false ) ); // +Y
+//	    axes.add( buildAxis( new THREE.Vector3( xoffset, yoffset, zoffset ), new THREE.Vector3( xoffset, -5+yoffset, zoffset ), 0x000000, true ) ); // -Y
+	    axes.add( buildAxis( new THREE.Vector3( xoffset, yoffset, zoffset ), new THREE.Vector3( xoffset, yoffset, 5+zoffset ), 0x000000, false ) ); // +Z
+//	    axes.add( buildAxis( new THREE.Vector3( xoffset, yoffset, zoffset ), new THREE.Vector3( xoffset, yoffset, -5+zoffset ), 0x000000, true ) ); // -Z
+	    return axes;
+	}	
+	
+	function buildAxis( src, dst, colorHex, dashed ) {
+	    var geom = new THREE.Geometry();
+	    var mat;
+	    
+	    if(dashed) {
+		mat = new THREE.LineDashedMaterial({ linewidth: 1, color: colorHex, dashSize: 0.05, gapSize: 0.05 });
+	    } else {
+		mat = new THREE.LineBasicMaterial({ linewidth: 1, color: colorHex });
+	    }
+	    
+	    geom.vertices.push( src.clone() );
+	    geom.vertices.push( dst.clone() );
+	    geom.computeLineDistances();
+	    
+	    var axis = new THREE.Line( geom, mat );
+	    
+	    return axis;
+	}
+
+	function makeTextSprite(message, opts) {
+	    var parameters = opts || {};
+	    var fontface = parameters.fontface || 'Helvetiker';
+	    var fontsize = parameters.fontsize || 70;
+	    var borderThickness = parameters.borderThickness || 1;
+	    var xoffset = parameters.xoffset || 0;
+	    var yoffset = parameters.yoffset || 0;
+	    var canvas = document.createElement('canvas');
+	    canvas.width = canvas.height = 200;
+	    var context = canvas.getContext('2d');
+	    context.font = fontsize + "px " + fontface;
+
+  // get size data (height depends only on font size)
+	    var metrics = context.measureText(message);
+	    var textWidth = metrics.width;
+	    
+  // text color
+	    context.fillStyle = 'rgba(0, 0, 0, 1.0)';
+	    context.fillText(message, canvas.width/2+xoffset, canvas.width/2+yoffset);
+//	    alert(canvas.width);
+  // canvas contents will be used for a texture
+	    var texture = new THREE.Texture(canvas)
+	    texture.minFilter = THREE.LinearFilter;
+	    texture.needsUpdate = true;
+	    //roundRect(context, borderThickness, borderThickness, textWidth + 2 * borderThickness, fontsize * 1.4 + 2* borderThickness, 6);
+	    var spriteMaterial = new THREE.SpriteMaterial({
+		map: texture
+//              useScreenCoordinates: false
+	    });
+	    var sprite = new THREE.Sprite(spriteMaterial);
+	    sprite.scale.set(1,1,1);
+	    return sprite;
+	}
+    });
+
+  MathJax.Hub.Register.StartupHook("End",function(){    
+	var xoffset = 0; yoffset = 0; zoffset = 0;
+	var SCREEN_WIDTH = 400, SCREEN_HEIGHT = 400;
+	var container, scene, camera, renderer, controls;
+	var keyboard = new THREEx.KeyboardState();
+	var clock = new THREE.Clock();
+	var meshFunction;
+	var usegments = 40, vsegments=10;
+	
+	var xMin = xMax = yMin = yMax = 0; // for autosizing window
+	
+	var graphGeometry;
+	
+	var Nxtext = "-9*sqrt(144*cos(t)^6 - 216*cos(t)^4 + 32*cos(t)^3 + 81*cos(t)^2 - 24*cos(t) + 17)*(64*cos(t)^5 - 64*cos(t)^3 + 68*cos(t)^2 + 12*cos(t) - 17)*sin(t)/((20736*sqrt(2)*sin(t)^12 - 62208*sqrt(2)*sin(t)^10 + 288*(32*sqrt(2)*cos(t) + 243*sqrt(2))*sin(t)^8 - 16*(1008*sqrt(2)*cos(t) + 2719*sqrt(2))*sin(t)^6 + 3*(2880*sqrt(2)*cos(t) + 6443*sqrt(2))*sin(t)^4 - 4*(740*sqrt(2)*cos(t) + 1197*sqrt(2))*sin(t)^2 + 416*sqrt(2)*cos(t) + 740*sqrt(2))*sqrt(-(4608*cos(t)*sin(t)^8 - 64*(126*cos(t) + 97)*sin(t)^6 + 96*(45*cos(t) + 97)*sin(t)^4 - 4*(110*cos(t) + 873)*sin(t)^2 - 52*cos(t) - 781)/(20736*sin(t)^12 - 62208*sin(t)^10 + 288*(32*cos(t) + 243)*sin(t)^8 - 16*(1008*cos(t) + 2719)*sin(t)^6 + 3*(2880*cos(t) + 6443)*sin(t)^4 - 4*(740*cos(t) + 1197)*sin(t)^2 + 416*cos(t) + 740)))";
+	var Nx = Parser.parse(Nxtext).toJSFunction(['t']);
+	
+	var Nytext = "(1152*cos(t)^7 + 288*cos(t)^6 - 1728*cos(t)^5 - 344*cos(t)^4 + 1096*cos(t)^3 + 96*cos(t)^2 - 584*cos(t) + 31)*sqrt(144*cos(t)^6 - 216*cos(t)^4 + 32*cos(t)^3 + 81*cos(t)^2 - 24*cos(t) + 17)*sin(t)/((20736*sqrt(2)*sin(t)^12 - 62208*sqrt(2)*sin(t)^10 + 288*(32*sqrt(2)*cos(t) + 243*sqrt(2))*sin(t)^8 - 16*(1008*sqrt(2)*cos(t) + 2719*sqrt(2))*sin(t)^6 + 3*(2880*sqrt(2)*cos(t) + 6443*sqrt(2))*sin(t)^4 - 4*(740*sqrt(2)*cos(t) + 1197*sqrt(2))*sin(t)^2 + 416*sqrt(2)*cos(t) + 740*sqrt(2))*sqrt(-(4608*cos(t)*sin(t)^8 - 64*(126*cos(t) + 97)*sin(t)^6 + 96*(45*cos(t) + 97)*sin(t)^4 - 4*(110*cos(t) + 873)*sin(t)^2 - 52*cos(t) - 781)/(20736*sin(t)^12 - 62208*sin(t)^10 + 288*(32*cos(t) + 243)*sin(t)^8 - 16*(1008*cos(t) + 2719)*sin(t)^6 + 3*(2880*cos(t) + 6443)*sin(t)^4 - 4*(740*cos(t) + 1197)*sin(t)^2 + 416*cos(t) + 740)))";
+	var Ny = Parser.parse(Nytext).toJSFunction(['t']);
+	
+	var Nztext = "-(576*sqrt(2)*sin(t)^8 + 144*(sqrt(2)*cos(t) - 8*sqrt(2))*sin(t)^6 - 4*(43*sqrt(2)*cos(t) - 133*sqrt(2))*sin(t)^4 + 2*(24*sqrt(2)*cos(t) + 103*sqrt(2))*sin(t)^2 - 19*sqrt(2)*cos(t) - 100*sqrt(2))*sqrt(-144*sin(t)^6 + 216*sin(t)^4 - (32*cos(t) + 81)*sin(t)^2 + 8*cos(t) + 26)/((20736*sin(t)^12 - 62208*sin(t)^10 + 288*(32*cos(t) + 243)*sin(t)^8 - 16*(1008*cos(t) + 2719)*sin(t)^6 + 3*(2880*cos(t) + 6443)*sin(t)^4 - 4*(740*cos(t) + 1197)*sin(t)^2 + 416*cos(t) + 740)*sqrt(-(4608*cos(t)*sin(t)^8 - 64*(126*cos(t) + 97)*sin(t)^6 + 96*(45*cos(t) + 97)*sin(t)^4 - 4*(110*cos(t) + 873)*sin(t)^2 - 52*cos(t) - 781)/(20736*sin(t)^12 - 62208*sin(t)^10 + 288*(32*cos(t) + 243)*sin(t)^8 - 16*(1008*cos(t) + 2719)*sin(t)^6 + 3*(2880*cos(t) + 6443)*sin(t)^4 - 4*(740*cos(t) + 1197)*sin(t)^2 + 416*cos(t) + 740)))";
+	var Nz = Parser.parse(Nztext).toJSFunction(['t']);
+	
+	
+	var Bxtext = "(16*cos(t)^3 - 12*cos(t) + 31)/((144*sqrt(2)*cos(t)^6 - 216*sqrt(2)*cos(t)^4 + 32*sqrt(2)*cos(t)^3 + 81*sqrt(2)*cos(t)^2 - 24*sqrt(2)*cos(t) + 17*sqrt(2))*sqrt(-(4608*cos(t)^9 - 10368*cos(t)^7 + 6208*cos(t)^6 + 7776*cos(t)^5 - 9312*cos(t)^4 - 2440*cos(t)^3 + 3492*cos(t)^2 + 372*cos(t) - 1169)/(20736*cos(t)^12 - 62208*cos(t)^10 + 9216*cos(t)^9 + 69984*cos(t)^8 - 20736*cos(t)^7 - 29072*cos(t)^6 + 15552*cos(t)^5 - 2319*cos(t)^4 - 2800*cos(t)^3 + 3330*cos(t)^2 - 816*cos(t) + 289)))";
+	var Bx = Parser.parse(Bxtext).toJSFunction(['t']);
+	
+	var Bytext = "3*(32*cos(t)^5 - 8*cos(t)^4 - 40*cos(t)^3 + 12*cos(t)^2 - 3)/((144*sqrt(2)*cos(t)^6 - 216*sqrt(2)*cos(t)^4 + 32*sqrt(2)*cos(t)^3 + 81*sqrt(2)*cos(t)^2 - 24*sqrt(2)*cos(t) + 17*sqrt(2))*sqrt(-(4608*cos(t)^9 - 10368*cos(t)^7 + 6208*cos(t)^6 + 7776*cos(t)^5 - 9312*cos(t)^4 - 2440*cos(t)^3 + 3492*cos(t)^2 + 372*cos(t) - 1169)/(20736*cos(t)^12 - 62208*cos(t)^10 + 9216*cos(t)^9 + 69984*cos(t)^8 - 20736*cos(t)^7 - 29072*cos(t)^6 + 15552*cos(t)^5 - 2319*cos(t)^4 - 2800*cos(t)^3 + 3330*cos(t)^2 - 816*cos(t) + 289)))";
+	var By = Parser.parse(Bytext).toJSFunction(['t']);
+	
+	
+	var Bztext = "6*(3*sqrt(2)*sin(t)^5 + (5*sqrt(2)*cos(t)^4 + 2*sqrt(2)*cos(t)^3)*sin(t))/((144*cos(t)^6 - 216*cos(t)^4 + 32*cos(t)^3 + 81*cos(t)^2 - 24*cos(t) + 17)*sqrt(-(4608*cos(t)^9 - 10368*cos(t)^7 + 6208*cos(t)^6 + 7776*cos(t)^5 - 9312*cos(t)^4 - 2440*cos(t)^3 + 3492*cos(t)^2 + 372*cos(t) - 1169)/(20736*cos(t)^12 - 62208*cos(t)^10 + 9216*cos(t)^9 + 69984*cos(t)^8 - 20736*cos(t)^7 - 29072*cos(t)^6 + 15552*cos(t)^5 - 2319*cos(t)^4 - 2800*cos(t)^3 + 3330*cos(t)^2 - 816*cos(t) + 289)))";
+	var Bz = Parser.parse(Bztext).toJSFunction(['t']);
+
+      if(typeof window.orientation === 'undefined') {
+	  init();
+	  animate();
+      }
+
+	function init() 
+	{
+	    scene = new THREE.Scene();
+	    if ( Detector.webgl )
+		renderer = new THREE.WebGLRenderer( {alpha:true, antialias:true} );
+	    else
+		renderer = new THREE.CanvasRenderer(); 
+	    renderer.setSize(SCREEN_WIDTH, SCREEN_HEIGHT);
+	    container = document.getElementById( 'solid_trefoil_2' );
+	    container.appendChild( renderer.domElement );
+	    var light = new THREE.PointLight(0xffffff,1,100);
+	    light.position.set(3,0,10);
+	    scene.add(light);
+	    var light_amb = new THREE.AmbientLight( 0xaaaaaa ); // soft white light
+	    scene.add( light_amb );
+	    
+	    // Background clear color
+	    // renderer.setClearColorHex( 0xffffff, 0 );
+	    
+	    plot_tube();
+//	    plot_axes();
+	    resetCamera();
+	}
+	
+	function resetCamera()
+	{
+	    var VIEW_ANGLE = 45, ASPECT = SCREEN_WIDTH / SCREEN_HEIGHT, NEAR = 0.1, FAR = 20000;
+	    // Orthog camera
+	    //      var zoom = 3;
+	    //      camera = new THREE.OrthographicCamera( -zoom*ASPECT,zoom*ASPECT,zoom,-zoom, NEAR, FAR);
+	    //      camera.position.x = zoom*2;
+	    //      camera.position.y = zoom*1.5;
+	    //      camera.position.z = zoom*1.5;
+	    // Perspective camera
+	    camera = new THREE.PerspectiveCamera( VIEW_ANGLE, ASPECT, NEAR, FAR);
+	    scene.add(camera);
+	    camera.position.set(10,0,0);
+	    camera.lookAt(scene.position);  
+	    
+	    camera.up.set( 0, 0, 1 ); 
+	    scene.add(camera);
+	    
+//	    controls = new THREE.TrackballControls( camera, renderer.domElement );
+	    controls = new THREE.OrthographicTrackballControls( camera, renderer.domElement );
+	    controls.rotateSpeed = 1;
+	    THREEx.WindowResize(renderer, camera);
+	}
+	
+      function animate() 
+      {
+	  requestAnimationFrame( animate );
+	  if ($('#solid_trefoil_2').visible(true) && active ) {
+	      render();
+	      update();
+	  }
+      }
+
+	function update()
+	{
+	    if ( keyboard.pressed("z") ) 
+	    { 
+		// do something
+	    }
+	    
+	    controls.update();
+	    //	stats.update();
+	}
+	
+	function render() 
+	{
+	    renderer.render( scene, camera );
+	}
+	
+	function diam(t) {
+	    return 3*Math.abs(Math.cos(2*t))/4;
+	}
+	
+	
+
+	function plot_tube()
+	{
+	    var loader = new THREE.TextureLoader();
+	    var gridTexture = loader.load( 'images/square.png');
+	    gridTexture.wrapS = gridTexture.wrapT = THREE.RepeatWrapping;
+	    gridTexture.repeat.set( 100,10 );
+	    var gridMaterial = new THREE.MeshLambertMaterial( {map:gridTexture, vertexColors: THREE.VertexColors,side:THREE.DoubleSide } );
+	    var normMaterial = new THREE.MeshLambertMaterial( {vertexColors: THREE.VertexColors,side:THREE.DoubleSide } );
+	    var useg = 200,vseg = 30;
+	    function x(u,v) {
+		return Math.sin(3*u)+diam(u)*Math.cos(v)*Nx(u)+diam(u)*Math.sin(v)*Bx(u)+xoffset;
+	    }
+	    function y(u,v) {
+		return Math.sin(u)+2*Math.sin(2*u)+diam(u)*Math.cos(v)*Ny(u)+diam(u)*Math.sin(v)*By(u)+yoffset;
+	    }
+	    function z(u,v) {
+		return Math.cos(u)-2*Math.cos(2*u)+diam(u)*Math.cos(v)*Nz(u)+diam(u)*Math.sin(v)*Bz(u)+zoffset;
+	    }
+	    createGraph(x,y,z,0,4*Math.PI,0,2*Math.PI,useg,vseg,scene,normMaterial,new THREE.Color( 0xffffff ),false,false);
+	}
+	
+	function plot_axes()
+	{
+	    var spritex = makeTextSprite( "x", { fontsize: 55, borderColor: {r:0, g:0, b:255, a:1.0}, xoffset:-25, yoffset:25 } );
+	    spritex.position.set(2.2+xoffset,yoffset,0+zoffset);
+	    scene.add( spritex );
+	    var spritey = makeTextSprite( "y", { fontsize: 55, borderColor: {r:0, g:0, b:255, a:1.0},xoffset:0 } );
+	    spritey.position.set(xoffset,3.5+yoffset,zoffset);
+	    scene.add( spritey );
+	    var spritez = makeTextSprite( "z", { fontsize: 55, borderColor: {r:0, g:0, b:255, a:1.0}, yoffset:-10 } );
+	    spritez.position.set(xoffset,yoffset,5+zoffset);
+	    scene.add( spritez );
+	    
+	    var axes = buildAxes();
+	    scene.add(axes);
+	}
+
+	function createGraph(xFunc,yFunc,zFunc,uMin,uMax,vMin,vMax,useg,vseg,sc,material,clr,solid,box)
+	{
+	    var graphMesh;
+	    uRange = uMax - uMin;
+	    vRange = vMax - vMin;
+	    meshFunction = function(u0, v0) 
+	    {
+		var u = uRange * u0 + uMin;
+		var v = vRange * v0 + vMin;
+		var x = xFunc(u,v);
+		var y = yFunc(u,v);
+		var z = zFunc(u,v);
+		if ( isNaN(x) || isNaN(y) || isNaN(z) )
+		    return new THREE.Vector3(0,0,0); // TODO: better fix
+		else
+		    return new THREE.Vector3(x, y, z);
+	    };
+	    
+	    // true => sensible image tile repeat...
+	    graphGeometry = new THREE.ParametricGeometry( meshFunction, useg, vseg, true );
+	    ///////////////////////////////////////////////
+	    // calculate vertex colors based on Z values //
+	    ///////////////////////////////////////////////
+	    graphGeometry.computeBoundingBox();
+	    zMin = graphGeometry.boundingBox.min.z;
+	    zMax = graphGeometry.boundingBox.max.z;
+	    zRange = zMax - zMin;
+	    var defaultcolor = new THREE.Color( 0xff0000 );
+	    var color, point, face, numberOfSides, vertexIndex;
+	    // faces are indexed using characters
+	    var faceIndices = [ 'a', 'b', 'c', 'd' ];
+	    // first, assign colors to vertices as desired
+	    if (!solid) {
+		for ( var i = 0; i < graphGeometry.vertices.length; i++ ) 
+		{
+		    point = graphGeometry.vertices[ i ];
+		    color = new THREE.Color( 0x0000ff );
+		    //	  color.setHSL( 0.7 *(10-point.x)/10 , 1, 0.1+0.3*(10 - point.z) / 10 );
+		    color.setHSL( 0.2+0.8*(zMax - (point.z)/zRange), 0.6, 0.5 );
+		    graphGeometry.colors[i] = color; // use this array for convenience
+		}
+	    }
+	    // copy the colors as necessary to the face's vertexColors array.
+	    for ( var i = 0; i < graphGeometry.faces.length; i++ ) 
+	    {
+		face = graphGeometry.faces[ i ];
+		numberOfSides = ( face instanceof THREE.Face3 ) ? 3 : 4;
+		for( var j = 0; j < numberOfSides; j++ ) 
+		{
+		    if (solid) {
+			face.vertexColors[ j ] = clr;
+		    } else {
+			vertexIndex = face[ faceIndices[ j ] ];
+			face.vertexColors[ j ] = graphGeometry.colors[vertexIndex ];
+			//	      face.vertexColors[ j ] = clr;
+		    }
+		}
+	    }
+	    ///////////////////////
+	    // end vertex colors //
+	    ///////////////////////
+	    
+	    
+	    xMin = graphGeometry.boundingBox.min.x;
+	    xMax = graphGeometry.boundingBox.max.x;
+	    yMin = graphGeometry.boundingBox.min.y;
+	    yMax = graphGeometry.boundingBox.max.y;
+	    
+	    if (graphMesh) 
+	    {
+		sc.remove( graphMesh );
+		// renderer.deallocateObject( graphMesh );
+	    }
+	    
+	    graphMesh = new THREE.Mesh( graphGeometry,material );
+	    
+	    graphMesh.doubleSided = true;
+	    sc.add(graphMesh);
+	    if (box) {
+		var bbox = new THREE.BoundingBoxHelper( graphMesh, 0x000000 );
+		bbox.update();
+		scene.add( bbox );	
+	    }
+	}
+
+	function buildAxes() {
+	    var axes = new THREE.Object3D();
+	    
+	    axes.add( buildAxis( new THREE.Vector3( xoffset, yoffset, zoffset ), new THREE.Vector3( 2.2+xoffset, yoffset, zoffset ), 0x000000, false ) ); // +X
+//	    axes.add( buildAxis( new THREE.Vector3( xoffset, yoffset, zoffset ), new THREE.Vector3( -5+xoffset, yoffset, zoffset ), 0x000000, true) ); // -X
+	    axes.add( buildAxis( new THREE.Vector3( xoffset, yoffset, zoffset ), new THREE.Vector3( xoffset, 3.5+yoffset, zoffset ), 0x000000, false ) ); // +Y
+//	    axes.add( buildAxis( new THREE.Vector3( xoffset, yoffset, zoffset ), new THREE.Vector3( xoffset, -5+yoffset, zoffset ), 0x000000, true ) ); // -Y
+	    axes.add( buildAxis( new THREE.Vector3( xoffset, yoffset, zoffset ), new THREE.Vector3( xoffset, yoffset, 5+zoffset ), 0x000000, false ) ); // +Z
+//	    axes.add( buildAxis( new THREE.Vector3( xoffset, yoffset, zoffset ), new THREE.Vector3( xoffset, yoffset, -5+zoffset ), 0x000000, true ) ); // -Z
+	    return axes;
+	}	
+	
+	function buildAxis( src, dst, colorHex, dashed ) {
+	    var geom = new THREE.Geometry();
+	    var mat;
+	    
+	    if(dashed) {
+		mat = new THREE.LineDashedMaterial({ linewidth: 1, color: colorHex, dashSize: 0.05, gapSize: 0.05 });
+	    } else {
+		mat = new THREE.LineBasicMaterial({ linewidth: 1, color: colorHex });
+	    }
+	    
+	    geom.vertices.push( src.clone() );
+	    geom.vertices.push( dst.clone() );
+	    geom.computeLineDistances();
+	    
+	    var axis = new THREE.Line( geom, mat );
+	    
+	    return axis;
+	}
+
+	function makeTextSprite(message, opts) {
+	    var parameters = opts || {};
+	    var fontface = parameters.fontface || 'Helvetiker';
+	    var fontsize = parameters.fontsize || 70;
+	    var borderThickness = parameters.borderThickness || 1;
+	    var xoffset = parameters.xoffset || 0;
+	    var yoffset = parameters.yoffset || 0;
+	    var canvas = document.createElement('canvas');
+	    canvas.width = canvas.height = 200;
+	    var context = canvas.getContext('2d');
+	    context.font = fontsize + "px " + fontface;
+
+  // get size data (height depends only on font size)
+	    var metrics = context.measureText(message);
+	    var textWidth = metrics.width;
+	    
+  // text color
+	    context.fillStyle = 'rgba(0, 0, 0, 1.0)';
+	    context.fillText(message, canvas.width/2+xoffset, canvas.width/2+yoffset);
+//	    alert(canvas.width);
+  // canvas contents will be used for a texture
+	    var texture = new THREE.Texture(canvas)
+	    texture.minFilter = THREE.LinearFilter;
+	    texture.needsUpdate = true;
+	    //roundRect(context, borderThickness, borderThickness, textWidth + 2 * borderThickness, fontsize * 1.4 + 2* borderThickness, 6);
+	    var spriteMaterial = new THREE.SpriteMaterial({
+		map: texture
+//              useScreenCoordinates: false
+	    });
+	    var sprite = new THREE.Sprite(spriteMaterial);
+	    sprite.scale.set(1,1,1);
+	    return sprite;
+	}
+    });
+</script>  
+<div class='figcaption'><span class="figurenumber">Figure 16.6.3.</span> Tubes around a trefoil knot, with radius $1/2$ and
+$3\cos(u)/4$.</div></div>
+<p>
+</p><p>
+We have previously examined surfaces given in the form 
+$f(x,y)$. It is sometimes useful to represent such surfaces in the
+more general vector form, which is quite easy:
+${\bf r}(u,v)=\langle u,v,f(u,v)\rangle$. The names of the variables
+are not important of course; instead of disguising $x$ and $y$, we
+could simply write ${\bf r}(x,y)=\langle x,y,f(x,y)\rangle$. 
+</p><p>
+We have also previously dealt with surfaces that are not functions of
+$x$ and $y$; many of these are easy to represent in vector form.
+One common type of surface that cannot be represented as $z=f(x,y)$ is
+a surface given by an equation involving only $x$ and $y$. For
+example,
+$x+y=1$ and $y=x^2$ are "vertical'' surfaces. For every point $(x,y)$
+in the plane that satisfies the equation, the point $(x,y,z)$ is on
+the surface, for 
+every value of $z$. Thus, a corresponding vector form for the surface
+is something like $\langle f(u),g(u),v\rangle$; for example, $x+y=1$
+becomes $\langle u,1-u,v\rangle$ and $y=x^2$ becomes $\langle
+u,u^2,v\rangle$. 
+</p><p>
+Yet another sort of example is the sphere, say $x^2+y^2+z^2=1$. This
+cannot be written in the form $z=f(x,y)$, but it is easy to write in
+vector form; indeed this particular surface is much like the cone,
+since it has circular cross-sections, or we can think of it as a tube
+around a portion of the $z$-axis, with a radius that varies depending
+on where along the axis we are. One vector expression for the sphere
+is $\langle \sqrt{1-v^2}\cos u,\sqrt{1-v^2}\sin u, v\rangle$&mdash;this
+emphasizes the tube structure, as it is naturally viewed as drawing a
+circle of radius $\sqrt{1-v^2}$ around the $z$-axis at height $v$.
+We could also take a cue from spherical coordinates, and write
+$\langle \sin u\cos v,\sin u\sin v,\cos u\rangle$, where in effect
+$u$ and $v$ are $\phi$ and $\theta$ in disguise. 
+</p><p>
+It is quite simple in Sage to plot any surface for which you have a
+vector representation. Using different vector functions sometimes
+gives different looking plots, because Sage in effect draws the
+surface by holding one variable constant and then the other. For
+example, you might have noticed in figure <a href="section16.06.html#fig:helical ramp">16.6.2</a>
+that the curves in the two right-hand graphs are superimposed on the
+left-hand graph; the graph of the surface is just the combination of
+the two sets of curves, with the spaces filled in with color. 
+</p><p>
+Here's a simple but striking example: the plane $x+y+z=1$ can be
+represented quite naturally as $\langle u,v,1-u-v\rangle$. But we
+could also think of painting the same plane by choosing a particular
+point on the plane, say $(1,0,0)$, and then drawing circles or
+ellipses (or any of a number of other curves) as if that point were
+the origin in the plane. For example, $\langle 1-v\cos u-v\sin u,v\sin
+u,v\cos u\rangle$ is one such vector function. Note that while it may
+not be obvious where this came from, it is quite easy to see that
+the sum of the $x$, $y$, and $z$ components of the vector is always
+1. Computer renderings of the plane using these two functions are shown
+in figure <a href="section16.06.html#fig:two plane parameterizations">16.6.4</a>.
+</p><p>
+<a id="fig:two plane parameterizations"></a>
+</p><div class='figure'><!-- Vector_calculus-two_plane_representations.html -->
+<!-- Figure 16.6.4 -->
+
+<table class="webgl_display" style="display:none;left-margin:auto;right-margin:auto">
+<tr>
+<td id="plane_view_1" style='text-align:center'></td>
+<td id="plane_view_2" style='text-align:center'></td>
+</tr>
+</table>
+<table class="no_webgl_display" style="display:block;left-margin:auto;right-margin:auto">
+<tr>
+<td style='text-align:center;width:250px'>
+<a href="http://www.whitman.edu/mathematics/calculus_applets/two_planes">
+<img src="images/plane1.png" style="width:200px"></a>
+</td>
+<td style='text-align:center;width:350px'>
+<a href="http://www.whitman.edu/mathematics/calculus_applets/two_planes">
+<img src="images/plane2.png" style="width:300px"></a>
+</td>
+</tr>
+</table>
+
+<script>
+    MathJax.Hub.Register.StartupHook("End",function(){    
+	var xoffset = 0; yoffset = 0; zoffset = -1;
+	var SCREEN_WIDTH = 400, SCREEN_HEIGHT = 400;
+	var container, scene, camera, renderer, controls;
+	var keyboard = new THREEx.KeyboardState();
+	var clock = new THREE.Clock();
+	var meshFunction;
+	var usegments = 40, vsegments=10;
+	
+	var xMin = xMax = yMin = yMax = 0; // for autosizing window
+	
+	var graphGeometry;
+	
+	if(typeof window.orientation === 'undefined') {
+	    init();
+	    animate();
+	}
+	
+	function init() 
+	{
+	    scene = new THREE.Scene();
+	    if ( Detector.webgl )
+		renderer = new THREE.WebGLRenderer( {alpha:true, antialias:true} );
+	    else
+		renderer = new THREE.CanvasRenderer(); 
+	    renderer.setSize(SCREEN_WIDTH, SCREEN_HEIGHT);
+	    container = document.getElementById( 'plane_view_1' );
+	    container.appendChild( renderer.domElement );
+	    var light = new THREE.PointLight(0xffffff,1,100);
+	    light.position.set(3,0,10);
+	    scene.add(light);
+	    var light_amb = new THREE.AmbientLight( 0xaaaaaa ); // soft white light
+	    scene.add( light_amb );
+	    
+	    // Background clear color
+	    // renderer.setClearColorHex( 0xffffff, 0 );
+	    
+	    plot_it_0();
+	    plot_axes();
+	    resetCamera();
+	}
+	
+	
+	function resetCamera()
+	{
+	    var VIEW_ANGLE = 13, ASPECT = SCREEN_WIDTH / SCREEN_HEIGHT, NEAR = 0.1, FAR = 20000;
+	    // Orthog camera
+	    //      var zoom = 3;
+	    //      camera = new THREE.OrthographicCamera( -zoom*ASPECT,zoom*ASPECT,zoom,-zoom, NEAR, FAR);
+	    //      camera.position.x = zoom*2;
+	    //      camera.position.y = zoom*1.5;
+	    //      camera.position.z = zoom*1.5;
+	    // Perspective camera
+	    camera = new THREE.PerspectiveCamera( VIEW_ANGLE, ASPECT, NEAR, FAR);
+	    scene.add(camera);
+	    camera.position.set(20,10,15);
+	    camera.lookAt(scene.position);  
+	    
+	    camera.up.set( 0, 0, 1 ); 
+	    scene.add(camera);
+	    
+	    controls = new THREE.TrackballControls( camera, renderer.domElement );
+	    controls.rotateSpeed = 1;
+	    THREEx.WindowResize(renderer, camera);
+	}
+	
+	function animate() 
+	{
+	    requestAnimationFrame( animate );
+	    if ($('#plane_view_1').visible(true) && active ) {
+		render();
+		update();
+	    }
+	}
+
+	function update()
+	{
+	    if ( keyboard.pressed("z") ) 
+	    { 
+		// do something
+	    }
+	    
+	    controls.update();
+	    //	stats.update();
+	}
+	
+	function render() 
+	{
+	    renderer.render( scene, camera );
+	}
+	
+	
+	function plot_it_0()
+	{
+	    var loader = new THREE.TextureLoader();
+	    var gridTexture = loader.load( 'images/square.png');
+	    gridTexture.wrapS = gridTexture.wrapT = THREE.RepeatWrapping;
+	    gridTexture.repeat.set( 10,10 );
+	    var gridMaterial = new THREE.MeshLambertMaterial( {map:gridTexture, vertexColors: THREE.VertexColors,side:THREE.DoubleSide } );
+	    var useg = 10,vseg = 10;
+	    function x(u,v) {
+		return u+xoffset;
+	    }
+	    function y(u,v) {
+		return v+yoffset;
+	    }
+	    function z(u,v) {
+		return 1-u-v+zoffset;
+	    }
+	    createGraph(x,y,z,-1,1,-1,1,useg,vseg,scene,gridMaterial,new THREE.Color( 0x6495ED ),false,false);
+	}
+	
+	function plot_axes()
+	{
+	    var spritex = makeTextSprite( "x", { fontsize: 55, borderColor: {r:0, g:0, b:255, a:1.0}, xoffset:-25, yoffset:25 } );
+	    spritex.position.set(1.5+xoffset,yoffset,0+zoffset);
+	    scene.add( spritex );
+	    var spritey = makeTextSprite( "y", { fontsize: 55, borderColor: {r:0, g:0, b:255, a:1.0},xoffset:0 } );
+	    spritey.position.set(xoffset,1.5+yoffset,zoffset);
+	    scene.add( spritey );
+	    var spritez = makeTextSprite( "z", { fontsize: 55, borderColor: {r:0, g:0, b:255, a:1.0}, yoffset:-10 } );
+	    spritez.position.set(xoffset,yoffset,3+zoffset);
+	    scene.add( spritez );
+	    
+	    var axes = buildAxes();
+	    scene.add(axes);
+	}
+
+	function createGraph(xFunc,yFunc,zFunc,uMin,uMax,vMin,vMax,useg,vseg,sc,material,clr,solid,box)
+	{
+	    var graphMesh;
+	    uRange = uMax - uMin;
+	    vRange = vMax - vMin;
+	    meshFunction = function(u0, v0) 
+	    {
+		var u = uRange * u0 + uMin;
+		var v = vRange * v0 + vMin;
+		var x = xFunc(u,v);
+		var y = yFunc(u,v);
+		var z = zFunc(u,v);
+		if ( isNaN(x) || isNaN(y) || isNaN(z) )
+		    return new THREE.Vector3(0,0,0); // TODO: better fix
+		else
+		    return new THREE.Vector3(x, y, z);
+	    };
+	    
+	    // true => sensible image tile repeat...
+	    graphGeometry = new THREE.ParametricGeometry( meshFunction, useg, vseg, true );
+	    ///////////////////////////////////////////////
+	    // calculate vertex colors based on Z values //
+	    ///////////////////////////////////////////////
+	    graphGeometry.computeBoundingBox();
+	    zMin = graphGeometry.boundingBox.min.z;
+	    zMax = graphGeometry.boundingBox.max.z;
+	    zRange = zMax - zMin;
+	    var defaultcolor = new THREE.Color( 0xff0000 );
+	    var color, point, face, numberOfSides, vertexIndex;
+	    // faces are indexed using characters
+	    var faceIndices = [ 'a', 'b', 'c', 'd' ];
+	    // first, assign colors to vertices as desired
+	    if (!solid) {
+		for ( var i = 0; i < graphGeometry.vertices.length; i++ ) 
+		{
+		    point = graphGeometry.vertices[ i ];
+		    color = new THREE.Color( 0x0000ff );
+		    //	  color.setHSL( 0.7 *(10-point.x)/10 , 1, 0.1+0.3*(10 - point.z) / 10 );
+		    color.setHSL( 0.2+0.8*(zMax - (point.z)/zRange), 0.6, 0.5 );
+		    graphGeometry.colors[i] = color; // use this array for convenience
+		}
+	    }
+	    // copy the colors as necessary to the face's vertexColors array.
+	    for ( var i = 0; i < graphGeometry.faces.length; i++ ) 
+	    {
+		face = graphGeometry.faces[ i ];
+		numberOfSides = ( face instanceof THREE.Face3 ) ? 3 : 4;
+		for( var j = 0; j < numberOfSides; j++ ) 
+		{
+		    if (solid) {
+			face.vertexColors[ j ] = clr;
+		    } else {
+			vertexIndex = face[ faceIndices[ j ] ];
+			face.vertexColors[ j ] = graphGeometry.colors[vertexIndex ];
+			//	      face.vertexColors[ j ] = clr;
+		    }
+		}
+	    }
+	    ///////////////////////
+	    // end vertex colors //
+	    ///////////////////////
+	    
+	    
+	    xMin = graphGeometry.boundingBox.min.x;
+	    xMax = graphGeometry.boundingBox.max.x;
+	    yMin = graphGeometry.boundingBox.min.y;
+	    yMax = graphGeometry.boundingBox.max.y;
+	    
+	    if (graphMesh) 
+	    {
+		sc.remove( graphMesh );
+		// renderer.deallocateObject( graphMesh );
+	    }
+	    
+	    graphMesh = new THREE.Mesh( graphGeometry,material );
+	    
+	    graphMesh.doubleSided = true;
+	    sc.add(graphMesh);
+	    if (box) {
+		var bbox = new THREE.BoundingBoxHelper( graphMesh, 0x000000 );
+		bbox.update();
+		scene.add( bbox );	
+	    }
+	}
+
+	function buildAxes() {
+	    var axes = new THREE.Object3D();
+	    
+	    axes.add( buildAxis( new THREE.Vector3( xoffset, yoffset, zoffset ), new THREE.Vector3( 1.5+xoffset, yoffset, zoffset ), 0x000000, false ) ); // +X
+//	    axes.add( buildAxis( new THREE.Vector3( xoffset, yoffset, zoffset ), new THREE.Vector3( -5+xoffset, yoffset, zoffset ), 0x000000, true) ); // -X
+	    axes.add( buildAxis( new THREE.Vector3( xoffset, yoffset, zoffset ), new THREE.Vector3( xoffset, 1.5+yoffset, zoffset ), 0x000000, false ) ); // +Y
+//	    axes.add( buildAxis( new THREE.Vector3( xoffset, yoffset, zoffset ), new THREE.Vector3( xoffset, -5+yoffset, zoffset ), 0x000000, true ) ); // -Y
+	    axes.add( buildAxis( new THREE.Vector3( xoffset, yoffset, zoffset ), new THREE.Vector3( xoffset, yoffset, 3+zoffset ), 0x000000, false ) ); // +Z
+//	    axes.add( buildAxis( new THREE.Vector3( xoffset, yoffset, zoffset ), new THREE.Vector3( xoffset, yoffset, -5+zoffset ), 0x000000, true ) ); // -Z
+	    return axes;
+	}	
+	
+	function buildAxis( src, dst, colorHex, dashed ) {
+	    var geom = new THREE.Geometry();
+	    var mat;
+	    
+	    if(dashed) {
+		mat = new THREE.LineDashedMaterial({ linewidth: 1, color: colorHex, dashSize: 0.05, gapSize: 0.05 });
+	    } else {
+		mat = new THREE.LineBasicMaterial({ linewidth: 1, color: colorHex });
+	    }
+	    
+	    geom.vertices.push( src.clone() );
+	    geom.vertices.push( dst.clone() );
+	    geom.computeLineDistances();
+	    
+	    var axis = new THREE.Line( geom, mat );
+	    
+	    return axis;
+	}
+
+	function makeTextSprite(message, opts) {
+	    var parameters = opts || {};
+	    var fontface = parameters.fontface || 'Helvetiker';
+	    var fontsize = parameters.fontsize || 70;
+	    var borderThickness = parameters.borderThickness || 1;
+	    var xoffset = parameters.xoffset || 0;
+	    var yoffset = parameters.yoffset || 0;
+	    var canvas = document.createElement('canvas');
+	    canvas.width = canvas.height = 200;
+	    var context = canvas.getContext('2d');
+	    context.font = fontsize + "px " + fontface;
+
+  // get size data (height depends only on font size)
+	    var metrics = context.measureText(message);
+	    var textWidth = metrics.width;
+	    
+  // text color
+	    context.fillStyle = 'rgba(0, 0, 0, 1.0)';
+	    context.fillText(message, canvas.width/2+xoffset, canvas.width/2+yoffset);
+//	    alert(canvas.width);
+  // canvas contents will be used for a texture
+	    var texture = new THREE.Texture(canvas)
+	    texture.minFilter = THREE.LinearFilter;
+	    texture.needsUpdate = true;
+	    //roundRect(context, borderThickness, borderThickness, textWidth + 2 * borderThickness, fontsize * 1.4 + 2* borderThickness, 6);
+	    var spriteMaterial = new THREE.SpriteMaterial({
+		map: texture
+//              useScreenCoordinates: false
+	    });
+	    var sprite = new THREE.Sprite(spriteMaterial);
+	    sprite.scale.set(1,1,1);
+	    return sprite;
+	}
+    });
+
+  MathJax.Hub.Register.StartupHook("End",function(){    
+	var xoffset = 0; yoffset = 0; zoffset = 0;
+	var SCREEN_WIDTH = 400, SCREEN_HEIGHT = 400;
+	var container, scene, camera, renderer, controls;
+	var keyboard = new THREEx.KeyboardState();
+	var clock = new THREE.Clock();
+	var meshFunction;
+	var usegments = 40, vsegments=10;
+	
+	var xMin = xMax = yMin = yMax = 0; // for autosizing window
+	
+	var graphGeometry;
+	
+      if(typeof window.orientation === 'undefined') {
+	  init();
+	  animate();
+      }
+
+	function init() 
+	{
+	    scene = new THREE.Scene();
+	    if ( Detector.webgl )
+		renderer = new THREE.WebGLRenderer( {alpha:true, antialias:true} );
+	    else
+		renderer = new THREE.CanvasRenderer(); 
+	    renderer.setSize(SCREEN_WIDTH, SCREEN_HEIGHT);
+	    container = document.getElementById( 'plane_view_2' );
+	    container.appendChild( renderer.domElement );
+	    var light = new THREE.PointLight(0xffffff,1,100);
+	    light.position.set(3,0,10);
+	    scene.add(light);
+	    var light_amb = new THREE.AmbientLight( 0xaaaaaa ); // soft white light
+	    scene.add( light_amb );
+	    
+	    // Background clear color
+	    // renderer.setClearColorHex( 0xffffff, 0 );
+	    
+	    plot_it_0();
+	    plot_axes();
+	    resetCamera();
+	}
+	
+	
+	function resetCamera()
+	{
+	    var VIEW_ANGLE = 13, ASPECT = SCREEN_WIDTH / SCREEN_HEIGHT, NEAR = 0.1, FAR = 20000;
+	    // Orthog camera
+	    //      var zoom = 3;
+	    //      camera = new THREE.OrthographicCamera( -zoom*ASPECT,zoom*ASPECT,zoom,-zoom, NEAR, FAR);
+	    //      camera.position.x = zoom*2;
+	    //      camera.position.y = zoom*1.5;
+	    //      camera.position.z = zoom*1.5;
+	    // Perspective camera
+	    camera = new THREE.PerspectiveCamera( VIEW_ANGLE, ASPECT, NEAR, FAR);
+	    scene.add(camera);
+	    camera.position.set(20,10,15);
+	    camera.lookAt(scene.position);  
+	    
+	    camera.up.set( 0, 0, 1 ); 
+	    scene.add(camera);
+	    
+	    controls = new THREE.TrackballControls( camera, renderer.domElement );
+	    controls.rotateSpeed = 1;
+	    THREEx.WindowResize(renderer, camera);
+	}
+	
+      function animate() 
+      {
+	  requestAnimationFrame( animate );
+	  if ($('#plane_view_2').visible(true) && active ) {
+	      render();
+	      update();
+	  }
+      }
+
+	function update()
+	{
+	    if ( keyboard.pressed("z") ) 
+	    { 
+		// do something
+	    }
+	    
+	    controls.update();
+	    //	stats.update();
+	}
+	
+	function render() 
+	{
+	    renderer.render( scene, camera );
+	}
+	
+	
+	function plot_it_0()
+	{
+	    var loader = new THREE.TextureLoader();
+	    var gridTexture = loader.load( 'images/square.png');
+	    gridTexture.wrapS = gridTexture.wrapT = THREE.RepeatWrapping;
+	    gridTexture.repeat.set( 20,6 );
+	    var gridMaterial = new THREE.MeshLambertMaterial( {map:gridTexture, vertexColors: THREE.VertexColors,side:THREE.DoubleSide } );
+	    var useg = 40; vseg = 6;
+	    function x(u,v) {
+		return 1-v*Math.cos(u)-v*Math.sin(u)+xoffset;
+	    }
+	    function y(u,v) {
+		return v*Math.cos(u)+yoffset;
+	    }
+	    function z(u,v) {
+		return v*Math.sin(u)+zoffset;
+	    }
+	    createGraph(x,y,z,0,2*Math.PI,0,1,useg,vseg,scene,gridMaterial,new THREE.Color( 0x6495ED ),false,false);
+	}
+	
+	function plot_axes()
+	{
+	    var spritex = makeTextSprite( "x", { fontsize: 55, borderColor: {r:0, g:0, b:255, a:1.0}, xoffset:-25, yoffset:25 } );
+	    spritex.position.set(1.5+xoffset,yoffset,0+zoffset);
+	    scene.add( spritex );
+	    var spritey = makeTextSprite( "y", { fontsize: 55, borderColor: {r:0, g:0, b:255, a:1.0},xoffset:0 } );
+	    spritey.position.set(xoffset,1.5+yoffset,zoffset);
+	    scene.add( spritey );
+	    var spritez = makeTextSprite( "z", { fontsize: 55, borderColor: {r:0, g:0, b:255, a:1.0}, yoffset:-10 } );
+	    spritez.position.set(xoffset,yoffset,3+zoffset);
+	    scene.add( spritez );
+	    
+	    var axes = buildAxes();
+	    scene.add(axes);
+	}
+
+	function createGraph(xFunc,yFunc,zFunc,uMin,uMax,vMin,vMax,useg,vseg,sc,material,clr,solid,box)
+	{
+	    var graphMesh;
+	    uRange = uMax - uMin;
+	    vRange = vMax - vMin;
+	    meshFunction = function(u0, v0) 
+	    {
+		var u = uRange * u0 + uMin;
+		var v = vRange * v0 + vMin;
+		var x = xFunc(u,v);
+		var y = yFunc(u,v);
+		var z = zFunc(u,v);
+		if ( isNaN(x) || isNaN(y) || isNaN(z) )
+		    return new THREE.Vector3(0,0,0); // TODO: better fix
+		else
+		    return new THREE.Vector3(x, y, z);
+	    };
+	    
+	    // true => sensible image tile repeat...
+	    graphGeometry = new THREE.ParametricGeometry( meshFunction, useg, vseg, true );
+	    ///////////////////////////////////////////////
+	    // calculate vertex colors based on Z values //
+	    ///////////////////////////////////////////////
+	    graphGeometry.computeBoundingBox();
+	    zMin = graphGeometry.boundingBox.min.z;
+	    zMax = graphGeometry.boundingBox.max.z;
+	    zRange = zMax - zMin;
+	    var defaultcolor = new THREE.Color( 0xff0000 );
+	    var color, point, face, numberOfSides, vertexIndex;
+	    // faces are indexed using characters
+	    var faceIndices = [ 'a', 'b', 'c', 'd' ];
+	    // first, assign colors to vertices as desired
+	    if (!solid) {
+		for ( var i = 0; i < graphGeometry.vertices.length; i++ ) 
+		{
+		    point = graphGeometry.vertices[ i ];
+		    color = new THREE.Color( 0x0000ff );
+		    //	  color.setHSL( 0.7 *(10-point.x)/10 , 1, 0.1+0.3*(10 - point.z) / 10 );
+		    color.setHSL( 0.2+0.8*(zMax - (point.z)/zRange), 0.6, 0.5 );
+		    graphGeometry.colors[i] = color; // use this array for convenience
+		}
+	    }
+	    // copy the colors as necessary to the face's vertexColors array.
+	    for ( var i = 0; i < graphGeometry.faces.length; i++ ) 
+	    {
+		face = graphGeometry.faces[ i ];
+		numberOfSides = ( face instanceof THREE.Face3 ) ? 3 : 4;
+		for( var j = 0; j < numberOfSides; j++ ) 
+		{
+		    if (solid) {
+			face.vertexColors[ j ] = clr;
+		    } else {
+			vertexIndex = face[ faceIndices[ j ] ];
+			face.vertexColors[ j ] = graphGeometry.colors[vertexIndex ];
+			//	      face.vertexColors[ j ] = clr;
+		    }
+		}
+	    }
+	    ///////////////////////
+	    // end vertex colors //
+	    ///////////////////////
+	    
+	    
+	    xMin = graphGeometry.boundingBox.min.x;
+	    xMax = graphGeometry.boundingBox.max.x;
+	    yMin = graphGeometry.boundingBox.min.y;
+	    yMax = graphGeometry.boundingBox.max.y;
+	    
+	    if (graphMesh) 
+	    {
+		sc.remove( graphMesh );
+		// renderer.deallocateObject( graphMesh );
+	    }
+	    
+	    graphMesh = new THREE.Mesh( graphGeometry,material );
+	    
+	    graphMesh.doubleSided = true;
+	    sc.add(graphMesh);
+	    if (box) {
+		var bbox = new THREE.BoundingBoxHelper( graphMesh, 0x000000 );
+		bbox.update();
+		scene.add( bbox );	
+	    }
+	}
+
+	function buildAxes() {
+	    var axes = new THREE.Object3D();
+	    
+	    axes.add( buildAxis( new THREE.Vector3( xoffset, yoffset, zoffset ), new THREE.Vector3( 1.5+xoffset, yoffset, zoffset ), 0x000000, false ) ); // +X
+//	    axes.add( buildAxis( new THREE.Vector3( xoffset, yoffset, zoffset ), new THREE.Vector3( -5+xoffset, yoffset, zoffset ), 0x000000, true) ); // -X
+	    axes.add( buildAxis( new THREE.Vector3( xoffset, yoffset, zoffset ), new THREE.Vector3( xoffset, 1.5+yoffset, zoffset ), 0x000000, false ) ); // +Y
+//	    axes.add( buildAxis( new THREE.Vector3( xoffset, yoffset, zoffset ), new THREE.Vector3( xoffset, -5+yoffset, zoffset ), 0x000000, true ) ); // -Y
+	    axes.add( buildAxis( new THREE.Vector3( xoffset, yoffset, zoffset ), new THREE.Vector3( xoffset, yoffset, 3+zoffset ), 0x000000, false ) ); // +Z
+//	    axes.add( buildAxis( new THREE.Vector3( xoffset, yoffset, zoffset ), new THREE.Vector3( xoffset, yoffset, -5+zoffset ), 0x000000, true ) ); // -Z
+	    return axes;
+	}	
+	
+	function buildAxis( src, dst, colorHex, dashed ) {
+	    var geom = new THREE.Geometry();
+	    var mat;
+	    
+	    if(dashed) {
+		mat = new THREE.LineDashedMaterial({ linewidth: 1, color: colorHex, dashSize: 0.05, gapSize: 0.05 });
+	    } else {
+		mat = new THREE.LineBasicMaterial({ linewidth: 1, color: colorHex });
+	    }
+	    
+	    geom.vertices.push( src.clone() );
+	    geom.vertices.push( dst.clone() );
+	    geom.computeLineDistances();
+	    
+	    var axis = new THREE.Line( geom, mat );
+	    
+	    return axis;
+	}
+
+	function makeTextSprite(message, opts) {
+	    var parameters = opts || {};
+	    var fontface = parameters.fontface || 'Helvetiker';
+	    var fontsize = parameters.fontsize || 70;
+	    var borderThickness = parameters.borderThickness || 1;
+	    var xoffset = parameters.xoffset || 0;
+	    var yoffset = parameters.yoffset || 0;
+	    var canvas = document.createElement('canvas');
+	    canvas.width = canvas.height = 200;
+	    var context = canvas.getContext('2d');
+	    context.font = fontsize + "px " + fontface;
+
+  // get size data (height depends only on font size)
+	    var metrics = context.measureText(message);
+	    var textWidth = metrics.width;
+	    
+  // text color
+	    context.fillStyle = 'rgba(0, 0, 0, 1.0)';
+	    context.fillText(message, canvas.width/2+xoffset, canvas.width/2+yoffset);
+//	    alert(canvas.width);
+  // canvas contents will be used for a texture
+	    var texture = new THREE.Texture(canvas)
+	    texture.minFilter = THREE.LinearFilter;
+	    texture.needsUpdate = true;
+	    //roundRect(context, borderThickness, borderThickness, textWidth + 2 * borderThickness, fontsize * 1.4 + 2* borderThickness, 6);
+	    var spriteMaterial = new THREE.SpriteMaterial({
+		map: texture
+//              useScreenCoordinates: false
+	    });
+	    var sprite = new THREE.Sprite(spriteMaterial);
+	    sprite.scale.set(1,1,1);
+	    return sprite;
+	}
+  });
+</script>  
+<div class='figcaption'><span class="figurenumber">Figure 16.6.4.</span> Two representations of the same plane.</div></div>
+<p>
+</p><p>
+Suppose we know that a plane contains a particular point
+$(x_0,y_0,z_0)$ and that two vectors ${\bf u}=\langle
+u_0,u_1,u_2\rangle$ and ${\bf v}=\langle
+v_0,v_1,v_2\rangle$ are parallel to the plane but not to each
+other. We know how to get an equation for the plane in the form
+$ax+by+cz=d$, by first computing ${\bf u}\times{\bf v}$. It's even
+easier to get a vector equation:
+$${\bf r}(u,v) = \langle x_0,y_0,z_0\rangle + u{\bf u} + v{\bf v}.$$
+The first vector gets to the point $(x_0,y_0,z_0)$ and then by varying
+$u$ and $v$, $u{\bf u} + v{\bf v}$ gets to every point in the plane.
+</p><p>
+Returning to $x+y+z=1$, the points $(1,0,0)$, $(0,1,0)$, and $(0,0,1)$
+are all on the plane. By subtracting coordinates we see that
+$\langle -1,0,1\rangle$ and $\langle -1,1,0\rangle$ are parallel to
+the plane, so a third vector form for this plane is
+$$\langle 1,0,0\rangle + u\langle -1,0,1\rangle + v\langle
+-1,1,0\rangle
+= \langle 1-u-v,v,u\rangle.$$
+This is clearly quite similar to the first form we found.
+</p><p>
+We have already seen (section <a href="section15.04.html#sec:surface area 3D">15.4</a>)
+how to find the area of a surface when it is
+defined in the form $f(x,y)$. Finding the area when the surface is
+given as a vector function is very similar. Looking at the plots of
+surfaces we have just seen, it is evident that the two sets of curves
+that fill out the surface divide it into a grid, and that the spaces
+in the grid are approximately parallelograms. As before this is the
+key: we can write down the area of a typical little parallelogram and
+add them all up with an integral.
+</p><p>
+Suppose we want to approximate the area of the surface ${\bf r}(u,v)$
+near ${\bf r}(u_0,v_0)$. The functions ${\bf r}(u,v_0)$ and ${\bf
+  r}(u_0,v)$ define two curves that intersect at ${\bf
+  r}(u_0,v_0)$. The derivatives of $\bf r$ give us vectors tangent to
+these two curves: ${\bf r}_u(u_0,v_0)$ and ${\bf r}_v(u_0,v_0)$, and
+then ${\bf r}_u(u_0,v_0)\,du$ and ${\bf r}_v(u_0,v_0)\,dv$
+are two small tangent vectors, whose lengths can be used as the
+lengths of the sides of an approximating parallelogram. Finally, the
+area of this parallelogram is $|{\bf r}_u\times{\bf r}_v|\,du\,dv$ and
+so the total surface area is
+$$\int_a^b\int_c^d |{\bf r}_u\times{\bf r}_v|\,du\,dv.$$
+</p><p>
+</p>
+<div class="example">
+<p>
+<span class="theoremlabel">Example 16.6.4 </span>We find the area of the surface $\langle v\cos u,v\sin
+u,u\rangle$ for $0\le u \le \pi$ and  $0\le v\le 1$; this is a portion
+of the helical surface in figure <a href="section16.06.html#fig:helical ramp">16.6.2</a>.
+We compute ${\bf r}_u = \langle -v\sin u,v\cos u,1\rangle$
+and ${\bf r}_v = \langle \cos u,\sin u,0\rangle$.
+The cross product of these two vectors is $\langle \sin u,-\cos
+u,v\rangle$ with length $\sqrt{1+v^2}$, and the surface area is
+$$\int_0^\pi\int_0^1 \sqrt{1+v^2}\,dv\,du={\pi\sqrt2\over2}+
+{\pi\ln(\sqrt2+1)\over 2}.$$
+
+</p>
+</div><!-- example -->
+<p>
+</p><p>
+</p>
+<a id="exercises"></a><h2 class="exercises">Exercises 16.6</h2>
+<p></p><p>
+You can use these Sage cells to graph surfaces. The first example
+is a tube around the Trefoil knot, the second is a cone.
+</p><p><div class='figure'><!-- Exercises in section 16.06 -->
+<script>
+$(function () {sagecell.makeSagecell({inputLocation: '#ParametricSurface', linked: false});});
+</script>
+<div id="ParametricSurface"><script type="text/code">
+# Trefoil knot tube
+t,u = var("t,u"); assume(t,u,'real')
+# First, define the Trefoil knot spacecurve.
+r=vector((sin(3*t),2*sin(2*t)+sin(t),cos(t)-2*cos(2*t)))
+# Next, compute the T, N, and B vectors.
+rp=diff(r,t)
+T=rp/rp.norm()
+Tp=diff(T,t)
+N=Tp/Tp.norm(2)
+B=T.cross_product(N)
+# Define the function to use for the radius of the circle.
+radius(t) = 1/2;
+# Define the vector function for the surface and plot it.
+tube=r+radius(t)*cos(u)*N+radius(t)*sin(u)*B
+parametric_plot3d (tube,(t,0,2*pi),(u,0,2*pi),plot_points=[100,30],aspect_ratio=[1,1,1])</script></div>
+<!--
+parametric_plot3d (tube,(t,0,2*pi),(u,0,2*pi),plot_points=[100,30],aspect_ratio=[1,1,1],viewer='threejs')</script></div>
+-->
+
+</div></p><p></p><p><div class='figure'><!-- Exercises in section 16.06 -->
+<script>
+    $(function () {sagecell.makeSagecell({inputLocation: '#ParametricSurface2', linked: false});});
+</script>
+<div id="ParametricSurface2"><script type="text/code">
+# The cone
+u,v = var("u,v"); assume(u,v,'real')
+# Define the surface as a vector function:
+r=vector((v*cos(u),v*sin(u),v))
+# Plot it.
+parametric_plot3d (r,(u,0,2*pi),(v,0,5),aspect_ratio=[1,1,1])
+</script></div>
+<!--
+parametric_plot3d(r,(u,0,2*pi),(v,0,5),aspect_ratio=[1,1,1],viewer='threejs')
+-->
+
+</div></p><p></p><p>
+</p>
+<p class="exercise"><b>Ex 16.6.1</b>
+Describe or sketch the surface with the given vector function.
+</p><ul><p>
+</p><p>
+  </p><p> a.  ${\bf r}(u,v) = \langle u+v,3-v,1+4u+5v\rangle$
+</p><p>
+  </p><p> b.  ${\bf r}(u,v) = \langle 2\sin u, 3\cos u, v\rangle$ 
+</p><p>
+  </p><p> c.  ${\bf r}(s,t) = \langle s,t,t^2-s^2\rangle$
+</p><p>
+  </p><p> d.  ${\bf r}(s,t) = \langle s\sin 2t, s^2, s\cos 2t\rangle$
+</p><p>
+</p></ul><p>
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 16.6.2</b>
+Find a vector function ${\bf r}(u,v)$ for the surface.
+</p><ul><p>
+</p><p> a.  The plane that passes through the point $(1,2,-3)$ and is parallel
+  to the vectors $\langle 1,1,-1\rangle$ and $\langle 1,-1,1\rangle$.
+</p><p>
+  </p><p> b.  The lower half of the ellipsoid $2x^2+4y^2+z^2=1$.
+</p><p>
+  </p><p> c.  The part of the sphere of radius 4 centered at the origin that lies
+  between the planes $z=-2$ and $z=2$.
+</p></ul><p>
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 16.6.3</b>
+Find the area of the portion of $x+2y+4z=10$ in the first
+octant.
+(<a knowl="" class="internal" value="$25\sqrt{21}/4$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 16.6.4</b>
+Find the area of the portion of $2x+4y+z=0$
+inside $x^2+y^2=1$.
+(<a knowl="" class="internal" value="$\pi\sqrt{21}$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 16.6.5</b>
+Find the area of $z=x^2+y^2$ that lies below $z=1$.
+(<a knowl="" class="internal" value="$\pi(5\sqrt5-1)/6$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 16.6.6</b>
+Find the area of $z=\sqrt{x^2+y^2}$ that lies below $z=2$.
+(<a knowl="" class="internal" value="$4\pi\sqrt2$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 16.6.7</b>
+Find the area of the portion of $x^2+y^2+z^2=a^2$ that lies
+in the first octant.
+(<a knowl="" class="internal" value="$\pi a^2/2$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 16.6.8</b>
+Find the area of the portion of $x^2+y^2+z^2=a^2$ that lies
+above $x^2+y^2\le b^2$, $b\le a$.
+(<a knowl="" class="internal" value="$2\pi a(a-\sqrt{a^2-b^2})$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 16.6.9</b>
+Find the area of $z=x^2-y^2$ that lies inside $x^2+y^2=a^2$.
+(<a knowl="" class="internal" value="$\pi((1+4a^2)^{3/2}-1)/6$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 16.6.10</b>
+Find the area of $z=xy$ that lies inside $x^2+y^2=a^2$.
+(<a knowl="" class="internal" value="$2\pi((1+a^2)^{3/2}-1)/3$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 16.6.11</b>
+Find the area of $x^2+y^2+z^2=a^2$ 
+that lies above the interior of the circle given in polar coordinates
+by $r=a\cos \theta$.
+(<a knowl="" class="internal" value="$\pi a^2-2a^2$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 16.6.12</b>
+Find the area of the cone $z=k\sqrt{x^2+y^2}$
+that lies above the interior of the circle given in polar coordinates
+by $r=a\cos \theta$.
+(<a knowl="" class="internal" value="$\pi a^2\sqrt{1+k^2}/4$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 16.6.13</b>
+Find the area of the plane $z=ax+by+c$ that lies over a
+region $D$ with area $A$.
+(<a knowl="" class="internal" value="$A\sqrt{1+a^2+b^2}$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 16.6.14</b>
+Find the area of the cone $z=k\sqrt{x^2+y^2}$ that lies over a
+region $D$ with area $A$.
+(<a knowl="" class="internal" value="$A\sqrt{k^2+1}$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 16.6.15</b>
+Find the area of the cylinder $x^2+z^2=a^2$ that lies inside
+the cylinder $x^2+y^2=a^2$.
+(<a knowl="" class="internal" value="$8a^2$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 16.6.16</b>
+The surface $f(x,y)$ can be represented with the vector
+function $\langle x,y,f(x,y)\rangle$. Set up the surface area integral using
+this vector function and compare to the integral of
+section <a href="section15.04.html#sec:surface area 3D">15.4</a>. 
+
+</p><p>
+
+
+</p><p>
+</div></div></body>
+</html>

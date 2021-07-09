@@ -1,0 +1,779 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+<meta http-equiv="Content-Language" Content="en">
+<title>8.1 Substitution</title>
+<!--
+<script type="text/javascript" src="js/deployJava.js"></script>
+<link rel="stylesheet" type="text/css" href="http://jsxgraph.uni-bayreuth.de/distrib/jsxgraph.css" />
+-->
+<!-- use Jsxgraph to create figures: http://jsxgraph.uni-bayreuth.de/wp/ -->
+<link rel="stylesheet" type="text/css" href="css/jsxgraph.css" />
+<script type="text/javascript" src="js/jsxgraphcore.js"></script>
+<script src="js/three.min.js"></script>
+<script src="js/Detector.js"></script>
+<script src="js/TrackballControls.js"></script>
+<script src="js/OrthographicTrackballControls.js"></script>
+<script src="js/THREEx.KeyboardState.js"></script>
+<script src="js/THREEx.FullScreen.js"></script>
+<script src="js/THREEx.WindowResize.js"></script>
+<script type='text/javascript' src='js/DAT.GUI.min.js'></script>
+<script>
+window.requestAnimFrame = (function(){
+    return  window.requestAnimationFrame       || 
+        window.webkitRequestAnimationFrame || 
+        window.mozRequestAnimationFrame    || 
+        window.oRequestAnimationFrame      || 
+        window.msRequestAnimationFrame     || 
+        function(/* function */ callback, /* DOMElement */
+            element){
+            window.setTimeout(callback, 1000 / 60);
+        };
+})();
+</script>
+<script src="js/ifvisible.min.js"></script>
+<script src="js/conrec.js"></script>
+<script>
+active = true;
+ifvisible.setIdleDuration(10);
+ifvisible.on("idle", function(){
+    active = false;
+//    console.log("idle");
+});
+
+ifvisible.on("wakeup", function(){
+    active = true;
+//    console.log("wakeup");
+});
+</script>
+<script src="js/parser.js"></script>
+<link href="css/whitman.css" rel="stylesheet" type="text/css" /><link href="css/calculus.css" rel="stylesheet" type="text/css" /><link href="css/knowlstyle.css" rel="stylesheet" type="text/css" />
+
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  extensions: ["tex2jax.js","TeX/AMSmath.js","TeX/AMSsymbols.js"],
+  jax: ["input/TeX","output/HTML-CSS"],
+  tex2jax: {
+    inlineMath: [['$','$'],["\\(","\\)"]],
+    processEscapes: true,
+  },
+TeX: {
+   Macros: {
+    val: "\\mathop{\\rm val}",
+    divides: "\\mid",
+    ndivides: "\\mathrel{\\not|}",
+    fix: "\\mathop{\\rm fix}",
+    id: "\\mathop{\\rm id}",
+    na: "\\mathop{\\rm na}",
+    d: "\\mathop{\\rm\\strut d}\\nolimits ",
+    legendre: ["\\left(\\frac{#1}{#2}\\right)",2],
+    normalbaselines: "",
+    notdiv: "\\nmid",
+    implies: "\\Rightarrow",
+    iff: "\\Leftrightarrow",
+    sevenpoint: "\\scriptsize",
+    ds: "\\displaystyle",
+    lcm: "\\operatorname{lcm}",
+    arccot: "\\operatorname{arccot}",
+    arcsec: "\\operatorname{arcsec}",
+    arccsc: "\\operatorname{arccsc}",
+    arccosh: "\\operatorname{arccosh}",
+    arcsinh: "\\operatorname{arcsinh}",
+    arcsech: "\\operatorname{arcsech}",
+    sech: "\\operatorname{sech}",
+    csch: "\\operatorname{csch}",
+    R: "{\\mathbb R}",
+    sb: "_",
+    sp: "^",
+    Q: "{\\mathbb Q}",
+    C: "{\\mathbb C}",
+    N: "{\\mathbb N}",
+    Z: "{\\mathbb Z}",
+    U: "{\\mathbb U}",
+    v: ["\\langle #1\\rangle",1],
+    dint: ["{\\mathchoice{\\mathop{\\int\\!\\!\\!\\int}_{#1}}{\\mathop{\\int\\!\\!\\!\\int}_{#1}}{\\mathop{\\int\\!\\!\\!\\int}}{\\mathop{\\int\\!\\!\\!\\int}}}",1],
+    tint: ["{\\mathchoice{\\mathop{\\int\\!\\!\\!\\int\\!\\!\\!\\int}_{#1\\;}}{\\mathop{\\int\\!\\!\\!\\int\\!\\!\\!\\int}_{#1}}{\\mathop{\\int\\!\\!\\!\\int\\!\\!\\!\\int}_{#1}}{\\mathop{\\int\\!\\!\\!\\int\\!\\!\\!\\int}_{#1}}}",1]
+   }
+},
+  "HTML-CSS": { scale: 100},
+  menuSettings: { zscale: "150%", zoom: "Double-Click" }
+});
+    JXG.Options.text.display = 'html';
+    JXG.Options.text.useMathJax = true;
+</script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/math
+jax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+<script>
+MathJax.Hub.Register.StartupHook("End",function () {
+  if(typeof window.orientation === 'undefined'){
+    var i,x;
+    x = document.getElementsByClassName("webgl_display");
+    for (i=0; i<x.length; i++) {
+      x[i].style.display = "block";
+    }
+    x = document.getElementsByClassName("no_webgl_display");
+    for (i=0; i<x.length; i++) {
+      x[i].style.display = "none";
+    }
+  }
+});
+</script>
+
+<script src="js/jquery-3.1.0.min.js"></script>
+<script src="https://sagecell.sagemath.org/static/embedded_sagecell.js"></script>
+<script src="js/jquery.visible.min.js"></script>
+<script type="text/javascript" src="js/knowl.js"></script>
+<style type="text/css">
+
+.sagecell .CodeMirror {
+  height: auto;
+}
+
+.sagecell .CodeMirror-scroll {
+  overflow-y: hidden;
+  overflow-x: auto;
+}
+
+.sagecell-practice .CodeMirror-scroll {
+}
+
+.sagecell button.sagecell_evalButton {
+    font-size: 50%;
+}
+
+.sagecell_sessionContainer {
+    margin-bottom:1em;
+}
+</style>
+<script>
+function toggle(a) {
+  var b = String(a);
+  b=b.replace("contents","button");
+  if (document.getElementById(a).style.display == "block") {
+    document.getElementById(a).style.display = "none";
+    document.getElementById(b).src = "expand_submenu.png";
+  } else {
+    document.getElementById(a).style.display = "block";
+    document.getElementById(b).src = "collapse_submenu.png";
+  }
+}
+function toggle_sidebar() {
+  if (document.getElementById('sidebar').style.display == "block") {
+    document.getElementById('sidebar').style.display = "none";
+    document.getElementById('menu_expand').style.display = "block";
+  } else {
+    document.getElementById('sidebar').style.display = "block";
+    document.getElementById('menu_expand').style.display = "none";
+  }
+}
+</script>
+
+</head>
+
+<body class="" onload="toggle('chapter_08_contents')">
+<div id="header">
+<div class="right">
+<div class="bread">
+  <a href=".">Home</a> &raquo; <a href="chapter08.html">Techniques of Integration</a> &raquo; <a href="section08.01.html">Substitution</a>
+</div>
+
+<FORM method=GET action=https://www.google.com/custom id="search">
+<INPUT TYPE=text name=q size=31 maxlength=255 value="" style="font-size:small">
+<INPUT type=submit name=sa VALUE="Search the book" style="font-size:small">
+<INPUT type=hidden name=cof VALUE="AH:center;AWFID:198dc2b883340b1f;">
+<input type=hidden name=domains value="www.whitman.edu">
+<input type=hidden name=sitesearch value="www.whitman.edu/mathematics/calculus_online/">
+</FORM>
+<div id="title"><span id="title-content">8.1 Substitution</span></div><a href="#exercises">[Jump to exercises]</a>
+</div>
+</div>
+<div id="menu_expand" style="display:none"><a href="javascript:toggle_sidebar()">Expand menu</a></div>
+<div id="sidebar" style="display:block">
+<h2 id="menu_collapse"><a href='javascript:toggle_sidebar()'>Collapse menu</a></h2>
+<h2 class="link"><img id="chapter_01_button" src="expand_submenu.png" onclick='toggle("chapter_01_contents")'><a href="chapter01.html">1 Analytic Geometry</a></h2>
+
+<ul class="list" id="chapter_01_contents">
+<li><a href="section01.01.html">1. Lines</a></li>
+<li><a href="section01.02.html">2. Distance Between Two Points; Circles</a></li>
+<li><a href="section01.03.html">3. Functions</a></li>
+<li><a href="section01.04.html">4. Shifts and Dilations</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_02_button" src="expand_submenu.png" onclick='toggle("chapter_02_contents")'><a href="chapter02.html">2 Instantaneous Rate of Change:  The Derivative</a></h2>
+
+<ul class="list" id="chapter_02_contents">
+<li><a href="section02.01.html">1. The slope of a function</a></li>
+<li><a href="section02.02.html">2. An example</a></li>
+<li><a href="section02.03.html">3. Limits</a></li>
+<li><a href="section02.04.html">4. The Derivative Function</a></li>
+<li><a href="section02.05.html">5. Adjectives For Functions</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_03_button" src="expand_submenu.png" onclick='toggle("chapter_03_contents")'><a href="chapter03.html">3 Rules for Finding Derivatives</a></h2>
+
+<ul class="list" id="chapter_03_contents">
+<li><a href="section03.01.html">1. The Power Rule</a></li>
+<li><a href="section03.02.html">2. Linearity of the Derivative</a></li>
+<li><a href="section03.03.html">3. The Product Rule</a></li>
+<li><a href="section03.04.html">4. The Quotient Rule</a></li>
+<li><a href="section03.05.html">5. The Chain Rule</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_04_button" src="expand_submenu.png" onclick='toggle("chapter_04_contents")'><a href="chapter04.html">4 Transcendental Functions</a></h2>
+
+<ul class="list" id="chapter_04_contents">
+<li><a href="section04.01.html">1. Trigonometric Functions</a></li>
+<li><a href="section04.02.html">2. The Derivative of $\sin x$</a></li>
+<li><a href="section04.03.html">3. A hard limit</a></li>
+<li><a href="section04.04.html">4. The Derivative of $\sin x$, continued</a></li>
+<li><a href="section04.05.html">5. Derivatives of the Trigonometric Functions</a></li>
+<li><a href="section04.06.html">6. Exponential and Logarithmic functions</a></li>
+<li><a href="section04.07.html">7. Derivatives of the exponential and  logarithmic functions</a></li>
+<li><a href="section04.08.html">8. Implicit Differentiation</a></li>
+<li><a href="section04.09.html">9. Inverse Trigonometric Functions</a></li>
+<li><a href="section04.10.html">10. Limits revisited</a></li>
+<li><a href="section04.11.html">11. Hyperbolic Functions</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_05_button" src="expand_submenu.png" onclick='toggle("chapter_05_contents")'><a href="chapter05.html">5 Curve Sketching</a></h2>
+
+<ul class="list" id="chapter_05_contents">
+<li><a href="section05.01.html">1. Maxima and Minima</a></li>
+<li><a href="section05.02.html">2. The first derivative test</a></li>
+<li><a href="section05.03.html">3. The second derivative test</a></li>
+<li><a href="section05.04.html">4. Concavity and inflection points</a></li>
+<li><a href="section05.05.html">5. Asymptotes and Other Things to Look For</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_06_button" src="expand_submenu.png" onclick='toggle("chapter_06_contents")'><a href="chapter06.html">6 Applications of the Derivative</a></h2>
+
+<ul class="list" id="chapter_06_contents">
+<li><a href="section06.01.html">1. Optimization</a></li>
+<li><a href="section06.02.html">2. Related Rates</a></li>
+<li><a href="section06.03.html">3. Newton's Method</a></li>
+<li><a href="section06.04.html">4. Linear Approximations</a></li>
+<li><a href="section06.05.html">5. The Mean Value Theorem</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_07_button" src="expand_submenu.png" onclick='toggle("chapter_07_contents")'><a href="chapter07.html">7 Integration</a></h2>
+
+<ul class="list" id="chapter_07_contents">
+<li><a href="section07.01.html">1. Two examples</a></li>
+<li><a href="section07.02.html">2. The Fundamental Theorem of Calculus</a></li>
+<li><a href="section07.03.html">3. Some Properties of Integrals</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_08_button" src="expand_submenu.png" onclick='toggle("chapter_08_contents")'><a href="chapter08.html">8 Techniques of Integration</a></h2>
+
+<ul class="list" id="chapter_08_contents">
+<li><a href="section08.01.html">1. Substitution</a></li>
+<li><a href="section08.02.html">2. Powers of sine and cosine</a></li>
+<li><a href="section08.03.html">3. Trigonometric Substitutions</a></li>
+<li><a href="section08.04.html">4. Integration by Parts</a></li>
+<li><a href="section08.05.html">5. Rational Functions</a></li>
+<li><a href="section08.06.html">6. Numerical Integration</a></li>
+<li><a href="section08.07.html">7. Additional exercises</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_09_button" src="expand_submenu.png" onclick='toggle("chapter_09_contents")'><a href="chapter09.html">9 Applications of Integration</a></h2>
+
+<ul class="list" id="chapter_09_contents">
+<li><a href="section09.01.html">1. Area between curves</a></li>
+<li><a href="section09.02.html">2. Distance, Velocity, Acceleration</a></li>
+<li><a href="section09.03.html">3. Volume</a></li>
+<li><a href="section09.04.html">4. Average value of a function</a></li>
+<li><a href="section09.05.html">5. Work</a></li>
+<li><a href="section09.06.html">6. Center of Mass</a></li>
+<li><a href="section09.07.html">7. Kinetic energy; improper integrals</a></li>
+<li><a href="section09.08.html">8. Probability</a></li>
+<li><a href="section09.09.html">9. Arc Length</a></li>
+<li><a href="section09.10.html">10. Surface Area</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_10_button" src="expand_submenu.png" onclick='toggle("chapter_10_contents")'><a href="chapter10.html">10 Polar Coordinates,  Parametric Equations</a></h2>
+
+<ul class="list" id="chapter_10_contents">
+<li><a href="section10.01.html">1. Polar Coordinates</a></li>
+<li><a href="section10.02.html">2. Slopes in polar coordinates</a></li>
+<li><a href="section10.03.html">3. Areas in polar coordinates</a></li>
+<li><a href="section10.04.html">4. Parametric Equations</a></li>
+<li><a href="section10.05.html">5. Calculus with Parametric Equations</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_11_button" src="expand_submenu.png" onclick='toggle("chapter_11_contents")'><a href="chapter11.html">11 Sequences and Series</a></h2>
+
+<ul class="list" id="chapter_11_contents">
+<li><a href="section11.01.html">1. Sequences</a></li>
+<li><a href="section11.02.html">2. Series</a></li>
+<li><a href="section11.03.html">3. The Integral Test</a></li>
+<li><a href="section11.04.html">4. Alternating Series</a></li>
+<li><a href="section11.05.html">5. Comparison Tests</a></li>
+<li><a href="section11.06.html">6. Absolute Convergence</a></li>
+<li><a href="section11.07.html">7. The Ratio and Root Tests</a></li>
+<li><a href="section11.08.html">8. Power Series</a></li>
+<li><a href="section11.09.html">9. Calculus with Power Series</a></li>
+<li><a href="section11.10.html">10. Taylor Series</a></li>
+<li><a href="section11.11.html">11. Taylor's Theorem</a></li>
+<li><a href="section11.12.html">12. Additional exercises</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_12_button" src="expand_submenu.png" onclick='toggle("chapter_12_contents")'><a href="chapter12.html">12 Three Dimensions</a></h2>
+
+<ul class="list" id="chapter_12_contents">
+<li><a href="section12.01.html">1. The Coordinate System</a></li>
+<li><a href="section12.02.html">2. Vectors</a></li>
+<li><a href="section12.03.html">3. The Dot Product</a></li>
+<li><a href="section12.04.html">4. The Cross Product</a></li>
+<li><a href="section12.05.html">5. Lines and Planes</a></li>
+<li><a href="section12.06.html">6. Other Coordinate Systems</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_13_button" src="expand_submenu.png" onclick='toggle("chapter_13_contents")'><a href="chapter13.html">13 Vector Functions</a></h2>
+
+<ul class="list" id="chapter_13_contents">
+<li><a href="section13.01.html">1. Space Curves</a></li>
+<li><a href="section13.02.html">2. Calculus with vector functions</a></li>
+<li><a href="section13.03.html">3. Arc length and curvature</a></li>
+<li><a href="section13.04.html">4. Motion along a curve</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_14_button" src="expand_submenu.png" onclick='toggle("chapter_14_contents")'><a href="chapter14.html">14 Partial Differentiation</a></h2>
+
+<ul class="list" id="chapter_14_contents">
+<li><a href="section14.01.html">1. Functions of Several Variables</a></li>
+<li><a href="section14.02.html">2. Limits and Continuity</a></li>
+<li><a href="section14.03.html">3. Partial Differentiation</a></li>
+<li><a href="section14.04.html">4. The Chain Rule</a></li>
+<li><a href="section14.05.html">5. Directional Derivatives</a></li>
+<li><a href="section14.06.html">6. Higher order derivatives</a></li>
+<li><a href="section14.07.html">7. Maxima and minima</a></li>
+<li><a href="section14.08.html">8. Lagrange Multipliers</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_15_button" src="expand_submenu.png" onclick='toggle("chapter_15_contents")'><a href="chapter15.html">15 Multiple Integration</a></h2>
+
+<ul class="list" id="chapter_15_contents">
+<li><a href="section15.01.html">1. Volume and Average Height</a></li>
+<li><a href="section15.02.html">2. Double Integrals in Cylindrical Coordinates</a></li>
+<li><a href="section15.03.html">3. Moment and Center of Mass</a></li>
+<li><a href="section15.04.html">4. Surface Area</a></li>
+<li><a href="section15.05.html">5. Triple Integrals</a></li>
+<li><a href="section15.06.html">6. Cylindrical and Spherical Coordinates</a></li>
+<li><a href="section15.07.html">7. Change of Variables</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_16_button" src="expand_submenu.png" onclick='toggle("chapter_16_contents")'><a href="chapter16.html">16 Vector Calculus</a></h2>
+
+<ul class="list" id="chapter_16_contents">
+<li><a href="section16.01.html">1. Vector Fields</a></li>
+<li><a href="section16.02.html">2. Line Integrals</a></li>
+<li><a href="section16.03.html">3. The Fundamental Theorem of Line Integrals</a></li>
+<li><a href="section16.04.html">4. Green's Theorem</a></li>
+<li><a href="section16.05.html">5. Divergence and Curl</a></li>
+<li><a href="section16.06.html">6. Vector Functions for Surfaces</a></li>
+<li><a href="section16.07.html">7. Surface Integrals</a></li>
+<li><a href="section16.08.html">8. Stokes's Theorem</a></li>
+<li><a href="section16.09.html">9. The Divergence Theorem</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_17_button" src="expand_submenu.png" onclick='toggle("chapter_17_contents")'><a href="chapter17.html">17 Differential Equations</a></h2>
+
+<ul class="list" id="chapter_17_contents">
+<li><a href="section17.01.html">1. First Order Differential Equations</a></li>
+<li><a href="section17.02.html">2. First Order Homogeneous Linear Equations</a></li>
+<li><a href="section17.03.html">3. First Order Linear Equations</a></li>
+<li><a href="section17.04.html">4. Approximation</a></li>
+<li><a href="section17.05.html">5. Second Order Homogeneous Equations</a></li>
+<li><a href="section17.06.html">6. Second Order Linear Equations</a></li>
+<li><a href="section17.07.html">7. Second Order Linear Equations, take two</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_18_button" src="expand_submenu.png" onclick='toggle("chapter_18_contents")'><a href="chapter18.html">18 Useful formulas</a></h2>
+
+<ul class="list" id="chapter_18_contents">
+</ul>
+
+</div>
+
+<div id="main">
+
+<div id="next"><a href="chapter08.html"><img src=previous_section.png width="30"></a>&nbsp;&nbsp;<a href="section08.02.html"><img src=next_section.png width="30"></a></div>
+
+<div id="content">
+<p>
+
+
+</p><p>
+
+</p><p>
+Needless to say, most problems we encounter will not be so
+simple. Here's a slightly more complicated example: find
+$$\int 2x\cos(x^2)\,dx.$$
+This is not a "simple'' derivative, but a little thought reveals that
+it must have come from an application of the chain rule. Multiplied
+on the "outside'' is $2x$, which is the derivative of the "inside''
+function $\ds x^2$. Checking:
+$${d\over dx}\sin(x^2)  = \cos(x^2){d\over dx}x^2 = 2x\cos(x^2),$$
+so 
+$$\int 2x\cos(x^2)\,dx=\sin(x^2)+C .$$
+</p><p>
+Even when the chain rule has "produced'' a certain derivative, it is
+not always easy to see. Consider this problem:
+$$\int x^3\sqrt{1-x^2}\,dx.$$
+There are two factors in this expression, $\ds x^3$ and $\ds \sqrt{1-x^2}$,
+but it is not apparent that the chain rule is involved. Some clever
+rearrangement reveals that it is:
+$$
+  \int x^3\sqrt{1-x^2}\,dx=
+  \int(-2x)\left(-{1\over2}\right)(1-(1-x^2))\sqrt{1-x^2}\,dx.
+$$ 
+This looks messy, but we do now have something that looks like the
+result of the chain rule: the function $\ds 1-x^2$ has been substituted
+into $\ds -(1/2)(1-x)\sqrt{x}$, and the derivative of $\ds 1-x^2$, $-2x$,
+multiplied on the outside. If we can find a function $F(x)$ whose derivative
+is $\ds -(1/2)(1-x)\sqrt{x}$ we'll be done, since then
+$$\eqalign{
+  {d\over dx}F(1-x^2) = -2xF'(1-x^2) &= 
+  (-2x)\left(-{1\over2}\right)(1-(1-x^2))\sqrt{1-x^2}\cr
+  &=x^3\sqrt{1-x^2}\cr
+}$$
+But this isn't hard:
+<a id="eq:auxiliary integral"></a>
+$$\eqalignno{
+  \int-{1\over2}(1-x)\sqrt{x}\,dx&=\int -{1\over2}(x^{1/2}-x^{3/2})\,dx&
+  (8.1.1)\cr
+  &=-{1\over2}\left({2\over3}x^{3/2}-{2\over 5}x^{5/2}\right)+C\cr
+  &=\left({1\over5}x-{1\over3}\right)x^{3/2}+C.\cr
+  }$$
+So finally we have
+$$
+  \int x^3\sqrt{1-x^2}\,dx=\left({1\over5}(1-x^2)-{1\over3}\right)
+  (1-x^2)^{3/2}+C.
+$$
+</p><p>
+So we succeeded, but it required a clever first step, rewriting the
+original function so that it looked like the result of using the chain
+rule. Fortunately, there is a technique that makes such problems
+simpler, without requiring cleverness to rewrite a function in just
+the right way. It does sometimes not work, or may require more than one
+attempt, but the idea is simple: guess at the most likely candidate for
+the "inside function'', then do some algebra to see what this
+requires the rest of the function to look like.
+</p><p>
+One frequently good guess is any complicated expression inside a
+square root, so we start by trying $\ds u=1-x^2$, using a new variable,
+$u$, for convenience in the manipulations that follow. Now we know
+that the chain rule will multiply by the derivative of this inner
+function:
+$${du\over dx} = -2x,$$
+so we need to rewrite the original function to include this:
+$$
+  \int x^3\sqrt{1-x^2}=\int x^3\sqrt{u}{-2x\over-2x}\,dx=
+  \int {x^2\over-2}\sqrt{u}\,{du\over dx}\,dx.
+$$ 
+Recall that one benefit of the Leibniz notation is that it often turns out
+that what looks like ordinary arithmetic gives the correct answer,
+even if something more complicated is going on. For example, in
+Leibniz notation the chain rule is
+$${dy\over dx}={dy\over dt}{dt\over dx}.$$
+The same is true of our current expression:
+$$
+  \int {x^2\over-2}\sqrt{u}\,{du\over dx}\,dx=
+  \int {x^2\over-2}\sqrt{u}\,du.
+$$
+Now we're almost there: since $\ds u=1-x^2$, $\ds x^2=1-u$ and the integral is
+$$\int -{1\over2}(1-u)\sqrt{u}\,du.$$
+It's no coincidence that this is exactly the integral we computed in
+(<a href="section08.01.html#eq:auxiliary integral">8.1.1</a>), 
+we have simply renamed the variable $u$ to make the
+calculations less confusing. Just as before:
+$$
+  \int-{1\over2}(1-u)\sqrt{u}\,du=
+  \left({1\over5}u-{1\over3}\right)u^{3/2}+C.
+$$
+Then since $\ds u=1-x^2$:
+$$
+  \int x^3\sqrt{1-x^2}\,dx=\left({1\over5}(1-x^2)-{1\over3}\right)
+  (1-x^2)^{3/2}+C.
+$$
+To summarize: if we suspect that a given function is the derivative of
+another via the chain rule, we let $u$ denote a likely candidate for
+the inner function, then translate the given function so that it is
+written entirely in terms of $u$, with no $x$ remaining in the
+expression. If we can integrate this new function of $u$, then the
+antiderivative of the original function is obtained by replacing $u$
+by the equivalent expression in $x$.
+</p><p>
+Even in simple cases you may prefer to use this mechanical procedure,
+since it often helps to avoid silly mistakes. For example, consider
+again this simple problem:
+$$\int 2x\cos(x^2)\,dx.$$
+Let $\ds u=x^2$, then $du/dx = 2x$ or $du = 2x\,dx$. Since we have exactly 
+$2x\,dx$ in the original integral, we can replace it by $du$:
+$$\int 2x\cos(x^2)\,dx=\int \cos u\,du=\sin u +C = \sin(x^2)+C.$$
+This is not the only way to do the algebra, and typically there are
+many paths to the correct answer. Another possibility, for example,
+is: Since $du/dx = 2x$, $dx=du/2x$, and then the integral becomes
+$$\int 2x\cos(x^2)\,dx=\int 2x\cos u\,{du\over 2x}=\int \cos u\,du.$$
+The important thing to remember is that you must eliminate all
+instances of the original variable $x$.
+</p><p>
+</p>
+<div class="example">
+<p>
+<span class="theoremlabel">Example 8.1.1 </span>
+Evaluate $\ds\int(ax+b)^n\,dx$, assuming that $a$ and $b$ are
+constants, $a\not=0$, and $n$ is a positive integer.
+We let $u=ax+b$ so $du=a\,dx$ or $dx=du/a$. Then
+$$
+  \int(ax+b)^n\,dx=\int {1\over a} u^n\,du={1\over a(n+1)}u^{n+1}+C=
+  {1\over a(n+1)}(ax+b)^{n+1}+C.
+$$
+
+</p>
+</div><!-- example -->
+<p>
+</p><p>
+</p>
+<div class="example">
+<p>
+<span class="theoremlabel">Example 8.1.2 </span>
+Evaluate $\ds\int \sin(ax+b)\,dx$, assuming that $a$ and $b$ are
+constants and $a\not=0$.
+Again we let $u=ax+b$ so $du=a\,dx$ or $dx=du/a$. Then
+$$
+  \int\sin(ax+b)\,dx=\int {1\over a} \sin u\,du={1\over a}(-\cos u)+C=
+-{1\over a}\cos(ax+b)+C.
+$$
+
+</p>
+</div><!-- example -->
+<p>
+</p><p>
+</p>
+<div class="example">
+<p>
+<span class="theoremlabel">Example 8.1.3 </span>
+Evaluate $\ds\int_2^4 x\sin(x^2)\,dx$. First we compute the
+antiderivative, then evaluate the definite integral.
+Let $\ds u=x^2$ so $du=2x\,dx$ or $x\,dx=du/2$. Then
+$$
+  \int x\sin(x^2)\,dx=\int {1\over 2} \sin u\,du={1\over 2}(-\cos u)+C=
+  -{1\over 2}\cos(x^2)+C.
+$$
+Now
+$$
+  \int_2^4 x\sin(x^2)\,dx=\left.-{1\over 2}\cos(x^2)\right|_2^4
+  =-{1\over 2}\cos(16)+{1\over 2}\cos(4).
+$$
+A somewhat neater alternative to this method is to change the original
+limits to match the variable $u$. Since $\ds u=x^2$, when $x=2$, $u=4$,
+and when $x=4$, $u=16$. So we can do this:
+$$
+  \int_2^4 x\sin(x^2)\,dx=
+  \int_4^{16} {1\over 2} \sin u\,du=\left.-{1\over 2}(\cos u)\right|_4^{16}
+  =-{1\over 2}\cos(16)+{1\over 2}\cos(4).
+$$
+An incorrect, and dangerous, alternative is something like this:
+$$
+  \int_2^4 x\sin(x^2)\,dx=\int_2^4 {1\over 2} \sin u\,du=
+  \left.-{1\over 2}\cos (u)\right|_2^4=
+  \left.-{1\over 2}\cos(x^2)\right|_2^4=-{1\over 2}\cos(16)+{1\over
+  2}\cos(4).
+$$
+This is incorrect because $\ds\int_2^4 {1\over 2} \sin u\,du$
+means that $u$ takes on values between 2 and 4, which is wrong. It
+is dangerous, because it is very easy to get to 
+the point $\ds\left.-{1\over 2}\cos (u)\right|_2^4$ and forget to substitute
+$\ds x^2$ back in for $u$, thus getting the incorrect answer
+$\ds -{1\over 2}\cos(4)+{1\over 2}\cos(2)$. A somewhat clumsy, but
+acceptable, alternative is something like this:
+$$
+  \int_2^4 x\sin(x^2)\,dx=\int_{x=2}^{x=4} {1\over 2} \sin u\,du=
+  \left.-{1\over 2}\cos (u)\right|_{x=2}^{x=4}=
+  \left.-{1\over 2}\cos(x^2)\right|_2^4=-{\cos(16)\over 2}+{\cos(4)\over2}.
+$$
+
+</p>
+</div><!-- example -->
+<p>
+</p><p>
+</p>
+<div class="example">
+<p>
+<span class="theoremlabel">Example 8.1.4 </span>
+Evaluate $\ds\int_{1/4}^{1/2}{\cos(\pi t)\over\sin^2(\pi t)}\,dt$.
+Let $u=\sin(\pi t)$ so $du=\pi\cos(\pi t)\,dt$ or $du/\pi=\cos(\pi
+t)\,dt$. We change the limits to $\ds \sin(\pi/4)=\sqrt2/2$ and 
+$\sin(\pi/2)=1$.
+Then
+$$
+  \int_{1/4}^{1/2}{\cos(\pi t)\over\sin^2(\pi t)}\,dt=
+  \int_{\sqrt2/2}^{1}{1\over \pi}{1\over u^2}\,du=
+  \int_{\sqrt2/2}^{1} {1\over \pi}u^{-2}\,du=
+  \left.{1\over \pi}{u^{-1}\over -1}\right|_{\sqrt2/2}^{1}=
+  -{1\over\pi}+{\sqrt2\over\pi}.
+$$
+
+</p>
+</div><!-- example -->
+<p>
+</p><p>
+</p>
+<a id="exercises"></a><h2 class="exercises">Exercises 8.1</h2>
+<p></p><p>
+Find the antiderivatives or evaluate the definite integral in each
+problem. 
+</p><p>
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 8.1.1</b>
+$\ds\int (1-t)^9\,dt$
+(<a knowl="" class="internal" value="$\ds -(1-t)^{10}/10+C$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 8.1.2</b>
+$\ds\int (x^2+1)^2\,dx$
+(<a knowl="" class="internal" value="$\ds x^5/5+2x^3/3+x+C$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 8.1.3</b>
+$\ds\int x(x^2+1)^{100}\,dx$
+(<a knowl="" class="internal" value="$\ds (x^2+1)^{101}/202+C$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 8.1.4</b>
+$\ds\int {1\over\root 3 \of {1-5t}}\,dt$ 
+(<a knowl="" class="internal" value="$\ds -3(1-5t)^{2/3}/10+C$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 8.1.5</b>
+$\ds\int \sin^3x\cos x\,dx$
+(<a knowl="" class="internal" value="$\ds (\sin^4x)/4+C$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 8.1.6</b>
+$\ds\int x\sqrt{100-x^2}\,dx$
+(<a knowl="" class="internal" value="$\ds -(100-x^2)^{3/2}/3+C$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 8.1.7</b>
+$\ds\int {x^2\over\sqrt{1-x^3}}\,dx$
+(<a knowl="" class="internal" value="$\ds \ds -2\sqrt{1-x^3}/3+C$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 8.1.8</b>
+$\ds\int \cos(\pi t)\cos\bigl(\sin(\pi t)\bigr)\,dt$
+(<a knowl="" class="internal" value="$\ds \sin(\sin\pi t)/\pi+C$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 8.1.9</b>
+$\ds\int {\sin x\over\cos^3 x}\,dx$
+(<a knowl="" class="internal" value="$\ds \ds 1/(2\cos^2 x)=(1/2)\sec^2x+C$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 8.1.10</b>
+$\ds\int\tan x\,dx$
+(<a knowl="" class="internal" value="$-\ln|\cos x|+C$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 8.1.11</b>
+$\ds\int_0^\pi\sin^5(3x)\cos(3x)\,dx$
+(<a knowl="" class="internal" value="$0$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 8.1.12</b>
+$\ds\int\sec^2x\tan x\,dx$
+(<a knowl="" class="internal" value="$\ds \tan^2(x)/2+C$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 8.1.13</b>
+$\ds\int_0^{\sqrt{\pi}/2} x\sec^2(x^2)\tan(x^2)\,dx$
+(<a knowl="" class="internal" value="$1/4$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 8.1.14</b>
+$\ds\int {\sin(\tan x)\over\cos^2x}\,dx$
+(<a knowl="" class="internal" value="$-\cos(\tan x)+C$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 8.1.15</b>
+$\ds\int_3^4 {1\over(3x-7)^2}\,dx$
+(<a knowl="" class="internal" value="$1/10$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 8.1.16</b>
+$\ds\int_0^{\pi/6}(\cos^2x - \sin^2x)\,dx$
+(<a knowl="" class="internal" value="$\ds \sqrt3/4$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 8.1.17</b>
+$\ds\int {6x\over(x^2 - 7)^{1/9}}\,dx$
+(<a knowl="" class="internal" value="$\ds (27/8)(x^2-7)^{8/9}+C$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 8.1.18</b>
+$\ds\int_{-1}^1 (2x^3-1)(x^4-2x)^6\,dx$
+(<a knowl="" class="internal" value="$\ds -(3^7+1)/14$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 8.1.19</b>
+$\ds\int_{-1}^1 \sin^7 x\,dx$
+(<a knowl="" class="internal" value="$0$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 8.1.20</b>
+$\ds\int f(x) f'(x)\,dx$ 
+(<a knowl="" class="internal" value="$\ds f(x)^2/2$">answer</a>)
+
+</p><p>
+
+
+</p><p>
+
+
+</div></div></body>
+</html>

@@ -1,0 +1,795 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+<meta http-equiv="Content-Language" Content="en">
+<title>4.1 Trigonometric Functions</title>
+<!--
+<script type="text/javascript" src="js/deployJava.js"></script>
+<link rel="stylesheet" type="text/css" href="http://jsxgraph.uni-bayreuth.de/distrib/jsxgraph.css" />
+-->
+<!-- use Jsxgraph to create figures: http://jsxgraph.uni-bayreuth.de/wp/ -->
+<link rel="stylesheet" type="text/css" href="css/jsxgraph.css" />
+<script type="text/javascript" src="js/jsxgraphcore.js"></script>
+<script src="js/three.min.js"></script>
+<script src="js/Detector.js"></script>
+<script src="js/TrackballControls.js"></script>
+<script src="js/OrthographicTrackballControls.js"></script>
+<script src="js/THREEx.KeyboardState.js"></script>
+<script src="js/THREEx.FullScreen.js"></script>
+<script src="js/THREEx.WindowResize.js"></script>
+<script type='text/javascript' src='js/DAT.GUI.min.js'></script>
+<script>
+window.requestAnimFrame = (function(){
+    return  window.requestAnimationFrame       || 
+        window.webkitRequestAnimationFrame || 
+        window.mozRequestAnimationFrame    || 
+        window.oRequestAnimationFrame      || 
+        window.msRequestAnimationFrame     || 
+        function(/* function */ callback, /* DOMElement */
+            element){
+            window.setTimeout(callback, 1000 / 60);
+        };
+})();
+</script>
+<script src="js/ifvisible.min.js"></script>
+<script src="js/conrec.js"></script>
+<script>
+active = true;
+ifvisible.setIdleDuration(10);
+ifvisible.on("idle", function(){
+    active = false;
+//    console.log("idle");
+});
+
+ifvisible.on("wakeup", function(){
+    active = true;
+//    console.log("wakeup");
+});
+</script>
+<script src="js/parser.js"></script>
+<link href="css/whitman.css" rel="stylesheet" type="text/css" /><link href="css/calculus.css" rel="stylesheet" type="text/css" /><link href="css/knowlstyle.css" rel="stylesheet" type="text/css" />
+
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  extensions: ["tex2jax.js","TeX/AMSmath.js","TeX/AMSsymbols.js"],
+  jax: ["input/TeX","output/HTML-CSS"],
+  tex2jax: {
+    inlineMath: [['$','$'],["\\(","\\)"]],
+    processEscapes: true,
+  },
+TeX: {
+   Macros: {
+    val: "\\mathop{\\rm val}",
+    divides: "\\mid",
+    ndivides: "\\mathrel{\\not|}",
+    fix: "\\mathop{\\rm fix}",
+    id: "\\mathop{\\rm id}",
+    na: "\\mathop{\\rm na}",
+    d: "\\mathop{\\rm\\strut d}\\nolimits ",
+    legendre: ["\\left(\\frac{#1}{#2}\\right)",2],
+    normalbaselines: "",
+    notdiv: "\\nmid",
+    implies: "\\Rightarrow",
+    iff: "\\Leftrightarrow",
+    sevenpoint: "\\scriptsize",
+    ds: "\\displaystyle",
+    lcm: "\\operatorname{lcm}",
+    arccot: "\\operatorname{arccot}",
+    arcsec: "\\operatorname{arcsec}",
+    arccsc: "\\operatorname{arccsc}",
+    arccosh: "\\operatorname{arccosh}",
+    arcsinh: "\\operatorname{arcsinh}",
+    arcsech: "\\operatorname{arcsech}",
+    sech: "\\operatorname{sech}",
+    csch: "\\operatorname{csch}",
+    R: "{\\mathbb R}",
+    sb: "_",
+    sp: "^",
+    Q: "{\\mathbb Q}",
+    C: "{\\mathbb C}",
+    N: "{\\mathbb N}",
+    Z: "{\\mathbb Z}",
+    U: "{\\mathbb U}",
+    v: ["\\langle #1\\rangle",1],
+    dint: ["{\\mathchoice{\\mathop{\\int\\!\\!\\!\\int}_{#1}}{\\mathop{\\int\\!\\!\\!\\int}_{#1}}{\\mathop{\\int\\!\\!\\!\\int}}{\\mathop{\\int\\!\\!\\!\\int}}}",1],
+    tint: ["{\\mathchoice{\\mathop{\\int\\!\\!\\!\\int\\!\\!\\!\\int}_{#1\\;}}{\\mathop{\\int\\!\\!\\!\\int\\!\\!\\!\\int}_{#1}}{\\mathop{\\int\\!\\!\\!\\int\\!\\!\\!\\int}_{#1}}{\\mathop{\\int\\!\\!\\!\\int\\!\\!\\!\\int}_{#1}}}",1]
+   }
+},
+  "HTML-CSS": { scale: 100},
+  menuSettings: { zscale: "150%", zoom: "Double-Click" }
+});
+    JXG.Options.text.display = 'html';
+    JXG.Options.text.useMathJax = true;
+</script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/math
+jax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+<script>
+MathJax.Hub.Register.StartupHook("End",function () {
+  if(typeof window.orientation === 'undefined'){
+    var i,x;
+    x = document.getElementsByClassName("webgl_display");
+    for (i=0; i<x.length; i++) {
+      x[i].style.display = "block";
+    }
+    x = document.getElementsByClassName("no_webgl_display");
+    for (i=0; i<x.length; i++) {
+      x[i].style.display = "none";
+    }
+  }
+});
+</script>
+
+<script src="js/jquery-3.1.0.min.js"></script>
+<script src="https://sagecell.sagemath.org/static/embedded_sagecell.js"></script>
+<script src="js/jquery.visible.min.js"></script>
+<script type="text/javascript" src="js/knowl.js"></script>
+<style type="text/css">
+
+.sagecell .CodeMirror {
+  height: auto;
+}
+
+.sagecell .CodeMirror-scroll {
+  overflow-y: hidden;
+  overflow-x: auto;
+}
+
+.sagecell-practice .CodeMirror-scroll {
+}
+
+.sagecell button.sagecell_evalButton {
+    font-size: 50%;
+}
+
+.sagecell_sessionContainer {
+    margin-bottom:1em;
+}
+</style>
+<script>
+function toggle(a) {
+  var b = String(a);
+  b=b.replace("contents","button");
+  if (document.getElementById(a).style.display == "block") {
+    document.getElementById(a).style.display = "none";
+    document.getElementById(b).src = "expand_submenu.png";
+  } else {
+    document.getElementById(a).style.display = "block";
+    document.getElementById(b).src = "collapse_submenu.png";
+  }
+}
+function toggle_sidebar() {
+  if (document.getElementById('sidebar').style.display == "block") {
+    document.getElementById('sidebar').style.display = "none";
+    document.getElementById('menu_expand').style.display = "block";
+  } else {
+    document.getElementById('sidebar').style.display = "block";
+    document.getElementById('menu_expand').style.display = "none";
+  }
+}
+</script>
+
+</head>
+
+<body class="" onload="toggle('chapter_04_contents')">
+<div id="header">
+<div class="right">
+<div class="bread">
+  <a href=".">Home</a> &raquo; <a href="chapter04.html">Transcendental Functions</a> &raquo; <a href="section04.01.html">Trigonometric Functions</a>
+</div>
+
+<FORM method=GET action=https://www.google.com/custom id="search">
+<INPUT TYPE=text name=q size=31 maxlength=255 value="" style="font-size:small">
+<INPUT type=submit name=sa VALUE="Search the book" style="font-size:small">
+<INPUT type=hidden name=cof VALUE="AH:center;AWFID:198dc2b883340b1f;">
+<input type=hidden name=domains value="www.whitman.edu">
+<input type=hidden name=sitesearch value="www.whitman.edu/mathematics/calculus_online/">
+</FORM>
+<div id="title"><span id="title-content">4.1 Trigonometric Functions</span></div><a href="#exercises">[Jump to exercises]</a>
+</div>
+</div>
+<div id="menu_expand" style="display:none"><a href="javascript:toggle_sidebar()">Expand menu</a></div>
+<div id="sidebar" style="display:block">
+<h2 id="menu_collapse"><a href='javascript:toggle_sidebar()'>Collapse menu</a></h2>
+<h2 class="link"><img id="chapter_01_button" src="expand_submenu.png" onclick='toggle("chapter_01_contents")'><a href="chapter01.html">1 Analytic Geometry</a></h2>
+
+<ul class="list" id="chapter_01_contents">
+<li><a href="section01.01.html">1. Lines</a></li>
+<li><a href="section01.02.html">2. Distance Between Two Points; Circles</a></li>
+<li><a href="section01.03.html">3. Functions</a></li>
+<li><a href="section01.04.html">4. Shifts and Dilations</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_02_button" src="expand_submenu.png" onclick='toggle("chapter_02_contents")'><a href="chapter02.html">2 Instantaneous Rate of Change:  The Derivative</a></h2>
+
+<ul class="list" id="chapter_02_contents">
+<li><a href="section02.01.html">1. The slope of a function</a></li>
+<li><a href="section02.02.html">2. An example</a></li>
+<li><a href="section02.03.html">3. Limits</a></li>
+<li><a href="section02.04.html">4. The Derivative Function</a></li>
+<li><a href="section02.05.html">5. Adjectives For Functions</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_03_button" src="expand_submenu.png" onclick='toggle("chapter_03_contents")'><a href="chapter03.html">3 Rules for Finding Derivatives</a></h2>
+
+<ul class="list" id="chapter_03_contents">
+<li><a href="section03.01.html">1. The Power Rule</a></li>
+<li><a href="section03.02.html">2. Linearity of the Derivative</a></li>
+<li><a href="section03.03.html">3. The Product Rule</a></li>
+<li><a href="section03.04.html">4. The Quotient Rule</a></li>
+<li><a href="section03.05.html">5. The Chain Rule</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_04_button" src="expand_submenu.png" onclick='toggle("chapter_04_contents")'><a href="chapter04.html">4 Transcendental Functions</a></h2>
+
+<ul class="list" id="chapter_04_contents">
+<li><a href="section04.01.html">1. Trigonometric Functions</a></li>
+<li><a href="section04.02.html">2. The Derivative of $\sin x$</a></li>
+<li><a href="section04.03.html">3. A hard limit</a></li>
+<li><a href="section04.04.html">4. The Derivative of $\sin x$, continued</a></li>
+<li><a href="section04.05.html">5. Derivatives of the Trigonometric Functions</a></li>
+<li><a href="section04.06.html">6. Exponential and Logarithmic functions</a></li>
+<li><a href="section04.07.html">7. Derivatives of the exponential and  logarithmic functions</a></li>
+<li><a href="section04.08.html">8. Implicit Differentiation</a></li>
+<li><a href="section04.09.html">9. Inverse Trigonometric Functions</a></li>
+<li><a href="section04.10.html">10. Limits revisited</a></li>
+<li><a href="section04.11.html">11. Hyperbolic Functions</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_05_button" src="expand_submenu.png" onclick='toggle("chapter_05_contents")'><a href="chapter05.html">5 Curve Sketching</a></h2>
+
+<ul class="list" id="chapter_05_contents">
+<li><a href="section05.01.html">1. Maxima and Minima</a></li>
+<li><a href="section05.02.html">2. The first derivative test</a></li>
+<li><a href="section05.03.html">3. The second derivative test</a></li>
+<li><a href="section05.04.html">4. Concavity and inflection points</a></li>
+<li><a href="section05.05.html">5. Asymptotes and Other Things to Look For</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_06_button" src="expand_submenu.png" onclick='toggle("chapter_06_contents")'><a href="chapter06.html">6 Applications of the Derivative</a></h2>
+
+<ul class="list" id="chapter_06_contents">
+<li><a href="section06.01.html">1. Optimization</a></li>
+<li><a href="section06.02.html">2. Related Rates</a></li>
+<li><a href="section06.03.html">3. Newton's Method</a></li>
+<li><a href="section06.04.html">4. Linear Approximations</a></li>
+<li><a href="section06.05.html">5. The Mean Value Theorem</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_07_button" src="expand_submenu.png" onclick='toggle("chapter_07_contents")'><a href="chapter07.html">7 Integration</a></h2>
+
+<ul class="list" id="chapter_07_contents">
+<li><a href="section07.01.html">1. Two examples</a></li>
+<li><a href="section07.02.html">2. The Fundamental Theorem of Calculus</a></li>
+<li><a href="section07.03.html">3. Some Properties of Integrals</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_08_button" src="expand_submenu.png" onclick='toggle("chapter_08_contents")'><a href="chapter08.html">8 Techniques of Integration</a></h2>
+
+<ul class="list" id="chapter_08_contents">
+<li><a href="section08.01.html">1. Substitution</a></li>
+<li><a href="section08.02.html">2. Powers of sine and cosine</a></li>
+<li><a href="section08.03.html">3. Trigonometric Substitutions</a></li>
+<li><a href="section08.04.html">4. Integration by Parts</a></li>
+<li><a href="section08.05.html">5. Rational Functions</a></li>
+<li><a href="section08.06.html">6. Numerical Integration</a></li>
+<li><a href="section08.07.html">7. Additional exercises</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_09_button" src="expand_submenu.png" onclick='toggle("chapter_09_contents")'><a href="chapter09.html">9 Applications of Integration</a></h2>
+
+<ul class="list" id="chapter_09_contents">
+<li><a href="section09.01.html">1. Area between curves</a></li>
+<li><a href="section09.02.html">2. Distance, Velocity, Acceleration</a></li>
+<li><a href="section09.03.html">3. Volume</a></li>
+<li><a href="section09.04.html">4. Average value of a function</a></li>
+<li><a href="section09.05.html">5. Work</a></li>
+<li><a href="section09.06.html">6. Center of Mass</a></li>
+<li><a href="section09.07.html">7. Kinetic energy; improper integrals</a></li>
+<li><a href="section09.08.html">8. Probability</a></li>
+<li><a href="section09.09.html">9. Arc Length</a></li>
+<li><a href="section09.10.html">10. Surface Area</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_10_button" src="expand_submenu.png" onclick='toggle("chapter_10_contents")'><a href="chapter10.html">10 Polar Coordinates,  Parametric Equations</a></h2>
+
+<ul class="list" id="chapter_10_contents">
+<li><a href="section10.01.html">1. Polar Coordinates</a></li>
+<li><a href="section10.02.html">2. Slopes in polar coordinates</a></li>
+<li><a href="section10.03.html">3. Areas in polar coordinates</a></li>
+<li><a href="section10.04.html">4. Parametric Equations</a></li>
+<li><a href="section10.05.html">5. Calculus with Parametric Equations</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_11_button" src="expand_submenu.png" onclick='toggle("chapter_11_contents")'><a href="chapter11.html">11 Sequences and Series</a></h2>
+
+<ul class="list" id="chapter_11_contents">
+<li><a href="section11.01.html">1. Sequences</a></li>
+<li><a href="section11.02.html">2. Series</a></li>
+<li><a href="section11.03.html">3. The Integral Test</a></li>
+<li><a href="section11.04.html">4. Alternating Series</a></li>
+<li><a href="section11.05.html">5. Comparison Tests</a></li>
+<li><a href="section11.06.html">6. Absolute Convergence</a></li>
+<li><a href="section11.07.html">7. The Ratio and Root Tests</a></li>
+<li><a href="section11.08.html">8. Power Series</a></li>
+<li><a href="section11.09.html">9. Calculus with Power Series</a></li>
+<li><a href="section11.10.html">10. Taylor Series</a></li>
+<li><a href="section11.11.html">11. Taylor's Theorem</a></li>
+<li><a href="section11.12.html">12. Additional exercises</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_12_button" src="expand_submenu.png" onclick='toggle("chapter_12_contents")'><a href="chapter12.html">12 Three Dimensions</a></h2>
+
+<ul class="list" id="chapter_12_contents">
+<li><a href="section12.01.html">1. The Coordinate System</a></li>
+<li><a href="section12.02.html">2. Vectors</a></li>
+<li><a href="section12.03.html">3. The Dot Product</a></li>
+<li><a href="section12.04.html">4. The Cross Product</a></li>
+<li><a href="section12.05.html">5. Lines and Planes</a></li>
+<li><a href="section12.06.html">6. Other Coordinate Systems</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_13_button" src="expand_submenu.png" onclick='toggle("chapter_13_contents")'><a href="chapter13.html">13 Vector Functions</a></h2>
+
+<ul class="list" id="chapter_13_contents">
+<li><a href="section13.01.html">1. Space Curves</a></li>
+<li><a href="section13.02.html">2. Calculus with vector functions</a></li>
+<li><a href="section13.03.html">3. Arc length and curvature</a></li>
+<li><a href="section13.04.html">4. Motion along a curve</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_14_button" src="expand_submenu.png" onclick='toggle("chapter_14_contents")'><a href="chapter14.html">14 Partial Differentiation</a></h2>
+
+<ul class="list" id="chapter_14_contents">
+<li><a href="section14.01.html">1. Functions of Several Variables</a></li>
+<li><a href="section14.02.html">2. Limits and Continuity</a></li>
+<li><a href="section14.03.html">3. Partial Differentiation</a></li>
+<li><a href="section14.04.html">4. The Chain Rule</a></li>
+<li><a href="section14.05.html">5. Directional Derivatives</a></li>
+<li><a href="section14.06.html">6. Higher order derivatives</a></li>
+<li><a href="section14.07.html">7. Maxima and minima</a></li>
+<li><a href="section14.08.html">8. Lagrange Multipliers</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_15_button" src="expand_submenu.png" onclick='toggle("chapter_15_contents")'><a href="chapter15.html">15 Multiple Integration</a></h2>
+
+<ul class="list" id="chapter_15_contents">
+<li><a href="section15.01.html">1. Volume and Average Height</a></li>
+<li><a href="section15.02.html">2. Double Integrals in Cylindrical Coordinates</a></li>
+<li><a href="section15.03.html">3. Moment and Center of Mass</a></li>
+<li><a href="section15.04.html">4. Surface Area</a></li>
+<li><a href="section15.05.html">5. Triple Integrals</a></li>
+<li><a href="section15.06.html">6. Cylindrical and Spherical Coordinates</a></li>
+<li><a href="section15.07.html">7. Change of Variables</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_16_button" src="expand_submenu.png" onclick='toggle("chapter_16_contents")'><a href="chapter16.html">16 Vector Calculus</a></h2>
+
+<ul class="list" id="chapter_16_contents">
+<li><a href="section16.01.html">1. Vector Fields</a></li>
+<li><a href="section16.02.html">2. Line Integrals</a></li>
+<li><a href="section16.03.html">3. The Fundamental Theorem of Line Integrals</a></li>
+<li><a href="section16.04.html">4. Green's Theorem</a></li>
+<li><a href="section16.05.html">5. Divergence and Curl</a></li>
+<li><a href="section16.06.html">6. Vector Functions for Surfaces</a></li>
+<li><a href="section16.07.html">7. Surface Integrals</a></li>
+<li><a href="section16.08.html">8. Stokes's Theorem</a></li>
+<li><a href="section16.09.html">9. The Divergence Theorem</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_17_button" src="expand_submenu.png" onclick='toggle("chapter_17_contents")'><a href="chapter17.html">17 Differential Equations</a></h2>
+
+<ul class="list" id="chapter_17_contents">
+<li><a href="section17.01.html">1. First Order Differential Equations</a></li>
+<li><a href="section17.02.html">2. First Order Homogeneous Linear Equations</a></li>
+<li><a href="section17.03.html">3. First Order Linear Equations</a></li>
+<li><a href="section17.04.html">4. Approximation</a></li>
+<li><a href="section17.05.html">5. Second Order Homogeneous Equations</a></li>
+<li><a href="section17.06.html">6. Second Order Linear Equations</a></li>
+<li><a href="section17.07.html">7. Second Order Linear Equations, take two</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_18_button" src="expand_submenu.png" onclick='toggle("chapter_18_contents")'><a href="chapter18.html">18 Useful formulas</a></h2>
+
+<ul class="list" id="chapter_18_contents">
+</ul>
+
+</div>
+
+<div id="main">
+
+<div id="next"><a href="chapter04.html"><img src=previous_section.png width="30"></a>&nbsp;&nbsp;<a href="section04.02.html"><img src=next_section.png width="30"></a></div>
+
+<div id="content">
+<p>
+
+
+</p><p>
+When you first encountered the trigonometric functions it was probably
+in the context of "triangle trigonometry,'' defining, for example,
+the sine of an angle as the "side opposite over the hypotenuse.''
+While this will still be useful in an informal way, we need to use a
+more expansive definition of the trigonometric functions. First an
+important note: while degree measure of angles is sometimes convenient
+because it is so familiar, it turns out to be ill-suited to
+mathematical calculation, so (almost) everything we do will be in
+terms of <b>radian measure</b> of angles.
+</p><p>
+To define the radian measurement system,
+we consider the unit circle in the $xy$-plane:
+</p><p><div class='figure'><!-- Transcendental-UnitCircle.html -->
+<!-- (Not a numbered figure, first diagram in the running text of Section 4.1) -->
+<div id="Transcendental-UnitCircle" class="jxgbox" style="width:60%;margin-left:auto;margin-right:auto"></div>
+<script type="text/javascript">
+ (function () {  // BEGIN: scope limiting function wrapper
+  var xmin=-1.6, xmax=1.6, ymin=-1.6, ymax=1.6;
+  var AspectRatio = ((ymax-ymin)/(xmax-xmin)); // height/width
+  var wd=document.getElementById('Transcendental-UnitCircle').offsetWidth;
+  var ht=wd*AspectRatio;
+  var yfactor = (ymax-ymin)/(ht);  // y axis units per pixel
+  var xfactor = (xmax-xmin)/(wd);  // x axis units per pixel
+  var xaxis_label_offset = yfactor*15; // 15 vertical pixels
+  var yaxis_label_offset = xfactor*20; // 20 horizontal pixels
+  document.getElementById('Transcendental-UnitCircle').style.height=ht+'px';
+  var brd = JXG.JSXGraph.initBoard('Transcendental-UnitCircle', {axis:false, boundingbox:
+   [xmin, ymax, xmax,ymin], showCopyright:false, showNavigation:false});
+  brd.create('circle',[[0,0],[0,1]],{fixed:true});
+  brd.create('arrow',[[0,-1.3],[0,1.3]],{color:'#000000',fixed:true,strokeWidth:1});
+  brd.create('arrow',[[-1.3,0],[1.3,0]],{color:'#000000',fixed:true,strokeWidth:1});
+  brd.create('segment',[[0,0],[Math.cos(Math.PI/6),Math.sin(Math.PI/6)]],{color:'#A05220',fixed:true});
+  brd.create('segment',[[0,0],[Math.cos(Math.PI/6),-Math.sin(Math.PI/6)]],{color:'#A05220',fixed:true});
+  brd.create('point', [Math.cos(Math.PI/6),Math.sin(Math.PI/6)] ,
+   {size:1,name:'$A$',fillColor:'black',strokeColor:'black',fixed:true,fontSize:12,label:{offset:[-17,2]}});
+  brd.create('text',[Math.cos(Math.PI/6),Math.sin(Math.PI/6)+yfactor*5,'$(\\\\cos x, \\\\sin x)$']);
+  brd.create('point', [Math.cos(Math.PI/6),-Math.sin(Math.PI/6)] ,
+   {size:1,name:'$B$',fillColor:'black',strokeColor:'black',fixed:true,label:{offset:[5,-5]}});
+  brd.create('text',[0.2*Math.cos(Math.PI/12),0.2*Math.sin(Math.PI/12),'$x$']);
+  brd.create('text',[0.2*Math.cos(Math.PI/12),-0.2*Math.sin(Math.PI/12),'$y$']);
+  brd.create('point', [1,0] , {size:1,name:'$(1,0)$',fillColor:'black',strokeColor:'black',fixed:true,label:{offset:[5,-15]}});
+  })(); // END: scope limiting function wrapper
+ </script>
+
+</div></p><p>An angle, $x$, at the center of the circle is
+associated with an arc of the circle which is said to <b>subtend</b> the angle. In the figure, this arc is the portion of
+the circle from point $(1,0)$ to point $A$. The length of this arc is
+the radian measure of the angle $x$; the fact that the radian measure
+is an actual geometric length is largely responsible for the
+usefulness of radian measure. The circumference of the unit circle is
+$2\pi r=2\pi(1)=2\pi$, so the radian measure of the full circular
+angle (that is, of the 360 degree angle) is $2\pi$.
+</p><p>
+While an angle with a particular measure can appear anywhere around
+the circle, we need a fixed, conventional location so that we can use
+the coordinate system to define properties of the angle. 
+The standard convention is to place the starting radius for the angle
+on the positive $x$-axis, and to measure positive angles
+counterclockwise around the circle. In the figure, $x$ is the standard
+location of the angle $\pi/6$, that is, the length of the arc from
+$(1,0)$ to $A$ is $\pi/6$. The angle $y$ in the picture is $-\pi/6$,
+because the distance from $(1,0)$ to $B$ along the circle is also 
+$\pi/6$, but in a clockwise direction.
+</p><p>
+Now the fundamental trigonometric definitions are:
+the cosine of $x$ and the sine of $x$ are the first and second
+coordinates of the point $A$, as indicated in the figure. The angle
+$x$ shown can be viewed as an angle of a right triangle, meaning the
+usual triangle definitions of the sine and cosine also make
+sense. Since the hypotenuse of the triangle is 1, the "side opposite
+over hypotenuse'' definition of the sine is the second coordinate of
+point $A$ over 1, which is just the second coordinate; in other words,
+both methods give the same value for the sine.
+</p><p>
+The simple triangle definitions work only for angles that can "fit''
+in a right triangle, namely, angles between 0 and $\pi/2$. The
+coordinate definitions, on the other hand, apply to any angles, as
+indicated in this figure:
+</p><p><div class='figure'><!-- Transcendental-LargeAngle.html -->
+<!-- (Not a numbered figure, second diagram in the running text of Section 4.1) -->
+<div id="sine_and_cosine_of_common_angles" class="jxgbox"
+     style="width:80%;margin-left:auto;margin-right:auto;"></div>
+<div class="figcaption">
+Click a black point on the circumference to see the corresponding sine
+and cosine.
+</div>
+<script type="text/javascript">
+
+( function () {
+var aspect_ratio = 4/6;
+var ht=document.getElementById('sine_and_cosine_of_common_angles').offsetWidth*aspect_ratio;
+document.getElementById('sine_and_cosine_of_common_angles').style.height=ht+'px';
+
+var board = JXG.JSXGraph.initBoard('sine_and_cosine_of_common_angles', {boundingbox:
+  [-1.5,1.5,2.5,-1.5], axis:false,keepaspectratio:true,showCopyright:false,showNavigation:false});
+
+
+var rejax = function() {
+   MathJax.Hub.Queue(["Typeset",MathJax.Hub]); 
+}
+
+board.addHook(rejax);
+
+var i=0;
+var current=9;
+var pts = new Array();
+var pt_labels = new Array();
+// Important radian values about the unit circle
+var rads = [ 0, Math.PI/6, Math.PI/4, Math.PI/3, Math.PI/2, 2*Math.PI/3,
+    3*Math.PI/4, 5*Math.PI/6, Math.PI, 7*Math.PI/6, 5*Math.PI/4,
+    4*Math.PI/3, 3*Math.PI/2, 5*Math.PI/3, 7*Math.PI/4, 11*Math.PI/6];
+
+var rad_labels = [ "0", "\\frac{\\pi}{6}", "\\frac{\\pi}{4}",
+    "\\frac{\\pi}{3}", "\\frac{\\pi}{2}",
+    "\\frac{2\\pi}{3}", "\\frac{3\\pi}{4}",
+    "\\frac{5\\pi}{6}", "\\pi", "\\frac{7\\pi}{6}",
+    "\\frac{5\\pi}{4}", "\\frac{4\\pi}{3}",
+    "\\frac{3\\pi}{2}", "\\frac{5\\pi}{3}",
+    "\\frac{7\\pi}{4}", "\\frac{11\\pi}{6}"];
+
+var UnitCircle = board.create('circle', [[0,0],[0,1]],{fixed:true});
+
+// Points around the circle.
+for(i=0;i<16;i++) {
+ pts[i] = board.create('point', 
+   [Math.cos(rads[i]), Math.sin(rads[i])],
+    {size:2,fillColor:'#000000',strokeColor:'#000000',withLabel:false,fixed:true});
+ pts[i].rendNode.onclick = function() {
+   var par = pts[this._num];
+   CircumPoint.setPosition(JXG.COORDS_BY_USER, par.X(), par.Y());
+   current = this._num;
+   board.update();
+ };
+ pts[i].rendNode._num=i;
+}
+for (i=1; i<8; i++) {
+ pt_labels[i] = board.create('text',
+   [1.15*Math.cos(rads[i])-0.05, 1.15*Math.sin(rads[i]), 
+   "$"+rad_labels[i].replace(/\\/g,"\\\\")+"$"],{fixed:true}); 
+}
+for (i=9; i<16; i++) {
+ pt_labels[i] = board.create('text',
+   [1.15*Math.cos(rads[i])-0.05, 1.15*Math.sin(rads[i]), 
+   "$"+rad_labels[i].replace(/\\/g,"\\\\")+"$"],{fixed:true}); 
+}
+pt_labels[0] = board.create('text',
+   [1.10,-0.03,"$"+rad_labels[0].replace(/\\/g,"\\\\")+"$"],{fixed:true}); 
+pt_labels[8] = board.create('text',
+   [-1.15,-0.03, "$"+rad_labels[8].replace(/\\/g,"\\\\")+"$"],{fixed:true}); 
+
+// The "active" point.
+var CircumPoint = board.create('point', [
+  function() { return pts[current].X(); },
+  function() { return pts[current].Y(); }],
+  {withLabel:false,size:2});
+
+var origin = board.create('point', [0,0], 
+  {size:2,fillColor:'#000000',strokeColor:'#000000', withLabel:false, fixed:true});
+
+var a = board.create('sector', [origin, pts[0], CircumPoint]);
+
+var y_segment = board.create('segment', 
+  [ 
+  [ function() { return CircumPoint.X(); }, function() { return 0; } ],
+  [ function() { return CircumPoint.X(); }, function() { return CircumPoint.Y(); } ]
+  ],
+  {withLabel:false,dash:1,strokeColor:'#ff0000'}
+  );
+var x_segment = board.create('segment', 
+  [ 
+  [ function() { return CircumPoint.X(); }, function() { return 0; } ],
+  [ function() { return origin.X(); }, function() { return origin.Y(); } ]
+  ],
+  {withLabel:false,dash:1,strokeColor:'#ff0000'}
+  );
+
+var x_labels = [ "1", "\\frac{\\sqrt{3}}{2}",
+    "\\frac{\\sqrt{2}}{2}", "\\frac{1}{2}", "0",
+    "-\\frac{1}{2}", "-\\frac{\\sqrt{2}}{2}",
+    "-\\frac{\\sqrt{3}}{2}", "-1", "-\\frac{\\sqrt{3}}{2}",
+    "-\\frac{\\sqrt{2}}{2}", "-\\frac{1}{2}", "0",
+    "\\frac{1}{2}", "\\frac{\\sqrt{2}}{2}",
+    "\\frac{\\sqrt{3}}{2}"];
+
+var y_labels = [ "0", "\\frac{1}{2}", "\\frac{\\sqrt{2}}{2}",
+    "\\frac{\\sqrt{3}}{2}", "1", "\\frac{\\sqrt{3}}{2}",
+    "\\frac{\\sqrt{2}}{2}", "\\frac{1}{2}", "0",
+    "-\\frac{1}{2}", "-\\frac{\\sqrt{2}}{2}",
+    "-\\frac{\\sqrt{3}}{2}", "-1", "-\\frac{\\sqrt{3}}{2}",
+    "-\\frac{\\sqrt{2}}{2}", "-\\frac{1}{2}"];
+
+var trig_values = board.create('text',[1.75,0.3,
+  function() { return '\\begin{eqnarray} \\cos(' + rad_labels[current]
+   + ')&=&' + x_labels[current]+'\\\\'
+   + '\\sin(' + rad_labels[current]
+    + ')&=&' + y_labels[current]+ '\\end{eqnarray}'
+  ; } ],{fixed:true});
+})();
+</script>
+
+</div></p><p></p><p>
+The arc bordering the green area initially has length $7\pi/6$, so
+the angle it subtends is the angle $7\pi/6$.
+Both coordinates of the red point in this figure are negative,
+so the sine and cosine of $7\pi/6$ are both negative.
+</p><p>
+The remaining trigonometric functions can be most easily defined in
+terms of the sine and cosine, as usual:
+$$\eqalign{
+\tan x &= {\sin x\over \cos x}\cr
+\cot x &= {\cos x \over \sin x}\cr
+\sec x &= {1\over \cos x}\cr
+\csc x &= {1\over \sin x}\cr
+}$$
+and they can also be defined as the corresponding ratios of
+coordinates. 
+</p><p>
+Although the trigonometric functions are defined in terms of the unit
+circle, the unit circle diagram is not what we normally consider the
+graph of a trigonometric function. (The unit circle is the graph of,
+well, the circle.) We can easily get a qualitatively correct idea of
+the graphs of the trigonometric functions from the unit circle
+diagram. Consider the sine function, $y=\sin x$. As $x$ increases from
+0 in the unit circle diagram, the second coordinate of the point $A$
+goes from 0 to a maximum of 1, then back to 0, then to a minimum of
+$-1$, then back to 0, and then it obviously repeats itself. So the
+graph of $y=\sin x$ must look something like this:
+</p><p><div class='figure'><!-- Transcendental-SineFunction.html -->
+<!-- (Not a numbered figure, third diagram in the running text of Section 4.1) -->
+<div id="Transcendental-SineFunction" class="jxgbox" style="width:80%;margin-left:auto;margin-right:auto"></div>
+<script type="text/javascript">
+(function () {  // BEGIN: scope limiting function wrapper
+  var xmin=-7, xmax= 7, ymin=-1.1, ymax=1.2;
+  var AspectRatio = (0.4); // height/width
+  var wd=document.getElementById('Transcendental-SineFunction').offsetWidth;
+  var ht=wd*AspectRatio;
+  var yfactor = (ymax-ymin)/(ht);  // y axis units per pixel
+  var xfactor = (xmax-xmin)/(wd);  // x axis units per pixel
+  var xaxis_label_offset = yfactor*15; // 15 vertical pixels
+  var yaxis_label_offset = xfactor*20; // 20 horizontal pixels
+  document.getElementById('Transcendental-SineFunction').style.height=ht+'px';
+  var f = function(x){ return Math.sin(x); }
+  var brd = JXG.JSXGraph.initBoard('Transcendental-SineFunction', {axis:false, boundingbox:
+     [xmin, ymax, xmax,ymin], showCopyright:false, showNavigation:false});
+  var graph = brd.create('functiongraph', [f,-2*Math.PI,2*Math.PI], {strokeColor:'#00FF00'});
+  brd.create('grid',[],{gridX:Math.PI/2,gridY:1});
+  var y_axis = brd.create('line',[[0,0],[0,1.5]],{strokeColor:'#000000',fixed:true});
+  brd.createElement('ticks',[y_axis,1],{drawLabels:false,minorTicks:0});
+  brd.create('text',[-yaxis_label_offset,1,'$1$']);
+  brd.create('text',[-yaxis_label_offset-xfactor*5,-1,'$-1$']);
+  var x_axis = brd.create('line',[[0,0],[1.5,0]],{strokeColor:'#000000',fixed:true});
+  brd.createElement('ticks',[x_axis,1.5708],{drawLabels:false});
+  brd.createElement('text',[Math.PI/2-xfactor*5,-xaxis_label_offset,'$\\\\frac{\\\\pi}{2}$']);
+  brd.createElement('text',[Math.PI-xfactor*5,-xaxis_label_offset,'$\\\\pi$']);
+  brd.createElement('text',[3*Math.PI/2-xfactor*5,-xaxis_label_offset,'$\\\\frac{3\\\\pi}{2}$']);
+  brd.createElement('text',[2*Math.PI-xfactor*5,-xaxis_label_offset,'$2\\\\pi$']);
+  brd.createElement('text',[-Math.PI/2-xfactor*5,-xaxis_label_offset,'-$\\\\frac{\\\\pi}{2}$']);
+  brd.createElement('text',[-Math.PI-xfactor*5,-xaxis_label_offset,'-$\\\\pi$']);
+  brd.createElement('text',[-3*Math.PI/2-xfactor*5,-xaxis_label_offset,'-$\\\\frac{3\\\\pi}{2}$']);
+  brd.createElement('text',[-2*Math.PI-xfactor*5,-xaxis_label_offset,'-$2\\\\pi$']);
+})(); // END: scope limiting function wrapper
+</script>
+
+
+</div></p><p></p><p>
+Similarly, as angle $x$ increases from 0 in the unit circle diagram,
+the first coordinate of the point $A$ goes from 1 to 0 then to $-1$,
+back to 0 and back to 1, so the graph of $y=\cos x$ must look
+something like this:
+</p><p><div class='figure'><!-- Transcendental-CosineFunction.html -->
+<!-- (Not a numbered figure, fourth diagram in the running text of Section 4.1) -->
+<div id="Transcendental-CosineFunction" class="jxgbox" style="width:80%;margin-left:auto;margin-right:auto"></div>
+<script type="text/javascript">
+ (function () {  // BEGIN: scope limiting function wrapper
+  var xmin=-7, xmax= 7, ymin=-1.1, ymax=1.2;
+  var AspectRatio = 0.4; // height/width
+  var wd=document.getElementById('Transcendental-CosineFunction').offsetWidth;
+  var ht=wd*AspectRatio;
+  var yfactor = (ymax-ymin)/(ht);  // y axis units per pixel
+  var xfactor = (xmax-xmin)/(wd);  // x axis units per pixel
+  var xaxis_label_offset = yfactor*15; // 15 vertical pixels
+  var yaxis_label_offset = xfactor*20; // 20 horizontal pixels
+  document.getElementById('Transcendental-CosineFunction').style.height=ht+'px';
+  var f = function(x){ return Math.cos(x); }
+  var brd = JXG.JSXGraph.initBoard('Transcendental-CosineFunction', {axis:false, boundingbox:
+   [xmin, ymax, xmax,ymin], showCopyright:false, showNavigation:false});
+  var graph = brd.create('functiongraph', [f,-2*Math.PI,2*Math.PI], {strokeColor:'#00FF00'});
+  brd.create('grid',[],{gridX:Math.PI/2,gridY:1});
+  var y_axis = brd.create('line',[[0,0],[0,1.5]],{strokeColor:'#000000',fixed:true});
+  brd.createElement('ticks',[y_axis,1],{drawLabels:false,minorTicks:0});
+  brd.create('text',[-yaxis_label_offset,1,'$1$']);
+  brd.create('text',[-yaxis_label_offset-xfactor*5,-1,'$-1$']);
+  var x_axis = brd.create('line',[[0,0],[1.5,0]],{strokeColor:'#000000',fixed:true});
+  brd.createElement('text',[Math.PI/2-xfactor*5,-xaxis_label_offset,'$\\\\frac{\\\\pi}{2}$']);
+  brd.createElement('text',[Math.PI-xfactor*5,-xaxis_label_offset,'$\\\\pi$']);
+  brd.createElement('text',[3*Math.PI/2-xfactor*5,-xaxis_label_offset,'$\\\\frac{3\\\\pi}{2}$']);
+  brd.createElement('text',[2*Math.PI-xfactor*5,-xaxis_label_offset,'$2\\\\pi$']);
+  brd.createElement('text',[-Math.PI/2-xfactor*5,-xaxis_label_offset,'-$\\\\frac{\\\\pi}{2}$']);
+  brd.createElement('text',[-Math.PI-xfactor*5,-xaxis_label_offset,'-$\\\\pi$']);
+  brd.createElement('text',[-3*Math.PI/2-xfactor*5,-xaxis_label_offset,'-$\\\\frac{3\\\\pi}{2}$']);
+  brd.createElement('text',[-2*Math.PI-xfactor*5,-xaxis_label_offset,'-$2\\\\pi$']);
+})(); // END: scope limiting function wrapper
+</script>
+
+
+</div></p><p></p><p>
+</p>
+<a id="exercises"></a><h2 class="exercises">Exercises 4.1</h2>
+<p>Some useful trigonometric identities are in
+chapter <a href="chapter18.html#chap:formulas">18</a>.
+</p>
+<p class="exercise"><b>Ex 4.1.1</b>
+Find all values of $\theta$ such that
+$\sin(\theta) = -1$; give your answer in radians.
+(<a knowl="" class="internal" value="$2n\pi-\pi/2$, any integer $n$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 4.1.2</b>
+Find all values of $\theta$ such that
+$\cos(2\theta) = 1/2$; give your answer in radians.
+(<a knowl="" class="internal" value="$n\pi\pm\pi/6$, any integer $n$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 4.1.3</b>
+Use an angle sum identity to compute
+  $\cos(\pi/12)$.
+(<a knowl="" class="internal" value="$(\sqrt2+\sqrt6)/4$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 4.1.4</b>
+Use an angle sum identity to compute
+  $\tan(5\pi/12)$.
+(<a knowl="" class="internal" value="$-(1+\sqrt3)/(1-\sqrt3)=2+\sqrt3$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 4.1.5</b>
+Verify the identity $\ds \cos^2(t)/(1-\sin(t)) =
+  1+\sin(t)$.
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 4.1.6</b>
+Verify the identity $2\csc(2\theta)=\sec(\theta)\csc(\theta)$.
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 4.1.7</b>
+Verify the identity $\sin(3\theta) - \sin(\theta) = 2\cos(2\theta)
+  \sin(\theta)$.
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 4.1.8</b>
+Sketch $y=2\sin(x)$.
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 4.1.9</b>
+Sketch $y=\sin(3x)$.
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 4.1.10</b>
+Sketch $y=\sin(-x)$.
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 4.1.11</b>
+Find all of the solutions of $\ds 2\sin(t) -1 -\sin^2(t) =0$ in the
+ interval $[0,2\pi]$.
+(<a knowl="" class="internal" value="$t=\pi/2$">answer</a>)
+
+
+</p><p>
+
+
+</div></div></body>
+</html>

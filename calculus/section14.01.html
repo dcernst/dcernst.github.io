@@ -1,0 +1,1266 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+<meta http-equiv="Content-Language" Content="en">
+<title>14.1 Functions of Several Variables</title>
+<!--
+<script type="text/javascript" src="js/deployJava.js"></script>
+<link rel="stylesheet" type="text/css" href="http://jsxgraph.uni-bayreuth.de/distrib/jsxgraph.css" />
+-->
+<!-- use Jsxgraph to create figures: http://jsxgraph.uni-bayreuth.de/wp/ -->
+<link rel="stylesheet" type="text/css" href="css/jsxgraph.css" />
+<script type="text/javascript" src="js/jsxgraphcore.js"></script>
+<script src="js/three.min.js"></script>
+<script src="js/Detector.js"></script>
+<script src="js/TrackballControls.js"></script>
+<script src="js/OrthographicTrackballControls.js"></script>
+<script src="js/THREEx.KeyboardState.js"></script>
+<script src="js/THREEx.FullScreen.js"></script>
+<script src="js/THREEx.WindowResize.js"></script>
+<script type='text/javascript' src='js/DAT.GUI.min.js'></script>
+<script>
+window.requestAnimFrame = (function(){
+    return  window.requestAnimationFrame       || 
+        window.webkitRequestAnimationFrame || 
+        window.mozRequestAnimationFrame    || 
+        window.oRequestAnimationFrame      || 
+        window.msRequestAnimationFrame     || 
+        function(/* function */ callback, /* DOMElement */
+            element){
+            window.setTimeout(callback, 1000 / 60);
+        };
+})();
+</script>
+<script src="js/ifvisible.min.js"></script>
+<script src="js/conrec.js"></script>
+<script>
+active = true;
+ifvisible.setIdleDuration(10);
+ifvisible.on("idle", function(){
+    active = false;
+//    console.log("idle");
+});
+
+ifvisible.on("wakeup", function(){
+    active = true;
+//    console.log("wakeup");
+});
+</script>
+<script src="js/parser.js"></script>
+<link href="css/whitman.css" rel="stylesheet" type="text/css" /><link href="css/calculus.css" rel="stylesheet" type="text/css" /><link href="css/knowlstyle.css" rel="stylesheet" type="text/css" />
+
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  extensions: ["tex2jax.js","TeX/AMSmath.js","TeX/AMSsymbols.js"],
+  jax: ["input/TeX","output/HTML-CSS"],
+  tex2jax: {
+    inlineMath: [['$','$'],["\\(","\\)"]],
+    processEscapes: true,
+  },
+TeX: {
+   Macros: {
+    val: "\\mathop{\\rm val}",
+    divides: "\\mid",
+    ndivides: "\\mathrel{\\not|}",
+    fix: "\\mathop{\\rm fix}",
+    id: "\\mathop{\\rm id}",
+    na: "\\mathop{\\rm na}",
+    d: "\\mathop{\\rm\\strut d}\\nolimits ",
+    legendre: ["\\left(\\frac{#1}{#2}\\right)",2],
+    normalbaselines: "",
+    notdiv: "\\nmid",
+    implies: "\\Rightarrow",
+    iff: "\\Leftrightarrow",
+    sevenpoint: "\\scriptsize",
+    ds: "\\displaystyle",
+    lcm: "\\operatorname{lcm}",
+    arccot: "\\operatorname{arccot}",
+    arcsec: "\\operatorname{arcsec}",
+    arccsc: "\\operatorname{arccsc}",
+    arccosh: "\\operatorname{arccosh}",
+    arcsinh: "\\operatorname{arcsinh}",
+    arcsech: "\\operatorname{arcsech}",
+    sech: "\\operatorname{sech}",
+    csch: "\\operatorname{csch}",
+    R: "{\\mathbb R}",
+    sb: "_",
+    sp: "^",
+    Q: "{\\mathbb Q}",
+    C: "{\\mathbb C}",
+    N: "{\\mathbb N}",
+    Z: "{\\mathbb Z}",
+    U: "{\\mathbb U}",
+    v: ["\\langle #1\\rangle",1],
+    dint: ["{\\mathchoice{\\mathop{\\int\\!\\!\\!\\int}_{#1}}{\\mathop{\\int\\!\\!\\!\\int}_{#1}}{\\mathop{\\int\\!\\!\\!\\int}}{\\mathop{\\int\\!\\!\\!\\int}}}",1],
+    tint: ["{\\mathchoice{\\mathop{\\int\\!\\!\\!\\int\\!\\!\\!\\int}_{#1\\;}}{\\mathop{\\int\\!\\!\\!\\int\\!\\!\\!\\int}_{#1}}{\\mathop{\\int\\!\\!\\!\\int\\!\\!\\!\\int}_{#1}}{\\mathop{\\int\\!\\!\\!\\int\\!\\!\\!\\int}_{#1}}}",1]
+   }
+},
+  "HTML-CSS": { scale: 100},
+  menuSettings: { zscale: "150%", zoom: "Double-Click" }
+});
+    JXG.Options.text.display = 'html';
+    JXG.Options.text.useMathJax = true;
+</script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/math
+jax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+<script>
+MathJax.Hub.Register.StartupHook("End",function () {
+  if(typeof window.orientation === 'undefined'){
+    var i,x;
+    x = document.getElementsByClassName("webgl_display");
+    for (i=0; i<x.length; i++) {
+      x[i].style.display = "block";
+    }
+    x = document.getElementsByClassName("no_webgl_display");
+    for (i=0; i<x.length; i++) {
+      x[i].style.display = "none";
+    }
+  }
+});
+</script>
+
+<script src="js/jquery-3.1.0.min.js"></script>
+<script src="https://sagecell.sagemath.org/static/embedded_sagecell.js"></script>
+<script src="js/jquery.visible.min.js"></script>
+<script type="text/javascript" src="js/knowl.js"></script>
+<style type="text/css">
+
+.sagecell .CodeMirror {
+  height: auto;
+}
+
+.sagecell .CodeMirror-scroll {
+  overflow-y: hidden;
+  overflow-x: auto;
+}
+
+.sagecell-practice .CodeMirror-scroll {
+}
+
+.sagecell button.sagecell_evalButton {
+    font-size: 50%;
+}
+
+.sagecell_sessionContainer {
+    margin-bottom:1em;
+}
+</style>
+<script>
+function toggle(a) {
+  var b = String(a);
+  b=b.replace("contents","button");
+  if (document.getElementById(a).style.display == "block") {
+    document.getElementById(a).style.display = "none";
+    document.getElementById(b).src = "expand_submenu.png";
+  } else {
+    document.getElementById(a).style.display = "block";
+    document.getElementById(b).src = "collapse_submenu.png";
+  }
+}
+function toggle_sidebar() {
+  if (document.getElementById('sidebar').style.display == "block") {
+    document.getElementById('sidebar').style.display = "none";
+    document.getElementById('menu_expand').style.display = "block";
+  } else {
+    document.getElementById('sidebar').style.display = "block";
+    document.getElementById('menu_expand').style.display = "none";
+  }
+}
+</script>
+
+</head>
+
+<body class="" onload="toggle('chapter_14_contents')">
+<div id="header">
+<div class="right">
+<div class="bread">
+  <a href=".">Home</a> &raquo; <a href="chapter14.html">Partial Differentiation</a> &raquo; <a href="section14.01.html">Functions of Several Variables</a>
+</div>
+
+<FORM method=GET action=https://www.google.com/custom id="search">
+<INPUT TYPE=text name=q size=31 maxlength=255 value="" style="font-size:small">
+<INPUT type=submit name=sa VALUE="Search the book" style="font-size:small">
+<INPUT type=hidden name=cof VALUE="AH:center;AWFID:198dc2b883340b1f;">
+<input type=hidden name=domains value="www.whitman.edu">
+<input type=hidden name=sitesearch value="www.whitman.edu/mathematics/calculus_online/">
+</FORM>
+<div id="title"><span id="title-content">14.1 Functions of Several Variables</span></div><a href="#exercises">[Jump to exercises]</a>
+</div>
+</div>
+<div id="menu_expand" style="display:none"><a href="javascript:toggle_sidebar()">Expand menu</a></div>
+<div id="sidebar" style="display:block">
+<h2 id="menu_collapse"><a href='javascript:toggle_sidebar()'>Collapse menu</a></h2>
+<h2 class="link"><img id="chapter_01_button" src="expand_submenu.png" onclick='toggle("chapter_01_contents")'><a href="chapter01.html">1 Analytic Geometry</a></h2>
+
+<ul class="list" id="chapter_01_contents">
+<li><a href="section01.01.html">1. Lines</a></li>
+<li><a href="section01.02.html">2. Distance Between Two Points; Circles</a></li>
+<li><a href="section01.03.html">3. Functions</a></li>
+<li><a href="section01.04.html">4. Shifts and Dilations</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_02_button" src="expand_submenu.png" onclick='toggle("chapter_02_contents")'><a href="chapter02.html">2 Instantaneous Rate of Change:  The Derivative</a></h2>
+
+<ul class="list" id="chapter_02_contents">
+<li><a href="section02.01.html">1. The slope of a function</a></li>
+<li><a href="section02.02.html">2. An example</a></li>
+<li><a href="section02.03.html">3. Limits</a></li>
+<li><a href="section02.04.html">4. The Derivative Function</a></li>
+<li><a href="section02.05.html">5. Adjectives For Functions</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_03_button" src="expand_submenu.png" onclick='toggle("chapter_03_contents")'><a href="chapter03.html">3 Rules for Finding Derivatives</a></h2>
+
+<ul class="list" id="chapter_03_contents">
+<li><a href="section03.01.html">1. The Power Rule</a></li>
+<li><a href="section03.02.html">2. Linearity of the Derivative</a></li>
+<li><a href="section03.03.html">3. The Product Rule</a></li>
+<li><a href="section03.04.html">4. The Quotient Rule</a></li>
+<li><a href="section03.05.html">5. The Chain Rule</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_04_button" src="expand_submenu.png" onclick='toggle("chapter_04_contents")'><a href="chapter04.html">4 Transcendental Functions</a></h2>
+
+<ul class="list" id="chapter_04_contents">
+<li><a href="section04.01.html">1. Trigonometric Functions</a></li>
+<li><a href="section04.02.html">2. The Derivative of $\sin x$</a></li>
+<li><a href="section04.03.html">3. A hard limit</a></li>
+<li><a href="section04.04.html">4. The Derivative of $\sin x$, continued</a></li>
+<li><a href="section04.05.html">5. Derivatives of the Trigonometric Functions</a></li>
+<li><a href="section04.06.html">6. Exponential and Logarithmic functions</a></li>
+<li><a href="section04.07.html">7. Derivatives of the exponential and  logarithmic functions</a></li>
+<li><a href="section04.08.html">8. Implicit Differentiation</a></li>
+<li><a href="section04.09.html">9. Inverse Trigonometric Functions</a></li>
+<li><a href="section04.10.html">10. Limits revisited</a></li>
+<li><a href="section04.11.html">11. Hyperbolic Functions</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_05_button" src="expand_submenu.png" onclick='toggle("chapter_05_contents")'><a href="chapter05.html">5 Curve Sketching</a></h2>
+
+<ul class="list" id="chapter_05_contents">
+<li><a href="section05.01.html">1. Maxima and Minima</a></li>
+<li><a href="section05.02.html">2. The first derivative test</a></li>
+<li><a href="section05.03.html">3. The second derivative test</a></li>
+<li><a href="section05.04.html">4. Concavity and inflection points</a></li>
+<li><a href="section05.05.html">5. Asymptotes and Other Things to Look For</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_06_button" src="expand_submenu.png" onclick='toggle("chapter_06_contents")'><a href="chapter06.html">6 Applications of the Derivative</a></h2>
+
+<ul class="list" id="chapter_06_contents">
+<li><a href="section06.01.html">1. Optimization</a></li>
+<li><a href="section06.02.html">2. Related Rates</a></li>
+<li><a href="section06.03.html">3. Newton's Method</a></li>
+<li><a href="section06.04.html">4. Linear Approximations</a></li>
+<li><a href="section06.05.html">5. The Mean Value Theorem</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_07_button" src="expand_submenu.png" onclick='toggle("chapter_07_contents")'><a href="chapter07.html">7 Integration</a></h2>
+
+<ul class="list" id="chapter_07_contents">
+<li><a href="section07.01.html">1. Two examples</a></li>
+<li><a href="section07.02.html">2. The Fundamental Theorem of Calculus</a></li>
+<li><a href="section07.03.html">3. Some Properties of Integrals</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_08_button" src="expand_submenu.png" onclick='toggle("chapter_08_contents")'><a href="chapter08.html">8 Techniques of Integration</a></h2>
+
+<ul class="list" id="chapter_08_contents">
+<li><a href="section08.01.html">1. Substitution</a></li>
+<li><a href="section08.02.html">2. Powers of sine and cosine</a></li>
+<li><a href="section08.03.html">3. Trigonometric Substitutions</a></li>
+<li><a href="section08.04.html">4. Integration by Parts</a></li>
+<li><a href="section08.05.html">5. Rational Functions</a></li>
+<li><a href="section08.06.html">6. Numerical Integration</a></li>
+<li><a href="section08.07.html">7. Additional exercises</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_09_button" src="expand_submenu.png" onclick='toggle("chapter_09_contents")'><a href="chapter09.html">9 Applications of Integration</a></h2>
+
+<ul class="list" id="chapter_09_contents">
+<li><a href="section09.01.html">1. Area between curves</a></li>
+<li><a href="section09.02.html">2. Distance, Velocity, Acceleration</a></li>
+<li><a href="section09.03.html">3. Volume</a></li>
+<li><a href="section09.04.html">4. Average value of a function</a></li>
+<li><a href="section09.05.html">5. Work</a></li>
+<li><a href="section09.06.html">6. Center of Mass</a></li>
+<li><a href="section09.07.html">7. Kinetic energy; improper integrals</a></li>
+<li><a href="section09.08.html">8. Probability</a></li>
+<li><a href="section09.09.html">9. Arc Length</a></li>
+<li><a href="section09.10.html">10. Surface Area</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_10_button" src="expand_submenu.png" onclick='toggle("chapter_10_contents")'><a href="chapter10.html">10 Polar Coordinates,  Parametric Equations</a></h2>
+
+<ul class="list" id="chapter_10_contents">
+<li><a href="section10.01.html">1. Polar Coordinates</a></li>
+<li><a href="section10.02.html">2. Slopes in polar coordinates</a></li>
+<li><a href="section10.03.html">3. Areas in polar coordinates</a></li>
+<li><a href="section10.04.html">4. Parametric Equations</a></li>
+<li><a href="section10.05.html">5. Calculus with Parametric Equations</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_11_button" src="expand_submenu.png" onclick='toggle("chapter_11_contents")'><a href="chapter11.html">11 Sequences and Series</a></h2>
+
+<ul class="list" id="chapter_11_contents">
+<li><a href="section11.01.html">1. Sequences</a></li>
+<li><a href="section11.02.html">2. Series</a></li>
+<li><a href="section11.03.html">3. The Integral Test</a></li>
+<li><a href="section11.04.html">4. Alternating Series</a></li>
+<li><a href="section11.05.html">5. Comparison Tests</a></li>
+<li><a href="section11.06.html">6. Absolute Convergence</a></li>
+<li><a href="section11.07.html">7. The Ratio and Root Tests</a></li>
+<li><a href="section11.08.html">8. Power Series</a></li>
+<li><a href="section11.09.html">9. Calculus with Power Series</a></li>
+<li><a href="section11.10.html">10. Taylor Series</a></li>
+<li><a href="section11.11.html">11. Taylor's Theorem</a></li>
+<li><a href="section11.12.html">12. Additional exercises</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_12_button" src="expand_submenu.png" onclick='toggle("chapter_12_contents")'><a href="chapter12.html">12 Three Dimensions</a></h2>
+
+<ul class="list" id="chapter_12_contents">
+<li><a href="section12.01.html">1. The Coordinate System</a></li>
+<li><a href="section12.02.html">2. Vectors</a></li>
+<li><a href="section12.03.html">3. The Dot Product</a></li>
+<li><a href="section12.04.html">4. The Cross Product</a></li>
+<li><a href="section12.05.html">5. Lines and Planes</a></li>
+<li><a href="section12.06.html">6. Other Coordinate Systems</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_13_button" src="expand_submenu.png" onclick='toggle("chapter_13_contents")'><a href="chapter13.html">13 Vector Functions</a></h2>
+
+<ul class="list" id="chapter_13_contents">
+<li><a href="section13.01.html">1. Space Curves</a></li>
+<li><a href="section13.02.html">2. Calculus with vector functions</a></li>
+<li><a href="section13.03.html">3. Arc length and curvature</a></li>
+<li><a href="section13.04.html">4. Motion along a curve</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_14_button" src="expand_submenu.png" onclick='toggle("chapter_14_contents")'><a href="chapter14.html">14 Partial Differentiation</a></h2>
+
+<ul class="list" id="chapter_14_contents">
+<li><a href="section14.01.html">1. Functions of Several Variables</a></li>
+<li><a href="section14.02.html">2. Limits and Continuity</a></li>
+<li><a href="section14.03.html">3. Partial Differentiation</a></li>
+<li><a href="section14.04.html">4. The Chain Rule</a></li>
+<li><a href="section14.05.html">5. Directional Derivatives</a></li>
+<li><a href="section14.06.html">6. Higher order derivatives</a></li>
+<li><a href="section14.07.html">7. Maxima and minima</a></li>
+<li><a href="section14.08.html">8. Lagrange Multipliers</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_15_button" src="expand_submenu.png" onclick='toggle("chapter_15_contents")'><a href="chapter15.html">15 Multiple Integration</a></h2>
+
+<ul class="list" id="chapter_15_contents">
+<li><a href="section15.01.html">1. Volume and Average Height</a></li>
+<li><a href="section15.02.html">2. Double Integrals in Cylindrical Coordinates</a></li>
+<li><a href="section15.03.html">3. Moment and Center of Mass</a></li>
+<li><a href="section15.04.html">4. Surface Area</a></li>
+<li><a href="section15.05.html">5. Triple Integrals</a></li>
+<li><a href="section15.06.html">6. Cylindrical and Spherical Coordinates</a></li>
+<li><a href="section15.07.html">7. Change of Variables</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_16_button" src="expand_submenu.png" onclick='toggle("chapter_16_contents")'><a href="chapter16.html">16 Vector Calculus</a></h2>
+
+<ul class="list" id="chapter_16_contents">
+<li><a href="section16.01.html">1. Vector Fields</a></li>
+<li><a href="section16.02.html">2. Line Integrals</a></li>
+<li><a href="section16.03.html">3. The Fundamental Theorem of Line Integrals</a></li>
+<li><a href="section16.04.html">4. Green's Theorem</a></li>
+<li><a href="section16.05.html">5. Divergence and Curl</a></li>
+<li><a href="section16.06.html">6. Vector Functions for Surfaces</a></li>
+<li><a href="section16.07.html">7. Surface Integrals</a></li>
+<li><a href="section16.08.html">8. Stokes's Theorem</a></li>
+<li><a href="section16.09.html">9. The Divergence Theorem</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_17_button" src="expand_submenu.png" onclick='toggle("chapter_17_contents")'><a href="chapter17.html">17 Differential Equations</a></h2>
+
+<ul class="list" id="chapter_17_contents">
+<li><a href="section17.01.html">1. First Order Differential Equations</a></li>
+<li><a href="section17.02.html">2. First Order Homogeneous Linear Equations</a></li>
+<li><a href="section17.03.html">3. First Order Linear Equations</a></li>
+<li><a href="section17.04.html">4. Approximation</a></li>
+<li><a href="section17.05.html">5. Second Order Homogeneous Equations</a></li>
+<li><a href="section17.06.html">6. Second Order Linear Equations</a></li>
+<li><a href="section17.07.html">7. Second Order Linear Equations, take two</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_18_button" src="expand_submenu.png" onclick='toggle("chapter_18_contents")'><a href="chapter18.html">18 Useful formulas</a></h2>
+
+<ul class="list" id="chapter_18_contents">
+</ul>
+
+</div>
+
+<div id="main">
+
+<div id="next"><a href="chapter14.html"><img src=previous_section.png width="30"></a>&nbsp;&nbsp;<a href="section14.02.html"><img src=next_section.png width="30"></a></div>
+
+<div id="content">
+<p>
+
+
+</p><p>
+In single-variable calculus we were concerned with functions that map
+the real numbers $\R$ to $\R$, sometimes called "real functions of
+one variable'', meaning the "input'' is a single real number and the
+"output'' is likewise a single real number. In the last chapter we
+considered functions taking a real number to a vector, which may also
+be viewed as functions $f\colon\R\to\R^3$, that is, for each input
+value we get a position in space. Now we turn to functions of several
+variables, meaning several input variables, functions
+$f\colon\R^n\to\R$. We will deal primarily with $n=2$ and to a lesser
+extent $n=3$; in fact many of the techniques we discuss can be applied
+to larger values of $n$ as well.
+</p><p>
+A function $f\colon\R^2\to\R$ maps a pair of values $(x,y)$ to a
+single real number. The three-dimensional coordinate system we have
+already used is a convenient way to visualize such functions: above
+each point $(x,y)$ in the $x$-$y$ plane we graph the point $(x,y,z)$,
+where of course $z=f(x,y)$. 
+</p><p>
+</p>
+<div class="example">
+<p>
+<span class="theoremlabel">Example 14.1.1 </span>Consider $f(x,y)=3x+4y-5$. Writing this as 
+$z=3x+4y-5$ and then $3x+4y-z=5$ we recognize the equation of a
+plane. In the form $f(x,y)=3x+4y-5$ the emphasis has shifted: we now
+think of $x$ and $y$ as independent variables and $z$ as a variable
+dependent on them, but the geometry is unchanged.
+
+</p>
+</div><!-- example -->
+<p>
+</p><p>
+</p>
+<div class="example">
+<p>
+<span class="theoremlabel">Example 14.1.2 </span>We have seen that $x^2+y^2+z^2=4$ represents a sphere of radius
+2. We cannot write this in the form $f(x,y)$, since for
+each $x$ and $y$ in the disk $x^2+y^2< 4$ there are two corresponding
+points on the sphere. As with the equation of a circle, we can resolve
+this equation into two functions, $\ds f(x,y)=\sqrt{4-x^2-y^2}$ and 
+$\ds f(x,y)=-\sqrt{4-x^2-y^2}$, representing the upper and lower
+hemispheres. Each of these is an example of a function with a
+restricted domain: only certain values of $x$ and $y$ make sense
+(namely, those for which $x^2+y^2\le 4$) and the graphs of these
+functions are limited to a small region of the plane.
+
+</p>
+</div><!-- example -->
+<p>
+</p><p>
+</p>
+<div class="example">
+<p>
+<span class="theoremlabel">Example 14.1.3 </span>Consider $f=\sqrt x+\sqrt y$. This function is defined only when
+both $x$ and $y$ are non-negative. When $y=0$ we get $f(x,y)=\sqrt x$,
+the familiar square root function in the $x$-$z$ plane, and when $x=0$
+we get the same curve in the $y$-$z$ plane. Generally speaking, we see
+that starting from $f(0,0)=0$ this function gets larger in every direction
+in roughly the same way that the square root function gets
+larger. For example, if we restrict attention to the line $x=y$, we
+get $f(x,y)=2\sqrt x$ and along the line $y=2x$ we have $f(x,y)=\sqrt
+x+\sqrt{2x}=(1+\sqrt2)\sqrt x$.
+
+</p>
+</div><!-- example -->
+<p>
+</p><p>
+<a id="fig:double square root"></a>
+</p><div class='figure'><!-- Partial_Differentiation_square_root_surface.html -->
+<!-- Figure 14.1.1 -->
+
+<div id="double_sq_root" class="webgl_display" style='display:none;text-align:center'></div>
+<div class="no_webgl_display" style='display:block;text-align:center'>
+<a href="http://www.whitman.edu/mathematics/calculus_applets/square_root">
+<img src="images/square_root.png" width=300></a>
+</div>
+<script>
+    MathJax.Hub.Register.StartupHook("End",function(){    
+	var xoffset = -1; yoffset = -1; zoffset = -1;
+	var SCREEN_WIDTH = 400, SCREEN_HEIGHT = 400;
+	var container, scene, camera, renderer, controls;
+	var keyboard = new THREEx.KeyboardState();
+	var clock = new THREE.Clock();
+	var meshFunction;
+	var usegments = 40, vsegments=10;
+	
+	var xMin = xMax = yMin = yMax = 0; // for autosizing window
+	
+	var graphGeometry;
+	
+	if(typeof window.orientation === 'undefined') {
+	    init();
+	    animate();
+	}
+
+	function init() 
+	{
+	    scene = new THREE.Scene();
+	    if ( Detector.webgl )
+		renderer = new THREE.WebGLRenderer( {alpha:true, antialias:true} );
+	    else
+		renderer = new THREE.CanvasRenderer(); 
+	    renderer.setSize(SCREEN_WIDTH, SCREEN_HEIGHT);
+	    container = document.getElementById( 'double_sq_root' );
+	    container.appendChild( renderer.domElement );
+	    var light = new THREE.PointLight(0xffffff,1,100);
+	    light.position.set(3,3,10);
+	    scene.add(light);
+	    var light_amb = new THREE.AmbientLight( 0xaaaaaa ); // soft white light
+	    scene.add( light_amb );
+	    
+	    // Background clear color
+	    // renderer.setClearColorHex( 0xffffff, 0 );
+	    
+	    plot_it_0();
+	    plot_it_1();
+	    resetCamera();
+	}
+	
+	
+	function resetCamera()
+	{
+	    var VIEW_ANGLE = 13, ASPECT = SCREEN_WIDTH / SCREEN_HEIGHT, NEAR = 0.1, FAR = 20000;
+	    // Orthog camera
+	    //      var zoom = 3;
+	    //      camera = new THREE.OrthographicCamera( -zoom*ASPECT,zoom*ASPECT,zoom,-zoom, NEAR, FAR);
+	    //      camera.position.x = zoom*2;
+	    //      camera.position.y = zoom*1.5;
+	    //      camera.position.z = zoom*1.5;
+	    // Perspective camera
+	    camera = new THREE.PerspectiveCamera( VIEW_ANGLE, ASPECT, NEAR, FAR);
+	    scene.add(camera);
+	    camera.position.set(10,-10,10);
+	    camera.lookAt(scene.position);  
+	    
+	    camera.up.set( 0, 0, 1 ); 
+	    scene.add(camera);
+	    
+	    controls = new THREE.TrackballControls( camera, renderer.domElement );
+	    controls.rotateSpeed = 1;
+	    THREEx.WindowResize(renderer, camera);
+	}
+	
+	function animate() 
+	{
+	    requestAnimationFrame( animate );
+	    if ($('#double_sq_root').visible(true) && active ) {
+		render();
+		update();
+	    }
+	}
+
+	function update()
+	{
+	    if ( keyboard.pressed("z") ) 
+	    { 
+		// do something
+	    }
+	    
+	    controls.update();
+	    //	stats.update();
+	}
+	
+	function render() 
+	{
+	    renderer.render( scene, camera );
+	}
+	
+	
+	function plot_it_0()
+	{
+	    var loader = new THREE.TextureLoader();
+	    var gridTexture = loader.load( 'images/square.png');
+	    gridTexture.wrapS = gridTexture.wrapT = THREE.RepeatWrapping;
+	    gridTexture.repeat.set( 20,20 );
+	    var normMaterial = new THREE.MeshBasicMaterial( { transparent:true, opacity:0.3, vertexColors: THREE.VertexColors,side:THREE.DoubleSide } );
+	    var gridMaterial = new THREE.MeshBasicMaterial( { map:gridTexture, vertexColors: THREE.VertexColors,side:THREE.DoubleSide } );
+	    var useg = 20,vseg = 20
+	    var i;
+	    var lim = 10;
+	    function x(u,v) {
+		return u+xoffset;
+	    }
+	    function y(u,v) {
+		return v+yoffset;
+	    }
+	    function z(u,v) {
+		return Math.sqrt(u)+Math.sqrt(v)+zoffset;
+	    }
+	    createGraph(x,y,z,0,2,0,2,useg,vseg,0,scene,gridMaterial,new THREE.Color( 0xaaaa00 ),false,false);
+//	    createGraph(x,y,z,0,2*Math.PI,0.8,2.9,useg,vseg,0,scene,frontMaterial,new THREE.Color( 0x0000aa ),true);
+	}
+	
+	function plot_it_1()
+	{
+	    var spritex = makeTextSprite( "x", { fontsize: 30, borderColor: {r:0, g:0, b:255, a:1.0}, xoffset:10 } );
+	    spritex.position.set(2+xoffset,yoffset,0+zoffset);
+	    scene.add( spritex );
+	    var spritey = makeTextSprite( "y", { fontsize: 30, borderColor: {r:0, g:0, b:255, a:1.0} } );
+	    spritey.position.set(xoffset,2+yoffset,zoffset);
+	    scene.add( spritey );
+	    var spritez = makeTextSprite( "z", { fontsize: 30, borderColor: {r:0, g:0, b:255, a:1.0}, yoffset:-10 } );
+	    spritez.position.set(xoffset,yoffset,2+zoffset);
+	    scene.add( spritez );
+	    
+	    var axes = buildAxes();
+	    scene.add(axes);
+	}
+	
+	function createGraph(xFunc,yFunc,zFunc,uMin,uMax,vMin,vMax,useg,vseg,clr,sc,material,clr,solid,box)
+	{
+	    var graphMesh;
+	    uRange = uMax - uMin;
+	    vRange = vMax - vMin;
+	    meshFunction = function(u0, v0) 
+	    {
+		var u = uRange * u0 + uMin;
+		var v = vRange * v0 + vMin;
+		var x = xFunc(u,v);
+		var y = yFunc(u,v);
+		var z = zFunc(u,v);
+		if ( isNaN(x) || isNaN(y) || isNaN(z) )
+		    return new THREE.Vector3(0,0,0); // TODO: better fix
+		else
+		    return new THREE.Vector3(x, y, z);
+	    };
+	    
+	    // true => sensible image tile repeat...
+	    graphGeometry = new THREE.ParametricGeometry( meshFunction, useg, vseg, true );
+	    ///////////////////////////////////////////////
+	    // calculate vertex colors based on Z values //
+	    ///////////////////////////////////////////////
+	    graphGeometry.computeBoundingBox();
+	    zMin = graphGeometry.boundingBox.min.z;
+	    zMax = graphGeometry.boundingBox.max.z;
+	    zRange = zMax - zMin;
+	    var defaultcolor = new THREE.Color( 0xff0000 );
+	    var color, point, face, numberOfSides, vertexIndex;
+	    // faces are indexed using characters
+	    var faceIndices = [ 'a', 'b', 'c', 'd' ];
+	    // first, assign colors to vertices as desired
+	    if (!solid) {
+		for ( var i = 0; i < graphGeometry.vertices.length; i++ ) 
+		{
+		    point = graphGeometry.vertices[ i ];
+		    color = new THREE.Color( 0x0000ff );
+		    //	  color.setHSL( 0.7 *(10-point.x)/10 , 1, 0.1+0.3*(10 - point.z) / 10 );
+		    color.setHSL( (zMax - (point.z - zoffset)/zRange), 1, 0.5 );
+		    graphGeometry.colors[i] = color; // use this array for convenience
+		}
+	    }
+	    // copy the colors as necessary to the face's vertexColors array.
+	    for ( var i = 0; i < graphGeometry.faces.length; i++ ) 
+	    {
+		face = graphGeometry.faces[ i ];
+		numberOfSides = ( face instanceof THREE.Face3 ) ? 3 : 4;
+		for( var j = 0; j < numberOfSides; j++ ) 
+		{
+		    if (solid) {
+			face.vertexColors[ j ] = clr;
+		    } else {
+			vertexIndex = face[ faceIndices[ j ] ];
+			face.vertexColors[ j ] = graphGeometry.colors[vertexIndex ];
+			//	      face.vertexColors[ j ] = clr;
+		    }
+		}
+	    }
+	    ///////////////////////
+	    // end vertex colors //
+	    ///////////////////////
+	    
+	    
+	    xMin = graphGeometry.boundingBox.min.x;
+	    xMax = graphGeometry.boundingBox.max.x;
+	    yMin = graphGeometry.boundingBox.min.y;
+	    yMax = graphGeometry.boundingBox.max.y;
+	    
+	    if (graphMesh) 
+	    {
+		sc.remove( graphMesh );
+		// renderer.deallocateObject( graphMesh );
+	    }
+	    
+	    graphMesh = new THREE.Mesh( graphGeometry,material );
+	    
+	    graphMesh.doubleSided = true;
+	    sc.add(graphMesh);
+	    if (box) {
+		var bbox = new THREE.BoundingBoxHelper( graphMesh, 0x000000 );
+		bbox.update();
+		scene.add( bbox );	
+	    }
+	}
+
+	function buildAxes() {
+	    var axes = new THREE.Object3D();
+	    
+	    axes.add( buildAxis( new THREE.Vector3( xoffset, yoffset, zoffset ), new THREE.Vector3( 2+xoffset, yoffset, zoffset ), 0x000000, false ) ); // +X
+//	    axes.add( buildAxis( new THREE.Vector3( xoffset, yoffset, zoffset ), new THREE.Vector3( 0, 0, zoffset ), 0x000000, true) ); // -X
+	    axes.add( buildAxis( new THREE.Vector3( xoffset, yoffset, zoffset ), new THREE.Vector3( xoffset, 2+yoffset, zoffset ), 0x000000, false ) ); // +Y
+//	    axes.add( buildAxis( new THREE.Vector3( xoffset, yoffset, zoffset ), new THREE.Vector3( 0, 0, zoffset ), 0x000000, true ) ); // -Y
+	    axes.add( buildAxis( new THREE.Vector3( xoffset, yoffset, zoffset ), new THREE.Vector3( xoffset, yoffset, 2+zoffset ), 0x000000, false ) ); // +Z
+//	    axes.add( buildAxis( new THREE.Vector3( xoffset, yoffset, 0 ), new THREE.Vector3( 0, 0, -length ), 0x0000FF, true ) ); // -Z
+	    return axes;
+	}	
+	
+	function buildAxis( src, dst, colorHex, dashed ) {
+	    var geom = new THREE.Geometry();
+	    var mat;
+	    
+	    if(dashed) {
+		mat = new THREE.LineDashedMaterial({ linewidth: 1, color: colorHex, dashSize: 0.05, gapSize: 0.05 });
+	    } else {
+		mat = new THREE.LineBasicMaterial({ linewidth: 1, color: colorHex });
+	    }
+	    
+	    geom.vertices.push( src.clone() );
+	    geom.vertices.push( dst.clone() );
+	    geom.computeLineDistances();
+	    
+	    var axis = new THREE.Line( geom, mat );
+	    
+	    return axis;
+	}
+
+	function makeTextSprite(message, opts) {
+	    var parameters = opts || {};
+	    var fontface = parameters.fontface || 'Helvetiker';
+	    var fontsize = parameters.fontsize || 70;
+	    var borderThickness = parameters.borderThickness || 1;
+	    var xoffset = parameters.xoffset || 0;
+	    var yoffset = parameters.yoffset || 0;
+	    var canvas = document.createElement('canvas');
+	    canvas.width = canvas.height = 200;
+	    var context = canvas.getContext('2d');
+	    context.font = fontsize + "px " + fontface;
+
+  // get size data (height depends only on font size)
+	    var metrics = context.measureText(message);
+	    var textWidth = metrics.width;
+	    
+  // text color
+	    context.fillStyle = 'rgba(0, 0, 0, 1.0)';
+	    context.fillText(message, canvas.width/2+xoffset, canvas.width/2+yoffset);
+//	    alert(canvas.width);
+  // canvas contents will be used for a texture
+	    var texture = new THREE.Texture(canvas)
+	    texture.minFilter = THREE.LinearFilter;
+	    texture.needsUpdate = true;
+	    //roundRect(context, borderThickness, borderThickness, textWidth + 2 * borderThickness, fontsize * 1.4 + 2* borderThickness, 6);
+	    var spriteMaterial = new THREE.SpriteMaterial({
+		map: texture
+//              useScreenCoordinates: false
+	    });
+	    var sprite = new THREE.Sprite(spriteMaterial);
+	    sprite.scale.set(1,1,1);
+	    return sprite;
+	}
+    });
+</script>  
+<div class='figcaption'><span class="figurenumber">Figure 14.1.1.</span> $f(x,y)=\sqrt x+\sqrt y$</div></div>
+<p>
+</p><p>
+A computer program that plots such surfaces can be very useful, as it
+is often difficult to get a good idea of what they look like. Still,
+it is valuable to be able to visualize relatively simple surfaces
+without such aids. As in the previous example, it is often a good idea
+to examine the function on restricted subsets of the plane, especially
+lines. It can also be useful to identify those points $(x,y)$ that
+share a common $z$-value.
+</p><p>
+</p>
+<div class="example">
+<p>
+<span class="theoremlabel">Example 14.1.4 </span>Consider $f(x,y)=x^2+y^2$. When $x=0$ this becomes
+$f=y^2$, a parabola in the $y$-$z$ plane; when $y=0$ we get the
+"same'' parabola $f=x^2$ in the $x$-$z$ plane. 
+Now consider the line $y=kx$. If we simply replace $y$ by $kx$ we get
+$f(x,y)=(1+k^2)x^2$ which is a parabola, but it does not really
+"represent'' the cross-section along $y=kx$, because the cross-section
+has the line $y=kx$ where the horizontal axis should be.
+In order to pretend that this line is the horizontal axis, we need to
+write the function in terms of the distance from the origin, which is
+$\ds \sqrt{x^2+y^2}=\sqrt{x^2+k^2x^2}$. Now
+$\ds f(x,y)=x^2+k^2x^2=(\sqrt{x^2+k^2x^2})^2$. So the cross-section is the
+"same'' parabola as in the $x$-$z$ and $y$-$z$ planes, namely, the
+height is always the distance from the origin squared. This means that 
+$f(x,y)=x^2+y^2$ can be formed by starting with $z=x^2$ and rotating
+this curve around the $z$ axis.
+</p><p>
+Finally, picking a value $z=k$, at what points does
+$f(x,y)=k$? This means $x^2+y^2=k$, which we recognize as the equation
+of a circle of radius $\sqrt k$. So the graph of $f(x,y)$ has
+parabolic cross-sections, and the same height everywhere on concentric
+circles with center at the origin. This fits with what we have already
+discovered. 
+
+</p>
+</div><!-- example -->
+<p>
+</p><p>
+<a id="fig:parabolic bowl"></a>
+</p><div class='figure'><!-- Partial_Differentiation_surface_and_circular_level_curves.html -->
+<!-- Figure 14.1.2 -->
+
+<table>
+<tr>
+<td style="text-align: center">
+<div id="parabolic_surface" class="webgl_display" style="text-align: center;display:none"></div>
+<div id="parabolic_surface" class="no_webgl_display"
+     style="text-align: center;display:block">
+<a href="http://www.whitman.edu/mathematics/calculus_applets/parabolic_bowl">
+<img src="images/parabolic_bowl.png" width=350></a>
+</div>
+</td>
+<td style="text-align: center">
+ <img src="images/parabolic_level_curves.png" width="300px">
+</td>
+</tr>
+</table>
+
+<script>
+    MathJax.Hub.Register.StartupHook("End",function(){    
+	var xoffset = 0; yoffset = 0; zoffset = -0.5;
+	var SCREEN_WIDTH = 400, SCREEN_HEIGHT = 400;
+	var container, scene, camera, renderer, controls;
+	var keyboard = new THREEx.KeyboardState();
+	var clock = new THREE.Clock();
+	var meshFunction;
+	var usegments = 40, vsegments=10;
+	
+	var xMin = xMax = yMin = yMax = 0; // for autosizing window
+	
+	var graphGeometry;
+	
+	if(typeof window.orientation === 'undefined') {
+	    init();
+	    animate();
+	}
+
+	function init() 
+	{
+	    scene = new THREE.Scene();
+	    if ( Detector.webgl )
+		renderer = new THREE.WebGLRenderer( {alpha:true, antialias:true} );
+	    else
+		renderer = new THREE.CanvasRenderer(); 
+	    renderer.setSize(SCREEN_WIDTH, SCREEN_HEIGHT);
+	    container = document.getElementById( 'parabolic_surface' );
+	    container.appendChild( renderer.domElement );
+	    var light = new THREE.PointLight(0xffffff,1,100);
+	    light.position.set(3,3,10);
+	    scene.add(light);
+	    var light_amb = new THREE.AmbientLight( 0xaaaaaa ); // soft white light
+	    scene.add( light_amb );
+	    
+	    // Background clear color
+	    // renderer.setClearColorHex( 0xffffff, 0 );
+	    
+	    plot_it_0();
+	    plot_it_1();
+	    resetCamera();
+	}
+	
+	
+	function resetCamera()
+	{
+	    var VIEW_ANGLE = 10, ASPECT = SCREEN_WIDTH / SCREEN_HEIGHT, NEAR = 0.1, FAR = 20000;
+	    // Orthog camera
+	    //      var zoom = 3;
+	    //      camera = new THREE.OrthographicCamera( -zoom*ASPECT,zoom*ASPECT,zoom,-zoom, NEAR, FAR);
+	    //      camera.position.x = zoom*2;
+	    //      camera.position.y = zoom*1.5;
+	    //      camera.position.z = zoom*1.5;
+	    // Perspective camera
+	    camera = new THREE.PerspectiveCamera( VIEW_ANGLE, ASPECT, NEAR, FAR);
+	    scene.add(camera);
+	    camera.position.set(10,10,10);
+	    camera.lookAt(scene.position);  
+	    
+	    camera.up.set( 0, 0, 1 ); 
+	    scene.add(camera);
+	    
+	    controls = new THREE.TrackballControls( camera, renderer.domElement );
+	    controls.rotateSpeed = 1;
+	    THREEx.WindowResize(renderer, camera);
+	}
+	
+	function animate() 
+	{
+	    requestAnimationFrame( animate );
+	    if ($('#parabolic_surface').visible(true) && active ) {
+		render();
+		update();
+	    }
+	}
+
+	function update()
+	{
+	    if ( keyboard.pressed("z") ) 
+	    { 
+		// do something
+	    }
+	    
+	    controls.update();
+	    //	stats.update();
+	}
+	
+	function render() 
+	{
+	    renderer.render( scene, camera );
+	}
+	
+	
+	function plot_it_0()
+	{
+	    var loader = new THREE.TextureLoader();
+	    var gridTexture = loader.load( 'images/square.png');
+	    gridTexture.wrapS = gridTexture.wrapT = THREE.RepeatWrapping;
+	    gridTexture.repeat.set( 20,20 );
+	    var normMaterial = new THREE.MeshBasicMaterial( { transparent:true, opacity:0.3, vertexColors: THREE.VertexColors,side:THREE.DoubleSide } );
+	    var gridMaterial = new THREE.MeshBasicMaterial( { map:gridTexture, vertexColors: THREE.VertexColors,side:THREE.DoubleSide } );
+	    var useg = 40,vseg = 20
+	    var i;
+	    var lim = 10;
+	    function x(u,v) {
+		return v*Math.cos(u)+xoffset;
+	    }
+	    function y(u,v) {
+		return v*Math.sin(u)+yoffset;
+	    }
+	    function z(u,v) {
+		return v*v+zoffset;
+	    }
+	    createGraph(x,y,z,0,2*Math.PI,0,1,useg,vseg,0,scene,gridMaterial,new THREE.Color( 0xaaaa00 ),false,false);
+//	    createGraph(x,y,z,0,2*Math.PI,0.8,2.9,useg,vseg,0,scene,frontMaterial,new THREE.Color( 0x0000aa ),true);
+	}
+	
+	function plot_it_1()
+	{
+	    var spritex = makeTextSprite( "x", { fontsize: 23, borderColor: {r:0, g:0, b:255, a:1.0}, xoffset:-20 } );
+	    spritex.position.set(1+xoffset,yoffset,0+zoffset);
+	    scene.add( spritex );
+	    var spritey = makeTextSprite( "y", { fontsize: 23, borderColor: {r:0, g:0, b:255, a:1.0} } );
+	    spritey.position.set(xoffset,1+yoffset,zoffset);
+	    scene.add( spritey );
+	    var spritez = makeTextSprite( "z", { fontsize: 23, borderColor: {r:0, g:0, b:255, a:1.0}, yoffset:0 } );
+	    spritez.position.set(xoffset,yoffset,1.5+zoffset);
+	    scene.add( spritez );
+	    
+	    var axes = buildAxes();
+	    scene.add(axes);
+	}
+	
+	function createGraph(xFunc,yFunc,zFunc,uMin,uMax,vMin,vMax,useg,vseg,clr,sc,material,clr,solid,box)
+	{
+	    var graphMesh;
+	    uRange = uMax - uMin;
+	    vRange = vMax - vMin;
+	    meshFunction = function(u0, v0) 
+	    {
+		var u = uRange * u0 + uMin;
+		var v = vRange * v0 + vMin;
+		var x = xFunc(u,v);
+		var y = yFunc(u,v);
+		var z = zFunc(u,v);
+		if ( isNaN(x) || isNaN(y) || isNaN(z) )
+		    return new THREE.Vector3(0,0,0); // TODO: better fix
+		else
+		    return new THREE.Vector3(x, y, z);
+	    };
+	    
+	    // true => sensible image tile repeat...
+	    graphGeometry = new THREE.ParametricGeometry( meshFunction, useg, vseg, true );
+	    ///////////////////////////////////////////////
+	    // calculate vertex colors based on Z values //
+	    ///////////////////////////////////////////////
+	    graphGeometry.computeBoundingBox();
+	    zMin = graphGeometry.boundingBox.min.z;
+	    zMax = graphGeometry.boundingBox.max.z;
+	    zRange = zMax - zMin;
+	    var defaultcolor = new THREE.Color( 0xff0000 );
+	    var color, point, face, numberOfSides, vertexIndex;
+	    // faces are indexed using characters
+	    var faceIndices = [ 'a', 'b', 'c', 'd' ];
+	    // first, assign colors to vertices as desired
+	    if (!solid) {
+		for ( var i = 0; i < graphGeometry.vertices.length; i++ ) 
+		{
+		    point = graphGeometry.vertices[ i ];
+		    color = new THREE.Color( 0x0000ff );
+		    //	  color.setHSL( 0.7 *(10-point.x)/10 , 1, 0.1+0.3*(10 - point.z) / 10 );
+		    color.setHSL( (zMax - (point.z - zoffset)/zRange), 1, 0.5 );
+		    graphGeometry.colors[i] = color; // use this array for convenience
+		}
+	    }
+	    // copy the colors as necessary to the face's vertexColors array.
+	    for ( var i = 0; i < graphGeometry.faces.length; i++ ) 
+	    {
+		face = graphGeometry.faces[ i ];
+		numberOfSides = ( face instanceof THREE.Face3 ) ? 3 : 4;
+		for( var j = 0; j < numberOfSides; j++ ) 
+		{
+		    if (solid) {
+			face.vertexColors[ j ] = clr;
+		    } else {
+			vertexIndex = face[ faceIndices[ j ] ];
+			face.vertexColors[ j ] = graphGeometry.colors[vertexIndex ];
+			//	      face.vertexColors[ j ] = clr;
+		    }
+		}
+	    }
+	    ///////////////////////
+	    // end vertex colors //
+	    ///////////////////////
+	    
+	    
+	    xMin = graphGeometry.boundingBox.min.x;
+	    xMax = graphGeometry.boundingBox.max.x;
+	    yMin = graphGeometry.boundingBox.min.y;
+	    yMax = graphGeometry.boundingBox.max.y;
+	    
+	    if (graphMesh) 
+	    {
+		sc.remove( graphMesh );
+		// renderer.deallocateObject( graphMesh );
+	    }
+	    
+	    graphMesh = new THREE.Mesh( graphGeometry,material );
+	    
+	    graphMesh.doubleSided = true;
+	    sc.add(graphMesh);
+	    if (box) {
+		var bbox = new THREE.BoundingBoxHelper( graphMesh, 0x000000 );
+		bbox.update();
+		scene.add( bbox );	
+	    }
+	}
+
+	function buildAxes() {
+	    var axes = new THREE.Object3D();
+	    
+	    axes.add( buildAxis( new THREE.Vector3( xoffset, yoffset, zoffset ), new THREE.Vector3( 1+xoffset, yoffset, zoffset ), 0x000000, false ) ); // +X
+	    axes.add( buildAxis( new THREE.Vector3( xoffset, yoffset, zoffset ), new THREE.Vector3( -1+xoffset, yoffset, zoffset ), 0x000000, true) ); // -X
+	    axes.add( buildAxis( new THREE.Vector3( xoffset, yoffset, zoffset ), new THREE.Vector3( xoffset, 1+yoffset, zoffset ), 0x000000, false ) ); // +Y
+	    axes.add( buildAxis( new THREE.Vector3( xoffset, yoffset, zoffset ), new THREE.Vector3( xoffset, -1+yoffset, zoffset ), 0x000000, true ) ); // -Y
+	    axes.add( buildAxis( new THREE.Vector3( xoffset, yoffset, zoffset ), new THREE.Vector3( xoffset, yoffset, 1.5+zoffset ), 0x000000, false ) ); // +Z
+//	    axes.add( buildAxis( new THREE.Vector3( xoffset, yoffset, 0 ), new THREE.Vector3( 0, 0, -length ), 0x0000FF, true ) ); // -Z
+	    return axes;
+	}	
+	
+	function buildAxis( src, dst, colorHex, dashed ) {
+	    var geom = new THREE.Geometry();
+	    var mat;
+	    
+	    if(dashed) {
+		mat = new THREE.LineDashedMaterial({ linewidth: 1, color: colorHex, dashSize: 0.05, gapSize: 0.05 });
+	    } else {
+		mat = new THREE.LineBasicMaterial({ linewidth: 1, color: colorHex });
+	    }
+	    
+	    geom.vertices.push( src.clone() );
+	    geom.vertices.push( dst.clone() );
+	    geom.computeLineDistances();
+	    
+	    var axis = new THREE.Line( geom, mat );
+	    
+	    return axis;
+	}
+
+	function makeTextSprite(message, opts) {
+	    var parameters = opts || {};
+	    var fontface = parameters.fontface || 'Helvetiker';
+	    var fontsize = parameters.fontsize || 70;
+	    var borderThickness = parameters.borderThickness || 1;
+	    var xoffset = parameters.xoffset || 0;
+	    var yoffset = parameters.yoffset || 0;
+	    var canvas = document.createElement('canvas');
+	    canvas.width = canvas.height = 200;
+	    var context = canvas.getContext('2d');
+	    context.font = fontsize + "px " + fontface;
+
+  // get size data (height depends only on font size)
+	    var metrics = context.measureText(message);
+	    var textWidth = metrics.width;
+	    
+  // text color
+	    context.fillStyle = 'rgba(0, 0, 0, 1.0)';
+	    context.fillText(message, canvas.width/2+xoffset, canvas.width/2+yoffset);
+//	    alert(canvas.width);
+  // canvas contents will be used for a texture
+	    var texture = new THREE.Texture(canvas)
+	    texture.minFilter = THREE.LinearFilter;
+	    texture.needsUpdate = true;
+	    //roundRect(context, borderThickness, borderThickness, textWidth + 2 * borderThickness, fontsize * 1.4 + 2* borderThickness, 6);
+	    var spriteMaterial = new THREE.SpriteMaterial({
+		map: texture
+//              useScreenCoordinates: false
+	    });
+	    var sprite = new THREE.Sprite(spriteMaterial);
+	    sprite.scale.set(1,1,1);
+	    return sprite;
+	}
+    });
+</script>  
+<div class='figcaption'><span class="figurenumber">Figure 14.1.2.</span> $f(x,y)=x^2 + y^2$</div></div>
+<p>
+</p><p>
+As in this example, the points $(x,y)$ such that $f(x,y)=k$ usually
+form a curve, called a <b>level curve</b> of the
+function. A graph of some level curves can give a good idea of the
+shape of the surface; it looks much like a
+<a href="https://www.google.com/maps/place/Mount+Rainier+National+Park/@46.8819297,-121.7152849,15z/data=!4m5!3m4!1s0x5490cde6eec94b87:0x5cf4a1fb4f91a418!8m2!3d46.8799663!4d-121.7269094!5m1!1e4">topographic map</a>
+of the
+surface. In figure <a href="section14.01.html#fig:parabolic bowl">14.1.2</a> both the surface and
+its associated level curves are shown. Note that, as with a
+topographic map, the heights corresponding to the level curves are
+evenly spaced, so that where curves are closer together the surface is
+steeper.
+</p><p>
+Functions $f\colon \R^n\to\R$ behave much like functions of two
+variables; we will on occasion discuss functions of three variables.
+The principal difficulty with such functions is visualizing them, as
+they do not "fit'' in the three dimensions we are familiar with. For
+three variables there are various ways to interpret functions that
+make them easier to understand. For example, $f(x,y,z)$ could
+represent the temperature at the point $(x,y,z)$, or the pressure, or
+the strength of a magnetic field.  It remains useful to consider those
+points at which $f(x,y,z)=k$, where $k$ is some constant value. If
+$f(x,y,z)$ is temperature, the set of points $(x,y,z)$ such that
+$f(x,y,z)=k$ is the collection of points in space with temperature $k$;
+in general this is called a <b>level set</b>; for
+three variables, a level set is typically a surface, called a 
+<b>level surface</b>.
+</p><p>
+</p>
+<div class="example">
+<p>
+<span class="theoremlabel">Example 14.1.5 </span>Suppose the temperature at $(x,y,z)$ is 
+$T(x,y,z)=e^{-(x^2+y^2+z^2)}$. This function has a maximum value of 1
+at the origin, and tends to 0 in all directions. If $k$ is positive
+and at most 1,
+the set of points for which $T(x,y,z)=k$ is those points satisfying
+$x^2+y^2+z^2=-\ln k$, a sphere centered at the origin. The level
+surfaces are the concentric spheres centered at the origin.
+
+</p>
+</div><!-- example -->
+<p>
+</p><p>
+</p>
+<a id="exercises"></a><h2 class="exercises">Exercises 14.1</h2>
+<p></p><p>
+You can use Sage to graph surfaces to check your work:
+</p><p><div class='figure'><!--  -->
+<!-- 14.1 -->
+<script>
+$(function () {sagecell.makeSagecell({inputLocation: '.surface_plot', linked: true});});
+</script>
+<div class="surface_plot"><script type="text/code">
+y=var('y');
+plot3d(x^2+y^2,(x,-2,2),(y,-2,2));
+</script></div>
+<!--
+plot3d(x^2+y^2,(x,-2,2),(y,-2,2),viewer='threejs');
+-->
+
+</div></p><p></p><p>
+</p>
+<p class="exercise"><b>Ex 14.1.1</b>
+Let $f(x,y)=(x-y)^2$. 
+Determine the equations and shapes of the cross-sections when
+$x=0$, $y=0$, $x=y$, and describe the level curves.
+Use a three-dimensional graphing tool to graph the surface.
+(<a knowl="" class="internal" value="$z=y^2$, $z=x^2$, $z=0$, lines of slope 1">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 14.1.2</b>
+Let $f(x,y)=|x|+|y|$. 
+Determine the equations and shapes of the cross-sections when
+$x=0$, $y=0$, $x=y$, and describe the level curves.
+Use a three-dimensional graphing tool to graph the surface.
+(<a knowl="" class="internal" value="$z=|y|$, $z=|x|$, $z=2|x|$, diamonds">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 14.1.3</b>
+Let $f(x,y)=e^{-(x^2+y^2)}\sin(x^2+y^2)$. 
+Determine the equations and shapes of the cross-sections when
+$x=0$, $y=0$, $x=y$, and describe the level curves.
+Use a three-dimensional graphing tool to graph the surface.
+(<a knowl="" class="internal" value="$z=e^{-y^2}\sin(y^2)$, $z=e^{-x^2}\sin(x^2)$, 
+$z=e^{-2x^2}\sin(2x^2)$, circles">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 14.1.4</b>
+Let $f(x,y)=\sin(x-y)$. 
+Determine the equations and shapes of the cross-sections when
+$x=0$, $y=0$, $x=y$, and describe the level curves.
+Use a three-dimensional graphing tool to graph the surface.
+(<a knowl="" class="internal" value="$z=-\sin(y)$, $z=\sin(x)$, 
+$z=0$, lines of slope 1">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 14.1.5</b>
+Let $f(x,y)=(x^2-y^2)^2$. 
+Determine the equations and shapes of the cross-sections when
+$x=0$, $y=0$, $x=y$, and describe the level curves.
+Use a three-dimensional graphing tool to graph the surface.
+(<a knowl="" class="internal" value="$z=y^4$, $z=x^4$, 
+$z=0$, hyperbolas">answer</a>)
+
+</p><p>
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 14.1.6</b>
+Find the domain of each of the following functions of two variables:
+</p><p>
+</p><ul><p>
+</p><p> a.   $\ds\sqrt{9-x^2}+\sqrt{y^2-4}$
+</p><p> b.   $\arcsin(x^2+y^2-2)$
+</p><p> c.   $\ds\sqrt{16-x^2-4y^2}$
+</p></ul><p>
+(<a knowl="" class="internal" value="(a) $\{(x,y)\mid |x|\le3 \hbox{and} |y|\ge2\}$
+(b) $\{(x,y)\mid 1\le x^2+y^2\le3\}$
+(c) $\{(x,y)\mid x^2+4y^2\le16\}$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 14.1.7</b>
+Below are two sets of level curves.  One is for a cone, one
+is for a paraboloid.  Which is which? Explain.
+</p><p>
+</p><p><div class='figure'><!-- Partial_Differentiation_two_level_curve_graphs.html -->
+<!-- Figure for exercise 4.1.7 -->
+<table style="margin-left:auto;margin-right:auto;width:100%">
+<tr><td align=center>
+<img src="images/parabolic_level_curves_2.png" width="100%">
+</td><td align=center>
+<img src="images/conical_level_curves.png" width="100%">
+</td></tr></table>
+
+</div></p><p>
+</p><p>
+
+
+</p><p>
+</div></div></body>
+</html>

@@ -1,0 +1,636 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+<meta http-equiv="Content-Language" Content="en">
+<title>5.2 The first derivative test</title>
+<!--
+<script type="text/javascript" src="js/deployJava.js"></script>
+<link rel="stylesheet" type="text/css" href="http://jsxgraph.uni-bayreuth.de/distrib/jsxgraph.css" />
+-->
+<!-- use Jsxgraph to create figures: http://jsxgraph.uni-bayreuth.de/wp/ -->
+<link rel="stylesheet" type="text/css" href="css/jsxgraph.css" />
+<script type="text/javascript" src="js/jsxgraphcore.js"></script>
+<script src="js/three.min.js"></script>
+<script src="js/Detector.js"></script>
+<script src="js/TrackballControls.js"></script>
+<script src="js/OrthographicTrackballControls.js"></script>
+<script src="js/THREEx.KeyboardState.js"></script>
+<script src="js/THREEx.FullScreen.js"></script>
+<script src="js/THREEx.WindowResize.js"></script>
+<script type='text/javascript' src='js/DAT.GUI.min.js'></script>
+<script>
+window.requestAnimFrame = (function(){
+    return  window.requestAnimationFrame       || 
+        window.webkitRequestAnimationFrame || 
+        window.mozRequestAnimationFrame    || 
+        window.oRequestAnimationFrame      || 
+        window.msRequestAnimationFrame     || 
+        function(/* function */ callback, /* DOMElement */
+            element){
+            window.setTimeout(callback, 1000 / 60);
+        };
+})();
+</script>
+<script src="js/ifvisible.min.js"></script>
+<script src="js/conrec.js"></script>
+<script>
+active = true;
+ifvisible.setIdleDuration(10);
+ifvisible.on("idle", function(){
+    active = false;
+//    console.log("idle");
+});
+
+ifvisible.on("wakeup", function(){
+    active = true;
+//    console.log("wakeup");
+});
+</script>
+<script src="js/parser.js"></script>
+<link href="css/whitman.css" rel="stylesheet" type="text/css" /><link href="css/calculus.css" rel="stylesheet" type="text/css" /><link href="css/knowlstyle.css" rel="stylesheet" type="text/css" />
+
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  extensions: ["tex2jax.js","TeX/AMSmath.js","TeX/AMSsymbols.js"],
+  jax: ["input/TeX","output/HTML-CSS"],
+  tex2jax: {
+    inlineMath: [['$','$'],["\\(","\\)"]],
+    processEscapes: true,
+  },
+TeX: {
+   Macros: {
+    val: "\\mathop{\\rm val}",
+    divides: "\\mid",
+    ndivides: "\\mathrel{\\not|}",
+    fix: "\\mathop{\\rm fix}",
+    id: "\\mathop{\\rm id}",
+    na: "\\mathop{\\rm na}",
+    d: "\\mathop{\\rm\\strut d}\\nolimits ",
+    legendre: ["\\left(\\frac{#1}{#2}\\right)",2],
+    normalbaselines: "",
+    notdiv: "\\nmid",
+    implies: "\\Rightarrow",
+    iff: "\\Leftrightarrow",
+    sevenpoint: "\\scriptsize",
+    ds: "\\displaystyle",
+    lcm: "\\operatorname{lcm}",
+    arccot: "\\operatorname{arccot}",
+    arcsec: "\\operatorname{arcsec}",
+    arccsc: "\\operatorname{arccsc}",
+    arccosh: "\\operatorname{arccosh}",
+    arcsinh: "\\operatorname{arcsinh}",
+    arcsech: "\\operatorname{arcsech}",
+    sech: "\\operatorname{sech}",
+    csch: "\\operatorname{csch}",
+    R: "{\\mathbb R}",
+    sb: "_",
+    sp: "^",
+    Q: "{\\mathbb Q}",
+    C: "{\\mathbb C}",
+    N: "{\\mathbb N}",
+    Z: "{\\mathbb Z}",
+    U: "{\\mathbb U}",
+    v: ["\\langle #1\\rangle",1],
+    dint: ["{\\mathchoice{\\mathop{\\int\\!\\!\\!\\int}_{#1}}{\\mathop{\\int\\!\\!\\!\\int}_{#1}}{\\mathop{\\int\\!\\!\\!\\int}}{\\mathop{\\int\\!\\!\\!\\int}}}",1],
+    tint: ["{\\mathchoice{\\mathop{\\int\\!\\!\\!\\int\\!\\!\\!\\int}_{#1\\;}}{\\mathop{\\int\\!\\!\\!\\int\\!\\!\\!\\int}_{#1}}{\\mathop{\\int\\!\\!\\!\\int\\!\\!\\!\\int}_{#1}}{\\mathop{\\int\\!\\!\\!\\int\\!\\!\\!\\int}_{#1}}}",1]
+   }
+},
+  "HTML-CSS": { scale: 100},
+  menuSettings: { zscale: "150%", zoom: "Double-Click" }
+});
+    JXG.Options.text.display = 'html';
+    JXG.Options.text.useMathJax = true;
+</script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/math
+jax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+<script>
+MathJax.Hub.Register.StartupHook("End",function () {
+  if(typeof window.orientation === 'undefined'){
+    var i,x;
+    x = document.getElementsByClassName("webgl_display");
+    for (i=0; i<x.length; i++) {
+      x[i].style.display = "block";
+    }
+    x = document.getElementsByClassName("no_webgl_display");
+    for (i=0; i<x.length; i++) {
+      x[i].style.display = "none";
+    }
+  }
+});
+</script>
+
+<script src="js/jquery-3.1.0.min.js"></script>
+<script src="https://sagecell.sagemath.org/static/embedded_sagecell.js"></script>
+<script src="js/jquery.visible.min.js"></script>
+<script type="text/javascript" src="js/knowl.js"></script>
+<style type="text/css">
+
+.sagecell .CodeMirror {
+  height: auto;
+}
+
+.sagecell .CodeMirror-scroll {
+  overflow-y: hidden;
+  overflow-x: auto;
+}
+
+.sagecell-practice .CodeMirror-scroll {
+}
+
+.sagecell button.sagecell_evalButton {
+    font-size: 50%;
+}
+
+.sagecell_sessionContainer {
+    margin-bottom:1em;
+}
+</style>
+<script>
+function toggle(a) {
+  var b = String(a);
+  b=b.replace("contents","button");
+  if (document.getElementById(a).style.display == "block") {
+    document.getElementById(a).style.display = "none";
+    document.getElementById(b).src = "expand_submenu.png";
+  } else {
+    document.getElementById(a).style.display = "block";
+    document.getElementById(b).src = "collapse_submenu.png";
+  }
+}
+function toggle_sidebar() {
+  if (document.getElementById('sidebar').style.display == "block") {
+    document.getElementById('sidebar').style.display = "none";
+    document.getElementById('menu_expand').style.display = "block";
+  } else {
+    document.getElementById('sidebar').style.display = "block";
+    document.getElementById('menu_expand').style.display = "none";
+  }
+}
+</script>
+
+</head>
+
+<body class="" onload="toggle('chapter_05_contents')">
+<div id="header">
+<div class="right">
+<div class="bread">
+  <a href=".">Home</a> &raquo; <a href="chapter05.html">Curve Sketching</a> &raquo; <a href="section05.02.html">The first derivative test</a>
+</div>
+
+<FORM method=GET action=https://www.google.com/custom id="search">
+<INPUT TYPE=text name=q size=31 maxlength=255 value="" style="font-size:small">
+<INPUT type=submit name=sa VALUE="Search the book" style="font-size:small">
+<INPUT type=hidden name=cof VALUE="AH:center;AWFID:198dc2b883340b1f;">
+<input type=hidden name=domains value="www.whitman.edu">
+<input type=hidden name=sitesearch value="www.whitman.edu/mathematics/calculus_online/">
+</FORM>
+<div id="title"><span id="title-content">5.2 The first derivative test</span></div><a href="#exercises">[Jump to exercises]</a>
+</div>
+</div>
+<div id="menu_expand" style="display:none"><a href="javascript:toggle_sidebar()">Expand menu</a></div>
+<div id="sidebar" style="display:block">
+<h2 id="menu_collapse"><a href='javascript:toggle_sidebar()'>Collapse menu</a></h2>
+<h2 class="link"><img id="chapter_01_button" src="expand_submenu.png" onclick='toggle("chapter_01_contents")'><a href="chapter01.html">1 Analytic Geometry</a></h2>
+
+<ul class="list" id="chapter_01_contents">
+<li><a href="section01.01.html">1. Lines</a></li>
+<li><a href="section01.02.html">2. Distance Between Two Points; Circles</a></li>
+<li><a href="section01.03.html">3. Functions</a></li>
+<li><a href="section01.04.html">4. Shifts and Dilations</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_02_button" src="expand_submenu.png" onclick='toggle("chapter_02_contents")'><a href="chapter02.html">2 Instantaneous Rate of Change:  The Derivative</a></h2>
+
+<ul class="list" id="chapter_02_contents">
+<li><a href="section02.01.html">1. The slope of a function</a></li>
+<li><a href="section02.02.html">2. An example</a></li>
+<li><a href="section02.03.html">3. Limits</a></li>
+<li><a href="section02.04.html">4. The Derivative Function</a></li>
+<li><a href="section02.05.html">5. Adjectives For Functions</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_03_button" src="expand_submenu.png" onclick='toggle("chapter_03_contents")'><a href="chapter03.html">3 Rules for Finding Derivatives</a></h2>
+
+<ul class="list" id="chapter_03_contents">
+<li><a href="section03.01.html">1. The Power Rule</a></li>
+<li><a href="section03.02.html">2. Linearity of the Derivative</a></li>
+<li><a href="section03.03.html">3. The Product Rule</a></li>
+<li><a href="section03.04.html">4. The Quotient Rule</a></li>
+<li><a href="section03.05.html">5. The Chain Rule</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_04_button" src="expand_submenu.png" onclick='toggle("chapter_04_contents")'><a href="chapter04.html">4 Transcendental Functions</a></h2>
+
+<ul class="list" id="chapter_04_contents">
+<li><a href="section04.01.html">1. Trigonometric Functions</a></li>
+<li><a href="section04.02.html">2. The Derivative of $\sin x$</a></li>
+<li><a href="section04.03.html">3. A hard limit</a></li>
+<li><a href="section04.04.html">4. The Derivative of $\sin x$, continued</a></li>
+<li><a href="section04.05.html">5. Derivatives of the Trigonometric Functions</a></li>
+<li><a href="section04.06.html">6. Exponential and Logarithmic functions</a></li>
+<li><a href="section04.07.html">7. Derivatives of the exponential and  logarithmic functions</a></li>
+<li><a href="section04.08.html">8. Implicit Differentiation</a></li>
+<li><a href="section04.09.html">9. Inverse Trigonometric Functions</a></li>
+<li><a href="section04.10.html">10. Limits revisited</a></li>
+<li><a href="section04.11.html">11. Hyperbolic Functions</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_05_button" src="expand_submenu.png" onclick='toggle("chapter_05_contents")'><a href="chapter05.html">5 Curve Sketching</a></h2>
+
+<ul class="list" id="chapter_05_contents">
+<li><a href="section05.01.html">1. Maxima and Minima</a></li>
+<li><a href="section05.02.html">2. The first derivative test</a></li>
+<li><a href="section05.03.html">3. The second derivative test</a></li>
+<li><a href="section05.04.html">4. Concavity and inflection points</a></li>
+<li><a href="section05.05.html">5. Asymptotes and Other Things to Look For</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_06_button" src="expand_submenu.png" onclick='toggle("chapter_06_contents")'><a href="chapter06.html">6 Applications of the Derivative</a></h2>
+
+<ul class="list" id="chapter_06_contents">
+<li><a href="section06.01.html">1. Optimization</a></li>
+<li><a href="section06.02.html">2. Related Rates</a></li>
+<li><a href="section06.03.html">3. Newton's Method</a></li>
+<li><a href="section06.04.html">4. Linear Approximations</a></li>
+<li><a href="section06.05.html">5. The Mean Value Theorem</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_07_button" src="expand_submenu.png" onclick='toggle("chapter_07_contents")'><a href="chapter07.html">7 Integration</a></h2>
+
+<ul class="list" id="chapter_07_contents">
+<li><a href="section07.01.html">1. Two examples</a></li>
+<li><a href="section07.02.html">2. The Fundamental Theorem of Calculus</a></li>
+<li><a href="section07.03.html">3. Some Properties of Integrals</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_08_button" src="expand_submenu.png" onclick='toggle("chapter_08_contents")'><a href="chapter08.html">8 Techniques of Integration</a></h2>
+
+<ul class="list" id="chapter_08_contents">
+<li><a href="section08.01.html">1. Substitution</a></li>
+<li><a href="section08.02.html">2. Powers of sine and cosine</a></li>
+<li><a href="section08.03.html">3. Trigonometric Substitutions</a></li>
+<li><a href="section08.04.html">4. Integration by Parts</a></li>
+<li><a href="section08.05.html">5. Rational Functions</a></li>
+<li><a href="section08.06.html">6. Numerical Integration</a></li>
+<li><a href="section08.07.html">7. Additional exercises</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_09_button" src="expand_submenu.png" onclick='toggle("chapter_09_contents")'><a href="chapter09.html">9 Applications of Integration</a></h2>
+
+<ul class="list" id="chapter_09_contents">
+<li><a href="section09.01.html">1. Area between curves</a></li>
+<li><a href="section09.02.html">2. Distance, Velocity, Acceleration</a></li>
+<li><a href="section09.03.html">3. Volume</a></li>
+<li><a href="section09.04.html">4. Average value of a function</a></li>
+<li><a href="section09.05.html">5. Work</a></li>
+<li><a href="section09.06.html">6. Center of Mass</a></li>
+<li><a href="section09.07.html">7. Kinetic energy; improper integrals</a></li>
+<li><a href="section09.08.html">8. Probability</a></li>
+<li><a href="section09.09.html">9. Arc Length</a></li>
+<li><a href="section09.10.html">10. Surface Area</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_10_button" src="expand_submenu.png" onclick='toggle("chapter_10_contents")'><a href="chapter10.html">10 Polar Coordinates,  Parametric Equations</a></h2>
+
+<ul class="list" id="chapter_10_contents">
+<li><a href="section10.01.html">1. Polar Coordinates</a></li>
+<li><a href="section10.02.html">2. Slopes in polar coordinates</a></li>
+<li><a href="section10.03.html">3. Areas in polar coordinates</a></li>
+<li><a href="section10.04.html">4. Parametric Equations</a></li>
+<li><a href="section10.05.html">5. Calculus with Parametric Equations</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_11_button" src="expand_submenu.png" onclick='toggle("chapter_11_contents")'><a href="chapter11.html">11 Sequences and Series</a></h2>
+
+<ul class="list" id="chapter_11_contents">
+<li><a href="section11.01.html">1. Sequences</a></li>
+<li><a href="section11.02.html">2. Series</a></li>
+<li><a href="section11.03.html">3. The Integral Test</a></li>
+<li><a href="section11.04.html">4. Alternating Series</a></li>
+<li><a href="section11.05.html">5. Comparison Tests</a></li>
+<li><a href="section11.06.html">6. Absolute Convergence</a></li>
+<li><a href="section11.07.html">7. The Ratio and Root Tests</a></li>
+<li><a href="section11.08.html">8. Power Series</a></li>
+<li><a href="section11.09.html">9. Calculus with Power Series</a></li>
+<li><a href="section11.10.html">10. Taylor Series</a></li>
+<li><a href="section11.11.html">11. Taylor's Theorem</a></li>
+<li><a href="section11.12.html">12. Additional exercises</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_12_button" src="expand_submenu.png" onclick='toggle("chapter_12_contents")'><a href="chapter12.html">12 Three Dimensions</a></h2>
+
+<ul class="list" id="chapter_12_contents">
+<li><a href="section12.01.html">1. The Coordinate System</a></li>
+<li><a href="section12.02.html">2. Vectors</a></li>
+<li><a href="section12.03.html">3. The Dot Product</a></li>
+<li><a href="section12.04.html">4. The Cross Product</a></li>
+<li><a href="section12.05.html">5. Lines and Planes</a></li>
+<li><a href="section12.06.html">6. Other Coordinate Systems</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_13_button" src="expand_submenu.png" onclick='toggle("chapter_13_contents")'><a href="chapter13.html">13 Vector Functions</a></h2>
+
+<ul class="list" id="chapter_13_contents">
+<li><a href="section13.01.html">1. Space Curves</a></li>
+<li><a href="section13.02.html">2. Calculus with vector functions</a></li>
+<li><a href="section13.03.html">3. Arc length and curvature</a></li>
+<li><a href="section13.04.html">4. Motion along a curve</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_14_button" src="expand_submenu.png" onclick='toggle("chapter_14_contents")'><a href="chapter14.html">14 Partial Differentiation</a></h2>
+
+<ul class="list" id="chapter_14_contents">
+<li><a href="section14.01.html">1. Functions of Several Variables</a></li>
+<li><a href="section14.02.html">2. Limits and Continuity</a></li>
+<li><a href="section14.03.html">3. Partial Differentiation</a></li>
+<li><a href="section14.04.html">4. The Chain Rule</a></li>
+<li><a href="section14.05.html">5. Directional Derivatives</a></li>
+<li><a href="section14.06.html">6. Higher order derivatives</a></li>
+<li><a href="section14.07.html">7. Maxima and minima</a></li>
+<li><a href="section14.08.html">8. Lagrange Multipliers</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_15_button" src="expand_submenu.png" onclick='toggle("chapter_15_contents")'><a href="chapter15.html">15 Multiple Integration</a></h2>
+
+<ul class="list" id="chapter_15_contents">
+<li><a href="section15.01.html">1. Volume and Average Height</a></li>
+<li><a href="section15.02.html">2. Double Integrals in Cylindrical Coordinates</a></li>
+<li><a href="section15.03.html">3. Moment and Center of Mass</a></li>
+<li><a href="section15.04.html">4. Surface Area</a></li>
+<li><a href="section15.05.html">5. Triple Integrals</a></li>
+<li><a href="section15.06.html">6. Cylindrical and Spherical Coordinates</a></li>
+<li><a href="section15.07.html">7. Change of Variables</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_16_button" src="expand_submenu.png" onclick='toggle("chapter_16_contents")'><a href="chapter16.html">16 Vector Calculus</a></h2>
+
+<ul class="list" id="chapter_16_contents">
+<li><a href="section16.01.html">1. Vector Fields</a></li>
+<li><a href="section16.02.html">2. Line Integrals</a></li>
+<li><a href="section16.03.html">3. The Fundamental Theorem of Line Integrals</a></li>
+<li><a href="section16.04.html">4. Green's Theorem</a></li>
+<li><a href="section16.05.html">5. Divergence and Curl</a></li>
+<li><a href="section16.06.html">6. Vector Functions for Surfaces</a></li>
+<li><a href="section16.07.html">7. Surface Integrals</a></li>
+<li><a href="section16.08.html">8. Stokes's Theorem</a></li>
+<li><a href="section16.09.html">9. The Divergence Theorem</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_17_button" src="expand_submenu.png" onclick='toggle("chapter_17_contents")'><a href="chapter17.html">17 Differential Equations</a></h2>
+
+<ul class="list" id="chapter_17_contents">
+<li><a href="section17.01.html">1. First Order Differential Equations</a></li>
+<li><a href="section17.02.html">2. First Order Homogeneous Linear Equations</a></li>
+<li><a href="section17.03.html">3. First Order Linear Equations</a></li>
+<li><a href="section17.04.html">4. Approximation</a></li>
+<li><a href="section17.05.html">5. Second Order Homogeneous Equations</a></li>
+<li><a href="section17.06.html">6. Second Order Linear Equations</a></li>
+<li><a href="section17.07.html">7. Second Order Linear Equations, take two</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_18_button" src="expand_submenu.png" onclick='toggle("chapter_18_contents")'><a href="chapter18.html">18 Useful formulas</a></h2>
+
+<ul class="list" id="chapter_18_contents">
+</ul>
+
+</div>
+
+<div id="main">
+
+<div id="next"><a href="section05.01.html"><img src=previous_section.png width="30"></a>&nbsp;&nbsp;<a href="section05.03.html"><img src=next_section.png width="30"></a></div>
+
+<div id="content">
+<p>
+
+
+</p><p>
+The method of the previous section for deciding whether there is a
+local maximum or minimum at a critical value is not always
+convenient. We can instead use information about the derivative
+$f'(x)$ to decide; since we have already had to compute the derivative
+to find the critical values, there is often relatively little extra
+work involved in this method.
+</p><p>
+How can the derivative tell us whether there is a maximum, minimum, or
+neither at a point? Suppose that $f'(a)=0$. If there is a local
+maximum when $x=a$, the function must be lower near $x=a$ than it is
+right at $x=a$. If the derivative exists near $x=a$, this means
+$f'(x)>0$ when $x$ is near $a$ and $x< a$, because the function must
+"slope up'' just to the left of $a$. Similarly, $f'(x)< 0$ when $x$ is
+near $a$ and $x>a$, because $f$ slopes down from the local maximum as
+we move to the right. Using the same reasoning, if there is a local
+minimum at $x=a$, the derivative of $f$ must be negative just to the
+left of $a$ and positive just to the right. If the derivative exists
+near $a$ but does not change from positive to negative or negative to
+positive, that is, it is positive on both sides or negative on both
+sides, then there is neither a maximum nor minimum when $x=a$.
+See the first graph in figure <a href="section05.01.html#fig:max and min points">5.1.1</a>
+and the graph in figure <a href="section05.01.html#fig:non extremum">5.1.2</a>
+for examples.
+</p><p>
+</p>
+<div class="example">
+<p>
+<span class="theoremlabel">Example 5.2.1 </span>Find all local maximum and minimum points for $f(x)=\sin x+\cos
+x$ using the first derivative test.  The derivative is $f'(x)=\cos
+x-\sin x$ and from example <a href="section05.01.html#example:max and min">5.1.3</a> the critical
+values we need to consider are $\pi/4$ and $5\pi/4$.
+</p><p>
+The graphs of $\sin x$ and $\cos x$ are shown in figure <a href="section05.02.html#fig:sin and cos">5.2.1</a>. Just to the left of $\pi/4$ the cosine is larger than the
+  sine, so $f'(x)$ is positive; just to the right the cosine is
+  smaller than the sine, so $f'(x)$ is negative. This means there is a
+  local maximum at $\pi/4$. Just to the left of $5\pi/4$ the cosine is
+  smaller than the sine, and to the right the cosine is larger than
+  the sine. This means that the derivative $f'(x)$ is negative to the
+  left and positive to the right, so $f$ has a local minimum at
+  $5\pi/4$.
+
+</p>
+</div><!-- example -->
+<p>
+</p><p>
+<a id="fig:sin and cos"></a>
+</p><div class='figure'><div id="curve_sketching_sine_and_cosine" class="jxgbox" style="width:80%;margin-left:auto;margin-right:auto"></div>
+
+<script type="text/javascript">
+ (function () {  // BEGIN: scope limiting function wrapper
+  var xmin=-0.5, xmax=2*Math.PI+0.5, ymin=-1.5, ymax=1.5;
+  var AspectRatio = ((ymax-ymin)/(xmax-xmin)); // height/width
+  var wd=document.getElementById('curve_sketching_sine_and_cosine').offsetWidth;
+  var ht=wd*AspectRatio;
+  var yfactor = (ymax-ymin)/(ht);
+  var xfactor = (xmax-xmin)/(wd);
+  var xaxis_label_offset = yfactor*15;
+  var yaxis_label_offset = xfactor*20;
+  document.getElementById('curve_sketching_sine_and_cosine').style.height=ht+'px';
+  var s = function(x){ return Math.sin(x); }
+  var c = function(x){ return Math.cos(x); }
+  var brd = JXG.JSXGraph.initBoard('curve_sketching_sine_and_cosine', {axis:false, boundingbox:
+    [xmin,ymax,xmax,ymin], showCopyright:false, showNavigation:false});
+  brd.create('functiongraph', [s,0,2*Math.PI], {strokeColor:'#00FF00'});
+  brd.create('functiongraph', [c,0,2*Math.PI], {strokeColor:'#00FF00'});
+  brd.create('grid',[],{gridX:Math.PI/2,gridY:1});
+  var y_axis = brd.create('line',[[0,0],[0,1.5]],{strokeColor:'#000000',fixed:true});
+  brd.createElement('ticks',[y_axis,1],{drawLabels:false,minorTicks:0});
+  var x_axis = brd.create('line',[[0,0],[1.5,0]],{strokeColor:'#000000',fixed:true});
+  brd.createElement('ticks',[x_axis,Math.PI/2],{drawLabels:false});
+  var xi = brd.create('segment',[[-3*Math.PI/4,0],[5*Math.PI/4+0.1,0]],{visible:false});
+  brd.create('ticks',[xi,Math.PI],{drawLabels:false,fixed:true,strokeColor:"#FF0000"});
+  brd.createElement('text',[Math.PI/2-xfactor*5,-xaxis_label_offset,'$\\\\frac{\\\\pi}{2}$']);
+  brd.createElement('text',[Math.PI-xfactor*5,-xaxis_label_offset,'$\\\\pi$']);
+  brd.createElement('text',[5*Math.PI/4-xfactor*5,-xaxis_label_offset,'$\\\\frac{5\\\\pi}{4}$'],{color:'#FF0000'});
+//  brd.create('segment',[[5*Math.PI/4,-0.1],[5*Math.PI/4,0.1]],{strokeColor:'#FF0000',fixed:true});
+  brd.createElement('text',[Math.PI/4-xfactor*5,-xaxis_label_offset,'$\\\\frac{\\\\pi}{4}$'],{color:'#FF0000'});
+//  brd.create('segment',[[Math.PI/4,-0.1],[Math.PI/4,0.1]],{strokeColor:'#FF0000',fixed:true});
+  brd.createElement('text',[3*Math.PI/2-xfactor*5,-xaxis_label_offset,'$\\\\frac{3\\\\pi}{2}$']);
+  brd.createElement('text',[2*Math.PI-xfactor*5,-xaxis_label_offset,'$2\\\\pi$']);
+  brd.createElement('text',[-yaxis_label_offset-xfactor*5,-1,'$-1$']);
+  brd.createElement('text',[-yaxis_label_offset+xfactor*5,1,'$1$']);
+})(); // END: scope limiting function wrapper
+</script>
+<div class='figcaption'><span class="figurenumber">Figure 5.2.1.</span> The sine and cosine.</div></div>
+<p>
+</p><p>
+</p>
+<a id="exercises"></a><h2 class="exercises">Exercises 5.2</h2>
+<p>In 1&ndash;13,
+find all critical points and identify them as
+local maximum points, local minimum points, or neither.
+</p><p>
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 5.2.1</b>
+$\ds y=x^2-x$ 
+(<a knowl="" class="internal" value="min at $x=1/2$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 5.2.2</b>
+$\ds y=2+3x-x^3$ 
+(<a knowl="" class="internal" value="min at $x=-1$, max at $x=1$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 5.2.3</b>
+$\ds y=x^3-9x^2+24x$
+(<a knowl="" class="internal" value="max at $x=2$, min at $x=4$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 5.2.4</b>
+$\ds y=x^4-2x^2+3$ 
+(<a knowl="" class="internal" value="min at $x=\pm 1$, max at $x=0$.">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 5.2.5</b>
+$\ds y=3x^4-4x^3$
+(<a knowl="" class="internal" value="min at $x=1$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 5.2.6</b>
+$\ds y=(x^2-1)/x$
+(<a knowl="" class="internal" value="none">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 5.2.7</b>
+$\ds y=3x^2-(1/x^2)$ 
+(<a knowl="" class="internal" value="none">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 5.2.8</b>
+$y=\cos(2x)-x$ 
+(<a knowl="" class="internal" value="min at $x=7\pi/12+k\pi$, max at $x=-\pi/12+k\pi$, for integer $k$.">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 5.2.9</b>
+$\ds f(x) = (5-x)/(x+2)$
+(<a knowl="" class="internal" value="none">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 5.2.10</b>
+$\ds f(x) = |x^2 - 121|$
+(<a knowl="" class="internal" value="max at $x=0$, min at $x=\pm 11$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 5.2.11</b>
+$\ds f(x) = x^3/(x+1)$
+(<a knowl="" class="internal" value="min at $x=-3/2$, neither at $x=0$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 5.2.12</b>
+$\ds f(x)= \cases{x^2 \sin(1/x)  & $x\neq 0$ \cr
+ 0  & $x=0$\cr}$
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 5.2.13</b>
+$\ds f(x) = \sin ^2 x$
+(<a knowl="" class="internal" value="min at $n\pi$, max at $\pi/2+n\pi$">answer</a>)
+
+</p><p>
+
+</p><p>
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 5.2.14</b>
+Find the maxima and minima of $f(x)=\sec x$.
+(<a knowl="" class="internal" value="min at $2n\pi$, max at $(2n+1)\pi$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 5.2.15</b>
+Let $\ds f(\theta) = \cos^2(\theta) -
+ 2\sin(\theta)$.  Find the intervals where $f$ is increasing and the
+ intervals where $f$ is decreasing in $[0,2\pi]$.  Use this
+ information to classify the critical points of $f$ as either local
+ maximums, local minimums, or neither.
+(<a knowl="" class="internal" value="min at $\pi/2+2n\pi$, max at $3\pi/2+2n\pi$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 5.2.16</b>
+Let $r>0$. Find the local
+maxima and minima of the function $\ds f(x)
+=\sqrt{r^2 -x^2 }$ on its domain $[-r,r]$.
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 5.2.17</b>
+Let $\ds f(x) =a x^2 + bx + c$ with $a\neq 0$. Show that $f$
+has exactly one critical point. Give
+conditions on $a$ and $b$ which guarantee that the critical point will
+be a maximum. It is possible to see this without using calculus at
+all; explain.
+
+</p><p>
+
+
+</p><p>
+</div></div></body>
+</html>

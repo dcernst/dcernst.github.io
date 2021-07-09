@@ -1,0 +1,608 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+<meta http-equiv="Content-Language" Content="en">
+<title>17.3 First Order Linear Equations</title>
+<!--
+<script type="text/javascript" src="js/deployJava.js"></script>
+<link rel="stylesheet" type="text/css" href="http://jsxgraph.uni-bayreuth.de/distrib/jsxgraph.css" />
+-->
+<!-- use Jsxgraph to create figures: http://jsxgraph.uni-bayreuth.de/wp/ -->
+<link rel="stylesheet" type="text/css" href="css/jsxgraph.css" />
+<script type="text/javascript" src="js/jsxgraphcore.js"></script>
+<script src="js/three.min.js"></script>
+<script src="js/Detector.js"></script>
+<script src="js/TrackballControls.js"></script>
+<script src="js/OrthographicTrackballControls.js"></script>
+<script src="js/THREEx.KeyboardState.js"></script>
+<script src="js/THREEx.FullScreen.js"></script>
+<script src="js/THREEx.WindowResize.js"></script>
+<script type='text/javascript' src='js/DAT.GUI.min.js'></script>
+<script>
+window.requestAnimFrame = (function(){
+    return  window.requestAnimationFrame       || 
+        window.webkitRequestAnimationFrame || 
+        window.mozRequestAnimationFrame    || 
+        window.oRequestAnimationFrame      || 
+        window.msRequestAnimationFrame     || 
+        function(/* function */ callback, /* DOMElement */
+            element){
+            window.setTimeout(callback, 1000 / 60);
+        };
+})();
+</script>
+<script src="js/ifvisible.min.js"></script>
+<script src="js/conrec.js"></script>
+<script>
+active = true;
+ifvisible.setIdleDuration(10);
+ifvisible.on("idle", function(){
+    active = false;
+//    console.log("idle");
+});
+
+ifvisible.on("wakeup", function(){
+    active = true;
+//    console.log("wakeup");
+});
+</script>
+<script src="js/parser.js"></script>
+<link href="css/whitman.css" rel="stylesheet" type="text/css" /><link href="css/calculus.css" rel="stylesheet" type="text/css" /><link href="css/knowlstyle.css" rel="stylesheet" type="text/css" />
+
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  extensions: ["tex2jax.js","TeX/AMSmath.js","TeX/AMSsymbols.js"],
+  jax: ["input/TeX","output/HTML-CSS"],
+  tex2jax: {
+    inlineMath: [['$','$'],["\\(","\\)"]],
+    processEscapes: true,
+  },
+TeX: {
+   Macros: {
+    val: "\\mathop{\\rm val}",
+    divides: "\\mid",
+    ndivides: "\\mathrel{\\not|}",
+    fix: "\\mathop{\\rm fix}",
+    id: "\\mathop{\\rm id}",
+    na: "\\mathop{\\rm na}",
+    d: "\\mathop{\\rm\\strut d}\\nolimits ",
+    legendre: ["\\left(\\frac{#1}{#2}\\right)",2],
+    normalbaselines: "",
+    notdiv: "\\nmid",
+    implies: "\\Rightarrow",
+    iff: "\\Leftrightarrow",
+    sevenpoint: "\\scriptsize",
+    ds: "\\displaystyle",
+    lcm: "\\operatorname{lcm}",
+    arccot: "\\operatorname{arccot}",
+    arcsec: "\\operatorname{arcsec}",
+    arccsc: "\\operatorname{arccsc}",
+    arccosh: "\\operatorname{arccosh}",
+    arcsinh: "\\operatorname{arcsinh}",
+    arcsech: "\\operatorname{arcsech}",
+    sech: "\\operatorname{sech}",
+    csch: "\\operatorname{csch}",
+    R: "{\\mathbb R}",
+    sb: "_",
+    sp: "^",
+    Q: "{\\mathbb Q}",
+    C: "{\\mathbb C}",
+    N: "{\\mathbb N}",
+    Z: "{\\mathbb Z}",
+    U: "{\\mathbb U}",
+    v: ["\\langle #1\\rangle",1],
+    dint: ["{\\mathchoice{\\mathop{\\int\\!\\!\\!\\int}_{#1}}{\\mathop{\\int\\!\\!\\!\\int}_{#1}}{\\mathop{\\int\\!\\!\\!\\int}}{\\mathop{\\int\\!\\!\\!\\int}}}",1],
+    tint: ["{\\mathchoice{\\mathop{\\int\\!\\!\\!\\int\\!\\!\\!\\int}_{#1\\;}}{\\mathop{\\int\\!\\!\\!\\int\\!\\!\\!\\int}_{#1}}{\\mathop{\\int\\!\\!\\!\\int\\!\\!\\!\\int}_{#1}}{\\mathop{\\int\\!\\!\\!\\int\\!\\!\\!\\int}_{#1}}}",1]
+   }
+},
+  "HTML-CSS": { scale: 100},
+  menuSettings: { zscale: "150%", zoom: "Double-Click" }
+});
+    JXG.Options.text.display = 'html';
+    JXG.Options.text.useMathJax = true;
+</script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/math
+jax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+<script>
+MathJax.Hub.Register.StartupHook("End",function () {
+  if(typeof window.orientation === 'undefined'){
+    var i,x;
+    x = document.getElementsByClassName("webgl_display");
+    for (i=0; i<x.length; i++) {
+      x[i].style.display = "block";
+    }
+    x = document.getElementsByClassName("no_webgl_display");
+    for (i=0; i<x.length; i++) {
+      x[i].style.display = "none";
+    }
+  }
+});
+</script>
+
+<script src="js/jquery-3.1.0.min.js"></script>
+<script src="https://sagecell.sagemath.org/static/embedded_sagecell.js"></script>
+<script src="js/jquery.visible.min.js"></script>
+<script type="text/javascript" src="js/knowl.js"></script>
+<style type="text/css">
+
+.sagecell .CodeMirror {
+  height: auto;
+}
+
+.sagecell .CodeMirror-scroll {
+  overflow-y: hidden;
+  overflow-x: auto;
+}
+
+.sagecell-practice .CodeMirror-scroll {
+}
+
+.sagecell button.sagecell_evalButton {
+    font-size: 50%;
+}
+
+.sagecell_sessionContainer {
+    margin-bottom:1em;
+}
+</style>
+<script>
+function toggle(a) {
+  var b = String(a);
+  b=b.replace("contents","button");
+  if (document.getElementById(a).style.display == "block") {
+    document.getElementById(a).style.display = "none";
+    document.getElementById(b).src = "expand_submenu.png";
+  } else {
+    document.getElementById(a).style.display = "block";
+    document.getElementById(b).src = "collapse_submenu.png";
+  }
+}
+function toggle_sidebar() {
+  if (document.getElementById('sidebar').style.display == "block") {
+    document.getElementById('sidebar').style.display = "none";
+    document.getElementById('menu_expand').style.display = "block";
+  } else {
+    document.getElementById('sidebar').style.display = "block";
+    document.getElementById('menu_expand').style.display = "none";
+  }
+}
+</script>
+
+</head>
+
+<body class="" onload="toggle('chapter_17_contents')">
+<div id="header">
+<div class="right">
+<div class="bread">
+  <a href=".">Home</a> &raquo; <a href="chapter17.html">Differential Equations</a> &raquo; <a href="section17.03.html">First Order Linear Equations</a>
+</div>
+
+<FORM method=GET action=https://www.google.com/custom id="search">
+<INPUT TYPE=text name=q size=31 maxlength=255 value="" style="font-size:small">
+<INPUT type=submit name=sa VALUE="Search the book" style="font-size:small">
+<INPUT type=hidden name=cof VALUE="AH:center;AWFID:198dc2b883340b1f;">
+<input type=hidden name=domains value="www.whitman.edu">
+<input type=hidden name=sitesearch value="www.whitman.edu/mathematics/calculus_online/">
+</FORM>
+<div id="title"><span id="title-content">17.3 First Order Linear Equations</span></div><a href="#exercises">[Jump to exercises]</a>
+</div>
+</div>
+<div id="menu_expand" style="display:none"><a href="javascript:toggle_sidebar()">Expand menu</a></div>
+<div id="sidebar" style="display:block">
+<h2 id="menu_collapse"><a href='javascript:toggle_sidebar()'>Collapse menu</a></h2>
+<h2 class="link"><img id="chapter_01_button" src="expand_submenu.png" onclick='toggle("chapter_01_contents")'><a href="chapter01.html">1 Analytic Geometry</a></h2>
+
+<ul class="list" id="chapter_01_contents">
+<li><a href="section01.01.html">1. Lines</a></li>
+<li><a href="section01.02.html">2. Distance Between Two Points; Circles</a></li>
+<li><a href="section01.03.html">3. Functions</a></li>
+<li><a href="section01.04.html">4. Shifts and Dilations</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_02_button" src="expand_submenu.png" onclick='toggle("chapter_02_contents")'><a href="chapter02.html">2 Instantaneous Rate of Change:  The Derivative</a></h2>
+
+<ul class="list" id="chapter_02_contents">
+<li><a href="section02.01.html">1. The slope of a function</a></li>
+<li><a href="section02.02.html">2. An example</a></li>
+<li><a href="section02.03.html">3. Limits</a></li>
+<li><a href="section02.04.html">4. The Derivative Function</a></li>
+<li><a href="section02.05.html">5. Adjectives For Functions</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_03_button" src="expand_submenu.png" onclick='toggle("chapter_03_contents")'><a href="chapter03.html">3 Rules for Finding Derivatives</a></h2>
+
+<ul class="list" id="chapter_03_contents">
+<li><a href="section03.01.html">1. The Power Rule</a></li>
+<li><a href="section03.02.html">2. Linearity of the Derivative</a></li>
+<li><a href="section03.03.html">3. The Product Rule</a></li>
+<li><a href="section03.04.html">4. The Quotient Rule</a></li>
+<li><a href="section03.05.html">5. The Chain Rule</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_04_button" src="expand_submenu.png" onclick='toggle("chapter_04_contents")'><a href="chapter04.html">4 Transcendental Functions</a></h2>
+
+<ul class="list" id="chapter_04_contents">
+<li><a href="section04.01.html">1. Trigonometric Functions</a></li>
+<li><a href="section04.02.html">2. The Derivative of $\sin x$</a></li>
+<li><a href="section04.03.html">3. A hard limit</a></li>
+<li><a href="section04.04.html">4. The Derivative of $\sin x$, continued</a></li>
+<li><a href="section04.05.html">5. Derivatives of the Trigonometric Functions</a></li>
+<li><a href="section04.06.html">6. Exponential and Logarithmic functions</a></li>
+<li><a href="section04.07.html">7. Derivatives of the exponential and  logarithmic functions</a></li>
+<li><a href="section04.08.html">8. Implicit Differentiation</a></li>
+<li><a href="section04.09.html">9. Inverse Trigonometric Functions</a></li>
+<li><a href="section04.10.html">10. Limits revisited</a></li>
+<li><a href="section04.11.html">11. Hyperbolic Functions</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_05_button" src="expand_submenu.png" onclick='toggle("chapter_05_contents")'><a href="chapter05.html">5 Curve Sketching</a></h2>
+
+<ul class="list" id="chapter_05_contents">
+<li><a href="section05.01.html">1. Maxima and Minima</a></li>
+<li><a href="section05.02.html">2. The first derivative test</a></li>
+<li><a href="section05.03.html">3. The second derivative test</a></li>
+<li><a href="section05.04.html">4. Concavity and inflection points</a></li>
+<li><a href="section05.05.html">5. Asymptotes and Other Things to Look For</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_06_button" src="expand_submenu.png" onclick='toggle("chapter_06_contents")'><a href="chapter06.html">6 Applications of the Derivative</a></h2>
+
+<ul class="list" id="chapter_06_contents">
+<li><a href="section06.01.html">1. Optimization</a></li>
+<li><a href="section06.02.html">2. Related Rates</a></li>
+<li><a href="section06.03.html">3. Newton's Method</a></li>
+<li><a href="section06.04.html">4. Linear Approximations</a></li>
+<li><a href="section06.05.html">5. The Mean Value Theorem</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_07_button" src="expand_submenu.png" onclick='toggle("chapter_07_contents")'><a href="chapter07.html">7 Integration</a></h2>
+
+<ul class="list" id="chapter_07_contents">
+<li><a href="section07.01.html">1. Two examples</a></li>
+<li><a href="section07.02.html">2. The Fundamental Theorem of Calculus</a></li>
+<li><a href="section07.03.html">3. Some Properties of Integrals</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_08_button" src="expand_submenu.png" onclick='toggle("chapter_08_contents")'><a href="chapter08.html">8 Techniques of Integration</a></h2>
+
+<ul class="list" id="chapter_08_contents">
+<li><a href="section08.01.html">1. Substitution</a></li>
+<li><a href="section08.02.html">2. Powers of sine and cosine</a></li>
+<li><a href="section08.03.html">3. Trigonometric Substitutions</a></li>
+<li><a href="section08.04.html">4. Integration by Parts</a></li>
+<li><a href="section08.05.html">5. Rational Functions</a></li>
+<li><a href="section08.06.html">6. Numerical Integration</a></li>
+<li><a href="section08.07.html">7. Additional exercises</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_09_button" src="expand_submenu.png" onclick='toggle("chapter_09_contents")'><a href="chapter09.html">9 Applications of Integration</a></h2>
+
+<ul class="list" id="chapter_09_contents">
+<li><a href="section09.01.html">1. Area between curves</a></li>
+<li><a href="section09.02.html">2. Distance, Velocity, Acceleration</a></li>
+<li><a href="section09.03.html">3. Volume</a></li>
+<li><a href="section09.04.html">4. Average value of a function</a></li>
+<li><a href="section09.05.html">5. Work</a></li>
+<li><a href="section09.06.html">6. Center of Mass</a></li>
+<li><a href="section09.07.html">7. Kinetic energy; improper integrals</a></li>
+<li><a href="section09.08.html">8. Probability</a></li>
+<li><a href="section09.09.html">9. Arc Length</a></li>
+<li><a href="section09.10.html">10. Surface Area</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_10_button" src="expand_submenu.png" onclick='toggle("chapter_10_contents")'><a href="chapter10.html">10 Polar Coordinates,  Parametric Equations</a></h2>
+
+<ul class="list" id="chapter_10_contents">
+<li><a href="section10.01.html">1. Polar Coordinates</a></li>
+<li><a href="section10.02.html">2. Slopes in polar coordinates</a></li>
+<li><a href="section10.03.html">3. Areas in polar coordinates</a></li>
+<li><a href="section10.04.html">4. Parametric Equations</a></li>
+<li><a href="section10.05.html">5. Calculus with Parametric Equations</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_11_button" src="expand_submenu.png" onclick='toggle("chapter_11_contents")'><a href="chapter11.html">11 Sequences and Series</a></h2>
+
+<ul class="list" id="chapter_11_contents">
+<li><a href="section11.01.html">1. Sequences</a></li>
+<li><a href="section11.02.html">2. Series</a></li>
+<li><a href="section11.03.html">3. The Integral Test</a></li>
+<li><a href="section11.04.html">4. Alternating Series</a></li>
+<li><a href="section11.05.html">5. Comparison Tests</a></li>
+<li><a href="section11.06.html">6. Absolute Convergence</a></li>
+<li><a href="section11.07.html">7. The Ratio and Root Tests</a></li>
+<li><a href="section11.08.html">8. Power Series</a></li>
+<li><a href="section11.09.html">9. Calculus with Power Series</a></li>
+<li><a href="section11.10.html">10. Taylor Series</a></li>
+<li><a href="section11.11.html">11. Taylor's Theorem</a></li>
+<li><a href="section11.12.html">12. Additional exercises</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_12_button" src="expand_submenu.png" onclick='toggle("chapter_12_contents")'><a href="chapter12.html">12 Three Dimensions</a></h2>
+
+<ul class="list" id="chapter_12_contents">
+<li><a href="section12.01.html">1. The Coordinate System</a></li>
+<li><a href="section12.02.html">2. Vectors</a></li>
+<li><a href="section12.03.html">3. The Dot Product</a></li>
+<li><a href="section12.04.html">4. The Cross Product</a></li>
+<li><a href="section12.05.html">5. Lines and Planes</a></li>
+<li><a href="section12.06.html">6. Other Coordinate Systems</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_13_button" src="expand_submenu.png" onclick='toggle("chapter_13_contents")'><a href="chapter13.html">13 Vector Functions</a></h2>
+
+<ul class="list" id="chapter_13_contents">
+<li><a href="section13.01.html">1. Space Curves</a></li>
+<li><a href="section13.02.html">2. Calculus with vector functions</a></li>
+<li><a href="section13.03.html">3. Arc length and curvature</a></li>
+<li><a href="section13.04.html">4. Motion along a curve</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_14_button" src="expand_submenu.png" onclick='toggle("chapter_14_contents")'><a href="chapter14.html">14 Partial Differentiation</a></h2>
+
+<ul class="list" id="chapter_14_contents">
+<li><a href="section14.01.html">1. Functions of Several Variables</a></li>
+<li><a href="section14.02.html">2. Limits and Continuity</a></li>
+<li><a href="section14.03.html">3. Partial Differentiation</a></li>
+<li><a href="section14.04.html">4. The Chain Rule</a></li>
+<li><a href="section14.05.html">5. Directional Derivatives</a></li>
+<li><a href="section14.06.html">6. Higher order derivatives</a></li>
+<li><a href="section14.07.html">7. Maxima and minima</a></li>
+<li><a href="section14.08.html">8. Lagrange Multipliers</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_15_button" src="expand_submenu.png" onclick='toggle("chapter_15_contents")'><a href="chapter15.html">15 Multiple Integration</a></h2>
+
+<ul class="list" id="chapter_15_contents">
+<li><a href="section15.01.html">1. Volume and Average Height</a></li>
+<li><a href="section15.02.html">2. Double Integrals in Cylindrical Coordinates</a></li>
+<li><a href="section15.03.html">3. Moment and Center of Mass</a></li>
+<li><a href="section15.04.html">4. Surface Area</a></li>
+<li><a href="section15.05.html">5. Triple Integrals</a></li>
+<li><a href="section15.06.html">6. Cylindrical and Spherical Coordinates</a></li>
+<li><a href="section15.07.html">7. Change of Variables</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_16_button" src="expand_submenu.png" onclick='toggle("chapter_16_contents")'><a href="chapter16.html">16 Vector Calculus</a></h2>
+
+<ul class="list" id="chapter_16_contents">
+<li><a href="section16.01.html">1. Vector Fields</a></li>
+<li><a href="section16.02.html">2. Line Integrals</a></li>
+<li><a href="section16.03.html">3. The Fundamental Theorem of Line Integrals</a></li>
+<li><a href="section16.04.html">4. Green's Theorem</a></li>
+<li><a href="section16.05.html">5. Divergence and Curl</a></li>
+<li><a href="section16.06.html">6. Vector Functions for Surfaces</a></li>
+<li><a href="section16.07.html">7. Surface Integrals</a></li>
+<li><a href="section16.08.html">8. Stokes's Theorem</a></li>
+<li><a href="section16.09.html">9. The Divergence Theorem</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_17_button" src="expand_submenu.png" onclick='toggle("chapter_17_contents")'><a href="chapter17.html">17 Differential Equations</a></h2>
+
+<ul class="list" id="chapter_17_contents">
+<li><a href="section17.01.html">1. First Order Differential Equations</a></li>
+<li><a href="section17.02.html">2. First Order Homogeneous Linear Equations</a></li>
+<li><a href="section17.03.html">3. First Order Linear Equations</a></li>
+<li><a href="section17.04.html">4. Approximation</a></li>
+<li><a href="section17.05.html">5. Second Order Homogeneous Equations</a></li>
+<li><a href="section17.06.html">6. Second Order Linear Equations</a></li>
+<li><a href="section17.07.html">7. Second Order Linear Equations, take two</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_18_button" src="expand_submenu.png" onclick='toggle("chapter_18_contents")'><a href="chapter18.html">18 Useful formulas</a></h2>
+
+<ul class="list" id="chapter_18_contents">
+</ul>
+
+</div>
+
+<div id="main">
+
+<div id="next"><a href="section17.02.html"><img src=previous_section.png width="30"></a>&nbsp;&nbsp;<a href="section17.04.html"><img src=next_section.png width="30"></a></div>
+
+<div id="content">
+<p>
+<p><a id="sec:first order homogeneous linear"></a>
+
+</p><p>
+As you might guess, a first order linear differential equation has the form 
+$\ds \dot y + p(t)y = f(t)$. Not only is this closely related in form
+to the first order homogeneous linear equation, we can use what we
+know about solving homogeneous equations to solve the general linear
+equation. 
+</p><p>
+Suppose that $y_1(t)$ and $y_2(t)$ are solutions to 
+$\ds \dot y + p(t)y = f(t)$. Let $\ds g(t)=y_1-y_2$. Then
+$$\eqalign{
+ g'(t)+p(t)g(t)&=y_1'-y_2'+p(t)(y_1-y_2)\cr
+&=(y_1'+p(t)y_1)-(y_2'+p(t)y_2)\cr
+&=f(t)-f(t)=0.\cr}
+$$
+In other words, $\ds g(t)=y_1-y_2$ is a solution to the homogeneous
+equation $\ds \dot y + p(t)y = 0$. Turning this around, any solution
+to the linear equation $\ds \dot y + p(t)y = f(t)$, call it $y_1$, can
+be written as $y_2+g(t)$, for some particular $y_2$ and some solution
+$g(t)$ of the homogeneous equation $\ds \dot y + p(t)y = 0$. Since we
+already know how to find all solutions of the homogeneous equation,
+finding just one solution to the equation $\ds \dot y + p(t)y = f(t)$
+will give us all of them.
+</p><p>
+How might we find that one particular solution to $\ds \dot y + p(t)y
+= f(t)$? Again, it turns out that what we already know helps. We know
+that the general solution to the homogeneous equation
+$\ds \dot y + p(t)y = 0$ looks like $\ds Ae^{P(t)}$. We now make an
+inspired guess: consider the function $\ds v(t)e^{P(t)}$, in which we
+have replaced the constant parameter $A$ with the function
+$v(t)$. This technique is called 
+<b>variation of parameters</b>.
+For
+convenience write this as $s(t)=v(t)h(t)$ where $\ds h(t)=e^{P(t)}$ 
+is a solution to the
+homogeneous equation. Now let's compute a bit with $s(t)$:
+$$\eqalign{
+s'(t)+p(t)s(t)&=v(t)h'(t)+v'(t)h(t)+p(t)v(t)h(t)\cr
+&=v(t)(h'(t)+p(t)h(t)) + v'(t)h(t)\cr
+&=v'(t)h(t).\cr}
+$$
+The last equality is true because $\ds h'(t)+p(t)h(t)=0$, since $h(t)$
+is a solution to the homogeneous equation. We are hoping to find a
+function $s(t)$ so that $\ds s'(t)+p(t)s(t)=f(t)$; we will have such a
+function if we can arrange to have $\ds v'(t)h(t)=f(t)$, that is,
+$\ds v'(t)=f(t)/h(t)$. But this is as easy (or hard) as finding an
+anti-derivative of $\ds f(t)/h(t)$. Putting this all together, the
+general solution to $\ds \dot y + p(t)y = f(t)$ is
+$$v(t)h(t)+Ae^{P(t)} = v(t)e^{P(t)}+Ae^{P(t)}.$$
+</p><p>
+</p>
+<div class="example">
+<p>
+<span class="theoremlabel">Example 17.3.1 </span>Find the solution of the initial value problem
+$\ds \dot y+3y/t=t^2$, $y(1)=1/2$. First we find the general solution;
+since we are interested in a solution with a given condition at $t=1$,
+we may assume $t>0$.
+We start by solving the homogeneous equation as usual; call the
+solution $g$:
+$$g=Ae^{-\int (3/t)\,dt}=Ae^{-3\ln t}=At^{-3}.$$
+Then as in the discussion, $\ds h(t)=t^{-3}$ and
+$\ds v'(t)=t^2/t^{-3}=t^5$, so $\ds v(t)=t^6/6$. We know that
+every solution to the equation looks like
+$$v(t)t^{-3}+At^{-3}={t^6\over6}t^{-3}+At^{-3}={t^3\over6}+At^{-3}.$$
+Finally we substitute to find $A$:
+$$\eqalign{
+{1\over 2}&={(1)^3\over6}+A(1)^{-3}={1\over6}+A\cr
+A&={1\over 2}-{1\over6}={1\over3}.\cr}
+$$
+The solution is then
+$$y={t^3\over6}+{1\over3}t^{-3}.$$
+
+</p>
+</div><!-- example -->
+<p>
+</p><p>
+Here is an alternate method for finding a particular solution to the
+differential equation, using an
+<b>integrating factor</b>. In the differential equation $\ds \dot
+y+p(t)y=f(t)$, we note that if we multiply through by a function
+$I(t)$ to get $\ds I(t)\dot y+I(t)p(t)y=I(t)f(t)$, the left hand side
+looks like it could be a derivative computed by the product rule:
+$${d\over dt}(I(t)y)=I(t)\dot y+I'(t)y.$$
+Now if we could choose $I(t)$ so that $I'(t)=I(t)p(t)$, this would be
+exactly the left hand side of the differential equation. But this is
+just a first order homogeneous linear equation, and we know a solution
+is $\ds I(t)=e^{Q(t)}$, where $\ds Q(t)=\int p\,dt$; note that 
+$Q(t)=-P(t)$, where $P(t)$ appears in the variation of parameters
+method and $P'(t)=-p$. Now the modified differential equation is 
+$$
+\eqalign{
+e^{-P(t)}\dot y+e^{-P(t)}p(t)y&=e^{-P(t)}f(t)\cr
+{d\over dt}(e^{-P(t)}y)&=e^{-P(t)}f(t).\cr
+}$$
+Integrating both sides gives
+$$
+\eqalign{
+e^{-P(t)}y&=\int e^{-P(t)}f(t)\,dt\cr
+y&=e^{P(t)}\int e^{-P(t)}f(t)\,dt.\cr
+}$$
+If you look carefully, you will see that this is exactly the same
+solution we found by variation of parameters, because
+$\ds e^{-P(t)}f(t)=f(t)/h(t)$.
+</p><p>
+Some people find it easier to remember how to use the integrating
+factor method than variation of parameters. Since ultimately they
+require the same calculation, you should use whichever of the two you
+find easier to recall. Using this method, the solution of the previous
+example would look just a bit different: Starting with
+$\ds \dot y+3y/t=t^2$, we recall that the integrating factor is
+$\ds e^{\int 3/t}=e^{3\ln t}=t^3$. Then we multiply through by the
+integrating factor and solve:
+$$\eqalign{
+t^3\dot y+t^3 3y/t&=t^3t^2\cr
+t^3\dot y+t^2 3y&=t^5\cr
+{d\over dt}(t^3 y)&=t^5\cr
+t^3 y&=t^6/6\cr
+y&=t^3/6.\cr}
+$$
+This is the same answer, of course, and the problem is then finished
+just as before.
+</p><p>
+</p>
+<a id="exercises"></a><h2 class="exercises">Exercises 17.3</h2>
+<p></p><p>
+In problems 1&ndash;10, find the general solution of the equation.
+</p><p>
+</p>
+<p class="exercise"><b>Ex 17.3.1</b>
+$\ds\dot y +4y=8$
+(<a knowl="" class="internal" value="$\ds y=Ae^{-4t}+2$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 17.3.2</b>
+$\ds\dot y-2y=6$
+(<a knowl="" class="internal" value="$\ds y=Ae^{2t}-3$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 17.3.3</b>
+$\ds\dot y +ty=5t$
+(<a knowl="" class="internal" value="$\ds y=Ae^{-(1/2)t^2}+5$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 17.3.4</b>
+$\ds\dot y+e^ty=-2e^t$
+(<a knowl="" class="internal" value="$\ds y=Ae^{-e^t}-2$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 17.3.5</b>
+$\ds\dot y-y=t^2$
+(<a knowl="" class="internal" value="$\ds y=Ae^{t}-t^2-2t-2$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 17.3.6</b>
+$\ds 2\dot y +y=t$
+(<a knowl="" class="internal" value="$\ds y=Ae^{-t/2}+t-2$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 17.3.7</b>
+$\ds t\dot y -2y=1/t$, $t>0$
+(<a knowl="" class="internal" value="$\ds y=At^2-{1\over3t}$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 17.3.8</b>
+$\ds t\dot y+y=\sqrt{t}$, $t>0$
+(<a knowl="" class="internal" value="$\ds y={c\over t}+{2\over3}\sqrt t$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 17.3.9</b>
+$\ds\dot y\cos t+y\sin t=1$, $-\pi/2< t< \pi/2$
+(<a knowl="" class="internal" value="$\ds y= A\cos t+\sin t$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 17.3.10</b>
+$\ds\dot y + y\sec t=\tan t$, $-\pi/2< t< \pi/2$
+(<a knowl="" class="internal" value="$\ds y= {A\over\sec t+\tan t}+1-{t\over\sec t+\tan t}$">answer</a>)
+
+
+</p><p>
+
+
+</div></div></body>
+</html>

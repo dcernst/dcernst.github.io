@@ -1,0 +1,1084 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+<meta http-equiv="Content-Language" Content="en">
+<title>9.8 Probability</title>
+<!--
+<script type="text/javascript" src="js/deployJava.js"></script>
+<link rel="stylesheet" type="text/css" href="http://jsxgraph.uni-bayreuth.de/distrib/jsxgraph.css" />
+-->
+<!-- use Jsxgraph to create figures: http://jsxgraph.uni-bayreuth.de/wp/ -->
+<link rel="stylesheet" type="text/css" href="css/jsxgraph.css" />
+<script type="text/javascript" src="js/jsxgraphcore.js"></script>
+<script src="js/three.min.js"></script>
+<script src="js/Detector.js"></script>
+<script src="js/TrackballControls.js"></script>
+<script src="js/OrthographicTrackballControls.js"></script>
+<script src="js/THREEx.KeyboardState.js"></script>
+<script src="js/THREEx.FullScreen.js"></script>
+<script src="js/THREEx.WindowResize.js"></script>
+<script type='text/javascript' src='js/DAT.GUI.min.js'></script>
+<script>
+window.requestAnimFrame = (function(){
+    return  window.requestAnimationFrame       || 
+        window.webkitRequestAnimationFrame || 
+        window.mozRequestAnimationFrame    || 
+        window.oRequestAnimationFrame      || 
+        window.msRequestAnimationFrame     || 
+        function(/* function */ callback, /* DOMElement */
+            element){
+            window.setTimeout(callback, 1000 / 60);
+        };
+})();
+</script>
+<script src="js/ifvisible.min.js"></script>
+<script src="js/conrec.js"></script>
+<script>
+active = true;
+ifvisible.setIdleDuration(10);
+ifvisible.on("idle", function(){
+    active = false;
+//    console.log("idle");
+});
+
+ifvisible.on("wakeup", function(){
+    active = true;
+//    console.log("wakeup");
+});
+</script>
+<script src="js/parser.js"></script>
+<link href="css/whitman.css" rel="stylesheet" type="text/css" /><link href="css/calculus.css" rel="stylesheet" type="text/css" /><link href="css/knowlstyle.css" rel="stylesheet" type="text/css" />
+
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  extensions: ["tex2jax.js","TeX/AMSmath.js","TeX/AMSsymbols.js"],
+  jax: ["input/TeX","output/HTML-CSS"],
+  tex2jax: {
+    inlineMath: [['$','$'],["\\(","\\)"]],
+    processEscapes: true,
+  },
+TeX: {
+   Macros: {
+    val: "\\mathop{\\rm val}",
+    divides: "\\mid",
+    ndivides: "\\mathrel{\\not|}",
+    fix: "\\mathop{\\rm fix}",
+    id: "\\mathop{\\rm id}",
+    na: "\\mathop{\\rm na}",
+    d: "\\mathop{\\rm\\strut d}\\nolimits ",
+    legendre: ["\\left(\\frac{#1}{#2}\\right)",2],
+    normalbaselines: "",
+    notdiv: "\\nmid",
+    implies: "\\Rightarrow",
+    iff: "\\Leftrightarrow",
+    sevenpoint: "\\scriptsize",
+    ds: "\\displaystyle",
+    lcm: "\\operatorname{lcm}",
+    arccot: "\\operatorname{arccot}",
+    arcsec: "\\operatorname{arcsec}",
+    arccsc: "\\operatorname{arccsc}",
+    arccosh: "\\operatorname{arccosh}",
+    arcsinh: "\\operatorname{arcsinh}",
+    arcsech: "\\operatorname{arcsech}",
+    sech: "\\operatorname{sech}",
+    csch: "\\operatorname{csch}",
+    R: "{\\mathbb R}",
+    sb: "_",
+    sp: "^",
+    Q: "{\\mathbb Q}",
+    C: "{\\mathbb C}",
+    N: "{\\mathbb N}",
+    Z: "{\\mathbb Z}",
+    U: "{\\mathbb U}",
+    v: ["\\langle #1\\rangle",1],
+    dint: ["{\\mathchoice{\\mathop{\\int\\!\\!\\!\\int}_{#1}}{\\mathop{\\int\\!\\!\\!\\int}_{#1}}{\\mathop{\\int\\!\\!\\!\\int}}{\\mathop{\\int\\!\\!\\!\\int}}}",1],
+    tint: ["{\\mathchoice{\\mathop{\\int\\!\\!\\!\\int\\!\\!\\!\\int}_{#1\\;}}{\\mathop{\\int\\!\\!\\!\\int\\!\\!\\!\\int}_{#1}}{\\mathop{\\int\\!\\!\\!\\int\\!\\!\\!\\int}_{#1}}{\\mathop{\\int\\!\\!\\!\\int\\!\\!\\!\\int}_{#1}}}",1]
+   }
+},
+  "HTML-CSS": { scale: 100},
+  menuSettings: { zscale: "150%", zoom: "Double-Click" }
+});
+    JXG.Options.text.display = 'html';
+    JXG.Options.text.useMathJax = true;
+</script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/math
+jax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+<script>
+MathJax.Hub.Register.StartupHook("End",function () {
+  if(typeof window.orientation === 'undefined'){
+    var i,x;
+    x = document.getElementsByClassName("webgl_display");
+    for (i=0; i<x.length; i++) {
+      x[i].style.display = "block";
+    }
+    x = document.getElementsByClassName("no_webgl_display");
+    for (i=0; i<x.length; i++) {
+      x[i].style.display = "none";
+    }
+  }
+});
+</script>
+
+<script src="js/jquery-3.1.0.min.js"></script>
+<script src="https://sagecell.sagemath.org/static/embedded_sagecell.js"></script>
+<script src="js/jquery.visible.min.js"></script>
+<script type="text/javascript" src="js/knowl.js"></script>
+<style type="text/css">
+
+.sagecell .CodeMirror {
+  height: auto;
+}
+
+.sagecell .CodeMirror-scroll {
+  overflow-y: hidden;
+  overflow-x: auto;
+}
+
+.sagecell-practice .CodeMirror-scroll {
+}
+
+.sagecell button.sagecell_evalButton {
+    font-size: 50%;
+}
+
+.sagecell_sessionContainer {
+    margin-bottom:1em;
+}
+</style>
+<script>
+function toggle(a) {
+  var b = String(a);
+  b=b.replace("contents","button");
+  if (document.getElementById(a).style.display == "block") {
+    document.getElementById(a).style.display = "none";
+    document.getElementById(b).src = "expand_submenu.png";
+  } else {
+    document.getElementById(a).style.display = "block";
+    document.getElementById(b).src = "collapse_submenu.png";
+  }
+}
+function toggle_sidebar() {
+  if (document.getElementById('sidebar').style.display == "block") {
+    document.getElementById('sidebar').style.display = "none";
+    document.getElementById('menu_expand').style.display = "block";
+  } else {
+    document.getElementById('sidebar').style.display = "block";
+    document.getElementById('menu_expand').style.display = "none";
+  }
+}
+</script>
+
+</head>
+
+<body class="" onload="toggle('chapter_09_contents')">
+<div id="header">
+<div class="right">
+<div class="bread">
+  <a href=".">Home</a> &raquo; <a href="chapter09.html">Applications of Integration</a> &raquo; <a href="section09.08.html">Probability</a>
+</div>
+
+<FORM method=GET action=https://www.google.com/custom id="search">
+<INPUT TYPE=text name=q size=31 maxlength=255 value="" style="font-size:small">
+<INPUT type=submit name=sa VALUE="Search the book" style="font-size:small">
+<INPUT type=hidden name=cof VALUE="AH:center;AWFID:198dc2b883340b1f;">
+<input type=hidden name=domains value="www.whitman.edu">
+<input type=hidden name=sitesearch value="www.whitman.edu/mathematics/calculus_online/">
+</FORM>
+<div id="title"><span id="title-content">9.8 Probability</span></div><a href="#exercises">[Jump to exercises]</a>
+</div>
+</div>
+<div id="menu_expand" style="display:none"><a href="javascript:toggle_sidebar()">Expand menu</a></div>
+<div id="sidebar" style="display:block">
+<h2 id="menu_collapse"><a href='javascript:toggle_sidebar()'>Collapse menu</a></h2>
+<h2 class="link"><img id="chapter_01_button" src="expand_submenu.png" onclick='toggle("chapter_01_contents")'><a href="chapter01.html">1 Analytic Geometry</a></h2>
+
+<ul class="list" id="chapter_01_contents">
+<li><a href="section01.01.html">1. Lines</a></li>
+<li><a href="section01.02.html">2. Distance Between Two Points; Circles</a></li>
+<li><a href="section01.03.html">3. Functions</a></li>
+<li><a href="section01.04.html">4. Shifts and Dilations</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_02_button" src="expand_submenu.png" onclick='toggle("chapter_02_contents")'><a href="chapter02.html">2 Instantaneous Rate of Change:  The Derivative</a></h2>
+
+<ul class="list" id="chapter_02_contents">
+<li><a href="section02.01.html">1. The slope of a function</a></li>
+<li><a href="section02.02.html">2. An example</a></li>
+<li><a href="section02.03.html">3. Limits</a></li>
+<li><a href="section02.04.html">4. The Derivative Function</a></li>
+<li><a href="section02.05.html">5. Adjectives For Functions</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_03_button" src="expand_submenu.png" onclick='toggle("chapter_03_contents")'><a href="chapter03.html">3 Rules for Finding Derivatives</a></h2>
+
+<ul class="list" id="chapter_03_contents">
+<li><a href="section03.01.html">1. The Power Rule</a></li>
+<li><a href="section03.02.html">2. Linearity of the Derivative</a></li>
+<li><a href="section03.03.html">3. The Product Rule</a></li>
+<li><a href="section03.04.html">4. The Quotient Rule</a></li>
+<li><a href="section03.05.html">5. The Chain Rule</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_04_button" src="expand_submenu.png" onclick='toggle("chapter_04_contents")'><a href="chapter04.html">4 Transcendental Functions</a></h2>
+
+<ul class="list" id="chapter_04_contents">
+<li><a href="section04.01.html">1. Trigonometric Functions</a></li>
+<li><a href="section04.02.html">2. The Derivative of $\sin x$</a></li>
+<li><a href="section04.03.html">3. A hard limit</a></li>
+<li><a href="section04.04.html">4. The Derivative of $\sin x$, continued</a></li>
+<li><a href="section04.05.html">5. Derivatives of the Trigonometric Functions</a></li>
+<li><a href="section04.06.html">6. Exponential and Logarithmic functions</a></li>
+<li><a href="section04.07.html">7. Derivatives of the exponential and  logarithmic functions</a></li>
+<li><a href="section04.08.html">8. Implicit Differentiation</a></li>
+<li><a href="section04.09.html">9. Inverse Trigonometric Functions</a></li>
+<li><a href="section04.10.html">10. Limits revisited</a></li>
+<li><a href="section04.11.html">11. Hyperbolic Functions</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_05_button" src="expand_submenu.png" onclick='toggle("chapter_05_contents")'><a href="chapter05.html">5 Curve Sketching</a></h2>
+
+<ul class="list" id="chapter_05_contents">
+<li><a href="section05.01.html">1. Maxima and Minima</a></li>
+<li><a href="section05.02.html">2. The first derivative test</a></li>
+<li><a href="section05.03.html">3. The second derivative test</a></li>
+<li><a href="section05.04.html">4. Concavity and inflection points</a></li>
+<li><a href="section05.05.html">5. Asymptotes and Other Things to Look For</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_06_button" src="expand_submenu.png" onclick='toggle("chapter_06_contents")'><a href="chapter06.html">6 Applications of the Derivative</a></h2>
+
+<ul class="list" id="chapter_06_contents">
+<li><a href="section06.01.html">1. Optimization</a></li>
+<li><a href="section06.02.html">2. Related Rates</a></li>
+<li><a href="section06.03.html">3. Newton's Method</a></li>
+<li><a href="section06.04.html">4. Linear Approximations</a></li>
+<li><a href="section06.05.html">5. The Mean Value Theorem</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_07_button" src="expand_submenu.png" onclick='toggle("chapter_07_contents")'><a href="chapter07.html">7 Integration</a></h2>
+
+<ul class="list" id="chapter_07_contents">
+<li><a href="section07.01.html">1. Two examples</a></li>
+<li><a href="section07.02.html">2. The Fundamental Theorem of Calculus</a></li>
+<li><a href="section07.03.html">3. Some Properties of Integrals</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_08_button" src="expand_submenu.png" onclick='toggle("chapter_08_contents")'><a href="chapter08.html">8 Techniques of Integration</a></h2>
+
+<ul class="list" id="chapter_08_contents">
+<li><a href="section08.01.html">1. Substitution</a></li>
+<li><a href="section08.02.html">2. Powers of sine and cosine</a></li>
+<li><a href="section08.03.html">3. Trigonometric Substitutions</a></li>
+<li><a href="section08.04.html">4. Integration by Parts</a></li>
+<li><a href="section08.05.html">5. Rational Functions</a></li>
+<li><a href="section08.06.html">6. Numerical Integration</a></li>
+<li><a href="section08.07.html">7. Additional exercises</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_09_button" src="expand_submenu.png" onclick='toggle("chapter_09_contents")'><a href="chapter09.html">9 Applications of Integration</a></h2>
+
+<ul class="list" id="chapter_09_contents">
+<li><a href="section09.01.html">1. Area between curves</a></li>
+<li><a href="section09.02.html">2. Distance, Velocity, Acceleration</a></li>
+<li><a href="section09.03.html">3. Volume</a></li>
+<li><a href="section09.04.html">4. Average value of a function</a></li>
+<li><a href="section09.05.html">5. Work</a></li>
+<li><a href="section09.06.html">6. Center of Mass</a></li>
+<li><a href="section09.07.html">7. Kinetic energy; improper integrals</a></li>
+<li><a href="section09.08.html">8. Probability</a></li>
+<li><a href="section09.09.html">9. Arc Length</a></li>
+<li><a href="section09.10.html">10. Surface Area</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_10_button" src="expand_submenu.png" onclick='toggle("chapter_10_contents")'><a href="chapter10.html">10 Polar Coordinates,  Parametric Equations</a></h2>
+
+<ul class="list" id="chapter_10_contents">
+<li><a href="section10.01.html">1. Polar Coordinates</a></li>
+<li><a href="section10.02.html">2. Slopes in polar coordinates</a></li>
+<li><a href="section10.03.html">3. Areas in polar coordinates</a></li>
+<li><a href="section10.04.html">4. Parametric Equations</a></li>
+<li><a href="section10.05.html">5. Calculus with Parametric Equations</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_11_button" src="expand_submenu.png" onclick='toggle("chapter_11_contents")'><a href="chapter11.html">11 Sequences and Series</a></h2>
+
+<ul class="list" id="chapter_11_contents">
+<li><a href="section11.01.html">1. Sequences</a></li>
+<li><a href="section11.02.html">2. Series</a></li>
+<li><a href="section11.03.html">3. The Integral Test</a></li>
+<li><a href="section11.04.html">4. Alternating Series</a></li>
+<li><a href="section11.05.html">5. Comparison Tests</a></li>
+<li><a href="section11.06.html">6. Absolute Convergence</a></li>
+<li><a href="section11.07.html">7. The Ratio and Root Tests</a></li>
+<li><a href="section11.08.html">8. Power Series</a></li>
+<li><a href="section11.09.html">9. Calculus with Power Series</a></li>
+<li><a href="section11.10.html">10. Taylor Series</a></li>
+<li><a href="section11.11.html">11. Taylor's Theorem</a></li>
+<li><a href="section11.12.html">12. Additional exercises</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_12_button" src="expand_submenu.png" onclick='toggle("chapter_12_contents")'><a href="chapter12.html">12 Three Dimensions</a></h2>
+
+<ul class="list" id="chapter_12_contents">
+<li><a href="section12.01.html">1. The Coordinate System</a></li>
+<li><a href="section12.02.html">2. Vectors</a></li>
+<li><a href="section12.03.html">3. The Dot Product</a></li>
+<li><a href="section12.04.html">4. The Cross Product</a></li>
+<li><a href="section12.05.html">5. Lines and Planes</a></li>
+<li><a href="section12.06.html">6. Other Coordinate Systems</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_13_button" src="expand_submenu.png" onclick='toggle("chapter_13_contents")'><a href="chapter13.html">13 Vector Functions</a></h2>
+
+<ul class="list" id="chapter_13_contents">
+<li><a href="section13.01.html">1. Space Curves</a></li>
+<li><a href="section13.02.html">2. Calculus with vector functions</a></li>
+<li><a href="section13.03.html">3. Arc length and curvature</a></li>
+<li><a href="section13.04.html">4. Motion along a curve</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_14_button" src="expand_submenu.png" onclick='toggle("chapter_14_contents")'><a href="chapter14.html">14 Partial Differentiation</a></h2>
+
+<ul class="list" id="chapter_14_contents">
+<li><a href="section14.01.html">1. Functions of Several Variables</a></li>
+<li><a href="section14.02.html">2. Limits and Continuity</a></li>
+<li><a href="section14.03.html">3. Partial Differentiation</a></li>
+<li><a href="section14.04.html">4. The Chain Rule</a></li>
+<li><a href="section14.05.html">5. Directional Derivatives</a></li>
+<li><a href="section14.06.html">6. Higher order derivatives</a></li>
+<li><a href="section14.07.html">7. Maxima and minima</a></li>
+<li><a href="section14.08.html">8. Lagrange Multipliers</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_15_button" src="expand_submenu.png" onclick='toggle("chapter_15_contents")'><a href="chapter15.html">15 Multiple Integration</a></h2>
+
+<ul class="list" id="chapter_15_contents">
+<li><a href="section15.01.html">1. Volume and Average Height</a></li>
+<li><a href="section15.02.html">2. Double Integrals in Cylindrical Coordinates</a></li>
+<li><a href="section15.03.html">3. Moment and Center of Mass</a></li>
+<li><a href="section15.04.html">4. Surface Area</a></li>
+<li><a href="section15.05.html">5. Triple Integrals</a></li>
+<li><a href="section15.06.html">6. Cylindrical and Spherical Coordinates</a></li>
+<li><a href="section15.07.html">7. Change of Variables</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_16_button" src="expand_submenu.png" onclick='toggle("chapter_16_contents")'><a href="chapter16.html">16 Vector Calculus</a></h2>
+
+<ul class="list" id="chapter_16_contents">
+<li><a href="section16.01.html">1. Vector Fields</a></li>
+<li><a href="section16.02.html">2. Line Integrals</a></li>
+<li><a href="section16.03.html">3. The Fundamental Theorem of Line Integrals</a></li>
+<li><a href="section16.04.html">4. Green's Theorem</a></li>
+<li><a href="section16.05.html">5. Divergence and Curl</a></li>
+<li><a href="section16.06.html">6. Vector Functions for Surfaces</a></li>
+<li><a href="section16.07.html">7. Surface Integrals</a></li>
+<li><a href="section16.08.html">8. Stokes's Theorem</a></li>
+<li><a href="section16.09.html">9. The Divergence Theorem</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_17_button" src="expand_submenu.png" onclick='toggle("chapter_17_contents")'><a href="chapter17.html">17 Differential Equations</a></h2>
+
+<ul class="list" id="chapter_17_contents">
+<li><a href="section17.01.html">1. First Order Differential Equations</a></li>
+<li><a href="section17.02.html">2. First Order Homogeneous Linear Equations</a></li>
+<li><a href="section17.03.html">3. First Order Linear Equations</a></li>
+<li><a href="section17.04.html">4. Approximation</a></li>
+<li><a href="section17.05.html">5. Second Order Homogeneous Equations</a></li>
+<li><a href="section17.06.html">6. Second Order Linear Equations</a></li>
+<li><a href="section17.07.html">7. Second Order Linear Equations, take two</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_18_button" src="expand_submenu.png" onclick='toggle("chapter_18_contents")'><a href="chapter18.html">18 Useful formulas</a></h2>
+
+<ul class="list" id="chapter_18_contents">
+</ul>
+
+</div>
+
+<div id="main">
+
+<div id="next"><a href="section09.07.html"><img src=previous_section.png width="30"></a>&nbsp;&nbsp;<a href="section09.09.html"><img src=next_section.png width="30"></a></div>
+
+<div id="content">
+<p>
+<p><a id="sec:probability"></a>
+
+
+</p><p>
+
+You perhaps have at least a rudimentary understanding of
+<b>discrete probability</b>, which
+measures the likelihood of an "event'' when there are a finite number
+of possibilities. For example, when an ordinary six-sided die is
+rolled, the probability of getting any particular number is $1/6$. In
+general, the probability of an event is the number of ways the event
+can happen divided by the number of ways that "anything'' can happen.
+</p><p>
+For a slightly more complicated example, consider the case of two
+six-sided dice. The dice are physically distinct, which means that
+rolling a 2&ndash;5 is different than rolling a 5&ndash;2; each is an equally
+likely event out of a total of 36 ways the dice can land, so each has
+a probability of $1/36$.
+</p><p>
+Most interesting events are not so simple. More interesting is the
+probability of rolling a certain sum out of the possibilities 2
+through 12. It is clearly not true that all sums are equally likely:
+the only way to roll a 2 is to roll 1&ndash;1, while there are many ways to
+roll a 7. Because the number of possibilities is quite small, and
+because a pattern quickly becomes evident, it is easy to see that the
+probabilities of the various sums are:
+$$\eqalign{
+  P(2) =P(12)  &=1/36\cr  
+  P(3) = P(11) &= 2/36\cr
+  P(4) =P(10)  &= 3/36\cr
+  P(5) =P(9)   &= 4/36\cr
+  P(6) =P(8)   &= 5/36\cr
+  P(7)         &=6/36\cr
+}$$
+Here we use $P(n)$ to mean "the probability of rolling an $n$.''
+Since we have correctly accounted for all possibilities, the sum of
+all these probabilities is $36/36=1$; the probability that the sum is
+one of 2 through 12 is 1, because there are no other possibilities.
+</p><p>
+The study of probability is concerned with more difficult questions as
+well; for example, suppose the two dice are rolled many times. On the
+average, what sum will come up? In the language of probability, this
+average is called the <b>expected value</b>
+of the sum. This is at first a little misleading, as it does not tell
+us what to "expect'' when the two dice are rolled, but what we expect
+the long term average will be.
+</p><p>
+Suppose that two dice are rolled 36 million times. Based on the
+probabilities, we would expect about 1 million rolls to be 2, about 2
+million to be 3, and so on, with a roll of 7 topping the list at about
+6 million. The sum of all rolls would be 1 million times 2 plus 2
+million times 3, and so on, and dividing by 36
+million we would get the average:
+$$\eqalign{
+  \bar x&=
+  (2\cdot 10^6+3(2\cdot 10^6) +\cdots+7(6\cdot 10^6)+\cdots+12\cdot10^6)
+  {1\over 36\cdot 10^6}\cr
+  &=2{10^6\over 36\cdot 10^6}+3{2\cdot 10^6\over 36\cdot 10^6}+\cdots+
+  7{6\cdot 10^6\over 36\cdot 10^6}+\cdots+12{10^6\over 36\cdot 10^6}\cr
+  &=2P(2)+3P(3)+\cdots+7P(7)+\cdots+12P(12)\cr
+  &=\sum_{i=2}^{12} iP(i)=7.}
+$$
+There is nothing special about the 36 million in
+this calculation. No matter what the number of rolls, once we simplify
+the average, we get the same $\ds\sum_{i=2}^{12} iP(i)$. While the
+actual average value of a large number of rolls will not be exactly 7,
+the average should be close to 7 when the number of rolls is
+large. Turning this around, if the average is not close to 7, we
+should suspect that the dice are not fair.
+</p><p>
+A variable, say $X$, that can take certain values, each with a
+corresponding probability, is called a <b>random
+variable</b>; in the example above, the random
+variable was the sum of the two dice. If the possible values for $X$
+are $\ds x_1$, $\ds x_2$,&hellip;,$\ds x_n$, then 
+the expected value of the random
+variable is $\ds E(X)=\sum_{i=1}^n x_iP(x_i)$. The expected value is
+also called the <b>mean</b>.
+</p><p>
+When the number of possible values for $X$ is finite, we say that $X$
+is a discrete random variable.  In many applications of probability,
+the number of possible values of a random variable is very large,
+perhaps even infinite. To deal with the infinite case we need a
+different approach, and since there is a sum involved, it should not
+be wholly surprising that integration turns out to be a useful
+tool. It then turns out that even when the number of possibilities is
+large but finite, it is frequently easier to pretend that the number
+is infinite. Suppose, for example, that a dart is thrown at a dart
+board. Since the dart board consists of a finite number of atoms,
+there are in some sense only a finite number of places for the dart to
+land, but it is easier to explore the probabilities involved by
+pretending that the dart can land on any point in the usual $x$-$y$
+plane.
+</p><p>
+</p>
+<div class="definition">
+<p>
+<span class="theoremlabel">Definition 9.8.1 </span>Let $f:\R \to \R$ be a
+function. If $f(x) \geq 0$ for every $x$ and $\ds\int_{-\infty }
+^\infty f(x)\,dx = 1$ then $f$ is a <b>probability density
+function</b>.
+
+</p>
+</div><!-- definition -->
+<p>
+</p><p>
+We associate a probability density
+function with a random variable $X$ by stipulating that the
+probability that $X$ is between $a$ and $b$ is 
+$\ds\int_a^b f(x)\,dx$. Because of the requirement that the integral
+from $-\infty$ to $\infty$ be 1, all probabilities are less than or
+equal to 1, and 
+the probability that $X$ takes on some value
+between $-\infty$ and $\infty$ is 1, as it should be.
+</p><p>
+</p>
+<div class="example">
+<p>
+<span class="theoremlabel">Example 9.8.2 </span>Consider again the two dice example; we can view it in a way
+that more resembles the probability density function
+approach. Consider a random variable $X$ that takes on any real value
+with probabilities given by the probability density function in
+figure <a href="section09.08.html#fig:two dice">9.8.1</a>. The function $f$ consists of just the top
+edges of the rectangles, with vertical sides drawn for clarity; the
+function is zero below $1.5$ and above $12.5$.
+The area of each rectangle is the probability of rolling the sum in
+the middle of the bottom of the rectangle, or
+$$P(n) = \int_{n-1/2}^{n+1/2} f(x)\,dx.$$
+The probability of rolling a 4, 5, or 6 is
+$$P(n) = \int_{7/2}^{13/2} f(x)\,dx.$$
+Of course, we could also compute probabilities that don't make sense
+in the context of the dice, such as the probability that 
+$X$ is between 4 and $5.8$.
+
+</p>
+</div><!-- example -->
+<p>
+</p><p>
+<a id="fig:two dice"></a>
+</p><div class='figure'><!-- Integration_applications-two_dice.html -->
+<!-- Figure 9.8.1 -->
+
+<div id='two_dice' class='jxgbox' style='width:80%;'></div>
+
+<script type='text/javascript'>
+(function () {  // BEGIN: scope limiting function wrapper
+  var xmin=-2, xmax= 14, ymin=-1, ymax=7.5;
+  var AspectRatio =  ((ymax-ymin)/(xmax-xmin)); // height/width
+  var wd=document.getElementById('two_dice').offsetWidth;
+  var ht=wd*AspectRatio;
+  var yfactor = (ymax-ymin)/(ht);
+  var xfactor = (xmax-xmin)/(wd);
+  var xaxis_label_offset = yfactor*15;
+  var yaxis_label_offset = xfactor*20;
+  document.getElementById('two_dice').style.height=ht+'px';
+  var brd = JXG.JSXGraph.initBoard('two_dice',{boundingbox:[xmin,ymax,xmax,ymin], showCopyright:false, showNavigation:false}) ;
+  var rejax = function() {
+     MathJax.Hub.Queue(["Typeset",MathJax.Hub]); 
+  }
+  brd.addHook(rejax)
+
+  brd.create('arrow', [[0,0], [13,0]],{strokeWidth:2,strokeColor:'black',fixed:true});
+  brd.create('arrow', [[0,0], [0,7]],{strokeWidth:2,strokeColor:'black',fixed:true});
+  var xi = brd.create('segment', [[0,0], [12.1,0]],{visible:false});
+  brd.create('ticks',[xi,1],{minorTicks:false});
+  var yi = brd.create('segment', [[0,0], [0,6.1]],{visible:false});
+  brd.create('ticks',[yi,1],{minorTicks:false});
+  var i;
+  for (i=1; i<=12; i++) {
+    brd.create('text',[i,-xaxis_label_offset,'$'+i+'$'],{fixed:true});
+  }
+  for (i=1; i<=6; i++) {
+    brd.create('text',[-2*yaxis_label_offset,i,'$'+i+'/36$'],{fixed:true});
+  }
+  var p1,p2,p3,p4;
+  for (i=2; i<=12; i++) {
+    p1 = brd.create('point',[i-0.5,0],{visible:false,fixed:true});
+    p2 = brd.create('point',[i-0.5,6-Math.abs(7-i)],{visible:false,fixed:true});
+    p3 = brd.create('point',[i+0.5,6-Math.abs(7-i)],{visible:false,fixed:true});
+    p4 = brd.create('point',[i+.5,0],{visible:false,fixed:true});
+    brd.create('polygon',[p1,p2,p3,p4],{strokeColor:'black',fillOpacity:0});
+  }
+})(); // END: scope limiting function wrapper
+</script>
+<div class='figcaption'><span class="figurenumber">Figure 9.8.1.</span> A probability density function for two dice.</div></div>
+<p>
+</p><p>
+
+The function
+$$F(x) = P(X\leq x) = \int_{-\infty }^x f(t) dt$$
+is called the <b>cumulative distribution
+function</b> or simply
+(probability) distribution. 
+</p><p>
+</p>
+<div class="example">
+<p>
+<span class="theoremlabel">Example 9.8.3 </span>
+<a id="exam:uniform distribution"></a>
+Suppose that $a< b$ and 
+$$
+  f(x)=\cases{\ds{1\over b-a}& if $a\leq x \leq b$\cr
+  0&otherwise.\cr}
+$$
+Then $f(x)$ is the
+<b>uniform probability density 
+function</b> on $[a,b]$.
+ and the corresponding distribution is
+the <b>uniform distribution</b> on $[a,b]$.
+
+</p>
+</div><!-- example -->
+<p>
+</p><p>
+
+</p>
+<div class="example">
+<p>
+<span class="theoremlabel">Example 9.8.4 </span>
+<a id="exam:normal distribution"></a>
+Consider the function $\ds f(x) = e^{-x^2/2}$. What can we say about 
+$$\int_{-\infty }^\infty e^{-x^2/2}\,dx?$$ 
+We cannot find an antiderivative of $f$, but we can see that this
+integral is some finite number.
+Notice that $\ds 0<  f(x) = e^{-x^2/2} \leq e^{-x/2}$ for
+$|x| > 1$. This implies that the area under $\ds e^{-x^2/2}$ is less
+than the area under $\ds e^{-x/2}$, over the interval $[1,\infty)$.
+It is easy to compute the latter area, namely
+$$\int_1^\infty e^{-x/2}\,dx = {2\over\sqrt{e}},$$
+so 
+$$\int_1^\infty e^{-x^2/2}\,dx$$
+is some finite number smaller than $\ds 2/\sqrt{e}$.
+Because $f$ is symmetric around the $y$-axis,
+$$\int_{-\infty }^{-1} e^{-x^2/2}\,dx=\int_1^\infty e^{-x^2/2}\,dx.$$
+This means that 
+$$
+  \int_{-\infty }^\infty e^{-x^2/2}\,dx
+  =\int_{-\infty}^{-1}
+  e^{-x^2/2}\,dx + \int_{-1}^1 e^{-x^2/2}\,dx + \int_1^\infty
+  e^{-x^2/2}\,dx = A
+$$
+for some finite positive number $A$.
+Now if we let $g(x) = f(x)/A$,
+$$
+  \int_{-\infty }^\infty g(x)\,dx =
+  {1\over A}\int_{-\infty }^\infty e^{-x^2/2}\,dx = 
+  {1\over A} A = 1,
+$$
+so $g$ is a probability density function. It turns out to be very
+useful, and is called the 
+<b>standard normal probability density
+function</b> or
+more informally the <b>bell curve</b>, giving rise
+to the <b>standard normal distribution</b>.  See figure <a href="section09.08.html#fig:bell curve">9.8.2</a> for the graph
+of the bell curve.
+
+</p>
+</div><!-- example -->
+<p>
+</p><p>
+<a id="fig:bell curve"></a>
+</p><div class='figure'><!-- Integration_applications-bell_curve.html -->
+<!-- Figure 9.8.2 -->
+
+<div id='bell_curve' class='jxgbox' style='width:85%;'></div>
+
+<script type='text/javascript'>
+(function () {  // BEGIN: scope limiting function wrapper
+  var xmin=-5, xmax= 5, ymin=-1, ymax=1.5;
+  var AspectRatio =  ((ymax-ymin)/(xmax-xmin)); // height/width
+  var wd=document.getElementById('bell_curve').offsetWidth;
+  var ht=wd*AspectRatio;
+  var yfactor = (ymax-ymin)/(ht);
+  var xfactor = (xmax-xmin)/(wd);
+  var xaxis_label_offset = yfactor*15;
+  var yaxis_label_offset = xfactor*20;
+  document.getElementById('bell_curve').style.height=ht+'px';
+  var brd = JXG.JSXGraph.initBoard('bell_curve',{boundingbox:[xmin,ymax,xmax,ymin], showCopyright:false, showNavigation:false}) ;
+  var rejax = function() {
+     MathJax.Hub.Queue(["Typeset",MathJax.Hub]); 
+  }
+  brd.addHook(rejax)
+  var f = function(x) { return Math.exp(-x*x/2)/Math.sqrt(2*Math.PI); }
+  brd.create('arrow', [[-4.5,0], [4.5,0]],{strokeWidth:1,strokeColor:'black',fixed:true});
+  brd.create('arrow', [[0,0], [0,1]],{strokeWidth:1,strokeColor:'black',fixed:true});
+  var xi = brd.create('segment', [[0,0], [4.1,0]],{visible:false});
+  brd.create('ticks',[xi,1],{minorTicks:false});
+  var xi2 = brd.create('segment', [[0,0], [-4.1,0]],{visible:false});
+  brd.create('ticks',[xi2,1],{minorTicks:false});
+  var yi = brd.create('segment', [[0,0], [0,0.75]],{visible:false});
+  brd.create('ticks',[yi,0.5],{minorTicks:false});
+  var i;
+  for (i=1; i<=4; i++) {
+    brd.create('text',[i,-xaxis_label_offset,'$'+i+'$']);
+    brd.create('text',[-i-xfactor*5,-xaxis_label_offset,'$-'+i+'$']);
+  }
+  brd.create('text',[-yaxis_label_offset-xfactor*3,0.5,'$0.5$']);
+  brd.create('functiongraph',[f,-4.5,4.5]);
+})(); // END: scope limiting function wrapper
+</script>
+<div class='figcaption'><span class="figurenumber">Figure 9.8.2.</span> The bell curve.</div></div>
+<p>
+</p><p>
+We have shown that $A$ is some finite number without computing it; we
+cannot compute it with the techniques we have available. By using some
+techniques from multivariable calculus, it can be shown that
+$\ds A=\sqrt{2\pi}$. 
+</p><p>
+</p>
+<div class="example">
+<p>
+<span class="theoremlabel">Example 9.8.5 </span>
+<a id="exam:exponential distribution"></a>
+The <b>exponential distribution</b> has probability density function 
+$$f(x) =\cases{ 0 & $x<  0$\cr
+ce^{-cx } & $x\geq 0$\cr}$$
+where $c$ is a positive
+constant.
+
+</p>
+</div><!-- example -->
+<p>
+</p><p>
+
+</p><p>
+
+</p><p>
+The mean or expected value of a random variable is quite useful, as
+hinted at in our discussion of dice. Recall that the mean for a 
+discrete random variable is $\ds E(X)=\sum_{i=1}^n x_iP(x_i)$. In the
+more general context we use an integral in place of the sum.
+</p><p>
+</p>
+<div class="definition">
+<p>
+<span class="theoremlabel">Definition 9.8.6 </span>The <b>mean</b> 
+of a random variable $X$ with probability density function $f$ is
+$\ds \mu = E(X)=\int_{-\infty }^\infty xf(x)\,dx$,
+provided the integral converges.
+
+</p>
+</div><!-- definition -->
+<p>
+</p><p>
+When the mean exists it is unique, since it is the result of an
+explicit calculation. The mean does not always exist.
+</p><p>
+The mean might look familiar; it is
+essentially identical to the center of mass of a
+one-dimensional beam, as discussed in section <a href="section09.06.html#sec:center of mass">9.6</a>.
+The probability density function $f$ plays the role of the physical
+density function, but now the "beam'' has infinite length.
+If we consider only a finite portion of the beam, say between $a$ and
+$b$, then the center of mass is
+$$\bar x = {\ds\int_a^b xf(x)\,dx\over\ds\int_a^b f(x)\,dx}.$$
+If we extend the beam to infinity, we get
+$$
+  \bar x = {\ds\int_{-\infty}^\infty xf(x)\,dx\over
+  \ds\int_{-\infty}^\infty f(x)\,dx} = \int_{-\infty}^\infty
+  xf(x)\,dx = E(X),
+$$
+because $\ds \int_{-\infty}^\infty f(x)\,dx=1$. In the center of mass
+interpretation, this integral is the total mass of the beam, which is
+always 1 when $f$ is a probability density function.
+</p><p>
+</p>
+<div class="example">
+<p>
+<span class="theoremlabel">Example 9.8.7 </span>
+The mean of the standard normal distribution is 
+$$\int_{-\infty}^\infty x {e^{-x^2/2}\over\sqrt{2\pi}}\,dx.$$
+We compute the two halves:
+$$
+  \int_{-\infty}^0 x{e^{-x^2/2}\over\sqrt{2\pi}}\,dx=
+  \lim_{D\to-\infty}\left.-{e^{-x^2/2}\over\sqrt{2\pi}}\right|_D^0=
+  -{1\over\sqrt{2\pi}}
+$$
+and 
+$$
+  \int_0^\infty x{e^{-x^2/2}\over\sqrt{2\pi}}\,dx=
+  \lim_{D\to\infty}\left.-{e^{-x^2/2}\over\sqrt{2\pi}}\right|_0^D=
+  {1\over\sqrt{2\pi}}.
+$$
+The sum of these is 0, which is the mean.
+
+</p>
+</div><!-- example -->
+<p>
+</p><p>
+While the mean is very useful, it typically is not enough information
+to properly evaluate a situation. For example, suppose we could
+manufacture an 11-sided die, with the faces numbered 2 through 12 so
+that each face is equally likely to be down when the die is
+rolled. The value of a roll is the value on this lower face.  Rolling
+the die gives the same range of values as rolling two ordinary dice,
+but now each value occurs with probability $1/11$. The expected value
+of a roll is
+$$ {2\over 11} + {3\over 11} + \cdots + {12\over 11} = 7.$$
+The mean does not distinguish the two cases, though of course they are
+quite different.
+</p><p>
+If $f$ is a probability density function for a random variable $X$,
+with mean $\mu$, we would like to measure how far a "typical'' value
+of $X$ is from $\mu$. One way to measure this distance is
+$\ds(X-\mu)^2$; we square the difference so as to measure all
+distances as positive. To get the typical such squared distance, we
+compute the mean. For two dice, for example, we get
+$$
+  (2-7)^2{1\over 36} + (3-7)^2{2\over 36} + \cdots + (7-7)^2{6\over 36}
+  +\cdots (11-7)^2{2\over36} + (12-7)^2{1\over36} = {35\over36}.
+$$
+Because we squared the differences this does not directly measure the
+typical distance we seek; if we take the square root of this we do get
+such a measure, $\ds\sqrt{35/36}\approx 2.42$. Doing the computation
+for the strange 11-sided die we get
+$$
+  (2-7)^2{1\over 11} + (3-7)^2{1\over 11} + \cdots + (7-7)^2{1\over 11}
+  +\cdots (11-7)^2{1\over11} + (12-7)^2{1\over11} = 10,
+$$
+with square root approximately 3.16. Comparing 2.42 to 3.16 tells us
+that the two-dice rolls clump somewhat more closely near 7
+than the rolls of the weird die, which of course we
+already knew because these examples are quite simple.
+</p><p>
+To perform the same computation for a probability density function the
+sum is replaced by an integral, just as in the computation of the
+mean. The expected value of the squared distances is
+$$V(X)= \int_{-\infty }^\infty (x-\mu)^2 f(x)\,dx,$$
+called the <b>variance</b>. The square root of the
+variance is the <b>standard deviation</b>, denoted $\sigma$.
+</p><p>
+</p>
+<div class="example">
+<p>
+<span class="theoremlabel">Example 9.8.8 </span>We compute the standard deviation of the standard normal
+distrubution. The variance is
+$${1\over\sqrt{2\pi}}\int_{-\infty}^\infty x^2 e^{-x^2/2}\,dx.$$
+To compute the antiderivative, use integration by parts, with
+$u=x$ and $\ds dv=xe^{-x^2/2}\,dx$. This gives
+$$\int x^2 e^{-x^2/2}\,dx = -x e^{-x^2/2}+\int e^{-x^2/2}\,dx.$$
+We cannot do the new integral, but we know its value when the limits
+are $-\infty$ to $\infty$, from our discussion of the 
+standard normal distribution. Thus
+$$
+  {1\over\sqrt{2\pi}}\int_{-\infty}^\infty x^2 e^{-x^2/2}\,dx=
+  \left.-{1\over\sqrt{2\pi}}x e^{-x^2/2}\right|_{-\infty}^\infty + 
+  {1\over\sqrt{2\pi}}\int_{-\infty}^\infty e^{-x^2/2}\,dx=
+  0+{1\over\sqrt{2\pi}}\sqrt{2\pi}=1.
+$$
+The standard deviation is then $\ds \sqrt{1}=1$.
+
+</p>
+</div><!-- example -->
+<p>
+ 
+</p>
+<div class="example">
+<p>
+<span class="theoremlabel">Example 9.8.9 </span><a id="example:memory chips"></a>
+Here is a simple example showing how these ideas can be
+useful. Suppose it is known that, in the long run, 1 out of every 100
+computer memory chips produced by a certain manufacturing plant is
+defective when the manufacturing process is running correctly. Suppose
+1000 chips are selected at random and 15 of them are defective. This
+is more than the `expected' number (10), but is it so many that we
+should suspect that something has gone wrong in the manufacturing
+process? We are interested in the probability that various numbers of
+defective chips arise; the probability distribution is discrete: there
+can only be a whole number of defective chips. But (under reasonable
+assumptions) the distribution is very close to a normal
+distribution, namely this one:
+$$
+  f(x)={1\over\sqrt{2\pi}\sqrt{1000(.01)(.99)}}
+   \exp\left({-(x-10)^2\over 2(1000)(.01)(.99)}\right),
+$$
+which is pictured in figure <a href="section09.08.html#fig:chip model">9.8.3</a> 
+(recall that $\ds \exp(x)=e^x$). 
+</p><p>
+<a id="fig:chip model"></a>
+</p><div class='figure'><!-- Integration_applications-defective_chips.html -->
+<!-- Figure 9.8.3 -->
+
+<div id='defective_chips' class='jxgbox' style='width:85%;'></div>
+
+<script type='text/javascript'>
+(function () {  // BEGIN: scope limiting function wrapper
+  var xmin=-4, xmax= 30, ymin=-0.08, ymax=0.25;
+  var AspectRatio =  (0.4); // height/width
+  var wd=document.getElementById('defective_chips').offsetWidth;
+  var ht=wd*AspectRatio;
+  var yfactor = (ymax-ymin)/(ht);
+  var xfactor = (xmax-xmin)/(wd);
+  var xaxis_label_offset = yfactor*15;
+  var yaxis_label_offset = xfactor*20;
+  document.getElementById('defective_chips').style.height=ht+'px';
+  var brd = JXG.JSXGraph.initBoard('defective_chips',{boundingbox:[xmin,ymax,xmax,ymin], showCopyright:false, showNavigation:false}) ;
+  var rejax = function() {
+     MathJax.Hub.Queue(["Typeset",MathJax.Hub]); 
+  }
+  brd.addHook(rejax)
+  var f = function(x) { 
+     return Math.exp(-(x-10)*(x-10)/(2*1000*0.01*0.99))/Math.sqrt(2*Math.PI*1000*0.01*0.99); }
+  brd.create('arrow', [[0,0], [28,0]],{strokeWidth:1,strokeColor:'black',fixed:true});
+  brd.create('arrow', [[0,0], [0,0.2]],{strokeWidth:1,strokeColor:'black',fixed:true});
+  var xi = brd.create('segment', [[-5,0], [26,0]],{visible:false});
+  brd.create('ticks',[xi,5],{minorTicks:false});
+  var yi = brd.create('segment', [[0,0], [0,0.16]],{visible:false});
+  brd.create('ticks',[yi,0.05],{minorTicks:false});
+  var i;
+  for (i=0; i<=5; i++) {
+    brd.create('text',[5*i,-xaxis_label_offset,'$'+5*i+'$']);
+  }
+  brd.create('text',[-yaxis_label_offset-xfactor*11,0.05,'$0.05$']);
+  brd.create('text',[-yaxis_label_offset-xfactor*11,0.1,'$0.10$']);
+  brd.create('text',[-yaxis_label_offset-xfactor*11,0.15,'$0.15$']);
+  brd.create('functiongraph',[f,0,25]);
+})(); // END: scope limiting function wrapper
+</script>
+<div class='figcaption'><span class="figurenumber">Figure 9.8.3.</span> Normal density function for the defective chips example.</div></div>
+<p>
+</p><p>
+Now how do we measure how unlikely it is that under normal
+circumstances we would see 15 defective chips? We can't compute the
+probability of exactly 15 defective chips, as this would be
+$\ds\int_{15}^{15} f(x)\,dx = 0$. We could compute
+$\ds\int_{14.5}^{15.5} f(x)\,dx \approx 0.036$; this means there is
+only a $3.6$% chance that the number of defective chips is 15. (We
+cannot compute these integrals exactly; computer software has been
+used to approximate the integral values in this discussion.)
+But
+this is misleading:
+$\ds\int_{9.5}^{10.5} f(x)\,dx \approx 0.126$, which is larger,
+certainly, but still small, even for the "most likely'' outcome. The
+most useful question, in most circumstances, is this: how likely is it that
+the number of defective chips is "far from'' the mean? For example,
+how likely, or unlikely, is it that the number of defective chips is
+different by 5 or more from the expected value of 10? This is the
+probability that the number of defective chips is less than 5 or
+larger than 15, namely
+$$
+  \int_{-\infty}^{5} f(x)\,dx + \int_{15}^{\infty} f(x)\,dx \approx 0.11.
+$$ 
+So there is an $11$% chance that this happens&mdash;not large, but not
+tiny. Hence the 15 defective chips does not appear to be cause for
+alarm: about one time in nine we would expect to see the number of
+defective chips 5 or more away from the expected 10. How about 20?
+Here we compute
+$$
+  \int_{-\infty}^{0} f(x)\,dx + \int_{20}^{\infty} f(x)\,dx \approx 0.0015.
+$$
+So there is only a $0.15$% chance that the number of defective chips
+is more than 10 away from the mean; this would typically be
+interpreted as too suspicious to ignore&mdash;it shouldn't happen if the
+process is running normally. 
+</p><p>
+The big question, of course, is what level of improbability should
+trigger concern? It depends to some degree on the application, and in
+particular on the consequences of getting it wrong in one direction or
+the other. If we're wrong, do we lose a little money? A lot of money?
+Do people die? In general, the standard choices are 5% and 1%. So
+what we should do is find the number of defective chips that has only,
+let us say, a 1% chance of occurring under normal circumstances, and
+use that as the relevant number. In other words, we want to know when
+$$
+  \int_{-\infty}^{10-r} f(x)\,dx + \int_{10+r}^{\infty} f(x)\,dx <  0.01.
+$$ 
+A bit of trial and error shows that with $r=8$ the value is about
+$0.011$, and with $r=9$ it is about $0.004$, so if the number of
+defective chips is 19 or more, or 1 or fewer, we should look for
+problems. If the number is high, we worry that the manufacturing
+process has a problem, or conceivably that the process that tests for
+defective chips is not working correctly and is flagging good chips as
+defective. If the number is too low, we suspect that the testing
+procedure is broken, and is not detecting defective chips.
+
+</p>
+</div><!-- example -->
+<p>
+</p><p>
+</p>
+<a id="exercises"></a><h2 class="exercises">Exercises 9.8</h2>
+<p></p><p>
+</p>
+<p class="exercise"><b>Ex 9.8.1</b>
+Verify that $\ds \int_1^\infty e^{-x/2}\,dx=2/\sqrt{e}$.
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 9.8.2</b>
+Show that the function in example <a href="section09.08.html#exam:exponential distribution">9.8.5</a> is a probability density function. Compute the mean
+and standard deviation.
+(<a knowl="" class="internal" value="$\mu=1/c$, $\sigma=1/c$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 9.8.3</b>
+Compute the mean and standard deviation of the uniform distribution
+on $[a,b]$. (See example <a href="section09.08.html#exam:uniform distribution">9.8.3</a>.)
+(<a knowl="" class="internal" value="$\mu=(a+b)/2$, $\ds\sigma={(b-a)\over 2\sqrt{3}}$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 9.8.4</b>
+What is the expected value of one roll of a fair
+six-sided die?
+(<a knowl="" class="internal" value="$7/2$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 9.8.5</b>
+What is the expected sum of one roll of three fair
+six-sided dice? 
+(<a knowl="" class="internal" value="$21/2$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 9.8.6</b>
+Let $\mu$ and $\sigma$ be real numbers with $\sigma
+>0$. Show that
+$$N(x) = {1\over\sqrt{2\pi} \sigma} e^{-{(x-\mu)^2\over 2\sigma^2}}$$
+is a probability density function.  You will not be able to compute
+this integral directly; use a substitution to convert the integral
+into the one from example <a href="section09.08.html#exam:normal distribution">9.8.4</a>.
+The function $N$ is the probability density function of the
+<b>normal distribution</b> 
+with mean $\mu$ and standard deviation
+$\sigma$. Show that the mean of the normal distribution is $\mu$ and
+the standard deviation is $\sigma$.
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 9.8.7</b>
+Let
+$$
+  f(x) = \cases{
+  \ds{1\over x^2 } & $x \geq 1$\cr
+  0 & $x <  1$\cr}
+$$
+Show that $f$ is a probability density function, and that
+the distribution has no mean.
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 9.8.8</b>
+Let
+$$
+  f(x) = \cases{
+  x & $-1\leq x \leq 1$\cr
+  1 & $1< x \leq 2$\cr
+  0 & otherwise.\cr}
+$$
+Show that $\ds \int_{-\infty }^\infty f(x)\,dx = 1$. Is $f$ a
+probability density function? Justify your answer.
+</p><p>
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 9.8.9</b>
+If you have access to appropriate software, find $r$ so that
+$$
+  \int_{-\infty}^{10-r} f(x)\,dx + \int_{10+r}^{\infty} f(x)\,dx \approx0.05,
+$$
+using the function of example <a href="section09.08.html#example:memory chips">9.8.9</a>.
+Discuss the impact of using this new value of $r$ to decide whether to 
+investigate the chip manufacturing process.
+(<a knowl="" class="internal" value="$r=6$">answer</a>)
+
+
+</p><p>
+
+
+</div></div></body>
+</html>

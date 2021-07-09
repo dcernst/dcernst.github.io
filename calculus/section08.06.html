@@ -1,0 +1,873 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+<meta http-equiv="Content-Language" Content="en">
+<title>8.6 Numerical Integration</title>
+<!--
+<script type="text/javascript" src="js/deployJava.js"></script>
+<link rel="stylesheet" type="text/css" href="http://jsxgraph.uni-bayreuth.de/distrib/jsxgraph.css" />
+-->
+<!-- use Jsxgraph to create figures: http://jsxgraph.uni-bayreuth.de/wp/ -->
+<link rel="stylesheet" type="text/css" href="css/jsxgraph.css" />
+<script type="text/javascript" src="js/jsxgraphcore.js"></script>
+<script src="js/three.min.js"></script>
+<script src="js/Detector.js"></script>
+<script src="js/TrackballControls.js"></script>
+<script src="js/OrthographicTrackballControls.js"></script>
+<script src="js/THREEx.KeyboardState.js"></script>
+<script src="js/THREEx.FullScreen.js"></script>
+<script src="js/THREEx.WindowResize.js"></script>
+<script type='text/javascript' src='js/DAT.GUI.min.js'></script>
+<script>
+window.requestAnimFrame = (function(){
+    return  window.requestAnimationFrame       || 
+        window.webkitRequestAnimationFrame || 
+        window.mozRequestAnimationFrame    || 
+        window.oRequestAnimationFrame      || 
+        window.msRequestAnimationFrame     || 
+        function(/* function */ callback, /* DOMElement */
+            element){
+            window.setTimeout(callback, 1000 / 60);
+        };
+})();
+</script>
+<script src="js/ifvisible.min.js"></script>
+<script src="js/conrec.js"></script>
+<script>
+active = true;
+ifvisible.setIdleDuration(10);
+ifvisible.on("idle", function(){
+    active = false;
+//    console.log("idle");
+});
+
+ifvisible.on("wakeup", function(){
+    active = true;
+//    console.log("wakeup");
+});
+</script>
+<script src="js/parser.js"></script>
+<link href="css/whitman.css" rel="stylesheet" type="text/css" /><link href="css/calculus.css" rel="stylesheet" type="text/css" /><link href="css/knowlstyle.css" rel="stylesheet" type="text/css" />
+
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  extensions: ["tex2jax.js","TeX/AMSmath.js","TeX/AMSsymbols.js"],
+  jax: ["input/TeX","output/HTML-CSS"],
+  tex2jax: {
+    inlineMath: [['$','$'],["\\(","\\)"]],
+    processEscapes: true,
+  },
+TeX: {
+   Macros: {
+    val: "\\mathop{\\rm val}",
+    divides: "\\mid",
+    ndivides: "\\mathrel{\\not|}",
+    fix: "\\mathop{\\rm fix}",
+    id: "\\mathop{\\rm id}",
+    na: "\\mathop{\\rm na}",
+    d: "\\mathop{\\rm\\strut d}\\nolimits ",
+    legendre: ["\\left(\\frac{#1}{#2}\\right)",2],
+    normalbaselines: "",
+    notdiv: "\\nmid",
+    implies: "\\Rightarrow",
+    iff: "\\Leftrightarrow",
+    sevenpoint: "\\scriptsize",
+    ds: "\\displaystyle",
+    lcm: "\\operatorname{lcm}",
+    arccot: "\\operatorname{arccot}",
+    arcsec: "\\operatorname{arcsec}",
+    arccsc: "\\operatorname{arccsc}",
+    arccosh: "\\operatorname{arccosh}",
+    arcsinh: "\\operatorname{arcsinh}",
+    arcsech: "\\operatorname{arcsech}",
+    sech: "\\operatorname{sech}",
+    csch: "\\operatorname{csch}",
+    R: "{\\mathbb R}",
+    sb: "_",
+    sp: "^",
+    Q: "{\\mathbb Q}",
+    C: "{\\mathbb C}",
+    N: "{\\mathbb N}",
+    Z: "{\\mathbb Z}",
+    U: "{\\mathbb U}",
+    v: ["\\langle #1\\rangle",1],
+    dint: ["{\\mathchoice{\\mathop{\\int\\!\\!\\!\\int}_{#1}}{\\mathop{\\int\\!\\!\\!\\int}_{#1}}{\\mathop{\\int\\!\\!\\!\\int}}{\\mathop{\\int\\!\\!\\!\\int}}}",1],
+    tint: ["{\\mathchoice{\\mathop{\\int\\!\\!\\!\\int\\!\\!\\!\\int}_{#1\\;}}{\\mathop{\\int\\!\\!\\!\\int\\!\\!\\!\\int}_{#1}}{\\mathop{\\int\\!\\!\\!\\int\\!\\!\\!\\int}_{#1}}{\\mathop{\\int\\!\\!\\!\\int\\!\\!\\!\\int}_{#1}}}",1]
+   }
+},
+  "HTML-CSS": { scale: 100},
+  menuSettings: { zscale: "150%", zoom: "Double-Click" }
+});
+    JXG.Options.text.display = 'html';
+    JXG.Options.text.useMathJax = true;
+</script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/math
+jax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+<script>
+MathJax.Hub.Register.StartupHook("End",function () {
+  if(typeof window.orientation === 'undefined'){
+    var i,x;
+    x = document.getElementsByClassName("webgl_display");
+    for (i=0; i<x.length; i++) {
+      x[i].style.display = "block";
+    }
+    x = document.getElementsByClassName("no_webgl_display");
+    for (i=0; i<x.length; i++) {
+      x[i].style.display = "none";
+    }
+  }
+});
+</script>
+
+<script src="js/jquery-3.1.0.min.js"></script>
+<script src="https://sagecell.sagemath.org/static/embedded_sagecell.js"></script>
+<script src="js/jquery.visible.min.js"></script>
+<script type="text/javascript" src="js/knowl.js"></script>
+<style type="text/css">
+
+.sagecell .CodeMirror {
+  height: auto;
+}
+
+.sagecell .CodeMirror-scroll {
+  overflow-y: hidden;
+  overflow-x: auto;
+}
+
+.sagecell-practice .CodeMirror-scroll {
+}
+
+.sagecell button.sagecell_evalButton {
+    font-size: 50%;
+}
+
+.sagecell_sessionContainer {
+    margin-bottom:1em;
+}
+</style>
+<script>
+function toggle(a) {
+  var b = String(a);
+  b=b.replace("contents","button");
+  if (document.getElementById(a).style.display == "block") {
+    document.getElementById(a).style.display = "none";
+    document.getElementById(b).src = "expand_submenu.png";
+  } else {
+    document.getElementById(a).style.display = "block";
+    document.getElementById(b).src = "collapse_submenu.png";
+  }
+}
+function toggle_sidebar() {
+  if (document.getElementById('sidebar').style.display == "block") {
+    document.getElementById('sidebar').style.display = "none";
+    document.getElementById('menu_expand').style.display = "block";
+  } else {
+    document.getElementById('sidebar').style.display = "block";
+    document.getElementById('menu_expand').style.display = "none";
+  }
+}
+</script>
+
+</head>
+
+<body class="" onload="toggle('chapter_08_contents')">
+<div id="header">
+<div class="right">
+<div class="bread">
+  <a href=".">Home</a> &raquo; <a href="chapter08.html">Techniques of Integration</a> &raquo; <a href="section08.06.html">Numerical Integration</a>
+</div>
+
+<FORM method=GET action=https://www.google.com/custom id="search">
+<INPUT TYPE=text name=q size=31 maxlength=255 value="" style="font-size:small">
+<INPUT type=submit name=sa VALUE="Search the book" style="font-size:small">
+<INPUT type=hidden name=cof VALUE="AH:center;AWFID:198dc2b883340b1f;">
+<input type=hidden name=domains value="www.whitman.edu">
+<input type=hidden name=sitesearch value="www.whitman.edu/mathematics/calculus_online/">
+</FORM>
+<div id="title"><span id="title-content">8.6 Numerical Integration</span></div><a href="#exercises">[Jump to exercises]</a>
+</div>
+</div>
+<div id="menu_expand" style="display:none"><a href="javascript:toggle_sidebar()">Expand menu</a></div>
+<div id="sidebar" style="display:block">
+<h2 id="menu_collapse"><a href='javascript:toggle_sidebar()'>Collapse menu</a></h2>
+<h2 class="link"><img id="chapter_01_button" src="expand_submenu.png" onclick='toggle("chapter_01_contents")'><a href="chapter01.html">1 Analytic Geometry</a></h2>
+
+<ul class="list" id="chapter_01_contents">
+<li><a href="section01.01.html">1. Lines</a></li>
+<li><a href="section01.02.html">2. Distance Between Two Points; Circles</a></li>
+<li><a href="section01.03.html">3. Functions</a></li>
+<li><a href="section01.04.html">4. Shifts and Dilations</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_02_button" src="expand_submenu.png" onclick='toggle("chapter_02_contents")'><a href="chapter02.html">2 Instantaneous Rate of Change:  The Derivative</a></h2>
+
+<ul class="list" id="chapter_02_contents">
+<li><a href="section02.01.html">1. The slope of a function</a></li>
+<li><a href="section02.02.html">2. An example</a></li>
+<li><a href="section02.03.html">3. Limits</a></li>
+<li><a href="section02.04.html">4. The Derivative Function</a></li>
+<li><a href="section02.05.html">5. Adjectives For Functions</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_03_button" src="expand_submenu.png" onclick='toggle("chapter_03_contents")'><a href="chapter03.html">3 Rules for Finding Derivatives</a></h2>
+
+<ul class="list" id="chapter_03_contents">
+<li><a href="section03.01.html">1. The Power Rule</a></li>
+<li><a href="section03.02.html">2. Linearity of the Derivative</a></li>
+<li><a href="section03.03.html">3. The Product Rule</a></li>
+<li><a href="section03.04.html">4. The Quotient Rule</a></li>
+<li><a href="section03.05.html">5. The Chain Rule</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_04_button" src="expand_submenu.png" onclick='toggle("chapter_04_contents")'><a href="chapter04.html">4 Transcendental Functions</a></h2>
+
+<ul class="list" id="chapter_04_contents">
+<li><a href="section04.01.html">1. Trigonometric Functions</a></li>
+<li><a href="section04.02.html">2. The Derivative of $\sin x$</a></li>
+<li><a href="section04.03.html">3. A hard limit</a></li>
+<li><a href="section04.04.html">4. The Derivative of $\sin x$, continued</a></li>
+<li><a href="section04.05.html">5. Derivatives of the Trigonometric Functions</a></li>
+<li><a href="section04.06.html">6. Exponential and Logarithmic functions</a></li>
+<li><a href="section04.07.html">7. Derivatives of the exponential and  logarithmic functions</a></li>
+<li><a href="section04.08.html">8. Implicit Differentiation</a></li>
+<li><a href="section04.09.html">9. Inverse Trigonometric Functions</a></li>
+<li><a href="section04.10.html">10. Limits revisited</a></li>
+<li><a href="section04.11.html">11. Hyperbolic Functions</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_05_button" src="expand_submenu.png" onclick='toggle("chapter_05_contents")'><a href="chapter05.html">5 Curve Sketching</a></h2>
+
+<ul class="list" id="chapter_05_contents">
+<li><a href="section05.01.html">1. Maxima and Minima</a></li>
+<li><a href="section05.02.html">2. The first derivative test</a></li>
+<li><a href="section05.03.html">3. The second derivative test</a></li>
+<li><a href="section05.04.html">4. Concavity and inflection points</a></li>
+<li><a href="section05.05.html">5. Asymptotes and Other Things to Look For</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_06_button" src="expand_submenu.png" onclick='toggle("chapter_06_contents")'><a href="chapter06.html">6 Applications of the Derivative</a></h2>
+
+<ul class="list" id="chapter_06_contents">
+<li><a href="section06.01.html">1. Optimization</a></li>
+<li><a href="section06.02.html">2. Related Rates</a></li>
+<li><a href="section06.03.html">3. Newton's Method</a></li>
+<li><a href="section06.04.html">4. Linear Approximations</a></li>
+<li><a href="section06.05.html">5. The Mean Value Theorem</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_07_button" src="expand_submenu.png" onclick='toggle("chapter_07_contents")'><a href="chapter07.html">7 Integration</a></h2>
+
+<ul class="list" id="chapter_07_contents">
+<li><a href="section07.01.html">1. Two examples</a></li>
+<li><a href="section07.02.html">2. The Fundamental Theorem of Calculus</a></li>
+<li><a href="section07.03.html">3. Some Properties of Integrals</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_08_button" src="expand_submenu.png" onclick='toggle("chapter_08_contents")'><a href="chapter08.html">8 Techniques of Integration</a></h2>
+
+<ul class="list" id="chapter_08_contents">
+<li><a href="section08.01.html">1. Substitution</a></li>
+<li><a href="section08.02.html">2. Powers of sine and cosine</a></li>
+<li><a href="section08.03.html">3. Trigonometric Substitutions</a></li>
+<li><a href="section08.04.html">4. Integration by Parts</a></li>
+<li><a href="section08.05.html">5. Rational Functions</a></li>
+<li><a href="section08.06.html">6. Numerical Integration</a></li>
+<li><a href="section08.07.html">7. Additional exercises</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_09_button" src="expand_submenu.png" onclick='toggle("chapter_09_contents")'><a href="chapter09.html">9 Applications of Integration</a></h2>
+
+<ul class="list" id="chapter_09_contents">
+<li><a href="section09.01.html">1. Area between curves</a></li>
+<li><a href="section09.02.html">2. Distance, Velocity, Acceleration</a></li>
+<li><a href="section09.03.html">3. Volume</a></li>
+<li><a href="section09.04.html">4. Average value of a function</a></li>
+<li><a href="section09.05.html">5. Work</a></li>
+<li><a href="section09.06.html">6. Center of Mass</a></li>
+<li><a href="section09.07.html">7. Kinetic energy; improper integrals</a></li>
+<li><a href="section09.08.html">8. Probability</a></li>
+<li><a href="section09.09.html">9. Arc Length</a></li>
+<li><a href="section09.10.html">10. Surface Area</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_10_button" src="expand_submenu.png" onclick='toggle("chapter_10_contents")'><a href="chapter10.html">10 Polar Coordinates,  Parametric Equations</a></h2>
+
+<ul class="list" id="chapter_10_contents">
+<li><a href="section10.01.html">1. Polar Coordinates</a></li>
+<li><a href="section10.02.html">2. Slopes in polar coordinates</a></li>
+<li><a href="section10.03.html">3. Areas in polar coordinates</a></li>
+<li><a href="section10.04.html">4. Parametric Equations</a></li>
+<li><a href="section10.05.html">5. Calculus with Parametric Equations</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_11_button" src="expand_submenu.png" onclick='toggle("chapter_11_contents")'><a href="chapter11.html">11 Sequences and Series</a></h2>
+
+<ul class="list" id="chapter_11_contents">
+<li><a href="section11.01.html">1. Sequences</a></li>
+<li><a href="section11.02.html">2. Series</a></li>
+<li><a href="section11.03.html">3. The Integral Test</a></li>
+<li><a href="section11.04.html">4. Alternating Series</a></li>
+<li><a href="section11.05.html">5. Comparison Tests</a></li>
+<li><a href="section11.06.html">6. Absolute Convergence</a></li>
+<li><a href="section11.07.html">7. The Ratio and Root Tests</a></li>
+<li><a href="section11.08.html">8. Power Series</a></li>
+<li><a href="section11.09.html">9. Calculus with Power Series</a></li>
+<li><a href="section11.10.html">10. Taylor Series</a></li>
+<li><a href="section11.11.html">11. Taylor's Theorem</a></li>
+<li><a href="section11.12.html">12. Additional exercises</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_12_button" src="expand_submenu.png" onclick='toggle("chapter_12_contents")'><a href="chapter12.html">12 Three Dimensions</a></h2>
+
+<ul class="list" id="chapter_12_contents">
+<li><a href="section12.01.html">1. The Coordinate System</a></li>
+<li><a href="section12.02.html">2. Vectors</a></li>
+<li><a href="section12.03.html">3. The Dot Product</a></li>
+<li><a href="section12.04.html">4. The Cross Product</a></li>
+<li><a href="section12.05.html">5. Lines and Planes</a></li>
+<li><a href="section12.06.html">6. Other Coordinate Systems</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_13_button" src="expand_submenu.png" onclick='toggle("chapter_13_contents")'><a href="chapter13.html">13 Vector Functions</a></h2>
+
+<ul class="list" id="chapter_13_contents">
+<li><a href="section13.01.html">1. Space Curves</a></li>
+<li><a href="section13.02.html">2. Calculus with vector functions</a></li>
+<li><a href="section13.03.html">3. Arc length and curvature</a></li>
+<li><a href="section13.04.html">4. Motion along a curve</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_14_button" src="expand_submenu.png" onclick='toggle("chapter_14_contents")'><a href="chapter14.html">14 Partial Differentiation</a></h2>
+
+<ul class="list" id="chapter_14_contents">
+<li><a href="section14.01.html">1. Functions of Several Variables</a></li>
+<li><a href="section14.02.html">2. Limits and Continuity</a></li>
+<li><a href="section14.03.html">3. Partial Differentiation</a></li>
+<li><a href="section14.04.html">4. The Chain Rule</a></li>
+<li><a href="section14.05.html">5. Directional Derivatives</a></li>
+<li><a href="section14.06.html">6. Higher order derivatives</a></li>
+<li><a href="section14.07.html">7. Maxima and minima</a></li>
+<li><a href="section14.08.html">8. Lagrange Multipliers</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_15_button" src="expand_submenu.png" onclick='toggle("chapter_15_contents")'><a href="chapter15.html">15 Multiple Integration</a></h2>
+
+<ul class="list" id="chapter_15_contents">
+<li><a href="section15.01.html">1. Volume and Average Height</a></li>
+<li><a href="section15.02.html">2. Double Integrals in Cylindrical Coordinates</a></li>
+<li><a href="section15.03.html">3. Moment and Center of Mass</a></li>
+<li><a href="section15.04.html">4. Surface Area</a></li>
+<li><a href="section15.05.html">5. Triple Integrals</a></li>
+<li><a href="section15.06.html">6. Cylindrical and Spherical Coordinates</a></li>
+<li><a href="section15.07.html">7. Change of Variables</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_16_button" src="expand_submenu.png" onclick='toggle("chapter_16_contents")'><a href="chapter16.html">16 Vector Calculus</a></h2>
+
+<ul class="list" id="chapter_16_contents">
+<li><a href="section16.01.html">1. Vector Fields</a></li>
+<li><a href="section16.02.html">2. Line Integrals</a></li>
+<li><a href="section16.03.html">3. The Fundamental Theorem of Line Integrals</a></li>
+<li><a href="section16.04.html">4. Green's Theorem</a></li>
+<li><a href="section16.05.html">5. Divergence and Curl</a></li>
+<li><a href="section16.06.html">6. Vector Functions for Surfaces</a></li>
+<li><a href="section16.07.html">7. Surface Integrals</a></li>
+<li><a href="section16.08.html">8. Stokes's Theorem</a></li>
+<li><a href="section16.09.html">9. The Divergence Theorem</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_17_button" src="expand_submenu.png" onclick='toggle("chapter_17_contents")'><a href="chapter17.html">17 Differential Equations</a></h2>
+
+<ul class="list" id="chapter_17_contents">
+<li><a href="section17.01.html">1. First Order Differential Equations</a></li>
+<li><a href="section17.02.html">2. First Order Homogeneous Linear Equations</a></li>
+<li><a href="section17.03.html">3. First Order Linear Equations</a></li>
+<li><a href="section17.04.html">4. Approximation</a></li>
+<li><a href="section17.05.html">5. Second Order Homogeneous Equations</a></li>
+<li><a href="section17.06.html">6. Second Order Linear Equations</a></li>
+<li><a href="section17.07.html">7. Second Order Linear Equations, take two</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_18_button" src="expand_submenu.png" onclick='toggle("chapter_18_contents")'><a href="chapter18.html">18 Useful formulas</a></h2>
+
+<ul class="list" id="chapter_18_contents">
+</ul>
+
+</div>
+
+<div id="main">
+
+<div id="next"><a href="section08.05.html"><img src=previous_section.png width="30"></a>&nbsp;&nbsp;<a href="section08.07.html"><img src=next_section.png width="30"></a></div>
+
+<div id="content">
+<p>
+
+
+ 
+We have now seen some of the most generally useful methods
+for discovering antiderivatives, and there are others. 
+Unfortunately, some functions
+have no simple antiderivatives; in such cases if the value of a
+definite integral is needed it will have to be approximated. We will
+see two methods that work reasonably well and yet are fairly simple;
+in some cases more sophisticated techniques will be needed.
+</p><p>
+Of course, we already know one way to approximate an integral: if we
+think of the integral as computing an area, we can add up the areas of
+some rectangles. While this is quite simple, it is usually the case
+that a large number of rectangles is needed to get acceptable
+accuracy. A similar approach is much better: we approximate the area
+under a curve over a small interval as the area of a 
+trapezoid. In
+figure <a href="section08.06.html#fig:trapezoid approximation">8.6.1</a> we see an area under 
+a curve approximated by rectangles and by trapezoids; it is apparent
+that the trapezoids give a substantially better approximation on each
+subinterval. 
+</p><p>
+<a id="fig:trapezoid approximation"></a>
+</p><div class='figure'><!-- Integration_techniques-numerical_rectangles_trapezoids.html -->
+<!-- Figure 8.6.1 -->
+
+<table style="width:80%;margin-left:auto;margin-right:auto;padding:25px;border-width:2px;border-style:outset;border-color:gray;">
+<tr>
+<td style="width:50%">
+  <div id='numerical_int_rectangles' class='jxgbox' style='width:100%;'></div>
+</td>
+<td style="width:50%">
+  <div id='numerical_int_trapezoids' class='jxgbox' style='width:100%;'></div>
+</td>
+</tr>
+<tr><td colspan="2">
+Use the slider to change the number of subintervals.
+<p>
+</td></tr></table> 
+<script type='text/javascript'>
+(function () {  // BEGIN: scope limiting function wrapper
+  var rxmin=-0.5, rxmax= 4.5, rymin=-1, rymax=8;
+  var rAspectRatio =  (1.3); // height/width
+  var rwd=document.getElementById('numerical_int_rectangles').offsetWidth;
+  var rht=rwd*rAspectRatio;
+  document.getElementById('numerical_int_rectangles').style.height=rht+'px';
+  var txmin=-0.5, txmax= 4.5, tymin=-1, tymax=8;
+  var tAspectRatio = (1.3); // height/width
+  var twd=document.getElementById('numerical_int_trapezoids').offsetWidth;
+  var tht=twd*tAspectRatio;
+  document.getElementById('numerical_int_trapezoids').style.height=tht+'px';
+  var rbrd = JXG.JSXGraph.initBoard('numerical_int_rectangles',{boundingbox:[rxmin,rymax,rxmax,rymin], showCopyright:false, showNavigation:false}) ;
+  var tbrd = JXG.JSXGraph.initBoard('numerical_int_trapezoids',{boundingbox:[txmin,tymax,txmax,tymin], showCopyright:false, showNavigation:false}) ;
+  var rejax = function() {
+     MathJax.Hub.Queue(["Typeset",MathJax.Hub]); 
+  }
+  rbrd.addHook(rejax); tbrd.addHook(rejax);
+
+  var f = function(x) { return x*(x-2)*(x-4)+4; };
+
+  var rxaxis = rbrd.create('segment', [[0,0], [4.1,0]],{strokeWidth:1,strokeColor:'black'});
+  var int_slider = rbrd.create('slider',[[0,-0.5],[3,-0.5],[2,4,20]],{name:'n',snapWidth:1,withLabel:false});
+    rbrd.create('text',[3.2,-0.5,function(){ return '$n='+int_slider.Value()+'$';}]);
+  
+  var rectf = rbrd.create('functiongraph', [f,0,4],{strokeWidth: 2, dash:0});
+  var rects = rbrd.create('riemannsum',[f, function(){return int_slider.Value();}, 'left',0,4], {fillColor:'#ffff00', fillOpacity:0.3});
+  
+  var txaxis = tbrd.create('segment', [[0,0], [4.1,0]],{strokeWidth:1,strokeColor:'black'});
+  var trapf = tbrd.create('functiongraph', [f,0,4],{strokeWidth: 2, dash:0});
+  var traps = tbrd.create('riemannsum',[f, function(){return int_slider.Value();}, 'trapezodial',0,4], {fillColor:'#ffff00', fillOpacity:0.3});
+  var sync = function () {
+     tbrd.update();
+  }
+  rbrd.addHook(sync);
+})(); // END: scope limiting function wrapper
+</script>
+<div class='figcaption'><span class="figurenumber">Figure 8.6.1.</span> Approximating an area with rectangles and with trapezoids.</div></div>
+<p>
+</p><p>
+As with rectangles, we divide the interval into $n$ equal subintervals
+of length $\Delta x$.
+A typical trapezoid is pictured in figure <a href="section08.06.html#fig:one trapezoid">8.6.2</a>;
+it has area $\ds{f(x_i)+f(x_{i+1})\over2}\Delta x$. If we add up the
+  areas of all trapezoids we get
+$$
+  \eqalign{
+  {f(x_0)+f(x_1)\over2}\Delta x&+{f(x_1)+f(x_2)\over2}\Delta x+\cdots+
+  {f(x_{n-1})+f(x_n)\over2}\Delta x=\cr
+  &\left({f(x_0)\over2}+f(x_1)+f(x_2)+\cdots+f(x_{n-1})+{f(x_n)\over2}\right)
+  \Delta x.\cr}
+$$ 
+This is usually known as the 
+<b>Trapezoid Rule</b>.
+For a modest number of subintervals this is not too difficult to do
+with a calculator; a computer can easily do many subintervals.
+</p><p>
+<a id="fig:one trapezoid"></a>
+</p><div class='figure'><!-- Integration_techniques-numerical_one_trapezoid.html -->
+<!-- Figure 8.6.2 -->
+<div id="one_trapezoid" class="jxgbox" style="width:35%"></div>
+<script type="text/javascript">
+ (function () {  // BEGIN: scope limiting function wrapper
+  var xmin=-0.5, xmax= 3.75, ymin=-0.5, ymax=3.5;
+  var AspectRatio =  ((ymax-ymin)/(xmax-xmin)); // height/width
+  var wd=document.getElementById('one_trapezoid').offsetWidth;
+  var ht=wd*AspectRatio;
+  var yfactor = (ymax-ymin)/(ht);
+  var xfactor = (xmax-xmin)/(wd);
+  var xaxis_label_offset = yfactor*15;
+  var yaxis_label_offset = xfactor*20;
+  document.getElementById('one_trapezoid').style.height=ht+'px';
+  var f = function(x){ return -x*x+1.7*x+2.3; }
+  var brd = JXG.JSXGraph.initBoard('one_trapezoid',{boundingbox:[xmin,ymax,xmax,ymin], showCopyright:false, showNavigation:false});
+  var rejax = function() {
+     MathJax.Hub.Queue(["Typeset",MathJax.Hub]); 
+  }
+  brd.addHook(rejax);
+  var graph = brd.create('functiongraph', [f,1,2], {strokeColor:'#00FF00'});
+  var x_axis = brd.create('segment',[[0,0],[3,0]],{strokeColor:'#000000',fixed:true,strokeWidth:1});
+  var xi = brd.create('segment',[[1,0],[2.1,0]],{visible:false});
+  brd.create('segment',[[1,0],[1,3]],{strokeColor:'black',strokeWidth:1,dash:2});
+  brd.create('segment',[[2,0],[2,1.7]],{strokeColor:'black',strokeWidth:1,dash:2});
+  brd.create('segment',[[1,3],[2,1.7]],{strokeColor:'black',strokeWidth:1,dash:2});
+  brd.createElement('ticks',[xi,1],{minorTicks:false});
+  var xi2 = brd.create('segment',[[2,0],[0.9,0]],{visible:false});
+  brd.create('ticks',[xi2,1],{minorTicks:false});
+  brd.create('text',[2,-xaxis_label_offset,'$x\\\\sb{i+1}$']);
+  brd.create('text',[2+xfactor*5,1.5+yfactor*5,'$(x\\\\sb{i+1},f(x\\\\sb{i+1}))$']);
+  brd.create('text',[1,-xaxis_label_offset,'$x\\\\sb i$']);
+  brd.create('text',[1-xfactor*65,3,'$(x\\\\sb i,f(x\\\\sb i))$']);
+ })(); // END: scope limiting function wrapper
+</script>
+
+<div class='figcaption'><span class="figurenumber">Figure 8.6.2.</span> A single trapezoid.</div></div>
+<p>
+</p><p>
+In practice, an approximation is useful only if we know how accurate
+it is; for example, we might need a particular value accurate to three
+decimal places. When we compute a particular approximation to an
+integral, the error is the difference between the approximation and
+the true value of the integral. For any approximation technique, we
+need an <b>error estimate</b>, a value that
+is guaranteed to be larger than the actual error. If $A$ is an
+approximation and $E$ is the associated error estimate, then we know
+that the true value of the integral is between $A-E$ and
+$A+E$. In the case of our approximation of the integral, we want
+$E=E(\Delta x)$ to be a function of $\Delta x$ that gets small rapidly
+as $\Delta x$ gets small. Fortunately, for many functions, there is
+such an error estimate associated with the trapezoid approximation.
+</p><p>
+</p>
+<div class="theorem">
+<p>
+<span class="theoremlabel">Theorem 8.6.1 </span>Suppose $f$ has a second derivative $f''$ everywhere on the
+interval $[a,b]$, and $|f''(x)|\le M$ for all $x$ in the
+interval. With $\Delta x= (b-a)/n$, an error estimate for the
+trapezoid approximation is
+$$
+  E(\Delta x) = {b-a\over12}M(\Delta x)^2={(b-a)^3\over 12n^2}M.
+$$
+
+</p>
+</div><!-- theorem -->
+<p>
+</p><p>
+Let's see how we can use this. 
+</p><p>
+</p>
+<div class="example">
+<p>
+<span class="theoremlabel">Example 8.6.2 </span>Approximate $\ds\int_0^1 e^{-x^2}\,dx$ to two decimal places.
+The second derivative of $\ds f=e^{-x^2}$ is $\ds(4x^2-2)e^{-x^2}$, and
+it is not hard to see that on $[0,1]$, $\ds|(4x^2-2)e^{-x^2}|\le 2$.
+We begin by estimating the number of subintervals we are likely to
+need. To get two decimal places of accuracy, we will certainly need
+$E(\Delta x)< 0.005$ or
+$$
+  \eqalign{
+  {1\over12}(2){1\over n^2} &<  0.005\cr
+  {1\over6}(200)&< n^2\cr
+  5.77\approx\sqrt{100\over3}&< n\cr}
+$$
+With $n=6$, the error estimate is thus $\ds1/6^3< 0.0047$.
+We compute the trapezoid approximation for six intervals:
+$$
+  \left({f(0)\over2}+f(1/6)+f(2/6)+\cdots+f(5/6)+{f(1)\over2}\right){1\over6}
+  \approx 0.74512.
+$$
+So the true value of the integral is between $0.74512-0.0047=0.74042$ and
+$0.74512+0.0047=0.74982$. Unfortunately, the first rounds to $0.74$
+and the second 
+rounds to $0.75$, so we can't be sure of the correct value in
+the second decimal place; we need to pick a larger $n$.
+As it turns out, we need to go to $n=12$ to get two bounds that both
+round to the same value, which turns out to be $0.75$. For comparison,
+using $12$ rectangles to approximate the area gives $0.7727$, which is
+considerably less accurate than the approximation using six trapezoids.
+</p><p>
+In practice it
+generally pays to start by requiring better than the maximum possible
+error; for example, we might have initially required $E(\Delta
+x)< 0.001$, or 
+$$
+  \eqalign{
+  {1\over12}(2){1\over n^2} &<  0.001\cr
+  {1\over6}(1000)&< n^2\cr
+  12.91\approx\sqrt{500\over3}&< n\cr}
+$$
+Had we immediately tried $n=13$ this would have given us the desired
+answer. 
+
+</p>
+</div><!-- example -->
+<p>
+</p><p>
+The trapezoid approximation works well, especially compared to
+rectangles, because the tops of the trapezoids form a reasonably good
+approximation to the curve when $\Delta x$ is fairly small. We can
+extend this idea: what if we try to approximate the curve more
+closely, by using something other than a straight line? The obvious
+candidate is a parabola: if we can approximate a short piece of the
+curve with a parabola with equation $\ds y=ax^2+bx+c$, we can easily
+compute the area under the parabola.
+</p><p>
+There are an infinite number of parabolas through any two given
+points, but only one through three given points. If we find a parabola
+through three consecutive points $(x_i,f(x_i))$,
+$(x_{i+1},f(x_{i+1}))$, $(x_{i+2},f(x_{i+2}))$ on the curve, it should
+be quite close to the curve over the whole interval $[x_i,x_{i+2}]$,
+as in figure <a href="section08.06.html#fig:one parabola">8.6.3</a>. If we divide the interval
+$[a,b]$ into an even number of subintervals, we can then approximate
+the curve by a sequence of parabolas, each covering two of the
+subintervals. For this to be practical, we would like a simple formula
+for the area under one parabola, namely, the parabola through
+$(x_i,f(x_i))$, $(x_{i+1},f(x_{i+1}))$, and
+$(x_{i+2},f(x_{i+2}))$. That is, we should attempt to write down the
+parabola $y=ax^2+bx+c$ through these points and then integrate it, and
+hope that the result is fairly simple. Although the algebra involved
+is messy, this turns out to be possible. The algebra is well within
+the capability of a good computer algebra system like Sage, so we will
+present the result without all of the algebra; you can see how to do
+it in this 
+<a knowl="Integration_techniques-derive_simpsons_rule.html">Sage worksheet.</a>
+</p><p>
+To find the parabola, we solve these three equations
+for $a$, $b$, and $c$:
+$$
+  \eqalign{
+  f(x_i)&=a(x_{i+1}-\Delta x)^2+b(x_{i+1}-\Delta x)+c\cr
+  f(x_{i+1})&=a(x_{i+1})^2+b(x_{i+1})+c\cr
+  f(x_{i+2})&=a(x_{i+1}+\Delta x)^2+b(x_{i+1}+\Delta x)+c\cr}
+$$
+Not surprisingly, the solutions turn out to be quite
+messy. Nevertheless, Sage can easily compute and simplify the integral
+to get
+$$
+  \int_{x_{i+1}-\Delta x}^{x_{i+1}+\Delta x} ax^2+bx+c\,dx=
+  {\Delta x\over3}(f(x_i)+4f(x_{i+1})+f(x_{i+2})).
+$$
+Now the sum of the areas under all parabolas is
+$$
+  \displaylines{
+  {\Delta x\over3}(f(x_0)+4f(x_{1})+f(x_{2})+f(x_2)+4f(x_{3})+f(x_{4})+\cdots
+  +f(x_{n-2})+4f(x_{n-1})+f(x_{n}))=\cr
+  {\Delta x\over3}(f(x_0)+4f(x_{1})+2f(x_{2})+4f(x_{3})+2f(x_{4})+\cdots
+  +2f(x_{n-2})+4f(x_{n-1})+f(x_{n})).\cr}
+$$
+This is just slightly more complicated than the formula for
+trapezoids; we need to remember the alternating 2 and 4 coefficients;
+note that $n$ must be even for this to make sense.
+This approximation technique is referred to as 
+<b>Simpson's Rule</b>.
+</p><p>
+<a id="fig:one parabola"></a>
+</p><div class='figure'><!-- Integration_techniques-numerical_one_parabola.html -->
+<!-- Figure 8.6.3 -->
+<div id="one_parabola" class="jxgbox" style="width:45%"></div>
+<script type="text/javascript">
+ (function () {  // BEGIN: scope limiting function wrapper
+  var xmin=-1, xmax= 3, ymin=-0.5, ymax=3.5;
+  var AspectRatio =  ((ymax-ymin)/(xmax-xmin)); // height/width
+  var wd=document.getElementById('one_parabola').offsetWidth;
+  var ht=wd*AspectRatio;
+  var yfactor = (ymax-ymin)/(ht);
+  var xfactor = (xmax-xmin)/(wd);
+  var xaxis_label_offset = yfactor*15;
+  var yaxis_label_offset = xfactor*20;
+  document.getElementById('one_parabola').style.height=ht+'px';
+  var brd = JXG.JSXGraph.initBoard('one_parabola',{boundingbox:[xmin,ymax,xmax,ymin], showCopyright:false, showNavigation:false});
+  var rejax = function() {
+     MathJax.Hub.Queue(["Typeset",MathJax.Hub]); 
+  }
+  brd.addHook(rejax);
+  var f = function(x){ return 1.15*x*x-1.55*x+1.5; }
+  var graph = brd.create('functiongraph', [f,0,2], {strokeWidth:2,strokeColor:'#00FF00',dash:2});
+  var g = function(x){ return 0.5*x*x*x-0.35*x*x-0.55*x+1.5; }
+  var graph2 = brd.create('functiongraph', [g,0,2], {strokeColor:'blue'});
+  var x_axis = brd.create('segment',[[-0.5,0],[2.5,0]],{strokeColor:'#000000',fixed:true,strokeWidth:1});
+  var xi = brd.create('segment',[[0,0],[2.1,0]],{visible:false});
+  brd.createElement('ticks',[xi,1],{minorTicks:false});
+  var xi2 = brd.create('segment',[[1,0],[-0.1,0]],{visible:false});
+  brd.create('ticks',[xi2,1],{minorTicks:false});
+  brd.create('text',[2,-xaxis_label_offset,'$x\\\\sb{i+2}$']);
+  brd.create('text',[2-xfactor*40,3+yfactor*5,'$(x\\\\sb{i+2},f(x\\\\sb{i+2}))$']);
+  brd.create('text',[1,-xaxis_label_offset,'$x\\\\sb {i+1}$']);
+  brd.create('text',[0,-xaxis_label_offset,'$x\\\\sb {i}$']);
+  brd.create('text',[-xfactor*30,1.5+yfactor*10,'$(x\\\\sb i,f(x\\\\sb i))$']);
+ })(); // END: scope limiting function wrapper
+</script>
+
+<div class='figcaption'><span class="figurenumber">Figure 8.6.3.</span> A parabola (dashed) approximating a curve (solid).</div></div>
+<p>
+</p><p>
+As with the trapezoid method, this is useful only with an error
+estimate:
+</p><p>
+</p>
+<div class="theorem">
+<p>
+<span class="theoremlabel">Theorem 8.6.3 </span>Suppose $f$ has a fourth derivative $f^{(4)}$ everywhere on the
+interval $[a,b]$, and $|f^{(4)}(x)|\le M$ for all $x$ in the
+interval. With $\Delta x= (b-a)/n$, an error estimate for Simpson's
+approximation is
+$$
+  E(\Delta x) = {b-a\over180}M(\Delta x)^4={(b-a)^5\over 180n^4}M.
+$$
+
+</p>
+</div><!-- theorem -->
+<p>
+</p><p>
+</p>
+<div class="example">
+<p>
+<span class="theoremlabel">Example 8.6.4 </span>Let us again approximate $\ds\int_0^1 e^{-x^2}\,dx$ to two
+decimal places.  The fourth derivative of $\ds f=e^{-x^2}$ is
+$\ds(16x^2-48x^2+12)e^{-x^2}$; on $[0,1]$ this is at most
+$12$ in absolute value.  We begin by estimating the number of
+subintervals we are likely to need. To get two decimal places of
+accuracy, we will certainly need $E(\Delta x)< 0.005$, but taking a cue
+from our earlier example, let's require $E(\Delta x)< 0.001$:
+$$
+  \eqalign{
+  {1\over180}(12){1\over n^4} &<  0.001\cr
+  {200\over3}&< n^4\cr
+  2.86\approx\root[4] \of {200\over3}&< n\cr}
+$$
+So we try $n=4$, since we need an even number of subintervals. Then
+the error estimate is $\ds12/180/4^4< 0.0003$ and the approximation is
+$$
+  (f(0)+4f(1/4)+2f(1/2)+4f(3/4)+f(1)){1\over3\cdot4}
+  \approx 0.746855.
+$$
+So the true value of the integral is between $0.746855-0.0003=0.746555$ and
+$0.746855+0.0003=0.7471555$, both of which round to $0.75$.
+
+</p>
+</div><!-- example -->
+<p>
+</p><p>
+</p>
+<a id="exercises"></a><h2 class="exercises">Exercises 8.6</h2>
+<p></p><p>
+In the following problems, compute the trapezoid and Simpson
+approximations using 4 subintervals, and compute the error estimate
+for each. (Finding the maximum values of the second and fourth
+derivatives can be challenging for some of these; you may use a
+graphing calculator or computer software to estimate the maximum
+values.)  If you have access to Sage or similar software, approximate
+each integral to two decimal places.  You can use this
+<a knowl="Integration_techniques-Simpson_and_trapezoid_in_sage.html">Sage worksheet to get started.</a>
+</p><p>
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 8.6.1</b>
+$\ds\int_1^3 x\,dx$
+(<a knowl="" class="internal" value="T,S: $4\pm0$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 8.6.2</b>
+$\ds\int_0^3 x^2\,dx$
+(<a knowl="" class="internal" value="T: $9.28125\pm0.281125 $; S: $9\pm0$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 8.6.3</b>
+$\ds\int_2^4 x^3\,dx$
+(<a knowl="" class="internal" value="T: $60.75\pm1$; S: $60\pm0$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 8.6.4</b>
+$\ds\int_1^3 {1\over x}\,dx$
+(<a knowl="" class="internal" value="T: $1.1167\pm 0.0833$; S: $1.1000\pm 0.0167$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 8.6.5</b>
+$\ds\int_1^2 {1\over 1+x^2}\,dx$
+(<a knowl="" class="internal" value="T: $0.3235\pm 0.0026$; S: $0.3217\pm 0.000065$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 8.6.6</b>
+$\ds\int_0^1 x\sqrt{1+x}\,dx$
+(<a knowl="" class="internal" value="T: $0.6478\pm 0.0052$; S: $0.6438\pm 0.000033$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 8.6.7</b>
+$\ds\int_1^5 {x\over 1+x}\,dx$
+(<a knowl="" class="internal" value="T: $2.8833\pm 0.0834$; S: $2.9000\pm 0.0167$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 8.6.8</b>
+$\ds\int_0^1 \sqrt{x^3+1}\,dx$
+(<a knowl="" class="internal" value="T: $1.1170\pm 0.0077$; S: $1.1114\pm 0.0002$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 8.6.9</b>
+$\ds\int_0^1 \sqrt{x^4+1}\,dx$
+(<a knowl="" class="internal" value="T: $1.097\pm 0.0147$; S: $1.089\pm 0.0003$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 8.6.10</b>
+$\ds\int_1^4 \sqrt{1+1/x}\,dx$
+(<a knowl="" class="internal" value="T: $3.63\pm 0.087$; S: $3.62\pm 0.032$">answer</a>)
+
+</p><p>
+
+</p><p>
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 8.6.11</b>
+Using Simpson's rule on a parabola $f(x)$, even with just
+two subintervals, gives the exact value of the integral, because the
+parabolas used to approximate $f$ will be $f$ itself. Remarkably,
+Simpson's rule also computes the integral of a cubic function
+$f(x)=ax^3+bx^2+cx+d$ exactly. Show this is true by showing that
+$$
+  \int_{x_0}^{x_2}
+  f(x)\,dx={x_2-x_0\over3\cdot2}(f(x_0)+4f((x_0+x_2)/2)+f(x_2)).
+$$
+This does require a bit of messy algebra, so you may prefer to use Sage.
+
+</p><p>
+
+
+</div></div></body>
+</html>

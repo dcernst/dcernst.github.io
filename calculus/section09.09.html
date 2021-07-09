@@ -1,0 +1,661 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+<meta http-equiv="Content-Language" Content="en">
+<title>9.9 Arc Length</title>
+<!--
+<script type="text/javascript" src="js/deployJava.js"></script>
+<link rel="stylesheet" type="text/css" href="http://jsxgraph.uni-bayreuth.de/distrib/jsxgraph.css" />
+-->
+<!-- use Jsxgraph to create figures: http://jsxgraph.uni-bayreuth.de/wp/ -->
+<link rel="stylesheet" type="text/css" href="css/jsxgraph.css" />
+<script type="text/javascript" src="js/jsxgraphcore.js"></script>
+<script src="js/three.min.js"></script>
+<script src="js/Detector.js"></script>
+<script src="js/TrackballControls.js"></script>
+<script src="js/OrthographicTrackballControls.js"></script>
+<script src="js/THREEx.KeyboardState.js"></script>
+<script src="js/THREEx.FullScreen.js"></script>
+<script src="js/THREEx.WindowResize.js"></script>
+<script type='text/javascript' src='js/DAT.GUI.min.js'></script>
+<script>
+window.requestAnimFrame = (function(){
+    return  window.requestAnimationFrame       || 
+        window.webkitRequestAnimationFrame || 
+        window.mozRequestAnimationFrame    || 
+        window.oRequestAnimationFrame      || 
+        window.msRequestAnimationFrame     || 
+        function(/* function */ callback, /* DOMElement */
+            element){
+            window.setTimeout(callback, 1000 / 60);
+        };
+})();
+</script>
+<script src="js/ifvisible.min.js"></script>
+<script src="js/conrec.js"></script>
+<script>
+active = true;
+ifvisible.setIdleDuration(10);
+ifvisible.on("idle", function(){
+    active = false;
+//    console.log("idle");
+});
+
+ifvisible.on("wakeup", function(){
+    active = true;
+//    console.log("wakeup");
+});
+</script>
+<script src="js/parser.js"></script>
+<link href="css/whitman.css" rel="stylesheet" type="text/css" /><link href="css/calculus.css" rel="stylesheet" type="text/css" /><link href="css/knowlstyle.css" rel="stylesheet" type="text/css" />
+
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  extensions: ["tex2jax.js","TeX/AMSmath.js","TeX/AMSsymbols.js"],
+  jax: ["input/TeX","output/HTML-CSS"],
+  tex2jax: {
+    inlineMath: [['$','$'],["\\(","\\)"]],
+    processEscapes: true,
+  },
+TeX: {
+   Macros: {
+    val: "\\mathop{\\rm val}",
+    divides: "\\mid",
+    ndivides: "\\mathrel{\\not|}",
+    fix: "\\mathop{\\rm fix}",
+    id: "\\mathop{\\rm id}",
+    na: "\\mathop{\\rm na}",
+    d: "\\mathop{\\rm\\strut d}\\nolimits ",
+    legendre: ["\\left(\\frac{#1}{#2}\\right)",2],
+    normalbaselines: "",
+    notdiv: "\\nmid",
+    implies: "\\Rightarrow",
+    iff: "\\Leftrightarrow",
+    sevenpoint: "\\scriptsize",
+    ds: "\\displaystyle",
+    lcm: "\\operatorname{lcm}",
+    arccot: "\\operatorname{arccot}",
+    arcsec: "\\operatorname{arcsec}",
+    arccsc: "\\operatorname{arccsc}",
+    arccosh: "\\operatorname{arccosh}",
+    arcsinh: "\\operatorname{arcsinh}",
+    arcsech: "\\operatorname{arcsech}",
+    sech: "\\operatorname{sech}",
+    csch: "\\operatorname{csch}",
+    R: "{\\mathbb R}",
+    sb: "_",
+    sp: "^",
+    Q: "{\\mathbb Q}",
+    C: "{\\mathbb C}",
+    N: "{\\mathbb N}",
+    Z: "{\\mathbb Z}",
+    U: "{\\mathbb U}",
+    v: ["\\langle #1\\rangle",1],
+    dint: ["{\\mathchoice{\\mathop{\\int\\!\\!\\!\\int}_{#1}}{\\mathop{\\int\\!\\!\\!\\int}_{#1}}{\\mathop{\\int\\!\\!\\!\\int}}{\\mathop{\\int\\!\\!\\!\\int}}}",1],
+    tint: ["{\\mathchoice{\\mathop{\\int\\!\\!\\!\\int\\!\\!\\!\\int}_{#1\\;}}{\\mathop{\\int\\!\\!\\!\\int\\!\\!\\!\\int}_{#1}}{\\mathop{\\int\\!\\!\\!\\int\\!\\!\\!\\int}_{#1}}{\\mathop{\\int\\!\\!\\!\\int\\!\\!\\!\\int}_{#1}}}",1]
+   }
+},
+  "HTML-CSS": { scale: 100},
+  menuSettings: { zscale: "150%", zoom: "Double-Click" }
+});
+    JXG.Options.text.display = 'html';
+    JXG.Options.text.useMathJax = true;
+</script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/math
+jax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+<script>
+MathJax.Hub.Register.StartupHook("End",function () {
+  if(typeof window.orientation === 'undefined'){
+    var i,x;
+    x = document.getElementsByClassName("webgl_display");
+    for (i=0; i<x.length; i++) {
+      x[i].style.display = "block";
+    }
+    x = document.getElementsByClassName("no_webgl_display");
+    for (i=0; i<x.length; i++) {
+      x[i].style.display = "none";
+    }
+  }
+});
+</script>
+
+<script src="js/jquery-3.1.0.min.js"></script>
+<script src="https://sagecell.sagemath.org/static/embedded_sagecell.js"></script>
+<script src="js/jquery.visible.min.js"></script>
+<script type="text/javascript" src="js/knowl.js"></script>
+<style type="text/css">
+
+.sagecell .CodeMirror {
+  height: auto;
+}
+
+.sagecell .CodeMirror-scroll {
+  overflow-y: hidden;
+  overflow-x: auto;
+}
+
+.sagecell-practice .CodeMirror-scroll {
+}
+
+.sagecell button.sagecell_evalButton {
+    font-size: 50%;
+}
+
+.sagecell_sessionContainer {
+    margin-bottom:1em;
+}
+</style>
+<script>
+function toggle(a) {
+  var b = String(a);
+  b=b.replace("contents","button");
+  if (document.getElementById(a).style.display == "block") {
+    document.getElementById(a).style.display = "none";
+    document.getElementById(b).src = "expand_submenu.png";
+  } else {
+    document.getElementById(a).style.display = "block";
+    document.getElementById(b).src = "collapse_submenu.png";
+  }
+}
+function toggle_sidebar() {
+  if (document.getElementById('sidebar').style.display == "block") {
+    document.getElementById('sidebar').style.display = "none";
+    document.getElementById('menu_expand').style.display = "block";
+  } else {
+    document.getElementById('sidebar').style.display = "block";
+    document.getElementById('menu_expand').style.display = "none";
+  }
+}
+</script>
+
+</head>
+
+<body class="" onload="toggle('chapter_09_contents')">
+<div id="header">
+<div class="right">
+<div class="bread">
+  <a href=".">Home</a> &raquo; <a href="chapter09.html">Applications of Integration</a> &raquo; <a href="section09.09.html">Arc Length</a>
+</div>
+
+<FORM method=GET action=https://www.google.com/custom id="search">
+<INPUT TYPE=text name=q size=31 maxlength=255 value="" style="font-size:small">
+<INPUT type=submit name=sa VALUE="Search the book" style="font-size:small">
+<INPUT type=hidden name=cof VALUE="AH:center;AWFID:198dc2b883340b1f;">
+<input type=hidden name=domains value="www.whitman.edu">
+<input type=hidden name=sitesearch value="www.whitman.edu/mathematics/calculus_online/">
+</FORM>
+<div id="title"><span id="title-content">9.9 Arc Length</span></div><a href="#exercises">[Jump to exercises]</a>
+</div>
+</div>
+<div id="menu_expand" style="display:none"><a href="javascript:toggle_sidebar()">Expand menu</a></div>
+<div id="sidebar" style="display:block">
+<h2 id="menu_collapse"><a href='javascript:toggle_sidebar()'>Collapse menu</a></h2>
+<h2 class="link"><img id="chapter_01_button" src="expand_submenu.png" onclick='toggle("chapter_01_contents")'><a href="chapter01.html">1 Analytic Geometry</a></h2>
+
+<ul class="list" id="chapter_01_contents">
+<li><a href="section01.01.html">1. Lines</a></li>
+<li><a href="section01.02.html">2. Distance Between Two Points; Circles</a></li>
+<li><a href="section01.03.html">3. Functions</a></li>
+<li><a href="section01.04.html">4. Shifts and Dilations</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_02_button" src="expand_submenu.png" onclick='toggle("chapter_02_contents")'><a href="chapter02.html">2 Instantaneous Rate of Change:  The Derivative</a></h2>
+
+<ul class="list" id="chapter_02_contents">
+<li><a href="section02.01.html">1. The slope of a function</a></li>
+<li><a href="section02.02.html">2. An example</a></li>
+<li><a href="section02.03.html">3. Limits</a></li>
+<li><a href="section02.04.html">4. The Derivative Function</a></li>
+<li><a href="section02.05.html">5. Adjectives For Functions</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_03_button" src="expand_submenu.png" onclick='toggle("chapter_03_contents")'><a href="chapter03.html">3 Rules for Finding Derivatives</a></h2>
+
+<ul class="list" id="chapter_03_contents">
+<li><a href="section03.01.html">1. The Power Rule</a></li>
+<li><a href="section03.02.html">2. Linearity of the Derivative</a></li>
+<li><a href="section03.03.html">3. The Product Rule</a></li>
+<li><a href="section03.04.html">4. The Quotient Rule</a></li>
+<li><a href="section03.05.html">5. The Chain Rule</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_04_button" src="expand_submenu.png" onclick='toggle("chapter_04_contents")'><a href="chapter04.html">4 Transcendental Functions</a></h2>
+
+<ul class="list" id="chapter_04_contents">
+<li><a href="section04.01.html">1. Trigonometric Functions</a></li>
+<li><a href="section04.02.html">2. The Derivative of $\sin x$</a></li>
+<li><a href="section04.03.html">3. A hard limit</a></li>
+<li><a href="section04.04.html">4. The Derivative of $\sin x$, continued</a></li>
+<li><a href="section04.05.html">5. Derivatives of the Trigonometric Functions</a></li>
+<li><a href="section04.06.html">6. Exponential and Logarithmic functions</a></li>
+<li><a href="section04.07.html">7. Derivatives of the exponential and  logarithmic functions</a></li>
+<li><a href="section04.08.html">8. Implicit Differentiation</a></li>
+<li><a href="section04.09.html">9. Inverse Trigonometric Functions</a></li>
+<li><a href="section04.10.html">10. Limits revisited</a></li>
+<li><a href="section04.11.html">11. Hyperbolic Functions</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_05_button" src="expand_submenu.png" onclick='toggle("chapter_05_contents")'><a href="chapter05.html">5 Curve Sketching</a></h2>
+
+<ul class="list" id="chapter_05_contents">
+<li><a href="section05.01.html">1. Maxima and Minima</a></li>
+<li><a href="section05.02.html">2. The first derivative test</a></li>
+<li><a href="section05.03.html">3. The second derivative test</a></li>
+<li><a href="section05.04.html">4. Concavity and inflection points</a></li>
+<li><a href="section05.05.html">5. Asymptotes and Other Things to Look For</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_06_button" src="expand_submenu.png" onclick='toggle("chapter_06_contents")'><a href="chapter06.html">6 Applications of the Derivative</a></h2>
+
+<ul class="list" id="chapter_06_contents">
+<li><a href="section06.01.html">1. Optimization</a></li>
+<li><a href="section06.02.html">2. Related Rates</a></li>
+<li><a href="section06.03.html">3. Newton's Method</a></li>
+<li><a href="section06.04.html">4. Linear Approximations</a></li>
+<li><a href="section06.05.html">5. The Mean Value Theorem</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_07_button" src="expand_submenu.png" onclick='toggle("chapter_07_contents")'><a href="chapter07.html">7 Integration</a></h2>
+
+<ul class="list" id="chapter_07_contents">
+<li><a href="section07.01.html">1. Two examples</a></li>
+<li><a href="section07.02.html">2. The Fundamental Theorem of Calculus</a></li>
+<li><a href="section07.03.html">3. Some Properties of Integrals</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_08_button" src="expand_submenu.png" onclick='toggle("chapter_08_contents")'><a href="chapter08.html">8 Techniques of Integration</a></h2>
+
+<ul class="list" id="chapter_08_contents">
+<li><a href="section08.01.html">1. Substitution</a></li>
+<li><a href="section08.02.html">2. Powers of sine and cosine</a></li>
+<li><a href="section08.03.html">3. Trigonometric Substitutions</a></li>
+<li><a href="section08.04.html">4. Integration by Parts</a></li>
+<li><a href="section08.05.html">5. Rational Functions</a></li>
+<li><a href="section08.06.html">6. Numerical Integration</a></li>
+<li><a href="section08.07.html">7. Additional exercises</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_09_button" src="expand_submenu.png" onclick='toggle("chapter_09_contents")'><a href="chapter09.html">9 Applications of Integration</a></h2>
+
+<ul class="list" id="chapter_09_contents">
+<li><a href="section09.01.html">1. Area between curves</a></li>
+<li><a href="section09.02.html">2. Distance, Velocity, Acceleration</a></li>
+<li><a href="section09.03.html">3. Volume</a></li>
+<li><a href="section09.04.html">4. Average value of a function</a></li>
+<li><a href="section09.05.html">5. Work</a></li>
+<li><a href="section09.06.html">6. Center of Mass</a></li>
+<li><a href="section09.07.html">7. Kinetic energy; improper integrals</a></li>
+<li><a href="section09.08.html">8. Probability</a></li>
+<li><a href="section09.09.html">9. Arc Length</a></li>
+<li><a href="section09.10.html">10. Surface Area</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_10_button" src="expand_submenu.png" onclick='toggle("chapter_10_contents")'><a href="chapter10.html">10 Polar Coordinates,  Parametric Equations</a></h2>
+
+<ul class="list" id="chapter_10_contents">
+<li><a href="section10.01.html">1. Polar Coordinates</a></li>
+<li><a href="section10.02.html">2. Slopes in polar coordinates</a></li>
+<li><a href="section10.03.html">3. Areas in polar coordinates</a></li>
+<li><a href="section10.04.html">4. Parametric Equations</a></li>
+<li><a href="section10.05.html">5. Calculus with Parametric Equations</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_11_button" src="expand_submenu.png" onclick='toggle("chapter_11_contents")'><a href="chapter11.html">11 Sequences and Series</a></h2>
+
+<ul class="list" id="chapter_11_contents">
+<li><a href="section11.01.html">1. Sequences</a></li>
+<li><a href="section11.02.html">2. Series</a></li>
+<li><a href="section11.03.html">3. The Integral Test</a></li>
+<li><a href="section11.04.html">4. Alternating Series</a></li>
+<li><a href="section11.05.html">5. Comparison Tests</a></li>
+<li><a href="section11.06.html">6. Absolute Convergence</a></li>
+<li><a href="section11.07.html">7. The Ratio and Root Tests</a></li>
+<li><a href="section11.08.html">8. Power Series</a></li>
+<li><a href="section11.09.html">9. Calculus with Power Series</a></li>
+<li><a href="section11.10.html">10. Taylor Series</a></li>
+<li><a href="section11.11.html">11. Taylor's Theorem</a></li>
+<li><a href="section11.12.html">12. Additional exercises</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_12_button" src="expand_submenu.png" onclick='toggle("chapter_12_contents")'><a href="chapter12.html">12 Three Dimensions</a></h2>
+
+<ul class="list" id="chapter_12_contents">
+<li><a href="section12.01.html">1. The Coordinate System</a></li>
+<li><a href="section12.02.html">2. Vectors</a></li>
+<li><a href="section12.03.html">3. The Dot Product</a></li>
+<li><a href="section12.04.html">4. The Cross Product</a></li>
+<li><a href="section12.05.html">5. Lines and Planes</a></li>
+<li><a href="section12.06.html">6. Other Coordinate Systems</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_13_button" src="expand_submenu.png" onclick='toggle("chapter_13_contents")'><a href="chapter13.html">13 Vector Functions</a></h2>
+
+<ul class="list" id="chapter_13_contents">
+<li><a href="section13.01.html">1. Space Curves</a></li>
+<li><a href="section13.02.html">2. Calculus with vector functions</a></li>
+<li><a href="section13.03.html">3. Arc length and curvature</a></li>
+<li><a href="section13.04.html">4. Motion along a curve</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_14_button" src="expand_submenu.png" onclick='toggle("chapter_14_contents")'><a href="chapter14.html">14 Partial Differentiation</a></h2>
+
+<ul class="list" id="chapter_14_contents">
+<li><a href="section14.01.html">1. Functions of Several Variables</a></li>
+<li><a href="section14.02.html">2. Limits and Continuity</a></li>
+<li><a href="section14.03.html">3. Partial Differentiation</a></li>
+<li><a href="section14.04.html">4. The Chain Rule</a></li>
+<li><a href="section14.05.html">5. Directional Derivatives</a></li>
+<li><a href="section14.06.html">6. Higher order derivatives</a></li>
+<li><a href="section14.07.html">7. Maxima and minima</a></li>
+<li><a href="section14.08.html">8. Lagrange Multipliers</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_15_button" src="expand_submenu.png" onclick='toggle("chapter_15_contents")'><a href="chapter15.html">15 Multiple Integration</a></h2>
+
+<ul class="list" id="chapter_15_contents">
+<li><a href="section15.01.html">1. Volume and Average Height</a></li>
+<li><a href="section15.02.html">2. Double Integrals in Cylindrical Coordinates</a></li>
+<li><a href="section15.03.html">3. Moment and Center of Mass</a></li>
+<li><a href="section15.04.html">4. Surface Area</a></li>
+<li><a href="section15.05.html">5. Triple Integrals</a></li>
+<li><a href="section15.06.html">6. Cylindrical and Spherical Coordinates</a></li>
+<li><a href="section15.07.html">7. Change of Variables</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_16_button" src="expand_submenu.png" onclick='toggle("chapter_16_contents")'><a href="chapter16.html">16 Vector Calculus</a></h2>
+
+<ul class="list" id="chapter_16_contents">
+<li><a href="section16.01.html">1. Vector Fields</a></li>
+<li><a href="section16.02.html">2. Line Integrals</a></li>
+<li><a href="section16.03.html">3. The Fundamental Theorem of Line Integrals</a></li>
+<li><a href="section16.04.html">4. Green's Theorem</a></li>
+<li><a href="section16.05.html">5. Divergence and Curl</a></li>
+<li><a href="section16.06.html">6. Vector Functions for Surfaces</a></li>
+<li><a href="section16.07.html">7. Surface Integrals</a></li>
+<li><a href="section16.08.html">8. Stokes's Theorem</a></li>
+<li><a href="section16.09.html">9. The Divergence Theorem</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_17_button" src="expand_submenu.png" onclick='toggle("chapter_17_contents")'><a href="chapter17.html">17 Differential Equations</a></h2>
+
+<ul class="list" id="chapter_17_contents">
+<li><a href="section17.01.html">1. First Order Differential Equations</a></li>
+<li><a href="section17.02.html">2. First Order Homogeneous Linear Equations</a></li>
+<li><a href="section17.03.html">3. First Order Linear Equations</a></li>
+<li><a href="section17.04.html">4. Approximation</a></li>
+<li><a href="section17.05.html">5. Second Order Homogeneous Equations</a></li>
+<li><a href="section17.06.html">6. Second Order Linear Equations</a></li>
+<li><a href="section17.07.html">7. Second Order Linear Equations, take two</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_18_button" src="expand_submenu.png" onclick='toggle("chapter_18_contents")'><a href="chapter18.html">18 Useful formulas</a></h2>
+
+<ul class="list" id="chapter_18_contents">
+</ul>
+
+</div>
+
+<div id="main">
+
+<div id="next"><a href="section09.08.html"><img src=previous_section.png width="30"></a>&nbsp;&nbsp;<a href="section09.10.html"><img src=next_section.png width="30"></a></div>
+
+<div id="content">
+<p>
+<p><a id="sec:arc length"></a>
+
+
+</p><p>
+
+</p><p>
+Here is another geometric application of the integral: find the length
+of a portion of a curve. As usual, we need to think about how we might
+approximate the length, and turn the approximation into an integral.
+</p><p>
+We already know how to compute one simple arc length, that of a line
+segment. If the endpoints are $\ds P_0(x_0,y_0)$ and $\ds P_1(x_1,y_1)$
+then the length of the segment is the distance between the points,
+$\ds \sqrt{(x_1-x_0)^2+(y_1-y_0)^2}$, from the Pythagorean theorem, as
+illustrated in figure <a href="section09.09.html#fig:length of a line segment">9.9.1</a>.
+</p><p>
+<a id="fig:length of a line segment"></a>
+</p><div class='figure'><!-- Integration_applications-arc_length.html -->
+<!-- Figure 9.9.1 -->
+
+<div id='arc_length_pythagorean' class='jxgbox' style='width:80%;'></div>
+
+<script type='text/javascript'>
+(function () {  // BEGIN: scope limiting function wrapper
+  var xmin=-0.5, xmax= 5.5, ymin=-0.5, ymax=3.4;
+  var AspectRatio =  ((ymax-ymin)/(xmax-xmin)); // height/width
+  var wd=document.getElementById('arc_length_pythagorean').offsetWidth;
+  var ht=wd*AspectRatio;
+  var yfactor = (ymax-ymin)/(ht);
+  var xfactor = (xmax-xmin)/(wd);
+  var xaxis_label_offset = yfactor*15;
+  var yaxis_label_offset = xfactor*20;
+  document.getElementById('arc_length_pythagorean').style.height=ht+'px';
+  var brd = JXG.JSXGraph.initBoard('arc_length_pythagorean',{boundingbox:[xmin,ymax,xmax,ymin], showCopyright:false, showNavigation:false}) ;
+  var rejax = function() {
+     MathJax.Hub.Queue(["Typeset",MathJax.Hub]); 
+  }
+  brd.addHook(rejax)
+
+  brd.create('arrow', [[0,0], [5,0]],{strokeWidth:2,strokeColor:'black',fixed:true});
+  brd.create('arrow', [[0,0], [0,3]],{strokeWidth:2,strokeColor:'black',fixed:true});
+  brd.create('segment',[[2-0.4,1],[4.5-0.4,1]],{fixed:true});
+  brd.create('segment',[[2-0.4,1],[4.5-0.4,2.5]],{fixed:true});
+  brd.create('segment',[[4.5-0.4,1],[4.5-0.4,2.5]],{fixed:true});
+  brd.create('text',[4.5-0.4+xfactor*10,2.5+yfactor*5,'$(x\\\\sb1,y\\\\sb1)$'],{fixed:true});
+  brd.create('text',[2-0.4-xfactor*45,1,'$(x\\\\sb0,y\\\\sb0)$'],{fixed:true});
+  brd.create('text',[3.25-0.4-xfactor*20,1-yfactor*15,'$(x\\\\sb1-x\\\\sb0)$'],{fixed:true});
+  brd.create('text',[4.5-0.4+xfactor*10,1.75,'$(y\\\\sb1-y\\\\sb0)$'],{fixed:true});
+  brd.create('text',[3.25-0.4-xfactor*160,1.75+yfactor*20,'$\\\\sqrt{(x\\\\sb1-x\\\\sb0)\\\\sp2+(y\\\\sb1-y\\\\sb0)\\\\sp2}$'],{fixed:true});
+})(); // END: scope limiting function wrapper
+</script>
+<div class='figcaption'><span class="figurenumber">Figure 9.9.1.</span> The length of a line segment.</div></div>
+<p>
+</p><p>
+Now if the graph of $f$ is "nice'' (say, differentiable) it appears
+that we can approximate the length of a portion of the curve with line
+segments, and that as the number of segments increases, and their
+lengths decrease, the sum of the lengths of the line segments will
+approach the true arc length; see 
+figure <a href="section09.09.html#fig:approximating arc length">9.9.2</a>.
+</p><p>
+<a id="fig:approximating arc length"></a>
+</p><div class='figure'><!-- Integration_applications-arc_length_line_segments.html -->
+<!-- Figure 9.9.2 -->
+
+<div id='arc_length_line_segments' class='jxgbox' style='width:80%;'></div>
+
+<script type='text/javascript'>
+    (function () {  // BEGIN: scope limiting function wrapper
+	    var xmin=-0.5, xmax= 8.5, ymin=-1, ymax=5.5;
+	var AspectRatio =  ((ymax-ymin)/(xmax-xmin)); // height/width
+	var wd=document.getElementById('arc_length_line_segments').offsetWidth;
+	var ht=wd*AspectRatio;
+	document.getElementById('arc_length_line_segments').style.height=ht+'px';
+	var brd = JXG.JSXGraph.initBoard('arc_length_line_segments',{boundingbox:[xmin,ymax,xmax,ymin], showCopyright:false, showNavigation:false}) ;
+	var rejax = function() {
+	    MathJax.Hub.Queue(["Typeset",MathJax.Hub]); 
+	}
+	brd.addHook(rejax)
+	brd.create('arrow',[[0,0],[8,0]],{strokeWidth:1,strokeColor:'black',fixed:true});
+	brd.create('arrow',[[0,0],[0,5]],{strokeWidth:1,strokeColor:'black',fixed:true});
+	var f = function(x) { return -0.1110993285191973*x*x*x*x + 1.7984116973678055*x*x*x -
+			      10.054424217843042*x*x + 22.28235153119393*x - 12.915295969409259; }
+	//  var p1 = brd.create('point',[1,1],{size:1,strokeColor:'black',withLabel:false,fixed:true});
+	//  var p1 = brd.create('point',[2.050,4.041],{size:1,strokeColor:'black',withLabel:false,fixed:true});
+	//  var p1 = brd.create('point',[3.250,2.644],{size:1,strokeColor:'black',withLabel:false,fixed:true});
+	//  var p1 = brd.create('point',[4.300,1.996],{size:1,strokeColor:'black',withLabel:false,fixed:true});
+	//  var p1 = brd.create('point',[5.500,3.039],{size:1,strokeColor:'black',withLabel:false,fixed:true});
+	//  var p1 = brd.create('point',[6.250,3.140],{size:1,strokeColor:'black',withLabel:false,fixed:true});
+	//  var p1 = brd.create('point',[7,0.5],{size:1,strokeColor:'black',withLabel:false,fixed:true});
+	brd.create('functiongraph',[f,1,7]);
+	var int_slider = brd.create('slider',[[0,-.5],[6,-.5],[2,6,20]],{name:'n',snapWidth:1,withLabel:false});
+	var xcoords = [];
+	var ycoords = [];
+	for (var i = 0; i <= 6; i++) {
+	    xcoords.push(1+i*6.0/int_slider.Value());
+	    ycoords.push(f(1+i*6.0/int_slider.Value()));
+	}
+	var approx = brd.create('curve', [xcoords,ycoords], {type:'plot',strokeColor:'red'});
+	int_slider.on('up',function(){
+	    xcoords = [];
+	    ycoords = [];
+	    for (var i = 0; i <= int_slider.Value(); i++) {
+		xcoords.push(1+i*6.0/int_slider.Value());
+		ycoords.push(f(1+i*6.0/int_slider.Value()));
+	    }
+	    brd.removeObject(approx);
+	    approx = brd.create('curve', [xcoords,ycoords], {type:'plot',strokeColor:'red'});
+	});
+	brd.create('text',[6.3,-.5,function(){ return '$n='+int_slider.Value()+'$';}]);
+    })(); // END: scope limiting function wrapper
+</script>
+<div class='figcaption'><span class="figurenumber">Figure 9.9.2.</span> Approximating arc length with line segments.</div></div>
+<p>
+</p><p>
+Now we need to write a formula for the sum of the lengths of the line
+segments, in a form that we know becomes an integral in the limit.  So
+we suppose we have divided the interval $[a,b]$ into $n$ subintervals
+as usual, each with length $\Delta x =(b-a)/n$, and endpoints $\ds
+a=x_0$, $\ds x_1$, $\ds x_2$, &hellip;, $\ds x_n=b$.  The length of a
+typical line segment, joining $\ds (x_i,f(x_i))$ to $\ds
+(x_{i+1},f(x_{i+1}))$, is $\ds\sqrt{(\Delta x )^2
+  +(f(x_{i+1})-f(x_i))^2}$.  By the Mean Value Theorem
+(<a href="section06.05.html#thm:mvt">6.5.2</a>), there is a number $\ds t_i$ in $\ds (x_i,x_{i+1})$
+such that $\ds f'(t_i)\Delta x=f(x_{i+1})-f(x_i)$, so the length of
+the line segment can be written as
+$$
+  \sqrt{(\Delta x)^2 + (f'(t_i))^2\Delta x^2}=
+  \sqrt{1+(f'(t_i))^2}\,\Delta x.
+$$
+The arc length is then
+$$
+  \lim_{n\to\infty}\sum_{i=0}^{n-1} \sqrt{1+(f'(t_i))^2}\,\Delta x=
+  \int_a^b \sqrt{1+(f'(x))^2}\,dx.
+$$
+Note that the sum looks a bit different than others we have
+encountered, because the approximation contains a $\ds t_i$ instead of an
+$\ds x_i$. In the past we have always used left endpoints (namely, $\ds x_i$)
+to get a representative value of $f$ on $\ds [x_i,x_{i+1}]$; now we are
+using a different point, but the principle is the same.
+</p><p>
+To summarize, to compute the length of a curve on the interval
+$[a,b]$, we compute the integral
+$$\int_a^b \sqrt{1+(f'(x))^2}\,dx.$$ 
+Unfortunately, integrals of this form are typically difficult or
+impossible to compute exactly, because usually none of our methods for
+finding antiderivatives will work. In practice this means that the
+integral will usually have to be approximated.
+</p><p>
+
+</p>
+<div class="example">
+<p>
+<span class="theoremlabel">Example 9.9.1 </span>Let $\ds f(x) = \sqrt{r^2-x^2}$, the upper half circle of radius
+$r$. The length of this curve is half the circumference, namely $\pi
+r$. Let's compute this with the arc length formula.
+The derivative $f'$ is $\ds \ds -x/\sqrt{r^2-x^2}$ so the integral is
+$$
+  \int_{-r}^r \sqrt{1+{x^2\over r^2-x^2}}\,dx
+  =\int_{-r}^r \sqrt{r^2\over r^2-x^2}\,dx
+  =r\int_{-r}^r \sqrt{1\over r^2-x^2}\,dx.
+$$
+Using a trigonometric substitution, we find the antiderivative, namely
+$\ds \arcsin(x/r)$. Notice that the integral is improper at both
+endpoints, as the function $\ds \sqrt{1/(r^2-x^2)}$ is undefined when
+$x=\pm r$. So we need to compute
+$$
+  \lim_{D\to-r^+}\int_D^0  \sqrt{1\over r^2-x^2}\,dx +
+  \lim_{D\to r^-}\int_0^D  \sqrt{1\over r^2-x^2}\,dx.
+$$
+This is not difficult, and has value $\pi$, so the original integral,
+with the extra $r$ in front, has value $\pi r$ as expected.
+
+</p>
+</div><!-- example -->
+<p>
+</p><p>
+</p>
+<a id="exercises"></a><h2 class="exercises">Exercises 9.9</h2>
+<p></p><p>
+</p>
+<p class="exercise"><b>Ex 9.9.1</b>
+Find the arc length of $\ds f(x)=x^{3/2}$ on $[0,2]$.
+(<a knowl="" class="internal" value="$\ds (22\sqrt{22}-8)/27$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 9.9.2</b>
+Find the arc length of $\ds f(x) = x^2/8-\ln x$
+on $[1,2]$.
+(<a knowl="" class="internal" value="$\ln(2)+3/8$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 9.9.3</b>
+Find the arc length of $\ds f(x) = (1/3)(x^2 +2)^{3/2}$
+on the interval $[0,a]$.
+(<a knowl="" class="internal" value="$\ds a+a^3/3$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 9.9.4</b>
+Find the arc length of $f(x)=\ln(\sin x)$ on the
+interval $[\pi/4,\pi/3]$.
+(<a knowl="" class="internal" value="$\ds \ln((\sqrt2+1)/\sqrt3)$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 9.9.5</b>
+Let $a>0$. Show that the length of $y=\cosh x$ on
+$[0,a]$ is equal to $\ds \int _0 ^a \cosh x\,dx$.
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 9.9.6</b>
+Find the arc length of $f(x)=\cosh x$ on $[0, \ln 2]$.
+(<a knowl="" class="internal" value="$3/4$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 9.9.7</b>
+Set up the integral to find the arc length of $\sin x$ 
+on the interval $[0,\pi]$; do not evaluate the integral. If you have
+access to appropriate software, approximate the value of the integral.
+(<a knowl="" class="internal" value="$\approx 3.82$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 9.9.8</b>
+Set up the integral to find the arc length of $\ds y=xe^{-x}$
+on the interval $[2,3]$; do not evaluate the integral. If you have
+access to appropriate software, approximate the value of the integral.
+(<a knowl="" class="internal" value="$\approx 1.01$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 9.9.9</b>
+Find the arc length of $\ds y=e^x$ on the interval $[0,1]$.
+(This can be done exactly; it is a bit tricky and a bit long.)
+(<a knowl="" class="internal" value="$\ds \sqrt{1+e^2}-\sqrt2+1
+-\ln(\sqrt{1+e^2}+1)+\ln(\sqrt2+1)$">answer</a>)
+
+
+</p><p>
+
+
+</div></div></body>
+</html>

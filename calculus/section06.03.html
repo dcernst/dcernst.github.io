@@ -1,0 +1,761 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+<meta http-equiv="Content-Language" Content="en">
+<title>6.3 Newton's Method</title>
+<!--
+<script type="text/javascript" src="js/deployJava.js"></script>
+<link rel="stylesheet" type="text/css" href="http://jsxgraph.uni-bayreuth.de/distrib/jsxgraph.css" />
+-->
+<!-- use Jsxgraph to create figures: http://jsxgraph.uni-bayreuth.de/wp/ -->
+<link rel="stylesheet" type="text/css" href="css/jsxgraph.css" />
+<script type="text/javascript" src="js/jsxgraphcore.js"></script>
+<script src="js/three.min.js"></script>
+<script src="js/Detector.js"></script>
+<script src="js/TrackballControls.js"></script>
+<script src="js/OrthographicTrackballControls.js"></script>
+<script src="js/THREEx.KeyboardState.js"></script>
+<script src="js/THREEx.FullScreen.js"></script>
+<script src="js/THREEx.WindowResize.js"></script>
+<script type='text/javascript' src='js/DAT.GUI.min.js'></script>
+<script>
+window.requestAnimFrame = (function(){
+    return  window.requestAnimationFrame       || 
+        window.webkitRequestAnimationFrame || 
+        window.mozRequestAnimationFrame    || 
+        window.oRequestAnimationFrame      || 
+        window.msRequestAnimationFrame     || 
+        function(/* function */ callback, /* DOMElement */
+            element){
+            window.setTimeout(callback, 1000 / 60);
+        };
+})();
+</script>
+<script src="js/ifvisible.min.js"></script>
+<script src="js/conrec.js"></script>
+<script>
+active = true;
+ifvisible.setIdleDuration(10);
+ifvisible.on("idle", function(){
+    active = false;
+//    console.log("idle");
+});
+
+ifvisible.on("wakeup", function(){
+    active = true;
+//    console.log("wakeup");
+});
+</script>
+<script src="js/parser.js"></script>
+<link href="css/whitman.css" rel="stylesheet" type="text/css" /><link href="css/calculus.css" rel="stylesheet" type="text/css" /><link href="css/knowlstyle.css" rel="stylesheet" type="text/css" />
+
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  extensions: ["tex2jax.js","TeX/AMSmath.js","TeX/AMSsymbols.js"],
+  jax: ["input/TeX","output/HTML-CSS"],
+  tex2jax: {
+    inlineMath: [['$','$'],["\\(","\\)"]],
+    processEscapes: true,
+  },
+TeX: {
+   Macros: {
+    val: "\\mathop{\\rm val}",
+    divides: "\\mid",
+    ndivides: "\\mathrel{\\not|}",
+    fix: "\\mathop{\\rm fix}",
+    id: "\\mathop{\\rm id}",
+    na: "\\mathop{\\rm na}",
+    d: "\\mathop{\\rm\\strut d}\\nolimits ",
+    legendre: ["\\left(\\frac{#1}{#2}\\right)",2],
+    normalbaselines: "",
+    notdiv: "\\nmid",
+    implies: "\\Rightarrow",
+    iff: "\\Leftrightarrow",
+    sevenpoint: "\\scriptsize",
+    ds: "\\displaystyle",
+    lcm: "\\operatorname{lcm}",
+    arccot: "\\operatorname{arccot}",
+    arcsec: "\\operatorname{arcsec}",
+    arccsc: "\\operatorname{arccsc}",
+    arccosh: "\\operatorname{arccosh}",
+    arcsinh: "\\operatorname{arcsinh}",
+    arcsech: "\\operatorname{arcsech}",
+    sech: "\\operatorname{sech}",
+    csch: "\\operatorname{csch}",
+    R: "{\\mathbb R}",
+    sb: "_",
+    sp: "^",
+    Q: "{\\mathbb Q}",
+    C: "{\\mathbb C}",
+    N: "{\\mathbb N}",
+    Z: "{\\mathbb Z}",
+    U: "{\\mathbb U}",
+    v: ["\\langle #1\\rangle",1],
+    dint: ["{\\mathchoice{\\mathop{\\int\\!\\!\\!\\int}_{#1}}{\\mathop{\\int\\!\\!\\!\\int}_{#1}}{\\mathop{\\int\\!\\!\\!\\int}}{\\mathop{\\int\\!\\!\\!\\int}}}",1],
+    tint: ["{\\mathchoice{\\mathop{\\int\\!\\!\\!\\int\\!\\!\\!\\int}_{#1\\;}}{\\mathop{\\int\\!\\!\\!\\int\\!\\!\\!\\int}_{#1}}{\\mathop{\\int\\!\\!\\!\\int\\!\\!\\!\\int}_{#1}}{\\mathop{\\int\\!\\!\\!\\int\\!\\!\\!\\int}_{#1}}}",1]
+   }
+},
+  "HTML-CSS": { scale: 100},
+  menuSettings: { zscale: "150%", zoom: "Double-Click" }
+});
+    JXG.Options.text.display = 'html';
+    JXG.Options.text.useMathJax = true;
+</script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/math
+jax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+<script>
+MathJax.Hub.Register.StartupHook("End",function () {
+  if(typeof window.orientation === 'undefined'){
+    var i,x;
+    x = document.getElementsByClassName("webgl_display");
+    for (i=0; i<x.length; i++) {
+      x[i].style.display = "block";
+    }
+    x = document.getElementsByClassName("no_webgl_display");
+    for (i=0; i<x.length; i++) {
+      x[i].style.display = "none";
+    }
+  }
+});
+</script>
+
+<script src="js/jquery-3.1.0.min.js"></script>
+<script src="https://sagecell.sagemath.org/static/embedded_sagecell.js"></script>
+<script src="js/jquery.visible.min.js"></script>
+<script type="text/javascript" src="js/knowl.js"></script>
+<style type="text/css">
+
+.sagecell .CodeMirror {
+  height: auto;
+}
+
+.sagecell .CodeMirror-scroll {
+  overflow-y: hidden;
+  overflow-x: auto;
+}
+
+.sagecell-practice .CodeMirror-scroll {
+}
+
+.sagecell button.sagecell_evalButton {
+    font-size: 50%;
+}
+
+.sagecell_sessionContainer {
+    margin-bottom:1em;
+}
+</style>
+<script>
+function toggle(a) {
+  var b = String(a);
+  b=b.replace("contents","button");
+  if (document.getElementById(a).style.display == "block") {
+    document.getElementById(a).style.display = "none";
+    document.getElementById(b).src = "expand_submenu.png";
+  } else {
+    document.getElementById(a).style.display = "block";
+    document.getElementById(b).src = "collapse_submenu.png";
+  }
+}
+function toggle_sidebar() {
+  if (document.getElementById('sidebar').style.display == "block") {
+    document.getElementById('sidebar').style.display = "none";
+    document.getElementById('menu_expand').style.display = "block";
+  } else {
+    document.getElementById('sidebar').style.display = "block";
+    document.getElementById('menu_expand').style.display = "none";
+  }
+}
+</script>
+
+</head>
+
+<body class="" onload="toggle('chapter_06_contents')">
+<div id="header">
+<div class="right">
+<div class="bread">
+  <a href=".">Home</a> &raquo; <a href="chapter06.html">Applications of the Derivative</a> &raquo; <a href="section06.03.html">Newton's Method</a>
+</div>
+
+<FORM method=GET action=https://www.google.com/custom id="search">
+<INPUT TYPE=text name=q size=31 maxlength=255 value="" style="font-size:small">
+<INPUT type=submit name=sa VALUE="Search the book" style="font-size:small">
+<INPUT type=hidden name=cof VALUE="AH:center;AWFID:198dc2b883340b1f;">
+<input type=hidden name=domains value="www.whitman.edu">
+<input type=hidden name=sitesearch value="www.whitman.edu/mathematics/calculus_online/">
+</FORM>
+<div id="title"><span id="title-content">6.3 Newton's Method</span></div><a href="#exercises">[Jump to exercises]</a>
+</div>
+</div>
+<div id="menu_expand" style="display:none"><a href="javascript:toggle_sidebar()">Expand menu</a></div>
+<div id="sidebar" style="display:block">
+<h2 id="menu_collapse"><a href='javascript:toggle_sidebar()'>Collapse menu</a></h2>
+<h2 class="link"><img id="chapter_01_button" src="expand_submenu.png" onclick='toggle("chapter_01_contents")'><a href="chapter01.html">1 Analytic Geometry</a></h2>
+
+<ul class="list" id="chapter_01_contents">
+<li><a href="section01.01.html">1. Lines</a></li>
+<li><a href="section01.02.html">2. Distance Between Two Points; Circles</a></li>
+<li><a href="section01.03.html">3. Functions</a></li>
+<li><a href="section01.04.html">4. Shifts and Dilations</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_02_button" src="expand_submenu.png" onclick='toggle("chapter_02_contents")'><a href="chapter02.html">2 Instantaneous Rate of Change:  The Derivative</a></h2>
+
+<ul class="list" id="chapter_02_contents">
+<li><a href="section02.01.html">1. The slope of a function</a></li>
+<li><a href="section02.02.html">2. An example</a></li>
+<li><a href="section02.03.html">3. Limits</a></li>
+<li><a href="section02.04.html">4. The Derivative Function</a></li>
+<li><a href="section02.05.html">5. Adjectives For Functions</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_03_button" src="expand_submenu.png" onclick='toggle("chapter_03_contents")'><a href="chapter03.html">3 Rules for Finding Derivatives</a></h2>
+
+<ul class="list" id="chapter_03_contents">
+<li><a href="section03.01.html">1. The Power Rule</a></li>
+<li><a href="section03.02.html">2. Linearity of the Derivative</a></li>
+<li><a href="section03.03.html">3. The Product Rule</a></li>
+<li><a href="section03.04.html">4. The Quotient Rule</a></li>
+<li><a href="section03.05.html">5. The Chain Rule</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_04_button" src="expand_submenu.png" onclick='toggle("chapter_04_contents")'><a href="chapter04.html">4 Transcendental Functions</a></h2>
+
+<ul class="list" id="chapter_04_contents">
+<li><a href="section04.01.html">1. Trigonometric Functions</a></li>
+<li><a href="section04.02.html">2. The Derivative of $\sin x$</a></li>
+<li><a href="section04.03.html">3. A hard limit</a></li>
+<li><a href="section04.04.html">4. The Derivative of $\sin x$, continued</a></li>
+<li><a href="section04.05.html">5. Derivatives of the Trigonometric Functions</a></li>
+<li><a href="section04.06.html">6. Exponential and Logarithmic functions</a></li>
+<li><a href="section04.07.html">7. Derivatives of the exponential and  logarithmic functions</a></li>
+<li><a href="section04.08.html">8. Implicit Differentiation</a></li>
+<li><a href="section04.09.html">9. Inverse Trigonometric Functions</a></li>
+<li><a href="section04.10.html">10. Limits revisited</a></li>
+<li><a href="section04.11.html">11. Hyperbolic Functions</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_05_button" src="expand_submenu.png" onclick='toggle("chapter_05_contents")'><a href="chapter05.html">5 Curve Sketching</a></h2>
+
+<ul class="list" id="chapter_05_contents">
+<li><a href="section05.01.html">1. Maxima and Minima</a></li>
+<li><a href="section05.02.html">2. The first derivative test</a></li>
+<li><a href="section05.03.html">3. The second derivative test</a></li>
+<li><a href="section05.04.html">4. Concavity and inflection points</a></li>
+<li><a href="section05.05.html">5. Asymptotes and Other Things to Look For</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_06_button" src="expand_submenu.png" onclick='toggle("chapter_06_contents")'><a href="chapter06.html">6 Applications of the Derivative</a></h2>
+
+<ul class="list" id="chapter_06_contents">
+<li><a href="section06.01.html">1. Optimization</a></li>
+<li><a href="section06.02.html">2. Related Rates</a></li>
+<li><a href="section06.03.html">3. Newton's Method</a></li>
+<li><a href="section06.04.html">4. Linear Approximations</a></li>
+<li><a href="section06.05.html">5. The Mean Value Theorem</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_07_button" src="expand_submenu.png" onclick='toggle("chapter_07_contents")'><a href="chapter07.html">7 Integration</a></h2>
+
+<ul class="list" id="chapter_07_contents">
+<li><a href="section07.01.html">1. Two examples</a></li>
+<li><a href="section07.02.html">2. The Fundamental Theorem of Calculus</a></li>
+<li><a href="section07.03.html">3. Some Properties of Integrals</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_08_button" src="expand_submenu.png" onclick='toggle("chapter_08_contents")'><a href="chapter08.html">8 Techniques of Integration</a></h2>
+
+<ul class="list" id="chapter_08_contents">
+<li><a href="section08.01.html">1. Substitution</a></li>
+<li><a href="section08.02.html">2. Powers of sine and cosine</a></li>
+<li><a href="section08.03.html">3. Trigonometric Substitutions</a></li>
+<li><a href="section08.04.html">4. Integration by Parts</a></li>
+<li><a href="section08.05.html">5. Rational Functions</a></li>
+<li><a href="section08.06.html">6. Numerical Integration</a></li>
+<li><a href="section08.07.html">7. Additional exercises</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_09_button" src="expand_submenu.png" onclick='toggle("chapter_09_contents")'><a href="chapter09.html">9 Applications of Integration</a></h2>
+
+<ul class="list" id="chapter_09_contents">
+<li><a href="section09.01.html">1. Area between curves</a></li>
+<li><a href="section09.02.html">2. Distance, Velocity, Acceleration</a></li>
+<li><a href="section09.03.html">3. Volume</a></li>
+<li><a href="section09.04.html">4. Average value of a function</a></li>
+<li><a href="section09.05.html">5. Work</a></li>
+<li><a href="section09.06.html">6. Center of Mass</a></li>
+<li><a href="section09.07.html">7. Kinetic energy; improper integrals</a></li>
+<li><a href="section09.08.html">8. Probability</a></li>
+<li><a href="section09.09.html">9. Arc Length</a></li>
+<li><a href="section09.10.html">10. Surface Area</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_10_button" src="expand_submenu.png" onclick='toggle("chapter_10_contents")'><a href="chapter10.html">10 Polar Coordinates,  Parametric Equations</a></h2>
+
+<ul class="list" id="chapter_10_contents">
+<li><a href="section10.01.html">1. Polar Coordinates</a></li>
+<li><a href="section10.02.html">2. Slopes in polar coordinates</a></li>
+<li><a href="section10.03.html">3. Areas in polar coordinates</a></li>
+<li><a href="section10.04.html">4. Parametric Equations</a></li>
+<li><a href="section10.05.html">5. Calculus with Parametric Equations</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_11_button" src="expand_submenu.png" onclick='toggle("chapter_11_contents")'><a href="chapter11.html">11 Sequences and Series</a></h2>
+
+<ul class="list" id="chapter_11_contents">
+<li><a href="section11.01.html">1. Sequences</a></li>
+<li><a href="section11.02.html">2. Series</a></li>
+<li><a href="section11.03.html">3. The Integral Test</a></li>
+<li><a href="section11.04.html">4. Alternating Series</a></li>
+<li><a href="section11.05.html">5. Comparison Tests</a></li>
+<li><a href="section11.06.html">6. Absolute Convergence</a></li>
+<li><a href="section11.07.html">7. The Ratio and Root Tests</a></li>
+<li><a href="section11.08.html">8. Power Series</a></li>
+<li><a href="section11.09.html">9. Calculus with Power Series</a></li>
+<li><a href="section11.10.html">10. Taylor Series</a></li>
+<li><a href="section11.11.html">11. Taylor's Theorem</a></li>
+<li><a href="section11.12.html">12. Additional exercises</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_12_button" src="expand_submenu.png" onclick='toggle("chapter_12_contents")'><a href="chapter12.html">12 Three Dimensions</a></h2>
+
+<ul class="list" id="chapter_12_contents">
+<li><a href="section12.01.html">1. The Coordinate System</a></li>
+<li><a href="section12.02.html">2. Vectors</a></li>
+<li><a href="section12.03.html">3. The Dot Product</a></li>
+<li><a href="section12.04.html">4. The Cross Product</a></li>
+<li><a href="section12.05.html">5. Lines and Planes</a></li>
+<li><a href="section12.06.html">6. Other Coordinate Systems</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_13_button" src="expand_submenu.png" onclick='toggle("chapter_13_contents")'><a href="chapter13.html">13 Vector Functions</a></h2>
+
+<ul class="list" id="chapter_13_contents">
+<li><a href="section13.01.html">1. Space Curves</a></li>
+<li><a href="section13.02.html">2. Calculus with vector functions</a></li>
+<li><a href="section13.03.html">3. Arc length and curvature</a></li>
+<li><a href="section13.04.html">4. Motion along a curve</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_14_button" src="expand_submenu.png" onclick='toggle("chapter_14_contents")'><a href="chapter14.html">14 Partial Differentiation</a></h2>
+
+<ul class="list" id="chapter_14_contents">
+<li><a href="section14.01.html">1. Functions of Several Variables</a></li>
+<li><a href="section14.02.html">2. Limits and Continuity</a></li>
+<li><a href="section14.03.html">3. Partial Differentiation</a></li>
+<li><a href="section14.04.html">4. The Chain Rule</a></li>
+<li><a href="section14.05.html">5. Directional Derivatives</a></li>
+<li><a href="section14.06.html">6. Higher order derivatives</a></li>
+<li><a href="section14.07.html">7. Maxima and minima</a></li>
+<li><a href="section14.08.html">8. Lagrange Multipliers</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_15_button" src="expand_submenu.png" onclick='toggle("chapter_15_contents")'><a href="chapter15.html">15 Multiple Integration</a></h2>
+
+<ul class="list" id="chapter_15_contents">
+<li><a href="section15.01.html">1. Volume and Average Height</a></li>
+<li><a href="section15.02.html">2. Double Integrals in Cylindrical Coordinates</a></li>
+<li><a href="section15.03.html">3. Moment and Center of Mass</a></li>
+<li><a href="section15.04.html">4. Surface Area</a></li>
+<li><a href="section15.05.html">5. Triple Integrals</a></li>
+<li><a href="section15.06.html">6. Cylindrical and Spherical Coordinates</a></li>
+<li><a href="section15.07.html">7. Change of Variables</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_16_button" src="expand_submenu.png" onclick='toggle("chapter_16_contents")'><a href="chapter16.html">16 Vector Calculus</a></h2>
+
+<ul class="list" id="chapter_16_contents">
+<li><a href="section16.01.html">1. Vector Fields</a></li>
+<li><a href="section16.02.html">2. Line Integrals</a></li>
+<li><a href="section16.03.html">3. The Fundamental Theorem of Line Integrals</a></li>
+<li><a href="section16.04.html">4. Green's Theorem</a></li>
+<li><a href="section16.05.html">5. Divergence and Curl</a></li>
+<li><a href="section16.06.html">6. Vector Functions for Surfaces</a></li>
+<li><a href="section16.07.html">7. Surface Integrals</a></li>
+<li><a href="section16.08.html">8. Stokes's Theorem</a></li>
+<li><a href="section16.09.html">9. The Divergence Theorem</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_17_button" src="expand_submenu.png" onclick='toggle("chapter_17_contents")'><a href="chapter17.html">17 Differential Equations</a></h2>
+
+<ul class="list" id="chapter_17_contents">
+<li><a href="section17.01.html">1. First Order Differential Equations</a></li>
+<li><a href="section17.02.html">2. First Order Homogeneous Linear Equations</a></li>
+<li><a href="section17.03.html">3. First Order Linear Equations</a></li>
+<li><a href="section17.04.html">4. Approximation</a></li>
+<li><a href="section17.05.html">5. Second Order Homogeneous Equations</a></li>
+<li><a href="section17.06.html">6. Second Order Linear Equations</a></li>
+<li><a href="section17.07.html">7. Second Order Linear Equations, take two</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_18_button" src="expand_submenu.png" onclick='toggle("chapter_18_contents")'><a href="chapter18.html">18 Useful formulas</a></h2>
+
+<ul class="list" id="chapter_18_contents">
+</ul>
+
+</div>
+
+<div id="main">
+
+<div id="next"><a href="section06.02.html"><img src=previous_section.png width="30"></a>&nbsp;&nbsp;<a href="section06.04.html"><img src=next_section.png width="30"></a></div>
+
+<div id="content">
+<p>
+
+
+</p><p>
+Suppose you have a function $f(x)$, and you want to find as accurately as
+possible where it crosses the $x$-axis; in other words, you want to solve
+$f(x)=0$.  Suppose you know of no way to find an exact solution by any
+algebraic procedure, but you are able to use an approximation,
+provided it can be made quite close to the true value.
+Newton's method is a way to find a solution to the
+equation to as many decimal places as you want.  It is what is called an
+"iterative procedure,'' meaning that it can be repeated again and again to
+get an answer of greater and greater accuracy.  Iterative procedures like
+Newton's method are well suited to programming for a
+computer. Newton's method
+uses the fact that the tangent line to a
+curve is a good approximation to the curve near the point of tangency.
+</p><p>
+</p>
+<div class="example">
+<p>
+<span class="theoremlabel">Example 6.3.1 </span>Approximate $\ds \sqrt{3}$. Since $\ds \sqrt{3}$ is a solution to
+$\ds x^2=3$ or $\ds x^2-3=0$, we use $\ds f(x)=x^2-3$. We start by guessing
+something reasonably close to the true value; this is usually easy to
+do; let's use $\ds \sqrt3\approx2$. Now use the tangent line to the curve
+when $x=2$ as an approximation to the curve, as shown in
+figure <a href="section06.03.html#fig:newtons method">6.3.1</a>. Since $f'(x)=2x$, the slope of this
+tangent line is 4 and its equation is $y=4x-7$. The tangent line is
+quite close to $f(x)$, so it crosses the $x$-axis near the point at
+which $f(x)$ crosses, that is, near $\ds \sqrt3$. It is easy to find where
+the tangent line crosses the $x$-axis: solve $0=4x-7$ to get
+$x=7/4=1.75$. This is certainly a better approximation than 2, but let
+us say not close enough. We can improve it by doing the same thing
+again: find the tangent line at $x=1.75$, find where this new tangent
+line crosses the $x$-axis, and use that value as a better
+approximation. We can continue this indefinitely, though it gets a bit
+tedious. Lets see if we can shortcut the process. Suppose the best
+approximation to the intercept we have so far is $\ds x_i$. To find a
+better approximation we will always
+do the same thing: find the slope of the tangent line at $\ds x_i$, find the
+equation of the tangent line, find the $x$-intercept. The slope is
+$\ds 2x_i$. The tangent line is $\ds y=(2x_i)(x-x_i)+(x_i^2-3)$, using
+the point-slope formula for a line. Finally, the intercept is found by
+solving $\ds 0 =(2x_i)(x-x_i)+(x_i^2-3)$. With a little algebra this turns
+into $\ds x=(x_i^2+3)/(2x_i)$; this is the next approximation, which we
+naturally call $\ds x_{i+1}$. Instead of doing the whole tangent line
+computation every time we can simply use this formula to get as many
+approximations as we want. Starting with $\ds x_0=2$, we get
+$\ds x_1=(x_0^2+3)/(2x_0)=(2^2+3)/4=7/4$ (the same approximation we got
+above, of course), $\ds x_2=(x_1^2+3)/(2x_1)=
+((7/4)^2+3)/(7/2)=97/56\approx 1.73214$, $\ds x_3\approx 1.73205$, and so
+on. This is still a bit tedious by hand, but with a calculator or,
+even better, a good computer program, it is quite easy to get many,
+many approximations. We might guess already that $1.73205$ is accurate
+to two decimal places, and in fact it turns out that it is accurate to
+5 places.  
+</p>
+</div><!-- example -->
+<p>
+</p><p>
+<a id="fig:newtons method"></a>
+</p><div class='figure'><!-- Applications_of_Derivative-Newtons_Method.html -->
+<!-- Figure 6.3.1 -->
+<table style="width:100%;padding:25px;border-width:2px;border-style:outset;border-color:gray;">
+<tr><td colspan="3">
+You can drag the point $x_0$ to change the initial value. Drag it out
+to the right side of the graph, then drag it to $1$ and $0.5$.
+<p>
+You can change the function here, for example to 
+ Math.sin(x) or 
+ Math.exp(x) or
+ Math.pow(2,x) or
+ 1-2/(x*x).
+<p>
+</td></tr>
+<tr><td>
+<form>
+<input style="border:none;
+	      background-color:#efefef;padding:5px;margin-left:2px;"
+	      type="text" id="graphterm" value="x*x-3"
+	      size="30"/>
+<input type="button" value="set function"
+	      onClick="newtons_method_newGraph(document.getElementById('graphterm').value,
+                                document.getElementById('algsteps').value);">
+</form>
+</td>
+<td>&nbsp;&nbsp;&nbsp;</td>
+<td>
+<form>
+<input style="border:none;
+	      background-color:#efefef;padding:5px;margin-left:2px;"
+	      type="text" id="algsteps" value="2"
+	      size="3"/>
+<input type="button" value="set steps"
+	      onClick="newtons_method_newGraph(document.getElementById('graphterm').value,
+                                document.getElementById('algsteps').value);">
+</form>
+</td></tr>
+<tr><td><nobr>$x_{final}=$&nbsp;<font id="xvlast"></font></td></tr>
+<tr><td>&nbsp;</td></tr>
+<tr><td colspan="3">
+<div id='newtons_method' class='jxgbox' style='width:100%;'></div>
+</td></tr>
+</table> 
+
+<script type='text/javascript'>
+var newtons_method_steps = 2;
+var ht=5*document.getElementById('newtons_method').offsetWidth/9;
+document.getElementById('newtons_method').style.height=ht+'px';
+// Initial function term
+var newtons_method_term = function(x) { return x*x-3; };
+var newtons_method_graph = function(x) { return newtons_method_term(x); };
+
+// Start value
+var newtons_method_s = 2
+//var i;
+var newtons_method_brd = JXG.JSXGraph.initBoard('newtons_method', {showCopyright:false,boundingbox:[-1,5,3,-5], axis:false});
+var newtons_method_ax = newtons_method_brd.create('axis', [[0,0], [1,0]], {strokeColor: 'black'});
+var newtons_method_ay = newtons_method_brd.create('axis', [[0,0], [0,1]], {strokeColor: 'black'});
+
+var newtons_method_g = newtons_method_brd.create('functiongraph', [function(x){return newtons_method_graph(x);}],{strokeWidth: 2, dash:0});
+var newtons_method_x = newtons_method_brd.create('glider',[newtons_method_s,0,newtons_method_ax], {name: 'x_{0}', strokeColor:'magenta', fillColor: 'yellow'});
+
+//newtons_method_newGraph(document.getElementById('graphterm').value,document.getElementById('algsteps').value);
+
+function newtons_method_xval() {
+    document.getElementById('xvlast').innerHTML = newtons_method_brd.round(JXG.getReference(newtons_method_brd, 'x_{' + newtons_method_steps + '}').X(),14);
+}
+
+newtons_method_brd.addHook(newtons_method_xval);
+newtons_method_newton(0,newtons_method_steps);
+//newtons_method_xval();
+
+function newtons_method_newpoint(p,i) {
+        var f = newtons_method_brd.create('glider',[function(){return p.X();},
+		    function(){return newtons_method_graph(p.X())}, newtons_method_g], {name: 'g'+(i),
+		    style: 3, strokeColor: 'green', fillColor:
+		    'yellow',withLabel:false});
+        var l = newtons_method_brd.create('line', [p,f],{strokeWidth: 0.5, dash: 1,
+		    straightFirst: false, straightLast: false,
+		    strokeColor: 'black'});
+        var t = newtons_method_brd.create('tangent',[f],{strokeWidth: 0.5,
+		    strokeColor: '#0080c0', dash: 0});
+        var x = newtons_method_brd.create('point',[newtons_method_brd.intersection(newtons_method_ax,t,0)],{name:
+		    'x_{'+(i) + '}', style: 4, strokeColor:
+		    'magenta', fillColor: 'yellow'});
+}
+
+function newtons_method_newton(current, target) {
+  newtons_method_brd.suspendUpdate();
+  for (var i=current+1; i<=target; i++) {
+     newtons_method_newpoint(JXG.getReference(newtons_method_brd, 'x_{' + (i-1) + '}'),i);
+  }
+  newtons_method_brd.unsuspendUpdate();
+}
+
+function newtons_method_newGraph(v,st) {
+    var oldsteps = newtons_method_steps;
+    eval("newtons_method_term = function(x){ return "+v+";}");
+    eval("newtons_method_steps = " + st + ";");
+    newtons_method_graph = function(x) { return newtons_method_term(x); };
+    newtons_method_g.Y = function(x){ return newtons_method_term(x); };
+    newtons_method_g.updateCurve();
+    var i;
+    if (oldsteps > newtons_method_steps) {
+      for (i=oldsteps; i>newtons_method_steps; i--) {
+        newtons_method_brd.removeObject('x_{'+i+'}');
+        newtons_method_brd.removeObject('g'+i);
+      }
+    } else if (oldsteps < newtons_method_steps) {
+      newtons_method_newton(oldsteps,newtons_method_steps);
+    }
+    newtons_method_brd.update();
+}
+</script>
+<div class='figcaption'><span class="figurenumber">Figure 6.3.1.</span> Newton's method.</div></div>
+<p>
+</p><p>
+Let's think about this process in more general terms. We want to
+approximate a solution to $f(x)=0$.
+We start with a rough guess, which we call $\ds x_0$.  We use the tangent
+line to $f(x)$ to get a new approximation that we hope will be closer
+to the true value. What is the equation of the tangent line when
+$\ds x=x_0$? The slope is $\ds f'(x_0)$ and the line goes through
+$\ds(x_0,f(x_0))$, so the equation of the line is
+$$ y=f'(x_0)(x-x_0)+f(x_0).$$
+Now we find where this crosses the $x$-axis by substituting $y=0$ and
+solving for $x$:
+$$x={x_0f'(x_0)-f(x_0)\over f'(x_0)} = x_0 - {f(x_0)\over f'(x_0)}.$$
+We will typically want to compute more than one of these improved
+approximations, so we number them consecutively; from $\ds x_0$ we have
+computed $\ds x_1$:
+$$x_1={x_0f'(x_0)-f(x_0)\over f'(x_0)} = x_0 - {f(x_0)\over f'(x_0)},$$
+and in general from $\ds x_i$ we compute $\ds x_{i+1}$:
+$$x_{i+1}={x_if'(x_i)-f(x_i)\over f'(x_i)} = x_i - {f(x_i)\over f'(x_i)}.$$
+</p><p>
+</p>
+<div class="example">
+<p>
+<span class="theoremlabel">Example 6.3.2 </span>
+Returning to the previous example, $\ds f(x)=x^2-3$, $f'(x)=2x$, and the
+formula becomes $\ds x_{i+1}=x_i - (x_i^2-3)/(2x_i)=(x_i^2+3)/(2x_i)$, as
+before.
+
+</p>
+</div><!-- example -->
+<p>
+</p><p>
+In practice, which is to say, if you need to approximate a value in
+the course of designing a bridge or a building or an airframe, you
+will need to have some confidence that the approximation you settle on
+is accurate enough. As a rule of thumb, once a certain number of
+decimal places stop changing from one approximation to the next it is
+likely that those decimal places are correct. Still, this may not be
+enough assurance, in which case we can test the result for accuracy.
+</p><p>
+</p>
+<div class="example">
+<p>
+<span class="theoremlabel">Example 6.3.3 </span>Find the $x$ coordinate of the intersection of the curves $y=2x$
+and $y=\tan x$, accurate to three decimal places. To put this in the
+context of Newton's method, we note that we want to know where $2x=\tan
+x$ or $f(x)=\tan x-2x=0$. We compute $\ds f'(x)=\sec^2 x - 2$ and set up the
+formula:
+$$x_{i+1} = x_i-{\tan x_i -2x_i\over \sec^2 x_i - 2}.$$ From the graph
+in figure <a href="section06.03.html#fig:tanx vs x">6.3.2</a> 
+we guess $\ds x_0=1$ as a starting point, then using the formula we
+compute $\ds x_1=1.310478030$, $\ds x_2=1.223929096$, $\ds x_3=1.176050900$,
+$\ds x_4=1.165926508$, $\ds x_5=1.165561636$.  So we guess that the first
+three places are correct, but that is not the same as saying $1.165$
+is correct to three decimal places&mdash;$1.166$ might be the correct,
+rounded approximation. How can we tell? We can substitute $1.165$,
+$1.1655$ and $1.166$ into $\tan x - 2x$; this
+gives $-0.002483652$, $-0.000271247$, $0.001948654$. Since the first
+two are negative and the third is positive, $\tan x - 2x$ crosses the
+$x$ axis between $1.1655$ and $1.166$, so the correct value to three
+places is $1.166$.
+
+</p>
+</div><!-- example -->
+<p>
+</p><p>
+</p><div class='figure'><!-- Applications_of_Derivative-Newton_tanx_2x.html -->
+<!-- Figure 6.3.2 -->
+<table style="width:80%;margin-left:auto;margin-right:auto">
+<tr style="width:100%;">
+<td style="width:50%">
+<div id="tanx_2x" class="jxgbox"></div>
+</td><td style="width:50%">
+<div id="tanx-2x" class="jxgbox"></div>
+</td></tr></table>
+
+<script type="text/javascript">
+ (function () {  // BEGIN: scope limiting function wrapper
+  var xmin=-0.5, xmax= 2, ymin=-2, ymax=17;
+  var AspectRatio = (1); // height/width
+  var wd=document.getElementById('tanx_2x').offsetWidth;
+  var ht=wd*AspectRatio;
+  var yfactor = (ymax-ymin)/(ht);
+  var xfactor = (xmax-xmin)/(wd);
+  var xaxis_label_offset = yfactor*15;
+  var yaxis_label_offset = xfactor*20;
+  document.getElementById('tanx_2x').style.height=ht+'px';
+  var brd = JXG.JSXGraph.initBoard('tanx_2x',{boundingbox:[xmin,ymax, xmax,ymin], showCopyright:false,showNavigation:false});
+  yaxis = brd.create('segment',[[0,0],[0,15.1]],{strokeColor:'black',fixed:true,strokeWidth:2});
+  xaxis = brd.create('segment',[[0,0],[1.6,0]],{strokeColor:'black',fixed:true,strokeWidth:2});
+  var f = function(x) { return 2*x; }
+  var linegraph = brd.create('functiongraph', [f,0,1.5], {strokeColor:'green'});
+  var tangraph = brd.create('functiongraph', [Math.tan,0,1.5], {strokeColor:'blue'});
+  brd.createElement('ticks',[xaxis, 1]);
+  brd.createElement('ticks',[yaxis, 5]);
+  brd.create('text',[0.97,-xaxis_label_offset,'$1$']);
+  brd.create('text',[-yaxis_label_offset,15,'$15$']);
+  brd.create('text',[-yaxis_label_offset,10,'$10$']);
+  brd.create('text',[-yaxis_label_offset+xfactor*8,5,'$5$']);
+})(); // END: scope limiting function wrapper
+</script>
+
+<script type="text/javascript">
+ (function () {  // BEGIN: scope limiting function wrapper
+  var xmin=-0.5, xmax= 2, ymin=-2, ymax=17;
+  var AspectRatio = (1); // height/width
+  var wd=document.getElementById('tanx-2x').offsetWidth;
+  var ht=wd*AspectRatio;
+  var yfactor = (ymax-ymin)/(ht);
+  var xfactor = (xmax-xmin)/(wd);
+  var xaxis_label_offset = yfactor*15;
+  var yaxis_label_offset = xfactor*20;
+  document.getElementById('tanx-2x').style.height=ht+'px';
+  var brd = JXG.JSXGraph.initBoard('tanx-2x',{boundingbox:[xmin,ymax, xmax,ymin], showCopyright:false,showNavigation:false});
+  yaxis = brd.create('segment',[[0,0],[0,15.1]],{strokeColor:'black',fixed:true,strokeWidth:2});
+  xaxis = brd.create('segment',[[0,0],[1.6,0]],{strokeColor:'black',fixed:true,strokeWidth:2});
+  var f = function(x) { return Math.tan(x)-2*x; }
+  var linegraph = brd.create('functiongraph', [f,0,1.5], {strokeColor:'green'});
+  brd.createElement('ticks',[xaxis, 1]);
+  brd.createElement('ticks',[yaxis, 5]);
+  brd.create('text',[0.97,-xaxis_label_offset,'$1$']);
+  brd.create('text',[-yaxis_label_offset,15,'$15$']);
+  brd.create('text',[-yaxis_label_offset,10,'$10$']);
+  brd.create('text',[-yaxis_label_offset+xfactor*8,5,'$5$']);
+})(); // END: scope limiting function wrapper
+</script>
+<a id="fig:tanx vs x"></a>
+<div class='figcaption'><span class="figurenumber">Figure 6.3.2.</span> $y=\tan x$ and $y=2x$ on the left, $y=\tan x-2x$ on the right.</div></div>
+<p>
+</p><p>
+</p>
+<a id="exercises"></a><h2 class="exercises">Exercises 6.3</h2>
+<p>You may want to use this
+<a knowl="Applications_of_Derivative-Newtons_Method_sage.html">Sage
+  worksheet.</a>
+</p><p>
+</p>
+<p class="exercise"><b>Ex 6.3.1</b>
+Approximate the fifth root of 7, using $\ds x_0=1.5$ as a
+first guess. Use Newton's method to find $\ds x_3$ as your
+approximation.  
+(<a knowl="" class="internal" value="$\ds x_3=1.475773162$ ">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 6.3.2</b>
+Use Newton's Method to approximate the cube root of 10 to
+two decimal places.
+(<a knowl="" class="internal" value="$2.15$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 6.3.3</b>
+The function 
+$\ds f(x)=x^3-3x^2-3x+6$ has a root between 3 and 4, because
+$f(3)=-3$ and $f(4)=10$. Approximate the root to two decimal places.
+(<a knowl="" class="internal" value="$3.36$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 6.3.4</b>
+A rectangular piece of cardboard of dimensions $8\times 17$
+is used to make an open-top box by cutting out a small square of side
+$x$ from each corner and bending up the sides.  (See
+exercise <a href="section06.01.html#exercise: cardboard box">20</a> in <a href="section06.01.html#sec:optimization">6.1</a>.)
+If $x=2$, then the volume of the box is $2\cdot 4\cdot 13=104$.  Use
+Newton's method to find a value of $x$ for which the box has volume
+100, accurate to 3 significant figures.  
+(<a knowl="" class="internal" value="$2.19$ or $1.26$">answer</a>)
+
+
+</p><p>
+
+
+
+</div></div></body>
+</html>

@@ -1,0 +1,975 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+<meta http-equiv="Content-Language" Content="en">
+<title>10.3 Areas in polar coordinates</title>
+<!--
+<script type="text/javascript" src="js/deployJava.js"></script>
+<link rel="stylesheet" type="text/css" href="http://jsxgraph.uni-bayreuth.de/distrib/jsxgraph.css" />
+-->
+<!-- use Jsxgraph to create figures: http://jsxgraph.uni-bayreuth.de/wp/ -->
+<link rel="stylesheet" type="text/css" href="css/jsxgraph.css" />
+<script type="text/javascript" src="js/jsxgraphcore.js"></script>
+<script src="js/three.min.js"></script>
+<script src="js/Detector.js"></script>
+<script src="js/TrackballControls.js"></script>
+<script src="js/OrthographicTrackballControls.js"></script>
+<script src="js/THREEx.KeyboardState.js"></script>
+<script src="js/THREEx.FullScreen.js"></script>
+<script src="js/THREEx.WindowResize.js"></script>
+<script type='text/javascript' src='js/DAT.GUI.min.js'></script>
+<script>
+window.requestAnimFrame = (function(){
+    return  window.requestAnimationFrame       || 
+        window.webkitRequestAnimationFrame || 
+        window.mozRequestAnimationFrame    || 
+        window.oRequestAnimationFrame      || 
+        window.msRequestAnimationFrame     || 
+        function(/* function */ callback, /* DOMElement */
+            element){
+            window.setTimeout(callback, 1000 / 60);
+        };
+})();
+</script>
+<script src="js/ifvisible.min.js"></script>
+<script src="js/conrec.js"></script>
+<script>
+active = true;
+ifvisible.setIdleDuration(10);
+ifvisible.on("idle", function(){
+    active = false;
+//    console.log("idle");
+});
+
+ifvisible.on("wakeup", function(){
+    active = true;
+//    console.log("wakeup");
+});
+</script>
+<script src="js/parser.js"></script>
+<link href="css/whitman.css" rel="stylesheet" type="text/css" /><link href="css/calculus.css" rel="stylesheet" type="text/css" /><link href="css/knowlstyle.css" rel="stylesheet" type="text/css" />
+
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  extensions: ["tex2jax.js","TeX/AMSmath.js","TeX/AMSsymbols.js"],
+  jax: ["input/TeX","output/HTML-CSS"],
+  tex2jax: {
+    inlineMath: [['$','$'],["\\(","\\)"]],
+    processEscapes: true,
+  },
+TeX: {
+   Macros: {
+    val: "\\mathop{\\rm val}",
+    divides: "\\mid",
+    ndivides: "\\mathrel{\\not|}",
+    fix: "\\mathop{\\rm fix}",
+    id: "\\mathop{\\rm id}",
+    na: "\\mathop{\\rm na}",
+    d: "\\mathop{\\rm\\strut d}\\nolimits ",
+    legendre: ["\\left(\\frac{#1}{#2}\\right)",2],
+    normalbaselines: "",
+    notdiv: "\\nmid",
+    implies: "\\Rightarrow",
+    iff: "\\Leftrightarrow",
+    sevenpoint: "\\scriptsize",
+    ds: "\\displaystyle",
+    lcm: "\\operatorname{lcm}",
+    arccot: "\\operatorname{arccot}",
+    arcsec: "\\operatorname{arcsec}",
+    arccsc: "\\operatorname{arccsc}",
+    arccosh: "\\operatorname{arccosh}",
+    arcsinh: "\\operatorname{arcsinh}",
+    arcsech: "\\operatorname{arcsech}",
+    sech: "\\operatorname{sech}",
+    csch: "\\operatorname{csch}",
+    R: "{\\mathbb R}",
+    sb: "_",
+    sp: "^",
+    Q: "{\\mathbb Q}",
+    C: "{\\mathbb C}",
+    N: "{\\mathbb N}",
+    Z: "{\\mathbb Z}",
+    U: "{\\mathbb U}",
+    v: ["\\langle #1\\rangle",1],
+    dint: ["{\\mathchoice{\\mathop{\\int\\!\\!\\!\\int}_{#1}}{\\mathop{\\int\\!\\!\\!\\int}_{#1}}{\\mathop{\\int\\!\\!\\!\\int}}{\\mathop{\\int\\!\\!\\!\\int}}}",1],
+    tint: ["{\\mathchoice{\\mathop{\\int\\!\\!\\!\\int\\!\\!\\!\\int}_{#1\\;}}{\\mathop{\\int\\!\\!\\!\\int\\!\\!\\!\\int}_{#1}}{\\mathop{\\int\\!\\!\\!\\int\\!\\!\\!\\int}_{#1}}{\\mathop{\\int\\!\\!\\!\\int\\!\\!\\!\\int}_{#1}}}",1]
+   }
+},
+  "HTML-CSS": { scale: 100},
+  menuSettings: { zscale: "150%", zoom: "Double-Click" }
+});
+    JXG.Options.text.display = 'html';
+    JXG.Options.text.useMathJax = true;
+</script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/math
+jax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+<script>
+MathJax.Hub.Register.StartupHook("End",function () {
+  if(typeof window.orientation === 'undefined'){
+    var i,x;
+    x = document.getElementsByClassName("webgl_display");
+    for (i=0; i<x.length; i++) {
+      x[i].style.display = "block";
+    }
+    x = document.getElementsByClassName("no_webgl_display");
+    for (i=0; i<x.length; i++) {
+      x[i].style.display = "none";
+    }
+  }
+});
+</script>
+
+<script src="js/jquery-3.1.0.min.js"></script>
+<script src="https://sagecell.sagemath.org/static/embedded_sagecell.js"></script>
+<script src="js/jquery.visible.min.js"></script>
+<script type="text/javascript" src="js/knowl.js"></script>
+<style type="text/css">
+
+.sagecell .CodeMirror {
+  height: auto;
+}
+
+.sagecell .CodeMirror-scroll {
+  overflow-y: hidden;
+  overflow-x: auto;
+}
+
+.sagecell-practice .CodeMirror-scroll {
+}
+
+.sagecell button.sagecell_evalButton {
+    font-size: 50%;
+}
+
+.sagecell_sessionContainer {
+    margin-bottom:1em;
+}
+</style>
+<script>
+function toggle(a) {
+  var b = String(a);
+  b=b.replace("contents","button");
+  if (document.getElementById(a).style.display == "block") {
+    document.getElementById(a).style.display = "none";
+    document.getElementById(b).src = "expand_submenu.png";
+  } else {
+    document.getElementById(a).style.display = "block";
+    document.getElementById(b).src = "collapse_submenu.png";
+  }
+}
+function toggle_sidebar() {
+  if (document.getElementById('sidebar').style.display == "block") {
+    document.getElementById('sidebar').style.display = "none";
+    document.getElementById('menu_expand').style.display = "block";
+  } else {
+    document.getElementById('sidebar').style.display = "block";
+    document.getElementById('menu_expand').style.display = "none";
+  }
+}
+</script>
+
+</head>
+
+<body class="" onload="toggle('chapter_10_contents')">
+<div id="header">
+<div class="right">
+<div class="bread">
+  <a href=".">Home</a> &raquo; <a href="chapter10.html">Polar Coordinates,  Parametric Equations</a> &raquo; <a href="section10.03.html">Areas in polar coordinates</a>
+</div>
+
+<FORM method=GET action=https://www.google.com/custom id="search">
+<INPUT TYPE=text name=q size=31 maxlength=255 value="" style="font-size:small">
+<INPUT type=submit name=sa VALUE="Search the book" style="font-size:small">
+<INPUT type=hidden name=cof VALUE="AH:center;AWFID:198dc2b883340b1f;">
+<input type=hidden name=domains value="www.whitman.edu">
+<input type=hidden name=sitesearch value="www.whitman.edu/mathematics/calculus_online/">
+</FORM>
+<div id="title"><span id="title-content">10.3 Areas in polar coordinates</span></div><a href="#exercises">[Jump to exercises]</a>
+</div>
+</div>
+<div id="menu_expand" style="display:none"><a href="javascript:toggle_sidebar()">Expand menu</a></div>
+<div id="sidebar" style="display:block">
+<h2 id="menu_collapse"><a href='javascript:toggle_sidebar()'>Collapse menu</a></h2>
+<h2 class="link"><img id="chapter_01_button" src="expand_submenu.png" onclick='toggle("chapter_01_contents")'><a href="chapter01.html">1 Analytic Geometry</a></h2>
+
+<ul class="list" id="chapter_01_contents">
+<li><a href="section01.01.html">1. Lines</a></li>
+<li><a href="section01.02.html">2. Distance Between Two Points; Circles</a></li>
+<li><a href="section01.03.html">3. Functions</a></li>
+<li><a href="section01.04.html">4. Shifts and Dilations</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_02_button" src="expand_submenu.png" onclick='toggle("chapter_02_contents")'><a href="chapter02.html">2 Instantaneous Rate of Change:  The Derivative</a></h2>
+
+<ul class="list" id="chapter_02_contents">
+<li><a href="section02.01.html">1. The slope of a function</a></li>
+<li><a href="section02.02.html">2. An example</a></li>
+<li><a href="section02.03.html">3. Limits</a></li>
+<li><a href="section02.04.html">4. The Derivative Function</a></li>
+<li><a href="section02.05.html">5. Adjectives For Functions</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_03_button" src="expand_submenu.png" onclick='toggle("chapter_03_contents")'><a href="chapter03.html">3 Rules for Finding Derivatives</a></h2>
+
+<ul class="list" id="chapter_03_contents">
+<li><a href="section03.01.html">1. The Power Rule</a></li>
+<li><a href="section03.02.html">2. Linearity of the Derivative</a></li>
+<li><a href="section03.03.html">3. The Product Rule</a></li>
+<li><a href="section03.04.html">4. The Quotient Rule</a></li>
+<li><a href="section03.05.html">5. The Chain Rule</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_04_button" src="expand_submenu.png" onclick='toggle("chapter_04_contents")'><a href="chapter04.html">4 Transcendental Functions</a></h2>
+
+<ul class="list" id="chapter_04_contents">
+<li><a href="section04.01.html">1. Trigonometric Functions</a></li>
+<li><a href="section04.02.html">2. The Derivative of $\sin x$</a></li>
+<li><a href="section04.03.html">3. A hard limit</a></li>
+<li><a href="section04.04.html">4. The Derivative of $\sin x$, continued</a></li>
+<li><a href="section04.05.html">5. Derivatives of the Trigonometric Functions</a></li>
+<li><a href="section04.06.html">6. Exponential and Logarithmic functions</a></li>
+<li><a href="section04.07.html">7. Derivatives of the exponential and  logarithmic functions</a></li>
+<li><a href="section04.08.html">8. Implicit Differentiation</a></li>
+<li><a href="section04.09.html">9. Inverse Trigonometric Functions</a></li>
+<li><a href="section04.10.html">10. Limits revisited</a></li>
+<li><a href="section04.11.html">11. Hyperbolic Functions</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_05_button" src="expand_submenu.png" onclick='toggle("chapter_05_contents")'><a href="chapter05.html">5 Curve Sketching</a></h2>
+
+<ul class="list" id="chapter_05_contents">
+<li><a href="section05.01.html">1. Maxima and Minima</a></li>
+<li><a href="section05.02.html">2. The first derivative test</a></li>
+<li><a href="section05.03.html">3. The second derivative test</a></li>
+<li><a href="section05.04.html">4. Concavity and inflection points</a></li>
+<li><a href="section05.05.html">5. Asymptotes and Other Things to Look For</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_06_button" src="expand_submenu.png" onclick='toggle("chapter_06_contents")'><a href="chapter06.html">6 Applications of the Derivative</a></h2>
+
+<ul class="list" id="chapter_06_contents">
+<li><a href="section06.01.html">1. Optimization</a></li>
+<li><a href="section06.02.html">2. Related Rates</a></li>
+<li><a href="section06.03.html">3. Newton's Method</a></li>
+<li><a href="section06.04.html">4. Linear Approximations</a></li>
+<li><a href="section06.05.html">5. The Mean Value Theorem</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_07_button" src="expand_submenu.png" onclick='toggle("chapter_07_contents")'><a href="chapter07.html">7 Integration</a></h2>
+
+<ul class="list" id="chapter_07_contents">
+<li><a href="section07.01.html">1. Two examples</a></li>
+<li><a href="section07.02.html">2. The Fundamental Theorem of Calculus</a></li>
+<li><a href="section07.03.html">3. Some Properties of Integrals</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_08_button" src="expand_submenu.png" onclick='toggle("chapter_08_contents")'><a href="chapter08.html">8 Techniques of Integration</a></h2>
+
+<ul class="list" id="chapter_08_contents">
+<li><a href="section08.01.html">1. Substitution</a></li>
+<li><a href="section08.02.html">2. Powers of sine and cosine</a></li>
+<li><a href="section08.03.html">3. Trigonometric Substitutions</a></li>
+<li><a href="section08.04.html">4. Integration by Parts</a></li>
+<li><a href="section08.05.html">5. Rational Functions</a></li>
+<li><a href="section08.06.html">6. Numerical Integration</a></li>
+<li><a href="section08.07.html">7. Additional exercises</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_09_button" src="expand_submenu.png" onclick='toggle("chapter_09_contents")'><a href="chapter09.html">9 Applications of Integration</a></h2>
+
+<ul class="list" id="chapter_09_contents">
+<li><a href="section09.01.html">1. Area between curves</a></li>
+<li><a href="section09.02.html">2. Distance, Velocity, Acceleration</a></li>
+<li><a href="section09.03.html">3. Volume</a></li>
+<li><a href="section09.04.html">4. Average value of a function</a></li>
+<li><a href="section09.05.html">5. Work</a></li>
+<li><a href="section09.06.html">6. Center of Mass</a></li>
+<li><a href="section09.07.html">7. Kinetic energy; improper integrals</a></li>
+<li><a href="section09.08.html">8. Probability</a></li>
+<li><a href="section09.09.html">9. Arc Length</a></li>
+<li><a href="section09.10.html">10. Surface Area</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_10_button" src="expand_submenu.png" onclick='toggle("chapter_10_contents")'><a href="chapter10.html">10 Polar Coordinates,  Parametric Equations</a></h2>
+
+<ul class="list" id="chapter_10_contents">
+<li><a href="section10.01.html">1. Polar Coordinates</a></li>
+<li><a href="section10.02.html">2. Slopes in polar coordinates</a></li>
+<li><a href="section10.03.html">3. Areas in polar coordinates</a></li>
+<li><a href="section10.04.html">4. Parametric Equations</a></li>
+<li><a href="section10.05.html">5. Calculus with Parametric Equations</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_11_button" src="expand_submenu.png" onclick='toggle("chapter_11_contents")'><a href="chapter11.html">11 Sequences and Series</a></h2>
+
+<ul class="list" id="chapter_11_contents">
+<li><a href="section11.01.html">1. Sequences</a></li>
+<li><a href="section11.02.html">2. Series</a></li>
+<li><a href="section11.03.html">3. The Integral Test</a></li>
+<li><a href="section11.04.html">4. Alternating Series</a></li>
+<li><a href="section11.05.html">5. Comparison Tests</a></li>
+<li><a href="section11.06.html">6. Absolute Convergence</a></li>
+<li><a href="section11.07.html">7. The Ratio and Root Tests</a></li>
+<li><a href="section11.08.html">8. Power Series</a></li>
+<li><a href="section11.09.html">9. Calculus with Power Series</a></li>
+<li><a href="section11.10.html">10. Taylor Series</a></li>
+<li><a href="section11.11.html">11. Taylor's Theorem</a></li>
+<li><a href="section11.12.html">12. Additional exercises</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_12_button" src="expand_submenu.png" onclick='toggle("chapter_12_contents")'><a href="chapter12.html">12 Three Dimensions</a></h2>
+
+<ul class="list" id="chapter_12_contents">
+<li><a href="section12.01.html">1. The Coordinate System</a></li>
+<li><a href="section12.02.html">2. Vectors</a></li>
+<li><a href="section12.03.html">3. The Dot Product</a></li>
+<li><a href="section12.04.html">4. The Cross Product</a></li>
+<li><a href="section12.05.html">5. Lines and Planes</a></li>
+<li><a href="section12.06.html">6. Other Coordinate Systems</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_13_button" src="expand_submenu.png" onclick='toggle("chapter_13_contents")'><a href="chapter13.html">13 Vector Functions</a></h2>
+
+<ul class="list" id="chapter_13_contents">
+<li><a href="section13.01.html">1. Space Curves</a></li>
+<li><a href="section13.02.html">2. Calculus with vector functions</a></li>
+<li><a href="section13.03.html">3. Arc length and curvature</a></li>
+<li><a href="section13.04.html">4. Motion along a curve</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_14_button" src="expand_submenu.png" onclick='toggle("chapter_14_contents")'><a href="chapter14.html">14 Partial Differentiation</a></h2>
+
+<ul class="list" id="chapter_14_contents">
+<li><a href="section14.01.html">1. Functions of Several Variables</a></li>
+<li><a href="section14.02.html">2. Limits and Continuity</a></li>
+<li><a href="section14.03.html">3. Partial Differentiation</a></li>
+<li><a href="section14.04.html">4. The Chain Rule</a></li>
+<li><a href="section14.05.html">5. Directional Derivatives</a></li>
+<li><a href="section14.06.html">6. Higher order derivatives</a></li>
+<li><a href="section14.07.html">7. Maxima and minima</a></li>
+<li><a href="section14.08.html">8. Lagrange Multipliers</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_15_button" src="expand_submenu.png" onclick='toggle("chapter_15_contents")'><a href="chapter15.html">15 Multiple Integration</a></h2>
+
+<ul class="list" id="chapter_15_contents">
+<li><a href="section15.01.html">1. Volume and Average Height</a></li>
+<li><a href="section15.02.html">2. Double Integrals in Cylindrical Coordinates</a></li>
+<li><a href="section15.03.html">3. Moment and Center of Mass</a></li>
+<li><a href="section15.04.html">4. Surface Area</a></li>
+<li><a href="section15.05.html">5. Triple Integrals</a></li>
+<li><a href="section15.06.html">6. Cylindrical and Spherical Coordinates</a></li>
+<li><a href="section15.07.html">7. Change of Variables</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_16_button" src="expand_submenu.png" onclick='toggle("chapter_16_contents")'><a href="chapter16.html">16 Vector Calculus</a></h2>
+
+<ul class="list" id="chapter_16_contents">
+<li><a href="section16.01.html">1. Vector Fields</a></li>
+<li><a href="section16.02.html">2. Line Integrals</a></li>
+<li><a href="section16.03.html">3. The Fundamental Theorem of Line Integrals</a></li>
+<li><a href="section16.04.html">4. Green's Theorem</a></li>
+<li><a href="section16.05.html">5. Divergence and Curl</a></li>
+<li><a href="section16.06.html">6. Vector Functions for Surfaces</a></li>
+<li><a href="section16.07.html">7. Surface Integrals</a></li>
+<li><a href="section16.08.html">8. Stokes's Theorem</a></li>
+<li><a href="section16.09.html">9. The Divergence Theorem</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_17_button" src="expand_submenu.png" onclick='toggle("chapter_17_contents")'><a href="chapter17.html">17 Differential Equations</a></h2>
+
+<ul class="list" id="chapter_17_contents">
+<li><a href="section17.01.html">1. First Order Differential Equations</a></li>
+<li><a href="section17.02.html">2. First Order Homogeneous Linear Equations</a></li>
+<li><a href="section17.03.html">3. First Order Linear Equations</a></li>
+<li><a href="section17.04.html">4. Approximation</a></li>
+<li><a href="section17.05.html">5. Second Order Homogeneous Equations</a></li>
+<li><a href="section17.06.html">6. Second Order Linear Equations</a></li>
+<li><a href="section17.07.html">7. Second Order Linear Equations, take two</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_18_button" src="expand_submenu.png" onclick='toggle("chapter_18_contents")'><a href="chapter18.html">18 Useful formulas</a></h2>
+
+<ul class="list" id="chapter_18_contents">
+</ul>
+
+</div>
+
+<div id="main">
+
+<div id="next"><a href="section10.02.html"><img src=previous_section.png width="30"></a>&nbsp;&nbsp;<a href="section10.04.html"><img src=next_section.png width="30"></a></div>
+
+<div id="content">
+<p>
+
+
+</p><p>
+We can use the equation of a curve in polar coordinates to compute
+some areas bounded by such curves.
+The basic approach is the same as with any application of integration:
+find an approximation that approaches the true value. For areas in
+rectangular coordinates, we approximated the region using rectangles;
+in polar coordinates, we use sectors of circles, as depicted in
+figure <a href="section10.03.html#fig:approximating area with sectors">10.3.1</a>. Recall that the
+area of a sector of a circle is $\ds \alpha r^2/2$, where $\alpha$ is the
+angle subtended by the sector. If the curve is given by $r=f(\theta)$,
+and the angle subtended by a small sector is $\Delta\theta$, 
+the area is $\ds (\Delta\theta)(f(\theta))^2/2$.
+Thus we approximate the total area as
+$$\sum_{i=0}^{n-1} {1\over 2} f(\theta_i)^2\;\Delta\theta.$$
+In the limit this becomes
+$$\int_a^b {1\over 2} f(\theta)^2\;d\theta.$$
+</p><p>
+</p>
+<div class="example">
+<p>
+<span class="theoremlabel">Example 10.3.1 </span>
+We find the area inside the cardioid $r=1+\cos\theta$.
+$$\int_0^{2\pi}{1\over 2} (1+\cos\theta)^2\;d\theta=
+{1\over 2}\int_0^{2\pi} 1+2\cos\theta+\cos^2\theta\;d\theta=
+{1\over 2}\left.(\theta +2\sin\theta+
+{\theta\over2}+{\sin2\theta\over4})\right|_0^{2\pi}={3\pi\over2}.$$
+
+</p>
+</div><!-- example -->
+<p>
+</p><p>
+<a id="fig:approximating area with sectors"></a>
+</p><div class='figure'><!-- Polar-Parametric-area_in_polar.html -->
+<!-- Figure 10.3.1 -->
+
+<div id='area_by_sectors' class='jxgbox' style='width:53%;'></div>
+
+<script type='text/javascript'>
+(function () {  // BEGIN: scope limiting function wrapper
+  var cxmin=-0.25, cxmax= 2.5, cymin=-0.25, cymax=1.5;
+  var cAspectRatio =  ((cymax-cymin)/(cxmax-cxmin)); // height/width
+  var cwd=document.getElementById('area_by_sectors').offsetWidth;
+  var cht=cwd*cAspectRatio;
+  var cyfactor = (cymax-cymin)/(cht);
+  var cxfactor = (cxmax-cxmin)/(cwd);
+  var cxaxis_label_offset = cyfactor*15;
+  var cyaxis_label_offset = cxfactor*20;
+  document.getElementById('area_by_sectors').style.height=cht+'px';
+  var cbrd = JXG.JSXGraph.initBoard('area_by_sectors',{boundingbox:[cxmin,cymax,cxmax,cymin], showCopyright:false, showNavigation:false}) ;
+  var x = function(t) { return (1+Math.cos(t))*Math.cos(t); }
+  var y = function(t) { return (1+Math.cos(t))*Math.sin(t); }
+  var cxaxis = cbrd.create('arrow', [[0,0], [2.25,0]],{strokeWidth:1,strokeColor:'black',fixed:true});
+  var cyaxis = cbrd.create('arrow', [[0,0],[0,1.25]],{strokeWidth:1,strokeColor:'black',fixed:true});
+  cbrd.create('curve',[x,y,Math.PI/24,Math.PI*4/10]);
+  var sector1_x = function(t) {
+    if (t<1) { return t*(1+Math.cos(Math.PI/3))*Math.cos(Math.PI/3); }
+    if (t<2) { return (1+Math.cos(Math.PI/3))*Math.cos((t-1)*Math.PI/4+(2-t)*Math.PI/3); }
+    return (3-t)*(1+Math.cos(Math.PI/3))*Math.cos(Math.PI/4);
+  }
+  var sector1_y = function(t) {
+    if (t<1) { return t*(1+Math.cos(Math.PI/3))*Math.sin(Math.PI/3); }
+    if (t<2) { return (1+Math.cos(Math.PI/3))*Math.sin((t-1)*Math.PI/4+(2-t)*Math.PI/3); }
+    return (3-t)*(1+Math.cos(Math.PI/3))*Math.sin(Math.PI/4);
+  }
+  cbrd.create('curve',[sector1_x,sector1_y,0,3],{fillOpacity:1,fillColor:'#FFB7D5'});
+  var sector2_x = function(t) {
+    if (t<1) { return t*(1+Math.cos(Math.PI/4))*Math.cos(Math.PI/4); }
+    if (t<2) { return (1+Math.cos(Math.PI/4))*Math.cos((t-1)*Math.PI/6+(2-t)*Math.PI/4); }
+    return (3-t)*(1+Math.cos(Math.PI/4))*Math.cos(Math.PI/6);
+  }
+  var sector2_y = function(t) {
+    if (t<1) { return t*(1+Math.cos(Math.PI/4))*Math.sin(Math.PI/4); }
+    if (t<2) { return (1+Math.cos(Math.PI/4))*Math.sin((t-1)*Math.PI/6+(2-t)*Math.PI/4); }
+    return (3-t)*(1+Math.cos(Math.PI/4))*Math.sin(Math.PI/6);
+  }
+  cbrd.create('curve',[sector2_x,sector2_y,0,3],{fillOpacity:1,fillColor:'#FFB7D5'});
+  var sector3_x = function(t) {
+    if (t<1) { return t*(1+Math.cos(Math.PI/6))*Math.cos(Math.PI/6); }
+    if (t<2) { return (1+Math.cos(Math.PI/6))*Math.cos((t-1)*Math.PI/12+(2-t)*Math.PI/6); }
+    return (3-t)*(1+Math.cos(Math.PI/6))*Math.cos(Math.PI/12);
+  }
+  var sector3_y = function(t) {
+    if (t<1) { return t*(1+Math.cos(Math.PI/6))*Math.sin(Math.PI/6); }
+    if (t<2) { return (1+Math.cos(Math.PI/6))*Math.sin((t-1)*Math.PI/12+(2-t)*Math.PI/6); }
+    return (3-t)*(1+Math.cos(Math.PI/6))*Math.sin(Math.PI/12);
+  }
+  cbrd.create('curve',[sector3_x,sector3_y,0,3],{fillOpacity:1,fillColor:'#FFB7D5'});
+})(); // END: scope limiting function wrapper
+</script>
+<div class='figcaption'><span class="figurenumber">Figure 10.3.1.</span> Approximating area by sectors of circles.</div></div>
+<p>
+</p><p>
+</p>
+<div class="example">
+<p>
+<span class="theoremlabel">Example 10.3.2 </span>We find the area between the circles $r=2$ and
+$r=4\sin\theta$, as shown in figure <a href="section10.03.html#fig:polar area between curves">10.3.2</a>.
+The two curves intersect where $2=4\sin\theta$, or $\sin\theta=1/2$,
+so $\theta=\pi/6$ or $5\pi/6$. The area we want is then
+$$
+  {1\over2}\int_{\pi/6}^{5\pi/6}
+  16\sin^2\theta-4\;d\theta={4\over3}\pi + 2\sqrt{3}.
+$$
+
+</p>
+</div><!-- example -->
+<p>
+</p><p>
+<a id="fig:polar area between curves"></a>
+</p><div class='figure'><!-- Polar-Parametric-area_between_polar_curves.html -->
+<!-- Figure 10.3.2 -->
+
+<div id='area_between_polar_curves' class='jxgbox' style='width:50%;'></div>
+
+<script type='text/javascript'>
+(function () {  // BEGIN: scope limiting function wrapper
+  var xmin=-1.75, xmax=1.75, ymin=-1.75, ymax=2.5;
+  var AspectRatio =  ((ymax-ymin)/(xmax-xmin)); // height/width
+  var wd=document.getElementById('area_between_polar_curves').offsetWidth;
+  var ht=wd*AspectRatio;
+  var yfactor = (ymax-ymin)/(ht);
+  var xfactor = (xmax-xmin)/(wd);
+  var xaxis_label_offset = yfactor*15;
+  var yaxis_label_offset = xfactor*20;
+  document.getElementById('area_between_polar_curves').style.height=ht+'px';
+  var brd = JXG.JSXGraph.initBoard('area_between_polar_curves',{boundingbox:[xmin,ymax,xmax,ymin], showCopyright:false, showNavigation:false}) ;
+  var rejax = function() {
+     MathJax.Hub.Queue(["Typeset",MathJax.Hub]); 
+  }
+  brd.addHook(rejax)
+
+  var xaxis = brd.create('arrow', [[-1.5,0], [1.5,0]],{strokeWidth:1,strokeColor:'black',fixed:true});
+  var yaxis = brd.create('arrow', [[0,-1.5],[0,2.25]],{strokeWidth:1,strokeColor:'black',fixed:true});
+  var xi = brd.create('segment',[[0,0],[1.1,0]],{visible:false});
+  brd.create('ticks',[xi,1],{minorTicks:false});
+  var yi = brd.create('segment',[[0,0],[0,1.1]],{visible:false});
+  brd.create('ticks',[yi,1],{minorTicks:false});
+  var xi2 = brd.create('segment',[[0,0],[-1.1,0]],{visible:false});
+  brd.create('ticks',[xi2,1],{minorTicks:false});
+  var i;
+  brd.create('text',[1+xfactor*5,-xaxis_label_offset,'$1$'],{fixed:true});
+  brd.create('text',[-yaxis_label_offset+xfactor*5,1+yfactor*7,'$1$'],{fixed:true});
+  brd.create('text',[-1-xfactor*20,-xaxis_label_offset,'$-1$'],{fixed:true});
+  brd.create('circle',[[0,1],[0,2]],{strokeWidth:1,strokeColor:'black'});
+  brd.create('circle',[[0,0],[0,1]],{strokeWidth:1,strokeColor:'black'});
+  var x = function(t) { 
+    if (t<1) { return Math.cos((1-t)*Math.PI/6+t*Math.PI*5/6); }
+    return (2*Math.sin((2-t)*Math.PI*5/6+(t-1)*Math.PI/6))*Math.cos((2-t)*Math.PI*5/6+(t-1)*Math.PI/6);
+  }
+  var y = function(t) { 
+    if (t<1) { return Math.sin((1-t)*Math.PI/6+t*Math.PI*5/6); }
+    return (2*Math.sin((2-t)*Math.PI*5/6+(t-1)*Math.PI/6))*Math.sin((2-t)*Math.PI*5/6+(t-1)*Math.PI/6);
+  }
+  brd.create('curve',[x,y,0,2],{fillColor:'#FFB7D5'});
+})(); // END: scope limiting function wrapper
+</script>
+<div class='figcaption'><span class="figurenumber">Figure 10.3.2.</span> An area between curves.</div></div>
+<p>
+</p><p>
+This example makes the process appear more straightforward than it
+is. Because points have many different representations in polar
+coordinates, it is not always so easy to identify points of
+intersection. 
+</p><p>
+</p>
+<div class="example">
+<p>
+<span class="theoremlabel">Example 10.3.3 </span>We find the shaded area in the first graph of
+figure <a href="section10.03.html#fig:harder area between polar curves">10.3.3</a> as the difference
+of the other two shaded areas. The cardioid is $r=1+\sin\theta$ and
+the circle is $r=3\sin\theta$. We attempt to find points of intersection:
+$$\eqalign{
+  1+\sin\theta&=3\sin\theta\cr
+  1&=2\sin\theta\cr
+  1/2&=\sin\theta.\cr}
+$$
+This has solutions $\theta=\pi/6$ and $5\pi/6$; $\pi/6$ corresponds to
+the intersection in the first quadrant that we need.  Note that no
+solution of this equation corresponds to the intersection point at the
+origin, but fortunately that one is obvious. The cardioid goes through
+the origin when $\theta=-\pi/2$; the circle goes through the origin at
+multiples of $\pi$, starting with $0$.
+</p><p>
+Now the larger region has area
+$$
+  {1\over2}\int_{-\pi/2}^{\pi/6} (1+\sin\theta)^2\;d\theta=
+  {\pi\over2}-{9\over16}\sqrt{3}
+$$
+and the smaller has area
+$$
+  {1\over2}\int_{0}^{\pi/6} (3\sin\theta)^2\;d\theta=
+  {3\pi\over8} - {9\over16}\sqrt{3}
+$$
+so the area we seek is $\pi/8$.
+
+</p>
+</div><!-- example -->
+<p>
+</p><p>
+
+<a id="fig:harder area between polar curves"></a>
+</p><div class='figure'><!-- Polar-Parametric-area_between_circle_cardioid.html -->
+<!-- Figure 10.3.3 -->
+
+<table style="width:100%">
+<tr style="width:100%">
+<td style="width:33%">
+<div id="area_between_circle_and_cardioid" class="jxgbox"></div>
+</td><td style="width:33%">
+<div id="area_between_circle_and_cardioid_two" class="jxgbox"></div>
+</td><td style="width:33%">
+<div id="area_between_circle_and_cardioid_three" class="jxgbox"></div>
+</td></tr></table>
+
+<script type='text/javascript'>
+(function () {  // BEGIN: scope limiting function wrapper
+  var xmin=-1.75, xmax=1.75, ymin=-0.5, ymax=3.5;
+  var AspectRatio =  ((ymax-ymin)/(xmax-xmin)); // height/width
+  var wd=document.getElementById('area_between_circle_and_cardioid').offsetWidth;
+  var ht=wd*AspectRatio;
+  var yfactor = (ymax-ymin)/(ht);
+  var xfactor = (xmax-xmin)/(wd);
+  var xaxis_label_offset = yfactor*15;
+  var yaxis_label_offset = xfactor*20;
+  document.getElementById('area_between_circle_and_cardioid').style.height=ht+'px';
+  var brd = JXG.JSXGraph.initBoard('area_between_circle_and_cardioid',{boundingbox:[xmin,ymax,xmax,ymin], showCopyright:false, showNavigation:false}) ;
+  var rejax = function() {
+     MathJax.Hub.Queue(["Typeset",MathJax.Hub]); 
+  }
+  brd.addHook(rejax)
+
+  var xaxis = brd.create('arrow', [[-1.5,0], [1.5,0]],{strokeWidth:1,strokeColor:'black',fixed:true});
+  var yaxis = brd.create('arrow', [[0,-0.25],[0,3.25]],{strokeWidth:1,strokeColor:'black',fixed:true});
+  var xi = brd.create('segment',[[0,0],[1.1,0]],{visible:false});
+  brd.create('ticks',[xi,1],{minorTicks:false});
+  var yi = brd.create('segment',[[0,0],[0,1.1]],{visible:false});
+  brd.create('ticks',[yi,1],{minorTicks:false});
+  var xi2 = brd.create('segment',[[0,0],[-1.1,0]],{visible:false});
+  brd.create('ticks',[xi2,1],{minorTicks:false});
+  var i;
+  brd.create('text',[1+xfactor*5,-xaxis_label_offset,'$1$'],{fixed:true});
+  brd.create('text',[-yaxis_label_offset+xfactor*5,1+yfactor*7,'$1$'],{fixed:true});
+  brd.create('text',[-1-xfactor*20,-xaxis_label_offset,'$-1$'],{fixed:true});
+  brd.create('circle',[[0,1.5],[0,3]],{strokeWidth:1});
+  var x = function(t) { return (1+Math.sin(t))*Math.cos(t); }
+  var y = function (t) { return (1+Math.sin(t))*Math.sin(t); }
+  brd.create('curve',[x,y,-Math.PI/2,3*Math.PI/2]);
+  areax = function(t) { 
+    if (t<1) { return (1+Math.sin((1-t)*-Math.PI/2+t*Math.PI/6))*Math.cos((1-t)*-Math.PI/2+t*Math.PI/6); }
+    return (3*Math.sin((2-t)*Math.PI/6))*Math.cos((2-t)*Math.PI/6);
+  }
+  areay = function(t) { 
+    if (t<1) { return (1+Math.sin((1-t)*-Math.PI/2+t*Math.PI/6))*Math.sin((1-t)*-Math.PI/2+t*Math.PI/6); }
+    return (3*Math.sin((2-t)*Math.PI/6))*Math.sin((2-t)*Math.PI/6);
+  }
+  brd.create('curve',[areax,areay,0,2],{fillColor:'#FFB7D5',withLines:false});
+})(); // END: scope limiting function wrapper
+</script>
+
+<script type='text/javascript'>
+(function () {  // BEGIN: scope limiting function wrapper
+  var xmin=-1.75, xmax=1.75, ymin=-0.5, ymax=3.5;
+  var AspectRatio =  ((ymax-ymin)/(xmax-xmin)); // height/width
+  var wd=document.getElementById('area_between_circle_and_cardioid_two').offsetWidth;
+  var ht=wd*AspectRatio;
+  var yfactor = (ymax-ymin)/(ht);
+  var xfactor = (xmax-xmin)/(wd);
+  var xaxis_label_offset = yfactor*15;
+  var yaxis_label_offset = xfactor*20;
+  document.getElementById('area_between_circle_and_cardioid_two').style.height=ht+'px';
+  var brd = JXG.JSXGraph.initBoard('area_between_circle_and_cardioid_two',{boundingbox:[xmin,ymax,xmax,ymin], showCopyright:false, showNavigation:false}) ;
+  var rejax = function() {
+     MathJax.Hub.Queue(["Typeset",MathJax.Hub]); 
+  }
+  brd.addHook(rejax)
+
+  var xaxis = brd.create('arrow', [[-1.5,0], [1.5,0]],{strokeWidth:1,strokeColor:'black',fixed:true});
+  var yaxis = brd.create('arrow', [[0,-0.25],[0,3.25]],{strokeWidth:1,strokeColor:'black',fixed:true});
+  var xi = brd.create('segment',[[0,0],[1.1,0]],{visible:false});
+  brd.create('ticks',[xi,1],{minorTicks:false});
+  var yi = brd.create('segment',[[0,0],[0,1.1]],{visible:false});
+  brd.create('ticks',[yi,1],{minorTicks:false});
+  var xi2 = brd.create('segment',[[0,0],[-1.1,0]],{visible:false});
+  brd.create('ticks',[xi2,1],{minorTicks:false});
+  var i;
+  brd.create('text',[1+xfactor*5,-xaxis_label_offset,'$1$'],{fixed:true});
+  brd.create('text',[-yaxis_label_offset+xfactor*5,1+yfactor*7,'$1$'],{fixed:true});
+  brd.create('text',[-1-xfactor*20,-xaxis_label_offset,'$-1$'],{fixed:true});
+  brd.create('circle',[[0,1.5],[0,3]],{strokeWidth:1});
+  var x = function(t) { return (1+Math.sin(t))*Math.cos(t); }
+  var y = function (t) { return (1+Math.sin(t))*Math.sin(t); }
+  brd.create('curve',[x,y,-Math.PI/2,3*Math.PI/2]);
+  areax = function(t) { 
+    if (t<1) { return (1+Math.sin((1-t)*-Math.PI/2+t*Math.PI/6))*Math.cos((1-t)*-Math.PI/2+t*Math.PI/6); }
+    return (3*Math.sin((2-t)*Math.PI/6))*Math.cos((2-t)*Math.PI/6);
+  }
+  areay = function(t) { 
+    if (t<1) { return (1+Math.sin((1-t)*-Math.PI/2+t*Math.PI/6))*Math.sin((1-t)*-Math.PI/2+t*Math.PI/6); }
+    return (3*Math.sin((2-t)*Math.PI/6))*Math.sin((2-t)*Math.PI/6);
+  }
+  brd.create('curve',[areax,areay,0,1],{fillColor:'#FFB7D5',withLines:false});
+})(); // END: scope limiting function wrapper
+</script>
+
+<script type='text/javascript'>
+(function () {  // BEGIN: scope limiting function wrapper
+  var xmin=-1.75, xmax=1.75, ymin=-0.5, ymax=3.5;
+  var AspectRatio =  ((ymax-ymin)/(xmax-xmin)); // height/width
+  var wd=document.getElementById('area_between_circle_and_cardioid_three').offsetWidth;
+  var ht=wd*AspectRatio;
+  var yfactor = (ymax-ymin)/(ht);
+  var xfactor = (xmax-xmin)/(wd);
+  var xaxis_label_offset = yfactor*15;
+  var yaxis_label_offset = xfactor*20;
+  document.getElementById('area_between_circle_and_cardioid_three').style.height=ht+'px';
+  var brd = JXG.JSXGraph.initBoard('area_between_circle_and_cardioid_three',{boundingbox:[xmin,ymax,xmax,ymin], showCopyright:false, showNavigation:false}) ;
+  var rejax = function() {
+     MathJax.Hub.Queue(["Typeset",MathJax.Hub]); 
+  }
+  brd.addHook(rejax)
+
+  var xaxis = brd.create('arrow', [[-1.5,0], [1.5,0]],{strokeWidth:1,strokeColor:'black',fixed:true});
+  var yaxis = brd.create('arrow', [[0,-0.25],[0,3.25]],{strokeWidth:1,strokeColor:'black',fixed:true});
+  var xi = brd.create('segment',[[0,0],[1.1,0]],{visible:false});
+  brd.create('ticks',[xi,1],{minorTicks:false});
+  var yi = brd.create('segment',[[0,0],[0,1.1]],{visible:false});
+  brd.create('ticks',[yi,1],{minorTicks:false});
+  var xi2 = brd.create('segment',[[0,0],[-1.1,0]],{visible:false});
+  brd.create('ticks',[xi2,1],{minorTicks:false});
+  var i;
+  brd.create('text',[1+xfactor*5,-xaxis_label_offset,'$1$'],{fixed:true});
+  brd.create('text',[-yaxis_label_offset+xfactor*5,1+yfactor*7,'$1$'],{fixed:true});
+  brd.create('text',[-1-xfactor*20,-xaxis_label_offset,'$-1$'],{fixed:true});
+  brd.create('circle',[[0,1.5],[0,3]],{strokeWidth:1});
+  var x = function(t) { return (1+Math.sin(t))*Math.cos(t); }
+  var y = function (t) { return (1+Math.sin(t))*Math.sin(t); }
+  brd.create('curve',[x,y,-Math.PI/2,3*Math.PI/2]);
+  areax = function(t) { 
+    if (t<1) { return (1+Math.sin((1-t)*-Math.PI/2+t*Math.PI/6))*Math.cos((1-t)*-Math.PI/2+t*Math.PI/6); }
+    return (3*Math.sin((2-t)*Math.PI/6))*Math.cos((2-t)*Math.PI/6);
+  }
+  areay = function(t) { 
+    if (t<1) { return (1+Math.sin((1-t)*-Math.PI/2+t*Math.PI/6))*Math.sin((1-t)*-Math.PI/2+t*Math.PI/6); }
+    return (3*Math.sin((2-t)*Math.PI/6))*Math.sin((2-t)*Math.PI/6);
+  }
+  brd.create('curve',[areax,areay,1,2],{fillColor:'#FFB7D5',withLines:false});
+})(); // END: scope limiting function wrapper
+</script>
+<div class='figcaption'><span class="figurenumber">Figure 10.3.3.</span> An area between curves.</div></div>
+<p>
+</p><p>
+</p>
+<a id="exercises"></a><h2 class="exercises">Exercises 10.3</h2>
+<p></p><p>
+ Find the area enclosed by the curve.
+</p><p>
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 10.3.1</b>
+$\ds r=\sqrt{\sin\theta}$
+(<a knowl="" class="internal" value="$1$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 10.3.2</b>
+$\ds r=2+\cos\theta$
+(<a knowl="" class="internal" value="$9\pi/2$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 10.3.3</b>
+$\ds r=\sec\theta, \pi/6\le\theta\le\pi/3$
+(<a knowl="" class="internal" value="$\ds \sqrt3/3$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 10.3.4</b>
+$\ds r=\cos\theta, 0\le\theta\le\pi/3$
+(<a knowl="" class="internal" value="$\ds \pi/12+\sqrt3/16$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 10.3.5</b>
+$\ds r=2a\cos\theta, a>0$
+(<a knowl="" class="internal" value="$\ds \pi a^2$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 10.3.6</b>
+$\ds r=4+3\sin\theta$
+(<a knowl="" class="internal" value="$41\pi/2$">answer</a>)
+
+</p><p>
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 10.3.7</b>
+Find the area inside the loop formed by
+$\ds r=\tan(\theta/2)$.
+(<a knowl="" class="internal" value="$2-\pi/2$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 10.3.8</b>
+Find the area inside one loop of $\ds r=\cos(3\theta)$.
+(<a knowl="" class="internal" value="$\pi/12$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 10.3.9</b>
+Find the area inside one loop of $\ds r=\sin^2\theta$.
+(<a knowl="" class="internal" value="$3\pi/16$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 10.3.10</b>
+Find the area inside the small loop of $\ds r=(1/2)+\cos\theta$.
+(<a knowl="" class="internal" value="$\ds \pi/4-3\sqrt3/8$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 10.3.11</b>
+Find the area inside $\ds r=(1/2)+\cos\theta$, including the
+area inside the small loop.
+(<a knowl="" class="internal" value="$\ds \pi/2+3\sqrt3/8$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 10.3.12</b>
+Find the area inside one loop of $\ds r^2=\cos(2\theta)$.
+(<a knowl="" class="internal" value="$1/2$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 10.3.13</b>
+Find the area enclosed by $r=\tan\theta$ and 
+$\ds r={\csc\theta\over\sqrt2}$.
+(<a knowl="" class="internal" value="$3/2-\pi/4$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 10.3.14</b>
+Find the area inside $r=2\cos\theta$ and outside
+$r=1$.
+(<a knowl="" class="internal" value="$\ds \pi/3+\sqrt3/2$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 10.3.15</b>
+Find the area inside $r=2\sin\theta$ and above
+the line $r=(3/2)\csc\theta$.
+(<a knowl="" class="internal" value="$\ds \pi/3-\sqrt3/4$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 10.3.16</b>
+Find the area inside $r=\theta$, $0\le\theta\le2\pi$.
+(<a knowl="" class="internal" value="$\ds 4\pi^3/3$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 10.3.17</b>
+Find the area inside $\ds r=\sqrt{\theta}$, $0\le\theta\le2\pi$.
+(<a knowl="" class="internal" value="$\ds \pi^2$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 10.3.18</b>
+Find the area inside both $\ds r=\sqrt3\cos\theta$ and
+$r=\sin\theta$.
+(<a knowl="" class="internal" value="$\ds 5\pi/24-\sqrt3/4$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 10.3.19</b>
+Find the area inside both $r=1-\cos\theta$
+and $r=\cos\theta$.
+(<a knowl="" class="internal" value="$\ds 7\pi/12-\sqrt3$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 10.3.20</b>
+The center of a circle of radius 1 is on the 
+circumference of a circle of radius 2. Find the area 
+of the region inside both circles.
+(<a knowl="" class="internal" value="$\ds 4\pi-\sqrt{15}/2-7\arccos(1/4)$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 10.3.21</b>
+Find the shaded area in figure <a href="section10.03.html#fig:area inside spiral">10.3.4</a>. 
+The curve is $r=\theta$, $0\le\theta\le3\pi$.
+(<a knowl="" class="internal" value="$\ds 3\pi^3$">answer</a>)
+
+</p><p>
+<a id="fig:area inside spiral"></a>
+</p><div class='figure'><!-- Polar-Parametric-spiral_area.html -->
+<!-- Figure 10.3.4 -->
+
+<div id='spiral_area' class='jxgbox' style='width:58%;'></div>
+
+<script type='text/javascript'>
+(function () {  // BEGIN: scope limiting function wrapper
+  var xmin=-11, xmax= 9, ymin=-6, ymax=10;
+  var AspectRatio =  ((ymax-ymin)/(xmax-xmin)); // height/width
+  var wd=document.getElementById('spiral_area').offsetWidth;
+  var ht=wd*AspectRatio;
+  var yfactor = (ymax-ymin)/(ht);
+  var xfactor = (xmax-xmin)/(wd);
+  var xaxis_label_offset = yfactor*15;
+  var yaxis_label_offset = xfactor*20;
+  document.getElementById('spiral_area').style.height=ht+'px';
+  var brd = JXG.JSXGraph.initBoard('spiral_area',{boundingbox:[xmin,ymax,xmax,ymin], showCopyright:false, showNavigation:false}) ;
+  var rejax = function() {
+     MathJax.Hub.Queue(["Typeset",MathJax.Hub]); 
+  }
+  brd.addHook(rejax)
+  var x = function(t) { return t*Math.cos(t); }
+  var y = function(t) { return t*Math.sin(t); }
+  var xaxis = brd.create('arrow', [[-10,0], [8,0]],{strokeWidth:1,strokeColor:'black',fixed:true});
+  var yaxis = brd.create('arrow', [[0,-5],[0,9]],{strokeWidth:1,strokeColor:'black',fixed:true});
+  var areax = function(t) {
+    if (t<1) { return t*2*Math.Pi; }
+    if (t<2) { return (Math.PI*(t+1))*Math.cos(Math.PI*(t+1)); }
+    if (t<3) { return (3-t)*3*Math.PI+(t-2)*Math.Pi; }
+    return (Math.PI*(4-t))*Math.cos(Math.PI*(4-t));
+  }
+  var areay = function(t) {
+    if (t<1) { return 0; }
+    if (t<2) { return (Math.PI*(t+1))*Math.sin(Math.PI*(t+1)); }
+    if (t<3) { return 0; }
+    return (Math.PI*(4-t))*Math.sin(Math.PI*(4-t));
+  }
+  brd.create('curve',[areax,areay,0,4],{strokeColor:'#FFB7D5',fillColor:'#FFB7D5',withLines:false});
+  var fgraph=brd.create('curve',[x,y,0,Math.PI*3]);
+})(); // END: scope limiting function wrapper
+</script>
+<div class='figcaption'><span class="figurenumber">Figure 10.3.4.</span> An area bounded by the spiral of Archimedes.</div></div>
+<p>
+</p><p>
+
+</p><p>
+
+
+</div></div></body>
+</html>

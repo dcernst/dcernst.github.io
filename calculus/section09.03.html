@@ -1,0 +1,3201 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+<meta http-equiv="Content-Language" Content="en">
+<title>9.3 Volume</title>
+<!--
+<script type="text/javascript" src="js/deployJava.js"></script>
+<link rel="stylesheet" type="text/css" href="http://jsxgraph.uni-bayreuth.de/distrib/jsxgraph.css" />
+-->
+<!-- use Jsxgraph to create figures: http://jsxgraph.uni-bayreuth.de/wp/ -->
+<link rel="stylesheet" type="text/css" href="css/jsxgraph.css" />
+<script type="text/javascript" src="js/jsxgraphcore.js"></script>
+<script src="js/three.min.js"></script>
+<script src="js/Detector.js"></script>
+<script src="js/TrackballControls.js"></script>
+<script src="js/OrthographicTrackballControls.js"></script>
+<script src="js/THREEx.KeyboardState.js"></script>
+<script src="js/THREEx.FullScreen.js"></script>
+<script src="js/THREEx.WindowResize.js"></script>
+<script type='text/javascript' src='js/DAT.GUI.min.js'></script>
+<script>
+window.requestAnimFrame = (function(){
+    return  window.requestAnimationFrame       || 
+        window.webkitRequestAnimationFrame || 
+        window.mozRequestAnimationFrame    || 
+        window.oRequestAnimationFrame      || 
+        window.msRequestAnimationFrame     || 
+        function(/* function */ callback, /* DOMElement */
+            element){
+            window.setTimeout(callback, 1000 / 60);
+        };
+})();
+</script>
+<script src="js/ifvisible.min.js"></script>
+<script src="js/conrec.js"></script>
+<script>
+active = true;
+ifvisible.setIdleDuration(10);
+ifvisible.on("idle", function(){
+    active = false;
+//    console.log("idle");
+});
+
+ifvisible.on("wakeup", function(){
+    active = true;
+//    console.log("wakeup");
+});
+</script>
+<script src="js/parser.js"></script>
+<link href="css/whitman.css" rel="stylesheet" type="text/css" /><link href="css/calculus.css" rel="stylesheet" type="text/css" /><link href="css/knowlstyle.css" rel="stylesheet" type="text/css" />
+
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  extensions: ["tex2jax.js","TeX/AMSmath.js","TeX/AMSsymbols.js"],
+  jax: ["input/TeX","output/HTML-CSS"],
+  tex2jax: {
+    inlineMath: [['$','$'],["\\(","\\)"]],
+    processEscapes: true,
+  },
+TeX: {
+   Macros: {
+    val: "\\mathop{\\rm val}",
+    divides: "\\mid",
+    ndivides: "\\mathrel{\\not|}",
+    fix: "\\mathop{\\rm fix}",
+    id: "\\mathop{\\rm id}",
+    na: "\\mathop{\\rm na}",
+    d: "\\mathop{\\rm\\strut d}\\nolimits ",
+    legendre: ["\\left(\\frac{#1}{#2}\\right)",2],
+    normalbaselines: "",
+    notdiv: "\\nmid",
+    implies: "\\Rightarrow",
+    iff: "\\Leftrightarrow",
+    sevenpoint: "\\scriptsize",
+    ds: "\\displaystyle",
+    lcm: "\\operatorname{lcm}",
+    arccot: "\\operatorname{arccot}",
+    arcsec: "\\operatorname{arcsec}",
+    arccsc: "\\operatorname{arccsc}",
+    arccosh: "\\operatorname{arccosh}",
+    arcsinh: "\\operatorname{arcsinh}",
+    arcsech: "\\operatorname{arcsech}",
+    sech: "\\operatorname{sech}",
+    csch: "\\operatorname{csch}",
+    R: "{\\mathbb R}",
+    sb: "_",
+    sp: "^",
+    Q: "{\\mathbb Q}",
+    C: "{\\mathbb C}",
+    N: "{\\mathbb N}",
+    Z: "{\\mathbb Z}",
+    U: "{\\mathbb U}",
+    v: ["\\langle #1\\rangle",1],
+    dint: ["{\\mathchoice{\\mathop{\\int\\!\\!\\!\\int}_{#1}}{\\mathop{\\int\\!\\!\\!\\int}_{#1}}{\\mathop{\\int\\!\\!\\!\\int}}{\\mathop{\\int\\!\\!\\!\\int}}}",1],
+    tint: ["{\\mathchoice{\\mathop{\\int\\!\\!\\!\\int\\!\\!\\!\\int}_{#1\\;}}{\\mathop{\\int\\!\\!\\!\\int\\!\\!\\!\\int}_{#1}}{\\mathop{\\int\\!\\!\\!\\int\\!\\!\\!\\int}_{#1}}{\\mathop{\\int\\!\\!\\!\\int\\!\\!\\!\\int}_{#1}}}",1]
+   }
+},
+  "HTML-CSS": { scale: 100},
+  menuSettings: { zscale: "150%", zoom: "Double-Click" }
+});
+    JXG.Options.text.display = 'html';
+    JXG.Options.text.useMathJax = true;
+</script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/math
+jax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+<script>
+MathJax.Hub.Register.StartupHook("End",function () {
+  if(typeof window.orientation === 'undefined'){
+    var i,x;
+    x = document.getElementsByClassName("webgl_display");
+    for (i=0; i<x.length; i++) {
+      x[i].style.display = "block";
+    }
+    x = document.getElementsByClassName("no_webgl_display");
+    for (i=0; i<x.length; i++) {
+      x[i].style.display = "none";
+    }
+  }
+});
+</script>
+
+<script src="js/jquery-3.1.0.min.js"></script>
+<script src="https://sagecell.sagemath.org/static/embedded_sagecell.js"></script>
+<script src="js/jquery.visible.min.js"></script>
+<script type="text/javascript" src="js/knowl.js"></script>
+<style type="text/css">
+
+.sagecell .CodeMirror {
+  height: auto;
+}
+
+.sagecell .CodeMirror-scroll {
+  overflow-y: hidden;
+  overflow-x: auto;
+}
+
+.sagecell-practice .CodeMirror-scroll {
+}
+
+.sagecell button.sagecell_evalButton {
+    font-size: 50%;
+}
+
+.sagecell_sessionContainer {
+    margin-bottom:1em;
+}
+</style>
+<script>
+function toggle(a) {
+  var b = String(a);
+  b=b.replace("contents","button");
+  if (document.getElementById(a).style.display == "block") {
+    document.getElementById(a).style.display = "none";
+    document.getElementById(b).src = "expand_submenu.png";
+  } else {
+    document.getElementById(a).style.display = "block";
+    document.getElementById(b).src = "collapse_submenu.png";
+  }
+}
+function toggle_sidebar() {
+  if (document.getElementById('sidebar').style.display == "block") {
+    document.getElementById('sidebar').style.display = "none";
+    document.getElementById('menu_expand').style.display = "block";
+  } else {
+    document.getElementById('sidebar').style.display = "block";
+    document.getElementById('menu_expand').style.display = "none";
+  }
+}
+</script>
+
+</head>
+
+<body class="" onload="toggle('chapter_09_contents')">
+<div id="header">
+<div class="right">
+<div class="bread">
+  <a href=".">Home</a> &raquo; <a href="chapter09.html">Applications of Integration</a> &raquo; <a href="section09.03.html">Volume</a>
+</div>
+
+<FORM method=GET action=https://www.google.com/custom id="search">
+<INPUT TYPE=text name=q size=31 maxlength=255 value="" style="font-size:small">
+<INPUT type=submit name=sa VALUE="Search the book" style="font-size:small">
+<INPUT type=hidden name=cof VALUE="AH:center;AWFID:198dc2b883340b1f;">
+<input type=hidden name=domains value="www.whitman.edu">
+<input type=hidden name=sitesearch value="www.whitman.edu/mathematics/calculus_online/">
+</FORM>
+<div id="title"><span id="title-content">9.3 Volume</span></div><a href="#exercises">[Jump to exercises]</a>
+</div>
+</div>
+<div id="menu_expand" style="display:none"><a href="javascript:toggle_sidebar()">Expand menu</a></div>
+<div id="sidebar" style="display:block">
+<h2 id="menu_collapse"><a href='javascript:toggle_sidebar()'>Collapse menu</a></h2>
+<h2 class="link"><img id="chapter_01_button" src="expand_submenu.png" onclick='toggle("chapter_01_contents")'><a href="chapter01.html">1 Analytic Geometry</a></h2>
+
+<ul class="list" id="chapter_01_contents">
+<li><a href="section01.01.html">1. Lines</a></li>
+<li><a href="section01.02.html">2. Distance Between Two Points; Circles</a></li>
+<li><a href="section01.03.html">3. Functions</a></li>
+<li><a href="section01.04.html">4. Shifts and Dilations</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_02_button" src="expand_submenu.png" onclick='toggle("chapter_02_contents")'><a href="chapter02.html">2 Instantaneous Rate of Change:  The Derivative</a></h2>
+
+<ul class="list" id="chapter_02_contents">
+<li><a href="section02.01.html">1. The slope of a function</a></li>
+<li><a href="section02.02.html">2. An example</a></li>
+<li><a href="section02.03.html">3. Limits</a></li>
+<li><a href="section02.04.html">4. The Derivative Function</a></li>
+<li><a href="section02.05.html">5. Adjectives For Functions</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_03_button" src="expand_submenu.png" onclick='toggle("chapter_03_contents")'><a href="chapter03.html">3 Rules for Finding Derivatives</a></h2>
+
+<ul class="list" id="chapter_03_contents">
+<li><a href="section03.01.html">1. The Power Rule</a></li>
+<li><a href="section03.02.html">2. Linearity of the Derivative</a></li>
+<li><a href="section03.03.html">3. The Product Rule</a></li>
+<li><a href="section03.04.html">4. The Quotient Rule</a></li>
+<li><a href="section03.05.html">5. The Chain Rule</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_04_button" src="expand_submenu.png" onclick='toggle("chapter_04_contents")'><a href="chapter04.html">4 Transcendental Functions</a></h2>
+
+<ul class="list" id="chapter_04_contents">
+<li><a href="section04.01.html">1. Trigonometric Functions</a></li>
+<li><a href="section04.02.html">2. The Derivative of $\sin x$</a></li>
+<li><a href="section04.03.html">3. A hard limit</a></li>
+<li><a href="section04.04.html">4. The Derivative of $\sin x$, continued</a></li>
+<li><a href="section04.05.html">5. Derivatives of the Trigonometric Functions</a></li>
+<li><a href="section04.06.html">6. Exponential and Logarithmic functions</a></li>
+<li><a href="section04.07.html">7. Derivatives of the exponential and  logarithmic functions</a></li>
+<li><a href="section04.08.html">8. Implicit Differentiation</a></li>
+<li><a href="section04.09.html">9. Inverse Trigonometric Functions</a></li>
+<li><a href="section04.10.html">10. Limits revisited</a></li>
+<li><a href="section04.11.html">11. Hyperbolic Functions</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_05_button" src="expand_submenu.png" onclick='toggle("chapter_05_contents")'><a href="chapter05.html">5 Curve Sketching</a></h2>
+
+<ul class="list" id="chapter_05_contents">
+<li><a href="section05.01.html">1. Maxima and Minima</a></li>
+<li><a href="section05.02.html">2. The first derivative test</a></li>
+<li><a href="section05.03.html">3. The second derivative test</a></li>
+<li><a href="section05.04.html">4. Concavity and inflection points</a></li>
+<li><a href="section05.05.html">5. Asymptotes and Other Things to Look For</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_06_button" src="expand_submenu.png" onclick='toggle("chapter_06_contents")'><a href="chapter06.html">6 Applications of the Derivative</a></h2>
+
+<ul class="list" id="chapter_06_contents">
+<li><a href="section06.01.html">1. Optimization</a></li>
+<li><a href="section06.02.html">2. Related Rates</a></li>
+<li><a href="section06.03.html">3. Newton's Method</a></li>
+<li><a href="section06.04.html">4. Linear Approximations</a></li>
+<li><a href="section06.05.html">5. The Mean Value Theorem</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_07_button" src="expand_submenu.png" onclick='toggle("chapter_07_contents")'><a href="chapter07.html">7 Integration</a></h2>
+
+<ul class="list" id="chapter_07_contents">
+<li><a href="section07.01.html">1. Two examples</a></li>
+<li><a href="section07.02.html">2. The Fundamental Theorem of Calculus</a></li>
+<li><a href="section07.03.html">3. Some Properties of Integrals</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_08_button" src="expand_submenu.png" onclick='toggle("chapter_08_contents")'><a href="chapter08.html">8 Techniques of Integration</a></h2>
+
+<ul class="list" id="chapter_08_contents">
+<li><a href="section08.01.html">1. Substitution</a></li>
+<li><a href="section08.02.html">2. Powers of sine and cosine</a></li>
+<li><a href="section08.03.html">3. Trigonometric Substitutions</a></li>
+<li><a href="section08.04.html">4. Integration by Parts</a></li>
+<li><a href="section08.05.html">5. Rational Functions</a></li>
+<li><a href="section08.06.html">6. Numerical Integration</a></li>
+<li><a href="section08.07.html">7. Additional exercises</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_09_button" src="expand_submenu.png" onclick='toggle("chapter_09_contents")'><a href="chapter09.html">9 Applications of Integration</a></h2>
+
+<ul class="list" id="chapter_09_contents">
+<li><a href="section09.01.html">1. Area between curves</a></li>
+<li><a href="section09.02.html">2. Distance, Velocity, Acceleration</a></li>
+<li><a href="section09.03.html">3. Volume</a></li>
+<li><a href="section09.04.html">4. Average value of a function</a></li>
+<li><a href="section09.05.html">5. Work</a></li>
+<li><a href="section09.06.html">6. Center of Mass</a></li>
+<li><a href="section09.07.html">7. Kinetic energy; improper integrals</a></li>
+<li><a href="section09.08.html">8. Probability</a></li>
+<li><a href="section09.09.html">9. Arc Length</a></li>
+<li><a href="section09.10.html">10. Surface Area</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_10_button" src="expand_submenu.png" onclick='toggle("chapter_10_contents")'><a href="chapter10.html">10 Polar Coordinates,  Parametric Equations</a></h2>
+
+<ul class="list" id="chapter_10_contents">
+<li><a href="section10.01.html">1. Polar Coordinates</a></li>
+<li><a href="section10.02.html">2. Slopes in polar coordinates</a></li>
+<li><a href="section10.03.html">3. Areas in polar coordinates</a></li>
+<li><a href="section10.04.html">4. Parametric Equations</a></li>
+<li><a href="section10.05.html">5. Calculus with Parametric Equations</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_11_button" src="expand_submenu.png" onclick='toggle("chapter_11_contents")'><a href="chapter11.html">11 Sequences and Series</a></h2>
+
+<ul class="list" id="chapter_11_contents">
+<li><a href="section11.01.html">1. Sequences</a></li>
+<li><a href="section11.02.html">2. Series</a></li>
+<li><a href="section11.03.html">3. The Integral Test</a></li>
+<li><a href="section11.04.html">4. Alternating Series</a></li>
+<li><a href="section11.05.html">5. Comparison Tests</a></li>
+<li><a href="section11.06.html">6. Absolute Convergence</a></li>
+<li><a href="section11.07.html">7. The Ratio and Root Tests</a></li>
+<li><a href="section11.08.html">8. Power Series</a></li>
+<li><a href="section11.09.html">9. Calculus with Power Series</a></li>
+<li><a href="section11.10.html">10. Taylor Series</a></li>
+<li><a href="section11.11.html">11. Taylor's Theorem</a></li>
+<li><a href="section11.12.html">12. Additional exercises</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_12_button" src="expand_submenu.png" onclick='toggle("chapter_12_contents")'><a href="chapter12.html">12 Three Dimensions</a></h2>
+
+<ul class="list" id="chapter_12_contents">
+<li><a href="section12.01.html">1. The Coordinate System</a></li>
+<li><a href="section12.02.html">2. Vectors</a></li>
+<li><a href="section12.03.html">3. The Dot Product</a></li>
+<li><a href="section12.04.html">4. The Cross Product</a></li>
+<li><a href="section12.05.html">5. Lines and Planes</a></li>
+<li><a href="section12.06.html">6. Other Coordinate Systems</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_13_button" src="expand_submenu.png" onclick='toggle("chapter_13_contents")'><a href="chapter13.html">13 Vector Functions</a></h2>
+
+<ul class="list" id="chapter_13_contents">
+<li><a href="section13.01.html">1. Space Curves</a></li>
+<li><a href="section13.02.html">2. Calculus with vector functions</a></li>
+<li><a href="section13.03.html">3. Arc length and curvature</a></li>
+<li><a href="section13.04.html">4. Motion along a curve</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_14_button" src="expand_submenu.png" onclick='toggle("chapter_14_contents")'><a href="chapter14.html">14 Partial Differentiation</a></h2>
+
+<ul class="list" id="chapter_14_contents">
+<li><a href="section14.01.html">1. Functions of Several Variables</a></li>
+<li><a href="section14.02.html">2. Limits and Continuity</a></li>
+<li><a href="section14.03.html">3. Partial Differentiation</a></li>
+<li><a href="section14.04.html">4. The Chain Rule</a></li>
+<li><a href="section14.05.html">5. Directional Derivatives</a></li>
+<li><a href="section14.06.html">6. Higher order derivatives</a></li>
+<li><a href="section14.07.html">7. Maxima and minima</a></li>
+<li><a href="section14.08.html">8. Lagrange Multipliers</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_15_button" src="expand_submenu.png" onclick='toggle("chapter_15_contents")'><a href="chapter15.html">15 Multiple Integration</a></h2>
+
+<ul class="list" id="chapter_15_contents">
+<li><a href="section15.01.html">1. Volume and Average Height</a></li>
+<li><a href="section15.02.html">2. Double Integrals in Cylindrical Coordinates</a></li>
+<li><a href="section15.03.html">3. Moment and Center of Mass</a></li>
+<li><a href="section15.04.html">4. Surface Area</a></li>
+<li><a href="section15.05.html">5. Triple Integrals</a></li>
+<li><a href="section15.06.html">6. Cylindrical and Spherical Coordinates</a></li>
+<li><a href="section15.07.html">7. Change of Variables</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_16_button" src="expand_submenu.png" onclick='toggle("chapter_16_contents")'><a href="chapter16.html">16 Vector Calculus</a></h2>
+
+<ul class="list" id="chapter_16_contents">
+<li><a href="section16.01.html">1. Vector Fields</a></li>
+<li><a href="section16.02.html">2. Line Integrals</a></li>
+<li><a href="section16.03.html">3. The Fundamental Theorem of Line Integrals</a></li>
+<li><a href="section16.04.html">4. Green's Theorem</a></li>
+<li><a href="section16.05.html">5. Divergence and Curl</a></li>
+<li><a href="section16.06.html">6. Vector Functions for Surfaces</a></li>
+<li><a href="section16.07.html">7. Surface Integrals</a></li>
+<li><a href="section16.08.html">8. Stokes's Theorem</a></li>
+<li><a href="section16.09.html">9. The Divergence Theorem</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_17_button" src="expand_submenu.png" onclick='toggle("chapter_17_contents")'><a href="chapter17.html">17 Differential Equations</a></h2>
+
+<ul class="list" id="chapter_17_contents">
+<li><a href="section17.01.html">1. First Order Differential Equations</a></li>
+<li><a href="section17.02.html">2. First Order Homogeneous Linear Equations</a></li>
+<li><a href="section17.03.html">3. First Order Linear Equations</a></li>
+<li><a href="section17.04.html">4. Approximation</a></li>
+<li><a href="section17.05.html">5. Second Order Homogeneous Equations</a></li>
+<li><a href="section17.06.html">6. Second Order Linear Equations</a></li>
+<li><a href="section17.07.html">7. Second Order Linear Equations, take two</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_18_button" src="expand_submenu.png" onclick='toggle("chapter_18_contents")'><a href="chapter18.html">18 Useful formulas</a></h2>
+
+<ul class="list" id="chapter_18_contents">
+</ul>
+
+</div>
+
+<div id="main">
+
+<div id="next"><a href="section09.02.html"><img src=previous_section.png width="30"></a>&nbsp;&nbsp;<a href="section09.04.html"><img src=next_section.png width="30"></a></div>
+
+<div id="content">
+<p>
+<p><a id="sec:volume"></a>
+
+</p><p>
+
+We have seen how to compute certain areas by using integration; some
+volumes may also be computed by evaluating an integral. Generally, the
+volumes that we can compute this way have cross-sections that are easy
+to describe.
+</p><p>
+<a id="fig:pyramid"></a>
+</p><div class='figure'><!-- Integration_applications-volume_pyramid.html -->
+<!-- Figure 9.3.1 -->
+
+<table style="width:130%">
+<tr style="width:100%">
+<td style="width:30%;text-align:center">
+<div id='volume_pyramid_x_section' class='jxgbox'></div>
+</td><td style="width:70%;text-align:center">
+<div class="webgl_display" id="pyramid" style="display:none"></div>
+<div class="no_webgl_display" style="display:block">
+<a href="http://www.whitman.edu/mathematics/calculus_applets/pyramid">
+<img src="images/pyramid_steps.png">
+</a>
+</div>
+</td></tr></table>
+
+<script type='text/javascript'>
+(function () {  // BEGIN: scope limiting function wrapper
+  var xmin=-12, xmax= 12, ymin=-3, ymax=22;
+  var AspectRatio =  ((ymax-ymin)/(xmax-xmin)); // height/width
+  var wd=document.getElementById('volume_pyramid_x_section').offsetWidth;
+  var ht=wd*AspectRatio;
+  var yfactor = (ymax-ymin)/(ht);
+  var xfactor = (xmax-xmin)/(wd);
+  var xaxis_label_offset = yfactor*15;
+  var yaxis_label_offset = xfactor*20;
+  document.getElementById('volume_pyramid_x_section').style.height=ht+'px';
+  var brd = JXG.JSXGraph.initBoard('volume_pyramid_x_section',{boundingbox:[xmin,ymax,xmax,ymin], showCopyright:false, showNavigation:false}) ;
+  var rejax = function() {
+     MathJax.Hub.Queue(["Typeset",MathJax.Hub]); 
+  }
+  brd.addHook(rejax)
+  brd.create('segment',[[-10,0],[10,0]],{strokeColor:'black',strokeWidth:1,fixed:true});
+  brd.create('segment',[[-10,0],[0,20]],{strokeColor:'black',strokeWidth:1,fixed:true});
+  brd.create('segment',[[10,0],[0,20]],{strokeColor:'black',strokeWidth:1,fixed:true});
+  var i,p1,p2,p3,p4;
+  for (i=0;i<20;i++) {
+   p1=brd.create('point',[-10+i*0.5,i],{visible:false,fixed:true});
+   p2=brd.create('point',[-10+i*0.5,i+1],{visible:false,fixed:true});
+   p3=brd.create('point',[10-i*0.5,i+1],{visible:false,fixed:true});
+   p4=brd.create('point',[10-i*0.5,i],{visible:false,fixed:true});
+   brd.create('polygon',[p1,p2,p3,p4],{fillColor:'yellow',fillOpacity:0.2});
+  }
+  brd.create('text',[7,-xaxis_label_offset,'$x\\\\sb i$'],{fixed:true});
+  var xi = brd.create('segment',[[6,0],[7.1,0]],{visible:false});
+  brd.create('ticks',[xi,1],{minorTicks:false});
+  brd.create('text',[-10-xfactor*15,6,'$y\\\\sb i$'],{fixed:true});
+  brd.create('arrow',[[-10,6],[-8,6]],{strokeWidth:1,strokeColor:'black',fixed:true});
+})(); // END: scope limiting function wrapper
+</script>
+
+<script>
+    MathJax.Hub.Register.StartupHook("End",function () { 
+	var zoffset = -8;
+	var SCREEN_WIDTH = 400, SCREEN_HEIGHT = 400;
+	var container, scene, camera, renderer, controls;
+	var keyboard = new THREEx.KeyboardState();
+	var clock = new THREE.Clock();
+	var meshFunction;
+	var usegments = 40, vsegments=10;
+	
+	var xMin = xMax = yMin = yMax = 0; // for autosizing window
+	
+	var graphGeometry;
+	if(typeof window.orientation === 'undefined') {
+	    init();
+	    animate();
+	}
+	function init() 
+	{
+	    scene = new THREE.Scene();
+	    if ( Detector.webgl )
+		renderer = new THREE.WebGLRenderer( {alpha:true, antialias:true} );
+	    else
+		renderer = new THREE.CanvasRenderer(); 
+	    renderer.setSize(SCREEN_WIDTH, SCREEN_HEIGHT);
+	    container = document.getElementById( 'pyramid' );
+	    container.appendChild( renderer.domElement );
+	    var light = new THREE.PointLight(0xffffff,1,100);
+	    light.position.set(3,3,10);
+	    scene.add(light);
+	    var light_amb = new THREE.AmbientLight( 0xaaaaaa ); // soft white light
+	    scene.add( light_amb );
+	    
+	    // Background clear color
+	    // renderer.setClearColorHex( 0xffffff, 0 );
+	    
+	    plot_it_0();
+	    plot_it_1();
+	    plot_it_2();
+	    plot_it_3();
+	    plot_it_4();
+	    plot_it_5();
+	    plot_it_6();
+	    resetCamera();
+	}
+	
+	
+	function resetCamera()
+	{
+	    var VIEW_ANGLE = 60, ASPECT = SCREEN_WIDTH / SCREEN_HEIGHT, NEAR = 0.1, FAR = 20000;
+	    // Orthog camera
+	    //      var zoom = 3;
+	    //      camera = new THREE.OrthographicCamera( -zoom*ASPECT,zoom*ASPECT,zoom,-zoom, NEAR, FAR);
+	    //      camera.position.x = zoom*2;
+	    //      camera.position.y = zoom*1.5;
+	    //      camera.position.z = zoom*1.5;
+	    // Perspective camera
+	    camera = new THREE.PerspectiveCamera( VIEW_ANGLE, ASPECT, NEAR, FAR);
+	    scene.add(camera);
+	    camera.position.set(20,20,20);
+	    camera.lookAt(scene.position);  
+	    
+	    camera.up.set( 0, 0, 1 ); 
+	    scene.add(camera);
+	    
+	    controls = new THREE.TrackballControls( camera, renderer.domElement );
+	    controls.rotateSpeed = 1;
+	    THREEx.WindowResize(renderer, camera);
+	}
+	
+	function animate() 
+	{
+	    requestAnimationFrame( animate );
+	    if ($('#pyramid').visible(true) && active) {
+		render();		
+		update();
+	    }
+	}
+	
+	function update()
+	{
+	    if ( keyboard.pressed("z") ) 
+	    { 
+		// do something
+	    }
+	    
+	    controls.update();
+	    //	stats.update();
+	}
+	
+	function render() 
+	{
+	    renderer.render( scene, camera );
+	}
+	
+	
+	function plot_it_0()
+	{
+	    var loader = new THREE.TextureLoader();
+	    var gridTexture = loader.load( 'images/square.png');
+	    gridTexture.wrapS = gridTexture.wrapT = THREE.RepeatWrapping;
+	    gridTexture.repeat.set( 10, 10 );
+	    var gridMaterial = new THREE.MeshBasicMaterial( { map:gridTexture, vertexColors: THREE.VertexColors,side:THREE.DoubleSide } );
+	    var useg = 1,vseg = 1;
+	    var i;
+	    var lim = 10;
+	    function x(u,v) {
+		return u*lim;
+	    }
+	    function y(u,v) {
+		return lim*(2*v-1);
+	    }
+	    function z(u,v) {
+		return 0+zoffset;
+	    }
+	    createGraph(x,y,z,-1,1,0,1,useg,vseg,0,scene,gridMaterial);
+	}
+	
+	function plot_it_1()
+	{
+	    var loader = new THREE.TextureLoader();
+	    var gridTexture = loader.load( 'images/square.png');
+	    gridTexture.wrapS = gridTexture.wrapT = THREE.RepeatWrapping;
+	    gridTexture.repeat.set( 10, 10 );
+	    var gridMaterial = new THREE.MeshBasicMaterial( { map:gridTexture, vertexColors: THREE.VertexColors,side:THREE.DoubleSide } );
+	    var useg = 1,vseg = 1;
+	    var i;
+	    for (i=0; i<=10; i++) {
+		var lim = 10-i/2;
+		function x(u,v) {
+		    return u*lim;
+		}
+		function y(u,v) {
+		    return lim*(2*v-1);
+		}
+		function z(u,v) {
+		    return i+1+zoffset;
+		}
+		createGraph(x,y,z,-1,1,0,1,useg,vseg,0,scene,gridMaterial);
+	    }
+	}
+	function plot_it_2()
+	{
+	    var loader = new THREE.TextureLoader();
+	    var gridTexture = loader.load( 'images/square.png');
+	    gridTexture.wrapS = gridTexture.wrapT = THREE.RepeatWrapping;
+	    gridTexture.repeat.set( 10, 1 );
+	    var gridMaterial = new THREE.MeshBasicMaterial( { map:gridTexture, vertexColors: THREE.VertexColors,side:THREE.DoubleSide } );
+	    var useg = 1,vseg = 1;
+	    var i;
+	    for (i=0; i<=10; i++) {
+		var lim = 10-i/2;
+		function x(u,v) {
+		    return u*lim;
+		}
+		function y(u,v) {
+		    return lim;
+		}
+		function z(u,v) {
+		    return i+v+zoffset;
+		}
+		createGraph(x,y,z,-1,1,0,1,useg,vseg,0,scene,gridMaterial);
+	    }
+	}
+	
+	function plot_it_3()
+	{
+	    var loader = new THREE.TextureLoader();
+	    var gridTexture = loader.load( 'images/square.png');
+	    gridTexture.wrapS = gridTexture.wrapT = THREE.RepeatWrapping;
+	    gridTexture.repeat.set( 10, 1 );
+	    var gridMaterial = new THREE.MeshBasicMaterial( { map:gridTexture, vertexColors: THREE.VertexColors,side:THREE.DoubleSide } );
+	    var useg = 1,vseg = 1;
+	    var i;
+	    for (i=0; i<=10; i++) {
+		var lim = 10-i/2;
+		function x(u,v) {
+		    return u*lim;
+		}
+		function y(u,v) {
+		    return -lim;
+		}
+		function z(u,v) {
+		    return i+v+zoffset;
+		}
+		createGraph(x,y,z,-1,1,0,1,useg,vseg,0,scene,gridMaterial);
+	    }
+	}
+	
+	function plot_it_4()
+	{
+	    var loader = new THREE.TextureLoader();
+	    var gridTexture = loader.load( 'images/square.png');
+	    gridTexture.wrapS = gridTexture.wrapT = THREE.RepeatWrapping;
+	    gridTexture.repeat.set( 10, 1 );
+	    var gridMaterial = new THREE.MeshBasicMaterial( { map:gridTexture, vertexColors: THREE.VertexColors,side:THREE.DoubleSide } );
+	    var useg = 1,vseg = 1;
+	    var i;
+	    for (i=0; i<=10; i++) {
+		var lim = 10-i/2;
+		function x(u,v) {
+		    return lim;
+		}
+		function y(u,v) {
+		    return u*lim;
+		}
+		function z(u,v) {
+		    return i+v+zoffset;
+		}
+		createGraph(x,y,z,-1,1,0,1,useg,vseg,0,scene,gridMaterial);
+	    }
+	}
+	
+	function plot_it_5()
+	{
+	    var loader = new THREE.TextureLoader();
+	    var gridTexture = loader.load( 'images/square.png');
+	    gridTexture.wrapS = gridTexture.wrapT = THREE.RepeatWrapping;
+	    gridTexture.repeat.set( 10, 1 );
+	    var gridMaterial = new THREE.MeshBasicMaterial( { map:gridTexture, vertexColors: THREE.VertexColors,side:THREE.DoubleSide } );
+	    var useg = 1,vseg = 1;
+	    var i;
+	    for (i=0; i<=10; i++) {
+		var lim = 10-i/2;
+		function x(u,v) {
+		    return -lim;
+		}
+		function y(u,v) {
+		    return u*lim;
+		}
+		function z(u,v) {
+		    return i+v+zoffset;
+		}
+		createGraph(x,y,z,-1,1,0,1,useg,vseg,0,scene,gridMaterial);
+	    }
+	}
+	
+	function plot_it_6()
+	{
+	    var i;
+	    for (i=0; i<2; i++) {
+		var normMaterial = new THREE.MeshBasicMaterial( { vertexColors: THREE.VertexColors,side:THREE.DoubleSide } );
+		function x(t) {
+		    return (2*i-1)*t;
+		}
+		function y(t) {
+		    return t;
+		}
+		function z(t) {
+		    return 20-2*Math.abs(t)+zoffset;
+		}
+		curveGraph(x,y,z,-10,10,20,new THREE.Color( 0x000000 ),normMaterial);
+	    }
+	}
+	
+	function curveGraph(xFunc,yFunc,zFunc,tMin,tMax,segments,color,material)
+	{
+	    var graphMesh;
+	    var tRange = tMax - tMin;
+	    var  mycurve = THREE.Curve.create( 
+		function() {},
+		function(t) 
+		{
+		    // default:    0 < t < 1
+		    //    want: tMin < t < tMax
+		    t = t * tRange + tMin;
+		    return new THREE.Vector3(xFunc(t), yFunc(t), zFunc(t)).multiplyScalar(1);
+		}
+	    );
+	    var curve = new mycurve;
+	    
+	    var closedTube = false;
+	    var debug = false; // show normal vectors
+	    var tubeGeometry = new THREE.TubeGeometry(curve, segments, 0.05, 3, false, debug);
+	    
+	    var  point, face, numberOfSides;
+	    for ( var i = 0; i < tubeGeometry.faces.length; i++ ) 
+	    {
+		face = tubeGeometry.faces[ i ];
+		numberOfSides = ( face instanceof THREE.Face3 ) ? 3 : 4;
+		for( var j = 0; j < numberOfSides; j++ ) 
+		{
+		    face.vertexColors[ j ] = color;
+		}
+	    }
+	    
+	    // for auto-sizing window
+	    tubeGeometry.computeBoundingBox();
+	    xMin = tubeGeometry.boundingBox.min.x;
+	    xMax = tubeGeometry.boundingBox.max.x;
+	    yMin = tubeGeometry.boundingBox.min.y;
+	    yMax = tubeGeometry.boundingBox.max.y;
+	    zMin = tubeGeometry.boundingBox.min.z;
+	    zMax = tubeGeometry.boundingBox.max.z;
+	    
+	    if (graphMesh) 
+	    {
+		scene.remove( graphMesh );
+		// renderer.deallocateObject( graphMesh );
+	    }
+	    
+	    graphMesh = new THREE.Mesh( tubeGeometry, material );
+	    graphMesh.doubleSided = true;
+	    scene.add(graphMesh);
+	}
+	
+	function createGraph(xFunc,yFunc,zFunc,uMin,uMax,vMin,vMax,useg,vseg,clr,sc,material)
+	{
+	    var graphMesh;
+	    uRange = uMax - uMin;
+	    vRange = vMax - vMin;
+	    meshFunction = function(u0, v0) 
+	    {
+		var u = uRange * u0 + uMin;
+		var v = vRange * v0 + vMin;
+		var x = xFunc(u,v);
+		var y = yFunc(u,v);
+		var z = zFunc(u,v);
+		if ( isNaN(x) || isNaN(y) || isNaN(z) )
+		    return new THREE.Vector3(0,0,0); // TODO: better fix
+		else
+		    return new THREE.Vector3(x, y, z);
+	    };
+	    
+	    // true => sensible image tile repeat...
+	    graphGeometry = new THREE.ParametricGeometry( meshFunction, useg, vseg, true );
+	    ///////////////////////////////////////////////
+	    // calculate vertex colors based on Z values //
+	    ///////////////////////////////////////////////
+	    graphGeometry.computeBoundingBox();
+	    zMin = graphGeometry.boundingBox.min.z;
+	    zMax = graphGeometry.boundingBox.max.z;
+	    zRange = zMax - zMin;
+	    var defaultcolor = new THREE.Color( 0xff0000 );
+	    var color, point, face, numberOfSides, vertexIndex;
+	    // faces are indexed using characters
+	    var faceIndices = [ 'a', 'b', 'c', 'd' ];
+	    // first, assign colors to vertices as desired
+	    for ( var i = 0; i < graphGeometry.vertices.length; i++ ) 
+	    {
+		point = graphGeometry.vertices[ i ];
+		color = new THREE.Color( 0x0000ff );
+		//	  color.setHSL( 0.7 *(10-point.x)/10 , 1, 0.3+0.3*(10 - point.z + zoffset) / 10 );
+		color.setHSL( 0.7 *(10-point.x)/10 , 1, 0.5);
+		//	  color.setHSL( 0.7 * (10 - point.z) / 10, 1, 0.5 );
+		graphGeometry.colors[i] = color; // use this array for convenience
+	    }
+	    // copy the colors as necessary to the face's vertexColors array.
+	    for ( var i = 0; i < graphGeometry.faces.length; i++ ) 
+	    {
+		face = graphGeometry.faces[ i ];
+		numberOfSides = ( face instanceof THREE.Face3 ) ? 3 : 4;
+		for( var j = 0; j < numberOfSides; j++ ) 
+		{
+		    vertexIndex = face[ faceIndices[ j ] ];
+		    face.vertexColors[ j ] = graphGeometry.colors[vertexIndex ];
+		    //	      face.vertexColors[ j ] = clr;
+		}
+	    }
+	    ///////////////////////
+	    // end vertex colors //
+	    ///////////////////////
+	    
+	    
+	    xMin = graphGeometry.boundingBox.min.x;
+	    xMax = graphGeometry.boundingBox.max.x;
+	    yMin = graphGeometry.boundingBox.min.y;
+	    yMax = graphGeometry.boundingBox.max.y;
+	    
+	    if (graphMesh) 
+	    {
+		sc.remove( graphMesh );
+		// renderer.deallocateObject( graphMesh );
+	    }
+	    
+	    graphMesh = new THREE.Mesh( graphGeometry,material );
+	    
+	    graphMesh.doubleSided = true;
+	    sc.add(graphMesh);
+	}
+    });
+</script>  
+<div class='figcaption'><span class="figurenumber">Figure 9.3.1.</span> Volume of a pyramid approximated by rectangular prisms.</div></div>
+<p>
+</p><p>
+</p>
+<div class="example">
+<p>
+<span class="theoremlabel">Example 9.3.1 </span>
+Find the volume of a pyramid with a square base that is 20 meters tall
+and 20 meters on a side at the base. As with most of our applications
+of integration, we begin by asking how we might approximate the
+volume. Since we can easily compute the volume of a rectangular prism
+(that is, a "box''), we will use some boxes to approximate the volume of
+the pyramid, as shown in figure <a href="section09.03.html#fig:pyramid">9.3.1</a>: on the left is a
+cross-sectional view, on the right is a 3D view of part of the pyramid
+with some of the boxes used to approximate the volume.
+</p><p>
+Each box has volume of the form $\ds (2x_i)(2x_i)\Delta y$. Unfortunately,
+there are two variables here; fortunately, we can write $x$ in terms
+of $y$: $x=10-y/2$ or $\ds x_i=10-y_i/2$. Then the total volume is
+approximately
+$$\sum_{i=0}^{n-1} 4(10-y_i/2)^2\Delta y$$
+and in the limit we get the volume as the value of an integral:
+$$
+  \int_0^{20} 4(10-y/2)^2\,dy=\int_0^{20} (20-y)^2\,dy=
+  \left.-{(20-y)^3\over3}\right|_0^{20}=
+  -{0^3\over3}- -{20^3\over3}={8000\over3}.
+$$
+As you may know, the volume of a pyramid is 
+$(1/3)(\hbox{height})(\hbox{area of base})=(1/3)(20)(400)$, which
+agrees with our answer.
+
+</p>
+</div><!-- example -->
+<p>
+</p><p>
+</p>
+<div class="example">
+<p>
+<span class="theoremlabel">Example 9.3.2 </span>
+The base of a solid is the region between $\ds f(x)=x^2-1$ and
+$\ds g(x)=-x^2+1$, and its cross-sections perpendicular to the $x$-axis 
+are equilateral triangles, as indicated in
+figure <a href="section09.03.html#fig:triangular cross-sections">9.3.2</a>.
+Find the volume of the solid.
+</p><p>
+<a id="fig:triangular cross-sections"></a>
+</p><div class='figure'><!-- Integration_applications-volume_equilateral_x_sections.html -->
+<!-- Figure 9.3.2 -->
+
+<table style="width:800px;margin-left:auto;margin-right:auto;">
+<tr style="width:100%">
+<td style="width:35%;text-align:center">
+<div id='volume_equilateral_x_sections' class='jxgbox'></div>
+</td>
+<td style="width:65%;text-align:center">
+<div class="webgl_display" id="triangular_x_sections" style="display:none">
+</div>
+<div class="no_webgl_display" style="display:block">
+<a href="http://www.whitman.edu/mathematics/calculus_applets/triangular_solid">
+<img src="images/triangular_solid.png"></a>
+</div>
+</td></tr></table>
+
+<script type='text/javascript'>
+(function () {  // BEGIN: scope limiting function wrapper
+  var xmin=-1.2, xmax= 1.3, ymin=-1.2, ymax=1.3;
+  var AspectRatio =  ((ymax-ymin)/(xmax-xmin)); // height/width
+  var wd=document.getElementById('volume_equilateral_x_sections').offsetWidth;
+  var ht=wd*AspectRatio;
+  var yfactor = (ymax-ymin)/(ht);
+  var xfactor = (xmax-xmin)/(wd);
+  var xaxis_label_offset = yfactor*15;
+  var yaxis_label_offset = xfactor*20;
+  document.getElementById('volume_equilateral_x_sections').style.height=ht+'px';
+  var brd = JXG.JSXGraph.initBoard('volume_equilateral_x_sections',{boundingbox:[xmin,ymax,xmax,ymin], showCopyright:false, showNavigation:false}) ;
+  var rejax = function() {
+     MathJax.Hub.Queue(["Typeset",MathJax.Hub]); 
+  }
+  brd.addHook(rejax)
+  brd.create('arrow',[[-1.1,0],[1.2,0]],{strokeColor:'black',strokeWidth:1,fixed:true});
+  brd.create('arrow',[[0,-1.1],[0,1.2]],{strokeColor:'black',strokeWidth:1,fixed:true});
+  var xi = brd.create('segment',[[0,0],[1.1,0]],{visible:false});
+  brd.create('ticks',[xi,1],{minorTicks:false});
+  var xi2 = brd.create('segment',[[0,0],[-1.1,0]],{visible:false});
+  brd.create('ticks',[xi2,1],{minorTicks:false});
+  var yi = brd.create('segment',[[0,0],[0,1.1]],{visible:false});
+  brd.create('ticks',[yi,1],{minorTicks:false});
+  var yi2 = brd.create('segment',[[0,0],[0,-1.1]],{visible:false});
+  brd.create('ticks',[yi2,1],{minorTicks:false});
+  brd.create('text',[1,-xaxis_label_offset,'$1$'],{fixed:true});
+  brd.create('text',[-1.1,-xaxis_label_offset,'$-1$'],{fixed:true});
+  brd.create('text',[-yaxis_label_offset,1.05,'$1$'],{fixed:true});
+  brd.create('text',[-yaxis_label_offset,-1.05,'$-1$'],{fixed:true});
+  var f = function(x) { return x*x-1; }
+  brd.create('functiongraph',[f,-1,1],{strokeWidth: 2, dash:0});
+  brd.create('functiongraph',[function(x){return -f(x);},-1,1],{strokeWidth: 2, dash:0});
+})(); // END: scope limiting function wrapper
+</script>
+
+<script>
+MathJax.Hub.Register.StartupHook("End",function () {
+  var zoffset = -0.85;
+  var SCREEN_WIDTH = 350, SCREEN_HEIGHT = 350;
+  var container, scene, camera, renderer, controls;
+  var keyboard = new THREEx.KeyboardState();
+  var clock = new THREE.Clock();
+  var meshFunction;
+  var usegments = 40, vsegments=10;
+  
+  var xMin = xMax = yMin = yMax = 0; // for autosizing window
+  
+  var graphGeometry;
+    if(typeof window.orientation === 'undefined') {  
+	init();
+	animate();
+    }
+  
+  function init() 
+  {
+      scene = new THREE.Scene();
+      if ( Detector.webgl )
+	  renderer = new THREE.WebGLRenderer( {alpha:true, antialias:true} );
+      else
+	  renderer = new THREE.CanvasRenderer(); 
+      renderer.setSize(SCREEN_WIDTH, SCREEN_HEIGHT);
+      container = document.getElementById( 'triangular_x_sections' );
+      container.appendChild( renderer.domElement );
+      var light = new THREE.PointLight(0xffffff,1,100);
+      light.position.set(3,3,10);
+      scene.add(light);
+      var light_amb = new THREE.AmbientLight( 0xaaaaaa ); // soft white light
+      scene.add( light_amb );
+ 
+      // Background clear color
+      // renderer.setClearColorHex( 0xffffff, 0 );
+      
+      plot_it_0();
+      plot_it_1();
+      plot_it_2();
+      plot_it_3();
+      plot_it_4();
+      resetCamera();
+  }
+  
+  
+  function resetCamera()
+  {
+      var VIEW_ANGLE = 25, ASPECT = SCREEN_WIDTH / SCREEN_HEIGHT, NEAR = 0.1, FAR = 20000;
+// Orthog camera
+//      var zoom = 3;
+//      camera = new THREE.OrthographicCamera( -zoom*ASPECT,zoom*ASPECT,zoom,-zoom, NEAR, FAR);
+//      camera.position.x = zoom*2;
+//      camera.position.y = zoom*1.5;
+//      camera.position.z = zoom*1.5;
+// Perspective camera
+      camera = new THREE.PerspectiveCamera( VIEW_ANGLE, ASPECT, NEAR, FAR);
+      scene.add(camera);
+      camera.position.set(1.4,-5,3);
+      camera.lookAt(scene.position);  
+
+      camera.up.set( 0, 0, 1 ); 
+      scene.add(camera);
+      
+      controls = new THREE.TrackballControls( camera, renderer.domElement );
+      controls.rotateSpeed = 1;
+      THREEx.WindowResize(renderer, camera);
+  }
+  
+  function animate() 
+  {
+      requestAnimationFrame( animate );
+      if ($('#triangular_x_sections').visible(true) && active ) {
+	  render();		
+	  update();
+      }
+  }
+  
+  function update()
+  {
+      if ( keyboard.pressed("z") ) 
+      { 
+	  // do something
+      }
+      
+      controls.update();
+      //	stats.update();
+  }
+  
+  function render() 
+  {
+      renderer.render( scene, camera );
+  }
+  
+
+  function plot_it_0()
+  {
+      var loader = new THREE.TextureLoader();
+      var gridTexture = loader.load( 'images/square.png');
+      gridTexture.wrapS = gridTexture.wrapT = THREE.RepeatWrapping;
+      gridTexture.repeat.set( 10, 10 );
+      var backMaterial = new THREE.MeshBasicMaterial( { transparent:true, opacity:0.3, map:gridTexture, vertexColors: THREE.VertexColors,side:THREE.BackSide } );
+      var frontMaterial = new THREE.MeshBasicMaterial( { transparent:true, opacity:0.3, map:gridTexture, vertexColors: THREE.VertexColors,side:THREE.FrontSide } );
+      var useg = 10,vseg = 10;
+      var i;
+      var lim = 10;
+      function x(u,v) {
+	  return u;
+      }
+      function y(u,v) {
+	  return -(u*u-1-v*(u*u-1))
+      }
+      function z(u,v) {
+	  return Math.sqrt(3)*v*(1-u*u)+zoffset;
+      }
+      createGraph(x,y,z,-1,1,0,1,useg,vseg,0,scene,backMaterial,0,false);
+      createGraph(x,y,z,-1,1,0,1,useg,vseg,0,scene,frontMaterial,0,false);
+  }
+
+  function plot_it_1()
+  {
+      var loader = new THREE.TextureLoader();
+      var gridTexture = loader.load( 'images/square.png');
+      gridTexture.wrapS = gridTexture.wrapT = THREE.RepeatWrapping;
+      gridTexture.repeat.set( 10, 10 );
+      var backMaterial = new THREE.MeshBasicMaterial( { transparent:true, opacity:0.3, map:gridTexture, vertexColors: THREE.VertexColors,side:THREE.BackSide } );
+      var frontMaterial = new THREE.MeshBasicMaterial( { transparent:true, opacity:0.3, map:gridTexture, vertexColors: THREE.VertexColors,side:THREE.FrontSide } );
+      var useg = 10,vseg = 10;
+      var i;
+      var lim = 10;
+      function x(u,v) {
+	  return u;
+      }
+      function y(u,v) {
+	  return (u*u-1-v*(u*u-1))
+      }
+      function z(u,v) {
+	  return Math.sqrt(3)*v*(1-u*u)+zoffset;
+      }
+      createGraph(x,y,z,-1,1,0,1,useg,vseg,0,scene,backMaterial,0,false);
+      createGraph(x,y,z,-1,1,0,1,useg,vseg,0,scene,frontMaterial,0,false);
+  }
+
+  function plot_it_2()
+  {
+      var loader = new THREE.TextureLoader();
+      var gridTexture = loader.load( 'images/square.png');
+      gridTexture.wrapS = gridTexture.wrapT = THREE.RepeatWrapping;
+      gridTexture.repeat.set( 10, 10 );
+      var gridMaterial = new THREE.MeshBasicMaterial( { transparent:true, opacity:0.3, map:gridTexture, vertexColors: THREE.VertexColors,side:THREE.DoubleSide } );
+      var useg = 10,vseg = 10;
+      var i;
+      var lim = 10;
+      function x(u,v) {
+	  return u;
+      }
+      function y(u,v) {
+	  return v*(u*u-1);
+      }
+      function z(u,v) {
+	  return zoffset;
+      }
+      createGraph(x,y,z,-1,1,-1,1,useg,vseg,0,scene,gridMaterial,0,false);
+  }
+  
+  function plot_it_3()
+  {
+      var loader = new THREE.TextureLoader();
+      var gridTexture = loader.load( 'images/square.png');
+      var normMaterial = new THREE.MeshBasicMaterial( { vertexColors: THREE.VertexColors,side:THREE.DoubleSide } );
+      var useg = 10,vseg = 10;
+      var i;
+      var lim = 10;
+      function x(u,v) {
+	  return 0.5;
+      }
+      function y(u,v) {
+	  return u*(1-0.25)*(1-v);
+      }
+      function z(u,v) {
+	  return v*Math.sqrt(3)*(1-0.25)+zoffset;
+      }
+	  createGraph(x,y,z,-1,1,0,1,useg,vseg,0,scene,normMaterial,new THREE.Color( 0xff0000 ),true);
+  }
+
+  function plot_it_4()
+  {
+      var loader = new THREE.TextureLoader();
+      var gridTexture = loader.load( 'images/square.png');
+      var normMaterial = new THREE.MeshBasicMaterial( { vertexColors: THREE.VertexColors,side:THREE.DoubleSide } );
+      var useg = 10,vseg = 10;
+      var i;
+      var lim = 10;
+      function x(u,v) {
+	  return 0.2;
+      }
+      function y(u,v) {
+	  return u*(1-0.04)*(1-v);
+      }
+      function z(u,v) {
+	  return v*Math.sqrt(3)*(1-0.04)+zoffset;
+      }
+	  createGraph(x,y,z,-1,1,0,1,useg,vseg,0,scene,normMaterial,new THREE.Color( 0xff0000 ),true);
+  }
+  
+  function createGraph(xFunc,yFunc,zFunc,uMin,uMax,vMin,vMax,useg,vseg,clr,sc,material,clr,solid)
+  {
+      var graphMesh;
+      uRange = uMax - uMin;
+      vRange = vMax - vMin;
+      meshFunction = function(u0, v0) 
+      {
+	  var u = uRange * u0 + uMin;
+	  var v = vRange * v0 + vMin;
+	  var x = xFunc(u,v);
+	  var y = yFunc(u,v);
+	  var z = zFunc(u,v);
+	  if ( isNaN(x) || isNaN(y) || isNaN(z) )
+	      return new THREE.Vector3(0,0,0); // TODO: better fix
+	  else
+	      return new THREE.Vector3(x, y, z);
+      };
+      
+      // true => sensible image tile repeat...
+      graphGeometry = new THREE.ParametricGeometry( meshFunction, useg, vseg, true );
+        ///////////////////////////////////////////////
+        // calculate vertex colors based on Z values //
+        ///////////////////////////////////////////////
+      graphGeometry.computeBoundingBox();
+      zMin = graphGeometry.boundingBox.min.z;
+      zMax = graphGeometry.boundingBox.max.z;
+      zRange = zMax - zMin;
+      var defaultcolor = new THREE.Color( 0xff0000 );
+      var color, point, face, numberOfSides, vertexIndex;
+        // faces are indexed using characters
+      var faceIndices = [ 'a', 'b', 'c', 'd' ];
+        // first, assign colors to vertices as desired
+      if (!solid) {
+      for ( var i = 0; i < graphGeometry.vertices.length; i++ ) 
+      {
+	  point = graphGeometry.vertices[ i ];
+	  color = new THREE.Color( 0x0000ff );
+//	  color.setHSL( 0.7 *(10-point.x)/10 , 1, 0.1+0.3*(10 - point.z) / 10 );
+	  color.setHSL( (1.732 - (point.z - zoffset)/1.732), 1, 0.5 );
+	  graphGeometry.colors[i] = color; // use this array for convenience
+      }
+      }
+        // copy the colors as necessary to the face's vertexColors array.
+      for ( var i = 0; i < graphGeometry.faces.length; i++ ) 
+      {
+	  face = graphGeometry.faces[ i ];
+	  numberOfSides = ( face instanceof THREE.Face3 ) ? 3 : 4;
+	  for( var j = 0; j < numberOfSides; j++ ) 
+	  {
+	      if (solid) {
+		  face.vertexColors[ j ] = clr;
+	      } else {
+		  vertexIndex = face[ faceIndices[ j ] ];
+		  face.vertexColors[ j ] = graphGeometry.colors[vertexIndex ];
+		  //	      face.vertexColors[ j ] = clr;
+	      }
+	  }
+      }
+        ///////////////////////
+        // end vertex colors //
+        ///////////////////////
+      
+      
+      xMin = graphGeometry.boundingBox.min.x;
+      xMax = graphGeometry.boundingBox.max.x;
+      yMin = graphGeometry.boundingBox.min.y;
+      yMax = graphGeometry.boundingBox.max.y;
+      
+      if (graphMesh) 
+      {
+	  sc.remove( graphMesh );
+	  // renderer.deallocateObject( graphMesh );
+      }
+      
+      graphMesh = new THREE.Mesh( graphGeometry,material );
+      
+      graphMesh.doubleSided = true;
+      sc.add(graphMesh);
+  }
+});
+</script>  
+<div class='figcaption'><span class="figurenumber">Figure 9.3.2.</span> Solid with equilateral triangles as cross-sections.
+You can download the <a href="http://www.whitman.edu/mathematics/calculus/live/sage/solid_with_triangular_x-sections/solid_with_triangular_x-sections.sws">Sage
+worksheet</a>
+for this plot and upload it to your own sage account.</div></div>
+<p>
+</p><p>
+A cross-section at a value $\ds x_i$ on the $x$-axis is a triangle with
+base $\ds 2(1-x_i^2)$ and height $\ds \sqrt3(1-x_i^2)$, so the area of the
+cross-section is 
+$$
+  {1\over2}(\hbox{base})(\hbox{height})=
+  (1-x_i^2)\sqrt3(1-x_i^2),
+$$
+and the volume of a thin "slab'' is then
+$$(1-x_i^2)\sqrt3(1-x_i^2)\Delta x.$$
+Thus the total volume is 
+$$\int_{-1}^1 \sqrt3(1-x^2)^2\,dx={16\over15}\sqrt3.$$
+
+</p>
+</div><!-- example -->
+<p>
+</p><p>
+One easy way to get "nice'' cross-sections is by rotating a plane
+figure around a line. For example, in figure <a href="section09.03.html#fig:solid of rotation">9.3.3</a> we see a plane region under a curve and between two
+vertical lines; then the result of rotating this around the $\ds
+x$-axis, and
+a typical circular cross-section.
+</p><p>
+<a id="fig:solid of rotation"></a>
+</p><div class='figure'><!-- Integration_applications-volume_of_rotation.html -->
+<!-- Figure 9.3.3 -->
+
+<table style="width:800px">
+<tr>
+<td>
+<div id='volume_solid_of_rotation'  style="width:300px" class='jxgbox'></div>
+</td><td>
+<div id="rotated_surface" class="webgl_display" style="display:none"></div>
+<div class="no_webgl_display" style="display:block">
+<a href="http://www.whitman.edu/mathematics/calculus_applets/volume_of_rotation">
+<img src="images/rotated_surface.png" width=300></a>
+</div>
+</td>
+<td>
+<div class="no_webgl_display" style="display:block">
+<a href="http://www.whitman.edu/mathematics/calculus_applets/volume_of_rotation">
+<img src="images/one_disk.png" width=300></a>
+</div>
+</td>
+</tr></table>
+
+<script type='text/javascript'>
+    (function () {  // BEGIN: scope limiting function wrapper
+	    var xmin=-0.25, xmax= 3.75, ymin=-0.25, ymax=2.4;
+	var AspectRatio =  ((ymax-ymin)/(xmax-xmin)); // height/width
+	var wd=document.getElementById('volume_solid_of_rotation').offsetWidth;
+	var ht=wd*AspectRatio;
+	var yfactor = (ymax-ymin)/(ht);
+	var xfactor = (xmax-xmin)/(wd);
+	var xaxis_label_offset = yfactor*15;
+	var yaxis_label_offset = xfactor*20;
+	document.getElementById('volume_solid_of_rotation').style.height=ht+'px';
+	var brd = JXG.JSXGraph.initBoard('volume_solid_of_rotation',{boundingbox:[xmin,ymax,xmax,ymin], showCopyright:false, showNavigation:false}) ;
+	var rejax = function() {
+	    MathJax.Hub.Queue(["Typeset",MathJax.Hub]); 
+	}
+	brd.addHook(rejax)
+	var f = function(x) {return -(x-1)*(x-2)*(x-3)+1.5; } 
+	brd.create('arrow',[[0,0],[3.5,0]],{strokeColor:'black',strokeWidth:1,fixed:true});
+	brd.create('arrow',[[0,0],[0,2.2]],{strokeColor:'black',strokeWidth:1,fixed:true});
+	brd.create('functiongraph',[f,0.8,2.9],{strokeWidth: 2, dash:0});
+	brd.create('segment',[[0.8,0],[0.8,f(0.8)]],{strokeWidth:1,strokeColor:'black',dash:2,fixed:true});
+	brd.create('segment',[[2.9,0],[2.9,f(2.9)]],{strokeWidth:1,strokeColor:'black',dash:2,fixed:true});
+    })(); // END: scope limiting function wrapper
+</script>
+
+<script>
+    MathJax.Hub.Register.StartupHook("End",function () { 
+	var xoffset = 0; yoffset = -2; zoffset = 0;
+	var SCREEN_WIDTH = 400, SCREEN_HEIGHT = 400;
+	var container, scene, camera, renderer, controls;
+	var keyboard = new THREEx.KeyboardState();
+	var clock = new THREE.Clock();
+	var meshFunction;
+	var usegments = 40, vsegments=10;
+	
+	var xMin = xMax = yMin = yMax = 0; // for autosizing window
+	
+	var graphGeometry;
+	
+	if(typeof window.orientation === 'undefined') {
+	    init();
+	    animate();
+	}
+	
+	function init() 
+	{
+	    scene = new THREE.Scene();
+	    if ( Detector.webgl )
+		renderer = new THREE.WebGLRenderer( {alpha:true, antialias:true} );
+	    else
+		renderer = new THREE.CanvasRenderer(); 
+	    renderer.setSize(SCREEN_WIDTH, SCREEN_HEIGHT);
+	    container = document.getElementById( 'rotated_surface' );
+	    container.appendChild( renderer.domElement );
+	    var light = new THREE.PointLight(0xffffff,1,100);
+	    light.position.set(3,3,10);
+	    scene.add(light);
+	    var light_amb = new THREE.AmbientLight( 0xaaaaaa ); // soft white light
+	    scene.add( light_amb );
+	    
+	    // Background clear color
+	    // renderer.setClearColorHex( 0xffffff, 0 );
+	    
+	    plot_it_0();
+	    plot_it_1();
+	    plot_it_2();
+	    plot_it_3();
+	    plot_it_4();
+	    plot_it_5();
+	    resetCamera();
+	}
+	
+	
+	function resetCamera()
+	{
+	    var VIEW_ANGLE = 12, ASPECT = SCREEN_WIDTH / SCREEN_HEIGHT, NEAR = 0.1, FAR = 20000;
+	    // Perspective camera
+	    camera = new THREE.PerspectiveCamera( VIEW_ANGLE, ASPECT, NEAR, FAR);
+	    scene.add(camera);
+	    camera.position.set(20,10,20);
+	    camera.lookAt(scene.position);  
+	    
+	    camera.up.set( 0, 0, 1 ); 
+	    scene.add(camera);
+	    
+	    controls = new THREE.TrackballControls( camera, renderer.domElement );
+	    controls.rotateSpeed = 1;
+	    THREEx.WindowResize(renderer, camera);
+	}
+	
+	function animate() 
+	{
+	    requestAnimationFrame( animate );
+	    if ($('#rotated_surface').visible(true) && active) {
+		render();		
+		update();
+	    }
+	}
+	
+	function update()
+	{
+	    if ( keyboard.pressed("z") ) 
+	    { 
+		// do something
+	    }
+	    
+	    controls.update();
+	    //	stats.update();
+	}
+	
+	function render() 
+	{
+	    renderer.render( scene, camera );
+	}
+	
+	
+	function plot_it_0()
+	{
+	    var loader = new THREE.TextureLoader();
+	    var gridTexture = loader.load( 'images/square.png');
+	    gridTexture.wrapS = gridTexture.wrapT = THREE.RepeatWrapping;
+	    gridTexture.repeat.set( 50,20 );
+	    var backMaterial = new THREE.MeshBasicMaterial( { transparent:true, opacity:0.3, vertexColors: THREE.VertexColors,side:THREE.BackSide,depthWrite:false } );
+	    var frontMaterial = new THREE.MeshBasicMaterial( { transparent:true, opacity:0.3, vertexColors: THREE.VertexColors,side:THREE.FrontSide,depthWrite:false } );
+	    var useg = 30,vseg = 20;
+	    var i;
+	    var lim = 10;
+	    function x(u,v) {
+		return (-(v-1)*(v-2)*(v-3)+1.5)*Math.cos(u);
+	    }
+	    function y(u,v) {
+		return v+yoffset;
+	    }
+	    function z(u,v) {
+		return (-(v-1)*(v-2)*(v-3)+1.5)*Math.sin(u)+zoffset;
+	    }
+	    createGraph(x,y,z,0,2*Math.PI,0.8,2.9,useg,vseg,0,scene,backMaterial,new THREE.Color( 0x0000aa ),true);
+	    createGraph(x,y,z,0,2*Math.PI,0.8,2.9,useg,vseg,0,scene,frontMaterial,new THREE.Color( 0x0000aa ),true);
+	}
+	
+	function plot_it_1()
+	{
+	    var normMaterial = new THREE.MeshBasicMaterial( { vertexColors: THREE.VertexColors,side:THREE.DoubleSide } );
+	    var useg = 30,vseg = 10;
+	    var i;
+	    var lim = 10;
+	    function x(u,v) {
+		var a = 2;
+		return v*(-(a-1)*(a-2)*(a-3)+1.5)*Math.cos(u);
+	    }
+	    function y(u,v) {
+		return 2+yoffset;
+	    }
+	    function z(u,v) {
+		var a = 2;
+		return v*(-(a-1)*(a-2)*(a-3)+1.5)*Math.sin(u);
+	    }
+	    createGraph(x,y,z,0,2*Math.PI,0,1,useg,vseg,0,scene,normMaterial,new THREE.Color( 0xff0000 ),true);
+	}
+	
+	function plot_it_2()
+	{
+	    var normMaterial = new THREE.MeshBasicMaterial( { vertexColors: THREE.VertexColors,side:THREE.DoubleSide } );
+	    var useg = 30,vseg = 10;
+	    var i;
+	    var lim = 10;
+	    function x(u,v) {
+		var a = 2;
+		return v*(-(a-1)*(a-2)*(a-3)+1.5)*Math.cos(u);
+	    }
+	    function y(u,v) {
+		return 2.1+yoffset;
+	    }
+	    function z(u,v) {
+		var a = 2;
+		return v*(-(a-1)*(a-2)*(a-3)+1.5)*Math.sin(u);
+	    }
+	    createGraph(x,y,z,0,2*Math.PI,0,1,useg,vseg,0,scene,normMaterial,new THREE.Color( 0xff0000 ),true);
+	}
+	
+	function plot_it_3()
+	{
+	    var normMaterial = new THREE.MeshBasicMaterial( { vertexColors: THREE.VertexColors,side:THREE.DoubleSide } );
+	    var useg = 30,vseg = 10;
+	    var i;
+	    var lim = 10;
+	    function x(u,v) {
+		var a = 2;
+		return (-(a-1)*(a-2)*(a-3)+1.5)*Math.cos(u);
+	    }
+	    function y(u,v) {
+		return v+yoffset;
+	    }
+	    function z(u,v) {
+		var a = 2;
+		return (-(a-1)*(a-2)*(a-3)+1.5)*Math.sin(u);
+	    }
+	    createGraph(x,y,z,0,2*Math.PI,2,2.1,useg,vseg,0,scene,normMaterial,new THREE.Color( 0xff0000 ),true);
+	}
+	
+	function plot_it_4()
+	{
+	    var normMaterial = new THREE.MeshBasicMaterial( { vertexColors: THREE.VertexColors,side:THREE.DoubleSide } );
+	    var i;
+	    for (i=0; i<15; i++) {
+		function x(t) { 
+		    return (-(t-1)*(t-2)*(t-3)+1.5)*Math.cos(2*Math.PI*i/15);
+		}
+		function y(t) {
+		    return t+yoffset;
+		}
+		function z(t) {
+		    return (-(t-1)*(t-2)*(t-3)+1.5)*Math.sin(2*Math.PI*i/15)+zoffset;
+		}
+		curveGraph(x,y,z,0.8,2.9,30,new THREE.Color( 0x000000 ),normMaterial);
+	    }
+	}
+	
+	function plot_it_5()
+	{
+	    var normMaterial = new THREE.MeshBasicMaterial( { vertexColors: THREE.VertexColors,side:THREE.DoubleSide } );
+	    var i;
+	    for (i=0; i<=8; i++) {
+		function x(t) { 
+		    var a = (2.9-0.8)*i/8+0.8;
+		    return (-(a-1)*(a-2)*(a-3)+1.5)*Math.cos(t);
+		}
+		function y(t) {
+		    return (2.9-0.8)*i/8+0.8+yoffset;
+		}
+		function z(t) {
+		    var a = (2.9-0.8)*i/8+0.8;
+		    return (-(a-1)*(a-2)*(a-3)+1.5)*Math.sin(t)+zoffset;
+		}
+		curveGraph(x,y,z,0,2*Math.PI,30,new THREE.Color( 0x000000 ),normMaterial);
+	    }
+	}
+	
+	function createGraph(xFunc,yFunc,zFunc,uMin,uMax,vMin,vMax,useg,vseg,clr,sc,material,clr,solid)
+	{
+	    var graphMesh;
+	    uRange = uMax - uMin;
+	    vRange = vMax - vMin;
+	    meshFunction = function(u0, v0) 
+	    {
+		var u = uRange * u0 + uMin;
+		var v = vRange * v0 + vMin;
+		var x = xFunc(u,v);
+		var y = yFunc(u,v);
+		var z = zFunc(u,v);
+		if ( isNaN(x) || isNaN(y) || isNaN(z) )
+		    return new THREE.Vector3(0,0,0); // TODO: better fix
+		else
+		    return new THREE.Vector3(x, y, z);
+	    };
+	    
+	    // true => sensible image tile repeat...
+	    graphGeometry = new THREE.ParametricGeometry( meshFunction, useg, vseg, true );
+	    ///////////////////////////////////////////////
+	    // calculate vertex colors based on Z values //
+	    ///////////////////////////////////////////////
+	    graphGeometry.computeBoundingBox();
+	    zMin = graphGeometry.boundingBox.min.z;
+	    zMax = graphGeometry.boundingBox.max.z;
+	    zRange = zMax - zMin;
+	    var defaultcolor = new THREE.Color( 0xff0000 );
+	    var color, point, face, numberOfSides, vertexIndex;
+	    // faces are indexed using characters
+	    var faceIndices = [ 'a', 'b', 'c', 'd' ];
+	    // first, assign colors to vertices as desired
+	    if (!solid) {
+		for ( var i = 0; i < graphGeometry.vertices.length; i++ ) 
+		{
+		    point = graphGeometry.vertices[ i ];
+		    color = new THREE.Color( 0x0000ff );
+		    //	  color.setHSL( 0.7 *(10-point.x)/10 , 1, 0.1+0.3*(10 - point.z) / 10 );
+		    color.setHSL( (1.732 - (point.z - zoffset)/1.732), 1, 0.5 );
+		    graphGeometry.colors[i] = color; // use this array for convenience
+		}
+	    }
+	    // copy the colors as necessary to the face's vertexColors array.
+	    for ( var i = 0; i < graphGeometry.faces.length; i++ ) 
+	    {
+		face = graphGeometry.faces[ i ];
+		numberOfSides = ( face instanceof THREE.Face3 ) ? 3 : 4;
+		for( var j = 0; j < numberOfSides; j++ ) 
+		{
+		    if (solid) {
+			face.vertexColors[ j ] = clr;
+		    } else {
+			vertexIndex = face[ faceIndices[ j ] ];
+			face.vertexColors[ j ] = graphGeometry.colors[vertexIndex ];
+			//	      face.vertexColors[ j ] = clr;
+		    }
+		}
+	    }
+	    ///////////////////////
+	    // end vertex colors //
+	    ///////////////////////
+	    
+	    
+	    xMin = graphGeometry.boundingBox.min.x;
+	    xMax = graphGeometry.boundingBox.max.x;
+	    yMin = graphGeometry.boundingBox.min.y;
+	    yMax = graphGeometry.boundingBox.max.y;
+	    
+	    if (graphMesh) 
+	    {
+		sc.remove( graphMesh );
+		// renderer.deallocateObject( graphMesh );
+	    }
+	    
+	    graphMesh = new THREE.Mesh( graphGeometry,material );
+	    
+	    graphMesh.doubleSided = true;
+	    sc.add(graphMesh);
+	}
+	
+	function curveGraph(xFunc,yFunc,zFunc,tMin,tMax,segments,color,material)
+	{
+	    var graphMesh;
+	    var tRange = tMax - tMin;
+	    var  mycurve = THREE.Curve.create( 
+		function() {},
+		function(t) 
+		{
+		    // default:    0 < t < 1
+		    //    want: tMin < t < tMax
+		    t = t * tRange + tMin;
+		    return new THREE.Vector3(xFunc(t), yFunc(t), zFunc(t)).multiplyScalar(1);
+		}
+	    );
+	    var curve = new mycurve;
+	    
+	    var closedTube = false;
+	    var debug = false; // show normal vectors
+	    var tubeGeometry = new THREE.TubeGeometry(curve, segments, 0.01, 3, false, debug);
+	    
+	    var  point, face, numberOfSides;
+	    for ( var i = 0; i < tubeGeometry.faces.length; i++ ) 
+	    {
+		face = tubeGeometry.faces[ i ];
+		numberOfSides = ( face instanceof THREE.Face3 ) ? 3 : 4;
+		for( var j = 0; j < numberOfSides; j++ ) 
+		{
+		    face.vertexColors[ j ] = color;
+		}
+	    }
+	    
+	    // for auto-sizing window
+	    tubeGeometry.computeBoundingBox();
+	    xMin = tubeGeometry.boundingBox.min.x;
+	    xMax = tubeGeometry.boundingBox.max.x;
+	    yMin = tubeGeometry.boundingBox.min.y;
+	    yMax = tubeGeometry.boundingBox.max.y;
+	    zMin = tubeGeometry.boundingBox.min.z;
+	    zMax = tubeGeometry.boundingBox.max.z;
+	    
+	    if (graphMesh) 
+	    {
+		scene.remove( graphMesh );
+		// renderer.deallocateObject( graphMesh );
+	    }
+	    
+	    graphMesh = new THREE.Mesh( tubeGeometry, material );
+	    graphMesh.doubleSided = true;
+	    scene.add(graphMesh);
+	}
+    });
+</script>  
+<div class='figcaption'><span class="figurenumber">Figure 9.3.3.</span> A solid of rotation.</div></div>
+<p>
+</p><p>
+Of course a real "slice'' of this figure will not have straight
+sides, but we can approximate the volume of the slice by a cylinder or
+disk with circular top and bottom and straight sides; the volume of
+this disk will have the form $\ds \pi r^2\Delta x$. As long as we can
+write $r$ in terms of $x$ we can compute the volume by an integral.
+</p><p>
+</p>
+<div class="example">
+<p>
+<span class="theoremlabel">Example 9.3.3 </span>
+Find the volume of a right circular cone with base radius 10 and
+height 20. (A right circular cone is one with a circular base and with
+the tip of the cone directly over the center of the base.)
+We can view this cone as produced by the rotation of the line
+$y=x/2$ rotated about the $x$-axis, as indicated in
+figure <a href="section09.03.html#fig:line to cone">9.3.4</a>.
+</p><p>
+<a id="fig:line to cone"></a>
+</p><div class='figure'><!-- Integration_applications-volume_of_cone.html -->
+<!-- Figure 9.3.4 -->
+
+<div id = "cone_disks" class="webgl_display" style="text-align:center;display:none"></div>
+<div class="no_webgl_display" style="text-align:center;display:block">
+<a href="http://www.whitman.edu/mathematics/calculus_applets/cone">
+<img src="images/cone.png"></a>
+</div>
+
+<script>
+    MathJax.Hub.Register.StartupHook("End",function () {
+	var zoffset = -10;
+	var SCREEN_WIDTH = 400, SCREEN_HEIGHT = 400;
+	var container, scene, camera, renderer, controls;
+	var keyboard = new THREEx.KeyboardState();
+	var clock = new THREE.Clock();
+	var meshFunction;
+	var usegments = 40, vsegments=10;
+	
+	var xMin = xMax = yMin = yMax = 0; // for autosizing window
+	
+	var graphGeometry;
+	if(typeof window.orientation === 'undefined') {	
+	    init();
+	    animate();
+	}
+	
+	function init() 
+	{
+	    scene = new THREE.Scene();
+	    if ( Detector.webgl )
+		renderer = new THREE.WebGLRenderer( {alpha:true, antialias:true} );
+	    else
+		renderer = new THREE.CanvasRenderer(); 
+	    renderer.setSize(SCREEN_WIDTH, SCREEN_HEIGHT);
+	    container = document.getElementById( 'cone_disks' );
+	    container.appendChild( renderer.domElement );
+	    var light = new THREE.PointLight(0xffffff,1,100);
+	    light.position.set(3,3,10);
+	    scene.add(light);
+	    var light_amb = new THREE.AmbientLight( 0xaaaaaa ); // soft white light
+	    scene.add( light_amb );
+	    
+	    plot_it_0();
+	    plot_it_1();
+	    plot_it_2();
+	    resetCamera();
+	}
+	
+	
+	function resetCamera()
+	{
+	    var VIEW_ANGLE = 20, ASPECT = SCREEN_WIDTH / SCREEN_HEIGHT, NEAR = 0.1, FAR = 20000;
+	    camera = new THREE.PerspectiveCamera( VIEW_ANGLE, ASPECT, NEAR, FAR);
+	    scene.add(camera);
+	    camera.position.set(50,50,50);
+	    camera.lookAt(scene.position);  
+	    
+	    camera.up.set( 0, 0, 1 ); 
+	    scene.add(camera);
+	    
+	    controls = new THREE.TrackballControls( camera, renderer.domElement );
+	    controls.rotateSpeed = 1;
+	    THREEx.WindowResize(renderer, camera);
+	}
+	
+	function animate() 
+	{
+	    requestAnimationFrame( animate );
+	    if ( $('#cone_disks').visible(true) && active ) {
+		render();		
+		update();
+	    }
+	}
+	
+	function update()
+	{
+	    if ( keyboard.pressed("z") ) 
+	    { 
+		// do something
+	    }
+	    
+	    controls.update();
+	}
+	
+	function render() 
+	{
+	    renderer.render( scene, camera );
+	}
+	
+	
+	function plot_it_0()
+	{
+	    var loader = new THREE.TextureLoader();
+	    var gridTexture = loader.load( 'images/square.png');
+	    gridTexture.wrapS = gridTexture.wrapT = THREE.RepeatWrapping;
+	    gridTexture.repeat.set( 10, 5 );
+	    var gridMaterial = new THREE.MeshBasicMaterial( { map:gridTexture, vertexColors: THREE.VertexColors,side:THREE.DoubleSide } );
+	    var useg = 30,vseg = 5;
+	    var i;
+	    var lim = 10;
+	    function x(u,v) {
+		return v*Math.cos(u)*lim;
+	    }
+	    function y(u,v) {
+		return v*Math.sin(u)*lim;
+	    }
+	    function z(u,v) {
+		return 0+zoffset;
+	    }
+	    createGraph(x,y,z,0,2*Math.PI,0,1,useg,vseg,0,scene,gridMaterial);
+	}
+	
+	function plot_it_1()
+	{
+	    var loader = new THREE.TextureLoader();
+	    var gridTexture = loader.load( 'images/square.png');
+	    gridTexture.wrapS = gridTexture.wrapT = THREE.RepeatWrapping;
+	    gridTexture.repeat.set( 10, 5 );
+	    var normMaterial = new THREE.MeshBasicMaterial( { vertexColors: THREE.VertexColors,side:THREE.DoubleSide } );
+	    var useg = 30,vseg = 5;
+	    var i;
+	    for (i=0; i<20; i++) {
+		var lim = 10-i/2;
+		function x(u,v) {
+		    return Math.cos(u)*lim*v;
+		}
+		function y(u,v) {
+		    return Math.sin(u)*lim*v;
+		}
+		function z(u,v) {
+		    return i+1+zoffset;
+		}
+		createGraph(x,y,z,0,2*Math.PI,0,1,useg,vseg,0,scene,normMaterial);
+	    }
+	}
+	function plot_it_2()
+	{
+	    var loader = new THREE.TextureLoader();
+	    var gridTexture = loader.load( 'images/square.png');
+	    gridTexture.wrapS = gridTexture.wrapT = THREE.RepeatWrapping;
+	    gridTexture.repeat.set( 30, 1 );
+	    var gridMaterial = new THREE.MeshBasicMaterial( { map:gridTexture, vertexColors: THREE.VertexColors,side:THREE.DoubleSide } );
+	    var normMaterial = new THREE.MeshBasicMaterial( { vertexColors: THREE.VertexColors,side:THREE.DoubleSide } );
+	    var useg = 30,vseg = 1;
+	    var i;
+	    for (i=0; i<20; i++) {
+		var lim = 10-i/2;
+		function x(u,v) {
+		    return Math.cos(u)*lim;
+		}
+		function y(u,v) {
+		    return Math.sin(u)*lim;
+		}
+		function z(u,v) {
+		    return i+v+zoffset;
+		}
+		createGraph(x,y,z,0,2*Math.PI,0,1,useg,vseg,0,scene,gridMaterial);
+	    }
+	}
+	
+	function plot_it_3()
+	{
+	    var loader = new THREE.TextureLoader();
+	    var gridTexture = loader.load( 'images/square.png');
+	    gridTexture.wrapS = gridTexture.wrapT = THREE.RepeatWrapping;
+	    gridTexture.repeat.set( 10, 1 );
+	    var gridMaterial = new THREE.MeshBasicMaterial( { map:gridTexture, vertexColors: THREE.VertexColors,side:THREE.DoubleSide } );
+	    var useg = 2,vseg = 2;
+	    var i;
+	    for (i=0; i<=10; i++) {
+		var lim = 10-i/2;
+		function x(u,v) {
+		    return u*lim;
+		}
+		function y(u,v) {
+		    return -lim;
+		}
+		function z(u,v) {
+		    return i+v+zoffset;
+		}
+		createGraph(x,y,z,-1,1,0,1,useg,vseg,0,scene,gridMaterial);
+	    }
+	}
+	
+	function createGraph(xFunc,yFunc,zFunc,uMin,uMax,vMin,vMax,useg,vseg,clr,sc,material)
+	{
+	    var graphMesh;
+	    uRange = uMax - uMin;
+	    vRange = vMax - vMin;
+	    meshFunction = function(u0, v0) 
+	    {
+		var u = uRange * u0 + uMin;
+		var v = vRange * v0 + vMin;
+		var x = xFunc(u,v);
+		var y = yFunc(u,v);
+		var z = zFunc(u,v);
+		if ( isNaN(x) || isNaN(y) || isNaN(z) )
+		    return new THREE.Vector3(0,0,0); // TODO: better fix
+		else
+		    return new THREE.Vector3(x, y, z);
+	    };
+	    
+	    // true => sensible image tile repeat...
+	    graphGeometry = new THREE.ParametricGeometry( meshFunction, useg, vseg, true );
+	    ///////////////////////////////////////////////
+	    // calculate vertex colors based on Z values //
+	    ///////////////////////////////////////////////
+	    graphGeometry.computeBoundingBox();
+	    zMin = graphGeometry.boundingBox.min.z;
+	    zMax = graphGeometry.boundingBox.max.z;
+	    zRange = zMax - zMin;
+	    var defaultcolor = new THREE.Color( 0xff0000 );
+	    var color, point, face, numberOfSides, vertexIndex;
+	    // faces are indexed using characters
+	    var faceIndices = [ 'a', 'b', 'c', 'd' ];
+	    // first, assign colors to vertices as desired
+	    for ( var i = 0; i < graphGeometry.vertices.length; i++ ) 
+	    {
+		point = graphGeometry.vertices[ i ];
+		color = new THREE.Color( 0x0000ff );
+		//	  color.setHSL( 0.7 *(10-point.x)/10 , 1, 0.3+0.4*(20 - point.z) / 20 );
+		color.setHSL( 0.7 * (20 - point.z + zoffset) / 20, 1, 0.5 );
+		graphGeometry.colors[i] = color; // use this array for convenience
+	    }
+	    // copy the colors as necessary to the face's vertexColors array.
+	    for ( var i = 0; i < graphGeometry.faces.length; i++ ) 
+	    {
+		face = graphGeometry.faces[ i ];
+		numberOfSides = ( face instanceof THREE.Face3 ) ? 3 : 4;
+		for( var j = 0; j < numberOfSides; j++ ) 
+		{
+		    vertexIndex = face[ faceIndices[ j ] ];
+		    face.vertexColors[ j ] = graphGeometry.colors[vertexIndex ];
+		    //	      face.vertexColors[ j ] = clr;
+		}
+	    }
+	    ///////////////////////
+	    // end vertex colors //
+	    ///////////////////////
+	    
+	    
+	    xMin = graphGeometry.boundingBox.min.x;
+	    xMax = graphGeometry.boundingBox.max.x;
+	    yMin = graphGeometry.boundingBox.min.y;
+	    yMax = graphGeometry.boundingBox.max.y;
+	    
+	    if (graphMesh) 
+	    {
+		sc.remove( graphMesh );
+		// renderer.deallocateObject( graphMesh );
+	    }
+	    
+	    graphMesh = new THREE.Mesh( graphGeometry,material );
+	    
+	    graphMesh.doubleSided = true;
+	    sc.add(graphMesh);
+	}
+    });
+</script>  
+<div class='figcaption'><span class="figurenumber">Figure 9.3.4.</span> Approximating the volume of a cone
+by circular disks.</div></div>
+<p>
+</p><p>
+At a particular point on the $x$-axis, say $\ds x_i$, the radius of the
+resulting cone is the $y$-coordinate of the corresponding point on the
+line, namely $\ds y_i=x_i/2$. Thus the total volume is approximately
+$$\sum_{i=0}^{n-1} \pi (x_i/2)^2\,dx$$
+and the exact volume is
+$$
+  \int_0^{20} \pi
+  {x^2\over4}\,dx={\pi\over4}{20^3\over3}={2000\pi\over3}.
+$$ 
+Note that we can instead do the calculation with a generic height and
+radius: 
+$$
+  \int_0^{h} \pi{r^2\over h^2}x^2\,dx
+  ={\pi r^2\over h^2}{h^3\over3}={\pi r^2h\over3},
+$$ 
+giving us the usual formula for the volume of a cone.
+
+</p>
+</div><!-- example -->
+<p>
+</p><p>
+</p>
+<div class="example">
+<p>
+<span class="theoremlabel">Example 9.3.4 </span>
+Find the volume of the object generated when the area between
+$\ds y=x^2$ and $y=x$ is rotated around the $x$-axis. This solid has a
+"hole'' in the middle; we can compute the volume by subtracting the
+volume of the hole from the volume enclosed by the outer surface of
+the solid. In figure <a href="section09.03.html#fig:solid with hole">9.3.5</a> we show the region
+that is rotated, the resulting solid with the front half cut away,
+the cone that forms the outer surface, the
+horn-shaped hole, and a cross-section perpendicular to the $x$-axis.
+</p><p>
+<a id="fig:solid with hole"></a>
+</p><div class='figure'><!-- Integration_applications-volume_with_hole.html -->
+<!-- Figure 9.3.5 -->
+
+
+<table style="width:800px">
+<tr style="width:100%">
+<td style="text-align:center">
+<div id="volume_with_hole_curves" class='jxgbox'></div>
+</td>
+<td style="text-align:center">
+<div id="volume_with_hole" class="webgl_display" style="display:none"></div>
+<div class="no_webgl_display" style="display:block">
+<a href="http://www.whitman.edu/mathematics/calculus_applets/solid_with_hole">
+<img src="images/cutaway_horn.png" width=200></a></div>
+</td></td>
+<td style="text-align:center">
+<div class="no_webgl_display" style="display:block">
+<a href="http://www.whitman.edu/mathematics/calculus_applets/solid_with_hole">
+<img src="images/outer_cone.png" width=200></a></div>
+</td></tr>
+<tr>
+<td style="text-align:center">
+<div class="no_webgl_display" style="display:block">
+<a href="http://www.whitman.edu/mathematics/calculus_applets/solid_with_hole">
+<img src="images/horn.png" width=200></a></div>
+</td><td style="text-align:center">
+<div class="no_webgl_display" style="display:block">
+<a href="http://www.whitman.edu/mathematics/calculus_applets/solid_with_hole">
+<img src="images/washer_section.png" width=200></a></div>
+</td></tr></table>
+
+<script type='text/javascript'>
+(function () {  // BEGIN: scope limiting function wrapper
+  var xmin=-0.25, xmax=1.4 , ymin=-0.25, ymax=1.40;
+  var AspectRatio =  ((ymax-ymin)/(xmax-xmin)); // height/width
+  var wd=document.getElementById('volume_with_hole_curves').offsetWidth;
+  var ht=wd*AspectRatio;
+  var yfactor = (ymax-ymin)/(ht);
+  var xfactor = (xmax-xmin)/(wd);
+  var xaxis_label_offset = yfactor*15;
+  var yaxis_label_offset = xfactor*20;
+  document.getElementById('volume_with_hole_curves').style.height=ht+'px';
+  var brd = JXG.JSXGraph.initBoard('volume_with_hole_curves',{boundingbox:[xmin,ymax,xmax,ymin], showCopyright:false, showNavigation:false}) ;
+  var rejax = function() {
+     MathJax.Hub.Queue(["Typeset",MathJax.Hub]); 
+  }
+  brd.addHook(rejax)
+
+  var f = function(x) { return x*x; }
+
+  var xaxis = brd.create('arrow', [[0,0], [1.2,0]],{strokeWidth:1,strokeColor:'black',fixed:true});
+  var yaxis = brd.create('arrow', [[0,0],[0,1.2]],{strokeWidth:1,strokeColor:'black',fixed:true});
+  var yi = brd.create('segment',[[0,-1],[0,1.1]],{visible:false});
+  brd.create('ticks',[yi,1],{minorTicks:false});
+  var xi = brd.create('segment',[[-0.5,0],[1.1,0]],{visible:false});
+  brd.create('ticks',[xi,0.5],{minorTicks:false});
+  brd.create('text',[1,-xaxis_label_offset,'$1$'],{fixed:true});
+  brd.create('text',[0,-xaxis_label_offset,'$0$'],{fixed:true});
+  brd.create('text',[-yaxis_label_offset,1,'$1$'],{fixed:true});
+  brd.create('text',[-yaxis_label_offset,0,'$0$'],{fixed:true});
+  brd.create('segment',[[0,0],[1,1]],{fixed:true});
+  brd.create('functiongraph', [f,0,1],{strokeWidth: 2, dash:0});
+})(); // END: scope limiting function wrapper
+</script>
+
+<script>
+    MathJax.Hub.Register.StartupHook("End",function () {
+	var xoffset = -0.5; yoffset = 0; zoffset = 0;
+	var SCREEN_WIDTH = 400, SCREEN_HEIGHT = 400;
+	var container, scene, camera, renderer, controls;
+	var keyboard = new THREEx.KeyboardState();
+	var clock = new THREE.Clock();
+	var meshFunction;
+	var usegments = 40, vsegments=10;
+	
+	var xMin = xMax = yMin = yMax = 0; // for autosizing window
+	
+	var graphGeometry;
+	
+	if(typeof window.orientation === 'undefined') {
+	    init();
+	    animate();
+	}
+
+	function init() 
+	{
+	    scene = new THREE.Scene();
+	    if ( Detector.webgl )
+		renderer = new THREE.WebGLRenderer( {alpha:true, antialias:true} );
+	    else
+		renderer = new THREE.CanvasRenderer(); 
+	    renderer.setSize(SCREEN_WIDTH, SCREEN_HEIGHT);
+	    container = document.getElementById( 'volume_with_hole' );
+	    container.appendChild( renderer.domElement );
+	    var light = new THREE.PointLight(0xffffff,1,100);
+	    light.position.set(3,3,10);
+	    scene.add(light);
+	    var light_amb = new THREE.AmbientLight( 0xaaaaaa ); // soft white light
+	    scene.add( light_amb );
+	    
+	    // Background clear color
+	    // renderer.setClearColorHex( 0xffffff, 0 );
+	    
+	    plot_it_0();
+	    plot_it_1();
+	    plot_it_2();
+	    plot_it_3();
+	    plot_it_4();
+	    plot_it_5();
+	    plot_it_6();
+//	    plot_it_7();
+//	    plot_it_8();
+	    plot_it_9();
+	    resetCamera();
+	}
+	
+	
+	function resetCamera()
+	{
+	    var VIEW_ANGLE = 3, ASPECT = SCREEN_WIDTH / SCREEN_HEIGHT, NEAR = 0.1, FAR = 20000;
+	    // Orthog camera
+	    //      var zoom = 3;
+	    //      camera = new THREE.OrthographicCamera( -zoom*ASPECT,zoom*ASPECT,zoom,-zoom, NEAR, FAR);
+	    //      camera.position.x = zoom*2;
+	    //      camera.position.y = zoom*1.5;
+	    //      camera.position.z = zoom*1.5;
+	    // Perspective camera
+	    camera = new THREE.PerspectiveCamera( VIEW_ANGLE, ASPECT, NEAR, FAR);
+	    scene.add(camera);
+	    camera.position.set(15,45,15);
+	    camera.lookAt(0.5,0,0);  
+	    
+	    camera.up.set( 0, 0, 1 ); 
+	    scene.add(camera);
+	    
+	    controls = new THREE.TrackballControls( camera, renderer.domElement );
+	    controls.rotateSpeed = 1;
+	    THREEx.WindowResize(renderer, camera);
+	}
+	
+	function animate() 
+	{
+	    requestAnimationFrame( animate );
+	    if ($('#volume_with_hole').visible(true) && active) {
+		render();		
+		update();
+	    }
+	}
+	
+	function update()
+	{
+	    if ( keyboard.pressed("z") ) 
+	    { 
+		// do something
+	    }
+	    
+	    controls.update();
+	    //	stats.update();
+	}
+	
+	function render() 
+	{
+	    renderer.render( scene, camera );
+	}
+	
+	
+	function plot_it_0()
+	{
+	    var loader = new THREE.TextureLoader();
+	    var gridTexture = loader.load( 'images/square.png');
+	    gridTexture.wrapS = gridTexture.wrapT = THREE.RepeatWrapping;
+	    gridTexture.repeat.set( 50,20 );
+	    var backMaterial = new THREE.MeshBasicMaterial( { transparent:true, opacity:0.3, vertexColors: THREE.VertexColors,side:THREE.BackSide,depthWrite:false } );
+	    var frontMaterial = new THREE.MeshBasicMaterial( { transparent:true, opacity:0.3, vertexColors: THREE.VertexColors,side:THREE.FrontSide,depthWrite:false } );
+	    var useg = 30,vseg = 20;
+	    var i;
+	    function x(u,v) {
+		return v+xoffset;
+	    }
+	    function y(u,v) {
+		return v*Math.sin(u)
+	    }
+	    function z(u,v) {
+		return v*Math.cos(u);
+	    }
+	    createGraph(x,y,z,0,2*Math.PI,0,1,useg,vseg,0,scene,backMaterial,new THREE.Color( 0x00aa00 ),true);
+	    createGraph(x,y,z,0,2*Math.PI,0,1,useg,vseg,0,scene,frontMaterial,new THREE.Color( 0x00aa00 ),true);
+	}
+	
+	function plot_it_1()
+	{
+	    var backMaterial = new THREE.MeshBasicMaterial( { transparent:true, opacity:0.3, vertexColors: THREE.VertexColors,side:THREE.BackSide,depthWrite:false } );
+	    var frontMaterial = new THREE.MeshBasicMaterial( { transparent:true, opacity:0.3, vertexColors: THREE.VertexColors,side:THREE.FrontSide,depthWrite:false } );
+	    var useg = 30,vseg = 20;
+	    var i;
+	    function x(u,v) {
+		return v+xoffset;
+	    }
+	    function y(u,v) {
+		return v*v*Math.sin(u)
+	    }
+	    function z(u,v) {
+		return v*v*Math.cos(u);
+	    }
+	    createGraph(x,y,z,0,2*Math.PI,0,1,useg,vseg,0,scene,backMaterial,new THREE.Color( 0x0000aa ),true);
+	    createGraph(x,y,z,0,2*Math.PI,0,1,useg,vseg,0,scene,frontMaterial,new THREE.Color( 0x0000aa ),true);
+	}
+	
+	function plot_it_2()
+	{
+	    var loader = new THREE.TextureLoader();
+	    var gridTexture = loader.load( 'images/square.png');
+	    gridTexture.wrapS = gridTexture.wrapT = THREE.RepeatWrapping;
+	    gridTexture.repeat.set(20,2 );
+	    var normMaterial = new THREE.MeshBasicMaterial( { vertexColors: THREE.VertexColors,side:THREE.DoubleSide } );
+	    var gridMaterial = new THREE.MeshBasicMaterial( { map:gridTexture, vertexColors: THREE.VertexColors,side:THREE.DoubleSide } );
+	    var useg = 30,vseg = 10;
+	    var i;
+	    var lim = 10;
+	    function x(u,v) {
+		return 0.6+xoffset;
+	    }
+	    function y(u,v) {
+		var a = 0.6;
+		return (a*a*(v)+a*(1-v))*Math.cos(u);
+	    }
+	    function z(u,v) {
+		var a = 0.6;
+		return (a*a*(v)+a*(1-v))*Math.sin(u);
+	    }
+	    createGraph(x,y,z,0,2*Math.PI,0,1,useg,vseg,0,scene,gridMaterial,new THREE.Color( 0xff0000 ),true);
+	}
+	
+	function plot_it_3()
+	{
+	    var loader = new THREE.TextureLoader();
+	    var gridTexture = loader.load( 'images/square.png');
+	    gridTexture.wrapS = gridTexture.wrapT = THREE.RepeatWrapping;
+	    gridTexture.repeat.set(20,2 );
+	    var normMaterial = new THREE.MeshBasicMaterial( { vertexColors: THREE.VertexColors,side:THREE.DoubleSide } );
+	    var gridMaterial = new THREE.MeshBasicMaterial( { map:gridTexture, vertexColors: THREE.VertexColors,side:THREE.DoubleSide } );
+	    var useg = 30,vseg = 10;
+	    var i;
+	    var lim = 10;
+	    function x(u,v) {
+		return 0.7+xoffset;
+	    }
+	    function y(u,v) {
+		var a = 0.6;
+		return (a*a*(v)+a*(1-v))*Math.cos(u);
+	    }
+	    function z(u,v) {
+		var a = 0.6;
+		return (a*a*(v)+a*(1-v))*Math.sin(u);
+	    }
+	    createGraph(x,y,z,0,2*Math.PI,0,1,useg,vseg,0,scene,gridMaterial,new THREE.Color( 0xff0000 ),true);
+	}
+	
+	function plot_it_4()
+	{
+	    var loader = new THREE.TextureLoader();
+	    var gridTexture = loader.load( 'images/square.png');
+	    gridTexture.wrapS = gridTexture.wrapT = THREE.RepeatWrapping;
+	    gridTexture.repeat.set(20,1 );
+	    var normMaterial = new THREE.MeshBasicMaterial( { vertexColors: THREE.VertexColors,side:THREE.DoubleSide } );
+	    var gridMaterial = new THREE.MeshBasicMaterial( { map:gridTexture, vertexColors: THREE.VertexColors,side:THREE.DoubleSide } );
+	    var useg = 30,vseg = 10;
+	    var i;
+	    var lim = 10;
+	    function x(u,v) {
+		return v+xoffset;
+	    }
+	    function y(u,v) {
+		var a = 0.6;
+		return (a)*Math.cos(u);
+	    }
+	    function z(u,v) {
+		var a = 0.6;
+		return (a)*Math.sin(u);
+	    }
+	    createGraph(x,y,z,0,2*Math.PI,0.6,0.7,useg,vseg,0,scene,gridMaterial,new THREE.Color( 0xff0000 ),true);
+	}
+	
+	function plot_it_5()
+	{
+	    var loader = new THREE.TextureLoader();
+	    var gridTexture = loader.load( 'images/square.png');
+	    gridTexture.wrapS = gridTexture.wrapT = THREE.RepeatWrapping;
+	    gridTexture.repeat.set(20,1 );
+	    var normMaterial = new THREE.MeshBasicMaterial( { vertexColors: THREE.VertexColors,side:THREE.DoubleSide } );
+	    var gridMaterial = new THREE.MeshBasicMaterial( { map:gridTexture, vertexColors: THREE.VertexColors,side:THREE.DoubleSide } );
+	    var useg = 30,vseg = 10;
+	    var i;
+	    var lim = 10;
+	    function x(u,v) {
+		return v+xoffset;
+	    }
+	    function y(u,v) {
+		var a = 0.6;
+		return a*a*Math.cos(u);
+	    }
+	    function z(u,v) {
+		var a = 0.6;
+		return a*a*Math.sin(u);
+	    }
+	    createGraph(x,y,z,0,2*Math.PI,0.6,0.7,useg,vseg,0,scene,gridMaterial,new THREE.Color( 0xff0000 ),true);
+	}
+	
+	function plot_it_6()
+	{
+	    var normMaterial = new THREE.MeshBasicMaterial( { transparent:true,opacity:0.1,vertexColors: THREE.VertexColors,side:THREE.DoubleSide } );
+	    var i;
+	    for (i=0; i<=8; i++) {
+		function x(t) { 
+		    return i/8+xoffset;
+		}
+		function y(t) {
+		    var a = i/8;
+		    return a*a*Math.cos(t);
+		}
+		function z(t) {
+		    var a = i/8;
+		    return a*a*Math.sin(t);
+		}
+		curveGraph(x,y,z,0,2*Math.PI,30,new THREE.Color( 0x0000ff ),normMaterial);
+	    }
+	}
+
+	function plot_it_7()
+	{
+	    var normMaterial = new THREE.MeshBasicMaterial( { vertexColors: THREE.VertexColors,side:THREE.DoubleSide } );
+	    var i;
+	    for (i=0; i<=8; i++) {
+		function x(t) { 
+		    return i/8+xoffset;
+		}
+		function y(t) {
+		    var a = i/8;
+		    return a*Math.cos(t);
+		}
+		function z(t) {
+		    var a = i/8;
+		    return a*Math.sin(t);
+		}
+		curveGraph(x,y,z,0,2*Math.PI,30,new THREE.Color( 0xaaaaaa ),normMaterial);
+	    }
+	}
+
+	function plot_it_8()
+	{
+	    var normMaterial = new THREE.MeshBasicMaterial( { vertexColors: THREE.VertexColors,side:THREE.DoubleSide } );
+	    var i;
+	    for (i=0; i<=8; i++) {
+		function x(t) { 
+		    return t+xoffset;
+		}
+		function y(t) {
+		    return t*Math.cos(2*Math.PI*i/10);
+		}
+		function z(t) {
+		    return t*Math.sin(2*Math.PI*i/10);
+		}
+		curveGraph(x,y,z,0,1,30,new THREE.Color( 0xaaaaaa ),normMaterial);
+	    }
+	}
+
+	function plot_it_9()
+	{
+	    var normMaterial = new THREE.MeshBasicMaterial( { transparent:true,opacity:0.1,vertexColors: THREE.VertexColors,side:THREE.DoubleSide } );
+	    var i;
+	    for (i=0; i<=8; i++) {
+		function x(t) { 
+		    return t+xoffset;
+		}
+		function y(t) {
+		    return t*t*Math.cos(2*Math.PI*i/10);
+		}
+		function z(t) {
+		    return t*t*Math.sin(2*Math.PI*i/10);
+		}
+		curveGraph(x,y,z,0,1,30,new THREE.Color( 0x0000ff ),normMaterial);
+	    }
+	}
+
+	function createGraph(xFunc,yFunc,zFunc,uMin,uMax,vMin,vMax,useg,vseg,clr,sc,material,clr,solid)
+	{
+	    var graphMesh;
+	    uRange = uMax - uMin;
+	    vRange = vMax - vMin;
+	    meshFunction = function(u0, v0) 
+	    {
+		var u = uRange * u0 + uMin;
+		var v = vRange * v0 + vMin;
+		var x = xFunc(u,v);
+		var y = yFunc(u,v);
+		var z = zFunc(u,v);
+		if ( isNaN(x) || isNaN(y) || isNaN(z) )
+		    return new THREE.Vector3(0,0,0); // TODO: better fix
+		else
+		    return new THREE.Vector3(x, y, z);
+	    };
+	    
+	    // true => sensible image tile repeat...
+	    graphGeometry = new THREE.ParametricGeometry( meshFunction, useg, vseg, true );
+	    ///////////////////////////////////////////////
+	    // calculate vertex colors based on Z values //
+	    ///////////////////////////////////////////////
+	    graphGeometry.computeBoundingBox();
+	    zMin = graphGeometry.boundingBox.min.z;
+	    zMax = graphGeometry.boundingBox.max.z;
+	    zRange = zMax - zMin;
+	    var defaultcolor = new THREE.Color( 0xff0000 );
+	    var color, point, face, numberOfSides, vertexIndex;
+	    // faces are indexed using characters
+	    var faceIndices = [ 'a', 'b', 'c', 'd' ];
+	    // first, assign colors to vertices as desired
+	    if (!solid) {
+		for ( var i = 0; i < graphGeometry.vertices.length; i++ ) 
+		{
+		    point = graphGeometry.vertices[ i ];
+		    color = new THREE.Color( 0x0000ff );
+		    //	  color.setHSL( 0.7 *(10-point.x)/10 , 1, 0.1+0.3*(10 - point.z) / 10 );
+		    color.setHSL( (1.732 - (point.z - zoffset)/1.732), 1, 0.5 );
+		    graphGeometry.colors[i] = color; // use this array for convenience
+		}
+	    }
+	    // copy the colors as necessary to the face's vertexColors array.
+	    for ( var i = 0; i < graphGeometry.faces.length; i++ ) 
+	    {
+		face = graphGeometry.faces[ i ];
+		numberOfSides = ( face instanceof THREE.Face3 ) ? 3 : 4;
+		for( var j = 0; j < numberOfSides; j++ ) 
+		{
+		    if (solid) {
+			face.vertexColors[ j ] = clr;
+		    } else {
+			vertexIndex = face[ faceIndices[ j ] ];
+			face.vertexColors[ j ] = graphGeometry.colors[vertexIndex ];
+			//	      face.vertexColors[ j ] = clr;
+		    }
+		}
+	    }
+	    ///////////////////////
+	    // end vertex colors //
+	    ///////////////////////
+	    
+	    
+	    xMin = graphGeometry.boundingBox.min.x;
+	    xMax = graphGeometry.boundingBox.max.x;
+	    yMin = graphGeometry.boundingBox.min.y;
+	    yMax = graphGeometry.boundingBox.max.y;
+	    
+	    if (graphMesh) 
+	    {
+		sc.remove( graphMesh );
+		// renderer.deallocateObject( graphMesh );
+	    }
+	    
+	    graphMesh = new THREE.Mesh( graphGeometry,material );
+	    
+	    graphMesh.doubleSided = true;
+	    sc.add(graphMesh);
+	}
+	
+	function curveGraph(xFunc,yFunc,zFunc,tMin,tMax,segments,color,material)
+	{
+	    var graphMesh;
+	    var tRange = tMax - tMin;
+	    var  mycurve = THREE.Curve.create( 
+		function() {},
+		function(t) 
+		{
+		    // default:    0 < t < 1
+		    //    want: tMin < t < tMax
+		    t = t * tRange + tMin;
+		    return new THREE.Vector3(xFunc(t), yFunc(t), zFunc(t)).multiplyScalar(1);
+		}
+	    );
+	    var curve = new mycurve;
+	    
+	    var closedTube = false;
+	    var debug = false; // show normal vectors
+	    var tubeGeometry = new THREE.TubeGeometry(curve, segments, 0.01, 3, false, debug);
+	    
+	    var  point, face, numberOfSides;
+	    for ( var i = 0; i < tubeGeometry.faces.length; i++ ) 
+	    {
+		face = tubeGeometry.faces[ i ];
+		numberOfSides = ( face instanceof THREE.Face3 ) ? 3 : 4;
+		for( var j = 0; j < numberOfSides; j++ ) 
+		{
+		    face.vertexColors[ j ] = color;
+		}
+	    }
+	    
+	    // for auto-sizing window
+	    tubeGeometry.computeBoundingBox();
+	    xMin = tubeGeometry.boundingBox.min.x;
+	    xMax = tubeGeometry.boundingBox.max.x;
+	    yMin = tubeGeometry.boundingBox.min.y;
+	    yMax = tubeGeometry.boundingBox.max.y;
+	    zMin = tubeGeometry.boundingBox.min.z;
+	    zMax = tubeGeometry.boundingBox.max.z;
+	    
+	    if (graphMesh) 
+	    {
+		scene.remove( graphMesh );
+		// renderer.deallocateObject( graphMesh );
+	    }
+	    
+	    graphMesh = new THREE.Mesh( tubeGeometry, material );
+	    graphMesh.doubleSided = true;
+	    scene.add(graphMesh);
+	}
+    });
+</script>  
+<div class='figcaption'><span class="figurenumber">Figure 9.3.5.</span> Solid with a hole. </div></div>
+<p>
+</p><p>
+We have already computed the volume of a cone; in this case it is
+$\pi/3$. At a particular value of $x$, say $\ds x_i$, the cross-section of
+the horn is a circle with radius $\ds x_i^2$, so the volume of the horn is
+$$\int_0^1 \pi(x^2)^2\,dx=\int_0^1 \pi x^4\,dx=\pi{1\over 5},$$
+so the desired volume is $\pi/3-\pi/5=2\pi/15$.
+</p><p>
+As with the area between curves, there is an alternate approach that
+computes the desired volume "all at once'' by approximating the
+volume of the actual solid. We can approximate the volume of a slice
+of the solid with a washer-shaped volume, as indicated in
+figure <a href="section09.03.html#fig:solid with hole">9.3.5</a>.
+</p><p>
+The volume of such a washer is the area of the face times the
+thickness. The thickness, as usual, is $\Delta x$, while the area of
+the face is the area of the outer circle minus the area of the inner
+circle, say $\ds \pi R^2-\pi r^2$. In the present example, at a particular $\ds x_i$,
+the radius $R$ is $\ds x_i$ and $r$ is $\ds x_i^2$. Hence, the whole volume is
+$$
+  \int_0^1 \pi x^2-\pi x^4\,dx=
+  \left.\pi\left({x^3\over3}-{x^5\over5}\right)\right|_0^1=
+  \pi\left({1\over3}-{1\over5}\right)={2\pi\over15}.
+$$
+Of course, what we have done here is exactly the same calculation as
+before, except we have in effect recomputed the volume of the outer cone.
+
+</p>
+</div><!-- example -->
+<p>
+</p><p>
+Suppose the region between $f(x)=x+1$ and $\ds g(x)=(x-1)^2$ is rotated around
+the $y$-axis; see figure <a href="section09.03.html#fig:shell method">9.3.6</a>. It is possible, but
+inconvenient, to compute the  volume of the resulting solid by the
+method we have used so far. The problem is that there are two
+"kinds'' of typical rectangles: those that go from the line to the
+parabola and those that touch the parabola on both ends. To compute
+the volume using this approach, we need to break the problem into two
+parts and compute two integrals:
+$$
+  \pi\int_0^1 (1+\sqrt{y})^2-(1-\sqrt{y})^2\,dy+
+  \pi\int_1^4  (1+\sqrt{y})^2-(y-1)^2\,dy={8\over3}\pi + {65\over6}\pi
+  ={27\over2}\pi.
+$$
+If instead we consider a typical vertical rectangle, {but still rotate
+  around the $y$-axis,} we get a thin "shell'' instead of a thin
+"washer''. If we add up the volume of such thin shells we will get an
+approximation to the true volume. What is the volume of such a shell?
+Consider the shell at $\ds x_i$.
+Imagine that we cut the shell vertically in one place and "unroll''
+it into a thin, flat sheet. This sheet will be almost a rectangular
+prism that is $\Delta x$ thick, $\ds f(x_i)-g(x_i)$ tall, and $\ds 2\pi x_i$
+wide (namely, the circumference of the shell before it was unrolled).
+The volume will then be approximately the volume of a rectangular
+prism with these dimensions: $\ds 2\pi x_i(f(x_i)-g(x_i))\Delta x$. If we
+add these up and take the limit as usual, we get the integral
+$$
+  \int_0^3 2\pi x(f(x)-g(x))\,dx=
+  \int_0^3 2\pi x(x+1-(x-1)^2)\,dx={27\over2}\pi.
+$$
+Not only does this accomplish the task with only one integral, the
+integral is somewhat easier than those in the previous
+calculation. Things are not always so neat, but it is often the case
+that one of the two methods will be simpler than the other, so it is
+worth considering both before starting to do calculations.
+</p><p>
+<a id="fig:shell method"></a>
+</p><div class='figure'><!-- Integration_applications-volume_shell_method.html -->
+<!-- Figure 9.3.6 -->
+
+<table style="width:800px;margin-left:auto;margin-right:auto">
+<tr style="width:100%">
+<td align="center">
+<div id='shell_method_one' class='jxgbox' style="width:300px"></div>
+</td><td align="center">
+<div id='shell_method_two' class='jxgbox' style="width:300px" ></div>
+</td>
+<td class="no_webgl_display"
+    style="display:block;vertical-align:center;padding:60px 20px
+    60px 20px">
+<a href="http://www.whitman.edu/mathematics/calculus_applets/shell">
+<img src="images/shell.png"></a>
+</td>
+</tr></table>
+
+<table class="webgl_display" style="width:800px;margin-left:auto;margin-right:auto;display:none">
+<tr style="width:100%">
+<td id="shell" style='text-align:center'>
+</td><td id="solid_surface" style='text-align:center'>
+</td></tr></table>
+
+<script type='text/javascript'>
+(function () {  // BEGIN: scope limiting function wrapper
+  var xmin=-0.5, xmax= 3.6, ymin=-0.5, ymax=4.6;
+  var AspectRatio =  ((ymax-ymin)/(xmax-xmin)); // height/width
+  var wd=document.getElementById('shell_method_one').offsetWidth;
+  var ht=wd*AspectRatio;
+  var yfactor = (ymax-ymin)/(ht);
+  var xfactor = (xmax-xmin)/(wd);
+  var xaxis_label_offset = yfactor*15;
+  var yaxis_label_offset = xfactor*20;
+  document.getElementById('shell_method_one').style.height=ht+'px';
+  var brd = JXG.JSXGraph.initBoard('shell_method_one',{boundingbox:[xmin,ymax,xmax,ymin], showCopyright:false, showNavigation:false}) ;
+  var rejax = function() {
+     MathJax.Hub.Queue(["Typeset",MathJax.Hub]); 
+  }
+  brd.addHook(rejax)
+  brd.create('arrow',[[0,0],[3.3,0]],{strokeColor:'black',strokeWidth:1,fixed:true});
+  var xi = brd.create('segment',[[0,0],[3.1,0]],{visible:false,fixed:true});
+  brd.create('ticks',[xi,1],{minorTicks:false});
+  brd.create('arrow',[[0,0],[0,4.3]],{strokeColor:'black',strokeWidth:1,fixed:true});
+  var yi = brd.create('segment',[[0,0],[0,4.1]],{visible:false});
+  brd.create('ticks',[yi,1],{minorTicks:false});
+  brd.create('text',[1,-xaxis_label_offset,'$1$'],{fixed:true});
+  brd.create('text',[2,-xaxis_label_offset,'$2$'],{fixed:true});
+  brd.create('text',[3,-xaxis_label_offset,'$3$'],{fixed:true});
+  brd.create('text',[-yaxis_label_offset,1,'$1$'],{fixed:true});
+  brd.create('text',[-yaxis_label_offset,2,'$2$'],{fixed:true});
+  brd.create('text',[-yaxis_label_offset,3,'$3$'],{fixed:true});
+  brd.create('text',[-yaxis_label_offset,4,'$4$'],{fixed:true});
+  brd.create('segment',[[0,1],[3,4]],{fixed:true});
+  var f = function (x) { return (x-1)*(x-1); }
+  brd.create('functiongraph',[f,0,3]);
+  var p1 = brd.create('point',[1,2],{visible:false,fixed:true});
+  var p2 = brd.create('point',[1,1.9],{visible:false,fixed:true});
+  var p3 = brd.create('point',[2.4142,1.9],{visible:false,fixed:true});
+  var p4 = brd.create('point',[2.4142,f(2.4142)],{visible:false,fixed:true});
+  brd.create('polygon',[p1,p2,p3,p4]);
+  var p5 = brd.create('point',[0.25,f(0.25)],{visible:false,fixed:true});
+  var p6 = brd.create('point',[0.25,f(0.25)-0.1],{visible:false,fixed:true});
+  var p7 = brd.create('point',[1.75,f(0.25)-0.1],{visible:false,fixed:true});
+  var p8 = brd.create('point',[1.75,f(1.75)],{visible:false,fixed:true});
+  brd.create('polygon',[p5,p6,p7,p8]);
+})(); // END: scope limiting function wrapper
+</script>
+
+
+<script type='text/javascript'>
+    (function () {  // BEGIN: scope limiting function wrapper
+  var xmin=-0.5, xmax= 3.6, ymin=-0.5, ymax=4.6;
+  var AspectRatio =  ((ymax-ymin)/(xmax-xmin)); // height/width
+  var wd=document.getElementById('shell_method_two').offsetWidth;
+  var ht=wd*AspectRatio;
+  var yfactor = (ymax-ymin)/(ht);
+  var xfactor = (xmax-xmin)/(wd);
+  var xaxis_label_offset = yfactor*15;
+  var yaxis_label_offset = xfactor*20;
+  document.getElementById('shell_method_two').style.height=ht+'px';
+  var brd = JXG.JSXGraph.initBoard('shell_method_two',{boundingbox:[xmin,ymax,xmax,ymin], showCopyright:false, showNavigation:false}) ;
+  var rejax = function() {
+     MathJax.Hub.Queue(["Typeset",MathJax.Hub]); 
+  }
+  brd.addHook(rejax)
+  brd.create('arrow',[[0,0],[3.3,0]],{strokeColor:'black',strokeWidth:1,fixed:true});
+  var xi = brd.create('segment',[[0,0],[3.1,0]],{visible:false});
+  brd.create('ticks',[xi,1],{minorTicks:false});
+  brd.create('arrow',[[0,0],[0,4.3]],{strokeColor:'black',strokeWidth:1,fixed:true});
+  var yi = brd.create('segment',[[0,0],[0,4.1]],{visible:false});
+  brd.create('ticks',[yi,1],{minorTicks:false});
+  brd.create('text',[1,-xaxis_label_offset,'$1$'],{fixed:true});
+  brd.create('text',[2,-xaxis_label_offset,'$2$'],{fixed:true});
+  brd.create('text',[3,-xaxis_label_offset,'$3$'],{fixed:true});
+  brd.create('text',[-yaxis_label_offset,1,'$1$'],{fixed:true});
+  brd.create('text',[-yaxis_label_offset,2,'$2$'],{fixed:true});
+  brd.create('text',[-yaxis_label_offset,3,'$3$'],{fixed:true});
+  brd.create('text',[-yaxis_label_offset,4,'$4$'],{fixed:true});
+  brd.create('segment',[[0,1],[3,4]],{fixed:true});
+  var f = function (x) { return (x-1)*(x-1); }
+  brd.create('functiongraph',[f,0,3]);
+  var p1 = brd.create('point',[1.5,2.5],{visible:false,fixed:true});
+  var p2 = brd.create('point',[1.5,f(1.5)],{visible:false,fixed:true});
+  var p3 = brd.create('point',[1.6,f(1.5)],{visible:false,fixed:true});
+  var p4 = brd.create('point',[1.6,2.5],{visible:false,fixed:true});
+  brd.create('polygon',[p1,p2,p3,p4]);
+})(); // END: scope limiting function wrapper
+</script>
+
+<script>
+    MathJax.Hub.Register.StartupHook("End",function solid_surface () {
+      
+      var gridMaterial, normMaterial, wireMaterial, gridTexture;
+      var SCREEN_WIDTH = 400, SCREEN_HEIGHT = 400;
+      var container, scene, camera, renderer, controls;
+      var keyboard = new THREEx.KeyboardState();
+      var clock = new THREE.Clock();
+      
+      var meshFunction;
+      var usegments = 20, vsegments=10;
+      
+      var xMin = xMax = yMin = yMax = 0; // for autosizing window
+      
+      var graphGeometry;
+      // "wireframe texture"
+      var loader = new THREE.TextureLoader();
+      gridTexture = loader.load( 'images/square.png');
+      gridTexture.wrapS = gridTexture.wrapT = THREE.RepeatWrapping; 
+      gridTexture.repeat.set( 20, 15 );
+      wireMaterial = new THREE.MeshBasicMaterial( { wireframe:true, vertexColors: THREE.VertexColors,side:THREE.DoubleSide } );
+      gridMaterial = new THREE.MeshBasicMaterial( { map:gridTexture, vertexColors: THREE.VertexColors,side:THREE.DoubleSide } );
+      normMaterial = new THREE.MeshBasicMaterial( { vertexColors: THREE.VertexColors,side:THREE.DoubleSide } );
+      
+	if(typeof window.orientation === 'undefined') {
+	    init();
+	    animate();
+	}
+
+      function init() 
+      {
+	  scene = new THREE.Scene();
+	  if ( Detector.webgl )
+	      renderer = new THREE.WebGLRenderer( {alpha:true, antialias:true} );
+	  else
+	      renderer = new THREE.CanvasRenderer(); 
+	  renderer.setSize(SCREEN_WIDTH, SCREEN_HEIGHT);
+	  container = document.getElementById( 'solid_surface' );
+	  container.appendChild( renderer.domElement );
+	  var light = new THREE.PointLight(0xffffff);
+	  light.position.set(0,250,0);
+	  scene.add(light);
+	  
+	  // Background clear color
+	  // renderer.setClearColorHex( 0xffffff, 0 );
+	  
+	  top_surface(0,2*Math.PI,0,3,usegments,vsegments,scene,gridMaterial,0, true);
+	  bottom_surface(0,2*Math.PI,0,3,usegments,vsegments,scene,gridMaterial,0, true);
+	  resetCamera();
+      }
+      
+      
+      function resetCamera()
+      {
+	  // CAMERA
+	  //	var SCREEN_WIDTH = window.innerWidth/2, SCREEN_HEIGHT = window.innerHeight/2;
+	  var SCREEN_WIDTH = 400, SCREEN_HEIGHT = 400;
+	  var VIEW_ANGLE = 45, ASPECT = SCREEN_WIDTH / SCREEN_HEIGHT, NEAR = 0.1, FAR = 20000;
+	  //	camera = new THREE.PerspectiveCamera( VIEW_ANGLE, ASPECT, NEAR, FAR);
+	  var top = 4, bottom = -4;
+	  camera = new THREE.OrthographicCamera( -(top-bottom)/2*ASPECT,(top-bottom)/2*ASPECT,top,bottom, NEAR, FAR);
+	  //	camera.position.set( 2*xMax, 0.5*yMax, 4*zMax );
+	  var zoom=2.5;
+	  camera.position.x = zoom*2;
+	  camera.position.y = zoom*1.5;
+	  camera.position.z = zoom*1.5;
+	  //	camera.position.set( zoom*2,zoom*1.5,zoom*1.5);
+	  //	camera.up = new THREE.Vector3( 0, 0, 1 );
+	  //	camera.lookAt(scene.position);	
+	  camera.up.set( 0, 0, 1 ); 
+	  scene.add(camera);
+	  
+	  controls = new THREE.TrackballControls( camera, renderer.domElement );
+	  controls.rotateSpeed = 1;
+	  THREEx.WindowResize(renderer, camera);
+      }
+      
+      function animate() 
+      {
+	  requestAnimationFrame( animate );
+	    if ($('#solid_surface').visible(true) && active) {
+		render();		
+		update();
+	    }
+      }
+      
+      function update()
+      {
+	  if ( keyboard.pressed("z") ) 
+	  { 
+	      // do something
+	  }
+	  
+	  controls.update();
+	  //	stats.update();
+      }
+      
+      function render() 
+      {
+	  renderer.render( scene, camera );
+      }
+    })
+
+MathJax.Hub.Register.StartupHook("End", function wire_surface () {
+      
+      var gridMaterial, normMaterial, wireMaterial, gridTexture;
+      var SCREEN_WIDTH = 400, SCREEN_HEIGHT = 400;
+      var container, scene, camera, renderer, controls;
+      var keyboard = new THREEx.KeyboardState();
+      var clock = new THREE.Clock();
+      
+      var meshFunction;
+      var usegments = 20, vsegments=10;
+      
+      var xMin = xMax = yMin = yMax = 0; // for autosizing window
+      
+      var graphGeometry;
+      // "wireframe texture"
+      var loader = new THREE.TextureLoader();
+      gridTexture = loader.load( 'images/square.png');
+      gridTexture.wrapS = gridTexture.wrapT = THREE.RepeatWrapping; 
+      gridTexture.repeat.set( 30,8 );
+      wireMaterial = new THREE.MeshBasicMaterial( { wireframe:true, vertexColors: THREE.VertexColors,side:THREE.DoubleSide } );
+      gridMaterial = new THREE.MeshBasicMaterial( { map:gridTexture, vertexColors: THREE.VertexColors,side:THREE.DoubleSide } );
+      normMaterial = new THREE.MeshBasicMaterial( { vertexColors: THREE.VertexColors,side:THREE.DoubleSide } );
+      
+    if(typeof window.orientation === 'undefined') {
+	init();
+	animate();
+    }
+      
+      function init() 
+      {
+	  scene = new THREE.Scene();
+	  if ( Detector.webgl )
+	      renderer = new THREE.WebGLRenderer( {alpha:true, antialias:true} );
+	  else
+	      renderer = new THREE.CanvasRenderer(); 
+	  renderer.setSize(SCREEN_WIDTH, SCREEN_HEIGHT);
+	  container = document.getElementById( 'shell' );
+	  container.appendChild( renderer.domElement );
+	  var light = new THREE.PointLight(0xffffff);
+	  light.position.set(0,250,0);
+	  scene.add(light);
+	  
+	  // Background clear color
+	  // renderer.setClearColorHex( 0xffffff, 0 );
+	  
+	  top_surface(0,2*Math.PI,0,3,usegments,vsegments,scene,wireMaterial,new THREE.Color ( 0x000000 ), false);
+	  bottom_surface(0,2*Math.PI,0,3,usegments,vsegments,scene,wireMaterial,new THREE.Color ( 0x000000 ), false);
+	  shell_outer_surface(0,2*Math.PI,0,1,usegments,1,scene,gridMaterial,0,true);
+	  shell_inner_surface(0,2*Math.PI,0,1,usegments,1,scene,gridMaterial,0,true);
+	  shell_top_surface(0,2*Math.PI,1.9,2,usegments,1,scene,gridMaterial,0,true);
+	  shell_bottom_surface(0,2*Math.PI,1.9,2,usegments,1,scene,gridMaterial,0,true);
+	  resetCamera();
+      }
+      
+      
+      function resetCamera()
+      {
+	  // CAMERA
+	  //	var SCREEN_WIDTH = window.innerWidth/2, SCREEN_HEIGHT = window.innerHeight/2;
+	  var SCREEN_WIDTH = 400, SCREEN_HEIGHT = 400;
+	  var VIEW_ANGLE = 45, ASPECT = SCREEN_WIDTH / SCREEN_HEIGHT, NEAR = 0.1, FAR = 20000;
+	  //	camera = new THREE.PerspectiveCamera( VIEW_ANGLE, ASPECT, NEAR, FAR);
+	  var top = 4, bottom = -4;
+	  camera = new THREE.OrthographicCamera( -(top-bottom)/2*ASPECT,(top-bottom)/2*ASPECT,top,bottom, NEAR, FAR);
+	  //	camera.position.set( 2*xMax, 0.5*yMax, 4*zMax );
+	  var zoom=2.5;
+	  camera.position.x = zoom*2;
+	  camera.position.y = zoom*1.5;
+	  camera.position.z = zoom*1.5;
+	  //	camera.position.set( zoom*2,zoom*1.5,zoom*1.5);
+	  //	camera.up = new THREE.Vector3( 0, 0, 1 );
+	  //	camera.lookAt(scene.position);	
+	  camera.up.set( 0, 0, 1 ); 
+	  scene.add(camera);
+	  
+	  controls = new THREE.TrackballControls( camera, renderer.domElement );
+	  controls.rotateSpeed = 1;
+	  THREEx.WindowResize(renderer, camera);
+      }
+      
+      function animate() 
+      {
+	  requestAnimationFrame( animate );
+	    if ($('#shell').visible(true) && active) {
+		render();		
+		update();
+	    }
+      }
+      
+      function update()
+      {
+	  if ( keyboard.pressed("z") ) 
+	  { 
+	      // do something
+	  }
+	  
+	  controls.update();
+	  //	stats.update();
+      }
+      
+      function render() 
+      {
+	  renderer.render( scene, camera );
+      }
+  })
+  
+  function top_surface(umin,umax,vmin,vmax,useg,vseg,sc,material,color,solid)
+  {
+      
+      function x(u,v) {
+	  return v*Math.cos(u);
+      }
+      function y(u,v) {
+	  return v*Math.sin(u);
+      }
+      function z(u,v) {
+	  return v+1-2;
+      }
+      createGraph(x,y,z,umin,umax,vmin,vmax,useg,vseg,sc,material,color,solid);
+  }
+  
+  function bottom_surface(umin,umax,vmin,vmax,useg,vseg,sc,material,color,solid)
+  {
+      
+      function x(u,v) {
+	  return v*Math.cos(u);
+      }
+      function y(u,v) {
+	  return v*Math.sin(u);
+      }
+      function z(u,v) {
+	  return (v-1)*(v-1)-2;
+      }
+      createGraph(x,y,z,umin,umax,vmin,vmax,useg,vseg,sc,material,color,solid);
+  }
+  
+  function shell_outer_surface(umin,umax,vmin,vmax,useg,vseg,sc,material,color,solid)
+  {
+      
+      function x(u,v) {
+	  return 2*Math.cos(u);
+      }
+      function y(u,v) {
+	  return 2*Math.sin(u);
+      }
+      function z(u,v) {
+	  return 1+v*2-2;
+      }
+      createGraph(x,y,z,umin,umax,vmin,vmax,useg,vseg,sc,material,color,solid);
+  }
+  
+  function shell_inner_surface(umin,umax,vmin,vmax,useg,vseg,sc,material,color,solid)
+  {
+      
+      function x(u,v) {
+	  return 1.9*Math.cos(u);
+      }
+      function y(u,v) {
+	  return 1.9*Math.sin(u);
+      }
+      function z(u,v) {
+	  return 1+v*2-2;
+      }
+      createGraph(x,y,z,umin,umax,vmin,vmax,useg,vseg,sc,material,color,solid);
+  }
+  
+  function shell_top_surface(umin,umax,vmin,vmax,useg,vseg,sc,material,color,solid)
+  {
+      
+      function x(u,v) {
+	  return v*Math.cos(u);
+      }
+      function y(u,v) {
+	  return v*Math.sin(u);
+      }
+      function z(u,v) {
+	  return 3-2;
+      }
+      createGraph(x,y,z,umin,umax,vmin,vmax,useg,vseg,sc,material,color,solid);
+  }
+  
+  function shell_bottom_surface(umin,umax,vmin,vmax,useg,vseg,sc,material,color,solid)
+  {
+      
+      function x(u,v) {
+	  return v*Math.cos(u);
+      }
+      function y(u,v) {
+	  return v*Math.sin(u);
+      }
+      function z(u,v) {
+	  return 1-2;
+      }
+      createGraph(x,y,z,umin,umax,vmin,vmax,useg,vseg,sc,material,color,solid);
+  }
+  
+  function createGraph(xFunc,yFunc,zFunc,uMin,uMax,vMin,vMax,useg,vseg,sc,material,clr,solid)
+  {
+      var graphMesh;
+      uRange = uMax - uMin;
+      vRange = vMax - vMin;
+      meshFunction = function(u0, v0) 
+      {
+	  var u = uRange * u0 + uMin;
+	  var v = vRange * v0 + vMin;
+	  var x = xFunc(u,v);
+	  var y = yFunc(u,v);
+	  var z = zFunc(u,v);
+	  if ( isNaN(x) || isNaN(y) || isNaN(z) )
+	      return new THREE.Vector3(0,0,0); // TODO: better fix
+	  else
+	      return new THREE.Vector3(x, y, z);
+      };
+      
+      // true => sensible image tile repeat...
+      graphGeometry = new THREE.ParametricGeometry( meshFunction, useg, vseg, true );
+      
+      graphGeometry.computeBoundingBox();
+      zMin = graphGeometry.boundingBox.min.z;
+      zMax = graphGeometry.boundingBox.max.z;
+//      zRange = zMax - zMin;
+      zRange = 4;
+      xMin = graphGeometry.boundingBox.min.x;
+      xMax = graphGeometry.boundingBox.max.x;
+      xRange = xMax - xMin;
+      var defaultcolor = new THREE.Color( 0xff0000 );
+      var color, point, face, numberOfSides, vertexIndex;
+      // faces are indexed using characters
+      var faceIndices = [ 'a', 'b', 'c', 'd' ];
+      // first, assign colors to vertices as desired
+      if (solid) {
+	  for ( var i = 0; i < graphGeometry.vertices.length; i++ ) 
+	  {
+	      point = graphGeometry.vertices[ i ];
+	      color = new THREE.Color( 0x0000ff );
+//	      color.setHSL( 0.7 * (zMax - point.z) / zRange, 1, 0.5 );
+	      color.setHSL( 0.7 *(xMax-point.x)/xRange , 1, 0.4+0.3*(zMax - point.z) / zRange );
+	      graphGeometry.colors[i] = color; // use this array for convenience
+	  }
+	  // copy the colors as necessary to the face's vertexColors array.
+	  for ( var i = 0; i < graphGeometry.faces.length; i++ ) 
+	  {
+	      face = graphGeometry.faces[ i ];
+	      numberOfSides = ( face instanceof THREE.Face3 ) ? 3 : 4;
+	      for( var j = 0; j < numberOfSides; j++ ) 
+	      {
+		  vertexIndex = face[ faceIndices[ j ] ];
+		  face.vertexColors[ j ] = graphGeometry.colors[vertexIndex ];
+	      }
+	  }
+      } else {
+	  for ( var i = 0; i < graphGeometry.faces.length; i++ ) 
+	  {
+	      face = graphGeometry.faces[ i ];
+	      numberOfSides = ( face instanceof THREE.Face3 ) ? 3 : 4;
+	      for( var j = 0; j < numberOfSides; j++ ) 
+	      {
+		  face.vertexColors[ j ] = clr;
+	      }
+	  }
+      }      
+      xMin = graphGeometry.boundingBox.min.x;
+      xMax = graphGeometry.boundingBox.max.x;
+      yMin = graphGeometry.boundingBox.min.y;
+      yMax = graphGeometry.boundingBox.max.y;
+      
+      if (graphMesh) 
+      {
+	  sc.remove( graphMesh );
+	  // renderer.deallocateObject( graphMesh );
+      }
+      graphMesh = new THREE.Mesh( graphGeometry,material );
+      
+      graphMesh.doubleSided = true;
+      sc.add(graphMesh);
+  }
+</script>
+<div class='figcaption'><span class="figurenumber">Figure 9.3.6.</span> Computing volumes with "shells''.</div></div>
+<p>
+</p><p>
+</p>
+<div class="example">
+<p>
+<span class="theoremlabel">Example 9.3.5 </span>Suppose the area under $\ds y=-x^2+1$ between $x=0$ and $x=1$ is
+rotated around the $x$-axis. Find the volume by both methods.
+</p><p>
+
+Disk method: $\ds \int_0^1 \pi(1-x^2)^2\,dx={8\over15}\pi$.
+</p><p>
+
+Shell method: $\ds \int_0^1 2\pi y \sqrt{1-y}\,dy={8\over15}\pi$.
+
+</p>
+</div><!-- example -->
+<p>
+</p><p>
+</p>
+<a id="exercises"></a><h2 class="exercises">Exercises 9.3</h2>
+<p></p><p>
+</p>
+<p class="exercise"><b>Ex 9.3.1</b>
+Verify that $\ds\pi\int_0^1 (1+\sqrt{y})^2-(1-\sqrt{y})^2\,dy+
+\pi\int_1^4  (1+\sqrt{y})^2-(y-1)^2={8\over3}\pi + {65\over6}\pi
+={27\over2}\pi$.
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 9.3.2</b>
+Verify that $\ds\int_0^3 2\pi x(x+1-(x-1)^2)\,dx={27\over2}\pi$.
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 9.3.3</b>
+Verify that $\ds \int_0^1 \pi(1-x^2)^2\,dx={8\over15}\pi$.
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 9.3.4</b>
+Verify that $\ds \int_0^1 2\pi y \sqrt{1-y}\,dy={8\over15}\pi$.
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 9.3.5</b>
+Use integration to find the volume of the solid obtained by revolving 
+the region bounded by $x+y=2$ and the $x$ and $y$ axes around the
+$x$-axis. 
+(<a knowl="" class="internal" value="$8\pi/3$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 9.3.6</b>
+Find the volume of the solid obtained by revolving 
+the region bounded by $\ds y=x-x^2$
+and the $x$-axis around the
+$x$-axis. 
+(<a knowl="" class="internal" value="$\pi/30$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 9.3.7</b>
+Find the volume of the solid obtained by revolving 
+the region bounded by $\ds y=\sqrt{\sin x}$ between $x=0$ and
+$x=\pi/2$, the $y$-axis, and the line
+$y=1$ around the
+$x$-axis. 
+(<a knowl="" class="internal" value="$\pi(\pi/2-1)$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 9.3.8</b>
+Let $S$ be the region of the $xy$-plane bounded above by the curve
+$\ds x^3y=64$, below by the line $y=1$, on the left by  the line $x=2$, and
+on the right by the line $x=4$.  Find
+the volume of the solid obtained by rotating $S$ around (a) the $x$-axis,
+(b) the line $y=1$, (c) the $y$-axis, (d) the line $x=2$.
+(<a knowl="" class="internal" value="(a) $114\pi/5$ (b) $74\pi/5$ (c) $20\pi$
+(d) $4\pi$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 9.3.9</b>
+The equation $\ds x^2/9+y^2/4=1$ describes an ellipse.  Find the
+volume of the solid obtained by rotating the ellipse around the
+$x$-axis and also around the $y$-axis. These solids are
+called <b>ellipsoids</b>; one is vaguely rugby-ball shaped, one is
+sort of flying-saucer shaped, or perhaps squished-beach-ball-shaped.
+(<a knowl="" class="internal" value="$16\pi$, $24\pi$">answer</a>)
+
+</p><p>
+<a id="fig:ellipsoids"></a>
+</p><div class='figure'><!-- Integration_applications-ellipsoids.html -->
+<!-- Figure 9.3.7 -->
+
+<table style="width:100%">
+<tr style="width:100%">
+<td style="text_align:center">
+<img src="images/rugby.png">
+</td><td style="text_align:center">
+<img src="images/ufo.png">
+</td></tr></table>
+<div class='figcaption'><span class="figurenumber">Figure 9.3.7.</span> Ellipsoids.</div></div>
+<p>
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 9.3.10</b>
+Use integration to compute the volume of a sphere of radius
+$r$. You should of course get the well-known formula $\ds 4\pi r^3/3$.
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 9.3.11</b>
+A hemispheric bowl of radius $r$ contains water to a depth $h$.  Find
+the volume of water in the bowl.
+(<a knowl="" class="internal" value="$\ds \pi h^2(3r-h)/3$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 9.3.12</b>
+The base of a tetrahedron (a triangular pyramid) of height $h$
+is an equilateral triangle of side $s$.  Its cross-sections
+perpendicular to an altitude are equilateral triangles.  Express its
+volume $V$ as an integral, and find a formula for $V$ in terms of $h$
+and $s$. Verify that your answer is $(1/3)(\hbox{area of
+  base})(\hbox{height})$. 
+</p><p>
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 9.3.13</b>
+The base of a solid is the region between $f(x)=\cos x$ and
+$g(x)=-\cos x$, $-\pi/2\le x\le\pi/2$,
+and its cross-sections perpendicular to the $x$-axis 
+are squares.
+Find the volume of the solid.
+(<a knowl="" class="internal" value="$2\pi$">answer</a>)
+
+
+</p><p>
+
+
+</p><p>
+</div></div></body>
+</html>

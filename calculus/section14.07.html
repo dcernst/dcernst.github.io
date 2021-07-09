@@ -1,0 +1,1791 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+<meta http-equiv="Content-Language" Content="en">
+<title>14.7 Maxima and minima</title>
+<!--
+<script type="text/javascript" src="js/deployJava.js"></script>
+<link rel="stylesheet" type="text/css" href="http://jsxgraph.uni-bayreuth.de/distrib/jsxgraph.css" />
+-->
+<!-- use Jsxgraph to create figures: http://jsxgraph.uni-bayreuth.de/wp/ -->
+<link rel="stylesheet" type="text/css" href="css/jsxgraph.css" />
+<script type="text/javascript" src="js/jsxgraphcore.js"></script>
+<script src="js/three.min.js"></script>
+<script src="js/Detector.js"></script>
+<script src="js/TrackballControls.js"></script>
+<script src="js/OrthographicTrackballControls.js"></script>
+<script src="js/THREEx.KeyboardState.js"></script>
+<script src="js/THREEx.FullScreen.js"></script>
+<script src="js/THREEx.WindowResize.js"></script>
+<script type='text/javascript' src='js/DAT.GUI.min.js'></script>
+<script>
+window.requestAnimFrame = (function(){
+    return  window.requestAnimationFrame       || 
+        window.webkitRequestAnimationFrame || 
+        window.mozRequestAnimationFrame    || 
+        window.oRequestAnimationFrame      || 
+        window.msRequestAnimationFrame     || 
+        function(/* function */ callback, /* DOMElement */
+            element){
+            window.setTimeout(callback, 1000 / 60);
+        };
+})();
+</script>
+<script src="js/ifvisible.min.js"></script>
+<script src="js/conrec.js"></script>
+<script>
+active = true;
+ifvisible.setIdleDuration(10);
+ifvisible.on("idle", function(){
+    active = false;
+//    console.log("idle");
+});
+
+ifvisible.on("wakeup", function(){
+    active = true;
+//    console.log("wakeup");
+});
+</script>
+<script src="js/parser.js"></script>
+<link href="css/whitman.css" rel="stylesheet" type="text/css" /><link href="css/calculus.css" rel="stylesheet" type="text/css" /><link href="css/knowlstyle.css" rel="stylesheet" type="text/css" />
+
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  extensions: ["tex2jax.js","TeX/AMSmath.js","TeX/AMSsymbols.js"],
+  jax: ["input/TeX","output/HTML-CSS"],
+  tex2jax: {
+    inlineMath: [['$','$'],["\\(","\\)"]],
+    processEscapes: true,
+  },
+TeX: {
+   Macros: {
+    val: "\\mathop{\\rm val}",
+    divides: "\\mid",
+    ndivides: "\\mathrel{\\not|}",
+    fix: "\\mathop{\\rm fix}",
+    id: "\\mathop{\\rm id}",
+    na: "\\mathop{\\rm na}",
+    d: "\\mathop{\\rm\\strut d}\\nolimits ",
+    legendre: ["\\left(\\frac{#1}{#2}\\right)",2],
+    normalbaselines: "",
+    notdiv: "\\nmid",
+    implies: "\\Rightarrow",
+    iff: "\\Leftrightarrow",
+    sevenpoint: "\\scriptsize",
+    ds: "\\displaystyle",
+    lcm: "\\operatorname{lcm}",
+    arccot: "\\operatorname{arccot}",
+    arcsec: "\\operatorname{arcsec}",
+    arccsc: "\\operatorname{arccsc}",
+    arccosh: "\\operatorname{arccosh}",
+    arcsinh: "\\operatorname{arcsinh}",
+    arcsech: "\\operatorname{arcsech}",
+    sech: "\\operatorname{sech}",
+    csch: "\\operatorname{csch}",
+    R: "{\\mathbb R}",
+    sb: "_",
+    sp: "^",
+    Q: "{\\mathbb Q}",
+    C: "{\\mathbb C}",
+    N: "{\\mathbb N}",
+    Z: "{\\mathbb Z}",
+    U: "{\\mathbb U}",
+    v: ["\\langle #1\\rangle",1],
+    dint: ["{\\mathchoice{\\mathop{\\int\\!\\!\\!\\int}_{#1}}{\\mathop{\\int\\!\\!\\!\\int}_{#1}}{\\mathop{\\int\\!\\!\\!\\int}}{\\mathop{\\int\\!\\!\\!\\int}}}",1],
+    tint: ["{\\mathchoice{\\mathop{\\int\\!\\!\\!\\int\\!\\!\\!\\int}_{#1\\;}}{\\mathop{\\int\\!\\!\\!\\int\\!\\!\\!\\int}_{#1}}{\\mathop{\\int\\!\\!\\!\\int\\!\\!\\!\\int}_{#1}}{\\mathop{\\int\\!\\!\\!\\int\\!\\!\\!\\int}_{#1}}}",1]
+   }
+},
+  "HTML-CSS": { scale: 100},
+  menuSettings: { zscale: "150%", zoom: "Double-Click" }
+});
+    JXG.Options.text.display = 'html';
+    JXG.Options.text.useMathJax = true;
+</script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/math
+jax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+<script>
+MathJax.Hub.Register.StartupHook("End",function () {
+  if(typeof window.orientation === 'undefined'){
+    var i,x;
+    x = document.getElementsByClassName("webgl_display");
+    for (i=0; i<x.length; i++) {
+      x[i].style.display = "block";
+    }
+    x = document.getElementsByClassName("no_webgl_display");
+    for (i=0; i<x.length; i++) {
+      x[i].style.display = "none";
+    }
+  }
+});
+</script>
+
+<script src="js/jquery-3.1.0.min.js"></script>
+<script src="https://sagecell.sagemath.org/static/embedded_sagecell.js"></script>
+<script src="js/jquery.visible.min.js"></script>
+<script type="text/javascript" src="js/knowl.js"></script>
+<style type="text/css">
+
+.sagecell .CodeMirror {
+  height: auto;
+}
+
+.sagecell .CodeMirror-scroll {
+  overflow-y: hidden;
+  overflow-x: auto;
+}
+
+.sagecell-practice .CodeMirror-scroll {
+}
+
+.sagecell button.sagecell_evalButton {
+    font-size: 50%;
+}
+
+.sagecell_sessionContainer {
+    margin-bottom:1em;
+}
+</style>
+<script>
+function toggle(a) {
+  var b = String(a);
+  b=b.replace("contents","button");
+  if (document.getElementById(a).style.display == "block") {
+    document.getElementById(a).style.display = "none";
+    document.getElementById(b).src = "expand_submenu.png";
+  } else {
+    document.getElementById(a).style.display = "block";
+    document.getElementById(b).src = "collapse_submenu.png";
+  }
+}
+function toggle_sidebar() {
+  if (document.getElementById('sidebar').style.display == "block") {
+    document.getElementById('sidebar').style.display = "none";
+    document.getElementById('menu_expand').style.display = "block";
+  } else {
+    document.getElementById('sidebar').style.display = "block";
+    document.getElementById('menu_expand').style.display = "none";
+  }
+}
+</script>
+
+</head>
+
+<body class="" onload="toggle('chapter_14_contents')">
+<div id="header">
+<div class="right">
+<div class="bread">
+  <a href=".">Home</a> &raquo; <a href="chapter14.html">Partial Differentiation</a> &raquo; <a href="section14.07.html">Maxima and minima</a>
+</div>
+
+<FORM method=GET action=https://www.google.com/custom id="search">
+<INPUT TYPE=text name=q size=31 maxlength=255 value="" style="font-size:small">
+<INPUT type=submit name=sa VALUE="Search the book" style="font-size:small">
+<INPUT type=hidden name=cof VALUE="AH:center;AWFID:198dc2b883340b1f;">
+<input type=hidden name=domains value="www.whitman.edu">
+<input type=hidden name=sitesearch value="www.whitman.edu/mathematics/calculus_online/">
+</FORM>
+<div id="title"><span id="title-content">14.7 Maxima and minima</span></div><a href="#exercises">[Jump to exercises]</a>
+</div>
+</div>
+<div id="menu_expand" style="display:none"><a href="javascript:toggle_sidebar()">Expand menu</a></div>
+<div id="sidebar" style="display:block">
+<h2 id="menu_collapse"><a href='javascript:toggle_sidebar()'>Collapse menu</a></h2>
+<h2 class="link"><img id="chapter_01_button" src="expand_submenu.png" onclick='toggle("chapter_01_contents")'><a href="chapter01.html">1 Analytic Geometry</a></h2>
+
+<ul class="list" id="chapter_01_contents">
+<li><a href="section01.01.html">1. Lines</a></li>
+<li><a href="section01.02.html">2. Distance Between Two Points; Circles</a></li>
+<li><a href="section01.03.html">3. Functions</a></li>
+<li><a href="section01.04.html">4. Shifts and Dilations</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_02_button" src="expand_submenu.png" onclick='toggle("chapter_02_contents")'><a href="chapter02.html">2 Instantaneous Rate of Change:  The Derivative</a></h2>
+
+<ul class="list" id="chapter_02_contents">
+<li><a href="section02.01.html">1. The slope of a function</a></li>
+<li><a href="section02.02.html">2. An example</a></li>
+<li><a href="section02.03.html">3. Limits</a></li>
+<li><a href="section02.04.html">4. The Derivative Function</a></li>
+<li><a href="section02.05.html">5. Adjectives For Functions</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_03_button" src="expand_submenu.png" onclick='toggle("chapter_03_contents")'><a href="chapter03.html">3 Rules for Finding Derivatives</a></h2>
+
+<ul class="list" id="chapter_03_contents">
+<li><a href="section03.01.html">1. The Power Rule</a></li>
+<li><a href="section03.02.html">2. Linearity of the Derivative</a></li>
+<li><a href="section03.03.html">3. The Product Rule</a></li>
+<li><a href="section03.04.html">4. The Quotient Rule</a></li>
+<li><a href="section03.05.html">5. The Chain Rule</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_04_button" src="expand_submenu.png" onclick='toggle("chapter_04_contents")'><a href="chapter04.html">4 Transcendental Functions</a></h2>
+
+<ul class="list" id="chapter_04_contents">
+<li><a href="section04.01.html">1. Trigonometric Functions</a></li>
+<li><a href="section04.02.html">2. The Derivative of $\sin x$</a></li>
+<li><a href="section04.03.html">3. A hard limit</a></li>
+<li><a href="section04.04.html">4. The Derivative of $\sin x$, continued</a></li>
+<li><a href="section04.05.html">5. Derivatives of the Trigonometric Functions</a></li>
+<li><a href="section04.06.html">6. Exponential and Logarithmic functions</a></li>
+<li><a href="section04.07.html">7. Derivatives of the exponential and  logarithmic functions</a></li>
+<li><a href="section04.08.html">8. Implicit Differentiation</a></li>
+<li><a href="section04.09.html">9. Inverse Trigonometric Functions</a></li>
+<li><a href="section04.10.html">10. Limits revisited</a></li>
+<li><a href="section04.11.html">11. Hyperbolic Functions</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_05_button" src="expand_submenu.png" onclick='toggle("chapter_05_contents")'><a href="chapter05.html">5 Curve Sketching</a></h2>
+
+<ul class="list" id="chapter_05_contents">
+<li><a href="section05.01.html">1. Maxima and Minima</a></li>
+<li><a href="section05.02.html">2. The first derivative test</a></li>
+<li><a href="section05.03.html">3. The second derivative test</a></li>
+<li><a href="section05.04.html">4. Concavity and inflection points</a></li>
+<li><a href="section05.05.html">5. Asymptotes and Other Things to Look For</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_06_button" src="expand_submenu.png" onclick='toggle("chapter_06_contents")'><a href="chapter06.html">6 Applications of the Derivative</a></h2>
+
+<ul class="list" id="chapter_06_contents">
+<li><a href="section06.01.html">1. Optimization</a></li>
+<li><a href="section06.02.html">2. Related Rates</a></li>
+<li><a href="section06.03.html">3. Newton's Method</a></li>
+<li><a href="section06.04.html">4. Linear Approximations</a></li>
+<li><a href="section06.05.html">5. The Mean Value Theorem</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_07_button" src="expand_submenu.png" onclick='toggle("chapter_07_contents")'><a href="chapter07.html">7 Integration</a></h2>
+
+<ul class="list" id="chapter_07_contents">
+<li><a href="section07.01.html">1. Two examples</a></li>
+<li><a href="section07.02.html">2. The Fundamental Theorem of Calculus</a></li>
+<li><a href="section07.03.html">3. Some Properties of Integrals</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_08_button" src="expand_submenu.png" onclick='toggle("chapter_08_contents")'><a href="chapter08.html">8 Techniques of Integration</a></h2>
+
+<ul class="list" id="chapter_08_contents">
+<li><a href="section08.01.html">1. Substitution</a></li>
+<li><a href="section08.02.html">2. Powers of sine and cosine</a></li>
+<li><a href="section08.03.html">3. Trigonometric Substitutions</a></li>
+<li><a href="section08.04.html">4. Integration by Parts</a></li>
+<li><a href="section08.05.html">5. Rational Functions</a></li>
+<li><a href="section08.06.html">6. Numerical Integration</a></li>
+<li><a href="section08.07.html">7. Additional exercises</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_09_button" src="expand_submenu.png" onclick='toggle("chapter_09_contents")'><a href="chapter09.html">9 Applications of Integration</a></h2>
+
+<ul class="list" id="chapter_09_contents">
+<li><a href="section09.01.html">1. Area between curves</a></li>
+<li><a href="section09.02.html">2. Distance, Velocity, Acceleration</a></li>
+<li><a href="section09.03.html">3. Volume</a></li>
+<li><a href="section09.04.html">4. Average value of a function</a></li>
+<li><a href="section09.05.html">5. Work</a></li>
+<li><a href="section09.06.html">6. Center of Mass</a></li>
+<li><a href="section09.07.html">7. Kinetic energy; improper integrals</a></li>
+<li><a href="section09.08.html">8. Probability</a></li>
+<li><a href="section09.09.html">9. Arc Length</a></li>
+<li><a href="section09.10.html">10. Surface Area</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_10_button" src="expand_submenu.png" onclick='toggle("chapter_10_contents")'><a href="chapter10.html">10 Polar Coordinates,  Parametric Equations</a></h2>
+
+<ul class="list" id="chapter_10_contents">
+<li><a href="section10.01.html">1. Polar Coordinates</a></li>
+<li><a href="section10.02.html">2. Slopes in polar coordinates</a></li>
+<li><a href="section10.03.html">3. Areas in polar coordinates</a></li>
+<li><a href="section10.04.html">4. Parametric Equations</a></li>
+<li><a href="section10.05.html">5. Calculus with Parametric Equations</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_11_button" src="expand_submenu.png" onclick='toggle("chapter_11_contents")'><a href="chapter11.html">11 Sequences and Series</a></h2>
+
+<ul class="list" id="chapter_11_contents">
+<li><a href="section11.01.html">1. Sequences</a></li>
+<li><a href="section11.02.html">2. Series</a></li>
+<li><a href="section11.03.html">3. The Integral Test</a></li>
+<li><a href="section11.04.html">4. Alternating Series</a></li>
+<li><a href="section11.05.html">5. Comparison Tests</a></li>
+<li><a href="section11.06.html">6. Absolute Convergence</a></li>
+<li><a href="section11.07.html">7. The Ratio and Root Tests</a></li>
+<li><a href="section11.08.html">8. Power Series</a></li>
+<li><a href="section11.09.html">9. Calculus with Power Series</a></li>
+<li><a href="section11.10.html">10. Taylor Series</a></li>
+<li><a href="section11.11.html">11. Taylor's Theorem</a></li>
+<li><a href="section11.12.html">12. Additional exercises</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_12_button" src="expand_submenu.png" onclick='toggle("chapter_12_contents")'><a href="chapter12.html">12 Three Dimensions</a></h2>
+
+<ul class="list" id="chapter_12_contents">
+<li><a href="section12.01.html">1. The Coordinate System</a></li>
+<li><a href="section12.02.html">2. Vectors</a></li>
+<li><a href="section12.03.html">3. The Dot Product</a></li>
+<li><a href="section12.04.html">4. The Cross Product</a></li>
+<li><a href="section12.05.html">5. Lines and Planes</a></li>
+<li><a href="section12.06.html">6. Other Coordinate Systems</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_13_button" src="expand_submenu.png" onclick='toggle("chapter_13_contents")'><a href="chapter13.html">13 Vector Functions</a></h2>
+
+<ul class="list" id="chapter_13_contents">
+<li><a href="section13.01.html">1. Space Curves</a></li>
+<li><a href="section13.02.html">2. Calculus with vector functions</a></li>
+<li><a href="section13.03.html">3. Arc length and curvature</a></li>
+<li><a href="section13.04.html">4. Motion along a curve</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_14_button" src="expand_submenu.png" onclick='toggle("chapter_14_contents")'><a href="chapter14.html">14 Partial Differentiation</a></h2>
+
+<ul class="list" id="chapter_14_contents">
+<li><a href="section14.01.html">1. Functions of Several Variables</a></li>
+<li><a href="section14.02.html">2. Limits and Continuity</a></li>
+<li><a href="section14.03.html">3. Partial Differentiation</a></li>
+<li><a href="section14.04.html">4. The Chain Rule</a></li>
+<li><a href="section14.05.html">5. Directional Derivatives</a></li>
+<li><a href="section14.06.html">6. Higher order derivatives</a></li>
+<li><a href="section14.07.html">7. Maxima and minima</a></li>
+<li><a href="section14.08.html">8. Lagrange Multipliers</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_15_button" src="expand_submenu.png" onclick='toggle("chapter_15_contents")'><a href="chapter15.html">15 Multiple Integration</a></h2>
+
+<ul class="list" id="chapter_15_contents">
+<li><a href="section15.01.html">1. Volume and Average Height</a></li>
+<li><a href="section15.02.html">2. Double Integrals in Cylindrical Coordinates</a></li>
+<li><a href="section15.03.html">3. Moment and Center of Mass</a></li>
+<li><a href="section15.04.html">4. Surface Area</a></li>
+<li><a href="section15.05.html">5. Triple Integrals</a></li>
+<li><a href="section15.06.html">6. Cylindrical and Spherical Coordinates</a></li>
+<li><a href="section15.07.html">7. Change of Variables</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_16_button" src="expand_submenu.png" onclick='toggle("chapter_16_contents")'><a href="chapter16.html">16 Vector Calculus</a></h2>
+
+<ul class="list" id="chapter_16_contents">
+<li><a href="section16.01.html">1. Vector Fields</a></li>
+<li><a href="section16.02.html">2. Line Integrals</a></li>
+<li><a href="section16.03.html">3. The Fundamental Theorem of Line Integrals</a></li>
+<li><a href="section16.04.html">4. Green's Theorem</a></li>
+<li><a href="section16.05.html">5. Divergence and Curl</a></li>
+<li><a href="section16.06.html">6. Vector Functions for Surfaces</a></li>
+<li><a href="section16.07.html">7. Surface Integrals</a></li>
+<li><a href="section16.08.html">8. Stokes's Theorem</a></li>
+<li><a href="section16.09.html">9. The Divergence Theorem</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_17_button" src="expand_submenu.png" onclick='toggle("chapter_17_contents")'><a href="chapter17.html">17 Differential Equations</a></h2>
+
+<ul class="list" id="chapter_17_contents">
+<li><a href="section17.01.html">1. First Order Differential Equations</a></li>
+<li><a href="section17.02.html">2. First Order Homogeneous Linear Equations</a></li>
+<li><a href="section17.03.html">3. First Order Linear Equations</a></li>
+<li><a href="section17.04.html">4. Approximation</a></li>
+<li><a href="section17.05.html">5. Second Order Homogeneous Equations</a></li>
+<li><a href="section17.06.html">6. Second Order Linear Equations</a></li>
+<li><a href="section17.07.html">7. Second Order Linear Equations, take two</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_18_button" src="expand_submenu.png" onclick='toggle("chapter_18_contents")'><a href="chapter18.html">18 Useful formulas</a></h2>
+
+<ul class="list" id="chapter_18_contents">
+</ul>
+
+</div>
+
+<div id="main">
+
+<div id="next"><a href="section14.06.html"><img src=previous_section.png width="30"></a>&nbsp;&nbsp;<a href="section14.08.html"><img src=next_section.png width="30"></a></div>
+
+<div id="content">
+<p>
+
+
+</p><p>
+Suppose a surface given by $f(x,y)$ has a local maximum at
+$(x_0,y_0,z_0)$; geometrically, this point on the surface looks like
+the top of a hill. If we look at the cross-section in the plane
+$y=y_0$, we will see a local maximum on the curve at $(x_0,z_0)$, and
+we know from single-variable calculus that ${\partial z\over\partial x}=0$
+at this point. Likewise, in the plane $x=x_0$, ${\partial
+  z\over\partial y}=0$. So if there is a local maximum at
+$(x_0,y_0,z_0)$, both partial derivatives at the point must be zero,
+and likewise for a local minimum. Thus, to find local maximum and
+minimum points, we need only consider those points at which both
+partial derivatives are 0. As in the single-variable case, it is
+possible for the derivatives to be 0 at a point that is neither a
+maximum or a minimum, so we need to test these points further.
+</p><p>
+You will recall that in the single variable case, we examined three
+methods to identify maximum and minimum points; the most useful is the
+second derivative test, though it does not always work. For functions
+of two variables there is also a second derivative test; again it is
+by far the most useful test, though it doesn't always work.
+</p><p>
+</p>
+<div class="theorem">
+<p>
+<span class="theoremlabel">Theorem 14.7.1 </span>Suppose that the second partial derivatives of $f(x,y)$ are
+continuous near $(x_0,y_0)$, and $f_x(x_0,y_0)=f_y(x_0,y_0)=0$.
+We denote by $D$ the <b>discriminant</b>:
+$$D(x_0,y_0)=f_{xx}(x_0,y_0)f_{yy}(x_0,y_0)-f_{xy}(x_0,y_0)^2.$$
+</p><p>
+<table>
+<tr>
+  <td>If $D>0$:</td><td></td><td></td>
+</tr>
+<tr>
+  <td></td>
+  <td>if $f_{xx}(x_0,y_0)< 0$:
+  there is a local maximum at $(x_0,y_0)$;</td>
+</tr><tr>
+  <td></td><td>if $f_{xx}(x_0,y_0)>0$: there is a local minimum
+  at $(x_0,y_0)$;</td>
+</tr>
+<tr>
+  <td>If $D< 0$:</td><td>there is neither a maximum nor a minimum at $(x_0,y_0)$;</td><td></td>
+</tr>
+<tr>
+  <td>If $D=0$:</td><td>the test fails.</td><td></td>
+</tr>
+</table> 
+
+</p>
+</div><!-- theorem -->
+<p>
+</p><p>
+</p>
+<div class="example">
+<p>
+<span class="theoremlabel">Example 14.7.2 </span>Verify that $f(x,y)=x^2+y^2$ has a minimum at $(0,0)$.
+</p><p>
+First, we compute all the needed derivatives:
+$$f_x=2x \qquad f_y=2y \qquad f_{xx}=2 \qquad f_{yy}=2 \qquad
+f_{xy}=0.$$
+The derivatives $f_x$ and $f_y$ are zero only at $(0,0)$. Applying the
+second derivative test there:
+$$D(0,0)=f_{xx}(0,0)f_{yy}(0,0)-f_{xy}(0,0)^2=
+2\cdot2-0=4>0$$
+and
+$$f_{xx}(0,0)=2>0,$$
+so there is a local minimum at $(0,0)$, and there are no other
+possibilities. 
+
+</p>
+</div><!-- example -->
+<p>
+</p><p>
+</p>
+<div class="example">
+<p>
+<span class="theoremlabel">Example 14.7.3 </span>Find all local maxima and minima for $f(x,y)=x^2-y^2$.
+</p><p>
+The derivatives:
+$$f_x=2x \qquad f_y=-2y \qquad f_{xx}=2 \qquad f_{yy}=-2 \qquad
+f_{xy}=0.$$
+Again there is a single critical point, at $(0,0)$, and
+$$D(0,0)=f_{xx}(0,0)f_{yy}(0,0)-f_{xy}(0,0)^2=
+2\cdot-2-0=-4< 0,$$
+so there is neither a maximum nor minimum there, and so there are no
+local maxima or minima. The surface is shown in
+figure <a href="section14.07.html#fig:saddle">14.7.1</a>. 
+
+</p>
+</div><!-- example -->
+<p>
+</p><p>
+<a id="fig:saddle"></a>
+</p><div class='figure'><!-- Partial_Differentiation_saddle_point.html -->
+<!-- Figure 14.7.1 -->
+
+<div id='saddle_point' class="webgl_display" style="display:none;text-align:center"></div>
+<div class="no_webgl_display"
+     style="display:block;text-align:center">
+<a href="http://www.whitman.edu/mathematics/calculus_applets/saddle">
+<img src="images/saddle.png" width=350></a>
+</div>
+
+<script>
+    MathJax.Hub.Register.StartupHook("End",function(){    
+	var xoffset = 0; yoffset = 0; zoffset = 0;
+	var SCREEN_WIDTH = 400, SCREEN_HEIGHT = 400;
+	var container, scene, camera, renderer, controls;
+	var keyboard = new THREEx.KeyboardState();
+	var clock = new THREE.Clock();
+	var meshFunction;
+	var usegments = 40, vsegments=10;
+	
+	var xMin = xMax = yMin = yMax = 0; // for autosizing window
+	
+	var graphGeometry;
+	
+	if(typeof window.orientation === 'undefined') {
+	    init();
+	    animate();
+	}
+	
+	function init() 
+	{
+	    scene = new THREE.Scene();
+	    if ( Detector.webgl )
+		renderer = new THREE.WebGLRenderer( {alpha:true, antialias:true} );
+	    else
+		renderer = new THREE.CanvasRenderer(); 
+	    renderer.setSize(SCREEN_WIDTH, SCREEN_HEIGHT);
+	    container = document.getElementById( 'saddle_point' );
+	    container.appendChild( renderer.domElement );
+	    var light = new THREE.PointLight(0xffffff,1,100);
+	    light.position.set(3,3,10);
+	    scene.add(light);
+	    var light_amb = new THREE.AmbientLight( 0xaaaaaa ); // soft white light
+	    scene.add( light_amb );
+	    
+	    // Background clear color
+	    // renderer.setClearColorHex( 0xffffff, 0 );
+	    
+	    plot_it_0();
+	    plot_it_1();
+	    plot_it_2();
+	    plot_it_3();
+	    plot_axes();
+	    resetCamera();
+	}
+	
+	
+	function resetCamera()
+	{
+	    var VIEW_ANGLE = 35, ASPECT = SCREEN_WIDTH / SCREEN_HEIGHT, NEAR = 0.1, FAR = 20000;
+	    // Orthog camera
+	    //      var zoom = 3;
+	    //      camera = new THREE.OrthographicCamera( -zoom*ASPECT,zoom*ASPECT,zoom,-zoom, NEAR, FAR);
+	    //      camera.position.x = zoom*2;
+	    //      camera.position.y = zoom*1.5;
+	    //      camera.position.z = zoom*1.5;
+	    // Perspective camera
+	    camera = new THREE.PerspectiveCamera( VIEW_ANGLE, ASPECT, NEAR, FAR);
+	    scene.add(camera);
+	    camera.position.set(10,20,20);
+	    camera.lookAt(scene.position);  
+	    
+	    camera.up.set( 0, 0, 1 ); 
+	    scene.add(camera);
+	    
+	    controls = new THREE.TrackballControls( camera, renderer.domElement );
+	    controls.rotateSpeed = 1;
+	    THREEx.WindowResize(renderer, camera);
+	}
+	
+	function animate() 
+	{
+	    requestAnimationFrame( animate );
+	    if ($('#saddle_point').visible(true) && active ) {
+		render();
+		update();
+	    }
+	}
+
+	function update()
+	{
+	    if ( keyboard.pressed("z") ) 
+	    { 
+		// do something
+	    }
+	    
+	    controls.update();
+	    //	stats.update();
+	}
+	
+	function render() 
+	{
+	    renderer.render( scene, camera );
+	}
+	
+	
+	function plot_it_0()
+	{
+	    var loader = new THREE.TextureLoader();
+	    var gridTexture = loader.load( 'images/square.png');
+	    gridTexture.wrapS = gridTexture.wrapT = THREE.RepeatWrapping;
+	    gridTexture.repeat.set( 20,20 );
+	    var normMaterial = new THREE.MeshBasicMaterial( { transparent:true, opacity:0.3, vertexColors: THREE.VertexColors,side:THREE.DoubleSide } );
+	    var gridMaterial = new THREE.MeshBasicMaterial( { map:gridTexture, vertexColors: THREE.VertexColors,side:THREE.DoubleSide } );
+	    var useg = 40,vseg = 20
+	    function x(u,v) {
+		return Math.sqrt(u*u+v)+xoffset;
+	    }
+	    function y(u,v) {
+		return u+yoffset;
+	    }
+	    function z(u,v) {
+		return v+zoffset;
+	    }
+	    createGraph(x,y,z,-5,5,0,5,useg,vseg,scene,gridMaterial,new THREE.Color( 0xaaaa00 ),false,false);
+	}
+	
+	function plot_it_1()
+	{
+	    var loader = new THREE.TextureLoader();
+	    var gridTexture = loader.load( 'images/square.png');
+	    gridTexture.wrapS = gridTexture.wrapT = THREE.RepeatWrapping;
+	    gridTexture.repeat.set( 20,20 );
+	    var normMaterial = new THREE.MeshBasicMaterial( { transparent:true, opacity:0.3, vertexColors: THREE.VertexColors,side:THREE.DoubleSide } );
+	    var gridMaterial = new THREE.MeshBasicMaterial( { map:gridTexture, vertexColors: THREE.VertexColors,side:THREE.DoubleSide } );
+	    var useg = 40,vseg = 20
+	    function x(u,v) {
+		return -Math.sqrt(u*u+v)+xoffset;
+	    }
+	    function y(u,v) {
+		return u+yoffset;
+	    }
+	    function z(u,v) {
+		return v+zoffset;
+	    }
+	    createGraph(x,y,z,-5,5,0,5,useg,vseg,scene,gridMaterial,new THREE.Color( 0xaaaa00 ),false,false);
+	}
+	
+	function plot_it_2()
+	{
+	    var loader = new THREE.TextureLoader();
+	    var gridTexture = loader.load( 'images/square.png');
+	    gridTexture.wrapS = gridTexture.wrapT = THREE.RepeatWrapping;
+	    gridTexture.repeat.set( 20,20 );
+	    var normMaterial = new THREE.MeshBasicMaterial( { transparent:true, opacity:0.3, vertexColors: THREE.VertexColors,side:THREE.DoubleSide } );
+	    var gridMaterial = new THREE.MeshBasicMaterial( { map:gridTexture, vertexColors: THREE.VertexColors,side:THREE.DoubleSide } );
+	    var useg = 40,vseg = 20
+	    function x(u,v) {
+		return u+xoffset;
+	    }
+	    function y(u,v) {
+		return Math.sqrt(u*u-v)+yoffset;
+	    }
+	    function z(u,v) {
+		return v+zoffset;
+	    }
+	    createGraph(x,y,z,-5,5,-5,0,useg,vseg,scene,gridMaterial,new THREE.Color( 0xaaaa00 ),false,false);
+	}
+	
+	function plot_it_3()
+	{
+	    var loader = new THREE.TextureLoader();
+	    var gridTexture = loader.load( 'images/square.png');
+	    gridTexture.wrapS = gridTexture.wrapT = THREE.RepeatWrapping;
+	    gridTexture.repeat.set( 20,20 );
+	    var normMaterial = new THREE.MeshBasicMaterial( { transparent:true, opacity:0.3, vertexColors: THREE.VertexColors,side:THREE.DoubleSide } );
+	    var gridMaterial = new THREE.MeshBasicMaterial( { map:gridTexture, vertexColors: THREE.VertexColors,side:THREE.DoubleSide } );
+	    var useg = 40,vseg = 20
+	    function x(u,v) {
+		return u+xoffset;
+	    }
+	    function y(u,v) {
+		return -Math.sqrt(u*u-v)+yoffset;
+	    }
+	    function z(u,v) {
+		return v+zoffset;
+	    }
+	    createGraph(x,y,z,-5,5,-5,0,useg,vseg,scene,gridMaterial,new THREE.Color( 0xaaaa00 ),false,false);
+	}
+	
+	function plot_axes()
+	{
+	    var spritex = makeTextSprite( "x", { fontsize: 140, borderColor: {r:0, g:0, b:255, a:1.0}, xoffset:-80 } );
+	    spritex.position.set(5+xoffset,yoffset,0+zoffset);
+	    scene.add( spritex );
+	    var spritey = makeTextSprite( "y", { fontsize: 140, borderColor: {r:0, g:0, b:255, a:1.0} } );
+	    spritey.position.set(xoffset,5+yoffset,zoffset);
+	    scene.add( spritey );
+	    var spritez = makeTextSprite( "z", { fontsize: 140, borderColor: {r:0, g:0, b:255, a:1.0}, yoffset:-40 } );
+	    spritez.position.set(xoffset,yoffset,5+zoffset);
+	    scene.add( spritez );
+	    
+	    var axes = buildAxes();
+	    scene.add(axes);
+	}
+	
+	function createGraph(xFunc,yFunc,zFunc,uMin,uMax,vMin,vMax,useg,vseg,sc,material,clr,solid,box)
+	{
+	    var graphMesh;
+	    uRange = uMax - uMin;
+	    vRange = vMax - vMin;
+	    meshFunction = function(u0, v0) 
+	    {
+		var u = uRange * u0 + uMin;
+		var v = vRange * v0 + vMin;
+		var x = xFunc(u,v);
+		var y = yFunc(u,v);
+		var z = zFunc(u,v);
+		if ( isNaN(x) || isNaN(y) || isNaN(z) )
+		    return new THREE.Vector3(0,0,0); // TODO: better fix
+		else
+		    return new THREE.Vector3(x, y, z);
+	    };
+	    
+	    // true => sensible image tile repeat...
+	    graphGeometry = new THREE.ParametricGeometry( meshFunction, useg, vseg, true );
+	    ///////////////////////////////////////////////
+	    // calculate vertex colors based on Z values //
+	    ///////////////////////////////////////////////
+	    graphGeometry.computeBoundingBox();
+	    zMin = graphGeometry.boundingBox.min.z;
+	    zMax = graphGeometry.boundingBox.max.z;
+	    zRange = zMax - zMin;
+	    var defaultcolor = new THREE.Color( 0xff0000 );
+	    var color, point, face, numberOfSides, vertexIndex;
+	    // faces are indexed using characters
+	    var faceIndices = [ 'a', 'b', 'c', 'd' ];
+	    // first, assign colors to vertices as desired
+	    if (!solid) {
+		for ( var i = 0; i < graphGeometry.vertices.length; i++ ) 
+		{
+		    point = graphGeometry.vertices[ i ];
+		    color = new THREE.Color( 0x0000ff );
+		    //	  color.setHSL( 0.7 *(10-point.x)/10 , 1, 0.1+0.3*(10 - point.z) / 10 );
+		    color.setHSL( (5 - (point.z - zoffset)/10), 1, 0.5 );
+		    graphGeometry.colors[i] = color; // use this array for convenience
+		}
+	    }
+	    // copy the colors as necessary to the face's vertexColors array.
+	    for ( var i = 0; i < graphGeometry.faces.length; i++ ) 
+	    {
+		face = graphGeometry.faces[ i ];
+		numberOfSides = ( face instanceof THREE.Face3 ) ? 3 : 4;
+		for( var j = 0; j < numberOfSides; j++ ) 
+		{
+		    if (solid) {
+			face.vertexColors[ j ] = clr;
+		    } else {
+			vertexIndex = face[ faceIndices[ j ] ];
+			face.vertexColors[ j ] = graphGeometry.colors[vertexIndex ];
+			//	      face.vertexColors[ j ] = clr;
+		    }
+		}
+	    }
+	    ///////////////////////
+	    // end vertex colors //
+	    ///////////////////////
+	    
+	    
+	    xMin = graphGeometry.boundingBox.min.x;
+	    xMax = graphGeometry.boundingBox.max.x;
+	    yMin = graphGeometry.boundingBox.min.y;
+	    yMax = graphGeometry.boundingBox.max.y;
+	    
+	    if (graphMesh) 
+	    {
+		sc.remove( graphMesh );
+		// renderer.deallocateObject( graphMesh );
+	    }
+	    
+	    graphMesh = new THREE.Mesh( graphGeometry,material );
+	    
+	    graphMesh.doubleSided = true;
+	    sc.add(graphMesh);
+	    if (box) {
+		var bbox = new THREE.BoundingBoxHelper( graphMesh, 0x000000 );
+		bbox.update();
+		scene.add( bbox );	
+	    }
+	}
+
+	function buildAxes() {
+	    var axes = new THREE.Object3D();
+	    
+	    axes.add( buildAxis( new THREE.Vector3( xoffset, yoffset, zoffset ), new THREE.Vector3( 5+xoffset, yoffset, zoffset ), 0x000000, false ) ); // +X
+	    axes.add( buildAxis( new THREE.Vector3( xoffset, yoffset, zoffset ), new THREE.Vector3( -5+xoffset, yoffset, zoffset ), 0x000000, true) ); // -X
+	    axes.add( buildAxis( new THREE.Vector3( xoffset, yoffset, zoffset ), new THREE.Vector3( xoffset, 5+yoffset, zoffset ), 0x000000, false ) ); // +Y
+	    axes.add( buildAxis( new THREE.Vector3( xoffset, yoffset, zoffset ), new THREE.Vector3( xoffset, -5+yoffset, zoffset ), 0x000000, true ) ); // -Y
+	    axes.add( buildAxis( new THREE.Vector3( xoffset, yoffset, zoffset ), new THREE.Vector3( xoffset, yoffset, 5+zoffset ), 0x000000, false ) ); // +Z
+	    axes.add( buildAxis( new THREE.Vector3( xoffset, yoffset, zoffset ), new THREE.Vector3( xoffset, yoffset, -5+zoffset ), 0x000000, true ) ); // -Z
+	    return axes;
+	}	
+	
+	function buildAxis( src, dst, colorHex, dashed ) {
+	    var geom = new THREE.Geometry();
+	    var mat;
+	    
+	    if(dashed) {
+		mat = new THREE.LineDashedMaterial({ linewidth: 1, color: colorHex, dashSize: 0.05, gapSize: 0.05 });
+	    } else {
+		mat = new THREE.LineBasicMaterial({ linewidth: 1, color: colorHex });
+	    }
+	    
+	    geom.vertices.push( src.clone() );
+	    geom.vertices.push( dst.clone() );
+	    geom.computeLineDistances();
+	    
+	    var axis = new THREE.Line( geom, mat );
+	    
+	    return axis;
+	}
+
+	function makeTextSprite(message, opts) {
+	    var parameters = opts || {};
+	    var fontface = parameters.fontface || 'Helvetiker';
+	    var fontsize = parameters.fontsize || 70;
+	    var borderThickness = parameters.borderThickness || 1;
+	    var xoffset = parameters.xoffset || 0;
+	    var yoffset = parameters.yoffset || 0;
+	    var canvas = document.createElement('canvas');
+	    canvas.width = canvas.height = 200;
+	    var context = canvas.getContext('2d');
+	    context.font = fontsize + "px " + fontface;
+
+  // get size data (height depends only on font size)
+	    var metrics = context.measureText(message);
+	    var textWidth = metrics.width;
+	    
+  // text color
+	    context.fillStyle = 'rgba(0, 0, 0, 1.0)';
+	    context.fillText(message, canvas.width/2+xoffset, canvas.width/2+yoffset);
+//	    alert(canvas.width);
+  // canvas contents will be used for a texture
+	    var texture = new THREE.Texture(canvas)
+	    texture.minFilter = THREE.LinearFilter;
+	    texture.needsUpdate = true;
+	    //roundRect(context, borderThickness, borderThickness, textWidth + 2 * borderThickness, fontsize * 1.4 + 2* borderThickness, 6);
+	    var spriteMaterial = new THREE.SpriteMaterial({
+		map: texture
+//              useScreenCoordinates: false
+	    });
+	    var sprite = new THREE.Sprite(spriteMaterial);
+	    sprite.scale.set(1,1,1);
+	    return sprite;
+	}
+    });
+</script>  
+
+<div class='figcaption'><span class="figurenumber">Figure 14.7.1.</span> A saddle point, neither a maximum nor a minimum.</div></div>
+<p>
+</p><p>
+</p>
+<div class="example">
+<p>
+<span class="theoremlabel">Example 14.7.4 </span>Find all local maxima and minima for $f(x,y)=x^4+y^4$.
+</p><p>
+The derivatives:
+$$f_x=4x^3 \qquad f_y=4y^3 \qquad f_{xx}=12x^2 \qquad f_{yy}=12y^2 \qquad
+f_{xy}=0.$$
+Again there is a single critical point, at $(0,0)$, and
+$$D(0,0)=f_{xx}(0,0)f_{yy}(0,0)-f_{xy}(0,0)^2=
+0\cdot0-0=0,$$
+so we get no information. However, in this case it is easy to see that
+there is a minimum at $(0,0)$, because $f(0,0)=0$ and
+at all other points $f(x,y)>0$.
+
+</p>
+</div><!-- example -->
+<p>
+</p><p>
+</p>
+<div class="example">
+<p>
+<span class="theoremlabel">Example 14.7.5 </span>Find all local maxima and minima for $f(x,y)=x^3+y^3$.
+</p><p>
+The derivatives:
+$$f_x=3x^2 \qquad f_y=3y^2 \qquad f_{xx}=6x^2 \qquad f_{yy}=6y^2 \qquad
+f_{xy}=0.$$
+Again there is a single critical point, at $(0,0)$, and
+$$D(0,0)=f_{xx}(0,0)f_{yy}(0,0)-f_{xy}(0,0)^2=
+0\cdot0-0=0,$$
+so we get no information. In this case, a little thought shows there
+is neither a maximum nor a minimum at $(0,0)$: when $x$ and $y$ are
+both positive, $f(x,y)>0$, and when $x$ and $y$ are
+both negative, $f(x,y)< 0$, and there are points of both kinds
+arbitrarily close to $(0,0)$. Alternately, if we look at the
+cross-section when $y=0$, we get $f(x,0)=x^3$, which does not have
+either a maximum or minimum at $x=0$.
+
+</p>
+</div><!-- example -->
+<p>
+</p><p>
+</p>
+<div class="example">
+<p>
+<span class="theoremlabel">Example 14.7.6 </span>Suppose a box with no top is to hold a certain volume $V$. Find
+the dimensions for the box that result in the minimum surface area.
+</p><p>
+The area of the box is $A=2hw+2hl+lw$, and the volume is $V=lwh$, so
+we can write the area as a function of two variables,
+$$A(l,w)={2V\over l}+{2V\over w}+lw.$$
+Then
+$$A_l=-{2V\over l^2}+w \quad\hbox{and}\quad A_w=-{2V\over w^2}+l.$$
+If we set these equal to zero and solve, we find
+$\ds w=(2V)^{1/3}$ and $\ds l=(2V)^{1/3}$, and the corresponding
+height is $h=V/(2V)^{2/3}$.
+</p><p>
+The second derivatives are
+$$A_{ll}={4V\over l^3}\qquad A_{ww}={4V\over w^3}\qquad
+A_{lw}=1,$$
+so the discriminant is
+$$D={4V\over l^3}{4V\over w^3}-1=4-1=3>0.$$
+Since $A_{ll}$ is 2, there is a local minimum at the critical point.
+Is this a global minimum? It is, but it is difficult to see this
+analytically; physically and graphically it is clear that there is a
+minimum, in which case it must be at the single critical point. 
+Here is a portion of the graph with the minimum point shown.
+</p><p><div class='figure'><!-- Partial_differentiation-minimum_point_on_surface.html -->
+<!-- Figure in text of 14.7, online only -->
+
+<div id='surface_minimum' class="webgl_display" style='display:none;text-align:center'>
+</div>
+<div class="no_webgl_display" style='display:block;text-align:center'>
+<a href="http://www.whitman.edu/mathematics/calculus_applets/surface_minimum">
+<img src="images/minimum_point_on_surface.png"></a>
+</div>
+
+<script>
+    MathJax.Hub.Register.StartupHook("End",function(){    
+	var xoffset = -1; yoffset = -1; zoffset = -5;
+	var SCREEN_WIDTH = 400, SCREEN_HEIGHT = 400;
+	var container, scene, camera, renderer, controls;
+	var keyboard = new THREEx.KeyboardState();
+	var clock = new THREE.Clock();
+	var meshFunction;
+	var usegments = 40, vsegments=10;
+	
+	var xMin = xMax = yMin = yMax = 0; // for autosizing window
+	
+	var graphGeometry;
+	
+	if(typeof window.orientation === 'undefined') {
+	    init();
+	    animate();
+	}
+
+	function init() 
+	{
+	    scene = new THREE.Scene();
+	    if ( Detector.webgl )
+		renderer = new THREE.WebGLRenderer( {alpha:true, antialias:true} );
+	    else
+		renderer = new THREE.CanvasRenderer(); 
+	    renderer.setSize(SCREEN_WIDTH, SCREEN_HEIGHT);
+	    container = document.getElementById( 'surface_minimum' );
+	    container.appendChild( renderer.domElement );
+	    var light = new THREE.PointLight(0xffffff,1,100);
+	    light.position.set(3,3,10);
+	    scene.add(light);
+	    var light_amb = new THREE.AmbientLight( 0xaaaaaa ); // soft white light
+	    scene.add( light_amb );
+	    
+	    // Background clear color
+	    // renderer.setClearColorHex( 0xffffff, 0 );
+	    
+	    plot_it_0();
+	    plot_it_1();
+	    plot_it_2();
+	    resetCamera();
+	}
+	
+	
+	function resetCamera()
+	{
+	    var VIEW_ANGLE = 5, ASPECT = SCREEN_WIDTH / SCREEN_HEIGHT, NEAR = 0.1, FAR = 20000;
+	    // Orthog camera
+	    //      var zoom = 3;
+	    //      camera = new THREE.OrthographicCamera( -zoom*ASPECT,zoom*ASPECT,zoom,-zoom, NEAR, FAR);
+	    //      camera.position.x = zoom*2;
+	    //      camera.position.y = zoom*1.5;
+	    //      camera.position.z = zoom*1.5;
+	    // Perspective camera
+	    camera = new THREE.PerspectiveCamera( VIEW_ANGLE, ASPECT, NEAR, FAR);
+	    scene.add(camera);
+	    camera.position.set(5,20,20);
+	    camera.lookAt(scene.position);  
+	    
+	    camera.up.set( 0, 0, 1 ); 
+	    scene.add(camera);
+	    
+	    controls = new THREE.TrackballControls( camera, renderer.domElement );
+	    controls.rotateSpeed = 1;
+	    THREEx.WindowResize(renderer, camera);
+	}
+	
+	function animate() 
+	{
+	    requestAnimationFrame( animate );
+	    if ($('#surface_minimum').visible(true) && active ) {
+		render();
+		update();
+	    }
+	}
+
+	function update()
+	{
+	    if ( keyboard.pressed("z") ) 
+	    { 
+		// do something
+	    }
+	    
+	    controls.update();
+	    //	stats.update();
+	}
+	
+	function render() 
+	{
+	    renderer.render( scene, camera );
+	}
+	
+	
+	function plot_it_0()
+	{
+	    var loader = new THREE.TextureLoader();
+	    var gridTexture = loader.load( 'images/square.png');
+	    gridTexture.wrapS = gridTexture.wrapT = THREE.RepeatWrapping;
+	    gridTexture.repeat.set( 20,20 );
+	    var normMaterial = new THREE.MeshBasicMaterial( { transparent:true, opacity:0.3, vertexColors: THREE.VertexColors,side:THREE.DoubleSide } );
+	    var gridMaterial = new THREE.MeshBasicMaterial( { map:gridTexture, vertexColors: THREE.VertexColors,side:THREE.DoubleSide } );
+	    var useg = 40,vseg = 20
+	    function x(u,v) {
+		return u+xoffset;
+	    }
+	    function y(u,v) {
+		return v+yoffset;
+	    }
+	    function z(u,v) {
+		return 2/u+2/v+u*v+zoffset;
+	    }
+	    createGraph(x,y,z,0.76,2,0.76,2,useg,vseg,scene,gridMaterial,new THREE.Color( 0xaaaa00 ),false,false);
+	}
+	
+	function plot_it_1()
+	{
+	    var loader = new THREE.TextureLoader();
+	    var gridTexture = loader.load( 'images/square.png');
+	    gridTexture.wrapS = gridTexture.wrapT = THREE.RepeatWrapping;
+	    gridTexture.repeat.set( 20,20 );
+	    var normMaterial = new THREE.MeshBasicMaterial( { transparent:true, opacity:0.3, vertexColors: THREE.VertexColors,side:THREE.DoubleSide } );
+	    var gridMaterial = new THREE.MeshBasicMaterial( { map:gridTexture, vertexColors: THREE.VertexColors,side:THREE.DoubleSide } );
+	    var useg = 40,vseg = 20
+	    var radius = 0.03;
+	    function x(u,v) {
+		return Math.exp(Math.log(2)/3)+v*Math.cos(u)+xoffset;
+	    }
+	    function y(u,v) {
+		return Math.exp(Math.log(2)/3)+v*Math.sin(u)+yoffset;
+	    }
+	    function z(u,v) {
+		return 3*Math.exp(2*Math.log(2)/3)+Math.sqrt(radius*radius - v*v)+zoffset;
+	    }
+	    createGraph(x,y,z,0,2*Math.PI,0,radius,useg,vseg,scene,gridMaterial,new THREE.Color( 0xff0000 ),true,false);
+	}
+	
+	function plot_it_2()
+	{
+	    var loader = new THREE.TextureLoader();
+	    var gridTexture = loader.load( 'images/square.png');
+	    gridTexture.wrapS = gridTexture.wrapT = THREE.RepeatWrapping;
+	    gridTexture.repeat.set( 20,20 );
+	    var normMaterial = new THREE.MeshBasicMaterial( { transparent:true, opacity:0.3, vertexColors: THREE.VertexColors,side:THREE.DoubleSide } );
+	    var gridMaterial = new THREE.MeshBasicMaterial( { map:gridTexture, vertexColors: THREE.VertexColors,side:THREE.DoubleSide } );
+	    var useg = 40,vseg = 20
+	    var radius = 0.03;
+	    function x(u,v) {
+		return Math.exp(Math.log(2)/3)+v*Math.cos(u)+xoffset;
+	    }
+	    function y(u,v) {
+		return Math.exp(Math.log(2)/3)+v*Math.sin(u)+yoffset;
+	    }
+	    function z(u,v) {
+		return 3*Math.exp(2*Math.log(2)/3)-Math.sqrt(radius*radius - v*v)+zoffset;
+	    }
+	    createGraph(x,y,z,0,2*Math.PI,0,radius,useg,vseg,scene,gridMaterial,new THREE.Color( 0xff0000 ),true,false);
+	}
+	
+	function createGraph(xFunc,yFunc,zFunc,uMin,uMax,vMin,vMax,useg,vseg,sc,material,clr,solid,box)
+	{
+	    var graphMesh;
+	    uRange = uMax - uMin;
+	    vRange = vMax - vMin;
+	    meshFunction = function(u0, v0) 
+	    {
+		var u = uRange * u0 + uMin;
+		var v = vRange * v0 + vMin;
+		var x = xFunc(u,v);
+		var y = yFunc(u,v);
+		var z = zFunc(u,v);
+		if ( isNaN(x) || isNaN(y) || isNaN(z) )
+		    return new THREE.Vector3(0,0,0); // TODO: better fix
+		else
+		    return new THREE.Vector3(x, y, z);
+	    };
+	    
+	    // true => sensible image tile repeat...
+	    graphGeometry = new THREE.ParametricGeometry( meshFunction, useg, vseg, true );
+	    ///////////////////////////////////////////////
+	    // calculate vertex colors based on Z values //
+	    ///////////////////////////////////////////////
+	    graphGeometry.computeBoundingBox();
+	    zMin = graphGeometry.boundingBox.min.z;
+	    zMax = graphGeometry.boundingBox.max.z;
+	    zRange = zMax - zMin;
+	    var defaultcolor = new THREE.Color( 0xff0000 );
+	    var color, point, face, numberOfSides, vertexIndex;
+	    // faces are indexed using characters
+	    var faceIndices = [ 'a', 'b', 'c', 'd' ];
+	    // first, assign colors to vertices as desired
+	    if (!solid) {
+		for ( var i = 0; i < graphGeometry.vertices.length; i++ ) 
+		{
+		    point = graphGeometry.vertices[ i ];
+		    color = new THREE.Color( 0x0000ff );
+		    //	  color.setHSL( 0.7 *(10-point.x)/10 , 1, 0.1+0.3*(10 - point.z) / 10 );
+		    color.setHSL( (5 - (point.z - zoffset)/10), 1, 0.5 );
+		    graphGeometry.colors[i] = color; // use this array for convenience
+		}
+	    }
+	    // copy the colors as necessary to the face's vertexColors array.
+	    for ( var i = 0; i < graphGeometry.faces.length; i++ ) 
+	    {
+		face = graphGeometry.faces[ i ];
+		numberOfSides = ( face instanceof THREE.Face3 ) ? 3 : 4;
+		for( var j = 0; j < numberOfSides; j++ ) 
+		{
+		    if (solid) {
+			face.vertexColors[ j ] = clr;
+		    } else {
+			vertexIndex = face[ faceIndices[ j ] ];
+			face.vertexColors[ j ] = graphGeometry.colors[vertexIndex ];
+			//	      face.vertexColors[ j ] = clr;
+		    }
+		}
+	    }
+	    ///////////////////////
+	    // end vertex colors //
+	    ///////////////////////
+	    
+	    
+	    xMin = graphGeometry.boundingBox.min.x;
+	    xMax = graphGeometry.boundingBox.max.x;
+	    yMin = graphGeometry.boundingBox.min.y;
+	    yMax = graphGeometry.boundingBox.max.y;
+	    
+	    if (graphMesh) 
+	    {
+		sc.remove( graphMesh );
+		// renderer.deallocateObject( graphMesh );
+	    }
+	    
+	    graphMesh = new THREE.Mesh( graphGeometry,material );
+	    
+	    graphMesh.doubleSided = true;
+	    sc.add(graphMesh);
+	    if (box) {
+		var bbox = new THREE.BoundingBoxHelper( graphMesh, 0x000000 );
+		bbox.update();
+		scene.add( bbox );	
+	    }
+	}
+
+	function buildAxes() {
+	    var axes = new THREE.Object3D();
+	    
+	    axes.add( buildAxis( new THREE.Vector3( xoffset, yoffset, zoffset ), new THREE.Vector3( 5+xoffset, yoffset, zoffset ), 0x000000, false ) ); // +X
+	    axes.add( buildAxis( new THREE.Vector3( xoffset, yoffset, zoffset ), new THREE.Vector3( -5+xoffset, yoffset, zoffset ), 0x000000, true) ); // -X
+	    axes.add( buildAxis( new THREE.Vector3( xoffset, yoffset, zoffset ), new THREE.Vector3( xoffset, 5+yoffset, zoffset ), 0x000000, false ) ); // +Y
+	    axes.add( buildAxis( new THREE.Vector3( xoffset, yoffset, zoffset ), new THREE.Vector3( xoffset, -5+yoffset, zoffset ), 0x000000, true ) ); // -Y
+	    axes.add( buildAxis( new THREE.Vector3( xoffset, yoffset, zoffset ), new THREE.Vector3( xoffset, yoffset, 5+zoffset ), 0x000000, false ) ); // +Z
+	    axes.add( buildAxis( new THREE.Vector3( xoffset, yoffset, zoffset ), new THREE.Vector3( xoffset, yoffset, -5+zoffset ), 0x000000, true ) ); // -Z
+	    return axes;
+	}	
+	
+	function buildAxis( src, dst, colorHex, dashed ) {
+	    var geom = new THREE.Geometry();
+	    var mat;
+	    
+	    if(dashed) {
+		mat = new THREE.LineDashedMaterial({ linewidth: 1, color: colorHex, dashSize: 0.05, gapSize: 0.05 });
+	    } else {
+		mat = new THREE.LineBasicMaterial({ linewidth: 1, color: colorHex });
+	    }
+	    
+	    geom.vertices.push( src.clone() );
+	    geom.vertices.push( dst.clone() );
+	    geom.computeLineDistances();
+	    
+	    var axis = new THREE.Line( geom, mat );
+	    
+	    return axis;
+	}
+
+	function makeTextSprite(message, opts) {
+	    var parameters = opts || {};
+	    var fontface = parameters.fontface || 'Helvetiker';
+	    var fontsize = parameters.fontsize || 70;
+	    var borderThickness = parameters.borderThickness || 1;
+	    var xoffset = parameters.xoffset || 0;
+	    var yoffset = parameters.yoffset || 0;
+	    var canvas = document.createElement('canvas');
+	    canvas.width = canvas.height = 200;
+	    var context = canvas.getContext('2d');
+	    context.font = fontsize + "px " + fontface;
+
+  // get size data (height depends only on font size)
+	    var metrics = context.measureText(message);
+	    var textWidth = metrics.width;
+	    
+  // text color
+	    context.fillStyle = 'rgba(0, 0, 0, 1.0)';
+	    context.fillText(message, canvas.width/2+xoffset, canvas.width/2+yoffset);
+//	    alert(canvas.width);
+  // canvas contents will be used for a texture
+	    var texture = new THREE.Texture(canvas)
+	    texture.minFilter = THREE.LinearFilter;
+	    texture.needsUpdate = true;
+	    //roundRect(context, borderThickness, borderThickness, textWidth + 2 * borderThickness, fontsize * 1.4 + 2* borderThickness, 6);
+	    var spriteMaterial = new THREE.SpriteMaterial({
+		map: texture
+//              useScreenCoordinates: false
+	    });
+	    var sprite = new THREE.Sprite(spriteMaterial);
+	    sprite.scale.set(1,1,1);
+	    return sprite;
+	}
+    });
+</script>  
+
+</div></p><p>Note that we must
+choose a value for $V$ in order to graph it.
+
+</p>
+</div><!-- example -->
+<p>
+</p><p>
+Recall that when we did single variable global maximum and minimum
+problems, the easiest cases were those for which the variable could be
+limited to a finite closed interval, for then we simply had to check
+all critical values and the endpoints. The previous example is
+difficult because there is no finite boundary to the domain of the
+problem&mdash;both $w$ and $l$ can be in $(0,\infty)$. As in the single
+variable case, the problem is often simpler when there is a finite
+boundary. 
+</p><p>
+</p>
+<div class="theorem">
+<p>
+<span class="theoremlabel">Theorem 14.7.7 </span>If $f(x,y)$ is continuous on a closed and bounded subset of
+$\R^2$, then it has both a maximum and minimum value.
+
+</p>
+</div><!-- theorem -->
+<p>
+</p><p>
+As in the case of single variable functions, this means that the
+maximum and minimum values must occur at a critical point or on the
+boundary; in the two variable case, however, the boundary is a curve,
+not merely two endpoints.
+</p><p>
+</p>
+<div class="example">
+<p>
+<span class="theoremlabel">Example 14.7.8 </span>The length of the diagonal of a box is to be 1 meter; find the
+maximum possible volume.
+<a id="exam:box diagonal"></a>
+</p><p>
+If the box is placed with one corner at the origin, and sides along
+the axes, the length of the diagonal is $\ds\sqrt{x^2+y^2+z^2}$, and
+the volume is
+$$V=xyz=xy\sqrt{1-x^2-y^2}.$$
+Clearly, $x^2+y^2\le 1$, so the domain we are interested in
+is the quarter of the unit disk in the first quadrant.
+Computing derivatives:
+$$\eqalign{
+V_x&={y-2yx^2-y^3\over\sqrt{1-x^2-y^2}}\cr
+V_y&={x-2xy^2-x^3\over\sqrt{1-x^2-y^2}}\cr
+}$$
+If these are both 0, then $x=0$ or $y=0$, or $x=y=1/\sqrt3$. The boundary of
+the domain is composed of three curves: $x=0$ for $y\in[0,1]$; $y=0$
+for $x\in[0,1]$; and $x^2+y^2=1$, where $x\ge0$ and $y\ge0$. In all
+three cases, the volume  $xy\sqrt{1-x^2-y^2}$ is 0, so the maximum
+occurs at the only critical point $(1/\sqrt3,1/\sqrt3,1/\sqrt3)$. See
+figure <a href="section14.07.html#fig:max volume">14.7.2</a>.
+
+</p>
+</div><!-- example -->
+<p>
+</p><p>
+<a id="fig:max volume"></a>
+</p><div class='figure'><!-- Partial_Differentiation_volume_of_box.html -->
+<!-- Figure 14.7.2 -->
+
+<div id="max_volume" class="webgl_display" style='display:none;text-align:center'></div>
+<div class="no_webgl_display" style='display:block;text-align:center'>
+<a href="http://www.whitman.edu/mathematics/calculus_applets/max_volume">
+<img src="images/max_volume.png" width=300></a>
+</div>
+<script>
+    MathJax.Hub.Register.StartupHook("End",function(){    
+	var xoffset = -0.5; yoffset = -0.5; zoffset = -0.5;
+	var SCREEN_WIDTH = 400, SCREEN_HEIGHT = 400;
+	var container, scene, camera, renderer, controls;
+	var keyboard = new THREEx.KeyboardState();
+	var clock = new THREE.Clock();
+	var meshFunction;
+	var usegments = 40, vsegments=10;
+	
+	var xMin = xMax = yMin = yMax = 0; // for autosizing window
+	
+	var graphGeometry;
+	
+	if(typeof window.orientation === 'undefined') {
+	    init();
+	    animate();
+	}
+
+	function init() 
+	{
+	    scene = new THREE.Scene();
+	    if ( Detector.webgl )
+		renderer = new THREE.WebGLRenderer( {alpha:true, antialias:true} );
+	    else
+		renderer = new THREE.CanvasRenderer(); 
+	    renderer.setSize(SCREEN_WIDTH, SCREEN_HEIGHT);
+	    container = document.getElementById( 'max_volume' );
+	    container.appendChild( renderer.domElement );
+	    var light = new THREE.PointLight(0xffffff,1,100);
+	    light.position.set(3,3,10);
+	    scene.add(light);
+	    var light_amb = new THREE.AmbientLight( 0xaaaaaa ); // soft white light
+	    scene.add( light_amb );
+	    
+	    // Background clear color
+	    // renderer.setClearColorHex( 0xffffff, 0 );
+	    
+	    plot_it_0();
+	    plot_axes();
+	    resetCamera();
+	}
+	
+	
+	function resetCamera()
+	{
+	    var VIEW_ANGLE = 3, ASPECT = SCREEN_WIDTH / SCREEN_HEIGHT, NEAR = 0.1, FAR = 20000;
+	    // Orthog camera
+	    //      var zoom = 3;
+	    //      camera = new THREE.OrthographicCamera( -zoom*ASPECT,zoom*ASPECT,zoom,-zoom, NEAR, FAR);
+	    //      camera.position.x = zoom*2;
+	    //      camera.position.y = zoom*1.5;
+	    //      camera.position.z = zoom*1.5;
+	    // Perspective camera
+	    camera = new THREE.PerspectiveCamera( VIEW_ANGLE, ASPECT, NEAR, FAR);
+	    scene.add(camera);
+	    camera.position.set(30,-20,20);
+	    camera.lookAt(-0.5,-0.5,0.5);  
+	    
+	    camera.up.set( 0, 0, 1 ); 
+	    scene.add(camera);
+	    
+	    controls = new THREE.TrackballControls( camera, renderer.domElement );
+	    controls.rotateSpeed = 1;
+	    THREEx.WindowResize(renderer, camera);
+	}
+	
+	function animate() 
+	{
+	    requestAnimationFrame( animate );
+	    if ($('#max_volume').visible(true) && active ) {
+		render();
+		update();
+	    }
+	}
+
+	
+	function update()
+	{
+	    if ( keyboard.pressed("z") ) 
+	    { 
+		// do something
+	    }
+	    
+	    controls.update();
+	    //	stats.update();
+	}
+	
+	function render() 
+	{
+	    renderer.render( scene, camera );
+	}
+	
+	
+	function plot_it_0()
+	{
+	    var loader = new THREE.TextureLoader();
+	    var gridTexture = loader.load( 'images/square.png');
+	    gridTexture.wrapS = gridTexture.wrapT = THREE.RepeatWrapping;
+	    gridTexture.repeat.set( 20,20 );
+	    var normMaterial = new THREE.MeshBasicMaterial( { transparent:true, opacity:0.3, vertexColors: THREE.VertexColors,side:THREE.DoubleSide } );
+	    var gridMaterial = new THREE.MeshBasicMaterial( { map:gridTexture, vertexColors: THREE.VertexColors,side:THREE.DoubleSide } );
+	    var useg = 40,vseg = 20
+	    function x(u,v) {
+		return v*Math.cos(u)+xoffset;
+	    }
+	    function y(u,v) {
+		return v*Math.sin(u)+yoffset;
+	    }
+	    function z(u,v) {
+		return 5*v*Math.cos(u)*v*Math.sin(u)*Math.sqrt(1-v*v)+zoffset;
+	    }
+	    createGraph(x,y,z,0,Math.PI/2,0,1,useg,vseg,scene,gridMaterial,new THREE.Color( 0xff0000 ),false,false);
+	}
+	
+	function plot_axes()
+	{
+	    var spritex = makeTextSprite( "x", { fontsize: 20, borderColor: {r:0, g:0, b:255, a:1.0}, xoffset:5, yoffset:0 } );
+	    spritex.position.set(1.2+xoffset,yoffset,0+zoffset);
+	    scene.add( spritex );
+	    var spritey = makeTextSprite( "y", { fontsize: 20, borderColor: {r:0, g:0, b:255, a:1.0},xoffset:0 } );
+	    spritey.position.set(xoffset,1.2+yoffset,zoffset);
+	    scene.add( spritey );
+	    var spritez = makeTextSprite( "z", { fontsize: 20, borderColor: {r:0, g:0, b:255, a:1.0}, yoffset:-10 } );
+	    spritez.position.set(xoffset,yoffset,1.2+zoffset);
+	    scene.add( spritez );
+	    
+	    var axes = buildAxes();
+	    scene.add(axes);
+	}
+
+	function createGraph(xFunc,yFunc,zFunc,uMin,uMax,vMin,vMax,useg,vseg,sc,material,clr,solid,box)
+	{
+	    var graphMesh;
+	    uRange = uMax - uMin;
+	    vRange = vMax - vMin;
+	    meshFunction = function(u0, v0) 
+	    {
+		var u = uRange * u0 + uMin;
+		var v = vRange * v0 + vMin;
+		var x = xFunc(u,v);
+		var y = yFunc(u,v);
+		var z = zFunc(u,v);
+		if ( isNaN(x) || isNaN(y) || isNaN(z) )
+		    return new THREE.Vector3(0,0,0); // TODO: better fix
+		else
+		    return new THREE.Vector3(x, y, z);
+	    };
+	    
+	    // true => sensible image tile repeat...
+	    graphGeometry = new THREE.ParametricGeometry( meshFunction, useg, vseg, true );
+	    ///////////////////////////////////////////////
+	    // calculate vertex colors based on Z values //
+	    ///////////////////////////////////////////////
+	    graphGeometry.computeBoundingBox();
+	    zMin = graphGeometry.boundingBox.min.z;
+	    zMax = graphGeometry.boundingBox.max.z;
+	    zRange = zMax - zMin;
+	    var defaultcolor = new THREE.Color( 0xff0000 );
+	    var color, point, face, numberOfSides, vertexIndex;
+	    // faces are indexed using characters
+	    var faceIndices = [ 'a', 'b', 'c', 'd' ];
+	    // first, assign colors to vertices as desired
+	    if (!solid) {
+		for ( var i = 0; i < graphGeometry.vertices.length; i++ ) 
+		{
+		    point = graphGeometry.vertices[ i ];
+		    color = new THREE.Color( 0x0000ff );
+		    //	  color.setHSL( 0.7 *(10-point.x)/10 , 1, 0.1+0.3*(10 - point.z) / 10 );
+		    color.setHSL( (zMax - (point.z - zoffset)/zRange), 1, 0.5 );
+		    graphGeometry.colors[i] = color; // use this array for convenience
+		}
+	    }
+	    // copy the colors as necessary to the face's vertexColors array.
+	    for ( var i = 0; i < graphGeometry.faces.length; i++ ) 
+	    {
+		face = graphGeometry.faces[ i ];
+		numberOfSides = ( face instanceof THREE.Face3 ) ? 3 : 4;
+		for( var j = 0; j < numberOfSides; j++ ) 
+		{
+		    if (solid) {
+			face.vertexColors[ j ] = clr;
+		    } else {
+			vertexIndex = face[ faceIndices[ j ] ];
+			face.vertexColors[ j ] = graphGeometry.colors[vertexIndex ];
+			//	      face.vertexColors[ j ] = clr;
+		    }
+		}
+	    }
+	    ///////////////////////
+	    // end vertex colors //
+	    ///////////////////////
+	    
+	    
+	    xMin = graphGeometry.boundingBox.min.x;
+	    xMax = graphGeometry.boundingBox.max.x;
+	    yMin = graphGeometry.boundingBox.min.y;
+	    yMax = graphGeometry.boundingBox.max.y;
+	    
+	    if (graphMesh) 
+	    {
+		sc.remove( graphMesh );
+		// renderer.deallocateObject( graphMesh );
+	    }
+	    
+	    graphMesh = new THREE.Mesh( graphGeometry,material );
+	    
+	    graphMesh.doubleSided = true;
+	    sc.add(graphMesh);
+	    if (box) {
+		var bbox = new THREE.BoundingBoxHelper( graphMesh, 0x000000 );
+		bbox.update();
+		scene.add( bbox );	
+	    }
+	}
+
+	function buildAxes() {
+	    var axes = new THREE.Object3D();
+	    
+	    axes.add( buildAxis( new THREE.Vector3( xoffset, yoffset, zoffset ), new THREE.Vector3( 1.2+xoffset, yoffset, zoffset ), 0x000000, false ) ); // +X
+//	    axes.add( buildAxis( new THREE.Vector3( xoffset, yoffset, zoffset ), new THREE.Vector3( -5+xoffset, yoffset, zoffset ), 0x000000, true) ); // -X
+	    axes.add( buildAxis( new THREE.Vector3( xoffset, yoffset, zoffset ), new THREE.Vector3( xoffset, 1.2+yoffset, zoffset ), 0x000000, false ) ); // +Y
+//	    axes.add( buildAxis( new THREE.Vector3( xoffset, yoffset, zoffset ), new THREE.Vector3( xoffset, -5+yoffset, zoffset ), 0x000000, true ) ); // -Y
+	    axes.add( buildAxis( new THREE.Vector3( xoffset, yoffset, zoffset ), new THREE.Vector3( xoffset, yoffset, 1.2+zoffset ), 0x000000, false ) ); // +Z
+//	    axes.add( buildAxis( new THREE.Vector3( xoffset, yoffset, zoffset ), new THREE.Vector3( xoffset, yoffset, -5+zoffset ), 0x000000, true ) ); // -Z
+	    return axes;
+	}	
+	
+	function buildAxis( src, dst, colorHex, dashed ) {
+	    var geom = new THREE.Geometry();
+	    var mat;
+	    
+	    if(dashed) {
+		mat = new THREE.LineDashedMaterial({ linewidth: 1, color: colorHex, dashSize: 0.05, gapSize: 0.05 });
+	    } else {
+		mat = new THREE.LineBasicMaterial({ linewidth: 1, color: colorHex });
+	    }
+	    
+	    geom.vertices.push( src.clone() );
+	    geom.vertices.push( dst.clone() );
+	    geom.computeLineDistances();
+	    
+	    var axis = new THREE.Line( geom, mat );
+	    
+	    return axis;
+	}
+
+	function makeTextSprite(message, opts) {
+	    var parameters = opts || {};
+	    var fontface = parameters.fontface || 'Helvetiker';
+	    var fontsize = parameters.fontsize || 70;
+	    var borderThickness = parameters.borderThickness || 1;
+	    var xoffset = parameters.xoffset || 0;
+	    var yoffset = parameters.yoffset || 0;
+	    var canvas = document.createElement('canvas');
+	    canvas.width = canvas.height = 200;
+	    var context = canvas.getContext('2d');
+	    context.font = fontsize + "px " + fontface;
+
+  // get size data (height depends only on font size)
+	    var metrics = context.measureText(message);
+	    var textWidth = metrics.width;
+	    
+  // text color
+	    context.fillStyle = 'rgba(0, 0, 0, 1.0)';
+	    context.fillText(message, canvas.width/2+xoffset, canvas.width/2+yoffset);
+//	    alert(canvas.width);
+  // canvas contents will be used for a texture
+	    var texture = new THREE.Texture(canvas)
+	    texture.minFilter = THREE.LinearFilter;
+	    texture.needsUpdate = true;
+	    //roundRect(context, borderThickness, borderThickness, textWidth + 2 * borderThickness, fontsize * 1.4 + 2* borderThickness, 6);
+	    var spriteMaterial = new THREE.SpriteMaterial({
+		map: texture
+//              useScreenCoordinates: false
+	    });
+	    var sprite = new THREE.Sprite(spriteMaterial);
+	    sprite.scale.set(1,1,1);
+	    return sprite;
+	}
+    });
+</script>  
+<div class='figcaption'><span class="figurenumber">Figure 14.7.2.</span> The volume of a box with fixed length diagonal.</div></div>
+<p>
+</p><p>
+</p>
+<a id="exercises"></a><h2 class="exercises">Exercises 14.7</h2>
+<p></p><p>
+</p>
+<p class="exercise"><b>Ex 14.7.1</b>
+Find all local maximum and minimum points of
+$f=x^2+4y^2-2x+8y-1$.
+(<a knowl="" class="internal" value="minimum at $(1,-1)$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 14.7.2</b>
+Find all local maximum and minimum points of
+$f=x^2-y^2+6x-10y+2$.
+(<a knowl="" class="internal" value="none">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 14.7.3</b>
+Find all local maximum and minimum points of
+$f=xy$.
+(<a knowl="" class="internal" value="none">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 14.7.4</b>
+Find all local maximum and minimum points of
+$f=9+4x-y-2x^2-3y^2$.
+(<a knowl="" class="internal" value="maximum at $(1,-1/6)$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 14.7.5</b>
+Find all local maximum and minimum points of
+$f=x^2+4xy+y^2-6y+1$.
+(<a knowl="" class="internal" value="none">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 14.7.6</b>
+Find all local maximum and minimum points of
+$f=x^2-xy+2y^2-5x+6y-9$.
+(<a knowl="" class="internal" value="minimum at $(2,-1)$">answer</a>)
+
+</p><p>
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 14.7.7</b>
+Find the absolute maximum and minimum points of
+$f=x^2+3y-3xy$ over the region bounded by
+$y=x$, $y=0$, and $x=2$.
+(<a knowl="" class="internal" value="$f(2,2)=-2$, $f(2,0)=4$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 14.7.8</b>
+A six-sided rectangular box is to hold $1/2$ cubic meter;
+what shape should the box be to minimize surface area?
+(<a knowl="" class="internal" value="a cube $1/\root 3 \of {2}$ on a side">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 14.7.9</b>
+The post office will accept packages whose combined length
+and girth is at most 130 inches. (Girth is the maximum distance around
+the package perpendicular to the length; for a rectangular box, the
+length is the largest of the three dimensions.) What is the largest volume
+that can be sent in a rectangular box?
+(<a knowl="" class="internal" value="$65/3\cdot 65/3\cdot 130/3 = 2\cdot 65^3/27\approx 20343$
+cubic inches.">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 14.7.10</b>
+The bottom of a rectangular box costs twice as much per unit
+area as the sides and top. Find the shape for a given volume that will
+minimize cost.
+(<a knowl="" class="internal" value="It has a square base, and is one and one half times as tall as wide.
+If the volume is $V$ the dimensions are $\root 3 \of {2V/3}\times
+\root 3 \of {2V/3}\times \root 3\of {9V/4}$.">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 14.7.11</b>
+Using the methods of this section, find the shortest
+distance from the origin to the plane $x+y+z=10$.
+(<a knowl="" class="internal" value="$\sqrt{100/3}$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 14.7.12</b>
+Using the methods of this section, find the shortest
+distance from the point $(x_0,y_0,z_0)$ to the plane $ax+by+cz=d$.
+You may assume that $c\not=0$; use of Sage or similar software
+is recommended.
+(<a knowl="" class="internal" value="$|ax_0+by_0+cz_0-d|/\sqrt{a^2+b^2+c^2}$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 14.7.13</b>
+A trough is to be formed by bending up two sides of a long
+metal rectangle
+so that the cross-section of the trough is an isosceles trapezoid, as
+in figure <a href="section06.02.html#fig:trough">6.2.6</a>. If the width of the metal sheet is 2
+meters, how should it be bent to maximize the volume of the trough?
+(<a knowl="" class="internal" value="The sides and bottom should all be $2/3$ meter, and the sides
+should be bent up at angle $\pi/3$.">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 14.7.14</b>
+Given the three points $(1,4)$, $(5,2)$, and $(3,-2)$, 
+$\ds(x-1)^2+(y-4)^2+(x-5)^2+(y-2)^2+(x-3)^2+(y+2)^2$
+is the sum of the squares of the distances from point $(x,y)$ to the
+three points. Find $x$ and $y$ so that this quantity is minimized.
+(<a knowl="" class="internal" value="$(3,4/3)$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 14.7.15</b>
+Suppose that $f(x,y)=x^2+y^2+kxy$. Find and classify the
+  critical points, and discuss how they change when $k$ takes on
+  different values.
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 14.7.16</b>
+Find the shortest distance from the point $(0,b)$ to the
+  parabola $y=x^2$.
+(<a knowl="" class="internal" value="$|b|$ if $b\le1/2$, otherwise $\ds\sqrt{b-1/4}$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 14.7.17</b>
+Find the shortest distance from the point $(0,0,b)$ to the
+  paraboloid $z=x^2+y^2$.
+(<a knowl="" class="internal" value="$|b|$ if $b\le1/2$, otherwise $\ds\sqrt{b-1/4}$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 14.7.18</b>
+Consider the function $f(x,y)=x^3-3x^2y+y^3$.
+</p><p>
+</p><ul><p>
+</p><p> a.  Show that $(0,0)$ is the only critical point of $f$.
+</p><p>
+</p><p> b.  Show that the discriminant test is inconclusive for $f$.  
+</p><p>
+</p><p> c.  Determine the cross-sections of $f$ obtained by setting $y=kx$ for
+  various values of $k$.
+</p><p>
+</p><p> d.  What kind of critical point is $(0,0)$?
+</p><p>
+</p></ul><p>
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 14.7.19</b>
+Find the volume of the largest rectangular box with edges
+  parallel to the axes that can be inscribed in the ellipsoid
+  $2x^2+72y^2+18z^2=288$.
+(<a knowl="" class="internal" value="$\ds 256/\sqrt3$">answer</a>)
+
+
+</p><p>
+
+
+</p><p>
+</div></div></body>
+</html>

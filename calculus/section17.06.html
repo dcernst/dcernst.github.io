@@ -1,0 +1,825 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+<meta http-equiv="Content-Language" Content="en">
+<title>17.6 Second Order Linear Equations</title>
+<!--
+<script type="text/javascript" src="js/deployJava.js"></script>
+<link rel="stylesheet" type="text/css" href="http://jsxgraph.uni-bayreuth.de/distrib/jsxgraph.css" />
+-->
+<!-- use Jsxgraph to create figures: http://jsxgraph.uni-bayreuth.de/wp/ -->
+<link rel="stylesheet" type="text/css" href="css/jsxgraph.css" />
+<script type="text/javascript" src="js/jsxgraphcore.js"></script>
+<script src="js/three.min.js"></script>
+<script src="js/Detector.js"></script>
+<script src="js/TrackballControls.js"></script>
+<script src="js/OrthographicTrackballControls.js"></script>
+<script src="js/THREEx.KeyboardState.js"></script>
+<script src="js/THREEx.FullScreen.js"></script>
+<script src="js/THREEx.WindowResize.js"></script>
+<script type='text/javascript' src='js/DAT.GUI.min.js'></script>
+<script>
+window.requestAnimFrame = (function(){
+    return  window.requestAnimationFrame       || 
+        window.webkitRequestAnimationFrame || 
+        window.mozRequestAnimationFrame    || 
+        window.oRequestAnimationFrame      || 
+        window.msRequestAnimationFrame     || 
+        function(/* function */ callback, /* DOMElement */
+            element){
+            window.setTimeout(callback, 1000 / 60);
+        };
+})();
+</script>
+<script src="js/ifvisible.min.js"></script>
+<script src="js/conrec.js"></script>
+<script>
+active = true;
+ifvisible.setIdleDuration(10);
+ifvisible.on("idle", function(){
+    active = false;
+//    console.log("idle");
+});
+
+ifvisible.on("wakeup", function(){
+    active = true;
+//    console.log("wakeup");
+});
+</script>
+<script src="js/parser.js"></script>
+<link href="css/whitman.css" rel="stylesheet" type="text/css" /><link href="css/calculus.css" rel="stylesheet" type="text/css" /><link href="css/knowlstyle.css" rel="stylesheet" type="text/css" />
+
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  extensions: ["tex2jax.js","TeX/AMSmath.js","TeX/AMSsymbols.js"],
+  jax: ["input/TeX","output/HTML-CSS"],
+  tex2jax: {
+    inlineMath: [['$','$'],["\\(","\\)"]],
+    processEscapes: true,
+  },
+TeX: {
+   Macros: {
+    val: "\\mathop{\\rm val}",
+    divides: "\\mid",
+    ndivides: "\\mathrel{\\not|}",
+    fix: "\\mathop{\\rm fix}",
+    id: "\\mathop{\\rm id}",
+    na: "\\mathop{\\rm na}",
+    d: "\\mathop{\\rm\\strut d}\\nolimits ",
+    legendre: ["\\left(\\frac{#1}{#2}\\right)",2],
+    normalbaselines: "",
+    notdiv: "\\nmid",
+    implies: "\\Rightarrow",
+    iff: "\\Leftrightarrow",
+    sevenpoint: "\\scriptsize",
+    ds: "\\displaystyle",
+    lcm: "\\operatorname{lcm}",
+    arccot: "\\operatorname{arccot}",
+    arcsec: "\\operatorname{arcsec}",
+    arccsc: "\\operatorname{arccsc}",
+    arccosh: "\\operatorname{arccosh}",
+    arcsinh: "\\operatorname{arcsinh}",
+    arcsech: "\\operatorname{arcsech}",
+    sech: "\\operatorname{sech}",
+    csch: "\\operatorname{csch}",
+    R: "{\\mathbb R}",
+    sb: "_",
+    sp: "^",
+    Q: "{\\mathbb Q}",
+    C: "{\\mathbb C}",
+    N: "{\\mathbb N}",
+    Z: "{\\mathbb Z}",
+    U: "{\\mathbb U}",
+    v: ["\\langle #1\\rangle",1],
+    dint: ["{\\mathchoice{\\mathop{\\int\\!\\!\\!\\int}_{#1}}{\\mathop{\\int\\!\\!\\!\\int}_{#1}}{\\mathop{\\int\\!\\!\\!\\int}}{\\mathop{\\int\\!\\!\\!\\int}}}",1],
+    tint: ["{\\mathchoice{\\mathop{\\int\\!\\!\\!\\int\\!\\!\\!\\int}_{#1\\;}}{\\mathop{\\int\\!\\!\\!\\int\\!\\!\\!\\int}_{#1}}{\\mathop{\\int\\!\\!\\!\\int\\!\\!\\!\\int}_{#1}}{\\mathop{\\int\\!\\!\\!\\int\\!\\!\\!\\int}_{#1}}}",1]
+   }
+},
+  "HTML-CSS": { scale: 100},
+  menuSettings: { zscale: "150%", zoom: "Double-Click" }
+});
+    JXG.Options.text.display = 'html';
+    JXG.Options.text.useMathJax = true;
+</script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/math
+jax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+<script>
+MathJax.Hub.Register.StartupHook("End",function () {
+  if(typeof window.orientation === 'undefined'){
+    var i,x;
+    x = document.getElementsByClassName("webgl_display");
+    for (i=0; i<x.length; i++) {
+      x[i].style.display = "block";
+    }
+    x = document.getElementsByClassName("no_webgl_display");
+    for (i=0; i<x.length; i++) {
+      x[i].style.display = "none";
+    }
+  }
+});
+</script>
+
+<script src="js/jquery-3.1.0.min.js"></script>
+<script src="https://sagecell.sagemath.org/static/embedded_sagecell.js"></script>
+<script src="js/jquery.visible.min.js"></script>
+<script type="text/javascript" src="js/knowl.js"></script>
+<style type="text/css">
+
+.sagecell .CodeMirror {
+  height: auto;
+}
+
+.sagecell .CodeMirror-scroll {
+  overflow-y: hidden;
+  overflow-x: auto;
+}
+
+.sagecell-practice .CodeMirror-scroll {
+}
+
+.sagecell button.sagecell_evalButton {
+    font-size: 50%;
+}
+
+.sagecell_sessionContainer {
+    margin-bottom:1em;
+}
+</style>
+<script>
+function toggle(a) {
+  var b = String(a);
+  b=b.replace("contents","button");
+  if (document.getElementById(a).style.display == "block") {
+    document.getElementById(a).style.display = "none";
+    document.getElementById(b).src = "expand_submenu.png";
+  } else {
+    document.getElementById(a).style.display = "block";
+    document.getElementById(b).src = "collapse_submenu.png";
+  }
+}
+function toggle_sidebar() {
+  if (document.getElementById('sidebar').style.display == "block") {
+    document.getElementById('sidebar').style.display = "none";
+    document.getElementById('menu_expand').style.display = "block";
+  } else {
+    document.getElementById('sidebar').style.display = "block";
+    document.getElementById('menu_expand').style.display = "none";
+  }
+}
+</script>
+
+</head>
+
+<body class="" onload="toggle('chapter_17_contents')">
+<div id="header">
+<div class="right">
+<div class="bread">
+  <a href=".">Home</a> &raquo; <a href="chapter17.html">Differential Equations</a> &raquo; <a href="section17.06.html">Second Order Linear Equations</a>
+</div>
+
+<FORM method=GET action=https://www.google.com/custom id="search">
+<INPUT TYPE=text name=q size=31 maxlength=255 value="" style="font-size:small">
+<INPUT type=submit name=sa VALUE="Search the book" style="font-size:small">
+<INPUT type=hidden name=cof VALUE="AH:center;AWFID:198dc2b883340b1f;">
+<input type=hidden name=domains value="www.whitman.edu">
+<input type=hidden name=sitesearch value="www.whitman.edu/mathematics/calculus_online/">
+</FORM>
+<div id="title"><span id="title-content">17.6 Second Order Linear Equations</span></div><a href="#exercises">[Jump to exercises]</a>
+</div>
+</div>
+<div id="menu_expand" style="display:none"><a href="javascript:toggle_sidebar()">Expand menu</a></div>
+<div id="sidebar" style="display:block">
+<h2 id="menu_collapse"><a href='javascript:toggle_sidebar()'>Collapse menu</a></h2>
+<h2 class="link"><img id="chapter_01_button" src="expand_submenu.png" onclick='toggle("chapter_01_contents")'><a href="chapter01.html">1 Analytic Geometry</a></h2>
+
+<ul class="list" id="chapter_01_contents">
+<li><a href="section01.01.html">1. Lines</a></li>
+<li><a href="section01.02.html">2. Distance Between Two Points; Circles</a></li>
+<li><a href="section01.03.html">3. Functions</a></li>
+<li><a href="section01.04.html">4. Shifts and Dilations</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_02_button" src="expand_submenu.png" onclick='toggle("chapter_02_contents")'><a href="chapter02.html">2 Instantaneous Rate of Change:  The Derivative</a></h2>
+
+<ul class="list" id="chapter_02_contents">
+<li><a href="section02.01.html">1. The slope of a function</a></li>
+<li><a href="section02.02.html">2. An example</a></li>
+<li><a href="section02.03.html">3. Limits</a></li>
+<li><a href="section02.04.html">4. The Derivative Function</a></li>
+<li><a href="section02.05.html">5. Adjectives For Functions</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_03_button" src="expand_submenu.png" onclick='toggle("chapter_03_contents")'><a href="chapter03.html">3 Rules for Finding Derivatives</a></h2>
+
+<ul class="list" id="chapter_03_contents">
+<li><a href="section03.01.html">1. The Power Rule</a></li>
+<li><a href="section03.02.html">2. Linearity of the Derivative</a></li>
+<li><a href="section03.03.html">3. The Product Rule</a></li>
+<li><a href="section03.04.html">4. The Quotient Rule</a></li>
+<li><a href="section03.05.html">5. The Chain Rule</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_04_button" src="expand_submenu.png" onclick='toggle("chapter_04_contents")'><a href="chapter04.html">4 Transcendental Functions</a></h2>
+
+<ul class="list" id="chapter_04_contents">
+<li><a href="section04.01.html">1. Trigonometric Functions</a></li>
+<li><a href="section04.02.html">2. The Derivative of $\sin x$</a></li>
+<li><a href="section04.03.html">3. A hard limit</a></li>
+<li><a href="section04.04.html">4. The Derivative of $\sin x$, continued</a></li>
+<li><a href="section04.05.html">5. Derivatives of the Trigonometric Functions</a></li>
+<li><a href="section04.06.html">6. Exponential and Logarithmic functions</a></li>
+<li><a href="section04.07.html">7. Derivatives of the exponential and  logarithmic functions</a></li>
+<li><a href="section04.08.html">8. Implicit Differentiation</a></li>
+<li><a href="section04.09.html">9. Inverse Trigonometric Functions</a></li>
+<li><a href="section04.10.html">10. Limits revisited</a></li>
+<li><a href="section04.11.html">11. Hyperbolic Functions</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_05_button" src="expand_submenu.png" onclick='toggle("chapter_05_contents")'><a href="chapter05.html">5 Curve Sketching</a></h2>
+
+<ul class="list" id="chapter_05_contents">
+<li><a href="section05.01.html">1. Maxima and Minima</a></li>
+<li><a href="section05.02.html">2. The first derivative test</a></li>
+<li><a href="section05.03.html">3. The second derivative test</a></li>
+<li><a href="section05.04.html">4. Concavity and inflection points</a></li>
+<li><a href="section05.05.html">5. Asymptotes and Other Things to Look For</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_06_button" src="expand_submenu.png" onclick='toggle("chapter_06_contents")'><a href="chapter06.html">6 Applications of the Derivative</a></h2>
+
+<ul class="list" id="chapter_06_contents">
+<li><a href="section06.01.html">1. Optimization</a></li>
+<li><a href="section06.02.html">2. Related Rates</a></li>
+<li><a href="section06.03.html">3. Newton's Method</a></li>
+<li><a href="section06.04.html">4. Linear Approximations</a></li>
+<li><a href="section06.05.html">5. The Mean Value Theorem</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_07_button" src="expand_submenu.png" onclick='toggle("chapter_07_contents")'><a href="chapter07.html">7 Integration</a></h2>
+
+<ul class="list" id="chapter_07_contents">
+<li><a href="section07.01.html">1. Two examples</a></li>
+<li><a href="section07.02.html">2. The Fundamental Theorem of Calculus</a></li>
+<li><a href="section07.03.html">3. Some Properties of Integrals</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_08_button" src="expand_submenu.png" onclick='toggle("chapter_08_contents")'><a href="chapter08.html">8 Techniques of Integration</a></h2>
+
+<ul class="list" id="chapter_08_contents">
+<li><a href="section08.01.html">1. Substitution</a></li>
+<li><a href="section08.02.html">2. Powers of sine and cosine</a></li>
+<li><a href="section08.03.html">3. Trigonometric Substitutions</a></li>
+<li><a href="section08.04.html">4. Integration by Parts</a></li>
+<li><a href="section08.05.html">5. Rational Functions</a></li>
+<li><a href="section08.06.html">6. Numerical Integration</a></li>
+<li><a href="section08.07.html">7. Additional exercises</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_09_button" src="expand_submenu.png" onclick='toggle("chapter_09_contents")'><a href="chapter09.html">9 Applications of Integration</a></h2>
+
+<ul class="list" id="chapter_09_contents">
+<li><a href="section09.01.html">1. Area between curves</a></li>
+<li><a href="section09.02.html">2. Distance, Velocity, Acceleration</a></li>
+<li><a href="section09.03.html">3. Volume</a></li>
+<li><a href="section09.04.html">4. Average value of a function</a></li>
+<li><a href="section09.05.html">5. Work</a></li>
+<li><a href="section09.06.html">6. Center of Mass</a></li>
+<li><a href="section09.07.html">7. Kinetic energy; improper integrals</a></li>
+<li><a href="section09.08.html">8. Probability</a></li>
+<li><a href="section09.09.html">9. Arc Length</a></li>
+<li><a href="section09.10.html">10. Surface Area</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_10_button" src="expand_submenu.png" onclick='toggle("chapter_10_contents")'><a href="chapter10.html">10 Polar Coordinates,  Parametric Equations</a></h2>
+
+<ul class="list" id="chapter_10_contents">
+<li><a href="section10.01.html">1. Polar Coordinates</a></li>
+<li><a href="section10.02.html">2. Slopes in polar coordinates</a></li>
+<li><a href="section10.03.html">3. Areas in polar coordinates</a></li>
+<li><a href="section10.04.html">4. Parametric Equations</a></li>
+<li><a href="section10.05.html">5. Calculus with Parametric Equations</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_11_button" src="expand_submenu.png" onclick='toggle("chapter_11_contents")'><a href="chapter11.html">11 Sequences and Series</a></h2>
+
+<ul class="list" id="chapter_11_contents">
+<li><a href="section11.01.html">1. Sequences</a></li>
+<li><a href="section11.02.html">2. Series</a></li>
+<li><a href="section11.03.html">3. The Integral Test</a></li>
+<li><a href="section11.04.html">4. Alternating Series</a></li>
+<li><a href="section11.05.html">5. Comparison Tests</a></li>
+<li><a href="section11.06.html">6. Absolute Convergence</a></li>
+<li><a href="section11.07.html">7. The Ratio and Root Tests</a></li>
+<li><a href="section11.08.html">8. Power Series</a></li>
+<li><a href="section11.09.html">9. Calculus with Power Series</a></li>
+<li><a href="section11.10.html">10. Taylor Series</a></li>
+<li><a href="section11.11.html">11. Taylor's Theorem</a></li>
+<li><a href="section11.12.html">12. Additional exercises</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_12_button" src="expand_submenu.png" onclick='toggle("chapter_12_contents")'><a href="chapter12.html">12 Three Dimensions</a></h2>
+
+<ul class="list" id="chapter_12_contents">
+<li><a href="section12.01.html">1. The Coordinate System</a></li>
+<li><a href="section12.02.html">2. Vectors</a></li>
+<li><a href="section12.03.html">3. The Dot Product</a></li>
+<li><a href="section12.04.html">4. The Cross Product</a></li>
+<li><a href="section12.05.html">5. Lines and Planes</a></li>
+<li><a href="section12.06.html">6. Other Coordinate Systems</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_13_button" src="expand_submenu.png" onclick='toggle("chapter_13_contents")'><a href="chapter13.html">13 Vector Functions</a></h2>
+
+<ul class="list" id="chapter_13_contents">
+<li><a href="section13.01.html">1. Space Curves</a></li>
+<li><a href="section13.02.html">2. Calculus with vector functions</a></li>
+<li><a href="section13.03.html">3. Arc length and curvature</a></li>
+<li><a href="section13.04.html">4. Motion along a curve</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_14_button" src="expand_submenu.png" onclick='toggle("chapter_14_contents")'><a href="chapter14.html">14 Partial Differentiation</a></h2>
+
+<ul class="list" id="chapter_14_contents">
+<li><a href="section14.01.html">1. Functions of Several Variables</a></li>
+<li><a href="section14.02.html">2. Limits and Continuity</a></li>
+<li><a href="section14.03.html">3. Partial Differentiation</a></li>
+<li><a href="section14.04.html">4. The Chain Rule</a></li>
+<li><a href="section14.05.html">5. Directional Derivatives</a></li>
+<li><a href="section14.06.html">6. Higher order derivatives</a></li>
+<li><a href="section14.07.html">7. Maxima and minima</a></li>
+<li><a href="section14.08.html">8. Lagrange Multipliers</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_15_button" src="expand_submenu.png" onclick='toggle("chapter_15_contents")'><a href="chapter15.html">15 Multiple Integration</a></h2>
+
+<ul class="list" id="chapter_15_contents">
+<li><a href="section15.01.html">1. Volume and Average Height</a></li>
+<li><a href="section15.02.html">2. Double Integrals in Cylindrical Coordinates</a></li>
+<li><a href="section15.03.html">3. Moment and Center of Mass</a></li>
+<li><a href="section15.04.html">4. Surface Area</a></li>
+<li><a href="section15.05.html">5. Triple Integrals</a></li>
+<li><a href="section15.06.html">6. Cylindrical and Spherical Coordinates</a></li>
+<li><a href="section15.07.html">7. Change of Variables</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_16_button" src="expand_submenu.png" onclick='toggle("chapter_16_contents")'><a href="chapter16.html">16 Vector Calculus</a></h2>
+
+<ul class="list" id="chapter_16_contents">
+<li><a href="section16.01.html">1. Vector Fields</a></li>
+<li><a href="section16.02.html">2. Line Integrals</a></li>
+<li><a href="section16.03.html">3. The Fundamental Theorem of Line Integrals</a></li>
+<li><a href="section16.04.html">4. Green's Theorem</a></li>
+<li><a href="section16.05.html">5. Divergence and Curl</a></li>
+<li><a href="section16.06.html">6. Vector Functions for Surfaces</a></li>
+<li><a href="section16.07.html">7. Surface Integrals</a></li>
+<li><a href="section16.08.html">8. Stokes's Theorem</a></li>
+<li><a href="section16.09.html">9. The Divergence Theorem</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_17_button" src="expand_submenu.png" onclick='toggle("chapter_17_contents")'><a href="chapter17.html">17 Differential Equations</a></h2>
+
+<ul class="list" id="chapter_17_contents">
+<li><a href="section17.01.html">1. First Order Differential Equations</a></li>
+<li><a href="section17.02.html">2. First Order Homogeneous Linear Equations</a></li>
+<li><a href="section17.03.html">3. First Order Linear Equations</a></li>
+<li><a href="section17.04.html">4. Approximation</a></li>
+<li><a href="section17.05.html">5. Second Order Homogeneous Equations</a></li>
+<li><a href="section17.06.html">6. Second Order Linear Equations</a></li>
+<li><a href="section17.07.html">7. Second Order Linear Equations, take two</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_18_button" src="expand_submenu.png" onclick='toggle("chapter_18_contents")'><a href="chapter18.html">18 Useful formulas</a></h2>
+
+<ul class="list" id="chapter_18_contents">
+</ul>
+
+</div>
+
+<div id="main">
+
+<div id="next"><a href="section17.05.html"><img src=previous_section.png width="30"></a>&nbsp;&nbsp;<a href="section17.07.html"><img src=next_section.png width="30"></a></div>
+
+<div id="content">
+<p>
+<p><a id="sec:2nd order differential equations"></a>
+
+</p><p>
+Now we consider second order equations of the form $\ds a\ddot y+b\dot
+y+cy=f(t)$, with $a$, $b$, and $c$ constant. Of course, if $a=0$ this
+is really a first order equation, so we assume $a\not=0$.
+Also, much
+as in exercise <a href="section17.05.html#exer:second order really first order">20</a> of
+section <a href="section17.05.html#sec:second order homogeneous">17.5</a>, if $c=0$ we can solve
+the related first order equation $\ds a\dot h+bh=f(t)$, and then solve
+$\ds h=\dot y$ for $y$. So we will only examine examples in which
+$c\not=0$.
+</p><p>
+Suppose that
+$\ds y_1(t)$ and $\ds y_2(t)$ are solutions to $\ds a\ddot y+b\dot
+y+cy=f(t)$, and consider the function $\ds h=y_1-y_2$. We substitute
+this function into the left hand side of the differential equation and
+simplify: 
+$$
+a(y_1-y_2)''+b(y_1-y_2)'+c(y_1-y_2)=ay_1''+by_1'+cy_1 -
+(ay_2''+by_2'+cy_2)=f(t)-f(t)=0.
+$$ 
+So $h$ is a solution to the homogeneous equation $\ds a\ddot
+y+b\dot y+cy=0$. Since we know how to find all such $h$, then with
+just one particular solution $\ds y_2$ we can express all possible
+solutions $\ds y_1$, namely, $\ds y_1=h+y_2$, where now $h$ is the
+general solution to the homogeneous equation. Of course, this is
+exactly how we approached the first order linear equation.
+</p><p>
+To make use of this observation we need a method to find a single
+solution $y_2$. This turns out to be somewhat more difficult than the
+first order case, but if $f(t)$ is of a certain simple form, we can
+find a solution using the 
+<b>method of undetermined coefficients</b>,
+sometimes 
+more whimsically called the
+<b>method of judicious guessing</b>.
+</p><p>
+</p>
+<div class="example">
+<p>
+<span class="theoremlabel">Example 17.6.1 </span>Solve the differential equation $\ds \ddot y-\dot
+y-6y=18t^2+5$. The general solution of the homogeneous equation is
+$\ds Ae^{3t}+Be^{-2t}$. We guess that a solution to the
+non-homogeneous equation might look like $f(t)$ itself, namely,
+a quadratic $\ds y=at^2+bt+c$. Substituting this guess into the
+differential equation we get
+$$
+\ddot y-\dot y-6y = 2a-(2at+b)-6(at^2+bt+c) = -6at^2+(-2a-6b)t+(2a-b-6c).
+$$
+We want this to equal $18t^2+5$, so we need 
+$$\eqalign{
+-6a&=18\cr
+-2a-6b&=0\cr
+2a-b-6c&=5\cr}
+$$
+This is a system of three equations in three unknowns and is not hard
+to solve: $a=-3$, $b=1$, $c=-2$. Thus the general solution to the
+differential equation is $\ds Ae^{3t}+Be^{-2t}-3t^2+t-2$.
+
+</p>
+</div><!-- example -->
+<p>
+</p><p>
+So the "judicious guess'' is a function with the same form as $f(t)$
+but with undetermined (or better, yet to be determined)
+coefficients. This works whenever $f(t)$ is a polynomial.
+</p><p>
+</p>
+<div class="example">
+<p>
+<span class="theoremlabel">Example 17.6.2 </span>Consider the initial value problem $\ds m\ddot y +ky=-mg$,
+$y(0)=2$, $\ds\dot y(0)=50$. The left hand side represents a mass-spring
+system with no damping, i.e., $b=0$. Unlike the homogeneous case, we
+now consider the force due to gravity, $-mg$, assuming the spring is
+vertical at the surface of the earth, so that $g=980$. To be specific,
+let us take $m=1$ and $k=100$. The general solution to the homogeneous
+equation is $\ds A\cos(10t)+B\sin(10t)$. For the solution to the 
+non-homogeneous equation we guess simply a constant $y=a$, since $-mg=-980$
+is a constant. Then $\ds \ddot y+100y= 100a$ so $a=-980/100=-9.8$. The
+desired general solution is then $\ds A\cos(10t)+B\sin(10t)-9.8$.
+Substituting the initial conditions we get
+$$\eqalign{
+2&=A-9.8\cr
+50&=10B\cr}
+$$
+so $A=11.8$ and $B=5$ and the solution is $\ds 11.8\cos(10t)+5\sin(10t)-9.8$.
+
+</p>
+</div><!-- example -->
+<p>
+</p><p>
+More generally, this method can be used when a function similar to
+$f(t)$ has derivatives that are also similar to $f(t)$; in the
+examples so far, since $f(t)$ was a polynomial, so were its derivatives.
+The method will work if $f(t)$ has the form $p(t)e^{\alpha t}\cos(\beta t)+
+q(t)e^{\alpha t}\sin(\beta t)$, where $p(t)$ and $q(t)$ are
+polynomials; when $\alpha=\beta=0$ this is simply $p(t)$, a
+polynomial. In the most general form it is not simple to describe the
+appropriate judicious guess; we content ourselves with some examples
+to illustrate the process.
+</p><p>
+</p>
+<div class="example">
+<p>
+<span class="theoremlabel">Example 17.6.3 </span>Find the general solution to $\ds\ddot y+7\dot
+y+10y=e^{3t}$. The characteristic equation is $r^2+7r+10=(r+5)(r+2)$,
+so the solution to the homogeneous equation is
+$Ae^{-5t}+Be^{-2t}$. For a particular solution to the inhomogeneous
+equation we guess $Ce^{3t}$. Substituting we get
+$$
+9Ce^{3t}+21Ce^{3t}+10Ce^{3t}=e^{3t}40C.
+$$
+When $C=1/40$ this is equal to $f(t)=e^{3t}$, so the solution is
+$Ae^{-5t}+Be^{-2t}+(1/40)e^{3t}$.
+
+</p>
+</div><!-- example -->
+<p>
+</p><p>
+</p>
+<div class="example">
+<p>
+<span class="theoremlabel">Example 17.6.4 </span>Find the general solution to $\ds\ddot y+7\dot
+y+10y=e^{-2t}$. Following the last example we might guess
+$Ce^{-2t}$, but since this is a solution to the homogeneous equation
+it cannot work. Instead we guess $Cte^{-2t}$. Then
+$$
+(-2Ce^{-2t}-2Ce^{-2t}+4Cte^{-2t})+7(Ce^{-2t}-2Cte^{-2t})+10Cte^{-2t}
+=e^{-2t}(-3C).
+$$
+Then $C=-1/3$ and the solution is $Ae^{-5t}+Be^{-2t}-(1/3)te^{-2t}$.
+
+</p>
+</div><!-- example -->
+<p>
+</p><p>
+In general, if $f(t)=e^{kt}$ and $k$ is one of the roots of the
+characteristic equation, then we guess $Cte^{kt}$ instead of
+$Ce^{kt}$. If $k$ is the only root of the characteristic equation,
+then $Cte^{kt}$ will not work, and we must guess $Ct^2e^{kt}$.
+</p><p>
+</p>
+<div class="example">
+<p>
+<span class="theoremlabel">Example 17.6.5 </span>Find the general solution to $\ds\ddot y-6\dot
+y+9y=e^{3t}$. The characteristic equation is 
+$\ds r^2-6r+9=(r-3)^2$, so the general solution to the homogeneous
+equation is $Ae^{3t}+Bte^{3t}$. Guessing $Ct^2e^{3t}$ for the
+particular solution, we get
+$$
+(9Ct^2e^{3t}+6Cte^{3t}+6Cte^{3t}+2Ce^{3t})-6(3Ct^2e^{3t}+2Cte^{3t})+9Ct^2e^{3t}
+=e^{3t}2C.
+$$
+The solution is thus $\ds Ae^{3t}+Bte^{3t}+(1/2)t^2e^{3t}$.
+
+</p>
+</div><!-- example -->
+<p>
+</p><p>
+It is common in various physical systems to encounter an $f(t)$ of the
+form $\ds a\cos(\omega t)+b\sin(\omega t)$.
+</p><p>
+</p>
+<div class="example">
+<p>
+<span class="theoremlabel">Example 17.6.6 </span>Find the general solution to $\ds\ddot y+6\dot
+y+25y=\cos(4t)$. The roots of the characteristic equation are
+$-3\pm 4i$, so the solution to the homogeneous equation is
+$\ds e^{-3t}(A\cos(4t)+B\sin(4t))$. For a particular solution, we
+guess $C\cos(4t)+D\sin(4t)$. Substituting as usual:
+$$\eqalign{
+(-16C\cos(4t)&+-16D\sin(4t))+6(-4C\sin(4t)+4D\cos(4t))+25(C\cos(4t)+D\sin(4t))\cr
+&=(24D+9C)\cos(4t)+(-24C+9D)\sin(4t).\cr}
+$$
+To make this equal to $\cos(4t)$ we need
+$$\eqalign{
+24D+9C&=1\cr
+9D-24C&=0\cr}
+$$
+which gives $C=1/73$ and $D=8/219$. The full solution is then
+$\ds e^{-3t}(A\cos(4t)+B\sin(4t))+(1/73)\cos(4t)+(8/219)\sin(4t)$.
+</p><p>
+The function $\ds e^{-3t}(A\cos(4t)+B\sin(4t))$ is a damped
+oscillation as in example <a href="section17.05.html#example:damped spring oscillation">17.5.3</a>,
+while $\ds(1/73)\cos(4t)+(8/219)\sin(4t)$ is a simple undamped
+oscillation. As $t$ increases, the sum $\ds
+e^{-3t}(A\cos(4t)+B\sin(4t))$ approaches zero, so the solution
+$$e^{-3t}(A\cos(4t)+B\sin(4t))+(1/73)\cos(4t)+(8/219)\sin(4t)$$
+becomes more and more like the simple oscillation
+$\ds(1/73)\cos(4t)+(8/219)\sin(4t)$&mdash;notice that the initial
+conditions don't matter to this long term behavior. The damped portion
+is called the 
+<b>transient</b> part of the
+solution, and the simple oscillation is called the <b>steady state</b> 
+part of the solution. 
+A physical example is a mass-spring system. If the only force on the
+mass is due to the spring, then the behavior of the system is a damped
+oscillation. If in addition an external force is applied to the mass,
+and if the force varies according to a function of the form
+ $\ds a\cos(\omega t)+b\sin(\omega t)$, then the long term behavior
+will be a simple oscillation determined by the steady state part of the
+general solution; the initial position of the mass will not matter.
+
+</p>
+</div><!-- example -->
+<p>
+</p><p>
+As with the exponential form, such a simple guess may not work.
+</p><p>
+</p>
+<div class="example">
+<p>
+<span class="theoremlabel">Example 17.6.7 </span>Find the general solution to $\ds\ddot y+16y=-\sin(4t)$. 
+The roots of the characteristic equation are $\pm4i$, so the
+solution to the homogeneous equation is $A\cos(4t)+B\sin(4t)$. Since
+both $\cos(4t)$ and $\sin(4t)$ are solutions to the homogeneous
+equation,  $C\cos(4t)+D\sin(4t)$ is also, so it cannot be a solution
+to the non-homogeneous equation. Instead, we guess
+$Ct\cos(4t)+Dt\sin(4t)$. Then substituting:
+$$\eqalign{
+(-16Ct\cos(4t)&-16D\sin(4t)+8D\cos(4t)-8C\sin(4t)))+16(Ct\cos(4t)+Dt\sin(4t))\cr
+&=8D\cos(4t)-8C\sin(4t).\cr}
+$$
+Thus $C=1/8$, $D=0$, and the solution is
+$\ds C\cos(4t)+D\sin(4t)+(1/8)t\cos(4t)$.
+
+</p>
+</div><!-- example -->
+<p>
+</p><p>
+In general, if $f(t)=a\cos(\omega t)+b\sin(\omega t)$, and $\pm \omega
+i$ are the roots of the characteristic equation, then instead of 
+$C\cos(\omega t)+D\sin(\omega t)$ we guess $Ct\cos(\omega t)+Dt\sin(\omega t)$.
+</p><p>
+</p>
+<a id="exercises"></a><h2 class="exercises">Exercises 17.6</h2>
+<p></p><p>
+Find the general solution to the differential equation.
+</p><p>
+</p>
+<p class="exercise"><b>Ex 17.6.1</b>
+$\ds\ddot y -10\dot y+25y=\cos t$
+(<a knowl="" class="internal" value="$Ae^{5t}+Bte^{5t}+(6/169)\cos t-(5/338)\sin t$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 17.6.2</b>
+$\ds\ddot y+2\sqrt2\dot y+2y=10$
+(<a knowl="" class="internal" value="$\ds Ae^{-\sqrt2t}+Bte^{-\sqrt2t}+5$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 17.6.3</b>
+$\ds\ddot y+16y=8t^2+3t-4$
+(<a knowl="" class="internal" value="$\ds A\cos(4t)+B\sin(4t)+ (1/2)t^2+(3/16)t-5/16$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 17.6.4</b>
+$\ds\ddot y+2y=\cos(5t)+\sin(5t)$
+(<a knowl="" class="internal" value="$\ds A\cos(\sqrt2t)+B\sin(\sqrt2t)-(\cos(5t)+\sin(5t))/23$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 17.6.5</b>
+$\ds\ddot y-2\dot y+2y=e^{2t}$
+(<a knowl="" class="internal" value="$\ds e^{t}(A\cos t+B\sin t)+e^{2t}/2$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 17.6.6</b>
+$\ds\ddot y-6y+13=1+2t+e^{-t}$
+(<a knowl="" class="internal" value="$\ds Ae^{\sqrt6t}+Be^{-\sqrt6t}+2-t/3-e^{-t}/5$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 17.6.7</b>
+$\ds\ddot y+\dot y-6y=e^{-3t}$
+(<a knowl="" class="internal" value="$\ds Ae^{-3t}+Be^{2t}-(1/5)te^{-3t}$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 17.6.8</b>
+$\ds\ddot y-4\dot y+3y=e^{3t}$
+(<a knowl="" class="internal" value="$\ds Ae^t+Be^{3t}+(1/2)te^{3t}$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 17.6.9</b>
+$\ds\ddot y+16y=\cos(4t)$
+(<a knowl="" class="internal" value="$\ds A\cos(4t)+B\sin(4t)+(1/8)t\sin(4t)$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 17.6.10</b>
+$\ds\ddot y +9y=3\sin(3t)$
+(<a knowl="" class="internal" value="$\ds A\cos(3t)+B\sin(3t)-(1/2)t\cos(3t)$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 17.6.11</b>
+$\ds\ddot y+12\dot y+36y=6e^{-6t}$
+(<a knowl="" class="internal" value="$\ds Ae^{-6t}+Bte^{-6t}+3t^2e^{-6t}$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 17.6.12</b>
+$\ds\ddot y-8\dot y+16y=-2e^{4t}$
+(<a knowl="" class="internal" value="$\ds Ae^{4t}+Bte^{4t}-t^2e^{4t}$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 17.6.13</b>
+$\ds\ddot y+6\dot y+5y=4$
+(<a knowl="" class="internal" value="$\ds Ae^{-t}+Be^{-5t}+(4/5)$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 17.6.14</b>
+$\ds\ddot y-\dot y-12y=t$
+(<a knowl="" class="internal" value="$\ds Ae^{4t}+Be^{-3t}+(1/144)-(t/12)$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 17.6.15</b>
+$\ds\ddot y+5y=8\sin(2t)$
+(<a knowl="" class="internal" value="$\ds A\cos(\sqrt5t)+B\sin(\sqrt5t)+8\sin(2t)$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 17.6.16</b>
+$\ds\ddot y-4y=4e^{2t}$
+(<a knowl="" class="internal" value="$\ds Ae^{2t}+Be^{-2t}+te^{2t}$">answer</a>)
+
+
+</p><p>
+Solve the initial value problem.
+</p><p>
+</p>
+<p class="exercise"><b>Ex 17.6.17</b>
+$\ds\ddot y-y=3t+5$, $y(0)=0$, $\ds\dot y(0)=0$
+(<a knowl="" class="internal" value="$\ds 4e^{t}+e^{-t}-3t-5$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 17.6.18</b>
+$\ds\ddot y+9y=4t$, $y(0)=0$, $\ds\dot y(0)=0$
+(<a knowl="" class="internal" value="$\ds -(4/27)\sin(3t)+(4/9)t$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 17.6.19</b>
+$\ds\ddot y +12\dot y +37y=10e^{-4t}$, $y(0)=4$, $\ds\dot y(0)=0$
+(<a knowl="" class="internal" value="$\ds e^{-6t}(2\cos t+20\sin t)+2e^{-4t}$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 17.6.20</b>
+$\ds\ddot y+6\dot y+18y=\cos t-\sin t$, $y(0)=0$, $\ds\dot
+y(0)=2$ 
+(<a knowl="" class="internal" value="$\ds
+\left(-{23\over 325}\cos(3t)+{592\over 975}\sin(3t)\right)e^{-3t}+
+{23\over325}\cos t-{11\over325}\sin t$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 17.6.21</b>
+Find the solution for the mass-spring equation
+$\ds\ddot y+4\dot y+29y=689\cos(2t)$.
+(<a knowl="" class="internal" value="$\ds e^{-2t}(A\sin(5t)+B\cos(5t))+8\sin(2t)+25\cos(2t)$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 17.6.22</b>
+Find the solution for the mass-spring equation
+$\ds3\ddot y+12\dot y+24y=2\sin t$.
+(<a knowl="" class="internal" value="$\ds e^{-2t}(A\sin(2t)+B\cos(2t))+(14/195)\sin t-(8/195)\cos t$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 17.6.23</b>
+Consider the differential 
+equation $\ds m\ddot y+b\dot y+ky=\cos(\omega t)$,
+with $m$, $b$, and $k$ all positive and $\ds b^2< 2mk$; this equation
+is a model for a damped mass-spring system with external 
+driving force $\cos(\omega t)$.
+Show that the steady state part of the solution has amplitude
+$${1\over \sqrt{(k-m\omega^2)^2+\omega^2b^2}}.$$
+Show that this amplitude is largest when 
+$\ds \omega={\sqrt{4mk-2b^2}\over 2m}$. This is the 
+<b>resonant frequency</b> of the system.
+
+</p><p>
+
+
+</div></div></body>
+</html>

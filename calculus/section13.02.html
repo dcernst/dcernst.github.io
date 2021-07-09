@@ -1,0 +1,2282 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+<meta http-equiv="Content-Language" Content="en">
+<title>13.2 Calculus with vector functions</title>
+<!--
+<script type="text/javascript" src="js/deployJava.js"></script>
+<link rel="stylesheet" type="text/css" href="http://jsxgraph.uni-bayreuth.de/distrib/jsxgraph.css" />
+-->
+<!-- use Jsxgraph to create figures: http://jsxgraph.uni-bayreuth.de/wp/ -->
+<link rel="stylesheet" type="text/css" href="css/jsxgraph.css" />
+<script type="text/javascript" src="js/jsxgraphcore.js"></script>
+<script src="js/three.min.js"></script>
+<script src="js/Detector.js"></script>
+<script src="js/TrackballControls.js"></script>
+<script src="js/OrthographicTrackballControls.js"></script>
+<script src="js/THREEx.KeyboardState.js"></script>
+<script src="js/THREEx.FullScreen.js"></script>
+<script src="js/THREEx.WindowResize.js"></script>
+<script type='text/javascript' src='js/DAT.GUI.min.js'></script>
+<script>
+window.requestAnimFrame = (function(){
+    return  window.requestAnimationFrame       || 
+        window.webkitRequestAnimationFrame || 
+        window.mozRequestAnimationFrame    || 
+        window.oRequestAnimationFrame      || 
+        window.msRequestAnimationFrame     || 
+        function(/* function */ callback, /* DOMElement */
+            element){
+            window.setTimeout(callback, 1000 / 60);
+        };
+})();
+</script>
+<script src="js/ifvisible.min.js"></script>
+<script src="js/conrec.js"></script>
+<script>
+active = true;
+ifvisible.setIdleDuration(10);
+ifvisible.on("idle", function(){
+    active = false;
+//    console.log("idle");
+});
+
+ifvisible.on("wakeup", function(){
+    active = true;
+//    console.log("wakeup");
+});
+</script>
+<script src="js/parser.js"></script>
+<link href="css/whitman.css" rel="stylesheet" type="text/css" /><link href="css/calculus.css" rel="stylesheet" type="text/css" /><link href="css/knowlstyle.css" rel="stylesheet" type="text/css" />
+
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  extensions: ["tex2jax.js","TeX/AMSmath.js","TeX/AMSsymbols.js"],
+  jax: ["input/TeX","output/HTML-CSS"],
+  tex2jax: {
+    inlineMath: [['$','$'],["\\(","\\)"]],
+    processEscapes: true,
+  },
+TeX: {
+   Macros: {
+    val: "\\mathop{\\rm val}",
+    divides: "\\mid",
+    ndivides: "\\mathrel{\\not|}",
+    fix: "\\mathop{\\rm fix}",
+    id: "\\mathop{\\rm id}",
+    na: "\\mathop{\\rm na}",
+    d: "\\mathop{\\rm\\strut d}\\nolimits ",
+    legendre: ["\\left(\\frac{#1}{#2}\\right)",2],
+    normalbaselines: "",
+    notdiv: "\\nmid",
+    implies: "\\Rightarrow",
+    iff: "\\Leftrightarrow",
+    sevenpoint: "\\scriptsize",
+    ds: "\\displaystyle",
+    lcm: "\\operatorname{lcm}",
+    arccot: "\\operatorname{arccot}",
+    arcsec: "\\operatorname{arcsec}",
+    arccsc: "\\operatorname{arccsc}",
+    arccosh: "\\operatorname{arccosh}",
+    arcsinh: "\\operatorname{arcsinh}",
+    arcsech: "\\operatorname{arcsech}",
+    sech: "\\operatorname{sech}",
+    csch: "\\operatorname{csch}",
+    R: "{\\mathbb R}",
+    sb: "_",
+    sp: "^",
+    Q: "{\\mathbb Q}",
+    C: "{\\mathbb C}",
+    N: "{\\mathbb N}",
+    Z: "{\\mathbb Z}",
+    U: "{\\mathbb U}",
+    v: ["\\langle #1\\rangle",1],
+    dint: ["{\\mathchoice{\\mathop{\\int\\!\\!\\!\\int}_{#1}}{\\mathop{\\int\\!\\!\\!\\int}_{#1}}{\\mathop{\\int\\!\\!\\!\\int}}{\\mathop{\\int\\!\\!\\!\\int}}}",1],
+    tint: ["{\\mathchoice{\\mathop{\\int\\!\\!\\!\\int\\!\\!\\!\\int}_{#1\\;}}{\\mathop{\\int\\!\\!\\!\\int\\!\\!\\!\\int}_{#1}}{\\mathop{\\int\\!\\!\\!\\int\\!\\!\\!\\int}_{#1}}{\\mathop{\\int\\!\\!\\!\\int\\!\\!\\!\\int}_{#1}}}",1]
+   }
+},
+  "HTML-CSS": { scale: 100},
+  menuSettings: { zscale: "150%", zoom: "Double-Click" }
+});
+    JXG.Options.text.display = 'html';
+    JXG.Options.text.useMathJax = true;
+</script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/math
+jax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+<script>
+MathJax.Hub.Register.StartupHook("End",function () {
+  if(typeof window.orientation === 'undefined'){
+    var i,x;
+    x = document.getElementsByClassName("webgl_display");
+    for (i=0; i<x.length; i++) {
+      x[i].style.display = "block";
+    }
+    x = document.getElementsByClassName("no_webgl_display");
+    for (i=0; i<x.length; i++) {
+      x[i].style.display = "none";
+    }
+  }
+});
+</script>
+
+<script src="js/jquery-3.1.0.min.js"></script>
+<script src="https://sagecell.sagemath.org/static/embedded_sagecell.js"></script>
+<script src="js/jquery.visible.min.js"></script>
+<script type="text/javascript" src="js/knowl.js"></script>
+<style type="text/css">
+
+.sagecell .CodeMirror {
+  height: auto;
+}
+
+.sagecell .CodeMirror-scroll {
+  overflow-y: hidden;
+  overflow-x: auto;
+}
+
+.sagecell-practice .CodeMirror-scroll {
+}
+
+.sagecell button.sagecell_evalButton {
+    font-size: 50%;
+}
+
+.sagecell_sessionContainer {
+    margin-bottom:1em;
+}
+</style>
+<script>
+function toggle(a) {
+  var b = String(a);
+  b=b.replace("contents","button");
+  if (document.getElementById(a).style.display == "block") {
+    document.getElementById(a).style.display = "none";
+    document.getElementById(b).src = "expand_submenu.png";
+  } else {
+    document.getElementById(a).style.display = "block";
+    document.getElementById(b).src = "collapse_submenu.png";
+  }
+}
+function toggle_sidebar() {
+  if (document.getElementById('sidebar').style.display == "block") {
+    document.getElementById('sidebar').style.display = "none";
+    document.getElementById('menu_expand').style.display = "block";
+  } else {
+    document.getElementById('sidebar').style.display = "block";
+    document.getElementById('menu_expand').style.display = "none";
+  }
+}
+</script>
+
+</head>
+
+<body class="" onload="toggle('chapter_13_contents')">
+<div id="header">
+<div class="right">
+<div class="bread">
+  <a href=".">Home</a> &raquo; <a href="chapter13.html">Vector Functions</a> &raquo; <a href="section13.02.html">Calculus with vector functions</a>
+</div>
+
+<FORM method=GET action=https://www.google.com/custom id="search">
+<INPUT TYPE=text name=q size=31 maxlength=255 value="" style="font-size:small">
+<INPUT type=submit name=sa VALUE="Search the book" style="font-size:small">
+<INPUT type=hidden name=cof VALUE="AH:center;AWFID:198dc2b883340b1f;">
+<input type=hidden name=domains value="www.whitman.edu">
+<input type=hidden name=sitesearch value="www.whitman.edu/mathematics/calculus_online/">
+</FORM>
+<div id="title"><span id="title-content">13.2 Calculus with vector functions</span></div><a href="#exercises">[Jump to exercises]</a>
+</div>
+</div>
+<div id="menu_expand" style="display:none"><a href="javascript:toggle_sidebar()">Expand menu</a></div>
+<div id="sidebar" style="display:block">
+<h2 id="menu_collapse"><a href='javascript:toggle_sidebar()'>Collapse menu</a></h2>
+<h2 class="link"><img id="chapter_01_button" src="expand_submenu.png" onclick='toggle("chapter_01_contents")'><a href="chapter01.html">1 Analytic Geometry</a></h2>
+
+<ul class="list" id="chapter_01_contents">
+<li><a href="section01.01.html">1. Lines</a></li>
+<li><a href="section01.02.html">2. Distance Between Two Points; Circles</a></li>
+<li><a href="section01.03.html">3. Functions</a></li>
+<li><a href="section01.04.html">4. Shifts and Dilations</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_02_button" src="expand_submenu.png" onclick='toggle("chapter_02_contents")'><a href="chapter02.html">2 Instantaneous Rate of Change:  The Derivative</a></h2>
+
+<ul class="list" id="chapter_02_contents">
+<li><a href="section02.01.html">1. The slope of a function</a></li>
+<li><a href="section02.02.html">2. An example</a></li>
+<li><a href="section02.03.html">3. Limits</a></li>
+<li><a href="section02.04.html">4. The Derivative Function</a></li>
+<li><a href="section02.05.html">5. Adjectives For Functions</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_03_button" src="expand_submenu.png" onclick='toggle("chapter_03_contents")'><a href="chapter03.html">3 Rules for Finding Derivatives</a></h2>
+
+<ul class="list" id="chapter_03_contents">
+<li><a href="section03.01.html">1. The Power Rule</a></li>
+<li><a href="section03.02.html">2. Linearity of the Derivative</a></li>
+<li><a href="section03.03.html">3. The Product Rule</a></li>
+<li><a href="section03.04.html">4. The Quotient Rule</a></li>
+<li><a href="section03.05.html">5. The Chain Rule</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_04_button" src="expand_submenu.png" onclick='toggle("chapter_04_contents")'><a href="chapter04.html">4 Transcendental Functions</a></h2>
+
+<ul class="list" id="chapter_04_contents">
+<li><a href="section04.01.html">1. Trigonometric Functions</a></li>
+<li><a href="section04.02.html">2. The Derivative of $\sin x$</a></li>
+<li><a href="section04.03.html">3. A hard limit</a></li>
+<li><a href="section04.04.html">4. The Derivative of $\sin x$, continued</a></li>
+<li><a href="section04.05.html">5. Derivatives of the Trigonometric Functions</a></li>
+<li><a href="section04.06.html">6. Exponential and Logarithmic functions</a></li>
+<li><a href="section04.07.html">7. Derivatives of the exponential and  logarithmic functions</a></li>
+<li><a href="section04.08.html">8. Implicit Differentiation</a></li>
+<li><a href="section04.09.html">9. Inverse Trigonometric Functions</a></li>
+<li><a href="section04.10.html">10. Limits revisited</a></li>
+<li><a href="section04.11.html">11. Hyperbolic Functions</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_05_button" src="expand_submenu.png" onclick='toggle("chapter_05_contents")'><a href="chapter05.html">5 Curve Sketching</a></h2>
+
+<ul class="list" id="chapter_05_contents">
+<li><a href="section05.01.html">1. Maxima and Minima</a></li>
+<li><a href="section05.02.html">2. The first derivative test</a></li>
+<li><a href="section05.03.html">3. The second derivative test</a></li>
+<li><a href="section05.04.html">4. Concavity and inflection points</a></li>
+<li><a href="section05.05.html">5. Asymptotes and Other Things to Look For</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_06_button" src="expand_submenu.png" onclick='toggle("chapter_06_contents")'><a href="chapter06.html">6 Applications of the Derivative</a></h2>
+
+<ul class="list" id="chapter_06_contents">
+<li><a href="section06.01.html">1. Optimization</a></li>
+<li><a href="section06.02.html">2. Related Rates</a></li>
+<li><a href="section06.03.html">3. Newton's Method</a></li>
+<li><a href="section06.04.html">4. Linear Approximations</a></li>
+<li><a href="section06.05.html">5. The Mean Value Theorem</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_07_button" src="expand_submenu.png" onclick='toggle("chapter_07_contents")'><a href="chapter07.html">7 Integration</a></h2>
+
+<ul class="list" id="chapter_07_contents">
+<li><a href="section07.01.html">1. Two examples</a></li>
+<li><a href="section07.02.html">2. The Fundamental Theorem of Calculus</a></li>
+<li><a href="section07.03.html">3. Some Properties of Integrals</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_08_button" src="expand_submenu.png" onclick='toggle("chapter_08_contents")'><a href="chapter08.html">8 Techniques of Integration</a></h2>
+
+<ul class="list" id="chapter_08_contents">
+<li><a href="section08.01.html">1. Substitution</a></li>
+<li><a href="section08.02.html">2. Powers of sine and cosine</a></li>
+<li><a href="section08.03.html">3. Trigonometric Substitutions</a></li>
+<li><a href="section08.04.html">4. Integration by Parts</a></li>
+<li><a href="section08.05.html">5. Rational Functions</a></li>
+<li><a href="section08.06.html">6. Numerical Integration</a></li>
+<li><a href="section08.07.html">7. Additional exercises</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_09_button" src="expand_submenu.png" onclick='toggle("chapter_09_contents")'><a href="chapter09.html">9 Applications of Integration</a></h2>
+
+<ul class="list" id="chapter_09_contents">
+<li><a href="section09.01.html">1. Area between curves</a></li>
+<li><a href="section09.02.html">2. Distance, Velocity, Acceleration</a></li>
+<li><a href="section09.03.html">3. Volume</a></li>
+<li><a href="section09.04.html">4. Average value of a function</a></li>
+<li><a href="section09.05.html">5. Work</a></li>
+<li><a href="section09.06.html">6. Center of Mass</a></li>
+<li><a href="section09.07.html">7. Kinetic energy; improper integrals</a></li>
+<li><a href="section09.08.html">8. Probability</a></li>
+<li><a href="section09.09.html">9. Arc Length</a></li>
+<li><a href="section09.10.html">10. Surface Area</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_10_button" src="expand_submenu.png" onclick='toggle("chapter_10_contents")'><a href="chapter10.html">10 Polar Coordinates,  Parametric Equations</a></h2>
+
+<ul class="list" id="chapter_10_contents">
+<li><a href="section10.01.html">1. Polar Coordinates</a></li>
+<li><a href="section10.02.html">2. Slopes in polar coordinates</a></li>
+<li><a href="section10.03.html">3. Areas in polar coordinates</a></li>
+<li><a href="section10.04.html">4. Parametric Equations</a></li>
+<li><a href="section10.05.html">5. Calculus with Parametric Equations</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_11_button" src="expand_submenu.png" onclick='toggle("chapter_11_contents")'><a href="chapter11.html">11 Sequences and Series</a></h2>
+
+<ul class="list" id="chapter_11_contents">
+<li><a href="section11.01.html">1. Sequences</a></li>
+<li><a href="section11.02.html">2. Series</a></li>
+<li><a href="section11.03.html">3. The Integral Test</a></li>
+<li><a href="section11.04.html">4. Alternating Series</a></li>
+<li><a href="section11.05.html">5. Comparison Tests</a></li>
+<li><a href="section11.06.html">6. Absolute Convergence</a></li>
+<li><a href="section11.07.html">7. The Ratio and Root Tests</a></li>
+<li><a href="section11.08.html">8. Power Series</a></li>
+<li><a href="section11.09.html">9. Calculus with Power Series</a></li>
+<li><a href="section11.10.html">10. Taylor Series</a></li>
+<li><a href="section11.11.html">11. Taylor's Theorem</a></li>
+<li><a href="section11.12.html">12. Additional exercises</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_12_button" src="expand_submenu.png" onclick='toggle("chapter_12_contents")'><a href="chapter12.html">12 Three Dimensions</a></h2>
+
+<ul class="list" id="chapter_12_contents">
+<li><a href="section12.01.html">1. The Coordinate System</a></li>
+<li><a href="section12.02.html">2. Vectors</a></li>
+<li><a href="section12.03.html">3. The Dot Product</a></li>
+<li><a href="section12.04.html">4. The Cross Product</a></li>
+<li><a href="section12.05.html">5. Lines and Planes</a></li>
+<li><a href="section12.06.html">6. Other Coordinate Systems</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_13_button" src="expand_submenu.png" onclick='toggle("chapter_13_contents")'><a href="chapter13.html">13 Vector Functions</a></h2>
+
+<ul class="list" id="chapter_13_contents">
+<li><a href="section13.01.html">1. Space Curves</a></li>
+<li><a href="section13.02.html">2. Calculus with vector functions</a></li>
+<li><a href="section13.03.html">3. Arc length and curvature</a></li>
+<li><a href="section13.04.html">4. Motion along a curve</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_14_button" src="expand_submenu.png" onclick='toggle("chapter_14_contents")'><a href="chapter14.html">14 Partial Differentiation</a></h2>
+
+<ul class="list" id="chapter_14_contents">
+<li><a href="section14.01.html">1. Functions of Several Variables</a></li>
+<li><a href="section14.02.html">2. Limits and Continuity</a></li>
+<li><a href="section14.03.html">3. Partial Differentiation</a></li>
+<li><a href="section14.04.html">4. The Chain Rule</a></li>
+<li><a href="section14.05.html">5. Directional Derivatives</a></li>
+<li><a href="section14.06.html">6. Higher order derivatives</a></li>
+<li><a href="section14.07.html">7. Maxima and minima</a></li>
+<li><a href="section14.08.html">8. Lagrange Multipliers</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_15_button" src="expand_submenu.png" onclick='toggle("chapter_15_contents")'><a href="chapter15.html">15 Multiple Integration</a></h2>
+
+<ul class="list" id="chapter_15_contents">
+<li><a href="section15.01.html">1. Volume and Average Height</a></li>
+<li><a href="section15.02.html">2. Double Integrals in Cylindrical Coordinates</a></li>
+<li><a href="section15.03.html">3. Moment and Center of Mass</a></li>
+<li><a href="section15.04.html">4. Surface Area</a></li>
+<li><a href="section15.05.html">5. Triple Integrals</a></li>
+<li><a href="section15.06.html">6. Cylindrical and Spherical Coordinates</a></li>
+<li><a href="section15.07.html">7. Change of Variables</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_16_button" src="expand_submenu.png" onclick='toggle("chapter_16_contents")'><a href="chapter16.html">16 Vector Calculus</a></h2>
+
+<ul class="list" id="chapter_16_contents">
+<li><a href="section16.01.html">1. Vector Fields</a></li>
+<li><a href="section16.02.html">2. Line Integrals</a></li>
+<li><a href="section16.03.html">3. The Fundamental Theorem of Line Integrals</a></li>
+<li><a href="section16.04.html">4. Green's Theorem</a></li>
+<li><a href="section16.05.html">5. Divergence and Curl</a></li>
+<li><a href="section16.06.html">6. Vector Functions for Surfaces</a></li>
+<li><a href="section16.07.html">7. Surface Integrals</a></li>
+<li><a href="section16.08.html">8. Stokes's Theorem</a></li>
+<li><a href="section16.09.html">9. The Divergence Theorem</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_17_button" src="expand_submenu.png" onclick='toggle("chapter_17_contents")'><a href="chapter17.html">17 Differential Equations</a></h2>
+
+<ul class="list" id="chapter_17_contents">
+<li><a href="section17.01.html">1. First Order Differential Equations</a></li>
+<li><a href="section17.02.html">2. First Order Homogeneous Linear Equations</a></li>
+<li><a href="section17.03.html">3. First Order Linear Equations</a></li>
+<li><a href="section17.04.html">4. Approximation</a></li>
+<li><a href="section17.05.html">5. Second Order Homogeneous Equations</a></li>
+<li><a href="section17.06.html">6. Second Order Linear Equations</a></li>
+<li><a href="section17.07.html">7. Second Order Linear Equations, take two</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_18_button" src="expand_submenu.png" onclick='toggle("chapter_18_contents")'><a href="chapter18.html">18 Useful formulas</a></h2>
+
+<ul class="list" id="chapter_18_contents">
+</ul>
+
+</div>
+
+<div id="main">
+
+<div id="next"><a href="section13.01.html"><img src=previous_section.png width="30"></a>&nbsp;&nbsp;<a href="section13.03.html"><img src=next_section.png width="30"></a></div>
+
+<div id="content">
+<p>
+<p><a id="section:calculus with vector functions"></a>
+
+</p><p>
+
+A vector function ${\bf r}(t)=\langle f(t),g(t),h(t)\rangle$ is a
+function of one variable&mdash;that is, there is only one "input''
+value. What makes vector functions more complicated than the functions
+$y=f(x)$ that we studied in the first part of this book is of course
+that the "output'' values are now three-dimensional vectors instead
+of simply numbers. It is natural to wonder if there is a corresponding
+notion of derivative for vector functions. In the simpler case of a
+function $y=s(t)$, in which $t$ represents time and $s(t)$ is position
+on a line, we have seen that the derivative $s'(t)$ represents
+velocity; we might hope that in a similar way the derivative of a
+vector function would tell us something about the velocity of an
+object moving in three dimensions.
+</p><p>
+One way to approach the question of the derivative for vector
+functions is to write down an expression that is analogous to the
+derivative we already understand, and see if we can make sense of
+it. This gives us
+$$\eqalign{
+  {\bf r}'(t)&=\lim_{\Delta t\to0}{{\bf r}(t+\Delta t)-{\bf r}(t)\over
+  \Delta t}\cr
+  &=\lim_{\Delta t\to0}{\langle f(t+\Delta t)-f(t),g(t+\Delta t)-g(t),
+  h(t+\Delta t)-h(t)\rangle\over \Delta t}\cr
+  &=\lim_{\Delta t\to0}\langle {f(t+\Delta t)-f(t)\over\Delta t},
+  {g(t+\Delta t)-g(t)\over\Delta t},
+  {h(t+\Delta t)-h(t)\over \Delta t}\rangle\cr
+  &=\langle f'(t),g'(t),h'(t)\rangle,\cr
+}$$
+if we say that what we mean by the limit of a vector is the vector of
+the individual coordinate limits. So starting with a familiar
+expression for what appears to be a derivative, we find that we can
+make good computational sense out of it&mdash;but what does it actually
+mean?
+</p><p>
+We know how to interpret ${\bf r}(t+\Delta t)$ and ${\bf r}(t)$&mdash;they
+are vectors that point to locations in space; if $t$ is time, we can
+think of these points as positions of a moving object at times that
+are $\Delta t$ apart. We also know what $\Delta {\bf r}=
+{\bf r}(t+\Delta t)-{\bf r}(t)$
+means&mdash;it is a vector that points from the head of ${\bf r}(t)$ to
+the head of ${\bf r}(t+\Delta t)$, assuming both have their tails at
+the origin. So when $\Delta t$ is small, 
+$\Delta {\bf r}$ is a tiny vector pointing from one
+point on the path of the object to a nearby point. As $\Delta t$ gets
+close to 0, this vector points in a direction that is closer and
+closer to the direction in which the object is moving; geometrically,
+it approaches a vector tangent to the path of the object at a
+particular point.
+</p><p>
+</p><div class='figure'><!-- Vector_Functions_approximating_derivative.html -->
+<!-- Figure 13.2.1 -->
+
+<div id='approximating_derivative' class='jxgbox' style="width:60%;margin-left:auto;margin-right:auto"></div>
+
+<script type='text/javascript'>
+(function () {  // BEGIN: scope limiting function wrapper
+  var xmin=-0.5, xmax= 10.5, ymin=-0.5, ymax=5;
+  var AspectRatio =  ((ymax-ymin)/(xmax-xmin)); // height/width
+  var wd=document.getElementById('approximating_derivative').offsetWidth;
+  var ht=wd*AspectRatio;
+  var yfactor = (ymax-ymin)/(ht);
+  var xfactor = (xmax-xmin)/(wd);
+  var xaxis_label_offset = yfactor*15;
+  var yaxis_label_offset = xfactor*20;
+  document.getElementById('approximating_derivative').style.height=ht+'px';
+  var brd = JXG.JSXGraph.initBoard('approximating_derivative',{boundingbox:[xmin,ymax,xmax,ymin], showCopyright:false, showNavigation:false}) ;
+  var rejax = function() {
+     MathJax.Hub.Queue(["Typeset",MathJax.Hub]); 
+  }
+  brd.addHook(rejax)
+  var xaxis = brd.create('arrow', [[0,0], [2,3]],{strokeWidth:1,strokeColor:'blue',fixed:true});
+  var xaxis = brd.create('arrow', [[0,0], [7,4]],{strokeWidth:1,strokeColor:'blue',fixed:true});
+  var xaxis = brd.create('arrow', [[2,3], [6.5,3.9]],{strokeWidth:1,strokeColor:'blue',fixed:true});
+  var xaxis = brd.create('segment', [[7,4], [6.5,3.9]],{strokeWidth:1,strokeColor:'blue',fixed:true});
+  brd.create('text',[(2+7)/2,(3+4)/2-10*yfactor,'$\\\\Delta {\\\\bf r}$'],{fixed:true});
+  brd.create('text',[(7)/2,(4)/2-10*yfactor,'${\\\\bf r}(t+\\\\Delta t)$'],{fixed:true});
+  brd.create('text',[1,3/2-10*yfactor,'${\\\\bf r}(t)$'],{fixed:true});
+  var f = function(x){ return 0.0121*x*x*x-0.234*x*x+1.494*x+0.85; }
+  brd.create('functiongraph', [f,0,10], {strokeColor:'black',fixed:true});
+})(); // END: scope limiting function wrapper
+</script>
+<a id="fig:vector derivative"></a>
+<div class='figcaption'><span class="figurenumber">Figure 13.2.1.</span> Approximating the derivative.</div></div>
+<p>
+</p><p>
+Unfortunately, the vector $\Delta{\bf r}$ approaches 0 in length; the
+vector $\langle 0,0,0\rangle$ is not very informative. By dividing by
+$\Delta t$, when it is small, we effectively keep magnifying the
+length of $\Delta{\bf r}$ so that in the limit it doesn't disappear. Thus the
+limiting vector $\langle f'(t),g'(t),h'(t)\rangle$ will (usually) be a
+good, non-zero vector that is tangent to the curve.
+</p><p>
+What about the length of this vector? It's nice that we've kept it
+away from zero, but what does it measure, if anything?
+Consider the length of one of the vectors that approaches the tangent
+vector:
+$$\left|{{\bf r}(t+\Delta t)-{\bf r}(t)\over
+\Delta t}\right|={|{\bf r}(t+\Delta t)-{\bf r}(t)|\over|\Delta t|}$$
+The numerator is the length of the vector that points from one position
+of the object to a "nearby'' position; this length is approximately
+the distance traveled by the object between times $t$ and $t+\Delta
+t$. Dividing this distance by the length of time it takes to travel
+that distance gives the average speed. As $\Delta t$ approaches zero,
+this average speed approaches the actual, instantaneous speed of the
+object at time $t$. 
+</p><p>
+So by performing an "obvious'' calculation to get something that
+looks like the derivative of ${\bf r}(t)$, we get precisely what we
+would want from such a derivative: the vector ${\bf r}'(t)$
+points in the direction of travel of the object and its length tells
+us the speed of travel. In the case that $t$ is time, then, we call 
+${\bf v}(t)={\bf r}'(t)$ the velocity vector. Even if $t$ is not time,
+${\bf r}'(t)$ is useful&mdash;it is a vector tangent to the curve.
+</p><p>
+</p>
+<div class="example">
+<p>
+<span class="theoremlabel">Example 13.2.1 </span>We have seen that ${\bf r}=\langle \cos t,\sin t,t\rangle$ is a helix. 
+We compute ${\bf r}'=\langle -\sin t,\cos t,1\rangle$, and
+$|{\bf r}'|=\sqrt{\sin^2 t+\cos^2 t+1}=\sqrt2$. So thinking of this as
+a description of a moving object, its speed is always $\sqrt2$; see
+figure <a href="section13.02.html#fig:helix with tangent">13.2.2</a>.
+
+</p>
+</div><!-- example -->
+<p>
+</p><p>
+<a id="fig:helix with tangent"></a>
+</p><div class='figure'><!-- Vector_Functions_helix_with_tangent.html -->
+<!-- Figure 13.2.2 -->
+
+<table class="webgl_display" style="display:none;margin-left:auto;margin-right:auto">
+  <tr>
+    <td id="helix_tangent_animation"> </td>
+    <td id="helix_tangent_gui" style="vertical-align:top"></td>
+  </tr>
+</table>
+
+<div class="no_webgl_display" style="display:block;text-align:center">
+  <a href="https://www.whitman.edu/mathematics/calculus_applets/helix_with_tangent">
+    <img src="images/helix_with_tangent.png" width=400>
+</a></div>
+
+<script>
+    MathJax.Hub.Register.StartupHook("End",function(){
+        var gui;
+        var SCREEN_WIDTH = 400, SCREEN_HEIGHT = 400;
+        var container, scene, camera, renderer, controls;
+        var keyboard = new THREEx.KeyboardState();
+        var clock = new THREE.Clock();
+        var xoffset = 0, yoffset = 0, zoffset = -Math.PI/2;
+        var meshFunction, arrowHelper;
+        var t=5*Math.PI/2;
+        var xMin = xMax = yMin = yMax = 0; // for autosizing window
+        var id;
+
+        init();
+        animate_main();
+
+        function init()
+        {
+            scene = new THREE.Scene();
+            if ( Detector.webgl )
+                renderer = new THREE.WebGLRenderer( {alpha:true, antialias:true} );
+            else
+                renderer = new THREE.CanvasRenderer();
+            renderer.setSize(SCREEN_WIDTH, SCREEN_HEIGHT);
+            container = document.getElementById( 'helix_tangent_animation' );
+            container.appendChild( renderer.domElement );
+            var light = new THREE.PointLight(0xffffff,1,100);
+            light.position.set(3,3,10);
+            scene.add(light);
+            var light_amb = new THREE.AmbientLight( 0xaaaaaa );
+
+            gui = new dat.GUI( );
+            parameters =
+                {
+                    play:  function() { animate(); },
+                    pause:   function() { pause(); }
+                };
+            gui.add(parameters,'play').name("Play");
+            gui.add(parameters,'pause').name("Pause");
+            //      gui.domElement.id = 'gui';
+            var gui_container = document.getElementById('helix_tangent_gui');
+            gui_container.appendChild(gui.domElement);
+
+            scene.add( light_amb );
+            var spritex = makeTextSprite( "x", { fontsize: 30, borderColor: {r:0, g:0, b:255, a:1.0}, xoffset:-15 } );
+            spritex.position.set(1,0,0+zoffset);
+            scene.add( spritex );
+            var spritey = makeTextSprite( "y", { fontsize: 30, borderColor: {r:0, g:0, b:255, a:1.0} } );
+            spritey.position.set(0,1,0+zoffset);
+            scene.add( spritey );
+            var spritez = makeTextSprite( "z", { fontsize: 30, borderColor: {r:0, g:0, b:255, a:1.0}, yoffset:-10 } );
+            spritez.position.set(0,0,Math.PI+zoffset);
+            scene.add( spritez );
+
+            var axes = buildAxes();
+            scene.add(axes);
+            plot_it_1();
+
+            resetCamera();
+            draw();
+        }
+
+        function makeTextSprite(message, opts) {
+            var parameters = opts || {};
+            var fontface = parameters.fontface || 'Helvetiker';
+            var fontsize = parameters.fontsize || 70;
+            var borderThickness = parameters.borderThickness || 1;
+            var xoffset = parameters.xoffset || 0;
+            var yoffset = parameters.yoffset || 0;
+            var canvas = document.createElement('canvas');
+            canvas.width = canvas.height = 200;
+            var context = canvas.getContext('2d');
+            context.font = fontsize + "px " + fontface;
+
+            // get size data (height depends only on font size)
+            var metrics = context.measureText(message);
+            var textWidth = metrics.width;
+
+            // text color
+            context.fillStyle = 'rgba(0, 0, 0, 1.0)';
+            context.fillText(message, canvas.width/2+xoffset, canvas.width/2+yoffset);
+            //      alert(canvas.width);
+            // canvas contents will be used for a texture
+            var texture = new THREE.Texture(canvas)
+            texture.minFilter = THREE.LinearFilter;
+            texture.needsUpdate = true;
+            //roundRect(context, borderThickness, borderThickness, textWidth + 2 * borderThickness, fontsize * 1.4 + 2* borderThickness, 6);
+            var spriteMaterial = new THREE.SpriteMaterial({
+                map: texture
+                //              useScreenCoordinates: false
+            });
+            var sprite = new THREE.Sprite(spriteMaterial);
+            sprite.scale.set(1,1,1);
+            return sprite;
+        }
+
+        function resetCamera()
+        {
+            var VIEW_ANGLE = 15, ASPECT = SCREEN_WIDTH / SCREEN_HEIGHT, NEAR = 0.1, FAR = 20000;
+            // Orthog camera
+            //      camera = new THREE.OrthographicCamera( -2.5*ASPECT,2.5*ASPECT,4,-1, NEAR, FAR);
+            //      var zoom = 3;
+            //      camera.position.x = zoom*2;
+            //      camera.position.y = zoom*1.5;
+            //      camera.position.z = zoom*1.5;
+            // Perspective camera
+            camera = new THREE.PerspectiveCamera( VIEW_ANGLE, ASPECT, NEAR, FAR);
+            scene.add(camera);
+            camera.position.set(10,10,10);
+            camera.lookAt(scene.position);
+
+            camera.up.set( 0, 0, 1 );
+            scene.add(camera);
+            controls = new THREE.TrackballControls( camera, renderer.domElement );
+            controls.rotateSpeed = 1;
+            THREEx.WindowResize(renderer, camera);
+        }
+
+        function animate_main()
+        {
+            requestAnimationFrame( animate_main );
+            if ($('#helix_tangent_animation').visible(true) && active ) {
+                render();
+                update();
+            }
+        }
+
+        function render() {
+            renderer.render( scene, camera );
+        }
+
+        function update() {
+            controls.update();
+        }
+
+        function animate() {
+            id = requestAnimFrame( animate );
+            if ($('#helix_tangent_animation').visible(true) && active ) {
+                draw();
+            }
+        }
+
+        function pause() {
+            cancelAnimationFrame( id );
+        }
+
+        function draw() {
+
+            var time = new Date().getTime() * 0.001;
+
+            var origin = new THREE.Vector3(Math.cos(t),Math.sin(t),t/4+zoffset);
+            var dir = new THREE.Vector3(-Math.sin(t),Math.cos(t),0.25);
+            var length = Math.sqrt(1+1/16);
+            t += 0.01;
+            if (t >= 4*Math.PI) { t=0; }
+            var color = 0x0000ff;
+            scene.remove(arrowHelper);
+            arrowHelper = new THREE.ArrowHelper( dir.normalize(), origin, length, color );
+            scene.add( arrowHelper );
+            controls.update();
+            renderer.render( scene, camera );
+        }
+
+        function plot_it_1()
+        {
+            function x(t) {
+                return Math.cos(t);
+            }
+            function y(t) {
+                return Math.sin(t);
+            }
+            function z(t) {
+                return t/4+zoffset;
+            }
+            curveGraph(x,y,z,0,4*Math.PI,50,new THREE.Color( 0xff0000 ));
+        }
+
+        function curveGraph(xFunc,yFunc,zFunc,tMin,tMax,segments,color)
+        {
+            var normMaterial = new THREE.MeshBasicMaterial( { vertexColors: THREE.VertexColors,side:THREE.DoubleSide } );
+            var graphMesh;
+            var tRange = tMax - tMin;
+            var  mycurve = THREE.Curve.create(
+                function() {},
+                function(t)
+                {
+                    // default:    0 < t < 1
+                    //    want: tMin < t < tMax
+                    t = t * tRange + tMin;
+                    return new THREE.Vector3(xFunc(t), yFunc(t), zFunc(t)).multiplyScalar(1);
+                }
+            );
+            var curve = new mycurve;
+
+            var closedTube = false;
+            var debug = false; // show normal vectors
+            var tubeGeometry = new THREE.TubeGeometry(curve, segments, 0.01, 3, false, debug);
+
+            var  point, face, numberOfSides;
+            for ( var i = 0; i < tubeGeometry.faces.length; i++ )
+            {
+                face = tubeGeometry.faces[ i ];
+                numberOfSides = ( face instanceof THREE.Face3 ) ? 3 : 4;
+                for( var j = 0; j < numberOfSides; j++ )
+                {
+                    face.vertexColors[ j ] = color;
+                }
+            }
+
+            // for auto-sizing window
+            tubeGeometry.computeBoundingBox();
+            xMin = tubeGeometry.boundingBox.min.x;
+            xMax = tubeGeometry.boundingBox.max.x;
+            yMin = tubeGeometry.boundingBox.min.y;
+            yMax = tubeGeometry.boundingBox.max.y;
+            zMin = tubeGeometry.boundingBox.min.z;
+            zMax = tubeGeometry.boundingBox.max.z;
+
+            if (graphMesh)
+            {
+                scene.remove( graphMesh );
+                // renderer.deallocateObject( graphMesh );
+            }
+
+            graphMesh = new THREE.Mesh( tubeGeometry, normMaterial );
+            graphMesh.doubleSided = true;
+            scene.add(graphMesh);
+        }
+
+        function buildAxes() {
+            var axes = new THREE.Object3D();
+
+            axes.add( buildAxis( new THREE.Vector3( 0, 0, zoffset ), new THREE.Vector3( 1, 0, zoffset ), 0x000000, false ) ); // +X
+            axes.add( buildAxis( new THREE.Vector3( 0, 0, zoffset ), new THREE.Vector3( -1, 0, zoffset ), 0x000000, true) ); // -X
+            axes.add( buildAxis( new THREE.Vector3( 0, 0, zoffset ), new THREE.Vector3( 0, 1, zoffset ), 0x000000, false ) ); // +Y
+            axes.add( buildAxis( new THREE.Vector3( 0, 0, zoffset ), new THREE.Vector3( 0, -1, zoffset ), 0x000000, true ) ); // -Y
+            axes.add( buildAxis( new THREE.Vector3( 0, 0, zoffset ), new THREE.Vector3( 0, 0, Math.PI+zoffset ), 0x000000, false ) ); // +Z
+            //      axes.add( buildAxis( new THREE.Vector3( 0, 0, 0 ), new THREE.Vector3( 0, 0, -length ), 0x0000FF, true ) ); // -Z
+            return axes;
+        }
+
+        function buildAxis( src, dst, colorHex, dashed ) {
+            var geom = new THREE.Geometry();
+            var mat;
+
+            if(dashed) {
+                mat = new THREE.LineDashedMaterial({ linewidth: 1, color: colorHex, dashSize: 0.05, gapSize: 0.05 });
+            } else {
+                mat = new THREE.LineBasicMaterial({ linewidth: 1, color: colorHex });
+            }
+
+            geom.vertices.push( src.clone() );
+            geom.vertices.push( dst.clone() );
+            geom.computeLineDistances();
+
+            var axis = new THREE.Line( geom, mat );
+
+            return axis;
+        }
+    });
+</script>
+<div class='figcaption'><span class="figurenumber">Figure 13.2.2.</span> A tangent vector on the helix.</div></div>
+<p>
+</p><p>
+</p>
+<div class="example">
+<p>
+<span class="theoremlabel">Example 13.2.2 </span>The velocity vector for $\langle \cos t,\sin
+t,\cos t\rangle$ is $\langle -\sin t,\cos
+t,-\sin t\rangle$. As before, the first two coordinates mean that from
+above this curve looks like a circle. The $z$ coordinate is now also
+periodic, so that as the object moves around the curve its height
+oscillates up and down. In fact it turns out that the curve is a
+tilted ellipse, as shown in figure <a href="section13.02.html#fig:tilted ellipse">13.2.3</a>.
+
+</p>
+</div><!-- example -->
+<p>
+</p><p>
+<a id="fig:tilted ellipse"></a>
+</p><div class='figure'><!-- Vector_Functions_ellipse_with_tangent.html -->
+<!-- Figure 13.2.3 -->
+
+<!-- <div id="ellipse" class="webgl_display" style='text-align:center;display:none'></div> -->
+<table class="webgl_display" style="display:none;margin-left:auto;margin-right:auto">
+  <tr>
+    <td id="ellipse_tangent_animation"> </td>
+    <td id="ellipse_tangent_gui" style="vertical-align:top"></td>
+  </tr>
+</table>
+
+<div class="no_webgl_display"
+     style='text-align:center;display:block'>
+  <a href="https://www.whitman.edu/mathematics/calculus_applets/ellipse_with_tangent">
+    <img src="images/tilted_ellipse.png" width=400></a>
+</div>
+
+<script>
+    MathJax.Hub.Register.StartupHook("End",function(){
+        var gui;
+        var SCREEN_WIDTH = 600, SCREEN_HEIGHT = 600;
+        var container, scene, camera, renderer, controls;
+        var keyboard = new THREEx.KeyboardState();
+        var clock = new THREE.Clock();
+        var xoffset = 0, yoffset = 0, zoffset = 0;
+        var meshFunction, arrowHelper;
+        var t=Math.PI/2;
+        var xMin = xMax = yMin = yMax = 0; // for autosizing window
+        var id;
+
+        init();
+        animate_main();
+
+        function init()
+        {
+            scene = new THREE.Scene();
+            if ( Detector.webgl )
+                renderer = new THREE.WebGLRenderer( {alpha:true, antialias:true} );
+            else
+                renderer = new THREE.CanvasRenderer();
+            renderer.setSize(SCREEN_WIDTH, SCREEN_HEIGHT);
+            container = document.getElementById( 'ellipse_tangent_animation' );
+            container.appendChild( renderer.domElement );
+            var light = new THREE.PointLight(0xffffff,1,100);
+            light.position.set(3,3,10);
+            scene.add(light);
+            var light_amb = new THREE.AmbientLight( 0xaaaaaa ); // soft white light
+
+            gui = new dat.GUI( );
+            parameters =
+                {
+                    play:  function() { animate(); },
+                    pause:   function() { pause(); }
+                };
+            gui.add(parameters,'play').name("Play");
+            gui.add(parameters,'pause').name("Pause");
+            var gui_container = document.getElementById('ellipse_tangent_gui');
+            gui_container.appendChild(gui.domElement);
+
+            scene.add( light_amb );
+            var spritex = makeTextSprite( "x", { fontsize: 30, borderColor: {r:0, g:0, b:255, a:1.0}, xoffset:-15 } );
+            spritex.position.set(1,0,0+zoffset);
+            scene.add( spritex );
+            var spritey = makeTextSprite( "y", { fontsize: 30, borderColor: {r:0, g:0, b:255, a:1.0} } );
+            spritey.position.set(0,1,0+zoffset);
+            scene.add( spritey );
+            var spritez = makeTextSprite( "z", { fontsize: 30, borderColor: {r:0, g:0, b:255, a:1.0}, yoffset:-10 } );
+            spritez.position.set(0,0,1+zoffset);
+            scene.add( spritez );
+
+            var axes = buildAxes();
+            scene.add(axes);
+            plot_it_1();
+            //      plot_it_2();
+            resetCamera();
+            draw();
+        }
+
+        function makeTextSprite(message, opts) {
+            var parameters = opts || {};
+            var fontface = parameters.fontface || 'Helvetiker';
+            var fontsize = parameters.fontsize || 70;
+            var borderThickness = parameters.borderThickness || 1;
+            var xoffset = parameters.xoffset || 0;
+            var yoffset = parameters.yoffset || 0;
+            var canvas = document.createElement('canvas');
+            canvas.width = canvas.height = 200;
+            var context = canvas.getContext('2d');
+            context.font = fontsize + "px " + fontface;
+
+            // get size data (height depends only on font size)
+            var metrics = context.measureText(message);
+            var textWidth = metrics.width;
+
+            // text color
+            context.fillStyle = 'rgba(0, 0, 0, 1.0)';
+            context.fillText(message, canvas.width/2+xoffset, canvas.width/2+yoffset);
+            //      alert(canvas.width);
+            // canvas contents will be used for a texture
+            var texture = new THREE.Texture(canvas)
+            texture.minFilter = THREE.LinearFilter;
+            texture.needsUpdate = true;
+            //roundRect(context, borderThickness, borderThickness, textWidth + 2 * borderThickness, fontsize * 1.4 + 2* borderThickness, 6);
+            var spriteMaterial = new THREE.SpriteMaterial({
+                map: texture
+                //              useScreenCoordinates: false
+            });
+            var sprite = new THREE.Sprite(spriteMaterial);
+            sprite.scale.set(1,1,1);
+            return sprite;
+        }
+
+
+        function resetCamera()
+        {
+            var VIEW_ANGLE = 8, ASPECT = SCREEN_WIDTH / SCREEN_HEIGHT, NEAR = 0.1, FAR = 20000;
+            // Orthog camera
+            //      camera = new THREE.OrthographicCamera( -2.5*ASPECT,2.5*ASPECT,4,-1, NEAR, FAR);
+            //      var zoom = 3;
+            //      camera.position.x = zoom*2;
+            //      camera.position.y = zoom*1.5;
+            //      camera.position.z = zoom*1.5;
+            // Perspective camera
+            camera = new THREE.PerspectiveCamera( VIEW_ANGLE, ASPECT, NEAR, FAR);
+            scene.add(camera);
+	    camera.position.set(15,22,22);
+            camera.lookAt(scene.position);
+
+            camera.up.set( 0, 0, 1 );
+            scene.add(camera);
+            controls = new THREE.TrackballControls( camera, renderer.domElement );
+            controls.rotateSpeed = 1;
+            THREEx.WindowResize(renderer, camera);
+        }
+
+        function animate_main()
+        {
+            requestAnimationFrame( animate_main );
+            if ($('#ellipse_tangent_animation').visible(true) && active ) {
+                render();
+                update();
+            }
+        }
+
+        function render() {
+            renderer.render( scene, camera );
+        }
+
+        function update() {
+            controls.update();
+        }
+
+        function animate() {
+            id = requestAnimFrame( animate );
+            if ($('#ellipse_tangent_animation').visible(true) && active ) {
+                draw();
+            }
+        }
+
+        function pause() {
+            cancelAnimationFrame( id );
+        }
+
+        function draw() {
+            var time = new Date().getTime() * 0.001;
+            var origin = new THREE.Vector3(Math.cos(t),Math.sin(t),Math.cos(t));
+            var dir = new THREE.Vector3(-Math.sin(t),Math.cos(t),-Math.sin(t));
+            var length = Math.sqrt(1+Math.sin(t)*Math.sin(t));
+            t += 0.01;
+            if (t >= 2*Math.PI) { t=0; }
+            var color = 0x0000ff;
+            scene.remove(arrowHelper);
+            arrowHelper = new THREE.ArrowHelper( dir.normalize(), origin, length, color );
+            scene.add( arrowHelper );
+            controls.update();
+            renderer.render( scene, camera );
+        }
+
+
+        function plot_it_1()
+        {
+            function x(t) {
+                return Math.cos(t);
+            }
+            function y(t) {
+                return Math.sin(t);
+            }
+            function z(t) {
+                return Math.cos(t)+zoffset;
+            }
+            curveGraph(x,y,z,0,2*Math.PI,50,new THREE.Color( 0xff0000 ));
+        }
+
+        function curveGraph(xFunc,yFunc,zFunc,tMin,tMax,segments,color)
+        {
+            var normMaterial = new THREE.MeshBasicMaterial( { vertexColors: THREE.VertexColors,side:THREE.DoubleSide } );
+            var graphMesh;
+            var tRange = tMax - tMin;
+            var  mycurve = THREE.Curve.create(
+                function() {},
+                function(t)
+                {
+                    // default:    0 < t < 1
+                    //    want: tMin < t < tMax
+                    t = t * tRange + tMin;
+                    return new THREE.Vector3(xFunc(t), yFunc(t), zFunc(t)).multiplyScalar(1);
+                }
+            );
+            var curve = new mycurve;
+
+            var closedTube = false;
+            var debug = false; // show normal vectors
+            var tubeGeometry = new THREE.TubeGeometry(curve, segments, 0.01, 3, false, debug);
+
+            var  point, face, numberOfSides;
+            for ( var i = 0; i < tubeGeometry.faces.length; i++ )
+            {
+                face = tubeGeometry.faces[ i ];
+                numberOfSides = ( face instanceof THREE.Face3 ) ? 3 : 4;
+                for( var j = 0; j < numberOfSides; j++ )
+                {
+                    face.vertexColors[ j ] = color;
+                }
+            }
+
+            // for auto-sizing window
+            tubeGeometry.computeBoundingBox();
+            xMin = tubeGeometry.boundingBox.min.x;
+            xMax = tubeGeometry.boundingBox.max.x;
+            yMin = tubeGeometry.boundingBox.min.y;
+            yMax = tubeGeometry.boundingBox.max.y;
+            zMin = tubeGeometry.boundingBox.min.z;
+            zMax = tubeGeometry.boundingBox.max.z;
+
+            if (graphMesh)
+            {
+                scene.remove( graphMesh );
+                // renderer.deallocateObject( graphMesh );
+            }
+
+            graphMesh = new THREE.Mesh( tubeGeometry, normMaterial );
+            graphMesh.doubleSided = true;
+            scene.add(graphMesh);
+        }
+
+        function buildAxes() {
+            var axes = new THREE.Object3D();
+
+            axes.add( buildAxis( new THREE.Vector3( 0, 0, zoffset ), new THREE.Vector3( 1, 0, zoffset ), 0x000000, false ) ); // +X
+            axes.add( buildAxis( new THREE.Vector3( 0, 0, zoffset ), new THREE.Vector3( -1, 0, zoffset ), 0x000000, true) ); // -X
+            axes.add( buildAxis( new THREE.Vector3( 0, 0, zoffset ), new THREE.Vector3( 0, 1, zoffset ), 0x000000, false ) ); // +Y
+            axes.add( buildAxis( new THREE.Vector3( 0, 0, zoffset ), new THREE.Vector3( 0, -1, zoffset ), 0x000000, true ) ); // -Y
+            axes.add( buildAxis( new THREE.Vector3( 0, 0, zoffset ), new THREE.Vector3( 0, 0, 1+zoffset ), 0x000000, false ) ); // +Z
+            axes.add( buildAxis( new THREE.Vector3( 0, 0, zoffset ), new THREE.Vector3( 0, 0, -1+zoffset ), 0x000000, false ) ); // -Z
+            return axes;
+        }
+
+        function buildAxis( src, dst, colorHex, dashed ) {
+            var geom = new THREE.Geometry();
+            var mat;
+
+            if(dashed) {
+                mat = new THREE.LineDashedMaterial({ linewidth: 1, color: colorHex, dashSize: 0.05, gapSize: 0.05 });
+            } else {
+                mat = new THREE.LineBasicMaterial({ linewidth: 1, color: colorHex });
+            }
+
+            geom.vertices.push( src.clone() );
+            geom.vertices.push( dst.clone() );
+            geom.computeLineDistances();
+
+            var axis = new THREE.Line( geom, mat );
+
+            return axis;
+        }
+    });
+</script>
+<div class='figcaption'><span class="figurenumber">Figure 13.2.3.</span> The ellipse ${\bf r}=\langle \cos t,\sin
+t,\cos t\rangle$.</div></div>
+<p>
+</p><p>
+</p>
+<div class="example">
+<p>
+<span class="theoremlabel">Example 13.2.3 </span>The velocity vector for $\langle \cos t,\sin
+t,\cos 2t\rangle$ is $\langle -\sin t,\cos
+t,-2\sin 2t\rangle$. The $z$ coordinate is now oscillating twice as
+fast as in the previous example, so the graph is not surprising; see
+figure <a href="section13.02.html#fig:roller coaster">13.2.4</a>.
+
+</p>
+</div><!-- example -->
+<p>
+</p><p>
+<a id="fig:roller coaster"></a>
+</p><div class='figure'><!-- Vector_Functions_coaster_with_tangent.html -->
+<!-- Figure 13.2.4 -->
+<table class="webgl_display" style="margin-left:auto;margin-right:auto;display:none">
+<tr>
+<td id="coaster" style='text-align:center'></td>
+<td id="coaster_gui" style='text-align:center;vertical-align:center'></td>
+</tr>
+</table>
+<table class="no_webgl_display" style="margin-left:auto;margin-right:auto;display:block">
+<tr><td><a href="https://www.whitman.edu/mathematics/calculus_applets/coaster_with_tangent">
+<img src="images/coaster_with_tangent.png" width=400></a>
+</td></tr></table>
+
+<script>
+MathJax.Hub.Register.StartupHook("End",function(){
+	var gui;
+	var SCREEN_WIDTH = 600, SCREEN_HEIGHT = 600;
+	var container, scene, camera, renderer, controls;
+	var keyboard = new THREEx.KeyboardState();
+	var clock = new THREE.Clock();
+	var xoffset = 0, yoffset = 0, zoffset = -0.5;
+	var meshFunction;
+	
+	var xMin = xMax = yMin = yMax = 0; // for autosizing window
+	var id;
+	var t=0;
+	var arrowHelper;
+    if(typeof window.orientation === 'undefined') {
+	init();
+	animate_main();
+    }	
+    function init() 
+	{
+	    scene = new THREE.Scene();
+	    if ( Detector.webgl )
+		renderer = new THREE.WebGLRenderer( {alpha:true, antialias:true} );
+	    else
+		renderer = new THREE.CanvasRenderer(); 
+	    renderer.setSize(SCREEN_WIDTH, SCREEN_HEIGHT);
+	    container = document.getElementById( 'coaster' );
+	    container.appendChild( renderer.domElement );
+	    var light = new THREE.PointLight(0xffffff,1,100);
+	    light.position.set(3,3,10);
+	    scene.add(light);
+	    var light_amb = new THREE.AmbientLight( 0xaaaaaa ); // soft white light
+	    scene.add( light_amb );
+	    var spritex = makeTextSprite( "x", { fontsize: 30, borderColor: {r:0, g:0, b:255, a:1.0}, xoffset:-15 } );
+	    spritex.position.set(1,0,0+zoffset);
+	    scene.add( spritex );
+	    var spritey = makeTextSprite( "y", { fontsize: 30, borderColor: {r:0, g:0, b:255, a:1.0} } );
+	    spritey.position.set(0,1,0+zoffset);
+	    scene.add( spritey );
+	    var spritez = makeTextSprite( "z", { fontsize: 30, borderColor: {r:0, g:0, b:255, a:1.0}, yoffset:-10 } );
+	    spritez.position.set(0,0,1+zoffset);
+	    scene.add( spritez );
+	    gui = new dat.GUI();
+	    parameters = 
+		{
+		    play:  function() { animate(); }, 
+		    pause:   function() { pause(); }
+		};
+	    gui.add(parameters,'play').name("Play");
+	    gui.add(parameters,'pause').name("Pause");
+	    var gui_container = document.getElementById('coaster_gui');
+	    gui_container.appendChild(gui.domElement);
+	    var axes = buildAxes();
+	    scene.add(axes);
+	    plot_it_1();
+	    resetCamera();
+	    draw();
+	}
+	
+	function makeTextSprite(message, opts) {
+	    var parameters = opts || {};
+	    var fontface = parameters.fontface || 'Helvetiker';
+	    var fontsize = parameters.fontsize || 70;
+	    var borderThickness = parameters.borderThickness || 1;
+	    var xoffset = parameters.xoffset || 0;
+	    var yoffset = parameters.yoffset || 0;
+	    var canvas = document.createElement('canvas');
+	    canvas.width = canvas.height = 200;
+	    var context = canvas.getContext('2d');
+	    context.font = fontsize + "px " + fontface;
+
+  // get size data (height depends only on font size)
+	    var metrics = context.measureText(message);
+	    var textWidth = metrics.width;
+	    
+  // text color
+	    context.fillStyle = 'rgba(0, 0, 0, 1.0)';
+	    context.fillText(message, canvas.width/2+xoffset, canvas.width/2+yoffset);
+//	    alert(canvas.width);
+  // canvas contents will be used for a texture
+	    var texture = new THREE.Texture(canvas)
+	    texture.minFilter = THREE.LinearFilter;
+	    texture.needsUpdate = true;
+	    //roundRect(context, borderThickness, borderThickness, textWidth + 2 * borderThickness, fontsize * 1.4 + 2* borderThickness, 6);
+	    var spriteMaterial = new THREE.SpriteMaterial({
+		map: texture
+//              useScreenCoordinates: false
+	    });
+	    var sprite = new THREE.Sprite(spriteMaterial);
+	    sprite.scale.set(1,1,1);
+	    return sprite;
+	}
+
+	
+	function resetCamera()
+	{
+	    var VIEW_ANGLE = 13, ASPECT = SCREEN_WIDTH / SCREEN_HEIGHT, NEAR = 0.1, FAR = 20000;
+	    // Orthog camera
+//	    camera = new THREE.OrthographicCamera( -2.5*ASPECT,2.5*ASPECT,4,-1, NEAR, FAR);
+//	    var zoom = 3;
+//	    camera.position.x = zoom*2;
+//	    camera.position.y = zoom*1.5;
+//	    camera.position.z = zoom*1.5;
+	    // Perspective camera
+//	    function draw() {
+//      
+//		var time = new Date().getTime() * 0.001;
+//      
+//		var origin = new THREE.Vector3(Math.cos(t),Math.sin(t),t/4+zoffset); 
+//		var dir = new THREE.Vector3(-Math.sin(t),Math.cos(t),0.25);
+//		var length = Math.sqrt(1+1/16);
+//		t += 0.01;
+//		if (t >= 4*Math.PI) { t=0; }
+//		var color = 0x0000ff;
+//		scene.remove(arrowHelper);
+//		arrowHelper = new THREE.ArrowHelper( dir.normalize(), origin, length, color );
+//		scene.add( arrowHelper );
+//		controls.update();
+//		renderer.render( scene, camera );
+//	    }
+
+	    camera = new THREE.PerspectiveCamera( VIEW_ANGLE, ASPECT, NEAR, FAR);
+	    scene.add(camera);
+	    camera.position.set(10,15,15);
+	    camera.lookAt(scene.position);  
+	    
+	    camera.up.set( 0, 0, 1 ); 
+	    scene.add(camera);
+	    controls = new THREE.TrackballControls( camera, renderer.domElement );
+	    controls.rotateSpeed = 1;
+	    THREEx.WindowResize(renderer, camera);
+	}
+
+	function animate_main() 
+	{
+	    requestAnimationFrame( animate_main );
+	    if ($('#coaster').visible(true) && active ) {
+		render();           
+		update();
+	    }
+	}
+
+	function animate() 
+	{
+	    id = requestAnimFrame( animate );
+	    if ($('#coaster').visible(true) && active ) {
+		draw();
+	    }
+	}
+	
+	function update()
+	{
+	    if ( keyboard.pressed("z") ) 
+	    { 
+		// do something
+	    }
+	    
+	    controls.update();
+	    //	stats.update();
+	}
+	
+	function render() 
+	{
+	    renderer.render( scene, camera );
+	}
+	
+	function pause() {
+	    cancelAnimationFrame( id );
+	}
+
+	function draw() {
+      
+	    var time = new Date().getTime() * 0.001;
+      
+	    var origin = new THREE.Vector3(Math.cos(t),Math.sin(t),Math.cos(2*t)+zoffset); 
+	    var dir = new THREE.Vector3(-Math.sin(t),Math.cos(t),-2*Math.sin(2*t));
+	    var length = Math.sqrt(1+4*Math.cos(2*t)*Math.cos(2*t));
+	    t += 0.01;
+	    if (t >= 2*Math.PI) { t=0; }
+	    var color = 0x0000ff;
+	    scene.remove(arrowHelper);
+	    arrowHelper = new THREE.ArrowHelper( dir.normalize(), origin, length, color );
+	    scene.add( arrowHelper );
+	    controls.update();
+	    renderer.render( scene, camera );
+	}
+
+	
+	function plot_it_1()
+	{
+	    function x(t) {
+		return Math.cos(t);
+	    }
+	    function y(t) {
+		return Math.sin(t);
+	    }
+	    function z(t) {
+		return Math.cos(2*t)+zoffset;
+	    }
+	    curveGraph(x,y,z,0,2*Math.PI,100,new THREE.Color( 0xff0000 ));
+	}
+	
+	function plot_it_2()
+	{
+	    var origin = new THREE.Vector3(-1/2,Math.sqrt(3)/2,-1/2);
+	    var dir = new THREE.Vector3(-Math.sqrt(3)/2,-1/2,Math.sqrt(3));
+	    var length = Math.sqrt(2);
+	    var color = 0x0000ff;
+	    var arrowHelper = new THREE.ArrowHelper( dir.normalize(), origin, length, color );
+	    scene.add( arrowHelper );
+	}
+	
+	function curveGraph(xFunc,yFunc,zFunc,tMin,tMax,segments,color)
+	{
+	    var normMaterial = new THREE.MeshBasicMaterial( { vertexColors: THREE.VertexColors,side:THREE.DoubleSide } );
+	    var graphMesh;
+	    var tRange = tMax - tMin;
+	    var  mycurve = THREE.Curve.create( 
+		function() {},
+		function(t) 
+		{
+		    // default:    0 < t < 1
+		    //    want: tMin < t < tMax
+		    t = t * tRange + tMin;
+		    return new THREE.Vector3(xFunc(t), yFunc(t), zFunc(t)).multiplyScalar(1);
+		}
+	    );
+	    var curve = new mycurve;
+	    
+	    var closedTube = false;
+	    var debug = false; // show normal vectors
+	    var tubeGeometry = new THREE.TubeGeometry(curve, segments, 0.01, 3, false, debug);
+	    
+	    var  point, face, numberOfSides;
+	    for ( var i = 0; i < tubeGeometry.faces.length; i++ ) 
+	    {
+		face = tubeGeometry.faces[ i ];
+		numberOfSides = ( face instanceof THREE.Face3 ) ? 3 : 4;
+		for( var j = 0; j < numberOfSides; j++ ) 
+		{
+		    face.vertexColors[ j ] = color;
+		}
+	    }
+	    
+	    // for auto-sizing window
+	    tubeGeometry.computeBoundingBox();
+	    xMin = tubeGeometry.boundingBox.min.x;
+	    xMax = tubeGeometry.boundingBox.max.x;
+	    yMin = tubeGeometry.boundingBox.min.y;
+	    yMax = tubeGeometry.boundingBox.max.y;
+	    zMin = tubeGeometry.boundingBox.min.z;
+	    zMax = tubeGeometry.boundingBox.max.z;
+	    
+	    if (graphMesh) 
+	    {
+		scene.remove( graphMesh );
+		// renderer.deallocateObject( graphMesh );
+	    }
+	    
+	    graphMesh = new THREE.Mesh( tubeGeometry, normMaterial );
+	    graphMesh.doubleSided = true;
+	    scene.add(graphMesh);
+	}
+
+	function buildAxes() {
+	    var axes = new THREE.Object3D();
+	    
+	    axes.add( buildAxis( new THREE.Vector3( 0, 0, zoffset ), new THREE.Vector3( 1, 0, zoffset ), 0x000000, false ) ); // +X
+	    axes.add( buildAxis( new THREE.Vector3( 0, 0, zoffset ), new THREE.Vector3( -1, 0, zoffset ), 0x000000, true) ); // -X
+	    axes.add( buildAxis( new THREE.Vector3( 0, 0, zoffset ), new THREE.Vector3( 0, 1, zoffset ), 0x000000, false ) ); // +Y
+	    axes.add( buildAxis( new THREE.Vector3( 0, 0, zoffset ), new THREE.Vector3( 0, -1, zoffset ), 0x000000, true ) ); // -Y
+	    axes.add( buildAxis( new THREE.Vector3( 0, 0, zoffset ), new THREE.Vector3( 0, 0, 1+zoffset ), 0x000000, false ) ); // +Z
+	    axes.add( buildAxis( new THREE.Vector3( 0, 0, zoffset ), new THREE.Vector3( 0, 0, -1+zoffset ), 0x000000, false ) ); // -Z
+	    return axes;
+	}	
+	
+	function buildAxis( src, dst, colorHex, dashed ) {
+	    var geom = new THREE.Geometry();
+	    var mat;
+	    
+	    if(dashed) {
+		mat = new THREE.LineDashedMaterial({ linewidth: 1, color: colorHex, dashSize: 0.05, gapSize: 0.05 });
+	    } else {
+		mat = new THREE.LineBasicMaterial({ linewidth: 1, color: colorHex });
+	    }
+	    
+	    geom.vertices.push( src.clone() );
+	    geom.vertices.push( dst.clone() );
+	    geom.computeLineDistances();
+	    
+	    var axis = new THREE.Line( geom, mat );
+	    
+	    return axis;
+	}
+    });
+</script>  
+
+<div class='figcaption'><span class="figurenumber">Figure 13.2.4.</span> $\langle \cos t,\sin
+t,\cos 2t\rangle$.</div></div>
+<p>
+</p><p>
+</p>
+<div class="example">
+<p>
+<span class="theoremlabel">Example 13.2.4 </span>Find the angle between the curves $\langle t,1-t,3+t^2 \rangle$ and 
+$\langle 3-t,t-2,t^2\rangle$ where they meet.
+</p><p>
+The angle between two curves at a point is the angle between their
+tangent vectors&mdash;any tangent vectors will do, so we can use the
+derivatives. We need to find the point of intersection, evaluate the
+two derivatives there, and finally find the angle between them.
+</p><p>
+To find the point of intersection, we need to solve the equations
+$$\eqalign{
+t&=3-u\cr
+1-t&=u-2\cr
+3+t^2&=u^2\cr
+}$$
+Solving either of the first two equations for $u$ and substituting in
+the third gives $3+t^2=(3-t)^2$, which means $t=1$. This together with
+$u=2$ satisfies all three equations. Thus the two curves meet at
+$(1,0,4)$, the first when $t=1$ and the second when
+$t=2$.
+</p><p>
+The derivatives are $\langle 1,-1,2t\rangle$ and
+$\langle -1,1,2t\rangle$; at the intersection point these are
+$\langle 1,-1,2\rangle$ and $\langle -1,1,4\rangle$. The cosine of the
+angle between them is then
+$$\cos\theta = {-1-1+8\over\sqrt6\sqrt{18}}={1\over\sqrt3},$$
+so $\theta=\arccos(1/\sqrt3)\approx0.96$.
+
+</p>
+</div><!-- example -->
+<p>
+</p><p>
+The derivatives of vector functions obey some familiar looking rules,
+which we will occasionally need.
+</p><p>
+</p>
+<div class="theorem">
+<p>
+<span class="theoremlabel">Theorem 13.2.5 </span>
+<a id="thm:vector derivative properties"></a>
+Suppose ${\bf r}(t)$ and ${\bf s}(t)$ are differentiable functions,
+$f(t)$ is a differentiable function, and $a$ is a real number.
+</p><p>
+</p><ul><p>
+</p><p>
+</p><p> a.  $\ds {d\over dt} a{\bf r}(t)= a{\bf r}'(t)$
+</p><p>
+</p><p> b.  $\ds {d\over dt} ({\bf r}(t)+{\bf s}(t))=
+{\bf r}'(t)+{\bf s}'(t)$
+</p><p>
+</p><p> c.  $\ds {d\over dt} f(t){\bf r}(t)= f(t){\bf r}'(t)+f'(t){\bf r}(t)$
+</p><p>
+</p><p> d.  $\ds {d\over dt} ({\bf r}(t)\cdot{\bf s}(t))=
+{\bf r}'(t)\cdot{\bf s}(t)+{\bf r}(t)\cdot{\bf s}'(t)$
+</p><p>
+</p><p> e.  $\ds {d\over dt} ({\bf r}(t)\times{\bf s}(t))=
+{\bf r}'(t)\times{\bf s}(t)+{\bf r}(t)\times{\bf s}'(t)$
+</p><p>
+</p><p> f.  $\ds {d\over dt} {\bf r}(f(t))= {\bf r}'(f(t))f'(t)$
+</p><p>
+</p></ul><p>
+
+</p>
+</div><!-- theorem -->
+<p>
+</p><p>
+Note that because the cross product is not commutative you must
+remember to do the three cross products in formula (e) in the correct
+order. 
+</p><p>
+When the derivative of a function $f(t)$ is zero, we know that the
+function has a horizontal tangent line, and may have a local maximum
+or minimum point. If ${\bf r}'(t)={\bf 0}$, the geometric
+interpretation is quite different, though the interpretation in terms
+of motion is similar. Certainly we know that the object has speed zero
+at such a point, and it may thus be abruptly changing direction. In
+three dimensions there are many ways to change direction;
+geometrically this often means the curve has a cusp or a point, as in
+the path of a ball that bounces off the floor or a wall.
+</p><p>
+</p>
+<div class="example">
+<p>
+<span class="theoremlabel">Example 13.2.6 </span>Suppose that ${\bf r}(t)=\langle 1+t^3,t^2,1\rangle$, so
+${\bf r}'(t)=\langle 3t^2,2t,0\rangle$. This is $\bf 0$ at $t=0$, and
+there is indeed a cusp at the point $(1,0,1)$, as
+shown in figure <a href="section13.02.html#fig:spacecurve cusp">13.2.5</a>.
+
+</p>
+</div><!-- example -->
+<p>
+</p><p>
+<a id="fig:spacecurve cusp"></a>
+</p><div class='figure'><!-- Vector_Functions_spacecurve_cusp.html -->
+<!-- Figure 13.2.5 -->
+
+<div id="cusp"  class="webgl_display" sstyle='text-align:center;display:none'></div>
+<div class="no_webgl_display" style='display:block;text-align:center'>
+<a href="https://www.whitman.edu/mathematics/calculus_applets/spacecurve_cusp">
+<img src="images/spacecurve_cusp.png" width=400></a>
+</div>
+
+<script>
+    MathJax.Hub.Register.StartupHook("End",function(){
+	var SCREEN_WIDTH = 400, SCREEN_HEIGHT = 400;
+	var container, scene, camera, renderer, controls;
+	var keyboard = new THREEx.KeyboardState();
+	var clock = new THREE.Clock();
+	var xoffset = 0, yoffset = 0, zoffset = 0;
+	var meshFunction;
+	
+	var xMin = xMax = yMin = yMax = 0; // for autosizing window
+	
+	
+	if(typeof window.orientation === 'undefined') {
+	    init();
+	    animate();
+	}
+	
+	function init() 
+	{
+	    scene = new THREE.Scene();
+	    if ( Detector.webgl )
+		renderer = new THREE.WebGLRenderer( {alpha:true, antialias:true} );
+	    else
+		renderer = new THREE.CanvasRenderer(); 
+	    renderer.setSize(SCREEN_WIDTH, SCREEN_HEIGHT);
+	    container = document.getElementById( 'cusp' );
+	    container.appendChild( renderer.domElement );
+	    var light = new THREE.PointLight(0xffffff,1,100);
+	    light.position.set(3,3,10);
+	    scene.add(light);
+	    var light_amb = new THREE.AmbientLight( 0xaaaaaa ); // soft white light
+	    scene.add( light_amb );
+	    var spritex = makeTextSprite( "x", { fontsize: 30, borderColor: {r:0, g:0, b:255, a:1.0}, xoffset:-15 } );
+	    spritex.position.set(1,0,0+zoffset);
+	    scene.add( spritex );
+	    var spritey = makeTextSprite( "y", { fontsize: 30, borderColor: {r:0, g:0, b:255, a:1.0} } );
+	    spritey.position.set(0,1,0+zoffset);
+	    scene.add( spritey );
+	    var spritez = makeTextSprite( "z", { fontsize: 30, borderColor: {r:0, g:0, b:255, a:1.0}, yoffset:-10 } );
+	    spritez.position.set(0,0,1+zoffset);
+	    scene.add( spritez );
+	    
+	    var axes = buildAxes();
+	    scene.add(axes);
+	    plot_it_1();
+	    resetCamera();
+	}
+	
+	function makeTextSprite(message, opts) {
+	    var parameters = opts || {};
+	    var fontface = parameters.fontface || 'Helvetiker';
+	    var fontsize = parameters.fontsize || 70;
+	    var borderThickness = parameters.borderThickness || 1;
+	    var xoffset = parameters.xoffset || 0;
+	    var yoffset = parameters.yoffset || 0;
+	    var canvas = document.createElement('canvas');
+	    canvas.width = canvas.height = 200;
+	    var context = canvas.getContext('2d');
+	    context.font = fontsize + "px " + fontface;
+	    
+	    // get size data (height depends only on font size)
+	    var metrics = context.measureText(message);
+	    var textWidth = metrics.width;
+	    
+	    // text color
+	    context.fillStyle = 'rgba(0, 0, 0, 1.0)';
+	    context.fillText(message, canvas.width/2+xoffset, canvas.width/2+yoffset);
+	    //	    alert(canvas.width);
+	    // canvas contents will be used for a texture
+	    var texture = new THREE.Texture(canvas)
+	    texture.minFilter = THREE.LinearFilter;
+	    texture.needsUpdate = true;
+	    //roundRect(context, borderThickness, borderThickness, textWidth + 2 * borderThickness, fontsize * 1.4 + 2* borderThickness, 6);
+	    var spriteMaterial = new THREE.SpriteMaterial({
+		map: texture
+		//              useScreenCoordinates: false
+	    });
+	    var sprite = new THREE.Sprite(spriteMaterial);
+	    sprite.scale.set(1,1,1);
+	    return sprite;
+	}
+	
+	
+	function resetCamera()
+	{
+	    var VIEW_ANGLE = 8, ASPECT = SCREEN_WIDTH / SCREEN_HEIGHT, NEAR = 0.1, FAR = 20000;
+	    // Orthog camera
+	    //	    camera = new THREE.OrthographicCamera( -2.5*ASPECT,2.5*ASPECT,4,-1, NEAR, FAR);
+	    //	    var zoom = 3;
+	    //	    camera.position.x = zoom*2;
+	    //	    camera.position.y = zoom*1.5;
+	    //	    camera.position.z = zoom*1.5;
+	    // Perspective camera
+	    camera = new THREE.PerspectiveCamera( VIEW_ANGLE, ASPECT, NEAR, FAR);
+	    scene.add(camera);
+	    camera.position.set(10,15,15);
+	    camera.lookAt(scene.position);  
+	    
+	    camera.up.set( 0, 0, 1 ); 
+	    scene.add(camera);
+	    controls = new THREE.TrackballControls( camera, renderer.domElement );
+	    controls.rotateSpeed = 1;
+	    THREEx.WindowResize(renderer, camera);
+	}
+	
+	function animate() 
+	{
+	    requestAnimationFrame( animate );
+	    if ($('#cusp').visible(true) && active ) {
+		render();
+		update();
+	    }
+	}
+	function update()
+	{
+	    if ( keyboard.pressed("z") ) 
+	    { 
+		// do something
+	    }
+	    
+	    controls.update();
+	    //	stats.update();
+	}
+	
+	function render() 
+	{
+	    renderer.render( scene, camera );
+	}
+	
+	
+	function plot_it_1()
+	{
+	    function x(t) {
+		return 1+t*t*t;
+	    }
+	    function y(t) {
+		return t*t;
+	    }
+	    function z(t) {
+		return 1;
+	    }
+	    curveGraph(x,y,z,-1,1,50,new THREE.Color( 0xff0000 ));
+	}
+	
+	function curveGraph(xFunc,yFunc,zFunc,tMin,tMax,segments,color)
+	{
+	    var normMaterial = new THREE.MeshBasicMaterial( { vertexColors: THREE.VertexColors,side:THREE.DoubleSide } );
+	    var graphMesh;
+	    var tRange = tMax - tMin;
+	    var  mycurve = THREE.Curve.create( 
+		function() {},
+		function(t) 
+		{
+		    // default:    0 < t < 1
+		    //    want: tMin < t < tMax
+		    t = t * tRange + tMin;
+		    return new THREE.Vector3(xFunc(t), yFunc(t), zFunc(t)).multiplyScalar(1);
+		}
+	    );
+	    var curve = new mycurve;
+	    
+	    var closedTube = false;
+	    var debug = false; // show normal vectors
+	    var tubeGeometry = new THREE.TubeGeometry(curve, segments, 0.01, 3, false, debug);
+	    
+	    var  point, face, numberOfSides;
+	    for ( var i = 0; i < tubeGeometry.faces.length; i++ ) 
+	    {
+		face = tubeGeometry.faces[ i ];
+		numberOfSides = ( face instanceof THREE.Face3 ) ? 3 : 4;
+		for( var j = 0; j < numberOfSides; j++ ) 
+		{
+		    face.vertexColors[ j ] = color;
+		}
+	    }
+	    
+	    // for auto-sizing window
+	    tubeGeometry.computeBoundingBox();
+	    xMin = tubeGeometry.boundingBox.min.x;
+	    xMax = tubeGeometry.boundingBox.max.x;
+	    yMin = tubeGeometry.boundingBox.min.y;
+	    yMax = tubeGeometry.boundingBox.max.y;
+	    zMin = tubeGeometry.boundingBox.min.z;
+	    zMax = tubeGeometry.boundingBox.max.z;
+	    
+	    if (graphMesh) 
+	    {
+		scene.remove( graphMesh );
+		// renderer.deallocateObject( graphMesh );
+	    }
+	    
+	    graphMesh = new THREE.Mesh( tubeGeometry, normMaterial );
+	    graphMesh.doubleSided = true;
+	    scene.add(graphMesh);
+	}
+	
+	function buildAxes() {
+	    var axes = new THREE.Object3D();
+	    
+	    axes.add( buildAxis( new THREE.Vector3( 0, 0, zoffset ), new THREE.Vector3( 1, 0, zoffset ), 0x000000, false ) ); // +X
+	    axes.add( buildAxis( new THREE.Vector3( 0, 0, zoffset ), new THREE.Vector3( -1, 0, zoffset ), 0x000000, true) ); // -X
+	    axes.add( buildAxis( new THREE.Vector3( 0, 0, zoffset ), new THREE.Vector3( 0, 1, zoffset ), 0x000000, false ) ); // +Y
+	    axes.add( buildAxis( new THREE.Vector3( 0, 0, zoffset ), new THREE.Vector3( 0, -1, zoffset ), 0x000000, true ) ); // -Y
+	    axes.add( buildAxis( new THREE.Vector3( 0, 0, zoffset ), new THREE.Vector3( 0, 0, 1+zoffset ), 0x000000, false ) ); // +Z
+	    axes.add( buildAxis( new THREE.Vector3( 0, 0, zoffset ), new THREE.Vector3( 0, 0, -1+zoffset ), 0x000000, false ) ); // -Z
+	    return axes;
+	}	
+	
+	function buildAxis( src, dst, colorHex, dashed ) {
+	    var geom = new THREE.Geometry();
+	    var mat;
+	    
+	    if(dashed) {
+		mat = new THREE.LineDashedMaterial({ linewidth: 1, color: colorHex, dashSize: 0.05, gapSize: 0.05 });
+	    } else {
+		mat = new THREE.LineBasicMaterial({ linewidth: 1, color: colorHex });
+	    }
+	    
+	    geom.vertices.push( src.clone() );
+	    geom.vertices.push( dst.clone() );
+	    geom.computeLineDistances();
+	    
+	    var axis = new THREE.Line( geom, mat );
+	    
+	    return axis;
+	}
+    });
+</script>  
+
+<div class='figcaption'><span class="figurenumber">Figure 13.2.5.</span> $\langle 1+t^3,t^2,1\rangle$ has a cusp at $\langle 1,0,1\rangle$.</div></div>
+<p>
+</p><p>
+Sometimes we will be interested in the direction of ${\bf r}'$ but not
+its length. In some cases, we can still work with ${\bf r}'$, as when
+we find the angle between two curves. On other occasions it will be
+useful to work with a unit vector in the same
+direction as ${\bf r}'$; of course, we can compute such a vector by
+dividing ${\bf r}'$ by its own length. This standard unit tangent
+vector is usually denoted by ${\bf T}$:
+$${\bf T}={{\bf r}'\over|{\bf r}'|}.$$
+In a sense, when we computed the angle between two tangent vectors we
+have already made use of the unit tangent, since
+$$\cos\theta = {{\bf r}'\cdot{\bf s}'\over|{\bf r}'||{\bf s}'|}=
+{{\bf r}'\over|{\bf r}'|}\cdot{{\bf s}'\over|{\bf s}'|}$$
+</p><p>
+Now that we know how to make sense of ${\bf r}'$, we immediately know
+what an antiderivative must be, namely
+$$\int {\bf r}(t)\,dt = \langle \int f(t)\,dt,\int g(t)\,dt,\int h(t)\,dt
+\rangle,$$ if ${\bf r}=\langle f(t),g(t),h(t)\rangle$. What about
+definite integrals?  Suppose that ${\bf v}(t)$ gives the velocity of
+an object at time $t$. Then ${\bf v}(t)\Delta t$ is a vector that
+approximates the displacement of the object over the time $\Delta t$:
+${\bf v}(t)\Delta t$ points in the direction of travel, and $|{\bf
+  v}(t)\Delta t|=|{\bf v}(t)||\Delta t|$ is the speed of the object
+times $\Delta t$, which is approximately the distance traveled. Thus,
+if we sum many such tiny vectors:
+$$\sum_{i=0}^{n-1}{\bf v}(t_i)\Delta t$$
+we get an approximation to the displacement vector over the time
+interval $[t_0,t_n]$. If we take the limit we get the exact
+value of the displacement vector:
+$$\lim\sum_{i=0}^{n-1}{\bf v}(t_i)\Delta t = \int_{t_0}^{t_n}{\bf
+v}(t)\,dt = {\bf r}(t_n)-{\bf r}(t_0).$$
+Denote ${\bf r}(t_0)$ by ${\bf r}_0$. 
+Then given the velocity vector we can compute the vector function
+${\bf r}$ giving the location of the object:
+$${\bf r}(t)={\bf r}_0+\int_{t_0}^t {\bf v}(u)\,du.$$
+</p><p>
+</p>
+<div class="example">
+<p>
+<span class="theoremlabel">Example 13.2.7 </span>An object moves with velocity vector $\langle \cos t, \sin t,
+\cos t\rangle$, starting at $(1,1,1)$ at time $0$. Find the function
+${\bf r}$ giving its location.
+$$\eqalign{
+{\bf r}(t)&=\langle 1,1,1\rangle+\int_0^t \langle \cos u, \sin u,
+\cos u\rangle\,du\cr
+&=\langle 1,1,1\rangle+\left.\langle \sin u, -\cos u,\sin u\rangle
+\right|_0^t\cr
+&=\langle 1,1,1\rangle+\langle \sin t, -\cos t,\sin t\rangle-
+\langle 0,-1,0\rangle\cr
+&=\langle 1+\sin t, 2-\cos t,1+\sin t\rangle\cr
+}$$
+See figure <a href="section13.02.html#fig:velocity cos sin cos">13.2.6</a>.
+
+</p>
+</div><!-- example -->
+<p>
+</p><p>
+<a id="fig:velocity cos sin cos"></a>
+</p><div class='figure'><!-- Vector_Functions_path_with_tangent.html -->
+<!-- Figure 13.2.6 -->
+
+<div id="path_with_tangent" class="webgl_display" style='display:none;text-align:center'></div>
+<div class="no_webgl_display" style='display:block;text-align:center'>
+<a href="https://www.whitman.edu/mathematics/calculus_applets/path_with_tangent">
+<img src="images/path_with_tangent.png" width=400></a>
+</div>
+
+<script>
+    MathJax.Hub.Register.StartupHook("End",function(){
+	var SCREEN_WIDTH = 400, SCREEN_HEIGHT = 400;
+	var container, scene, camera, renderer, controls;
+	var keyboard = new THREEx.KeyboardState();
+	var clock = new THREE.Clock();
+	var xoffset = -1, yoffset = -1, zoffset = -1;
+	var meshFunction;
+	
+	var xMin = xMax = yMin = yMax = 0; // for autosizing window
+	
+	
+	if(typeof window.orientation === 'undefined') {
+	    init();
+	    animate();
+	}
+	
+	function init() 
+	{
+	    scene = new THREE.Scene();
+	    if ( Detector.webgl )
+		renderer = new THREE.WebGLRenderer( {alpha:true, antialias:true} );
+	    else
+		renderer = new THREE.CanvasRenderer(); 
+	    renderer.setSize(SCREEN_WIDTH, SCREEN_HEIGHT);
+	    container = document.getElementById( 'path_with_tangent' );
+	    container.appendChild( renderer.domElement );
+	    var light = new THREE.PointLight(0xffffff,1,100);
+	    light.position.set(3,3,10);
+	    scene.add(light);
+	    var light_amb = new THREE.AmbientLight( 0xaaaaaa ); // soft white light
+	    scene.add( light_amb );
+	    var spritex = makeTextSprite( "x", { fontsize: 30, borderColor: {r:0, g:0, b:255, a:1.0}, xoffset:-15 } );
+	    spritex.position.set(2+xoffset,yoffset,zoffset);
+	    scene.add( spritex );
+	    var spritey = makeTextSprite( "y", { fontsize: 30, borderColor: {r:0, g:0, b:255, a:1.0}, yoffset:20 } );
+	    spritey.position.set(xoffset,2+yoffset,zoffset);
+	    scene.add( spritey );
+	    var spritez = makeTextSprite( "z", { fontsize: 30, borderColor: {r:0, g:0, b:255, a:1.0}, yoffset:-10 } );
+	    spritez.position.set(xoffset,yoffset,2+zoffset);
+	    scene.add( spritez );
+	    
+	    var axes = buildAxes();
+	    scene.add(axes);
+	    plot_it_1();
+	    plot_it_2();
+	    resetCamera();
+	}
+	
+	function makeTextSprite(message, opts) {
+	    var parameters = opts || {};
+	    var fontface = parameters.fontface || 'Helvetiker';
+	    var fontsize = parameters.fontsize || 70;
+	    var borderThickness = parameters.borderThickness || 1;
+	    var xoffset = parameters.xoffset || 0;
+	    var yoffset = parameters.yoffset || 0;
+	    var canvas = document.createElement('canvas');
+	    canvas.width = canvas.height = 200;
+	    var context = canvas.getContext('2d');
+	    context.font = fontsize + "px " + fontface;
+
+  // get size data (height depends only on font size)
+	    var metrics = context.measureText(message);
+	    var textWidth = metrics.width;
+	    
+  // text color
+	    context.fillStyle = 'rgba(0, 0, 0, 1.0)';
+	    context.fillText(message, canvas.width/2+xoffset, canvas.width/2+yoffset);
+//	    alert(canvas.width);
+  // canvas contents will be used for a texture
+	    var texture = new THREE.Texture(canvas)
+	    texture.minFilter = THREE.LinearFilter;
+	    texture.needsUpdate = true;
+	    //roundRect(context, borderThickness, borderThickness, textWidth + 2 * borderThickness, fontsize * 1.4 + 2* borderThickness, 6);
+	    var spriteMaterial = new THREE.SpriteMaterial({
+		map: texture
+//              useScreenCoordinates: false
+	    });
+	    var sprite = new THREE.Sprite(spriteMaterial);
+	    sprite.scale.set(1,1,1);
+	    return sprite;
+	}
+
+	
+	function resetCamera()
+	{
+	    var VIEW_ANGLE = 8, ASPECT = SCREEN_WIDTH / SCREEN_HEIGHT, NEAR = 0.1, FAR = 20000;
+	    // Orthog camera
+//	    camera = new THREE.OrthographicCamera( -2.5*ASPECT,2.5*ASPECT,4,-1, NEAR, FAR);
+//	    var zoom = 3;
+//	    camera.position.x = zoom*2;
+//	    camera.position.y = zoom*1.5;
+//	    camera.position.z = zoom*1.5;
+	    // Perspective camera
+	    camera = new THREE.PerspectiveCamera( VIEW_ANGLE, ASPECT, NEAR, FAR);
+	    scene.add(camera);
+	    camera.position.set(-10,20,20);
+	    camera.lookAt(scene.position);  
+	    
+	    camera.up.set( 0, 0, 1 ); 
+	    scene.add(camera);
+	    controls = new THREE.TrackballControls( camera, renderer.domElement );
+	    controls.rotateSpeed = 1;
+	    THREEx.WindowResize(renderer, camera);
+	}
+	
+	function animate() 
+	{
+	    requestAnimationFrame( animate );
+	    if ($('#path_with_tangent').visible(true) && active ) {
+		render();
+		update();
+	    }
+	}
+
+	function update()
+	{
+	    if ( keyboard.pressed("z") ) 
+	    { 
+		// do something
+	    }
+	    
+	    controls.update();
+	    //	stats.update();
+	}
+	
+	function render() 
+	{
+	    renderer.render( scene, camera );
+	}
+	
+	
+	function plot_it_1()
+	{
+	    function x(t) {
+		return 1+Math.sin(t)+xoffset;
+	    }
+	    function y(t) {
+		return 2-Math.cos(t)+yoffset;
+	    }
+	    function z(t) {
+		return 1+Math.sin(t)+zoffset;
+	    }
+	    curveGraph(x,y,z,0,2*Math.PI,50,new THREE.Color( 0xff0000 ));
+	}
+	
+	function plot_it_2()
+	{
+	    var origin = new THREE.Vector3(1+xoffset,1+yoffset,1+zoffset);
+	    var dir = new THREE.Vector3(1,0,1);
+	    var length = Math.sqrt(Math.sqrt(2));
+	    var color = 0x0000ff;
+	    var arrowHelper = new THREE.ArrowHelper( dir.normalize(), origin, length, color );
+	    scene.add( arrowHelper );
+	}
+	
+	function curveGraph(xFunc,yFunc,zFunc,tMin,tMax,segments,color)
+	{
+	    var normMaterial = new THREE.MeshBasicMaterial( { vertexColors: THREE.VertexColors,side:THREE.DoubleSide } );
+	    var graphMesh;
+	    var tRange = tMax - tMin;
+	    var  mycurve = THREE.Curve.create( 
+		function() {},
+		function(t) 
+		{
+		    // default:    0 < t < 1
+		    //    want: tMin < t < tMax
+		    t = t * tRange + tMin;
+		    return new THREE.Vector3(xFunc(t), yFunc(t), zFunc(t)).multiplyScalar(1);
+		}
+	    );
+	    var curve = new mycurve;
+	    
+	    var closedTube = false;
+	    var debug = false; // show normal vectors
+	    var tubeGeometry = new THREE.TubeGeometry(curve, segments, 0.01, 3, false, debug);
+	    
+	    var  point, face, numberOfSides;
+	    for ( var i = 0; i < tubeGeometry.faces.length; i++ ) 
+	    {
+		face = tubeGeometry.faces[ i ];
+		numberOfSides = ( face instanceof THREE.Face3 ) ? 3 : 4;
+		for( var j = 0; j < numberOfSides; j++ ) 
+		{
+		    face.vertexColors[ j ] = color;
+		}
+	    }
+	    
+	    // for auto-sizing window
+	    tubeGeometry.computeBoundingBox();
+	    xMin = tubeGeometry.boundingBox.min.x;
+	    xMax = tubeGeometry.boundingBox.max.x;
+	    yMin = tubeGeometry.boundingBox.min.y;
+	    yMax = tubeGeometry.boundingBox.max.y;
+	    zMin = tubeGeometry.boundingBox.min.z;
+	    zMax = tubeGeometry.boundingBox.max.z;
+	    
+	    if (graphMesh) 
+	    {
+		scene.remove( graphMesh );
+		// renderer.deallocateObject( graphMesh );
+	    }
+	    
+	    graphMesh = new THREE.Mesh( tubeGeometry, normMaterial );
+	    graphMesh.doubleSided = true;
+	    scene.add(graphMesh);
+	}
+
+	function buildAxes() {
+	    var axes = new THREE.Object3D();
+	    
+	    axes.add( buildAxis( new THREE.Vector3( xoffset, yoffset, zoffset ), new THREE.Vector3( 2+xoffset, yoffset, zoffset ), 0x000000, false ) ); // +X
+//	    axes.add( buildAxis( new THREE.Vector3( 0, 0, zoffset ), new THREE.Vector3( -1, 0, zoffset ), 0x000000, true) ); // -X
+	    axes.add( buildAxis( new THREE.Vector3( xoffset, yoffset, zoffset ), new THREE.Vector3( xoffset, 2+yoffset, zoffset ), 0x000000, false ) ); // +Y
+//	    axes.add( buildAxis( new THREE.Vector3( 0, 0, zoffset ), new THREE.Vector3( 0, -1, zoffset ), 0x000000, true ) ); // -Y
+	    axes.add( buildAxis( new THREE.Vector3( xoffset, yoffset, zoffset ), new THREE.Vector3( xoffset, yoffset, 2+zoffset ), 0x000000, false ) ); // +Z
+//	    axes.add( buildAxis( new THREE.Vector3( 0, 0, zoffset ), new THREE.Vector3( 0, 0, -1+zoffset ), 0x000000, false ) ); // -Z
+	    return axes;
+	}	
+	
+	function buildAxis( src, dst, colorHex, dashed ) {
+	    var geom = new THREE.Geometry();
+	    var mat;
+	    
+	    if(dashed) {
+		mat = new THREE.LineDashedMaterial({ linewidth: 1, color: colorHex, dashSize: 0.05, gapSize: 0.05 });
+	    } else {
+		mat = new THREE.LineBasicMaterial({ linewidth: 1, color: colorHex });
+	    }
+	    
+	    geom.vertices.push( src.clone() );
+	    geom.vertices.push( dst.clone() );
+	    geom.computeLineDistances();
+	    
+	    var axis = new THREE.Line( geom, mat );
+	    
+	    return axis;
+	}
+    });
+</script>  
+
+<div class='figcaption'><span class="figurenumber">Figure 13.2.6.</span> Path of the object with its initial velocity vector.</div></div>
+<p>
+</p><p>
+
+</p>
+<a id="exercises"></a><h2 class="exercises">Exercises 13.2</h2>
+<p></p><p>
+</p>
+<p class="exercise"><b>Ex 13.2.1</b>
+Find ${\bf r}'$ and $\bf T$ for
+${\bf r} = \langle t^2,1,t\rangle$.
+(<a knowl="" class="internal" value="$\langle 2t,0,1\rangle$, ${\bf r}'/\sqrt{1+4t^2}$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 13.2.2</b>
+Find ${\bf r}'$ and $\bf T$ for
+${\bf r} = \langle \cos t, \sin 2t, t^2\rangle$.
+(<a knowl="" class="internal" value="$\langle -\sin t, 2\cos 2t,2t\rangle$,
+${\bf r}'/\sqrt{\sin^2t + 4\cos^2(2t)+4t^2}$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 13.2.3</b>
+Find ${\bf r}'$ and $\bf T$ for
+${\bf r} = \langle \cos(e^t),\sin(e^t),\sin t\rangle$.
+(<a knowl="" class="internal" value="$\langle -e^t\sin(e^t),e^t\cos(e^t),\cos t\rangle$,
+${\bf r}'/\sqrt{e^{2t}+\cos^2 t}$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 13.2.4</b>
+Find a vector function for the line tangent to the helix
+$\langle \cos t,\sin t, t\rangle$ when $t=\pi/4$.
+(<a knowl="" class="internal" value="$\langle \sqrt2/2,\sqrt2/2,\pi/4\rangle+
+t\langle -\sqrt2/2,\sqrt2/2,1\rangle$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 13.2.5</b>
+Find a vector function for the line tangent to 
+$\langle \cos t,\sin t, \cos 4t \rangle$ when $t=\pi/3$.
+(<a knowl="" class="internal" value="$\langle 1/2,\sqrt3/2,-1/2\rangle+
+t\langle -\sqrt3/2,1/2,2\sqrt3\rangle$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 13.2.6</b>
+Find the cosine of the angle between the curves $\langle
+0,t^2,t\rangle$ and $\langle \cos(\pi t/2),\sin(\pi t/2), t\rangle$
+where they intersect.
+(<a knowl="" class="internal" value="$2/\sqrt5/\sqrt{4+\pi^2}$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 13.2.7</b>
+Find the cosine of the angle between the curves $\langle
+\cos t,-\sin(t)/4,\sin t\rangle$ and $\langle \cos t,\sin t, \sin(2t)\rangle$
+where they intersect.
+(<a knowl="" class="internal" value="$7\sqrt{5}\sqrt{17}/85$, $-9\sqrt{5}\sqrt{17}/85$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 13.2.8</b>
+Suppose that $|{\bf r}(t)|=k$, for some constant $k$. This
+means that $\bf r$ describes some path on the sphere of radius $k$
+with center at the origin. Show that $\bf r$ is perpendicular to ${\bf
+  r}'$ at every point. Hint: Use Theorem <a href="section13.02.html#thm:vector derivative properties">13.2.5</a>, part (d).
+<a id="exercise:derivative is perpendicular"></a>
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 13.2.9</b>
+A bug is crawling along the spoke of a wheel that lies along
+a radius of the wheel. The bug is crawling at 1 unit per second and
+the wheel is rotating at 1 radian per second. Suppose the wheel lies
+in the $y$-$z$ plane with center at the origin, and at time $t=0$ the
+spoke lies along the positive $y$ axis and the bug is at the origin. 
+Find a vector function ${\bf r}(t)$
+for the position of the bug at time $t$, the velocity vector
+${\bf r}'(t)$, the unit tangent ${\bf T}(t)$, and the speed of the bug
+$|{\bf r}'(t)|$.
+(<a knowl="" class="internal" value="$\langle 0,t\cos t,t\sin t\rangle$, 
+$\langle 0,\cos t-t\sin t,\sin t+t\cos t\rangle$,
+${\bf r}'/\sqrt{1+t^2}$, $\sqrt{1+t^2}$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 13.2.10</b>
+An object moves with velocity vector $\langle \cos t, \sin t,
+t\rangle$, starting at $\langle 0,0,0\rangle$ when $t=0$. Find the function
+${\bf r}$ giving its location.
+(<a knowl="" class="internal" value="$\langle \sin t,1-\cos t,t^2/2\rangle$">answer</a>)
+
+</p><p>
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 13.2.11</b>
+The position function of a particle is given by ${\bf r}(t) =
+\langle t^2,5t,t^2-16t\rangle$, $t\geq 0$.  When is the speed of the particle
+a minimum?
+(<a knowl="" class="internal" value="$t=4$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 13.2.12</b>
+A particle moves so that its position is given by
+$\langle \cos t, \sin t, \cos(6t)\rangle$. Find the maximum and
+minimum speeds of the particle.
+(<a knowl="" class="internal" value="$\sqrt{37}$, $1$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 13.2.13</b>
+An object moves with velocity vector $\langle t, t^2,
+\cos t\rangle$, starting at $\langle 0,0,0\rangle$ when $t=0$.
+ Find the function
+${\bf r}$ giving its location.
+(<a knowl="" class="internal" value="$\langle t^2/2,t^3/3,\sin t\rangle$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 13.2.14</b>
+What is the physical interpretation of the dot product of two
+  vector valued functions?  What is the physical interpretation of the
+  cross product of two vector valued functions?
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 13.2.15</b>
+Show, using the rules of cross products and differentiation,
+  that
+$${d\over dt} ({\bf r}(t) \times {\bf r}'(t))= 
+{\bf r}(t) \times {\bf r}''(t).$$
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 13.2.16</b>
+Determine the point at which ${\bf f}(t)=\langle t, t^2, t^3
+\rangle$ and ${\bf g}(t) =\langle \cos(t), \cos(2t), t+1 \rangle$
+intersect, and find the angle between the curves at that point.  (Hint:
+You'll need to set this one up like a line intersection problem,
+writing one in $s$ and one in $t$.) If these two functions were the
+trajectories of two airplanes on the same scale of time, would the
+planes collide at their point of intersection?  Explain.
+(<a knowl="" class="internal" value="$(1,1,1)$ when $t=1$ and $s=0$; $\theta=\arccos(3/\sqrt{14})$; no">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 13.2.17</b>
+Find the equation of the plane perpendicular to the curve ${\bf r}(t)
+ = \langle 2\sin(3t),t,2\cos(3t)\rangle$ at the point $(0,\pi,-2)$.
+(<a knowl="" class="internal" value="$-6x+(y-\pi)=0$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 13.2.18</b>
+Find the equation of the plane perpendicular to 
+$\langle \cos t, \sin t, \cos(6t)\rangle$ when $t=\pi/4$.
+(<a knowl="" class="internal" value="$\ds -x/\sqrt2+y/\sqrt2+6z=0$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 13.2.19</b>
+At what point on the curve 
+${\bf r}(t) = \langle t^3,3t,t^4\rangle$ is the
+plane perpendicular to the curve also parallel to the plane $6x+6y-8z=1$?
+(<a knowl="" class="internal" value="$(-1,-3,1)$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 13.2.20</b>
+Find the equation of the line tangent to 
+$\langle \cos t, \sin t, \cos(6t)\rangle$ when $t=\pi/4$.
+(<a knowl="" class="internal" value="$\langle 1/\sqrt2,1/\sqrt2,0\rangle+t\langle -1,1,6\sqrt2\rangle$">answer</a>)
+
+
+</p><p>
+
+
+</div></div></body>
+</html>

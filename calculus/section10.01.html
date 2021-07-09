@@ -1,0 +1,1051 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+<meta http-equiv="Content-Language" Content="en">
+<title>10.1 Polar Coordinates</title>
+<!--
+<script type="text/javascript" src="js/deployJava.js"></script>
+<link rel="stylesheet" type="text/css" href="http://jsxgraph.uni-bayreuth.de/distrib/jsxgraph.css" />
+-->
+<!-- use Jsxgraph to create figures: http://jsxgraph.uni-bayreuth.de/wp/ -->
+<link rel="stylesheet" type="text/css" href="css/jsxgraph.css" />
+<script type="text/javascript" src="js/jsxgraphcore.js"></script>
+<script src="js/three.min.js"></script>
+<script src="js/Detector.js"></script>
+<script src="js/TrackballControls.js"></script>
+<script src="js/OrthographicTrackballControls.js"></script>
+<script src="js/THREEx.KeyboardState.js"></script>
+<script src="js/THREEx.FullScreen.js"></script>
+<script src="js/THREEx.WindowResize.js"></script>
+<script type='text/javascript' src='js/DAT.GUI.min.js'></script>
+<script>
+window.requestAnimFrame = (function(){
+    return  window.requestAnimationFrame       || 
+        window.webkitRequestAnimationFrame || 
+        window.mozRequestAnimationFrame    || 
+        window.oRequestAnimationFrame      || 
+        window.msRequestAnimationFrame     || 
+        function(/* function */ callback, /* DOMElement */
+            element){
+            window.setTimeout(callback, 1000 / 60);
+        };
+})();
+</script>
+<script src="js/ifvisible.min.js"></script>
+<script src="js/conrec.js"></script>
+<script>
+active = true;
+ifvisible.setIdleDuration(10);
+ifvisible.on("idle", function(){
+    active = false;
+//    console.log("idle");
+});
+
+ifvisible.on("wakeup", function(){
+    active = true;
+//    console.log("wakeup");
+});
+</script>
+<script src="js/parser.js"></script>
+<link href="css/whitman.css" rel="stylesheet" type="text/css" /><link href="css/calculus.css" rel="stylesheet" type="text/css" /><link href="css/knowlstyle.css" rel="stylesheet" type="text/css" />
+
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  extensions: ["tex2jax.js","TeX/AMSmath.js","TeX/AMSsymbols.js"],
+  jax: ["input/TeX","output/HTML-CSS"],
+  tex2jax: {
+    inlineMath: [['$','$'],["\\(","\\)"]],
+    processEscapes: true,
+  },
+TeX: {
+   Macros: {
+    val: "\\mathop{\\rm val}",
+    divides: "\\mid",
+    ndivides: "\\mathrel{\\not|}",
+    fix: "\\mathop{\\rm fix}",
+    id: "\\mathop{\\rm id}",
+    na: "\\mathop{\\rm na}",
+    d: "\\mathop{\\rm\\strut d}\\nolimits ",
+    legendre: ["\\left(\\frac{#1}{#2}\\right)",2],
+    normalbaselines: "",
+    notdiv: "\\nmid",
+    implies: "\\Rightarrow",
+    iff: "\\Leftrightarrow",
+    sevenpoint: "\\scriptsize",
+    ds: "\\displaystyle",
+    lcm: "\\operatorname{lcm}",
+    arccot: "\\operatorname{arccot}",
+    arcsec: "\\operatorname{arcsec}",
+    arccsc: "\\operatorname{arccsc}",
+    arccosh: "\\operatorname{arccosh}",
+    arcsinh: "\\operatorname{arcsinh}",
+    arcsech: "\\operatorname{arcsech}",
+    sech: "\\operatorname{sech}",
+    csch: "\\operatorname{csch}",
+    R: "{\\mathbb R}",
+    sb: "_",
+    sp: "^",
+    Q: "{\\mathbb Q}",
+    C: "{\\mathbb C}",
+    N: "{\\mathbb N}",
+    Z: "{\\mathbb Z}",
+    U: "{\\mathbb U}",
+    v: ["\\langle #1\\rangle",1],
+    dint: ["{\\mathchoice{\\mathop{\\int\\!\\!\\!\\int}_{#1}}{\\mathop{\\int\\!\\!\\!\\int}_{#1}}{\\mathop{\\int\\!\\!\\!\\int}}{\\mathop{\\int\\!\\!\\!\\int}}}",1],
+    tint: ["{\\mathchoice{\\mathop{\\int\\!\\!\\!\\int\\!\\!\\!\\int}_{#1\\;}}{\\mathop{\\int\\!\\!\\!\\int\\!\\!\\!\\int}_{#1}}{\\mathop{\\int\\!\\!\\!\\int\\!\\!\\!\\int}_{#1}}{\\mathop{\\int\\!\\!\\!\\int\\!\\!\\!\\int}_{#1}}}",1]
+   }
+},
+  "HTML-CSS": { scale: 100},
+  menuSettings: { zscale: "150%", zoom: "Double-Click" }
+});
+    JXG.Options.text.display = 'html';
+    JXG.Options.text.useMathJax = true;
+</script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/math
+jax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+<script>
+MathJax.Hub.Register.StartupHook("End",function () {
+  if(typeof window.orientation === 'undefined'){
+    var i,x;
+    x = document.getElementsByClassName("webgl_display");
+    for (i=0; i<x.length; i++) {
+      x[i].style.display = "block";
+    }
+    x = document.getElementsByClassName("no_webgl_display");
+    for (i=0; i<x.length; i++) {
+      x[i].style.display = "none";
+    }
+  }
+});
+</script>
+
+<script src="js/jquery-3.1.0.min.js"></script>
+<script src="https://sagecell.sagemath.org/static/embedded_sagecell.js"></script>
+<script src="js/jquery.visible.min.js"></script>
+<script type="text/javascript" src="js/knowl.js"></script>
+<style type="text/css">
+
+.sagecell .CodeMirror {
+  height: auto;
+}
+
+.sagecell .CodeMirror-scroll {
+  overflow-y: hidden;
+  overflow-x: auto;
+}
+
+.sagecell-practice .CodeMirror-scroll {
+}
+
+.sagecell button.sagecell_evalButton {
+    font-size: 50%;
+}
+
+.sagecell_sessionContainer {
+    margin-bottom:1em;
+}
+</style>
+<script>
+function toggle(a) {
+  var b = String(a);
+  b=b.replace("contents","button");
+  if (document.getElementById(a).style.display == "block") {
+    document.getElementById(a).style.display = "none";
+    document.getElementById(b).src = "expand_submenu.png";
+  } else {
+    document.getElementById(a).style.display = "block";
+    document.getElementById(b).src = "collapse_submenu.png";
+  }
+}
+function toggle_sidebar() {
+  if (document.getElementById('sidebar').style.display == "block") {
+    document.getElementById('sidebar').style.display = "none";
+    document.getElementById('menu_expand').style.display = "block";
+  } else {
+    document.getElementById('sidebar').style.display = "block";
+    document.getElementById('menu_expand').style.display = "none";
+  }
+}
+</script>
+
+</head>
+
+<body class="" onload="toggle('chapter_10_contents')">
+<div id="header">
+<div class="right">
+<div class="bread">
+  <a href=".">Home</a> &raquo; <a href="chapter10.html">Polar Coordinates,  Parametric Equations</a> &raquo; <a href="section10.01.html">Polar Coordinates</a>
+</div>
+
+<FORM method=GET action=https://www.google.com/custom id="search">
+<INPUT TYPE=text name=q size=31 maxlength=255 value="" style="font-size:small">
+<INPUT type=submit name=sa VALUE="Search the book" style="font-size:small">
+<INPUT type=hidden name=cof VALUE="AH:center;AWFID:198dc2b883340b1f;">
+<input type=hidden name=domains value="www.whitman.edu">
+<input type=hidden name=sitesearch value="www.whitman.edu/mathematics/calculus_online/">
+</FORM>
+<div id="title"><span id="title-content">10.1 Polar Coordinates</span></div><a href="#exercises">[Jump to exercises]</a>
+</div>
+</div>
+<div id="menu_expand" style="display:none"><a href="javascript:toggle_sidebar()">Expand menu</a></div>
+<div id="sidebar" style="display:block">
+<h2 id="menu_collapse"><a href='javascript:toggle_sidebar()'>Collapse menu</a></h2>
+<h2 class="link"><img id="chapter_01_button" src="expand_submenu.png" onclick='toggle("chapter_01_contents")'><a href="chapter01.html">1 Analytic Geometry</a></h2>
+
+<ul class="list" id="chapter_01_contents">
+<li><a href="section01.01.html">1. Lines</a></li>
+<li><a href="section01.02.html">2. Distance Between Two Points; Circles</a></li>
+<li><a href="section01.03.html">3. Functions</a></li>
+<li><a href="section01.04.html">4. Shifts and Dilations</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_02_button" src="expand_submenu.png" onclick='toggle("chapter_02_contents")'><a href="chapter02.html">2 Instantaneous Rate of Change:  The Derivative</a></h2>
+
+<ul class="list" id="chapter_02_contents">
+<li><a href="section02.01.html">1. The slope of a function</a></li>
+<li><a href="section02.02.html">2. An example</a></li>
+<li><a href="section02.03.html">3. Limits</a></li>
+<li><a href="section02.04.html">4. The Derivative Function</a></li>
+<li><a href="section02.05.html">5. Adjectives For Functions</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_03_button" src="expand_submenu.png" onclick='toggle("chapter_03_contents")'><a href="chapter03.html">3 Rules for Finding Derivatives</a></h2>
+
+<ul class="list" id="chapter_03_contents">
+<li><a href="section03.01.html">1. The Power Rule</a></li>
+<li><a href="section03.02.html">2. Linearity of the Derivative</a></li>
+<li><a href="section03.03.html">3. The Product Rule</a></li>
+<li><a href="section03.04.html">4. The Quotient Rule</a></li>
+<li><a href="section03.05.html">5. The Chain Rule</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_04_button" src="expand_submenu.png" onclick='toggle("chapter_04_contents")'><a href="chapter04.html">4 Transcendental Functions</a></h2>
+
+<ul class="list" id="chapter_04_contents">
+<li><a href="section04.01.html">1. Trigonometric Functions</a></li>
+<li><a href="section04.02.html">2. The Derivative of $\sin x$</a></li>
+<li><a href="section04.03.html">3. A hard limit</a></li>
+<li><a href="section04.04.html">4. The Derivative of $\sin x$, continued</a></li>
+<li><a href="section04.05.html">5. Derivatives of the Trigonometric Functions</a></li>
+<li><a href="section04.06.html">6. Exponential and Logarithmic functions</a></li>
+<li><a href="section04.07.html">7. Derivatives of the exponential and  logarithmic functions</a></li>
+<li><a href="section04.08.html">8. Implicit Differentiation</a></li>
+<li><a href="section04.09.html">9. Inverse Trigonometric Functions</a></li>
+<li><a href="section04.10.html">10. Limits revisited</a></li>
+<li><a href="section04.11.html">11. Hyperbolic Functions</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_05_button" src="expand_submenu.png" onclick='toggle("chapter_05_contents")'><a href="chapter05.html">5 Curve Sketching</a></h2>
+
+<ul class="list" id="chapter_05_contents">
+<li><a href="section05.01.html">1. Maxima and Minima</a></li>
+<li><a href="section05.02.html">2. The first derivative test</a></li>
+<li><a href="section05.03.html">3. The second derivative test</a></li>
+<li><a href="section05.04.html">4. Concavity and inflection points</a></li>
+<li><a href="section05.05.html">5. Asymptotes and Other Things to Look For</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_06_button" src="expand_submenu.png" onclick='toggle("chapter_06_contents")'><a href="chapter06.html">6 Applications of the Derivative</a></h2>
+
+<ul class="list" id="chapter_06_contents">
+<li><a href="section06.01.html">1. Optimization</a></li>
+<li><a href="section06.02.html">2. Related Rates</a></li>
+<li><a href="section06.03.html">3. Newton's Method</a></li>
+<li><a href="section06.04.html">4. Linear Approximations</a></li>
+<li><a href="section06.05.html">5. The Mean Value Theorem</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_07_button" src="expand_submenu.png" onclick='toggle("chapter_07_contents")'><a href="chapter07.html">7 Integration</a></h2>
+
+<ul class="list" id="chapter_07_contents">
+<li><a href="section07.01.html">1. Two examples</a></li>
+<li><a href="section07.02.html">2. The Fundamental Theorem of Calculus</a></li>
+<li><a href="section07.03.html">3. Some Properties of Integrals</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_08_button" src="expand_submenu.png" onclick='toggle("chapter_08_contents")'><a href="chapter08.html">8 Techniques of Integration</a></h2>
+
+<ul class="list" id="chapter_08_contents">
+<li><a href="section08.01.html">1. Substitution</a></li>
+<li><a href="section08.02.html">2. Powers of sine and cosine</a></li>
+<li><a href="section08.03.html">3. Trigonometric Substitutions</a></li>
+<li><a href="section08.04.html">4. Integration by Parts</a></li>
+<li><a href="section08.05.html">5. Rational Functions</a></li>
+<li><a href="section08.06.html">6. Numerical Integration</a></li>
+<li><a href="section08.07.html">7. Additional exercises</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_09_button" src="expand_submenu.png" onclick='toggle("chapter_09_contents")'><a href="chapter09.html">9 Applications of Integration</a></h2>
+
+<ul class="list" id="chapter_09_contents">
+<li><a href="section09.01.html">1. Area between curves</a></li>
+<li><a href="section09.02.html">2. Distance, Velocity, Acceleration</a></li>
+<li><a href="section09.03.html">3. Volume</a></li>
+<li><a href="section09.04.html">4. Average value of a function</a></li>
+<li><a href="section09.05.html">5. Work</a></li>
+<li><a href="section09.06.html">6. Center of Mass</a></li>
+<li><a href="section09.07.html">7. Kinetic energy; improper integrals</a></li>
+<li><a href="section09.08.html">8. Probability</a></li>
+<li><a href="section09.09.html">9. Arc Length</a></li>
+<li><a href="section09.10.html">10. Surface Area</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_10_button" src="expand_submenu.png" onclick='toggle("chapter_10_contents")'><a href="chapter10.html">10 Polar Coordinates,  Parametric Equations</a></h2>
+
+<ul class="list" id="chapter_10_contents">
+<li><a href="section10.01.html">1. Polar Coordinates</a></li>
+<li><a href="section10.02.html">2. Slopes in polar coordinates</a></li>
+<li><a href="section10.03.html">3. Areas in polar coordinates</a></li>
+<li><a href="section10.04.html">4. Parametric Equations</a></li>
+<li><a href="section10.05.html">5. Calculus with Parametric Equations</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_11_button" src="expand_submenu.png" onclick='toggle("chapter_11_contents")'><a href="chapter11.html">11 Sequences and Series</a></h2>
+
+<ul class="list" id="chapter_11_contents">
+<li><a href="section11.01.html">1. Sequences</a></li>
+<li><a href="section11.02.html">2. Series</a></li>
+<li><a href="section11.03.html">3. The Integral Test</a></li>
+<li><a href="section11.04.html">4. Alternating Series</a></li>
+<li><a href="section11.05.html">5. Comparison Tests</a></li>
+<li><a href="section11.06.html">6. Absolute Convergence</a></li>
+<li><a href="section11.07.html">7. The Ratio and Root Tests</a></li>
+<li><a href="section11.08.html">8. Power Series</a></li>
+<li><a href="section11.09.html">9. Calculus with Power Series</a></li>
+<li><a href="section11.10.html">10. Taylor Series</a></li>
+<li><a href="section11.11.html">11. Taylor's Theorem</a></li>
+<li><a href="section11.12.html">12. Additional exercises</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_12_button" src="expand_submenu.png" onclick='toggle("chapter_12_contents")'><a href="chapter12.html">12 Three Dimensions</a></h2>
+
+<ul class="list" id="chapter_12_contents">
+<li><a href="section12.01.html">1. The Coordinate System</a></li>
+<li><a href="section12.02.html">2. Vectors</a></li>
+<li><a href="section12.03.html">3. The Dot Product</a></li>
+<li><a href="section12.04.html">4. The Cross Product</a></li>
+<li><a href="section12.05.html">5. Lines and Planes</a></li>
+<li><a href="section12.06.html">6. Other Coordinate Systems</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_13_button" src="expand_submenu.png" onclick='toggle("chapter_13_contents")'><a href="chapter13.html">13 Vector Functions</a></h2>
+
+<ul class="list" id="chapter_13_contents">
+<li><a href="section13.01.html">1. Space Curves</a></li>
+<li><a href="section13.02.html">2. Calculus with vector functions</a></li>
+<li><a href="section13.03.html">3. Arc length and curvature</a></li>
+<li><a href="section13.04.html">4. Motion along a curve</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_14_button" src="expand_submenu.png" onclick='toggle("chapter_14_contents")'><a href="chapter14.html">14 Partial Differentiation</a></h2>
+
+<ul class="list" id="chapter_14_contents">
+<li><a href="section14.01.html">1. Functions of Several Variables</a></li>
+<li><a href="section14.02.html">2. Limits and Continuity</a></li>
+<li><a href="section14.03.html">3. Partial Differentiation</a></li>
+<li><a href="section14.04.html">4. The Chain Rule</a></li>
+<li><a href="section14.05.html">5. Directional Derivatives</a></li>
+<li><a href="section14.06.html">6. Higher order derivatives</a></li>
+<li><a href="section14.07.html">7. Maxima and minima</a></li>
+<li><a href="section14.08.html">8. Lagrange Multipliers</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_15_button" src="expand_submenu.png" onclick='toggle("chapter_15_contents")'><a href="chapter15.html">15 Multiple Integration</a></h2>
+
+<ul class="list" id="chapter_15_contents">
+<li><a href="section15.01.html">1. Volume and Average Height</a></li>
+<li><a href="section15.02.html">2. Double Integrals in Cylindrical Coordinates</a></li>
+<li><a href="section15.03.html">3. Moment and Center of Mass</a></li>
+<li><a href="section15.04.html">4. Surface Area</a></li>
+<li><a href="section15.05.html">5. Triple Integrals</a></li>
+<li><a href="section15.06.html">6. Cylindrical and Spherical Coordinates</a></li>
+<li><a href="section15.07.html">7. Change of Variables</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_16_button" src="expand_submenu.png" onclick='toggle("chapter_16_contents")'><a href="chapter16.html">16 Vector Calculus</a></h2>
+
+<ul class="list" id="chapter_16_contents">
+<li><a href="section16.01.html">1. Vector Fields</a></li>
+<li><a href="section16.02.html">2. Line Integrals</a></li>
+<li><a href="section16.03.html">3. The Fundamental Theorem of Line Integrals</a></li>
+<li><a href="section16.04.html">4. Green's Theorem</a></li>
+<li><a href="section16.05.html">5. Divergence and Curl</a></li>
+<li><a href="section16.06.html">6. Vector Functions for Surfaces</a></li>
+<li><a href="section16.07.html">7. Surface Integrals</a></li>
+<li><a href="section16.08.html">8. Stokes's Theorem</a></li>
+<li><a href="section16.09.html">9. The Divergence Theorem</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_17_button" src="expand_submenu.png" onclick='toggle("chapter_17_contents")'><a href="chapter17.html">17 Differential Equations</a></h2>
+
+<ul class="list" id="chapter_17_contents">
+<li><a href="section17.01.html">1. First Order Differential Equations</a></li>
+<li><a href="section17.02.html">2. First Order Homogeneous Linear Equations</a></li>
+<li><a href="section17.03.html">3. First Order Linear Equations</a></li>
+<li><a href="section17.04.html">4. Approximation</a></li>
+<li><a href="section17.05.html">5. Second Order Homogeneous Equations</a></li>
+<li><a href="section17.06.html">6. Second Order Linear Equations</a></li>
+<li><a href="section17.07.html">7. Second Order Linear Equations, take two</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_18_button" src="expand_submenu.png" onclick='toggle("chapter_18_contents")'><a href="chapter18.html">18 Useful formulas</a></h2>
+
+<ul class="list" id="chapter_18_contents">
+</ul>
+
+</div>
+
+<div id="main">
+
+<div id="next"><a href="chapter10.html"><img src=previous_section.png width="30"></a>&nbsp;&nbsp;<a href="section10.02.html"><img src=next_section.png width="30"></a></div>
+
+<div id="content">
+<p>
+
+
+</p><p>
+Coordinate systems are tools that let us use algebraic methods to
+understand geometry. While the 
+<b>rectangular</b>
+(also called
+<b>Cartesian</b>) 
+coordinates that we
+have been using are the most common, some problems are easier to
+analyze in alternate coordinate systems.
+</p><p>
+A coordinate system is a scheme that allows us to identify any point
+in the plane or in three-dimensional space by a set of numbers. In
+rectangular coordinates these numbers are interpreted, roughly
+speaking, as the lengths of the sides of a rectangle. 
+In <b>polar
+coordinates</b> a 
+point in the plane is identified by a pair of numbers $(r,\theta)$.
+The number $\theta$ measures the angle between the positive
+$x$-axis and a ray that goes through the point,
+as shown in figure <a href="section10.01.html#fig:polar coordinates example">10.1.1</a>; the number
+$r$ measures the distance from the origin to the
+point. Figure <a href="section10.01.html#fig:polar coordinates example">10.1.1</a> shows the point with
+rectangular coordinates $\ds (1,\sqrt3)$ and polar coordinates 
+$(2,\pi/3)$, 2 units from the origin and $\pi/3$ radians from the
+positive $x$-axis.
+</p><p>
+<a id="fig:polar coordinates example"></a>
+</p><div class='figure'><!-- Polar-Parametric-polar_coordinates.html -->
+<!-- Figure 10.1.1 -->
+
+<div id='polar_coordinates' class='jxgbox' style='width:33%;'></div>
+
+<script type='text/javascript'>
+(function () {  // BEGIN: scope limiting function wrapper
+  var xmin=-0.25, xmax= 1.5, ymin=-0.25, ymax=2.3;
+  var AspectRatio =  ((ymax-ymin)/(xmax-xmin)); // height/width
+  var wd=document.getElementById('polar_coordinates').offsetWidth;
+  var ht=wd*AspectRatio;
+  var yfactor = (ymax-ymin)/(ht);
+  var xfactor = (xmax-xmin)/(wd);
+  var xaxis_label_offset = yfactor*15;
+  var yaxis_label_offset = xfactor*20;
+  document.getElementById('polar_coordinates').style.height=ht+'px';
+  var brd = JXG.JSXGraph.initBoard('polar_coordinates',{boundingbox:[xmin,ymax,xmax,ymin], showCopyright:false, showNavigation:false}) ;
+  var rejax = function() {
+     MathJax.Hub.Queue(["Typeset",MathJax.Hub]); 
+  }
+  brd.addHook(rejax)
+
+  var xaxis = brd.create('arrow', [[0,0], [1.25,0]],{strokeWidth:1,strokeColor:'black',fixed:true});
+  var yaxis = brd.create('arrow', [[0,0],[0,2.0]],{strokeWidth:1,strokeColor:'black',fixed:true});
+  var xi = brd.create('segment',[[0,0],[1.1,0]],{visible:false});
+  brd.create('ticks',[xi,1],{minorTicks:false});
+  var yi = brd.create('segment',[[0,0],[0,1.8]],{visible:false});
+  brd.create('ticks',[yi,Math.sqrt(3)],{minorTicks:false});
+  brd.create('text',[1,-xaxis_label_offset,'$1$']);
+  brd.create('text',[-yaxis_label_offset-xfactor*5,Math.sqrt(3),'$\\\\sqrt3$']);
+  brd.create('arrow',[[0,0],[1.2,2.078]],{strokeWidth:1,strokeColor:'black'});
+  brd.create('point',[1,1.728],{withLabel:false,size:1,strokeColor:'black',fillColor:'black'});
+  brd.create('text',[1+xfactor*5,1.728,'$(2,\\\\pi/3)$']);
+})(); // END: scope limiting function wrapper
+</script>
+<div class='figcaption'><span class="figurenumber">Figure 10.1.1.</span> Polar coordinates of the point $\ds (1,\sqrt3)$.</div></div>
+<p>
+</p><p>
+Just as we describe curves in the plane using equations involving $x$
+and $y$, so can we describe curves using equations involving $r$ and
+$\theta$. Most common are equations of the form $r=f(\theta)$. 
+</p><p>
+</p>
+<div class="example">
+<p>
+<span class="theoremlabel">Example 10.1.1 </span>Graph the curve given by $r=2$. All points with $r=2$ are at
+distance 2 from the origin, so $r=2$ describes the circle of radius 2
+with center at the origin.
+
+</p>
+</div><!-- example -->
+<p>
+</p><p>
+</p>
+<div class="example">
+<p>
+<span class="theoremlabel">Example 10.1.2 </span>Graph the curve given by $r=1+\cos\theta$. We first consider
+$y=1+\cos x$, as in figure <a href="section10.01.html#fig:cardioid">10.1.2</a>. As $\theta$ goes
+through the values in $[0,2\pi]$, the value of $r$ tracks the value of
+$y$, forming the "cardioid'' 
+shape of  figure <a href="section10.01.html#fig:cardioid">10.1.2</a>.
+For example, when $\theta=\pi/2$, $r=1+\cos(\pi/2)=1$, so we graph the
+point at distance 1 from the origin along the positive $y$-axis, which
+is at an angle of $\pi/2$ from the positive $x$-axis. When
+$\theta=7\pi/4$, $\ds r=1+\cos(7\pi/4)=1+\sqrt2/2\approx 1.71$, and the
+corresponding point appears in the fourth quadrant. This illustrates
+one of the potential benefits of using polar coordinates: the equation
+for this curve in rectangular coordinates would be quite complicated.
+
+</p>
+</div><!-- example -->
+<p>
+</p><p>
+<a id="fig:cardioid"></a>
+</p><div class='figure'><!-- Polar-Parametric-cardioid.html -->
+<!-- Figure 10.1.2 -->
+
+<table style="width:100%">
+<tr style="width:100%">
+<td style="width:68.5%">
+<div id='cosine_for_cardioid' class='jxgbox'></div>
+</td><td style="width:31%">
+<div id='cosine_cardioid' class='jxgbox'></div>
+</td></tr></table>
+
+<script type='text/javascript'>
+(function () {  // BEGIN: scope limiting function wrapper
+  var xmin=-0.5, xmax= 6.75, ymin=-0.5, ymax=2.5;
+  var AspectRatio =  ((ymax-ymin)/(xmax-xmin)); // height/width
+  var wd=document.getElementById('cosine_for_cardioid').offsetWidth;
+  var ht=wd*AspectRatio;
+  var yfactor = (ymax-ymin)/(ht);
+  var xfactor = (xmax-xmin)/(wd);
+  var xaxis_label_offset = yfactor*15;
+  var yaxis_label_offset = xfactor*20;
+  document.getElementById('cosine_for_cardioid').style.height=ht+'px';
+  var brd = JXG.JSXGraph.initBoard('cosine_for_cardioid',{boundingbox:[xmin,ymax,xmax,ymin], showCopyright:false, showNavigation:false}) ;
+  var rejax = function() {
+     MathJax.Hub.Queue(["Typeset",MathJax.Hub]); 
+  }
+  brd.addHook(rejax)
+  var f = function(x) { return 1+Math.cos(x); }
+  var xaxis = brd.create('arrow', [[0,0], [6.5,0]],{strokeWidth:1,strokeColor:'black',fixed:true});
+  var yaxis = brd.create('arrow', [[0,0],[0,2.25]],{strokeWidth:1,strokeColor:'black',fixed:true});
+  var xi = brd.create('segment',[[0,0],[6.3,0]],{visible:false});
+  brd.create('ticks',[xi,Math.PI/2],{minorTicks:false});
+  var yi = brd.create('segment',[[0,0],[0,2.1]],{visible:false});
+  brd.create('ticks',[yi,1],{minorTicks:false});
+  brd.create('text',[Math.PI/2,-xaxis_label_offset,'$\\\\pi/2$'],{fixed:true});
+  brd.create('text',[Math.PI,-xaxis_label_offset,'$\\\\pi$'],{fixed:true});
+  brd.create('text',[3*Math.PI/2,-xaxis_label_offset,'$3\\\\pi/2$'],{fixed:true});
+  brd.create('text',[2*Math.PI,-xaxis_label_offset,'$2\\\\pi$'],{fixed:true});
+  brd.create('text',[-yaxis_label_offset,1,'$1$'],{fixed:true});
+  brd.create('text',[-yaxis_label_offset,2,'$2$'],{fixed:true});
+  var fgraph=brd.create('functiongraph',[f,0,Math.PI*2]);
+  var rp = brd.create('glider',[Math.PI/2,f(Math.PI/2),fgraph],{size:1,withLabel:false});
+  var cxmin=-0.75, cxmax= 2.5, cymin=-1.5, cymax=1.5;
+  var cAspectRatio =  ((cymax-cymin)/(cxmax-cxmin)); // height/width
+  var cwd=document.getElementById('cosine_cardioid').offsetWidth;
+  var cht=cwd*cAspectRatio;
+  var cyfactor = (cymax-cymin)/(cht);
+  var cxfactor = (cxmax-cxmin)/(cwd);
+  var cxaxis_label_offset = cyfactor*15;
+  var cyaxis_label_offset = cxfactor*20;
+  document.getElementById('cosine_cardioid').style.height=cht+'px';
+  var cbrd = JXG.JSXGraph.initBoard('cosine_cardioid',{boundingbox:[cxmin,cymax,cxmax,cymin], showCopyright:false, showNavigation:false}) ;
+  var x = function(t) { return (1+Math.cos(t))*Math.cos(t); }
+  var y = function(t) { return (1+Math.cos(t))*Math.sin(t); }
+  var cxaxis = cbrd.create('arrow', [[-0.5,0], [2.25,0]],{strokeWidth:1,strokeColor:'black',fixed:true});
+  var cyaxis = cbrd.create('arrow', [[0,-1.25],[0,1.25]],{strokeWidth:1,strokeColor:'black',fixed:true});
+  cbrd.create('curve',[x,y,0,Math.PI*2]);
+  cbrd.create('point',[function(){return rp.Y()*Math.cos(rp.X());},function(){return rp.Y()*Math.sin(rp.X());}],{withLabel:false,size:1});
+  var sync = function() {
+    cbrd.update();
+  }
+  brd.addHook(sync);
+})(); // END: scope limiting function wrapper
+</script>
+<div class='figcaption'><span class="figurenumber">Figure 10.1.2.</span> A cardioid: $y=1+\cos x$ on the left, $r=1+\cos\theta$ on
+  the right.</div></div>
+<p>
+</p><p>
+Each point in the plane is associated with exactly one pair of numbers
+in the rectangular coordinate system; each point is associated with an
+infinite number of pairs in polar coordinates. In the cardioid
+example, we considered only the range $0\le \theta\le2\pi$, and
+already there was a duplicate: $(2,0)$ and $(2,2\pi)$ are the same
+point. Indeed, every value of $\theta$ outside the interval $[0,2\pi)$
+duplicates a point on the curve $r=1+\cos\theta$ when
+$0\le\theta< 2\pi$. We can even make sense of polar coordinates like
+$(-2,\pi/4)$: go to the direction $\pi/4$ and then move a distance 2
+in the opposite direction; see figure <a href="section10.01.html#fig:negative r coordinate">10.1.3</a>. As usual, a negative angle $\theta$ means an angle
+measured clockwise from the positive $x$-axis. The point in
+figure <a href="section10.01.html#fig:negative r coordinate">10.1.3</a> also has coordinates
+$(2,5\pi/4)$ and $(2,-3\pi/4)$.
+</p><p>
+<a id="fig:negative r coordinate"></a>
+</p><div class='figure'><!-- Polar-Parametric-multiple_coordinates.html -->
+<!-- Figure 10.1.3 -->
+
+<div id='multiple_coordinates' class='jxgbox' style='width:46%;'></div>
+
+<script type='text/javascript'>
+(function () {  // BEGIN: scope limiting function wrapper
+  var xmin=-2.5, xmax= 3, ymin=-2.5, ymax=3;
+  var AspectRatio =  ((ymax-ymin)/(xmax-xmin)); // height/width
+  var wd=document.getElementById('multiple_coordinates').offsetWidth;
+  var ht=wd*AspectRatio;
+  var yfactor = (ymax-ymin)/(ht);
+  var xfactor = (xmax-xmin)/(wd);
+  var xaxis_label_offset = yfactor*15;
+  var yaxis_label_offset = xfactor*20;
+  document.getElementById('multiple_coordinates').style.height=ht+'px';
+  var brd = JXG.JSXGraph.initBoard('multiple_coordinates',{boundingbox:[xmin,ymax,xmax,ymin], showCopyright:false, showNavigation:false}) ;
+  var rejax = function() {
+     MathJax.Hub.Queue(["Typeset",MathJax.Hub]); 
+  }
+  brd.addHook(rejax)
+
+  var xaxis = brd.create('arrow', [[-2.1,0], [2.5,0]],{strokeWidth:1,strokeColor:'black',fixed:true});
+  var yaxis = brd.create('arrow', [[0,-2.1],[0,2.5]],{strokeWidth:1,strokeColor:'black',fixed:true});
+  var xi = brd.create('segment',[[0,0],[2.1,0]],{visible:false});
+  brd.create('ticks',[xi,1],{minorTicks:false});
+  var yi = brd.create('segment',[[0,0],[0,2.1]],{visible:false});
+  brd.create('ticks',[yi,1],{minorTicks:false});
+  var xi2 = brd.create('segment',[[0,0],[-2.1,0]],{visible:false});
+  brd.create('ticks',[xi2,1],{minorTicks:false});
+  var yi2 = brd.create('segment',[[0,0],[0,-2.1]],{visible:false});
+  brd.create('ticks',[yi2,1],{minorTicks:false});
+  var i;
+
+  for (i=1; i<=2; i++) {
+    brd.create('text',[i,-xaxis_label_offset,'$'+i+'$'],{fixed:true});
+    brd.create('text',[-yaxis_label_offset,i,'$'+i+'$'],{fixed:true});
+    brd.create('text',[-i-xfactor*5,-xaxis_label_offset,'$-'+i+'$'],{fixed:true});
+    brd.create('text',[-yaxis_label_offset-xfactor*5,-i,'$-'+i+'$'],{fixed:true});
+  }
+  brd.create('arrow',[[1,1],[-Math.sqrt(2),-Math.sqrt(2)]],{strokeWidth:1,strokeColor:'black',fixed:true,dash:2});
+  brd.create('point',[-Math.sqrt(2),-Math.sqrt(2)],{withLabel:false,size:1,strokeColor:'red',fillColor:'red',fixed:true});
+  var p1=brd.create('point',[0,0],{visible:false,fixed:true});
+  var p2=brd.create('point',[0.4,0],{visible:false,fixed:true});
+  var p3=brd.create('point',[0.4*Math.cos(Math.PI/4),0.4*Math.sin(Math.PI/4)],{visible:false,fixed:true});
+  brd.create('arc',[p1,p2,p3],{strokeWidth:1,strokeColor:'black'});
+  brd.create('text',[0.4*Math.cos(Math.PI/8)+xfactor*8,0.4*Math.sin(Math.PI/8)+yfactor*8,'$\\\\pi/4$']);
+})(); // END: scope limiting function wrapper
+</script>
+<div class='figcaption'><span class="figurenumber">Figure 10.1.3.</span> The point $(-2,\pi/4)=(2,5\pi/4)=(2,-3\pi/4)$ in polar coordinates.</div></div>
+<p>
+</p><p>
+The relationship
+between rectangular and polar coordinates is quite easy to
+understand. The point with polar coordinates $(r,\theta)$ has
+rectangular coordinates $x=r\cos\theta$ and $y=r\sin\theta$; this
+follows immediately from the definition of the sine and cosine
+functions. Using figure <a href="section10.01.html#fig:negative r coordinate">10.1.3</a> as an
+example, the point shown has rectangular coordinates 
+$\ds x=(-2)\cos(\pi/4)=-\sqrt2\approx 1.4142$ and 
+$\ds y=(-2)\sin(\pi/4)=-\sqrt2$.  This makes it very easy to convert
+equations from rectangular to polar coordinates.
+</p><p>
+</p>
+<div class="example">
+<p>
+<span class="theoremlabel">Example 10.1.3 </span>Find the equation of the line $y=3x+2$ in polar
+coordinates. We merely substitute: $r\sin\theta=3r\cos\theta+2$, or 
+$\ds r= {2\over \sin\theta-3\cos\theta}$.
+
+</p>
+</div><!-- example -->
+<p>
+</p><p>
+</p>
+<div class="example">
+<p>
+<span class="theoremlabel">Example 10.1.4 </span>Find the equation of the circle $\ds (x-1/2)^2+y^2=1/4$ in polar
+coordinates. Again substituting:
+$\ds (r\cos\theta-1/2)^2+r^2\sin^2\theta=1/4$. A bit of algebra turns this
+into $r=\cos(t)$. You should try plotting a few $(r,\theta)$ values to
+convince yourself that this makes sense.
+
+</p>
+</div><!-- example -->
+<p>
+</p><p>
+</p>
+<div class="example">
+<p>
+<span class="theoremlabel">Example 10.1.5 </span>Graph the polar equation $r=\theta$. Here the distance from
+the origin exactly matches the angle, so a bit of thought makes it
+clear that when $\theta\ge0$ we get the spiral of 
+Archimedes in 
+figure <a href="section10.01.html#fig:spiral of Archimedes">10.1.4</a>. When $\theta< 0$, $r$ is also
+negative, and so the full graph is the right hand picture in the
+figure.
+
+</p>
+</div><!-- example -->
+<p>
+</p><p>
+<a id="fig:spiral of Archimedes"></a>
+</p><div class='figure'><!-- Polar-Parametric-spiral_of_archimedes.html -->
+<!-- Figure 10.1.4 -->
+
+<table style="width:100%">
+<tr style="width:100%">
+<td style="width:45.2%">
+<div id='spiral_of_archimedes' class='jxgbox'></div>
+</td><td style="width:54.8%">
+<div id='full_spiral_of_archimedes' class='jxgbox'></div>
+</td></tr></table>
+
+<script type='text/javascript'>
+(function () {  // BEGIN: scope limiting function wrapper
+  var xmin=-4, xmax= 7.5, ymin=-5.5, ymax=3;
+  var AspectRatio =  ((ymax-ymin)/(xmax-xmin)); // height/width
+  var wd=document.getElementById('spiral_of_archimedes').offsetWidth;
+  var ht=wd*AspectRatio;
+  var yfactor = (ymax-ymin)/(ht);
+  var xfactor = (xmax-xmin)/(wd);
+  var xaxis_label_offset = yfactor*15;
+  var yaxis_label_offset = xfactor*20;
+  document.getElementById('spiral_of_archimedes').style.height=ht+'px';
+  var brd = JXG.JSXGraph.initBoard('spiral_of_archimedes',{boundingbox:[xmin,ymax,xmax,ymin], showCopyright:false, showNavigation:false}) ;
+  var rejax = function() {
+     MathJax.Hub.Queue(["Typeset",MathJax.Hub]); 
+  }
+  brd.addHook(rejax)
+  var x = function(t) { return t*Math.cos(t); }
+  var y = function(t) { return t*Math.sin(t); }
+  var xaxis = brd.create('arrow', [[-3.5,0], [7.25,0]],{strokeWidth:1,strokeColor:'black',fixed:true});
+  var yaxis = brd.create('arrow', [[0,-5],[0,2.5]],{strokeWidth:1,strokeColor:'black',fixed:true});
+  var fgraph=brd.create('curve',[x,y,0,Math.PI*2]);
+  brd.create('point',[x(1),y(1)],{fixed:true,size:1,
+      name:'$(1,1)$',strokeColor:'black',fillColor:'black'});
+  brd.create('point',[x(Math.PI/2),y(Math.PI/2)],{fixed:true,size:1,
+      name:'$(\\\\pi/2,\\\\pi/2)$',strokeColor:'black',fillColor:'black'});
+  brd.create('point',[x(Math.PI),y(Math.PI)],{fixed:true,size:1,
+      name:'$(\\\\pi,\\\\pi)$',strokeColor:'black',fillColor:'black'});
+  brd.create('point',[x(2*Math.PI),y(2*Math.PI)],{fixed:true,size:1,
+      name:'$(2\\\\pi,2\\\\pi)$',strokeColor:'black',fillColor:'black',label:{offset:[-30,10]}});
+  var cxmin=-7, cxmax= 7, cymin=-5.5, cymax=3;
+  var cAspectRatio =  ((cymax-cymin)/(cxmax-cxmin)); // height/width
+  var cwd=document.getElementById('full_spiral_of_archimedes').offsetWidth;
+  var cht=cwd*cAspectRatio;
+  var cyfactor = (cymax-cymin)/(cht);
+  var cxfactor = (cxmax-cxmin)/(cwd);
+  var cxaxis_label_offset = cyfactor*15;
+  var cyaxis_label_offset = cxfactor*20;
+  document.getElementById('full_spiral_of_archimedes').style.height=cht+'px';
+  var cbrd = JXG.JSXGraph.initBoard('full_spiral_of_archimedes',{boundingbox:[cxmin,cymax,cxmax,cymin], showCopyright:false, showNavigation:false}) ;
+  var cxaxis = cbrd.create('arrow', [[-6.75,0], [6.75,0]],{strokeWidth:1,strokeColor:'black',fixed:true});
+  var cyaxis = cbrd.create('arrow', [[0,-5],[0,2.5]],{strokeWidth:1,strokeColor:'black',fixed:true});
+  cbrd.create('curve',[x,y,0,Math.PI*2]);
+  cbrd.create('curve',[x,y,-2*Math.PI,0],{strokeColor:'green'});
+  cbrd.create('point',[x(-1),y(-1)],{fixed:true,size:1,
+      name:'$(-1,-1)$',strokeColor:'black',fillColor:'black',label:{offset:[-55,0]}});
+  cbrd.create('point',[x(-Math.PI/2),y(-Math.PI/2)],{fixed:true,size:1,
+      name:'$(-\\\\pi/2,-\\\\pi/2)$',strokeColor:'black',
+      fillColor:'black',label:{offset:[10,0]}});
+  cbrd.create('point',[x(-Math.PI),y(-Math.PI)],{fixed:true,size:1,
+      name:'$(-\\\\pi,-\\\\pi)$',strokeColor:'black',fillColor:'black'});
+  cbrd.create('point',[x(-2*Math.PI),y(-2*Math.PI)],{fixed:true,size:1,
+      name:'$(-2\\\\pi,-2\\\\pi)$',strokeColor:'black',fillColor:'black',label:{offset:[-15,10]}});
+})(); // END: scope limiting function wrapper
+</script>
+<div class='figcaption'><span class="figurenumber">Figure 10.1.4.</span> The spiral of Archimedes and the full graph of $r=\theta$.</div></div>
+<p>
+</p><p>
+Converting polar equations to rectangular equations can be somewhat
+trickier, and graphing polar equations directly is also not always easy.
+</p><p>
+</p>
+<div class="example">
+<p>
+<span class="theoremlabel">Example 10.1.6 </span>Graph $r=2\sin\theta$. Because the sine is periodic, we know
+that we will get the entire curve for values of $\theta$ in
+$[0,2\pi)$. As $\theta$ runs from 0 to $\pi/2$, $r$ increases from 0
+to 2. Then as $\theta$ continues to $\pi$, $r$ decreases again to
+0. When $\theta$ runs from $\pi$ to $2\pi$, $r$ is negative, and it
+is not hard to see that the first part of the curve is simply traced
+out again, so in fact we get the whole curve for values of $\theta$
+in $[0,\pi)$. Thus, the curve looks something like
+figure <a href="section10.01.html#fig:circle from polar equation">10.1.5</a>. Now, this suggests
+that the curve could possibly be a circle, and if it is, it would
+have to be the circle $\ds x^2+(y-1)^2=1$. Having made this guess, we
+can easily check it. First we substitute for $x$ and $y$ to get
+$\ds (r\cos\theta)^2+(r\sin\theta-1)^2=1$; expanding and simplifying
+does indeed turn this into $r=2\sin\theta$.
+
+</p>
+</div><!-- example -->
+<p>
+</p><p>
+<a id="fig:circle from polar equation"></a>
+</p><div class='figure'><!-- Polar-Parametric-2_sin.html -->
+<!-- Figure 10.1.5 -->
+
+<table style="width:100%">
+<tr style="width:100%">
+<td style="width:50%">
+<div id='2_sin_rect' class='jxgbox'></div>
+</td><td style="width:50%">
+<div id='2_sin' class='jxgbox'></div>
+</td></tr></table>
+
+<script type='text/javascript'>
+(function () {  // BEGIN: scope limiting function wrapper
+  var xmin=-2, xmax=2, ymin=-0.5, ymax=2.5;
+  var AspectRatio =  ((ymax-ymin)/(xmax-xmin)); // height/width
+  var wd=document.getElementById('2_sin').offsetWidth;
+  var ht=wd*AspectRatio;
+  var yfactor = (ymax-ymin)/(ht);
+  var xfactor = (xmax-xmin)/(wd);
+  var xaxis_label_offset = yfactor*15;
+  var yaxis_label_offset = xfactor*20;
+  document.getElementById('2_sin').style.height=ht+'px';
+  var brd = JXG.JSXGraph.initBoard('2_sin',{boundingbox:[xmin,ymax,xmax,ymin], showCopyright:false, showNavigation:false}) ;
+  var rejax = function() {
+     MathJax.Hub.Queue(["Typeset",MathJax.Hub]); 
+  }
+  brd.addHook(rejax)
+
+  var xaxis = brd.create('arrow', [[-1.5,0], [1.5,0]],{strokeWidth:1,strokeColor:'black',fixed:true});
+  var yaxis = brd.create('arrow', [[0,0],[0,2.25]],{strokeWidth:1,strokeColor:'black',fixed:true});
+  var xi = brd.create('segment',[[0,0],[1.1,0]],{visible:false});
+  brd.create('ticks',[xi,1],{minorTicks:false});
+  var yi = brd.create('segment',[[0,0],[0,1.1]],{visible:false});
+  brd.create('ticks',[yi,1],{minorTicks:false});
+  var xi2 = brd.create('segment',[[0,0],[-1.1,0]],{visible:false});
+  brd.create('ticks',[xi2,1],{minorTicks:false});
+  var i;
+  brd.create('text',[1,-xaxis_label_offset,'$1$'],{fixed:true});
+  brd.create('text',[-yaxis_label_offset,1,'$1$'],{fixed:true});
+  brd.create('text',[-1-xfactor*5,-xaxis_label_offset,'$-1$'],{fixed:true});
+  brd.create('circle',[[0,1],[0,2]],{strokeWidth:1,strokeColor:'black'});
+  var rxmin=-0.5, rxmax=4, rymin=-0.5, rymax=2.5;
+  var rAspectRatio =  ((rymax-rymin)/(rxmax-rxmin)); // height/width
+  var rwd=document.getElementById('2_sin_rect').offsetWidth;
+  var rht=wd*AspectRatio;
+  var ryfactor = (rymax-rymin)/(rht);
+  var rxfactor = (rxmax-rxmin)/(rwd);
+  var rxaxis_label_offset = ryfactor*15;
+  var ryaxis_label_offset = rxfactor*20;
+  document.getElementById('2_sin_rect').style.height=rht+'px';
+  var rbrd = JXG.JSXGraph.initBoard('2_sin_rect',{boundingbox:[rxmin,rymax,rxmax,rymin], showCopyright:false, showNavigation:false}) ;
+  var rejax = function() {
+     MathJax.Hub.Queue(["Typeset",MathJax.Hub]); 
+  }
+  brd.addHook(rejax)
+
+  var rxaxis = rbrd.create('arrow', [[0,0], [3.5,0]],{strokeWidth:1,strokeColor:'black',fixed:true});
+  var ryaxis = rbrd.create('arrow', [[0,0],[0,2.25]],{strokeWidth:1,strokeColor:'black',fixed:true});
+  var xi = rbrd.create('segment',[[0,0],[3.5,0]],{visible:false});
+  rbrd.create('ticks',[xi,Math.PI/2],{minorTicks:false});
+  var yi = rbrd.create('segment',[[0,0],[0,1.1]],{visible:false});
+  rbrd.create('ticks',[yi,1],{minorTicks:false});
+  var i;
+  rbrd.create('text',[Math.PI/2,-rxaxis_label_offset,'$\\\\pi/2$'],{fixed:true});
+  rbrd.create('text',[-ryaxis_label_offset,1,'$1$'],{fixed:true});
+  rbrd.create('text',[-ryaxis_label_offset-xfactor*5,-1,'$-1$'],{fixed:true});
+  rbrd.create('text',[Math.PI,-rxaxis_label_offset,'$\\\\pi$'],{fixed:true});
+  var f = function(x){return 2*Math.sin(x);}
+  var fgraph = rbrd.create('functiongraph',[f,0,Math.PI],{strokeWidth:1,strokeColor:'black'});
+  var rp = rbrd.create('glider',[Math.PI/4,f(Math.PI/4),fgraph],{size:1,withLabel:false});
+
+  brd.create('point',[function(){return rp.Y()*Math.cos(rp.X());},function(){return rp.Y()*Math.sin(rp.X());}],{withLabel:false,size:1});
+  var sync = function() {
+    brd.update();
+  }
+  rbrd.addHook(sync);
+
+})(); // END: scope limiting function wrapper
+</script>
+<div class='figcaption'><span class="figurenumber">Figure 10.1.5.</span> Graph of $r=2\sin\theta$. You can drag the red point in the graph on
+the left, and the corresponding point on the right will follow.</div></div>
+<p>
+</p><p>
+</p>
+<a id="exercises"></a><h2 class="exercises">Exercises 10.1</h2>
+<p></p><p>
+</p>
+<p class="exercise"><b>Ex 10.1.1</b>
+Plot these polar coordinate points on one graph:
+$(2,\pi/3)$, $(-3,\pi/2)$, $(-2,-\pi/4)$, $(1/2,\pi)$, $(1,4\pi/3)$, 
+$(0,3\pi/2)$.
+</p><p>
+ Find an equation in polar coordinates that has the same
+graph as the given equation in rectangular coordinates.
+
+</p><p>
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 10.1.2</b>
+$\ds y=3x$
+(<a knowl="" class="internal" value="$\ds \theta=\arctan(3)$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 10.1.3</b>
+$\ds y=-4$
+(<a knowl="" class="internal" value="$\ds r=-4\csc\theta$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 10.1.4</b>
+$\ds xy^2=1$
+(<a knowl="" class="internal" value="$\ds r^3\cos\theta\sin^2\theta=1$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 10.1.5</b>
+$\ds x^2+y^2=5$
+(<a knowl="" class="internal" value="$\ds r=\sqrt{5}$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 10.1.6</b>
+$\ds y=x^3$
+(<a knowl="" class="internal" value="$\ds r^2=\sin\theta\sec^3\theta$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 10.1.7</b>
+$\ds y=\sin x$
+(<a knowl="" class="internal" value="$\ds r\sin\theta=\sin(r\cos\theta)$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 10.1.8</b>
+$\ds y=5x+2$
+(<a knowl="" class="internal" value="$\ds r=2/(\sin\theta-5\cos\theta)$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 10.1.9</b>
+$\ds x=2$
+(<a knowl="" class="internal" value="$\ds r=2\sec\theta$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 10.1.10</b>
+$\ds y=x^2+1$
+(<a knowl="" class="internal" value="$\ds 0=r^2\cos^2\theta-r\sin\theta+1$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 10.1.11</b>
+$\ds y=3x^2-2x$
+(<a knowl="" class="internal" value="$\ds 0=3r^2\cos^2\theta-2r\cos\theta-r\sin\theta$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 10.1.12</b>
+$\ds y=x^2+y^2$
+(<a knowl="" class="internal" value="$\ds r=\sin\theta$">answer</a>)
+
+</p><p>
+
+</p><p>
+ Sketch the curve.
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 10.1.13</b>
+$\ds r=\cos\theta$
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 10.1.14</b>
+$\ds r=\sin(\theta+\pi/4)$
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 10.1.15</b>
+$\ds r=-\sec\theta$
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 10.1.16</b>
+$\ds r=\theta/2$, $\theta\ge0$
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 10.1.17</b>
+$\ds r=1+\theta^1/\pi^2$
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 10.1.18</b>
+$\ds r=\cot\theta\csc\theta$
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 10.1.19</b>
+$\ds r={1\over\sin\theta+\cos\theta}$
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 10.1.20</b>
+$\ds r^2=-2\sec\theta\csc\theta$
+</p><p>
+
+</p><p>
+ In the exercises below, find
+an equation in rectangular coordinates that has the same
+graph as the given equation in polar coordinates.
+</p><p>
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 10.1.21</b>
+$\ds r=\sin(3\theta)$
+(<a knowl="" class="internal" value="$\ds (x^2+y^2)^2=4x^2y-(x^2+y^2)y$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 10.1.22</b>
+$\ds r=\sin^2\theta$
+(<a knowl="" class="internal" value="$\ds (x^2+y^2)^{3/2}=y^2$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 10.1.23</b>
+$\ds r=\sec\theta\csc\theta$
+(<a knowl="" class="internal" value="$\ds x^2+y^2=x^2y^2$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 10.1.24</b>
+$\ds r=\tan\theta$
+(<a knowl="" class="internal" value="$\ds x^4+x^2y^2=y^2$">answer</a>)
+
+
+</p><p>
+
+</p><p>
+
+
+</div></div></body>
+</html>

@@ -1,0 +1,1788 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+<meta http-equiv="Content-Language" Content="en">
+<title>15.1 Volume and Average Height</title>
+<!--
+<script type="text/javascript" src="js/deployJava.js"></script>
+<link rel="stylesheet" type="text/css" href="http://jsxgraph.uni-bayreuth.de/distrib/jsxgraph.css" />
+-->
+<!-- use Jsxgraph to create figures: http://jsxgraph.uni-bayreuth.de/wp/ -->
+<link rel="stylesheet" type="text/css" href="css/jsxgraph.css" />
+<script type="text/javascript" src="js/jsxgraphcore.js"></script>
+<script src="js/three.min.js"></script>
+<script src="js/Detector.js"></script>
+<script src="js/TrackballControls.js"></script>
+<script src="js/OrthographicTrackballControls.js"></script>
+<script src="js/THREEx.KeyboardState.js"></script>
+<script src="js/THREEx.FullScreen.js"></script>
+<script src="js/THREEx.WindowResize.js"></script>
+<script type='text/javascript' src='js/DAT.GUI.min.js'></script>
+<script>
+window.requestAnimFrame = (function(){
+    return  window.requestAnimationFrame       || 
+        window.webkitRequestAnimationFrame || 
+        window.mozRequestAnimationFrame    || 
+        window.oRequestAnimationFrame      || 
+        window.msRequestAnimationFrame     || 
+        function(/* function */ callback, /* DOMElement */
+            element){
+            window.setTimeout(callback, 1000 / 60);
+        };
+})();
+</script>
+<script src="js/ifvisible.min.js"></script>
+<script src="js/conrec.js"></script>
+<script>
+active = true;
+ifvisible.setIdleDuration(10);
+ifvisible.on("idle", function(){
+    active = false;
+//    console.log("idle");
+});
+
+ifvisible.on("wakeup", function(){
+    active = true;
+//    console.log("wakeup");
+});
+</script>
+<script src="js/parser.js"></script>
+<link href="css/whitman.css" rel="stylesheet" type="text/css" /><link href="css/calculus.css" rel="stylesheet" type="text/css" /><link href="css/knowlstyle.css" rel="stylesheet" type="text/css" />
+
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  extensions: ["tex2jax.js","TeX/AMSmath.js","TeX/AMSsymbols.js"],
+  jax: ["input/TeX","output/HTML-CSS"],
+  tex2jax: {
+    inlineMath: [['$','$'],["\\(","\\)"]],
+    processEscapes: true,
+  },
+TeX: {
+   Macros: {
+    val: "\\mathop{\\rm val}",
+    divides: "\\mid",
+    ndivides: "\\mathrel{\\not|}",
+    fix: "\\mathop{\\rm fix}",
+    id: "\\mathop{\\rm id}",
+    na: "\\mathop{\\rm na}",
+    d: "\\mathop{\\rm\\strut d}\\nolimits ",
+    legendre: ["\\left(\\frac{#1}{#2}\\right)",2],
+    normalbaselines: "",
+    notdiv: "\\nmid",
+    implies: "\\Rightarrow",
+    iff: "\\Leftrightarrow",
+    sevenpoint: "\\scriptsize",
+    ds: "\\displaystyle",
+    lcm: "\\operatorname{lcm}",
+    arccot: "\\operatorname{arccot}",
+    arcsec: "\\operatorname{arcsec}",
+    arccsc: "\\operatorname{arccsc}",
+    arccosh: "\\operatorname{arccosh}",
+    arcsinh: "\\operatorname{arcsinh}",
+    arcsech: "\\operatorname{arcsech}",
+    sech: "\\operatorname{sech}",
+    csch: "\\operatorname{csch}",
+    R: "{\\mathbb R}",
+    sb: "_",
+    sp: "^",
+    Q: "{\\mathbb Q}",
+    C: "{\\mathbb C}",
+    N: "{\\mathbb N}",
+    Z: "{\\mathbb Z}",
+    U: "{\\mathbb U}",
+    v: ["\\langle #1\\rangle",1],
+    dint: ["{\\mathchoice{\\mathop{\\int\\!\\!\\!\\int}_{#1}}{\\mathop{\\int\\!\\!\\!\\int}_{#1}}{\\mathop{\\int\\!\\!\\!\\int}}{\\mathop{\\int\\!\\!\\!\\int}}}",1],
+    tint: ["{\\mathchoice{\\mathop{\\int\\!\\!\\!\\int\\!\\!\\!\\int}_{#1\\;}}{\\mathop{\\int\\!\\!\\!\\int\\!\\!\\!\\int}_{#1}}{\\mathop{\\int\\!\\!\\!\\int\\!\\!\\!\\int}_{#1}}{\\mathop{\\int\\!\\!\\!\\int\\!\\!\\!\\int}_{#1}}}",1]
+   }
+},
+  "HTML-CSS": { scale: 100},
+  menuSettings: { zscale: "150%", zoom: "Double-Click" }
+});
+    JXG.Options.text.display = 'html';
+    JXG.Options.text.useMathJax = true;
+</script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/math
+jax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+<script>
+MathJax.Hub.Register.StartupHook("End",function () {
+  if(typeof window.orientation === 'undefined'){
+    var i,x;
+    x = document.getElementsByClassName("webgl_display");
+    for (i=0; i<x.length; i++) {
+      x[i].style.display = "block";
+    }
+    x = document.getElementsByClassName("no_webgl_display");
+    for (i=0; i<x.length; i++) {
+      x[i].style.display = "none";
+    }
+  }
+});
+</script>
+
+<script src="js/jquery-3.1.0.min.js"></script>
+<script src="https://sagecell.sagemath.org/static/embedded_sagecell.js"></script>
+<script src="js/jquery.visible.min.js"></script>
+<script type="text/javascript" src="js/knowl.js"></script>
+<style type="text/css">
+
+.sagecell .CodeMirror {
+  height: auto;
+}
+
+.sagecell .CodeMirror-scroll {
+  overflow-y: hidden;
+  overflow-x: auto;
+}
+
+.sagecell-practice .CodeMirror-scroll {
+}
+
+.sagecell button.sagecell_evalButton {
+    font-size: 50%;
+}
+
+.sagecell_sessionContainer {
+    margin-bottom:1em;
+}
+</style>
+<script>
+function toggle(a) {
+  var b = String(a);
+  b=b.replace("contents","button");
+  if (document.getElementById(a).style.display == "block") {
+    document.getElementById(a).style.display = "none";
+    document.getElementById(b).src = "expand_submenu.png";
+  } else {
+    document.getElementById(a).style.display = "block";
+    document.getElementById(b).src = "collapse_submenu.png";
+  }
+}
+function toggle_sidebar() {
+  if (document.getElementById('sidebar').style.display == "block") {
+    document.getElementById('sidebar').style.display = "none";
+    document.getElementById('menu_expand').style.display = "block";
+  } else {
+    document.getElementById('sidebar').style.display = "block";
+    document.getElementById('menu_expand').style.display = "none";
+  }
+}
+</script>
+
+</head>
+
+<body class="" onload="toggle('chapter_15_contents')">
+<div id="header">
+<div class="right">
+<div class="bread">
+  <a href=".">Home</a> &raquo; <a href="chapter15.html">Multiple Integration</a> &raquo; <a href="section15.01.html">Volume and Average Height</a>
+</div>
+
+<FORM method=GET action=https://www.google.com/custom id="search">
+<INPUT TYPE=text name=q size=31 maxlength=255 value="" style="font-size:small">
+<INPUT type=submit name=sa VALUE="Search the book" style="font-size:small">
+<INPUT type=hidden name=cof VALUE="AH:center;AWFID:198dc2b883340b1f;">
+<input type=hidden name=domains value="www.whitman.edu">
+<input type=hidden name=sitesearch value="www.whitman.edu/mathematics/calculus_online/">
+</FORM>
+<div id="title"><span id="title-content">15.1 Volume and Average Height</span></div><a href="#exercises">[Jump to exercises]</a>
+</div>
+</div>
+<div id="menu_expand" style="display:none"><a href="javascript:toggle_sidebar()">Expand menu</a></div>
+<div id="sidebar" style="display:block">
+<h2 id="menu_collapse"><a href='javascript:toggle_sidebar()'>Collapse menu</a></h2>
+<h2 class="link"><img id="chapter_01_button" src="expand_submenu.png" onclick='toggle("chapter_01_contents")'><a href="chapter01.html">1 Analytic Geometry</a></h2>
+
+<ul class="list" id="chapter_01_contents">
+<li><a href="section01.01.html">1. Lines</a></li>
+<li><a href="section01.02.html">2. Distance Between Two Points; Circles</a></li>
+<li><a href="section01.03.html">3. Functions</a></li>
+<li><a href="section01.04.html">4. Shifts and Dilations</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_02_button" src="expand_submenu.png" onclick='toggle("chapter_02_contents")'><a href="chapter02.html">2 Instantaneous Rate of Change:  The Derivative</a></h2>
+
+<ul class="list" id="chapter_02_contents">
+<li><a href="section02.01.html">1. The slope of a function</a></li>
+<li><a href="section02.02.html">2. An example</a></li>
+<li><a href="section02.03.html">3. Limits</a></li>
+<li><a href="section02.04.html">4. The Derivative Function</a></li>
+<li><a href="section02.05.html">5. Adjectives For Functions</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_03_button" src="expand_submenu.png" onclick='toggle("chapter_03_contents")'><a href="chapter03.html">3 Rules for Finding Derivatives</a></h2>
+
+<ul class="list" id="chapter_03_contents">
+<li><a href="section03.01.html">1. The Power Rule</a></li>
+<li><a href="section03.02.html">2. Linearity of the Derivative</a></li>
+<li><a href="section03.03.html">3. The Product Rule</a></li>
+<li><a href="section03.04.html">4. The Quotient Rule</a></li>
+<li><a href="section03.05.html">5. The Chain Rule</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_04_button" src="expand_submenu.png" onclick='toggle("chapter_04_contents")'><a href="chapter04.html">4 Transcendental Functions</a></h2>
+
+<ul class="list" id="chapter_04_contents">
+<li><a href="section04.01.html">1. Trigonometric Functions</a></li>
+<li><a href="section04.02.html">2. The Derivative of $\sin x$</a></li>
+<li><a href="section04.03.html">3. A hard limit</a></li>
+<li><a href="section04.04.html">4. The Derivative of $\sin x$, continued</a></li>
+<li><a href="section04.05.html">5. Derivatives of the Trigonometric Functions</a></li>
+<li><a href="section04.06.html">6. Exponential and Logarithmic functions</a></li>
+<li><a href="section04.07.html">7. Derivatives of the exponential and  logarithmic functions</a></li>
+<li><a href="section04.08.html">8. Implicit Differentiation</a></li>
+<li><a href="section04.09.html">9. Inverse Trigonometric Functions</a></li>
+<li><a href="section04.10.html">10. Limits revisited</a></li>
+<li><a href="section04.11.html">11. Hyperbolic Functions</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_05_button" src="expand_submenu.png" onclick='toggle("chapter_05_contents")'><a href="chapter05.html">5 Curve Sketching</a></h2>
+
+<ul class="list" id="chapter_05_contents">
+<li><a href="section05.01.html">1. Maxima and Minima</a></li>
+<li><a href="section05.02.html">2. The first derivative test</a></li>
+<li><a href="section05.03.html">3. The second derivative test</a></li>
+<li><a href="section05.04.html">4. Concavity and inflection points</a></li>
+<li><a href="section05.05.html">5. Asymptotes and Other Things to Look For</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_06_button" src="expand_submenu.png" onclick='toggle("chapter_06_contents")'><a href="chapter06.html">6 Applications of the Derivative</a></h2>
+
+<ul class="list" id="chapter_06_contents">
+<li><a href="section06.01.html">1. Optimization</a></li>
+<li><a href="section06.02.html">2. Related Rates</a></li>
+<li><a href="section06.03.html">3. Newton's Method</a></li>
+<li><a href="section06.04.html">4. Linear Approximations</a></li>
+<li><a href="section06.05.html">5. The Mean Value Theorem</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_07_button" src="expand_submenu.png" onclick='toggle("chapter_07_contents")'><a href="chapter07.html">7 Integration</a></h2>
+
+<ul class="list" id="chapter_07_contents">
+<li><a href="section07.01.html">1. Two examples</a></li>
+<li><a href="section07.02.html">2. The Fundamental Theorem of Calculus</a></li>
+<li><a href="section07.03.html">3. Some Properties of Integrals</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_08_button" src="expand_submenu.png" onclick='toggle("chapter_08_contents")'><a href="chapter08.html">8 Techniques of Integration</a></h2>
+
+<ul class="list" id="chapter_08_contents">
+<li><a href="section08.01.html">1. Substitution</a></li>
+<li><a href="section08.02.html">2. Powers of sine and cosine</a></li>
+<li><a href="section08.03.html">3. Trigonometric Substitutions</a></li>
+<li><a href="section08.04.html">4. Integration by Parts</a></li>
+<li><a href="section08.05.html">5. Rational Functions</a></li>
+<li><a href="section08.06.html">6. Numerical Integration</a></li>
+<li><a href="section08.07.html">7. Additional exercises</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_09_button" src="expand_submenu.png" onclick='toggle("chapter_09_contents")'><a href="chapter09.html">9 Applications of Integration</a></h2>
+
+<ul class="list" id="chapter_09_contents">
+<li><a href="section09.01.html">1. Area between curves</a></li>
+<li><a href="section09.02.html">2. Distance, Velocity, Acceleration</a></li>
+<li><a href="section09.03.html">3. Volume</a></li>
+<li><a href="section09.04.html">4. Average value of a function</a></li>
+<li><a href="section09.05.html">5. Work</a></li>
+<li><a href="section09.06.html">6. Center of Mass</a></li>
+<li><a href="section09.07.html">7. Kinetic energy; improper integrals</a></li>
+<li><a href="section09.08.html">8. Probability</a></li>
+<li><a href="section09.09.html">9. Arc Length</a></li>
+<li><a href="section09.10.html">10. Surface Area</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_10_button" src="expand_submenu.png" onclick='toggle("chapter_10_contents")'><a href="chapter10.html">10 Polar Coordinates,  Parametric Equations</a></h2>
+
+<ul class="list" id="chapter_10_contents">
+<li><a href="section10.01.html">1. Polar Coordinates</a></li>
+<li><a href="section10.02.html">2. Slopes in polar coordinates</a></li>
+<li><a href="section10.03.html">3. Areas in polar coordinates</a></li>
+<li><a href="section10.04.html">4. Parametric Equations</a></li>
+<li><a href="section10.05.html">5. Calculus with Parametric Equations</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_11_button" src="expand_submenu.png" onclick='toggle("chapter_11_contents")'><a href="chapter11.html">11 Sequences and Series</a></h2>
+
+<ul class="list" id="chapter_11_contents">
+<li><a href="section11.01.html">1. Sequences</a></li>
+<li><a href="section11.02.html">2. Series</a></li>
+<li><a href="section11.03.html">3. The Integral Test</a></li>
+<li><a href="section11.04.html">4. Alternating Series</a></li>
+<li><a href="section11.05.html">5. Comparison Tests</a></li>
+<li><a href="section11.06.html">6. Absolute Convergence</a></li>
+<li><a href="section11.07.html">7. The Ratio and Root Tests</a></li>
+<li><a href="section11.08.html">8. Power Series</a></li>
+<li><a href="section11.09.html">9. Calculus with Power Series</a></li>
+<li><a href="section11.10.html">10. Taylor Series</a></li>
+<li><a href="section11.11.html">11. Taylor's Theorem</a></li>
+<li><a href="section11.12.html">12. Additional exercises</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_12_button" src="expand_submenu.png" onclick='toggle("chapter_12_contents")'><a href="chapter12.html">12 Three Dimensions</a></h2>
+
+<ul class="list" id="chapter_12_contents">
+<li><a href="section12.01.html">1. The Coordinate System</a></li>
+<li><a href="section12.02.html">2. Vectors</a></li>
+<li><a href="section12.03.html">3. The Dot Product</a></li>
+<li><a href="section12.04.html">4. The Cross Product</a></li>
+<li><a href="section12.05.html">5. Lines and Planes</a></li>
+<li><a href="section12.06.html">6. Other Coordinate Systems</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_13_button" src="expand_submenu.png" onclick='toggle("chapter_13_contents")'><a href="chapter13.html">13 Vector Functions</a></h2>
+
+<ul class="list" id="chapter_13_contents">
+<li><a href="section13.01.html">1. Space Curves</a></li>
+<li><a href="section13.02.html">2. Calculus with vector functions</a></li>
+<li><a href="section13.03.html">3. Arc length and curvature</a></li>
+<li><a href="section13.04.html">4. Motion along a curve</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_14_button" src="expand_submenu.png" onclick='toggle("chapter_14_contents")'><a href="chapter14.html">14 Partial Differentiation</a></h2>
+
+<ul class="list" id="chapter_14_contents">
+<li><a href="section14.01.html">1. Functions of Several Variables</a></li>
+<li><a href="section14.02.html">2. Limits and Continuity</a></li>
+<li><a href="section14.03.html">3. Partial Differentiation</a></li>
+<li><a href="section14.04.html">4. The Chain Rule</a></li>
+<li><a href="section14.05.html">5. Directional Derivatives</a></li>
+<li><a href="section14.06.html">6. Higher order derivatives</a></li>
+<li><a href="section14.07.html">7. Maxima and minima</a></li>
+<li><a href="section14.08.html">8. Lagrange Multipliers</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_15_button" src="expand_submenu.png" onclick='toggle("chapter_15_contents")'><a href="chapter15.html">15 Multiple Integration</a></h2>
+
+<ul class="list" id="chapter_15_contents">
+<li><a href="section15.01.html">1. Volume and Average Height</a></li>
+<li><a href="section15.02.html">2. Double Integrals in Cylindrical Coordinates</a></li>
+<li><a href="section15.03.html">3. Moment and Center of Mass</a></li>
+<li><a href="section15.04.html">4. Surface Area</a></li>
+<li><a href="section15.05.html">5. Triple Integrals</a></li>
+<li><a href="section15.06.html">6. Cylindrical and Spherical Coordinates</a></li>
+<li><a href="section15.07.html">7. Change of Variables</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_16_button" src="expand_submenu.png" onclick='toggle("chapter_16_contents")'><a href="chapter16.html">16 Vector Calculus</a></h2>
+
+<ul class="list" id="chapter_16_contents">
+<li><a href="section16.01.html">1. Vector Fields</a></li>
+<li><a href="section16.02.html">2. Line Integrals</a></li>
+<li><a href="section16.03.html">3. The Fundamental Theorem of Line Integrals</a></li>
+<li><a href="section16.04.html">4. Green's Theorem</a></li>
+<li><a href="section16.05.html">5. Divergence and Curl</a></li>
+<li><a href="section16.06.html">6. Vector Functions for Surfaces</a></li>
+<li><a href="section16.07.html">7. Surface Integrals</a></li>
+<li><a href="section16.08.html">8. Stokes's Theorem</a></li>
+<li><a href="section16.09.html">9. The Divergence Theorem</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_17_button" src="expand_submenu.png" onclick='toggle("chapter_17_contents")'><a href="chapter17.html">17 Differential Equations</a></h2>
+
+<ul class="list" id="chapter_17_contents">
+<li><a href="section17.01.html">1. First Order Differential Equations</a></li>
+<li><a href="section17.02.html">2. First Order Homogeneous Linear Equations</a></li>
+<li><a href="section17.03.html">3. First Order Linear Equations</a></li>
+<li><a href="section17.04.html">4. Approximation</a></li>
+<li><a href="section17.05.html">5. Second Order Homogeneous Equations</a></li>
+<li><a href="section17.06.html">6. Second Order Linear Equations</a></li>
+<li><a href="section17.07.html">7. Second Order Linear Equations, take two</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_18_button" src="expand_submenu.png" onclick='toggle("chapter_18_contents")'><a href="chapter18.html">18 Useful formulas</a></h2>
+
+<ul class="list" id="chapter_18_contents">
+</ul>
+
+</div>
+
+<div id="main">
+
+<div id="next"><a href="chapter15.html"><img src=previous_section.png width="30"></a>&nbsp;&nbsp;<a href="section15.02.html"><img src=next_section.png width="30"></a></div>
+
+<div id="content">
+<p>
+
+
+</p><p>
+Consider a surface $f(x,y)$; you might temporarily think of this as
+representing physical topography&mdash;a hilly landscape, perhaps. What is
+the average height of the surface (or average
+altitude of the landscape) over some region?
+</p><p>
+As with most such problems, we start by thinking about how we
+might approximate the answer. Suppose the region is a rectangle,
+$[a,b]\times[c,d]$. We can divide the rectangle into a grid, $m$
+subdivisions in one direction and $n$ in the other, as indicated in
+figure <a href="section15.01.html#fig:rectangular grid">15.1.1</a>. We pick $x$ values $x_0$,
+$x_1$,&hellip;, $x_{m-1}$ in each subdivision in the $x$ direction, and
+similarly in the $y$ direction.
+At each of the points $(x_i,y_j)$ in one of the smaller rectangles in
+the grid, we
+compute the height of the surface: $f(x_i,y_j)$. Now the average
+of these heights should be (depending on the fineness of the grid)
+close to the average height of the surface:
+$${f(x_0,y_0)+f(x_1,y_0)+\cdots+f(x_0,y_1)+f(x_1,y_1)+\cdots+
+f(x_{m-1},y_{n-1})\over mn}.$$
+</p><p>
+As both $m$ and $n$ go to infinity, we expect this approximation to
+converge to a fixed value, the actual average height of the
+surface. For reasonably nice functions this does indeed happen.
+</p><p>
+<a id="fig:rectangular grid"></a>
+</p><div class='figure'><!-- Multiple_integration-subdivision_of_rectangle.html -->
+<!-- Figure 15.1.1 -->
+
+<div id='subdivision_of_rectangle' class='jxgbox' style="width:60%;margin-left:auto;margin-right:auto"></div>
+
+<script type='text/javascript'>
+(function () {  // BEGIN: scope limiting function wrapper
+  var xmin=-1, xmax= 8.5, ymin=-1, ymax=6.5;
+  var AspectRatio =  ((ymax-ymin)/(xmax-xmin)); // height/width
+  var wd=document.getElementById('subdivision_of_rectangle').offsetWidth;
+  var ht=wd*AspectRatio;
+  var yfactor = (ymax-ymin)/(ht);
+  var xfactor = (xmax-xmin)/(wd);
+  var xaxis_label_offset = yfactor*15;
+  var yaxis_label_offset = xfactor*20;
+  document.getElementById('subdivision_of_rectangle').style.height=ht+'px';
+  var brd = JXG.JSXGraph.initBoard('subdivision_of_rectangle',{boundingbox:[xmin,ymax,xmax,ymin], showCopyright:false, showNavigation:false}) ;
+  var rejax = function() {
+     MathJax.Hub.Queue(["Typeset",MathJax.Hub]); 
+  }
+  brd.addHook(rejax)
+  var xaxis = brd.create('arrow', [[0,0], [0,6]],{strokeWidth:1,strokeColor:'black',fixed:true});
+  var xaxis = brd.create('arrow', [[0,0], [8,0]],{strokeWidth:1,strokeColor:'black',fixed:true});
+  var xi = brd.create('segment', [[0,0], [7.1,0]],{visible:false,fixed:true});
+  brd.create('ticks',[xi,1],{minorTicks:false,fixed:true});
+  var yi = brd.create('segment', [[0,0], [0,5.1]],{visible:false,fixed:true});
+  brd.create('ticks',[yi,1],{minorTicks:false,fixed:true});
+  for (i=1; i<=7; i++) {
+    brd.create('segment',[[i,1],[i,5]],{strokeColor:'black',strokeWidth:1,fixed:true});
+  }
+  brd.create('segment',[[5,0.9],[5,1]],{strokeColor:'black',strokeWidth:1,fixed:true});
+  brd.create('segment',[[6,0.9],[6,1]],{strokeColor:'black',strokeWidth:1,fixed:true});
+  for (i=1; i<=5; i++) {
+    brd.create('segment',[[1,i],[7,i]],{strokeColor:'black',strokeWidth:1,fixed:true});
+  }
+  brd.create('segment',[[7,3],[7.1,3]],{strokeColor:'black',strokeWidth:1,fixed:true});
+  brd.create('segment',[[7,4],[7.1,4]],{strokeColor:'black',strokeWidth:1,fixed:true});
+  brd.create('text',[7+xfactor*5,3.5-yfactor*5,'$\\\\Delta y$'],{fixed:true});
+  brd.create('text',[5.5-xfactor*5,1-yfactor*10,'$\\\\Delta x$'],{fixed:true});
+  for (i=1; i<=5; i++) {
+    brd.create('text',[i+1-xfactor*5,0-xaxis_label_offset,'$x\\\\sb '+i+'$'],{fixed:true});
+  }
+  for (i=1; i<=3; i++) {
+    brd.create('text',[-yaxis_label_offset,i+1,'$y\\\\sb '+i+'$'],{fixed:true});
+  }
+brd.create('text',[-yaxis_label_offset,1,'$c$'],{fixed:true});
+brd.create('text',[-yaxis_label_offset,5,'$d$'],{fixed:true});
+brd.create('text',[1-xfactor*3,-xaxis_label_offset,'$a$'],{fixed:true});
+brd.create('text',[7-xfactor*3,-xaxis_label_offset,'$b$'],{fixed:true});
+})(); // END: scope limiting function wrapper
+</script>
+<div class='figcaption'><span class="figurenumber">Figure 15.1.1.</span> A rectangular subdivision of $[a,b]\times[c,d]$.</div></div>
+<p>
+</p><p>
+Using sigma notation, we can rewrite the approximation:
+$$\eqalign{
+  {1\over mn}\sum_{i=0}^{n-1}\sum_{j=0}^{m-1}f(x_j,y_i)
+  &={1\over(b-a)(d-c)}\sum_{i=0}^{n-1}\sum_{j=0}^{m-1}f(x_j,y_i)
+  {b-a\over m}{d-c\over n}\cr &=
+  {1\over(b-a)(d-c)}\sum_{i=0}^{n-1}\sum_{j=0}^{m-1}f(x_j,y_i)\Delta
+  x\Delta y.\cr }$$ 
+The two parts of this product have useful meaning: $(b-a)(d-c)$ is of
+course the area of the rectangle, and the double sum adds up $mn$
+terms of the form $f(x_j,y_i)\Delta x\Delta y$, which is the height of
+the surface at a point times the area of one of the small rectangles
+into which we have divided the large rectangle. In short, each term
+$f(x_j,y_i)\Delta x\Delta y$ is the volume of a tall, thin,
+rectangular box, and is approximately the volume under the surface and
+above one of the small rectangles; see figure <a href="section15.01.html#fig:volume approximation">15.1.2</a>.  When we add all of these up, we get an
+approximation to the volume under the surface and above the rectangle
+$R=[a,b]\times[c,d]$. When we take the limit as $m$ and $n$ go to
+infinity, the double sum becomes the actual volume under the surface,
+which we divide by $(b-a)(d-c)$ to get the average height.
+</p><p>
+<a id="fig:volume approximation"></a>
+</p><div class='figure'><!-- Multiple_integration-approximate_volume_over_grid.html -->
+<!-- Figure 15.1.2 -->
+
+<div style="text-align:center">
+<img src="images/double_int_approx_constr.png">
+</div>
+<div class='figcaption'><span class="figurenumber">Figure 15.1.2.</span> Approximating the volume under a surface.</div></div>
+<p>
+</p><p>
+Double sums like this come up in many applications, so in a way it is
+the most important part of this example; dividing by $(b-a)(d-c)$ is a
+simple extra step that allows the computation of an average. As we did
+in the single variable case, we introduce a special notation for the
+limit of such a double sum:
+$$\lim_{m,n\to\infty} \sum_{i=0}^{n-1}\sum_{j=0}^{m-1}f(x_j,y_i)\Delta
+  x\Delta y=\dint{R} f(x,y)\,dx\,dy=\dint{R} f(x,y)\,dA,$$
+the <b>double integral</b> 
+of $f$ over the region $R$. The notation $dA$ indicates a small bit of
+area, without specifying any particular order for the variables $x$
+and $y$; it is shorter and more "generic'' than writing $dx\,dy$.
+The average height of the surface in this
+notation is 
+$${1\over(b-a)(d-c)}\dint{R} f(x,y)\,dA.$$
+</p><p>
+The next question, of course, is: How do we compute these double
+integrals? You might think that we will need some two-dimensional
+version of the Fundamental Theorem of Calculus, but as it turns out we
+can get away with just the single variable version, applied twice.
+</p><p>
+Going back to the double sum, we can rewrite it to emphasize a
+particular order in which we want to add the terms:
+$$\sum_{i=0}^{n-1}\left(\sum_{j=0}^{m-1}f(x_j,y_i)\Delta
+  x\right)\Delta y.$$
+In the sum in parentheses, only the value of $x_j$ is changing; $y_i$
+is temporarily constant. As $m$  goes to infinity, this sum has the
+right form to turn into an integral:
+$$\lim_{m\to\infty}\sum_{j=0}^{m-1}f(x_j,y_i)\Delta
+  x = \int_a^b f(x,y_i)\,dx.$$
+So after we take the limit as $m$ goes to infinity, the sum
+is
+$$
+\sum_{i=0}^{n-1}\left(\int_a^b f(x,y_i)\,dx\right)\Delta y.
+$$
+Of course, for different values of $y_i$ this integral has different
+values; in other words, it is really a function applied to $y_i$:
+$$G(y)=\int_a^b f(x,y)\,dx.$$
+If we substitute back into the sum we get
+$$\sum_{i=0}^{n-1} G(y_i)\Delta y.$$
+This sum has a nice interpretation. The value $G(y_i)$ is the area of
+a cross section of the region under the surface $f(x,y)$, namely, when
+$y=y_i$. The quantity $G(y_i)\Delta y$ can be interpreted as the
+volume of a solid with face area $G(y_i)$ and thickness $\Delta
+y$. Think of the surface $f(x,y)$ as the top of a loaf of sliced
+bread. Each slice has a cross-sectional area and a thickness;
+$G(y_i)\Delta y$ corresponds to the volume of a single slice of
+bread. Adding these up approximates the total volume of the loaf. (This is
+very similar to the technique we used to compute volumes in
+section <a href="section09.03.html#sec:volume">9.3</a>, 
+except that there we need the cross-sections to be in
+some way "the same''.) Figure <a href="section15.01.html#fig:volume approximation with slices">15.1.3</a> 
+shows this "sliced loaf''
+approximation using the same surface as shown in 
+figure <a href="section15.01.html#fig:volume approximation">15.1.2</a>.
+Nicely enough, this sum looks just like the sort of sum that turns into an
+integral, namely,
+$$\eqalign{
+\lim_{n\to\infty}\sum_{i=0}^{n-1} G(y_i)\Delta y&=\int_c^d
+G(y)\,dy\cr
+&=\int_c^d \int_a^b f(x,y)\,dx\,dy.\cr
+}$$
+Let's be clear about what this means: we first will compute the inner
+integral, temporarily treating $y$ as a constant. We will do this by
+finding an anti-derivative with respect to $x$, then substituting
+$x=a$ and $x=b$ and subtracting, as usual. The result will be an
+expression with no $x$ variable but some occurrences of $y$. Then the
+outer integral will be an ordinary one-variable problem, with $y$ as
+the variable.
+</p><p>
+<a id="fig:volume approximation with slices"></a>
+</p><div class='figure'><!-- Multiple_integration-sliced_loaf.html -->
+<!-- Figure 15.1.3 -->
+
+<div id="sliced_loaf" class="webgl_display" style='display:none;text-align:center'></div>
+<div class="no_webgl_display" style='display:block;text-align:center'>
+<a href="http://www.whitman.edu/mathematics/calculus_applets/sliced_loaf">
+<img src="images/sliced_loaf_2.png" width=400></a>
+</div>
+<script>
+    MathJax.Hub.Register.StartupHook("End", function() {
+	var gridMaterial, normMaterial,gridTexture;  
+	var SCREEN_WIDTH = 500, SCREEN_HEIGHT = 400;
+	var container, scene, camera, renderer, controls;
+	var keyboard = new THREEx.KeyboardState();
+	var clock = new THREE.Clock();
+	var xoffset = -1.75, yoffset = -1.25, zoffset = -0.5, separation=0;
+	var meshFunction;
+	var usegments = 40, vsegments=10;
+	
+	var xMin = xMax = yMin = yMax = 0; // for autosizing window
+	
+	var graphGeometry;
+	
+	if(typeof window.orientation === 'undefined') {
+	    init();
+	    animate();
+	}
+	
+	function init() 
+	{
+	    scene = new THREE.Scene();
+	    if ( Detector.webgl )
+		renderer = new THREE.WebGLRenderer( {alpha:true, antialias:true} );
+	    else
+		renderer = new THREE.CanvasRenderer(); 
+	    renderer.setSize(SCREEN_WIDTH, SCREEN_HEIGHT);
+	    container = document.getElementById( 'sliced_loaf' );
+	    container.appendChild( renderer.domElement );
+	    var light = new THREE.PointLight(0xffffff,1,100);
+	    light.position.set(3,3,10);
+	    scene.add(light);
+	    var light_amb = new THREE.AmbientLight( 0xaaaaaa ); // soft white light
+	    scene.add( light_amb );
+	    // "wireframe texture"
+	    var loader = new THREE.TextureLoader();
+	    var gridTexture = loader.load( 'images/square.png');
+	    gridTexture.wrapS = gridTexture.wrapT = THREE.RepeatWrapping; 
+	    gridTexture.repeat.set( 40, 40 );
+	    gridMaterial = new THREE.MeshBasicMaterial( { map:gridTexture, vertexColors: THREE.VertexColors,side:THREE.DoubleSide } );
+	    normMaterial = new THREE.MeshLambertMaterial( { vertexColors: THREE.VertexColors,side:THREE.DoubleSide } );
+	    
+	    // Background clear color
+	    // renderer.setClearColorHex( 0xffffff, 0 );
+	    
+	    plot_it_1();
+	    plot_it_2();
+	    plot_it_3();
+	    plot_it_4();
+	    plot_it_5();
+	    plot_it_6();
+	    resetCamera();
+	}
+	
+	
+	function resetCamera()
+	{
+	    var VIEW_ANGLE = 35, ASPECT = SCREEN_WIDTH / SCREEN_HEIGHT, NEAR = 0.1, FAR = 20000;
+	    // Orthog camera
+	    //      var zoom = 3;
+	    //      camera = new THREE.OrthographicCamera( -zoom*ASPECT,zoom*ASPECT,zoom,-zoom, NEAR, FAR);
+	    //      camera.position.x = zoom*2;
+	    //      camera.position.y = zoom*1.5;
+	    //      camera.position.z = zoom*1.5;
+	    // Perspective camera
+	    camera = new THREE.PerspectiveCamera( VIEW_ANGLE, ASPECT, NEAR, FAR);
+	    scene.add(camera);
+	    camera.position.set(5,5,5);
+	    camera.lookAt(scene.position);  
+	    
+	    camera.up.set( 0, 0, 1 ); 
+	    scene.add(camera);
+	    
+	    controls = new THREE.TrackballControls( camera, renderer.domElement );
+	    controls.rotateSpeed = 1;
+	    THREEx.WindowResize(renderer, camera);
+	}
+	
+	function animate() 
+	{
+	    requestAnimationFrame( animate );
+	    if ($('#sliced_loaf').visible(true) && active ) {
+		render();
+		update();
+	    }
+	}
+	
+	function update()
+	{
+	    if ( keyboard.pressed("z") ) 
+	    { 
+		// do something
+	    }
+	    
+	    controls.update();
+	    //	stats.update();
+	}
+	
+	function render() 
+	{
+	    renderer.render( scene, camera );
+	}
+	
+	
+	function plot_it_1()
+	{
+	    var useg = 40,vseg = 10;
+	    var i;
+	    for (i=0; i<6; i++) {
+		function x(u,v) {
+		    return 0.5+i*0.5+xoffset;
+		}
+		function y(u,v) {
+		    return u+yoffset;
+		}
+		function z(u,v) {
+		    return v*(Math.sin((0.5+i*0.5)*u)+1.2)+zoffset;
+		}
+		var color = new THREE.Color( 0x0000ff );
+		color.setHSL(0.6 -0.02 + i*0.02, 1, 0.5 );
+		createGraph(x,y,z,0.5,2.5,0,1,useg,vseg,color,scene,normMaterial);
+	    }
+	}
+	function plot_it_2()
+	{
+	    var useg = 40,vseg = 10;
+	    var i;
+	    for (i=0; i<6; i++) {
+		function x(u,v) {
+		    return 1+i*0.5+xoffset+separation;
+		}
+		function y(u,v) {
+		    return u+yoffset;
+		}
+		function z(u,v) {
+		    return v*(Math.sin((0.5+i*0.5)*u)+1.2)+zoffset;
+		}
+		var color = new THREE.Color( 0x0000ff );
+		color.setHSL(0.6 -0.02 + i*0.02, 1, 0.5 );
+		createGraph(x,y,z,0.5,2.5,0,1,useg,vseg,color,scene,normMaterial);
+	    }
+	}
+	
+	function plot_it_3()
+	{
+	    var useg = 5,vseg = 40;
+	    var i;
+	    for (i=0; i<6; i++) {
+		function x(u,v) {
+		    return u+xoffset;
+		}
+		function y(u,v) {
+		    return v+yoffset;
+		}
+		function z(u,v) {
+		    return (Math.sin((0.5+i*0.5)*v)+1.2)+zoffset;
+		}
+		var color = new THREE.Color( 0x0000ff );
+		color.setHSL(0.6 -0.02 + i*0.02, 1, 0.5 );
+		createGraph(x,y,z,0.5+i*0.5,1+i*0.5,0.5,2.5,useg,vseg,color,scene,normMaterial);
+	    }
+	}
+	
+	function plot_it_4()
+	{
+	    var useg = 10,vseg = 10;
+	    var i;
+	    for (i=0; i<6; i++) {
+		function x(u,v) {
+		    return u + xoffset;
+		}
+		function y(u,v) {
+		    return 0.5+yoffset;
+		}
+		function z(u,v) {
+		    return v*(Math.sin((0.5+i*0.5)*0.5)+1.2)+zoffset;
+		}
+		var color = new THREE.Color( 0x0000ff );
+		color.setHSL(0.6 -0.02 + i*0.02, 1, 0.5 );
+		createGraph(x,y,z,0.5+i*0.5,1+i*0.5,0,1,useg,vseg,color,scene,normMaterial);
+	    }
+	}
+	
+	function plot_it_5()
+	{
+	    var useg = 10,vseg = 10;
+	    var i;
+	    for (i=0; i<6; i++) {
+		function x(u,v) {
+		    return u + xoffset;
+		}
+		function y(u,v) {
+		    return 2.5+yoffset;
+		}
+		function z(u,v) {
+		    return v*(Math.sin((0.5+i*0.5)*2.5)+1.2)+zoffset;
+		}
+		var color = new THREE.Color( 0x0000ff );
+		color.setHSL(0.6 -0.02 + i*0.02, 1, 0.5 );
+		createGraph(x,y,z,0.5+i*0.5,1+i*0.5,0,1,useg,vseg,color,scene,normMaterial);
+	    }
+	}
+	
+	function plot_it_6()
+	{
+	    var useg = 40,vseg = 40;
+	    var i;
+	    function x(u,v) {
+		return u + xoffset;
+	    }
+	    function y(u,v) {
+		return v + yoffset;
+	    }
+	    function z(u,v) {
+		return Math.sin(u*v)+1.2+zoffset;
+	    }
+	    var color = new THREE.Color( 0x0000ff );
+	    color.setHSL(0.1, 1, 0.5 );
+	    createGraph(x,y,z,0.5,3.5,0.5,2.5,useg,vseg,color,scene,normMaterial);
+	}
+	
+	
+	function createGraph(xFunc,yFunc,zFunc,uMin,uMax,vMin,vMax,useg,vseg,clr,sc,material)
+	{
+	    var graphMesh;
+	    uRange = uMax - uMin;
+	    vRange = vMax - vMin;
+	    meshFunction = function(u0, v0) 
+	    {
+		var u = uRange * u0 + uMin;
+		var v = vRange * v0 + vMin;
+		var x = xFunc(u,v);
+		var y = yFunc(u,v);
+		var z = zFunc(u,v);
+		if ( isNaN(x) || isNaN(y) || isNaN(z) )
+		    return new THREE.Vector3(0,0,0); // TODO: better fix
+		else
+		    return new THREE.Vector3(x, y, z);
+	    };
+	    
+	    // true => sensible image tile repeat...
+	    graphGeometry = new THREE.ParametricGeometry( meshFunction, useg, vseg, true );
+	    ///////////////////////////////////////////////
+	    // calculate vertex colors based on Z values //
+	    ///////////////////////////////////////////////
+	    graphGeometry.computeBoundingBox();
+	    zMin = graphGeometry.boundingBox.min.z;
+	    zMax = graphGeometry.boundingBox.max.z;
+	    zRange = zMax - zMin;
+	    var defaultcolor = new THREE.Color( 0xff0000 );
+	    var color, point, face, numberOfSides, vertexIndex;
+	    // faces are indexed using characters
+	    var faceIndices = [ 'a', 'b', 'c', 'd' ];
+	    // first, assign colors to vertices as desired
+	    for ( var i = 0; i < graphGeometry.vertices.length; i++ ) 
+	    {
+		point = graphGeometry.vertices[ i ];
+		color = new THREE.Color( 0x0000ff );
+		color.setHSL( 0.7 * (zMax - point.z) / zRange, 1, 0.5 );
+		graphGeometry.colors[i] = color; // use this array for convenience
+	    }
+	    // copy the colors as necessary to the face's vertexColors array.
+	    for ( var i = 0; i < graphGeometry.faces.length; i++ ) 
+	    {
+		face = graphGeometry.faces[ i ];
+		numberOfSides = ( face instanceof THREE.Face3 ) ? 3 : 4;
+		for( var j = 0; j < numberOfSides; j++ ) 
+		{
+		    vertexIndex = face[ faceIndices[ j ] ];
+		    //	      face.vertexColors[ j ] = graphGeometry.colors[vertexIndex ];
+		    face.vertexColors[ j ] = clr;
+		}
+	    }
+	    ///////////////////////
+	    // end vertex colors //
+	    ///////////////////////
+	    
+	    
+	    xMin = graphGeometry.boundingBox.min.x;
+	    xMax = graphGeometry.boundingBox.max.x;
+	    yMin = graphGeometry.boundingBox.min.y;
+	    yMax = graphGeometry.boundingBox.max.y;
+	    
+	    if (graphMesh) 
+	    {
+		sc.remove( graphMesh );
+		// renderer.deallocateObject( graphMesh );
+	    }
+	    
+	    gridMaterial.map.repeat.set( useg, vseg );
+	    
+	    graphMesh = new THREE.Mesh( graphGeometry,material );
+	    
+	    graphMesh.doubleSided = true;
+	    sc.add(graphMesh);
+	}
+    });
+</script>  
+<div class='figcaption'><span class="figurenumber">Figure 15.1.3.</span> Approximating the volume under a surface with slices.</div></div>
+<p>
+</p><p>
+</p>
+<div class="example">
+<p>
+<span class="theoremlabel">Example 15.1.1 </span>Figure <a href="section15.01.html#fig:volume approximation">15.1.2</a> shows the function
+$\sin(xy)+6/5$ on $[0.5,3.5]\times[0.5,2.5]$. The volume under this
+surface is
+$$\int_{0.5}^{2.5}\int_{0.5}^{3.5} \sin(xy)+{6\over5}\,dx\,dy.$$
+The inner integral is
+$$\int_{0.5}^{3.5} \sin(xy)+{6\over5}\,dx=
+\left.{-\cos(xy)\over y}+{6x\over5}\right|_{0.5}^{3.5}=
+{-\cos(3.5y)\over y}+{\cos(0.5y)\over y}+{18\over5}.$$
+Unfortunately, this gives a function for which we can't find a simple
+anti-derivative. To complete the problem we could use Sage or similar
+software to approximate the integral. Doing this gives a volume of
+approximately $8.84$, so the average height is approximately 
+$8.84/6\approx 1.47$.
+
+</p>
+</div><!-- example -->
+<p>
+</p><p>
+Because addition and multiplication are commutative and associative,
+we can rewrite the original double sum:
+$$
+\sum_{i=0}^{n-1}\sum_{j=0}^{m-1}f(x_j,y_i)\Delta
+  x\Delta y=\sum_{j=0}^{m-1}\sum_{i=0}^{n-1}f(x_j,y_i)\Delta
+  y\Delta x.
+$$
+Now if we repeat the development above, the inner sum turns into
+an integral:
+$$\lim_{n\to\infty}\sum_{i=0}^{n-1}f(x_j,y_i)\Delta
+  y = \int_c^d f(x_j,y)\,dy,$$
+and then the outer sum turns into an integral:
+$$\lim_{m\to\infty}\sum_{j=0}^{m-1}\left(\int_c^d f(x_j,y)\,dy
+\right)\Delta x = 
+\int_a^b\int_c^d f(x,y)\,dy\,dx.$$
+In other words, we can compute the integrals in either order, first
+with respect to $x$ then $y$, or vice versa. Thinking of the loaf of
+bread, this corresponds to slicing the loaf in a direction
+perpendicular to the first. 
+</p><p>
+We haven't really proved that the value of a double integral is equal
+to the value of the corresponding two single integrals in either order
+of integration, but provided the function is reasonably nice, this is
+true; the result is called <b>Fubini's Theorem</b>.
+</p><p>
+</p>
+<div class="example">
+<p>
+<span class="theoremlabel">Example 15.1.2 </span>
+We compute $\ds\dint{R} 1+(x-1)^2+4y^2\,dA$, where
+$R=[0,3]\times[0,2]$, in two ways.
+</p><p>
+First,
+$$\eqalign{
+\int_0^3\int_0^2 1+(x-1)^2+4y^2\,dy\,dx&=
+\int_0^3\left. y+(x-1)^2y+{4\over 3}y^3\right|_0^2\,dx\cr
+&=\int_0^3 2+2(x-1)^2+{32\over 3}\,dx\cr
+&=\left. 2x + {2\over 3}(x-1)^3+{32\over 3}x\right|_0^3\cr
+&=6+{2\over 3}\cdot 8 + {32\over 3}\cdot3-(0-1\cdot{2\over3}+0)\cr
+&=44.\cr
+}$$
+In the other order:
+$$\eqalign{
+\int_0^2\int_0^3 1+(x-1)^2+4y^2\,dx\,dy&=
+\int_0^2\left. x+{(x-1)^3\over3}+4y^2x\right|_0^3\,dy\cr
+&=\int_0^2 3+{8\over3}+12y^2+{1\over3}\,dy\cr
+&=\left. 3y+{8\over3}y+4y^3+{1\over3}y\right|_0^2\cr
+&=6+{16\over3}+32+{2\over3}\cr
+&=44.\cr
+}$$
+
+</p>
+</div><!-- example -->
+<p>
+</p><p>
+In this example there is no particular reason to favor one direction
+over the other; in some cases, one direction might be much easier than
+the other, so it's usually worth considering the two different
+possibilities. 
+</p><p>
+Frequently we will be interested in a region that is not simply a
+rectangle. Let's compute the volume under the surface $x+2y^2$ above
+the region described by $0\le x\le1$ and $0\le y\le x^2$, shown in
+figure <a href="section15.01.html#fig:parabolic region">15.1.4</a>.
+</p><p>
+<a id="fig:parabolic region"></a>
+</p><div class='figure'><!-- Multiple_integration-parabolic_region_of_integration.html -->
+<!-- Figure 15.1.4 -->
+
+<div id='parabolic_region_of_integration' class='jxgbox' style="width:50%;margin-left:auto;margin-right:auto"></div>
+
+<script type='text/javascript'>
+(function () {  // BEGIN: scope limiting function wrapper
+  var xmin=-0.25, xmax= 1.4, ymin=-0.25, ymax=1.4;
+  var AspectRatio =  ((ymax-ymin)/(xmax-xmin)); // height/width
+  var wd=document.getElementById('parabolic_region_of_integration').offsetWidth;
+  var ht=wd*AspectRatio;
+  var yfactor = (ymax-ymin)/(ht);
+  var xfactor = (xmax-xmin)/(wd);
+  var xaxis_label_offset = yfactor*15;
+  var yaxis_label_offset = xfactor*20;
+  document.getElementById('parabolic_region_of_integration').style.height=ht+'px';
+  var brd = JXG.JSXGraph.initBoard('parabolic_region_of_integration',{boundingbox:[xmin,ymax,xmax,ymin], showCopyright:false, showNavigation:false}) ;
+  var rejax = function() {
+     MathJax.Hub.Queue(["Typeset",MathJax.Hub]); 
+  }
+  brd.addHook(rejax)
+  var xaxis = brd.create('arrow', [[0,0], [1.25,0]],{strokeWidth:1,strokeColor:'black',fixed:true});
+  var xaxis = brd.create('arrow', [[0,0], [0,1.25]],{strokeWidth:1,strokeColor:'black',fixed:true});
+  var xi = brd.create('segment', [[-1,0], [1.1,0]],{visible:false,fixed:true});
+  brd.create('ticks',[xi,1],{minorTicks:false,fixed:true});
+  var yi = brd.create('segment', [[0,-1], [0,1.1]],{visible:false,fixed:true});
+  brd.create('ticks',[yi,1],{minorTicks:false,fixed:true});
+  for (i=0; i<=1; i++) {
+    brd.create('text',[i-xfactor*5,0-xaxis_label_offset,'$'+i+'$'],{fixed:true});
+    brd.create('text',[-yaxis_label_offset,i,'$'+i+'$'],{fixed:true});
+  }
+  var f = function(x) { return x*x; }
+  brd.create('functiongraph', [f,0,1], {strokeColor:'blue',fixed:true});
+  var region_x = function (t) {
+    if (t<1) { return t; }
+    if (t<2) { return 1; }
+    if (t<=3) { return (3-t); }
+  }
+  var region_y = function (t) {
+    if (t<1) { return 0; }
+    if (t<2) { return t-1; }
+    if (t<=3) { return f(3-t); }
+  }
+  brd.create('curve',[
+        function (t) { return region_x(t); },
+        function (t) { return region_y(t); },0,3],
+        {strokeColor:'black',strokeWidth:1,fillColor:'#FFB7D5',fillOpacity:1});
+})(); // END: scope limiting function wrapper
+</script>
+<div class='figcaption'><span class="figurenumber">Figure 15.1.4.</span> A parabolic region of integration.</div></div>
+<p>
+</p><p>
+In principle there is nothing more difficult about this problem. If we
+imagine the three-dimensional region under the surface and above the
+parabolic region as an oddly shaped loaf of bread, we can still slice
+it up, approximate the volume of each slice, and add these volumes
+up. For example, if we slice perpendicular to the $x$ axis at $x_i$, the
+thickness of a slice will be $\Delta x$ and the area of the slice will
+be 
+$$
+\int_0^{x_i^2} x_i+2y^2\,dy.
+$$
+When we add these up and take the limit as $\Delta x$ goes to 0, we
+get the double integral
+$$\eqalign{
+\int_0^1 \int_0^{x^2} x+2y^2\,dy\,dx&= 
+\int_0^1 \left.xy+{2\over3}y^3\right|_0^{x^2}\,dx\cr
+&=\int_0^1 x^3+{2\over3}x^6\,dx\cr
+&=\left. {x^4\over4}+{2\over21}x^7\right|_0^1\cr
+&={1\over4}+{2\over21}={29\over84}.\cr
+}$$
+We could just as well slice the solid perpendicular to the $y$ axis,
+in which case we get
+$$\eqalign{
+\int_0^1 \int_{\sqrt y}^1 x+2y^2\,dx\,dy&=
+\int_0^1 \left.{x^2\over2}+2y^2x\right|_{\sqrt y}^1 \,dy\cr
+&=\int_0^1 {1\over2}+2y^2-{y\over2}-2y^2\sqrt y\,dy\cr
+&=\left.
+  {y\over2}+{2\over3}y^3-{y^2\over4}-{4\over7}y^{7/2}\right|_0^1\cr
+&={1\over2}+{2\over3}-{1\over4}-{4\over7}={29\over84}.\cr
+}$$
+What is the average height of the surface over this region? As before,
+it is the volume divided by the area of the base, but now we need to
+use integration to compute the area of the base, since it is not a
+simple rectangle. The area is
+$$\int_0^1 x^2\,dx={1\over3},$$
+so the average height is $29/28$.
+</p><p>
+</p>
+<div class="example">
+<p>
+<span class="theoremlabel">Example 15.1.3 </span>Find the volume under the surface $\ds z=\sqrt{1-x^2}$ and above
+the triangle formed by $y=x$, $x=1$, and the $x$-axis.
+</p><p>
+Let's consider the two possible ways to set this up:
+$$\int_0^1 \int_0^x \sqrt{1-x^2}\,dy\,dx \qquad\hbox{or}\qquad
+\int_0^1 \int_y^1 \sqrt{1-x^2}\,dx\,dy.
+$$
+Which appears easier? In the first, the inner integral is
+easy, because we need an anti-derivative with respect to $y$, and the
+entire integrand $\ds\sqrt{1-x^2}$ is constant with respect to $y$. Of
+course, the outer integral may be more difficult. In the second, the
+inner integral is mildly unpleasant&mdash;a trig substitution. So let's
+try the first one, since the first step is easy, and see where that
+leaves us.
+$$\int_0^1 \int_0^x \sqrt{1-x^2}\,dy\,dx=
+\int_0^1 \left. y\sqrt{1-x^2}\right|_0^x\,dx=
+\int_0^1 x\sqrt{1-x^2}\,dx.
+$$
+This is quite easy, since the substitution $u=1-x^2$ works:
+$$\int x\sqrt{1-x^2}\,dx=-{1\over 2}\int \sqrt u\,du
+={1\over3}u^{3/2}=-{1\over3}(1-x^2)^{3/2}.
+$$
+Then 
+$$\int_0^1 x\sqrt{1-x^2}\,dx=\left. -{1\over3}(1-x^2)^{3/2}\right|_0^1
+={1\over3}.
+$$
+This is a good example of how the order of integration can affect the
+complexity of the problem. In this case it is possible to do the other
+order, but it is a bit messier. In some cases one order may lead to a
+very difficult or impossible integral; it's usually worth considering
+both possibilities before going very far.
+
+</p>
+</div><!-- example -->
+<p>
+</p><p>
+</p>
+<a id="exercises"></a><h2 class="exercises">Exercises 15.1</h2>
+<p></p><p>
+</p>
+<p class="exercise"><b>Ex 15.1.1</b>
+Compute $\ds \int_{0}^{2}\int_{0}^{4} 1+x \,dy\,dx$.
+(<a knowl="" class="internal" value="$16$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 15.1.2</b>
+Compute $\ds \int_{-1}^{1}\int_{0}^{2} x+y\,dy\,dx$.
+(<a knowl="" class="internal" value="$4$">answer</a>)
+
+</p><p>
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 15.1.3</b>
+Compute $\ds \int_{1}^{2}\int_{0}^{y} xy \,dx\,dy$.
+(<a knowl="" class="internal" value="$15/8$">answer</a>)
+
+</p><p>
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 15.1.4</b>
+Compute $\ds \int_{0}^{1}\int_{y^2/2}^{\sqrt y} \,dx\,dy$.
+(<a knowl="" class="internal" value="$1/2$">answer</a>)
+
+</p><p>
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 15.1.5</b>
+Compute $\ds \int_{1}^{2}\int_{1}^{x} {x^2\over y^2}\,dy\,dx$.
+(<a knowl="" class="internal" value="$5/6$">answer</a>)
+
+</p><p>
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 15.1.6</b>
+Compute $\ds \int_{0}^{1}\int_{0}^{x^2} {y\over e^x}\,dy\,dx$.
+(<a knowl="" class="internal" value="$12-65/(2e)$.">answer</a>)
+
+</p><p>
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 15.1.7</b>
+Compute $\ds \int_{0}^{\sqrt{\pi/2}}\int_{0}^{x^2} x\cos y\,dy\,dx$.
+(<a knowl="" class="internal" value="$1/2$">answer</a>)
+
+</p><p>
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 15.1.8</b>
+Compute $\ds \int_{0}^{\pi/2}\int_{0}^{\cos\theta}r^2
+(\cos\theta-r) \,dr\,d\theta$.
+(<a knowl="" class="internal" value="$\pi/64$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 15.1.9</b>
+Compute: $\ds \int_0^1\int_{\sqrt{y}}^1 
+\sqrt{x^3+1}\,dx\,dy$.
+(<a knowl="" class="internal" value="$(2/9)2^{3/2}-(2/9)$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 15.1.10</b>
+Compute: $\ds \int_0^1\int_{y^2}^1 
+y\sin(x^2)\,dx\,dy$.
+(<a knowl="" class="internal" value="$(1-\cos(1))/4$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 15.1.11</b>
+Compute: $\ds \int_0^1 \int_{x^2}^1 x\sqrt{1+y^2}\,dy\,dx$
+(<a knowl="" class="internal" value="$(2\sqrt2-1)/6$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 15.1.12</b>
+Compute: $\ds \int_0^1 \int_0^y
+	  {2\over\sqrt{1-x^2}}\,dx\,dy$
+(<a knowl="" class="internal" value="$\pi-2$">answer</a>)
+
+</p><p>
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 15.1.13</b>
+Compute: $\ds \int_0^1 \int_{3y}^3
+	  e^{x^2}\,dx\,dy$
+(<a knowl="" class="internal" value="$(e^9-1)/6$">answer</a>)
+
+</p><p>
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 15.1.14</b>
+Compute $\ds \int_{-1}^1\int_0^{1-x^2} x^2-\sqrt{y}\,dy\,dx$.
+(<a knowl="" class="internal" value="$\ds {4\over15}-{\pi\over4}$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 15.1.15</b>
+Compute 
+$\ds \int_{0}^{\sqrt2/2}\int_{-\sqrt{1-2x^2}}^{\sqrt{1-2x^2}} x\,dy\,dx$.
+(<a knowl="" class="internal" value="$1/3$">answer</a>)
+
+</p><p>
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 15.1.16</b>
+Evaluate $\ds\dint{} x^2\,dA$ over the region in the first
+quadrant bounded by the hyperbola $xy=16$ and the lines $y=x$, $y=0$, and
+$x=8$.
+(<a knowl="" class="internal" value="$448$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 15.1.17</b>
+Find the volume below $z=1-y$ above the region
+$-1\le x\le 1$, $0\le y\le 1-x^2$.
+(<a knowl="" class="internal" value="$4/5$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 15.1.18</b>
+Find the volume bounded by $z=x^2+y^2$ and $z=4$.
+(<a knowl="" class="internal" value="$8\pi$">answer</a>)
+
+</p><p>
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 15.1.19</b>
+Find the volume in the first octant
+bounded by $y^2=4-x$ and $y=2z$.
+(<a knowl="" class="internal" value="$2$">answer</a>)
+
+</p><p>
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 15.1.20</b>
+Find the volume in the first octant
+bounded by $y^2=4x$, $2x+y=4$, $z=y$,
+and $y=0$.
+(<a knowl="" class="internal" value="$5/3$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 15.1.21</b>
+Find the volume in the first octant
+bounded by $x+y+z=9$, $2x+3y=18$, and $x+3y=9$.
+(<a knowl="" class="internal" value="$81/2$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 15.1.22</b>
+Find the volume in the first octant
+bounded by $x^2+y^2=a^2$ and $z=x+y$.
+(<a knowl="" class="internal" value="$2a^3/3$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 15.1.23</b>
+Find the volume bounded by $4x^2+y^2=4z$ and $z=2$.
+(<a knowl="" class="internal" value="$4\pi$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 15.1.24</b>
+Find the volume bounded by $z=x^2+y^2$ and $z=y$.
+(<a knowl="" class="internal" value="$\pi/32$">answer</a>)
+
+</p><p>
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 15.1.25</b>
+Find the volume under the surface $z=xy$ above the triangle
+with vertices $(1,1,0)$, $(4,1,0)$, $(1,2,0)$.
+(<a knowl="" class="internal" value="$31/8$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 15.1.26</b>
+Find the volume enclosed by $y=x^2$, $y=4$, $z=x^2$, $z=0$.
+(<a knowl="" class="internal" value="$128/15$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 15.1.27</b>
+A swimming pool is circular with a 40 meter diameter.  The
+depth is constant along east-west lines and increases linearly from 2
+meters at the south end to 7 meters at the north end.  Find the volume
+of the pool.  
+(<a knowl="" class="internal" value="$1800\pi$ $m^3$ ">answer</a>)
+
+</p><p>
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 15.1.28</b>
+Find the average value of $f(x,y)=e^y\sqrt{x+e^y}$ on the
+    rectangle with vertices $(0,0)$, $(4,0$), $(4,1)$ and $(0,1)$.
+(<a knowl="" class="internal" value="$\ds{(e^2+8e+16)\over15}\sqrt{e+4}-{5\sqrt5\over3}-{e^{5/2}\over15}
++{1\over15}$">answer</a>)
+
+</p><p>
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 15.1.29</b>
+Figure <a href="section15.01.html#fig:colo temperatures">15.1.5</a> shows a temperature map
+of Colorado.  Use the data to estimate the average temperature in the
+state using 4, 16 and 25 subdivisions.  Give both an upper and lower
+estimate.  Why do we like Colorado for this problem?  What other
+state(s) might we like?
+</p><p>
+<a id="fig:colo temperatures"></a>
+</p><div class='figure'><!-- Multiple_integration-weather_map.html -->
+<!-- Figure 15.1.5 -->
+
+<center>
+<div id='approximate_volume_over_grid_nojava'>
+<img src="images/weathermap.png" width="500px">
+</div>
+</center>
+<div class='figcaption'><span class="figurenumber">Figure 15.1.5.</span> Colorado temperatures.</div></div>
+<p>
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 15.1.30</b>
+Three cylinders of radius 1 intersect at right angles at the
+origin, as shown in figure <a href="section15.01.html#fig:three cylinders">15.1.6</a>. Find the
+volume contained inside all three cylinders.
+(<a knowl="" class="internal" value="$16-8\sqrt{2}$">answer</a>)
+
+</p><p>
+<a id="fig:three cylinders"></a>
+</p><div class='figure'><table class="webgl_display" style='display:none;width:800px;margin-left:auto;margin-right:auto'>
+<tr>
+<td id="cylinder_1" style='text-align:center'> </td>
+<td id="cylinder_2" style='text-align:center'> </td>
+</tr>
+</table>
+<table class="no_webgl_display"
+       style='display:block;width:800px;margin-left:auto;margin-right:auto'>
+<tr style="width:100%">
+<td style='text-align:center;width:400px'> 
+<a href="http://www.whitman.edu/mathematics/calculus_applets/three_cylinders">
+<img src="images/three_cylinders_inside.png" style="width:300px;margin:auto"></a>
+</td>
+<td style='text-align:center;width:400px'> 
+<a href="http://www.whitman.edu/mathematics/calculus_applets/three_cylinders">
+<img src="images/three_cylinders.png" style="width:300px;margin:auto"></a>
+</td>
+</tr>
+</table>
+<script>
+    MathJax.Hub.Register.StartupHook("End",function () {
+      
+      var normMaterial;
+  
+      var SCREEN_WIDTH = 400, SCREEN_HEIGHT = 400;
+      var container, scene, camera, renderer, controls;
+      var keyboard = new THREEx.KeyboardState();
+      var clock = new THREE.Clock();
+      
+      var meshFunction;
+      var usegments = 40, vsegments=10;
+      
+      var xMin = xMax = yMin = yMax = 0; // for autosizing window
+      
+      var graphGeometry;
+      normMaterial = new THREE.MeshBasicMaterial( { vertexColors: THREE.VertexColors,side:THREE.DoubleSide } );
+      
+	if(typeof window.orientation === 'undefined') {
+	    init();
+	    animate();
+	}
+
+      function init() 
+      {
+	  scene = new THREE.Scene();
+	  if ( Detector.webgl )
+	      renderer = new THREE.WebGLRenderer( {alpha:true, antialias:true} );
+	  else
+	      renderer = new THREE.CanvasRenderer(); 
+	  renderer.setSize(SCREEN_WIDTH, SCREEN_HEIGHT);
+	  container = document.getElementById( 'cylinder_1' );
+	  container.appendChild( renderer.domElement );
+	  var light = new THREE.PointLight(0xffffff);
+	  light.position.set(0,250,0);
+	  scene.add(light);
+	  
+	  // Background clear color
+	  // renderer.setClearColorHex( 0xffffff, 0 );
+	  
+	  red_surface(0,2*Math.PI,usegments,vsegments,scene,normMaterial);
+	  blue_surface(0,2*Math.PI,usegments,vsegments,scene,normMaterial);
+	  yellow_surface(0,2*Math.PI,usegments,vsegments,scene,normMaterial);
+	  resetCamera();
+      }
+      
+      
+      function resetCamera()
+      {
+	  // CAMERA
+	  //	var SCREEN_WIDTH = window.innerWidth/2, SCREEN_HEIGHT = window.innerHeight/2;
+	  var SCREEN_WIDTH = 400, SCREEN_HEIGHT = 400;
+	  var VIEW_ANGLE = 45, ASPECT = SCREEN_WIDTH / SCREEN_HEIGHT, NEAR = 0.1, FAR = 20000;
+	  //	camera = new THREE.PerspectiveCamera( VIEW_ANGLE, ASPECT, NEAR, FAR);
+	  camera = new THREE.OrthographicCamera( -2*ASPECT,2*ASPECT,2,-2, NEAR, FAR);
+	  //	camera.position.set( 2*xMax, 0.5*yMax, 4*zMax );
+	  var zoom=1.5;
+	  camera.position.x = zoom*2;
+	  camera.position.y = zoom*1.5;
+	  camera.position.z = zoom*1.5;
+	  //	camera.position.set( zoom*2,zoom*1.5,zoom*1.5);
+	  //	camera.up = new THREE.Vector3( 0, 0, 1 );
+	  //	camera.lookAt(scene.position);	
+	  scene.add(camera);
+	  
+	  controls = new THREE.TrackballControls( camera, renderer.domElement );
+	  controls.rotateSpeed = 1;
+	  THREEx.WindowResize(renderer, camera);
+      }
+      
+	function animate() 
+	{
+	    requestAnimationFrame( animate );
+	    if ($('#cylinder_1').visible(true) && active ) {
+		render();
+		update();
+	    }
+	}
+
+      function update()
+      {
+	  if ( keyboard.pressed("z") ) 
+	  { 
+	      // do something
+	  }
+	  
+	  controls.update();
+	  //	stats.update();
+      }
+      
+      function render() 
+      {
+	  renderer.render( scene, camera );
+      }
+    });
+  
+  function red_surface(umin,umax,useg,vseg,sc,material)
+  {
+      
+      function x(u,v) {
+	  return Math.cos(u);
+      }
+      function y(u,v) {
+	  return v*(Math.abs(Math.sin(u))+Math.abs(Math.cos(u))-Math.abs(Math.abs(Math.sin(u))-Math.abs(Math.cos(u))))/2;
+      }
+      function z(u,v) {
+	  return Math.sin(u);
+      }
+      //color = new THREE.Color( 0xff0000 );
+      createGraph(x,y,z,umin,umax,-1,1,useg,vseg,new THREE.Color( 0xff0000 ),sc,material);
+  }
+  
+  function blue_surface(umin,umax,useg,vseg,sc,material)
+  {
+      
+      function x(u,v) {
+	  return v*(Math.abs(Math.sin(u))+Math.abs(Math.cos(u))-Math.abs(Math.abs(Math.sin(u))-Math.abs(Math.cos(u))))/2;
+      }
+      function y(u,v) {
+	  return Math.cos(u);
+      }
+      function z(u,v) {
+	  return Math.sin(u);
+      }
+      //color = new THREE.Color( 0x00ff00 );
+      createGraph(x,y,z,umin,umax,-1,1,useg,vseg,new THREE.Color( 0x0000ff ),sc,material);
+  }
+  
+  function yellow_surface(umin,umax,useg,vseg,sc,material)
+  {
+      
+      function x(u,v) {
+	  return Math.sin(u);
+      }
+      function y(u,v) {
+	  return Math.cos(u);
+      }
+      function z(u,v) {
+	  return v*(Math.abs(Math.sin(u))+Math.abs(Math.cos(u))-Math.abs(Math.abs(Math.sin(u))-Math.abs(Math.cos(u))))/2;
+      }
+      //color = new THREE.Color( 0x00ff00 );
+      createGraph(x,y,z,umin,umax,-1,1,useg,vseg,new THREE.Color( 0xffff00 ),sc,material);
+  }
+  
+  function createGraph(xFunc,yFunc,zFunc,uMin,uMax,vMin,vMax,useg,vseg,color,sc,material)
+  {
+      var graphMesh;
+      uRange = uMax - uMin;
+      vRange = vMax - vMin;
+      meshFunction = function(u0, v0) 
+      {
+	  var u = uRange * u0 + uMin;
+	  var v = vRange * v0 + vMin;
+	  var x = xFunc(u,v);
+	  var y = yFunc(u,v);
+	  var z = zFunc(u,v);
+	  if ( isNaN(x) || isNaN(y) || isNaN(z) )
+	      return new THREE.Vector3(0,0,0); // TODO: better fix
+	  else
+	      return new THREE.Vector3(x, y, z);
+      };
+      
+      // true => sensible image tile repeat...
+      graphGeometry = new THREE.ParametricGeometry( meshFunction, useg, vseg, true );
+      
+      graphGeometry.computeBoundingBox();
+      zMin = graphGeometry.boundingBox.min.z;
+      zMax = graphGeometry.boundingBox.max.z;
+      zRange = zMax - zMin;
+      var point, face, numberOfSides, vertexIndex;
+      
+      for ( var i = 0; i < graphGeometry.faces.length; i++ ) 
+      {
+	  face = graphGeometry.faces[ i ];
+	  numberOfSides = ( face instanceof THREE.Face3 ) ? 3 : 4;
+	  for( var j = 0; j < numberOfSides; j++ ) 
+	  {
+	      face.vertexColors[ j ] = color;
+	  }
+      }
+      
+      xMin = graphGeometry.boundingBox.min.x;
+      xMax = graphGeometry.boundingBox.max.x;
+      yMin = graphGeometry.boundingBox.min.y;
+      yMax = graphGeometry.boundingBox.max.y;
+      
+      if (graphMesh) 
+      {
+	  sc.remove( graphMesh );
+	  // renderer.deallocateObject( graphMesh );
+      }
+      
+      graphMesh = new THREE.Mesh( graphGeometry,material );
+      
+      graphMesh.doubleSided = true;
+      sc.add(graphMesh);
+  }
+  
+MathJax.Hub.Register.StartupHook("End",function () {
+      
+      // standard global variables
+      
+      var normMaterial;
+      var SCREEN_WIDTH = 400, SCREEN_HEIGHT = 400;
+      var container, scene, camera, renderer, controls;
+      var keyboard = new THREEx.KeyboardState();
+      var clock = new THREE.Clock();
+      
+      var meshFunction;
+      var usegments = 40, vsegments=10;
+      
+      var xMin = xMax = yMin = yMax = 0; // for autosizing window
+      
+      var graphGeometry;
+      normMaterial = new THREE.MeshBasicMaterial( { vertexColors: THREE.VertexColors,side:THREE.DoubleSide } );
+      
+    if(typeof window.orientation === 'undefined') {
+	init();
+	animate();
+    }
+
+      // FUNCTIONS 		
+      
+      function init() 
+      {
+	  scene = new THREE.Scene();
+	  if ( Detector.webgl )
+	      renderer = new THREE.WebGLRenderer( {alpha:true, antialias:true} );
+	  else
+	      renderer = new THREE.CanvasRenderer(); 
+	  renderer.setSize(SCREEN_WIDTH, SCREEN_HEIGHT);
+	  container = document.getElementById( 'cylinder_2' );
+	  container.appendChild( renderer.domElement );
+	  var light = new THREE.PointLight(0xffffff);
+	  light.position.set(0,250,0);
+	  scene.add(light);
+	  transMaterial1f = new THREE.MeshBasicMaterial( { transparent:
+							   true, opacity:0.1, vertexColors: THREE.VertexColors,side:THREE.FrontSide,depthWrite:false } );
+	  transMaterial1b = new THREE.MeshBasicMaterial( { transparent:
+							   true, opacity:0.1, vertexColors: THREE.VertexColors,side:THREE.BackSide,depthWrite:false } );
+	  transMaterial2f = new THREE.MeshBasicMaterial( { transparent:
+							   true, opacity:0.1, vertexColors: THREE.VertexColors,side:THREE.FrontSide,depthWrite:false } );
+	  transMaterial2b = new THREE.MeshBasicMaterial( { transparent:
+							   true, opacity:0.1, vertexColors: THREE.VertexColors,side:THREE.BackSide,depthWrite:false } );
+	  transMaterial3f = new THREE.MeshBasicMaterial( { transparent:
+							   true, opacity:0.25, vertexColors: THREE.VertexColors,side:THREE.FrontSide,depthWrite:false } );
+	  transMaterial3b = new THREE.MeshBasicMaterial( { transparent:
+							   true, opacity:0.25, vertexColors: THREE.VertexColors,side:THREE.BackSide,depthWrite:false } );
+	  
+	  // Background clear color
+	  // renderer.setClearColorHex( 0xffffff, 0 );
+	  
+	  red_surface(0,2*Math.PI,usegments,vsegments,scene,normMaterial);
+	  blue_surface(0,2*Math.PI,usegments,vsegments,scene,normMaterial);
+	  yellow_surface(0,2*Math.PI,usegments,vsegments,scene,normMaterial);
+	  red_cylinder();
+	  blue_cylinder();
+	  yellow_cylinder();
+	  resetCamera();
+      }
+      
+      function red_cylinder()
+      {
+
+	  function x(u,v) {
+	      return Math.cos(u);
+	  }
+	  function y(u,v) {
+	      return v;
+	  }
+	  function z(u,v) {
+	      return Math.sin(u);
+	  }
+	  createGraph(x,y,z,0,2*Math.PI,-1.5,1.5,usegments,vsegments,new THREE.Color( 0xff0000 ),scene,transMaterial1f);
+	  createGraph(x,y,z,0,2*Math.PI,-1.5,1.5,usegments,vsegments,new THREE.Color( 0xff0000 ),scene,transMaterial1b);
+      }
+ 
+      function blue_cylinder()
+      {
+	  
+	  function x(u,v) {
+	      return v;
+	  }
+	  function y(u,v) {
+	      return Math.cos(u);
+	  }
+	  function z(u,v) {
+	      return Math.sin(u);
+	  }
+	  createGraph(x,y,z,0,2*Math.PI,-1.5,1.5,usegments,vsegments,new THREE.Color( 0x0000ff ),scene,transMaterial2f);
+	  createGraph(x,y,z,0,2*Math.PI,-1.5,1.5,usegments,vsegments,new THREE.Color( 0x0000ff ),scene,transMaterial2b);
+      }
+      
+      function yellow_cylinder()
+      {
+	  
+	  function x(u,v) {
+	      return Math.sin(u);
+	  }
+	  function y(u,v) {
+	      return Math.cos(u);
+	  }
+	  function z(u,v) {
+	      return v;
+	  }
+	  createGraph(x,y,z,0,2*Math.PI,-1.5,1.5,usegments,vsegments,new THREE.Color( 0xffff00 ),scene,transMaterial3f);
+	  createGraph(x,y,z,0,2*Math.PI,-1.5,1.5,usegments,vsegments,new THREE.Color( 0xffff00 ),scene,transMaterial3b);
+      }
+      
+      function resetCamera()
+      {
+	  // CAMERA
+	  var SCREEN_WIDTH = 400, SCREEN_HEIGHT = 400;
+	  var VIEW_ANGLE = 45, ASPECT = SCREEN_WIDTH / SCREEN_HEIGHT, NEAR = 0.1, FAR = 20000;
+	  //	camera = new THREE.PerspectiveCamera( VIEW_ANGLE, ASPECT, NEAR, FAR);
+	  camera = new THREE.OrthographicCamera( -2*ASPECT,2*ASPECT,2,-2, NEAR, FAR);
+	  //	camera.position.set( 2*xMax, 0.5*yMax, 4*zMax );
+	  var zoom=1.5;
+	  camera.position.x = zoom*2;
+	  camera.position.y = zoom*1.5;
+	  camera.position.z = zoom*1.5;
+	  //	camera.position.set( zoom*2,zoom*1.5,zoom*1.5);
+	  //	camera.up = new THREE.Vector3( 0, 0, 1 );
+	  //	camera.lookAt(scene.position);	
+	  scene.add(camera);
+	  
+	  controls = new THREE.TrackballControls( camera, renderer.domElement );
+	  controls.rotateSpeed = 1;
+	  THREEx.WindowResize(renderer, camera);
+      }
+      
+    function animate() 
+    {
+	requestAnimationFrame( animate );
+	if ($('#cylinder_2').visible(true) && active ) {
+	    render();
+	    update();
+	}
+    }
+
+      function update()
+      {
+	  if ( keyboard.pressed("z") ) 
+	  { 
+	      // do something
+	  }
+	  
+	  controls.update();
+	  //	stats.update();
+      }
+      
+      function render() 
+      {
+	  renderer.render( scene, camera );
+      }
+  });
+</script>
+<div class='figcaption'><span class="figurenumber">Figure 15.1.6.</span> Intersection of three cylinders.</div></div>
+<p>
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 15.1.31</b>
+Prove that if $f(x,y)$ is integrable and if $\ds g(x,y)=\int_a^x
+    \int_b^y f(s,t) \; dt \; ds$ then $g_{xy}=g_{yx}=f(x,y)$.
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 15.1.32</b>
+Reverse the order of integration on each of the following integrals
+</p><p>
+</p><ul><p>
+</p><p> a.  $\ds\int_0^9 \int_0^{\sqrt{9-y}} f(x,y)\; dx \; dy$
+</p><p> b.  $\ds\int_1^2 \int_0^{\ln x} f(x,y) \; dy \; dx $
+</p><p> c.  $\ds\int_0^1 \int_{\arcsin y}^{\pi/2} f(x,y) \; dx \; dy$
+</p><p> d.  $\ds\int_0^1 \int_{4x}^{4} f(x,y) \; dy \; dx$
+</p><p> e.  $\ds\int_0^3 \int_{0}^{\sqrt{9-y^2}} f(x,y) \; dx \; dy$
+</p></ul><p>
+</p><p>
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 15.1.33</b>
+What are the parallels between Fubini's
+    Theorem and Clairaut's Theorem?
+
+</p><p>
+
+
+</p><p>
+
+</div></div></body>
+</html>

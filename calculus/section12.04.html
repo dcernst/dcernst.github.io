@@ -1,0 +1,742 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+<meta http-equiv="Content-Language" Content="en">
+<title>12.4 The Cross Product</title>
+<!--
+<script type="text/javascript" src="js/deployJava.js"></script>
+<link rel="stylesheet" type="text/css" href="http://jsxgraph.uni-bayreuth.de/distrib/jsxgraph.css" />
+-->
+<!-- use Jsxgraph to create figures: http://jsxgraph.uni-bayreuth.de/wp/ -->
+<link rel="stylesheet" type="text/css" href="css/jsxgraph.css" />
+<script type="text/javascript" src="js/jsxgraphcore.js"></script>
+<script src="js/three.min.js"></script>
+<script src="js/Detector.js"></script>
+<script src="js/TrackballControls.js"></script>
+<script src="js/OrthographicTrackballControls.js"></script>
+<script src="js/THREEx.KeyboardState.js"></script>
+<script src="js/THREEx.FullScreen.js"></script>
+<script src="js/THREEx.WindowResize.js"></script>
+<script type='text/javascript' src='js/DAT.GUI.min.js'></script>
+<script>
+window.requestAnimFrame = (function(){
+    return  window.requestAnimationFrame       || 
+        window.webkitRequestAnimationFrame || 
+        window.mozRequestAnimationFrame    || 
+        window.oRequestAnimationFrame      || 
+        window.msRequestAnimationFrame     || 
+        function(/* function */ callback, /* DOMElement */
+            element){
+            window.setTimeout(callback, 1000 / 60);
+        };
+})();
+</script>
+<script src="js/ifvisible.min.js"></script>
+<script src="js/conrec.js"></script>
+<script>
+active = true;
+ifvisible.setIdleDuration(10);
+ifvisible.on("idle", function(){
+    active = false;
+//    console.log("idle");
+});
+
+ifvisible.on("wakeup", function(){
+    active = true;
+//    console.log("wakeup");
+});
+</script>
+<script src="js/parser.js"></script>
+<link href="css/whitman.css" rel="stylesheet" type="text/css" /><link href="css/calculus.css" rel="stylesheet" type="text/css" /><link href="css/knowlstyle.css" rel="stylesheet" type="text/css" />
+
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  extensions: ["tex2jax.js","TeX/AMSmath.js","TeX/AMSsymbols.js"],
+  jax: ["input/TeX","output/HTML-CSS"],
+  tex2jax: {
+    inlineMath: [['$','$'],["\\(","\\)"]],
+    processEscapes: true,
+  },
+TeX: {
+   Macros: {
+    val: "\\mathop{\\rm val}",
+    divides: "\\mid",
+    ndivides: "\\mathrel{\\not|}",
+    fix: "\\mathop{\\rm fix}",
+    id: "\\mathop{\\rm id}",
+    na: "\\mathop{\\rm na}",
+    d: "\\mathop{\\rm\\strut d}\\nolimits ",
+    legendre: ["\\left(\\frac{#1}{#2}\\right)",2],
+    normalbaselines: "",
+    notdiv: "\\nmid",
+    implies: "\\Rightarrow",
+    iff: "\\Leftrightarrow",
+    sevenpoint: "\\scriptsize",
+    ds: "\\displaystyle",
+    lcm: "\\operatorname{lcm}",
+    arccot: "\\operatorname{arccot}",
+    arcsec: "\\operatorname{arcsec}",
+    arccsc: "\\operatorname{arccsc}",
+    arccosh: "\\operatorname{arccosh}",
+    arcsinh: "\\operatorname{arcsinh}",
+    arcsech: "\\operatorname{arcsech}",
+    sech: "\\operatorname{sech}",
+    csch: "\\operatorname{csch}",
+    R: "{\\mathbb R}",
+    sb: "_",
+    sp: "^",
+    Q: "{\\mathbb Q}",
+    C: "{\\mathbb C}",
+    N: "{\\mathbb N}",
+    Z: "{\\mathbb Z}",
+    U: "{\\mathbb U}",
+    v: ["\\langle #1\\rangle",1],
+    dint: ["{\\mathchoice{\\mathop{\\int\\!\\!\\!\\int}_{#1}}{\\mathop{\\int\\!\\!\\!\\int}_{#1}}{\\mathop{\\int\\!\\!\\!\\int}}{\\mathop{\\int\\!\\!\\!\\int}}}",1],
+    tint: ["{\\mathchoice{\\mathop{\\int\\!\\!\\!\\int\\!\\!\\!\\int}_{#1\\;}}{\\mathop{\\int\\!\\!\\!\\int\\!\\!\\!\\int}_{#1}}{\\mathop{\\int\\!\\!\\!\\int\\!\\!\\!\\int}_{#1}}{\\mathop{\\int\\!\\!\\!\\int\\!\\!\\!\\int}_{#1}}}",1]
+   }
+},
+  "HTML-CSS": { scale: 100},
+  menuSettings: { zscale: "150%", zoom: "Double-Click" }
+});
+    JXG.Options.text.display = 'html';
+    JXG.Options.text.useMathJax = true;
+</script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/math
+jax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+<script>
+MathJax.Hub.Register.StartupHook("End",function () {
+  if(typeof window.orientation === 'undefined'){
+    var i,x;
+    x = document.getElementsByClassName("webgl_display");
+    for (i=0; i<x.length; i++) {
+      x[i].style.display = "block";
+    }
+    x = document.getElementsByClassName("no_webgl_display");
+    for (i=0; i<x.length; i++) {
+      x[i].style.display = "none";
+    }
+  }
+});
+</script>
+
+<script src="js/jquery-3.1.0.min.js"></script>
+<script src="https://sagecell.sagemath.org/static/embedded_sagecell.js"></script>
+<script src="js/jquery.visible.min.js"></script>
+<script type="text/javascript" src="js/knowl.js"></script>
+<style type="text/css">
+
+.sagecell .CodeMirror {
+  height: auto;
+}
+
+.sagecell .CodeMirror-scroll {
+  overflow-y: hidden;
+  overflow-x: auto;
+}
+
+.sagecell-practice .CodeMirror-scroll {
+}
+
+.sagecell button.sagecell_evalButton {
+    font-size: 50%;
+}
+
+.sagecell_sessionContainer {
+    margin-bottom:1em;
+}
+</style>
+<script>
+function toggle(a) {
+  var b = String(a);
+  b=b.replace("contents","button");
+  if (document.getElementById(a).style.display == "block") {
+    document.getElementById(a).style.display = "none";
+    document.getElementById(b).src = "expand_submenu.png";
+  } else {
+    document.getElementById(a).style.display = "block";
+    document.getElementById(b).src = "collapse_submenu.png";
+  }
+}
+function toggle_sidebar() {
+  if (document.getElementById('sidebar').style.display == "block") {
+    document.getElementById('sidebar').style.display = "none";
+    document.getElementById('menu_expand').style.display = "block";
+  } else {
+    document.getElementById('sidebar').style.display = "block";
+    document.getElementById('menu_expand').style.display = "none";
+  }
+}
+</script>
+
+</head>
+
+<body class="" onload="toggle('chapter_12_contents')">
+<div id="header">
+<div class="right">
+<div class="bread">
+  <a href=".">Home</a> &raquo; <a href="chapter12.html">Three Dimensions</a> &raquo; <a href="section12.04.html">The Cross Product</a>
+</div>
+
+<FORM method=GET action=https://www.google.com/custom id="search">
+<INPUT TYPE=text name=q size=31 maxlength=255 value="" style="font-size:small">
+<INPUT type=submit name=sa VALUE="Search the book" style="font-size:small">
+<INPUT type=hidden name=cof VALUE="AH:center;AWFID:198dc2b883340b1f;">
+<input type=hidden name=domains value="www.whitman.edu">
+<input type=hidden name=sitesearch value="www.whitman.edu/mathematics/calculus_online/">
+</FORM>
+<div id="title"><span id="title-content">12.4 The Cross Product</span></div><a href="#exercises">[Jump to exercises]</a>
+</div>
+</div>
+<div id="menu_expand" style="display:none"><a href="javascript:toggle_sidebar()">Expand menu</a></div>
+<div id="sidebar" style="display:block">
+<h2 id="menu_collapse"><a href='javascript:toggle_sidebar()'>Collapse menu</a></h2>
+<h2 class="link"><img id="chapter_01_button" src="expand_submenu.png" onclick='toggle("chapter_01_contents")'><a href="chapter01.html">1 Analytic Geometry</a></h2>
+
+<ul class="list" id="chapter_01_contents">
+<li><a href="section01.01.html">1. Lines</a></li>
+<li><a href="section01.02.html">2. Distance Between Two Points; Circles</a></li>
+<li><a href="section01.03.html">3. Functions</a></li>
+<li><a href="section01.04.html">4. Shifts and Dilations</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_02_button" src="expand_submenu.png" onclick='toggle("chapter_02_contents")'><a href="chapter02.html">2 Instantaneous Rate of Change:  The Derivative</a></h2>
+
+<ul class="list" id="chapter_02_contents">
+<li><a href="section02.01.html">1. The slope of a function</a></li>
+<li><a href="section02.02.html">2. An example</a></li>
+<li><a href="section02.03.html">3. Limits</a></li>
+<li><a href="section02.04.html">4. The Derivative Function</a></li>
+<li><a href="section02.05.html">5. Adjectives For Functions</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_03_button" src="expand_submenu.png" onclick='toggle("chapter_03_contents")'><a href="chapter03.html">3 Rules for Finding Derivatives</a></h2>
+
+<ul class="list" id="chapter_03_contents">
+<li><a href="section03.01.html">1. The Power Rule</a></li>
+<li><a href="section03.02.html">2. Linearity of the Derivative</a></li>
+<li><a href="section03.03.html">3. The Product Rule</a></li>
+<li><a href="section03.04.html">4. The Quotient Rule</a></li>
+<li><a href="section03.05.html">5. The Chain Rule</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_04_button" src="expand_submenu.png" onclick='toggle("chapter_04_contents")'><a href="chapter04.html">4 Transcendental Functions</a></h2>
+
+<ul class="list" id="chapter_04_contents">
+<li><a href="section04.01.html">1. Trigonometric Functions</a></li>
+<li><a href="section04.02.html">2. The Derivative of $\sin x$</a></li>
+<li><a href="section04.03.html">3. A hard limit</a></li>
+<li><a href="section04.04.html">4. The Derivative of $\sin x$, continued</a></li>
+<li><a href="section04.05.html">5. Derivatives of the Trigonometric Functions</a></li>
+<li><a href="section04.06.html">6. Exponential and Logarithmic functions</a></li>
+<li><a href="section04.07.html">7. Derivatives of the exponential and  logarithmic functions</a></li>
+<li><a href="section04.08.html">8. Implicit Differentiation</a></li>
+<li><a href="section04.09.html">9. Inverse Trigonometric Functions</a></li>
+<li><a href="section04.10.html">10. Limits revisited</a></li>
+<li><a href="section04.11.html">11. Hyperbolic Functions</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_05_button" src="expand_submenu.png" onclick='toggle("chapter_05_contents")'><a href="chapter05.html">5 Curve Sketching</a></h2>
+
+<ul class="list" id="chapter_05_contents">
+<li><a href="section05.01.html">1. Maxima and Minima</a></li>
+<li><a href="section05.02.html">2. The first derivative test</a></li>
+<li><a href="section05.03.html">3. The second derivative test</a></li>
+<li><a href="section05.04.html">4. Concavity and inflection points</a></li>
+<li><a href="section05.05.html">5. Asymptotes and Other Things to Look For</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_06_button" src="expand_submenu.png" onclick='toggle("chapter_06_contents")'><a href="chapter06.html">6 Applications of the Derivative</a></h2>
+
+<ul class="list" id="chapter_06_contents">
+<li><a href="section06.01.html">1. Optimization</a></li>
+<li><a href="section06.02.html">2. Related Rates</a></li>
+<li><a href="section06.03.html">3. Newton's Method</a></li>
+<li><a href="section06.04.html">4. Linear Approximations</a></li>
+<li><a href="section06.05.html">5. The Mean Value Theorem</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_07_button" src="expand_submenu.png" onclick='toggle("chapter_07_contents")'><a href="chapter07.html">7 Integration</a></h2>
+
+<ul class="list" id="chapter_07_contents">
+<li><a href="section07.01.html">1. Two examples</a></li>
+<li><a href="section07.02.html">2. The Fundamental Theorem of Calculus</a></li>
+<li><a href="section07.03.html">3. Some Properties of Integrals</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_08_button" src="expand_submenu.png" onclick='toggle("chapter_08_contents")'><a href="chapter08.html">8 Techniques of Integration</a></h2>
+
+<ul class="list" id="chapter_08_contents">
+<li><a href="section08.01.html">1. Substitution</a></li>
+<li><a href="section08.02.html">2. Powers of sine and cosine</a></li>
+<li><a href="section08.03.html">3. Trigonometric Substitutions</a></li>
+<li><a href="section08.04.html">4. Integration by Parts</a></li>
+<li><a href="section08.05.html">5. Rational Functions</a></li>
+<li><a href="section08.06.html">6. Numerical Integration</a></li>
+<li><a href="section08.07.html">7. Additional exercises</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_09_button" src="expand_submenu.png" onclick='toggle("chapter_09_contents")'><a href="chapter09.html">9 Applications of Integration</a></h2>
+
+<ul class="list" id="chapter_09_contents">
+<li><a href="section09.01.html">1. Area between curves</a></li>
+<li><a href="section09.02.html">2. Distance, Velocity, Acceleration</a></li>
+<li><a href="section09.03.html">3. Volume</a></li>
+<li><a href="section09.04.html">4. Average value of a function</a></li>
+<li><a href="section09.05.html">5. Work</a></li>
+<li><a href="section09.06.html">6. Center of Mass</a></li>
+<li><a href="section09.07.html">7. Kinetic energy; improper integrals</a></li>
+<li><a href="section09.08.html">8. Probability</a></li>
+<li><a href="section09.09.html">9. Arc Length</a></li>
+<li><a href="section09.10.html">10. Surface Area</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_10_button" src="expand_submenu.png" onclick='toggle("chapter_10_contents")'><a href="chapter10.html">10 Polar Coordinates,  Parametric Equations</a></h2>
+
+<ul class="list" id="chapter_10_contents">
+<li><a href="section10.01.html">1. Polar Coordinates</a></li>
+<li><a href="section10.02.html">2. Slopes in polar coordinates</a></li>
+<li><a href="section10.03.html">3. Areas in polar coordinates</a></li>
+<li><a href="section10.04.html">4. Parametric Equations</a></li>
+<li><a href="section10.05.html">5. Calculus with Parametric Equations</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_11_button" src="expand_submenu.png" onclick='toggle("chapter_11_contents")'><a href="chapter11.html">11 Sequences and Series</a></h2>
+
+<ul class="list" id="chapter_11_contents">
+<li><a href="section11.01.html">1. Sequences</a></li>
+<li><a href="section11.02.html">2. Series</a></li>
+<li><a href="section11.03.html">3. The Integral Test</a></li>
+<li><a href="section11.04.html">4. Alternating Series</a></li>
+<li><a href="section11.05.html">5. Comparison Tests</a></li>
+<li><a href="section11.06.html">6. Absolute Convergence</a></li>
+<li><a href="section11.07.html">7. The Ratio and Root Tests</a></li>
+<li><a href="section11.08.html">8. Power Series</a></li>
+<li><a href="section11.09.html">9. Calculus with Power Series</a></li>
+<li><a href="section11.10.html">10. Taylor Series</a></li>
+<li><a href="section11.11.html">11. Taylor's Theorem</a></li>
+<li><a href="section11.12.html">12. Additional exercises</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_12_button" src="expand_submenu.png" onclick='toggle("chapter_12_contents")'><a href="chapter12.html">12 Three Dimensions</a></h2>
+
+<ul class="list" id="chapter_12_contents">
+<li><a href="section12.01.html">1. The Coordinate System</a></li>
+<li><a href="section12.02.html">2. Vectors</a></li>
+<li><a href="section12.03.html">3. The Dot Product</a></li>
+<li><a href="section12.04.html">4. The Cross Product</a></li>
+<li><a href="section12.05.html">5. Lines and Planes</a></li>
+<li><a href="section12.06.html">6. Other Coordinate Systems</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_13_button" src="expand_submenu.png" onclick='toggle("chapter_13_contents")'><a href="chapter13.html">13 Vector Functions</a></h2>
+
+<ul class="list" id="chapter_13_contents">
+<li><a href="section13.01.html">1. Space Curves</a></li>
+<li><a href="section13.02.html">2. Calculus with vector functions</a></li>
+<li><a href="section13.03.html">3. Arc length and curvature</a></li>
+<li><a href="section13.04.html">4. Motion along a curve</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_14_button" src="expand_submenu.png" onclick='toggle("chapter_14_contents")'><a href="chapter14.html">14 Partial Differentiation</a></h2>
+
+<ul class="list" id="chapter_14_contents">
+<li><a href="section14.01.html">1. Functions of Several Variables</a></li>
+<li><a href="section14.02.html">2. Limits and Continuity</a></li>
+<li><a href="section14.03.html">3. Partial Differentiation</a></li>
+<li><a href="section14.04.html">4. The Chain Rule</a></li>
+<li><a href="section14.05.html">5. Directional Derivatives</a></li>
+<li><a href="section14.06.html">6. Higher order derivatives</a></li>
+<li><a href="section14.07.html">7. Maxima and minima</a></li>
+<li><a href="section14.08.html">8. Lagrange Multipliers</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_15_button" src="expand_submenu.png" onclick='toggle("chapter_15_contents")'><a href="chapter15.html">15 Multiple Integration</a></h2>
+
+<ul class="list" id="chapter_15_contents">
+<li><a href="section15.01.html">1. Volume and Average Height</a></li>
+<li><a href="section15.02.html">2. Double Integrals in Cylindrical Coordinates</a></li>
+<li><a href="section15.03.html">3. Moment and Center of Mass</a></li>
+<li><a href="section15.04.html">4. Surface Area</a></li>
+<li><a href="section15.05.html">5. Triple Integrals</a></li>
+<li><a href="section15.06.html">6. Cylindrical and Spherical Coordinates</a></li>
+<li><a href="section15.07.html">7. Change of Variables</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_16_button" src="expand_submenu.png" onclick='toggle("chapter_16_contents")'><a href="chapter16.html">16 Vector Calculus</a></h2>
+
+<ul class="list" id="chapter_16_contents">
+<li><a href="section16.01.html">1. Vector Fields</a></li>
+<li><a href="section16.02.html">2. Line Integrals</a></li>
+<li><a href="section16.03.html">3. The Fundamental Theorem of Line Integrals</a></li>
+<li><a href="section16.04.html">4. Green's Theorem</a></li>
+<li><a href="section16.05.html">5. Divergence and Curl</a></li>
+<li><a href="section16.06.html">6. Vector Functions for Surfaces</a></li>
+<li><a href="section16.07.html">7. Surface Integrals</a></li>
+<li><a href="section16.08.html">8. Stokes's Theorem</a></li>
+<li><a href="section16.09.html">9. The Divergence Theorem</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_17_button" src="expand_submenu.png" onclick='toggle("chapter_17_contents")'><a href="chapter17.html">17 Differential Equations</a></h2>
+
+<ul class="list" id="chapter_17_contents">
+<li><a href="section17.01.html">1. First Order Differential Equations</a></li>
+<li><a href="section17.02.html">2. First Order Homogeneous Linear Equations</a></li>
+<li><a href="section17.03.html">3. First Order Linear Equations</a></li>
+<li><a href="section17.04.html">4. Approximation</a></li>
+<li><a href="section17.05.html">5. Second Order Homogeneous Equations</a></li>
+<li><a href="section17.06.html">6. Second Order Linear Equations</a></li>
+<li><a href="section17.07.html">7. Second Order Linear Equations, take two</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_18_button" src="expand_submenu.png" onclick='toggle("chapter_18_contents")'><a href="chapter18.html">18 Useful formulas</a></h2>
+
+<ul class="list" id="chapter_18_contents">
+</ul>
+
+</div>
+
+<div id="main">
+
+<div id="next"><a href="section12.03.html"><img src=previous_section.png width="30"></a>&nbsp;&nbsp;<a href="section12.05.html"><img src=next_section.png width="30"></a></div>
+
+<div id="content">
+<p>
+
+
+</p><p>
+Another useful operation: Given two vectors, find a third vector
+perpendicular to the first two. There are of course an infinite number
+of such vectors of different lengths. Nevertheless, let us find one.
+Suppose $\ds {\bf A}=\langle
+a_1,a_2,a_3\rangle$ and $\ds {\bf B}=\langle b_1,b_2,b_3\rangle$. We want
+to find a vector $\ds {\bf v} = \langle v_1,v_2,v_3\rangle$ with
+${\bf v}\cdot{\bf A}={\bf v}\cdot{\bf B}=0$, or
+$$\eqalign{
+  a_1v_1+a_2v_2+a_3v_3&=0,\cr
+  b_1v_1+b_2v_2+b_3v_3&=0.\cr
+}$$
+Multiply the first equation by $\ds b_3$ and the second by $\ds a_3$ and
+subtract to get
+$$\eqalign{
+  b_3a_1v_1+b_3a_2v_2+b_3a_3v_3&=0\cr
+  a_3b_1v_1+a_3b_2v_2+a_3b_3v_3&=0\cr
+  (a_1b_3-b_1a_3)v_1 + (a_2b_3-b_2a_3)v_2&=0\cr
+}$$
+Of course, this equation in two variables has many solutions; a
+particularly easy one to see is $\ds v_1=a_2b_3-b_2a_3$,
+$\ds v_2=b_1a_3-a_1b_3$. Substituting back into either of the original
+equations and solving for $\ds v_3$ gives $\ds v_3=a_1b_2-b_1a_2$.
+</p><p>
+This particular answer to the problem turns out to have some nice
+properties, and it is dignified with a name: the 
+<b>cross product</b>:
+$$
+  {\bf A}\times{\bf B} = \langle
+  a_2b_3-b_2a_3,b_1a_3-a_1b_3,a_1b_2-b_1a_2\rangle.
+$$
+While there is a nice pattern to this vector, it can be a bit
+difficult to memorize;  here is a convenient mnemonic.
+The determinant of a two by two matrix is
+$$\left|\matrix{a&b\cr
+c&d\cr}\right|=ad-cb.$$
+This is extended to the determinant of a three by three matrix:
+$$\eqalign{
+  \left|\matrix{x&y&z\cr
+  a_1&a_2&a_3\cr
+  b_1&b_2&b_3\cr}\right|&=x\left|\matrix{a_2&a_3\cr
+  b_2&b_3\cr}\right|-y\left|\matrix{a_1&a_3\cr
+  b_1&b_3\cr}\right|+z\left|\matrix{a_1&a_2\cr
+  b_1&b_2\cr}\right|\cr
+  &=x(a_2b_3-b_2a_3)-y(a_1b_3-b_1a_3)+z(a_1b_2-b_1a_2)\cr
+  &=x(a_2b_3-b_2a_3)+y(b_1a_3-a_1b_3)+z(a_1b_2-b_1a_2).\cr}
+$$
+Each of the two by two matrices is formed by deleting the top row and
+one column of the three by three matrix; the subtraction of the middle
+term must also be memorized. This is not the place to extol the uses
+of the determinant; suffice it to say that determinants are
+extraordinarily useful and important. Here we want to use it merely as
+a mnemonic device. You will have noticed that the three expressions in
+parentheses on the last line are precisely the three coordinates of
+the cross product; replacing $x$, $y$, $z$ by $\bf i$, $\bf j$, $\bf
+k$ gives us
+$$\eqalign{
+  \left|\matrix{{\bf i}&{\bf j}&{\bf k}\cr
+  a_1&a_2&a_3\cr
+  b_1&b_2&b_3\cr}\right|
+  &=(a_2b_3-b_2a_3){\bf i}-(a_1b_3-b_1a_3){\bf j}+(a_1b_2-b_1a_2){\bf
+    k}\cr
+  &=(a_2b_3-b_2a_3){\bf i}+(b_1a_3-a_1b_3){\bf j}+(a_1b_2-b_1a_2){\bf
+    k}\cr
+  &=\langle
+  a_2b_3-b_2a_3,b_1a_3-a_1b_3,a_1b_2-b_1a_2\rangle\cr
+  &={\bf A}\times{\bf B}.\cr}
+$$
+</p><p>
+Given $\bf A$ and $\bf B$, there are typically two possible directions and an
+infinite number of magnitudes that will give a vector perpendicular to
+both $\bf A$ and $\bf B$. As we have picked a particular one, we
+should investigate the magnitude and direction.
+</p><p>
+We know how to compute the magnitude of ${\bf A}\times{\bf B}$; it's a
+bit messy but not difficult. It is somewhat easier to work initially
+with the square of the magnitude, so as to avoid the square root:
+$$\eqalign{
+  |{\bf A}\times{\bf B}|^2&=
+  (a_2b_3-b_2a_3)^2+(b_1a_3-a_1b_3)^2+(a_1b_2-b_1a_2)^2\cr
+  &=a_2^2b_3^2-2a_2b_3b_2a_3+b_2^2a_3^2+b_1^2a_3^2-2b_1a_3a_1b_3+a_1^2b_3^2+a_1^2b_2^2-2a_1b_2b_1a_2+b_1^2a_2^2\cr
+}$$
+While it is far from obvious, this nasty looking expression can be
+simplified: 
+$$\eqalign{
+  |{\bf A}\times{\bf B}|^2&=
+  (a_1^2+a_2^2+a_3^2)(b_1^2+b_2^2+b_3^2)-(a_1b_1+a_2b_2+a_3b_3)^2\cr
+  &=|{\bf A}|^2|{\bf B}|^2-({\bf A}\cdot{\bf B})^2\cr
+  &=|{\bf A}|^2|{\bf B}|^2-|{\bf A}|^2|{\bf B}|^2\cos^2\theta\cr
+  &=|{\bf A}|^2|{\bf B}|^2(1-\cos^2\theta)\cr
+  &=|{\bf A}|^2|{\bf B}|^2\sin^2\theta\cr
+  |{\bf A}\times{\bf B}|&=|{\bf A}||{\bf B}|\sin\theta\cr
+}$$
+The magnitude of ${\bf A}\times{\bf B}$ is thus very similar to the dot
+product. In particular, notice that if $\bf A$ is parallel to $\bf B$,
+the angle between them is zero, so $\sin\theta=0$, so 
+$|{\bf A}\times{\bf B}|=0$, and likewise if they are anti-parallel, 
+$\sin\theta=0$, and
+$|{\bf A}\times{\bf B}|=0$. Conversely, if $|{\bf A}\times{\bf B}|=0$
+and $|{\bf A}|$ and $|{\bf B}|$ are not zero, it must be that
+$\sin\theta=0$, so $\bf A$ is parallel or anti-parallel to $\bf B$. 
+</p><p>
+<a id="page:parallelogram area"></a> Here is a curious fact about this
+quantity that turns out to be quite useful later on: Given two
+vectors, we can put them tail to tail and form a
+parallelogram, as in figure <a href="section12.04.html#fig:area of parallelogram">12.4.1</a>. The
+height of the parallelogram, $h$, is $|{\bf A}|\sin\theta$, and the
+base is $|{\bf B}|$, so the area of the
+parallelogram is $|{\bf A}||{\bf
+B}|\sin\theta$, exactly the magnitude of $|{\bf A}\times{\bf B}|$.
+</p><p>
+<a id="fig:area of parallelogram"></a>
+</p><div class='figure'><!-- Three_Dimensions-area_parallelogram_cross_product.html -->
+<!-- Figure 12.4.1 -->
+
+<div id='area_of_parallelogram' class='jxgbox' style='width:53%'></div>
+
+<script type='text/javascript'>
+(function () {  // BEGIN: scope limiting function wrapper
+  var xmin=-0.5, xmax= 7.5, ymin=-0.5, ymax=3.5;
+  var AspectRatio =  ((ymax-ymin)/(xmax-xmin)); // height/width
+  var wd=document.getElementById('area_of_parallelogram').offsetWidth;
+  var ht=wd*AspectRatio;
+  var yfactor = (ymax-ymin)/(ht);
+  var xfactor = (xmax-xmin)/(wd);
+  var xaxis_label_offset = yfactor*15;
+  var yaxis_label_offset = xfactor*20;
+  document.getElementById('area_of_parallelogram').style.height=ht+'px';
+  var brd = JXG.JSXGraph.initBoard('area_of_parallelogram',{boundingbox:[xmin,ymax,xmax,ymin], showCopyright:false, showNavigation:false}) ;
+  var rejax = function() {
+     MathJax.Hub.Queue(["Typeset",MathJax.Hub]); 
+  }
+  brd.addHook(rejax)
+  brd.create('arrow', [[0,0], [5,0]],{strokeWidth:1,strokeColor:'blue',fixed:true});
+  brd.create('arrow', [[0,0],[2,3]],{strokeWidth:1,strokeColor:'blue',fixed:true});
+  brd.create('segment', [[5,0],[7,3]],{dash:2,strokeWidth:1,strokeColor:'black',fixed:true});
+  brd.create('segment', [[2,3],[7,3]],{dash:2,strokeWidth:1,strokeColor:'black',fixed:true});
+  brd.create('segment', [[2,3],[2,0]],{dash:2,strokeWidth:1,strokeColor:'black',fixed:true});
+  brd.create('text',[xfactor*15,yfactor*10,'$\\\\theta$'],{fixed:true});
+  brd.create('text',[1-xfactor*10,1.5+yfactor*10,'$\\\\bf A$'],{fixed:true});
+  brd.create('text',[2.5+xfactor*0,-yfactor*10,'$\\\\bf B$'],{fixed:true});
+  brd.create('text',[2+xfactor*5,1.5,'$h$'],{fixed:true});
+})(); // END: scope limiting function wrapper
+</script>
+<div class='figcaption'><span class="figurenumber">Figure 12.4.1.</span> A parallelogram.</div></div>
+<p>
+</p><p>
+What about the direction of the cross product? Remarkably, there is a
+simple rule that describes the direction. Let's look at a simple
+example: Let ${\bf A}=\langle a,0,0\rangle$, ${\bf B}=\langle 
+b,c,0\rangle$. If the vectors are placed with tails at the origin,
+$\bf A$ lies along the $x$-axis and $\bf B$ lies in the $x$-$y$ plane,
+so we know the cross product will point either up or down. The cross
+product is 
+$$\eqalign{
+  {\bf A}\times {\bf B}=\left|\matrix{{\bf i}&{\bf j}&{\bf k}\cr
+  a&0&0\cr
+  b&c&0\cr}\right|
+  &=\langle
+  0,0,ac\rangle.\cr}
+$$
+As predicted, this is a vector pointing up or down, depending on the
+sign of $ac$. Suppose that $a>0$, so the sign depends only on $c$: if
+$c>0$, $ac>0$ and the vector points up; if $c< 0$, the vector points
+down. On the other hand, if $a< 0$ and $c>0$, the vector points down,
+while if $a< 0$ and $c< 0$, the vector points up. Here is how to
+interpret these facts with a single rule: Imagine rotating vector
+$\bf A$ until it points in the same direction as $\bf B$; there are
+two ways to do this&mdash;use the rotation that goes through the smaller
+angle. If $a>0$ and $c>0$, or $a< 0$ and $c< 0$, the rotation will be
+counter-clockwise when viewed from above; in the other two cases, $\bf
+A$ must be rotated clockwise to reach $\bf B$. The rule is:
+counter-clockwise means up, clockwise means down. If $\bf A$ and $\bf
+B$ are any vectors in the $x$-$y$ plane, the same rule applies&mdash;$\bf
+A$ need not be parallel to the $x$-axis.
+</p><p>
+Although it is somewhat difficult computationally to see how this
+plays out for any two starting vectors, the rule is essentially the
+same. Place $\bf A$ and $\bf B$ tail to tail. The plane in which $\bf
+A$ and $\bf B$ lie may be viewed from two sides; view it from the side
+for which $\bf A$ must rotate counter-clockwise to reach $\bf B$; then
+the vector ${\bf A}\times{\bf B}$ points toward you.
+</p><p>
+This rule is usually called the 
+<b>right hand rule</b>.
+Imagine placing the heel of your right hand at the point where the tails are
+joined, so that your slightly curled fingers indicate the direction of
+rotation from $\bf A$ to $\bf B$. Then your thumb points in the
+direction of the cross product ${\bf A}\times{\bf B}$.
+</p><p>
+One immediate consequence of these facts is that 
+${\bf A}\times{\bf B}\not={\bf B}\times{\bf A}$, because the two
+cross products point in the opposite direction. On the other hand,
+since 
+$$
+  |{\bf A}\times{\bf B}|=|{\bf A}||{\bf B}|\sin\theta
+  =|{\bf B}||{\bf A}|\sin\theta=|{\bf B}\times{\bf A}|,
+$$
+the lengths of the two cross products are equal, so
+we know that ${\bf A}\times{\bf B}=-({\bf B}\times{\bf A})$.
+</p><p>
+The cross product has some familiar-looking properties that will be
+useful later, so we list them here. As with the dot product, these can
+be proved by performing the appropriate calculations on coordinates,
+after which we may sometimes avoid such calculations by using the
+properties. 
+</p><p>
+</p>
+<div class="theorem">
+<p>
+<span class="theoremlabel">Theorem 12.4.1 </span>
+If ${\bf u}$, ${\bf v}$, and ${\bf w}$ are vectors and $a$ is a real
+number, then
+<a id="thm:cross product properties"></a>
+</p><p>
+</p><ul><p>
+</p><p> 1.  ${\bf u}\times({\bf v}+{\bf w}) = 
+{\bf u}\times{\bf v}+{\bf u}\times{\bf w}$
+</p><p>
+
+</p><p> 2.  $({\bf v}+{\bf w})\times{\bf u} = 
+{\bf v}\times{\bf u}+{\bf w}\times{\bf u}$
+</p><p>
+
+</p><p> 3.  $(a{\bf u})\times{\bf v}=a({\bf u}\times{\bf v})
+={\bf u}\times(a{\bf v})$
+</p><p>
+
+</p><p> 4.  ${\bf u}\cdot({\bf v}\times{\bf w}) = 
+({\bf u}\times{\bf v})\cdot{\bf w}$
+</p><p>
+
+</p><p> 5. ${\bf u}\times({\bf v}\times{\bf w}) =
+({\bf u}\cdot{\bf w}){\bf v}-({\bf u}\cdot{\bf v}){\bf w}$
+
+</p>
+</div><!-- theorem -->
+<p>
+</p><p>
+</p></ul><p>
+</p><p>
+</p>
+<a id="exercises"></a><h2 class="exercises">Exercises 12.4</h2>
+<p></p><p>
+</p>
+<p class="exercise"><b>Ex 12.4.1</b>
+Find the cross product of $\langle 1,1,1\rangle$ and 
+$\langle 1,2,3\rangle$. 
+(<a knowl="" class="internal" value="$\langle 1,-2,1\rangle$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 12.4.2</b>
+Find the cross product of $\langle 1,0,2\rangle$ and 
+$\langle -1,-2,4\rangle$. 
+(<a knowl="" class="internal" value="$\langle 4,-6,-2\rangle$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 12.4.3</b>
+Find the cross product of $\langle -2,1,3\rangle$ and 
+$\langle 5,2,-1\rangle$. 
+(<a knowl="" class="internal" value="$\langle -7,13,-9\rangle$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 12.4.4</b>
+Find the cross product of $\langle 1,0,0\rangle$ and 
+$\langle 0,0,1\rangle$. 
+(<a knowl="" class="internal" value="$\langle 0,-1,0\rangle$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 12.4.5</b>
+Two vectors ${\bf u}$ and ${\bf v}$ are separated by an
+angle of $\pi/6$, and $|{\bf u}|=2$ and $|{\bf v}|=3$. Find 
+$|{\bf u}\times{\bf v}|$.
+(<a knowl="" class="internal" value="$3$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 12.4.6</b>
+Two vectors ${\bf u}$ and ${\bf v}$ are separated by an
+angle of $\pi/4$, and $|{\bf u}|=3$ and $|{\bf v}|=7$. Find 
+$|{\bf u}\times{\bf v}|$.
+(<a knowl="" class="internal" value="$\ds 21\sqrt2/2$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 12.4.7</b>
+Find the area of the parallelogram with vertices $(0,0)$, $(1,2)$,
+$(3,7)$, and $(2,5)$.
+(<a knowl="" class="internal" value="$1$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 12.4.8</b>
+Find and explain the value of $({\bf i} \times {\bf j})
+\times {\bf k}$ and $({\bf i} + {\bf j}) \times ({\bf i} - {\bf j})$.
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 12.4.9</b>
+Prove that for all vectors ${\bf u}$ and ${\bf v}$,
+$({\bf u}\times{\bf v})\cdot{\bf v}=0$.
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 12.4.10</b>
+Prove Theorem <a href="section12.04.html#thm:cross product properties">12.4.1</a>.
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 12.4.11</b>
+Define the triple product of three vectors, ${\bf x}$,
+${\bf y}$, and ${\bf z}$, to be the scalar ${\bf x} \cdot ({\bf y} \times
+{\bf z})$.  Show that three vectors lie in the same plane if and only if
+their triple product is zero. Verify that $\langle 1, 5, -2 \rangle$,
+$\langle 4, 3, 0 \rangle$ and $\langle 6, 13, -4 \rangle$ are
+coplanar.
+
+</p><p>
+
+
+</p><p>
+</div></div></body>
+</html>

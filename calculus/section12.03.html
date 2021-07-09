@@ -1,0 +1,1054 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+<meta http-equiv="Content-Language" Content="en">
+<title>12.3 The Dot Product</title>
+<!--
+<script type="text/javascript" src="js/deployJava.js"></script>
+<link rel="stylesheet" type="text/css" href="http://jsxgraph.uni-bayreuth.de/distrib/jsxgraph.css" />
+-->
+<!-- use Jsxgraph to create figures: http://jsxgraph.uni-bayreuth.de/wp/ -->
+<link rel="stylesheet" type="text/css" href="css/jsxgraph.css" />
+<script type="text/javascript" src="js/jsxgraphcore.js"></script>
+<script src="js/three.min.js"></script>
+<script src="js/Detector.js"></script>
+<script src="js/TrackballControls.js"></script>
+<script src="js/OrthographicTrackballControls.js"></script>
+<script src="js/THREEx.KeyboardState.js"></script>
+<script src="js/THREEx.FullScreen.js"></script>
+<script src="js/THREEx.WindowResize.js"></script>
+<script type='text/javascript' src='js/DAT.GUI.min.js'></script>
+<script>
+window.requestAnimFrame = (function(){
+    return  window.requestAnimationFrame       || 
+        window.webkitRequestAnimationFrame || 
+        window.mozRequestAnimationFrame    || 
+        window.oRequestAnimationFrame      || 
+        window.msRequestAnimationFrame     || 
+        function(/* function */ callback, /* DOMElement */
+            element){
+            window.setTimeout(callback, 1000 / 60);
+        };
+})();
+</script>
+<script src="js/ifvisible.min.js"></script>
+<script src="js/conrec.js"></script>
+<script>
+active = true;
+ifvisible.setIdleDuration(10);
+ifvisible.on("idle", function(){
+    active = false;
+//    console.log("idle");
+});
+
+ifvisible.on("wakeup", function(){
+    active = true;
+//    console.log("wakeup");
+});
+</script>
+<script src="js/parser.js"></script>
+<link href="css/whitman.css" rel="stylesheet" type="text/css" /><link href="css/calculus.css" rel="stylesheet" type="text/css" /><link href="css/knowlstyle.css" rel="stylesheet" type="text/css" />
+
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  extensions: ["tex2jax.js","TeX/AMSmath.js","TeX/AMSsymbols.js"],
+  jax: ["input/TeX","output/HTML-CSS"],
+  tex2jax: {
+    inlineMath: [['$','$'],["\\(","\\)"]],
+    processEscapes: true,
+  },
+TeX: {
+   Macros: {
+    val: "\\mathop{\\rm val}",
+    divides: "\\mid",
+    ndivides: "\\mathrel{\\not|}",
+    fix: "\\mathop{\\rm fix}",
+    id: "\\mathop{\\rm id}",
+    na: "\\mathop{\\rm na}",
+    d: "\\mathop{\\rm\\strut d}\\nolimits ",
+    legendre: ["\\left(\\frac{#1}{#2}\\right)",2],
+    normalbaselines: "",
+    notdiv: "\\nmid",
+    implies: "\\Rightarrow",
+    iff: "\\Leftrightarrow",
+    sevenpoint: "\\scriptsize",
+    ds: "\\displaystyle",
+    lcm: "\\operatorname{lcm}",
+    arccot: "\\operatorname{arccot}",
+    arcsec: "\\operatorname{arcsec}",
+    arccsc: "\\operatorname{arccsc}",
+    arccosh: "\\operatorname{arccosh}",
+    arcsinh: "\\operatorname{arcsinh}",
+    arcsech: "\\operatorname{arcsech}",
+    sech: "\\operatorname{sech}",
+    csch: "\\operatorname{csch}",
+    R: "{\\mathbb R}",
+    sb: "_",
+    sp: "^",
+    Q: "{\\mathbb Q}",
+    C: "{\\mathbb C}",
+    N: "{\\mathbb N}",
+    Z: "{\\mathbb Z}",
+    U: "{\\mathbb U}",
+    v: ["\\langle #1\\rangle",1],
+    dint: ["{\\mathchoice{\\mathop{\\int\\!\\!\\!\\int}_{#1}}{\\mathop{\\int\\!\\!\\!\\int}_{#1}}{\\mathop{\\int\\!\\!\\!\\int}}{\\mathop{\\int\\!\\!\\!\\int}}}",1],
+    tint: ["{\\mathchoice{\\mathop{\\int\\!\\!\\!\\int\\!\\!\\!\\int}_{#1\\;}}{\\mathop{\\int\\!\\!\\!\\int\\!\\!\\!\\int}_{#1}}{\\mathop{\\int\\!\\!\\!\\int\\!\\!\\!\\int}_{#1}}{\\mathop{\\int\\!\\!\\!\\int\\!\\!\\!\\int}_{#1}}}",1]
+   }
+},
+  "HTML-CSS": { scale: 100},
+  menuSettings: { zscale: "150%", zoom: "Double-Click" }
+});
+    JXG.Options.text.display = 'html';
+    JXG.Options.text.useMathJax = true;
+</script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/math
+jax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+<script>
+MathJax.Hub.Register.StartupHook("End",function () {
+  if(typeof window.orientation === 'undefined'){
+    var i,x;
+    x = document.getElementsByClassName("webgl_display");
+    for (i=0; i<x.length; i++) {
+      x[i].style.display = "block";
+    }
+    x = document.getElementsByClassName("no_webgl_display");
+    for (i=0; i<x.length; i++) {
+      x[i].style.display = "none";
+    }
+  }
+});
+</script>
+
+<script src="js/jquery-3.1.0.min.js"></script>
+<script src="https://sagecell.sagemath.org/static/embedded_sagecell.js"></script>
+<script src="js/jquery.visible.min.js"></script>
+<script type="text/javascript" src="js/knowl.js"></script>
+<style type="text/css">
+
+.sagecell .CodeMirror {
+  height: auto;
+}
+
+.sagecell .CodeMirror-scroll {
+  overflow-y: hidden;
+  overflow-x: auto;
+}
+
+.sagecell-practice .CodeMirror-scroll {
+}
+
+.sagecell button.sagecell_evalButton {
+    font-size: 50%;
+}
+
+.sagecell_sessionContainer {
+    margin-bottom:1em;
+}
+</style>
+<script>
+function toggle(a) {
+  var b = String(a);
+  b=b.replace("contents","button");
+  if (document.getElementById(a).style.display == "block") {
+    document.getElementById(a).style.display = "none";
+    document.getElementById(b).src = "expand_submenu.png";
+  } else {
+    document.getElementById(a).style.display = "block";
+    document.getElementById(b).src = "collapse_submenu.png";
+  }
+}
+function toggle_sidebar() {
+  if (document.getElementById('sidebar').style.display == "block") {
+    document.getElementById('sidebar').style.display = "none";
+    document.getElementById('menu_expand').style.display = "block";
+  } else {
+    document.getElementById('sidebar').style.display = "block";
+    document.getElementById('menu_expand').style.display = "none";
+  }
+}
+</script>
+
+</head>
+
+<body class="" onload="toggle('chapter_12_contents')">
+<div id="header">
+<div class="right">
+<div class="bread">
+  <a href=".">Home</a> &raquo; <a href="chapter12.html">Three Dimensions</a> &raquo; <a href="section12.03.html">The Dot Product</a>
+</div>
+
+<FORM method=GET action=https://www.google.com/custom id="search">
+<INPUT TYPE=text name=q size=31 maxlength=255 value="" style="font-size:small">
+<INPUT type=submit name=sa VALUE="Search the book" style="font-size:small">
+<INPUT type=hidden name=cof VALUE="AH:center;AWFID:198dc2b883340b1f;">
+<input type=hidden name=domains value="www.whitman.edu">
+<input type=hidden name=sitesearch value="www.whitman.edu/mathematics/calculus_online/">
+</FORM>
+<div id="title"><span id="title-content">12.3 The Dot Product</span></div><a href="#exercises">[Jump to exercises]</a>
+</div>
+</div>
+<div id="menu_expand" style="display:none"><a href="javascript:toggle_sidebar()">Expand menu</a></div>
+<div id="sidebar" style="display:block">
+<h2 id="menu_collapse"><a href='javascript:toggle_sidebar()'>Collapse menu</a></h2>
+<h2 class="link"><img id="chapter_01_button" src="expand_submenu.png" onclick='toggle("chapter_01_contents")'><a href="chapter01.html">1 Analytic Geometry</a></h2>
+
+<ul class="list" id="chapter_01_contents">
+<li><a href="section01.01.html">1. Lines</a></li>
+<li><a href="section01.02.html">2. Distance Between Two Points; Circles</a></li>
+<li><a href="section01.03.html">3. Functions</a></li>
+<li><a href="section01.04.html">4. Shifts and Dilations</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_02_button" src="expand_submenu.png" onclick='toggle("chapter_02_contents")'><a href="chapter02.html">2 Instantaneous Rate of Change:  The Derivative</a></h2>
+
+<ul class="list" id="chapter_02_contents">
+<li><a href="section02.01.html">1. The slope of a function</a></li>
+<li><a href="section02.02.html">2. An example</a></li>
+<li><a href="section02.03.html">3. Limits</a></li>
+<li><a href="section02.04.html">4. The Derivative Function</a></li>
+<li><a href="section02.05.html">5. Adjectives For Functions</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_03_button" src="expand_submenu.png" onclick='toggle("chapter_03_contents")'><a href="chapter03.html">3 Rules for Finding Derivatives</a></h2>
+
+<ul class="list" id="chapter_03_contents">
+<li><a href="section03.01.html">1. The Power Rule</a></li>
+<li><a href="section03.02.html">2. Linearity of the Derivative</a></li>
+<li><a href="section03.03.html">3. The Product Rule</a></li>
+<li><a href="section03.04.html">4. The Quotient Rule</a></li>
+<li><a href="section03.05.html">5. The Chain Rule</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_04_button" src="expand_submenu.png" onclick='toggle("chapter_04_contents")'><a href="chapter04.html">4 Transcendental Functions</a></h2>
+
+<ul class="list" id="chapter_04_contents">
+<li><a href="section04.01.html">1. Trigonometric Functions</a></li>
+<li><a href="section04.02.html">2. The Derivative of $\sin x$</a></li>
+<li><a href="section04.03.html">3. A hard limit</a></li>
+<li><a href="section04.04.html">4. The Derivative of $\sin x$, continued</a></li>
+<li><a href="section04.05.html">5. Derivatives of the Trigonometric Functions</a></li>
+<li><a href="section04.06.html">6. Exponential and Logarithmic functions</a></li>
+<li><a href="section04.07.html">7. Derivatives of the exponential and  logarithmic functions</a></li>
+<li><a href="section04.08.html">8. Implicit Differentiation</a></li>
+<li><a href="section04.09.html">9. Inverse Trigonometric Functions</a></li>
+<li><a href="section04.10.html">10. Limits revisited</a></li>
+<li><a href="section04.11.html">11. Hyperbolic Functions</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_05_button" src="expand_submenu.png" onclick='toggle("chapter_05_contents")'><a href="chapter05.html">5 Curve Sketching</a></h2>
+
+<ul class="list" id="chapter_05_contents">
+<li><a href="section05.01.html">1. Maxima and Minima</a></li>
+<li><a href="section05.02.html">2. The first derivative test</a></li>
+<li><a href="section05.03.html">3. The second derivative test</a></li>
+<li><a href="section05.04.html">4. Concavity and inflection points</a></li>
+<li><a href="section05.05.html">5. Asymptotes and Other Things to Look For</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_06_button" src="expand_submenu.png" onclick='toggle("chapter_06_contents")'><a href="chapter06.html">6 Applications of the Derivative</a></h2>
+
+<ul class="list" id="chapter_06_contents">
+<li><a href="section06.01.html">1. Optimization</a></li>
+<li><a href="section06.02.html">2. Related Rates</a></li>
+<li><a href="section06.03.html">3. Newton's Method</a></li>
+<li><a href="section06.04.html">4. Linear Approximations</a></li>
+<li><a href="section06.05.html">5. The Mean Value Theorem</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_07_button" src="expand_submenu.png" onclick='toggle("chapter_07_contents")'><a href="chapter07.html">7 Integration</a></h2>
+
+<ul class="list" id="chapter_07_contents">
+<li><a href="section07.01.html">1. Two examples</a></li>
+<li><a href="section07.02.html">2. The Fundamental Theorem of Calculus</a></li>
+<li><a href="section07.03.html">3. Some Properties of Integrals</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_08_button" src="expand_submenu.png" onclick='toggle("chapter_08_contents")'><a href="chapter08.html">8 Techniques of Integration</a></h2>
+
+<ul class="list" id="chapter_08_contents">
+<li><a href="section08.01.html">1. Substitution</a></li>
+<li><a href="section08.02.html">2. Powers of sine and cosine</a></li>
+<li><a href="section08.03.html">3. Trigonometric Substitutions</a></li>
+<li><a href="section08.04.html">4. Integration by Parts</a></li>
+<li><a href="section08.05.html">5. Rational Functions</a></li>
+<li><a href="section08.06.html">6. Numerical Integration</a></li>
+<li><a href="section08.07.html">7. Additional exercises</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_09_button" src="expand_submenu.png" onclick='toggle("chapter_09_contents")'><a href="chapter09.html">9 Applications of Integration</a></h2>
+
+<ul class="list" id="chapter_09_contents">
+<li><a href="section09.01.html">1. Area between curves</a></li>
+<li><a href="section09.02.html">2. Distance, Velocity, Acceleration</a></li>
+<li><a href="section09.03.html">3. Volume</a></li>
+<li><a href="section09.04.html">4. Average value of a function</a></li>
+<li><a href="section09.05.html">5. Work</a></li>
+<li><a href="section09.06.html">6. Center of Mass</a></li>
+<li><a href="section09.07.html">7. Kinetic energy; improper integrals</a></li>
+<li><a href="section09.08.html">8. Probability</a></li>
+<li><a href="section09.09.html">9. Arc Length</a></li>
+<li><a href="section09.10.html">10. Surface Area</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_10_button" src="expand_submenu.png" onclick='toggle("chapter_10_contents")'><a href="chapter10.html">10 Polar Coordinates,  Parametric Equations</a></h2>
+
+<ul class="list" id="chapter_10_contents">
+<li><a href="section10.01.html">1. Polar Coordinates</a></li>
+<li><a href="section10.02.html">2. Slopes in polar coordinates</a></li>
+<li><a href="section10.03.html">3. Areas in polar coordinates</a></li>
+<li><a href="section10.04.html">4. Parametric Equations</a></li>
+<li><a href="section10.05.html">5. Calculus with Parametric Equations</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_11_button" src="expand_submenu.png" onclick='toggle("chapter_11_contents")'><a href="chapter11.html">11 Sequences and Series</a></h2>
+
+<ul class="list" id="chapter_11_contents">
+<li><a href="section11.01.html">1. Sequences</a></li>
+<li><a href="section11.02.html">2. Series</a></li>
+<li><a href="section11.03.html">3. The Integral Test</a></li>
+<li><a href="section11.04.html">4. Alternating Series</a></li>
+<li><a href="section11.05.html">5. Comparison Tests</a></li>
+<li><a href="section11.06.html">6. Absolute Convergence</a></li>
+<li><a href="section11.07.html">7. The Ratio and Root Tests</a></li>
+<li><a href="section11.08.html">8. Power Series</a></li>
+<li><a href="section11.09.html">9. Calculus with Power Series</a></li>
+<li><a href="section11.10.html">10. Taylor Series</a></li>
+<li><a href="section11.11.html">11. Taylor's Theorem</a></li>
+<li><a href="section11.12.html">12. Additional exercises</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_12_button" src="expand_submenu.png" onclick='toggle("chapter_12_contents")'><a href="chapter12.html">12 Three Dimensions</a></h2>
+
+<ul class="list" id="chapter_12_contents">
+<li><a href="section12.01.html">1. The Coordinate System</a></li>
+<li><a href="section12.02.html">2. Vectors</a></li>
+<li><a href="section12.03.html">3. The Dot Product</a></li>
+<li><a href="section12.04.html">4. The Cross Product</a></li>
+<li><a href="section12.05.html">5. Lines and Planes</a></li>
+<li><a href="section12.06.html">6. Other Coordinate Systems</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_13_button" src="expand_submenu.png" onclick='toggle("chapter_13_contents")'><a href="chapter13.html">13 Vector Functions</a></h2>
+
+<ul class="list" id="chapter_13_contents">
+<li><a href="section13.01.html">1. Space Curves</a></li>
+<li><a href="section13.02.html">2. Calculus with vector functions</a></li>
+<li><a href="section13.03.html">3. Arc length and curvature</a></li>
+<li><a href="section13.04.html">4. Motion along a curve</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_14_button" src="expand_submenu.png" onclick='toggle("chapter_14_contents")'><a href="chapter14.html">14 Partial Differentiation</a></h2>
+
+<ul class="list" id="chapter_14_contents">
+<li><a href="section14.01.html">1. Functions of Several Variables</a></li>
+<li><a href="section14.02.html">2. Limits and Continuity</a></li>
+<li><a href="section14.03.html">3. Partial Differentiation</a></li>
+<li><a href="section14.04.html">4. The Chain Rule</a></li>
+<li><a href="section14.05.html">5. Directional Derivatives</a></li>
+<li><a href="section14.06.html">6. Higher order derivatives</a></li>
+<li><a href="section14.07.html">7. Maxima and minima</a></li>
+<li><a href="section14.08.html">8. Lagrange Multipliers</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_15_button" src="expand_submenu.png" onclick='toggle("chapter_15_contents")'><a href="chapter15.html">15 Multiple Integration</a></h2>
+
+<ul class="list" id="chapter_15_contents">
+<li><a href="section15.01.html">1. Volume and Average Height</a></li>
+<li><a href="section15.02.html">2. Double Integrals in Cylindrical Coordinates</a></li>
+<li><a href="section15.03.html">3. Moment and Center of Mass</a></li>
+<li><a href="section15.04.html">4. Surface Area</a></li>
+<li><a href="section15.05.html">5. Triple Integrals</a></li>
+<li><a href="section15.06.html">6. Cylindrical and Spherical Coordinates</a></li>
+<li><a href="section15.07.html">7. Change of Variables</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_16_button" src="expand_submenu.png" onclick='toggle("chapter_16_contents")'><a href="chapter16.html">16 Vector Calculus</a></h2>
+
+<ul class="list" id="chapter_16_contents">
+<li><a href="section16.01.html">1. Vector Fields</a></li>
+<li><a href="section16.02.html">2. Line Integrals</a></li>
+<li><a href="section16.03.html">3. The Fundamental Theorem of Line Integrals</a></li>
+<li><a href="section16.04.html">4. Green's Theorem</a></li>
+<li><a href="section16.05.html">5. Divergence and Curl</a></li>
+<li><a href="section16.06.html">6. Vector Functions for Surfaces</a></li>
+<li><a href="section16.07.html">7. Surface Integrals</a></li>
+<li><a href="section16.08.html">8. Stokes's Theorem</a></li>
+<li><a href="section16.09.html">9. The Divergence Theorem</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_17_button" src="expand_submenu.png" onclick='toggle("chapter_17_contents")'><a href="chapter17.html">17 Differential Equations</a></h2>
+
+<ul class="list" id="chapter_17_contents">
+<li><a href="section17.01.html">1. First Order Differential Equations</a></li>
+<li><a href="section17.02.html">2. First Order Homogeneous Linear Equations</a></li>
+<li><a href="section17.03.html">3. First Order Linear Equations</a></li>
+<li><a href="section17.04.html">4. Approximation</a></li>
+<li><a href="section17.05.html">5. Second Order Homogeneous Equations</a></li>
+<li><a href="section17.06.html">6. Second Order Linear Equations</a></li>
+<li><a href="section17.07.html">7. Second Order Linear Equations, take two</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_18_button" src="expand_submenu.png" onclick='toggle("chapter_18_contents")'><a href="chapter18.html">18 Useful formulas</a></h2>
+
+<ul class="list" id="chapter_18_contents">
+</ul>
+
+</div>
+
+<div id="main">
+
+<div id="next"><a href="section12.02.html"><img src=previous_section.png width="30"></a>&nbsp;&nbsp;<a href="section12.04.html"><img src=next_section.png width="30"></a></div>
+
+<div id="content">
+<p>
+
+
+
+</p><p>
+Here's a question whose answer turns out to be very useful: Given two
+vectors, what is the angle between them?
+</p><p>
+It may not be immediately clear that the question makes sense, but
+it's not hard to turn it into a question that does. Since vectors have
+no position, we are as usual free to place vectors wherever we
+like. If the two vectors are placed tail-to-tail, there is now a
+reasonable interpretation of the question: we seek the measure of the
+smallest angle between the two vectors, in the plane in which they lie.
+Figure <a href="section12.03.html#fig:angle between vectors">12.3.1</a> illustrates the situation.
+</p><p>
+<a id="fig:angle between vectors"></a>
+</p><div class='figure'><!-- Three_Dimensions-angle_between_vectors.html -->
+<!-- Figure 12.3.1 -->
+
+<div id='angle_between_vectors' class='jxgbox' style='width:45%'></div>
+
+<script type='text/javascript'>
+(function () {  // BEGIN: scope limiting function wrapper
+  var xmin=-0.5, xmax= 7.5, ymin=-0.5, ymax=4.5;
+  var AspectRatio =  ((ymax-ymin)/(xmax-xmin)); // height/width
+  var wd=document.getElementById('angle_between_vectors').offsetWidth;
+  var ht=wd*AspectRatio;
+  var yfactor = (ymax-ymin)/(ht);
+  var xfactor = (xmax-xmin)/(wd);
+  var xaxis_label_offset = yfactor*15;
+  var yaxis_label_offset = xfactor*20;
+  document.getElementById('angle_between_vectors').style.height=ht+'px';
+  var brd = JXG.JSXGraph.initBoard('angle_between_vectors',{boundingbox:[xmin,ymax,xmax,ymin], showCopyright:false, showNavigation:false}) ;
+  var rejax = function() {
+     MathJax.Hub.Queue(["Typeset",MathJax.Hub]); 
+  }
+  brd.addHook(rejax)
+  brd.create('arrow', [[0,0], [3,4]],{strokeWidth:1,strokeColor:'blue',fixed:true});
+  brd.create('segment', [[3,4],[7,3]],{dash:2,strokeWidth:1,strokeColor:'black',fixed:true});
+  brd.create('arrow', [[0,0],[7,3]],{strokeWidth:1,strokeColor:'blue',fixed:true});
+  brd.create('text',[xfactor*20,yfactor*18,'$\\\\theta$'],{fixed:true});
+  brd.create('text',[1.5-xfactor*10,2+yfactor*10,'$\\\\bf A$'],{fixed:true});
+  brd.create('text',[3.5+xfactor*0,1.5-yfactor*10,'$\\\\bf B$'],{fixed:true});
+})(); // END: scope limiting function wrapper
+</script>
+<div class='figcaption'><span class="figurenumber">Figure 12.3.1.</span> The angle between vectors ${\bf A}$ and ${\bf B}$.</div></div>
+<p>
+</p><p>
+Since the angle $\theta$ lies in a triangle, we can compute it using a
+bit of trigonometry, namely, the law of cosines. The lengths of the sides of the
+triangle in figure <a href="section12.03.html#fig:angle between vectors">12.3.1</a> are $|{\bf A}|$,
+$|{\bf B}|$, and $|{\bf A}-{\bf B}|$. Let $\ds {\bf A}=\langle
+a_1,a_2,a_3\rangle$ and $\ds {\bf B}=\langle b_1,b_2,b_3\rangle$; then
+$$\eqalign{
+  |{\bf A}-{\bf B}|^2&=|{\bf A}|^2+|{\bf B}|^2-2|{\bf A}||{\bf B}|\cos\theta\cr
+  2|{\bf A}||{\bf B}|\cos\theta&=|{\bf A}|^2+|{\bf B}|^2-|{\bf A}-{\bf B}|^2\cr
+  &=a_1^2+a_2^2+a_3^2+b_1^2+b_2^2+b_3^2-(a_1-b_1)^2-(a_2-b_2)^2-(a_3-b_3)^2\cr
+  &=a_1^2+a_2^2+a_3^2+b_1^2+b_2^2+b_3^2\cr
+  &\qquad-(a_1^2-2a_1b_1+b_1^2)
+  -(a_2^2-2a_2b_2+b_2^2)-(a_3^2-2a_3b_3+b_3^2)\cr
+  &=2a_1b_1+2a_2b_2+2a_3b_3\cr
+  |{\bf A}||{\bf B}|\cos\theta&=a_1b_1+a_2b_2+a_3b_3\cr
+  \cos\theta&=(a_1b_1+a_2b_2+a_3b_3)/(|{\bf A}||{\bf B}|)\cr
+}$$
+So a bit of simple arithmetic with the coordinates of $\bf A$ and $\bf
+B$ allows us to compute the cosine of the angle between them. If
+necessary we can use the arccosine to get $\theta$, but in many
+problems $\cos\theta$ turns out to be all we really need.
+</p><p>
+The numerator of the fraction that gives us $\cos\theta$ turns up a
+lot, so we give it a name and more compact notation: we call it
+the <b>dot  product</b>, and write it as
+$${\bf A}\cdot{\bf B} = a_1b_1+a_2b_2+a_3b_3.$$
+This is the same symbol we use for ordinary multiplication, but there
+should never be any confusion; you can tell from context whether we
+are "multiplying'' vectors or numbers. (We might also use the dot for
+scalar multiplication: $a\cdot{\bf V}=a{\bf V}$; again, it is clear
+what is meant from context.)
+</p><p>
+</p>
+<div class="example">
+<p>
+<span class="theoremlabel">Example 12.3.1 </span>Find the angle between the vectors ${\bf A}=\langle 1,2,1\rangle$ and
+${\bf B}=\langle 3,1,-5\rangle$. We know that
+$\cos\theta={\bf A}\cdot{\bf B}/(|{\bf A}||{\bf B}|)=
+(1\cdot3 + 2\cdot1 + 1\cdot(-5))/(|{\bf A}||{\bf B}|)=0$, so
+$\theta=\pi/2$, that is, the vectors are perpendicular.
+
+</p>
+</div><!-- example -->
+<p>
+</p><p>
+</p>
+<div class="example">
+<p>
+<span class="theoremlabel">Example 12.3.2 </span>Find the angle between the vectors ${\bf A}=\langle 3,3,0\rangle$ and
+${\bf B}=\langle 1,0,0\rangle$. We compute
+$$\eqalign{
+\cos\theta &= (3\cdot1 + 3\cdot0 + 0\cdot0)/(\sqrt{9+9+0}\sqrt{1+0+0})\cr
+&= 3/\sqrt{18} = 1/\sqrt2\cr}$$
+so $\theta=\pi/4$.
+
+</p>
+</div><!-- example -->
+<p>
+</p><p>
+</p>
+<div class="example">
+<p>
+<span class="theoremlabel">Example 12.3.3 </span>Some special cases are worth looking at: Find the angles
+between ${\bf A}$ and ${\bf A}$; ${\bf A}$ and ${\bf -A}$;  ${\bf A}$
+and ${\bf 0}=\langle 0,0,0\rangle$.
+</p><p>
+$\ds \cos\theta= {\bf A}\cdot{\bf A}/(|{\bf A}||{\bf A}|)=(a_1^2+a_2^2+a_3^2)/
+(\sqrt{a_1^2+a_2^2+a_3^2}\sqrt{a_1^2+a_2^2+a_3^2})=1$, so the angle
+between ${\bf A}$ and itself is zero, which of course is correct.
+</p><p>
+$\ds\cos\theta={\bf A}\cdot{\bf -A}/(|{\bf A}||{\bf -A}|)=(-a_1^2-a_2^2-a_3^2)/
+(\sqrt{a_1^2+a_2^2+a_3^2}\sqrt{a_1^2+a_2^2+a_3^2})=-1$, so the angle
+is $\pi$, that is, the vectors point in opposite directions, as of
+course we already knew.
+</p><p>
+$\ds \cos\theta= {\bf A}\cdot{\bf 0}/(|{\bf A}||{\bf 0}|)=(0+0+0)/
+(\sqrt{a_1^2+a_2^2+a_3^2}\sqrt{0^2+0^2+0^2})$, which is undefined.
+On the other hand, note that since ${\bf A}\cdot{\bf 0}=0$ it looks
+at first as if $\cos\theta$ will be zero, which as we have seen means
+that vectors are perpendicular; only when we notice that the
+denominator is also zero do we run into trouble. One way to "fix''
+this is to adopt the convention that the zero vector ${\bf 0}$ is
+perpendicular to all vectors; then we can say in general that if
+${\bf A}\cdot{\bf B}=0$, $\bf A$ and $\bf B$ are perpendicular.
+
+</p>
+</div><!-- example -->
+<p>
+</p><p>
+Generalizing the examples, note the following useful facts:
+</p><ul><p>
+</p><p> 1.  If $\bf A$ is parallel or anti-parallel to $\bf B$ then
+${\bf A}\cdot{\bf B}/(|{\bf A}||{\bf B}|)=\pm1$, and conversely, if
+${\bf A}\cdot{\bf B}/(|{\bf A}||{\bf B}|)=1$, $\bf A$ and $\bf B$
+are parallel, while if ${\bf A}\cdot{\bf B}/(|{\bf A}||{\bf
+B}|)=-1$, $\bf A$ and $\bf B$ are anti-parallel. (Vectors are
+parallel 
+if they point in the same direction,
+anti-parallel 
+if they point in opposite directions.)
+</p><p> 2.  If $\bf A$ is perpendicular to $\bf B$ then 
+${\bf A}\cdot{\bf B}/(|{\bf A}||{\bf B}|)=0$, and conversely if 
+${\bf A}\cdot{\bf B}/(|{\bf A}||{\bf B}|)=0$ then 
+$\bf A$ and $\bf B$ are perpendicular.
+</p></ul><p>
+</p><p>
+Given two vectors, it is often useful to find the 
+<b>projection</b> 
+of one vector onto the other, because this turns out to have important
+meaning in many circumstances. More precisely, given ${\bf A}$ and
+${\bf B}$, we seek a vector parallel to $\bf B$ but with length
+determined by $\bf A$ in a natural way, as shown in
+figure <a href="section12.03.html#fig:vector projection">12.3.2</a>. $\bf V$ is chosen so that the
+triangle formed by $\bf A$, $\bf V$, and ${\bf A}-{\bf V}$
+is a right triangle.
+</p><p>
+<a id="fig:vector projection"></a>
+</p><div class='figure'><!-- Three_Dimensions-projection.html -->
+<!-- Figure 12.3.2 -->
+
+<div id='projection' class='jxgbox' style='width:47%'></div>
+
+<script type='text/javascript'>
+(function () {  // BEGIN: scope limiting function wrapper
+  var xmin=-0.5, xmax= 7.5, ymin=-0.5, ymax=4.5;
+  var AspectRatio =  ((ymax-ymin)/(xmax-xmin)); // height/width
+  var wd=document.getElementById('projection').offsetWidth;
+  var ht=wd*AspectRatio;
+  var yfactor = (ymax-ymin)/(ht);
+  var xfactor = (xmax-xmin)/(wd);
+  var xaxis_label_offset = yfactor*15;
+  var yaxis_label_offset = xfactor*20;
+  document.getElementById('projection').style.height=ht+'px';
+  var brd = JXG.JSXGraph.initBoard('projection',{boundingbox:[xmin,ymax,xmax,ymin], showCopyright:false, showNavigation:false}) ;
+  var rejax = function() {
+     MathJax.Hub.Queue(["Typeset",MathJax.Hub]); 
+  }
+  brd.addHook(rejax)
+  brd.create('arrow', [[0,0], [3,4]],{strokeWidth:1,strokeColor:'blue',fixed:true});
+  brd.create('segment', [[3,4],[3.98,1.71]],{dash:2,strokeWidth:1,strokeColor:'black',fixed:true});
+  brd.create('arrow', [[3.98,1.71],[7,3]],{dash:2,strokeWidth:1,strokeColor:'blue',fixed:true});
+  brd.create('arrow', [[0,0], [3.98,1.71]],{strokeWidth:1,strokeColor:'blue',fixed:true});
+  brd.create('text',[xfactor*20,yfactor*18,'$\\\\theta$'],{fixed:true});
+  brd.create('text',[1.5-xfactor*10,2+yfactor*10,'$\\\\bf A$'],{fixed:true});
+  brd.create('text',[7-xfactor*20,3-yfactor*25,'$\\\\bf B$'],{fixed:true});
+  brd.create('text',[3.5+xfactor*0,1.5-yfactor*10,'$\\\\bf V$'],{fixed:true});
+})(); // END: scope limiting function wrapper
+</script>
+<div class='figcaption'><span class="figurenumber">Figure 12.3.2.</span> $\bf V$ is the projection of $\bf A$ onto $\bf B$.</div></div>
+<p>
+</p><p>
+Using a little trigonometry, we see that 
+$$
+  |{\bf V}|=|{\bf A}|\cos\theta= 
+  |{\bf A}|{{\bf A}\cdot{\bf B}\over|{\bf A}||{\bf B}|}=
+  {{\bf A}\cdot{\bf B}\over|{\bf B}|};
+$$
+this is sometimes called the 
+<b>scalar projection of $\bf A$ onto $\bf B$</b>. To get $\bf V$
+itself, we multiply this length by a vector of length one parallel to
+$\bf B$: 
+$$
+  {\bf V}= {{\bf A}\cdot{\bf B}\over|{\bf B}|}{{\bf B}\over|{\bf B}|}=
+  {{\bf A}\cdot{\bf B}\over|{\bf B}|^2}{\bf B}.
+$$
+Be sure that you understand why ${\bf B}/|{\bf B}|$ is a vector of
+length one (also called a 
+<b>unit vector</b>) 
+parallel to $\bf B$.
+</p><p>
+The discussion so far implicitly assumed that $0\le\theta\le\pi/2$.
+If $\pi/2< \theta\le\pi$, the picture is like 
+figure <a href="section12.03.html#fig:obtuse vector projection">12.3.3</a>.
+In this case ${\bf A}\cdot {\bf B}$ is negative, so the vector
+$${{\bf A}\cdot{\bf B}\over|{\bf B}|^2}{\bf B}$$
+is anti-parallel to $\bf B$, and its length is 
+$$\left|{{\bf A}\cdot{\bf B}\over|{\bf B}|}\right|.$$
+So in general, the scalar projection of $\bf A$ onto $\bf B$
+may be positive or negative. If
+it is negative, it means that the projection vector is anti-parallel
+to $\bf B$ and that the length of the projection vector is the
+absolute value of the scalar projection. Of course, you can also
+compute the length of the projection vector as usual, by applying the
+distance formula to the vector.
+</p><p>
+<a id="fig:obtuse vector projection"></a>
+</p><div class='figure'><!-- Three_Dimensions-obtuse_projection.html -->
+<!-- Figure 12.3.3 -->
+
+<div id='obtuse_projection' class='jxgbox' style='width:53%'></div>
+
+<script type='text/javascript'>
+(function () {  // BEGIN: scope limiting function wrapper
+  var xmin=-5.5, xmax= 7.5, ymin=-2.2, ymax=4.5;
+  var AspectRatio =  ((ymax-ymin)/(xmax-xmin)); // height/width
+  var wd=document.getElementById('obtuse_projection').offsetWidth;
+  var ht=wd*AspectRatio;
+  var yfactor = (ymax-ymin)/(ht);
+  var xfactor = (xmax-xmin)/(wd);
+  var xaxis_label_offset = yfactor*15;
+  var yaxis_label_offset = xfactor*20;
+  document.getElementById('obtuse_projection').style.height=ht+'px';
+  var brd = JXG.JSXGraph.initBoard('obtuse_projection',{boundingbox:[xmin,ymax,xmax,ymin], showCopyright:false, showNavigation:false}) ;
+  var rejax = function() {
+     MathJax.Hub.Queue(["Typeset",MathJax.Hub]); 
+  }
+  brd.addHook(rejax)
+  brd.create('arrow', [[0,0], [-4.966,0.586]],{strokeWidth:1,strokeColor:'blue',fixed:true});
+  brd.create('segment', [[-3.98,-1.71],[-4.966,0.586]],{dash:2,strokeWidth:1,strokeColor:'black',fixed:true});
+  brd.create('arrow', [[0,0],[7,3]],{dash:2,strokeWidth:1,strokeColor:'blue',fixed:true});
+  brd.create('arrow', [[0,0], [-3.98,-1.71]],{strokeWidth:1,strokeColor:'blue',fixed:true});
+  brd.create('text',[xfactor*0,yfactor*10,'$\\\\theta$'],{fixed:true});
+  brd.create('text',[-2.5-xfactor*0,0.3+yfactor*7,'$\\\\bf A$'],{fixed:true});
+  brd.create('text',[7-xfactor*20,3-yfactor*25,'$\\\\bf B$'],{fixed:true});
+  brd.create('text',[-1.75+xfactor*0,-0.75-yfactor*10,'$\\\\bf V$'],{fixed:true});
+})(); // END: scope limiting function wrapper
+</script>
+<div class='figcaption'><span class="figurenumber">Figure 12.3.3.</span> $\bf V$ is the projection of $\bf A$ onto $\bf B$.</div></div>
+<p>
+</p><p>
+Note that the phrase "projection onto $\bf B$'' is a bit misleading
+if taken literally; all that $\bf B$ provides is a direction; the
+length of $\bf B$ has no impact on the final vector. In
+figure <a href="section12.03.html#fig:short projection">12.3.4</a>, for example, $\bf B$ is shorter than
+the projection vector, but this is perfectly acceptable.
+</p><p>
+<a id="fig:short projection"></a>
+</p><div class='figure'><!-- Three_Dimensions-short_projection.html -->
+<!-- Figure 12.3.4 -->
+
+<div id='short_projection' class='jxgbox' style='width:66%'></div>
+
+<script type='text/javascript'>
+(function () {  // BEGIN: scope limiting function wrapper
+  var xmin=-0.5, xmax= 9.5, ymin=-0.5, ymax=4.5;
+  var AspectRatio =  ((ymax-ymin)/(xmax-xmin)); // height/width
+  var wd=document.getElementById('short_projection').offsetWidth;
+  var ht=wd*AspectRatio;
+  var yfactor = (ymax-ymin)/(ht);
+  var xfactor = (xmax-xmin)/(wd);
+  var xaxis_label_offset = yfactor*15;
+  var yaxis_label_offset = xfactor*20;
+  document.getElementById('short_projection').style.height=ht+'px';
+  var brd = JXG.JSXGraph.initBoard('short_projection',{boundingbox:[xmin,ymax,xmax,ymin], showCopyright:false, showNavigation:false}) ;
+  var rejax = function() {
+     MathJax.Hub.Queue(["Typeset",MathJax.Hub]); 
+  }
+  brd.addHook(rejax)
+  brd.create('arrow', [[0,0], [3,4]],{strokeWidth:1,strokeColor:'blue',fixed:true});
+  brd.create('arrow', [[0,0],[2.3333,1]],{dash:2,strokeWidth:1,strokeColor:'blue',fixed:true});
+  brd.create('text',[xfactor*20,yfactor*18,'$\\\\theta$'],{fixed:true});
+  brd.create('text',[1.5-xfactor*10,2+yfactor*10,'$\\\\bf A$'],{fixed:true});
+  brd.create('text',[2.3333-xfactor*20,1-yfactor*20,'$\\\\bf B$'],{fixed:true});
+  var xoffset = 5;
+  brd.create('arrow', [[xoffset+0,0], [xoffset+3,4]],{strokeWidth:1,strokeColor:'blue',fixed:true});
+  brd.create('segment', [[xoffset+3,4],[xoffset+3.98,1.71]],{dash:2,strokeWidth:1,strokeColor:'black',fixed:true});
+  brd.create('arrow', [[xoffset+0,0],[xoffset+2.3333,1]],{strokeWidth:1,strokeColor:'blue',fixed:true});
+  brd.create('arrow', [[xoffset+0,0], [xoffset+3.98,1.71]],{strokeWidth:1,strokeColor:'blue',fixed:true});
+  brd.create('text',[xoffset+xfactor*20,yfactor*18,'$\\\\theta$'],{fixed:true});
+  brd.create('text',[xoffset+1.5-xfactor*10,2+yfactor*10,'$\\\\bf A$'],{fixed:true});
+  brd.create('text',[xoffset+2.3333-xfactor*20,1-yfactor*20,'$\\\\bf B$'],{fixed:true});
+  brd.create('text',[xoffset+3.5+xfactor*0,1.5-yfactor*10,'$\\\\bf V$'],{fixed:true});
+})(); // END: scope limiting function wrapper
+</script>
+<div class='figcaption'><span class="figurenumber">Figure 12.3.4.</span> $\bf V$ is the projection of $\bf A$ onto $\bf B$.</div></div>
+<p>
+</p><p>
+</p>
+<div class="example">
+<p>
+<span class="theoremlabel">Example 12.3.4 </span>
+<a id="example:components of force vector"></a>
+Physical force is a vector quantity. It is often necessary to compute
+the "component'' of a force acting in a different direction than the
+force is being applied. For example, suppose a ten pound weight is
+resting on an inclined plane&mdash;a pitched roof, for example. Gravity
+exerts a force of ten pounds on the object, directed straight down. It
+is useful to think of the component of this force directed down and
+parallel to the roof, and the component down and directly into the
+roof. These forces are the projections of the force vector onto
+vectors parallel and perpendicular to the roof. Suppose the roof is
+tilted at a $\ds 30^\circ$ angle, as in figure <a href="section12.03.html#fig:components of force">12.3.5</a>. A vector parallel to the roof is $\ds
+\langle-\sqrt3,-1\rangle$, and a vector perpendicular to the roof is
+$\ds \langle 1,-\sqrt3\rangle$.  The force vector is ${\bf F}=\langle
+0,-10\rangle$. The component of the force directed down the roof is
+then
+$$\eqalign{
+  {\bf F}_1&={{\bf F}\cdot
+  \langle-\sqrt3,-1\rangle\over|\langle-\sqrt3,-1\rangle|^2}
+  \langle-\sqrt3,-1\rangle
+  ={10\over 2}{\langle-\sqrt3,-1\rangle\over2}=
+  \langle -5\sqrt3/2,-5/2\rangle\cr
+}$$
+with length 5.  The component of the force directed into the roof is
+$$\eqalign{
+  {\bf F}_2&={{\bf F}\cdot
+  \langle1,-\sqrt3\rangle\over|\langle1,-\sqrt3\rangle|^2}
+  \langle1,-\sqrt3\rangle
+={10\sqrt3\over 2}{\langle1,-\sqrt3\rangle\over2}=
+\langle 5\sqrt3/2,-15/2\rangle\cr
+}$$
+with length $\ds 5\sqrt3$. Thus, a force of 5 pounds is pulling the object
+down the roof, while a force of $\ds 5\sqrt3$ pounds is pulling the object
+into the roof.
+
+</p>
+</div><!-- example -->
+<p>
+</p><p>
+<a id="fig:components of force"></a>
+</p><div class='figure'><!-- Three_Dimensions-force_vectors.html -->
+<!-- Figure 12.3.5 -->
+
+<div id='force_vectors' class='jxgbox' style='width:47%'></div>
+
+<script type='text/javascript'>
+(function () {  // BEGIN: scope limiting function wrapper
+  var xmin=-0.5, xmax= 4, ymin=-0.5, ymax=2.5;
+  var AspectRatio =  ((ymax-ymin)/(xmax-xmin)); // height/width
+  var wd=document.getElementById('force_vectors').offsetWidth;
+  var ht=wd*AspectRatio;
+  var yfactor = (ymax-ymin)/(ht);
+  var xfactor = (xmax-xmin)/(wd);
+  var xaxis_label_offset = yfactor*15;
+  var yaxis_label_offset = xfactor*20;
+  document.getElementById('force_vectors').style.height=ht+'px';
+  var brd = JXG.JSXGraph.initBoard('force_vectors',{boundingbox:[xmin,ymax,xmax,ymin], showCopyright:false, showNavigation:false}) ;
+  var rejax = function() {
+     MathJax.Hub.Queue(["Typeset",MathJax.Hub]); 
+  }
+  brd.addHook(rejax)
+  brd.create('segment', [[0,0],[3.464,2]],{strokeWidth:1,strokeColor:'black',fixed:true});
+  brd.create('arrow', [[2.5,1.443], [2.067,1.193]],{strokeWidth:1,strokeColor:'blue',fixed:true});
+  brd.create('arrow', [[2.5,1.443], [2.5,0.443]],{strokeWidth:1,strokeColor:'blue',fixed:true});
+  brd.create('arrow', [[2.5,1.443], [2.933,0.683]],{strokeWidth:1,strokeColor:'blue',fixed:true});
+  brd.create('text',[2.5+xfactor*5,0.443-yfactor*5,'$\\\\bf F$'],{fixed:true});
+  brd.create('text',[2.067+xfactor*0,1.193+yfactor*15,'$\\\\bf F\\\\sb1$'],{fixed:true});
+  brd.create('text',[2.933+xfactor*5,0.683+yfactor*0,'$\\\\bf F\\\\sb2$'],{fixed:true});
+})(); // END: scope limiting function wrapper
+</script>
+<div class='figcaption'><span class="figurenumber">Figure 12.3.5.</span> Components of a force.</div></div>
+<p>
+</p><p>
+The dot product has some familiar-looking properties that will be
+useful later, so we list them here. These may be proved by writing the
+vectors in coordinate form and then performing the indicated
+calculations; subsequently it can be easier to use the properties
+instead of calculating with coordinates.
+</p><p>
+</p>
+<div class="theorem">
+<p>
+<span class="theoremlabel">Theorem 12.3.5 </span>
+If ${\bf u}$, ${\bf v}$, and ${\bf w}$ are vectors and $a$ is a real
+number, then
+<a id="thm:dot product properties"></a>
+</p><ul><p>
+</p><p> 1.  $\ds {\bf u}\cdot{\bf u} = |{\bf u}|^2$
+</p><p>
+</p><p> 2.  ${\bf u}\cdot{\bf v} = {\bf v}\cdot{\bf u}$
+</p><p>
+</p><p> 3.  ${\bf u}\cdot({\bf v}+{\bf w}) = 
+{\bf u}\cdot{\bf v}+{\bf u}\cdot{\bf w}$
+</p><p>
+</p><p> 4.  $(a{\bf u})\cdot{\bf v}=a({\bf u}\cdot{\bf v})
+={\bf u}\cdot(a{\bf v})$
+
+</p>
+</div><!-- theorem -->
+<p>
+</p><p>
+</p></ul><p>
+</p><p>
+</p>
+<a id="exercises"></a><h2 class="exercises">Exercises 12.3</h2>
+<p></p><p>
+</p>
+<p class="exercise"><b>Ex 12.3.1</b>
+Find $\langle 1,1,1\rangle\cdot\langle 2,-3,4\rangle$.
+(<a knowl="" class="internal" value="$3$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 12.3.2</b>
+Find $\langle 1,2,0\rangle\cdot\langle 0,0,57\rangle$.
+(<a knowl="" class="internal" value="$0$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 12.3.3</b>
+Find $\langle 3,2,1\rangle\cdot\langle 0,1,0\rangle$.
+(<a knowl="" class="internal" value="$2$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 12.3.4</b>
+Find $\langle -1,-2,5\rangle\cdot\langle 1,0,-1 \rangle$.
+(<a knowl="" class="internal" value="$-6$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 12.3.5</b>
+Find $\langle 3,4,6\rangle\cdot\langle 2,3,4\rangle$.
+(<a knowl="" class="internal" value="$42$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 12.3.6</b>
+Find the cosine of the angle between $\langle 1,2,3\rangle$
+and $\langle 1,1,1\rangle$; use a calculator if necessary to find the angle.
+(<a knowl="" class="internal" value="$\ds \sqrt6/\sqrt7$, $\approx 0.39$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 12.3.7</b>
+Find the cosine of the angle between $\langle -1, -2,-3\rangle$
+and $\langle 5,0,2\rangle$; use a calculator if necessary to find the angle.
+(<a knowl="" class="internal" value="$\ds -11\sqrt{14}\sqrt{29}/406$, $\approx 2.15$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 12.3.8</b>
+Find the cosine of the angle between $\langle 47,100,0\rangle$
+and $\langle 0,0,5\rangle$; use a calculator if necessary to find the angle.
+(<a knowl="" class="internal" value="$0$, $\pi/2$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 12.3.9</b>
+Find the cosine of the angle between $\langle 1,0,1 \rangle$
+and $\langle 0,1,1\rangle$; use a calculator if necessary to find the angle.
+(<a knowl="" class="internal" value="$1/2$, $\pi/3$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 12.3.10</b>
+Find the cosine of the angle between $\langle 2,0,0\rangle$
+and $\langle -1,1,-1\rangle$; use a calculator if necessary to find the angle.
+(<a knowl="" class="internal" value="$\ds -1/\sqrt3$, $\approx 2.19$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 12.3.11</b>
+Find the angle between the diagonal of a cube and one of the
+edges adjacent to the diagonal.
+(<a knowl="" class="internal" value="$\ds \arccos(1/\sqrt3)\approx 0.96$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 12.3.12</b>
+Find the scalar and vector projections of $\langle 1,2,3\rangle$
+onto $\langle 1,2,0\rangle$.
+(<a knowl="" class="internal" value="$\ds \sqrt{5}$, $\langle 1,2,0\rangle$.">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 12.3.13</b>
+Find the scalar and vector projections of $\langle 1,1,1\rangle$
+onto $\langle 3,2,1\rangle$.
+(<a knowl="" class="internal" value="$\ds 3\sqrt{14}/7$, $\langle 9/7,6/7,3/7\rangle$.">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 12.3.14</b>
+A force of 10 pounds is applied to a wagon, directed at an
+angle of $\ds 30^\circ$. Find the component of this force pulling the
+wagon straight up, and the component pulling it horizontally along
+the ground.
+(<a knowl="" class="internal" value="$\langle 0,5\rangle$, $\ds \langle 5\sqrt3,0\rangle$">answer</a>)
+
+</p><p>
+<a id="fig:pulling a wagon"></a>
+</p><div class='figure'><!-- Three_Dimensions-wagon.html -->
+<!-- Figure 12.3.6 -->
+
+<div id='wagon' class='jxgbox' style='width:53%'></div>
+
+<script type='text/javascript'>
+(function () {  // BEGIN: scope limiting function wrapper
+  var xmin=-0.5, xmax= 11.5, ymin=-0.5, ymax=5;
+  var AspectRatio =  ((ymax-ymin)/(xmax-xmin)); // height/width
+  var wd=document.getElementById('wagon').offsetWidth;
+  var ht=wd*AspectRatio;
+  var yfactor = (ymax-ymin)/(ht);
+  var xfactor = (xmax-xmin)/(wd);
+  var xaxis_label_offset = yfactor*15;
+  var yaxis_label_offset = xfactor*20;
+  document.getElementById('wagon').style.height=ht+'px';
+  var brd = JXG.JSXGraph.initBoard('wagon',{boundingbox:[xmin,ymax,xmax,ymin], showCopyright:false, showNavigation:false}) ;
+  var rejax = function() {
+     MathJax.Hub.Queue(["Typeset",MathJax.Hub]); 
+  }
+  brd.addHook(rejax)
+  brd.create('segment', [[0,0],[11,0]],{strokeWidth:1,strokeColor:'black',fixed:true});
+  brd.create('segment', [[6,0.5],[6,2]],{strokeWidth:1,strokeColor:'black',fixed:true});
+  brd.create('segment', [[6,2],[2,2]],{strokeWidth:1,strokeColor:'black',fixed:true});
+  brd.create('segment', [[2,2],[2,0.5]],{strokeWidth:1,strokeColor:'black',fixed:true});
+  brd.create('segment', [[2,0.5],[6,0.5]],{strokeWidth:1,strokeColor:'black',fixed:true});
+  brd.create('segment', [[6,1.5],[8,2.655]],{strokeWidth:1,strokeColor:'black',fixed:true});
+  brd.create('arrow', [[8.5,2.943],[10,3.81]],{strokeWidth:1,strokeColor:'blue',fixed:true});
+  brd.create('text',[10+xfactor*5,3.81,'$\\\\bf F$'],{fixed:true});
+  brd.create('circle', [[3,0.5],[3.5,0.5]],{strokeWidth:1,strokeColor:'black',fixed:true});
+  brd.create('circle', [[5,0.5],[5.5,0.5]],{strokeWidth:1,strokeColor:'black',fixed:true});
+})(); // END: scope limiting function wrapper
+</script>
+<div class='figcaption'><span class="figurenumber">Figure 12.3.6.</span> Pulling a wagon.</div></div>
+<p>
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 12.3.15</b>
+A force of 15 pounds is applied to a wagon, directed at an
+angle of $\ds 45^\circ$. Find the component of this force pulling the
+wagon straight up, and the component pulling it horizontally along
+the ground.
+(<a knowl="" class="internal" value="$\ds \langle 0,15\sqrt2/2\rangle$,$\langle 15\sqrt2/2,0\rangle$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 12.3.16</b>
+Use the dot product to find a non-zero vector ${\bf w}$
+perpendicular to both ${\bf u}=\langle 1,2,-3\rangle$ and 
+${\bf v}=\langle 2,0,1\rangle$.
+(<a knowl="" class="internal" value="Any vector of the form $\langle a, -7a/2, -2a\rangle$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 12.3.17</b>
+Let ${\bf x}=\langle 1,1,0 \rangle$ and ${\bf y}=\langle
+2,4,2 \rangle$.  Find a unit vector that is perpendicular to both $\bf
+x$ and $\bf y$.
+(<a knowl="" class="internal" value="$\ds \langle 1/\sqrt3,-1/\sqrt3,1/\sqrt3\rangle$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 12.3.18</b>
+Do the three points $(1,2,0)$, $(-2,1,1)$, and $(0,3,-1)$
+form a right triangle?
+(<a knowl="" class="internal" value="No.">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 12.3.19</b>
+Do the three points $(1,1,1)$, $(2,3,2)$, and $(5,0,-1)$
+form a right triangle?
+(<a knowl="" class="internal" value="Yes.">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 12.3.20</b>
+Show that $|{\bf A}\cdot{\bf B}|\le|{\bf A}||{\bf B}|$
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 12.3.21</b>
+Let $\bf x$ and $\bf y$ be perpendicular vectors.  Use
+Theorem <a href="section12.03.html#thm:dot product properties">12.3.5</a> to prove that $\ds |{\bf
+  x}|^2+|{\bf y}|^2=|{\bf x}+{\bf y}|^2$.  What is this result better
+known as?
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 12.3.22</b>
+Prove that the diagonals of a rhombus intersect at right angles. 
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 12.3.23</b>
+Suppose that ${\bf z}=|{\bf x}| {\bf y} + |{\bf y}| {\bf x}$
+where $\bf x$, $\bf y$, and $\bf z$ are all nonzero vectors.  Prove
+that $\bf z$ bisects the angle between $\bf x$ and $\bf y$.
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 12.3.24</b>
+Prove Theorem <a href="section12.03.html#thm:dot product properties">12.3.5</a>.
+
+</p><p>
+
+
+</p><p>
+</div></div></body>
+</html>

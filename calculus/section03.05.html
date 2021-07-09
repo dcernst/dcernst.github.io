@@ -1,0 +1,932 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+<meta http-equiv="Content-Language" Content="en">
+<title>3.5 The Chain Rule</title>
+<!--
+<script type="text/javascript" src="js/deployJava.js"></script>
+<link rel="stylesheet" type="text/css" href="http://jsxgraph.uni-bayreuth.de/distrib/jsxgraph.css" />
+-->
+<!-- use Jsxgraph to create figures: http://jsxgraph.uni-bayreuth.de/wp/ -->
+<link rel="stylesheet" type="text/css" href="css/jsxgraph.css" />
+<script type="text/javascript" src="js/jsxgraphcore.js"></script>
+<script src="js/three.min.js"></script>
+<script src="js/Detector.js"></script>
+<script src="js/TrackballControls.js"></script>
+<script src="js/OrthographicTrackballControls.js"></script>
+<script src="js/THREEx.KeyboardState.js"></script>
+<script src="js/THREEx.FullScreen.js"></script>
+<script src="js/THREEx.WindowResize.js"></script>
+<script type='text/javascript' src='js/DAT.GUI.min.js'></script>
+<script>
+window.requestAnimFrame = (function(){
+    return  window.requestAnimationFrame       || 
+        window.webkitRequestAnimationFrame || 
+        window.mozRequestAnimationFrame    || 
+        window.oRequestAnimationFrame      || 
+        window.msRequestAnimationFrame     || 
+        function(/* function */ callback, /* DOMElement */
+            element){
+            window.setTimeout(callback, 1000 / 60);
+        };
+})();
+</script>
+<script src="js/ifvisible.min.js"></script>
+<script src="js/conrec.js"></script>
+<script>
+active = true;
+ifvisible.setIdleDuration(10);
+ifvisible.on("idle", function(){
+    active = false;
+//    console.log("idle");
+});
+
+ifvisible.on("wakeup", function(){
+    active = true;
+//    console.log("wakeup");
+});
+</script>
+<script src="js/parser.js"></script>
+<link href="css/whitman.css" rel="stylesheet" type="text/css" /><link href="css/calculus.css" rel="stylesheet" type="text/css" /><link href="css/knowlstyle.css" rel="stylesheet" type="text/css" />
+
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  extensions: ["tex2jax.js","TeX/AMSmath.js","TeX/AMSsymbols.js"],
+  jax: ["input/TeX","output/HTML-CSS"],
+  tex2jax: {
+    inlineMath: [['$','$'],["\\(","\\)"]],
+    processEscapes: true,
+  },
+TeX: {
+   Macros: {
+    val: "\\mathop{\\rm val}",
+    divides: "\\mid",
+    ndivides: "\\mathrel{\\not|}",
+    fix: "\\mathop{\\rm fix}",
+    id: "\\mathop{\\rm id}",
+    na: "\\mathop{\\rm na}",
+    d: "\\mathop{\\rm\\strut d}\\nolimits ",
+    legendre: ["\\left(\\frac{#1}{#2}\\right)",2],
+    normalbaselines: "",
+    notdiv: "\\nmid",
+    implies: "\\Rightarrow",
+    iff: "\\Leftrightarrow",
+    sevenpoint: "\\scriptsize",
+    ds: "\\displaystyle",
+    lcm: "\\operatorname{lcm}",
+    arccot: "\\operatorname{arccot}",
+    arcsec: "\\operatorname{arcsec}",
+    arccsc: "\\operatorname{arccsc}",
+    arccosh: "\\operatorname{arccosh}",
+    arcsinh: "\\operatorname{arcsinh}",
+    arcsech: "\\operatorname{arcsech}",
+    sech: "\\operatorname{sech}",
+    csch: "\\operatorname{csch}",
+    R: "{\\mathbb R}",
+    sb: "_",
+    sp: "^",
+    Q: "{\\mathbb Q}",
+    C: "{\\mathbb C}",
+    N: "{\\mathbb N}",
+    Z: "{\\mathbb Z}",
+    U: "{\\mathbb U}",
+    v: ["\\langle #1\\rangle",1],
+    dint: ["{\\mathchoice{\\mathop{\\int\\!\\!\\!\\int}_{#1}}{\\mathop{\\int\\!\\!\\!\\int}_{#1}}{\\mathop{\\int\\!\\!\\!\\int}}{\\mathop{\\int\\!\\!\\!\\int}}}",1],
+    tint: ["{\\mathchoice{\\mathop{\\int\\!\\!\\!\\int\\!\\!\\!\\int}_{#1\\;}}{\\mathop{\\int\\!\\!\\!\\int\\!\\!\\!\\int}_{#1}}{\\mathop{\\int\\!\\!\\!\\int\\!\\!\\!\\int}_{#1}}{\\mathop{\\int\\!\\!\\!\\int\\!\\!\\!\\int}_{#1}}}",1]
+   }
+},
+  "HTML-CSS": { scale: 100},
+  menuSettings: { zscale: "150%", zoom: "Double-Click" }
+});
+    JXG.Options.text.display = 'html';
+    JXG.Options.text.useMathJax = true;
+</script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/math
+jax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+<script>
+MathJax.Hub.Register.StartupHook("End",function () {
+  if(typeof window.orientation === 'undefined'){
+    var i,x;
+    x = document.getElementsByClassName("webgl_display");
+    for (i=0; i<x.length; i++) {
+      x[i].style.display = "block";
+    }
+    x = document.getElementsByClassName("no_webgl_display");
+    for (i=0; i<x.length; i++) {
+      x[i].style.display = "none";
+    }
+  }
+});
+</script>
+
+<script src="js/jquery-3.1.0.min.js"></script>
+<script src="https://sagecell.sagemath.org/static/embedded_sagecell.js"></script>
+<script src="js/jquery.visible.min.js"></script>
+<script type="text/javascript" src="js/knowl.js"></script>
+<style type="text/css">
+
+.sagecell .CodeMirror {
+  height: auto;
+}
+
+.sagecell .CodeMirror-scroll {
+  overflow-y: hidden;
+  overflow-x: auto;
+}
+
+.sagecell-practice .CodeMirror-scroll {
+}
+
+.sagecell button.sagecell_evalButton {
+    font-size: 50%;
+}
+
+.sagecell_sessionContainer {
+    margin-bottom:1em;
+}
+</style>
+<script>
+function toggle(a) {
+  var b = String(a);
+  b=b.replace("contents","button");
+  if (document.getElementById(a).style.display == "block") {
+    document.getElementById(a).style.display = "none";
+    document.getElementById(b).src = "expand_submenu.png";
+  } else {
+    document.getElementById(a).style.display = "block";
+    document.getElementById(b).src = "collapse_submenu.png";
+  }
+}
+function toggle_sidebar() {
+  if (document.getElementById('sidebar').style.display == "block") {
+    document.getElementById('sidebar').style.display = "none";
+    document.getElementById('menu_expand').style.display = "block";
+  } else {
+    document.getElementById('sidebar').style.display = "block";
+    document.getElementById('menu_expand').style.display = "none";
+  }
+}
+</script>
+
+</head>
+
+<body class="" onload="toggle('chapter_03_contents')">
+<div id="header">
+<div class="right">
+<div class="bread">
+  <a href=".">Home</a> &raquo; <a href="chapter03.html">Rules for Finding Derivatives</a> &raquo; <a href="section03.05.html">The Chain Rule</a>
+</div>
+
+<FORM method=GET action=https://www.google.com/custom id="search">
+<INPUT TYPE=text name=q size=31 maxlength=255 value="" style="font-size:small">
+<INPUT type=submit name=sa VALUE="Search the book" style="font-size:small">
+<INPUT type=hidden name=cof VALUE="AH:center;AWFID:198dc2b883340b1f;">
+<input type=hidden name=domains value="www.whitman.edu">
+<input type=hidden name=sitesearch value="www.whitman.edu/mathematics/calculus_online/">
+</FORM>
+<div id="title"><span id="title-content">3.5 The Chain Rule</span></div><a href="#exercises">[Jump to exercises]</a>
+</div>
+</div>
+<div id="menu_expand" style="display:none"><a href="javascript:toggle_sidebar()">Expand menu</a></div>
+<div id="sidebar" style="display:block">
+<h2 id="menu_collapse"><a href='javascript:toggle_sidebar()'>Collapse menu</a></h2>
+<h2 class="link"><img id="chapter_01_button" src="expand_submenu.png" onclick='toggle("chapter_01_contents")'><a href="chapter01.html">1 Analytic Geometry</a></h2>
+
+<ul class="list" id="chapter_01_contents">
+<li><a href="section01.01.html">1. Lines</a></li>
+<li><a href="section01.02.html">2. Distance Between Two Points; Circles</a></li>
+<li><a href="section01.03.html">3. Functions</a></li>
+<li><a href="section01.04.html">4. Shifts and Dilations</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_02_button" src="expand_submenu.png" onclick='toggle("chapter_02_contents")'><a href="chapter02.html">2 Instantaneous Rate of Change:  The Derivative</a></h2>
+
+<ul class="list" id="chapter_02_contents">
+<li><a href="section02.01.html">1. The slope of a function</a></li>
+<li><a href="section02.02.html">2. An example</a></li>
+<li><a href="section02.03.html">3. Limits</a></li>
+<li><a href="section02.04.html">4. The Derivative Function</a></li>
+<li><a href="section02.05.html">5. Adjectives For Functions</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_03_button" src="expand_submenu.png" onclick='toggle("chapter_03_contents")'><a href="chapter03.html">3 Rules for Finding Derivatives</a></h2>
+
+<ul class="list" id="chapter_03_contents">
+<li><a href="section03.01.html">1. The Power Rule</a></li>
+<li><a href="section03.02.html">2. Linearity of the Derivative</a></li>
+<li><a href="section03.03.html">3. The Product Rule</a></li>
+<li><a href="section03.04.html">4. The Quotient Rule</a></li>
+<li><a href="section03.05.html">5. The Chain Rule</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_04_button" src="expand_submenu.png" onclick='toggle("chapter_04_contents")'><a href="chapter04.html">4 Transcendental Functions</a></h2>
+
+<ul class="list" id="chapter_04_contents">
+<li><a href="section04.01.html">1. Trigonometric Functions</a></li>
+<li><a href="section04.02.html">2. The Derivative of $\sin x$</a></li>
+<li><a href="section04.03.html">3. A hard limit</a></li>
+<li><a href="section04.04.html">4. The Derivative of $\sin x$, continued</a></li>
+<li><a href="section04.05.html">5. Derivatives of the Trigonometric Functions</a></li>
+<li><a href="section04.06.html">6. Exponential and Logarithmic functions</a></li>
+<li><a href="section04.07.html">7. Derivatives of the exponential and  logarithmic functions</a></li>
+<li><a href="section04.08.html">8. Implicit Differentiation</a></li>
+<li><a href="section04.09.html">9. Inverse Trigonometric Functions</a></li>
+<li><a href="section04.10.html">10. Limits revisited</a></li>
+<li><a href="section04.11.html">11. Hyperbolic Functions</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_05_button" src="expand_submenu.png" onclick='toggle("chapter_05_contents")'><a href="chapter05.html">5 Curve Sketching</a></h2>
+
+<ul class="list" id="chapter_05_contents">
+<li><a href="section05.01.html">1. Maxima and Minima</a></li>
+<li><a href="section05.02.html">2. The first derivative test</a></li>
+<li><a href="section05.03.html">3. The second derivative test</a></li>
+<li><a href="section05.04.html">4. Concavity and inflection points</a></li>
+<li><a href="section05.05.html">5. Asymptotes and Other Things to Look For</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_06_button" src="expand_submenu.png" onclick='toggle("chapter_06_contents")'><a href="chapter06.html">6 Applications of the Derivative</a></h2>
+
+<ul class="list" id="chapter_06_contents">
+<li><a href="section06.01.html">1. Optimization</a></li>
+<li><a href="section06.02.html">2. Related Rates</a></li>
+<li><a href="section06.03.html">3. Newton's Method</a></li>
+<li><a href="section06.04.html">4. Linear Approximations</a></li>
+<li><a href="section06.05.html">5. The Mean Value Theorem</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_07_button" src="expand_submenu.png" onclick='toggle("chapter_07_contents")'><a href="chapter07.html">7 Integration</a></h2>
+
+<ul class="list" id="chapter_07_contents">
+<li><a href="section07.01.html">1. Two examples</a></li>
+<li><a href="section07.02.html">2. The Fundamental Theorem of Calculus</a></li>
+<li><a href="section07.03.html">3. Some Properties of Integrals</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_08_button" src="expand_submenu.png" onclick='toggle("chapter_08_contents")'><a href="chapter08.html">8 Techniques of Integration</a></h2>
+
+<ul class="list" id="chapter_08_contents">
+<li><a href="section08.01.html">1. Substitution</a></li>
+<li><a href="section08.02.html">2. Powers of sine and cosine</a></li>
+<li><a href="section08.03.html">3. Trigonometric Substitutions</a></li>
+<li><a href="section08.04.html">4. Integration by Parts</a></li>
+<li><a href="section08.05.html">5. Rational Functions</a></li>
+<li><a href="section08.06.html">6. Numerical Integration</a></li>
+<li><a href="section08.07.html">7. Additional exercises</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_09_button" src="expand_submenu.png" onclick='toggle("chapter_09_contents")'><a href="chapter09.html">9 Applications of Integration</a></h2>
+
+<ul class="list" id="chapter_09_contents">
+<li><a href="section09.01.html">1. Area between curves</a></li>
+<li><a href="section09.02.html">2. Distance, Velocity, Acceleration</a></li>
+<li><a href="section09.03.html">3. Volume</a></li>
+<li><a href="section09.04.html">4. Average value of a function</a></li>
+<li><a href="section09.05.html">5. Work</a></li>
+<li><a href="section09.06.html">6. Center of Mass</a></li>
+<li><a href="section09.07.html">7. Kinetic energy; improper integrals</a></li>
+<li><a href="section09.08.html">8. Probability</a></li>
+<li><a href="section09.09.html">9. Arc Length</a></li>
+<li><a href="section09.10.html">10. Surface Area</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_10_button" src="expand_submenu.png" onclick='toggle("chapter_10_contents")'><a href="chapter10.html">10 Polar Coordinates,  Parametric Equations</a></h2>
+
+<ul class="list" id="chapter_10_contents">
+<li><a href="section10.01.html">1. Polar Coordinates</a></li>
+<li><a href="section10.02.html">2. Slopes in polar coordinates</a></li>
+<li><a href="section10.03.html">3. Areas in polar coordinates</a></li>
+<li><a href="section10.04.html">4. Parametric Equations</a></li>
+<li><a href="section10.05.html">5. Calculus with Parametric Equations</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_11_button" src="expand_submenu.png" onclick='toggle("chapter_11_contents")'><a href="chapter11.html">11 Sequences and Series</a></h2>
+
+<ul class="list" id="chapter_11_contents">
+<li><a href="section11.01.html">1. Sequences</a></li>
+<li><a href="section11.02.html">2. Series</a></li>
+<li><a href="section11.03.html">3. The Integral Test</a></li>
+<li><a href="section11.04.html">4. Alternating Series</a></li>
+<li><a href="section11.05.html">5. Comparison Tests</a></li>
+<li><a href="section11.06.html">6. Absolute Convergence</a></li>
+<li><a href="section11.07.html">7. The Ratio and Root Tests</a></li>
+<li><a href="section11.08.html">8. Power Series</a></li>
+<li><a href="section11.09.html">9. Calculus with Power Series</a></li>
+<li><a href="section11.10.html">10. Taylor Series</a></li>
+<li><a href="section11.11.html">11. Taylor's Theorem</a></li>
+<li><a href="section11.12.html">12. Additional exercises</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_12_button" src="expand_submenu.png" onclick='toggle("chapter_12_contents")'><a href="chapter12.html">12 Three Dimensions</a></h2>
+
+<ul class="list" id="chapter_12_contents">
+<li><a href="section12.01.html">1. The Coordinate System</a></li>
+<li><a href="section12.02.html">2. Vectors</a></li>
+<li><a href="section12.03.html">3. The Dot Product</a></li>
+<li><a href="section12.04.html">4. The Cross Product</a></li>
+<li><a href="section12.05.html">5. Lines and Planes</a></li>
+<li><a href="section12.06.html">6. Other Coordinate Systems</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_13_button" src="expand_submenu.png" onclick='toggle("chapter_13_contents")'><a href="chapter13.html">13 Vector Functions</a></h2>
+
+<ul class="list" id="chapter_13_contents">
+<li><a href="section13.01.html">1. Space Curves</a></li>
+<li><a href="section13.02.html">2. Calculus with vector functions</a></li>
+<li><a href="section13.03.html">3. Arc length and curvature</a></li>
+<li><a href="section13.04.html">4. Motion along a curve</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_14_button" src="expand_submenu.png" onclick='toggle("chapter_14_contents")'><a href="chapter14.html">14 Partial Differentiation</a></h2>
+
+<ul class="list" id="chapter_14_contents">
+<li><a href="section14.01.html">1. Functions of Several Variables</a></li>
+<li><a href="section14.02.html">2. Limits and Continuity</a></li>
+<li><a href="section14.03.html">3. Partial Differentiation</a></li>
+<li><a href="section14.04.html">4. The Chain Rule</a></li>
+<li><a href="section14.05.html">5. Directional Derivatives</a></li>
+<li><a href="section14.06.html">6. Higher order derivatives</a></li>
+<li><a href="section14.07.html">7. Maxima and minima</a></li>
+<li><a href="section14.08.html">8. Lagrange Multipliers</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_15_button" src="expand_submenu.png" onclick='toggle("chapter_15_contents")'><a href="chapter15.html">15 Multiple Integration</a></h2>
+
+<ul class="list" id="chapter_15_contents">
+<li><a href="section15.01.html">1. Volume and Average Height</a></li>
+<li><a href="section15.02.html">2. Double Integrals in Cylindrical Coordinates</a></li>
+<li><a href="section15.03.html">3. Moment and Center of Mass</a></li>
+<li><a href="section15.04.html">4. Surface Area</a></li>
+<li><a href="section15.05.html">5. Triple Integrals</a></li>
+<li><a href="section15.06.html">6. Cylindrical and Spherical Coordinates</a></li>
+<li><a href="section15.07.html">7. Change of Variables</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_16_button" src="expand_submenu.png" onclick='toggle("chapter_16_contents")'><a href="chapter16.html">16 Vector Calculus</a></h2>
+
+<ul class="list" id="chapter_16_contents">
+<li><a href="section16.01.html">1. Vector Fields</a></li>
+<li><a href="section16.02.html">2. Line Integrals</a></li>
+<li><a href="section16.03.html">3. The Fundamental Theorem of Line Integrals</a></li>
+<li><a href="section16.04.html">4. Green's Theorem</a></li>
+<li><a href="section16.05.html">5. Divergence and Curl</a></li>
+<li><a href="section16.06.html">6. Vector Functions for Surfaces</a></li>
+<li><a href="section16.07.html">7. Surface Integrals</a></li>
+<li><a href="section16.08.html">8. Stokes's Theorem</a></li>
+<li><a href="section16.09.html">9. The Divergence Theorem</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_17_button" src="expand_submenu.png" onclick='toggle("chapter_17_contents")'><a href="chapter17.html">17 Differential Equations</a></h2>
+
+<ul class="list" id="chapter_17_contents">
+<li><a href="section17.01.html">1. First Order Differential Equations</a></li>
+<li><a href="section17.02.html">2. First Order Homogeneous Linear Equations</a></li>
+<li><a href="section17.03.html">3. First Order Linear Equations</a></li>
+<li><a href="section17.04.html">4. Approximation</a></li>
+<li><a href="section17.05.html">5. Second Order Homogeneous Equations</a></li>
+<li><a href="section17.06.html">6. Second Order Linear Equations</a></li>
+<li><a href="section17.07.html">7. Second Order Linear Equations, take two</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_18_button" src="expand_submenu.png" onclick='toggle("chapter_18_contents")'><a href="chapter18.html">18 Useful formulas</a></h2>
+
+<ul class="list" id="chapter_18_contents">
+</ul>
+
+</div>
+
+<div id="main">
+
+<div id="next"><a href="section03.04.html"><img src=previous_section.png width="30"></a>&nbsp;&nbsp;<a href="chapter04.html"><img src=next_section.png width="30"></a></div>
+
+<div id="content">
+<p>
+
+
+
+</p><p>
+So far we have seen how to compute the derivative of a function built
+up from other functions by addition, subtraction, multiplication and
+division. There is another very important way that we combine simple
+functions to make more complicated functions: function
+composition, as discussed in
+section <a href="section02.03.html#sec:limits">2.3</a>. For example, consider $\ds
+\sqrt{625-x^2}$. This function has many simpler components, like 625
+and $\ds x^2$, and then there is that square root symbol, so the
+square root function $\ds \sqrt{x}=x^{1/2}$ is involved. The obvious
+question is: can we compute the derivative using the derivatives of
+the constituents $\ds 625-x^2$ and $\ds \sqrt{x}$? We can indeed. In
+general, if $f(x)$ and $g(x)$ are functions, we can compute the
+derivatives of $f(g(x))$ and $g(f(x))$ in terms of $f'(x)$ and
+$g'(x)$. 
+</p><p>
+</p>
+<div class="example">
+<p>
+<span class="theoremlabel">Example 3.5.1 </span>Form the two possible compositions of $\ds f(x)=\sqrt{x}$ and
+$\ds g(x)=625-x^2$ and compute the derivatives.  First, $\ds
+f(g(x))=\sqrt{625-x^2}$, and the derivative is $\ds -x/\sqrt{625-x^2}$
+as we have seen. Second, $\ds g(f(x))=625-(\sqrt{x})^2=625-x$ with
+derivative $-1$. Of course, these calculations do not use anything
+new, and in particular the derivative of $f(g(x))$ was somewhat
+tedious to compute from the definition.
+
+</p>
+</div><!-- example -->
+<p>
+</p><p>
+Suppose we want the derivative of $f(g(x))$.
+Again, let's set up the derivative and play some algebraic tricks:
+$$\eqalign{
+{d\over dx}f(g(x))
+&=\lim_{\Delta x\to0} {f(g(x+\Delta x))-f(g(x))\over\Delta x}\cr
+&=\lim_{\Delta x\to0} {f(g(x+\Delta x))-f(g(x))\over g(x+\Delta
+  x)-g(x)} {g(x+\Delta x)-g(x)\over\Delta x}\cr
+}$$
+Now we see immediately that the second fraction turns into $g'(x)$
+when we take the limit. The first fraction is more complicated, but it
+too looks something like a derivative. The denominator, $g(x+\Delta
+x)-g(x)$, is a change in the value of $g$, so let's abbreviate
+it as $\Delta g=g(x+\Delta
+x)-g(x)$, which also means $g(x+\Delta x)=g(x)+\Delta g$. This gives
+us
+$$\lim_{\Delta x\to0} {f(g(x)+\Delta g)-f(g(x))\over \Delta g}.$$
+As $\Delta x$ goes to 0, it is also true that $\Delta g$ goes to 0,
+because $g(x+\Delta x)$ goes to $g(x)$. So we can rewrite this limit
+as
+$$\lim_{\Delta g\to0} {f(g(x)+\Delta g)-f(g(x))\over \Delta g}.$$
+Now this looks exactly like a derivative, namely $f'(g(x))$, that is,
+the function $f'(x)$ with $x$ replaced by $g(x)$. If this all
+withstands scrutiny, we then get
+$${d\over dx}f(g(x))=f'(g(x))g'(x).$$
+Unfortunately, there is a small flaw in the argument. Recall that what
+we mean by $\lim_{\Delta x\to0}$ involves what happens when $\Delta x$
+is close to 0 <em>but not equal to 0.</em> The qualification is very
+important, since we must be able to divide by $\Delta x$.
+But when $\Delta x$ is close to 0 but not equal to 0,
+$\Delta g=g(x+\Delta
+x))-g(x)$ is close to 0 <em>and possibly equal to 0.</em> This means it
+doesn't really make sense to divide by $\Delta g$.
+Fortunately, it is possible to recast the argument to avoid this
+difficulty, but it is a bit tricky; we will not include the details,
+which can be found in many calculus books. Note that many functions
+$g$ do have the property that $g(x+\Delta x)-g(x)\not=0$ when $\Delta
+x$ is small, and for these functions the argument above is fine.
+</p><p>
+The chain rule has a particularly simple expression if we use the
+Leibniz notation for the derivative. The quantity $f'(g(x))$ is the
+derivative of $f$ with $x$ replaced by $g$; this can be written 
+$df/dg$. As usual, $g'(x)=dg/dx$. Then the chain rule becomes
+$${df\over dx} = {df\over dg}{dg\over dx}.$$
+This looks like trivial arithmetic, but it is not: $dg/dx$ is not a
+fraction, that is, not literal division, but a single symbol that
+means $g'(x)$. Nevertheless, it turns out that what looks like trivial
+arithmetic, and is therefore easy to remember, is really true.
+</p><p>
+It will take a bit of practice to make the use of the chain rule come
+naturally&mdash;it is more complicated than the earlier differentiation
+rules we have seen.
+</p><p>
+</p>
+<div class="example">
+<p>
+<span class="theoremlabel">Example 3.5.2 </span>
+Compute the derivative of $\ds \sqrt{625-x^2}$. We already know that the
+answer is $\ds -x/\sqrt{625-x^2}$, computed directly from the limit. In
+the context of the chain rule, we have $\ds f(x)=\sqrt{x}$,
+$\ds g(x)=625-x^2$. We know that $\ds f'(x)=(1/2)x^{-1/2}$, so $\ds f'(g(x))=
+(1/2)(625-x^2)^{-1/2}$. Note that this is a two step computation:
+first compute $f'(x)$, then replace $x$ by $g(x)$. Since $g'(x)=-2x$
+we have
+$$f'(g(x))g'(x)={1\over 2\sqrt{625-x^2}}(-2x)={-x\over
+    \sqrt{625-x^2}}.
+$$
+</p><p>
+
+</p>
+</div><!-- example -->
+<p>
+</p><p>
+</p>
+<div class="example">
+<p>
+<span class="theoremlabel">Example 3.5.3 </span>
+Compute the derivative of $\ds 1/\sqrt{625-x^2}$. This is a quotient with
+a constant numerator, so we could use the quotient rule, but it is
+simpler to use the chain rule. The function is $\ds (625-x^2)^{-1/2}$, the
+composition of $\ds f(x)=x^{-1/2}$ and $\ds g(x)=625-x^2$. We compute
+$\ds f'(x)=(-1/2)x^{-3/2}$ using the power rule, and then
+$$f'(g(x))g'(x)={-1\over 2(625-x^2)^{3/2}}(-2x)={x\over (625-x^2)^{3/2}}.
+$$
+</p><p>
+
+</p>
+</div><!-- example -->
+<p>
+</p><p>
+In practice, of course, you will need to use more than one of the
+rules we have developed to compute the derivative of a complicated
+function.
+</p><p>
+</p>
+<div class="example">
+<p>
+<span class="theoremlabel">Example 3.5.4 </span>
+Compute the derivative of $$f(x)={x^2-1\over x\sqrt{x^2+1}}.$$
+The "last'' operation here is division, so to get started we need to
+use the quotient rule first. This gives
+$$
+\eqalign{
+f'(x)&={(x^2-1)'x\sqrt{x^2+1}-(x^2-1)(x\sqrt{x^2+1})'\over
+x^2(x^2+1)}\cr
+&={2x^2\sqrt{x^2+1}-(x^2-1)(x\sqrt{x^2+1})'\over
+x^2(x^2+1)}.\cr
+}$$
+Now we need to compute the derivative of $\ds x\sqrt{x^2+1}$. This is a
+product, so we use the product rule:
+$${d\over dx}x\sqrt{x^2+1}=x{d\over dx}\sqrt{x^2+1}+\sqrt{x^2+1}.$$
+Finally, we use the chain rule:
+$${d\over dx}\sqrt{x^2+1}={d\over dx}(x^2+1)^{1/2}=
+{1\over 2}(x^2+1)^{-1/2}(2x)={x\over \sqrt{x^2+1}}.$$
+And putting it all together:
+$$
+\eqalign{
+f'(x)&={2x^2\sqrt{x^2+1}-(x^2-1)(x\sqrt{x^2+1})'\over
+x^2(x^2+1)}.\cr
+&={2x^2\sqrt{x^2+1}-(x^2-1)\left(x{\ds{x\over \sqrt{x^2+1}}}
++\sqrt{x^2+1}\right)\over
+x^2(x^2+1)}.\cr
+}$$
+This can be simplified of course, but we have done all the calculus,
+so that only algebra is left.
+
+</p>
+</div><!-- example -->
+<p>
+</p><p>
+</p>
+<div class="example">
+<p>
+<span class="theoremlabel">Example 3.5.5 </span>
+Compute the derivative of $\ds \sqrt{1+\sqrt{1+\sqrt{x}}}$. Here we have a
+more complicated chain of compositions, so we use the chain rule
+twice.
+At the outermost "layer'' we have the function
+$\ds g(x)=1+\sqrt{1+\sqrt{x}}$ plugged into $\ds f(x)=\sqrt{x}$, so applying
+the chain rule once gives 
+$${d\over dx}\sqrt{1+\sqrt{1+\sqrt{x}}}=
+{1\over 2}\left(1+\sqrt{1+\sqrt{x}}\right)^{-1/2}{d\over dx}
+\left(1+\sqrt{1+\sqrt{x}}\right).$$
+Now we need the derivative of $\ds \sqrt{1+\sqrt{x}}$. Using the chain
+rule again:
+$${d\over dx}\sqrt{1+\sqrt{x}}={1\over
+  2}\left(1+\sqrt{x}\right)^{-1/2}{1\over 2}x^{-1/2}.$$
+So the original derivative is 
+$$
+\eqalign{
+{d\over dx}\sqrt{1+\sqrt{1+\sqrt{x}}}&=
+{1\over 2}\left(1+\sqrt{1+\sqrt{x}}\right)^{-1/2}
+{1\over
+  2}\left(1+\sqrt{x}\right)^{-1/2}{1\over 2}x^{-1/2}.\cr
+&={1\over 8 \sqrt{x}\sqrt{1+\sqrt{x}}\sqrt{1+\sqrt{1+\sqrt{x}}}}
+}$$
+</p><p>
+
+</p>
+</div><!-- example -->
+<p>
+</p><p>
+Using the chain rule, the power rule, and the product rule, it is
+possible to avoid using the quotient rule entirely.
+</p><p>
+</p>
+<div class="example">
+<p>
+<span class="theoremlabel">Example 3.5.6 </span>
+Compute the derivative of $\ds f(x)={x^3\over x^2+1}$. Write 
+$\ds f(x)=x^3(x^2+1)^{-1}$, then
+$$
+\eqalign{
+f'(x)&=x^3{d\over dx}(x^2+1)^{-1}+3x^2(x^2+1)^{-1}\cr
+&=x^3(-1)(x^2+1)^{-2}(2x)+3x^2(x^2+1)^{-1}\cr
+&=-2x^4(x^2+1)^{-2}+3x^2(x^2+1)^{-1}\cr
+&={-2x^4\over (x^2+1)^{2}}+{3x^2\over x^2+1}\cr
+&={-2x^4\over (x^2+1)^{2}}+{3x^2(x^2+1)\over (x^2+1)^{2}}\cr
+&={-2x^4+3x^4+3x^2\over (x^2+1)^{2}}={x^4+3x^2\over (x^2+1)^{2}}\cr
+}$$
+Note that we already had the derivative on the second line; all the
+rest is simplification. It is easier to get to this answer by using
+the quotient rule, so there's a trade off: more work for fewer
+memorized formulas.
+
+</p>
+</div><!-- example -->
+<p>
+</p><p>
+
+</p>
+<a id="exercises"></a><h2 class="exercises">Exercises 3.5</h2>
+<p></p><p>
+Find the derivatives of the functions. For extra practice, and to
+check your answers, do some of these in more than one way if
+possible. 
+</p><p>
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 3.5.1</b>
+$\ds x^4-3x^3+(1/2)x^2+7x-\pi$
+(<a knowl="" class="internal" value="$\ds 4x^3-9x^2+x+7$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 3.5.2</b>
+$\ds x^3-2x^2+4\sqrt{x}$
+(<a knowl="" class="internal" value="$\ds 3x^2-4x+2/\sqrt{x}$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 3.5.3</b>
+$\ds (x^2+1)^3$
+(<a knowl="" class="internal" value="$\ds 6(x^2+1)^2x$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 3.5.4</b>
+$\ds x\sqrt{169-x^2}$
+(<a knowl="" class="internal" value="$\ds \sqrt{169-x^2}-x^2/\sqrt{169-x^2}$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 3.5.5</b>
+$\ds (x^2-4x+5)\sqrt{25-x^2}$
+(<a knowl="" class="internal" value="$\ds  (2x-4)\sqrt{25-x^2}-$$(x^2-4x+5)x/\sqrt{25-x^2}$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 3.5.6</b>
+$\ds \sqrt{r^2-x^2}$, $r$ is a constant
+(<a knowl="" class="internal" value="$\ds -x/\sqrt{r^2-x^2}$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 3.5.7</b>
+$\ds \sqrt{1+x^4}$
+(<a knowl="" class="internal" value="$\ds 2x^3/\sqrt{1+x^4}$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 3.5.8</b>
+$\ds \ds{1\over\sqrt{5-\sqrt{x}}}$.
+(<a knowl="" class="internal" value="$\ds{1\over 4\sqrt{x}(5-\sqrt{x})^{3/2}}$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 3.5.9</b>
+$\ds (1+3x)^2$
+(<a knowl="" class="internal" value="$\ds  6+18x$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 3.5.10</b>
+$\ds{(x^2+x+1)\over(1-x)}$
+(<a knowl="" class="internal" value="$\ds {2 x + 1\over1 - x }+{x^2  + x + 1\over(1 - x)^2}$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 3.5.11</b>
+$\ds{\sqrt{25-x^2}\over x}$
+(<a knowl="" class="internal" value="$\ds  -1/\sqrt{25-x^2}-\sqrt{25-x^2}/x^2$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 3.5.12</b>
+$\ds\sqrt{{169\over x}-x}$
+(<a knowl="" class="internal" value="$\ds{1\over2}\left({-169\over x^2}-1\right)\Big/\sqrt{{169\over x}-x}$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 3.5.13</b>
+$\ds \sqrt{x^3-x^2-(1/x)}$
+(<a knowl="" class="internal" value="$ \ds{3x^2-2x+1/x^2\over 2\sqrt{x^3-x^2-(1/x)}}$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 3.5.14</b>
+$\ds 100/(100-x^2)^{3/2}$
+(<a knowl="" class="internal" value="$ \ds{300 x \over(100-x^2)^{5/2}}$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 3.5.15</b>
+$\ds {\root 3 \of{x+x^3}}$
+(<a knowl="" class="internal" value="$ \ds{ 1 + 3 x^2\over3(x+x^3)^{2/3}}$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 3.5.16</b>
+$\ds \sqrt{(x^2+1)^2+\sqrt{1+(x^2+1)^2}}$
+(<a knowl="" class="internal" value="$ \ds \left(4x(x^2+1)+{4x^3+4x\over2\sqrt{1+(x^2+1)^2}}\right)\Big/$
+$2\sqrt{(x^2+1)^2+\sqrt{1+(x^2+1)^2}}$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 3.5.17</b>
+$\ds (x+8)^5$
+(<a knowl="" class="internal" value="$\ds 5(x+8)^4$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 3.5.18</b>
+$\ds (4-x)^3$
+(<a knowl="" class="internal" value="$\ds -3(4-x)^2$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 3.5.19</b>
+$\ds (x^2+5)^3$
+(<a knowl="" class="internal" value="$\ds 6x(x^2+5)^2$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 3.5.20</b>
+$\ds (6-2x^2)^3$
+(<a knowl="" class="internal" value="$\ds -12x(6-2x^2)^2$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 3.5.21</b>
+$\ds (1-4x^3)^{-2}$
+(<a knowl="" class="internal" value="$\ds 24x^2(1-4x^3)^{-3}$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 3.5.22</b>
+$\ds 5(x+1-1/x)$
+(<a knowl="" class="internal" value="$\ds 5+5/x^2$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 3.5.23</b>
+$\ds 4(2x^2-x+3)^{-2}$
+(<a knowl="" class="internal" value="$\ds -8(4x-1)(2x^2-x+3)^{-3}$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 3.5.24</b>
+$\ds {1\over 1+1/x}$
+(<a knowl="" class="internal" value="$\ds 1/(x+1)^2$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 3.5.25</b>
+$\ds {-3\over 4x^2-2x+1}$
+(<a knowl="" class="internal" value="$\ds 3(8x-2)/(4x^2-2x+1)^2$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 3.5.26</b>
+$\ds (x^2+1)(5-2x)/2$
+(<a knowl="" class="internal" value="$\ds -3x^2+5x-1$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 3.5.27</b>
+$\ds (3x^2+1)(2x-4)^3$
+(<a knowl="" class="internal" value="$\ds 6x(2x-4)^3+6(3x^2+1)(2x-4)^2$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 3.5.28</b>
+$\ds{x+1\over x-1}$
+(<a knowl="" class="internal" value="$\ds -2/(x-1)^2$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 3.5.29</b>
+$\ds{x^2-1\over x^2+1}$
+(<a knowl="" class="internal" value="$\ds 4x/(x^2+1)^2$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 3.5.30</b>
+$\ds{(x-1)(x-2)\over x-3}$
+(<a knowl="" class="internal" value="$\ds (x^2-6x+7)/(x-3)^2$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 3.5.31</b>
+$\ds{2x^{-1}-x^{-2}\over 3x^{-1}-4x^{-2}}$
+(<a knowl="" class="internal" value="$\ds -5/(3x-4)^2$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 3.5.32</b>
+$\ds 3(x^2+1)(2x^2-1)(2x+3)$
+(<a knowl="" class="internal" value="$\ds 60x^4+72x^3+18x^2+18x-6$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 3.5.33</b>
+$\ds{1\over (2x+1)(x-3)}$
+(<a knowl="" class="internal" value="$\ds (5-4x)/((2x+1)^2(x-3)^2)$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 3.5.34</b>
+$\ds ((2x+1)^{-1}+3)^{-1}$
+(<a knowl="" class="internal" value="$\ds 1/(2(2+3x)^2)$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 3.5.35</b>
+$\ds (2x+1)^3(x^2+1)^2$
+(<a knowl="" class="internal" value="$\ds 56x^6+72x^5+110x^4+100x^3+60x^2+28x+6$">answer</a>)
+
+</p><p>
+
+</p><p>
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 3.5.36</b>
+Find an equation for the tangent line to 
+$\ds f(x) = (x-2)^{1/3}/(x^3 + 4x - 1)^2$ at $x=1$.
+(<a knowl="" class="internal" value="$y=23x/96-29/96$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 3.5.37</b>
+Find an equation for the tangent line to $\ds y=9x^{-2}$ at $(3,1)$.
+(<a knowl="" class="internal" value="$y=3-2x/3$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 3.5.38</b>
+Find an equation for the tangent line to $\ds (x^2-4x+5)\sqrt{25-x^2}$ 
+at $(3,8)$.
+(<a knowl="" class="internal" value="$y=13x/2-23/2$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 3.5.39</b>
+Find an equation for the tangent line to $\ds \ds{(x^2+x+1)\over(1-x)}$ 
+at $(2,-7)$.
+(<a knowl="" class="internal" value="$y=2x-11$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 3.5.40</b>
+Find an equation for the tangent line to 
+$\ds \sqrt{(x^2+1)^2+\sqrt{1+(x^2+1)^2}}$
+at $\ds (1,\sqrt{4+\sqrt{5}})$.
+(<a knowl="" class="internal" value="$\ds y=
+{20+2\sqrt5\over5\sqrt{4+\sqrt5}}\,x+{3\sqrt5\over5\sqrt{4+\sqrt5}}$">answer</a>)
+
+
+</p><p>
+
+
+</div></div></body>
+</html>

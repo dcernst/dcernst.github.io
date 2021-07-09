@@ -1,0 +1,1066 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+<meta http-equiv="Content-Language" Content="en">
+<title>9.1 Area between curves</title>
+<!--
+<script type="text/javascript" src="js/deployJava.js"></script>
+<link rel="stylesheet" type="text/css" href="http://jsxgraph.uni-bayreuth.de/distrib/jsxgraph.css" />
+-->
+<!-- use Jsxgraph to create figures: http://jsxgraph.uni-bayreuth.de/wp/ -->
+<link rel="stylesheet" type="text/css" href="css/jsxgraph.css" />
+<script type="text/javascript" src="js/jsxgraphcore.js"></script>
+<script src="js/three.min.js"></script>
+<script src="js/Detector.js"></script>
+<script src="js/TrackballControls.js"></script>
+<script src="js/OrthographicTrackballControls.js"></script>
+<script src="js/THREEx.KeyboardState.js"></script>
+<script src="js/THREEx.FullScreen.js"></script>
+<script src="js/THREEx.WindowResize.js"></script>
+<script type='text/javascript' src='js/DAT.GUI.min.js'></script>
+<script>
+window.requestAnimFrame = (function(){
+    return  window.requestAnimationFrame       || 
+        window.webkitRequestAnimationFrame || 
+        window.mozRequestAnimationFrame    || 
+        window.oRequestAnimationFrame      || 
+        window.msRequestAnimationFrame     || 
+        function(/* function */ callback, /* DOMElement */
+            element){
+            window.setTimeout(callback, 1000 / 60);
+        };
+})();
+</script>
+<script src="js/ifvisible.min.js"></script>
+<script src="js/conrec.js"></script>
+<script>
+active = true;
+ifvisible.setIdleDuration(10);
+ifvisible.on("idle", function(){
+    active = false;
+//    console.log("idle");
+});
+
+ifvisible.on("wakeup", function(){
+    active = true;
+//    console.log("wakeup");
+});
+</script>
+<script src="js/parser.js"></script>
+<link href="css/whitman.css" rel="stylesheet" type="text/css" /><link href="css/calculus.css" rel="stylesheet" type="text/css" /><link href="css/knowlstyle.css" rel="stylesheet" type="text/css" />
+
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  extensions: ["tex2jax.js","TeX/AMSmath.js","TeX/AMSsymbols.js"],
+  jax: ["input/TeX","output/HTML-CSS"],
+  tex2jax: {
+    inlineMath: [['$','$'],["\\(","\\)"]],
+    processEscapes: true,
+  },
+TeX: {
+   Macros: {
+    val: "\\mathop{\\rm val}",
+    divides: "\\mid",
+    ndivides: "\\mathrel{\\not|}",
+    fix: "\\mathop{\\rm fix}",
+    id: "\\mathop{\\rm id}",
+    na: "\\mathop{\\rm na}",
+    d: "\\mathop{\\rm\\strut d}\\nolimits ",
+    legendre: ["\\left(\\frac{#1}{#2}\\right)",2],
+    normalbaselines: "",
+    notdiv: "\\nmid",
+    implies: "\\Rightarrow",
+    iff: "\\Leftrightarrow",
+    sevenpoint: "\\scriptsize",
+    ds: "\\displaystyle",
+    lcm: "\\operatorname{lcm}",
+    arccot: "\\operatorname{arccot}",
+    arcsec: "\\operatorname{arcsec}",
+    arccsc: "\\operatorname{arccsc}",
+    arccosh: "\\operatorname{arccosh}",
+    arcsinh: "\\operatorname{arcsinh}",
+    arcsech: "\\operatorname{arcsech}",
+    sech: "\\operatorname{sech}",
+    csch: "\\operatorname{csch}",
+    R: "{\\mathbb R}",
+    sb: "_",
+    sp: "^",
+    Q: "{\\mathbb Q}",
+    C: "{\\mathbb C}",
+    N: "{\\mathbb N}",
+    Z: "{\\mathbb Z}",
+    U: "{\\mathbb U}",
+    v: ["\\langle #1\\rangle",1],
+    dint: ["{\\mathchoice{\\mathop{\\int\\!\\!\\!\\int}_{#1}}{\\mathop{\\int\\!\\!\\!\\int}_{#1}}{\\mathop{\\int\\!\\!\\!\\int}}{\\mathop{\\int\\!\\!\\!\\int}}}",1],
+    tint: ["{\\mathchoice{\\mathop{\\int\\!\\!\\!\\int\\!\\!\\!\\int}_{#1\\;}}{\\mathop{\\int\\!\\!\\!\\int\\!\\!\\!\\int}_{#1}}{\\mathop{\\int\\!\\!\\!\\int\\!\\!\\!\\int}_{#1}}{\\mathop{\\int\\!\\!\\!\\int\\!\\!\\!\\int}_{#1}}}",1]
+   }
+},
+  "HTML-CSS": { scale: 100},
+  menuSettings: { zscale: "150%", zoom: "Double-Click" }
+});
+    JXG.Options.text.display = 'html';
+    JXG.Options.text.useMathJax = true;
+</script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/math
+jax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+<script>
+MathJax.Hub.Register.StartupHook("End",function () {
+  if(typeof window.orientation === 'undefined'){
+    var i,x;
+    x = document.getElementsByClassName("webgl_display");
+    for (i=0; i<x.length; i++) {
+      x[i].style.display = "block";
+    }
+    x = document.getElementsByClassName("no_webgl_display");
+    for (i=0; i<x.length; i++) {
+      x[i].style.display = "none";
+    }
+  }
+});
+</script>
+
+<script src="js/jquery-3.1.0.min.js"></script>
+<script src="https://sagecell.sagemath.org/static/embedded_sagecell.js"></script>
+<script src="js/jquery.visible.min.js"></script>
+<script type="text/javascript" src="js/knowl.js"></script>
+<style type="text/css">
+
+.sagecell .CodeMirror {
+  height: auto;
+}
+
+.sagecell .CodeMirror-scroll {
+  overflow-y: hidden;
+  overflow-x: auto;
+}
+
+.sagecell-practice .CodeMirror-scroll {
+}
+
+.sagecell button.sagecell_evalButton {
+    font-size: 50%;
+}
+
+.sagecell_sessionContainer {
+    margin-bottom:1em;
+}
+</style>
+<script>
+function toggle(a) {
+  var b = String(a);
+  b=b.replace("contents","button");
+  if (document.getElementById(a).style.display == "block") {
+    document.getElementById(a).style.display = "none";
+    document.getElementById(b).src = "expand_submenu.png";
+  } else {
+    document.getElementById(a).style.display = "block";
+    document.getElementById(b).src = "collapse_submenu.png";
+  }
+}
+function toggle_sidebar() {
+  if (document.getElementById('sidebar').style.display == "block") {
+    document.getElementById('sidebar').style.display = "none";
+    document.getElementById('menu_expand').style.display = "block";
+  } else {
+    document.getElementById('sidebar').style.display = "block";
+    document.getElementById('menu_expand').style.display = "none";
+  }
+}
+</script>
+
+</head>
+
+<body class="" onload="toggle('chapter_09_contents')">
+<div id="header">
+<div class="right">
+<div class="bread">
+  <a href=".">Home</a> &raquo; <a href="chapter09.html">Applications of Integration</a> &raquo; <a href="section09.01.html">Area between curves</a>
+</div>
+
+<FORM method=GET action=https://www.google.com/custom id="search">
+<INPUT TYPE=text name=q size=31 maxlength=255 value="" style="font-size:small">
+<INPUT type=submit name=sa VALUE="Search the book" style="font-size:small">
+<INPUT type=hidden name=cof VALUE="AH:center;AWFID:198dc2b883340b1f;">
+<input type=hidden name=domains value="www.whitman.edu">
+<input type=hidden name=sitesearch value="www.whitman.edu/mathematics/calculus_online/">
+</FORM>
+<div id="title"><span id="title-content">9.1 Area between curves</span></div><a href="#exercises">[Jump to exercises]</a>
+</div>
+</div>
+<div id="menu_expand" style="display:none"><a href="javascript:toggle_sidebar()">Expand menu</a></div>
+<div id="sidebar" style="display:block">
+<h2 id="menu_collapse"><a href='javascript:toggle_sidebar()'>Collapse menu</a></h2>
+<h2 class="link"><img id="chapter_01_button" src="expand_submenu.png" onclick='toggle("chapter_01_contents")'><a href="chapter01.html">1 Analytic Geometry</a></h2>
+
+<ul class="list" id="chapter_01_contents">
+<li><a href="section01.01.html">1. Lines</a></li>
+<li><a href="section01.02.html">2. Distance Between Two Points; Circles</a></li>
+<li><a href="section01.03.html">3. Functions</a></li>
+<li><a href="section01.04.html">4. Shifts and Dilations</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_02_button" src="expand_submenu.png" onclick='toggle("chapter_02_contents")'><a href="chapter02.html">2 Instantaneous Rate of Change:  The Derivative</a></h2>
+
+<ul class="list" id="chapter_02_contents">
+<li><a href="section02.01.html">1. The slope of a function</a></li>
+<li><a href="section02.02.html">2. An example</a></li>
+<li><a href="section02.03.html">3. Limits</a></li>
+<li><a href="section02.04.html">4. The Derivative Function</a></li>
+<li><a href="section02.05.html">5. Adjectives For Functions</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_03_button" src="expand_submenu.png" onclick='toggle("chapter_03_contents")'><a href="chapter03.html">3 Rules for Finding Derivatives</a></h2>
+
+<ul class="list" id="chapter_03_contents">
+<li><a href="section03.01.html">1. The Power Rule</a></li>
+<li><a href="section03.02.html">2. Linearity of the Derivative</a></li>
+<li><a href="section03.03.html">3. The Product Rule</a></li>
+<li><a href="section03.04.html">4. The Quotient Rule</a></li>
+<li><a href="section03.05.html">5. The Chain Rule</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_04_button" src="expand_submenu.png" onclick='toggle("chapter_04_contents")'><a href="chapter04.html">4 Transcendental Functions</a></h2>
+
+<ul class="list" id="chapter_04_contents">
+<li><a href="section04.01.html">1. Trigonometric Functions</a></li>
+<li><a href="section04.02.html">2. The Derivative of $\sin x$</a></li>
+<li><a href="section04.03.html">3. A hard limit</a></li>
+<li><a href="section04.04.html">4. The Derivative of $\sin x$, continued</a></li>
+<li><a href="section04.05.html">5. Derivatives of the Trigonometric Functions</a></li>
+<li><a href="section04.06.html">6. Exponential and Logarithmic functions</a></li>
+<li><a href="section04.07.html">7. Derivatives of the exponential and  logarithmic functions</a></li>
+<li><a href="section04.08.html">8. Implicit Differentiation</a></li>
+<li><a href="section04.09.html">9. Inverse Trigonometric Functions</a></li>
+<li><a href="section04.10.html">10. Limits revisited</a></li>
+<li><a href="section04.11.html">11. Hyperbolic Functions</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_05_button" src="expand_submenu.png" onclick='toggle("chapter_05_contents")'><a href="chapter05.html">5 Curve Sketching</a></h2>
+
+<ul class="list" id="chapter_05_contents">
+<li><a href="section05.01.html">1. Maxima and Minima</a></li>
+<li><a href="section05.02.html">2. The first derivative test</a></li>
+<li><a href="section05.03.html">3. The second derivative test</a></li>
+<li><a href="section05.04.html">4. Concavity and inflection points</a></li>
+<li><a href="section05.05.html">5. Asymptotes and Other Things to Look For</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_06_button" src="expand_submenu.png" onclick='toggle("chapter_06_contents")'><a href="chapter06.html">6 Applications of the Derivative</a></h2>
+
+<ul class="list" id="chapter_06_contents">
+<li><a href="section06.01.html">1. Optimization</a></li>
+<li><a href="section06.02.html">2. Related Rates</a></li>
+<li><a href="section06.03.html">3. Newton's Method</a></li>
+<li><a href="section06.04.html">4. Linear Approximations</a></li>
+<li><a href="section06.05.html">5. The Mean Value Theorem</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_07_button" src="expand_submenu.png" onclick='toggle("chapter_07_contents")'><a href="chapter07.html">7 Integration</a></h2>
+
+<ul class="list" id="chapter_07_contents">
+<li><a href="section07.01.html">1. Two examples</a></li>
+<li><a href="section07.02.html">2. The Fundamental Theorem of Calculus</a></li>
+<li><a href="section07.03.html">3. Some Properties of Integrals</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_08_button" src="expand_submenu.png" onclick='toggle("chapter_08_contents")'><a href="chapter08.html">8 Techniques of Integration</a></h2>
+
+<ul class="list" id="chapter_08_contents">
+<li><a href="section08.01.html">1. Substitution</a></li>
+<li><a href="section08.02.html">2. Powers of sine and cosine</a></li>
+<li><a href="section08.03.html">3. Trigonometric Substitutions</a></li>
+<li><a href="section08.04.html">4. Integration by Parts</a></li>
+<li><a href="section08.05.html">5. Rational Functions</a></li>
+<li><a href="section08.06.html">6. Numerical Integration</a></li>
+<li><a href="section08.07.html">7. Additional exercises</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_09_button" src="expand_submenu.png" onclick='toggle("chapter_09_contents")'><a href="chapter09.html">9 Applications of Integration</a></h2>
+
+<ul class="list" id="chapter_09_contents">
+<li><a href="section09.01.html">1. Area between curves</a></li>
+<li><a href="section09.02.html">2. Distance, Velocity, Acceleration</a></li>
+<li><a href="section09.03.html">3. Volume</a></li>
+<li><a href="section09.04.html">4. Average value of a function</a></li>
+<li><a href="section09.05.html">5. Work</a></li>
+<li><a href="section09.06.html">6. Center of Mass</a></li>
+<li><a href="section09.07.html">7. Kinetic energy; improper integrals</a></li>
+<li><a href="section09.08.html">8. Probability</a></li>
+<li><a href="section09.09.html">9. Arc Length</a></li>
+<li><a href="section09.10.html">10. Surface Area</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_10_button" src="expand_submenu.png" onclick='toggle("chapter_10_contents")'><a href="chapter10.html">10 Polar Coordinates,  Parametric Equations</a></h2>
+
+<ul class="list" id="chapter_10_contents">
+<li><a href="section10.01.html">1. Polar Coordinates</a></li>
+<li><a href="section10.02.html">2. Slopes in polar coordinates</a></li>
+<li><a href="section10.03.html">3. Areas in polar coordinates</a></li>
+<li><a href="section10.04.html">4. Parametric Equations</a></li>
+<li><a href="section10.05.html">5. Calculus with Parametric Equations</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_11_button" src="expand_submenu.png" onclick='toggle("chapter_11_contents")'><a href="chapter11.html">11 Sequences and Series</a></h2>
+
+<ul class="list" id="chapter_11_contents">
+<li><a href="section11.01.html">1. Sequences</a></li>
+<li><a href="section11.02.html">2. Series</a></li>
+<li><a href="section11.03.html">3. The Integral Test</a></li>
+<li><a href="section11.04.html">4. Alternating Series</a></li>
+<li><a href="section11.05.html">5. Comparison Tests</a></li>
+<li><a href="section11.06.html">6. Absolute Convergence</a></li>
+<li><a href="section11.07.html">7. The Ratio and Root Tests</a></li>
+<li><a href="section11.08.html">8. Power Series</a></li>
+<li><a href="section11.09.html">9. Calculus with Power Series</a></li>
+<li><a href="section11.10.html">10. Taylor Series</a></li>
+<li><a href="section11.11.html">11. Taylor's Theorem</a></li>
+<li><a href="section11.12.html">12. Additional exercises</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_12_button" src="expand_submenu.png" onclick='toggle("chapter_12_contents")'><a href="chapter12.html">12 Three Dimensions</a></h2>
+
+<ul class="list" id="chapter_12_contents">
+<li><a href="section12.01.html">1. The Coordinate System</a></li>
+<li><a href="section12.02.html">2. Vectors</a></li>
+<li><a href="section12.03.html">3. The Dot Product</a></li>
+<li><a href="section12.04.html">4. The Cross Product</a></li>
+<li><a href="section12.05.html">5. Lines and Planes</a></li>
+<li><a href="section12.06.html">6. Other Coordinate Systems</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_13_button" src="expand_submenu.png" onclick='toggle("chapter_13_contents")'><a href="chapter13.html">13 Vector Functions</a></h2>
+
+<ul class="list" id="chapter_13_contents">
+<li><a href="section13.01.html">1. Space Curves</a></li>
+<li><a href="section13.02.html">2. Calculus with vector functions</a></li>
+<li><a href="section13.03.html">3. Arc length and curvature</a></li>
+<li><a href="section13.04.html">4. Motion along a curve</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_14_button" src="expand_submenu.png" onclick='toggle("chapter_14_contents")'><a href="chapter14.html">14 Partial Differentiation</a></h2>
+
+<ul class="list" id="chapter_14_contents">
+<li><a href="section14.01.html">1. Functions of Several Variables</a></li>
+<li><a href="section14.02.html">2. Limits and Continuity</a></li>
+<li><a href="section14.03.html">3. Partial Differentiation</a></li>
+<li><a href="section14.04.html">4. The Chain Rule</a></li>
+<li><a href="section14.05.html">5. Directional Derivatives</a></li>
+<li><a href="section14.06.html">6. Higher order derivatives</a></li>
+<li><a href="section14.07.html">7. Maxima and minima</a></li>
+<li><a href="section14.08.html">8. Lagrange Multipliers</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_15_button" src="expand_submenu.png" onclick='toggle("chapter_15_contents")'><a href="chapter15.html">15 Multiple Integration</a></h2>
+
+<ul class="list" id="chapter_15_contents">
+<li><a href="section15.01.html">1. Volume and Average Height</a></li>
+<li><a href="section15.02.html">2. Double Integrals in Cylindrical Coordinates</a></li>
+<li><a href="section15.03.html">3. Moment and Center of Mass</a></li>
+<li><a href="section15.04.html">4. Surface Area</a></li>
+<li><a href="section15.05.html">5. Triple Integrals</a></li>
+<li><a href="section15.06.html">6. Cylindrical and Spherical Coordinates</a></li>
+<li><a href="section15.07.html">7. Change of Variables</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_16_button" src="expand_submenu.png" onclick='toggle("chapter_16_contents")'><a href="chapter16.html">16 Vector Calculus</a></h2>
+
+<ul class="list" id="chapter_16_contents">
+<li><a href="section16.01.html">1. Vector Fields</a></li>
+<li><a href="section16.02.html">2. Line Integrals</a></li>
+<li><a href="section16.03.html">3. The Fundamental Theorem of Line Integrals</a></li>
+<li><a href="section16.04.html">4. Green's Theorem</a></li>
+<li><a href="section16.05.html">5. Divergence and Curl</a></li>
+<li><a href="section16.06.html">6. Vector Functions for Surfaces</a></li>
+<li><a href="section16.07.html">7. Surface Integrals</a></li>
+<li><a href="section16.08.html">8. Stokes's Theorem</a></li>
+<li><a href="section16.09.html">9. The Divergence Theorem</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_17_button" src="expand_submenu.png" onclick='toggle("chapter_17_contents")'><a href="chapter17.html">17 Differential Equations</a></h2>
+
+<ul class="list" id="chapter_17_contents">
+<li><a href="section17.01.html">1. First Order Differential Equations</a></li>
+<li><a href="section17.02.html">2. First Order Homogeneous Linear Equations</a></li>
+<li><a href="section17.03.html">3. First Order Linear Equations</a></li>
+<li><a href="section17.04.html">4. Approximation</a></li>
+<li><a href="section17.05.html">5. Second Order Homogeneous Equations</a></li>
+<li><a href="section17.06.html">6. Second Order Linear Equations</a></li>
+<li><a href="section17.07.html">7. Second Order Linear Equations, take two</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_18_button" src="expand_submenu.png" onclick='toggle("chapter_18_contents")'><a href="chapter18.html">18 Useful formulas</a></h2>
+
+<ul class="list" id="chapter_18_contents">
+</ul>
+
+</div>
+
+<div id="main">
+
+<div id="next"><a href="chapter09.html"><img src=previous_section.png width="30"></a>&nbsp;&nbsp;<a href="section09.02.html"><img src=next_section.png width="30"></a></div>
+
+<div id="content">
+<p>
+
+
+
+</p><p>
+We have seen how integration can be used to find an area between a
+curve and the $x$-axis. With very little change we can find some areas
+between curves; indeed, the area between a curve and the $x$-axis may
+be interpreted as the area between the curve and a second "curve''
+with equation $y=0$. In the simplest of cases, the idea is quite easy
+to understand.
+</p><p>
+</p>
+<div class="example">
+<p>
+<span class="theoremlabel">Example 9.1.1 </span>Find the area below $\ds f(x)= -x^2+4x+3$ and above
+$\ds g(x)=-x^3+7x^2-10x+5$ over the interval $1\le x\le2$. In
+figure <a href="section09.01.html#fig:area between curves">9.1.1</a> we show the two curves together, with
+the desired area shaded, then $f$ alone with the area under $f$
+shaded, and then $g$ alone with the area under $g$ shaded. 
+</p><p>
+<a id="fig:area between curves"></a>
+</p><div class='figure'><!-- Integration_applications-area_between_curves.html -->
+<!-- Figure 9.1.1 -->
+
+<table style="width:100%;margin-left:auto;margin-right:auto">
+<tr style="width:100%">
+<td style="width:33%">
+<div id='area_between_curves' class='jxgbox'></div>
+</td><td style="width:33%">
+<div id='area_under_top_curve' class='jxgbox'></div>
+</td><td style="width:33%">
+<div id='area_under_bottom_curve' class='jxgbox'></div>
+</td></tr></table>
+
+<script type='text/javascript'>
+(function () {  // BEGIN: scope limiting function wrapper
+  var xmin=-0.5, xmax= 3.5, ymin=-1.5, ymax=12;
+  var AspectRatio =  (1); // height/width
+  var wd=document.getElementById('area_between_curves').offsetWidth;
+  var ht=wd*AspectRatio;
+  var yfactor = (ymax-ymin)/(ht);
+  var xfactor = (xmax-xmin)/(wd);
+  var xaxis_label_offset = yfactor*15;
+  var yaxis_label_offset = xfactor*20;
+  document.getElementById('area_between_curves').style.height=ht+'px';
+  var brd = JXG.JSXGraph.initBoard('area_between_curves',{boundingbox:[xmin,ymax,xmax,ymin], showCopyright:false, showNavigation:false}) ;
+  var rejax = function() {
+     MathJax.Hub.Queue(["Typeset",MathJax.Hub]); 
+  }
+  brd.addHook(rejax)
+
+  var f = function(x) { return -x*x+4*x+3; }
+  var g = function(x) { return -x*x*x+7*x*x-10*x+5; }
+
+  var xaxis = brd.create('arrow', [[0,0], [3.2,0]],{strokeWidth:1,strokeColor:'black',fixed:true});
+  var yaxis = brd.create('arrow', [[0,0],[0,11]],{strokeWidth:1,strokeColor:'black',fixed:true});
+  var xi = brd.create('segment',[[0,0],[3.1,0]],{visible:false});
+  brd.create('ticks',[xi,1],{minorTicks:false});
+  var yi = brd.create('segment',[[0,0],[0,10.1]],{visible:false});
+  brd.create('ticks',[yi,1],{minorTicks:false});
+  brd.create('text',[1,-xaxis_label_offset,'$1$']);
+  brd.create('text',[2,-xaxis_label_offset,'$2$']);
+  brd.create('text',[3,-xaxis_label_offset,'$3$']);
+  brd.create('text',[-yaxis_label_offset,10,'$10$']);
+  var fgraph = brd.create('functiongraph', [f,0,3],{strokeWidth: 2, dash:0});
+  var ggraph = brd.create('functiongraph', [g,0,3],{strokeWidth: 2, dash:0});
+  var region_x = function (t) {
+    if (t<1) { return 1; }
+    if (t<2) { return t; }
+    if (t<3) { return 2; }
+    return 5-t;
+  }
+  var region_y = function (t) {
+    if (t<1) { return (1-t)*f(1)+t*g(1); }
+    if (t<2) { return g(t); }
+    if (t<3) { return (3-t)*g(2) + (t-2)*f(2); }
+    return f(5-t);
+  }
+  var region = brd.create('curve',[
+        function (t) { return region_x(t); },
+        function (t) { return region_y(t); },0,4],{strokeColor:'black',strokeWidth:1,fillColor:'#FFB7D5',fillOpacity:1});
+})(); // END: scope limiting function wrapper
+</script>
+
+
+<script type='text/javascript'>
+(function () {  // BEGIN: scope limiting function wrapper
+  var xmin=-0.5, xmax= 3.5, ymin=-1.5, ymax=12;
+  var AspectRatio =  (1); // height/width
+  var wd=document.getElementById('area_under_top_curve').offsetWidth;
+  var ht=wd*AspectRatio;
+  var yfactor = (ymax-ymin)/(ht);
+  var xfactor = (xmax-xmin)/(wd);
+  var xaxis_label_offset = yfactor*15;
+  var yaxis_label_offset = xfactor*20;
+  document.getElementById('area_under_top_curve').style.height=ht+'px';
+  var brd = JXG.JSXGraph.initBoard('area_under_top_curve',{boundingbox:[xmin,ymax,xmax,ymin], showCopyright:false, showNavigation:false}) ;
+  var rejax = function() {
+     MathJax.Hub.Queue(["Typeset",MathJax.Hub]); 
+  }
+  brd.addHook(rejax)
+
+  var f = function(x) { return -x*x+4*x+3; }
+
+  var xaxis = brd.create('arrow', [[0,0], [3.2,0]],{strokeWidth:1,strokeColor:'black',fixed:true});
+  var yaxis = brd.create('arrow', [[0,0],[0,11]],{strokeWidth:1,strokeColor:'black',fixed:true});
+  var xi = brd.create('segment',[[0,0],[3.1,0]],{visible:false});
+  brd.create('ticks',[xi,1],{minorTicks:false});
+  var yi = brd.create('segment',[[0,0],[0,10.1]],{visible:false});
+  brd.create('ticks',[yi,1],{minorTicks:false});
+  brd.create('text',[1,-xaxis_label_offset,'$1$']);
+  brd.create('text',[2,-xaxis_label_offset,'$2$']);
+  brd.create('text',[3,-xaxis_label_offset,'$3$']);
+  brd.create('text',[-yaxis_label_offset,10,'$10$']);
+  var fgraph = brd.create('functiongraph', [f,0,3],{strokeWidth: 2, dash:0});
+  var region_x = function (t) {
+    if (t<1) { return 1; }
+    if (t<2) { return t; }
+    if (t<3) { return 2; }
+    return 5-t;
+  }
+  var region_y = function (t) {
+    if (t<1) { return (1-t)*f(1); }
+    if (t<2) { return 0; }
+    if (t<3) { return (t-2)*f(2); }
+    return f(5-t);
+  }
+  var region = brd.create('curve',[
+        function (t) { return region_x(t); },
+        function (t) { return region_y(t); },0,4],{strokeColor:'black',strokeWidth:1,fillColor:'#FFB7D5',fillOpacity:1});
+})(); // END: scope limiting function wrapper
+</script>
+
+
+<script type='text/javascript'>
+(function () {  // BEGIN: scope limiting function wrapper
+  var xmin=-0.5, xmax= 3.5, ymin=-1.5, ymax=12;
+  var AspectRatio =  (1); // height/width
+  var wd=document.getElementById('area_under_bottom_curve').offsetWidth;
+  var ht=wd*AspectRatio;
+  var yfactor = (ymax-ymin)/(ht);
+  var xfactor = (xmax-xmin)/(wd);
+  var xaxis_label_offset = yfactor*15;
+  var yaxis_label_offset = xfactor*20;
+  document.getElementById('area_under_bottom_curve').style.height=ht+'px';
+  var brd = JXG.JSXGraph.initBoard('area_under_bottom_curve',{boundingbox:[xmin,ymax,xmax,ymin], showCopyright:false, showNavigation:false}) ;
+  var rejax = function() {
+     MathJax.Hub.Queue(["Typeset",MathJax.Hub]); 
+  }
+  brd.addHook(rejax)
+
+  var g = function(x) { return -x*x*x+7*x*x-10*x+5; }
+
+  var xaxis = brd.create('arrow', [[0,0], [3.2,0]],{strokeWidth:1,strokeColor:'black',fixed:true});
+  var yaxis = brd.create('arrow', [[0,0],[0,11]],{strokeWidth:1,strokeColor:'black',fixed:true});
+  var xi = brd.create('segment',[[0,0],[3.1,0]],{visible:false});
+  brd.create('ticks',[xi,1],{minorTicks:false});
+  var yi = brd.create('segment',[[0,0],[0,10.1]],{visible:false});
+  brd.create('ticks',[yi,1],{minorTicks:false});
+  brd.create('text',[1,-xaxis_label_offset,'$1$']);
+  brd.create('text',[2,-xaxis_label_offset,'$2$']);
+  brd.create('text',[3,-xaxis_label_offset,'$3$']);
+  brd.create('text',[-yaxis_label_offset,10,'$10$']);
+  var ggraph = brd.create('functiongraph', [g,0,3],{strokeWidth: 2, dash:0});
+  var region_x = function (t) {
+    if (t<1) { return 1; }
+    if (t<2) { return t; }
+    if (t<3) { return 2; }
+    return 5-t;
+  }
+  var region_y = function (t) {
+    if (t<1) { return (1-t)*g(1); }
+    if (t<2) { return 0; }
+    if (t<3) { return (t-2)*g(2); }
+    return g(5-t);
+  }
+  var region = brd.create('curve',[
+        function (t) { return region_x(t); },
+        function (t) { return region_y(t); },0,4],{strokeColor:'black',strokeWidth:1,fillColor:'#FFB7D5',fillOpacity:1});
+})(); // END: scope limiting function wrapper
+</script>
+<div class='figcaption'><span class="figurenumber">Figure 9.1.1.</span> Area between curves as a difference of areas.</div></div>
+<p>
+</p><p>
+It is clear
+from the figure that the area we want is the area under $f$ minus the
+area under $g$, which is to say
+$$\int_1^2 f(x)\,dx-\int_1^2 g(x)\,dx = \int_1^2 f(x)-g(x)\,dx.$$
+It doesn't matter whether we compute the two integrals on the left and
+then subtract or compute the single integral on the right. In this
+case, the latter is perhaps a bit easier:
+$$\eqalign{
+  \int_1^2 f(x)-g(x)\,dx&=\int_1^2 -x^2+4x+3-(-x^3+7x^2-10x+5)\,dx\cr
+  &=\int_1^2 x^3-8x^2+14x-2\,dx\cr
+  &=\left.{x^4\over4}-{8x^3\over3}+7x^2-2x\right|_1^2\cr
+  &={16\over4}-{64\over3}+28-4-({1\over4}-{8\over3}+7-2)\cr
+  &=23-{56\over3}-{1\over4}={49\over12}.\cr
+}$$
+
+</p>
+</div><!-- example -->
+<p>
+</p><p>
+It is worth examining this problem a bit more. We have seen one way to
+look at it, by viewing the desired area as a big area minus a small
+area, which leads naturally to the difference between two
+integrals. But it is instructive to consider how we might find the
+desired area directly. We can approximate the area by dividing the
+area into thin sections and approximating the area of each section by
+a rectangle, as indicated in 
+figure <a href="section09.01.html#fig:rectangles between curves">9.1.2</a>. 
+The area of a typical rectangle is 
+$\Delta x(f(x_i)-g(x_i))$, so the total area is approximately
+$$\sum_{i=0}^{n-1} (f(x_i)-g(x_i))\Delta x.$$
+This is exactly the sort of sum that turns into an integral in the
+limit, namely the integral
+$$\int_1^2 f(x)-g(x)\,dx.$$
+Of course, this is the integral we actually computed above, but we
+have now arrived at it directly rather than as a modification of the
+difference between two other integrals. In that example it really
+doesn't matter which approach we take, but in some cases this second
+approach is better.
+</p><p>
+<a id="fig:rectangles between curves"></a>
+</p><div class='figure'><!-- Integration_applications-area_between_curves_rectangles.html -->
+<!-- Figure 9.1.2 -->
+
+<div id='area_between_curves_rectangles' class='jxgbox' style='width:33%;'></div>
+
+<script type='text/javascript'>
+(function () {  // BEGIN: scope limiting function wrapper
+  var xmin=-0.5, xmax= 3.5, ymin=-1.5, ymax=12;
+  var AspectRatio =  (1); // height/width
+  var wd=document.getElementById('area_between_curves_rectangles').offsetWidth;
+  var ht=wd*AspectRatio;
+  var yfactor = (ymax-ymin)/(ht);
+  var xfactor = (xmax-xmin)/(wd);
+  var xaxis_label_offset = yfactor*15;
+  var yaxis_label_offset = xfactor*20;
+  document.getElementById('area_between_curves_rectangles').style.height=ht+'px';
+  var brd = JXG.JSXGraph.initBoard('area_between_curves_rectangles',{boundingbox:[xmin,ymax,xmax,ymin], showCopyright:false, showNavigation:false}) ;
+  var rejax = function() {
+     MathJax.Hub.Queue(["Typeset",MathJax.Hub]); 
+  }
+  brd.addHook(rejax)
+
+  var f = function(x) { return -x*x+4*x+3; }
+  var g = function(x) { return -x*x*x+7*x*x-10*x+5; }
+
+  var xaxis = brd.create('arrow', [[0,0], [3.2,0]],{strokeWidth:1,strokeColor:'black',fixed:true});
+  var yaxis = brd.create('arrow', [[0,0],[0,11]],{strokeWidth:1,strokeColor:'black',fixed:true});
+  var xi = brd.create('segment',[[0,0],[3.1,0]],{visible:false});
+  brd.create('ticks',[xi,1],{minorTicks:false});
+  var yi = brd.create('segment',[[0,0],[0,10.1]],{visible:false});
+  brd.create('ticks',[yi,1],{minorTicks:false});
+  brd.create('text',[1,-xaxis_label_offset,'$1$'],{fixed:true});
+  brd.create('text',[2,-xaxis_label_offset,'$2$'],{fixed:true});
+  brd.create('text',[3,-xaxis_label_offset,'$3$'],{fixed:true});
+  brd.create('text',[-yaxis_label_offset,10,'$10$'],{fixed:true});
+  var fgraph = brd.create('functiongraph', [f,0,3],{strokeWidth: 2, dash:0});
+  var ggraph = brd.create('functiongraph', [g,0,3],{strokeWidth: 2, dash:0});
+  var region_x = function (t) {
+    if (t<1) { return 1; }
+    if (t<2) { return t; }
+    if (t<3) { return 2; }
+    return 5-t;
+  }
+  var region_y = function (t) {
+    if (t<1) { return (1-t)*f(1)+t*g(1); }
+    if (t<2) { return g(t); }
+    if (t<3) { return (3-t)*g(2) + (t-2)*f(2); }
+    return f(5-t);
+  }
+  var region = brd.create('curve',[
+        function (t) { return region_x(t); },
+        function (t) { return region_y(t); },0,4],{strokeColor:'black',strokeWidth:1,fillColor:'#FFB7D5',fillOpacity:0.7});
+  var p1 = brd.create('point',[1.465,f(1.465)],{visible:false,fixed:true});
+  var p2 = brd.create('point',[1.465,g(1.465)],{visible:false,fixed:true});
+  var p3 = brd.create('point',[1.575,g(1.465)],{visible:false,fixed:true});
+  var p4 = brd.create('point',[1.575,f(1.465)],{visible:false,fixed:true});
+  var p5 = brd.create('point',[1.575,f(1.575)],{visible:false,fixed:true});
+  var p6 = brd.create('point',[1.575,g(1.575)],{visible:false,fixed:true});
+  var p7 = brd.create('point',[1.685,g(1.575)],{visible:false,fixed:true});
+  var p8 = brd.create('point',[1.685,f(1.575)],{visible:false,fixed:true});
+  brd.create('polygon',[p1,p2,p3,p4],{strokeColor:'black'});
+  brd.create('polygon',[p5,p6,p7,p8],{strokeColor:'black'});
+})(); // END: scope limiting function wrapper
+</script>
+<div class='figcaption'><span class="figurenumber">Figure 9.1.2.</span> Approximating area between curves with rectangles.</div></div>
+<p>
+</p><p>
+</p>
+<div class="example">
+<p>
+<span class="theoremlabel">Example 9.1.2 </span>Find the area below $\ds f(x)= -x^2+4x+1$ and above
+$\ds g(x)=-x^3+7x^2-10x+3$ over the interval $1\le x\le2$; these are the
+same curves as before but lowered by 2. In
+figure <a href="section09.01.html#fig:area between curves too">9.1.3</a> we show the two curves
+together. Note that the lower curve now dips below the $x$-axis. This
+makes it somewhat tricky to view the desired area as a big area minus
+a smaller area, but it is just as easy as before to think of
+approximating the area by rectangles. The height of a typical
+rectangle will still be $f(x_i)-g(x_i)$, even if $g(x_i)$ is
+negative. Thus the area is 
+$$
+  \int_1^2 -x^2+4x+1-(-x^3+7x^2-10x+3)\,dx
+  =\int_1^2 x^3-8x^2+14x-2\,dx.
+$$
+This is of course the same integral as before, because the region
+between the curves is identical to the former region&mdash;it has just
+been moved down by 2.
+
+</p>
+</div><!-- example -->
+<p>
+</p><p>
+<a id="fig:area between curves too"></a>
+</p><div class='figure'><!-- Integration_applications-area_between_curves_general.html -->
+<!-- Figure 9.1.3 -->
+
+<div id='area_between_curves_general' class='jxgbox' style='width:33%;'></div>
+
+<script type='text/javascript'>
+(function () {  // BEGIN: scope limiting function wrapper
+  var xmin=-0.5, xmax= 3.5, ymin=-1.5, ymax=12;
+  var AspectRatio =  (1); // height/width
+  var wd=document.getElementById('area_between_curves_general').offsetWidth;
+  var ht=wd*AspectRatio;
+  var yfactor = (ymax-ymin)/(ht);
+  var xfactor = (xmax-xmin)/(wd);
+  var xaxis_label_offset = yfactor*15;
+  var yaxis_label_offset = xfactor*20;
+  document.getElementById('area_between_curves_general').style.height=ht+'px';
+  var brd = JXG.JSXGraph.initBoard('area_between_curves_general',{boundingbox:[xmin,ymax,xmax,ymin], showCopyright:false, showNavigation:false}) ;
+  var rejax = function() {
+     MathJax.Hub.Queue(["Typeset",MathJax.Hub]); 
+  }
+  brd.addHook(rejax)
+
+  var f = function(x) { return -x*x+4*x+1; }
+  var g = function(x) { return -x*x*x+7*x*x-10*x+3; }
+
+  var xaxis = brd.create('arrow', [[0,0], [3.2,0]],{strokeWidth:1,strokeColor:'black',fixed:true});
+  var yaxis = brd.create('arrow', [[0,0],[0,11]],{strokeWidth:1,strokeColor:'black',fixed:true});
+  var xi = brd.create('segment',[[0,0],[3.1,0]],{visible:false});
+  brd.create('ticks',[xi,1],{minorTicks:false});
+  var yi = brd.create('segment',[[0,0],[0,10.1]],{visible:false});
+  brd.create('ticks',[yi,1],{minorTicks:false});
+  brd.create('text',[1,-xaxis_label_offset,'$1$']);
+  brd.create('text',[2,-xaxis_label_offset,'$2$']);
+  brd.create('text',[3,-xaxis_label_offset,'$3$']);
+  brd.create('text',[-yaxis_label_offset,10,'$10$']);
+  var fgraph = brd.create('functiongraph', [f,0,3],{strokeWidth: 2, dash:0});
+  var ggraph = brd.create('functiongraph', [g,0,3],{strokeWidth: 2, dash:0});
+  var region_x = function (t) {
+    if (t<1) { return 1; }
+    if (t<2) { return t; }
+    if (t<3) { return 2; }
+    return 5-t;
+  }
+  var region_y = function (t) {
+    if (t<1) { return (1-t)*f(1)+t*g(1); }
+    if (t<2) { return g(t); }
+    if (t<3) { return (3-t)*g(2) + (t-2)*f(2); }
+    return f(5-t);
+  }
+  var region = brd.create('curve',[
+        function (t) { return region_x(t); },
+        function (t) { return region_y(t); },0,4],{strokeColor:'black',strokeWidth:1,fillColor:'#FFB7D5',fillOpacity:1});
+})(); // END: scope limiting function wrapper
+</script>
+<div class='figcaption'><span class="figurenumber">Figure 9.1.3.</span> Area between curves.</div></div>
+<p>
+</p><p>
+</p>
+<div class="example">
+<p>
+<span class="theoremlabel">Example 9.1.3 </span>Find the area between $\ds f(x)= -x^2+4x$ and
+$\ds g(x)=x^2-6x+5$ over the interval $0\le x\le 1$; the
+curves are shown in figure <a href="section09.01.html#fig:curves cross">9.1.4</a>. Generally we
+should interpret "area'' in the usual sense, as a necessarily
+positive quantity. Since the two curves cross, we need to compute two 
+areas and add them. First we find the intersection point of the
+curves:
+$$\eqalign{
+  -x^2+4x&=x^2-6x+5\cr
+  0&=2x^2-10x+5\cr
+  x&={10\pm\sqrt{100-40}\over4}={5\pm\sqrt{15}\over2}.\cr
+}$$
+The intersection point we want is $\ds x=a=(5-\sqrt{15})/2$. Then
+the total area is 
+$$\eqalign{
+  \int_0^a x^2-6x+5-(-x^2+4x)\,dx&+\int_a^1 -x^2+4x-(x^2-6x+5)\,dx\cr
+  &=\int_0^a 2x^2-10x+5\,dx+\int_a^1 -2x^2+10x-5\,dx\cr
+  &=\left.{2x^3\over3}-5x^2+5x\right|_0^a + 
+    \left.-{2x^3\over3}+5x^2-5x\right|_a^1\cr
+  &=-{52\over3}+5\sqrt{15},
+}$$
+after a bit of simplification.
+
+</p>
+</div><!-- example -->
+<p>
+</p><p>
+<a id="fig:curves cross"></a>
+</p><div class='figure'><!-- Integration_applications-area_between_curves_that_cross.html -->
+<!-- Figure 9.1.4 -->
+
+<div id='area_between_curves_that_cross' class='jxgbox' style='width:33%;'></div>
+
+<script type='text/javascript'>
+(function () {  // BEGIN: scope limiting function wrapper
+  var xmin=-0.15, xmax= 1.25, ymin=-0.75, ymax=5.75;
+  var AspectRatio =  (1); // height/width
+  var wd=document.getElementById('area_between_curves_that_cross').offsetWidth;
+  var ht=wd*AspectRatio;
+  var yfactor = (ymax-ymin)/(ht);
+  var xfactor = (xmax-xmin)/(wd);
+  var xaxis_label_offset = yfactor*15;
+  var yaxis_label_offset = xfactor*20;
+  document.getElementById('area_between_curves_that_cross').style.height=ht+'px';
+  var brd = JXG.JSXGraph.initBoard('area_between_curves_that_cross',{boundingbox:[xmin,ymax,xmax,ymin], showCopyright:false, showNavigation:false}) ;
+  var rejax = function() {
+     MathJax.Hub.Queue(["Typeset",MathJax.Hub]); 
+  }
+  brd.addHook(rejax)
+
+  var f = function(x) { return x*x-6*x+5; }
+  var g = function(x) { return -x*x+4*x; }
+
+  var xaxis = brd.create('arrow', [[0,0], [1.15,0]],{strokeWidth:1,strokeColor:'black',fixed:true});
+  var yaxis = brd.create('arrow', [[0,0],[0,5.4]],{strokeWidth:1,strokeColor:'black',fixed:true});
+  var xi = brd.create('segment',[[0,0],[1.1,0]],{visible:false});
+  brd.create('ticks',[xi,1],{minorTicks:false});
+  var yi = brd.create('segment',[[0,0],[0,5.1]],{visible:false});
+  brd.create('ticks',[yi,1],{minorTicks:false});
+  brd.create('text',[1,-xaxis_label_offset,'$1$']);
+  brd.create('text',[-yaxis_label_offset,5,'$5$']);
+  var fgraph = brd.create('functiongraph', [f,0,1],{strokeWidth: 2, dash:0});
+  var ggraph = brd.create('functiongraph', [g,0,1],{strokeWidth: 2, dash:0});
+  var region_x = function (t) {
+    if (t<1) { return 0.564*t; }
+    if (t<2) { return (2-t)*0.564; }
+    if (t<3) { return (t-2)*0.564+(3-t)*1; }
+    if (t<=4) { return (4-t)*0.564+(t-3)*1; }
+  }
+  var region_y = function (t) {
+    if (t<1) { return g(0.564*t); }
+    if (t<2) { return f((2-t)*0.564); }
+    if (t<3) { return g((t-2)*0.564+(3-t)*1); }
+    if (t<=4) { return f((4-t)*0.564+(t-3)*1); }
+  }
+  brd.create('curve',[
+        function (t) { return region_x(t); },
+        function (t) { return region_y(t); },0,1.999],{strokeColor:'black',strokeWidth:1,fillColor:'#FFB7D5',fillOpacity:1});
+  brd.create('curve',[
+        function (t) { return region_x(t); },
+        function (t) { return region_y(t); },2,4],{strokeColor:'black',strokeWidth:1,fillColor:'#FFB7D5',fillOpacity:1});
+})(); // END: scope limiting function wrapper
+</script>
+<div class='figcaption'><span class="figurenumber">Figure 9.1.4.</span> Area between curves that cross.</div></div>
+<p>
+</p><p>
+</p>
+<div class="example">
+<p>
+<span class="theoremlabel">Example 9.1.4 </span>Find the area between $\ds f(x)= -x^2+4x$ and
+$\ds g(x)=x^2-6x+5$; the
+curves are shown in figure <a href="section09.01.html#fig:area bounded by curves">9.1.5</a>. Here we
+are not given a specific interval, so it must be the case that there
+is a "natural'' region involved. Since the curves are both parabolas,
+the only reasonable interpretation is the region between the two
+intersection points, which we found in the previous example:
+$${5\pm\sqrt{15}\over2}.$$
+If we let $\ds a=(5-\sqrt{15})/2$ and $\ds b=(5+\sqrt{15})/2$,
+the total area is 
+$$\eqalign{
+  \int_a^b -x^2+4x-(x^2-6x+5)\,dx
+  &=\int_a^b -2x^2+10x-5\,dx\cr
+  &=\left.-{2x^3\over3}+5x^2-5x\right|_a^b\cr
+  &=5\sqrt{15}.\cr
+}$$
+after a bit of simplification.
+
+</p>
+</div><!-- example -->
+<p>
+</p><p>
+<a id="fig:area bounded by curves"></a>
+</p><div class='figure'><!-- Integration_applications-area_bounded_by_curves.html -->
+<!-- Figure 9.1.5 -->
+
+<div id='area_bounded_by_curves' class='jxgbox' style='width:33%;'></div>
+
+<script type='text/javascript'>
+(function () {  // BEGIN: scope limiting function wrapper
+  var xmin=-0.75, xmax= 6, ymin=-6, ymax=6.5;
+  var AspectRatio =  (0.75); // height/width
+  var wd=document.getElementById('area_bounded_by_curves').offsetWidth;
+  var ht=wd*AspectRatio;
+  var yfactor = (ymax-ymin)/(ht);
+  var xfactor = (xmax-xmin)/(wd);
+  var xaxis_label_offset = yfactor*15;
+  var yaxis_label_offset = xfactor*20;
+  document.getElementById('area_bounded_by_curves').style.height=ht+'px';
+  var brd = JXG.JSXGraph.initBoard('area_bounded_by_curves',{boundingbox:[xmin,ymax,xmax,ymin], showCopyright:false, showNavigation:false}) ;
+  var rejax = function() {
+     MathJax.Hub.Queue(["Typeset",MathJax.Hub]); 
+  }
+  brd.addHook(rejax)
+
+
+  var f = function(x) { return x*x-6*x+5; }
+  var g = function(x) { return -x*x+4*x; }
+
+  var xaxis = brd.create('arrow', [[0,0], [5.5,0]],{strokeWidth:1,strokeColor:'black',fixed:true});
+  var yaxis = brd.create('arrow', [[0,-5.5],[0,6]],{strokeWidth:1,strokeColor:'black',fixed:true});
+  var xi = brd.create('segment',[[0,0],[5.1,0]],{visible:false});
+  brd.create('ticks',[xi,1],{minorTicks:false});
+  var yi = brd.create('segment',[[0,0],[0,5.1]],{visible:false});
+  brd.create('ticks',[yi,1],{minorTicks:false});
+  var yi2 = brd.create('segment',[[0,0],[0,-5.1]],{visible:false});
+  brd.create('ticks',[yi2,1],{minorTicks:false});
+  brd.create('text',[1,-xaxis_label_offset,'$1$']);
+  brd.create('text',[2,-xaxis_label_offset,'$2$']);
+  brd.create('text',[3,-xaxis_label_offset,'$3$']);
+  brd.create('text',[4,-xaxis_label_offset,'$4$']);
+  brd.create('text',[5,-xaxis_label_offset,'$5$']);
+  brd.create('text',[-yaxis_label_offset,5,'$5$']);
+  brd.create('text',[-yaxis_label_offset-xfactor*5,-5,'$-5$']);
+  var fgraph = brd.create('functiongraph', [f,0,5],{strokeWidth: 2, dash:0});
+  var ggraph = brd.create('functiongraph', [g,0,5],{strokeWidth: 2, dash:0});
+})(); // END: scope limiting function wrapper
+</script>
+<div class='figcaption'><span class="figurenumber">Figure 9.1.5.</span> Area bounded by two curves.</div></div>
+<p>
+</p><p>
+</p>
+<a id="exercises"></a><h2 class="exercises">Exercises 9.1</h2>
+<p></p><p>
+Find the area bounded by the curves.
+</p><p>
+</p>
+<p class="exercise"><b>Ex 9.1.1</b>
+$\ds y=x^4-x^2$ and $\ds y=x^2$ (the part to the right of the $y$-axis)
+(<a knowl="" class="internal" value="$\ds 8\sqrt2/15$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 9.1.2</b>
+$\ds x=y^3$ and $\ds x=y^2$
+(<a knowl="" class="internal" value="$1/12$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 9.1.3</b>
+$\ds x=1-y^2$ and $y=-x-1$
+(<a knowl="" class="internal" value="$9/2$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 9.1.4</b>
+$\ds x=3y-y^2$ and $x+y=3$
+(<a knowl="" class="internal" value="$4/3$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 9.1.5</b>
+$y=\cos(\pi x/2)$ and $\ds y=1- x^2$ (in the first quadrant)
+(<a knowl="" class="internal" value="$2/3-2/\pi$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 9.1.6</b>
+$y=\sin(\pi x/3)$ and $y=x$ (in the first quadrant)
+(<a knowl="" class="internal" value="$\ds 3/\pi - 3\sqrt3/(2\pi)-1/8$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 9.1.7</b>
+$\ds y=\sqrt{x}$ and $\ds y=x^2$
+(<a knowl="" class="internal" value="$1/3$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 9.1.8</b>
+$\ds y=\sqrt x$ and $\ds y=\sqrt{x+1}$, $0\le x\le 4$
+(<a knowl="" class="internal" value="$\ds 10\sqrt{5}/3-6$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 9.1.9</b>
+$x=0$ and $\ds x=25-y^2$
+(<a knowl="" class="internal" value="$500/3$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 9.1.10</b>
+$y=\sin x\cos x$ and $y=\sin x$, $0\le x\le \pi$
+(<a knowl="" class="internal" value="$2$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 9.1.11</b>
+$\ds y=x^{3/2}$ and $\ds y=x^{2/3}$
+(<a knowl="" class="internal" value="$1/5$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 9.1.12</b>
+$\ds y=x^2-2x$ and $y=x-2$
+(<a knowl="" class="internal" value="$1/6$">answer</a>)
+
+
+</p><p>
+
+</p><p>
+The following three exercises expand on the geometric interpretation
+of the hyperbolic functions. Refer to section <a href="section04.11.html#sec:hyperbolic functions">4.11</a>
+and particularly to figure <a href="section04.11.html#fig:geometric def trigh">4.11.2</a> and 
+exercise <a href="section04.11.html#exer:hyperbolic double angle formulas">6</a>
+in section <a href="section04.11.html#sec:hyperbolic functions">4.11</a>.
+</p><p>
+</p>
+<p class="exercise"><b>Ex 9.1.13</b>
+Compute $\ds \int \sqrt{x^2 -1}\,dx $ using the substitution
+$u=\arccosh x$, or $x=\cosh u$; 
+use exercise <a href="section04.11.html#exer:hyperbolic double angle formulas">6</a>
+in section <a href="section04.11.html#sec:hyperbolic functions">4.11</a>.
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 9.1.14</b>
+Fix $t>0$.
+  Sketch the region $R$ in the right half plane bounded by the curves 
+$y=x\tanh t$, $y=-x\tanh t$,  and $\ds x^2-y^2 =1$. Note well: $t$ is fixed,
+the plane is the $x$-$y$ plane.
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 9.1.15</b>
+Prove that the area of $R$ is $t$.
+
+
+</p><p>
+
+
+</div></div></body>
+</html>

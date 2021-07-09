@@ -1,0 +1,1274 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+<meta http-equiv="Content-Language" Content="en">
+<title>6.2 Related Rates</title>
+<!--
+<script type="text/javascript" src="js/deployJava.js"></script>
+<link rel="stylesheet" type="text/css" href="http://jsxgraph.uni-bayreuth.de/distrib/jsxgraph.css" />
+-->
+<!-- use Jsxgraph to create figures: http://jsxgraph.uni-bayreuth.de/wp/ -->
+<link rel="stylesheet" type="text/css" href="css/jsxgraph.css" />
+<script type="text/javascript" src="js/jsxgraphcore.js"></script>
+<script src="js/three.min.js"></script>
+<script src="js/Detector.js"></script>
+<script src="js/TrackballControls.js"></script>
+<script src="js/OrthographicTrackballControls.js"></script>
+<script src="js/THREEx.KeyboardState.js"></script>
+<script src="js/THREEx.FullScreen.js"></script>
+<script src="js/THREEx.WindowResize.js"></script>
+<script type='text/javascript' src='js/DAT.GUI.min.js'></script>
+<script>
+window.requestAnimFrame = (function(){
+    return  window.requestAnimationFrame       || 
+        window.webkitRequestAnimationFrame || 
+        window.mozRequestAnimationFrame    || 
+        window.oRequestAnimationFrame      || 
+        window.msRequestAnimationFrame     || 
+        function(/* function */ callback, /* DOMElement */
+            element){
+            window.setTimeout(callback, 1000 / 60);
+        };
+})();
+</script>
+<script src="js/ifvisible.min.js"></script>
+<script src="js/conrec.js"></script>
+<script>
+active = true;
+ifvisible.setIdleDuration(10);
+ifvisible.on("idle", function(){
+    active = false;
+//    console.log("idle");
+});
+
+ifvisible.on("wakeup", function(){
+    active = true;
+//    console.log("wakeup");
+});
+</script>
+<script src="js/parser.js"></script>
+<link href="css/whitman.css" rel="stylesheet" type="text/css" /><link href="css/calculus.css" rel="stylesheet" type="text/css" /><link href="css/knowlstyle.css" rel="stylesheet" type="text/css" />
+
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  extensions: ["tex2jax.js","TeX/AMSmath.js","TeX/AMSsymbols.js"],
+  jax: ["input/TeX","output/HTML-CSS"],
+  tex2jax: {
+    inlineMath: [['$','$'],["\\(","\\)"]],
+    processEscapes: true,
+  },
+TeX: {
+   Macros: {
+    val: "\\mathop{\\rm val}",
+    divides: "\\mid",
+    ndivides: "\\mathrel{\\not|}",
+    fix: "\\mathop{\\rm fix}",
+    id: "\\mathop{\\rm id}",
+    na: "\\mathop{\\rm na}",
+    d: "\\mathop{\\rm\\strut d}\\nolimits ",
+    legendre: ["\\left(\\frac{#1}{#2}\\right)",2],
+    normalbaselines: "",
+    notdiv: "\\nmid",
+    implies: "\\Rightarrow",
+    iff: "\\Leftrightarrow",
+    sevenpoint: "\\scriptsize",
+    ds: "\\displaystyle",
+    lcm: "\\operatorname{lcm}",
+    arccot: "\\operatorname{arccot}",
+    arcsec: "\\operatorname{arcsec}",
+    arccsc: "\\operatorname{arccsc}",
+    arccosh: "\\operatorname{arccosh}",
+    arcsinh: "\\operatorname{arcsinh}",
+    arcsech: "\\operatorname{arcsech}",
+    sech: "\\operatorname{sech}",
+    csch: "\\operatorname{csch}",
+    R: "{\\mathbb R}",
+    sb: "_",
+    sp: "^",
+    Q: "{\\mathbb Q}",
+    C: "{\\mathbb C}",
+    N: "{\\mathbb N}",
+    Z: "{\\mathbb Z}",
+    U: "{\\mathbb U}",
+    v: ["\\langle #1\\rangle",1],
+    dint: ["{\\mathchoice{\\mathop{\\int\\!\\!\\!\\int}_{#1}}{\\mathop{\\int\\!\\!\\!\\int}_{#1}}{\\mathop{\\int\\!\\!\\!\\int}}{\\mathop{\\int\\!\\!\\!\\int}}}",1],
+    tint: ["{\\mathchoice{\\mathop{\\int\\!\\!\\!\\int\\!\\!\\!\\int}_{#1\\;}}{\\mathop{\\int\\!\\!\\!\\int\\!\\!\\!\\int}_{#1}}{\\mathop{\\int\\!\\!\\!\\int\\!\\!\\!\\int}_{#1}}{\\mathop{\\int\\!\\!\\!\\int\\!\\!\\!\\int}_{#1}}}",1]
+   }
+},
+  "HTML-CSS": { scale: 100},
+  menuSettings: { zscale: "150%", zoom: "Double-Click" }
+});
+    JXG.Options.text.display = 'html';
+    JXG.Options.text.useMathJax = true;
+</script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/math
+jax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+<script>
+MathJax.Hub.Register.StartupHook("End",function () {
+  if(typeof window.orientation === 'undefined'){
+    var i,x;
+    x = document.getElementsByClassName("webgl_display");
+    for (i=0; i<x.length; i++) {
+      x[i].style.display = "block";
+    }
+    x = document.getElementsByClassName("no_webgl_display");
+    for (i=0; i<x.length; i++) {
+      x[i].style.display = "none";
+    }
+  }
+});
+</script>
+
+<script src="js/jquery-3.1.0.min.js"></script>
+<script src="https://sagecell.sagemath.org/static/embedded_sagecell.js"></script>
+<script src="js/jquery.visible.min.js"></script>
+<script type="text/javascript" src="js/knowl.js"></script>
+<style type="text/css">
+
+.sagecell .CodeMirror {
+  height: auto;
+}
+
+.sagecell .CodeMirror-scroll {
+  overflow-y: hidden;
+  overflow-x: auto;
+}
+
+.sagecell-practice .CodeMirror-scroll {
+}
+
+.sagecell button.sagecell_evalButton {
+    font-size: 50%;
+}
+
+.sagecell_sessionContainer {
+    margin-bottom:1em;
+}
+</style>
+<script>
+function toggle(a) {
+  var b = String(a);
+  b=b.replace("contents","button");
+  if (document.getElementById(a).style.display == "block") {
+    document.getElementById(a).style.display = "none";
+    document.getElementById(b).src = "expand_submenu.png";
+  } else {
+    document.getElementById(a).style.display = "block";
+    document.getElementById(b).src = "collapse_submenu.png";
+  }
+}
+function toggle_sidebar() {
+  if (document.getElementById('sidebar').style.display == "block") {
+    document.getElementById('sidebar').style.display = "none";
+    document.getElementById('menu_expand').style.display = "block";
+  } else {
+    document.getElementById('sidebar').style.display = "block";
+    document.getElementById('menu_expand').style.display = "none";
+  }
+}
+</script>
+
+</head>
+
+<body class="" onload="toggle('chapter_06_contents')">
+<div id="header">
+<div class="right">
+<div class="bread">
+  <a href=".">Home</a> &raquo; <a href="chapter06.html">Applications of the Derivative</a> &raquo; <a href="section06.02.html">Related Rates</a>
+</div>
+
+<FORM method=GET action=https://www.google.com/custom id="search">
+<INPUT TYPE=text name=q size=31 maxlength=255 value="" style="font-size:small">
+<INPUT type=submit name=sa VALUE="Search the book" style="font-size:small">
+<INPUT type=hidden name=cof VALUE="AH:center;AWFID:198dc2b883340b1f;">
+<input type=hidden name=domains value="www.whitman.edu">
+<input type=hidden name=sitesearch value="www.whitman.edu/mathematics/calculus_online/">
+</FORM>
+<div id="title"><span id="title-content">6.2 Related Rates</span></div><a href="#exercises">[Jump to exercises]</a>
+</div>
+</div>
+<div id="menu_expand" style="display:none"><a href="javascript:toggle_sidebar()">Expand menu</a></div>
+<div id="sidebar" style="display:block">
+<h2 id="menu_collapse"><a href='javascript:toggle_sidebar()'>Collapse menu</a></h2>
+<h2 class="link"><img id="chapter_01_button" src="expand_submenu.png" onclick='toggle("chapter_01_contents")'><a href="chapter01.html">1 Analytic Geometry</a></h2>
+
+<ul class="list" id="chapter_01_contents">
+<li><a href="section01.01.html">1. Lines</a></li>
+<li><a href="section01.02.html">2. Distance Between Two Points; Circles</a></li>
+<li><a href="section01.03.html">3. Functions</a></li>
+<li><a href="section01.04.html">4. Shifts and Dilations</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_02_button" src="expand_submenu.png" onclick='toggle("chapter_02_contents")'><a href="chapter02.html">2 Instantaneous Rate of Change:  The Derivative</a></h2>
+
+<ul class="list" id="chapter_02_contents">
+<li><a href="section02.01.html">1. The slope of a function</a></li>
+<li><a href="section02.02.html">2. An example</a></li>
+<li><a href="section02.03.html">3. Limits</a></li>
+<li><a href="section02.04.html">4. The Derivative Function</a></li>
+<li><a href="section02.05.html">5. Adjectives For Functions</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_03_button" src="expand_submenu.png" onclick='toggle("chapter_03_contents")'><a href="chapter03.html">3 Rules for Finding Derivatives</a></h2>
+
+<ul class="list" id="chapter_03_contents">
+<li><a href="section03.01.html">1. The Power Rule</a></li>
+<li><a href="section03.02.html">2. Linearity of the Derivative</a></li>
+<li><a href="section03.03.html">3. The Product Rule</a></li>
+<li><a href="section03.04.html">4. The Quotient Rule</a></li>
+<li><a href="section03.05.html">5. The Chain Rule</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_04_button" src="expand_submenu.png" onclick='toggle("chapter_04_contents")'><a href="chapter04.html">4 Transcendental Functions</a></h2>
+
+<ul class="list" id="chapter_04_contents">
+<li><a href="section04.01.html">1. Trigonometric Functions</a></li>
+<li><a href="section04.02.html">2. The Derivative of $\sin x$</a></li>
+<li><a href="section04.03.html">3. A hard limit</a></li>
+<li><a href="section04.04.html">4. The Derivative of $\sin x$, continued</a></li>
+<li><a href="section04.05.html">5. Derivatives of the Trigonometric Functions</a></li>
+<li><a href="section04.06.html">6. Exponential and Logarithmic functions</a></li>
+<li><a href="section04.07.html">7. Derivatives of the exponential and  logarithmic functions</a></li>
+<li><a href="section04.08.html">8. Implicit Differentiation</a></li>
+<li><a href="section04.09.html">9. Inverse Trigonometric Functions</a></li>
+<li><a href="section04.10.html">10. Limits revisited</a></li>
+<li><a href="section04.11.html">11. Hyperbolic Functions</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_05_button" src="expand_submenu.png" onclick='toggle("chapter_05_contents")'><a href="chapter05.html">5 Curve Sketching</a></h2>
+
+<ul class="list" id="chapter_05_contents">
+<li><a href="section05.01.html">1. Maxima and Minima</a></li>
+<li><a href="section05.02.html">2. The first derivative test</a></li>
+<li><a href="section05.03.html">3. The second derivative test</a></li>
+<li><a href="section05.04.html">4. Concavity and inflection points</a></li>
+<li><a href="section05.05.html">5. Asymptotes and Other Things to Look For</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_06_button" src="expand_submenu.png" onclick='toggle("chapter_06_contents")'><a href="chapter06.html">6 Applications of the Derivative</a></h2>
+
+<ul class="list" id="chapter_06_contents">
+<li><a href="section06.01.html">1. Optimization</a></li>
+<li><a href="section06.02.html">2. Related Rates</a></li>
+<li><a href="section06.03.html">3. Newton's Method</a></li>
+<li><a href="section06.04.html">4. Linear Approximations</a></li>
+<li><a href="section06.05.html">5. The Mean Value Theorem</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_07_button" src="expand_submenu.png" onclick='toggle("chapter_07_contents")'><a href="chapter07.html">7 Integration</a></h2>
+
+<ul class="list" id="chapter_07_contents">
+<li><a href="section07.01.html">1. Two examples</a></li>
+<li><a href="section07.02.html">2. The Fundamental Theorem of Calculus</a></li>
+<li><a href="section07.03.html">3. Some Properties of Integrals</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_08_button" src="expand_submenu.png" onclick='toggle("chapter_08_contents")'><a href="chapter08.html">8 Techniques of Integration</a></h2>
+
+<ul class="list" id="chapter_08_contents">
+<li><a href="section08.01.html">1. Substitution</a></li>
+<li><a href="section08.02.html">2. Powers of sine and cosine</a></li>
+<li><a href="section08.03.html">3. Trigonometric Substitutions</a></li>
+<li><a href="section08.04.html">4. Integration by Parts</a></li>
+<li><a href="section08.05.html">5. Rational Functions</a></li>
+<li><a href="section08.06.html">6. Numerical Integration</a></li>
+<li><a href="section08.07.html">7. Additional exercises</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_09_button" src="expand_submenu.png" onclick='toggle("chapter_09_contents")'><a href="chapter09.html">9 Applications of Integration</a></h2>
+
+<ul class="list" id="chapter_09_contents">
+<li><a href="section09.01.html">1. Area between curves</a></li>
+<li><a href="section09.02.html">2. Distance, Velocity, Acceleration</a></li>
+<li><a href="section09.03.html">3. Volume</a></li>
+<li><a href="section09.04.html">4. Average value of a function</a></li>
+<li><a href="section09.05.html">5. Work</a></li>
+<li><a href="section09.06.html">6. Center of Mass</a></li>
+<li><a href="section09.07.html">7. Kinetic energy; improper integrals</a></li>
+<li><a href="section09.08.html">8. Probability</a></li>
+<li><a href="section09.09.html">9. Arc Length</a></li>
+<li><a href="section09.10.html">10. Surface Area</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_10_button" src="expand_submenu.png" onclick='toggle("chapter_10_contents")'><a href="chapter10.html">10 Polar Coordinates,  Parametric Equations</a></h2>
+
+<ul class="list" id="chapter_10_contents">
+<li><a href="section10.01.html">1. Polar Coordinates</a></li>
+<li><a href="section10.02.html">2. Slopes in polar coordinates</a></li>
+<li><a href="section10.03.html">3. Areas in polar coordinates</a></li>
+<li><a href="section10.04.html">4. Parametric Equations</a></li>
+<li><a href="section10.05.html">5. Calculus with Parametric Equations</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_11_button" src="expand_submenu.png" onclick='toggle("chapter_11_contents")'><a href="chapter11.html">11 Sequences and Series</a></h2>
+
+<ul class="list" id="chapter_11_contents">
+<li><a href="section11.01.html">1. Sequences</a></li>
+<li><a href="section11.02.html">2. Series</a></li>
+<li><a href="section11.03.html">3. The Integral Test</a></li>
+<li><a href="section11.04.html">4. Alternating Series</a></li>
+<li><a href="section11.05.html">5. Comparison Tests</a></li>
+<li><a href="section11.06.html">6. Absolute Convergence</a></li>
+<li><a href="section11.07.html">7. The Ratio and Root Tests</a></li>
+<li><a href="section11.08.html">8. Power Series</a></li>
+<li><a href="section11.09.html">9. Calculus with Power Series</a></li>
+<li><a href="section11.10.html">10. Taylor Series</a></li>
+<li><a href="section11.11.html">11. Taylor's Theorem</a></li>
+<li><a href="section11.12.html">12. Additional exercises</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_12_button" src="expand_submenu.png" onclick='toggle("chapter_12_contents")'><a href="chapter12.html">12 Three Dimensions</a></h2>
+
+<ul class="list" id="chapter_12_contents">
+<li><a href="section12.01.html">1. The Coordinate System</a></li>
+<li><a href="section12.02.html">2. Vectors</a></li>
+<li><a href="section12.03.html">3. The Dot Product</a></li>
+<li><a href="section12.04.html">4. The Cross Product</a></li>
+<li><a href="section12.05.html">5. Lines and Planes</a></li>
+<li><a href="section12.06.html">6. Other Coordinate Systems</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_13_button" src="expand_submenu.png" onclick='toggle("chapter_13_contents")'><a href="chapter13.html">13 Vector Functions</a></h2>
+
+<ul class="list" id="chapter_13_contents">
+<li><a href="section13.01.html">1. Space Curves</a></li>
+<li><a href="section13.02.html">2. Calculus with vector functions</a></li>
+<li><a href="section13.03.html">3. Arc length and curvature</a></li>
+<li><a href="section13.04.html">4. Motion along a curve</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_14_button" src="expand_submenu.png" onclick='toggle("chapter_14_contents")'><a href="chapter14.html">14 Partial Differentiation</a></h2>
+
+<ul class="list" id="chapter_14_contents">
+<li><a href="section14.01.html">1. Functions of Several Variables</a></li>
+<li><a href="section14.02.html">2. Limits and Continuity</a></li>
+<li><a href="section14.03.html">3. Partial Differentiation</a></li>
+<li><a href="section14.04.html">4. The Chain Rule</a></li>
+<li><a href="section14.05.html">5. Directional Derivatives</a></li>
+<li><a href="section14.06.html">6. Higher order derivatives</a></li>
+<li><a href="section14.07.html">7. Maxima and minima</a></li>
+<li><a href="section14.08.html">8. Lagrange Multipliers</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_15_button" src="expand_submenu.png" onclick='toggle("chapter_15_contents")'><a href="chapter15.html">15 Multiple Integration</a></h2>
+
+<ul class="list" id="chapter_15_contents">
+<li><a href="section15.01.html">1. Volume and Average Height</a></li>
+<li><a href="section15.02.html">2. Double Integrals in Cylindrical Coordinates</a></li>
+<li><a href="section15.03.html">3. Moment and Center of Mass</a></li>
+<li><a href="section15.04.html">4. Surface Area</a></li>
+<li><a href="section15.05.html">5. Triple Integrals</a></li>
+<li><a href="section15.06.html">6. Cylindrical and Spherical Coordinates</a></li>
+<li><a href="section15.07.html">7. Change of Variables</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_16_button" src="expand_submenu.png" onclick='toggle("chapter_16_contents")'><a href="chapter16.html">16 Vector Calculus</a></h2>
+
+<ul class="list" id="chapter_16_contents">
+<li><a href="section16.01.html">1. Vector Fields</a></li>
+<li><a href="section16.02.html">2. Line Integrals</a></li>
+<li><a href="section16.03.html">3. The Fundamental Theorem of Line Integrals</a></li>
+<li><a href="section16.04.html">4. Green's Theorem</a></li>
+<li><a href="section16.05.html">5. Divergence and Curl</a></li>
+<li><a href="section16.06.html">6. Vector Functions for Surfaces</a></li>
+<li><a href="section16.07.html">7. Surface Integrals</a></li>
+<li><a href="section16.08.html">8. Stokes's Theorem</a></li>
+<li><a href="section16.09.html">9. The Divergence Theorem</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_17_button" src="expand_submenu.png" onclick='toggle("chapter_17_contents")'><a href="chapter17.html">17 Differential Equations</a></h2>
+
+<ul class="list" id="chapter_17_contents">
+<li><a href="section17.01.html">1. First Order Differential Equations</a></li>
+<li><a href="section17.02.html">2. First Order Homogeneous Linear Equations</a></li>
+<li><a href="section17.03.html">3. First Order Linear Equations</a></li>
+<li><a href="section17.04.html">4. Approximation</a></li>
+<li><a href="section17.05.html">5. Second Order Homogeneous Equations</a></li>
+<li><a href="section17.06.html">6. Second Order Linear Equations</a></li>
+<li><a href="section17.07.html">7. Second Order Linear Equations, take two</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_18_button" src="expand_submenu.png" onclick='toggle("chapter_18_contents")'><a href="chapter18.html">18 Useful formulas</a></h2>
+
+<ul class="list" id="chapter_18_contents">
+</ul>
+
+</div>
+
+<div id="main">
+
+<div id="next"><a href="section06.01.html"><img src=previous_section.png width="30"></a>&nbsp;&nbsp;<a href="section06.03.html"><img src=next_section.png width="30"></a></div>
+
+<div id="content">
+<p>
+<p><a id="sec:related rates"></a>
+
+</p><p>
+
+</p><p>
+Suppose we have two variables $x$ and $y$ (in most problems the
+letters will be different, but for now let's use $x$ and $y$) which
+are both changing with time.  A "related rates'' problem is a problem
+in which we know one of the rates of change at a given instant&mdash;say,
+$\ds \dot x = dx/dt$&mdash;and we want to find the other rate $\ds \dot y = dy/dt$ at that
+instant. (The use of $\ds \dot x$ 
+
+to mean $dx/dt$ goes back to Newton and
+is still used for this purpose, especially by physicists.)
+</p><p>
+If $y$ is written in terms of $x$, i.e., $y=f(x)$, then this is easy
+to do using the chain rule:
+$$
+\dot y = {dy\over dt}={dy\over dx}\cdot{dx\over dt}={dy\over dx}\dot x.
+$$
+That is, find the derivative of $f(x)$, plug in the value of
+$x$ at the instant in question, and multiply by the given value of
+$\ds \dot{x}=dx/dt$ to get $\ds \dot{y}=dy/dt$.
+</p><p>
+</p>
+<div class="example">
+<p>
+<span class="theoremlabel">Example 6.2.1 </span>
+Suppose an object is moving along a path described by $\ds y=x^2$, that
+is, it is moving on a parabolic path. At a particular time, say $t=5$,
+the $x$ coordinate is 6 and 
+we measure the speed at which the $x$ coordinate of the object is
+changing and find that $dx/dt = 3$. At the same time, how fast is the
+$y$ coordinate changing?
+</p><p>
+Using the chain rule, $\ds dy/dt = 2x\cdot dx/dt$. At $t=5$ we know that
+$x=6$ and $dx/dt=3$, so $dy/dt = 2\cdot 6\cdot 3 = 36$.
+
+</p>
+</div><!-- example -->
+<p>
+</p><p>
+In many cases, particularly interesting ones,
+$x$ and $y$ will be related in some other way, for example
+$x=f(y)$, or $F(x,y)=k$, or perhaps $F(x,y)=G(x,y)$, where $F(x,y)$
+and $G(x,y)$ are expressions involving both variables.  In all cases, you
+can solve the related rates problem by taking the derivative of both sides,
+plugging in all the known values (namely, $x$, $y$, and $\ds \dot{x}$), and
+then solving for $\ds \dot{y}$.
+</p><p>
+To summarize, here are the steps in doing a related rates problem:
+</p><p>
+</p><ul><p>
+</p><p>
+</p><p> 1.  Decide what the two variables are.
+</p><p> 2.   Find an equation relating them.
+</p><p> 3.   Take $d/dt$ of both sides.
+</p><p> 4.   Plug in all known values at the instant in question.
+</p><p> 5.   Solve for the unknown rate.
+</p><p>
+</p></ul><p>
+</p><p>
+</p>
+<div class="example">
+<p>
+<span class="theoremlabel">Example 6.2.2 </span>
+<a id="exam:receding airplane"></a>
+A plane is flying directly away from you at 500 mph at an altitude of
+3 miles.  How fast is the plane's distance from you increasing at the
+moment when the plane is flying over a point on the ground 4 miles
+from you?
+</p><p>
+To see what's going on, we first draw a schematic representation of
+the situation, as in figure <a href="section06.02.html#fig:airplane">6.2.1</a>.
+</p><p>
+</p><div class='figure'><!-- Applications_of_Derivative-Receding_airplane.html -->
+<!-- Figure 6.2.1 -->
+<div id="receding_airplane" class="jxgbox" style="width:47%"></div>
+<script type="text/javascript">
+    (function () {  // BEGIN: scope limiting function wrapper
+	    var xmin=-0.5, xmax= 6.5, ymin=-0.5, ymax=3.5;
+	var AspectRatio = ((ymax-ymin)/(xmax-xmin)); // height/width
+	var wd=document.getElementById('receding_airplane').offsetWidth;
+	var ht=wd*AspectRatio;
+	var yfactor = (ymax-ymin)/(ht);
+	var xfactor = (xmax-xmin)/(wd);
+	var xaxis_label_offset = yfactor*15;
+	var yaxis_label_offset = xfactor*20;
+	document.getElementById('receding_airplane').style.height=ht+'px';
+	var brd = JXG.JSXGraph.initBoard('receding_airplane',{boundingbox:[xmin, ymax, xmax,ymin], showCopyright:false, showNavigation:false});
+	brd.create('segment',[[0,0],[6,0]],{strokeColor:'green',fixed:true,strokeWidth:1,fixed:true});
+	brd.create('segment',[[0,0],[5,3]],{dash:2,strokeColor:'black',fixed:true,strokeWidth:1,fixed:true});
+	brd.create('segment',[[5,0],[5,3]],{dash:2,strokeColor:'black',fixed:true,strokeWidth:1,fixed:true});
+	brd.create('text',[2.5,-yfactor*10,'$x$']);
+	brd.create('text',[2.5-xfactor*5,1.5+yfactor*5,'$y$']);
+	brd.create('text',[5+xfactor*5,1.5,'$3$']);
+	brd.create('arrow',[[5,3],[6,3]],{fixed:true});
+    })(); // END: scope limiting function wrapper
+</script>
+
+<a id="fig:airplane"></a>
+<div class='figcaption'><span class="figurenumber">Figure 6.2.1.</span> Receding airplane.</div></div>
+<p>
+</p><p>
+Because the plane is in level flight directly away from you, the rate
+at which $x$ changes is the speed of the plane, $dx/dt=500$. The
+distance between you and the plane is $y$; it is $dy/dt$ that we wish
+to know. By the Pythagorean Theorem we know that $\ds x^2+9=y^2$. Taking
+the derivative:
+$$ 2x \dot x = 2y\dot y.$$
+We are interested in the time at which $x=4$; at this time we know
+that $\ds 4^2+9=y^2$, so $y=5$. Putting together all the information we
+get
+$$2(4)(500)=2(5)\dot y.$$
+Thus, $\ds \dot y=400$ mph.
+
+</p>
+</div><!-- example -->
+<p>
+</p><p>
+</p>
+<div class="example">
+<p>
+<span class="theoremlabel">Example 6.2.3 </span>
+You are inflating a spherical balloon at the rate of 7 cm${}^3$/sec.  How
+fast is its radius increasing when the radius is 4 cm?
+</p><p>
+Here the variables are the radius $r$ and the volume $V$.  We know $dV/dt$,
+and we want $dr/dt$.  The two variables are related by means of the
+equation $\ds V=4\pi r^3/3$.  Taking the derivative of both sides gives
+$\ds dV/dt=4\pi r^2\dot r$.  We now substitute the values we know at the
+instant in question: $\ds 7=4\pi 4^2\dot r$, so
+$\ds \dot r=7/(64\pi)$ cm/sec.
+
+</p>
+</div><!-- example -->
+<p>
+</p><p>
+</p>
+<div class="example">
+<p>
+<span class="theoremlabel">Example 6.2.4 </span>Water is poured into a conical container at the rate of 10
+cm${}^3$/sec.  The cone points directly down, and it has a height of
+30 cm and a base radius of 10 cm; see figure <a href="section06.02.html#fig:cone tank">6.2.2</a>.
+How fast is the water level rising when the water is 4 cm deep (at its
+deepest point)?
+</p><p>
+The water forms a conical shape within the big cone; its
+height and base radius and volume are all increasing
+as water is poured into the container.  This means that we actually have
+three things varying with time: the water level $h$ (the height of the cone
+of water), the radius $r$ of the circular top surface of water (the base
+radius of the cone of water), and the volume of water $V$.  
+The volume of a cone is given by
+$\ds V=\pi r^2h/3$.  We know $dV/dt$, and we want $dh/dt$.  At
+first something seems to be wrong: we have a third variable $r$ whose rate
+we don't know.  
+</p><p>
+</p><div class='figure'><!-- Applications_of_Derivative-Conical_water_tank.html -->
+<!-- Figure 6.2.2 -->
+<div id="conical_water_tank" class="jxgbox" style="width:33%"></div>
+<script type="text/javascript">
+ (function () {  // BEGIN: scope limiting function wrapper
+  var xmin = -2, xmax = 2, ymin = -0.5, ymax = 6.5;
+  var AspectRatio = (7/4); // height/width
+  var wd=document.getElementById('conical_water_tank').offsetWidth;
+  var ht=wd*AspectRatio;
+  var yfactor = (ymax-ymin)/(ht);
+  var xfactor = (xmax-xmin)/(wd);
+  var xaxis_label_offset = yfactor*15;
+  var yaxis_label_offset = xfactor*20;
+  document.getElementById('conical_water_tank').style.height=ht+'px';
+  var brd = JXG.JSXGraph.initBoard('conical_water_tank',{boundingbox:[-2, 6.5, 2,-0.5], showCopyright:false, showNavigation:false});
+//var p1 = brd.create('point',[
+     brd.create('segment',[[0,0],[-1.5,5]],{strokeWidth:1,fixed:true});
+  brd.create('segment',[[0,0],[1.5,5]],{strokeWidth:1,fixed:true});
+  brd.create('ellipse',[[-1.4,5.05],[1.4,5.05],3]);
+  brd.create('ellipse',[[-0.7,2.55],[0.7,2.55],1.5]);
+  brd.create('arrow',[[0,5.8],[1.5,5.8]],{dash:2,strokeWidth:1,strokeColor:'black',fixed:true});
+  brd.create('arrow',[[0.1,5.8],[0,5.8]],{dash:2,strokeWidth:1,strokeColor:'black,fixed:true'});
+  brd.createElement('text',[0.75-xfactor*5,5.8+yfactor*7,'$10$']);
+  brd.create('arrow',[[0,2.5],[0.75,2.5]],{dash:2,strokeWidth:1,strokeColor:'black',fixed:true});
+  brd.create('arrow',[[0.1,2.5],[0,2.5]],{dash:2,strokeWidth:1,strokeColor:'black',fixed:true});
+  brd.createElement('text',[0.37-xfactor*4,2.5+yfactor*4,'$r$']);
+  brd.create('arrow',[[1.6,0],[1.6,5]],{dash:2,strokeWidth:1,strokeColor:'black',fixed:true});
+  brd.create('arrow',[[1.6,0.1],[1.6,0]],{dash:2,strokeWidth:1,strokeColor:'black',fixed:true});
+  brd.createElement('text',[1.6-xfactor*15,2.5,'$30$']);
+  brd.create('arrow',[[-0.95,2.5],[-0.95,0]],{dash:2,strokeWidth:1,strokeColor:'black',fixed:true});
+  brd.create('arrow',[[-0.95,2.4],[-0.95,2.5]],{dash:2,strokeWidth:1,strokeColor:'black',fixed:true});
+  brd.createElement('text',[-0.95-xfactor*15,1.25,'$h$']);
+ })(); // END: scope limiting function wrapper
+</script>
+
+<a id="fig:cone tank"></a>
+<div class='figcaption'><span class="figurenumber">Figure 6.2.2.</span> Conical water tank.</div></div>
+<p>
+</p><p>
+But the dimensions of the cone of water must have the same
+proportions as those of the container.  
+That is, because of similar triangles, 
+$r/h=10/30$ so $r=h/3$.  Now we can eliminate $r$ from the
+problem entirely: $\ds V=\pi(h/3)^2h/3=\pi h^3/27$.  We take
+the derivative of both sides and plug in $h=4$ and $dV/dt=10$, obtaining
+$\ds 10=(3\pi\cdot 4^2/27)(dh/dt)$.  Thus, $dh/dt=90/(16\pi)$
+cm/sec.
+
+</p>
+</div><!-- example -->
+<p>
+</p><p>
+</p>
+<div class="example">
+<p>
+<span class="theoremlabel">Example 6.2.5 </span>
+A swing consists of a board at the end of a 10 ft long rope.  Think of the
+board as a point $P$ at the end of the rope, and let $Q$ be the point of
+attachment at the other end.  Suppose that the swing is directly below $Q$
+at time $t=0$, and is being pushed by someone who walks at 6
+ft/sec from left to right.  Find (a) how fast the swing is rising after 1
+sec; (b) the angular speed of the rope in deg/sec after 1 sec.
+</p><p>
+We  start out by asking: What is the geometric
+quantity whose rate of change we know, and what is the geometric quantity
+whose rate of change we're being asked about?  Note that the person pushing
+the swing is moving horizontally at a rate we know.  In other words,
+the  horizontal coordinate of $P$ is increasing at 6 ft/sec.  In the
+$xy$-plane let us make the convenient choice of putting the origin at the
+location of $P$ at time $t=0$, i.e., a distance 10 directly below the point
+of attachment.  Then the rate we know is $dx/dt$, and in part 
+(a) the rate we want is $dy/dt$ (the rate at which $P$ is rising).  In part
+(b) the rate we want is $\ds \dot{\theta}=d\theta/dt$, where $\theta$ stands for
+the angle in radians through which the swing has swung from the vertical.
+(Actually, since we want our answer in deg/sec, at the end we must convert
+$d\theta/dt$ from rad/sec by multiplying by $180/\pi$.)
+</p><p>
+</p><div class='figure'><!-- Applications_of_Derivative-Swing.html -->
+<!-- Figure 6.2.3 -->
+<div id="swing" class="jxgbox" style="width:47%"></div>
+<script type="text/javascript">
+ (function () {  // BEGIN: scope limiting function wrapper
+  var xmin = -7, xmax = 7.5, ymin = -1, ymax = 12;
+  var AspectRatio = (12/13.5); // height/width
+  var wd=document.getElementById('swing').offsetWidth;
+  var ht=wd*AspectRatio;
+  var yfactor = (ymax-ymin)/(ht);
+  var xfactor = (xmax-xmin)/(wd);
+  var xaxis_label_offset = yfactor*15;
+  var yaxis_label_offset = xfactor*20;
+  document.getElementById('swing').style.height=ht+'px';
+  var brd = JXG.JSXGraph.initBoard('swing',{boundingbox:[xmin,ymax,xmax,ymin], showCopyright:false, showNavigation:false});
+//var p1 = brd.create('point',[
+     brd.create('segment',[[0,10],[6,2]],{strokeWidth:1,fixed:true});
+  var p1=brd.create('point',[0,10],{size:1,name:'$Q$',label:{offset:[0,10]},fixed:true});
+  var p2=brd.create('point',[-6,2],{visible:false,fixed:true});
+  var p3=brd.create('point',[6,2],{size:1,name:'$P$',label:{offset:[5,0]},fixed:true});
+  brd.create('segment',[[0,0],[0,10]],{dash:2,strokeWidth:1,strokeColor:'black',fixed:true});
+  brd.create('segment',[[0,2],[6,2]],{dash:2,strokeWidth:1,strokeColor:'black',fixed:true});
+  brd.create('arc',[p1,p2,p3],{strokeColor:'black',fixed:true});
+     brd.create('text',[-xfactor*10,1,'$y$'],{fixed:true});
+  brd.create('text',[3,2+yfactor*5,'$x$'],{fixed:true});
+  brd.create('text',[2*Math.sin(0.31),10-2*Math.cos(0.32)-yfactor*10,'$\\\\theta$']);
+  var p4=brd.create('point',[0,8],{visible:false,fixed:true});
+  var p5=brd.create('point',[2*Math.sin(0.65),10-2*Math.cos(0.65)],{visible:false,fixed:true});
+  brd.create('arc',[p1,p4,p5],{strokeColor:'black',fixed:true});
+ })(); // END: scope limiting function wrapper
+</script>
+
+<a id="fig:swing"></a>
+<div class='figcaption'><span class="figurenumber">Figure 6.2.3.</span> Swing.</div></div>
+<p>
+</p><p>
+
+(a) From the diagram we see that we have a right triangle whose legs
+are $x$ and $10-y$, and whose hypotenuse is 10.  Hence
+$\ds x^2+(10-y)^2=100$.  Taking the derivative of both sides we obtain:
+$2x\dot{x}+2(10-y)(0-\dot{y})=0$.  We now look at what we know after 1
+second, namely $x=6$ (because $x$ started at 0 and has been increasing at
+the rate of 6 ft/sec for 1 sec), $y=2$ (because we get $10-y=8$ from
+the Pythagorean theorem applied to the triangle with hypotenuse 10 and
+leg 6), and $\ds \dot{x}=6$.  Putting in these values gives us
+$2\cdot 6\cdot 6-2\cdot 8\dot{y}=0$, from which we can easily solve
+for $\ds \dot{y}$: $\ds \dot{y}=4.5$ ft/sec.
+</p><p>
+
+(b) Here our two variables are $x$ and $\theta$, so we want to use the
+same right triangle as in part (a), but this time relate $\theta$ to
+$x$.  Since the hypotenuse is constant (equal to 10), the best way to
+do this is to use the sine: $\sin\theta=x/10$.  Taking derivatives we
+obtain $\ds (\cos\theta)\dot{\theta}=0.1\dot{x}$.  At the instant in
+question ($t=1$ sec), when we have a right triangle with sides
+6&ndash;8&ndash;10, $\ds \cos\theta=8/10$ and $\ds \dot{x}=6$. Thus
+$(8/10)\dot{\theta}=6/10$, i.e., $\ds \dot{\theta}=6/8=3/4$ rad/sec, or
+approximately $43$ deg/sec.  
+
+</p>
+</div><!-- example -->
+<p> 
+</p><p>
+We have seen that sometimes there are apparently more than two
+variables that change with time, but in reality there are just two, as
+the others can be expressed in terms of just two. But sometimes there
+really are several variables that change with time; as long as you
+know the rates of change of all but one of them you can find the rate
+of change of the remaining one.  As in the case when there are just two
+variables, take the derivative of both sides of the equation relating all of
+the variables, and then substitute all of the known values and solve for
+the unknown rate.
+</p><p>
+</p>
+<div class="example">
+<p>
+<span class="theoremlabel">Example 6.2.6 </span>
+A road running north to south crosses a road going east to west at the
+point $P$.  Car A is driving north along the first road, and car B is
+driving east along the second road.  At a particular time car A is $10$
+kilometers to the north of $P$ and traveling at 80 km/hr, while car B
+is 15 kilometers to the east of $P$ and traveling at 100 km/hr.
+How fast is the distance between the two cars
+changing?
+</p><p>
+</p><div class='figure'><!-- Applications_of_Derivative-Cars_moving_apart.html -->
+<!-- Figure 6.2.4 -->
+<div id="cars_moving_apart" class="jxgbox" style="width:47%"></div>
+<script type="text/javascript">
+    (function () {  // BEGIN: scope limiting function wrapper
+	    var xmin=-1, xmax= 10, ymin=-1, ymax=6.5;
+	var AspectRatio = ((ymax-ymin)/(xmax-xmin)); // height/width
+	var wd=document.getElementById('cars_moving_apart').offsetWidth;
+	var ht=wd*AspectRatio;
+	var yfactor = (ymax-ymin)/(ht);
+	var xfactor = (xmax-xmin)/(wd);
+	var xaxis_label_offset = yfactor*15;
+	var yaxis_label_offset = xfactor*20;
+	document.getElementById('cars_moving_apart').style.height=ht+'px';
+	var brd = JXG.JSXGraph.initBoard('cars_moving_apart',{boundingbox:[xmin, ymax, xmax,ymin], showCopyright:false, showNavigation:false});
+	brd.create('segment',[[0,0],[9.5,0]],{strokeWidth:1,strokeColor:'black',fixed:true});
+	brd.create('segment',[[0,0],[0,6]],{strokeWidth:1,strokeColor:'black',fixed:true});
+	var p=brd.create('point',[0,0],{size:1,name:'$P$',label:{offset:[-10,-10]},fillColor:'black',strokeColor:'black',fixed:true});
+	var p1=brd.create('point',[0,4],{size:1,name:'$(0,a(t))$',label:{offset:[10,5]},fixed:true});
+	var p1=brd.create('point',[7,0],{size:1,name:'$(b(t),0)$',label:{offset:[-20,-15]},fixed:true});
+	brd.create('text',[3.5+xfactor*5,2+yfactor*5,'$c(t)$'],{fixed:true});
+	brd.create('segment',[[0,4],[7,0]],{dash:2,strokewidth:1,strokeColor:'black',fixed:true});
+	brd.create('arrow',[[7,0],[8.5,0]],{strokeColor:'red',fixed:true});
+	brd.create('arrow',[[0,4],[0,5.5]],{strokeColor:'red',fixed:true});
+    })(); // END: scope limiting function wrapper
+</script>
+
+<a id="fig:departing cars"></a>
+<div class='figcaption'><span class="figurenumber">Figure 6.2.4.</span> Cars moving apart.</div></div>
+<p>
+</p><p>
+Let $a(t)$ be the distance of car A north of $P$ at time $t$, and
+$b(t)$ the distance of car B east of $P$ at time $t$, and let $c(t)$
+be the distance from car A to car B at time $t$.  By the Pythagorean
+Theorem, $\ds c(t)^2=a(t)^2+b(t)^2$. Taking derivatives
+we get $\ds 2c(t)c'(t)=2a(t)a'(t)+2b(t)b'(t)$, so
+$$
+  \dot{c}={a\dot{a}+b\dot{b}\over c}={a\dot{a}+b\dot{b}\over \sqrt{a^2+b^2}}.
+$$
+Substituting known values we get:
+$$
+\dot{c}={10\cdot 80+15\cdot100\over
+  \sqrt{10^2+15^2}}={460\over\sqrt{13}} \approx 127.6 \hbox{km/hr}
+$$
+at the time of interest.
+<a id="exam:departing cars"></a>
+
+</p>
+</div><!-- example -->
+<p>
+</p><p>
+
+Notice how this problem differs from example <a href="section06.02.html#exam:receding airplane">6.2.2</a>.  In both cases we started with the Pythagorean Theorem and
+took derivatives on both sides.  However, in
+example <a href="section06.02.html#exam:receding airplane">6.2.2</a> one of the sides was a constant
+(the altitude of the plane), and so the derivative of the square of
+that side of the triangle was simply zero.  In this example, on the
+other hand, all three sides of the right triangle are variables, even
+though we are interested in a specific value of each side of the
+triangle (namely, when the sides have lengths 10 and 15). Make sure that
+you understand at the start of the problem what are the variables and
+what are the constants.
+</p><p>
+</p>
+<a id="exercises"></a><h2 class="exercises">Exercises 6.2</h2>
+<p></p><p>
+</p>
+<p class="exercise"><b>Ex 6.2.1</b>
+A cylindrical tank standing upright (with one circular base on the
+ground) has radius 20 cm.  How fast does the water level in the
+tank drop when the water is being drained at 25 cm${}^3$/sec?
+(<a knowl="" class="internal" value="$1/(16\pi)$ cm/s">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 6.2.2</b>
+A cylindrical tank standing upright (with one circular base on the
+ground) has radius 1 meter.  How fast does the water level in the
+tank drop when the water is being drained at 3 liters per second?
+(<a knowl="" class="internal" value="$3/(1000\pi)$ meters/second">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 6.2.3</b>
+A ladder 13 meters long rests on horizontal ground and leans
+against a vertical wall.  The foot of the ladder is pulled away from
+the wall at the rate of 0.6 m/sec.  How fast is the top sliding down
+the wall when the foot of the ladder is 5 m from the wall?
+(<a knowl="" class="internal" value="$1/4$ m/s">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 6.2.4</b>
+A ladder 13 meters long rests on horizontal ground and leans
+against a vertical wall. The top of the ladder is being pulled up the
+wall at $0.1$ meters per second.
+How fast is the foot of the ladder approaching 
+the wall when the foot of the ladder is 5 m from the wall?
+(<a knowl="" class="internal" value="$6/25$ m/s">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 6.2.5</b>
+A rotating beacon is located 2 miles out in the water.  Let $A$ be the
+point on the shore that is closest to the beacon.  As the beacon rotates at
+10 rev/min, the beam of light sweeps down the shore once each time it revolves.
+Assume that the shore is straight.  How fast is the point where the beam
+hits the shore moving at an instant when the beam is lighting up a point 2
+miles along the shore from the point $A$?
+(<a knowl="" class="internal" value="$80\pi$ mi/min">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 6.2.6</b>
+A baseball diamond is a square 90 ft on a side.  A player runs from first
+base to second base at 15 ft/sec.  At what rate is the player's distance
+from third base decreasing when she is half way from first to second base?
+(<a knowl="" class="internal" value="$\ds 3\sqrt5$ ft/s">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 6.2.7</b>
+Sand is poured onto a surface at 15 cm${}^3$/sec, forming a
+conical pile whose base diameter is always equal to its altitude.  How
+fast is the altitude of the pile increasing when the pile is 3 cm
+high?
+(<a knowl="" class="internal" value="$20/(3\pi)$ cm/s">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 6.2.8</b>
+A boat is pulled in to a dock by a rope with one end attached to the front
+of the boat and the other end passing through a ring attached to the dock
+at a point 5 ft higher than the front of the boat.  The rope is being
+pulled through the ring at the rate of 0.6 ft/sec.  How fast is the boat
+approaching the dock when 13 ft of rope are out?
+(<a knowl="" class="internal" value="$13/20$ ft/s">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 6.2.9</b>
+A balloon is at a height of 50 meters, and is rising at the constant rate
+of 5 m/sec.  A bicyclist passes beneath it, traveling in a
+straight line at the constant speed of 10 m/sec.  How fast is the distance
+between the bicyclist and the balloon increasing 2 seconds later?
+(<a knowl="" class="internal" value="$\ds 5\sqrt{10}/2$ m/s">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 6.2.10</b>
+A pyramid-shaped vat has square cross-section and stands on its
+tip.  The dimensions at the top are 2 m $\times$ 2 m, and the depth is
+5 m.  If water is flowing into the vat at 3 m${}^3$/min, how fast is
+the water level rising when the depth of water (at the deepest point)
+is 4 m?  Note: the volume of any "conical'' shape (including
+pyramids) is $(1/3)(\hbox{height})(\hbox{area of base})$.
+(<a knowl="" class="internal" value="$75/64$ m/min">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 6.2.11</b>
+The sun is rising at the rate of $1/4$ deg/min, and appears to be
+climbing into the sky perpendicular to the
+horizon, as depicted in figure <a href="section06.02.html#fig:sunrise sunset">6.2.5</a>.
+How fast is the shadow of a 200 meter building
+shrinking at the moment when the shadow is 500 meters long? 
+(<a knowl="" class="internal" value="$145\pi/72$ m/s">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 6.2.12</b>
+The sun is setting at the rate of $1/4$ deg/min, and appears
+to be dropping perpendicular to the horizon, as depicted in
+figure <a href="section06.02.html#fig:sunrise sunset">6.2.5</a>. How fast is the shadow of a 25
+meter wall lengthening at the moment when the shadow is 50 meters long?
+(<a knowl="" class="internal" value="$25\pi/144$ m/min">answer</a>)
+
+</p><p>
+</p><div class='figure'><!-- Applications_of_Derivative-Sunrise_or_sunset.html -->
+<!-- Figure 6.2.5 -->
+<div id="sunrise_or_sunset" class="jxgbox" style="width:47%"></div>
+<script type="text/javascript">
+    (function () {  // BEGIN: scope limiting function wrapper
+	    var AspectRatio = (11/22); // height/width
+	    var wd=document.getElementById('sunrise_or_sunset').offsetWidth;
+	var ht=wd*AspectRatio;
+	document.getElementById('sunrise_or_sunset').style.height=ht+'px';
+	var brd = JXG.JSXGraph.initBoard('sunrise_or_sunset',{boundingbox:[-11, 10, 11,-1], showCopyright:false, showNavigation:false});
+	brd.create('segment',[[-10,0],[10,0]],{strokeWidth:2,strokeColor:'green',fixed:true});
+	brd.create('segment',[[0,0],[0,3]],{strokeWidth:2,strokeColor:'brown',fixed:true});
+	brd.create('segment',[[5,0],[-8,8]],{dash:2,strokeWidth:1,strokeColor:'black',fixed:true});
+	brd.create('image',["images/sun_image.png",[-9.5,7.5],[2,2]],{fixed:true});
+    })(); // END: scope limiting function wrapper
+</script>
+
+<a id="fig:sunrise sunset"></a>
+<div class='figcaption'><span class="figurenumber">Figure 6.2.5.</span> Sunrise or sunset.</div></div>
+<p>
+</p><p>
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 6.2.13</b>
+The trough shown in figure <a href="section06.02.html#fig:trough">6.2.6</a>
+is constructed by fastening together three
+slabs of wood of dimensions 10 ft $\times$ 1 ft, and then attaching the
+construction to a wooden wall at each end.  The angle $\theta$ was
+originally $\ds 30^\circ$, but because of poor construction the sides are
+collapsing.  The trough is full of water.  At what rate (in ft${}^3$/sec) 
+is 
+the water spilling out over the top of
+the trough if the sides have each fallen to an angle of $\ds 45^\circ$, and are
+collapsing at the rate of $\ds 1^\circ$ per second?
+(<a knowl="" class="internal" value="$\ds \pi\sqrt2/36$ ft$^3$/s">answer</a>)
+
+</p><p>
+</p><div class='figure'><!-- Applications_of_Derivative-Trough.html -->
+<!-- Figure 6.2.6 -->
+<div id="trough" class="jxgbox" style="width:80%"></div>
+<script type="text/javascript">
+ (function () {  // BEGIN: scope limiting function wrapper
+  var xmin=-1, xmax= 12, ymin=-1, ymax=5;
+  var AspectRatio = ((ymax-ymin)/(xmax-xmin)); // height/width
+  var wd=document.getElementById('trough').offsetWidth;
+  var ht=wd*AspectRatio;
+  var yfactor = (ymax-ymin)/(ht);
+  var xfactor = (xmax-xmin)/(wd);
+  var xaxis_label_offset = yfactor*15;
+  var yaxis_label_offset = xfactor*20;
+  document.getElementById('trough').style.height=ht+'px';
+  var brd = JXG.JSXGraph.initBoard('trough',{boundingbox:[xmin,ymax, xmax,ymin], showCopyright:false, showNavigation:false});
+  brd.create('segment',[[1, 0],[10.4, 3.42]],{strokeColor:'black',fixed:true,strokeWidth:1});
+  brd.create('segment',[[10.4, 3.42],[10.9, 4.29]],{strokeColor:'black',fixed:true,strokeWidth:1});
+  brd.create('segment',[[10.9, 4.29],[8.9, 4.29]],{strokeColor:'black',fixed:true,strokeWidth:1});
+  brd.create('segment',[[8.9, 4.29],[-0.5, 0.866]],{strokeColor:'black',fixed:true,strokeWidth:1});
+  brd.create('segment',[[10.9, 4.29],[1.5, 0.866]],{strokeColor:'black',fixed:true,strokeWidth:1});
+  brd.create('segment',[[-0.5, 0.866],[0,0]],{strokeColor:'black',fixed:true,strokeWidth:1});
+  brd.create('segment',[[0,0],[1,0]],{strokeColor:'black',fixed:true,strokeWidth:1});
+  brd.create('segment',[[1,0],[1.5, 0.866]],{strokeColor:'black',fixed:true,strokeWidth:1});
+  brd.create('segment',[[1.5, 0.866],[-0.5, 0.866]],{strokeColor:'black',fixed:true,strokeWidth:1});
+  brd.create('segment',[[0,0],[9.4, 3.42]],{dash:2,strokeColor:'black',fixed:true,strokeWidth:1});
+  brd.create('segment',[[9.4, 3.42],[ 10.4, 3.42]],{dash:2,strokeColor:'black',fixed:true,strokeWidth:1});
+  brd.create('segment',[[9.4, 3.42],[8.9, 4.29]],{dash:2,strokeColor:'black',fixed:true,strokeWidth:1});
+  brd.create('segment',[[0,0],[0, 0.866]],{dash:2,strokeColor:'black',fixed:true,strokeWidth:1});
+  brd.create('segment',[[1,0],[1, 0.866]],{dash:2,strokeColor:'black',fixed:true,strokeWidth:1});
+  brd.create('text',[0.5,-xaxis_label_offset,'$1$']);
+  brd.create('text',[-0.25-xfactor*10,0.433-yfactor*10,'$1$']);
+  brd.create('text',[10.65+xfactor*5,3.85-yfactor*5,'$1$']);
+  brd.create('text',[5.7+xfactor*5,1.71-yfactor*7,'$10$']);
+  brd.create('text',[-0.3*Math.sin(Math.PI/12)-xfactor*5,0.3*Math.cos(Math.PI/12)+yfactor*7,'$\\\\theta$']);
+  brd.create('text',[1+0.3*Math.sin(Math.PI/12),0.3*Math.cos(Math.PI/12)+yfactor*10,'$\\\\theta$']);
+  var p1=brd.create('point',[0,0],{visible:false,fixed:true});
+  var p2=brd.create('point',[0,0.3],{visible:false,fixed:true});
+  var p3=brd.create('point',[-0.3*Math.sin(Math.PI/6),0.3*Math.cos(Math.PI/6)],{visible:false,fixed:true});
+  brd.create('arc',[p1,p2,p3],{strokeColor:'black',strokeWidth:1,fixed:true});
+  var p4=brd.create('point',[1,0],{visible:false,fixed:true});
+  var p5=brd.create('point',[1+0.3*Math.sin(Math.PI/6),0.3*Math.cos(Math.PI/6)],{visible:false,fixed:true});
+  var p6=brd.create('point',[1,0.3],{visible:false,fixed:true});
+  brd.create('arc',[p4,p5,p6],{strokeColor:'black',strokeWidth:1,fixed:true});
+})(); // END: scope limiting function wrapper
+</script>
+<a id="fig:trough"></a>
+<div class='figcaption'><span class="figurenumber">Figure 6.2.6.</span> Trough.</div></div>
+<p>
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 6.2.14</b>
+A woman 5 ft tall walks at the rate of 3.5 ft/sec away from a streetlight
+that is 12 ft above the ground.  At what rate is the tip of her shadow
+moving?  At what rate is her shadow lengthening?
+(<a knowl="" class="internal" value="tip: 6 ft/s, length: $5/2$ ft/s">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 6.2.15</b>
+A man 1.8 meters tall walks at the rate of 1 meter per
+second toward a streetlight that is 4 meters above the ground.  At
+what rate is the tip of his shadow moving?  At what rate is his shadow
+shortening?
+(<a knowl="" class="internal" value="tip: $20/11$ m/s, length: $9/11$ m/s">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 6.2.16</b>
+A police helicopter is flying at 150 mph at a constant altitude of 0.5 mile
+above a straight road.  The pilot uses radar to determine that an oncoming
+car is at a distance of exactly 1 mile from the helicopter, and that this
+distance is decreasing at 190 mph.  Find the speed of the car.
+(<a knowl="" class="internal" value="$\ds 380/\sqrt3-150\approx 69.4$ mph">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 6.2.17</b>
+A police helicopter is flying at 200 kilometers per hour at
+a constant altitude of 1 km above a straight road.  The pilot uses
+radar to determine that an oncoming car is at a distance of exactly 2
+kilometers from the helicopter, and that this distance is decreasing at 250
+kph.  Find the speed of the car.
+(<a knowl="" class="internal" value="$\ds 500/\sqrt3-200\approx 88.7$ km/hr">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 6.2.18</b>
+A light shines from the top of a pole 20 m high. A ball is falling 10
+meters from the pole, casting a shadow on a building 30 meters away,
+as shown in figure <a href="section06.02.html#fig:falling ball">6.2.7</a>.
+When the ball is 25 meters from the ground it is falling at 6 meters
+per second. How fast is its shadow moving?
+(<a knowl="" class="internal" value="18 m/s">answer</a>)
+
+</p><p>
+</p><p>
+</p><div class='figure'><!-- Applications_of_Derivative-Falling_ball.html -->
+<!-- Figure 6.2.7 -->
+<div id="falling_ball" class="jxgbox" style="width:40%"></div>
+<script type="text/javascript">
+ (function () {  // BEGIN: scope limiting function wrapper
+  var xmin=-1.5, xmax= 5.5, ymin=-1, ymax=5;
+  var AspectRatio = ((ymax-ymin)/(xmax-xmin)); // height/width
+  var wd=document.getElementById('falling_ball').offsetWidth;
+  var ht=wd*AspectRatio;
+  document.getElementById('falling_ball').style.height=ht+'px';
+  var brd = JXG.JSXGraph.initBoard('falling_ball',{boundingbox:[xmin,ymax, xmax,ymin], showCopyright:false, showNavigation:false});
+  brd.create('segment',[[3,0],[3,4]],{strokeColor:'black',fixed:true,strokeWidth:3});
+  brd.create('segment',[[3,4],[4.5,4]],{strokeColor:'black',fixed:true,strokeWidth:3});
+  brd.create('segment',[[-1,0],[5,0]],{strokeColor:'black',fixed:true,strokeWidth:3});
+  brd.create('segment',[[0,2],[3,3.5]],{dash:2,strokeColor:'black',fixed:true,strokeWidth:1});
+  brd.create('point',[1,2.5],{withLabel:false,strokeColor:'red',fillColor:'orange',size:2,fixed:true});
+     brd.create('image',["images/light_pole.png",[-0.4,0],[2.2*42/293,2.2]],{fixed:true});
+})(); // END: scope limiting function wrapper
+</script>
+<a id="fig:falling ball"></a>
+<div class='figcaption'><span class="figurenumber">Figure 6.2.7.</span> Falling ball.</div></div>
+<p>
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 6.2.19</b>
+Do example <a href="section06.02.html#exam:departing cars">6.2.6</a> assuming that the angle
+between the two roads is 120${}^\circ$ instead of 90${}^\circ$ (that
+is, the "north&ndash;south'' road actually goes in a somewhat northwesterly
+direction from $P$).  Recall the law of cosines:
+$\ds c^2=a^2+b^2-2ab\cos\theta$.
+(<a knowl="" class="internal" value="$\ds 136\sqrt{475}/19\approx 156$ km/hr">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 6.2.20</b>
+Do example <a href="section06.02.html#exam:departing cars">6.2.6</a> assuming that
+car A is 300 meters north of $P$, car B is 400 meters east of $P$, both
+cars are going at constant speed toward $P$, and the two cars will collide in
+10 seconds.
+(<a knowl="" class="internal" value="$-50$ m/s">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 6.2.21</b>
+Do example <a href="section06.02.html#exam:departing cars">6.2.6</a> assuming that
+8 seconds ago car A started from rest at $P$ and has been picking up
+speed at the steady rate of 5 m/sec${}^2$, and 6 seconds after car A
+started car B passed $P$ moving east at constant speed 60 m/sec.
+(<a knowl="" class="internal" value="$68$ m/s">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 6.2.22</b>
+Referring again to example <a href="section06.02.html#exam:departing cars">6.2.6</a>,
+suppose that instead of car B an airplane is flying at speed $200$
+km/hr to the east of $P$ at an altitude of 2 km, as depicted in
+figure <a href="section06.02.html#fig:car and airplane">6.2.8</a>. How fast is the distance between
+car and airplane changing?  
+(<a knowl="" class="internal" value="$\ds 3800/\sqrt{329}\approx 210$ km/hr ">answer</a>)
+
+</p><p>
+</p><div class='figure'><!-- Applications_of_Derivative-Car_and_airplane.html -->
+<!-- Figure 6.2.5 -->
+<div id="car_and_airplane" class="jxgbox" style="width:33%"></div>
+<script type="text/javascript">
+ (function () {  // BEGIN: scope limiting function wrapper
+  var xmin=-1, xmax= 9, ymin=-3, ymax=10;
+  var AspectRatio = ((ymax-ymin)/(xmax-xmin)); // height/width
+  var wd=document.getElementById('car_and_airplane').offsetWidth;
+  var ht=wd*AspectRatio;
+  var yfactor = (ymax-ymin)/(ht);
+  var xfactor = (xmax-xmin)/(wd);
+  var xaxis_label_offset = yfactor*15;
+  var yaxis_label_offset = xfactor*20;
+  document.getElementById('car_and_airplane').style.height=ht+'px';
+  var brd = JXG.JSXGraph.initBoard('car_and_airplane',{boundingbox:[xmin, ymax, xmax,ymin], showCopyright:false, showNavigation:false});
+  brd.create('segment',[[0,0],[6,3]],{strokeWidth:2,fixed:true});
+  brd.create('segment',[[0,0],[8,-2]],{strokeWidth:2,fixed:true});
+     var a=brd.create('point',[2.5,1.25],{size:1,name:'$A$',label:{offset:[-10,-10]},fillColor:'black',strokeColor:'black',fixed:true});
+  var b=brd.create('point',[5,8.75],{size:1,name:'$B$',label:{offset:[-15,0]},fillColor:'black',strokeColor:'black',fixed:true});
+  var p1 = brd.create('point',[4,2],{visible:false});
+  brd.create('text',[3.75-xfactor*25,5,'$c(t)$']);
+  brd.create('segment',[[2.5,1.25],[5,8.75]],{dash:2,strokewidth:1,strokeColor:'black',fixed:true});
+  brd.create('segment',[[5,-1.25],[5,8.75]],{dash:2,strokewidth:1,strokeColor:'black',fixed:true});
+  var a1 = brd.create('arrow',[a,p1],{strokeColor:'red',fixed:true});
+  var a2 = brd.create('arrow',[[5,8.75],[7,8.25]],{strokeColor:'red',fixed:true});
+ })(); // END: scope limiting function wrapper
+</script>
+<a id="fig:car and airplane"></a>
+<div class='figcaption'><span class="figurenumber">Figure 6.2.8.</span> Car and airplane.</div></div>
+<p>
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 6.2.23</b>
+Referring again to example <a href="section06.02.html#exam:departing cars">6.2.6</a>, suppose
+that instead of car B an airplane is flying at speed $200$
+km/hr to the east of $P$ at an altitude of 2 km, and that it is
+gaining altitude at 10 km/hr.
+How fast is
+the distance between car and airplane changing?
+(<a knowl="" class="internal" value="\hbox{$\ds 820/\sqrt{329}+150\sqrt{57}/\sqrt{47}\approx 210$ km/hr}">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 6.2.24</b>
+A light shines from the top of a pole 20 m high.  An object is dropped from
+the same height from a point 10 m away, so that its height at time $\ds t$
+seconds is $\ds h(t)=20-9.8t^2/2$.  How fast is the object's shadow
+moving on the ground one second later?
+(<a knowl="" class="internal" value="$4000/49$ m/s">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 6.2.25</b>
+The two blades of a pair of scissors are fastened at the point $A$ as
+shown in figure <a href="section06.02.html#fig:scissors">6.2.9</a>.  Let
+$a$ denote the distance from $A$ to the tip of the blade (the point $B$).
+Let $\beta$ denote the angle at the tip of the blade that is formed by the
+line $\ds \overline{AB}$ and the bottom edge of the blade, line
+$\ds \overline{BC}$, and let $\theta$ denote the angle between
+$\ds \overline{AB}$ and the horizontal.
+Suppose that a piece of paper is cut in such a way that the center
+of the scissors at $A$ is fixed, and the paper is also fixed.  As the
+blades are closed (i.e., the angle $\theta$ in the diagram is decreased),
+the distance $x$ between $A$ and $C$ increases, cutting the paper.
+</p><p>
+</p><p><b> a.</b>  Express $x$ in terms of $a$, $\theta$, and $\beta$.
+</p><p>
+</p><p><b> b.</b>  Express $dx/dt$ in terms of $a$,
+$\theta$, $\beta$, and $d\theta/dt$.
+</p><p>
+</p><p><b> c.</b>  Suppose that the distance $a$ is 20 cm, and the
+angle $\beta$ is $\ds 5^\circ$.  Further suppose that $\theta$ is
+decreasing at 50
+deg/sec.  At the instant when $\ds \theta=30^\circ$, find the rate (in
+cm/sec) at which the paper is being cut.
+(<a knowl="" class="internal" value="(a) $x=a\cos\theta-a\sin\theta\cot(\theta+\beta)=
+\hbox{$a\sin\beta/\sin(\theta+\beta$), (c) $\ds \dot x\approx 3.79$ cm/s}$">answer</a>)
+
+</p><p>
+</p><div class='figure'><!-- Applications_of_Derivative-Scissors.html -->
+<!-- Figure 6.2.7 -->
+<div id="scissors" class="jxgbox" style="width:53%"></div>
+<script type="text/javascript">
+ (function () {  // BEGIN: scope limiting function wrapper
+  var xmin=-3.5, xmax= 7, ymin=-4.5, ymax=4.5;
+  var AspectRatio = ((ymax-ymin)/(xmax-xmin)); // height/width
+  var wd=document.getElementById('scissors').offsetWidth;
+  var ht=wd*AspectRatio;
+  var yfactor = (ymax-ymin)/(ht);
+  var xfactor = (xmax-xmin)/(wd);
+  var xaxis_label_offset = yfactor*15;
+  var yaxis_label_offset = xfactor*20;
+  document.getElementById('scissors').style.height=ht+'px';
+  var brd = JXG.JSXGraph.initBoard('scissors',{boundingbox:[xmin,ymax, xmax,ymin], showCopyright:false, showNavigation:false});
+  brd.create('segment',[[0.3,0],[6,3.5]],{strokeColor:'black',fixed:true,strokeWidth:1});
+  brd.create('segment',[[6,3.5],[2,0]],{strokeColor:'black',fixed:true,strokeWidth:1});
+  brd.create('segment',[[2,0],[0.3,0]],{strokeColor:'black',fixed:true,strokeWidth:1});
+  brd.create('segment',[[0.3,0],[6,-3.5]],{strokeColor:'black',fixed:true,strokeWidth:1,dash:2});
+  brd.create('segment',[[6,-3.5],[2,0]],{strokeColor:'black',fixed:true,strokeWidth:1,dash:2});
+  brd.create('segment',[[6,-3.5],[6,3.5]],{strokeColor:'black',fixed:true,strokeWidth:1,dash:2});
+  brd.create('segment',[[2,0],[6,0]],{strokeColor:'black',fixed:true,strokeWidth:1,dash:2});
+var p1 = [];
+p1.push(brd.create('point',[0.27,0.9],{strokeColor:'black',fillColor:'black',visible:false})); // data point
+p1.push(brd.create('point',[1,1.5],{strokeColor:'black',fillColor:'black',visible:false}));  // control point
+p1.push(brd.create('point',[4,3],{strokeColor:'black',fillColor:'black',visible:false})); // control point
+p1.push(brd.create('point',[6,3.5],{strokeColor:'black',fillColor:'black',visible:false})); // data point
+ var c = brd.create('curve', JXG.Math.Numerics.bezier(p1), 
+               {strokecolor:'black',strokeWidth:1,dash:2}); 
+var p2 = [];
+p2.push(brd.create('point',[0.27,-0.9],{strokeColor:'black',fillColor:'black',visible:false})); // data point
+p2.push(brd.create('point',[1,-1.5],{strokeColor:'black',fillColor:'black',visible:false}));  // control point
+p2.push(brd.create('point',[4,-3],{strokeColor:'black',fillColor:'black',visible:false})); // control point
+p2.push(brd.create('point',[6,-3.5],{strokeColor:'black',fillColor:'black',visible:false})); // data point
+ var d = brd.create('curve', JXG.Math.Numerics.bezier(p2), 
+               {strokecolor:'black',strokeWidth:1,dash:2}); 
+var p3 = [];
+p3.push(brd.create('point',[-0.5,0],{strokeColor:'black',fillColor:'black',visible:false})); // data point
+p3.push(brd.create('point',[-4,1.8],{strokeColor:'black',fillColor:'black',visible:false}));  // control point
+p3.push(brd.create('point',[-2.4,3.5],{strokeColor:'black',fillColor:'black',visible:false})); // control point
+p3.push(brd.create('point',[0.27,0.9],{strokeColor:'black',fillColor:'black',visible:false})); // data point
+ var d = brd.create('curve', JXG.Math.Numerics.bezier(p3), 
+               {strokecolor:'black',strokeWidth:1,dash:2}); 
+var p4 = [];
+p4.push(brd.create('point',[-0.5,0],{strokeColor:'black',fillColor:'black',visible:false})); // data point
+p4.push(brd.create('point',[-4,-1.8],{strokeColor:'black',fillColor:'black',visible:false}));  // control point
+p4.push(brd.create('point',[-2.4,-3.5],{strokeColor:'black',fillColor:'black',visible:false})); // control point
+p4.push(brd.create('point',[0.27,-0.9],{strokeColor:'black',fillColor:'black',visible:false})); // data point
+ var d = brd.create('curve', JXG.Math.Numerics.bezier(p4), 
+               {strokecolor:'black',strokeWidth:1,dash:2}); 
+var f1 = brd.create('point',[-1.6,1.5],{size:1,visible:false});
+var f2 = brd.create('point',[-0.2,0.6],{size:1,visible:false});
+brd.create('ellipse',[f1,f2,1.8],{strokeColor:'black',dash:2});
+var f3 = brd.create('point',[-1.6,-1.5],{size:1,visible:false});
+var f4 = brd.create('point',[-0.2,-0.6],{size:1,visible:false});
+brd.create('ellipse',[f3,f4,1.8],{strokeColor:'black',dash:2});
+brd.create('text',[0.3-xfactor*12,0,'$A$']);
+brd.create('text',[2-xfactor*10,-yfactor*10,'$C$']);
+brd.create('text',[6+xfactor*7,3.5,'$B$']);
+brd.create('text',[0.3+xfactor*20,yfactor*5,'$\\\\theta$']);
+})(); // END: scope limiting function wrapper
+</script>
+<a id="fig:scissors"></a>
+<div class='figcaption'><span class="figurenumber">Figure 6.2.9.</span> Scissors.</div></div>
+<p>
+</p><p>
+
+</p><p>
+
+
+</div></div></body>
+</html>

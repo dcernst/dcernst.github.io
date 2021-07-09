@@ -1,0 +1,1007 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+<meta http-equiv="Content-Language" Content="en">
+<title>11.1 Sequences</title>
+<!--
+<script type="text/javascript" src="js/deployJava.js"></script>
+<link rel="stylesheet" type="text/css" href="http://jsxgraph.uni-bayreuth.de/distrib/jsxgraph.css" />
+-->
+<!-- use Jsxgraph to create figures: http://jsxgraph.uni-bayreuth.de/wp/ -->
+<link rel="stylesheet" type="text/css" href="css/jsxgraph.css" />
+<script type="text/javascript" src="js/jsxgraphcore.js"></script>
+<script src="js/three.min.js"></script>
+<script src="js/Detector.js"></script>
+<script src="js/TrackballControls.js"></script>
+<script src="js/OrthographicTrackballControls.js"></script>
+<script src="js/THREEx.KeyboardState.js"></script>
+<script src="js/THREEx.FullScreen.js"></script>
+<script src="js/THREEx.WindowResize.js"></script>
+<script type='text/javascript' src='js/DAT.GUI.min.js'></script>
+<script>
+window.requestAnimFrame = (function(){
+    return  window.requestAnimationFrame       || 
+        window.webkitRequestAnimationFrame || 
+        window.mozRequestAnimationFrame    || 
+        window.oRequestAnimationFrame      || 
+        window.msRequestAnimationFrame     || 
+        function(/* function */ callback, /* DOMElement */
+            element){
+            window.setTimeout(callback, 1000 / 60);
+        };
+})();
+</script>
+<script src="js/ifvisible.min.js"></script>
+<script src="js/conrec.js"></script>
+<script>
+active = true;
+ifvisible.setIdleDuration(10);
+ifvisible.on("idle", function(){
+    active = false;
+//    console.log("idle");
+});
+
+ifvisible.on("wakeup", function(){
+    active = true;
+//    console.log("wakeup");
+});
+</script>
+<script src="js/parser.js"></script>
+<link href="css/whitman.css" rel="stylesheet" type="text/css" /><link href="css/calculus.css" rel="stylesheet" type="text/css" /><link href="css/knowlstyle.css" rel="stylesheet" type="text/css" />
+
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  extensions: ["tex2jax.js","TeX/AMSmath.js","TeX/AMSsymbols.js"],
+  jax: ["input/TeX","output/HTML-CSS"],
+  tex2jax: {
+    inlineMath: [['$','$'],["\\(","\\)"]],
+    processEscapes: true,
+  },
+TeX: {
+   Macros: {
+    val: "\\mathop{\\rm val}",
+    divides: "\\mid",
+    ndivides: "\\mathrel{\\not|}",
+    fix: "\\mathop{\\rm fix}",
+    id: "\\mathop{\\rm id}",
+    na: "\\mathop{\\rm na}",
+    d: "\\mathop{\\rm\\strut d}\\nolimits ",
+    legendre: ["\\left(\\frac{#1}{#2}\\right)",2],
+    normalbaselines: "",
+    notdiv: "\\nmid",
+    implies: "\\Rightarrow",
+    iff: "\\Leftrightarrow",
+    sevenpoint: "\\scriptsize",
+    ds: "\\displaystyle",
+    lcm: "\\operatorname{lcm}",
+    arccot: "\\operatorname{arccot}",
+    arcsec: "\\operatorname{arcsec}",
+    arccsc: "\\operatorname{arccsc}",
+    arccosh: "\\operatorname{arccosh}",
+    arcsinh: "\\operatorname{arcsinh}",
+    arcsech: "\\operatorname{arcsech}",
+    sech: "\\operatorname{sech}",
+    csch: "\\operatorname{csch}",
+    R: "{\\mathbb R}",
+    sb: "_",
+    sp: "^",
+    Q: "{\\mathbb Q}",
+    C: "{\\mathbb C}",
+    N: "{\\mathbb N}",
+    Z: "{\\mathbb Z}",
+    U: "{\\mathbb U}",
+    v: ["\\langle #1\\rangle",1],
+    dint: ["{\\mathchoice{\\mathop{\\int\\!\\!\\!\\int}_{#1}}{\\mathop{\\int\\!\\!\\!\\int}_{#1}}{\\mathop{\\int\\!\\!\\!\\int}}{\\mathop{\\int\\!\\!\\!\\int}}}",1],
+    tint: ["{\\mathchoice{\\mathop{\\int\\!\\!\\!\\int\\!\\!\\!\\int}_{#1\\;}}{\\mathop{\\int\\!\\!\\!\\int\\!\\!\\!\\int}_{#1}}{\\mathop{\\int\\!\\!\\!\\int\\!\\!\\!\\int}_{#1}}{\\mathop{\\int\\!\\!\\!\\int\\!\\!\\!\\int}_{#1}}}",1]
+   }
+},
+  "HTML-CSS": { scale: 100},
+  menuSettings: { zscale: "150%", zoom: "Double-Click" }
+});
+    JXG.Options.text.display = 'html';
+    JXG.Options.text.useMathJax = true;
+</script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/math
+jax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+<script>
+MathJax.Hub.Register.StartupHook("End",function () {
+  if(typeof window.orientation === 'undefined'){
+    var i,x;
+    x = document.getElementsByClassName("webgl_display");
+    for (i=0; i<x.length; i++) {
+      x[i].style.display = "block";
+    }
+    x = document.getElementsByClassName("no_webgl_display");
+    for (i=0; i<x.length; i++) {
+      x[i].style.display = "none";
+    }
+  }
+});
+</script>
+
+<script src="js/jquery-3.1.0.min.js"></script>
+<script src="https://sagecell.sagemath.org/static/embedded_sagecell.js"></script>
+<script src="js/jquery.visible.min.js"></script>
+<script type="text/javascript" src="js/knowl.js"></script>
+<style type="text/css">
+
+.sagecell .CodeMirror {
+  height: auto;
+}
+
+.sagecell .CodeMirror-scroll {
+  overflow-y: hidden;
+  overflow-x: auto;
+}
+
+.sagecell-practice .CodeMirror-scroll {
+}
+
+.sagecell button.sagecell_evalButton {
+    font-size: 50%;
+}
+
+.sagecell_sessionContainer {
+    margin-bottom:1em;
+}
+</style>
+<script>
+function toggle(a) {
+  var b = String(a);
+  b=b.replace("contents","button");
+  if (document.getElementById(a).style.display == "block") {
+    document.getElementById(a).style.display = "none";
+    document.getElementById(b).src = "expand_submenu.png";
+  } else {
+    document.getElementById(a).style.display = "block";
+    document.getElementById(b).src = "collapse_submenu.png";
+  }
+}
+function toggle_sidebar() {
+  if (document.getElementById('sidebar').style.display == "block") {
+    document.getElementById('sidebar').style.display = "none";
+    document.getElementById('menu_expand').style.display = "block";
+  } else {
+    document.getElementById('sidebar').style.display = "block";
+    document.getElementById('menu_expand').style.display = "none";
+  }
+}
+</script>
+
+</head>
+
+<body class="" onload="toggle('chapter_11_contents')">
+<div id="header">
+<div class="right">
+<div class="bread">
+  <a href=".">Home</a> &raquo; <a href="chapter11.html">Sequences and Series</a> &raquo; <a href="section11.01.html">Sequences</a>
+</div>
+
+<FORM method=GET action=https://www.google.com/custom id="search">
+<INPUT TYPE=text name=q size=31 maxlength=255 value="" style="font-size:small">
+<INPUT type=submit name=sa VALUE="Search the book" style="font-size:small">
+<INPUT type=hidden name=cof VALUE="AH:center;AWFID:198dc2b883340b1f;">
+<input type=hidden name=domains value="www.whitman.edu">
+<input type=hidden name=sitesearch value="www.whitman.edu/mathematics/calculus_online/">
+</FORM>
+<div id="title"><span id="title-content">11.1 Sequences</span></div><a href="#exercises">[Jump to exercises]</a>
+</div>
+</div>
+<div id="menu_expand" style="display:none"><a href="javascript:toggle_sidebar()">Expand menu</a></div>
+<div id="sidebar" style="display:block">
+<h2 id="menu_collapse"><a href='javascript:toggle_sidebar()'>Collapse menu</a></h2>
+<h2 class="link"><img id="chapter_01_button" src="expand_submenu.png" onclick='toggle("chapter_01_contents")'><a href="chapter01.html">1 Analytic Geometry</a></h2>
+
+<ul class="list" id="chapter_01_contents">
+<li><a href="section01.01.html">1. Lines</a></li>
+<li><a href="section01.02.html">2. Distance Between Two Points; Circles</a></li>
+<li><a href="section01.03.html">3. Functions</a></li>
+<li><a href="section01.04.html">4. Shifts and Dilations</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_02_button" src="expand_submenu.png" onclick='toggle("chapter_02_contents")'><a href="chapter02.html">2 Instantaneous Rate of Change:  The Derivative</a></h2>
+
+<ul class="list" id="chapter_02_contents">
+<li><a href="section02.01.html">1. The slope of a function</a></li>
+<li><a href="section02.02.html">2. An example</a></li>
+<li><a href="section02.03.html">3. Limits</a></li>
+<li><a href="section02.04.html">4. The Derivative Function</a></li>
+<li><a href="section02.05.html">5. Adjectives For Functions</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_03_button" src="expand_submenu.png" onclick='toggle("chapter_03_contents")'><a href="chapter03.html">3 Rules for Finding Derivatives</a></h2>
+
+<ul class="list" id="chapter_03_contents">
+<li><a href="section03.01.html">1. The Power Rule</a></li>
+<li><a href="section03.02.html">2. Linearity of the Derivative</a></li>
+<li><a href="section03.03.html">3. The Product Rule</a></li>
+<li><a href="section03.04.html">4. The Quotient Rule</a></li>
+<li><a href="section03.05.html">5. The Chain Rule</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_04_button" src="expand_submenu.png" onclick='toggle("chapter_04_contents")'><a href="chapter04.html">4 Transcendental Functions</a></h2>
+
+<ul class="list" id="chapter_04_contents">
+<li><a href="section04.01.html">1. Trigonometric Functions</a></li>
+<li><a href="section04.02.html">2. The Derivative of $\sin x$</a></li>
+<li><a href="section04.03.html">3. A hard limit</a></li>
+<li><a href="section04.04.html">4. The Derivative of $\sin x$, continued</a></li>
+<li><a href="section04.05.html">5. Derivatives of the Trigonometric Functions</a></li>
+<li><a href="section04.06.html">6. Exponential and Logarithmic functions</a></li>
+<li><a href="section04.07.html">7. Derivatives of the exponential and  logarithmic functions</a></li>
+<li><a href="section04.08.html">8. Implicit Differentiation</a></li>
+<li><a href="section04.09.html">9. Inverse Trigonometric Functions</a></li>
+<li><a href="section04.10.html">10. Limits revisited</a></li>
+<li><a href="section04.11.html">11. Hyperbolic Functions</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_05_button" src="expand_submenu.png" onclick='toggle("chapter_05_contents")'><a href="chapter05.html">5 Curve Sketching</a></h2>
+
+<ul class="list" id="chapter_05_contents">
+<li><a href="section05.01.html">1. Maxima and Minima</a></li>
+<li><a href="section05.02.html">2. The first derivative test</a></li>
+<li><a href="section05.03.html">3. The second derivative test</a></li>
+<li><a href="section05.04.html">4. Concavity and inflection points</a></li>
+<li><a href="section05.05.html">5. Asymptotes and Other Things to Look For</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_06_button" src="expand_submenu.png" onclick='toggle("chapter_06_contents")'><a href="chapter06.html">6 Applications of the Derivative</a></h2>
+
+<ul class="list" id="chapter_06_contents">
+<li><a href="section06.01.html">1. Optimization</a></li>
+<li><a href="section06.02.html">2. Related Rates</a></li>
+<li><a href="section06.03.html">3. Newton's Method</a></li>
+<li><a href="section06.04.html">4. Linear Approximations</a></li>
+<li><a href="section06.05.html">5. The Mean Value Theorem</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_07_button" src="expand_submenu.png" onclick='toggle("chapter_07_contents")'><a href="chapter07.html">7 Integration</a></h2>
+
+<ul class="list" id="chapter_07_contents">
+<li><a href="section07.01.html">1. Two examples</a></li>
+<li><a href="section07.02.html">2. The Fundamental Theorem of Calculus</a></li>
+<li><a href="section07.03.html">3. Some Properties of Integrals</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_08_button" src="expand_submenu.png" onclick='toggle("chapter_08_contents")'><a href="chapter08.html">8 Techniques of Integration</a></h2>
+
+<ul class="list" id="chapter_08_contents">
+<li><a href="section08.01.html">1. Substitution</a></li>
+<li><a href="section08.02.html">2. Powers of sine and cosine</a></li>
+<li><a href="section08.03.html">3. Trigonometric Substitutions</a></li>
+<li><a href="section08.04.html">4. Integration by Parts</a></li>
+<li><a href="section08.05.html">5. Rational Functions</a></li>
+<li><a href="section08.06.html">6. Numerical Integration</a></li>
+<li><a href="section08.07.html">7. Additional exercises</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_09_button" src="expand_submenu.png" onclick='toggle("chapter_09_contents")'><a href="chapter09.html">9 Applications of Integration</a></h2>
+
+<ul class="list" id="chapter_09_contents">
+<li><a href="section09.01.html">1. Area between curves</a></li>
+<li><a href="section09.02.html">2. Distance, Velocity, Acceleration</a></li>
+<li><a href="section09.03.html">3. Volume</a></li>
+<li><a href="section09.04.html">4. Average value of a function</a></li>
+<li><a href="section09.05.html">5. Work</a></li>
+<li><a href="section09.06.html">6. Center of Mass</a></li>
+<li><a href="section09.07.html">7. Kinetic energy; improper integrals</a></li>
+<li><a href="section09.08.html">8. Probability</a></li>
+<li><a href="section09.09.html">9. Arc Length</a></li>
+<li><a href="section09.10.html">10. Surface Area</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_10_button" src="expand_submenu.png" onclick='toggle("chapter_10_contents")'><a href="chapter10.html">10 Polar Coordinates,  Parametric Equations</a></h2>
+
+<ul class="list" id="chapter_10_contents">
+<li><a href="section10.01.html">1. Polar Coordinates</a></li>
+<li><a href="section10.02.html">2. Slopes in polar coordinates</a></li>
+<li><a href="section10.03.html">3. Areas in polar coordinates</a></li>
+<li><a href="section10.04.html">4. Parametric Equations</a></li>
+<li><a href="section10.05.html">5. Calculus with Parametric Equations</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_11_button" src="expand_submenu.png" onclick='toggle("chapter_11_contents")'><a href="chapter11.html">11 Sequences and Series</a></h2>
+
+<ul class="list" id="chapter_11_contents">
+<li><a href="section11.01.html">1. Sequences</a></li>
+<li><a href="section11.02.html">2. Series</a></li>
+<li><a href="section11.03.html">3. The Integral Test</a></li>
+<li><a href="section11.04.html">4. Alternating Series</a></li>
+<li><a href="section11.05.html">5. Comparison Tests</a></li>
+<li><a href="section11.06.html">6. Absolute Convergence</a></li>
+<li><a href="section11.07.html">7. The Ratio and Root Tests</a></li>
+<li><a href="section11.08.html">8. Power Series</a></li>
+<li><a href="section11.09.html">9. Calculus with Power Series</a></li>
+<li><a href="section11.10.html">10. Taylor Series</a></li>
+<li><a href="section11.11.html">11. Taylor's Theorem</a></li>
+<li><a href="section11.12.html">12. Additional exercises</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_12_button" src="expand_submenu.png" onclick='toggle("chapter_12_contents")'><a href="chapter12.html">12 Three Dimensions</a></h2>
+
+<ul class="list" id="chapter_12_contents">
+<li><a href="section12.01.html">1. The Coordinate System</a></li>
+<li><a href="section12.02.html">2. Vectors</a></li>
+<li><a href="section12.03.html">3. The Dot Product</a></li>
+<li><a href="section12.04.html">4. The Cross Product</a></li>
+<li><a href="section12.05.html">5. Lines and Planes</a></li>
+<li><a href="section12.06.html">6. Other Coordinate Systems</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_13_button" src="expand_submenu.png" onclick='toggle("chapter_13_contents")'><a href="chapter13.html">13 Vector Functions</a></h2>
+
+<ul class="list" id="chapter_13_contents">
+<li><a href="section13.01.html">1. Space Curves</a></li>
+<li><a href="section13.02.html">2. Calculus with vector functions</a></li>
+<li><a href="section13.03.html">3. Arc length and curvature</a></li>
+<li><a href="section13.04.html">4. Motion along a curve</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_14_button" src="expand_submenu.png" onclick='toggle("chapter_14_contents")'><a href="chapter14.html">14 Partial Differentiation</a></h2>
+
+<ul class="list" id="chapter_14_contents">
+<li><a href="section14.01.html">1. Functions of Several Variables</a></li>
+<li><a href="section14.02.html">2. Limits and Continuity</a></li>
+<li><a href="section14.03.html">3. Partial Differentiation</a></li>
+<li><a href="section14.04.html">4. The Chain Rule</a></li>
+<li><a href="section14.05.html">5. Directional Derivatives</a></li>
+<li><a href="section14.06.html">6. Higher order derivatives</a></li>
+<li><a href="section14.07.html">7. Maxima and minima</a></li>
+<li><a href="section14.08.html">8. Lagrange Multipliers</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_15_button" src="expand_submenu.png" onclick='toggle("chapter_15_contents")'><a href="chapter15.html">15 Multiple Integration</a></h2>
+
+<ul class="list" id="chapter_15_contents">
+<li><a href="section15.01.html">1. Volume and Average Height</a></li>
+<li><a href="section15.02.html">2. Double Integrals in Cylindrical Coordinates</a></li>
+<li><a href="section15.03.html">3. Moment and Center of Mass</a></li>
+<li><a href="section15.04.html">4. Surface Area</a></li>
+<li><a href="section15.05.html">5. Triple Integrals</a></li>
+<li><a href="section15.06.html">6. Cylindrical and Spherical Coordinates</a></li>
+<li><a href="section15.07.html">7. Change of Variables</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_16_button" src="expand_submenu.png" onclick='toggle("chapter_16_contents")'><a href="chapter16.html">16 Vector Calculus</a></h2>
+
+<ul class="list" id="chapter_16_contents">
+<li><a href="section16.01.html">1. Vector Fields</a></li>
+<li><a href="section16.02.html">2. Line Integrals</a></li>
+<li><a href="section16.03.html">3. The Fundamental Theorem of Line Integrals</a></li>
+<li><a href="section16.04.html">4. Green's Theorem</a></li>
+<li><a href="section16.05.html">5. Divergence and Curl</a></li>
+<li><a href="section16.06.html">6. Vector Functions for Surfaces</a></li>
+<li><a href="section16.07.html">7. Surface Integrals</a></li>
+<li><a href="section16.08.html">8. Stokes's Theorem</a></li>
+<li><a href="section16.09.html">9. The Divergence Theorem</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_17_button" src="expand_submenu.png" onclick='toggle("chapter_17_contents")'><a href="chapter17.html">17 Differential Equations</a></h2>
+
+<ul class="list" id="chapter_17_contents">
+<li><a href="section17.01.html">1. First Order Differential Equations</a></li>
+<li><a href="section17.02.html">2. First Order Homogeneous Linear Equations</a></li>
+<li><a href="section17.03.html">3. First Order Linear Equations</a></li>
+<li><a href="section17.04.html">4. Approximation</a></li>
+<li><a href="section17.05.html">5. Second Order Homogeneous Equations</a></li>
+<li><a href="section17.06.html">6. Second Order Linear Equations</a></li>
+<li><a href="section17.07.html">7. Second Order Linear Equations, take two</a></li>
+</ul>
+
+<h2 class="link"><img id="chapter_18_button" src="expand_submenu.png" onclick='toggle("chapter_18_contents")'><a href="chapter18.html">18 Useful formulas</a></h2>
+
+<ul class="list" id="chapter_18_contents">
+</ul>
+
+</div>
+
+<div id="main">
+
+<div id="next"><a href="chapter11.html"><img src=previous_section.png width="30"></a>&nbsp;&nbsp;<a href="section11.02.html"><img src=next_section.png width="30"></a></div>
+
+<div id="content">
+<p>
+
+
+</p><p>
+While the idea of a sequence of numbers, $a_1,a_2,a_3,\ldots$ is
+straightforward, it is useful to think of a sequence as a function. We
+have up until now dealt with functions whose domains are the real
+numbers, or a subset of the real numbers, like $f(x)=\sin x$. A
+sequence is a function with domain the natural numbers
+$\N=\{1,2,3,\ldots\}$ or the non-negative integers,
+$\ds \Z^{\ge0}=\{0,1,2,3,\ldots\}$. The range of the function is still
+allowed to be the real numbers; in symbols, we say that a sequence is
+a function $f\colon \N\to\R$. Sequences are written in a few different
+ways, all equivalent; these all mean the same thing:
+$$
+  \displaylines{a_1,a_2,a_3,\ldots\cr
+  \left\{a_n\right\}_{n=1}^\infty\cr
+  \left\{f(n)\right\}_{n=1}^\infty\cr}
+$$
+</p><p>
+
+As with functions on the real numbers,
+we will most often encounter sequences that can be expressed by a
+formula. We have already seen the sequence $\ds a_i=f(i)=1-1/2^i$, and others
+are easy to come by:
+$$\eqalign{
+  f(i)&={i\over i+1}\cr
+  f(n)&={1\over2^n}\cr
+  f(n)&=\sin(n\pi/6)\cr
+  f(i)&={(i-1)(i+2)\over2^i}\cr
+}$$
+Frequently these formulas will make sense if thought of either as
+functions with domain $\R$ or $\N$, though occasionally one will make
+sense only for integer values. 
+</p><p>
+Faced with a sequence we are interested in the limit
+$$\lim_{i\to \infty} f(i) = \lim_{i\to\infty} a_i.$$
+We already understand
+$$\lim_{x\to\infty} f(x)$$
+when $x$ is a real valued variable; now we simply want to restrict the
+"input'' values to be integers. No real difference is required in the
+definition of limit, except that we specify, perhaps implicitly, that
+the variable is an integer.  Compare this definition to
+definition <a href="section04.10.html#defn:limit at infinity">4.10.4</a>.
+</p><p>
+</p>
+<div class="definition">
+<p>
+<span class="theoremlabel">Definition 11.1.1 </span>
+Suppose that $\ds\left\{a_n\right\}_{n=1}^\infty$ is a sequence.
+We say that $\ds \lim_{n\to \infty}a_n=L$ if for every $\epsilon>0$
+there is an $N > 0$ so that whenever $n>N$, $|a_n-L|< \epsilon$. If
+$\ds \lim_{n\to\infty}a_n=L$ we say that the sequence 
+<b>converges</b>,
+otherwise it 
+<b>diverges</b>.  
+
+</p>
+</div><!-- definition -->
+<p> 
+</p><p>
+If $f(i)$ defines a sequence, and $f(x)$ makes sense, and 
+$\ds \lim_{x\to\infty}f(x)=L$, then it is clear that
+$\ds \lim_{i\to\infty}f(i)=L$ as well, but it is important to note that
+the converse of this statement is not true. For example, since
+$\ds \lim_{x\to\infty}(1/x)=0$, it is clear that also
+$\ds \lim_{i\to\infty}(1/i)=0$, that is, the numbers
+$${1\over1},{1\over2},{1\over3},{1\over4},{1\over5},{1\over6},\ldots$$
+get closer and closer to 0. Consider this, however: Let 
+$f(n)=\sin(n\pi)$. This is the sequence
+$$
+  \sin(0\pi), \sin(1\pi),\sin(2\pi),\sin(3\pi),\ldots=0,0,0,0,\ldots
+$$
+since $\sin(n\pi)=0$ when $n$ is an integer. Thus
+$\ds \lim_{n\to\infty}f(n)=0$. But $\ds \lim_{x\to\infty}f(x)$, when $x$ is
+real, does not exist: as $x$ gets bigger and bigger, the values
+$\sin(x\pi)$ do not get closer and closer to a single value, but take
+on all values between $-1$ and $1$ over and over. In general, whenever
+you want to know $\ds \lim_{n\to\infty}f(n)$ you should first attempt to
+compute $\ds \lim_{x\to\infty}f(x)$, since if the latter exists it is also
+equal to the first limit. But if for some reason
+$\ds \lim_{x\to\infty}f(x)$ does not exist, it may still be true that 
+$\ds \lim_{n\to\infty}f(n)$ exists, but you'll have to figure out
+another way to compute it.
+</p><p>
+It is occasionally useful to think of the graph of a sequence. Since
+the function is defined only for integer values, the graph is just a
+sequence of dots. In figure <a href="section11.01.html#fig:graphs of sequences">11.1.1</a> we see the
+graphs of two sequences and the graphs of the corresponding real
+functions.
+</p><p>
+<a id="fig:graphs of sequences"></a>
+</p><div class='figure'><!-- Sequences_series-sequence_vs_real_function.html -->
+<!-- Figure 11.1.1 -->
+
+<table style="width:100%">
+<tr style="width:100%">
+<td style="width:50%">
+<div id='one_over_n' class='jxgbox'></div>
+</td><td style="width:50%">
+<div id='one_over_x' class='jxgbox'></div>
+</td>
+</tr><tr>
+<td style="width:50%">
+<div id='sine_n_pi' class='jxgbox'></div>
+</td><td style="width:50%">
+<div id='sine_x_pi' class='jxgbox'></div>
+</td></tr></table>
+
+<script type='text/javascript'>
+(function () {  // BEGIN: scope limiting function wrapper
+  var xmin=-1, xmax= 11.5, ymin=-1, ymax=6.5;
+  var AspectRatio =  ((ymax-ymin)/(xmax-xmin)); // height/width
+  var wd=document.getElementById('one_over_n').offsetWidth;
+  var ht=wd*AspectRatio;
+  var yfactor = (ymax-ymin)/(ht);
+  var xfactor = (xmax-xmin)/(wd);
+  var xaxis_label_offset = yfactor*15;
+  var yaxis_label_offset = xfactor*20;
+  document.getElementById('one_over_n').style.height=ht+'px';
+  var brd = JXG.JSXGraph.initBoard('one_over_n',{boundingbox:[xmin,ymax,xmax,ymin], showCopyright:false, showNavigation:false}) ;
+  var rejax = function() {
+     MathJax.Hub.Queue(["Typeset",MathJax.Hub]); 
+  }
+  brd.addHook(rejax)
+  var xaxis = brd.create('arrow', [[0,0], [11,0]],{strokeWidth:1,strokeColor:'black',fixed:true});
+  var yaxis = brd.create('arrow', [[0,0],[0,6]],{strokeWidth:1,strokeColor:'black',fixed:true});
+  var xi = brd.create('segment',[[-1,0],[10.1,0]],{visible:false});
+  brd.create('ticks',[xi,1],{minorTicks:false});
+  var yi = brd.create('segment',[[0,-1],[0,5.1]],{visible:false});
+  brd.create('ticks',[yi,1],{minorTicks:false});
+  var i;
+  for (i=1;i<=10;i++) {
+    brd.create('point',[i,1/i],{withLabel:false,fixed:true,size:1,strokeColor:'blue',fillColor:'blue'});
+  }
+  for (i=0;i<=10;i++) {
+    brd.create('text',[i,-xaxis_label_offset,'$'+i+'$'],{fixed:true});
+  }
+  for (i=0;i<=5;i++) {
+    brd.create('text',[-yaxis_label_offset,i,'$'+i+'$'],{fixed:true});
+  }
+  brd.create('text',[5-xfactor*30,3,'$f(n)=1/n$'],{fixed:true});
+})(); // END: scope limiting function wrapper
+</script>
+
+<script type='text/javascript'>
+(function () {  // BEGIN: scope limiting function wrapper
+  var xmin=-1, xmax= 11.5, ymin=-1, ymax=6.5;
+  var AspectRatio =  ((ymax-ymin)/(xmax-xmin)); // height/width
+  var wd=document.getElementById('one_over_x').offsetWidth;
+  var ht=wd*AspectRatio;
+  var yfactor = (ymax-ymin)/(ht);
+  var xfactor = (xmax-xmin)/(wd);
+  var xaxis_label_offset = yfactor*15;
+  var yaxis_label_offset = xfactor*20;
+  document.getElementById('one_over_x').style.height=ht+'px';
+  var brd = JXG.JSXGraph.initBoard('one_over_x',{boundingbox:[xmin,ymax,xmax,ymin], showCopyright:false, showNavigation:false}) ;
+  var rejax = function() {
+     MathJax.Hub.Queue(["Typeset",MathJax.Hub]); 
+  }
+  brd.addHook(rejax)
+  var xaxis = brd.create('arrow', [[0,0], [11,0]],{strokeWidth:1,strokeColor:'black',fixed:true});
+  var yaxis = brd.create('arrow', [[0,0],[0,6]],{strokeWidth:1,strokeColor:'black',fixed:true});
+  var xi = brd.create('segment',[[-1,0],[10.1,0]],{visible:false});
+  brd.create('ticks',[xi,1],{minorTicks:false});
+  var yi = brd.create('segment',[[0,-1],[0,5.1]],{visible:false});
+  brd.create('ticks',[yi,1],{minorTicks:false});
+  var i;
+  var f = function(x) { return 1/x; }
+  brd.create('functiongraph',[f,1/5,10],{strokeWidth:1});
+  for (i=0;i<=10;i++) {
+    brd.create('text',[i,-xaxis_label_offset,'$'+i+'$'],{fixed:true});
+  }
+  for (i=0;i<=5;i++) {
+    brd.create('text',[-yaxis_label_offset,i,'$'+i+'$'],{fixed:true});
+  }
+  brd.create('text',[5-xfactor*30,3,'$f(x)=1/x$'],{fixed:true});
+})(); // END: scope limiting function wrapper
+</script>
+
+<script type='text/javascript'>
+(function () {  // BEGIN: scope limiting function wrapper
+  var xmin=-1, xmax= 9, ymin=-1.5, ymax=2;
+  var AspectRatio =  ((ymax-ymin)/(xmax-xmin)); // height/width
+  var wd=document.getElementById('sine_n_pi').offsetWidth;
+  var ht=wd*AspectRatio;
+  var yfactor = (ymax-ymin)/(ht);
+  var xfactor = (xmax-xmin)/(wd);
+  var xaxis_label_offset = yfactor*15;
+  var yaxis_label_offset = xfactor*20;
+  document.getElementById('sine_n_pi').style.height=ht+'px';
+  var brd = JXG.JSXGraph.initBoard('sine_n_pi',{boundingbox:[xmin,ymax,xmax,ymin], showCopyright:false, showNavigation:false}) ;
+  var rejax = function() {
+     MathJax.Hub.Queue(["Typeset",MathJax.Hub]); 
+  }
+  brd.addHook(rejax)
+  var xaxis = brd.create('arrow', [[0,0], [8.5,0]],{strokeWidth:1,strokeColor:'black',fixed:true});
+  var yaxis = brd.create('arrow', [[0,-1.25],[0,1.5]],{strokeWidth:1,strokeColor:'black',fixed:true});
+  var xi = brd.create('segment',[[-1,0],[8.1,0]],{visible:false});
+  brd.create('ticks',[xi,1],{minorTicks:false});
+  var yi = brd.create('segment',[[0,-2],[0,1.1]],{visible:false});
+  brd.create('ticks',[yi,1],{minorTicks:false});
+  var i;
+  for (i=1;i<=8;i++) {
+    brd.create('point',[i,Math.sin(i*Math.PI)],{withLabel:false,fixed:true,size:1,strokeColor:'blue',fillColor:'blue'});
+  }
+  for (i=1;i<=8;i++) {
+    brd.create('text',[i,-xaxis_label_offset,'$'+i+'$'],{fixed:true});
+  }
+  brd.create('text',[-yaxis_label_offset-xfactor*5,-1,'$-1$'],{fixed:true});
+  brd.create('text',[-yaxis_label_offset+xfactor*5,0,'$0$'],{fixed:true});
+  brd.create('text',[-yaxis_label_offset+xfactor*5,1,'$1$'],{fixed:true});
+  brd.create('text',[4-xfactor*30,0.7,'$f(n)=\\\\sin(\\\\pi n)$'],{fixed:true});
+})(); // END: scope limiting function wrapper
+</script>
+
+<script type='text/javascript'>
+(function () {  // BEGIN: scope limiting function wrapper
+  var xmin=-1, xmax= 9, ymin=-1.5, ymax=2;
+  var AspectRatio =  ((ymax-ymin)/(xmax-xmin)); // height/width
+  var wd=document.getElementById('sine_x_pi').offsetWidth;
+  var ht=wd*AspectRatio;
+  var yfactor = (ymax-ymin)/(ht);
+  var xfactor = (xmax-xmin)/(wd);
+  var xaxis_label_offset = yfactor*15;
+  var yaxis_label_offset = xfactor*20;
+  document.getElementById('sine_x_pi').style.height=ht+'px';
+  var brd = JXG.JSXGraph.initBoard('sine_x_pi',{boundingbox:[xmin,ymax,xmax,ymin], showCopyright:false, showNavigation:false}) ;
+  var rejax = function() {
+     MathJax.Hub.Queue(["Typeset",MathJax.Hub]); 
+  }
+  brd.addHook(rejax)
+  var xaxis = brd.create('arrow', [[0,0], [8.5,0]],{strokeWidth:1,strokeColor:'black',fixed:true});
+  var yaxis = brd.create('arrow', [[0,-1.25],[0,1.5]],{strokeWidth:1,strokeColor:'black',fixed:true});
+  var xi = brd.create('segment',[[-1,0],[8.1,0]],{visible:false});
+  brd.create('ticks',[xi,1],{minorTicks:false});
+  var yi = brd.create('segment',[[0,-2],[0,1.1]],{visible:false});
+  brd.create('ticks',[yi,1],{minorTicks:false});
+  var i;
+  var f = function(x) { return Math.sin(Math.PI*x); }
+  brd.create('functiongraph',[f,0,8]);
+  for (i=1;i<=8;i++) {
+    brd.create('text',[i,-xaxis_label_offset,'$'+i+'$'],{fixed:true});
+  }
+  brd.create('text',[-yaxis_label_offset-xfactor*5,-1,'$-1$'],{fixed:true});
+  brd.create('text',[-yaxis_label_offset+xfactor*5,0,'$0$'],{fixed:true});
+  brd.create('text',[-yaxis_label_offset+xfactor*5,1,'$1$'],{fixed:true});
+  brd.create('text',[4-xfactor*30,1+yfactor*10,'$f(x)=\\\\sin(\\\\pi x)$'],{fixed:true});
+})(); // END: scope limiting function wrapper
+</script>
+<div class='figcaption'><span class="figurenumber">Figure 11.1.1.</span> Graphs of sequences and their corresponding real functions.</div></div>
+<p>
+</p><p>
+Not surprisingly, the properties of limits of real functions translate
+into properties of sequences quite easily. 
+Theorem <a href="section02.03.html#thm:properties of limits">2.3.6</a> about limits becomes
+</p><p>
+</p>
+<div class="theorem">
+<p>
+<span class="theoremlabel">Theorem 11.1.2 </span><a id="thm:properties of sequences"></a>
+Suppose that $\ds\lim_{n\to\infty}a_n=L$ and 
+$\ds\lim_{n\to\infty}b_n=M$ and
+$k$ is some constant. Then
+$$\eqalign{
+&\lim_{n\to\infty} ka_n = k\lim_{n\to\infty}a_n=kL\cr
+&\lim_{n\to\infty} (a_n+b_n) = \lim_{n\to\infty}a_n+\lim_{n\to\infty}b_n=L+M\cr
+&\lim_{n\to\infty} (a_n-b_n) = \lim_{n\to\infty}a_n-\lim_{n\to\infty}b_n=L-M\cr
+&\lim_{n\to\infty} (a_nb_n) = \lim_{n\to\infty}a_n\cdot\lim_{n\to\infty}b_n=LM\cr
+&\lim_{n\to\infty} {a_n\over b_n} = {\lim_{n\to\infty}a_n\over
+  \lim_{n\to\infty}b_n}={L\over M},\hbox{ if $M$ is not 0}\cr
+}$$
+
+</p>
+</div><!-- theorem -->
+<p>
+</p><p>
+Likewise the Squeeze Theorem (<a href="section04.03.html#thm:squeeze theorem">4.3.1</a>) becomes
+</p><p>
+</p>
+<div class="theorem">
+<p>
+<span class="theoremlabel">Theorem 11.1.3 </span><a id="thm:squeeze theorem for sequences"></a>
+Suppose that $\ds a_n \le b_n \le c_n$ for all $n>N$, for some $N$.
+If $\ds\lim_{n\to\infty}a_n=\ds\lim_{n\to\infty}c_n=L$, 
+then $\ds\lim_{n\to\infty}b_n=L$.
+
+</p>
+</div><!-- theorem -->
+<p>
+</p><p>
+And a final useful fact:
+</p><p>
+</p>
+<div class="theorem">
+<p>
+<span class="theoremlabel">Theorem 11.1.4 </span><a id="thm:absolute value sequence"></a>
+$\ds\lim_{n\to\infty}|a_n|=0$ if and only if
+$\ds\lim_{n\to\infty}a_n=0$.
+
+</p>
+</div><!-- theorem -->
+<p>
+</p><p>
+This says simply that the size of $\ds a_n$ gets close to zero if and
+only if $\ds a_n$ gets close to zero.
+</p><p>
+</p>
+<div class="example">
+<p>
+<span class="theoremlabel">Example 11.1.5 </span>
+Determine whether $\ds\left\{{n\over n+1}\right\}_{n=0}^\infty$ converges or
+diverges. If it converges, compute the limit. Since this makes sense
+for real numbers we consider
+$$
+\lim_{x\to\infty}{x\over x+1}=\lim_{x\to\infty}1-{1\over x+1}=1-0=1.
+$$
+Thus the sequence converges to 1.
+
+</p>
+</div><!-- example -->
+<p>
+</p><p>
+</p>
+<div class="example">
+<p>
+<span class="theoremlabel">Example 11.1.6 </span>
+Determine whether $\ds\bigg\{{\ln n\over n}\bigg\}_{n=1}^\infty$ converges or
+diverges. If it converges, compute the limit. We compute
+$$\lim_{x\to\infty}{\ln x\over x}=\lim_{x\to\infty}{1/x\over 1}=
+0,$$
+using L'H&ocirc;pital's Rule. 
+Thus the sequence converges to 0.
+
+</p>
+</div><!-- example -->
+<p>
+</p><p>
+</p>
+<div class="example">
+<p>
+<span class="theoremlabel">Example 11.1.7 </span><a id="example:alternating ones"></a>
+Determine whether $\ds\{(-1)^n\}_{n=0}^\infty$ converges or
+diverges. If it converges, compute the limit. This does not make sense
+for all real exponents, but the sequence is easy to understand: it is
+$$1,-1,1,-1,1\ldots$$
+and clearly diverges.
+
+</p>
+</div><!-- example -->
+<p>
+</p><p>
+
+</p>
+<div class="example">
+<p>
+<span class="theoremlabel">Example 11.1.8 </span>
+Determine whether $\ds\{(-1/2)^n\}_{n=0}^\infty$ converges or
+diverges. If it converges, compute the limit. We consider the sequence 
+$\ds\{|(-1/2)^n|\}_{n=0}^\infty=\{(1/2)^n\}_{n=0}^\infty$.
+Then
+$$
+  \lim_{x\to\infty}\left({1\over2}\right)^x=\lim_{x\to\infty}{1\over2^x}=0,
+$$
+so by theorem <a href="section11.01.html#thm:absolute value sequence">11.1.4</a> the sequence converges to 0.
+
+</p>
+</div><!-- example -->
+<p>
+</p><p>
+</p>
+<div class="example">
+<p>
+<span class="theoremlabel">Example 11.1.9 </span>
+Determine whether $\ds\{(\sin n)/\sqrt{n}\}_{n=1}^\infty$ converges or
+diverges. If it converges, compute the limit. 
+Since $|\sin n|\le 1$, $\ds 0\le|\sin n/\sqrt{n}|\le
+1/\sqrt{n}$ and we can use theorem <a href="section11.01.html#thm:squeeze theorem for sequences">11.1.3</a> with $\ds a_n=0$ and $\ds c_n=1/\sqrt{n}$. Since
+$\ds\lim_{n\to\infty} a_n=\ds\lim_{n\to\infty} c_n=0$, 
+$\ds\lim_{n\to\infty}\sin n/\sqrt{n}=0$ and the sequence converges to 0.
+
+</p>
+</div><!-- example -->
+<p>
+</p><p>
+</p>
+<div class="example">
+<p>
+<span class="theoremlabel">Example 11.1.10 </span>
+A particularly common and useful sequence is $\ds \{r^n\}_{n=0}^\infty$,
+for various values of $r$. Some are quite easy to understand: If $r=1$
+the sequence converges to 1 since every term is 1, and likewise if
+$r=0$ the sequence converges to 0. If $r=-1$ this is
+the sequence of example <a href="section11.01.html#example:alternating ones">11.1.7</a> and
+diverges. If $r>1$ or $r< -1$ the terms $\ds r^n$ get large without limit,
+so the sequence diverges. If $0< r< 1$ then the sequence converges to
+0. If $-1< r< 0$ then $\ds |r^n|=|r|^n$ and $0< |r|< 1$, so the sequence
+$\ds \{|r|^n\}_{n=0}^\infty$ converges to 0, so also 
+$\ds\{r^n\}_{n=0}^\infty$ converges to 0.
+converges. In summary, $\ds \{r^n\}$ converges precisely when
+$-1< r\le1$ in which case
+$$
+  \lim_{n\to\infty} r^n=\cases{
+  0& if $-1< r< 1$\cr
+  1& if $r=1$\cr}
+$$
+
+</p>
+</div><!-- example -->
+<p>
+</p><p>
+Sometimes we will not be able to determine the limit of a sequence,
+but we still would like to know whether it converges. In some cases we
+can determine this even without being able to compute the limit.
+</p><p>
+A sequence is called <b>increasing</b>
+or sometimes <b>strictly increasing</b> if $\ds a_i< a_{i+1}$ for all
+$i$. It is called <b>non-decreasing</b> or sometimes
+(unfortunately) <b>increasing</b> if $\ds a_i\le a_{i+1}$ for all
+$i$. Similarly a sequence is <b>decreasing</b> if $\ds a_i>a_{i+1}$ for all $i$
+and <b>non-increasing</b> if
+$\ds a_i\ge a_{i+1}$ for all $i$. If a sequence has any of these
+properties it is called <b>monotonic</b>.
+</p><p>
+</p>
+<div class="example">
+<p>
+<span class="theoremlabel">Example 11.1.11 </span>
+The sequence
+$$
+  \left\{{2^i-1\over2^i}\right\}_{i=1}^\infty=
+  {1\over2},{3\over4},{7\over8},{15\over16},\ldots,
+$$
+is increasing, and
+$$ 
+  \left\{{n+1\over n}\right\}_{i=1}^\infty=
+  {2\over1},{3\over2},{4\over3},{5\over4},\ldots
+$$
+is decreasing.
+
+</p>
+</div><!-- example -->
+<p>
+</p><p>
+A sequence is <b>bounded above</b>
+if there is some number $N$ such that $\ds a_n\le N$ for every $n$,
+and <b>bounded below</b> if there is
+some number $N$ such that $\ds a_n\ge N$ for every $n$. If a sequence
+is bounded above and bounded below it is <b>bounded</b>. If a sequence $\ds
+\{a_n\}_{n=0}^\infty$ is increasing or non-decreasing it is bounded
+below (by $\ds a_0$), and if it is decreasing or non-increasing it is
+bounded above (by $\ds a_0$).  Finally, with all this new terminology
+we can state an important theorem.
+</p><p>
+</p>
+<div class="theorem">
+<p>
+<span class="theoremlabel">Theorem 11.1.12 </span>If a sequence is bounded and monotonic then it converges.
+
+</p>
+</div><!-- theorem -->
+<p>
+</p><p>
+We will not prove this; the proof appears in many calculus books. It
+is not hard to believe: suppose that a sequence is increasing and
+bounded, so each term is larger than the one before, yet never larger
+than some fixed value $N$. The terms must then get closer and closer
+to some value between $\ds a_0$ and $N$. It need not be $N$, since $N$ may
+be a "too-generous'' upper bound; the limit will be the
+smallest number that is above all of the terms $\ds a_i$.
+</p><p>
+</p>
+<div class="example">
+<p>
+<span class="theoremlabel">Example 11.1.13 </span>
+All of the terms $\ds (2^i-1)/2^i$ are less than 2, and the sequence is
+increasing. As we have seen, the limit of the sequence is 1&mdash;1 is the
+smallest number that is bigger than all the terms in the sequence.
+Similarly, all of the terms $(n+1)/n$ are bigger than $1/2$, and the
+limit is 1&mdash;1 is the largest number that is smaller than the terms of
+the sequence.
+
+</p>
+</div><!-- example -->
+<p>
+</p><p>
+We don't actually need to know that a sequence is monotonic to apply
+this theorem&mdash;it is enough to know that the sequence is
+"eventually'' monotonic, that is, that at some point it becomes
+increasing or decreasing. For example, the sequence $10$, $9$, $8$,
+$15$, $3$, $21$, $4$, $3/4$, $7/8$, $15/16$, $31/32,\ldots$ is not
+increasing, because among the first few terms it is not. But starting
+with the term $3/4$ it is increasing, so the theorem tells us that the
+sequence $3/4, 7/8, 15/16, 31/32,\ldots$ converges.  Since convergence
+depends only on what happens as $n$ gets large, adding a few
+terms at the beginning can't turn a convergent sequence into a
+divergent one.
+</p><p>
+</p>
+<div class="example">
+<p>
+<span class="theoremlabel">Example 11.1.14 </span>
+Show that $\ds\{n^{1/n}\}$ converges. 
+</p><p>
+We first show that 
+this sequence is decreasing, that is, that $\ds n^{1/n}>
+(n+1)^{1/(n+1)}$. Consider the real function $\ds f(x)=x^{1/x}$ when
+$x\ge1$. We can compute the derivative, $\ds f'(x)=x^{1/x}(1-\ln x)/x^2$,
+and note that when $x\ge 3$ this is negative. Since the function has
+negative slope, $\ds n^{1/n}>
+(n+1)^{1/(n+1)}$ when $n\ge 3$. Since all terms of the sequence are
+positive, the sequence is decreasing and bounded when $n\ge3$, and so
+the sequence converges. (As it happens, we can compute the limit in
+this case, but we know it converges even without knowing the limit; see
+exercise <a href="section11.01.html#exercise:exponential limit">1</a>.)
+
+</p>
+</div><!-- example -->
+<p>
+</p><p>
+</p>
+<div class="example">
+<p>
+<span class="theoremlabel">Example 11.1.15 </span>
+Show that $\ds\{n!/n^n\}$ converges.
+</p><p>
+Again we show that the sequence is decreasing, and since each term is
+positive the sequence converges. We can't take the derivative this
+time, as $x!$ doesn't make sense for $x$ real. But we note that if 
+$\ds a_{n+1}/a_n <  1$ then $\ds a_{n+1}<  a_n$, which is what we want to
+know. So we look at $\ds a_{n+1}/a_n$:
+$$ 
+  {a_{n+1}\over a_n} = {(n+1)!\over (n+1)^{n+1}}{n^n\over n!}=
+  {(n+1)!\over n!}{n^n\over (n+1)^{n+1}}=
+  {n+1\over n+1}\left({n\over n+1}\right)^n=
+  \left({n\over n+1}\right)^n <  1.
+$$
+(Again it is possible to compute the limit; see
+exercise <a href="section11.01.html#exercise:factorial limit">2</a>.)
+
+</p>
+</div><!-- example -->
+<p>
+</p><p>
+</p>
+<a id="exercises"></a><h2 class="exercises">Exercises 11.1</h2>
+<p></p><p>
+</p>
+<p class="exercise"><b>Ex 11.1.1</b>
+<a id="exercise:exponential limit"></a>
+Compute $\ds\lim_{x\to\infty} x^{1/x}$.
+(<a knowl="" class="internal" value="$1$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 11.1.2</b>
+Use the squeeze theorem to show that 
+$\ds\lim_{n\to\infty} {n!\over n^n}=0$.
+<a id="exercise:factorial limit"></a>
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 11.1.3</b>
+Determine whether $\ds\{\sqrt{n+47}-\sqrt{n}\}_{n=0}^\infty$ 
+converges or diverges. If it converges, compute the limit.
+(<a knowl="" class="internal" value="$0$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 11.1.4</b>
+Determine whether 
+$\ds\left\{{n^2+1\over (n+1)^2}\right\}_{n=0}^\infty$ 
+converges or diverges. If it converges, compute the limit.
+(<a knowl="" class="internal" value="$1$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 11.1.5</b>
+Determine whether 
+$\ds\left\{{n+47\over\sqrt{n^2+3n}}\right\}_{n=1}^\infty$ 
+converges or diverges. If it converges, compute the limit.
+(<a knowl="" class="internal" value="$1$">answer</a>)
+
+
+</p><p>
+</p>
+<p class="exercise"><b>Ex 11.1.6</b>
+Determine whether 
+$\ds\left\{{2^n\over n!}\right\}_{n=0}^\infty$ 
+converges or diverges. 
+(<a knowl="" class="internal" value="$0$">answer</a>)
+
+
+</p><p>
+
+
+</p><p>
+</div></div></body>
+</html>
