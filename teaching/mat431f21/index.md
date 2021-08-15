@@ -13,14 +13,14 @@ layout: default
 <div class="row">
 <div class="col-xs-12">
 <div class="btn-group btn-group-justified">
-<a class="btn btn-default btn-success" href="{{site.baseurl}}/teaching/mat431s21/syllabus/">Syllabus</a>
-<a class="btn btn-default btn-primary" href="{{site.baseurl}}/teaching/mat431s21/materials/">
+<a class="btn btn-default btn-success" href="{{site.baseurl}}/teaching/mat431f21/syllabus/">Syllabus</a>
+<a class="btn btn-default btn-primary" href="{{site.baseurl}}/teaching/mat431f21/materials/">
 <span class="hidden-xs">Course Materials</span><span class="visible-xs">Stuff</span>
 </a>
-<a class="btn btn-default btn-warning" href="{{site.baseurl}}/teaching/mat431s21/homework/">
+<a class="btn btn-default btn-warning" href="{{site.baseurl}}/teaching/mat431f21/homework/">
 <span class="hidden-xs">Homework</span><span class="visible-xs">HW</span>
 </a>
-<a class="btn btn-default btn-info" href="{{site.baseurl}}/teaching/mat431s21/journal/">Journal</a>
+<a class="btn btn-default btn-info" href="{{site.baseurl}}/teaching/mat431f21/journal/">Journal</a>
 </div>
 </div>
 </div>
@@ -33,11 +33,11 @@ Welcome to the course web page for the Spring 2021 manifestation of MAT 431: Int
     <div>
     <h2>Course Info</h2>
     <strong>Title:</strong> MAT 431: Introduction to Analysis<br />
-    <strong>Semester:</strong> Spring 2021<br />
+    <strong>Semester:</strong> Fall 2021<br />
     <strong>Credits:</strong> 3<br />
     <strong>Section:</strong> 1<br />
-    <strong>Time:</strong> 8:00-8:50AM MWF<br />
-    <strong>Location:</strong> AMB 225
+    <strong>Time:</strong> 11:30AM-12:20PM MWF<br />
+    <strong>Location:</strong> AMB 220
     </div>
   </div>
 
@@ -46,7 +46,7 @@ Welcome to the course web page for the Spring 2021 manifestation of MAT 431: Int
       <h2>Instructor Info</h2>
       <i class="fa fa-user fa-fw"></i>&nbsp; Dana C. Ernst, PhD<br />
       <i class="fa fa-university fa-fw"></i>&nbsp; AMB 176<br />
-      <i class="fa fa-users fa-fw"></i>&nbsp; MWF 1:30-2:30PM, T 1:00-2:00PM via Zoom<br />
+      <i class="fa fa-users fa-fw"></i>&nbsp; TBA<br />
       <i class="far fa-envelope fa-fw"></i>&nbsp; <a href="mailto:dana.ernst@nau.edu">dana.ernst@nau.edu</a><br />
       <i class="fa fa-phone fa-fw"></i>&nbsp; 928.523.6852<br />
       <i class="fa fa-link fa-fw"></i>&nbsp; <a href="{{site.baseurl}}">danaernst.com</a>

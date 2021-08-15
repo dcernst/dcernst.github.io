@@ -7,41 +7,41 @@ layout: default
 <ol class="breadcrumb">
   <li><a href="/"><i class="fa fa-home"></i></a></li>
   <li><a href="/teaching/">Teaching</a></li>
-  <li><a href="/teaching/mat431s21">MAT431</a></li>
+  <li><a href="/teaching/mat431f21">MAT431</a></li>
   <li class="active">{{ page.title }}</li>
 </ol>
 
 <div class="row">
 <div class="col-xs-12">
 <div class="btn-group btn-group-justified">
-<a class="btn btn-default btn-success" href="{{site.baseurl}}/teaching/mat431s21/syllabus/">Syllabus</a>
-<a class="btn btn-default btn-primary" href="{{site.baseurl}}/teaching/mat431s21/materials/">
+<a class="btn btn-default btn-success" href="{{site.baseurl}}/teaching/mat431f21/syllabus/">Syllabus</a>
+<a class="btn btn-default btn-primary" href="{{site.baseurl}}/teaching/mat431f21/materials/">
 <span class="hidden-xs">Course Materials</span><span class="visible-xs">Stuff</span>
 </a>
-<a class="btn btn-default btn-warning" href="{{site.baseurl}}/teaching/mat431s21/homework/">
+<a class="btn btn-default btn-warning" href="{{site.baseurl}}/teaching/mat431f21/homework/">
 <span class="hidden-xs">Homework</span><span class="visible-xs">HW</span>
 </a>
-<a class="btn btn-default btn-info" href="{{site.baseurl}}/teaching/mat431s21/journal/">Journal</a>
+<a class="btn btn-default btn-info" href="{{site.baseurl}}/teaching/mat431f21/journal/">Journal</a>
 </div>
 </div>
 </div>
 
-<!-- <br />
+<br />
 
 <div class="alert alert-info" role="alert">
 <i class="far fa-hand-peace"></i>&nbsp; This page is under construction!
-</div> -->
+</div>
 
 <div class="row">
   <div class="col-xs-12 col-sm-6">
     <div>
     <h2>Course Info</h2>
     <strong>Title:</strong> MAT 431: Introduction to Analysis<br />
-    <strong>Semester:</strong> Spring 2021<br />
+    <strong>Semester:</strong> Fall 2021<br />
     <strong>Credits:</strong> 3<br />
     <strong>Section:</strong> 1<br />
-    <strong>Time:</strong> 8:00-8:50AM MWF<br />
-    <strong>Location:</strong> AMB 225
+    <strong>Time:</strong> 11:30AM-12:20PM MWF<br />
+    <strong>Location:</strong> AMB 220
     </div>
   </div>
 
@@ -50,7 +50,7 @@ layout: default
       <h2>Instructor Info</h2>
       <i class="fa fa-user fa-fw"></i>&nbsp; Dana C. Ernst, PhD<br />
       <i class="fa fa-university fa-fw"></i>&nbsp; AMB 176<br />
-      <i class="fa fa-users fa-fw"></i>&nbsp; MWF 1:30-2:30PM, T 1:00-2:00PM via Zoom<br />
+      <i class="fa fa-users fa-fw"></i>&nbsp; TBA<br />
       <i class="far fa-envelope fa-fw"></i>&nbsp; <a href="mailto:dana.ernst@nau.edu">dana.ernst@nau.edu</a><br />
       <i class="fa fa-phone fa-fw"></i>&nbsp; 928.523.6852<br />
       <i class="fa fa-link fa-fw"></i>&nbsp; <a href="{{site.baseurl}}">danaernst.com</a>
@@ -167,7 +167,7 @@ In our classroom, diversity and individual differences are respected, appreciate
 Students are also expected to minimize distracting behaviors.  In particular, every attempt should be made to arrive to class on time.  If you must arrive late or leave early, please do not disrupt class. Please turn off the ringer on your cell phone.  I do not have a strict policy on the use of laptops, tablets, and cell phones.  You are expected to be paying attention and engaging in class discussions.  If your cell phone, etc. is interfering with your ability (or that of another student) to do this, then put it away, or I will ask you to put it away.
 
 ### Textbook ###
-We will not be using a traditional textbook this semester, but rather a problem sequence adopted for an [inquiry-based learning](http://maamathedmatters.blogspot.com/2013/05/what-heck-is-ibl.html) (IBL) approach to real analysis. The problem sequence that we are using is an adaptation of the analysis notes by [Karl-Dieter Crisman](http://www.math-cs.gordon.edu/~kcrisman/), which are a modified version of notes by [W. Ted Mahavier](https://www.lamar.edu/arts-sciences/mathematics/faculty/w-ted-mahavier.html). Both authors have been gracious enough to grant me access to the source of these notes, so that we can modify and tweak for our needs if necessary. The problem sequence is available [here]({{site.baseurl}}/teaching/mat431s21/materials/).
+We will not be using a traditional textbook this semester, but rather a problem sequence adopted for an [inquiry-based learning](http://maamathedmatters.blogspot.com/2013/05/what-heck-is-ibl.html) (IBL) approach to real analysis. The problem sequence that we are using is an adaptation of the analysis notes by [Karl-Dieter Crisman](http://www.math-cs.gordon.edu/~kcrisman/), which are a modified version of notes by [W. Ted Mahavier](https://www.lamar.edu/arts-sciences/mathematics/faculty/w-ted-mahavier.html). Both authors have been gracious enough to grant me access to the source of these notes, so that we can modify and tweak for our needs if necessary. The problem sequence is available [here]({{site.baseurl}}/teaching/mat431f21/materials/).
 
 I will not be covering every detail of the notes and the only way to achieve a sufficient understanding of the material is to be digesting the reading in a meaningful way.  You should be seeking clarification about the content of the notes whenever necessary by asking questions.  Here's one of my favorite quotes about reading mathematics.
 
@@ -182,9 +182,9 @@ Reviewing material from previous courses and looking up definitions and theorems
 ### Homework ###
 You are allowed and encouraged to work together on homework.  However, each student is expected to turn in his or her own work.  In general, late homework will *not* be accepted.  However, you are allowed to turn in up to **three late homework assignments** with no questions asked. Unless you have made arrangements in advance with me, homework turned in after class will be considered late. When doing your homework, I encourage you to consult the [Elements of Style for Proofs]({{site.baseurl}}/teaching/ElementsOfStyle.pdf). Your overall homework grade will be worth 20% of your final grade.
 
-On each homework assignment, please write (i) your name, (ii) name of course, and (iii) Homework number.  You can find the list of assignments on the [homework page]({{site.baseurl}}/teaching/mat431s21/homework/).  I reserve the right to modify the homework assignments as I see necessary.
+On each homework assignment, please write (i) your name, (ii) name of course, and (iii) Homework number.  You can find the list of assignments on the [homework page]({{site.baseurl}}/teaching/mat431f21/homework/).  I reserve the right to modify the homework assignments as I see necessary.
 
-Homework will be assigned almost every class meeting, and students are expected to complete (or try their best to complete) each assignment before walking into the next class period. Homework will generally consist of completing exercises and proving theorems from the textbook.  In addition to completing the assigned problems, I also want you to assess your own work.  Next to each problem, I want you to write down a score between 0 and 4 that represents your perception of the validity and quality of your proposed solution/proof. Consider using the following rubric.  
+Homework will be assigned almost every class meeting, and students are expected to complete (or try their best to complete) each assignment before walking into the next class period. Homework will generally consist of completing exercises and proving theorems from the textbook.  In addition to completing the assigned problems, I also want you to assess your own work.  Next to each problem, I want you to write down a score between 0 and 4 that represents your perception of the validity and quality of your proposed solution/proof. Not completing the self-assessment step may impact the score on your homework. Consider using the following rubric.  
 
 <center>
 <table class="table table-striped">
@@ -219,9 +219,7 @@ Homework will be assigned almost every class meeting, and students are expected 
 </table>
 </center>
 
-Not completing the self-assessment step may impact the score on your homework. On the day that a homework assignment is due, the majority of the class period will be devoted to students presenting some subset (maybe all) of the proofs/solutions that are due that day.  With a few exceptions, homework assignment will consist of two parts.
-
-**Part 1:** This portion of the assignment is named "Homework X" in BbLearn, where "X" is the number of the assignment. Prior to the start of class, you will need to capture your handwritten work digitally and then upload a PDF to BbLearn. There are many free smartphone apps for doing this. I use TurboScan on my iPhone. Submitting your work prior to class allows me to see what you accomplished outside of class. Part 1 will be assessed using the following rubric.
+On the day that a homework assignment is due, the majority of the class period will be devoted to students presenting some subset (maybe all) of the proofs/solutions that are due that day.  You are allowed (in fact, encouraged!) to modify your written work in light of presentations made in class; however, **you are required to use a different color than what you used to complete your homework**.  In the past, I provided colored pens in class, but due to the pandemic, please provide your own colored pen. This will allow me to differentiate the work done in class versus the work you completed before class.  The grade you receive on an assignment will be determined by the work you completed prior to class.  I will provide more guidance with respect to this during the first couple weeks of the semester. Homework will be assessed using the following rubric.
 
 <center>
 <table class="table table-striped">
@@ -247,33 +245,6 @@ Not completing the self-assessment step may impact the score on your homework. O
 	<tr>
 		<td style="text-align: center;">0</td>
 		<td>Assignment was not turned in.</td>
-	</tr>
-	</tbody>
-</table>
-</center>
-
-**Part 2:** This portion of the assignment is named "Notes X.Y" in BbLearn, where "X.Y" is the date of class. During class, we will discuss most of the problems that are due that day. While we are discussing them, you should either annotate your work and/or take notes on separate paper. It's expected that most of the work you did prior to class will need to be refined. It is your responsibility to process this in some way. Annotating your work or taking notes will increase the chances that you are processing the work in a meaningful way. If you choose to annotate your work, **please use a different color** than what you originally used to complete your assignment.  After class, you will need to capture your annotations/notes digitally and then upload a PDF to BbLearn. Part 2 will be assessed using the following rubric.
-
-<center>
-<table class="table table-striped">
-	<thead>
-	<tr>
-		<th style="text-align: center;">Grade</th>
-		<th>Criteria</th>
-	</tr>
-	</thead>
-	<tbody>
-	<tr>
-		<td style="text-align: center;">2</td>
-		<td>Student annotated their work in a meaningful way and/or took sufficient notes.</td>
-	</tr>
-	<tr>
-		<td style="text-align: center;">1</td>
-		<td>Student annotated their work and/or took notes but effort and/or attention to detail was insufficient.</td>
-	</tr>
-	<tr>
-		<td style="text-align: center;">0</td>
-		<td>Student did not submit this portion of the assignment.</td>
 	</tr>
 	</tbody>
 </table>
@@ -444,7 +415,7 @@ Only I will remain.</p>
 </blockquote>
 
 ### Exams ###
-There will be two midterm exams and a cumulative final exam.  Each exam will consist of an "in-class" and possibly a take-home portion. Exam 1 and Exam 2 are *tentatively* scheduled for **Friday, February 19** (week 6) and **Friday, April 2** (week 12), respectively.  Each of Exam 1 and Exam 2 will be worth 20% of your overall grade. The final exam will be on **Monday, April 26** at 7:30-9:30AM and is worth 20% of your overall grade. If any of the exams have a take-home portion, you will have a few days to complete it. Make-up exams will only be given under extreme circumstances, as judged by me. In general, it will be best to communicate conflicts ahead of time.
+There will be two midterm exams and a cumulative final exam.  Each exam will consist of an in-class portion and possibly a take-home portion. Exam 1 and Exam 2 are *tentatively* scheduled for **TBA** (week 6) and **TBA** (week 12), respectively.  Each of Exam 1 and Exam 2 will be worth 20% of your overall grade. The final exam will be on **Wednesday, December 8** at 10:00AM-12:00PM and is worth 20% of your overall grade. If any of the exams have a take-home portion, you will have a few days to complete it. Make-up exams will only be given under extreme circumstances, as judged by me. In general, it will be best to communicate conflicts ahead of time.
 
 <blockquote>
 <p>I write one page of masterpiece to ninety-one pages of shit.</p>
@@ -505,17 +476,20 @@ In summary, your final grade will be determined by your scores in the following 
 </blockquote>
 
 ### Department and University Policies ###
-You are responsible for knowing and following the [Department of Mathematics and Statistics Policies]({{ site.baseurl }}/teaching/DepartmentPoliciesSpring2021.pdf) (PDF) and other University policies listed [here](https://nau.edu/university-policy-library/wp-content/uploads/sites/26/Syllabus-Policy-Statements.pdf) (PDF).  More policies can be found in other university documents, especially the [NAU Student Handbook](https://in.nau.edu/dean-of-students/Student-Handbook/) (see appendices) and the website of the [Student Outreach and Support](https://in.nau.edu/dean-of-students/nau-sos/) (SOS).
+You are responsible for knowing and following the [Department of Mathematics and Statistics Policies]({{ site.baseurl }}/teaching/DepartmentPoliciesFall2021.pdf) (PDF) and other University policies listed [here](https://nau.edu/university-policy-library/wp-content/uploads/sites/26/Syllabus-Policy-Statements.pdf) (PDF).  More policies can be found in other university documents, especially the [NAU Student Handbook](https://in.nau.edu/dean-of-students/Student-Handbook/) (see appendices) and the website of the [Student Outreach and Support](https://in.nau.edu/dean-of-students/nau-sos/) (SOS).
 
 As per Department Policy, cell phones, MP3 players and portable electronic communication devices, including but not limited to smart phones, cameras and recording devices, must be turned off and inaccessible during in-class tests. Any violation of this policy will be treated as academic dishonesty.
 
 ### Important Dates ###
 Here are some important dates:
 
-- **January 18:** Martin Luther King Day (no classes)
-- **January 20:** Last day to drop a course without a "W"
-- **March 14:** Last day to drop a course without a petition
-- **April 26:** Final Exam (7:30-9:30AM)
+- **September 1:** Last day to Drop/Delete (without "W")
+- **September 6:** Labor Day (no classes)
+- **October 22:** Last day to withdraw from individual courses without a petition
+- **November 11** Veteran's Day (no classes)
+- **November 25-25:** Thanksgiving (no classes)
+- **November 29:** Last day to withdraw from all classes
+- **December 8:** Final Exam (10:00AM-12:00PM)
 
 ### Getting Help ###
 There are many resources available to get help.  First, you are allowed and encouraged to work together on homework.  However, each student is expected to turn in his or her own work. You are strongly encouraged to ask questions in our Discord discussion group, as I (and hopefully other members of the class) will post comments there for all to benefit from.  You are also encouraged to stop by during my office hours and you can always [email me](mailto:dana.ernst@nau.edu).  I am always happy to help you.  If my office hours don't work for you, then we can probably find another time to meet.  It is your responsibility to be aware of how well you understand the material.  Don't wait until it is too late if you need help.  *Ask questions*!
