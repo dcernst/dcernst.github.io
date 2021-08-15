@@ -229,7 +229,7 @@ Each quiz will consist of a mixture of homework problems you encountered during 
 Make-up quizzes will only be given under extreme circumstances, as judged by me. In general, it will be best to communicate conflicts ahead of time.  Each Quiz is worth 10% of your overall grade (Quizzes constitute 60% of your overall grade). We will also have a cumulative final exam that takes place on **Friday, November 20 at 10:00AM-12:00PM**.  Your Final Exam grade is worth 20% of your overall grade.
 
 ### Homework ###
-You are allowed and encouraged to work together on homework.  However, each student is expected to turn in his or her own work.  In general, late homework will *not* be accepted.  However, you are allowed to turn in up to **three late homework assignments** with no questions asked. Unless you have made arrangements in advance with me, homework turned in after class will be considered late. Your overall homework grade will be worth 10% of your final grade.
+You are allowed and encouraged to work together on homework.  However, each student is expected to turn in their own work.  In general, late homework will *not* be accepted.  However, you are allowed to turn in up to **three late homework assignments** with no questions asked. Unless you have made arrangements in advance with me, homework turned in after class will be considered late. Your overall homework grade will be worth 10% of your final grade.
 
 On each homework assignment, please write (i) your name, (ii) name of course, and (iii) Homework number.  You can find the list of assignments on the [homework page]({{site.baseurl}}/teaching/mat232f20/homework/).  I reserve the right to modify the homework assignments as I see necessary.
 
@@ -337,7 +337,7 @@ The following framework assumes that we will be in a remote setting. If we happe
 
 <!-- Homework will be assigned each class meeting, and you are expected to complete (or try your best to complete) each assignment before walking into the next class period. Homework assignments will generally consist of solving problems from the problem sequence.  Homework will be graded on a $\checkmark$-system. You are allowed (in fact, encouraged!) to modify your written solution in light of presentations made in class. However, **you are required to use the colored marker pens provided in class**. This will allow me to differentiate the work done in class versus the work you completed before class.  The grade you receive on an assignment will be determined by the work you completed prior to class.  I will provide more guidance with respect to this during the first couple weeks of the semester.
 
-You are allowed and encouraged to work together on homework. Yet, each student is expected to turn in his or her own work. In general, late homework will not be accepted. However, you are allowed to turn in **up to three late homework assignments with no questions asked**. Unless you have made arrangements in advance with me, homework turned in after class will be considered late. When doing your homework, I encourage you to consult the [Elements of Style for Proofs]({{ site.baseurl }}/teaching/ElementsOfStyle.pdf) as a reference.
+You are allowed and encouraged to work together on homework. Yet, each student is expected to turn in their own work. In general, late homework will not be accepted. However, you are allowed to turn in **up to three late homework assignments with no questions asked**. Unless you have made arrangements in advance with me, homework turned in after class will be considered late. When doing your homework, I encourage you to consult the [Elements of Style for Proofs]({{ site.baseurl }}/teaching/ElementsOfStyle.pdf) as a reference.
 
 All assignments should be carefully, clearly, and cleanly written. Among other things, this means your work should include proper grammar, punctuation, and spelling. Do yourself and me a favor and get in the habit of differentiating your scratch work from your submitted assignment.-->x
 
@@ -351,7 +351,7 @@ The problems chosen for presentations will come from the Daily Homework assignme
 
 - The purpose of class presentations is not to prove to me that the presenter has done the problem. It is to make the ideas of the solution clear to the other students.
 - Presenters should explain their reasoning as they go along, not simply write everything down and then turn to explain.
-- Fellow students are allowed to ask questions at any point and it is the responsibility of the person making the presentation to answer those questions to the best of his or her ability.
+- Fellow students are allowed to ask questions at any point and it is the responsibility of the person making the presentation to answer those questions to the best of their ability.
 - Since the presentation is directed at the students, the presenter should frequently make eye-contact with the students in order to address questions when they arise and also be able to see how well the other students are following the presentation.
 
 <blockquote>
@@ -576,7 +576,7 @@ Here are some important dates:
 - **Friday, November 20:** Final Exam (10:00AM-12:00PM)
 
 ### Getting Help ###
-There are many resources available to get help.  First, you are allowed and encouraged to work together on homework.  However, each student is expected to turn in his or her own work. You are strongly encouraged to ask questions in our Discord discussion group, as I (and hopefully other members of the class) will post comments there for all to benefit from.  You are also encouraged to stop by during my office hours and you can always [email me](mailto:dana.ernst@nau.edu).  I am always happy to help you.  If my office hours don't work for you, then we can probably find another time to meet.  It is your responsibility to be aware of how well you understand the material.  Don't wait until it is too late if you need help.  *Ask questions*!
+There are many resources available to get help.  First, you are allowed and encouraged to work together on homework.  However, each student is expected to turn in their own work. You are strongly encouraged to ask questions in our Discord discussion group, as I (and hopefully other members of the class) will post comments there for all to benefit from.  You are also encouraged to stop by during my office hours and you can always [email me](mailto:dana.ernst@nau.edu).  I am always happy to help you.  If my office hours don't work for you, then we can probably find another time to meet.  It is your responsibility to be aware of how well you understand the material.  Don't wait until it is too late if you need help.  *Ask questions*!
 
 ### Changes to the Syllabus ###
 Any changes to this syllabus made during the term will be properly communicated to the class.

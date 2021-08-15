@@ -205,7 +205,7 @@ Make-up quizzes will only be given under extreme circumstances, as judged by me.
 ### Homework ###
 Homework will be assigned each class meeting, and you are expected to complete (or try your best to complete) each assignment before walking into the next class period. Homework assignments will generally consist of solving problems from the problem sequence.  Homework will be graded on a $\checkmark$-system. You are allowed (in fact, encouraged!) to modify your written solution in light of presentations made in class. However, **you are required to use the colored marker pens provided in class**. This will allow me to differentiate the work done in class versus the work you completed before class.  The grade you receive on an assignment will be determined by the work you completed prior to class.  I will provide more guidance with respect to this during the first couple weeks of the semester.
 
-You are allowed and encouraged to work together on homework. Yet, each student is expected to turn in his or her own work. In general, late homework will not be accepted. However, you are allowed to turn in **up to three late homework assignments with no questions asked**. Unless you have made arrangements in advance with me, homework turned in after class will be considered late. When doing your homework, I encourage you to consult the [Elements of Style for Proofs]({{ site.baseurl }}/teaching/ElementsOfStyle.pdf) as a reference.
+You are allowed and encouraged to work together on homework. Yet, each student is expected to turn in their own work. In general, late homework will not be accepted. However, you are allowed to turn in **up to three late homework assignments with no questions asked**. Unless you have made arrangements in advance with me, homework turned in after class will be considered late. When doing your homework, I encourage you to consult the [Elements of Style for Proofs]({{ site.baseurl }}/teaching/ElementsOfStyle.pdf) as a reference.
 
 All assignments should be carefully, clearly, and cleanly written. Among other things, this means your work should include proper grammar, punctuation, and spelling. Do yourself and me a favor and get in the habit of differentiating your scratch work from your submitted assignment.
 
@@ -219,7 +219,7 @@ The problems chosen for presentations will come from the homework assignments. T
 
 - The purpose of class presentations is not to prove to me that the presenter has done the problem. It is to make the ideas of the solution clear to the other students.
 - Presenters should explain their reasoning as they go along, not simply write everything down and then turn to explain.
-- Fellow students are allowed to ask questions at any point and it is the responsibility of the person making the presentation to answer those questions to the best of his or her ability.
+- Fellow students are allowed to ask questions at any point and it is the responsibility of the person making the presentation to answer those questions to the best of their ability.
 - Since the presentation is directed at the students, the presenter should frequently make eye-contact with the students in order to address questions when they arise and also be able to see how well the other students are following the presentation.
 
 #### Assessing Presentations

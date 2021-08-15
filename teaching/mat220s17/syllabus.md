@@ -150,7 +150,7 @@ Homework assignments will generally consist of solving problems from the problem
 
 Please understand that the purpose of the homework assignments is to teach you to solve problems. It is not expected that you started the class with this skill; hence, some low grades are to be expected. However, I expect that everyone will improve dramatically.
 
-You are allowed and encouraged to work together on homework. Yet, each student is expected to turn in his or her own work. In general, late homework will not be accepted. However, you are allowed to turn in **up to three late homework assignments with no questions asked**. Unless you have made arrangements in advance with me, homework turned in after class will be considered late. When doing your homework, I encourage you to consult the [Elements of Style for Proofs]({{ site.baseurl }}/teaching/ElementsOfStyle.pdf) as a reference.
+You are allowed and encouraged to work together on homework. Yet, each student is expected to turn in their own work. In general, late homework will not be accepted. However, you are allowed to turn in **up to three late homework assignments with no questions asked**. Unless you have made arrangements in advance with me, homework turned in after class will be considered late. When doing your homework, I encourage you to consult the [Elements of Style for Proofs]({{ site.baseurl }}/teaching/ElementsOfStyle.pdf) as a reference.
 
 Your overall homework grade is worth 15% of your final grade.
 
@@ -159,7 +159,7 @@ Though the atmosphere in this class should be informal and friendly, what we do 
 
 - The purpose of class presentations is not to prove to me that the presenter has done the problem. It is to make the ideas of the solution clear to the other students.
 - Presenters should explain their reasoning as they go along, not simply write everything down and then turn to explain.
-- Fellow students are allowed to ask questions at any point and it is the responsibility of the person making the presentation to answer those questions to the best of his or her ability.
+- Fellow students are allowed to ask questions at any point and it is the responsibility of the person making the presentation to answer those questions to the best of their ability.
 - Since the presentation is directed at the students, the presenter should frequently make eye-contact with the students in order to address questions when they arise and also be able to see how well the other students are following the presentation.
 
 Presentations will be graded using the rubric below.

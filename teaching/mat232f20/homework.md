@@ -27,7 +27,7 @@ title: Homework
 </div>
 
 ## Instructions ##
-On each homework assignment, please write (i) your name, (ii) name of course, and (iii) homework number. You are allowed and encouraged to work together on homework. Yet, each student is expected to turn in his or her own work. In general, late homework will not be accepted. However, you are allowed to turn in **up to three late homework assignments with no questions asked**.
+On each homework assignment, please write (i) your name, (ii) name of course, and (iii) homework number. You are allowed and encouraged to work together on homework. Yet, each student is expected to turn in their own work. In general, late homework will not be accepted. However, you are allowed to turn in **up to three late homework assignments with no questions asked**.
 
 The following framework assumes that we will be in a remote setting. If we happen to return to face-to-face classes, we will adjust in a natural way. With a few exceptions, homework assignment will consist of two parts.
 

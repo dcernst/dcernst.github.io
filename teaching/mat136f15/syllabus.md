@@ -148,14 +148,14 @@ Students are allowed (in fact, encouraged!) to modify their written solutions in
 
 **Weekly Homework:** In addition to the Daily Homework, we will also have Weekly Homework assignments. The majority of the Weekly Homework assignments are to be completed via [WeBWorK](https://webwork.math.nau.edu/webwork2/DErnst_136), which is an online homework system. You should log in with your NAU credentials.  There will likely be some growing pains associated with getting used to the online homework system, so we should all plan to be patient with each other as we get used to the system. Your Weekly Homework score is worth 10% of your overall grade.
 
-Your combined homework score is worth 20% of your overall grade.  You are allowed and encouraged to work together on homework.  However, each student is expected to turn in his or her own work.
+Your combined homework score is worth 20% of your overall grade.  You are allowed and encouraged to work together on homework.  However, each student is expected to turn in their own work.
 
 ### Class Presentations and Participation ###
 Though the atmosphere in this class should be informal and friendly, what we do in the class is serious business. In particular, the presentations made by students are to be taken seriously since they spearhead the work of the class.  Here are some of my expectations:
 
 - The purpose of class presentations is not to prove to me that the presenter has done the problem. It is to make the ideas of the solution clear to the other students.
 - Presenters should explain their reasoning as they go along, not simply write everything down and then turn to explain.
-- Fellow students are allowed to ask questions at any point and it is the responsibility of the person making the presentation to answer those questions to the best of his or her ability.
+- Fellow students are allowed to ask questions at any point and it is the responsibility of the person making the presentation to answer those questions to the best of their ability.
 - Since the presentation is directed at the students, the presenter should frequently make eye-contact with the students in order to address questions when they arise and also be able to see how well the other students are following the presentation.
 
 Presentations will be graded using the rubric below.

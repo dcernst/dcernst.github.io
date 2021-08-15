@@ -27,7 +27,7 @@ title: Homework
 </div>
 </div>
 
-Unless a student has a documented excused absence, late homework will not be accepted.  There are many resources available to assist you with doing your homework (e.g., office hours, course Google Group, free tutoring at numerous places across campus). You are allowed and encouraged to work together on homework.  However, each student is expected to turn in his or her own work.
+Unless a student has a documented excused absence, late homework will not be accepted.  There are many resources available to assist you with doing your homework (e.g., office hours, course Google Group, free tutoring at numerous places across campus). You are allowed and encouraged to work together on homework.  However, each student is expected to turn in their own work.
 
 You are strongly encouraged to ask questions in the [course Google Group](https://groups.google.com/forum/#!forum/mat-136-google-group-fall-2015), as I (and hopefully other members of the class) will post comments there for all to benefit from.  You are also encouraged to stop by during my office hours and you can always [email me](mailto:dana.ernst@nau.edu).  Lastly, *free* tutoring is available in AMB 137 through the [Math Achievement Program](http://nau.edu/student-learning-centers/).
 

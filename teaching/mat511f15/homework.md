@@ -20,7 +20,7 @@ title: Homework
 </div>
 
 ## Guidelines ##
-On each homework assignment, please write (i) your name, (ii) name of course, and (iii) homework number. You are allowed and encouraged to work together on homework. Yet, each student is expected to turn in his or her own work. In general, late homework will not be accepted. However, you are allowed to turn in one late homework assignment with no questions asked. Unless you have made arrangements in advance with me, homework turned in after class will be considered late.
+On each homework assignment, please write (i) your name, (ii) name of course, and (iii) homework number. You are allowed and encouraged to work together on homework. Yet, each student is expected to turn in their own work. In general, late homework will not be accepted. However, you are allowed to turn in one late homework assignment with no questions asked. Unless you have made arrangements in advance with me, homework turned in after class will be considered late.
 
 I reserve the right to modify assignments if the need arises. Students are allowed (in fact, encouraged!) to modify their written solutions in light of class discussions; however, **you are required to use the colored marker pens provided in class**.
 

@@ -7,57 +7,28 @@ title: Course Materials
 <ol class="breadcrumb">
   <li><a href="/"><i class="fa fa-home"></i></a></li>
   <li><a href="/teaching/">Teaching</a></li>
-  <li><a href="/teaching/mat431s21">MAT431</a></li>
+  <li><a href="/teaching/mat320f21">MAT320</a></li>
   <li class="active">Materials</li>
 </ol>
 
 <div class="row">
 <div class="col-xs-12">
 <div class="btn-group btn-group-justified">
-<a class="btn btn-default btn-success" href="{{site.baseurl}}/teaching/mat431s21/syllabus/">Syllabus</a>
-<a class="btn btn-default btn-primary" href="{{site.baseurl}}/teaching/mat431s21/materials/">
+<a class="btn btn-default btn-success" href="{{site.baseurl}}/teaching/mat320f21/syllabus/">Syllabus</a>
+<a class="btn btn-default btn-primary" href="{{site.baseurl}}/teaching/mat320f21/materials/">
 <span class="hidden-xs">Course Materials</span><span class="visible-xs">Stuff</span>
 </a>
-<a class="btn btn-default btn-warning" href="{{site.baseurl}}/teaching/mat431s21/homework/">
+<a class="btn btn-default btn-warning" href="{{site.baseurl}}/teaching/mat320f21/homework/">
 <span class="hidden-xs">Homework</span><span class="visible-xs">HW</span>
 </a>
-<a class="btn btn-default btn-info" href="{{site.baseurl}}/teaching/mat431s21/journal/">Journal</a>
+<a class="btn btn-default btn-info" href="{{site.baseurl}}/teaching/mat320f21/journal/">Journal</a>
 </div>
 </div>
 </div>
 
-## An Inquiry-Based Approach to Real Analysis ##
-We will not be using a traditional textbook this semester, but rather a problem sequence adopted for an [inquiry-based learning](http://maamathedmatters.blogspot.com/2013/05/what-heck-is-ibl.html) (IBL) approach to real analysis. The problem sequence that we are using is an adaptation of the analysis notes by [Karl-Dieter Crisman](http://www.math-cs.gordon.edu/~kcrisman/), which are a modified version of notes by [W. Ted Mahavier](https://www.lamar.edu/arts-sciences/mathematics/faculty/w-ted-mahavier.html). Both authors have been gracious enough to grant me access to the source of these notes, so that we can modify and tweak for our needs if necessary. The notes will be released incrementally. Each link below is to a PDF file.
+## An Introduction to Proof via Inquiry-Based Learning ##
 
-<!-- <div class="alert alert-info" role="alert" style="margin: 10px 0 10px 0">
-<i class="fa fa-exclamation-triangle"></i>&nbsp; These notes are currently under construction and subject to change.
-</div> -->
-
-- [Introduction to Real Analysis]({{site.baseurl}}/teaching/mat431s21/Analysis.pdf) (complete set of notes)
-
-- [Title Page and Front Matter]({{site.baseurl}}/teaching/mat431s21/FrontMatter.pdf)
-- [Preface]({{site.baseurl}}/teaching/mat431s21/Preface.pdf)
-- [Chapter 1: Introduction]({{site.baseurl}}/teaching/mat431s21/Introduction.pdf)
-    - 1.1 What is This Course All About?
-    - 1.2 An Inquiry-Based Approach
-    - 1.3 Rights of the Learner
-    - 1.4 Your Toolbox, Questions, and Observations
-    - 1.5 Rules of the Game
-    - 1.6 Structure of the Notes
-    - 1.7 Some Minimal Guidance
-- [Chapter 2: Preliminaries]({{site.baseurl}}/teaching/mat431s21/Preliminaries.pdf)
-    - 2.1 Sets
-    - 2.2 Functions
-    - 2.3 The Real Numbers
-- [Chapter 3: Sequences and Completeness]({{site.baseurl}}/teaching/mat431s21/Sequences.pdf)
-- [Chapter 4: Standard Topology of the Real Line]({{site.baseurl}}/teaching/mat431s21/Topology.pdf)
-- [Chapter 5: Continuity]({{site.baseurl}}/teaching/mat431s21/Continuity.pdf)
-- [Chapter 6: Limits]({{site.baseurl}}/teaching/mat431s21/Limits.pdf)
-- [Chapter 7: Differentiation]({{site.baseurl}}/teaching/mat431s21/Differentiation.pdf)
-- [Chapter 8: Integration]({{site.baseurl}}/teaching/mat431s21/Integration.pdf)
-- [Appendix A: Elements of Style for Proofs]({{site.baseurl}}/teaching/mat431s21/ElementsOfStyle.pdf)
-- [Appendix B: Fancy Mathematical Terms]({{site.baseurl}}/teaching/mat431s21/FancyMathematicalTerms.pdf)
-- [Appendix C: Definitions in Mathematics]({{site.baseurl}}/teaching/mat431s21/Definitions.pdf)
+This free and open-source textbook was written by me ([Dana C. Ernst](http://danaernst.com)) and is designed to be used with an [inquiry-based learning](http://maamathedmatters.blogspot.com/2013/05/what-heck-is-ibl.html) (IBL) approach to an introduction to proof course. The source files are located on [GitHub](https://github.com/dcernst/IBL-IntroToProof).
 
 I will not be covering every detail of the notes and the only way to achieve a sufficient understanding of the material is to be digesting the reading in a meaningful way.  You should be seeking clarification about the content of the notes whenever necessary by asking questions.  Here's one of my favorite quotes about reading mathematics.
 
@@ -65,6 +36,64 @@ I will not be covering every detail of the notes and the only way to achieve a s
   <p>Don’t just read it; fight it! Ask your own questions, look for your own examples, discover your own proofs. Is the hypothesis necessary? Is the converse true? What happens in the classical special case? What about the degenerate cases? Where does the proof use the hypothesis?</p>
   <footer><a href="http://en.wikipedia.org/wiki/Paul_Halmos">Paul Halmos</a></footer>
 </blockquote>
+
+The notes will be released incrementally. Each link below is to a PDF file.
+
+<div class="alert alert-info" role="alert" style="margin: 10px 0 10px 0">
+<i class="fa fa-exclamation-triangle"></i>&nbsp; These notes are currently under construction and subject to change.
+</div>
+
+<!-- - [An Introduction to Proof via Inquiry-Based Learning]({{site.baseurl}}/teaching/mat320s20/IntroToProof.pdf) (complete set of notes) -->
+
+- [Title Page and Front Matter]({{site.baseurl}}/teaching/mat320s20/FrontMatter.pdf)
+- [Preface]({{site.baseurl}}/teaching/mat320s20/Preface.pdf)
+- [Chapter 1: Introduction]({{site.baseurl}}/teaching/mat320s20/Introduction.pdf)
+    - 1.1 What is This Course All About?
+    - 1.2 An Inquiry-Based Approach
+    - 1.3 Your Toolbox, Questions, and Observations
+    - 1.4 Rules of the Game
+    - 1.5 Structure of the Notes
+    - 1.6 Some Minimal Guidance
+- [Chapter 2: Mathematics and Logic]({{site.baseurl}}/teaching/mat320s20/MathAndLogic.pdf)
+    - 2.1 A Taste of Number Theory
+    - 2.2 Introduction to Logic
+    - 2.3 Negating Implications and Proof by Contradiction
+    - 2.4 Introduction to Quantification
+    - 2.5 More About Quantification
+- [Chapter 3: Set Theory and Topology]({{site.baseurl}}/teaching/mat320s20/IntroSetTheoryTopology.pdf)
+    - 3.1 Sets
+    - 3.2 Power Sets and Paradoxes
+    - 3.3 Indexing Sets
+    - 3.4 Topology of $\mathbb{R}$
+- [Chapter 4: Induction]({{site.baseurl}}/teaching/mat320s20/Induction.pdf)
+    - 4.1 Introduction to Induction
+    - 4.2 More on Induction
+    - 4.3 Complete Induction
+- [Chapter 5: Three Famous Theorems]({{site.baseurl}}/teaching/mat320s20/ThreeFamousTheorems.pdf)
+    - 5.1 The Fundamental Theorem of Arithmetic
+    - 5.2 The Irrationality of $\sqrt{2}$
+    - 5.3 The Infinitude of Primes
+- [Chapter 6: Relations]({{site.baseurl}}/teaching/mat320s20/Relations.pdf)
+    - 6.1 Relations
+    - 6.2 Equivalence Relations
+    - 6.3 Partitions
+    - 6.4 Modular Arithmetic
+    <!-- - 6.4 Order Relations -->
+- [Chapter 7: Functions]({{site.baseurl}}/teaching/mat320s20/Functions.pdf)
+    - 7.1 Introduction to Functions
+    - 7.2 Images and Inverse Images of Functions
+    - 7.2 Compositions and Inverse Functions
+- [Chapter 8: Cardinality]({{site.baseurl}}/teaching/mat320s20/Cardinality.pdf)
+    - 8.1 Introduction to Cardinality
+    - 8.2 Finite Sets
+    - 8.3 Infinite Sets
+    - 8.4 Countable Sets
+    - 8.5 Uncountable Sets
+- [Appendix A: Elements of Style for Proofs]({{site.baseurl}}/teaching/mat320s20/ElementsOfStyle.pdf)
+- [Appendix B: Fancy Mathematical Terms]({{site.baseurl}}/teaching/mat320s20/FancyMathematicalTerms.pdf)
+- [Appendix C: Definitions in Mathematics]({{site.baseurl}}/teaching/mat320s20/Definitions.pdf)
+
+If you've found an error or have suggestions for improvements, please let me know.
 
 ## Miscellaneous Materials ##
 - [Setting the Stage]({{ site.baseurl }}/teaching/SettingTheStage.pdf) (PDF)
@@ -100,6 +129,8 @@ I will not be covering every detail of the notes and the only way to achieve a s
 ## Exams
 Below are links to the take-home portions of each exam. If you are interested in using LaTeX to type up your solutions, contact me and I will send you a link to the source file of the exam.
 
-- [Exam 1 (Part 2)]({{site.baseurl}}/teaching/mat431s21/431Exam1-Part2.pdf) (PDF). (Due by 11:59PM on Friday, February 26)
-- [Exam 2 (Part 2)]({{site.baseurl}}/teaching/mat431s21/431Exam2-Part2.pdf) (PDF). (Due by 11:59PM on Friday, April 9)
-- [Final Exam (Part 2)]({{site.baseurl}}/teaching/mat431s21/431ExamFinal-Part2.pdf) (PDF). (Due by 5:00PM on Thursday, April 29)
+- Exam 1 (Part 2): Coming soon.
+
+<!-- - [Exam 1 (Part 2)]({{site.baseurl}}/teaching/mat320f21/320Exam1-Part2.pdf) (PDF). (Due by 11:59PM on Friday, February 26)
+- [Exam 2 (Part 2)]({{site.baseurl}}/teaching/mat320f21/320Exam2-Part2.pdf) (PDF). (Due by 11:59PM on Friday, April 9)
+- [Final Exam (Part 2)]({{site.baseurl}}/teaching/mat320f21/320ExamFinal-Part2.pdf) (PDF). (Due by 5:00PM on Thursday, April 29) -->

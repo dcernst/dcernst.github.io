@@ -40,7 +40,7 @@ For me, the guiding principle of IBL is the following question:
 E. Lee May (Salisbury State University) may have said it best:
 
 <blockquote>
-  <p>Inquiry-based learning (IBL) is a method of instruction that places the student, the subject, and their interaction at the center of the learning experience. At the same time, it transforms the role of the teacher from that of dispensing knowledge to one of facilitating learning. It repositions him or her, physically, from the front and center of the classroom to someplace in the middle or back of it, as it subtly yet significantly increases his or her involvement in the thought-processes of the students.</p>
+  <p>Inquiry-based learning (IBL) is a method of instruction that places the student, the subject, and their interaction at the center of the learning experience. At the same time, it transforms the role of the teacher from that of dispensing knowledge to one of facilitating learning. It repositions him or her, physically, from the front and center of the classroom to someplace in the middle or back of it, as it subtly yet significantly increases their involvement in the thought-processes of the students.</p>
   <footer>E. Lee May</footer>
 </blockquote>
 

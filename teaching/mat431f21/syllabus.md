@@ -180,7 +180,7 @@ I will not be covering every detail of the notes and the only way to achieve a s
 Reviewing material from previous courses and looking up definitions and theorems you may have forgotten is fair game. However, when it comes to completing assignments for this course, you should *not* look to resources outside the context of this course for help.  That is, you should not be consulting the web, other texts, other faculty, or students outside of our course in an attempt to find solutions to the problems you are assigned.  This includes Chegg and Course Hero. On the other hand, you may use each other, the textbook, me, and your own intuition. **If you feel you need additional resources, please come talk to me and we will come up with an appropriate plan of action.** Please read NAU's [Academic Integrity Policy](https://www5.nau.edu/policies/Client/Details/828?whoIsLooking=Students&pertainsTo=All&sortDirection=Ascending&page=1).
 
 ### Homework ###
-You are allowed and encouraged to work together on homework.  However, each student is expected to turn in his or her own work.  In general, late homework will *not* be accepted.  However, you are allowed to turn in up to **three late homework assignments** with no questions asked. Unless you have made arrangements in advance with me, homework turned in after class will be considered late. When doing your homework, I encourage you to consult the [Elements of Style for Proofs]({{site.baseurl}}/teaching/ElementsOfStyle.pdf). Your overall homework grade will be worth 20% of your final grade.
+You are allowed and encouraged to work together on homework.  However, each student is expected to turn in their own work.  In general, late homework will *not* be accepted.  However, you are allowed to turn in up to **three late homework assignments** with no questions asked. Unless you have made arrangements in advance with me, homework turned in after class will be considered late. When doing your homework, I encourage you to consult the [Elements of Style for Proofs]({{site.baseurl}}/teaching/ElementsOfStyle.pdf). Your overall homework grade will be worth 20% of your final grade.
 
 On each homework assignment, please write (i) your name, (ii) name of course, and (iii) Homework number.  You can find the list of assignments on the [homework page]({{site.baseurl}}/teaching/mat431f21/homework/).  I reserve the right to modify the homework assignments as I see necessary.
 
@@ -257,7 +257,7 @@ The problems chosen for presentations will come from the homework assignments. T
 
 - The purpose of class presentations is not to prove to me that the presenter has done the problem. It is to make the ideas of the solution clear to the other students.
 - Presenters should explain their reasoning as they go along, not simply write everything down and then turn to explain.
-- Fellow students are allowed to ask questions at any point and it is the responsibility of the person making the presentation to answer those questions to the best of his or her ability.
+- Fellow students are allowed to ask questions at any point and it is the responsibility of the person making the presentation to answer those questions to the best of their ability.
 - Since the presentation is directed at the students, the presenter should frequently make eye-contact with the students in order to address questions when they arise and also be able to see how well the other students are following the presentation.
 
 <blockquote>
@@ -492,7 +492,7 @@ Here are some important dates:
 - **December 8:** Final Exam (10:00AM-12:00PM)
 
 ### Getting Help ###
-There are many resources available to get help.  First, you are allowed and encouraged to work together on homework.  However, each student is expected to turn in his or her own work. You are strongly encouraged to ask questions in our Discord discussion group, as I (and hopefully other members of the class) will post comments there for all to benefit from.  You are also encouraged to stop by during my office hours and you can always [email me](mailto:dana.ernst@nau.edu).  I am always happy to help you.  If my office hours don't work for you, then we can probably find another time to meet.  It is your responsibility to be aware of how well you understand the material.  Don't wait until it is too late if you need help.  *Ask questions*!
+There are many resources available to get help.  First, you are allowed and encouraged to work together on homework.  However, each student is expected to turn in their own work. You are strongly encouraged to ask questions in our Discord discussion group, as I (and hopefully other members of the class) will post comments there for all to benefit from.  You are also encouraged to stop by during my office hours and you can always [email me](mailto:dana.ernst@nau.edu).  I am always happy to help you.  If my office hours don't work for you, then we can probably find another time to meet.  It is your responsibility to be aware of how well you understand the material.  Don't wait until it is too late if you need help.  *Ask questions*!
 
 ### Changes to the Syllabus ###
 Any changes to this syllabus made during the term will be properly communicated to the class.

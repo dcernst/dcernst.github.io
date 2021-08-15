@@ -104,7 +104,7 @@ In this course, *everyone* will be required to
 As the semester progresses, it should become clear to you what the expectations are.  This will be new to many of you and there may be some growing pains associated with it.
 
 ### Homework ###
-You are allowed and encouraged to work together on homework.  However, each student is expected to turn in his or her own work.  In general, late homework will *not* be accepted.  However, you are allowed to turn in three late homework assignments with no questions asked. Unless you have made arrangements in advance with me, homework turned in after class will be considered late. When doing your homework, I encourage you to use the Elements of Style for Proofs (see Appendix B of the [course notes]({{site.baseurl}}/teaching/mat411f16/materials/) as a reference. Your overall homework grade will be worth 20% of your final grade.
+You are allowed and encouraged to work together on homework.  However, each student is expected to turn in their own work.  In general, late homework will *not* be accepted.  However, you are allowed to turn in three late homework assignments with no questions asked. Unless you have made arrangements in advance with me, homework turned in after class will be considered late. When doing your homework, I encourage you to use the Elements of Style for Proofs (see Appendix B of the [course notes]({{site.baseurl}}/teaching/mat411f16/materials/) as a reference. Your overall homework grade will be worth 20% of your final grade.
 
 On each homework assignment, please write (i) your name, (ii) name of course, and (iii) Daily/Weekly Homework number.  You can find the list of assignments on the [homework page]({{site.baseurl}}/teaching/mat411f16/homework/).  I reserve the right to modify the homework assignments as I see necessary.
 
@@ -154,7 +154,7 @@ Though the atmosphere in this class should be informal and friendly, what we do 
 
 - The purpose of class presentations is not to prove to me that the presenter has done the problem. It is to make the ideas of the solution clear to the other students.
 - Presenters should explain their reasoning as they go along, not simply write everything down and then turn to explain.
-- Fellow students are allowed to ask questions at any point and it is the responsibility of the person making the presentation to answer those questions to the best of his or her ability.
+- Fellow students are allowed to ask questions at any point and it is the responsibility of the person making the presentation to answer those questions to the best of their ability.
 - Since the presentation is directed at the students, the presenter should frequently make eye-contact with the students in order to address questions when they arise and also be able to see how well the other students are following the presentation.
 
 Presentations will be graded using the rubric below.

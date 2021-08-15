@@ -26,7 +26,7 @@ layout: default
 </div>
 
 ## Welcome ##
-Welcome to the course web page for the Spring 2021 manifestation of MAT 431: Introduction to Analysis at [Northern Arizona University](http://nau.edu).
+Welcome to the course web page for the Fall 2021 manifestation of MAT 431: Introduction to Analysis at [Northern Arizona University](http://nau.edu).
 
 <div class="row">
   <div class="col-xs-12 col-sm-6">
