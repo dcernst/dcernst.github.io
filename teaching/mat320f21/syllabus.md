@@ -190,9 +190,6 @@ I will not be covering every detail of the textbook and the only way to achieve 
 ### Rules of the Game ###
 Reviewing material from previous courses and looking up definitions and theorems you may have forgotten is fair game. However, when it comes to completing assignments for this course, you should *not* look to resources outside the context of this course for help.  That is, you should not be consulting the web, other texts, other faculty, or students outside of our course in an attempt to find solutions to the problems you are assigned.  On the other hand, you may use each other, the textbook, me, and your own intuition. If you feel you need additional resources, please come talk to me and we will come up with an appropriate plan of action. Please read NAU's [Academic Integrity Policy](https://www5.nau.edu/policies/Client/Details/828?whoIsLooking=Students&pertainsTo=All&sortDirection=Ascending&page=1).
 
-### Exams ###
-There will be two midterm exams and a cumulative final exam.  Each exam will consist of an in-class portion and possibly a take-home portion. Exam 1 and Exam 2 are *tentatively* scheduled for **Monday, October 4** (week 7) and **Monday, November 8** (week 12), respectively.  Each of Exam 1 and Exam 2 will be worth 20% of your overall grade. The final exam will be on **Wednesday, December 8** at **7:30-9:30AM** and is worth 20% of your overall grade. If any of the exams have a take-home portion, you will have a few days to complete it. Make-up exams will only be given under extreme circumstances, as judged by me. In general, it will be best to communicate conflicts ahead of time.
-
 ### Homework ###
 
 #### General Comments
@@ -268,11 +265,6 @@ On the day that a homework assignment is due, the majority of the class period w
 	</tbody>
 </table>
 </center>
-
-<blockquote>
-<p>I write one page of masterpiece to ninety-one pages of shit.</p>
-<footer><a href="https://en.wikipedia.org/wiki/Ernest_Hemingway">Ernest Hemingway</a></footer>
-</blockquote>
 
 #### Weekly Homework
 In addition to the Daily Homework, we will also have Weekly Homework assignments.  For most of these assignments, you will be required to submit 2-3 formally written proofs.  Some or all of these problems will come directly from the Daily Homework assigned the previous week.  You are required to type your submission using LaTeX. You will submit the corresponding PDF to BbLearn.  Each problem on the Weekly Homework assignments is subject to the following rubric:
@@ -488,6 +480,14 @@ Only I will remain.</p>
 <footer class="blockquote-footer"><a href="https://en.wikipedia.org/wiki/Bene_Gesserit#Litany_against_fear">Bene Gesserit litany against fear</a> from Frank Herbert's <a href="https://en.wikipedia.org/wiki/Frank_Herbert%27s_Dune">Dune</a></footer>
 </blockquote>
 
+### Exams ###
+There will be two midterm exams and a cumulative final exam.  Each exam will consist of an in-class portion and possibly a take-home portion. Exam 1 and Exam 2 are *tentatively* scheduled for **Monday, October 4** (week 7) and **Monday, November 8** (week 12), respectively.  Each of Exam 1 and Exam 2 will be worth 20% of your overall grade. The final exam will be on **Wednesday, December 8** at **7:30-9:30AM** and is worth 20% of your overall grade. If any of the exams have a take-home portion, you will have a few days to complete it. Make-up exams will only be given under extreme circumstances, as judged by me. In general, it will be best to communicate conflicts ahead of time.
+
+<blockquote>
+<p>I write one page of masterpiece to ninety-one pages of shit.</p>
+<footer><a href="https://en.wikipedia.org/wiki/Ernest_Hemingway">Ernest Hemingway</a></footer>
+</blockquote>
+
 ### Attendance ###
 Regular attendance is expected and is vital to success in this course, but you will not explicitly be graded on attendance.  Yet, repeated absences may impact your participation grade (see above).  Students can find more information about NAU's attendance policy on the [Academic Policies](https://in.nau.edu/dean-of-students/academic-policies/) page.
 
@@ -498,7 +498,7 @@ The only thing I will award extra credit for is finding typos on course material
 In summary, your final grade will be determined by your scores in the following categories.
 
 <center>
-<table class="table table-striped">
+<table class="table table-striped caption-bottom">
 <caption>Summary of Evaluation</caption>
 	<thead>
 	<tr>
@@ -510,38 +510,28 @@ In summary, your final grade will be determined by your scores in the following 
 	<tbody>
 	<tr>
 		<td>Homework</td>
-		<td style="text-align: center;">15%</td>
-		<td>A combination of Daily &amp; Weekly Homework</td>
+		<td style="text-align: center;">20%</td>
+		<td>See above for requirements</td>
 	</tr>
   <tr>
 		<td>Presentations &amp; Participation</td>
-		<td style="text-align: center;">15%</td>
+		<td style="text-align: center;">20%</td>
 		<td>See above for requirements</td>
 	</tr>
 	<tr>
 		<td>Exam 1</td>
-		<td style="text-align: center;">15%</td>
-		<td>2-hour exam on Friday, February 21</td>
+		<td style="text-align: center;">20%</td>
+		<td>In-class portion on October 4, possible take-home portion</td>
 	</tr>
   <tr>
     <td>Exam 2</td>
-    <td style="text-align: center;">10%</td>
-    <td>Take-home exam, due Friday, March 13</td>
-  </tr>
-  <tr>
-		<td>Exam 3</td>
-		<td style="text-align: center;">15%</td>
-		<td>2-hour exam on Friday, April 10</td>
-	</tr>
-  <tr>
-    <td>Exam 4</td>
-    <td style="text-align: center;">10%</td>
-    <td>Take-home exam, due Friday, April 24</td>
+    <td style="text-align: center;">20%</td>
+    <td>In-class portion on November 8, possible take-home portion</td>
   </tr>
 	<tr>
 		<td>Final Exam</td>
 		<td style="text-align: center;">20%</td>
-		<td>Monday, May 4 at 12:30-2:30PM</td>
+		<td>December 8 at 7:30-9:30AM</td>
 	</tr>
 	</tbody>
 </table>

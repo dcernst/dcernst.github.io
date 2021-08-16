@@ -461,17 +461,17 @@ In summary, your final grade will be determined by your scores in the following 
 	<tr>
 		<td>Exam 1</td>
 		<td style="text-align: center;">20%</td>
-		<td>In-class portion on February 19, possible take-home portion</td>
+		<td>In-class portion on October 11, possible take-home portion</td>
 	</tr>
   <tr>
     <td>Exam 2</td>
     <td style="text-align: center;">20%</td>
-    <td>In-class portion on April 2, possible take-home portion</td>
+    <td>In-class portion on November 15, possible take-home portion</td>
   </tr>
 	<tr>
 		<td>Final Exam</td>
 		<td style="text-align: center;">20%</td>
-		<td>April 26 at 7:30-9:30AM</td>
+		<td>December 8 at 10:00AM-12:00PM</td>
 	</tr>
 	</tbody>
 </table>
