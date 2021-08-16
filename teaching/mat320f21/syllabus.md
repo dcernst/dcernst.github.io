@@ -196,7 +196,7 @@ There will be two midterm exams and a cumulative final exam.  Each exam will con
 ### Homework ###
 
 #### General Comments
-You are allowed and encouraged to work together on homework.  However, each student is expected to turn in their own work.  In general, late homework will *not* be accepted.  However, you are allowed to turn in three late homework assignments with no questions asked. Unless you have made arrangements in advance with me, homework turned in after class will be considered late. When doing your homework, I encourage you to consult the [Elements of Style for Proofs]({{site.baseurl}}/teaching/ElementsOfStyle.pdf). Your overall homework grade will be worth 15% of your final grade.
+You are allowed and encouraged to work together on homework.  However, each student is expected to turn in their own work.  In general, late homework will *not* be accepted.  However, you are allowed to turn in **three late homework assignments**. Unless you have made arrangements in advance with me, homework turned in after class will be considered late. When doing your homework, I encourage you to consult the [Elements of Style for Proofs]({{site.baseurl}}/teaching/ElementsOfStyle.pdf). Your overall homework grade will be worth 15% of your final grade.
 
 On each homework assignment, please write (i) your name, (ii) name of course, and (iii) Daily/Weekly Homework number.  You can find the list of assignments on the [homework page]({{site.baseurl}}/teaching/mat320f21/homework/).  I reserve the right to modify the homework assignments as I see necessary.
 
@@ -205,6 +205,7 @@ Homework will be assigned almost every class meeting, and students are expected 
 
 <center>
 <table class="table table-striped">
+<caption>Rubric for Assessing Problems on Daily Homework</caption>
 	<thead>
 	<tr>
 		<th style="text-align: center;">Grade</th>
@@ -240,6 +241,7 @@ On the day that a homework assignment is due, the majority of the class period w
 
 <center>
 <table class="table table-striped">
+<caption>Rubric for Grading Daily Homework</caption>
 	<thead>
 	<tr>
 		<th style="text-align: center;">Grade</th>
@@ -279,6 +281,7 @@ In addition to the Daily Homework, we will also have Weekly Homework assignments
 
 <center>
 <table class="table table-striped">
+<caption>Rubric for Assessing Problems on Weekly Homework</caption>
 	<thead>
 	<tr>
 		<th style="text-align: center;">Grade</th>
@@ -332,6 +335,7 @@ Presentations will be assessed using the following criteria.
 
 <center>
 <table class="table table-striped">
+<caption>Rubric for Assessing Presentations</caption>
 	<thead>
 	<tr>
 		<th style="text-align: center;">Specification</th>
@@ -376,6 +380,7 @@ If you are chosen to present but would prefer not to present that particular pro
 
 <center>
 <table class="table table-striped">
+<caption>Specification for Selecting Presenters</caption>
 	<thead>
 	<tr>
 		<th style="text-align: center;">Specification</th>
@@ -407,6 +412,7 @@ You are expected to respectfully participate and contribute to class discussions
 
 <center>
 <table class="table table-striped">
+<caption>Rubric for Assessing Participation</caption>
 	<thead>
 	<tr>
 		<th style="text-align: center;">Specification</th>
@@ -436,6 +442,7 @@ Your Presentation and Participation grade is determined by your frequency and ab
 
 <center>
 <table class="table table-striped">
+<caption>Rubric for Assessing Presentation and Participation Grade</caption>
 	<thead>
 	<tr>
 		<th style="text-align: center;">Grade&nbsp;Range</th>
