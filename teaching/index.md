@@ -21,7 +21,7 @@ Here are the courses that I am currently teaching (Fall 2021) at [Northern Arizo
 
 - [MAT 320: Foundations of Mathematics, Fall 2021]({{ site.baseurl }}/teaching/mat320f21)
 - [MAT 431: Introduction to Analysis, Fall 2021]({{ site.baseurl }}/teaching/mat431f21)
-- [MAT 526: Abstract Algebra I, Fall 2021]({{ site.baseurl }}/teaching/mat511f21)
+- [MAT 511: Abstract Algebra I, Fall 2021]({{ site.baseurl }}/teaching/mat511f21)
 
 ## Previous Courses ##
 This is a (partial) list of courses that I have taught over the past several semesters. **Note:** Some of the links on the pages below may be outdated.

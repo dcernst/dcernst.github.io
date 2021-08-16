@@ -43,55 +43,60 @@ The notes will be released incrementally. Each link below is to a PDF file.
 <i class="fa fa-exclamation-triangle"></i>&nbsp; These notes are currently under construction and subject to change.
 </div>
 
-<!-- - [An Introduction to Proof via Inquiry-Based Learning]({{site.baseurl}}/teaching/mat320s20/IntroToProof.pdf) (complete set of notes) -->
+<!-- - [An Introduction to Proof via Inquiry-Based Learning]({{site.baseurl}}/teaching/mat320f21/IntroToProof.pdf) (complete set of notes) -->
 
-- [Title Page and Front Matter]({{site.baseurl}}/teaching/mat320s20/FrontMatter.pdf)
-- [Preface]({{site.baseurl}}/teaching/mat320s20/Preface.pdf)
-- [Chapter 1: Introduction]({{site.baseurl}}/teaching/mat320s20/Introduction.pdf)
+- [Title Page and Front Matter]({{site.baseurl}}/teaching/mat320f21/FrontMatter.pdf)
+- [Preface]({{site.baseurl}}/teaching/mat320f21/Preface.pdf)
+- [Chapter 1: Introduction]({{site.baseurl}}/teaching/mat320f21/Introduction.pdf)
     - 1.1 What is This Course All About?
     - 1.2 An Inquiry-Based Approach
-    - 1.3 Your Toolbox, Questions, and Observations
-    - 1.4 Rules of the Game
-    - 1.5 Structure of the Notes
-    - 1.6 Some Minimal Guidance
-- [Chapter 2: Mathematics and Logic]({{site.baseurl}}/teaching/mat320s20/MathAndLogic.pdf)
+    - 1.3 Structure of the Notes
+    - 1.4 Rights of the Learner
+    - 1.5 Some Minimal Guidance
+- [Chapter 2: Mathematics and Logic]({{site.baseurl}}/teaching/mat320f21/MathAndLogic.pdf)
     - 2.1 A Taste of Number Theory
     - 2.2 Introduction to Logic
-    - 2.3 Negating Implications and Proof by Contradiction
+    - 2.3 Techniques for Proving Conditional Statements
     - 2.4 Introduction to Quantification
     - 2.5 More About Quantification
-- [Chapter 3: Set Theory and Topology]({{site.baseurl}}/teaching/mat320s20/IntroSetTheoryTopology.pdf)
+- [Chapter 3: Set Theory and Topology]({{site.baseurl}}/teaching/mat320f21/IntroSetTheoryTopology.pdf)
     - 3.1 Sets
-    - 3.2 Power Sets and Paradoxes
-    - 3.3 Indexing Sets
-    - 3.4 Topology of $\mathbb{R}$
-- [Chapter 4: Induction]({{site.baseurl}}/teaching/mat320s20/Induction.pdf)
+    - 3.2 Russell's Paradox
+    - 3.3 Power Sets
+    - 3.4 Indexing Sets
+    - 3.4 Cartesian Products of Sets
+- [Chapter 4: Induction]({{site.baseurl}}/teaching/mat320f21/Induction.pdf)
     - 4.1 Introduction to Induction
     - 4.2 More on Induction
-    - 4.3 Complete Induction
-- [Chapter 5: Three Famous Theorems]({{site.baseurl}}/teaching/mat320s20/ThreeFamousTheorems.pdf)
-    - 5.1 The Fundamental Theorem of Arithmetic
-    - 5.2 The Irrationality of $\sqrt{2}$
-    - 5.3 The Infinitude of Primes
-- [Chapter 6: Relations]({{site.baseurl}}/teaching/mat320s20/Relations.pdf)
-    - 6.1 Relations
-    - 6.2 Equivalence Relations
-    - 6.3 Partitions
-    - 6.4 Modular Arithmetic
-    <!-- - 6.4 Order Relations -->
-- [Chapter 7: Functions]({{site.baseurl}}/teaching/mat320s20/Functions.pdf)
-    - 7.1 Introduction to Functions
-    - 7.2 Images and Inverse Images of Functions
-    - 7.2 Compositions and Inverse Functions
-- [Chapter 8: Cardinality]({{site.baseurl}}/teaching/mat320s20/Cardinality.pdf)
+    - 4.3 Complete Induction and the Well-Ordering Principle
+- [Chapter 5: The Real Numbers]({{site.baseurl}}/teaching/mat320f21/RealNumbers.pdf)
+    - 5.1 Axioms of the Real Numbers
+    - 5.2 Standard Topology of the Real Line
+- [Chapter 6: Three Famous Theorems]({{site.baseurl}}/teaching/mat320f21/ThreeFamousTheorems.pdf)
+    - 6.1 The Fundamental Theorem of Arithmetic
+    - 6.2 The Irrationality of $\sqrt{2}$
+    - 6.3 The Infinitude of Primes
+- [Chapter 6: Relations and Partitions]({{site.baseurl}}/teaching/mat320f21/Relations.pdf)
+    - 7.1 Relations
+    - 7.2 Equivalence Relations
+    - 7.3 Partitions
+    - 7.4 Modular Arithmetic
+- [Chapter 8: Functions]({{site.baseurl}}/teaching/mat320f21/Functions.pdf)
+    - 8.1 Introduction to Functions
+    - 8.2 Injective and Surjective Functions
+    - 8.3 Compositions and Inverse Functions
+    - 8.4 Images and Preimages of Functions
+    - 8.5 Continuous Real Functions
+- [Chapter 9: Cardinality]({{site.baseurl}}/teaching/mat320f21/Cardinality.pdf)
     - 8.1 Introduction to Cardinality
     - 8.2 Finite Sets
     - 8.3 Infinite Sets
     - 8.4 Countable Sets
     - 8.5 Uncountable Sets
-- [Appendix A: Elements of Style for Proofs]({{site.baseurl}}/teaching/mat320s20/ElementsOfStyle.pdf)
-- [Appendix B: Fancy Mathematical Terms]({{site.baseurl}}/teaching/mat320s20/FancyMathematicalTerms.pdf)
-- [Appendix C: Definitions in Mathematics]({{site.baseurl}}/teaching/mat320s20/Definitions.pdf)
+- [Appendix A: Elements of Style for Proofs]({{site.baseurl}}/teaching/mat320f21/ElementsOfStyle.pdf)
+- [Appendix B: Fancy Mathematical Terms]({{site.baseurl}}/teaching/mat320f21/FancyMathematicalTerms.pdf)
+- [Appendix C: Paradoxes]({{site.baseurl}}/teaching/mat320f21/Paradoxes.pdf)
+- [Appendix D: Definitions in Mathematics]({{site.baseurl}}/teaching/mat320f21/Definitions.pdf)
 
 If you've found an error or have suggestions for improvements, please let me know.
 
