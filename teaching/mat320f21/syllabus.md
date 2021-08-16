@@ -498,7 +498,7 @@ The only thing I will award extra credit for is finding typos on course material
 In summary, your final grade will be determined by your scores in the following categories.
 
 <center>
-<table class="table table-striped caption-bottom">
+<table class="table table-striped">
 <caption>Summary of Evaluation</caption>
 	<thead>
 	<tr>

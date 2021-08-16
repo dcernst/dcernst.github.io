@@ -37,3 +37,8 @@ body > .container {
 code {
   font-size: 80%;
 }
+
+/* Custom page CSS */
+table {
+  caption-side: bottom;
+}
