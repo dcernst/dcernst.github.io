@@ -380,7 +380,7 @@ If you are chosen to present but would prefer not to present that particular pro
 
 <center>
 <table class="table table-striped">
-<caption>Specification for Selecting Presenters</caption>
+<caption>Specifications for Selecting Presenters</caption>
 	<thead>
 	<tr>
 		<th style="text-align: center;">Specification</th>
@@ -499,6 +499,7 @@ In summary, your final grade will be determined by your scores in the following 
 
 <center>
 <table class="table table-striped">
+<caption>Summary of Evaluation</caption>
 	<thead>
 	<tr>
 		<th>Category</th>
