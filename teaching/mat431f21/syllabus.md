@@ -345,7 +345,7 @@ You are expected to respectfully participate and contribute to class discussions
 
 <center>
 <table class="table table-striped">
-caption>Rubric for Assessing Participation</caption>
+<caption>Rubric for Assessing Participation</caption>
 	<thead>
 	<tr>
 		<th style="text-align: center;">Specification</th>
