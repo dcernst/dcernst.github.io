@@ -202,7 +202,7 @@ Homework will be assigned almost every class meeting, and students are expected 
 
 <center>
 <table class="table table-striped">
-<caption>Rubric for Assessing Problems on Daily Homework</caption>
+<caption style="text-align: center;">Rubric for Assessing Problems on Daily Homework</caption>
 	<thead>
 	<tr>
 		<th style="text-align: center;">Grade</th>
@@ -238,7 +238,7 @@ On the day that a homework assignment is due, the majority of the class period w
 
 <center>
 <table class="table table-striped">
-<caption>Rubric for Grading Daily Homework</caption>
+<caption style="text-align: center;">Rubric for Grading Daily Homework</caption>
 	<thead>
 	<tr>
 		<th style="text-align: center;">Grade</th>
@@ -273,7 +273,7 @@ In addition to the Daily Homework, we will also have Weekly Homework assignments
 
 <center>
 <table class="table table-striped">
-<caption>Rubric for Assessing Problems on Weekly Homework</caption>
+<caption style="text-align: center;">Rubric for Assessing Problems on Weekly Homework</caption>
 	<thead>
 	<tr>
 		<th style="text-align: center;">Grade</th>
@@ -327,7 +327,7 @@ Presentations will be assessed using the following criteria.
 
 <center>
 <table class="table table-striped">
-<caption>Rubric for Assessing Presentations</caption>
+<caption style="text-align: center;">Rubric for Assessing Presentations</caption>
 	<thead>
 	<tr>
 		<th style="text-align: center;">Specification</th>
@@ -372,7 +372,7 @@ If you are chosen to present but would prefer not to present that particular pro
 
 <center>
 <table class="table table-striped">
-<caption>Specifications for Selecting Presenters</caption>
+<caption style="text-align: center;">Specifications for Selecting Presenters</caption>
 	<thead>
 	<tr>
 		<th style="text-align: center;">Specification</th>
@@ -404,7 +404,7 @@ You are expected to respectfully participate and contribute to class discussions
 
 <center>
 <table class="table table-striped">
-<caption>Rubric for Assessing Participation</caption>
+<caption style="text-align: center;">Rubric for Assessing Participation</caption>
 	<thead>
 	<tr>
 		<th style="text-align: center;">Specification</th>
@@ -434,7 +434,7 @@ Your Presentation and Participation grade is determined by your frequency and ab
 
 <center>
 <table class="table table-striped">
-<caption>Rubric for Assessing Presentation and Participation Grade</caption>
+<caption style="text-align: center;">Rubric for Assessing Presentation and Participation Grade</caption>
 	<thead>
 	<tr>
 		<th style="text-align: center;">Grade&nbsp;Range</th>
@@ -499,7 +499,7 @@ In summary, your final grade will be determined by your scores in the following 
 
 <center>
 <table class="table table-striped">
-<caption>Summary of Evaluation</caption>
+<caption style="text-align: center;">Summary of Evaluation</caption>
 	<thead>
 	<tr>
 		<th>Category</th>
