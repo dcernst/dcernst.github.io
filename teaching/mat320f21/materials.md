@@ -59,7 +59,7 @@ The notes will be released incrementally. Each link below is to a PDF file.
     - 2.3 Techniques for Proving Conditional Statements
     - 2.4 Introduction to Quantification
     - 2.5 More About Quantification
-- [Chapter 3: Set Theory and Topology]({{site.baseurl}}/teaching/mat320f21/IntroSetTheoryTopology.pdf)
+- [Chapter 3: Set Theory]({{site.baseurl}}/teaching/mat320f21/SetTheory.pdf)
     - 3.1 Sets
     - 3.2 Russell's Paradox
     - 3.3 Power Sets
