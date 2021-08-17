@@ -481,7 +481,7 @@ Only I will remain.</p>
 </blockquote>
 
 ### Exams ###
-There will be two midterm exams and a cumulative final exam.  Each exam will consist of an in-class portion and possibly a take-home portion. Exam 1 and Exam 2 are *tentatively* scheduled for **Monday, October 4** (week 7) and **Monday, November 8** (week 12), respectively.  Each of Exam 1 and Exam 2 will be worth 20% of your overall grade. The final exam will be on **Wednesday, December 8** at **7:30-9:30AM** and is worth 20% of your overall grade. If any of the exams have a take-home portion, you will have a few days to complete it. Make-up exams will only be given under extreme circumstances, as judged by me. In general, it will be best to communicate conflicts ahead of time.
+There will be two midterm exams and a cumulative final exam.  Each exam will consist of an in-class portion and possibly a take-home portion. Exam 1 and Exam 2 are *tentatively* scheduled for **Monday, October 4** (week 7) and **Monday, November 15** (week 13), respectively.  Each of Exam 1 and Exam 2 will be worth 20% of your overall grade. The final exam will be on **Wednesday, December 8** at **7:30-9:30AM** and is worth 20% of your overall grade. If any of the exams have a take-home portion, you will have a few days to complete it. Make-up exams will only be given under extreme circumstances, as judged by me. In general, it will be best to communicate conflicts ahead of time.
 
 <blockquote>
 <p>I write one page of masterpiece to ninety-one pages of shit.</p>
@@ -526,7 +526,7 @@ In summary, your final grade will be determined by your scores in the following 
   <tr>
     <td>Exam 2</td>
     <td style="text-align: center;">20%</td>
-    <td>In-class portion on November 8, possible take-home portion</td>
+    <td>In-class portion on November 15, possible take-home portion</td>
   </tr>
 	<tr>
 		<td>Final Exam</td>

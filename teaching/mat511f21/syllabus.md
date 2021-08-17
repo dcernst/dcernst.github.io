@@ -155,7 +155,7 @@ I will not be covering every detail of the notes and the only way to achieve a s
 Reviewing material from previous courses and looking up definitions and theorems you may have forgotten is fair game. However, when it comes to completing assignments for this course, you should *not* look to resources outside the context of this course for help.  That is, you should not be consulting the web, other texts, other faculty, or students outside of our course in an attempt to find solutions to the problems you are assigned.  This includes Chegg and Course Hero. On the other hand, you may use each other, the textbook, me, and your own intuition. **If you feel you need additional resources, please come talk to me and we will come up with an appropriate plan of action.** Please read NAU's [Academic Integrity Policy](https://www5.nau.edu/policies/Client/Details/828?whoIsLooking=Students&pertainsTo=All&sortDirection=Ascending&page=1).
 
 ### Homework ###
-You are allowed and encouraged to work together on homework.  However, each student is expected to turn in their own work.  In general, late homework will *not* be accepted.  However, you are allowed to turn in up to **three late homework assignments**. Unless you have made arrangements in advance with me, homework turned in after class will be considered late. When doing your homework, I encourage you to consult the [Elements of Style for Proofs]({{site.baseurl}}/teaching/ElementsOfStyle.pdf). Your overall homework grade will be worth 20% of your final grade.
+You are allowed and encouraged to work together on homework.  However, each student is expected to turn in their own work.  In general, late homework will *not* be accepted.  However, you are allowed to turn in up to **three late homework assignments**. Unless you have made arrangements in advance with me, homework turned in after class will be considered late. When doing your homework, I encourage you to consult the [Elements of Style for Proofs]({{site.baseurl}}/teaching/ElementsOfStyle.pdf). Your overall homework grade will be worth 15% of your final grade.
 
 On each homework assignment, please write (i) your name, (ii) name of course, and (iii) Homework number.  You can find the list of assignments on the [homework page]({{site.baseurl}}/teaching/mat431f21/homework/).  I reserve the right to modify the homework assignments as I see necessary.
 
@@ -381,7 +381,7 @@ Your Presentation and Participation grade is determined by your frequency and ab
 </table>
 </center>
 
-I anticipate that most students will fall in the 80-89% range. Your Presentation and Participation grade is worth 20% of your overall grade.
+I anticipate that most students will fall in the 80-89% range. Your Presentation and Participation grade is worth 15% of your overall grade.
 
 <blockquote>
 <p>I must not fear.<br />
@@ -397,7 +397,7 @@ Only I will remain.</p>
 
 
 ### Exams ###
-There will be two midterm exams and a cumulative final exam.  Each exam will consist of an in-class portion and possibly a take-home portion. Exam 1 and Exam 2 are *tentatively* scheduled for **???** (week ???) and **???** (week ???), respectively.  Each of Exam 1 and Exam 2 will be worth 20% of your overall grade. The final exam will be on **Monday, December 6** at 10:00AM-12:00PM and is worth 20% of your overall grade. If any of the exams have a take-home portion, you will have a few days to complete it. Make-up exams will only be given under extreme circumstances, as judged by me. In general, it will be best to communicate conflicts ahead of time.
+There will be three midterm exams and a cumulative final exam. Exam 1 will be a take-home exam that is *tentatively* scheduled to be released on **Monday, September 27** (week 6). You will have several days to complete the take-home exam. Exam 2 will be an in-class exam that is *tentatively* scheduled for **Monday, November 8** (week 12).  Each of Exam 1 and Exam 2 will be worth 20% of your overall grade. Exam 3 will be a 30-minute oral exam taken individually with me sometime during the last two weeks of classes. Exam 3 will be worth 10% of your overall grade. The final exam will be on **Monday, December 6** at 10:00AM-12:00PM and is worth 20% of your overall grade. It is possible that the final exam will consist of both an in-class portion and a take-home portion. Make-up exams will only be given under extreme circumstances, as judged by me. In general, it will be best to communicate conflicts ahead of time.
 
 <blockquote>
 <p>I write one page of masterpiece to ninety-one pages of shit.</p>
@@ -426,23 +426,28 @@ In summary, your final grade will be determined by your scores in the following 
 	<tbody>
 	<tr>
 		<td>Homework</td>
-		<td style="text-align: center;">20%</td>
+		<td style="text-align: center;">15%</td>
 		<td>See above for requirements</td>
 	</tr>
   <tr>
 		<td>Presentations &amp; Participation</td>
-		<td style="text-align: center;">20%</td>
+		<td style="text-align: center;">15%</td>
 		<td>See above for requirements</td>
 	</tr>
 	<tr>
 		<td>Exam 1</td>
 		<td style="text-align: center;">20%</td>
-		<td>In-class portion on ???, possible take-home portion</td>
+		<td>Take-home exam released September 27</td>
 	</tr>
   <tr>
     <td>Exam 2</td>
     <td style="text-align: center;">20%</td>
-    <td>In-class portion on ???, possible take-home portion</td>
+    <td>In-class exam on November 8</td>
+  </tr>
+  <tr>
+    <td>Exam 3</td>
+    <td style="text-align: center;">10%</td>
+    <td>Oral exam during final two weeks of semester</td>
   </tr>
 	<tr>
 		<td>Final Exam</td>
