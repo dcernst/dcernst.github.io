@@ -76,7 +76,7 @@ The notes will be released incrementally. Each link below is to a PDF file.
     - 6.1 The Fundamental Theorem of Arithmetic
     - 6.2 The Irrationality of $\sqrt{2}$
     - 6.3 The Infinitude of Primes
-- [Chapter 6: Relations and Partitions]({{site.baseurl}}/teaching/mat320f21/Relations.pdf)
+- [Chapter 7: Relations and Partitions]({{site.baseurl}}/teaching/mat320f21/Relations.pdf)
     - 7.1 Relations
     - 7.2 Equivalence Relations
     - 7.3 Partitions
