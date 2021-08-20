@@ -40,21 +40,25 @@ We will not be using a traditional textbook this semester, but rather a problem 
 - [Chapter 1: Introduction]({{site.baseurl}}/teaching/mat431f21/Introduction.pdf)
     - 1.1 What is This Course All About?
     - 1.2 An Inquiry-Based Approach
-    - 1.3 Rights of the Learner
-    - 1.4 Your Toolbox, Questions, and Observations
-    - 1.5 Rules of the Game
-    - 1.6 Structure of the Notes
-    - 1.7 Some Minimal Guidance
+    - 1.3 Structure of the Notes
+    - 1.4 Rules of the Game
+    - 1.5 Rights of the Learner
+    - 1.6 Some Minimal Guidance
 - [Chapter 2: Preliminaries]({{site.baseurl}}/teaching/mat431f21/Preliminaries.pdf)
     - 2.1 Sets
-    - 2.2 Functions
-    - 2.3 The Real Numbers
-- [Chapter 3: Sequences and Completeness]({{site.baseurl}}/teaching/mat431f21/Sequences.pdf)
-- [Chapter 4: Standard Topology of the Real Line]({{site.baseurl}}/teaching/mat431f21/Topology.pdf)
-- [Chapter 5: Continuity]({{site.baseurl}}/teaching/mat431f21/Continuity.pdf)
-- [Chapter 6: Limits]({{site.baseurl}}/teaching/mat431f21/Limits.pdf)
-- [Chapter 7: Differentiation]({{site.baseurl}}/teaching/mat431f21/Differentiation.pdf)
-- [Chapter 8: Integration]({{site.baseurl}}/teaching/mat431f21/Integration.pdf)
+    - 2.2 Induction and the Well-Ordering Principle
+    - 2.3 Functions
+- [Chapter 3: Standard Topology of the Real Line]({{site.baseurl}}/teaching/mat431f21/Topology.pdf)
+    - 3.1 The Field Axioms
+    - 3.2 The Order Axioms
+    - 3.3 Absolute Value and the Triangle Inequality
+    - 3.4 Suprema, Infima, and the Completeness Axiom
+    - 3.5 The Archimedean Property
+- Chapter 4: Sequences (coming soon)
+- Chapter 5: Continuity (coming soon)
+- Chapter 6: Limits (coming soon)
+- Chapter 7: Differentiation (coming soon)
+- Chapter 8: Integration (coming soon)
 - [Appendix A: Elements of Style for Proofs]({{site.baseurl}}/teaching/mat431f21/ElementsOfStyle.pdf)
 - [Appendix B: Fancy Mathematical Terms]({{site.baseurl}}/teaching/mat431f21/FancyMathematicalTerms.pdf)
 - [Appendix C: Definitions in Mathematics]({{site.baseurl}}/teaching/mat431f21/Definitions.pdf)
