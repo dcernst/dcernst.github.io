@@ -35,8 +35,8 @@ Reviewing material from previous courses and looking up definitions and theorems
 The following assignments are due at the beginning of the indicated class meeting. However, most assignments will be collected at the end of the class meeting.  I reserve the right to modify the assignment if the need arises.  These exercises will form the basis of the student-led presentations.  During class, you are encouraged to annotate your homework, but **you are required to use a different color than what you used to complete your homework**.
 
 - **Daily Homework 1:** Read the [syllabus]({{site.baseurl}}/teaching/mat320f21/syllabus/) and write down 5 important items.  *Note:*  All of the exam dates only count as a single item.  Turn in on your own paper at the beginning of class. (Due Wednesday, August 25)
-- **Homework 2:** Create a free [Discord](http://discord.com) account, accept the invite to our Discord server, and post something about yourself in the #introductions channel. (Due Wednesday, August 25)
-- **Homework 3:** Read the [Preface]({{site.baseurl}}/teaching/mat320f21/Preface.pdf) and [Introduction]({{site.baseurl}}/teaching/mat320f21/Introduction.pdf). In addition, complete ???. (Due Wednesday, August 25)
+- **Daily Homework 2:** Create a free [Discord](http://discord.com) account, accept the invite to our Discord server, and post something about yourself in the #introductions channel. (Due Wednesday, August 25)
+- **Daily Homework 3:** Read the [Preface]({{site.baseurl}}/teaching/mat320f21/Preface.pdf) and [Introduction]({{site.baseurl}}/teaching/mat320f21/Introduction.pdf). In addition, complete ???. (Due Wednesday, August 25)
 
 ## Weekly Homework ##
 For most of the assignments below, you will be required to submit 2-3 formally written proofs. You are required to type your submission using LaTeX (see below).  You can either submit a hardcopy of your assignment or email me the PDF of your completed work. If you email me the PDF, please name your file as <code>WeeklyX-LastName.pdf</code>, where <code>X</code> is the number of the assignment and <code>LastName</code> is your last name.  Notice there are no spaces in the filename.
