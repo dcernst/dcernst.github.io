@@ -48,17 +48,21 @@ We will not be using a traditional textbook this semester, but rather a problem 
     - 2.1 Sets
     - 2.2 Induction and the Well-Ordering Principle
     - 2.3 Functions
-- [Chapter 3: Standard Topology of the Real Line]({{site.baseurl}}/teaching/mat431f21/Topology.pdf)
+- [Chapter 3: The Real Numbers]({{site.baseurl}}/teaching/mat431f21/RealNumbers.pdf)
     - 3.1 The Field Axioms
     - 3.2 The Order Axioms
     - 3.3 Absolute Value and the Triangle Inequality
     - 3.4 Suprema, Infima, and the Completeness Axiom
     - 3.5 The Archimedean Property
-- Chapter 4: Sequences (coming soon)
-- Chapter 5: Continuity (coming soon)
-- Chapter 6: Limits (coming soon)
-- Chapter 7: Differentiation (coming soon)
-- Chapter 8: Integration (coming soon)
+- [Chapter 4: Standard Topology of the Real Line]({{site.baseurl}}/teaching/mat431f21/Topology.pdf)
+    - 4.1 Open Sets
+    - 4.2 Accumulation Points and Closed Sets
+    - 4.3 Compact and Connected Sets 
+- Chapter 5: Sequences (coming soon)
+- Chapter 6: Continuity (coming soon)
+- Chapter 7: Limits (coming soon)
+- Chapter 8: Differentiation (coming soon)
+- Chapter 9: Integration (coming soon)
 - [Appendix A: Elements of Style for Proofs]({{site.baseurl}}/teaching/mat431f21/ElementsOfStyle.pdf)
 - [Appendix B: Fancy Mathematical Terms]({{site.baseurl}}/teaching/mat431f21/FancyMathematicalTerms.pdf)
 - [Appendix C: Definitions in Mathematics]({{site.baseurl}}/teaching/mat431f21/Definitions.pdf)
