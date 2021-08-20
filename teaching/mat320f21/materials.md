@@ -43,7 +43,7 @@ The notes will be released incrementally. Each link below is to a PDF file.
 <i class="fa fa-exclamation-triangle"></i>&nbsp; These notes are currently under construction and subject to change.
 </div>
 
-<!-- - [An Introduction to Proof via Inquiry-Based Learning]({{site.baseurl}}/teaching/mat320f21/IntroToProof.pdf) (complete set of notes) -->
+- [An Introduction to Proof via Inquiry-Based Learning]({{site.baseurl}}/teaching/mat320f21/IntroToProof.pdf) (complete set of notes, subject to change!)
 
 - [Title Page and Front Matter]({{site.baseurl}}/teaching/mat320f21/FrontMatter.pdf)
 - [Preface]({{site.baseurl}}/teaching/mat320f21/Preface.pdf)
