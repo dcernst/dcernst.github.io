@@ -40,7 +40,7 @@ Reviewing material from previous courses and looking up definitions and theorems
 The following assignments are due at the beginning of the indicated class meeting. However, most assignments will be collected at the end of the class meeting.  I reserve the right to modify the assignment if the need arises.  These exercises will form the basis of the student-led presentations.  During class, you are encouraged to annotate your homework, but **you are required to use a different color than what you used to complete your homework**.
 
 - **Homework 1:** Read the [syllabus]({{site.baseurl}}/teaching/mat431f21/syllabus/) and write down 5 important items. *Note:*  All of the exam dates only count as a single item.  (Due Wednesday, August 25)
-- **Homework 2:** Create a free [Discord](http://discord.com) account, accept the invite to our Discord server, and post something about yourself in the #introductions channel. (Due Wednesday, August 25)
+- **Homework 2:** Create a free [Discord](http://discord.com) account, accept the invite to our Discord server (see welcome message in email), and post something about yourself in the #introductions channel. (Due Wednesday, August 25)
 - **Homework 3:** Read the [Preface]({{site.baseurl}}/teaching/mat431f21/Preface.pdf) and [Introduction]({{site.baseurl}}/teaching/mat431f21/Introduction.pdf). In addition, complete ???. (Due Wednesday, August 25)
 
 <!-- - **Homework 4:** Quickly skim Appendices A, B, and C. In addition, complete 2.16-2.22, 2.24, 2.25, 2.28, 2.30 in [Chapter 2: Preliminaries]({{site.baseurl}}/teaching/mat431f21/Preliminaries.pdf). (Due Friday, January 15)
