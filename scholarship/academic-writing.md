@@ -20,7 +20,7 @@ My interests also include the [scholarship of teaching and learning](http://en.w
 You can find a recent version of my curriculum vitae [here]({{site.baseurl}}/scholarship/CV-Ernst.pdf).
 
 ## In Preparation
-  * Q. Cadman, D.C. Ernst, J. Breland, J. Niemi, J. Sullivan, J. Wright. Structure of braid graphs for reduced words in simply-laced Coxeter systems.
+  * J. Breland, Q. Cadman, D.C. Ernst, J. Niemi, J. Sullivan, J. Wright. Structure of braid graphs for reduced words in simply-laced Coxeter systems.
   * F. Awik, H. Denoncourt, D.C. Ernst, and T. Rosenberg. The reversal poset of signed permutations.
 
   <!-- * R. Davis, D.C. Ernst, and A. Moll. Switch: An impartial game for generating graphs. -->

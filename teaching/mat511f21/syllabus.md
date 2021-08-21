@@ -235,7 +235,7 @@ The problems chosen for presentations will come from the homework assignments. T
 - The purpose of class presentations is not to prove to me that the presenter has done the problem. It is to make the ideas of the solution clear to the other students.
 - Presenters should explain their reasoning as they go along, not simply write everything down and then turn to explain.
 - Fellow students are allowed to ask questions at any point and it is the responsibility of the person making the presentation to answer those questions to the best of their ability.
-- Since the presentation is directed at the students, the presenter should frequently make eye-contact with the students in order to address questions when they arise and also be able to see how well the other students are following the presentation.
+- Since the presentation is directed at the students, the presenter should be prepared to address questions when they arise.
 
 <blockquote>
 <p>Alone we can do so little; together we can do so much.</p>
