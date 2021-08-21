@@ -16,7 +16,8 @@ My interests also include the [scholarship of teaching and learning](http://en.w
 ## Additional Information
 
   * [Academic Writing]({{ site.baseurl }}/scholarship/academic-writing/)
-  * [Undergraduate Research]({{ site.baseurl }}/scholarship/undergraduate-research/)
-  * [Talks]({{ site.baseurl }}/scholarship/talks/)
+  * [My Curriculum Vitae]({{ site.baseurl }}/scholarship/CV-Ernst.pdf)
+  * [Undergraduate Research]({{ site.baseurl }}/scholarship/undergraduate-research/) (a little outdated)
+  * [My Talks]({{ site.baseurl }}/scholarship/talks/)
   * [Math Ed Matters](http://maamathedmatters.blogspot.com/)
   * [Teaching Tidbits](http://maateachingtidbits.blogspot.com)
