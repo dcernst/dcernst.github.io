@@ -57,6 +57,9 @@ You can find a recent version of my curriculum vitae [here]({{site.baseurl}}/sch
   * B. Beaudrie, D.C. Ernst, and B. Boschmans. Redesigning an Algebra for Precalculus Course. In *Proceedings of World Conference on E-Learning in Corporate, Government, Healthcare, and Higher Education*, T. Bastiaens & G. Marks (Eds.), 2013. Chesapeake, VA: AACE. [[EdITLib](http://www.editlib.org/p/115001/)]
   * B. Beaudrie, B. Boschmans, and D.C. Ernst. First Semester Experiences in Implementing a Mathematics Emporium Model. In *Proceedings of Society for Information Technology & Teacher Education International Conference*, R. McBride & M. Searson (Eds.), 2013. Chesapeake, VA: AACE. [[EdITLib](http://www.editlib.org/p/48098)]
 
+## Other
+  * D. Daly et al. AIBL Handbook for Online Professional Development: Lessons Learned from PRODUCT Workshops. Ethnography & Evaluation Research, & the Academy of Inquiry Based Learning. Boulder, CO, and San Luis Obispo, CA: University of Colorado Boulder, Ethnography & Evaluation Research; and Academy of Inquiry Based Learning. [[ePrint](https://tinyurl.com/AIBLHandbook)]
+
 ## Open-Source Books
 Below is a list of course materials that I have written to be used with an [inquiry-based learning](http://maamathedmatters.blogspot.com/2013/05/what-heck-is-ibl.html) (IBL) approach.
 
