@@ -15,7 +15,7 @@ title: Course Materials
 <div class="col-xs-12">
 <div class="btn-group btn-group-justified">
 <a class="btn btn-default btn-success" href="{{site.baseurl}}/teaching/mat511f21/syllabus/">Syllabus</a>
-<a class="btn btn-default btn-primary" href="{{site.baseurl}}/teaching/mat511f21/materials/">Materials</a>
+<a class="btn btn-default btn-primary" href="{{site.baseurl}}/teaching/mat511f21/materials/">Course Materials</a>
 <a class="btn btn-default btn-warning" href="{{site.baseurl}}/teaching/mat511f21/homework/">Homework</a>
 </div>
 </div>
