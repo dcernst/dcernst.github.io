@@ -21,17 +21,14 @@ title: Course Materials
 </div>
 </div>
 
-## Course Materials ##
+## Problem Sequence ##
 We will not be using a traditional textbook this semester, but rather a problem sequence adopted for an [inquiry-based learning](http://maamathedmatters.blogspot.com/2013/05/what-heck-is-ibl.html) (IBL) approach to abstract algebra. The problem sequence will be written by me on the fly. The problems will be released incrementally. Each link below is to a PDF file.
 
 <div class="alert alert-info" role="alert" style="margin: 10px 0 10px 0">
 <i class="fa fa-exclamation-triangle"></i>&nbsp; These notes are currently under construction and subject to change.
 </div>
 
-- Coming soon.
-- [Appendix A: Elements of Style for Proofs]({{site.baseurl}}/teaching/mat511f21/ElementsOfStyle.pdf)
-- [Appendix B: Fancy Mathematical Terms]({{site.baseurl}}/teaching/mat511f21/FancyMathematicalTerms.pdf)
-- [Appendix C: Definitions in Mathematics]({{site.baseurl}}/teaching/mat511f21/Definitions.pdf)
+- [Problem Sequence for MAT 511]({{ site.baseurl }}/teaching/mat232f20/511ProblemSequence.pdf) (PDF)
 
 I will not be covering every detail of the notes and the only way to achieve a sufficient understanding of the material is to be digesting the reading in a meaningful way.  You should be seeking clarification about the content of the notes whenever necessary by asking questions.  Here's one of my favorite quotes about reading mathematics.
 
