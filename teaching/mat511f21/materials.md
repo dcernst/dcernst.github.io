@@ -28,7 +28,7 @@ We will not be using a traditional textbook this semester, but rather a problem 
 <i class="fa fa-exclamation-triangle"></i>&nbsp; These notes are currently under construction and subject to change.
 </div>
 
-- [Problem Sequence for MAT 511]({{ site.baseurl }}/teaching/mat232f20/511ProblemSequence.pdf) (PDF)
+- [Problem Sequence for MAT 511]({{ site.baseurl }}/teaching/mat511f21/511ProblemSequence.pdf) (PDF)
 
 I will not be covering every detail of the notes and the only way to achieve a sufficient understanding of the material is to be digesting the reading in a meaningful way.  You should be seeking clarification about the content of the notes whenever necessary by asking questions.  Here's one of my favorite quotes about reading mathematics.
 
