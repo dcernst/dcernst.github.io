@@ -46,7 +46,7 @@ Welcome to the course web page for the Fall 2021 manifestation of MAT 431: Intro
       <h2>Instructor Info</h2>
       <i class="fa fa-user fa-fw"></i>&nbsp; Dana C. Ernst, PhD<br />
       <i class="fa fa-university fa-fw"></i>&nbsp; AMB 176<br />
-      <i class="fa fa-users fa-fw"></i>&nbsp; MWF 2:00-3:00, TTh 10:00-11:00<br />
+      <i class="fa fa-users fa-fw"></i>&nbsp; MW 2:00-3:00, T 10:00-12:00, Th 10:00-11:00<br />
       <i class="far fa-envelope fa-fw"></i>&nbsp; <a href="mailto:dana.ernst@nau.edu">dana.ernst@nau.edu</a><br />
       <i class="fa fa-phone fa-fw"></i>&nbsp; 928.523.6852<br />
       <i class="fa fa-link fa-fw"></i>&nbsp; <a href="{{site.baseurl}}">danaernst.com</a>
