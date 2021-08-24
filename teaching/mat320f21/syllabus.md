@@ -554,7 +554,7 @@ Here are some important dates:
 - **September 6:** Labor Day (no classes)
 - **October 22:** Last day to withdraw from individual courses without a petition
 - **November 11** Veteran's Day (no classes)
-- **November 25-25:** Thanksgiving (no classes)
+- **November 25-26:** Thanksgiving (no classes)
 - **November 29:** Last day to withdraw from all classes
 - **December 8:** Final Exam (7:30-9:30AM)
 
