@@ -193,7 +193,7 @@ Reviewing material from previous courses and looking up definitions and theorems
 ### Homework ###
 
 #### General Comments
-You are allowed and encouraged to work together on homework.  However, each student is expected to turn in their own work.  In general, late homework will *not* be accepted.  However, you are allowed to turn in **three late homework assignments**. Unless you have made arrangements in advance with me, homework turned in after class will be considered late. When doing your homework, I encourage you to consult the [Elements of Style for Proofs]({{site.baseurl}}/teaching/ElementsOfStyle.pdf). Your overall homework grade will be worth 15% of your final grade.
+You are allowed and encouraged to work together on homework.  However, each student is expected to turn in their own work.  In general, late homework will *not* be accepted.  However, you are allowed to turn in **three late homework assignments**. Unless you have made arrangements in advance with me, homework turned in after class will be considered late. When doing your homework, I encourage you to consult the [Elements of Style for Proofs]({{site.baseurl}}/teaching/ElementsOfStyle.pdf). Your overall homework grade will be worth 20% of your final grade.
 
 On each homework assignment, please write (i) your name, (ii) name of course, and (iii) Daily/Weekly Homework number.  You can find the list of assignments on the [homework page]({{site.baseurl}}/teaching/mat320f21/homework/).  I reserve the right to modify the homework assignments as I see necessary.
 
@@ -466,7 +466,7 @@ Your Presentation and Participation grade is determined by your frequency and ab
 </table>
 </center>
 
-I anticipate that most students will fall in the 80-89% range. Your Presentation and Participation grade is worth 15% of your overall grade.
+I anticipate that most students will fall in the 80-89% range. Your Presentation and Participation grade is worth 20% of your overall grade.
 
 <blockquote>
 <p>I must not fear.<br />
