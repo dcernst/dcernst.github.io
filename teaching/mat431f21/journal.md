@@ -36,7 +36,7 @@ We’ll use this page to keep track of what has happened each day in class. It w
 ## Week 1 ##
 <ul class="fa-ul">
   <li><i class="fa-li far fa-calendar-check"></i><b>Monday, August 23:</b> First Day!  After attempting to learn names, we spent some time discussing what the course is all about and how the course will be structured. We also took a quick tour of the course webpage.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, August 25:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, August 25:</b> After fielding some questions about course structure, I divided the class up into several small groups.  Each group discussed the problems they chose to review and then generated a list of problems and/or topics they felt they needed more review on. After collecting the list of potential review topics, we jumped in and started discussing a few of them. We'll continue doing this on Friday.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Friday, August 27:</b> Coming soon.</li>
 </ul>
 

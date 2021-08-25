@@ -35,8 +35,8 @@ We’ll use this page to keep track of what has happened each day in class. It w
 
 ## Week 1 ##
 <ul class="fa-ul">
-  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, August 23:</b> First Day!  After attempting to learn names, we spent some time discussing what the course is all about and how the course will be structured. We also took a quick tour of the course webpage.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, August 25:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, August 23:</b> First Day!  After attempting to learn names, we spent some time discussing what the course is all about and how the course will be structured. We also took a quick tour of the course webpage. We spent the last few minutes of class sketching proofs of Theorems 2.2 and 2.3.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, August 25:</b> After fielding some questions about course structure, I spent some time reviewing some definitions and notation. Next, we revisited Theorem 2.2 and wrote down a detailed and careful proof. With the time we had left, SR wrote down a solution to Problem 2.4(a), but unfortunately, we didn't really have time to dig in.  We'll revisit this one next time.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Friday, August 27:</b> Coming soon.</li>
 </ul>
 
