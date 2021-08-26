@@ -22,11 +22,11 @@ title: Course Materials
 </div>
 
 ## Problem Sequence ##
-We will not be using a traditional textbook this semester, but rather a problem sequence adopted for an [inquiry-based learning](http://maamathedmatters.blogspot.com/2013/05/what-heck-is-ibl.html) (IBL) approach to abstract algebra. The problem sequence will be written by me on the fly. The problems will be released incrementally. Each link below is to a PDF file.
+We will not be using a traditional textbook this semester, but rather a problem sequence adopted for an [inquiry-based learning](http://maamathedmatters.blogspot.com/2013/05/what-heck-is-ibl.html) (IBL) approach to abstract algebra. The problem sequence will be written by me on the fly. The problems will be released incrementally.
 
-<div class="alert alert-info" role="alert" style="margin: 10px 0 10px 0">
+<!-- <div class="alert alert-info" role="alert" style="margin: 10px 0 10px 0">
 <i class="fa fa-exclamation-triangle"></i>&nbsp; These notes are currently under construction and subject to change.
-</div>
+</div> -->
 
 - [Problem Sequence for MAT 511]({{ site.baseurl }}/teaching/mat511f21/511ProblemSequence.pdf) (PDF)
 
