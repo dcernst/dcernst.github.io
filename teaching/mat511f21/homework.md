@@ -34,4 +34,4 @@ The following assignments are due at the beginning of the indicated class meetin
 - **Homework 3:** Complete 1.2-1.5, 1.7-1.9 in the [Problem Sequence for MAT 511]({{ site.baseurl }}/teaching/mat511f21/511ProblemSequence.pdf). (Due Wednesday, August 25)
 - **Homework 4:** Complete 1.10, 1.12-1.15, 1.17 in the [Problem Sequence for MAT 511]({{ site.baseurl }}/teaching/mat511f21/511ProblemSequence.pdf) and digest the surrounding text along the way. (Due Friday, August 27)
 - **Homework 5:** Complete 1.18-1.24 in the [Problem Sequence for MAT 511]({{ site.baseurl }}/teaching/mat511f21/511ProblemSequence.pdf) and digest the surrounding text along the way. (Due Monday, August 30)
-- **Homework 6:** Complete 1.25-1.29 in the [Problem Sequence for MAT 511]({{ site.baseurl }}/teaching/mat511f21/511ProblemSequence.pdf) and digest the surrounding text along the way. (Due Wednesday, September 1)
+- **Homework 6:** Complete 1.25-1.28 in the [Problem Sequence for MAT 511]({{ site.baseurl }}/teaching/mat511f21/511ProblemSequence.pdf) and digest the surrounding text along the way. (Due Wednesday, September 1)
