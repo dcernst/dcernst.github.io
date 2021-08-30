@@ -42,7 +42,7 @@ We’ll use this page to keep track of what has happened each day in class. It w
 
 ## Week 2 ##
 <ul class="fa-ul">
-  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, August 30:</b> We kicked off class with a quick discussion of LaTeX and how to do Weekly Homework 1.  Next, we had SC, PB, NH, AR, JO, and AC present Problems 2.6, 2.7, 2.8(a), 2.8(b), 2.8(c), and 2.11, respectivley. Before class I wrote the proofs for Problems 2.9 and 2.10 on the board.  We quickly discussed these before AC presented.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, August 30:</b> We kicked off class with a quick discussion of LaTeX and how to do Weekly Homework 1.  Next, we had SC, PB, and NH present Problems 2.6, 2.7, and 2.8(a), respectivley. Before class I wrote the proofs for Problems 2.9 and 2.10 on the board, but we ended up not having time to discuss them.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, September 1:</b> Coming soon.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Friday, September 3:</b> Coming soon.</li>
 </ul>
