@@ -129,6 +129,8 @@ If you've found an error or have suggestions for improvements, please let me kno
 - [What is Mathematics? The Most Misunderstood Subject](https://www.fordham.edu/info/20603/what_math) (short article by Dr. Robert H. Lewis, Professor of Mathematics, Fordham University)
 - Pictures of board work that we ran out of time to discuss. *Note:* You should not assume that the solutions/proofs posted below are valid or sufficient.
     - [Problem 2.4(a)]({{ site.baseurl }}/teaching/mat320f21/Problem2.4a.jpg)
+    - [Corollary 2.9]({{ site.baseurl }}/teaching/mat320f21/Corollary2.9.jpg)
+    - [Theorem 2.10)]({{ site.baseurl }}/teaching/mat320f21/Theorem2.10.jpg)
 
 ## Exams
 Below are links to the take-home portions of each exam. If you are interested in using LaTeX to type up your solutions, contact me and I will send you a link to the source file of the exam.
