@@ -43,3 +43,4 @@ The following assignments are due at the beginning of the indicated class meetin
 - **Homework 6:** Complete Problems 3.15 and 3.16 from [Chapter 3: The Real Numbers]({{site.baseurl}}/teaching/mat431f21/RealNumbers.pdf). (Due Wednesday, September 1)
 - **Homework 7:** Complete Problems 3.18-3.22 from [Chapter 3: The Real Numbers]({{site.baseurl}}/teaching/mat431f21/RealNumbers.pdf). In addition, read and digest Problem 3.17, which you can take for granted moving forward. (Due Friday, September 3)
 - **Homework 8:** Complete Problems 3.23, 3.25, 3.28, 3.30 from [Chapter 3: The Real Numbers]({{site.baseurl}}/teaching/mat431f21/RealNumbers.pdf). In addition, read and digest Problems 3.26, 3.27, and 3.29, which you can take for granted moving forward. (Due Wednesday, September 8)
+- **Homework 9:** Complete Problems 3.31-3.35 from [Chapter 3: The Real Numbers]({{site.baseurl}}/teaching/mat431f21/RealNumbers.pdf). (Due Friday, September 10)
