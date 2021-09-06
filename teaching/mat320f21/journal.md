@@ -44,5 +44,12 @@ We’ll use this page to keep track of what has happened each day in class. It w
 <ul class="fa-ul">
   <li><i class="fa-li far fa-calendar-check"></i><b>Monday, August 30:</b> We kicked off class with a quick discussion of LaTeX and how to do Weekly Homework 1.  Next, we had SC, PB, and NH present Problems 2.6, 2.7, and 2.8(a), respectivley. Before class I wrote the proofs for Problems 2.9 and 2.10 on the board, but we ended up not having time to discuss them.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, September 1:</b> We almost got caught up.  We had AR, JO, AC, RM, and KC present Problem 2.8(b), Problem 2.8(c), Theorem 2.11, Problem 2.12(a), and Problem 2.12(b), respectively. Along the way, I presented Corollary 2.9 and Theorem 2.10.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, September 3:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, September 3:</b> After a quick discussion of an alternate approach to Problem 2.12(b), we had KB, SR, MT, and PB/JO present Problem 2.12(c), Theorem 2.13, Theorem 2.14, and Theorem 2.15, respectively.</li>
+</ul>
+
+## Week 3 ##
+<ul class="fa-ul">
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, September 6:</b> Labor Day. No classes!</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, September 8:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, September 10:</b> Coming soon.</li>
 </ul>

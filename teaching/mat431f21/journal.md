@@ -44,5 +44,12 @@ We’ll use this page to keep track of what has happened each day in class. It w
 <ul class="fa-ul">
   <li><i class="fa-li far fa-calendar-check"></i><b>Monday, August 30:</b> Week 2! Next, we had LS, FB, LK, and PK present Problems 3.4, 3.8(c), 3.8(d), and 3.8(e), respectively. Along the way, I presented Problems 3.8(a) and 3.8(b).</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, September 1:</b> We finally got caught up! We had GM, LH, BH, MH, and MW present Problems 3.8(g), 3.13, 3.14, 3.15, and 3.16, respectively.  Along the way, I presented Problems 3.8(h) and 3.9.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, September 3:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, September 3:</b> Another awesome day!  Super happy with how things are going.  We had KF, BR, TB, TW, and AR present Problems 3.18(forward implication), 3.18(reverse implication), 3.19, and 3.21, respectively.</li>
+</ul>
+
+## Week 3 ##
+<ul class="fa-ul">
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, September 6:</b> Labor Day. No classes!</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, September 8:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, September 10:</b> Coming soon.</li>
 </ul>
