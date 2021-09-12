@@ -53,3 +53,10 @@ We’ll use this page to keep track of what has happened each day in class. It w
   <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, September 8:</b> We had KD/LH, MA, HJ, and JE present Problems 3.23, 3.25, 3.28, and 3.30, respectively.  Along the way, we discussed Problems 3.26, 3.27, and 3.29.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Friday, September 10:</b> Coming soon.</li>
 </ul>
+
+## Week 4 ##
+<ul class="fa-ul">
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, September 13:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, September 15:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, September 17:</b> Coming soon.</li>
+</ul>

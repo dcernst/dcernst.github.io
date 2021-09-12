@@ -53,3 +53,10 @@ We’ll use this page to keep track of what has happened each day in class. It w
   <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, September 8:</b> We spent 15-20 minutes discussing LaTeX so that students would be able to attack Weekly Homework 1.  Next, we discussed Problems 2.17 and 2.19 together.  With the time we had left, we had KB and BT present Problems 2.22(ab) and 2.22(c), respectively.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Friday, September 10:</b> Coming soon.</li>
 </ul>
+
+## Week 4 ##
+<ul class="fa-ul">
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, September 13:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, September 15:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, September 17:</b> Coming soon.</li>
+</ul>
