@@ -51,7 +51,7 @@ We’ll use this page to keep track of what has happened each day in class. It w
 <ul class="fa-ul">
   <li><i class="fa-li far fa-calendar-check"></i><b>Monday, September 6:</b> Labor Day. No classes!</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, September 8:</b> We spent 15-20 minutes discussing LaTeX so that students would be able to attack Weekly Homework 1.  Next, we discussed Problems 2.17 and 2.19 together.  With the time we had left, we had KB and BT present Problems 2.22(ab) and 2.22(c), respectively.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, September 10:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, September 10:</b> We kicked off by splitting the class up into several small groups.  Each group was responsible for coming to consensus of a designated homework problem.  After a few minutes, we had AC, JO, SC, AR, and MB present Problem 2.22(d), Problem 2.24, Theorem 2.25, Theorem 2.26, and Problem 2.27, respectively. With the time we had left, we discussed the majority of the upcoming homework.</li>
 </ul>
 
 ## Week 4 ##
