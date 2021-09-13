@@ -56,7 +56,7 @@ We’ll use this page to keep track of what has happened each day in class. It w
 
 ## Week 4 ##
 <ul class="fa-ul">
-  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, September 13:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, September 13:</b> We has SC, KC, and NH present Theorem 2.30, Problem 2.38, and Theorem 2.39, respectively. This went pretty quickly and then we discussed content up through Skeleton Proof 2.49.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, September 15:</b> Coming soon.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Friday, September 17:</b> Coming soon.</li>
 </ul>

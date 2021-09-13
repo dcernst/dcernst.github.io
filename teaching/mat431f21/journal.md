@@ -56,7 +56,7 @@ We’ll use this page to keep track of what has happened each day in class. It w
 
 ## Week 4 ##
 <ul class="fa-ul">
-  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, September 13:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, September 13:</b> After discussing Definition 3.36, Problem 3.37, Definition 3.39, and Definition 3.40, we had KF, MW, GM, HJ, AR, and BH present Problems 3.38/3.42(ab), 3.38/3.42(cd), 3.38/3.42(ef), 3.38/3.42(gh), 3.38/3.42(ij), and 3.41, respectively. We had a very lively discussion about whether infinity was a point on the real line and what we should take for the supremum of the empty set.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, September 15:</b> Coming soon.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Friday, September 17:</b> Coming soon.</li>
 </ul>
