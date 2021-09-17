@@ -46,6 +46,7 @@ The following assignments are due at the beginning of the indicated class meetin
 - **Daily Homework 10:** Complete 2.28-2.30, 2.32, 2.34, 2.35, 2.37-2.39 in [Chapter 2: Mathematics and Logic]({{site.baseurl}}/teaching/mat320f21/MathAndLogic.pdf) and digest the surrounding text along the way. (Due Monday, September 13)
 - **Daily Homework 11:** Complete 2.50-2.52, 2.55, 2.56 in [Chapter 2: Mathematics and Logic]({{site.baseurl}}/teaching/mat320f21/MathAndLogic.pdf) and digest the surrounding text along the way. (Due Wednesday, September 15)
 - **Daily Homework 12:** Complete 2.57-2.59, 2.61-2.64 in [Chapter 2: Mathematics and Logic]({{site.baseurl}}/teaching/mat320f21/MathAndLogic.pdf) and digest the surrounding text along the way. (Due Friday, September 17)
+- **Daily Homework 13:** Complete 2.66-2.73 in [Chapter 2: Mathematics and Logic]({{site.baseurl}}/teaching/mat320f21/MathAndLogic.pdf) and digest the surrounding text along the way. (Due Monday, September 20)
 
 ## Weekly Homework ##
 For most of the assignments below, you will be required to submit 2-3 formally written proofs. You are required to type your submission using LaTeX (see below). You can either submit a hardcopy of your assignment or email me the PDF of your completed work. If you email me the PDF, please name your file as <code>WeeklyX-LastName.pdf</code>, where <code>X</code> is the number of the assignment and <code>LastName</code> is your last name.  Notice there are no spaces in the filename.

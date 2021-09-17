@@ -47,3 +47,4 @@ The following assignments are due at the beginning of the indicated class meetin
 - **Homework 10:** Complete Problems 3.37, 3.38, 3.41-3.43 from [Chapter 3: The Real Numbers]({{site.baseurl}}/teaching/mat431f21/RealNumbers.pdf).  (Due Monday, September 13)
 - **Homework 11:** Complete Problems 3.44, 3.45, 3.47, 3.48 from [Chapter 3: The Real Numbers]({{site.baseurl}}/teaching/mat431f21/RealNumbers.pdf).  (Due Wednesday, September 15)
 - **Homework 12:** Complete Problems 3.49(a or b), 3.50(a or b), 3.51, 3.52 from [Chapter 3: The Real Numbers]({{site.baseurl}}/teaching/mat431f21/RealNumbers.pdf).  (Due Friday, September 17)
+- **Homework 13:** Complete Problems 3.53-3.56 from [Chapter 3: The Real Numbers]({{site.baseurl}}/teaching/mat431f21/RealNumbers.pdf).  (Due Monday, September 20)
