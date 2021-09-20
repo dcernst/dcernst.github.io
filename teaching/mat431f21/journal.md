@@ -58,5 +58,12 @@ We’ll use this page to keep track of what has happened each day in class. It w
 <ul class="fa-ul">
   <li><i class="fa-li far fa-calendar-check"></i><b>Monday, September 13:</b> After discussing Definition 3.36, Problem 3.37, Definition 3.39, and Definition 3.40, we had KF, MW, GM, HJ, AR, and BH present Problems 3.38/3.42(ab), 3.38/3.42(cd), 3.38/3.42(ef), 3.38/3.42(gh), 3.38/3.42(ij), and 3.41, respectively. We had a very lively discussion about whether infinity was a point on the real line and what we should take for the supremum of the empty set.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, September 15:</b> Today was an intense day.  We covered a lot of ground and all of it was pretty serious.  We had MA, LK, RP, BR, and LH present Problems 3.43(forward), 3.43(reverse), 3.44(forward), 3.44(reverse), and 3.47, respectively. We discussed Problem 3.45 along the way. We should revisit 3.47 on Friday.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, September 17:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, September 17:</b> We began by revisiting Problem 3.47.  We summarized a potential approach that JE proposed and reviewed LH's proof from last week (but with new notation).  Next, I proved Problem 3.48(a) and outlined part (b), as well as the cases involving inf.  We the time we had left, I proved Problem 3.49.</li>
+</ul>
+
+## Week 5 ##
+<ul class="fa-ul">
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, September 20:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, September 22:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, September 24:</b> Coming soon.</li>
 </ul>

@@ -58,5 +58,12 @@ We’ll use this page to keep track of what has happened each day in class. It w
 <ul class="fa-ul">
   <li><i class="fa-li far fa-calendar-check"></i><b>Monday, September 13:</b> We has SC, KC, and NH present Theorem 2.30, Problem 2.38, and Theorem 2.39, respectively. This went pretty quickly and then we discussed content up through Skeleton Proof 2.49.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, September 15:</b> We split the class up into several small groups and then had SR, MT, PB, JO, and BT present Theorem 2.51, Theorem 2.52, Problem 2.55(a), Problem 2.55(b), and Theorem 2.56, respectively.  We also discussed the structure of a proof by contradiction and had a quick discussion of Problem 2.50.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, September 17:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, September 17:</b> After proving Theorem 2.57, we had JO, PB, and MT present Problems 2.58, 2.59, and 2.61, respectively.</li>
+</ul>
+
+## Week 5 ##
+<ul class="fa-ul">
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, September 20:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, September 22:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, September 24:</b> Coming soon.</li>
 </ul>
