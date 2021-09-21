@@ -63,7 +63,7 @@ We’ll use this page to keep track of what has happened each day in class. It w
 
 ## Week 5 ##
 <ul class="fa-ul">
-  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, September 20:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, September 20:</b> We had JE, FB, PK, LS, and TW present Problems 3.50(a), 3.51, 3.52, 3.53, and 3.54, respectively.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, September 22:</b> Coming soon.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Friday, September 24:</b> Coming soon.</li>
 </ul>

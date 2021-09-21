@@ -63,7 +63,7 @@ We’ll use this page to keep track of what has happened each day in class. It w
 
 ## Week 5 ##
 <ul class="fa-ul">
-  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, September 20:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, September 20:</b> We had JB and SR present parts of Problem 2.63 and then we tackled Problems 2.64 and 2.66-2.68 together.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, September 22:</b> Coming soon.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Friday, September 24:</b> Coming soon.</li>
-</ul> 
+</ul>
