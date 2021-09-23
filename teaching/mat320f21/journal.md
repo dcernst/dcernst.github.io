@@ -64,6 +64,6 @@ We’ll use this page to keep track of what has happened each day in class. It w
 ## Week 5 ##
 <ul class="fa-ul">
   <li><i class="fa-li far fa-calendar-check"></i><b>Monday, September 20:</b> We had JB and SR present parts of Problem 2.63 and then we tackled Problems 2.64 and 2.66-2.68 together.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, September 22:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, September 22:</b> We covered quite a bit of ground today.  After discussing Problems 2.70 and 2.71 together, we had RM and KB present Problems 2.72 and 2.73, respectively.  Then we cranked through Problem 2.75, Theorem 2.76, and Problems 2.77 and 2.78.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Friday, September 24:</b> Coming soon.</li>
 </ul>

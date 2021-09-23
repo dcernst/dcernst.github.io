@@ -64,6 +64,6 @@ We’ll use this page to keep track of what has happened each day in class. It w
 ## Week 5 ##
 <ul class="fa-ul">
   <li><i class="fa-li far fa-calendar-check"></i><b>Monday, September 20:</b> We had JE, FB, PK, LS, and TW present Problems 3.50(a), 3.51, 3.52, 3.53, and 3.54, respectively.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, September 22:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, September 22:</b> After a brief discussion of upcoming exam, we had MH and BH present Problems 3.55 and 3.56, respectively.  Next, we discussed the big picture of Chapter 4 and provided some analogies for understanding the definition of "open set". We then discussed Problems 4.2 and 4.3 together.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Friday, September 24:</b> Coming soon.</li>
 </ul>
