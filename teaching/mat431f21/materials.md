@@ -57,8 +57,12 @@ We will not be using a traditional textbook this semester, but rather a problem 
 - [Chapter 4: Standard Topology of the Real Line]({{site.baseurl}}/teaching/mat431f21/Topology.pdf)
     - 4.1 Open Sets
     - 4.2 Accumulation Points and Closed Sets
-    - 4.3 Compact and Connected Sets 
-- Chapter 5: Sequences (coming soon)
+    - 4.3 Compact and Connected Sets
+- [Chapter 5: Sequences]({{site.baseurl}}/teaching/mat431f21/Sequences.pdf)
+    - 5.1 Introduction to Sequences
+    - 5.2 Properties of Convergent Sequences
+    - 5.3 Monotone Convergence Theorem
+    - 5.4 Subsequences and the Bolzano--Weierstrass Theorem
 - Chapter 6: Continuity (coming soon)
 - Chapter 7: Limits (coming soon)
 - Chapter 8: Differentiation (coming soon)
