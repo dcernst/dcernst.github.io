@@ -65,5 +65,12 @@ We’ll use this page to keep track of what has happened each day in class. It w
 <ul class="fa-ul">
   <li><i class="fa-li far fa-calendar-check"></i><b>Monday, September 20:</b> We had JB and SR present parts of Problem 2.63 and then we tackled Problems 2.64 and 2.66-2.68 together.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, September 22:</b> We covered quite a bit of ground today.  After discussing Problems 2.70 and 2.71 together, we had RM and KB present Problems 2.72 and 2.73, respectively.  Then we cranked through Problem 2.75, Theorem 2.76, and Problems 2.77 and 2.78.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, September 24:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, September 24:</b> After MB and NH presented Problems 2.79 and 2.80, respectively, we divided the class up into several small groups. After a few minutes, we had SC, MT, RM, KC, PB, JB, NH, and JO present parts (a) through (h), respectively, of Problem 2.86. We will wrap up the stuff we didn't get to next time.</li>
+</ul>
+
+## Week 6 ##
+<ul class="fa-ul">
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, September 27:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, September 29:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, October 1:</b> Coming soon.</li>
 </ul>
