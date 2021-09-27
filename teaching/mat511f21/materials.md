@@ -69,6 +69,6 @@ I will not be covering every detail of the notes and the only way to achieve a s
     - Coming soon. -->
 
 ## Exams
-Below are links to the take-home portions of each exam. If you are interested in using LaTeX to type up your solutions, contact me and I will send you a link to the source file of the exam.
+Below are links to take-home exams. If you are interested in using LaTeX to type up your solutions, simply replace .pdf with .tex in the URL.
 
-- Exam 1 (Part 2): Coming soon.
+- [Exam 1]({{site.baseurl}}/teaching/mat511f21/511Exam1.pdf) (PDF) (Due by 11:59PM on Tuesday, October 5)
