@@ -71,6 +71,6 @@ We’ll use this page to keep track of what has happened each day in class. It w
 ## Week 6 ##
 <ul class="fa-ul">
   <li><i class="fa-li far fa-calendar-check"></i><b>Monday, September 27:</b> The students took the in-class portion of Exam 1.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, September 29:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, September 29:</b> I spent the entire class session lecturing.  I covered 4.11-4.27(a).</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Friday, October 1:</b> Coming soon.</li>
 </ul>

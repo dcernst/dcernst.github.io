@@ -71,6 +71,6 @@ We’ll use this page to keep track of what has happened each day in class. It w
 ## Week 6 ##
 <ul class="fa-ul">
   <li><i class="fa-li far fa-calendar-check"></i><b>Monday, September 27:</b> We kicked off with KB presenting Problem 2.86(i) and then we discussed Problem 2.87 and Theorem 2.88 together.  Next, NH presented Theorem 2.91 and I buttoned it up. With the few minutes we had left, we briefly discussed the first couple definitions in Chapter 3.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, September 29:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, September 29:</b> I discussed 3.2-3.8 and then KC presented Problem 3.9. We will tackle Theorem 3.10 next time.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Friday, October 1:</b> Coming soon.</li>
 </ul>
