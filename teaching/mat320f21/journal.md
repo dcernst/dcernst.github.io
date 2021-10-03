@@ -74,3 +74,10 @@ We’ll use this page to keep track of what has happened each day in class. It w
   <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, September 29:</b> I discussed 3.2-3.8 and then KC presented Problem 3.9. We will tackle Theorem 3.10 next time.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Friday, October 1:</b> Coming soon.</li>
 </ul>
+
+## Week 7 ##
+<ul class="fa-ul">
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, October 4:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, Octocer 6:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, October 8:</b> Coming soon.</li>
+</ul>
