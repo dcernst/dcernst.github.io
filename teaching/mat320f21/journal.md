@@ -72,7 +72,7 @@ We’ll use this page to keep track of what has happened each day in class. It w
 <ul class="fa-ul">
   <li><i class="fa-li far fa-calendar-check"></i><b>Monday, September 27:</b> We kicked off with KB presenting Problem 2.86(i) and then we discussed Problem 2.87 and Theorem 2.88 together.  Next, NH presented Theorem 2.91 and I buttoned it up. With the few minutes we had left, we briefly discussed the first couple definitions in Chapter 3.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, September 29:</b> I discussed 3.2-3.8 and then KC presented Problem 3.9. We will tackle Theorem 3.10 next time.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, October 1:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, October 1:</b> We first had SR present Theorem 3.10.  Next, we marched through MB, KB, JB, PB, RM, KC, MT, and SC presenting Problems 3.16(abc), 3.16(def), 3.16(ghi), 3.16(j)/3.17(ab), 3.17(cde), 3.17(fgh), 3.17(i)/3.18(a), and 3.18(bc), respectively.  Along the way, I presented Theorem 3.12.</li>
 </ul>
 
 ## Week 7 ##
