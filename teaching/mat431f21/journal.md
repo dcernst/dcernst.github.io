@@ -72,12 +72,12 @@ We’ll use this page to keep track of what has happened each day in class. It w
 <ul class="fa-ul">
   <li><i class="fa-li far fa-calendar-check"></i><b>Monday, September 27:</b> The students took the in-class portion of Exam 1.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, September 29:</b> I spent the entire class session lecturing.  I covered 4.11-4.27(a).</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, October 1:</b> More lecturing. We reviewed open, accumulation point, and closed and then I did a first pass throught the concepts of compact, disconnect, connected, and sequences.  We will circle back and dig in more deeply on Monday.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, October 1:</b> More lecturing. We reviewed open, accumulation point, and closed and then I did a first pass throught the concepts of compact, disconnected, connected, and sequences.  We will circle back and dig in more deeply on Monday.</li>
 </ul>
 
 ## Week 7 ##
 <ul class="fa-ul">
-  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, October 4:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, October 4:</b> Last day of lecturing before the take-home portion of Exam 1 is due.  I reviewed the concepts of open, accumulation point, closed, compact, disconnected, connected, and sequences and then worked through Problems 5.11, 5.13, and 5.14.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, Octocer 6:</b> Coming soon.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Friday, October 8:</b> Coming soon.</li>
 </ul>
