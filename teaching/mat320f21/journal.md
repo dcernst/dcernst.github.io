@@ -78,6 +78,6 @@ We’ll use this page to keep track of what has happened each day in class. It w
 ## Week 7 ##
 <ul class="fa-ul">
   <li><i class="fa-li far fa-calendar-check"></i><b>Monday, October 4:</b> The students took the in-class portion of Exam 1.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, Octocer 6:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, Octocer 6:</b> I lectured today. We discussed Theorem 3.21 through Problem 3.26</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Friday, October 8:</b> Coming soon.</li>
 </ul>
