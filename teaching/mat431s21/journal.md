@@ -85,7 +85,7 @@ We’ll use this page to keep track of what has happened each day in class. It w
 
 <ul class="fa-ul">
   <li><i class="fa-li far fa-calendar-check"></i><b>Monday, February 22:</b> After a few announcements, I discussed an alternate viewpoint of accumulation points, convergence of sequences, and bounded sets that utilizes absolute value.  Next, we introduced the notions of supremum and infimum of a set and did a few examples.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, February 24:</b> I continued lecturing today. We revisiting Problem 3.22 and then discussed Problem 3.33, Problem 3.34, the Completeness Axiom, and Problems 3.38/3.40.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, February 24:</b> I continued lecturing today. We revisited Problem 3.22 and then discussed Problem 3.33, Problem 3.34, the Completeness Axiom, and Problems 3.38/3.40.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Friday, February 26:</b> We nearly wrapped up Chapter 3.  Only Problems 3.53 and 3.54 remain. These are assigned as homework.</li>
 </ul>
 
