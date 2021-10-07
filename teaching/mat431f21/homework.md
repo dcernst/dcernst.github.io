@@ -52,3 +52,4 @@ The following assignments are due at the beginning of the indicated class meetin
 - **Homework 15:** Complete Problems 4.7-4.9, 4.11 in [Chapter 4: Standard Topology of the Real Line]({{site.baseurl}}/teaching/mat431f21/Topology.pdf).  (Due Friday, September 24)
 - **Homework 16:** Complete Problems 5.8, 5.9, 5.15-5.17 in [Chapter 5: Sequences]({{site.baseurl}}/teaching/mat431f21/Sequences.pdf).  (Due Wednesday, October 6)
 - **Homework 17:** Complete Problems 5.19, 5.20, 5.22, 5.24 in [Chapter 5: Sequences]({{site.baseurl}}/teaching/mat431f21/Sequences.pdf).  (Due Friday, October 8)
+- **Homework 18:** Complete Problems 5.25, 5.26, 5.28, 5.29 in [Chapter 5: Sequences]({{site.baseurl}}/teaching/mat431f21/Sequences.pdf). Problem 5.27 is optional.  (Due Monday, October 11)
