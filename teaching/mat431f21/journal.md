@@ -79,5 +79,12 @@ We’ll use this page to keep track of what has happened each day in class. It w
 <ul class="fa-ul">
   <li><i class="fa-li far fa-calendar-check"></i><b>Monday, October 4:</b> Last day of lecturing before the take-home portion of Exam 1 is due.  I reviewed the concepts of open, accumulation point, closed, compact, disconnected, connected, and sequences and then worked through Problems 5.11, 5.13, and 5.14.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, Octocer 6:</b> We had RP, LH, KD, and LK present Problems 5.9, 5.15, 5.16, and 5.17, respectively. I also presented Problem 5.8 and an alternate approach to Problem 5.15.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, October 8:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, October 8:</b> We had TW, BR, and CI present Problems 5.19, 5.20, and 5.22, respectively.</li>
+</ul>
+
+## Week 8 ##
+<ul class="fa-ul">
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, October 11:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, Octocer 13:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, October 15:</b> Coming soon.</li>
 </ul>
