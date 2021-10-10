@@ -63,7 +63,12 @@ We will not be using a traditional textbook this semester, but rather a problem 
     - 5.2 Properties of Convergent Sequences
     - 5.3 Monotone Convergence Theorem
     - 5.4 Subsequences and the Bolzano--Weierstrass Theorem
-- Chapter 6: Continuity (coming soon)
+- [Chapter 6: Continuity]({{site.baseurl}}/teaching/mat431f21/Continuity.pdf)
+    - 6.1 Introduction to Continuity
+    - 6.2 Additional Characterizations of Continuity
+    - 6.3 Extreme Value Theorem
+    - 6.4 Intermediate Value Theorem
+    - 6.5 Uniform Continuity
 - Chapter 7: Limits (coming soon)
 - Chapter 8: Differentiation (coming soon)
 - Chapter 9: Integration (coming soon)
