@@ -84,7 +84,7 @@ We’ll use this page to keep track of what has happened each day in class. It w
 
 ## Week 8 ##
 <ul class="fa-ul">
-  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, October 11:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, October 11:</b> Today, we started discussing indexing sets.  We covered lots of examples, including Problems 3.33-3.37, 3.39.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, Octocer 13:</b> Coming soon.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Friday, October 15:</b> Coming soon.</li>
 </ul>
