@@ -54,4 +54,4 @@ The following assignments are due at the beginning of the indicated class meetin
 - **Homework 17:** Complete Problems 5.19, 5.20, 5.22, 5.24 in [Chapter 5: Sequences]({{site.baseurl}}/teaching/mat431f21/Sequences.pdf).  (Due Friday, October 8)
 - **Homework 18:** Complete Problems 5.25, 5.26, 5.28, 5.29 in [Chapter 5: Sequences]({{site.baseurl}}/teaching/mat431f21/Sequences.pdf). Problem 5.27 is optional.  (Due Monday, October 11)
 - **Homework 19:** Complete Problems 5.30, 5.31 in [Chapter 5: Sequences]({{site.baseurl}}/teaching/mat431f21/Sequences.pdf) and 6.3, 6.4 in [Chapter 6: Continuity]({{site.baseurl}}/teaching/mat431f21/Continuity.pdf).  (Due Wednesday, October 13)
-- **Homework 20:** Complete Problems 6.5-6.9 in [Chapter 6: Continuity]({{site.baseurl}}/teaching/mat431f21/Continuity.pdf).  (Due Friday, October 15)
+- **Homework 20:** Complete Problems 6.5-6.8 in [Chapter 6: Continuity]({{site.baseurl}}/teaching/mat431f21/Continuity.pdf).  (Due Friday, October 15)

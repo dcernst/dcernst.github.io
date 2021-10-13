@@ -85,6 +85,6 @@ We’ll use this page to keep track of what has happened each day in class. It w
 ## Week 8 ##
 <ul class="fa-ul">
   <li><i class="fa-li far fa-calendar-check"></i><b>Monday, October 11:</b> Today, we started discussing indexing sets.  We covered lots of examples, including Problems 3.33-3.37, 3.39.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, Octocer 13:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, Octocer 13:</b> Back to student presentations!  We had MT, JB, SC, and SR present Problems 3.48(a), 3.48(b), 3.50, and 3.51, respectively.  We also discussed Problem 3.49 along the way and then got started on the problems on the next assignment.  We ended up discussing Problems 3.52-3.55.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Friday, October 15:</b> Coming soon.</li>
 </ul>
