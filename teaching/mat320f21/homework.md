@@ -54,6 +54,7 @@ The following assignments are due at the beginning of the indicated class meetin
 - **Daily Homework 18:** Complete 3.12, 3.16-3.21 (do either (a) or (b) for 3.21) in [Chapter 3: Set Theory]({{site.baseurl}}/teaching/mat320f21/SetTheory.pdf) and digest the surrounding text along the way. (Due Friday, October 1)
 - **Daily Homework 19:** Complete 3.48-3.51 in [Chapter 3: Set Theory]({{site.baseurl}}/teaching/mat320f21/SetTheory.pdf) and digest the surrounding text along the way. (Due Wednesday, October 13)
 - **Daily Homework 20:** Complete 3.52-3.59 in [Chapter 3: Set Theory]({{site.baseurl}}/teaching/mat320f21/SetTheory.pdf) and digest the surrounding text along the way. (Due Friday, October 15)
+- **Daily Homework 21:** Complete 3.60-3.62 in [Chapter 3: Set Theory]({{site.baseurl}}/teaching/mat320f21/SetTheory.pdf) and digest the surrounding text along the way. (Due Monday, October 18)
 
 ## Weekly Homework ##
 For most of the assignments below, you will be required to submit 2-3 formally written proofs. You are required to type your submission using LaTeX (see below). You can either submit a hardcopy of your assignment or email me the PDF of your completed work. If you email me the PDF, please name your file as <code>WeeklyX-LastName.pdf</code>, where <code>X</code> is the number of the assignment and <code>LastName</code> is your last name.  Notice there are no spaces in the filename.
