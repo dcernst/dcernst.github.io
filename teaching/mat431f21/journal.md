@@ -88,3 +88,10 @@ We’ll use this page to keep track of what has happened each day in class. It w
   <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, Octocer 13:</b> We kicked off by me presenting a proof of Problem 5.28, which was left over from last time.  Next, we had LS and TW present Problems 5.30 and 5.31, respectively.  I then spent quite a bit of time discussing our definition of continuity and tinkering with a few examples.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Friday, October 15:</b> Productive day.  We had GM, KF, and PK present Problems 6.4, 6.5, and 6.6, respectively.  Afterwards, I presented Problems 6.7 and 6.8.</li>
 </ul>
+
+## Week 9 ##
+<ul class="fa-ul">
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, October 18:</b> In attempt to carefully synthesize ideas, I ended up presenting everything today.  In particular, I presented Problems 6.9-6.12 with two approaches to Problem 6.12.  We will catch up on Problems 6.13 and 6.14 next time.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, Octocer 20:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, October 22:</b> Coming soon.</li>
+</ul>

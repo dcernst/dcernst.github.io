@@ -88,3 +88,10 @@ We’ll use this page to keep track of what has happened each day in class. It w
   <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, Octocer 13:</b> Back to student presentations!  We had MT, JB, SC, and SR present Problems 3.48(a), 3.48(b), 3.50, and 3.51, respectively.  We also discussed Problem 3.49 along the way and then got started on the problems on the next assignment.  We ended up discussing Problems 3.52-3.55.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Friday, October 15:</b> We had KC, KB, RM, and MB present 3.56, 3.57, 3.58, and 3.59, respectively.</li>
 </ul>
+
+## Week 9 ##
+<ul class="fa-ul">
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, October 18:</b> I divided the class up into five small groups, each tasked with discussing a subset of the problems due today.  Eventually, we had MT, SC, RM, PB, and MB present various parts of Problem 3.61 and then SR walked us through most of Problem 3.62.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, Octocer 20:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, October 22:</b> Coming soon.</li>
+</ul>
