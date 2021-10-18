@@ -86,5 +86,5 @@ We’ll use this page to keep track of what has happened each day in class. It w
 <ul class="fa-ul">
   <li><i class="fa-li far fa-calendar-check"></i><b>Monday, October 11:</b> We had FB, AR, TB, and RP present Problems 5.24, 5.25, 5.26, and 5.29, respectively. Just for fun, we also quickly discussed Problem 5.27. We will come back to Problem 5.28 on Wednesday.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, Octocer 13:</b> We kicked off by me presenting a proof of Problem 5.28, which was left over from last time.  Next, we had LS and TW present Problems 5.30 and 5.31, respectively.  I then spent quite a bit of time discussing our definition of continuity and tinkering with a few examples.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, October 15:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, October 15:</b> Productive day.  We had GM, KF, and PK present Problems 6.4, 6.5, and 6.6, respectively.  Afterwards, I presented Problems 6.7 and 6.8.</li>
 </ul>
