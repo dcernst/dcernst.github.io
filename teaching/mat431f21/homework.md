@@ -57,3 +57,4 @@ The following assignments are due at the beginning of the indicated class meetin
 - **Homework 20:** Complete Problems 6.5-6.8 in [Chapter 6: Continuity]({{site.baseurl}}/teaching/mat431f21/Continuity.pdf).  (Due Friday, October 15)
 - **Homework 21:** Complete Problems 6.9-6.14 in [Chapter 6: Continuity]({{site.baseurl}}/teaching/mat431f21/Continuity.pdf).  (Due Monday, October 18)
 - **Homework 22:** Complete Problems 6.15, 6.16, 6.18 in [Chapter 6: Continuity]({{site.baseurl}}/teaching/mat431f21/Continuity.pdf).  (Due Wednesday, October 20)
+- **Homework 23:** Complete Problems 6.19-6.21 in [Chapter 6: Continuity]({{site.baseurl}}/teaching/mat431f21/Continuity.pdf).  (Due Friday, October 22)
