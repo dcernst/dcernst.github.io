@@ -92,6 +92,6 @@ We’ll use this page to keep track of what has happened each day in class. It w
 ## Week 9 ##
 <ul class="fa-ul">
   <li><i class="fa-li far fa-calendar-check"></i><b>Monday, October 18:</b> I divided the class up into five small groups, each tasked with discussing a subset of the problems due today.  Eventually, we had MT, SC, RM, PB, and MB present various parts of Problem 3.61 and then SR walked us through most of Problem 3.62.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, Octocer 20:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, Octocer 20:</b> We spent quite a bit of time discussing the big picture of induction and then I proved the Principle of Mathematical Induction from the Axiom of Induction. Next, I wrote down a careful proof of Theorem 4.4. With the time we had left, SR got us started on Theorem 4.5.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Friday, October 22:</b> Coming soon.</li>
 </ul>

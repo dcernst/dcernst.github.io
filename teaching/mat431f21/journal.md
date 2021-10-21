@@ -92,6 +92,6 @@ We’ll use this page to keep track of what has happened each day in class. It w
 ## Week 9 ##
 <ul class="fa-ul">
   <li><i class="fa-li far fa-calendar-check"></i><b>Monday, October 18:</b> In attempt to carefully synthesize ideas, I ended up presenting everything today.  In particular, I presented Problems 6.9-6.12 with two approaches to Problem 6.12.  We will catch up on Problems 6.13 and 6.14 next time.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, Octocer 20:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, Octocer 20:</b> After a quick review of all of the recent concepts, we had LK present Problem 6.13. Next, I presented a detailed argument for Problem 6.14. This was followed by a presentation of Problem 6.16 by CI. We'll come back to Problem 6.15 next time.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Friday, October 22:</b> Coming soon.</li>
 </ul>
