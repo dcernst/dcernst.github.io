@@ -58,7 +58,8 @@ The following assignments are due at the beginning of the indicated class meetin
 - **Daily Homework 22:** Complete 4.2, 4.4, 4.5 in [Chapter 4: Induction]({{site.baseurl}}/teaching/mat320f21/Induction.pdf) and digest the surrounding text along the way. (Due Wednesday, October 20)
 - **Daily Homework 23:** Complete 4.7, 4.8, 4.9, 4.11 in [Chapter 4: Induction]({{site.baseurl}}/teaching/mat320f21/Induction.pdf) and digest the surrounding text along the way. (Due Friday, October 22)
 - **Daily Homework 24:** Complete any three theorems from 4.13-4.23 in [Chapter 4: Induction]({{site.baseurl}}/teaching/mat320f21/Induction.pdf) and digest the surrounding text along the way. (Due Monday, October 25)
-- **Daily Homework 25:** Complete 4.24, 4.25 in [Chapter 4: Induction]({{site.baseurl}}/teaching/mat320f21/Induction.pdf) and digest the surrounding text along the way. (Due Wednesday, October 27)
+- **Daily Homework 25:** Complete 4.24 in [Chapter 4: Induction]({{site.baseurl}}/teaching/mat320f21/Induction.pdf) and digest the surrounding text along the way. (Due Wednesday, October 27)
+- **Daily Homework 26:** Complete 4.25 and one of 4.27-4.31 in [Chapter 4: Induction]({{site.baseurl}}/teaching/mat320f21/Induction.pdf) and digest the surrounding text along the way. (Due Friday, October 29)
 
 ## Weekly Homework ##
 For most of the assignments below, you will be required to submit 2-3 formally written proofs. You are required to type your submission using LaTeX (see below). You can either submit a hardcopy of your assignment or email me the PDF of your completed work. If you email me the PDF, please name your file as <code>WeeklyX-LastName.pdf</code>, where <code>X</code> is the number of the assignment and <code>LastName</code> is your last name.  Notice there are no spaces in the filename.
@@ -71,6 +72,8 @@ For most of the assignments below, you will be required to submit 2-3 formally w
 - **Weekly Homework 4:** Prove Theorem 2.57 and **one** of Theorems 2.51, 2.52, 2.56. You must type up your proofs using LaTeX.  You can access an Overleaf template by clicking the "Start your homework in Overleaf" link below. (Due Friday, September 24 by 8PM)
 - **Weekly Homework 5:** Prove both of Problem 2.86(i) and Theorem 2.88. You must type up your proofs using LaTeX.  You can access an Overleaf template by clicking the "Start your homework in Overleaf" link below. (Due Friday, October 1 by 8PM)
 - **Weekly Homework 6:** Prove **two** of Theorem 3.56, Problem 3.61(a), Problem 3.61(c), Problem 3.61(e), or Problem 3.62. You must type up your proofs using LaTeX.  You can access an Overleaf template by clicking the "Start your homework in Overleaf" link below. (Due Friday, October 22 by 8PM)
+- **Weekly Homework 7:** Prove **two** of Theorems 4.2-4.8, Problem 4.8. You must type up your proofs using LaTeX.  You can access an Overleaf template by clicking the "Start your homework in Overleaf" link below. (Due Friday, October 29 by 8PM)
+
 
 <!-- - **Weekly Homework 3:** Prove **one** of 2.49-2.51. You must type up your proofs using LaTeX. In addition, read the Foreword, Preface, and any **two** stories (they aren't too long) from [Living Proof]({{site.baseurl}}/teaching/LivingProof.pdf), and then type up responses to the following questions for each story.  Be sure to indicate which stories you read. Once again, use the "Start your homework in Overleaf" link below. You'll need to delete one of the theorem/proof pairs to write your responses to the reflection questions. (Due Thursday, February 6 by 8PM)
     1. Did you identify with the author of the story? If so, in what way?
