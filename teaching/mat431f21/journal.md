@@ -98,7 +98,7 @@ We’ll use this page to keep track of what has happened each day in class. It w
 
 ## Week 10 ##
 <ul class="fa-ul">
-  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, October 25:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, October 25:</b> After some quick discussion of Problems 6.20, 6.21, and 6.24, we had RP present an excellent proof of Problem 6.22. With the time we had left, LH presented Problem 6.23.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, Octocer 27:</b> Coming soon.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Friday, October 29:</b> Coming soon.</li>
 </ul>
