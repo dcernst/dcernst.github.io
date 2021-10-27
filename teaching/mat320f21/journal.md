@@ -99,6 +99,6 @@ We’ll use this page to keep track of what has happened each day in class. It w
 ## Week 10 ##
 <ul class="fa-ul">
   <li><i class="fa-li far fa-calendar-check"></i><b>Monday, October 25:</b> We had AC and MT present Theorems 4.7 and 4.11, respectively. With the time we had left, we quickly discussed all the base cases on Theorems 4.13-4.23.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, Octocer 27:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, Octocer 27:</b> We divided the clas up into 4 small groups and then SR/SC, KC, and JO presented Theorems 4.22, 4.13, and 4.15, respectively. We also discussed most of a proof for Problem 4.24(a).</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Friday, October 29:</b> Coming soon.</li>
 </ul>
