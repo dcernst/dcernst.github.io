@@ -69,7 +69,9 @@ We will not be using a traditional textbook this semester, but rather a problem 
     - 6.3 Extreme Value Theorem
     - 6.4 Intermediate Value Theorem
     - 6.5 Uniform Continuity
-- Chapter 7: Limits (coming soon)
+- [Chapter 7: Limits]({{site.baseurl}}/teaching/mat431f21/Limits.pdf)
+    - 7.1 Introduction to Limits
+    - 7.2 Limit Laws
 - Chapter 8: Differentiation (coming soon)
 - Chapter 9: Integration (coming soon)
 - [Appendix A: Elements of Style for Proofs]({{site.baseurl}}/teaching/mat431f21/ElementsOfStyle.pdf)

@@ -61,6 +61,7 @@ The following assignments are due at the beginning of the indicated class meetin
 - **Daily Homework 25:** Complete 4.24 in [Chapter 4: Induction]({{site.baseurl}}/teaching/mat320f21/Induction.pdf) and digest the surrounding text along the way. (Due Wednesday, October 27)
 - **Daily Homework 26:** Complete 4.25 and one of 4.27-4.31 in [Chapter 4: Induction]({{site.baseurl}}/teaching/mat320f21/Induction.pdf) and digest the surrounding text along the way. (Due Friday, October 29)
 - **Daily Homework 27:** Complete one of 4.32-4.33 and both of 4.34 and 4.36 in [Chapter 4: Induction]({{site.baseurl}}/teaching/mat320f21/Induction.pdf) and digest the surrounding text along the way. (Due Monday, November 1)
+- **Daily Homework 28:** Complete 4.37-4.39 in [Chapter 4: Induction]({{site.baseurl}}/teaching/mat320f21/Induction.pdf) and digest the surrounding text along the way. (Due Wednesday, November 3)
 
 ## Weekly Homework ##
 For most of the assignments below, you will be required to submit 2-3 formally written proofs. You are required to type your submission using LaTeX (see below). You can either submit a hardcopy of your assignment or email me the PDF of your completed work. If you email me the PDF, please name your file as <code>WeeklyX-LastName.pdf</code>, where <code>X</code> is the number of the assignment and <code>LastName</code> is your last name.  Notice there are no spaces in the filename.
@@ -74,17 +75,7 @@ For most of the assignments below, you will be required to submit 2-3 formally w
 - **Weekly Homework 5:** Prove both of Problem 2.86(i) and Theorem 2.88. You must type up your proofs using LaTeX.  You can access an Overleaf template by clicking the "Start your homework in Overleaf" link below. (Due Friday, October 1 by 8PM)
 - **Weekly Homework 6:** Prove **two** of Theorem 3.56, Problem 3.61(a), Problem 3.61(c), Problem 3.61(e), or Problem 3.62. You must type up your proofs using LaTeX.  You can access an Overleaf template by clicking the "Start your homework in Overleaf" link below. (Due Friday, October 22 by 8PM)
 - **Weekly Homework 7:** Prove **two** of Theorems 4.2-4.8, Problem 4.8. You must type up your proofs using LaTeX.  You can access an Overleaf template by clicking the "Start your homework in Overleaf" link below. (Due Friday, October 29 by 8PM)
-
-
-<!-- - **Weekly Homework 3:** Prove **one** of 2.49-2.51. You must type up your proofs using LaTeX. In addition, read the Foreword, Preface, and any **two** stories (they aren't too long) from [Living Proof]({{site.baseurl}}/teaching/LivingProof.pdf), and then type up responses to the following questions for each story.  Be sure to indicate which stories you read. Once again, use the "Start your homework in Overleaf" link below. You'll need to delete one of the theorem/proof pairs to write your responses to the reflection questions. (Due Thursday, February 6 by 8PM)
-    1. Did you identify with the author of the story? If so, in what way?
-    2. How does the author's experience differ from your own?
-    3. What surprised you about the author's story?
-    4. Did this story make you think differently about mathematics? I'm expecting more than "yes/no".
-    5. What about the story inspires and/or bothers you?
-- **Weekly Homework 4:** Prove **two** of 2.49, 2.50, 2.61 (only need to prove in one way, your choice), 2.86. You must type up your proofs using LaTeX.  I suggest you use my Overleaf template, which you can access by clicking the "Start your homework in Overleaf" link below. (Due Thursday, February 13 by 8PM)
-- **Weekly Homework 5:** Prove **two** of 3.9, 3.18, 3.19(a), 3.19(b), 3.20(a), 3.20(b). You must type up your proofs using LaTeX.  I suggest you use my Overleaf template, which you can access by clicking the "Start your homework in Overleaf" link below. (Due Sunday, February 23 by 8PM)
-- **Weekly Homework 6:** Prove **two** of 3.26, 3.41(a), 3.41(b), 3.42(a), 3.42(b). You must type up your proofs using LaTeX.  I suggest you use my Overleaf template, which you can access by clicking the "Start your homework in Overleaf" link below. (Due Thursday, March 5 by 8PM) -->
+- **Weekly Homework 8:** Prove **one** of Theorems 4.11-4.23 and **one** of Theorems 4.27-4.31. You must type up your proofs using LaTeX.  You can access an Overleaf template by clicking the "Start your homework in Overleaf" link below. (Due Friday, November 5 by 8PM)
 
 ## Using LaTeX for Weekly Homework ##
 You are required to use LaTeX to type up your Weekly Homework assignments. The easiest way to get started with LaTeX is to use an online editor.  I recommend using [Overleaf](https://overleaf.com), but there are other options.  The good folks over at Overleaf have preloaded my homework template, so to get started, all you need to do is click the link below and then click on "Open as Template". Be sure to update your name and the course title.

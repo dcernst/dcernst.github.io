@@ -62,3 +62,4 @@ The following assignments are due at the beginning of the indicated class meetin
 - **Homework 25:** Complete Problems 6.27-6.31 in [Chapter 6: Continuity]({{site.baseurl}}/teaching/mat431f21/Continuity.pdf).  Problem 6.26 is optional. (Due Wednesday, October 27)
 - **Homework 26:** Complete Problems 6.33-6.35 in [Chapter 6: Continuity]({{site.baseurl}}/teaching/mat431f21/Continuity.pdf). (Due Friday, October 29)
 - **Homework 27:** Complete Problems 6.36-6.38 in [Chapter 6: Continuity]({{site.baseurl}}/teaching/mat431f21/Continuity.pdf). (Due Monday, November 1)
+- **Homework 28:** Complete Problems 7.2, 7.3, 7.6-7.8 in [Chapter 7: Limits]({{site.baseurl}}/teaching/mat431f21/Limits.pdf). (Due Wednesday, November 3)
