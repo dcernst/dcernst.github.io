@@ -100,5 +100,12 @@ We’ll use this page to keep track of what has happened each day in class. It w
 <ul class="fa-ul">
   <li><i class="fa-li far fa-calendar-check"></i><b>Monday, October 25:</b> After some quick discussion of Problems 6.20, 6.21, and 6.24, we had RP present an excellent proof of Problem 6.22. With the time we had left, LH presented Problem 6.23.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, Octocer 27:</b> I wrote solutions to Problems 6.30 and 6.31 on the board at the beginning of class and then we discussed 6.31.  Next, we had TW, FB, and BR present Problems 6.25, 6.27, and 6.28, respectively.  With the couple minutes we had left, we discussed on to modify the proof for 6.28 to proof 6.29.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, October 29:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, October 29:</b> We had BH, PK, and JE present Problems 6.33, 6.34, and 6.35, respectively.</li>
+</ul>
+
+## Week 11 ##
+<ul class="fa-ul">
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, November 1:</b> Coming solution.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, November 3:</b> Coming solution.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, November 5:</b> Coming solution.</li>
 </ul>
