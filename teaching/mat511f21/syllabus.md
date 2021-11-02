@@ -397,7 +397,7 @@ Only I will remain.</p>
 
 
 ### Exams ###
-There will be three midterm exams and a cumulative final exam. Exam 1 will be a take-home exam that is *tentatively* scheduled to be released on **Monday, September 27** (week 6). You will have several days to complete the take-home exam. Exam 2 will be an in-class exam that is *tentatively* scheduled for **Monday, November 8** (week 12).  Each of Exam 1 and Exam 2 will be worth 20% of your overall grade. Exam 3 will be a 30-minute oral exam taken individually with me sometime during the last two weeks of classes. Exam 3 will be worth 10% of your overall grade. The final exam will be on **Monday, December 6** at 10:00AM-12:00PM and is worth 20% of your overall grade. It is possible that the final exam will consist of both an in-class portion and a take-home portion. Make-up exams will only be given under extreme circumstances, as judged by me. In general, it will be best to communicate conflicts ahead of time.
+There will be three midterm exams and a cumulative final exam. Exam 1 will be a take-home exam that is *tentatively* scheduled to be released on **Monday, September 27** (week 6). You will have several days to complete the take-home exam. Exam 2 will be an in-class exam that is *tentatively* scheduled for <s>Monday, November 8</s> **Friday, November 12** (week 12).  Each of Exam 1 and Exam 2 will be worth 20% of your overall grade. Exam 3 will be a 30-minute oral exam taken individually with me sometime during the last two weeks of classes. Exam 3 will be worth 10% of your overall grade. The final exam will be on **Monday, December 6** at 10:00AM-12:00PM and is worth 20% of your overall grade. It is possible that the final exam will consist of both an in-class portion and a take-home portion. Make-up exams will only be given under extreme circumstances, as judged by me. In general, it will be best to communicate conflicts ahead of time.
 
 <blockquote>
 <p>I write one page of masterpiece to ninety-one pages of shit.</p>
@@ -442,7 +442,7 @@ In summary, your final grade will be determined by your scores in the following 
   <tr>
     <td>Exam 2</td>
     <td style="text-align: center;">20%</td>
-    <td>In-class exam on November 8</td>
+    <td>In-class exam on <s>November 8</s> November 12</td>
   </tr>
   <tr>
     <td>Exam 3</td>
