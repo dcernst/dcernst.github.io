@@ -106,6 +106,6 @@ We’ll use this page to keep track of what has happened each day in class. It w
 ## Week 11 ##
 <ul class="fa-ul">
   <li><i class="fa-li far fa-calendar-check"></i><b>Monday, November 1:</b> We had GM, MW/LH, and AR present Problems 6.36, 6.37, and 6.38, respectively. We need to wrap up Problem 6.38 next time.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, November 3:</b> Coming solution.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, November 3:</b> We wrapped up Problem 6.38 and then discussed the big picture of limits for the remainder of the class.  This discussion included Problems 7.2 and 7.3.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Friday, November 5:</b> Coming solution.</li>
 </ul>
