@@ -88,11 +88,11 @@ The notes will be released incrementally. Each link below is to a PDF file.
     - 8.4 Images and Preimages of Functions
     - 8.5 Continuous Real Functions
 - [Chapter 9: Cardinality]({{site.baseurl}}/teaching/mat320f21/Cardinality.pdf)
-    - 8.1 Introduction to Cardinality
-    - 8.2 Finite Sets
-    - 8.3 Infinite Sets
-    - 8.4 Countable Sets
-    - 8.5 Uncountable Sets
+    - 9.1 Introduction to Cardinality
+    - 9.2 Finite Sets
+    - 9.3 Infinite Sets
+    - 9.4 Countable Sets
+    - 9.5 Uncountable Sets
 - [Appendix A: Elements of Style for Proofs]({{site.baseurl}}/teaching/mat320f21/ElementsOfStyle.pdf)
 - [Appendix B: Fancy Mathematical Terms]({{site.baseurl}}/teaching/mat320f21/FancyMathematicalTerms.pdf)
 - [Appendix C: Paradoxes]({{site.baseurl}}/teaching/mat320f21/Paradoxes.pdf)
