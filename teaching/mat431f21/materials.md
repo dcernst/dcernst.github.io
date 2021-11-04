@@ -72,7 +72,7 @@ We will not be using a traditional textbook this semester, but rather a problem 
 - [Chapter 7: Limits]({{site.baseurl}}/teaching/mat431f21/Limits.pdf)
     - 7.1 Introduction to Limits
     - 7.2 Limit Laws
-- [Chapter 8: Differentiations]({{site.baseurl}}/teaching/mat431f21/Differentiation.pdf)
+- [Chapter 8: Differentiation]({{site.baseurl}}/teaching/mat431f21/Differentiation.pdf)
     - 8.1 Introduction to Differentiation
     - 8.2 Derivative Rules
     - 8.3 Mean Value Theorem
