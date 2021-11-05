@@ -107,12 +107,12 @@ We’ll use this page to keep track of what has happened each day in class. It w
 <ul class="fa-ul">
   <li><i class="fa-li far fa-calendar-check"></i><b>Monday, November 1:</b> We had MT, MB, and KB present Problems 4.31, 4.33, and 4.34, respectively.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, November 3:</b> We had JO, SC, and KB present Theorems 4.36, 4.38, and 4.39, respectively.  Along the way, we discussed Problem 4.37.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, November 5:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, November 5:</b> After revisiting Theorem 4.39, we split the class up into several small groups and then had KC, SR, AC, JO, NH, and AR present Problems 7.10, 7.12, 7.13, 7.15(ab), 7.15(cd), and 7.16, respectively.</li>
 </ul>
 
 ## Week 12 ##
 <ul class="fa-ul">
-  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, November 8:</b> The students took the in-class portion of Exam 2..</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, November 8:</b> Coming soon.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, November 10:</b> Coming soon.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Friday, November 5:</b> Coming soon.</li>
 </ul>
