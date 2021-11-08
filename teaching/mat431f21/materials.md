@@ -76,7 +76,10 @@ We will not be using a traditional textbook this semester, but rather a problem 
     - 8.1 Introduction to Differentiation
     - 8.2 Derivative Rules
     - 8.3 Mean Value Theorem
-- Chapter 9: Integration (coming soon)
+- [Chapter 9: Integration]({{site.baseurl}}/teaching/mat431f21/Integration.pdf)
+    - 9.1 Introduction to Integration
+    - 9.2 Properties of Integrals
+    - 9.3 Fundamental Theorem of Calculus
 - [Appendix A: Elements of Style for Proofs]({{site.baseurl}}/teaching/mat431f21/ElementsOfStyle.pdf)
 - [Appendix B: Fancy Mathematical Terms]({{site.baseurl}}/teaching/mat431f21/FancyMathematicalTerms.pdf)
 - [Appendix C: Definitions in Mathematics]({{site.baseurl}}/teaching/mat431f21/Definitions.pdf)
