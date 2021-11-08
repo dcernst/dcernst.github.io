@@ -66,7 +66,7 @@ I will not be covering every detail of the notes and the only way to achieve a s
 - [What is Mathematics? The Most Misunderstood Subject](https://www.fordham.edu/info/20603/what_math) (short article by Dr. Robert H. Lewis, Professor of Mathematics, Fordham University)
 
 <!-- - Pictures of board work that we ran out of time to discuss. *Note:* You should not assume that the solutions/proofs posted below are valid or sufficient.
-    - Coming soon. -->
+    - Coming soon. --> 
 
 ## Exams
 Below are links to take-home exams. If you are interested in using LaTeX to type up your solutions, simply replace .pdf with .tex in the URL.
