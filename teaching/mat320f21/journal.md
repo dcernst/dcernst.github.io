@@ -112,7 +112,7 @@ We’ll use this page to keep track of what has happened each day in class. It w
 
 ## Week 12 ##
 <ul class="fa-ul">
-  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, November 8:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, November 8:</b> After splitting the class up into several small groups, we had SR, JB/AR, SC, MB, and JO present Problems 7.21, 7.22, 7.24, 7.27(a), and 7.27(b), respectively. We wrapped up by discussing Problems 7.28 and 7.29 and part of Problem 7.34.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, November 10:</b> Coming soon.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Friday, November 5:</b> Coming soon.</li>
 </ul>
