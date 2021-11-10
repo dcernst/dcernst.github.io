@@ -72,4 +72,4 @@ I will not be covering every detail of the notes and the only way to achieve a s
 Below are links to take-home exams. If you are interested in using LaTeX to type up your solutions, simply replace .pdf with .tex in the URL.
 
 - [Exam 1]({{site.baseurl}}/teaching/mat511f21/511Exam1.pdf) (PDF) (Due by 11:59PM on Tuesday, October 5)
-- [Exam 2 (Part 2)]({{site.baseurl}}/teaching/mat511f21/511Exam2-Part2.pdf) (PDF) (Due by 11:59PM on Tuesday, November 16)
+- [Exam 2 (Part 2)]({{site.baseurl}}/teaching/mat511f21/511Exam2-Part2.pdf) (PDF) (Due by start of class on Wednesday, November 17)
