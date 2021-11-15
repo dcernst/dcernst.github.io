@@ -136,7 +136,4 @@ If you've found an error or have suggestions for improvements, please let me kno
 Below are links to the take-home portions of each exam. If you are interested in using LaTeX to type up your solutions, contact me and I will send you a link to the source file of the exam.
 
 - [Exam 1 (Part 2)]({{site.baseurl}}/teaching/mat320f21/320Exam1-Part2.pdf) (PDF) (Due by 11:59PM on Tuesday, October 12)
-
-<!-- - [Exam 1 (Part 2)]({{site.baseurl}}/teaching/mat320f21/320Exam1-Part2.pdf) (PDF). (Due by 11:59PM on Friday, February 26)
-- [Exam 2 (Part 2)]({{site.baseurl}}/teaching/mat320f21/320Exam2-Part2.pdf) (PDF). (Due by 11:59PM on Friday, April 9)
-- [Final Exam (Part 2)]({{site.baseurl}}/teaching/mat320f21/320ExamFinal-Part2.pdf) (PDF). (Due by 5:00PM on Thursday, April 29) -->
+- [Exam 2 (Part 2)]({{site.baseurl}}/teaching/mat320f21/320Exam2-Part2.pdf) (PDF) (Due by beginning of class on Wednesday, November 22)
