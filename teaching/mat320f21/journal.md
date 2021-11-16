@@ -114,5 +114,26 @@ We’ll use this page to keep track of what has happened each day in class. It w
 <ul class="fa-ul">
   <li><i class="fa-li far fa-calendar-check"></i><b>Monday, November 8:</b> After splitting the class up into several small groups, we had SR, JB/AR, SC, MB, and JO present Problems 7.21, 7.22, 7.24, 7.27(a), and 7.27(b), respectively. We wrapped up by discussing Problems 7.28 and 7.29 and part of Problem 7.34.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, November 10:</b> We got a lot done today. We discussed Problems 7.29, 7.30, , 7.34/7.39, and 7.38. We also had JB and AC present Problems 7.36 and 7.37, respectively.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, November 5:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, November 12:</b> After dividing the class up in small groups, we had MB, BT, PB, and JB present Theorem 7.42(forward implication), Theorem 7.42(reverse implication), Theorem 7.43(a), and Theorem 7.43(b), respectively.</li>
+</ul>
+
+## Week 13 ##
+<ul class="fa-ul">
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, November 15:</b> The students took the in-class portion of Exam 2.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, November 17:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, November 19:</b> Coming soon.</li>
+</ul>
+
+## Week 14 ##
+<ul class="fa-ul">
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, November 22:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, November 24:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, November 26:</b> Thanksgiving break.  No classes!</li>
+</ul>
+
+## Week 15 ##
+<ul class="fa-ul">
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, November 29:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, December 1:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, December 3:</b> Coming soon.</li>
 </ul>

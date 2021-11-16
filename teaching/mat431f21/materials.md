@@ -33,7 +33,7 @@ We will not be using a traditional textbook this semester, but rather a problem 
 <i class="fa fa-exclamation-triangle"></i>&nbsp; These notes are currently under construction and subject to change.
 </div>
 
-<!-- - [Introduction to Real Analysis]({{site.baseurl}}/teaching/mat431f21/Analysis.pdf) (complete set of notes) -->
+- [Introduction to Real Analysis]({{site.baseurl}}/teaching/mat431f21/Analysis.pdf) (complete set of notes)
 
 - [Title Page and Front Matter]({{site.baseurl}}/teaching/mat431f21/FrontMatter.pdf)
 - [Preface]({{site.baseurl}}/teaching/mat431f21/Preface.pdf)

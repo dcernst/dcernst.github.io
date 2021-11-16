@@ -114,5 +114,26 @@ We’ll use this page to keep track of what has happened each day in class. It w
 <ul class="fa-ul">
   <li><i class="fa-li far fa-calendar-check"></i><b>Monday, November 8:</b> The students took the in-class portion of Exam 2..</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, November 10:</b> We cranked through lots of stuff today.  We discussed Problems 7.9, 7.10, 7.11, 7.13, and Definition 8.1.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, November 5:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, November 12:</b> More lecturing over stuff in Chapter 7 and dipped into Chapter 8.</li>
+</ul>
+
+## Week 13 ##
+<ul class="fa-ul">
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, November 15:</b> We continued discussing Chapter 8 and got close to wrapping it up.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, November 17:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, November 19:</b> Coming soon.</li>
+</ul>
+
+## Week 14 ##
+<ul class="fa-ul">
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, November 22:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, November 24:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, November 26:</b> Thanksgiving break.  No classes!</li>
+</ul>
+
+## Week 15 ##
+<ul class="fa-ul">
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, November 29:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, December 1:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, December 3:</b> Coming soon.</li>
 </ul>
