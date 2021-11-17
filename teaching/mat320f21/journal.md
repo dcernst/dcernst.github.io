@@ -120,7 +120,7 @@ We’ll use this page to keep track of what has happened each day in class. It w
 ## Week 13 ##
 <ul class="fa-ul">
   <li><i class="fa-li far fa-calendar-check"></i><b>Monday, November 15:</b> The students took the in-class portion of Exam 2.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, November 17:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, November 17:</b> After handing back exams, I lectured over the rest of Section 7.3.  We will start Chapter 8 next time.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Friday, November 19:</b> Coming soon.</li>
 </ul>
 
