@@ -112,7 +112,7 @@ We’ll use this page to keep track of what has happened each day in class. It w
 
 ## Week 12 ##
 <ul class="fa-ul">
-  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, November 8:</b> The students took the in-class portion of Exam 2..</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, November 8:</b> The students took the in-class portion of Exam 2.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, November 10:</b> We cranked through lots of stuff today.  We discussed Problems 7.9, 7.10, 7.11, 7.13, and Definition 8.1.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Friday, November 12:</b> More lecturing over stuff in Chapter 7 and dipped into Chapter 8.</li>
 </ul>
@@ -121,7 +121,7 @@ We’ll use this page to keep track of what has happened each day in class. It w
 <ul class="fa-ul">
   <li><i class="fa-li far fa-calendar-check"></i><b>Monday, November 15:</b> We continued discussing Chapter 8 and got close to wrapping it up.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, November 17:</b> We wrapped up Chapter 8 and get a good start on Chapter 9.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, November 19:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, November 19:</b> Awesome day.  We had GM, BH, HJ, LS, CI, and AM present Problems 9.9(ab), 9.9(c), 9.10(ab), 9.10(cd), 9.11, and 9.12, respectively.</li>
 </ul>
 
 ## Week 14 ##

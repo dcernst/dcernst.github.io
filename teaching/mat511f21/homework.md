@@ -57,4 +57,4 @@ The following assignments are due at the beginning of the indicated class meetin
 - **Homework 26:** Complete Problems 7.15-7.18 in the [Problem Sequence for MAT 511]({{ site.baseurl }}/teaching/mat511f21/511ProblemSequence.pdf). (Due Monday, November 8)
 - **Homework 27:** Complete Problems 10.4 and 10.7 and skim 10.6 in the [Problem Sequence for MAT 511]({{ site.baseurl }}/teaching/mat511f21/511ProblemSequence.pdf). (Due Friday, November 19)
 - **Homework 28:** Complete Problems 10.16, 11.3, 11.4 in the [Problem Sequence for MAT 511]({{ site.baseurl }}/teaching/mat511f21/511ProblemSequence.pdf). (Due Monday, November 22)
-- **Homework 29:** Complete Problems ??? in the [Problem Sequence for MAT 511]({{ site.baseurl }}/teaching/mat511f21/511ProblemSequence.pdf). (Due Wednesday, November 24)
+- **Homework 29:** Complete Problems 11.7, 11.10, 11.11, 11.13-11.15 in the [Problem Sequence for MAT 511]({{ site.baseurl }}/teaching/mat511f21/511ProblemSequence.pdf). (Due Wednesday, November 24)
