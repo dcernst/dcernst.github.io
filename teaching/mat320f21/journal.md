@@ -126,7 +126,7 @@ We’ll use this page to keep track of what has happened each day in class. It w
 
 ## Week 14 ##
 <ul class="fa-ul">
-  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, November 22:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, November 22:</b> More lecturing. I covered up to and including Theorem 8.40.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, November 24:</b> Coming soon.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Friday, November 26:</b> Thanksgiving break.  No classes!</li>
 </ul>
