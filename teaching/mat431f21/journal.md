@@ -127,7 +127,7 @@ We’ll use this page to keep track of what has happened each day in class. It w
 ## Week 14 ##
 <ul class="fa-ul">
   <li><i class="fa-li far fa-calendar-check"></i><b>Monday, November 22:</b> Very productive day. We had LK, MA, MW, and FB present Problems 9.14, 9.17, 9.18, and 9.19, respectively.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, November 24:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, November 24:</b> We had AR, LS, RP, and PK present Problems 9.15/9.21, 9.24(forward), 9.24(reverse), and 9.25, respectively.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Friday, November 26:</b> Thanksgiving break.  No classes!</li>
 </ul>
 
