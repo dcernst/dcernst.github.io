@@ -67,3 +67,4 @@ The following assignments are due at the beginning of the indicated class meetin
 - **Homework 30:** Complete Problems 9.14, 9.15, 9.17-9.19 in [Chapter 9: Integration]({{site.baseurl}}/teaching/mat431f21/Integration.pdf). (Due Monday, November 22)
 - **Homework 31:** Complete Problems 9.21, 9.22, 9.24, 9.25 in [Chapter 9: Integration]({{site.baseurl}}/teaching/mat431f21/Integration.pdf). Problem 9.23 is optional. (Due Wednesday, November 24)
 - **Homework 32:** Complete Problems 9.31, 9.34, 9.35 in [Chapter 9: Integration]({{site.baseurl}}/teaching/mat431f21/Integration.pdf). Read and digest Problems 9.32 and 9.33. (Due Wednesday, December 1)
+- **Homework 33:** Complete Problems 9.36, 9.37, 9.39, 9.40 in [Chapter 9: Integration]({{site.baseurl}}/teaching/mat431f21/Integration.pdf). (Due Friday, December 3)

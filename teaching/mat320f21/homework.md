@@ -67,6 +67,7 @@ The following assignments are due at the beginning of the indicated class meetin
 - **Daily Homework 31:** Complete 7.29, 7.30, 7.34, 7.36-7.39 in [Chapter 7: Relations and Partitions]({{site.baseurl}}/teaching/mat320f21/Relations.pdf) and digest the surrounding text along the way. (Due Wednesday, November 10)
 - **Daily Homework 32:** Complete 7.40-7.43, 7.47, 7.48 in [Chapter 7: Relations and Partitions]({{site.baseurl}}/teaching/mat320f21/Relations.pdf) and digest the surrounding text along the way. (Due Friday, November 12)
 - **Daily Homework 33:** Complete 8.60, 8.64, one of 8.65 or 8.66, and both 8.67 and 8.68 in [Chapter 8: Functions]({{site.baseurl}}/teaching/mat320f21/Functions.pdf) and digest the surrounding text along the way. (Due Wednesday, December 1)
+- **Daily Homework 34:** Complete 8.69, 8.71-8.76 in [Chapter 8: Functions]({{site.baseurl}}/teaching/mat320f21/Functions.pdf) and digest the surrounding text along the way. (Due Friday, December 3)
 
 ## Weekly Homework ##
 For most of the assignments below, you will be required to submit 2-3 formally written proofs. You are required to type your submission using LaTeX (see below). You can either submit a hardcopy of your assignment or email me the PDF of your completed work. If you email me the PDF, please name your file as <code>WeeklyX-LastName.pdf</code>, where <code>X</code> is the number of the assignment and <code>LastName</code> is your last name.  Notice there are no spaces in the filename.

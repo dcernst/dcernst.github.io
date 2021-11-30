@@ -59,3 +59,4 @@ The following assignments are due at the beginning of the indicated class meetin
 - **Homework 28:** Complete Problems 10.16, 11.3, 11.4 in the [Problem Sequence for MAT 511]({{ site.baseurl }}/teaching/mat511f21/511ProblemSequence.pdf). (Due Monday, November 22)
 - **Homework 29:** Complete Problems 11.7, 11.10, 11.11, 11.13-11.15 in the [Problem Sequence for MAT 511]({{ site.baseurl }}/teaching/mat511f21/511ProblemSequence.pdf). (Due Wednesday, November 24)
 - **Homework 30:** Complete Problems 12.3-12.6 in the [Problem Sequence for MAT 511]({{ site.baseurl }}/teaching/mat511f21/511ProblemSequence.pdf). (Due Wednesday, December 1)
+- **Homework 31:** Complete Problems 12.7-12.11 in the [Problem Sequence for MAT 511]({{ site.baseurl }}/teaching/mat511f21/511ProblemSequence.pdf). (Due Friday, December 3)
