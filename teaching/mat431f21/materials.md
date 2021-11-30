@@ -127,3 +127,4 @@ Below are links to the take-home portions of each exam. If you are interested in
 
 - [Exam 1 (Part 2)]({{site.baseurl}}/teaching/mat431f21/431Exam1-Part2.pdf) (PDF) (Due by 11:59PM on Tuesday, October 5)
 - [Exam 2 (Part 2)]({{site.baseurl}}/teaching/mat431f21/431Exam2-Part2.pdf) (PDF) (Due by class time on Wednesday, November 17)
+- [Final Exam (Part 2)]({{site.baseurl}}/teaching/mat431f21/431ExamFinal-Part2.pdf) (PDF) (Due by 4pm on Thursday, December 9)
