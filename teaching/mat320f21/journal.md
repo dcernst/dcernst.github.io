@@ -133,7 +133,7 @@ We’ll use this page to keep track of what has happened each day in class. It w
 
 ## Week 15 ##
 <ul class="fa-ul">
-  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, November 29:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, November 29:</b> Last week of classes!  We discussed 8.54-8.63, saving some details for homework.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, December 1:</b> Coming soon.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Friday, December 3:</b> Coming soon.</li>
 </ul>
