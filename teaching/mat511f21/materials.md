@@ -73,3 +73,4 @@ Below are links to take-home exams. If you are interested in using LaTeX to type
 
 - [Exam 1]({{site.baseurl}}/teaching/mat511f21/511Exam1.pdf) (PDF) (Due by 11:59PM on Tuesday, October 5)
 - [Exam 2 (Part 2)]({{site.baseurl}}/teaching/mat511f21/511Exam2-Part2.pdf) (PDF) (Due by start of class on Wednesday, November 17)
+- [Final Exam (Part 2)]({{site.baseurl}}/teaching/mat511f21/511ExamFinal-Part2.pdf) (PDF) (Due by 4pm Thursday, December 9)
