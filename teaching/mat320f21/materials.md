@@ -137,3 +137,4 @@ Below are links to the take-home portions of each exam. If you are interested in
 
 - [Exam 1 (Part 2)]({{site.baseurl}}/teaching/mat320f21/320Exam1-Part2.pdf) (PDF) (Due by 11:59PM on Tuesday, October 12)
 - [Exam 2 (Part 2)]({{site.baseurl}}/teaching/mat320f21/320Exam2-Part2.pdf) (PDF) (Due by beginning of class on Wednesday, November 22)
+- [Final Exam (Part 2)]({{site.baseurl}}/teaching/mat320f21/320ExamFinal-Part2.pdf) (PDF) (Due by 4pm Thursday, December 9)
