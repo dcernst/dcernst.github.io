@@ -134,6 +134,6 @@ We’ll use this page to keep track of what has happened each day in class. It w
 ## Week 15 ##
 <ul class="fa-ul">
   <li><i class="fa-li far fa-calendar-check"></i><b>Monday, November 29:</b>Last week of classes!  We more or less discussed Problems 9.27-9.30.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, December 1:</b> Coming soon.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, December 3:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, December 1:</b> We had TW, JE, and AR present Problems 9.31, 9.34, and 9.35, respectively.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, December 3:</b> Last day of class!  I'm thankful for a great semester.  We had TB, HJ, and JE present Problems 9.37, 9.39, and 9.40, respectively.</li>
 </ul>
