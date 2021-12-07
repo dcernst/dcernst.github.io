@@ -135,5 +135,5 @@ We’ll use this page to keep track of what has happened each day in class. It w
 <ul class="fa-ul">
   <li><i class="fa-li far fa-calendar-check"></i><b>Monday, November 29:</b> Last week of classes!  We discussed 8.54-8.63, saving some details for homework.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, December 1:</b> We had BT, SR, NH, AR, and PB present Problems 8.60(ab), 8.60(cd), 8.64(ab), 8.64(c), and 8.64(d), respectively.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, December 3:</b> Last day of class!  I'm thankful for a great semester.  We had AC, KB, SR, and BT present Problems 8.71, 8.72, 8.73, and 8.75, respectively.  Along the way, I presented Theorem 8.65, Problem 8.67, Problem 8.86, and most of Theorem 8.74.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, December 3:</b> Last day of class!  I'm thankful for a great semester.  We had AC, KB, SR, and BT present Problems 8.71, 8.72, 8.73, and 8.75, respectively.  Along the way, I presented Theorem 8.65, Problem 8.67, Problem 8.68, and most of Theorem 8.74.</li>
 </ul>
