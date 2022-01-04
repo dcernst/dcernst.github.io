@@ -55,5 +55,5 @@ There is no textbook for this course.  All course content will be covered via le
 ## Exams
 Below are links to the take-home portions of each exam. If you are interested in using LaTeX to type up your solutions, contact me and I will send you a link to the source file of the exam.
 
-- Exam 1 (Part 2). Coming soon.
-- Exam 2 (Part 2). Coming soon.
+- Midterm Exam (Part 2). Coming soon.
+- Final Exam (Part 2). Coming soon.

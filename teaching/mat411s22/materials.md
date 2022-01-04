@@ -123,6 +123,6 @@ The notes will be released incrementally. Each link below is to a PDF file. If y
 ## Exams
 Below are links to the take-home portions of each exam. If you are interested in using LaTeX to type up your solutions, contact me and I will send you a link to the source file of the exam.
 
-- [Exam 1 (Part 2)]({{site.baseurl}}/teaching/mat431f21/431Exam1-Part2.pdf) (PDF) (Due by 11:59PM on Tuesday, October 5)
-- [Exam 2 (Part 2)]({{site.baseurl}}/teaching/mat431f21/431Exam2-Part2.pdf) (PDF) (Due by class time on Wednesday, November 17)
-- [Final Exam (Part 2)]({{site.baseurl}}/teaching/mat431f21/431ExamFinal-Part2.pdf) (PDF) (Due by 4pm on Thursday, December 9)
+- Exam 1 (Part 2). Coming soon.
+- Exam 2 (Part 2). Coming soon.
+- Final Exam (Part 2). Coming soon.
