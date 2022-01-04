@@ -7,21 +7,21 @@ title: Course Materials
 <ol class="breadcrumb">
   <li><a href="/"><i class="fa fa-home"></i></a></li>
   <li><a href="/teaching/">Teaching</a></li>
-  <li><a href="/teaching/mat411f20">MAT411</a></li>
+  <li><a href="/teaching/mat411s22">MAT411</a></li>
   <li class="active">Materials</li>
 </ol>
 
 <div class="row">
 <div class="col-xs-12">
 <div class="btn-group btn-group-justified">
-<a class="btn btn-default btn-success" href="{{site.baseurl}}/teaching/mat411f20/syllabus/">Syllabus</a>
-<a class="btn btn-default btn-primary" href="{{site.baseurl}}/teaching/mat411f20/materials/">
+<a class="btn btn-default btn-success" href="{{site.baseurl}}/teaching/mat411s22/syllabus/">Syllabus</a>
+<a class="btn btn-default btn-primary" href="{{site.baseurl}}/teaching/mat411s22/materials/">
 <span class="hidden-xs">Course Materials</span><span class="visible-xs">Stuff</span>
 </a>
-<a class="btn btn-default btn-warning" href="{{site.baseurl}}/teaching/mat411f20/homework/">
+<a class="btn btn-default btn-warning" href="{{site.baseurl}}/teaching/mat411s22/homework/">
 <span class="hidden-xs">Homework</span><span class="visible-xs">HW</span>
 </a>
-<a class="btn btn-default btn-info" href="{{site.baseurl}}/teaching/mat411f20/journal/">Journal</a>
+<a class="btn btn-default btn-info" href="{{site.baseurl}}/teaching/mat411s22/journal/">Journal</a>
 </div>
 </div>
 </div>
@@ -39,71 +39,65 @@ I will not be covering every detail of the notes and the only way to achieve a s
 
 The notes will be released incrementally. Each link below is to a PDF file. If you've found an error or have suggestions for improvements, please let me know.
 
-<!-- <div class="alert alert-info" role="alert" style="margin: 10px 0 10px 0">
+<div class="alert alert-info" role="alert" style="margin: 10px 0 10px 0">
 <i class="fa fa-exclamation-triangle"></i>&nbsp; These notes are currently under construction and subject to change.
-</div> -->
+</div>
 
-- [An Inquiry-Based Approach to Abstract Algebra]({{site.baseurl}}/teaching/mat411f20/IBL-AbstractAlgebra.pdf) (complete set of notes)
+<!-- - [An Inquiry-Based Approach to Abstract Algebra]({{site.baseurl}}/teaching/mat411s22/IBL-AbstractAlgebra.pdf) (complete set of notes) -->
 
-- [Title Page and Table of Contents]({{site.baseurl}}/teaching/mat411f20/FrontMatter.pdf)
-- [Preface]({{site.baseurl}}/teaching/mat411f20/Preface.pdf)
-- [Chapter 1: Introduction]({{site.baseurl}}/teaching/mat411f20/Introduction.pdf)
-    - 1.1 What is Abstract Algebra?
+- [Title Page and Table of Contents]({{site.baseurl}}/teaching/mat411s22/FrontMatter.pdf)
+- [Preface]({{site.baseurl}}/teaching/mat411s22/Preface.pdf)
+- [Chapter 1: Introduction]({{site.baseurl}}/teaching/mat411s22/Introduction.pdf)
+    - 1.1 What is This Course All About?
     - 1.2 An Inquiry-Based Approach
-    - 1.3 Rules of the Game
-    - 1.4 Structure of the Notes
-    - 1.5 Some Minimal Guidance
-- [Chapter 2: An Introduction to Groups]({{site.baseurl}}/teaching/mat411f20/IntroGroups.pdf)
+    - 1.3 Structure of the Notes
+    - 1.4 Rules of the Game
+    - 1.5 Rights of the Learner
+    - 1.6 Some Minimal Guidance
+- [Chapter 2: An Introduction to Groups]({{site.baseurl}}/teaching/mat411s22/IntroGroups.pdf)
     - 2.1 A First Example
     - 2.2 Binary Operations
     - 2.3 Groups
     - 2.4 Generating Sets
     - 2.5 Group Tables
     - 2.6 Cayley Diagrams
-- [Chapter 3: Subgroups and Isomorphisms]({{site.baseurl}}/teaching/mat411f20/SubgroupsIsomorphisms.pdf)
+- [Chapter 3: Subgroups and Isomorphisms]({{site.baseurl}}/teaching/mat411s22/SubgroupsIsomorphisms.pdf)
     - 3.1 Subgroups
     - 3.2 Subgroup Lattices
     - 3.3 Isomorphisms
-- [Chapter 4: Families of Groups]({{site.baseurl}}/teaching/mat411f20/Families.pdf)
+- [Chapter 4: Families of Groups]({{site.baseurl}}/teaching/mat411s22/Families.pdf)
     - 4.1 Cyclic Groups
-        - [Proof of Theorem 4.34]({{site.baseurl}}/teaching/mat411f20/Theorem4.34.pdf)
-        - [Proof of Theorem 4.35]({{site.baseurl}}/teaching/mat411f20/Theorem4.35.pdf)
-        - [Solution to Problem 4.116]({{site.baseurl}}/teaching/mat411f20/Problem4.116.pdf)
+        <!-- - [Proof of Theorem 4.34]({{site.baseurl}}/teaching/mat411s22/Theorem4.34.pdf)
+        - [Proof of Theorem 4.35]({{site.baseurl}}/teaching/mat411s22/Theorem4.35.pdf)
+        - [Solution to Problem 4.116]({{site.baseurl}}/teaching/mat411s22/Problem4.116.pdf) -->
     - 4.2 Dihedral Groups
     - 4.3 Symmetric Groups
     - 4.4 Alternating Groups
-- [Chapter 5: Cosets, Lagrange's Theorem, and Normal Subgroups]({{site.baseurl}}/teaching/mat411f20/CosetsLagrangeNormal.pdf)
+- [Chapter 5: Cosets, Lagrange's Theorem, and Normal Subgroups]({{site.baseurl}}/teaching/mat411s22/CosetsLagrangeNormal.pdf)
     - 5.1 Cosets
     - 5.2 Lagrange's Theorem
     - 5.3 Normal Subgroups
-- [Chapter 6: Products and Quotients of Groups]({{site.baseurl}}/teaching/mat411f20/ProductsQuotients.pdf)
+- [Chapter 6: Products and Quotients of Groups]({{site.baseurl}}/teaching/mat411s22/ProductsQuotients.pdf)
     - 6.1 Products of Groups
-        - [Proof of Theorem 6.20]({{site.baseurl}}/teaching/mat411f20/Theorem6.20.pdf)
+        - [Proof of Theorem 6.20]({{site.baseurl}}/teaching/mat411s22/Theorem6.20.pdf)
     - 6.2 Quotients of Groups
-        - [Solution to Problem 6.33]({{site.baseurl}}/teaching/mat411f20/Problem6.33.pdf)
-        - [Solution to Problem 6.34]({{site.baseurl}}/teaching/mat411f20/Problem6.34.pdf)
-- [Chapter 7: Homomorphisms and the Isomorphism Theorems]({{site.baseurl}}/teaching/mat411f20/Homomorphisms.pdf)
+        - [Solution to Problem 6.33]({{site.baseurl}}/teaching/mat411s22/Problem6.33.pdf)
+        - [Solution to Problem 6.34]({{site.baseurl}}/teaching/mat411s22/Problem6.34.pdf)
+- [Chapter 7: Homomorphisms and the Isomorphism Theorems]({{site.baseurl}}/teaching/mat411s22/Homomorphisms.pdf)
     - 7.1 Homomorphisms
     - 7.2 The Isomorphism Theorems
-- [Chapter 8: An Introduction to Rings]({{site.baseurl}}/teaching/mat411f20/Rings.pdf)
+- [Chapter 8: An Introduction to Rings]({{site.baseurl}}/teaching/mat411s22/Rings.pdf)
     - 8.1 Definitions and Examples
     - 8.2 Ring Homomorphisms
     - 8.3 Ideals and Quotient Rings
     - 8.4 Maximal and Prime Ideals
-- [Appendix A: Elements of Style for Proofs]({{site.baseurl}}/teaching/mat411f20/ElementsOfStyle.pdf)
-- [Appendix B: Fancy Mathematical Terms]({{site.baseurl}}/teaching/mat411f20/FancyMathematicalTerms.pdf)
-- [Appendix C: Definitions in Mathematics]({{site.baseurl}}/teaching/mat411f20/Definitions.pdf)
+- [Appendix A: Elements of Style for Proofs]({{site.baseurl}}/teaching/mat411s22/ElementsOfStyle.pdf)
+- [Appendix B: Fancy Mathematical Terms]({{site.baseurl}}/teaching/mat411s22/FancyMathematicalTerms.pdf)
+- [Appendix C: Definitions in Mathematics]({{site.baseurl}}/teaching/mat411s22/Definitions.pdf)
 
 ## Miscellaneous Materials ##
-<!-- - [Student Contract]({{ site.baseurl }}/teaching/StudentContract.pdf) (PDF) -->
-- Abstract Algebra videos
-    - [What is Abstract Algebra? &#124; Socratica](https://www.youtube.com/watch?v=IP7nW_hKB7I&list=PLi01XoE8jYoi3SgnnGorR_XOW3IcK-TP6) (3:21 min)
-    - [Abstract Algebra: The definition of a Group &#124; Socratica](https://www.youtube.com/watch?v=QudbrUcVPxk&list=PLi01XoE8jYoi3SgnnGorR_XOW3IcK-TP6&index=3) (3:10 min)
-    - [Abstract Algebra: Motivation for the definition of a group &#124; Socratica](https://www.youtube.com/watch?v=yHq_yzYZV6U&list=PLi01XoE8jYoi3SgnnGorR_XOW3IcK-TP6&index=4) (2:04 min)
-    - [Group Definition (expanded) - Abstract Algebra &#124; Socratica](https://www.youtube.com/watch?v=g7L_r6zw4-c&list=PLi01XoE8jYoi3SgnnGorR_XOW3IcK-TP6&index=2) (11:14 min)
 - [Setting the Stage]({{ site.baseurl }}/teaching/SettingTheStage.pdf) (PDF)
 - [Living Proof]({{site.baseurl}}/teaching/LivingProof.pdf)
-<!-- - [Inquiry-Based Learning in Less Than Five Minutes](https://www.youtube.com/watch?v=QlwkerwaV2E) (4:37 min) -->
 - [The Secret to Raising Smart Kids &#124; Carol Dweck](https://www.scientificamerican.com/article/the-secret-to-raising-smart-kids1/) (article on Scientific American)
 - [7 Things Growth Mindset is Not](https://www.turnaroundusa.org/7-things-growth-mindset-is-not/) (article on Turn Around for Children)
 - Videos on Growth Mindset and Productive Failure
@@ -135,6 +129,6 @@ The notes will be released incrementally. Each link below is to a PDF file. If y
 ## Exams
 Below are links to the take-home portions of each exam. If you are interested in using LaTeX to type up your solutions, contact me and I will send you a link to the source file of the exam.
 
-- [Exam 1 (Part 2)]({{site.baseurl}}/teaching/mat411f20/411Exam1-Part2.pdf) (PDF). (Due by 11:59PM on <s>Wednesday, September 23</s> Friday, September 25)
-- [Exam 2 (Part 2)]({{site.baseurl}}/teaching/mat411f20/411Exam2-Part2.pdf) (PDF). (Due by 11:59PM on Monday, November 2)
-- [Exam 3 (Option 2)]({{site.baseurl}}/teaching/mat411f20/411Exam3-Option2.pdf) (PDF). (Due by 11:59PM on Monday, November 23)
+- [Exam 1 (Part 2)]({{site.baseurl}}/teaching/mat431f21/431Exam1-Part2.pdf) (PDF) (Due by 11:59PM on Tuesday, October 5)
+- [Exam 2 (Part 2)]({{site.baseurl}}/teaching/mat431f21/431Exam2-Part2.pdf) (PDF) (Due by class time on Wednesday, November 17)
+- [Final Exam (Part 2)]({{site.baseurl}}/teaching/mat431f21/431ExamFinal-Part2.pdf) (PDF) (Due by 4pm on Thursday, December 9)

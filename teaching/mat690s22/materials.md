@@ -7,35 +7,22 @@ title: Course Materials
 <ol class="breadcrumb">
   <li><a href="/"><i class="fa fa-home"></i></a></li>
   <li><a href="/teaching/">Teaching</a></li>
-  <li><a href="/teaching/mat511f21">MAT511</a></li>
+  <li><a href="/teaching/mat690s22">MAT690</a></li>
   <li class="active">Materials</li>
 </ol>
 
 <div class="row">
 <div class="col-xs-12">
 <div class="btn-group btn-group-justified">
-<a class="btn btn-default btn-success" href="{{site.baseurl}}/teaching/mat511f21/syllabus/">Syllabus</a>
-<a class="btn btn-default btn-primary" href="{{site.baseurl}}/teaching/mat511f21/materials/">Materials</a>
-<a class="btn btn-default btn-warning" href="{{site.baseurl}}/teaching/mat511f21/homework/">Homework</a>
+<a class="btn btn-default btn-success" href="{{site.baseurl}}/teaching/mat690s22/syllabus/">Syllabus</a>
+<a class="btn btn-default btn-primary" href="{{site.baseurl}}/teaching/mat690s22/materials/">Materials</a>
+<a class="btn btn-default btn-warning" href="{{site.baseurl}}/teaching/mat690s22/homework/">Homework</a>
 </div>
 </div>
 </div>
 
-## Problem Sequence ##
-We will not be using a traditional textbook this semester, but rather a problem sequence adopted for an [inquiry-based learning](http://maamathedmatters.blogspot.com/2013/05/what-heck-is-ibl.html) (IBL) approach to abstract algebra. The problem sequence will be written by me on the fly. The problems will be released incrementally.
-
-<!-- <div class="alert alert-info" role="alert" style="margin: 10px 0 10px 0">
-<i class="fa fa-exclamation-triangle"></i>&nbsp; These notes are currently under construction and subject to change.
-</div> -->
-
-- [Problem Sequence for MAT 511]({{ site.baseurl }}/teaching/mat511f21/511ProblemSequence.pdf) (PDF)
-
-I will not be covering every detail of the notes and the only way to achieve a sufficient understanding of the material is to be digesting the reading in a meaningful way.  You should be seeking clarification about the content of the notes whenever necessary by asking questions.  Here's one of my favorite quotes about reading mathematics.
-
-<blockquote>
-  <p>Don’t just read it; fight it! Ask your own questions, look for your own examples, discover your own proofs. Is the hypothesis necessary? Is the converse true? What happens in the classical special case? What about the degenerate cases? Where does the proof use the hypothesis?</p>
-  <footer><a href="http://en.wikipedia.org/wiki/Paul_Halmos">Paul Halmos</a></footer>
-</blockquote>
+## Course Materials ##
+There is no textbook for this course.  All course content will be covered via lectures and homework.
 
 ## Miscellaneous Materials ##
 - [Setting the Stage]({{ site.baseurl }}/teaching/SettingTheStage.pdf) (PDF)
@@ -65,12 +52,8 @@ I will not be covering every detail of the notes and the only way to achieve a s
 - [Is Mathematics Invented or Discovered? &#124; Roger Penrose](https://www.youtube.com/watch?v=TKlPj_qGIt8) (4:14 min)
 - [What is Mathematics? The Most Misunderstood Subject](https://www.fordham.edu/info/20603/what_math) (short article by Dr. Robert H. Lewis, Professor of Mathematics, Fordham University)
 
-<!-- - Pictures of board work that we ran out of time to discuss. *Note:* You should not assume that the solutions/proofs posted below are valid or sufficient.
-    - Coming soon. -->
-
 ## Exams
-Below are links to take-home exams. If you are interested in using LaTeX to type up your solutions, simply replace .pdf with .tex in the URL.
+Below are links to the take-home portions of each exam. If you are interested in using LaTeX to type up your solutions, contact me and I will send you a link to the source file of the exam.
 
-- [Exam 1]({{site.baseurl}}/teaching/mat511f21/511Exam1.pdf) (PDF) (Due by 11:59PM on Tuesday, October 5)
-- [Exam 2 (Part 2)]({{site.baseurl}}/teaching/mat511f21/511Exam2-Part2.pdf) (PDF) (Due by start of class on Wednesday, November 17)
-- [Final Exam (Part 2)]({{site.baseurl}}/teaching/mat511f21/511ExamFinal-Part2.pdf) (PDF) (Due by 4pm Thursday, December 9)
+- Exam 1 (Part 2). Coming soon.
+- Exam 2 (Part 2). Coming soon.
