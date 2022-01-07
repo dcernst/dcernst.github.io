@@ -47,6 +47,7 @@ The notes will be released incrementally. Each link below is to a PDF file. If y
 
 - [Title Page and Table of Contents]({{site.baseurl}}/teaching/mat411s22/FrontMatter.pdf)
 - [Preface]({{site.baseurl}}/teaching/mat411s22/Preface.pdf)
+- [Acknowledgments]({{site.baseurl}}/teaching/mat411s22/Acknowledgments.pdf)
 - [Chapter 1: Introduction]({{site.baseurl}}/teaching/mat411s22/Introduction.pdf)
     - 1.1 What is This Course All About?
     - 1.2 An Inquiry-Based Approach
