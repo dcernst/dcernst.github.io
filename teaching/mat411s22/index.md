@@ -36,7 +36,7 @@ Welcome to the course web page for the Spring 2022 manifestation of MAT 411: Int
     <strong>Semester:</strong> Spring 2022<br />
     <strong>Credits:</strong> 3<br />
     <strong>Section:</strong> 1<br />
-    <strong>Time:</strong> 11:20-12:20PM MWF<br />
+    <strong>Time:</strong> 11:30-12:20PM MWF<br />
     <strong>Location:</strong> Adel 223
     </div>
   </div>
