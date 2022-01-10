@@ -36,7 +36,7 @@ We’ll use this page to keep track of what has happened each day in class. It w
 ## Week 1 ##
 
 <ul class="fa-ul">
-  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, January 10:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, January 10:</b> First day!  After attempting to learn names, I gave a very quick tour of the course webpage and discussed in general terms what a typical class meeting would look like.  Next, I gave a brief summary of what "abstract algebra" is and then jumped into Chapter 2 and started discussing Spinpossible.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, January 12:</b> Coming soon.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Friday, January 14:</b> Coming soon.</li>
 </ul>
