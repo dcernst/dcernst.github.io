@@ -465,7 +465,7 @@ In summary, your final grade will be determined by your scores in the following 
 	<tr>
 		<td>Final Exam</td>
 		<td style="text-align: center;">20%</td>
-		<td>December 8 at 10:00AM-12:00PM</td>
+		<td>May 4 at 10:00AM-12:00PM</td>
 	</tr>
 	</tbody>
 </table>
