@@ -28,6 +28,6 @@ You are allowed and encouraged to work together on homework. Yet, each student i
 I reserve the right to modify the assignment if the need arises.  
 
 - **Homework 1:** Read the [syllabus]({{site.baseurl}}/teaching/mat690s22/syllabus/) and write down 5 important items. *Note:*  All of the exam dates only count as a single item. Also, create a free [Discord](http://discord.com) account, accept the invite to our Discord server, and post something about yourself in the #introductions channel. (Due Wednesday, January 12)
-- **Homework 2:**  Coming soon. (Due Wednesday, January 19)
+- **Homework 2:** Complete the problems found [here]({{site.baseurl}}/teaching/mat690s22/690HW2.pdf). (Due Wednesday, January 19)
 
 <!-- Complete the problems found [here]({{site.baseurl}}/teaching/mat690s22/526HW3.pdf).  -->
