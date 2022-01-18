@@ -38,7 +38,7 @@ We’ll use this page to keep track of what has happened each day in class. It w
 <ul class="fa-ul">
   <li><i class="fa-li far fa-calendar-check"></i><b>Monday, January 10:</b> First day!  After attempting to learn names, I gave a very quick tour of the course webpage and discussed in general terms what a typical class meeting would look like.  Next, I gave a brief summary of what "abstract algebra" is and then jumped into Chapter 2 and started discussing Spinpossible.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, January 12:</b> Great first day of presentations!  After addressing a few questions about the syllabus, we divided the class up into several small groups and then had SR/KB/KR, NH, AC, JO, and JI present Problems 2.2-2.6, respectively.  We will catch up on Problem 2.7 next time.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, January 14:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, January 14:</b> We had folks volunteer for presentations today. We had HP, RW, and AH present Problems 2.7, 2.8, and 2.11, respectively.  Along the way, I presented Problems 2.9 and 2.10.</li>
 </ul>
 
 ## Week 2 ##
