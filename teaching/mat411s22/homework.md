@@ -39,4 +39,4 @@ The following assignments are due at the beginning of the indicated class meetin
 - **Homework 3:** Read the [Preface]({{site.baseurl}}/teaching/mat411s22/Preface.pdf) and [Introduction]({{site.baseurl}}/teaching/mat411s22/Introduction.pdf). In addition, complete 2.1-2.7 in [Chapter 2: An Introduction to Groups]({{site.baseurl}}/teaching/mat411f20/IntroGroups.pdf). (Due Wednesday, January 12)
 - **Homework 4:** Take a peek at the three appendices. In addition, complete 2.8-2.14 in [Chapter 2: An Introduction to Groups]({{site.baseurl}}/teaching/mat411f20/IntroGroups.pdf). (Due Friday, January 14)
 - **Homework 5:** Complete 2.17-2.24 in [Chapter 2: An Introduction to Groups]({{site.baseurl}}/teaching/mat411f20/IntroGroups.pdf). (Due Wednesday, January 19)
-- **Homework 6:** Complete 2.26-2.28 (updated after class) in [Chapter 2: An Introduction to Groups]({{site.baseurl}}/teaching/mat411f20/IntroGroups.pdf). (Due Friday, January 21)
+- **Homework 6:** Complete 2.26-2.28 in [Chapter 2: An Introduction to Groups]({{site.baseurl}}/teaching/mat411f20/IntroGroups.pdf). (Due Friday, January 21)
