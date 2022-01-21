@@ -46,5 +46,13 @@ We’ll use this page to keep track of what has happened each day in class. It w
 <ul class="fa-ul">
   <li><i class="fa-li far fa-calendar-check"></i><b>Monday, January 17:</b> MLK Day! No classes.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, January 19:</b> Lots of great discussion today! We had SR, KB, DG, HJ, and PV present Problems 2.12, 2.13(a), 2.13(b), 2.14, and 2.17, respectively.  I also squeezed in some discussion of Problems 2.18 and 2.19.  We'll try to get caught up next time.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, January 21:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, January 21:</b> Another great day!  We had KF, TR, NH, MW, and MT present Problems 2.20, 2.21, 2.22, 2.23, and 2.24, respectively.</li>
+</ul>
+
+## Week 3 ##
+
+<ul class="fa-ul">
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, January 24:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, January 26:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, January 28:</b> Coming soon.</li>
 </ul>
