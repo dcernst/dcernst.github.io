@@ -41,3 +41,4 @@ The following assignments are due at the beginning of the indicated class meetin
 - **Homework 5:** Complete 2.17-2.24 in [Chapter 2: An Introduction to Groups]({{site.baseurl}}/teaching/mat411f20/IntroGroups.pdf). (Due Wednesday, January 19)
 - **Homework 6:** Complete 2.26-2.28 in [Chapter 2: An Introduction to Groups]({{site.baseurl}}/teaching/mat411f20/IntroGroups.pdf). (Due Friday, January 21)
 - **Homework 7:** Complete 2.29, 2.31, 2.32 in [Chapter 2: An Introduction to Groups]({{site.baseurl}}/teaching/mat411f20/IntroGroups.pdf). (Due Monday, January 24)
+- **Homework 8:** Complete 2.34-2.40 in [Chapter 2: An Introduction to Groups]({{site.baseurl}}/teaching/mat411f20/IntroGroups.pdf). (Due Wednesday, January 26)
