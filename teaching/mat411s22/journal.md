@@ -52,7 +52,7 @@ We’ll use this page to keep track of what has happened each day in class. It w
 ## Week 3 ##
 
 <ul class="fa-ul">
-  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, January 24:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, January 24:</b> We got caught up! We had ND, MH, PB, and BH present Problem 2.26(b), Problem 2.27, Theorem 2.29, and Problem 2.32, respectively.  Along the way, we also discussed Problems 2.26(a), 2.28, 2.31(a), and 2.31(b).</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, January 26:</b> Coming soon.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Friday, January 28:</b> Coming soon.</li>
 </ul>
