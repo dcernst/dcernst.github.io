@@ -53,6 +53,6 @@ We’ll use this page to keep track of what has happened each day in class. It w
 
 <ul class="fa-ul">
   <li><i class="fa-li far fa-calendar-check"></i><b>Monday, January 24:</b> We got caught up! We had ND, MH, PB, and BH present Problem 2.26(b), Problem 2.27, Theorem 2.29, and Problem 2.32, respectively.  Along the way, we also discussed Problems 2.26(a), 2.28, 2.31(a), and 2.31(b).</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, January 26:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, January 26:</b> After reviewing the defintion of a group, we covered Problem 2.34, Problem 2.35, Problem 2.36, Theorem 2.37, and Problem 2.38. KC and JO presented Problem 2.34 and Theorem 2.37, respectively, while I led discussion on the rest.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Friday, January 28:</b> Coming soon.</li>
 </ul>
