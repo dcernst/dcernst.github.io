@@ -118,8 +118,10 @@ The notes will be released incrementally. Each link below is to a PDF file. If y
 - [Is Mathematics Invented or Discovered? &#124; Roger Penrose](https://www.youtube.com/watch?v=TKlPj_qGIt8) (4:14 min)
 - [What is Mathematics? The Most Misunderstood Subject](https://www.fordham.edu/info/20603/what_math) (short article by Dr. Robert H. Lewis, Professor of Mathematics, Fordham University)
 
-<!-- - Pictures of board work that we ran out of time to discuss. *Note:* You should not assume that the solutions/proofs posted below are valid or sufficient.
-    - Coming soon. -->
+- Pictures of board work that we ran out of time to discuss. *Note:* You should not assume that the solutions/proofs posted below are valid or sufficient.
+    - [Theorem 2.44]({{site.baseurl}}/teaching/mat411s22/Theorem2.44.pdf)
+    - [Theorem 2.47(a)]({{site.baseurl}}/teaching/mat411s22/Theorem2.47(a).pdf)
+    - [Theorem 2.47(b)]({{site.baseurl}}/teaching/mat411s22/Theorem2.47(b).pdf)
 
 ## Exams
 Below are links to the take-home portions of each exam. If you are interested in using LaTeX to type up your solutions, contact me and I will send you a link to the source file of the exam.
