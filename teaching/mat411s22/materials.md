@@ -119,9 +119,9 @@ The notes will be released incrementally. Each link below is to a PDF file. If y
 - [What is Mathematics? The Most Misunderstood Subject](https://www.fordham.edu/info/20603/what_math) (short article by Dr. Robert H. Lewis, Professor of Mathematics, Fordham University)
 
 - Pictures of board work that we ran out of time to discuss. *Note:* You should not assume that the solutions/proofs posted below are valid or sufficient.
-    - [Theorem 2.44]({{site.baseurl}}/teaching/mat411s22/Theorem2.44.pdf)
-    - [Theorem 2.47(a)]({{site.baseurl}}/teaching/mat411s22/Theorem2.47(a).pdf)
-    - [Theorem 2.47(b)]({{site.baseurl}}/teaching/mat411s22/Theorem2.47(b).pdf)
+    - [Theorem 2.44]({{site.baseurl}}/teaching/mat411s22/Theorem2.44.jpeg)
+    - [Theorem 2.47(a)]({{site.baseurl}}/teaching/mat411s22/Theorem2.47(a).jpeg)
+    - [Theorem 2.47(b)]({{site.baseurl}}/teaching/mat411s22/Theorem2.47(b).jpeg)
 
 ## Exams
 Below are links to the take-home portions of each exam. If you are interested in using LaTeX to type up your solutions, contact me and I will send you a link to the source file of the exam.
