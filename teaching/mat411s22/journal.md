@@ -60,7 +60,7 @@ We’ll use this page to keep track of what has happened each day in class. It w
 ## Week 4 ##
 
 <ul class="fa-ul">
-  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, January 31:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, January 31:</b> Well, we got behind again.  But I think it is worth taking our time on some of these problems.  We had SC, LS, and HJ present Theorems 2.44, 2.47(a), and 2.47(b), respectively.  I also discussed Theorem 2.47(c) and Problem 2.48.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, February 2:</b> Coming soon.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Friday, February 4:</b> Coming soon.</li>
 </ul>
