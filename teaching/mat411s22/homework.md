@@ -46,4 +46,4 @@ The following assignments are due at the beginning of the indicated class meetin
 - **Homework 10:** Complete 2.48, 2.52, 2.55 in [Chapter 2: An Introduction to Groups]({{site.baseurl}}/teaching/mat411s22/IntroGroups.pdf). (Due Monday, January 31)
 - **Homework 11:** Complete 2.56-2.60 in [Chapter 2: An Introduction to Groups]({{site.baseurl}}/teaching/mat411s22/IntroGroups.pdf). (Due Wednesday, February 2)
 - **Homework 12:** Complete 2.61-2.65 in [Chapter 2: An Introduction to Groups]({{site.baseurl}}/teaching/mat411s22/IntroGroups.pdf). (Due Friday, February 4)
-- **Homework 12:** Complete 2.66-2.69, 2.71, 2.72 in [Chapter 2: An Introduction to Groups]({{site.baseurl}}/teaching/mat411s22/IntroGroups.pdf). (Due Monday, February 7)
+- **Homework 13:** Complete 2.66-2.69, 2.71, 2.72 in [Chapter 2: An Introduction to Groups]({{site.baseurl}}/teaching/mat411s22/IntroGroups.pdf). (Due Monday, February 7)
