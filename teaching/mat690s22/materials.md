@@ -24,6 +24,8 @@ title: Course Materials
 ## Course Materials ##
 There is no textbook for this course.  All course content will be covered via lectures and homework.
 
+- [Sorting graph for $S_4$]({{ site.baseurl }}/teaching/SortingGraphS4AllTranspositions.png) using all transpositions as generating set with interval between identity and $(1,2,\ldots,n)$ highlighted. Figure borrowed from page 62 of *Eulerian Numbers* by T. Kyle Petersen.
+
 ## Miscellaneous Materials ##
 - [Setting the Stage]({{ site.baseurl }}/teaching/SettingTheStage.pdf) (PDF)
 - [Living Proof]({{site.baseurl}}/teaching/LivingProof.pdf)
