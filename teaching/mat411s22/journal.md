@@ -68,7 +68,7 @@ We’ll use this page to keep track of what has happened each day in class. It w
 ## Week 5 ##
 
 <ul class="fa-ul">
-  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, Febuary 7:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, Febuary 7:</b> Productive day.  We had ND, KF, LB, LS, and SR present Theorem 2.65, Problem 2.68, Problem 2.69, Problem 2.71(abc), and Problem 2.71(def), respectively.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, February 9:</b> Coming soon.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Friday, February 11:</b> Coming soon.</li>
 </ul>
