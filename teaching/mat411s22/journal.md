@@ -64,3 +64,11 @@ We’ll use this page to keep track of what has happened each day in class. It w
   <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, February 2:</b> We had JB, JI, and KB present Theorem 2.52, Problem 2.55, and Problem 2.56, respectively.  We also squeezed in a discussion of Problem 2.60.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Friday, February 4:</b> Coming soon.</li>
 </ul>
+
+## Week 5 ##
+
+<ul class="fa-ul">
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, Febuary 7:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, February 9:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, February 11:</b> Coming soon.</li>
+</ul>
