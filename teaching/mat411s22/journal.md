@@ -62,7 +62,7 @@ We’ll use this page to keep track of what has happened each day in class. It w
 <ul class="fa-ul">
   <li><i class="fa-li far fa-calendar-check"></i><b>Monday, January 31:</b> Well, we got behind again.  But I think it is worth taking our time on some of these problems.  We had SC, LS, and HJ present Theorems 2.44, 2.47(a), and 2.47(b), respectively.  I also discussed Theorem 2.47(c) and Problem 2.48.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, February 2:</b> We had JB, JI, and KB present Theorem 2.52, Problem 2.55, and Problem 2.56, respectively.  We also squeezed in a discussion of Problem 2.60.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, February 4:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, February 4:</b> We had MT, JC, JO, and TH present Problems 2.57, 2.59, 2.62, and 2.64, respectively.  We also discussed Problems 2.58, 2.61, and 2.63.</li>
 </ul>
 
 ## Week 5 ##
