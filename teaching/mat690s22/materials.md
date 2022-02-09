@@ -25,8 +25,8 @@ title: Course Materials
 There is no textbook for this course.  All course content will be covered via lectures and homework.
 
 - [Sorting graph for $S_4$]({{ site.baseurl }}/teaching/mat690s22/SortingGraphS4AllTranspositions.png) using all transpositions as generating set with interval between identity and $(1,2,\ldots,n)$ highlighted. Figure borrowed from page 62 of *Eulerian Numbers* by T. Kyle Petersen.
-- [Matsumoto Graph for longest element in $S_3$]({{ site.baseurl }}/teaching/mat690s22/MatsumotoS3.pdf)
 - [Matsumoto Graph for longest element in $S_4$]({{ site.baseurl }}/teaching/mat690s22/MatsumotoS4.pdf)
+- [Matsumoto Graph for longest element in $S_5$]({{ site.baseurl }}/teaching/mat690s22/MatsumotoS5.pdf)
 
 ## Miscellaneous Materials ##
 - [Setting the Stage]({{ site.baseurl }}/teaching/SettingTheStage.pdf) (PDF)
