@@ -123,7 +123,8 @@ The notes will be released incrementally. Each link below is to a PDF file. If y
     - [Theorem 2.47(a)]({{site.baseurl}}/teaching/mat411s22/Theorem2.47(a).jpeg)
     - [Theorem 2.47(b)]({{site.baseurl}}/teaching/mat411s22/Theorem2.47(b).jpeg)
     - [Theorem 2.65]({{site.baseurl}}/teaching/mat411s22/Theorem2.65.jpeg)
-
+    - [Problem 2.72(abcdef)]({{site.baseurl}}/teaching/mat411s22/Problem2.72(abcdef).jpeg), [Problem 2.72(g)]({{site.baseurl}}/teaching/mat411s22/Problem2.72(g).jpeg)
+    
 ## Exams
 Below are links to the take-home portions of each exam. If you are interested in using LaTeX to type up your solutions, contact me and I will send you a link to the source file of the exam.
 
