@@ -76,7 +76,7 @@ We’ll use this page to keep track of what has happened each day in class. It w
 ## Week 6 ##
 
 <ul class="fa-ul">
-  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, Febuary 14:</b>Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, Febuary 14:</b> After MT revisited Problem 2.83(b), we cranked through Problems 3.1-3.3, and then MH presented Problem 3.5.  With the time left, we discussed the forward implication of Theorem 3.6.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, February 16:</b> Coming soon.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Friday, February 18:</b> Coming soon.</li>
 </ul>
