@@ -69,6 +69,14 @@ We’ll use this page to keep track of what has happened each day in class. It w
 
 <ul class="fa-ul">
   <li><i class="fa-li far fa-calendar-check"></i><b>Monday, Febuary 7:</b> Productive day.  We had ND, KF, LB, LS, and SR present Theorem 2.65, Problem 2.68, Problem 2.69, Problem 2.71(abc), and Problem 2.71(def), respectively.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, February 9:</b> Coming soon.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, February 11:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, February 9:</b> We kicked off with reviewing on the Cayley diagrams in Problem 2.72 and then AH presented Problem 2.73. With the time we had left, we discussed Problem 2.75, Problem 2.76, and Theorem 2.77.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, February 11:</b> Wildly productive day!  We had JB/SR, BH, PB, KF, KC, and MW present Theorem 2.78, Problem 2.79, Theorem 2.80, Problem 2.82(a), Problem 2.82(b), and Problem 2.83(a), respectively..</li>
+</ul>
+
+## Week 6 ##
+
+<ul class="fa-ul">
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, Febuary 14:</b>Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, February 16:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, February 18:</b> Coming soon.</li>
 </ul>
