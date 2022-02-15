@@ -51,3 +51,4 @@ The following assignments are due at the beginning of the indicated class meetin
 - **Homework 15:** Complete 2.78-2.80, 2.82, 2.83 in [Chapter 2: An Introduction to Groups]({{site.baseurl}}/teaching/mat411s22/IntroGroups.pdf). Problem 2.81 is optional. (Due Friday, February 11)
 - **Homework 16:** Complete 3.1-3.3, 3.5-3.9 in [Chapter 3: Subgroups and Isomorphisms]({{site.baseurl}}/teaching/mat411s22/SubgroupsIsomorphisms.pdf). (Due Monday, February 14)
 - **Homework 17:** Complete 3.10, 3.12-3.14 in [Chapter 3: Subgroups and Isomorphisms]({{site.baseurl}}/teaching/mat411s22/SubgroupsIsomorphisms.pdf). (Due Wednesday, February 16)
+- **Homework 18:** Complete 3.15-3.22 in [Chapter 3: Subgroups and Isomorphisms]({{site.baseurl}}/teaching/mat411s22/SubgroupsIsomorphisms.pdf). (Due Friday, February 18)
