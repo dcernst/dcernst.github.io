@@ -77,6 +77,6 @@ We’ll use this page to keep track of what has happened each day in class. It w
 
 <ul class="fa-ul">
   <li><i class="fa-li far fa-calendar-check"></i><b>Monday, Febuary 14:</b> After MT revisited Problem 2.83(b), we cranked through Problems 3.1-3.3, and then MH presented Problem 3.5.  With the time left, we discussed the forward implication of Theorem 3.6.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, February 16:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, February 16:</b> We had SR, RW, KB, and TR present Theorem 3.6, Theorem 3.10, Problem 3.12, and Problem 3.13, respectively.  Along the way, I discussed 3.7-3.9.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Friday, February 18:</b> Coming soon.</li>
 </ul>
