@@ -33,3 +33,4 @@ I reserve the right to modify the assignment if the need arises.
 - **Homework 4:** Complete the problems found [here]({{site.baseurl}}/teaching/mat690s22/690HW4.pdf). (Due Monday, February 7)
 - **Homework 5:** Complete the problems found [here]({{site.baseurl}}/teaching/mat690s22/690HW5.pdf). (Due Monday, February 14)
 - **Homework 6:** Complete the problems found [here]({{site.baseurl}}/teaching/mat690s22/690HW6.pdf). (Due Wednesday, February 23)
+- **Homework 7:** Complete the problems found [here]({{site.baseurl}}/teaching/mat690s22/690HW7.pdf). (Due Wednesday, March 2)
