@@ -85,6 +85,14 @@ We’ll use this page to keep track of what has happened each day in class. It w
 
 <ul class="fa-ul">
   <li><i class="fa-li far fa-calendar-check"></i><b>Monday, Febuary 21:</b> After discussing the upcoming exam, we jumped into discussing problems. I presented Theorem 3.21, Theorem 3.23, and part of Problem 3.24.  Along the way, KD presented Problem 3.22.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, February 23:</b> The students took the in-class portion of Exam 1.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, February 25:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, February 23:</b> Roughly half the students took the in-class portion of Exam 1.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, February 25:</b> Due to the weather on Wednesday, the rest of the class took Exam 1.</li>
+</ul>
+
+## Week 8 ##
+
+<ul class="fa-ul">
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, Febuary 28:</b> After handing back the in-class exams, I briefly discussed a few of the problems from the exam. With the time we had left, we worked through computing the centers for $D_4$ and $Q_8$.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, February 23:</b> Roughly half the students took the in-class portion of Exam 1.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, February 25:</b> Due to the weather on Wednesday, the rest of the class took Exam 1.</li>
 </ul>
