@@ -92,7 +92,7 @@ We’ll use this page to keep track of what has happened each day in class. It w
 ## Week 8 ##
 
 <ul class="fa-ul">
-  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, Febuary 28:</b> After handing back the in-class exams, I briefly discussed a few of the problems from the exam. With the time we had left, we worked through computing the centers for $D_4$ and $Q_8$.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, February 23:</b> Roughly half the students took the in-class portion of Exam 1.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, February 25:</b> Due to the weather on Wednesday, the rest of the class took Exam 1.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, Febuary 28:</b> After handing back the in-class exams, I briefly discussed a few of the problems from the exam. With the time we had left, we worked through computing the centers for $D_4$ and $Q_8$ and then started discussing subgroup lattices.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, March 2:</b> We kicked off by discussing the solution to Problem 3 on the in-class portion of Exam 1. Next, we cranked through the construction of several subgroup lattices and then discussed Theorem 3.26, Problem 3.27, and Theorem 3.28.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, March 4:</b> Coming soon.</li>
 </ul>
