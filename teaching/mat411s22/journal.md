@@ -94,5 +94,13 @@ We’ll use this page to keep track of what has happened each day in class. It w
 <ul class="fa-ul">
   <li><i class="fa-li far fa-calendar-check"></i><b>Monday, Febuary 28:</b> After handing back the in-class exams, I briefly discussed a few of the problems from the exam. With the time we had left, we worked through computing the centers for $D_4$ and $Q_8$ and then started discussing subgroup lattices.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, March 2:</b> We kicked off by discussing the solution to Problem 3 on the in-class portion of Exam 1. Next, we cranked through the construction of several subgroup lattices and then discussed Theorem 3.26, Problem 3.27, and Theorem 3.28.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, March 4:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, March 4:</b> I continued lecturing. We tinkered with a couple additional subgroup lattices and then started discussing isomorophisms and matchings of Cayley diagrams.</li>
+</ul>
+
+## Week 9 ##
+
+<ul class="fa-ul">
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, March 7:</b> After a discussion of matching Cayley diagrams versus matching subgroup lattices, we had ND, KC, SC, and MB present Problems 3.32, 3.39, 3.40, and 3.41, respectively.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, March 9:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, March 11:</b> Coming soon.</li>
 </ul>
