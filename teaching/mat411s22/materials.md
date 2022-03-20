@@ -70,7 +70,8 @@ The notes will be released incrementally. Each link below is to a PDF file. If y
     - 4.1 Cyclic Groups
     - 4.2 Dihedral Groups
     - 4.3 Symmetric Groups
-    - 4.4 Alternating Groups
+    - 4.4 Permutation Groups and Cayley's Theorem
+    - 4.5 Alternating Groups
 - [Chapter 5: Cosets, Lagrange's Theorem, and Normal Subgroups]({{site.baseurl}}/teaching/mat411s22/CosetsLagrangeNormal.pdf)
     - 5.1 Cosets
     - 5.2 Lagrange's Theorem
