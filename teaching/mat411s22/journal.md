@@ -101,6 +101,14 @@ We’ll use this page to keep track of what has happened each day in class. It w
 
 <ul class="fa-ul">
   <li><i class="fa-li far fa-calendar-check"></i><b>Monday, March 7:</b> After a discussion of matching Cayley diagrams versus matching subgroup lattices, we had ND, KC, SC, and MB present Problems 3.32, 3.39, 3.40, and 3.41, respectively.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, March 9:</b> Coming soon.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, March 11:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, March 9:</b> We had MW, SR, and KR present Problems 3.43, 3.50, and 3.51(a), respectively. With the time we had left, we discussed the three ways to verify whether two groups are isomorphic and cranked through Problem 3.49.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, March 11:</b> After revisiting Problem 3.51(a), we had TH, JI, and SR present Problem 3.51(b), Problem 3.51(c), and Problem 3.52, respectively. Next, we discussed Theorems 3.53 and 3.54.  We will get caught up on the stuff we didn't get to after spring break.</li>
+</ul>
+
+## Week 10 ##
+
+<ul class="fa-ul">
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, March 21:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, March 23:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, March 25:</b> Coming soon.</li>
 </ul>
