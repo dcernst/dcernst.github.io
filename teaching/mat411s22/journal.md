@@ -110,5 +110,13 @@ We’ll use this page to keep track of what has happened each day in class. It w
 <ul class="fa-ul">
   <li><i class="fa-li far fa-calendar-check"></i><b>Monday, March 21:</b> We discussed 3.54-3.60.  Along the way, MT presented a portion of Theorem 3.57.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, March 23:</b> Exciting day!  At least I was excited;) Together we discussed 3.61-3.65, 3.66(b). Along the way, I made regular references to analogous situtations in linear algebra.  With the few mintues we had left, KC presented Problem 3.66(a).</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, March 25:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, March 25:</b> Ian Williams covered for me while I was out of town. NH and MH presented Theorems 3.65 and 3.67, respectively, and then Ian led discussions on 4.1-4.4.</li>
+</ul>
+
+## Week 11 ##
+
+<ul class="fa-ul">
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, March 28:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, March 30:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, April 1:</b> Coming soon.</li>
 </ul>
