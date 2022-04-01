@@ -117,6 +117,14 @@ We’ll use this page to keep track of what has happened each day in class. It w
 
 <ul class="fa-ul">
   <li><i class="fa-li far fa-calendar-check"></i><b>Monday, March 28:</b> I lectured my ass off today!  Roughly, we covered 4.5-4.21.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, March 30:</b> Coming soon.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, April 1:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, March 30:</b> More lecturing, even though that wasn't the plan. We discussed 4.24-4.35.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, April 1:</b> We had KR, JO, AH, and MT present Problem 4.36, Problem 4.37, Problem 4.38, and Theorem 4.41, respectively.</li>
+</ul>
+
+## Week 12 ##
+
+<ul class="fa-ul">
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, April 4:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, April 6:</b> The students took the in-class portion of Exam 2.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, April 8:</b> Coming soon.</li>
 </ul>
