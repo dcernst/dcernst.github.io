@@ -124,7 +124,7 @@ We’ll use this page to keep track of what has happened each day in class. It w
 ## Week 12 ##
 
 <ul class="fa-ul">
-  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, April 4:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, April 4:</b> We had HP, LS, SR, and DG present Problems 4.42, 4.46, 4.47, and 4.49, respectively.  Along the way, we briefly discussed Corollary 4.43 and Theorem 4.44 and got started on a proof for Theorem 4.45.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, April 6:</b> The students took the in-class portion of Exam 2.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Friday, April 8:</b> Coming soon.</li>
 </ul>
