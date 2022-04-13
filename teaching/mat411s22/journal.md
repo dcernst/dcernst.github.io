@@ -126,5 +126,29 @@ We’ll use this page to keep track of what has happened each day in class. It w
 <ul class="fa-ul">
   <li><i class="fa-li far fa-calendar-check"></i><b>Monday, April 4:</b> We had HP, LS, SR, and DG present Problems 4.42, 4.46, 4.47, and 4.49, respectively.  Along the way, we briefly discussed Corollary 4.43 and Theorem 4.44 and got started on a proof for Theorem 4.45.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, April 6:</b> The students took the in-class portion of Exam 2.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, April 8:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, April 8:</b> I wrapped up the proof of Theorem 4.44 and then discussed cosets and introduced the quotient process. We tinkered with several examples.</li>
+</ul>
+
+## Week 13 ##
+
+<ul class="fa-ul">
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, April 11:</b> We started discussing the symmetric group.  We more or less covered 4.67-4.87.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, April 13:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, April 15:</b> Coming soon.</li>
+</ul>
+
+## Week 14 ##
+
+<ul class="fa-ul">
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, April 18:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, April 20:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, April 22:</b> Coming soon.</li>
+</ul>
+
+## Week 15 ##
+
+<ul class="fa-ul">
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, April 25:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, April 27:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, April 29:</b> Coming soon.</li>
 </ul>
