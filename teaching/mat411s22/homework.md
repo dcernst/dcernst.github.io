@@ -62,3 +62,4 @@ The following assignments are due at the beginning of the indicated class meetin
 - **Homework 26:** Complete 4.36-4.38 in [Chapter 4: Families of Groups]({{site.baseurl}}/teaching/mat411s22/Families.pdf). In addition, read and digest all the problems that were not assigned along the way. (Due Wednesday, March 30)
 - **Homework 27:** Complete 4.41, 4.42, 4.45 in [Chapter 4: Families of Groups]({{site.baseurl}}/teaching/mat411s22/Families.pdf). In addition, read and digest all the problems that were not assigned along the way. (Due Friday, April 1)
 - **Homework 28:** Complete 4.46, 4.47, 4.49 in [Chapter 4: Families of Groups]({{site.baseurl}}/teaching/mat411s22/Families.pdf). In addition, read and digest all the problems that were not assigned along the way. (Due Monday, April 4)
+- **Homework 29:** Complete 4.115, 4.116, 4.117, 4.119, 4.120, 4.123, 4.125 in [Chapter 4: Families of Groups]({{site.baseurl}}/teaching/mat411s22/Families.pdf). (Due Monday, April 18)
