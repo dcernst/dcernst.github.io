@@ -133,8 +133,8 @@ We’ll use this page to keep track of what has happened each day in class. It w
 
 <ul class="fa-ul">
   <li><i class="fa-li far fa-calendar-check"></i><b>Monday, April 11:</b> We started discussing the symmetric group.  We more or less covered 4.67-4.87.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, April 13:</b> Coming soon.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, April 15:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, April 13:</b> More lecturing.  We covered the rest of Section 4.3.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, April 15:</b> We reviewed a few key ideas from Section 4.3 and then did a quick summary of Cayley's Theorem.  With the few minutes we had left at the end of class, we introduced the parity of a permutation and started discussing the alternating group.</li>
 </ul>
 
 ## Week 14 ##
