@@ -140,7 +140,7 @@ We’ll use this page to keep track of what has happened each day in class. It w
 ## Week 14 ##
 
 <ul class="fa-ul">
-  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, April 18:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, April 18:</b> After splitting the class up into small groups, we had DG/MH, HJ/ND, JC, and SR/RW present Problem 4.115, Problem 4.116, Problem 4.117, and Theorem 4.119, respectively.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, April 20:</b> Coming soon.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Friday, April 22:</b> Coming soon.</li>
 </ul>
