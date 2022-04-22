@@ -65,4 +65,4 @@ The following assignments are due at the beginning of the indicated class meetin
 - **Homework 29:** Complete 4.115, 4.116, 4.117, 4.119, 4.120, 4.123, 4.125 in [Chapter 4: Families of Groups]({{site.baseurl}}/teaching/mat411s22/Families.pdf). (Due Monday, April 18)
 - **Homework 30:** Complete 6.26-6.29 in [Chapter 6: Products and Quotients of Groups]({{site.baseurl}}/teaching/mat411s22/ProductsQuotients.pdf). (Due Wednesday, April 20)
 - **Homework 31:** Complete 6.34, any three in 6.35, and any five in 6.36 in [Chapter 6: Products and Quotients of Groups]({{site.baseurl}}/teaching/mat411s22/ProductsQuotients.pdf). (Due Friday, April 22)
-- **Homework 32:** Carefully read [Chapter 7: Homomorphisms and the Isomorphism Theorems]({{site.baseurl}}/teaching/mat411s22/Homomorphisms.pdf) up to Definition 7.8 and then complete ???. (Due Monday, April 25)
+- **Homework 32:** Carefully read [Chapter 7: Homomorphisms and the Isomorphism Theorems]({{site.baseurl}}/teaching/mat411s22/Homomorphisms.pdf) up to Definition 7.8 and then complete 7.9 and 7.11. (Due Monday, April 25)
