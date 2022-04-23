@@ -43,7 +43,7 @@ The notes will be released incrementally. Each link below is to a PDF file. If y
 <i class="fa fa-exclamation-triangle"></i>&nbsp; These notes are currently under construction and subject to change.
 </div>
 
-<!-- - [An Inquiry-Based Approach to Abstract Algebra]({{site.baseurl}}/teaching/mat411s22/IBL-AbstractAlgebra.pdf) (complete set of notes) -->
+- [An Inquiry-Based Approach to Abstract Algebra]({{site.baseurl}}/teaching/mat411s22/IBL-AbstractAlgebra.pdf) (complete set of notes)
 
 - [Title Page and Table of Contents]({{site.baseurl}}/teaching/mat411s22/FrontMatter.pdf)
 - [Preface]({{site.baseurl}}/teaching/mat411s22/Preface.pdf)
@@ -132,4 +132,4 @@ Below are links to the take-home portions of each exam. If you are interested in
 
 - [Exam 1 (Part 2)]({{site.baseurl}}/teaching/mat411s22/411Exam1-Part2.pdf). This portion of the exam is due by the beginning of class on <s>Wednesday, March 2</s> **Friday, March 4**.
 - [Exam 2 (Part 2)]({{site.baseurl}}/teaching/mat411s22/411Exam2-Part2.pdf). This portion of the exam is due by the beginning of class on **Friday, April 15**.
-- Final Exam (Part 2). Coming soon.
+- [Final Exam (Part 2)]({{site.baseurl}}/teaching/mat411s22/411ExamFinal-Part2.pdf). This portion of the exam is due by 5pm on **Thursday, May 5**.
