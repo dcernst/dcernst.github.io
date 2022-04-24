@@ -27,6 +27,7 @@ There is no textbook for this course.  All course content will be covered via le
 - [Sorting graph for $S_4$]({{ site.baseurl }}/teaching/mat690s22/SortingGraphS4AllTranspositions.png) using all transpositions as generating set with interval between identity and $(1,2,\ldots,n)$ highlighted. Figure borrowed from page 62 of *Eulerian Numbers* by T. Kyle Petersen.
 - [Matsumoto Graph for longest element in $S_4$]({{ site.baseurl }}/teaching/mat690s22/MatsumotoS4.pdf)
 - [Matsumoto Graph for longest element in $S_5$]({{ site.baseurl }}/teaching/mat690s22/MatsumotoS5.pdf)
+- [Final Exam]({{site.baseurl}}/teaching/mat690s22/690ExamFinal.pdf). This exam is due by noon on **Friday, May 6**.
 
 ## Miscellaneous Materials ##
 - [Setting the Stage]({{ site.baseurl }}/teaching/SettingTheStage.pdf) (PDF)
@@ -56,7 +57,5 @@ There is no textbook for this course.  All course content will be covered via le
 - [Is Mathematics Invented or Discovered? &#124; Roger Penrose](https://www.youtube.com/watch?v=TKlPj_qGIt8) (4:14 min)
 - [What is Mathematics? The Most Misunderstood Subject](https://www.fordham.edu/info/20603/what_math) (short article by Dr. Robert H. Lewis, Professor of Mathematics, Fordham University)
 
-## Exams
-Below are links to the take-home portions of each exam. If you are interested in using LaTeX to type up your solutions, contact me and I will send you a link to the source file of the exam.
-
-- [Final Exam]({{site.baseurl}}/teaching/mat690s22/690ExamFinal.pdf). This exam is due by noon on **Friday, May 6**.
+<!-- ## Exams
+Below are links to the take-home portions of each exam. If you are interested in using LaTeX to type up your solutions, contact me and I will send you a link to the source file of the exam. -->
