@@ -59,5 +59,4 @@ There is no textbook for this course.  All course content will be covered via le
 ## Exams
 Below are links to the take-home portions of each exam. If you are interested in using LaTeX to type up your solutions, contact me and I will send you a link to the source file of the exam.
 
-- Midterm Exam (Part 2). Coming soon.
-- Final Exam (Part 2). Coming soon.
+- [Final Exam]({{site.baseurl}}/teaching/mat690s22/690ExamFinal.pdf). This exam is due by noon on **Friday, May 6**.
