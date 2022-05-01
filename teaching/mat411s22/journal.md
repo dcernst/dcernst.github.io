@@ -141,14 +141,14 @@ We’ll use this page to keep track of what has happened each day in class. It w
 
 <ul class="fa-ul">
   <li><i class="fa-li far fa-calendar-check"></i><b>Monday, April 18:</b> After splitting the class up into small groups, we had DG/MH, HJ/ND, JC, and SR/RW present Problem 4.115, Problem 4.116, Problem 4.117, and Theorem 4.119, respectively.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, April 20:</b> Coming soon.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, April 22:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, April 20:</b> Very productive day!  We had MB, JB, LS, AH, KF,, TH, and ND presented Problems 4.120, 4.125, 6.26, 6.27, 6.28(a), 6.28(b), 6.29(a), and 6.29(b), respectively.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, April 22:</b> It was mostly me lecturing today.  I reviewed the big picture of normal subgroups and quotient groups.  Along the way, we discussed 6.31, 6.32, 6.33, 6.34, and 6.36.</li>
 </ul>
 
 ## Week 15 ##
 
 <ul class="fa-ul">
-  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, April 25:</b> Coming soon.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, April 27:</b> Coming soon.</li>
-  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, April 29:</b> Coming soon.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, April 25:</b> We jumped into Chapter 7 and revisited the basics of homomorphisms. The bulk of class time was spent on discussing Figure 7.2 and proving Theorem 7.13.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, April 27:</b> We reviewed Figure 7.2 and Theorem 7.13 and then KD and KB presented Problem 7.14 and Theorem 7.15. After that I proved the First Isomorphism Theorem.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Friday, April 29:</b> Our last day of class!  And it was another productive day.  After reviewing the First Isomorphism Theorem, I presented Problem 7.23 and then LS, HP, and MB presented Problems 7.24, 7.25, and 7.26, respectively.  With the time we had left, I reviewed some fundamental defintions related to rings. Thanks for a great semester!</li>
 </ul>
