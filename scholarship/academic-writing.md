@@ -26,7 +26,7 @@ You can find a recent version of my curriculum vitae [here]({{site.baseurl}}/sch
   <!-- * R. Davis, D.C. Ernst, and A. Moll. Switch: An impartial game for generating graphs. -->
 
 ## Submitted
-  * F. Awik, J. Breland, Q.Cadman, and D.C. Ernst. Braid graphs in simply-laced triangle-free Coxeter systems are cubical graphs. [[arXiv:2104.12318](https://arxiv.org/abs/2104.12318)]
+  * F. Awik, J. Breland, Q.Cadman, and D.C. Ernst. Braid graphs in simply-laced triangle-free Coxeter systems are partial cubes. [[arXiv:2104.12318](https://arxiv.org/abs/2104.12318)]
   * B.J. Benesh, D.C. Ernst, and N. Sieben. The spectrum of nim-values for achievement games for generating finite groups. [[arXiv:2004.08980](https://arxiv.org/abs/2004.08980)]
 
 ## Journal Articles
