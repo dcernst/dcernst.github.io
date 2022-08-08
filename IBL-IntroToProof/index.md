@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Intro to Proof via Inquiry-Based Learning
+title: Introduction to Proof via Inquiry-Based Learning
 ---
 
 <ol class="breadcrumb">
   <li><a href="/"><i class="fa fa-home"></i></a></li>
-  <li class="active">{{ page.title }}</li>
+  <li class="active">Intro to Proof via IBL</li>
 </ol>
 
 <p><img src="{{ site.baseurl }}/IBL-IntroToProof/IBLIntroToProofCover.jpg" align="left" width="150" img style="margin: 8px 15px 0 0"/><i>An Introduction to Proof via Inquiry-Based Learning</i> is a textbook for the transition to proof course for mathematics majors. Designed to promote active learning through inquiry, the book features a highly structured set of leading questions and explorations. The reader is expected to construct their own understanding by engaging with the material. The content ranges over topics traditionally included in transitions courses: logic, set theory including cardinality, the topology of the real line, a bit of number theory, and more. The exposition guides and mentors the reader through an adventure in mathematical discovery, requiring them to solve problems, conjecture, experiment, explore, create, and communicate. Ultimately, this is really a book about productive struggle and learning how to learn.</p>
