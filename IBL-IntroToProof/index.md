@@ -10,6 +10,10 @@ title: Intro to Proof via Inquiry-Based Learning
 
 <p><img src="{{ site.baseurl }}/IBL-IntroToProof/IBLIntroToProofCover.jpg" align="left" width="150" img style="margin: 8px 15px 0 0"/><i>An Introduction to Proof via Inquiry-Based Learning</i> is a textbook for the transition to proof course for mathematics majors. Designed to promote active learning through inquiry, the book features a highly structured set of leading questions and explorations. The reader is expected to construct their own understanding by engaging with the material. The content ranges over topics traditionally included in transitions courses: logic, set theory including cardinality, the topology of the real line, a bit of number theory, and more. The exposition guides and mentors the reader through an adventure in mathematical discovery, requiring them to solve problems, conjecture, experiment, explore, create, and communicate. Ultimately, this is really a book about productive struggle and learning how to learn.</p>
 
+## What is This Book All About?
+
+This book is intended to be used for a one-semester/quarter introduction to proof course (sometimes referred to as a transition to proof course). The purpose of this book is to introduce the reader to the process of constructing and writing formal and rigorous mathematical proofs. The intended audience is mathematics majors and minors. However, this book is also appropriate for anyone curious about mathematics and writing proofs. Most users of this book will have taken at least one semester of calculus, although other than some familiarity with a few standard functions in Chapter 8, content knowledge of calculus is not required. The book includes more content than one can expect to cover in a single semester/quarter. This allows the instructor/reader to pick and choose the sections that suit their needs and desires. Each chapter takes a focused approach to the included topics, but also includes many gentle exercises aimed at developing intuition.
+
 ## Obtaining the Book
 
 The first draft of this book was written in 2009. At that time, several of the sections were adaptations of course materials written by [Matthew Jones](https://www.linkedin.com/in/matt-jones-a704aab/) (CSU Dominguez Hills) and [Stan Yoshinobu](https://www.math.toronto.edu/cms/people/faculty/yoshinobu-stan/) (University of Toronto). The current version of the book is the result of many iterations that involved the addition of new material, retooling of existing sections, and feedback from instructors that have used the book. The current version of the book is a far cry from what it looked like in 2009. This book has been an open-source project since day one.  The source and PDF versions of the book will always be available for free.  In addition, one can purchase a low-cost paperback version of the book from [MAA Press](https://bookstore.ams.org/maa-press-browse). Each year, I will donate any proceeds from the print version of the book to one or both of the [Association for Women in Mathematics](https://awm-math.org) or the [National Association of Mathematicians](https://www.nam-math.org).
@@ -24,19 +28,6 @@ The first draft of this book was written in 2009. At that time, several of the s
 - [List of issues and future todos on GitHub](https://github.com/dcernst/IBL-IntroToProof/issues)
 
 If you've found an error or have suggestions for improvements, please let me know. You can find the most up-to-date version of this textbook on [GitHub](https://github.com/dcernst/IBL-IntroToProof). I would be thrilled if you used this textbook and improved it. If you make any modifications, you can either make a pull request on GitHub or submit the improvements via email. You are also welcome to fork the source and modify the text for your purposes as long as you maintain the [Creative Commons Attribution-Share Alike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/).
-
-## What is This Book All About?
-
-This book is intended to be used for a one-semester/quarter introduction to proof course (sometimes referred to as a transition to proof course). The purpose of this book is to introduce the reader to the process of constructing and writing formal and rigorous mathematical proofs. The intended audience is mathematics majors and minors. However, this book is also appropriate for anyone curious about mathematics and writing proofs. Most users of this book will have taken at least one semester of calculus, although other than some familiarity with a few standard functions in Chapter 8, content knowledge of calculus is not required. The book includes more content than one can expect to cover in a single semester/quarter. This allows the instructor/reader to pick and choose the sections that suit their needs and desires. Each chapter takes a focused approach to the included topics, but also includes many gentle exercises aimed at developing intuition.
-The following sections form the core of the book and are likely the sections that an instructor would focus on in a one-semester introduction to proof course.
-
-- Chapter 2: Mathematics and Logic. All sections.
-- Chapter 3: Set Theory. Sections 3.1, 3.3, 3.4, and 3.5.
-- Chapter 4: Induction. All sections.
-- Chapter 7: Relations and Partitions. Sections 7.1, 7.2, and 7.3. • Chapter 8: Functions. Sections 8.1, 8.2, 8.3, and 8.4.
-- Chapter 9: Cardinality. All sections.
-
-Time permitting, instructors can pick and choose topics from the remaining sections. I typically cover the core sections listed above together with Chapter 6: Three Famous Theorems during a single semester. The Instructor Guide contains examples of a few possible paths through the material, as well as information about which sections and theorems depend on material earlier in the book.
 
 ## Why?
 
@@ -112,6 +103,16 @@ Ultimately, this is really a book about productive struggle and learning how to 
 - Appendix B: Fancy Mathematical Terms
 - Appendix C: Paradoxes
 - Appendix D: Definitions in Mathematics
+
+The following sections form the core of the book and are likely the sections that an instructor would focus on in a one-semester introduction to proof course.
+
+- Chapter 2: Mathematics and Logic. All sections.
+- Chapter 3: Set Theory. Sections 3.1, 3.3, 3.4, and 3.5.
+- Chapter 4: Induction. All sections.
+- Chapter 7: Relations and Partitions. Sections 7.1, 7.2, and 7.3. • Chapter 8: Functions. Sections 8.1, 8.2, 8.3, and 8.4.
+- Chapter 9: Cardinality. All sections.
+
+Time permitting, instructors can pick and choose topics from the remaining sections. I typically cover the core sections listed above together with Chapter 6: Three Famous Theorems during a single semester. The Instructor Guide contains examples of a few possible paths through the material, as well as information about which sections and theorems depend on material earlier in the book.
 
 ## Acknowledgments
 
