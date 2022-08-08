@@ -25,11 +25,10 @@ The first draft of this book was written in 2009. At that time, several of the s
 - Errata (currently no known errors)
 - [Source code available via GitHub](https://github.com/dcernst/IBL-IntroToProof)
 - Instructor Manual (coming soon!)
-- [List of issues and future todos on GitHub](https://github.com/dcernst/IBL-IntroToProof/issues)
 
-If you've found an error or have suggestions for improvements, please let me know. You can find the most up-to-date version of this textbook on [GitHub](https://github.com/dcernst/IBL-IntroToProof). I would be thrilled if you used this textbook and improved it. If you make any modifications, you can either make a pull request on GitHub or submit the improvements via email. You are also welcome to fork the source and modify the text for your purposes as long as you maintain the [Creative Commons Attribution-Share Alike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/).
+If you've found an error or have suggestions for improvements, please let me know by [sending me an email](mailto:dana.ernst@nau.edu) or [submitting an issue via GitHub](https://github.com/dcernst/IBL-IntroToProof/issues). You can find the most up-to-date version of this textbook on [GitHub](https://github.com/dcernst/IBL-IntroToProof). I would be thrilled if you used this textbook and improved it. If you make any modifications, you can either make a pull request on GitHub or submit the improvements via email. You are also welcome to fork the source and modify the text for your purposes as long as you maintain the [Creative Commons Attribution-Share Alike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/).
 
-## Why?
+## Why This Book?
 
 Mathematics is not about calculations, but ideas. My goal as a teacher is to provide students with the opportunity to grapple with these ideas and to be immersed in the process of mathematical discovery. Repeatedly engaging in this process hones the mind and develops mental maturity marked by clear and rigorous thinking. Like music and art, mathematics provides an opportunity for enrichment, experiencing beauty, elegance, and aesthetic value. The medium of a painter is color and shape, whereas the medium of a mathematician is abstract thought. The creative aspect of mathematics is what captivates me and fuels my motivation to keep learning and exploring.</p>
 
