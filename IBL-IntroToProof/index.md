@@ -25,7 +25,20 @@ The first draft of this book was written in 2009. At that time, several of the s
 
 If you've found an error or have suggestions for improvements, please let me know. You can find the most up-to-date version of this textbook on [GitHub](https://github.com/dcernst/IBL-IntroToProof). I would be thrilled if you used this textbook and improved it. If you make any modifications, you can either make a pull request on GitHub or submit the improvements via email. You are also welcome to fork the source and modify the text for your purposes as long as you maintain the [Creative Commons Attribution-Share Alike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/).
 
-## Preface
+## What is This Book All About?
+
+This book is intended to be used for a one-semester/quarter introduction to proof course (sometimes referred to as a transition to proof course). The purpose of this book is to introduce the reader to the process of constructing and writing formal and rigorous mathematical proofs. The intended audience is mathematics majors and minors. However, this book is also appropriate for anyone curious about mathematics and writing proofs. Most users of this book will have taken at least one semester of calculus, although other than some familiarity with a few standard functions in Chapter 8, content knowledge of calculus is not required. The book includes more content than one can expect to cover in a single semester/quarter. This allows the instructor/reader to pick and choose the sections that suit their needs and desires. Each chapter takes a focused approach to the included topics, but also includes many gentle exercises aimed at developing intuition.
+The following sections form the core of the book and are likely the sections that an instructor would focus on in a one-semester introduction to proof course.
+
+- Chapter 2: Mathematics and Logic. All sections.
+- Chapter 3: Set Theory. Sections 3.1, 3.3, 3.4, and 3.5.
+- Chapter 4: Induction. All sections.
+- Chapter 7: Relations and Partitions. Sections 7.1, 7.2, and 7.3. • Chapter 8: Functions. Sections 8.1, 8.2, 8.3, and 8.4.
+- Chapter 9: Cardinality. All sections.
+
+Time permitting, instructors can pick and choose topics from the remaining sections. I typically cover the core sections listed above together with Chapter 6: Three Famous Theorems during a single semester. The Instructor Guide contains examples of a few possible paths through the material, as well as information about which sections and theorems depend on material earlier in the book.
+
+## Why?
 
 Mathematics is not about calculations, but ideas. My goal as a teacher is to provide students with the opportunity to grapple with these ideas and to be immersed in the process of mathematical discovery. Repeatedly engaging in this process hones the mind and develops mental maturity marked by clear and rigorous thinking. Like music and art, mathematics provides an opportunity for enrichment, experiencing beauty, elegance, and aesthetic value. The medium of a painter is color and shape, whereas the medium of a mathematician is abstract thought. The creative aspect of mathematics is what captivates me and fuels my motivation to keep learning and exploring.</p>
 
