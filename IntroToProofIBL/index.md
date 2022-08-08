@@ -46,6 +46,59 @@ Ultimately, this is really a book about productive struggle and learning how to 
 
 ## Table of Contents
 
+- Preface
+- Acknowledgements
+- Chapter 1: Introduction
+    - 1.1 What is This Course All About?
+    - 1.2 An Inquiry-Based Approach
+    - 1.3 Structure of the Notes
+    - 1.4 Rights of the Learner
+    - 1.5 Some Minimal Guidance
+- Chapter 2: Mathematics and Logic
+    - 2.1 A Taste of Number Theory
+    - 2.2 Introduction to Logic
+    - 2.3 Techniques for Proving Conditional Statements
+    - 2.4 Introduction to Quantification
+    - 2.5 More About Quantification
+- Chapter 3: Set Theory
+    - 3.1 Sets
+    - 3.2 Russell’s Paradox
+    - 3.3 Power Sets
+    - 3.4 Indexing Sets
+    - 3.4 Cartesian Products of Sets
+- Chapter 4: Induction
+    - 4.1 Introduction to Induction
+    - 4.2 More on Induction
+    - 4.3 Complete Induction and the Well-Ordering Principle
+- Chapter 5: The Real Numbers
+    - 5.1 Axioms of the Real Numbers
+    - 5.2 Standard Topology of the Real Line
+- Chapter 6: Three Famous Theorems
+    - 6.1 The Fundamental Theorem of Arithmetic
+    - 6.2 The Irrationality of $\sqrt{2}$
+    - 6.3 The Infinitude of Primes
+- Chapter 7: Relations and Partitions
+    - 7.1 Relations
+    - 7.2 Equivalence Relations
+    - 7.3 Partitions
+    - 7.4 Modular Arithmetic
+- Chapter 8: Functions
+    - 8.1 Introduction to Functions
+    - 8.2 Injective and Surjective Functions
+    - 8.3 Compositions and Inverse Functions
+    - 8.4 Images and Preimages of Functions
+    - 8.5 Continuous Real Functions
+- Chapter 9: Cardinality
+    - 9.1 Introduction to Cardinality
+    - 9.2 Finite Sets
+    - 9.3 Infinite Sets
+    - 9.4 Countable Sets
+    - 9.5 Uncountable Sets
+- Appendix A: Elements of Style for Proofs
+- Appendix B: Fancy Mathematical Terms
+- Appendix C: Paradoxes
+- Appendix D: Definitions in Mathematics
+
 ## Acknowledgments
 
 Several instructors and students have provided extremely useful feedback, which has improved the book at each iteration. Moreover, due to the open-source nature of the book, I have been able to incorporate content written by others. Below is a partial list of people (alphabetical by last name) who have contributed content, advice, or feedback.
