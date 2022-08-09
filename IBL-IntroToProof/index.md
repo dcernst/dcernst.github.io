@@ -50,7 +50,9 @@ This book is intended to be a task sequence for an introduction to proof course 
 
 Ultimately, this is really a book about productive struggle and learning how to learn. Mathematics is simply the vehicle.
 
-## Table of Contents
+## Content
+
+The table of contents is listed below. The book includes more content than one can expect to cover in a single semester/quarter. This allows the instructor/reader to pick and choose the sections that suit their needs and desires.
 
 - Preface
 - Acknowledgements
@@ -110,7 +112,8 @@ The following sections form the core of the book and are likely the sections tha
 - Chapter 2: Mathematics and Logic. All sections.
 - Chapter 3: Set Theory. Sections 3.1, 3.3, 3.4, and 3.5.
 - Chapter 4: Induction. All sections.
-- Chapter 7: Relations and Partitions. Sections 7.1, 7.2, and 7.3. • Chapter 8: Functions. Sections 8.1, 8.2, 8.3, and 8.4.
+- Chapter 7: Relations and Partitions. Sections 7.1, 7.2, and 7.3.
+- Chapter 8: Functions. Sections 8.1, 8.2, 8.3, and 8.4.
 - Chapter 9: Cardinality. All sections.
 
 Time permitting, instructors can pick and choose topics from the remaining sections. I typically cover the core sections listed above together with Chapter 6: Three Famous Theorems during a single semester. The Instructor Guide contains examples of a few possible paths through the material, as well as information about which sections and theorems depend on material earlier in the book.
