@@ -63,8 +63,9 @@ You can find a recent version of my curriculum vitae [here]({{site.baseurl}}/sch
 ## Open-Source Books
 Below is a list of course materials that I have written to be used with an [inquiry-based learning](http://maamathedmatters.blogspot.com/2013/05/what-heck-is-ibl.html) (IBL) approach.
 
-  * D.C. Ernst. *An Inquiry-Based Approach to Abstract Algebra*. IBL course materials for an abstract algebra course with an emphasis on visualization. [[Source](http://dcernst.github.io/IBL-AbstractAlgebra/)] [![DOI](https://zenodo.org/badge/5110/dcernst/IBL-AbstractAlgebra.svg)](https://zenodo.org/badge/latestdoi/5110/dcernst/IBL-AbstractAlgebra)
-  * D.C. Ernst. *An Introduction to Proof via Inquiry-Based Learning*. IBL course materials for an introduction to proof course. Currently under review at MAA/AMS. [[Source](http://dcernst.github.io/IBL-IntroToProof/)] [![DOI](https://zenodo.org/badge/5110/dcernst/IBL-IntroToProof.svg)](https://zenodo.org/badge/latestdoi/5110/dcernst/IBL-IntroToProof)
+  * D.C. Ernst. *An Introduction to Proof via Inquiry-Based Learning*. MAA Press, an imprint of the American Mathematical So-
+ciety, 2022. [[Webpage](http://dcernst.github.io/IBL-IntroToProof/)] [[Paperback](https://bookstore.ams.org/text-73/)]
+  * D.C. Ernst. *An Inquiry-Based Approach to Abstract Algebra*. IBL course materials for an abstract algebra course with an emphasis on visualization. [[Webpage](http://dcernst.github.io/IBL-AbstractAlgebra/)]
 
 ## Online Columns and Blog Posts
 From Spring 2013 through Spring 2016, I was co-editor and author for [Math Ed Matters](http://maamathedmatters.blogspot.com) and from Fall 2016 through Fall 2017, was a co-editor and author for [Teaching Tidbits](http://maateachingtidbits.blogspot.com). Both are online columns sponsored by the [Mathematical Association of America](http://maa.org). Below are several posts that I wrote for *Math Ed Matters*, *Teaching Tidbits*, as well as a few other online venues.  I also write sporadically about mathematics and teaching on my [personal blog]({{site.baseurl}}/blog/).
