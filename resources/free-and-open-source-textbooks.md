@@ -39,7 +39,7 @@ Here is a partial list of free and/or open-source textbooks. If you find one of 
 
 ### Introduction to Proof
 
-  * [An Introduction to Proof via Inquiry-Based Learning](http://dcernst.github.io/IBL-IntroToProof/) by [Dana C. Ernst](http://danaernst.com) (Northern Arizona University). IBL course materials for an introduction to proof course. The first half of the notes are an adaptation of notes written by [Stan Yoshinobu](http://www.stanyoshinobu.com/) (Cal Poly) and [Matthew Jones](http://www.csudh.edu/math/mjones/) (California State University Dominguez Hills).
+  * [An Introduction to Proof via Inquiry-Based Learning](http://dcernst.github.io/IBL-IntroToProof/) by [Dana C. Ernst](http://danaernst.com) (Northern Arizona University). Textbook for the transition to proof course for mathematics majors. Designed to promote active learning through inquiry. Open-source project, free PDF download with low-cost paperback available via [AMS/MAA Press](https://bookstore.ams.org/text-73/).
   * [Introduction to Proof](http://jiblm.org/downloads/dlitem.php?id=56&category=jiblmjournal) by Ron Taylor (Berry College). These IBL notes are available from the [Journal of Inquiry-Based Learning in Mathematics](http://www.jiblm.org).
   * [Notes for a Course on Proofs](http://www.jiblm.org/downloads/dlitem.php?id=88&category=jiblmjournal) by Jacqueline A. Jensen-Vallin (Slippery Rock University). Another set of IBL notes available from the [Journal of Inquiry-Based Learning in Mathematics](http://www.jiblm.org).
   * [Mathematical Reasoning: Writing and Proof](https://www.tedsundstrom.com/mathematical-reasoning-writing-and-proof) by Ted Sundstrom (Grand Valley State University). This textbook is designed for the first course in the college mathematics curriculum that introduces students to the process of constructing and writing proofs. This book is included in the approved list of textbooks for the [Open Textbook Initiative](http://aimath.org/textbooks/approved-textbooks/) by the [American Institute of Mathematics](http://www.aimath.org). There are also over 100 screencasts that accompany the book.
@@ -47,6 +47,7 @@ Here is a partial list of free and/or open-source textbooks. If you find one of 
 ### Linear Algebra
 
   * [Understanding Linear Algebra](https://davidaustinm.github.io/ula/home.html) by [David Austin](https://davidaustinm.github.io/index.html) (Grand Valley State University). An open-access linear algebra textbook with both PDF and HTML formats.
+  * [Interactive Linear Algebra](https://textbooks.math.gatech.edu/ila/index.html) by [Dan Margalit](https://dmargalit7.math.gatech.edu/index.shtml) (Georgia Institute of Technology) and [Joseph Rabinoff](https://services.math.duke.edu/~jdr/) (Duke University). An HTML based book with beautiful interactive figures.
   * [A First Course in Linear Algebra](http://linear.ups.edu/index.html) by [Rob Beezer](http://buzzard.ups.edu/) (Puget Sound University). FCLA is a free and open-source introductory textbook designed for university sophomores and juniors. The book begins with systems of linear equations, then covers matrix algebra, before taking up finite-dimensional vector spaces in full generality. The book is available for free in PDF and HTML form.
   * [Linear Algebra](http://joshua.smcvt.edu/linearalgebra/) by [Jim Hefferon](http://joshua.smcvt.edu/math/hefferon.html) (St. Michael's College). This is another free and open-source textbook.
   * [Linear Algebra](http://jiblm.org/downloads/dlitem.php?id=63&category=jiblmjournal) by David Clark (SUNY New Paltz). These notes are available for free from the [Journal of Inquiry-Based Learning in Mathematics](http://jiblm.org/index.php). The notes are designed for an inquiry-based learning (IBL) approach to the subject.
@@ -59,7 +60,7 @@ Here is a partial list of free and/or open-source textbooks. If you find one of 
 
 ### Abstract Algebra
 
-  * [An Inquiry-Based Approach to Abstract Algebra](http://dcernst.github.io/IBL-AbstractAlgebra/) by [Dana C. Ernst](http://danaernst.com) (Northern Arizona University). Free and open-source course materials for an abstract algebra course.
+  * [An Inquiry-Based Approach to Abstract Algebra](http://dcernst.github.io/IBL-AbstractAlgebra/) by [Dana C. Ernst](http://danaernst.com) (Northern Arizona University). Free and open-source course materials for an abstract algebra course that utilizes an inquiry-based learning approach.
   * [Abstract Algebra: Theory and Applications](http://abstract.ups.edu/index.html) by [Tom Judson](http://faculty.sfasu.edu/judsontw/) (Stephen F. Austin University).
   * [Elementary Abstract Algebra: Examples and Applications](http://sl2x.aimath.org/book/aafmt/) by Justin Hill (Temple College) and Chris Thron (Texas A\&M University-Central Texas) with contributions from others.  The text is designed for students who are planning to become secondary-school teachers. The authors particularly emphasize material that has relevance to high school math, as well as practical applications. Much of the content is derived from the Judson book mentioned above.
   * [Essential Group Theory](http://bookboon.com/en/textbooks/mathematics/essential-group-theory) by [Michael Batty](http://www.mendeley.com/profiles/michael-batty/) (University of Durham).
@@ -67,6 +68,7 @@ Here is a partial list of free and/or open-source textbooks. If you find one of 
 
 ### Real Analysis
 
+  * [Introduction to Real Analysis](http://dcernst.github.io/IBL-RealAnalysis/IBL-RealAnalysis.pdf) by [Dana C. Ernst](http://danaernst.com) (Northern Arizona University).  Free course materials for an undergraduate real analysis course that utilizes an inquiry-based learning approach. These notes are a modification of materials written by [Karl-Dieter Crisman](https://www.gordon.edu/karldietercrisman) (Gordon College), which are an adaptation of the materials by [W. Ted Mahavier](http://www.jiblm.org/mahavier/) (Lamar University) listed below.
   * [Analysis](http://www.jiblm.org/downloads/dlitem.php?id=66&category=jiblmjournal) by [W. Ted Mahavier](http://www.jiblm.org/mahavier/) (Lamar University). These notes are for an IBL real analysis course and are available from the [Journal of Inquiry-Based Learning in Mathematics](http://www.jiblm.org).
   * [Analysis WebNotes](http://www.webskate101.com/webnotes/home.htmld/home.html) by [John Lindsay Orr](http://www.math.unl.edu/~jorr1/) (University of Nebraska at Lincoln).
   * [Classical Real Analysis](http://classicalrealanalysis.info/Free-Downloads.php) contains links to a few real analysis texts. The word on the street is that *Elementary Real Analysis* by Bruckner and Bruckner is excellent.
