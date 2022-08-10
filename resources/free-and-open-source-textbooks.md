@@ -13,6 +13,7 @@ layout: default
 Here is a partial list of free and/or open-source textbooks. If you find one of these more helpful than another, please <a href="mailto:dana.ernst@nau.edu">let me know</a>. Also, take a peek at [Rob Beezer’s](http://buzzard.ups.edu) selection on [this page](http://linear.ups.edu/curriculum.html). Moreover, the [American Institute of Mathematics](http://www.aimath.org) maintains a list of [approved open-source textbooks](http://aimath.org/textbooks/approved-textbooks/).  Also, check out the free computer science books by [Allen B. Downey](http://www.allendowney.com/wp/) (Olin College) at [Green Tea Press](https://greenteapress.com/wp/).  Downey's [Textbook manifesto](https://greenteapress.com/wp/textbook-manifesto/) is definitely worth reading.
 
 ### Calculus ###
+  * [Calculus for Team-Based Inquiry Learning](https://teambasedinquirylearning.github.io/calculus/) by TBIL Institute Fellows. Activities and exercises for easily implementing Team-Based Inquiry Learning in a single-variable calculus classroom. PDF and HTML versions.
   * [CLP Calculus Textbooks](http://www.math.ubc.ca/~CLP/index.html) by [Joel Feldman](http://www.math.ubc.ca/~feldman/), [Andrew Rechnitzer](http://www.math.ubc.ca/~andrewr/front_page.html), and [Elyse Yeager](http://www.math.ubc.ca/~elyse/index.html) were written for standard university calculus courses at the University of British Colombia.  Free PDF and web-based textbooks.
   * [APEX Calculus](http://www.apexcalculus.com) is an open-source textbook by a group of faculty from Virginia Military Institute.  It has the look and feel of a traditional calculus (e.g., Stewart's *Calculus*). Includes interactive 3D graphics.
   * [MOOCulus Textbook](https://ximera.osu.edu) is a free textbook from the [MOOCulus](https://mooculus.osu.edu/) folks at Ohio State University. This text is mostly an adaptation of the Community Calculus text listed below.
@@ -37,7 +38,11 @@ Here is a partial list of free and/or open-source textbooks. If you find one of 
   * [Discrete Mathematics: An Open Introduction](http://discrete.openmathbooks.org/dmoi3.html) by [Oscar Levin](http://math.oscarlevin.com) (University of Northern Colorado) is a free, open-source textbook appropriate for a first or second year undergraduate course for math majors. There is a really nice interactive [ebook version](http://discretetext.oscarlevin.com/dmoi/dmoi.html).
   * [Applied Discrete Structures](http://faculty.uml.edu/klevasseur/ads2/) by [Al Doerr](http://faculty.uml.edu/math/faculty/doerr.htm) (UMass Lowell) and [Kenneth M. Levasseur](http://faculty.uml.edu/klevasseur/) (UMass Lowell).
 
-### Introduction to Proof
+### Logic ###
+
+  * [Open Logic Project](https://openlogicproject.org). An open-source, collaborative textbook of logic and formal methods, starting at an intermediate level, aimed at a non-mathematical audience.
+
+### Introduction to Proof ###
 
   * [An Introduction to Proof via Inquiry-Based Learning](http://dcernst.github.io/IBL-IntroToProof/) by [Dana C. Ernst](http://danaernst.com) (Northern Arizona University). Textbook for the transition to proof course for mathematics majors. Designed to promote active learning through inquiry. Open-source project, free PDF download with low-cost paperback available via [AMS/MAA Press](https://bookstore.ams.org/text-73/).
   * [Introduction to Proof](http://jiblm.org/downloads/dlitem.php?id=56&category=jiblmjournal) by Ron Taylor (Berry College). These IBL notes are available from the [Journal of Inquiry-Based Learning in Mathematics](http://www.jiblm.org).
@@ -46,6 +51,7 @@ Here is a partial list of free and/or open-source textbooks. If you find one of 
 
 ### Linear Algebra
 
+  * [Linear Algebra for Team-Based Inquiry Learning](https://teambasedinquirylearning.github.io/linear-algebra/) by Steven Clontz (University of South Alabama) and Drew Lewis (University of South Alabama) with contributions from others. Activities and exercises for easily implementing Team-Based Inquiry Learning in a sophomore linear algebra classroom. PDF and HTML versions.
   * [Understanding Linear Algebra](https://davidaustinm.github.io/ula/home.html) by [David Austin](https://davidaustinm.github.io/index.html) (Grand Valley State University). An open-access linear algebra textbook with both PDF and HTML formats.
   * [Interactive Linear Algebra](https://textbooks.math.gatech.edu/ila/index.html) by [Dan Margalit](https://dmargalit7.math.gatech.edu/index.shtml) (Georgia Institute of Technology) and [Joseph Rabinoff](https://services.math.duke.edu/~jdr/) (Duke University). An HTML based book with beautiful interactive figures.
   * [A First Course in Linear Algebra](http://linear.ups.edu/index.html) by [Rob Beezer](http://buzzard.ups.edu/) (Puget Sound University). FCLA is a free and open-source introductory textbook designed for university sophomores and juniors. The book begins with systems of linear equations, then covers matrix algebra, before taking up finite-dimensional vector spaces in full generality. The book is available for free in PDF and HTML form.
@@ -73,6 +79,10 @@ Here is a partial list of free and/or open-source textbooks. If you find one of 
   * [Analysis WebNotes](http://www.webskate101.com/webnotes/home.htmld/home.html) by [John Lindsay Orr](http://www.math.unl.edu/~jorr1/) (University of Nebraska at Lincoln).
   * [Classical Real Analysis](http://classicalrealanalysis.info/Free-Downloads.php) contains links to a few real analysis texts. The word on the street is that *Elementary Real Analysis* by Bruckner and Bruckner is excellent.
   * [Measure, Integration & Real Analysis](http://measure.axler.net) by [Sheldon Axler](http://www.axler.net) (San Francisco State University). This book is in Springer's Open Access program. Thus the electronic version of the book is available without cost. The content and level of this book fit well with the first-year graduate course on these topics at most American universities. This textbook features a reader-friendly style and format that will appeal to today's students.
+
+### Statistics ###
+
+  * [Team Based Statistics](https://tienchih.github.io/tbil-stats/frontmatter-1.html) by [Tien Chih](https://tienchih.github.io) (Oxford College of Emory University). Activities and exercises for easily implementing Team-Based Learning in an introductory statistics classroom.
 
 ### Computing & Programming
 
