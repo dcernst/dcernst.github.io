@@ -20,13 +20,13 @@ This book is unique. The book has been an open-source project since day one.  Th
 
 The first draft of the book was written in 2009. At that time, several of the sections were adaptations of course materials written by [Matthew Jones](https://www.linkedin.com/in/matt-jones-a704aab/) (CSU Dominguez Hills) and [Stan Yoshinobu](https://www.math.toronto.edu/cms/people/faculty/yoshinobu-stan/) (University of Toronto). The current version of the book is the result of many iterations that involved the addition of new material, retooling of existing sections, and feedback from instructors that have used the book. The current version of the book is a far cry from what it looked like in 2009.
 
-- [PDF of textbook that matches the current print version]({{ site.baseurl }}/IBL-IntroToProof/IBLIntroToProof-AMSSpring2022.pdf)
+- [PDF of textbook that matches the current print version]({{ site.baseurl }}/IBL-IntroToProof/IBLIntroToProof-AMSSpring2022.pdf) (Updated August 10, 2022)
 - [PDF of textbook compiled from the current source]({{ site.baseurl }}/IBL-IntroToProof/IBLIntroToProof-current.pdf)
-- List of differences between version of book compiled from current source and print version (currently no differences)
 - [Print version available via AMS/MAA Press](https://bookstore.ams.org/text-73/)
-- Errata (currently no known errors)
+- [Errata]({{ site.baseurl }}/IBL-IntroToProof/Errata.pdf) (Updated August 10, 2022)
 - [Source code available via GitHub](https://github.com/dcernst/IBL-IntroToProof)
 - Instructor Manual (coming soon!)
+- List of differences between version of book compiled from current source and print version (currently no differences other than errata)
 
 If you've found an error or have suggestions for improvements, please let me know by [sending me an email](mailto:dana.ernst@nau.edu) or [submitting an issue via GitHub](https://github.com/dcernst/IBL-IntroToProof/issues). You can find the most up-to-date version of this textbook on [GitHub](https://github.com/dcernst/IBL-IntroToProof). I would be thrilled if you used this textbook and improved it. If you make any modifications, you can either make a pull request on GitHub or submit the improvements via email. You are also welcome to fork the source and modify the text for your purposes as long as you maintain the [Creative Commons Attribution-Share Alike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/).
 
