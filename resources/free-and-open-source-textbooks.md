@@ -46,6 +46,7 @@ Here is a partial list of free and/or open-source textbooks. If you find one of 
 
 ### Linear Algebra
 
+  * [Understanding Linear Algebra](https://davidaustinm.github.io/ula/home.html) by [David Austin](https://davidaustinm.github.io/index.html) (Grand Valley State University). An open-access linear algebra textbook with both PDF and HTML formats.
   * [A First Course in Linear Algebra](http://linear.ups.edu/index.html) by [Rob Beezer](http://buzzard.ups.edu/) (Puget Sound University). FCLA is a free and open-source introductory textbook designed for university sophomores and juniors. The book begins with systems of linear equations, then covers matrix algebra, before taking up finite-dimensional vector spaces in full generality. The book is available for free in PDF and HTML form.
   * [Linear Algebra](http://joshua.smcvt.edu/linearalgebra/) by [Jim Hefferon](http://joshua.smcvt.edu/math/hefferon.html) (St. Michael's College). This is another free and open-source textbook.
   * [Linear Algebra](http://jiblm.org/downloads/dlitem.php?id=63&category=jiblmjournal) by David Clark (SUNY New Paltz). These notes are available for free from the [Journal of Inquiry-Based Learning in Mathematics](http://jiblm.org/index.php). The notes are designed for an inquiry-based learning (IBL) approach to the subject.
