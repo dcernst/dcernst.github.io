@@ -62,7 +62,8 @@ Here is a partial list of free and/or open-source textbooks. If you find one of 
 
 ### Combinatorics
 
- * [Combinatorics Through Guided Discovery](http://www.math.dartmouth.edu/news-resources/electronic/kpbogart/) by Kenneth Bogart. These notes are maintained by the chair of the [Mathematics Department at Dartmouth College](http://www.math.dartmouth.edu).
+  * [Applied Combinatorics](https://www.appliedcombinatorics.org/appcomb/) by Mitch Keller (Morningside College) and William T. Trotter (Georgia Institute of Technology). An open-source textbook for a course covering the fundamental enumeration techniques (permutations, combinations, subsets, pigeon hole principle), recursion and mathematical induction, more advanced enumeration techniques (inclusion-exclusion, generating functions, recurrence relations, Polyá theory), discrete structures (graphs, digraphs, posets, interval orders), and discrete optimization (minimum weight spanning trees, shortest paths, network flows). Available in PDF, HTML, and ePub formats.
+  * [Combinatorics Through Guided Discovery](https://bogart.openmathbooks.org) by Kenneth Bogart. An introduction to combinatorial mathematics, also known as combinatorics. The book focuses especially, but not exclusively, on the part of combinatorics that mathematicians refer to as "counting."
 
 ### Abstract Algebra
 
@@ -70,6 +71,7 @@ Here is a partial list of free and/or open-source textbooks. If you find one of 
   * [Abstract Algebra: Theory and Applications](http://abstract.ups.edu/index.html) by [Tom Judson](http://faculty.sfasu.edu/judsontw/) (Stephen F. Austin University).
   * [Elementary Abstract Algebra: Examples and Applications](http://sl2x.aimath.org/book/aafmt/) by Justin Hill (Temple College) and Chris Thron (Texas A\&M University-Central Texas) with contributions from others.  The text is designed for students who are planning to become secondary-school teachers. The authors particularly emphasize material that has relevance to high school math, as well as practical applications. Much of the content is derived from the Judson book mentioned above.
   * [Essential Group Theory](http://bookboon.com/en/textbooks/mathematics/essential-group-theory) by [Michael Batty](http://www.mendeley.com/profiles/michael-batty/) (University of Durham).
+  * [Rings with Inquiry](https://ringswithinquiry.org/) by Michael Janssen (Dordt University) and Melissa Lindsey (University of Wisconsin-Madison). The goal of this book is to explore the idea of factorization from an abstract perspective. 
   * [Group Theory: Birdtracks, Lie’s, and Exceptional Groups](http://www.cns.gatech.edu/GroupTheory/index.html) by [Predrag Cvitanović](https://www.physics.gatech.edu/user/predrag-cvitanovic) (Georgia Tech).
 
 ### Real Analysis
