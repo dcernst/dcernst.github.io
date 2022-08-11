@@ -82,6 +82,10 @@ Here is a partial list of free and/or open-source textbooks. If you find one of 
   * [Classical Real Analysis](http://classicalrealanalysis.info/Free-Downloads.php) contains links to a few real analysis texts. The word on the street is that *Elementary Real Analysis* by Bruckner and Bruckner is excellent.
   * [Measure, Integration & Real Analysis](http://measure.axler.net) by [Sheldon Axler](http://www.axler.net) (San Francisco State University). This book is in Springer's Open Access program. Thus the electronic version of the book is available without cost. The content and level of this book fit well with the first-year graduate course on these topics at most American universities. This textbook features a reader-friendly style and format that will appeal to today's students.
 
+### Complex Analysis ##
+
+   * [A First Course in Complex Analysis](https://matthbeck.github.io/complex.html) by [Matthias Beck](https://matthbeck.github.io/index.html) (San Francisco State University), Gerald Marchesi (Binghamton University), [Dennis Pixton](https://www2.math.binghamton.edu/p/people/dennis/start) (Binghamton University), and Lucas Sabalka (Ocuvera). Written for a one-semester undergraduate complex analysis course.
+
 ### Topology ##
 
    * [Topology without Tears](topologywithouttears.net/) by [Sidney A. Morris](https://sidneymorris.net). An introduction to point set topology.
