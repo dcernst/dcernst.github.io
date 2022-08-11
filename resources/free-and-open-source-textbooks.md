@@ -10,7 +10,7 @@ layout: default
   <li class="active">Textbooks</li>
 </ol>
 
-Here is a partial list of free and/or open-source textbooks. If you find one of these more helpful than another, please <a href="mailto:dana.ernst@nau.edu">let me know</a>. Also, take a peek at [Rob Beezer’s](http://buzzard.ups.edu) selection on [this page](http://linear.ups.edu/curriculum.html). Moreover, the [American Institute of Mathematics](http://www.aimath.org) maintains a list of [approved open-source textbooks](http://aimath.org/textbooks/approved-textbooks/).  Also, check out the free computer science books by [Allen B. Downey](http://www.allendowney.com/wp/) (Olin College) at [Green Tea Press](https://greenteapress.com/wp/).  Downey's [Textbook manifesto](https://greenteapress.com/wp/textbook-manifesto/) is definitely worth reading.
+Here is a partial list of free and/or open-source textbooks. If you find one of these more helpful than another, please <a href="mailto:dana.ernst@nau.edu">let me know</a>. Also, take a peek at [Rob Beezer’s](http://buzzard.ups.edu) selection on [this page](http://linear.ups.edu/curriculum.html). Moreover, the [American Institute of Mathematics](http://www.aimath.org) maintains a list of [approved open-source textbooks](http://aimath.org/textbooks/approved-textbooks/).  Also, check out the free computer science books by [Allen B. Downey](http://www.allendowney.com/wp/) (Olin College) at [Green Tea Press](https://greenteapress.com/wp/).  Downey's [Textbook manifesto](https://greenteapress.com/wp/textbook-manifesto/) is definitely worth reading.  There are also lots of free textbooks available at [LibreTexts](https://math.libretexts.org).
 
 ### Calculus ###
   * [Calculus for Team-Based Inquiry Learning](https://teambasedinquirylearning.github.io/calculus/) by TBIL Institute Fellows. Activities and exercises for easily implementing Team-Based Inquiry Learning in a single-variable calculus classroom. PDF and HTML versions.
@@ -84,11 +84,14 @@ Here is a partial list of free and/or open-source textbooks. If you find one of 
 
 ### Topology ##
 
-   * [Topology without Tears](topologywithouttears.net/) by [Sidney A. Morris](https://sidneymorris.net). An introduction to point set topology. Similar to Munkres' classic topology text.
+   * [Topology without Tears](topologywithouttears.net/) by [Sidney A. Morris](https://sidneymorris.net). An introduction to point set topology.
 
 ### Statistics ###
 
+  * [OpenIntro Stats](https://www.openintro.org/book/os/). Offers a traditional introduction to statistics at the college level. There is a suggested minimum price, but you choose to bypass this and obtain book for free.
+  * [Introduction to Modern Statistics](https://openintro-ims.netlify.app) by Mine Çetinkaya-Rundel and Johanna Hardin. Book puts a heavy emphasis on exploratory data analysis (specifically exploring multivariate relationships using visualization, summarization, and descriptive models) and provides a thorough discussion of simulation-based inference using randomization and bootstrapping, followed by a presentation of the related Central Limit Theorem based approaches. There is a suggested minimum price, but you choose to bypass this and obtain book for free.
   * [Team Based Statistics](https://tienchih.github.io/tbil-stats/frontmatter-1.html) by [Tien Chih](https://tienchih.github.io) (Oxford College of Emory University). Activities and exercises for easily implementing Team-Based Learning in an introductory statistics classroom.
+  * [Bayes Rules! An Introduction to Applied Bayesian Modeling](https://www.bayesrulesbook.com) by Alicia A. Johnson, Miles Q. Ott, Mine Dogucu. The primary goal of the book is to make modern Bayesian thinking, modeling, and computing accessible to a broader audience.
 
 ### Computing & Programming
 
