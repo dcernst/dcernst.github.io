@@ -71,7 +71,7 @@ Here is a partial list of free and/or open-source textbooks. If you find one of 
   * [Abstract Algebra: Theory and Applications](http://abstract.ups.edu/index.html) by [Tom Judson](http://faculty.sfasu.edu/judsontw/) (Stephen F. Austin University).
   * [Elementary Abstract Algebra: Examples and Applications](http://sl2x.aimath.org/book/aafmt/) by Justin Hill (Temple College) and Chris Thron (Texas A\&M University-Central Texas) with contributions from others.  The text is designed for students who are planning to become secondary-school teachers. The authors particularly emphasize material that has relevance to high school math, as well as practical applications. Much of the content is derived from the Judson book mentioned above.
   * [Essential Group Theory](http://bookboon.com/en/textbooks/mathematics/essential-group-theory) by [Michael Batty](http://www.mendeley.com/profiles/michael-batty/) (University of Durham).
-  * [Rings with Inquiry](https://ringswithinquiry.org/) by Michael Janssen (Dordt University) and Melissa Lindsey (University of Wisconsin-Madison). The goal of this book is to explore the idea of factorization from an abstract perspective. 
+  * [Rings with Inquiry](https://ringswithinquiry.org/) by Michael Janssen (Dordt University) and Melissa Lindsey (University of Wisconsin-Madison). The goal of this book is to explore the idea of factorization from an abstract perspective.
   * [Group Theory: Birdtracks, Lie’s, and Exceptional Groups](http://www.cns.gatech.edu/GroupTheory/index.html) by [Predrag Cvitanović](https://www.physics.gatech.edu/user/predrag-cvitanovic) (Georgia Tech).
 
 ### Real Analysis
@@ -81,6 +81,10 @@ Here is a partial list of free and/or open-source textbooks. If you find one of 
   * [Analysis WebNotes](http://www.webskate101.com/webnotes/home.htmld/home.html) by [John Lindsay Orr](http://www.math.unl.edu/~jorr1/) (University of Nebraska at Lincoln).
   * [Classical Real Analysis](http://classicalrealanalysis.info/Free-Downloads.php) contains links to a few real analysis texts. The word on the street is that *Elementary Real Analysis* by Bruckner and Bruckner is excellent.
   * [Measure, Integration & Real Analysis](http://measure.axler.net) by [Sheldon Axler](http://www.axler.net) (San Francisco State University). This book is in Springer's Open Access program. Thus the electronic version of the book is available without cost. The content and level of this book fit well with the first-year graduate course on these topics at most American universities. This textbook features a reader-friendly style and format that will appeal to today's students.
+
+### Topology ##
+
+   * [Topology without Tears](topologywithouttears.net/) by [Sidney A. Morris](https://sidneymorris.net). An introduction to point set topology. Similar to Munkres' classic topology text.
 
 ### Statistics ###
 
