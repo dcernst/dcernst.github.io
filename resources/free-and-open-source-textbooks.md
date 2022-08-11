@@ -84,7 +84,7 @@ Here is a partial list of free and/or open-source textbooks. If you find one of 
 
 ### Complex Analysis ##
 
-   * [A First Course in Complex Analysis](https://matthbeck.github.io/complex.html) by [Matthias Beck](https://matthbeck.github.io/index.html) (San Francisco State University), Gerald Marchesi (Binghamton University), [Dennis Pixton](https://www2.math.binghamton.edu/p/people/dennis/start) (Binghamton University), and Lucas Sabalka (Ocuvera). Written for a one-semester undergraduate complex analysis course.
+   * [A First Course in Complex Analysis](https://matthbeck.github.io/complex.html) by [Matthias Beck](https://matthbeck.github.io/index.html) (San Francisco State University), Gerald Marchesi (Binghamton University), [Dennis Pixton](https://www2.math.binghamton.edu/p/people/dennis/start) (Binghamton University), and Lucas Sabalka (Ocuvera). Written for a one-semester undergraduate complex analysis course. Free PDF and a low-cost paperback is available.
 
 ### Topology ##
 
