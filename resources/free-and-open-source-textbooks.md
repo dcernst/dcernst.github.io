@@ -86,9 +86,18 @@ Here is a partial list of free and/or open-source textbooks. If you find one of 
 
    * [Topology without Tears](topologywithouttears.net/) by [Sidney A. Morris](https://sidneymorris.net). An introduction to point set topology.
 
+### Homotopy Type Theory ###
+
+   * [Homotopy Type Theory: Univalent Foundations of Mathematics](https://homotopytypetheory.org/book/) by The Univalent Foundations Program (Institute for Advanced Study). Intended as a first systematic exposition of the basics of univalent foundations, and a collection of examples of this new style of reasoning. Open-source project hosted on GitHub, low-cost paperback available.
+
+### Differential Geometry ###
+
+   * [Differential Geometry and Its Applications](https://bookstore.ams.org/clrm-59) by [John Oprea](https://academic.csuohio.edu/oprea_j/) (Cleveland State University). This book studies the differential geometry of surfaces with the goal of helping students make the transition from the compartmentalized courses in a standard university curriculum to a type of mathematics that is a unified whole. Book is published by MAA Press, but PDF is available for free.
+
 ### Statistics ###
 
   * [OpenIntro Stats](https://www.openintro.org/book/os/). Offers a traditional introduction to statistics at the college level. There is a suggested minimum price, but you choose to bypass this and obtain book for free.
+  * [An Introduction to Statistical Learning](https://www.statlearning.com) by Gareth James (University of Southern California), Daniela Witten (University of Washington), Trevor Hastie (Stanford University), and  Rob Tibshirani (Stanford University). Provides a broad and less technical treatment of key topics in statistical learning. Each chapter includes an R lab. This book is appropriate for anyone who wishes to use contemporary tools for data analysis.  Book is published by Springer, but PDF is available for free.
   * [Introduction to Modern Statistics](https://openintro-ims.netlify.app) by Mine Çetinkaya-Rundel and Johanna Hardin. Book puts a heavy emphasis on exploratory data analysis (specifically exploring multivariate relationships using visualization, summarization, and descriptive models) and provides a thorough discussion of simulation-based inference using randomization and bootstrapping, followed by a presentation of the related Central Limit Theorem based approaches. There is a suggested minimum price, but you choose to bypass this and obtain book for free.
   * [Team Based Statistics](https://tienchih.github.io/tbil-stats/frontmatter-1.html) by [Tien Chih](https://tienchih.github.io) (Oxford College of Emory University). Activities and exercises for easily implementing Team-Based Learning in an introductory statistics classroom.
   * [Bayes Rules! An Introduction to Applied Bayesian Modeling](https://www.bayesrulesbook.com) by Alicia A. Johnson, Miles Q. Ott, Mine Dogucu. The primary goal of the book is to make modern Bayesian thinking, modeling, and computing accessible to a broader audience.
