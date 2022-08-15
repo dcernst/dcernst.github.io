@@ -60,10 +60,6 @@ Below is a list of IBL-related resources.
   * A team of researchers at the [University of Colorado][19] led by Sandra Laursen have been working on the [Inquiry-Based Learning in College Mathematics Project][3], which an extensive study on the effectiveness of IBL. The is quasi-experimental study examined over 100 courses at four different campuses using a longitudinal study that spanned two years.
   * [Math Ed Matters](http://maamathedmatters.blogspot.com), which is an online column sponsored by the [MAA](http://maa.org).  The column explores topics and current events related to undergraduate mathematics education.
 
-  <!-- * [The Moore Method — A Pathway to Learner-Centered Instruction][17] by Charles A. Coppin, W. Ted Mahavier, E. Lee May, and Edgar Parker is an excellent book that provides an overview of what the Moore method is and how to implement it.
-  * The [Educational Advancement Foundation][20] is a philanthropic organization that supports the development and implementation of IBL and the preservation and dissemination of the Moore method.
-  * The [Legacy of RL Moore Project][21] is primarily concerned with preserving the historical record, producing a comprehensive biography of R.L. Moore, and supporting research by others that relate to aspects of his life, work and influence. -->
-
 ## IBL Textbooks
 
 In addition to the problem sequences available at [JIBLM][23] and the plethora of other notes scattered across the Internet, there are a few textbooks that are specifically designed for IBL. This list is far from complete.
