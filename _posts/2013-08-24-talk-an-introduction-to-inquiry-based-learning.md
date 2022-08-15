@@ -27,7 +27,7 @@ After about 15 minutes, I transitioned into an exercise whose purpose was to get
 If you want to know more about IBL, check out my [What the Heck is IBL?][6] blog post over on [Math Ed Matters][7].
 
  [1]: http://nau.edu
- [2]: http://www.colorado.edu/eer/research/steminquiry.html
+ [2]: https://www.colorado.edu/eer/research-areas/student-centered-stem-education/inquiry-based-learning-college-mathematics
  [3]: http://danaernst.com/resources/IBLSummary.pdf
  [4]: http://danaernst.com/talks/SeriesDialogue.pdf
  [5]: http://www.artofmathematics.org/
