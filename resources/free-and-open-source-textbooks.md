@@ -59,7 +59,7 @@ Here is a partial list of free and/or open-source textbooks. If you find one of 
   * [Linear Algebra](http://jiblm.org/downloads/dlitem.php?id=63&category=jiblmjournal) by David Clark (SUNY New Paltz). These notes are available for free from the [Journal of Inquiry-Based Learning in Mathematics](http://jiblm.org/index.php). The notes are designed for an inquiry-based learning (IBL) approach to the subject.
   * [Linear Algebra](http://ocw.mit.edu/courses/mathematics/18-06sc-linear-algebra-fall-2011/) by [Gilbert Strang](http://www-math.mit.edu/~gs/) (MIT). This isn't really a textbook, but rather free course materials, including videos, available from the [MIT Open Courseware Project](http://ocw.mit.edu/index.htm).
   * [Paul’s Online Math Notes](http://tutorial.math.lamar.edu/) by [Paul Dawkins](http://www.math.lamar.edu/faculty/dawkins/dawkins.aspx) (Lamar University).
-  * [Computational Linear Algebra](https://github.com/chadtopaz/computational-linear-algebra) by [Chad Topaz]() (Williams College). This is more of a course than a book, but an excellent resource nonetheless.
+  * [Computational Linear Algebra](https://github.com/chadtopaz/computational-linear-algebra) by [Chad Topaz](https://chadtopaz.com) (Williams College). This is more of a course than a book, but an excellent resource nonetheless.
 
 ### Combinatorics
 
