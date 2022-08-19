@@ -24,7 +24,7 @@ The first draft of the book was written in 2009. At that time, several of the se
 - [PDF of textbook compiled from the current source]({{ site.baseurl }}/IBL-IntroToProof/IBLIntroToProof-current.pdf) (Updated August 18, 2022)
 - [Print version available via AMS/MAA Press](https://bookstore.ams.org/text-73/)
 - [Instructor Manual]({{ site.baseurl }}/IBL-IntroToProof/InstructorGuide.pdf) (draft)
-- [Errata]({{ site.baseurl }}/IBL-IntroToProof/Errata.pdf) (Updated August 18, 2022)
+- [Errata]({{ site.baseurl }}/IBL-IntroToProof/Errata.pdf) (Updated August 19, 2022)
 - [Source code available via GitHub](https://github.com/dcernst/IBL-IntroToProof)
 - [Book review in MAA Focus](http://digitaleditions.walsworthprintgroup.com/publication/?i=754974&p=42&view=issueViewer)
 
