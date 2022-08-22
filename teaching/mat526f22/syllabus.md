@@ -7,18 +7,18 @@ layout: default
 <ol class="breadcrumb">
   <li><a href="/"><i class="fa fa-home"></i></a></li>
   <li><a href="/teaching/">Teaching</a></li>
-  <li><a href="/teaching/mat526s21">MAT526</a></li>
+  <li><a href="/teaching/mat526f22">MAT526</a></li>
   <li class="active">{{ page.title }}</li>
 </ol>
 
 <div class="row">
 <div class="col-xs-12">
 <div class="btn-group btn-group-justified">
-<a class="btn btn-default btn-success" href="{{site.baseurl}}/teaching/mat526s21/syllabus/">Syllabus</a>
-<a class="btn btn-default btn-primary" href="{{site.baseurl}}/teaching/mat526s21/materials/">
+<a class="btn btn-default btn-success" href="{{site.baseurl}}/teaching/mat526f22/syllabus/">Syllabus</a>
+<a class="btn btn-default btn-primary" href="{{site.baseurl}}/teaching/mat526f22/materials/">
 <span class="hidden-xs">Course Materials</span><span class="visible-xs">Stuff</span>
 </a>
-<a class="btn btn-default btn-warning" href="{{site.baseurl}}/teaching/mat526s21/homework/">
+<a class="btn btn-default btn-warning" href="{{site.baseurl}}/teaching/mat526f22/homework/">
 <span class="hidden-xs">Homework</span><span class="visible-xs">HW</span>
 </a>
 </div>
@@ -150,7 +150,7 @@ Reviewing material from previous courses and looking up definitions and theorems
 </blockquote>
 
 ### Homework ###
-You are allowed and encouraged to work together on homework.  However, each student is expected to turn in their own work.  Prior to the start of class, you will need to capture your handwritten work digitally and then upload a PDF to BbLearn. There are many free smartphone apps for doing this. I use TurboScan on my iPhone. Submitting your work prior to class allows me to see what you accomplished outside of class. In general, late homework will *not* be accepted.  However, you are allowed to turn in up to **two late homework assignments** with no questions asked. Unless you have made arrangements in advance with me, homework turned in after class will be considered late. When doing your homework, I encourage you to consult the [Elements of Style for Proofs]({{site.baseurl}}/teaching/ElementsOfStyle.pdf). On each homework assignment, please write (i) your name, (ii) name of course, and (iii) Homework number.  You can find the list of assignments on the [homework page]({{site.baseurl}}/teaching/mat526s21/homework/).  I reserve the right to modify the homework assignments as I see necessary.
+You are allowed and encouraged to work together on homework.  However, each student is expected to turn in their own work.  Prior to the start of class, you will need to capture your handwritten work digitally and then upload a PDF to BbLearn. There are many free smartphone apps for doing this. I use TurboScan on my iPhone. Submitting your work prior to class allows me to see what you accomplished outside of class. In general, late homework will *not* be accepted.  However, you are allowed to turn in up to **two late homework assignments** with no questions asked. Unless you have made arrangements in advance with me, homework turned in after class will be considered late. When doing your homework, I encourage you to consult the [Elements of Style for Proofs]({{site.baseurl}}/teaching/ElementsOfStyle.pdf). On each homework assignment, please write (i) your name, (ii) name of course, and (iii) Homework number.  You can find the list of assignments on the [homework page]({{site.baseurl}}/teaching/mat526f22/homework/).  I reserve the right to modify the homework assignments as I see necessary.
 
 Generally, the written homework assignments will be due on Mondays, but I will always tell you when a given homework assignment is due--so there should never be any confusion. Your homework will always be graded for completion and some subset of the problems will be graded for correctness. Problems that are graded for completeness will be worth 1 point.  Problems that are graded for correctness will either be worth 2 points or 4 points depending on the level of difficulty.  Generally, computational problems will be worth 2 points while problems requiring a formal proof will be worth 4 points.  Each 4-point problem is subject to the following rubric:
 
