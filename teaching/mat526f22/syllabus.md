@@ -27,9 +27,9 @@ layout: default
 
 <br />
 
-<div class="alert alert-info" role="alert">
+<!-- <div class="alert alert-info" role="alert">
 <i class="far fa-hand-peace"></i>&nbsp; This page is under construction!
-</div>
+</div> -->
 
 <div class="row">
   <div class="col-xs-12 col-sm-6">
@@ -49,7 +49,7 @@ layout: default
       <h2>Instructor Info</h2>
       <i class="fa fa-user fa-fw"></i>&nbsp; Dana C. Ernst, PhD<br />
       <i class="fa fa-university fa-fw"></i>&nbsp; AMB 176<br />
-      <i class="fa fa-users fa-fw"></i>&nbsp; ???<br />
+      <i class="fa fa-users fa-fw"></i>&nbsp; 11:15-12:15PM MWF, 10:15-12:15 Th<br />
       <i class="far fa-envelope fa-fw"></i>&nbsp; <a href="mailto:dana.ernst@nau.edu">dana.ernst@nau.edu</a><br />
       <i class="fa fa-phone fa-fw"></i>&nbsp; 928.523.6852<br />
       <i class="fa fa-link fa-fw"></i>&nbsp; <a href="{{site.baseurl}}">danaernst.com</a>
@@ -187,7 +187,7 @@ Generally, the written homework assignments will be due on Mondays, but I will a
 </table>
 </center>
 
-To compute your score on a given homework assignment, I will divide your total points by the total possible points to obtain a percent score. Each homework assignment has the same weight.  Your overall homework grade will be worth 35% of your final grade.
+To compute your score on a given homework assignment, I will divide your total points by the total possible points to obtain a percent score. Each homework assignment has the same weight.  Your overall homework grade will be worth 40% of your final grade.
 
 <blockquote>
 <p>I write one page of masterpiece to ninety-one pages of shit.</p>
@@ -195,9 +195,7 @@ To compute your score on a given homework assignment, I will divide your total p
 </blockquote>
 
 ### Exams ###
-Coming soon...
-
-<!-- There will be two midterm exams and a cumulative final exam.  Exam 1 will be a written exam consisting of an in-class portion, and possibly a take-home portion.  Exam 1 is *tentatively* scheduled for **???** (week ???) and is worth 25% of your overall grade in the course. Exam 2 will be a 30-minute oral exam taken individually with me (via Zoom or in my office, depending on how the semester proceeds) sometime during the last two weeks of classes. Exam 2 will be worth 15% of your overall grade. The final exam will be on **Wednesday, April 28** at 7:30-9:30AM and is worth 25% of your overall grade. The final exam may or may not have a take-home portion.  If either of Exam 1 or the Final Exam have a take-home portion, you will have a few days to complete it. Make-up exams will only be given under extreme circumstances, as judged by me. In general, it will be best to communicate conflicts ahead of time. -->
+ There will be two midterm exams and a cumulative final exam.  Each of the exams is worth 20% of your overall grade and will consist of an in-class portion and possibly a take-home portion.  The in-class portions of Exam 1 and Exam 2 are *tentatively* scheduled for **Wednesday, October 5** (week 6) and **Wednesday, November 16** (week 12), respectively.  The final exam will be on **Monday, December 12** at 10:00AM-11:00PM. Make-up exams will only be given under extreme circumstances, as judged by me. In general, it will be best to communicate conflicts ahead of time.
 
 <blockquote>
 <p>The impediment to action advances action. What stands in the way becomes the way.</p>
@@ -237,23 +235,23 @@ In summary, your final grade will be determined by your scores in the following 
 	<tbody>
 	<tr>
 		<td>Homework</td>
-		<td style="text-align: center;">35%</td>
+		<td style="text-align: center;">40%</td>
 		<td>See above for requirements</td>
 	</tr>
 	<tr>
 		<td>Exam 1</td>
-		<td style="text-align: center;">25%</td>
-		<td>In-class portion on ???, possible take-home portion</td>
+		<td style="text-align: center;">20%</td>
+		<td>In-class portion on October 5, possible take-home portion</td>
 	</tr>
   <tr>
     <td>Exam 2</td>
-    <td style="text-align: center;">15%</td>
-    <td>Individual oral exam taken during last 2 weeks of semester</td>
+    <td style="text-align: center;">20%</td>
+    <td>In-class portion on November 16, possible take-home portion</td>
   </tr>
 	<tr>
 		<td>Final Exam</td>
-		<td style="text-align: center;">25%</td>
-		<td>???</td>
+		<td style="text-align: center;">20%</td>
+		<td>In-class portion on December 12, possible take-home portion</td>
 	</tr>
 	</tbody>
 </table>

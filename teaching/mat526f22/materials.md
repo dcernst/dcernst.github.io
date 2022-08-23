@@ -33,6 +33,11 @@ There is no textbook for this course.  All course content will be covered via le
   <footer><a href="http://en.wikipedia.org/wiki/Paul_Halmos">Paul Halmos</a></footer>
 </blockquote>
 
+## Exams
+Below are links to the take-home portions of each exam. If you are interested in using LaTeX to type up your solutions, you can obtain the source file by replacing .pdf with .tex in the urls below.
+
+- Coming soon.
+
 ## Miscellaneous Materials ##
 - [Setting the Stage]({{ site.baseurl }}/teaching/SettingTheStage.pdf) (PDF)
 - [Living Proof]({{site.baseurl}}/teaching/LivingProof.pdf)
@@ -61,8 +66,3 @@ There is no textbook for this course.  All course content will be covered via le
 - [Lessons from My Math Degree That Have Nothing to Do with Math](https://medium.com/s/story/6-life-lessons-from-my-math-degree-that-have-nothing-to-do-with-math-d38aba90edfe) (6 min read on Medium)
 - [Is Mathematics Invented or Discovered? &#124; Roger Penrose](https://www.youtube.com/watch?v=TKlPj_qGIt8) (4:14 min)
 - [What is Mathematics? The Most Misunderstood Subject](https://www.fordham.edu/info/20603/what_math) (short article by Dr. Robert H. Lewis, Professor of Mathematics, Fordham University)
-
-## Exams
-Below are links to the take-home portions of each exam. If you are interested in using LaTeX to type up your solutions, you can obtain the source file by replacing .pdf with .tex in the urls below.
-
-- Coming soon.
