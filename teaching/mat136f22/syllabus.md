@@ -21,16 +21,15 @@ layout: default
 <a class="btn btn-default btn-warning" href="{{site.baseurl}}/teaching/mat136f22/homework/">
 <span class="hidden-xs">Homework</span><span class="visible-xs">HW</span>
 </a>
-<!-- <a class="btn btn-default btn-info" href="{{site.baseurl}}/teaching/mat136f22/journal/">Journal</a> -->
 </div>
 </div>
 </div>
 
-<br />
+<!-- <br />
 
 <div class="alert alert-info" role="alert">
 <i class="far fa-hand-peace"></i>&nbsp; This page is under construction!
-</div>
+</div> -->
 
 <div class="row">
   <div class="col-xs-12 col-sm-6">
@@ -62,7 +61,7 @@ layout: default
 MAT 125 or MAT 125H with a grade greater than or equal to C or satisfactory mathematics placement.
 
 ### Catalog Description ###
-Calculus of one variable; basic concepts, interpretations, techniques, and applications of differentiation and integration. Letter grade only. Course fee required.
+Calculus of one variable; basic concepts, interpretations, techniques, and applications of differentiation and integration. Letter grade only.
 
 ### Additional Information ###
 <div class="row">
@@ -78,7 +77,7 @@ Calculus of one variable; basic concepts, interpretations, techniques, and appli
 </div>
 
 ### Textbook ###
-The official textbook for calculus at NAU is [Calculus: Early Transcendentals (NAU Version)](https://naumathstat.github.io/calculus/) by David Guichard (Whitman College) is the official calculus textbook at NAU. This book is available for free in PDF or HTML format.  I'll loosely follow the book. You are also welcome to utilize other books covering first semester calculus. Check out the [Course Materials]({{ site.baseurl }}/teaching/mat136f22/materials/) page for a list of free calculus textbooks and other resources.  If you are interested in purchasing a print textbook, I recommend *Calculus: Early Transcendentals*(3rd edition or later) by Rogawski and Adams.
+The official textbook for calculus at NAU is [Calculus: Early Transcendentals (NAU Version)](https://naumathstat.github.io/calculus/) by David Guichard (Whitman College). This book is available for free in PDF or HTML format.  I'll loosely follow the book. You are also welcome to utilize other books covering first semester calculus. Check out the [Course Materials]({{ site.baseurl }}/teaching/mat136f22/materials/) page for a list of free calculus textbooks and other resources.  If you are interested in purchasing a print textbook, I recommend *Calculus: Early Transcendentals* (3rd edition or later) by Rogawski and Adams.
 
 <blockquote>
   <p>Don’t just read it; fight it! Ask your own questions, look for your own examples, discover your own proofs. Is the hypothesis necessary? Is the converse true? What happens in the classical special case? What about the degenerate cases? Where does the proof use the hypothesis?</p>
@@ -139,7 +138,7 @@ There are two types of homework assignments: Daily and Weekly. Unless a student 
 **Weekly Homework:** Mathematics is about so much more than cranking out answers to assigned exercises. Having the ability to appropriately convey a mathematical argument is equally as important as "getting the right answer." In fact, I would argue that it is one of the most important reasons for learning mathematics. Each week, you will be required to submit carefully written solutions to a selection of problems. The Weekly Homework will be graded for more than the correct answer. In particular, intermediate steps will be graded, as well as your ability to present a complete solution. Moreover, your write-ups should be neatly written and make proper use of mathematical notation. Your lowest Weekly Homework score will be dropped.
 
 ### Exams ###
-There will be 4 midterm exams, which are *tentatively* scheduled for the following Fridays: **September 23**, **October 14**, **November 4**, and **December 2**. These dates are subject to change.  Details will be provided at least a week prior to each exam. Each exam will be worth 15% of your overall grade.  There will also be a *cumulative* final exam, which will be on **Wednesday, December 14** at 7:30-9:30AM.  The final exam is worth 20% of your overall grade.  Make-up exams will only be given under extreme circumstances, as judged by me.  In general, it will be best to communicate conflicts ahead of time.  You are not allowed to use a calculator on any of the exams.
+There will be 4 midterm exams, which are *tentatively* scheduled for the following Fridays: **September 23**, **October 14**, **November 4**, and **December 2**. These dates are subject to change.  Details will be provided at least a week prior to each exam. Each exam will be worth 15% of your overall grade.  There will also be a *cumulative* final exam, which will be on **Wednesday, December 14** at 7:30-9:30AM.  The final exam is worth 20% of your overall grade.  Make-up exams will only be given under extreme circumstances, as judged by me.  In general, it will be best to communicate conflicts ahead of time.  **You are not allowed to use a calculator on any of the exams.**
 
 <blockquote>
 <p>I must not fear.<br />
@@ -197,7 +196,7 @@ You are responsible for knowing and following the [Department of Mathematics and
 As per Department Policy, cell phones, MP3 players and portable electronic communication devices, including but not limited to smart phones, cameras and recording devices, must be turned off and inaccessible during in-class tests. Any violation of this policy will be treated as academic dishonesty.
 
 ### About Calculators and Other Technology ###
-I am a huge fan of technology and believe that when it is used appropriately, it can greatly enhance one's learning experience.  However, when learning, technology should never replace one's own amazing cognitive abilities.  When we are discussing concepts in class or when you are doing homework, you should feel free to use whatever resources you feel will help you understand the concepts better.  So, feel free to use things like [Sage](http://www.sagemath.org/), [Wolfram|Alpha](http://wolframalpha.com), [Mathematica](http://www.wolfram.com/mathematica/), your graphing calculator, etc. when doing homework.  However, on exams **you will not be allowed to use a calculator**
+I am a huge fan of technology and believe that when it is used appropriately, it can greatly enhance one's learning experience.  However, when learning, technology should never replace one's own amazing cognitive abilities.  When we are discussing concepts in class or when you are doing homework, you should feel free to use whatever resources you feel will help you understand the concepts better.  So, feel free to use things like [Sage](http://www.sagemath.org/), [Wolfram|Alpha](http://wolframalpha.com), [Mathematica](http://www.wolfram.com/mathematica/), your graphing calculator, etc. when doing homework.  However, **you are not allowed to use a calculator on any of the exams.**
 
 Moreover, be warned that I am much more interested in the process by which you arrived at your answer than the answer itself.  An answer to a homework or exam question that is correct but lacks justification may be worth little to no points.  If you understand a concept, then barring a silly computational error, the correct answer comes along for the ride.  Yet, getting the correct answer does not imply that you understand anything!
 
