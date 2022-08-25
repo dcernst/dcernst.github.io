@@ -31,6 +31,6 @@ You are allowed and encouraged to work together on homework. Yet, each student i
 ## Assignments ##
 I reserve the right to modify an assignment if the need arises.  
 
-- **Homework 1:** Read the [syllabus]({{site.baseurl}}/teaching/mat526f22/syllabus/) and write down 5 important items. Submit a PDF of your written work to the corresponding assignment on BbLearn. *Note:*  All of the exam dates only count as a single item.  (Due Wednesday, August 31)
+- **Homework 1:** Read the [syllabus]({{site.baseurl}}/teaching/mat526f22/syllabus/) and write down 5 items that you think are important. *Note:*  All of the exam dates only count as a single item.  (Due Wednesday, August 31)
 - **Homework 2:** Create a free [Discord](http://discord.com) account, accept the invite to our Discord server, and post something about yourself in the #introductions channel. (Due Wednesday, August 31)
 - **Homework 3:** Complete the problems found [here]({{site.baseurl}}/teaching/mat526f22/526HW3.pdf). (Due Wednesday, September 7)

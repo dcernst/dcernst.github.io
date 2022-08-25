@@ -36,7 +36,7 @@ Unless a student has a documented excused absence, late homework will not be acc
 ## Daily Homework ##
 Most of the Daily Homework assignments are to be completed via [WeBWorK](https://webwork.math.nau.edu/), which is an online homework system. You should log in with your NAU credentials.
 
-- **Daily Homework 1:** Read the [syllabus]({{site.baseurl}}/teaching/mat136f22/syllabus/) and write down 5 important items.  *Note:*  All of the exam dates only count as a single item. Submit your work to BbLearn. (Due Wednesday, August 31)
+- **Daily Homework 1:** Read the [syllabus]({{site.baseurl}}/teaching/mat136f22/syllabus/) and write down 5 items that you think are important.  *Note:*  All of the exam dates only count as a single item. (Due Wednesday, August 31)
 - **Daily Homework 2:** Create a free [Discord](http://discord.com) account, accept the invite to our Discord server, and post something about yourself in the #introductions channel. (Due Wednesday, August 31 by 9pm)
 - **Daily Homework 3:** Complete the corresponding problems on [WeBWorK](https://webwork.math.nau.edu/webwork2/DErnst_136/). (Due Thursday, August 13  by 8:00pm)
 

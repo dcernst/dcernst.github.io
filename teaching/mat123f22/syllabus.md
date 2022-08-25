@@ -60,7 +60,6 @@ layout: default
 ### Purpose ###
 MAT 123: First Year Seminar introduces first year majors to the academic content, degree programs, faculty, resources, and opportunities available in the Department of Mathematics and Statistics. Pass–fail only.
 
-
 ### Course Content ###
 This course is intended to introduce you to:
 - academic programs in mathematics, mathematics education, and data science;
@@ -83,9 +82,6 @@ Upon successful completion of the course, the student will be able to: 
 <p>The impediment to action advances action. What stands in the way becomes the way.</p>
 <footer><a href="https://en.wikipedia.org/wiki/Marcus_Aurelius">Marcus Aurelius</a></footer>
 </blockquote>
-
-### Assessment and Grading System ###
-The grading basis for this course is Pass/Fail. Satisfactory attendance and completion of all course assignments except one earns a grade of Pass. There is no final exam.
 
 ### Course Materials ###
 There is no textbook for this course.  All course content will be covered via lectures and homework.
@@ -113,8 +109,14 @@ In our classroom, diversity and individual differences are respected, appreciate
 
 Students are also expected to minimize distracting behaviors.  In particular, every attempt should be made to arrive to class on time.  If you must arrive late or leave early, please do not disrupt class. Please turn off the ringer on your cell phone.  I do not have a strict policy on the use of laptops, tablets, and cell phones.  You are expected to be paying attention and engaging in class discussions.  If your cell phone, etc. is interfering with your ability (or that of another student) to do this, then put it away, or I will ask you to put it away.
 
-### Homework ###
-???
+### Assignments ###
+There are two types of graded assignments for this course.
+
+**Required Assignments:** As the name implies, these assignments will be required to be completed by a particular due date.  Each Required Assignment will have a designated point value.  Some of these assignments may be completed in class, but most will be given as homework.  In general, late Required Assignments will *not* be accepted.  However, you are allowed to turn in up to **two late Required Assignments** with no questions asked.
+
+**Flexible Assignments:** These assignments are a sort of "choose your own adventure".  Each Flexible Assignment has a designated point value.  Over the course of the semester, you must complete enough Flexible Assignments to **achieve a total of ??? points**.  See the [Homework]({{site.baseurl}}/teaching/mat123f22/homework/) page for a list of the potential Flexible Assignments.  Feel free to suggest more items for the list.
+
+You must complete all of the Required Assignments and achieve at least ??? points worth of Flexible Assignments in order to pass the course.  
 
 ### Exams ###
 There are no exams for this class.
@@ -132,48 +134,13 @@ Only I will remain.</p>
 </blockquote>
 
 ### Attendance ###
-As per university policy, attendance is *mandatory* in all 100-level courses, and in particular, I am required to record attendance each class session.  Regular attendance is vital to success in this course, but you will not explicitly be graded on attendance.  You are responsible for all material covered in class. You can find more information about NAU's attendance policy on the [Academic Policies](https://in.nau.edu/dean-of-students/academic-policies/) page.
-
-### Extra Credit
-The only thing I will award extra credit for is finding typos on course materials (e.g., course notes, syllabus, webpage).  This includes broken links on my website.  However, it does not include the placement of commas and such.  If you find a typo, I will add one percentage point to your next exam.  You can earn at most five percentage points per exam. They're is a typo right here.
+As per university policy, attendance is *mandatory* in all 100-level courses, and in particular, I am required to record attendance each class session.  Moreover, in order to pass the class, you may have **at most two unexcused absences**.  You are responsible for all material covered in class even if you are absent. You can find more information about NAU's attendance policy on the [Academic Policies](https://in.nau.edu/dean-of-students/academic-policies/) page.
 
 ### Basis for Evaluation ###
-In summary, your final grade will be determined by your scores in the following categories.
+The grading basis for this course is Pass/Fail. You must **complete all of the Required Assignments** and **achieve at least ??? points worth of Flexible Assignments** in order to pass the course.  Moreover, you may have **at most two unexcused absences**.  Otherwise, a student will receive a grade of Fail for the course.
 
-<center>
-<table class="table table-striped">
-	<thead>
-	<tr>
-		<th>Category</th>
-		<th>Weight</th>
-		<th>Notes </th>
-	</tr>
-	</thead>
-	<tbody>
-	<tr>
-		<td>Homework</td>
-		<td>20%</td>
-		<td>A combination of Daily and Weekly Homework.</td>
-	</tr>
-	<tr>
-		<td>4 Midterm Exams</td>
-		<td>60%</td>
-		<td>Each midterm exam is worth 15% of your overall grade.</td>
-	</tr>
-	<tr>
-		<td>Final Exam</td>
-		<td>20%</td>
-		<td>The final exam is cumulative.</td>
-	</tr>
-	</tbody>
-</table>
-</center>
-
-### Department of Mathematics and Statistics Policies ###
+### Department of Mathematics & Statistics Policies ###
 You are responsible for knowing and following the [Department of Mathematics and Statistics Policies]({{ site.baseurl }}/teaching/DepartmentPoliciesFall2022.pdf) (PDF). As per Department Policy, cell phones, MP3 players and portable electronic communication devices, including but not limited to smart phones, cameras and recording devices, must be turned off and inaccessible during in-class tests. Any violation of this policy will be treated as academic dishonesty.  More policies can be found in other university documents, especially the [NAU Student Handbook](https://in.nau.edu/dean-of-students/Student-Handbook/) (see appendices) and the website of the [Student Outreach and Support](https://in.nau.edu/dean-of-students/nau-sos/) (SOS).
-
-### Getting Help ###
-There are many resources available to get help.  First, you are allowed and encouraged to work together on homework.  However, each student is expected to turn in their own work. You are strongly encouraged to ask questions in our Discord discussion group, as I (and hopefully other members of the class) will post comments there for all to benefit from.  You are also encouraged to stop by during my office hours and you can always [email me](mailto:dana.ernst@nau.edu).  I am always happy to help you.  If my office hours don't work for you, then we can probably find another time to meet.  It is your responsibility to be aware of how well you understand the material.  Don't wait until it is too late if you need help.  *Ask questions*!
 
 <blockquote>
 <p>Alone we can do so little; together we can do so much.</p>

@@ -190,7 +190,7 @@ In summary, your final grade will be determined by your scores in the following 
 </table>
 </center>
 
-### Department of Mathematics and Statistics Policies ###
+### Department of Mathematics & Statistics Policies ###
 You are responsible for knowing and following the [Department of Mathematics and Statistics Policies]({{ site.baseurl }}/teaching/DepartmentPoliciesFall2022.pdf) (PDF). As per Department Policy, cell phones, MP3 players and portable electronic communication devices, including but not limited to smart phones, cameras and recording devices, must be turned off and inaccessible during in-class tests. Any violation of this policy will be treated as academic dishonesty.  More policies can be found in other university documents, especially the [NAU Student Handbook](https://in.nau.edu/dean-of-students/Student-Handbook/) (see appendices) and the website of the [Student Outreach and Support](https://in.nau.edu/dean-of-students/nau-sos/) (SOS).
 
 ### About Calculators and Other Technology ###
@@ -248,7 +248,6 @@ One may direct inquiries concerning the application of Title IX to either or bot
 **Misconduct in Research:** As noted, NAU expects every student to firmly adhere to a strong code of academic integrity in all their scholarly pursuits. This includes avoiding fabrication, falsification, or plagiarism when conducting research or reporting research results. Engaging in research misconduct may result in serious disciplinary consequences. Students must also report any suspected or actual instances of research misconduct of which they become aware. Allegations of research misconduct should be reported to your instructor or the University’s Research Integrity Officer, Dr. David Faguy, who can be reached at david.faguy@nau.edu or 928-523-6117. More information about misconduct in research is available [here](https://nau.edu/university-policy-library/misconduct-in-research).
 
 **Sensitive Course Materials:** University education aims to expand student understanding and awareness. Thus, it necessarily involves engagement with a wide range of information, ideas, and creative representations. In their college studies, students can expect to encounter and to critically appraise materials that may differ from and perhaps challenge familiar understandings, ideas, and beliefs. Students are encouraged to discuss these matters with faculty.
-
 
 <div class="alert alert-info" role="alert">
 <i class="far fa-hand-peace"></i>&nbsp; The "Rights of the Learner" were adapted from a similar list written by <a href="https://embracinglifewithmajorrevisions.wordpress.com/2017/07/12/rights-of-the-learner-an-introduction/" class="alert-link">Crystal Kalinec-Craig</a>. The first paragraph of "Commitment to the Learning Community" is a modified version of statement that <a href="https://sbagleyteaches.wordpress.com" class="alert-link">Spencer Bagley</a> has in his syllabi. Lastly, I've borrowed a few phrases here and there from <a href="http://www.users.csbsju.edu/~bbenesh/" class="alert-link">Bret Benesh</a>.
