@@ -112,7 +112,7 @@ Students are also expected to minimize distracting behaviors.  In particular, ev
 ### Assignments ###
 There are two types of graded assignments for this course.
 
-**Required Assignments:** As the name implies, these assignments will be required to be completed by a particular due date.  Each Required Assignment will have a designated point value.  Some of these assignments may be completed in class, but most will be given as homework.  In general, late Required Assignments will *not* be accepted.  However, you are allowed to turn in up to **two late Required Assignments** with no questions asked.
+**Required Assignments:** As the name implies, these assignments will be required to be completed by a particular due date.  Some of these assignments may be completed in class, but most will be given as homework.  In order to pass the course, you must **complete each of the Required Assignments to a satisfactory level**. If your work is deemed unsatisfactory, you will have one chance to resubmit your work.  We will negotiate a due date for any resubmissions.  In general, late Required Assignments will *not* be accepted.  However, you are allowed to turn in up to **two late Required Assignments** with no questions asked.
 
 **Flexible Assignments:** These assignments are a sort of "choose your own adventure".  Each Flexible Assignment has a designated point value.  Over the course of the semester, you must complete enough Flexible Assignments to **achieve a total of ??? points**.  See the [Homework]({{site.baseurl}}/teaching/mat123f22/homework/) page for a list of the potential Flexible Assignments.  Feel free to suggest more items for the list.
 
