@@ -25,8 +25,7 @@ title: Course Materials
 </div>
 </div>
 
-## Course Notes & Other Resources ##
-Below you will find notes and handouts that we have used in class, as well as some other useful stuff.
+## Course Materials ##
 - [Calculus: Early Transcendentals (NAU Version)](https://naumathstat.github.io/calculus/) by David Guichard (Whitman College) is the official calculus textbook at NAU. This book is available for free in PDF or HTML format.  I'll loosely follow the book.
 - [Trig Unit Circle]({{ site.baseurl }}/teaching/UnitCircle.pdf)
 - [Required Knowledge from Precalculus]({{ site.baseurl }}/teaching/136RequiredKnowledge.pdf)
@@ -47,7 +46,7 @@ Below you will find notes and handouts that we have used in class, as well as so
 </blockquote>
 
 ## Free Calculus Textbooks ##
-Here is a list of free calculus texts that you may use as an additional resource.  If you find one of these more helpful than another or if you know of additional resources, please let me know.  Also, let me know if you encounter a broken link.
+Below is a list of free calculus texts that you may use as an additional resource.  If you find one of these more helpful than another or if you know of additional resources, please let me know.  Also, let me know if you encounter a broken link.
 
 * [Calculus for Team-Based Inquiry Learning](https://teambasedinquirylearning.github.io/calculus/) by TBIL Institute Fellows. Activities and exercises for easily implementing Team-Based Inquiry Learning in a single-variable calculus classroom. PDF and HTML versions.
 * [CLP Calculus Textbooks](http://www.math.ubc.ca/~CLP/index.html) by [Joel Feldman](http://www.math.ubc.ca/~feldman/), [Andrew Rechnitzer](http://www.math.ubc.ca/~andrewr/front_page.html), and [Elyse Yeager](http://www.math.ubc.ca/~elyse/index.html) were written for standard university calculus courses at the University of British Colombia.  Free PDF and web-based textbooks.
