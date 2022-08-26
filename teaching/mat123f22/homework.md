@@ -77,4 +77,7 @@ These assignments are a sort of "choose your own adventure".  Each Flexible Assi
 - Read [Mathematics for Human Flourishing](https://www.francissu.com/flourishing) by Francis Su and write a 1-2 page typed summary/reflection.  I have a copy of the book if you want to borrow it for a couple weeks. (? points)
 - Attend an athletic event on campus.  To get credit for this, you need to submit a picture of yourself at the event. The picture needs to make it clear what the event is. (? points)
 - Use the Internet to learn about the Millennium Prize Problems.  Which problems have been solved? What are the remaining unsolved problems?  Pick one of the unsolved problems and attempt to write a 1-2 page typed summary. (? points)
-- Use the Internet to learn about the Fields Medal.  What is a Fields Medal? How does one get selected for a Fields Medal?  Choose 1-2 recent Fields Medal recipients and write a 1-2 page typed summary of their life and work. (? points)
+- Use the Internet to learn about the Fields Medal.  What is a Fields Medal? How does one get selected for a Fields Medal?  Is there anyone that has ever refused to receive their Fields Medal after being selected? Choose 1-2 recent Fields Medal recipients and write a 1-2 page typed summary of their life and work. (? points)
+- More coming soon...
+
+<!-- tutoring -->
