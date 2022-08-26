@@ -31,10 +31,13 @@ You are allowed and encouraged to work together on homework. Yet, each student i
 ## Required Assignments ##
 In order to pass the course, you must complete each of the Required Assignments to a satisfactory level. If your work is deemed unsatisfactory, you will have one chance to resubmit your work.  We will negotiate a due date for any resubmissions.  In general, late Required Assignments will *not* be accepted.  However, you are allowed to turn in up to **two late Required Assignments** with no questions asked. I reserve the right to modify an assignment if the need arises.  
 
-- **Homework 1:** Read the [syllabus]({{site.baseurl}}/teaching/mat123f22/syllabus/) and write down 5 items that you think are important.  (Due ???)
-- **Homework 2:** Create a free [Discord](http://discord.com) account, accept the invite to our Discord server, and post something about yourself in the #introductions channel. (Due ???)
+- **Homework 1:** Create a free [Discord](http://discord.com) account, accept the invite to our Discord server (see Welcome Message, which was sent to your NAU email), and post something about yourself in the #introductions channel. (Due Wednesday, August 31 by 9pm)
+- **Homework 2:** Read the [syllabus]({{site.baseurl}}/teaching/mat123f22/syllabus/) and write down 5 items that you think are important.  (Due Monday, September 12)
+
 
 ## Flexible Assignments ##
 These assignments are a sort of "choose your own adventure".  Each Flexible Assignment has a designated point value.  Over the course of the semester, you must complete enough Flexible Assignments to **achieve a total of ??? points**.  Feel free to suggest more items for the list.
 
 - Coming soon.
+
+<!-- picnic -->

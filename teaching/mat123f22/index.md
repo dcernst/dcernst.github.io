@@ -55,7 +55,7 @@ Welcome to the course web page for the Fall 2022 manifestation of MAT 123: First
 </div>
 
 ### Purpose and Goals ###
-???
+MAT 123: First Year Seminar introduces first year majors to the academic content, degree programs, faculty, resources, and opportunities available in the Department of Mathematics and Statistics.
 
 ## Getting Help ##
 There are many resources available to assist you with doing your homework (e.g., office hours, Discord discussion group, free tutoring at numerous places across campus). You are allowed and encouraged to work together on homework.  However, each student is expected to turn in their own work. You are strongly encouraged to ask questions in our Discord discussion group, as I (and hopefully other members of the class) will post comments there for all to benefit from.  You are also encouraged to stop by during my office hours and you can always [email me](mailto:dana.ernst@nau.edu).  Lastly, *free* tutoring is available through the [Math Achievement Program](https://in.nau.edu/academic-success-centers/math-achievement-program/).
