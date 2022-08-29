@@ -44,6 +44,7 @@ These assignments are a sort of "choose your own adventure".  Each Flexible Assi
 - Attend the Department of Mathematics & Statistics picnic on Saturday, September 10 at Thorpe Park.  To get credit for this, you need to submit a picture of yourself at the picnic. (50 points)
 - Attend FAMUS (Friday Afternoon Mathematics Undergraduate Seminar).  FAMUS takes place most Friday afternoons at 4-5pm in Adel 164.  For more info, see the [FAMUS schedule](http://naumathstat.github.io/seminars/famus/). To get credit for this, you must attend FAMUS for the full hour and submit a selfie with Jeff Rushall, the host of FAMUS.  You may get credit for this multiple times. (25 points each)
 - Attend our department colloquium.  The colloquium meets most Tuesday at 4-5pm in Adel 164.  These talks are generally pitched at a high level.  For more info, see the [colloquium schedule](http://naumathstat.github.io/seminars/colloquiumFall2022/). To get credit for this, you must attend for the full hour and submit a selfie with the speaker for that day. You may get credit for this multiple times. (25 points each)
+- Submit a solution to the [Problem of the Week](https://naumathstat.github.io/problem-of-the-week/) that scores at least 2 points. You may get credit for this multiple times. (25 points each)
 - Post a meaninful question in Discord. (50 points)
 - Post a meaningful response to a questions in Discord. (50 points)
 - Hike to the top of Mount Elden. To get credit for this, you need to submit a picture of yourself at the summit. (25 points)
