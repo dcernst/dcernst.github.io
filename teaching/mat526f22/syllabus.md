@@ -195,7 +195,7 @@ To compute your score on a given homework assignment, I will divide your total p
 </blockquote>
 
 ### Exams ###
- There will be two midterm exams and a cumulative final exam.  Each of the exams is worth 20% of your overall grade and will consist of an in-class portion and possibly a take-home portion.  The in-class portions of Exam 1 and Exam 2 are *tentatively* scheduled for **Wednesday, October 5** (week 6) and **Wednesday, November 16** (week 12), respectively.  The final exam will be on **Monday, December 12** at 10:00AM-11:00PM. Make-up exams will only be given under extreme circumstances, as judged by me. In general, it will be best to communicate conflicts ahead of time.
+ There will be two midterm exams and a cumulative final exam.  Each of the exams is worth 20% of your overall grade and will consist of an in-class portion and possibly a take-home portion.  The in-class portions of Exam 1 and Exam 2 are *tentatively* scheduled for **Wednesday, October 5** (week 6) and **Wednesday, November 16** (week 12), respectively.  The final exam will be on **Monday, December 12** at 10:00AM-12:00PM. Make-up exams will only be given under extreme circumstances, as judged by me. In general, it will be best to communicate conflicts ahead of time.
 
 <blockquote>
 <p>The impediment to action advances action. What stands in the way becomes the way.</p>
