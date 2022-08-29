@@ -66,6 +66,7 @@ Below is a list of free calculus texts that you may use as an additional resourc
 ## Additional Videos, Applets, & Problems ##
 Below is a partial list of applet and video repositories related to calculus. There are lots more out there. If you know of a good resource that's not listed below, please let me know.
 
+  * [Socratica Videos](https://www.youtube.com/playlist?list=PLi01XoE8jYogpKUjykd53HjG8a8ruDmW1)
   * [MOOCulus Videos](https://mooculus.osu.edu/lectures)
   * [Calculus Applets with GeoGebra](http://dcernst.github.io/CalculusApplets/)
   * [CalculusApplets.com](http://calculusapplets.com)
@@ -102,4 +103,4 @@ Below is a partial list of applet and video repositories related to calculus. Th
 - [The Subtle Art of the Mathematical Conjecture](https://www.quantamagazine.org/the-subtle-art-of-the-mathematical-conjecture-20190507/) (article on Quanta Magazine)
 - [Lessons from My Math Degree That Have Nothing to Do with Math](https://medium.com/s/story/6-life-lessons-from-my-math-degree-that-have-nothing-to-do-with-math-d38aba90edfe) (6 min read on Medium)
 - [Is Mathematics Invented or Discovered? &#124; Roger Penrose](https://www.youtube.com/watch?v=TKlPj_qGIt8) (4:14 min)
-- [What is Mathematics? The Most Misunderstood Subject](https://www.fordham.edu/info/20603/what_math) (short article by Dr. Robert H. Lewis, Professor of Mathematics, Fordham University)
+- [What is Mathematics? The Most Misunderstood Subject](http://pi.math.cornell.edu/~noonan/writing/inclass1.pdf) (short article by Dr. Robert H. Lewis, Professor of Mathematics, Fordham University)

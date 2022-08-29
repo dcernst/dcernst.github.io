@@ -58,7 +58,7 @@ Below you will find notes and resources that we will utilize. We will add to the
 - [The Subtle Art of the Mathematical Conjecture](https://www.quantamagazine.org/the-subtle-art-of-the-mathematical-conjecture-20190507/) (article on Quanta Magazine)
 - [Lessons from My Math Degree That Have Nothing to Do with Math](https://medium.com/s/story/6-life-lessons-from-my-math-degree-that-have-nothing-to-do-with-math-d38aba90edfe) (6 min read on Medium)
 - [Is Mathematics Invented or Discovered? &#124; Roger Penrose](https://www.youtube.com/watch?v=TKlPj_qGIt8) (4:14 min)
-- [What is Mathematics? The Most Misunderstood Subject](https://www.fordham.edu/info/20603/what_math) (short article by Dr. Robert H. Lewis, Professor of Mathematics, Fordham University)
+- [What is Mathematics? The Most Misunderstood Subject](http://pi.math.cornell.edu/~noonan/writing/inclass1.pdf) (short article by Dr. Robert H. Lewis, Professor of Mathematics, Fordham University)
 - Quizzes:
     - [Quiz 1]({{ site.baseurl }}/teaching/mat232f20/232Quiz1.pdf) (PDF)
     - [Quiz 2]({{ site.baseurl }}/teaching/mat232f20/232Quiz2.pdf) (PDF)

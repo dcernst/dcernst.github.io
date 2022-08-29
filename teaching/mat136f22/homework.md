@@ -38,43 +38,8 @@ Most of the Daily Homework assignments are to be completed via [WeBWorK](https:/
 
 - **Daily Homework 1:** Read the [syllabus]({{site.baseurl}}/teaching/mat136f22/syllabus/) and write down 5 items that you think are important.  *Note:*  All of the exam dates only count as a single item. (Due Wednesday, August 31)
 - **Daily Homework 2:** Create a free [Discord](http://discord.com) account, accept the invite to our Discord server, and post something about yourself in the #introductions channel. (Due Wednesday, August 31 by 9pm)
-- **Daily Homework 3:** Complete the corresponding problems on [WeBWorK](https://webwork.math.nau.edu/webwork2/DErnst_136/). (Due Thursday, August 13  by 8:00pm)
-
-<!-- - **Daily Homework 4:** Complete the corresponding problems on [WeBWorK](https://webwork.math.nau.edu/webwork2/DErnst_136/). (Due Saturday, August 15 by 8:00pm)
-- **Daily Homework 5:** Complete the corresponding problems on [WeBWorK](https://webwork.math.nau.edu/webwork2/DErnst_136/). (Due Monday, August 17 by 8:00pm)
-- **Daily Homework 6:** Complete the corresponding problems on [WeBWorK](https://webwork.math.nau.edu/webwork2/DErnst_136/). (Due Wednesday, August 19 by 8:00pm)
-- **Daily Homework 7:** Complete the corresponding problems on [WeBWorK](https://webwork.math.nau.edu/webwork2/DErnst_136/). (Due Friday, August 21 by 8:00pm)
-- **Daily Homework 8:** Complete the corresponding problems on [WeBWorK](https://webwork.math.nau.edu/webwork2/DErnst_136/). (Due Monday, August 24 by 8:00pm)
-- **Daily Homework 9:** Complete the corresponding problems on [WeBWorK](https://webwork.math.nau.edu/webwork2/DErnst_136/). (Due Wednesday, August 26 by 8:00pm)
-- **Daily Homework 10:** Complete the corresponding problems on [WeBWorK](https://webwork.math.nau.edu/webwork2/DErnst_136/). (Due Friday, August 28 by 8:00pm)
-- **Daily Homework 11:** Complete the corresponding problems on [WeBWorK](https://webwork.math.nau.edu/webwork2/DErnst_136/). (Due Monday, August 31 by 8:00pm)
-- **Daily Homework 12:** Complete the corresponding problems on [WeBWorK](https://webwork.math.nau.edu/webwork2/DErnst_136/). (Due Thursday, September 3 by 8:00pm)
-- **Daily Homework 13:** Complete the corresponding problems on [WeBWorK](https://webwork.math.nau.edu/webwork2/DErnst_136/). (Due Thursday, September 10 by 8:00pm)
-- **Daily Homework 14:** Complete the corresponding problems on [WeBWorK](https://webwork.math.nau.edu/webwork2/DErnst_136/). (Due Friday, September 11 by 8:00pm)
-- **Daily Homework 15:** Complete the corresponding problems on [WeBWorK](https://webwork.math.nau.edu/webwork2/DErnst_136/). (Due Monday, September 14 by 8:00pm)
-- **Daily Homework 16:** Complete the corresponding problems on [WeBWorK](https://webwork.math.nau.edu/webwork2/DErnst_136/). (Due Wednesday, September 16 by 8:00pm)
-- **Daily Homework 17:** Complete the corresponding problems on [WeBWorK](https://webwork.math.nau.edu/webwork2/DErnst_136/). (Due Friday, September 18 by 8:00pm)
-- **Daily Homework 18:** Complete the corresponding problems on [WeBWorK](https://webwork.math.nau.edu/webwork2/DErnst_136/). (Due Monday, September 21 by 8:00pm)
-- **Daily Homework 19:** Complete the corresponding problems on [WeBWorK](https://webwork.math.nau.edu/webwork2/DErnst_136/). (Due Wednesday, September 23 by 8:00pm)
-- **Daily Homework 20:** Complete the corresponding problems on [WeBWorK](https://webwork.math.nau.edu/webwork2/DErnst_136/). (Due Monday, September 28 by 8:00pm)
-- **Daily Homework 21:** Complete the corresponding problems on [WeBWorK](https://webwork.math.nau.edu/webwork2/DErnst_136/). (Due Wednesday, September 30 by 8:00pm)
-- **Daily Homework 22:** Complete the corresponding problems on [WeBWorK](https://webwork.math.nau.edu/webwork2/DErnst_136/). (Due Thursday, October 1 by 8:00pm)
-- **Daily Homework 23:** Complete the corresponding problems on [WeBWorK](https://webwork.math.nau.edu/webwork2/DErnst_136/). (Due Friday, October 9 by 8:00pm)
-- **Daily Homework 24:** Complete the corresponding problems on [WeBWorK](https://webwork.math.nau.edu/webwork2/DErnst_136/). (Due Monday, October 12 by 8:00pm)
-- **Daily Homework 25:** Complete the corresponding problems on [WeBWorK](https://webwork.math.nau.edu/webwork2/DErnst_136/). (Due Wednesday, October 14 by 8:00pm)
-- **Daily Homework 26:** Complete the corresponding problems on [WeBWorK](https://webwork.math.nau.edu/webwork2/DErnst_136/). (Due Thursday, October 15 by 8:00pm)
-- **Daily Homework 27:** Complete the corresponding problems on [WeBWorK](https://webwork.math.nau.edu/webwork2/DErnst_136/). (Due Monday, October 19 by 8:00pm)
-- **Daily Homework 28:** Complete the corresponding problems on [WeBWorK](https://webwork.math.nau.edu/webwork2/DErnst_136/). (Due Thursday, October 22 by 8:00pm)
-- **Daily Homework 29:** Complete the corresponding problems on [WeBWorK](https://webwork.math.nau.edu/webwork2/DErnst_136/). (Due Monday, October 26 by 8:00pm)
-- **Daily Homework 30:** Complete the corresponding problems on [WeBWorK](https://webwork.math.nau.edu/webwork2/DErnst_136/). (Due Wednesday, October 28 by 8:00pm)
-- **Daily Homework 31:** Complete the corresponding problems on [WeBWorK](https://webwork.math.nau.edu/webwork2/DErnst_136/). (Due Thursday, October 29 by 8:00pm)
-- **Daily Homework 32:** Complete the corresponding problems on [WeBWorK](https://webwork.math.nau.edu/webwork2/DErnst_136/). (Due Monday, November 9 by 8:00pm)
-- **Daily Homework 33:** Complete the corresponding problems on [WeBWorK](https://webwork.math.nau.edu/webwork2/DErnst_136/). (Due Friday, November 13 by 8:00pm)
-- **Daily Homework 34:** Complete the corresponding problems on [WeBWorK](https://webwork.math.nau.edu/webwork2/DErnst_136/). (Due Tuesday, November 17 by 8:00pm) -->
-
-
-<!-- https://www.youtube.com/watch?v=w3GV9pumczQ&list=PLi01XoE8jYogpKUjykd53HjG8a8ruDmW1&index=2&t=0s
-https://www.youtube.com/watch?v=O_cwTAfjgAQ&list=PLi01XoE8jYogpKUjykd53HjG8a8ruDmW1&index=2-->
+- **Daily Homework 3:** Complete the corresponding problems on [WeBWorK](https://webwork.math.nau.edu/webwork2/DErnst_136/). (Due Wednesday, August 31 by 10:00pm)
+- **Daily Homework 4:** Complete the corresponding problems on [WeBWorK](https://webwork.math.nau.edu/webwork2/DErnst_136/). (Due Thursday, September 1 by 10:00pm)
 
 ## Weekly Homework ##
 For each of the Weekly Homework assignments, answer each of the indicated questions. To receive full credit on a problem, you must show sufficient work for each of your answers (unless stated otherwise).  How you reach your answer is more important than the answer itself. I expect your solutions to be *well-written*, *neat*, and *organized*.  Do not turn in rough drafts.  What you turn in should be the polished version of potentially several drafts.

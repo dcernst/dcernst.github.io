@@ -63,7 +63,7 @@ I will not be covering every detail of the notes and the only way to achieve a s
 - [The Subtle Art of the Mathematical Conjecture](https://www.quantamagazine.org/the-subtle-art-of-the-mathematical-conjecture-20190507/) (article on Quanta Magazine)
 - [Lessons from My Math Degree That Have Nothing to Do with Math](https://medium.com/s/story/6-life-lessons-from-my-math-degree-that-have-nothing-to-do-with-math-d38aba90edfe) (6 min read on Medium)
 - [Is Mathematics Invented or Discovered? &#124; Roger Penrose](https://www.youtube.com/watch?v=TKlPj_qGIt8) (4:14 min)
-- [What is Mathematics? The Most Misunderstood Subject](https://www.fordham.edu/info/20603/what_math) (short article by Dr. Robert H. Lewis, Professor of Mathematics, Fordham University)
+- [What is Mathematics? The Most Misunderstood Subject](http://pi.math.cornell.edu/~noonan/writing/inclass1.pdf) (short article by Dr. Robert H. Lewis, Professor of Mathematics, Fordham University)
 
 <!-- - Pictures of board work that we ran out of time to discuss. *Note:* You should not assume that the solutions/proofs posted below are valid or sufficient.
     - Coming soon. -->
