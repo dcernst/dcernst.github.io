@@ -1,0 +1,113 @@
+\documentclass[11pt]{article}%{scrartcl}
+\usepackage[scale=1.5]{ccicons}
+\usepackage[notextcomp]{kpfonts} 
+\usepackage[margin=1in]{geometry}
+\usepackage{amsthm,amssymb}
+\usepackage{graphicx}
+\usepackage{enumitem}
+\usepackage{bm}
+
+\usepackage{color}
+\definecolor{darkblue}{rgb}{0, 0, .6}
+\definecolor{grey}{rgb}{.7, .7, .7}
+\usepackage[breaklinks]{hyperref}
+\hypersetup{
+	colorlinks=true,
+	linkcolor=darkblue,
+	anchorcolor=darkblue,
+	citecolor=darkblue,
+	pagecolor=darkblue,
+	urlcolor=darkblue,
+	pdftitle={},
+	pdfauthor={}
+}
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\lhead{MAT 526 - Fall 2022}
+\chead{}
+\rhead{Due Wednesday, September 7}
+%\lfoot{}%\scriptsize This work is licensed under the \href{http://creativecommons.org/licenses/by-sa/3.0/us/}{Creative Commons Attribution-Share Alike 3.0 License}.} 
+%\cfoot{}
+%\rfoot{\ccbysa}
+\renewcommand{\headrulewidth}{.4pt}
+%\renewcommand{\footrulewidth}{.4pt}
+
+\theoremstyle{definition}
+\newtheorem{theorem}{Theorem}
+\newtheorem{acknowledgement}[theorem]{Acknowledgement}
+\newtheorem{algorithm}[theorem]{Algorithm}
+\newtheorem{axiom}[theorem]{Axiom}
+\newtheorem{case}[theorem]{Case}
+\newtheorem{claim}[theorem]{Claim}
+\newtheorem*{claim*}{Claim}
+\newtheorem{conclusion}[theorem]{Conclusion}
+\newtheorem{condition}[theorem]{Condition}
+\newtheorem{conjecture}[theorem]{Conjecture}
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{criterion}[theorem]{Criterion}
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{example}[theorem]{Example}
+\newtheorem{exercise}[theorem]{Exercise}
+\newtheorem{journal}[theorem]{Journal}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{notation}[theorem]{Notation}
+\newtheorem{problem}[theorem]{Problem}
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{remark}[theorem]{Remark}
+\newtheorem{solution}[theorem]{Solution}
+\newtheorem{summary}[theorem]{Summary}
+\newtheorem{skeleton}[theorem]{Skeleton Proof}
+\newtheorem{activity}[theorem]{Activity}
+\newtheorem{intuitivedef}[theorem]{Intuitive Definition}
+
+\newcommand{\blankline}{\pagebreak[2]\vspace{.5\baselineskip}}
+
+\setlength{\parindent}{0pt}
+
+%Useful for cut and paste
+%\begin{enumerate}[label=\rm{(\alph*)}]
+
+\begin{document}
+
+\begin{center}
+{\Large\bf Homework 3}
+
+\smallskip
+
+Combinatorics
+\end{center}
+
+\thispagestyle{fancy}
+
+You are allowed and encouraged to work together on homework. Yet, each student is expected to turn in his or her own work. In general, late homework will not be accepted. However, you are allowed to turn in \textbf{up to two late homework assignments with no questions asked}. 
+
+\blankline
+
+Reviewing material from previous courses and looking up definitions and theorems you may have forgotten is fair game. However, when it comes to completing assignments for this course, you should \emph{not} look to resources outside the context of this course for help.  That is, you should not be consulting the web, other texts, other faculty, or students outside of our course in an attempt to find solutions to the problems you are assigned.  This includes Chegg and Course Hero. On the other hand, you may use each other, the textbook, me, and your own intuition. \textbf{If you feel you need additional resources, please come talk to me and we will come up with an appropriate plan of action.} Please read NAU's \href{https://www5.nau.edu/policies/Client/Details/828?whoIsLooking=Students&pertainsTo=All&sortDirection=Ascending&page=1}{Academic Integrity Policy}.
+
+\blankline
+
+Complete the following problems. 
+
+\begin{enumerate}
+
+\item Complete one of the following.
+\begin{enumerate}
+\item Let $f:X\to Y$ be a function.  Prove that $f$ is injective if and only if there exists a function $g:Y\to X$ such that $g\circ f=i_X$, where $i_X$ is the identity map on $X$. Note that the function $g$ is often call a \textbf{left inverse} of $f$.
+\item Let $f:X\to Y$ be a function.  Prove that $f$ is surjective if and only if there exists a function $g:Y\to X$ such that $f\circ g=i_Y$, where $i_Y$ is the identity map on $Y$. Note that the function $g$ is often call a \textbf{right inverse} of $f$.
+\end{enumerate}
+\item A \textbf{composition} of $n$ with $k$ parts is a an ordered list of $k$ positive integers whose sum is $n$, denoted $\alpha=(\alpha_1,\ldots,\alpha_k)$.  We say that $\alpha_i$ is the $i$th part.  Prove that the number of compositions of $n$ with $k$ part is $\binom{n-1}{k-1}$.  \emph{Hint:} Consider using a ``sticks and stones" model, where the $i$th part consists of $\alpha_i$ many stones and each part is separated by a stick. For example, the composition $(1,3,2)$ on $n=6$ corresponds to $\circ \mid \circ \circ \circ \mid \circ \circ$.
+\item Prove that the total number of compositions of $n$ is $2^{n-1}$ without appealing to the previous problem. Try to find a bijective proof.
+\item Use the previous two problems to explain why $\sum_{k=1}^n\binom{n-1}{k-1}=2^{n-1}$.
+\item\label{nugget} How many compositions $\alpha$ of $n$ have the following properties?
+\begin{enumerate}
+\item $\alpha$ has parts of size 1 and 2 only.
+\item $\alpha$ has only odd parts.
+\item $\alpha$ has all parts greater than 1, excepts possibly the last entry, e.g., for $n=9$, $(3,4,2)$ and $(3,3,2,1)$ are acceptable, but $(3,3,1,2)$ is not.
+\end{enumerate}
+\item Find all 231-avoiding permutations in $S_5$ (\emph{Hint:} There are 42) and organize them based on the number of maximal decreasing runs.
+\item Find all non-crossing partitions on 5 elements and organize them based on the number of blocks.
+\item Pick any five 231-avoiding permutations from $S_5$ and determine which NC-partitions they map to using the bijection that I outlined in class on August 31.
+\end{enumerate}
+\end{document}
