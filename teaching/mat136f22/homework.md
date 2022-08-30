@@ -40,16 +40,9 @@ Most of the Daily Homework assignments are to be completed via [WeBWorK](https:/
 - **Daily Homework 2:** Create a free [Discord](http://discord.com) account, accept the invite to our Discord server, and post something about yourself in the #introductions channel. (Due Wednesday, August 31 by 9pm)
 - **Daily Homework 3:** Complete the corresponding problems on [WeBWorK](https://webwork.math.nau.edu/webwork2/DErnst_136/). (Due Wednesday, August 31 by 10:00pm)
 - **Daily Homework 4:** Complete the corresponding problems on [WeBWorK](https://webwork.math.nau.edu/webwork2/DErnst_136/). (Due Thursday, September 1 by 10:00pm)
+- **Daily Homework 5:** Complete the corresponding problems on [WeBWorK](https://webwork.math.nau.edu/webwork2/DErnst_136/). (Due Friday, September 2 by 10:00pm)
 
 ## Weekly Homework ##
 For each of the Weekly Homework assignments, answer each of the indicated questions. To receive full credit on a problem, you must show sufficient work for each of your answers (unless stated otherwise).  How you reach your answer is more important than the answer itself. I expect your solutions to be *well-written*, *neat*, and *organized*.  Do not turn in rough drafts.  What you turn in should be the polished version of potentially several drafts.
 
-- **Weekly Homework 1:** Coming soon.
-
-<!-- Complete the problems posted [here]({{site.baseurl}}/teaching/mat136f22/136Weekly1.pdf). You will need to capture your handwritten work digitally and then upload a single PDF document (possibly with multiple pages) to BbLearn (look in "Assignments Submitted via BbLearn" folder). There are many free smartphone apps for doing this. I use TurboScan on my iPhone. (Due Thursday, August 20 by 8pm)
-- **Weekly Homework 2:** Complete the problems posted [here]({{site.baseurl}}/teaching/mat136f22/136Weekly2.pdf). You will need to capture your handwritten work digitally and then upload a single PDF document (possibly with multiple pages) to BbLearn (look in "Assignments Submitted via BbLearn" folder). There are many free smartphone apps for doing this. I use TurboScan on my iPhone. (Due Thursday, August 27 by 8pm)
-- **Weekly Homework 3:** Complete the problems posted [here]({{site.baseurl}}/teaching/mat136f22/136Weekly3.pdf). (Due Wednesday, September 2 by 8pm)
-- **Weekly Homework 4:** Complete the problems posted [here]({{site.baseurl}}/teaching/mat136f22/136Weekly4.pdf). (Due Thursday, September 17 by 8pm)
-- **Weekly Homework 5:** Complete the problems posted [here]({{site.baseurl}}/teaching/mat136f22/136Weekly5.pdf). (Due Friday, September 25 by 8pm)
-- **Weekly Homework 6:** Complete the problems posted [here]({{site.baseurl}}/teaching/mat136f22/136Weekly6.pdf). (Due Friday, October 23 by 8pm)
-- **Weekly Homework 7:** Complete the problems posted [here]({{site.baseurl}}/teaching/mat136f22/136Weekly7.pdf). (Due Friday, October 30 by 8pm) -->
+- **Weekly Homework 1:** Complete the problems posted [here]({{site.baseurl}}/teaching/mat136f22/136Weekly1.pdf). (Due Thursday, September 8 at class time)
