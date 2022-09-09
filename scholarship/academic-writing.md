@@ -22,8 +22,8 @@ You can find a recent version of my curriculum vitae [here]({{site.baseurl}}/sch
 ## In Preparation
   * J. Breland, Q. Cadman, D.C. Ernst, J. Niemi, J. Sullivan, J. Wright. Structure of braid graphs for reduced words in simply-laced Coxeter systems.
   * F. Awik, H. Denoncourt, D.C. Ernst, and T. Rosenberg. The reversal poset of signed permutations.
-
-  <!-- * R. Davis, D.C. Ernst, and A. Moll. Switch: An impartial game for generating graphs. -->
+  * F. Burkhart, H. Denoncourt, D.C. Ernst, and A. Stewart. Enumeration of signed permutations under the action of reversals.
+  * J. Barnes, J. Breland, D.C. Ernst. Structural properties of braid graphs in simply-laced triangle-free Coxeter systems.
 
 ## Submitted
   * F. Awik, J. Breland, Q.Cadman, and D.C. Ernst. Braid graphs in simply-laced triangle-free Coxeter systems are partial cubes. [[arXiv:2104.12318](https://arxiv.org/abs/2104.12318)]
