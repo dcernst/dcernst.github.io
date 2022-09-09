@@ -49,6 +49,13 @@ You can find a recent version of my curriculum vitae [here]({{site.baseurl}}/sch
   * T. Boothby, J. Burkert, M. Eichwald, D.C. Ernst, R.M. Green, and M. Macauley. On the cyclically fully commutative elements of Coxeter groups. *J. Algebraic Combin.* 36(1), 2012. [[arXiv:1202.6657](http://arxiv.org/abs/1202.6657)]
   * D.C. Ernst. Non-cancellable elements in type affine *C* Coxeter groups. *Int. Electron. J. Algebra* 8, 2010. [[arXiv:0910.0923](http://arxiv.org/abs/0910.0923)] [[ePrint](http://www.ieja.net/files/papers/volume-8/Volume-7--2010/14-V8-2010.pdf)]
 
+## Books
+Below is a list of course materials that I have written to be used with an [inquiry-based learning](http://maamathedmatters.blogspot.com/2013/05/what-heck-is-ibl.html) (IBL) approach.
+
+    * D.C. Ernst. *An Introduction to Proof via Inquiry-Based Learning*. MAA Press, an imprint of the American Mathematical So-
+  ciety, 2022. [[Webpage](http://dcernst.github.io/IBL-IntroToProof/)] [[Paperback](https://bookstore.ams.org/text-73/)]
+    * D.C. Ernst. *An Inquiry-Based Approach to Abstract Algebra*. IBL course materials for an abstract algebra course with an emphasis on visualization. [[Webpage](http://dcernst.github.io/IBL-AbstractAlgebra/)]
+
 ## Book Chapters
   * D.C. Ernst and A. Hodge. Within \\(\epsilon\\) of Independence: An Attempt to Produce Independent Proof-Writers via IBL. In *Beyond Lecture: Resources and Pedagogical Techniques for Enhancing the Teaching of Proof-Writing Across the Curriculum*, R. Schwell, A. Steurer, & J.F. Vasquez (Eds.), MAA Notes, 2016.
   * D.C. Ernst, A. Hodge, M. Jones, and S. Yoshinobu. The many faces of IBL. In *STEM Education: An Overview of Contemporary Research, Trends, and Perspectives*, E. Ostler (Ed.), 2015. Elkhorn, NE.
@@ -59,13 +66,6 @@ You can find a recent version of my curriculum vitae [here]({{site.baseurl}}/sch
 
 ## Other
   * D. Daly et al. AIBL Handbook for Online Professional Development: Lessons Learned from PRODUCT Workshops. Ethnography & Evaluation Research, & the Academy of Inquiry Based Learning. Boulder, CO, and San Luis Obispo, CA: University of Colorado Boulder, Ethnography & Evaluation Research; and Academy of Inquiry Based Learning. [[ePrint](https://tinyurl.com/AIBLHandbook)]
-
-## Open-Source Books
-Below is a list of course materials that I have written to be used with an [inquiry-based learning](http://maamathedmatters.blogspot.com/2013/05/what-heck-is-ibl.html) (IBL) approach.
-
-  * D.C. Ernst. *An Introduction to Proof via Inquiry-Based Learning*. MAA Press, an imprint of the American Mathematical So-
-ciety, 2022. [[Webpage](http://dcernst.github.io/IBL-IntroToProof/)] [[Paperback](https://bookstore.ams.org/text-73/)]
-  * D.C. Ernst. *An Inquiry-Based Approach to Abstract Algebra*. IBL course materials for an abstract algebra course with an emphasis on visualization. [[Webpage](http://dcernst.github.io/IBL-AbstractAlgebra/)]
 
 ## Online Columns and Blog Posts
 From Spring 2013 through Spring 2016, I was co-editor and author for [Math Ed Matters](http://maamathedmatters.blogspot.com) and from Fall 2016 through Fall 2017, was a co-editor and author for [Teaching Tidbits](http://maateachingtidbits.blogspot.com). Both are online columns sponsored by the [Mathematical Association of America](http://maa.org). Below are several posts that I wrote for *Math Ed Matters*, *Teaching Tidbits*, as well as a few other online venues.  I also write sporadically about mathematics and teaching on my [personal blog]({{site.baseurl}}/blog/).
