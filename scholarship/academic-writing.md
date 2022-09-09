@@ -56,7 +56,7 @@ Below is a list of textbooks that I have written to be used with an [inquiry-bas
   * D.C. Ernst. *An Introduction to Proof via Inquiry-Based Learning*. MAA Press, an imprint of the American Mathematical So-
   ciety, 2022. [[Webpage](http://dcernst.github.io/IBL-IntroToProof/)] [[Paperback](https://bookstore.ams.org/text-73/)]
   * D.C. Ernst. *An Inquiry-Based Approach to Abstract Algebra*. Open-source textbook for undergraduate abstract algebra.  [[Webpage](http://dcernst.github.io/IBL-AbstractAlgebra/)]
-  * D.C. Ernst. *Introduction to Real Analysis*. Textbook for undergraduate real analysis. Modification of previous work: D.C. Ernst < K. Crisman < W.T. Mahavier < W.S. Mahavier.
+  * D.C. Ernst. *Introduction to Real Analysis*. Free textbook for undergraduate real analysis. Modification of previous work: D.C. Ernst < K. Crisman < W.T. Mahavier < W.S. Mahavier.
 
 ## Book Chapters
   * D.C. Ernst and A. Hodge. Within \\(\epsilon\\) of Independence: An Attempt to Produce Independent Proof-Writers via IBL. In *Beyond Lecture: Resources and Pedagogical Techniques for Enhancing the Teaching of Proof-Writing Across the Curriculum*, R. Schwell, A. Steurer, & J.F. Vasquez (Eds.), MAA Notes, 2016.
