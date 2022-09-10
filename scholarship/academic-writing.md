@@ -53,8 +53,7 @@ You can find a recent version of my curriculum vitae [here]({{site.baseurl}}/sch
 ## Books
 Below is a list of textbooks that I have written to be used with an [inquiry-based learning](http://maamathedmatters.blogspot.com/2013/05/what-heck-is-ibl.html) (IBL) approach.
 
-  * D.C. Ernst. *An Introduction to Proof via Inquiry-Based Learning*. MAA Press, an imprint of the American Mathematical So-
-  ciety, 2022. [[Webpage](http://dcernst.github.io/IBL-IntroToProof/)] [[Paperback](https://bookstore.ams.org/text-73/)]
+  * D.C. Ernst. *An Introduction to Proof via Inquiry-Based Learning*. MAA Press, an imprint of the American Mathematical Society, 2022. [[Webpage](http://dcernst.github.io/IBL-IntroToProof/)] [[Paperback](https://bookstore.ams.org/text-73/)]
   * D.C. Ernst. *An Inquiry-Based Approach to Abstract Algebra*. Open-source textbook for undergraduate abstract algebra.  [[Webpage](http://dcernst.github.io/IBL-AbstractAlgebra/)]
   * D.C. Ernst. *Introduction to Real Analysis*. Free textbook for undergraduate real analysis. Modification of previous work: D.C. Ernst < K. Crisman < W.T. Mahavier < W.S. Mahavier.
 
