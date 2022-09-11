@@ -35,6 +35,7 @@ In order to pass the course, you must complete each of the Required Assignments 
 - **Homework 2:** Stop by my office (AMB 176) and say hello. If I'm not there, just slide a note under my door saying you stopped by. (Due Monday, September 12)
 - **Homework 3:** Read the [syllabus]({{site.baseurl}}/teaching/mat123f22/syllabus/) and write down 5 items that you think are important.  (Due Monday, September 12)
 - **Homework 4:** Complete at least one Flexible Assignment from the list below. (Due Monday, September 12)
+- **Homework 5:** Coming soon. (Due Monday, September 19)
 
 <!-- - Watch “Grit: the power of passion and perseverance” and any other 4 videos listed under Videos on Growth Mindset and Productive Failure on the [Course Materials page]({{site.baseurl}}/teaching/mat123f22/materials/) and then write a 1-2 page typed reflection. You should list the videos you watched. Rather than reflecting on each video separately, try to reflect on growth mindset, productive failure, and grit, in general. (100 points) -->
 
