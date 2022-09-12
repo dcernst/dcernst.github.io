@@ -35,7 +35,10 @@ In order to pass the course, you must complete each of the Required Assignments 
 - **Homework 2:** Stop by my office (AMB 176) and say hello. If I'm not there, just slide a note under my door saying you stopped by. (Due Monday, September 12)
 - **Homework 3:** Read the [syllabus]({{site.baseurl}}/teaching/mat123f22/syllabus/) and write down 5 items that you think are important.  (Due Monday, September 12)
 - **Homework 4:** Complete at least one Flexible Assignment from the list below. (Due Monday, September 12)
-- **Homework 5:** Coming soon. (Due Monday, September 19)
+- **Homework 5:** Let's call this your "Math Autobiography" assignment. Address the following prompts. (Due Monday, September 19) <!--modified from Brian Katz -->
+   - Story: Please write the story of your mathematical past. Through this story, you should communicate your reasons for being a mathematics/mathematics education/data science major (or major X) and your current feelings about mathematics as well as the events and experiences in your past that brought you here. You might consider including examples of positive and negative episodes from past math courses, moments in which math came up in other situations, and plans for the future.
+   - Expertise: What skills do you bring with you to your mathematics courses? This response could include your skills with computational tools, like algebra, but it should go beyond mathematics. What other areas of academic expertise do you bring to class discussions? What co-academic skills and topics do you have at your finger-tips? In what areas are you currently building skills that you can connect with mathematics?
+   - Support: Is there anything that you'd like me to know about you or your context that might make it harder for you to succeed and excel in this course and/or your other mathematics courses?
 
 <!-- - Watch “Grit: the power of passion and perseverance” and any other 4 videos listed under Videos on Growth Mindset and Productive Failure on the [Course Materials page]({{site.baseurl}}/teaching/mat123f22/materials/) and then write a 1-2 page typed reflection. You should list the videos you watched. Rather than reflecting on each video separately, try to reflect on growth mindset, productive failure, and grit, in general. (100 points) -->
 
