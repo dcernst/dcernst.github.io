@@ -154,7 +154,6 @@ Here are some important dates:
 - **October 28:** Last day to withdraw from a course (with a "W")
 - **November 11:** Veteran's Day (no classes)
 - **November 24-25:** Thanksgiving Holiday (no classes)
-- **December 14:** Final Exam (7:30-9:30AM)
 
 ### Changes to the Syllabus ###
 Any changes to this syllabus made during the term will be properly communicated to the class.
