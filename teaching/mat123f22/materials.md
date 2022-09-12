@@ -28,7 +28,7 @@ title: Course Materials
 ## Course Materials ##
 
 - There is no textbook for this course.  All course content will be covered via lectures and homework.
-- More coming soon.
+- [Setting the Stage]({{ site.baseurl }}/teaching/SettingTheStage.pdf) (PDF)
 
 ## Miscellaneous
 
