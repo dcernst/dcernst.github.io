@@ -1,0 +1,154 @@
+\documentclass[11pt]{article}%{scrartcl}
+\usepackage[scale=1.5]{ccicons}
+\usepackage[notextcomp]{kpfonts} 
+\usepackage[margin=1in]{geometry}
+\usepackage{amsthm,amssymb}
+\usepackage{graphicx}
+\usepackage{enumitem}
+\usepackage{bm}
+\usepackage{tikz}
+
+\usepackage{color}
+\definecolor{darkblue}{rgb}{0, 0, .6}
+\definecolor{grey}{rgb}{.7, .7, .7}
+\usepackage[breaklinks]{hyperref}
+\hypersetup{
+	colorlinks=true,
+	linkcolor=darkblue,
+	anchorcolor=darkblue,
+	citecolor=darkblue,
+	pagecolor=darkblue,
+	urlcolor=darkblue,
+	pdftitle={},
+	pdfauthor={}
+}
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\lhead{MAT 526 - Fall 2022}
+\chead{}
+\rhead{Due Wednesday, September 21}
+\renewcommand{\headrulewidth}{.4pt}
+
+\theoremstyle{definition}
+\newtheorem{theorem}{Theorem}
+\newtheorem{acknowledgement}[theorem]{Acknowledgement}
+\newtheorem{algorithm}[theorem]{Algorithm}
+\newtheorem{axiom}[theorem]{Axiom}
+\newtheorem{case}[theorem]{Case}
+\newtheorem{claim}[theorem]{Claim}
+\newtheorem*{claim*}{Claim}
+\newtheorem{conclusion}[theorem]{Conclusion}
+\newtheorem{condition}[theorem]{Condition}
+\newtheorem{conjecture}[theorem]{Conjecture}
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{criterion}[theorem]{Criterion}
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{example}[theorem]{Example}
+\newtheorem{exercise}[theorem]{Exercise}
+\newtheorem{journal}[theorem]{Journal}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{notation}[theorem]{Notation}
+\newtheorem{problem}[theorem]{Problem}
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{remark}[theorem]{Remark}
+\newtheorem{solution}[theorem]{Solution}
+\newtheorem{summary}[theorem]{Summary}
+\newtheorem{skeleton}[theorem]{Skeleton Proof}
+\newtheorem{activity}[theorem]{Activity}
+\newtheorem{intuitivedef}[theorem]{Intuitive Definition}
+
+\newcommand{\blankline}{\pagebreak[2]\vspace{.5\baselineskip}}
+
+\newcommand{\euler}[2]{
+  \displaystyle \left\langle\begin{matrix}#1  \\#2  \\ \end{matrix}\right\rangle}
+\newcommand{\stirling}[2]{
+  \displaystyle \left\{\begin{matrix}#1  \\#2  \\ \end{matrix}\right\}}
+
+\setlength{\parindent}{0pt}
+
+%Useful for cut and paste
+%\begin{enumerate}[label=\rm{(\alph*)}]
+
+\begin{document}
+
+\begin{center}
+{\Large\bf Homework 5}
+
+\smallskip
+
+Combinatorics
+\end{center}
+
+\thispagestyle{fancy}
+
+You are allowed and encouraged to work together on homework. Yet, each student is expected to turn in his or her own work. In general, late homework will not be accepted. However, you are allowed to turn in \textbf{up to two late homework assignments with no questions asked}. 
+
+\blankline
+
+Reviewing material from previous courses and looking up definitions and theorems you may have forgotten is fair game. However, when it comes to completing assignments for this course, you should \emph{not} look to resources outside the context of this course for help.  That is, you should not be consulting the web, other texts, other faculty, or students outside of our course in an attempt to find solutions to the problems you are assigned.  This includes Chegg and Course Hero. On the other hand, you may use each other, Discord, me, and your own intuition. \textbf{If you feel you need additional resources, please come talk to me and we will come up with an appropriate plan of action.} Please read NAU's \href{https://www5.nau.edu/policies/Client/Details/828?whoIsLooking=Students&pertainsTo=All&sortDirection=Ascending&page=1}{Academic Integrity Policy}.
+
+\blankline
+
+Complete the following problems. 
+
+\begin{enumerate}
+
+\item We define the \textbf{Stirling numbers} (of the second kind) via
+\[
+\stirling{n}{k}\coloneqq \text{number of set partitions of }[n]\text{ with }k\text{ blocks}.
+\]
+I usually pronounce this as ``$n$ Stirling $k$". For example, there are 7 set partitions of $[4]$ with 2 blocks, namely:
+\[
+\{\{1,2,3\},\{4\}\}, \{\{1,2,4\},\{3\}\}, \{\{1,3,4\},\{2\}\}, \{\{2,3,4\},\{1\}\}, \{\{1,2\},\{3,4\}\}, \{\{1,3\},\{2,4\}\}, \{\{1,4\},\{2,3\}\}.  
+\]
+Hence $\stirling{4}{2}=7$. Notice that the Stirling numbers form an array like Pascal's triangle. 
+\begin{enumerate}
+\item Explain why $\stirling{n}{1}=1=\stirling{n}{n}$.
+\item Prove that the Stirling numbers satisfy the following ``Pascal-like" recurrence for $1\leq k\leq n$:
+\[
+\stirling{n}{k}=\stirling{n-1}{k-1}+k\stirling{n-1}{k}.
+\]
+\item Prove that $\stirling{n}{2}=2^{n-1}-1$.
+\item Prove that $\stirling{n}{n-1}=\binom{n}{2}$.
+\end{enumerate}
+
+\item We define the $n$th \textbf{Bell number} to be the total number of set partitions of $[n]$.  Notice that the $n$th Bell number is the sum of Stirling numbers where $n$ is fixed and $k$ varies from 1 to $n$.  That is,
+\[
+B_n=\sum_{k=1}^n\stirling{n}{k}.
+\]
+This says the sum of the entries in the $n$th row of the array for the Stirling numbers is the $n$th Bell number.  This is analogous to how the sum of the $n$th row in Pascal's triangle is a power of 2. If we take $B_0=1$, prove that for $n\geq 1$, we have
+\[
+B_n=\sum_{k=0}^{n-1}\binom{n-1}{k}B_k.
+\]
+\emph{Hint:} There is a block containing 1. Consider cases based on how many elements this block contains. Let $k$ be the number of elements that are not in the block containing 1.
+
+\item Define a \textbf{multiset} $M$ to be an unordered collection of elements that may be repeated.  To distinguish between sets and multisets, we will use the notation $\{\}$ versus $\{\{\}\}$. For example, $M=\{\{a,a,a,b,c,c\}\}$ is a multiset (not to be confused with the set containing the set $\{a,b,c\}$; mathematical notation is both awesome and frustrating at times). The primes occurring in the prime factorization of a natural number greater than 1 is an example of multiset.  The cardinality of a multiset is its number of elements counted with multiplicity.  So, in our example, $|M|=3+1+2=6$.  If $S$ is a set, then $M$ is a \textbf{multiset on} $S$ if every element of $M$ is an element of $S$. For $n\geq 1$ and $k\geq 0$, define
+\[
+\left(\binom{n}{k}\right)\coloneqq \text{number of multisets on }[n]\text{ of size }k.
+\]
+Prove that
+\[
+\left(\binom{n}{k}\right)=\binom{n+k-1}{k}.
+\]
+\emph{Hint:} Here is one possible approach.  Construct a bijection from the collection of multisets on $[n]$ of size $k$ to the collection of subsets of $[n+k-1]$ of size $k$. To do this, assume your multisets on $[n]$ are canonically written in nondecreasing order, say $\{\{m_1,m_2,\ldots,m_k\}\}$, where $m_1\leq m_2\leq \cdots \leq m_k$.  Try to map each such multiset to a $k$-subset of $[n+k-1]$.  You will need to make sure the elements in your image set are distinct.  You may also need to argue that your map is well defined.
+
+\item Find the power series expansions for $\sin(t)$ and $\cos(t)$. It is not important whether you do this by hand (using Taylor's Theorem) or just look them up.  
+\begin{enumerate}
+\item What sequences have these as ordinary generating functions?
+\item What sequences have these as exponential generating functions?
+\end{enumerate}
+
+\item Find the sequences that are defined by the following (ordinary) generating functions.
+\begin{enumerate}
+\item $\displaystyle \frac{1}{1-2t}$
+\item $\displaystyle \frac{1}{1-5t+6t^2}$
+\end{enumerate}
+\emph{Hint:} One approach for part (b) is to use a partial fraction decomposition.  Alternatively, you could use the formula for the product of two sums together with the following fact that you may freely use:
+\[
+(x-y)(x^k+x^{k-1}y+x^{k-2}y^2+\cdots +xy^{k-1}+y^k)=x^{k+1}-y^{k+1}.
+\]
+
+\end{enumerate}
+
+\end{document}
