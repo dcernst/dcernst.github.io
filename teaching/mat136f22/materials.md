@@ -31,6 +31,8 @@ title: Course Materials
 - [Required Knowledge from Precalculus]({{ site.baseurl }}/teaching/136RequiredKnowledge.pdf)
 - [Are You Ready for Calculus? Questions]({{ site.baseurl }}/teaching/136ReadyCalculusQuestions.pdf)
 - [Are You Ready for Calculus? Answers]({{ site.baseurl }}/teaching/136ReadyCalculusAnswers.pdf)
+- [Supplementary Problems for Exam 1]({{ site.baseurl }}/teaching/mat136f22/Exam1SupplementalFall2022.pdf)
+- [Supplementary Problems for Exam 1 with solutions]({{ site.baseurl }}/teaching/mat136f22/Exam1SupplementalFall2022-Solutions.pdf) (*Note:* The solutions were written by a variety of people. So, the style is inconsistent and it's possible there are some typos.)
 
 <!-- - [Supplementary Problems for Exam 1]({{ site.baseurl }}/teaching/mat136f22/Exam1SupplementalFall2020.pdf)
 - [Supplementary Problems for Exam 1 with solutions]({{ site.baseurl }}/teaching/mat136f22/Exam1SupplementalFall2020-Solutions.pdf) (*Note:* The solutions were written by a variety of people. So, the style is inconsistent and it's possible there are some typos.)
