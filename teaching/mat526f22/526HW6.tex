@@ -114,10 +114,10 @@ Also, define $\mathcal{M}_n\coloneqq \{A\mid A\text{ is a multiset on}[n]\}$.
 
 \item Prove that the following permutation statistics are Eulerian. Complete any \emph{two} of the following.  
 \begin{enumerate}
-\item The number of \emph{ascents} of a permutation $w$, $\asc(w):=\{i\mid w(i)<w(i+1)\}$.
+\item The number of \emph{ascents} of a permutation $w$, $\asc(w):=|\{i\mid w(i)<w(i+1)\}|$.
 \item The number of \emph{maximal increasing runs} of a permutation, denoted $\runs(w)$, where a maximal increasing run is a substring $w(i)<w(i+1)<\cdots < w(i+r)$ such that $w(i-1)$ is not smaller than $w(i)$ and $w(i+r)$ is not smaller than $w(i+r+1)$.
-\item The number of \emph{excedances}, $\exc(w):=\{i\mid w(i)>i\}$.
-\item The number of inversion sequences of length $n$ counted according to ascents, where an \emph{inversion sequence} of length $n$ is a vector $s=(s_1,\ldots,s_n)$ such that $0\leq s_i\leq i-1$ and $\asc(s):=\{i\mid s_i<s_{i+1}$.
+\item The number of \emph{excedances}, $\exc(w):=|\{i\mid w(i)>i\}|$.
+\item The number of inversion sequences of length $n$ counted according to ascents, where an \emph{inversion sequence} of length $n$ is a vector $s=(s_1,\ldots,s_n)$ such that $0\leq s_i\leq i-1$ and $\asc(s):=|\{i\mid s_i<s_{i+1}\}|$.
 \end{enumerate}
 
 \item We define a \textbf{barred permutation} on $n$ as follows.  Given $w\in S_n$, we must place at least one vertical bar after each descent position and we can place finitely many additional vertical bars in gaps that do not correspond to descents.  For example, $1|5|237||46$ is a barred permutation with 4 vertical bars.  A single vertical bar was required after 5 and 7, respectively, and the other two bars were optional.
