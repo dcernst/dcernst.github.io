@@ -1,0 +1,230 @@
+\documentclass[11pt]{article}
+
+\usepackage{url}
+\usepackage[metapost,truebbox]{mfpic}
+\usepackage{tikz}
+\usepackage{fancyhdr}
+\usepackage{subfig}
+\usepackage[margin=.7in]{geometry}
+\usepackage[hang,flushmargin,symbol*]{footmisc}
+\usepackage{amsmath}
+\usepackage{amsthm}
+\usepackage{todonotes}
+\usepackage{amssymb}
+\usepackage{mathtools}
+\usepackage{enumitem}
+\usepackage{graphicx}
+\usepackage{caption}
+\usepackage{multicol}
+%\usepackage[labelformat=simple,labelfont={}]{subcaption}
+%\usepackage{subcaption}
+\usepackage{float}
+\usepackage{color}
+\usepackage{tipa} %to get \textpipe to work
+\definecolor{darkblue}{rgb}{0, 0, .6}
+\definecolor{grey}{rgb}{.7, .7, .7}
+\usepackage[breaklinks]{hyperref}
+\hypersetup{
+	colorlinks=true,
+	linkcolor=darkblue,
+	anchorcolor=darkblue,
+	citecolor=darkblue,
+	pagecolor=darkblue,
+	urlcolor=darkblue,
+	pdftitle={},
+	pdfauthor={}
+}
+
+\theoremstyle{definition} 
+\newtheorem{theorem}{Theorem}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{claim}[theorem]{Claim}
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{conjecture}[theorem]{Conjecture}
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{intuitivedef}[theorem]{Intuitive Definition}
+\newtheorem{example}[theorem]{Example}
+\newtheorem{remark}[theorem]{Remark}
+\newtheorem{important}[theorem]{Important Note}
+\newtheorem{recall}[theorem]{Recall}
+\newtheorem{note}[theorem]{Note}
+\newtheorem{question}[theorem]{Question}
+\newtheorem{answer}[theorem]{Answer}
+\newtheorem{exercise}[theorem]{Exercise}
+
+
+\theoremstyle{definition} 
+\newtheorem*{ex}{Example}
+
+\newcommand{\blank}{\underline{\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ }}
+\newcommand{\ds}{\displaystyle}
+\newcommand{\blankline}{\pagebreak[2]\vspace{.5\baselineskip}}
+
+%todo commands
+\newcommand{\insertref}[1]{\todo[color=green!40]{#1}}
+\newcommand{\comment}[1]{\todo[color=blue!20!white,inline]{#1}}
+\setlength{\marginparwidth}{2cm}
+
+\setlength{\parindent}{0pt}
+
+%%%%%%Header/Footer%%%%%%%
+
+\pagestyle{fancy}
+
+\lhead{\scriptsize MAT 136: Calculus I} 
+\chead{} 
+\rhead{\scriptsize Fall 2022} 
+\lfoot{This work is licensed under the \href{https://creativecommons.org/licenses/by-sa/4.0/}{Creative Commons Attribution-Share Alike 4.0 License}.}
+\cfoot{} 
+\rfoot{\scriptsize Written by \href{http://danaernst.com}{D.C. Ernst}} 
+\renewcommand{\headrulewidth}{0.4pt} 
+\renewcommand{\footrulewidth}{0.4pt} 
+
+%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+\begin{center}
+
+{\Large\bf MAT 136: Calculus I}\\
+\smallskip
+{\Large\bf Weekly Homework 3}
+
+\bigskip
+
+  \fbox{\parbox{7in}{
+    \vspace{12pt}
+    \textbf{\large NAME:} \hfill
+    \vspace{12pt}
+  }}
+
+\end{center}
+
+\setlength{\parindent}{0pt}
+\setlength{\fboxsep}{10pt}
+
+\section*{Instructions}
+You are allowed and encouraged to work together on homework. Yet, each student is expected to turn in his or her own work.
+
+\blankline
+
+Reviewing material from previous courses and looking up definitions and theorems you may have forgotten is fair game. However, when it comes to completing assignments for this course, you should \emph{not} look to resources outside the context of this course for help.  That is, you should not be consulting the web, other texts, other faculty, or students outside of our course in an attempt to find solutions to the problems you are assigned.  This includes Chegg and Course Hero. On the other hand, you may use each other, Discord, me, and your own intuition. \textbf{If you feel you need additional resources, please come talk to me and we will come up with an appropriate plan of action.} Please read NAU's \href{https://www5.nau.edu/policies/Client/Details/828?whoIsLooking=Students&pertainsTo=All&sortDirection=Ascending&page=1}{Academic Integrity Policy}.
+
+\blankline
+
+Complete each of the following exercises.  Your solutions should be complete and neatly written.  In particular, you should show all of your work.  Write your solutions on your own paper or prepare them digitally. This assignment is due on \textbf{Friday, September 30} at class time.
+
+\section*{Problems}
+
+\begin{enumerate}
+
+\item Use the Squeeze Theorem to evaluate the following limit.  You should show sufficient justification.
+\[
+\lim_{x\to 0^+}\sqrt{x}e^{\cos\left(\frac{\pi}{x}\right)}
+\]
+\emph{Hint:} First, notice that $-1\leq \cos\left(\frac{\pi}{x}\right)\leq 1$.  Next, find lower and upper bounds for $y=e^{\cos\left(\frac{\pi}{x}\right)}$.
+%\begin{enumerate}
+%\item $\lim_{x\to 1}(x-1)\sin\left(\frac{\pi}{x-1}\right)$
+%\item $\lim_{x\to 0^+}\sqrt{x}e^{\cos\left(\frac{\pi}{x}\right)}$
+%\end{enumerate}
+%\emph{Hint for Part~(b):} First, notice that $-1\leq \cos\left(\frac{\pi}{x}\right)\leq 1$.  Next, find lower and upper bounds for $y=e^{\cos\left(\frac{\pi}{x}\right)}$.
+
+\item Evaluate each of the following limits.  If a limit does not exist, write DNE.  Sufficient work must be shown and proper notation should be used.  In particular, you should write limits where appropriate.  Give \emph{exact answers}.
+
+\begin{enumerate}
+
+\item $\displaystyle \lim_{x\to \infty}\left(\sqrt{9x^3+x}-x^{3/2}\right)$
+
+%\item $\displaystyle{\lim_{x\rightarrow \pi/2} \frac{\cos(x)-1}{x}}$
+
+\item $\displaystyle{\lim_{x\rightarrow 0} \frac{\sec(x)-1}{x}}$
+
+\item $\displaystyle{\lim_{x\rightarrow 0} \frac{1-\cos(x)}{\sin(x)}}$
+
+%\item $\ds \lim_{x \to \infty}\frac{\sqrt{36x^4+7}}{9x^2+4}$
+%
+%\item $\ds \lim_{x \to \infty}\frac{\sqrt{x^3+20x}}{10x-2}$
+%
+%\item $\ds \lim_{x \to \infty}(\sqrt{x^2+1} -x)$
+
+\item $\displaystyle \lim_{x\to \infty} \left(\ln(3x+1)-\ln(x)\right)$
+
+\item $\ds \lim_{x \to \infty}\arctan(x)$
+
+\item $\displaystyle \lim_{x\to \infty}\arctan\left(\frac{1+x}{1-x}\right)$
+
+\end{enumerate}
+
+\newpage
+
+\item True or False? Circle the correct answer. You do \emph{not} need to justify your answer.
+
+\begin{enumerate}
+
+%\item \textbf{True} or \textbf{False}: The derivative of a rational function $\ds r(x)=\frac{f(x)}{g(x)}$ (where $f(x)$ and $g(x)$ are polynomials) is a rational function.
+
+\item \textbf{True} or \textbf{False}: $\displaystyle \frac{d}{dx}[f(cx)]=c\frac{d}{dx}[f(x)]$.
+
+\item \textbf{True} or \textbf{False}: $\displaystyle \frac{d}{dx}\Bigl[f(x)\cdot g(x)\Bigr]=f'(x)\cdot g'(x)$.
+
+\item \textbf{True} or \textbf{False}: $\displaystyle \frac{d}{dx}\Bigl[\frac{1}{f(x)}\Bigr]=\frac{1}{f'(x)}$.
+
+\end{enumerate}	
+
+\item Consider the graph of the function $g$ given in the figure below. Using the graph of $g$, sketch a possible graph of the derivative function $g'$.
+\begin{center}
+\includegraphics{Weekly3Graph2}	
+\end{center}
+
+\item The graph of a function $g$ is given in the figure below. For each pair of values listed to the right of the graph, fill in the blank with exactly one of $<$, $>$, or $=$.
+
+\begin{multicols}{2}
+\centering
+\begin{tikzpicture}%[scale=.8]
+\draw[<->] (0,-3) -- (0,3);
+\draw[<->] (-3.5,0) -- (4,0);
+\foreach \x in {-3,...,3} \draw (\x cm,-2pt) -- (\x cm,2pt);
+\foreach \y in {-2,...,2} \draw (-2pt,\y cm) -- (2pt,\y cm);
+\draw[-,domain=-2.6:1.85] plot (\x,{\x*(\x-3)*(\x+2)/4});
+\draw[-,domain=1.85:3.2] plot (\x,{(\x-1.85)^5-2.05});
+\foreach \x in {-3,-2,-1} \node[below] at (\x,0) {$\x$};
+\foreach \x in {1,2,3} \node[below] at (\x+.1,0) {$\x$};
+\node[right] at (4,0) {$x$};
+\node[above] at (0,3) {$y$};
+\node[above] at (2.3,1.5) {$y=g(x)$};
+\end{tikzpicture}
+\begin{enumerate}
+\item $g'(0)\blank g'(2)$
+\bigskip
+\item $0\blank g'(2)$
+\bigskip
+\item $g'(2)\blank g(3)$
+\bigskip
+\item $g'(-2)\blank g(3)$
+\bigskip
+\item $g'(3)\blank g'(-2)$
+\bigskip
+\item $g'(0)\blank g'(3)$
+\end{enumerate}
+\end{multicols}
+
+
+\item Determine the derivative of each of the following functions using the limit definition of the derivative.
+\begin{enumerate}
+\item $f(x)=3x^2-4x+17$
+\item $\ds g(x)=\frac{1}{x+3}$
+\item $h(x)=\sqrt{x-2}$
+\end{enumerate}
+
+\item Suppose the equation of the tangent line to the graph of some function $f$ at the point $x=1$ is given by $y=2x+1$.
+\begin{enumerate}
+\item Find $f'(1)$.
+
+\item Find $f(1)$.
+\end{enumerate}
+
+\item It is known that the derivative of $\ds f(x)=x^3$ is $\ds f'(x)=3x^2$. Find an \emph{equation} of the tangent line to the graph of $f$ at 2.  It does not matter what form the equation of your line takes.
+
+\end{enumerate}
+
+\end{document}
