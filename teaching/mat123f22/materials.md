@@ -35,6 +35,7 @@ title: Course Materials
     - [Sample 3]({{site.baseurl}}/teaching/mat123f22/Sample3.pdf) (PDF)
     - [Sample 4]({{site.baseurl}}/teaching/mat123f22/Sample4.png) (PNG)
     - [Sample 5](https://miro.com/app/board/uXjVPTH4Gco=/) (link to Miro)
+    - [Sample 6]({{site.baseurl}}/teaching/mat123f22/Sample6.png) (PNG)
 
 ## Miscellaneous
 
