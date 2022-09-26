@@ -29,6 +29,12 @@ title: Course Materials
 
 - There is no textbook for this course.  All course content will be covered via lectures and homework.
 - [Setting the Stage]({{ site.baseurl }}/teaching/SettingTheStage.pdf) (PDF)
+- Sample flow charts of the prerequisite structure of mathematics/statistics courses at NAU. These samples were created by students and are not necessarily complete or accurate.  Use at your own risk!
+    - [Sample 1]({{site.baseurl}}/teaching/mat123f22/Sample1.png) (PNG)
+    - [Sample 2]({{site.baseurl}}/teaching/mat123f22/Sample2.jpg) (JPG)
+    - [Sample 3]({{site.baseurl}}/teaching/mat123f22/Sample3.pdf) (PDF)
+    - [Sample 4]({{site.baseurl}}/teaching/mat123f22/Sample4.png) (PNG)
+    - [Sample 5](https://miro.com/app/board/uXjVPTH4Gco=/) (link to Miro)
 
 ## Miscellaneous
 
