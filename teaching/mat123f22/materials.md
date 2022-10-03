@@ -39,6 +39,8 @@ title: Course Materials
     - [Sample 7]({{site.baseurl}}/teaching/mat123f22/Sample7.pdf) (PDF)
     - [Sample 8](https://miro.com/app/board/uXjVPTUMfLM=/) (link to Miro)
     - [Sample 9]({{site.baseurl}}/teaching/mat123f22/Sample9.pdf) (PNG)
+- [Machine Learning and Neural Networks]({{site.baseurl}}/teaching/mat123f22/MAT_123_Guest_Lecture.pdf) (PDF) by Dr. Robert Buscaglia PhD.
+- [BS in Data Science Progression Plan]({{site.baseurl}}/teaching/mat123f22/BS_DS_Progression.pdf) (PDF)
 
 ## Miscellaneous
 
