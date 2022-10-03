@@ -44,7 +44,7 @@ In order to pass the course, you must complete each of the Required Assignments 
 - **Homework 8:** Address the following prompts. Feel free to use the Internet to answer these questions (but mention your sources). (Due Monday, October 10)
    - What is data science?
    - What is a data scientist and how does one become a data scientist?
-   - What sorts of places does a data scientist work?
+   - What sorts of places employ data scientists?
    - What's an average or typical starting salary for a data scientist?
 
 <!-- - Watch “Grit: the power of passion and perseverance” and any other 4 videos listed under Videos on Growth Mindset and Productive Failure on the [Course Materials page]({{site.baseurl}}/teaching/mat123f22/materials/) and then write a 1-2 page typed reflection. You should list the videos you watched. Rather than reflecting on each video separately, try to reflect on growth mindset, productive failure, and grit, in general. (100 points) -->
