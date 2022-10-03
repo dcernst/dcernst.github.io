@@ -27,7 +27,8 @@ title: Course Materials
 
 ## Course Materials ##
 
-- There is no textbook for this course.  All course content will be covered via lectures and homework.
+There is no textbook for this course.  All course content will be covered during class and via homework.
+
 - [Setting the Stage]({{ site.baseurl }}/teaching/SettingTheStage.pdf) (PDF)
 - Sample flow charts of the prerequisite structure of mathematics/statistics courses at NAU. These samples were created by students and are not necessarily complete or accurate.  Use at your own risk!
     - [Sample 1]({{site.baseurl}}/teaching/mat123f22/Sample1.png) (PNG)
