@@ -33,14 +33,7 @@ title: Course Materials
 - [Are You Ready for Calculus? Answers]({{ site.baseurl }}/teaching/136ReadyCalculusAnswers.pdf)
 - [Supplementary Problems for Exam 1]({{ site.baseurl }}/teaching/mat136f22/Exam1SupplementalFall2022.pdf) (Revised 9/19/22)
 - [Supplementary Problems for Exam 1 with solutions]({{ site.baseurl }}/teaching/mat136f22/Exam1SupplementalFall2022-Solutions.pdf) (*Note:* The solutions were written by a variety of people. So, the style is inconsistent and it's possible there are some typos. Revised 9/19/22)
-
-<!-- - [Supplementary Problems for Exam 1]({{ site.baseurl }}/teaching/mat136f22/Exam1SupplementalFall2020.pdf)
-- [Supplementary Problems for Exam 1 with solutions]({{ site.baseurl }}/teaching/mat136f22/Exam1SupplementalFall2020-Solutions.pdf) (*Note:* The solutions were written by a variety of people. So, the style is inconsistent and it's possible there are some typos.)
-- [Supplementary Problems for Exam 2]({{ site.baseurl }}/teaching/mat136f22/Exam2SupplementalFall2020.pdf)
-- [Solutions to Supplementary Problems for Exam 2]({{ site.baseurl }}/teaching/mat136f22/Exam2SupplementalFall2020-Solutions.pdf) (*Note:* The solutions were written by a variety of people. So, the style is inconsistent and it's possible there are some typos.)
-- [Supplementary Problems for Exam 3]({{ site.baseurl }}/teaching/mat136f22/Exam3SupplementalFall2020.pdf) (*Note:* Numbering restarts after Problem 37.)
-- [Solutions to Supplementary Problems for Exam 3]({{ site.baseurl }}/teaching/mat136f22/Exam3SupplementalFall2020-Solutions.pdf) (*Note:* Solutions not included after numbering restarts. Also, the solutions were written by a variety of people. So, the style is inconsistent and it's possible there are some typos.)
-- [Supplementary Problems for Final Exam]({{ site.baseurl }}/teaching/mat136f22/FinalSupplementalFall2020.pdf) -->
+- [Supplementary Problems for Exam 2]({{ site.baseurl }}/teaching/mat136f22/Exam2SupplementalFall2022.pdf)
 
 <blockquote>
   <p>Don’t just read it; fight it! Ask your own questions, look for your own examples, discover your own proofs. Is the hypothesis necessary? Is the converse true? What happens in the classical special case? What about the degenerate cases? Where does the proof use the hypothesis?</p>
