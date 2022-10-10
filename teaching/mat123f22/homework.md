@@ -46,6 +46,14 @@ In order to pass the course, you must complete each of the Required Assignments 
    - What is a data scientist and how does one become a data scientist?
    - What sorts of places employ data scientists?
    - What's an average or typical starting salary for a data scientist?
+- **Homework 9:** Answer the following questions by scouring the Internet. (Due Monday, October 17)
+   - What are the duties of a university Provost?
+   - Who is NAU's Provost?
+   - How many colleges does NAU have?  List them.
+   - Who is the Dean of the College of of the Environment, Forestry, and Natural Sciences (CEFNS)?
+   - Who is the chair of the Department of Mathematics and Statistics?
+   - How many of each of the following does the Department of Mathematics and Statistics have? (a) Instructor, (b) Lecturer or Senior Lecturer, (c) Assistant Teaching Professor, (d) Associate Teaching Professor, (e) (Full) Teaching Professor, (f) Assistant Professor, (g) Associate Professor, (h) (Full) Professor.
+   - Which faculty members in the Department of Mathematics and Statistics are active in research and what are their research interests?  Also, list their title (e.g., Full Teaching Professor, Associate Professor, etc.).  You will likely stumble on an outdated list while researching this. Here are some updates: Blows and Burch have retired, Yildiz has resigned, and we've recently hired Samuel Harris, Michele Torielli, Benjamin Lucas, and Jaechoul Lee.  See if you can find the research interests of our new faculty members.
 
 <!-- - Watch “Grit: the power of passion and perseverance” and any other 4 videos listed under Videos on Growth Mindset and Productive Failure on the [Course Materials page]({{site.baseurl}}/teaching/mat123f22/materials/) and then write a 1-2 page typed reflection. You should list the videos you watched. Rather than reflecting on each video separately, try to reflect on growth mindset, productive failure, and grit, in general. (100 points) -->
 
