@@ -1,0 +1,124 @@
+\documentclass[11pt]{article}%{scrartcl}
+\usepackage[scale=1.5]{ccicons}
+\usepackage[notextcomp]{kpfonts} 
+\usepackage[margin=1in]{geometry}
+\usepackage{amsthm,amssymb}
+\usepackage{graphicx}
+\usepackage{enumitem}
+\usepackage{bm}
+\usepackage{tikz}
+
+\usepackage{color}
+\definecolor{darkblue}{rgb}{0, 0, .6}
+\definecolor{grey}{rgb}{.7, .7, .7}
+\usepackage[breaklinks]{hyperref}
+\hypersetup{
+	colorlinks=true,
+	linkcolor=darkblue,
+	anchorcolor=darkblue,
+	citecolor=darkblue,
+	pagecolor=darkblue,
+	urlcolor=darkblue,
+	pdftitle={},
+	pdfauthor={}
+}
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\lhead{MAT 526 - Fall 2022}
+\chead{}
+\rhead{Due Wednesday, October 19}
+\renewcommand{\headrulewidth}{.4pt}
+
+\theoremstyle{definition}
+\newtheorem{theorem}{Theorem}
+\newtheorem{acknowledgement}[theorem]{Acknowledgement}
+\newtheorem{algorithm}[theorem]{Algorithm}
+\newtheorem{axiom}[theorem]{Axiom}
+\newtheorem{case}[theorem]{Case}
+\newtheorem{claim}[theorem]{Claim}
+\newtheorem*{claim*}{Claim}
+\newtheorem{conclusion}[theorem]{Conclusion}
+\newtheorem{condition}[theorem]{Condition}
+\newtheorem{conjecture}[theorem]{Conjecture}
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{criterion}[theorem]{Criterion}
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{example}[theorem]{Example}
+\newtheorem{exercise}[theorem]{Exercise}
+\newtheorem{journal}[theorem]{Journal}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{notation}[theorem]{Notation}
+\newtheorem{problem}[theorem]{Problem}
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{remark}[theorem]{Remark}
+\newtheorem{solution}[theorem]{Solution}
+\newtheorem{summary}[theorem]{Summary}
+\newtheorem{skeleton}[theorem]{Skeleton Proof}
+\newtheorem{activity}[theorem]{Activity}
+\newtheorem{intuitivedef}[theorem]{Intuitive Definition}
+
+\newcommand{\blankline}{\pagebreak[2]\vspace{.5\baselineskip}}
+
+\DeclareMathOperator{\des}{des}
+\DeclareMathOperator{\asc}{asc}
+\DeclareMathOperator{\runs}{runs}
+\DeclareMathOperator{\exc}{exc}
+\DeclareMathOperator{\Inv}{Inv}
+\DeclareMathOperator{\inv}{inv}
+\DeclareMathOperator{\reading}{read}
+
+\newcommand{\euler}[2]{
+  \displaystyle \left\langle\begin{matrix}#1  \\#2  \\ \end{matrix}\right\rangle}
+\newcommand{\stirling}[2]{
+  \displaystyle \left\{\begin{matrix}#1  \\#2  \\ \end{matrix}\right\}}
+
+\setlength{\parindent}{0pt}
+
+%Useful for cut and paste
+%\begin{enumerate}[label=\rm{(\alph*)}]
+
+\begin{document}
+
+\begin{center}
+{\Large\bf Homework 8}
+
+\smallskip
+
+Combinatorics
+\end{center}
+
+\thispagestyle{fancy}
+
+You are allowed and encouraged to work together on homework. Yet, each student is expected to turn in his or her own work. In general, late homework will not be accepted. However, you are allowed to turn in \textbf{up to two late homework assignments with no questions asked}. 
+
+\blankline
+
+Reviewing material from previous courses and looking up definitions and theorems you may have forgotten is fair game. However, when it comes to completing assignments for this course, you should \emph{not} look to resources outside the context of this course for help.  That is, you should not be consulting the web, other texts, other faculty, or students outside of our course in an attempt to find solutions to the problems you are assigned.  This includes Chegg and Course Hero. On the other hand, you may use each other, Discord, me, and your own intuition. \textbf{If you feel you need additional resources, please come talk to me and we will come up with an appropriate plan of action.} Please read NAU's \href{https://www5.nau.edu/policies/Client/Details/828?whoIsLooking=Students&pertainsTo=All&sortDirection=Ascending&page=1}{Academic Integrity Policy}.
+
+\blankline
+
+Complete the following problems. 
+
+\begin{enumerate}
+
+\item Recall the definition of Stirling numbers given on Homework 5.  For $k\geq 1$, let $S_k(t)$ be the exponential generating function for the number of set partitions with $k$ blocks:
+\[
+S_k(t)\coloneqq \sum_{n\geq k} \stirling{n}{k}\frac{t^n}{n!}.
+\]
+Notice that for each $k$, we are letting $n$ vary. Prove that $S'_k(t)=S_{k-1}(t)+kS_k(t)$.
+
+\item Recall the definition of the Bell numbers given on Homework 5. Define the exponential generating function for the Bell numbers via
+\[
+B(t)\coloneqq \sum_{k\geq 0}B_k\frac{t^k}{k!}.
+\]
+\begin{enumerate}
+\item Prove that $B'(t)=e^tB(t)$.
+\item Notice that the equation in part (a) is a differential equation. Taking for granted that we can formally integrate as expected, solve this differential equation to obtain a closed form for the exponential generating function for the Bell numbers.
+\end{enumerate}
+
+\item Suppose $p$ is any pattern of length three (i.e., $p\in\{123,132,213,231,312,321\}$). Prove that the Catalan numbers count the permutations of length $n$ that avoid $p$.  That is, prove $|S_n(p)|=C_n$ for all such $p$.
+
+\end{enumerate}
+
+\end{document}
