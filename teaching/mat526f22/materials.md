@@ -36,7 +36,7 @@ There is no textbook for this course.  All course content will be covered via le
 ## Exams
 Below are links to the take-home portions of each exam. If you are interested in using LaTeX to type up your solutions, you can obtain the source file by replacing .pdf with .tex in the urls below.
 
-- [Exam 1 (Part 2)]({{site.baseurl}}/teaching/mat526f22/526Exam1-Part2.pdf) (PDF). (Due by 5:00PM on Wednesday, October 12)
+- [Exam 1 (Part 2)]({{site.baseurl}}/teaching/mat526f22/526Exam1-Part2.pdf) (PDF). (Due by 3:00PM on Friday, October 14)
 
 ## Miscellaneous Materials ##
 - [Setting the Stage]({{ site.baseurl }}/teaching/SettingTheStage.pdf) (PDF)
