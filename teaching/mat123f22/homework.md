@@ -109,6 +109,7 @@ These assignments are a sort of "choose your own adventure".  Each Flexible Assi
 - Attend the [Math Achievement Program](https://in.nau.edu/academic-success-centers/math-achievement-program/) ("MAP room")for help with MAT 121, MAT 136, MAT 137, MAT 238, or STA 270. (50 points)
 - Attend one of the Math Achievement Program's (MAP) review sessions for MAT 121, MAT 136, or MAT 137. (50 points)
 - Attend either a supplemental instruction session or drop-in tutoring at one of the [Academic Success Centers](https://in.nau.edu/academic-success-centers/) (ASC). (50 points)
+- Take a picture of yourself in the aspens and post to Discord. (25 points)
 - More coming soon.
 
 <!-- tutoring -->
