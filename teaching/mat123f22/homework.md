@@ -58,7 +58,7 @@ In order to pass the course, you must complete each of the Required Assignments 
 <!-- - Watch “Grit: the power of passion and perseverance” and any other 4 videos listed under Videos on Growth Mindset and Productive Failure on the [Course Materials page]({{site.baseurl}}/teaching/mat123f22/materials/) and then write a 1-2 page typed reflection. You should list the videos you watched. Rather than reflecting on each video separately, try to reflect on growth mindset, productive failure, and grit, in general. (100 points) -->
 
 ## Flexible Assignments ##
-These assignments are a sort of "choose your own adventure".  Each Flexible Assignment has a designated point value.  Over the course of the semester, you must complete enough Flexible Assignments to **achieve at least 150 points by Friday, October 21** and a **total of at least 300 points by the end of semester**. Feel free to suggest more items for the list.
+These assignments are a sort of "choose your own adventure".  Each Flexible Assignment has a designated point value.  Over the course of the semester, you must complete enough Flexible Assignments to **achieve at least 150 points by Friday, October 21** and a **total of at least 300 points by the end of semester**. Unless stated otherwise, you can only get credit for each item one time. Feel free to suggest more items for the list.
 
 <!-- The points for Discord are too high! -->
 
