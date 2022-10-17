@@ -1,5 +1,5 @@
 ---
-title: Calculus I
+title: First Year Seminar
 author: Dana Ernst
 layout: default
 ---
