@@ -42,6 +42,11 @@ There is no textbook for this course.  All course content will be covered during
     - [Sample 9]({{site.baseurl}}/teaching/mat123f22/Sample9.pdf) (PNG)
 - [Machine Learning and Neural Networks]({{site.baseurl}}/teaching/mat123f22/MAT_123_Guest_Lecture.pdf) (PDF) by Dr. Robert Buscaglia PhD.
 - [BS in Data Science Progression Plan]({{site.baseurl}}/teaching/mat123f22/BS_DS_Progression.pdf) (PDF)
+- Documents for Matt Fahy's hiring committee activity.
+   - [Job Posting for NTT Mathematics Position]({{site.baseurl}}/teaching/mat123f22/MathematicsNTT.pdf) (PDF)
+   - [Alice]({{site.baseurl}}/teaching/mat123f22/Alice.pdf) (PDF)
+   - [Bob]({{site.baseurl}}/teaching/mat123f22/Bob.pdf) (PDF)
+   - [Cal]({{site.baseurl}}/teaching/mat123f22/Cal.pdf) (PDF)
 
 ## Miscellaneous
 
