@@ -59,6 +59,8 @@ Most of the Daily Homework assignments are to be completed via [WeBWorK](https:/
 - **Daily Homework 21:** Complete the corresponding problems on [WeBWorK](https://webwork.math.nau.edu/webwork2/DErnst_136/). (Due Wednesday, October 19 by 10:00pm)
 - **Daily Homework 22:** Complete the corresponding problems on [WeBWorK](https://webwork.math.nau.edu/webwork2/DErnst_136/). (Due Friday, October 21 by 10:00pm)
 - **Daily Homework 23:** Complete the corresponding problems on [WeBWorK](https://webwork.math.nau.edu/webwork2/DErnst_136/). (Due Monday, October 24 by 10:00pm)
+- **Daily Homework 24:** Complete the corresponding problems on [WeBWorK](https://webwork.math.nau.edu/webwork2/DErnst_136/). (Due Wednesday, October 26 by 10:00pm)
+- **Daily Homework 25:** Complete the corresponding problems on [WeBWorK](https://webwork.math.nau.edu/webwork2/DErnst_136/). (Due Friday, October 28 by 10:00pm)
 
 ## Weekly Homework ##
 For each of the Weekly Homework assignments, answer each of the indicated questions. To receive full credit on a problem, you must show sufficient work for each of your answers (unless stated otherwise).  How you reach your answer is more important than the answer itself. I expect your solutions to be *well-written*, *neat*, and *organized*.  Do not turn in rough drafts.  What you turn in should be the polished version of potentially several drafts.
