@@ -107,11 +107,11 @@ Complete the following problems.
 
 \begin{enumerate}
 
-\item A \emph{partition} of a positive integer $n$ is a weakly decreasing sequence of nonnegative integers whose sum is $n$, i.e., $\lambda = (\lambda_1,\ldots,\lambda_k)$ is a partition of $n$ if $\lambda_1\geq\cdots\geq \lambda_k$ and $\sum_{i=1}^k \lambda_i = n$. We often draw partitions as a collection of $n$ boxes that are upper- and left-justified, so that the number of boxes in row $i$ is $\lambda_i$. Such a picture is called a \emph{Young diagram}. Let $\mathcal{Y}$ be the set of all possible Young diagrams. The \emph{Young lattice} is the poset $(\mathcal{Y},\leq)$, where $\lambda\leq \mu$ if and only if the Young diagram $\mu$ contains the Young diagram $\lambda$ with their northwest corners aligned. Note that the empty diagram (typically denoted by $\emptyset$) is the Young diagram for the integer 0. This is the unique minimal element in~$\mathcal{Y}$.
+\item A \emph{partition} of a positive integer $n$ is a weakly decreasing sequence of nonnegative integers whose sum is $n$, i.e., $\lambda = (\lambda_1,\ldots,\lambda_k)$ is a partition of $n$ if $\lambda_1\geq\cdots\geq \lambda_k$ and $\sum_{i=1}^k \lambda_i = n$. We often draw partitions as a collection of $n$ boxes that are upper- and left-justified, so that the number of boxes in row $i$ is $\lambda_i$ (we number rows top to bottom). Such a picture is called a \emph{Young diagram}. Let $\mathcal{Y}$ be the set of all possible Young diagrams. The \emph{Young lattice} is the poset $(\mathcal{Y},\leq)$, where $\lambda\leq \mu$ if and only if the Young diagram $\mu$ contains the Young diagram $\lambda$ with their northwest corners aligned. Note that the empty diagram (typically denoted by $\emptyset$) is the Young diagram for the integer 0. This is the unique minimal element in~$\mathcal{Y}$.
 \begin{enumerate}
 \item Prove that $\mathcal{Y}$ is a ranked poset with rank function $\rk(\lambda)\coloneqq |\lambda|$, where $|\lambda|$ is the number of one-by-one squares in $\lambda$.
-\item Prove that $Y$ is a lattice.
-\item Find a ``nice" expression for the rank generating function for $Y$.
+\item Prove that $\mathcal{Y}$ is a lattice.
+\item Find a ``nice" expression for the rank generating function for $\mathcal{Y}$.
 \end{enumerate} 
 
 \item Find a reasonable formula for the number of linear extensions of the following poset on $[n]$ for $n$ even.
