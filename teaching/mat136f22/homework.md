@@ -61,6 +61,8 @@ Most of the Daily Homework assignments are to be completed via [WeBWorK](https:/
 - **Daily Homework 23:** Complete the corresponding problems on [WeBWorK](https://webwork.math.nau.edu/webwork2/DErnst_136/). (Due Monday, October 24 by 10:00pm)
 - **Daily Homework 24:** Complete the corresponding problems on [WeBWorK](https://webwork.math.nau.edu/webwork2/DErnst_136/). (Due Wednesday, October 26 by 10:00pm)
 - **Daily Homework 25:** Complete the corresponding problems on [WeBWorK](https://webwork.math.nau.edu/webwork2/DErnst_136/). (Due Friday, October 28 by 10:00pm)
+- **Daily Homework 26:** Complete the corresponding problems on [WeBWorK](https://webwork.math.nau.edu/webwork2/DErnst_136/). (Due Monday, October 31 by 10:00pm)
+- **Daily Homework 27:** Complete the corresponding problems on [WeBWorK](https://webwork.math.nau.edu/webwork2/DErnst_136/). (Due Wednesday, November 2 by 10:00pm)
 
 ## Weekly Homework ##
 For each of the Weekly Homework assignments, answer each of the indicated questions. To receive full credit on a problem, you must show sufficient work for each of your answers (unless stated otherwise).  How you reach your answer is more important than the answer itself. I expect your solutions to be *well-written*, *neat*, and *organized*.  Do not turn in rough drafts.  What you turn in should be the polished version of potentially several drafts.
@@ -70,3 +72,4 @@ For each of the Weekly Homework assignments, answer each of the indicated questi
 - **Weekly Homework 3:** Complete the problems posted [here]({{site.baseurl}}/teaching/mat136f22/136Weekly3.pdf). (Due Friday, September 30 at class time)
 - **Weekly Homework 4:** Complete the problems posted [here]({{site.baseurl}}/teaching/mat136f22/136Weekly4.pdf). (Due Thursday, October 6 at class time)
 - **Weekly Homework 5:** Complete the problems posted [here]({{site.baseurl}}/teaching/mat136f22/136Weekly5.pdf). (Due Thursday, October 27 at class time)
+- **Weekly Homework 6:** Complete the problems posted [here]({{site.baseurl}}/teaching/mat136f22/136Weekly6.pdf). (Due Friday, November 4 before exam)

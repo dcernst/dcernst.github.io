@@ -35,6 +35,7 @@ title: Course Materials
 - [Supplementary Problems for Exam 1 with solutions]({{ site.baseurl }}/teaching/mat136f22/Exam1SupplementalFall2022-Solutions.pdf) (*Note:* The solutions were written by a variety of people. So, the style is inconsistent and it's possible there are some typos. Revised 9/19/22)
 - [Supplementary Problems for Exam 2]({{ site.baseurl }}/teaching/mat136f22/Exam2SupplementalFall2022.pdf)
 - [Notes for Related Rates]({{ site.baseurl }}/teaching/mat136f22/RelatedRates.pdf)
+- [Notes for Function Analysis]({{ site.baseurl }}/teaching/mat136f22/FunctionAnalysis.pdf) (Curve Sketching)
 - [Supplementary Problems for Exam 3]({{ site.baseurl }}/teaching/mat136f22/Exam3SupplementalFall2022.pdf)
 
 <blockquote>
