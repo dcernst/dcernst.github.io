@@ -37,6 +37,7 @@ title: Course Materials
 - [Notes for Related Rates]({{ site.baseurl }}/teaching/mat136f22/RelatedRates.pdf)
 - [Notes for Function Analysis]({{ site.baseurl }}/teaching/mat136f22/FunctionAnalysis.pdf) (Curve Sketching)
 - [Supplementary Problems for Exam 3]({{ site.baseurl }}/teaching/mat136f22/Exam3SupplementalFall2022.pdf)
+- [Notes for Applied Optimization]({{ site.baseurl }}/teaching/mat136f22/AppliedOptimization.pdf)
 
 <blockquote>
   <p>Don’t just read it; fight it! Ask your own questions, look for your own examples, discover your own proofs. Is the hypothesis necessary? Is the converse true? What happens in the classical special case? What about the degenerate cases? Where does the proof use the hypothesis?</p>
