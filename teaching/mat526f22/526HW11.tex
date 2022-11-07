@@ -1,0 +1,144 @@
+\documentclass[11pt]{article}%{scrartcl}
+\usepackage[scale=1.5]{ccicons}
+\usepackage[notextcomp]{kpfonts} 
+\usepackage[margin=1in]{geometry}
+\usepackage{amsthm,amssymb}
+\usepackage{graphicx}
+\usepackage{enumitem}
+\usepackage{bm}
+\usepackage{tikz}
+\usepackage{mathtools}
+
+\usepackage{color}
+\definecolor{darkblue}{rgb}{0, 0, .6}
+\definecolor{grey}{rgb}{.7, .7, .7}
+\usepackage[breaklinks]{hyperref}
+\hypersetup{
+	colorlinks=true,
+	linkcolor=darkblue,
+	anchorcolor=darkblue,
+	citecolor=darkblue,
+	pagecolor=darkblue,
+	urlcolor=darkblue,
+	pdftitle={},
+	pdfauthor={}
+}
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\lhead{MAT 526 - Fall 2022}
+\chead{}
+\rhead{Due Friday, November 16}
+\renewcommand{\headrulewidth}{.4pt}
+
+\theoremstyle{definition}
+\newtheorem{theorem}{Theorem}
+\newtheorem{acknowledgement}[theorem]{Acknowledgement}
+\newtheorem{algorithm}[theorem]{Algorithm}
+\newtheorem{axiom}[theorem]{Axiom}
+\newtheorem{case}[theorem]{Case}
+\newtheorem{claim}[theorem]{Claim}
+\newtheorem*{claim*}{Claim}
+\newtheorem{conclusion}[theorem]{Conclusion}
+\newtheorem{condition}[theorem]{Condition}
+\newtheorem{conjecture}[theorem]{Conjecture}
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{criterion}[theorem]{Criterion}
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{example}[theorem]{Example}
+\newtheorem{exercise}[theorem]{Exercise}
+\newtheorem{journal}[theorem]{Journal}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{notation}[theorem]{Notation}
+\newtheorem{problem}[theorem]{Problem}
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{remark}[theorem]{Remark}
+\newtheorem{solution}[theorem]{Solution}
+\newtheorem{summary}[theorem]{Summary}
+\newtheorem{skeleton}[theorem]{Skeleton Proof}
+\newtheorem{activity}[theorem]{Activity}
+\newtheorem{intuitivedef}[theorem]{Intuitive Definition}
+
+\newcommand{\blankline}{\pagebreak[2]\vspace{.5\baselineskip}}
+
+\DeclareMathOperator{\des}{des}
+\DeclareMathOperator{\NC}{NC}
+\DeclareMathOperator{\asc}{asc}
+\DeclareMathOperator{\runs}{runs}
+\DeclareMathOperator{\exc}{exc}
+\DeclareMathOperator{\Inv}{Inv}
+\DeclareMathOperator{\inv}{inv}
+\DeclareMathOperator{\reading}{read}
+\DeclareMathOperator{\area}{area}
+\DeclareMathOperator{\Des}{Des}
+\DeclareMathOperator{\rk}{rk}
+
+\newcommand{\euler}[2]{
+  \displaystyle \left\langle\begin{matrix}#1  \\#2  \\ \end{matrix}\right\rangle}
+\newcommand{\stirling}[2]{
+  \displaystyle \left\{\begin{matrix}#1  \\#2  \\ \end{matrix}\right\}}
+
+\setlength{\parindent}{0pt}
+
+%Useful for cut and paste
+%\begin{enumerate}[label=\rm{(\alph*)}]
+
+\begin{document}
+
+\begin{center}
+{\Large\bf Homework 11}
+
+\smallskip
+
+Combinatorics
+\end{center}
+
+\thispagestyle{fancy}
+
+You are allowed and encouraged to work together on homework. Yet, each student is expected to turn in his or her own work. In general, late homework will not be accepted. However, you are allowed to turn in \textbf{up to two late homework assignments with no questions asked}. 
+
+\blankline
+
+Reviewing material from previous courses and looking up definitions and theorems you may have forgotten is fair game. However, when it comes to completing assignments for this course, you should \emph{not} look to resources outside the context of this course for help.  That is, you should not be consulting the web, other texts, other faculty, or students outside of our course in an attempt to find solutions to the problems you are assigned.  This includes Chegg and Course Hero. On the other hand, you may use each other, Discord, me, and your own intuition. \textbf{If you feel you need additional resources, please come talk to me and we will come up with an appropriate plan of action.} Please read NAU's \href{https://www5.nau.edu/policies/Client/Details/828?whoIsLooking=Students&pertainsTo=All&sortDirection=Ascending&page=1}{Academic Integrity Policy}.
+
+\blankline
+
+Complete the following problems. 
+
+\begin{enumerate}
+
+\item Prove that the interval below any $n$-cycle in the absolute order on $S_n$ is isomorphic (as posets) to any other.  \emph{Hint:} You may take for granted that any two $n$-cycles are conjugate to one another by some $w\in S_n$. How that conjugation by $w$ takes cover relations to cover relations in the respective posets.
+
+\item Let $p_{n,k}$ denote the number of integer partitions of $n$ into $k$ parts. Refine the rank generating function for the Young lattice $\mathcal{Y}$ (see Homework 10) to obtain an expression for the following generating function:
+\[
+\sum_{n,k\geq 0}p_{n,k}t^kz^n.
+\]
+
+\item The \emph{conjugate} of an integer partition $\lambda$ is the partition $\lambda'$ with Young diagram obtained by transposing (i.e., swap rows and columns) the Young diagram for $\lambda$.  Let $q_n$ denote the number of integer partitions that are \emph{self-conjugate} (i.e., $\lambda$ is equal to its conjugate). Prove that
+\[
+\sum_{n\geq 0}q_nz^n =\prod_{i\geq 1}(1+z^{2i-1}).
+\]
+\emph{Hint:} Show that $q_n$ also counts the number of partitions of $n$ into distinct odd parts.
+
+\item The \emph{adjacent sorting length} of a permutation $w=w(1)\cdots w(n)\in S_n$, denoted $\ell(w)$, to be the minimal number of adjacent swaps of positions needed to sort the permutation to the identity. For example, $31542$ has wicked awesome sorting length at most 5 since the permutation can be unscrambled in five moves as follows:
+\[
+31\underline{54}2 \to 314\underline{52} \to 31\underline{42}5 \to \underline{31}245 \to 1\underline{32}45 \to 12345.
+\]
+In fact, $\ell(31542)$ is exactly 5. \emph{Fun Fact:} The adjacent sorting length of a permutation is the same as the Coxeter length in Coxeter groups of type $A_{n-1}$.
+\begin{enumerate}
+\item Prove that if $w\in S_n$, then $w\circ (i,i+1)$ is the permutation that results from $w$ by swapping the values in positions $i$ and $i+1$ of $w$.
+\item Prove that $\inv(w)=\ell(w)$ for all $w\in S_n$. \emph{Hint:} Start by proving that applying an adjacent swap to positions of a permutation either increases the number of inversions by one or decreases the number of inversions by one, and then describe an unscrambling algorithm that decreases the number of inversions after each swap.
+\item Conclude that 
+\[
+\sum_{w\in S_n}q^{\ell(w)}=[n]_q!.
+\]
+\end{enumerate}
+
+\item Given a lattice path $p$ consisting only of north and east steps, define $\area(p)$ to be the total area under the path $p$ (and above the $x$-axis). Recall the definition of $L(k,n-k)$ that appeared on Part 2 of Exam 1. Prove that
+\[
+\sum_{p\in L(k,n-k)}q^{\area(p)}=\sum_{\substack{w\in S_n \\ \Des(w)\subseteq \{k\}}} q^{\inv(w)}.
+\]
+
+\end{enumerate}
+
+\end{document}
