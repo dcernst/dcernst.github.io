@@ -75,3 +75,4 @@ For each of the Weekly Homework assignments, answer each of the indicated questi
 - **Weekly Homework 4:** Complete the problems posted [here]({{site.baseurl}}/teaching/mat136f22/136Weekly4.pdf). (Due Thursday, October 6 at class time)
 - **Weekly Homework 5:** Complete the problems posted [here]({{site.baseurl}}/teaching/mat136f22/136Weekly5.pdf). (Due Thursday, October 27 at class time)
 - **Weekly Homework 6:** Complete the problems posted [here]({{site.baseurl}}/teaching/mat136f22/136Weekly6.pdf). (Due Friday, November 4 before exam)
+- **Weekly Homework 7:** Complete the problems posted [here]({{site.baseurl}}/teaching/mat136f22/136Weekly7.pdf). (Due Thursday, November 17 at class time)
