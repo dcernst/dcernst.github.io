@@ -67,6 +67,7 @@ Most of the Daily Homework assignments are to be completed via [WeBWorK](https:/
 - **Daily Homework 29:** Complete the corresponding problems on [WeBWorK](https://webwork.math.nau.edu/webwork2/DErnst_136/). (Due Thursday, November 10 by 10:00pm)
 - **Daily Homework 30:** Complete the corresponding problems on [WeBWorK](https://webwork.math.nau.edu/webwork2/DErnst_136/). (Due Wednesday, November 16 by 10:00pm)
 - **Daily Homework 31:** Complete the corresponding problems on [WeBWorK](https://webwork.math.nau.edu/webwork2/DErnst_136/). (Due Friday, November 18 by 10:00pm)
+- **Daily Homework 32:** Complete the corresponding problems on [WeBWorK](https://webwork.math.nau.edu/webwork2/DErnst_136/). (Due Monday, November 21 by 10:00pm)
 
 ## Weekly Homework ##
 For each of the Weekly Homework assignments, answer each of the indicated questions. To receive full credit on a problem, you must show sufficient work for each of your answers (unless stated otherwise).  How you reach your answer is more important than the answer itself. I expect your solutions to be *well-written*, *neat*, and *organized*.  Do not turn in rough drafts.  What you turn in should be the polished version of potentially several drafts.
@@ -77,4 +78,5 @@ For each of the Weekly Homework assignments, answer each of the indicated questi
 - **Weekly Homework 4:** Complete the problems posted [here]({{site.baseurl}}/teaching/mat136f22/136Weekly4.pdf). (Due Thursday, October 6 at class time)
 - **Weekly Homework 5:** Complete the problems posted [here]({{site.baseurl}}/teaching/mat136f22/136Weekly5.pdf). (Due Thursday, October 27 at class time)
 - **Weekly Homework 6:** Complete the problems posted [here]({{site.baseurl}}/teaching/mat136f22/136Weekly6.pdf). (Due Friday, November 4 before exam)
-- **Weekly Homework 7:** Complete the problems posted [here]({{site.baseurl}}/teaching/mat136f22/136Weekly7.pdf). (Due Thursday, November 17 at class time)
+- **Weekly Homework 7:** Complete the problems posted [here]({{site.baseurl}}/teaching/mat136f22/136Weekly7.pdf). (Due Thursday, November 17 by 5pm)
+- **Weekly Homework 8:** Complete the problems posted [here]({{site.baseurl}}/teaching/mat136f22/136Weekly8.pdf). (Due Wednesday, November 23 at class time)
