@@ -1,0 +1,274 @@
+\documentclass[11pt]{article}
+\usepackage[scale=1.5]{ccicons}
+\usepackage{url}
+\usepackage{array}
+\usepackage{multicol}
+\usepackage{tabu}
+\usepackage[table]{xcolor}
+\usepackage{tikz}
+\usetikzlibrary{shapes.geometric}
+\usepackage{fancyhdr}
+\usepackage[margin=.7in]{geometry}
+\usepackage[hang,flushmargin,symbol*]{footmisc}
+\usepackage{amsmath}
+\usepackage{amsthm}
+\usepackage{amssymb}
+\usepackage{mathtools}
+\usepackage{enumitem}
+\usepackage{graphicx}
+\usepackage{mathdots}
+
+\usepackage{color}
+\definecolor{darkblue}{rgb}{0, 0, .6}
+\definecolor{grey}{rgb}{.7, .7, .7}
+\usepackage[breaklinks]{hyperref}
+
+\theoremstyle{definition} 
+\newtheorem{theorem}{Theorem}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{claim}[theorem]{Claim}
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{conjecture}[theorem]{Conjecture}
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{example}[theorem]{Example}
+\newtheorem{remark}[theorem]{Remark}
+\newtheorem{important}[theorem]{Important Note}
+\newtheorem{recall}[theorem]{Recall}
+\newtheorem{note}[theorem]{Note}
+\newtheorem{question}[theorem]{Question}
+\newtheorem*{definition*}{Definition}
+\newtheorem*{theorem*}{Theorem}
+\newtheorem*{claim*}{Claim}
+
+\newcommand{\ds}{\displaystyle}
+\newcommand{\blank}{\underline{\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ }}
+\DeclareMathOperator{\Aut}{Aut}
+\DeclareMathOperator{\Inv}{Inv}
+\DeclareMathOperator{\inv}{inv}
+\DeclareMathOperator{\Two}{Two}
+\DeclareMathOperator{\des}{des}
+\DeclareMathOperator{\asc}{asc}
+\DeclareMathOperator{\Asc}{Asc}
+\DeclareMathOperator{\Des}{Des}
+\DeclareMathOperator{\rev}{rev}
+\DeclareMathOperator{\runs}{runs}
+\DeclareMathOperator{\TL}{TL}
+\DeclareMathOperator{\tr}{tr}
+\DeclareMathOperator{\Tr}{Tr}
+\DeclareMathOperator{\pk}{pk}
+\DeclareMathOperator{\coins}{coins}
+\DeclareMathOperator{\Dyck}{Dyck}
+\DeclareMathOperator{\maj}{maj}
+\DeclareMathOperator{\Shuff}{Shuff}
+\DeclareMathOperator{\Wk}{Wk}
+\DeclareMathOperator{\Abs}{Abs}
+\DeclareMathOperator{\NC}{NC}
+\DeclareMathOperator{\rk}{rk}
+\DeclareMathOperator{\area}{area}
+\DeclareMathOperator{\cyc}{cyc}
+\DeclareMathOperator{\sor}{sor}
+\DeclareMathOperator{\Sor}{Sor}
+\DeclareMathOperator{\dis}{dis}
+\DeclareMathOperator{\PF}{PF}
+
+\newcommand{\euler}[2]{
+  \displaystyle \left\langle\begin{matrix}#1  \\#2  \\ \end{matrix}\right\rangle}
+
+\newcommand{\stirling}[2]{
+  \displaystyle \left\{\begin{matrix}#1  \\#2  \\ \end{matrix}\right\}}
+
+\newcommand{\qbinom}[2]{
+  \displaystyle \left[\begin{matrix}#1  \\#2  \\ \end{matrix}\right]}
+
+\setlength{\parindent}{0pt}
+\setlength{\fboxsep}{10pt}
+
+%%%%%%Header/Footer%%%%%%%
+
+\pagestyle{fancy}
+
+\lhead{MAT 526 - Fall 2022}
+\chead{}
+\rhead{Exam 2 (Part 2)}
+\lfoot{\scriptsize This work is licensed under the \href{https://creativecommons.org/licenses/by-sa/4.0/}{Creative Commons Attribution-Share Alike 4.0 License}.} 
+\cfoot{}
+\rfoot{\ccbysa}
+\renewcommand{\headrulewidth}{.4pt}
+\renewcommand{\footrulewidth}{.4pt}
+
+%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+\tikzstyle{vert} = [circle, draw, fill=grey,inner sep=0pt, minimum size=6mm]
+\tikzstyle{vertsmall} = [circle=3pt, draw, fill=grey]
+\tikzstyle{s} = [draw, very  thick, black, stealth-stealth]
+\tikzstyle{s1} = [draw, very  thick, black,-stealth]
+\tikzstyle{d} = [draw, very  thick, black, dashed,-stealth]
+\tikzstyle{d2} = [draw, very thick, dashed,stealth-stealth]
+\tikzstyle{s2} = [draw, very thick, stealth-stealth]
+\tikzstyle{snake} = [draw, very thick, snake it,-stealth]
+\tikzstyle{snake2} = [draw, very thick, snake it, stealth-stealth]
+\tikzstyle{g} = [draw, very thick, grey,-stealth]
+\tikzstyle{g2} = [draw, very thick, grey, stealth-stealth]
+
+\begin{center}
+
+{\Large\bf Exam 2 (Part 2)}
+
+\bigskip
+
+  \fbox{\parbox{7in}{
+    \vspace{5pt}
+    \textbf{\large Your Name:}
+    \vspace{5pt}
+  }}
+  
+  \bigskip
+  
+  \fbox{\parbox{7in}{
+    \vspace{5pt}
+    \textbf{\large Names of Any Collaborators:}
+    \vspace{5pt}
+  }}
+
+\end{center}
+
+\section*{Instructions}
+
+Answer each of the following questions. This part of Exam 2 is worth a total of 20 points and is worth 50\% of your overall score on Exam 2. Your overall score on Exam 1 is worth 20\% of your overall grade. This portion of Exam 2 is due by class time on \textbf{Wednesday, November 30}. However, if you submit the take-home portion of the exam prior to Thanksgiving, I will add one percentage point to your overall score on Exam 2. Your overall score on Exam 2 is worth 20\% of your overall grade. Good luck and have fun!
+
+\bigskip
+
+I expect your solutions to be \emph{well-written, neat, and organized}.  Do not turn in rough drafts.  What you turn in should be the ``polished'' version of potentially several drafts.  Feel free to type up your final version.  The \LaTeX\ source file of this exam is also available if you are interested in typing up your solutions using \LaTeX.  I'll gladly help you do this if you'd like.
+
+\bigskip
+
+Reviewing material from previous courses and looking up definitions and theorems you may have forgotten is fair game. However, when it comes to completing the following problems, you should \emph{not} look to resources outside the context of this course for help.  That is, you should not be consulting the web, other texts, other faculty, or students outside of our course in an attempt to find solutions to the problems you are assigned.  This includes Chegg and Course Hero. On the other hand, you may use each other, the textbook, me, and your own intuition. Further information:
+\begin{enumerate}
+\item You may freely use any theorems that we have discussed in class, but you should make it clear where you are using a previous result and which result you are using.  %For example, if a sentence in your proof follows from Problem 3.16, then you should say so.
+\item Unless you prove them, you cannot use any results from the course notes/book that we have not yet covered.
+\item You are \textbf{NOT} allowed to consult external sources when working on the exam.  This includes people outside of the class, other textbooks, and online resources.
+\item You are \textbf{NOT} allowed to copy someone else's work.
+\item You are \textbf{NOT} allowed to let someone else copy your work.
+\item You are allowed to discuss the problems with each other and critique each other's work.
+\end{enumerate}
+
+\begin{center}
+\textbf{I will vigorously pursue anyone suspected of breaking these rules.}
+\end{center}
+
+You should \textbf{turn in this cover page} and all of the work that you have decided to submit. \textbf{Please write your solutions and proofs on your own paper.} To convince me that you have read and understand the instructions, sign in the box below.
+
+\bigskip
+
+  \fbox{\parbox{7in}{
+    \vspace{5pt}
+    \textbf{\large Signature:} \hfill
+    \vspace{5pt}
+  }}
+
+\bigskip
+
+Good luck and have fun!
+
+\newpage
+
+(4 points each) Complete \textbf{five} of the following subject to the following constraint: You may choose at most one of Problem 5 or Problem 6.
+
+\begin{enumerate}
+
+%\item Recall definition of derangements and the corresponding sequence $d_n$ given on Part 1 of Exam 1. Find a closed form for the exponential generating function for $d_n$:
+%\[
+%D(z):=\sum_{n\geq 0}d_n\frac{z^n}{n!}.
+%\]
+
+\item Recall from Part 1 of Exam 2 that if $i_n$ denotes the number of involutions in $S_n$, then $i_0=1$, $i_1=1$, and for $n\geq 2$, we have $i_n=i_{n-1}+(n-1)i_{n-2}$. Prove that the exponential generating function for $i_n$ has the following closed form:
+\[
+\sum_{n\geq 0}i_n\frac{z^n}{n!}=e^{z+z^2/2}.
+\]
+
+\item Find the number of linear extensions of the following poset on $[n]$ for $n$ even.
+
+\bigskip
+
+\tikzstyle{vert} = [circle, draw, fill=grey,inner sep=0pt, minimum size=8mm]
+\tikzstyle{b} = [draw, very thick, black,-]
+
+\begin{center}
+\begin{tikzpicture}[scale=1.5,auto]
+\node (1) at (1,0) [vert] {\scriptsize $1$};
+\node (2) at (0,1) [vert] {\scriptsize $2$};
+\node (3) at (2,1) [vert] {\scriptsize $3$};
+\node (4) at (1,2) [vert] {\scriptsize $4$};
+\node (5) at (3,2) [vert] {\scriptsize $5$};
+\node (6) at (2,3) [vert] {\scriptsize $6$};
+\node at (3,3) {$\iddots$};
+\node (n-2) at (3,4) [vert] {\scriptsize $n-2$};
+\node (n-3) at (4,3) [vert] {\scriptsize $n-3$};
+\node (n-1) at (5,4) [vert] {\scriptsize $n-1$};
+\node (n) at (4,5) [vert] {\scriptsize $n$};
+\path [b] (1) to (2);
+\path [b] (1) to (3);
+\path [b] (2) to (4);
+\path [b] (3) to (4);
+\path [b] (4) to (6);
+\path [b] (3) to (5);
+\path [b] (5) to (6);
+\path [b] (n-3) to (n-2);
+\path [b] (n-3) to (n-1);
+\path [b] (n-2) to (n);
+\path [b] (n-1) to (n);
+\end{tikzpicture}
+\end{center}
+
+\item Consider the following search algorithm for a permutation in 1-line notation.  Scan a permutation $w\in S_n$ from left to right.  We want to pull out the numbers $1,2,\ldots,n$ in order.  We are only allowed to pull out the numbers in strict succession (e.g., 1 before 2, 2 before 3, etc.).  Once we scan through the permutation, we scan through the now shorter permutation, repeating as necessary until we have selected all the numbers.  For example, consider $w=3172546$. Below we have highlighted in bold the numbers selected in each scan:
+\begin{eqnarray*}
+\text{Scan 1:}& 3\ \mathbf{1}\ 7\ \mathbf{2}\ 5\ 4\ 6\\
+\text{Scan 2:}& \mathbf{3}\ \phantom{1}\ 7\ \phantom{2}\ 5\ \mathbf{4}\ 6\\
+\text{Scan 3:}& \phantom{3}\ \phantom{1}\ 7\ \phantom{2}\ \mathbf{5}\ \phantom{4}\ \mathbf{6}\\
+\text{Scan 4:}& \phantom{3}\ \phantom{1}\ \mathbf{7}\ \phantom{2}\ \phantom{5}\ \phantom{4}\ \phantom{6}
+\end{eqnarray*}
+What we will count here is the number of times a number is \emph{not} selected when scanning.  For example, the number 3 was not selected in the first scan while 7 was not selected in the first three scans. In the example above, there we nine instances in which we scanned but did not select a number (3 was overlooked once, 7 was overlooked three times, 5 was overlooked twice, 4 was overlooked once, and 6 was overlooked twice).  We call this number the \emph{disorder} of a permutation and denote it by $\dis(w)$. In the previous example, $\dis(w)=9$. Prove that disorder is Mahonian.  
+
+\item It's relatively straightforward using the definition of $q$-binomials to show that they satisfy the following symmetry
+\[
+\qbinom{n}{k}=\qbinom{n}{n-k}
+\]
+for $0\leq k\leq n$.  Prove this fact by constructing a bijection that preserves area of paths.
+
+\item Prove that for $0\leq k\leq n$, the coefficients of the polynomial $\qbinom{n}{k}$ are symmetric (i.e., palindromic). \emph{Hint:} Consider evaluating a $q$-binomial at $1/q$ and scaling by the appropriate factor.
+
+\item Define the $n$th \emph{$q$-Catalan number} via
+\[
+C_n[q]:=\frac{1}{[n+1]_q}\qbinom{2n}{n}.
+\]
+Prove that
+\[
+C_n[q]=\qbinom{2n}{n}-q\qbinom{2n}{n+1}
+\]
+and argue that $C_n[q]$ is a polynomial of degree $n(n-1)$.
+
+\item For a lattice path $p$, let $p(i)$ denote the $i$th step of $p$ (from lower left to upper left), so that $p(i)\in\{E,N\}$. Define the \emph{major index} of $p$ via
+\[
+\maj(p)=\sum_{\substack{p(i)=E \\ p(i+1)=N}}i.
+\]
+That is, the major index of a path is the sum of the valley positions.  Prove that
+\[
+C_n[q]=\sum_{p\in\Dyck(n)}q^{\maj(p)}.
+\]
+
+\item A \emph{parking function} of length $n$ is a sequence of positive integers $(a_1,\ldots,a_n)$ such that if $b_1\leq \cdots \leq b_n$ is an increasing arrangement of $a_1,\ldots, a_n$, then $b_i\leq i$.  Here's where the name comes from.  Imagine there are $n$ cars that want to park in $n$ spaces on a one-way street.  Denote the cars by $C_1,\ldots, C_n$ and let $a_1,\ldots,a_n$ be their preferred parking spaces, respectively. If a car finds its preferred space occupied, it will park in the next available space.  All cars will be able to park if and only if $(a_1,\ldots,a_n)$ is a parking function.  For example, suppose their are six cars with preferences $(1,1,5,2,2,3)$.  Then the cars will park as follows:
+\begin{center}
+\begin{tabular}{c|cccccc}
+car & $C_1$ & $C_2$ & $C_4$ & $C_5$ & $C_3$ & $C_6$\\
+\hline
+space & 1 & 2 & 3 & 4 & 5 & 5
+\end{tabular}
+\end{center}
+
+On the other hand, if the preferences were $(1,1,6,3,5,5)$, the sixth car would be unable to park since when it arrives to park in space five or higher, the only space available is space four. Let $\PF(n)$ denote the set of parking functions of length $n$.  Prove that $|\PF(n)|=(n+1)^{n-1}$. \emph{Hint:} First consider ``cyclic" parking functions for $n$ cars with $n+1$ parking spaces.  That is, suppose we allow each car to have a preference $a_i$ from 1 to $n+1$ and if a car finds the spot they like occupied, they can continue on loop to first available spot.  In this case, every list of preferences will result in all the cars parking.  How many such lists are there?  Now, observe that if we shift all the preferences by one modulo $n+1$, we end up with all the cars in the same spaces relative to one another. We can repeat this shift $n+1$ times and exactly one of these shifts results in space $n+1$ being empty.
+
+\end{enumerate}
+
+\end{document}
