@@ -62,6 +62,7 @@ In order to pass the course, you must complete each of the Required Assignments 
    - What do you mean by "mathematics"?  Or at least what are you considering to be "mathematics" for the purposes of this discussion?
    - Argue your point of view concerning whether mathematics in invented vs discovered.
 - There is no required homework assignment due on Monday, November 21.  Instead, you should focus on getting close to at least 300 points worth of Flexible Assignments.
+- **Homework 13:** Complete at least two course evaluations and submit documentation that you completed the evaluation.  When you complete each evaluation, you'll have the option to save a certificate (or possibly send to me directly). (Due Monday, November 28 by class time)
 
 ## Flexible Assignments ##
 These assignments are a sort of "choose your own adventure".  Each Flexible Assignment has a designated point value.  Over the course of the semester, you must complete enough Flexible Assignments to **achieve at least 150 points by Friday, October 21** and a **total of at least 300 points by the end of semester**. Unless stated otherwise, you can only get credit for each item one time. Feel free to suggest more items for the list.
