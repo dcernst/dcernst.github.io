@@ -40,6 +40,7 @@ title: Course Materials
 - [Notes for Applied Optimization]({{ site.baseurl }}/teaching/mat136f22/AppliedOptimization.pdf)
 - [Notes for Indefinite Integrals]({{ site.baseurl }}/teaching/mat136f22/IndefiniteIntegrals.pdf)
 - [Notes for Fundamental Theorem of Calculus]({{ site.baseurl }}/teaching/mat136f22/FTC.pdf)
+- [Supplementary Problems for Exam 4]({{ site.baseurl }}/teaching/mat136f22/Exam4SupplementalFall2022.pdf)
 
 <blockquote>
   <p>Don’t just read it; fight it! Ask your own questions, look for your own examples, discover your own proofs. Is the hypothesis necessary? Is the converse true? What happens in the classical special case? What about the degenerate cases? Where does the proof use the hypothesis?</p>
