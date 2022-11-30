@@ -42,3 +42,4 @@ I reserve the right to modify an assignment if the need arises.
 - **Homework 9:** Complete the problems found [here]({{site.baseurl}}/teaching/mat526f22/526HW9.pdf). (Due Wednesday, October 26)
 - **Homework 10:** Complete the problems found [here]({{site.baseurl}}/teaching/mat526f22/526HW10.pdf). (Due Friday, November 4)
 - **Homework 11:** Complete the problems found [here]({{site.baseurl}}/teaching/mat526f22/526HW11.pdf). (Due Wednesday, November 16)
+- **Homework 12:** Complete the problems found [here]({{site.baseurl}}/teaching/mat526f22/526HW12.pdf). This assignment is optional. If you choose to complete this assignment, your score on this assignment will replace your lowest score on a previous assignment, possibly one you did not complete.  (Due Wednesday, December 7)

@@ -1,0 +1,172 @@
+\documentclass[11pt]{article}%{scrartcl}
+\usepackage[scale=1.5]{ccicons}
+\usepackage[notextcomp]{kpfonts} 
+\usepackage[margin=1in]{geometry}
+\usepackage{amsthm,amssymb}
+\usepackage{graphicx}
+\usepackage{enumitem}
+\usepackage{bm}
+\usepackage{tikz}
+\usepackage{mathtools}
+
+\usepackage{color}
+\definecolor{darkblue}{rgb}{0, 0, .6}
+\definecolor{grey}{rgb}{.7, .7, .7}
+\usepackage[breaklinks]{hyperref}
+\hypersetup{
+	colorlinks=true,
+	linkcolor=darkblue,
+	anchorcolor=darkblue,
+	citecolor=darkblue,
+	pagecolor=darkblue,
+	urlcolor=darkblue,
+	pdftitle={},
+	pdfauthor={}
+}
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\lhead{MAT 526 - Fall 2022}
+\chead{}
+\rhead{Due Wednesday, December 7}
+\renewcommand{\headrulewidth}{.4pt}
+
+\theoremstyle{definition}
+\newtheorem{theorem}{Theorem}
+\newtheorem{acknowledgement}[theorem]{Acknowledgement}
+\newtheorem{algorithm}[theorem]{Algorithm}
+\newtheorem{axiom}[theorem]{Axiom}
+\newtheorem{case}[theorem]{Case}
+\newtheorem{claim}[theorem]{Claim}
+\newtheorem*{claim*}{Claim}
+\newtheorem{conclusion}[theorem]{Conclusion}
+\newtheorem{condition}[theorem]{Condition}
+\newtheorem{conjecture}[theorem]{Conjecture}
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{criterion}[theorem]{Criterion}
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{example}[theorem]{Example}
+\newtheorem{exercise}[theorem]{Exercise}
+\newtheorem{journal}[theorem]{Journal}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{notation}[theorem]{Notation}
+\newtheorem{problem}[theorem]{Problem}
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{remark}[theorem]{Remark}
+\newtheorem{solution}[theorem]{Solution}
+\newtheorem{summary}[theorem]{Summary}
+\newtheorem{skeleton}[theorem]{Skeleton Proof}
+\newtheorem{activity}[theorem]{Activity}
+\newtheorem{intuitivedef}[theorem]{Intuitive Definition}
+
+\newcommand{\blankline}{\pagebreak[2]\vspace{.5\baselineskip}}
+
+\DeclareMathOperator{\des}{des}
+\DeclareMathOperator{\NC}{NC}
+\DeclareMathOperator{\asc}{asc}
+\DeclareMathOperator{\runs}{runs}
+\DeclareMathOperator{\exc}{exc}
+\DeclareMathOperator{\Inv}{Inv}
+\DeclareMathOperator{\inv}{inv}
+\DeclareMathOperator{\reading}{read}
+\DeclareMathOperator{\area}{area}
+\DeclareMathOperator{\Des}{Des}
+\DeclareMathOperator{\rk}{rk}
+\DeclareMathOperator{\mdeg}{mdeg}
+
+\DeclareRobustCommand{\rchi}{{\mathpalette\irchi\relax}}
+\newcommand{\irchi}[2]{\raisebox{\depth}{$#1\chi$}}
+
+\newcommand{\euler}[2]{
+  \displaystyle \left\langle\begin{matrix}#1  \\#2  \\ \end{matrix}\right\rangle}
+\newcommand{\stirling}[2]{
+  \displaystyle \left\{\begin{matrix}#1  \\#2  \\ \end{matrix}\right\}}
+
+\setlength{\parindent}{0pt}
+
+%Useful for cut and paste
+%\begin{enumerate}[label=\rm{(\alph*)}]
+
+\begin{document}
+
+\begin{center}
+{\Large\bf Homework 12}
+
+\smallskip
+
+Combinatorics
+\end{center}
+
+\thispagestyle{fancy}
+
+\textbf{This assignment is optional. If you choose to complete this assignment, your score on this assignment will replace your lowest score on a previous assignment, possibly one you did not complete.}
+
+\blankline
+
+You are allowed and encouraged to work together on homework. Yet, each student is expected to turn in his or her own work. In general, late homework will not be accepted. However, you are allowed to turn in \textbf{up to two late homework assignments with no questions asked}. 
+
+\blankline
+
+Reviewing material from previous courses and looking up definitions and theorems you may have forgotten is fair game. However, when it comes to completing assignments for this course, you should \emph{not} look to resources outside the context of this course for help.  That is, you should not be consulting the web, other texts, other faculty, or students outside of our course in an attempt to find solutions to the problems you are assigned.  This includes Chegg and Course Hero. On the other hand, you may use each other, Discord, me, and your own intuition. \textbf{If you feel you need additional resources, please come talk to me and we will come up with an appropriate plan of action.} Please read NAU's \href{https://www5.nau.edu/policies/Client/Details/828?whoIsLooking=Students&pertainsTo=All&sortDirection=Ascending&page=1}{Academic Integrity Policy}.
+
+\blankline
+
+Complete the following problems. 
+
+\begin{enumerate}
+
+\item A \emph{walk} of length $\ell$ in a graph $G$ is a sequence of vertices $W: v_0,v_1,\ldots,v_{\ell}$ such that $v_{i-1}v_i\in E$ for all $1\leq i\leq \ell$.  We say that the walk is from $v_0$ to $v_{\ell}$. We call $W$ a \emph{path} if all the vertices are distinct.  We call $W$ a \emph{cycle} if $v_0=v_{\ell}$, all other vertices are distinct, and all edges are distinct. For a digraph (directed graph) $G$, we define \emph{directed walk}, \emph{directed path}, and \emph{directed cycle} in the obvious ways.  Prove that if $G$ is a digraph, then any directed walk of length at least 2 from $u$ to $v$ with $u=v$ contains a directed cycle.
+%Prove each of the following.
+%\begin{enumerate}
+%\item If $G$ is an undirected graph, then the union of any two different paths from $u$ to $v$ contains a cycle.
+%\item If $G$ is a digraph, then any directed walk of length at least 2 from $u$ to $v$ with $u=v$ contains a directed cycle.
+%\end{enumerate}
+
+%\item A \emph{tree} is a connected graph that does not contain any cycles. Prove that a tree with $n$ vertices has $n-1$ edges. Consider using induction.
+
+\item Determine the chromatic number for each of the following families of graphs. For this problem, you do \emph{not} need to justify your answer.
+\begin{enumerate}
+\item $K_n$ (\href{https://en.wikipedia.org/wiki/Complete_graph}{complete graph} with $n$ vertices)
+\item $P_n$ (\href{https://en.wikipedia.org/wiki/Path_graph}{path graph} with $n$ vertices)
+\item $C_n$ (\href{https://en.wikipedia.org/wiki/Cycle_graph}{cycle graph} with $n$ vertices)
+%\item $S_n$ (\href{https://en.wikipedia.org/wiki/Star_(graph_theory)}{star graph} with one internal vertex and $n$ leaves)
+%\item $K_{m,n}$ (\href{https://en.wikipedia.org/wiki/Complete_bipartite_graph}{complete bipartite graph} with $m$ and $n$ vertices in respective partitions)
+\end{enumerate}
+
+%\item A \emph{clique} of a graph $G$ is defined as a subset of vertices of $G$ such that every pair of vertices in the subset is adjacent in $G$. In other words, a subset of $n$ vertices is a clique of $G$ if the corresponding induced subgraph is $K_n$. Prove that if the maximum cardinality of a clique in $G$ is $n$, then $\rchi(G)\geq n$.
+
+\item Determine the chromatic polynomial for each of the following families of graphs. For this problem, you do \emph{not} need to justify your answer.
+\begin{enumerate}
+\item $G=(V,E)$, where $|V|=n$ and $E=\emptyset$ (i.e., $G$ consists of $n$ vertices and no edges).
+\item $K_n$
+\item $P_n$
+%\item FINAL? $C_n$
+\end{enumerate}
+
+\item A \emph{tree} is a connected graph that does not contain any cycles. It is easy to prove using induction that a tree with $n$ vertices has $n-1$ edges. You can take this for granted. Prove that the chromatic polynomial for any tree $G$ with $n$ vertices is $P(G;t)=t(t-1)^{n-1}$. Consider using induction.
+
+\item Let $G$ be a graph and write
+\[
+P(G;t)=a_0t^n-a_1t^{n-1}+a_2t^{n-2}-\cdots +(-1)^na_nt^0.
+\]
+Define $\mdeg(P(G;t))$ to be the smallest $k$ such that $a_k\neq 0$. Prove each of the following. Consider using induction and the Deletion-Contraction Lemma.
+\begin{enumerate}
+\item $|V|=n$.
+\item $\mdeg(P(G;t))$ equals the number of connected components of $G$.
+\item $a_k\geq 0$ for all $0\leq k\leq n$ and $a_k>0$ for all $0\leq k\leq n-\mdeg(P(G;t))$.
+\item $a_0=1$ and $a_1=|E|$.
+\end{enumerate}
+
+\item An \emph{orientation} $O$ of a graph $G$ is a digraph with the same vertex set obtained by replacing each edge $\{u,v\}$ of $G$ by one of the possible directed edges $(u,v)$ or $(v,u)$.  An orientation is called \emph{acyclic} if it does not contain any directed cycles.  Let $\mathcal{A}(G)$ denote the collection of acyclic orientations of $G$ and let $a(G):=|\mathcal{A}(G)|$. 
+%Does every graph have at least one acyclic orientation? If so, explain why. If not, provide a counterexample.
+Determine each of the following. For this problem, you do \emph{not} need to justify your answer.
+\begin{enumerate}
+\item $a(P_n)$
+\item $a(C_n)$
+\end{enumerate}
+
+\item Prove that $a(K_n)\geq n!$.  It turns out that $a(K_n)=n!$.  If you can prove this stronger result, go for it. For this problem, avoid using any theorems involving $P(K_n;t)$.
+
+\end{enumerate}
+
+\end{document}
