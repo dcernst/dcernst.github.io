@@ -38,12 +38,10 @@ Below is a partial list of links to applets and video repositories related to ca
   * [MOOCulus Videos](https://mooculus.osu.edu/lectures)
   * [CalculusApplets.com](http://calculusapplets.com)
   * [Education Portal](http://education-portal.com/academy/course/calculus.html)
-  * [integralCALC videos](http://www.integralcalc.com)
   * [Patrick's Just Math Tutorials](http://patrickjmt.com/#calculus)
   * [Khan Academy](http://www.khanacademy.org/math/calculus)
-  * [Brightstorm Calculus Videos](http://www.brightstorm.com/math/calculus/)
+  * [Brightstorm Calculus Videos](https://www.youtube.com/playlist?list=PLCF41AF5FF151EA2A)
   * [Math Doctor Bob videos](http://www.mathdoctorbob.org/default.html)
-  * [MathVids](http://mathvids.com/topic/mathhelp/5-calculus)
   * [The Calculus Page Problems List](http://www.math.ucdavis.edu/~kouba/ProblemsList.html)
 
 ## LaTeX

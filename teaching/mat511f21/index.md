@@ -50,7 +50,7 @@ Welcome to the course web page for the Fall 2021 manifestation of MAT 511: Abstr
 </div>
 
 ## What is This Course All About? ##
-Abstract algebra is the subject area of mathematics that studies algebraic structures, such as groups, rings, fields, modules, vector spaces, and algebras. Group theory is the study of symmetry, and is one of the most beautiful areas in all of mathematics. It arises in puzzles, visual arts, music, nature, the physical and life sciences, computer science, cryptography, and of course, throughout mathematics. We will spend most of our time studying groups through the the Isomorphism Theorems and Sylow Theorems and then move to a brief tour of rings and fields.
+Abstract algebra is the subject area of mathematics that studies algebraic structures, such as groups, rings, fields, modules, vector spaces, and algebras. Group theory is the study of symmetry, and is one of the most beautiful areas in all of mathematics. It arises in puzzles, visual arts, music, nature, the physical and life sciences, computer science, cryptography, and of course, throughout mathematics. We will spend most of our time studying groups through the Isomorphism Theorems and Sylow Theorems and then move to a brief tour of rings and fields.
 
 <blockquote>
 <p>The mathematician does not study pure mathematics because it is useful; he studies it because he delights in it, and he delights in it because it is beautiful.</p>

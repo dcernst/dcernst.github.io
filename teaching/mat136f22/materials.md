@@ -55,7 +55,7 @@ Below is a list of free calculus texts that you may use as an additional resourc
 * [CLP Calculus Textbooks](http://www.math.ubc.ca/~CLP/index.html) by [Joel Feldman](http://www.math.ubc.ca/~feldman/), [Andrew Rechnitzer](http://www.math.ubc.ca/~andrewr/front_page.html), and [Elyse Yeager](http://www.math.ubc.ca/~elyse/index.html) were written for standard university calculus courses at the University of British Colombia.  Free PDF and web-based textbooks.
 * [APEX Calculus](http://www.apexcalculus.com) is an open-source textbook by a group of faculty from Virginia Military Institute.  It has the look and feel of a traditional calculus (e.g., Stewart's *Calculus*). Includes interactive 3D graphics.
 * [Open Source Calculus and Analysis](https://oscalculusandanalysis.ugent.be) by a group of faculty at Ghent University. This book substantially builds on APEX Calculus. As compared to the APEX Calculus, it comes with precalculus, more formalism, proofs of most theorems (and more theorems), differential equations, computer laboratories, review exercises, built-in code for symbolic computation, and many other things. It's tailored to students in engineering programs. Multiple free PDFs available for download.
-* [MOOCulus Textbook](https://ximera.osu.edu) is a free textbook from the [MOOCulus](https://mooculus.osu.edu/) folks at Ohio State University. This text is mostly an adaptation of the Community Calculus text listed below.
+* [MOOCulus Textbook](https://ximera.osu.edu/mooculus) is a free textbook from the [Ximera](https://ximera.osu.edu/) folks at Ohio State University. This text is mostly an adaptation of the Community Calculus text listed below.
 * [Community Calculus](https://www.whitman.edu/mathematics/calculus/) by [David Guichard](http://skink.whitman.edu/~guichard/) (Whitman College). This one is also available as a free PDF. You can also purchase a very inexpensive hardcopy from [Lulu](http://www.lulu.com/spotlight/whitmancalculus).
 * [Active Calculus](http://faculty.gvsu.edu/boelkinm/Home/Download.html) by [Matt Boelkins](http://faculty.gvsu.edu/boelkinm/Home/MB.html) (Grand Valley State College). This is one of the newer additions to the list of free calculus texts.
 * [Coordinated Calculus](https://mathbooks.unl.edu/Calculus/) by [Nathan Wakefield](https://math.unl.edu/nwakefield2) (University of Nebraska) et al. This is the calculus textbook used at the Univerisity of Nebraska. Based upon Active Calculus by Matthew Boelkins (see above).
@@ -75,12 +75,10 @@ Below is a partial list of applet and video repositories related to calculus. Th
   * [Calculus Applets with GeoGebra](http://dcernst.github.io/CalculusApplets/)
   * [CalculusApplets.com](http://calculusapplets.com)
   * [Education Portal](http://education-portal.com/academy/course/calculus.html)
-  * [integralCALC videos](http://www.integralcalc.com)
   * [Patrick's Just Math Tutorials](http://patrickjmt.com/#calculus)
   * [Khan Academy](http://www.khanacademy.org/math/calculus)
-  * [Brightstorm Calculus Videos](http://www.brightstorm.com/math/calculus/)
+  * [Brightstorm Calculus Videos](https://www.youtube.com/playlist?list=PLCF41AF5FF151EA2A)
   * [Math Doctor Bob videos](http://www.mathdoctorbob.org/default.html)
-  * [MathVids](http://mathvids.com/topic/mathhelp/5-calculus)
   * [The Calculus Page Problems List](http://www.math.ucdavis.edu/~kouba/ProblemsList.html)
 
 ## Miscellaneous

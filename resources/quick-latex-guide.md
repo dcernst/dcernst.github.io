@@ -154,7 +154,7 @@ which is typeset using</p>
 
 <pre><code> ``stuff you are quoting"</code></pre>
 
-<p>To obtain the symbols on the left, look for the key on your keyboard in the upper left corner that also has the the tilde (~) on it. You'll need to hit this key twice. Using incorrect quotation marks is one of the most common mistakes that I see in documents written using LaTeX.</p>
+<p>To obtain the symbols on the left, look for the key on your keyboard in the upper left corner that also has the tilde (~) on it. You'll need to hit this key twice. Using incorrect quotation marks is one of the most common mistakes that I see in documents written using LaTeX.</p>
 
 <h2>More Information</h2>
 

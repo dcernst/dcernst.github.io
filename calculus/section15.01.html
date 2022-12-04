@@ -579,7 +579,7 @@ G(y)\,dy\cr
 }$$
 Let's be clear about what this means: we first will compute the inner
 integral, temporarily treating $y$ as a constant. We will do this by
-finding an anti-derivative with respect to $x$, then substituting
+finding an antiderivative with respect to $x$, then substituting
 $x=a$ and $x=b$ and subtracting, as usual. The result will be an
 expression with no $x$ variable but some occurrences of $y$. Then the
 outer integral will be an ordinary one-variable problem, with $y$ as
@@ -908,7 +908,7 @@ $$\int_{0.5}^{3.5} \sin(xy)+{6\over5}\,dx=
 \left.{-\cos(xy)\over y}+{6x\over5}\right|_{0.5}^{3.5}=
 {-\cos(3.5y)\over y}+{\cos(0.5y)\over y}+{18\over5}.$$
 Unfortunately, this gives a function for which we can't find a simple
-anti-derivative. To complete the problem we could use Sage or similar
+antiderivative. To complete the problem we could use Sage or similar
 software to approximate the integral. Doing this gives a volume of
 approximately $8.84$, so the average height is approximately 
 $8.84/6\approx 1.47$.
@@ -1082,7 +1082,7 @@ $$\int_0^1 \int_0^x \sqrt{1-x^2}\,dy\,dx \qquad\hbox{or}\qquad
 \int_0^1 \int_y^1 \sqrt{1-x^2}\,dx\,dy.
 $$
 Which appears easier? In the first, the inner integral is
-easy, because we need an anti-derivative with respect to $y$, and the
+easy, because we need an antiderivative with respect to $y$, and the
 entire integrand $\ds\sqrt{1-x^2}$ is constant with respect to $y$. Of
 course, the outer integral may be more difficult. In the second, the
 inner integral is mildly unpleasant&mdash;a trig substitution. So let's

@@ -101,8 +101,8 @@ Upon successful completion of the course, you will be able to:
 - Apply the derivative to find the line tangent to a function at a point and the linearization of a function at a point.
 - Apply the derivative to analyze graphical behavior of a function, motion problems, other rate problems, and optimization problems.
 - Construct a definite integral as the limit of a Riemann sum and use the sum to approximate a definite integral.
-- Find the anti-derivative of elementary polynomial, exponential, logarithmic and trigonometric functions.
-- Use substitution to find the anti-derivative of a composite function.
+- Find the antiderivative of elementary polynomial, exponential, logarithmic and trigonometric functions.
+- Use substitution to find the antiderivative of a composite function.
 - Evaluate a definite integral and interpret an indefinite integral as a definite integral with variable limit(s) in order to evaluate it.
 - Apply the definite integral to analyze the area under a curve and motion problems.
 - Apply the Fundamental Theorem of Calculus.

@@ -52,19 +52,17 @@ Below is a partial list of applet and video repositories related to calculus. Th
   * [MOOCulus Videos](https://mooculus.osu.edu/lectures)
   * [CalculusApplets.com](http://calculusapplets.com)
   * [Education Portal](http://education-portal.com/academy/course/calculus.html)
-  * [integralCALC videos](http://www.integralcalc.com)
   * [Patrick's Just Math Tutorials](http://patrickjmt.com/#calculus)
   * [Khan Academy](http://www.khanacademy.org/math/calculus)
-  * [Brightstorm Calculus Videos](http://www.brightstorm.com/math/calculus/)
+  * [Brightstorm Calculus Videos](https://www.youtube.com/playlist?list=PLCF41AF5FF151EA2A)
   * [Math Doctor Bob videos](http://www.mathdoctorbob.org/default.html)
-  * [MathVids](http://mathvids.com/topic/mathhelp/5-calculus)
   * [The Calculus Page Problems List](http://www.math.ucdavis.edu/~kouba/ProblemsList.html)
 
 ## Free Calculus Textbooks ##
 Here is a list of free calculus texts that you may use as an additional resource.  If you find one of these more helpful than another, please let me know.  Also, if you know of other resources, please let me know.
 
 * [APEX Calculus](http://www.apexcalculus.com) is an open-source textbook by a group of faculty from Virginia Military Institute.  It has the look and feel of a traditional calculus (e.g., Stewart's *Calculus*). Includes interactive 3D graphics.
-* [MOOCulus Textbook](https://mooculus.osu.edu/handouts) is a free textbook from the [MOOCulus](https://mooculus.osu.edu/) folks at Ohio State University. This text is mostly an adaptation of the Community Calculus text listed below.
+* [MOOCulus Textbook](https://mooculus.osu.edu/handouts) is a free textbook from the [Ximera](https://ximera.osu.edu/) folks at Ohio State University. This text is mostly an adaptation of the Community Calculus text listed below.
 * [Community Calculus](http://communitycalculus.org) by [David Guichard](http://skink.whitman.edu/~guichard/) (Whitman College). This one is also available as a free PDF. You can also purchase a very inexpensive hardcopy from [Lulu](http://www.lulu.com/spotlight/whitmancalculus).
 * [Active Calculus](http://faculty.gvsu.edu/boelkinm/Home/Download.html) by [Matt Boelkins](http://faculty.gvsu.edu/boelkinm/Home/MB.html) (Grand Valley State College). This is one of the newer additions to the list of free calculus texts.
 * [Calculus](http://ocw.mit.edu/resources/res-18-001-calculus-online-textbook-spring-2005/textbook/) by [Gilbert Strang](http://www-math.mit.edu/~gs/) (MIT). This book is available as a free PDF from the [MIT Open Courseware Project](http://ocw.mit.edu/index.htm). There are also some corresponding videos, which can be found [here](http://ocw.mit.edu/high-school/courses/highlights-of-calculus/index.htm).

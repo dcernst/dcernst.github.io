@@ -19,7 +19,7 @@ Whenever I'm teaching via [inquiry-based learning](http://maamathedmatters.blogs
 
 In the past, I would just wing it on day one and it's been different every time. However, I've had lots of people ask me to describe exactly what I do and I also thought it would be a good exercise for me to sit down and think carefully about the activity.  So, in the fall of 2014, I created some slides to guide the activity, which I am now calling "Setting the Stage".  Since then I have shortened the activity and made some improvements. The current version of the activity is inspired by [TJ Hitchman](http://theronhitchman.github.io), [Mike Starbird](http://www.ma.utexas.edu/users/starbird/), and [Brian Katz](https://twitter.com/thewordninja_bk).
 
-The main idea is that I want to get students thinking about why we there and what we should really be striving to get out of the course.  In addition, it helps students understand why I take an IBL approach in my classes. Below is an outline of the the activity.
+The main idea is that I want to get students thinking about why we there and what we should really be striving to get out of the course.  In addition, it helps students understand why I take an IBL approach in my classes. Below is an outline of the activity.
 
 ## Directions to the Students ##
 

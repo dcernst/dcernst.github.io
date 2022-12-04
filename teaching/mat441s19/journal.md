@@ -116,7 +116,7 @@ We’ll use this page to keep track of what has happened each day in class. It w
 ## Week 11 ##
 
 <ul class="fa-ul">
-  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, April 1:</b> We started by reviewing the concept of compact by playing with some examples of spaces that are not compact.  Next, we revisited the the proofs of Theorem 7.2 and Theorem 7.3. Then we divided the class up into small groups, where each groups was tasked with discussing the proofs of Theorem 7.5 and Theorem 7.6.  With the few minutes we had left, I sketched the proof of the forward implication of Theorem 7.6.</li>
+  <li><i class="fa-li far fa-calendar-check"></i><b>Monday, April 1:</b> We started by reviewing the concept of compact by playing with some examples of spaces that are not compact.  Next, we revisited the proofs of Theorem 7.2 and Theorem 7.3. Then we divided the class up into small groups, where each groups was tasked with discussing the proofs of Theorem 7.5 and Theorem 7.6.  With the few minutes we had left, I sketched the proof of the forward implication of Theorem 7.6.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Wednesday, April 3:</b> JW, JN, AB, and PH presented Theorem 7.6, Exercise 7.7, Theorem 7.8, and Theorem 7.9, respectively.</li>
   <li><i class="fa-li far fa-calendar-check"></i><b>Friday, April 5:</b> After a fun discussion about applications of topology, I presented two different proofs (the first was only the sketch of an argument) of Theorem 7.14.</li>
 </ul>

@@ -23,7 +23,7 @@ layout: default
 ## Welcome ##
 Welcome to the course web page for the Fall 2015 manifestation of MAT 511: Abstract Algebra I at [Northern Arizona University](http://nau.edu). Abstract algebra is the subject area of mathematics that studies algebraic structures, such as groups, rings, fields, modules, vector spaces, and algebras. Group theory is the study of symmetry, and is one of the most beautiful areas in all of mathematics. It arises in puzzles, visual arts, music, nature, the physical and life sciences, computer science, cryptography, and of course, throughout mathematics.
 
-We will spend most of our time studying groups through the the Isomorphism Theorems and Sylow Theorems and then move to a brief tour of rings and fields. Detailed information about the course and its structure is available at the links above.
+We will spend most of our time studying groups through the Isomorphism Theorems and Sylow Theorems and then move to a brief tour of rings and fields. Detailed information about the course and its structure is available at the links above.
 
 ## Instructor Info ##
 
