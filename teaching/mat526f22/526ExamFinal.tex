@@ -1,0 +1,437 @@
+\documentclass[11pt]{article}
+\usepackage[scale=1.5]{ccicons}
+\usepackage{url}
+\usepackage{array}
+\usepackage{multicol}
+\usepackage{tabu}
+\usepackage[table]{xcolor}
+\usepackage{tikz}
+\usetikzlibrary{shapes.geometric}
+\usepackage{fancyhdr}
+\usepackage[margin=.7in]{geometry}
+\usepackage[hang,flushmargin,symbol*]{footmisc}
+\usepackage{amsmath}
+\usepackage{amsthm}
+\usepackage{amssymb}
+\usepackage{mathtools}
+\usepackage{enumitem}
+\usepackage{graphicx}
+\usepackage{mathdots}
+\usepackage{shuffle}
+
+\usepackage{color}
+\definecolor{darkblue}{rgb}{0, 0, .6}
+\definecolor{grey}{rgb}{.7, .7, .7}
+\usepackage[breaklinks]{hyperref}
+
+\theoremstyle{definition} 
+\newtheorem{theorem}{Theorem}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{claim}[theorem]{Claim}
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{conjecture}[theorem]{Conjecture}
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{example}[theorem]{Example}
+\newtheorem{remark}[theorem]{Remark}
+\newtheorem{important}[theorem]{Important Note}
+\newtheorem{recall}[theorem]{Recall}
+\newtheorem{note}[theorem]{Note}
+\newtheorem{question}[theorem]{Question}
+\newtheorem*{definition*}{Definition}
+\newtheorem*{theorem*}{Theorem}
+\newtheorem*{claim*}{Claim}
+
+\newcommand{\ds}{\displaystyle}
+\newcommand{\blank}{\underline{\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ }}
+\DeclareMathOperator{\Aut}{Aut}
+\DeclareMathOperator{\Inv}{Inv}
+\DeclareMathOperator{\inv}{inv}
+\DeclareMathOperator{\Two}{Two}
+\DeclareMathOperator{\des}{des}
+\DeclareMathOperator{\asc}{asc}
+\DeclareMathOperator{\Asc}{Asc}
+\DeclareMathOperator{\Des}{Des}
+\DeclareMathOperator{\rev}{rev}
+\DeclareMathOperator{\runs}{runs}
+\DeclareMathOperator{\TL}{TL}
+\DeclareMathOperator{\tr}{tr}
+\DeclareMathOperator{\Tr}{Tr}
+\DeclareMathOperator{\pk}{pk}
+\DeclareMathOperator{\coins}{coins}
+\DeclareMathOperator{\Dyck}{Dyck}
+\DeclareMathOperator{\maj}{maj}
+\DeclareMathOperator{\Shuff}{Shuff}
+\DeclareMathOperator{\Wk}{Wk}
+\DeclareMathOperator{\Abs}{Abs}
+\DeclareMathOperator{\NC}{NC}
+\DeclareMathOperator{\rk}{rk}
+\DeclareMathOperator{\area}{area}
+\DeclareMathOperator{\cyc}{cyc}
+\DeclareMathOperator{\sor}{sor}
+\DeclareMathOperator{\Sor}{Sor}
+\DeclareMathOperator{\dis}{dis}
+\DeclareMathOperator{\SYT}{SYT}
+\DeclareMathOperator{\PB}{PB}
+
+\newcommand{\euler}[2]{
+  \displaystyle \left\langle\begin{matrix}#1  \\#2  \\ \end{matrix}\right\rangle}
+
+\newcommand{\stirling}[2]{
+  \displaystyle \left\{\begin{matrix}#1  \\#2  \\ \end{matrix}\right\}}
+
+\newcommand{\qbinom}[2]{
+  \displaystyle \left[\begin{matrix}#1  \\#2  \\ \end{matrix}\right]}
+
+\DeclareRobustCommand{\rchi}{{\mathpalette\irchi\relax}}
+\newcommand{\irchi}[2]{\raisebox{\depth}{$#1\chi$}}
+
+\setlength{\parindent}{0pt}
+\setlength{\fboxsep}{10pt}
+
+%%%%%%Header/Footer%%%%%%%
+
+\pagestyle{fancy}
+
+\lhead{MAT 526 - Fall 2022}
+\chead{}
+\rhead{Final Exam}
+\lfoot{\scriptsize This work is licensed under the \href{https://creativecommons.org/licenses/by-sa/4.0/}{Creative Commons Attribution-Share Alike 4.0 License}.} 
+\cfoot{}
+\rfoot{\ccbysa}
+\renewcommand{\headrulewidth}{.4pt}
+\renewcommand{\footrulewidth}{.4pt}
+
+%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+\tikzstyle{vert} = [circle, draw, fill=grey,inner sep=0pt, minimum size=6mm]
+\tikzstyle{vertsmall} = [circle=3pt, draw, fill=grey]
+\tikzstyle{s} = [draw, very  thick, black, stealth-stealth]
+\tikzstyle{s1} = [draw, very  thick, black,-stealth]
+\tikzstyle{d} = [draw, very  thick, black, dashed,-stealth]
+\tikzstyle{d2} = [draw, very thick, dashed,stealth-stealth]
+\tikzstyle{s2} = [draw, very thick, stealth-stealth]
+\tikzstyle{snake} = [draw, very thick, snake it,-stealth]
+\tikzstyle{snake2} = [draw, very thick, snake it, stealth-stealth]
+\tikzstyle{g} = [draw, very thick, grey,-stealth]
+\tikzstyle{g2} = [draw, very thick, grey, stealth-stealth]
+
+\begin{center}
+
+{\Large\bf Final Exam}
+
+\bigskip
+
+  \fbox{\parbox{7in}{
+    \vspace{5pt}
+    \textbf{\large Your Name:}
+    \vspace{5pt}
+  }}
+  
+  \bigskip
+  
+  \fbox{\parbox{7in}{
+    \vspace{5pt}
+    \textbf{\large Names of Any Collaborators:}
+    \vspace{5pt}
+  }}
+
+\end{center}
+
+\section*{Instructions}
+
+Answer each of the following questions. This exam is worth a total of ?? points.  This exam is due by 5\textsc{pm} on \textbf{Thursday, December 15}. Your overall score on the Final Exam is worth 20\% of your overall grade. Good luck and have fun!
+
+\bigskip
+
+I expect your solutions to be \emph{well-written, neat, and organized}.  Do not turn in rough drafts.  What you turn in should be the ``polished'' version of potentially several drafts.  Feel free to type up your final version.  The \LaTeX\ source file of this exam is also available if you are interested in typing up your solutions using \LaTeX.  I'll gladly help you do this if you'd like.
+
+\bigskip
+
+Reviewing material from previous courses and looking up definitions and theorems you may have forgotten is fair game. However, when it comes to completing the following problems, you should \emph{not} look to resources outside the context of this course for help.  That is, you should not be consulting the web, other texts, other faculty, or students outside of our course in an attempt to find solutions to the problems you are assigned.  This includes Chegg and Course Hero. On the other hand, you may use each other, the textbook, me, and your own intuition. Further information:
+\begin{enumerate}
+\item You may freely use any theorems that we have discussed in class, but you should make it clear where you are using a previous result and which result you are using.  %For example, if a sentence in your proof follows from Problem 3.16, then you should say so.
+\item Unless you prove them, you cannot use any results from the course notes/book that we have not yet covered.
+\item You are \textbf{NOT} allowed to consult external sources when working on the exam.  This includes people outside of the class, other textbooks, and online resources.
+\item You are \textbf{NOT} allowed to copy someone else's work.
+\item You are \textbf{NOT} allowed to let someone else copy your work.
+\item You are allowed to discuss the problems with each other and critique each other's work.
+\end{enumerate}
+
+\begin{center}
+\textbf{I will vigorously pursue anyone suspected of breaking these rules.}
+\end{center}
+
+You should \textbf{turn in this cover page} and all of the work that you have decided to submit. \textbf{Please write your solutions and proofs on your own paper.} To convince me that you have read and understand the instructions, sign in the box below.
+
+\bigskip
+
+  \fbox{\parbox{7in}{
+    \vspace{5pt}
+    \textbf{\large Signature:} \hfill
+    \vspace{5pt}
+  }}
+
+\bigskip
+
+Good luck and have fun!
+
+\newpage
+
+\begin{enumerate}
+
+\item (1 point each) For each statement below, determine whether it is TRUE or FALSE.  Circle your answer. 
+You do not need to justify your answer.
+
+\begin{enumerate}%[label=(i)]
+
+\item The number of outcomes for a race with $n$ runners (with ties allowed) is $\displaystyle\sum_{k=0}^n k!\stirling{n}{k}$.
+
+\smallskip
+
+TRUE \qquad FALSE
+
+\item For $0\leq k\leq n-1$, $\displaystyle N_{n,k}\leq \euler{n}{k}$. 
+
+\smallskip
+
+TRUE \qquad FALSE
+
+\item For all $n\in\mathbb{N}$, $S_n(1) = C_n(1)$, where $S_n(t)$ is the $n$th Eulerian polynomial and $C_n(t)$ is the $n$th Narayana polynomial.
+
+\smallskip
+
+TRUE \qquad FALSE
+
+\item For all $n\in\mathbb{N}$, $\deg(S_n(t)) = \deg(C_n(t))$.
+
+\smallskip
+
+TRUE \qquad FALSE
+
+\item For all $n\in\mathbb{N}$, $w\in S_n(231)$ if and only if $w^{-1}\in S_n(231)$.
+
+\smallskip
+
+TRUE \qquad FALSE
+
+\item If $w\in S_n$, then $\maj(w)=\inv(w)$.
+
+\smallskip
+
+TRUE \qquad FALSE
+
+\item The number of permutations in $S_n$ with major index $k$ is equal to the coefficient on $q^k$ in $[n]_q!$.
+
+\smallskip
+
+TRUE \qquad FALSE
+
+\item The number of subsets of $[n]$ of size $k$ is equal to the coefficient on $q^k$ in the expansion of $(1+q)^n$.
+
+\smallskip
+
+TRUE \qquad FALSE
+
+\item If $i<_P j$ in some labeled poset $P$, then every linear extension $w$ of $P$ satisfies $w(i) <_{\mathbb{N}} w(j)$.
+
+\smallskip
+
+TRUE \qquad FALSE
+
+\item The maximum adjacent sorting length of a permutation $w\in S_n$ is $\ds \binom{n}{2}$.
+
+\smallskip
+
+TRUE \qquad FALSE
+
+\item If $u,v\in S_n$, then there exists a permutation $w$ such that $\Inv(w)=\Inv(u)\cup \Inv(v)$.
+
+\smallskip
+
+TRUE \qquad FALSE
+
+\item If $P$ is a finite poset having unique maximal and unique minimal elements, then $P$ is a lattice.
+
+\smallskip
+
+TRUE \qquad FALSE
+
+\item For $n\geq 1$, $\displaystyle \sum_{p\in\Dyck(n)} q^{\maj(p)} =\sum_{p\in\Dyck(n)}q^{\pk(p)}$. 
+
+\smallskip
+
+TRUE \qquad FALSE
+
+\item For $1\leq k\leq n$, $\displaystyle \sum_{p\in L(k,n-k)}q^{\maj(p)}=\sum_{w\in S_n}q^{\maj(w)}$.
+
+\smallskip
+
+TRUE \qquad FALSE
+
+\item For all $n\in\mathbb{N}$, $\displaystyle \sum_{p\in\Dyck(n)}q^{\maj(p)}=\sum_{w\in S_n(231)}q^{\maj(w)}$.
+
+\smallskip
+
+TRUE \qquad FALSE
+
+\item For all $n\in\mathbb{N}$, $\displaystyle \sum_{p\in L(n,n)} q^{\area(p)} =\qbinom{2n}{n}_q$. 
+
+\smallskip
+
+TRUE \qquad FALSE
+
+%\item For $1\leq k\leq n$, $\deg\left(\qbinom{n}{k}\right)\leq \deg\left([n]_q!\right)$.
+%
+%\smallskip
+%
+%TRUE \qquad FALSE
+
+%\item $\deg\left(\qbinom{n}{k}\right)=k(n-k)$.
+%
+%\smallskip
+%
+%TRUE \qquad FALSE
+
+%\item $\displaystyle \qbinom{n}{k}=\sum_{\substack{w\in S_n \\ \Des(w)\subseteq \{k\}}} q^{\maj(w)}$. 
+%
+%\smallskip
+%
+%TRUE \qquad FALSE
+
+\item If $(P,\leq)$ is a lattice and $Q$ is a subposet of $P$ with a unique minimum value and unique maximum value, then $Q$ is also a lattice.
+
+\smallskip
+
+TRUE \qquad FALSE
+
+%\item For all $0\leq k \leq n$, $\ds a_{n,k}(1)=\binom{n}{k}$, where $a_{n,k}(q)$ is the generating function for paths in $L(k,n-k)$ according to area.
+%
+%\smallskip
+%
+%TRUE \qquad FALSE
+
+\item A \emph{clique} of a graph $G$ is defined as a subset of vertices of $G$ such that every pair of vertices in the subset is adjacent in $G$. If the maximum cardinality of a clique in $G$ is $n$, then $\rchi(G)\geq n$.
+
+\smallskip
+
+TRUE \qquad FALSE
+
+\item If $G$ is a graph consisting of connected components $G_1$ and $G_2$, then $\rchi(G)=\max\{\rchi(G_1),\rchi(G_2)\}$.
+
+\smallskip
+
+TRUE \qquad FALSE
+
+\item If $G_1$ and $G_2$ are non-isomorphic graphs, then $P(G_1;t)\neq P(G_2;t)$. 
+
+\smallskip
+
+TRUE \qquad FALSE
+
+
+\item If $G$ is a graph consisting of connected components $G_1$ and $G_2$, then $P(G;t)=P(G_1;t)P(G_2;t)$.
+
+\smallskip
+
+TRUE \qquad FALSE
+
+\item If a graph $G$ cannot be properly colored using $k$ colors, then $t-k$ is a factor of $P(G;t)$.
+
+\smallskip
+
+TRUE \qquad FALSE
+
+\item If $G=(V,E)$ is a graph, then the number of orientations of $G$ is $2^{|E|}$.
+
+\smallskip
+
+TRUE \qquad FALSE
+
+\item Every graph has at least one acyclic orientation.
+
+\smallskip
+
+TRUE \qquad FALSE
+
+\item If $G$ is a graph, then $a(G)$ equals the number of NBC sets of $G$.
+
+\smallskip
+
+TRUE \qquad FALSE
+
+\end{enumerate}
+
+(8 points) Complete \textbf{one} of the following problems.
+
+\begin{enumerate}
+
+\item Find an explicit bijection between triangulations of a convex $(n+2)$-gon and $\PB(n)$.
+
+%\item Tickets to a show are 50 cents and $2n$ customers stand in a queue at the ticket window.  Half of them have \$1 and the others have 50 cents.  The cashier starts with no money. How many arrangements of the queue are possible with the proviso that the cashier always be able to make change?
+
+\item A standard Young tableau is a two dimensional array of numbers (from 1 to the number of entries in the array) that increases across rows and down columns. Let $SYT(2, n)$ denote the number standard Young tableaux in a $2\times n$ rectangular array. Enumerate $|\SYT(2,n)|$.
+
+\item A \emph{non-nesting partition} of $[n]$ is a set partition $\pi=\{B_1,\ldots,B_k\}$ such that if $\{a,d\}\subseteq B_i$ and $\{b,c\}\subseteq B_j$ with $a<b<c<d$, then $B_i=B_j$.  For example, $\{\{1,3\},\{2,4\}\}$ is non-nesting while $\{\{1,4\},\{2,3\}\}$ is not.  Enumerate the number of non-nesting partitions of $[n]$.
+
+\end{enumerate}
+
+(8 points) Complete \textbf{one} of the following problems.
+
+\begin{enumerate}
+
+\item Recall the definition of parking function given on Part 2 of Exam 2.  A parking function $(a_1,\ldots,a_n)$ is called \emph{increasing} if $a_i\leq a_{i+1}$ for $1\leq i\leq n-1$. Count the number of increasing parking functions of length $n$.
+
+\item Let $C^{>1}_{\text{odd}}(n)$ denote the collection of compositions of $[n]$  such that each part is odd and greater than one. Find a recurrence (including necessary initial conditions) for $|C^{>1}_{\text{odd}}(n)|$.
+
+\item Show that every $w\in S_n(123)$ is the ``interweaving" (i.e., shuffle) of two decreasing sequences $a_1,a_2,\ldots, a_k$ ($a_m>a_{m+1}$) and $b_1,b_2,\ldots,b_{n-k}$ ($b_m>b_{m+1}$) (where we allow one of the sequences to be empty).
+
+\item Recall the definition of derangements and the corresponding sequence $d_n$ given on Part 1 of Exam 1. Find a closed form for the exponential generating function for $d_n$:
+\[
+D(z):=\sum_{n\geq 0}d_n\frac{z^n}{n!}.
+\]
+
+\end{enumerate}
+
+(8 points each) Complete \textbf{three} of the following problems.
+
+\begin{enumerate}
+
+\item Let $M= \{\{1^{n_1},2^{n_2},\ldots,m^{n_m}\}\}$ be a multiset on $[m]$, where we write $k^{n_k}$ to represent $n_k$ copies of $k\in[m]$. Define inversions, descents, and the major index for permutations of $M$ exactly the way we did for permutations without repetition. Let $P(M)$ denote the set of permutations of $M$. Prove that
+\[
+\sum_{w\in P(M)}q^{\inv(w)}=\sum_{w\in P(M)}q^{\maj(w)}.
+\]
+
+%\item Let $u=12\cdots k$ and $v=(k+1)(k+2)\cdots n$ for $0\leq k\leq n$ (those are permutations written in one-line notation).  How many elements are in $u\shuffle v$?  You can either find a recurrence or a closed form for your enumeration.
+
+\item For $n\geq 0$, prove that
+\[
+(1+t)(1+qt)(1+q^2t)\cdots (1+q^{n-1}t)=\sum_{k=0}^nq^{\binom{k}{2}}\qbinom{n}{k}_qt^k.
+\]
+
+\item Prove that
+\[
+\frac{1}{(1-t)(1-qt)(1-q^2t)\cdots (1-q^{n-1}t)}\sum_{k\geq 0}\qbinom{n+k-1}{k}_qt^k.
+\]
+
+\item Determine the chromatic polynomial of the cycle graph $C_n$.
+
+\item For a graph $G=(V,E)$, a subset of vertices $A\subseteq V$ is called \emph{independent} if no two vertices in $A$ are adjacent. Let $p_k(G)$ be the number of partitions of the vertices of $G$ into $k$ independent sets. Prove that
+\[
+P(G;t)=\sum_{k=1}^{|V|}p_k(G)\binom{t}{k}k!=\sum_{k=1}^{|V|}p_k(G)t(t-1)\cdots (t-k+1).
+\]
+
+\item Prove that for a fixed edge $e$ in a graph $G$, $a(G)=a(G\setminus e)+a(G/e)$.
+
+\item Prove that if $P$ and $Q$ be locally finite posets with unique minimal elements $\hat{0}_P$ and $\hat{0}_Q$, respectively, then for all $p\in P$ and $q\in Q$, we have $\mu_{P\times Q}(p,q)=\mu_P(p)\mu_Q(q)$.
+
+\item Let $B_n$ denote the poset $(\mathcal{P}([n],\subseteq)$.  Compute the characteristic polynomial of $B_n$.
+
+\item If $P$ and $Q$ are finite ranked posets, prove that the characteristic polynomial of $P\times Q$ satisfies $\rchi(P\times Q)=\rchi(P)\rchi(Q)$.
+
+\end{enumerate}
+
+\end{enumerate}
+
+\end{document}

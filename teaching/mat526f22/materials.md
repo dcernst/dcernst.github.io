@@ -38,6 +38,7 @@ Below are links to the take-home portions of each exam. If you are interested in
 
 - [Exam 1 (Part 2)]({{site.baseurl}}/teaching/mat526f22/526Exam1-Part2.pdf) (PDF). (Due by 3:00PM on Friday, October 14)
 - [Exam 2 (Part 2)]({{site.baseurl}}/teaching/mat526f22/526Exam2-Part2.pdf) (PDF). (Due by class time on Wednesday, November 30)
+- [Final Exam]({{site.baseurl}}/teaching/mat526f22/526ExamFinal.pdf) (PDF). (Due by 5:00PM Thursday, December 15)
 
 ## Miscellaneous Materials ##
 - [Setting the Stage]({{ site.baseurl }}/teaching/SettingTheStage.pdf) (PDF)
