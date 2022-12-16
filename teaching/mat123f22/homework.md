@@ -111,7 +111,7 @@ These assignments are a sort of "choose your own adventure".  Each Flexible Assi
 - Attend an athletic event on campus.  To get credit for this, you need to submit a picture of yourself at the event. The picture needs to make it clear what the event is. (25 points)
 - Use the Internet to learn about the Millennium Prize Problems.  Which problems have been solved? What are the remaining unsolved problems?  Pick one of the unsolved problems and attempt to write a 1-2 page typed summary. (75 points)
 - Use the Internet to learn about the Fields Medal.  What is a Fields Medal? How does one get selected for a Fields Medal?  Is there anyone that has ever refused to receive their Fields Medal after being selected? Choose 1-2 recent Fields Medal recipients and write a 1-2 page typed summary of their life and work. (75 points)
-- Attend the [Math Achievement Program](https://in.nau.edu/academic-success-centers/math-achievement-program/) ("MAP room")for help with MAT 121, MAT 136, MAT 137, MAT 238, or STA 270. (50 points)
+- Attend the [Math Achievement Program](https://in.nau.edu/academic-success-centers/math-achievement-program/) ("MAP room") for help with MAT 121, MAT 136, MAT 137, MAT 238, or STA 270. (50 points)
 - Attend one of the Math Achievement Program's (MAP) review sessions for MAT 121, MAT 136, or MAT 137. (50 points)
 - Attend either a supplemental instruction session or drop-in tutoring at one of the [Academic Success Centers](https://in.nau.edu/academic-success-centers/) (ASC). (50 points)
 - Take a picture of yourself in the aspens and post to Discord. (25 points)
