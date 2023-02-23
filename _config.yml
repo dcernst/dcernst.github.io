@@ -24,7 +24,8 @@ github:
   repo: github.com/dcernst/dcernst.github.io
 
 # Feed Stuff
-gems:
+# gems:
+plugins:
   - jekyll-feed
   - jekyll-paginate
   - jekyll-seo-tag
