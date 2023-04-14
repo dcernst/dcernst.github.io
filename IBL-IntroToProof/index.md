@@ -24,7 +24,7 @@ The first draft of the book was written in 2009. At that time, several of the se
 - [PDF of textbook compiled from the current source]({{ site.baseurl }}/IBL-IntroToProof/IBLIntroToProof-current.pdf) (Updated April 7, 2023)
 - [Print version available via AMS/MAA Press](https://bookstore.ams.org/text-73/)
 - [Instructor Manual]({{ site.baseurl }}/IBL-IntroToProof/InstructorGuide.pdf) (Draft: Updated February 23, 2023; Chapters 8 and 9 coming soon!)
-- [Errata]({{ site.baseurl }}/IBL-IntroToProof/Errata.pdf) (Updated April 7, 2023)
+- [Errata]({{ site.baseurl }}/IBL-IntroToProof/Errata.pdf) (Updated April 14, 2023)
 - [Source code available via GitHub](https://github.com/dcernst/IBL-IntroToProof)
 - [Book review in MAA Focus](http://digitaleditions.walsworthprintgroup.com/publication/?i=754974&p=42&view=issueViewer)
 
@@ -131,7 +131,7 @@ Several instructors and students have provided extremely useful feedback, which 
 - [Rebecca Jayne](http://www.hsc.edu/rebecca-jayne) (Hampden-Sydney College). The current version of Section 4.3: Complete Induction is a derivative of content originally contributed by Rebecca.
 - [Matthew Jones](https://www.linkedin.com/in/matt-jones-a704aab/) (CSU Dominguez Hills) and [Stan Yoshinobu](http://www.stanyoshinobu.com) (University of Toronto). A few of the sections were originally adaptations of notes written by Matt and Stan. Early versions of this textbook relied heavily on their work. Moreover, Matt and Stan were two of the key players that contributed to shaping my approach to teaching.
 - [David Richeson](https://divisbyzero.com) (Dickinson College). David is responsible for much of the content in Appendix B: Fancy Mathematical Terms, Appendix C: Paradoxes, and Appendix D: Definitions in Mathematics. In addition, the current version of Chapter 6: Three Famous Theorems is heavily based on content contributed by David.
-- [Carol Schumacher](http://www2.kenyon.edu/Depts/Math/schumacherc/public_html/) (Kenyon College). When I was transitioning to an IBL approach to teaching, Carol was one of my mentors and played a significant role in my development as a teacher.  Moreover, this work is undoubtably influenced my Carol's excellent book *Chapter Zero: Fundamental Notions of Advanced Mathematics*, which I used when teaching my very first IBL course.
+- [Carol Schumacher](http://www2.kenyon.edu/Depts/Math/schumacherc/public_html/) (Kenyon College). When I was transitioning to an IBL approach to teaching, Carol was one of my mentors and played a significant role in my development as a teacher.  Moreover, this work is undoubtedly influenced my Carol's excellent book *Chapter Zero: Fundamental Notions of Advanced Mathematics*, which I used when teaching my very first IBL course.
 - [Josh Wiscons](http://webpages.csus.edu/wiscons/) (CSU Sacramento). The current version of Section 7.4: Modular Arithmetic is a derivative of content contributed by Josh.
 
 <img src="{{ site.baseurl }}/IBL-IntroToProof/IBLIntroToProofFrontBack.jpeg" class="img-responsive img-rounded" img style="margin-bottom: 10px" img style="margin-top: 10px" />
