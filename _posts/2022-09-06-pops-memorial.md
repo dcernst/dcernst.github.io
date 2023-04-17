@@ -9,7 +9,7 @@ tags:
 
 Here’s the text that I read at my pops’ memorial this weekend: Coach, teacher, friend, husband, pops, Grandpa Bert.  Pop Tart.
 
-<p><img src="{{ site.baseurl }}/IBL-IntroToProof/PopsMemorial.jpeg" align="left" width="110" img style="margin: 4px 15px 0 0"/>I also gave my dad the nickname “Fran”, which was short for “Frantic”.  I rarely saw my pops being nervous, but when he was it was usually because he was worried about those he cared about. Perhaps this isn’t surprising given that he lost my brother to leukemia.  But I definitely took every opportunity to tease him about being “Fran” and he took it in stride.</p>
+<p><img src="{{ site.baseurl }}/images/PopsMemorial.jpeg" align="left" width="115" img style="margin: 4px 15px 0 0"/>I also gave my dad the nickname “Fran”, which was short for “Frantic”.  I rarely saw my pops being nervous, but when he was it was usually because he was worried about those he cared about. Perhaps this isn’t surprising given that he lost my brother to leukemia.  But I definitely took every opportunity to tease him about being “Fran” and he took it in stride.</p>
 
 My pops taught me how to cry. I’ll get lots of practice today.  I’ve heard people say things like, “tough men don’t cry.”  That sure as shit wasn’t my experience!  My pops was tough and he cried.
 
