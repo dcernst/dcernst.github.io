@@ -24,7 +24,7 @@ You can find a recent version of my curriculum vitae [here]({{site.baseurl}}/sch
   * F. Awik, H. Denoncourt, D.C. Ernst, and T. Rosenberg. The reversal poset of signed permutations.
   * F. Burkhart, H. Denoncourt, D.C. Ernst, and A. Stewart. Enumeration of signed permutations under the action of reversals.
   * J. Barnes, J. Breland, D.C. Ernst. Structural properties of braid graphs in simply-laced triangle-free Coxeter systems.
-  * B. Basi&cacute;, P. Ellis, D.C. Ernst, D. Popovi&cacute;, N. Sieben. Morphisms of impartial combinatorial games.
+  * B. Ba&#353;i&cacute;, P. Ellis, D.C. Ernst, D. Popovi&cacute;, N. Sieben. Morphisms of impartial combinatorial games.
 
   <!-- * J. Breland, Q. Cadman, D.C. Ernst, J. Niemi, J. Sullivan, and J. Wright. Structure of braid graphs for reduced words in simply-laced Coxeter systems. -->
 
