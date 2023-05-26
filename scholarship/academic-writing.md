@@ -11,7 +11,7 @@ layout: default
 </ol>
 
 <!-- <img src="{{ site.baseurl }}/images/2012/02/TypeDHeap.png" align="left" width="100" img style="margin-right: 15px"/> -->
-My primary research interests are in the interplay between combinatorics and algebraic structures. More specifically, I study the combinatorics of [Coxeter groups](http://en.wikipedia.org/wiki/Coxeter_group) and their associated [Hecke algebras](http://en.wikipedia.org/wiki/Hecke_algebra), [Kazhdan-Lusztig theory](http://en.wikipedia.org/wiki/Kazhdan%E2%80%93Lusztig_polynomial), generalized [Temperley-Lieb algebras](http://en.wikipedia.org/wiki/Temperley-Lieb_algebra), [diagram algebras](http://en.wikipedia.org/wiki/Planar_algebra), and [heaps of pieces](https://www.mat.univie.ac.at/~kratt/artikel/heaps.pdf). By employing combinatorial tools such as diagram algebras and heaps of pieces, one can gain insight into algebraic structures associated to Coxeter groups, and, conversely, the corresponding structure theory can often lead to surprising combinatorial results. More recently, my research has expanded into [combinatorial game theory](https://en.wikipedia.org/wiki/Combinatorial_game_theory) (joint with [Nandor Sieben](http://jan.ucc.nau.edu/ns46/) and [Bret Benesh](http://www.users.csbsju.edu/~bbenesh/)). In particular, our research has focused on avoidance and achievement games involving finite groups.
+My primary research interests are in the interplay between combinatorics and algebraic structures. More specifically, I study the combinatorics of [Coxeter groups](http://en.wikipedia.org/wiki/Coxeter_group) and their associated [Hecke algebras](http://en.wikipedia.org/wiki/Hecke_algebra), [Kazhdan-Lusztig theory](http://en.wikipedia.org/wiki/Kazhdan%E2%80%93Lusztig_polynomial), generalized [Temperley-Lieb algebras](http://en.wikipedia.org/wiki/Temperley-Lieb_algebra), [diagram algebras](http://en.wikipedia.org/wiki/Planar_algebra), and [heaps of pieces](https://www.mat.univie.ac.at/~kratt/artikel/heaps.pdf). By employing combinatorial tools such as diagram algebras and heaps of pieces, one can gain insight into algebraic structures associated to Coxeter groups, and, conversely, the corresponding structure theory can often lead to surprising combinatorial results. More recently, my research has expanded into [combinatorial game theory](https://en.wikipedia.org/wiki/Combinatorial_game_theory).
 
 The combinatorial nature of my research naturally lends itself to collaborations with undergraduate students, and my goal is to incorporate undergraduates in my research as much as possible.
 
@@ -20,17 +20,20 @@ My interests also include the [scholarship of teaching and learning](http://en.w
 You can find a recent version of my curriculum vitae [here]({{site.baseurl}}/scholarship/CV-Ernst.pdf).
 
 ## In Preparation
-  * B.J. Benesh, D.C. Ernst, M. Meyer, S.K. Salmon, and N. Sieben. Impartial geodetic achievement and avoidance games on graphs.
-  * J. Breland, Q. Cadman, D.C. Ernst, J. Niemi, J. Sullivan, and J. Wright. Structure of braid graphs for reduced words in simply-laced Coxeter systems.
+  * B.J. Benesh, D.C. Ernst, M. Meyer, S.K. Salmon, and N. Sieben. Impartial geodetic convexity achievement and avoidance games on graphs.
   * F. Awik, H. Denoncourt, D.C. Ernst, and T. Rosenberg. The reversal poset of signed permutations.
   * F. Burkhart, H. Denoncourt, D.C. Ernst, and A. Stewart. Enumeration of signed permutations under the action of reversals.
   * J. Barnes, J. Breland, D.C. Ernst. Structural properties of braid graphs in simply-laced triangle-free Coxeter systems.
+  * B. Ba√si´c, P. Ellis, D.C. Ernst, D. Popovi´c N. Sieben. Morphisms of impartial combinatorial games.
+
+  <!-- * J. Breland, Q. Cadman, D.C. Ernst, J. Niemi, J. Sullivan, and J. Wright. Structure of braid graphs for reduced words in simply-laced Coxeter systems. -->
 
 ## Submitted
+  * S. Laursen, D.C. Ernst, T.J. Hitchman, M.G. Jones, S. Yoshinobu, D. Ensley. Turtles all the way down: The infinite progression of professional development.
   * F. Awik, J. Breland, Q.Cadman, and D.C. Ernst. Braid graphs in simply-laced triangle-free Coxeter systems are partial cubes. [[arXiv:2104.12318](https://arxiv.org/abs/2104.12318)]
-  * B.J. Benesh, D.C. Ernst, and N. Sieben. The spectrum of nim-values for achievement games for generating finite groups. [[arXiv:2004.08980](https://arxiv.org/abs/2004.08980)]
 
 ## Journal Articles
+  * B.J. Benesh, D.C. Ernst, and N. Sieben. The spectrum of nim-values for achievement games for generating finite groups. Accepted to *INTEGERS*. [[arXiv:2004.08980](https://arxiv.org/abs/2004.08980)]
   * B.J. Benesh, D.C. Ernst, and N. Sieben. Impartial achievement games for generating nilpotent groups. *J. Group Theory* 22(3), 515–527, 2019. [[arXiv:1805.01409](https://arxiv.org/abs/1805.01409)] [[DOI:10.1515/s00182-017-0602-x](https://doi.org/10.1515/jgth-2018-0117)]
   * D.C. Ernst. Diagram calculus for a type affine *C* Temperley-Lieb algebra, II. *J. Pure Appl. Alg.* 222(12), 3795-3830, 2018. [[arXiv:1101.4215](http://arxiv.org/abs/1101.4215)] [[DOI:10.1016/j.jpaa.2018.02.008](https://doi.org/10.1016/j.jpaa.2018.02.008)]
   * D.C. Ernst and N. Sieben. Impartial achievement and avoidance games for generating finite groups. *Int. J. Game Theory* 47(2), 509-542, 2018. [[arXiv:1407.0784](http://arxiv.org/abs/1407.0784)] [[DOI:10.1007/s00182-017-0602-x](https://doi.org/10.1007/s00182-017-0602-x)]
