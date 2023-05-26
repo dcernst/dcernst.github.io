@@ -24,7 +24,7 @@ You can find a recent version of my curriculum vitae [here]({{site.baseurl}}/sch
   * F. Awik, H. Denoncourt, D.C. Ernst, and T. Rosenberg. The reversal poset of signed permutations.
   * F. Burkhart, H. Denoncourt, D.C. Ernst, and A. Stewart. Enumeration of signed permutations under the action of reversals.
   * J. Barnes, J. Breland, D.C. Ernst. Structural properties of braid graphs in simply-laced triangle-free Coxeter systems.
-  * B. Ba√si´c, P. Ellis, D.C. Ernst, D. Popovi´c N. Sieben. Morphisms of impartial combinatorial games.
+  * B. Basi&cacute;, P. Ellis, D.C. Ernst, D. Popovi&cacute;, N. Sieben. Morphisms of impartial combinatorial games.
 
   <!-- * J. Breland, Q. Cadman, D.C. Ernst, J. Niemi, J. Sullivan, and J. Wright. Structure of braid graphs for reduced words in simply-laced Coxeter systems. -->
 
@@ -97,7 +97,11 @@ From Spring 2013 through Spring 2016, I was co-editor and author for [Math Ed Ma
   * D.C. Ernst. A diagrammatic representation of an affine *C* Temperley-Lieb algebra, PhD Thesis, University of Colorado, 2008. [[arXiv:0905.4457](http://arxiv.org/abs/0905.4457)]
   * D.C. Ernst. Cell Complexes for Arrangements with Group Actions, MS Thesis, Northern Arizona University, 2000. [[arXiv:0905.4434](http://arxiv.org/abs/0905.4434)]
 
-## Miscellaneous
+## Cycling Related
+  * Strangely Alive? Arizona's extreme endurance races. *More Than a Game*. [Podcast](https://radio.azpm.org/p/morethanagame2/2023/5/24/216122-strangely-alive-arizonas-extreme-endurance-races/?fbclid=PAAaYFdnuSoABCtbFFO0HwVfpviGyPz7au1SdqlRf80wPKVGLw_4oddZC9znc_aem_th_ARl1DppoJ2qaYd0XAe8XbbsXBhZZ6_R1t9fex0LSiC6yCzCy6R7T7rokOBoE4kLbS0A)
+  * Jesse Reeves and Dana Ernst on Winning the Stagecoach 400 Ultra Bikepacking Race. *Stoke Podcast*. [Podcast](https://podcasters.spotify.com/pod/show/stokepodcast/episodes/Jesse-Reeves-and-Dana-Ernst-on-Winning-the-Stagecoach-400-Ultra-Bike-Packing-Race--Riding-Solo-to-Riding-Together--and-When-the-Bad-Moments-Hit-e22hojh) [YouTube](https://podcasters.spotify.com/pod/show/stokepodcast/episodes/Jesse-Reeves-and-Dana-Ernst-on-Winning-the-Stagecoach-400-Ultra-Bike-Packing-Race--Riding-Solo-to-Riding-Together--and-When-the-Bad-Moments-Hit-e22hojh)
+  * Rekt: An interview with Dana Ernst, the Stagecoach 400 Ultra Endurance Bikepacking Event Co-Winner. *The Seasoned Bikepaker*. [YouTube](https://www.youtube.com/watch?v=QLHAEaGzAVs&t=9s)
+  * Dana Ernst and the Verde Valley Randonnee. *Stoke Podcast*. [Podcast](https://podcasters.spotify.com/pod/show/stokepodcast/episodes/Dana-Ernst-and-the-Verde-Valley-Randonnee-Bike-Packing-Adventure-e1qethg) [YouTube](https://www.youtube.com/watch?v=AQmTO_v9nys&t=948s)
   * D.C. Ernst. 2019 Pinyons and Pines: Event Recap. *Bikepacking.com*. August 2019. [[Article](https://bikepacking.com/news/2019-pinyons-pines-event-recap/)]
   * D.C. Ernst. Dana's AZT, Part 1. *Bedrock Bags Blog*. June 2018. [[Blog Post](https://www.bedrockbags.com/blog/2018/6/19/danas-azt-part-1)]
   * D.C. Ernst. Dana's AZT, Part 2. *Bedrock Bags Blog*. July 2018. [[Blog Post](https://www.bedrockbags.com/blog/2018/6/19/danas-azt-part-2)]
