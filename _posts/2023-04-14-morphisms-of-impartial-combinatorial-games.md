@@ -1,8 +1,8 @@
 ---
-title: Talk in Virtual Combinatorial Game Theory Seminar
+title: Morphisms of impartial combinatorial games (Talk)
 author: Dana Ernst
 layout: post
-permalink: /Virtual-Combinatorial-Game-Theory-Seminar/
+permalink: /morphisms-of-impartial-combinatorial-games/
 categories:
   - talks
 tags:
@@ -21,5 +21,3 @@ The title of my talk was *Morphisms of impartial combinatorial games* and here i
 And here are the slides:
 
 <iframe class="speakerdeck-iframe" frameborder="0" src="https://speakerdeck.com/player/ea5ea7fbeebb4cf4a29f28a2502e2cc5" title="Morphisms of impartial combinatorial games" allowfullscreen="true" style="border: 0px; background: padding-box rgba(0, 0, 0, 0.1); margin: 0px; padding: 0px; border-radius: 6px; box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 40px; width: 100%; height: auto; aspect-ratio: 560 / 420;" data-ratio="1.3333333333333333"></iframe>
-
-<script defer class="speakerdeck-embed" data-id="ea5ea7fbeebb4cf4a29f28a2502e2cc5" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
