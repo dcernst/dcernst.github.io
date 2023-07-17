@@ -10,6 +10,10 @@ layout: default
   <li class="active">{{ page.title }}</li>
 </ol>
 
+<div style="display:none">
+  $\newcommand{\Sprin}{\mathop{\rm Spin}\nolimits}$
+</div>
+
 <!-- <img src="{{ site.baseurl }}/images/2012/02/TypeDHeap.png" align="left" width="100" img style="margin-right: 15px"/> -->
 My primary research interests are in the interplay between combinatorics and algebraic structures. More specifically, I study the combinatorics of [Coxeter groups](http://en.wikipedia.org/wiki/Coxeter_group) and their associated [Hecke algebras](http://en.wikipedia.org/wiki/Hecke_algebra), [Kazhdan-Lusztig theory](http://en.wikipedia.org/wiki/Kazhdan%E2%80%93Lusztig_polynomial), generalized [Temperley-Lieb algebras](http://en.wikipedia.org/wiki/Temperley-Lieb_algebra), [diagram algebras](http://en.wikipedia.org/wiki/Planar_algebra), and [heaps of pieces](https://www.mat.univie.ac.at/~kratt/artikel/heaps.pdf). By employing combinatorial tools such as diagram algebras and heaps of pieces, one can gain insight into algebraic structures associated to Coxeter groups, and, conversely, the corresponding structure theory can often lead to surprising combinatorial results. More recently, my research has expanded into [combinatorial game theory](https://en.wikipedia.org/wiki/Combinatorial_game_theory).
 
@@ -28,7 +32,8 @@ You can find a recent version of my curriculum vitae [here]({{site.baseurl}}/sch
   <!-- * J. Breland, Q. Cadman, D.C. Ernst, J. Niemi, J. Sullivan, and J. Wright. Structure of braid graphs for reduced words in simply-laced Coxeter systems. -->
 
 ## Submitted
-  * B.J. Benesh, D.C. Ernst, M. Meyer, S.K. Salmon, and N. Sieben. Impartial geodetic building games on graphs.
+  * D.C. Ernst, J. Slye. Using the $\Spin_{3\times 3}$ virtual manipulative to introduce group theory.
+  * B.J. Benesh, D.C. Ernst, M. Meyer, S.K. Salmon, and N. Sieben. Impartial geodetic building games on graphs. [[arXiv:2307.07095](https://arxiv.org/abs/2307.07095)]
   * S. Laursen, D.C. Ernst, T.J. Hitchman, M.G. Jones, S. Yoshinobu, D. Ensley. Turtles all the way down: The infinite progression of professional development.
   * F. Awik, J. Breland, Q.Cadman, and D.C. Ernst. Braid graphs in simply-laced triangle-free Coxeter systems are partial cubes. [[arXiv:2104.12318](https://arxiv.org/abs/2104.12318)]
 
