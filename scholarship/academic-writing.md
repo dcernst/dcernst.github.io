@@ -11,7 +11,7 @@ layout: default
 </ol>
 
 <div style="display:none">
-  $\newcommand{\Sprin}{\mathop{\rm Spin}\nolimits}$
+  $\newcommand{\Spin}{\mathop{\rm Spin}\nolimits}$
 </div>
 
 <!-- <img src="{{ site.baseurl }}/images/2012/02/TypeDHeap.png" align="left" width="100" img style="margin-right: 15px"/> -->
