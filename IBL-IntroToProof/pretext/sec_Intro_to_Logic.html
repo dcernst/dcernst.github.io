@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<!--********************************************-->
+<!--*       Generated from PreTeXt source      *-->
+<!--*                                          *-->
+<!--*         https://pretextbook.org          *-->
+<!--*                                          *-->
+<!--********************************************-->
+<html lang="en-US" dir="ltr">
+<head xmlns:og="http://ogp.me/ns#" xmlns:book="https://ogp.me/ns/book#">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Introduction to Logic</title>
+<meta name="Keywords" content="Authored in PreTeXt">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:type" content="book">
+<meta property="book:title" content="An Introduction to Proof via Inquiry-Based Learning">
+<meta property="book:author" content="Dana C. Ernst, PhD">
+<script>
+var runestoneMathReady = new Promise((resolve) => window.rsMathReady = resolve);
+window.MathJax = {
+  "tex": {
+    "inlineMath": [
+      [
+        "\\(",
+        "\\)"
+      ]
+    ],
+    "tags": "none",
+    "tagSide": "right",
+    "tagIndent": ".8em",
+    "packages": {
+      "[+]": [
+        "base",
+        "extpfeil",
+        "ams",
+        "amscd",
+        "color",
+        "newcommand",
+        "knowl"
+      ]
+    }
+  },
+  "options": {
+    "ignoreHtmlClass": "tex2jax_ignore|ignore-math",
+    "processHtmlClass": "process-math"
+  },
+  "chtml": {
+    "scale": 0.98,
+    "mtextInheritFont": true
+  },
+  "loader": {
+    "load": [
+      "input/asciimath",
+      "[tex]/extpfeil",
+      "[tex]/amscd",
+      "[tex]/color",
+      "[tex]/newcommand",
+      "[pretext]/mathjaxknowl3.js"
+    ],
+    "paths": {
+      "pretext": "https://pretextbook.org/js/lib"
+    }
+  },
+  "startup": {
+    pageReady() {
+      return MathJax.startup.defaultPageReady().then(function () {
+      console.log("in ready function");
+      rsMathReady();
+      }
+    )}
+  }
+};
+</script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="https://pretextbook.org/js/0.3/pretext_search.js"></script><link href="https://pretextbook.org/css/0.7/pretext_search.css" rel="stylesheet" type="text/css">
+<script>js_version = 0.3</script><script src="https://pretextbook.org/js/lib/jquery.min.js"></script><script src="https://pretextbook.org/js/lib/jquery.sticky.js"></script><script src="https://pretextbook.org/js/lib/jquery.espy.min.js"></script><script src="https://pretextbook.org/js/0.3/pretext.js"></script><script>miniversion=0.1</script><script src="https://pretextbook.org/js/0.3/pretext_add_on.js?x=1"></script><script src="https://pretextbook.org/js/0.3/user_preferences.js"></script><script src="https://pretextbook.org/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
+</script><link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&amp;family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&amp;family=Tinos:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.cdnfonts.com/css/dejavu-serif" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz,wdth,wght@8..144,50..150,100..900&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wdth,wght@75..100,300..800&amp;display=swap" rel="stylesheet">
+<link href="https://pretextbook.org/css/0.7/pretext.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.7/pretext_add_on.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.7/shell_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.7/banner_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.7/navbar_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.7/toc_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.7/knowls_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.7/style_oscarlevin.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.7/colors_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.7/setcolors.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" href="external/custom-styles.css">
+</head>
+<body class="pretext book ignore-math">
+<a class="assistive" href="#ptx-content">Skip to main content</a><header id="ptx-masthead" class="ptx-masthead"><div class="ptx-banner">
+<a id="logo-link" class="logo-link" href=""></a><div class="title-container">
+<h1 class="heading"><a href="book-1.html"><span class="title">An Introduction to Proof via Inquiry-Based Learning</span></a></h1>
+<p class="byline">Dana C. Ernst, PhD</p>
+</div>
+<div id="searchresultsplaceholder" class="searchresultsplaceholder" style="display: none">
+<button id="closesearchresults" class="closesearchresults" onclick="document.getElementById('searchresultsplaceholder').style.display = 'none'; return false;">x</button><h2>Search Results: <span id="searchterms" class="searchterms"></span>
+</h2>
+<div id="searchempty" class="searchempty"><span>No results.</span></div>
+<ol id="searchresults" class="searchresults"></ol>
+</div>
+</div></header><nav id="ptx-navbar" class="ptx-navbar navbar"><button class="toc-toggle button" aria-label="Show or hide table of contents"><span class="icon">☰</span><span class="name">Contents</span></button><button id="user-preferences-button" class="user-preferences-button button" title="Modify user preferences"><span id="avatarbutton" class="avatarbutton name">You!</span><div id="preferences_menu_holder" class="preferences_menu_holder hidden"><ol id="preferences_menu" class="preferences_menu" style="font-family: 'Roboto Serif', serif;">
+<li data-env="avatar" tabindex="-1">Choose avatar<div class="wrap_to_submenu"><span class="to_submenu">▻</span></div>
+<ol class="hidden avatar">
+<li data-val="You!" tabindex="-1">
+<span id="theYou!" class="avatarcheck">✔️</span>You!</li>
+<li data-val="😺" tabindex="-1">
+<span id="the😺" class="avatarcheck"></span>😺</li>
+<li data-val="👤" tabindex="-1">
+<span id="the👤" class="avatarcheck"></span>👤</li>
+<li data-val="👽" tabindex="-1">
+<span id="the👽" class="avatarcheck"></span>👽</li>
+<li data-val="🐶" tabindex="-1">
+<span id="the🐶" class="avatarcheck"></span>🐶</li>
+<li data-val="🐼" tabindex="-1">
+<span id="the🐼" class="avatarcheck"></span>🐼</li>
+<li data-val="🌈" tabindex="-1">
+<span id="the🌈" class="avatarcheck"></span>🌈</li>
+</ol>
+</li>
+<li data-env="fontfamily" tabindex="-1">Font family<div class="wrap_to_submenu"><span class="to_submenu">▻</span></div>
+<ol class="hidden fontfamily">
+<li data-val="face" data-change="OS" tabindex="-1" style="font-family: 'Open Sans'">
+<span id="theOS" class="ffcheck">✔️</span><span class="name">Open Sans</span><span class="sample">AaBbCc 123 PreTeXt</span>
+</li>
+<li data-val="face" data-change="RS" tabindex="-1" style="font-family: 'Roboto Serif'">
+<span id="theRS" class="ffcheck"></span><span class="name">Roboto Serif</span><span class="sample">AaBbCc 123 PreTeXt</span>
+</li>
+</ol>
+</li>
+<li data-env="font" tabindex="-1">Adjust font<div class="wrap_to_submenu"><span class="to_submenu">▻</span></div>
+<ol class="hidden fonts">
+<li>Size</li>
+<li><span id="thesize">12</span></li>
+<li data-val="size" data-change="-1" tabindex="-1" style="font-size: 80%">Smaller</li>
+<li data-val="size" data-change="1" tabindex="-1" style="font-size: 110%">Larger</li>
+<li>Width</li>
+<li><span id="thewdth">100</span></li>
+<li data-val="wdth" data-change="-5" tabindex="-1" style="font-variation-settings: 'wdth' 60">narrower</li>
+<li data-val="wdth" data-change="5" tabindex="-1" style="font-variation-settings: 'wdth' 150">wider</li>
+<li>Weight</li>
+<li><span id="thewght">400</span></li>
+<li data-val="wght" data-change="-50" tabindex="-1" style="font-weight: 200">thinner</li>
+<li data-val="wght" data-change="50" tabindex="-1" style="font-weight: 700">heavier</li>
+<li>Letter spacing</li>
+<li>
+<span id="thelspace">0</span><span class="byunits">/200</span>
+</li>
+<li data-val="lspace" data-change="-1" tabindex="-1">closer</li>
+<li data-val="lspace" data-change="1" tabindex="-1">f a r t h e r</li>
+<li>Word spacing</li>
+<li>
+<span id="thewspace">0</span><span class="byunits">/50</span>
+</li>
+<li data-val="wspace" data-change="-1" tabindex="-1">smaller gap </li>
+<li data-val="wspace" data-change="1" tabindex="-1">larger gap</li>
+<li>Line Spacing</li>
+<li>
+<span id="theheight">135</span><span class="byunits">/100</span>
+</li>
+<li data-val="height" data-change="-5" tabindex="-1" style="line-height: 1">closer<br>together</li>
+<li data-val="height" data-change="5" tabindex="-1" style="line-height: 1.75">further<br>apart</li>
+</ol>
+</li>
+<li data-env="atmosphere" tabindex="-1">Light/dark mode<div class="wrap_to_submenu"><span class="to_submenu">▻</span></div>
+<ol class="hidden atmosphere">
+<li data-val="default" tabindex="-1">
+<span id="thedefault" class="atmospherecheck">✔️</span>default</li>
+<li data-val="pastel" tabindex="-1">
+<span id="thepastel" class="atmospherecheck"></span>pastel</li>
+<li data-val="darktwilight" tabindex="-1">
+<span id="thedarktwilight" class="atmospherecheck"></span>twilight</li>
+<li data-val="dark" tabindex="-1">
+<span id="thedark" class="atmospherecheck"></span>dark</li>
+<li data-val="darkmidnight" tabindex="-1">
+<span id="thedarkmidnight" class="atmospherecheck"></span>midnight</li>
+</ol>
+</li>
+<li data-env="ruler" tabindex="-1">Reading ruler<div class="wrap_to_submenu"><span class="to_submenu">▻</span></div>
+<ol class="hidden ruler">
+<li data-val="none" tabindex="-1">
+<span id="thenone" class="rulercheck">✔️</span>none</li>
+<li data-val="underline" tabindex="-1">
+<span id="theunderline" class="rulercheck"></span>underline</li>
+<li data-val="lunderline" tabindex="-1">
+<span id="thelunderline" class="rulercheck"></span>L-underline</li>
+<li data-val="greybar" tabindex="-1">
+<span id="thegreybar" class="rulercheck"></span>grey bar</li>
+<li data-val="lightbox" tabindex="-1">
+<span id="thelightbox" class="rulercheck"></span>light box</li>
+<li data-val="sunrise" tabindex="-1">
+<span id="thesunrise" class="rulercheck"></span>sunrise</li>
+<li data-val="sunriseunderline" tabindex="-1">
+<span id="thesunriseunderline" class="rulercheck"></span>sunrise underline</li>
+<li class="moveQ">Motion by:</li>
+<li data-val="mouse" tabindex="-1">
+<span id="themouse" class="motioncheck">✔️</span>follow the mouse</li>
+<li data-val="arrow" tabindex="-1">
+<span id="thearrow" class="motioncheck"></span>up/down arrows - not yet</li>
+<li data-val="eye" tabindex="-1">
+<span id="theeye" class="motioncheck"></span>eye tracking - not yet</li>
+</ol>
+</li>
+</ol></div></button><span class="treebuttons"><a class="previous-button button" href="sec_baby_number_theory.html" title="Previous"><span class="icon">&lt;</span><span class="name">Prev</span></a><a class="up-button button" href="chap_IntroToMath.html" title="Up"><span class="icon">^</span><span class="name">Up</span></a><a class="next-button button" href="sec_Techniques_for_Proving_Conditional_Propositions.html" title="Next"><span class="name">Next</span><span class="icon">&gt;</span></a></span><div class="searchbox"><div class="searchwidget">
+<input id="ptxsearch" class="ptxsearch" type="text" name="terms" placeholder="Search" onchange="doSearch()"><button id="searchbutton" class="searchbutton" type="button" onclick="doSearch()">🔍</button>
+</div></div></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\newcommand{\dom}{\operatorname{Dom}}
+\newcommand{\codom}{\operatorname{Codom}}
+\newcommand{\range}{\operatorname{Rng}}
+\newcommand{\lcm}{\operatorname{lcm}}
+\newcommand{\card}{\operatorname{card}}
+\newcommand{\rel}{\operatorname{rel}}
+\newcommand{\Rel}{\operatorname{Rel}}
+\newcommand{\logeq}{\Longleftrightarrow}
+\renewcommand{\implies}{\Longrightarrow}
+
+\def\tcboxmath{}
+\def\coloneqq{:=}
+\newcommand{\lt}{&lt;}
+\newcommand{\gt}{&gt;}
+\newcommand{\amp}{&amp;}
+\definecolor{fillinmathshade}{gray}{0.9}
+\newcommand{\fillinmath}[1]{\mathchoice{\colorbox{fillinmathshade}{$\displaystyle     \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\textstyle        \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptstyle      \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptscriptstyle\phantom{\,#1\,}$}}}
+\)</span></div>
+<div class="ptx-page">
+<div id="ptx-sidebar" class="ptx-sidebar"><nav id="ptx-toc" class="ptx-toc depth2"><ul class="structural">
+<li>
+<div class="toc-item"><a href="frontmatter-1.html" class="internal"><span class="title">Front Matter</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="colophon.html" class="internal"><span class="title">Colophon</span></a></div></li>
+<li><div class="toc-item"><a href="chap_preface.html" class="internal"><span class="title">Preface</span></a></div></li>
+<li><div class="toc-item"><a href="chap_acknowledgements.html" class="internal"><span class="title">Acknowledgements</span></a></div></li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="chap_intro.html" class="internal"><span class="codenumber">1</span> <span class="title">Introduction</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="sec_WhatIsThisBookAllAbout.html" class="internal"><span class="codenumber">1.1</span> <span class="title">What is This Book All About?</span></a></div></li>
+<li><div class="toc-item"><a href="sec_what_should_you_expect.html" class="internal"><span class="codenumber">1.2</span> <span class="title">What Should You Expect?</span></a></div></li>
+<li><div class="toc-item"><a href="sec_IBLApproach.html" class="internal"><span class="codenumber">1.3</span> <span class="title">An Inquiry-Based Approach</span></a></div></li>
+<li><div class="toc-item"><a href="sec_Structure.html" class="internal"><span class="codenumber">1.4</span> <span class="title">Structure of the Textbook</span></a></div></li>
+<li><div class="toc-item"><a href="sec_guidance.html" class="internal"><span class="codenumber">1.5</span> <span class="title">Some Minimal Guidance</span></a></div></li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="chap_IntroToMath.html" class="internal"><span class="codenumber">2</span> <span class="title">Mathematics and Logic</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="sec_baby_number_theory.html" class="internal"><span class="codenumber">2.1</span> <span class="title">A Taste of Number Theory</span></a></div></li>
+<li class="active"><div class="toc-item"><a href="sec_Intro_to_Logic.html" class="internal"><span class="codenumber">2.2</span> <span class="title">Introduction to Logic</span></a></div></li>
+<li><div class="toc-item"><a href="sec_Techniques_for_Proving_Conditional_Propositions.html" class="internal"><span class="codenumber">2.3</span> <span class="title">Techniques for Proving Conditional Propositions</span></a></div></li>
+<li><div class="toc-item"><a href="sec_Introduction_to_Quantification.html" class="internal"><span class="codenumber">2.4</span> <span class="title">Introduction to Quantification</span></a></div></li>
+<li><div class="toc-item"><a href="sec_More_About_Quantification.html" class="internal"><span class="codenumber">2.5</span> <span class="title">More About Quantification</span></a></div></li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="chap_SetTheory.html" class="internal"><span class="codenumber">3</span> <span class="title">Set Theory</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="sec_Sets.html" class="internal"><span class="codenumber">3.1</span> <span class="title">Sets</span></a></div></li>
+<li><div class="toc-item"><a href="sec_RussellsParadox.html" class="internal"><span class="codenumber">3.2</span> <span class="title">Russell’s Paradox</span></a></div></li>
+<li><div class="toc-item"><a href="sec_PowerSets.html" class="internal"><span class="codenumber">3.3</span> <span class="title">Power Sets</span></a></div></li>
+<li><div class="toc-item"><a href="sec_Indexing_Sets.html" class="internal"><span class="codenumber">3.4</span> <span class="title">Indexing Sets</span></a></div></li>
+<li><div class="toc-item"><a href="sec_Cartesian_Products.html" class="internal"><span class="codenumber">3.5</span> <span class="title">Cartesian Products of Sets</span></a></div></li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="chap_Induction.html" class="internal"><span class="codenumber">4</span> <span class="title">Induction</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="sec_Intro_to_Induction.html" class="internal"><span class="codenumber">4.1</span> <span class="title">Introduction to Induction</span></a></div></li>
+<li><div class="toc-item"><a href="sec_More_on_Induction.html" class="internal"><span class="codenumber">4.2</span> <span class="title">More on Induction</span></a></div></li>
+<li><div class="toc-item"><a href="sec_CompleteInduction.html" class="internal"><span class="codenumber">4.3</span> <span class="title">Complete Induction</span></a></div></li>
+<li><div class="toc-item"><a href="sec_WOP.html" class="internal"><span class="codenumber">4.4</span> <span class="title">The Well-Ordering Principle</span></a></div></li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="chap_RealNumbers.html" class="internal"><span class="codenumber">5</span> <span class="title">The Real Numbers</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="sec_AxiomsRealNumbers.html" class="internal"><span class="codenumber">5.1</span> <span class="title">Axioms of the Real Numbers</span></a></div></li>
+<li><div class="toc-item"><a href="sec_Topology.html" class="internal"><span class="codenumber">5.2</span> <span class="title">Standard Topology of the Real Line</span></a></div></li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="chap_ThreeFamousTheorems.html" class="internal"><span class="codenumber">6</span> <span class="title">Three Famous Theorems</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="sec_FTA.html" class="internal"><span class="codenumber">6.1</span> <span class="title">The Fundamental Theorem of Arithmetic</span></a></div></li>
+<li><div class="toc-item"><a href="sec_Irrationality_of_Root_2.html" class="internal"><span class="codenumber">6.2</span> <span class="title">The Irrationality of <span class="process-math">\(\sqrt{2}\)</span></span></a></div></li>
+<li><div class="toc-item"><a href="sec_Infinitude_of_Primes.html" class="internal"><span class="codenumber">6.3</span> <span class="title">The Infinitude of Primes</span></a></div></li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="chap_Relations_and_Partitions.html" class="internal"><span class="codenumber">7</span> <span class="title">Relations and Partitions</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="sec_Relations.html" class="internal"><span class="codenumber">7.1</span> <span class="title">Relations</span></a></div></li>
+<li><div class="toc-item"><a href="sec_Equivalence_Relations.html" class="internal"><span class="codenumber">7.2</span> <span class="title">Equivalence Relations</span></a></div></li>
+<li><div class="toc-item"><a href="sec_Partitions.html" class="internal"><span class="codenumber">7.3</span> <span class="title">Partitions</span></a></div></li>
+<li><div class="toc-item"><a href="sec_ModularArithmetic.html" class="internal"><span class="codenumber">7.4</span> <span class="title">Modular Arithmetic</span></a></div></li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="chap_Functions.html" class="internal"><span class="codenumber">8</span> <span class="title">Functions</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="sec_Intro_to_Functions.html" class="internal"><span class="codenumber">8.1</span> <span class="title">Introduction to Functions</span></a></div></li>
+<li><div class="toc-item"><a href="sec_Injective_and_Surjective_Functions.html" class="internal"><span class="codenumber">8.2</span> <span class="title">Injective and Surjective Functions</span></a></div></li>
+<li><div class="toc-item"><a href="sec_Compositions_and_Inverse_Functions.html" class="internal"><span class="codenumber">8.3</span> <span class="title">Compositions and Inverse Functions</span></a></div></li>
+<li><div class="toc-item"><a href="sec_Images_and_Preimages.html" class="internal"><span class="codenumber">8.4</span> <span class="title">Images and Preimages of Functions</span></a></div></li>
+<li><div class="toc-item"><a href="sec_Continuity.html" class="internal"><span class="codenumber">8.5</span> <span class="title">Continuous Real Functions</span></a></div></li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="chap_Cardinality.html" class="internal"><span class="codenumber">9</span> <span class="title">Cardinality</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="sec_Intro_to_Cardinality.html" class="internal"><span class="codenumber">9.1</span> <span class="title">Introduction to Cardinality</span></a></div></li>
+<li><div class="toc-item"><a href="sec_Finite_Sets.html" class="internal"><span class="codenumber">9.2</span> <span class="title">Finite Sets</span></a></div></li>
+<li><div class="toc-item"><a href="sec_Infinite_Sets.html" class="internal"><span class="codenumber">9.3</span> <span class="title">Infinite Sets</span></a></div></li>
+<li><div class="toc-item"><a href="sec_Countable_Sets.html" class="internal"><span class="codenumber">9.4</span> <span class="title">Countable Sets</span></a></div></li>
+<li><div class="toc-item"><a href="sec_Uncountable_Sets.html" class="internal"><span class="codenumber">9.5</span> <span class="title">Uncountable Sets</span></a></div></li>
+</ul>
+</li>
+<li><div class="toc-item"><a href="appendix_elements_of_style.html" class="internal"><span class="codenumber">A</span> <span class="title">Elements of Style for Proofs</span></a></div></li>
+<li><div class="toc-item"><a href="appendix_fancy_math_terms.html" class="internal"><span class="codenumber">B</span> <span class="title">Fancy Mathematical Terms</span></a></div></li>
+<li><div class="toc-item"><a href="appendix_paradoxes.html" class="internal"><span class="codenumber">C</span> <span class="title">Paradoxes</span></a></div></li>
+<li><div class="toc-item"><a href="appendix_definitions.html" class="internal"><span class="codenumber">D</span> <span class="title">Definitions in Mathematics</span></a></div></li>
+</ul></nav></div>
+<main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="section" id="sec_Intro_to_Logic"><h2 class="heading hide-type">
+<span class="type">Section</span> <span class="codenumber">2.2</span> <span class="title">Introduction to Logic</span>
+</h2>
+<div class="para" id="p-116">In the previous section, we jumped in head first and attempted to prove several theorems in the context of number theory without a formal understanding of what it was we were doing. Likely, many issues bubbled to the surface. What is a proof? What sorts of statements require proof? What should a proof entail? How should a proof be structured? Let’s take a step back and do a more careful examination of what it is we are actually doing. In the the next two sections, we will introduce the basics of <em class="emphasis">propositional logic</em>—also referred to as <em class="emphasis">propositional calculus</em> or sometimes <em class="emphasis">zeroth-order logic</em>.</div>
+<article class="definition definition-like" id="definition-3"><h3 class="heading">
+<span class="type">Definition</span><span class="space"> </span><span class="codenumber">2.16</span><span class="period">.</span>
+</h3>
+<div class="para" id="p-117">A proposition is a sentence that is either true or false but never both. The truth value (or logical value) of a proposition refers to its attribute of being true or false.</div></article><div class="para" id="p-118">For example, the sentence “All dogs have four legs”  is a false proposition. However, the perfectly good sentence “<span class="process-math">\(x=1\)</span>” is <em class="emphasis">not</em> a proposition all by itself since we do not actually know what <span class="process-math">\(x\)</span> is.</div>
+<article class="problem example-like" id="problem-5"><h3 class="heading">
+<span class="type">Problem</span><span class="space"> </span><span class="codenumber">2.17</span><span class="period">.</span>
+</h3>
+<div class="para logical" id="p-119">
+<div class="para">Determine whether each of the following is a proposition. Explain your reasoning.</div>
+<ol class="lower-alpha">
+<li id="li-46"><div class="para" id="p-120">All cars are red.</div></li>
+<li id="li-47"><div class="para" id="p-121">Every person whose name begins with J has the name Joe.</div></li>
+<li id="li-48"><div class="para" id="p-122"><span class="process-math">\(x^2=4\text{.}\)</span></div></li>
+<li id="li-49"><div class="para" id="p-123">There exists a real number <span class="process-math">\(x\)</span> such that <span class="process-math">\(x^2=4\text{.}\)</span>
+</div></li>
+<li id="li-50"><div class="para" id="p-124">For all real numbers <span class="process-math">\(x\text{,}\)</span> <span class="process-math">\(x^2=4\text{.}\)</span>
+</div></li>
+<li id="li-51"><div class="para" id="p-125">
+<span class="process-math">\(\sqrt{2}\)</span> is an irrational number.</div></li>
+<li id="li-52"><div class="para" id="p-126">
+<span class="process-math">\(p\)</span> is prime.</div></li>
+<li id="li-53"><div class="para" id="p-127">Is it raining?</div></li>
+<li id="li-54"><div class="para" id="p-128">It will rain tomorrow.</div></li>
+<li id="li-55"><div class="para" id="p-129">Led Zeppelin is the best band of all time.</div></li>
+</ol>
+</div></article><div class="para" id="p-130">The last two sentences in the previous problem may stir debate. It is not so important that we come to consensus as to whether either of these two sentences is actually a proposition or not. The good news is that in mathematics we do not encounter statements whose truth value is dependent on either the future or opinion.</div>
+<div class="para" id="p-131">Given two propositions, we can form more complicated propositions using <em class="emphasis">logical connectives</em>.</div>
+<article class="definition definition-like" id="def_logical_connectives"><h3 class="heading">
+<span class="type">Definition</span><span class="space"> </span><span class="codenumber">2.18</span><span class="period">.</span>
+</h3>
+<div class="para logical" id="p-132">
+<div class="para">Let <span class="process-math">\(A\)</span> and <span class="process-math">\(B\)</span> be propositions.</div>
+<ol class="lower-alpha">
+<li id="li-56"><div class="para" id="p-133">The proposition “<em class="emphasis">not <span class="process-math">\(A\)</span></em>” is true if <span class="process-math">\(A\)</span> is false; expressed symbolically as <span class="process-math">\(\tcboxmath{\neg A}\)</span> and called the <em class="emphasis">negation</em> of <span class="process-math">\(A\text{.}\)</span>
+</div></li>
+<li id="li-57"><div class="para" id="p-134">The proposition “<em class="emphasis"><span class="process-math">\(A\)</span> and <span class="process-math">\(B\)</span></em>” is true if both <span class="process-math">\(A\)</span> and <span class="process-math">\(B\)</span> are true; expressed symbolically as <span class="process-math">\(\tcboxmath{A \wedge B}\)</span> and called the <em class="emphasis">conjunction</em> of <span class="process-math">\(A\)</span> and <span class="process-math">\(B\text{.}\)</span>
+</div></li>
+<li id="li-58"><div class="para" id="p-135">The proposition “<em class="emphasis"><span class="process-math">\(A\)</span> or <span class="process-math">\(B\)</span></em>” is true if at least one of <span class="process-math">\(A\)</span> or <span class="process-math">\(B\)</span> is true; expressed symbolically as <span class="process-math">\(\tcboxmath{A \vee B}\)</span> and called the <em class="emphasis">disjunction</em> of <span class="process-math">\(A\)</span> and <span class="process-math">\(B\text{.}\)</span>
+</div></li>
+<li id="def_conditional"><div class="para" id="p-136">The proposition “<em class="emphasis">If <span class="process-math">\(A\text{,}\)</span> then <span class="process-math">\(B\)</span></em>” is true if both <span class="process-math">\(A\)</span> and <span class="process-math">\(B\)</span> are true, or <span class="process-math">\(A\)</span> is false; expressed symbolically as <span class="process-math">\(\tcboxmath{A \implies B}\)</span> and called a <em class="emphasis">conditional proposition</em> (or <em class="emphasis">implication</em>). In this case, <span class="process-math">\(A\)</span> is called the <em class="emphasis">hypothesis</em> and <span class="process-math">\(B\)</span> is called the <em class="emphasis">conclusion</em>. Note that <span class="process-math">\(A \implies B\)</span> may also be read as “<span class="process-math">\(A\)</span> implies <span class="process-math">\(B\)</span>”, “<span class="process-math">\(A\)</span> only if <span class="process-math">\(B\)</span>”, “<span class="process-math">\(B\)</span> if <span class="process-math">\(A\)</span>”, or “<span class="process-math">\(B\)</span> whenever <span class="process-math">\(A\)</span>”.</div></li>
+<li id="def_logically_equivalent"><div class="para" id="p-137">The proposition “<em class="emphasis"><span class="process-math">\(A\)</span> if and only if <span class="process-math">\(B\)</span></em>” (alternatively, “<em class="emphasis"><span class="process-math">\(A\)</span> is necessary and sufficient for <span class="process-math">\(B\)</span></em>” ) is true if both <span class="process-math">\(A\)</span> and <span class="process-math">\(B\)</span> have the same truth value; expressed symbolically as <span class="process-math">\(\tcboxmath{A\logeq B}\)</span> and called a <em class="emphasis">biconditional proposition</em>. If <span class="process-math">\(A\logeq B\)</span> is true, we say that <span class="process-math">\(A\)</span> and <span class="process-math">\(B\)</span> are <em class="emphasis">logically equivalent</em>.</div></li>
+</ol>
+</div> <div class="para" id="p-138">Each of the boxed propositions is called a compound proposition, where <span class="process-math">\(A\)</span> and <span class="process-math">\(B\)</span> are referred to as the components of the compound proposition.</div></article><div class="para" id="p-139">It is worth pointing out that definitions in mathematics are typically written in the form “<span class="process-math">\(B\)</span> if <span class="process-math">\(A\)</span>” (or “<span class="process-math">\(B\)</span> provided that <span class="process-math">\(A\)</span>” or “<span class="process-math">\(B\)</span> whenever <span class="process-math">\(A\)</span>”), where <span class="process-math">\(B\)</span> contains the term or phrase we are defining and <span class="process-math">\(A\)</span> provides the meaning of the concept we are defining. In the case of definitions, we should always interpret “<span class="process-math">\(B\)</span> if <span class="process-math">\(A\)</span>” as describing precisely the collection of “objects” (e.g., numbers, sets, functions, etc.) that should be identified with the term or phrase we defining. That is, if an object does not meet the condition specified in <span class="process-math">\(A\text{,}\)</span> then it is never referred to by the term or phrase we are defining. Some authors will write definitions in the form “<span class="process-math">\(B\)</span> if and only if <span class="process-math">\(A\)</span>”. However, a definition is not at all the same kind of statement as a usual biconditional since one of the two sides is undefined until the definition is made. A definition is really a statement that the newly defined term or phrase is synonymous with a previously defined concept.</div>
+<div class="para" id="p-140">We can form complicated compound propositions with several components by utilizing logical connectives.</div>
+<article class="problem example-like" id="prob_translations"><h3 class="heading">
+<span class="type">Problem</span><span class="space"> </span><span class="codenumber">2.19</span><span class="period">.</span>
+</h3>
+<div class="para logical" id="p-141">
+<div class="para">Let <span class="process-math">\(A\)</span> represent “6 is an even integer” and <span class="process-math">\(B\)</span> represent “4 divides 6.” Express each of the following compound propositions in an ordinary English sentence and then determine its truth value.</div>
+<ol class="lower-alpha">
+<li id="li-61"><div class="para" id="p-142"><span class="process-math">\(\displaystyle A \wedge B\)</span></div></li>
+<li id="li-62"><div class="para" id="p-143"><span class="process-math">\(\displaystyle A \vee B\)</span></div></li>
+<li id="li-63"><div class="para" id="p-144"><span class="process-math">\(\displaystyle \neg A\)</span></div></li>
+<li id="li-64"><div class="para" id="p-145"><span class="process-math">\(\displaystyle \neg B\)</span></div></li>
+<li id="li-65"><div class="para" id="p-146"><span class="process-math">\(\displaystyle \neg (A \wedge B)\)</span></div></li>
+<li id="li-66"><div class="para" id="p-147"><span class="process-math">\(\displaystyle \neg (A \vee B)\)</span></div></li>
+<li id="li-67"><div class="para" id="p-148"><span class="process-math">\(\displaystyle A \implies B\)</span></div></li>
+</ol>
+</div></article><article class="definition definition-like" id="definition-5"><h3 class="heading">
+<span class="type">Definition</span><span class="space"> </span><span class="codenumber">2.20</span><span class="period">.</span>
+</h3>
+<div class="para" id="p-149">A truth table for a compound proposition is a table that illustrates all possible combinations of truth values for the components of the compound proposition together with the resulting truth value for each combination.</div></article><article class="example example-like" id="example-1"><h3 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">2.21</span><span class="period">.</span>
+</h3>
+<div class="para" id="p-150">If <span class="process-math">\(A\)</span> and <span class="process-math">\(B\)</span> are propositions, then the truth table for the compound proposition <span class="process-math">\(A\wedge B\)</span> is given by the following.</div> <div class="tabular-box natural-width"><table class="tabular"></table></div> <div class="para" id="p-151">Notice that we have columns for each of <span class="process-math">\(A\)</span> and <span class="process-math">\(B\text{.}\)</span> The rows for these two columns correspond to all possible combinations of truth values for <span class="process-math">\(A\)</span> and <span class="process-math">\(B\text{.}\)</span> The third column yields the truth value of <span class="process-math">\(A\wedge B\)</span> given the possible truth values for <span class="process-math">\(A\)</span> and <span class="process-math">\(B\text{.}\)</span>
+</div></article><div class="para" id="p-152">Each component of a compound proposition has two possible truth values, namely true or false. Thus, if a compound proposition is built from <span class="process-math">\(n\)</span> component propositions, then the truth table will require <span class="process-math">\(2^n\)</span> rows.</div>
+<article class="problem example-like" id="problem-7"><h3 class="heading">
+<span class="type">Problem</span><span class="space"> </span><span class="codenumber">2.22</span><span class="period">.</span>
+</h3>
+<div class="para logical" id="p-153">
+<div class="para">Create a truth table for each of the following compound propositions. You should add additional columns to your tables as needed to assist you with intermediate steps. For example, you might need four columns for the third and fourth compound propositions below.</div>
+<ol class="lower-alpha">
+<li id="li-68"><div class="para" id="p-154"><span class="process-math">\(\displaystyle \neg A\)</span></div></li>
+<li id="li-69"><div class="para" id="p-155"><span class="process-math">\(\displaystyle A \vee B\)</span></div></li>
+<li id="li-70"><div class="para" id="p-156"><span class="process-math">\(\displaystyle \neg (A \wedge B)\)</span></div></li>
+<li id="li-71"><div class="para" id="p-157"><span class="process-math">\(\displaystyle \neg A \wedge \neg B\)</span></div></li>
+</ol>
+</div></article><article class="problem example-like" id="prob_coach_lie"><h3 class="heading">
+<span class="type">Problem</span><span class="space"> </span><span class="codenumber">2.23</span><span class="period">.</span>
+</h3>
+<div class="para" id="p-158">A coach promises her players, “If we win tonight, then I will buy you pizza tomorrow.” Determine the cases in which the players can rightly claim to have been lied to. If the team lost the game and the coach decided to buy them pizza anyway, was she lying?</div></article><article class="problem example-like" id="problem-9"><h3 class="heading">
+<span class="type">Problem</span><span class="space"> </span><span class="codenumber">2.24</span><span class="period">.</span>
+</h3>
+<div class="para" id="p-159">Use <a href="" class="xref" data-knowl="./knowl/def_logical_connectives.html" title="Definition 2.18">Definition 2.18</a> <a href="" class="xref" data-knowl="./knowl/def_conditional.html" title="Item d">Item d</a> to construct a truth table for <span class="process-math">\(A \implies B\text{.}\)</span> Compare your truth table with <a href="" class="xref" data-knowl="./knowl/prob_coach_lie.html" title="Problem 2.23">Problem 2.23</a>. The combination you should pay particular attention to is when the hypothesis is false while the conclusion is true.</div></article><div class="para" id="p-160">In accordance with <a href="" class="xref" data-knowl="./knowl/def_logical_connectives.html" title="Definition 2.18">Definition 2.18</a> <a href="" class="xref" data-knowl="./knowl/def_conditional.html" title="Item d">Item d</a>, a conditional proposition <span class="process-math">\(A\implies B\)</span> is only false when the hypothesis is true and the conclusion is false. Perhaps you are bothered by the fact that <span class="process-math">\(A\implies B\)</span> is true when <span class="process-math">\(A\)</span> is false no matter what the truth value of <span class="process-math">\(B\)</span> is. The thing to keep in mind is that the truth value of <span class="process-math">\(A\implies B\)</span> relies on a very specific definition and may not always agree with the colloquial use of “If…, then…” statements that we encounter in everyday language. For example, if someone says, “If you break the rules, then you will be punished”, the speaker likely intends the statement to be interpreted as ``You will be punished if and only if you break the rules." In logic and mathematics, we aim to remove such ambiguity by explicitly saying exactly what we mean. For our purposes, we should view a conditional proposition as a contract or obligation. If the hypothesis is false and the conclusion is true, the contract is not violated. On the other hand, if the hypothesis is true and the conclusion is false, then the contract is broken.</div>
+<div class="para" id="p-161">We can often prove facts concerning logical statements using truth tables. Recall that two propositions <span class="process-math">\(P\)</span> and <span class="process-math">\(Q\)</span> (both of which might be complicated compound propositions) are logically equivalent if <span class="process-math">\(P\logeq Q\)</span> is true (see <a href="" class="xref" data-knowl="./knowl/def_logical_connectives.html" title="Definition 2.18">Definition 2.18</a> <a href="" class="xref" data-knowl="./knowl/def_logically_equivalent.html" title="Item e">Item e</a>). This happens when <span class="process-math">\(P\)</span> and <span class="process-math">\(Q\)</span> have the same truth value. We can verify whether <span class="process-math">\(P\)</span> and <span class="process-math">\(Q\)</span> have the same truth value by constructing a truth table that includes columns for each of the components of <span class="process-math">\(P\)</span> and <span class="process-math">\(Q\text{,}\)</span> listing all possible combinations of their truth values, together with columns for <span class="process-math">\(P\)</span> and <span class="process-math">\(Q\)</span> that lists their resulting truth values. If the truth values in the columns for <span class="process-math">\(P\)</span> and <span class="process-math">\(Q\)</span> agree, then <span class="process-math">\(P\)</span> and <span class="process-math">\(Q\)</span> are logically equivalent, and otherwise they are not logically equivalent. When constructing truth tables to verify whether <span class="process-math">\(P\)</span> and <span class="process-math">\(Q\)</span> are logically equivalent, you should add any necessary intermediate columns to aid in your “calculations”. Use truth tables when attempting to justify the next few problems.</div>
+<article class="theorem theorem-like" id="theorem-9"><h3 class="heading">
+<span class="type">Theorem</span><span class="space"> </span><span class="codenumber">2.25</span><span class="period">.</span>
+</h3>
+<div class="para" id="p-162">If <span class="process-math">\(A\)</span> is a proposition, then <span class="process-math">\(\neg(\neg A)\)</span> is logically equivalent to <span class="process-math">\(A\text{.}\)</span>
+</div></article><div class="para" id="p-163">The next theorem, referred to as <em class="emphasis">De Morgan’s Law</em>, provides a method for negating a compound proposition involving a conjunction.</div>
+<article class="theorem theorem-like" id="thm_De_Morgan"><h3 class="heading">
+<span class="type">Theorem</span><span class="space"> </span><span class="codenumber">2.26</span><span class="period">.</span><span class="space"> </span><span class="title">De Morgan’s Law.</span>
+</h3>
+<div class="para" id="p-164">If <span class="process-math">\(A\)</span> and <span class="process-math">\(B\)</span> are propositions, then <span class="process-math">\(\neg(A \wedge B)\)</span> is logically equivalent to <span class="process-math">\(\neg A \vee \neg B\text{.}\)</span>
+</div></article><article class="problem example-like" id="prob_De_Morgan"><h3 class="heading">
+<span class="type">Problem</span><span class="space"> </span><span class="codenumber">2.27</span><span class="period">.</span><span class="space"> </span><span class="title">De Morgan’s Law.</span>
+</h3>
+<div class="para" id="p-165">Let <span class="process-math">\(A\)</span> and <span class="process-math">\(B\)</span> be propositions. Conjecture a statement similar to <a href="" class="xref" data-knowl="./knowl/thm_De_Morgan.html" title="Theorem 2.26: De Morgan’s Law">Theorem 2.26</a> for the proposition <span class="process-math">\(\neg(A\vee B)\)</span> and then prove it. This is also called De Morgan’s Law.</div></article><div class="para" id="p-166">We will make use of both versions De Morgan’s Law on on a regular basis. Sometimes conjunctions and disjunctions are “buried” in a mathematical statement, which makes negating statements tricky business. Keep this in mind when approaching the next problem.</div>
+<article class="problem example-like" id="prob_negation"><h3 class="heading">
+<span class="type">Problem</span><span class="space"> </span><span class="codenumber">2.28</span><span class="period">.</span>
+</h3>
+<div class="para logical" id="p-167">
+<div class="para">Let <span class="process-math">\(x\)</span> be your favorite real number. Negate each of the following statements. Note that the statement in Part (b) involves a conjunction.</div>
+<ol class="lower-alpha">
+<li id="li-72"><div class="para" id="p-168">
+<span class="process-math">\(x\lt -1\)</span> or <span class="process-math">\(x\geq 3\text{.}\)</span>
+</div></li>
+<li id="li-73"><div class="para" id="p-169"><span class="process-math">\(0\leq x\lt 1\text{.}\)</span></div></li>
+</ol>
+</div></article><article class="theorem theorem-like" id="thm_logical_form_for_iff"><h3 class="heading">
+<span class="type">Theorem</span><span class="space"> </span><span class="codenumber">2.29</span><span class="period">.</span>
+</h3>
+<div class="para" id="p-170">If <span class="process-math">\(A\)</span> and <span class="process-math">\(B\)</span> are propositions, then <span class="process-math">\(A\logeq B\)</span> is logically equivalent to <span class="process-math">\((A\implies B)\wedge (B\implies A)\text{.}\)</span>
+</div></article><article class="theorem theorem-like" id="thm_logical_form_for_cases"><h3 class="heading">
+<span class="type">Theorem</span><span class="space"> </span><span class="codenumber">2.30</span><span class="period">.</span>
+</h3>
+<div class="para" id="p-171">If <span class="process-math">\(A\text{,}\)</span> <span class="process-math">\(B\text{,}\)</span> and <span class="process-math">\(C\)</span> are propositions, then <span class="process-math">\((A\vee B)\implies C\)</span> is logically equivalent to <span class="process-math">\((A\implies C)\wedge (B\implies C)\text{.}\)</span>
+</div></article><div class="para" id="p-172">We already introduced the following notion in the discussion following <a href="" class="xref" data-knowl="./knowl/thm_divides_sum.html" title="Theorem 2.11">Theorem 2.11</a>
+</div>
+<article class="definition definition-like" id="def_converse"><h3 class="heading">
+<span class="type">Definition</span><span class="space"> </span><span class="codenumber">2.31</span><span class="period">.</span>
+</h3>
+<div class="para" id="p-173">If <span class="process-math">\(A\)</span> and <span class="process-math">\(B\)</span> are propositions, then the converse of <span class="process-math">\(A \implies B\)</span> is <span class="process-math">\(B \implies A\text{.}\)</span>
+</div></article><article class="problem example-like" id="prob_converse"><h3 class="heading">
+<span class="type">Problem</span><span class="space"> </span><span class="codenumber">2.32</span><span class="period">.</span>
+</h3>
+<div class="para" id="p-174">Provide an example of a true conditional proposition whose converse is false.</div></article><article class="definition definition-like" id="def_inverse"><h3 class="heading">
+<span class="type">Definition</span><span class="space"> </span><span class="codenumber">2.33</span><span class="period">.</span>
+</h3>
+<div class="para" id="p-175">If <span class="process-math">\(A\)</span> and <span class="process-math">\(B\)</span> are propositions, then the inverse of <span class="process-math">\(A \implies B\)</span> is <span class="process-math">\(\neg A \implies \neg B\text{.}\)</span>
+</div></article><article class="problem example-like" id="prob_inverse"><h3 class="heading">
+<span class="type">Problem</span><span class="space"> </span><span class="codenumber">2.34</span><span class="period">.</span>
+</h3>
+<div class="para" id="p-176">Provide an example of a true conditional proposition whose inverse is false.</div></article><div class="para" id="p-177">Based on <a href="" class="xref" data-knowl="./knowl/prob_converse.html" title="Problem 2.32">Problems 2.32</a> and <a href="" class="xref" data-knowl="./knowl/prob_inverse.html" title="Problem 2.34">Problem 2.34</a>, we can conclude that the converse and inverse of a conditional proposition do not necessarily have the same truth value as the original statement. Moreover, the converse and inverse of a conditional proposition do not necessarily have the same truth value as each other.</div>
+<article class="problem example-like" id="prob_converse_and_inverse"><h3 class="heading">
+<span class="type">Problem</span><span class="space"> </span><span class="codenumber">2.35</span><span class="period">.</span>
+</h3>
+<div class="para" id="p-178">If possible, provide an example of a conditional proposition whose converse is true but whose inverse is false. If this is not possible, explain why.</div></article><div class="para" id="p-179">What if we swap the roles of the hypothesis and conclusion of a conditional proposition <em class="emphasis">and</em> negate each?</div>
+<article class="definition definition-like" id="definition-8"><h3 class="heading">
+<span class="type">Definition</span><span class="space"> </span><span class="codenumber">2.36</span><span class="period">.</span>
+</h3>
+<div class="para" id="p-180">If <span class="process-math">\(A\)</span> and <span class="process-math">\(B\)</span> are propositions, then the contrapositive of <span class="process-math">\(A \implies B\)</span> is <span class="process-math">\(\neg B \implies \neg A\text{.}\)</span>
+</div></article><article class="problem example-like" id="problem-15"><h3 class="heading">
+<span class="type">Problem</span><span class="space"> </span><span class="codenumber">2.37</span><span class="period">.</span>
+</h3>
+<div class="para logical" id="p-181">
+<div class="para">Let <span class="process-math">\(A\)</span> and <span class="process-math">\(B\)</span> represent the statements from <a href="" class="xref" data-knowl="./knowl/prob_translations.html" title="Problem 2.19">Problem 2.19</a>. Express each of the following in an ordinary English sentence.</div>
+<ol class="lower-alpha">
+<li id="li-74"><div class="para" id="p-182">The converse of <span class="process-math">\(A \implies B\text{.}\)</span>
+</div></li>
+<li id="li-75"><div class="para" id="p-183">The contrapositive of <span class="process-math">\(A \implies B\text{.}\)</span>
+</div></li>
+</ol>
+</div></article><article class="problem example-like" id="problem-16"><h3 class="heading">
+<span class="type">Problem</span><span class="space"> </span><span class="codenumber">2.38</span><span class="period">.</span>
+</h3>
+<div class="para" id="p-184">Find the converse and the contrapositive of the following statement: ``If Dana lives in Flagstaff, then Dana lives in Arizona."</div></article><div class="para" id="p-185">Use a truth table to prove the following theorem.</div>
+<article class="theorem theorem-like" id="thm_contrapos"><h3 class="heading">
+<span class="type">Theorem</span><span class="space"> </span><span class="codenumber">2.39</span><span class="period">.</span>
+</h3>
+<div class="para" id="p-186">If <span class="process-math">\(A\)</span> and <span class="process-math">\(B\)</span> are propositions, then <span class="process-math">\({A\implies B}\)</span> is logically equivalent to its contrapositive.</div></article><div class="para" id="p-187">So far we have discussed how to negate propositions of the form <span class="process-math">\(A\text{,}\)</span> <span class="process-math">\(A\wedge B\text{,}\)</span> and <span class="process-math">\(A\vee B\)</span> for propositions <span class="process-math">\(A\)</span> and <span class="process-math">\(B\text{.}\)</span> However, we have yet to discuss how to negate propositions of the form <span class="process-math">\(A\implies B\text{.}\)</span> Prove the following result with a truth table.</div>
+<article class="theorem theorem-like" id="thm_ImplicationAsDisjuction"><h3 class="heading">
+<span class="type">Theorem</span><span class="space"> </span><span class="codenumber">2.40</span><span class="period">.</span>
+</h3>
+<div class="para" id="p-188">If <span class="process-math">\(A\)</span> and <span class="process-math">\(B\)</span> are propositions, then the implication <span class="process-math">\(A\implies B\)</span> is logically equivalent to the disjunction <span class="process-math">\(\neg A \vee B\text{.}\)</span>
+</div></article><div class="para" id="p-189">The next result follows quickly from <a href="" class="xref" data-knowl="./knowl/thm_ImplicationAsDisjuction.html" title="Theorem 2.40">Theorem 2.40</a> together with De Morgan’s Law. You can also verify this result using a truth table.</div>
+<article class="corollary theorem-like" id="cor_NegateImplication"><h3 class="heading">
+<span class="type">Corollary</span><span class="space"> </span><span class="codenumber">2.41</span><span class="period">.</span>
+</h3>
+<div class="para" id="p-190">If <span class="process-math">\(A\)</span> and <span class="process-math">\(B\)</span> are propositions, then <span class="process-math">\(\neg(A \implies B)\)</span> is logically equivalent to <span class="process-math">\(A \wedge \neg B\text{.}\)</span>
+</div></article><article class="problem example-like" id="prob_Darth_Vader"><h3 class="heading">
+<span class="type">Problem</span><span class="space"> </span><span class="codenumber">2.42</span><span class="period">.</span>
+</h3>
+<div class="para logical" id="p-191">
+<div class="para">Let <span class="process-math">\(A\)</span> and <span class="process-math">\(B\)</span> be the propositions “<span class="process-math">\(\sqrt{2}\)</span> is an irrational number” and “Every rectangle is a trapezoid,” respectively.</div>
+<ol class="lower-alpha">
+<li id="li-76"><div class="para" id="p-192">Express <span class="process-math">\(A\implies B\)</span> as an English sentence involving the disjunction “or.”</div></li>
+<li id="li-77"><div class="para" id="p-193">Express <span class="process-math">\(\neg(A\implies B)\)</span> as an English sentence involving the conjunction “and.”</div></li>
+</ol>
+</div></article><article class="problem example-like" id="problem-18"><h3 class="heading">
+<span class="type">Problem</span><span class="space"> </span><span class="codenumber">2.43</span><span class="period">.</span>
+</h3>
+<div class="para" id="p-194">It turns out that the proposition “If <span class="process-math">\(.\overline{99}=\frac{9}{10}+\frac{9}{100}+\frac{9}{1000}+\cdots\text{,}\)</span> then <span class="process-math">\(.\overline{99}\neq 1\)</span>” is false. Write its negation as a conjunction.</div></article><div class="para" id="p-195">Recall that a proposition is exclusively either true or false—it can never be both.</div>
+<article class="definition definition-like" id="definition-9"><h3 class="heading">
+<span class="type">Definition</span><span class="space"> </span><span class="codenumber">2.44</span><span class="period">.</span>
+</h3>
+<div class="para" id="p-196">A compound proposition that is always false is called a contradiction. A compound proposition that is always true is called a tautology.</div></article><article class="theorem theorem-like" id="theorem-15"><h3 class="heading">
+<span class="type">Theorem</span><span class="space"> </span><span class="codenumber">2.45</span><span class="period">.</span>
+</h3>
+<div class="para" id="p-197">If <span class="process-math">\(A\)</span> is a proposition, then the proposition <span class="process-math">\(\neg A\wedge A\)</span> is a contradiction.</div></article><article class="problem example-like" id="problem-19"><h3 class="heading">
+<span class="type">Problem</span><span class="space"> </span><span class="codenumber">2.46</span><span class="period">.</span>
+</h3>
+<div class="para" id="p-198">Provide an example of a tautology using arbitrary propositions and any of the logical connectives <span class="process-math">\(\neg\text{,}\)</span> <span class="process-math">\(\wedge\text{,}\)</span> and <span class="process-math">\(\vee\text{.}\)</span> Prove that your example is in fact a tautology.</div></article><div class="para" id="p-199">\epigraph{I didn’t want to just know names of things. I remember really wanting to know how it all worked.}{Elizabeth Blackburn, biologist}</div></section></div>
+<div class="ptx-content-footer">
+<a class="previous-button button" href="sec_baby_number_theory.html" title="Previous"><span class="icon">&lt;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon">^</span><span class="name">Top</span></a><a class="next-button button" href="sec_Techniques_for_Proving_Conditional_Propositions.html" title="Next"><span class="name">Next</span><span class="icon">&gt;</span></a>
+</div></main>
+</div>
+<div id="ptx-page-footer" class="ptx-page-footer">
+<a class="pretext-link" href="https://pretextbook.org" title="PreTeXt"><div class="logo"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="338 3000 8772 6866"><g style="stroke-width:.025in; stroke:black; fill:none"><polyline points="472,3590 472,9732 " style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round; "></polyline><path style="stroke:#000000;stroke-width:126;stroke-linecap:butt;" d="M 4724,9448 A 4660 4660  0  0  1  8598  9259"></path><path style="stroke:#000000;stroke-width:174;stroke-linecap:butt;" d="M 4488,9685 A 4228 4228  0  0  0   472  9732"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:butt;" d="M 4724,3590 A 4241 4241  0  0  1  8598  3496"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:round;" d="M 850,3496  A 4241 4241  0  0  1  4724  3590"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:round;" d="M 850,9259  A 4507 4507  0  0  1  4724  9448"></path><polyline points="5385,4299 4062,8125" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8598,3496 8598,9259" style="stroke:#000000;stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="850,3496 850,9259" style="stroke:#000000;stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="4960,9685 4488,9685" style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="3070,4582 1889,6141 3070,7700" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="6418,4582 7600,6141 6418,7700" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8976,3590 8976,9732" style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><path style="stroke:#000000;stroke-width:174;stroke-linecap:butt;" d="M 4960,9685 A 4228 4228  0  0  1  8976  9732"></path></g></svg></div></a><a class="runestone-link" href="https://runestone.academy" title="Runestone Academy"><img class="logo" src="https://runestone.academy/runestone/static/images/RAIcon_cropped.png"></a><a class="mathjax-link" href="https://www.mathjax.org" title="MathJax"><img class="logo" src="https://www.mathjax.org/badge/badge-square-2.png"></a>
+</div>
+</body>
+</html>

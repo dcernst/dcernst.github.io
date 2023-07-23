@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<!--********************************************-->
+<!--*       Generated from PreTeXt source      *-->
+<!--*                                          *-->
+<!--*         https://pretextbook.org          *-->
+<!--*                                          *-->
+<!--********************************************-->
+<html lang="en-US" dir="ltr">
+<head xmlns:og="http://ogp.me/ns#" xmlns:book="https://ogp.me/ns/book#">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>More About Quantification</title>
+<meta name="Keywords" content="Authored in PreTeXt">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:type" content="book">
+<meta property="book:title" content="An Introduction to Proof via Inquiry-Based Learning">
+<meta property="book:author" content="Dana C. Ernst, PhD">
+<script>
+var runestoneMathReady = new Promise((resolve) => window.rsMathReady = resolve);
+window.MathJax = {
+  "tex": {
+    "inlineMath": [
+      [
+        "\\(",
+        "\\)"
+      ]
+    ],
+    "tags": "none",
+    "tagSide": "right",
+    "tagIndent": ".8em",
+    "packages": {
+      "[+]": [
+        "base",
+        "extpfeil",
+        "ams",
+        "amscd",
+        "color",
+        "newcommand",
+        "knowl"
+      ]
+    }
+  },
+  "options": {
+    "ignoreHtmlClass": "tex2jax_ignore|ignore-math",
+    "processHtmlClass": "process-math"
+  },
+  "chtml": {
+    "scale": 0.98,
+    "mtextInheritFont": true
+  },
+  "loader": {
+    "load": [
+      "input/asciimath",
+      "[tex]/extpfeil",
+      "[tex]/amscd",
+      "[tex]/color",
+      "[tex]/newcommand",
+      "[pretext]/mathjaxknowl3.js"
+    ],
+    "paths": {
+      "pretext": "https://pretextbook.org/js/lib"
+    }
+  },
+  "startup": {
+    pageReady() {
+      return MathJax.startup.defaultPageReady().then(function () {
+      console.log("in ready function");
+      rsMathReady();
+      }
+    )}
+  }
+};
+</script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="https://pretextbook.org/js/0.3/pretext_search.js"></script><link href="https://pretextbook.org/css/0.7/pretext_search.css" rel="stylesheet" type="text/css">
+<script>js_version = 0.3</script><script src="https://pretextbook.org/js/lib/jquery.min.js"></script><script src="https://pretextbook.org/js/lib/jquery.sticky.js"></script><script src="https://pretextbook.org/js/lib/jquery.espy.min.js"></script><script src="https://pretextbook.org/js/0.3/pretext.js"></script><script>miniversion=0.1</script><script src="https://pretextbook.org/js/0.3/pretext_add_on.js?x=1"></script><script src="https://pretextbook.org/js/0.3/user_preferences.js"></script><script src="https://pretextbook.org/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
+</script><link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&amp;family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&amp;family=Tinos:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.cdnfonts.com/css/dejavu-serif" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz,wdth,wght@8..144,50..150,100..900&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wdth,wght@75..100,300..800&amp;display=swap" rel="stylesheet">
+<link href="https://pretextbook.org/css/0.7/pretext.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.7/pretext_add_on.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.7/shell_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.7/banner_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.7/navbar_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.7/toc_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.7/knowls_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.7/style_oscarlevin.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.7/colors_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.7/setcolors.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" href="external/custom-styles.css">
+</head>
+<body class="pretext book ignore-math">
+<a class="assistive" href="#ptx-content">Skip to main content</a><header id="ptx-masthead" class="ptx-masthead"><div class="ptx-banner">
+<a id="logo-link" class="logo-link" href=""></a><div class="title-container">
+<h1 class="heading"><a href="book-1.html"><span class="title">An Introduction to Proof via Inquiry-Based Learning</span></a></h1>
+<p class="byline">Dana C. Ernst, PhD</p>
+</div>
+<div id="searchresultsplaceholder" class="searchresultsplaceholder" style="display: none">
+<button id="closesearchresults" class="closesearchresults" onclick="document.getElementById('searchresultsplaceholder').style.display = 'none'; return false;">x</button><h2>Search Results: <span id="searchterms" class="searchterms"></span>
+</h2>
+<div id="searchempty" class="searchempty"><span>No results.</span></div>
+<ol id="searchresults" class="searchresults"></ol>
+</div>
+</div></header><nav id="ptx-navbar" class="ptx-navbar navbar"><button class="toc-toggle button" aria-label="Show or hide table of contents"><span class="icon">☰</span><span class="name">Contents</span></button><button id="user-preferences-button" class="user-preferences-button button" title="Modify user preferences"><span id="avatarbutton" class="avatarbutton name">You!</span><div id="preferences_menu_holder" class="preferences_menu_holder hidden"><ol id="preferences_menu" class="preferences_menu" style="font-family: 'Roboto Serif', serif;">
+<li data-env="avatar" tabindex="-1">Choose avatar<div class="wrap_to_submenu"><span class="to_submenu">▻</span></div>
+<ol class="hidden avatar">
+<li data-val="You!" tabindex="-1">
+<span id="theYou!" class="avatarcheck">✔️</span>You!</li>
+<li data-val="😺" tabindex="-1">
+<span id="the😺" class="avatarcheck"></span>😺</li>
+<li data-val="👤" tabindex="-1">
+<span id="the👤" class="avatarcheck"></span>👤</li>
+<li data-val="👽" tabindex="-1">
+<span id="the👽" class="avatarcheck"></span>👽</li>
+<li data-val="🐶" tabindex="-1">
+<span id="the🐶" class="avatarcheck"></span>🐶</li>
+<li data-val="🐼" tabindex="-1">
+<span id="the🐼" class="avatarcheck"></span>🐼</li>
+<li data-val="🌈" tabindex="-1">
+<span id="the🌈" class="avatarcheck"></span>🌈</li>
+</ol>
+</li>
+<li data-env="fontfamily" tabindex="-1">Font family<div class="wrap_to_submenu"><span class="to_submenu">▻</span></div>
+<ol class="hidden fontfamily">
+<li data-val="face" data-change="OS" tabindex="-1" style="font-family: 'Open Sans'">
+<span id="theOS" class="ffcheck">✔️</span><span class="name">Open Sans</span><span class="sample">AaBbCc 123 PreTeXt</span>
+</li>
+<li data-val="face" data-change="RS" tabindex="-1" style="font-family: 'Roboto Serif'">
+<span id="theRS" class="ffcheck"></span><span class="name">Roboto Serif</span><span class="sample">AaBbCc 123 PreTeXt</span>
+</li>
+</ol>
+</li>
+<li data-env="font" tabindex="-1">Adjust font<div class="wrap_to_submenu"><span class="to_submenu">▻</span></div>
+<ol class="hidden fonts">
+<li>Size</li>
+<li><span id="thesize">12</span></li>
+<li data-val="size" data-change="-1" tabindex="-1" style="font-size: 80%">Smaller</li>
+<li data-val="size" data-change="1" tabindex="-1" style="font-size: 110%">Larger</li>
+<li>Width</li>
+<li><span id="thewdth">100</span></li>
+<li data-val="wdth" data-change="-5" tabindex="-1" style="font-variation-settings: 'wdth' 60">narrower</li>
+<li data-val="wdth" data-change="5" tabindex="-1" style="font-variation-settings: 'wdth' 150">wider</li>
+<li>Weight</li>
+<li><span id="thewght">400</span></li>
+<li data-val="wght" data-change="-50" tabindex="-1" style="font-weight: 200">thinner</li>
+<li data-val="wght" data-change="50" tabindex="-1" style="font-weight: 700">heavier</li>
+<li>Letter spacing</li>
+<li>
+<span id="thelspace">0</span><span class="byunits">/200</span>
+</li>
+<li data-val="lspace" data-change="-1" tabindex="-1">closer</li>
+<li data-val="lspace" data-change="1" tabindex="-1">f a r t h e r</li>
+<li>Word spacing</li>
+<li>
+<span id="thewspace">0</span><span class="byunits">/50</span>
+</li>
+<li data-val="wspace" data-change="-1" tabindex="-1">smaller gap </li>
+<li data-val="wspace" data-change="1" tabindex="-1">larger gap</li>
+<li>Line Spacing</li>
+<li>
+<span id="theheight">135</span><span class="byunits">/100</span>
+</li>
+<li data-val="height" data-change="-5" tabindex="-1" style="line-height: 1">closer<br>together</li>
+<li data-val="height" data-change="5" tabindex="-1" style="line-height: 1.75">further<br>apart</li>
+</ol>
+</li>
+<li data-env="atmosphere" tabindex="-1">Light/dark mode<div class="wrap_to_submenu"><span class="to_submenu">▻</span></div>
+<ol class="hidden atmosphere">
+<li data-val="default" tabindex="-1">
+<span id="thedefault" class="atmospherecheck">✔️</span>default</li>
+<li data-val="pastel" tabindex="-1">
+<span id="thepastel" class="atmospherecheck"></span>pastel</li>
+<li data-val="darktwilight" tabindex="-1">
+<span id="thedarktwilight" class="atmospherecheck"></span>twilight</li>
+<li data-val="dark" tabindex="-1">
+<span id="thedark" class="atmospherecheck"></span>dark</li>
+<li data-val="darkmidnight" tabindex="-1">
+<span id="thedarkmidnight" class="atmospherecheck"></span>midnight</li>
+</ol>
+</li>
+<li data-env="ruler" tabindex="-1">Reading ruler<div class="wrap_to_submenu"><span class="to_submenu">▻</span></div>
+<ol class="hidden ruler">
+<li data-val="none" tabindex="-1">
+<span id="thenone" class="rulercheck">✔️</span>none</li>
+<li data-val="underline" tabindex="-1">
+<span id="theunderline" class="rulercheck"></span>underline</li>
+<li data-val="lunderline" tabindex="-1">
+<span id="thelunderline" class="rulercheck"></span>L-underline</li>
+<li data-val="greybar" tabindex="-1">
+<span id="thegreybar" class="rulercheck"></span>grey bar</li>
+<li data-val="lightbox" tabindex="-1">
+<span id="thelightbox" class="rulercheck"></span>light box</li>
+<li data-val="sunrise" tabindex="-1">
+<span id="thesunrise" class="rulercheck"></span>sunrise</li>
+<li data-val="sunriseunderline" tabindex="-1">
+<span id="thesunriseunderline" class="rulercheck"></span>sunrise underline</li>
+<li class="moveQ">Motion by:</li>
+<li data-val="mouse" tabindex="-1">
+<span id="themouse" class="motioncheck">✔️</span>follow the mouse</li>
+<li data-val="arrow" tabindex="-1">
+<span id="thearrow" class="motioncheck"></span>up/down arrows - not yet</li>
+<li data-val="eye" tabindex="-1">
+<span id="theeye" class="motioncheck"></span>eye tracking - not yet</li>
+</ol>
+</li>
+</ol></div></button><span class="treebuttons"><a class="previous-button button" href="sec_Introduction_to_Quantification.html" title="Previous"><span class="icon">&lt;</span><span class="name">Prev</span></a><a class="up-button button" href="chap_IntroToMath.html" title="Up"><span class="icon">^</span><span class="name">Up</span></a><a class="next-button button" href="chap_SetTheory.html" title="Next"><span class="name">Next</span><span class="icon">&gt;</span></a></span><div class="searchbox"><div class="searchwidget">
+<input id="ptxsearch" class="ptxsearch" type="text" name="terms" placeholder="Search" onchange="doSearch()"><button id="searchbutton" class="searchbutton" type="button" onclick="doSearch()">🔍</button>
+</div></div></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\newcommand{\dom}{\operatorname{Dom}}
+\newcommand{\codom}{\operatorname{Codom}}
+\newcommand{\range}{\operatorname{Rng}}
+\newcommand{\lcm}{\operatorname{lcm}}
+\newcommand{\card}{\operatorname{card}}
+\newcommand{\rel}{\operatorname{rel}}
+\newcommand{\Rel}{\operatorname{Rel}}
+\newcommand{\logeq}{\Longleftrightarrow}
+\renewcommand{\implies}{\Longrightarrow}
+
+\def\tcboxmath{}
+\def\coloneqq{:=}
+\newcommand{\lt}{&lt;}
+\newcommand{\gt}{&gt;}
+\newcommand{\amp}{&amp;}
+\definecolor{fillinmathshade}{gray}{0.9}
+\newcommand{\fillinmath}[1]{\mathchoice{\colorbox{fillinmathshade}{$\displaystyle     \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\textstyle        \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptstyle      \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptscriptstyle\phantom{\,#1\,}$}}}
+\)</span></div>
+<div class="ptx-page">
+<div id="ptx-sidebar" class="ptx-sidebar"><nav id="ptx-toc" class="ptx-toc depth2"><ul class="structural">
+<li>
+<div class="toc-item"><a href="frontmatter-1.html" class="internal"><span class="title">Front Matter</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="colophon.html" class="internal"><span class="title">Colophon</span></a></div></li>
+<li><div class="toc-item"><a href="chap_preface.html" class="internal"><span class="title">Preface</span></a></div></li>
+<li><div class="toc-item"><a href="chap_acknowledgements.html" class="internal"><span class="title">Acknowledgements</span></a></div></li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="chap_intro.html" class="internal"><span class="codenumber">1</span> <span class="title">Introduction</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="sec_WhatIsThisBookAllAbout.html" class="internal"><span class="codenumber">1.1</span> <span class="title">What is This Book All About?</span></a></div></li>
+<li><div class="toc-item"><a href="sec_what_should_you_expect.html" class="internal"><span class="codenumber">1.2</span> <span class="title">What Should You Expect?</span></a></div></li>
+<li><div class="toc-item"><a href="sec_IBLApproach.html" class="internal"><span class="codenumber">1.3</span> <span class="title">An Inquiry-Based Approach</span></a></div></li>
+<li><div class="toc-item"><a href="sec_Structure.html" class="internal"><span class="codenumber">1.4</span> <span class="title">Structure of the Textbook</span></a></div></li>
+<li><div class="toc-item"><a href="sec_guidance.html" class="internal"><span class="codenumber">1.5</span> <span class="title">Some Minimal Guidance</span></a></div></li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="chap_IntroToMath.html" class="internal"><span class="codenumber">2</span> <span class="title">Mathematics and Logic</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="sec_baby_number_theory.html" class="internal"><span class="codenumber">2.1</span> <span class="title">A Taste of Number Theory</span></a></div></li>
+<li><div class="toc-item"><a href="sec_Intro_to_Logic.html" class="internal"><span class="codenumber">2.2</span> <span class="title">Introduction to Logic</span></a></div></li>
+<li><div class="toc-item"><a href="sec_Techniques_for_Proving_Conditional_Propositions.html" class="internal"><span class="codenumber">2.3</span> <span class="title">Techniques for Proving Conditional Propositions</span></a></div></li>
+<li><div class="toc-item"><a href="sec_Introduction_to_Quantification.html" class="internal"><span class="codenumber">2.4</span> <span class="title">Introduction to Quantification</span></a></div></li>
+<li class="active"><div class="toc-item"><a href="sec_More_About_Quantification.html" class="internal"><span class="codenumber">2.5</span> <span class="title">More About Quantification</span></a></div></li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="chap_SetTheory.html" class="internal"><span class="codenumber">3</span> <span class="title">Set Theory</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="sec_Sets.html" class="internal"><span class="codenumber">3.1</span> <span class="title">Sets</span></a></div></li>
+<li><div class="toc-item"><a href="sec_RussellsParadox.html" class="internal"><span class="codenumber">3.2</span> <span class="title">Russell’s Paradox</span></a></div></li>
+<li><div class="toc-item"><a href="sec_PowerSets.html" class="internal"><span class="codenumber">3.3</span> <span class="title">Power Sets</span></a></div></li>
+<li><div class="toc-item"><a href="sec_Indexing_Sets.html" class="internal"><span class="codenumber">3.4</span> <span class="title">Indexing Sets</span></a></div></li>
+<li><div class="toc-item"><a href="sec_Cartesian_Products.html" class="internal"><span class="codenumber">3.5</span> <span class="title">Cartesian Products of Sets</span></a></div></li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="chap_Induction.html" class="internal"><span class="codenumber">4</span> <span class="title">Induction</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="sec_Intro_to_Induction.html" class="internal"><span class="codenumber">4.1</span> <span class="title">Introduction to Induction</span></a></div></li>
+<li><div class="toc-item"><a href="sec_More_on_Induction.html" class="internal"><span class="codenumber">4.2</span> <span class="title">More on Induction</span></a></div></li>
+<li><div class="toc-item"><a href="sec_CompleteInduction.html" class="internal"><span class="codenumber">4.3</span> <span class="title">Complete Induction</span></a></div></li>
+<li><div class="toc-item"><a href="sec_WOP.html" class="internal"><span class="codenumber">4.4</span> <span class="title">The Well-Ordering Principle</span></a></div></li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="chap_RealNumbers.html" class="internal"><span class="codenumber">5</span> <span class="title">The Real Numbers</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="sec_AxiomsRealNumbers.html" class="internal"><span class="codenumber">5.1</span> <span class="title">Axioms of the Real Numbers</span></a></div></li>
+<li><div class="toc-item"><a href="sec_Topology.html" class="internal"><span class="codenumber">5.2</span> <span class="title">Standard Topology of the Real Line</span></a></div></li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="chap_ThreeFamousTheorems.html" class="internal"><span class="codenumber">6</span> <span class="title">Three Famous Theorems</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="sec_FTA.html" class="internal"><span class="codenumber">6.1</span> <span class="title">The Fundamental Theorem of Arithmetic</span></a></div></li>
+<li><div class="toc-item"><a href="sec_Irrationality_of_Root_2.html" class="internal"><span class="codenumber">6.2</span> <span class="title">The Irrationality of <span class="process-math">\(\sqrt{2}\)</span></span></a></div></li>
+<li><div class="toc-item"><a href="sec_Infinitude_of_Primes.html" class="internal"><span class="codenumber">6.3</span> <span class="title">The Infinitude of Primes</span></a></div></li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="chap_Relations_and_Partitions.html" class="internal"><span class="codenumber">7</span> <span class="title">Relations and Partitions</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="sec_Relations.html" class="internal"><span class="codenumber">7.1</span> <span class="title">Relations</span></a></div></li>
+<li><div class="toc-item"><a href="sec_Equivalence_Relations.html" class="internal"><span class="codenumber">7.2</span> <span class="title">Equivalence Relations</span></a></div></li>
+<li><div class="toc-item"><a href="sec_Partitions.html" class="internal"><span class="codenumber">7.3</span> <span class="title">Partitions</span></a></div></li>
+<li><div class="toc-item"><a href="sec_ModularArithmetic.html" class="internal"><span class="codenumber">7.4</span> <span class="title">Modular Arithmetic</span></a></div></li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="chap_Functions.html" class="internal"><span class="codenumber">8</span> <span class="title">Functions</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="sec_Intro_to_Functions.html" class="internal"><span class="codenumber">8.1</span> <span class="title">Introduction to Functions</span></a></div></li>
+<li><div class="toc-item"><a href="sec_Injective_and_Surjective_Functions.html" class="internal"><span class="codenumber">8.2</span> <span class="title">Injective and Surjective Functions</span></a></div></li>
+<li><div class="toc-item"><a href="sec_Compositions_and_Inverse_Functions.html" class="internal"><span class="codenumber">8.3</span> <span class="title">Compositions and Inverse Functions</span></a></div></li>
+<li><div class="toc-item"><a href="sec_Images_and_Preimages.html" class="internal"><span class="codenumber">8.4</span> <span class="title">Images and Preimages of Functions</span></a></div></li>
+<li><div class="toc-item"><a href="sec_Continuity.html" class="internal"><span class="codenumber">8.5</span> <span class="title">Continuous Real Functions</span></a></div></li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="chap_Cardinality.html" class="internal"><span class="codenumber">9</span> <span class="title">Cardinality</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="sec_Intro_to_Cardinality.html" class="internal"><span class="codenumber">9.1</span> <span class="title">Introduction to Cardinality</span></a></div></li>
+<li><div class="toc-item"><a href="sec_Finite_Sets.html" class="internal"><span class="codenumber">9.2</span> <span class="title">Finite Sets</span></a></div></li>
+<li><div class="toc-item"><a href="sec_Infinite_Sets.html" class="internal"><span class="codenumber">9.3</span> <span class="title">Infinite Sets</span></a></div></li>
+<li><div class="toc-item"><a href="sec_Countable_Sets.html" class="internal"><span class="codenumber">9.4</span> <span class="title">Countable Sets</span></a></div></li>
+<li><div class="toc-item"><a href="sec_Uncountable_Sets.html" class="internal"><span class="codenumber">9.5</span> <span class="title">Uncountable Sets</span></a></div></li>
+</ul>
+</li>
+<li><div class="toc-item"><a href="appendix_elements_of_style.html" class="internal"><span class="codenumber">A</span> <span class="title">Elements of Style for Proofs</span></a></div></li>
+<li><div class="toc-item"><a href="appendix_fancy_math_terms.html" class="internal"><span class="codenumber">B</span> <span class="title">Fancy Mathematical Terms</span></a></div></li>
+<li><div class="toc-item"><a href="appendix_paradoxes.html" class="internal"><span class="codenumber">C</span> <span class="title">Paradoxes</span></a></div></li>
+<li><div class="toc-item"><a href="appendix_definitions.html" class="internal"><span class="codenumber">D</span> <span class="title">Definitions in Mathematics</span></a></div></li>
+</ul></nav></div>
+<main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="section" id="sec_More_About_Quantification"><h2 class="heading hide-type">
+<span class="type">Section</span> <span class="codenumber">2.5</span> <span class="title">More About Quantification</span>
+</h2>
+<div class="para" id="p-306">When writing mathematical proofs, we do not explicitly use the symbolic representation of a given statement in terms of quantifiers and logical connectives. Nonetheless, having this notation at our disposal allows us to compartmentalize the abstract nature of mathematical propositions and provides us with a way to talk about the general structure involved in the construction of a proof.</div>
+<article class="definition definition-like" id="definition-12"><h3 class="heading">
+<span class="type">Definition</span><span class="space"> </span><span class="codenumber">2.70</span><span class="period">.</span>
+</h3>
+<div class="para" id="p-307">Two quantified propositions are logically equivalent if they have the same truth value in every universe of discourse.</div></article><article class="problem example-like" id="problem-37"><h3 class="heading">
+<span class="type">Problem</span><span class="space"> </span><span class="codenumber">2.71</span><span class="period">.</span>
+</h3>
+<div class="para logical" id="p-308">
+<div class="para">Consider the propositions <span class="process-math">\((\exists x\in U)(x^2-4=0)\)</span> and <span class="process-math">\((\exists x\in U)(x^2-2=0)\text{,}\)</span> where <span class="process-math">\(U\)</span> is some universe of discourse.</div>
+<ol class="lower-alpha">
+<li id="li-119"><div class="para" id="p-309">Do these propositions have the same truth value if the universe of discourse is the set of real numbers?</div></li>
+<li id="li-120"><div class="para" id="p-310">Provide an example of a universe of discourse such that the propositions yield different truth values.</div></li>
+<li id="li-121"><div class="para" id="p-311">What can you conclude about the logical equivalence of these propositions?</div></li>
+</ol>
+</div></article><div class="para" id="p-312">It is worth pointing out an important distinction. Consider the propositions “All cars are red” and “All natural numbers are positive”. Both of these are instances of the <em class="emphasis">logical form</em> <span class="process-math">\((\forall x)P(x)\text{.}\)</span> It turns out that the first proposition is false and the second is true; however, it does not make sense to attach a truth value to the logical form. A logical form is a blueprint for particular propositions. If we are careful, it makes sense to talk about whether two logical forms are logically equivalent. For example, <span class="process-math">\((\forall x)(P(x)\implies Q(x))\)</span> is logically equivalent to <span class="process-math">\((\forall x)(\neg Q(x)\implies \neg P(x))\)</span> since a conditional proposition is logically equivalent to its contrapositive (see <a href="" class="xref" data-knowl="./knowl/thm_contrapos.html" title="Theorem 2.39">Theorem 2.39</a>). For fixed <span class="process-math">\(P(x)\)</span> and <span class="process-math">\(Q(x)\text{,}\)</span> these two forms will always have the same truth value independent of the universe of discourse. If you change <span class="process-math">\(P(x)\)</span> and <span class="process-math">\(Q(x)\text{,}\)</span> then the truth value may change, but the two forms will still agree.</div>
+<div class="para" id="p-313">The next theorem tells us how to negate logical forms involving quantifiers. Your proof should involve several mini arguments. For example, in Part (a), you will need to proof that if <span class="process-math">\(\neg (\forall x)P(x)\)</span> is true, then <span class="process-math">\((\exists x)(\neg P(x))\)</span> is also true.</div>
+<article class="theorem theorem-like" id="thm_negation_of_quantifiers"><h3 class="heading">
+<span class="type">Theorem</span><span class="space"> </span><span class="codenumber">2.72</span><span class="period">.</span>
+</h3>
+<div class="para logical" id="p-314">
+<div class="para">Let <span class="process-math">\(P(x)\)</span> be a predicate in some universe of discourse. Then</div>
+<ol class="lower-alpha">
+<li id="li-122"><div class="para" id="p-315">
+<span class="process-math">\(\neg (\forall x)P(x)\)</span> is logically equivalent to <span class="process-math">\((\exists x)(\neg P(x))\text{;}\)</span>
+</div></li>
+<li id="li-123"><div class="para" id="p-316">
+<span class="process-math">\(\neg (\exists x)P(x)\)</span> is logically equivalent to <span class="process-math">\((\forall x)(\neg P(x))\text{.}\)</span>
+</div></li>
+</ol>
+</div></article><article class="problem example-like" id="problem-38"><h3 class="heading">
+<span class="type">Problem</span><span class="space"> </span><span class="codenumber">2.73</span><span class="period">.</span>
+</h3>
+<div class="para logical" id="p-317">
+<div class="para">Negate each of the following sentences. Disregard the truth value and the universe of discourse.</div>
+<ol class="lower-alpha">
+<li id="li-124"><div class="para" id="p-318"><span class="process-math">\(\displaystyle (\forall x)(x&gt;3)\)</span></div></li>
+<li id="li-125"><div class="para" id="p-319"><span class="process-math">\(\displaystyle (\exists x)(x \mbox{ is prime} \wedge x \mbox{ is even} )\)</span></div></li>
+<li id="li-126"><div class="para" id="p-320">All cars are red.</div></li>
+<li id="li-127"><div class="para" id="p-321">Every Wookiee is named Chewbacca.</div></li>
+<li id="li-128"><div class="para" id="p-322">Some hippies are Republican.</div></li>
+<li id="li-129"><div class="para" id="p-323">Some birds are not angry.</div></li>
+<li id="li-130"><div class="para" id="p-324">Not every video game will rot your brain.</div></li>
+<li id="li-131"><div class="para" id="p-325">For all <span class="process-math">\(x\in\mathbb{N}\text{,}\)</span> <span class="process-math">\(x^2+x+41\)</span> is prime.</div></li>
+<li id="li-132"><div class="para" id="p-326">There exists <span class="process-math">\(x\in\mathbb{Z}\)</span> such that <span class="process-math">\(1/x\notin\mathbb{Z}\text{.}\)</span>
+</div></li>
+<li id="li-133"><div class="para" id="p-327">There is no function <span class="process-math">\(f\)</span> such that if <span class="process-math">\(f\)</span> is continuous, then <span class="process-math">\(f\)</span> is not differentiable.</div></li>
+</ol>
+</div></article><div class="para logical" id="p-328">
+<div class="para">Using <a href="" class="xref" data-knowl="./knowl/thm_negation_of_quantifiers.html" title="Theorem 2.72">Theorem 2.72</a> and our previous results involving quantification, we can negate complex mathematical propositions by working from left to right. For example, if we negate the false proposition</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/thm_negation_of_quantifiers.html">
+\begin{equation*}
+(\exists x\in\mathbb{R})(\forall y\in\mathbb{R})(x+y=0)\text{,}
+\end{equation*}
+</div>
+<div class="para">we obtain the proposition</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/thm_negation_of_quantifiers.html">
+\begin{equation*}
+\neg(\exists x\in\mathbb{R})(\forall y\in\mathbb{R})(x+y=0)\text{,}
+\end{equation*}
+</div>
+<div class="para">which is logically equivalent to</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/thm_negation_of_quantifiers.html">
+\begin{equation*}
+(\forall x\in\mathbb{R})(\exists y\in\mathbb{R})(x+y\neq 0)
+\end{equation*}
+</div>
+<div class="para">and must be true. For a more complicated example, consider the (false) proposition</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/thm_negation_of_quantifiers.html">
+\begin{equation*}
+(\forall x)[x&gt;0\implies (\exists y)(y\lt 0 \wedge xy&gt;0)]\text{.}
+\end{equation*}
+</div>
+</div>
+<div class="para logical" id="p-329">
+<div class="para">Then its negation</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\neg (\forall x)[x&gt;0\implies (\exists y)(y\lt 0 \wedge xy&gt;0)]
+\end{equation*}
+</div>
+<div class="para">is logically equivalent to</div>
+<div class="displaymath process-math">
+\begin{equation*}
+(\exists x)[x&gt;0 \wedge \neg (\exists y)(y\lt 0 \wedge xy&gt;0)]\text{,}
+\end{equation*}
+</div>
+<div class="para">which happens to be logically equivalent to</div>
+<div class="displaymath process-math">
+\begin{equation*}
+(\exists x)[x&gt;0 \wedge (\forall y)(y\geq 0 \vee xy\leq 0)]\text{.}
+\end{equation*}
+</div>
+</div>
+<div class="para" id="p-330">Can you identify the theorems that were used in the two examples above?</div>
+<article class="problem example-like" id="problem-39"><h3 class="heading">
+<span class="type">Problem</span><span class="space"> </span><span class="codenumber">2.74</span><span class="period">.</span>
+</h3>
+<div class="para logical" id="p-331">
+<div class="para">Negate each of the following propositions. Disregard the truth value and the universe of discourse.</div>
+<ol class="lower-alpha">
+<li id="li-134"><div class="para" id="p-332"><span class="process-math">\(\displaystyle (\forall n\in\mathbb{N})(\exists m\in\mathbb{N})(m\lt n)\)</span></div></li>
+<li id="li-135"><div class="para" id="p-333">For every <span class="process-math">\(y\in \mathbb{R}\text{,}\)</span> there exists <span class="process-math">\(x\in \mathbb{R}\)</span> such that <span class="process-math">\(y=x^2\text{.}\)</span>
+</div></li>
+<li id="li-136"><div class="para" id="p-334">For all <span class="process-math">\(y\in \mathbb{R}\text{,}\)</span> if <span class="process-math">\(y\)</span> is not negative, then there exists <span class="process-math">\(x\in\mathbb{R}\)</span> such that <span class="process-math">\(y=x^2\text{.}\)</span>
+</div></li>
+<li id="li-137"><div class="para" id="p-335">For every <span class="process-math">\(x\in \mathbb{R}\text{,}\)</span> there exists <span class="process-math">\(y\in \mathbb{R}\)</span> such that <span class="process-math">\(y=x^2\text{.}\)</span>
+</div></li>
+<li id="li-138"><div class="para" id="p-336">There exists <span class="process-math">\(x\in \mathbb{R}\)</span> such that for all <span class="process-math">\(y\in \mathbb{R}\text{,}\)</span> <span class="process-math">\(y=x^2\text{.}\)</span>
+</div></li>
+<li id="li-139"><div class="para" id="p-337">There exists <span class="process-math">\(y\in \mathbb{R}\)</span> such that for all <span class="process-math">\(x\in \mathbb{R}\text{,}\)</span> <span class="process-math">\(y=x^2\text{.}\)</span>
+</div></li>
+<li id="li-140"><div class="para" id="p-338"><span class="process-math">\(\displaystyle (\forall x,y,z\in\mathbb{Z})((xy \mbox{ is even} \wedge yz\mbox{ is even} )\implies xz\mbox{ is even} )\)</span></div></li>
+<li id="li-141"><div class="para" id="p-339">There exists a married person <span class="process-math">\(x\)</span> such that for all married people <span class="process-math">\(y\text{,}\)</span> <span class="process-math">\(x\)</span> is married to <span class="process-math">\(y\text{.}\)</span>
+</div></li>
+</ol>
+</div></article><article class="problem example-like" id="problem-40"><h3 class="heading">
+<span class="type">Problem</span><span class="space"> </span><span class="codenumber">2.75</span><span class="period">.</span>
+</h3>
+<div class="para logical" id="p-340">
+<div class="para">Consider the following proposition in some universe of discourse.</div>
+<ol class="decimal"><li id=""><div class="para" id="p-341">``For all goofy wobblers <span class="process-math">\(x\text{,}\)</span> there exists a dinglehopper <span class="process-math">\(y\)</span> such that if <span class="process-math">\(x\)</span> is a not a nugget, then <span class="process-math">\(y\)</span> is a doofus."</div></li></ol>
+</div> <div class="para" id="p-342">Find the negation of this proposition so that it includes the phrase “is not a doofus.”</div></article><article class="problem example-like" id="problem-41"><h3 class="heading">
+<span class="type">Problem</span><span class="space"> </span><span class="codenumber">2.76</span><span class="period">.</span>
+</h3>
+<div class="para logical" id="p-343">
+<div class="para">Consider the following proposition in some universe of discourse.</div>
+<ol class="decimal"><li id=""><div class="para" id="p-344">``If <span class="process-math">\(x\)</span> and <span class="process-math">\(y\)</span> are both snazzy, then <span class="process-math">\(xy\)</span> is not nifty."</div></li></ol>
+</div> <div class="para" id="p-345">Find the contrapositive of this proposition so that it includes the phrase “not snazzy”.</div></article><div class="para" id="p-346">At this point, we should be able to use our understanding of quantification to construct counterexamples to complicated false propositions and proofs of complicated true propositions. Here are some general proof structures for various logical forms.</div>
+<section class="paragraphs" id="skeleton_for_all"><h3 class="heading"><span class="title">Skeleton Proof.</span></h3> <div class="para" id="p-347">[Direct Proof of <span class="process-math">\((\forall x)P(x)\)</span>] Here is the general structure for a direct proof of the proposition <span class="process-math">\((\forall x)P(x)\text{.}\)</span> Assume <span class="process-math">\(U\)</span> is the universe of discourse.</div> <article class="proof" id="proof-5"><h4 class="heading"><span class="type">Proof<span class="period">.</span></span></h4>
+<div class="para" id="p-348">
+<em class="emphasis">[State any upfront assumptions.]</em> Let <span class="process-math">\(x \in U\text{.}\)</span> <span class="process-math">\(\ldots\)</span> <em class="emphasis">[Use definitions and known results.]</em> <span class="process-math">\(\ldots\)</span> Therefore, <span class="process-math">\(P(x)\)</span> is true. Since <span class="process-math">\(x\)</span> was arbitrary, for all <span class="process-math">\(x\text{,}\)</span> <span class="process-math">\(P(x)\text{.}\)</span>
+</div></article></section><div class="para" id="p-349">Combining Skeleton <a href="" class="xref" data-knowl="./knowl/skeleton_for_all.html" title="Paragraphs: Skeleton Proof">Proof </a> with Skeleton <a href="" class="xref" data-knowl="./knowl/skeleton_direct_proof.html" title="Paragraphs: Skeleton Proof">Proof </a>, we obtain the following skeleton proof.</div>
+<section class="paragraphs" id="skeleton_for_all_direct_proof"><h3 class="heading"><span class="title">Skeleton Proof.</span></h3> <div class="para" id="p-350">[Proof of <span class="process-math">\((\forall x)(A(x)\implies B(x))\)</span>] Below is the general structure for a direct proof of the proposition <span class="process-math">\((\forall x)(A(x)\implies B(x)\text{.}\)</span> Assume <span class="process-math">\(U\)</span> is the universe of discourse.</div> <article class="proof" id="proof-6"><h4 class="heading"><span class="type">Proof<span class="period">.</span></span></h4>
+<div class="para" id="p-351">
+<em class="emphasis">[State any upfront assumptions.]</em> Let <span class="process-math">\(x \in U\text{.}\)</span> Assume <span class="process-math">\(A(x)\text{.}\)</span> <span class="process-math">\(\ldots\)</span> <em class="emphasis">[Use definitions and known results to derive <span class="process-math">\(B(x)\)</span>]</em> <span class="process-math">\(\ldots\)</span> Therefore, <span class="process-math">\(B(x)\text{.}\)</span>
+</div></article></section><section class="paragraphs" id="paragraphs-7"><h3 class="heading"><span class="title">Skeleton Proof.</span></h3> <div class="para" id="p-352">[Proof of <span class="process-math">\((\forall x)P(x)\)</span> by Contradiction] Here is the general structure for a proof of the proposition <span class="process-math">\((\forall x)P(x)\)</span> via contradiction. Assume <span class="process-math">\(U\)</span> is the universe of discourse.</div> <article class="proof" id="proof-7"><h4 class="heading"><span class="type">Proof<span class="period">.</span></span></h4>
+<div class="para" id="p-353">
+<em class="emphasis">[State any upfront assumptions.]</em> For sake of a contradiction, assume that there exists <span class="process-math">\(x\in U\)</span> such that <span class="process-math">\(\neg P(x)\text{.}\)</span> <span class="process-math">\(\ldots\)</span> <em class="emphasis">[Do something to derive a contradiction.]</em> <span class="process-math">\(\ldots\)</span> This is a contradiction. Therefore, for all <span class="process-math">\(x\text{,}\)</span> <span class="process-math">\(P(x)\)</span> is true.</div></article></section><section class="paragraphs" id="skeleton_exists"><h3 class="heading"><span class="title">Skeleton Proof.</span></h3> <div class="para" id="p-354">[Direct Proof of <span class="process-math">\((\exists x)P(x)\)</span>] Here is the general structure for a direct proof of the proposition <span class="process-math">\((\exists x)P(x)\text{.}\)</span> Assume <span class="process-math">\(U\)</span> is the universe of discourse.</div> <article class="proof" id="proof-8"><h4 class="heading"><span class="type">Proof<span class="period">.</span></span></h4>
+<div class="para" id="p-355">
+<em class="emphasis">[State any upfront assumptions.]</em> <span class="process-math">\(\ldots\)</span> <span class="process-math">\(\ldots\)</span> <em class="emphasis">[Use definitions, axioms, and previous results to deduce that an <span class="process-math">\(x\)</span> exists for which <span class="process-math">\(P(x)\)</span> is true; or if you have an <span class="process-math">\(x\)</span> that works, just verify that it does.]</em> <span class="process-math">\(\ldots\)</span> Therefore, there exists <span class="process-math">\(x\in U\)</span> such that <span class="process-math">\(P(x)\text{.}\)</span>
+</div></article></section><section class="paragraphs" id="paragraphs-9"><h3 class="heading"><span class="title">Skeleton Proof.</span></h3> <div class="para" id="p-356">[Proof of <span class="process-math">\((\exists x)P(x)\)</span> by Contradiction] Below is the general structure for a proof of the proposition <span class="process-math">\((\exists x)P(x)\)</span> via contradiction. Assume <span class="process-math">\(U\)</span> is the universe of discourse.</div> <article class="proof" id="proof-9"><h4 class="heading"><span class="type">Proof<span class="period">.</span></span></h4>
+<div class="para" id="p-357">
+<em class="emphasis">[State any upfront assumptions.]</em> For sake of a contradiction, assume that for all <span class="process-math">\(x\in U\text{,}\)</span> <span class="process-math">\(\neg P(x)\text{.}\)</span> <span class="process-math">\(\ldots\)</span> <em class="emphasis">[Do something to derive a contradiction.]</em> <span class="process-math">\(\ldots\)</span> This is a contradiction. Therefore, there exists <span class="process-math">\(x\in U\)</span> such that <span class="process-math">\(P(x)\text{.}\)</span>
+</div></article></section><div class="para" id="p-358">Note that if <span class="process-math">\(Q(x)\)</span> is a predicate for which <span class="process-math">\((\forall x)Q(x)\)</span> is false, then a counterexample to this proposition amounts to showing <span class="process-math">\((\exists x)(\neg Q(x))\text{,}\)</span> which can be proved by following the structure of Skeleton <a href="" class="xref" data-knowl="./knowl/skeleton_exists.html" title="Paragraphs: Skeleton Proof">Proof </a>.</div>
+<div class="para" id="p-359">It is important to point out that sometimes we will have to combine various proof techniques in a single proof. For example, if you wanted to prove a proposition of the form <span class="process-math">\((\forall x)(P(x) \implies Q(x)\)</span>) by contradiction, we would start by assuming that there exists <span class="process-math">\(x\)</span> in the universe of discourse such that <span class="process-math">\(P(x)\)</span> and <span class="process-math">\(\neg Q(x)\text{.}\)</span>
+</div>
+<article class="problem example-like" id="problem-42"><h3 class="heading">
+<span class="type">Problem</span><span class="space"> </span><span class="codenumber">2.77</span><span class="period">.</span>
+</h3>
+<div class="para logical" id="p-360">
+<div class="para">Determine whether each of the following statements is true or false. If the statement is true, prove it. If the statement is false, provide a counterexample.</div>
+<ol class="lower-alpha">
+<li id="li-144"><div class="para" id="p-361">For all <span class="process-math">\(n\in\mathbb{N}\text{,}\)</span> <span class="process-math">\(n^2\geq 5\text{.}\)</span>
+</div></li>
+<li id="li-145"><div class="para" id="p-362">There exists <span class="process-math">\(n \in \mathbb{N}\)</span> such that <span class="process-math">\(n^2-1=0\text{.}\)</span>
+</div></li>
+<li id="li-146"><div class="para" id="p-363">There exists <span class="process-math">\(x \in \mathbb{N}\)</span> such that for all <span class="process-math">\(y \in \mathbb{N}\text{,}\)</span> <span class="process-math">\(y \leq x\text{.}\)</span>
+</div></li>
+<li id="li-147"><div class="para" id="p-364">For all <span class="process-math">\(x\in\mathbb{Z}\text{,}\)</span> <span class="process-math">\(x^3\geq x\text{.}\)</span>
+</div></li>
+<li id="li-148"><div class="para" id="p-365">For all <span class="process-math">\(n\in\mathbb{Z}\text{,}\)</span> there exists <span class="process-math">\(m\in\mathbb{Z}\)</span> such that <span class="process-math">\(n+m=0\text{.}\)</span>
+</div></li>
+<li id="li-149"><div class="para" id="p-366">There exists integers <span class="process-math">\(a\)</span> and <span class="process-math">\(b\)</span> such that <span class="process-math">\(2a+7b=1\text{.}\)</span>
+</div></li>
+<li id="li-150"><div class="para" id="p-367">There do not exist integers <span class="process-math">\(m\)</span> and <span class="process-math">\(n\)</span> such that <span class="process-math">\(2m+4n=7\text{.}\)</span>
+</div></li>
+<li id="li-151"><div class="para" id="p-368">For all <span class="process-math">\(a, b, c\in\mathbb{Z}\text{,}\)</span> if <span class="process-math">\(a\)</span> divides <span class="process-math">\(bc\text{,}\)</span> then either <span class="process-math">\(a\)</span> divides <span class="process-math">\(b\)</span> or <span class="process-math">\(a\)</span> divides <span class="process-math">\(c\text{.}\)</span>
+</div></li>
+<li id="li-152"><div class="para" id="p-369">For all <span class="process-math">\(a, b\in\mathbb{Z}\text{,}\)</span> if <span class="process-math">\(ab\)</span> is even, then either <span class="process-math">\(a\)</span> or <span class="process-math">\(b\)</span> is even.</div></li>
+</ol>
+</div></article><article class="problem example-like" id="problem-43"><h3 class="heading">
+<span class="type">Problem</span><span class="space"> </span><span class="codenumber">2.78</span><span class="period">.</span>
+</h3>
+<div class="para logical" id="p-370">
+<div class="para">Explain why the following “proof” is not a valid argument.</div>
+<ol class="decimal"><li id=""><div class="para" id="p-371">
+<em class="emphasis">Claim.</em> For all <span class="process-math">\(x,y\in \mathbb{Z}\text{,}\)</span> if <span class="process-math">\(x\)</span> and <span class="process-math">\(y\)</span> are even, then <span class="process-math">\(x+y\)</span> is even. <em class="emphasis">“Proof.”</em> Suppose <span class="process-math">\(x,
+y \in \mathbb{Z}\)</span> such that <span class="process-math">\(x\)</span> and <span class="process-math">\(y\)</span> are even. For sake of a contradiction, assume that <span class="process-math">\(x+y\)</span> is odd. Then there exists <span class="process-math">\(k \in \mathbb{Z}\)</span> such that <span class="process-math">\(x+y=2k+1\text{.}\)</span> This implies that <span class="process-math">\((x+y)-2k=1\text{.}\)</span> We see that the left side of the equation is even because it is the difference of even numbers. However, the right side is odd. Since an even number cannot equal an odd number, we have a contradiction. Therefore, <span class="process-math">\(x+y\)</span> is even.</div></li></ol>
+</div></article><div class="para" id="p-372">Sometimes it is useful to split the universe of discourse into multiple collections to deal with separately. When doing this, it is important to make sure that your cases are exhaustive (i.e., every possible element of the universe of discourse has been accounted for). Ideally, your cases will also be disjoint (i.e., you have not considered the same element more than once). For example, if our universe of discourse is the set of integers, we can separately consider even versus odd integers. If our universe of discourse is the set of real numbers, we might want to consider rational versus irrational numbers, or possibly negative versus zero versus and positive. Attacking a proof in this way, is often referred to as a <em class="emphasis">proof by cases</em> (or <em class="emphasis">proof by exhaustion</em>). A proof by cases may also be useful when dealing with hypotheses involving “or”. Note that the use of a proof by cases is justified by <a href="" class="xref" data-knowl="./knowl/thm_logical_form_for_cases.html" title="Theorem 2.30">Theorem 2.30</a>.</div>
+<div class="para" id="p-373">If you decide to approach a proof using cases, be sure to inform the reader that you are doing so and organize your proof in a sensible way. Note that doing an analysis of cases should be avoided if possible. For example, while it is valid to separately consider the cases of whether <span class="process-math">\(a\)</span> is an even integer versus odd integer in the proof of <a href="" class="xref" data-knowl="./knowl/thm_divides_sum.html" title="Theorem 2.11">Theorem 2.11</a>, it is completely unnecessary. To prove the next theorem, you might want to consider two cases.</div>
+<article class="theorem theorem-like" id="thm_3n_2_n_14_is_even"><h3 class="heading">
+<span class="type">Theorem</span><span class="space"> </span><span class="codenumber">2.79</span><span class="period">.</span>
+</h3>
+<div class="para" id="p-374">For all <span class="process-math">\(n\in \mathbb{Z}\text{,}\)</span> <span class="process-math">\(3n^2+n+14\)</span> is even.</div></article><div class="para" id="p-375">Prove the following theorem by proving the contrapositive using two cases.</div>
+<article class="theorem theorem-like" id="thm_nm_odd_implies_n_or_m_odd"><h3 class="heading">
+<span class="type">Theorem</span><span class="space"> </span><span class="codenumber">2.80</span><span class="period">.</span>
+</h3>
+<div class="para" id="p-376">For all <span class="process-math">\(n,m\in\mathbb{Z}\text{,}\)</span> if <span class="process-math">\(nm\)</span> is odd, then <span class="process-math">\(n\)</span> is odd and <span class="process-math">\(m\)</span> is odd.</div></article><div class="para" id="p-377">When proving the previous theorem, you likely experienced some dèjá vu. You should have assumed “<span class="process-math">\(n\)</span> is even or <span class="process-math">\(m\)</span> is even” at some point in your proof. The first case is “<span class="process-math">\(n\)</span> is even” while the second case is “<span class="process-math">\(m\)</span> is even.” (Note that you do not need to handle the case when both <span class="process-math">\(n\)</span> and <span class="process-math">\(m\)</span> are even since the two individual cases already yield the desired result.) The proofs for both cases are identical except the roles of <span class="process-math">\(n\)</span> and <span class="process-math">\(m\)</span> are interchanged. In instances such as this, mathematicians have a shortcut. Instead of writing two essentially identical proofs for each case, you can simply handle one of the cases and indicate that the remaining case follows from a nearly identical proof. The quickest way to do this is to use the phrase, “Without loss of generality, assume…”. For example, here is a proof of <a href="" class="xref" data-knowl="./knowl/thm_nm_odd_implies_n_or_m_odd.html" title="Theorem 2.80">Theorem 2.80</a> that utilizes this approach.</div>
+<div class="para logical" id="p-378">
+<div class="para">
+<em class="emphasis">Proof of <a href="" class="xref" data-knowl="./knowl/thm_nm_odd_implies_n_or_m_odd.html" title="Theorem 2.80">Theorem 2.80</a></em>. We will prove the contrapositive. Let <span class="process-math">\(n,m\in\mathbb{Z}\)</span> and assume <span class="process-math">\(n\)</span> is even or <span class="process-math">\(m\)</span> is even. Without loss of generality, assume <span class="process-math">\(n\)</span> is even. Then there exists <span class="process-math">\(k\in\mathbb{Z}\)</span> such that <span class="process-math">\(n=2k\text{.}\)</span> We see that</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/thm_nm_odd_implies_n_or_m_odd.html">
+\begin{equation*}
+nm=(2k)m=2(km)\text{.}
+\end{equation*}
+</div>
+</div>
+<div class="para" id="p-379">Since both <span class="process-math">\(k\)</span> and <span class="process-math">\(m\)</span> are integers, <span class="process-math">\(km\)</span> is an integer. This shows that <span class="process-math">\(nm\)</span> is even. We have proved the contrapositive, and hence for all <span class="process-math">\(n,m\in\mathbb{Z}\text{,}\)</span> if <span class="process-math">\(nm\)</span> is odd, then <span class="process-math">\(n\)</span> is odd and <span class="process-math">\(m\)</span> is odd.</div>
+<div class="para" id="p-380">Note that it would not be appropriate to utilize the “without loss of generality” approach to combine the two cases in the proof of <a href="" class="xref" data-knowl="./knowl/thm_3n_2_n_14_is_even.html" title="Theorem 2.79">Theorem 2.79</a> since the proof of the second case is not as simple as swapping the roles of symbols in the proof of the first case.</div>
+<div class="para" id="p-381">There are times when a theorem will make a claim about the <em class="emphasis">uniqueness</em> of a particular mathematical object. For example, in <a href="sec_AxiomsRealNumbers.html" class="internal" title="Section 5.1: Axioms of the Real Numbers">Section 5.1</a>, you will be asked to prove that both the additive and multiplicative identities (i.e, 0 and 1) are unique (see <a href="" class="xref" data-knowl="./knowl/thm_unique_additive_identity.html" title="Theorem 5.2">Theorems 5.2</a> and <a href="" class="xref" data-knowl="./knowl/thm_unique_multiplicative_identity.html" title="Theorem 5.3">Theorem 5.3</a>). As another example, the Fundamental Theorem of Arithmetic (see <a href="" class="xref" data-knowl="./knowl/thm_FTA.html" title="Theorem 6.17: Fundamental Theorem of Arithmetic">Theorem 6.17</a>) states that every natural number greater than 1 can be expressed uniquely (up to the order in which they appear) as the product of one or more primes. The typical approach to proving uniqueness is to suppose that there are potentially two objects with the desired property and then show that these objects are actually equal. Whether you approach this as a proof by contradiction is a matter of taste. It is common to use <span class="process-math">\(\tcboxmath{\exists!}\)</span> as a symbolic abbreviation for “there exists a unique… such that”.</div>
+<section class="paragraphs" id="skeleton_uniqueness"><h3 class="heading"><span class="title">Skeleton Proof.</span></h3> <div class="para" id="p-382">[Direct Proof of <span class="process-math">\((\exists! x)P(x)\)</span>] Here is the general structure for a direct proof of the proposition <span class="process-math">\((\exists! x)P(x)\text{.}\)</span> Assume <span class="process-math">\(U\)</span> is the universe of discourse.</div> <article class="proof" id="proof-10"><h4 class="heading"><span class="type">Proof<span class="period">.</span></span></h4>
+<div class="para" id="p-383">
+<em class="emphasis">[State any upfront assumptions.]</em> <span class="process-math">\(\ldots\)</span> <span class="process-math">\(\ldots\)</span> <em class="emphasis">[Use definitions, axioms, and previous results to deduce that an <span class="process-math">\(x\)</span> exists for which <span class="process-math">\(P(x)\)</span> is true; or if you have an <span class="process-math">\(x\)</span> that works, just verify that it does.]</em> <span class="process-math">\(\ldots\)</span> Therefore, there exists <span class="process-math">\(x\in U\)</span> such that <span class="process-math">\(P(x)\text{.}\)</span> Now, suppose <span class="process-math">\(x_1,x_2\in U\)</span> such that <span class="process-math">\(P(x_1)\)</span> and <span class="process-math">\(P(x_2)\text{.}\)</span> <span class="process-math">\(\ldots\)</span> <em class="emphasis">[Prove that <span class="process-math">\(x_1=x_2\text{.}\)</span>]</em> <span class="process-math">\(\ldots\)</span> This implies that there exists a unique <span class="process-math">\(x\)</span> such that <span class="process-math">\(P(x)\text{.}\)</span>
+</div></article></section><div class="para" id="p-384">The next theorem provides an opportunity to practice proving uniqueness.</div>
+<article class="theorem theorem-like" id="theorem-23"><h3 class="heading">
+<span class="type">Theorem</span><span class="space"> </span><span class="codenumber">2.81</span><span class="period">.</span>
+</h3>
+<div class="para" id="p-385">If <span class="process-math">\(c,a,r\in\mathbb{R}\)</span> such that <span class="process-math">\(c\neq 0\)</span> and <span class="process-math">\(r\neq a/c\text{,}\)</span> then there exists a unique <span class="process-math">\(x\in\mathbb{R}\)</span> such that <span class="process-math">\((ax+1)/(cx)=r\text{.}\)</span>
+</div></article><div class="para" id="p-386">\epigraph{With two published novels and a file full of ideas for others, the only thing I know about writing is this: it only happens when you sit down and do it. Studying good writing is important, reading good writing is important, talking to other writers is important, but the only way you can produce good writing is to write.}{Jamie Beth Cohen, novelist}</div></section></div>
+<div class="ptx-content-footer">
+<a class="previous-button button" href="sec_Introduction_to_Quantification.html" title="Previous"><span class="icon">&lt;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon">^</span><span class="name">Top</span></a><a class="next-button button" href="chap_SetTheory.html" title="Next"><span class="name">Next</span><span class="icon">&gt;</span></a>
+</div></main>
+</div>
+<div id="ptx-page-footer" class="ptx-page-footer">
+<a class="pretext-link" href="https://pretextbook.org" title="PreTeXt"><div class="logo"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="338 3000 8772 6866"><g style="stroke-width:.025in; stroke:black; fill:none"><polyline points="472,3590 472,9732 " style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round; "></polyline><path style="stroke:#000000;stroke-width:126;stroke-linecap:butt;" d="M 4724,9448 A 4660 4660  0  0  1  8598  9259"></path><path style="stroke:#000000;stroke-width:174;stroke-linecap:butt;" d="M 4488,9685 A 4228 4228  0  0  0   472  9732"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:butt;" d="M 4724,3590 A 4241 4241  0  0  1  8598  3496"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:round;" d="M 850,3496  A 4241 4241  0  0  1  4724  3590"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:round;" d="M 850,9259  A 4507 4507  0  0  1  4724  9448"></path><polyline points="5385,4299 4062,8125" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8598,3496 8598,9259" style="stroke:#000000;stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="850,3496 850,9259" style="stroke:#000000;stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="4960,9685 4488,9685" style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="3070,4582 1889,6141 3070,7700" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="6418,4582 7600,6141 6418,7700" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8976,3590 8976,9732" style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><path style="stroke:#000000;stroke-width:174;stroke-linecap:butt;" d="M 4960,9685 A 4228 4228  0  0  1  8976  9732"></path></g></svg></div></a><a class="runestone-link" href="https://runestone.academy" title="Runestone Academy"><img class="logo" src="https://runestone.academy/runestone/static/images/RAIcon_cropped.png"></a><a class="mathjax-link" href="https://www.mathjax.org" title="MathJax"><img class="logo" src="https://www.mathjax.org/badge/badge-square-2.png"></a>
+</div>
+</body>
+</html>

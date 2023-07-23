@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<!--********************************************-->
+<!--*       Generated from PreTeXt source      *-->
+<!--*                                          *-->
+<!--*         https://pretextbook.org          *-->
+<!--*                                          *-->
+<!--********************************************-->
+<html lang="en-US" dir="ltr">
+<head xmlns:og="http://ogp.me/ns#" xmlns:book="https://ogp.me/ns/book#">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Compositions and Inverse Functions</title>
+<meta name="Keywords" content="Authored in PreTeXt">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:type" content="book">
+<meta property="book:title" content="An Introduction to Proof via Inquiry-Based Learning">
+<meta property="book:author" content="Dana C. Ernst, PhD">
+<script>
+var runestoneMathReady = new Promise((resolve) => window.rsMathReady = resolve);
+window.MathJax = {
+  "tex": {
+    "inlineMath": [
+      [
+        "\\(",
+        "\\)"
+      ]
+    ],
+    "tags": "none",
+    "tagSide": "right",
+    "tagIndent": ".8em",
+    "packages": {
+      "[+]": [
+        "base",
+        "extpfeil",
+        "ams",
+        "amscd",
+        "color",
+        "newcommand",
+        "knowl"
+      ]
+    }
+  },
+  "options": {
+    "ignoreHtmlClass": "tex2jax_ignore|ignore-math",
+    "processHtmlClass": "process-math"
+  },
+  "chtml": {
+    "scale": 0.98,
+    "mtextInheritFont": true
+  },
+  "loader": {
+    "load": [
+      "input/asciimath",
+      "[tex]/extpfeil",
+      "[tex]/amscd",
+      "[tex]/color",
+      "[tex]/newcommand",
+      "[pretext]/mathjaxknowl3.js"
+    ],
+    "paths": {
+      "pretext": "https://pretextbook.org/js/lib"
+    }
+  },
+  "startup": {
+    pageReady() {
+      return MathJax.startup.defaultPageReady().then(function () {
+      console.log("in ready function");
+      rsMathReady();
+      }
+    )}
+  }
+};
+</script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="https://pretextbook.org/js/0.3/pretext_search.js"></script><link href="https://pretextbook.org/css/0.7/pretext_search.css" rel="stylesheet" type="text/css">
+<script>js_version = 0.3</script><script src="https://pretextbook.org/js/lib/jquery.min.js"></script><script src="https://pretextbook.org/js/lib/jquery.sticky.js"></script><script src="https://pretextbook.org/js/lib/jquery.espy.min.js"></script><script src="https://pretextbook.org/js/0.3/pretext.js"></script><script>miniversion=0.1</script><script src="https://pretextbook.org/js/0.3/pretext_add_on.js?x=1"></script><script src="https://pretextbook.org/js/0.3/user_preferences.js"></script><script src="https://pretextbook.org/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
+</script><link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&amp;family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&amp;family=Tinos:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.cdnfonts.com/css/dejavu-serif" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz,wdth,wght@8..144,50..150,100..900&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wdth,wght@75..100,300..800&amp;display=swap" rel="stylesheet">
+<link href="https://pretextbook.org/css/0.7/pretext.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.7/pretext_add_on.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.7/shell_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.7/banner_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.7/navbar_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.7/toc_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.7/knowls_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.7/style_oscarlevin.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.7/colors_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.7/setcolors.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" href="external/custom-styles.css">
+</head>
+<body class="pretext book ignore-math">
+<a class="assistive" href="#ptx-content">Skip to main content</a><header id="ptx-masthead" class="ptx-masthead"><div class="ptx-banner">
+<a id="logo-link" class="logo-link" href=""></a><div class="title-container">
+<h1 class="heading"><a href="book-1.html"><span class="title">An Introduction to Proof via Inquiry-Based Learning</span></a></h1>
+<p class="byline">Dana C. Ernst, PhD</p>
+</div>
+<div id="searchresultsplaceholder" class="searchresultsplaceholder" style="display: none">
+<button id="closesearchresults" class="closesearchresults" onclick="document.getElementById('searchresultsplaceholder').style.display = 'none'; return false;">x</button><h2>Search Results: <span id="searchterms" class="searchterms"></span>
+</h2>
+<div id="searchempty" class="searchempty"><span>No results.</span></div>
+<ol id="searchresults" class="searchresults"></ol>
+</div>
+</div></header><nav id="ptx-navbar" class="ptx-navbar navbar"><button class="toc-toggle button" aria-label="Show or hide table of contents"><span class="icon">☰</span><span class="name">Contents</span></button><button id="user-preferences-button" class="user-preferences-button button" title="Modify user preferences"><span id="avatarbutton" class="avatarbutton name">You!</span><div id="preferences_menu_holder" class="preferences_menu_holder hidden"><ol id="preferences_menu" class="preferences_menu" style="font-family: 'Roboto Serif', serif;">
+<li data-env="avatar" tabindex="-1">Choose avatar<div class="wrap_to_submenu"><span class="to_submenu">▻</span></div>
+<ol class="hidden avatar">
+<li data-val="You!" tabindex="-1">
+<span id="theYou!" class="avatarcheck">✔️</span>You!</li>
+<li data-val="😺" tabindex="-1">
+<span id="the😺" class="avatarcheck"></span>😺</li>
+<li data-val="👤" tabindex="-1">
+<span id="the👤" class="avatarcheck"></span>👤</li>
+<li data-val="👽" tabindex="-1">
+<span id="the👽" class="avatarcheck"></span>👽</li>
+<li data-val="🐶" tabindex="-1">
+<span id="the🐶" class="avatarcheck"></span>🐶</li>
+<li data-val="🐼" tabindex="-1">
+<span id="the🐼" class="avatarcheck"></span>🐼</li>
+<li data-val="🌈" tabindex="-1">
+<span id="the🌈" class="avatarcheck"></span>🌈</li>
+</ol>
+</li>
+<li data-env="fontfamily" tabindex="-1">Font family<div class="wrap_to_submenu"><span class="to_submenu">▻</span></div>
+<ol class="hidden fontfamily">
+<li data-val="face" data-change="OS" tabindex="-1" style="font-family: 'Open Sans'">
+<span id="theOS" class="ffcheck">✔️</span><span class="name">Open Sans</span><span class="sample">AaBbCc 123 PreTeXt</span>
+</li>
+<li data-val="face" data-change="RS" tabindex="-1" style="font-family: 'Roboto Serif'">
+<span id="theRS" class="ffcheck"></span><span class="name">Roboto Serif</span><span class="sample">AaBbCc 123 PreTeXt</span>
+</li>
+</ol>
+</li>
+<li data-env="font" tabindex="-1">Adjust font<div class="wrap_to_submenu"><span class="to_submenu">▻</span></div>
+<ol class="hidden fonts">
+<li>Size</li>
+<li><span id="thesize">12</span></li>
+<li data-val="size" data-change="-1" tabindex="-1" style="font-size: 80%">Smaller</li>
+<li data-val="size" data-change="1" tabindex="-1" style="font-size: 110%">Larger</li>
+<li>Width</li>
+<li><span id="thewdth">100</span></li>
+<li data-val="wdth" data-change="-5" tabindex="-1" style="font-variation-settings: 'wdth' 60">narrower</li>
+<li data-val="wdth" data-change="5" tabindex="-1" style="font-variation-settings: 'wdth' 150">wider</li>
+<li>Weight</li>
+<li><span id="thewght">400</span></li>
+<li data-val="wght" data-change="-50" tabindex="-1" style="font-weight: 200">thinner</li>
+<li data-val="wght" data-change="50" tabindex="-1" style="font-weight: 700">heavier</li>
+<li>Letter spacing</li>
+<li>
+<span id="thelspace">0</span><span class="byunits">/200</span>
+</li>
+<li data-val="lspace" data-change="-1" tabindex="-1">closer</li>
+<li data-val="lspace" data-change="1" tabindex="-1">f a r t h e r</li>
+<li>Word spacing</li>
+<li>
+<span id="thewspace">0</span><span class="byunits">/50</span>
+</li>
+<li data-val="wspace" data-change="-1" tabindex="-1">smaller gap </li>
+<li data-val="wspace" data-change="1" tabindex="-1">larger gap</li>
+<li>Line Spacing</li>
+<li>
+<span id="theheight">135</span><span class="byunits">/100</span>
+</li>
+<li data-val="height" data-change="-5" tabindex="-1" style="line-height: 1">closer<br>together</li>
+<li data-val="height" data-change="5" tabindex="-1" style="line-height: 1.75">further<br>apart</li>
+</ol>
+</li>
+<li data-env="atmosphere" tabindex="-1">Light/dark mode<div class="wrap_to_submenu"><span class="to_submenu">▻</span></div>
+<ol class="hidden atmosphere">
+<li data-val="default" tabindex="-1">
+<span id="thedefault" class="atmospherecheck">✔️</span>default</li>
+<li data-val="pastel" tabindex="-1">
+<span id="thepastel" class="atmospherecheck"></span>pastel</li>
+<li data-val="darktwilight" tabindex="-1">
+<span id="thedarktwilight" class="atmospherecheck"></span>twilight</li>
+<li data-val="dark" tabindex="-1">
+<span id="thedark" class="atmospherecheck"></span>dark</li>
+<li data-val="darkmidnight" tabindex="-1">
+<span id="thedarkmidnight" class="atmospherecheck"></span>midnight</li>
+</ol>
+</li>
+<li data-env="ruler" tabindex="-1">Reading ruler<div class="wrap_to_submenu"><span class="to_submenu">▻</span></div>
+<ol class="hidden ruler">
+<li data-val="none" tabindex="-1">
+<span id="thenone" class="rulercheck">✔️</span>none</li>
+<li data-val="underline" tabindex="-1">
+<span id="theunderline" class="rulercheck"></span>underline</li>
+<li data-val="lunderline" tabindex="-1">
+<span id="thelunderline" class="rulercheck"></span>L-underline</li>
+<li data-val="greybar" tabindex="-1">
+<span id="thegreybar" class="rulercheck"></span>grey bar</li>
+<li data-val="lightbox" tabindex="-1">
+<span id="thelightbox" class="rulercheck"></span>light box</li>
+<li data-val="sunrise" tabindex="-1">
+<span id="thesunrise" class="rulercheck"></span>sunrise</li>
+<li data-val="sunriseunderline" tabindex="-1">
+<span id="thesunriseunderline" class="rulercheck"></span>sunrise underline</li>
+<li class="moveQ">Motion by:</li>
+<li data-val="mouse" tabindex="-1">
+<span id="themouse" class="motioncheck">✔️</span>follow the mouse</li>
+<li data-val="arrow" tabindex="-1">
+<span id="thearrow" class="motioncheck"></span>up/down arrows - not yet</li>
+<li data-val="eye" tabindex="-1">
+<span id="theeye" class="motioncheck"></span>eye tracking - not yet</li>
+</ol>
+</li>
+</ol></div></button><span class="treebuttons"><a class="previous-button button" href="sec_Injective_and_Surjective_Functions.html" title="Previous"><span class="icon">&lt;</span><span class="name">Prev</span></a><a class="up-button button" href="chap_Functions.html" title="Up"><span class="icon">^</span><span class="name">Up</span></a><a class="next-button button" href="sec_Images_and_Preimages.html" title="Next"><span class="name">Next</span><span class="icon">&gt;</span></a></span><div class="searchbox"><div class="searchwidget">
+<input id="ptxsearch" class="ptxsearch" type="text" name="terms" placeholder="Search" onchange="doSearch()"><button id="searchbutton" class="searchbutton" type="button" onclick="doSearch()">🔍</button>
+</div></div></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\newcommand{\dom}{\operatorname{Dom}}
+\newcommand{\codom}{\operatorname{Codom}}
+\newcommand{\range}{\operatorname{Rng}}
+\newcommand{\lcm}{\operatorname{lcm}}
+\newcommand{\card}{\operatorname{card}}
+\newcommand{\rel}{\operatorname{rel}}
+\newcommand{\Rel}{\operatorname{Rel}}
+\newcommand{\logeq}{\Longleftrightarrow}
+\renewcommand{\implies}{\Longrightarrow}
+
+\def\tcboxmath{}
+\def\coloneqq{:=}
+\newcommand{\lt}{&lt;}
+\newcommand{\gt}{&gt;}
+\newcommand{\amp}{&amp;}
+\definecolor{fillinmathshade}{gray}{0.9}
+\newcommand{\fillinmath}[1]{\mathchoice{\colorbox{fillinmathshade}{$\displaystyle     \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\textstyle        \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptstyle      \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptscriptstyle\phantom{\,#1\,}$}}}
+\)</span></div>
+<div class="ptx-page">
+<div id="ptx-sidebar" class="ptx-sidebar"><nav id="ptx-toc" class="ptx-toc depth2"><ul class="structural">
+<li>
+<div class="toc-item"><a href="frontmatter-1.html" class="internal"><span class="title">Front Matter</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="colophon.html" class="internal"><span class="title">Colophon</span></a></div></li>
+<li><div class="toc-item"><a href="chap_preface.html" class="internal"><span class="title">Preface</span></a></div></li>
+<li><div class="toc-item"><a href="chap_acknowledgements.html" class="internal"><span class="title">Acknowledgements</span></a></div></li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="chap_intro.html" class="internal"><span class="codenumber">1</span> <span class="title">Introduction</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="sec_WhatIsThisBookAllAbout.html" class="internal"><span class="codenumber">1.1</span> <span class="title">What is This Book All About?</span></a></div></li>
+<li><div class="toc-item"><a href="sec_what_should_you_expect.html" class="internal"><span class="codenumber">1.2</span> <span class="title">What Should You Expect?</span></a></div></li>
+<li><div class="toc-item"><a href="sec_IBLApproach.html" class="internal"><span class="codenumber">1.3</span> <span class="title">An Inquiry-Based Approach</span></a></div></li>
+<li><div class="toc-item"><a href="sec_Structure.html" class="internal"><span class="codenumber">1.4</span> <span class="title">Structure of the Textbook</span></a></div></li>
+<li><div class="toc-item"><a href="sec_guidance.html" class="internal"><span class="codenumber">1.5</span> <span class="title">Some Minimal Guidance</span></a></div></li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="chap_IntroToMath.html" class="internal"><span class="codenumber">2</span> <span class="title">Mathematics and Logic</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="sec_baby_number_theory.html" class="internal"><span class="codenumber">2.1</span> <span class="title">A Taste of Number Theory</span></a></div></li>
+<li><div class="toc-item"><a href="sec_Intro_to_Logic.html" class="internal"><span class="codenumber">2.2</span> <span class="title">Introduction to Logic</span></a></div></li>
+<li><div class="toc-item"><a href="sec_Techniques_for_Proving_Conditional_Propositions.html" class="internal"><span class="codenumber">2.3</span> <span class="title">Techniques for Proving Conditional Propositions</span></a></div></li>
+<li><div class="toc-item"><a href="sec_Introduction_to_Quantification.html" class="internal"><span class="codenumber">2.4</span> <span class="title">Introduction to Quantification</span></a></div></li>
+<li><div class="toc-item"><a href="sec_More_About_Quantification.html" class="internal"><span class="codenumber">2.5</span> <span class="title">More About Quantification</span></a></div></li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="chap_SetTheory.html" class="internal"><span class="codenumber">3</span> <span class="title">Set Theory</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="sec_Sets.html" class="internal"><span class="codenumber">3.1</span> <span class="title">Sets</span></a></div></li>
+<li><div class="toc-item"><a href="sec_RussellsParadox.html" class="internal"><span class="codenumber">3.2</span> <span class="title">Russell’s Paradox</span></a></div></li>
+<li><div class="toc-item"><a href="sec_PowerSets.html" class="internal"><span class="codenumber">3.3</span> <span class="title">Power Sets</span></a></div></li>
+<li><div class="toc-item"><a href="sec_Indexing_Sets.html" class="internal"><span class="codenumber">3.4</span> <span class="title">Indexing Sets</span></a></div></li>
+<li><div class="toc-item"><a href="sec_Cartesian_Products.html" class="internal"><span class="codenumber">3.5</span> <span class="title">Cartesian Products of Sets</span></a></div></li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="chap_Induction.html" class="internal"><span class="codenumber">4</span> <span class="title">Induction</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="sec_Intro_to_Induction.html" class="internal"><span class="codenumber">4.1</span> <span class="title">Introduction to Induction</span></a></div></li>
+<li><div class="toc-item"><a href="sec_More_on_Induction.html" class="internal"><span class="codenumber">4.2</span> <span class="title">More on Induction</span></a></div></li>
+<li><div class="toc-item"><a href="sec_CompleteInduction.html" class="internal"><span class="codenumber">4.3</span> <span class="title">Complete Induction</span></a></div></li>
+<li><div class="toc-item"><a href="sec_WOP.html" class="internal"><span class="codenumber">4.4</span> <span class="title">The Well-Ordering Principle</span></a></div></li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="chap_RealNumbers.html" class="internal"><span class="codenumber">5</span> <span class="title">The Real Numbers</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="sec_AxiomsRealNumbers.html" class="internal"><span class="codenumber">5.1</span> <span class="title">Axioms of the Real Numbers</span></a></div></li>
+<li><div class="toc-item"><a href="sec_Topology.html" class="internal"><span class="codenumber">5.2</span> <span class="title">Standard Topology of the Real Line</span></a></div></li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="chap_ThreeFamousTheorems.html" class="internal"><span class="codenumber">6</span> <span class="title">Three Famous Theorems</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="sec_FTA.html" class="internal"><span class="codenumber">6.1</span> <span class="title">The Fundamental Theorem of Arithmetic</span></a></div></li>
+<li><div class="toc-item"><a href="sec_Irrationality_of_Root_2.html" class="internal"><span class="codenumber">6.2</span> <span class="title">The Irrationality of <span class="process-math">\(\sqrt{2}\)</span></span></a></div></li>
+<li><div class="toc-item"><a href="sec_Infinitude_of_Primes.html" class="internal"><span class="codenumber">6.3</span> <span class="title">The Infinitude of Primes</span></a></div></li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="chap_Relations_and_Partitions.html" class="internal"><span class="codenumber">7</span> <span class="title">Relations and Partitions</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="sec_Relations.html" class="internal"><span class="codenumber">7.1</span> <span class="title">Relations</span></a></div></li>
+<li><div class="toc-item"><a href="sec_Equivalence_Relations.html" class="internal"><span class="codenumber">7.2</span> <span class="title">Equivalence Relations</span></a></div></li>
+<li><div class="toc-item"><a href="sec_Partitions.html" class="internal"><span class="codenumber">7.3</span> <span class="title">Partitions</span></a></div></li>
+<li><div class="toc-item"><a href="sec_ModularArithmetic.html" class="internal"><span class="codenumber">7.4</span> <span class="title">Modular Arithmetic</span></a></div></li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="chap_Functions.html" class="internal"><span class="codenumber">8</span> <span class="title">Functions</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="sec_Intro_to_Functions.html" class="internal"><span class="codenumber">8.1</span> <span class="title">Introduction to Functions</span></a></div></li>
+<li><div class="toc-item"><a href="sec_Injective_and_Surjective_Functions.html" class="internal"><span class="codenumber">8.2</span> <span class="title">Injective and Surjective Functions</span></a></div></li>
+<li class="active"><div class="toc-item"><a href="sec_Compositions_and_Inverse_Functions.html" class="internal"><span class="codenumber">8.3</span> <span class="title">Compositions and Inverse Functions</span></a></div></li>
+<li><div class="toc-item"><a href="sec_Images_and_Preimages.html" class="internal"><span class="codenumber">8.4</span> <span class="title">Images and Preimages of Functions</span></a></div></li>
+<li><div class="toc-item"><a href="sec_Continuity.html" class="internal"><span class="codenumber">8.5</span> <span class="title">Continuous Real Functions</span></a></div></li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="chap_Cardinality.html" class="internal"><span class="codenumber">9</span> <span class="title">Cardinality</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="sec_Intro_to_Cardinality.html" class="internal"><span class="codenumber">9.1</span> <span class="title">Introduction to Cardinality</span></a></div></li>
+<li><div class="toc-item"><a href="sec_Finite_Sets.html" class="internal"><span class="codenumber">9.2</span> <span class="title">Finite Sets</span></a></div></li>
+<li><div class="toc-item"><a href="sec_Infinite_Sets.html" class="internal"><span class="codenumber">9.3</span> <span class="title">Infinite Sets</span></a></div></li>
+<li><div class="toc-item"><a href="sec_Countable_Sets.html" class="internal"><span class="codenumber">9.4</span> <span class="title">Countable Sets</span></a></div></li>
+<li><div class="toc-item"><a href="sec_Uncountable_Sets.html" class="internal"><span class="codenumber">9.5</span> <span class="title">Uncountable Sets</span></a></div></li>
+</ul>
+</li>
+<li><div class="toc-item"><a href="appendix_elements_of_style.html" class="internal"><span class="codenumber">A</span> <span class="title">Elements of Style for Proofs</span></a></div></li>
+<li><div class="toc-item"><a href="appendix_fancy_math_terms.html" class="internal"><span class="codenumber">B</span> <span class="title">Fancy Mathematical Terms</span></a></div></li>
+<li><div class="toc-item"><a href="appendix_paradoxes.html" class="internal"><span class="codenumber">C</span> <span class="title">Paradoxes</span></a></div></li>
+<li><div class="toc-item"><a href="appendix_definitions.html" class="internal"><span class="codenumber">D</span> <span class="title">Definitions in Mathematics</span></a></div></li>
+</ul></nav></div>
+<main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="section" id="sec_Compositions_and_Inverse_Functions"><h2 class="heading hide-type">
+<span class="type">Section</span> <span class="codenumber">8.3</span> <span class="title">Compositions and Inverse Functions</span>
+</h2>
+<div class="para" id="p-1434">We begin this section with a method for combining two functions together that have compatible domains and codomains.</div>
+<article class="definition definition-like" id="definition-58"><h3 class="heading">
+<span class="type">Definition</span><span class="space"> </span><span class="codenumber">8.52</span><span class="period">.</span>
+</h3>
+<div class="para" id="p-1435">If <span class="process-math">\(f:X\to Y\)</span> and <span class="process-math">\(g:Y\to Z\)</span> are functions, we define <span class="process-math">\(g\circ f:X\to Z\)</span> via <span class="process-math">\(\tcboxmath{(g\circ f)(x)=g(f(x))}\text{.}\)</span> The function <span class="process-math">\(g\circ f\)</span> is called the composition of <span class="process-math">\(f\)</span> and <span class="process-math">\(g\text{.}\)</span>
+</div></article><div class="para" id="p-1436">It is important to notice that the function on the right is the one that “goes first.” Moreover, we cannot compose any two random functions since the codomain of the first function must agree with the domain of the second function. In particular, <span class="process-math">\(f\circ g\)</span> may not be a sensible function even when <span class="process-math">\(g\circ f\)</span> exists. <a href="" class="xref" data-knowl="./knowl/fig_function_composition.html" title="Figure 8.53">Figure 8.53</a> provides a visual representation of function composition in terms of function diagrams.</div>
+<figure class="figure figure-like" id="fig_function_composition"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="generated/latex-image/image-19.svg" role="img" class="contained"></div>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">8.53<span class="period">.</span></span><span class="space"> </span>Visual representation of function composition.</figcaption></figure><article class="problem example-like" id="problem-198"><h3 class="heading">
+<span class="type">Problem</span><span class="space"> </span><span class="codenumber">8.54</span><span class="period">.</span>
+</h3>
+<div class="para logical" id="p-1437">
+<div class="para">Let <span class="process-math">\(X=\{1,2,3,4\}\)</span> and define <span class="process-math">\(f:X\to X\)</span> and <span class="process-math">\(g:X\to X\)</span> via</div>
+<div class="displaymath process-math">
+\begin{equation*}
+f=\{(1,1),(2,3),(3,3),(4,4)\}
+\end{equation*}
+</div>
+<div class="para">and</div>
+<div class="displaymath process-math">
+\begin{equation*}
+g=\{(1,1),(2,2),(3,1),(4,1)\}\text{.}
+\end{equation*}
+</div>
+</div> <div class="para logical" id="p-1438">
+<div class="para">For each of the following functions, draw the corresponding function diagram in the spirit of <a href="" class="xref" data-knowl="./knowl/fig_function_composition.html" title="Figure 8.53">Figure 8.53</a> and identify the range.</div>
+<ol class="lower-alpha">
+<li id="li-528"><div class="para" id="p-1439"><span class="process-math">\(\displaystyle g\circ f\)</span></div></li>
+<li id="li-529"><div class="para" id="p-1440"><span class="process-math">\(\displaystyle f\circ g\)</span></div></li>
+</ol>
+</div></article><div class="para" id="p-1441">The previous problem illustrates that <span class="process-math">\(f\circ g\)</span> and <span class="process-math">\(g\circ f\)</span> need not be equal even when both composite functions exist.</div>
+<article class="example example-like" id="example-33"><h3 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">8.55</span><span class="period">.</span>
+</h3>
+<div class="para logical" id="p-1442">
+<div class="para">Consider the inclusion map <span class="process-math">\(\iota:X\to Y\)</span> such that <span class="process-math">\(X\)</span> is a proper subset of <span class="process-math">\(Y\)</span> and suppose <span class="process-math">\(f:Y\to Z\)</span> is a function. Then the composite function <span class="process-math">\(f\circ \iota:X\to Z\)</span> is given by</div>
+<div class="displaymath process-math">
+\begin{equation*}
+f\circ \iota(x)=f(\iota(x))=f(x)
+\end{equation*}
+</div>
+<div class="para">for all <span class="process-math">\(x\in X\text{.}\)</span> Notice that <span class="process-math">\(f\circ \iota\)</span> is simply the function <span class="process-math">\(f\)</span> but with a smaller domain. In this case, we say that <span class="process-math">\(f\circ \iota\)</span> is the <em class="emphasis">restriction of <span class="process-math">\(f\)</span> to <span class="process-math">\(X\)</span></em>, which is often denoted by <span class="process-math">\(\tcboxmath{f|_X}\text{.}\)</span>
+</div>
+</div></article><article class="problem example-like" id="problem-199"><h3 class="heading">
+<span class="type">Problem</span><span class="space"> </span><span class="codenumber">8.56</span><span class="period">.</span>
+</h3>
+<div class="para" id="p-1443">Define <span class="process-math">\(f:\mathbb{R}\to \mathbb{R}\)</span> and <span class="process-math">\(g:\mathbb{R}\to \mathbb{R}\)</span> via <span class="process-math">\(f(x)=x^2\)</span> and <span class="process-math">\(g(x)=3x-5\text{,}\)</span> respectively. Determine formulas for the composite functions <span class="process-math">\(f\circ g\)</span> and <span class="process-math">\(g\circ f\text{.}\)</span>
+</div></article><article class="problem example-like" id="problem-200"><h3 class="heading">
+<span class="type">Problem</span><span class="space"> </span><span class="codenumber">8.57</span><span class="period">.</span>
+</h3>
+<div class="para logical" id="p-1444">
+<div class="para">Define <span class="process-math">\(f:\mathbb{R}\to \mathbb{R}\)</span> and <span class="process-math">\(g:\mathbb{R}\to \mathbb{R}\)</span> via</div>
+<div class="displaymath process-math">
+\begin{equation*}
+f(x)=\begin{cases}5x+7, \amp  \text{ if } x\lt  0\\ 2x+1, \amp  \text{ if } x\geq 0 \end{cases}
+\end{equation*}
+</div>
+<div class="para">and <span class="process-math">\(g(x)=7x-11\text{,}\)</span> respectively. Find a formula for the composite function <span class="process-math">\(g\circ f\text{.}\)</span>
+</div>
+</div></article><article class="problem example-like" id="problem-201"><h3 class="heading">
+<span class="type">Problem</span><span class="space"> </span><span class="codenumber">8.58</span><span class="period">.</span>
+</h3>
+<div class="para" id="p-1445">Define <span class="process-math">\(f:\mathbb{Z}/15\mathbb{Z}\to \mathbb{Z}/23\mathbb{Z}\)</span> and <span class="process-math">\(g:\mathbb{Z}/23\mathbb{Z}\to \mathbb{Z}/32\mathbb{Z}\)</span> via <span class="process-math">\(f([x]_{15})=[3x+5]_{23}\)</span> and <span class="process-math">\(g([x]_{23})=[2x+1]_{32}\text{,}\)</span> respectively. Find a formula for the composite function <span class="process-math">\(g\circ f\text{.}\)</span>
+</div></article><div class="para" id="p-1446">The following result provides some insight into where the identity map got its name.</div>
+<article class="theorem theorem-like" id="theorem-147"><h3 class="heading">
+<span class="type">Theorem</span><span class="space"> </span><span class="codenumber">8.59</span><span class="period">.</span>
+</h3>
+<div class="para" id="p-1447">If <span class="process-math">\(f:X\to Y\)</span> is a function, then <span class="process-math">\(f\circ i_X = f = i_Y\circ f\text{,}\)</span> where <span class="process-math">\(i_X\)</span> and <span class="process-math">\(i_Y\)</span> are the identity maps on <span class="process-math">\(X\)</span> and <span class="process-math">\(Y\text{,}\)</span> respectively.</div></article><div class="para" id="p-1448">The next theorem tells us that function composition is associative.</div>
+<article class="theorem theorem-like" id="theorem-148"><h3 class="heading">
+<span class="type">Theorem</span><span class="space"> </span><span class="codenumber">8.60</span><span class="period">.</span>
+</h3>
+<div class="para" id="p-1449">If <span class="process-math">\(f:X\to Y\text{,}\)</span> <span class="process-math">\(g:Y\to Z\text{,}\)</span> and <span class="process-math">\(h:Z\to W\)</span> are functions, then <span class="process-math">\((h\circ g)\circ f = h\circ (g\circ f)\text{.}\)</span>
+</div></article><article class="problem example-like" id="problem-202"><h3 class="heading">
+<span class="type">Problem</span><span class="space"> </span><span class="codenumber">8.61</span><span class="period">.</span>
+</h3>
+<div class="para logical" id="p-1450">
+<div class="para">In each case, give examples of finite sets <span class="process-math">\(X\text{,}\)</span> <span class="process-math">\(Y\text{,}\)</span> and <span class="process-math">\(Z\text{,}\)</span> and functions <span class="process-math">\(f:X\to Y\)</span> and <span class="process-math">\(g:Y\to Z\)</span> that satisfy the given conditions. Drawing a function diagram is sufficient.</div>
+<ol class="lower-alpha">
+<li id="li-530"><div class="para" id="p-1451">
+<span class="process-math">\(f\)</span> is surjective, but <span class="process-math">\(g\circ f\)</span> is not surjective.</div></li>
+<li id="li-531"><div class="para" id="p-1452">
+<span class="process-math">\(g\)</span> is surjective, but <span class="process-math">\(g\circ f\)</span> is not surjective.</div></li>
+<li id="li-532"><div class="para" id="p-1453">
+<span class="process-math">\(f\)</span> is injective, but <span class="process-math">\(g\circ f\)</span> is not injective.</div></li>
+<li id="li-533"><div class="para" id="p-1454">
+<span class="process-math">\(g\)</span> is injective, but <span class="process-math">\(g\circ f\)</span> is not injective.</div></li>
+</ol>
+</div></article><article class="theorem theorem-like" id="theorem-149"><h3 class="heading">
+<span class="type">Theorem</span><span class="space"> </span><span class="codenumber">8.62</span><span class="period">.</span>
+</h3>
+<div class="para" id="p-1455">If <span class="process-math">\(f:X\to Y\)</span> and <span class="process-math">\(g:Y\to Z\)</span> are both surjective functions, then <span class="process-math">\(g\circ f\)</span> is also surjective.</div></article><article class="theorem theorem-like" id="theorem-150"><h3 class="heading">
+<span class="type">Theorem</span><span class="space"> </span><span class="codenumber">8.63</span><span class="period">.</span>
+</h3>
+<div class="para" id="p-1456">If <span class="process-math">\(f:X\to Y\)</span> and <span class="process-math">\(g:Y\to Z\)</span> are both injective functions, then <span class="process-math">\(g\circ f\)</span> is also injective.</div></article><article class="corollary theorem-like" id="corollary-6"><h3 class="heading">
+<span class="type">Corollary</span><span class="space"> </span><span class="codenumber">8.64</span><span class="period">.</span>
+</h3>
+<div class="para" id="p-1457">If <span class="process-math">\(f:X\to Y\)</span> and <span class="process-math">\(g:Y\to Z\)</span> are both bijections, then <span class="process-math">\(g\circ f\)</span> is also a bijection.</div></article><article class="problem example-like" id="problem-203"><h3 class="heading">
+<span class="type">Problem</span><span class="space"> </span><span class="codenumber">8.65</span><span class="period">.</span>
+</h3>
+<div class="para logical" id="p-1458">
+<div class="para">Assume that <span class="process-math">\(f:X\to Y\)</span> and <span class="process-math">\(g:Y\to Z\)</span> are both functions. Determine whether each of the following statements is true or false. If a statement is true, prove it. Otherwise, provide a counterexample.</div>
+<ol class="lower-alpha">
+<li id="li-534"><div class="para" id="p-1459">If <span class="process-math">\(g\circ f\)</span> is injective, then <span class="process-math">\(f\)</span> is injective.</div></li>
+<li id="li-535"><div class="para" id="p-1460">If <span class="process-math">\(g\circ f\)</span> is injective, then <span class="process-math">\(g\)</span> is injective.</div></li>
+<li id="li-536"><div class="para" id="p-1461">If <span class="process-math">\(g\circ f\)</span> is surjective, then <span class="process-math">\(f\)</span> is surjective.</div></li>
+<li id="li-537"><div class="para" id="p-1462">If <span class="process-math">\(g\circ f\)</span> is surjective, then <span class="process-math">\(g\)</span> is surjective.</div></li>
+</ol>
+</div></article><article class="theorem theorem-like" id="theorem-151"><h3 class="heading">
+<span class="type">Theorem</span><span class="space"> </span><span class="codenumber">8.66</span><span class="period">.</span>
+</h3>
+<div class="para" id="p-1463">Let <span class="process-math">\(f:X\to Y\)</span> be a function. Then <span class="process-math">\(f\)</span> is injective if and only if there exists a function <span class="process-math">\(g:Y\to X\)</span> such that <span class="process-math">\(g\circ f=i_X\text{,}\)</span> where <span class="process-math">\(i_X\)</span> is the identity map on <span class="process-math">\(X\text{.}\)</span>
+</div></article><div class="para" id="p-1464">The function <span class="process-math">\(g\)</span> in the previous theorem is often called a <em class="emphasis">left inverse</em> of <span class="process-math">\(f\text{.}\)</span>
+</div>
+<article class="theorem theorem-like" id="theorem-152"><h3 class="heading">
+<span class="type">Theorem</span><span class="space"> </span><span class="codenumber">8.67</span><span class="period">.</span>
+</h3>
+<div class="para" id="p-1465">Let <span class="process-math">\(f:X\to Y\)</span> be a function. Then <span class="process-math">\(f\)</span> is surjective if and only if there exists a function <span class="process-math">\(g:Y\to X\)</span> such that <span class="process-math">\(f\circ g=i_Y\text{,}\)</span> where <span class="process-math">\(i_Y\)</span> is the identity map on <span class="process-math">\(Y\text{.}\)</span>
+</div></article><div class="para" id="p-1466">The function <span class="process-math">\(g\)</span> in the previous theorem is often called a <em class="emphasis">right inverse</em> of <span class="process-math">\(f\text{.}\)</span>
+</div>
+<article class="problem example-like" id="problem-204"><h3 class="heading">
+<span class="type">Problem</span><span class="space"> </span><span class="codenumber">8.68</span><span class="period">.</span>
+</h3>
+<div class="para logical" id="p-1467">
+<div class="para">Complete each of the following. Consider using finite sets and drawing a function diagram to define your functions.</div>
+<ol class="lower-alpha">
+<li id="li-538"><div class="para" id="p-1468">Provide an example of a function that has a left inverse but does not have a right inverse. Find the left inverse of your proposed function.</div></li>
+<li id="li-539"><div class="para" id="p-1469">Provide an example of a function that has a right inverse but does not have a left inverse. Find the right inverse of your proposed function.</div></li>
+</ol>
+</div></article><article class="problem example-like" id="problem-205"><h3 class="heading">
+<span class="type">Problem</span><span class="space"> </span><span class="codenumber">8.69</span><span class="period">.</span>
+</h3>
+<div class="para" id="p-1470">Define <span class="process-math">\(f:\mathbb{R}\to\mathbb{R}\)</span> via <span class="process-math">\(f(x)=x^2\text{.}\)</span> Explain why <span class="process-math">\(f\)</span> does not have a left inverse nor a right inverse.</div></article><article class="problem example-like" id="problem-206"><h3 class="heading">
+<span class="type">Problem</span><span class="space"> </span><span class="codenumber">8.70</span><span class="period">.</span>
+</h3>
+<div class="para logical" id="p-1471">
+<div class="para">Define <span class="process-math">\(f:\mathbb{R}\to[0,\infty)\)</span> via <span class="process-math">\(f(x)=x^2\)</span> and <span class="process-math">\(g:[0,\infty)\to \mathbb{R}\)</span> via <span class="process-math">\(g(x)=\sqrt{x}\text{.}\)</span>
+</div>
+<ol class="lower-alpha">
+<li id="li-540"><div class="para" id="p-1472">Explain why <span class="process-math">\(f\)</span> does not have a left inverse.</div></li>
+<li id="li-541"><div class="para" id="p-1473">Verify that <span class="process-math">\(g\)</span> is the right inverse of <span class="process-math">\(f\)</span> by computing <span class="process-math">\(f\circ g(x)\text{.}\)</span>
+</div></li>
+</ol>
+</div></article><article class="corollary theorem-like" id="cor_two-sided_inverse"><h3 class="heading">
+<span class="type">Corollary</span><span class="space"> </span><span class="codenumber">8.71</span><span class="period">.</span>
+</h3>
+<div class="para" id="p-1474">If <span class="process-math">\(f:X\to Y\)</span> and <span class="process-math">\(g:Y\to X\)</span> are functions satisfying <span class="process-math">\(g\circ f=i_X\)</span> and <span class="process-math">\(f\circ g=i_Y\text{,}\)</span> then <span class="process-math">\(f\)</span> is a bijection.</div></article><div class="para" id="p-1475">In the previous result, the functions <span class="process-math">\(f\)</span> and <span class="process-math">\(g\)</span> “cancel” each other out. In this case, we say that <span class="process-math">\(g\)</span> is a <em class="emphasis">two-sided inverse</em> of <span class="process-math">\(f\text{.}\)</span>
+</div>
+<article class="definition definition-like" id="def_inverse_of_a_function"><h3 class="heading">
+<span class="type">Definition</span><span class="space"> </span><span class="codenumber">8.72</span><span class="period">.</span>
+</h3>
+<div class="para logical" id="p-1476">
+<div class="para">Let <span class="process-math">\(f:X\to Y\)</span> be a function. The relation <span class="process-math">\(f^{-1}\)</span> from <span class="process-math">\(Y\)</span> to <span class="process-math">\(X\text{,}\)</span> called <span class="process-math">\(f\)</span> inverse, is defined via</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\tcboxmath{f^{-1}=\{(f(x),x)\in Y\times X\mid x\in X\}}\text{.}
+\end{equation*}
+</div>
+</div></article><div class="para" id="p-1477">Notice that we called <span class="process-math">\(f^{-1}\)</span> a relation and not a function. In some circumstances <span class="process-math">\(f^{-1}\)</span> will be a function and sometimes it will not be. Given a function <span class="process-math">\(f\text{,}\)</span> the inverse relation is simply the set of ordered pairs that results from reversing the ordered pairs in <span class="process-math">\(f\text{.}\)</span> It is worth pointing out that we have only defined inverse relations for functions. However, one can easily adapt our definition to handle arbitrary relations.</div>
+<article class="problem example-like" id="problem-207"><h3 class="heading">
+<span class="type">Problem</span><span class="space"> </span><span class="codenumber">8.73</span><span class="period">.</span>
+</h3>
+<div class="para" id="p-1478">Consider the function <span class="process-math">\(f\)</span> given in <a href="" class="xref" data-knowl="./knowl/ex_function.html" title="Example 8.2">Example 8.2</a> (see <a href="" class="xref" data-knowl="./knowl/fig_function_diagram.html" title="Figure 8.3">Figure 8.3</a>). List the ordered pairs in the relation <span class="process-math">\(f^{-1}\)</span> and draw the corresponding digraph. Is <span class="process-math">\(f^{-1}\)</span> a function?</div></article><article class="problem example-like" id="problem-208"><h3 class="heading">
+<span class="type">Problem</span><span class="space"> </span><span class="codenumber">8.74</span><span class="period">.</span>
+</h3>
+<div class="para" id="p-1479">Provide an example of a function <span class="process-math">\(f:X\to Y\)</span> such that <span class="process-math">\(f^{-1}\)</span> is a function. Drawing a function diagram is sufficient.</div></article><article class="problem example-like" id="problem-209"><h3 class="heading">
+<span class="type">Problem</span><span class="space"> </span><span class="codenumber">8.75</span><span class="period">.</span>
+</h3>
+<div class="para" id="p-1480">Suppose <span class="process-math">\(X\subseteq \mathbb{R}\)</span> and <span class="process-math">\(f:X\to \mathbb{R}\)</span> is a function. What is the relationship between the graph of the function <span class="process-math">\(f\)</span> and the graph of the inverse relation <span class="process-math">\(f^{-1}\text{?}\)</span>
+</div></article><article class="theorem theorem-like" id="thm_inverse_function_iff_bijection"><h3 class="heading">
+<span class="type">Theorem</span><span class="space"> </span><span class="codenumber">8.76</span><span class="period">.</span>
+</h3>
+<div class="para" id="p-1481">Let <span class="process-math">\(f:X\to Y\)</span> be a function. Then <span class="process-math">\(f^{-1}:Y\to X\)</span> is a function if and only if <span class="process-math">\(f\)</span> is a bijection.</div></article><article class="problem example-like" id="problem-210"><h3 class="heading">
+<span class="type">Problem</span><span class="space"> </span><span class="codenumber">8.77</span><span class="period">.</span>
+</h3>
+<div class="para" id="p-1482">Suppose <span class="process-math">\(f:\mathbb{R}\to \mathbb{R}\)</span> is a function. Fill in the blank with the appropriate phrase.</div> <blockquote class="blockquote" id="blockquote-8">The relation <span class="process-math">\(f^{-1}\)</span> is a function if and only if every horizontal line hits the graph of <span class="process-math">\(f\)</span> <em class="emphasis">                               </em>.</blockquote> <div class="para" id="p-1483">Explain why this statement is true.</div></article><article class="theorem theorem-like" id="thm_comp_of_inverses"><h3 class="heading">
+<span class="type">Theorem</span><span class="space"> </span><span class="codenumber">8.78</span><span class="period">.</span>
+</h3>
+<div class="para logical" id="p-1484">
+<div class="para">If <span class="process-math">\(f:X\to Y\)</span> is a bijection, then</div>
+<ol class="lower-alpha">
+<li id="li-542"><div class="para" id="p-1485">
+<span class="process-math">\(f^{-1}\circ f=i_X\text{,}\)</span> and</div></li>
+<li id="li-543"><div class="para" id="p-1486"><span class="process-math">\(f\circ f^{-1}=i_Y\text{.}\)</span></div></li>
+</ol>
+</div></article><article class="theorem theorem-like" id="thm_f_inverse_bijection"><h3 class="heading">
+<span class="type">Theorem</span><span class="space"> </span><span class="codenumber">8.79</span><span class="period">.</span>
+</h3>
+<div class="para" id="p-1487">If <span class="process-math">\(f:X\to Y\)</span> is a bijection, then <span class="process-math">\(f^{-1}:Y\to X\)</span> is also a bijection.</div></article><article class="theorem theorem-like" id="thm_unique_inverse"><h3 class="heading">
+<span class="type">Theorem</span><span class="space"> </span><span class="codenumber">8.80</span><span class="period">.</span>
+</h3>
+<div class="para" id="p-1488">If <span class="process-math">\(f:X\to Y\)</span> and <span class="process-math">\(g:Y\to X\)</span> are functions such that <span class="process-math">\(g\circ f=i_X\)</span> and <span class="process-math">\(f\circ g=i_Y\text{,}\)</span> then <span class="process-math">\(f^{-1}\)</span> is a function and <span class="process-math">\(g=f^{-1}\text{.}\)</span>
+</div></article><div class="para" id="p-1489">The upshot of <a href="" class="xref" data-knowl="./knowl/thm_comp_of_inverses.html" title="Theorem 8.78">Theorems 8.78</a> and <a href="" class="xref" data-knowl="./knowl/thm_unique_inverse.html" title="Theorem 8.80">Theorem 8.80</a> is that if <span class="process-math">\(f^{-1}\)</span> is a function, then it is the only one satisfying the two-sided inverse property exhibited in <a href="" class="xref" data-knowl="./knowl/cor_two-sided_inverse.html" title="Corollary 8.71">Corollary 8.71</a> and <a href="" class="xref" data-knowl="./knowl/thm_comp_of_inverses.html" title="Theorem 8.78">Theorem 8.78</a>. That is, inverse functions are unique when they exist. When the relation <span class="process-math">\(f^{-1}\)</span> is a function, we call it the <em class="emphasis">inverse function</em> of <span class="process-math">\(f\text{.}\)</span>
+</div>
+<article class="problem example-like" id="problem-211"><h3 class="heading">
+<span class="type">Problem</span><span class="space"> </span><span class="codenumber">8.81</span><span class="period">.</span>
+</h3>
+<div class="para" id="p-1490">Let <span class="process-math">\(X\subseteq\mathbb{R}\)</span> and suppose <span class="process-math">\(f:X\to\mathbb{R}\)</span> is a function. Explain the difference between <span class="process-math">\(f^{-1}(x)\)</span> and <span class="process-math">\([f(x)]^{-1}\text{.}\)</span> When does each exist?</div></article><article class="problem example-like" id="problem-212"><h3 class="heading">
+<span class="type">Problem</span><span class="space"> </span><span class="codenumber">8.82</span><span class="period">.</span>
+</h3>
+<div class="para" id="p-1491">Let <span class="process-math">\(X,Y\subseteq\mathbb{R}\)</span> and define <span class="process-math">\(f:X\to Y\)</span> via <span class="process-math">\(f(x)=e^x\)</span> and <span class="process-math">\(g:Y\to X\)</span> via <span class="process-math">\(g(x)=\ln(x)\text{.}\)</span> Identify the largest possible choices for <span class="process-math">\(X\)</span> and <span class="process-math">\(Y\)</span> so that <span class="process-math">\(f\)</span> and <span class="process-math">\(g\)</span> are inverses of each other.</div></article><article class="theorem theorem-like" id="thm_inverse_of_inverse"><h3 class="heading">
+<span class="type">Theorem</span><span class="space"> </span><span class="codenumber">8.83</span><span class="period">.</span>
+</h3>
+<div class="para" id="p-1492">If <span class="process-math">\(f:X\to Y\)</span> is a bijection, then <span class="process-math">\((f^{-1})^{-1}=f\text{.}\)</span>
+</div></article><div class="para" id="p-1493">In the previous theorem, we restricted our attention to bijections so that <span class="process-math">\(f^{-1}\)</span> would be a function, thus making <span class="process-math">\((f^{-1})^{-1}\)</span> a sensible inverse relation in light of <a href="" class="xref" data-knowl="./knowl/def_inverse_of_a_function.html" title="Definition 8.72">Definition 8.72</a>. If we had defined inverses for arbitrary relations, then we would not have needed to require the function in <a href="" class="xref" data-knowl="./knowl/thm_inverse_of_inverse.html" title="Theorem 8.83">Theorem 8.83</a> to be a bijection. In fact, we do not even need to require the relation to be a function. That is, if <span class="process-math">\(R\)</span> is a relation from <span class="process-math">\(X\)</span> to <span class="process-math">\(Y\text{,}\)</span> then <span class="process-math">\((R^{-1})^{-1}=R\text{,}\)</span> as expected. Similarly, the next result generalizes to arbitrary relations.</div>
+<article class="theorem theorem-like" id="theorem-158"><h3 class="heading">
+<span class="type">Theorem</span><span class="space"> </span><span class="codenumber">8.84</span><span class="period">.</span>
+</h3>
+<div class="para" id="p-1494">If <span class="process-math">\(f:X\to Y\)</span> and <span class="process-math">\(g:Y\to Z\)</span> are both bijections, then <span class="process-math">\((g\circ f)^{-1}=f^{-1}\circ g^{-1}\text{.}\)</span>
+</div></article><div class="para" id="p-1495">The previous theorem is sometimes referred to as the “socks and shoes theorem”. Do you see how it got this name?</div>
+<div class="para" id="p-1496">\epigraph{The most difficult thing is the decision to act. The rest is merely tenacity.}{Amelia Earhart, aviation pioneer}</div></section></div>
+<div class="ptx-content-footer">
+<a class="previous-button button" href="sec_Injective_and_Surjective_Functions.html" title="Previous"><span class="icon">&lt;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon">^</span><span class="name">Top</span></a><a class="next-button button" href="sec_Images_and_Preimages.html" title="Next"><span class="name">Next</span><span class="icon">&gt;</span></a>
+</div></main>
+</div>
+<div id="ptx-page-footer" class="ptx-page-footer">
+<a class="pretext-link" href="https://pretextbook.org" title="PreTeXt"><div class="logo"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="338 3000 8772 6866"><g style="stroke-width:.025in; stroke:black; fill:none"><polyline points="472,3590 472,9732 " style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round; "></polyline><path style="stroke:#000000;stroke-width:126;stroke-linecap:butt;" d="M 4724,9448 A 4660 4660  0  0  1  8598  9259"></path><path style="stroke:#000000;stroke-width:174;stroke-linecap:butt;" d="M 4488,9685 A 4228 4228  0  0  0   472  9732"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:butt;" d="M 4724,3590 A 4241 4241  0  0  1  8598  3496"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:round;" d="M 850,3496  A 4241 4241  0  0  1  4724  3590"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:round;" d="M 850,9259  A 4507 4507  0  0  1  4724  9448"></path><polyline points="5385,4299 4062,8125" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8598,3496 8598,9259" style="stroke:#000000;stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="850,3496 850,9259" style="stroke:#000000;stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="4960,9685 4488,9685" style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="3070,4582 1889,6141 3070,7700" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="6418,4582 7600,6141 6418,7700" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8976,3590 8976,9732" style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><path style="stroke:#000000;stroke-width:174;stroke-linecap:butt;" d="M 4960,9685 A 4228 4228  0  0  1  8976  9732"></path></g></svg></div></a><a class="runestone-link" href="https://runestone.academy" title="Runestone Academy"><img class="logo" src="https://runestone.academy/runestone/static/images/RAIcon_cropped.png"></a><a class="mathjax-link" href="https://www.mathjax.org" title="MathJax"><img class="logo" src="https://www.mathjax.org/badge/badge-square-2.png"></a>
+</div>
+</body>
+</html>

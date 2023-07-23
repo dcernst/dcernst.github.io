@@ -1,0 +1,709 @@
+<!DOCTYPE html>
+<!--********************************************-->
+<!--*       Generated from PreTeXt source      *-->
+<!--*                                          *-->
+<!--*         https://pretextbook.org          *-->
+<!--*                                          *-->
+<!--********************************************-->
+<html lang="en-US" dir="ltr">
+<head xmlns:og="http://ogp.me/ns#" xmlns:book="https://ogp.me/ns/book#">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Axioms of the Real Numbers</title>
+<meta name="Keywords" content="Authored in PreTeXt">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:type" content="book">
+<meta property="book:title" content="An Introduction to Proof via Inquiry-Based Learning">
+<meta property="book:author" content="Dana C. Ernst, PhD">
+<script>
+var runestoneMathReady = new Promise((resolve) => window.rsMathReady = resolve);
+window.MathJax = {
+  "tex": {
+    "inlineMath": [
+      [
+        "\\(",
+        "\\)"
+      ]
+    ],
+    "tags": "none",
+    "tagSide": "right",
+    "tagIndent": ".8em",
+    "packages": {
+      "[+]": [
+        "base",
+        "extpfeil",
+        "ams",
+        "amscd",
+        "color",
+        "newcommand",
+        "knowl"
+      ]
+    }
+  },
+  "options": {
+    "ignoreHtmlClass": "tex2jax_ignore|ignore-math",
+    "processHtmlClass": "process-math"
+  },
+  "chtml": {
+    "scale": 0.98,
+    "mtextInheritFont": true
+  },
+  "loader": {
+    "load": [
+      "input/asciimath",
+      "[tex]/extpfeil",
+      "[tex]/amscd",
+      "[tex]/color",
+      "[tex]/newcommand",
+      "[pretext]/mathjaxknowl3.js"
+    ],
+    "paths": {
+      "pretext": "https://pretextbook.org/js/lib"
+    }
+  },
+  "startup": {
+    pageReady() {
+      return MathJax.startup.defaultPageReady().then(function () {
+      console.log("in ready function");
+      rsMathReady();
+      }
+    )}
+  }
+};
+</script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="https://pretextbook.org/js/0.3/pretext_search.js"></script><link href="https://pretextbook.org/css/0.7/pretext_search.css" rel="stylesheet" type="text/css">
+<script>js_version = 0.3</script><script src="https://pretextbook.org/js/lib/jquery.min.js"></script><script src="https://pretextbook.org/js/lib/jquery.sticky.js"></script><script src="https://pretextbook.org/js/lib/jquery.espy.min.js"></script><script src="https://pretextbook.org/js/0.3/pretext.js"></script><script>miniversion=0.1</script><script src="https://pretextbook.org/js/0.3/pretext_add_on.js?x=1"></script><script src="https://pretextbook.org/js/0.3/user_preferences.js"></script><script src="https://pretextbook.org/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
+</script><link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&amp;family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&amp;family=Tinos:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.cdnfonts.com/css/dejavu-serif" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz,wdth,wght@8..144,50..150,100..900&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wdth,wght@75..100,300..800&amp;display=swap" rel="stylesheet">
+<link href="https://pretextbook.org/css/0.7/pretext.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.7/pretext_add_on.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.7/shell_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.7/banner_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.7/navbar_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.7/toc_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.7/knowls_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.7/style_oscarlevin.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.7/colors_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.7/setcolors.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" href="external/custom-styles.css">
+</head>
+<body class="pretext book ignore-math">
+<a class="assistive" href="#ptx-content">Skip to main content</a><header id="ptx-masthead" class="ptx-masthead"><div class="ptx-banner">
+<a id="logo-link" class="logo-link" href=""></a><div class="title-container">
+<h1 class="heading"><a href="book-1.html"><span class="title">An Introduction to Proof via Inquiry-Based Learning</span></a></h1>
+<p class="byline">Dana C. Ernst, PhD</p>
+</div>
+<div id="searchresultsplaceholder" class="searchresultsplaceholder" style="display: none">
+<button id="closesearchresults" class="closesearchresults" onclick="document.getElementById('searchresultsplaceholder').style.display = 'none'; return false;">x</button><h2>Search Results: <span id="searchterms" class="searchterms"></span>
+</h2>
+<div id="searchempty" class="searchempty"><span>No results.</span></div>
+<ol id="searchresults" class="searchresults"></ol>
+</div>
+</div></header><nav id="ptx-navbar" class="ptx-navbar navbar"><button class="toc-toggle button" aria-label="Show or hide table of contents"><span class="icon">☰</span><span class="name">Contents</span></button><button id="user-preferences-button" class="user-preferences-button button" title="Modify user preferences"><span id="avatarbutton" class="avatarbutton name">You!</span><div id="preferences_menu_holder" class="preferences_menu_holder hidden"><ol id="preferences_menu" class="preferences_menu" style="font-family: 'Roboto Serif', serif;">
+<li data-env="avatar" tabindex="-1">Choose avatar<div class="wrap_to_submenu"><span class="to_submenu">▻</span></div>
+<ol class="hidden avatar">
+<li data-val="You!" tabindex="-1">
+<span id="theYou!" class="avatarcheck">✔️</span>You!</li>
+<li data-val="😺" tabindex="-1">
+<span id="the😺" class="avatarcheck"></span>😺</li>
+<li data-val="👤" tabindex="-1">
+<span id="the👤" class="avatarcheck"></span>👤</li>
+<li data-val="👽" tabindex="-1">
+<span id="the👽" class="avatarcheck"></span>👽</li>
+<li data-val="🐶" tabindex="-1">
+<span id="the🐶" class="avatarcheck"></span>🐶</li>
+<li data-val="🐼" tabindex="-1">
+<span id="the🐼" class="avatarcheck"></span>🐼</li>
+<li data-val="🌈" tabindex="-1">
+<span id="the🌈" class="avatarcheck"></span>🌈</li>
+</ol>
+</li>
+<li data-env="fontfamily" tabindex="-1">Font family<div class="wrap_to_submenu"><span class="to_submenu">▻</span></div>
+<ol class="hidden fontfamily">
+<li data-val="face" data-change="OS" tabindex="-1" style="font-family: 'Open Sans'">
+<span id="theOS" class="ffcheck">✔️</span><span class="name">Open Sans</span><span class="sample">AaBbCc 123 PreTeXt</span>
+</li>
+<li data-val="face" data-change="RS" tabindex="-1" style="font-family: 'Roboto Serif'">
+<span id="theRS" class="ffcheck"></span><span class="name">Roboto Serif</span><span class="sample">AaBbCc 123 PreTeXt</span>
+</li>
+</ol>
+</li>
+<li data-env="font" tabindex="-1">Adjust font<div class="wrap_to_submenu"><span class="to_submenu">▻</span></div>
+<ol class="hidden fonts">
+<li>Size</li>
+<li><span id="thesize">12</span></li>
+<li data-val="size" data-change="-1" tabindex="-1" style="font-size: 80%">Smaller</li>
+<li data-val="size" data-change="1" tabindex="-1" style="font-size: 110%">Larger</li>
+<li>Width</li>
+<li><span id="thewdth">100</span></li>
+<li data-val="wdth" data-change="-5" tabindex="-1" style="font-variation-settings: 'wdth' 60">narrower</li>
+<li data-val="wdth" data-change="5" tabindex="-1" style="font-variation-settings: 'wdth' 150">wider</li>
+<li>Weight</li>
+<li><span id="thewght">400</span></li>
+<li data-val="wght" data-change="-50" tabindex="-1" style="font-weight: 200">thinner</li>
+<li data-val="wght" data-change="50" tabindex="-1" style="font-weight: 700">heavier</li>
+<li>Letter spacing</li>
+<li>
+<span id="thelspace">0</span><span class="byunits">/200</span>
+</li>
+<li data-val="lspace" data-change="-1" tabindex="-1">closer</li>
+<li data-val="lspace" data-change="1" tabindex="-1">f a r t h e r</li>
+<li>Word spacing</li>
+<li>
+<span id="thewspace">0</span><span class="byunits">/50</span>
+</li>
+<li data-val="wspace" data-change="-1" tabindex="-1">smaller gap </li>
+<li data-val="wspace" data-change="1" tabindex="-1">larger gap</li>
+<li>Line Spacing</li>
+<li>
+<span id="theheight">135</span><span class="byunits">/100</span>
+</li>
+<li data-val="height" data-change="-5" tabindex="-1" style="line-height: 1">closer<br>together</li>
+<li data-val="height" data-change="5" tabindex="-1" style="line-height: 1.75">further<br>apart</li>
+</ol>
+</li>
+<li data-env="atmosphere" tabindex="-1">Light/dark mode<div class="wrap_to_submenu"><span class="to_submenu">▻</span></div>
+<ol class="hidden atmosphere">
+<li data-val="default" tabindex="-1">
+<span id="thedefault" class="atmospherecheck">✔️</span>default</li>
+<li data-val="pastel" tabindex="-1">
+<span id="thepastel" class="atmospherecheck"></span>pastel</li>
+<li data-val="darktwilight" tabindex="-1">
+<span id="thedarktwilight" class="atmospherecheck"></span>twilight</li>
+<li data-val="dark" tabindex="-1">
+<span id="thedark" class="atmospherecheck"></span>dark</li>
+<li data-val="darkmidnight" tabindex="-1">
+<span id="thedarkmidnight" class="atmospherecheck"></span>midnight</li>
+</ol>
+</li>
+<li data-env="ruler" tabindex="-1">Reading ruler<div class="wrap_to_submenu"><span class="to_submenu">▻</span></div>
+<ol class="hidden ruler">
+<li data-val="none" tabindex="-1">
+<span id="thenone" class="rulercheck">✔️</span>none</li>
+<li data-val="underline" tabindex="-1">
+<span id="theunderline" class="rulercheck"></span>underline</li>
+<li data-val="lunderline" tabindex="-1">
+<span id="thelunderline" class="rulercheck"></span>L-underline</li>
+<li data-val="greybar" tabindex="-1">
+<span id="thegreybar" class="rulercheck"></span>grey bar</li>
+<li data-val="lightbox" tabindex="-1">
+<span id="thelightbox" class="rulercheck"></span>light box</li>
+<li data-val="sunrise" tabindex="-1">
+<span id="thesunrise" class="rulercheck"></span>sunrise</li>
+<li data-val="sunriseunderline" tabindex="-1">
+<span id="thesunriseunderline" class="rulercheck"></span>sunrise underline</li>
+<li class="moveQ">Motion by:</li>
+<li data-val="mouse" tabindex="-1">
+<span id="themouse" class="motioncheck">✔️</span>follow the mouse</li>
+<li data-val="arrow" tabindex="-1">
+<span id="thearrow" class="motioncheck"></span>up/down arrows - not yet</li>
+<li data-val="eye" tabindex="-1">
+<span id="theeye" class="motioncheck"></span>eye tracking - not yet</li>
+</ol>
+</li>
+</ol></div></button><span class="treebuttons"><a class="previous-button button" href="chap_RealNumbers.html" title="Previous"><span class="icon">&lt;</span><span class="name">Prev</span></a><a class="up-button button" href="chap_RealNumbers.html" title="Up"><span class="icon">^</span><span class="name">Up</span></a><a class="next-button button" href="sec_Topology.html" title="Next"><span class="name">Next</span><span class="icon">&gt;</span></a></span><div class="searchbox"><div class="searchwidget">
+<input id="ptxsearch" class="ptxsearch" type="text" name="terms" placeholder="Search" onchange="doSearch()"><button id="searchbutton" class="searchbutton" type="button" onclick="doSearch()">🔍</button>
+</div></div></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\newcommand{\dom}{\operatorname{Dom}}
+\newcommand{\codom}{\operatorname{Codom}}
+\newcommand{\range}{\operatorname{Rng}}
+\newcommand{\lcm}{\operatorname{lcm}}
+\newcommand{\card}{\operatorname{card}}
+\newcommand{\rel}{\operatorname{rel}}
+\newcommand{\Rel}{\operatorname{Rel}}
+\newcommand{\logeq}{\Longleftrightarrow}
+\renewcommand{\implies}{\Longrightarrow}
+
+\def\tcboxmath{}
+\def\coloneqq{:=}
+\newcommand{\lt}{&lt;}
+\newcommand{\gt}{&gt;}
+\newcommand{\amp}{&amp;}
+\definecolor{fillinmathshade}{gray}{0.9}
+\newcommand{\fillinmath}[1]{\mathchoice{\colorbox{fillinmathshade}{$\displaystyle     \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\textstyle        \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptstyle      \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptscriptstyle\phantom{\,#1\,}$}}}
+\)</span></div>
+<div class="ptx-page">
+<div id="ptx-sidebar" class="ptx-sidebar"><nav id="ptx-toc" class="ptx-toc depth2"><ul class="structural">
+<li>
+<div class="toc-item"><a href="frontmatter-1.html" class="internal"><span class="title">Front Matter</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="colophon.html" class="internal"><span class="title">Colophon</span></a></div></li>
+<li><div class="toc-item"><a href="chap_preface.html" class="internal"><span class="title">Preface</span></a></div></li>
+<li><div class="toc-item"><a href="chap_acknowledgements.html" class="internal"><span class="title">Acknowledgements</span></a></div></li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="chap_intro.html" class="internal"><span class="codenumber">1</span> <span class="title">Introduction</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="sec_WhatIsThisBookAllAbout.html" class="internal"><span class="codenumber">1.1</span> <span class="title">What is This Book All About?</span></a></div></li>
+<li><div class="toc-item"><a href="sec_what_should_you_expect.html" class="internal"><span class="codenumber">1.2</span> <span class="title">What Should You Expect?</span></a></div></li>
+<li><div class="toc-item"><a href="sec_IBLApproach.html" class="internal"><span class="codenumber">1.3</span> <span class="title">An Inquiry-Based Approach</span></a></div></li>
+<li><div class="toc-item"><a href="sec_Structure.html" class="internal"><span class="codenumber">1.4</span> <span class="title">Structure of the Textbook</span></a></div></li>
+<li><div class="toc-item"><a href="sec_guidance.html" class="internal"><span class="codenumber">1.5</span> <span class="title">Some Minimal Guidance</span></a></div></li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="chap_IntroToMath.html" class="internal"><span class="codenumber">2</span> <span class="title">Mathematics and Logic</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="sec_baby_number_theory.html" class="internal"><span class="codenumber">2.1</span> <span class="title">A Taste of Number Theory</span></a></div></li>
+<li><div class="toc-item"><a href="sec_Intro_to_Logic.html" class="internal"><span class="codenumber">2.2</span> <span class="title">Introduction to Logic</span></a></div></li>
+<li><div class="toc-item"><a href="sec_Techniques_for_Proving_Conditional_Propositions.html" class="internal"><span class="codenumber">2.3</span> <span class="title">Techniques for Proving Conditional Propositions</span></a></div></li>
+<li><div class="toc-item"><a href="sec_Introduction_to_Quantification.html" class="internal"><span class="codenumber">2.4</span> <span class="title">Introduction to Quantification</span></a></div></li>
+<li><div class="toc-item"><a href="sec_More_About_Quantification.html" class="internal"><span class="codenumber">2.5</span> <span class="title">More About Quantification</span></a></div></li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="chap_SetTheory.html" class="internal"><span class="codenumber">3</span> <span class="title">Set Theory</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="sec_Sets.html" class="internal"><span class="codenumber">3.1</span> <span class="title">Sets</span></a></div></li>
+<li><div class="toc-item"><a href="sec_RussellsParadox.html" class="internal"><span class="codenumber">3.2</span> <span class="title">Russell’s Paradox</span></a></div></li>
+<li><div class="toc-item"><a href="sec_PowerSets.html" class="internal"><span class="codenumber">3.3</span> <span class="title">Power Sets</span></a></div></li>
+<li><div class="toc-item"><a href="sec_Indexing_Sets.html" class="internal"><span class="codenumber">3.4</span> <span class="title">Indexing Sets</span></a></div></li>
+<li><div class="toc-item"><a href="sec_Cartesian_Products.html" class="internal"><span class="codenumber">3.5</span> <span class="title">Cartesian Products of Sets</span></a></div></li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="chap_Induction.html" class="internal"><span class="codenumber">4</span> <span class="title">Induction</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="sec_Intro_to_Induction.html" class="internal"><span class="codenumber">4.1</span> <span class="title">Introduction to Induction</span></a></div></li>
+<li><div class="toc-item"><a href="sec_More_on_Induction.html" class="internal"><span class="codenumber">4.2</span> <span class="title">More on Induction</span></a></div></li>
+<li><div class="toc-item"><a href="sec_CompleteInduction.html" class="internal"><span class="codenumber">4.3</span> <span class="title">Complete Induction</span></a></div></li>
+<li><div class="toc-item"><a href="sec_WOP.html" class="internal"><span class="codenumber">4.4</span> <span class="title">The Well-Ordering Principle</span></a></div></li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="chap_RealNumbers.html" class="internal"><span class="codenumber">5</span> <span class="title">The Real Numbers</span></a></div>
+<ul class="structural">
+<li class="active"><div class="toc-item"><a href="sec_AxiomsRealNumbers.html" class="internal"><span class="codenumber">5.1</span> <span class="title">Axioms of the Real Numbers</span></a></div></li>
+<li><div class="toc-item"><a href="sec_Topology.html" class="internal"><span class="codenumber">5.2</span> <span class="title">Standard Topology of the Real Line</span></a></div></li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="chap_ThreeFamousTheorems.html" class="internal"><span class="codenumber">6</span> <span class="title">Three Famous Theorems</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="sec_FTA.html" class="internal"><span class="codenumber">6.1</span> <span class="title">The Fundamental Theorem of Arithmetic</span></a></div></li>
+<li><div class="toc-item"><a href="sec_Irrationality_of_Root_2.html" class="internal"><span class="codenumber">6.2</span> <span class="title">The Irrationality of <span class="process-math">\(\sqrt{2}\)</span></span></a></div></li>
+<li><div class="toc-item"><a href="sec_Infinitude_of_Primes.html" class="internal"><span class="codenumber">6.3</span> <span class="title">The Infinitude of Primes</span></a></div></li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="chap_Relations_and_Partitions.html" class="internal"><span class="codenumber">7</span> <span class="title">Relations and Partitions</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="sec_Relations.html" class="internal"><span class="codenumber">7.1</span> <span class="title">Relations</span></a></div></li>
+<li><div class="toc-item"><a href="sec_Equivalence_Relations.html" class="internal"><span class="codenumber">7.2</span> <span class="title">Equivalence Relations</span></a></div></li>
+<li><div class="toc-item"><a href="sec_Partitions.html" class="internal"><span class="codenumber">7.3</span> <span class="title">Partitions</span></a></div></li>
+<li><div class="toc-item"><a href="sec_ModularArithmetic.html" class="internal"><span class="codenumber">7.4</span> <span class="title">Modular Arithmetic</span></a></div></li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="chap_Functions.html" class="internal"><span class="codenumber">8</span> <span class="title">Functions</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="sec_Intro_to_Functions.html" class="internal"><span class="codenumber">8.1</span> <span class="title">Introduction to Functions</span></a></div></li>
+<li><div class="toc-item"><a href="sec_Injective_and_Surjective_Functions.html" class="internal"><span class="codenumber">8.2</span> <span class="title">Injective and Surjective Functions</span></a></div></li>
+<li><div class="toc-item"><a href="sec_Compositions_and_Inverse_Functions.html" class="internal"><span class="codenumber">8.3</span> <span class="title">Compositions and Inverse Functions</span></a></div></li>
+<li><div class="toc-item"><a href="sec_Images_and_Preimages.html" class="internal"><span class="codenumber">8.4</span> <span class="title">Images and Preimages of Functions</span></a></div></li>
+<li><div class="toc-item"><a href="sec_Continuity.html" class="internal"><span class="codenumber">8.5</span> <span class="title">Continuous Real Functions</span></a></div></li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="chap_Cardinality.html" class="internal"><span class="codenumber">9</span> <span class="title">Cardinality</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="sec_Intro_to_Cardinality.html" class="internal"><span class="codenumber">9.1</span> <span class="title">Introduction to Cardinality</span></a></div></li>
+<li><div class="toc-item"><a href="sec_Finite_Sets.html" class="internal"><span class="codenumber">9.2</span> <span class="title">Finite Sets</span></a></div></li>
+<li><div class="toc-item"><a href="sec_Infinite_Sets.html" class="internal"><span class="codenumber">9.3</span> <span class="title">Infinite Sets</span></a></div></li>
+<li><div class="toc-item"><a href="sec_Countable_Sets.html" class="internal"><span class="codenumber">9.4</span> <span class="title">Countable Sets</span></a></div></li>
+<li><div class="toc-item"><a href="sec_Uncountable_Sets.html" class="internal"><span class="codenumber">9.5</span> <span class="title">Uncountable Sets</span></a></div></li>
+</ul>
+</li>
+<li><div class="toc-item"><a href="appendix_elements_of_style.html" class="internal"><span class="codenumber">A</span> <span class="title">Elements of Style for Proofs</span></a></div></li>
+<li><div class="toc-item"><a href="appendix_fancy_math_terms.html" class="internal"><span class="codenumber">B</span> <span class="title">Fancy Mathematical Terms</span></a></div></li>
+<li><div class="toc-item"><a href="appendix_paradoxes.html" class="internal"><span class="codenumber">C</span> <span class="title">Paradoxes</span></a></div></li>
+<li><div class="toc-item"><a href="appendix_definitions.html" class="internal"><span class="codenumber">D</span> <span class="title">Definitions in Mathematics</span></a></div></li>
+</ul></nav></div>
+<main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="section" id="sec_AxiomsRealNumbers"><h2 class="heading hide-type">
+<span class="type">Section</span> <span class="codenumber">5.1</span> <span class="title">Axioms of the Real Numbers</span>
+</h2>
+<div class="para logical" id="p-730">
+<div class="para">Our axioms for the real numbers fall into three categories:</div>
+<ol class="decimal">
+<li id="li-296"><div class="para" id="p-731">Field Axioms: These axioms provide the essential properties of arithmetic involving addition and subtraction.</div></li>
+<li id="li-297"><div class="para" id="p-732">Order Axioms: These axioms provide the necessary properties of inequalities.</div></li>
+<li id="li-298"><div class="para" id="p-733">Completeness Axiom: This axiom ensures that the familiar number line that we use to model the real numbers does not have any holes in it.</div></li>
+</ol>
+</div>
+<div class="para" id="p-734">We begin with the Field Axioms.</div>
+<article class="axiom theorem-like" id="axiom_field_axioms"><h3 class="heading">
+<span class="type">Axiom</span><span class="space"> </span><span class="codenumber">5.1</span><span class="space"> </span><span class="creator">(Field Axioms)</span><span class="period">.</span>
+</h3>
+<div class="para logical" id="p-735">
+<div class="para">There exist operations <span class="process-math">\(+\)</span> (addition) and <span class="process-math">\(\cdot\)</span> (multiplication) on <span class="process-math">\(\mathbb{R}\)</span> satisfying:</div>
+<ol class="decimal">
+<li id="li-299"><div class="para" id="p-736">(F1) (Associativity for Addition) For all <span class="process-math">\(a,b, c\in \mathbb{R}\)</span> we have <span class="process-math">\((a+b)+c = a+(b+c)\text{;}\)</span>
+</div></li>
+<li id="li-300"><div class="para" id="p-737">(F2) (Commutativity for Addition) For all <span class="process-math">\(a,b\in \mathbb{R}\text{,}\)</span> we have <span class="process-math">\(a+b=b+a\text{;}\)</span>
+</div></li>
+<li id="li-301"><div class="para" id="p-738">(F3) (Additive Identity) There exists <span class="process-math">\(0\in\mathbb{R}\)</span> such that for all <span class="process-math">\(a\in\mathbb{R}\text{,}\)</span> <span class="process-math">\(0+a=a\text{;}\)</span>
+</div></li>
+<li id="li-302"><div class="para" id="p-739">(F4) (Additive Inverses) For all <span class="process-math">\(a\in\mathbb{R}\)</span> there exists <span class="process-math">\(-a\in\mathbb{R}\)</span> such that <span class="process-math">\(a+(-a)=0\text{;}\)</span>
+</div></li>
+<li id="li-303"><div class="para" id="p-740">(F5) (Associativity for Multiplication) For all <span class="process-math">\(a,b, c\in \mathbb{R}\)</span> we have <span class="process-math">\((ab)c = a(bc)\text{;}\)</span>
+</div></li>
+<li id="li-304"><div class="para" id="p-741">(F6) (Commutativity for Multiplication) For all <span class="process-math">\(a,b\in \mathbb{R}\text{,}\)</span> we have <span class="process-math">\(ab=ba\text{;}\)</span>
+</div></li>
+<li id="li-305"><div class="para" id="p-742">(F7) (Multiplicative Identity) There exists <span class="process-math">\(1\in\mathbb{R}\)</span> such that <span class="process-math">\(1\neq 0\)</span> and for all <span class="process-math">\(a\in\mathbb{R}\text{,}\)</span> <span class="process-math">\(1a=a\text{;}\)</span>
+</div></li>
+<li id="li-306"><div class="para" id="p-743">(F8) (Multiplicative Inverses) For all <span class="process-math">\(a\in\mathbb{R}\setminus\{0\}\)</span> there exists <span class="process-math">\(a^{-1}\in\mathbb{R}\)</span> such that <span class="process-math">\(aa^{-1}=1\text{.}\)</span>
+</div></li>
+<li id="li-307"><div class="para" id="p-744">(F9) (Distributive Property) For all <span class="process-math">\(a,b,c\in \mathbb{R}\text{,}\)</span> <span class="process-math">\(a(b+c)=ab+ac\text{;}\)</span>
+</div></li>
+</ol>
+</div></article><div class="para" id="p-745">In the language of abstract algebra, Axioms F1–F4 and F5–F8 make each of <span class="process-math">\(\mathbb{R}\)</span> and <span class="process-math">\(\mathbb{R}\setminus\{0\}\)</span> an abelian group under addition and multiplication, respectively. Axiom F9 provides a way for the operations of addition and multiplication to interact. Collectively, Axioms F1–F9 make the real numbers a <dfn class="terminology">field</dfn>. Axioms F3 and F7 state the existence of additive and multiplicative identities, but these axioms do not assume that the elements are the unique elements with the specified properties. However, we can prove that this is the case. That is, <span class="process-math">\(0\)</span> and <span class="process-math">\(1\)</span> of <span class="process-math">\(\mathbb{R}\)</span> are the unique <dfn class="terminology">additive</dfn> and <dfn class="terminology">multiplicative identities</dfn> in <span class="process-math">\(\mathbb{R}\text{.}\)</span> To prove the following theorem, suppose <span class="process-math">\(0\)</span> and <span class="process-math">\(0'\)</span> are both additive identities in <span class="process-math">\(\mathbb{R}\)</span> and then show that <span class="process-math">\(0=0'\text{.}\)</span> This shows that there can only be one additive identity. It is important to point out that we are not proving that the number <span class="process-math">\(0\)</span> introduced in Axiom F3 is unique, but rather there is a unique number with the property specified in Axiom F3.</div>
+<article class="theorem theorem-like" id="thm_unique_additive_identity"><h3 class="heading">
+<span class="type">Theorem</span><span class="space"> </span><span class="codenumber">5.2</span><span class="period">.</span>
+</h3>
+<div class="para" id="p-746">There exists a unique additive identity of <span class="process-math">\(\mathbb{R}\text{.}\)</span>
+</div></article><div class="para" id="p-747">To prove the next theorem, mimic the approach you used to prove <a href="" class="xref" data-knowl="./knowl/thm_unique_additive_identity.html" title="Theorem 5.2">Theorem 5.2</a>.</div>
+<article class="theorem theorem-like" id="thm_unique_multiplicative_identity"><h3 class="heading">
+<span class="type">Theorem</span><span class="space"> </span><span class="codenumber">5.3</span><span class="period">.</span>
+</h3>
+<div class="para" id="p-748">There exists a unique multiplicative identity of <span class="process-math">\(\mathbb{R}\text{.}\)</span>
+</div></article><div class="para" id="p-749">Similar to Axioms F3 and F7, Axioms F4 and F8 state the existence of additive and multiplicative inverses, but these axioms do not assume that these elements are the unique elements with the specified properties. However, we can prove that for every <span class="process-math">\(a\in\mathbb{R}\text{,}\)</span> the elements <span class="process-math">\(-a\)</span> and <span class="process-math">\(a^{-1}\)</span> (as long as <span class="process-math">\(a\neq 0\)</span>) are the unique <dfn class="terminology">additive</dfn> and <dfn class="terminology">multiplicative inverses</dfn>, respectively.</div>
+<article class="theorem theorem-like" id="thm_unique_additive_inverse"><h3 class="heading">
+<span class="type">Theorem</span><span class="space"> </span><span class="codenumber">5.4</span><span class="period">.</span>
+</h3>
+<div class="para" id="p-750">Every real number has a unique additive inverse.</div></article><article class="theorem theorem-like" id="theorem-64"><h3 class="heading">
+<span class="type">Theorem</span><span class="space"> </span><span class="codenumber">5.5</span><span class="period">.</span>
+</h3>
+<div class="para" id="p-751">Every nonzero real number has a unique multiplicative inverse.</div></article><div class="para" id="p-752">In light of the last two theorems, we now know that sticking a minus sign in front of <span class="process-math">\(a\in\mathbb{R}\)</span> or raising <span class="process-math">\(a\in\mathbb{R}\setminus\{0\}\)</span> to <span class="process-math">\(-1\)</span> each correspond to an operation that yields a unique element with the corresponding inverse property.</div>
+<div class="para" id="p-753">Since we are taking a formal axiomatic approach to the real numbers, we should make it clear how the natural numbers are embedded in <span class="process-math">\(\mathbb{R}\text{.}\)</span>
+</div>
+<article class="definition definition-like" id="definition-26"><h3 class="heading">
+<span class="type">Definition</span><span class="space"> </span><span class="codenumber">5.6</span><span class="period">.</span>
+</h3>
+<div class="para logical" id="p-754">
+<div class="para">We define the <dfn class="terminology">natural numbers</dfn>, denoted by <span class="process-math">\(\mathbb{N}\text{,}\)</span> to be the smallest subset of <span class="process-math">\(\mathbb{R}\)</span> satisfying:</div>
+<ol class="lower-alpha">
+<li id="li-308"><div class="para" id="p-755">
+<span class="process-math">\(1\in\mathbb{N}\text{,}\)</span> and</div></li>
+<li id="li-309"><div class="para" id="p-756">for all <span class="process-math">\(n\in\mathbb{N}\text{,}\)</span> we have <span class="process-math">\(n+1\in\mathbb{N}\text{.}\)</span>
+</div></li>
+</ol>
+</div></article><div class="para" id="p-757">Notice the similarity between the definition of the natural numbers presented above and the Axiom of Induction given in <a href="sec_Intro_to_Induction.html" class="internal" title="Section 4.1: Introduction to Induction">Section 4.1</a>. Of course, we use the standard numeral system to represent the natural numbers, so that <span class="process-math">\(\mathbb{N}= \{1,2,3,4,5,6,7,8,9,10\ldots\}\text{.}\)</span>
+</div>
+<div class="para" id="p-758">Given the natural numbers, Axiom F3/<a href="" class="xref" data-knowl="./knowl/thm_unique_additive_identity.html" title="Theorem 5.2">Theorem 5.2</a> and Axiom F4/<a href="" class="xref" data-knowl="./knowl/thm_unique_additive_inverse.html" title="Theorem 5.4">Theorem 5.4</a> together with the operation of addition allow us to define the <dfn class="terminology">integers</dfn>, denoted by <span class="process-math">\(\mathbb{Z}\text{,}\)</span> in the obvious way. That is, the integers consist of the natural numbers together with the additive identity and all of the additive inverses of the natural numbers.</div>
+<div class="para" id="p-759">We now introduce some common notation that you are likely familiar with. Take a moment to think about why the following is a definition as opposed to an axiom or theorem.</div>
+<article class="definition definition-like" id="def_real_number_notation"><h3 class="heading">
+<span class="type">Definition</span><span class="space"> </span><span class="codenumber">5.7</span><span class="period">.</span>
+</h3>
+<div class="para logical" id="p-760">
+<div class="para">For every <span class="process-math">\(a,b\in\mathbb{R}\)</span> and <span class="process-math">\(n\in\mathbb{Z}\text{,}\)</span> we define the following:</div>
+<ol class="lower-alpha">
+<li id="li-310"><div class="para" id="p-761"><span class="process-math">\(\displaystyle \tcboxmath{a-b\coloneqq a+(-b)}\)</span></div></li>
+<li id="li-311"><div class="para" id="p-762">
+<span class="process-math">\(\tcboxmath{\displaystyle\frac{a}{b}\coloneqq ab^{-1}}\)</span> (for <span class="process-math">\(b\neq 0\)</span>)</div></li>
+<li id="li-312"><div class="para" id="p-763"><span class="process-math">\(\displaystyle \tcboxmath{\displaystyle a^n\coloneqq \begin{cases}\overbrace{aa\cdots a}^n, \amp \text{ if } n\in \mathbb{N}\\ 1, \amp \text{ if } n=0\text{ and } a\neq 0\\ \displaystyle\frac{1}{a^{-n}}, \amp \text{ if } -n\in \mathbb{N}\text{ and } a\neq 0 \end{cases} }\)</span></div></li>
+</ol>
+</div></article><div class="para" id="p-764">The set of <dfn class="terminology">rational numbers</dfn>, denoted by <span class="process-math">\(\mathbb{Q}\text{,}\)</span> is defined to be the collection of all real numbers having the form given in Part (b) of <a href="" class="xref" data-knowl="./knowl/def_real_number_notation.html" title="Definition 5.7">Definition 5.7</a>. The <dfn class="terminology">irrational numbers</dfn> are defined to be <span class="process-math">\(\mathbb{R}\setminus\mathbb{Q}\text{.}\)</span>
+</div>
+<div class="para" id="p-765">Using the Field Axioms, we can prove each of the statements in the following theorem.</div>
+<article class="theorem theorem-like" id="thm_consequences_of_axioms"><h3 class="heading">
+<span class="type">Theorem</span><span class="space"> </span><span class="codenumber">5.8</span><span class="period">.</span>
+</h3>
+<div class="para logical" id="p-766">
+<div class="para">For all <span class="process-math">\(a,b,c\in\mathbb{R}\text{,}\)</span> we have the following:</div>
+<ol class="lower-alpha">
+<li id="li-313"><div class="para" id="p-767">
+<span class="process-math">\(a=b\)</span> if and only if <span class="process-math">\(a+c=b+c\text{;}\)</span>
+</div></li>
+<li id="li-314"><div class="para" id="p-768"><span class="process-math">\(0a=0\text{;}\)</span></div></li>
+<li id="li-315"><div class="para" id="p-769"><span class="process-math">\(-a=(-1)a\text{;}\)</span></div></li>
+<li id="li-316"><div class="para" id="p-770"><span class="process-math">\((-1)^2 = 1\text{;}\)</span></div></li>
+<li id="li-317"><div class="para" id="p-771"><span class="process-math">\(-(-a)=a\text{;}\)</span></div></li>
+<li id="li-318"><div class="para" id="p-772">If <span class="process-math">\(a\neq 0\text{,}\)</span> then <span class="process-math">\((a^{-1})^{-1}=a\text{;}\)</span>
+</div></li>
+<li id="li-319"><div class="para" id="p-773">If <span class="process-math">\(a\neq 0\)</span> and <span class="process-math">\(ab = ac\text{,}\)</span> then <span class="process-math">\(b = c\text{.}\)</span>
+</div></li>
+<li id="li-320"><div class="para" id="p-774">If <span class="process-math">\(ab=0\text{,}\)</span> then either <span class="process-math">\(a=0\)</span> or <span class="process-math">\(b=0\text{.}\)</span>
+</div></li>
+</ol>
+</div></article><div class="para" id="p-775">Carefully prove the next theorem by explicitly citing where you are utilizing the Field Axioms and <a href="" class="xref" data-knowl="./knowl/thm_consequences_of_axioms.html" title="Theorem 5.8">Theorem 5.8</a>.</div>
+<article class="theorem theorem-like" id="theorem-66"><h3 class="heading">
+<span class="type">Theorem</span><span class="space"> </span><span class="codenumber">5.9</span><span class="period">.</span>
+</h3>
+<div class="para" id="p-776">For all <span class="process-math">\(a,b\in\mathbb{R}\text{,}\)</span> we have <span class="process-math">\((a+b)(a-b)=a^2-b^2\text{.}\)</span>
+</div></article><div class="para" id="p-777">We now introduce the Order Axioms of the real numbers.</div>
+<section class="paragraphs" id="axiom_order_axioms"><h3 class="heading"><span class="title">Axioms.</span></h3> <div class="para logical" id="p-778">
+<div class="para">[Order Axioms] For <span class="process-math">\(a,b,c\in \mathbb{R}\text{,}\)</span> there is a relation <span class="process-math">\(\tcboxmath{\lt }\)</span> on <span class="process-math">\(\mathbb{R}\)</span> satisfying:</div>
+<ol class="decimal">
+<li id="li-321">
+<span class="heading"><span class="title">(O1).</span></span><div class="para" id="p-779">(Trichotomy Law) If <span class="process-math">\(a\neq b\text{,}\)</span> then either <span class="process-math">\(a\lt b\)</span> or <span class="process-math">\(b\lt a\)</span> but not both;</div>
+</li>
+<li id="li-322">
+<span class="heading"><span class="title">(O2).</span></span><div class="para" id="p-780">(Transitivity) If <span class="process-math">\(a\lt b\)</span> and <span class="process-math">\(b\lt c\text{,}\)</span> then <span class="process-math">\(a\lt c\text{;}\)</span>
+</div>
+</li>
+<li id="li-323">
+<span class="heading"><span class="title">(O3).</span></span><div class="para" id="p-781">If <span class="process-math">\(a\lt b\text{,}\)</span> then <span class="process-math">\(a+c\lt b+c\text{;}\)</span>
+</div>
+</li>
+<li id="li-324">
+<span class="heading"><span class="title">(O4).</span></span><div class="para" id="p-782">If <span class="process-math">\(a\lt b\)</span> and <span class="process-math">\(0\lt c\text{,}\)</span> then <span class="process-math">\(ac\lt bc\text{;}\)</span>
+</div>
+</li>
+</ol>
+</div></section><div class="para" id="p-783">Given Axioms O1–O4, we say that the real numbers are a <dfn class="terminology">linearly ordered field</dfn>. We call numbers greater than zero <dfn class="terminology">positive</dfn> and those greater than or equal to zero <dfn class="terminology">nonnegative</dfn>. There are similar definitions for <dfn class="terminology">negative</dfn> and <dfn class="terminology">nonpositive</dfn>.</div>
+<div class="para" id="p-784">Notice that the Order Axioms are phrased in terms of “<span class="process-math">\(\lt\)</span>”. We would also like to be able to utilize “<span class="process-math">\(&gt;\)</span>”, “<span class="process-math">\(\leq\)</span>”, and “<span class="process-math">\(\geq\)</span>”.</div>
+<article class="definition definition-like" id="definition-28"><h3 class="heading">
+<span class="type">Definition</span><span class="space"> </span><span class="codenumber">5.10</span><span class="period">.</span>
+</h3>
+<div class="para logical" id="p-785">
+<div class="para">For <span class="process-math">\(a,b\in\mathbb{R}\text{,}\)</span> we define:</div>
+<ol class="lower-alpha">
+<li id="li-325"><div class="para" id="p-786">
+<span class="process-math">\(\tcboxmath{a&gt;b}\)</span> if <span class="process-math">\(b\lt a\text{;}\)</span>
+</div></li>
+<li id="li-326"><div class="para" id="p-787">
+<span class="process-math">\(\tcboxmath{a\leq b}\)</span> if <span class="process-math">\(a\lt b\)</span> or <span class="process-math">\(a=b\text{;}\)</span>
+</div></li>
+<li id="li-327"><div class="para" id="p-788">
+<span class="process-math">\(\tcboxmath{a\geq b}\)</span> if <span class="process-math">\(b\leq a\text{.}\)</span>
+</div></li>
+</ol>
+</div></article><div class="para" id="p-789">Notice that we took the existence of the inequalities “<span class="process-math">\(\lt\)</span>”, “<span class="process-math">\(&gt;\)</span>”, “<span class="process-math">\(\leq\)</span>”, and “<span class="process-math">\(\geq\)</span>” on the real numbers for granted when we defined intervals of real numbers in <a href="" class="xref" data-knowl="./knowl/def_intervals.html" title="Definition 3.4">Definition 3.4</a>.</div>
+<div class="para" id="p-790">Using the Order Axioms, we can prove many familiar facts.</div>
+<article class="theorem theorem-like" id="theorem-67"><h3 class="heading">
+<span class="type">Theorem</span><span class="space"> </span><span class="codenumber">5.11</span><span class="period">.</span>
+</h3>
+<div class="para" id="p-791">For all <span class="process-math">\(a,b\in\mathbb{R}\text{,}\)</span> if <span class="process-math">\(a,b&gt;0\text{,}\)</span> then <span class="process-math">\(a+b&gt;0\text{;}\)</span> and if <span class="process-math">\(a,b\lt 0\text{,}\)</span> then <span class="process-math">\(a+b\lt 0\text{.}\)</span>
+</div></article><div class="para" id="p-792">The next result extends Axiom O3.</div>
+<article class="theorem theorem-like" id="theorem-68"><h3 class="heading">
+<span class="type">Theorem</span><span class="space"> </span><span class="codenumber">5.12</span><span class="period">.</span>
+</h3>
+<div class="para" id="p-793">For all <span class="process-math">\(a,b,c,d\in\mathbb{R}\text{,}\)</span> if <span class="process-math">\(a\lt b\)</span> and <span class="process-math">\(c\lt d\text{,}\)</span> then <span class="process-math">\(a+c\lt b+d\text{.}\)</span>
+</div></article><article class="theorem theorem-like" id="thm_additive_inverse_of_a_positive_is_negative"><h3 class="heading">
+<span class="type">Theorem</span><span class="space"> </span><span class="codenumber">5.13</span><span class="period">.</span>
+</h3>
+<div class="para" id="p-794">For all <span class="process-math">\(a\in\mathbb{R}\text{,}\)</span> <span class="process-math">\(a&gt;0\)</span> if and only if <span class="process-math">\(-a\lt 0\text{.}\)</span>
+</div></article><article class="theorem theorem-like" id="theorem-70"><h3 class="heading">
+<span class="type">Theorem</span><span class="space"> </span><span class="codenumber">5.14</span><span class="period">.</span>
+</h3>
+<div class="para" id="p-795">If <span class="process-math">\(a\text{,}\)</span> <span class="process-math">\(b\text{,}\)</span> <span class="process-math">\(c\text{,}\)</span> and <span class="process-math">\(d\)</span> are positive real numbers such that <span class="process-math">\(a\lt b\)</span> and <span class="process-math">\(c\lt d\text{,}\)</span> then <span class="process-math">\(ac\lt bd\text{.}\)</span>
+</div></article><article class="theorem theorem-like" id="theorem-71"><h3 class="heading">
+<span class="type">Theorem</span><span class="space"> </span><span class="codenumber">5.15</span><span class="period">.</span>
+</h3>
+<div class="para logical" id="p-796">
+<div class="para">For all <span class="process-math">\(a,b\in\mathbb{R}\text{,}\)</span> we have the following:</div>
+<ol class="lower-alpha">
+<li id="li-328"><div class="para" id="p-797">
+<span class="process-math">\(ab&gt;0\)</span> if and only if either <span class="process-math">\(a,b&gt;0\)</span> or <span class="process-math">\(a,b\lt 0\text{;}\)</span>
+</div></li>
+<li id="li-329"><div class="para" id="p-798">
+<span class="process-math">\(ab\lt 0\)</span> if and only if <span class="process-math">\(a\lt 0\lt b\)</span> or <span class="process-math">\(b\lt 0\lt a\text{.}\)</span>
+</div></li>
+</ol>
+</div></article><article class="theorem theorem-like" id="theorem-72"><h3 class="heading">
+<span class="type">Theorem</span><span class="space"> </span><span class="codenumber">5.16</span><span class="period">.</span>
+</h3>
+<div class="para" id="p-799">For all positive real numbers <span class="process-math">\(a\)</span> and <span class="process-math">\(b\text{,}\)</span> <span class="process-math">\(a\lt b\)</span> if and only if <span class="process-math">\(a^2\lt b^2\text{.}\)</span>
+</div></article><div class="para" id="p-800">Consider using three cases when approaching the proof of the following theorem.</div>
+<article class="theorem theorem-like" id="theorem-73"><h3 class="heading">
+<span class="type">Theorem</span><span class="space"> </span><span class="codenumber">5.17</span><span class="period">.</span>
+</h3>
+<div class="para" id="p-801">For all <span class="process-math">\(a\in\mathbb{R}\text{,}\)</span> we have <span class="process-math">\(a^2\geq 0\text{.}\)</span>
+</div></article><div class="para" id="p-802">It might come as a surprise that the following result requires proof.</div>
+<article class="theorem theorem-like" id="thm_0_1"><h3 class="heading">
+<span class="type">Theorem</span><span class="space"> </span><span class="codenumber">5.18</span><span class="period">.</span>
+</h3>
+<div class="para" id="p-803">We have <span class="process-math">\(0\lt 1\text{.}\)</span>
+</div></article><div class="para" id="p-804">The previous theorem together with <a href="" class="xref" data-knowl="./knowl/thm_additive_inverse_of_a_positive_is_negative.html" title="Theorem 5.13">Theorem 5.13</a> implies that <span class="process-math">\(-1\lt 0\)</span> as you expect. It also follows from Axiom O3 that for all <span class="process-math">\(n\in\mathbb{Z}\text{,}\)</span> we have <span class="process-math">\(n\lt n+1\text{.}\)</span> We assume that there are no integers between <span class="process-math">\(n\)</span> and <span class="process-math">\(n+1\text{.}\)</span>
+</div>
+<article class="theorem theorem-like" id="theorem-75"><h3 class="heading">
+<span class="type">Theorem</span><span class="space"> </span><span class="codenumber">5.19</span><span class="period">.</span>
+</h3>
+<div class="para" id="p-805">For all <span class="process-math">\(a\in\mathbb{R}\text{,}\)</span> if <span class="process-math">\(a&gt;0\text{,}\)</span> then <span class="process-math">\(a^{-1}&gt;0\text{,}\)</span> and if <span class="process-math">\(a\lt 0\text{,}\)</span> then <span class="process-math">\(a^{-1}\lt 0\text{.}\)</span>
+</div></article><article class="theorem theorem-like" id="thm_switch_inequality_using_negative"><h3 class="heading">
+<span class="type">Theorem</span><span class="space"> </span><span class="codenumber">5.20</span><span class="period">.</span>
+</h3>
+<div class="para" id="p-806">For all <span class="process-math">\(a,b\in \mathbb{R}\text{,}\)</span> if <span class="process-math">\(a\lt b\text{,}\)</span> then <span class="process-math">\(-b\lt -a\text{.}\)</span>
+</div></article><div class="para" id="p-807">The last few results allow us to take for granted our usual understanding of which real numbers are positive and which are negative. The next theorem yields a result that extends <a href="" class="xref" data-knowl="./knowl/thm_switch_inequality_using_negative.html" title="Theorem 5.20">Theorem 5.20</a>.</div>
+<article class="theorem theorem-like" id="theorem-77"><h3 class="heading">
+<span class="type">Theorem</span><span class="space"> </span><span class="codenumber">5.21</span><span class="period">.</span>
+</h3>
+<div class="para" id="p-808">For all <span class="process-math">\(a,b,c\in \mathbb{R}\text{,}\)</span> if <span class="process-math">\(a\lt b\)</span> and <span class="process-math">\(c\lt 0\text{,}\)</span> then <span class="process-math">\(bc\lt ac\text{.}\)</span>
+</div></article><div class="para" id="p-809">There is a special function that we can now introduce.</div>
+<article class="definition definition-like" id="definition-29"><h3 class="heading">
+<span class="type">Definition</span><span class="space"> </span><span class="codenumber">5.22</span><span class="period">.</span>
+</h3>
+<div class="para logical" id="p-810">
+<div class="para">Given <span class="process-math">\(a\in\mathbb{R}\text{,}\)</span> we define the <dfn class="terminology">absolute value</dfn> of <span class="process-math">\(a\text{,}\)</span> denoted <span class="process-math">\(|a|\text{,}\)</span> via</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\tcboxmath{|a|\coloneqq \begin{cases}a, \amp  \text{ if } a\geq 0\\ -a, \amp  \text{ if } a\lt 0. \end{cases} }
+\end{equation*}
+</div>
+</div></article><article class="theorem theorem-like" id="theorem-78"><h3 class="heading">
+<span class="type">Theorem</span><span class="space"> </span><span class="codenumber">5.23</span><span class="period">.</span>
+</h3>
+<div class="para" id="p-811">For all <span class="process-math">\(a\in\mathbb{R}\text{,}\)</span> <span class="process-math">\(|a|\geq 0\)</span> with equality only if <span class="process-math">\(a=0\text{.}\)</span>
+</div></article><div class="para" id="p-812">We can interpret <span class="process-math">\(|a|\)</span> as the distance between <span class="process-math">\(a\)</span> and 0 as depicted in <code class="code-inline tex2jax_ignore">[cross-reference to target(s) "fig_abs_value_as_distance" missing or not unique]</code>.</div>
+<figure class="figure figure-like" id="fig_distanceA"><span class="process-math">\(a&gt;0\)</span><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="generated/latex-image/image-2.svg" role="img" class="contained"></div>
+<span class="process-math">\(a\lt 0\)</span><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="generated/latex-image/image-3.svg" role="img" class="contained"></div>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">5.24<span class="period">.</span></span><span class="space"> </span>Visual representation of <span class="process-math">\(|a|\text{.}\)</span></figcaption></figure><article class="theorem theorem-like" id="theorem-79"><h3 class="heading">
+<span class="type">Theorem</span><span class="space"> </span><span class="codenumber">5.25</span><span class="period">.</span>
+</h3>
+<div class="para" id="p-813">For all <span class="process-math">\(a,b\in\mathbb{R}\text{,}\)</span> we have <span class="process-math">\(|a-b|=|b-a|\text{.}\)</span>
+</div></article><div class="para" id="p-814">Given two points <span class="process-math">\(a\)</span> and <span class="process-math">\(b\text{,}\)</span> <span class="process-math">\(|a-b|\text{,}\)</span> and hence <span class="process-math">\(|b-a|\)</span> by the previous theorem, is the distance between <span class="process-math">\(a\)</span> and <span class="process-math">\(b\)</span> as shown in <a href="" class="xref" data-knowl="./knowl/fig_distance_between_a_and_b.html" title="Figure 5.26">Figure 5.26</a>.</div>
+<figure class="figure figure-like" id="fig_distance_between_a_and_b"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="generated/latex-image/image-4.svg" role="img" class="contained"></div>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">5.26<span class="period">.</span></span><span class="space"> </span>Visual representation of <span class="process-math">\(|a-b|\text{.}\)</span></figcaption></figure><article class="theorem theorem-like" id="theorem-80"><h3 class="heading">
+<span class="type">Theorem</span><span class="space"> </span><span class="codenumber">5.27</span><span class="period">.</span>
+</h3>
+<div class="para" id="p-815">For all <span class="process-math">\(a,b\in\mathbb{R}\text{,}\)</span> <span class="process-math">\(|ab|=|a||b|\text{.}\)</span>
+</div></article><div class="para" id="p-816">In the next theorem, writing <span class="process-math">\(\pm a\leq b\)</span> is an abbreviation for <span class="process-math">\(a\leq b\)</span> and <span class="process-math">\(-a\leq b\text{.}\)</span>
+</div>
+<article class="theorem theorem-like" id="theorem-81"><h3 class="heading">
+<span class="type">Theorem</span><span class="space"> </span><span class="codenumber">5.28</span><span class="period">.</span>
+</h3>
+<div class="para" id="p-817">For all <span class="process-math">\(a,b\in\mathbb{R}\text{,}\)</span> if <span class="process-math">\(\pm a\leq b\text{,}\)</span> then <span class="process-math">\(|a|\leq b\text{.}\)</span>
+</div></article><article class="theorem theorem-like" id="theorem-82"><h3 class="heading">
+<span class="type">Theorem</span><span class="space"> </span><span class="codenumber">5.29</span><span class="period">.</span>
+</h3>
+<div class="para" id="p-818">For all <span class="process-math">\(a\in\mathbb{R}\text{,}\)</span> <span class="process-math">\(|a|^2=a^2\text{.}\)</span>
+</div></article><article class="theorem theorem-like" id="thm_plus_minus_less_than_or_equal_to_abs_value"><h3 class="heading">
+<span class="type">Theorem</span><span class="space"> </span><span class="codenumber">5.30</span><span class="period">.</span>
+</h3>
+<div class="para" id="p-819">For all <span class="process-math">\(a\in\mathbb{R}\text{,}\)</span> <span class="process-math">\(\pm a\leq |a|\text{.}\)</span>
+</div></article><article class="theorem theorem-like" id="thm_abs_value_less_than_or_equal_to_iff_squeezed_by_plus_minus"><h3 class="heading">
+<span class="type">Theorem</span><span class="space"> </span><span class="codenumber">5.31</span><span class="period">.</span>
+</h3>
+<div class="para" id="p-820">For all <span class="process-math">\(a,r\in\mathbb{R}\)</span> with <span class="process-math">\(r\)</span> nonnegative, <span class="process-math">\(|a|\leq r\)</span> if and only if <span class="process-math">\(-r\leq a\leq r\text{.}\)</span>
+</div></article><div class="para" id="p-821">The letter <span class="process-math">\(r\)</span> was used in the previous theorem because it is the first letter of the word “radius”. If <span class="process-math">\(r\)</span> is positive, we can think of the interval <span class="process-math">\((-r,r)\)</span> as the interior of a one-dimensional circle with radius <span class="process-math">\(r\)</span> centered at 0. <a href="" class="xref" data-knowl="./knowl/fig_abs_value_less_than_or_equal_to_iff_squeezed_by_plus_minus.html" title="Figure 5.32">Figure 5.32</a> provides a visual interpretation of <a href="" class="xref" data-knowl="./knowl/thm_abs_value_less_than_or_equal_to_iff_squeezed_by_plus_minus.html" title="Theorem 5.31">Theorem 5.31</a>.</div>
+<figure class="figure figure-like" id="fig_abs_value_less_than_or_equal_to_iff_squeezed_by_plus_minus"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="generated/latex-image/image-5.svg" role="img" class="contained"></div>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">5.32<span class="period">.</span></span><span class="space"> </span>Visual representation of <span class="process-math">\(|a|\leq r\text{.}\)</span></figcaption></figure><article class="corollary theorem-like" id="cor_distance_between_two_points_less_than_or_equal_to"><h3 class="heading">
+<span class="type">Corollary</span><span class="space"> </span><span class="codenumber">5.33</span><span class="period">.</span>
+</h3>
+<div class="para" id="p-822">For all <span class="process-math">\(a,b,r\in\mathbb{R}\)</span> with <span class="process-math">\(r\)</span> nonnegative, <span class="process-math">\(|a-b|\leq r\)</span> if and only if <span class="process-math">\(b-r\leq a\leq b+r\text{.}\)</span>
+</div></article><div class="para" id="p-823">Since <span class="process-math">\(|a-b|\)</span> represents the distance between <span class="process-math">\(a\)</span> and <span class="process-math">\(b\text{,}\)</span> we can interpret <span class="process-math">\(|a-b|\leq r\)</span> as saying that the distance between <span class="process-math">\(a\)</span> and <span class="process-math">\(b\)</span> is less than or equal to <span class="process-math">\(r\text{.}\)</span> In other words, <span class="process-math">\(a\)</span> is within <span class="process-math">\(r\)</span> units of <span class="process-math">\(b\text{.}\)</span> See <a href="" class="xref" data-knowl="./knowl/fig_visual_of__a-b__r.html" title="Figure 5.34">Figure 5.34</a>.</div>
+<figure class="figure figure-like" id="fig_visual_of__a-b__r"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="generated/latex-image/image-6.svg" role="img" class="contained"></div>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">5.34<span class="period">.</span></span><span class="space"> </span>Visual representation of <span class="process-math">\(|a-b|\leq r\text{.}\)</span></figcaption></figure><div class="para" id="p-824">Consider using <a href="" class="xref" data-knowl="./knowl/thm_plus_minus_less_than_or_equal_to_abs_value.html" title="Theorem 5.30">Theorems 5.30</a> and <a href="" class="xref" data-knowl="./knowl/thm_abs_value_less_than_or_equal_to_iff_squeezed_by_plus_minus.html" title="Theorem 5.31">Theorem 5.31</a> when attacking the next result, which is known as the <dfn class="terminology">Triangle Inequality</dfn>. This result can be extremely useful in some contexts.</div>
+<article class="theorem theorem-like" id="thm_triangle_inequality"><h3 class="heading">
+<span class="type">Theorem</span><span class="space"> </span><span class="codenumber">5.35</span><span class="period">.</span><span class="space"> </span><span class="title">Triangle Inequality.</span>
+</h3>
+<div class="para" id="p-825">For all <span class="process-math">\(a,b\in\mathbb{R}\text{,}\)</span> <span class="process-math">\(|a+b|\leq |a|+|b|\text{.}\)</span>
+</div></article><div class="para" id="p-826">
+<code class="code-inline tex2jax_ignore">[cross-reference to target(s) "fig_triangle_inequality" missing or not unique]</code> depicts two of the cases for the Triangle Inequality.</div>
+<figure class="figure figure-like" id="fig_triangle_A"><span class="process-math">\(a\geq 0, b\geq 0\)</span><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="generated/latex-image/image-7.svg" role="img" class="contained"></div>
+<span class="process-math">\(a\lt 0,b\geq 0\)</span><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="generated/latex-image/image-8.svg" role="img" class="contained"></div>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">5.36<span class="period">.</span></span><span class="space"> </span>Visual representation of two of the cases for the Triangle Inequality.</figcaption></figure><article class="problem example-like" id="problem-89"><h3 class="heading">
+<span class="type">Problem</span><span class="space"> </span><span class="codenumber">5.37</span><span class="period">.</span>
+</h3>
+<div class="para" id="p-827">Under what conditions do we have equality for the Triangle Inequality?</div></article><div class="para" id="p-828">Where did the Triangle Inequality get its name? Why “Triangle”? For any triangle (including degenerate triangles), the sum of the lengths of any two sides must be greater than or equal to the length of the remaining side. That is, if <span class="process-math">\(x\text{,}\)</span> <span class="process-math">\(y\text{,}\)</span> and <span class="process-math">\(z\)</span> are the lengths of the sides of the triangle, then <span class="process-math">\(z\leq x+y\text{,}\)</span> where we have equality only in the degenerate case of a triangle with no area. In linear algebra, the Triangle Inequality is a theorem about lengths of vectors. If <span class="process-math">\(\mathbf{a}\)</span> and <span class="process-math">\(\mathbf{b}\)</span> are vectors in <span class="process-math">\(\mathbb{R}^n\text{,}\)</span> then the Triangle Inequality states that <span class="process-math">\(\lVert \mathbf{a}+\mathbf{b}\rVert \leq \lVert\mathbf{a}\rVert +\lVert\mathbf{b}\rVert\text{.}\)</span> Note that <span class="process-math">\(\lVert \mathbf{a}\rVert\)</span> denotes the length of vector <span class="process-math">\(\mathbf{a}\text{.}\)</span> See <a href="" class="xref" data-knowl="./knowl/fig_triangle_inequality_2d.html" title="Figure 5.38">Figure 5.38</a>. The version of the Triangle Inequality that we presented in <a href="" class="xref" data-knowl="./knowl/thm_triangle_inequality.html" title="Theorem 5.35: Triangle Inequality">Theorem 5.35</a> is precisely the one-dimensional version of the Triangle Inequality in terms of vectors.</div>
+<figure class="figure figure-like" id="fig_triangle_inequality_2d"><div class="image-box" style="width: 50%; margin-left: 25%; margin-right: 25%;"><img src="generated/latex-image/triangle_inequality_2d.svg" role="img" class="contained"></div>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">5.38<span class="period">.</span></span><span class="space"> </span>Triangle Inequality in terms of vectors.</figcaption></figure><div class="para" id="p-829">The next theorem is sometimes called the <dfn class="terminology">Reverse Triangle Inequality</dfn>.</div>
+<article class="theorem theorem-like" id="theorem-86"><h3 class="heading">
+<span class="type">Theorem</span><span class="space"> </span><span class="codenumber">5.39</span><span class="period">.</span><span class="space"> </span><span class="title">Reverse Triangle Inequality.</span>
+</h3>
+<div class="para" id="p-830">For all <span class="process-math">\(a,b\in\mathbb{R}\text{,}\)</span> <span class="process-math">\(|a-b|\geq \left||a|-|b| \right|\text{.}\)</span>
+</div></article><div class="para" id="p-831">Before we introduce the Completeness Axiom, we need some additional terminology.</div>
+<article class="definition definition-like" id="definition-30"><h3 class="heading">
+<span class="type">Definition</span><span class="space"> </span><span class="codenumber">5.40</span><span class="period">.</span>
+</h3>
+<div class="para" id="p-832">Let <span class="process-math">\(A\subseteq \mathbb{R}\text{.}\)</span> A point <span class="process-math">\(b\)</span> is called an <dfn class="terminology">upper bound</dfn> of <span class="process-math">\(A\)</span> if for all <span class="process-math">\(a\in A\text{,}\)</span> <span class="process-math">\(a\leq b\text{.}\)</span> The set <span class="process-math">\(A\)</span> is said to be <dfn class="terminology">bounded above</dfn> if it has an upper bound.</div></article><article class="problem example-like" id="problem-90"><h3 class="heading">
+<span class="type">Problem</span><span class="space"> </span><span class="codenumber">5.41</span><span class="period">.</span>
+</h3>
+<div class="para" id="p-833">The notion of a <dfn class="terminology">lower bound</dfn> and the property of a set being <dfn class="terminology">bounded below</dfn> are defined similarly. Try defining them.</div></article><article class="problem example-like" id="prob_find_upper_bounds"><h3 class="heading">
+<span class="type">Problem</span><span class="space"> </span><span class="codenumber">5.42</span><span class="period">.</span>
+</h3>
+<div class="para logical" id="p-834">
+<div class="para">Find all upper bounds and all lower bounds for each of the following sets when they exist.</div>
+<ol class="lower-alpha">
+<li id="li-330"><div class="para" id="p-835"><span class="process-math">\(\displaystyle \{5,11,17,42,103\}\)</span></div></li>
+<li id="li-331"><div class="para" id="p-836"><span class="process-math">\(\displaystyle \mathbb{N}\)</span></div></li>
+<li id="li-332"><div class="para" id="p-837"><span class="process-math">\(\displaystyle \mathbb{Z}\)</span></div></li>
+<li id="li-333"><div class="para" id="p-838"><span class="process-math">\(\displaystyle (0,1]\)</span></div></li>
+<li id="li-334"><div class="para" id="p-839"><span class="process-math">\(\displaystyle (0,1]\cap \mathbb{Q}\)</span></div></li>
+<li id="li-335"><div class="para" id="p-840"><span class="process-math">\(\displaystyle (0,\infty)\)</span></div></li>
+<li id="li-336"><div class="para" id="p-841"><span class="process-math">\(\displaystyle \{42\}\)</span></div></li>
+<li id="li-337"><div class="para" id="p-842"><span class="process-math">\(\displaystyle \{\frac{1}{n}\mid n\in\mathbb{N}\}\)</span></div></li>
+<li id="li-338"><div class="para" id="p-843"><span class="process-math">\(\displaystyle \{\frac{1}{n}\mid n\in\mathbb{N}\}\cup\{0\}\)</span></div></li>
+<li id="li-339"><div class="para" id="p-844"><span class="process-math">\(\displaystyle \emptyset\)</span></div></li>
+</ol>
+</div></article><article class="definition definition-like" id="definition-31"><h3 class="heading">
+<span class="type">Definition</span><span class="space"> </span><span class="codenumber">5.43</span><span class="period">.</span>
+</h3>
+<div class="para" id="p-845">A set <span class="process-math">\(A\subseteq \mathbb{R}\)</span> is <dfn class="terminology">bounded</dfn> if <span class="process-math">\(A\)</span> is bounded above and below.</div></article><div class="para" id="p-846">Notice that a set <span class="process-math">\(A\subseteq\mathbb{R}\)</span> is bounded if and only if it is a subset of some bounded closed interval.</div>
+<article class="definition definition-like" id="definition-32"><h3 class="heading">
+<span class="type">Definition</span><span class="space"> </span><span class="codenumber">5.44</span><span class="period">.</span>
+</h3>
+<div class="para" id="p-847">Let <span class="process-math">\(A\subseteq \mathbb{R}\text{.}\)</span> A point <span class="process-math">\(p\)</span> is a <dfn class="terminology">supremum</dfn> (or <dfn class="terminology">least upper bound</dfn>) of <span class="process-math">\(A\)</span> if <span class="process-math">\(p\)</span> is an upper bound of <span class="process-math">\(A\)</span> and <span class="process-math">\(p\leq b\)</span> for every upper bound <span class="process-math">\(b\)</span> of <span class="process-math">\(A\text{.}\)</span> Analogously, a point <span class="process-math">\(p\)</span> is an <dfn class="terminology">infimum</dfn> (or <dfn class="terminology">greatest lower bound</dfn>) of <span class="process-math">\(A\)</span> if <span class="process-math">\(p\)</span> is a lower bound of <span class="process-math">\(A\)</span> and <span class="process-math">\(p\geq b\)</span> for every lower bound <span class="process-math">\(b\)</span> of <span class="process-math">\(A\text{.}\)</span>
+</div></article><div class="para" id="p-848">Our next result tells us that a supremum of a set and an infimum of a set are unique when they exist.</div>
+<article class="theorem theorem-like" id="theorem-87"><h3 class="heading">
+<span class="type">Theorem</span><span class="space"> </span><span class="codenumber">5.45</span><span class="period">.</span>
+</h3>
+<div class="para" id="p-849">If <span class="process-math">\(A\subseteq \mathbb{R}\)</span> such that a supremum (respectively, infimum) of <span class="process-math">\(A\)</span> exists, then the supremum (respectively, infimum) of <span class="process-math">\(A\)</span> is unique.</div></article><div class="para" id="p-850">In light of the previous theorem, if the supremum of <span class="process-math">\(A\)</span> exists, it is denoted by <span class="process-math">\(\tcboxmath{\sup(A)}\text{.}\)</span> Similarly, if the infimum of <span class="process-math">\(A\)</span> exists, it is denoted by <span class="process-math">\(\tcboxmath{\inf(A)}\text{.}\)</span>
+</div>
+<article class="problem example-like" id="problem-92"><h3 class="heading">
+<span class="type">Problem</span><span class="space"> </span><span class="codenumber">5.46</span><span class="period">.</span>
+</h3>
+<div class="para" id="p-851">Find the supremum and the infimum of each of the sets in <a href="" class="xref" data-knowl="./knowl/prob_find_upper_bounds.html" title="Problem 5.42">Problem 5.42</a> when they exist.</div></article><div class="para" id="p-852">It is important to recognize that the supremum or infimum of a set may or may not be contained in the set. In particular, we have the following theorem concerning suprema and maximums. The analogous result holds for infima and minimums.</div>
+<article class="theorem theorem-like" id="theorem-88"><h3 class="heading">
+<span class="type">Theorem</span><span class="space"> </span><span class="codenumber">5.47</span><span class="period">.</span>
+</h3>
+<div class="para" id="p-853">Let <span class="process-math">\(A\subseteq \mathbb{R}\text{.}\)</span> Then <span class="process-math">\(A\)</span> has a maximum if and only if <span class="process-math">\(A\)</span> has a supremum and <span class="process-math">\(\sup(A)\in A\text{,}\)</span> in which case the <span class="process-math">\(\max(A)=\sup(A)\text{.}\)</span>
+</div></article><div class="para" id="p-854">Intuitively, a point is the supremum of a set <span class="process-math">\(A\)</span> if and only if no point smaller than the supremum can be an upper bound of <span class="process-math">\(A\text{.}\)</span> The next result makes this more precise.</div>
+<article class="theorem theorem-like" id="thm_scoot_in_characterization_of_sup"><h3 class="heading">
+<span class="type">Theorem</span><span class="space"> </span><span class="codenumber">5.48</span><span class="period">.</span>
+</h3>
+<div class="para" id="p-855">Let <span class="process-math">\(A\subseteq \mathbb{R}\)</span> such that <span class="process-math">\(A\)</span> is bounded above and let <span class="process-math">\(b\)</span> be an upper bound of <span class="process-math">\(A\text{.}\)</span> Then <span class="process-math">\(b\)</span> is the supremum of <span class="process-math">\(A\)</span> if and only if for every <span class="process-math">\(\varepsilon &gt;0\text{,}\)</span> there exists <span class="process-math">\(a\in A\)</span> such that <span class="process-math">\(b-\varepsilon \lt a\text{.}\)</span>
+</div></article><article class="problem example-like" id="problem-93"><h3 class="heading">
+<span class="type">Problem</span><span class="space"> </span><span class="codenumber">5.49</span><span class="period">.</span>
+</h3>
+<div class="para" id="p-856">State and prove the analogous result to <a href="" class="xref" data-knowl="./knowl/thm_scoot_in_characterization_of_sup.html" title="Theorem 5.48">Theorem 5.48</a> involving infimum.</div></article><div class="para" id="p-857">The following axiom states that every nonempty subset of the real numbers that has an upper bound has a least upper bound.</div>
+<article class="axiom theorem-like" id="axiom_completeness"><h3 class="heading">
+<span class="type">Axiom</span><span class="space"> </span><span class="codenumber">5.50</span><span class="period">.</span><span class="space"> </span><span class="title">Completeness Axiom.</span>
+</h3>
+<div class="para" id="p-858">If <span class="process-math">\(A\)</span> is a nonempty subset of <span class="process-math">\(\mathbb{R}\)</span> that is bounded above, then <span class="process-math">\(\sup(A)\)</span> exists.</div></article><div class="para" id="p-859">Given the Completeness Axiom, we say that the real numbers satisfy the <dfn class="terminology">least upper bound property</dfn>. It is worth mentioning that we do not need the Completeness Axiom to conclude that every nonempty subset of the integers that is bounded above has a supremum, as this follows from <a href="" class="xref" data-knowl="./knowl/thm_reverse_WOP.html" title="Theorem 4.38">Theorem 4.38</a> (a generalized version of the Well-Ordering Principle).</div>
+<div class="para" id="p-860">Certainly, the real numbers also satisfy the analogous result involving infimum.</div>
+<article class="theorem theorem-like" id="theorem-90"><h3 class="heading">
+<span class="type">Theorem</span><span class="space"> </span><span class="codenumber">5.51</span><span class="period">.</span>
+</h3>
+<div class="para" id="p-861">If <span class="process-math">\(A\)</span> is a nonempty subset of <span class="process-math">\(\mathbb{R}\)</span> that is bounded below, then <span class="process-math">\(\inf(A)\)</span> exists.</div></article><div class="para" id="p-862">Our next result, called the <dfn class="terminology">Archimedean Property</dfn>, tells us that for every real number, we can always find a natural number that is larger. To prove this theorem, consider a proof by contradiction and then utilize the Completeness Axiom and <a href="" class="xref" data-knowl="./knowl/thm_scoot_in_characterization_of_sup.html" title="Theorem 5.48">Theorem 5.48</a>.</div>
+<article class="theorem theorem-like" id="theorem-91"><h3 class="heading">
+<span class="type">Theorem</span><span class="space"> </span><span class="codenumber">5.52</span><span class="period">.</span><span class="space"> </span><span class="title">Archimedean Property.</span>
+</h3>
+<div class="para" id="p-863">For every <span class="process-math">\(x\in\mathbb{R}\text{,}\)</span> there exists <span class="process-math">\(n\in\mathbb{N}\)</span> such that <span class="process-math">\(x\lt n\text{.}\)</span>
+</div></article><div class="para" id="p-864">More generally, we can “squeeze” every real number between a pair of integers. The next result is sometimes referred to at the <dfn class="terminology">Generalized Archimedean Property</dfn>.</div>
+<article class="theorem theorem-like" id="theorem-92"><h3 class="heading">
+<span class="type">Theorem</span><span class="space"> </span><span class="codenumber">5.53</span><span class="period">.</span><span class="space"> </span><span class="title">Generalized Archimedean Property.</span>
+</h3>
+<div class="para" id="p-865">For every <span class="process-math">\(x\in\mathbb{R}\text{,}\)</span> there exists <span class="process-math">\(k,n\in\mathbb{Z}\)</span> such that <span class="process-math">\(k\lt x\lt n\text{.}\)</span>
+</div></article><article class="theorem theorem-like" id="thm_small_reciprocal"><h3 class="heading">
+<span class="type">Theorem</span><span class="space"> </span><span class="codenumber">5.54</span><span class="period">.</span>
+</h3>
+<div class="para" id="p-866">For any positive real number <span class="process-math">\(x\text{,}\)</span> there exists <span class="process-math">\(N\in \mathbb{N}\)</span> such that <span class="process-math">\(0\lt \frac{1}{N}\lt x\text{.}\)</span>
+</div></article><div class="para" id="p-867">The next theorem strengthens the Generalized Archimedean Property and says that every real number is either an integer or lies between a pair of consecutive integers. To prove this theorem, let <span class="process-math">\(x\in\mathbb{R}\)</span> and define <span class="process-math">\(L=\{k\in\mathbb{Z}\mid k\leq x\}\text{.}\)</span> Use the Generalized Archimedean Property to conclude that <span class="process-math">\(L\)</span> is nonempty and then utilize <a href="" class="xref" data-knowl="./knowl/thm_reverse_WOP.html" title="Theorem 4.38">Theorem 4.38</a>.</div>
+<article class="theorem theorem-like" id="thm_squeeze_with_consecutive_integers"><h3 class="heading">
+<span class="type">Theorem</span><span class="space"> </span><span class="codenumber">5.55</span><span class="period">.</span>
+</h3>
+<div class="para" id="p-868">For every <span class="process-math">\(x\in\mathbb{R}\text{,}\)</span> there exists <span class="process-math">\(n\in \mathbb{Z}\)</span> such that <span class="process-math">\(n\leq x\lt n+1\text{.}\)</span>
+</div></article><div class="para" id="p-869">To prove the next theorem, let <span class="process-math">\(a\lt b\text{,}\)</span> utilize <a href="" class="xref" data-knowl="./knowl/thm_small_reciprocal.html" title="Theorem 5.54">Theorem 5.54</a> on <span class="process-math">\(b-a\)</span> to obtain <span class="process-math">\(N\in\mathbb{N}\)</span> such that <span class="process-math">\(\frac{1}{N}\lt b-a\text{,}\)</span> and then apply <a href="" class="xref" data-knowl="./knowl/thm_squeeze_with_consecutive_integers.html" title="Theorem 5.55">Theorem 5.55</a> to <span class="process-math">\(Na\)</span> to conclude that there exists <span class="process-math">\(n\in\mathbb{N}\)</span> such that <span class="process-math">\(n\leq Na\lt n+1\text{.}\)</span> Lastly, argue that <span class="process-math">\(\frac{n+1}{N}\)</span> is the rational number you seek.</div>
+<article class="theorem theorem-like" id="thm_rationals_dense"><h3 class="heading">
+<span class="type">Theorem</span><span class="space"> </span><span class="codenumber">5.56</span><span class="period">.</span>
+</h3>
+<div class="para" id="p-870">If <span class="process-math">\((a,b)\)</span> is an open interval, then there exists a rational number <span class="process-math">\(p\)</span> such that <span class="process-math">\(p\in(a,b)\text{.}\)</span>
+</div></article><div class="para" id="p-871">Recall that the real numbers consist of rational and irrational numbers. Two examples of an irrational number that you are likely familiar with are <span class="process-math">\(\pi\)</span> and <span class="process-math">\(\sqrt{2}\text{.}\)</span> In <a href="sec_Irrationality_of_Root_2.html" class="internal" title="Section 6.2: The Irrationality of \sqrt{2}">Section 6.2</a>, we will prove that <span class="process-math">\(\sqrt{2}\)</span> is irrational, but for now we will take this fact for granted. It turns out that <span class="process-math">\(\sqrt{2}\approx 1.41421356237\in (1,2)\text{.}\)</span> This provides an example of an irrational number occurring between a pair of distinct rational numbers. The following theorem is a good challenge to generalize this.</div>
+<article class="theorem theorem-like" id="thm_irrationals_dense"><h3 class="heading">
+<span class="type">Theorem</span><span class="space"> </span><span class="codenumber">5.57</span><span class="period">.</span>
+</h3>
+<div class="para" id="p-872">If <span class="process-math">\((a,b)\)</span> is an open interval, then there exists an irrational number <span class="process-math">\(p\)</span> such that <span class="process-math">\(p\in(a,b)\text{.}\)</span>
+</div></article><div class="para" id="p-873">Repeated applications of the previous two theorems implies that every open interval contains infinitely many rational numbers and infinitely many irrational numbers. In light of these two theorems, we say that both the rationals and irrationals are <dfn class="terminology">dense</dfn> in the real numbers.</div>
+<div class="para" id="p-874">\epigraph{If people do not believe that mathematics is simple, it is only because they do not realize how complicated life is.}{John von Neumann, mathematician}</div></section></div>
+<div class="ptx-content-footer">
+<a class="previous-button button" href="chap_RealNumbers.html" title="Previous"><span class="icon">&lt;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon">^</span><span class="name">Top</span></a><a class="next-button button" href="sec_Topology.html" title="Next"><span class="name">Next</span><span class="icon">&gt;</span></a>
+</div></main>
+</div>
+<div id="ptx-page-footer" class="ptx-page-footer">
+<a class="pretext-link" href="https://pretextbook.org" title="PreTeXt"><div class="logo"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="338 3000 8772 6866"><g style="stroke-width:.025in; stroke:black; fill:none"><polyline points="472,3590 472,9732 " style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round; "></polyline><path style="stroke:#000000;stroke-width:126;stroke-linecap:butt;" d="M 4724,9448 A 4660 4660  0  0  1  8598  9259"></path><path style="stroke:#000000;stroke-width:174;stroke-linecap:butt;" d="M 4488,9685 A 4228 4228  0  0  0   472  9732"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:butt;" d="M 4724,3590 A 4241 4241  0  0  1  8598  3496"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:round;" d="M 850,3496  A 4241 4241  0  0  1  4724  3590"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:round;" d="M 850,9259  A 4507 4507  0  0  1  4724  9448"></path><polyline points="5385,4299 4062,8125" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8598,3496 8598,9259" style="stroke:#000000;stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="850,3496 850,9259" style="stroke:#000000;stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="4960,9685 4488,9685" style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="3070,4582 1889,6141 3070,7700" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="6418,4582 7600,6141 6418,7700" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8976,3590 8976,9732" style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><path style="stroke:#000000;stroke-width:174;stroke-linecap:butt;" d="M 4960,9685 A 4228 4228  0  0  1  8976  9732"></path></g></svg></div></a><a class="runestone-link" href="https://runestone.academy" title="Runestone Academy"><img class="logo" src="https://runestone.academy/runestone/static/images/RAIcon_cropped.png"></a><a class="mathjax-link" href="https://www.mathjax.org" title="MathJax"><img class="logo" src="https://www.mathjax.org/badge/badge-square-2.png"></a>
+</div>
+</body>
+</html>

@@ -1,0 +1,13 @@
+#fieldaxiomlist {
+    /* delete default counter */
+    list-style-type: none;
+    /* create custom counter and set it to 0 */
+    counter-reset: elementcounter;
+  }
+  
+  #fieldaxiomlist>li:before {
+    /* print out "F" followed by the current counter value */
+    content: "F" counter(elementcounter) ". ";
+    /* increment counter */
+    counter-increment: elementcounter;
+  }

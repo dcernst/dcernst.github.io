@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<!--********************************************-->
+<!--*       Generated from PreTeXt source      *-->
+<!--*                                          *-->
+<!--*         https://pretextbook.org          *-->
+<!--*                                          *-->
+<!--********************************************-->
+<html lang="en-US" dir="ltr">
+<head xmlns:og="http://ogp.me/ns#" xmlns:book="https://ogp.me/ns/book#">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>A Taste of Number Theory</title>
+<meta name="Keywords" content="Authored in PreTeXt">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:type" content="book">
+<meta property="book:title" content="An Introduction to Proof via Inquiry-Based Learning">
+<meta property="book:author" content="Dana C. Ernst, PhD">
+<script>
+var runestoneMathReady = new Promise((resolve) => window.rsMathReady = resolve);
+window.MathJax = {
+  "tex": {
+    "inlineMath": [
+      [
+        "\\(",
+        "\\)"
+      ]
+    ],
+    "tags": "none",
+    "tagSide": "right",
+    "tagIndent": ".8em",
+    "packages": {
+      "[+]": [
+        "base",
+        "extpfeil",
+        "ams",
+        "amscd",
+        "color",
+        "newcommand",
+        "knowl"
+      ]
+    }
+  },
+  "options": {
+    "ignoreHtmlClass": "tex2jax_ignore|ignore-math",
+    "processHtmlClass": "process-math"
+  },
+  "chtml": {
+    "scale": 0.98,
+    "mtextInheritFont": true
+  },
+  "loader": {
+    "load": [
+      "input/asciimath",
+      "[tex]/extpfeil",
+      "[tex]/amscd",
+      "[tex]/color",
+      "[tex]/newcommand",
+      "[pretext]/mathjaxknowl3.js"
+    ],
+    "paths": {
+      "pretext": "https://pretextbook.org/js/lib"
+    }
+  },
+  "startup": {
+    pageReady() {
+      return MathJax.startup.defaultPageReady().then(function () {
+      console.log("in ready function");
+      rsMathReady();
+      }
+    )}
+  }
+};
+</script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="https://pretextbook.org/js/0.3/pretext_search.js"></script><link href="https://pretextbook.org/css/0.7/pretext_search.css" rel="stylesheet" type="text/css">
+<script>js_version = 0.3</script><script src="https://pretextbook.org/js/lib/jquery.min.js"></script><script src="https://pretextbook.org/js/lib/jquery.sticky.js"></script><script src="https://pretextbook.org/js/lib/jquery.espy.min.js"></script><script src="https://pretextbook.org/js/0.3/pretext.js"></script><script>miniversion=0.1</script><script src="https://pretextbook.org/js/0.3/pretext_add_on.js?x=1"></script><script src="https://pretextbook.org/js/0.3/user_preferences.js"></script><script src="https://pretextbook.org/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
+</script><link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&amp;family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&amp;family=Tinos:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.cdnfonts.com/css/dejavu-serif" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz,wdth,wght@8..144,50..150,100..900&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wdth,wght@75..100,300..800&amp;display=swap" rel="stylesheet">
+<link href="https://pretextbook.org/css/0.7/pretext.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.7/pretext_add_on.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.7/shell_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.7/banner_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.7/navbar_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.7/toc_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.7/knowls_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.7/style_oscarlevin.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.7/colors_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.7/setcolors.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" href="external/custom-styles.css">
+</head>
+<body class="pretext book ignore-math">
+<a class="assistive" href="#ptx-content">Skip to main content</a><header id="ptx-masthead" class="ptx-masthead"><div class="ptx-banner">
+<a id="logo-link" class="logo-link" href=""></a><div class="title-container">
+<h1 class="heading"><a href="book-1.html"><span class="title">An Introduction to Proof via Inquiry-Based Learning</span></a></h1>
+<p class="byline">Dana C. Ernst, PhD</p>
+</div>
+<div id="searchresultsplaceholder" class="searchresultsplaceholder" style="display: none">
+<button id="closesearchresults" class="closesearchresults" onclick="document.getElementById('searchresultsplaceholder').style.display = 'none'; return false;">x</button><h2>Search Results: <span id="searchterms" class="searchterms"></span>
+</h2>
+<div id="searchempty" class="searchempty"><span>No results.</span></div>
+<ol id="searchresults" class="searchresults"></ol>
+</div>
+</div></header><nav id="ptx-navbar" class="ptx-navbar navbar"><button class="toc-toggle button" aria-label="Show or hide table of contents"><span class="icon">☰</span><span class="name">Contents</span></button><button id="user-preferences-button" class="user-preferences-button button" title="Modify user preferences"><span id="avatarbutton" class="avatarbutton name">You!</span><div id="preferences_menu_holder" class="preferences_menu_holder hidden"><ol id="preferences_menu" class="preferences_menu" style="font-family: 'Roboto Serif', serif;">
+<li data-env="avatar" tabindex="-1">Choose avatar<div class="wrap_to_submenu"><span class="to_submenu">▻</span></div>
+<ol class="hidden avatar">
+<li data-val="You!" tabindex="-1">
+<span id="theYou!" class="avatarcheck">✔️</span>You!</li>
+<li data-val="😺" tabindex="-1">
+<span id="the😺" class="avatarcheck"></span>😺</li>
+<li data-val="👤" tabindex="-1">
+<span id="the👤" class="avatarcheck"></span>👤</li>
+<li data-val="👽" tabindex="-1">
+<span id="the👽" class="avatarcheck"></span>👽</li>
+<li data-val="🐶" tabindex="-1">
+<span id="the🐶" class="avatarcheck"></span>🐶</li>
+<li data-val="🐼" tabindex="-1">
+<span id="the🐼" class="avatarcheck"></span>🐼</li>
+<li data-val="🌈" tabindex="-1">
+<span id="the🌈" class="avatarcheck"></span>🌈</li>
+</ol>
+</li>
+<li data-env="fontfamily" tabindex="-1">Font family<div class="wrap_to_submenu"><span class="to_submenu">▻</span></div>
+<ol class="hidden fontfamily">
+<li data-val="face" data-change="OS" tabindex="-1" style="font-family: 'Open Sans'">
+<span id="theOS" class="ffcheck">✔️</span><span class="name">Open Sans</span><span class="sample">AaBbCc 123 PreTeXt</span>
+</li>
+<li data-val="face" data-change="RS" tabindex="-1" style="font-family: 'Roboto Serif'">
+<span id="theRS" class="ffcheck"></span><span class="name">Roboto Serif</span><span class="sample">AaBbCc 123 PreTeXt</span>
+</li>
+</ol>
+</li>
+<li data-env="font" tabindex="-1">Adjust font<div class="wrap_to_submenu"><span class="to_submenu">▻</span></div>
+<ol class="hidden fonts">
+<li>Size</li>
+<li><span id="thesize">12</span></li>
+<li data-val="size" data-change="-1" tabindex="-1" style="font-size: 80%">Smaller</li>
+<li data-val="size" data-change="1" tabindex="-1" style="font-size: 110%">Larger</li>
+<li>Width</li>
+<li><span id="thewdth">100</span></li>
+<li data-val="wdth" data-change="-5" tabindex="-1" style="font-variation-settings: 'wdth' 60">narrower</li>
+<li data-val="wdth" data-change="5" tabindex="-1" style="font-variation-settings: 'wdth' 150">wider</li>
+<li>Weight</li>
+<li><span id="thewght">400</span></li>
+<li data-val="wght" data-change="-50" tabindex="-1" style="font-weight: 200">thinner</li>
+<li data-val="wght" data-change="50" tabindex="-1" style="font-weight: 700">heavier</li>
+<li>Letter spacing</li>
+<li>
+<span id="thelspace">0</span><span class="byunits">/200</span>
+</li>
+<li data-val="lspace" data-change="-1" tabindex="-1">closer</li>
+<li data-val="lspace" data-change="1" tabindex="-1">f a r t h e r</li>
+<li>Word spacing</li>
+<li>
+<span id="thewspace">0</span><span class="byunits">/50</span>
+</li>
+<li data-val="wspace" data-change="-1" tabindex="-1">smaller gap </li>
+<li data-val="wspace" data-change="1" tabindex="-1">larger gap</li>
+<li>Line Spacing</li>
+<li>
+<span id="theheight">135</span><span class="byunits">/100</span>
+</li>
+<li data-val="height" data-change="-5" tabindex="-1" style="line-height: 1">closer<br>together</li>
+<li data-val="height" data-change="5" tabindex="-1" style="line-height: 1.75">further<br>apart</li>
+</ol>
+</li>
+<li data-env="atmosphere" tabindex="-1">Light/dark mode<div class="wrap_to_submenu"><span class="to_submenu">▻</span></div>
+<ol class="hidden atmosphere">
+<li data-val="default" tabindex="-1">
+<span id="thedefault" class="atmospherecheck">✔️</span>default</li>
+<li data-val="pastel" tabindex="-1">
+<span id="thepastel" class="atmospherecheck"></span>pastel</li>
+<li data-val="darktwilight" tabindex="-1">
+<span id="thedarktwilight" class="atmospherecheck"></span>twilight</li>
+<li data-val="dark" tabindex="-1">
+<span id="thedark" class="atmospherecheck"></span>dark</li>
+<li data-val="darkmidnight" tabindex="-1">
+<span id="thedarkmidnight" class="atmospherecheck"></span>midnight</li>
+</ol>
+</li>
+<li data-env="ruler" tabindex="-1">Reading ruler<div class="wrap_to_submenu"><span class="to_submenu">▻</span></div>
+<ol class="hidden ruler">
+<li data-val="none" tabindex="-1">
+<span id="thenone" class="rulercheck">✔️</span>none</li>
+<li data-val="underline" tabindex="-1">
+<span id="theunderline" class="rulercheck"></span>underline</li>
+<li data-val="lunderline" tabindex="-1">
+<span id="thelunderline" class="rulercheck"></span>L-underline</li>
+<li data-val="greybar" tabindex="-1">
+<span id="thegreybar" class="rulercheck"></span>grey bar</li>
+<li data-val="lightbox" tabindex="-1">
+<span id="thelightbox" class="rulercheck"></span>light box</li>
+<li data-val="sunrise" tabindex="-1">
+<span id="thesunrise" class="rulercheck"></span>sunrise</li>
+<li data-val="sunriseunderline" tabindex="-1">
+<span id="thesunriseunderline" class="rulercheck"></span>sunrise underline</li>
+<li class="moveQ">Motion by:</li>
+<li data-val="mouse" tabindex="-1">
+<span id="themouse" class="motioncheck">✔️</span>follow the mouse</li>
+<li data-val="arrow" tabindex="-1">
+<span id="thearrow" class="motioncheck"></span>up/down arrows - not yet</li>
+<li data-val="eye" tabindex="-1">
+<span id="theeye" class="motioncheck"></span>eye tracking - not yet</li>
+</ol>
+</li>
+</ol></div></button><span class="treebuttons"><a class="previous-button button" href="chap_IntroToMath.html" title="Previous"><span class="icon">&lt;</span><span class="name">Prev</span></a><a class="up-button button" href="chap_IntroToMath.html" title="Up"><span class="icon">^</span><span class="name">Up</span></a><a class="next-button button" href="sec_Intro_to_Logic.html" title="Next"><span class="name">Next</span><span class="icon">&gt;</span></a></span><div class="searchbox"><div class="searchwidget">
+<input id="ptxsearch" class="ptxsearch" type="text" name="terms" placeholder="Search" onchange="doSearch()"><button id="searchbutton" class="searchbutton" type="button" onclick="doSearch()">🔍</button>
+</div></div></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\newcommand{\dom}{\operatorname{Dom}}
+\newcommand{\codom}{\operatorname{Codom}}
+\newcommand{\range}{\operatorname{Rng}}
+\newcommand{\lcm}{\operatorname{lcm}}
+\newcommand{\card}{\operatorname{card}}
+\newcommand{\rel}{\operatorname{rel}}
+\newcommand{\Rel}{\operatorname{Rel}}
+\newcommand{\logeq}{\Longleftrightarrow}
+\renewcommand{\implies}{\Longrightarrow}
+
+\def\tcboxmath{}
+\def\coloneqq{:=}
+\newcommand{\lt}{&lt;}
+\newcommand{\gt}{&gt;}
+\newcommand{\amp}{&amp;}
+\definecolor{fillinmathshade}{gray}{0.9}
+\newcommand{\fillinmath}[1]{\mathchoice{\colorbox{fillinmathshade}{$\displaystyle     \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\textstyle        \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptstyle      \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptscriptstyle\phantom{\,#1\,}$}}}
+\)</span></div>
+<div class="ptx-page">
+<div id="ptx-sidebar" class="ptx-sidebar"><nav id="ptx-toc" class="ptx-toc depth2"><ul class="structural">
+<li>
+<div class="toc-item"><a href="frontmatter-1.html" class="internal"><span class="title">Front Matter</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="colophon.html" class="internal"><span class="title">Colophon</span></a></div></li>
+<li><div class="toc-item"><a href="chap_preface.html" class="internal"><span class="title">Preface</span></a></div></li>
+<li><div class="toc-item"><a href="chap_acknowledgements.html" class="internal"><span class="title">Acknowledgements</span></a></div></li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="chap_intro.html" class="internal"><span class="codenumber">1</span> <span class="title">Introduction</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="sec_WhatIsThisBookAllAbout.html" class="internal"><span class="codenumber">1.1</span> <span class="title">What is This Book All About?</span></a></div></li>
+<li><div class="toc-item"><a href="sec_what_should_you_expect.html" class="internal"><span class="codenumber">1.2</span> <span class="title">What Should You Expect?</span></a></div></li>
+<li><div class="toc-item"><a href="sec_IBLApproach.html" class="internal"><span class="codenumber">1.3</span> <span class="title">An Inquiry-Based Approach</span></a></div></li>
+<li><div class="toc-item"><a href="sec_Structure.html" class="internal"><span class="codenumber">1.4</span> <span class="title">Structure of the Textbook</span></a></div></li>
+<li><div class="toc-item"><a href="sec_guidance.html" class="internal"><span class="codenumber">1.5</span> <span class="title">Some Minimal Guidance</span></a></div></li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="chap_IntroToMath.html" class="internal"><span class="codenumber">2</span> <span class="title">Mathematics and Logic</span></a></div>
+<ul class="structural">
+<li class="active"><div class="toc-item"><a href="sec_baby_number_theory.html" class="internal"><span class="codenumber">2.1</span> <span class="title">A Taste of Number Theory</span></a></div></li>
+<li><div class="toc-item"><a href="sec_Intro_to_Logic.html" class="internal"><span class="codenumber">2.2</span> <span class="title">Introduction to Logic</span></a></div></li>
+<li><div class="toc-item"><a href="sec_Techniques_for_Proving_Conditional_Propositions.html" class="internal"><span class="codenumber">2.3</span> <span class="title">Techniques for Proving Conditional Propositions</span></a></div></li>
+<li><div class="toc-item"><a href="sec_Introduction_to_Quantification.html" class="internal"><span class="codenumber">2.4</span> <span class="title">Introduction to Quantification</span></a></div></li>
+<li><div class="toc-item"><a href="sec_More_About_Quantification.html" class="internal"><span class="codenumber">2.5</span> <span class="title">More About Quantification</span></a></div></li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="chap_SetTheory.html" class="internal"><span class="codenumber">3</span> <span class="title">Set Theory</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="sec_Sets.html" class="internal"><span class="codenumber">3.1</span> <span class="title">Sets</span></a></div></li>
+<li><div class="toc-item"><a href="sec_RussellsParadox.html" class="internal"><span class="codenumber">3.2</span> <span class="title">Russell’s Paradox</span></a></div></li>
+<li><div class="toc-item"><a href="sec_PowerSets.html" class="internal"><span class="codenumber">3.3</span> <span class="title">Power Sets</span></a></div></li>
+<li><div class="toc-item"><a href="sec_Indexing_Sets.html" class="internal"><span class="codenumber">3.4</span> <span class="title">Indexing Sets</span></a></div></li>
+<li><div class="toc-item"><a href="sec_Cartesian_Products.html" class="internal"><span class="codenumber">3.5</span> <span class="title">Cartesian Products of Sets</span></a></div></li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="chap_Induction.html" class="internal"><span class="codenumber">4</span> <span class="title">Induction</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="sec_Intro_to_Induction.html" class="internal"><span class="codenumber">4.1</span> <span class="title">Introduction to Induction</span></a></div></li>
+<li><div class="toc-item"><a href="sec_More_on_Induction.html" class="internal"><span class="codenumber">4.2</span> <span class="title">More on Induction</span></a></div></li>
+<li><div class="toc-item"><a href="sec_CompleteInduction.html" class="internal"><span class="codenumber">4.3</span> <span class="title">Complete Induction</span></a></div></li>
+<li><div class="toc-item"><a href="sec_WOP.html" class="internal"><span class="codenumber">4.4</span> <span class="title">The Well-Ordering Principle</span></a></div></li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="chap_RealNumbers.html" class="internal"><span class="codenumber">5</span> <span class="title">The Real Numbers</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="sec_AxiomsRealNumbers.html" class="internal"><span class="codenumber">5.1</span> <span class="title">Axioms of the Real Numbers</span></a></div></li>
+<li><div class="toc-item"><a href="sec_Topology.html" class="internal"><span class="codenumber">5.2</span> <span class="title">Standard Topology of the Real Line</span></a></div></li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="chap_ThreeFamousTheorems.html" class="internal"><span class="codenumber">6</span> <span class="title">Three Famous Theorems</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="sec_FTA.html" class="internal"><span class="codenumber">6.1</span> <span class="title">The Fundamental Theorem of Arithmetic</span></a></div></li>
+<li><div class="toc-item"><a href="sec_Irrationality_of_Root_2.html" class="internal"><span class="codenumber">6.2</span> <span class="title">The Irrationality of <span class="process-math">\(\sqrt{2}\)</span></span></a></div></li>
+<li><div class="toc-item"><a href="sec_Infinitude_of_Primes.html" class="internal"><span class="codenumber">6.3</span> <span class="title">The Infinitude of Primes</span></a></div></li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="chap_Relations_and_Partitions.html" class="internal"><span class="codenumber">7</span> <span class="title">Relations and Partitions</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="sec_Relations.html" class="internal"><span class="codenumber">7.1</span> <span class="title">Relations</span></a></div></li>
+<li><div class="toc-item"><a href="sec_Equivalence_Relations.html" class="internal"><span class="codenumber">7.2</span> <span class="title">Equivalence Relations</span></a></div></li>
+<li><div class="toc-item"><a href="sec_Partitions.html" class="internal"><span class="codenumber">7.3</span> <span class="title">Partitions</span></a></div></li>
+<li><div class="toc-item"><a href="sec_ModularArithmetic.html" class="internal"><span class="codenumber">7.4</span> <span class="title">Modular Arithmetic</span></a></div></li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="chap_Functions.html" class="internal"><span class="codenumber">8</span> <span class="title">Functions</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="sec_Intro_to_Functions.html" class="internal"><span class="codenumber">8.1</span> <span class="title">Introduction to Functions</span></a></div></li>
+<li><div class="toc-item"><a href="sec_Injective_and_Surjective_Functions.html" class="internal"><span class="codenumber">8.2</span> <span class="title">Injective and Surjective Functions</span></a></div></li>
+<li><div class="toc-item"><a href="sec_Compositions_and_Inverse_Functions.html" class="internal"><span class="codenumber">8.3</span> <span class="title">Compositions and Inverse Functions</span></a></div></li>
+<li><div class="toc-item"><a href="sec_Images_and_Preimages.html" class="internal"><span class="codenumber">8.4</span> <span class="title">Images and Preimages of Functions</span></a></div></li>
+<li><div class="toc-item"><a href="sec_Continuity.html" class="internal"><span class="codenumber">8.5</span> <span class="title">Continuous Real Functions</span></a></div></li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="chap_Cardinality.html" class="internal"><span class="codenumber">9</span> <span class="title">Cardinality</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="sec_Intro_to_Cardinality.html" class="internal"><span class="codenumber">9.1</span> <span class="title">Introduction to Cardinality</span></a></div></li>
+<li><div class="toc-item"><a href="sec_Finite_Sets.html" class="internal"><span class="codenumber">9.2</span> <span class="title">Finite Sets</span></a></div></li>
+<li><div class="toc-item"><a href="sec_Infinite_Sets.html" class="internal"><span class="codenumber">9.3</span> <span class="title">Infinite Sets</span></a></div></li>
+<li><div class="toc-item"><a href="sec_Countable_Sets.html" class="internal"><span class="codenumber">9.4</span> <span class="title">Countable Sets</span></a></div></li>
+<li><div class="toc-item"><a href="sec_Uncountable_Sets.html" class="internal"><span class="codenumber">9.5</span> <span class="title">Uncountable Sets</span></a></div></li>
+</ul>
+</li>
+<li><div class="toc-item"><a href="appendix_elements_of_style.html" class="internal"><span class="codenumber">A</span> <span class="title">Elements of Style for Proofs</span></a></div></li>
+<li><div class="toc-item"><a href="appendix_fancy_math_terms.html" class="internal"><span class="codenumber">B</span> <span class="title">Fancy Mathematical Terms</span></a></div></li>
+<li><div class="toc-item"><a href="appendix_paradoxes.html" class="internal"><span class="codenumber">C</span> <span class="title">Paradoxes</span></a></div></li>
+<li><div class="toc-item"><a href="appendix_definitions.html" class="internal"><span class="codenumber">D</span> <span class="title">Definitions in Mathematics</span></a></div></li>
+</ul></nav></div>
+<main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="section" id="sec_baby_number_theory"><h2 class="heading hide-type">
+<span class="type">Section</span> <span class="codenumber">2.1</span> <span class="title">A Taste of Number Theory</span>
+</h2>
+<div class="para" id="p-68">It is important to point out that we are diving in head first here. As we get started, we are going to rely on your intuition and previous experience with proofs. This is intentional. What you will likely encounter is a general sense of what a proof entails, but you may not be able to articulate the finer details that you do and do not comprehend. There are going to be some subtle issues that you will be confronted with and one of our goals will be to elucidate as many of them as possible. We need to calibrate and develop an intellectual need for structure. You are encouraged to just try your hand at writing proofs for the problems in this section without too much concern for whether you are “doing it the right way.” In <a href="sec_Intro_to_Logic.html" class="internal" title="Section 2.2: Introduction to Logic">Section 2.2</a>, we will start over and begin to develop a formal foundation for the material in the remainder of the book. Once you have gained more experience and a better understanding of what a proof entails, you should consider returning to this section and reviewing your first attempts at writing proofs. In the meantime, see what you can do!</div>
+<div class="para logical" id="p-69">
+<div class="para">In this section, we will introduce the basics of a branch of mathematics called <em class="emphasis">number theory</em>, which is devoted to studying the properties of the integers. The integers is the set of numbers given by</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\tcboxmath{\mathbb{Z} \coloneqq  \{\ldots, -3, -2, -1, 0, 1, 2, 3, \ldots\}}\text{.}
+\end{equation*}
+</div>
+</div>
+<div class="para logical" id="p-70">
+<div class="para">The collection of positive integers also have a special name. The set of <em class="emphasis">natural numbers</em> is given by</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\tcboxmath{\mathbb{N}\coloneqq \{1,2,3,\ldots\}}\text{.}
+\end{equation*}
+</div>
+</div>
+<div class="para" id="p-71">Some mathematicians (set theorists, in particular) include <span class="process-math">\(0\)</span> in <span class="process-math">\(\mathbb{N}\text{,}\)</span> but this will not be our convention. If you look closely at the two sets we defined above, you will notice that we wrote <span class="process-math">\(\tcboxmath{\coloneqq}\)</span> instead of <span class="process-math">\(=\text{.}\)</span> We use <span class="process-math">\(\coloneqq\)</span> to mean that the symbol or expression on the left is defined to be equal to the expression on the right. The symbol <span class="process-math">\(\tcboxmath{\mathbb{R}}\)</span> is used to denote the set of all <em class="emphasis">real numbers</em>. We will not formally define the real numbers, but instead rely on your prior intuition and understanding.</div>
+<div class="para" id="p-72">Because you are so familiar with many of the properties of the integers and real numbers, one of the issues that we will bump into is knowing which facts we can take for granted. As a general rule of thumb, you should attempt to use the definitions provided without relying too much on your prior knowledge. The order in which we develop things is important.</div>
+<div class="para" id="p-73">It is common practice in mathematics to use the symbol <span class="process-math">\(\tcboxmath{\in}\)</span> as an abbreviation for the phrase “is an element of” or sometimes simply “in.” For example, the mathematical expression “<span class="process-math">\(n\in\mathbb{Z}\)</span>” means “<span class="process-math">\(n\)</span> is an element of the integers.” However, some care should be taken in how this symbol is used. We will only use the symbol “<span class="process-math">\(\in\)</span>” in expressions of the form <span class="process-math">\(\tcboxmath{a \in A}\text{,}\)</span> where <span class="process-math">\(A\)</span> is a set and <span class="process-math">\(a\)</span> is an element of <span class="process-math">\(A\text{.}\)</span> We will write expressions like <span class="process-math">\(\tcboxmath{a,b\in A}\)</span> as shorthand for “<span class="process-math">\(a\in A\)</span> and <span class="process-math">\(b\in A\text{.}\)</span>” We should avoid writing phrases such as “<span class="process-math">\(a\)</span> is a number <span class="process-math">\(\in A\)</span>” and “<span class="process-math">\(n \in\)</span> integers”.</div>
+<div class="para" id="p-74">We will now encounter our very first definition. In mathematics, a <em class="emphasis">definition</em> is a precise and unambiguous description of the meaning of a mathematical term. It characterizes the meaning of a word by giving all the properties and only those properties that must be true. Check out <a href="appendix_fancy_math_terms.html" class="internal" title="Appendix B: Fancy Mathematical Terms">Appendix B</a> for a list of other mathematical terms that we should be familiar with.</div>
+<article class="definition definition-like" id="definition-1"><h3 class="heading">
+<span class="type">Definition</span><span class="space"> </span><span class="codenumber">2.1</span><span class="period">.</span>
+</h3>
+<div class="para" id="p-75">An integer <span class="process-math">\(n\)</span> is even if <span class="process-math">\(n=2k\)</span> for some <span class="process-math">\(k\in\mathbb{Z}\text{.}\)</span> An integer <span class="process-math">\(n\)</span> is odd if <span class="process-math">\(n=2k+1\)</span> for some <span class="process-math">\(k\in\mathbb{Z}\text{.}\)</span>
+</div></article><div class="para" id="p-76">Notice that we framed the definition of “even” in terms of multiplication as opposed to division. When tackling theorems and problems involving even or odd, be sure to make use of our formal definitions and not some of the well-known divisibility properties. For now, you should avoid arguments that involve statements like, “even numbers have no remainder when divided by two” or ``the last digit of an even number is 0, 2, 4, 6, or 8." Also notice that the notions of even and odd apply to zero and negative numbers. In particular, zero is even since <span class="process-math">\(0=2\cdot 0\text{,}\)</span> where it is worth emphasizing that the occurrence of <span class="process-math">\(0\)</span> on the righthand side of the equation is an integer. As another example, we see that <span class="process-math">\(-1\)</span> is odd since <span class="process-math">\(-1=2(-1)+1\text{.}\)</span> Despite the fact that <span class="process-math">\(-1=2(-1/2)\text{,}\)</span> this does not imply that <span class="process-math">\(-1\)</span> is also even since <span class="process-math">\(-1/2\)</span> is not an integer. For the remainder of this section, you may assume that every integer is either even or odd but never both.</div>
+<div class="para" id="p-77">Our first theorem concerning the integers is stated below. A <em class="emphasis">theorem</em> is a mathematical statement that is proved using rigorous mathematical reasoning. As with most theorems in this book, your task is to try your hand at proving the following theorem. Give it a try.</div>
+<article class="theorem theorem-like" id="thm_n_even_implies_n_2_even"><h3 class="heading">
+<span class="type">Theorem</span><span class="space"> </span><span class="codenumber">2.2</span><span class="period">.</span>
+</h3>
+<div class="para" id="p-78">If <span class="process-math">\(n\)</span> is an even integer, then <span class="process-math">\(n^2\)</span> is an even integer.</div></article><div class="para" id="p-79">One crux in proving the next theorem involves figuring out how to describe an arbitrary pair of consecutive integers.</div>
+<article class="theorem theorem-like" id="thm_two_consecutive_ints"><h3 class="heading">
+<span class="type">Theorem</span><span class="space"> </span><span class="codenumber">2.3</span><span class="period">.</span>
+</h3>
+<div class="para" id="p-80">The sum of two consecutive integers is odd.</div></article><div class="para" id="p-81">One skill we will want to develop is determining whether a given mathematical statement is true or false. In order to verify that a mathematical statement is false, we should provide a specific example where the statement fails. Such an example is called a <em class="emphasis">counterexample</em>. Notice that it is sufficient to provide a single example to verify that a general statement is not true. On the other hand, if we want to prove that a general mathematical statement is true, it is usually not sufficient to provide just a single example, or even a hundred examples. Such examples are just evidence that the statement is true.</div>
+<article class="problem example-like" id="problem-1"><h3 class="heading">
+<span class="type">Problem</span><span class="space"> </span><span class="codenumber">2.4</span><span class="period">.</span>
+</h3>
+<div class="para logical" id="p-82">
+<div class="para">Determine whether each of the following statements is true or false. If a statement is true, prove it. If a statement is false, provide a counterexample.</div>
+<ol class="lower-alpha">
+<li id="li-33"><div class="para" id="p-83">The product of an odd integer and an even integer is odd.</div></li>
+<li id="li-34"><div class="para" id="p-84">The product of an odd integer and an odd integer is odd.</div></li>
+<li id="li-35"><div class="para" id="p-85">The product of an even integer and an even integer is even.</div></li>
+<li id="li-36"><div class="para" id="p-86">The sum of an even integer and an odd integer is odd.</div></li>
+</ol>
+</div></article><div class="para" id="p-87">For the statements that were true in the previous problem, you may cite them later in a future proof as if they are theorems.</div>
+<article class="definition definition-like" id="def_divides"><h3 class="heading">
+<span class="type">Definition</span><span class="space"> </span><span class="codenumber">2.5</span><span class="period">.</span>
+</h3>
+<div class="para" id="p-88">Given <span class="process-math">\(n,m\in\mathbb{Z}\text{,}\)</span> we say that <span class="process-math">\(n\)</span> divides <span class="process-math">\(m\text{,}\)</span> written <span class="process-math">\(\tcboxmath{n|m}\text{,}\)</span> if there exists <span class="process-math">\(k\in\mathbb{Z}\)</span> such that <span class="process-math">\(m=nk\text{.}\)</span> If <span class="process-math">\(n|m\text{,}\)</span> we may also say that <span class="process-math">\(m\)</span> is divisible by <span class="process-math">\(n\)</span> or that <span class="process-math">\(n\)</span> is a factor of <span class="process-math">\(m\text{.}\)</span>
+</div></article><article class="problem example-like" id="problem-2"><h3 class="heading">
+<span class="type">Problem</span><span class="space"> </span><span class="codenumber">2.6</span><span class="period">.</span>
+</h3>
+<div class="para logical" id="p-89">
+<div class="para">For <span class="process-math">\(n,m\in\mathbb{Z}\text{,}\)</span> how are the following mathematical expressions similar and how are they different? In particular, is each one a sentence or simply a noun?</div>
+<ol class="lower-alpha">
+<li id="li-37"><div class="para" id="p-90"><span class="process-math">\(\displaystyle n|m\)</span></div></li>
+<li id="li-38"><div class="para" id="p-91"><span class="process-math">\(\displaystyle \displaystyle \frac{m}{n}\)</span></div></li>
+<li id="li-39"><div class="para" id="p-92"><span class="process-math">\(\displaystyle m/n\)</span></div></li>
+</ol>
+</div></article><div class="para" id="p-93">In this section on number theory, we allow addition, subtraction, and multiplication of integers. In general, we avoid division since an integer divided by an integer may result in a number that is not an integer. The upshot is that we will avoid writing <span class="process-math">\(\frac{m}{n}\text{.}\)</span> When you feel the urge to divide, switch to an equivalent formulation using multiplication. This will make your life much easier when proving statements involving divisibility.</div>
+<article class="theorem theorem-like" id="thm_sum_of_three_consecutive_integers"><h3 class="heading">
+<span class="type">Theorem</span><span class="space"> </span><span class="codenumber">2.7</span><span class="period">.</span>
+</h3>
+<div class="para" id="p-94">The sum of any three consecutive integers is always divisible by three.</div></article><article class="problem example-like" id="prob_divisibility_examples"><h3 class="heading">
+<span class="type">Problem</span><span class="space"> </span><span class="codenumber">2.8</span><span class="period">.</span>
+</h3>
+<div class="para logical" id="p-95">
+<div class="para">Let <span class="process-math">\(a, b,n, m\in\mathbb{Z}\text{.}\)</span> Determine whether each of the following statements is true or false. If a statement is true, prove it. If a statement is false, provide a counterexample.</div>
+<ol class="lower-alpha">
+<li id="prob_first_divisibility_example"><div class="para" id="p-96">If <span class="process-math">\(a|n\text{,}\)</span> then <span class="process-math">\(a|mn\text{.}\)</span>
+</div></li>
+<li id="li-41"><div class="para" id="p-97">If 6 divides <span class="process-math">\(n\text{,}\)</span> then 2 divides <span class="process-math">\(n\)</span> and 3 divides <span class="process-math">\(n\text{.}\)</span>
+</div></li>
+<li id="li-42"><div class="para" id="p-98">If <span class="process-math">\(ab\)</span> divides <span class="process-math">\(n\text{,}\)</span> then <span class="process-math">\(a\)</span> divides <span class="process-math">\(n\)</span> and <span class="process-math">\(b\)</span> divides <span class="process-math">\(n\text{.}\)</span>
+</div></li>
+</ol>
+</div></article><div class="para" id="p-99">A theorem that follows almost immediately from another theorem is called a <em class="emphasis">corollary</em>. See if you can prove the next result quickly using a previous result. Be sure to cite the result in your proof.</div>
+<article class="corollary theorem-like" id="cor_a_divs_n_implies_a_divs_n_2"><h3 class="heading">
+<span class="type">Corollary</span><span class="space"> </span><span class="codenumber">2.9</span><span class="period">.</span>
+</h3>
+<div class="para" id="p-100">If <span class="process-math">\(a,n\in\mathbb{Z}\)</span> such that <span class="process-math">\(a\)</span> divides <span class="process-math">\(n\text{,}\)</span> then <span class="process-math">\(a\)</span> divides <span class="process-math">\(n^2\text{.}\)</span>
+</div></article><div class="para" id="p-101">The next two theorems are likely familiar to you.</div>
+<article class="theorem theorem-like" id="thm_divides_negative"><h3 class="heading">
+<span class="type">Theorem</span><span class="space"> </span><span class="codenumber">2.10</span><span class="period">.</span>
+</h3>
+<div class="para" id="p-102">If <span class="process-math">\(a,n\in\mathbb{Z}\)</span> such that <span class="process-math">\(a\)</span> divides <span class="process-math">\(n\text{,}\)</span> then <span class="process-math">\(a\)</span> divides <span class="process-math">\(-n\text{.}\)</span>
+</div></article><article class="theorem theorem-like" id="thm_divides_sum"><h3 class="heading">
+<span class="type">Theorem</span><span class="space"> </span><span class="codenumber">2.11</span><span class="period">.</span>
+</h3>
+<div class="para" id="p-103">If <span class="process-math">\(a,n,m\in\mathbb{Z}\)</span> such that <span class="process-math">\(a\)</span> divides <span class="process-math">\(m\)</span> and <span class="process-math">\(a\)</span> divides <span class="process-math">\(n\text{,}\)</span> then <span class="process-math">\(a\)</span> divides <span class="process-math">\(m+n\text{.}\)</span>
+</div></article><div class="para" id="p-104">Notice that we have been tinkering with statements of the form “If…, then…”. Statements of this form are called <em class="emphasis">conditional propositions</em>, which we revisit in the next section. The phrase that occurs after “If” but before “then” is called the <em class="emphasis">hypothesis</em> while the phrase that occurs after “then” is called the <em class="emphasis">conclusion</em>. For example, in <a href="" class="xref" data-knowl="./knowl/prob_divisibility_examples.html" title="Problem 2.8">Problem 2.8</a> <a href="" class="xref" data-knowl="./knowl/prob_first_divisibility_example.html" title="Item a">Item a</a>, “<span class="process-math">\(a|n\)</span>” is the hypothesis while “<span class="process-math">\(a|mn\)</span>” is the conclusion. Note that conditional propositions can also be written in the form “… if …”, where the conclusion is written before “if” and the hypothesis after. For example, we can rewrite <a href="" class="xref" data-knowl="./knowl/prob_divisibility_examples.html" title="Problem 2.8">Problem 2.8</a> <a href="" class="xref" data-knowl="./knowl/prob_first_divisibility_example.html" title="Item a">Item a</a> as “<span class="process-math">\(a|mn\)</span> if <span class="process-math">\(a|n\)</span>”. While the order of the hypothesis and conclusion have been reversed in the sentence, their roles have not.</div>
+<div class="para" id="p-105">Whenever we encounter a conditional statement in mathematics, we want to get in the habit of asking ourselves what happens when we swap the roles of the hypothesis and the conclusion. The statement that results from reversing the roles of the hypothesis and conclusion in a conditional statement is called the <em class="emphasis">converse</em> of the original statement. For example, the converse of <a href="" class="xref" data-knowl="./knowl/prob_divisibility_examples.html" title="Problem 2.8">Problem 2.8</a> <a href="" class="xref" data-knowl="./knowl/prob_first_divisibility_example.html" title="Item a">Item a</a> is “If <span class="process-math">\(a|mn\text{,}\)</span> then <span class="process-math">\(a|n\)</span>”, which happens to be false. The converse of <a href="" class="xref" data-knowl="./knowl/thm_n_even_implies_n_2_even.html" title="Theorem 2.2">Theorem 2.2</a> is ``If <span class="process-math">\(n^2\)</span> is an even integer, then <span class="process-math">\(n\)</span> is an even integer". While this statement is true it does <em class="emphasis">not</em> have the same meaning as <a href="" class="xref" data-knowl="./knowl/thm_n_even_implies_n_2_even.html" title="Theorem 2.2">Theorem 2.2</a>.</div>
+<article class="problem example-like" id="problem-4"><h3 class="heading">
+<span class="type">Problem</span><span class="space"> </span><span class="codenumber">2.12</span><span class="period">.</span>
+</h3>
+<div class="para logical" id="p-106">
+<div class="para">Determine whether the converse of each of <a href="" class="xref" data-knowl="./knowl/cor_a_divs_n_implies_a_divs_n_2.html" title="Corollary 2.9">Corollary 2.9</a>, <a href="" class="xref" data-knowl="./knowl/thm_divides_negative.html" title="Theorem 2.10">Theorem 2.10</a>, and <a href="" class="xref" data-knowl="./knowl/thm_divides_sum.html" title="Theorem 2.11">Theorem 2.11</a> is true. That is, for <span class="process-math">\(a,n,m\in\mathbb{Z}\text{,}\)</span> determine whether each of the following statements is true or false. If a statement is true, prove it. If a statement is false, provide a counterexample.</div>
+<ol class="lower-alpha">
+<li id="li-43"><div class="para" id="p-107">If <span class="process-math">\(a\)</span> divides <span class="process-math">\(n^2\text{,}\)</span> then <span class="process-math">\(a\)</span> divides <span class="process-math">\(n\text{.}\)</span> (Converse of <a href="" class="xref" data-knowl="./knowl/cor_a_divs_n_implies_a_divs_n_2.html" title="Corollary 2.9">Corollary 2.9</a>)</div></li>
+<li id="li-44"><div class="para" id="p-108">If <span class="process-math">\(a\)</span> divides <span class="process-math">\(-n\text{,}\)</span> then <span class="process-math">\(a\)</span> divides <span class="process-math">\(n\text{.}\)</span> (Converse of <a href="" class="xref" data-knowl="./knowl/thm_divides_negative.html" title="Theorem 2.10">Theorem 2.10</a>)</div></li>
+<li id="li-45"><div class="para" id="p-109">If <span class="process-math">\(a\)</span> divides <span class="process-math">\(m+n\text{,}\)</span> then <span class="process-math">\(a\)</span> divides <span class="process-math">\(m\)</span> and <span class="process-math">\(a\)</span> divides <span class="process-math">\(n\text{.}\)</span> (Converse of <a href="" class="xref" data-knowl="./knowl/thm_divides_sum.html" title="Theorem 2.11">Theorem 2.11</a>)</div></li>
+</ol>
+</div></article><div class="para" id="p-110">The next theorem is often referred to as the <em class="emphasis">transitivity of division of integers</em>.</div>
+<article class="theorem theorem-like" id="thm_transitivity_of_divides"><h3 class="heading">
+<span class="type">Theorem</span><span class="space"> </span><span class="codenumber">2.13</span><span class="period">.</span>
+</h3>
+<div class="para" id="p-111">If <span class="process-math">\(a,b,c\in\mathbb{Z}\)</span> such that <span class="process-math">\(a\)</span> divides <span class="process-math">\(b\)</span> and <span class="process-math">\(b\)</span> divides <span class="process-math">\(c\text{,}\)</span> then <span class="process-math">\(a\)</span> divides <span class="process-math">\(c\text{.}\)</span>
+</div></article><div class="para" id="p-112">Once we have proved a few theorems, we should be on the look out to see if we can utilize any of our current results to prove new results. There is no point in reinventing the wheel if we do not have to.</div>
+<article class="theorem theorem-like" id="theorem-7"><h3 class="heading">
+<span class="type">Theorem</span><span class="space"> </span><span class="codenumber">2.14</span><span class="period">.</span>
+</h3>
+<div class="para" id="p-113">If <span class="process-math">\(a,n,m\in\mathbb{Z}\)</span> such that <span class="process-math">\(a\)</span> divides <span class="process-math">\(m\)</span> and <span class="process-math">\(a\)</span> divides <span class="process-math">\(n\text{,}\)</span> then <span class="process-math">\(a\)</span> divides <span class="process-math">\(m-n\text{.}\)</span>
+</div></article><article class="theorem theorem-like" id="theorem-8"><h3 class="heading">
+<span class="type">Theorem</span><span class="space"> </span><span class="codenumber">2.15</span><span class="period">.</span>
+</h3>
+<div class="para" id="p-114">If <span class="process-math">\(n\in\mathbb{Z}\)</span> such that <span class="process-math">\(n\)</span> is odd, then 8 divides <span class="process-math">\(n^{2}-1\text{.}\)</span>
+</div></article><div class="para" id="p-115">\epigraph{Time spent thinking about a problem is always time well spent. Even if you seem to make no progress at all.}{Paul Zeitz, mathematician}</div></section></div>
+<div class="ptx-content-footer">
+<a class="previous-button button" href="chap_IntroToMath.html" title="Previous"><span class="icon">&lt;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon">^</span><span class="name">Top</span></a><a class="next-button button" href="sec_Intro_to_Logic.html" title="Next"><span class="name">Next</span><span class="icon">&gt;</span></a>
+</div></main>
+</div>
+<div id="ptx-page-footer" class="ptx-page-footer">
+<a class="pretext-link" href="https://pretextbook.org" title="PreTeXt"><div class="logo"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="338 3000 8772 6866"><g style="stroke-width:.025in; stroke:black; fill:none"><polyline points="472,3590 472,9732 " style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round; "></polyline><path style="stroke:#000000;stroke-width:126;stroke-linecap:butt;" d="M 4724,9448 A 4660 4660  0  0  1  8598  9259"></path><path style="stroke:#000000;stroke-width:174;stroke-linecap:butt;" d="M 4488,9685 A 4228 4228  0  0  0   472  9732"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:butt;" d="M 4724,3590 A 4241 4241  0  0  1  8598  3496"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:round;" d="M 850,3496  A 4241 4241  0  0  1  4724  3590"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:round;" d="M 850,9259  A 4507 4507  0  0  1  4724  9448"></path><polyline points="5385,4299 4062,8125" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8598,3496 8598,9259" style="stroke:#000000;stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="850,3496 850,9259" style="stroke:#000000;stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="4960,9685 4488,9685" style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="3070,4582 1889,6141 3070,7700" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="6418,4582 7600,6141 6418,7700" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8976,3590 8976,9732" style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><path style="stroke:#000000;stroke-width:174;stroke-linecap:butt;" d="M 4960,9685 A 4228 4228  0  0  1  8976  9732"></path></g></svg></div></a><a class="runestone-link" href="https://runestone.academy" title="Runestone Academy"><img class="logo" src="https://runestone.academy/runestone/static/images/RAIcon_cropped.png"></a><a class="mathjax-link" href="https://www.mathjax.org" title="MathJax"><img class="logo" src="https://www.mathjax.org/badge/badge-square-2.png"></a>
+</div>
+</body>
+</html>

@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<!--********************************************-->
+<!--*       Generated from PreTeXt source      *-->
+<!--*                                          *-->
+<!--*         https://pretextbook.org          *-->
+<!--*                                          *-->
+<!--********************************************-->
+<html lang="en-US" dir="ltr">
+<head xmlns:og="http://ogp.me/ns#" xmlns:book="https://ogp.me/ns/book#">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Countable Sets</title>
+<meta name="Keywords" content="Authored in PreTeXt">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:type" content="book">
+<meta property="book:title" content="An Introduction to Proof via Inquiry-Based Learning">
+<meta property="book:author" content="Dana C. Ernst, PhD">
+<script>
+var runestoneMathReady = new Promise((resolve) => window.rsMathReady = resolve);
+window.MathJax = {
+  "tex": {
+    "inlineMath": [
+      [
+        "\\(",
+        "\\)"
+      ]
+    ],
+    "tags": "none",
+    "tagSide": "right",
+    "tagIndent": ".8em",
+    "packages": {
+      "[+]": [
+        "base",
+        "extpfeil",
+        "ams",
+        "amscd",
+        "color",
+        "newcommand",
+        "knowl"
+      ]
+    }
+  },
+  "options": {
+    "ignoreHtmlClass": "tex2jax_ignore|ignore-math",
+    "processHtmlClass": "process-math"
+  },
+  "chtml": {
+    "scale": 0.98,
+    "mtextInheritFont": true
+  },
+  "loader": {
+    "load": [
+      "input/asciimath",
+      "[tex]/extpfeil",
+      "[tex]/amscd",
+      "[tex]/color",
+      "[tex]/newcommand",
+      "[pretext]/mathjaxknowl3.js"
+    ],
+    "paths": {
+      "pretext": "https://pretextbook.org/js/lib"
+    }
+  },
+  "startup": {
+    pageReady() {
+      return MathJax.startup.defaultPageReady().then(function () {
+      console.log("in ready function");
+      rsMathReady();
+      }
+    )}
+  }
+};
+</script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="https://pretextbook.org/js/0.3/pretext_search.js"></script><link href="https://pretextbook.org/css/0.7/pretext_search.css" rel="stylesheet" type="text/css">
+<script>js_version = 0.3</script><script src="https://pretextbook.org/js/lib/jquery.min.js"></script><script src="https://pretextbook.org/js/lib/jquery.sticky.js"></script><script src="https://pretextbook.org/js/lib/jquery.espy.min.js"></script><script src="https://pretextbook.org/js/0.3/pretext.js"></script><script>miniversion=0.1</script><script src="https://pretextbook.org/js/0.3/pretext_add_on.js?x=1"></script><script src="https://pretextbook.org/js/0.3/user_preferences.js"></script><script src="https://pretextbook.org/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
+</script><link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&amp;family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&amp;family=Tinos:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.cdnfonts.com/css/dejavu-serif" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz,wdth,wght@8..144,50..150,100..900&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wdth,wght@75..100,300..800&amp;display=swap" rel="stylesheet">
+<link href="https://pretextbook.org/css/0.7/pretext.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.7/pretext_add_on.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.7/shell_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.7/banner_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.7/navbar_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.7/toc_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.7/knowls_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.7/style_oscarlevin.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.7/colors_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.7/setcolors.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" href="external/custom-styles.css">
+</head>
+<body class="pretext book ignore-math">
+<a class="assistive" href="#ptx-content">Skip to main content</a><header id="ptx-masthead" class="ptx-masthead"><div class="ptx-banner">
+<a id="logo-link" class="logo-link" href=""></a><div class="title-container">
+<h1 class="heading"><a href="book-1.html"><span class="title">An Introduction to Proof via Inquiry-Based Learning</span></a></h1>
+<p class="byline">Dana C. Ernst, PhD</p>
+</div>
+<div id="searchresultsplaceholder" class="searchresultsplaceholder" style="display: none">
+<button id="closesearchresults" class="closesearchresults" onclick="document.getElementById('searchresultsplaceholder').style.display = 'none'; return false;">x</button><h2>Search Results: <span id="searchterms" class="searchterms"></span>
+</h2>
+<div id="searchempty" class="searchempty"><span>No results.</span></div>
+<ol id="searchresults" class="searchresults"></ol>
+</div>
+</div></header><nav id="ptx-navbar" class="ptx-navbar navbar"><button class="toc-toggle button" aria-label="Show or hide table of contents"><span class="icon">☰</span><span class="name">Contents</span></button><button id="user-preferences-button" class="user-preferences-button button" title="Modify user preferences"><span id="avatarbutton" class="avatarbutton name">You!</span><div id="preferences_menu_holder" class="preferences_menu_holder hidden"><ol id="preferences_menu" class="preferences_menu" style="font-family: 'Roboto Serif', serif;">
+<li data-env="avatar" tabindex="-1">Choose avatar<div class="wrap_to_submenu"><span class="to_submenu">▻</span></div>
+<ol class="hidden avatar">
+<li data-val="You!" tabindex="-1">
+<span id="theYou!" class="avatarcheck">✔️</span>You!</li>
+<li data-val="😺" tabindex="-1">
+<span id="the😺" class="avatarcheck"></span>😺</li>
+<li data-val="👤" tabindex="-1">
+<span id="the👤" class="avatarcheck"></span>👤</li>
+<li data-val="👽" tabindex="-1">
+<span id="the👽" class="avatarcheck"></span>👽</li>
+<li data-val="🐶" tabindex="-1">
+<span id="the🐶" class="avatarcheck"></span>🐶</li>
+<li data-val="🐼" tabindex="-1">
+<span id="the🐼" class="avatarcheck"></span>🐼</li>
+<li data-val="🌈" tabindex="-1">
+<span id="the🌈" class="avatarcheck"></span>🌈</li>
+</ol>
+</li>
+<li data-env="fontfamily" tabindex="-1">Font family<div class="wrap_to_submenu"><span class="to_submenu">▻</span></div>
+<ol class="hidden fontfamily">
+<li data-val="face" data-change="OS" tabindex="-1" style="font-family: 'Open Sans'">
+<span id="theOS" class="ffcheck">✔️</span><span class="name">Open Sans</span><span class="sample">AaBbCc 123 PreTeXt</span>
+</li>
+<li data-val="face" data-change="RS" tabindex="-1" style="font-family: 'Roboto Serif'">
+<span id="theRS" class="ffcheck"></span><span class="name">Roboto Serif</span><span class="sample">AaBbCc 123 PreTeXt</span>
+</li>
+</ol>
+</li>
+<li data-env="font" tabindex="-1">Adjust font<div class="wrap_to_submenu"><span class="to_submenu">▻</span></div>
+<ol class="hidden fonts">
+<li>Size</li>
+<li><span id="thesize">12</span></li>
+<li data-val="size" data-change="-1" tabindex="-1" style="font-size: 80%">Smaller</li>
+<li data-val="size" data-change="1" tabindex="-1" style="font-size: 110%">Larger</li>
+<li>Width</li>
+<li><span id="thewdth">100</span></li>
+<li data-val="wdth" data-change="-5" tabindex="-1" style="font-variation-settings: 'wdth' 60">narrower</li>
+<li data-val="wdth" data-change="5" tabindex="-1" style="font-variation-settings: 'wdth' 150">wider</li>
+<li>Weight</li>
+<li><span id="thewght">400</span></li>
+<li data-val="wght" data-change="-50" tabindex="-1" style="font-weight: 200">thinner</li>
+<li data-val="wght" data-change="50" tabindex="-1" style="font-weight: 700">heavier</li>
+<li>Letter spacing</li>
+<li>
+<span id="thelspace">0</span><span class="byunits">/200</span>
+</li>
+<li data-val="lspace" data-change="-1" tabindex="-1">closer</li>
+<li data-val="lspace" data-change="1" tabindex="-1">f a r t h e r</li>
+<li>Word spacing</li>
+<li>
+<span id="thewspace">0</span><span class="byunits">/50</span>
+</li>
+<li data-val="wspace" data-change="-1" tabindex="-1">smaller gap </li>
+<li data-val="wspace" data-change="1" tabindex="-1">larger gap</li>
+<li>Line Spacing</li>
+<li>
+<span id="theheight">135</span><span class="byunits">/100</span>
+</li>
+<li data-val="height" data-change="-5" tabindex="-1" style="line-height: 1">closer<br>together</li>
+<li data-val="height" data-change="5" tabindex="-1" style="line-height: 1.75">further<br>apart</li>
+</ol>
+</li>
+<li data-env="atmosphere" tabindex="-1">Light/dark mode<div class="wrap_to_submenu"><span class="to_submenu">▻</span></div>
+<ol class="hidden atmosphere">
+<li data-val="default" tabindex="-1">
+<span id="thedefault" class="atmospherecheck">✔️</span>default</li>
+<li data-val="pastel" tabindex="-1">
+<span id="thepastel" class="atmospherecheck"></span>pastel</li>
+<li data-val="darktwilight" tabindex="-1">
+<span id="thedarktwilight" class="atmospherecheck"></span>twilight</li>
+<li data-val="dark" tabindex="-1">
+<span id="thedark" class="atmospherecheck"></span>dark</li>
+<li data-val="darkmidnight" tabindex="-1">
+<span id="thedarkmidnight" class="atmospherecheck"></span>midnight</li>
+</ol>
+</li>
+<li data-env="ruler" tabindex="-1">Reading ruler<div class="wrap_to_submenu"><span class="to_submenu">▻</span></div>
+<ol class="hidden ruler">
+<li data-val="none" tabindex="-1">
+<span id="thenone" class="rulercheck">✔️</span>none</li>
+<li data-val="underline" tabindex="-1">
+<span id="theunderline" class="rulercheck"></span>underline</li>
+<li data-val="lunderline" tabindex="-1">
+<span id="thelunderline" class="rulercheck"></span>L-underline</li>
+<li data-val="greybar" tabindex="-1">
+<span id="thegreybar" class="rulercheck"></span>grey bar</li>
+<li data-val="lightbox" tabindex="-1">
+<span id="thelightbox" class="rulercheck"></span>light box</li>
+<li data-val="sunrise" tabindex="-1">
+<span id="thesunrise" class="rulercheck"></span>sunrise</li>
+<li data-val="sunriseunderline" tabindex="-1">
+<span id="thesunriseunderline" class="rulercheck"></span>sunrise underline</li>
+<li class="moveQ">Motion by:</li>
+<li data-val="mouse" tabindex="-1">
+<span id="themouse" class="motioncheck">✔️</span>follow the mouse</li>
+<li data-val="arrow" tabindex="-1">
+<span id="thearrow" class="motioncheck"></span>up/down arrows - not yet</li>
+<li data-val="eye" tabindex="-1">
+<span id="theeye" class="motioncheck"></span>eye tracking - not yet</li>
+</ol>
+</li>
+</ol></div></button><span class="treebuttons"><a class="previous-button button" href="sec_Infinite_Sets.html" title="Previous"><span class="icon">&lt;</span><span class="name">Prev</span></a><a class="up-button button" href="chap_Cardinality.html" title="Up"><span class="icon">^</span><span class="name">Up</span></a><a class="next-button button" href="sec_Uncountable_Sets.html" title="Next"><span class="name">Next</span><span class="icon">&gt;</span></a></span><div class="searchbox"><div class="searchwidget">
+<input id="ptxsearch" class="ptxsearch" type="text" name="terms" placeholder="Search" onchange="doSearch()"><button id="searchbutton" class="searchbutton" type="button" onclick="doSearch()">🔍</button>
+</div></div></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\newcommand{\dom}{\operatorname{Dom}}
+\newcommand{\codom}{\operatorname{Codom}}
+\newcommand{\range}{\operatorname{Rng}}
+\newcommand{\lcm}{\operatorname{lcm}}
+\newcommand{\card}{\operatorname{card}}
+\newcommand{\rel}{\operatorname{rel}}
+\newcommand{\Rel}{\operatorname{Rel}}
+\newcommand{\logeq}{\Longleftrightarrow}
+\renewcommand{\implies}{\Longrightarrow}
+
+\def\tcboxmath{}
+\def\coloneqq{:=}
+\newcommand{\lt}{&lt;}
+\newcommand{\gt}{&gt;}
+\newcommand{\amp}{&amp;}
+\definecolor{fillinmathshade}{gray}{0.9}
+\newcommand{\fillinmath}[1]{\mathchoice{\colorbox{fillinmathshade}{$\displaystyle     \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\textstyle        \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptstyle      \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptscriptstyle\phantom{\,#1\,}$}}}
+\)</span></div>
+<div class="ptx-page">
+<div id="ptx-sidebar" class="ptx-sidebar"><nav id="ptx-toc" class="ptx-toc depth2"><ul class="structural">
+<li>
+<div class="toc-item"><a href="frontmatter-1.html" class="internal"><span class="title">Front Matter</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="colophon.html" class="internal"><span class="title">Colophon</span></a></div></li>
+<li><div class="toc-item"><a href="chap_preface.html" class="internal"><span class="title">Preface</span></a></div></li>
+<li><div class="toc-item"><a href="chap_acknowledgements.html" class="internal"><span class="title">Acknowledgements</span></a></div></li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="chap_intro.html" class="internal"><span class="codenumber">1</span> <span class="title">Introduction</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="sec_WhatIsThisBookAllAbout.html" class="internal"><span class="codenumber">1.1</span> <span class="title">What is This Book All About?</span></a></div></li>
+<li><div class="toc-item"><a href="sec_what_should_you_expect.html" class="internal"><span class="codenumber">1.2</span> <span class="title">What Should You Expect?</span></a></div></li>
+<li><div class="toc-item"><a href="sec_IBLApproach.html" class="internal"><span class="codenumber">1.3</span> <span class="title">An Inquiry-Based Approach</span></a></div></li>
+<li><div class="toc-item"><a href="sec_Structure.html" class="internal"><span class="codenumber">1.4</span> <span class="title">Structure of the Textbook</span></a></div></li>
+<li><div class="toc-item"><a href="sec_guidance.html" class="internal"><span class="codenumber">1.5</span> <span class="title">Some Minimal Guidance</span></a></div></li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="chap_IntroToMath.html" class="internal"><span class="codenumber">2</span> <span class="title">Mathematics and Logic</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="sec_baby_number_theory.html" class="internal"><span class="codenumber">2.1</span> <span class="title">A Taste of Number Theory</span></a></div></li>
+<li><div class="toc-item"><a href="sec_Intro_to_Logic.html" class="internal"><span class="codenumber">2.2</span> <span class="title">Introduction to Logic</span></a></div></li>
+<li><div class="toc-item"><a href="sec_Techniques_for_Proving_Conditional_Propositions.html" class="internal"><span class="codenumber">2.3</span> <span class="title">Techniques for Proving Conditional Propositions</span></a></div></li>
+<li><div class="toc-item"><a href="sec_Introduction_to_Quantification.html" class="internal"><span class="codenumber">2.4</span> <span class="title">Introduction to Quantification</span></a></div></li>
+<li><div class="toc-item"><a href="sec_More_About_Quantification.html" class="internal"><span class="codenumber">2.5</span> <span class="title">More About Quantification</span></a></div></li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="chap_SetTheory.html" class="internal"><span class="codenumber">3</span> <span class="title">Set Theory</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="sec_Sets.html" class="internal"><span class="codenumber">3.1</span> <span class="title">Sets</span></a></div></li>
+<li><div class="toc-item"><a href="sec_RussellsParadox.html" class="internal"><span class="codenumber">3.2</span> <span class="title">Russell’s Paradox</span></a></div></li>
+<li><div class="toc-item"><a href="sec_PowerSets.html" class="internal"><span class="codenumber">3.3</span> <span class="title">Power Sets</span></a></div></li>
+<li><div class="toc-item"><a href="sec_Indexing_Sets.html" class="internal"><span class="codenumber">3.4</span> <span class="title">Indexing Sets</span></a></div></li>
+<li><div class="toc-item"><a href="sec_Cartesian_Products.html" class="internal"><span class="codenumber">3.5</span> <span class="title">Cartesian Products of Sets</span></a></div></li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="chap_Induction.html" class="internal"><span class="codenumber">4</span> <span class="title">Induction</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="sec_Intro_to_Induction.html" class="internal"><span class="codenumber">4.1</span> <span class="title">Introduction to Induction</span></a></div></li>
+<li><div class="toc-item"><a href="sec_More_on_Induction.html" class="internal"><span class="codenumber">4.2</span> <span class="title">More on Induction</span></a></div></li>
+<li><div class="toc-item"><a href="sec_CompleteInduction.html" class="internal"><span class="codenumber">4.3</span> <span class="title">Complete Induction</span></a></div></li>
+<li><div class="toc-item"><a href="sec_WOP.html" class="internal"><span class="codenumber">4.4</span> <span class="title">The Well-Ordering Principle</span></a></div></li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="chap_RealNumbers.html" class="internal"><span class="codenumber">5</span> <span class="title">The Real Numbers</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="sec_AxiomsRealNumbers.html" class="internal"><span class="codenumber">5.1</span> <span class="title">Axioms of the Real Numbers</span></a></div></li>
+<li><div class="toc-item"><a href="sec_Topology.html" class="internal"><span class="codenumber">5.2</span> <span class="title">Standard Topology of the Real Line</span></a></div></li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="chap_ThreeFamousTheorems.html" class="internal"><span class="codenumber">6</span> <span class="title">Three Famous Theorems</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="sec_FTA.html" class="internal"><span class="codenumber">6.1</span> <span class="title">The Fundamental Theorem of Arithmetic</span></a></div></li>
+<li><div class="toc-item"><a href="sec_Irrationality_of_Root_2.html" class="internal"><span class="codenumber">6.2</span> <span class="title">The Irrationality of <span class="process-math">\(\sqrt{2}\)</span></span></a></div></li>
+<li><div class="toc-item"><a href="sec_Infinitude_of_Primes.html" class="internal"><span class="codenumber">6.3</span> <span class="title">The Infinitude of Primes</span></a></div></li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="chap_Relations_and_Partitions.html" class="internal"><span class="codenumber">7</span> <span class="title">Relations and Partitions</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="sec_Relations.html" class="internal"><span class="codenumber">7.1</span> <span class="title">Relations</span></a></div></li>
+<li><div class="toc-item"><a href="sec_Equivalence_Relations.html" class="internal"><span class="codenumber">7.2</span> <span class="title">Equivalence Relations</span></a></div></li>
+<li><div class="toc-item"><a href="sec_Partitions.html" class="internal"><span class="codenumber">7.3</span> <span class="title">Partitions</span></a></div></li>
+<li><div class="toc-item"><a href="sec_ModularArithmetic.html" class="internal"><span class="codenumber">7.4</span> <span class="title">Modular Arithmetic</span></a></div></li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="chap_Functions.html" class="internal"><span class="codenumber">8</span> <span class="title">Functions</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="sec_Intro_to_Functions.html" class="internal"><span class="codenumber">8.1</span> <span class="title">Introduction to Functions</span></a></div></li>
+<li><div class="toc-item"><a href="sec_Injective_and_Surjective_Functions.html" class="internal"><span class="codenumber">8.2</span> <span class="title">Injective and Surjective Functions</span></a></div></li>
+<li><div class="toc-item"><a href="sec_Compositions_and_Inverse_Functions.html" class="internal"><span class="codenumber">8.3</span> <span class="title">Compositions and Inverse Functions</span></a></div></li>
+<li><div class="toc-item"><a href="sec_Images_and_Preimages.html" class="internal"><span class="codenumber">8.4</span> <span class="title">Images and Preimages of Functions</span></a></div></li>
+<li><div class="toc-item"><a href="sec_Continuity.html" class="internal"><span class="codenumber">8.5</span> <span class="title">Continuous Real Functions</span></a></div></li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="chap_Cardinality.html" class="internal"><span class="codenumber">9</span> <span class="title">Cardinality</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="sec_Intro_to_Cardinality.html" class="internal"><span class="codenumber">9.1</span> <span class="title">Introduction to Cardinality</span></a></div></li>
+<li><div class="toc-item"><a href="sec_Finite_Sets.html" class="internal"><span class="codenumber">9.2</span> <span class="title">Finite Sets</span></a></div></li>
+<li><div class="toc-item"><a href="sec_Infinite_Sets.html" class="internal"><span class="codenumber">9.3</span> <span class="title">Infinite Sets</span></a></div></li>
+<li class="active"><div class="toc-item"><a href="sec_Countable_Sets.html" class="internal"><span class="codenumber">9.4</span> <span class="title">Countable Sets</span></a></div></li>
+<li><div class="toc-item"><a href="sec_Uncountable_Sets.html" class="internal"><span class="codenumber">9.5</span> <span class="title">Uncountable Sets</span></a></div></li>
+</ul>
+</li>
+<li><div class="toc-item"><a href="appendix_elements_of_style.html" class="internal"><span class="codenumber">A</span> <span class="title">Elements of Style for Proofs</span></a></div></li>
+<li><div class="toc-item"><a href="appendix_fancy_math_terms.html" class="internal"><span class="codenumber">B</span> <span class="title">Fancy Mathematical Terms</span></a></div></li>
+<li><div class="toc-item"><a href="appendix_paradoxes.html" class="internal"><span class="codenumber">C</span> <span class="title">Paradoxes</span></a></div></li>
+<li><div class="toc-item"><a href="appendix_definitions.html" class="internal"><span class="codenumber">D</span> <span class="title">Definitions in Mathematics</span></a></div></li>
+</ul></nav></div>
+<main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="section" id="sec_Countable_Sets"><h2 class="heading hide-type">
+<span class="type">Section</span> <span class="codenumber">9.4</span> <span class="title">Countable Sets</span>
+</h2>
+<div class="para" id="p-1709">Recall that if <span class="process-math">\(A=\emptyset\text{,}\)</span> then we say that <span class="process-math">\(A\)</span> has cardinality 0. Also, if <span class="process-math">\(\card(A)=\card([n])\)</span> for <span class="process-math">\(n\in\mathbb{N}\text{,}\)</span> then we say that <span class="process-math">\(A\)</span> has cardinality <span class="process-math">\(n\text{.}\)</span> We have a special way of describing sets that are in bijection with the natural numbers.</div>
+<article class="definition definition-like" id="definition-69"><h3 class="heading">
+<span class="type">Definition</span><span class="space"> </span><span class="codenumber">9.37</span><span class="period">.</span>
+</h3>
+<div class="para" id="p-1710">If <span class="process-math">\(A\)</span> is a set such that <span class="process-math">\(\card(A)=\card(\mathbb{N})\text{,}\)</span> then we say that <span class="process-math">\(A\)</span> is denumerable and has cardinality <span class="process-math">\(\mathbf{\aleph_0}\)</span> (read “aleph naught”).</div></article><div class="para" id="p-1711">Notice if a set <span class="process-math">\(A\)</span> has cardinality <span class="process-math">\(1,2,\ldots\text{,}\)</span> or <span class="process-math">\(\aleph_0\text{,}\)</span> we can label the elements in <span class="process-math">\(A\)</span> as “first”, “second”, and so on. That is, we can “count” the elements in these situations. Certainly, if a set has cardinality 0, counting is not an issue. This idea leads to the following definition.</div>
+<article class="definition definition-like" id="def_countable"><h3 class="heading">
+<span class="type">Definition</span><span class="space"> </span><span class="codenumber">9.38</span><span class="period">.</span>
+</h3>
+<div class="para" id="p-1712">A set <span class="process-math">\(A\)</span> is called countable if <span class="process-math">\(A\)</span> is finite or denumerable. A set is called uncountable if it is not countable.</div></article><article class="problem example-like" id="problem-251"><h3 class="heading">
+<span class="type">Problem</span><span class="space"> </span><span class="codenumber">9.39</span><span class="period">.</span>
+</h3>
+<div class="para logical" id="p-1713">
+<div class="para">Quickly justify that each of the following sets is countable. Feel free to appeal to previous problems. Which sets are denumerable?</div>
+<ol class="lower-alpha">
+<li id="li-623"><div class="para" id="p-1714"><span class="process-math">\(\displaystyle \{a,b,c\}\)</span></div></li>
+<li id="li-624"><div class="para" id="p-1715">Set of odd natural numbers</div></li>
+<li id="li-625"><div class="para" id="p-1716">Set of even natural numbers</div></li>
+<li id="li-626"><div class="para" id="p-1717"><span class="process-math">\(\displaystyle \left\{\frac{1}{2^n}\mid n\in \mathbb{N}\right\}\)</span></div></li>
+<li id="li-627"><div class="para" id="p-1718">Set of perfect squares in <span class="process-math">\(\mathbb{N}\)</span>
+</div></li>
+<li id="li-628"><div class="para" id="p-1719"><span class="process-math">\(\displaystyle \mathbb{Z}\)</span></div></li>
+<li id="li-629"><div class="para" id="p-1720"><span class="process-math">\(\displaystyle \mathbb{N}\times \{a\}\)</span></div></li>
+</ol>
+</div></article><div class="para" id="p-1721">Utilize <a href="" class="xref" data-knowl="./knowl/thm_infiniteSetTFAE.html" title="Theorem 9.32">Theorem 9.32</a> or <a href="" class="xref" data-knowl="./knowl/cor_card_N__less_than_or_equal_to_infinite_set.html" title="Corollary 9.34">Corollary 9.34</a> when proving the next result.</div>
+<article class="theorem theorem-like" id="theorem-179"><h3 class="heading">
+<span class="type">Theorem</span><span class="space"> </span><span class="codenumber">9.40</span><span class="period">.</span>
+</h3>
+<div class="para" id="p-1722">Every infinite set contains a denumerable subset.</div></article><article class="theorem theorem-like" id="theorem-180"><h3 class="heading">
+<span class="type">Theorem</span><span class="space"> </span><span class="codenumber">9.41</span><span class="period">.</span>
+</h3>
+<div class="para" id="p-1723">Let <span class="process-math">\(A\)</span> and <span class="process-math">\(B\)</span> be sets such that <span class="process-math">\(A\)</span> is countable. If <span class="process-math">\(f:A\to B\)</span> is a bijection, then <span class="process-math">\(B\)</span> is countable.</div></article><div class="para" id="p-1724">For the next proof, consider the cases when <span class="process-math">\(A\)</span> is finite versus infinite. The contrapositive of <a href="" class="xref" data-knowl="./knowl/cor_infiniteSetInfiniteSubset.html" title="Corollary 9.33">Corollary 9.33</a> should be useful for the case when <span class="process-math">\(A\)</span> is finite.</div>
+<article class="theorem theorem-like" id="thm_subsetsCountableSets"><h3 class="heading">
+<span class="type">Theorem</span><span class="space"> </span><span class="codenumber">9.42</span><span class="period">.</span>
+</h3>
+<div class="para" id="p-1725">Every subset of a countable set is countable.</div></article><article class="theorem theorem-like" id="theorem-182"><h3 class="heading">
+<span class="type">Theorem</span><span class="space"> </span><span class="codenumber">9.43</span><span class="period">.</span>
+</h3>
+<div class="para" id="p-1726">A set is countable if and only if it has the same cardinality of some subset of the natural numbers.</div></article><article class="theorem theorem-like" id="theorem-183"><h3 class="heading">
+<span class="type">Theorem</span><span class="space"> </span><span class="codenumber">9.44</span><span class="period">.</span>
+</h3>
+<div class="para" id="p-1727">If <span class="process-math">\(f:\mathbb{N}\to A\)</span> is a surjective function, then <span class="process-math">\(A\)</span> is countable.</div></article><div class="para" id="p-1728">Loosely speaking, the next theorem tells us that we can arrange all of the rational numbers then count them “first”, “second”, “third”, etc. Given the fact that between any two distinct rational numbers on the number line, there are an infinite number of other rational numbers (justified by taking repeated midpoints), this may seem counterintuitive.</div>
+<div class="para" id="p-1729">Here is one possible approach for proving the next theorem. Make a table with column headings <span class="process-math">\(0, 1, -1, 2,-2,\ldots\)</span> and row headings <span class="process-math">\(1,2,3,4,5,\ldots\text{.}\)</span> If a column has heading <span class="process-math">\(m\)</span> and a row has heading <span class="process-math">\(n\text{,}\)</span> then the entry in the table corresponds to the fraction <span class="process-math">\(m/n\text{.}\)</span> Find a way to zig-zag through the table making sure to hit every entry in the table (not including column and row headings) exactly once. This justifies that there is a bijection between <span class="process-math">\(\mathbb{N}\)</span> and the entries in the table. Do you see why? But now notice that every rational number appears an infinite number of times in the table. Resolve this by appealing to <a href="" class="xref" data-knowl="./knowl/thm_subsetsCountableSets.html" title="Theorem 9.42">Theorem 9.42</a>.</div>
+<article class="theorem theorem-like" id="theorem-184"><h3 class="heading">
+<span class="type">Theorem</span><span class="space"> </span><span class="codenumber">9.45</span><span class="period">.</span>
+</h3>
+<div class="para" id="p-1730">The set of rational numbers <span class="process-math">\(\mathbb{Q}\)</span> is countable.</div></article><article class="theorem theorem-like" id="thm_union_of_countable_sets"><h3 class="heading">
+<span class="type">Theorem</span><span class="space"> </span><span class="codenumber">9.46</span><span class="period">.</span>
+</h3>
+<div class="para" id="p-1731">If <span class="process-math">\(A\)</span> and <span class="process-math">\(B\)</span> are countable sets, then <span class="process-math">\(A\cup B\)</span> is countable.</div></article><div class="para" id="p-1732">We would like to prove a stronger result than the previous theorem. To do so, we need an intermediate result.</div>
+<article class="theorem theorem-like" id="thm_retool_infinite_collection"><h3 class="heading">
+<span class="type">Theorem</span><span class="space"> </span><span class="codenumber">9.47</span><span class="period">.</span>
+</h3>
+<div class="para logical" id="p-1733">
+<div class="para">Let <span class="process-math">\(\{A_n\}_{n=1}^{\infty}\)</span> be a collection of sets. Define <span class="process-math">\(B_1\coloneqq A_1\)</span> and for each natural number <span class="process-math">\(n&gt;1\text{,}\)</span> define</div>
+<div class="displaymath process-math">
+\begin{equation*}
+B_n\coloneqq A_n\setminus \bigcup_{i=1}^{n-1}A_i\text{.}
+\end{equation*}
+</div>
+</div> <div class="para logical" id="p-1734">
+<div class="para">Then we we have the following:</div>
+<ol class="lower-alpha">
+<li id="li-630"><div class="para" id="p-1735">The collection <span class="process-math">\(\{B_n\}_{n=1}^{\infty}\)</span> is pairwise disjoint.</div></li>
+<li id="li-631"><div class="para" id="p-1736"><span class="process-math">\(\displaystyle \bigcup_{n=1}^{\infty}A_n =\bigcup_{n=1}^{\infty}B_n\text{.}\)</span></div></li>
+</ol>
+</div></article><div class="para logical" id="p-1737">
+<div class="para">The next theorem states that the union of a countable collection of countable sets is countable. To prove this, consider two cases:</div>
+<ol class="decimal">
+<li id="li-632"><div class="para" id="p-1738">The collection of sets is finite.</div></li>
+<li id="li-633"><div class="para" id="p-1739">The collection of sets is infinite.</div></li>
+</ol>
+</div>
+<div class="para" id="p-1740">To handle the first case, use induction together with <a href="" class="xref" data-knowl="./knowl/thm_union_of_countable_sets.html" title="Theorem 9.46">Theorem 9.46</a>. The second case is substantially more challenging. First, use <a href="" class="xref" data-knowl="./knowl/thm_retool_infinite_collection.html" title="Theorem 9.47">Theorem 9.47</a> to construct a collection <span class="process-math">\(\{B_n\}\)</span> of pairwise disjoint sets whose union is equal to the union of the original collection. Since each <span class="process-math">\(B_n\)</span> is a subset of one of the sets in the original collection and each of these sets is countable, each <span class="process-math">\(B_n\)</span> is also countable by <a href="" class="xref" data-knowl="./knowl/thm_subsetsCountableSets.html" title="Theorem 9.42">Theorem 9.42</a>. This implies that for each <span class="process-math">\(n\text{,}\)</span> we can write <span class="process-math">\(B_n=\{b_{n,1}, b_{n,2},b_{n,3},\ldots\}\text{,}\)</span> where the set may be finite or infinite. From here, we outline two different approaches for continuing. One approach is to construct a bijection from <span class="process-math">\(\mathbb{N}\)</span> to <span class="process-math">\(\bigcup_{n=1}^{\infty}B_n\)</span> using <a href="" class="xref" data-knowl="./knowl/fig_zig_zag.html" title="Figure 9.48">Figure 9.48</a> as inspiration. One thing you will need to address is what to do when a set in the collection <span class="process-math">\(\{B_n\}\)</span> is finite. For the second approach, define <span class="process-math">\(f:\bigcup_{n=1}^{\infty}B_n\to \mathbb{N}\)</span> via <span class="process-math">\(f(b_{n,m})=2^n3^m\text{,}\)</span> verify that this function is injective, and then appeal to <a href="" class="xref" data-knowl="./knowl/thm_subsetsCountableSets.html" title="Theorem 9.42">Theorem 9.42</a>. Try using both of these approaches when tackling the proof of the following theorem.</div>
+<figure class="figure figure-like" id="fig_zig_zag"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="generated/latex-image/image-22.svg" role="img" class="contained"></div>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">9.48<span class="period">.</span></span><span class="space"> </span>Inspiration for one possible approach to proving <a href="" class="xref" data-knowl="./knowl/thm_countable_union_of_countable_sets.html" title="Theorem 9.49">Theorem 9.49</a>.</figcaption></figure><article class="theorem theorem-like" id="thm_countable_union_of_countable_sets"><h3 class="heading">
+<span class="type">Theorem</span><span class="space"> </span><span class="codenumber">9.49</span><span class="period">.</span>
+</h3>
+<div class="para" id="p-1741">Let <span class="process-math">\(\Delta\)</span> be equal to either <span class="process-math">\(\mathbb{N}\)</span> or <span class="process-math">\([k]\)</span> for some <span class="process-math">\(k\in\mathbb{N}\text{.}\)</span> If <span class="process-math">\(\{A_n\}_{n\in\Delta}\)</span> is a countable collection of sets such that each <span class="process-math">\(A_n\)</span> is countable, then <span class="process-math">\(\bigcup_{n\in \Delta}A_n\)</span> is countable.</div></article><div class="para" id="p-1742">Did you use the Axiom of Choice when proving the previous theorem? If so, where?</div>
+<article class="theorem theorem-like" id="theorem-188"><h3 class="heading">
+<span class="type">Theorem</span><span class="space"> </span><span class="codenumber">9.50</span><span class="period">.</span>
+</h3>
+<div class="para" id="p-1743">If <span class="process-math">\(A\)</span> and <span class="process-math">\(B\)</span> are countable sets, then <span class="process-math">\(A\times B\)</span> is countable.</div></article><article class="theorem theorem-like" id="theorem-189"><h3 class="heading">
+<span class="type">Theorem</span><span class="space"> </span><span class="codenumber">9.51</span><span class="period">.</span>
+</h3>
+<div class="para" id="p-1744">The set of all finite sequences of 0’s and 1’s (e.g., <span class="process-math">\(0110010\)</span> is a finite sequence consisting of 0’s and 1’) is countable.</div></article><article class="theorem theorem-like" id="theorem-190"><h3 class="heading">
+<span class="type">Theorem</span><span class="space"> </span><span class="codenumber">9.52</span><span class="period">.</span>
+</h3>
+<div class="para" id="p-1745">The collection of all finite subsets of a countable set is countable.</div></article><div class="para" id="p-1746">\epigraph{Vulnerability is not winning or losing; it’s having the courage to show up and be seen when we have no control over the outcome.}{Brené Brown, storyteller &amp; author}</div></section></div>
+<div class="ptx-content-footer">
+<a class="previous-button button" href="sec_Infinite_Sets.html" title="Previous"><span class="icon">&lt;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon">^</span><span class="name">Top</span></a><a class="next-button button" href="sec_Uncountable_Sets.html" title="Next"><span class="name">Next</span><span class="icon">&gt;</span></a>
+</div></main>
+</div>
+<div id="ptx-page-footer" class="ptx-page-footer">
+<a class="pretext-link" href="https://pretextbook.org" title="PreTeXt"><div class="logo"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="338 3000 8772 6866"><g style="stroke-width:.025in; stroke:black; fill:none"><polyline points="472,3590 472,9732 " style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round; "></polyline><path style="stroke:#000000;stroke-width:126;stroke-linecap:butt;" d="M 4724,9448 A 4660 4660  0  0  1  8598  9259"></path><path style="stroke:#000000;stroke-width:174;stroke-linecap:butt;" d="M 4488,9685 A 4228 4228  0  0  0   472  9732"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:butt;" d="M 4724,3590 A 4241 4241  0  0  1  8598  3496"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:round;" d="M 850,3496  A 4241 4241  0  0  1  4724  3590"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:round;" d="M 850,9259  A 4507 4507  0  0  1  4724  9448"></path><polyline points="5385,4299 4062,8125" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8598,3496 8598,9259" style="stroke:#000000;stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="850,3496 850,9259" style="stroke:#000000;stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="4960,9685 4488,9685" style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="3070,4582 1889,6141 3070,7700" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="6418,4582 7600,6141 6418,7700" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8976,3590 8976,9732" style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><path style="stroke:#000000;stroke-width:174;stroke-linecap:butt;" d="M 4960,9685 A 4228 4228  0  0  1  8976  9732"></path></g></svg></div></a><a class="runestone-link" href="https://runestone.academy" title="Runestone Academy"><img class="logo" src="https://runestone.academy/runestone/static/images/RAIcon_cropped.png"></a><a class="mathjax-link" href="https://www.mathjax.org" title="MathJax"><img class="logo" src="https://www.mathjax.org/badge/badge-square-2.png"></a>
+</div>
+</body>
+</html>

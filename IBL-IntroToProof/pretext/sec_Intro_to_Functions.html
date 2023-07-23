@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<!--********************************************-->
+<!--*       Generated from PreTeXt source      *-->
+<!--*                                          *-->
+<!--*         https://pretextbook.org          *-->
+<!--*                                          *-->
+<!--********************************************-->
+<html lang="en-US" dir="ltr">
+<head xmlns:og="http://ogp.me/ns#" xmlns:book="https://ogp.me/ns/book#">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Introduction to Functions</title>
+<meta name="Keywords" content="Authored in PreTeXt">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:type" content="book">
+<meta property="book:title" content="An Introduction to Proof via Inquiry-Based Learning">
+<meta property="book:author" content="Dana C. Ernst, PhD">
+<script>
+var runestoneMathReady = new Promise((resolve) => window.rsMathReady = resolve);
+window.MathJax = {
+  "tex": {
+    "inlineMath": [
+      [
+        "\\(",
+        "\\)"
+      ]
+    ],
+    "tags": "none",
+    "tagSide": "right",
+    "tagIndent": ".8em",
+    "packages": {
+      "[+]": [
+        "base",
+        "extpfeil",
+        "ams",
+        "amscd",
+        "color",
+        "newcommand",
+        "knowl"
+      ]
+    }
+  },
+  "options": {
+    "ignoreHtmlClass": "tex2jax_ignore|ignore-math",
+    "processHtmlClass": "process-math"
+  },
+  "chtml": {
+    "scale": 0.98,
+    "mtextInheritFont": true
+  },
+  "loader": {
+    "load": [
+      "input/asciimath",
+      "[tex]/extpfeil",
+      "[tex]/amscd",
+      "[tex]/color",
+      "[tex]/newcommand",
+      "[pretext]/mathjaxknowl3.js"
+    ],
+    "paths": {
+      "pretext": "https://pretextbook.org/js/lib"
+    }
+  },
+  "startup": {
+    pageReady() {
+      return MathJax.startup.defaultPageReady().then(function () {
+      console.log("in ready function");
+      rsMathReady();
+      }
+    )}
+  }
+};
+</script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="https://pretextbook.org/js/0.3/pretext_search.js"></script><link href="https://pretextbook.org/css/0.7/pretext_search.css" rel="stylesheet" type="text/css">
+<script>js_version = 0.3</script><script src="https://pretextbook.org/js/lib/jquery.min.js"></script><script src="https://pretextbook.org/js/lib/jquery.sticky.js"></script><script src="https://pretextbook.org/js/lib/jquery.espy.min.js"></script><script src="https://pretextbook.org/js/0.3/pretext.js"></script><script>miniversion=0.1</script><script src="https://pretextbook.org/js/0.3/pretext_add_on.js?x=1"></script><script src="https://pretextbook.org/js/0.3/user_preferences.js"></script><script src="https://pretextbook.org/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
+</script><link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&amp;family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&amp;family=Tinos:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.cdnfonts.com/css/dejavu-serif" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz,wdth,wght@8..144,50..150,100..900&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wdth,wght@75..100,300..800&amp;display=swap" rel="stylesheet">
+<link href="https://pretextbook.org/css/0.7/pretext.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.7/pretext_add_on.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.7/shell_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.7/banner_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.7/navbar_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.7/toc_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.7/knowls_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.7/style_oscarlevin.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.7/colors_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.7/setcolors.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" href="external/custom-styles.css">
+</head>
+<body class="pretext book ignore-math">
+<a class="assistive" href="#ptx-content">Skip to main content</a><header id="ptx-masthead" class="ptx-masthead"><div class="ptx-banner">
+<a id="logo-link" class="logo-link" href=""></a><div class="title-container">
+<h1 class="heading"><a href="book-1.html"><span class="title">An Introduction to Proof via Inquiry-Based Learning</span></a></h1>
+<p class="byline">Dana C. Ernst, PhD</p>
+</div>
+<div id="searchresultsplaceholder" class="searchresultsplaceholder" style="display: none">
+<button id="closesearchresults" class="closesearchresults" onclick="document.getElementById('searchresultsplaceholder').style.display = 'none'; return false;">x</button><h2>Search Results: <span id="searchterms" class="searchterms"></span>
+</h2>
+<div id="searchempty" class="searchempty"><span>No results.</span></div>
+<ol id="searchresults" class="searchresults"></ol>
+</div>
+</div></header><nav id="ptx-navbar" class="ptx-navbar navbar"><button class="toc-toggle button" aria-label="Show or hide table of contents"><span class="icon">☰</span><span class="name">Contents</span></button><button id="user-preferences-button" class="user-preferences-button button" title="Modify user preferences"><span id="avatarbutton" class="avatarbutton name">You!</span><div id="preferences_menu_holder" class="preferences_menu_holder hidden"><ol id="preferences_menu" class="preferences_menu" style="font-family: 'Roboto Serif', serif;">
+<li data-env="avatar" tabindex="-1">Choose avatar<div class="wrap_to_submenu"><span class="to_submenu">▻</span></div>
+<ol class="hidden avatar">
+<li data-val="You!" tabindex="-1">
+<span id="theYou!" class="avatarcheck">✔️</span>You!</li>
+<li data-val="😺" tabindex="-1">
+<span id="the😺" class="avatarcheck"></span>😺</li>
+<li data-val="👤" tabindex="-1">
+<span id="the👤" class="avatarcheck"></span>👤</li>
+<li data-val="👽" tabindex="-1">
+<span id="the👽" class="avatarcheck"></span>👽</li>
+<li data-val="🐶" tabindex="-1">
+<span id="the🐶" class="avatarcheck"></span>🐶</li>
+<li data-val="🐼" tabindex="-1">
+<span id="the🐼" class="avatarcheck"></span>🐼</li>
+<li data-val="🌈" tabindex="-1">
+<span id="the🌈" class="avatarcheck"></span>🌈</li>
+</ol>
+</li>
+<li data-env="fontfamily" tabindex="-1">Font family<div class="wrap_to_submenu"><span class="to_submenu">▻</span></div>
+<ol class="hidden fontfamily">
+<li data-val="face" data-change="OS" tabindex="-1" style="font-family: 'Open Sans'">
+<span id="theOS" class="ffcheck">✔️</span><span class="name">Open Sans</span><span class="sample">AaBbCc 123 PreTeXt</span>
+</li>
+<li data-val="face" data-change="RS" tabindex="-1" style="font-family: 'Roboto Serif'">
+<span id="theRS" class="ffcheck"></span><span class="name">Roboto Serif</span><span class="sample">AaBbCc 123 PreTeXt</span>
+</li>
+</ol>
+</li>
+<li data-env="font" tabindex="-1">Adjust font<div class="wrap_to_submenu"><span class="to_submenu">▻</span></div>
+<ol class="hidden fonts">
+<li>Size</li>
+<li><span id="thesize">12</span></li>
+<li data-val="size" data-change="-1" tabindex="-1" style="font-size: 80%">Smaller</li>
+<li data-val="size" data-change="1" tabindex="-1" style="font-size: 110%">Larger</li>
+<li>Width</li>
+<li><span id="thewdth">100</span></li>
+<li data-val="wdth" data-change="-5" tabindex="-1" style="font-variation-settings: 'wdth' 60">narrower</li>
+<li data-val="wdth" data-change="5" tabindex="-1" style="font-variation-settings: 'wdth' 150">wider</li>
+<li>Weight</li>
+<li><span id="thewght">400</span></li>
+<li data-val="wght" data-change="-50" tabindex="-1" style="font-weight: 200">thinner</li>
+<li data-val="wght" data-change="50" tabindex="-1" style="font-weight: 700">heavier</li>
+<li>Letter spacing</li>
+<li>
+<span id="thelspace">0</span><span class="byunits">/200</span>
+</li>
+<li data-val="lspace" data-change="-1" tabindex="-1">closer</li>
+<li data-val="lspace" data-change="1" tabindex="-1">f a r t h e r</li>
+<li>Word spacing</li>
+<li>
+<span id="thewspace">0</span><span class="byunits">/50</span>
+</li>
+<li data-val="wspace" data-change="-1" tabindex="-1">smaller gap </li>
+<li data-val="wspace" data-change="1" tabindex="-1">larger gap</li>
+<li>Line Spacing</li>
+<li>
+<span id="theheight">135</span><span class="byunits">/100</span>
+</li>
+<li data-val="height" data-change="-5" tabindex="-1" style="line-height: 1">closer<br>together</li>
+<li data-val="height" data-change="5" tabindex="-1" style="line-height: 1.75">further<br>apart</li>
+</ol>
+</li>
+<li data-env="atmosphere" tabindex="-1">Light/dark mode<div class="wrap_to_submenu"><span class="to_submenu">▻</span></div>
+<ol class="hidden atmosphere">
+<li data-val="default" tabindex="-1">
+<span id="thedefault" class="atmospherecheck">✔️</span>default</li>
+<li data-val="pastel" tabindex="-1">
+<span id="thepastel" class="atmospherecheck"></span>pastel</li>
+<li data-val="darktwilight" tabindex="-1">
+<span id="thedarktwilight" class="atmospherecheck"></span>twilight</li>
+<li data-val="dark" tabindex="-1">
+<span id="thedark" class="atmospherecheck"></span>dark</li>
+<li data-val="darkmidnight" tabindex="-1">
+<span id="thedarkmidnight" class="atmospherecheck"></span>midnight</li>
+</ol>
+</li>
+<li data-env="ruler" tabindex="-1">Reading ruler<div class="wrap_to_submenu"><span class="to_submenu">▻</span></div>
+<ol class="hidden ruler">
+<li data-val="none" tabindex="-1">
+<span id="thenone" class="rulercheck">✔️</span>none</li>
+<li data-val="underline" tabindex="-1">
+<span id="theunderline" class="rulercheck"></span>underline</li>
+<li data-val="lunderline" tabindex="-1">
+<span id="thelunderline" class="rulercheck"></span>L-underline</li>
+<li data-val="greybar" tabindex="-1">
+<span id="thegreybar" class="rulercheck"></span>grey bar</li>
+<li data-val="lightbox" tabindex="-1">
+<span id="thelightbox" class="rulercheck"></span>light box</li>
+<li data-val="sunrise" tabindex="-1">
+<span id="thesunrise" class="rulercheck"></span>sunrise</li>
+<li data-val="sunriseunderline" tabindex="-1">
+<span id="thesunriseunderline" class="rulercheck"></span>sunrise underline</li>
+<li class="moveQ">Motion by:</li>
+<li data-val="mouse" tabindex="-1">
+<span id="themouse" class="motioncheck">✔️</span>follow the mouse</li>
+<li data-val="arrow" tabindex="-1">
+<span id="thearrow" class="motioncheck"></span>up/down arrows - not yet</li>
+<li data-val="eye" tabindex="-1">
+<span id="theeye" class="motioncheck"></span>eye tracking - not yet</li>
+</ol>
+</li>
+</ol></div></button><span class="treebuttons"><a class="previous-button button" href="chap_Functions.html" title="Previous"><span class="icon">&lt;</span><span class="name">Prev</span></a><a class="up-button button" href="chap_Functions.html" title="Up"><span class="icon">^</span><span class="name">Up</span></a><a class="next-button button" href="sec_Injective_and_Surjective_Functions.html" title="Next"><span class="name">Next</span><span class="icon">&gt;</span></a></span><div class="searchbox"><div class="searchwidget">
+<input id="ptxsearch" class="ptxsearch" type="text" name="terms" placeholder="Search" onchange="doSearch()"><button id="searchbutton" class="searchbutton" type="button" onclick="doSearch()">🔍</button>
+</div></div></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\newcommand{\dom}{\operatorname{Dom}}
+\newcommand{\codom}{\operatorname{Codom}}
+\newcommand{\range}{\operatorname{Rng}}
+\newcommand{\lcm}{\operatorname{lcm}}
+\newcommand{\card}{\operatorname{card}}
+\newcommand{\rel}{\operatorname{rel}}
+\newcommand{\Rel}{\operatorname{Rel}}
+\newcommand{\logeq}{\Longleftrightarrow}
+\renewcommand{\implies}{\Longrightarrow}
+
+\def\tcboxmath{}
+\def\coloneqq{:=}
+\newcommand{\lt}{&lt;}
+\newcommand{\gt}{&gt;}
+\newcommand{\amp}{&amp;}
+\definecolor{fillinmathshade}{gray}{0.9}
+\newcommand{\fillinmath}[1]{\mathchoice{\colorbox{fillinmathshade}{$\displaystyle     \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\textstyle        \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptstyle      \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptscriptstyle\phantom{\,#1\,}$}}}
+\)</span></div>
+<div class="ptx-page">
+<div id="ptx-sidebar" class="ptx-sidebar"><nav id="ptx-toc" class="ptx-toc depth2"><ul class="structural">
+<li>
+<div class="toc-item"><a href="frontmatter-1.html" class="internal"><span class="title">Front Matter</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="colophon.html" class="internal"><span class="title">Colophon</span></a></div></li>
+<li><div class="toc-item"><a href="chap_preface.html" class="internal"><span class="title">Preface</span></a></div></li>
+<li><div class="toc-item"><a href="chap_acknowledgements.html" class="internal"><span class="title">Acknowledgements</span></a></div></li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="chap_intro.html" class="internal"><span class="codenumber">1</span> <span class="title">Introduction</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="sec_WhatIsThisBookAllAbout.html" class="internal"><span class="codenumber">1.1</span> <span class="title">What is This Book All About?</span></a></div></li>
+<li><div class="toc-item"><a href="sec_what_should_you_expect.html" class="internal"><span class="codenumber">1.2</span> <span class="title">What Should You Expect?</span></a></div></li>
+<li><div class="toc-item"><a href="sec_IBLApproach.html" class="internal"><span class="codenumber">1.3</span> <span class="title">An Inquiry-Based Approach</span></a></div></li>
+<li><div class="toc-item"><a href="sec_Structure.html" class="internal"><span class="codenumber">1.4</span> <span class="title">Structure of the Textbook</span></a></div></li>
+<li><div class="toc-item"><a href="sec_guidance.html" class="internal"><span class="codenumber">1.5</span> <span class="title">Some Minimal Guidance</span></a></div></li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="chap_IntroToMath.html" class="internal"><span class="codenumber">2</span> <span class="title">Mathematics and Logic</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="sec_baby_number_theory.html" class="internal"><span class="codenumber">2.1</span> <span class="title">A Taste of Number Theory</span></a></div></li>
+<li><div class="toc-item"><a href="sec_Intro_to_Logic.html" class="internal"><span class="codenumber">2.2</span> <span class="title">Introduction to Logic</span></a></div></li>
+<li><div class="toc-item"><a href="sec_Techniques_for_Proving_Conditional_Propositions.html" class="internal"><span class="codenumber">2.3</span> <span class="title">Techniques for Proving Conditional Propositions</span></a></div></li>
+<li><div class="toc-item"><a href="sec_Introduction_to_Quantification.html" class="internal"><span class="codenumber">2.4</span> <span class="title">Introduction to Quantification</span></a></div></li>
+<li><div class="toc-item"><a href="sec_More_About_Quantification.html" class="internal"><span class="codenumber">2.5</span> <span class="title">More About Quantification</span></a></div></li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="chap_SetTheory.html" class="internal"><span class="codenumber">3</span> <span class="title">Set Theory</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="sec_Sets.html" class="internal"><span class="codenumber">3.1</span> <span class="title">Sets</span></a></div></li>
+<li><div class="toc-item"><a href="sec_RussellsParadox.html" class="internal"><span class="codenumber">3.2</span> <span class="title">Russell’s Paradox</span></a></div></li>
+<li><div class="toc-item"><a href="sec_PowerSets.html" class="internal"><span class="codenumber">3.3</span> <span class="title">Power Sets</span></a></div></li>
+<li><div class="toc-item"><a href="sec_Indexing_Sets.html" class="internal"><span class="codenumber">3.4</span> <span class="title">Indexing Sets</span></a></div></li>
+<li><div class="toc-item"><a href="sec_Cartesian_Products.html" class="internal"><span class="codenumber">3.5</span> <span class="title">Cartesian Products of Sets</span></a></div></li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="chap_Induction.html" class="internal"><span class="codenumber">4</span> <span class="title">Induction</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="sec_Intro_to_Induction.html" class="internal"><span class="codenumber">4.1</span> <span class="title">Introduction to Induction</span></a></div></li>
+<li><div class="toc-item"><a href="sec_More_on_Induction.html" class="internal"><span class="codenumber">4.2</span> <span class="title">More on Induction</span></a></div></li>
+<li><div class="toc-item"><a href="sec_CompleteInduction.html" class="internal"><span class="codenumber">4.3</span> <span class="title">Complete Induction</span></a></div></li>
+<li><div class="toc-item"><a href="sec_WOP.html" class="internal"><span class="codenumber">4.4</span> <span class="title">The Well-Ordering Principle</span></a></div></li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="chap_RealNumbers.html" class="internal"><span class="codenumber">5</span> <span class="title">The Real Numbers</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="sec_AxiomsRealNumbers.html" class="internal"><span class="codenumber">5.1</span> <span class="title">Axioms of the Real Numbers</span></a></div></li>
+<li><div class="toc-item"><a href="sec_Topology.html" class="internal"><span class="codenumber">5.2</span> <span class="title">Standard Topology of the Real Line</span></a></div></li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="chap_ThreeFamousTheorems.html" class="internal"><span class="codenumber">6</span> <span class="title">Three Famous Theorems</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="sec_FTA.html" class="internal"><span class="codenumber">6.1</span> <span class="title">The Fundamental Theorem of Arithmetic</span></a></div></li>
+<li><div class="toc-item"><a href="sec_Irrationality_of_Root_2.html" class="internal"><span class="codenumber">6.2</span> <span class="title">The Irrationality of <span class="process-math">\(\sqrt{2}\)</span></span></a></div></li>
+<li><div class="toc-item"><a href="sec_Infinitude_of_Primes.html" class="internal"><span class="codenumber">6.3</span> <span class="title">The Infinitude of Primes</span></a></div></li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="chap_Relations_and_Partitions.html" class="internal"><span class="codenumber">7</span> <span class="title">Relations and Partitions</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="sec_Relations.html" class="internal"><span class="codenumber">7.1</span> <span class="title">Relations</span></a></div></li>
+<li><div class="toc-item"><a href="sec_Equivalence_Relations.html" class="internal"><span class="codenumber">7.2</span> <span class="title">Equivalence Relations</span></a></div></li>
+<li><div class="toc-item"><a href="sec_Partitions.html" class="internal"><span class="codenumber">7.3</span> <span class="title">Partitions</span></a></div></li>
+<li><div class="toc-item"><a href="sec_ModularArithmetic.html" class="internal"><span class="codenumber">7.4</span> <span class="title">Modular Arithmetic</span></a></div></li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="chap_Functions.html" class="internal"><span class="codenumber">8</span> <span class="title">Functions</span></a></div>
+<ul class="structural">
+<li class="active"><div class="toc-item"><a href="sec_Intro_to_Functions.html" class="internal"><span class="codenumber">8.1</span> <span class="title">Introduction to Functions</span></a></div></li>
+<li><div class="toc-item"><a href="sec_Injective_and_Surjective_Functions.html" class="internal"><span class="codenumber">8.2</span> <span class="title">Injective and Surjective Functions</span></a></div></li>
+<li><div class="toc-item"><a href="sec_Compositions_and_Inverse_Functions.html" class="internal"><span class="codenumber">8.3</span> <span class="title">Compositions and Inverse Functions</span></a></div></li>
+<li><div class="toc-item"><a href="sec_Images_and_Preimages.html" class="internal"><span class="codenumber">8.4</span> <span class="title">Images and Preimages of Functions</span></a></div></li>
+<li><div class="toc-item"><a href="sec_Continuity.html" class="internal"><span class="codenumber">8.5</span> <span class="title">Continuous Real Functions</span></a></div></li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="chap_Cardinality.html" class="internal"><span class="codenumber">9</span> <span class="title">Cardinality</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="sec_Intro_to_Cardinality.html" class="internal"><span class="codenumber">9.1</span> <span class="title">Introduction to Cardinality</span></a></div></li>
+<li><div class="toc-item"><a href="sec_Finite_Sets.html" class="internal"><span class="codenumber">9.2</span> <span class="title">Finite Sets</span></a></div></li>
+<li><div class="toc-item"><a href="sec_Infinite_Sets.html" class="internal"><span class="codenumber">9.3</span> <span class="title">Infinite Sets</span></a></div></li>
+<li><div class="toc-item"><a href="sec_Countable_Sets.html" class="internal"><span class="codenumber">9.4</span> <span class="title">Countable Sets</span></a></div></li>
+<li><div class="toc-item"><a href="sec_Uncountable_Sets.html" class="internal"><span class="codenumber">9.5</span> <span class="title">Uncountable Sets</span></a></div></li>
+</ul>
+</li>
+<li><div class="toc-item"><a href="appendix_elements_of_style.html" class="internal"><span class="codenumber">A</span> <span class="title">Elements of Style for Proofs</span></a></div></li>
+<li><div class="toc-item"><a href="appendix_fancy_math_terms.html" class="internal"><span class="codenumber">B</span> <span class="title">Fancy Mathematical Terms</span></a></div></li>
+<li><div class="toc-item"><a href="appendix_paradoxes.html" class="internal"><span class="codenumber">C</span> <span class="title">Paradoxes</span></a></div></li>
+<li><div class="toc-item"><a href="appendix_definitions.html" class="internal"><span class="codenumber">D</span> <span class="title">Definitions in Mathematics</span></a></div></li>
+</ul></nav></div>
+<main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="section" id="sec_Intro_to_Functions"><h2 class="heading hide-type">
+<span class="type">Section</span> <span class="codenumber">8.1</span> <span class="title">Introduction to Functions</span>
+</h2>
+<div class="para" id="p-1280">Up until this point, you may have only encountered functions as an algebraic rule, e.g., <span class="process-math">\(f(x)=x^{2}-1\text{,}\)</span> for transforming one real number into another. However, we can study functions in a much broader context. The basic building blocks of a function are a first set and a second set, say <span class="process-math">\(X\)</span> and <span class="process-math">\(Y\text{,}\)</span> and a “correspondence” that assigns <em class="emphasis">every</em> element of <span class="process-math">\(X\)</span> to <em class="emphasis">exactly one</em> element of <span class="process-math">\(Y\text{.}\)</span> Let’s take a look at the actual definition.</div>
+<article class="definition definition-like" id="def_function"><h3 class="heading">
+<span class="type">Definition</span><span class="space"> </span><span class="codenumber">8.1</span><span class="period">.</span>
+</h3>
+<div class="para logical" id="p-1281">
+<div class="para">Let <span class="process-math">\(X\)</span> and <span class="process-math">\(Y\)</span> be two nonempty sets. A function <span class="process-math">\(f\)</span> from <span class="process-math">\(X\)</span> to <span class="process-math">\(Y\)</span> is a relation from <span class="process-math">\(X\)</span> to <span class="process-math">\(Y\)</span> such that for every <span class="process-math">\(x\in X\text{,}\)</span> there exists a unique <span class="process-math">\(y\in Y\)</span> such that <span class="process-math">\((x,y)\in f\text{.}\)</span> The set <span class="process-math">\(X\)</span> is called the domain of <span class="process-math">\(f\)</span> and is denoted by <span class="process-math">\(\tcboxmath{\dom(f)}\text{.}\)</span> The set <span class="process-math">\(Y\)</span> is called the codomain of <span class="process-math">\(f\)</span> and is denoted by <span class="process-math">\(\tcboxmath{\codom(f)}\)</span> while the subset of the codomain defined via</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\tcboxmath{\range(f)\coloneqq \{y\in Y\mid \mbox{there exists } x\mbox{ such that }  (x,y)\in f\}}
+\end{equation*}
+</div>
+<div class="para">is called the range of <span class="process-math">\(f\)</span> or the image of <span class="process-math">\(X\)</span> under <span class="process-math">\(f\text{.}\)</span>
+</div>
+</div></article><div class="para" id="p-1282">There is a variety of notation and terminology associated to functions. We will write <span class="process-math">\(\tcboxmath{f:X\to Y}\)</span> to indicate that <span class="process-math">\(f\)</span> is a function from <span class="process-math">\(X\)</span> to <span class="process-math">\(Y\text{.}\)</span> We will make use of statements such as “Let <span class="process-math">\(f:X\to Y\)</span> be the function defined via…” or “Define <span class="process-math">\(f:X\to Y\)</span> via…”, where <span class="process-math">\(f\)</span> is understood to be a function in the second statement. Sometimes the word <em class="emphasis">mapping</em> (or <em class="emphasis">map</em>) is used in place of the word function. If <span class="process-math">\((a,b)\in f\)</span> for a function <span class="process-math">\(f\text{,}\)</span> we often write <span class="process-math">\(\tcboxmath{f(a)=b}\)</span> and say that “<span class="process-math">\(f\)</span> maps <span class="process-math">\(a\)</span> to <span class="process-math">\(b\)</span>” or “<span class="process-math">\(f\)</span> of <span class="process-math">\(a\)</span> equals <span class="process-math">\(b\)</span>”. In this case, <span class="process-math">\(a\)</span> may be called an <em class="emphasis">input</em> of <span class="process-math">\(f\)</span> and is the <em class="emphasis">preimage</em> of <span class="process-math">\(b\)</span> under <span class="process-math">\(f\)</span> while <span class="process-math">\(b\)</span> is called an <em class="emphasis">output</em> of <span class="process-math">\(f\)</span> and is the <em class="emphasis">image</em> of <span class="process-math">\(a\)</span> under <span class="process-math">\(f\text{.}\)</span> Note that the domain of a function is the set of inputs while the range is the set of outputs for the function.</div>
+<div class="para" id="p-1283">According to our definition, if <span class="process-math">\(f:X\to Y\)</span> is a function, then every element of the domain is utilized exactly once. However, there are no restrictions on whether an element of the codomain ever appears in the second coordinate of an ordered pair in the relation. Yet if an element of <span class="process-math">\(Y\)</span> is in the range of <span class="process-math">\(f\text{,}\)</span> it may appear in more than one ordered pair in the relation.</div>
+<div class="para" id="p-1284">It follows immediately from the definition of function that two functions are equal if and only if they have the same domain, same codomain, and the same set of ordered pairs in the relation. That is, functions <span class="process-math">\(f\)</span> and <span class="process-math">\(g\)</span> are equal if and only if <span class="process-math">\(\dom(f)=\dom(g)\text{,}\)</span> <span class="process-math">\(\codom(f)=\codom(g)\text{,}\)</span> and <span class="process-math">\(f(x)=g(x)\)</span> for all <span class="process-math">\(x\in X\text{.}\)</span>
+</div>
+<div class="para" id="p-1285">Since functions are special types of relations, we can represent them using digraphs and graphs when practical. Digraphs for functions are often called <em class="emphasis">function</em> (or <em class="emphasis">mapping</em>) <em class="emphasis">diagrams</em>. When drawing function diagrams, it is standard practice to put the vertices for the domain on the left and the vertices for the codomain on the right, so that all directed edges point from left to right. We may also draw an additional arrow labeled by the name of the function from the domain to the codomain.</div>
+<article class="example example-like" id="ex_function"><h3 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">8.2</span><span class="period">.</span>
+</h3>
+<div class="para logical" id="p-1286">
+<div class="para">Let <span class="process-math">\(X=\{a,b,c,d\}\)</span> to <span class="process-math">\(Y=\{1,2,3,4\}\)</span> and define the relation <span class="process-math">\(f\)</span> from <span class="process-math">\(X\)</span> to <span class="process-math">\(Y\)</span> via</div>
+<div class="displaymath process-math">
+\begin{equation*}
+f=\{(a,2),(b,4),(c,4),(d,1)\}\text{.}
+\end{equation*}
+</div>
+</div> <div class="para" id="p-1287">Since each element <span class="process-math">\(X\)</span> appears exactly once as a first coordinate, <span class="process-math">\(f\)</span> is a function with domain <span class="process-math">\(X\)</span> and codomain <span class="process-math">\(Y\)</span> (i.e., <span class="process-math">\(f:X\to Y\)</span>). In this case, we see that <span class="process-math">\(\range(f)=\{1,2,4\}\text{.}\)</span> Moreover, we can write things like <span class="process-math">\(f(a)=2\)</span> and <span class="process-math">\(c\mapsto 4\text{,}\)</span> and say things like “<span class="process-math">\(f\)</span> maps <span class="process-math">\(b\)</span> to 4” and “the image of <span class="process-math">\(d\)</span> is 1.” The function diagram for <span class="process-math">\(f\)</span> is depicted in <a href="" class="xref" data-knowl="./knowl/fig_function_diagram.html" title="Figure 8.3">Figure 8.3</a>.</div></article><figure class="figure figure-like" id="fig_function_diagram"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="generated/latex-image/image-15.svg" role="img" class="contained"></div>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">8.3<span class="period">.</span></span><span class="space"> </span>Function diagram for a function from <span class="process-math">\(X=\{a,b,c,d,\}\)</span> to <span class="process-math">\(Y=\{1,2,3,4\}\text{.}\)</span></figcaption></figure><article class="problem example-like" id="problem-169"><h3 class="heading">
+<span class="type">Problem</span><span class="space"> </span><span class="codenumber">8.4</span><span class="period">.</span>
+</h3>
+<div class="para logical" id="p-1288">
+<div class="para">Determine whether each of the relations defined in the following examples and problems is a function.</div>
+<ol class="lower-alpha">
+<li id="li-461"><div class="para" id="p-1289">
+<a href="" class="xref" data-knowl="./knowl/ex_relation_finite_to_finite.html" title="Example 7.3">Example 7.3</a> (see <a href="" class="xref" data-knowl="./knowl/fig_digraph_finite_to_finite.html" title="Figure 7.10">Figure 7.10</a>)</div></li>
+<li id="li-462"><div class="para" id="p-1290">
+<a href="" class="xref" data-knowl="./knowl/ex_circle.html" title="Example 7.16">Example 7.16</a> (see <a href="" class="xref" data-knowl="./knowl/fig_unit_circle.html" title="Figure 7.17">Figure 7.17</a>)</div></li>
+<li id="li-463"><div class="para" id="p-1291"><a href="" class="xref" data-knowl="./knowl/prob_parabola.html" title="Problem 7.18">Problem 7.18</a></div></li>
+<li id="li-464"><div class="para" id="p-1292"><a href="" class="xref" data-knowl="./knowl/prob_facebook.html" title="Problem 7.24">Problem 7.24</a></div></li>
+</ol>
+</div></article><article class="problem example-like" id="prob_lots_of_potential_functions"><h3 class="heading">
+<span class="type">Problem</span><span class="space"> </span><span class="codenumber">8.5</span><span class="period">.</span>
+</h3>
+<div class="para logical" id="p-1293">
+<div class="para">Let <span class="process-math">\(X=\{\circ, \square,\triangle,\smiley\}\)</span> and <span class="process-math">\(Y=\{a,b,c,d,e\}\text{.}\)</span> For each of the following relations, draw the corresponding digraph and determine whether the relation represents a function from <span class="process-math">\(X\)</span> to <span class="process-math">\(Y\text{,}\)</span> <span class="process-math">\(Y\)</span> to <span class="process-math">\(X\text{,}\)</span> <span class="process-math">\(X\)</span> to <span class="process-math">\(X\text{,}\)</span> or does not represent a function. If the relation is a function, determine the domain, codomain, and range.</div>
+<ol class="lower-alpha">
+<li id="li-465"><div class="para" id="p-1294"><span class="process-math">\(\displaystyle f=\{(\circ, a),(\square,b),(\triangle,c),(\smiley,d)\}\)</span></div></li>
+<li id="li-466"><div class="para" id="p-1295"><span class="process-math">\(\displaystyle g=\{(\circ, a),(\square,b),(\triangle,c),(\smiley,c)\}\)</span></div></li>
+<li id="li-467"><div class="para" id="p-1296"><span class="process-math">\(\displaystyle h=\{(\circ, a),(\square,b),(\triangle,c),(\circ,d)\}\)</span></div></li>
+<li id="li-468"><div class="para" id="p-1297"><span class="process-math">\(\displaystyle k=\{(\circ,
+a),(\square,b),(\triangle,c),(\smiley,d),(\square,e)\}\)</span></div></li>
+<li id="li-469"><div class="para" id="p-1298"><span class="process-math">\(\displaystyle l=\{(\circ, e),(\square,e),(\triangle,e),(\smiley,e)\}\)</span></div></li>
+<li id="li-470"><div class="para" id="p-1299"><span class="process-math">\(\displaystyle m=\{(\circ, a),(\triangle,b),(\smiley,c)\}\)</span></div></li>
+<li id="prob_identity"><div class="para" id="p-1300"><span class="process-math">\(\displaystyle i=\{(\circ,\circ),(\square, \square),(\triangle,\triangle),(\smiley,\smiley)\}\)</span></div></li>
+<li id="prob_happy"><div class="para" id="p-1301">Define the relation <span class="process-math">\(\operatorname{happy}\)</span> from <span class="process-math">\(Y\)</span> to <span class="process-math">\(X\)</span> via <span class="process-math">\((y,\smiley)\in\operatorname{happy}\)</span> for all <span class="process-math">\(y\in Y\text{.}\)</span>
+</div></li>
+<li id="prob_nugget"><div class="para" id="p-1302"><span class="process-math">\(\displaystyle \operatorname{nugget}=\{(\circ,\circ),(\square, \square),(\triangle,\triangle),(\smiley,\square)\}\)</span></div></li>
+</ol>
+</div></article><div class="para" id="p-1303">The last two parts of the previous problem make it clear that functions may have names consisting of more than one letter. The function names <span class="process-math">\(\sin\text{,}\)</span> <span class="process-math">\(\cos\text{,}\)</span> <span class="process-math">\(\log\text{,}\)</span> and <span class="process-math">\(\ln\)</span> are instances of this that you have likely encountered in your previous experience in mathematics. One thing that you may have never noticed is the type of font that we use for function names. It is common to italicize generic function names like <span class="process-math">\(f\)</span> but not common function names like <span class="process-math">\(\sin\text{.}\)</span> However, we always italicize the variables used to represent the input and output for a function. For example, consider the font types used in the expressions <span class="process-math">\(\sin(x)\)</span> and <span class="process-math">\(\ln(a)\text{.}\)</span>
+</div>
+<article class="problem example-like" id="problem-171"><h3 class="heading">
+<span class="type">Problem</span><span class="space"> </span><span class="codenumber">8.6</span><span class="period">.</span>
+</h3>
+<div class="para" id="p-1304">What properties does the digraph for a relation from <span class="process-math">\(X\)</span> to <span class="process-math">\(Y\)</span> need to have in order for it to represent a function?</div></article><article class="problem example-like" id="problem-172"><h3 class="heading">
+<span class="type">Problem</span><span class="space"> </span><span class="codenumber">8.7</span><span class="period">.</span>
+</h3>
+<div class="para" id="p-1305">In high school you may have been told that a graph represents a function if it passes the <em class="emphasis">vertical line test</em>. Carefully state what the vertical line test says and then explain why it works.</div></article><div class="para" id="p-1306">Sometimes we can define a function using a formula. For example, we can write <span class="process-math">\(f(x)=x^2-1\)</span> to mean that each <span class="process-math">\(x\)</span> in the domain of <span class="process-math">\(f\)</span> maps to <span class="process-math">\(x^2-1\)</span> in the codomain. However, notice that providing only a formula is ambiguous! A function is determined by its domain, codomain, and the correspondence between these two sets. If we only provide a description for the correspondence, it is not clear what the domain and codomain are. Two functions that are defined by the same formula, but have different domains or codomains are <em class="emphasis">not</em> equal.</div>
+<article class="example example-like" id="example-26"><h3 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">8.8</span><span class="period">.</span>
+</h3>
+<div class="para" id="p-1307">The function <span class="process-math">\(f:\mathbb{R}\to \mathbb{R}\)</span> defined via <span class="process-math">\(f(x)=x^{2}-1\)</span> is not equal to the function <span class="process-math">\(g:\mathbb{N}\to\mathbb{R}\)</span> defined by <span class="process-math">\(g(x)=x^{2}-1\)</span> since the two functions do not have the same domain.</div></article><div class="para" id="p-1308">Sometimes we rely on context to interpret the domain and codomain. For example, in a calculus class, when we describe a function in terms of a formula, we are implicitly assuming that the domain is the largest allowable subset of <span class="process-math">\(\mathbb{R}\)</span>—sometimes called the <em class="emphasis">default domain</em>—that makes sense for the given formula while the codomain is <span class="process-math">\(\mathbb{R}\text{.}\)</span>
+</div>
+<article class="example example-like" id="example-27"><h3 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">8.9</span><span class="period">.</span>
+</h3>
+<div class="para" id="p-1309">If we write <span class="process-math">\(f(x)=x^2-1\text{,}\)</span> <span class="process-math">\(g(x)=\sqrt{x}\text{,}\)</span> and <span class="process-math">\(h(x)=\frac{1}{x}\)</span> without mentioning the domains, we would typically interpret these as the functions <span class="process-math">\(f:\mathbb{R}\to \mathbb{R}\text{,}\)</span> <span class="process-math">\(g:[0,\infty)\to \mathbb{R}\text{,}\)</span> and <span class="process-math">\(h:\mathbb{R}\setminus \{0\}\to \mathbb{R}\)</span> that are determined by their respective formulas.</div></article><article class="problem example-like" id="problem-173"><h3 class="heading">
+<span class="type">Problem</span><span class="space"> </span><span class="codenumber">8.10</span><span class="period">.</span>
+</h3>
+<div class="para logical" id="p-1310">
+<div class="para">Provide an example of each of the following. You may draw a function diagram, write down a list of ordered pairs, or write a formula as long as the domain and codomain are clear.</div>
+<ol class="lower-alpha">
+<li id="li-474"><div class="para" id="p-1311">A function <span class="process-math">\(f\)</span> from a set with 4 elements to a set with 3 elements such that <span class="process-math">\(\range(f)=\codom(f)\text{.}\)</span>
+</div></li>
+<li id="li-475"><div class="para" id="p-1312">A function <span class="process-math">\(g\)</span> from a set with 4 elements to a set with 3 elements such that <span class="process-math">\(\range(g)\)</span> is strictly smaller than <span class="process-math">\(\codom(g)\text{.}\)</span>
+</div></li>
+</ol>
+</div></article><article class="problem example-like" id="problem-174"><h3 class="heading">
+<span class="type">Problem</span><span class="space"> </span><span class="codenumber">8.11</span><span class="period">.</span>
+</h3>
+<div class="para" id="p-1313">Let <span class="process-math">\(f:X\to Y\)</span> be a function and suppose that <span class="process-math">\(X\)</span> and <span class="process-math">\(Y\)</span> are finite sets with <span class="process-math">\(n\)</span> and <span class="process-math">\(m\)</span> elements, respectively, such that <span class="process-math">\(n\lt m\text{.}\)</span> Is it possible for <span class="process-math">\(\range(f)=\codom(f)\text{?}\)</span> If so, provide an example. If this is not possible, explain why.</div></article><div class="para" id="p-1314">There are a few special functions that we should know the names of.</div>
+<article class="definition definition-like" id="definition-53"><h3 class="heading">
+<span class="type">Definition</span><span class="space"> </span><span class="codenumber">8.12</span><span class="period">.</span>
+</h3>
+<div class="para" id="p-1315">If <span class="process-math">\(X\)</span> and <span class="process-math">\(Y\)</span> are nonempty sets such that <span class="process-math">\(X\subseteq Y\text{,}\)</span> then the function <span class="process-math">\(\iota:X\to Y\)</span> defined via <span class="process-math">\(\iota(x)=x\)</span> is called the inclusion map from <span class="process-math">\(X\)</span> into <span class="process-math">\(Y\text{.}\)</span>
+</div></article><div class="para" id="p-1316">Note that “<span class="process-math">\(\iota\)</span>” is the Greek letter “iota”.</div>
+<article class="problem example-like" id="problem-175"><h3 class="heading">
+<span class="type">Problem</span><span class="space"> </span><span class="codenumber">8.13</span><span class="period">.</span>
+</h3>
+<div class="para" id="p-1317">Let <span class="process-math">\(X=\{a,b,c\}\)</span> and <span class="process-math">\(Y=\{a,b,c,d\}\text{.}\)</span> Draw the function diagram of the inclusion map from <span class="process-math">\(X\)</span> into <span class="process-math">\(Y\text{.}\)</span>
+</div></article><div class="para" id="p-1318">If the domain and codomain are equal, the inclusion map has a special name.</div>
+<article class="definition definition-like" id="definition-54"><h3 class="heading">
+<span class="type">Definition</span><span class="space"> </span><span class="codenumber">8.14</span><span class="period">.</span>
+</h3>
+<div class="para" id="p-1319">If <span class="process-math">\(X\)</span> is a nonempty set, then the function <span class="process-math">\(i_X:X\to X\)</span> defined via <span class="process-math">\(i_X(x)=x\)</span> is called the identity map (or identity function) on <span class="process-math">\(X\text{.}\)</span>
+</div></article><article class="example example-like" id="example-28"><h3 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">8.15</span><span class="period">.</span>
+</h3>
+<div class="para" id="p-1320">The relation defined in <a href="" class="xref" data-knowl="./knowl/prob_lots_of_potential_functions.html" title="Problem 8.5">Problem 8.5</a> <a href="" class="xref" data-knowl="./knowl/prob_identity.html" title="Item g">Item g</a> is the identity map on <span class="process-math">\(X=\{\circ, \square,\triangle,\smiley\}\text{.}\)</span>
+</div></article><article class="problem example-like" id="problem-176"><h3 class="heading">
+<span class="type">Problem</span><span class="space"> </span><span class="codenumber">8.16</span><span class="period">.</span>
+</h3>
+<div class="para" id="p-1321">Draw a portion of the graph of the identity map on <span class="process-math">\(\mathbb{R}\)</span> as a subset of <span class="process-math">\(\mathbb{R}^2\text{.}\)</span>
+</div></article><article class="problem example-like" id="problem-177"><h3 class="heading">
+<span class="type">Problem</span><span class="space"> </span><span class="codenumber">8.17</span><span class="period">.</span>
+</h3>
+<div class="para logical" id="p-1322">
+<div class="para">Let <span class="process-math">\(A\)</span> be a nonempty set.</div>
+<ol class="lower-alpha">
+<li id="li-476"><div class="para" id="p-1323">Suppose <span class="process-math">\(R\)</span> is an equivalence relation on <span class="process-math">\(A\text{.}\)</span> What conditions on <span class="process-math">\(R\)</span> must hold in order for <span class="process-math">\(R\)</span> to be a function from <span class="process-math">\(A\)</span> to <span class="process-math">\(A\text{?}\)</span>
+</div></li>
+<li id="li-477"><div class="para" id="p-1324">Suppose <span class="process-math">\(f:A\to A\)</span> is a function. Under what conditions is <span class="process-math">\(f\)</span> an equivalence relation on <span class="process-math">\(A\text{?}\)</span>
+</div></li>
+</ol>
+</div></article><article class="definition definition-like" id="definition-55"><h3 class="heading">
+<span class="type">Definition</span><span class="space"> </span><span class="codenumber">8.18</span><span class="period">.</span>
+</h3>
+<div class="para" id="p-1325">Any function <span class="process-math">\(f:X\to Y\)</span> defined via <span class="process-math">\(f(x)=c\)</span> for a fixed <span class="process-math">\(c\in Y\)</span> is called a constant function.</div></article><article class="example example-like" id="example-29"><h3 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">8.19</span><span class="period">.</span>
+</h3>
+<div class="para" id="p-1326">The function defined in <a href="" class="xref" data-knowl="./knowl/prob_lots_of_potential_functions.html" title="Problem 8.5">Problem 8.5</a> <a href="" class="xref" data-knowl="./knowl/prob_happy.html" title="Item h">Item h</a> is an example of a constant function. Notice that we can succinctly describe this function using the formula <span class="process-math">\(\operatorname{happy}(y)=\smiley\text{.}\)</span>
+</div></article><article class="definition definition-like" id="definition-56"><h3 class="heading">
+<span class="type">Definition</span><span class="space"> </span><span class="codenumber">8.20</span><span class="period">.</span>
+</h3>
+<div class="para" id="p-1327">A piecewise-defined function (or piecewise function) is a function defined by specifying its output on a partition of the domain.</div></article><div class="para" id="p-1328">Note that “piecewise” is a way of expressing the function, rather than a property of the function itself.</div>
+<article class="example example-like" id="example-30"><h3 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">8.21</span><span class="period">.</span>
+</h3>
+<div class="para logical" id="p-1329">
+<div class="para">We can express the function in <a href="" class="xref" data-knowl="./knowl/prob_lots_of_potential_functions.html" title="Problem 8.5">Problem 8.5</a> <a href="" class="xref" data-knowl="./knowl/prob_nugget.html" title="Item i">Item i</a> as a piecewise function using the formula</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/prob_lots_of_potential_functions.html ./knowl/prob_nugget.html">
+\begin{equation*}
+\operatorname{nugget}(x)=\begin{cases}x, \amp  \mbox{if }  x\mbox{ is a geometric shape} ,\\ \square, \amp  \mbox{otherwise} . \end{cases}
+\end{equation*}
+</div>
+</div></article><article class="example example-like" id="example-31"><h3 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">8.22</span><span class="period">.</span>
+</h3>
+<div class="para logical" id="p-1330">
+<div class="para">The function <span class="process-math">\(f:\mathbb{R}\to \mathbb{R}\)</span> defined via</div>
+<div class="displaymath process-math">
+\begin{equation*}
+f(x)=\begin{cases}x^2-1, \amp  \mbox{if }  x\geq 0,\\ 17, \amp  \mbox{if }  -2\leq x\lt  0,\\ -x, \amp  \mbox{if }  x\lt -2 \end{cases}
+\end{equation*}
+</div>
+<div class="para">is an example of a piecewise-defined function.</div>
+</div></article><article class="problem example-like" id="problem-178"><h3 class="heading">
+<span class="type">Problem</span><span class="space"> </span><span class="codenumber">8.23</span><span class="period">.</span>
+</h3>
+<div class="para" id="p-1331">Define <span class="process-math">\(f:\mathbb{R}\setminus\{0\}\to \mathbb{R}\)</span> via <span class="process-math">\(f(x)=\frac{|x|}{x}\text{.}\)</span> Express <span class="process-math">\(f\)</span> as a piecewise function.</div></article><div class="para" id="p-1332">It is important to point out that not every function can be described using a formula! Despite your prior experience, functions that can be represented succinctly using a formula are rare.</div>
+<div class="para" id="p-1333">The next problem illustrates that some care must be taken when attempting to define a function.</div>
+<article class="problem example-like" id="prob_not_well_defined"><h3 class="heading">
+<span class="type">Problem</span><span class="space"> </span><span class="codenumber">8.24</span><span class="period">.</span>
+</h3>
+<div class="para logical" id="p-1334">
+<div class="para">For each of the following, explain why the given description does not define a function.</div>
+<ol class="lower-alpha">
+<li id="li-478"><div class="para" id="p-1335">Define <span class="process-math">\(f:\{1,2,3\}\to \{1,2,3\}\)</span> via <span class="process-math">\(f(a)=a-1\text{.}\)</span>
+</div></li>
+<li id="li-479"><div class="para" id="p-1336">Define <span class="process-math">\(g:\mathbb{N}\to \mathbb{Q}\)</span> via <span class="process-math">\(g(n)=\frac{n}{n-1}\text{.}\)</span>
+</div></li>
+<li id="li-480"><div class="para logical" id="p-1337">
+<div class="para">Let <span class="process-math">\(A_1=\{1,2,3\}\)</span> and <span class="process-math">\(A_2=\{3,4,5\}\text{.}\)</span> Define <span class="process-math">\(h:A_1\cup A_2\to \{1,2\}\)</span> via</div>
+<div class="displaymath process-math">
+\begin{equation*}
+h(x)=\begin{cases}1, \amp  \mbox{if } x\in A_1\\ 2, \amp  \mbox{if } x\in A_2. \end{cases}
+\end{equation*}
+</div>
+</div></li>
+<li id="li-481"><div class="para" id="p-1338">Define <span class="process-math">\(s:\mathbb{Q}\to \mathbb{Z}\)</span> via <span class="process-math">\(s(a/b)=a+b\text{.}\)</span>
+</div></li>
+</ol>
+</div></article><div class="para logical" id="p-1339">
+<div class="para">In mathematics, we say that an expression is <em class="emphasis">well defined</em> (or <em class="emphasis">unambiguous</em>) if its definition yields a unique interpretation. Otherwise, we say that the expression is not well defined (or is <em class="emphasis">ambiguous</em>). For example, if <span class="process-math">\(a,b,c\in\mathbb{R}\text{,}\)</span> then the expression <span class="process-math">\(abc\)</span> is well defined since it does not matter if we interpret this as <span class="process-math">\((ab)c\)</span> or <span class="process-math">\(a(bc)\)</span> since the real numbers are associative under multiplication. This issue was lurking behind the scenes in the statement of <a href="" class="xref" data-knowl="./knowl/thm_modular_sums_products.html" title="Theorem 7.94">Theorem 7.94</a>. In particular, the expressions</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/thm_modular_sums_products.html ./knowl/thm_modular_add_comm_assoc.html ./knowl/modular_add_assoc.html ./knowl/thm_modular_mult_comm_assoc.html ./knowl/modular_mult_assoc.html">
+\begin{equation*}
+[a_1]_n+[a_2]_n+\cdots+ [a_k]_n
+\end{equation*}
+</div>
+<div class="para">and</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/thm_modular_sums_products.html ./knowl/thm_modular_add_comm_assoc.html ./knowl/modular_add_assoc.html ./knowl/thm_modular_mult_comm_assoc.html ./knowl/modular_mult_assoc.html">
+\begin{equation*}
+[a_1]_n [a_2]_n \cdots  [a_k]_n
+\end{equation*}
+</div>
+<div class="para">are well defined in <span class="process-math">\(\mathbb{Z}/n\mathbb{Z}\)</span> in light of <a href="" class="xref" data-knowl="./knowl/thm_modular_add_comm_assoc.html" title="Theorem 7.92">Theorems 7.92</a> <a href="" class="xref" data-knowl="./knowl/modular_add_assoc.html" title="Item b">Item b</a> and <a href="" class="xref" data-knowl="./knowl/thm_modular_mult_comm_assoc.html" title="Theorem 7.93">Theorem 7.93</a> <a href="" class="xref" data-knowl="./knowl/modular_mult_assoc.html" title="Item b">Item b</a>.</div>
+</div>
+<div class="para" id="p-1340">When we attempt to define a function, it may not be clear without doing some work that our definition really does yield a function. If there is some potential ambiguity in the definition of a function that ends up not causing any issues, we say that the function is well defined. However, this phrase is a bit of misnomer since all functions are well defined. The issue of whether a description for a proposed function is well defined often arises when defining things in terms of representatives of equivalence classes, or more generally in terms of how an element of the domain is written. For example, the descriptions given in Parts (c) and (d) of <a href="" class="xref" data-knowl="./knowl/prob_not_well_defined.html" title="Problem 8.24">Problem 8.24</a> are not well defined. To show that a potentially ambiguous description for a function <span class="process-math">\(f:X\to Y\)</span> is well defined prove that if <span class="process-math">\(a\)</span> and <span class="process-math">\(b\)</span> are two representations for the same element in <span class="process-math">\(X\text{,}\)</span> then <span class="process-math">\(f(a)=f(b)\text{.}\)</span>
+</div>
+<article class="problem example-like" id="prob_well_defined"><h3 class="heading">
+<span class="type">Problem</span><span class="space"> </span><span class="codenumber">8.25</span><span class="period">.</span>
+</h3>
+<div class="para logical" id="p-1341">
+<div class="para">For each of the following, determine whether the description determines a well-defined function.</div>
+<ol class="lower-alpha">
+<li id="li-482"><div class="para logical" id="p-1342">
+<div class="para">Define <span class="process-math">\(f:\mathbb{Z}/5\mathbb{Z}\to \mathbb{N}\)</span> via</div>
+<div class="displaymath process-math">
+\begin{equation*}
+f([a]_5)=\begin{cases}0, \amp  \mbox{if }  a\mbox{ is even} \\ 1, \amp  \mbox{if }  a\mbox{ is odd} . \end{cases}
+\end{equation*}
+</div>
+</div></li>
+<li id="li-483"><div class="para logical" id="p-1343">
+<div class="para">Define <span class="process-math">\(g:\mathbb{Z}/6\mathbb{Z}\to \mathbb{N}\)</span> via</div>
+<div class="displaymath process-math">
+\begin{equation*}
+g([a]_6)=\begin{cases}0, \amp  \mbox{if }  a\mbox{ is even} \\ 1, \amp  \mbox{if }  a\mbox{ is odd} . \end{cases}
+\end{equation*}
+</div>
+</div></li>
+<li id="mod_8_to_mod_10"><div class="para" id="p-1344">Define <span class="process-math">\(m:\mathbb{Z}/8\mathbb{Z}\to \mathbb{Z}/10\mathbb{Z}\)</span> via <span class="process-math">\(m([x]_{8})=[6x]_{10}\text{.}\)</span>
+</div></li>
+<li id="mod_10_to_mod_10"><div class="para" id="p-1345">Define <span class="process-math">\(h:\mathbb{Z}/10\mathbb{Z}\to \mathbb{Z}/10\mathbb{Z}\)</span> via <span class="process-math">\(h([x]_{10})=[6x]_{10}\text{.}\)</span>
+</div></li>
+<li id="mod_43_to_mod_43"><div class="para" id="p-1346">Define <span class="process-math">\(k:\mathbb{Z}/43\mathbb{Z}\to \mathbb{Z}/43\mathbb{Z}\)</span> via <span class="process-math">\(k([x]_{43})=[11x-5]_{43}\text{.}\)</span>
+</div></li>
+<li id="mod_15_to_mod_15"><div class="para" id="p-1347">Define <span class="process-math">\(\ell:\mathbb{Z}/15\mathbb{Z}\to \mathbb{Z}/15\mathbb{Z}\)</span> via <span class="process-math">\(\ell([x]_{15})=[5x-11]_{15}\text{.}\)</span>
+</div></li>
+</ol>
+</div></article><article class="problem example-like" id="problem-181"><h3 class="heading">
+<span class="type">Problem</span><span class="space"> </span><span class="codenumber">8.26</span><span class="period">.</span>
+</h3>
+<div class="para" id="p-1348">Let <span class="process-math">\(k,n\in\mathbb{N}\)</span> and <span class="process-math">\(m\in\mathbb{Z}\text{.}\)</span> Under what conditions will <span class="process-math">\(f_m: \mathbb{Z}/n\mathbb{Z}\to \mathbb{Z}/k\mathbb{Z}\)</span> given by <span class="process-math">\(f_m([x]_n) = [mx]_k\)</span> be a well-defined function? Prove your claim.</div></article><div class="para" id="p-1349">\epigraph{Don’t let anyone rob you of your imagination, your creativity, or your curiosity. It’s your place in the world; it’s your life. Go on and do all you can with it, and make it the life you want to live.}{Mae Jemison, NASA astronaut}</div></section></div>
+<div class="ptx-content-footer">
+<a class="previous-button button" href="chap_Functions.html" title="Previous"><span class="icon">&lt;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon">^</span><span class="name">Top</span></a><a class="next-button button" href="sec_Injective_and_Surjective_Functions.html" title="Next"><span class="name">Next</span><span class="icon">&gt;</span></a>
+</div></main>
+</div>
+<div id="ptx-page-footer" class="ptx-page-footer">
+<a class="pretext-link" href="https://pretextbook.org" title="PreTeXt"><div class="logo"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="338 3000 8772 6866"><g style="stroke-width:.025in; stroke:black; fill:none"><polyline points="472,3590 472,9732 " style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round; "></polyline><path style="stroke:#000000;stroke-width:126;stroke-linecap:butt;" d="M 4724,9448 A 4660 4660  0  0  1  8598  9259"></path><path style="stroke:#000000;stroke-width:174;stroke-linecap:butt;" d="M 4488,9685 A 4228 4228  0  0  0   472  9732"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:butt;" d="M 4724,3590 A 4241 4241  0  0  1  8598  3496"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:round;" d="M 850,3496  A 4241 4241  0  0  1  4724  3590"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:round;" d="M 850,9259  A 4507 4507  0  0  1  4724  9448"></path><polyline points="5385,4299 4062,8125" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8598,3496 8598,9259" style="stroke:#000000;stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="850,3496 850,9259" style="stroke:#000000;stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="4960,9685 4488,9685" style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="3070,4582 1889,6141 3070,7700" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="6418,4582 7600,6141 6418,7700" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8976,3590 8976,9732" style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><path style="stroke:#000000;stroke-width:174;stroke-linecap:butt;" d="M 4960,9685 A 4228 4228  0  0  1  8976  9732"></path></g></svg></div></a><a class="runestone-link" href="https://runestone.academy" title="Runestone Academy"><img class="logo" src="https://runestone.academy/runestone/static/images/RAIcon_cropped.png"></a><a class="mathjax-link" href="https://www.mathjax.org" title="MathJax"><img class="logo" src="https://www.mathjax.org/badge/badge-square-2.png"></a>
+</div>
+</body>
+</html>

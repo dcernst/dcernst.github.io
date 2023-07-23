@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<!--********************************************-->
+<!--*       Generated from PreTeXt source      *-->
+<!--*                                          *-->
+<!--*         https://pretextbook.org          *-->
+<!--*                                          *-->
+<!--********************************************-->
+<html lang="en-US" dir="ltr">
+<head xmlns:og="http://ogp.me/ns#" xmlns:book="https://ogp.me/ns/book#">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Sets</title>
+<meta name="Keywords" content="Authored in PreTeXt">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:type" content="book">
+<meta property="book:title" content="An Introduction to Proof via Inquiry-Based Learning">
+<meta property="book:author" content="Dana C. Ernst, PhD">
+<script>
+var runestoneMathReady = new Promise((resolve) => window.rsMathReady = resolve);
+window.MathJax = {
+  "tex": {
+    "inlineMath": [
+      [
+        "\\(",
+        "\\)"
+      ]
+    ],
+    "tags": "none",
+    "tagSide": "right",
+    "tagIndent": ".8em",
+    "packages": {
+      "[+]": [
+        "base",
+        "extpfeil",
+        "ams",
+        "amscd",
+        "color",
+        "newcommand",
+        "knowl"
+      ]
+    }
+  },
+  "options": {
+    "ignoreHtmlClass": "tex2jax_ignore|ignore-math",
+    "processHtmlClass": "process-math"
+  },
+  "chtml": {
+    "scale": 0.98,
+    "mtextInheritFont": true
+  },
+  "loader": {
+    "load": [
+      "input/asciimath",
+      "[tex]/extpfeil",
+      "[tex]/amscd",
+      "[tex]/color",
+      "[tex]/newcommand",
+      "[pretext]/mathjaxknowl3.js"
+    ],
+    "paths": {
+      "pretext": "https://pretextbook.org/js/lib"
+    }
+  },
+  "startup": {
+    pageReady() {
+      return MathJax.startup.defaultPageReady().then(function () {
+      console.log("in ready function");
+      rsMathReady();
+      }
+    )}
+  }
+};
+</script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="https://pretextbook.org/js/0.3/pretext_search.js"></script><link href="https://pretextbook.org/css/0.7/pretext_search.css" rel="stylesheet" type="text/css">
+<script>js_version = 0.3</script><script src="https://pretextbook.org/js/lib/jquery.min.js"></script><script src="https://pretextbook.org/js/lib/jquery.sticky.js"></script><script src="https://pretextbook.org/js/lib/jquery.espy.min.js"></script><script src="https://pretextbook.org/js/0.3/pretext.js"></script><script>miniversion=0.1</script><script src="https://pretextbook.org/js/0.3/pretext_add_on.js?x=1"></script><script src="https://pretextbook.org/js/0.3/user_preferences.js"></script><script src="https://pretextbook.org/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
+</script><link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&amp;family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&amp;family=Tinos:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.cdnfonts.com/css/dejavu-serif" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz,wdth,wght@8..144,50..150,100..900&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wdth,wght@75..100,300..800&amp;display=swap" rel="stylesheet">
+<link href="https://pretextbook.org/css/0.7/pretext.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.7/pretext_add_on.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.7/shell_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.7/banner_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.7/navbar_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.7/toc_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.7/knowls_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.7/style_oscarlevin.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.7/colors_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.7/setcolors.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" href="external/custom-styles.css">
+</head>
+<body class="pretext book ignore-math">
+<a class="assistive" href="#ptx-content">Skip to main content</a><header id="ptx-masthead" class="ptx-masthead"><div class="ptx-banner">
+<a id="logo-link" class="logo-link" href=""></a><div class="title-container">
+<h1 class="heading"><a href="book-1.html"><span class="title">An Introduction to Proof via Inquiry-Based Learning</span></a></h1>
+<p class="byline">Dana C. Ernst, PhD</p>
+</div>
+<div id="searchresultsplaceholder" class="searchresultsplaceholder" style="display: none">
+<button id="closesearchresults" class="closesearchresults" onclick="document.getElementById('searchresultsplaceholder').style.display = 'none'; return false;">x</button><h2>Search Results: <span id="searchterms" class="searchterms"></span>
+</h2>
+<div id="searchempty" class="searchempty"><span>No results.</span></div>
+<ol id="searchresults" class="searchresults"></ol>
+</div>
+</div></header><nav id="ptx-navbar" class="ptx-navbar navbar"><button class="toc-toggle button" aria-label="Show or hide table of contents"><span class="icon">☰</span><span class="name">Contents</span></button><button id="user-preferences-button" class="user-preferences-button button" title="Modify user preferences"><span id="avatarbutton" class="avatarbutton name">You!</span><div id="preferences_menu_holder" class="preferences_menu_holder hidden"><ol id="preferences_menu" class="preferences_menu" style="font-family: 'Roboto Serif', serif;">
+<li data-env="avatar" tabindex="-1">Choose avatar<div class="wrap_to_submenu"><span class="to_submenu">▻</span></div>
+<ol class="hidden avatar">
+<li data-val="You!" tabindex="-1">
+<span id="theYou!" class="avatarcheck">✔️</span>You!</li>
+<li data-val="😺" tabindex="-1">
+<span id="the😺" class="avatarcheck"></span>😺</li>
+<li data-val="👤" tabindex="-1">
+<span id="the👤" class="avatarcheck"></span>👤</li>
+<li data-val="👽" tabindex="-1">
+<span id="the👽" class="avatarcheck"></span>👽</li>
+<li data-val="🐶" tabindex="-1">
+<span id="the🐶" class="avatarcheck"></span>🐶</li>
+<li data-val="🐼" tabindex="-1">
+<span id="the🐼" class="avatarcheck"></span>🐼</li>
+<li data-val="🌈" tabindex="-1">
+<span id="the🌈" class="avatarcheck"></span>🌈</li>
+</ol>
+</li>
+<li data-env="fontfamily" tabindex="-1">Font family<div class="wrap_to_submenu"><span class="to_submenu">▻</span></div>
+<ol class="hidden fontfamily">
+<li data-val="face" data-change="OS" tabindex="-1" style="font-family: 'Open Sans'">
+<span id="theOS" class="ffcheck">✔️</span><span class="name">Open Sans</span><span class="sample">AaBbCc 123 PreTeXt</span>
+</li>
+<li data-val="face" data-change="RS" tabindex="-1" style="font-family: 'Roboto Serif'">
+<span id="theRS" class="ffcheck"></span><span class="name">Roboto Serif</span><span class="sample">AaBbCc 123 PreTeXt</span>
+</li>
+</ol>
+</li>
+<li data-env="font" tabindex="-1">Adjust font<div class="wrap_to_submenu"><span class="to_submenu">▻</span></div>
+<ol class="hidden fonts">
+<li>Size</li>
+<li><span id="thesize">12</span></li>
+<li data-val="size" data-change="-1" tabindex="-1" style="font-size: 80%">Smaller</li>
+<li data-val="size" data-change="1" tabindex="-1" style="font-size: 110%">Larger</li>
+<li>Width</li>
+<li><span id="thewdth">100</span></li>
+<li data-val="wdth" data-change="-5" tabindex="-1" style="font-variation-settings: 'wdth' 60">narrower</li>
+<li data-val="wdth" data-change="5" tabindex="-1" style="font-variation-settings: 'wdth' 150">wider</li>
+<li>Weight</li>
+<li><span id="thewght">400</span></li>
+<li data-val="wght" data-change="-50" tabindex="-1" style="font-weight: 200">thinner</li>
+<li data-val="wght" data-change="50" tabindex="-1" style="font-weight: 700">heavier</li>
+<li>Letter spacing</li>
+<li>
+<span id="thelspace">0</span><span class="byunits">/200</span>
+</li>
+<li data-val="lspace" data-change="-1" tabindex="-1">closer</li>
+<li data-val="lspace" data-change="1" tabindex="-1">f a r t h e r</li>
+<li>Word spacing</li>
+<li>
+<span id="thewspace">0</span><span class="byunits">/50</span>
+</li>
+<li data-val="wspace" data-change="-1" tabindex="-1">smaller gap </li>
+<li data-val="wspace" data-change="1" tabindex="-1">larger gap</li>
+<li>Line Spacing</li>
+<li>
+<span id="theheight">135</span><span class="byunits">/100</span>
+</li>
+<li data-val="height" data-change="-5" tabindex="-1" style="line-height: 1">closer<br>together</li>
+<li data-val="height" data-change="5" tabindex="-1" style="line-height: 1.75">further<br>apart</li>
+</ol>
+</li>
+<li data-env="atmosphere" tabindex="-1">Light/dark mode<div class="wrap_to_submenu"><span class="to_submenu">▻</span></div>
+<ol class="hidden atmosphere">
+<li data-val="default" tabindex="-1">
+<span id="thedefault" class="atmospherecheck">✔️</span>default</li>
+<li data-val="pastel" tabindex="-1">
+<span id="thepastel" class="atmospherecheck"></span>pastel</li>
+<li data-val="darktwilight" tabindex="-1">
+<span id="thedarktwilight" class="atmospherecheck"></span>twilight</li>
+<li data-val="dark" tabindex="-1">
+<span id="thedark" class="atmospherecheck"></span>dark</li>
+<li data-val="darkmidnight" tabindex="-1">
+<span id="thedarkmidnight" class="atmospherecheck"></span>midnight</li>
+</ol>
+</li>
+<li data-env="ruler" tabindex="-1">Reading ruler<div class="wrap_to_submenu"><span class="to_submenu">▻</span></div>
+<ol class="hidden ruler">
+<li data-val="none" tabindex="-1">
+<span id="thenone" class="rulercheck">✔️</span>none</li>
+<li data-val="underline" tabindex="-1">
+<span id="theunderline" class="rulercheck"></span>underline</li>
+<li data-val="lunderline" tabindex="-1">
+<span id="thelunderline" class="rulercheck"></span>L-underline</li>
+<li data-val="greybar" tabindex="-1">
+<span id="thegreybar" class="rulercheck"></span>grey bar</li>
+<li data-val="lightbox" tabindex="-1">
+<span id="thelightbox" class="rulercheck"></span>light box</li>
+<li data-val="sunrise" tabindex="-1">
+<span id="thesunrise" class="rulercheck"></span>sunrise</li>
+<li data-val="sunriseunderline" tabindex="-1">
+<span id="thesunriseunderline" class="rulercheck"></span>sunrise underline</li>
+<li class="moveQ">Motion by:</li>
+<li data-val="mouse" tabindex="-1">
+<span id="themouse" class="motioncheck">✔️</span>follow the mouse</li>
+<li data-val="arrow" tabindex="-1">
+<span id="thearrow" class="motioncheck"></span>up/down arrows - not yet</li>
+<li data-val="eye" tabindex="-1">
+<span id="theeye" class="motioncheck"></span>eye tracking - not yet</li>
+</ol>
+</li>
+</ol></div></button><span class="treebuttons"><a class="previous-button button" href="chap_SetTheory.html" title="Previous"><span class="icon">&lt;</span><span class="name">Prev</span></a><a class="up-button button" href="chap_SetTheory.html" title="Up"><span class="icon">^</span><span class="name">Up</span></a><a class="next-button button" href="sec_RussellsParadox.html" title="Next"><span class="name">Next</span><span class="icon">&gt;</span></a></span><div class="searchbox"><div class="searchwidget">
+<input id="ptxsearch" class="ptxsearch" type="text" name="terms" placeholder="Search" onchange="doSearch()"><button id="searchbutton" class="searchbutton" type="button" onclick="doSearch()">🔍</button>
+</div></div></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\newcommand{\dom}{\operatorname{Dom}}
+\newcommand{\codom}{\operatorname{Codom}}
+\newcommand{\range}{\operatorname{Rng}}
+\newcommand{\lcm}{\operatorname{lcm}}
+\newcommand{\card}{\operatorname{card}}
+\newcommand{\rel}{\operatorname{rel}}
+\newcommand{\Rel}{\operatorname{Rel}}
+\newcommand{\logeq}{\Longleftrightarrow}
+\renewcommand{\implies}{\Longrightarrow}
+
+\def\tcboxmath{}
+\def\coloneqq{:=}
+\newcommand{\lt}{&lt;}
+\newcommand{\gt}{&gt;}
+\newcommand{\amp}{&amp;}
+\definecolor{fillinmathshade}{gray}{0.9}
+\newcommand{\fillinmath}[1]{\mathchoice{\colorbox{fillinmathshade}{$\displaystyle     \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\textstyle        \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptstyle      \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptscriptstyle\phantom{\,#1\,}$}}}
+\)</span></div>
+<div class="ptx-page">
+<div id="ptx-sidebar" class="ptx-sidebar"><nav id="ptx-toc" class="ptx-toc depth2"><ul class="structural">
+<li>
+<div class="toc-item"><a href="frontmatter-1.html" class="internal"><span class="title">Front Matter</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="colophon.html" class="internal"><span class="title">Colophon</span></a></div></li>
+<li><div class="toc-item"><a href="chap_preface.html" class="internal"><span class="title">Preface</span></a></div></li>
+<li><div class="toc-item"><a href="chap_acknowledgements.html" class="internal"><span class="title">Acknowledgements</span></a></div></li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="chap_intro.html" class="internal"><span class="codenumber">1</span> <span class="title">Introduction</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="sec_WhatIsThisBookAllAbout.html" class="internal"><span class="codenumber">1.1</span> <span class="title">What is This Book All About?</span></a></div></li>
+<li><div class="toc-item"><a href="sec_what_should_you_expect.html" class="internal"><span class="codenumber">1.2</span> <span class="title">What Should You Expect?</span></a></div></li>
+<li><div class="toc-item"><a href="sec_IBLApproach.html" class="internal"><span class="codenumber">1.3</span> <span class="title">An Inquiry-Based Approach</span></a></div></li>
+<li><div class="toc-item"><a href="sec_Structure.html" class="internal"><span class="codenumber">1.4</span> <span class="title">Structure of the Textbook</span></a></div></li>
+<li><div class="toc-item"><a href="sec_guidance.html" class="internal"><span class="codenumber">1.5</span> <span class="title">Some Minimal Guidance</span></a></div></li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="chap_IntroToMath.html" class="internal"><span class="codenumber">2</span> <span class="title">Mathematics and Logic</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="sec_baby_number_theory.html" class="internal"><span class="codenumber">2.1</span> <span class="title">A Taste of Number Theory</span></a></div></li>
+<li><div class="toc-item"><a href="sec_Intro_to_Logic.html" class="internal"><span class="codenumber">2.2</span> <span class="title">Introduction to Logic</span></a></div></li>
+<li><div class="toc-item"><a href="sec_Techniques_for_Proving_Conditional_Propositions.html" class="internal"><span class="codenumber">2.3</span> <span class="title">Techniques for Proving Conditional Propositions</span></a></div></li>
+<li><div class="toc-item"><a href="sec_Introduction_to_Quantification.html" class="internal"><span class="codenumber">2.4</span> <span class="title">Introduction to Quantification</span></a></div></li>
+<li><div class="toc-item"><a href="sec_More_About_Quantification.html" class="internal"><span class="codenumber">2.5</span> <span class="title">More About Quantification</span></a></div></li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="chap_SetTheory.html" class="internal"><span class="codenumber">3</span> <span class="title">Set Theory</span></a></div>
+<ul class="structural">
+<li class="active"><div class="toc-item"><a href="sec_Sets.html" class="internal"><span class="codenumber">3.1</span> <span class="title">Sets</span></a></div></li>
+<li><div class="toc-item"><a href="sec_RussellsParadox.html" class="internal"><span class="codenumber">3.2</span> <span class="title">Russell’s Paradox</span></a></div></li>
+<li><div class="toc-item"><a href="sec_PowerSets.html" class="internal"><span class="codenumber">3.3</span> <span class="title">Power Sets</span></a></div></li>
+<li><div class="toc-item"><a href="sec_Indexing_Sets.html" class="internal"><span class="codenumber">3.4</span> <span class="title">Indexing Sets</span></a></div></li>
+<li><div class="toc-item"><a href="sec_Cartesian_Products.html" class="internal"><span class="codenumber">3.5</span> <span class="title">Cartesian Products of Sets</span></a></div></li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="chap_Induction.html" class="internal"><span class="codenumber">4</span> <span class="title">Induction</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="sec_Intro_to_Induction.html" class="internal"><span class="codenumber">4.1</span> <span class="title">Introduction to Induction</span></a></div></li>
+<li><div class="toc-item"><a href="sec_More_on_Induction.html" class="internal"><span class="codenumber">4.2</span> <span class="title">More on Induction</span></a></div></li>
+<li><div class="toc-item"><a href="sec_CompleteInduction.html" class="internal"><span class="codenumber">4.3</span> <span class="title">Complete Induction</span></a></div></li>
+<li><div class="toc-item"><a href="sec_WOP.html" class="internal"><span class="codenumber">4.4</span> <span class="title">The Well-Ordering Principle</span></a></div></li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="chap_RealNumbers.html" class="internal"><span class="codenumber">5</span> <span class="title">The Real Numbers</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="sec_AxiomsRealNumbers.html" class="internal"><span class="codenumber">5.1</span> <span class="title">Axioms of the Real Numbers</span></a></div></li>
+<li><div class="toc-item"><a href="sec_Topology.html" class="internal"><span class="codenumber">5.2</span> <span class="title">Standard Topology of the Real Line</span></a></div></li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="chap_ThreeFamousTheorems.html" class="internal"><span class="codenumber">6</span> <span class="title">Three Famous Theorems</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="sec_FTA.html" class="internal"><span class="codenumber">6.1</span> <span class="title">The Fundamental Theorem of Arithmetic</span></a></div></li>
+<li><div class="toc-item"><a href="sec_Irrationality_of_Root_2.html" class="internal"><span class="codenumber">6.2</span> <span class="title">The Irrationality of <span class="process-math">\(\sqrt{2}\)</span></span></a></div></li>
+<li><div class="toc-item"><a href="sec_Infinitude_of_Primes.html" class="internal"><span class="codenumber">6.3</span> <span class="title">The Infinitude of Primes</span></a></div></li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="chap_Relations_and_Partitions.html" class="internal"><span class="codenumber">7</span> <span class="title">Relations and Partitions</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="sec_Relations.html" class="internal"><span class="codenumber">7.1</span> <span class="title">Relations</span></a></div></li>
+<li><div class="toc-item"><a href="sec_Equivalence_Relations.html" class="internal"><span class="codenumber">7.2</span> <span class="title">Equivalence Relations</span></a></div></li>
+<li><div class="toc-item"><a href="sec_Partitions.html" class="internal"><span class="codenumber">7.3</span> <span class="title">Partitions</span></a></div></li>
+<li><div class="toc-item"><a href="sec_ModularArithmetic.html" class="internal"><span class="codenumber">7.4</span> <span class="title">Modular Arithmetic</span></a></div></li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="chap_Functions.html" class="internal"><span class="codenumber">8</span> <span class="title">Functions</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="sec_Intro_to_Functions.html" class="internal"><span class="codenumber">8.1</span> <span class="title">Introduction to Functions</span></a></div></li>
+<li><div class="toc-item"><a href="sec_Injective_and_Surjective_Functions.html" class="internal"><span class="codenumber">8.2</span> <span class="title">Injective and Surjective Functions</span></a></div></li>
+<li><div class="toc-item"><a href="sec_Compositions_and_Inverse_Functions.html" class="internal"><span class="codenumber">8.3</span> <span class="title">Compositions and Inverse Functions</span></a></div></li>
+<li><div class="toc-item"><a href="sec_Images_and_Preimages.html" class="internal"><span class="codenumber">8.4</span> <span class="title">Images and Preimages of Functions</span></a></div></li>
+<li><div class="toc-item"><a href="sec_Continuity.html" class="internal"><span class="codenumber">8.5</span> <span class="title">Continuous Real Functions</span></a></div></li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="chap_Cardinality.html" class="internal"><span class="codenumber">9</span> <span class="title">Cardinality</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="sec_Intro_to_Cardinality.html" class="internal"><span class="codenumber">9.1</span> <span class="title">Introduction to Cardinality</span></a></div></li>
+<li><div class="toc-item"><a href="sec_Finite_Sets.html" class="internal"><span class="codenumber">9.2</span> <span class="title">Finite Sets</span></a></div></li>
+<li><div class="toc-item"><a href="sec_Infinite_Sets.html" class="internal"><span class="codenumber">9.3</span> <span class="title">Infinite Sets</span></a></div></li>
+<li><div class="toc-item"><a href="sec_Countable_Sets.html" class="internal"><span class="codenumber">9.4</span> <span class="title">Countable Sets</span></a></div></li>
+<li><div class="toc-item"><a href="sec_Uncountable_Sets.html" class="internal"><span class="codenumber">9.5</span> <span class="title">Uncountable Sets</span></a></div></li>
+</ul>
+</li>
+<li><div class="toc-item"><a href="appendix_elements_of_style.html" class="internal"><span class="codenumber">A</span> <span class="title">Elements of Style for Proofs</span></a></div></li>
+<li><div class="toc-item"><a href="appendix_fancy_math_terms.html" class="internal"><span class="codenumber">B</span> <span class="title">Fancy Mathematical Terms</span></a></div></li>
+<li><div class="toc-item"><a href="appendix_paradoxes.html" class="internal"><span class="codenumber">C</span> <span class="title">Paradoxes</span></a></div></li>
+<li><div class="toc-item"><a href="appendix_definitions.html" class="internal"><span class="codenumber">D</span> <span class="title">Definitions in Mathematics</span></a></div></li>
+</ul></nav></div>
+<main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="section" id="sec_Sets"><h2 class="heading hide-type">
+<span class="type">Section</span> <span class="codenumber">3.1</span> <span class="title">Sets</span>
+</h2>
+<article class="definition definition-like" id="definition-13"><h3 class="heading">
+<span class="type">Definition</span><span class="space"> </span><span class="codenumber">3.1</span><span class="period">.</span>
+</h3>
+<div class="para" id="p-389">A set is a collection of objects called elements. If <span class="process-math">\(A\)</span> is a set and <span class="process-math">\(x\)</span> is an element of <span class="process-math">\(A\text{,}\)</span> we write <span class="process-math">\(\tcboxmath{x\in A}\text{.}\)</span> Otherwise, we write <span class="process-math">\(\tcboxmath{x\notin A}\text{.}\)</span> The set containing no elements is called the empty set, and is denoted by the symbol <span class="process-math">\(\tcboxmath{\emptyset}\text{.}\)</span> Any set that contains at least one element is referred to as a nonempty set.</div></article><div class="para logical" id="p-390">
+<div class="para">If we think of a set as a box potentially containing some stuff, then the empty set is a box with nothing in it. One assumption we will make is that for any set <span class="process-math">\(A\text{,}\)</span> <span class="process-math">\(A\notin A\text{.}\)</span> The language associated to sets is specific. We will often define sets using the following notation, called <em class="emphasis">set-builder notation</em>:</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\tcboxmath{S=\{x \in A\mid P(x)\}}\text{,}
+\end{equation*}
+</div>
+<div class="para">where <span class="process-math">\(P(x)\)</span> is some predicate statement involving <span class="process-math">\(x\text{.}\)</span> The first part “<span class="process-math">\(x \in A\)</span>” denotes what type of <span class="process-math">\(x\)</span> is being considered. The predicate to the right of the vertical bar (not to be confused with “divides” ) determines the condition(s) that each <span class="process-math">\(x\)</span> must satisfy in order to be a member of the set. This notation is read as “The set of all <span class="process-math">\(x\)</span> in <span class="process-math">\(A\)</span> such that <span class="process-math">\(P(x)\text{.}\)</span>” As an example, the set <span class="process-math">\(\{x\in \mathbb{N}\mid x \mbox{ is even and } x\geq 8\}\)</span> describes the collection of even natural numbers that are greater than or equal to 8.</div>
+</div>
+<div class="para logical" id="p-391">
+<div class="para">There are a few sets that are commonly discussed in mathematics and have predefined symbols to denote them. We have already encountered the integers, natural numbers, and real numbers. Notice that our definition of the rational numbers uses set-builder notation.</div>
+<ul class="disc">
+<li id="li-154"><div class="para" id="p-392">
+<em class="emphasis">Natural Numbers:</em> <span class="process-math">\(\tcboxmath{\mathbb{N}\coloneqq \{1,2,3,\ldots\}}\text{.}\)</span> Some books will include zero in the set of natural numbers, but we do not.</div></li>
+<li id="li-155"><div class="para" id="p-393">
+<em class="emphasis">Integers:</em> <span class="process-math">\(\tcboxmath{\mathbb{Z}\coloneqq \{0, \pm 1, \pm2, \pm 3, \ldots\}}\text{.}\)</span>
+</div></li>
+<li id="li-156"><div class="para" id="p-394">
+<em class="emphasis">Rational Numbers:</em> <span class="process-math">\(\tcboxmath{\mathbb{Q}\coloneqq \{a/b \mid a, b \in \mathbb{Z} \text{ and } b \neq 0\}}\text{.}\)</span>
+</div></li>
+<li id="li-157"><div class="para" id="p-395">
+<em class="emphasis">Real Numbers:</em> <span class="process-math">\(\tcboxmath{\mathbb{R}}\)</span> denotes the set of real numbers. We are taking for granted that you have some familiarity with this set.</div></li>
+</ul>
+</div>
+<div class="para" id="p-396">Since the set of natural numbers consists of the positive integers, the natural numbers are sometimes denoted by <span class="process-math">\(\tcboxmath{\mathbb{Z}^+}\text{.}\)</span>
+</div>
+<article class="problem example-like" id="problem-44"><h3 class="heading">
+<span class="type">Problem</span><span class="space"> </span><span class="codenumber">3.2</span><span class="period">.</span>
+</h3>
+<div class="para logical" id="p-397">
+<div class="para">Unpack the meaning of each of the following sets and provide a description of the elements that each set contains.</div>
+<ol class="lower-alpha">
+<li id="li-158"><div class="para" id="p-398"><span class="process-math">\(\displaystyle A=\{x \in \mathbb{N} \mid x = 3k \mbox{ for some } k\in \mathbb{N} \}\)</span></div></li>
+<li id="li-159"><div class="para" id="p-399"><span class="process-math">\(\displaystyle B=\{t \in \mathbb{R} \mid t \leq 2 \mbox{ or } t\geq 7 \}\)</span></div></li>
+<li id="li-160"><div class="para" id="p-400"><span class="process-math">\(\displaystyle C=\{t \in \mathbb{Z} \mid t^2 \leq 2 \}\)</span></div></li>
+<li id="li-161"><div class="para" id="p-401"><span class="process-math">\(\displaystyle D=\{s \in \mathbb{Z} \mid -3\lt s\leq 5 \}\)</span></div></li>
+<li id="li-162"><div class="para" id="p-402"><span class="process-math">\(\displaystyle E=\{m \in \mathbb{R} \mid m = 1 - \frac{1}{n} \mbox{, where } n \in \mathbb{N} \}\)</span></div></li>
+</ol>
+</div></article><article class="problem example-like" id="prob_set-builder_examples"><h3 class="heading">
+<span class="type">Problem</span><span class="space"> </span><span class="codenumber">3.3</span><span class="period">.</span>
+</h3>
+<div class="para logical" id="p-403">
+<div class="para">Write each of the following sentences using set-builder notation.</div>
+<ol class="lower-alpha">
+<li id="prob_set-builder_examples_a"><div class="para" id="p-404">The set of all real numbers less than <span class="process-math">\(-\sqrt{2}\text{.}\)</span>
+</div></li>
+<li id="prob_set-builder_examples_b"><div class="para" id="p-405">The set of all real numbers greater than <span class="process-math">\(-12\)</span> and less than or equal to 42.</div></li>
+<li id="li-165"><div class="para" id="p-406">The set of all even integers.</div></li>
+</ol>
+</div></article><div class="para" id="p-407">Parts (a) and (b) of <a href="" class="xref" data-knowl="./knowl/prob_set-builder_examples.html" title="Problem 3.3">Problem 3.3</a> are examples of intervals.</div>
+<article class="definition definition-like" id="def_intervals"><h3 class="heading">
+<span class="type">Definition</span><span class="space"> </span><span class="codenumber">3.4</span><span class="period">.</span>
+</h3>
+<div class="para logical" id="p-408">
+<div class="para">For <span class="process-math">\(a,b\in\mathbb{R}\)</span> with <span class="process-math">\(a\lt b\text{,}\)</span> we define the following sets, referred to as intervals.</div>
+<ol class="lower-alpha">
+<li id="li-166"><div class="para" id="p-409"><span class="process-math">\(\displaystyle \tcboxmath{(a,b)\coloneqq \{x\in\mathbb{R}\mid a\lt x\lt b\}}\)</span></div></li>
+<li id="li-167"><div class="para" id="p-410"><span class="process-math">\(\displaystyle \tcboxmath{[a,b]\coloneqq \{x\in\mathbb{R}\mid a\leq x\leq b\}}\)</span></div></li>
+<li id="li-168"><div class="para" id="p-411"><span class="process-math">\(\displaystyle \tcboxmath{[a,b)\coloneqq \{x\in\mathbb{R}\mid a\leq x\lt b\}}\)</span></div></li>
+<li id="li-169"><div class="para" id="p-412"><span class="process-math">\(\displaystyle \tcboxmath{(a,\infty)\coloneqq \{x\in\mathbb{R}\mid a\lt x\}}\)</span></div></li>
+<li id="li-170"><div class="para" id="p-413"><span class="process-math">\(\displaystyle \tcboxmath{(-\infty,b)\coloneqq \{x\in\mathbb{R}\mid x\lt b\}}\)</span></div></li>
+<li id="li-171"><div class="para" id="p-414"><span class="process-math">\(\displaystyle \tcboxmath{(-\infty,\infty)\coloneqq \mathbb{R}}\)</span></div></li>
+</ol>
+</div> <div class="para" id="p-415">We analogously define <span class="process-math">\(\tcboxmath{(a,b]}\text{,}\)</span> <span class="process-math">\(\tcboxmath{[a,\infty)}\text{,}\)</span> and <span class="process-math">\(\tcboxmath{(-\infty,b]}\text{.}\)</span> Intervals of the form <span class="process-math">\((a,b)\text{,}\)</span> <span class="process-math">\((-\infty,b)\text{,}\)</span> <span class="process-math">\((a,\infty)\text{,}\)</span> and <span class="process-math">\((-\infty,\infty)\)</span> are called open intervals while <span class="process-math">\([a,b]\)</span> is referred to as a closed interval. A bounded interval is any interval of the form <span class="process-math">\((a,b)\text{,}\)</span> <span class="process-math">\([a,b)\text{,}\)</span> <span class="process-math">\((a,b]\text{,}\)</span> and <span class="process-math">\([a,b]\text{.}\)</span> For bounded intervals, <span class="process-math">\(a\)</span> and <span class="process-math">\(b\)</span> are called the endpoints of the interval.</div></article><div class="para" id="p-416">We will always assume that any time we write <span class="process-math">\((a,b), [a,b], (a,b]\text{,}\)</span> or <span class="process-math">\([a,b)\)</span> that <span class="process-math">\(a\lt b\text{.}\)</span> We will see where the terminology of “open” and “closed” comes from in <a href="sec_Topology.html" class="internal" title="Section 5.2: Standard Topology of the Real Line">Section 5.2</a>.</div>
+<article class="problem example-like" id="problem-46"><h3 class="heading">
+<span class="type">Problem</span><span class="space"> </span><span class="codenumber">3.5</span><span class="period">.</span>
+</h3>
+<div class="para logical" id="p-417">
+<div class="para">Give an example of each of the following.</div>
+<ol class="lower-alpha">
+<li id="li-172"><div class="para" id="p-418">An interval that is neither an open nor closed interval.</div></li>
+<li id="li-173"><div class="para" id="p-419">An infinite set that is not an interval.</div></li>
+</ol>
+</div></article><article class="definition definition-like" id="definition-15"><h3 class="heading">
+<span class="type">Definition</span><span class="space"> </span><span class="codenumber">3.6</span><span class="period">.</span>
+</h3>
+<div class="para" id="p-420">If <span class="process-math">\(A\)</span> and <span class="process-math">\(B\)</span> are sets, then we say that <span class="process-math">\(A\)</span> is a subset of <span class="process-math">\(B\text{,}\)</span> written <span class="process-math">\(\tcboxmath{A\subseteq B}\text{,}\)</span> provided that every element of <span class="process-math">\(A\)</span> is an element of <span class="process-math">\(B\text{.}\)</span>
+</div></article><article class="problem example-like" id="problem-47"><h3 class="heading">
+<span class="type">Problem</span><span class="space"> </span><span class="codenumber">3.7</span><span class="period">.</span>
+</h3>
+<div class="para" id="p-421">List all of the subsets of <span class="process-math">\(A=\{1,2,3\}\text{.}\)</span>
+</div></article><div class="para" id="p-422">Every nonempty set always has two subsets. Notice that if <span class="process-math">\(A=\emptyset\text{,}\)</span> then Parts (a) and (b) of the next theorem say the same thing.</div>
+<article class="theorem theorem-like" id="thm_trivial_subsets"><h3 class="heading">
+<span class="type">Theorem</span><span class="space"> </span><span class="codenumber">3.8</span><span class="period">.</span>
+</h3>
+<div class="para logical" id="p-423">
+<div class="para">Let <span class="process-math">\(A\)</span> be a set. Then</div>
+<ol class="lower-alpha">
+<li id="li-174"><div class="para" id="p-424">
+<span class="process-math">\(A\subseteq A\text{,}\)</span> and</div></li>
+<li id="li-175"><div class="para" id="p-425"><span class="process-math">\(\emptyset \subseteq A\text{.}\)</span></div></li>
+</ol>
+</div></article><div class="para" id="p-426">Observe that “<span class="process-math">\(A\subseteq B\)</span>” is equivalent to ``For all <span class="process-math">\(x\)</span> (in the universe of discourse), if <span class="process-math">\(x\in A\text{,}\)</span> then <span class="process-math">\(x\in B\text{.}\)</span>" Since we know how to deal with “for all” statements and conditional propositions, we know how to go about proving <span class="process-math">\(A\subseteq B\text{.}\)</span> If <span class="process-math">\(A\)</span> happens to be the empty set, then the statement ``For all <span class="process-math">\(x\)</span> (in the universe of discourse), if <span class="process-math">\(x\in A\text{,}\)</span> then <span class="process-math">\(x\in B\)</span>" is vacuously true. This is in agreement with <a href="" class="xref" data-knowl="./knowl/thm_trivial_subsets.html" title="Theorem 3.8">Theorem 3.8</a>(b), which states that the empty set is always a subset of every set. In light of this, it is common to omit discussion of the case when <span class="process-math">\(A\)</span> is the empty set when proving that <span class="process-math">\(A\)</span> is s a subset of <span class="process-math">\(B\text{.}\)</span>
+</div>
+<article class="problem example-like" id="problem-48"><h3 class="heading">
+<span class="type">Problem</span><span class="space"> </span><span class="codenumber">3.9</span><span class="period">.</span>
+</h3>
+<div class="para" id="p-427">Suppose <span class="process-math">\(A\)</span> and <span class="process-math">\(B\)</span> are sets. Describe a skeleton proof for proving that <span class="process-math">\(A\subseteq B\text{.}\)</span>
+</div></article><article class="theorem theorem-like" id="theorem-25"><h3 class="heading">
+<span class="type">Theorem</span><span class="space"> </span><span class="codenumber">3.10</span><span class="period">.</span><span class="space"> </span><span class="title">Transitivity of Subsets.</span>
+</h3>
+<div class="para" id="p-428">Suppose that <span class="process-math">\(A\text{,}\)</span> <span class="process-math">\(B\text{,}\)</span> and <span class="process-math">\(C\)</span> are sets. If <span class="process-math">\(A\subseteq B\)</span> and <span class="process-math">\(B\subseteq C\text{,}\)</span> then <span class="process-math">\(A\subseteq C\text{.}\)</span>
+</div></article><article class="definition definition-like" id="definition-16"><h3 class="heading">
+<span class="type">Definition</span><span class="space"> </span><span class="codenumber">3.11</span><span class="period">.</span>
+</h3>
+<div class="para" id="p-429">Two sets <span class="process-math">\(A\)</span> and <span class="process-math">\(B\)</span> are equal, denoted <span class="process-math">\(\tcboxmath{A=B}\text{,}\)</span> if the sets contain the same elements.</div></article><div class="para" id="p-430">Since the next theorem is a biconditional proposition, you need to write two distinct subproofs, one for “<span class="process-math">\(A=B\)</span> implies <span class="process-math">\(A \subseteq B\)</span> and <span class="process-math">\(B \subseteq A\)</span>”, and another for “<span class="process-math">\(A \subseteq B\)</span> and <span class="process-math">\(B \subseteq A\)</span> implies <span class="process-math">\(A=B\)</span>”. Be sure to make it clear to the reader when you are proving each implication.</div>
+<article class="theorem theorem-like" id="theorem-26"><h3 class="heading">
+<span class="type">Theorem</span><span class="space"> </span><span class="codenumber">3.12</span><span class="period">.</span>
+</h3>
+<div class="para" id="p-431">Suppose that <span class="process-math">\(A\)</span> and <span class="process-math">\(B\)</span> are sets. Then <span class="process-math">\(A=B\)</span> if and only if <span class="process-math">\(A \subseteq B\)</span> and <span class="process-math">\(B \subseteq A\text{.}\)</span>
+</div></article><div class="para" id="p-432">Note that if we want to prove <span class="process-math">\(A=B\text{,}\)</span> then we have to do two separate subproofs: one for <span class="process-math">\(A\subseteq B\)</span> and one for <span class="process-math">\(B\subseteq A\text{.}\)</span> Be sure to make it clear to the reader where these subproofs begin and end. One approach is to label each subproof with “<span class="process-math">\((\subseteq)\)</span>” and “<span class="process-math">\((\supseteq)\)</span>” (including the parentheses), respectively.</div>
+<article class="definition definition-like" id="definition-17"><h3 class="heading">
+<span class="type">Definition</span><span class="space"> </span><span class="codenumber">3.13</span><span class="period">.</span>
+</h3>
+<div class="para" id="p-433">If <span class="process-math">\(A\subseteq B\text{,}\)</span> then <span class="process-math">\(A\)</span> is called a proper subset provided that <span class="process-math">\(A\neq B\text{.}\)</span> In this case, we may write <span class="process-math">\(\tcboxmath{A\subset B}\)</span> or <span class="process-math">\(\tcboxmath{A\subsetneq B}\text{.}\)</span>
+</div></article><div class="para" id="p-434">Note that some authors use <span class="process-math">\(\subset\)</span> to mean <span class="process-math">\(\subseteq\text{,}\)</span> so some confusion could arise if you are not reading carefully.</div>
+<article class="definition definition-like" id="definition-18"><h3 class="heading">
+<span class="type">Definition</span><span class="space"> </span><span class="codenumber">3.14</span><span class="period">.</span>
+</h3>
+<div class="para logical" id="p-435">
+<div class="para">Let <span class="process-math">\(A\)</span> and <span class="process-math">\(B\)</span> be sets in some universe of discourse <span class="process-math">\(U\text{.}\)</span>
+</div>
+<ol class="lower-alpha">
+<li id="li-176"><div class="para" id="p-436">The <em class="emphasis">union</em> of the sets <span class="process-math">\(A\)</span> and <span class="process-math">\(B\)</span> is <span class="process-math">\(\tcboxmath{A \cup B \coloneqq \{x\in U \mid x\in A \mbox{ or } x\in B \}}\text{.}\)</span>
+</div></li>
+<li id="li-177"><div class="para" id="p-437">The <em class="emphasis">intersection</em> of the sets <span class="process-math">\(A\)</span> and <span class="process-math">\(B\)</span> is <span class="process-math">\(\tcboxmath{A \cap B \coloneqq\{x\in U \mid x\in A \mbox{ and } x\in B \}}\text{.}\)</span>
+</div></li>
+<li id="li-178"><div class="para" id="p-438">The <em class="emphasis">set difference</em> of the sets <span class="process-math">\(A\)</span> and <span class="process-math">\(B\)</span> is <span class="process-math">\(\tcboxmath{A \setminus B \coloneqq\{x\in U \mid x\in A \mbox{ and } x\notin B \}}\text{.}\)</span>
+</div></li>
+<li id="li-179"><div class="para" id="p-439">The <em class="emphasis">complement of <span class="process-math">\(A\)</span></em> (relative to <span class="process-math">\(U\)</span>) is the set <span class="process-math">\(\tcboxmath{A^c\coloneqq U \setminus A =\{x \in U \mid x \notin A\}}\text{.}\)</span>
+</div></li>
+</ol>
+</div></article><article class="definition definition-like" id="definition-19"><h3 class="heading">
+<span class="type">Definition</span><span class="space"> </span><span class="codenumber">3.15</span><span class="period">.</span>
+</h3>
+<div class="para" id="p-440">If two sets <span class="process-math">\(A\)</span> and <span class="process-math">\(B\)</span> have the property that <span class="process-math">\(A \cap B = \emptyset\text{,}\)</span> then we say that <span class="process-math">\(A\)</span> and <span class="process-math">\(B\)</span> are disjoint sets.</div></article><article class="problem example-like" id="problem-49"><h3 class="heading">
+<span class="type">Problem</span><span class="space"> </span><span class="codenumber">3.16</span><span class="period">.</span>
+</h3>
+<div class="para logical" id="p-441">
+<div class="para">Suppose that the universe of discourse is <span class="process-math">\(U=\{1,2,3,4,5,6,7,8,9,10\}\text{.}\)</span> Let <span class="process-math">\(A=\{1, 2, 3, 4, 5\}\text{,}\)</span> <span class="process-math">\(B=\{1, 3, 5\}\text{,}\)</span> and <span class="process-math">\(C=\{2, 4, 6, 8\}\text{.}\)</span> Find each of the following.</div>
+<ol class="lower-alpha">
+<li id="li-180"><div class="para" id="p-442"><span class="process-math">\(\displaystyle A \cap C\)</span></div></li>
+<li id="li-181"><div class="para" id="p-443"><span class="process-math">\(\displaystyle B \cap C\)</span></div></li>
+<li id="li-182"><div class="para" id="p-444"><span class="process-math">\(\displaystyle A \cup B\)</span></div></li>
+<li id="li-183"><div class="para" id="p-445"><span class="process-math">\(\displaystyle A\setminus B\)</span></div></li>
+<li id="li-184"><div class="para" id="p-446"><span class="process-math">\(\displaystyle B \setminus A\)</span></div></li>
+<li id="li-185"><div class="para" id="p-447"><span class="process-math">\(\displaystyle C \setminus B\)</span></div></li>
+<li id="li-186"><div class="para" id="p-448"><span class="process-math">\(\displaystyle B^c\)</span></div></li>
+<li id="li-187"><div class="para" id="p-449"><span class="process-math">\(\displaystyle A^c\)</span></div></li>
+<li id="li-188"><div class="para" id="p-450"><span class="process-math">\(\displaystyle (A\cup B)^c\)</span></div></li>
+<li id="li-189"><div class="para" id="p-451"><span class="process-math">\(\displaystyle A^c\cap B^c\)</span></div></li>
+</ol>
+</div></article><article class="problem example-like" id="problem-50"><h3 class="heading">
+<span class="type">Problem</span><span class="space"> </span><span class="codenumber">3.17</span><span class="period">.</span>
+</h3>
+<div class="para logical" id="p-452">
+<div class="para">Suppose that the universe of discourse is <span class="process-math">\(U=\mathbb{R}\text{.}\)</span> Let <span class="process-math">\(A=[-3,-1)\text{,}\)</span> <span class="process-math">\(B=(-2.5,2)\text{,}\)</span> and <span class="process-math">\(C=(-2,0]\text{.}\)</span> Find each of the following.</div>
+<ol class="lower-alpha">
+<li id="li-190"><div class="para" id="p-453"><span class="process-math">\(\displaystyle A^c\)</span></div></li>
+<li id="li-191"><div class="para" id="p-454"><span class="process-math">\(\displaystyle A \cap C\)</span></div></li>
+<li id="li-192"><div class="para" id="p-455"><span class="process-math">\(\displaystyle A \cap B\)</span></div></li>
+<li id="li-193"><div class="para" id="p-456"><span class="process-math">\(\displaystyle A \cup B\)</span></div></li>
+<li id="li-194"><div class="para" id="p-457"><span class="process-math">\(\displaystyle (A\cap B)^c\)</span></div></li>
+<li id="li-195"><div class="para" id="p-458"><span class="process-math">\(\displaystyle (A\cup B)^c\)</span></div></li>
+<li id="li-196"><div class="para" id="p-459"><span class="process-math">\(\displaystyle A \setminus B\)</span></div></li>
+<li id="li-197"><div class="para" id="p-460"><span class="process-math">\(\displaystyle A\setminus (B \cup C)\)</span></div></li>
+<li id="li-198"><div class="para" id="p-461"><span class="process-math">\(\displaystyle B \setminus A\)</span></div></li>
+</ol>
+</div></article><article class="problem example-like" id="problem-51"><h3 class="heading">
+<span class="type">Problem</span><span class="space"> </span><span class="codenumber">3.18</span><span class="period">.</span>
+</h3>
+<div class="para logical" id="p-462">
+<div class="para">Suppose that the universe of discourse is <span class="process-math">\(U=\{x,y, z, \{y\}, \{x,z\}\}\text{.}\)</span> Let <span class="process-math">\(S=\{x,y,z\}\)</span> and <span class="process-math">\(T=\{x,\{y\}\}\text{.}\)</span> Find each of the following.</div>
+<ol class="lower-alpha">
+<li id="li-199"><div class="para" id="p-463"><span class="process-math">\(\displaystyle S \cap T\)</span></div></li>
+<li id="li-200"><div class="para" id="p-464"><span class="process-math">\(\displaystyle (S\cup T)^{c}\)</span></div></li>
+<li id="li-201"><div class="para" id="p-465"><span class="process-math">\(\displaystyle T\setminus S\)</span></div></li>
+</ol>
+</div></article><article class="theorem theorem-like" id="theorem-27"><h3 class="heading">
+<span class="type">Theorem</span><span class="space"> </span><span class="codenumber">3.19</span><span class="period">.</span>
+</h3>
+<div class="para" id="p-466">If <span class="process-math">\(A\)</span> and <span class="process-math">\(B\)</span> are sets such that <span class="process-math">\(A \subseteq B\text{,}\)</span> then <span class="process-math">\(B^c \subseteq A^c\text{.}\)</span>
+</div></article><article class="theorem theorem-like" id="theorem-28"><h3 class="heading">
+<span class="type">Theorem</span><span class="space"> </span><span class="codenumber">3.20</span><span class="period">.</span>
+</h3>
+<div class="para" id="p-467">If <span class="process-math">\(A\)</span> and <span class="process-math">\(B\)</span> are sets, then <span class="process-math">\(A\setminus B = A \cap B^c\text{.}\)</span>
+</div></article><div class="para" id="p-468">In <a href="chap_IntroToMath.html" class="internal" title="Chapter 2: Mathematics and Logic">Chapter 2</a>, we encountered De Morgan’s Law (see <a href="" class="xref" data-knowl="./knowl/thm_De_Morgan.html" title="Theorem 2.26: De Morgan’s Law">Theorem 2.26</a> and <a href="" class="xref" data-knowl="./knowl/prob_De_Morgan.html" title="Problem 2.27: De Morgan’s Law">Problem 2.27</a>), which provided a method for negating compound propositions involving conjunctions and disjunctions. The next theorem provides a method for taking the complement of unions and intersections of sets. This result is also known as De Morgan’s Law. Do you see why?</div>
+<article class="theorem theorem-like" id="theorem-29"><h3 class="heading">
+<span class="type">Theorem</span><span class="space"> </span><span class="codenumber">3.21</span><span class="period">.</span><span class="space"> </span><span class="title">De Morgan’s Law.</span>
+</h3>
+<div class="para logical" id="p-469">
+<div class="para">If <span class="process-math">\(A\)</span> and <span class="process-math">\(B\)</span> are sets, then</div>
+<ol class="lower-alpha">
+<li id="li-202"><div class="para" id="p-470">
+<span class="process-math">\((A \cup B)^c = A^c \cap B^c\text{,}\)</span> and</div></li>
+<li id="li-203"><div class="para" id="p-471"><span class="process-math">\((A \cap B)^c = A^c \cup B^c\text{.}\)</span></div></li>
+</ol>
+</div></article><div class="para" id="p-472">The next theorem indicates how intersections and unions interact with each other.</div>
+<article class="theorem theorem-like" id="theorem-30"><h3 class="heading">
+<span class="type">Theorem</span><span class="space"> </span><span class="codenumber">3.22</span><span class="period">.</span><span class="space"> </span><span class="title">Distribution of Union and Intersection.</span>
+</h3>
+<div class="para logical" id="p-473">
+<div class="para">If <span class="process-math">\(A\text{,}\)</span> <span class="process-math">\(B\text{,}\)</span> and <span class="process-math">\(C\)</span> are sets, then</div>
+<ol class="lower-alpha">
+<li id="li-204"><div class="para" id="p-474">
+<span class="process-math">\(A \cup(B\cap C) = (A\cup B)\cap (A\cup C)\text{,}\)</span> and</div></li>
+<li id="li-205"><div class="para" id="p-475"><span class="process-math">\(A\cap (B\cup C)= (A\cap B)\cup (A\cap C)\text{.}\)</span></div></li>
+</ol>
+</div></article><article class="problem example-like" id="problem-52"><h3 class="heading">
+<span class="type">Problem</span><span class="space"> </span><span class="codenumber">3.23</span><span class="period">.</span>
+</h3>
+<div class="para" id="p-476">For each of the statements (a)–(d) on the left, find an equivalent symbolic proposition chosen from the list (i)–(v) on the right. Note that not every statement on the right will get used.</div> <div class="tabular-box natural-width"><table class="tabular"><tr>
+<td class="l m b0 r0 l0 t0 lines"><ol class="lower-alpha">
+<li id="li-206"><div class="para" id="p-477"><span class="process-math">\(A \nsubseteq B\text{.}\)</span></div></li>
+<li id="li-207"><div class="para" id="p-478"><span class="process-math">\(A \cap B= \emptyset\text{.}\)</span></div></li>
+<li id="li-208"><div class="para" id="p-479"><span class="process-math">\((A \cup B)^{c} \neq \emptyset\text{.}\)</span></div></li>
+<li id="li-209"><div class="para" id="p-480"><span class="process-math">\((A \cap B)^{c} = \emptyset\text{.}\)</span></div></li>
+</ol></td>
+<td class="l m b0 r0 l0 t0 lines"><ol class="lower-alpha">
+<li id="li-210"><div class="para" id="p-481"><span class="process-math">\(\displaystyle (\forall x)(x \in A \wedge x \in B)\)</span></div></li>
+<li id="li-211"><div class="para" id="p-482"><span class="process-math">\(\displaystyle (\forall x)(x \in A \implies x \notin B)\)</span></div></li>
+<li id="li-212"><div class="para" id="p-483"><span class="process-math">\(\displaystyle (\exists x)(x \notin A \wedge x \notin B)\)</span></div></li>
+<li id="li-213"><div class="para" id="p-484"><span class="process-math">\(\displaystyle (\exists x)(x \in A \vee x \in B)\)</span></div></li>
+<li id="li-214"><div class="para" id="p-485"><span class="process-math">\(\displaystyle (\exists x)(x \in A \wedge x\notin B)\)</span></div></li>
+</ol></td>
+</tr></table></div></article><div class="para" id="p-486">\epigraph{In mathematics the art of proposing a question must be held of higher value than solving it.}{Georg Cantor, mathematician}</div></section></div>
+<div class="ptx-content-footer">
+<a class="previous-button button" href="chap_SetTheory.html" title="Previous"><span class="icon">&lt;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon">^</span><span class="name">Top</span></a><a class="next-button button" href="sec_RussellsParadox.html" title="Next"><span class="name">Next</span><span class="icon">&gt;</span></a>
+</div></main>
+</div>
+<div id="ptx-page-footer" class="ptx-page-footer">
+<a class="pretext-link" href="https://pretextbook.org" title="PreTeXt"><div class="logo"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="338 3000 8772 6866"><g style="stroke-width:.025in; stroke:black; fill:none"><polyline points="472,3590 472,9732 " style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round; "></polyline><path style="stroke:#000000;stroke-width:126;stroke-linecap:butt;" d="M 4724,9448 A 4660 4660  0  0  1  8598  9259"></path><path style="stroke:#000000;stroke-width:174;stroke-linecap:butt;" d="M 4488,9685 A 4228 4228  0  0  0   472  9732"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:butt;" d="M 4724,3590 A 4241 4241  0  0  1  8598  3496"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:round;" d="M 850,3496  A 4241 4241  0  0  1  4724  3590"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:round;" d="M 850,9259  A 4507 4507  0  0  1  4724  9448"></path><polyline points="5385,4299 4062,8125" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8598,3496 8598,9259" style="stroke:#000000;stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="850,3496 850,9259" style="stroke:#000000;stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="4960,9685 4488,9685" style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="3070,4582 1889,6141 3070,7700" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="6418,4582 7600,6141 6418,7700" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8976,3590 8976,9732" style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><path style="stroke:#000000;stroke-width:174;stroke-linecap:butt;" d="M 4960,9685 A 4228 4228  0  0  1  8976  9732"></path></g></svg></div></a><a class="runestone-link" href="https://runestone.academy" title="Runestone Academy"><img class="logo" src="https://runestone.academy/runestone/static/images/RAIcon_cropped.png"></a><a class="mathjax-link" href="https://www.mathjax.org" title="MathJax"><img class="logo" src="https://www.mathjax.org/badge/badge-square-2.png"></a>
+</div>
+</body>
+</html>

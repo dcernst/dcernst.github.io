@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<!--********************************************-->
+<!--*       Generated from PreTeXt source      *-->
+<!--*                                          *-->
+<!--*         https://pretextbook.org          *-->
+<!--*                                          *-->
+<!--********************************************-->
+<html lang="en-US" dir="ltr">
+<head xmlns:og="http://ogp.me/ns#" xmlns:book="https://ogp.me/ns/book#">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Cartesian Products of Sets</title>
+<meta name="Keywords" content="Authored in PreTeXt">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:type" content="book">
+<meta property="book:title" content="An Introduction to Proof via Inquiry-Based Learning">
+<meta property="book:author" content="Dana C. Ernst, PhD">
+<script>
+var runestoneMathReady = new Promise((resolve) => window.rsMathReady = resolve);
+window.MathJax = {
+  "tex": {
+    "inlineMath": [
+      [
+        "\\(",
+        "\\)"
+      ]
+    ],
+    "tags": "none",
+    "tagSide": "right",
+    "tagIndent": ".8em",
+    "packages": {
+      "[+]": [
+        "base",
+        "extpfeil",
+        "ams",
+        "amscd",
+        "color",
+        "newcommand",
+        "knowl"
+      ]
+    }
+  },
+  "options": {
+    "ignoreHtmlClass": "tex2jax_ignore|ignore-math",
+    "processHtmlClass": "process-math"
+  },
+  "chtml": {
+    "scale": 0.98,
+    "mtextInheritFont": true
+  },
+  "loader": {
+    "load": [
+      "input/asciimath",
+      "[tex]/extpfeil",
+      "[tex]/amscd",
+      "[tex]/color",
+      "[tex]/newcommand",
+      "[pretext]/mathjaxknowl3.js"
+    ],
+    "paths": {
+      "pretext": "https://pretextbook.org/js/lib"
+    }
+  },
+  "startup": {
+    pageReady() {
+      return MathJax.startup.defaultPageReady().then(function () {
+      console.log("in ready function");
+      rsMathReady();
+      }
+    )}
+  }
+};
+</script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="https://pretextbook.org/js/0.3/pretext_search.js"></script><link href="https://pretextbook.org/css/0.7/pretext_search.css" rel="stylesheet" type="text/css">
+<script>js_version = 0.3</script><script src="https://pretextbook.org/js/lib/jquery.min.js"></script><script src="https://pretextbook.org/js/lib/jquery.sticky.js"></script><script src="https://pretextbook.org/js/lib/jquery.espy.min.js"></script><script src="https://pretextbook.org/js/0.3/pretext.js"></script><script>miniversion=0.1</script><script src="https://pretextbook.org/js/0.3/pretext_add_on.js?x=1"></script><script src="https://pretextbook.org/js/0.3/user_preferences.js"></script><script src="https://pretextbook.org/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
+</script><link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&amp;family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&amp;family=Tinos:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.cdnfonts.com/css/dejavu-serif" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz,wdth,wght@8..144,50..150,100..900&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wdth,wght@75..100,300..800&amp;display=swap" rel="stylesheet">
+<link href="https://pretextbook.org/css/0.7/pretext.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.7/pretext_add_on.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.7/shell_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.7/banner_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.7/navbar_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.7/toc_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.7/knowls_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.7/style_oscarlevin.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.7/colors_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.7/setcolors.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" href="external/custom-styles.css">
+</head>
+<body class="pretext book ignore-math">
+<a class="assistive" href="#ptx-content">Skip to main content</a><header id="ptx-masthead" class="ptx-masthead"><div class="ptx-banner">
+<a id="logo-link" class="logo-link" href=""></a><div class="title-container">
+<h1 class="heading"><a href="book-1.html"><span class="title">An Introduction to Proof via Inquiry-Based Learning</span></a></h1>
+<p class="byline">Dana C. Ernst, PhD</p>
+</div>
+<div id="searchresultsplaceholder" class="searchresultsplaceholder" style="display: none">
+<button id="closesearchresults" class="closesearchresults" onclick="document.getElementById('searchresultsplaceholder').style.display = 'none'; return false;">x</button><h2>Search Results: <span id="searchterms" class="searchterms"></span>
+</h2>
+<div id="searchempty" class="searchempty"><span>No results.</span></div>
+<ol id="searchresults" class="searchresults"></ol>
+</div>
+</div></header><nav id="ptx-navbar" class="ptx-navbar navbar"><button class="toc-toggle button" aria-label="Show or hide table of contents"><span class="icon">☰</span><span class="name">Contents</span></button><button id="user-preferences-button" class="user-preferences-button button" title="Modify user preferences"><span id="avatarbutton" class="avatarbutton name">You!</span><div id="preferences_menu_holder" class="preferences_menu_holder hidden"><ol id="preferences_menu" class="preferences_menu" style="font-family: 'Roboto Serif', serif;">
+<li data-env="avatar" tabindex="-1">Choose avatar<div class="wrap_to_submenu"><span class="to_submenu">▻</span></div>
+<ol class="hidden avatar">
+<li data-val="You!" tabindex="-1">
+<span id="theYou!" class="avatarcheck">✔️</span>You!</li>
+<li data-val="😺" tabindex="-1">
+<span id="the😺" class="avatarcheck"></span>😺</li>
+<li data-val="👤" tabindex="-1">
+<span id="the👤" class="avatarcheck"></span>👤</li>
+<li data-val="👽" tabindex="-1">
+<span id="the👽" class="avatarcheck"></span>👽</li>
+<li data-val="🐶" tabindex="-1">
+<span id="the🐶" class="avatarcheck"></span>🐶</li>
+<li data-val="🐼" tabindex="-1">
+<span id="the🐼" class="avatarcheck"></span>🐼</li>
+<li data-val="🌈" tabindex="-1">
+<span id="the🌈" class="avatarcheck"></span>🌈</li>
+</ol>
+</li>
+<li data-env="fontfamily" tabindex="-1">Font family<div class="wrap_to_submenu"><span class="to_submenu">▻</span></div>
+<ol class="hidden fontfamily">
+<li data-val="face" data-change="OS" tabindex="-1" style="font-family: 'Open Sans'">
+<span id="theOS" class="ffcheck">✔️</span><span class="name">Open Sans</span><span class="sample">AaBbCc 123 PreTeXt</span>
+</li>
+<li data-val="face" data-change="RS" tabindex="-1" style="font-family: 'Roboto Serif'">
+<span id="theRS" class="ffcheck"></span><span class="name">Roboto Serif</span><span class="sample">AaBbCc 123 PreTeXt</span>
+</li>
+</ol>
+</li>
+<li data-env="font" tabindex="-1">Adjust font<div class="wrap_to_submenu"><span class="to_submenu">▻</span></div>
+<ol class="hidden fonts">
+<li>Size</li>
+<li><span id="thesize">12</span></li>
+<li data-val="size" data-change="-1" tabindex="-1" style="font-size: 80%">Smaller</li>
+<li data-val="size" data-change="1" tabindex="-1" style="font-size: 110%">Larger</li>
+<li>Width</li>
+<li><span id="thewdth">100</span></li>
+<li data-val="wdth" data-change="-5" tabindex="-1" style="font-variation-settings: 'wdth' 60">narrower</li>
+<li data-val="wdth" data-change="5" tabindex="-1" style="font-variation-settings: 'wdth' 150">wider</li>
+<li>Weight</li>
+<li><span id="thewght">400</span></li>
+<li data-val="wght" data-change="-50" tabindex="-1" style="font-weight: 200">thinner</li>
+<li data-val="wght" data-change="50" tabindex="-1" style="font-weight: 700">heavier</li>
+<li>Letter spacing</li>
+<li>
+<span id="thelspace">0</span><span class="byunits">/200</span>
+</li>
+<li data-val="lspace" data-change="-1" tabindex="-1">closer</li>
+<li data-val="lspace" data-change="1" tabindex="-1">f a r t h e r</li>
+<li>Word spacing</li>
+<li>
+<span id="thewspace">0</span><span class="byunits">/50</span>
+</li>
+<li data-val="wspace" data-change="-1" tabindex="-1">smaller gap </li>
+<li data-val="wspace" data-change="1" tabindex="-1">larger gap</li>
+<li>Line Spacing</li>
+<li>
+<span id="theheight">135</span><span class="byunits">/100</span>
+</li>
+<li data-val="height" data-change="-5" tabindex="-1" style="line-height: 1">closer<br>together</li>
+<li data-val="height" data-change="5" tabindex="-1" style="line-height: 1.75">further<br>apart</li>
+</ol>
+</li>
+<li data-env="atmosphere" tabindex="-1">Light/dark mode<div class="wrap_to_submenu"><span class="to_submenu">▻</span></div>
+<ol class="hidden atmosphere">
+<li data-val="default" tabindex="-1">
+<span id="thedefault" class="atmospherecheck">✔️</span>default</li>
+<li data-val="pastel" tabindex="-1">
+<span id="thepastel" class="atmospherecheck"></span>pastel</li>
+<li data-val="darktwilight" tabindex="-1">
+<span id="thedarktwilight" class="atmospherecheck"></span>twilight</li>
+<li data-val="dark" tabindex="-1">
+<span id="thedark" class="atmospherecheck"></span>dark</li>
+<li data-val="darkmidnight" tabindex="-1">
+<span id="thedarkmidnight" class="atmospherecheck"></span>midnight</li>
+</ol>
+</li>
+<li data-env="ruler" tabindex="-1">Reading ruler<div class="wrap_to_submenu"><span class="to_submenu">▻</span></div>
+<ol class="hidden ruler">
+<li data-val="none" tabindex="-1">
+<span id="thenone" class="rulercheck">✔️</span>none</li>
+<li data-val="underline" tabindex="-1">
+<span id="theunderline" class="rulercheck"></span>underline</li>
+<li data-val="lunderline" tabindex="-1">
+<span id="thelunderline" class="rulercheck"></span>L-underline</li>
+<li data-val="greybar" tabindex="-1">
+<span id="thegreybar" class="rulercheck"></span>grey bar</li>
+<li data-val="lightbox" tabindex="-1">
+<span id="thelightbox" class="rulercheck"></span>light box</li>
+<li data-val="sunrise" tabindex="-1">
+<span id="thesunrise" class="rulercheck"></span>sunrise</li>
+<li data-val="sunriseunderline" tabindex="-1">
+<span id="thesunriseunderline" class="rulercheck"></span>sunrise underline</li>
+<li class="moveQ">Motion by:</li>
+<li data-val="mouse" tabindex="-1">
+<span id="themouse" class="motioncheck">✔️</span>follow the mouse</li>
+<li data-val="arrow" tabindex="-1">
+<span id="thearrow" class="motioncheck"></span>up/down arrows - not yet</li>
+<li data-val="eye" tabindex="-1">
+<span id="theeye" class="motioncheck"></span>eye tracking - not yet</li>
+</ol>
+</li>
+</ol></div></button><span class="treebuttons"><a class="previous-button button" href="sec_Indexing_Sets.html" title="Previous"><span class="icon">&lt;</span><span class="name">Prev</span></a><a class="up-button button" href="chap_SetTheory.html" title="Up"><span class="icon">^</span><span class="name">Up</span></a><a class="next-button button" href="chap_Induction.html" title="Next"><span class="name">Next</span><span class="icon">&gt;</span></a></span><div class="searchbox"><div class="searchwidget">
+<input id="ptxsearch" class="ptxsearch" type="text" name="terms" placeholder="Search" onchange="doSearch()"><button id="searchbutton" class="searchbutton" type="button" onclick="doSearch()">🔍</button>
+</div></div></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\newcommand{\dom}{\operatorname{Dom}}
+\newcommand{\codom}{\operatorname{Codom}}
+\newcommand{\range}{\operatorname{Rng}}
+\newcommand{\lcm}{\operatorname{lcm}}
+\newcommand{\card}{\operatorname{card}}
+\newcommand{\rel}{\operatorname{rel}}
+\newcommand{\Rel}{\operatorname{Rel}}
+\newcommand{\logeq}{\Longleftrightarrow}
+\renewcommand{\implies}{\Longrightarrow}
+
+\def\tcboxmath{}
+\def\coloneqq{:=}
+\newcommand{\lt}{&lt;}
+\newcommand{\gt}{&gt;}
+\newcommand{\amp}{&amp;}
+\definecolor{fillinmathshade}{gray}{0.9}
+\newcommand{\fillinmath}[1]{\mathchoice{\colorbox{fillinmathshade}{$\displaystyle     \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\textstyle        \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptstyle      \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptscriptstyle\phantom{\,#1\,}$}}}
+\)</span></div>
+<div class="ptx-page">
+<div id="ptx-sidebar" class="ptx-sidebar"><nav id="ptx-toc" class="ptx-toc depth2"><ul class="structural">
+<li>
+<div class="toc-item"><a href="frontmatter-1.html" class="internal"><span class="title">Front Matter</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="colophon.html" class="internal"><span class="title">Colophon</span></a></div></li>
+<li><div class="toc-item"><a href="chap_preface.html" class="internal"><span class="title">Preface</span></a></div></li>
+<li><div class="toc-item"><a href="chap_acknowledgements.html" class="internal"><span class="title">Acknowledgements</span></a></div></li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="chap_intro.html" class="internal"><span class="codenumber">1</span> <span class="title">Introduction</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="sec_WhatIsThisBookAllAbout.html" class="internal"><span class="codenumber">1.1</span> <span class="title">What is This Book All About?</span></a></div></li>
+<li><div class="toc-item"><a href="sec_what_should_you_expect.html" class="internal"><span class="codenumber">1.2</span> <span class="title">What Should You Expect?</span></a></div></li>
+<li><div class="toc-item"><a href="sec_IBLApproach.html" class="internal"><span class="codenumber">1.3</span> <span class="title">An Inquiry-Based Approach</span></a></div></li>
+<li><div class="toc-item"><a href="sec_Structure.html" class="internal"><span class="codenumber">1.4</span> <span class="title">Structure of the Textbook</span></a></div></li>
+<li><div class="toc-item"><a href="sec_guidance.html" class="internal"><span class="codenumber">1.5</span> <span class="title">Some Minimal Guidance</span></a></div></li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="chap_IntroToMath.html" class="internal"><span class="codenumber">2</span> <span class="title">Mathematics and Logic</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="sec_baby_number_theory.html" class="internal"><span class="codenumber">2.1</span> <span class="title">A Taste of Number Theory</span></a></div></li>
+<li><div class="toc-item"><a href="sec_Intro_to_Logic.html" class="internal"><span class="codenumber">2.2</span> <span class="title">Introduction to Logic</span></a></div></li>
+<li><div class="toc-item"><a href="sec_Techniques_for_Proving_Conditional_Propositions.html" class="internal"><span class="codenumber">2.3</span> <span class="title">Techniques for Proving Conditional Propositions</span></a></div></li>
+<li><div class="toc-item"><a href="sec_Introduction_to_Quantification.html" class="internal"><span class="codenumber">2.4</span> <span class="title">Introduction to Quantification</span></a></div></li>
+<li><div class="toc-item"><a href="sec_More_About_Quantification.html" class="internal"><span class="codenumber">2.5</span> <span class="title">More About Quantification</span></a></div></li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="chap_SetTheory.html" class="internal"><span class="codenumber">3</span> <span class="title">Set Theory</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="sec_Sets.html" class="internal"><span class="codenumber">3.1</span> <span class="title">Sets</span></a></div></li>
+<li><div class="toc-item"><a href="sec_RussellsParadox.html" class="internal"><span class="codenumber">3.2</span> <span class="title">Russell’s Paradox</span></a></div></li>
+<li><div class="toc-item"><a href="sec_PowerSets.html" class="internal"><span class="codenumber">3.3</span> <span class="title">Power Sets</span></a></div></li>
+<li><div class="toc-item"><a href="sec_Indexing_Sets.html" class="internal"><span class="codenumber">3.4</span> <span class="title">Indexing Sets</span></a></div></li>
+<li class="active"><div class="toc-item"><a href="sec_Cartesian_Products.html" class="internal"><span class="codenumber">3.5</span> <span class="title">Cartesian Products of Sets</span></a></div></li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="chap_Induction.html" class="internal"><span class="codenumber">4</span> <span class="title">Induction</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="sec_Intro_to_Induction.html" class="internal"><span class="codenumber">4.1</span> <span class="title">Introduction to Induction</span></a></div></li>
+<li><div class="toc-item"><a href="sec_More_on_Induction.html" class="internal"><span class="codenumber">4.2</span> <span class="title">More on Induction</span></a></div></li>
+<li><div class="toc-item"><a href="sec_CompleteInduction.html" class="internal"><span class="codenumber">4.3</span> <span class="title">Complete Induction</span></a></div></li>
+<li><div class="toc-item"><a href="sec_WOP.html" class="internal"><span class="codenumber">4.4</span> <span class="title">The Well-Ordering Principle</span></a></div></li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="chap_RealNumbers.html" class="internal"><span class="codenumber">5</span> <span class="title">The Real Numbers</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="sec_AxiomsRealNumbers.html" class="internal"><span class="codenumber">5.1</span> <span class="title">Axioms of the Real Numbers</span></a></div></li>
+<li><div class="toc-item"><a href="sec_Topology.html" class="internal"><span class="codenumber">5.2</span> <span class="title">Standard Topology of the Real Line</span></a></div></li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="chap_ThreeFamousTheorems.html" class="internal"><span class="codenumber">6</span> <span class="title">Three Famous Theorems</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="sec_FTA.html" class="internal"><span class="codenumber">6.1</span> <span class="title">The Fundamental Theorem of Arithmetic</span></a></div></li>
+<li><div class="toc-item"><a href="sec_Irrationality_of_Root_2.html" class="internal"><span class="codenumber">6.2</span> <span class="title">The Irrationality of <span class="process-math">\(\sqrt{2}\)</span></span></a></div></li>
+<li><div class="toc-item"><a href="sec_Infinitude_of_Primes.html" class="internal"><span class="codenumber">6.3</span> <span class="title">The Infinitude of Primes</span></a></div></li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="chap_Relations_and_Partitions.html" class="internal"><span class="codenumber">7</span> <span class="title">Relations and Partitions</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="sec_Relations.html" class="internal"><span class="codenumber">7.1</span> <span class="title">Relations</span></a></div></li>
+<li><div class="toc-item"><a href="sec_Equivalence_Relations.html" class="internal"><span class="codenumber">7.2</span> <span class="title">Equivalence Relations</span></a></div></li>
+<li><div class="toc-item"><a href="sec_Partitions.html" class="internal"><span class="codenumber">7.3</span> <span class="title">Partitions</span></a></div></li>
+<li><div class="toc-item"><a href="sec_ModularArithmetic.html" class="internal"><span class="codenumber">7.4</span> <span class="title">Modular Arithmetic</span></a></div></li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="chap_Functions.html" class="internal"><span class="codenumber">8</span> <span class="title">Functions</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="sec_Intro_to_Functions.html" class="internal"><span class="codenumber">8.1</span> <span class="title">Introduction to Functions</span></a></div></li>
+<li><div class="toc-item"><a href="sec_Injective_and_Surjective_Functions.html" class="internal"><span class="codenumber">8.2</span> <span class="title">Injective and Surjective Functions</span></a></div></li>
+<li><div class="toc-item"><a href="sec_Compositions_and_Inverse_Functions.html" class="internal"><span class="codenumber">8.3</span> <span class="title">Compositions and Inverse Functions</span></a></div></li>
+<li><div class="toc-item"><a href="sec_Images_and_Preimages.html" class="internal"><span class="codenumber">8.4</span> <span class="title">Images and Preimages of Functions</span></a></div></li>
+<li><div class="toc-item"><a href="sec_Continuity.html" class="internal"><span class="codenumber">8.5</span> <span class="title">Continuous Real Functions</span></a></div></li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="chap_Cardinality.html" class="internal"><span class="codenumber">9</span> <span class="title">Cardinality</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="sec_Intro_to_Cardinality.html" class="internal"><span class="codenumber">9.1</span> <span class="title">Introduction to Cardinality</span></a></div></li>
+<li><div class="toc-item"><a href="sec_Finite_Sets.html" class="internal"><span class="codenumber">9.2</span> <span class="title">Finite Sets</span></a></div></li>
+<li><div class="toc-item"><a href="sec_Infinite_Sets.html" class="internal"><span class="codenumber">9.3</span> <span class="title">Infinite Sets</span></a></div></li>
+<li><div class="toc-item"><a href="sec_Countable_Sets.html" class="internal"><span class="codenumber">9.4</span> <span class="title">Countable Sets</span></a></div></li>
+<li><div class="toc-item"><a href="sec_Uncountable_Sets.html" class="internal"><span class="codenumber">9.5</span> <span class="title">Uncountable Sets</span></a></div></li>
+</ul>
+</li>
+<li><div class="toc-item"><a href="appendix_elements_of_style.html" class="internal"><span class="codenumber">A</span> <span class="title">Elements of Style for Proofs</span></a></div></li>
+<li><div class="toc-item"><a href="appendix_fancy_math_terms.html" class="internal"><span class="codenumber">B</span> <span class="title">Fancy Mathematical Terms</span></a></div></li>
+<li><div class="toc-item"><a href="appendix_paradoxes.html" class="internal"><span class="codenumber">C</span> <span class="title">Paradoxes</span></a></div></li>
+<li><div class="toc-item"><a href="appendix_definitions.html" class="internal"><span class="codenumber">D</span> <span class="title">Definitions in Mathematics</span></a></div></li>
+</ul></nav></div>
+<main class="ptx-main"><div id="ptx-content" class="ptx-content">
+<section class="section" id="sec_Cartesian_Products"><h2 class="heading hide-type">
+<span class="type">Section</span> <span class="codenumber">3.5</span> <span class="title">Cartesian Products of Sets</span>
+</h2>
+<div class="para" id="p-565">Given a collection of sets, we can form new sets by taking unions, intersections, complements, and set differences. In this section, we introduce a type of “product” of sets. You have already encountered this concept when you learned to plot points in the plane. You also crossed paths with this notion if you have taken a course in linear algebra.</div>
+<article class="definition definition-like" id="definition-23"><h3 class="heading">
+<span class="type">Definition</span><span class="space"> </span><span class="codenumber">3.44</span><span class="period">.</span>
+</h3>
+<div class="para" id="p-566">For each <span class="process-math">\(n\in \mathbb{N}\text{,}\)</span> we define an <span class="process-math">\(n\)</span>-tuple to be an ordered list of <span class="process-math">\(n\)</span> elements of the form <span class="process-math">\(\tcboxmath{(a_1, a_2,\ldots,a_n)}\text{.}\)</span> We refer to <span class="process-math">\(a_i\)</span> as the <span class="process-math">\(i\)</span>th component (or coordinate) of <span class="process-math">\((a_1, a_2,\ldots,a_n)\text{.}\)</span> Two <span class="process-math">\(n\)</span>-tuples <span class="process-math">\((a_1, a_2,\ldots,a_n)\)</span> and <span class="process-math">\((b_1, b_2,\ldots,b_n)\)</span> are equal if <span class="process-math">\(a_i=b_i\)</span> for all <span class="process-math">\(1\leq i\leq n\text{.}\)</span> A <span class="process-math">\(2\)</span>-tuple <span class="process-math">\((a,b)\)</span> is more commonly referred to as an ordered pair while a <span class="process-math">\(3\)</span>-tuple <span class="process-math">\((a,b,c)\)</span> is often called an ordered triple.</div></article><div class="para" id="p-567">Occasionally, other symbols are used to surround the components of an <span class="process-math">\(n\)</span>-tuple, such as square brackets “<span class="process-math">\([\ ]\)</span>” or angle brackets “<span class="process-math">\(\langle\ \rangle\)</span>”. In some programming languages, curly braces “<span class="process-math">\(\{\ \}\)</span>” are used to specify arrays. However, we avoid this convention in mathematics since curly braces are the standard notation for sets. The term “tuple” can also occur when discussing other mathematical objects, such as vectors.</div>
+<div class="para" id="p-568">We can use the notion of <span class="process-math">\(n\)</span>-tuples to construct new sets from existing sets.</div>
+<article class="definition definition-like" id="definition-24"><h3 class="heading">
+<span class="type">Definition</span><span class="space"> </span><span class="codenumber">3.45</span><span class="period">.</span>
+</h3>
+<div class="para logical" id="p-569">
+<div class="para">If <span class="process-math">\(A\)</span> and <span class="process-math">\(B\)</span> are sets, the Cartesian product (or direct product) of <span class="process-math">\(A\)</span> and <span class="process-math">\(B\text{,}\)</span> denoted <span class="process-math">\(A\times B\)</span> (read as “<span class="process-math">\(A\)</span> times <span class="process-math">\(B\)</span>” or “<span class="process-math">\(A\)</span> cross <span class="process-math">\(B\)</span>”), is the set of all ordered pairs where the first component is from <span class="process-math">\(A\)</span> and the second component is from <span class="process-math">\(B\text{.}\)</span> In set-builder notation, we have</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\tcboxmath{A\times B\coloneqq \{(a,b)\mid a\in A, b\in B\}}\text{.}
+\end{equation*}
+</div>
+</div> <div class="para logical" id="p-570">
+<div class="para">We similarly define the Cartesian product of <span class="process-math">\(n\)</span> sets, say <span class="process-math">\(A_1, \ldots, A_n\text{,}\)</span> by</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\tcboxmath{\prod_{i=1}^{n} A_i\coloneqq A_1\times \cdots \times A_n\coloneqq \{(a_1,\ldots,a_n)\mid  a_j\in A_j \mbox{ for all } 1\leq j\leq n\}}\\text{,}
+\end{equation*}
+</div>
+<div class="para">where <span class="process-math">\(A_i\)</span> is referred to as the <span class="process-math">\(i\)</span>th factor of the Cartesian product. As a special case, the set</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\underbrace{A\times \cdots \times A}_{n\text{ factors } }
+\end{equation*}
+</div>
+<div class="para">is often abbreviated as <span class="process-math">\(A^n\text{.}\)</span>
+</div>
+</div></article><div class="para" id="p-571">Cartesian products are named after French philosopher and mathematician <a class="external" href="https://en.wikipedia.org/wiki/Rene_Descartes" target="_blank">René Descartes</a><a href="" data-knowl="" class="id-ref fn-knowl original" data-refid="hk-fn-24" id="fn-24"><sup> 8 </sup></a> (1596–1650). Cartesian products will play a prominent role in <a href="chap_Relations_and_Partitions.html" class="internal" title="Chapter 7: Relations and Partitions">Chapter 7</a>.</div>
+<article class="example example-like" id="ex_CartesianProduct"><h3 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">3.46</span><span class="period">.</span>
+</h3>
+<div class="para logical" id="p-572">
+<div class="para">If <span class="process-math">\(A=\{a,b,c\}\)</span> and <span class="process-math">\(B=\{\smiley,\frownie\}\text{,}\)</span> then</div>
+<div class="displaymath process-math">
+\begin{equation*}
+A\times B=\{(a,\smiley), (a,\frownie),(b,\smiley),(b,\frownie), (c,\smiley),(c,\frownie)\}\text{.}
+\end{equation*}
+</div>
+</div></article><article class="example example-like" id="example-3"><h3 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">3.47</span><span class="period">.</span>
+</h3>
+<div class="para logical" id="p-573">
+<div class="para">The standard two-dimensional plane <span class="process-math">\(\mathbb{R}^2\)</span> and standard three space <span class="process-math">\(\mathbb{R}^{3}\)</span> are familiar examples of Cartesian products. In particular, we have</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\mathbb{R}^2=\mathbb{R}\times \mathbb{R}=\{(x,y)\mid x,y\in \mathbb{R}\}
+\end{equation*}
+</div>
+<div class="para">and</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\mathbb{R}^3=\mathbb{R}\times \mathbb{R}\times \mathbb{R}=\{(x,y,z)\mid x,y,z\in \mathbb{R}\}\text{.}
+\end{equation*}
+</div>
+</div></article><article class="problem example-like" id="problem-66"><h3 class="heading">
+<span class="type">Problem</span><span class="space"> </span><span class="codenumber">3.48</span><span class="period">.</span>
+</h3>
+<div class="para logical" id="p-574">
+<div class="para">Consider the sets <span class="process-math">\(A\)</span> and <span class="process-math">\(B\)</span> from <a href="" class="xref" data-knowl="./knowl/ex_CartesianProduct.html" title="Example 3.46">Example 3.46</a>.</div>
+<ol class="lower-alpha">
+<li id="li-245"><div class="para" id="p-575">Find <span class="process-math">\(B\times A\text{.}\)</span>
+</div></li>
+<li id="li-246"><div class="para" id="p-576">Find <span class="process-math">\(B\times B\text{.}\)</span>
+</div></li>
+</ol>
+</div></article><article class="problem example-like" id="problem-67"><h3 class="heading">
+<span class="type">Problem</span><span class="space"> </span><span class="codenumber">3.49</span><span class="period">.</span>
+</h3>
+<div class="para" id="p-577">If <span class="process-math">\(A\)</span> and <span class="process-math">\(B\)</span> are sets, why do you think that <span class="process-math">\(A\times B\)</span> is referred to as a type of “product”? Think about the area model for multiplication of natural numbers.</div></article><article class="problem example-like" id="problem-68"><h3 class="heading">
+<span class="type">Problem</span><span class="space"> </span><span class="codenumber">3.50</span><span class="period">.</span>
+</h3>
+<div class="para" id="p-578">If <span class="process-math">\(A\)</span> and <span class="process-math">\(B\)</span> are both finite sets, then how many elements will <span class="process-math">\(A\times B\)</span> have?</div></article><article class="problem example-like" id="problem-69"><h3 class="heading">
+<span class="type">Problem</span><span class="space"> </span><span class="codenumber">3.51</span><span class="period">.</span>
+</h3>
+<div class="para" id="p-579">Let <span class="process-math">\(A=\{1, 2, 3\}\text{,}\)</span> <span class="process-math">\(B=\{1,2\}\text{,}\)</span> and <span class="process-math">\(C=\{1,3\}\text{.}\)</span> Find <span class="process-math">\(A \times B\times C\text{.}\)</span>
+</div></article><article class="problem example-like" id="problem-70"><h3 class="heading">
+<span class="type">Problem</span><span class="space"> </span><span class="codenumber">3.52</span><span class="period">.</span>
+</h3>
+<div class="para logical" id="p-580">
+<div class="para">Let <span class="process-math">\(X=[0,1]\)</span> and <span class="process-math">\(Y=\{1\}\text{.}\)</span> Write each of the following using set-builder notation and then describe the set geometrically (e.g., draw a picture).</div>
+<ol class="lower-alpha">
+<li id="li-247"><div class="para" id="p-581"><span class="process-math">\(\displaystyle X\times Y\)</span></div></li>
+<li id="li-248"><div class="para" id="p-582"><span class="process-math">\(\displaystyle Y\times X\)</span></div></li>
+<li id="li-249"><div class="para" id="p-583"><span class="process-math">\(\displaystyle X\times X\)</span></div></li>
+<li id="li-250"><div class="para" id="p-584"><span class="process-math">\(\displaystyle Y\times Y\)</span></div></li>
+</ol>
+</div></article><article class="problem example-like" id="problem-71"><h3 class="heading">
+<span class="type">Problem</span><span class="space"> </span><span class="codenumber">3.53</span><span class="period">.</span>
+</h3>
+<div class="para" id="p-585">If <span class="process-math">\(A\)</span> is a set, then what is <span class="process-math">\(A\times \emptyset\)</span> equal to?</div></article><article class="problem example-like" id="problem-72"><h3 class="heading">
+<span class="type">Problem</span><span class="space"> </span><span class="codenumber">3.54</span><span class="period">.</span>
+</h3>
+<div class="para" id="p-586">Given sets <span class="process-math">\(A\)</span> and <span class="process-math">\(B\text{,}\)</span> when will <span class="process-math">\(A\times B\)</span> be equal to <span class="process-math">\(B\times A\text{?}\)</span>
+</div></article><article class="problem example-like" id="prob_some_lines"><h3 class="heading">
+<span class="type">Problem</span><span class="space"> </span><span class="codenumber">3.55</span><span class="period">.</span>
+</h3>
+<div class="para" id="p-587">Write <span class="process-math">\(\mathbb{N}\times \mathbb{R}\)</span> using set-builder notation and then describe this set geometrically by interpreting it as a subset of <span class="process-math">\(\mathbb{R}^2\text{.}\)</span>
+</div></article><div class="para" id="p-588">We now turn our attention to subsets of Cartesian products.</div>
+<article class="theorem theorem-like" id="theorem-34"><h3 class="heading">
+<span class="type">Theorem</span><span class="space"> </span><span class="codenumber">3.56</span><span class="period">.</span>
+</h3>
+<div class="para" id="p-589">Let <span class="process-math">\(A\text{,}\)</span> <span class="process-math">\(B\text{,}\)</span> <span class="process-math">\(C\text{,}\)</span> and <span class="process-math">\(D\)</span> be sets. If <span class="process-math">\(A\subseteq C\)</span> and <span class="process-math">\(B\subseteq D\text{,}\)</span> then <span class="process-math">\(A\times B\subseteq C\times D\text{.}\)</span>
+</div></article><article class="problem example-like" id="problem-74"><h3 class="heading">
+<span class="type">Problem</span><span class="space"> </span><span class="codenumber">3.57</span><span class="period">.</span>
+</h3>
+<div class="para" id="p-590">Is it true that if <span class="process-math">\(A\times B\subseteq C\times D\text{,}\)</span> then <span class="process-math">\(A\subseteq C\)</span> and <span class="process-math">\(B\subseteq D\text{?}\)</span> Do not forget to think about cases involving the empty set.</div></article><article class="problem example-like" id="problem-75"><h3 class="heading">
+<span class="type">Problem</span><span class="space"> </span><span class="codenumber">3.58</span><span class="period">.</span>
+</h3>
+<div class="para" id="p-591">Is every subset of <span class="process-math">\(C\times D\)</span> of the form <span class="process-math">\(A\times B\text{,}\)</span> where <span class="process-math">\(A\subseteq C\)</span> and <span class="process-math">\(B\subseteq D\text{?}\)</span> If so, prove it. If not, find a counterexample.</div></article><article class="problem example-like" id="problem-76"><h3 class="heading">
+<span class="type">Problem</span><span class="space"> </span><span class="codenumber">3.59</span><span class="period">.</span>
+</h3>
+<div class="para" id="p-592">If <span class="process-math">\(A\text{,}\)</span> <span class="process-math">\(B\text{,}\)</span> and <span class="process-math">\(C\)</span> are nonempty sets, is <span class="process-math">\(A\times B\)</span> a subset of <span class="process-math">\(A\times B\times C\text{?}\)</span>
+</div></article><article class="problem example-like" id="problem-77"><h3 class="heading">
+<span class="type">Problem</span><span class="space"> </span><span class="codenumber">3.60</span><span class="period">.</span>
+</h3>
+<div class="para logical" id="p-593">
+<div class="para">Let <span class="process-math">\(A=[2,5]\text{,}\)</span> <span class="process-math">\(B=[3,7]\text{,}\)</span> <span class="process-math">\(C=[1,3]\text{,}\)</span> and <span class="process-math">\(D=[2,4]\text{.}\)</span> Compute each of the following.</div>
+<ol class="lower-alpha">
+<li id="li-251"><div class="para" id="p-594"><span class="process-math">\(\displaystyle (A\cap B)\times (C\cap D)\)</span></div></li>
+<li id="li-252"><div class="para" id="p-595"><span class="process-math">\(\displaystyle (A\times C)\cap (B\times D)\)</span></div></li>
+<li id="li-253"><div class="para" id="p-596"><span class="process-math">\(\displaystyle (A\cup B)\times (C\cup D)\)</span></div></li>
+<li id="li-254"><div class="para" id="p-597"><span class="process-math">\(\displaystyle (A\times C)\cup (B\times D)\)</span></div></li>
+<li id="li-255"><div class="para" id="p-598"><span class="process-math">\(\displaystyle A\times (B\cap C)\)</span></div></li>
+<li id="li-256"><div class="para" id="p-599"><span class="process-math">\(\displaystyle (A\times B)\cap (A\times C)\)</span></div></li>
+<li id="li-257"><div class="para" id="p-600"><span class="process-math">\(\displaystyle A\times (B\cup C)\)</span></div></li>
+<li id="li-258"><div class="para" id="p-601"><span class="process-math">\(\displaystyle (A\times B)\cup (A\times C)\)</span></div></li>
+</ol>
+</div></article><article class="problem example-like" id="problem-78"><h3 class="heading">
+<span class="type">Problem</span><span class="space"> </span><span class="codenumber">3.61</span><span class="period">.</span>
+</h3>
+<div class="para logical" id="p-602">
+<div class="para">Let <span class="process-math">\(A\text{,}\)</span> <span class="process-math">\(B\text{,}\)</span> <span class="process-math">\(C\text{,}\)</span> and <span class="process-math">\(D\)</span> be sets. Determine whether each of the following statements is true or false. If a statement is true, prove it. Otherwise, provide a counterexample.</div>
+<ol class="lower-alpha">
+<li id="li-259"><div class="para" id="p-603"><span class="process-math">\(\displaystyle (A\cap B)\times (C\cap D)=(A\times C)\cap (B\times D)\)</span></div></li>
+<li id="li-260"><div class="para" id="p-604"><span class="process-math">\(\displaystyle (A\cup B)\times (C\cup D)=(A\times C)\cup (B\times D)\)</span></div></li>
+<li id="li-261"><div class="para" id="p-605"><span class="process-math">\(\displaystyle A\times (B\cap C)=(A\times B)\cap (A\times C)\)</span></div></li>
+<li id="li-262"><div class="para" id="p-606"><span class="process-math">\(\displaystyle A\times (B\cup C)=(A\times B)\cup (A\times C)\)</span></div></li>
+<li id="li-263"><div class="para" id="p-607"><span class="process-math">\(\displaystyle A\times (B\setminus C) = (A\times B)\setminus (A\times C)\)</span></div></li>
+</ol>
+</div></article><article class="problem example-like" id="problem-79"><h3 class="heading">
+<span class="type">Problem</span><span class="space"> </span><span class="codenumber">3.62</span><span class="period">.</span>
+</h3>
+<div class="para" id="p-608">If <span class="process-math">\(A\)</span> and <span class="process-math">\(B\)</span> are sets, conjecture a way to rewrite <span class="process-math">\((A\times B)^C\)</span> in a way that involves <span class="process-math">\(A^C\)</span> and <span class="process-math">\(B^C\)</span> and then prove your conjecture.</div></article><div class="para" id="p-609">\epigraph{If there is no struggle, there is no progress.}{Frederick Douglass, writer &amp; statesman}</div></section><div class="hidden-content tex2jax_ignore" id="hk-fn-24"><div class="fn"><code class="code-inline tex2jax_ignore">en.wikipedia.org/wiki/Rene_Descartes</code></div></div>
+</div>
+<div class="ptx-content-footer">
+<a class="previous-button button" href="sec_Indexing_Sets.html" title="Previous"><span class="icon">&lt;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon">^</span><span class="name">Top</span></a><a class="next-button button" href="chap_Induction.html" title="Next"><span class="name">Next</span><span class="icon">&gt;</span></a>
+</div></main>
+</div>
+<div id="ptx-page-footer" class="ptx-page-footer">
+<a class="pretext-link" href="https://pretextbook.org" title="PreTeXt"><div class="logo"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="338 3000 8772 6866"><g style="stroke-width:.025in; stroke:black; fill:none"><polyline points="472,3590 472,9732 " style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round; "></polyline><path style="stroke:#000000;stroke-width:126;stroke-linecap:butt;" d="M 4724,9448 A 4660 4660  0  0  1  8598  9259"></path><path style="stroke:#000000;stroke-width:174;stroke-linecap:butt;" d="M 4488,9685 A 4228 4228  0  0  0   472  9732"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:butt;" d="M 4724,3590 A 4241 4241  0  0  1  8598  3496"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:round;" d="M 850,3496  A 4241 4241  0  0  1  4724  3590"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:round;" d="M 850,9259  A 4507 4507  0  0  1  4724  9448"></path><polyline points="5385,4299 4062,8125" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8598,3496 8598,9259" style="stroke:#000000;stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="850,3496 850,9259" style="stroke:#000000;stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="4960,9685 4488,9685" style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="3070,4582 1889,6141 3070,7700" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="6418,4582 7600,6141 6418,7700" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8976,3590 8976,9732" style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><path style="stroke:#000000;stroke-width:174;stroke-linecap:butt;" d="M 4960,9685 A 4228 4228  0  0  1  8976  9732"></path></g></svg></div></a><a class="runestone-link" href="https://runestone.academy" title="Runestone Academy"><img class="logo" src="https://runestone.academy/runestone/static/images/RAIcon_cropped.png"></a><a class="mathjax-link" href="https://www.mathjax.org" title="MathJax"><img class="logo" src="https://www.mathjax.org/badge/badge-square-2.png"></a>
+</div>
+</body>
+</html>

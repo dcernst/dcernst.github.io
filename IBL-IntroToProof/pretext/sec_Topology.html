@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<!--********************************************-->
+<!--*       Generated from PreTeXt source      *-->
+<!--*                                          *-->
+<!--*         https://pretextbook.org          *-->
+<!--*                                          *-->
+<!--********************************************-->
+<html lang="en-US" dir="ltr">
+<head xmlns:og="http://ogp.me/ns#" xmlns:book="https://ogp.me/ns/book#">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Standard Topology of the Real Line</title>
+<meta name="Keywords" content="Authored in PreTeXt">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:type" content="book">
+<meta property="book:title" content="An Introduction to Proof via Inquiry-Based Learning">
+<meta property="book:author" content="Dana C. Ernst, PhD">
+<script>
+var runestoneMathReady = new Promise((resolve) => window.rsMathReady = resolve);
+window.MathJax = {
+  "tex": {
+    "inlineMath": [
+      [
+        "\\(",
+        "\\)"
+      ]
+    ],
+    "tags": "none",
+    "tagSide": "right",
+    "tagIndent": ".8em",
+    "packages": {
+      "[+]": [
+        "base",
+        "extpfeil",
+        "ams",
+        "amscd",
+        "color",
+        "newcommand",
+        "knowl"
+      ]
+    }
+  },
+  "options": {
+    "ignoreHtmlClass": "tex2jax_ignore|ignore-math",
+    "processHtmlClass": "process-math"
+  },
+  "chtml": {
+    "scale": 0.98,
+    "mtextInheritFont": true
+  },
+  "loader": {
+    "load": [
+      "input/asciimath",
+      "[tex]/extpfeil",
+      "[tex]/amscd",
+      "[tex]/color",
+      "[tex]/newcommand",
+      "[pretext]/mathjaxknowl3.js"
+    ],
+    "paths": {
+      "pretext": "https://pretextbook.org/js/lib"
+    }
+  },
+  "startup": {
+    pageReady() {
+      return MathJax.startup.defaultPageReady().then(function () {
+      console.log("in ready function");
+      rsMathReady();
+      }
+    )}
+  }
+};
+</script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="https://pretextbook.org/js/0.3/pretext_search.js"></script><link href="https://pretextbook.org/css/0.7/pretext_search.css" rel="stylesheet" type="text/css">
+<script>js_version = 0.3</script><script src="https://pretextbook.org/js/lib/jquery.min.js"></script><script src="https://pretextbook.org/js/lib/jquery.sticky.js"></script><script src="https://pretextbook.org/js/lib/jquery.espy.min.js"></script><script src="https://pretextbook.org/js/0.3/pretext.js"></script><script>miniversion=0.1</script><script src="https://pretextbook.org/js/0.3/pretext_add_on.js?x=1"></script><script src="https://pretextbook.org/js/0.3/user_preferences.js"></script><script src="https://pretextbook.org/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
+</script><link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&amp;family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&amp;family=Tinos:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.cdnfonts.com/css/dejavu-serif" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz,wdth,wght@8..144,50..150,100..900&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wdth,wght@75..100,300..800&amp;display=swap" rel="stylesheet">
+<link href="https://pretextbook.org/css/0.7/pretext.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.7/pretext_add_on.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.7/shell_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.7/banner_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.7/navbar_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.7/toc_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.7/knowls_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.7/style_oscarlevin.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.7/colors_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.7/setcolors.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" href="external/custom-styles.css">
+</head>
+<body class="pretext book ignore-math">
+<a class="assistive" href="#ptx-content">Skip to main content</a><header id="ptx-masthead" class="ptx-masthead"><div class="ptx-banner">
+<a id="logo-link" class="logo-link" href=""></a><div class="title-container">
+<h1 class="heading"><a href="book-1.html"><span class="title">An Introduction to Proof via Inquiry-Based Learning</span></a></h1>
+<p class="byline">Dana C. Ernst, PhD</p>
+</div>
+<div id="searchresultsplaceholder" class="searchresultsplaceholder" style="display: none">
+<button id="closesearchresults" class="closesearchresults" onclick="document.getElementById('searchresultsplaceholder').style.display = 'none'; return false;">x</button><h2>Search Results: <span id="searchterms" class="searchterms"></span>
+</h2>
+<div id="searchempty" class="searchempty"><span>No results.</span></div>
+<ol id="searchresults" class="searchresults"></ol>
+</div>
+</div></header><nav id="ptx-navbar" class="ptx-navbar navbar"><button class="toc-toggle button" aria-label="Show or hide table of contents"><span class="icon">☰</span><span class="name">Contents</span></button><button id="user-preferences-button" class="user-preferences-button button" title="Modify user preferences"><span id="avatarbutton" class="avatarbutton name">You!</span><div id="preferences_menu_holder" class="preferences_menu_holder hidden"><ol id="preferences_menu" class="preferences_menu" style="font-family: 'Roboto Serif', serif;">
+<li data-env="avatar" tabindex="-1">Choose avatar<div class="wrap_to_submenu"><span class="to_submenu">▻</span></div>
+<ol class="hidden avatar">
+<li data-val="You!" tabindex="-1">
+<span id="theYou!" class="avatarcheck">✔️</span>You!</li>
+<li data-val="😺" tabindex="-1">
+<span id="the😺" class="avatarcheck"></span>😺</li>
+<li data-val="👤" tabindex="-1">
+<span id="the👤" class="avatarcheck"></span>👤</li>
+<li data-val="👽" tabindex="-1">
+<span id="the👽" class="avatarcheck"></span>👽</li>
+<li data-val="🐶" tabindex="-1">
+<span id="the🐶" class="avatarcheck"></span>🐶</li>
+<li data-val="🐼" tabindex="-1">
+<span id="the🐼" class="avatarcheck"></span>🐼</li>
+<li data-val="🌈" tabindex="-1">
+<span id="the🌈" class="avatarcheck"></span>🌈</li>
+</ol>
+</li>
+<li data-env="fontfamily" tabindex="-1">Font family<div class="wrap_to_submenu"><span class="to_submenu">▻</span></div>
+<ol class="hidden fontfamily">
+<li data-val="face" data-change="OS" tabindex="-1" style="font-family: 'Open Sans'">
+<span id="theOS" class="ffcheck">✔️</span><span class="name">Open Sans</span><span class="sample">AaBbCc 123 PreTeXt</span>
+</li>
+<li data-val="face" data-change="RS" tabindex="-1" style="font-family: 'Roboto Serif'">
+<span id="theRS" class="ffcheck"></span><span class="name">Roboto Serif</span><span class="sample">AaBbCc 123 PreTeXt</span>
+</li>
+</ol>
+</li>
+<li data-env="font" tabindex="-1">Adjust font<div class="wrap_to_submenu"><span class="to_submenu">▻</span></div>
+<ol class="hidden fonts">
+<li>Size</li>
+<li><span id="thesize">12</span></li>
+<li data-val="size" data-change="-1" tabindex="-1" style="font-size: 80%">Smaller</li>
+<li data-val="size" data-change="1" tabindex="-1" style="font-size: 110%">Larger</li>
+<li>Width</li>
+<li><span id="thewdth">100</span></li>
+<li data-val="wdth" data-change="-5" tabindex="-1" style="font-variation-settings: 'wdth' 60">narrower</li>
+<li data-val="wdth" data-change="5" tabindex="-1" style="font-variation-settings: 'wdth' 150">wider</li>
+<li>Weight</li>
+<li><span id="thewght">400</span></li>
+<li data-val="wght" data-change="-50" tabindex="-1" style="font-weight: 200">thinner</li>
+<li data-val="wght" data-change="50" tabindex="-1" style="font-weight: 700">heavier</li>
+<li>Letter spacing</li>
+<li>
+<span id="thelspace">0</span><span class="byunits">/200</span>
+</li>
+<li data-val="lspace" data-change="-1" tabindex="-1">closer</li>
+<li data-val="lspace" data-change="1" tabindex="-1">f a r t h e r</li>
+<li>Word spacing</li>
+<li>
+<span id="thewspace">0</span><span class="byunits">/50</span>
+</li>
+<li data-val="wspace" data-change="-1" tabindex="-1">smaller gap </li>
+<li data-val="wspace" data-change="1" tabindex="-1">larger gap</li>
+<li>Line Spacing</li>
+<li>
+<span id="theheight">135</span><span class="byunits">/100</span>
+</li>
+<li data-val="height" data-change="-5" tabindex="-1" style="line-height: 1">closer<br>together</li>
+<li data-val="height" data-change="5" tabindex="-1" style="line-height: 1.75">further<br>apart</li>
+</ol>
+</li>
+<li data-env="atmosphere" tabindex="-1">Light/dark mode<div class="wrap_to_submenu"><span class="to_submenu">▻</span></div>
+<ol class="hidden atmosphere">
+<li data-val="default" tabindex="-1">
+<span id="thedefault" class="atmospherecheck">✔️</span>default</li>
+<li data-val="pastel" tabindex="-1">
+<span id="thepastel" class="atmospherecheck"></span>pastel</li>
+<li data-val="darktwilight" tabindex="-1">
+<span id="thedarktwilight" class="atmospherecheck"></span>twilight</li>
+<li data-val="dark" tabindex="-1">
+<span id="thedark" class="atmospherecheck"></span>dark</li>
+<li data-val="darkmidnight" tabindex="-1">
+<span id="thedarkmidnight" class="atmospherecheck"></span>midnight</li>
+</ol>
+</li>
+<li data-env="ruler" tabindex="-1">Reading ruler<div class="wrap_to_submenu"><span class="to_submenu">▻</span></div>
+<ol class="hidden ruler">
+<li data-val="none" tabindex="-1">
+<span id="thenone" class="rulercheck">✔️</span>none</li>
+<li data-val="underline" tabindex="-1">
+<span id="theunderline" class="rulercheck"></span>underline</li>
+<li data-val="lunderline" tabindex="-1">
+<span id="thelunderline" class="rulercheck"></span>L-underline</li>
+<li data-val="greybar" tabindex="-1">
+<span id="thegreybar" class="rulercheck"></span>grey bar</li>
+<li data-val="lightbox" tabindex="-1">
+<span id="thelightbox" class="rulercheck"></span>light box</li>
+<li data-val="sunrise" tabindex="-1">
+<span id="thesunrise" class="rulercheck"></span>sunrise</li>
+<li data-val="sunriseunderline" tabindex="-1">
+<span id="thesunriseunderline" class="rulercheck"></span>sunrise underline</li>
+<li class="moveQ">Motion by:</li>
+<li data-val="mouse" tabindex="-1">
+<span id="themouse" class="motioncheck">✔️</span>follow the mouse</li>
+<li data-val="arrow" tabindex="-1">
+<span id="thearrow" class="motioncheck"></span>up/down arrows - not yet</li>
+<li data-val="eye" tabindex="-1">
+<span id="theeye" class="motioncheck"></span>eye tracking - not yet</li>
+</ol>
+</li>
+</ol></div></button><span class="treebuttons"><a class="previous-button button" href="sec_AxiomsRealNumbers.html" title="Previous"><span class="icon">&lt;</span><span class="name">Prev</span></a><a class="up-button button" href="chap_RealNumbers.html" title="Up"><span class="icon">^</span><span class="name">Up</span></a><a class="next-button button" href="chap_ThreeFamousTheorems.html" title="Next"><span class="name">Next</span><span class="icon">&gt;</span></a></span><div class="searchbox"><div class="searchwidget">
+<input id="ptxsearch" class="ptxsearch" type="text" name="terms" placeholder="Search" onchange="doSearch()"><button id="searchbutton" class="searchbutton" type="button" onclick="doSearch()">🔍</button>
+</div></div></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\newcommand{\dom}{\operatorname{Dom}}
+\newcommand{\codom}{\operatorname{Codom}}
+\newcommand{\range}{\operatorname{Rng}}
+\newcommand{\lcm}{\operatorname{lcm}}
+\newcommand{\card}{\operatorname{card}}
+\newcommand{\rel}{\operatorname{rel}}
+\newcommand{\Rel}{\operatorname{Rel}}
+\newcommand{\logeq}{\Longleftrightarrow}
+\renewcommand{\implies}{\Longrightarrow}
+
+\def\tcboxmath{}
+\def\coloneqq{:=}
+\newcommand{\lt}{&lt;}
+\newcommand{\gt}{&gt;}
+\newcommand{\amp}{&amp;}
+\definecolor{fillinmathshade}{gray}{0.9}
+\newcommand{\fillinmath}[1]{\mathchoice{\colorbox{fillinmathshade}{$\displaystyle     \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\textstyle        \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptstyle      \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptscriptstyle\phantom{\,#1\,}$}}}
+\)</span></div>
+<div class="ptx-page">
+<div id="ptx-sidebar" class="ptx-sidebar"><nav id="ptx-toc" class="ptx-toc depth2"><ul class="structural">
+<li>
+<div class="toc-item"><a href="frontmatter-1.html" class="internal"><span class="title">Front Matter</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="colophon.html" class="internal"><span class="title">Colophon</span></a></div></li>
+<li><div class="toc-item"><a href="chap_preface.html" class="internal"><span class="title">Preface</span></a></div></li>
+<li><div class="toc-item"><a href="chap_acknowledgements.html" class="internal"><span class="title">Acknowledgements</span></a></div></li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="chap_intro.html" class="internal"><span class="codenumber">1</span> <span class="title">Introduction</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="sec_WhatIsThisBookAllAbout.html" class="internal"><span class="codenumber">1.1</span> <span class="title">What is This Book All About?</span></a></div></li>
+<li><div class="toc-item"><a href="sec_what_should_you_expect.html" class="internal"><span class="codenumber">1.2</span> <span class="title">What Should You Expect?</span></a></div></li>
+<li><div class="toc-item"><a href="sec_IBLApproach.html" class="internal"><span class="codenumber">1.3</span> <span class="title">An Inquiry-Based Approach</span></a></div></li>
+<li><div class="toc-item"><a href="sec_Structure.html" class="internal"><span class="codenumber">1.4</span> <span class="title">Structure of the Textbook</span></a></div></li>
+<li><div class="toc-item"><a href="sec_guidance.html" class="internal"><span class="codenumber">1.5</span> <span class="title">Some Minimal Guidance</span></a></div></li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="chap_IntroToMath.html" class="internal"><span class="codenumber">2</span> <span class="title">Mathematics and Logic</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="sec_baby_number_theory.html" class="internal"><span class="codenumber">2.1</span> <span class="title">A Taste of Number Theory</span></a></div></li>
+<li><div class="toc-item"><a href="sec_Intro_to_Logic.html" class="internal"><span class="codenumber">2.2</span> <span class="title">Introduction to Logic</span></a></div></li>
+<li><div class="toc-item"><a href="sec_Techniques_for_Proving_Conditional_Propositions.html" class="internal"><span class="codenumber">2.3</span> <span class="title">Techniques for Proving Conditional Propositions</span></a></div></li>
+<li><div class="toc-item"><a href="sec_Introduction_to_Quantification.html" class="internal"><span class="codenumber">2.4</span> <span class="title">Introduction to Quantification</span></a></div></li>
+<li><div class="toc-item"><a href="sec_More_About_Quantification.html" class="internal"><span class="codenumber">2.5</span> <span class="title">More About Quantification</span></a></div></li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="chap_SetTheory.html" class="internal"><span class="codenumber">3</span> <span class="title">Set Theory</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="sec_Sets.html" class="internal"><span class="codenumber">3.1</span> <span class="title">Sets</span></a></div></li>
+<li><div class="toc-item"><a href="sec_RussellsParadox.html" class="internal"><span class="codenumber">3.2</span> <span class="title">Russell’s Paradox</span></a></div></li>
+<li><div class="toc-item"><a href="sec_PowerSets.html" class="internal"><span class="codenumber">3.3</span> <span class="title">Power Sets</span></a></div></li>
+<li><div class="toc-item"><a href="sec_Indexing_Sets.html" class="internal"><span class="codenumber">3.4</span> <span class="title">Indexing Sets</span></a></div></li>
+<li><div class="toc-item"><a href="sec_Cartesian_Products.html" class="internal"><span class="codenumber">3.5</span> <span class="title">Cartesian Products of Sets</span></a></div></li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="chap_Induction.html" class="internal"><span class="codenumber">4</span> <span class="title">Induction</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="sec_Intro_to_Induction.html" class="internal"><span class="codenumber">4.1</span> <span class="title">Introduction to Induction</span></a></div></li>
+<li><div class="toc-item"><a href="sec_More_on_Induction.html" class="internal"><span class="codenumber">4.2</span> <span class="title">More on Induction</span></a></div></li>
+<li><div class="toc-item"><a href="sec_CompleteInduction.html" class="internal"><span class="codenumber">4.3</span> <span class="title">Complete Induction</span></a></div></li>
+<li><div class="toc-item"><a href="sec_WOP.html" class="internal"><span class="codenumber">4.4</span> <span class="title">The Well-Ordering Principle</span></a></div></li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="chap_RealNumbers.html" class="internal"><span class="codenumber">5</span> <span class="title">The Real Numbers</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="sec_AxiomsRealNumbers.html" class="internal"><span class="codenumber">5.1</span> <span class="title">Axioms of the Real Numbers</span></a></div></li>
+<li class="active"><div class="toc-item"><a href="sec_Topology.html" class="internal"><span class="codenumber">5.2</span> <span class="title">Standard Topology of the Real Line</span></a></div></li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="chap_ThreeFamousTheorems.html" class="internal"><span class="codenumber">6</span> <span class="title">Three Famous Theorems</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="sec_FTA.html" class="internal"><span class="codenumber">6.1</span> <span class="title">The Fundamental Theorem of Arithmetic</span></a></div></li>
+<li><div class="toc-item"><a href="sec_Irrationality_of_Root_2.html" class="internal"><span class="codenumber">6.2</span> <span class="title">The Irrationality of <span class="process-math">\(\sqrt{2}\)</span></span></a></div></li>
+<li><div class="toc-item"><a href="sec_Infinitude_of_Primes.html" class="internal"><span class="codenumber">6.3</span> <span class="title">The Infinitude of Primes</span></a></div></li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="chap_Relations_and_Partitions.html" class="internal"><span class="codenumber">7</span> <span class="title">Relations and Partitions</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="sec_Relations.html" class="internal"><span class="codenumber">7.1</span> <span class="title">Relations</span></a></div></li>
+<li><div class="toc-item"><a href="sec_Equivalence_Relations.html" class="internal"><span class="codenumber">7.2</span> <span class="title">Equivalence Relations</span></a></div></li>
+<li><div class="toc-item"><a href="sec_Partitions.html" class="internal"><span class="codenumber">7.3</span> <span class="title">Partitions</span></a></div></li>
+<li><div class="toc-item"><a href="sec_ModularArithmetic.html" class="internal"><span class="codenumber">7.4</span> <span class="title">Modular Arithmetic</span></a></div></li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="chap_Functions.html" class="internal"><span class="codenumber">8</span> <span class="title">Functions</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="sec_Intro_to_Functions.html" class="internal"><span class="codenumber">8.1</span> <span class="title">Introduction to Functions</span></a></div></li>
+<li><div class="toc-item"><a href="sec_Injective_and_Surjective_Functions.html" class="internal"><span class="codenumber">8.2</span> <span class="title">Injective and Surjective Functions</span></a></div></li>
+<li><div class="toc-item"><a href="sec_Compositions_and_Inverse_Functions.html" class="internal"><span class="codenumber">8.3</span> <span class="title">Compositions and Inverse Functions</span></a></div></li>
+<li><div class="toc-item"><a href="sec_Images_and_Preimages.html" class="internal"><span class="codenumber">8.4</span> <span class="title">Images and Preimages of Functions</span></a></div></li>
+<li><div class="toc-item"><a href="sec_Continuity.html" class="internal"><span class="codenumber">8.5</span> <span class="title">Continuous Real Functions</span></a></div></li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="chap_Cardinality.html" class="internal"><span class="codenumber">9</span> <span class="title">Cardinality</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="sec_Intro_to_Cardinality.html" class="internal"><span class="codenumber">9.1</span> <span class="title">Introduction to Cardinality</span></a></div></li>
+<li><div class="toc-item"><a href="sec_Finite_Sets.html" class="internal"><span class="codenumber">9.2</span> <span class="title">Finite Sets</span></a></div></li>
+<li><div class="toc-item"><a href="sec_Infinite_Sets.html" class="internal"><span class="codenumber">9.3</span> <span class="title">Infinite Sets</span></a></div></li>
+<li><div class="toc-item"><a href="sec_Countable_Sets.html" class="internal"><span class="codenumber">9.4</span> <span class="title">Countable Sets</span></a></div></li>
+<li><div class="toc-item"><a href="sec_Uncountable_Sets.html" class="internal"><span class="codenumber">9.5</span> <span class="title">Uncountable Sets</span></a></div></li>
+</ul>
+</li>
+<li><div class="toc-item"><a href="appendix_elements_of_style.html" class="internal"><span class="codenumber">A</span> <span class="title">Elements of Style for Proofs</span></a></div></li>
+<li><div class="toc-item"><a href="appendix_fancy_math_terms.html" class="internal"><span class="codenumber">B</span> <span class="title">Fancy Mathematical Terms</span></a></div></li>
+<li><div class="toc-item"><a href="appendix_paradoxes.html" class="internal"><span class="codenumber">C</span> <span class="title">Paradoxes</span></a></div></li>
+<li><div class="toc-item"><a href="appendix_definitions.html" class="internal"><span class="codenumber">D</span> <span class="title">Definitions in Mathematics</span></a></div></li>
+</ul></nav></div>
+<main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="section" id="sec_Topology"><h2 class="heading hide-type">
+<span class="type">Section</span> <span class="codenumber">5.2</span> <span class="title">Standard Topology of the Real Line</span>
+</h2>
+<div class="para" id="p-875">In this section, we will introduce the notions of open, closed, compact, and connected as they pertain to subsets of the real numbers. These properties form the underpinnings of a branch of mathematics called <em class="emphasis">topology</em> (derived from the Greek words <em class="emphasis">tópos</em>, meaning ‘place, location’, and <em class="emphasis">ology</em>, meaning ‘study of’). Topology, sometimes called “rubber sheet geometry,” is concerned with properties of spaces that are invariant under any continuous deformation (e.g., bending, twisting, and stretching like rubber while not allowing tearing apart or gluing together). The fundamental concepts in topology are continuity, compactness, and connectedness, which rely on ideas such as “arbitrary close” and “far apart”. These ideas can be made precise using open sets.</div>
+<div class="para" id="p-876">Once considered an abstract branch of pure mathematics, topology now has applications in biology, computer science, physics, and robotics. The goal of this section is to introduce you to the basics of the set-theoretic definitions used in topology and to provide you with an opportunity to tinker with open and closed subsets of the real numbers. In <a href="sec_Continuity.html" class="internal" title="Section 8.5: Continuous Real Functions">Section 8.5</a>, we will revisit these concepts and explore continuous functions.</div>
+<div class="para" id="p-877">For this entire section, our universe of discourse is the set of real numbers. You may assume all the usual basic algebraic properties of the real numbers (addition, subtraction, multiplication, division, commutative property, distribution, etc.). We will often refer to an element in a subset of real numbers as a <em class="emphasis">point</em>.</div>
+<article class="definition definition-like" id="def_open"><h3 class="heading">
+<span class="type">Definition</span><span class="space"> </span><span class="codenumber">5.58</span><span class="period">.</span>
+</h3>
+<div class="para" id="p-878">A set <span class="process-math">\(U\)</span> is called an open set if for every <span class="process-math">\(x \in U\text{,}\)</span> there exists a bounded open interval <span class="process-math">\((a,b)\)</span> containing <span class="process-math">\(x\)</span> such that <span class="process-math">\((a,b)\subseteq U\text{.}\)</span>
+</div></article><div class="para" id="p-879">It follows immediately from the definition that every open set is a union of bounded open intervals.</div>
+<article class="problem example-like" id="prob_open_or_not"><h3 class="heading">
+<span class="type">Problem</span><span class="space"> </span><span class="codenumber">5.59</span><span class="period">.</span>
+</h3>
+<div class="para logical" id="p-880">
+<div class="para">Determine whether each of the following sets is open. Justify your assertions.</div>
+<ol class="lower-alpha">
+<li id="li-340"><div class="para" id="p-881"><span class="process-math">\(\displaystyle (1,2)\)</span></div></li>
+<li id="li-341"><div class="para" id="p-882"><span class="process-math">\(\displaystyle (1,\infty)\)</span></div></li>
+<li id="li-342"><div class="para" id="p-883"><span class="process-math">\(\displaystyle (1,2)\cup (\pi,5)\)</span></div></li>
+<li id="li-343"><div class="para" id="p-884"><span class="process-math">\(\displaystyle [1,2]\)</span></div></li>
+<li id="li-344"><div class="para" id="p-885"><span class="process-math">\(\displaystyle (-\infty,\sqrt{2}]\)</span></div></li>
+<li id="li-345"><div class="para" id="p-886"><span class="process-math">\(\displaystyle \{4,17,42\}\)</span></div></li>
+<li id="li-346"><div class="para" id="p-887"><span class="process-math">\(\displaystyle \{\frac{1}{n}\mid n\in \mathbb{N}\}\)</span></div></li>
+<li id="li-347"><div class="para" id="p-888"><span class="process-math">\(\displaystyle \{\frac{1}{n}\mid n\in \mathbb{N}\}\cup \{0\}\)</span></div></li>
+<li id="li-348"><div class="para" id="p-889"><span class="process-math">\(\displaystyle \mathbb{R}\)</span></div></li>
+<li id="li-349"><div class="para" id="p-890"><span class="process-math">\(\displaystyle \mathbb{Q}\)</span></div></li>
+<li id="li-350"><div class="para" id="p-891"><span class="process-math">\(\displaystyle \mathbb{Z}\)</span></div></li>
+<li id="li-351"><div class="para" id="p-892"><span class="process-math">\(\displaystyle \emptyset\)</span></div></li>
+</ol>
+</div></article><div class="para" id="p-893">As expected, every open interval (i.e., intervals of the form <span class="process-math">\((a,b)\text{,}\)</span> <span class="process-math">\((-\infty,b)\text{,}\)</span> <span class="process-math">\((a,\infty)\text{,}\)</span> or <span class="process-math">\((-\infty,\infty)\)</span>) is an open set.</div>
+<article class="theorem theorem-like" id="theorem-97"><h3 class="heading">
+<span class="type">Theorem</span><span class="space"> </span><span class="codenumber">5.60</span><span class="period">.</span>
+</h3>
+<div class="para" id="p-894">Every open interval is an open set.</div></article><div class="para" id="p-895">However, it is important to point out that open sets can be more complicated than a single open interval.</div>
+<article class="problem example-like" id="problem-95"><h3 class="heading">
+<span class="type">Problem</span><span class="space"> </span><span class="codenumber">5.61</span><span class="period">.</span>
+</h3>
+<div class="para" id="p-896">Provide an example of an open set that is not a single open interval.</div></article><article class="theorem theorem-like" id="thm_finite_union_and_intersection_of_open_sets"><h3 class="heading">
+<span class="type">Theorem</span><span class="space"> </span><span class="codenumber">5.62</span><span class="period">.</span>
+</h3>
+<div class="para logical" id="p-897">
+<div class="para">If <span class="process-math">\(U\)</span> and <span class="process-math">\(V\)</span> are open sets, then</div>
+<ol class="lower-alpha">
+<li id="li-352"><div class="para" id="p-898">
+<span class="process-math">\(U\cup V\)</span> is an open set, and</div></li>
+<li id="li-353"><div class="para" id="p-899">
+<span class="process-math">\(U\cap V\)</span> is an open set.</div></li>
+</ol>
+</div></article><div class="para" id="p-900">According to the next two theorems, the union of arbitrarily many open sets is open while the intersection of a finite number of open sets is open.</div>
+<article class="theorem theorem-like" id="thm_union_of_open_sets"><h3 class="heading">
+<span class="type">Theorem</span><span class="space"> </span><span class="codenumber">5.63</span><span class="period">.</span>
+</h3>
+<div class="para" id="p-901">If <span class="process-math">\(\{U_{\alpha}\}_{\alpha\in\Delta}\)</span> is a collection of open sets, then <span class="process-math">\(\bigcup_{\alpha\in\Delta} U_{\alpha}\)</span> is an open set.</div></article><div class="para" id="p-902">Consider using induction to prove the next theorem.</div>
+<article class="theorem theorem-like" id="thm_finite_intersection_of_open_sets"><h3 class="heading">
+<span class="type">Theorem</span><span class="space"> </span><span class="codenumber">5.64</span><span class="period">.</span>
+</h3>
+<div class="para" id="p-903">If <span class="process-math">\(\{U_{i}\}_{i=1}^n\)</span> is a finite collection of open sets for <span class="process-math">\(n\in \mathbb{N}\text{,}\)</span> then <span class="process-math">\(\bigcap_{i=1}^n U_{i}\)</span> is an open set.</div></article><article class="problem example-like" id="problem-96"><h3 class="heading">
+<span class="type">Problem</span><span class="space"> </span><span class="codenumber">5.65</span><span class="period">.</span>
+</h3>
+<div class="para" id="p-904">Explain why we cannot utilize induction to prove that the intersection of infinitely many open sets indexed by the natural numbers is open.</div></article><article class="problem example-like" id="prob_intersection_of_open_sets"><h3 class="heading">
+<span class="type">Problem</span><span class="space"> </span><span class="codenumber">5.66</span><span class="period">.</span>
+</h3>
+<div class="para logical" id="p-905">
+<div class="para">Give an example of each of the following.</div>
+<ol class="lower-alpha">
+<li id="li-354"><div class="para" id="p-906">A collection of open sets <span class="process-math">\(\{U_{\alpha}\}_{\alpha\in\Delta}\)</span> such that <span class="process-math">\(\bigcap_{\alpha\in\Delta} U_{\alpha}\)</span> is an open set.</div></li>
+<li id="li-355"><div class="para" id="p-907">A collection of open sets <span class="process-math">\(\{U_{\alpha}\}_{\alpha\in\Delta}\)</span> such that <span class="process-math">\(\bigcap_{\alpha\in\Delta} U_{\alpha}\)</span> is not an open set.</div></li>
+</ol>
+</div></article><div class="para" id="p-908">According to the previous problem, the intersection of infinitely many open sets may or may not be open. So, we know that there is no theorem that states that the intersection of arbitrarily many open sets is open. We only know for certain that the intersection of finitely many open sets is open by <a href="" class="xref" data-knowl="./knowl/thm_finite_intersection_of_open_sets.html" title="Theorem 5.64">Theorem 5.64</a>.</div>
+<article class="definition definition-like" id="definition-34"><h3 class="heading">
+<span class="type">Definition</span><span class="space"> </span><span class="codenumber">5.67</span><span class="period">.</span>
+</h3>
+<div class="para" id="p-909">Suppose <span class="process-math">\(A\subseteq \mathbb{R}\text{.}\)</span> A point <span class="process-math">\(p\in \mathbb{R}\)</span> is an accumulation point of <span class="process-math">\(A\)</span> if for every bounded open interval <span class="process-math">\((a,b)\)</span> containing <span class="process-math">\(p\text{,}\)</span> there exists a point <span class="process-math">\(q \in (a,b)\cap A\)</span> such that <span class="process-math">\(q\neq p\text{.}\)</span>
+</div></article><div class="para" id="p-910">Notice that if <span class="process-math">\(p\)</span> is an accumulation point of <span class="process-math">\(A\text{,}\)</span> then <span class="process-math">\(p\)</span> may or may not be in <span class="process-math">\(A\text{.}\)</span> Loosely speaking, <span class="process-math">\(p\)</span> is an accumulation point of a set <span class="process-math">\(A\)</span> if there are points in <span class="process-math">\(A\)</span> arbitrarily close to <span class="process-math">\(p\text{.}\)</span> That is, if we zoom in on <span class="process-math">\(p\text{,}\)</span> we should always see points in <span class="process-math">\(A\)</span> nearby.</div>
+<article class="problem example-like" id="problem-98"><h3 class="heading">
+<span class="type">Problem</span><span class="space"> </span><span class="codenumber">5.68</span><span class="period">.</span>
+</h3>
+<div class="para logical" id="p-911">
+<div class="para">Consider the open interval <span class="process-math">\(I=(1,2)\text{.}\)</span> Prove each of the following.</div>
+<ol class="lower-alpha">
+<li id="li-356"><div class="para" id="p-912">The points <span class="process-math">\(1\)</span> and <span class="process-math">\(2\)</span> are accumulation points of <span class="process-math">\(I\text{.}\)</span>
+</div></li>
+<li id="li-357"><div class="para" id="p-913">If <span class="process-math">\(p\in I\text{,}\)</span> then <span class="process-math">\(p\)</span> is an accumulation point of <span class="process-math">\(I\text{.}\)</span>
+</div></li>
+<li id="li-358"><div class="para" id="p-914">If <span class="process-math">\(p\lt 1\)</span> or <span class="process-math">\(p&gt;2\text{,}\)</span> then <span class="process-math">\(p\)</span> is not an accumulation point of <span class="process-math">\(I\text{.}\)</span>
+</div></li>
+</ol>
+</div></article><article class="theorem theorem-like" id="theorem-101"><h3 class="heading">
+<span class="type">Theorem</span><span class="space"> </span><span class="codenumber">5.69</span><span class="period">.</span>
+</h3>
+<div class="para" id="p-915">A point <span class="process-math">\(p\)</span> is an accumulation point of the intervals <span class="process-math">\((a,b)\text{,}\)</span> <span class="process-math">\((a,b]\text{,}\)</span> <span class="process-math">\([a,b)\text{,}\)</span> and <span class="process-math">\([a,b]\)</span> if and only if <span class="process-math">\(p\in [a,b]\text{.}\)</span>
+</div></article><article class="problem example-like" id="problem-99"><h3 class="heading">
+<span class="type">Problem</span><span class="space"> </span><span class="codenumber">5.70</span><span class="period">.</span>
+</h3>
+<div class="para" id="p-916">Prove that the point <span class="process-math">\(p=0\)</span> is an accumulation point of <span class="process-math">\(A=\{\frac{1}{n}\mid n \in \mathbb{N}\}\text{.}\)</span> Are there any other accumulation points of <span class="process-math">\(A\text{?}\)</span>
+</div></article><article class="problem example-like" id="problem-100"><h3 class="heading">
+<span class="type">Problem</span><span class="space"> </span><span class="codenumber">5.71</span><span class="period">.</span>
+</h3>
+<div class="para" id="p-917">Provide an example of a set <span class="process-math">\(A\)</span> with exactly two accumulation points.</div></article><div class="para" id="p-918">Consider using <a href="" class="xref" data-knowl="./knowl/thm_rationals_dense.html" title="Theorem 5.56">Theorems 5.56</a> and <a href="" class="xref" data-knowl="./knowl/thm_irrationals_dense.html" title="Theorem 5.57">Theorem 5.57</a> when proving the next result.</div>
+<article class="theorem theorem-like" id="theorem-102"><h3 class="heading">
+<span class="type">Theorem</span><span class="space"> </span><span class="codenumber">5.72</span><span class="period">.</span>
+</h3>
+<div class="para" id="p-919">If <span class="process-math">\(p\in\mathbb{R}\text{,}\)</span> then <span class="process-math">\(p\)</span> is an accumulation point of <span class="process-math">\(\mathbb{Q}\text{.}\)</span>
+</div></article><article class="definition definition-like" id="definition-35"><h3 class="heading">
+<span class="type">Definition</span><span class="space"> </span><span class="codenumber">5.73</span><span class="period">.</span>
+</h3>
+<div class="para" id="p-920">A set <span class="process-math">\(A\subseteq \mathbb{R}\)</span> is called closed if <span class="process-math">\(A\)</span> contains all of its accumulation points.</div></article><article class="problem example-like" id="prob_closed_or_not"><h3 class="heading">
+<span class="type">Problem</span><span class="space"> </span><span class="codenumber">5.74</span><span class="period">.</span>
+</h3>
+<div class="para" id="p-921">Determine whether each of the sets in <a href="" class="xref" data-knowl="./knowl/prob_open_or_not.html" title="Problem 5.59">Problem 5.59</a> is closed. Justify your assertions.</div></article><div class="para" id="p-922">The upshot of Parts (i) and (l) of <a href="" class="xref" data-knowl="./knowl/prob_open_or_not.html" title="Problem 5.59">Problems 5.59</a> and <a href="" class="xref" data-knowl="./knowl/prob_closed_or_not.html" title="Problem 5.74">Problem 5.74</a> is that <span class="process-math">\(\mathbb{R}\)</span> and <span class="process-math">\(\emptyset\)</span> are both open and closed. It turns out that these are the only two subsets of the real numbers with this property. One issue with the terminology that could potentially create confusion is that the open interval <span class="process-math">\((-\infty, \infty)\)</span> is both an open and a closed set.</div>
+<article class="problem example-like" id="prob_open_vs_closed"><h3 class="heading">
+<span class="type">Problem</span><span class="space"> </span><span class="codenumber">5.75</span><span class="period">.</span>
+</h3>
+<div class="para logical" id="p-923">
+<div class="para">Provide an example of each of the following. You do not need to prove that your answers are correct.</div>
+<ol class="lower-alpha">
+<li id="li-359"><div class="para" id="p-924">A set that is open but not closed.</div></li>
+<li id="li-360"><div class="para" id="p-925">A set that is closed but not open.</div></li>
+<li id="prob_open_vs_closed_last"><div class="para" id="p-926">A set that neither open nor closed.</div></li>
+</ol>
+</div></article><div class="para" id="p-927">Another potentially annoying feature of the terminology illustrated by <a href="" class="xref" data-knowl="./knowl/prob_open_vs_closed.html" title="Problem 5.75">Problem 5.75</a> is that if a set is not open, it may or may not be closed. Similarly, if a set is not closed, it may or may not be open. That is, open and closed are not opposites of each other.</div>
+<div class="para" id="p-928">The next result justifies referring to <span class="process-math">\([a,b]\)</span> as a closed interval.</div>
+<article class="theorem theorem-like" id="theorem-103"><h3 class="heading">
+<span class="type">Theorem</span><span class="space"> </span><span class="codenumber">5.76</span><span class="period">.</span>
+</h3>
+<div class="para" id="p-929">Every interval of the form <span class="process-math">\([a,b]\text{,}\)</span> <span class="process-math">\((-\infty,b]\text{,}\)</span> <span class="process-math">\([a,\infty)\text{,}\)</span> or <span class="process-math">\((-\infty,\infty)\)</span> is a closed set.</div></article><article class="theorem theorem-like" id="theorem-104"><h3 class="heading">
+<span class="type">Theorem</span><span class="space"> </span><span class="codenumber">5.77</span><span class="period">.</span>
+</h3>
+<div class="para" id="p-930">Every finite subset of <span class="process-math">\(\mathbb{R}\)</span> is closed.</div></article><div class="para" id="p-931">Despite the fact that open and closed are not opposites of each other, there is a nice relationship between open and closed sets in terms of complements.</div>
+<article class="theorem theorem-like" id="theorem-105"><h3 class="heading">
+<span class="type">Theorem</span><span class="space"> </span><span class="codenumber">5.78</span><span class="period">.</span>
+</h3>
+<div class="para" id="p-932">Let <span class="process-math">\(U\subseteq \mathbb{R}\text{.}\)</span> Then <span class="process-math">\(U\)</span> is open if and only if <span class="process-math">\(U^C\)</span> is closed.</div></article><article class="theorem theorem-like" id="thm_finite_union_and_intersection_of_closed_sets"><h3 class="heading">
+<span class="type">Theorem</span><span class="space"> </span><span class="codenumber">5.79</span><span class="period">.</span>
+</h3>
+<div class="para logical" id="p-933">
+<div class="para">If <span class="process-math">\(A\)</span> and <span class="process-math">\(B\)</span> are closed sets, then</div>
+<ol class="lower-alpha">
+<li id="li-362"><div class="para" id="p-934">
+<span class="process-math">\(A\cup B\)</span> is a closed set, and</div></li>
+<li id="li-363"><div class="para" id="p-935">
+<span class="process-math">\(A\cap B\)</span> is a closed set.</div></li>
+</ol>
+</div></article><div class="para" id="p-936">The next two theorems are analogous to <a href="" class="xref" data-knowl="./knowl/thm_union_of_open_sets.html" title="Theorem 5.63">Theorems 5.63</a> and <a href="" class="xref" data-knowl="./knowl/thm_finite_intersection_of_open_sets.html" title="Theorem 5.64">Theorem 5.64</a>.</div>
+<article class="theorem theorem-like" id="thm_intersection_of_closed_sets"><h3 class="heading">
+<span class="type">Theorem</span><span class="space"> </span><span class="codenumber">5.80</span><span class="period">.</span>
+</h3>
+<div class="para" id="p-937">If <span class="process-math">\(\{A_{\alpha}\}_{\alpha\in\Delta}\)</span> is a collection of closed sets, then <span class="process-math">\(\bigcap_{\alpha\in \Delta} A_{\alpha}\)</span> is a closed set.</div></article><article class="theorem theorem-like" id="theorem-108"><h3 class="heading">
+<span class="type">Theorem</span><span class="space"> </span><span class="codenumber">5.81</span><span class="period">.</span>
+</h3>
+<div class="para" id="p-938">If <span class="process-math">\(\{A_{i}\}_{i=1}^n\)</span> is a finite collection of closed sets for <span class="process-math">\(n\in \mathbb{N}\text{,}\)</span> then <span class="process-math">\(\bigcup_{i=1}^n A_{i}\)</span> is a closed set.</div></article><article class="problem example-like" id="prob_union_of_closed_sets"><h3 class="heading">
+<span class="type">Problem</span><span class="space"> </span><span class="codenumber">5.82</span><span class="period">.</span>
+</h3>
+<div class="para" id="p-939">Provide an example of a collection of closed sets <span class="process-math">\(\{A_{\alpha}\}_{\alpha\in\Delta}\)</span> such that <span class="process-math">\(\bigcup_{\alpha\in \Delta} A_{\alpha}\)</span> is not a closed set.</div></article><article class="problem example-like" id="problem-104"><h3 class="heading">
+<span class="type">Problem</span><span class="space"> </span><span class="codenumber">5.83</span><span class="period">.</span>
+</h3>
+<div class="para logical" id="p-940">
+<div class="para">Determine whether each of the following sets is open, closed, both, or neither.</div>
+<ol class="lower-alpha">
+<li id="li-364"><div class="para" id="p-941"><span class="process-math">\(\displaystyle \displaystyle V=\bigcup_{n=2}^{\infty} \left(n - \frac{1}{2},n\right)\)</span></div></li>
+<li id="li-365"><div class="para" id="p-942"><span class="process-math">\(\displaystyle \displaystyle W=\bigcap_{n=2}^{\infty} \left(n - \frac{1}{2},n\right)\)</span></div></li>
+<li id="li-366"><div class="para" id="p-943"><span class="process-math">\(\displaystyle \displaystyle X=\bigcap_{n=1}^{\infty} \left(-\frac{1}{n}, \frac{1}{n}\right)\)</span></div></li>
+<li id="li-367"><div class="para" id="p-944"><span class="process-math">\(\displaystyle \displaystyle Y=\bigcap_{n=1}^{\infty} \left(-n, n\right)\)</span></div></li>
+<li id="li-368"><div class="para" id="p-945"><span class="process-math">\(\displaystyle Z=(0,1)\cap \mathbb{Q}\)</span></div></li>
+</ol>
+</div></article><article class="problem example-like" id="problem-105"><h3 class="heading">
+<span class="type">Problem</span><span class="space"> </span><span class="codenumber">5.84</span><span class="period">.</span>
+</h3>
+<div class="para" id="p-946">Prove or provide a counterexample: Every non-closed set has at least one accumulation point.</div></article><div class="para" id="p-947">We now introduce three special classes of subsets of <span class="process-math">\(\mathbb{R}\text{:}\)</span> compact, connected, and disconnected.</div>
+<article class="definition definition-like" id="definition-36"><h3 class="heading">
+<span class="type">Definition</span><span class="space"> </span><span class="codenumber">5.85</span><span class="period">.</span>
+</h3>
+<div class="para" id="p-948">A set <span class="process-math">\(K\subseteq\mathbb{R}\)</span> is called compact if <span class="process-math">\(K\)</span> is both closed and bounded.</div></article><div class="para" id="p-949">It is important to point out that there is a more general definition of compact in an arbitrary topological space. However, using our notions of open and closed, it is a theorem that a subset of the real line is compact if and only if it is closed and bounded.</div>
+<article class="problem example-like" id="prob_compact_or_not"><h3 class="heading">
+<span class="type">Problem</span><span class="space"> </span><span class="codenumber">5.86</span><span class="period">.</span>
+</h3>
+<div class="para logical" id="p-950">
+<div class="para">Determine whether each of the following sets is compact. Briefly justify your assertions.</div>
+<ol class="lower-alpha">
+<li id="li-369"><div class="para" id="p-951"><span class="process-math">\(\displaystyle [0,1)\cup [2,3]\)</span></div></li>
+<li id="li-370"><div class="para" id="p-952"><span class="process-math">\(\displaystyle [0,1)\cup (1,2]\)</span></div></li>
+<li id="li-371"><div class="para" id="p-953"><span class="process-math">\(\displaystyle [0,1)\cup [1,2]\)</span></div></li>
+<li id="li-372"><div class="para" id="p-954"><span class="process-math">\(\displaystyle \mathbb{R}\)</span></div></li>
+<li id="li-373"><div class="para" id="p-955"><span class="process-math">\(\displaystyle \mathbb{Q}\)</span></div></li>
+<li id="li-374"><div class="para" id="p-956"><span class="process-math">\(\displaystyle \mathbb{R}\setminus\mathbb{Q}\)</span></div></li>
+<li id="li-375"><div class="para" id="p-957"><span class="process-math">\(\displaystyle \mathbb{Z}\)</span></div></li>
+<li id="li-376"><div class="para" id="p-958"><span class="process-math">\(\displaystyle \{\frac{1}{n}\mid n\in\mathbb{N}\}\)</span></div></li>
+<li id="li-377"><div class="para" id="p-959"><span class="process-math">\(\displaystyle [0,1]\cup\{1+\frac{1}{n}\mid n\in\mathbb{N}\}\)</span></div></li>
+<li id="li-378"><div class="para" id="p-960"><span class="process-math">\(\displaystyle \{17,42\}\)</span></div></li>
+<li id="li-379"><div class="para" id="p-961"><span class="process-math">\(\displaystyle \{17\}\)</span></div></li>
+<li id="li-380"><div class="para" id="p-962"><span class="process-math">\(\displaystyle \emptyset\)</span></div></li>
+</ol>
+</div></article><article class="problem example-like" id="problem-107"><h3 class="heading">
+<span class="type">Problem</span><span class="space"> </span><span class="codenumber">5.87</span><span class="period">.</span>
+</h3>
+<div class="para" id="p-963">Is every finite set compact? Justify your assertion.</div></article><div class="para" id="p-964">The next theorem says that every nonempty compact set contains its greatest lower bound and its least upper bound. That is, every nonempty compact set attains a minimum and a maximum value.</div>
+<article class="theorem theorem-like" id="theorem-109"><h3 class="heading">
+<span class="type">Theorem</span><span class="space"> </span><span class="codenumber">5.88</span><span class="period">.</span>
+</h3>
+<div class="para" id="p-965">If <span class="process-math">\(K\)</span> is a nonempty compact subset of <span class="process-math">\(\mathbb{R}\text{,}\)</span> then <span class="process-math">\(\sup(K),\inf(K)\in K\text{.}\)</span>
+</div></article><article class="definition definition-like" id="definition-37"><h3 class="heading">
+<span class="type">Definition</span><span class="space"> </span><span class="codenumber">5.89</span><span class="period">.</span>
+</h3>
+<div class="para" id="p-966">A set <span class="process-math">\(A\subseteq \mathbb{R}\)</span> is disconnected if there exists two disjoint open sets <span class="process-math">\(U_1\)</span> and <span class="process-math">\(U_2\)</span> such that <span class="process-math">\(A\cap U_1\)</span> and <span class="process-math">\(A\cap U_2\)</span> are nonempty but <span class="process-math">\(A\subseteq U_1\cup U_2\)</span> (equivalently, <span class="process-math">\(A=(A\cap U_1)\cup(A\cap U_2)\)</span>). If a set is not disconnected, then we say that it is connected.</div></article><div class="para" id="p-967">In other words, a set is disconnected if it can be partitioned into two nonempty subsets such that each subset does not contain points of the other and does not contain any accumulation points of the other. Showing that a set is disconnected is generally easier than showing a set is connected. To prove that a set is disconnected, you simply need to exhibit two open sets with the necessary properties. However, to prove that a set is connected, you need to prove that no such pair of open sets exists.</div>
+<article class="problem example-like" id="problem-108"><h3 class="heading">
+<span class="type">Problem</span><span class="space"> </span><span class="codenumber">5.90</span><span class="period">.</span>
+</h3>
+<div class="para" id="p-968">Determine whether each of the sets in <a href="" class="xref" data-knowl="./knowl/prob_compact_or_not.html" title="Problem 5.86">Problem 5.86</a> is is connected or disconnected. Briefly justify your assertions.</div></article><article class="theorem theorem-like" id="theorem-110"><h3 class="heading">
+<span class="type">Theorem</span><span class="space"> </span><span class="codenumber">5.91</span><span class="period">.</span>
+</h3>
+<div class="para" id="p-969">If <span class="process-math">\(a\in\mathbb{R}\text{,}\)</span> then <span class="process-math">\(\{a\}\)</span> is connected.</div></article><div class="para" id="p-970">The proof of the next theorem is harder than you might expect. Consider a proof by contradiction and try to make use of the Completeness Axiom.</div>
+<article class="theorem theorem-like" id="thm_closed_interval_connected"><h3 class="heading">
+<span class="type">Theorem</span><span class="space"> </span><span class="codenumber">5.92</span><span class="period">.</span>
+</h3>
+<div class="para" id="p-971">Every closed interval <span class="process-math">\([a,b]\)</span> is connected.</div></article><div class="para" id="p-972">It turns out that every connected set in <span class="process-math">\(\mathbb{R}\)</span> is either a singleton or an interval. We have not officially proved this claim, but we do have the tools to do so. Feel free to try your hand at proving this fact.</div>
+<div class="para" id="p-973">\epigraph{If you learn how to learn, it’s the ultimate meta skill and I believe you can learn how to be healthy, you can learn how to be fit, you can learn how to be happy, you can learn how to have good relationships, you can learn how to be successful. These are all things that can be learned. So if you can learn that is a trump card, it’s an ace, it’s a joker, it’s a wild card. You can trade it for any other skill.}{Naval Ravikant, entrepreneur &amp; investor}</div></section></div>
+<div class="ptx-content-footer">
+<a class="previous-button button" href="sec_AxiomsRealNumbers.html" title="Previous"><span class="icon">&lt;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon">^</span><span class="name">Top</span></a><a class="next-button button" href="chap_ThreeFamousTheorems.html" title="Next"><span class="name">Next</span><span class="icon">&gt;</span></a>
+</div></main>
+</div>
+<div id="ptx-page-footer" class="ptx-page-footer">
+<a class="pretext-link" href="https://pretextbook.org" title="PreTeXt"><div class="logo"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="338 3000 8772 6866"><g style="stroke-width:.025in; stroke:black; fill:none"><polyline points="472,3590 472,9732 " style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round; "></polyline><path style="stroke:#000000;stroke-width:126;stroke-linecap:butt;" d="M 4724,9448 A 4660 4660  0  0  1  8598  9259"></path><path style="stroke:#000000;stroke-width:174;stroke-linecap:butt;" d="M 4488,9685 A 4228 4228  0  0  0   472  9732"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:butt;" d="M 4724,3590 A 4241 4241  0  0  1  8598  3496"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:round;" d="M 850,3496  A 4241 4241  0  0  1  4724  3590"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:round;" d="M 850,9259  A 4507 4507  0  0  1  4724  9448"></path><polyline points="5385,4299 4062,8125" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8598,3496 8598,9259" style="stroke:#000000;stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="850,3496 850,9259" style="stroke:#000000;stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="4960,9685 4488,9685" style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="3070,4582 1889,6141 3070,7700" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="6418,4582 7600,6141 6418,7700" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8976,3590 8976,9732" style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><path style="stroke:#000000;stroke-width:174;stroke-linecap:butt;" d="M 4960,9685 A 4228 4228  0  0  1  8976  9732"></path></g></svg></div></a><a class="runestone-link" href="https://runestone.academy" title="Runestone Academy"><img class="logo" src="https://runestone.academy/runestone/static/images/RAIcon_cropped.png"></a><a class="mathjax-link" href="https://www.mathjax.org" title="MathJax"><img class="logo" src="https://www.mathjax.org/badge/badge-square-2.png"></a>
+</div>
+</body>
+</html>

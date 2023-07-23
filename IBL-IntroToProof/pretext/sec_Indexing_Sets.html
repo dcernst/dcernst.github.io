@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<!--********************************************-->
+<!--*       Generated from PreTeXt source      *-->
+<!--*                                          *-->
+<!--*         https://pretextbook.org          *-->
+<!--*                                          *-->
+<!--********************************************-->
+<html lang="en-US" dir="ltr">
+<head xmlns:og="http://ogp.me/ns#" xmlns:book="https://ogp.me/ns/book#">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Indexing Sets</title>
+<meta name="Keywords" content="Authored in PreTeXt">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:type" content="book">
+<meta property="book:title" content="An Introduction to Proof via Inquiry-Based Learning">
+<meta property="book:author" content="Dana C. Ernst, PhD">
+<script>
+var runestoneMathReady = new Promise((resolve) => window.rsMathReady = resolve);
+window.MathJax = {
+  "tex": {
+    "inlineMath": [
+      [
+        "\\(",
+        "\\)"
+      ]
+    ],
+    "tags": "none",
+    "tagSide": "right",
+    "tagIndent": ".8em",
+    "packages": {
+      "[+]": [
+        "base",
+        "extpfeil",
+        "ams",
+        "amscd",
+        "color",
+        "newcommand",
+        "knowl"
+      ]
+    }
+  },
+  "options": {
+    "ignoreHtmlClass": "tex2jax_ignore|ignore-math",
+    "processHtmlClass": "process-math"
+  },
+  "chtml": {
+    "scale": 0.98,
+    "mtextInheritFont": true
+  },
+  "loader": {
+    "load": [
+      "input/asciimath",
+      "[tex]/extpfeil",
+      "[tex]/amscd",
+      "[tex]/color",
+      "[tex]/newcommand",
+      "[pretext]/mathjaxknowl3.js"
+    ],
+    "paths": {
+      "pretext": "https://pretextbook.org/js/lib"
+    }
+  },
+  "startup": {
+    pageReady() {
+      return MathJax.startup.defaultPageReady().then(function () {
+      console.log("in ready function");
+      rsMathReady();
+      }
+    )}
+  }
+};
+</script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="https://pretextbook.org/js/0.3/pretext_search.js"></script><link href="https://pretextbook.org/css/0.7/pretext_search.css" rel="stylesheet" type="text/css">
+<script>js_version = 0.3</script><script src="https://pretextbook.org/js/lib/jquery.min.js"></script><script src="https://pretextbook.org/js/lib/jquery.sticky.js"></script><script src="https://pretextbook.org/js/lib/jquery.espy.min.js"></script><script src="https://pretextbook.org/js/0.3/pretext.js"></script><script>miniversion=0.1</script><script src="https://pretextbook.org/js/0.3/pretext_add_on.js?x=1"></script><script src="https://pretextbook.org/js/0.3/user_preferences.js"></script><script src="https://pretextbook.org/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
+</script><link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&amp;family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&amp;family=Tinos:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.cdnfonts.com/css/dejavu-serif" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz,wdth,wght@8..144,50..150,100..900&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wdth,wght@75..100,300..800&amp;display=swap" rel="stylesheet">
+<link href="https://pretextbook.org/css/0.7/pretext.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.7/pretext_add_on.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.7/shell_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.7/banner_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.7/navbar_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.7/toc_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.7/knowls_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.7/style_oscarlevin.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.7/colors_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.7/setcolors.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" href="external/custom-styles.css">
+</head>
+<body class="pretext book ignore-math">
+<a class="assistive" href="#ptx-content">Skip to main content</a><header id="ptx-masthead" class="ptx-masthead"><div class="ptx-banner">
+<a id="logo-link" class="logo-link" href=""></a><div class="title-container">
+<h1 class="heading"><a href="book-1.html"><span class="title">An Introduction to Proof via Inquiry-Based Learning</span></a></h1>
+<p class="byline">Dana C. Ernst, PhD</p>
+</div>
+<div id="searchresultsplaceholder" class="searchresultsplaceholder" style="display: none">
+<button id="closesearchresults" class="closesearchresults" onclick="document.getElementById('searchresultsplaceholder').style.display = 'none'; return false;">x</button><h2>Search Results: <span id="searchterms" class="searchterms"></span>
+</h2>
+<div id="searchempty" class="searchempty"><span>No results.</span></div>
+<ol id="searchresults" class="searchresults"></ol>
+</div>
+</div></header><nav id="ptx-navbar" class="ptx-navbar navbar"><button class="toc-toggle button" aria-label="Show or hide table of contents"><span class="icon">☰</span><span class="name">Contents</span></button><button id="user-preferences-button" class="user-preferences-button button" title="Modify user preferences"><span id="avatarbutton" class="avatarbutton name">You!</span><div id="preferences_menu_holder" class="preferences_menu_holder hidden"><ol id="preferences_menu" class="preferences_menu" style="font-family: 'Roboto Serif', serif;">
+<li data-env="avatar" tabindex="-1">Choose avatar<div class="wrap_to_submenu"><span class="to_submenu">▻</span></div>
+<ol class="hidden avatar">
+<li data-val="You!" tabindex="-1">
+<span id="theYou!" class="avatarcheck">✔️</span>You!</li>
+<li data-val="😺" tabindex="-1">
+<span id="the😺" class="avatarcheck"></span>😺</li>
+<li data-val="👤" tabindex="-1">
+<span id="the👤" class="avatarcheck"></span>👤</li>
+<li data-val="👽" tabindex="-1">
+<span id="the👽" class="avatarcheck"></span>👽</li>
+<li data-val="🐶" tabindex="-1">
+<span id="the🐶" class="avatarcheck"></span>🐶</li>
+<li data-val="🐼" tabindex="-1">
+<span id="the🐼" class="avatarcheck"></span>🐼</li>
+<li data-val="🌈" tabindex="-1">
+<span id="the🌈" class="avatarcheck"></span>🌈</li>
+</ol>
+</li>
+<li data-env="fontfamily" tabindex="-1">Font family<div class="wrap_to_submenu"><span class="to_submenu">▻</span></div>
+<ol class="hidden fontfamily">
+<li data-val="face" data-change="OS" tabindex="-1" style="font-family: 'Open Sans'">
+<span id="theOS" class="ffcheck">✔️</span><span class="name">Open Sans</span><span class="sample">AaBbCc 123 PreTeXt</span>
+</li>
+<li data-val="face" data-change="RS" tabindex="-1" style="font-family: 'Roboto Serif'">
+<span id="theRS" class="ffcheck"></span><span class="name">Roboto Serif</span><span class="sample">AaBbCc 123 PreTeXt</span>
+</li>
+</ol>
+</li>
+<li data-env="font" tabindex="-1">Adjust font<div class="wrap_to_submenu"><span class="to_submenu">▻</span></div>
+<ol class="hidden fonts">
+<li>Size</li>
+<li><span id="thesize">12</span></li>
+<li data-val="size" data-change="-1" tabindex="-1" style="font-size: 80%">Smaller</li>
+<li data-val="size" data-change="1" tabindex="-1" style="font-size: 110%">Larger</li>
+<li>Width</li>
+<li><span id="thewdth">100</span></li>
+<li data-val="wdth" data-change="-5" tabindex="-1" style="font-variation-settings: 'wdth' 60">narrower</li>
+<li data-val="wdth" data-change="5" tabindex="-1" style="font-variation-settings: 'wdth' 150">wider</li>
+<li>Weight</li>
+<li><span id="thewght">400</span></li>
+<li data-val="wght" data-change="-50" tabindex="-1" style="font-weight: 200">thinner</li>
+<li data-val="wght" data-change="50" tabindex="-1" style="font-weight: 700">heavier</li>
+<li>Letter spacing</li>
+<li>
+<span id="thelspace">0</span><span class="byunits">/200</span>
+</li>
+<li data-val="lspace" data-change="-1" tabindex="-1">closer</li>
+<li data-val="lspace" data-change="1" tabindex="-1">f a r t h e r</li>
+<li>Word spacing</li>
+<li>
+<span id="thewspace">0</span><span class="byunits">/50</span>
+</li>
+<li data-val="wspace" data-change="-1" tabindex="-1">smaller gap </li>
+<li data-val="wspace" data-change="1" tabindex="-1">larger gap</li>
+<li>Line Spacing</li>
+<li>
+<span id="theheight">135</span><span class="byunits">/100</span>
+</li>
+<li data-val="height" data-change="-5" tabindex="-1" style="line-height: 1">closer<br>together</li>
+<li data-val="height" data-change="5" tabindex="-1" style="line-height: 1.75">further<br>apart</li>
+</ol>
+</li>
+<li data-env="atmosphere" tabindex="-1">Light/dark mode<div class="wrap_to_submenu"><span class="to_submenu">▻</span></div>
+<ol class="hidden atmosphere">
+<li data-val="default" tabindex="-1">
+<span id="thedefault" class="atmospherecheck">✔️</span>default</li>
+<li data-val="pastel" tabindex="-1">
+<span id="thepastel" class="atmospherecheck"></span>pastel</li>
+<li data-val="darktwilight" tabindex="-1">
+<span id="thedarktwilight" class="atmospherecheck"></span>twilight</li>
+<li data-val="dark" tabindex="-1">
+<span id="thedark" class="atmospherecheck"></span>dark</li>
+<li data-val="darkmidnight" tabindex="-1">
+<span id="thedarkmidnight" class="atmospherecheck"></span>midnight</li>
+</ol>
+</li>
+<li data-env="ruler" tabindex="-1">Reading ruler<div class="wrap_to_submenu"><span class="to_submenu">▻</span></div>
+<ol class="hidden ruler">
+<li data-val="none" tabindex="-1">
+<span id="thenone" class="rulercheck">✔️</span>none</li>
+<li data-val="underline" tabindex="-1">
+<span id="theunderline" class="rulercheck"></span>underline</li>
+<li data-val="lunderline" tabindex="-1">
+<span id="thelunderline" class="rulercheck"></span>L-underline</li>
+<li data-val="greybar" tabindex="-1">
+<span id="thegreybar" class="rulercheck"></span>grey bar</li>
+<li data-val="lightbox" tabindex="-1">
+<span id="thelightbox" class="rulercheck"></span>light box</li>
+<li data-val="sunrise" tabindex="-1">
+<span id="thesunrise" class="rulercheck"></span>sunrise</li>
+<li data-val="sunriseunderline" tabindex="-1">
+<span id="thesunriseunderline" class="rulercheck"></span>sunrise underline</li>
+<li class="moveQ">Motion by:</li>
+<li data-val="mouse" tabindex="-1">
+<span id="themouse" class="motioncheck">✔️</span>follow the mouse</li>
+<li data-val="arrow" tabindex="-1">
+<span id="thearrow" class="motioncheck"></span>up/down arrows - not yet</li>
+<li data-val="eye" tabindex="-1">
+<span id="theeye" class="motioncheck"></span>eye tracking - not yet</li>
+</ol>
+</li>
+</ol></div></button><span class="treebuttons"><a class="previous-button button" href="sec_PowerSets.html" title="Previous"><span class="icon">&lt;</span><span class="name">Prev</span></a><a class="up-button button" href="chap_SetTheory.html" title="Up"><span class="icon">^</span><span class="name">Up</span></a><a class="next-button button" href="sec_Cartesian_Products.html" title="Next"><span class="name">Next</span><span class="icon">&gt;</span></a></span><div class="searchbox"><div class="searchwidget">
+<input id="ptxsearch" class="ptxsearch" type="text" name="terms" placeholder="Search" onchange="doSearch()"><button id="searchbutton" class="searchbutton" type="button" onclick="doSearch()">🔍</button>
+</div></div></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\newcommand{\dom}{\operatorname{Dom}}
+\newcommand{\codom}{\operatorname{Codom}}
+\newcommand{\range}{\operatorname{Rng}}
+\newcommand{\lcm}{\operatorname{lcm}}
+\newcommand{\card}{\operatorname{card}}
+\newcommand{\rel}{\operatorname{rel}}
+\newcommand{\Rel}{\operatorname{Rel}}
+\newcommand{\logeq}{\Longleftrightarrow}
+\renewcommand{\implies}{\Longrightarrow}
+
+\def\tcboxmath{}
+\def\coloneqq{:=}
+\newcommand{\lt}{&lt;}
+\newcommand{\gt}{&gt;}
+\newcommand{\amp}{&amp;}
+\definecolor{fillinmathshade}{gray}{0.9}
+\newcommand{\fillinmath}[1]{\mathchoice{\colorbox{fillinmathshade}{$\displaystyle     \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\textstyle        \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptstyle      \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptscriptstyle\phantom{\,#1\,}$}}}
+\)</span></div>
+<div class="ptx-page">
+<div id="ptx-sidebar" class="ptx-sidebar"><nav id="ptx-toc" class="ptx-toc depth2"><ul class="structural">
+<li>
+<div class="toc-item"><a href="frontmatter-1.html" class="internal"><span class="title">Front Matter</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="colophon.html" class="internal"><span class="title">Colophon</span></a></div></li>
+<li><div class="toc-item"><a href="chap_preface.html" class="internal"><span class="title">Preface</span></a></div></li>
+<li><div class="toc-item"><a href="chap_acknowledgements.html" class="internal"><span class="title">Acknowledgements</span></a></div></li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="chap_intro.html" class="internal"><span class="codenumber">1</span> <span class="title">Introduction</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="sec_WhatIsThisBookAllAbout.html" class="internal"><span class="codenumber">1.1</span> <span class="title">What is This Book All About?</span></a></div></li>
+<li><div class="toc-item"><a href="sec_what_should_you_expect.html" class="internal"><span class="codenumber">1.2</span> <span class="title">What Should You Expect?</span></a></div></li>
+<li><div class="toc-item"><a href="sec_IBLApproach.html" class="internal"><span class="codenumber">1.3</span> <span class="title">An Inquiry-Based Approach</span></a></div></li>
+<li><div class="toc-item"><a href="sec_Structure.html" class="internal"><span class="codenumber">1.4</span> <span class="title">Structure of the Textbook</span></a></div></li>
+<li><div class="toc-item"><a href="sec_guidance.html" class="internal"><span class="codenumber">1.5</span> <span class="title">Some Minimal Guidance</span></a></div></li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="chap_IntroToMath.html" class="internal"><span class="codenumber">2</span> <span class="title">Mathematics and Logic</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="sec_baby_number_theory.html" class="internal"><span class="codenumber">2.1</span> <span class="title">A Taste of Number Theory</span></a></div></li>
+<li><div class="toc-item"><a href="sec_Intro_to_Logic.html" class="internal"><span class="codenumber">2.2</span> <span class="title">Introduction to Logic</span></a></div></li>
+<li><div class="toc-item"><a href="sec_Techniques_for_Proving_Conditional_Propositions.html" class="internal"><span class="codenumber">2.3</span> <span class="title">Techniques for Proving Conditional Propositions</span></a></div></li>
+<li><div class="toc-item"><a href="sec_Introduction_to_Quantification.html" class="internal"><span class="codenumber">2.4</span> <span class="title">Introduction to Quantification</span></a></div></li>
+<li><div class="toc-item"><a href="sec_More_About_Quantification.html" class="internal"><span class="codenumber">2.5</span> <span class="title">More About Quantification</span></a></div></li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="chap_SetTheory.html" class="internal"><span class="codenumber">3</span> <span class="title">Set Theory</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="sec_Sets.html" class="internal"><span class="codenumber">3.1</span> <span class="title">Sets</span></a></div></li>
+<li><div class="toc-item"><a href="sec_RussellsParadox.html" class="internal"><span class="codenumber">3.2</span> <span class="title">Russell’s Paradox</span></a></div></li>
+<li><div class="toc-item"><a href="sec_PowerSets.html" class="internal"><span class="codenumber">3.3</span> <span class="title">Power Sets</span></a></div></li>
+<li class="active"><div class="toc-item"><a href="sec_Indexing_Sets.html" class="internal"><span class="codenumber">3.4</span> <span class="title">Indexing Sets</span></a></div></li>
+<li><div class="toc-item"><a href="sec_Cartesian_Products.html" class="internal"><span class="codenumber">3.5</span> <span class="title">Cartesian Products of Sets</span></a></div></li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="chap_Induction.html" class="internal"><span class="codenumber">4</span> <span class="title">Induction</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="sec_Intro_to_Induction.html" class="internal"><span class="codenumber">4.1</span> <span class="title">Introduction to Induction</span></a></div></li>
+<li><div class="toc-item"><a href="sec_More_on_Induction.html" class="internal"><span class="codenumber">4.2</span> <span class="title">More on Induction</span></a></div></li>
+<li><div class="toc-item"><a href="sec_CompleteInduction.html" class="internal"><span class="codenumber">4.3</span> <span class="title">Complete Induction</span></a></div></li>
+<li><div class="toc-item"><a href="sec_WOP.html" class="internal"><span class="codenumber">4.4</span> <span class="title">The Well-Ordering Principle</span></a></div></li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="chap_RealNumbers.html" class="internal"><span class="codenumber">5</span> <span class="title">The Real Numbers</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="sec_AxiomsRealNumbers.html" class="internal"><span class="codenumber">5.1</span> <span class="title">Axioms of the Real Numbers</span></a></div></li>
+<li><div class="toc-item"><a href="sec_Topology.html" class="internal"><span class="codenumber">5.2</span> <span class="title">Standard Topology of the Real Line</span></a></div></li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="chap_ThreeFamousTheorems.html" class="internal"><span class="codenumber">6</span> <span class="title">Three Famous Theorems</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="sec_FTA.html" class="internal"><span class="codenumber">6.1</span> <span class="title">The Fundamental Theorem of Arithmetic</span></a></div></li>
+<li><div class="toc-item"><a href="sec_Irrationality_of_Root_2.html" class="internal"><span class="codenumber">6.2</span> <span class="title">The Irrationality of <span class="process-math">\(\sqrt{2}\)</span></span></a></div></li>
+<li><div class="toc-item"><a href="sec_Infinitude_of_Primes.html" class="internal"><span class="codenumber">6.3</span> <span class="title">The Infinitude of Primes</span></a></div></li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="chap_Relations_and_Partitions.html" class="internal"><span class="codenumber">7</span> <span class="title">Relations and Partitions</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="sec_Relations.html" class="internal"><span class="codenumber">7.1</span> <span class="title">Relations</span></a></div></li>
+<li><div class="toc-item"><a href="sec_Equivalence_Relations.html" class="internal"><span class="codenumber">7.2</span> <span class="title">Equivalence Relations</span></a></div></li>
+<li><div class="toc-item"><a href="sec_Partitions.html" class="internal"><span class="codenumber">7.3</span> <span class="title">Partitions</span></a></div></li>
+<li><div class="toc-item"><a href="sec_ModularArithmetic.html" class="internal"><span class="codenumber">7.4</span> <span class="title">Modular Arithmetic</span></a></div></li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="chap_Functions.html" class="internal"><span class="codenumber">8</span> <span class="title">Functions</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="sec_Intro_to_Functions.html" class="internal"><span class="codenumber">8.1</span> <span class="title">Introduction to Functions</span></a></div></li>
+<li><div class="toc-item"><a href="sec_Injective_and_Surjective_Functions.html" class="internal"><span class="codenumber">8.2</span> <span class="title">Injective and Surjective Functions</span></a></div></li>
+<li><div class="toc-item"><a href="sec_Compositions_and_Inverse_Functions.html" class="internal"><span class="codenumber">8.3</span> <span class="title">Compositions and Inverse Functions</span></a></div></li>
+<li><div class="toc-item"><a href="sec_Images_and_Preimages.html" class="internal"><span class="codenumber">8.4</span> <span class="title">Images and Preimages of Functions</span></a></div></li>
+<li><div class="toc-item"><a href="sec_Continuity.html" class="internal"><span class="codenumber">8.5</span> <span class="title">Continuous Real Functions</span></a></div></li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="chap_Cardinality.html" class="internal"><span class="codenumber">9</span> <span class="title">Cardinality</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="sec_Intro_to_Cardinality.html" class="internal"><span class="codenumber">9.1</span> <span class="title">Introduction to Cardinality</span></a></div></li>
+<li><div class="toc-item"><a href="sec_Finite_Sets.html" class="internal"><span class="codenumber">9.2</span> <span class="title">Finite Sets</span></a></div></li>
+<li><div class="toc-item"><a href="sec_Infinite_Sets.html" class="internal"><span class="codenumber">9.3</span> <span class="title">Infinite Sets</span></a></div></li>
+<li><div class="toc-item"><a href="sec_Countable_Sets.html" class="internal"><span class="codenumber">9.4</span> <span class="title">Countable Sets</span></a></div></li>
+<li><div class="toc-item"><a href="sec_Uncountable_Sets.html" class="internal"><span class="codenumber">9.5</span> <span class="title">Uncountable Sets</span></a></div></li>
+</ul>
+</li>
+<li><div class="toc-item"><a href="appendix_elements_of_style.html" class="internal"><span class="codenumber">A</span> <span class="title">Elements of Style for Proofs</span></a></div></li>
+<li><div class="toc-item"><a href="appendix_fancy_math_terms.html" class="internal"><span class="codenumber">B</span> <span class="title">Fancy Mathematical Terms</span></a></div></li>
+<li><div class="toc-item"><a href="appendix_paradoxes.html" class="internal"><span class="codenumber">C</span> <span class="title">Paradoxes</span></a></div></li>
+<li><div class="toc-item"><a href="appendix_definitions.html" class="internal"><span class="codenumber">D</span> <span class="title">Definitions in Mathematics</span></a></div></li>
+</ul></nav></div>
+<main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="section" id="sec_Indexing_Sets"><h2 class="heading hide-type">
+<span class="type">Section</span> <span class="codenumber">3.4</span> <span class="title">Indexing Sets</span>
+</h2>
+<div class="para logical" id="p-517">
+<div class="para">Suppose we consider the following collection of open intervals:</div>
+<div class="displaymath process-math">
+\begin{equation*}
+(0,1), (0,1/2), (0,1/4), \ldots, (0,1/2^{n-1}), \ldots
+\end{equation*}
+</div>
+</div>
+<div class="para logical" id="p-518">
+<div class="para">This collection has a natural way for us to “index” the sets:</div>
+<div class="displaymath process-math">
+\begin{equation*}
+I_1=(0,1), I_2=(0,1/2), \ldots, I_n=(0,1/2^{n-1}), \ldots
+\end{equation*}
+</div>
+</div>
+<div class="para" id="p-519">In this case the sets are <em class="emphasis">indexed</em> by the set <span class="process-math">\(\mathbb{N}\text{.}\)</span> The subscripts are taken from the <em class="emphasis">index set</em>. If we wanted to talk about an arbitrary set from this indexed collection, we could use the notation <span class="process-math">\(I_n\text{.}\)</span>
+</div>
+<div class="para logical" id="p-520">
+<div class="para">Let’s consider another example:</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\{a\}, \{a,b\}, \{a,b,c\}, \ldots, \{a,b,c,\ldots,z\}
+\end{equation*}
+</div>
+</div>
+<div class="para logical" id="p-521">
+<div class="para">An obvious way to index these sets is as follows:</div>
+<div class="displaymath process-math">
+\begin{equation*}
+A_1=\{a\}, A_2=\{a,b\}, A_3=\{a,b,c\}, \ldots, A_{26}=\{a,b,c,\ldots,z\}
+\end{equation*}
+</div>
+</div>
+<div class="para" id="p-522">In this case, the collection of sets is indexed by <span class="process-math">\(\{1,2,\ldots, 26\}\text{.}\)</span>
+</div>
+<div class="para" id="p-523">Using indexing sets in mathematics is an extremely useful notational tool, but it is important to keep straight the difference between the sets that are being indexed, the elements in each set being indexed, the indexing set, and the elements of the indexing set.</div>
+<div class="para logical" id="p-524">
+<div class="para">Any set (finite or infinite) can be used as an indexing set. Often capital Greek letters are used to denote arbitrary indexing sets and small Greek letters to represent elements of these sets. If the indexing set is a subset of <span class="process-math">\(\mathbb{R}\text{,}\)</span> then it is common to use Roman letters as individual indices. Of course, these are merely conventions, not rules.</div>
+<ul class="disc">
+<li id="li-223"><div class="para" id="p-525">If <span class="process-math">\(\Delta\)</span> is a set and we have a collection of sets indexed by <span class="process-math">\(\Delta\text{,}\)</span> then we may write <span class="process-math">\(\{S_{\alpha}\}_{\alpha\in \Delta}\)</span> to refer to this collection. We read this as “the set of <span class="process-math">\(S\)</span>-sub-alphas over alpha in Delta.”</div></li>
+<li id="li-224"><div class="para" id="p-526">If a collection of sets is indexed by <span class="process-math">\(\mathbb{N}\text{,}\)</span> then we may write <span class="process-math">\(\{U_n\}_{n\in\mathbb{N}}\)</span> or <span class="process-math">\(\{U_n\}_{n=1}^{\infty}\text{.}\)</span>
+</div></li>
+<li id="li-225"><div class="para" id="p-527">Borrowing from this idea, a collection <span class="process-math">\(\{A_1,\ldots,A_{26}\}\)</span> may be written as <span class="process-math">\(\{A_n\}_{n=1}^{26}\text{.}\)</span>
+</div></li>
+</ul>
+</div>
+<article class="definition definition-like" id="definition-21"><h3 class="heading">
+<span class="type">Definition</span><span class="space"> </span><span class="codenumber">3.32</span><span class="period">.</span>
+</h3>
+<div class="para logical" id="p-528">
+<div class="para">Let <span class="process-math">\(\{A_{\alpha}\}_{\alpha\in\Delta}\)</span> be a collection of sets.</div>
+<ol class="lower-alpha">
+<li id="li-226"><div class="para logical" id="p-529">
+<div class="para">The <em class="emphasis">union of the entire collection</em> is defined via</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\tcboxmath{\bigcup_{\alpha\in\Delta} A_{\alpha}\coloneqq \{x\mid x\in A_{\alpha} \mbox{ for some } \alpha\in \Delta\}}\text{.}
+\end{equation*}
+</div>
+</div></li>
+<li id="li-227"><div class="para logical" id="p-530">
+<div class="para">The <em class="emphasis">intersection of the entire collection</em> is defined via</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\tcboxmath{\bigcap_{\alpha\in\Delta} A_{\alpha}\coloneqq \{x\mid x\in A_{\alpha} \mbox{ for all } \alpha\in \Delta\}}\text{.}
+\end{equation*}
+</div>
+</div></li>
+</ol>
+</div></article><div class="para logical" id="p-531">
+<div class="para">In the special case that <span class="process-math">\(\Delta=\mathbb{N}\text{,}\)</span> we write</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\bigcup_{n=1}^{\infty}A_n= \{ x \mid  x \in A_n \mbox{ for some }  n \in \mathbb{N}\}= A_1\cup A_2 \cup A_3 \cup \cdots
+\end{equation*}
+</div>
+<div class="para">and</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\bigcap_{n=1}^{\infty}A_n= \{ x \mid  x \in A_n \mbox{ for all }  n \in \mathbb{N}\} = A_1\cap A_2 \cap A_3 \cap \cdots
+\end{equation*}
+</div>
+</div>
+<div class="para logical" id="p-532">
+<div class="para">Similarly, if <span class="process-math">\(\Delta=\{1,2,3,4\}\text{,}\)</span> then</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\bigcup_{n=1}^{4}A_n= A_1\cup A_2 \cup A_3 \cup A_4  \text{ and } \bigcap_{n=1}^{4}A_n= A_1\cap A_2 \cap A_3 \cap A_4\text{.}
+\end{equation*}
+</div>
+</div>
+<div class="para" id="p-533">Notice the difference between “<span class="process-math">\(\bigcup\)</span>” and “<span class="process-math">\(\cup\)</span>” (respectively, “<span class="process-math">\(\bigcap\)</span>” and “<span class="process-math">\(\cap\)</span>”).</div>
+<article class="problem example-like" id="problem-59"><h3 class="heading">
+<span class="type">Problem</span><span class="space"> </span><span class="codenumber">3.33</span><span class="period">.</span>
+</h3>
+<div class="para logical" id="p-534">
+<div class="para">Let <span class="process-math">\(\{I_n\}_{n\in\mathbb{N}}\)</span> be the collection of open intervals from the beginning of the section. Find each of the following.</div>
+<ol class="lower-alpha">
+<li id="li-228"><div class="para" id="p-535"><span class="process-math">\(\displaystyle \displaystyle \bigcup_{n\in\mathbb{N}}I_n\)</span></div></li>
+<li id="li-229"><div class="para" id="p-536"><span class="process-math">\(\displaystyle \displaystyle \bigcap_{n\in\mathbb{N}}I_n\)</span></div></li>
+</ol>
+</div></article><article class="problem example-like" id="problem-60"><h3 class="heading">
+<span class="type">Problem</span><span class="space"> </span><span class="codenumber">3.34</span><span class="period">.</span>
+</h3>
+<div class="para logical" id="p-537">
+<div class="para">Let <span class="process-math">\(\{A_n\}_{n=1}^{26}\)</span> be the collection from earlier in the section. Find each of the following.</div>
+<ol class="lower-alpha">
+<li id="li-230"><div class="para" id="p-538"><span class="process-math">\(\displaystyle \displaystyle \bigcup_{n=1}^{26}A_n\)</span></div></li>
+<li id="li-231"><div class="para" id="p-539"><span class="process-math">\(\displaystyle \displaystyle \bigcap_{n=1}^{26}A_n\)</span></div></li>
+</ol>
+</div></article><article class="problem example-like" id="problem-61"><h3 class="heading">
+<span class="type">Problem</span><span class="space"> </span><span class="codenumber">3.35</span><span class="period">.</span>
+</h3>
+<div class="para logical" id="p-540">
+<div class="para">Let <span class="process-math">\(S_n = \{x \in \mathbb{R} \ \mid \ n-1\lt x\lt n \}\text{,}\)</span> where <span class="process-math">\(n\in \mathbb{N}\text{.}\)</span> Find each of the following.</div>
+<ol class="lower-alpha">
+<li id="li-232"><div class="para" id="p-541"><span class="process-math">\(\displaystyle \displaystyle \bigcup_{n=1}^{\infty}S_n\)</span></div></li>
+<li id="li-233"><div class="para" id="p-542"><span class="process-math">\(\displaystyle \displaystyle \bigcap_{n=1}^{\infty}S_n\)</span></div></li>
+</ol>
+</div></article><article class="problem example-like" id="problem-62"><h3 class="heading">
+<span class="type">Problem</span><span class="space"> </span><span class="codenumber">3.36</span><span class="period">.</span>
+</h3>
+<div class="para logical" id="p-543">
+<div class="para">Let <span class="process-math">\(T_n = \{x \in \mathbb{R} \ \mid \ -\frac{1}{n}\lt x\lt \frac{1}{n} \}\text{,}\)</span> where <span class="process-math">\(n\in \mathbb{N}\text{.}\)</span> Find each of the following.</div>
+<ol class="lower-alpha">
+<li id="li-234"><div class="para" id="p-544"><span class="process-math">\(\displaystyle \displaystyle \bigcup_{n=1}^{\infty}T_n\)</span></div></li>
+<li id="li-235"><div class="para" id="p-545"><span class="process-math">\(\displaystyle \displaystyle \bigcap_{n=1}^{\infty}T_n\)</span></div></li>
+</ol>
+</div></article><article class="problem example-like" id="problem-63"><h3 class="heading">
+<span class="type">Problem</span><span class="space"> </span><span class="codenumber">3.37</span><span class="period">.</span>
+</h3>
+<div class="para logical" id="p-546">
+<div class="para">For each <span class="process-math">\(r\in\mathbb{Q}\)</span> (the rational numbers), let <span class="process-math">\(N_r\)</span> be the set containing all real numbers <em class="emphasis">except</em> <span class="process-math">\(r\text{.}\)</span> Find each of the following.</div>
+<ol class="lower-alpha">
+<li id="li-236"><div class="para" id="p-547"><span class="process-math">\(\displaystyle \displaystyle \bigcup_{r\in\mathbb{Q}}N_r\)</span></div></li>
+<li id="li-237"><div class="para" id="p-548"><span class="process-math">\(\displaystyle \displaystyle \bigcap_{r\in\mathbb{Q}}N_r\)</span></div></li>
+</ol>
+</div></article><article class="definition definition-like" id="definition-22"><h3 class="heading">
+<span class="type">Definition</span><span class="space"> </span><span class="codenumber">3.38</span><span class="period">.</span>
+</h3>
+<div class="para" id="p-549">A collection of sets <span class="process-math">\(\{A_{\alpha}\}_{\alpha\in\Delta}\)</span> is pairwise disjoint if <span class="process-math">\(A_{\alpha} \cap A_{\beta}=\emptyset\)</span> for <span class="process-math">\(\alpha\neq \beta\text{.}\)</span>
+</div></article><article class="problem example-like" id="problem-64"><h3 class="heading">
+<span class="type">Problem</span><span class="space"> </span><span class="codenumber">3.39</span><span class="period">.</span>
+</h3>
+<div class="para" id="p-550">Provide an example of a collection of sets <span class="process-math">\(\{A_{\alpha}\}_{\alpha\in\Delta}\)</span> that is not pairwise disjoint even though <span class="process-math">\(\bigcap_{\alpha\in\Delta}A_{\alpha}=\emptyset\text{.}\)</span>
+</div></article><article class="problem example-like" id="problem-65"><h3 class="heading">
+<span class="type">Problem</span><span class="space"> </span><span class="codenumber">3.40</span><span class="period">.</span>
+</h3>
+<div class="para logical" id="p-551">
+<div class="para">For each of the following, provide an example of a collection of sets with the stated property.</div>
+<ol class="lower-alpha">
+<li id="li-238"><div class="para" id="p-552">A collection of three subsets of <span class="process-math">\(\mathbb{R}\)</span> such that the collection is not pairwise disjoint, the union equals <span class="process-math">\(\mathbb{R}\text{,}\)</span> and the intersection of the collection is empty.</div></li>
+<li id="li-239"><div class="para" id="p-553">A collection of infinitely many subsets of <span class="process-math">\(\mathbb{R}\)</span> such that the collection is not pairwise disjoint, the union equals <span class="process-math">\(\mathbb{R}\text{,}\)</span> and the intersection of the collection is empty.</div></li>
+<li id="li-240"><div class="para" id="p-554">A collection of infinitely many subsets of <span class="process-math">\(\mathbb{R}\)</span> such that the collection is pairwise disjoint, the union equals <span class="process-math">\(\mathbb{R}\text{,}\)</span> and the intersection of the collection is empty.</div></li>
+</ol>
+</div></article><article class="theorem theorem-like" id="theorem-32"><h3 class="heading">
+<span class="type">Theorem</span><span class="space"> </span><span class="codenumber">3.41</span><span class="period">.</span><span class="space"> </span><span class="title">Generalized Distribution of Union and Intersection.</span>
+</h3>
+<div class="para logical" id="p-555">
+<div class="para">Let <span class="process-math">\(\{A_{\alpha}\}_{\alpha\in\Delta}\)</span> be a collection of sets and let <span class="process-math">\(B\)</span> be any set. Then</div>
+<ol class="lower-alpha">
+<li id="li-241"><div class="para" id="p-556">
+<span class="process-math">\(\displaystyle B \cup \left(\bigcap_{\alpha\in\Delta}A_{\alpha}\right)=\bigcap_{\alpha\in\Delta}(B\cup A_{\alpha})\text{,}\)</span> and</div></li>
+<li id="li-242"><div class="para" id="p-557"><span class="process-math">\(\displaystyle B \cap \left(\bigcup_{\alpha\in\Delta}A_{\alpha}\right)=\bigcup_{\alpha\in\Delta}(B\cap A_{\alpha})\text{.}\)</span></div></li>
+</ol>
+</div></article><article class="theorem theorem-like" id="theorem-33"><h3 class="heading">
+<span class="type">Theorem</span><span class="space"> </span><span class="codenumber">3.42</span><span class="period">.</span><span class="space"> </span><span class="title">Generalized De Morgan’s Law.</span>
+</h3>
+<div class="para logical" id="p-558">
+<div class="para">Let <span class="process-math">\(\{A_{\alpha}\}_{\alpha\in\Delta}\)</span> be a collection of sets. Then</div>
+<ol class="lower-alpha">
+<li id="li-243"><div class="para" id="p-559">
+<span class="process-math">\(\displaystyle \left(\bigcup_{\alpha\in\Delta} A_{\alpha}\right)^C=\bigcap_{\alpha\in\Delta}A_{\alpha}^{C}\text{,}\)</span> and</div></li>
+<li id="li-244"><div class="para" id="p-560"><span class="process-math">\(\displaystyle \left(\bigcap_{\alpha\in\Delta} A_{\alpha}\right)^C=\bigcup_{\alpha\in\Delta}A_{\alpha}^{C}\text{.}\)</span></div></li>
+</ol>
+</div></article><div class="para" id="p-561">At the end of <a href="sec_RussellsParadox.html" class="internal" title="Section 3.2: Russell’s Paradox">Section 3.2</a>, we mentioned the Axiom of Choice. Using the language of indexing sets, we can now state this axiom precisely.</div>
+<article class="axiom theorem-like" id="axiom-1"><h3 class="heading">
+<span class="type">Axiom</span><span class="space"> </span><span class="codenumber">3.43</span><span class="period">.</span><span class="space"> </span><span class="title">Axiom of Choice.</span>
+</h3>
+<div class="para" id="p-562">For every indexed collection <span class="process-math">\(\{A_{\alpha}\}_{\alpha\in\Delta}\)</span> of nonempty sets, there exists an indexed collection <span class="process-math">\(\{a_{\alpha}\}_{\alpha\in\Delta}\)</span> of elements such that <span class="process-math">\(a_{\alpha}\in A_{\alpha}\)</span> for each <span class="process-math">\(\alpha\in \Delta\text{.}\)</span>
+</div></article><div class="para" id="p-563">Intuitively, the Axiom of Choice guarantees the existence of mathematical objects that are obtained by a sequence of choices. It applies to both the finite and infinite setting. As an analogy, we can think of each <span class="process-math">\(A_{\alpha}\)</span> as a drawer in a dresser and each <span class="process-math">\(a_{\alpha}\)</span> as an article of clothing chosen from the drawer identified with <span class="process-math">\(A_{\alpha}\text{.}\)</span> The Axiom of Choice is surprisingly powerful, sometimes leading to unexpected consequences. It often gets used in subtle ways that mathematicians are not always explicit with. We will require the Axiom of Choice when proving <a href="" class="xref" data-knowl="./knowl/thm_infiniteSetTFAE.html" title="Theorem 9.32">Theorems 9.32</a> and <a href="" class="xref" data-knowl="./knowl/thm_countable_union_of_countable_sets.html" title="Theorem 9.49">Theorem 9.49</a>. When proving these theorems, be on the lookout for where you are invoking the Axiom of Choice.</div>
+<div class="para" id="p-564">\epigraph{All sorts of things can happen when you’re open to new ideas and playing around with things.}{Stephanie Kwolek, chemist}</div></section></div>
+<div class="ptx-content-footer">
+<a class="previous-button button" href="sec_PowerSets.html" title="Previous"><span class="icon">&lt;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon">^</span><span class="name">Top</span></a><a class="next-button button" href="sec_Cartesian_Products.html" title="Next"><span class="name">Next</span><span class="icon">&gt;</span></a>
+</div></main>
+</div>
+<div id="ptx-page-footer" class="ptx-page-footer">
+<a class="pretext-link" href="https://pretextbook.org" title="PreTeXt"><div class="logo"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="338 3000 8772 6866"><g style="stroke-width:.025in; stroke:black; fill:none"><polyline points="472,3590 472,9732 " style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round; "></polyline><path style="stroke:#000000;stroke-width:126;stroke-linecap:butt;" d="M 4724,9448 A 4660 4660  0  0  1  8598  9259"></path><path style="stroke:#000000;stroke-width:174;stroke-linecap:butt;" d="M 4488,9685 A 4228 4228  0  0  0   472  9732"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:butt;" d="M 4724,3590 A 4241 4241  0  0  1  8598  3496"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:round;" d="M 850,3496  A 4241 4241  0  0  1  4724  3590"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:round;" d="M 850,9259  A 4507 4507  0  0  1  4724  9448"></path><polyline points="5385,4299 4062,8125" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8598,3496 8598,9259" style="stroke:#000000;stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="850,3496 850,9259" style="stroke:#000000;stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="4960,9685 4488,9685" style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="3070,4582 1889,6141 3070,7700" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="6418,4582 7600,6141 6418,7700" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8976,3590 8976,9732" style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><path style="stroke:#000000;stroke-width:174;stroke-linecap:butt;" d="M 4960,9685 A 4228 4228  0  0  1  8976  9732"></path></g></svg></div></a><a class="runestone-link" href="https://runestone.academy" title="Runestone Academy"><img class="logo" src="https://runestone.academy/runestone/static/images/RAIcon_cropped.png"></a><a class="mathjax-link" href="https://www.mathjax.org" title="MathJax"><img class="logo" src="https://www.mathjax.org/badge/badge-square-2.png"></a>
+</div>
+</body>
+</html>
