@@ -24,6 +24,7 @@ My interests also include the [scholarship of teaching and learning](http://en.w
 You can find a recent version of my curriculum vitae [here]({{site.baseurl}}/scholarship/CV-Ernst.pdf).
 
 ## In Preparation
+  * D.C. Ernst, J. Slye. Using the $\Spin_{3\times 3}$ virtual manipulative to introduce group theory.
   * B. Ba&#353;i&#263;, P. Ellis, D.C. Ernst, D. Popovi&#263;, N. Sieben. Morphisms of impartial combinatorial games.
   * F. Awik, H. Denoncourt, D.C. Ernst, and T. Rosenberg. The reversal poset of signed permutations.
   * F. Burkhart, H. Denoncourt, D.C. Ernst, and A. Stewart. Enumeration of signed permutations under the action of reversals.
@@ -32,13 +33,12 @@ You can find a recent version of my curriculum vitae [here]({{site.baseurl}}/sch
   <!-- * J. Breland, Q. Cadman, D.C. Ernst, J. Niemi, J. Sullivan, and J. Wright. Structure of braid graphs for reduced words in simply-laced Coxeter systems. -->
 
 ## Submitted
-  * D.C. Ernst, J. Slye. Using the $\Spin_{3\times 3}$ virtual manipulative to introduce group theory.
   * B.J. Benesh, D.C. Ernst, M. Meyer, S.K. Salmon, and N. Sieben. Impartial geodetic building games on graphs. [[arXiv:2307.07095](https://arxiv.org/abs/2307.07095)]
   * S. Laursen, D.C. Ernst, T.J. Hitchman, M.G. Jones, S. Yoshinobu, D. Ensley. Turtles all the way down: The infinite progression of professional development.
   * F. Awik, J. Breland, Q.Cadman, and D.C. Ernst. Braid graphs in simply-laced triangle-free Coxeter systems are partial cubes. [[arXiv:2104.12318](https://arxiv.org/abs/2104.12318)]
 
 ## Journal Articles
-  * B.J. Benesh, D.C. Ernst, and N. Sieben. The spectrum of nim-values for achievement games for generating finite groups. Accepted to *INTEGERS*. [[arXiv:2004.08980](https://arxiv.org/abs/2004.08980)]
+  * B.J. Benesh, D.C. Ernst, and N. Sieben. The spectrum of nim-values for achievement games for generating finite groups. Accepted to *INTEGERS*. [[arXiv:2004.08980](https://arxiv.org/abs/2004.08980)] [[ePrint](http://math.colgate.edu/~integers/xg5/xg5.pdf)]
   * B.J. Benesh, D.C. Ernst, and N. Sieben. Impartial achievement games for generating nilpotent groups. *J. Group Theory* 22(3), 515–527, 2019. [[arXiv:1805.01409](https://arxiv.org/abs/1805.01409)] [[DOI:10.1515/s00182-017-0602-x](https://doi.org/10.1515/jgth-2018-0117)]
   * D.C. Ernst. Diagram calculus for a type affine *C* Temperley-Lieb algebra, II. *J. Pure Appl. Alg.* 222(12), 3795-3830, 2018. [[arXiv:1101.4215](http://arxiv.org/abs/1101.4215)] [[DOI:10.1016/j.jpaa.2018.02.008](https://doi.org/10.1016/j.jpaa.2018.02.008)]
   * D.C. Ernst and N. Sieben. Impartial achievement and avoidance games for generating finite groups. *Int. J. Game Theory* 47(2), 509-542, 2018. [[arXiv:1407.0784](http://arxiv.org/abs/1407.0784)] [[DOI:10.1007/s00182-017-0602-x](https://doi.org/10.1007/s00182-017-0602-x)]
