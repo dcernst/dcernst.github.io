@@ -22,7 +22,7 @@ The first draft of the book was written in 2009. At that time, several of the se
 
 - [PDF of textbook that matches the current print version by MAA Press]({{ site.baseurl }}/IBL-IntroToProof/IBLIntroToProof-MAAPressSpring2022.pdf)
 - [PDF of textbook compiled from the current source]({{ site.baseurl }}/IBL-IntroToProof/IBLIntroToProof-current.pdf) (Updated July 21, 2023)
-- [PreTeXt version of textbook compiled from the current source]({{ site.baseurl }}/IBL-IntroToProof/pretext/frontmatter-1.html) (*Draft!* Updated August 1, 2023)) 
+- [PreTeXt version of textbook compiled from the current source]({{ site.baseurl }}/IBL-IntroToProof/pretext/frontmatter-1.html) (*Draft!* Updated August 1, 2023)
 - [Print version available via AMS/MAA Press](https://bookstore.ams.org/text-73/)
 - [Instructor Manual]({{ site.baseurl }}/IBL-IntroToProof/InstructorGuide.pdf) (Draft: Updated August 2, 2023; Chapter 9 coming soon!)
 - [Errata]({{ site.baseurl }}/IBL-IntroToProof/Errata.pdf) (Updated August 1, 2023)
