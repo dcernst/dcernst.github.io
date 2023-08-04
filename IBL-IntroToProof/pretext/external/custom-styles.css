@@ -1,13 +1,12 @@
-#fieldaxiomlist {
+  #axiom_field_axioms>div>ol>li {
     /* delete default counter */
-    list-style-type: none;
+    list-style-type: none !important;
     /* create custom counter and set it to 0 */
     counter-reset: elementcounter;
   }
-  
-  #fieldaxiomlist>li:before {
+  #axiom_field_axioms>div>ol>li:before {
     /* print out "F" followed by the current counter value */
-    content: "F" counter(elementcounter) ". ";
+    content: "(F" counter(elementcounter) ") ";
     /* increment counter */
     counter-increment: elementcounter;
   }
