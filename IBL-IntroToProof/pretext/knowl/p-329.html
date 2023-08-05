@@ -13,22 +13,28 @@
 <body class="ignore-math">
 <h3 class="heading"><span class="type">Paragraph</span></h3>
 <div class="para logical">
-<div class="para">Then its negation</div>
-<div class="displaymath process-math">
+<div class="para">Using <a href="" class="xref" data-knowl="./knowl/thm_negation_of_quantifiers.html" title="Theorem 2.72">Theorem 2.72</a> and our previous results involving quantification, we can negate complex mathematical propositions by working from left to right. For example, if we negate the false proposition</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/thm_negation_of_quantifiers.html">
 \begin{equation*}
-\neg (\forall x)[x&gt;0\implies (\exists y)(y\lt 0 \wedge xy&gt;0)]
+(\exists x\in\mathbb{R})(\forall y\in\mathbb{R})(x+y=0)\text{,}
 \end{equation*}
 </div>
-<div class="para">is logically equivalent to</div>
-<div class="displaymath process-math">
+<div class="para">we obtain the proposition</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/thm_negation_of_quantifiers.html">
 \begin{equation*}
-(\exists x)[x&gt;0 \wedge \neg (\exists y)(y\lt 0 \wedge xy&gt;0)]\text{,}
+\neg(\exists x\in\mathbb{R})(\forall y\in\mathbb{R})(x+y=0)\text{,}
 \end{equation*}
 </div>
-<div class="para">which happens to be logically equivalent to</div>
-<div class="displaymath process-math">
+<div class="para">which is logically equivalent to</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/thm_negation_of_quantifiers.html">
 \begin{equation*}
-(\exists x)[x&gt;0 \wedge (\forall y)(y\geq 0 \vee xy\leq 0)]\text{.}
+(\forall x\in\mathbb{R})(\exists y\in\mathbb{R})(x+y\neq 0)
+\end{equation*}
+</div>
+<div class="para">and must be true. For a more complicated example, consider the (false) proposition</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/thm_negation_of_quantifiers.html">
+\begin{equation*}
+(\forall x)[x&gt;0\implies (\exists y)(y\lt 0 \wedge xy&gt;0)]\text{.}
 \end{equation*}
 </div>
 </div>

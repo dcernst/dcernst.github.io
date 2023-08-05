@@ -328,9 +328,9 @@ window.MathJax = {
 <article class="definition definition-like" id="definition-58"><h3 class="heading">
 <span class="type">Definition</span><span class="space"> </span><span class="codenumber">8.52</span><span class="period">.</span>
 </h3>
-<div class="para" id="p-1435">If <span class="process-math">\(f:X\to Y\)</span> and <span class="process-math">\(g:Y\to Z\)</span> are functions, we define <span class="process-math">\(g\circ f:X\to Z\)</span> via <span class="process-math">\(\tcboxmath{(g\circ f)(x)=g(f(x))}\text{.}\)</span> The function <span class="process-math">\(g\circ f\)</span> is called the composition of <span class="process-math">\(f\)</span> and <span class="process-math">\(g\text{.}\)</span>
+<div class="para" id="p-1435">If <span class="process-math">\(f:X\to Y\)</span> and <span class="process-math">\(g:Y\to Z\)</span> are functions, we define <span class="process-math">\(g\circ f:X\to Z\)</span> via <span class="process-math">\(\tcboxmath{(g\circ f)(x)=g(f(x))}\text{.}\)</span> The function <span class="process-math">\(g\circ f\)</span> is called the <dfn class="terminology">composition</dfn> of <span class="process-math">\(f\)</span> and <span class="process-math">\(g\text{.}\)</span>
 </div></article><div class="para" id="p-1436">It is important to notice that the function on the right is the one that “goes first.” Moreover, we cannot compose any two random functions since the codomain of the first function must agree with the domain of the second function. In particular, <span class="process-math">\(f\circ g\)</span> may not be a sensible function even when <span class="process-math">\(g\circ f\)</span> exists. <a href="" class="xref" data-knowl="./knowl/fig_function_composition.html" title="Figure 8.53">Figure 8.53</a> provides a visual representation of function composition in terms of function diagrams.</div>
-<figure class="figure figure-like" id="fig_function_composition"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="generated/latex-image/image-19.svg" role="img" class="contained"></div>
+<figure class="figure figure-like" id="fig_function_composition"><div class="image-box" style="width: 50%; margin-left: 25%; margin-right: 25%;"><img src="generated/latex-image/function_composition.svg" role="img" class="contained"></div>
 <figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">8.53<span class="period">.</span></span><span class="space"> </span>Visual representation of function composition.</figcaption></figure><article class="problem example-like" id="problem-198"><h3 class="heading">
 <span class="type">Problem</span><span class="space"> </span><span class="codenumber">8.54</span><span class="period">.</span>
 </h3>
@@ -364,7 +364,7 @@ g=\{(1,1),(2,2),(3,1),(4,1)\}\text{.}
 f\circ \iota(x)=f(\iota(x))=f(x)
 \end{equation*}
 </div>
-<div class="para">for all <span class="process-math">\(x\in X\text{.}\)</span> Notice that <span class="process-math">\(f\circ \iota\)</span> is simply the function <span class="process-math">\(f\)</span> but with a smaller domain. In this case, we say that <span class="process-math">\(f\circ \iota\)</span> is the <em class="emphasis">restriction of <span class="process-math">\(f\)</span> to <span class="process-math">\(X\)</span></em>, which is often denoted by <span class="process-math">\(\tcboxmath{f|_X}\text{.}\)</span>
+<div class="para">for all <span class="process-math">\(x\in X\text{.}\)</span> Notice that <span class="process-math">\(f\circ \iota\)</span> is simply the function <span class="process-math">\(f\)</span> but with a smaller domain. In this case, we say that <span class="process-math">\(f\circ \iota\)</span> is the <dfn class="terminology">restriction of <span class="process-math">\(f\)</span> to <span class="process-math">\(X\)</span></dfn>, which is often denoted by <span class="process-math">\(\tcboxmath{f|_X}\text{.}\)</span>
 </div>
 </div></article><article class="problem example-like" id="problem-199"><h3 class="heading">
 <span class="type">Problem</span><span class="space"> </span><span class="codenumber">8.56</span><span class="period">.</span>
@@ -434,13 +434,13 @@ f(x)=\begin{cases}5x+7, \amp  \text{ if } x\lt  0\\ 2x+1, \amp  \text{ if } x\ge
 <span class="type">Theorem</span><span class="space"> </span><span class="codenumber">8.66</span><span class="period">.</span>
 </h3>
 <div class="para" id="p-1463">Let <span class="process-math">\(f:X\to Y\)</span> be a function. Then <span class="process-math">\(f\)</span> is injective if and only if there exists a function <span class="process-math">\(g:Y\to X\)</span> such that <span class="process-math">\(g\circ f=i_X\text{,}\)</span> where <span class="process-math">\(i_X\)</span> is the identity map on <span class="process-math">\(X\text{.}\)</span>
-</div></article><div class="para" id="p-1464">The function <span class="process-math">\(g\)</span> in the previous theorem is often called a <em class="emphasis">left inverse</em> of <span class="process-math">\(f\text{.}\)</span>
+</div></article><div class="para" id="p-1464">The function <span class="process-math">\(g\)</span> in the previous theorem is often called a <dfn class="terminology">left inverse</dfn> of <span class="process-math">\(f\text{.}\)</span>
 </div>
 <article class="theorem theorem-like" id="theorem-152"><h3 class="heading">
 <span class="type">Theorem</span><span class="space"> </span><span class="codenumber">8.67</span><span class="period">.</span>
 </h3>
 <div class="para" id="p-1465">Let <span class="process-math">\(f:X\to Y\)</span> be a function. Then <span class="process-math">\(f\)</span> is surjective if and only if there exists a function <span class="process-math">\(g:Y\to X\)</span> such that <span class="process-math">\(f\circ g=i_Y\text{,}\)</span> where <span class="process-math">\(i_Y\)</span> is the identity map on <span class="process-math">\(Y\text{.}\)</span>
-</div></article><div class="para" id="p-1466">The function <span class="process-math">\(g\)</span> in the previous theorem is often called a <em class="emphasis">right inverse</em> of <span class="process-math">\(f\text{.}\)</span>
+</div></article><div class="para" id="p-1466">The function <span class="process-math">\(g\)</span> in the previous theorem is often called a <dfn class="terminology">right inverse</dfn> of <span class="process-math">\(f\text{.}\)</span>
 </div>
 <article class="problem example-like" id="problem-204"><h3 class="heading">
 <span class="type">Problem</span><span class="space"> </span><span class="codenumber">8.68</span><span class="period">.</span>
@@ -468,13 +468,13 @@ f(x)=\begin{cases}5x+7, \amp  \text{ if } x\lt  0\\ 2x+1, \amp  \text{ if } x\ge
 </div></article><article class="corollary theorem-like" id="cor_two-sided_inverse"><h3 class="heading">
 <span class="type">Corollary</span><span class="space"> </span><span class="codenumber">8.71</span><span class="period">.</span>
 </h3>
-<div class="para" id="p-1474">If <span class="process-math">\(f:X\to Y\)</span> and <span class="process-math">\(g:Y\to X\)</span> are functions satisfying <span class="process-math">\(g\circ f=i_X\)</span> and <span class="process-math">\(f\circ g=i_Y\text{,}\)</span> then <span class="process-math">\(f\)</span> is a bijection.</div></article><div class="para" id="p-1475">In the previous result, the functions <span class="process-math">\(f\)</span> and <span class="process-math">\(g\)</span> “cancel” each other out. In this case, we say that <span class="process-math">\(g\)</span> is a <em class="emphasis">two-sided inverse</em> of <span class="process-math">\(f\text{.}\)</span>
+<div class="para" id="p-1474">If <span class="process-math">\(f:X\to Y\)</span> and <span class="process-math">\(g:Y\to X\)</span> are functions satisfying <span class="process-math">\(g\circ f=i_X\)</span> and <span class="process-math">\(f\circ g=i_Y\text{,}\)</span> then <span class="process-math">\(f\)</span> is a bijection.</div></article><div class="para" id="p-1475">In the previous result, the functions <span class="process-math">\(f\)</span> and <span class="process-math">\(g\)</span> “cancel” each other out. In this case, we say that <span class="process-math">\(g\)</span> is a <dfn class="terminology">two-sided inverse</dfn> of <span class="process-math">\(f\text{.}\)</span>
 </div>
 <article class="definition definition-like" id="def_inverse_of_a_function"><h3 class="heading">
 <span class="type">Definition</span><span class="space"> </span><span class="codenumber">8.72</span><span class="period">.</span>
 </h3>
 <div class="para logical" id="p-1476">
-<div class="para">Let <span class="process-math">\(f:X\to Y\)</span> be a function. The relation <span class="process-math">\(f^{-1}\)</span> from <span class="process-math">\(Y\)</span> to <span class="process-math">\(X\text{,}\)</span> called <span class="process-math">\(f\)</span> inverse, is defined via</div>
+<div class="para">Let <span class="process-math">\(f:X\to Y\)</span> be a function. The relation <span class="process-math">\(f^{-1}\)</span> from <span class="process-math">\(Y\)</span> to <span class="process-math">\(X\text{,}\)</span> called <span class="process-math">\(f\)</span> <dfn class="terminology">inverse</dfn>, is defined via</div>
 <div class="displaymath process-math">
 \begin{equation*}
 \tcboxmath{f^{-1}=\{(f(x),x)\in Y\times X\mid x\in X\}}\text{.}
@@ -497,7 +497,7 @@ f(x)=\begin{cases}5x+7, \amp  \text{ if } x\lt  0\\ 2x+1, \amp  \text{ if } x\ge
 <div class="para" id="p-1481">Let <span class="process-math">\(f:X\to Y\)</span> be a function. Then <span class="process-math">\(f^{-1}:Y\to X\)</span> is a function if and only if <span class="process-math">\(f\)</span> is a bijection.</div></article><article class="problem example-like" id="problem-210"><h3 class="heading">
 <span class="type">Problem</span><span class="space"> </span><span class="codenumber">8.77</span><span class="period">.</span>
 </h3>
-<div class="para" id="p-1482">Suppose <span class="process-math">\(f:\mathbb{R}\to \mathbb{R}\)</span> is a function. Fill in the blank with the appropriate phrase.</div> <blockquote class="blockquote" id="blockquote-8">The relation <span class="process-math">\(f^{-1}\)</span> is a function if and only if every horizontal line hits the graph of <span class="process-math">\(f\)</span> <em class="emphasis">                               </em>.</blockquote> <div class="para" id="p-1483">Explain why this statement is true.</div></article><article class="theorem theorem-like" id="thm_comp_of_inverses"><h3 class="heading">
+<div class="para" id="p-1482">Suppose <span class="process-math">\(f:\mathbb{R}\to \mathbb{R}\)</span> is a function. Fill in the blank with the appropriate phrase.</div> <blockquote class="blockquote" id="blockquote-19">The relation <span class="process-math">\(f^{-1}\)</span> is a function if and only if every horizontal line hits the graph of <span class="process-math">\(f\)</span>  <code class="code-inline tex2jax_ignore">                </code>. </blockquote> <div class="para" id="p-1483">Explain why this statement is true.</div></article><article class="theorem theorem-like" id="thm_comp_of_inverses"><h3 class="heading">
 <span class="type">Theorem</span><span class="space"> </span><span class="codenumber">8.78</span><span class="period">.</span>
 </h3>
 <div class="para logical" id="p-1484">
@@ -514,7 +514,7 @@ f(x)=\begin{cases}5x+7, \amp  \text{ if } x\lt  0\\ 2x+1, \amp  \text{ if } x\ge
 <span class="type">Theorem</span><span class="space"> </span><span class="codenumber">8.80</span><span class="period">.</span>
 </h3>
 <div class="para" id="p-1488">If <span class="process-math">\(f:X\to Y\)</span> and <span class="process-math">\(g:Y\to X\)</span> are functions such that <span class="process-math">\(g\circ f=i_X\)</span> and <span class="process-math">\(f\circ g=i_Y\text{,}\)</span> then <span class="process-math">\(f^{-1}\)</span> is a function and <span class="process-math">\(g=f^{-1}\text{.}\)</span>
-</div></article><div class="para" id="p-1489">The upshot of <a href="" class="xref" data-knowl="./knowl/thm_comp_of_inverses.html" title="Theorem 8.78">Theorems 8.78</a> and <a href="" class="xref" data-knowl="./knowl/thm_unique_inverse.html" title="Theorem 8.80">Theorem 8.80</a> is that if <span class="process-math">\(f^{-1}\)</span> is a function, then it is the only one satisfying the two-sided inverse property exhibited in <a href="" class="xref" data-knowl="./knowl/cor_two-sided_inverse.html" title="Corollary 8.71">Corollary 8.71</a> and <a href="" class="xref" data-knowl="./knowl/thm_comp_of_inverses.html" title="Theorem 8.78">Theorem 8.78</a>. That is, inverse functions are unique when they exist. When the relation <span class="process-math">\(f^{-1}\)</span> is a function, we call it the <em class="emphasis">inverse function</em> of <span class="process-math">\(f\text{.}\)</span>
+</div></article><div class="para" id="p-1489">The upshot of <a href="" class="xref" data-knowl="./knowl/thm_comp_of_inverses.html" title="Theorem 8.78">Theorems 8.78</a> and <a href="" class="xref" data-knowl="./knowl/thm_unique_inverse.html" title="Theorem 8.80">Theorem 8.80</a> is that if <span class="process-math">\(f^{-1}\)</span> is a function, then it is the only one satisfying the two-sided inverse property exhibited in <a href="" class="xref" data-knowl="./knowl/cor_two-sided_inverse.html" title="Corollary 8.71">Corollary 8.71</a> and <a href="" class="xref" data-knowl="./knowl/thm_comp_of_inverses.html" title="Theorem 8.78">Theorem 8.78</a>. That is, inverse functions are unique when they exist. When the relation <span class="process-math">\(f^{-1}\)</span> is a function, we call it the <dfn class="terminology">inverse function</dfn> of <span class="process-math">\(f\text{.}\)</span>
 </div>
 <article class="problem example-like" id="problem-211"><h3 class="heading">
 <span class="type">Problem</span><span class="space"> </span><span class="codenumber">8.81</span><span class="period">.</span>
@@ -532,7 +532,9 @@ f(x)=\begin{cases}5x+7, \amp  \text{ if } x\lt  0\\ 2x+1, \amp  \text{ if } x\ge
 </h3>
 <div class="para" id="p-1494">If <span class="process-math">\(f:X\to Y\)</span> and <span class="process-math">\(g:Y\to Z\)</span> are both bijections, then <span class="process-math">\((g\circ f)^{-1}=f^{-1}\circ g^{-1}\text{.}\)</span>
 </div></article><div class="para" id="p-1495">The previous theorem is sometimes referred to as the “socks and shoes theorem”. Do you see how it got this name?</div>
-<div class="para" id="p-1496">\epigraph{The most difficult thing is the decision to act. The rest is merely tenacity.}{Amelia Earhart, aviation pioneer}</div></section></div>
+<blockquote class="blockquote" id="blockquote-20">
+<div class="para" id="p-1496">The most difficult thing is the decision to act. The rest is merely tenacity.</div> <cite class="attribution">―Amelia Earhart, aviation pioneer</cite>
+</blockquote></section></div>
 <div class="ptx-content-footer">
 <a class="previous-button button" href="sec_Injective_and_Surjective_Functions.html" title="Previous"><span class="icon">&lt;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon">^</span><span class="name">Top</span></a><a class="next-button button" href="sec_Images_and_Preimages.html" title="Next"><span class="name">Next</span><span class="icon">&gt;</span></a>
 </div></main>

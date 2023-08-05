@@ -12,7 +12,26 @@
 </head>
 <body class="ignore-math">
 <h3 class="heading"><span class="type">Paragraph</span></h3>
-<div class="para">Can you identify the theorems that were used in the two examples above?</div>
+<div class="para logical">
+<div class="para">Then its negation</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\neg (\forall x)[x&gt;0\implies (\exists y)(y\lt 0 \wedge xy&gt;0)]
+\end{equation*}
+</div>
+<div class="para">is logically equivalent to</div>
+<div class="displaymath process-math">
+\begin{equation*}
+(\exists x)[x&gt;0 \wedge \neg (\exists y)(y\lt 0 \wedge xy&gt;0)]\text{,}
+\end{equation*}
+</div>
+<div class="para">which happens to be logically equivalent to</div>
+<div class="displaymath process-math">
+\begin{equation*}
+(\exists x)[x&gt;0 \wedge (\forall y)(y\geq 0 \vee xy\leq 0)]\text{.}
+\end{equation*}
+</div>
+</div>
 <span class="incontext"><a href="sec_More_About_Quantification.html#p-330" class="internal">in-context</a></span>
 </body>
 </html>

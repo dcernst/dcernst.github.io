@@ -16,7 +16,7 @@ var ptx_lunr_docs = [
   "type": "Preface",
   "number": "",
   "title": "Preface",
-  "body": " Preface  Mathematics is not about calculations, but ideas. My goal as a teacher is to provide students with the opportunity to grapple with these ideas and to be immersed in the process of mathematical discovery. Repeatedly engaging in this process hones the mind and develops mental maturity marked by clear and rigorous thinking. Like music and art, mathematics provides an opportunity for enrichment, experiencing beauty, elegance, and aesthetic value. The medium of a painter is color and shape, whereas the medium of a mathematician is abstract thought. The creative aspect of mathematics is what captivates me and fuels my motivation to keep learning and exploring.  While the content we teach our students is important, it is not enough. An education must prepare individuals to ask and explore questions in contexts that do not yet exist and to be able to tackle problems they have never encountered. It is important that we put these issues front and center and place an explicit focus on students producing, rather than consuming, knowledge. If we truly want our students to be independent, inquisitive, and persistent, then we need to provide them with the means to acquire these skills. Their viability as a professional in the modern workforce depends on their ability to embrace this mindset.  When I started teaching, I mimicked the experiences I had as a student. Because it was all I knew, I lectured. By standard metrics, this seemed to work out just fine. Glowing student and peer evaluations, as well as reoccurring teaching awards, indicated that I was effectively doing my job. People consistently told me that I was an excellent teacher. However, two observations made me reconsider how well I was really doing. Namely, many of my students seemed to depend on me to be successful, and second, they retained only some of what I had taught them. In the words of Dylan Retsek:   Things my students claim that I taught them masterfully, they don't know.   Inspired by a desire to address these concerns, I began transitioning away from direct instruction towards a more student-centered approach. The goals and philosophy behind inquiry-based learning (IBL) resonate deeply with my ideals, which is why I have embraced this paradigm. According to the Academy of Inquiry-Based Learning, IBL is a method of teaching that engages students in sense-making activities. Students are given tasks requiring them to solve problems, conjecture, experiment, explore, create, and communicate all those wonderful skills and habits of mind that mathematicians engage in regularly. This book has IBL baked into its core.  This book is intended to be a task sequence for an introduction to proof course that utilizes an IBL approach. The primary objectives of this book are to:  Expand the mathematical content knowledge of the reader,  Provide an opportunity for the reader to experience the profound beauty of mathematics,  Allow the reader to exercise creativity in producing and discovering mathematics,  Enhance the ability of the reader to be a robust and persistent problem solver.    Ultimately, this is really a book about productive struggle and learning how to learn. Mathematics is simply the vehicle.  You can find the most up-to-date version of this textbook on GitHub . I would be thrilled if you used this textbook and improved it. If you make any modifications, you can either make a pull request on GitHub or submit the improvements via email. You are also welcome to fork the source and modify the text for your purposes as long as you maintain the Creative Commons Attribution-Share Alike 4.0 International License.  \\epigraph{Much more important than specific mathematical results are the habits of mind used by the people who create those results. Although it is necessary to infuse courses and curricula with modern content, what is even more important is to give students the tools they will need in order to use, understand, and even make mathematics that does not yet exist.}{Cuoco, Goldenberg, & Mark in Habit of Mind: An Organizing Principle for Mathematics Curriculum }  "
+  "body": " Preface  Mathematics is not about calculations, but ideas. My goal as a teacher is to provide students with the opportunity to grapple with these ideas and to be immersed in the process of mathematical discovery. Repeatedly engaging in this process hones the mind and develops mental maturity marked by clear and rigorous thinking. Like music and art, mathematics provides an opportunity for enrichment, experiencing beauty, elegance, and aesthetic value. The medium of a painter is color and shape, whereas the medium of a mathematician is abstract thought. The creative aspect of mathematics is what captivates me and fuels my motivation to keep learning and exploring.  While the content we teach our students is important, it is not enough. An education must prepare individuals to ask and explore questions in contexts that do not yet exist and to be able to tackle problems they have never encountered. It is important that we put these issues front and center and place an explicit focus on students producing, rather than consuming, knowledge. If we truly want our students to be independent, inquisitive, and persistent, then we need to provide them with the means to acquire these skills. Their viability as a professional in the modern workforce depends on their ability to embrace this mindset.  When I started teaching, I mimicked the experiences I had as a student. Because it was all I knew, I lectured. By standard metrics, this seemed to work out just fine. Glowing student and peer evaluations, as well as reoccurring teaching awards, indicated that I was effectively doing my job. People consistently told me that I was an excellent teacher. However, two observations made me reconsider how well I was really doing. Namely, many of my students seemed to depend on me to be successful, and second, they retained only some of what I had taught them. In the words of Dylan Retsek:    Things my students claim that I taught them masterfully, they don't know.    Inspired by a desire to address these concerns, I began transitioning away from direct instruction towards a more student-centered approach. The goals and philosophy behind inquiry-based learning (IBL) resonate deeply with my ideals, which is why I have embraced this paradigm. According to the Academy of Inquiry-Based Learning, IBL is a method of teaching that engages students in sense-making activities. Students are given tasks requiring them to solve problems, conjecture, experiment, explore, create, and communicate all those wonderful skills and habits of mind that mathematicians engage in regularly. This book has IBL baked into its core.  This book is intended to be a task sequence for an introduction to proof course that utilizes an IBL approach. The primary objectives of this book are to:  Expand the mathematical content knowledge of the reader,  Provide an opportunity for the reader to experience the profound beauty of mathematics,  Allow the reader to exercise creativity in producing and discovering mathematics,  Enhance the ability of the reader to be a robust and persistent problem solver.    Ultimately, this is really a book about productive struggle and learning how to learn. Mathematics is simply the vehicle.  You can find the most up-to-date version of this textbook on GitHub . I would be thrilled if you used this textbook and improved it. If you make any modifications, you can either make a pull request on GitHub or submit the improvements via email. You are also welcome to fork the source and modify the text for your purposes as long as you maintain the Creative Commons Attribution-Share Alike 4.0 International License.  \\epigraph{Much more important than specific mathematical results are the habits of mind used by the people who create those results. Although it is necessary to infuse courses and curricula with modern content, what is even more important is to give students the tools they will need in order to use, understand, and even make mathematics that does not yet exist.}{Cuoco, Goldenberg, & Mark in Habit of Mind: An Organizing Principle for Mathematics Curriculum }  "
 },
 {
   "id": "chap_acknowledgements",
@@ -619,7 +619,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "2.4",
   "title": "Introduction to Quantification",
-  "body": " Introduction to Quantification  In this section and the next, we introduce first-order logic also referred to as predicate logic , quantificational logic , and first-order predicate calculus . The sentence is not itself a proposition because its truth value depends on . In this case, we say that is a free variable . A sentence with at least one free variable is called a predicate (or open sentence ). To turn a predicate into a proposition, we must either substitute values for each free variable or quantify the free variables. We will use notation such as and to represent predicates with free variables and , respectively. The letters and that we used in the previous sentence are not special; we can use any letter or symbol we want. For example, each of the following represents a predicate with the indicated free variables.                   Note that we used quotation marks above to remove some ambiguity. What would mean? It looks like equals 0, but actually we want to represent the whole sentence . Also, notice that the order in which we utilize the free variables might matter. For example, compare with .  One way we can make propositions out of predicates is by assigning specific values to the free variables. That is, if is a predicate and is specific value for , then is now a proposition that is either true or false.    Consider and as defined above. Determine the truth values of , , , and . Is a proposition or a predicate?    Besides substituting specific values for free variables in a predicate, we can also make a claim about which values of the free variables apply to the predicate.    Both of the following sentences are propositions. Decide whether each is true or false. What would it take to justify your answers?   For all , .    There exists such that .          For all is the universal quantifier and there exists such that is the existential quantifier.    In mathematics, the phrases for all , for any , for every , and for each can be used interchangeably (even though they might convey slightly different meanings in colloquial language). We can replace there exists such that with phrases like for some (possibly with some tweaking of the wording of the sentence). It is important to note that the existential quantifier is making a claim about at least one , not  exactly one.   Variables that are quantified with a universal or existential quantifier are said to be bound . To be a proposition, all variables of a predicate must be bound.  We must take care to specify the collection of acceptable values for the free variables. Consider the sentence For all , . Is this sentence true or false? The answer depends on what set the universal quantifier applies to. Certainly, the sentence is false if we apply it for all . However, the sentence is true for all . Context may resolve ambiguities, but otherwise, we must write clearly: For all , or For all , . The collection of intended values for a variable is called the universe of discourse .    Suppose our universe of discourse is the set of integers.   Provide an example of a predicate such that For all , is true.    Provide an example of a predicate such that For all , is false while There exists such that is true.       If a predicate has more than one free variable, then we can build propositions by quantifying each variable. However, the order of the quantifiers is extremely important!     Let be a predicate with free variables and in a universe of discourse . One way to quantify the variables is For all , there exists such that . How else can the variables be quantified?    The next problem illustrates that at least some of the possibilities you discovered in the previous problem are not equivalent to each other.    Suppose the universe of discourse is the set of people and consider the predicate . We can interpret the formal statement For all , there exists such that as meaning Everybody is married to somebody. Interpret the meaning of each of the following statements in a similar way.   For all , there exists such that .    There exists such that for all , .    For all , for all , .    There exists such that there exists such that .         Suppose the universe of discourse is the set of real numbers and consider the predicate . Interpret the meaning of each of the following statements.   There exists such that there exists such that .    There exists such that there exists such that .    For all , for all , .       There are a couple of key points to keep in mind about quantification. To be a proposition, all variables must be quantified. This can happen in at least two ways:   The variables are explicitly bound by quantifiers in the same sentence.    The variables are implicitly bound by preceding sentences or by context. Statements of the form Let and Assume bind the variable and remove ambiguity.     Also, the order of the quantification is important. Reversing the order of the quantifiers can substantially change the meaning of a proposition.  Quantification and logical connectives ( and,  or,  If , then , and not ) enable complex mathematical statements. For example, if is a function while and are real numbers, then the formal definition of , which you may have encountered in calculus, is:  For all , there exists such that for all , if , then .  In order to study the abstract nature of complicated mathematical statements, it is useful to adopt some notation.    The universal quantifier for all is denoted , and the existential quantifier there exists such that is denoted .    Using our abbreviations for the logical connectives and quantifiers, we can symbolically represent mathematical propositions. For example, the (true) proposition There exists such that becomes , while the (false) proposition For all , there exists such that becomes .     Convert the following propositions into statements using only logical and mathematical symbols. Assume that the universe of discourse is the set of real numbers.   There exists such that is greater than zero.    There exists a natural number such that .    For every , is greater than or equal to zero.         Express the formal definition of a limit (given above Definition ) in logical and mathematical symbols.    If you look closely, many of the theorems that we have encountered up until this point were of the form , where and are predicates. For example, consider Theorem , which states, ``If is an even integer, then is an even integer.\" In this case, is an even integer and is an even integer are both predicates. So, it would be reasonable to assume that the entire theorem statement is a predicate. However, it is standard practice to interpret the sentence to mean (where the universe of discourse for needs to be made clear). We can also retool such statements to hide the implication. In particular, has the same meaning as , where is the collection of items from the universe of discourse that makes true. For example, we could rewrite the statement of Theorem as For every even integer , is even.     Reword Theorem so that it explicitly reads as a universally quantified statement. Compare with Problem .      Find at least two other instances of theorem statements that appeared earlier in the book and are written in the form . Rewrite each in an equivalent way that makes the universal quantifier explicit while possibly suppressing the implication.      Consider the proposition ``If , then there exists such that .\" Assume the universe of discourse is the set .   Express the statement in logical and mathematical symbols. Is the statement true?    Reverse the order of the quantifiers to get a new statement. Does the meaning change? If so, how? Is the new statement true?       The symbolic expression can be abbreviated as as long as and are elements of the same universe.    Express the proposition ``For all with , there exists such that \" using logical and mathematical symbols.      Rewrite each of the following propositions in words and determine whether the proposition is true or false.                                      Consider the proposition .   Provide an example of a universe of discourse where this proposition is true.    Provide an example of a universe of discourse where this proposition is false.       To whet your appetite for the next section, consider how you might prove a true proposition of the form For all . If a proposition is false, then its negation is true. How would you go about negating a statement involving quantifiers?  \\epigraph{Like what you do, and then you will do your best.}{Katherine Johnson, mathematician}  "
+  "body": " Introduction to Quantification  In this section and the next, we introduce first-order logic also referred to as predicate logic , quantificational logic , and first-order predicate calculus . The sentence is not itself a proposition because its truth value depends on . In this case, we say that is a free variable . A sentence with at least one free variable is called a predicate (or open sentence ). To turn a predicate into a proposition, we must either substitute values for each free variable or quantify the free variables. We will use notation such as and to represent predicates with free variables and , respectively. The letters and that we used in the previous sentence are not special; we can use any letter or symbol we want. For example, each of the following represents a predicate with the indicated free variables.                      Note that we used quotation marks above to remove some ambiguity. What would mean? It looks like equals 0, but actually we want to represent the whole sentence . Also, notice that the order in which we utilize the free variables might matter. For example, compare with .  One way we can make propositions out of predicates is by assigning specific values to the free variables. That is, if is a predicate and is specific value for , then is now a proposition that is either true or false.    Consider and as defined above. Determine the truth values of , , , and . Is a proposition or a predicate?    Besides substituting specific values for free variables in a predicate, we can also make a claim about which values of the free variables apply to the predicate.    Both of the following sentences are propositions. Decide whether each is true or false. What would it take to justify your answers?   For all , .    There exists such that .          For all is the universal quantifier and there exists such that is the existential quantifier.    In mathematics, the phrases for all , for any , for every , and for each can be used interchangeably (even though they might convey slightly different meanings in colloquial language). We can replace there exists such that with phrases like for some (possibly with some tweaking of the wording of the sentence). It is important to note that the existential quantifier is making a claim about at least one , not  exactly one.   Variables that are quantified with a universal or existential quantifier are said to be bound . To be a proposition, all variables of a predicate must be bound.  We must take care to specify the collection of acceptable values for the free variables. Consider the sentence For all , . Is this sentence true or false? The answer depends on what set the universal quantifier applies to. Certainly, the sentence is false if we apply it for all . However, the sentence is true for all . Context may resolve ambiguities, but otherwise, we must write clearly: For all , or For all , . The collection of intended values for a variable is called the universe of discourse .    Suppose our universe of discourse is the set of integers.   Provide an example of a predicate such that For all , is true.    Provide an example of a predicate such that For all , is false while There exists such that is true.       If a predicate has more than one free variable, then we can build propositions by quantifying each variable. However, the order of the quantifiers is extremely important!     Let be a predicate with free variables and in a universe of discourse . One way to quantify the variables is For all , there exists such that . How else can the variables be quantified?    The next problem illustrates that at least some of the possibilities you discovered in the previous problem are not equivalent to each other.    Suppose the universe of discourse is the set of people and consider the predicate  . We can interpret the formal statement For all , there exists such that as meaning Everybody is married to somebody. Interpret the meaning of each of the following statements in a similar way.   For all , there exists such that .    There exists such that for all , .    For all , for all , .    There exists such that there exists such that .         Suppose the universe of discourse is the set of real numbers and consider the predicate  . Interpret the meaning of each of the following statements.   There exists such that there exists such that .    There exists such that there exists such that .    For all , for all , .       There are a couple of key points to keep in mind about quantification. To be a proposition, all variables must be quantified. This can happen in at least two ways:   The variables are explicitly bound by quantifiers in the same sentence.    The variables are implicitly bound by preceding sentences or by context. Statements of the form Let and Assume bind the variable and remove ambiguity.     Also, the order of the quantification is important. Reversing the order of the quantifiers can substantially change the meaning of a proposition.  Quantification and logical connectives ( and,  or,  If , then , and not ) enable complex mathematical statements. For example, if is a function while and are real numbers, then the formal definition of , which you may have encountered in calculus, is:  For all , there exists such that for all , if , then .  In order to study the abstract nature of complicated mathematical statements, it is useful to adopt some notation.    The universal quantifier for all is denoted , and the existential quantifier there exists such that is denoted .    Using our abbreviations for the logical connectives and quantifiers, we can symbolically represent mathematical propositions. For example, the (true) proposition There exists such that becomes , while the (false) proposition For all , there exists such that becomes .     Convert the following propositions into statements using only logical and mathematical symbols. Assume that the universe of discourse is the set of real numbers.   There exists such that is greater than zero.    There exists a natural number such that .    For every , is greater than or equal to zero.         Express the formal definition of a limit (given above Definition ) in logical and mathematical symbols.    If you look closely, many of the theorems that we have encountered up until this point were of the form , where and are predicates. For example, consider Theorem , which states, If is an even integer, then is an even integer. In this case, is an even integer and is an even integer are both predicates. So, it would be reasonable to assume that the entire theorem statement is a predicate. However, it is standard practice to interpret the sentence to mean (where the universe of discourse for needs to be made clear). We can also retool such statements to hide the implication. In particular, has the same meaning as , where is the collection of items from the universe of discourse that makes true. For example, we could rewrite the statement of Theorem as For every even integer , is even.     Reword Theorem so that it explicitly reads as a universally quantified statement. Compare with Problem .      Find at least two other instances of theorem statements that appeared earlier in the book and are written in the form . Rewrite each in an equivalent way that makes the universal quantifier explicit while possibly suppressing the implication.      Consider the proposition If , then there exists such that . Assume the universe of discourse is the set .   Express the statement in logical and mathematical symbols. Is the statement true?    Reverse the order of the quantifiers to get a new statement. Does the meaning change? If so, how? Is the new statement true?       The symbolic expression can be abbreviated as as long as and are elements of the same universe.    Express the proposition For all with , there exists such that using logical and mathematical symbols.      Rewrite each of the following propositions in words and determine whether the proposition is true or false.                                      Consider the proposition .   Provide an example of a universe of discourse where this proposition is true.    Provide an example of a universe of discourse where this proposition is false.       To whet your appetite for the next section, consider how you might prove a true proposition of the form For all . If a proposition is false, then its negation is true. How would you go about negating a statement involving quantifiers?  \\epigraph{Like what you do, and then you will do your best.}{Katherine Johnson, mathematician}  "
 },
 {
   "id": "problem-23",
@@ -673,7 +673,7 @@ var ptx_lunr_docs = [
   "type": "Problem",
   "number": "2.59",
   "title": "",
-  "body": "  Suppose the universe of discourse is the set of people and consider the predicate . We can interpret the formal statement For all , there exists such that as meaning Everybody is married to somebody. Interpret the meaning of each of the following statements in a similar way.   For all , there exists such that .    There exists such that for all , .    For all , for all , .    There exists such that there exists such that .      "
+  "body": "  Suppose the universe of discourse is the set of people and consider the predicate  . We can interpret the formal statement For all , there exists such that as meaning Everybody is married to somebody. Interpret the meaning of each of the following statements in a similar way.   For all , there exists such that .    There exists such that for all , .    For all , for all , .    There exists such that there exists such that .      "
 },
 {
   "id": "problem-28",
@@ -682,7 +682,7 @@ var ptx_lunr_docs = [
   "type": "Problem",
   "number": "2.60",
   "title": "",
-  "body": "  Suppose the universe of discourse is the set of real numbers and consider the predicate . Interpret the meaning of each of the following statements.   There exists such that there exists such that .    There exists such that there exists such that .    For all , for all , .      "
+  "body": "  Suppose the universe of discourse is the set of real numbers and consider the predicate  . Interpret the meaning of each of the following statements.   There exists such that there exists such that .    There exists such that there exists such that .    For all , for all , .      "
 },
 {
   "id": "def_quantifiers",
@@ -736,7 +736,7 @@ var ptx_lunr_docs = [
   "type": "Problem",
   "number": "2.66",
   "title": "",
-  "body": "  Consider the proposition ``If , then there exists such that .\" Assume the universe of discourse is the set .   Express the statement in logical and mathematical symbols. Is the statement true?    Reverse the order of the quantifiers to get a new statement. Does the meaning change? If so, how? Is the new statement true?      "
+  "body": "  Consider the proposition If , then there exists such that . Assume the universe of discourse is the set .   Express the statement in logical and mathematical symbols. Is the statement true?    Reverse the order of the quantifiers to get a new statement. Does the meaning change? If so, how? Is the new statement true?      "
 },
 {
   "id": "problem-34",
@@ -745,7 +745,7 @@ var ptx_lunr_docs = [
   "type": "Problem",
   "number": "2.67",
   "title": "",
-  "body": "  Express the proposition ``For all with , there exists such that \" using logical and mathematical symbols.   "
+  "body": "  Express the proposition For all with , there exists such that using logical and mathematical symbols.   "
 },
 {
   "id": "problem-35",
@@ -772,7 +772,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "2.5",
   "title": "More About Quantification",
-  "body": " More About Quantification  When writing mathematical proofs, we do not explicitly use the symbolic representation of a given statement in terms of quantifiers and logical connectives. Nonetheless, having this notation at our disposal allows us to compartmentalize the abstract nature of mathematical propositions and provides us with a way to talk about the general structure involved in the construction of a proof.    Two quantified propositions are logically equivalent if they have the same truth value in every universe of discourse.      Consider the propositions and , where is some universe of discourse.   Do these propositions have the same truth value if the universe of discourse is the set of real numbers?    Provide an example of a universe of discourse such that the propositions yield different truth values.    What can you conclude about the logical equivalence of these propositions?       It is worth pointing out an important distinction. Consider the propositions All cars are red and All natural numbers are positive . Both of these are instances of the logical form  . It turns out that the first proposition is false and the second is true; however, it does not make sense to attach a truth value to the logical form. A logical form is a blueprint for particular propositions. If we are careful, it makes sense to talk about whether two logical forms are logically equivalent. For example, is logically equivalent to since a conditional proposition is logically equivalent to its contrapositive (see Theorem ). For fixed and , these two forms will always have the same truth value independent of the universe of discourse. If you change and , then the truth value may change, but the two forms will still agree.  The next theorem tells us how to negate logical forms involving quantifiers. Your proof should involve several mini arguments. For example, in Part (a), you will need to proof that if is true, then is also true.    Let be a predicate in some universe of discourse. Then    is logically equivalent to ;     is logically equivalent to .         Negate each of the following sentences. Disregard the truth value and the universe of discourse.             All cars are red.    Every Wookiee is named Chewbacca.    Some hippies are Republican.    Some birds are not angry.    Not every video game will rot your brain.    For all , is prime.    There exists such that .    There is no function such that if is continuous, then is not differentiable.       Using Theorem and our previous results involving quantification, we can negate complex mathematical propositions by working from left to right. For example, if we negate the false proposition , we obtain the proposition , which is logically equivalent to and must be true. For a more complicated example, consider the (false) proposition .  Then its negation is logically equivalent to , which happens to be logically equivalent to .  Can you identify the theorems that were used in the two examples above?    Negate each of the following propositions. Disregard the truth value and the universe of discourse.        For every , there exists such that .    For all , if is not negative, then there exists such that .    For every , there exists such that .    There exists such that for all , .    There exists such that for all , .         There exists a married person such that for all married people , is married to .         Consider the following proposition in some universe of discourse.   ``For all goofy wobblers , there exists a dinglehopper such that if is a not a nugget, then is a doofus.\"     Find the negation of this proposition so that it includes the phrase is not a doofus.       Consider the following proposition in some universe of discourse.   ``If and are both snazzy, then is not nifty.\"     Find the contrapositive of this proposition so that it includes the phrase not snazzy .    At this point, we should be able to use our understanding of quantification to construct counterexamples to complicated false propositions and proofs of complicated true propositions. Here are some general proof structures for various logical forms.   Skeleton Proof  [Direct Proof of ] Here is the general structure for a direct proof of the proposition . Assume is the universe of discourse.    [State any upfront assumptions.] Let .  [Use definitions and known results.]  Therefore, is true. Since was arbitrary, for all , .    Combining Skeleton Proof with Skeleton Proof , we obtain the following skeleton proof.   Skeleton Proof  [Proof of ] Below is the general structure for a direct proof of the proposition . Assume is the universe of discourse.    [State any upfront assumptions.] Let . Assume .  [Use definitions and known results to derive ]  Therefore, .     Skeleton Proof  [Proof of by Contradiction] Here is the general structure for a proof of the proposition via contradiction. Assume is the universe of discourse.    [State any upfront assumptions.] For sake of a contradiction, assume that there exists such that .  [Do something to derive a contradiction.]  This is a contradiction. Therefore, for all , is true.     Skeleton Proof  [Direct Proof of ] Here is the general structure for a direct proof of the proposition . Assume is the universe of discourse.    [State any upfront assumptions.]    [Use definitions, axioms, and previous results to deduce that an exists for which is true; or if you have an that works, just verify that it does.]  Therefore, there exists such that .     Skeleton Proof  [Proof of by Contradiction] Below is the general structure for a proof of the proposition via contradiction. Assume is the universe of discourse.    [State any upfront assumptions.] For sake of a contradiction, assume that for all , .  [Do something to derive a contradiction.]  This is a contradiction. Therefore, there exists such that .    Note that if is a predicate for which is false, then a counterexample to this proposition amounts to showing , which can be proved by following the structure of Skeleton Proof .  It is important to point out that sometimes we will have to combine various proof techniques in a single proof. For example, if you wanted to prove a proposition of the form ) by contradiction, we would start by assuming that there exists in the universe of discourse such that and .    Determine whether each of the following statements is true or false. If the statement is true, prove it. If the statement is false, provide a counterexample.   For all , .    There exists such that .    There exists such that for all , .    For all , .    For all , there exists such that .    There exists integers and such that .    There do not exist integers and such that .    For all , if divides , then either divides or divides .    For all , if is even, then either or is even.         Explain why the following proof is not a valid argument.    Claim. For all , if and are even, then is even.  Proof.  Suppose such that and are even. For sake of a contradiction, assume that is odd. Then there exists such that . This implies that . We see that the left side of the equation is even because it is the difference of even numbers. However, the right side is odd. Since an even number cannot equal an odd number, we have a contradiction. Therefore, is even.       Sometimes it is useful to split the universe of discourse into multiple collections to deal with separately. When doing this, it is important to make sure that your cases are exhaustive (i.e., every possible element of the universe of discourse has been accounted for). Ideally, your cases will also be disjoint (i.e., you have not considered the same element more than once). For example, if our universe of discourse is the set of integers, we can separately consider even versus odd integers. If our universe of discourse is the set of real numbers, we might want to consider rational versus irrational numbers, or possibly negative versus zero versus and positive. Attacking a proof in this way, is often referred to as a proof by cases (or proof by exhaustion ). A proof by cases may also be useful when dealing with hypotheses involving or . Note that the use of a proof by cases is justified by Theorem .  If you decide to approach a proof using cases, be sure to inform the reader that you are doing so and organize your proof in a sensible way. Note that doing an analysis of cases should be avoided if possible. For example, while it is valid to separately consider the cases of whether is an even integer versus odd integer in the proof of Theorem , it is completely unnecessary. To prove the next theorem, you might want to consider two cases.    For all , is even.    Prove the following theorem by proving the contrapositive using two cases.    For all , if is odd, then is odd and is odd.    When proving the previous theorem, you likely experienced some dèjá vu. You should have assumed is even or is even at some point in your proof. The first case is is even while the second case is is even. (Note that you do not need to handle the case when both and are even since the two individual cases already yield the desired result.) The proofs for both cases are identical except the roles of and are interchanged. In instances such as this, mathematicians have a shortcut. Instead of writing two essentially identical proofs for each case, you can simply handle one of the cases and indicate that the remaining case follows from a nearly identical proof. The quickest way to do this is to use the phrase, Without loss of generality, assume . For example, here is a proof of Theorem that utilizes this approach.   Proof of Theorem . We will prove the contrapositive. Let and assume is even or is even. Without loss of generality, assume is even. Then there exists such that . We see that .  Since both and are integers, is an integer. This shows that is even. We have proved the contrapositive, and hence for all , if is odd, then is odd and is odd.  Note that it would not be appropriate to utilize the without loss of generality approach to combine the two cases in the proof of Theorem since the proof of the second case is not as simple as swapping the roles of symbols in the proof of the first case.  There are times when a theorem will make a claim about the uniqueness of a particular mathematical object. For example, in Section , you will be asked to prove that both the additive and multiplicative identities (i.e, 0 and 1) are unique (see Theorems and ). As another example, the Fundamental Theorem of Arithmetic (see Theorem ) states that every natural number greater than 1 can be expressed uniquely (up to the order in which they appear) as the product of one or more primes. The typical approach to proving uniqueness is to suppose that there are potentially two objects with the desired property and then show that these objects are actually equal. Whether you approach this as a proof by contradiction is a matter of taste. It is common to use as a symbolic abbreviation for there exists a unique such that .   Skeleton Proof  [Direct Proof of ] Here is the general structure for a direct proof of the proposition . Assume is the universe of discourse.    [State any upfront assumptions.]    [Use definitions, axioms, and previous results to deduce that an exists for which is true; or if you have an that works, just verify that it does.]  Therefore, there exists such that . Now, suppose such that and .  [Prove that .]  This implies that there exists a unique such that .    The next theorem provides an opportunity to practice proving uniqueness.    If such that and , then there exists a unique such that .    \\epigraph{With two published novels and a file full of ideas for others, the only thing I know about writing is this: it only happens when you sit down and do it. Studying good writing is important, reading good writing is important, talking to other writers is important, but the only way you can produce good writing is to write.}{Jamie Beth Cohen, novelist}  "
+  "body": " More About Quantification  When writing mathematical proofs, we do not explicitly use the symbolic representation of a given statement in terms of quantifiers and logical connectives. Nonetheless, having this notation at our disposal allows us to compartmentalize the abstract nature of mathematical propositions and provides us with a way to talk about the general structure involved in the construction of a proof.    Two quantified propositions are logically equivalent if they have the same truth value in every universe of discourse.      Consider the propositions and , where is some universe of discourse.   Do these propositions have the same truth value if the universe of discourse is the set of real numbers?    Provide an example of a universe of discourse such that the propositions yield different truth values.    What can you conclude about the logical equivalence of these propositions?       It is worth pointing out an important distinction. Consider the propositions All cars are red and All natural numbers are positive . Both of these are instances of the logical form  . It turns out that the first proposition is false and the second is true; however, it does not make sense to attach a truth value to the logical form. A logical form is a blueprint for particular propositions. If we are careful, it makes sense to talk about whether two logical forms are logically equivalent. For example, is logically equivalent to since a conditional proposition is logically equivalent to its contrapositive (see Theorem ). For fixed and , these two forms will always have the same truth value independent of the universe of discourse. If you change and , then the truth value may change, but the two forms will still agree.  The next theorem tells us how to negate logical forms involving quantifiers. Your proof should involve several mini arguments. For example, in Part (a), you will need to proof that if is true, then is also true.    Let be a predicate in some universe of discourse. Then    is logically equivalent to ;     is logically equivalent to .         Negate each of the following sentences. Disregard the truth value and the universe of discourse.             All cars are red.    Every Wookiee is named Chewbacca.    Some hippies are Republican.    Some birds are not angry.    Not every video game will rot your brain.    For all , is prime.    There exists such that .    There is no function such that if is continuous, then is not differentiable.       Using Theorem and our previous results involving quantification, we can negate complex mathematical propositions by working from left to right. For example, if we negate the false proposition , we obtain the proposition , which is logically equivalent to and must be true. For a more complicated example, consider the (false) proposition .  Then its negation is logically equivalent to , which happens to be logically equivalent to .  Can you identify the theorems that were used in the two examples above?    Negate each of the following propositions. Disregard the truth value and the universe of discourse.        For every , there exists such that .    For all , if is not negative, then there exists such that .    For every , there exists such that .    There exists such that for all , .    There exists such that for all , .         There exists a married person such that for all married people , is married to .         Consider the following proposition in some universe of discourse.    For all goofy wobblers , there exists a dinglehopper such that if is a not a nugget, then is a doofus.      Find the negation of this proposition so that it includes the phrase is not a doofus.       Consider the following proposition in some universe of discourse.    If and are both snazzy, then is not nifty.      Find the contrapositive of this proposition so that it includes the phrase not snazzy .    At this point, we should be able to use our understanding of quantification to construct counterexamples to complicated false propositions and proofs of complicated true propositions. Here are some general proof structures for various logical forms.   Skeleton Proof  [Direct Proof of ] Here is the general structure for a direct proof of the proposition . Assume is the universe of discourse.    [State any upfront assumptions.] Let .  [Use definitions and known results.]  Therefore, is true. Since was arbitrary, for all , .    Combining Skeleton Proof with Skeleton Proof , we obtain the following skeleton proof.   Skeleton Proof  [Proof of ] Below is the general structure for a direct proof of the proposition . Assume is the universe of discourse.    [State any upfront assumptions.] Let . Assume .  [Use definitions and known results to derive ]  Therefore, .     Skeleton Proof  [Proof of by Contradiction] Here is the general structure for a proof of the proposition via contradiction. Assume is the universe of discourse.    [State any upfront assumptions.] For sake of a contradiction, assume that there exists such that .  [Do something to derive a contradiction.]  This is a contradiction. Therefore, for all , is true.     Skeleton Proof  [Direct Proof of ] Here is the general structure for a direct proof of the proposition . Assume is the universe of discourse.    [State any upfront assumptions.]    [Use definitions, axioms, and previous results to deduce that an exists for which is true; or if you have an that works, just verify that it does.]  Therefore, there exists such that .     Skeleton Proof  [Proof of by Contradiction] Below is the general structure for a proof of the proposition via contradiction. Assume is the universe of discourse.    [State any upfront assumptions.] For sake of a contradiction, assume that for all , .  [Do something to derive a contradiction.]  This is a contradiction. Therefore, there exists such that .    Note that if is a predicate for which is false, then a counterexample to this proposition amounts to showing , which can be proved by following the structure of Skeleton Proof .  It is important to point out that sometimes we will have to combine various proof techniques in a single proof. For example, if you wanted to prove a proposition of the form ) by contradiction, we would start by assuming that there exists in the universe of discourse such that and .    Determine whether each of the following statements is true or false. If the statement is true, prove it. If the statement is false, provide a counterexample.   For all , .    There exists such that .    There exists such that for all , .    For all , .    For all , there exists such that .    There exists integers and such that .    There do not exist integers and such that .    For all , if divides , then either divides or divides .    For all , if is even, then either or is even.         Explain why the following proof is not a valid argument.    Claim. For all , if and are even, then is even.  Proof.  Suppose such that and are even. For sake of a contradiction, assume that is odd. Then there exists such that . This implies that . We see that the left side of the equation is even because it is the difference of even numbers. However, the right side is odd. Since an even number cannot equal an odd number, we have a contradiction. Therefore, is even.       Sometimes it is useful to split the universe of discourse into multiple collections to deal with separately. When doing this, it is important to make sure that your cases are exhaustive (i.e., every possible element of the universe of discourse has been accounted for). Ideally, your cases will also be disjoint (i.e., you have not considered the same element more than once). For example, if our universe of discourse is the set of integers, we can separately consider even versus odd integers. If our universe of discourse is the set of real numbers, we might want to consider rational versus irrational numbers, or possibly negative versus zero versus and positive. Attacking a proof in this way, is often referred to as a proof by cases (or proof by exhaustion ). A proof by cases may also be useful when dealing with hypotheses involving or . Note that the use of a proof by cases is justified by Theorem .  If you decide to approach a proof using cases, be sure to inform the reader that you are doing so and organize your proof in a sensible way. Note that doing an analysis of cases should be avoided if possible. For example, while it is valid to separately consider the cases of whether is an even integer versus odd integer in the proof of Theorem , it is completely unnecessary. To prove the next theorem, you might want to consider two cases.    For all , is even.    Prove the following theorem by proving the contrapositive using two cases.    For all , if is odd, then is odd and is odd.    When proving the previous theorem, you likely experienced some dèjá vu. You should have assumed is even or is even at some point in your proof. The first case is is even while the second case is is even. (Note that you do not need to handle the case when both and are even since the two individual cases already yield the desired result.) The proofs for both cases are identical except the roles of and are interchanged. In instances such as this, mathematicians have a shortcut. Instead of writing two essentially identical proofs for each case, you can simply handle one of the cases and indicate that the remaining case follows from a nearly identical proof. The quickest way to do this is to use the phrase, Without loss of generality, assume . For example, here is a proof of Theorem that utilizes this approach.   Proof of Theorem  We will prove the contrapositive. Let and assume is even or is even. Without loss of generality, assume is even. Then there exists such that . We see that .  Since both and are integers, is an integer. This shows that is even. We have proved the contrapositive, and hence for all , if is odd, then is odd and is odd.   Note that it would not be appropriate to utilize the without loss of generality approach to combine the two cases in the proof of Theorem since the proof of the second case is not as simple as swapping the roles of symbols in the proof of the first case.  There are times when a theorem will make a claim about the uniqueness of a particular mathematical object. For example, in Section , you will be asked to prove that both the additive and multiplicative identities (i.e, 0 and 1) are unique (see Theorems and ). As another example, the Fundamental Theorem of Arithmetic (see Theorem ) states that every natural number greater than 1 can be expressed uniquely (up to the order in which they appear) as the product of one or more primes. The typical approach to proving uniqueness is to suppose that there are potentially two objects with the desired property and then show that these objects are actually equal. Whether you approach this as a proof by contradiction is a matter of taste. It is common to use as a symbolic abbreviation for there exists a unique such that .   Skeleton Proof  [Direct Proof of ] Here is the general structure for a direct proof of the proposition . Assume is the universe of discourse.    [State any upfront assumptions.]    [Use definitions, axioms, and previous results to deduce that an exists for which is true; or if you have an that works, just verify that it does.]  Therefore, there exists such that . Now, suppose such that and .  [Prove that .]  This implies that there exists a unique such that .    The next theorem provides an opportunity to practice proving uniqueness.    If such that and , then there exists a unique such that .    \\epigraph{With two published novels and a file full of ideas for others, the only thing I know about writing is this: it only happens when you sit down and do it. Studying good writing is important, reading good writing is important, talking to other writers is important, but the only way you can produce good writing is to write.}{Jamie Beth Cohen, novelist}  "
 },
 {
   "id": "definition-12",
@@ -826,7 +826,7 @@ var ptx_lunr_docs = [
   "type": "Problem",
   "number": "2.75",
   "title": "",
-  "body": "  Consider the following proposition in some universe of discourse.   ``For all goofy wobblers , there exists a dinglehopper such that if is a not a nugget, then is a doofus.\"     Find the negation of this proposition so that it includes the phrase is not a doofus.    "
+  "body": "  Consider the following proposition in some universe of discourse.    For all goofy wobblers , there exists a dinglehopper such that if is a not a nugget, then is a doofus.      Find the negation of this proposition so that it includes the phrase is not a doofus.    "
 },
 {
   "id": "problem-41",
@@ -835,7 +835,7 @@ var ptx_lunr_docs = [
   "type": "Problem",
   "number": "2.76",
   "title": "",
-  "body": "  Consider the following proposition in some universe of discourse.   ``If and are both snazzy, then is not nifty.\"     Find the contrapositive of this proposition so that it includes the phrase not snazzy .   "
+  "body": "  Consider the following proposition in some universe of discourse.    If and are both snazzy, then is not nifty.      Find the contrapositive of this proposition so that it includes the phrase not snazzy .   "
 },
 {
   "id": "proof-5",
@@ -923,6 +923,15 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_More_About_Quantification.html#proof-10",
   "type": "Proof",
+  "number": "2.5.1",
+  "title": "Proof of Theorem 2.80.",
+  "body": " Proof of Theorem  We will prove the contrapositive. Let and assume is even or is even. Without loss of generality, assume is even. Then there exists such that . We see that .  Since both and are integers, is an integer. This shows that is even. We have proved the contrapositive, and hence for all , if is odd, then is odd and is odd.  "
+},
+{
+  "id": "proof-11",
+  "level": "2",
+  "url": "sec_More_About_Quantification.html#proof-11",
+  "type": "Proof",
   "number": "1",
   "title": "",
   "body": "  [State any upfront assumptions.]    [Use definitions, axioms, and previous results to deduce that an exists for which is true; or if you have an that works, just verify that it does.]  Therefore, there exists such that . Now, suppose such that and .  [Prove that .]  This implies that there exists a unique such that .  "
@@ -943,7 +952,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "3.1",
   "title": "Sets",
-  "body": " Sets    A set is a collection of objects called elements. If is a set and is an element of , we write . Otherwise, we write . The set containing no elements is called the empty set, and is denoted by the symbol . Any set that contains at least one element is referred to as a nonempty set.    If we think of a set as a box potentially containing some stuff, then the empty set is a box with nothing in it. One assumption we will make is that for any set , . The language associated to sets is specific. We will often define sets using the following notation, called set-builder notation : , where is some predicate statement involving . The first part denotes what type of is being considered. The predicate to the right of the vertical bar (not to be confused with divides ) determines the condition(s) that each must satisfy in order to be a member of the set. This notation is read as The set of all in such that . As an example, the set describes the collection of even natural numbers that are greater than or equal to 8.  There are a few sets that are commonly discussed in mathematics and have predefined symbols to denote them. We have already encountered the integers, natural numbers, and real numbers. Notice that our definition of the rational numbers uses set-builder notation.    Natural Numbers:  . Some books will include zero in the set of natural numbers, but we do not.     Integers:  .     Rational Numbers:  .     Real Numbers:  denotes the set of real numbers. We are taking for granted that you have some familiarity with this set.     Since the set of natural numbers consists of the positive integers, the natural numbers are sometimes denoted by .    Unpack the meaning of each of the following sets and provide a description of the elements that each set contains.                                 Write each of the following sentences using set-builder notation.   The set of all real numbers less than .    The set of all real numbers greater than and less than or equal to 42.    The set of all even integers.       Parts (a) and (b) of Problem are examples of intervals.    For with , we define the following sets, referred to as intervals.                                  We analogously define , , and . Intervals of the form , , , and are called open intervals while is referred to as a closed interval. A bounded interval is any interval of the form , , , and . For bounded intervals, and are called the endpoints of the interval.    We will always assume that any time we write , or that . We will see where the terminology of open and closed comes from in Section .    Give an example of each of the following.   An interval that is neither an open nor closed interval.    An infinite set that is not an interval.         If and are sets, then we say that is a subset of , written , provided that every element of is an element of .      List all of the subsets of .    Every nonempty set always has two subsets. Notice that if , then Parts (a) and (b) of the next theorem say the same thing.    Let be a set. Then    , and     .       Observe that is equivalent to ``For all (in the universe of discourse), if , then .\" Since we know how to deal with for all statements and conditional propositions, we know how to go about proving . If happens to be the empty set, then the statement ``For all (in the universe of discourse), if , then \" is vacuously true. This is in agreement with Theorem (b), which states that the empty set is always a subset of every set. In light of this, it is common to omit discussion of the case when is the empty set when proving that is s a subset of .    Suppose and are sets. Describe a skeleton proof for proving that .     Transitivity of Subsets   Suppose that , , and are sets. If and , then .      Two sets and are equal, denoted , if the sets contain the same elements.    Since the next theorem is a biconditional proposition, you need to write two distinct subproofs, one for implies and , and another for and implies . Be sure to make it clear to the reader when you are proving each implication.    Suppose that and are sets. Then if and only if and .    Note that if we want to prove , then we have to do two separate subproofs: one for and one for . Be sure to make it clear to the reader where these subproofs begin and end. One approach is to label each subproof with and (including the parentheses), respectively.    If , then is called a proper subset provided that . In this case, we may write or .    Note that some authors use to mean , so some confusion could arise if you are not reading carefully.    Let and be sets in some universe of discourse .   The union of the sets and is .    The intersection of the sets and is .    The set difference of the sets and is .    The complement of (relative to ) is the set .         If two sets and have the property that , then we say that and are disjoint sets.      Suppose that the universe of discourse is . Let , , and . Find each of the following.                                                          Suppose that the universe of discourse is . Let , , and . Find each of the following.                                                     Suppose that the universe of discourse is . Let and . Find each of the following.                       If and are sets such that , then .      If and are sets, then .    In Chapter , we encountered De Morgan's Law (see Theorem and Problem ), which provided a method for negating compound propositions involving conjunctions and disjunctions. The next theorem provides a method for taking the complement of unions and intersections of sets. This result is also known as De Morgan's Law. Do you see why?   De Morgan's Law   If and are sets, then    , and     .       The next theorem indicates how intersections and unions interact with each other.   Distribution of Union and Intersection   If , , and are sets, then    , and     .         For each of the statements (a) (d) on the left, find an equivalent symbolic proposition chosen from the list (i) (v) on the right. Note that not every statement on the right will get used.       .     .     .     .                                   \\epigraph{In mathematics the art of proposing a question must be held of higher value than solving it.}{Georg Cantor, mathematician}  "
+  "body": " Sets    A set is a collection of objects called elements . If is a set and is an element of , we write . Otherwise, we write . The set containing no elements is called the empty set , and is denoted by the symbol . Any set that contains at least one element is referred to as a nonempty set .    If we think of a set as a box potentially containing some stuff, then the empty set is a box with nothing in it. One assumption we will make is that for any set , . The language associated to sets is specific. We will often define sets using the following notation, called set-builder notation : , where is some predicate statement involving . The first part denotes what type of is being considered. The predicate to the right of the vertical bar (not to be confused with divides ) determines the condition(s) that each must satisfy in order to be a member of the set. This notation is read as The set of all in such that . As an example, the set describes the collection of even natural numbers that are greater than or equal to 8.  There are a few sets that are commonly discussed in mathematics and have predefined symbols to denote them. We have already encountered the integers, natural numbers, and real numbers. Notice that our definition of the rational numbers uses set-builder notation.    Natural Numbers:  . Some books will include zero in the set of natural numbers, but we do not.     Integers:  .     Rational Numbers:  .     Real Numbers:  denotes the set of real numbers. We are taking for granted that you have some familiarity with this set.     Since the set of natural numbers consists of the positive integers, the natural numbers are sometimes denoted by .    Unpack the meaning of each of the following sets and provide a description of the elements that each set contains.                                 Write each of the following sentences using set-builder notation.   The set of all real numbers less than .    The set of all real numbers greater than and less than or equal to 42.    The set of all even integers.       Parts (a) and (b) of Problem are examples of intervals.    For with , we define the following sets, referred to as intervals .                                  We analogously define , , and . Intervals of the form , , , and are called open intervals while is referred to as a closed interval . A bounded interval is any interval of the form , , , and . For bounded intervals, and are called the endpoints of the interval.    We will always assume that any time we write , or that . We will see where the terminology of open and closed comes from in Section .    Give an example of each of the following.   An interval that is neither an open nor closed interval.    An infinite set that is not an interval.         If and are sets, then we say that is a subset of , written , provided that every element of is an element of .      List all of the subsets of .    Every nonempty set always has two subsets. Notice that if , then Parts (a) and (b) of the next theorem say the same thing.    Let be a set. Then    , and     .       Observe that is equivalent to For all (in the universe of discourse), if , then . Since we know how to deal with for all statements and conditional propositions, we know how to go about proving . If happens to be the empty set, then the statement For all (in the universe of discourse), if , then is vacuously true. This is in agreement with Theorem (b), which states that the empty set is always a subset of every set. In light of this, it is common to omit discussion of the case when is the empty set when proving that is s a subset of .    Suppose and are sets. Describe a skeleton proof for proving that .     Transitivity of Subsets   Suppose that , , and are sets. If and , then .      Two sets and are equal , denoted , if the sets contain the same elements.    Since the next theorem is a biconditional proposition, you need to write two distinct subproofs, one for implies and , and another for and implies . Be sure to make it clear to the reader when you are proving each implication.    Suppose that and are sets. Then if and only if and .    Note that if we want to prove , then we have to do two separate subproofs: one for and one for . Be sure to make it clear to the reader where these subproofs begin and end. One approach is to label each subproof with and (including the parentheses), respectively.    If , then is called a proper subset provided that . In this case, we may write or .    Note that some authors use to mean , so some confusion could arise if you are not reading carefully.    Let and be sets in some universe of discourse .   The union of the sets and is .    The intersection of the sets and is .    The set difference of the sets and is .    The complement of (relative to ) is the set .         If two sets and have the property that , then we say that and are disjoint sets .      Suppose that the universe of discourse is . Let , , and . Find each of the following.                                                          Suppose that the universe of discourse is . Let , , and . Find each of the following.                                                     Suppose that the universe of discourse is . Let and . Find each of the following.                       If and are sets such that , then .      If and are sets, then .    In Chapter , we encountered De Morgan's Law (see Theorem and Problem ), which provided a method for negating compound propositions involving conjunctions and disjunctions. The next theorem provides a method for taking the complement of unions and intersections of sets. This result is also known as De Morgan's Law. Do you see why?   De Morgan's Law   If and are sets, then    , and     .       The next theorem indicates how intersections and unions interact with each other.   Distribution of Union and Intersection   If , , and are sets, then    , and     .         For each of the statements (a) (d) on the left, find an equivalent symbolic proposition chosen from the list (i) (v) on the right. Note that not every statement on the right will get used.       .     .     .     .                                   \\epigraph{In mathematics the art of proposing a question must be held of higher value than solving it.}{Georg Cantor, mathematician}  "
 },
 {
   "id": "definition-13",
@@ -952,7 +961,25 @@ var ptx_lunr_docs = [
   "type": "Definition",
   "number": "3.1",
   "title": "",
-  "body": "  A set is a collection of objects called elements. If is a set and is an element of , we write . Otherwise, we write . The set containing no elements is called the empty set, and is denoted by the symbol . Any set that contains at least one element is referred to as a nonempty set.   "
+  "body": "  A set is a collection of objects called elements . If is a set and is an element of , we write . Otherwise, we write . The set containing no elements is called the empty set , and is denoted by the symbol . Any set that contains at least one element is referred to as a nonempty set .   "
+},
+{
+  "id": "p-391",
+  "level": "2",
+  "url": "sec_Sets.html#p-391",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "set-builder notation "
+},
+{
+  "id": "p-392",
+  "level": "2",
+  "url": "sec_Sets.html#p-392",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Natural Numbers: Integers: Rational Numbers: Real Numbers: "
 },
 {
   "id": "problem-44",
@@ -979,7 +1006,7 @@ var ptx_lunr_docs = [
   "type": "Definition",
   "number": "3.4",
   "title": "",
-  "body": "  For with , we define the following sets, referred to as intervals.                                  We analogously define , , and . Intervals of the form , , , and are called open intervals while is referred to as a closed interval. A bounded interval is any interval of the form , , , and . For bounded intervals, and are called the endpoints of the interval.   "
+  "body": "  For with , we define the following sets, referred to as intervals .                                  We analogously define , , and . Intervals of the form , , , and are called open intervals while is referred to as a closed interval . A bounded interval is any interval of the form , , , and . For bounded intervals, and are called the endpoints of the interval.   "
 },
 {
   "id": "problem-46",
@@ -1042,7 +1069,7 @@ var ptx_lunr_docs = [
   "type": "Definition",
   "number": "3.11",
   "title": "",
-  "body": "  Two sets and are equal, denoted , if the sets contain the same elements.   "
+  "body": "  Two sets and are equal , denoted , if the sets contain the same elements.   "
 },
 {
   "id": "theorem-26",
@@ -1078,7 +1105,7 @@ var ptx_lunr_docs = [
   "type": "Definition",
   "number": "3.15",
   "title": "",
-  "body": "  If two sets and have the property that , then we say that and are disjoint sets.   "
+  "body": "  If two sets and have the property that , then we say that and are disjoint sets .   "
 },
 {
   "id": "problem-49",
@@ -1162,6 +1189,15 @@ var ptx_lunr_docs = [
   "body": " Russell's Paradox  We now turn our attention to the issue of whether there is one mother of all universal sets. Before reading any further, consider this for a moment. That is, is there one largest set that all other sets are a subset of? Or, in other words, is there a set of all sets? To help wrap our heads around this issue, consider the following riddle, known as the Barber of Seville Paradox .  In Seville, there is a barber who shaves all those men, and only those men, who do not shave themselves. Who shaves the barber?    In the Barber of Seville Paradox, does the barber shave himself or not?     Problem is an example of a paradox . A paradox is a statement that can be shown, using a given set of axioms and definitions, to be both true and false. Recall that an axiom is a statement that is assumed to be true without proof. These are the basic building blocks from which all theorems are proved. Paradoxes are often used to show the inconsistencies in a flawed axiomatic theory. The term paradox is also used informally to describe a surprising or counterintuitive result that follows from a given set of rules. Now, suppose that there is a set of all sets and call it . That is, .    Given our definition of , explain why is an element of itself.    If we continue with this line of reasoning, it must be the case that some sets are elements of themselves and some are not. Let be the set of all sets that are elements of themselves and let be the set of all sets that are not elements of themselves.    Does belong to or ? Explain why this is a paradox.    The above paradox is one way of phrasing a paradox referred to as Russell's Paradox , named after British mathematician and philosopher Bertrand Russell (1872 1970). How did we get into this mess in the first place?! By assuming the existence of a set of all sets, we can produce all sorts of paradoxes. The only way to avoid these types of paradoxes is to conclude that there is no set of all sets. That is, the collection of all sets cannot be a set itself.  According to naive set theory (i.e., approaching set theory using natural language as opposed to formal logic), any definable collection is a set. As Russell's Paradox illustrates, this leads to problems. It turns out that any proposition can be proved from a contradiction, and hence the presence of contradictions like Russell's Paradox would appear to be catastrophic for mathematics. Since set theory is often viewed as the basis for axiomatic development in mathematics, Russell's Paradox calls the foundations of mathematics into question. In response to this threat, a great deal of research went into developing consistent axioms (i.e., free of contradictions) for set theory in the early 20th century. In 1908, Ernst Zermelo (1871 1953) proposed a collection of axioms for set theory that avoided the inconsistencies of naive set theory. In the 1920s, adjustments to Zermelo's axioms were made by Abraham Fraenkel (1891 1965), Thoralf Skolem (1887 1963), and Zermelo that resulted in a collection of nine axioms, called ZFC , where ZF stands for Zermelo and Fraenkel and C stands for the Axiom of Choice, which is one of the nine axioms. Loosely speaking, the Axiom of Choice states that given any collection of sets, each containing at least one element, it is possible to make a selection of exactly one object from each set, even if the collection of sets is infinite. There was a period of time in mathematics when the Axiom of Choice was controversial, but nowadays it is generally accepted. There is a fascinating history concerning the Axiom of Choice, including its controversy. The Wikipedia page for the Axiom of Choice is a good place to start if you are interested in learning more. There are several competing axiomatic approaches to set theory, but ZFC is considered the canonical collection of axioms by most mathematicians.   Appendix includes a few more examples of paradoxes, which you are encouraged to ponder.  \\epigraph{In times of change, learners inherit the earth, while the learned find themselves beautifully equipped to deal with a world that no longer exists.}{Eric Hoffer, moral and social philosopher}  "
 },
 {
+  "id": "p-488",
+  "level": "2",
+  "url": "sec_RussellsParadox.html#p-488",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Barber of Seville Paradox "
+},
+{
   "id": "prob_barber",
   "level": "2",
   "url": "sec_RussellsParadox.html#prob_barber",
@@ -1169,6 +1205,15 @@ var ptx_lunr_docs = [
   "number": "3.24",
   "title": "",
   "body": "  In the Barber of Seville Paradox, does the barber shave himself or not?   "
+},
+{
+  "id": "p-490",
+  "level": "2",
+  "url": "sec_RussellsParadox.html#p-490",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "paradox "
 },
 {
   "id": "problem-54",
@@ -1189,13 +1234,22 @@ var ptx_lunr_docs = [
   "body": "  Does belong to or ? Explain why this is a paradox.   "
 },
 {
+  "id": "p-494",
+  "level": "2",
+  "url": "sec_RussellsParadox.html#p-494",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Russell's Paradox "
+},
+{
   "id": "sec_PowerSets",
   "level": "1",
   "url": "sec_PowerSets.html",
   "type": "Section",
   "number": "3.3",
   "title": "Power Sets",
-  "body": " Power Sets  We have already seen that using union, intersection, set difference, and complement we can create new sets (in the same universe) from existing sets. In this section, we will describe another way to generate new sets; however, the new sets will not live in the same universe this time. The following set is always a set of subsets. That is, its elements are themselves sets.    If is a set, then the power set of is the set of subsets of . The power set of is denoted .    You can see that a power set of is not composed of elements of , but rather it is composed of subsets of , and none of these subsets are elements of .  For example, if , then . It follows immediately from the definition that if and only if .    For each of the following sets, find the power set.                            How many subsets do you think that a set with elements has? What if ? You do not need to prove your conjecture at this time. We will prove this later using mathematical induction.    It is important to realize that the concepts of element and subset need to be carefully delineated. For example, consider the set . The object is an element of , but the object is both a subset of and an element of . This can get confusing rather quickly. Consider the set from Problem . The set happens to be an element of , a subset of , and an element of . The upshot is that it is important to pay close attention to whether or is the proper symbol to use.  Since the next theorem is a biconditional proposition, you need to write two distinct subproofs, one for `` implies \", and another for `` implies \".    Let and be sets. Then if and only if .      Let and be sets. Determine whether each of the following statements is true or false. If the statement is true, prove it. If the statement is false, provide a counterexample.                          While power sets provide a useful way of generating new sets, they also play a key role in Georg Cantor 's (1845 1918) investigation into the size of sets. Cantor's Theorem (see Theorem ) states that the power set of a set even if the set is infinite is always larger than the original set. One consequence of this is that there are different sizes of infinity and no largest infinity. Mathematics is awesome.  \\epigraph{The master has failed more times than the beginner has even tried.}{Stephen McCranie, author & illustrator}  "
+  "body": " Power Sets  We have already seen that using union, intersection, set difference, and complement we can create new sets (in the same universe) from existing sets. In this section, we will describe another way to generate new sets; however, the new sets will not live in the same universe this time. The following set is always a set of subsets. That is, its elements are themselves sets.    If is a set, then the power set of is the set of subsets of . The power set of is denoted .    You can see that a power set of is not composed of elements of , but rather it is composed of subsets of , and none of these subsets are elements of .  For example, if , then . It follows immediately from the definition that if and only if .    For each of the following sets, find the power set.                            How many subsets do you think that a set with elements has? What if ? You do not need to prove your conjecture at this time. We will prove this later using mathematical induction.    It is important to realize that the concepts of element and subset need to be carefully delineated. For example, consider the set . The object is an element of , but the object is both a subset of and an element of . This can get confusing rather quickly. Consider the set from Problem . The set happens to be an element of , a subset of , and an element of . The upshot is that it is important to pay close attention to whether or is the proper symbol to use.  Since the next theorem is a biconditional proposition, you need to write two distinct subproofs, one for implies , and another for implies .    Let and be sets. Then if and only if .      Let and be sets. Determine whether each of the following statements is true or false. If the statement is true, prove it. If the statement is false, provide a counterexample.                          While power sets provide a useful way of generating new sets, they also play a key role in Georg Cantor 's (1845 1918) investigation into the size of sets. Cantor's Theorem (see Theorem ) states that the power set of a set even if the set is infinite is always larger than the original set. One consequence of this is that there are different sizes of infinity and no largest infinity. Mathematics is awesome.  \\epigraph{The master has failed more times than the beginner has even tried.}{Stephen McCranie, author & illustrator}  "
 },
 {
   "id": "definition-20",
@@ -1243,6 +1297,15 @@ var ptx_lunr_docs = [
   "body": "  Let and be sets. Determine whether each of the following statements is true or false. If the statement is true, prove it. If the statement is false, provide a counterexample.                         "
 },
 {
+  "id": "p-516",
+  "level": "2",
+  "url": "sec_PowerSets.html#p-516",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Cantor's Theorem "
+},
+{
   "id": "sec_Indexing_Sets",
   "level": "1",
   "url": "sec_Indexing_Sets.html",
@@ -1250,6 +1313,15 @@ var ptx_lunr_docs = [
   "number": "3.4",
   "title": "Indexing Sets",
   "body": " Indexing Sets  Suppose we consider the following collection of open intervals:   This collection has a natural way for us to index the sets:   In this case the sets are indexed by the set . The subscripts are taken from the index set . If we wanted to talk about an arbitrary set from this indexed collection, we could use the notation .  Let's consider another example:   An obvious way to index these sets is as follows:   In this case, the collection of sets is indexed by .  Using indexing sets in mathematics is an extremely useful notational tool, but it is important to keep straight the difference between the sets that are being indexed, the elements in each set being indexed, the indexing set, and the elements of the indexing set.  Any set (finite or infinite) can be used as an indexing set. Often capital Greek letters are used to denote arbitrary indexing sets and small Greek letters to represent elements of these sets. If the indexing set is a subset of , then it is common to use Roman letters as individual indices. Of course, these are merely conventions, not rules.   If is a set and we have a collection of sets indexed by , then we may write to refer to this collection. We read this as the set of -sub-alphas over alpha in Delta.     If a collection of sets is indexed by , then we may write or .    Borrowing from this idea, a collection may be written as .       Let be a collection of sets.   The union of the entire collection is defined via .    The intersection of the entire collection is defined via .       In the special case that , we write and   Similarly, if , then .  Notice the difference between and (respectively, and ).    Let be the collection of open intervals from the beginning of the section. Find each of the following.                  Let be the collection from earlier in the section. Find each of the following.                  Let , where . Find each of the following.                  Let , where . Find each of the following.                  For each (the rational numbers), let be the set containing all real numbers except  . Find each of the following.                  A collection of sets is pairwise disjoint if for .      Provide an example of a collection of sets that is not pairwise disjoint even though .      For each of the following, provide an example of a collection of sets with the stated property.   A collection of three subsets of such that the collection is not pairwise disjoint, the union equals , and the intersection of the collection is empty.    A collection of infinitely many subsets of such that the collection is not pairwise disjoint, the union equals , and the intersection of the collection is empty.    A collection of infinitely many subsets of such that the collection is pairwise disjoint, the union equals , and the intersection of the collection is empty.        Generalized Distribution of Union and Intersection   Let be a collection of sets and let be any set. Then    , and     .        Generalized De Morgan's Law   Let be a collection of sets. Then    , and     .       At the end of Section , we mentioned the Axiom of Choice. Using the language of indexing sets, we can now state this axiom precisely.   Axiom of Choice   For every indexed collection of nonempty sets, there exists an indexed collection of elements such that for each .    Intuitively, the Axiom of Choice guarantees the existence of mathematical objects that are obtained by a sequence of choices. It applies to both the finite and infinite setting. As an analogy, we can think of each as a drawer in a dresser and each as an article of clothing chosen from the drawer identified with . The Axiom of Choice is surprisingly powerful, sometimes leading to unexpected consequences. It often gets used in subtle ways that mathematicians are not always explicit with. We will require the Axiom of Choice when proving Theorems and . When proving these theorems, be on the lookout for where you are invoking the Axiom of Choice.  \\epigraph{All sorts of things can happen when you're open to new ideas and playing around with things.}{Stephanie Kwolek, chemist}  "
+},
+{
+  "id": "p-520",
+  "level": "2",
+  "url": "sec_Indexing_Sets.html#p-520",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "indexed index set "
 },
 {
   "id": "definition-21",
@@ -1356,7 +1428,7 @@ var ptx_lunr_docs = [
   "url": "sec_Indexing_Sets.html#axiom-1",
   "type": "Axiom",
   "number": "3.43",
-  "title": "Axiom of Choice.",
+  "title": "",
   "body": " Axiom of Choice   For every indexed collection of nonempty sets, there exists an indexed collection of elements such that for each .   "
 },
 {
@@ -1366,7 +1438,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "3.5",
   "title": "Cartesian Products of Sets",
-  "body": " Cartesian Products of Sets  Given a collection of sets, we can form new sets by taking unions, intersections, complements, and set differences. In this section, we introduce a type of product of sets. You have already encountered this concept when you learned to plot points in the plane. You also crossed paths with this notion if you have taken a course in linear algebra.    For each , we define an -tuple to be an ordered list of elements of the form . We refer to as the th component (or coordinate) of . Two -tuples and are equal if for all . A -tuple is more commonly referred to as an ordered pair while a -tuple is often called an ordered triple.    Occasionally, other symbols are used to surround the components of an -tuple, such as square brackets or angle brackets . In some programming languages, curly braces are used to specify arrays. However, we avoid this convention in mathematics since curly braces are the standard notation for sets. The term tuple can also occur when discussing other mathematical objects, such as vectors.  We can use the notion of -tuples to construct new sets from existing sets.    If and are sets, the Cartesian product (or direct product) of and , denoted (read as times or cross ), is the set of all ordered pairs where the first component is from and the second component is from . In set-builder notation, we have .  We similarly define the Cartesian product of sets, say , by , where is referred to as the th factor of the Cartesian product. As a special case, the set is often abbreviated as .    Cartesian products are named after French philosopher and mathematician René Descartes (1596 1650). Cartesian products will play a prominent role in Chapter .    If and , then .      The standard two-dimensional plane and standard three space are familiar examples of Cartesian products. In particular, we have and .      Consider the sets and from Example .   Find .    Find .         If and are sets, why do you think that is referred to as a type of product ? Think about the area model for multiplication of natural numbers.      If and are both finite sets, then how many elements will have?      Let , , and . Find .      Let and . Write each of the following using set-builder notation and then describe the set geometrically (e.g., draw a picture).                            If is a set, then what is equal to?      Given sets and , when will be equal to ?      Write using set-builder notation and then describe this set geometrically by interpreting it as a subset of .    We now turn our attention to subsets of Cartesian products.    Let , , , and be sets. If and , then .      Is it true that if , then and ? Do not forget to think about cases involving the empty set.      Is every subset of of the form , where and ? If so, prove it. If not, find a counterexample.      If , , and are nonempty sets, is a subset of ?      Let , , , and . Compute each of the following.                                                Let , , , and be sets. Determine whether each of the following statements is true or false. If a statement is true, prove it. Otherwise, provide a counterexample.                                 If and are sets, conjecture a way to rewrite in a way that involves and and then prove your conjecture.    \\epigraph{If there is no struggle, there is no progress.}{Frederick Douglass, writer & statesman}  "
+  "body": " Cartesian Products of Sets  Given a collection of sets, we can form new sets by taking unions, intersections, complements, and set differences. In this section, we introduce a type of product of sets. You have already encountered this concept when you learned to plot points in the plane. You also crossed paths with this notion if you have taken a course in linear algebra.    For each , we define an -tuple to be an ordered list of elements of the form . We refer to as the th component (or coordinate ) of . Two -tuples and are equal if for all . A -tuple is more commonly referred to as an ordered pair while a -tuple is often called an ordered triple .    Occasionally, other symbols are used to surround the components of an -tuple, such as square brackets or angle brackets . In some programming languages, curly braces are used to specify arrays. However, we avoid this convention in mathematics since curly braces are the standard notation for sets. The term tuple can also occur when discussing other mathematical objects, such as vectors.  We can use the notion of -tuples to construct new sets from existing sets.    If and are sets, the Cartesian product (or direct product ) of and , denoted (read as times or cross ), is the set of all ordered pairs where the first component is from and the second component is from . In set-builder notation, we have .  We similarly define the Cartesian product of sets, say , by , where is referred to as the th factor of the Cartesian product. As a special case, the set is often abbreviated as .    Cartesian products are named after French philosopher and mathematician René Descartes (1596 1650). Cartesian products will play a prominent role in Chapter .    If and , then .      The standard two-dimensional plane and standard three space are familiar examples of Cartesian products. In particular, we have and .      Consider the sets and from Example .   Find .    Find .         If and are sets, why do you think that is referred to as a type of product ? Think about the area model for multiplication of natural numbers.      If and are both finite sets, then how many elements will have?      Let , , and . Find .      Let and . Write each of the following using set-builder notation and then describe the set geometrically (e.g., draw a picture).                            If is a set, then what is equal to?      Given sets and , when will be equal to ?      Write using set-builder notation and then describe this set geometrically by interpreting it as a subset of .    We now turn our attention to subsets of Cartesian products.    Let , , , and be sets. If and , then .      Is it true that if , then and ? Do not forget to think about cases involving the empty set.      Is every subset of of the form , where and ? If so, prove it. If not, find a counterexample.      If , , and are nonempty sets, is a subset of ?      Let , , , and . Compute each of the following.                                                Let , , , and be sets. Determine whether each of the following statements is true or false. If a statement is true, prove it. Otherwise, provide a counterexample.                                 If and are sets, conjecture a way to rewrite in a way that involves and and then prove your conjecture.    \\epigraph{If there is no struggle, there is no progress.}{Frederick Douglass, writer & statesman}  "
 },
 {
   "id": "definition-23",
@@ -1375,7 +1447,7 @@ var ptx_lunr_docs = [
   "type": "Definition",
   "number": "3.44",
   "title": "",
-  "body": "  For each , we define an -tuple to be an ordered list of elements of the form . We refer to as the th component (or coordinate) of . Two -tuples and are equal if for all . A -tuple is more commonly referred to as an ordered pair while a -tuple is often called an ordered triple.   "
+  "body": "  For each , we define an -tuple to be an ordered list of elements of the form . We refer to as the th component (or coordinate ) of . Two -tuples and are equal if for all . A -tuple is more commonly referred to as an ordered pair while a -tuple is often called an ordered triple .   "
 },
 {
   "id": "definition-24",
@@ -1384,7 +1456,7 @@ var ptx_lunr_docs = [
   "type": "Definition",
   "number": "3.45",
   "title": "",
-  "body": "  If and are sets, the Cartesian product (or direct product) of and , denoted (read as times or cross ), is the set of all ordered pairs where the first component is from and the second component is from . In set-builder notation, we have .  We similarly define the Cartesian product of sets, say , by , where is referred to as the th factor of the Cartesian product. As a special case, the set is often abbreviated as .   "
+  "body": "  If and are sets, the Cartesian product (or direct product ) of and , denoted (read as times or cross ), is the set of all ordered pairs where the first component is from and the second component is from . In set-builder notation, we have .  We similarly define the Cartesian product of sets, say , by , where is referred to as the th factor of the Cartesian product. As a special case, the set is often abbreviated as .   "
 },
 {
   "id": "ex_CartesianProduct",
@@ -1554,8 +1626,17 @@ var ptx_lunr_docs = [
   "url": "sec_Intro_to_Induction.html#axiom_induction",
   "type": "Axiom",
   "number": "4.1",
-  "title": "Axiom of Induction.",
+  "title": "",
   "body": " Axiom of Induction   Let such that both    , and    if , then .     Then .   "
+},
+{
+  "id": "p-626",
+  "level": "2",
+  "url": "sec_Intro_to_Induction.html#p-626",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Principle of Mathematical Induction truth set "
 },
 {
   "id": "thm_PMI",
@@ -1567,9 +1648,18 @@ var ptx_lunr_docs = [
   "body": " Principle of Mathematical Induction   Let be a sequence of statements, one for each natural number. Assume    is true, and    for all , if is true, then is true.     Then is true for all .   "
 },
 {
-  "id": "proof-11",
+  "id": "p-631",
   "level": "2",
-  "url": "sec_Intro_to_Induction.html#proof-11",
+  "url": "sec_Intro_to_Induction.html#p-631",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "base step base case inductive step "
+},
+{
+  "id": "proof-12",
+  "level": "2",
+  "url": "sec_Intro_to_Induction.html#proof-12",
   "type": "Proof",
   "number": "1",
   "title": "",
@@ -1648,9 +1738,18 @@ var ptx_lunr_docs = [
   "body": " Principle of Mathematical Induction   Let be a sequence of statements, one for each integer greater than or equal to . Assume that    is true, and    for all , if is true, then is true.     Then is true for all integers .   "
 },
 {
-  "id": "proof-12",
+  "id": "p-650",
   "level": "2",
-  "url": "sec_More_on_Induction.html#proof-12",
+  "url": "sec_More_on_Induction.html#p-650",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "base step inductive step "
+},
+{
+  "id": "proof-13",
+  "level": "2",
+  "url": "sec_More_on_Induction.html#proof-13",
   "type": "Proof",
   "number": "1",
   "title": "",
@@ -1792,6 +1891,15 @@ var ptx_lunr_docs = [
   "body": " Complete Induction  There is another formulation of induction, where the inductive step begins with a set of assumptions rather than one single assumption. This method is sometimes called complete induction or strong induction .   Principle of Complete Mathematical Induction   Let be a sequence of statements, one for each natural number. Assume that    is true, and    For all , if is true for all such that , then is true.     Then is true for all .    Note the difference between ordinary induction ( Theorems and ) and complete induction. For the induction step of complete induction, we are not only assuming that is true, but rather that is true for all from 1 to . Despite the name, complete induction is not any stronger or more powerful than ordinary induction. It is worth pointing out that anytime ordinary induction is an appropriate proof technique, so is complete induction. So, when should we use complete induction?  In the inductive step, you need to reach , and you should ask yourself which of the previous cases you need to get there. If all you need, is the statement , then ordinary induction is the way to go. If two preceding cases, and , are necessary to reach , then complete induction is appropriate. In the extreme, if one needs the full range of preceding cases (i.e., all statements ), then again complete induction should be utilized.  Note that in situations where complete induction is appropriate, it might be the case that you need to verify more than one case in the base step. The number of base cases to be checked depends on how one needs to look back in the induction step.   Skeleton Proof  [Proof of by Complete Induction] Here is the general structure for a proof by complete induction.   We proceed by induction.   (i)  Base step: [Verify that is true. Depending on the statement, you may also need to verify that is true for other specific values of .]     (ii)  Inductive step: [Your goal is to prove For all , if for each , is true for all such that , then is true. ] Let . Suppose is true for all . [Do something to derive that is true.] Therefore, is true.     Thus, by complete induction, is true for all integers .    When tackling the problems in this section, think carefully about how many base steps you must verify.    Define a sequence of numbers by , , and for all natural numbers . Then for all .      Define a sequence of numbers by , and for all natural numbers . Then for all .      The Fibonacci sequence is given by , , and for all natural numbers . Prove that for all .    Recall that Theorem generalized Theorem and allowed us to handle situations where the base case was something other than . We can generalize complete induction in the same way, but we will not write this down as a formal theorem.    Prove that every amount of postage that is at least cents can be made from -cent and -cent stamps.      Whoziwhatzits come in boxes of 6, 9, and 20. Prove that for any natural number , it is possible to buy exactly Whoziwhatzits with a combination of these boxes.      Consider a grid of squares that is squares wide and squares long. Using dominoes that are square by squares, there are many ways to perfectly cover this chessboard with no overlap. How many? Prove your answer.      A binary string of length is an ordered list of digits such that each digit is either 0 or 1. For example and are distinct binary strings of length 6. Here are the rules for Binary Solitaire : At any stage, you are allowed to:   Swap the leftmost digit (i.e., change 0 to 1, or 1 to 0). For example, we can do .    Swap the the digit immediately to the right of the leftmost occurrence of 1. For example, we can do .     Prove that for all , you can change any binary string of length to any other binary string of the same length.      Prove that the number of binary strings of length that never have two consecutive 1's is the Fibonacci number . See Problem for the definition of the Fibonacci numbers.    \\epigraph{Nothing that's worth anything is ever easy.}{Mike Hall, ultra-distance cyclist}  "
 },
 {
+  "id": "p-678",
+  "level": "2",
+  "url": "sec_CompleteInduction.html#p-678",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "complete induction strong induction "
+},
+{
   "id": "theorem-54",
   "level": "2",
   "url": "sec_CompleteInduction.html#theorem-54",
@@ -1801,9 +1909,9 @@ var ptx_lunr_docs = [
   "body": " Principle of Complete Mathematical Induction   Let be a sequence of statements, one for each natural number. Assume that    is true, and    For all , if is true for all such that , then is true.     Then is true for all .   "
 },
 {
-  "id": "proof-13",
+  "id": "proof-14",
   "level": "2",
-  "url": "sec_CompleteInduction.html#proof-13",
+  "url": "sec_CompleteInduction.html#proof-14",
   "type": "Proof",
   "number": "1",
   "title": "",
@@ -1888,7 +1996,16 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "4.4",
   "title": "The Well-Ordering Principle",
-  "body": " The Well-Ordering Principle  The penultimate theorem of this chapter is known as the Well-Ordering Principle . As you shall see, this seemingly obvious theorem requires a bit of work to prove. It is worth noting that in some axiomatic systems, the Well-Ordering Principle is sometimes taken as an axiom. However, in our case, the result follows from complete induction. Before stating the Well-Ordering Principle, we need an additional definition.    Let and . Then is called a maximum (or greatest element) of if for all , we have . Similarly, is called minimum (or least element) of if for all , we have .    Not surprisingly, maximums and minimums are unique when they exist. It might be helpful to review Skeleton Proof prior to attacking the next result.    If such that the maximum (respectively, minimum) of exists, then the maximum (respectively, minimum) of is unique.    If the maximum of a set exists, then it is denoted by . Similarly, if the minimum of a set exists, then it is denoted by .    Find the maximum and the minimum for each of the following sets when they exist.                                                        To prove the Well-Ordering Principle, consider a proof by contradiction. Suppose is a nonempty subset of that does not have a least element. Define the proposition  is not an element of and then use complete induction to prove the result.   Well-Ordering Principle   Every nonempty subset of the natural numbers has a least element.    It turns out that the Well-Ordering Principle ( Theorem ) and the Axiom of Induction ( Axiom ) are equivalent. In other words, one can prove the Well-Ordering Principle from the Axiom of Induction, as we have done, but one can also prove the Axiom of Induction if the Well-Ordering Principle is assumed.  The final two theorems of this section can be thought of as generalized versions of the Well-Ordering Principle.    If is a nonempty subset of the integers and there exists such that for all , then contains a least element.      If is a nonempty subset of the integers and there exists such that for all , then contains a greatest element.    The element in Theorem is referred to as a lower bound for while the element in Theorem is called an upper bound for . We will study lower and upper bounds in more detail in Section .  \\epigraph{Life is like riding a bicycle. To keep your balance you must keep moving.}{Albert Einstein, theoretical physicist}  "
+  "body": " The Well-Ordering Principle  The penultimate theorem of this chapter is known as the Well-Ordering Principle . As you shall see, this seemingly obvious theorem requires a bit of work to prove. It is worth noting that in some axiomatic systems, the Well-Ordering Principle is sometimes taken as an axiom. However, in our case, the result follows from complete induction. Before stating the Well-Ordering Principle, we need an additional definition.    Let and . Then is called a maximum (or greatest element ) of if for all , we have . Similarly, is called minimum (or least element ) of if for all , we have .    Not surprisingly, maximums and minimums are unique when they exist. It might be helpful to review Skeleton Proof prior to attacking the next result.    If such that the maximum (respectively, minimum) of exists, then the maximum (respectively, minimum) of is unique.    If the maximum of a set exists, then it is denoted by . Similarly, if the minimum of a set exists, then it is denoted by .    Find the maximum and the minimum for each of the following sets when they exist.                                                        To prove the Well-Ordering Principle, consider a proof by contradiction. Suppose is a nonempty subset of that does not have a least element. Define the proposition  is not an element of and then use complete induction to prove the result.   Well-Ordering Principle   Every nonempty subset of the natural numbers has a least element.    It turns out that the Well-Ordering Principle ( Theorem ) and the Axiom of Induction ( Axiom ) are equivalent. In other words, one can prove the Well-Ordering Principle from the Axiom of Induction, as we have done, but one can also prove the Axiom of Induction if the Well-Ordering Principle is assumed.  The final two theorems of this section can be thought of as generalized versions of the Well-Ordering Principle.    If is a nonempty subset of the integers and there exists such that for all , then contains a least element.      If is a nonempty subset of the integers and there exists such that for all , then contains a greatest element.    The element in Theorem is referred to as a lower bound for while the element in Theorem is called an upper bound for . We will study lower and upper bounds in more detail in Section .  \\epigraph{Life is like riding a bicycle. To keep your balance you must keep moving.}{Albert Einstein, theoretical physicist}  "
+},
+{
+  "id": "p-705",
+  "level": "2",
+  "url": "sec_WOP.html#p-705",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Well-Ordering Principle "
 },
 {
   "id": "definition-25",
@@ -1897,7 +2014,7 @@ var ptx_lunr_docs = [
   "type": "Definition",
   "number": "4.33",
   "title": "",
-  "body": "  Let and . Then is called a maximum (or greatest element) of if for all , we have . Similarly, is called minimum (or least element) of if for all , we have .   "
+  "body": "  Let and . Then is called a maximum (or greatest element ) of if for all , we have . Similarly, is called minimum (or least element ) of if for all , we have .   "
 },
 {
   "id": "theorem-57",
@@ -1945,13 +2062,22 @@ var ptx_lunr_docs = [
   "body": "  If is a nonempty subset of the integers and there exists such that for all , then contains a greatest element.   "
 },
 {
+  "id": "p-727",
+  "level": "2",
+  "url": "sec_WOP.html#p-727",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "lower bound upper bound "
+},
+{
   "id": "sec_AxiomsRealNumbers",
   "level": "1",
   "url": "sec_AxiomsRealNumbers.html",
   "type": "Section",
   "number": "5.1",
   "title": "Axioms of the Real Numbers",
-  "body": " Axioms of the Real Numbers  Our axioms for the real numbers fall into three categories:    Field Axioms: These axioms provide the essential properties of arithmetic involving addition and subtraction.     Order Axioms: These axioms provide the necessary properties of inequalities.     Completeness Axiom: This axiom ensures that the familiar number line that we use to model the real numbers does not have any holes in it.     We begin with the Field Axioms.   Field Axioms   There exist operations (addition) and (multiplication) on satisfying:  (F1) (Associativity for Addition) For all we have ;  (F2) (Commutativity for Addition) For all , we have ;  (F3) (Additive Identity) There exists such that for all , ;  (F4) (Additive Inverses) For all there exists such that ;  (F5) (Associativity for Multiplication) For all we have ;  (F6) (Commutativity for Multiplication) For all , we have ;  (F7) (Multiplicative Identity) There exists such that and for all , ;  (F8) (Multiplicative Inverses) For all there exists such that .  (F9) (Distributive Property) For all , ;       In the language of abstract algebra, Axioms F1 F4 and F5 F8 make each of and an abelian group under addition and multiplication, respectively. Axiom F9 provides a way for the operations of addition and multiplication to interact. Collectively, Axioms F1 F9 make the real numbers a field . Axioms F3 and F7 state the existence of additive and multiplicative identities, but these axioms do not assume that the elements are the unique elements with the specified properties. However, we can prove that this is the case. That is, and of are the unique additive and multiplicative identities in . To prove the following theorem, suppose and are both additive identities in and then show that . This shows that there can only be one additive identity. It is important to point out that we are not proving that the number introduced in Axiom F3 is unique, but rather there is a unique number with the property specified in Axiom F3.    There exists a unique additive identity of .    To prove the next theorem, mimic the approach you used to prove Theorem .    There exists a unique multiplicative identity of .    Similar to Axioms F3 and F7, Axioms F4 and F8 state the existence of additive and multiplicative inverses, but these axioms do not assume that these elements are the unique elements with the specified properties. However, we can prove that for every , the elements and (as long as ) are the unique additive and multiplicative inverses , respectively.    Every real number has a unique additive inverse.      Every nonzero real number has a unique multiplicative inverse.    In light of the last two theorems, we now know that sticking a minus sign in front of or raising to each correspond to an operation that yields a unique element with the corresponding inverse property.  Since we are taking a formal axiomatic approach to the real numbers, we should make it clear how the natural numbers are embedded in .    We define the natural numbers , denoted by , to be the smallest subset of satisfying:    , and    for all , we have .       Notice the similarity between the definition of the natural numbers presented above and the Axiom of Induction given in Section . Of course, we use the standard numeral system to represent the natural numbers, so that .  Given the natural numbers, Axiom F3\/ Theorem and Axiom F4\/ Theorem together with the operation of addition allow us to define the integers , denoted by , in the obvious way. That is, the integers consist of the natural numbers together with the additive identity and all of the additive inverses of the natural numbers.  We now introduce some common notation that you are likely familiar with. Take a moment to think about why the following is a definition as opposed to an axiom or theorem.    For every and , we define the following:         (for )            The set of rational numbers , denoted by , is defined to be the collection of all real numbers having the form given in Part (b) of Definition . The irrational numbers are defined to be .  Using the Field Axioms, we can prove each of the statements in the following theorem.    For all , we have the following:    if and only if ;     ;     ;     ;     ;    If , then ;    If and , then .    If , then either or .       Carefully prove the next theorem by explicitly citing where you are utilizing the Field Axioms and Theorem .    For all , we have .    We now introduce the Order Axioms of the real numbers.   Axioms  [Order Axioms] For , there is a relation on satisfying:   (O1)  (Trichotomy Law) If , then either or but not both;    (O2)  (Transitivity) If and , then ;    (O3)  If , then ;    (O4)  If and , then ;      Given Axioms O1 O4, we say that the real numbers are a linearly ordered field . We call numbers greater than zero positive and those greater than or equal to zero nonnegative . There are similar definitions for negative and nonpositive .  Notice that the Order Axioms are phrased in terms of . We would also like to be able to utilize , , and .    For , we define:    if ;     if or ;     if .       Notice that we took the existence of the inequalities , , , and on the real numbers for granted when we defined intervals of real numbers in Definition .  Using the Order Axioms, we can prove many familiar facts.    For all , if , then ; and if , then .    The next result extends Axiom O3.    For all , if and , then .      For all , if and only if .      If , , , and are positive real numbers such that and , then .      For all , we have the following:    if and only if either or ;     if and only if or .         For all positive real numbers and , if and only if .    Consider using three cases when approaching the proof of the following theorem.    For all , we have .    It might come as a surprise that the following result requires proof.    We have .    The previous theorem together with Theorem implies that as you expect. It also follows from Axiom O3 that for all , we have . We assume that there are no integers between and .    For all , if , then , and if , then .      For all , if , then .    The last few results allow us to take for granted our usual understanding of which real numbers are positive and which are negative. The next theorem yields a result that extends Theorem .    For all , if and , then .    There is a special function that we can now introduce.    Given , we define the absolute value of , denoted , via       For all , with equality only if .    We can interpret as the distance between and 0 as depicted in Figure .   Visual representation of . \\subcaptionbox{ }[.48\\linewidth]{   } \\subcaptionbox{ }[.48\\linewidth]{   }    For all , we have .    Given two points and , , and hence by the previous theorem, is the distance between and as shown in Figure .   Visual representation of .        For all , .    In the next theorem, writing is an abbreviation for and .    For all , if , then .      For all , .      For all , .      For all with nonnegative, if and only if .    The letter was used in the previous theorem because it is the first letter of the word radius . If is positive, we can think of the interval as the interior of a one-dimensional circle with radius centered at 0. Figure provides a visual interpretation of Theorem .   Visual representation of .        For all with nonnegative, if and only if .    Since represents the distance between and , we can interpret as saying that the distance between and is less than or equal to . In other words, is within units of . See Figure .   Visual representation of .      Consider using Theorems and when attacking the next result, which is known as the Triangle Inequality . This result can be extremely useful in some contexts.   Triangle Inequality   For all , .     Figure depicts two of the cases for the Triangle Inequality.   Visual representation of two of the cases for the Triangle Inequality. \\subcaptionbox{ }[.48\\linewidth]{   } \\subcaptionbox{ }[.48\\linewidth]{   }    Under what conditions do we have equality for the Triangle Inequality?    Where did the Triangle Inequality get its name? Why Triangle ? For any triangle (including degenerate triangles), the sum of the lengths of any two sides must be greater than or equal to the length of the remaining side. That is, if , , and are the lengths of the sides of the triangle, then , where we have equality only in the degenerate case of a triangle with no area. In linear algebra, the Triangle Inequality is a theorem about lengths of vectors. If and are vectors in , then the Triangle Inequality states that . Note that denotes the length of vector . See Figure . The version of the Triangle Inequality that we presented in Theorem is precisely the one-dimensional version of the Triangle Inequality in terms of vectors.   Triangle Inequality in terms of vectors.      The next theorem is sometimes called the Reverse Triangle Inequality .   Reverse Triangle Inequality   For all , .    Before we introduce the Completeness Axiom, we need some additional terminology.    Let . A point is called an upper bound of if for all , . The set is said to be bounded above if it has an upper bound.      The notion of a lower bound and the property of a set being bounded below are defined similarly. Try defining them.      Find all upper bounds and all lower bounds for each of the following sets when they exist.                                                          A set is bounded if is bounded above and below.    Notice that a set is bounded if and only if it is a subset of some bounded closed interval.    Let . A point is a supremum (or least upper bound ) of if is an upper bound of and for every upper bound of . Analogously, a point is an infimum (or greatest lower bound ) of if is a lower bound of and for every lower bound of .    Our next result tells us that a supremum of a set and an infimum of a set are unique when they exist.    If such that a supremum (respectively, infimum) of exists, then the supremum (respectively, infimum) of is unique.    In light of the previous theorem, if the supremum of exists, it is denoted by . Similarly, if the infimum of exists, it is denoted by .    Find the supremum and the infimum of each of the sets in Problem when they exist.    It is important to recognize that the supremum or infimum of a set may or may not be contained in the set. In particular, we have the following theorem concerning suprema and maximums. The analogous result holds for infima and minimums.    Let . Then has a maximum if and only if has a supremum and , in which case the .    Intuitively, a point is the supremum of a set if and only if no point smaller than the supremum can be an upper bound of . The next result makes this more precise.    Let such that is bounded above and let be an upper bound of . Then is the supremum of if and only if for every , there exists such that .      State and prove the analogous result to Theorem involving infimum.    The following axiom states that every nonempty subset of the real numbers that has an upper bound has a least upper bound.   Completeness Axiom   If is a nonempty subset of that is bounded above, then exists.    Given the Completeness Axiom, we say that the real numbers satisfy the least upper bound property . It is worth mentioning that we do not need the Completeness Axiom to conclude that every nonempty subset of the integers that is bounded above has a supremum, as this follows from Theorem (a generalized version of the Well-Ordering Principle).  Certainly, the real numbers also satisfy the analogous result involving infimum.    If is a nonempty subset of that is bounded below, then exists.    Our next result, called the Archimedean Property , tells us that for every real number, we can always find a natural number that is larger. To prove this theorem, consider a proof by contradiction and then utilize the Completeness Axiom and Theorem .   Archimedean Property   For every , there exists such that .    More generally, we can squeeze every real number between a pair of integers. The next result is sometimes referred to at the Generalized Archimedean Property .   Generalized Archimedean Property   For every , there exists such that .      For any positive real number , there exists such that .    The next theorem strengthens the Generalized Archimedean Property and says that every real number is either an integer or lies between a pair of consecutive integers. To prove this theorem, let and define . Use the Generalized Archimedean Property to conclude that is nonempty and then utilize Theorem .    For every , there exists such that .    To prove the next theorem, let , utilize Theorem on to obtain such that , and then apply Theorem to to conclude that there exists such that . Lastly, argue that is the rational number you seek.    If is an open interval, then there exists a rational number such that .    Recall that the real numbers consist of rational and irrational numbers. Two examples of an irrational number that you are likely familiar with are and . In Section , we will prove that is irrational, but for now we will take this fact for granted. It turns out that . This provides an example of an irrational number occurring between a pair of distinct rational numbers. The following theorem is a good challenge to generalize this.    If is an open interval, then there exists an irrational number such that .    Repeated applications of the previous two theorems implies that every open interval contains infinitely many rational numbers and infinitely many irrational numbers. In light of these two theorems, we say that both the rationals and irrationals are dense in the real numbers.  \\epigraph{If people do not believe that mathematics is simple, it is only because they do not realize how complicated life is.}{John von Neumann, mathematician}  "
+  "body": " Axioms of the Real Numbers  Our axioms for the real numbers fall into three categories:  Field Axioms: These axioms provide the essential properties of arithmetic involving addition and subtraction.   Order Axioms: These axioms provide the necessary properties of inequalities.  Completeness Axiom: This axiom ensures that the familiar number line that we use to model the real numbers does not have any holes in it.    We begin with the Field Axioms.   Field Axioms   There exist operations (addition) and (multiplication) on satisfying:  (Associativity for Addition) For all we have ;  (Commutativity for Addition) For all , we have ;  (Additive Identity) There exists such that for all , ;  (Additive Inverses) For all there exists such that ;  (Associativity for Multiplication) For all we have ;  (Commutativity for Multiplication) For all , we have ;  (Multiplicative Identity) There exists such that and for all , ;  (Multiplicative Inverses) For all there exists such that .  (Distributive Property) For all , ;      In the language of abstract algebra, Axioms F1 F4 and F5 F8 make each of and an abelian group under addition and multiplication, respectively. Axiom F9 provides a way for the operations of addition and multiplication to interact. Collectively, Axioms F1 F9 make the real numbers a field . Axioms F3 and F7 state the existence of additive and multiplicative identities, but these axioms do not assume that the elements are the unique elements with the specified properties. However, we can prove that this is the case. That is, and of are the unique additive and multiplicative identities in . To prove the following theorem, suppose and are both additive identities in and then show that . This shows that there can only be one additive identity. It is important to point out that we are not proving that the number introduced in Axiom F3 is unique, but rather there is a unique number with the property specified in Axiom F3.    There exists a unique additive identity of .    To prove the next theorem, mimic the approach you used to prove Theorem .    There exists a unique multiplicative identity of .    Similar to Axioms F3 and F7, Axioms F4 and F8 state the existence of additive and multiplicative inverses, but these axioms do not assume that these elements are the unique elements with the specified properties. However, we can prove that for every , the elements and (as long as ) are the unique additive and multiplicative inverses , respectively.    Every real number has a unique additive inverse.      Every nonzero real number has a unique multiplicative inverse.    In light of the last two theorems, we now know that sticking a minus sign in front of or raising to each correspond to an operation that yields a unique element with the corresponding inverse property.  Since we are taking a formal axiomatic approach to the real numbers, we should make it clear how the natural numbers are embedded in .    We define the natural numbers , denoted by , to be the smallest subset of satisfying:  , and  for all , we have .      Notice the similarity between the definition of the natural numbers presented above and the Axiom of Induction given in Section . Of course, we use the standard numeral system to represent the natural numbers, so that .  Given the natural numbers, Axiom F3\/ Theorem and Axiom F4\/ Theorem together with the operation of addition allow us to define the integers , denoted by , in the obvious way. That is, the integers consist of the natural numbers together with the additive identity and all of the additive inverses of the natural numbers.  We now introduce some common notation that you are likely familiar with. Take a moment to think about why the following is a definition as opposed to an axiom or theorem.    For every and , we define the following:   (for )       The set of rational numbers , denoted by , is defined to be the collection of all real numbers having the form given in Part (b) of Definition . The irrational numbers are defined to be .  Using the Field Axioms, we can prove each of the statements in the following theorem.    For all , we have the following:  if and only if ;  ;  ;  ;  ;  If , then ;  If and , then .  If , then either or .      Carefully prove the next theorem by explicitly citing where you are utilizing the Field Axioms and Theorem .    For all , we have .    We now introduce the Order Axioms of the real numbers.   Order Axioms   For , there is a relation on satisfying:  (O1) (Trichotomy Law) If , then either or but not both;  (O2) (Transitivity) If and , then ;  (O3) If , then ;  (O4) If and , then ;      Given Axioms O1 O4, we say that the real numbers are a linearly ordered field . We call numbers greater than zero positive and those greater than or equal to zero nonnegative . There are similar definitions for negative and nonpositive .  Notice that the Order Axioms are phrased in terms of . We would also like to be able to utilize , , and .    For , we define:  if ;  if or ;  if .      Notice that we took the existence of the inequalities , , , and on the real numbers for granted when we defined intervals of real numbers in Definition .  Using the Order Axioms, we can prove many familiar facts.    For all , if , then ; and if , then .    The next result extends Axiom O3.    For all , if and , then .      For all , if and only if .      If , , , and are positive real numbers such that and , then .      For all , we have the following:  if and only if either or ;  if and only if or .        For all positive real numbers and , if and only if .    Consider using three cases when approaching the proof of the following theorem.    For all , we have .    It might come as a surprise that the following result requires proof.    We have .    The previous theorem together with Theorem implies that as you expect. It also follows from Axiom O3 that for all , we have . We assume that there are no integers between and .    For all , if , then , and if , then .      For all , if , then .    The last few results allow us to take for granted our usual understanding of which real numbers are positive and which are negative. The next theorem yields a result that extends Theorem .    For all , if and , then .    There is a special function that we can now introduce.    Given , we define the absolute value of , denoted , via       For all , with equality only if .    We can interpret as the distance between and 0 as depicted in Figure .   Visual representation of .                   For all , we have .    Given two points and , , and hence by the previous theorem, is the distance between and as shown in Figure .   Visual representation of .        For all , .    In the next theorem, writing is an abbreviation for and .    For all , if , then .      For all , .      For all , .      For all with nonnegative, if and only if .    The letter was used in the previous theorem because it is the first letter of the word radius . If is positive, we can think of the interval as the interior of a one-dimensional circle with radius centered at 0. Figure provides a visual interpretation of Theorem .   Visual representation of .        For all with nonnegative, if and only if .    Since represents the distance between and , we can interpret as saying that the distance between and is less than or equal to . In other words, is within units of . See Figure .   Visual representation of .      Consider using Theorems and when attacking the next result, which is known as the Triangle Inequality . This result can be extremely useful in some contexts.   Triangle Inequality   For all , .    Figure depicts two of the cases for the Triangle Inequality.   Visual representation of two of the cases for the Triangle Inequality.                   Under what conditions do we have equality for the Triangle Inequality?    Where did the Triangle Inequality get its name? Why Triangle ? For any triangle (including degenerate triangles), the sum of the lengths of any two sides must be greater than or equal to the length of the remaining side. That is, if , , and are the lengths of the sides of the triangle, then , where we have equality only in the degenerate case of a triangle with no area. In linear algebra, the Triangle Inequality is a theorem about lengths of vectors. If and are vectors in , then the Triangle Inequality states that . Note that denotes the length of vector . See Figure . The version of the Triangle Inequality that we presented in Theorem is precisely the one-dimensional version of the Triangle Inequality in terms of vectors.   Triangle Inequality in terms of vectors.      The next theorem is sometimes called the Reverse Triangle Inequality .   Reverse Triangle Inequality   For all , .    Before we introduce the Completeness Axiom, we need some additional terminology.    Let . A point is called an upper bound of if for all , . The set is said to be bounded above if it has an upper bound.      The notion of a lower bound and the property of a set being bounded below are defined similarly. Try defining them.      Find all upper bounds and all lower bounds for each of the following sets when they exist.                  A set is bounded if is bounded above and below.    Notice that a set is bounded if and only if it is a subset of some bounded closed interval.    Let . A point is a supremum (or least upper bound ) of if is an upper bound of and for every upper bound of . Analogously, a point is an infimum (or greatest lower bound ) of if is a lower bound of and for every lower bound of .    Our next result tells us that a supremum of a set and an infimum of a set are unique when they exist.    If such that a supremum (respectively, infimum) of exists, then the supremum (respectively, infimum) of is unique.    In light of the previous theorem, if the supremum of exists, it is denoted by . Similarly, if the infimum of exists, it is denoted by .    Find the supremum and the infimum of each of the sets in Problem when they exist.    It is important to recognize that the supremum or infimum of a set may or may not be contained in the set. In particular, we have the following theorem concerning suprema and maximums. The analogous result holds for infima and minimums.    Let . Then has a maximum if and only if has a supremum and , in which case the .    Intuitively, a point is the supremum of a set if and only if no point smaller than the supremum can be an upper bound of . The next result makes this more precise.    Let such that is bounded above and let be an upper bound of . Then is the supremum of if and only if for every , there exists such that .      State and prove the analogous result to Theorem involving infimum.    The following axiom states that every nonempty subset of the real numbers that has an upper bound has a least upper bound.   Completeness Axiom   If is a nonempty subset of that is bounded above, then exists.    Given the Completeness Axiom, we say that the real numbers satisfy the least upper bound property . It is worth mentioning that we do not need the Completeness Axiom to conclude that every nonempty subset of the integers that is bounded above has a supremum, as this follows from Theorem (a generalized version of the Well-Ordering Principle).  Certainly, the real numbers also satisfy the analogous result involving infimum.    If is a nonempty subset of that is bounded below, then exists.    Our next result, called the Archimedean Property , tells us that for every real number, we can always find a natural number that is larger. To prove this theorem, consider a proof by contradiction and then utilize the Completeness Axiom and Theorem .   Archimedean Property   For every , there exists such that .    More generally, we can squeeze every real number between a pair of integers. The next result is sometimes referred to at the Generalized Archimedean Property .   Generalized Archimedean Property   For every , there exists such that .      For any positive real number , there exists such that .    The next theorem strengthens the Generalized Archimedean Property and says that every real number is either an integer or lies between a pair of consecutive integers. To prove this theorem, let and define . Use the Generalized Archimedean Property to conclude that is nonempty and then utilize Theorem .    For every , there exists such that .    To prove the next theorem, let , utilize Theorem on to obtain such that , and then apply Theorem to to conclude that there exists such that . Lastly, argue that is the rational number you seek.    If is an open interval, then there exists a rational number such that .    Recall that the real numbers consist of rational and irrational numbers. Two examples of an irrational number that you are likely familiar with are and . In Section , we will prove that is irrational, but for now we will take this fact for granted. It turns out that . This provides an example of an irrational number occurring between a pair of distinct rational numbers. The following theorem is a good challenge to generalize this.    If is an open interval, then there exists an irrational number such that .    Repeated applications of the previous two theorems implies that every open interval contains infinitely many rational numbers and infinitely many irrational numbers. In light of these two theorems, we say that both the rationals and irrationals are dense in the real numbers.  \\epigraph{If people do not believe that mathematics is simple, it is only because they do not realize how complicated life is.}{John von Neumann, mathematician}  "
 },
 {
   "id": "axiom_field_axioms",
@@ -1960,7 +2086,7 @@ var ptx_lunr_docs = [
   "type": "Axiom",
   "number": "5.1",
   "title": "",
-  "body": " Field Axioms   There exist operations (addition) and (multiplication) on satisfying:  (F1) (Associativity for Addition) For all we have ;  (F2) (Commutativity for Addition) For all , we have ;  (F3) (Additive Identity) There exists such that for all , ;  (F4) (Additive Inverses) For all there exists such that ;  (F5) (Associativity for Multiplication) For all we have ;  (F6) (Commutativity for Multiplication) For all , we have ;  (F7) (Multiplicative Identity) There exists such that and for all , ;  (F8) (Multiplicative Inverses) For all there exists such that .  (F9) (Distributive Property) For all , ;     "
+  "body": " Field Axioms   There exist operations (addition) and (multiplication) on satisfying:  (Associativity for Addition) For all we have ;  (Commutativity for Addition) For all , we have ;  (Additive Identity) There exists such that for all , ;  (Additive Inverses) For all there exists such that ;  (Associativity for Multiplication) For all we have ;  (Commutativity for Multiplication) For all , we have ;  (Multiplicative Identity) There exists such that and for all , ;  (Multiplicative Inverses) For all there exists such that .  (Distributive Property) For all , ;     "
 },
 {
   "id": "p-745",
@@ -2023,7 +2149,7 @@ var ptx_lunr_docs = [
   "type": "Definition",
   "number": "5.6",
   "title": "",
-  "body": "  We define the natural numbers , denoted by , to be the smallest subset of satisfying:    , and    for all , we have .      "
+  "body": "  We define the natural numbers , denoted by , to be the smallest subset of satisfying:  , and  for all , we have .     "
 },
 {
   "id": "p-758",
@@ -2041,7 +2167,7 @@ var ptx_lunr_docs = [
   "type": "Definition",
   "number": "5.7",
   "title": "",
-  "body": "  For every and , we define the following:         (for )           "
+  "body": "  For every and , we define the following:   (for )      "
 },
 {
   "id": "p-764",
@@ -2059,7 +2185,7 @@ var ptx_lunr_docs = [
   "type": "Theorem",
   "number": "5.8",
   "title": "",
-  "body": "  For all , we have the following:    if and only if ;     ;     ;     ;     ;    If , then ;    If and , then .    If , then either or .      "
+  "body": "  For all , we have the following:  if and only if ;  ;  ;  ;  ;  If , then ;  If and , then .  If , then either or .     "
 },
 {
   "id": "theorem-66",
@@ -2069,6 +2195,15 @@ var ptx_lunr_docs = [
   "number": "5.9",
   "title": "",
   "body": "  For all , we have .   "
+},
+{
+  "id": "axiom_order_axioms",
+  "level": "2",
+  "url": "sec_AxiomsRealNumbers.html#axiom_order_axioms",
+  "type": "Axiom",
+  "number": "5.10",
+  "title": "",
+  "body": " Order Axioms   For , there is a relation on satisfying:  (O1) (Trichotomy Law) If , then either or but not both;  (O2) (Transitivity) If and , then ;  (O3) If , then ;  (O4) If and , then ;     "
 },
 {
   "id": "p-783",
@@ -2084,16 +2219,16 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_AxiomsRealNumbers.html#definition-28",
   "type": "Definition",
-  "number": "5.10",
+  "number": "5.11",
   "title": "",
-  "body": "  For , we define:    if ;     if or ;     if .      "
+  "body": "  For , we define:  if ;  if or ;  if .     "
 },
 {
   "id": "theorem-67",
   "level": "2",
   "url": "sec_AxiomsRealNumbers.html#theorem-67",
   "type": "Theorem",
-  "number": "5.11",
+  "number": "5.12",
   "title": "",
   "body": "  For all , if , then ; and if , then .   "
 },
@@ -2102,7 +2237,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_AxiomsRealNumbers.html#theorem-68",
   "type": "Theorem",
-  "number": "5.12",
+  "number": "5.13",
   "title": "",
   "body": "  For all , if and , then .   "
 },
@@ -2111,7 +2246,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_AxiomsRealNumbers.html#thm_additive_inverse_of_a_positive_is_negative",
   "type": "Theorem",
-  "number": "5.13",
+  "number": "5.14",
   "title": "",
   "body": "  For all , if and only if .   "
 },
@@ -2120,7 +2255,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_AxiomsRealNumbers.html#theorem-70",
   "type": "Theorem",
-  "number": "5.14",
+  "number": "5.15",
   "title": "",
   "body": "  If , , , and are positive real numbers such that and , then .   "
 },
@@ -2129,16 +2264,16 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_AxiomsRealNumbers.html#theorem-71",
   "type": "Theorem",
-  "number": "5.15",
+  "number": "5.16",
   "title": "",
-  "body": "  For all , we have the following:    if and only if either or ;     if and only if or .      "
+  "body": "  For all , we have the following:  if and only if either or ;  if and only if or .     "
 },
 {
   "id": "theorem-72",
   "level": "2",
   "url": "sec_AxiomsRealNumbers.html#theorem-72",
   "type": "Theorem",
-  "number": "5.16",
+  "number": "5.17",
   "title": "",
   "body": "  For all positive real numbers and , if and only if .   "
 },
@@ -2147,7 +2282,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_AxiomsRealNumbers.html#theorem-73",
   "type": "Theorem",
-  "number": "5.17",
+  "number": "5.18",
   "title": "",
   "body": "  For all , we have .   "
 },
@@ -2156,7 +2291,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_AxiomsRealNumbers.html#thm_0_1",
   "type": "Theorem",
-  "number": "5.18",
+  "number": "5.19",
   "title": "",
   "body": "  We have .   "
 },
@@ -2165,7 +2300,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_AxiomsRealNumbers.html#theorem-75",
   "type": "Theorem",
-  "number": "5.19",
+  "number": "5.20",
   "title": "",
   "body": "  For all , if , then , and if , then .   "
 },
@@ -2174,7 +2309,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_AxiomsRealNumbers.html#thm_switch_inequality_using_negative",
   "type": "Theorem",
-  "number": "5.20",
+  "number": "5.21",
   "title": "",
   "body": "  For all , if , then .   "
 },
@@ -2183,7 +2318,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_AxiomsRealNumbers.html#theorem-77",
   "type": "Theorem",
-  "number": "5.21",
+  "number": "5.22",
   "title": "",
   "body": "  For all , if and , then .   "
 },
@@ -2192,7 +2327,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_AxiomsRealNumbers.html#definition-29",
   "type": "Definition",
-  "number": "5.22",
+  "number": "5.23",
   "title": "",
   "body": "  Given , we define the absolute value of , denoted , via    "
 },
@@ -2201,25 +2336,25 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_AxiomsRealNumbers.html#theorem-78",
   "type": "Theorem",
-  "number": "5.23",
+  "number": "5.24",
   "title": "",
   "body": "  For all , with equality only if .   "
 },
 {
-  "id": "fig_distanceA",
+  "id": "fig_abs_value_as_distance",
   "level": "2",
-  "url": "sec_AxiomsRealNumbers.html#fig_distanceA",
+  "url": "sec_AxiomsRealNumbers.html#fig_abs_value_as_distance",
   "type": "Figure",
-  "number": "5.24",
+  "number": "5.25",
   "title": "",
-  "body": " Visual representation of . \\subcaptionbox{ }[.48\\linewidth]{   } \\subcaptionbox{ }[.48\\linewidth]{   } "
+  "body": " Visual representation of .                "
 },
 {
   "id": "theorem-79",
   "level": "2",
   "url": "sec_AxiomsRealNumbers.html#theorem-79",
   "type": "Theorem",
-  "number": "5.25",
+  "number": "5.26",
   "title": "",
   "body": "  For all , we have .   "
 },
@@ -2228,7 +2363,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_AxiomsRealNumbers.html#fig_distance_between_a_and_b",
   "type": "Figure",
-  "number": "5.26",
+  "number": "5.27",
   "title": "",
   "body": " Visual representation of .     "
 },
@@ -2237,7 +2372,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_AxiomsRealNumbers.html#theorem-80",
   "type": "Theorem",
-  "number": "5.27",
+  "number": "5.28",
   "title": "",
   "body": "  For all , .   "
 },
@@ -2246,7 +2381,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_AxiomsRealNumbers.html#theorem-81",
   "type": "Theorem",
-  "number": "5.28",
+  "number": "5.29",
   "title": "",
   "body": "  For all , if , then .   "
 },
@@ -2255,7 +2390,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_AxiomsRealNumbers.html#theorem-82",
   "type": "Theorem",
-  "number": "5.29",
+  "number": "5.30",
   "title": "",
   "body": "  For all , .   "
 },
@@ -2264,7 +2399,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_AxiomsRealNumbers.html#thm_plus_minus_less_than_or_equal_to_abs_value",
   "type": "Theorem",
-  "number": "5.30",
+  "number": "5.31",
   "title": "",
   "body": "  For all , .   "
 },
@@ -2273,7 +2408,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_AxiomsRealNumbers.html#thm_abs_value_less_than_or_equal_to_iff_squeezed_by_plus_minus",
   "type": "Theorem",
-  "number": "5.31",
+  "number": "5.32",
   "title": "",
   "body": "  For all with nonnegative, if and only if .   "
 },
@@ -2282,7 +2417,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_AxiomsRealNumbers.html#fig_abs_value_less_than_or_equal_to_iff_squeezed_by_plus_minus",
   "type": "Figure",
-  "number": "5.32",
+  "number": "5.33",
   "title": "",
   "body": " Visual representation of .     "
 },
@@ -2291,7 +2426,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_AxiomsRealNumbers.html#cor_distance_between_two_points_less_than_or_equal_to",
   "type": "Corollary",
-  "number": "5.33",
+  "number": "5.34",
   "title": "",
   "body": "  For all with nonnegative, if and only if .   "
 },
@@ -2300,7 +2435,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_AxiomsRealNumbers.html#fig_visual_of__a-b__r",
   "type": "Figure",
-  "number": "5.34",
+  "number": "5.35",
   "title": "",
   "body": " Visual representation of .     "
 },
@@ -2318,25 +2453,25 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_AxiomsRealNumbers.html#thm_triangle_inequality",
   "type": "Theorem",
-  "number": "5.35",
+  "number": "5.36",
   "title": "Triangle Inequality.",
   "body": " Triangle Inequality   For all , .   "
 },
 {
-  "id": "fig_triangle_A",
+  "id": "fig_triangle_inequality",
   "level": "2",
-  "url": "sec_AxiomsRealNumbers.html#fig_triangle_A",
+  "url": "sec_AxiomsRealNumbers.html#fig_triangle_inequality",
   "type": "Figure",
-  "number": "5.36",
+  "number": "5.37",
   "title": "",
-  "body": " Visual representation of two of the cases for the Triangle Inequality. \\subcaptionbox{ }[.48\\linewidth]{   } \\subcaptionbox{ }[.48\\linewidth]{   } "
+  "body": " Visual representation of two of the cases for the Triangle Inequality.                "
 },
 {
   "id": "problem-89",
   "level": "2",
   "url": "sec_AxiomsRealNumbers.html#problem-89",
   "type": "Problem",
-  "number": "5.37",
+  "number": "5.38",
   "title": "",
   "body": "  Under what conditions do we have equality for the Triangle Inequality?   "
 },
@@ -2345,7 +2480,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_AxiomsRealNumbers.html#fig_triangle_inequality_2d",
   "type": "Figure",
-  "number": "5.38",
+  "number": "5.39",
   "title": "",
   "body": " Triangle Inequality in terms of vectors.     "
 },
@@ -2363,7 +2498,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_AxiomsRealNumbers.html#theorem-86",
   "type": "Theorem",
-  "number": "5.39",
+  "number": "5.40",
   "title": "Reverse Triangle Inequality.",
   "body": " Reverse Triangle Inequality   For all , .   "
 },
@@ -2372,7 +2507,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_AxiomsRealNumbers.html#definition-30",
   "type": "Definition",
-  "number": "5.40",
+  "number": "5.41",
   "title": "",
   "body": "  Let . A point is called an upper bound of if for all , . The set is said to be bounded above if it has an upper bound.   "
 },
@@ -2381,7 +2516,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_AxiomsRealNumbers.html#problem-90",
   "type": "Problem",
-  "number": "5.41",
+  "number": "5.42",
   "title": "",
   "body": "  The notion of a lower bound and the property of a set being bounded below are defined similarly. Try defining them.   "
 },
@@ -2390,16 +2525,16 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_AxiomsRealNumbers.html#prob_find_upper_bounds",
   "type": "Problem",
-  "number": "5.42",
+  "number": "5.43",
   "title": "",
-  "body": "  Find all upper bounds and all lower bounds for each of the following sets when they exist.                                                       "
+  "body": "  Find all upper bounds and all lower bounds for each of the following sets when they exist.               "
 },
 {
   "id": "definition-31",
   "level": "2",
   "url": "sec_AxiomsRealNumbers.html#definition-31",
   "type": "Definition",
-  "number": "5.43",
+  "number": "5.44",
   "title": "",
   "body": "  A set is bounded if is bounded above and below.   "
 },
@@ -2408,7 +2543,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_AxiomsRealNumbers.html#definition-32",
   "type": "Definition",
-  "number": "5.44",
+  "number": "5.45",
   "title": "",
   "body": "  Let . A point is a supremum (or least upper bound ) of if is an upper bound of and for every upper bound of . Analogously, a point is an infimum (or greatest lower bound ) of if is a lower bound of and for every lower bound of .   "
 },
@@ -2417,7 +2552,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_AxiomsRealNumbers.html#theorem-87",
   "type": "Theorem",
-  "number": "5.45",
+  "number": "5.46",
   "title": "",
   "body": "  If such that a supremum (respectively, infimum) of exists, then the supremum (respectively, infimum) of is unique.   "
 },
@@ -2426,7 +2561,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_AxiomsRealNumbers.html#problem-92",
   "type": "Problem",
-  "number": "5.46",
+  "number": "5.47",
   "title": "",
   "body": "  Find the supremum and the infimum of each of the sets in Problem when they exist.   "
 },
@@ -2435,7 +2570,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_AxiomsRealNumbers.html#theorem-88",
   "type": "Theorem",
-  "number": "5.47",
+  "number": "5.48",
   "title": "",
   "body": "  Let . Then has a maximum if and only if has a supremum and , in which case the .   "
 },
@@ -2444,7 +2579,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_AxiomsRealNumbers.html#thm_scoot_in_characterization_of_sup",
   "type": "Theorem",
-  "number": "5.48",
+  "number": "5.49",
   "title": "",
   "body": "  Let such that is bounded above and let be an upper bound of . Then is the supremum of if and only if for every , there exists such that .   "
 },
@@ -2453,7 +2588,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_AxiomsRealNumbers.html#problem-93",
   "type": "Problem",
-  "number": "5.49",
+  "number": "5.50",
   "title": "",
   "body": "  State and prove the analogous result to Theorem involving infimum.   "
 },
@@ -2462,8 +2597,8 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_AxiomsRealNumbers.html#axiom_completeness",
   "type": "Axiom",
-  "number": "5.50",
-  "title": "Completeness Axiom.",
+  "number": "5.51",
+  "title": "",
   "body": " Completeness Axiom   If is a nonempty subset of that is bounded above, then exists.   "
 },
 {
@@ -2480,7 +2615,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_AxiomsRealNumbers.html#theorem-90",
   "type": "Theorem",
-  "number": "5.51",
+  "number": "5.52",
   "title": "",
   "body": "  If is a nonempty subset of that is bounded below, then exists.   "
 },
@@ -2498,7 +2633,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_AxiomsRealNumbers.html#theorem-91",
   "type": "Theorem",
-  "number": "5.52",
+  "number": "5.53",
   "title": "Archimedean Property.",
   "body": " Archimedean Property   For every , there exists such that .   "
 },
@@ -2516,7 +2651,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_AxiomsRealNumbers.html#theorem-92",
   "type": "Theorem",
-  "number": "5.53",
+  "number": "5.54",
   "title": "Generalized Archimedean Property.",
   "body": " Generalized Archimedean Property   For every , there exists such that .   "
 },
@@ -2525,7 +2660,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_AxiomsRealNumbers.html#thm_small_reciprocal",
   "type": "Theorem",
-  "number": "5.54",
+  "number": "5.55",
   "title": "",
   "body": "  For any positive real number , there exists such that .   "
 },
@@ -2534,7 +2669,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_AxiomsRealNumbers.html#thm_squeeze_with_consecutive_integers",
   "type": "Theorem",
-  "number": "5.55",
+  "number": "5.56",
   "title": "",
   "body": "  For every , there exists such that .   "
 },
@@ -2543,7 +2678,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_AxiomsRealNumbers.html#thm_rationals_dense",
   "type": "Theorem",
-  "number": "5.56",
+  "number": "5.57",
   "title": "",
   "body": "  If is an open interval, then there exists a rational number such that .   "
 },
@@ -2552,7 +2687,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_AxiomsRealNumbers.html#thm_irrationals_dense",
   "type": "Theorem",
-  "number": "5.57",
+  "number": "5.58",
   "title": "",
   "body": "  If is an open interval, then there exists an irrational number such that .   "
 },
@@ -2579,7 +2714,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Topology.html#def_open",
   "type": "Definition",
-  "number": "5.58",
+  "number": "5.59",
   "title": "",
   "body": "  A set is called an open set if for every , there exists a bounded open interval containing such that .   "
 },
@@ -2588,7 +2723,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Topology.html#prob_open_or_not",
   "type": "Problem",
-  "number": "5.59",
+  "number": "5.60",
   "title": "",
   "body": "  Determine whether each of the following sets is open. Justify your assertions.                                                                 "
 },
@@ -2597,7 +2732,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Topology.html#theorem-97",
   "type": "Theorem",
-  "number": "5.60",
+  "number": "5.61",
   "title": "",
   "body": "  Every open interval is an open set.   "
 },
@@ -2606,7 +2741,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Topology.html#problem-95",
   "type": "Problem",
-  "number": "5.61",
+  "number": "5.62",
   "title": "",
   "body": "  Provide an example of an open set that is not a single open interval.   "
 },
@@ -2615,7 +2750,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Topology.html#thm_finite_union_and_intersection_of_open_sets",
   "type": "Theorem",
-  "number": "5.62",
+  "number": "5.63",
   "title": "",
   "body": "  If and are open sets, then    is an open set, and     is an open set.      "
 },
@@ -2624,7 +2759,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Topology.html#thm_union_of_open_sets",
   "type": "Theorem",
-  "number": "5.63",
+  "number": "5.64",
   "title": "",
   "body": "  If is a collection of open sets, then is an open set.   "
 },
@@ -2633,7 +2768,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Topology.html#thm_finite_intersection_of_open_sets",
   "type": "Theorem",
-  "number": "5.64",
+  "number": "5.65",
   "title": "",
   "body": "  If is a finite collection of open sets for , then is an open set.   "
 },
@@ -2642,7 +2777,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Topology.html#problem-96",
   "type": "Problem",
-  "number": "5.65",
+  "number": "5.66",
   "title": "",
   "body": "  Explain why we cannot utilize induction to prove that the intersection of infinitely many open sets indexed by the natural numbers is open.   "
 },
@@ -2651,7 +2786,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Topology.html#prob_intersection_of_open_sets",
   "type": "Problem",
-  "number": "5.66",
+  "number": "5.67",
   "title": "",
   "body": "  Give an example of each of the following.   A collection of open sets such that is an open set.    A collection of open sets such that is not an open set.      "
 },
@@ -2660,7 +2795,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Topology.html#definition-34",
   "type": "Definition",
-  "number": "5.67",
+  "number": "5.68",
   "title": "",
   "body": "  Suppose . A point is an accumulation point of if for every bounded open interval containing , there exists a point such that .   "
 },
@@ -2669,7 +2804,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Topology.html#problem-98",
   "type": "Problem",
-  "number": "5.68",
+  "number": "5.69",
   "title": "",
   "body": "  Consider the open interval . Prove each of the following.   The points and are accumulation points of .    If , then is an accumulation point of .    If or , then is not an accumulation point of .      "
 },
@@ -2678,7 +2813,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Topology.html#theorem-101",
   "type": "Theorem",
-  "number": "5.69",
+  "number": "5.70",
   "title": "",
   "body": "  A point is an accumulation point of the intervals , , , and if and only if .   "
 },
@@ -2687,7 +2822,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Topology.html#problem-99",
   "type": "Problem",
-  "number": "5.70",
+  "number": "5.71",
   "title": "",
   "body": "  Prove that the point is an accumulation point of . Are there any other accumulation points of ?   "
 },
@@ -2696,7 +2831,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Topology.html#problem-100",
   "type": "Problem",
-  "number": "5.71",
+  "number": "5.72",
   "title": "",
   "body": "  Provide an example of a set with exactly two accumulation points.   "
 },
@@ -2705,7 +2840,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Topology.html#theorem-102",
   "type": "Theorem",
-  "number": "5.72",
+  "number": "5.73",
   "title": "",
   "body": "  If , then is an accumulation point of .   "
 },
@@ -2714,7 +2849,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Topology.html#definition-35",
   "type": "Definition",
-  "number": "5.73",
+  "number": "5.74",
   "title": "",
   "body": "  A set is called closed if contains all of its accumulation points.   "
 },
@@ -2723,7 +2858,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Topology.html#prob_closed_or_not",
   "type": "Problem",
-  "number": "5.74",
+  "number": "5.75",
   "title": "",
   "body": "  Determine whether each of the sets in Problem is closed. Justify your assertions.   "
 },
@@ -2732,7 +2867,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Topology.html#prob_open_vs_closed",
   "type": "Problem",
-  "number": "5.75",
+  "number": "5.76",
   "title": "",
   "body": "  Provide an example of each of the following. You do not need to prove that your answers are correct.   A set that is open but not closed.    A set that is closed but not open.    A set that neither open nor closed.      "
 },
@@ -2741,7 +2876,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Topology.html#theorem-103",
   "type": "Theorem",
-  "number": "5.76",
+  "number": "5.77",
   "title": "",
   "body": "  Every interval of the form , , , or is a closed set.   "
 },
@@ -2750,7 +2885,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Topology.html#theorem-104",
   "type": "Theorem",
-  "number": "5.77",
+  "number": "5.78",
   "title": "",
   "body": "  Every finite subset of is closed.   "
 },
@@ -2759,7 +2894,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Topology.html#theorem-105",
   "type": "Theorem",
-  "number": "5.78",
+  "number": "5.79",
   "title": "",
   "body": "  Let . Then is open if and only if is closed.   "
 },
@@ -2768,7 +2903,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Topology.html#thm_finite_union_and_intersection_of_closed_sets",
   "type": "Theorem",
-  "number": "5.79",
+  "number": "5.80",
   "title": "",
   "body": "  If and are closed sets, then    is a closed set, and     is a closed set.      "
 },
@@ -2777,7 +2912,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Topology.html#thm_intersection_of_closed_sets",
   "type": "Theorem",
-  "number": "5.80",
+  "number": "5.81",
   "title": "",
   "body": "  If is a collection of closed sets, then is a closed set.   "
 },
@@ -2786,7 +2921,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Topology.html#theorem-108",
   "type": "Theorem",
-  "number": "5.81",
+  "number": "5.82",
   "title": "",
   "body": "  If is a finite collection of closed sets for , then is a closed set.   "
 },
@@ -2795,7 +2930,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Topology.html#prob_union_of_closed_sets",
   "type": "Problem",
-  "number": "5.82",
+  "number": "5.83",
   "title": "",
   "body": "  Provide an example of a collection of closed sets such that is not a closed set.   "
 },
@@ -2804,7 +2939,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Topology.html#problem-104",
   "type": "Problem",
-  "number": "5.83",
+  "number": "5.84",
   "title": "",
   "body": "  Determine whether each of the following sets is open, closed, both, or neither.                              "
 },
@@ -2813,7 +2948,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Topology.html#problem-105",
   "type": "Problem",
-  "number": "5.84",
+  "number": "5.85",
   "title": "",
   "body": "  Prove or provide a counterexample: Every non-closed set has at least one accumulation point.   "
 },
@@ -2822,7 +2957,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Topology.html#definition-36",
   "type": "Definition",
-  "number": "5.85",
+  "number": "5.86",
   "title": "",
   "body": "  A set is called compact if is both closed and bounded.   "
 },
@@ -2831,7 +2966,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Topology.html#prob_compact_or_not",
   "type": "Problem",
-  "number": "5.86",
+  "number": "5.87",
   "title": "",
   "body": "  Determine whether each of the following sets is compact. Briefly justify your assertions.                                                                 "
 },
@@ -2840,7 +2975,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Topology.html#problem-107",
   "type": "Problem",
-  "number": "5.87",
+  "number": "5.88",
   "title": "",
   "body": "  Is every finite set compact? Justify your assertion.   "
 },
@@ -2849,7 +2984,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Topology.html#theorem-109",
   "type": "Theorem",
-  "number": "5.88",
+  "number": "5.89",
   "title": "",
   "body": "  If is a nonempty compact subset of , then .   "
 },
@@ -2858,7 +2993,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Topology.html#definition-37",
   "type": "Definition",
-  "number": "5.89",
+  "number": "5.90",
   "title": "",
   "body": "  A set is disconnected if there exists two disjoint open sets and such that and are nonempty but (equivalently, ). If a set is not disconnected, then we say that it is connected.   "
 },
@@ -2867,7 +3002,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Topology.html#problem-108",
   "type": "Problem",
-  "number": "5.90",
+  "number": "5.91",
   "title": "",
   "body": "  Determine whether each of the sets in Problem is is connected or disconnected. Briefly justify your assertions.   "
 },
@@ -2876,7 +3011,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Topology.html#theorem-110",
   "type": "Theorem",
-  "number": "5.91",
+  "number": "5.92",
   "title": "",
   "body": "  If , then is connected.   "
 },
@@ -2885,7 +3020,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Topology.html#thm_closed_interval_connected",
   "type": "Theorem",
-  "number": "5.92",
+  "number": "5.93",
   "title": "",
   "body": "  Every closed interval is connected.   "
 },
@@ -2962,9 +3097,9 @@ var ptx_lunr_docs = [
   "body": " Division Algorithm   If such that , then there exists unique such that with .   "
 },
 {
-  "id": "proof-14",
+  "id": "proof-15",
   "level": "2",
-  "url": "sec_FTA.html#proof-14",
+  "url": "sec_FTA.html#proof-15",
   "type": "Proof",
   "number": "6.1.1",
   "title": "",
@@ -3142,9 +3277,9 @@ var ptx_lunr_docs = [
   "body": "  The only natural number that divides is .   "
 },
 {
-  "id": "proof-15",
+  "id": "proof-16",
   "level": "2",
-  "url": "sec_Infinitude_of_Primes.html#proof-15",
+  "url": "sec_Infinitude_of_Primes.html#proof-16",
   "type": "Proof",
   "number": "6.3.1",
   "title": "",
@@ -3511,27 +3646,27 @@ var ptx_lunr_docs = [
   "body": "  Given a relation on a finite set , describe what each of reflexive, symmetric, and transitive look like in terms of a digraph. That is, draw pictures that represent each of reflexive, symmetric, and transitive. One thing to keep in mind is that the elements used in the definitions of symmetric and transitive do not have to be distinct. So, you might need to consider multiple cases.   "
 },
 {
-  "id": "proof-16",
-  "level": "2",
-  "url": "sec_Relations.html#proof-16",
-  "type": "Proof",
-  "number": "1",
-  "title": "",
-  "body": " Assume is a relation on defined by (or satisfying)  [Use the given definition (or describe the given property) of ] . Let .  [Use the definition (or property) of to verify that ]  Therefore, the relation is reflexive on .  "
-},
-{
   "id": "proof-17",
   "level": "2",
   "url": "sec_Relations.html#proof-17",
   "type": "Proof",
   "number": "1",
   "title": "",
-  "body": " Assume is a relation on defined by (or satisfying)  [Use the given definition (or describe the given property) of ] . Let and suppose .  [Use assumption that with definition (or property)  of to verify that ]} Therefore, the relation is symmetric on .  "
+  "body": " Assume is a relation on defined by (or satisfying)  [Use the given definition (or describe the given property) of ] . Let .  [Use the definition (or property) of to verify that ]  Therefore, the relation is reflexive on .  "
 },
 {
   "id": "proof-18",
   "level": "2",
   "url": "sec_Relations.html#proof-18",
+  "type": "Proof",
+  "number": "1",
+  "title": "",
+  "body": " Assume is a relation on defined by (or satisfying)  [Use the given definition (or describe the given property) of ] . Let and suppose .  [Use assumption that with definition (or property)  of to verify that ]} Therefore, the relation is symmetric on .  "
+},
+{
+  "id": "proof-19",
+  "level": "2",
+  "url": "sec_Relations.html#proof-19",
   "type": "Proof",
   "number": "1",
   "title": "",
@@ -3553,7 +3688,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "7.2",
   "title": "Equivalence Relations",
-  "body": " Equivalence Relations  As we have seen in the previous section, the notions of reflexive, symmetric, and transitive are independent of each other. That is, a relation may have some combination of these properties, possibly none of them and possibly all of them. However, we have a special name for when a relation satisfies all three properties.    Let be a relation on a set . Then is called an equivalence relation on if is reflexive, symmetric, and transitive.    The symbol is usually pronounced as twiddle or tilde and the phrase could be read as is related to or twiddles .    Let and define .  Using , complete each of the following.   Draw the digraph for .    Determine whether is an equivalence relation on .    Find by determining for each .         Let .   Make up an equivalence relation on by drawing a digraph such that is not related to and is not related to .    Using your digraph, find by determining for each .         Given a finite set and an equivalence relation on , describe what the corresponding digraph would have to look like.      Determine which relations given in Problem are equivalence relations.      Let be the set of all triangles and define on via if is similar to . Determine whether is an equivalence relation on .      If possible, construct an equivalence relation on the empty set. If this is not possible, explain why.      Suppose is an equivalence relation on a set and let . Then if and only if .      Suppose is an equivalence relation on a set . Then    , and    For all , either or .       In light of Theorem , we have the following definition.    If is an equivalence relation on a set , then for each , we refer to as the equivalence class of .    When is an equivalence relation on a set , it is common to write each equivalence class as (or sometimes ). The element inside the square brackets is called the representative of the equivalence class  . Theorem implies that an equivalence class can be represented by any element of the equivalence class. For example, in Problem , we have since 1 and 6 are in the same equivalence class. The collection of equivalence classes is often denoted by , which is read as modulo or mod . The collection is sometimes referred to as the quotient of by .    Let denote the residents of a particular town and define on via if and have the same last name. It is easily seen that this relation is reflexive, symmetric, and transitive, and hence is an equivalence relation on . The equivalence classes correspond to collections of individuals with the same last name. For example, Maria Garcia, Anthony Garcia, and Ariana Garcia all belong to the same equivalence class. Any Garcia can be used as a representative for the corresponding equivalence class, so we can denote it as , for example. The collection consists of the various sets of people with the same last name. In particular, .      The five distinct sets of relatives that you identified in Problem are the equivalence classes for on . These equivalence classes are often called the congruence classes modulo 5 .    The upshot of Theorem is that given an equivalence relation, every element lives in exactly one equivalence class. In the next section, we will see that we can run this in reverse. That is, if we separate out the elements of a set so that every element is an element of exactly one subset, then this determines an equivalence relation.    If is an equivalence relation on a nonempty finite set , describe in terms of the digraph corresponding to .      For each of the equivalence relations you identified in Problem , succinctly describe the corresponding equivalence classes.      Suppose and are both equivalence relations on a set . Is an equivalence relation on ? If so, prove it. Otherwise, provide a counterexample.      Suppose and are both equivalence relations on a set . Is an equivalence relation on ? If so, prove it. Otherwise, provide a counterexample.    \\epigraph{Mathematics has beauty and romance. It's not a boring place to be, the mathematical world. It's an extraordinary place; it's worth spending time there.}{Marcus du Sautoy, mathematician}  "
+  "body": " Equivalence Relations  As we have seen in the previous section, the notions of reflexive, symmetric, and transitive are independent of each other. That is, a relation may have some combination of these properties, possibly none of them and possibly all of them. However, we have a special name for when a relation satisfies all three properties.    Let be a relation on a set . Then is called an equivalence relation on if is reflexive, symmetric, and transitive.    The symbol is usually pronounced as twiddle or tilde and the phrase could be read as is related to or twiddles .    Let and define .  Using , complete each of the following.   Draw the digraph for .    Determine whether is an equivalence relation on .    Find by determining for each .         Let .   Make up an equivalence relation on by drawing a digraph such that is not related to and is not related to .    Using your digraph, find by determining for each .         Given a finite set and an equivalence relation on , describe what the corresponding digraph would have to look like.      Determine which relations given in Problem are equivalence relations.      Let be the set of all triangles and define on via if is similar to . Determine whether is an equivalence relation on .      If possible, construct an equivalence relation on the empty set. If this is not possible, explain why.      Suppose is an equivalence relation on a set and let . Then if and only if .      Suppose is an equivalence relation on a set . Then    , and    For all , either or .       In light of Theorem , we have the following definition.    If is an equivalence relation on a set , then for each , we refer to as the equivalence class of .    When is an equivalence relation on a set , it is common to write each equivalence class as (or sometimes ). The element inside the square brackets is called the representative of the equivalence class  . Theorem implies that an equivalence class can be represented by any element of the equivalence class. For example, in Problem , we have since 1 and 6 are in the same equivalence class. The collection of equivalence classes is often denoted by , which is read as modulo or mod . The collection is sometimes referred to as the quotient of by .    Let denote the residents of a particular town and define on via if and have the same last name. It is easily seen that this relation is reflexive, symmetric, and transitive, and hence is an equivalence relation on . The equivalence classes correspond to collections of individuals with the same last name. For example, Maria Garcia, Anthony Garcia, and Ariana Garcia all belong to the same equivalence class. Any Garcia can be used as a representative for the corresponding equivalence class, so we can denote it as , for example. The collection consists of the various sets of people with the same last name. In particular, .      The five distinct sets of relatives that you identified in Problem are the equivalence classes for on . These equivalence classes are often called the congruence classes modulo 5 .    The upshot of Theorem is that given an equivalence relation, every element lives in exactly one equivalence class. In the next section, we will see that we can run this in reverse. That is, if we separate out the elements of a set so that every element is an element of exactly one subset, then this determines an equivalence relation.    If is an equivalence relation on a nonempty finite set , describe in terms of the digraph corresponding to .      For each of the equivalence relations you identified in Problem , succinctly describe the corresponding equivalence classes.      Suppose and are both equivalence relations on a set . Is an equivalence relation on ? If so, prove it. Otherwise, provide a counterexample.      Suppose and are both equivalence relations on a set . Is an equivalence relation on ? If so, prove it. Otherwise, provide a counterexample.      Mathematics has beauty and romance. It's not a boring place to be, the mathematical world. It's an extraordinary place; it's worth spending time there.  Marcus du Sautoy, mathematician   "
 },
 {
   "id": "definition-44",
@@ -3644,6 +3779,15 @@ var ptx_lunr_docs = [
   "number": "7.44",
   "title": "",
   "body": "  If is an equivalence relation on a set , then for each , we refer to as the equivalence class of .   "
+},
+{
+  "id": "p-1153",
+  "level": "2",
+  "url": "sec_Equivalence_Relations.html#p-1153",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "representative of the equivalence class quotient of by "
 },
 {
   "id": "ex_last_name",
@@ -4210,7 +4354,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "8.1",
   "title": "Introduction to Functions",
-  "body": " Introduction to Functions  Up until this point, you may have only encountered functions as an algebraic rule, e.g., , for transforming one real number into another. However, we can study functions in a much broader context. The basic building blocks of a function are a first set and a second set, say and , and a correspondence that assigns every element of to exactly one element of . Let's take a look at the actual definition.    Let and be two nonempty sets. A function from to is a relation from to such that for every , there exists a unique such that . The set is called the domain of and is denoted by . The set is called the codomain of and is denoted by while the subset of the codomain defined via is called the range of or the image of under .    There is a variety of notation and terminology associated to functions. We will write to indicate that is a function from to . We will make use of statements such as Let be the function defined via or Define via , where is understood to be a function in the second statement. Sometimes the word mapping (or map ) is used in place of the word function. If for a function , we often write and say that maps to or of equals . In this case, may be called an input of and is the preimage of under while is called an output of and is the image of under . Note that the domain of a function is the set of inputs while the range is the set of outputs for the function.  According to our definition, if is a function, then every element of the domain is utilized exactly once. However, there are no restrictions on whether an element of the codomain ever appears in the second coordinate of an ordered pair in the relation. Yet if an element of is in the range of , it may appear in more than one ordered pair in the relation.  It follows immediately from the definition of function that two functions are equal if and only if they have the same domain, same codomain, and the same set of ordered pairs in the relation. That is, functions and are equal if and only if , , and for all .  Since functions are special types of relations, we can represent them using digraphs and graphs when practical. Digraphs for functions are often called function (or mapping ) diagrams . When drawing function diagrams, it is standard practice to put the vertices for the domain on the left and the vertices for the codomain on the right, so that all directed edges point from left to right. We may also draw an additional arrow labeled by the name of the function from the domain to the codomain.    Let to and define the relation from to via .  Since each element appears exactly once as a first coordinate, is a function with domain and codomain (i.e., ). In this case, we see that . Moreover, we can write things like and , and say things like maps to 4 and the image of is 1. The function diagram for is depicted in Figure .     Function diagram for a function from to .        Determine whether each of the relations defined in the following examples and problems is a function.    Example (see Figure )     Example (see Figure )     Problem      Problem          Let and . For each of the following relations, draw the corresponding digraph and determine whether the relation represents a function from to , to , to , or does not represent a function. If the relation is a function, determine the domain, codomain, and range.                                      Define the relation from to via for all .            The last two parts of the previous problem make it clear that functions may have names consisting of more than one letter. The function names , , , and are instances of this that you have likely encountered in your previous experience in mathematics. One thing that you may have never noticed is the type of font that we use for function names. It is common to italicize generic function names like but not common function names like . However, we always italicize the variables used to represent the input and output for a function. For example, consider the font types used in the expressions and .    What properties does the digraph for a relation from to need to have in order for it to represent a function?      In high school you may have been told that a graph represents a function if it passes the vertical line test . Carefully state what the vertical line test says and then explain why it works.    Sometimes we can define a function using a formula. For example, we can write to mean that each in the domain of maps to in the codomain. However, notice that providing only a formula is ambiguous! A function is determined by its domain, codomain, and the correspondence between these two sets. If we only provide a description for the correspondence, it is not clear what the domain and codomain are. Two functions that are defined by the same formula, but have different domains or codomains are not equal.    The function defined via is not equal to the function defined by since the two functions do not have the same domain.    Sometimes we rely on context to interpret the domain and codomain. For example, in a calculus class, when we describe a function in terms of a formula, we are implicitly assuming that the domain is the largest allowable subset of sometimes called the default domain that makes sense for the given formula while the codomain is .    If we write , , and without mentioning the domains, we would typically interpret these as the functions , , and that are determined by their respective formulas.      Provide an example of each of the following. You may draw a function diagram, write down a list of ordered pairs, or write a formula as long as the domain and codomain are clear.   A function from a set with 4 elements to a set with 3 elements such that .    A function from a set with 4 elements to a set with 3 elements such that is strictly smaller than .         Let be a function and suppose that and are finite sets with and elements, respectively, such that . Is it possible for ? If so, provide an example. If this is not possible, explain why.    There are a few special functions that we should know the names of.    If and are nonempty sets such that , then the function defined via is called the inclusion map from into .    Note that is the Greek letter iota .    Let and . Draw the function diagram of the inclusion map from into .    If the domain and codomain are equal, the inclusion map has a special name.    If is a nonempty set, then the function defined via is called the identity map (or identity function) on .      The relation defined in Problem  is the identity map on .      Draw a portion of the graph of the identity map on as a subset of .      Let be a nonempty set.   Suppose is an equivalence relation on . What conditions on must hold in order for to be a function from to ?    Suppose is a function. Under what conditions is an equivalence relation on ?         Any function defined via for a fixed is called a constant function.      The function defined in Problem  is an example of a constant function. Notice that we can succinctly describe this function using the formula .      A piecewise-defined function (or piecewise function) is a function defined by specifying its output on a partition of the domain.    Note that piecewise is a way of expressing the function, rather than a property of the function itself.    We can express the function in Problem  as a piecewise function using the formula       The function defined via is an example of a piecewise-defined function.      Define via . Express as a piecewise function.    It is important to point out that not every function can be described using a formula! Despite your prior experience, functions that can be represented succinctly using a formula are rare.  The next problem illustrates that some care must be taken when attempting to define a function.    For each of the following, explain why the given description does not define a function.   Define via .    Define via .    Let and . Define via     Define via .       In mathematics, we say that an expression is well defined (or unambiguous ) if its definition yields a unique interpretation. Otherwise, we say that the expression is not well defined (or is ambiguous ). For example, if , then the expression is well defined since it does not matter if we interpret this as or since the real numbers are associative under multiplication. This issue was lurking behind the scenes in the statement of Theorem . In particular, the expressions and are well defined in in light of Theorems  and  .  When we attempt to define a function, it may not be clear without doing some work that our definition really does yield a function. If there is some potential ambiguity in the definition of a function that ends up not causing any issues, we say that the function is well defined. However, this phrase is a bit of misnomer since all functions are well defined. The issue of whether a description for a proposed function is well defined often arises when defining things in terms of representatives of equivalence classes, or more generally in terms of how an element of the domain is written. For example, the descriptions given in Parts (c) and (d) of Problem are not well defined. To show that a potentially ambiguous description for a function is well defined prove that if and are two representations for the same element in , then .    For each of the following, determine whether the description determines a well-defined function.   Define via     Define via     Define via .    Define via .    Define via .    Define via .         Let and . Under what conditions will given by be a well-defined function? Prove your claim.    \\epigraph{Don't let anyone rob you of your imagination, your creativity, or your curiosity. It's your place in the world; it's your life. Go on and do all you can with it, and make it the life you want to live.}{Mae Jemison, NASA astronaut}  "
+  "body": " Introduction to Functions  Up until this point, you may have only encountered functions as an algebraic rule, e.g., , for transforming one real number into another. However, we can study functions in a much broader context. The basic building blocks of a function are a first set and a second set, say and , and a correspondence that assigns every element of to exactly one element of . Let's take a look at the actual definition.    Let and be two nonempty sets. A function  from to is a relation from to such that for every , there exists a unique such that . The set is called the domain of and is denoted by . The set is called the codomain of and is denoted by while the subset of the codomain defined via is called the range of or the image of under .    There is a variety of notation and terminology associated to functions. We will write to indicate that is a function from to . We will make use of statements such as Let be the function defined via or Define via , where is understood to be a function in the second statement. Sometimes the word mapping (or map ) is used in place of the word function. If for a function , we often write and say that maps to or of equals . In this case, may be called an input of and is the preimage of under while is called an output of and is the image of under . Note that the domain of a function is the set of inputs while the range is the set of outputs for the function.  According to our definition, if is a function, then every element of the domain is utilized exactly once. However, there are no restrictions on whether an element of the codomain ever appears in the second coordinate of an ordered pair in the relation. Yet if an element of is in the range of , it may appear in more than one ordered pair in the relation.  It follows immediately from the definition of function that two functions are equal if and only if they have the same domain, same codomain, and the same set of ordered pairs in the relation. That is, functions and are equal if and only if , , and for all .  Since functions are special types of relations, we can represent them using digraphs and graphs when practical. Digraphs for functions are often called function (or mapping ) diagrams . When drawing function diagrams, it is standard practice to put the vertices for the domain on the left and the vertices for the codomain on the right, so that all directed edges point from left to right. We may also draw an additional arrow labeled by the name of the function from the domain to the codomain.    Let to and define the relation from to via .  Since each element appears exactly once as a first coordinate, is a function with domain and codomain (i.e., ). In this case, we see that . Moreover, we can write things like and , and say things like maps to 4 and the image of is 1. The function diagram for is depicted in Figure .     Function diagram for a function from to .        Determine whether each of the relations defined in the following examples and problems is a function.    Example (see Figure )     Example (see Figure )     Problem      Problem          Let and . For each of the following relations, draw the corresponding digraph and determine whether the relation represents a function from to , to , to , or does not represent a function. If the relation is a function, determine the domain, codomain, and range.                                      Define the relation from to via for all .            The last two parts of the previous problem make it clear that functions may have names consisting of more than one letter. The function names , , , and are instances of this that you have likely encountered in your previous experience in mathematics. One thing that you may have never noticed is the type of font that we use for function names. It is common to italicize generic function names like but not common function names like . However, we always italicize the variables used to represent the input and output for a function. For example, consider the font types used in the expressions and .    What properties does the digraph for a relation from to need to have in order for it to represent a function?      In high school you may have been told that a graph represents a function if it passes the vertical line test . Carefully state what the vertical line test says and then explain why it works.    Sometimes we can define a function using a formula. For example, we can write to mean that each in the domain of maps to in the codomain. However, notice that providing only a formula is ambiguous! A function is determined by its domain, codomain, and the correspondence between these two sets. If we only provide a description for the correspondence, it is not clear what the domain and codomain are. Two functions that are defined by the same formula, but have different domains or codomains are not equal.    The function defined via is not equal to the function defined by since the two functions do not have the same domain.    Sometimes we rely on context to interpret the domain and codomain. For example, in a calculus class, when we describe a function in terms of a formula, we are implicitly assuming that the domain is the largest allowable subset of sometimes called the default domain that makes sense for the given formula while the codomain is .    If we write , , and without mentioning the domains, we would typically interpret these as the functions , , and that are determined by their respective formulas.      Provide an example of each of the following. You may draw a function diagram, write down a list of ordered pairs, or write a formula as long as the domain and codomain are clear.   A function from a set with 4 elements to a set with 3 elements such that .    A function from a set with 4 elements to a set with 3 elements such that is strictly smaller than .         Let be a function and suppose that and are finite sets with and elements, respectively, such that . Is it possible for ? If so, provide an example. If this is not possible, explain why.    There are a few special functions that we should know the names of.    If and are nonempty sets such that , then the function defined via is called the inclusion map from into .    Note that is the Greek letter iota .    Let and . Draw the function diagram of the inclusion map from into .    If the domain and codomain are equal, the inclusion map has a special name.    If is a nonempty set, then the function defined via is called the identity map (or identity function) on .      The relation defined in Problem  is the identity map on .      Draw a portion of the graph of the identity map on as a subset of .      Let be a nonempty set.   Suppose is an equivalence relation on . What conditions on must hold in order for to be a function from to ?    Suppose is a function. Under what conditions is an equivalence relation on ?         Any function defined via for a fixed is called a constant function .      The function defined in Problem  is an example of a constant function. Notice that we can succinctly describe this function using the formula .      A piecewise-defined function (or piecewise function ) is a function defined by specifying its output on a partition of the domain.    Note that piecewise is a way of expressing the function, rather than a property of the function itself.    We can express the function in Problem  as a piecewise function using the formula       The function defined via is an example of a piecewise-defined function.      Define via . Express as a piecewise function.    It is important to point out that not every function can be described using a formula! Despite your prior experience, functions that can be represented succinctly using a formula are rare.  The next problem illustrates that some care must be taken when attempting to define a function.    For each of the following, explain why the given description does not define a function.   Define via .    Define via .    Let and . Define via     Define via .       In mathematics, we say that an expression is well defined (or unambiguous ) if its definition yields a unique interpretation. Otherwise, we say that the expression is not well defined (or is ambiguous ). For example, if , then the expression is well defined since it does not matter if we interpret this as or since the real numbers are associative under multiplication. This issue was lurking behind the scenes in the statement of Theorem . In particular, the expressions and are well defined in in light of Theorems  and  .  When we attempt to define a function, it may not be clear without doing some work that our definition really does yield a function. If there is some potential ambiguity in the definition of a function that ends up not causing any issues, we say that the function is well defined. However, this phrase is a bit of misnomer since all functions are well defined. The issue of whether a description for a proposed function is well defined often arises when defining things in terms of representatives of equivalence classes, or more generally in terms of how an element of the domain is written. For example, the descriptions given in Parts (c) and (d) of Problem are not well defined. To show that a potentially ambiguous description for a function is well defined prove that if and are two representations for the same element in , then .    For each of the following, determine whether the description determines a well-defined function.   Define via     Define via     Define via .    Define via .    Define via .    Define via .         Let and . Under what conditions will given by be a well-defined function? Prove your claim.      Don't let anyone rob you of your imagination, your creativity, or your curiosity. It's your place in the world; it's your life. Go on and do all you can with it, and make it the life you want to live.  Mae Jemison, NASA astronaut   "
 },
 {
   "id": "def_function",
@@ -4219,7 +4363,25 @@ var ptx_lunr_docs = [
   "type": "Definition",
   "number": "8.1",
   "title": "",
-  "body": "  Let and be two nonempty sets. A function from to is a relation from to such that for every , there exists a unique such that . The set is called the domain of and is denoted by . The set is called the codomain of and is denoted by while the subset of the codomain defined via is called the range of or the image of under .   "
+  "body": "  Let and be two nonempty sets. A function  from to is a relation from to such that for every , there exists a unique such that . The set is called the domain of and is denoted by . The set is called the codomain of and is denoted by while the subset of the codomain defined via is called the range of or the image of under .   "
+},
+{
+  "id": "p-1282",
+  "level": "2",
+  "url": "sec_Intro_to_Functions.html#p-1282",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "mapping map input preimage output image "
+},
+{
+  "id": "p-1285",
+  "level": "2",
+  "url": "sec_Intro_to_Functions.html#p-1285",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "function mapping diagrams "
 },
 {
   "id": "ex_function",
@@ -4283,6 +4445,15 @@ var ptx_lunr_docs = [
   "number": "8.8",
   "title": "",
   "body": "  The function defined via is not equal to the function defined by since the two functions do not have the same domain.   "
+},
+{
+  "id": "p-1308",
+  "level": "2",
+  "url": "sec_Intro_to_Functions.html#p-1308",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "default domain "
 },
 {
   "id": "example-27",
@@ -4372,7 +4543,7 @@ var ptx_lunr_docs = [
   "type": "Definition",
   "number": "8.18",
   "title": "",
-  "body": "  Any function defined via for a fixed is called a constant function.   "
+  "body": "  Any function defined via for a fixed is called a constant function .   "
 },
 {
   "id": "example-29",
@@ -4390,7 +4561,7 @@ var ptx_lunr_docs = [
   "type": "Definition",
   "number": "8.20",
   "title": "",
-  "body": "  A piecewise-defined function (or piecewise function) is a function defined by specifying its output on a partition of the domain.   "
+  "body": "  A piecewise-defined function (or piecewise function ) is a function defined by specifying its output on a partition of the domain.   "
 },
 {
   "id": "example-30",
@@ -4429,6 +4600,15 @@ var ptx_lunr_docs = [
   "body": "  For each of the following, explain why the given description does not define a function.   Define via .    Define via .    Let and . Define via     Define via .      "
 },
 {
+  "id": "p-1339",
+  "level": "2",
+  "url": "sec_Intro_to_Functions.html#p-1339",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "well defined unambiguous ambiguous "
+},
+{
   "id": "prob_well_defined",
   "level": "2",
   "url": "sec_Intro_to_Functions.html#prob_well_defined",
@@ -4453,7 +4633,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "8.2",
   "title": "Injective and Surjective Functions",
-  "body": " Injective and Surjective Functions  We now turn our attention to some important properties that a function may or may not possess. Recall that if is a function, then every element in its domain is mapped to a unique element in the range. However, there are no restrictions on whether more than one element of the domain is mapped to the same element in the range. If each element in the range has a unique element in the domain mapping to it, then we say that the function is injective. Moreover, the range of a function is not required to be all of the codomain. If every element of the codomain has at least one element in the domain that maps to it, then we say that the function is surjective. Let's make these definitions a bit more precise.    Let be a function.   The function is said to be injective (or one-to-one ) if for all , there is a unique such that .    The function is said to be surjective (or onto ) if for all , there exists such that .    If is both injective and surjective, we say that is bijective .         Compare and contrast the following statements. Do they mean the same thing?   For all , there exists a unique such that .    For all , there is a unique such that .         Assume that and are finite sets. Provide an example of each of the following. You may draw a function diagram, write down a list of ordered pairs, or write a formula as long as the domain and codomain are clear.   A function that is injective but not surjective.    A function that is surjective but not injective.    A function that is a bijection.    A function that is neither injective nor surjective.         Provide an example of each of the following. You may either draw a graph or write down a formula. Make sure you have the correct domain.   A function that is injective but not surjective.    A function that is surjective but not injective.    A function that is a bijection.    A function that is neither injective nor surjective.    A function that is injective.         Suppose and is a function. Fill in the blank with the appropriate word.  The function is         if and only if every horizontal line hits the graph of  at most once .  This statement is often called the horizontal line test . Explain why the horizontal line test is true.      Suppose and is a function. Fill in the blank with the appropriate word.  The function is         if and only if every horizontal line hits the graph of  at least once .  Explain why this statement is true.      Suppose and is a function. Fill in the blank with the appropriate word.  The function is         if and only if every horizontal line hits the graph of  exactly once .  Explain why this statement is true.    How do we prove that a function is injective? We would need to show that every element in the range has a unique element from the domain that maps to it. First, notice that each element in the range can be written as for at least one in the domain. To argue that each such element in domain is unique, we can suppose for arbitrary and in the domain and then work to show that . It is important to point out that when we suppose for some and , we are not assuming that and are different. In general, when we write Let , we are leaving open the possibility that and are actually the same element. One could approach proving that a function is injective by utilizing a proof by contradiction, but this is not usually necessary.   Skeleton Proof  [Proof that a function is injective] Here is the general structure for proving that a function is injective.   Assume is a function defined by (or satisfying)  [Use the given definition (or describe the given property) of ] . Let and suppose .  [Use the definition (or property) of to verify that ]  Therefore, the function is injective.    How do we prove that a function is surjective? We would need to argue that every element in the codomain is also in the range. Sometimes, the proof that a particular function is surjective is extremely short, so do not second guess yourself if you find yourself in this situation.   Skeleton Proof  [Proof that a function is surjective] Here is the general structure for proving that a function is surjective.   Assume is a function defined by (or satisfying)  [Use the given definition (or describe the given property) of ] . Let .  [Use the definition (or property) of to find some such that ]  Therefore, the function is surjective.      Determine whether each of the following functions is injective, surjective, both, or neither. In each case, you should provide a proof or a counterexample as appropriate.   Define via     Define via     Define via     Define via     Define via     Define via     Define via     Define via     The function defined in Problem  .    The function defined in Problem  .    The function defined in Problem  .         Suppose and are nonempty sets with and elements, respectively, where . How many injections are there from to ?      Compare and contrast the definition of function with the definition of injective function . Consider the vertical line test and horizontal line test in your discussion. Moreover, attempt to capture what it means for a relation to not be a function and for a function to not be an injection by drawing portions of a digraph.    The next two theorems should not come as as surprise.    The inclusion map for is an injection.      The identity function is a bijection.      Let and be nonempty sets and let be a nonempty subset of . Define and via and . We call and the projections of onto and , respectively.   Provide examples to show that does not need to be injective nor surjective.    Suppose that is also a function. Is injective? Is surjective? How about ?       The next theorem says that if we have an equivalence relation on a nonempty set, the mapping that assigns each element to its respective equivalence class is a surjective function.    If is an equivalence relation on a nonempty set , then the function defined via is a surjection.    The function from the previous theorem is sometimes called the canonical projection map induced by .    Under what circumstances would the function from the previous theorem also be injective?    Let's explore whether we can weaken the hypotheses of Theorem .    Let be a relation on a nonempty set .   What conditions on must hold in order for defined via to be a function?    What additional conditions, if any, must hold on in order for to be a surjective function?       Given any function, we can define an equivalence relation on its domain, where the equivalence classes correspond to the elements that map to the same element of the range.    Let be a function and define on via if . Then is an equivalence relation on .    It follows immediately from Theorem that the equivalence classes induced by the equivalence relation in Theorem partition the domain of a function.    For each of the following, identify the equivalence classes induced by the relation from Theorem for the given function.   The function defined in Example .    The function defined in Problem  . Can you describe the equivalence classes geometrically?       If is a function, the equivalence relation in Theorem allows us to construct a bijective function whose domain is the set of equivalence classes and whose codomain coincides with the range of . This is an important idea that manifests itself in many areas of mathematics. One such instance is the First Isomorphism Theorem for Groups, which is a fundamental theorem in a branch of mathematics called group theory. When proving the following theorem, the first thing you should do is verify that the description for is well defined.    Let be a function and define on as in Theorem . Then the function defined via is a bijection.    Here is an analogy for helping understand the content of Theorem . Suppose we have a collection airplanes filled with passengers and a collection of potential destination cities such that at most one airplane may land at each city. The function indicates which city each passenger lands at while the function indicates which city each airplane lands at. Moreover, the codomain for the function consists only of the cities that an airplane lands at.    Let and and define via .  The function diagram for is given in Figure \\subref{fig:passengers}, where we have highlighted the elements of the domain that map to the same element in the range by enclosing them in additional boxes. We see that . The function diagram for the induced map that is depicted in Figure \\subref{fig:airplanes} makes it clear that is a bijection. Note that since and , it must be the case that and according to Theorem . Thus, the vertices labeled as and in Figure \\subref{fig:airplanes} could have also been labeled as and or , respectively. In terms of our passengers and airplanes analogy, is the set of passengers, is the set of potential destination cities, is the set of airplanes, and is the set of cities that airplanes land at. The equivalence class is the airplane containing the passenger , and since and are on the same plane, is also the plane containing the passenger .     Example of a visual representation of Theorem . \\subcaptionbox{ }[.48\\linewidth]{   } \\subcaptionbox{ }[.48\\linewidth]{   }    Consider the equivalence classes you identified in Parts (a) and (b) of Problem .   Draw the function diagram for the function as defined in Theorem , where is the function defined in Example .    Geometrically describe the function as defined in Theorem , where is the function defined in Problem  .       While perhaps not surprising, Problem  tells us that there is a one-to-one correspondence between circles centered at the origin and real numbers.    Let and define the function such that equals the unique remainder obtained after dividing by 4. For example, since according to the Division Algorithm ( Theorem ). This function is sometimes written as , where it is understood that we restrict the output to . It is clear that is surjective since 0, 1, 2, and 3 are mapped to 0, 1, 2, and 3, respectively. Figure depicts a portion of the function diagram for , where we have drawn the diagram from the top down instead of left to right.   Describe the equivalence classes induced by the relation given in Theorem .    What familiar set is equal to?    Draw the function diagram for the function as defined in Theorem .    The function diagram in Figure is a bit hard to interpret due to the ordering of the elements in the domain. Can you find a better way to lay out the vertices in the domain that makes the function easier to interpret?        Function diagram for the function described in Problem .        Consider the function defined in Problem  .   Draw the function diagram for .    Identify the equivalence classes induced by the relation given in Theorem .    Draw the function diagram for the function as defined in Theorem .       \\epigraph{It is not the critic who counts; not the man who points out how the strong man stumbles, or where the doer of deeds could have done them better. The credit belongs to the man who is actually in the arena, whose face is marred by dust and sweat and blood; who strives valiantly; who errs, who comes short again and again, because there is no effort without error and shortcoming; but who does actually strive to do the deeds; who knows great enthusiasms, the great devotions; who spends himself in a worthy cause; who at the best knows in the end the triumph of high achievement, and who at the worst, if he fails, at least fails while daring greatly, so that his place shall never be with those cold and timid souls who neither know victory nor defeat.}{Theodore Roosevelt, statesman & conservationist}  "
+  "body": " Injective and Surjective Functions  We now turn our attention to some important properties that a function may or may not possess. Recall that if is a function, then every element in its domain is mapped to a unique element in the range. However, there are no restrictions on whether more than one element of the domain is mapped to the same element in the range. If each element in the range has a unique element in the domain mapping to it, then we say that the function is injective. Moreover, the range of a function is not required to be all of the codomain. If every element of the codomain has at least one element in the domain that maps to it, then we say that the function is surjective. Let's make these definitions a bit more precise.    Let be a function.   The function is said to be injective (or one-to-one ) if for all , there is a unique such that .    The function is said to be surjective (or onto ) if for all , there exists such that .    If is both injective and surjective, we say that is bijective .         Compare and contrast the following statements. Do they mean the same thing?   For all , there exists a unique such that .    For all , there is a unique such that .         Assume that and are finite sets. Provide an example of each of the following. You may draw a function diagram, write down a list of ordered pairs, or write a formula as long as the domain and codomain are clear.   A function that is injective but not surjective.    A function that is surjective but not injective.    A function that is a bijection.    A function that is neither injective nor surjective.         Provide an example of each of the following. You may either draw a graph or write down a formula. Make sure you have the correct domain.   A function that is injective but not surjective.    A function that is surjective but not injective.    A function that is a bijection.    A function that is neither injective nor surjective.    A function that is injective.         Suppose and is a function. Fill in the blank with the appropriate word.  The function is           if and only if every horizontal line hits the graph of  at most once .  This statement is often called the horizontal line test . Explain why the horizontal line test is true.      Suppose and is a function. Fill in the blank with the appropriate word.  The function is           if and only if every horizontal line hits the graph of  at least once .  Explain why this statement is true.      Suppose and is a function. Fill in the blank with the appropriate word.  The function is           if and only if every horizontal line hits the graph of  exactly once .  Explain why this statement is true.    How do we prove that a function is injective? We would need to show that every element in the range has a unique element from the domain that maps to it. First, notice that each element in the range can be written as for at least one in the domain. To argue that each such element in domain is unique, we can suppose for arbitrary and in the domain and then work to show that . It is important to point out that when we suppose for some and , we are not assuming that and are different. In general, when we write Let , we are leaving open the possibility that and are actually the same element. One could approach proving that a function is injective by utilizing a proof by contradiction, but this is not usually necessary.   Skeleton Proof  [Proof that a function is injective] Here is the general structure for proving that a function is injective.   Assume is a function defined by (or satisfying)  [Use the given definition (or describe the given property) of ] . Let and suppose .  [Use the definition (or property) of to verify that ]  Therefore, the function is injective.    How do we prove that a function is surjective? We would need to argue that every element in the codomain is also in the range. Sometimes, the proof that a particular function is surjective is extremely short, so do not second guess yourself if you find yourself in this situation.   Skeleton Proof  [Proof that a function is surjective] Here is the general structure for proving that a function is surjective.   Assume is a function defined by (or satisfying)  [Use the given definition (or describe the given property) of ] . Let .  [Use the definition (or property) of to find some such that ]  Therefore, the function is surjective.      Determine whether each of the following functions is injective, surjective, both, or neither. In each case, you should provide a proof or a counterexample as appropriate.  Define via   Define via   Define via   Define via   Define via   Define via    Define via   Define via   The function defined in Problem  .  The function defined in Problem  .  The function defined in Problem  .        Suppose and are nonempty sets with and elements, respectively, where . How many injections are there from to ?      Compare and contrast the definition of function with the definition of injective function . Consider the vertical line test and horizontal line test in your discussion. Moreover, attempt to capture what it means for a relation to not be a function and for a function to not be an injection by drawing portions of a digraph.    The next two theorems should not come as as surprise.    The inclusion map for is an injection.      The identity function is a bijection.      Let and be nonempty sets and let be a nonempty subset of . Define and via and . We call and the projections of onto and , respectively.   Provide examples to show that does not need to be injective nor surjective.    Suppose that is also a function. Is injective? Is surjective? How about ?       The next theorem says that if we have an equivalence relation on a nonempty set, the mapping that assigns each element to its respective equivalence class is a surjective function.    If is an equivalence relation on a nonempty set , then the function defined via is a surjection.    The function from the previous theorem is sometimes called the canonical projection map induced by .    Under what circumstances would the function from the previous theorem also be injective?    Let's explore whether we can weaken the hypotheses of Theorem .    Let be a relation on a nonempty set .   What conditions on must hold in order for defined via to be a function?    What additional conditions, if any, must hold on in order for to be a surjective function?       Given any function, we can define an equivalence relation on its domain, where the equivalence classes correspond to the elements that map to the same element of the range.    Let be a function and define on via if . Then is an equivalence relation on .    It follows immediately from Theorem that the equivalence classes induced by the equivalence relation in Theorem partition the domain of a function.    For each of the following, identify the equivalence classes induced by the relation from Theorem for the given function.   The function defined in Example .    The function defined in Problem  . Can you describe the equivalence classes geometrically?       If is a function, the equivalence relation in Theorem allows us to construct a bijective function whose domain is the set of equivalence classes and whose codomain coincides with the range of . This is an important idea that manifests itself in many areas of mathematics. One such instance is the First Isomorphism Theorem for Groups, which is a fundamental theorem in a branch of mathematics called group theory. When proving the following theorem, the first thing you should do is verify that the description for is well defined.    Let be a function and define on as in Theorem . Then the function defined via is a bijection.    Here is an analogy for helping understand the content of Theorem . Suppose we have a collection airplanes filled with passengers and a collection of potential destination cities such that at most one airplane may land at each city. The function indicates which city each passenger lands at while the function indicates which city each airplane lands at. Moreover, the codomain for the function consists only of the cities that an airplane lands at.    Let and and define via .  The function diagram for is given in Figure , where we have highlighted the elements of the domain that map to the same element in the range by enclosing them in additional boxes. We see that . The function diagram for the induced map that is depicted in Figure makes it clear that is a bijection. Note that since and , it must be the case that and according to Theorem . Thus, the vertices labeled as and in Figure could have also been labeled as and or , respectively. In terms of our passengers and airplanes analogy, is the set of passengers, is the set of potential destination cities, is the set of airplanes, and is the set of cities that airplanes land at. The equivalence class is the airplane containing the passenger , and since and are on the same plane, is also the plane containing the passenger .     Example of a visual representation of Theorem .                   Consider the equivalence classes you identified in Parts (a) and (b) of Problem .   Draw the function diagram for the function as defined in Theorem , where is the function defined in Example .    Geometrically describe the function as defined in Theorem , where is the function defined in Problem  .       While perhaps not surprising, Problem  tells us that there is a one-to-one correspondence between circles centered at the origin and real numbers.    Let and define the function such that equals the unique remainder obtained after dividing by 4. For example, since according to the Division Algorithm ( Theorem ). This function is sometimes written as , where it is understood that we restrict the output to . It is clear that is surjective since 0, 1, 2, and 3 are mapped to 0, 1, 2, and 3, respectively. Figure depicts a portion of the function diagram for , where we have drawn the diagram from the top down instead of left to right.   Describe the equivalence classes induced by the relation given in Theorem .    What familiar set is equal to?    Draw the function diagram for the function as defined in Theorem .    The function diagram in Figure is a bit hard to interpret due to the ordering of the elements in the domain. Can you find a better way to lay out the vertices in the domain that makes the function easier to interpret?        Function diagram for the function described in Problem .        Consider the function defined in Problem  .   Draw the function diagram for .    Identify the equivalence classes induced by the relation given in Theorem .    Draw the function diagram for the function as defined in Theorem .         It is not the critic who counts; not the man who points out how the strong man stumbles, or where the doer of deeds could have done them better. The credit belongs to the man who is actually in the arena, whose face is marred by dust and sweat and blood; who strives valiantly; who errs, who comes short again and again, because there is no effort without error and shortcoming; but who does actually strive to do the deeds; who knows great enthusiasms, the great devotions; who spends himself in a worthy cause; who at the best knows in the end the triumph of high achievement, and who at the worst, if he fails, at least fails while daring greatly, so that his place shall never be with those cold and timid souls who neither know victory nor defeat.  Theodore Roosevelt, statesman & conservationist   "
 },
 {
   "id": "definition-57",
@@ -4498,7 +4678,7 @@ var ptx_lunr_docs = [
   "type": "Problem",
   "number": "8.31",
   "title": "",
-  "body": "  Suppose and is a function. Fill in the blank with the appropriate word.  The function is         if and only if every horizontal line hits the graph of  at most once .  This statement is often called the horizontal line test . Explain why the horizontal line test is true.   "
+  "body": "  Suppose and is a function. Fill in the blank with the appropriate word.  The function is           if and only if every horizontal line hits the graph of  at most once .  This statement is often called the horizontal line test . Explain why the horizontal line test is true.   "
 },
 {
   "id": "problem-186",
@@ -4507,7 +4687,7 @@ var ptx_lunr_docs = [
   "type": "Problem",
   "number": "8.32",
   "title": "",
-  "body": "  Suppose and is a function. Fill in the blank with the appropriate word.  The function is         if and only if every horizontal line hits the graph of  at least once .  Explain why this statement is true.   "
+  "body": "  Suppose and is a function. Fill in the blank with the appropriate word.  The function is           if and only if every horizontal line hits the graph of  at least once .  Explain why this statement is true.   "
 },
 {
   "id": "problem-187",
@@ -4516,21 +4696,21 @@ var ptx_lunr_docs = [
   "type": "Problem",
   "number": "8.33",
   "title": "",
-  "body": "  Suppose and is a function. Fill in the blank with the appropriate word.  The function is         if and only if every horizontal line hits the graph of  exactly once .  Explain why this statement is true.   "
+  "body": "  Suppose and is a function. Fill in the blank with the appropriate word.  The function is           if and only if every horizontal line hits the graph of  exactly once .  Explain why this statement is true.   "
 },
 {
-  "id": "proof-19",
+  "id": "proof-20",
   "level": "2",
-  "url": "sec_Injective_and_Surjective_Functions.html#proof-19",
+  "url": "sec_Injective_and_Surjective_Functions.html#proof-20",
   "type": "Proof",
   "number": "1",
   "title": "",
   "body": " Assume is a function defined by (or satisfying)  [Use the given definition (or describe the given property) of ] . Let and suppose .  [Use the definition (or property) of to verify that ]  Therefore, the function is injective.  "
 },
 {
-  "id": "proof-20",
+  "id": "proof-21",
   "level": "2",
-  "url": "sec_Injective_and_Surjective_Functions.html#proof-20",
+  "url": "sec_Injective_and_Surjective_Functions.html#proof-21",
   "type": "Proof",
   "number": "1",
   "title": "",
@@ -4543,7 +4723,7 @@ var ptx_lunr_docs = [
   "type": "Problem",
   "number": "8.34",
   "title": "",
-  "body": "  Determine whether each of the following functions is injective, surjective, both, or neither. In each case, you should provide a proof or a counterexample as appropriate.   Define via     Define via     Define via     Define via     Define via     Define via     Define via     Define via     The function defined in Problem  .    The function defined in Problem  .    The function defined in Problem  .      "
+  "body": "  Determine whether each of the following functions is injective, surjective, both, or neither. In each case, you should provide a proof or a counterexample as appropriate.  Define via   Define via   Define via   Define via   Define via   Define via    Define via   Define via   The function defined in Problem  .  The function defined in Problem  .  The function defined in Problem  .     "
 },
 {
   "id": "problem-189",
@@ -4600,6 +4780,15 @@ var ptx_lunr_docs = [
   "body": "  If is an equivalence relation on a nonempty set , then the function defined via is a surjection.   "
 },
 {
+  "id": "p-1403",
+  "level": "2",
+  "url": "sec_Injective_and_Surjective_Functions.html#p-1403",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "canonical projection map "
+},
+{
   "id": "problem-192",
   "level": "2",
   "url": "sec_Injective_and_Surjective_Functions.html#problem-192",
@@ -4651,16 +4840,16 @@ var ptx_lunr_docs = [
   "type": "Example",
   "number": "8.46",
   "title": "",
-  "body": "  Let and and define via .  The function diagram for is given in Figure \\subref{fig:passengers}, where we have highlighted the elements of the domain that map to the same element in the range by enclosing them in additional boxes. We see that . The function diagram for the induced map that is depicted in Figure \\subref{fig:airplanes} makes it clear that is a bijection. Note that since and , it must be the case that and according to Theorem . Thus, the vertices labeled as and in Figure \\subref{fig:airplanes} could have also been labeled as and or , respectively. In terms of our passengers and airplanes analogy, is the set of passengers, is the set of potential destination cities, is the set of airplanes, and is the set of cities that airplanes land at. The equivalence class is the airplane containing the passenger , and since and are on the same plane, is also the plane containing the passenger .   "
+  "body": "  Let and and define via .  The function diagram for is given in Figure , where we have highlighted the elements of the domain that map to the same element in the range by enclosing them in additional boxes. We see that . The function diagram for the induced map that is depicted in Figure makes it clear that is a bijection. Note that since and , it must be the case that and according to Theorem . Thus, the vertices labeled as and in Figure could have also been labeled as and or , respectively. In terms of our passengers and airplanes analogy, is the set of passengers, is the set of potential destination cities, is the set of airplanes, and is the set of cities that airplanes land at. The equivalence class is the airplane containing the passenger , and since and are on the same plane, is also the plane containing the passenger .   "
 },
 {
-  "id": "fig_passengers",
+  "id": "fig_passengers_and_airplanes",
   "level": "2",
-  "url": "sec_Injective_and_Surjective_Functions.html#fig_passengers",
+  "url": "sec_Injective_and_Surjective_Functions.html#fig_passengers_and_airplanes",
   "type": "Figure",
   "number": "8.47",
   "title": "",
-  "body": " Example of a visual representation of Theorem . \\subcaptionbox{ }[.48\\linewidth]{   } \\subcaptionbox{ }[.48\\linewidth]{   } "
+  "body": " Example of a visual representation of Theorem .                "
 },
 {
   "id": "prob_iso_theorem_for_sets",
@@ -4705,7 +4894,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "8.3",
   "title": "Compositions and Inverse Functions",
-  "body": " Compositions and Inverse Functions  We begin this section with a method for combining two functions together that have compatible domains and codomains.    If and are functions, we define via . The function is called the composition of and .    It is important to notice that the function on the right is the one that goes first. Moreover, we cannot compose any two random functions since the codomain of the first function must agree with the domain of the second function. In particular, may not be a sensible function even when exists. Figure provides a visual representation of function composition in terms of function diagrams.   Visual representation of function composition.        Let and define and via and .  For each of the following functions, draw the corresponding function diagram in the spirit of Figure and identify the range.                The previous problem illustrates that and need not be equal even when both composite functions exist.    Consider the inclusion map such that is a proper subset of and suppose is a function. Then the composite function is given by for all . Notice that is simply the function but with a smaller domain. In this case, we say that is the restriction of to , which is often denoted by .      Define and via and , respectively. Determine formulas for the composite functions and .      Define and via and , respectively. Find a formula for the composite function .      Define and via and , respectively. Find a formula for the composite function .    The following result provides some insight into where the identity map got its name.    If is a function, then , where and are the identity maps on and , respectively.    The next theorem tells us that function composition is associative.    If , , and are functions, then .      In each case, give examples of finite sets , , and , and functions and that satisfy the given conditions. Drawing a function diagram is sufficient.    is surjective, but is not surjective.     is surjective, but is not surjective.     is injective, but is not injective.     is injective, but is not injective.         If and are both surjective functions, then is also surjective.      If and are both injective functions, then is also injective.      If and are both bijections, then is also a bijection.      Assume that and are both functions. Determine whether each of the following statements is true or false. If a statement is true, prove it. Otherwise, provide a counterexample.   If is injective, then is injective.    If is injective, then is injective.    If is surjective, then is surjective.    If is surjective, then is surjective.         Let be a function. Then is injective if and only if there exists a function such that , where is the identity map on .    The function in the previous theorem is often called a left inverse of .    Let be a function. Then is surjective if and only if there exists a function such that , where is the identity map on .    The function in the previous theorem is often called a right inverse of .    Complete each of the following. Consider using finite sets and drawing a function diagram to define your functions.   Provide an example of a function that has a left inverse but does not have a right inverse. Find the left inverse of your proposed function.    Provide an example of a function that has a right inverse but does not have a left inverse. Find the right inverse of your proposed function.         Define via . Explain why does not have a left inverse nor a right inverse.      Define via and via .   Explain why does not have a left inverse.    Verify that is the right inverse of by computing .         If and are functions satisfying and , then is a bijection.    In the previous result, the functions and  cancel each other out. In this case, we say that is a two-sided inverse of .    Let be a function. The relation from to , called inverse, is defined via .    Notice that we called a relation and not a function. In some circumstances will be a function and sometimes it will not be. Given a function , the inverse relation is simply the set of ordered pairs that results from reversing the ordered pairs in . It is worth pointing out that we have only defined inverse relations for functions. However, one can easily adapt our definition to handle arbitrary relations.    Consider the function given in Example (see Figure ). List the ordered pairs in the relation and draw the corresponding digraph. Is a function?      Provide an example of a function such that is a function. Drawing a function diagram is sufficient.      Suppose and is a function. What is the relationship between the graph of the function and the graph of the inverse relation ?      Let be a function. Then is a function if and only if is a bijection.      Suppose is a function. Fill in the blank with the appropriate phrase.  The relation is a function if and only if every horizontal line hits the graph of                .  Explain why this statement is true.      If is a bijection, then    , and     .         If is a bijection, then is also a bijection.      If and are functions such that and , then is a function and .    The upshot of Theorems and is that if is a function, then it is the only one satisfying the two-sided inverse property exhibited in Corollary and Theorem . That is, inverse functions are unique when they exist. When the relation is a function, we call it the inverse function of .    Let and suppose is a function. Explain the difference between and . When does each exist?      Let and define via and via . Identify the largest possible choices for and so that and are inverses of each other.      If is a bijection, then .    In the previous theorem, we restricted our attention to bijections so that would be a function, thus making a sensible inverse relation in light of Definition . If we had defined inverses for arbitrary relations, then we would not have needed to require the function in Theorem to be a bijection. In fact, we do not even need to require the relation to be a function. That is, if is a relation from to , then , as expected. Similarly, the next result generalizes to arbitrary relations.    If and are both bijections, then .    The previous theorem is sometimes referred to as the socks and shoes theorem . Do you see how it got this name?  \\epigraph{The most difficult thing is the decision to act. The rest is merely tenacity.}{Amelia Earhart, aviation pioneer}  "
+  "body": " Compositions and Inverse Functions  We begin this section with a method for combining two functions together that have compatible domains and codomains.    If and are functions, we define via . The function is called the composition of and .    It is important to notice that the function on the right is the one that goes first. Moreover, we cannot compose any two random functions since the codomain of the first function must agree with the domain of the second function. In particular, may not be a sensible function even when exists. Figure provides a visual representation of function composition in terms of function diagrams.   Visual representation of function composition.        Let and define and via and .  For each of the following functions, draw the corresponding function diagram in the spirit of Figure and identify the range.                The previous problem illustrates that and need not be equal even when both composite functions exist.    Consider the inclusion map such that is a proper subset of and suppose is a function. Then the composite function is given by for all . Notice that is simply the function but with a smaller domain. In this case, we say that is the restriction of to , which is often denoted by .      Define and via and , respectively. Determine formulas for the composite functions and .      Define and via and , respectively. Find a formula for the composite function .      Define and via and , respectively. Find a formula for the composite function .    The following result provides some insight into where the identity map got its name.    If is a function, then , where and are the identity maps on and , respectively.    The next theorem tells us that function composition is associative.    If , , and are functions, then .      In each case, give examples of finite sets , , and , and functions and that satisfy the given conditions. Drawing a function diagram is sufficient.    is surjective, but is not surjective.     is surjective, but is not surjective.     is injective, but is not injective.     is injective, but is not injective.         If and are both surjective functions, then is also surjective.      If and are both injective functions, then is also injective.      If and are both bijections, then is also a bijection.      Assume that and are both functions. Determine whether each of the following statements is true or false. If a statement is true, prove it. Otherwise, provide a counterexample.   If is injective, then is injective.    If is injective, then is injective.    If is surjective, then is surjective.    If is surjective, then is surjective.         Let be a function. Then is injective if and only if there exists a function such that , where is the identity map on .    The function in the previous theorem is often called a left inverse of .    Let be a function. Then is surjective if and only if there exists a function such that , where is the identity map on .    The function in the previous theorem is often called a right inverse of .    Complete each of the following. Consider using finite sets and drawing a function diagram to define your functions.   Provide an example of a function that has a left inverse but does not have a right inverse. Find the left inverse of your proposed function.    Provide an example of a function that has a right inverse but does not have a left inverse. Find the right inverse of your proposed function.         Define via . Explain why does not have a left inverse nor a right inverse.      Define via and via .   Explain why does not have a left inverse.    Verify that is the right inverse of by computing .         If and are functions satisfying and , then is a bijection.    In the previous result, the functions and  cancel each other out. In this case, we say that is a two-sided inverse of .    Let be a function. The relation from to , called  inverse , is defined via .    Notice that we called a relation and not a function. In some circumstances will be a function and sometimes it will not be. Given a function , the inverse relation is simply the set of ordered pairs that results from reversing the ordered pairs in . It is worth pointing out that we have only defined inverse relations for functions. However, one can easily adapt our definition to handle arbitrary relations.    Consider the function given in Example (see Figure ). List the ordered pairs in the relation and draw the corresponding digraph. Is a function?      Provide an example of a function such that is a function. Drawing a function diagram is sufficient.      Suppose and is a function. What is the relationship between the graph of the function and the graph of the inverse relation ?      Let be a function. Then is a function if and only if is a bijection.      Suppose is a function. Fill in the blank with the appropriate phrase.  The relation is a function if and only if every horizontal line hits the graph of                .   Explain why this statement is true.      If is a bijection, then    , and     .         If is a bijection, then is also a bijection.      If and are functions such that and , then is a function and .    The upshot of Theorems and is that if is a function, then it is the only one satisfying the two-sided inverse property exhibited in Corollary and Theorem . That is, inverse functions are unique when they exist. When the relation is a function, we call it the inverse function of .    Let and suppose is a function. Explain the difference between and . When does each exist?      Let and define via and via . Identify the largest possible choices for and so that and are inverses of each other.      If is a bijection, then .    In the previous theorem, we restricted our attention to bijections so that would be a function, thus making a sensible inverse relation in light of Definition . If we had defined inverses for arbitrary relations, then we would not have needed to require the function in Theorem to be a bijection. In fact, we do not even need to require the relation to be a function. That is, if is a relation from to , then , as expected. Similarly, the next result generalizes to arbitrary relations.    If and are both bijections, then .    The previous theorem is sometimes referred to as the socks and shoes theorem . Do you see how it got this name?    The most difficult thing is the decision to act. The rest is merely tenacity.  Amelia Earhart, aviation pioneer   "
 },
 {
   "id": "definition-58",
@@ -4843,6 +5032,15 @@ var ptx_lunr_docs = [
   "body": "  Let be a function. Then is injective if and only if there exists a function such that , where is the identity map on .   "
 },
 {
+  "id": "p-1464",
+  "level": "2",
+  "url": "sec_Compositions_and_Inverse_Functions.html#p-1464",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "left inverse "
+},
+{
   "id": "theorem-152",
   "level": "2",
   "url": "sec_Compositions_and_Inverse_Functions.html#theorem-152",
@@ -4850,6 +5048,15 @@ var ptx_lunr_docs = [
   "number": "8.67",
   "title": "",
   "body": "  Let be a function. Then is surjective if and only if there exists a function such that , where is the identity map on .   "
+},
+{
+  "id": "p-1466",
+  "level": "2",
+  "url": "sec_Compositions_and_Inverse_Functions.html#p-1466",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "right inverse "
 },
 {
   "id": "problem-204",
@@ -4888,13 +5095,22 @@ var ptx_lunr_docs = [
   "body": "  If and are functions satisfying and , then is a bijection.   "
 },
 {
+  "id": "p-1475",
+  "level": "2",
+  "url": "sec_Compositions_and_Inverse_Functions.html#p-1475",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "two-sided inverse "
+},
+{
   "id": "def_inverse_of_a_function",
   "level": "2",
   "url": "sec_Compositions_and_Inverse_Functions.html#def_inverse_of_a_function",
   "type": "Definition",
   "number": "8.72",
   "title": "",
-  "body": "  Let be a function. The relation from to , called inverse, is defined via .   "
+  "body": "  Let be a function. The relation from to , called  inverse , is defined via .   "
 },
 {
   "id": "problem-207",
@@ -4939,7 +5155,7 @@ var ptx_lunr_docs = [
   "type": "Problem",
   "number": "8.77",
   "title": "",
-  "body": "  Suppose is a function. Fill in the blank with the appropriate phrase.  The relation is a function if and only if every horizontal line hits the graph of                .  Explain why this statement is true.   "
+  "body": "  Suppose is a function. Fill in the blank with the appropriate phrase.  The relation is a function if and only if every horizontal line hits the graph of                .   Explain why this statement is true.   "
 },
 {
   "id": "thm_comp_of_inverses",
@@ -4967,6 +5183,15 @@ var ptx_lunr_docs = [
   "number": "8.80",
   "title": "",
   "body": "  If and are functions such that and , then is a function and .   "
+},
+{
+  "id": "p-1489",
+  "level": "2",
+  "url": "sec_Compositions_and_Inverse_Functions.html#p-1489",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "inverse function "
 },
 {
   "id": "problem-211",
@@ -5011,7 +5236,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "8.4",
   "title": "Images and Preimages of Functions",
-  "body": " Images and Preimages of Functions  There are two important types of sets related to functions.    Let be a function.   If , the image of under is defined via .    If , the preimage (or inverse image ) of under is defined via .       The image of a subset of the domain is simply the subset of the codomain we obtain by mapping the elements of . It is important to emphasize that the function maps elements of to elements of , but we can apply to a subset of to yield a subset of . That is, if , then . Note that the image of the domain is the same as the range of the function. That is, .  When it comes to preimages, there is a real opportunity for confusion. In Section , we introduced the inverse relation of a function (see Definition ) and proved that this relation is a function exactly when is a bijection (see Theorem ). If is a function, then it is sensible to write for . Notice that we defined the preimage of a subset of the codomain regardless of whether is a function or not. In particular, for , is the set of elements in the domain that map to elements in . As a special case, is the set of elements in the domain that map to . If , then . Notice that if , is always a sensible thing to write while only makes sense if is a function. Also, note that the preimage of the codomain is the domain. That is, .    Define via . List elements in each of the following sets.                  Define via . Find each of the following sets.                                                          Define via .   Find two nonempty subsets and of such that but .    Find two nonempty subsets and of such that but .         Suppose is an injection and and are disjoint subsets of . Are and necessarily disjoint subsets of ? If so, prove it. Otherwise, provide a counterexample.      Find examples of functions and together with sets and such that and .      Let be a function and suppose and . Determine whether each of the following statements is true or false. If a statement is true, prove it. Otherwise, provide a counterexample.   If , then .    If , then .     .     .     .     .     .     .     .     .     .     .     .     .         For each of the statements in the previous problem that were false, determine conditions, if any, on the corresponding sets that would make the statement true.    We can generalize the results above to handle arbitrary collections of sets.    Let be a function and suppose is a collection of subsets of .    .     .         Let be a function and suppose is a collection of subsets of .    .     .         Consider the equivalence relation given in Theorem . Explain why each equivalence class is equal to .      Suppose that is a function satisfying for all .   Prove that .    Prove that for all .    Prove that is injective if and only if .    Certainly every function given by for satisfies the initial hypothesis. Can you provide an example of a function that satisfies that is not of the form ?       \\epigraph{The obstacle is the path.}{Zen saying, Author Unknown}  "
+  "body": " Images and Preimages of Functions  There are two important types of sets related to functions.    Let be a function.  If , the image of under is defined via .   If , the preimage (or inverse image ) of under is defined via .      The image of a subset of the domain is simply the subset of the codomain we obtain by mapping the elements of . It is important to emphasize that the function maps elements of to elements of , but we can apply to a subset of to yield a subset of . That is, if , then . Note that the image of the domain is the same as the range of the function. That is, .  When it comes to preimages, there is a real opportunity for confusion. In Section , we introduced the inverse relation of a function (see Definition ) and proved that this relation is a function exactly when is a bijection (see Theorem ). If is a function, then it is sensible to write for . Notice that we defined the preimage of a subset of the codomain regardless of whether is a function or not. In particular, for , is the set of elements in the domain that map to elements in . As a special case, is the set of elements in the domain that map to . If , then . Notice that if , is always a sensible thing to write while only makes sense if is a function. Also, note that the preimage of the codomain is the domain. That is, .    Define via . List elements in each of the following sets.                  Define via . Find each of the following sets.                                                          Define via .   Find two nonempty subsets and of such that but .    Find two nonempty subsets and of such that but .         Suppose is an injection and and are disjoint subsets of . Are and necessarily disjoint subsets of ? If so, prove it. Otherwise, provide a counterexample.      Find examples of functions and together with sets and such that and .      Let be a function and suppose and . Determine whether each of the following statements is true or false. If a statement is true, prove it. Otherwise, provide a counterexample.   If , then .    If , then .     .     .     .     .     .     .     .     .     .     .     .     .         For each of the statements in the previous problem that were false, determine conditions, if any, on the corresponding sets that would make the statement true.    We can generalize the results above to handle arbitrary collections of sets.    Let be a function and suppose is a collection of subsets of .    .     .         Let be a function and suppose is a collection of subsets of .    .     .         Consider the equivalence relation given in Theorem . Explain why each equivalence class is equal to .      Suppose that is a function satisfying for all .   Prove that .    Prove that for all .    Prove that is injective if and only if .    Certainly every function given by for satisfies the initial hypothesis. Can you provide an example of a function that satisfies that is not of the form ?         The obstacle is the path.  Zen saying, Author Unknown   "
 },
 {
   "id": "definition-60",
@@ -5020,7 +5245,7 @@ var ptx_lunr_docs = [
   "type": "Definition",
   "number": "8.85",
   "title": "",
-  "body": "  Let be a function.   If , the image of under is defined via .    If , the preimage (or inverse image ) of under is defined via .      "
+  "body": "  Let be a function.  If , the image of under is defined via .   If , the preimage (or inverse image ) of under is defined via .     "
 },
 {
   "id": "problem-213",
@@ -5128,7 +5353,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "8.5",
   "title": "Continuous Real Functions",
-  "body": " Continuous Real Functions  In this section, we will explore the concept of continuity, which you likely encountered in high school.    A real function is any function such that is a nonempty subset of .    There are several equivalent definitions of continuity for real functions. The following characterization is typically referred to as the epsilon-delta definition of continuity . Our definition mimics the definition of continuity used in metric spaces, which equipped with absolute value happens to be an example of. Recall that means that the distance between and is less than (see discussion below Corollary ).    Suppose is a real function such that . We say that is continuous at if for every , there exists such that if and , then . If is continuous at every point in , then we say that is continuous on . If is continuous on its entire domain, we simply say that is continuous.    Loosely speaking, a real function is continuous at the point if we can get arbitrarily close to by considering all sufficiently close to . The value is indicating how close to we need to be while the value is providing the window around needed to guarantee that all points in the window (and in the domain) yield outputs within of . Figure illustrates our definition of continuity. Note that in the figure, the point is fixed while we need to consider all such that . The dashed box in the figure has dimensions by and is centered at the point . Intuitively, the function is continuous at since given , we could find so that the graph of the function never exits the top or bottom of the dashed box.   Visual representation of continuity of at .      Perhaps you have encountered the phrase ``a function is continuous if you can draw its graph without lifting your pencil.\" While this description provides some intuition about what continuity of a function means, it is neither accurate nor precise enough to capture the meaning of continuity.  When proving that a function is continuous at a point, the choice of depends on both the point in question and the value of . An example should be helpful.    Define via . Let's prove that is continuous (at every point in the domain). Let and let . Choose . We will see in a moment why this is a good choice for . Suppose such that . We see that .  We have shown that is continuous at , and since was arbitrary, is continuous.      Prove that each of the following real functions is continuous using Definition .    defined via .     defined via .     defined via .       The next result tells us that every linear real function is continuous. Do not forget to handle the case when in your proof. Note that the case when proves that every constant function is continuous.    If is defined via for , then is continuous.    The second part of the next problem is much harder than you might expect.    Define via .   Prove that is continuous at 0.    Prove that is continuous at 1.         Define via . Prove that is continuous at 0.      Suppose is a real function. Write a precise statement for what it means for to not be continuous at .      Define via   Determine where is continuous and justify your assertion.      Define via   Determine where is continuous and justify your assertion.    After completing the next problem, reflect on the statement ``a function is continuous if you can draw its graph without lifting your pencil.\"    Define via . Notice the domain! Determine where is continuous and justify your assertion.      Suppose is a real function. Then is continuous if and only if the preimage of every open set is an open set intersected with the domain of .    The previous characterization of continuity is often referred to as the open set definition of continuity, although for us it is a theorem instead of a definition. This is the definition used in topology. Another notion of continuity, called sequential continuity , makes use of convergent sequences. All of these characterizations of continuity are equivalent for the real numbers (using the standard definition of an open set). However, there are contexts in mathematics where the epsilon-delta definition of continuity is undefined (because there is not a notion of distance in either the domain or codomain) and others where continuity and sequential continuity are not equivalent.  Since every open set is the union of bounded open intervals ( Definition ), the union of open sets is open ( Theorem ), and preimages respect unions ( Theorem ), we can strengthen Theorem into a slightly more useful result.    Suppose is a real function. Then is continuous if and only if the preimage of every bounded open interval is an open set intersected with the domain of .    Now that we have two methods for verifying continuity ( Definition and Theorem \/ ), you can use either one when approaching the remaining problems in this section. Sometimes it does not matter which approach you take and other times one method might be better suited to the task.    Define via . Prove that is continuous.      Define via . Determine where is continuous and justify your assertion.    The previous problems once again calls into question the phrase ``a function is continuous if you can draw its graph without lifting your pencil.\"    Find a continuous real function and an open interval such that the preimage is not an open interval.    For the next few problems, if you attempt to construct counterexamples, you may rely on your previous knowledge about various functions that you encountered in high school and calculus.    Suppose is a continuous real function. If is an open set contained in , is the image always open? If so, prove it. Otherwise, provide a counterexample.      Suppose is a continuous real function. If is a closed set, is the preimage always a closed set? If so, prove it. Otherwise, provide a counterexample.      Suppose is a continuous real function. If is a closed interval contained in , is the image always a closed interval? If so, prove it. Otherwise, provide a counterexample.      Suppose is a continuous real function. If is a closed set contained in , is the image always a closed set? If so, prove it. Otherwise, provide a counterexample.      Suppose is a continuous real function. If is bounded set contained in , is the image always a bounded set? If so, prove it. Otherwise, provide a counterexample.      Suppose is a continuous real function. If is a bounded set, is the preimage always a bounded set? If so, prove it. Otherwise, provide a counterexample.      Suppose is a continuous real function. If is a compact set, is the preimage always a compact set? If so, prove it. Otherwise, provide a counterexample.      Suppose is a continuous real function. If is a connected set contained in , is the image always connected? If so, prove it. Otherwise, provide a counterexample.      Suppose is a continuous real function. If is a connected set, is the preimage always a connected set? If so, prove it. Otherwise, provide a counterexample.    Perhaps you noticed the absence of one natural question in the previous sequence of problems. If is a continuous real function and is a subset of the domain of , is the image a compact set? It turns out that the answer is yes , but proving this fact is beyond the scope of this book. This theorem is often proved in a real analysis course and is then used to prove the Extreme Value Theorem, which you may have encountered in your calculus course.  The next result is a special case of the well-known Intermediate Value Theorem , which states that if is a continuous real function whose domain contains the interval , then attains every value between and at some point within the interval . To prove the special case, utilize Theorem and Problem together with a proof by contradiction.    Suppose is a real function. If is continuous on such that or , then there exists such that .    If we generalize the previous result, we obtain the Intermediate Value Theorem.   Intermediate Value Theorem   Suppose is a real function. If is continuous on such that or for some , then there exists such that .      Is the converse of the Intermediate Value Theorem true? If so, prove it. Otherwise, provide a counterexample.    \\epigraph{The miracle of the appropriateness of the language of mathematics for the formulation of the laws of physics is a wonderful gift which we neither understand nor deserve. We should be grateful for it and hope that it will remain valid in future research and that it will extend, for better or for worse, to our pleasure, even though perhaps also to our bafflement, to wide branches of learning.}{Eugene Paul Wigner, theoretical physicist}  "
+  "body": " Continuous Real Functions  In this section, we will explore the concept of continuity, which you likely encountered in high school.    A real function is any function such that is a nonempty subset of .    There are several equivalent definitions of continuity for real functions. The following characterization is typically referred to as the epsilon-delta definition of continuity . Our definition mimics the definition of continuity used in metric spaces, which equipped with absolute value happens to be an example of. Recall that means that the distance between and is less than (see discussion below Corollary ).    Suppose is a real function such that . We say that is continuous at if for every , there exists such that if and , then . If is continuous at every point in , then we say that is continuous on . If is continuous on its entire domain, we simply say that is continuous .    Loosely speaking, a real function is continuous at the point if we can get arbitrarily close to by considering all sufficiently close to . The value is indicating how close to we need to be while the value is providing the window around needed to guarantee that all points in the window (and in the domain) yield outputs within of . Figure illustrates our definition of continuity. Note that in the figure, the point is fixed while we need to consider all such that . The dashed box in the figure has dimensions by and is centered at the point . Intuitively, the function is continuous at since given , we could find so that the graph of the function never exits the top or bottom of the dashed box.   Visual representation of continuity of at .      Perhaps you have encountered the phrase a function is continuous if you can draw its graph without lifting your pencil. While this description provides some intuition about what continuity of a function means, it is neither accurate nor precise enough to capture the meaning of continuity.  When proving that a function is continuous at a point, the choice of depends on both the point in question and the value of . An example should be helpful.    Define via . Let's prove that is continuous (at every point in the domain). Let and let . Choose . We will see in a moment why this is a good choice for . Suppose such that . We see that .  We have shown that is continuous at , and since was arbitrary, is continuous.      Prove that each of the following real functions is continuous using Definition .    defined via .     defined via .     defined via .       The next result tells us that every linear real function is continuous. Do not forget to handle the case when in your proof. Note that the case when proves that every constant function is continuous.    If is defined via for , then is continuous.    The second part of the next problem is much harder than you might expect.    Define via .   Prove that is continuous at 0.    Prove that is continuous at 1.         Define via . Prove that is continuous at 0.      Suppose is a real function. Write a precise statement for what it means for to not be continuous at .      Define via   Determine where is continuous and justify your assertion.      Define via   Determine where is continuous and justify your assertion.    After completing the next problem, reflect on the statement a function is continuous if you can draw its graph without lifting your pencil.     Define via . Notice the domain! Determine where is continuous and justify your assertion.      Suppose is a real function. Then is continuous if and only if the preimage of every open set is an open set intersected with the domain of .    The previous characterization of continuity is often referred to as the open set definition of continuity, although for us it is a theorem instead of a definition. This is the definition used in topology. Another notion of continuity, called sequential continuity , makes use of convergent sequences. All of these characterizations of continuity are equivalent for the real numbers (using the standard definition of an open set). However, there are contexts in mathematics where the epsilon-delta definition of continuity is undefined (because there is not a notion of distance in either the domain or codomain) and others where continuity and sequential continuity are not equivalent.  Since every open set is the union of bounded open intervals ( Definition ), the union of open sets is open ( Theorem ), and preimages respect unions ( Theorem ), we can strengthen Theorem into a slightly more useful result.    Suppose is a real function. Then is continuous if and only if the preimage of every bounded open interval is an open set intersected with the domain of .    Now that we have two methods for verifying continuity ( Definition and Theorem \/ ), you can use either one when approaching the remaining problems in this section. Sometimes it does not matter which approach you take and other times one method might be better suited to the task.    Define via . Prove that is continuous.      Define via . Determine where is continuous and justify your assertion.    The previous problems once again calls into question the phrase a function is continuous if you can draw its graph without lifting your pencil.     Find a continuous real function and an open interval such that the preimage is not an open interval.    For the next few problems, if you attempt to construct counterexamples, you may rely on your previous knowledge about various functions that you encountered in high school and calculus.    Suppose is a continuous real function. If is an open set contained in , is the image always open? If so, prove it. Otherwise, provide a counterexample.      Suppose is a continuous real function. If is a closed set, is the preimage always a closed set? If so, prove it. Otherwise, provide a counterexample.      Suppose is a continuous real function. If is a closed interval contained in , is the image always a closed interval? If so, prove it. Otherwise, provide a counterexample.      Suppose is a continuous real function. If is a closed set contained in , is the image always a closed set? If so, prove it. Otherwise, provide a counterexample.      Suppose is a continuous real function. If is bounded set contained in , is the image always a bounded set? If so, prove it. Otherwise, provide a counterexample.      Suppose is a continuous real function. If is a bounded set, is the preimage always a bounded set? If so, prove it. Otherwise, provide a counterexample.      Suppose is a continuous real function. If is a compact set, is the preimage always a compact set? If so, prove it. Otherwise, provide a counterexample.      Suppose is a continuous real function. If is a connected set contained in , is the image always connected? If so, prove it. Otherwise, provide a counterexample.      Suppose is a continuous real function. If is a connected set, is the preimage always a connected set? If so, prove it. Otherwise, provide a counterexample.    Perhaps you noticed the absence of one natural question in the previous sequence of problems. If is a continuous real function and is a subset of the domain of , is the image a compact set? It turns out that the answer is yes , but proving this fact is beyond the scope of this book. This theorem is often proved in a real analysis course and is then used to prove the Extreme Value Theorem, which you may have encountered in your calculus course.  The next result is a special case of the well-known Intermediate Value Theorem , which states that if is a continuous real function whose domain contains the interval , then attains every value between and at some point within the interval . To prove the special case, utilize Theorem and Problem together with a proof by contradiction.    Suppose is a real function. If is continuous on such that or , then there exists such that .    If we generalize the previous result, we obtain the Intermediate Value Theorem.   Intermediate Value Theorem   Suppose is a real function. If is continuous on such that or for some , then there exists such that .      Is the converse of the Intermediate Value Theorem true? If so, prove it. Otherwise, provide a counterexample.      The miracle of the appropriateness of the language of mathematics for the formulation of the laws of physics is a wonderful gift which we neither understand nor deserve. We should be grateful for it and hope that it will remain valid in future research and that it will extend, for better or for worse, to our pleasure, even though perhaps also to our bafflement, to wide branches of learning.  Eugene Paul Wigner, theoretical physicist   "
 },
 {
   "id": "definition-61",
@@ -5140,13 +5365,22 @@ var ptx_lunr_docs = [
   "body": "  A real function is any function such that is a nonempty subset of .   "
 },
 {
+  "id": "p-1554",
+  "level": "2",
+  "url": "sec_Continuity.html#p-1554",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "epsilon-delta definition of continuity "
+},
+{
   "id": "def_continuity",
   "level": "2",
   "url": "sec_Continuity.html#def_continuity",
   "type": "Definition",
   "number": "8.98",
   "title": "",
-  "body": "  Suppose is a real function such that . We say that is continuous at if for every , there exists such that if and , then . If is continuous at every point in , then we say that is continuous on . If is continuous on its entire domain, we simply say that is continuous.   "
+  "body": "  Suppose is a real function such that . We say that is continuous at if for every , there exists such that if and , then . If is continuous at every point in , then we say that is continuous on . If is continuous on its entire domain, we simply say that is continuous .   "
 },
 {
   "id": "fig_continuity",
@@ -5365,6 +5599,15 @@ var ptx_lunr_docs = [
   "body": "  Suppose is a continuous real function. If is a connected set, is the preimage always a connected set? If so, prove it. Otherwise, provide a counterexample.   "
 },
 {
+  "id": "p-1599",
+  "level": "2",
+  "url": "sec_Continuity.html#p-1599",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Intermediate Value Theorem "
+},
+{
   "id": "theorem-164",
   "level": "2",
   "url": "sec_Continuity.html#theorem-164",
@@ -5398,7 +5641,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "9.1",
   "title": "Introduction to Cardinality",
-  "body": " Introduction to Cardinality  What does it mean for two sets to have the same size ? If the sets are finite, this is easy: just count how many elements are in each set. Another approach would be to pair up the elements in each set and see if there are any left over. In other words, check to see if there is a one-to-one correspondence (i.e., bijection) between the two sets.  But what if the sets are infinite? For example, consider the set of natural numbers and the set of even natural numbers . Clearly, is a proper subset of . Moreover, both sets are infinite. In this case, you might be thinking that is larger than  . However, it turns out that there is a one-to-one correspondence between these two sets. In particular, consider the function defined via . It is easily verified that is both injective and surjective. In this case, mathematics has determined that the right viewpoint is that and do have the same size . However, it is clear that size is a bit too imprecise when it comes to infinite sets. We need something more rigorous.    Let and be sets. We say that and have the same cardinality if there exists a bijection between and . In this case, we write .    Note that we have not defined by itself. Doing so would not be too difficult for finite sets, but making such a notation precise in general is tricky business. When we write (and later and ), we are asserting the existence of a certain type of function from to .  If is a bijection from to , then by Theorem , is a bijection from to . Either one of these functions can be utilized to prove that . This idea is worth keeping in mind as you tackle problems in this chapter. In particular, you might have an easier time creating a bijection between two sets in one direction over the other. This is often a limitation of the human mind as to opposed to some fundamental mathematical difficulty.    Let and . The function given by is a bijection from to , and hence . Note that this is not the only bijection from to . In fact, there are bijections from to , one of which is the function we defined above. The inverse of each bijection from to is a bijection from to . We could also use any of of these bijections to verify that .      Define via . It is easily verified that is both injective and surjective, and hence . We could also utilize the inverse function given by to show that and have the same cardinality.      Let denote the set of positive real numbers and define via . As you are likely familiar with, this exponential function is a bijection, and so . Similar to the previous example, we could also use the inverse function given by to show that these two sets have the same cardinality.    The previous two examples illustrate an important distinction between finite sets and infinite sets, namely infinite sets can be in bijection with proper subsets of themselves! Theorems and will make this idea explicit.    Let . A North-East lattice path from to is path in the plane from to consisting only steps either one unit North or one unit East. Note that every lattice path from to consists of a total of steps. Figure shows a North-East lattice path from to . Let denote the set of North-East paths from to . For example, the North-East lattice path given in Figure is an element of . A binary string of length is an ordered list of consisting of entries where each entry is either 0 or 1. For example, and are two different binary strings of length 7. Let denote the set of binary strings of length . For example, . We claim that there is a bijection between and . One such bijection is given by mapping a lattice path to the string that results by assigning each East step to 0 and each North step to 1 as we travel the path from to . Using this construction, the lattice path in Figure would get mapped to the binary string . Since no two lattice paths will map to the same string, our mapping is injective. Given a string in , it is easy to find the lattice path in that maps to it, and so our function is also surjective. Thus, our mapping is a bijection between and . We have shown that .     A North-East lattice path from to .      When approaching Part (d) of the next problem, try creating a linear function . Drawing a picture should help.    Prove each of the following. In each case, you should create a bijection between the two sets. Briefly justify that your functions are in fact bijections.                   (where and are intervals)              If is a set, do and have the same cardinality? Justify your answer.      Let denote the collection of North-East lattice paths from to that never drop below the line . These types of lattice paths are often called Dyck paths after the German mathematician Walther Franz Anton von Dyck (1856 1934). A sequence of parentheses is balanced if it can be parsed syntactically. In other words, there should be the same number of open parentheses ( and closed parentheses ) , and when reading from left to right there should never be more closed parentheses than open. For example, and are balanced parenthesizations consisting of three pairs of parentheses while and are not balanced. Let denote the collection of balanced parenthesizations consisting of pairs of parentheses. For example, .   Find all Dyck paths in .    Prove that .       For Part (b) of the next problem, start by defining so that yields a subset of determined by when outputs a 1.    Let denote the set of functions from to .   Describe at least three functions in .    Prove that and have the same cardinality.       Our first theorem concerning cardinality will likely not come as a surprise.    Let , , and be sets.    .    If , then .    If and , then .       In light of the previous theorem, the next result should not be surprising.    If is a set, then has the same cardinality as is an equivalence relation on .      Let , , , and be sets such that and .   If and are disjoint and and are disjoint, then .     .       Given two finite sets, it makes sense to say that one set is larger than another provided one set contains more elements than the other. We would like to generalize this idea to handle both finite and infinite sets.    Let and be sets. If there is an injective function from to , then we say that the cardinality of is less than or equal to the cardinality of . In this case, we write .      Let , , and be sets.   If , then .    If and , then .    If while , then .       It might be tempting to think that the existence of injective function from a set to a set that is not surjective would verify that and . While this is true for finite sets, it is not true for infinite sets as the next problem asks you to verify.    Provide an example of sets and such that despite the fact that there exists an injective function from to that is not surjective.      Let and be sets. We write if and .    As a reminder, the statements and are symbolic ways of asserting the existence of certain types of functions from to . When we write , we are saying something much stronger than ``There exists a function that is injective but not surjective.\" The statement is asserting that every injective function from to is not surjective. In general, it is difficult to prove statements like or .  \\epigraph{You will become clever through your mistakes.}{German Proverb}  "
+  "body": " Introduction to Cardinality  What does it mean for two sets to have the same size ? If the sets are finite, this is easy: just count how many elements are in each set. Another approach would be to pair up the elements in each set and see if there are any left over. In other words, check to see if there is a one-to-one correspondence (i.e., bijection) between the two sets.  But what if the sets are infinite? For example, consider the set of natural numbers and the set of even natural numbers . Clearly, is a proper subset of . Moreover, both sets are infinite. In this case, you might be thinking that is larger than  . However, it turns out that there is a one-to-one correspondence between these two sets. In particular, consider the function defined via . It is easily verified that is both injective and surjective. In this case, mathematics has determined that the right viewpoint is that and do have the same size . However, it is clear that size is a bit too imprecise when it comes to infinite sets. We need something more rigorous.    Let and be sets. We say that and have the same cardinality if there exists a bijection between and . In this case, we write .    Note that we have not defined by itself. Doing so would not be too difficult for finite sets, but making such a notation precise in general is tricky business. When we write (and later and ), we are asserting the existence of a certain type of function from to .  If is a bijection from to , then by Theorem , is a bijection from to . Either one of these functions can be utilized to prove that . This idea is worth keeping in mind as you tackle problems in this chapter. In particular, you might have an easier time creating a bijection between two sets in one direction over the other. This is often a limitation of the human mind as to opposed to some fundamental mathematical difficulty.    Let and . The function given by is a bijection from to , and hence . Note that this is not the only bijection from to . In fact, there are bijections from to , one of which is the function we defined above. The inverse of each bijection from to is a bijection from to . We could also use any of of these bijections to verify that .      Define via . It is easily verified that is both injective and surjective, and hence . We could also utilize the inverse function given by to show that and have the same cardinality.      Let denote the set of positive real numbers and define via . As you are likely familiar with, this exponential function is a bijection, and so . Similar to the previous example, we could also use the inverse function given by to show that these two sets have the same cardinality.    The previous two examples illustrate an important distinction between finite sets and infinite sets, namely infinite sets can be in bijection with proper subsets of themselves! Theorems and will make this idea explicit.    Let . A North-East lattice path from to is path in the plane from to consisting only steps either one unit North or one unit East. Note that every lattice path from to consists of a total of steps. Figure shows a North-East lattice path from to . Let denote the set of North-East paths from to . For example, the North-East lattice path given in Figure is an element of . A binary string of length is an ordered list of consisting of entries where each entry is either 0 or 1. For example, and are two different binary strings of length 7. Let denote the set of binary strings of length . For example, . We claim that there is a bijection between and . One such bijection is given by mapping a lattice path to the string that results by assigning each East step to 0 and each North step to 1 as we travel the path from to . Using this construction, the lattice path in Figure would get mapped to the binary string . Since no two lattice paths will map to the same string, our mapping is injective. Given a string in , it is easy to find the lattice path in that maps to it, and so our function is also surjective. Thus, our mapping is a bijection between and . We have shown that .     A North-East lattice path from to .      When approaching Part (d) of the next problem, try creating a linear function . Drawing a picture should help.    Prove each of the following. In each case, you should create a bijection between the two sets. Briefly justify that your functions are in fact bijections.                   (where and are intervals)              If is a set, do and have the same cardinality? Justify your answer.      Let denote the collection of North-East lattice paths from to that never drop below the line . These types of lattice paths are often called Dyck paths after the German mathematician Walther Franz Anton von Dyck (1856 1934). A sequence of parentheses is balanced if it can be parsed syntactically. In other words, there should be the same number of open parentheses ( and closed parentheses ) , and when reading from left to right there should never be more closed parentheses than open. For example, and are balanced parenthesizations consisting of three pairs of parentheses while and are not balanced. Let denote the collection of balanced parenthesizations consisting of pairs of parentheses. For example, .   Find all Dyck paths in .    Prove that .       For Part (b) of the next problem, start by defining so that yields a subset of determined by when outputs a 1.    Let denote the set of functions from to .   Describe at least three functions in .    Prove that and have the same cardinality.       Our first theorem concerning cardinality will likely not come as a surprise.    Let , , and be sets.    .    If , then .    If and , then .       In light of the previous theorem, the next result should not be surprising.    If is a set, then has the same cardinality as is an equivalence relation on .      Let , , , and be sets such that and .   If and are disjoint and and are disjoint, then .     .       Given two finite sets, it makes sense to say that one set is larger than another provided one set contains more elements than the other. We would like to generalize this idea to handle both finite and infinite sets.    Let and be sets. If there is an injective function from to , then we say that the cardinality of is less than or equal to the cardinality of . In this case, we write .      Let , , and be sets.   If , then .    If and , then .    If while , then .       It might be tempting to think that the existence of injective function from a set to a set that is not surjective would verify that and . While this is true for finite sets, it is not true for infinite sets as the next problem asks you to verify.    Provide an example of sets and such that despite the fact that there exists an injective function from to that is not surjective.      Let and be sets. We write if and .    As a reminder, the statements and are symbolic ways of asserting the existence of certain types of functions from to . When we write , we are saying something much stronger than There exists a function that is injective but not surjective. The statement is asserting that every injective function from to is not surjective. In general, it is difficult to prove statements like or .  \\epigraph{You will become clever through your mistakes.}{German Proverb}  "
 },
 {
   "id": "definition-63",
@@ -5560,7 +5803,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "9.2",
   "title": "Finite Sets",
-  "body": " Finite Sets  In the previous section, we used the phrase finite set without formally defining it. Let's be a bit more precise. The following shorthand comes in handy.    For each , define .    For example, . Notice that our notation looks just like the notation we used for equivalence classes. However, despite the similar notation, these concepts are unrelated. We will have to rely on context to keep them straight.  The next definition should coincide with your intuition about what it means for a set to be finite.    A set is finite if or for some . If , then we say that has cardinality 0 and if , then we say that has cardinality .    Let's prove a few results about finite sets. When proving the following theorems, do not forget to consider the empty set.    If is finite and , then is finite.      If has cardinality and , then is finite and has cardinality .    Consider using induction when proving the next theorem.    For every , every subset of is finite.     Theorem shows that adding a single element to a finite set increases the cardinality by 1. As you would expect, removing one element from a finite set decreases the cardinality by 1.    If has cardinality , then for all , is finite and has cardinality .    The next result tells us that the cardinality of a proper subset of a finite set is never the same as the cardinality of the original set. It turns out that this theorem does not hold for infinite sets.    Every subset of a finite set is finite. In particular, if is a finite set, then for all proper subsets of .    Induction is a sensible approach to proving the next two theorems.    If is a finite collection of finite sets, then is finite.    The next theorem, called the Pigeonhole Principle , is surprisingly useful. It puts restrictions on when we may have an injective function. The name of the theorem is inspired by the following idea: If pigeons wish to roost in a house with pigeonholes and , then it must be the case that at least one hole contains more than one pigeon. Note that 2 is the smallest value of that makes sense in the hypothesis below.   Pigeonhole Principle   If and with , then is not injective.    \\epigraph{God created infinity, and man, unable to understand infinity, had to invent finite sets.}{Gian-Carlo Rota, mathematician & philosopher}  "
+  "body": " Finite Sets  In the previous section, we used the phrase finite set without formally defining it. Let's be a bit more precise. The following shorthand comes in handy.    For each , define .    For example, . Notice that our notation looks just like the notation we used for equivalence classes. However, despite the similar notation, these concepts are unrelated. We will have to rely on context to keep them straight.  The next definition should coincide with your intuition about what it means for a set to be finite.    A set is finite if or for some . If , then we say that has cardinality and if , then we say that has cardinality .    Let's prove a few results about finite sets. When proving the following theorems, do not forget to consider the empty set.    If is finite and , then is finite.      If has cardinality and , then is finite and has cardinality .    Consider using induction when proving the next theorem.    For every , every subset of is finite.     Theorem shows that adding a single element to a finite set increases the cardinality by 1. As you would expect, removing one element from a finite set decreases the cardinality by 1.    If has cardinality , then for all , is finite and has cardinality .    The next result tells us that the cardinality of a proper subset of a finite set is never the same as the cardinality of the original set. It turns out that this theorem does not hold for infinite sets.    Every subset of a finite set is finite. In particular, if is a finite set, then for all proper subsets of .    Induction is a sensible approach to proving the next two theorems.    If is a finite collection of finite sets, then is finite.    The next theorem, called the Pigeonhole Principle , is surprisingly useful. It puts restrictions on when we may have an injective function. The name of the theorem is inspired by the following idea: If pigeons wish to roost in a house with pigeonholes and , then it must be the case that at least one hole contains more than one pigeon. Note that 2 is the smallest value of that makes sense in the hypothesis below.   Pigeonhole Principle   If and with , then is not injective.    \\epigraph{God created infinity, and man, unable to understand infinity, had to invent finite sets.}{Gian-Carlo Rota, mathematician & philosopher}  "
 },
 {
   "id": "definition-66",
@@ -5578,7 +5821,7 @@ var ptx_lunr_docs = [
   "type": "Definition",
   "number": "9.19",
   "title": "",
-  "body": "  A set is finite if or for some . If , then we say that has cardinality 0 and if , then we say that has cardinality .   "
+  "body": "  A set is finite if or for some . If , then we say that has cardinality and if , then we say that has cardinality .   "
 },
 {
   "id": "thm_finiteSetsSameCardinality",
@@ -5633,6 +5876,15 @@ var ptx_lunr_docs = [
   "number": "9.25",
   "title": "",
   "body": "  If is a finite collection of finite sets, then is finite.   "
+},
+{
+  "id": "p-1669",
+  "level": "2",
+  "url": "sec_Finite_Sets.html#p-1669",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Pigeonhole Principle "
 },
 {
   "id": "theorem-175",
@@ -5749,7 +6001,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "9.4",
   "title": "Countable Sets",
-  "body": " Countable Sets  Recall that if , then we say that has cardinality 0. Also, if for , then we say that has cardinality . We have a special way of describing sets that are in bijection with the natural numbers.    If is a set such that , then we say that is denumerable and has cardinality (read aleph naught ).    Notice if a set has cardinality , or , we can label the elements in as first , second , and so on. That is, we can count the elements in these situations. Certainly, if a set has cardinality 0, counting is not an issue. This idea leads to the following definition.    A set is called countable if is finite or denumerable. A set is called uncountable if it is not countable.      Quickly justify that each of the following sets is countable. Feel free to appeal to previous problems. Which sets are denumerable?        Set of odd natural numbers    Set of even natural numbers         Set of perfect squares in                  Utilize Theorem or Corollary when proving the next result.    Every infinite set contains a denumerable subset.      Let and be sets such that is countable. If is a bijection, then is countable.    For the next proof, consider the cases when is finite versus infinite. The contrapositive of Corollary should be useful for the case when is finite.    Every subset of a countable set is countable.      A set is countable if and only if it has the same cardinality of some subset of the natural numbers.      If is a surjective function, then is countable.    Loosely speaking, the next theorem tells us that we can arrange all of the rational numbers then count them first , second , third , etc. Given the fact that between any two distinct rational numbers on the number line, there are an infinite number of other rational numbers (justified by taking repeated midpoints), this may seem counterintuitive.  Here is one possible approach for proving the next theorem. Make a table with column headings and row headings . If a column has heading and a row has heading , then the entry in the table corresponds to the fraction . Find a way to zig-zag through the table making sure to hit every entry in the table (not including column and row headings) exactly once. This justifies that there is a bijection between and the entries in the table. Do you see why? But now notice that every rational number appears an infinite number of times in the table. Resolve this by appealing to Theorem .    The set of rational numbers is countable.      If and are countable sets, then is countable.    We would like to prove a stronger result than the previous theorem. To do so, we need an intermediate result.    Let be a collection of sets. Define and for each natural number , define .  Then we we have the following:   The collection is pairwise disjoint.     .       The next theorem states that the union of a countable collection of countable sets is countable. To prove this, consider two cases:   The collection of sets is finite.    The collection of sets is infinite.     To handle the first case, use induction together with Theorem . The second case is substantially more challenging. First, use Theorem to construct a collection of pairwise disjoint sets whose union is equal to the union of the original collection. Since each is a subset of one of the sets in the original collection and each of these sets is countable, each is also countable by Theorem . This implies that for each , we can write , where the set may be finite or infinite. From here, we outline two different approaches for continuing. One approach is to construct a bijection from to using Figure as inspiration. One thing you will need to address is what to do when a set in the collection is finite. For the second approach, define via , verify that this function is injective, and then appeal to Theorem . Try using both of these approaches when tackling the proof of the following theorem.   Inspiration for one possible approach to proving Theorem .        Let be equal to either or for some . If is a countable collection of sets such that each is countable, then is countable.    Did you use the Axiom of Choice when proving the previous theorem? If so, where?    If and are countable sets, then is countable.      The set of all finite sequences of 0's and 1's (e.g., is a finite sequence consisting of 0's and 1') is countable.      The collection of all finite subsets of a countable set is countable.    \\epigraph{Vulnerability is not winning or losing; it's having the courage to show up and be seen when we have no control over the outcome.}{Brené Brown, storyteller & author}  "
+  "body": " Countable Sets  Recall that if , then we say that has cardinality 0. Also, if for , then we say that has cardinality . We have a special way of describing sets that are in bijection with the natural numbers.    If is a set such that , then we say that is denumerable and has cardinality (read aleph naught ).    Notice if a set has cardinality , or , we can label the elements in as first , second , and so on. That is, we can count the elements in these situations. Certainly, if a set has cardinality 0, counting is not an issue. This idea leads to the following definition.    A set is called countable if is finite or denumerable. A set is called uncountable if it is not countable.      Quickly justify that each of the following sets is countable. Feel free to appeal to previous problems. Which sets are denumerable?        Set of odd natural numbers    Set of even natural numbers         Set of perfect squares in                  Utilize Theorem or Corollary when proving the next result.    Every infinite set contains a denumerable subset.      Let and be sets such that is countable. If is a bijection, then is countable.    For the next proof, consider the cases when is finite versus infinite. The contrapositive of Corollary should be useful for the case when is finite.    Every subset of a countable set is countable.      A set is countable if and only if it has the same cardinality of some subset of the natural numbers.      If is a surjective function, then is countable.    Loosely speaking, the next theorem tells us that we can arrange all of the rational numbers then count them first , second , third , etc. Given the fact that between any two distinct rational numbers on the number line, there are an infinite number of other rational numbers (justified by taking repeated midpoints), this may seem counterintuitive.  Here is one possible approach for proving the next theorem. Make a table with column headings and row headings . If a column has heading and a row has heading , then the entry in the table corresponds to the fraction . Find a way to zig-zag through the table making sure to hit every entry in the table (not including column and row headings) exactly once. This justifies that there is a bijection between and the entries in the table. Do you see why? But now notice that every rational number appears an infinite number of times in the table. Resolve this by appealing to Theorem .    The set of rational numbers is countable.      If and are countable sets, then is countable.    We would like to prove a stronger result than the previous theorem. To do so, we need an intermediate result.    Let be a collection of sets. Define and for each natural number , define .  Then we we have the following:   The collection is pairwise disjoint.     .       The next theorem states that the union of a countable collection of countable sets is countable. To prove this, consider two cases:   The collection of sets is finite.    The collection of sets is infinite.     To handle the first case, use induction together with Theorem . The second case is substantially more challenging. First, use Theorem to construct a collection of pairwise disjoint sets whose union is equal to the union of the original collection. Since each is a subset of one of the sets in the original collection and each of these sets is countable, each is also countable by Theorem . This implies that for each , we can write , where the set may be finite or infinite. From here, we outline two different approaches for continuing. One approach is to construct a bijection from to using Figure as inspiration. One thing you will need to address is what to do when a set in the collection is finite. For the second approach, define via , verify that this function is injective, and then appeal to Theorem . Try using both of these approaches when tackling the proof of the following theorem.   Inspiration for one possible approach to proving Theorem .        Let be equal to either or for some . If is a countable collection of sets such that each is countable, then is countable.    Did you use the Axiom of Choice when proving the previous theorem? If so, where?    If and are countable sets, then is countable.      The set of all finite sequences of 0's and 1's (e.g., is a finite sequence consisting of 0's and 1') is countable.      The collection of all finite subsets of a countable set is countable.      Vulnerability is not winning or losing; it's having the courage to show up and be seen when we have no control over the outcome.  Brené Brown, storyteller & author   "
 },
 {
   "id": "definition-69",
@@ -5902,7 +6154,25 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "9.5",
   "title": "Uncountable Sets",
-  "body": " Uncountable Sets  Recall from Definition that a set is uncountable if is not countable. Since all finite sets are countable, the only way a set could be uncountable is if it is infinite. It follows that a set is uncountable if and only if there is never a bijection between and . It is not clear that uncountable sets even exist! It turns out that uncountable sets do exist and in this section, we will discover a few of them.  Our first task is to prove that the interval is uncountable. By Problem (h), we know that is an infinite set, so it is at least plausible that is uncountable. The following problem outlines the proof of Theorem . Our approach is often referred to as Cantor's Diagonalization Argument , named after German mathematician Georg Cantor (1845 1918).  Before we get started, recall that every number in can be written in decimal form. However, there may be more than one way to write a given number in decimal form. For example, equals . A number in is said to be in standard decimal form if there is no such that for all , . That is, a number is in standard decimal form if and only if its decimal expansion does not end with a repeating sequence of 9's. For example, is in standard decimal form while is not, even though both represent the same number. It turns out that every real number can be expressed uniquely in standard decimal form. We will take this fact for granted.    For sake of a contradiction, assume the interval is countable. Then there exists a bijection . For each , its image under is some number in . Write , where is the first digit in the standard decimal form for the image of , is the second digit, and so on. If terminates after digits, then our convention will be to continue the decimal expansion with 0's. Now, define , where    Prove that the decimal expansion that defines above is in standard decimal form.    Prove that for all , .    Explain why cannot be surjective and why this is a contradiction.     You just proved that the interval cannot be countable!    The previous problem proves following theorem.    The open interval is uncountable.    Loosely speaking, what Theorem says is that the open interval is bigger in terms of the number of elements it contains than the natural numbers and even the rational numbers. This shows that there are infinite sets of different sizes! We now know there is at least one uncountable set, namely the interval . The next three results are useful for finding other uncountable sets. For the first theorem, try a proof by contradiction and take a look at Theorem .    If and are sets such that and is uncountable, then is uncountable.      If and are sets such that is uncountable and is countable, then is uncountable.      If is an injective function and is uncountable, then is uncountable.    Since the interval is uncountable and , it follows immediately from Theorem that is also uncountable. The next theorem tells that and actually have the same cardinality! To prove this, consider the function defined via .    The set of real numbers is uncountable. In particular, .    The continuum hypothesis originally proposed by Cantor in 1878 states that there is no set whose cardinality is strictly between that of the natural numbers and the real numbers. Cantor unsuccessfully attempted to prove the continuum hypothesis for several years. It follows from the work of Paul Cohen (1934 2007) and Kurt Gödel (1906 1978) that the continuum hypothesis and its negation are independent of the Zermelo-Fraenkel axioms of set theory (briefly discussed at the end of Section ). That is, either the continuum hypothesis or its negation can be added as an axiom to ZFC set theory, with the resulting theory being consistent if and only if ZFC is consistent (i.e., no contradictions are produced). Nowadays, most set theorists believe that the continuum hypothesis should be false.    If with , then , , , and are all uncountable.      The set of irrational numbers is uncountable.      The set of complex numbers is uncountable.      Determine whether each of the following statements is true or false. If a statement is true, prove it. Otherwise, provide a counterexample.   If and are sets such that is uncountable, then is uncountable.    If and are sets such that is uncountable, then is uncountable.    If and are sets such that is uncountable, then is uncountable.    If and are sets such that is uncountable, then is uncountable.       An approach similar to Cantor's Diagonalization Argument will be helpful when approaching the next problem.    Let be the set of infinite sequences of 0's and 1's. Determine whether is countable or uncountable and prove that your answer is correct.      If is the set from Problem , then .      The power set of the natural numbers is uncountable.    Notice that is countable while is uncountable. That is, the power set of the natural numbers has cardinality strictly larger than the natural numbers. We generalize this phenomenon in the next theorem.  According to Theorem and Corollary , and are both uncountable. In fact, , which we state without proof. However, it turns out that the two uncountable sets may or may not have the same cardinality. Perhaps surprisingly, there are sets that are even bigger than the set of real numbers. The next theorem is named after Georg Cantor, who first stated and proved it at the end of the 19th century. The theorem states that given any set, we can always increase the cardinality by considering its power set. That is, if is a set, has strictly greater cardinality than itself. For finite sets, Cantor's theorem follows from Theorems and (both of which we proved via induction). Perhaps much more surprising is that Cantor discovered an elegant argument that is applicable to any set, whether finite or infinite. To prove Cantor's Theorem, first exhibit an injective function from to . This proves that . To show that , try a proof by contradiction. That is, assume there exists a bijective function . Derive a contradiction by considering the set .   Cantor's Theorem   If is a set, then .    Recall that cardinality provides a way for talking about how big a set is. The fact that the natural numbers and the real numbers have different cardinality (one countable, the other uncountable), tells us that there are at least two different sizes of infinity . By iteratively taking the power set of an infinite set and applying Cantor's Theorem we obtain an endless hierarchy of cardinalities, each strictly larger than the one before it. Colloquially, this implies that there are infinitely many sizes of infinity and there is no largest infinity .  \\epigraph{If you want to sharpen a sword, you have to remove a little metal.}{Author Unknown}  \\appendix  "
+  "body": " Uncountable Sets  Recall from Definition that a set is uncountable if is not countable. Since all finite sets are countable, the only way a set could be uncountable is if it is infinite. It follows that a set is uncountable if and only if there is never a bijection between and . It is not clear that uncountable sets even exist! It turns out that uncountable sets do exist and in this section, we will discover a few of them.  Our first task is to prove that the interval is uncountable. By Problem (h), we know that is an infinite set, so it is at least plausible that is uncountable. The following problem outlines the proof of Theorem . Our approach is often referred to as Cantor's Diagonalization Argument , named after German mathematician Georg Cantor (1845 1918).  Before we get started, recall that every number in can be written in decimal form. However, there may be more than one way to write a given number in decimal form. For example, equals . A number in is said to be in standard decimal form if there is no such that for all , . That is, a number is in standard decimal form if and only if its decimal expansion does not end with a repeating sequence of 9's. For example, is in standard decimal form while is not, even though both represent the same number. It turns out that every real number can be expressed uniquely in standard decimal form. We will take this fact for granted.    For sake of a contradiction, assume the interval is countable. Then there exists a bijection . For each , its image under is some number in . Write , where is the first digit in the standard decimal form for the image of , is the second digit, and so on. If terminates after digits, then our convention will be to continue the decimal expansion with 0's. Now, define , where    Prove that the decimal expansion that defines above is in standard decimal form.    Prove that for all , .    Explain why cannot be surjective and why this is a contradiction.     You just proved that the interval cannot be countable!    The previous problem proves following theorem.    The open interval is uncountable.    Loosely speaking, what Theorem says is that the open interval is bigger in terms of the number of elements it contains than the natural numbers and even the rational numbers. This shows that there are infinite sets of different sizes! We now know there is at least one uncountable set, namely the interval . The next three results are useful for finding other uncountable sets. For the first theorem, try a proof by contradiction and take a look at Theorem .    If and are sets such that and is uncountable, then is uncountable.      If and are sets such that is uncountable and is countable, then is uncountable.      If is an injective function and is uncountable, then is uncountable.    Since the interval is uncountable and , it follows immediately from Theorem that is also uncountable. The next theorem tells us that and actually have the same cardinality! To prove this, consider the function defined via .    The set of real numbers is uncountable. In particular, .    The continuum hypothesis originally proposed by Cantor in 1878 states that there is no set whose cardinality is strictly between that of the natural numbers and the real numbers. Cantor unsuccessfully attempted to prove the continuum hypothesis for several years. It follows from the work of Paul Cohen (1934 2007) and Kurt Gödel (1906 1978) that the continuum hypothesis and its negation are independent of the Zermelo-Fraenkel axioms of set theory (briefly discussed at the end of Section ). That is, either the continuum hypothesis or its negation can be added as an axiom to ZFC set theory, with the resulting theory being consistent if and only if ZFC is consistent (i.e., no contradictions are produced). Nowadays, most set theorists believe that the continuum hypothesis should be false.    If with , then , , , and are all uncountable.      The set of irrational numbers is uncountable.      The set of complex numbers is uncountable.      Determine whether each of the following statements is true or false. If a statement is true, prove it. Otherwise, provide a counterexample.   If and are sets such that is uncountable, then is uncountable.    If and are sets such that is uncountable, then is uncountable.    If and are sets such that is uncountable, then is uncountable.    If and are sets such that is uncountable, then is uncountable.       An approach similar to Cantor's Diagonalization Argument will be helpful when approaching the next problem.    Let be the set of infinite sequences of 0's and 1's. Determine whether is countable or uncountable and prove that your answer is correct.      If is the set from Problem , then .      The power set of the natural numbers is uncountable.    Notice that is countable while is uncountable. That is, the power set of the natural numbers has cardinality strictly larger than the natural numbers. We generalize this phenomenon in the next theorem.  According to Theorem and Corollary , and are both uncountable. In fact, , which we state without proof. However, it turns out that the two uncountable sets may or may not have the same cardinality. Perhaps surprisingly, there are sets that are even bigger than the set of real numbers. The next theorem is named after Georg Cantor, who first stated and proved it at the end of the 19th century. The theorem states that given any set, we can always increase the cardinality by considering its power set. That is, if is a set, has strictly greater cardinality than itself. For finite sets, Cantor's theorem follows from Theorems and (both of which we proved via induction). Perhaps much more surprising is that Cantor discovered an elegant argument that is applicable to any set, whether finite or infinite. To prove Cantor's Theorem, first exhibit an injective function from to . This proves that . To show that , try a proof by contradiction. That is, assume there exists a bijective function . Derive a contradiction by considering the set .   Cantor's Theorem   If is a set, then .    Recall that cardinality provides a way for talking about how big a set is. The fact that the natural numbers and the real numbers have different cardinality (one countable, the other uncountable), tells us that there are at least two different sizes of infinity . By iteratively taking the power set of an infinite set and applying Cantor's Theorem we obtain an endless hierarchy of cardinalities, each strictly larger than the one before it. Colloquially, this implies that there are infinitely many sizes of infinity and there is no largest infinity .  \\epigraph{If you want to sharpen a sword, you have to remove a little metal.}{Author Unknown}  \\appendix  "
+},
+{
+  "id": "p-1748",
+  "level": "2",
+  "url": "sec_Uncountable_Sets.html#p-1748",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Cantor's Diagonalization Argument "
+},
+{
+  "id": "p-1749",
+  "level": "2",
+  "url": "sec_Uncountable_Sets.html#p-1749",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "standard decimal form "
 },
 {
   "id": "problem-252",
@@ -5957,6 +6227,15 @@ var ptx_lunr_docs = [
   "number": "9.58",
   "title": "",
   "body": "  The set of real numbers is uncountable. In particular, .   "
+},
+{
+  "id": "p-1763",
+  "level": "2",
+  "url": "sec_Uncountable_Sets.html#p-1763",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "continuum hypothesis "
 },
 {
   "id": "theorem-195",

@@ -324,64 +324,64 @@ window.MathJax = {
 <main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="section" id="sec_More_on_Induction"><h2 class="heading hide-type">
 <span class="type">Section</span> <span class="codenumber">4.2</span> <span class="title">More on Induction</span>
 </h2>
-<div class="para" id="p-644">In the previous section, we discussed proving statements of the form <span class="process-math">\((\forall n \in \mathbb{N}) P(n)\text{.}\)</span> Mathematical induction can actually be used to prove a broader family of results; namely, those of the form <span class="process-math">\((\forall n \in \mathbb{Z})(n \geq a \implies P(n))\)</span> for any value <span class="process-math">\(a \in \mathbb{Z}\text{.}\)</span> <a href="" class="xref" data-knowl="./knowl/thm_PMI.html" title="Theorem 4.2: Principle of Mathematical Induction">Theorem 4.2</a> handles the special case when <span class="process-math">\(a = 1\text{.}\)</span> The ladder analogy from the previous section holds for this more general situation, too. To prove the next theorem, mimic the proof of <a href="" class="xref" data-knowl="./knowl/thm_PMI.html" title="Theorem 4.2: Principle of Mathematical Induction">Theorem 4.2</a>, but this time use the set <span class="process-math">\(S=\{k\in \mathbb{N}\mid P(a+k-1) \text{ is true } \}\text{.}\)</span>
+<div class="para" id="p-645">In the previous section, we discussed proving statements of the form <span class="process-math">\((\forall n \in \mathbb{N}) P(n)\text{.}\)</span> Mathematical induction can actually be used to prove a broader family of results; namely, those of the form <span class="process-math">\((\forall n \in \mathbb{Z})(n \geq a \implies P(n))\)</span> for any value <span class="process-math">\(a \in \mathbb{Z}\text{.}\)</span> <a href="" class="xref" data-knowl="./knowl/thm_PMI.html" title="Theorem 4.2: Principle of Mathematical Induction">Theorem 4.2</a> handles the special case when <span class="process-math">\(a = 1\text{.}\)</span> The ladder analogy from the previous section holds for this more general situation, too. To prove the next theorem, mimic the proof of <a href="" class="xref" data-knowl="./knowl/thm_PMI.html" title="Theorem 4.2: Principle of Mathematical Induction">Theorem 4.2</a>, but this time use the set <span class="process-math">\(S=\{k\in \mathbb{N}\mid P(a+k-1) \text{ is true } \}\text{.}\)</span>
 </div>
 <article class="theorem theorem-like" id="thm_PMI2"><h3 class="heading">
 <span class="type">Theorem</span><span class="space"> </span><span class="codenumber">4.9</span><span class="period">.</span><span class="space"> </span><span class="title">Principle of Mathematical Induction.</span>
 </h3>
-<div class="para logical" id="p-645">
+<div class="para logical" id="p-646">
 <div class="para">Let <span class="process-math">\(P(a), P(a+1), P(a+2), \ldots\)</span> be a sequence of statements, one for each integer greater than or equal to <span class="process-math">\(a\text{.}\)</span> Assume that</div>
 <ol class="lower-alpha">
-<li id="li-272"><div class="para" id="p-646">
+<li id="li-272"><div class="para" id="p-647">
 <span class="process-math">\(P(a)\)</span> is true, and</div></li>
-<li id="li-273"><div class="para" id="p-647">for all <span class="process-math">\(k\geq a\text{,}\)</span> if <span class="process-math">\(P(k)\)</span> is true, then <span class="process-math">\(P(k+1)\)</span> is true.</div></li>
+<li id="li-273"><div class="para" id="p-648">for all <span class="process-math">\(k\geq a\text{,}\)</span> if <span class="process-math">\(P(k)\)</span> is true, then <span class="process-math">\(P(k+1)\)</span> is true.</div></li>
 </ol>
-</div> <div class="para" id="p-648">Then <span class="process-math">\(P(n)\)</span> is true for all integers <span class="process-math">\(n \geq a\text{.}\)</span>
-</div></article><div class="para" id="p-649">
-<a href="" class="xref" data-knowl="./knowl/thm_PMI2.html" title="Theorem 4.9: Principle of Mathematical Induction">Theorem 4.9</a> gives a process for proving statements of the form: “For all integers <span class="process-math">\(n\geq a\text{,}\)</span> <span class="process-math">\(P(n)\text{.}\)</span>” As before, hypothesis (i) is called the <em class="emphasis">base step</em>, and (ii) is called the <em class="emphasis">inductive step</em>.</div>
-<section class="paragraphs" id="paragraphs-12"><h3 class="heading"><span class="title">Skeleton Proof.</span></h3> <div class="para" id="p-650">[Proof of <span class="process-math">\((\forall n \in \mathbb{Z})(n \geq a \implies P(n))\)</span> by Induction] Here is the general structure for a proof by induction when the base case does not necessarily involve <span class="process-math">\(a=1\text{.}\)</span>
-</div> <article class="proof" id="proof-12"><h4 class="heading"><span class="type">Proof<span class="period">.</span></span></h4>
-<div class="para logical" id="p-651">
+</div> <div class="para" id="p-649">Then <span class="process-math">\(P(n)\)</span> is true for all integers <span class="process-math">\(n \geq a\text{.}\)</span>
+</div></article><div class="para" id="p-650">
+<a href="" class="xref" data-knowl="./knowl/thm_PMI2.html" title="Theorem 4.9: Principle of Mathematical Induction">Theorem 4.9</a> gives a process for proving statements of the form: “For all integers <span class="process-math">\(n\geq a\text{,}\)</span> <span class="process-math">\(P(n)\text{.}\)</span>” As before, hypothesis (i) is called the <dfn class="terminology">base step</dfn>, and (ii) is called the <dfn class="terminology">inductive step</dfn>.</div>
+<section class="paragraphs" id="paragraphs-12"><h3 class="heading"><span class="title">Skeleton Proof.</span></h3> <div class="para" id="p-651">[Proof of <span class="process-math">\((\forall n \in \mathbb{Z})(n \geq a \implies P(n))\)</span> by Induction] Here is the general structure for a proof by induction when the base case does not necessarily involve <span class="process-math">\(a=1\text{.}\)</span>
+</div> <article class="proof" id="proof-13"><h4 class="heading"><span class="type">Proof<span class="period">.</span></span></h4>
+<div class="para logical" id="p-652">
 <div class="para">We proceed by induction.</div>
 <ol class="decimal">
 <li id="li-274">
-<span class="heading"><span class="title">(i).</span></span><div class="para" id="p-652">Base step: <em class="emphasis">[Verify that <span class="process-math">\(P(a)\)</span> is true. This often, but not always, amounts to plugging <span class="process-math">\(n=a\)</span> into two sides of some claimed equation and <em class="emphasis">verifying</em> that both sides are actually equal.]</em>
+<span class="heading"><span class="title">(i).</span></span><div class="para" id="p-653">Base step: <em class="emphasis">[Verify that <span class="process-math">\(P(a)\)</span> is true. This often, but not always, amounts to plugging <span class="process-math">\(n=a\)</span> into two sides of some claimed equation and <em class="emphasis">verifying</em> that both sides are actually equal.]</em>
 </div>
 </li>
 <li id="li-275">
-<span class="heading"><span class="title">(ii).</span></span><div class="para" id="p-653">Inductive step: <em class="emphasis">[Your goal is to prove “For all <span class="process-math">\(k\geq a\text{,}\)</span> if <span class="process-math">\(P(k)\)</span> is true, then <span class="process-math">\(P(k+1)\)</span> is true.” ]</em> Let <span class="process-math">\(k \geq a\)</span> be an integer and assume that <span class="process-math">\(P(k)\)</span> is true. <em class="emphasis">[Do something to derive that <span class="process-math">\(P(k+1)\)</span> is true.]</em> Therefore, <span class="process-math">\(P(k+1)\)</span> is true.</div>
+<span class="heading"><span class="title">(ii).</span></span><div class="para" id="p-654">Inductive step: <em class="emphasis">[Your goal is to prove “For all <span class="process-math">\(k\geq a\text{,}\)</span> if <span class="process-math">\(P(k)\)</span> is true, then <span class="process-math">\(P(k+1)\)</span> is true.” ]</em> Let <span class="process-math">\(k \geq a\)</span> be an integer and assume that <span class="process-math">\(P(k)\)</span> is true. <em class="emphasis">[Do something to derive that <span class="process-math">\(P(k+1)\)</span> is true.]</em> Therefore, <span class="process-math">\(P(k+1)\)</span> is true.</div>
 </li>
 </ol>
-</div> <div class="para" id="p-654">Thus, by induction, <span class="process-math">\(P(n)\)</span> is true for all integers <span class="process-math">\(n \ge a\text{.}\)</span>
-</div></article></section><div class="para" id="p-655">We encountered the next theorem back in <a href="sec_PowerSets.html" class="internal" title="Section 3.3: Power Sets">Section 3.3</a> (see <a href="" class="xref" data-knowl="./knowl/conjecture_PowerSets.html" title="Problem 3.29">Conjecture 3.29</a>), but we did not prove it. When proving this theorem using induction, you will need to argue that if you add one more element to a finite set, then you end up with twice as many subsets. For your base case, consider the empty set.</div>
+</div> <div class="para" id="p-655">Thus, by induction, <span class="process-math">\(P(n)\)</span> is true for all integers <span class="process-math">\(n \ge a\text{.}\)</span>
+</div></article></section><div class="para" id="p-656">We encountered the next theorem back in <a href="sec_PowerSets.html" class="internal" title="Section 3.3: Power Sets">Section 3.3</a> (see <a href="" class="xref" data-knowl="./knowl/conjecture_PowerSets.html" title="Problem 3.29">Conjecture 3.29</a>), but we did not prove it. When proving this theorem using induction, you will need to argue that if you add one more element to a finite set, then you end up with twice as many subsets. For your base case, consider the empty set.</div>
 <article class="theorem theorem-like" id="thm_size_of_power_set_for_finite_sets"><h3 class="heading">
 <span class="type">Theorem</span><span class="space"> </span><span class="codenumber">4.10</span><span class="period">.</span>
 </h3>
-<div class="para" id="p-656">If <span class="process-math">\(A\)</span> is a finite set with <span class="process-math">\(n\)</span> elements, then <span class="process-math">\(\mathcal{P}(A)\)</span> is a set with <span class="process-math">\(2^{n}\)</span> elements.</div></article><article class="theorem theorem-like" id="thm_n_2_n"><h3 class="heading">
+<div class="para" id="p-657">If <span class="process-math">\(A\)</span> is a finite set with <span class="process-math">\(n\)</span> elements, then <span class="process-math">\(\mathcal{P}(A)\)</span> is a set with <span class="process-math">\(2^{n}\)</span> elements.</div></article><article class="theorem theorem-like" id="thm_n_2_n"><h3 class="heading">
 <span class="type">Theorem</span><span class="space"> </span><span class="codenumber">4.11</span><span class="period">.</span>
 </h3>
-<div class="para" id="p-657">For all integers <span class="process-math">\(n \ge 0\text{,}\)</span> <span class="process-math">\(n\lt 2^n\text{.}\)</span>
-</div></article><div class="para" id="p-658">One consequence of the previous two theorems is that the power set of a finite set always consists of more elements than the original set.</div>
+<div class="para" id="p-658">For all integers <span class="process-math">\(n \ge 0\text{,}\)</span> <span class="process-math">\(n\lt 2^n\text{.}\)</span>
+</div></article><div class="para" id="p-659">One consequence of the previous two theorems is that the power set of a finite set always consists of more elements than the original set.</div>
 <article class="theorem theorem-like" id="theorem-43"><h3 class="heading">
 <span class="type">Theorem</span><span class="space"> </span><span class="codenumber">4.12</span><span class="period">.</span>
 </h3>
-<div class="para" id="p-659">For all integers <span class="process-math">\(n \ge 0\text{,}\)</span> <span class="process-math">\(4\)</span> divides <span class="process-math">\(9^n - 5\text{.}\)</span>
+<div class="para" id="p-660">For all integers <span class="process-math">\(n \ge 0\text{,}\)</span> <span class="process-math">\(4\)</span> divides <span class="process-math">\(9^n - 5\text{.}\)</span>
 </div></article><article class="theorem theorem-like" id="theorem-44"><h3 class="heading">
 <span class="type">Theorem</span><span class="space"> </span><span class="codenumber">4.13</span><span class="period">.</span>
 </h3>
-<div class="para" id="p-660">For all integers <span class="process-math">\(n \ge 0\text{,}\)</span> <span class="process-math">\(4\)</span> divides <span class="process-math">\(6\cdot 7^n - 2 \cdot 3^n\text{.}\)</span>
+<div class="para" id="p-661">For all integers <span class="process-math">\(n \ge 0\text{,}\)</span> <span class="process-math">\(4\)</span> divides <span class="process-math">\(6\cdot 7^n - 2 \cdot 3^n\text{.}\)</span>
 </div></article><article class="theorem theorem-like" id="theorem-45"><h3 class="heading">
 <span class="type">Theorem</span><span class="space"> </span><span class="codenumber">4.14</span><span class="period">.</span>
 </h3>
-<div class="para" id="p-661">For all integers <span class="process-math">\(n \ge 2\text{,}\)</span> <span class="process-math">\(2^n &gt; n + 1\text{.}\)</span>
+<div class="para" id="p-662">For all integers <span class="process-math">\(n \ge 2\text{,}\)</span> <span class="process-math">\(2^n &gt; n + 1\text{.}\)</span>
 </div></article><article class="theorem theorem-like" id="theorem-46"><h3 class="heading">
 <span class="type">Theorem</span><span class="space"> </span><span class="codenumber">4.15</span><span class="period">.</span>
 </h3>
-<div class="para" id="p-662">For all integers <span class="process-math">\(n \ge 0\text{,}\)</span> <span class="process-math">\(1 + 2^1 + 2^2 + \cdots + 2^n = 2^{n+1} - 1\text{.}\)</span>
+<div class="para" id="p-663">For all integers <span class="process-math">\(n \ge 0\text{,}\)</span> <span class="process-math">\(1 + 2^1 + 2^2 + \cdots + 2^n = 2^{n+1} - 1\text{.}\)</span>
 </div></article><article class="theorem theorem-like" id="theorem-47"><h3 class="heading">
 <span class="type">Theorem</span><span class="space"> </span><span class="codenumber">4.16</span><span class="period">.</span>
 </h3>
-<div class="para logical" id="p-663">
+<div class="para logical" id="p-664">
 <div class="para">Fix a real number <span class="process-math">\(r \neq 1\text{.}\)</span> For all integers <span class="process-math">\(n \ge 0\text{,}\)</span>
 </div>
 <div class="displaymath process-math">
@@ -392,40 +392,40 @@ window.MathJax = {
 </div></article><article class="theorem theorem-like" id="theorem-48"><h3 class="heading">
 <span class="type">Theorem</span><span class="space"> </span><span class="codenumber">4.17</span><span class="period">.</span>
 </h3>
-<div class="para" id="p-664">For all integers <span class="process-math">\(n \ge 3\text{,}\)</span> <span class="process-math">\(\displaystyle{2\cdot 3 + 3 \cdot 4 + \cdots + (n-1)\cdot n = \frac{(n-2)(n^2+2n+3)}{3}}\text{.}\)</span>
+<div class="para" id="p-665">For all integers <span class="process-math">\(n \ge 3\text{,}\)</span> <span class="process-math">\(\displaystyle{2\cdot 3 + 3 \cdot 4 + \cdots + (n-1)\cdot n = \frac{(n-2)(n^2+2n+3)}{3}}\text{.}\)</span>
 </div></article><article class="theorem theorem-like" id="theorem-49"><h3 class="heading">
 <span class="type">Theorem</span><span class="space"> </span><span class="codenumber">4.18</span><span class="period">.</span>
 </h3>
-<div class="para" id="p-665">For all integers <span class="process-math">\(n \ge 1\text{,}\)</span> <span class="process-math">\(\displaystyle{\frac{1}{1\cdot 2} + \frac{1}{2\cdot 3} + \cdots + \frac{1}{n(n+1)} = \frac{n}{n+1}}\text{.}\)</span>
+<div class="para" id="p-666">For all integers <span class="process-math">\(n \ge 1\text{,}\)</span> <span class="process-math">\(\displaystyle{\frac{1}{1\cdot 2} + \frac{1}{2\cdot 3} + \cdots + \frac{1}{n(n+1)} = \frac{n}{n+1}}\text{.}\)</span>
 </div></article><article class="theorem theorem-like" id="theorem-50"><h3 class="heading">
 <span class="type">Theorem</span><span class="space"> </span><span class="codenumber">4.19</span><span class="period">.</span>
 </h3>
-<div class="para" id="p-666">For all integers <span class="process-math">\(n \ge 1\text{,}\)</span> <span class="process-math">\(\displaystyle{\frac{1}{1\cdot 3} + \frac{1}{3\cdot 5} + \frac{1}{5\cdot7} + \cdots + \frac{1}{(2n-1)(2n+1)} = \frac{n}{2n+1}}\text{.}\)</span>
+<div class="para" id="p-667">For all integers <span class="process-math">\(n \ge 1\text{,}\)</span> <span class="process-math">\(\displaystyle{\frac{1}{1\cdot 3} + \frac{1}{3\cdot 5} + \frac{1}{5\cdot7} + \cdots + \frac{1}{(2n-1)(2n+1)} = \frac{n}{2n+1}}\text{.}\)</span>
 </div></article><article class="theorem theorem-like" id="abcdefg"><h3 class="heading">
 <span class="type">Theorem</span><span class="space"> </span><span class="codenumber">4.20</span><span class="period">.</span>
 </h3>
-<div class="para" id="p-667">\label{thm:3^{2n}-1 div by 8} For all integers <span class="process-math">\(n \ge 0\text{,}\)</span> <span class="process-math">\(3^{2n}-1\)</span> is divisible by <span class="process-math">\(8\text{.}\)</span>
+<div class="para" id="p-668">\label{thm:3^{2n}-1 div by 8} For all integers <span class="process-math">\(n \ge 0\text{,}\)</span> <span class="process-math">\(3^{2n}-1\)</span> is divisible by <span class="process-math">\(8\text{.}\)</span>
 </div></article><article class="theorem theorem-like" id="theorem-52"><h3 class="heading">
 <span class="type">Theorem</span><span class="space"> </span><span class="codenumber">4.21</span><span class="period">.</span>
 </h3>
-<div class="para" id="p-668">For all integers <span class="process-math">\(n \ge 2\text{,}\)</span> <span class="process-math">\(2^n \lt (n+1)!\text{.}\)</span>
+<div class="para" id="p-669">For all integers <span class="process-math">\(n \ge 2\text{,}\)</span> <span class="process-math">\(2^n \lt (n+1)!\text{.}\)</span>
 </div></article><article class="theorem theorem-like" id="theorem-53"><h3 class="heading">
 <span class="type">Theorem</span><span class="space"> </span><span class="codenumber">4.22</span><span class="period">.</span>
 </h3>
-<div class="para" id="p-669">For all integers <span class="process-math">\(n \ge 2\text{,}\)</span> <span class="process-math">\(2\cdot 9^n - 10 \cdot 3^n\)</span> is divisible by <span class="process-math">\(4\text{.}\)</span>
-</div></article><div class="para" id="p-670">We now consider an induction problem of a different sort, where you have to begin with some experimentation. For Part (c), consider using the results from Parts (a) and (b).</div>
+<div class="para" id="p-670">For all integers <span class="process-math">\(n \ge 2\text{,}\)</span> <span class="process-math">\(2\cdot 9^n - 10 \cdot 3^n\)</span> is divisible by <span class="process-math">\(4\text{.}\)</span>
+</div></article><div class="para" id="p-671">We now consider an induction problem of a different sort, where you have to begin with some experimentation. For Part (c), consider using the results from Parts (a) and (b).</div>
 <article class="problem example-like" id="problem-81"><h3 class="heading">
 <span class="type">Problem</span><span class="space"> </span><span class="codenumber">4.23</span><span class="period">.</span>
 </h3>
-<div class="para logical" id="p-671">
-<div class="para">Suppose <span class="process-math">\(n\)</span> lines are drawn in the plane so that no two lines are parallel and no three lines intersect at any one point. Such a collection of lines is said to be in <em class="emphasis">general position</em>. Every collection of lines in general position divides the plane into disjoint regions, some of which are polygons with finite area (bounded regions) and some of which are not (unbounded regions).</div>
+<div class="para logical" id="p-672">
+<div class="para">Suppose <span class="process-math">\(n\)</span> lines are drawn in the plane so that no two lines are parallel and no three lines intersect at any one point. Such a collection of lines is said to be in <dfn class="terminology">general position</dfn>. Every collection of lines in general position divides the plane into disjoint regions, some of which are polygons with finite area (bounded regions) and some of which are not (unbounded regions).</div>
 <ol class="lower-alpha">
-<li id="li-276"><div class="para" id="p-672">Let <span class="process-math">\(R(n)\)</span> be the number of regions the plane is divided into by <span class="process-math">\(n\)</span> lines in general position. Conjecture a formula for <span class="process-math">\(R(n)\)</span> and prove that your conjecture is correct.</div></li>
-<li id="li-277"><div class="para" id="p-673">Let <span class="process-math">\(U(n)\)</span> be the number of unbounded regions the plane is divided into by <span class="process-math">\(n\)</span> lines in general position. Conjecture a formula for <span class="process-math">\(U(n)\)</span> and prove that your conjecture is correct.</div></li>
-<li id="li-278"><div class="para" id="p-674">Let <span class="process-math">\(B(n)\)</span> be the number of bounded regions the plane is divided into by <span class="process-math">\(n\)</span> lines in general position. Conjecture a formula for <span class="process-math">\(B(n)\)</span> and prove that your conjecture is correct.</div></li>
-<li id="li-279"><div class="para" id="p-675">Suppose we color each of the regions (bounded and unbounded) so that no two adjacent regions (i.e., share a common edge) have the same color. What is the fewest colors we could use to accomplish this? Prove your assertion.</div></li>
+<li id="li-276"><div class="para" id="p-673">Let <span class="process-math">\(R(n)\)</span> be the number of regions the plane is divided into by <span class="process-math">\(n\)</span> lines in general position. Conjecture a formula for <span class="process-math">\(R(n)\)</span> and prove that your conjecture is correct.</div></li>
+<li id="li-277"><div class="para" id="p-674">Let <span class="process-math">\(U(n)\)</span> be the number of unbounded regions the plane is divided into by <span class="process-math">\(n\)</span> lines in general position. Conjecture a formula for <span class="process-math">\(U(n)\)</span> and prove that your conjecture is correct.</div></li>
+<li id="li-278"><div class="para" id="p-675">Let <span class="process-math">\(B(n)\)</span> be the number of bounded regions the plane is divided into by <span class="process-math">\(n\)</span> lines in general position. Conjecture a formula for <span class="process-math">\(B(n)\)</span> and prove that your conjecture is correct.</div></li>
+<li id="li-279"><div class="para" id="p-676">Suppose we color each of the regions (bounded and unbounded) so that no two adjacent regions (i.e., share a common edge) have the same color. What is the fewest colors we could use to accomplish this? Prove your assertion.</div></li>
 </ol>
-</div></article><div class="para" id="p-676">\epigraph{If you don’t learn to fail, you will fail to learn.}{Manu Kapur, learning scientist}</div></section></div>
+</div></article><div class="para" id="p-677">\epigraph{If you don’t learn to fail, you will fail to learn.}{Manu Kapur, learning scientist}</div></section></div>
 <div class="ptx-content-footer">
 <a class="previous-button button" href="sec_Intro_to_Induction.html" title="Previous"><span class="icon">&lt;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon">^</span><span class="name">Top</span></a><a class="next-button button" href="sec_CompleteInduction.html" title="Next"><span class="name">Next</span><span class="icon">&gt;</span></a>
 </div></main>
