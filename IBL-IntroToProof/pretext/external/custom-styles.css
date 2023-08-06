@@ -10,3 +10,7 @@
     /* increment counter */
     counter-increment: elementcounter;
   }
+
+.ptx-content article.theorem-like .para, .ptx-content article.theorem-like li {
+    font-style: normal;
+}
