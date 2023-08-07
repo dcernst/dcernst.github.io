@@ -324,17 +324,17 @@ window.MathJax = {
 <main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="section" id="sec_Compositions_and_Inverse_Functions"><h2 class="heading hide-type">
 <span class="type">Section</span> <span class="codenumber">8.3</span> <span class="title">Compositions and Inverse Functions</span>
 </h2>
-<div class="para" id="p-1434">We begin this section with a method for combining two functions together that have compatible domains and codomains.</div>
+<div class="para" id="p-1422">We begin this section with a method for combining two functions together that have compatible domains and codomains.</div>
 <article class="definition definition-like" id="definition-58"><h3 class="heading">
 <span class="type">Definition</span><span class="space"> </span><span class="codenumber">8.52</span><span class="period">.</span>
 </h3>
-<div class="para" id="p-1435">If <span class="process-math">\(f:X\to Y\)</span> and <span class="process-math">\(g:Y\to Z\)</span> are functions, we define <span class="process-math">\(g\circ f:X\to Z\)</span> via <span class="process-math">\(\tcboxmath{(g\circ f)(x)=g(f(x))}\text{.}\)</span> The function <span class="process-math">\(g\circ f\)</span> is called the <dfn class="terminology">composition</dfn> of <span class="process-math">\(f\)</span> and <span class="process-math">\(g\text{.}\)</span>
-</div></article><div class="para" id="p-1436">It is important to notice that the function on the right is the one that “goes first.” Moreover, we cannot compose any two random functions since the codomain of the first function must agree with the domain of the second function. In particular, <span class="process-math">\(f\circ g\)</span> may not be a sensible function even when <span class="process-math">\(g\circ f\)</span> exists. <a href="" class="xref" data-knowl="./knowl/fig_function_composition.html" title="Figure 8.53">Figure 8.53</a> provides a visual representation of function composition in terms of function diagrams.</div>
+<div class="para" id="p-1423">If <span class="process-math">\(f:X\to Y\)</span> and <span class="process-math">\(g:Y\to Z\)</span> are functions, we define <span class="process-math">\(g\circ f:X\to Z\)</span> via <span class="process-math">\(\tcboxmath{(g\circ f)(x)=g(f(x))}\text{.}\)</span> The function <span class="process-math">\(g\circ f\)</span> is called the <dfn class="terminology">composition</dfn> of <span class="process-math">\(f\)</span> and <span class="process-math">\(g\text{.}\)</span>
+</div></article><div class="para" id="p-1424">It is important to notice that the function on the right is the one that “goes first.” Moreover, we cannot compose any two random functions since the codomain of the first function must agree with the domain of the second function. In particular, <span class="process-math">\(f\circ g\)</span> may not be a sensible function even when <span class="process-math">\(g\circ f\)</span> exists. <a href="" class="xref" data-knowl="./knowl/fig_function_composition.html" title="Figure 8.53">Figure 8.53</a> provides a visual representation of function composition in terms of function diagrams.</div>
 <figure class="figure figure-like" id="fig_function_composition"><div class="image-box" style="width: 50%; margin-left: 25%; margin-right: 25%;"><img src="generated/latex-image/function_composition.svg" role="img" class="contained"></div>
 <figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">8.53<span class="period">.</span></span><span class="space"> </span>Visual representation of function composition.</figcaption></figure><article class="problem example-like" id="problem-198"><h3 class="heading">
 <span class="type">Problem</span><span class="space"> </span><span class="codenumber">8.54</span><span class="period">.</span>
 </h3>
-<div class="para logical" id="p-1437">
+<div class="para logical" id="p-1425">
 <div class="para">Let <span class="process-math">\(X=\{1,2,3,4\}\)</span> and define <span class="process-math">\(f:X\to X\)</span> and <span class="process-math">\(g:X\to X\)</span> via</div>
 <div class="displaymath process-math">
 \begin{equation*}
@@ -347,17 +347,17 @@ f=\{(1,1),(2,3),(3,3),(4,4)\}
 g=\{(1,1),(2,2),(3,1),(4,1)\}\text{.}
 \end{equation*}
 </div>
-</div> <div class="para logical" id="p-1438">
+</div> <div class="para logical" id="p-1426">
 <div class="para">For each of the following functions, draw the corresponding function diagram in the spirit of <a href="" class="xref" data-knowl="./knowl/fig_function_composition.html" title="Figure 8.53">Figure 8.53</a> and identify the range.</div>
 <ol class="lower-alpha">
-<li id="li-528"><div class="para" id="p-1439"><span class="process-math">\(\displaystyle g\circ f\)</span></div></li>
-<li id="li-529"><div class="para" id="p-1440"><span class="process-math">\(\displaystyle f\circ g\)</span></div></li>
+<li id="li-528"><div class="para" id="p-1427"><span class="process-math">\(\displaystyle g\circ f\)</span></div></li>
+<li id="li-529"><div class="para" id="p-1428"><span class="process-math">\(\displaystyle f\circ g\)</span></div></li>
 </ol>
-</div></article><div class="para" id="p-1441">The previous problem illustrates that <span class="process-math">\(f\circ g\)</span> and <span class="process-math">\(g\circ f\)</span> need not be equal even when both composite functions exist.</div>
+</div></article><div class="para" id="p-1429">The previous problem illustrates that <span class="process-math">\(f\circ g\)</span> and <span class="process-math">\(g\circ f\)</span> need not be equal even when both composite functions exist.</div>
 <article class="example example-like" id="example-33"><h3 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">8.55</span><span class="period">.</span>
 </h3>
-<div class="para logical" id="p-1442">
+<div class="para logical" id="p-1430">
 <div class="para">Consider the inclusion map <span class="process-math">\(\iota:X\to Y\)</span> such that <span class="process-math">\(X\)</span> is a proper subset of <span class="process-math">\(Y\)</span> and suppose <span class="process-math">\(f:Y\to Z\)</span> is a function. Then the composite function <span class="process-math">\(f\circ \iota:X\to Z\)</span> is given by</div>
 <div class="displaymath process-math">
 \begin{equation*}
@@ -369,11 +369,11 @@ f\circ \iota(x)=f(\iota(x))=f(x)
 </div></article><article class="problem example-like" id="problem-199"><h3 class="heading">
 <span class="type">Problem</span><span class="space"> </span><span class="codenumber">8.56</span><span class="period">.</span>
 </h3>
-<div class="para" id="p-1443">Define <span class="process-math">\(f:\mathbb{R}\to \mathbb{R}\)</span> and <span class="process-math">\(g:\mathbb{R}\to \mathbb{R}\)</span> via <span class="process-math">\(f(x)=x^2\)</span> and <span class="process-math">\(g(x)=3x-5\text{,}\)</span> respectively. Determine formulas for the composite functions <span class="process-math">\(f\circ g\)</span> and <span class="process-math">\(g\circ f\text{.}\)</span>
+<div class="para" id="p-1431">Define <span class="process-math">\(f:\mathbb{R}\to \mathbb{R}\)</span> and <span class="process-math">\(g:\mathbb{R}\to \mathbb{R}\)</span> via <span class="process-math">\(f(x)=x^2\)</span> and <span class="process-math">\(g(x)=3x-5\text{,}\)</span> respectively. Determine formulas for the composite functions <span class="process-math">\(f\circ g\)</span> and <span class="process-math">\(g\circ f\text{.}\)</span>
 </div></article><article class="problem example-like" id="problem-200"><h3 class="heading">
 <span class="type">Problem</span><span class="space"> </span><span class="codenumber">8.57</span><span class="period">.</span>
 </h3>
-<div class="para logical" id="p-1444">
+<div class="para logical" id="p-1432">
 <div class="para">Define <span class="process-math">\(f:\mathbb{R}\to \mathbb{R}\)</span> and <span class="process-math">\(g:\mathbb{R}\to \mathbb{R}\)</span> via</div>
 <div class="displaymath process-math">
 \begin{equation*}
@@ -385,155 +385,155 @@ f(x)=\begin{cases}5x+7, \amp  \text{ if } x\lt  0\\ 2x+1, \amp  \text{ if } x\ge
 </div></article><article class="problem example-like" id="problem-201"><h3 class="heading">
 <span class="type">Problem</span><span class="space"> </span><span class="codenumber">8.58</span><span class="period">.</span>
 </h3>
-<div class="para" id="p-1445">Define <span class="process-math">\(f:\mathbb{Z}/15\mathbb{Z}\to \mathbb{Z}/23\mathbb{Z}\)</span> and <span class="process-math">\(g:\mathbb{Z}/23\mathbb{Z}\to \mathbb{Z}/32\mathbb{Z}\)</span> via <span class="process-math">\(f([x]_{15})=[3x+5]_{23}\)</span> and <span class="process-math">\(g([x]_{23})=[2x+1]_{32}\text{,}\)</span> respectively. Find a formula for the composite function <span class="process-math">\(g\circ f\text{.}\)</span>
-</div></article><div class="para" id="p-1446">The following result provides some insight into where the identity map got its name.</div>
+<div class="para" id="p-1433">Define <span class="process-math">\(f:\mathbb{Z}/15\mathbb{Z}\to \mathbb{Z}/23\mathbb{Z}\)</span> and <span class="process-math">\(g:\mathbb{Z}/23\mathbb{Z}\to \mathbb{Z}/32\mathbb{Z}\)</span> via <span class="process-math">\(f([x]_{15})=[3x+5]_{23}\)</span> and <span class="process-math">\(g([x]_{23})=[2x+1]_{32}\text{,}\)</span> respectively. Find a formula for the composite function <span class="process-math">\(g\circ f\text{.}\)</span>
+</div></article><div class="para" id="p-1434">The following result provides some insight into where the identity map got its name.</div>
 <article class="theorem theorem-like" id="theorem-147"><h3 class="heading">
 <span class="type">Theorem</span><span class="space"> </span><span class="codenumber">8.59</span><span class="period">.</span>
 </h3>
-<div class="para" id="p-1447">If <span class="process-math">\(f:X\to Y\)</span> is a function, then <span class="process-math">\(f\circ i_X = f = i_Y\circ f\text{,}\)</span> where <span class="process-math">\(i_X\)</span> and <span class="process-math">\(i_Y\)</span> are the identity maps on <span class="process-math">\(X\)</span> and <span class="process-math">\(Y\text{,}\)</span> respectively.</div></article><div class="para" id="p-1448">The next theorem tells us that function composition is associative.</div>
+<div class="para" id="p-1435">If <span class="process-math">\(f:X\to Y\)</span> is a function, then <span class="process-math">\(f\circ i_X = f = i_Y\circ f\text{,}\)</span> where <span class="process-math">\(i_X\)</span> and <span class="process-math">\(i_Y\)</span> are the identity maps on <span class="process-math">\(X\)</span> and <span class="process-math">\(Y\text{,}\)</span> respectively.</div></article><div class="para" id="p-1436">The next theorem tells us that function composition is associative.</div>
 <article class="theorem theorem-like" id="theorem-148"><h3 class="heading">
 <span class="type">Theorem</span><span class="space"> </span><span class="codenumber">8.60</span><span class="period">.</span>
 </h3>
-<div class="para" id="p-1449">If <span class="process-math">\(f:X\to Y\text{,}\)</span> <span class="process-math">\(g:Y\to Z\text{,}\)</span> and <span class="process-math">\(h:Z\to W\)</span> are functions, then <span class="process-math">\((h\circ g)\circ f = h\circ (g\circ f)\text{.}\)</span>
+<div class="para" id="p-1437">If <span class="process-math">\(f:X\to Y\text{,}\)</span> <span class="process-math">\(g:Y\to Z\text{,}\)</span> and <span class="process-math">\(h:Z\to W\)</span> are functions, then <span class="process-math">\((h\circ g)\circ f = h\circ (g\circ f)\text{.}\)</span>
 </div></article><article class="problem example-like" id="problem-202"><h3 class="heading">
 <span class="type">Problem</span><span class="space"> </span><span class="codenumber">8.61</span><span class="period">.</span>
 </h3>
-<div class="para logical" id="p-1450">
+<div class="para logical" id="p-1438">
 <div class="para">In each case, give examples of finite sets <span class="process-math">\(X\text{,}\)</span> <span class="process-math">\(Y\text{,}\)</span> and <span class="process-math">\(Z\text{,}\)</span> and functions <span class="process-math">\(f:X\to Y\)</span> and <span class="process-math">\(g:Y\to Z\)</span> that satisfy the given conditions. Drawing a function diagram is sufficient.</div>
 <ol class="lower-alpha">
-<li id="li-530"><div class="para" id="p-1451">
+<li id="li-530"><div class="para" id="p-1439">
 <span class="process-math">\(f\)</span> is surjective, but <span class="process-math">\(g\circ f\)</span> is not surjective.</div></li>
-<li id="li-531"><div class="para" id="p-1452">
+<li id="li-531"><div class="para" id="p-1440">
 <span class="process-math">\(g\)</span> is surjective, but <span class="process-math">\(g\circ f\)</span> is not surjective.</div></li>
-<li id="li-532"><div class="para" id="p-1453">
+<li id="li-532"><div class="para" id="p-1441">
 <span class="process-math">\(f\)</span> is injective, but <span class="process-math">\(g\circ f\)</span> is not injective.</div></li>
-<li id="li-533"><div class="para" id="p-1454">
+<li id="li-533"><div class="para" id="p-1442">
 <span class="process-math">\(g\)</span> is injective, but <span class="process-math">\(g\circ f\)</span> is not injective.</div></li>
 </ol>
 </div></article><article class="theorem theorem-like" id="theorem-149"><h3 class="heading">
 <span class="type">Theorem</span><span class="space"> </span><span class="codenumber">8.62</span><span class="period">.</span>
 </h3>
-<div class="para" id="p-1455">If <span class="process-math">\(f:X\to Y\)</span> and <span class="process-math">\(g:Y\to Z\)</span> are both surjective functions, then <span class="process-math">\(g\circ f\)</span> is also surjective.</div></article><article class="theorem theorem-like" id="theorem-150"><h3 class="heading">
+<div class="para" id="p-1443">If <span class="process-math">\(f:X\to Y\)</span> and <span class="process-math">\(g:Y\to Z\)</span> are both surjective functions, then <span class="process-math">\(g\circ f\)</span> is also surjective.</div></article><article class="theorem theorem-like" id="theorem-150"><h3 class="heading">
 <span class="type">Theorem</span><span class="space"> </span><span class="codenumber">8.63</span><span class="period">.</span>
 </h3>
-<div class="para" id="p-1456">If <span class="process-math">\(f:X\to Y\)</span> and <span class="process-math">\(g:Y\to Z\)</span> are both injective functions, then <span class="process-math">\(g\circ f\)</span> is also injective.</div></article><article class="corollary theorem-like" id="corollary-6"><h3 class="heading">
+<div class="para" id="p-1444">If <span class="process-math">\(f:X\to Y\)</span> and <span class="process-math">\(g:Y\to Z\)</span> are both injective functions, then <span class="process-math">\(g\circ f\)</span> is also injective.</div></article><article class="corollary theorem-like" id="corollary-6"><h3 class="heading">
 <span class="type">Corollary</span><span class="space"> </span><span class="codenumber">8.64</span><span class="period">.</span>
 </h3>
-<div class="para" id="p-1457">If <span class="process-math">\(f:X\to Y\)</span> and <span class="process-math">\(g:Y\to Z\)</span> are both bijections, then <span class="process-math">\(g\circ f\)</span> is also a bijection.</div></article><article class="problem example-like" id="problem-203"><h3 class="heading">
+<div class="para" id="p-1445">If <span class="process-math">\(f:X\to Y\)</span> and <span class="process-math">\(g:Y\to Z\)</span> are both bijections, then <span class="process-math">\(g\circ f\)</span> is also a bijection.</div></article><article class="problem example-like" id="problem-203"><h3 class="heading">
 <span class="type">Problem</span><span class="space"> </span><span class="codenumber">8.65</span><span class="period">.</span>
 </h3>
-<div class="para logical" id="p-1458">
+<div class="para logical" id="p-1446">
 <div class="para">Assume that <span class="process-math">\(f:X\to Y\)</span> and <span class="process-math">\(g:Y\to Z\)</span> are both functions. Determine whether each of the following statements is true or false. If a statement is true, prove it. Otherwise, provide a counterexample.</div>
 <ol class="lower-alpha">
-<li id="li-534"><div class="para" id="p-1459">If <span class="process-math">\(g\circ f\)</span> is injective, then <span class="process-math">\(f\)</span> is injective.</div></li>
-<li id="li-535"><div class="para" id="p-1460">If <span class="process-math">\(g\circ f\)</span> is injective, then <span class="process-math">\(g\)</span> is injective.</div></li>
-<li id="li-536"><div class="para" id="p-1461">If <span class="process-math">\(g\circ f\)</span> is surjective, then <span class="process-math">\(f\)</span> is surjective.</div></li>
-<li id="li-537"><div class="para" id="p-1462">If <span class="process-math">\(g\circ f\)</span> is surjective, then <span class="process-math">\(g\)</span> is surjective.</div></li>
+<li id="li-534"><div class="para" id="p-1447">If <span class="process-math">\(g\circ f\)</span> is injective, then <span class="process-math">\(f\)</span> is injective.</div></li>
+<li id="li-535"><div class="para" id="p-1448">If <span class="process-math">\(g\circ f\)</span> is injective, then <span class="process-math">\(g\)</span> is injective.</div></li>
+<li id="li-536"><div class="para" id="p-1449">If <span class="process-math">\(g\circ f\)</span> is surjective, then <span class="process-math">\(f\)</span> is surjective.</div></li>
+<li id="li-537"><div class="para" id="p-1450">If <span class="process-math">\(g\circ f\)</span> is surjective, then <span class="process-math">\(g\)</span> is surjective.</div></li>
 </ol>
 </div></article><article class="theorem theorem-like" id="theorem-151"><h3 class="heading">
 <span class="type">Theorem</span><span class="space"> </span><span class="codenumber">8.66</span><span class="period">.</span>
 </h3>
-<div class="para" id="p-1463">Let <span class="process-math">\(f:X\to Y\)</span> be a function. Then <span class="process-math">\(f\)</span> is injective if and only if there exists a function <span class="process-math">\(g:Y\to X\)</span> such that <span class="process-math">\(g\circ f=i_X\text{,}\)</span> where <span class="process-math">\(i_X\)</span> is the identity map on <span class="process-math">\(X\text{.}\)</span>
-</div></article><div class="para" id="p-1464">The function <span class="process-math">\(g\)</span> in the previous theorem is often called a <dfn class="terminology">left inverse</dfn> of <span class="process-math">\(f\text{.}\)</span>
+<div class="para" id="p-1451">Let <span class="process-math">\(f:X\to Y\)</span> be a function. Then <span class="process-math">\(f\)</span> is injective if and only if there exists a function <span class="process-math">\(g:Y\to X\)</span> such that <span class="process-math">\(g\circ f=i_X\text{,}\)</span> where <span class="process-math">\(i_X\)</span> is the identity map on <span class="process-math">\(X\text{.}\)</span>
+</div></article><div class="para" id="p-1452">The function <span class="process-math">\(g\)</span> in the previous theorem is often called a <dfn class="terminology">left inverse</dfn> of <span class="process-math">\(f\text{.}\)</span>
 </div>
 <article class="theorem theorem-like" id="theorem-152"><h3 class="heading">
 <span class="type">Theorem</span><span class="space"> </span><span class="codenumber">8.67</span><span class="period">.</span>
 </h3>
-<div class="para" id="p-1465">Let <span class="process-math">\(f:X\to Y\)</span> be a function. Then <span class="process-math">\(f\)</span> is surjective if and only if there exists a function <span class="process-math">\(g:Y\to X\)</span> such that <span class="process-math">\(f\circ g=i_Y\text{,}\)</span> where <span class="process-math">\(i_Y\)</span> is the identity map on <span class="process-math">\(Y\text{.}\)</span>
-</div></article><div class="para" id="p-1466">The function <span class="process-math">\(g\)</span> in the previous theorem is often called a <dfn class="terminology">right inverse</dfn> of <span class="process-math">\(f\text{.}\)</span>
+<div class="para" id="p-1453">Let <span class="process-math">\(f:X\to Y\)</span> be a function. Then <span class="process-math">\(f\)</span> is surjective if and only if there exists a function <span class="process-math">\(g:Y\to X\)</span> such that <span class="process-math">\(f\circ g=i_Y\text{,}\)</span> where <span class="process-math">\(i_Y\)</span> is the identity map on <span class="process-math">\(Y\text{.}\)</span>
+</div></article><div class="para" id="p-1454">The function <span class="process-math">\(g\)</span> in the previous theorem is often called a <dfn class="terminology">right inverse</dfn> of <span class="process-math">\(f\text{.}\)</span>
 </div>
 <article class="problem example-like" id="problem-204"><h3 class="heading">
 <span class="type">Problem</span><span class="space"> </span><span class="codenumber">8.68</span><span class="period">.</span>
 </h3>
-<div class="para logical" id="p-1467">
+<div class="para logical" id="p-1455">
 <div class="para">Complete each of the following. Consider using finite sets and drawing a function diagram to define your functions.</div>
 <ol class="lower-alpha">
-<li id="li-538"><div class="para" id="p-1468">Provide an example of a function that has a left inverse but does not have a right inverse. Find the left inverse of your proposed function.</div></li>
-<li id="li-539"><div class="para" id="p-1469">Provide an example of a function that has a right inverse but does not have a left inverse. Find the right inverse of your proposed function.</div></li>
+<li id="li-538"><div class="para" id="p-1456">Provide an example of a function that has a left inverse but does not have a right inverse. Find the left inverse of your proposed function.</div></li>
+<li id="li-539"><div class="para" id="p-1457">Provide an example of a function that has a right inverse but does not have a left inverse. Find the right inverse of your proposed function.</div></li>
 </ol>
 </div></article><article class="problem example-like" id="problem-205"><h3 class="heading">
 <span class="type">Problem</span><span class="space"> </span><span class="codenumber">8.69</span><span class="period">.</span>
 </h3>
-<div class="para" id="p-1470">Define <span class="process-math">\(f:\mathbb{R}\to\mathbb{R}\)</span> via <span class="process-math">\(f(x)=x^2\text{.}\)</span> Explain why <span class="process-math">\(f\)</span> does not have a left inverse nor a right inverse.</div></article><article class="problem example-like" id="problem-206"><h3 class="heading">
+<div class="para" id="p-1458">Define <span class="process-math">\(f:\mathbb{R}\to\mathbb{R}\)</span> via <span class="process-math">\(f(x)=x^2\text{.}\)</span> Explain why <span class="process-math">\(f\)</span> does not have a left inverse nor a right inverse.</div></article><article class="problem example-like" id="problem-206"><h3 class="heading">
 <span class="type">Problem</span><span class="space"> </span><span class="codenumber">8.70</span><span class="period">.</span>
 </h3>
-<div class="para logical" id="p-1471">
+<div class="para logical" id="p-1459">
 <div class="para">Define <span class="process-math">\(f:\mathbb{R}\to[0,\infty)\)</span> via <span class="process-math">\(f(x)=x^2\)</span> and <span class="process-math">\(g:[0,\infty)\to \mathbb{R}\)</span> via <span class="process-math">\(g(x)=\sqrt{x}\text{.}\)</span>
 </div>
 <ol class="lower-alpha">
-<li id="li-540"><div class="para" id="p-1472">Explain why <span class="process-math">\(f\)</span> does not have a left inverse.</div></li>
-<li id="li-541"><div class="para" id="p-1473">Verify that <span class="process-math">\(g\)</span> is the right inverse of <span class="process-math">\(f\)</span> by computing <span class="process-math">\(f\circ g(x)\text{.}\)</span>
+<li id="li-540"><div class="para" id="p-1460">Explain why <span class="process-math">\(f\)</span> does not have a left inverse.</div></li>
+<li id="li-541"><div class="para" id="p-1461">Verify that <span class="process-math">\(g\)</span> is the right inverse of <span class="process-math">\(f\)</span> by computing <span class="process-math">\(f\circ g(x)\text{.}\)</span>
 </div></li>
 </ol>
 </div></article><article class="corollary theorem-like" id="cor_two-sided_inverse"><h3 class="heading">
 <span class="type">Corollary</span><span class="space"> </span><span class="codenumber">8.71</span><span class="period">.</span>
 </h3>
-<div class="para" id="p-1474">If <span class="process-math">\(f:X\to Y\)</span> and <span class="process-math">\(g:Y\to X\)</span> are functions satisfying <span class="process-math">\(g\circ f=i_X\)</span> and <span class="process-math">\(f\circ g=i_Y\text{,}\)</span> then <span class="process-math">\(f\)</span> is a bijection.</div></article><div class="para" id="p-1475">In the previous result, the functions <span class="process-math">\(f\)</span> and <span class="process-math">\(g\)</span> “cancel” each other out. In this case, we say that <span class="process-math">\(g\)</span> is a <dfn class="terminology">two-sided inverse</dfn> of <span class="process-math">\(f\text{.}\)</span>
+<div class="para" id="p-1462">If <span class="process-math">\(f:X\to Y\)</span> and <span class="process-math">\(g:Y\to X\)</span> are functions satisfying <span class="process-math">\(g\circ f=i_X\)</span> and <span class="process-math">\(f\circ g=i_Y\text{,}\)</span> then <span class="process-math">\(f\)</span> is a bijection.</div></article><div class="para" id="p-1463">In the previous result, the functions <span class="process-math">\(f\)</span> and <span class="process-math">\(g\)</span> “cancel” each other out. In this case, we say that <span class="process-math">\(g\)</span> is a <dfn class="terminology">two-sided inverse</dfn> of <span class="process-math">\(f\text{.}\)</span>
 </div>
 <article class="definition definition-like" id="def_inverse_of_a_function"><h3 class="heading">
 <span class="type">Definition</span><span class="space"> </span><span class="codenumber">8.72</span><span class="period">.</span>
 </h3>
-<div class="para logical" id="p-1476">
+<div class="para logical" id="p-1464">
 <div class="para">Let <span class="process-math">\(f:X\to Y\)</span> be a function. The relation <span class="process-math">\(f^{-1}\)</span> from <span class="process-math">\(Y\)</span> to <span class="process-math">\(X\text{,}\)</span> called <span class="process-math">\(f\)</span> <dfn class="terminology">inverse</dfn>, is defined via</div>
 <div class="displaymath process-math">
 \begin{equation*}
 \tcboxmath{f^{-1}=\{(f(x),x)\in Y\times X\mid x\in X\}}\text{.}
 \end{equation*}
 </div>
-</div></article><div class="para" id="p-1477">Notice that we called <span class="process-math">\(f^{-1}\)</span> a relation and not a function. In some circumstances <span class="process-math">\(f^{-1}\)</span> will be a function and sometimes it will not be. Given a function <span class="process-math">\(f\text{,}\)</span> the inverse relation is simply the set of ordered pairs that results from reversing the ordered pairs in <span class="process-math">\(f\text{.}\)</span> It is worth pointing out that we have only defined inverse relations for functions. However, one can easily adapt our definition to handle arbitrary relations.</div>
+</div></article><div class="para" id="p-1465">Notice that we called <span class="process-math">\(f^{-1}\)</span> a relation and not a function. In some circumstances <span class="process-math">\(f^{-1}\)</span> will be a function and sometimes it will not be. Given a function <span class="process-math">\(f\text{,}\)</span> the inverse relation is simply the set of ordered pairs that results from reversing the ordered pairs in <span class="process-math">\(f\text{.}\)</span> It is worth pointing out that we have only defined inverse relations for functions. However, one can easily adapt our definition to handle arbitrary relations.</div>
 <article class="problem example-like" id="problem-207"><h3 class="heading">
 <span class="type">Problem</span><span class="space"> </span><span class="codenumber">8.73</span><span class="period">.</span>
 </h3>
-<div class="para" id="p-1478">Consider the function <span class="process-math">\(f\)</span> given in <a href="" class="xref" data-knowl="./knowl/ex_function.html" title="Example 8.2">Example 8.2</a> (see <a href="" class="xref" data-knowl="./knowl/fig_function_diagram.html" title="Figure 8.3">Figure 8.3</a>). List the ordered pairs in the relation <span class="process-math">\(f^{-1}\)</span> and draw the corresponding digraph. Is <span class="process-math">\(f^{-1}\)</span> a function?</div></article><article class="problem example-like" id="problem-208"><h3 class="heading">
+<div class="para" id="p-1466">Consider the function <span class="process-math">\(f\)</span> given in <a href="" class="xref" data-knowl="./knowl/ex_function.html" title="Example 8.2">Example 8.2</a> (see <a href="" class="xref" data-knowl="./knowl/fig_function_diagram.html" title="Figure 8.3">Figure 8.3</a>). List the ordered pairs in the relation <span class="process-math">\(f^{-1}\)</span> and draw the corresponding digraph. Is <span class="process-math">\(f^{-1}\)</span> a function?</div></article><article class="problem example-like" id="problem-208"><h3 class="heading">
 <span class="type">Problem</span><span class="space"> </span><span class="codenumber">8.74</span><span class="period">.</span>
 </h3>
-<div class="para" id="p-1479">Provide an example of a function <span class="process-math">\(f:X\to Y\)</span> such that <span class="process-math">\(f^{-1}\)</span> is a function. Drawing a function diagram is sufficient.</div></article><article class="problem example-like" id="problem-209"><h3 class="heading">
+<div class="para" id="p-1467">Provide an example of a function <span class="process-math">\(f:X\to Y\)</span> such that <span class="process-math">\(f^{-1}\)</span> is a function. Drawing a function diagram is sufficient.</div></article><article class="problem example-like" id="problem-209"><h3 class="heading">
 <span class="type">Problem</span><span class="space"> </span><span class="codenumber">8.75</span><span class="period">.</span>
 </h3>
-<div class="para" id="p-1480">Suppose <span class="process-math">\(X\subseteq \mathbb{R}\)</span> and <span class="process-math">\(f:X\to \mathbb{R}\)</span> is a function. What is the relationship between the graph of the function <span class="process-math">\(f\)</span> and the graph of the inverse relation <span class="process-math">\(f^{-1}\text{?}\)</span>
+<div class="para" id="p-1468">Suppose <span class="process-math">\(X\subseteq \mathbb{R}\)</span> and <span class="process-math">\(f:X\to \mathbb{R}\)</span> is a function. What is the relationship between the graph of the function <span class="process-math">\(f\)</span> and the graph of the inverse relation <span class="process-math">\(f^{-1}\text{?}\)</span>
 </div></article><article class="theorem theorem-like" id="thm_inverse_function_iff_bijection"><h3 class="heading">
 <span class="type">Theorem</span><span class="space"> </span><span class="codenumber">8.76</span><span class="period">.</span>
 </h3>
-<div class="para" id="p-1481">Let <span class="process-math">\(f:X\to Y\)</span> be a function. Then <span class="process-math">\(f^{-1}:Y\to X\)</span> is a function if and only if <span class="process-math">\(f\)</span> is a bijection.</div></article><article class="problem example-like" id="problem-210"><h3 class="heading">
+<div class="para" id="p-1469">Let <span class="process-math">\(f:X\to Y\)</span> be a function. Then <span class="process-math">\(f^{-1}:Y\to X\)</span> is a function if and only if <span class="process-math">\(f\)</span> is a bijection.</div></article><article class="problem example-like" id="problem-210"><h3 class="heading">
 <span class="type">Problem</span><span class="space"> </span><span class="codenumber">8.77</span><span class="period">.</span>
 </h3>
-<div class="para" id="p-1482">Suppose <span class="process-math">\(f:\mathbb{R}\to \mathbb{R}\)</span> is a function. Fill in the blank with the appropriate phrase.</div> <blockquote class="blockquote" id="blockquote-25">The relation <span class="process-math">\(f^{-1}\)</span> is a function if and only if every horizontal line hits the graph of <span class="process-math">\(f\)</span>  <code class="code-inline tex2jax_ignore">                  </code>.</blockquote> <div class="para" id="p-1483">Explain why this statement is true.</div></article><article class="theorem theorem-like" id="thm_comp_of_inverses"><h3 class="heading">
+<div class="para" id="p-1470">Suppose <span class="process-math">\(f:\mathbb{R}\to \mathbb{R}\)</span> is a function. Fill in the blank with the appropriate phrase.</div> <blockquote class="blockquote" id="blockquote-46">The relation <span class="process-math">\(f^{-1}\)</span> is a function if and only if every horizontal line hits the graph of <span class="process-math">\(f\)</span>  <code class="code-inline tex2jax_ignore">                  </code>.</blockquote> <div class="para" id="p-1471">Explain why this statement is true.</div></article><article class="theorem theorem-like" id="thm_comp_of_inverses"><h3 class="heading">
 <span class="type">Theorem</span><span class="space"> </span><span class="codenumber">8.78</span><span class="period">.</span>
 </h3>
-<div class="para logical" id="p-1484">
+<div class="para logical" id="p-1472">
 <div class="para">If <span class="process-math">\(f:X\to Y\)</span> is a bijection, then</div>
 <ol class="lower-alpha">
-<li id="li-542"><div class="para" id="p-1485">
+<li id="li-542"><div class="para" id="p-1473">
 <span class="process-math">\(f^{-1}\circ f=i_X\text{,}\)</span> and</div></li>
-<li id="li-543"><div class="para" id="p-1486"><span class="process-math">\(f\circ f^{-1}=i_Y\text{.}\)</span></div></li>
+<li id="li-543"><div class="para" id="p-1474"><span class="process-math">\(f\circ f^{-1}=i_Y\text{.}\)</span></div></li>
 </ol>
 </div></article><article class="theorem theorem-like" id="thm_f_inverse_bijection"><h3 class="heading">
 <span class="type">Theorem</span><span class="space"> </span><span class="codenumber">8.79</span><span class="period">.</span>
 </h3>
-<div class="para" id="p-1487">If <span class="process-math">\(f:X\to Y\)</span> is a bijection, then <span class="process-math">\(f^{-1}:Y\to X\)</span> is also a bijection.</div></article><article class="theorem theorem-like" id="thm_unique_inverse"><h3 class="heading">
+<div class="para" id="p-1475">If <span class="process-math">\(f:X\to Y\)</span> is a bijection, then <span class="process-math">\(f^{-1}:Y\to X\)</span> is also a bijection.</div></article><article class="theorem theorem-like" id="thm_unique_inverse"><h3 class="heading">
 <span class="type">Theorem</span><span class="space"> </span><span class="codenumber">8.80</span><span class="period">.</span>
 </h3>
-<div class="para" id="p-1488">If <span class="process-math">\(f:X\to Y\)</span> and <span class="process-math">\(g:Y\to X\)</span> are functions such that <span class="process-math">\(g\circ f=i_X\)</span> and <span class="process-math">\(f\circ g=i_Y\text{,}\)</span> then <span class="process-math">\(f^{-1}\)</span> is a function and <span class="process-math">\(g=f^{-1}\text{.}\)</span>
-</div></article><div class="para" id="p-1489">The upshot of <a href="" class="xref" data-knowl="./knowl/thm_comp_of_inverses.html" title="Theorem 8.78">Theorems 8.78</a> and <a href="" class="xref" data-knowl="./knowl/thm_unique_inverse.html" title="Theorem 8.80">Theorem 8.80</a> is that if <span class="process-math">\(f^{-1}\)</span> is a function, then it is the only one satisfying the two-sided inverse property exhibited in <a href="" class="xref" data-knowl="./knowl/cor_two-sided_inverse.html" title="Corollary 8.71">Corollary 8.71</a> and <a href="" class="xref" data-knowl="./knowl/thm_comp_of_inverses.html" title="Theorem 8.78">Theorem 8.78</a>. That is, inverse functions are unique when they exist. When the relation <span class="process-math">\(f^{-1}\)</span> is a function, we call it the <dfn class="terminology">inverse function</dfn> of <span class="process-math">\(f\text{.}\)</span>
+<div class="para" id="p-1476">If <span class="process-math">\(f:X\to Y\)</span> and <span class="process-math">\(g:Y\to X\)</span> are functions such that <span class="process-math">\(g\circ f=i_X\)</span> and <span class="process-math">\(f\circ g=i_Y\text{,}\)</span> then <span class="process-math">\(f^{-1}\)</span> is a function and <span class="process-math">\(g=f^{-1}\text{.}\)</span>
+</div></article><div class="para" id="p-1477">The upshot of <a href="" class="xref" data-knowl="./knowl/thm_comp_of_inverses.html" title="Theorem 8.78">Theorems 8.78</a> and <a href="" class="xref" data-knowl="./knowl/thm_unique_inverse.html" title="Theorem 8.80">Theorem 8.80</a> is that if <span class="process-math">\(f^{-1}\)</span> is a function, then it is the only one satisfying the two-sided inverse property exhibited in <a href="" class="xref" data-knowl="./knowl/cor_two-sided_inverse.html" title="Corollary 8.71">Corollary 8.71</a> and <a href="" class="xref" data-knowl="./knowl/thm_comp_of_inverses.html" title="Theorem 8.78">Theorem 8.78</a>. That is, inverse functions are unique when they exist. When the relation <span class="process-math">\(f^{-1}\)</span> is a function, we call it the <dfn class="terminology">inverse function</dfn> of <span class="process-math">\(f\text{.}\)</span>
 </div>
 <article class="problem example-like" id="problem-211"><h3 class="heading">
 <span class="type">Problem</span><span class="space"> </span><span class="codenumber">8.81</span><span class="period">.</span>
 </h3>
-<div class="para" id="p-1490">Let <span class="process-math">\(X\subseteq\mathbb{R}\)</span> and suppose <span class="process-math">\(f:X\to\mathbb{R}\)</span> is a function. Explain the difference between <span class="process-math">\(f^{-1}(x)\)</span> and <span class="process-math">\([f(x)]^{-1}\text{.}\)</span> When does each exist?</div></article><article class="problem example-like" id="problem-212"><h3 class="heading">
+<div class="para" id="p-1478">Let <span class="process-math">\(X\subseteq\mathbb{R}\)</span> and suppose <span class="process-math">\(f:X\to\mathbb{R}\)</span> is a function. Explain the difference between <span class="process-math">\(f^{-1}(x)\)</span> and <span class="process-math">\([f(x)]^{-1}\text{.}\)</span> When does each exist?</div></article><article class="problem example-like" id="problem-212"><h3 class="heading">
 <span class="type">Problem</span><span class="space"> </span><span class="codenumber">8.82</span><span class="period">.</span>
 </h3>
-<div class="para" id="p-1491">Let <span class="process-math">\(X,Y\subseteq\mathbb{R}\)</span> and define <span class="process-math">\(f:X\to Y\)</span> via <span class="process-math">\(f(x)=e^x\)</span> and <span class="process-math">\(g:Y\to X\)</span> via <span class="process-math">\(g(x)=\ln(x)\text{.}\)</span> Identify the largest possible choices for <span class="process-math">\(X\)</span> and <span class="process-math">\(Y\)</span> so that <span class="process-math">\(f\)</span> and <span class="process-math">\(g\)</span> are inverses of each other.</div></article><article class="theorem theorem-like" id="thm_inverse_of_inverse"><h3 class="heading">
+<div class="para" id="p-1479">Let <span class="process-math">\(X,Y\subseteq\mathbb{R}\)</span> and define <span class="process-math">\(f:X\to Y\)</span> via <span class="process-math">\(f(x)=e^x\)</span> and <span class="process-math">\(g:Y\to X\)</span> via <span class="process-math">\(g(x)=\ln(x)\text{.}\)</span> Identify the largest possible choices for <span class="process-math">\(X\)</span> and <span class="process-math">\(Y\)</span> so that <span class="process-math">\(f\)</span> and <span class="process-math">\(g\)</span> are inverses of each other.</div></article><article class="theorem theorem-like" id="thm_inverse_of_inverse"><h3 class="heading">
 <span class="type">Theorem</span><span class="space"> </span><span class="codenumber">8.83</span><span class="period">.</span>
 </h3>
-<div class="para" id="p-1492">If <span class="process-math">\(f:X\to Y\)</span> is a bijection, then <span class="process-math">\((f^{-1})^{-1}=f\text{.}\)</span>
-</div></article><div class="para" id="p-1493">In the previous theorem, we restricted our attention to bijections so that <span class="process-math">\(f^{-1}\)</span> would be a function, thus making <span class="process-math">\((f^{-1})^{-1}\)</span> a sensible inverse relation in light of <a href="" class="xref" data-knowl="./knowl/def_inverse_of_a_function.html" title="Definition 8.72">Definition 8.72</a>. If we had defined inverses for arbitrary relations, then we would not have needed to require the function in <a href="" class="xref" data-knowl="./knowl/thm_inverse_of_inverse.html" title="Theorem 8.83">Theorem 8.83</a> to be a bijection. In fact, we do not even need to require the relation to be a function. That is, if <span class="process-math">\(R\)</span> is a relation from <span class="process-math">\(X\)</span> to <span class="process-math">\(Y\text{,}\)</span> then <span class="process-math">\((R^{-1})^{-1}=R\text{,}\)</span> as expected. Similarly, the next result generalizes to arbitrary relations.</div>
+<div class="para" id="p-1480">If <span class="process-math">\(f:X\to Y\)</span> is a bijection, then <span class="process-math">\((f^{-1})^{-1}=f\text{.}\)</span>
+</div></article><div class="para" id="p-1481">In the previous theorem, we restricted our attention to bijections so that <span class="process-math">\(f^{-1}\)</span> would be a function, thus making <span class="process-math">\((f^{-1})^{-1}\)</span> a sensible inverse relation in light of <a href="" class="xref" data-knowl="./knowl/def_inverse_of_a_function.html" title="Definition 8.72">Definition 8.72</a>. If we had defined inverses for arbitrary relations, then we would not have needed to require the function in <a href="" class="xref" data-knowl="./knowl/thm_inverse_of_inverse.html" title="Theorem 8.83">Theorem 8.83</a> to be a bijection. In fact, we do not even need to require the relation to be a function. That is, if <span class="process-math">\(R\)</span> is a relation from <span class="process-math">\(X\)</span> to <span class="process-math">\(Y\text{,}\)</span> then <span class="process-math">\((R^{-1})^{-1}=R\text{,}\)</span> as expected. Similarly, the next result generalizes to arbitrary relations.</div>
 <article class="theorem theorem-like" id="theorem-158"><h3 class="heading">
 <span class="type">Theorem</span><span class="space"> </span><span class="codenumber">8.84</span><span class="period">.</span>
 </h3>
-<div class="para" id="p-1494">If <span class="process-math">\(f:X\to Y\)</span> and <span class="process-math">\(g:Y\to Z\)</span> are both bijections, then <span class="process-math">\((g\circ f)^{-1}=f^{-1}\circ g^{-1}\text{.}\)</span>
-</div></article><div class="para" id="p-1495">The previous theorem is sometimes referred to as the “socks and shoes theorem”. Do you see how it got this name?</div>
-<blockquote class="blockquote" id="blockquote-26">
-<div class="para" id="p-1496">The most difficult thing is the decision to act. The rest is merely tenacity.</div> <cite class="attribution">―Amelia Earhart, aviation pioneer</cite>
+<div class="para" id="p-1482">If <span class="process-math">\(f:X\to Y\)</span> and <span class="process-math">\(g:Y\to Z\)</span> are both bijections, then <span class="process-math">\((g\circ f)^{-1}=f^{-1}\circ g^{-1}\text{.}\)</span>
+</div></article><div class="para" id="p-1483">The previous theorem is sometimes referred to as the “socks and shoes theorem”. Do you see how it got this name?</div>
+<blockquote class="blockquote" id="blockquote-47">
+<div class="para" id="p-1484">The most difficult thing is the decision to act. The rest is merely tenacity.</div> <cite class="attribution">―Amelia Earhart, aviation pioneer</cite>
 </blockquote></section></div>
 <div class="ptx-content-footer">
 <a class="previous-button button" href="sec_Injective_and_Surjective_Functions.html" title="Previous"><span class="icon">&lt;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon">^</span><span class="name">Top</span></a><a class="next-button button" href="sec_Images_and_Preimages.html" title="Next"><span class="name">Next</span><span class="icon">&gt;</span></a>

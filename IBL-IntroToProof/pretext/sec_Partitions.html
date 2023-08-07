@@ -324,72 +324,72 @@ window.MathJax = {
 <main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="section" id="sec_Partitions"><h2 class="heading hide-type">
 <span class="type">Section</span> <span class="codenumber">7.3</span> <span class="title">Partitions</span>
 </h2>
-<div class="para" id="p-1162">
+<div class="para" id="p-1150">
 <a href="" class="xref" data-knowl="./knowl/thm_related_if_and_only_if_same_class.html" title="Theorem 7.42">Theorems 7.42</a> and <a href="" class="xref" data-knowl="./knowl/thm_equiv_yields_partition.html" title="Theorem 7.43">Theorem 7.43</a> imply that if <span class="process-math">\(\sim\)</span> is an equivalence relation on a set <span class="process-math">\(A\text{,}\)</span> then <span class="process-math">\(\sim\)</span> breaks <span class="process-math">\(A\)</span> up into pairwise disjoint “chunks”, where each chunk is some <span class="process-math">\([a]\)</span> for <span class="process-math">\(a\in A\text{.}\)</span> As you have probably already noticed, equivalence relations are intimately related to the following concept.</div>
 <article class="definition definition-like" id="def_partition"><h3 class="heading">
 <span class="type">Definition</span><span class="space"> </span><span class="codenumber">7.51</span><span class="period">.</span>
 </h3>
-<div class="para logical" id="p-1163">
+<div class="para logical" id="p-1151">
 <div class="para">A collection <span class="process-math">\(\Omega\)</span> of subsets of a set <span class="process-math">\(A\)</span> is said to be a partition of <span class="process-math">\(A\)</span> if the elements of <span class="process-math">\(\Omega\)</span> satisfy:</div>
 <ol class="lower-alpha">
-<li id="li-427"><div class="para" id="p-1164">Each <span class="process-math">\(X\in \Omega\)</span> is nonempty,</div></li>
-<li id="li-428"><div class="para" id="p-1165">For all <span class="process-math">\(X,Y\in\Omega\text{,}\)</span> <span class="process-math">\(X\cap Y=\emptyset\)</span> when <span class="process-math">\(X\neq Y\text{,}\)</span> and</div></li>
-<li id="li-429"><div class="para" id="p-1166"><span class="process-math">\(\displaystyle \bigcup_{X\in\Omega}X=A\text{.}\)</span></div></li>
+<li id="li-427"><div class="para" id="p-1152">Each <span class="process-math">\(X\in \Omega\)</span> is nonempty,</div></li>
+<li id="li-428"><div class="para" id="p-1153">For all <span class="process-math">\(X,Y\in\Omega\text{,}\)</span> <span class="process-math">\(X\cap Y=\emptyset\)</span> when <span class="process-math">\(X\neq Y\text{,}\)</span> and</div></li>
+<li id="li-429"><div class="para" id="p-1154"><span class="process-math">\(\displaystyle \bigcup_{X\in\Omega}X=A\text{.}\)</span></div></li>
 </ol>
-</div> <div class="para" id="p-1167">That is, the elements of <span class="process-math">\(\Omega\)</span> are pairwise disjoint nonempty sets and their union is all of <span class="process-math">\(A\text{.}\)</span> Each <span class="process-math">\(X\in \Omega\)</span> is called a block of the partition.</div></article><article class="example example-like" id="ex_last_name_revisited"><h3 class="heading">
+</div> <div class="para" id="p-1155">That is, the elements of <span class="process-math">\(\Omega\)</span> are pairwise disjoint nonempty sets and their union is all of <span class="process-math">\(A\text{.}\)</span> Each <span class="process-math">\(X\in \Omega\)</span> is called a block of the partition.</div></article><article class="example example-like" id="ex_last_name_revisited"><h3 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">7.52</span><span class="period">.</span>
 </h3>
-<div class="para" id="p-1168">Consider the equivalence relation <span class="process-math">\(\sim\)</span> on the set <span class="process-math">\(P\)</span> described in <a href="" class="xref" data-knowl="./knowl/ex_last_name.html" title="Example 7.45">Example 7.45</a>. Recall that the equivalence classes correspond to collections of individuals with the same last name. Since each equivalence class is nonempty and each resident of the town belongs to exactly one equivalence class, the collection of equivalence classes forms a partition of <span class="process-math">\(P\text{.}\)</span> That is, <span class="process-math">\(P/\mathord\sim\)</span> is a partition of <span class="process-math">\(P\text{,}\)</span> where the blocks of the partition correspond to sets of residents with the same last name.</div></article><article class="example example-like" id="example-19"><h3 class="heading">
+<div class="para" id="p-1156">Consider the equivalence relation <span class="process-math">\(\sim\)</span> on the set <span class="process-math">\(P\)</span> described in <a href="" class="xref" data-knowl="./knowl/ex_last_name.html" title="Example 7.45">Example 7.45</a>. Recall that the equivalence classes correspond to collections of individuals with the same last name. Since each equivalence class is nonempty and each resident of the town belongs to exactly one equivalence class, the collection of equivalence classes forms a partition of <span class="process-math">\(P\text{.}\)</span> That is, <span class="process-math">\(P/\mathord\sim\)</span> is a partition of <span class="process-math">\(P\text{,}\)</span> where the blocks of the partition correspond to sets of residents with the same last name.</div></article><article class="example example-like" id="example-19"><h3 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">7.53</span><span class="period">.</span>
 </h3>
-<div class="para logical" id="p-1169">
+<div class="para logical" id="p-1157">
 <div class="para">Each of the following is an example of a partition of the set given in parentheses.</div>
 <ol class="lower-alpha">
-<li id="li-430"><div class="para" id="p-1170">Democrat, Republican, Independent, Green Party, Libertarian, etc. (set of registered voters)</div></li>
-<li id="li-431"><div class="para" id="p-1171">Freshman, sophomore, junior, senior (set of high school students)</div></li>
-<li id="li-432"><div class="para" id="p-1172">Evens, odds (set of integers)</div></li>
-<li id="li-433"><div class="para" id="p-1173">Rationals, irrationals (set of real numbers)</div></li>
+<li id="li-430"><div class="para" id="p-1158">Democrat, Republican, Independent, Green Party, Libertarian, etc. (set of registered voters)</div></li>
+<li id="li-431"><div class="para" id="p-1159">Freshman, sophomore, junior, senior (set of high school students)</div></li>
+<li id="li-432"><div class="para" id="p-1160">Evens, odds (set of integers)</div></li>
+<li id="li-433"><div class="para" id="p-1161">Rationals, irrationals (set of real numbers)</div></li>
 </ol>
 </div></article><article class="example example-like" id="ex_a_partition"><h3 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">7.54</span><span class="period">.</span>
 </h3>
-<div class="para" id="p-1174">Let <span class="process-math">\(A=\{a,b,c,d,e,f\}\)</span> and <span class="process-math">\(\Omega=\{\{a\}, \{b,c,d\}, \{e,f\}\}\text{.}\)</span> Since the elements of <span class="process-math">\(\Omega\)</span> are pairwise disjoint nonempty subsets of <span class="process-math">\(A\)</span> such that their union is all of <span class="process-math">\(A\text{,}\)</span> <span class="process-math">\(\Omega\)</span> is a partition of <span class="process-math">\(A\)</span> consisting of three blocks.</div></article><article class="problem example-like" id="problem-147"><h3 class="heading">
+<div class="para" id="p-1162">Let <span class="process-math">\(A=\{a,b,c,d,e,f\}\)</span> and <span class="process-math">\(\Omega=\{\{a\}, \{b,c,d\}, \{e,f\}\}\text{.}\)</span> Since the elements of <span class="process-math">\(\Omega\)</span> are pairwise disjoint nonempty subsets of <span class="process-math">\(A\)</span> such that their union is all of <span class="process-math">\(A\text{,}\)</span> <span class="process-math">\(\Omega\)</span> is a partition of <span class="process-math">\(A\)</span> consisting of three blocks.</div></article><article class="problem example-like" id="problem-147"><h3 class="heading">
 <span class="type">Problem</span><span class="space"> </span><span class="codenumber">7.55</span><span class="period">.</span>
 </h3>
-<div class="para logical" id="p-1175">
+<div class="para logical" id="p-1163">
 <div class="para">Consider the set <span class="process-math">\(A\)</span> from <a href="" class="xref" data-knowl="./knowl/ex_a_partition.html" title="Example 7.54">Example 7.54</a>.</div>
 <ol class="lower-alpha">
-<li id="li-434"><div class="para" id="p-1176">Find a partition of <span class="process-math">\(A\)</span> consisting of four blocks.</div></li>
-<li id="li-435"><div class="para" id="p-1177">Find a collection of subsets of <span class="process-math">\(A\)</span> that does <em class="emphasis">not</em> form a partition. See how many ways you can prevent your collection from being a partition.</div></li>
+<li id="li-434"><div class="para" id="p-1164">Find a partition of <span class="process-math">\(A\)</span> consisting of four blocks.</div></li>
+<li id="li-435"><div class="para" id="p-1165">Find a collection of subsets of <span class="process-math">\(A\)</span> that does <em class="emphasis">not</em> form a partition. See how many ways you can prevent your collection from being a partition.</div></li>
 </ol>
 </div></article><article class="problem example-like" id="problem-148"><h3 class="heading">
 <span class="type">Problem</span><span class="space"> </span><span class="codenumber">7.56</span><span class="period">.</span>
 </h3>
-<div class="para logical" id="p-1178">
+<div class="para logical" id="p-1166">
 <div class="para">For each of the following, find a partition of <span class="process-math">\(\mathbb{Z}\)</span> with the given properties.</div>
 <ol class="lower-alpha">
-<li id="li-436"><div class="para" id="p-1179">A partition of <span class="process-math">\(\mathbb{Z}\)</span> that consists of finitely many blocks, where each of the blocks is infinite.</div></li>
-<li id="li-437"><div class="para" id="p-1180">A partition of <span class="process-math">\(\mathbb{Z}\)</span> that consists of infinitely many blocks, where each of the blocks is finite.</div></li>
-<li id="li-438"><div class="para" id="p-1181">A partition of <span class="process-math">\(\mathbb{Z}\)</span> that consists of infinitely many blocks, where each of the blocks is infinite.</div></li>
+<li id="li-436"><div class="para" id="p-1167">A partition of <span class="process-math">\(\mathbb{Z}\)</span> that consists of finitely many blocks, where each of the blocks is infinite.</div></li>
+<li id="li-437"><div class="para" id="p-1168">A partition of <span class="process-math">\(\mathbb{Z}\)</span> that consists of infinitely many blocks, where each of the blocks is finite.</div></li>
+<li id="li-438"><div class="para" id="p-1169">A partition of <span class="process-math">\(\mathbb{Z}\)</span> that consists of infinitely many blocks, where each of the blocks is infinite.</div></li>
 </ol>
 </div></article><article class="problem example-like" id="problem-149"><h3 class="heading">
 <span class="type">Problem</span><span class="space"> </span><span class="codenumber">7.57</span><span class="period">.</span>
 </h3>
-<div class="para" id="p-1182">For each relation in <a href="" class="xref" data-knowl="./knowl/prob_lots_of_relations.html" title="Problem 7.34">Problem 7.34</a>, determine whether the corresponding collection of the sets of relatives forms a partition of the given set.</div></article><article class="problem example-like" id="problem-150"><h3 class="heading">
+<div class="para" id="p-1170">For each relation in <a href="" class="xref" data-knowl="./knowl/prob_lots_of_relations.html" title="Problem 7.34">Problem 7.34</a>, determine whether the corresponding collection of the sets of relatives forms a partition of the given set.</div></article><article class="problem example-like" id="problem-150"><h3 class="heading">
 <span class="type">Problem</span><span class="space"> </span><span class="codenumber">7.58</span><span class="period">.</span>
 </h3>
-<div class="para" id="p-1183">Can we partition the empty set? If so, describe a partition. If not, explain why.</div></article><div class="para" id="p-1184">The next theorem spells out half of the close connection between partitions and equivalence relations. <a href="" class="xref" data-knowl="./knowl/thm_partition_yields_equivalence_relation1.html" title="Theorem 7.73">Theorem 7.73</a> yields the other half.</div>
+<div class="para" id="p-1171">Can we partition the empty set? If so, describe a partition. If not, explain why.</div></article><div class="para" id="p-1172">The next theorem spells out half of the close connection between partitions and equivalence relations. <a href="" class="xref" data-knowl="./knowl/thm_partition_yields_equivalence_relation1.html" title="Theorem 7.73">Theorem 7.73</a> yields the other half.</div>
 <article class="theorem theorem-like" id="thm_equiv_yields_partition2"><h3 class="heading">
 <span class="type">Theorem</span><span class="space"> </span><span class="codenumber">7.59</span><span class="period">.</span>
 </h3>
-<div class="para" id="p-1185">If <span class="process-math">\(\sim\)</span> is an equivalence relation on a set <span class="process-math">\(A\text{,}\)</span> then <span class="process-math">\(A/\mathord\sim\)</span> forms a partition of <span class="process-math">\(A\text{.}\)</span>
+<div class="para" id="p-1173">If <span class="process-math">\(\sim\)</span> is an equivalence relation on a set <span class="process-math">\(A\text{,}\)</span> then <span class="process-math">\(A/\mathord\sim\)</span> forms a partition of <span class="process-math">\(A\text{.}\)</span>
 </div></article><article class="problem example-like" id="problem-151"><h3 class="heading">
 <span class="type">Problem</span><span class="space"> </span><span class="codenumber">7.60</span><span class="period">.</span>
 </h3>
-<div class="para" id="p-1186">In the previous theorem, what is <span class="process-math">\(A/\mathord\sim\)</span> if <span class="process-math">\(A\)</span> is the empty set?</div></article><article class="problem example-like" id="problem-152"><h3 class="heading">
+<div class="para" id="p-1174">In the previous theorem, what is <span class="process-math">\(A/\mathord\sim\)</span> if <span class="process-math">\(A\)</span> is the empty set?</div></article><article class="problem example-like" id="problem-152"><h3 class="heading">
 <span class="type">Problem</span><span class="space"> </span><span class="codenumber">7.61</span><span class="period">.</span>
 </h3>
-<div class="para logical" id="p-1187">
+<div class="para logical" id="p-1175">
 <div class="para">Consider the equivalence relation</div>
 <div class="displaymath process-math">
 \begin{equation*}
@@ -398,41 +398,41 @@ window.MathJax = {
 </div>
 <div class="para">on the set <span class="process-math">\(A=\{1,2,3,4,5,6\}\text{.}\)</span> Find the partition determined by <span class="process-math">\(\Rel(\sim)\text{.}\)</span>
 </div>
-</div></article><div class="para" id="p-1188">It turns out that we can reverse the situation, as well. That is, given a partition, we can form an equivalence relation such that the equivalence classes correspond to the blocks of the partition. Before proving this, we need a definition.</div>
+</div></article><div class="para" id="p-1176">It turns out that we can reverse the situation, as well. That is, given a partition, we can form an equivalence relation such that the equivalence classes correspond to the blocks of the partition. Before proving this, we need a definition.</div>
 <article class="definition definition-like" id="definition-47"><h3 class="heading">
 <span class="type">Definition</span><span class="space"> </span><span class="codenumber">7.62</span><span class="period">.</span>
 </h3>
-<div class="para" id="p-1189">Let <span class="process-math">\(A\)</span> be a set and <span class="process-math">\(\Omega\)</span> any collection of subsets of <span class="process-math">\(A\)</span> (not necessarily a partition). Define the relation <span class="process-math">\(\tcboxmath{R_{\Omega}}\)</span> on <span class="process-math">\(A\)</span> via <span class="process-math">\(aR_{\Omega}b\)</span> if there exists <span class="process-math">\(X\in \Omega\)</span> that contains both <span class="process-math">\(a\)</span> and <span class="process-math">\(b\text{.}\)</span> This relation is called the relation on <span class="process-math">\(A\)</span> associated to <span class="process-math">\(\Omega\text{.}\)</span>
-</div></article><div class="para" id="p-1190">In other words, two elements are related exactly when they are in the same subset.</div>
+<div class="para" id="p-1177">Let <span class="process-math">\(A\)</span> be a set and <span class="process-math">\(\Omega\)</span> any collection of subsets of <span class="process-math">\(A\)</span> (not necessarily a partition). Define the relation <span class="process-math">\(\tcboxmath{R_{\Omega}}\)</span> on <span class="process-math">\(A\)</span> via <span class="process-math">\(aR_{\Omega}b\)</span> if there exists <span class="process-math">\(X\in \Omega\)</span> that contains both <span class="process-math">\(a\)</span> and <span class="process-math">\(b\text{.}\)</span> This relation is called the relation on <span class="process-math">\(A\)</span> associated to <span class="process-math">\(\Omega\text{.}\)</span>
+</div></article><div class="para" id="p-1178">In other words, two elements are related exactly when they are in the same subset.</div>
 <article class="problem example-like" id="problem-153"><h3 class="heading">
 <span class="type">Problem</span><span class="space"> </span><span class="codenumber">7.63</span><span class="period">.</span>
 </h3>
-<div class="para" id="p-1191">Let <span class="process-math">\(A=\{a,b,c,d,e,f\}\)</span> and let <span class="process-math">\(\Omega=\{\{a,c\},\{b,c\},\{d,f\}\}\text{.}\)</span> List the ordered pairs in <span class="process-math">\(R_{\Omega}\)</span> and draw the corresponding digraph.</div></article><article class="problem example-like" id="problem-154"><h3 class="heading">
+<div class="para" id="p-1179">Let <span class="process-math">\(A=\{a,b,c,d,e,f\}\)</span> and let <span class="process-math">\(\Omega=\{\{a,c\},\{b,c\},\{d,f\}\}\text{.}\)</span> List the ordered pairs in <span class="process-math">\(R_{\Omega}\)</span> and draw the corresponding digraph.</div></article><article class="problem example-like" id="problem-154"><h3 class="heading">
 <span class="type">Problem</span><span class="space"> </span><span class="codenumber">7.64</span><span class="period">.</span>
 </h3>
-<div class="para" id="p-1192">Let <span class="process-math">\(A\)</span> and <span class="process-math">\(\Omega\)</span> be as in <a href="" class="xref" data-knowl="./knowl/ex_a_partition.html" title="Example 7.54">Example 7.54</a>. List the ordered pairs in <span class="process-math">\(R_{\Omega}\)</span> and draw the corresponding digraph.</div></article><article class="problem example-like" id="problem-155"><h3 class="heading">
+<div class="para" id="p-1180">Let <span class="process-math">\(A\)</span> and <span class="process-math">\(\Omega\)</span> be as in <a href="" class="xref" data-knowl="./knowl/ex_a_partition.html" title="Example 7.54">Example 7.54</a>. List the ordered pairs in <span class="process-math">\(R_{\Omega}\)</span> and draw the corresponding digraph.</div></article><article class="problem example-like" id="problem-155"><h3 class="heading">
 <span class="type">Problem</span><span class="space"> </span><span class="codenumber">7.65</span><span class="period">.</span>
 </h3>
-<div class="para" id="p-1193">Consider <a href="" class="xref" data-knowl="./knowl/prob_find_sim_from_Rel.html" title="Problem 7.27">Problem 7.27</a>. Find the relation on <span class="process-math">\(A\)</span> associated to <span class="process-math">\(\Rel(\sim)\)</span> and compare with what you obtained for <span class="process-math">\(R\)</span> in <a href="" class="xref" data-knowl="./knowl/prob_find_sim_from_Rel.html" title="Problem 7.27">Problem 7.27</a>.</div></article><article class="problem example-like" id="problem-156"><h3 class="heading">
+<div class="para" id="p-1181">Consider <a href="" class="xref" data-knowl="./knowl/prob_find_sim_from_Rel.html" title="Problem 7.27">Problem 7.27</a>. Find the relation on <span class="process-math">\(A\)</span> associated to <span class="process-math">\(\Rel(\sim)\)</span> and compare with what you obtained for <span class="process-math">\(R\)</span> in <a href="" class="xref" data-knowl="./knowl/prob_find_sim_from_Rel.html" title="Problem 7.27">Problem 7.27</a>.</div></article><article class="problem example-like" id="problem-156"><h3 class="heading">
 <span class="type">Problem</span><span class="space"> </span><span class="codenumber">7.66</span><span class="period">.</span>
 </h3>
-<div class="para" id="p-1194">Give an example of a set <span class="process-math">\(A\)</span> and a collection <span class="process-math">\(\Omega\)</span> from <span class="process-math">\(\mathcal{P}(A)\)</span> such that the relation <span class="process-math">\(R_{\Omega}\)</span> is not reflexive.</div></article><article class="problem example-like" id="problem-157"><h3 class="heading">
+<div class="para" id="p-1182">Give an example of a set <span class="process-math">\(A\)</span> and a collection <span class="process-math">\(\Omega\)</span> from <span class="process-math">\(\mathcal{P}(A)\)</span> such that the relation <span class="process-math">\(R_{\Omega}\)</span> is not reflexive.</div></article><article class="problem example-like" id="problem-157"><h3 class="heading">
 <span class="type">Problem</span><span class="space"> </span><span class="codenumber">7.67</span><span class="period">.</span>
 </h3>
-<div class="para logical" id="p-1195">
+<div class="para logical" id="p-1183">
 <div class="para">Let <span class="process-math">\(A=\{1,2,3,4,5,6\}\)</span> and <span class="process-math">\(\Omega=\{\{1,3,4\},\{2,4\},\{3,4\},\{6\}\}\text{.}\)</span>
 </div>
 <ol class="lower-alpha">
-<li id="li-439"><div class="para" id="p-1196">Is <span class="process-math">\(\Omega\)</span> a partition of <span class="process-math">\(A\text{?}\)</span>
+<li id="li-439"><div class="para" id="p-1184">Is <span class="process-math">\(\Omega\)</span> a partition of <span class="process-math">\(A\text{?}\)</span>
 </div></li>
-<li id="li-440"><div class="para" id="p-1197">Find <span class="process-math">\(R_{\Omega}\)</span> by listing ordered pairs or drawing a digraph.</div></li>
-<li id="li-441"><div class="para" id="p-1198">Is <span class="process-math">\(R_{\Omega}\)</span> an equivalence relation?</div></li>
-<li id="li-442"><div class="para" id="p-1199">Find <span class="process-math">\(\Rel(R_\Omega)\)</span> (i.e., the collection of subsets of <span class="process-math">\(A\)</span> determined by <span class="process-math">\(R_{\Omega}\)</span>). How are <span class="process-math">\(\Omega\)</span> and <span class="process-math">\(\Rel(R_\Omega)\)</span> related?</div></li>
+<li id="li-440"><div class="para" id="p-1185">Find <span class="process-math">\(R_{\Omega}\)</span> by listing ordered pairs or drawing a digraph.</div></li>
+<li id="li-441"><div class="para" id="p-1186">Is <span class="process-math">\(R_{\Omega}\)</span> an equivalence relation?</div></li>
+<li id="li-442"><div class="para" id="p-1187">Find <span class="process-math">\(\Rel(R_\Omega)\)</span> (i.e., the collection of subsets of <span class="process-math">\(A\)</span> determined by <span class="process-math">\(R_{\Omega}\)</span>). How are <span class="process-math">\(\Omega\)</span> and <span class="process-math">\(\Rel(R_\Omega)\)</span> related?</div></li>
 </ol>
 </div></article><article class="theorem theorem-like" id="thm_union_yields_reflexive"><h3 class="heading">
 <span class="type">Theorem</span><span class="space"> </span><span class="codenumber">7.68</span><span class="period">.</span>
 </h3>
-<div class="para logical" id="p-1200">
+<div class="para logical" id="p-1188">
 <div class="para">If <span class="process-math">\(\Omega\)</span> is a collection of subsets of a set <span class="process-math">\(A\)</span> (not necessarily a partition) such that</div>
 <div class="displaymath process-math">
 \begin{equation*}
@@ -443,28 +443,30 @@ window.MathJax = {
 </div></article><article class="problem example-like" id="problem-158"><h3 class="heading">
 <span class="type">Problem</span><span class="space"> </span><span class="codenumber">7.69</span><span class="period">.</span>
 </h3>
-<div class="para" id="p-1201">In the previous theorem, what is <span class="process-math">\(R_{\Omega}\)</span> if <span class="process-math">\(A\)</span> is the empty set?</div></article><article class="theorem theorem-like" id="thm_always_symmetric"><h3 class="heading">
+<div class="para" id="p-1189">In the previous theorem, what is <span class="process-math">\(R_{\Omega}\)</span> if <span class="process-math">\(A\)</span> is the empty set?</div></article><article class="theorem theorem-like" id="thm_always_symmetric"><h3 class="heading">
 <span class="type">Theorem</span><span class="space"> </span><span class="codenumber">7.70</span><span class="period">.</span>
 </h3>
-<div class="para" id="p-1202">If <span class="process-math">\(\Omega\)</span> is a collection of subsets of a set <span class="process-math">\(A\)</span> (not necessarily a partition), then <span class="process-math">\(R_{\Omega}\)</span> is symmetric.</div></article><article class="theorem theorem-like" id="thm_pairwise_disjoint_yields_transitive"><h3 class="heading">
+<div class="para" id="p-1190">If <span class="process-math">\(\Omega\)</span> is a collection of subsets of a set <span class="process-math">\(A\)</span> (not necessarily a partition), then <span class="process-math">\(R_{\Omega}\)</span> is symmetric.</div></article><article class="theorem theorem-like" id="thm_pairwise_disjoint_yields_transitive"><h3 class="heading">
 <span class="type">Theorem</span><span class="space"> </span><span class="codenumber">7.71</span><span class="period">.</span>
 </h3>
-<div class="para" id="p-1203">If <span class="process-math">\(\Omega\)</span> is a collection of subsets of a set <span class="process-math">\(A\)</span> (not necessarily a partition) such that the elements of <span class="process-math">\(\Omega\)</span> are pairwise disjoint, then <span class="process-math">\(R_{\Omega}\)</span> is transitive.</div></article><article class="problem example-like" id="problem-159"><h3 class="heading">
+<div class="para" id="p-1191">If <span class="process-math">\(\Omega\)</span> is a collection of subsets of a set <span class="process-math">\(A\)</span> (not necessarily a partition) such that the elements of <span class="process-math">\(\Omega\)</span> are pairwise disjoint, then <span class="process-math">\(R_{\Omega}\)</span> is transitive.</div></article><article class="problem example-like" id="problem-159"><h3 class="heading">
 <span class="type">Problem</span><span class="space"> </span><span class="codenumber">7.72</span><span class="period">.</span>
 </h3>
-<div class="para" id="p-1204">Let <span class="process-math">\(A=\{a,b,c\}\text{.}\)</span> If possible, find an example of collection <span class="process-math">\(\Omega\)</span> of nonempty subsets of <span class="process-math">\(A\)</span> such that <span class="process-math">\(R_{\Omega}\)</span> is an equivalence relation on <span class="process-math">\(A\)</span> but <span class="process-math">\(\Rel(R_{\Omega})\neq \Omega\text{.}\)</span> If such an example is impossible, explain why.</div></article><div class="para" id="p-1205">Recall that <a href="" class="xref" data-knowl="./knowl/thm_equiv_yields_partition2.html" title="Theorem 7.59">Theorem 7.59</a> says that the equivalence classes for a relation on a nonempty set <span class="process-math">\(A\)</span> determines a partition of <span class="process-math">\(A\text{.}\)</span> The following theorem tells us that every partition of a set yields an equivalence relation where the equivalence classes correspond to the blocks of the partition. This result is a consequence of <a href="" class="xref" data-knowl="./knowl/thm_union_yields_reflexive.html" title="Theorem 7.68">Theorems 7.68</a>, <a href="" class="xref" data-knowl="./knowl/thm_always_symmetric.html" title="Theorem 7.70">Theorem 7.70</a>, and <a href="" class="xref" data-knowl="./knowl/thm_pairwise_disjoint_yields_transitive.html" title="Theorem 7.71">Theorem 7.71</a>.</div>
+<div class="para" id="p-1192">Let <span class="process-math">\(A=\{a,b,c\}\text{.}\)</span> If possible, find an example of collection <span class="process-math">\(\Omega\)</span> of nonempty subsets of <span class="process-math">\(A\)</span> such that <span class="process-math">\(R_{\Omega}\)</span> is an equivalence relation on <span class="process-math">\(A\)</span> but <span class="process-math">\(\Rel(R_{\Omega})\neq \Omega\text{.}\)</span> If such an example is impossible, explain why.</div></article><div class="para" id="p-1193">Recall that <a href="" class="xref" data-knowl="./knowl/thm_equiv_yields_partition2.html" title="Theorem 7.59">Theorem 7.59</a> says that the equivalence classes for a relation on a nonempty set <span class="process-math">\(A\)</span> determines a partition of <span class="process-math">\(A\text{.}\)</span> The following theorem tells us that every partition of a set yields an equivalence relation where the equivalence classes correspond to the blocks of the partition. This result is a consequence of <a href="" class="xref" data-knowl="./knowl/thm_union_yields_reflexive.html" title="Theorem 7.68">Theorems 7.68</a>, <a href="" class="xref" data-knowl="./knowl/thm_always_symmetric.html" title="Theorem 7.70">Theorem 7.70</a>, and <a href="" class="xref" data-knowl="./knowl/thm_pairwise_disjoint_yields_transitive.html" title="Theorem 7.71">Theorem 7.71</a>.</div>
 <article class="theorem theorem-like" id="thm_partition_yields_equivalence_relation1"><h3 class="heading">
 <span class="type">Theorem</span><span class="space"> </span><span class="codenumber">7.73</span><span class="period">.</span>
 </h3>
-<div class="para" id="p-1206">If <span class="process-math">\(\Omega\)</span> is a partition of a set <span class="process-math">\(A\text{,}\)</span> then <span class="process-math">\(R_{\Omega}\)</span> is an equivalence relation.</div></article><div class="para" id="p-1207">Together, <a href="" class="xref" data-knowl="./knowl/thm_equiv_yields_partition2.html" title="Theorem 7.59">Theorems 7.59</a> and <a href="" class="xref" data-knowl="./knowl/thm_partition_yields_equivalence_relation1.html" title="Theorem 7.73">Theorem 7.73</a> tell us that equivalence relations and partitions are two different ways of viewing the same thing. When proving the following result, ask yourself whether the statement is true if we remove the condition “<span class="process-math">\(a\in\rel(a)\)</span> for all <span class="process-math">\(a\in A\text{.}\)</span>”</div>
+<div class="para" id="p-1194">If <span class="process-math">\(\Omega\)</span> is a partition of a set <span class="process-math">\(A\text{,}\)</span> then <span class="process-math">\(R_{\Omega}\)</span> is an equivalence relation.</div></article><div class="para" id="p-1195">Together, <a href="" class="xref" data-knowl="./knowl/thm_equiv_yields_partition2.html" title="Theorem 7.59">Theorems 7.59</a> and <a href="" class="xref" data-knowl="./knowl/thm_partition_yields_equivalence_relation1.html" title="Theorem 7.73">Theorem 7.73</a> tell us that equivalence relations and partitions are two different ways of viewing the same thing. When proving the following result, ask yourself whether the statement is true if we remove the condition “<span class="process-math">\(a\in\rel(a)\)</span> for all <span class="process-math">\(a\in A\text{.}\)</span>”</div>
 <article class="theorem theorem-like" id="thm_partition_yields_equivalence_relation2"><h3 class="heading">
 <span class="type">Theorem</span><span class="space"> </span><span class="codenumber">7.74</span><span class="period">.</span>
 </h3>
-<div class="para" id="p-1208">If <span class="process-math">\(R\)</span> is a relation on a set <span class="process-math">\(A\)</span> such that the collection of the set of relatives with respect to <span class="process-math">\(R\)</span> is a partition of <span class="process-math">\(A\)</span> and <span class="process-math">\(a\in\rel(a)\)</span> for all <span class="process-math">\(a\in A\text{,}\)</span> then <span class="process-math">\(R\)</span> is an equivalence relation.</div></article><article class="problem example-like" id="problem-160"><h3 class="heading">
+<div class="para" id="p-1196">If <span class="process-math">\(R\)</span> is a relation on a set <span class="process-math">\(A\)</span> such that the collection of the set of relatives with respect to <span class="process-math">\(R\)</span> is a partition of <span class="process-math">\(A\)</span> and <span class="process-math">\(a\in\rel(a)\)</span> for all <span class="process-math">\(a\in A\text{,}\)</span> then <span class="process-math">\(R\)</span> is an equivalence relation.</div></article><article class="problem example-like" id="problem-160"><h3 class="heading">
 <span class="type">Problem</span><span class="space"> </span><span class="codenumber">7.75</span><span class="period">.</span>
 </h3>
-<div class="para" id="p-1209">Let <span class="process-math">\(A=\{\circ, \triangle, \blacktriangle, \square, \blacksquare, \bigstar, \smiley, \frownie\}\text{.}\)</span> Make up a partition <span class="process-math">\(\Omega\)</span> on <span class="process-math">\(A\)</span> and then draw the digraph corresponding to <span class="process-math">\(R_{\Omega}\text{.}\)</span>
-</div></article><div class="para" id="p-1210">\epigraph{In the broad light of day mathematicians check their equations and their proofs, leaving no stone unturned in their search for rigour. But, at night, under the full moon, they dream, they float among the stars and wonder at the miracle of the heavens. They are inspired. Without dreams there is no art, no mathematics, no life.}{Michael Atiyah, mathematician}</div></section></div>
+<div class="para" id="p-1197">Let <span class="process-math">\(A=\{\circ, \triangle, \blacktriangle, \square, \blacksquare, \bigstar, \smiley, \frownie\}\text{.}\)</span> Make up a partition <span class="process-math">\(\Omega\)</span> on <span class="process-math">\(A\)</span> and then draw the digraph corresponding to <span class="process-math">\(R_{\Omega}\text{.}\)</span>
+</div></article><blockquote class="blockquote" id="blockquote-38">
+<div class="para" id="p-1198">In the broad light of day mathematicians check their equations and their proofs, leaving no stone unturned in their search for rigour. But, at night, under the full moon, they dream, they float among the stars and wonder at the miracle of the heavens. They are inspired. Without dreams there is no art, no mathematics, no life.</div> <cite class="attribution">―Michael Atiyah, mathematician</cite>
+</blockquote></section></div>
 <div class="ptx-content-footer">
 <a class="previous-button button" href="sec_Equivalence_Relations.html" title="Previous"><span class="icon">&lt;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon">^</span><span class="name">Top</span></a><a class="next-button button" href="sec_ModularArithmetic.html" title="Next"><span class="name">Next</span><span class="icon">&gt;</span></a>
 </div></main>
