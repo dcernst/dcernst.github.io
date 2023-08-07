@@ -2,6 +2,25 @@
     font-style: normal;
 }
 
+.ptx-content .emphasis {
+    font-weight: normal !important;
+}
+
+.ptx-content em.alert {
+    font-weight: bold;
+    font-style: normal;
+}
+
+/*change qed symbol:*/
+.pretext-content .proof:after{
+  content: "&#x25A1;";
+  font-variant: small-caps;
+  font-size: 1.1em;
+  margin-right: 0em !important;
+  border-bottom: none !important;
+  margin-top: -1em !important;
+}
+
 /* ol {
   counter-reset: list;
 } */
