@@ -324,221 +324,221 @@ window.MathJax = {
 <main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="section" id="sec_Topology"><h2 class="heading hide-type">
 <span class="type">Section</span> <span class="codenumber">5.2</span> <span class="title">Standard Topology of the Real Line</span>
 </h2>
-<div class="para" id="p-863">In this section, we will introduce the notions of open, closed, compact, and connected as they pertain to subsets of the real numbers. These properties form the underpinnings of a branch of mathematics called <em class="emphasis">topology</em> (derived from the Greek words <em class="emphasis">tópos</em>, meaning ‘place, location’, and <em class="emphasis">ology</em>, meaning ‘study of’). Topology, sometimes called “rubber sheet geometry,” is concerned with properties of spaces that are invariant under any continuous deformation (e.g., bending, twisting, and stretching like rubber while not allowing tearing apart or gluing together). The fundamental concepts in topology are continuity, compactness, and connectedness, which rely on ideas such as “arbitrary close” and “far apart”. These ideas can be made precise using open sets.</div>
-<div class="para" id="p-864">Once considered an abstract branch of pure mathematics, topology now has applications in biology, computer science, physics, and robotics. The goal of this section is to introduce you to the basics of the set-theoretic definitions used in topology and to provide you with an opportunity to tinker with open and closed subsets of the real numbers. In <a href="sec_Continuity.html" class="internal" title="Section 8.5: Continuous Real Functions">Section 8.5</a>, we will revisit these concepts and explore continuous functions.</div>
-<div class="para" id="p-865">For this entire section, our universe of discourse is the set of real numbers. You may assume all the usual basic algebraic properties of the real numbers (addition, subtraction, multiplication, division, commutative property, distribution, etc.). We will often refer to an element in a subset of real numbers as a <em class="emphasis">point</em>.</div>
+<div class="para" id="p-862">In this section, we will introduce the notions of open, closed, compact, and connected as they pertain to subsets of the real numbers. These properties form the underpinnings of a branch of mathematics called <em class="emphasis">topology</em> (derived from the Greek words <em class="emphasis">tópos</em>, meaning ‘place, location’, and <em class="emphasis">ology</em>, meaning ‘study of’). Topology, sometimes called “rubber sheet geometry,” is concerned with properties of spaces that are invariant under any continuous deformation (e.g., bending, twisting, and stretching like rubber while not allowing tearing apart or gluing together). The fundamental concepts in topology are continuity, compactness, and connectedness, which rely on ideas such as “arbitrary close” and “far apart”. These ideas can be made precise using open sets.</div>
+<div class="para" id="p-863">Once considered an abstract branch of pure mathematics, topology now has applications in biology, computer science, physics, and robotics. The goal of this section is to introduce you to the basics of the set-theoretic definitions used in topology and to provide you with an opportunity to tinker with open and closed subsets of the real numbers. In <a href="sec_Continuity.html" class="internal" title="Section 8.5: Continuous Real Functions">Section 8.5</a>, we will revisit these concepts and explore continuous functions.</div>
+<div class="para" id="p-864">For this entire section, our universe of discourse is the set of real numbers. You may assume all the usual basic algebraic properties of the real numbers (addition, subtraction, multiplication, division, commutative property, distribution, etc.). We will often refer to an element in a subset of real numbers as a <em class="emphasis">point</em>.</div>
 <article class="definition definition-like" id="def_open"><h3 class="heading">
 <span class="type">Definition</span><span class="space"> </span><span class="codenumber">5.59</span><span class="period">.</span>
 </h3>
-<div class="para" id="p-866">A set <span class="process-math">\(U\)</span> is called an open set if for every <span class="process-math">\(x \in U\text{,}\)</span> there exists a bounded open interval <span class="process-math">\((a,b)\)</span> containing <span class="process-math">\(x\)</span> such that <span class="process-math">\((a,b)\subseteq U\text{.}\)</span>
-</div></article><div class="para" id="p-867">It follows immediately from the definition that every open set is a union of bounded open intervals.</div>
+<div class="para" id="p-865">A set <span class="process-math">\(U\)</span> is called an open set if for every <span class="process-math">\(x \in U\text{,}\)</span> there exists a bounded open interval <span class="process-math">\((a,b)\)</span> containing <span class="process-math">\(x\)</span> such that <span class="process-math">\((a,b)\subseteq U\text{.}\)</span>
+</div></article><div class="para" id="p-866">It follows immediately from the definition that every open set is a union of bounded open intervals.</div>
 <article class="problem example-like" id="prob_open_or_not"><h3 class="heading">
 <span class="type">Problem</span><span class="space"> </span><span class="codenumber">5.60</span><span class="period">.</span>
 </h3>
-<div class="para logical" id="p-868">
+<div class="para logical" id="p-867">
 <div class="para">Determine whether each of the following sets is open. Justify your assertions.</div>
 <ol class="lower-alpha">
-<li id="li-340"><div class="para" id="p-869"><span class="process-math">\(\displaystyle (1,2)\)</span></div></li>
-<li id="li-341"><div class="para" id="p-870"><span class="process-math">\(\displaystyle (1,\infty)\)</span></div></li>
-<li id="li-342"><div class="para" id="p-871"><span class="process-math">\(\displaystyle (1,2)\cup (\pi,5)\)</span></div></li>
-<li id="li-343"><div class="para" id="p-872"><span class="process-math">\(\displaystyle [1,2]\)</span></div></li>
-<li id="li-344"><div class="para" id="p-873"><span class="process-math">\(\displaystyle (-\infty,\sqrt{2}]\)</span></div></li>
-<li id="li-345"><div class="para" id="p-874"><span class="process-math">\(\displaystyle \{4,17,42\}\)</span></div></li>
-<li id="li-346"><div class="para" id="p-875"><span class="process-math">\(\displaystyle \{\frac{1}{n}\mid n\in \mathbb{N}\}\)</span></div></li>
-<li id="li-347"><div class="para" id="p-876"><span class="process-math">\(\displaystyle \{\frac{1}{n}\mid n\in \mathbb{N}\}\cup \{0\}\)</span></div></li>
-<li id="li-348"><div class="para" id="p-877"><span class="process-math">\(\displaystyle \mathbb{R}\)</span></div></li>
-<li id="li-349"><div class="para" id="p-878"><span class="process-math">\(\displaystyle \mathbb{Q}\)</span></div></li>
-<li id="li-350"><div class="para" id="p-879"><span class="process-math">\(\displaystyle \mathbb{Z}\)</span></div></li>
-<li id="li-351"><div class="para" id="p-880"><span class="process-math">\(\displaystyle \emptyset\)</span></div></li>
+<li id="li-339"><div class="para" id="p-868"><span class="process-math">\(\displaystyle (1,2)\)</span></div></li>
+<li id="li-340"><div class="para" id="p-869"><span class="process-math">\(\displaystyle (1,\infty)\)</span></div></li>
+<li id="li-341"><div class="para" id="p-870"><span class="process-math">\(\displaystyle (1,2)\cup (\pi,5)\)</span></div></li>
+<li id="li-342"><div class="para" id="p-871"><span class="process-math">\(\displaystyle [1,2]\)</span></div></li>
+<li id="li-343"><div class="para" id="p-872"><span class="process-math">\(\displaystyle (-\infty,\sqrt{2}]\)</span></div></li>
+<li id="li-344"><div class="para" id="p-873"><span class="process-math">\(\displaystyle \{4,17,42\}\)</span></div></li>
+<li id="li-345"><div class="para" id="p-874"><span class="process-math">\(\displaystyle \{\frac{1}{n}\mid n\in \mathbb{N}\}\)</span></div></li>
+<li id="li-346"><div class="para" id="p-875"><span class="process-math">\(\displaystyle \{\frac{1}{n}\mid n\in \mathbb{N}\}\cup \{0\}\)</span></div></li>
+<li id="li-347"><div class="para" id="p-876"><span class="process-math">\(\displaystyle \mathbb{R}\)</span></div></li>
+<li id="li-348"><div class="para" id="p-877"><span class="process-math">\(\displaystyle \mathbb{Q}\)</span></div></li>
+<li id="li-349"><div class="para" id="p-878"><span class="process-math">\(\displaystyle \mathbb{Z}\)</span></div></li>
+<li id="li-350"><div class="para" id="p-879"><span class="process-math">\(\displaystyle \emptyset\)</span></div></li>
 </ol>
-</div></article><div class="para" id="p-881">As expected, every open interval (i.e., intervals of the form <span class="process-math">\((a,b)\text{,}\)</span> <span class="process-math">\((-\infty,b)\text{,}\)</span> <span class="process-math">\((a,\infty)\text{,}\)</span> or <span class="process-math">\((-\infty,\infty)\)</span>) is an open set.</div>
+</div></article><div class="para" id="p-880">As expected, every open interval (i.e., intervals of the form <span class="process-math">\((a,b)\text{,}\)</span> <span class="process-math">\((-\infty,b)\text{,}\)</span> <span class="process-math">\((a,\infty)\text{,}\)</span> or <span class="process-math">\((-\infty,\infty)\)</span>) is an open set.</div>
 <article class="theorem theorem-like" id="theorem-97"><h3 class="heading">
 <span class="type">Theorem</span><span class="space"> </span><span class="codenumber">5.61</span><span class="period">.</span>
 </h3>
-<div class="para" id="p-882">Every open interval is an open set.</div></article><div class="para" id="p-883">However, it is important to point out that open sets can be more complicated than a single open interval.</div>
+<div class="para" id="p-881">Every open interval is an open set.</div></article><div class="para" id="p-882">However, it is important to point out that open sets can be more complicated than a single open interval.</div>
 <article class="problem example-like" id="problem-95"><h3 class="heading">
 <span class="type">Problem</span><span class="space"> </span><span class="codenumber">5.62</span><span class="period">.</span>
 </h3>
-<div class="para" id="p-884">Provide an example of an open set that is not a single open interval.</div></article><article class="theorem theorem-like" id="thm_finite_union_and_intersection_of_open_sets"><h3 class="heading">
+<div class="para" id="p-883">Provide an example of an open set that is not a single open interval.</div></article><article class="theorem theorem-like" id="thm_finite_union_and_intersection_of_open_sets"><h3 class="heading">
 <span class="type">Theorem</span><span class="space"> </span><span class="codenumber">5.63</span><span class="period">.</span>
 </h3>
-<div class="para logical" id="p-885">
+<div class="para logical" id="p-884">
 <div class="para">If <span class="process-math">\(U\)</span> and <span class="process-math">\(V\)</span> are open sets, then</div>
 <ol class="lower-alpha">
-<li id="li-352"><div class="para" id="p-886">
+<li id="li-351"><div class="para" id="p-885">
 <span class="process-math">\(U\cup V\)</span> is an open set, and</div></li>
-<li id="li-353"><div class="para" id="p-887">
+<li id="li-352"><div class="para" id="p-886">
 <span class="process-math">\(U\cap V\)</span> is an open set.</div></li>
 </ol>
-</div></article><div class="para" id="p-888">According to the next two theorems, the union of arbitrarily many open sets is open while the intersection of a finite number of open sets is open.</div>
+</div></article><div class="para" id="p-887">According to the next two theorems, the union of arbitrarily many open sets is open while the intersection of a finite number of open sets is open.</div>
 <article class="theorem theorem-like" id="thm_union_of_open_sets"><h3 class="heading">
 <span class="type">Theorem</span><span class="space"> </span><span class="codenumber">5.64</span><span class="period">.</span>
 </h3>
-<div class="para" id="p-889">If <span class="process-math">\(\{U_{\alpha}\}_{\alpha\in\Delta}\)</span> is a collection of open sets, then <span class="process-math">\(\bigcup_{\alpha\in\Delta} U_{\alpha}\)</span> is an open set.</div></article><div class="para" id="p-890">Consider using induction to prove the next theorem.</div>
+<div class="para" id="p-888">If <span class="process-math">\(\{U_{\alpha}\}_{\alpha\in\Delta}\)</span> is a collection of open sets, then <span class="process-math">\(\bigcup_{\alpha\in\Delta} U_{\alpha}\)</span> is an open set.</div></article><div class="para" id="p-889">Consider using induction to prove the next theorem.</div>
 <article class="theorem theorem-like" id="thm_finite_intersection_of_open_sets"><h3 class="heading">
 <span class="type">Theorem</span><span class="space"> </span><span class="codenumber">5.65</span><span class="period">.</span>
 </h3>
-<div class="para" id="p-891">If <span class="process-math">\(\{U_{i}\}_{i=1}^n\)</span> is a finite collection of open sets for <span class="process-math">\(n\in \mathbb{N}\text{,}\)</span> then <span class="process-math">\(\bigcap_{i=1}^n U_{i}\)</span> is an open set.</div></article><article class="problem example-like" id="problem-96"><h3 class="heading">
+<div class="para" id="p-890">If <span class="process-math">\(\{U_{i}\}_{i=1}^n\)</span> is a finite collection of open sets for <span class="process-math">\(n\in \mathbb{N}\text{,}\)</span> then <span class="process-math">\(\bigcap_{i=1}^n U_{i}\)</span> is an open set.</div></article><article class="problem example-like" id="problem-96"><h3 class="heading">
 <span class="type">Problem</span><span class="space"> </span><span class="codenumber">5.66</span><span class="period">.</span>
 </h3>
-<div class="para" id="p-892">Explain why we cannot utilize induction to prove that the intersection of infinitely many open sets indexed by the natural numbers is open.</div></article><article class="problem example-like" id="prob_intersection_of_open_sets"><h3 class="heading">
+<div class="para" id="p-891">Explain why we cannot utilize induction to prove that the intersection of infinitely many open sets indexed by the natural numbers is open.</div></article><article class="problem example-like" id="prob_intersection_of_open_sets"><h3 class="heading">
 <span class="type">Problem</span><span class="space"> </span><span class="codenumber">5.67</span><span class="period">.</span>
 </h3>
-<div class="para logical" id="p-893">
+<div class="para logical" id="p-892">
 <div class="para">Give an example of each of the following.</div>
 <ol class="lower-alpha">
-<li id="li-354"><div class="para" id="p-894">A collection of open sets <span class="process-math">\(\{U_{\alpha}\}_{\alpha\in\Delta}\)</span> such that <span class="process-math">\(\bigcap_{\alpha\in\Delta} U_{\alpha}\)</span> is an open set.</div></li>
-<li id="li-355"><div class="para" id="p-895">A collection of open sets <span class="process-math">\(\{U_{\alpha}\}_{\alpha\in\Delta}\)</span> such that <span class="process-math">\(\bigcap_{\alpha\in\Delta} U_{\alpha}\)</span> is not an open set.</div></li>
+<li id="li-353"><div class="para" id="p-893">A collection of open sets <span class="process-math">\(\{U_{\alpha}\}_{\alpha\in\Delta}\)</span> such that <span class="process-math">\(\bigcap_{\alpha\in\Delta} U_{\alpha}\)</span> is an open set.</div></li>
+<li id="li-354"><div class="para" id="p-894">A collection of open sets <span class="process-math">\(\{U_{\alpha}\}_{\alpha\in\Delta}\)</span> such that <span class="process-math">\(\bigcap_{\alpha\in\Delta} U_{\alpha}\)</span> is not an open set.</div></li>
 </ol>
-</div></article><div class="para" id="p-896">According to the previous problem, the intersection of infinitely many open sets may or may not be open. So, we know that there is no theorem that states that the intersection of arbitrarily many open sets is open. We only know for certain that the intersection of finitely many open sets is open by <a href="" class="xref" data-knowl="./knowl/thm_finite_intersection_of_open_sets.html" title="Theorem 5.65">Theorem 5.65</a>.</div>
+</div></article><div class="para" id="p-895">According to the previous problem, the intersection of infinitely many open sets may or may not be open. So, we know that there is no theorem that states that the intersection of arbitrarily many open sets is open. We only know for certain that the intersection of finitely many open sets is open by <a href="" class="xref" data-knowl="./knowl/thm_finite_intersection_of_open_sets.html" title="Theorem 5.65">Theorem 5.65</a>.</div>
 <article class="definition definition-like" id="definition-34"><h3 class="heading">
 <span class="type">Definition</span><span class="space"> </span><span class="codenumber">5.68</span><span class="period">.</span>
 </h3>
-<div class="para" id="p-897">Suppose <span class="process-math">\(A\subseteq \mathbb{R}\text{.}\)</span> A point <span class="process-math">\(p\in \mathbb{R}\)</span> is an accumulation point of <span class="process-math">\(A\)</span> if for every bounded open interval <span class="process-math">\((a,b)\)</span> containing <span class="process-math">\(p\text{,}\)</span> there exists a point <span class="process-math">\(q \in (a,b)\cap A\)</span> such that <span class="process-math">\(q\neq p\text{.}\)</span>
-</div></article><div class="para" id="p-898">Notice that if <span class="process-math">\(p\)</span> is an accumulation point of <span class="process-math">\(A\text{,}\)</span> then <span class="process-math">\(p\)</span> may or may not be in <span class="process-math">\(A\text{.}\)</span> Loosely speaking, <span class="process-math">\(p\)</span> is an accumulation point of a set <span class="process-math">\(A\)</span> if there are points in <span class="process-math">\(A\)</span> arbitrarily close to <span class="process-math">\(p\text{.}\)</span> That is, if we zoom in on <span class="process-math">\(p\text{,}\)</span> we should always see points in <span class="process-math">\(A\)</span> nearby.</div>
+<div class="para" id="p-896">Suppose <span class="process-math">\(A\subseteq \mathbb{R}\text{.}\)</span> A point <span class="process-math">\(p\in \mathbb{R}\)</span> is an accumulation point of <span class="process-math">\(A\)</span> if for every bounded open interval <span class="process-math">\((a,b)\)</span> containing <span class="process-math">\(p\text{,}\)</span> there exists a point <span class="process-math">\(q \in (a,b)\cap A\)</span> such that <span class="process-math">\(q\neq p\text{.}\)</span>
+</div></article><div class="para" id="p-897">Notice that if <span class="process-math">\(p\)</span> is an accumulation point of <span class="process-math">\(A\text{,}\)</span> then <span class="process-math">\(p\)</span> may or may not be in <span class="process-math">\(A\text{.}\)</span> Loosely speaking, <span class="process-math">\(p\)</span> is an accumulation point of a set <span class="process-math">\(A\)</span> if there are points in <span class="process-math">\(A\)</span> arbitrarily close to <span class="process-math">\(p\text{.}\)</span> That is, if we zoom in on <span class="process-math">\(p\text{,}\)</span> we should always see points in <span class="process-math">\(A\)</span> nearby.</div>
 <article class="problem example-like" id="problem-98"><h3 class="heading">
 <span class="type">Problem</span><span class="space"> </span><span class="codenumber">5.69</span><span class="period">.</span>
 </h3>
-<div class="para logical" id="p-899">
+<div class="para logical" id="p-898">
 <div class="para">Consider the open interval <span class="process-math">\(I=(1,2)\text{.}\)</span> Prove each of the following.</div>
 <ol class="lower-alpha">
-<li id="li-356"><div class="para" id="p-900">The points <span class="process-math">\(1\)</span> and <span class="process-math">\(2\)</span> are accumulation points of <span class="process-math">\(I\text{.}\)</span>
+<li id="li-355"><div class="para" id="p-899">The points <span class="process-math">\(1\)</span> and <span class="process-math">\(2\)</span> are accumulation points of <span class="process-math">\(I\text{.}\)</span>
 </div></li>
-<li id="li-357"><div class="para" id="p-901">If <span class="process-math">\(p\in I\text{,}\)</span> then <span class="process-math">\(p\)</span> is an accumulation point of <span class="process-math">\(I\text{.}\)</span>
+<li id="li-356"><div class="para" id="p-900">If <span class="process-math">\(p\in I\text{,}\)</span> then <span class="process-math">\(p\)</span> is an accumulation point of <span class="process-math">\(I\text{.}\)</span>
 </div></li>
-<li id="li-358"><div class="para" id="p-902">If <span class="process-math">\(p\lt 1\)</span> or <span class="process-math">\(p&gt;2\text{,}\)</span> then <span class="process-math">\(p\)</span> is not an accumulation point of <span class="process-math">\(I\text{.}\)</span>
+<li id="li-357"><div class="para" id="p-901">If <span class="process-math">\(p\lt 1\)</span> or <span class="process-math">\(p&gt;2\text{,}\)</span> then <span class="process-math">\(p\)</span> is not an accumulation point of <span class="process-math">\(I\text{.}\)</span>
 </div></li>
 </ol>
 </div></article><article class="theorem theorem-like" id="theorem-101"><h3 class="heading">
 <span class="type">Theorem</span><span class="space"> </span><span class="codenumber">5.70</span><span class="period">.</span>
 </h3>
-<div class="para" id="p-903">A point <span class="process-math">\(p\)</span> is an accumulation point of the intervals <span class="process-math">\((a,b)\text{,}\)</span> <span class="process-math">\((a,b]\text{,}\)</span> <span class="process-math">\([a,b)\text{,}\)</span> and <span class="process-math">\([a,b]\)</span> if and only if <span class="process-math">\(p\in [a,b]\text{.}\)</span>
+<div class="para" id="p-902">A point <span class="process-math">\(p\)</span> is an accumulation point of the intervals <span class="process-math">\((a,b)\text{,}\)</span> <span class="process-math">\((a,b]\text{,}\)</span> <span class="process-math">\([a,b)\text{,}\)</span> and <span class="process-math">\([a,b]\)</span> if and only if <span class="process-math">\(p\in [a,b]\text{.}\)</span>
 </div></article><article class="problem example-like" id="problem-99"><h3 class="heading">
 <span class="type">Problem</span><span class="space"> </span><span class="codenumber">5.71</span><span class="period">.</span>
 </h3>
-<div class="para" id="p-904">Prove that the point <span class="process-math">\(p=0\)</span> is an accumulation point of <span class="process-math">\(A=\{\frac{1}{n}\mid n \in \mathbb{N}\}\text{.}\)</span> Are there any other accumulation points of <span class="process-math">\(A\text{?}\)</span>
+<div class="para" id="p-903">Prove that the point <span class="process-math">\(p=0\)</span> is an accumulation point of <span class="process-math">\(A=\{\frac{1}{n}\mid n \in \mathbb{N}\}\text{.}\)</span> Are there any other accumulation points of <span class="process-math">\(A\text{?}\)</span>
 </div></article><article class="problem example-like" id="problem-100"><h3 class="heading">
 <span class="type">Problem</span><span class="space"> </span><span class="codenumber">5.72</span><span class="period">.</span>
 </h3>
-<div class="para" id="p-905">Provide an example of a set <span class="process-math">\(A\)</span> with exactly two accumulation points.</div></article><div class="para" id="p-906">Consider using <a href="" class="xref" data-knowl="./knowl/thm_rationals_dense.html" title="Theorem 5.57">Theorems 5.57</a> and <a href="" class="xref" data-knowl="./knowl/thm_irrationals_dense.html" title="Theorem 5.58">Theorem 5.58</a> when proving the next result.</div>
+<div class="para" id="p-904">Provide an example of a set <span class="process-math">\(A\)</span> with exactly two accumulation points.</div></article><div class="para" id="p-905">Consider using <a href="" class="xref" data-knowl="./knowl/thm_rationals_dense.html" title="Theorem 5.57">Theorems 5.57</a> and <a href="" class="xref" data-knowl="./knowl/thm_irrationals_dense.html" title="Theorem 5.58">Theorem 5.58</a> when proving the next result.</div>
 <article class="theorem theorem-like" id="theorem-102"><h3 class="heading">
 <span class="type">Theorem</span><span class="space"> </span><span class="codenumber">5.73</span><span class="period">.</span>
 </h3>
-<div class="para" id="p-907">If <span class="process-math">\(p\in\mathbb{R}\text{,}\)</span> then <span class="process-math">\(p\)</span> is an accumulation point of <span class="process-math">\(\mathbb{Q}\text{.}\)</span>
+<div class="para" id="p-906">If <span class="process-math">\(p\in\mathbb{R}\text{,}\)</span> then <span class="process-math">\(p\)</span> is an accumulation point of <span class="process-math">\(\mathbb{Q}\text{.}\)</span>
 </div></article><article class="definition definition-like" id="definition-35"><h3 class="heading">
 <span class="type">Definition</span><span class="space"> </span><span class="codenumber">5.74</span><span class="period">.</span>
 </h3>
-<div class="para" id="p-908">A set <span class="process-math">\(A\subseteq \mathbb{R}\)</span> is called closed if <span class="process-math">\(A\)</span> contains all of its accumulation points.</div></article><article class="problem example-like" id="prob_closed_or_not"><h3 class="heading">
+<div class="para" id="p-907">A set <span class="process-math">\(A\subseteq \mathbb{R}\)</span> is called closed if <span class="process-math">\(A\)</span> contains all of its accumulation points.</div></article><article class="problem example-like" id="prob_closed_or_not"><h3 class="heading">
 <span class="type">Problem</span><span class="space"> </span><span class="codenumber">5.75</span><span class="period">.</span>
 </h3>
-<div class="para" id="p-909">Determine whether each of the sets in <a href="" class="xref" data-knowl="./knowl/prob_open_or_not.html" title="Problem 5.60">Problem 5.60</a> is closed. Justify your assertions.</div></article><div class="para" id="p-910">The upshot of Parts (i) and (l) of <a href="" class="xref" data-knowl="./knowl/prob_open_or_not.html" title="Problem 5.60">Problems 5.60</a> and <a href="" class="xref" data-knowl="./knowl/prob_closed_or_not.html" title="Problem 5.75">Problem 5.75</a> is that <span class="process-math">\(\mathbb{R}\)</span> and <span class="process-math">\(\emptyset\)</span> are both open and closed. It turns out that these are the only two subsets of the real numbers with this property. One issue with the terminology that could potentially create confusion is that the open interval <span class="process-math">\((-\infty, \infty)\)</span> is both an open and a closed set.</div>
+<div class="para" id="p-908">Determine whether each of the sets in <a href="" class="xref" data-knowl="./knowl/prob_open_or_not.html" title="Problem 5.60">Problem 5.60</a> is closed. Justify your assertions.</div></article><div class="para" id="p-909">The upshot of Parts (i) and (l) of <a href="" class="xref" data-knowl="./knowl/prob_open_or_not.html" title="Problem 5.60">Problems 5.60</a> and <a href="" class="xref" data-knowl="./knowl/prob_closed_or_not.html" title="Problem 5.75">Problem 5.75</a> is that <span class="process-math">\(\mathbb{R}\)</span> and <span class="process-math">\(\emptyset\)</span> are both open and closed. It turns out that these are the only two subsets of the real numbers with this property. One issue with the terminology that could potentially create confusion is that the open interval <span class="process-math">\((-\infty, \infty)\)</span> is both an open and a closed set.</div>
 <article class="problem example-like" id="prob_open_vs_closed"><h3 class="heading">
 <span class="type">Problem</span><span class="space"> </span><span class="codenumber">5.76</span><span class="period">.</span>
 </h3>
-<div class="para logical" id="p-911">
+<div class="para logical" id="p-910">
 <div class="para">Provide an example of each of the following. You do not need to prove that your answers are correct.</div>
 <ol class="lower-alpha">
-<li id="li-359"><div class="para" id="p-912">A set that is open but not closed.</div></li>
-<li id="li-360"><div class="para" id="p-913">A set that is closed but not open.</div></li>
-<li id="prob_open_vs_closed_last"><div class="para" id="p-914">A set that neither open nor closed.</div></li>
+<li id="li-358"><div class="para" id="p-911">A set that is open but not closed.</div></li>
+<li id="li-359"><div class="para" id="p-912">A set that is closed but not open.</div></li>
+<li id="prob_open_vs_closed_last"><div class="para" id="p-913">A set that neither open nor closed.</div></li>
 </ol>
-</div></article><div class="para" id="p-915">Another potentially annoying feature of the terminology illustrated by <a href="" class="xref" data-knowl="./knowl/prob_open_vs_closed.html" title="Problem 5.76">Problem 5.76</a> is that if a set is not open, it may or may not be closed. Similarly, if a set is not closed, it may or may not be open. That is, open and closed are not opposites of each other.</div>
-<div class="para" id="p-916">The next result justifies referring to <span class="process-math">\([a,b]\)</span> as a closed interval.</div>
+</div></article><div class="para" id="p-914">Another potentially annoying feature of the terminology illustrated by <a href="" class="xref" data-knowl="./knowl/prob_open_vs_closed.html" title="Problem 5.76">Problem 5.76</a> is that if a set is not open, it may or may not be closed. Similarly, if a set is not closed, it may or may not be open. That is, open and closed are not opposites of each other.</div>
+<div class="para" id="p-915">The next result justifies referring to <span class="process-math">\([a,b]\)</span> as a closed interval.</div>
 <article class="theorem theorem-like" id="theorem-103"><h3 class="heading">
 <span class="type">Theorem</span><span class="space"> </span><span class="codenumber">5.77</span><span class="period">.</span>
 </h3>
-<div class="para" id="p-917">Every interval of the form <span class="process-math">\([a,b]\text{,}\)</span> <span class="process-math">\((-\infty,b]\text{,}\)</span> <span class="process-math">\([a,\infty)\text{,}\)</span> or <span class="process-math">\((-\infty,\infty)\)</span> is a closed set.</div></article><article class="theorem theorem-like" id="theorem-104"><h3 class="heading">
+<div class="para" id="p-916">Every interval of the form <span class="process-math">\([a,b]\text{,}\)</span> <span class="process-math">\((-\infty,b]\text{,}\)</span> <span class="process-math">\([a,\infty)\text{,}\)</span> or <span class="process-math">\((-\infty,\infty)\)</span> is a closed set.</div></article><article class="theorem theorem-like" id="theorem-104"><h3 class="heading">
 <span class="type">Theorem</span><span class="space"> </span><span class="codenumber">5.78</span><span class="period">.</span>
 </h3>
-<div class="para" id="p-918">Every finite subset of <span class="process-math">\(\mathbb{R}\)</span> is closed.</div></article><div class="para" id="p-919">Despite the fact that open and closed are not opposites of each other, there is a nice relationship between open and closed sets in terms of complements.</div>
+<div class="para" id="p-917">Every finite subset of <span class="process-math">\(\mathbb{R}\)</span> is closed.</div></article><div class="para" id="p-918">Despite the fact that open and closed are not opposites of each other, there is a nice relationship between open and closed sets in terms of complements.</div>
 <article class="theorem theorem-like" id="theorem-105"><h3 class="heading">
 <span class="type">Theorem</span><span class="space"> </span><span class="codenumber">5.79</span><span class="period">.</span>
 </h3>
-<div class="para" id="p-920">Let <span class="process-math">\(U\subseteq \mathbb{R}\text{.}\)</span> Then <span class="process-math">\(U\)</span> is open if and only if <span class="process-math">\(U^C\)</span> is closed.</div></article><article class="theorem theorem-like" id="thm_finite_union_and_intersection_of_closed_sets"><h3 class="heading">
+<div class="para" id="p-919">Let <span class="process-math">\(U\subseteq \mathbb{R}\text{.}\)</span> Then <span class="process-math">\(U\)</span> is open if and only if <span class="process-math">\(U^C\)</span> is closed.</div></article><article class="theorem theorem-like" id="thm_finite_union_and_intersection_of_closed_sets"><h3 class="heading">
 <span class="type">Theorem</span><span class="space"> </span><span class="codenumber">5.80</span><span class="period">.</span>
 </h3>
-<div class="para logical" id="p-921">
+<div class="para logical" id="p-920">
 <div class="para">If <span class="process-math">\(A\)</span> and <span class="process-math">\(B\)</span> are closed sets, then</div>
 <ol class="lower-alpha">
-<li id="li-362"><div class="para" id="p-922">
+<li id="li-361"><div class="para" id="p-921">
 <span class="process-math">\(A\cup B\)</span> is a closed set, and</div></li>
-<li id="li-363"><div class="para" id="p-923">
+<li id="li-362"><div class="para" id="p-922">
 <span class="process-math">\(A\cap B\)</span> is a closed set.</div></li>
 </ol>
-</div></article><div class="para" id="p-924">The next two theorems are analogous to <a href="" class="xref" data-knowl="./knowl/thm_union_of_open_sets.html" title="Theorem 5.64">Theorems 5.64</a> and <a href="" class="xref" data-knowl="./knowl/thm_finite_intersection_of_open_sets.html" title="Theorem 5.65">Theorem 5.65</a>.</div>
+</div></article><div class="para" id="p-923">The next two theorems are analogous to <a href="" class="xref" data-knowl="./knowl/thm_union_of_open_sets.html" title="Theorem 5.64">Theorems 5.64</a> and <a href="" class="xref" data-knowl="./knowl/thm_finite_intersection_of_open_sets.html" title="Theorem 5.65">Theorem 5.65</a>.</div>
 <article class="theorem theorem-like" id="thm_intersection_of_closed_sets"><h3 class="heading">
 <span class="type">Theorem</span><span class="space"> </span><span class="codenumber">5.81</span><span class="period">.</span>
 </h3>
-<div class="para" id="p-925">If <span class="process-math">\(\{A_{\alpha}\}_{\alpha\in\Delta}\)</span> is a collection of closed sets, then <span class="process-math">\(\bigcap_{\alpha\in \Delta} A_{\alpha}\)</span> is a closed set.</div></article><article class="theorem theorem-like" id="theorem-108"><h3 class="heading">
+<div class="para" id="p-924">If <span class="process-math">\(\{A_{\alpha}\}_{\alpha\in\Delta}\)</span> is a collection of closed sets, then <span class="process-math">\(\bigcap_{\alpha\in \Delta} A_{\alpha}\)</span> is a closed set.</div></article><article class="theorem theorem-like" id="theorem-108"><h3 class="heading">
 <span class="type">Theorem</span><span class="space"> </span><span class="codenumber">5.82</span><span class="period">.</span>
 </h3>
-<div class="para" id="p-926">If <span class="process-math">\(\{A_{i}\}_{i=1}^n\)</span> is a finite collection of closed sets for <span class="process-math">\(n\in \mathbb{N}\text{,}\)</span> then <span class="process-math">\(\bigcup_{i=1}^n A_{i}\)</span> is a closed set.</div></article><article class="problem example-like" id="prob_union_of_closed_sets"><h3 class="heading">
+<div class="para" id="p-925">If <span class="process-math">\(\{A_{i}\}_{i=1}^n\)</span> is a finite collection of closed sets for <span class="process-math">\(n\in \mathbb{N}\text{,}\)</span> then <span class="process-math">\(\bigcup_{i=1}^n A_{i}\)</span> is a closed set.</div></article><article class="problem example-like" id="prob_union_of_closed_sets"><h3 class="heading">
 <span class="type">Problem</span><span class="space"> </span><span class="codenumber">5.83</span><span class="period">.</span>
 </h3>
-<div class="para" id="p-927">Provide an example of a collection of closed sets <span class="process-math">\(\{A_{\alpha}\}_{\alpha\in\Delta}\)</span> such that <span class="process-math">\(\bigcup_{\alpha\in \Delta} A_{\alpha}\)</span> is not a closed set.</div></article><article class="problem example-like" id="problem-104"><h3 class="heading">
+<div class="para" id="p-926">Provide an example of a collection of closed sets <span class="process-math">\(\{A_{\alpha}\}_{\alpha\in\Delta}\)</span> such that <span class="process-math">\(\bigcup_{\alpha\in \Delta} A_{\alpha}\)</span> is not a closed set.</div></article><article class="problem example-like" id="problem-104"><h3 class="heading">
 <span class="type">Problem</span><span class="space"> </span><span class="codenumber">5.84</span><span class="period">.</span>
 </h3>
-<div class="para logical" id="p-928">
+<div class="para logical" id="p-927">
 <div class="para">Determine whether each of the following sets is open, closed, both, or neither.</div>
 <ol class="lower-alpha">
-<li id="li-364"><div class="para" id="p-929"><span class="process-math">\(\displaystyle \displaystyle V=\bigcup_{n=2}^{\infty} \left(n - \frac{1}{2},n\right)\)</span></div></li>
-<li id="li-365"><div class="para" id="p-930"><span class="process-math">\(\displaystyle \displaystyle W=\bigcap_{n=2}^{\infty} \left(n - \frac{1}{2},n\right)\)</span></div></li>
-<li id="li-366"><div class="para" id="p-931"><span class="process-math">\(\displaystyle \displaystyle X=\bigcap_{n=1}^{\infty} \left(-\frac{1}{n}, \frac{1}{n}\right)\)</span></div></li>
-<li id="li-367"><div class="para" id="p-932"><span class="process-math">\(\displaystyle \displaystyle Y=\bigcap_{n=1}^{\infty} \left(-n, n\right)\)</span></div></li>
-<li id="li-368"><div class="para" id="p-933"><span class="process-math">\(\displaystyle Z=(0,1)\cap \mathbb{Q}\)</span></div></li>
+<li id="li-363"><div class="para" id="p-928"><span class="process-math">\(\displaystyle \displaystyle V=\bigcup_{n=2}^{\infty} \left(n - \frac{1}{2},n\right)\)</span></div></li>
+<li id="li-364"><div class="para" id="p-929"><span class="process-math">\(\displaystyle \displaystyle W=\bigcap_{n=2}^{\infty} \left(n - \frac{1}{2},n\right)\)</span></div></li>
+<li id="li-365"><div class="para" id="p-930"><span class="process-math">\(\displaystyle \displaystyle X=\bigcap_{n=1}^{\infty} \left(-\frac{1}{n}, \frac{1}{n}\right)\)</span></div></li>
+<li id="li-366"><div class="para" id="p-931"><span class="process-math">\(\displaystyle \displaystyle Y=\bigcap_{n=1}^{\infty} \left(-n, n\right)\)</span></div></li>
+<li id="li-367"><div class="para" id="p-932"><span class="process-math">\(\displaystyle Z=(0,1)\cap \mathbb{Q}\)</span></div></li>
 </ol>
 </div></article><article class="problem example-like" id="problem-105"><h3 class="heading">
 <span class="type">Problem</span><span class="space"> </span><span class="codenumber">5.85</span><span class="period">.</span>
 </h3>
-<div class="para" id="p-934">Prove or provide a counterexample: Every non-closed set has at least one accumulation point.</div></article><div class="para" id="p-935">We now introduce three special classes of subsets of <span class="process-math">\(\mathbb{R}\text{:}\)</span> compact, connected, and disconnected.</div>
+<div class="para" id="p-933">Prove or provide a counterexample: Every non-closed set has at least one accumulation point.</div></article><div class="para" id="p-934">We now introduce three special classes of subsets of <span class="process-math">\(\mathbb{R}\text{:}\)</span> compact, connected, and disconnected.</div>
 <article class="definition definition-like" id="definition-36"><h3 class="heading">
 <span class="type">Definition</span><span class="space"> </span><span class="codenumber">5.86</span><span class="period">.</span>
 </h3>
-<div class="para" id="p-936">A set <span class="process-math">\(K\subseteq\mathbb{R}\)</span> is called compact if <span class="process-math">\(K\)</span> is both closed and bounded.</div></article><div class="para" id="p-937">It is important to point out that there is a more general definition of compact in an arbitrary topological space. However, using our notions of open and closed, it is a theorem that a subset of the real line is compact if and only if it is closed and bounded.</div>
+<div class="para" id="p-935">A set <span class="process-math">\(K\subseteq\mathbb{R}\)</span> is called compact if <span class="process-math">\(K\)</span> is both closed and bounded.</div></article><div class="para" id="p-936">It is important to point out that there is a more general definition of compact in an arbitrary topological space. However, using our notions of open and closed, it is a theorem that a subset of the real line is compact if and only if it is closed and bounded.</div>
 <article class="problem example-like" id="prob_compact_or_not"><h3 class="heading">
 <span class="type">Problem</span><span class="space"> </span><span class="codenumber">5.87</span><span class="period">.</span>
 </h3>
-<div class="para logical" id="p-938">
+<div class="para logical" id="p-937">
 <div class="para">Determine whether each of the following sets is compact. Briefly justify your assertions.</div>
 <ol class="lower-alpha">
-<li id="li-369"><div class="para" id="p-939"><span class="process-math">\(\displaystyle [0,1)\cup [2,3]\)</span></div></li>
-<li id="li-370"><div class="para" id="p-940"><span class="process-math">\(\displaystyle [0,1)\cup (1,2]\)</span></div></li>
-<li id="li-371"><div class="para" id="p-941"><span class="process-math">\(\displaystyle [0,1)\cup [1,2]\)</span></div></li>
-<li id="li-372"><div class="para" id="p-942"><span class="process-math">\(\displaystyle \mathbb{R}\)</span></div></li>
-<li id="li-373"><div class="para" id="p-943"><span class="process-math">\(\displaystyle \mathbb{Q}\)</span></div></li>
-<li id="li-374"><div class="para" id="p-944"><span class="process-math">\(\displaystyle \mathbb{R}\setminus\mathbb{Q}\)</span></div></li>
-<li id="li-375"><div class="para" id="p-945"><span class="process-math">\(\displaystyle \mathbb{Z}\)</span></div></li>
-<li id="li-376"><div class="para" id="p-946"><span class="process-math">\(\displaystyle \{\frac{1}{n}\mid n\in\mathbb{N}\}\)</span></div></li>
-<li id="li-377"><div class="para" id="p-947"><span class="process-math">\(\displaystyle [0,1]\cup\{1+\frac{1}{n}\mid n\in\mathbb{N}\}\)</span></div></li>
-<li id="li-378"><div class="para" id="p-948"><span class="process-math">\(\displaystyle \{17,42\}\)</span></div></li>
-<li id="li-379"><div class="para" id="p-949"><span class="process-math">\(\displaystyle \{17\}\)</span></div></li>
-<li id="li-380"><div class="para" id="p-950"><span class="process-math">\(\displaystyle \emptyset\)</span></div></li>
+<li id="li-368"><div class="para" id="p-938"><span class="process-math">\(\displaystyle [0,1)\cup [2,3]\)</span></div></li>
+<li id="li-369"><div class="para" id="p-939"><span class="process-math">\(\displaystyle [0,1)\cup (1,2]\)</span></div></li>
+<li id="li-370"><div class="para" id="p-940"><span class="process-math">\(\displaystyle [0,1)\cup [1,2]\)</span></div></li>
+<li id="li-371"><div class="para" id="p-941"><span class="process-math">\(\displaystyle \mathbb{R}\)</span></div></li>
+<li id="li-372"><div class="para" id="p-942"><span class="process-math">\(\displaystyle \mathbb{Q}\)</span></div></li>
+<li id="li-373"><div class="para" id="p-943"><span class="process-math">\(\displaystyle \mathbb{R}\setminus\mathbb{Q}\)</span></div></li>
+<li id="li-374"><div class="para" id="p-944"><span class="process-math">\(\displaystyle \mathbb{Z}\)</span></div></li>
+<li id="li-375"><div class="para" id="p-945"><span class="process-math">\(\displaystyle \{\frac{1}{n}\mid n\in\mathbb{N}\}\)</span></div></li>
+<li id="li-376"><div class="para" id="p-946"><span class="process-math">\(\displaystyle [0,1]\cup\{1+\frac{1}{n}\mid n\in\mathbb{N}\}\)</span></div></li>
+<li id="li-377"><div class="para" id="p-947"><span class="process-math">\(\displaystyle \{17,42\}\)</span></div></li>
+<li id="li-378"><div class="para" id="p-948"><span class="process-math">\(\displaystyle \{17\}\)</span></div></li>
+<li id="li-379"><div class="para" id="p-949"><span class="process-math">\(\displaystyle \emptyset\)</span></div></li>
 </ol>
 </div></article><article class="problem example-like" id="problem-107"><h3 class="heading">
 <span class="type">Problem</span><span class="space"> </span><span class="codenumber">5.88</span><span class="period">.</span>
 </h3>
-<div class="para" id="p-951">Is every finite set compact? Justify your assertion.</div></article><div class="para" id="p-952">The next theorem says that every nonempty compact set contains its greatest lower bound and its least upper bound. That is, every nonempty compact set attains a minimum and a maximum value.</div>
+<div class="para" id="p-950">Is every finite set compact? Justify your assertion.</div></article><div class="para" id="p-951">The next theorem says that every nonempty compact set contains its greatest lower bound and its least upper bound. That is, every nonempty compact set attains a minimum and a maximum value.</div>
 <article class="theorem theorem-like" id="theorem-109"><h3 class="heading">
 <span class="type">Theorem</span><span class="space"> </span><span class="codenumber">5.89</span><span class="period">.</span>
 </h3>
-<div class="para" id="p-953">If <span class="process-math">\(K\)</span> is a nonempty compact subset of <span class="process-math">\(\mathbb{R}\text{,}\)</span> then <span class="process-math">\(\sup(K),\inf(K)\in K\text{.}\)</span>
+<div class="para" id="p-952">If <span class="process-math">\(K\)</span> is a nonempty compact subset of <span class="process-math">\(\mathbb{R}\text{,}\)</span> then <span class="process-math">\(\sup(K),\inf(K)\in K\text{.}\)</span>
 </div></article><article class="definition definition-like" id="definition-37"><h3 class="heading">
 <span class="type">Definition</span><span class="space"> </span><span class="codenumber">5.90</span><span class="period">.</span>
 </h3>
-<div class="para" id="p-954">A set <span class="process-math">\(A\subseteq \mathbb{R}\)</span> is disconnected if there exists two disjoint open sets <span class="process-math">\(U_1\)</span> and <span class="process-math">\(U_2\)</span> such that <span class="process-math">\(A\cap U_1\)</span> and <span class="process-math">\(A\cap U_2\)</span> are nonempty but <span class="process-math">\(A\subseteq U_1\cup U_2\)</span> (equivalently, <span class="process-math">\(A=(A\cap U_1)\cup(A\cap U_2)\)</span>). If a set is not disconnected, then we say that it is connected.</div></article><div class="para" id="p-955">In other words, a set is disconnected if it can be partitioned into two nonempty subsets such that each subset does not contain points of the other and does not contain any accumulation points of the other. Showing that a set is disconnected is generally easier than showing a set is connected. To prove that a set is disconnected, you simply need to exhibit two open sets with the necessary properties. However, to prove that a set is connected, you need to prove that no such pair of open sets exists.</div>
+<div class="para" id="p-953">A set <span class="process-math">\(A\subseteq \mathbb{R}\)</span> is disconnected if there exists two disjoint open sets <span class="process-math">\(U_1\)</span> and <span class="process-math">\(U_2\)</span> such that <span class="process-math">\(A\cap U_1\)</span> and <span class="process-math">\(A\cap U_2\)</span> are nonempty but <span class="process-math">\(A\subseteq U_1\cup U_2\)</span> (equivalently, <span class="process-math">\(A=(A\cap U_1)\cup(A\cap U_2)\)</span>). If a set is not disconnected, then we say that it is connected.</div></article><div class="para" id="p-954">In other words, a set is disconnected if it can be partitioned into two nonempty subsets such that each subset does not contain points of the other and does not contain any accumulation points of the other. Showing that a set is disconnected is generally easier than showing a set is connected. To prove that a set is disconnected, you simply need to exhibit two open sets with the necessary properties. However, to prove that a set is connected, you need to prove that no such pair of open sets exists.</div>
 <article class="problem example-like" id="problem-108"><h3 class="heading">
 <span class="type">Problem</span><span class="space"> </span><span class="codenumber">5.91</span><span class="period">.</span>
 </h3>
-<div class="para" id="p-956">Determine whether each of the sets in <a href="" class="xref" data-knowl="./knowl/prob_compact_or_not.html" title="Problem 5.87">Problem 5.87</a> is is connected or disconnected. Briefly justify your assertions.</div></article><article class="theorem theorem-like" id="theorem-110"><h3 class="heading">
+<div class="para" id="p-955">Determine whether each of the sets in <a href="" class="xref" data-knowl="./knowl/prob_compact_or_not.html" title="Problem 5.87">Problem 5.87</a> is is connected or disconnected. Briefly justify your assertions.</div></article><article class="theorem theorem-like" id="theorem-110"><h3 class="heading">
 <span class="type">Theorem</span><span class="space"> </span><span class="codenumber">5.92</span><span class="period">.</span>
 </h3>
-<div class="para" id="p-957">If <span class="process-math">\(a\in\mathbb{R}\text{,}\)</span> then <span class="process-math">\(\{a\}\)</span> is connected.</div></article><div class="para" id="p-958">The proof of the next theorem is harder than you might expect. Consider a proof by contradiction and try to make use of the Completeness Axiom.</div>
+<div class="para" id="p-956">If <span class="process-math">\(a\in\mathbb{R}\text{,}\)</span> then <span class="process-math">\(\{a\}\)</span> is connected.</div></article><div class="para" id="p-957">The proof of the next theorem is harder than you might expect. Consider a proof by contradiction and try to make use of the Completeness Axiom.</div>
 <article class="theorem theorem-like" id="thm_closed_interval_connected"><h3 class="heading">
 <span class="type">Theorem</span><span class="space"> </span><span class="codenumber">5.93</span><span class="period">.</span>
 </h3>
-<div class="para" id="p-959">Every closed interval <span class="process-math">\([a,b]\)</span> is connected.</div></article><div class="para" id="p-960">It turns out that every connected set in <span class="process-math">\(\mathbb{R}\)</span> is either a singleton or an interval. We have not officially proved this claim, but we do have the tools to do so. Feel free to try your hand at proving this fact.</div>
+<div class="para" id="p-958">Every closed interval <span class="process-math">\([a,b]\)</span> is connected.</div></article><div class="para" id="p-959">It turns out that every connected set in <span class="process-math">\(\mathbb{R}\)</span> is either a singleton or an interval. We have not officially proved this claim, but we do have the tools to do so. Feel free to try your hand at proving this fact.</div>
 <blockquote class="blockquote" id="blockquote-29">
-<div class="para" id="p-961">If you learn how to learn, it’s the ultimate meta skill and I believe you can learn how to be healthy, you can learn how to be fit, you can learn how to be happy, you can learn how to have good relationships, you can learn how to be successful. These are all things that can be learned. So if you can learn that is a trump card, it’s an ace, it’s a joker, it’s a wild card. You can trade it for any other skill.</div> <cite class="attribution">―Naval Ravikant, entrepreneur &amp; investor</cite>
+<div class="para" id="p-960">If you learn how to learn, it’s the ultimate meta skill and I believe you can learn how to be healthy, you can learn how to be fit, you can learn how to be happy, you can learn how to have good relationships, you can learn how to be successful. These are all things that can be learned. So if you can learn that is a trump card, it’s an ace, it’s a joker, it’s a wild card. You can trade it for any other skill.</div> <cite class="attribution">―Naval Ravikant, entrepreneur &amp; investor</cite>
 </blockquote></section></div>
 <div class="ptx-content-footer">
 <a class="previous-button button" href="sec_AxiomsRealNumbers.html" title="Previous"><span class="icon">&lt;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon">^</span><span class="name">Top</span></a><a class="next-button button" href="chap_ThreeFamousTheorems.html" title="Next"><span class="name">Next</span><span class="icon">&gt;</span></a>

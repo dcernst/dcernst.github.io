@@ -11,8 +11,15 @@
 <meta name="robots" content="noindex, nofollow">
 </head>
 <body class="ignore-math">
-<h3 class="heading"><span class="type">Paragraph</span></h3>
-<div class="para">Loosely speaking, a real function <span class="process-math">\(f\)</span> is continuous at the point <span class="process-math">\(a\in\dom(f)\)</span> if we can get <span class="process-math">\(f(x)\)</span> arbitrarily close to <span class="process-math">\(f(a)\)</span> by considering all <span class="process-math">\(x\in\dom(f)\)</span> sufficiently close to <span class="process-math">\(a\text{.}\)</span> The value <span class="process-math">\(\varepsilon\)</span> is indicating how close to <span class="process-math">\(f(a)\)</span> we need to be while the value <span class="process-math">\(\delta\)</span> is providing the “window” around <span class="process-math">\(a\)</span> needed to guarantee that all points in the window (and in the domain) yield outputs within <span class="process-math">\(\varepsilon\)</span> of <span class="process-math">\(f(a)\text{.}\)</span> <a href="" class="xref" data-knowl="./knowl/fig_continuity.html" title="Figure 8.99">Figure 8.99</a> illustrates our definition of continuity. Note that in the figure, the point <span class="process-math">\(a\)</span> is fixed while we need to consider all <span class="process-math">\(x\in\dom(f)\)</span> such that <span class="process-math">\(|x-a|\lt \delta\text{.}\)</span> The dashed box in the figure has dimensions <span class="process-math">\(2\delta\)</span> by <span class="process-math">\(2\varepsilon\)</span> and is centered at the point <span class="process-math">\((a,f(a))\text{.}\)</span> Intuitively, the function is continuous at <span class="process-math">\(a\)</span> since given <span class="process-math">\(\varepsilon&gt;0\text{,}\)</span> we could find <span class="process-math">\(\delta &gt;0\)</span> so that the graph of the function never exits the top or bottom of the dashed box.</div>
+<h4 class="heading"><span class="type">Paragraph</span></h4>
+<div class="para logical">
+<div class="para">Define <span class="process-math">\(f:\mathbb{R}\to\mathbb{R}\)</span> via <span class="process-math">\(f(x)=3x+2\text{.}\)</span> Let’s prove that <span class="process-math">\(f\)</span> is continuous (at every point in the domain). Let <span class="process-math">\(a\in\mathbb{R}\)</span> and let <span class="process-math">\(\varepsilon&gt;0\text{.}\)</span> Choose <span class="process-math">\(\delta=\varepsilon/3\text{.}\)</span> We will see in a moment why this is a good choice for <span class="process-math">\(\delta\text{.}\)</span> Suppose <span class="process-math">\(x\in\mathbb{R}\)</span> such that <span class="process-math">\(|x-a|\lt \delta\text{.}\)</span> We see that</div>
+<div class="displaymath process-math">
+\begin{equation*}
+|f(x)-f(a)|=|(3x+2)-(3a+2)|=|3x-3a| = 3\cdot |x-a|\lt 3\cdot \delta = 3\cdot \varepsilon/3 =\varepsilon\text{.}
+\end{equation*}
+</div>
+</div>
 <span class="incontext"><a href="sec_Continuity.html#p-1544" class="internal">in-context</a></span>
 </body>
 </html>

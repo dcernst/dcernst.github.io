@@ -324,11 +324,11 @@ window.MathJax = {
 <main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="section" id="sec_Intro_to_Functions"><h2 class="heading hide-type">
 <span class="type">Section</span> <span class="codenumber">8.1</span> <span class="title">Introduction to Functions</span>
 </h2>
-<div class="para" id="p-1268">Up until this point, you may have only encountered functions as an algebraic rule, e.g., <span class="process-math">\(f(x)=x^{2}-1\text{,}\)</span> for transforming one real number into another. However, we can study functions in a much broader context. The basic building blocks of a function are a first set and a second set, say <span class="process-math">\(X\)</span> and <span class="process-math">\(Y\text{,}\)</span> and a “correspondence” that assigns <em class="emphasis">every</em> element of <span class="process-math">\(X\)</span> to <em class="emphasis">exactly one</em> element of <span class="process-math">\(Y\text{.}\)</span> Let’s take a look at the actual definition.</div>
+<div class="para" id="p-1265">Up until this point, you may have only encountered functions as an algebraic rule, e.g., <span class="process-math">\(f(x)=x^{2}-1\text{,}\)</span> for transforming one real number into another. However, we can study functions in a much broader context. The basic building blocks of a function are a first set and a second set, say <span class="process-math">\(X\)</span> and <span class="process-math">\(Y\text{,}\)</span> and a “correspondence” that assigns <em class="emphasis">every</em> element of <span class="process-math">\(X\)</span> to <em class="emphasis">exactly one</em> element of <span class="process-math">\(Y\text{.}\)</span> Let’s take a look at the actual definition.</div>
 <article class="definition definition-like" id="def_function"><h3 class="heading">
 <span class="type">Definition</span><span class="space"> </span><span class="codenumber">8.1</span><span class="period">.</span>
 </h3>
-<div class="para logical" id="p-1269">
+<div class="para logical" id="p-1266">
 <div class="para">Let <span class="process-math">\(X\)</span> and <span class="process-math">\(Y\)</span> be two nonempty sets. A <dfn class="terminology">function</dfn> <span class="process-math">\(f\)</span> from <span class="process-math">\(X\)</span> to <span class="process-math">\(Y\)</span> is a relation from <span class="process-math">\(X\)</span> to <span class="process-math">\(Y\)</span> such that for every <span class="process-math">\(x\in X\text{,}\)</span> there exists a unique <span class="process-math">\(y\in Y\)</span> such that <span class="process-math">\((x,y)\in f\text{.}\)</span> The set <span class="process-math">\(X\)</span> is called the <dfn class="terminology">domain</dfn> of <span class="process-math">\(f\)</span> and is denoted by <span class="process-math">\(\tcboxmath{\dom(f)}\text{.}\)</span> The set <span class="process-math">\(Y\)</span> is called the <dfn class="terminology">codomain</dfn> of <span class="process-math">\(f\)</span> and is denoted by <span class="process-math">\(\tcboxmath{\codom(f)}\)</span> while the subset of the codomain defined via</div>
 <div class="displaymath process-math">
 \begin{equation*}
@@ -337,133 +337,133 @@ window.MathJax = {
 </div>
 <div class="para">is called the <dfn class="terminology">range</dfn> of <span class="process-math">\(f\)</span> or the <dfn class="terminology">image</dfn> of <span class="process-math">\(X\)</span> under <span class="process-math">\(f\text{.}\)</span>
 </div>
-</div></article><div class="para" id="p-1270">There is a variety of notation and terminology associated to functions. We will write <span class="process-math">\(\tcboxmath{f:X\to Y}\)</span> to indicate that <span class="process-math">\(f\)</span> is a function from <span class="process-math">\(X\)</span> to <span class="process-math">\(Y\text{.}\)</span> We will make use of statements such as “Let <span class="process-math">\(f:X\to Y\)</span> be the function defined via…” or “Define <span class="process-math">\(f:X\to Y\)</span> via…”, where <span class="process-math">\(f\)</span> is understood to be a function in the second statement. Sometimes the word <dfn class="terminology">mapping</dfn> (or <dfn class="terminology">map</dfn>) is used in place of the word function. If <span class="process-math">\((a,b)\in f\)</span> for a function <span class="process-math">\(f\text{,}\)</span> we often write <span class="process-math">\(\tcboxmath{f(a)=b}\)</span> and say that “<span class="process-math">\(f\)</span> maps <span class="process-math">\(a\)</span> to <span class="process-math">\(b\)</span>” or “<span class="process-math">\(f\)</span> of <span class="process-math">\(a\)</span> equals <span class="process-math">\(b\)</span>”. In this case, <span class="process-math">\(a\)</span> may be called an <dfn class="terminology">input</dfn> of <span class="process-math">\(f\)</span> and is the <dfn class="terminology">preimage</dfn> of <span class="process-math">\(b\)</span> under <span class="process-math">\(f\)</span> while <span class="process-math">\(b\)</span> is called an <dfn class="terminology">output</dfn> of <span class="process-math">\(f\)</span> and is the <dfn class="terminology">image</dfn> of <span class="process-math">\(a\)</span> under <span class="process-math">\(f\text{.}\)</span> Note that the domain of a function is the set of inputs while the range is the set of outputs for the function.</div>
-<div class="para" id="p-1271">According to our definition, if <span class="process-math">\(f:X\to Y\)</span> is a function, then every element of the domain is utilized exactly once. However, there are no restrictions on whether an element of the codomain ever appears in the second coordinate of an ordered pair in the relation. Yet if an element of <span class="process-math">\(Y\)</span> is in the range of <span class="process-math">\(f\text{,}\)</span> it may appear in more than one ordered pair in the relation.</div>
-<div class="para" id="p-1272">It follows immediately from the definition of function that two functions are equal if and only if they have the same domain, same codomain, and the same set of ordered pairs in the relation. That is, functions <span class="process-math">\(f\)</span> and <span class="process-math">\(g\)</span> are equal if and only if <span class="process-math">\(\dom(f)=\dom(g)\text{,}\)</span> <span class="process-math">\(\codom(f)=\codom(g)\text{,}\)</span> and <span class="process-math">\(f(x)=g(x)\)</span> for all <span class="process-math">\(x\in X\text{.}\)</span>
+</div></article><div class="para" id="p-1267">There is a variety of notation and terminology associated to functions. We will write <span class="process-math">\(\tcboxmath{f:X\to Y}\)</span> to indicate that <span class="process-math">\(f\)</span> is a function from <span class="process-math">\(X\)</span> to <span class="process-math">\(Y\text{.}\)</span> We will make use of statements such as “Let <span class="process-math">\(f:X\to Y\)</span> be the function defined via…” or “Define <span class="process-math">\(f:X\to Y\)</span> via…”, where <span class="process-math">\(f\)</span> is understood to be a function in the second statement. Sometimes the word <dfn class="terminology">mapping</dfn> (or <dfn class="terminology">map</dfn>) is used in place of the word function. If <span class="process-math">\((a,b)\in f\)</span> for a function <span class="process-math">\(f\text{,}\)</span> we often write <span class="process-math">\(\tcboxmath{f(a)=b}\)</span> and say that “<span class="process-math">\(f\)</span> maps <span class="process-math">\(a\)</span> to <span class="process-math">\(b\)</span>” or “<span class="process-math">\(f\)</span> of <span class="process-math">\(a\)</span> equals <span class="process-math">\(b\)</span>”. In this case, <span class="process-math">\(a\)</span> may be called an <dfn class="terminology">input</dfn> of <span class="process-math">\(f\)</span> and is the <dfn class="terminology">preimage</dfn> of <span class="process-math">\(b\)</span> under <span class="process-math">\(f\)</span> while <span class="process-math">\(b\)</span> is called an <dfn class="terminology">output</dfn> of <span class="process-math">\(f\)</span> and is the <dfn class="terminology">image</dfn> of <span class="process-math">\(a\)</span> under <span class="process-math">\(f\text{.}\)</span> Note that the domain of a function is the set of inputs while the range is the set of outputs for the function.</div>
+<div class="para" id="p-1268">According to our definition, if <span class="process-math">\(f:X\to Y\)</span> is a function, then every element of the domain is utilized exactly once. However, there are no restrictions on whether an element of the codomain ever appears in the second coordinate of an ordered pair in the relation. Yet if an element of <span class="process-math">\(Y\)</span> is in the range of <span class="process-math">\(f\text{,}\)</span> it may appear in more than one ordered pair in the relation.</div>
+<div class="para" id="p-1269">It follows immediately from the definition of function that two functions are equal if and only if they have the same domain, same codomain, and the same set of ordered pairs in the relation. That is, functions <span class="process-math">\(f\)</span> and <span class="process-math">\(g\)</span> are equal if and only if <span class="process-math">\(\dom(f)=\dom(g)\text{,}\)</span> <span class="process-math">\(\codom(f)=\codom(g)\text{,}\)</span> and <span class="process-math">\(f(x)=g(x)\)</span> for all <span class="process-math">\(x\in X\text{.}\)</span>
 </div>
-<div class="para" id="p-1273">Since functions are special types of relations, we can represent them using digraphs and graphs when practical. Digraphs for functions are often called <dfn class="terminology">function</dfn> (or <dfn class="terminology">mapping</dfn>) <dfn class="terminology">diagrams</dfn>. When drawing function diagrams, it is standard practice to put the vertices for the domain on the left and the vertices for the codomain on the right, so that all directed edges point from left to right. We may also draw an additional arrow labeled by the name of the function from the domain to the codomain.</div>
+<div class="para" id="p-1270">Since functions are special types of relations, we can represent them using digraphs and graphs when practical. Digraphs for functions are often called <dfn class="terminology">function</dfn> (or <dfn class="terminology">mapping</dfn>) <dfn class="terminology">diagrams</dfn>. When drawing function diagrams, it is standard practice to put the vertices for the domain on the left and the vertices for the codomain on the right, so that all directed edges point from left to right. We may also draw an additional arrow labeled by the name of the function from the domain to the codomain.</div>
 <article class="example example-like" id="ex_function"><h3 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">8.2</span><span class="period">.</span>
 </h3>
-<div class="para logical" id="p-1274">
+<div class="para logical" id="p-1271">
 <div class="para">Let <span class="process-math">\(X=\{a,b,c,d\}\)</span> to <span class="process-math">\(Y=\{1,2,3,4\}\)</span> and define the relation <span class="process-math">\(f\)</span> from <span class="process-math">\(X\)</span> to <span class="process-math">\(Y\)</span> via</div>
 <div class="displaymath process-math">
 \begin{equation*}
 f=\{(a,2),(b,4),(c,4),(d,1)\}\text{.}
 \end{equation*}
 </div>
-</div> <div class="para" id="p-1275">Since each element <span class="process-math">\(X\)</span> appears exactly once as a first coordinate, <span class="process-math">\(f\)</span> is a function with domain <span class="process-math">\(X\)</span> and codomain <span class="process-math">\(Y\)</span> (i.e., <span class="process-math">\(f:X\to Y\)</span>). In this case, we see that <span class="process-math">\(\range(f)=\{1,2,4\}\text{.}\)</span> Moreover, we can write things like <span class="process-math">\(f(a)=2\)</span> and <span class="process-math">\(c\mapsto 4\text{,}\)</span> and say things like “<span class="process-math">\(f\)</span> maps <span class="process-math">\(b\)</span> to 4” and “the image of <span class="process-math">\(d\)</span> is 1.” The function diagram for <span class="process-math">\(f\)</span> is depicted in <a href="" class="xref" data-knowl="./knowl/fig_function_diagram.html" title="Figure 8.3">Figure 8.3</a>.</div></article><figure class="figure figure-like" id="fig_function_diagram"><div class="image-box" style="width: 50%; margin-left: 25%; margin-right: 25%;"><img src="generated/latex-image/function_diagram.svg" role="img" class="contained"></div>
+</div> <div class="para" id="p-1272">Since each element <span class="process-math">\(X\)</span> appears exactly once as a first coordinate, <span class="process-math">\(f\)</span> is a function with domain <span class="process-math">\(X\)</span> and codomain <span class="process-math">\(Y\)</span> (i.e., <span class="process-math">\(f:X\to Y\)</span>). In this case, we see that <span class="process-math">\(\range(f)=\{1,2,4\}\text{.}\)</span> Moreover, we can write things like <span class="process-math">\(f(a)=2\)</span> and <span class="process-math">\(c\mapsto 4\text{,}\)</span> and say things like “<span class="process-math">\(f\)</span> maps <span class="process-math">\(b\)</span> to 4” and “the image of <span class="process-math">\(d\)</span> is 1.” The function diagram for <span class="process-math">\(f\)</span> is depicted in <a href="" class="xref" data-knowl="./knowl/fig_function_diagram.html" title="Figure 8.3">Figure 8.3</a>.</div></article><figure class="figure figure-like" id="fig_function_diagram"><div class="image-box" style="width: 50%; margin-left: 25%; margin-right: 25%;"><img src="generated/latex-image/function_diagram.svg" role="img" class="contained"></div>
 <figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">8.3<span class="period">.</span></span><span class="space"> </span>Function diagram for a function from <span class="process-math">\(X=\{a,b,c,d,\}\)</span> to <span class="process-math">\(Y=\{1,2,3,4\}\text{.}\)</span></figcaption></figure><article class="problem example-like" id="problem-169"><h3 class="heading">
 <span class="type">Problem</span><span class="space"> </span><span class="codenumber">8.4</span><span class="period">.</span>
 </h3>
-<div class="para logical" id="p-1276">
+<div class="para logical" id="p-1273">
 <div class="para">Determine whether each of the relations defined in the following examples and problems is a function.</div>
 <ol class="lower-alpha">
-<li id="li-461"><div class="para" id="p-1277">
+<li id="li-460"><div class="para" id="p-1274">
 <a href="" class="xref" data-knowl="./knowl/ex_relation_finite_to_finite.html" title="Example 7.3">Example 7.3</a> (see <a href="" class="xref" data-knowl="./knowl/fig_digraph_finite_to_finite.html" title="Figure 7.10">Figure 7.10</a>)</div></li>
-<li id="li-462"><div class="para" id="p-1278">
+<li id="li-461"><div class="para" id="p-1275">
 <a href="" class="xref" data-knowl="./knowl/ex_circle.html" title="Example 7.16">Example 7.16</a> (see <a href="" class="xref" data-knowl="./knowl/fig_unit_circle.html" title="Figure 7.17">Figure 7.17</a>)</div></li>
-<li id="li-463"><div class="para" id="p-1279"><a href="" class="xref" data-knowl="./knowl/prob_parabola.html" title="Problem 7.18">Problem 7.18</a></div></li>
-<li id="li-464"><div class="para" id="p-1280"><a href="" class="xref" data-knowl="./knowl/prob_facebook.html" title="Problem 7.24">Problem 7.24</a></div></li>
+<li id="li-462"><div class="para" id="p-1276"><a href="" class="xref" data-knowl="./knowl/prob_parabola.html" title="Problem 7.18">Problem 7.18</a></div></li>
+<li id="li-463"><div class="para" id="p-1277"><a href="" class="xref" data-knowl="./knowl/prob_facebook.html" title="Problem 7.24">Problem 7.24</a></div></li>
 </ol>
 </div></article><article class="problem example-like" id="prob_lots_of_potential_functions"><h3 class="heading">
 <span class="type">Problem</span><span class="space"> </span><span class="codenumber">8.5</span><span class="period">.</span>
 </h3>
-<div class="para logical" id="p-1281">
+<div class="para logical" id="p-1278">
 <div class="para">Let <span class="process-math">\(X=\{\circ, \square,\triangle,\alpha\}\)</span> and <span class="process-math">\(Y=\{a,b,c,d,e\}\text{.}\)</span> For each of the following relations, draw the corresponding digraph and determine whether the relation represents a function from <span class="process-math">\(X\)</span> to <span class="process-math">\(Y\text{,}\)</span> <span class="process-math">\(Y\)</span> to <span class="process-math">\(X\text{,}\)</span> <span class="process-math">\(X\)</span> to <span class="process-math">\(X\text{,}\)</span> or does not represent a function. If the relation is a function, determine the domain, codomain, and range.</div>
 <ol class="lower-alpha">
-<li id="li-465"><div class="para" id="p-1282"><span class="process-math">\(\displaystyle f=\{(\circ, a),(\square,b),(\triangle,c),(\alpha,d)\}\)</span></div></li>
-<li id="li-466"><div class="para" id="p-1283"><span class="process-math">\(\displaystyle g=\{(\circ, a),(\square,b),(\triangle,c),(\alpha,c)\}\)</span></div></li>
-<li id="li-467"><div class="para" id="p-1284"><span class="process-math">\(\displaystyle h=\{(\circ, a),(\square,b),(\triangle,c),(\circ,d)\}\)</span></div></li>
-<li id="li-468"><div class="para" id="p-1285"><span class="process-math">\(\displaystyle k=\{(\circ,
+<li id="li-464"><div class="para" id="p-1279"><span class="process-math">\(\displaystyle f=\{(\circ, a),(\square,b),(\triangle,c),(\alpha,d)\}\)</span></div></li>
+<li id="li-465"><div class="para" id="p-1280"><span class="process-math">\(\displaystyle g=\{(\circ, a),(\square,b),(\triangle,c),(\alpha,c)\}\)</span></div></li>
+<li id="li-466"><div class="para" id="p-1281"><span class="process-math">\(\displaystyle h=\{(\circ, a),(\square,b),(\triangle,c),(\circ,d)\}\)</span></div></li>
+<li id="li-467"><div class="para" id="p-1282"><span class="process-math">\(\displaystyle k=\{(\circ,
 a),(\square,b),(\triangle,c),(\alpha,d),(\square,e)\}\)</span></div></li>
-<li id="li-469"><div class="para" id="p-1286"><span class="process-math">\(\displaystyle l=\{(\circ, e),(\square,e),(\triangle,e),(\alpha,e)\}\)</span></div></li>
-<li id="li-470"><div class="para" id="p-1287"><span class="process-math">\(\displaystyle m=\{(\circ, a),(\triangle,b),(\alpha,c)\}\)</span></div></li>
-<li id="prob_identity"><div class="para" id="p-1288"><span class="process-math">\(\displaystyle i=\{(\circ,\circ),(\square, \square),(\triangle,\triangle),(\alpha,\alpha)\}\)</span></div></li>
-<li id="prob_happy"><div class="para" id="p-1289">Define the relation <span class="process-math">\(\operatorname{happy}\)</span> from <span class="process-math">\(Y\)</span> to <span class="process-math">\(X\)</span> via <span class="process-math">\((y,\alpha)\in\operatorname{happy}\)</span> for all <span class="process-math">\(y\in Y\text{.}\)</span>
+<li id="li-468"><div class="para" id="p-1283"><span class="process-math">\(\displaystyle l=\{(\circ, e),(\square,e),(\triangle,e),(\alpha,e)\}\)</span></div></li>
+<li id="li-469"><div class="para" id="p-1284"><span class="process-math">\(\displaystyle m=\{(\circ, a),(\triangle,b),(\alpha,c)\}\)</span></div></li>
+<li id="prob_identity"><div class="para" id="p-1285"><span class="process-math">\(\displaystyle i=\{(\circ,\circ),(\square, \square),(\triangle,\triangle),(\alpha,\alpha)\}\)</span></div></li>
+<li id="prob_happy"><div class="para" id="p-1286">Define the relation <span class="process-math">\(\operatorname{happy}\)</span> from <span class="process-math">\(Y\)</span> to <span class="process-math">\(X\)</span> via <span class="process-math">\((y,\alpha)\in\operatorname{happy}\)</span> for all <span class="process-math">\(y\in Y\text{.}\)</span>
 </div></li>
-<li id="prob_nugget"><div class="para" id="p-1290"><span class="process-math">\(\displaystyle \operatorname{nugget}=\{(\circ,\circ),(\square, \square),(\triangle,\triangle),(\alpha,\square)\}\)</span></div></li>
+<li id="prob_nugget"><div class="para" id="p-1287"><span class="process-math">\(\displaystyle \operatorname{nugget}=\{(\circ,\circ),(\square, \square),(\triangle,\triangle),(\alpha,\square)\}\)</span></div></li>
 </ol>
-</div></article><div class="para" id="p-1291">The last two parts of the previous problem make it clear that functions may have names consisting of more than one letter. The function names <span class="process-math">\(\sin\text{,}\)</span> <span class="process-math">\(\cos\text{,}\)</span> <span class="process-math">\(\log\text{,}\)</span> and <span class="process-math">\(\ln\)</span> are instances of this that you have likely encountered in your previous experience in mathematics. One thing that you may have never noticed is the type of font that we use for function names. It is common to italicize generic function names like <span class="process-math">\(f\)</span> but not common function names like <span class="process-math">\(\sin\text{.}\)</span> However, we always italicize the variables used to represent the input and output for a function. For example, consider the font types used in the expressions <span class="process-math">\(\sin(x)\)</span> and <span class="process-math">\(\ln(a)\text{.}\)</span>
+</div></article><div class="para" id="p-1288">The last two parts of the previous problem make it clear that functions may have names consisting of more than one letter. The function names <span class="process-math">\(\sin\text{,}\)</span> <span class="process-math">\(\cos\text{,}\)</span> <span class="process-math">\(\log\text{,}\)</span> and <span class="process-math">\(\ln\)</span> are instances of this that you have likely encountered in your previous experience in mathematics. One thing that you may have never noticed is the type of font that we use for function names. It is common to italicize generic function names like <span class="process-math">\(f\)</span> but not common function names like <span class="process-math">\(\sin\text{.}\)</span> However, we always italicize the variables used to represent the input and output for a function. For example, consider the font types used in the expressions <span class="process-math">\(\sin(x)\)</span> and <span class="process-math">\(\ln(a)\text{.}\)</span>
 </div>
 <article class="problem example-like" id="problem-171"><h3 class="heading">
 <span class="type">Problem</span><span class="space"> </span><span class="codenumber">8.6</span><span class="period">.</span>
 </h3>
-<div class="para" id="p-1292">What properties does the digraph for a relation from <span class="process-math">\(X\)</span> to <span class="process-math">\(Y\)</span> need to have in order for it to represent a function?</div></article><article class="problem example-like" id="problem-172"><h3 class="heading">
+<div class="para" id="p-1289">What properties does the digraph for a relation from <span class="process-math">\(X\)</span> to <span class="process-math">\(Y\)</span> need to have in order for it to represent a function?</div></article><article class="problem example-like" id="problem-172"><h3 class="heading">
 <span class="type">Problem</span><span class="space"> </span><span class="codenumber">8.7</span><span class="period">.</span>
 </h3>
-<div class="para" id="p-1293">In high school you may have been told that a graph represents a function if it passes the <dfn class="terminology">vertical line test</dfn>. Carefully state what the vertical line test says and then explain why it works.</div></article><div class="para" id="p-1294">Sometimes we can define a function using a formula. For example, we can write <span class="process-math">\(f(x)=x^2-1\)</span> to mean that each <span class="process-math">\(x\)</span> in the domain of <span class="process-math">\(f\)</span> maps to <span class="process-math">\(x^2-1\)</span> in the codomain. However, notice that providing only a formula is ambiguous! A function is determined by its domain, codomain, and the correspondence between these two sets. If we only provide a description for the correspondence, it is not clear what the domain and codomain are. Two functions that are defined by the same formula, but have different domains or codomains are <em class="emphasis">not</em> equal.</div>
+<div class="para" id="p-1290">In high school you may have been told that a graph represents a function if it passes the <dfn class="terminology">vertical line test</dfn>. Carefully state what the vertical line test says and then explain why it works.</div></article><div class="para" id="p-1291">Sometimes we can define a function using a formula. For example, we can write <span class="process-math">\(f(x)=x^2-1\)</span> to mean that each <span class="process-math">\(x\)</span> in the domain of <span class="process-math">\(f\)</span> maps to <span class="process-math">\(x^2-1\)</span> in the codomain. However, notice that providing only a formula is ambiguous! A function is determined by its domain, codomain, and the correspondence between these two sets. If we only provide a description for the correspondence, it is not clear what the domain and codomain are. Two functions that are defined by the same formula, but have different domains or codomains are <em class="emphasis">not</em> equal.</div>
 <article class="example example-like" id="example-26"><h3 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">8.8</span><span class="period">.</span>
 </h3>
-<div class="para" id="p-1295">The function <span class="process-math">\(f:\mathbb{R}\to \mathbb{R}\)</span> defined via <span class="process-math">\(f(x)=x^{2}-1\)</span> is not equal to the function <span class="process-math">\(g:\mathbb{N}\to\mathbb{R}\)</span> defined by <span class="process-math">\(g(x)=x^{2}-1\)</span> since the two functions do not have the same domain.</div></article><div class="para" id="p-1296">Sometimes we rely on context to interpret the domain and codomain. For example, in a calculus class, when we describe a function in terms of a formula, we are implicitly assuming that the domain is the largest allowable subset of <span class="process-math">\(\mathbb{R}\)</span>—sometimes called the <dfn class="terminology">default domain</dfn>—that makes sense for the given formula while the codomain is <span class="process-math">\(\mathbb{R}\text{.}\)</span>
+<div class="para" id="p-1292">The function <span class="process-math">\(f:\mathbb{R}\to \mathbb{R}\)</span> defined via <span class="process-math">\(f(x)=x^{2}-1\)</span> is not equal to the function <span class="process-math">\(g:\mathbb{N}\to\mathbb{R}\)</span> defined by <span class="process-math">\(g(x)=x^{2}-1\)</span> since the two functions do not have the same domain.</div></article><div class="para" id="p-1293">Sometimes we rely on context to interpret the domain and codomain. For example, in a calculus class, when we describe a function in terms of a formula, we are implicitly assuming that the domain is the largest allowable subset of <span class="process-math">\(\mathbb{R}\)</span>—sometimes called the <dfn class="terminology">default domain</dfn>—that makes sense for the given formula while the codomain is <span class="process-math">\(\mathbb{R}\text{.}\)</span>
 </div>
 <article class="example example-like" id="example-27"><h3 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">8.9</span><span class="period">.</span>
 </h3>
-<div class="para" id="p-1297">If we write <span class="process-math">\(f(x)=x^2-1\text{,}\)</span> <span class="process-math">\(g(x)=\sqrt{x}\text{,}\)</span> and <span class="process-math">\(h(x)=\frac{1}{x}\)</span> without mentioning the domains, we would typically interpret these as the functions <span class="process-math">\(f:\mathbb{R}\to \mathbb{R}\text{,}\)</span> <span class="process-math">\(g:[0,\infty)\to \mathbb{R}\text{,}\)</span> and <span class="process-math">\(h:\mathbb{R}\setminus \{0\}\to \mathbb{R}\)</span> that are determined by their respective formulas.</div></article><article class="problem example-like" id="problem-173"><h3 class="heading">
+<div class="para" id="p-1294">If we write <span class="process-math">\(f(x)=x^2-1\text{,}\)</span> <span class="process-math">\(g(x)=\sqrt{x}\text{,}\)</span> and <span class="process-math">\(h(x)=\frac{1}{x}\)</span> without mentioning the domains, we would typically interpret these as the functions <span class="process-math">\(f:\mathbb{R}\to \mathbb{R}\text{,}\)</span> <span class="process-math">\(g:[0,\infty)\to \mathbb{R}\text{,}\)</span> and <span class="process-math">\(h:\mathbb{R}\setminus \{0\}\to \mathbb{R}\)</span> that are determined by their respective formulas.</div></article><article class="problem example-like" id="problem-173"><h3 class="heading">
 <span class="type">Problem</span><span class="space"> </span><span class="codenumber">8.10</span><span class="period">.</span>
 </h3>
-<div class="para logical" id="p-1298">
+<div class="para logical" id="p-1295">
 <div class="para">Provide an example of each of the following. You may draw a function diagram, write down a list of ordered pairs, or write a formula as long as the domain and codomain are clear.</div>
 <ol class="lower-alpha">
-<li id="li-474"><div class="para" id="p-1299">A function <span class="process-math">\(f\)</span> from a set with 4 elements to a set with 3 elements such that <span class="process-math">\(\range(f)=\codom(f)\text{.}\)</span>
+<li id="li-473"><div class="para" id="p-1296">A function <span class="process-math">\(f\)</span> from a set with 4 elements to a set with 3 elements such that <span class="process-math">\(\range(f)=\codom(f)\text{.}\)</span>
 </div></li>
-<li id="li-475"><div class="para" id="p-1300">A function <span class="process-math">\(g\)</span> from a set with 4 elements to a set with 3 elements such that <span class="process-math">\(\range(g)\)</span> is strictly smaller than <span class="process-math">\(\codom(g)\text{.}\)</span>
+<li id="li-474"><div class="para" id="p-1297">A function <span class="process-math">\(g\)</span> from a set with 4 elements to a set with 3 elements such that <span class="process-math">\(\range(g)\)</span> is strictly smaller than <span class="process-math">\(\codom(g)\text{.}\)</span>
 </div></li>
 </ol>
 </div></article><article class="problem example-like" id="problem-174"><h3 class="heading">
 <span class="type">Problem</span><span class="space"> </span><span class="codenumber">8.11</span><span class="period">.</span>
 </h3>
-<div class="para" id="p-1301">Let <span class="process-math">\(f:X\to Y\)</span> be a function and suppose that <span class="process-math">\(X\)</span> and <span class="process-math">\(Y\)</span> are finite sets with <span class="process-math">\(n\)</span> and <span class="process-math">\(m\)</span> elements, respectively, such that <span class="process-math">\(n\lt m\text{.}\)</span> Is it possible for <span class="process-math">\(\range(f)=\codom(f)\text{?}\)</span> If so, provide an example. If this is not possible, explain why.</div></article><div class="para" id="p-1302">There are a few special functions that we should know the names of.</div>
+<div class="para" id="p-1298">Let <span class="process-math">\(f:X\to Y\)</span> be a function and suppose that <span class="process-math">\(X\)</span> and <span class="process-math">\(Y\)</span> are finite sets with <span class="process-math">\(n\)</span> and <span class="process-math">\(m\)</span> elements, respectively, such that <span class="process-math">\(n\lt m\text{.}\)</span> Is it possible for <span class="process-math">\(\range(f)=\codom(f)\text{?}\)</span> If so, provide an example. If this is not possible, explain why.</div></article><div class="para" id="p-1299">There are a few special functions that we should know the names of.</div>
 <article class="definition definition-like" id="definition-53"><h3 class="heading">
 <span class="type">Definition</span><span class="space"> </span><span class="codenumber">8.12</span><span class="period">.</span>
 </h3>
-<div class="para" id="p-1303">If <span class="process-math">\(X\)</span> and <span class="process-math">\(Y\)</span> are nonempty sets such that <span class="process-math">\(X\subseteq Y\text{,}\)</span> then the function <span class="process-math">\(\iota:X\to Y\)</span> defined via <span class="process-math">\(\iota(x)=x\)</span> is called the <dfn class="terminology">inclusion map</dfn> from <span class="process-math">\(X\)</span> into <span class="process-math">\(Y\text{.}\)</span>
-</div></article><div class="para" id="p-1304">Note that “<span class="process-math">\(\iota\)</span>” is the Greek letter “iota”.</div>
+<div class="para" id="p-1300">If <span class="process-math">\(X\)</span> and <span class="process-math">\(Y\)</span> are nonempty sets such that <span class="process-math">\(X\subseteq Y\text{,}\)</span> then the function <span class="process-math">\(\iota:X\to Y\)</span> defined via <span class="process-math">\(\iota(x)=x\)</span> is called the <dfn class="terminology">inclusion map</dfn> from <span class="process-math">\(X\)</span> into <span class="process-math">\(Y\text{.}\)</span>
+</div></article><div class="para" id="p-1301">Note that “<span class="process-math">\(\iota\)</span>” is the Greek letter “iota”.</div>
 <article class="problem example-like" id="problem-175"><h3 class="heading">
 <span class="type">Problem</span><span class="space"> </span><span class="codenumber">8.13</span><span class="period">.</span>
 </h3>
-<div class="para" id="p-1305">Let <span class="process-math">\(X=\{a,b,c\}\)</span> and <span class="process-math">\(Y=\{a,b,c,d\}\text{.}\)</span> Draw the function diagram of the inclusion map from <span class="process-math">\(X\)</span> into <span class="process-math">\(Y\text{.}\)</span>
-</div></article><div class="para" id="p-1306">If the domain and codomain are equal, the inclusion map has a special name.</div>
+<div class="para" id="p-1302">Let <span class="process-math">\(X=\{a,b,c\}\)</span> and <span class="process-math">\(Y=\{a,b,c,d\}\text{.}\)</span> Draw the function diagram of the inclusion map from <span class="process-math">\(X\)</span> into <span class="process-math">\(Y\text{.}\)</span>
+</div></article><div class="para" id="p-1303">If the domain and codomain are equal, the inclusion map has a special name.</div>
 <article class="definition definition-like" id="definition-54"><h3 class="heading">
 <span class="type">Definition</span><span class="space"> </span><span class="codenumber">8.14</span><span class="period">.</span>
 </h3>
-<div class="para" id="p-1307">If <span class="process-math">\(X\)</span> is a nonempty set, then the function <span class="process-math">\(i_X:X\to X\)</span> defined via <span class="process-math">\(i_X(x)=x\)</span> is called the <dfn class="terminology">identity map</dfn> (or identity function) on <span class="process-math">\(X\text{.}\)</span>
+<div class="para" id="p-1304">If <span class="process-math">\(X\)</span> is a nonempty set, then the function <span class="process-math">\(i_X:X\to X\)</span> defined via <span class="process-math">\(i_X(x)=x\)</span> is called the <dfn class="terminology">identity map</dfn> (or identity function) on <span class="process-math">\(X\text{.}\)</span>
 </div></article><article class="example example-like" id="example-28"><h3 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">8.15</span><span class="period">.</span>
 </h3>
-<div class="para" id="p-1308">The relation defined in <a href="" class="xref" data-knowl="./knowl/prob_lots_of_potential_functions.html" title="Problem 8.5">Problem 8.5</a> <a href="" class="xref" data-knowl="./knowl/prob_identity.html" title="Item g">Item g</a> is the identity map on <span class="process-math">\(X=\{\circ, \square,\triangle,\alpha\}\text{.}\)</span>
+<div class="para" id="p-1305">The relation defined in <a href="" class="xref" data-knowl="./knowl/prob_lots_of_potential_functions.html" title="Problem 8.5">Problem 8.5</a> <a href="" class="xref" data-knowl="./knowl/prob_identity.html" title="Item g">Item g</a> is the identity map on <span class="process-math">\(X=\{\circ, \square,\triangle,\alpha\}\text{.}\)</span>
 </div></article><article class="problem example-like" id="problem-176"><h3 class="heading">
 <span class="type">Problem</span><span class="space"> </span><span class="codenumber">8.16</span><span class="period">.</span>
 </h3>
-<div class="para" id="p-1309">Draw a portion of the graph of the identity map on <span class="process-math">\(\mathbb{R}\)</span> as a subset of <span class="process-math">\(\mathbb{R}^2\text{.}\)</span>
+<div class="para" id="p-1306">Draw a portion of the graph of the identity map on <span class="process-math">\(\mathbb{R}\)</span> as a subset of <span class="process-math">\(\mathbb{R}^2\text{.}\)</span>
 </div></article><article class="problem example-like" id="problem-177"><h3 class="heading">
 <span class="type">Problem</span><span class="space"> </span><span class="codenumber">8.17</span><span class="period">.</span>
 </h3>
-<div class="para logical" id="p-1310">
+<div class="para logical" id="p-1307">
 <div class="para">Let <span class="process-math">\(A\)</span> be a nonempty set.</div>
 <ol class="lower-alpha">
-<li id="li-476"><div class="para" id="p-1311">Suppose <span class="process-math">\(R\)</span> is an equivalence relation on <span class="process-math">\(A\text{.}\)</span> What conditions on <span class="process-math">\(R\)</span> must hold in order for <span class="process-math">\(R\)</span> to be a function from <span class="process-math">\(A\)</span> to <span class="process-math">\(A\text{?}\)</span>
+<li id="li-475"><div class="para" id="p-1308">Suppose <span class="process-math">\(R\)</span> is an equivalence relation on <span class="process-math">\(A\text{.}\)</span> What conditions on <span class="process-math">\(R\)</span> must hold in order for <span class="process-math">\(R\)</span> to be a function from <span class="process-math">\(A\)</span> to <span class="process-math">\(A\text{?}\)</span>
 </div></li>
-<li id="li-477"><div class="para" id="p-1312">Suppose <span class="process-math">\(f:A\to A\)</span> is a function. Under what conditions is <span class="process-math">\(f\)</span> an equivalence relation on <span class="process-math">\(A\text{?}\)</span>
+<li id="li-476"><div class="para" id="p-1309">Suppose <span class="process-math">\(f:A\to A\)</span> is a function. Under what conditions is <span class="process-math">\(f\)</span> an equivalence relation on <span class="process-math">\(A\text{?}\)</span>
 </div></li>
 </ol>
 </div></article><article class="definition definition-like" id="definition-55"><h3 class="heading">
 <span class="type">Definition</span><span class="space"> </span><span class="codenumber">8.18</span><span class="period">.</span>
 </h3>
-<div class="para" id="p-1313">Any function <span class="process-math">\(f:X\to Y\)</span> defined via <span class="process-math">\(f(x)=c\)</span> for a fixed <span class="process-math">\(c\in Y\)</span> is called a <dfn class="terminology">constant function</dfn>.</div></article><article class="example example-like" id="example-29"><h3 class="heading">
+<div class="para" id="p-1310">Any function <span class="process-math">\(f:X\to Y\)</span> defined via <span class="process-math">\(f(x)=c\)</span> for a fixed <span class="process-math">\(c\in Y\)</span> is called a <dfn class="terminology">constant function</dfn>.</div></article><article class="example example-like" id="example-29"><h3 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">8.19</span><span class="period">.</span>
 </h3>
-<div class="para" id="p-1314">The function defined in <a href="" class="xref" data-knowl="./knowl/prob_lots_of_potential_functions.html" title="Problem 8.5">Problem 8.5</a> <a href="" class="xref" data-knowl="./knowl/prob_happy.html" title="Item h">Item h</a> is an example of a constant function. Notice that we can succinctly describe this function using the formula <span class="process-math">\(\operatorname{happy}(y)=\alpha\text{.}\)</span>
+<div class="para" id="p-1311">The function defined in <a href="" class="xref" data-knowl="./knowl/prob_lots_of_potential_functions.html" title="Problem 8.5">Problem 8.5</a> <a href="" class="xref" data-knowl="./knowl/prob_happy.html" title="Item h">Item h</a> is an example of a constant function. Notice that we can succinctly describe this function using the formula <span class="process-math">\(\operatorname{happy}(y)=\alpha\text{.}\)</span>
 </div></article><article class="definition definition-like" id="definition-56"><h3 class="heading">
 <span class="type">Definition</span><span class="space"> </span><span class="codenumber">8.20</span><span class="period">.</span>
 </h3>
-<div class="para" id="p-1315">A <dfn class="terminology">piecewise-defined function</dfn> (or <dfn class="terminology">piecewise function</dfn>) is a function defined by specifying its output on a partition of the domain.</div></article><div class="para" id="p-1316">Note that “piecewise” is a way of expressing the function, rather than a property of the function itself.</div>
+<div class="para" id="p-1312">A <dfn class="terminology">piecewise-defined function</dfn> (or <dfn class="terminology">piecewise function</dfn>) is a function defined by specifying its output on a partition of the domain.</div></article><div class="para" id="p-1313">Note that “piecewise” is a way of expressing the function, rather than a property of the function itself.</div>
 <article class="example example-like" id="example-30"><h3 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">8.21</span><span class="period">.</span>
 </h3>
-<div class="para logical" id="p-1317">
+<div class="para logical" id="p-1314">
 <div class="para">We can express the function in <a href="" class="xref" data-knowl="./knowl/prob_lots_of_potential_functions.html" title="Problem 8.5">Problem 8.5</a> <a href="" class="xref" data-knowl="./knowl/prob_nugget.html" title="Item i">Item i</a> as a piecewise function using the formula</div>
 <div class="displaymath process-math" data-contains-math-knowls="./knowl/prob_lots_of_potential_functions.html ./knowl/prob_nugget.html">
 \begin{equation*}
@@ -473,7 +473,7 @@ a),(\square,b),(\triangle,c),(\alpha,d),(\square,e)\}\)</span></div></li>
 </div></article><article class="example example-like" id="example-31"><h3 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">8.22</span><span class="period">.</span>
 </h3>
-<div class="para logical" id="p-1318">
+<div class="para logical" id="p-1315">
 <div class="para">The function <span class="process-math">\(f:\mathbb{R}\to \mathbb{R}\)</span> defined via</div>
 <div class="displaymath process-math">
 \begin{equation*}
@@ -484,19 +484,19 @@ f(x)=\begin{cases}x^2-1, \amp  \mbox{if }  x\geq 0,\\ 17, \amp  \mbox{if }  -2\l
 </div></article><article class="problem example-like" id="problem-178"><h3 class="heading">
 <span class="type">Problem</span><span class="space"> </span><span class="codenumber">8.23</span><span class="period">.</span>
 </h3>
-<div class="para" id="p-1319">Define <span class="process-math">\(f:\mathbb{R}\setminus\{0\}\to \mathbb{R}\)</span> via <span class="process-math">\(f(x)=\frac{|x|}{x}\text{.}\)</span> Express <span class="process-math">\(f\)</span> as a piecewise function.</div></article><div class="para" id="p-1320">It is important to point out that not every function can be described using a formula! Despite your prior experience, functions that can be represented succinctly using a formula are rare.</div>
-<div class="para" id="p-1321">The next problem illustrates that some care must be taken when attempting to define a function.</div>
+<div class="para" id="p-1316">Define <span class="process-math">\(f:\mathbb{R}\setminus\{0\}\to \mathbb{R}\)</span> via <span class="process-math">\(f(x)=\frac{|x|}{x}\text{.}\)</span> Express <span class="process-math">\(f\)</span> as a piecewise function.</div></article><div class="para" id="p-1317">It is important to point out that not every function can be described using a formula! Despite your prior experience, functions that can be represented succinctly using a formula are rare.</div>
+<div class="para" id="p-1318">The next problem illustrates that some care must be taken when attempting to define a function.</div>
 <article class="problem example-like" id="prob_not_well_defined"><h3 class="heading">
 <span class="type">Problem</span><span class="space"> </span><span class="codenumber">8.24</span><span class="period">.</span>
 </h3>
-<div class="para logical" id="p-1322">
+<div class="para logical" id="p-1319">
 <div class="para">For each of the following, explain why the given description does not define a function.</div>
 <ol class="lower-alpha">
-<li id="li-478"><div class="para" id="p-1323">Define <span class="process-math">\(f:\{1,2,3\}\to \{1,2,3\}\)</span> via <span class="process-math">\(f(a)=a-1\text{.}\)</span>
+<li id="li-477"><div class="para" id="p-1320">Define <span class="process-math">\(f:\{1,2,3\}\to \{1,2,3\}\)</span> via <span class="process-math">\(f(a)=a-1\text{.}\)</span>
 </div></li>
-<li id="li-479"><div class="para" id="p-1324">Define <span class="process-math">\(g:\mathbb{N}\to \mathbb{Q}\)</span> via <span class="process-math">\(g(n)=\frac{n}{n-1}\text{.}\)</span>
+<li id="li-478"><div class="para" id="p-1321">Define <span class="process-math">\(g:\mathbb{N}\to \mathbb{Q}\)</span> via <span class="process-math">\(g(n)=\frac{n}{n-1}\text{.}\)</span>
 </div></li>
-<li id="li-480"><div class="para logical" id="p-1325">
+<li id="li-479"><div class="para logical" id="p-1322">
 <div class="para">Let <span class="process-math">\(A_1=\{1,2,3\}\)</span> and <span class="process-math">\(A_2=\{3,4,5\}\text{.}\)</span> Define <span class="process-math">\(h:A_1\cup A_2\to \{1,2\}\)</span> via</div>
 <div class="displaymath process-math">
 \begin{equation*}
@@ -504,11 +504,11 @@ h(x)=\begin{cases}1, \amp  \mbox{if } x\in A_1\\ 2, \amp  \mbox{if } x\in A_2. \
 \end{equation*}
 </div>
 </div></li>
-<li id="li-481"><div class="para" id="p-1326">Define <span class="process-math">\(s:\mathbb{Q}\to \mathbb{Z}\)</span> via <span class="process-math">\(s(a/b)=a+b\text{.}\)</span>
+<li id="li-480"><div class="para" id="p-1323">Define <span class="process-math">\(s:\mathbb{Q}\to \mathbb{Z}\)</span> via <span class="process-math">\(s(a/b)=a+b\text{.}\)</span>
 </div></li>
 </ol>
-</div></article><div class="para logical" id="p-1327">
-<div class="para">In mathematics, we say that an expression is <dfn class="terminology">well defined</dfn> (or <dfn class="terminology">unambiguous</dfn>) if its definition yields a unique interpretation. Otherwise, we say that the expression is not well defined (or is <dfn class="terminology">ambiguous</dfn>). For example, if <span class="process-math">\(a,b,c\in\mathbb{R}\text{,}\)</span> then the expression <span class="process-math">\(abc\)</span> is well defined since it does not matter if we interpret this as <span class="process-math">\((ab)c\)</span> or <span class="process-math">\(a(bc)\)</span> since the real numbers are associative under multiplication. This issue was lurking behind the scenes in the statement of <a href="" class="xref" data-knowl="./knowl/thm_modular_sums_products.html" title="Theorem 7.94">Theorem 7.94</a>. In particular, the expressions</div>
+</div></article><div class="para logical" id="p-1324">
+<div class="para">In mathematics, we say that an expression is <dfn class="terminology">well defined</dfn> (or <dfn class="terminology">unambiguous</dfn>) if its definition yields a unique interpretation. Otherwise, we say that the expression is not well defined (or is <dfn class="terminology">ambiguous</dfn>). For example, if <span class="process-math">\(a,b,c\in\mathbb{R}\text{,}\)</span> then the expression <span class="process-math">\(abc\)</span> is well defined since it does not matter if we interpret this as <span class="process-math">\((ab)c\)</span> or <span class="process-math">\(a(bc)\)</span> since the real numbers are associative under multiplication. This issue was lurking behind the scenes in the statement of <a href="" class="xref" data-knowl="./knowl/thm_modular_sums_products.html" title="Theorem 7.97">Theorem 7.97</a>. In particular, the expressions</div>
 <div class="displaymath process-math" data-contains-math-knowls="./knowl/thm_modular_sums_products.html ./knowl/thm_modular_add_comm_assoc.html ./knowl/modular_add_assoc.html ./knowl/thm_modular_mult_comm_assoc.html ./knowl/modular_mult_assoc.html">
 \begin{equation*}
 [a_1]_n+[a_2]_n+\cdots+ [a_k]_n
@@ -520,17 +520,17 @@ h(x)=\begin{cases}1, \amp  \mbox{if } x\in A_1\\ 2, \amp  \mbox{if } x\in A_2. \
 [a_1]_n [a_2]_n \cdots  [a_k]_n
 \end{equation*}
 </div>
-<div class="para">are well defined in <span class="process-math">\(\mathbb{Z}/n\mathbb{Z}\)</span> in light of <a href="" class="xref" data-knowl="./knowl/thm_modular_add_comm_assoc.html" title="Theorem 7.92">Theorems 7.92</a> <a href="" class="xref" data-knowl="./knowl/modular_add_assoc.html" title="Item b">Item b</a> and <a href="" class="xref" data-knowl="./knowl/thm_modular_mult_comm_assoc.html" title="Theorem 7.93">Theorem 7.93</a> <a href="" class="xref" data-knowl="./knowl/modular_mult_assoc.html" title="Item b">Item b</a>.</div>
+<div class="para">are well defined in <span class="process-math">\(\mathbb{Z}/n\mathbb{Z}\)</span> in light of <a href="" class="xref" data-knowl="./knowl/thm_modular_add_comm_assoc.html" title="Theorem 7.95">Theorems 7.95</a> <a href="" class="xref" data-knowl="./knowl/modular_add_assoc.html" title="Item b">Item b</a> and <a href="" class="xref" data-knowl="./knowl/thm_modular_mult_comm_assoc.html" title="Theorem 7.96">Theorem 7.96</a> <a href="" class="xref" data-knowl="./knowl/modular_mult_assoc.html" title="Item b">Item b</a>.</div>
 </div>
-<div class="para" id="p-1328">When we attempt to define a function, it may not be clear without doing some work that our definition really does yield a function. If there is some potential ambiguity in the definition of a function that ends up not causing any issues, we say that the function is well defined. However, this phrase is a bit of misnomer since all functions are well defined. The issue of whether a description for a proposed function is well defined often arises when defining things in terms of representatives of equivalence classes, or more generally in terms of how an element of the domain is written. For example, the descriptions given in Parts (c) and (d) of <a href="" class="xref" data-knowl="./knowl/prob_not_well_defined.html" title="Problem 8.24">Problem 8.24</a> are not well defined. To show that a potentially ambiguous description for a function <span class="process-math">\(f:X\to Y\)</span> is well defined prove that if <span class="process-math">\(a\)</span> and <span class="process-math">\(b\)</span> are two representations for the same element in <span class="process-math">\(X\text{,}\)</span> then <span class="process-math">\(f(a)=f(b)\text{.}\)</span>
+<div class="para" id="p-1325">When we attempt to define a function, it may not be clear without doing some work that our definition really does yield a function. If there is some potential ambiguity in the definition of a function that ends up not causing any issues, we say that the function is well defined. However, this phrase is a bit of misnomer since all functions are well defined. The issue of whether a description for a proposed function is well defined often arises when defining things in terms of representatives of equivalence classes, or more generally in terms of how an element of the domain is written. For example, the descriptions given in Parts (c) and (d) of <a href="" class="xref" data-knowl="./knowl/prob_not_well_defined.html" title="Problem 8.24">Problem 8.24</a> are not well defined. To show that a potentially ambiguous description for a function <span class="process-math">\(f:X\to Y\)</span> is well defined prove that if <span class="process-math">\(a\)</span> and <span class="process-math">\(b\)</span> are two representations for the same element in <span class="process-math">\(X\text{,}\)</span> then <span class="process-math">\(f(a)=f(b)\text{.}\)</span>
 </div>
 <article class="problem example-like" id="prob_well_defined"><h3 class="heading">
 <span class="type">Problem</span><span class="space"> </span><span class="codenumber">8.25</span><span class="period">.</span>
 </h3>
-<div class="para logical" id="p-1329">
+<div class="para logical" id="p-1326">
 <div class="para">For each of the following, determine whether the description determines a well-defined function.</div>
 <ol class="lower-alpha">
-<li id="li-482"><div class="para logical" id="p-1330">
+<li id="li-481"><div class="para logical" id="p-1327">
 <div class="para">Define <span class="process-math">\(f:\mathbb{Z}/5\mathbb{Z}\to \mathbb{N}\)</span> via</div>
 <div class="displaymath process-math">
 \begin{equation*}
@@ -538,7 +538,7 @@ f([a]_5)=\begin{cases}0, \amp  \mbox{if }  a\mbox{ is even} \\ 1, \amp  \mbox{if
 \end{equation*}
 </div>
 </div></li>
-<li id="li-483"><div class="para logical" id="p-1331">
+<li id="li-482"><div class="para logical" id="p-1328">
 <div class="para">Define <span class="process-math">\(g:\mathbb{Z}/6\mathbb{Z}\to \mathbb{N}\)</span> via</div>
 <div class="displaymath process-math">
 \begin{equation*}
@@ -546,20 +546,20 @@ g([a]_6)=\begin{cases}0, \amp  \mbox{if }  a\mbox{ is even} \\ 1, \amp  \mbox{if
 \end{equation*}
 </div>
 </div></li>
-<li id="mod_8_to_mod_10"><div class="para" id="p-1332">Define <span class="process-math">\(m:\mathbb{Z}/8\mathbb{Z}\to \mathbb{Z}/10\mathbb{Z}\)</span> via <span class="process-math">\(m([x]_{8})=[6x]_{10}\text{.}\)</span>
+<li id="mod_8_to_mod_10"><div class="para" id="p-1329">Define <span class="process-math">\(m:\mathbb{Z}/8\mathbb{Z}\to \mathbb{Z}/10\mathbb{Z}\)</span> via <span class="process-math">\(m([x]_{8})=[6x]_{10}\text{.}\)</span>
 </div></li>
-<li id="mod_10_to_mod_10"><div class="para" id="p-1333">Define <span class="process-math">\(h:\mathbb{Z}/10\mathbb{Z}\to \mathbb{Z}/10\mathbb{Z}\)</span> via <span class="process-math">\(h([x]_{10})=[6x]_{10}\text{.}\)</span>
+<li id="mod_10_to_mod_10"><div class="para" id="p-1330">Define <span class="process-math">\(h:\mathbb{Z}/10\mathbb{Z}\to \mathbb{Z}/10\mathbb{Z}\)</span> via <span class="process-math">\(h([x]_{10})=[6x]_{10}\text{.}\)</span>
 </div></li>
-<li id="mod_43_to_mod_43"><div class="para" id="p-1334">Define <span class="process-math">\(k:\mathbb{Z}/43\mathbb{Z}\to \mathbb{Z}/43\mathbb{Z}\)</span> via <span class="process-math">\(k([x]_{43})=[11x-5]_{43}\text{.}\)</span>
+<li id="mod_43_to_mod_43"><div class="para" id="p-1331">Define <span class="process-math">\(k:\mathbb{Z}/43\mathbb{Z}\to \mathbb{Z}/43\mathbb{Z}\)</span> via <span class="process-math">\(k([x]_{43})=[11x-5]_{43}\text{.}\)</span>
 </div></li>
-<li id="mod_15_to_mod_15"><div class="para" id="p-1335">Define <span class="process-math">\(\ell:\mathbb{Z}/15\mathbb{Z}\to \mathbb{Z}/15\mathbb{Z}\)</span> via <span class="process-math">\(\ell([x]_{15})=[5x-11]_{15}\text{.}\)</span>
+<li id="mod_15_to_mod_15"><div class="para" id="p-1332">Define <span class="process-math">\(\ell:\mathbb{Z}/15\mathbb{Z}\to \mathbb{Z}/15\mathbb{Z}\)</span> via <span class="process-math">\(\ell([x]_{15})=[5x-11]_{15}\text{.}\)</span>
 </div></li>
 </ol>
 </div></article><article class="problem example-like" id="problem-181"><h3 class="heading">
 <span class="type">Problem</span><span class="space"> </span><span class="codenumber">8.26</span><span class="period">.</span>
 </h3>
-<div class="para" id="p-1336">Let <span class="process-math">\(k,n\in\mathbb{N}\)</span> and <span class="process-math">\(m\in\mathbb{Z}\text{.}\)</span> Under what conditions will <span class="process-math">\(f_m: \mathbb{Z}/n\mathbb{Z}\to \mathbb{Z}/k\mathbb{Z}\)</span> given by <span class="process-math">\(f_m([x]_n) = [mx]_k\)</span> be a well-defined function? Prove your claim.</div></article><blockquote class="blockquote" id="blockquote-41">
-<div class="para" id="p-1337">Don’t let anyone rob you of your imagination, your creativity, or your curiosity. It’s your place in the world; it’s your life. Go on and do all you can with it, and make it the life you want to live.</div> <cite class="attribution">―Mae Jemison, NASA astronaut</cite>
+<div class="para" id="p-1333">Let <span class="process-math">\(k,n\in\mathbb{N}\)</span> and <span class="process-math">\(m\in\mathbb{Z}\text{.}\)</span> Under what conditions will <span class="process-math">\(f_m: \mathbb{Z}/n\mathbb{Z}\to \mathbb{Z}/k\mathbb{Z}\)</span> given by <span class="process-math">\(f_m([x]_n) = [mx]_k\)</span> be a well-defined function? Prove your claim.</div></article><blockquote class="blockquote" id="blockquote-41">
+<div class="para" id="p-1334">Don’t let anyone rob you of your imagination, your creativity, or your curiosity. It’s your place in the world; it’s your life. Go on and do all you can with it, and make it the life you want to live.</div> <cite class="attribution">―Mae Jemison, NASA astronaut</cite>
 </blockquote></section></div>
 <div class="ptx-content-footer">
 <a class="previous-button button" href="chap_Functions.html" title="Previous"><span class="icon">&lt;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon">^</span><span class="name">Top</span></a><a class="next-button button" href="sec_Injective_and_Surjective_Functions.html" title="Next"><span class="name">Next</span><span class="icon">&gt;</span></a>

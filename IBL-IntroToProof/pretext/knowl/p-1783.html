@@ -12,32 +12,8 @@
 </head>
 <body class="ignore-math">
 <h2 class="heading"><span class="type">Paragraph</span></h2>
-<div class="para logical">
 <div class="para">
-<em class="emphasis">Do not write the proof backwards.</em> Beginning students often attempt to write “proofs” like the following, which attempts to prove that <span class="process-math">\(\tan^2(x)  = \sec^2(x) - 1\text{:}\)</span>
-</div>
-<div class="displaymath process-math">
-\begin{align*}
-\tan^2(x) \amp  = \sec^2(x) - 1\\
-\left(\frac{\sin(x)}{\cos(x)}\right)^2 \amp  = \frac{1}{\cos^2(x)} - 1\\
-\frac{\sin^2(x)}{\cos^2(x)} \amp  =  \frac{1-\cos^2(x)}{\cos^2(x)}\\
-\sin^2(x) \amp  = 1-\cos^2(x)\\
-\sin^2(x) + \cos^2(x) \amp  = 1\\
-1 \amp  = 1
-\end{align*}
-</div>
-<div class="para">Notice what has happened here: the student <em class="emphasis">started</em> with the conclusion, and deduced the true statement “<span class="process-math">\(1=1\text{.}\)</span>” In other words, they have proved “If <span class="process-math">\(\tan^2(x) = \sec^2(x) - 1\text{,}\)</span> then <span class="process-math">\(1=1\text{,}\)</span>” which is true but highly uninteresting. Now this is not a bad way of <em class="emphasis">finding</em> a proof. Working backwards from your goal often is a good strategy <em class="emphasis">on your scratch paper</em>, but when it is time to <em class="emphasis">write</em> your proof, you have to start with the hypotheses and work to the conclusion. Here is an example of a suitable proof for the desired result, where each expression follows from the one immediately proceeding it:</div>
-<div class="displaymath process-math">
-\begin{align*}
-\sec^2(x) - 1 \amp  = \frac{1}{\cos^2(x)} - 1\\
-\amp  = \frac{1-\cos^2(x)}{\cos^2(x)}\\
-\amp  = \frac{\sin^2(x)}{\cos^2(x)}\\
-\amp  = \left(\frac{\sin(x)}{\cos(x)}\right)^2\\
-\amp  = \left(\tan(x)\right)^2\\
-\amp  = \tan^2(x)\text{.}
-\end{align*}
-</div>
-</div>
+<em class="emphasis">Use appropriate quantifiers (once).</em> When you introduce a variable <span class="process-math">\(x\in S\text{,}\)</span> it must be clear to your reader whether you mean “for all <span class="process-math">\(x\in S\)</span>” or just “for some <span class="process-math">\(x\in S\text{.}\)</span>” If you just say something like “<span class="process-math">\(y=x^2\)</span> where <span class="process-math">\(x\in S\text{,}\)</span>” the word “where” does not indicate whether you mean “for all” or “some”. Phrases indicating the quantifier “for all” include “Let <span class="process-math">\(x\in S\)</span>”; “for all <span class="process-math">\(x\in S\)</span>”; “for every <span class="process-math">\(x\in S\)</span>”; “for each <span class="process-math">\(x\in S\)</span>”; etc. Phrases indicating the quantifier “some” or “there exists” include “for some <span class="process-math">\(x\in S\)</span>”; “there exists an <span class="process-math">\(x\in S\)</span>”; “for a suitable choice of <span class="process-math">\(x\in S\)</span>”; etc. Once you have said “Let <span class="process-math">\(x\in S\text{,}\)</span>” the letter <span class="process-math">\(x\)</span> has its meaning defined. You do not need to say “for all <span class="process-math">\(x\in S\)</span>” again, and you definitely should <em class="emphasis">not</em> say “let <span class="process-math">\(x\in S\)</span>” again.</div>
 <span class="incontext"><a href="appendix_elements_of_style.html#p-1783" class="internal">in-context</a></span>
 </body>
 </html>

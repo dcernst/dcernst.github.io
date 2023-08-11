@@ -511,7 +511,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "2.3",
   "title": "Techniques for Proving Conditional Propositions",
-  "body": " Techniques for Proving Conditional Propositions  Each of the theorems that we proved in Section are examples of conditional propositions. However, some of the statements were disguised as such. For example, Theorem states, The sum of two consecutive integers is odd. We can reword this theorem as, If , then is odd.     Reword Theorem so that it explicitly reads as a conditional proposition.    Each of the proofs that you produced in Section had the same format, which we refer to as a direct proof .   Skeleton Proof  [Proof of by direct proof] If you want to prove the implication via a direct proof, then the structure of the proof is as follows.    [State any upfront assumptions.] Assume .  [Use definitions and known results to derive ]  Therefore, .    Take a few minutes to review the proofs that you wrote in Section and see if you can witness the structure of Skeleton Proof in your proofs.  The upshot of Theorem is that if you want to prove a conditional proposition, you can prove its contrapositive instead. This approach is called a proof by contraposition .   Skeleton Proof  [Proof of by contraposition] If you want to prove the implication by proving its contrapositive instead, then the structure of the proof is as follows.    [State any upfront assumptions.] We will utilize a proof by contraposition. Assume .  [Use definitions and known results to derive ]  Therefore, . We have proved the contrapositive, and hence if , then .    We have introduced the logical symbols , , , , and since it provides a convenient way of discussing the formality of logic. However, when writing mathematical proofs, you should avoid using these symbols.    Consider the following statement: If such that is odd, then is odd. The items below can be assembled to form a proof of this statement, but they are currently out of order. Put them in the proper order.   Assume that is an even integer.    We will utilize a proof by contraposition.    Thus, is twice an integer.    Since , we have that .    Since is an integer, is also an integer.    By the definition of even, there is an integer such that .    We have proved the contrapositive, and hence the desired statement is true.    Assume .    By the definition of even integer, is an even integer.    Notice that .       Prove the next two theorems by proving the contrapositive of the given statement.    If such that is even, then is even.      If such that is even, then is even or is even.    Suppose that we want to prove some proposition (which might be something like or even more complicated). One approach, called proof by contradiction , is to assume and then logically deduce a contradiction of the form , where is some proposition. Since this is absurd, the assumption must have been false, so is true. The tricky part about a proof by contradiction is that it is not usually obvious what the statement should be.   Skeleton Proof  [Proof of by contradiction] Here is what the general structure for a proof by contradiction looks like if we are trying to prove the proposition .    [State any upfront assumptions.] For sake of a contradiction, assume .  [Use definitions and known results to derive  some and its negation .]} This is a contradiction. Therefore, .    Proof by contradiction can be useful for proving statements of the form , where is easier to get your hands on, because is logically equivalent to (see Corollary ).   Skeleton Proof  [Proof of by contradiction] If you want to prove the implication via a proof by contradiction, then the structure of the proof is as follows.    [State any upfront assumptions.] For sake of a contradiction, assume and .  [Use definitions and known results to derive  some and its negation .]} This is a contradiction. Therefore, if , then .      Assume that . Consider the following proposition: If is odd, then 2 does not divide .   Prove the contrapositive of this statement.    Prove the statement using a proof by contradiction.       Prove the following theorem via a proof by contradiction. Afterward, consider the difficulties one might encounter when trying to prove the result more directly. The given statement is not true if we replace with . Do you see why?    Assume that . If divides , then .    Oftentimes a conditional proposition can be proved via a direct proof and by using a proof by contradiction. Most mathematicians view a direct proof to be more elegant than a proof by contradiction. When approaching the proof of a conditional proposition, you should strive for a direct proof. In general, if you are attempting to prove using a proof by contradiction and you end up with and (which yields a contradiction), then this is evidence that a proof by contradiction was unnecessary. On the other hand, if you end up with and , where is not the same as , then a proof by contradiction is a reasonable approach.  In light of Theorem , if we want to prove a biconditional of the form , we need to prove both and . You should always make it clear to the reader when you are proving each implication. One approach is to label each subproof with and (including the parentheses), respectively. Occasionally, you will discover that the proof of one implication is exactly the reverse of the proof of the other implication. If this happens to be the case, you may skip writing two subproofs and simply write a single proof that chains together each step using biconditionals. Such proofs will almost always be shorter, but can be challenging to write in an eloquent way. It is always a safe bet to write a separate subproof for each implication.  When proving each implication of a biconditional, you may choose to utilize a direct proof, a proof by contraposition, or a proof by contradiction. For example, you could prove the first implication using a proof by contradiction and a direct proof for the second implication.  The following theorem provides an opportunity to gain some experience with writing proofs of biconditional statements.    Let . Then is even if and only if 4 divides .      Making learning easy does not necessarily ease learning.  anu Kapur, learning scientist   "
+  "body": " Techniques for Proving Conditional Propositions  Each of the theorems that we proved in Section are examples of conditional propositions. However, some of the statements were disguised as such. For example, Theorem states, The sum of two consecutive integers is odd. We can reword this theorem as, If , then is odd.    Reword Theorem so that it explicitly reads as a conditional proposition.    Each of the proofs that you produced in Section had the same format, which we refer to as a direct proof .   Proof of by direct proof   If you want to prove the implication via a direct proof, then the structure of the proof is as follows.   [State any upfront assumptions.] Assume .  [Use definitions and known results to derive ]  Therefore, .     Take a few minutes to review the proofs that you wrote in Section and see if you can witness the structure of Skeleton Proof in your proofs.  The upshot of Theorem is that if you want to prove a conditional proposition, you can prove its contrapositive instead. This approach is called a proof by contraposition .   Proof of by contraposition   If you want to prove the implication by proving its contrapositive instead, then the structure of the proof is as follows.   [State any upfront assumptions.] We will utilize a proof by contraposition. Assume .  [Use definitions and known results to derive ]  Therefore, . We have proved the contrapositive, and hence if , then .     We have introduced the logical symbols , , , , and since it provides a convenient way of discussing the formality of logic. However, when writing mathematical proofs, you should avoid using these symbols.    Consider the following statement: If such that is odd, then is odd. The items below can be assembled to form a proof of this statement, but they are currently out of order. Put them in the proper order.   Assume that is an even integer.    We will utilize a proof by contraposition.    Thus, is twice an integer.    Since , we have that .    Since is an integer, is also an integer.    By the definition of even, there is an integer such that .    We have proved the contrapositive, and hence the desired statement is true.    Assume .    By the definition of even integer, is an even integer.    Notice that .       Prove the next two theorems by proving the contrapositive of the given statement.    If such that is even, then is even.      If such that is even, then is even or is even.    Suppose that we want to prove some proposition (which might be something like or even more complicated). One approach, called proof by contradiction , is to assume and then logically deduce a contradiction of the form , where is some proposition. Since this is absurd, the assumption must have been false, so is true. The tricky part about a proof by contradiction is that it is not usually obvious what the statement should be.   Proof of > by contradiction   Here is what the general structure for a proof by contradiction looks like if we are trying to prove the proposition .   [State any upfront assumptions.] For sake of a contradiction, assume .  [Use definitions and known results to derive some and its negation .]} This is a contradiction. Therefore, .     Proof by contradiction can be useful for proving statements of the form , where is easier to get your hands on, because is logically equivalent to (see Corollary ).   Proof of by contradiction   If you want to prove the implication via a proof by contradiction, then the structure of the proof is as follows.   [State any upfront assumptions.] For sake of a contradiction, assume and .  [Use definitions and known results to derive some and its negation .]} This is a contradiction. Therefore, if , then .       Assume that . Consider the following proposition: If is odd, then 2 does not divide .  Prove the contrapositive of this statement.  Prove the statement using a proof by contradiction.      Prove the following theorem via a proof by contradiction. Afterward, consider the difficulties one might encounter when trying to prove the result more directly. The given statement is not true if we replace with . Do you see why?    Assume that . If divides , then .    Oftentimes a conditional proposition can be proved via a direct proof and by using a proof by contradiction. Most mathematicians view a direct proof to be more elegant than a proof by contradiction. When approaching the proof of a conditional proposition, you should strive for a direct proof. In general, if you are attempting to prove using a proof by contradiction and you end up with and (which yields a contradiction), then this is evidence that a proof by contradiction was unnecessary. On the other hand, if you end up with and , where is not the same as , then a proof by contradiction is a reasonable approach.  In light of Theorem , if we want to prove a biconditional of the form , we need to prove both and . You should always make it clear to the reader when you are proving each implication. One approach is to label each subproof with and (including the parentheses), respectively. Occasionally, you will discover that the proof of one implication is exactly the reverse of the proof of the other implication. If this happens to be the case, you may skip writing two subproofs and simply write a single proof that chains together each step using biconditionals. Such proofs will almost always be shorter, but can be challenging to write in an eloquent way. It is always a safe bet to write a separate subproof for each implication.  When proving each implication of a biconditional, you may choose to utilize a direct proof, a proof by contraposition, or a proof by contradiction. For example, you could prove the first implication using a proof by contradiction and a direct proof for the second implication.  The following theorem provides an opportunity to gain some experience with writing proofs of biconditional statements.    Let . Then is even if and only if 4 divides .      Making learning easy does not necessarily ease learning.  Manu Kapur, learning scientist   "
 },
 {
   "id": "prob_reword_as_conditional",
@@ -523,29 +523,47 @@ var ptx_lunr_docs = [
   "body": "  Reword Theorem so that it explicitly reads as a conditional proposition.   "
 },
 {
-  "id": "proof-1",
+  "id": "p-203",
   "level": "2",
-  "url": "sec_Techniques_for_Proving_Conditional_Propositions.html#proof-1",
-  "type": "Proof",
-  "number": "1",
+  "url": "sec_Techniques_for_Proving_Conditional_Propositions.html#p-203",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
   "title": "",
-  "body": "  [State any upfront assumptions.] Assume .  [Use definitions and known results to derive ]  Therefore, .  "
+  "body": "direct proof "
 },
 {
-  "id": "proof-2",
+  "id": "skeleton_direct_proof",
   "level": "2",
-  "url": "sec_Techniques_for_Proving_Conditional_Propositions.html#proof-2",
-  "type": "Proof",
-  "number": "1",
+  "url": "sec_Techniques_for_Proving_Conditional_Propositions.html#skeleton_direct_proof",
+  "type": "Skeleton Proof",
+  "number": "2.48",
+  "title": "Proof of <span class=\"process-math\">\\(A\\implies B\\)<\/span> by direct proof.",
+  "body": " Proof of by direct proof   If you want to prove the implication via a direct proof, then the structure of the proof is as follows.   [State any upfront assumptions.] Assume .  [Use definitions and known results to derive ]  Therefore, .    "
+},
+{
+  "id": "p-207",
+  "level": "2",
+  "url": "sec_Techniques_for_Proving_Conditional_Propositions.html#p-207",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
   "title": "",
-  "body": "  [State any upfront assumptions.] We will utilize a proof by contraposition. Assume .  [Use definitions and known results to derive ]  Therefore, . We have proved the contrapositive, and hence if , then .  "
+  "body": "proof by contraposition "
+},
+{
+  "id": "skeleton_pf_by_contraposition",
+  "level": "2",
+  "url": "sec_Techniques_for_Proving_Conditional_Propositions.html#skeleton_pf_by_contraposition",
+  "type": "Skeleton Proof",
+  "number": "2.49",
+  "title": "Proof of <span class=\"process-math\">\\(A\\implies B\\)<\/span> by contraposition.",
+  "body": " Proof of by contraposition   If you want to prove the implication by proving its contrapositive instead, then the structure of the proof is as follows.   [State any upfront assumptions.] We will utilize a proof by contraposition. Assume .  [Use definitions and known results to derive ]  Therefore, . We have proved the contrapositive, and hence if , then .    "
 },
 {
   "id": "problem-21",
   "level": "2",
   "url": "sec_Techniques_for_Proving_Conditional_Propositions.html#problem-21",
   "type": "Problem",
-  "number": "2.48",
+  "number": "2.50",
   "title": "",
   "body": "  Consider the following statement: If such that is odd, then is odd. The items below can be assembled to form a proof of this statement, but they are currently out of order. Put them in the proper order.   Assume that is an even integer.    We will utilize a proof by contraposition.    Thus, is twice an integer.    Since , we have that .    Since is an integer, is also an integer.    By the definition of even, there is an integer such that .    We have proved the contrapositive, and hence the desired statement is true.    Assume .    By the definition of even integer, is an even integer.    Notice that .      "
 },
@@ -554,7 +572,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Techniques_for_Proving_Conditional_Propositions.html#thm_n_2_even_implies_n_even",
   "type": "Theorem",
-  "number": "2.49",
+  "number": "2.51",
   "title": "",
   "body": "  If such that is even, then is even.   "
 },
@@ -563,43 +581,43 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Techniques_for_Proving_Conditional_Propositions.html#thm_nm_even_implies_n_or_m_even",
   "type": "Theorem",
-  "number": "2.50",
+  "number": "2.52",
   "title": "",
   "body": "  If such that is even, then is even or is even.   "
 },
 {
-  "id": "proof-3",
+  "id": "skeleton_pf_by_contradiction",
   "level": "2",
-  "url": "sec_Techniques_for_Proving_Conditional_Propositions.html#proof-3",
-  "type": "Proof",
-  "number": "1",
-  "title": "",
-  "body": "  [State any upfront assumptions.] For sake of a contradiction, assume .  [Use definitions and known results to derive  some and its negation .]} This is a contradiction. Therefore, .  "
+  "url": "sec_Techniques_for_Proving_Conditional_Propositions.html#skeleton_pf_by_contradiction",
+  "type": "Skeleton Proof",
+  "number": "2.53",
+  "title": "Proof of <span class=\"process-math\">\\(O\\)<\/span>&gt; by contradiction.",
+  "body": " Proof of > by contradiction   Here is what the general structure for a proof by contradiction looks like if we are trying to prove the proposition .   [State any upfront assumptions.] For sake of a contradiction, assume .  [Use definitions and known results to derive some and its negation .]} This is a contradiction. Therefore, .    "
 },
 {
-  "id": "proof-4",
+  "id": "skeleton_pf_by_contradiction_for_implication",
   "level": "2",
-  "url": "sec_Techniques_for_Proving_Conditional_Propositions.html#proof-4",
-  "type": "Proof",
-  "number": "1",
-  "title": "",
-  "body": "  [State any upfront assumptions.] For sake of a contradiction, assume and .  [Use definitions and known results to derive  some and its negation .]} This is a contradiction. Therefore, if , then .  "
+  "url": "sec_Techniques_for_Proving_Conditional_Propositions.html#skeleton_pf_by_contradiction_for_implication",
+  "type": "Skeleton Proof",
+  "number": "2.54",
+  "title": "Proof of <span class=\"process-math\">\\(A\\implies B\\)<\/span> by contradiction.",
+  "body": " Proof of by contradiction   If you want to prove the implication via a proof by contradiction, then the structure of the proof is as follows.   [State any upfront assumptions.] For sake of a contradiction, assume and .  [Use definitions and known results to derive some and its negation .]} This is a contradiction. Therefore, if , then .    "
 },
 {
   "id": "problem-22",
   "level": "2",
   "url": "sec_Techniques_for_Proving_Conditional_Propositions.html#problem-22",
   "type": "Problem",
-  "number": "2.51",
+  "number": "2.55",
   "title": "",
-  "body": "  Assume that . Consider the following proposition: If is odd, then 2 does not divide .   Prove the contrapositive of this statement.    Prove the statement using a proof by contradiction.      "
+  "body": "  Assume that . Consider the following proposition: If is odd, then 2 does not divide .  Prove the contrapositive of this statement.  Prove the statement using a proof by contradiction.     "
 },
 {
   "id": "thm_natural_divisor_less_than_or_equal_to_natural_dividend",
   "level": "2",
   "url": "sec_Techniques_for_Proving_Conditional_Propositions.html#thm_natural_divisor_less_than_or_equal_to_natural_dividend",
   "type": "Theorem",
-  "number": "2.52",
+  "number": "2.56",
   "title": "",
   "body": "  Assume that . If divides , then .   "
 },
@@ -608,7 +626,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Techniques_for_Proving_Conditional_Propositions.html#theorem-19",
   "type": "Theorem",
-  "number": "2.53",
+  "number": "2.57",
   "title": "",
   "body": "  Let . Then is even if and only if 4 divides .   "
 },
@@ -626,7 +644,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Introduction_to_Quantification.html#problem-23",
   "type": "Problem",
-  "number": "2.54",
+  "number": "2.58",
   "title": "",
   "body": "  Consider and as defined above. Determine the truth values of , , , and . Is a proposition or a predicate?   "
 },
@@ -635,7 +653,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Introduction_to_Quantification.html#ex_quantified_predicates",
   "type": "Problem",
-  "number": "2.55",
+  "number": "2.59",
   "title": "",
   "body": "  Both of the following sentences are propositions. Decide whether each is true or false. What would it take to justify your answers?   For all , .    There exists such that .      "
 },
@@ -644,7 +662,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Introduction_to_Quantification.html#definition-10",
   "type": "Definition",
-  "number": "2.56",
+  "number": "2.60",
   "title": "",
   "body": "   For all is the universal quantifier and there exists such that is the existential quantifier.   "
 },
@@ -653,7 +671,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Introduction_to_Quantification.html#problem-25",
   "type": "Problem",
-  "number": "2.57",
+  "number": "2.61",
   "title": "",
   "body": "  Suppose our universe of discourse is the set of integers.   Provide an example of a predicate such that For all , is true.    Provide an example of a predicate such that For all , is false while There exists such that is true.      "
 },
@@ -662,7 +680,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Introduction_to_Quantification.html#prob_ways_to_quantify",
   "type": "Problem",
-  "number": "2.58",
+  "number": "2.62",
   "title": "",
   "body": "  Let be a predicate with free variables and in a universe of discourse . One way to quantify the variables is For all , there exists such that . How else can the variables be quantified?   "
 },
@@ -671,7 +689,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Introduction_to_Quantification.html#problem-27",
   "type": "Problem",
-  "number": "2.59",
+  "number": "2.63",
   "title": "",
   "body": "  Suppose the universe of discourse is the set of people and consider the predicate  . We can interpret the formal statement For all , there exists such that as meaning Everybody is married to somebody. Interpret the meaning of each of the following statements in a similar way.   For all , there exists such that .    There exists such that for all , .    For all , for all , .    There exists such that there exists such that .      "
 },
@@ -680,7 +698,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Introduction_to_Quantification.html#problem-28",
   "type": "Problem",
-  "number": "2.60",
+  "number": "2.64",
   "title": "",
   "body": "  Suppose the universe of discourse is the set of real numbers and consider the predicate  . Interpret the meaning of each of the following statements.   There exists such that there exists such that .    There exists such that there exists such that .    For all , for all , .      "
 },
@@ -689,7 +707,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Introduction_to_Quantification.html#def_quantifiers",
   "type": "Definition",
-  "number": "2.61",
+  "number": "2.65",
   "title": "",
   "body": "  The universal quantifier for all is denoted , and the existential quantifier there exists such that is denoted .   "
 },
@@ -698,7 +716,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Introduction_to_Quantification.html#problem-29",
   "type": "Problem",
-  "number": "2.62",
+  "number": "2.66",
   "title": "",
   "body": "  Convert the following propositions into statements using only logical and mathematical symbols. Assume that the universe of discourse is the set of real numbers.   There exists such that is greater than zero.    There exists a natural number such that .    For every , is greater than or equal to zero.      "
 },
@@ -707,7 +725,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Introduction_to_Quantification.html#problem-30",
   "type": "Problem",
-  "number": "2.63",
+  "number": "2.67",
   "title": "",
   "body": "  Express the formal definition of a limit (given above Definition ) in logical and mathematical symbols.   "
 },
@@ -716,7 +734,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Introduction_to_Quantification.html#problem-31",
   "type": "Problem",
-  "number": "2.64",
+  "number": "2.68",
   "title": "",
   "body": "  Reword Theorem so that it explicitly reads as a universally quantified statement. Compare with Problem .   "
 },
@@ -725,7 +743,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Introduction_to_Quantification.html#problem-32",
   "type": "Problem",
-  "number": "2.65",
+  "number": "2.69",
   "title": "",
   "body": "  Find at least two other instances of theorem statements that appeared earlier in the book and are written in the form . Rewrite each in an equivalent way that makes the universal quantifier explicit while possibly suppressing the implication.   "
 },
@@ -734,7 +752,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Introduction_to_Quantification.html#problem-33",
   "type": "Problem",
-  "number": "2.66",
+  "number": "2.70",
   "title": "",
   "body": "  Consider the proposition If , then there exists such that . Assume the universe of discourse is the set .   Express the statement in logical and mathematical symbols. Is the statement true?    Reverse the order of the quantifiers to get a new statement. Does the meaning change? If so, how? Is the new statement true?      "
 },
@@ -743,7 +761,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Introduction_to_Quantification.html#problem-34",
   "type": "Problem",
-  "number": "2.67",
+  "number": "2.71",
   "title": "",
   "body": "  Express the proposition For all with , there exists such that using logical and mathematical symbols.   "
 },
@@ -752,7 +770,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Introduction_to_Quantification.html#problem-35",
   "type": "Problem",
-  "number": "2.68",
+  "number": "2.72",
   "title": "",
   "body": "  Rewrite each of the following propositions in words and determine whether the proposition is true or false.                                   "
 },
@@ -761,7 +779,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Introduction_to_Quantification.html#problem-36",
   "type": "Problem",
-  "number": "2.69",
+  "number": "2.73",
   "title": "",
   "body": "  Consider the proposition .   Provide an example of a universe of discourse where this proposition is true.    Provide an example of a universe of discourse where this proposition is false.      "
 },
@@ -772,14 +790,14 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "2.5",
   "title": "More About Quantification",
-  "body": " More About Quantification  When writing mathematical proofs, we do not explicitly use the symbolic representation of a given statement in terms of quantifiers and logical connectives. Nonetheless, having this notation at our disposal allows us to compartmentalize the abstract nature of mathematical propositions and provides us with a way to talk about the general structure involved in the construction of a proof.    Two quantified propositions are logically equivalent if they have the same truth value in every universe of discourse.      Consider the propositions and , where is some universe of discourse.   Do these propositions have the same truth value if the universe of discourse is the set of real numbers?    Provide an example of a universe of discourse such that the propositions yield different truth values.    What can you conclude about the logical equivalence of these propositions?       It is worth pointing out an important distinction. Consider the propositions All cars are red and All natural numbers are positive . Both of these are instances of the logical form  . It turns out that the first proposition is false and the second is true; however, it does not make sense to attach a truth value to the logical form. A logical form is a blueprint for particular propositions. If we are careful, it makes sense to talk about whether two logical forms are logically equivalent. For example, is logically equivalent to since a conditional proposition is logically equivalent to its contrapositive (see Theorem ). For fixed and , these two forms will always have the same truth value independent of the universe of discourse. If you change and , then the truth value may change, but the two forms will still agree.  The next theorem tells us how to negate logical forms involving quantifiers. Your proof should involve several mini arguments. For example, in Part (a), you will need to proof that if is true, then is also true.    Let be a predicate in some universe of discourse. Then    is logically equivalent to ;     is logically equivalent to .         Negate each of the following sentences. Disregard the truth value and the universe of discourse.             All cars are red.    Every Wookiee is named Chewbacca.    Some hippies are Republican.    Some birds are not angry.    Not every video game will rot your brain.    For all , is prime.    There exists such that .    There is no function such that if is continuous, then is not differentiable.       Using Theorem and our previous results involving quantification, we can negate complex mathematical propositions by working from left to right. For example, if we negate the false proposition , we obtain the proposition , which is logically equivalent to and must be true. For a more complicated example, consider the (false) proposition .  Then its negation is logically equivalent to , which happens to be logically equivalent to .  Can you identify the theorems that were used in the two examples above?    Negate each of the following propositions. Disregard the truth value and the universe of discourse.        For every , there exists such that .    For all , if is not negative, then there exists such that .    For every , there exists such that .    There exists such that for all , .    There exists such that for all , .         There exists a married person such that for all married people , is married to .         Consider the following proposition in some universe of discourse.    For all goofy wobblers , there exists a dinglehopper such that if is a not a nugget, then is a doofus.      Find the negation of this proposition so that it includes the phrase is not a doofus.       Consider the following proposition in some universe of discourse.    If and are both snazzy, then is not nifty.      Find the contrapositive of this proposition so that it includes the phrase not snazzy .    At this point, we should be able to use our understanding of quantification to construct counterexamples to complicated false propositions and proofs of complicated true propositions. Here are some general proof structures for various logical forms.   Skeleton Proof  [Direct Proof of ] Here is the general structure for a direct proof of the proposition . Assume is the universe of discourse.    [State any upfront assumptions.] Let .  [Use definitions and known results.]  Therefore, is true. Since was arbitrary, for all , .    Combining Skeleton Proof with Skeleton Proof , we obtain the following skeleton proof.   Skeleton Proof  [Proof of ] Below is the general structure for a direct proof of the proposition . Assume is the universe of discourse.    [State any upfront assumptions.] Let . Assume .  [Use definitions and known results to derive ]  Therefore, .     Skeleton Proof  [Proof of by Contradiction] Here is the general structure for a proof of the proposition via contradiction. Assume is the universe of discourse.    [State any upfront assumptions.] For sake of a contradiction, assume that there exists such that .  [Do something to derive a contradiction.]  This is a contradiction. Therefore, for all , is true.     Skeleton Proof  [Direct Proof of ] Here is the general structure for a direct proof of the proposition . Assume is the universe of discourse.    [State any upfront assumptions.]    [Use definitions, axioms, and previous results to deduce that an exists for which is true; or if you have an that works, just verify that it does.]  Therefore, there exists such that .     Skeleton Proof  [Proof of by Contradiction] Below is the general structure for a proof of the proposition via contradiction. Assume is the universe of discourse.    [State any upfront assumptions.] For sake of a contradiction, assume that for all , .  [Do something to derive a contradiction.]  This is a contradiction. Therefore, there exists such that .    Note that if is a predicate for which is false, then a counterexample to this proposition amounts to showing , which can be proved by following the structure of Skeleton Proof .  It is important to point out that sometimes we will have to combine various proof techniques in a single proof. For example, if you wanted to prove a proposition of the form ) by contradiction, we would start by assuming that there exists in the universe of discourse such that and .    Determine whether each of the following statements is true or false. If the statement is true, prove it. If the statement is false, provide a counterexample.   For all , .    There exists such that .    There exists such that for all , .    For all , .    For all , there exists such that .    There exists integers and such that .    There do not exist integers and such that .    For all , if divides , then either divides or divides .    For all , if is even, then either or is even.         Explain why the following proof is not a valid argument.    Claim. For all , if and are even, then is even.  Proof.  Suppose such that and are even. For sake of a contradiction, assume that is odd. Then there exists such that . This implies that . We see that the left side of the equation is even because it is the difference of even numbers. However, the right side is odd. Since an even number cannot equal an odd number, we have a contradiction. Therefore, is even.       Sometimes it is useful to split the universe of discourse into multiple collections to deal with separately. When doing this, it is important to make sure that your cases are exhaustive (i.e., every possible element of the universe of discourse has been accounted for). Ideally, your cases will also be disjoint (i.e., you have not considered the same element more than once). For example, if our universe of discourse is the set of integers, we can separately consider even versus odd integers. If our universe of discourse is the set of real numbers, we might want to consider rational versus irrational numbers, or possibly negative versus zero versus and positive. Attacking a proof in this way, is often referred to as a proof by cases (or proof by exhaustion ). A proof by cases may also be useful when dealing with hypotheses involving or . Note that the use of a proof by cases is justified by Theorem .  If you decide to approach a proof using cases, be sure to inform the reader that you are doing so and organize your proof in a sensible way. Note that doing an analysis of cases should be avoided if possible. For example, while it is valid to separately consider the cases of whether is an even integer versus odd integer in the proof of Theorem , it is completely unnecessary. To prove the next theorem, you might want to consider two cases.    For all , is even.    Prove the following theorem by proving the contrapositive using two cases.    For all , if is odd, then is odd and is odd.    When proving the previous theorem, you likely experienced some dèjá vu. You should have assumed is even or is even at some point in your proof. The first case is is even while the second case is is even. (Note that you do not need to handle the case when both and are even since the two individual cases already yield the desired result.) The proofs for both cases are identical except the roles of and are interchanged. In instances such as this, mathematicians have a shortcut. Instead of writing two essentially identical proofs for each case, you can simply handle one of the cases and indicate that the remaining case follows from a nearly identical proof. The quickest way to do this is to use the phrase, Without loss of generality, assume . For example, here is a proof of Theorem that utilizes this approach.   Proof of Theorem  We will prove the contrapositive. Let and assume is even or is even. Without loss of generality, assume is even. Then there exists such that . We see that .  Since both and are integers, is an integer. This shows that is even. We have proved the contrapositive, and hence for all , if is odd, then is odd and is odd.   Note that it would not be appropriate to utilize the without loss of generality approach to combine the two cases in the proof of Theorem since the proof of the second case is not as simple as swapping the roles of symbols in the proof of the first case.  There are times when a theorem will make a claim about the uniqueness of a particular mathematical object. For example, in Section , you will be asked to prove that both the additive and multiplicative identities (i.e, 0 and 1) are unique (see Theorems and ). As another example, the Fundamental Theorem of Arithmetic (see Theorem ) states that every natural number greater than 1 can be expressed uniquely (up to the order in which they appear) as the product of one or more primes. The typical approach to proving uniqueness is to suppose that there are potentially two objects with the desired property and then show that these objects are actually equal. Whether you approach this as a proof by contradiction is a matter of taste. It is common to use as a symbolic abbreviation for there exists a unique such that .   Skeleton Proof  [Direct Proof of ] Here is the general structure for a direct proof of the proposition . Assume is the universe of discourse.    [State any upfront assumptions.]    [Use definitions, axioms, and previous results to deduce that an exists for which is true; or if you have an that works, just verify that it does.]  Therefore, there exists such that . Now, suppose such that and .  [Prove that .]  This implies that there exists a unique such that .    The next theorem provides an opportunity to practice proving uniqueness.    If such that and , then there exists a unique such that .      With two published novels and a file full of ideas for others, the only thing I know about writing is this: it only happens when you sit down and do it. Studying good writing is important, reading good writing is important, talking to other writers is important, but the only way you can produce good writing is to write.  Jamie Beth Cohen, novelist   "
+  "body": " More About Quantification  When writing mathematical proofs, we do not explicitly use the symbolic representation of a given statement in terms of quantifiers and logical connectives. Nonetheless, having this notation at our disposal allows us to compartmentalize the abstract nature of mathematical propositions and provides us with a way to talk about the general structure involved in the construction of a proof.    Two quantified propositions are logically equivalent if they have the same truth value in every universe of discourse.      Consider the propositions and , where is some universe of discourse.   Do these propositions have the same truth value if the universe of discourse is the set of real numbers?    Provide an example of a universe of discourse such that the propositions yield different truth values.    What can you conclude about the logical equivalence of these propositions?       It is worth pointing out an important distinction. Consider the propositions All cars are red and All natural numbers are positive . Both of these are instances of the logical form  . It turns out that the first proposition is false and the second is true; however, it does not make sense to attach a truth value to the logical form. A logical form is a blueprint for particular propositions. If we are careful, it makes sense to talk about whether two logical forms are logically equivalent. For example, is logically equivalent to since a conditional proposition is logically equivalent to its contrapositive (see Theorem ). For fixed and , these two forms will always have the same truth value independent of the universe of discourse. If you change and , then the truth value may change, but the two forms will still agree.  The next theorem tells us how to negate logical forms involving quantifiers. Your proof should involve several mini arguments. For example, in Part (a), you will need to proof that if is true, then is also true.    Let be a predicate in some universe of discourse. Then    is logically equivalent to ;     is logically equivalent to .         Negate each of the following sentences. Disregard the truth value and the universe of discourse.             All cars are red.    Every Wookiee is named Chewbacca.    Some hippies are Republican.    Some birds are not angry.    Not every video game will rot your brain.    For all , is prime.    There exists such that .    There is no function such that if is continuous, then is not differentiable.       Using Theorem and our previous results involving quantification, we can negate complex mathematical propositions by working from left to right. For example, if we negate the false proposition , we obtain the proposition , which is logically equivalent to and must be true. For a more complicated example, consider the (false) proposition .  Then its negation is logically equivalent to , which happens to be logically equivalent to .  Can you identify the theorems that were used in the two examples above?    Negate each of the following propositions. Disregard the truth value and the universe of discourse.        For every , there exists such that .    For all , if is not negative, then there exists such that .    For every , there exists such that .    There exists such that for all , .    There exists such that for all , .         There exists a married person such that for all married people , is married to .         Consider the following proposition in some universe of discourse.    For all goofy wobblers , there exists a dinglehopper such that if is a not a nugget, then is a doofus.      Find the negation of this proposition so that it includes the phrase is not a doofus.       Consider the following proposition in some universe of discourse.    If and are both snazzy, then is not nifty.      Find the contrapositive of this proposition so that it includes the phrase not snazzy .    At this point, we should be able to use our understanding of quantification to construct counterexamples to complicated false propositions and proofs of complicated true propositions. Here are some general proof structures for various logical forms.   Direct Proof of   Here is the general structure for a direct proof of the proposition . Assume is the universe of discourse.   [State any upfront assumptions.] Let .  [Use definitions and known results.] Therefore, is true. Since was arbitrary, for all , .     Combining Skeleton Proof with Skeleton Proof , we obtain the following skeleton proof.   Proof of   Below is the general structure for a direct proof of the proposition . Assume is the universe of discourse.   [State any upfront assumptions.] Let . Assume .  [Use definitions and known results to derive ]  Therefore, .      Proof of by Contradiction   Here is the general structure for a proof of the proposition via contradiction. Assume is the universe of discourse.   [State any upfront assumptions.] For sake of a contradiction, assume that there exists such that .  [Do something to derive a contradiction.]  This is a contradiction.Therefore, for all , is true.      Direct Proof of   Here is the general structure for a direct proof of the proposition . Assume is the universe of discourse.   [State any upfront assumptions.]    [Use definitions, axioms, and previous results to deduce that an exists for which is true; or if you have an that works, just verify that it does.]  Therefore, there exists such that .      Proof of by Contradiction   Below is the general structure for a proof of the proposition via contradiction. Assume is the universe of discourse.   [State any upfront assumptions.] For sake of a contradiction, assume that for all ,   [Do something to derive a contradiction.]  This is a contradiction. Therefore, there exists such that .     Note that if is a predicate for which is false, then a counterexample to this proposition amounts to showing , which can be proved by following the structure of Skeleton Proof .  It is important to point out that sometimes we will have to combine various proof techniques in a single proof. For example, if you wanted to prove a proposition of the form ) by contradiction, we would start by assuming that there exists in the universe of discourse such that and .    Determine whether each of the following statements is true or false. If the statement is true, prove it. If the statement is false, provide a counterexample.   For all , .    There exists such that .    There exists such that for all , .    For all , .    For all , there exists such that .    There exists integers and such that .    There do not exist integers and such that .    For all , if divides , then either divides or divides .    For all , if is even, then either or is even.         Explain why the following proof is not a valid argument.  Claim. For all , if and are even, then is even.  Proof. Suppose such that and are even. For sake of a contradiction, assume that is odd. Then there exists such that . This implies that . We see that the left side of the equation is even because it is the difference of even numbers. However, the right side is odd. Since an even number cannot equal an odd number, we have a contradiction. Therefore, is even.    Sometimes it is useful to split the universe of discourse into multiple collections to deal with separately. When doing this, it is important to make sure that your cases are exhaustive (i.e., every possible element of the universe of discourse has been accounted for). Ideally, your cases will also be disjoint (i.e., you have not considered the same element more than once). For example, if our universe of discourse is the set of integers, we can separately consider even versus odd integers. If our universe of discourse is the set of real numbers, we might want to consider rational versus irrational numbers, or possibly negative versus zero versus and positive. Attacking a proof in this way, is often referred to as a proof by cases (or proof by exhaustion ). A proof by cases may also be useful when dealing with hypotheses involving or . Note that the use of a proof by cases is justified by Theorem .  If you decide to approach a proof using cases, be sure to inform the reader that you are doing so and organize your proof in a sensible way. Note that doing an analysis of cases should be avoided if possible. For example, while it is valid to separately consider the cases of whether is an even integer versus odd integer in the proof of Theorem , it is completely unnecessary. To prove the next theorem, you might want to consider two cases.    For all , is even.    Prove the following theorem by proving the contrapositive using two cases.    For all , if is odd, then is odd and is odd.    When proving the previous theorem, you likely experienced some dèjá vu. You should have assumed is even or is even at some point in your proof. The first case is is even while the second case is is even. (Note that you do not need to handle the case when both and are even since the two individual cases already yield the desired result.) The proofs for both cases are identical except the roles of and are interchanged. In instances such as this, mathematicians have a shortcut. Instead of writing two essentially identical proofs for each case, you can simply handle one of the cases and indicate that the remaining case follows from a nearly identical proof. The quickest way to do this is to use the phrase, Without loss of generality, assume . For example, here is a proof of Theorem that utilizes this approach.   Proof of Theorem  We will prove the contrapositive. Let and assume is even or is even. Without loss of generality, assume is even. Then there exists such that . We see that .  Since both and are integers, is an integer. This shows that is even. We have proved the contrapositive, and hence for all , if is odd, then is odd and is odd.   Note that it would not be appropriate to utilize the without loss of generality approach to combine the two cases in the proof of Theorem since the proof of the second case is not as simple as swapping the roles of symbols in the proof of the first case.  There are times when a theorem will make a claim about the uniqueness of a particular mathematical object. For example, in Section , you will be asked to prove that both the additive and multiplicative identities (i.e, 0 and 1) are unique (see Theorems and ). As another example, the Fundamental Theorem of Arithmetic (see Theorem ) states that every natural number greater than 1 can be expressed uniquely (up to the order in which they appear) as the product of one or more primes. The typical approach to proving uniqueness is to suppose that there are potentially two objects with the desired property and then show that these objects are actually equal. Whether you approach this as a proof by contradiction is a matter of taste. It is common to use as a symbolic abbreviation for there exists a unique such that .   Direct Proof of   Here is the general structure for a direct proof of the proposition . Assume is the universe of discourse.   [State any upfront assumptions.]    [Use definitions, axioms, and previous results to deduce that an exists for which is true; or if you have an that works, just verify that it does.]  Therefore, there exists such that . Now, suppose such that and .  [Prove that .]  This implies that there exists a unique such that .     The next theorem provides an opportunity to practice proving uniqueness.    If such that and , then there exists a unique such that .      With two published novels and a file full of ideas for others, the only thing I know about writing is this: it only happens when you sit down and do it. Studying good writing is important, reading good writing is important, talking to other writers is important, but the only way you can produce good writing is to write.  Jamie Beth Cohen, novelist   "
 },
 {
   "id": "definition-12",
   "level": "2",
   "url": "sec_More_About_Quantification.html#definition-12",
   "type": "Definition",
-  "number": "2.70",
+  "number": "2.74",
   "title": "",
   "body": "  Two quantified propositions are logically equivalent if they have the same truth value in every universe of discourse.   "
 },
@@ -788,7 +806,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_More_About_Quantification.html#problem-37",
   "type": "Problem",
-  "number": "2.71",
+  "number": "2.75",
   "title": "",
   "body": "  Consider the propositions and , where is some universe of discourse.   Do these propositions have the same truth value if the universe of discourse is the set of real numbers?    Provide an example of a universe of discourse such that the propositions yield different truth values.    What can you conclude about the logical equivalence of these propositions?      "
 },
@@ -797,7 +815,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_More_About_Quantification.html#thm_negation_of_quantifiers",
   "type": "Theorem",
-  "number": "2.72",
+  "number": "2.76",
   "title": "",
   "body": "  Let be a predicate in some universe of discourse. Then    is logically equivalent to ;     is logically equivalent to .      "
 },
@@ -806,7 +824,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_More_About_Quantification.html#problem-38",
   "type": "Problem",
-  "number": "2.73",
+  "number": "2.77",
   "title": "",
   "body": "  Negate each of the following sentences. Disregard the truth value and the universe of discourse.             All cars are red.    Every Wookiee is named Chewbacca.    Some hippies are Republican.    Some birds are not angry.    Not every video game will rot your brain.    For all , is prime.    There exists such that .    There is no function such that if is continuous, then is not differentiable.      "
 },
@@ -815,7 +833,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_More_About_Quantification.html#problem-39",
   "type": "Problem",
-  "number": "2.74",
+  "number": "2.78",
   "title": "",
   "body": "  Negate each of the following propositions. Disregard the truth value and the universe of discourse.        For every , there exists such that .    For all , if is not negative, then there exists such that .    For every , there exists such that .    There exists such that for all , .    There exists such that for all , .         There exists a married person such that for all married people , is married to .      "
 },
@@ -824,7 +842,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_More_About_Quantification.html#problem-40",
   "type": "Problem",
-  "number": "2.75",
+  "number": "2.79",
   "title": "",
   "body": "  Consider the following proposition in some universe of discourse.    For all goofy wobblers , there exists a dinglehopper such that if is a not a nugget, then is a doofus.      Find the negation of this proposition so that it includes the phrase is not a doofus.    "
 },
@@ -833,61 +851,61 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_More_About_Quantification.html#problem-41",
   "type": "Problem",
-  "number": "2.76",
+  "number": "2.80",
   "title": "",
   "body": "  Consider the following proposition in some universe of discourse.    If and are both snazzy, then is not nifty.      Find the contrapositive of this proposition so that it includes the phrase not snazzy .   "
 },
 {
-  "id": "proof-5",
+  "id": "skeleton_for_all",
   "level": "2",
-  "url": "sec_More_About_Quantification.html#proof-5",
-  "type": "Proof",
-  "number": "1",
-  "title": "",
-  "body": "  [State any upfront assumptions.] Let .  [Use definitions and known results.]  Therefore, is true. Since was arbitrary, for all , .  "
+  "url": "sec_More_About_Quantification.html#skeleton_for_all",
+  "type": "Skeleton Proof",
+  "number": "2.81",
+  "title": "Direct Proof of <span class=\"process-math\">\\((\\forall x)P(x)\\)<\/span>.",
+  "body": " Direct Proof of   Here is the general structure for a direct proof of the proposition . Assume is the universe of discourse.   [State any upfront assumptions.] Let .  [Use definitions and known results.] Therefore, is true. Since was arbitrary, for all , .    "
 },
 {
-  "id": "proof-6",
+  "id": "skeleton_for_all_direct_proof",
   "level": "2",
-  "url": "sec_More_About_Quantification.html#proof-6",
-  "type": "Proof",
-  "number": "1",
-  "title": "",
-  "body": "  [State any upfront assumptions.] Let . Assume .  [Use definitions and known results to derive ]  Therefore, .  "
+  "url": "sec_More_About_Quantification.html#skeleton_for_all_direct_proof",
+  "type": "Skeleton Proof",
+  "number": "2.82",
+  "title": "Proof of <span class=\"process-math\">\\((\\forall x)(A(x)\\implies B(x))\\)<\/span>.",
+  "body": " Proof of   Below is the general structure for a direct proof of the proposition . Assume is the universe of discourse.   [State any upfront assumptions.] Let . Assume .  [Use definitions and known results to derive ]  Therefore, .    "
 },
 {
-  "id": "proof-7",
+  "id": "skeleton_for_all_contradiction",
   "level": "2",
-  "url": "sec_More_About_Quantification.html#proof-7",
-  "type": "Proof",
-  "number": "1",
-  "title": "",
-  "body": "  [State any upfront assumptions.] For sake of a contradiction, assume that there exists such that .  [Do something to derive a contradiction.]  This is a contradiction. Therefore, for all , is true.  "
+  "url": "sec_More_About_Quantification.html#skeleton_for_all_contradiction",
+  "type": "Skeleton Proof",
+  "number": "2.83",
+  "title": "Proof of <span class=\"process-math\">\\((\\forall x)P(x)\\)<\/span> by Contradiction.",
+  "body": " Proof of by Contradiction   Here is the general structure for a proof of the proposition via contradiction. Assume is the universe of discourse.   [State any upfront assumptions.] For sake of a contradiction, assume that there exists such that .  [Do something to derive a contradiction.]  This is a contradiction.Therefore, for all , is true.    "
 },
 {
-  "id": "proof-8",
+  "id": "skeleton_exists",
   "level": "2",
-  "url": "sec_More_About_Quantification.html#proof-8",
-  "type": "Proof",
-  "number": "1",
-  "title": "",
-  "body": "  [State any upfront assumptions.]    [Use definitions, axioms, and previous results to deduce that an exists for which is true; or if you have an that works, just verify that it does.]  Therefore, there exists such that .  "
+  "url": "sec_More_About_Quantification.html#skeleton_exists",
+  "type": "Skeleton Proof",
+  "number": "2.84",
+  "title": "Direct Proof of <span class=\"process-math\">\\((\\exists x)P(x)\\)<\/span>.",
+  "body": " Direct Proof of   Here is the general structure for a direct proof of the proposition . Assume is the universe of discourse.   [State any upfront assumptions.]    [Use definitions, axioms, and previous results to deduce that an exists for which is true; or if you have an that works, just verify that it does.]  Therefore, there exists such that .    "
 },
 {
-  "id": "proof-9",
+  "id": "skeleton_exists_contradiction",
   "level": "2",
-  "url": "sec_More_About_Quantification.html#proof-9",
-  "type": "Proof",
-  "number": "1",
-  "title": "",
-  "body": "  [State any upfront assumptions.] For sake of a contradiction, assume that for all , .  [Do something to derive a contradiction.]  This is a contradiction. Therefore, there exists such that .  "
+  "url": "sec_More_About_Quantification.html#skeleton_exists_contradiction",
+  "type": "Skeleton Proof",
+  "number": "2.85",
+  "title": "Proof of <span class=\"process-math\">\\((\\exists x)P(x)\\)<\/span> by Contradiction.",
+  "body": " Proof of by Contradiction   Below is the general structure for a proof of the proposition via contradiction. Assume is the universe of discourse.   [State any upfront assumptions.] For sake of a contradiction, assume that for all ,   [Do something to derive a contradiction.]  This is a contradiction. Therefore, there exists such that .    "
 },
 {
   "id": "problem-42",
   "level": "2",
   "url": "sec_More_About_Quantification.html#problem-42",
   "type": "Problem",
-  "number": "2.77",
+  "number": "2.86",
   "title": "",
   "body": "  Determine whether each of the following statements is true or false. If the statement is true, prove it. If the statement is false, provide a counterexample.   For all , .    There exists such that .    There exists such that for all , .    For all , .    For all , there exists such that .    There exists integers and such that .    There do not exist integers and such that .    For all , if divides , then either divides or divides .    For all , if is even, then either or is even.      "
 },
@@ -896,16 +914,25 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_More_About_Quantification.html#problem-43",
   "type": "Problem",
-  "number": "2.78",
+  "number": "2.87",
   "title": "",
-  "body": "  Explain why the following proof is not a valid argument.    Claim. For all , if and are even, then is even.  Proof.  Suppose such that and are even. For sake of a contradiction, assume that is odd. Then there exists such that . This implies that . We see that the left side of the equation is even because it is the difference of even numbers. However, the right side is odd. Since an even number cannot equal an odd number, we have a contradiction. Therefore, is even.      "
+  "body": "  Explain why the following proof is not a valid argument.  Claim. For all , if and are even, then is even.  Proof. Suppose such that and are even. For sake of a contradiction, assume that is odd. Then there exists such that . This implies that . We see that the left side of the equation is even because it is the difference of even numbers. However, the right side is odd. Since an even number cannot equal an odd number, we have a contradiction. Therefore, is even.   "
+},
+{
+  "id": "p-372",
+  "level": "2",
+  "url": "sec_More_About_Quantification.html#p-372",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "proof by cases proof by exhaustion "
 },
 {
   "id": "thm_3n_2_n_14_is_even",
   "level": "2",
   "url": "sec_More_About_Quantification.html#thm_3n_2_n_14_is_even",
   "type": "Theorem",
-  "number": "2.79",
+  "number": "2.88",
   "title": "",
   "body": "  For all , is even.   "
 },
@@ -914,7 +941,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_More_About_Quantification.html#thm_nm_odd_implies_n_or_m_odd",
   "type": "Theorem",
-  "number": "2.80",
+  "number": "2.89",
   "title": "",
   "body": "  For all , if is odd, then is odd and is odd.   "
 },
@@ -924,24 +951,24 @@ var ptx_lunr_docs = [
   "url": "sec_More_About_Quantification.html#proof-10",
   "type": "Proof",
   "number": "2.5.1",
-  "title": "Proof of Theorem 2.80.",
+  "title": "Proof of Theorem 2.89.",
   "body": " Proof of Theorem  We will prove the contrapositive. Let and assume is even or is even. Without loss of generality, assume is even. Then there exists such that . We see that .  Since both and are integers, is an integer. This shows that is even. We have proved the contrapositive, and hence for all , if is odd, then is odd and is odd.  "
 },
 {
-  "id": "proof-11",
+  "id": "skeleton_uniqueness",
   "level": "2",
-  "url": "sec_More_About_Quantification.html#proof-11",
-  "type": "Proof",
-  "number": "1",
-  "title": "",
-  "body": "  [State any upfront assumptions.]    [Use definitions, axioms, and previous results to deduce that an exists for which is true; or if you have an that works, just verify that it does.]  Therefore, there exists such that . Now, suppose such that and .  [Prove that .]  This implies that there exists a unique such that .  "
+  "url": "sec_More_About_Quantification.html#skeleton_uniqueness",
+  "type": "Skeleton Proof",
+  "number": "2.90",
+  "title": "Direct Proof of <span class=\"process-math\">\\((\\exists! x)P(x)\\)<\/span>.",
+  "body": " Direct Proof of   Here is the general structure for a direct proof of the proposition . Assume is the universe of discourse.   [State any upfront assumptions.]    [Use definitions, axioms, and previous results to deduce that an exists for which is true; or if you have an that works, just verify that it does.]  Therefore, there exists such that . Now, suppose such that and .  [Prove that .]  This implies that there exists a unique such that .    "
 },
 {
   "id": "theorem-23",
   "level": "2",
   "url": "sec_More_About_Quantification.html#theorem-23",
   "type": "Theorem",
-  "number": "2.81",
+  "number": "2.91",
   "title": "",
   "body": "  If such that and , then there exists a unique such that .   "
 },
@@ -964,18 +991,18 @@ var ptx_lunr_docs = [
   "body": "  A set is a collection of objects called elements . If is a set and is an element of , we write . Otherwise, we write . The set containing no elements is called the empty set , and is denoted by the symbol . Any set that contains at least one element is referred to as a nonempty set .   "
 },
 {
-  "id": "p-391",
+  "id": "p-390",
   "level": "2",
-  "url": "sec_Sets.html#p-391",
+  "url": "sec_Sets.html#p-390",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "set-builder notation "
 },
 {
-  "id": "p-392",
+  "id": "p-391",
   "level": "2",
-  "url": "sec_Sets.html#p-392",
+  "url": "sec_Sets.html#p-391",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -1189,9 +1216,9 @@ var ptx_lunr_docs = [
   "body": " Russell's Paradox  We now turn our attention to the issue of whether there is one mother of all universal sets. Before reading any further, consider this for a moment. That is, is there one largest set that all other sets are a subset of? Or, in other words, is there a set of all sets? To help wrap our heads around this issue, consider the following riddle, known as the Barber of Seville Paradox .  In Seville, there is a barber who shaves all those men, and only those men, who do not shave themselves. Who shaves the barber?    In the Barber of Seville Paradox, does the barber shave himself or not?     Problem is an example of a paradox . A paradox is a statement that can be shown, using a given set of axioms and definitions, to be both true and false. Recall that an axiom is a statement that is assumed to be true without proof. These are the basic building blocks from which all theorems are proved. Paradoxes are often used to show the inconsistencies in a flawed axiomatic theory. The term paradox is also used informally to describe a surprising or counterintuitive result that follows from a given set of rules. Now, suppose that there is a set of all sets and call it . That is, .    Given our definition of , explain why is an element of itself.    If we continue with this line of reasoning, it must be the case that some sets are elements of themselves and some are not. Let be the set of all sets that are elements of themselves and let be the set of all sets that are not elements of themselves.    Does belong to or ? Explain why this is a paradox.    The above paradox is one way of phrasing a paradox referred to as Russell's Paradox , named after British mathematician and philosopher Bertrand Russell (1872 1970). How did we get into this mess in the first place?! By assuming the existence of a set of all sets, we can produce all sorts of paradoxes. The only way to avoid these types of paradoxes is to conclude that there is no set of all sets. That is, the collection of all sets cannot be a set itself.  According to naive set theory (i.e., approaching set theory using natural language as opposed to formal logic), any definable collection is a set. As Russell's Paradox illustrates, this leads to problems. It turns out that any proposition can be proved from a contradiction, and hence the presence of contradictions like Russell's Paradox would appear to be catastrophic for mathematics. Since set theory is often viewed as the basis for axiomatic development in mathematics, Russell's Paradox calls the foundations of mathematics into question. In response to this threat, a great deal of research went into developing consistent axioms (i.e., free of contradictions) for set theory in the early 20th century. In 1908, Ernst Zermelo (1871 1953) proposed a collection of axioms for set theory that avoided the inconsistencies of naive set theory. In the 1920s, adjustments to Zermelo's axioms were made by Abraham Fraenkel (1891 1965), Thoralf Skolem (1887 1963), and Zermelo that resulted in a collection of nine axioms, called ZFC , where ZF stands for Zermelo and Fraenkel and C stands for the Axiom of Choice, which is one of the nine axioms. Loosely speaking, the Axiom of Choice states that given any collection of sets, each containing at least one element, it is possible to make a selection of exactly one object from each set, even if the collection of sets is infinite. There was a period of time in mathematics when the Axiom of Choice was controversial, but nowadays it is generally accepted. There is a fascinating history concerning the Axiom of Choice, including its controversy. The Wikipedia page for the Axiom of Choice is a good place to start if you are interested in learning more. There are several competing axiomatic approaches to set theory, but ZFC is considered the canonical collection of axioms by most mathematicians.   Appendix includes a few more examples of paradoxes, which you are encouraged to ponder.    In times of change, learners inherit the earth, while the learned find themselves beautifully equipped to deal with a world that no longer exists.  Eric Hoffer, moral and social philosopher   "
 },
 {
-  "id": "p-488",
+  "id": "p-487",
   "level": "2",
-  "url": "sec_RussellsParadox.html#p-488",
+  "url": "sec_RussellsParadox.html#p-487",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -1207,9 +1234,9 @@ var ptx_lunr_docs = [
   "body": "  In the Barber of Seville Paradox, does the barber shave himself or not?   "
 },
 {
-  "id": "p-490",
+  "id": "p-489",
   "level": "2",
-  "url": "sec_RussellsParadox.html#p-490",
+  "url": "sec_RussellsParadox.html#p-489",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -1234,9 +1261,9 @@ var ptx_lunr_docs = [
   "body": "  Does belong to or ? Explain why this is a paradox.   "
 },
 {
-  "id": "p-494",
+  "id": "p-493",
   "level": "2",
-  "url": "sec_RussellsParadox.html#p-494",
+  "url": "sec_RussellsParadox.html#p-493",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -1297,9 +1324,9 @@ var ptx_lunr_docs = [
   "body": "  Let and be sets. Determine whether each of the following statements is true or false. If the statement is true, prove it. If the statement is false, provide a counterexample.                         "
 },
 {
-  "id": "p-516",
+  "id": "p-515",
   "level": "2",
-  "url": "sec_PowerSets.html#p-516",
+  "url": "sec_PowerSets.html#p-515",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -1315,9 +1342,9 @@ var ptx_lunr_docs = [
   "body": " Indexing Sets  Suppose we consider the following collection of open intervals:   This collection has a natural way for us to index the sets:   In this case the sets are indexed by the set . The subscripts are taken from the index set . If we wanted to talk about an arbitrary set from this indexed collection, we could use the notation .  Let's consider another example:   An obvious way to index these sets is as follows:   In this case, the collection of sets is indexed by .  Using indexing sets in mathematics is an extremely useful notational tool, but it is important to keep straight the difference between the sets that are being indexed, the elements in each set being indexed, the indexing set, and the elements of the indexing set.  Any set (finite or infinite) can be used as an indexing set. Often capital Greek letters are used to denote arbitrary indexing sets and small Greek letters to represent elements of these sets. If the indexing set is a subset of , then it is common to use Roman letters as individual indices. Of course, these are merely conventions, not rules.   If is a set and we have a collection of sets indexed by , then we may write to refer to this collection. We read this as the set of -sub-alphas over alpha in Delta.     If a collection of sets is indexed by , then we may write or .    Borrowing from this idea, a collection may be written as .       Let be a collection of sets.   The union of the entire collection is defined via .    The intersection of the entire collection is defined via .       In the special case that , we write and   Similarly, if , then .  Notice the difference between and (respectively, and ).    Let be the collection of open intervals from the beginning of the section. Find each of the following.                  Let be the collection from earlier in the section. Find each of the following.                  Let , where . Find each of the following.                  Let , where . Find each of the following.                  For each (the rational numbers), let be the set containing all real numbers except  . Find each of the following.                  A collection of sets is pairwise disjoint if for .      Provide an example of a collection of sets that is not pairwise disjoint even though .      For each of the following, provide an example of a collection of sets with the stated property.   A collection of three subsets of such that the collection is not pairwise disjoint, the union equals , and the intersection of the collection is empty.    A collection of infinitely many subsets of such that the collection is not pairwise disjoint, the union equals , and the intersection of the collection is empty.    A collection of infinitely many subsets of such that the collection is pairwise disjoint, the union equals , and the intersection of the collection is empty.        Generalized Distribution of Union and Intersection   Let be a collection of sets and let be any set. Then    , and     .        Generalized De Morgan's Law   Let be a collection of sets. Then    , and     .       At the end of Section , we mentioned the Axiom of Choice. Using the language of indexing sets, we can now state this axiom precisely.   Axiom of Choice   For every indexed collection of nonempty sets, there exists an indexed collection of elements such that for each .    Intuitively, the Axiom of Choice guarantees the existence of mathematical objects that are obtained by a sequence of choices. It applies to both the finite and infinite setting. As an analogy, we can think of each as a drawer in a dresser and each as an article of clothing chosen from the drawer identified with . The Axiom of Choice is surprisingly powerful, sometimes leading to unexpected consequences. It often gets used in subtle ways that mathematicians are not always explicit with. We will require the Axiom of Choice when proving Theorems and . When proving these theorems, be on the lookout for where you are invoking the Axiom of Choice.    All sorts of things can happen when you're open to new ideas and playing around with things.  Stephanie Kwolek, chemist   "
 },
 {
-  "id": "p-520",
+  "id": "p-519",
   "level": "2",
-  "url": "sec_Indexing_Sets.html#p-520",
+  "url": "sec_Indexing_Sets.html#p-519",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -1618,7 +1645,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "4.1",
   "title": "Introduction to Induction",
-  "body": " Introduction to Induction  Consider the claims:   For all , .    For all , is prime.     Let's take a look at potential proofs.    Proof of (a). If , then . If , then . If , then , and so on.    Proof of (b). If , then , which is prime. If , then , which is prime. If , then , which is prime, and so on.  Are these actual proofs? No! In fact, the second claim is not even true. If , then , which is not prime since it has 41 as a factor. It turns out that the first claim is true, but what we wrote cannot be a proof since the same type of reasoning when applied to the second claim seems to prove something that isn not actually true. We need a rigorous way of capturing and so on and a way to verify whether it really is and so on.   Recall that an axiom is a basic mathematical assumption. The following axiom is one of the Peano Axioms, which is a collection of axioms for the natural numbers introduced in the 19th century by Italian mathematician Giuseppe Peano (1858 1932).   Axiom of Induction   Let such that both    , and    if , then .     Then .    We can think of the set as a ladder, where the first hypothesis as saying that we have a first rung of a ladder. The second hypothesis says that if we are on any arbitrary rung of the ladder, then we can always get to the next rung. Taken together, this says that we can get from the first rung to the second, from the second to the third, and in general, from any th rung to the st rung, so that our ladder is actually . Do you agree that the Axiom of Induction is a pretty reasonable assumption?  At the end of Section , we briefly discussed ZFC, which is the standard choice for axiomatic set theory. It turns out that one can prove the Axiom of Induction as a theorem in ZFC. However, that will not be the approach we take. Instead, we are assuming the Axiom of Induction is true. Using this axiom, we can prove the following theorem, known as the Principle of Mathematical Induction . One approach to proving this theorem is to let and use the Axiom of Induction. The set is sometimes called the truth set . Your job is to show that the truth set is all of .   Principle of Mathematical Induction   Let be a sequence of statements, one for each natural number. Assume    is true, and    for all , if is true, then is true.     Then is true for all .    The Principle of Mathematical Induction provides us with a process for proving statements of the form: For all , , where is some predicate involving . Hypothesis (i) above is called the base step (or base case ) while (ii) is called the inductive step .  You should not confuse mathematical induction with inductive reasoning associated with the natural sciences. Inductive reasoning is a scientific method whereby one induces general principles from observations. On the other hand, mathematical induction is a deductive form of reasoning used to establish the validity of a proposition.   Skeleton Proof  [Proof of by Induction] Here is the general structure for a proof by induction.   We proceed by induction.   (i)  Base step: [Verify that is true. This often, but not always, amounts to plugging into two sides of some claimed equation and verifying that both sides are actually equal.]     (ii)  Inductive step: [Your goal is to prove For all , if is true, then is true. ] Let and assume that is true. [Do something to derive that is true.] Therefore, is true.     Thus, by induction, is true for all .    Prove the next few theorems using induction. The first result may look familiar from calculus. Recall that , by definition.    For all , .      For all , 3 divides .      For all , 6 divides .      Let be distinct points arranged on a circle. Then the number of line segments joining all pairs of points is .      Consider a grid of squares that is squares wide by squares long, where . One of the squares has been cut out, but you do not know which one! You have a bunch of L-shapes made up of squares. Prove that you can perfectly cover this chessboard with the L-shapes (with no overlap) for any . Figure depicts one possible covering for the case involving .     One possible covering for the case involving for Problem .        Do not stop thinking of life as an adventure. You have no security unless you can live bravely, excitingly, imaginatively; unless you can choose a challenge instead of competence.  Eleanor Roosevelt, political figure & activist   "
+  "body": " Introduction to Induction  Consider the claims:   For all , .    For all , is prime.     Let's take a look at potential proofs.    Proof of (a). If , then . If , then . If , then , and so on.    Proof of (b). If , then , which is prime. If , then , which is prime. If , then , which is prime, and so on.  Are these actual proofs? No! In fact, the second claim is not even true. If , then , which is not prime since it has 41 as a factor. It turns out that the first claim is true, but what we wrote cannot be a proof since the same type of reasoning when applied to the second claim seems to prove something that isn not actually true. We need a rigorous way of capturing and so on and a way to verify whether it really is and so on.   Recall that an axiom is a basic mathematical assumption. The following axiom is one of the Peano Axioms, which is a collection of axioms for the natural numbers introduced in the 19th century by Italian mathematician Giuseppe Peano (1858 1932).   Axiom of Induction   Let such that both    , and    if , then .     Then .    We can think of the set as a ladder, where the first hypothesis as saying that we have a first rung of a ladder. The second hypothesis says that if we are on any arbitrary rung of the ladder, then we can always get to the next rung. Taken together, this says that we can get from the first rung to the second, from the second to the third, and in general, from any th rung to the st rung, so that our ladder is actually . Do you agree that the Axiom of Induction is a pretty reasonable assumption?  At the end of Section , we briefly discussed ZFC, which is the standard choice for axiomatic set theory. It turns out that one can prove the Axiom of Induction as a theorem in ZFC. However, that will not be the approach we take. Instead, we are assuming the Axiom of Induction is true. Using this axiom, we can prove the following theorem, known as the Principle of Mathematical Induction . One approach to proving this theorem is to let and use the Axiom of Induction. The set is sometimes called the truth set . Your job is to show that the truth set is all of .   Principle of Mathematical Induction   Let be a sequence of statements, one for each natural number. Assume    is true, and    for all , if is true, then is true.     Then is true for all .    The Principle of Mathematical Induction provides us with a process for proving statements of the form: For all , , where is some predicate involving . Hypothesis (i) above is called the base step (or base case ) while (ii) is called the inductive step .  You should not confuse mathematical induction with inductive reasoning associated with the natural sciences. Inductive reasoning is a scientific method whereby one induces general principles from observations. On the other hand, mathematical induction is a deductive form of reasoning used to establish the validity of a proposition.   Proof of by Induction   Here is the general structure for a proof by induction.   We proceed by induction.  Base step: [Verify that is true. This often, but not always, amounts to plugging into two sides of some claimed equation and verifying that both sides are actually equal.]   Inductive step: [Your goal is to prove For all , if is true, then is true. ] Let and assume that is true. [Do something to derive that is true.] Therefore, is true.    Thus, by induction, is true for all .     Prove the next few theorems using induction. The first result may look familiar from calculus. Recall that , by definition.    For all , .      For all , 3 divides .      For all , 6 divides .      Let be distinct points arranged on a circle. Then the number of line segments joining all pairs of points is .      Consider a grid of squares that is squares wide by squares long, where . One of the squares has been cut out, but you do not know which one! You have a bunch of L-shapes made up of squares. Prove that you can perfectly cover this chessboard with the L-shapes (with no overlap) for any . Figure depicts one possible covering for the case involving .     One possible covering for the case involving for Problem .        Do not stop thinking of life as an adventure. You have no security unless you can live bravely, excitingly, imaginatively; unless you can choose a challenge instead of competence.  Eleanor Roosevelt, political figure & activist   "
 },
 {
   "id": "axiom_induction",
@@ -1630,9 +1657,9 @@ var ptx_lunr_docs = [
   "body": " Axiom of Induction   Let such that both    , and    if , then .     Then .   "
 },
 {
-  "id": "p-626",
+  "id": "p-625",
   "level": "2",
-  "url": "sec_Intro_to_Induction.html#p-626",
+  "url": "sec_Intro_to_Induction.html#p-625",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -1648,29 +1675,29 @@ var ptx_lunr_docs = [
   "body": " Principle of Mathematical Induction   Let be a sequence of statements, one for each natural number. Assume    is true, and    for all , if is true, then is true.     Then is true for all .   "
 },
 {
-  "id": "p-631",
+  "id": "p-630",
   "level": "2",
-  "url": "sec_Intro_to_Induction.html#p-631",
+  "url": "sec_Intro_to_Induction.html#p-630",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "base step base case inductive step "
 },
 {
-  "id": "proof-12",
+  "id": "skeleton_induction",
   "level": "2",
-  "url": "sec_Intro_to_Induction.html#proof-12",
-  "type": "Proof",
-  "number": "1",
-  "title": "",
-  "body": " We proceed by induction.   (i)  Base step: [Verify that is true. This often, but not always, amounts to plugging into two sides of some claimed equation and verifying that both sides are actually equal.]     (ii)  Inductive step: [Your goal is to prove For all , if is true, then is true. ] Let and assume that is true. [Do something to derive that is true.] Therefore, is true.     Thus, by induction, is true for all .  "
+  "url": "sec_Intro_to_Induction.html#skeleton_induction",
+  "type": "Skeleton Proof",
+  "number": "4.3",
+  "title": "Proof of <span class=\"process-math\">\\((\\forall n\\in\\mathbb{N})P(n)\\)<\/span> by Induction.",
+  "body": " Proof of by Induction   Here is the general structure for a proof by induction.   We proceed by induction.  Base step: [Verify that is true. This often, but not always, amounts to plugging into two sides of some claimed equation and verifying that both sides are actually equal.]   Inductive step: [Your goal is to prove For all , if is true, then is true. ] Let and assume that is true. [Do something to derive that is true.] Therefore, is true.    Thus, by induction, is true for all .    "
 },
 {
   "id": "theorem-36",
   "level": "2",
   "url": "sec_Intro_to_Induction.html#theorem-36",
   "type": "Theorem",
-  "number": "4.3",
+  "number": "4.4",
   "title": "",
   "body": "  For all , .   "
 },
@@ -1679,7 +1706,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Intro_to_Induction.html#theorem-37",
   "type": "Theorem",
-  "number": "4.4",
+  "number": "4.5",
   "title": "",
   "body": "  For all , 3 divides .   "
 },
@@ -1688,7 +1715,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Intro_to_Induction.html#theorem-38",
   "type": "Theorem",
-  "number": "4.5",
+  "number": "4.6",
   "title": "",
   "body": "  For all , 6 divides .   "
 },
@@ -1697,7 +1724,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Intro_to_Induction.html#theorem-39",
   "type": "Theorem",
-  "number": "4.6",
+  "number": "4.7",
   "title": "",
   "body": "  Let be distinct points arranged on a circle. Then the number of line segments joining all pairs of points is .   "
 },
@@ -1706,7 +1733,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Intro_to_Induction.html#prob_L-shapes",
   "type": "Problem",
-  "number": "4.7",
+  "number": "4.8",
   "title": "",
   "body": "  Consider a grid of squares that is squares wide by squares long, where . One of the squares has been cut out, but you do not know which one! You have a bunch of L-shapes made up of squares. Prove that you can perfectly cover this chessboard with the L-shapes (with no overlap) for any . Figure depicts one possible covering for the case involving .   "
 },
@@ -1715,7 +1742,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Intro_to_Induction.html#fig_L-shapes",
   "type": "Figure",
-  "number": "4.8",
+  "number": "4.9",
   "title": "",
   "body": " One possible covering for the case involving for Problem .     "
 },
@@ -1726,41 +1753,41 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "4.2",
   "title": "More on Induction",
-  "body": " More on Induction  In the previous section, we discussed proving statements of the form . Mathematical induction can actually be used to prove a broader family of results; namely, those of the form for any value . Theorem handles the special case when . The ladder analogy from the previous section holds for this more general situation, too. To prove the next theorem, mimic the proof of Theorem , but this time use the set .   Principle of Mathematical Induction   Let be a sequence of statements, one for each integer greater than or equal to . Assume that    is true, and    for all , if is true, then is true.     Then is true for all integers .     Theorem gives a process for proving statements of the form: For all integers , . As before, hypothesis (i) is called the base step , and (ii) is called the inductive step .   Skeleton Proof  [Proof of by Induction] Here is the general structure for a proof by induction when the base case does not necessarily involve .   We proceed by induction.   (i)  Base step: [Verify that is true. This often, but not always, amounts to plugging into two sides of some claimed equation and verifying that both sides are actually equal.]     (ii)  Inductive step: [Your goal is to prove For all , if is true, then is true. ] Let be an integer and assume that is true. [Do something to derive that is true.] Therefore, is true.     Thus, by induction, is true for all integers .    We encountered the next theorem back in Section (see Conjecture ), but we did not prove it. When proving this theorem using induction, you will need to argue that if you add one more element to a finite set, then you end up with twice as many subsets. For your base case, consider the empty set.    If is a finite set with elements, then is a set with elements.      For all integers , .    One consequence of the previous two theorems is that the power set of a finite set always consists of more elements than the original set.    For all integers , divides .      For all integers , divides .      For all integers , .      For all integers , .      Fix a real number . For all integers , .      For all integers , .      For all integers , .      For all integers , .      \\label{thm:3^{2n}-1 div by 8} For all integers , is divisible by .      For all integers , .      For all integers , is divisible by .    We now consider an induction problem of a different sort, where you have to begin with some experimentation. For Part (c), consider using the results from Parts (a) and (b).    Suppose lines are drawn in the plane so that no two lines are parallel and no three lines intersect at any one point. Such a collection of lines is said to be in general position . Every collection of lines in general position divides the plane into disjoint regions, some of which are polygons with finite area (bounded regions) and some of which are not (unbounded regions).   Let be the number of regions the plane is divided into by lines in general position. Conjecture a formula for and prove that your conjecture is correct.    Let be the number of unbounded regions the plane is divided into by lines in general position. Conjecture a formula for and prove that your conjecture is correct.    Let be the number of bounded regions the plane is divided into by lines in general position. Conjecture a formula for and prove that your conjecture is correct.    Suppose we color each of the regions (bounded and unbounded) so that no two adjacent regions (i.e., share a common edge) have the same color. What is the fewest colors we could use to accomplish this? Prove your assertion.         If you don't learn to fail, you will fail to learn.  Manu Kapur, learning scientist   "
+  "body": " More on Induction  In the previous section, we discussed proving statements of the form . Mathematical induction can actually be used to prove a broader family of results; namely, those of the form for any value . Theorem handles the special case when . The ladder analogy from the previous section holds for this more general situation, too. To prove the next theorem, mimic the proof of Theorem , but this time use the set .   Principle of Mathematical Induction   Let be a sequence of statements, one for each integer greater than or equal to . Assume that    is true, and    for all , if is true, then is true.     Then is true for all integers .     Theorem gives a process for proving statements of the form: For all integers , . As before, hypothesis (i) is called the base step , and (ii) is called the inductive step .   Proof of by Induction   Here is the general structure for a proof by induction when the base case does not necessarily involve .   We proceed by induction.  Base step: [Verify that is true. This often, but not always, amounts to plugging into two sides of some claimed equation and verifying that both sides are actually equal.]  Inductive step: [Your goal is to prove For all , if is true, then is true. ] Let be an integer and assume that is true. [Do something to derive that is true.] Therefore, is true.    Thus, by induction, is true for all integers .     We encountered the next theorem back in Section (see Conjecture ), but we did not prove it. When proving this theorem using induction, you will need to argue that if you add one more element to a finite set, then you end up with twice as many subsets. For your base case consider the empty set.    If is a finite set with elements, then is a set with elements.      For all integers , .    One consequence of the previous two theorems is that the power set of a finite set always consists of more elements than the original set.    For all integers , divides .      For all integers , divides .      For all integers , .      For all integers , .      Fix a real number . For all integers , .      For all integers , .      For all integers , .      For all integers , .      \\label{thm:3^{2n}-1 div by 8} For all integers , is divisible by .      For all integers , .      For all integers , is divisible by .    We now consider an induction problem of a different sort, where you have to begin with some experimentation. For Part (c), consider using the results from Parts (a) and (b).    Suppose lines are drawn in the plane so that no two lines are parallel and no three lines intersect at any one point. Such a collection of lines is said to be in general position . Every collection of lines in general position divides the plane into disjoint regions, some of which are polygons with finite area (bounded regions) and some of which are not (unbounded regions).   Let be the number of regions the plane is divided into by lines in general position. Conjecture a formula for and prove that your conjecture is correct.    Let be the number of unbounded regions the plane is divided into by lines in general position. Conjecture a formula for and prove that your conjecture is correct.    Let be the number of bounded regions the plane is divided into by lines in general position. Conjecture a formula for and prove that your conjecture is correct.    Suppose we color each of the regions (bounded and unbounded) so that no two adjacent regions (i.e., share a common edge) have the same color. What is the fewest colors we could use to accomplish this? Prove your assertion.         If you don't learn to fail, you will fail to learn.  Manu Kapur, learning scientist   "
 },
 {
   "id": "thm_PMI2",
   "level": "2",
   "url": "sec_More_on_Induction.html#thm_PMI2",
   "type": "Theorem",
-  "number": "4.9",
+  "number": "4.10",
   "title": "Principle of Mathematical Induction.",
   "body": " Principle of Mathematical Induction   Let be a sequence of statements, one for each integer greater than or equal to . Assume that    is true, and    for all , if is true, then is true.     Then is true for all integers .   "
 },
 {
-  "id": "p-650",
+  "id": "p-649",
   "level": "2",
-  "url": "sec_More_on_Induction.html#p-650",
+  "url": "sec_More_on_Induction.html#p-649",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "base step inductive step "
 },
 {
-  "id": "proof-13",
+  "id": "skeleton_induction_greater_than_a",
   "level": "2",
-  "url": "sec_More_on_Induction.html#proof-13",
-  "type": "Proof",
-  "number": "1",
-  "title": "",
-  "body": " We proceed by induction.   (i)  Base step: [Verify that is true. This often, but not always, amounts to plugging into two sides of some claimed equation and verifying that both sides are actually equal.]     (ii)  Inductive step: [Your goal is to prove For all , if is true, then is true. ] Let be an integer and assume that is true. [Do something to derive that is true.] Therefore, is true.     Thus, by induction, is true for all integers .  "
+  "url": "sec_More_on_Induction.html#skeleton_induction_greater_than_a",
+  "type": "Skeleton Proof",
+  "number": "4.11",
+  "title": "Proof of <span class=\"process-math\">\\((\\forall n \\in \\mathbb{Z})(n \\geq a \\implies P(n))\\)<\/span> by Induction.",
+  "body": " Proof of by Induction   Here is the general structure for a proof by induction when the base case does not necessarily involve .   We proceed by induction.  Base step: [Verify that is true. This often, but not always, amounts to plugging into two sides of some claimed equation and verifying that both sides are actually equal.]  Inductive step: [Your goal is to prove For all , if is true, then is true. ] Let be an integer and assume that is true. [Do something to derive that is true.] Therefore, is true.    Thus, by induction, is true for all integers .    "
 },
 {
   "id": "thm_size_of_power_set_for_finite_sets",
   "level": "2",
   "url": "sec_More_on_Induction.html#thm_size_of_power_set_for_finite_sets",
   "type": "Theorem",
-  "number": "4.10",
+  "number": "4.12",
   "title": "",
   "body": "  If is a finite set with elements, then is a set with elements.   "
 },
@@ -1769,7 +1796,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_More_on_Induction.html#thm_n_2_n",
   "type": "Theorem",
-  "number": "4.11",
+  "number": "4.13",
   "title": "",
   "body": "  For all integers , .   "
 },
@@ -1778,7 +1805,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_More_on_Induction.html#theorem-43",
   "type": "Theorem",
-  "number": "4.12",
+  "number": "4.14",
   "title": "",
   "body": "  For all integers , divides .   "
 },
@@ -1787,7 +1814,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_More_on_Induction.html#theorem-44",
   "type": "Theorem",
-  "number": "4.13",
+  "number": "4.15",
   "title": "",
   "body": "  For all integers , divides .   "
 },
@@ -1796,7 +1823,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_More_on_Induction.html#theorem-45",
   "type": "Theorem",
-  "number": "4.14",
+  "number": "4.16",
   "title": "",
   "body": "  For all integers , .   "
 },
@@ -1805,7 +1832,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_More_on_Induction.html#theorem-46",
   "type": "Theorem",
-  "number": "4.15",
+  "number": "4.17",
   "title": "",
   "body": "  For all integers , .   "
 },
@@ -1814,7 +1841,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_More_on_Induction.html#theorem-47",
   "type": "Theorem",
-  "number": "4.16",
+  "number": "4.18",
   "title": "",
   "body": "  Fix a real number . For all integers , .   "
 },
@@ -1823,7 +1850,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_More_on_Induction.html#theorem-48",
   "type": "Theorem",
-  "number": "4.17",
+  "number": "4.19",
   "title": "",
   "body": "  For all integers , .   "
 },
@@ -1832,7 +1859,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_More_on_Induction.html#theorem-49",
   "type": "Theorem",
-  "number": "4.18",
+  "number": "4.20",
   "title": "",
   "body": "  For all integers , .   "
 },
@@ -1841,7 +1868,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_More_on_Induction.html#theorem-50",
   "type": "Theorem",
-  "number": "4.19",
+  "number": "4.21",
   "title": "",
   "body": "  For all integers , .   "
 },
@@ -1850,7 +1877,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_More_on_Induction.html#abcdefg",
   "type": "Theorem",
-  "number": "4.20",
+  "number": "4.22",
   "title": "",
   "body": "  \\label{thm:3^{2n}-1 div by 8} For all integers , is divisible by .   "
 },
@@ -1859,7 +1886,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_More_on_Induction.html#theorem-52",
   "type": "Theorem",
-  "number": "4.21",
+  "number": "4.23",
   "title": "",
   "body": "  For all integers , .   "
 },
@@ -1868,7 +1895,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_More_on_Induction.html#theorem-53",
   "type": "Theorem",
-  "number": "4.22",
+  "number": "4.24",
   "title": "",
   "body": "  For all integers , is divisible by .   "
 },
@@ -1877,7 +1904,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_More_on_Induction.html#problem-81",
   "type": "Problem",
-  "number": "4.23",
+  "number": "4.25",
   "title": "",
   "body": "  Suppose lines are drawn in the plane so that no two lines are parallel and no three lines intersect at any one point. Such a collection of lines is said to be in general position . Every collection of lines in general position divides the plane into disjoint regions, some of which are polygons with finite area (bounded regions) and some of which are not (unbounded regions).   Let be the number of regions the plane is divided into by lines in general position. Conjecture a formula for and prove that your conjecture is correct.    Let be the number of unbounded regions the plane is divided into by lines in general position. Conjecture a formula for and prove that your conjecture is correct.    Let be the number of bounded regions the plane is divided into by lines in general position. Conjecture a formula for and prove that your conjecture is correct.    Suppose we color each of the regions (bounded and unbounded) so that no two adjacent regions (i.e., share a common edge) have the same color. What is the fewest colors we could use to accomplish this? Prove your assertion.      "
 },
@@ -1888,12 +1915,12 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "4.3",
   "title": "Complete Induction",
-  "body": " Complete Induction  There is another formulation of induction, where the inductive step begins with a set of assumptions rather than one single assumption. This method is sometimes called complete induction or strong induction .   Principle of Complete Mathematical Induction   Let be a sequence of statements, one for each natural number. Assume that    is true, and    For all , if is true for all such that , then is true.     Then is true for all .    Note the difference between ordinary induction ( Theorems and ) and complete induction. For the induction step of complete induction, we are not only assuming that is true, but rather that is true for all from 1 to . Despite the name, complete induction is not any stronger or more powerful than ordinary induction. It is worth pointing out that anytime ordinary induction is an appropriate proof technique, so is complete induction. So, when should we use complete induction?  In the inductive step, you need to reach , and you should ask yourself which of the previous cases you need to get there. If all you need, is the statement , then ordinary induction is the way to go. If two preceding cases, and , are necessary to reach , then complete induction is appropriate. In the extreme, if one needs the full range of preceding cases (i.e., all statements ), then again complete induction should be utilized.  Note that in situations where complete induction is appropriate, it might be the case that you need to verify more than one case in the base step. The number of base cases to be checked depends on how one needs to look back in the induction step.   Proof of by Complete Induction   Here is the general structure for a proof by complete induction.    Proof. We proceed by induction.  Base step: [Verify that is true. Depending on the statement, you may also need to verify that is true for other specific values of .]  Inductive step: [Your goal is to prove For all , if for each , is true for all such that , then is true. ] Let . Suppose is true for all . [Do something to derive that is true.] Therefore, is true.    Thus, by complete induction, is true for all integers .    When tackling the problems in this section, think carefully about how many base steps you must verify.    Define a sequence of numbers by , , and for all natural numbers . Then for all .      Define a sequence of numbers by , and for all natural numbers . Then for all .      The Fibonacci sequence is given by , , and for all natural numbers . Prove that for all .    Recall that Theorem generalized Theorem and allowed us to handle situations where the base case was something other than . We can generalize complete induction in the same way, but we will not write this down as a formal theorem.    Prove that every amount of postage that is at least cents can be made from -cent and -cent stamps.      Whoziwhatzits come in boxes of 6, 9, and 20. Prove that for any natural number , it is possible to buy exactly Whoziwhatzits with a combination of these boxes.      Consider a grid of squares that is squares wide and squares long. Using dominoes that are square by squares, there are many ways to perfectly cover this chessboard with no overlap. How many? Prove your answer.      A binary string of length is an ordered list of digits such that each digit is either 0 or 1. For example and are distinct binary strings of length 6. Here are the rules for Binary Solitaire : At any stage, you are allowed to:   Swap the leftmost digit (i.e., change 0 to 1, or 1 to 0). For example, we can do .    Swap the the digit immediately to the right of the leftmost occurrence of 1. For example, we can do .     Prove that for all , you can change any binary string of length to any other binary string of the same length.      Prove that the number of binary strings of length that never have two consecutive 1's is the Fibonacci number . See Problem for the definition of the Fibonacci numbers.      Nothing that's worth anything is ever easy.  Mike Hall, ultra-distance cyclist   "
+  "body": " Complete Induction  There is another formulation of induction, where the inductive step begins with a set of assumptions rather than one single assumption. This method is sometimes called complete induction or strong induction .   Principle of Complete Mathematical Induction   Let be a sequence of statements, one for each natural number. Assume that    is true, and    For all , if is true for all such that , then is true.     Then is true for all .    Note the difference between ordinary induction ( Theorems and ) and complete induction. For the induction step of complete induction, we are not only assuming that is true, but rather that is true for all from 1 to . Despite the name, complete induction is not any stronger or more powerful than ordinary induction. It is worth pointing out that anytime ordinary induction is an appropriate proof technique, so is complete induction. So, when should we use complete induction?  In the inductive step, you need to reach , and you should ask yourself which of the previous cases you need to get there. If all you need, is the statement , then ordinary induction is the way to go. If two preceding cases, and , are necessary to reach , then complete induction is appropriate. In the extreme, if one needs the full range of preceding cases (i.e., all statements ), then again complete induction should be utilized.  Note that in situations where complete induction is appropriate, it might be the case that you need to verify more than one case in the base step. The number of base cases to be checked depends on how one needs to look back in the induction step.   Proof of by Complete Induction   Here is the general structure for a proof by complete induction.    We proceed by induction.  Base step: [Verify that is true. Depending on the statement, you may also need to verify that is true for other specific values of .]  Inductive step: [Your goal is to prove For all , if for each , is true for all such that , then is true. ] Let . Suppose is true for all . [Do something to derive that is true.] Therefore, is true.    Thus, by complete induction, is true for all integers .     When tackling the problems in this section, think carefully about how many base steps you must verify.    Define a sequence of numbers by , , and for all natural numbers . Then for all .      Define a sequence of numbers by , and for all natural numbers . Then for all .      The Fibonacci sequence is given by , , and for all natural numbers . Prove that for all .    Recall that Theorem generalized Theorem and allowed us to handle situations where the base case was something other than . We can generalize complete induction in the same way, but we will not write this down as a formal theorem.    Prove that every amount of postage that is at least cents can be made from -cent and -cent stamps.      Whoziwhatzits come in boxes of 6, 9, and 20. Prove that for any natural number , it is possible to buy exactly Whoziwhatzits with a combination of these boxes.      Consider a grid of squares that is squares wide and squares long. Using dominoes that are square by squares, there are many ways to perfectly cover this chessboard with no overlap. How many? Prove your answer.      A binary string of length is an ordered list of digits such that each digit is either 0 or 1. For example and are distinct binary strings of length 6. Here are the rules for Binary Solitaire : At any stage, you are allowed to:   Swap the leftmost digit (i.e., change 0 to 1, or 1 to 0). For example, we can do .    Swap the the digit immediately to the right of the leftmost occurrence of 1. For example, we can do .     Prove that for all , you can change any binary string of length to any other binary string of the same length.      Prove that the number of binary strings of length that never have two consecutive 1's is the Fibonacci number . See Problem for the definition of the Fibonacci numbers.      Nothing that's worth anything is ever easy.  Mike Hall, ultra-distance cyclist   "
 },
 {
-  "id": "p-678",
+  "id": "p-677",
   "level": "2",
-  "url": "sec_CompleteInduction.html#p-678",
+  "url": "sec_CompleteInduction.html#p-677",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -1904,7 +1931,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_CompleteInduction.html#theorem-54",
   "type": "Theorem",
-  "number": "4.24",
+  "number": "4.26",
   "title": "Principle of Complete Mathematical Induction.",
   "body": " Principle of Complete Mathematical Induction   Let be a sequence of statements, one for each natural number. Assume that    is true, and    For all , if is true for all such that , then is true.     Then is true for all .   "
 },
@@ -1913,16 +1940,16 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_CompleteInduction.html#skeleton_complete_induction",
   "type": "Skeleton Proof",
-  "number": "4.25",
+  "number": "4.27",
   "title": "Proof of <span class=\"process-math\">\\((\\forall n\\in\\mathbb{N})P(n)\\)<\/span> by Complete Induction.",
-  "body": " Proof of by Complete Induction   Here is the general structure for a proof by complete induction.    Proof. We proceed by induction.  Base step: [Verify that is true. Depending on the statement, you may also need to verify that is true for other specific values of .]  Inductive step: [Your goal is to prove For all , if for each , is true for all such that , then is true. ] Let . Suppose is true for all . [Do something to derive that is true.] Therefore, is true.    Thus, by complete induction, is true for all integers .   "
+  "body": " Proof of by Complete Induction   Here is the general structure for a proof by complete induction.    We proceed by induction.  Base step: [Verify that is true. Depending on the statement, you may also need to verify that is true for other specific values of .]  Inductive step: [Your goal is to prove For all , if for each , is true for all such that , then is true. ] Let . Suppose is true for all . [Do something to derive that is true.] Therefore, is true.    Thus, by complete induction, is true for all integers .    "
 },
 {
   "id": "theorem-55",
   "level": "2",
   "url": "sec_CompleteInduction.html#theorem-55",
   "type": "Theorem",
-  "number": "4.26",
+  "number": "4.28",
   "title": "",
   "body": "  Define a sequence of numbers by , , and for all natural numbers . Then for all .   "
 },
@@ -1931,7 +1958,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_CompleteInduction.html#theorem-56",
   "type": "Theorem",
-  "number": "4.27",
+  "number": "4.29",
   "title": "",
   "body": "  Define a sequence of numbers by , and for all natural numbers . Then for all .   "
 },
@@ -1940,7 +1967,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_CompleteInduction.html#prob_Fibonacci",
   "type": "Problem",
-  "number": "4.28",
+  "number": "4.30",
   "title": "",
   "body": "  The Fibonacci sequence is given by , , and for all natural numbers . Prove that for all .   "
 },
@@ -1949,7 +1976,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_CompleteInduction.html#problem-83",
   "type": "Problem",
-  "number": "4.29",
+  "number": "4.31",
   "title": "",
   "body": "  Prove that every amount of postage that is at least cents can be made from -cent and -cent stamps.   "
 },
@@ -1958,7 +1985,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_CompleteInduction.html#problem-84",
   "type": "Problem",
-  "number": "4.30",
+  "number": "4.32",
   "title": "",
   "body": "  Whoziwhatzits come in boxes of 6, 9, and 20. Prove that for any natural number , it is possible to buy exactly Whoziwhatzits with a combination of these boxes.   "
 },
@@ -1967,7 +1994,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_CompleteInduction.html#problem-85",
   "type": "Problem",
-  "number": "4.31",
+  "number": "4.33",
   "title": "",
   "body": "  Consider a grid of squares that is squares wide and squares long. Using dominoes that are square by squares, there are many ways to perfectly cover this chessboard with no overlap. How many? Prove your answer.   "
 },
@@ -1976,7 +2003,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_CompleteInduction.html#problem-86",
   "type": "Problem",
-  "number": "4.32",
+  "number": "4.34",
   "title": "",
   "body": "  A binary string of length is an ordered list of digits such that each digit is either 0 or 1. For example and are distinct binary strings of length 6. Here are the rules for Binary Solitaire : At any stage, you are allowed to:   Swap the leftmost digit (i.e., change 0 to 1, or 1 to 0). For example, we can do .    Swap the the digit immediately to the right of the leftmost occurrence of 1. For example, we can do .     Prove that for all , you can change any binary string of length to any other binary string of the same length.   "
 },
@@ -1985,7 +2012,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_CompleteInduction.html#problem-87",
   "type": "Problem",
-  "number": "4.33",
+  "number": "4.35",
   "title": "",
   "body": "  Prove that the number of binary strings of length that never have two consecutive 1's is the Fibonacci number . See Problem for the definition of the Fibonacci numbers.   "
 },
@@ -1999,9 +2026,9 @@ var ptx_lunr_docs = [
   "body": " The Well-Ordering Principle  The penultimate theorem of this chapter is known as the Well-Ordering Principle . As you shall see, this seemingly obvious theorem requires a bit of work to prove. It is worth noting that in some axiomatic systems, the Well-Ordering Principle is sometimes taken as an axiom. However, in our case, the result follows from complete induction. Before stating the Well-Ordering Principle, we need an additional definition.    Let and . Then is called a maximum (or greatest element ) of if for all , we have . Similarly, is called minimum (or least element ) of if for all , we have .    Not surprisingly, maximums and minimums are unique when they exist. It might be helpful to review Skeleton Proof prior to attacking the next result.    If such that the maximum (respectively, minimum) of exists, then the maximum (respectively, minimum) of is unique.    If the maximum of a set exists, then it is denoted by . Similarly, if the minimum of a set exists, then it is denoted by .    Find the maximum and the minimum for each of the following sets when they exist.                                                        To prove the Well-Ordering Principle, consider a proof by contradiction. Suppose is a nonempty subset of that does not have a least element. Define the proposition  is not an element of and then use complete induction to prove the result.   Well-Ordering Principle   Every nonempty subset of the natural numbers has a least element.    It turns out that the Well-Ordering Principle ( Theorem ) and the Axiom of Induction ( Axiom ) are equivalent. In other words, one can prove the Well-Ordering Principle from the Axiom of Induction, as we have done, but one can also prove the Axiom of Induction if the Well-Ordering Principle is assumed.  The final two theorems of this section can be thought of as generalized versions of the Well-Ordering Principle.    If is a nonempty subset of the integers and there exists such that for all , then contains a least element.      If is a nonempty subset of the integers and there exists such that for all , then contains a greatest element.    The element in Theorem is referred to as a lower bound for while the element in Theorem is called an upper bound for . We will study lower and upper bounds in more detail in Section .    Life is like riding a bicycle. To keep your balance you must keep moving.  Albert Einstein, theoretical physicist   "
 },
 {
-  "id": "p-705",
+  "id": "p-704",
   "level": "2",
-  "url": "sec_WOP.html#p-705",
+  "url": "sec_WOP.html#p-704",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -2012,7 +2039,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_WOP.html#definition-25",
   "type": "Definition",
-  "number": "4.34",
+  "number": "4.36",
   "title": "",
   "body": "  Let and . Then is called a maximum (or greatest element ) of if for all , we have . Similarly, is called minimum (or least element ) of if for all , we have .   "
 },
@@ -2021,7 +2048,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_WOP.html#theorem-57",
   "type": "Theorem",
-  "number": "4.35",
+  "number": "4.37",
   "title": "",
   "body": "  If such that the maximum (respectively, minimum) of exists, then the maximum (respectively, minimum) of is unique.   "
 },
@@ -2030,7 +2057,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_WOP.html#prob_find_max_and_min",
   "type": "Problem",
-  "number": "4.36",
+  "number": "4.38",
   "title": "",
   "body": "  Find the maximum and the minimum for each of the following sets when they exist.                                                       "
 },
@@ -2039,7 +2066,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_WOP.html#thm_WOP",
   "type": "Theorem",
-  "number": "4.37",
+  "number": "4.39",
   "title": "Well-Ordering Principle.",
   "body": " Well-Ordering Principle   Every nonempty subset of the natural numbers has a least element.   "
 },
@@ -2048,7 +2075,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_WOP.html#thm_generalized_WOP",
   "type": "Theorem",
-  "number": "4.38",
+  "number": "4.40",
   "title": "",
   "body": "  If is a nonempty subset of the integers and there exists such that for all , then contains a least element.   "
 },
@@ -2057,14 +2084,14 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_WOP.html#thm_reverse_WOP",
   "type": "Theorem",
-  "number": "4.39",
+  "number": "4.41",
   "title": "",
   "body": "  If is a nonempty subset of the integers and there exists such that for all , then contains a greatest element.   "
 },
 {
-  "id": "p-727",
+  "id": "p-726",
   "level": "2",
-  "url": "sec_WOP.html#p-727",
+  "url": "sec_WOP.html#p-726",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -2089,9 +2116,9 @@ var ptx_lunr_docs = [
   "body": " Field Axioms   There exist operations (addition) and (multiplication) on satisfying:  (F1) (Associativity for Addition) For all we have ;  (F2) (Commutativity for Addition) For all , we have ;  (F3) (Additive Identity) There exists such that for all , ;  (F4) (Additive Inverses) For all there exists such that ;  (F5) (Associativity for Multiplication) For all we have ;  (F6) (Commutativity for Multiplication) For all , we have ;  (F7) (Multiplicative Identity) There exists such that and for all , ;  (F8) (Multiplicative Inverses) For all there exists such that .  (F9) (Distributive Property) For all , ;     "
 },
 {
-  "id": "p-737",
+  "id": "p-736",
   "level": "2",
-  "url": "sec_AxiomsRealNumbers.html#p-737",
+  "url": "sec_AxiomsRealNumbers.html#p-736",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -2116,9 +2143,9 @@ var ptx_lunr_docs = [
   "body": "  There exists a unique multiplicative identity of .   "
 },
 {
-  "id": "p-741",
+  "id": "p-740",
   "level": "2",
-  "url": "sec_AxiomsRealNumbers.html#p-741",
+  "url": "sec_AxiomsRealNumbers.html#p-740",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -2152,9 +2179,9 @@ var ptx_lunr_docs = [
   "body": "  We define the natural numbers , denoted by , to be the smallest subset of satisfying:   , and  for all , we have .     "
 },
 {
-  "id": "p-750",
+  "id": "p-749",
   "level": "2",
-  "url": "sec_AxiomsRealNumbers.html#p-750",
+  "url": "sec_AxiomsRealNumbers.html#p-749",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -2170,9 +2197,9 @@ var ptx_lunr_docs = [
   "body": "  For every and , we define the following:   (for )      "
 },
 {
-  "id": "p-756",
+  "id": "p-755",
   "level": "2",
-  "url": "sec_AxiomsRealNumbers.html#p-756",
+  "url": "sec_AxiomsRealNumbers.html#p-755",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -2206,9 +2233,9 @@ var ptx_lunr_docs = [
   "body": " Order Axioms   For , there is a relation on satisfying:   (O1) (Trichotomy Law) If , then either or but not both;  (O2) (Transitivity) If and , then ;  (O3) If , then ;  (O4) If and , then ;    "
 },
 {
-  "id": "p-771",
+  "id": "p-770",
   "level": "2",
-  "url": "sec_AxiomsRealNumbers.html#p-771",
+  "url": "sec_AxiomsRealNumbers.html#p-770",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -2440,9 +2467,9 @@ var ptx_lunr_docs = [
   "body": " Visual representation of .     "
 },
 {
-  "id": "p-812",
+  "id": "p-811",
   "level": "2",
-  "url": "sec_AxiomsRealNumbers.html#p-812",
+  "url": "sec_AxiomsRealNumbers.html#p-811",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -2485,9 +2512,9 @@ var ptx_lunr_docs = [
   "body": " Triangle Inequality in terms of vectors.     "
 },
 {
-  "id": "p-817",
+  "id": "p-816",
   "level": "2",
-  "url": "sec_AxiomsRealNumbers.html#p-817",
+  "url": "sec_AxiomsRealNumbers.html#p-816",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -2602,9 +2629,9 @@ var ptx_lunr_docs = [
   "body": " Completeness Axiom   If is a nonempty subset of that is bounded above, then exists.   "
 },
 {
-  "id": "p-847",
+  "id": "p-846",
   "level": "2",
-  "url": "sec_AxiomsRealNumbers.html#p-847",
+  "url": "sec_AxiomsRealNumbers.html#p-846",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -2620,9 +2647,9 @@ var ptx_lunr_docs = [
   "body": "  If is a nonempty subset of that is bounded below, then exists.   "
 },
 {
-  "id": "p-850",
+  "id": "p-849",
   "level": "2",
-  "url": "sec_AxiomsRealNumbers.html#p-850",
+  "url": "sec_AxiomsRealNumbers.html#p-849",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -2638,9 +2665,9 @@ var ptx_lunr_docs = [
   "body": " Archimedean Property   For every , there exists such that .   "
 },
 {
-  "id": "p-852",
+  "id": "p-851",
   "level": "2",
-  "url": "sec_AxiomsRealNumbers.html#p-852",
+  "url": "sec_AxiomsRealNumbers.html#p-851",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -2692,9 +2719,9 @@ var ptx_lunr_docs = [
   "body": "  If is an open interval, then there exists an irrational number such that .   "
 },
 {
-  "id": "p-861",
+  "id": "p-860",
   "level": "2",
-  "url": "sec_AxiomsRealNumbers.html#p-861",
+  "url": "sec_AxiomsRealNumbers.html#p-860",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -3088,9 +3115,9 @@ var ptx_lunr_docs = [
   "body": "  If is a natural number greater than 1, then can be expressed as a product of primes. That is, we can write , where each of is a prime number (not necessarily distinct).   "
 },
 {
-  "id": "p-977",
+  "id": "p-976",
   "level": "2",
-  "url": "sec_FTA.html#p-977",
+  "url": "sec_FTA.html#p-976",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -3106,18 +3133,18 @@ var ptx_lunr_docs = [
   "body": " Division Algorithm   If such that , then there exists unique such that with .   "
 },
 {
-  "id": "proof-14",
+  "id": "proof-15",
   "level": "2",
-  "url": "sec_FTA.html#proof-14",
+  "url": "sec_FTA.html#proof-15",
   "type": "Proof",
   "number": "6.1.1",
   "title": "",
   "body": " Let such that such that . We have two tasks. First, we need to show that and exist, and then we need to show that both are unique.  If , it is clear that we can take and , so that , as desired. Now, assume that and define .  If we can show that , then we can apply the Well-Ordering Principle ( Theorem ) to conclude that has a least element of S. This least element will be the remainder we are looking for. There are two cases.  First, suppose . If we take , then we get , which shows that .  Now, suppose . In this case, we can take , so that . Since and , . This shows that .  We have shown that , and so contains a least element for some . Then with . For sake of a contradiction, assume . This implies that there exists such that and . But then we see that .  This implies that . Since , we have produced an element of that is smaller than . This contradicts the fact that is the least element of , and so .  It remains to show that and are unique. Suppose such that and and . Without loss of generality, suppose , so that . Since , we see that . But then divides . If , then by Theorem , it must be the case that . However, we know , and so we must have . Therefore, , which in turn implies . We have shown that and are unique.  "
 },
 {
-  "id": "p-987",
+  "id": "p-986",
   "level": "2",
-  "url": "sec_FTA.html#p-987",
+  "url": "sec_FTA.html#p-986",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -3295,9 +3322,9 @@ var ptx_lunr_docs = [
   "body": "  The only natural number that divides is .   "
 },
 {
-  "id": "proof-15",
+  "id": "proof-16",
   "level": "2",
-  "url": "sec_Infinitude_of_Primes.html#proof-15",
+  "url": "sec_Infinitude_of_Primes.html#proof-16",
   "type": "Proof",
   "number": "6.3.1",
   "title": "",
@@ -3337,7 +3364,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "7.1",
   "title": "Relations",
-  "body": " Relations  Recall from Section that the Cartesian product of two sets and , written , is the set of all ordered pairs , where and . That is, .    Let and be sets. A relation  from to is a subset of . If is a relation from to and , then we say that is related to  and we may write in place of . If is a relation from to the same set , then we say that is a relation on  .      The set from Problem is an example of a relation on since is a subset of .    It is important to notice that the order in which we write things for relations matters. In particular, if is a relation from to and , then it may or may not be the case that .    If and , then the set of ordered pairs is an example of a relation from to . In this case, we could write or . We could also say that is related to 1, 2, and 4.      As in the previous example, let . One possible relation on is given by .      Consider the set of accounts on the social media platform Twitter. On Twitter, each account has a set of accounts that they follow. We can model this situation mathematically using a relation on . Define on via if follows on Twitter. As a set .      You are already familiar with many relations. For example, , , and are each examples of relations on the real numbers. We could say that is in the relation and the relation since and . However, is not in the relation since . Also, notice that order matters for the relations and yet does not for . For example, is in the relation while is not.      Define the relation from to via if is even and if is odd. That is, is related to all even integers and is related to all odd integers.      Let be any set. Since , the empty set forms a relation on . This relation is called the empty relation on .    Relations can be represented using digraphs. A digraph (short for directed graph ) is a discrete graph that consists of a set of vertices connected by edges, where the edges have a direction associated with them. If is a relation from to , then the elements of and are the vertices of the digraph and there is a directed edge from to if is in the relation (i.e., ). We can visually represent digraphs by using dots to represent the vertices and arrows to represent directed edges. We will not make a distinction between a digraph and its visual representation. Utilizing a digraph to represent a relation may be impractical if there is a large number of vertices or directed edges.    Consider the relation given in Example . The corresponding digraph is depicted in Figure . Notice that we have placed the vertices corresponding to elements of on the left and the elements of on the right. This is standard practice, but what really matters is the edge connections not how the vertices are placed on the page.     Digraph for a relation from to .        Let and and define from to via if is divisible by 2. List the ordered pairs in and draw the corresponding digraph.    If is a relation on (i.e., a relation from to ), then we can simplify the structure of the digraph by only utilizing one copy of for the vertices. In this case, we may have directed edges that point from a vertex to itself. When drawing digraphs for a relation on a set, we will default to this simplified digraph (like the one depicted in Figure ).     Figure represents the relation of Example as a digraph from to while the digraph in Figure provides a streamlined representation of the same relation that uses the elements in only once instead of twice.     Two variations of digraphs for a relation on .                 Let and define on via if divides . List the ordered pairs in and draw the corresponding digraph.      Let and define on via .   Draw the digraph for .    Draw the digraph for the empty relation on .       We can also visually represent a relation by plotting the points in the relation. In particular, if is a relation from to and , we can plot all points that satisfy in two dimensions, where we interpret the set to be the horizontal axis and to be the vertical axis. We will refer to this visual representation of a relation as the graph of the relation.    When we write , we are implicitly defining a relation. In particular, the relation is the set of ordered pairs satisfying , namely . The graph of this relation in is the unit circle centered at the origin in the plane as shown in Figure .     Graph of the relation determined by .        For each of the following, draw a portion of the graph that represents the relation as a subset of .                            Draw a portion of the graph that represents the relation on .    For a relation on a set, it is natural to consider the collection of elements that a given element is related to. For example, a user's Following List on Twitter is the set of accounts on Twitter that the user is following.    Let be a relation on a set . For each , we define the set of relatives of with respect to via .  We also define the collection of the sets of relatives with respect to by .    If is clear from the context, we will usually write in place of . In terms of digraphs, is the collection of vertices that have a directed edge pointing towards them from the vertex labeled by . In graph theory, this collection of vertices is called the out neighborhood of and each such vertex is called an out neighbor . Notice that is a set of sets. In particular, an element in is a subset of equivalently, an element of .    Consider the relation given in Example . By inspecting the ordered pairs in or by looking at the digraph in Figure , we see that , so that .      Consider the relation given in Problem (a). Find by determining for each .      Describe the collection of the sets of relatives with respect to the empty relation from Problem (b).      Let denote the set of all people with accounts on Facebook and define the relation on via if is friends with . Describe , where Maria is the name of a specific Facebook user. What is ?      Define the relation on via if is divisible by 5. Find , , and . How many distinct sets are in ? List the distinct sets in .      Consider the relation on . If , what is ?      Suppose is a relation on such that , , , , and . List the ordered pairs in and draw the corresponding digraph.    We will now examine three important properties that a relation on a set may or may not possess.    Let be a relation on a set .   The relation is reflexive if for all , .    The relation is symmetric if for all , if , then .    The relation is transitive if for all , if and , then .         Here are a few examples that illustrate the concepts in the previous definition.   The relation on is reflexive, symmetric, and transitive.    The relation is reflexive and transitive on , but not symmetric. However, notice that is transitive on , but neither symmetric nor reflexive.    If is a set, then on is reflexive and transitive, but not symmetric.         Determine whether the relations given in each of the following is reflexive, symmetric, or transitive.    Example      Problem          Suppose is a relation on a set .   Explain what it means for to not be reflexive.    Explain what it means for to not be symmetric.    Explain what it means for to not be transitive.         Let .   Define a relation on that is reflexive but not symmetric nor transitive.    Define a relation on that is symmetric but not reflexive nor transitive.    Define a relation on that is transitive but not reflexive nor symmetric.         Given a relation on a finite set , describe what each of reflexive, symmetric, and transitive look like in terms of a digraph. That is, draw pictures that represent each of reflexive, symmetric, and transitive. One thing to keep in mind is that the elements used in the definitions of symmetric and transitive do not have to be distinct. So, you might need to consider multiple cases.    Below, we provide skeleton proofs for proving that a relation is reflexive, symmetric, or transitive. Notice that the skeleton proof for proving that a relation is reflexive is a special case of Skeleton Proof . Similarly, the skeleton proofs involving symmetric and transitive are both special cases of Skeleton Proof . It is important to point out that every relation on the empty set is vacuously reflexive, symmetric, and transitive. In the skeleton proofs below, we are implicitly assuming that the set in question is nonempty. In some circumstances, it may be necessary to mention the possibility of the empty set.   Skeleton Proof  [Proof that a relation is reflexive] Here is the general structure for proving that a relation is reflexive.   Assume is a relation on defined by (or satisfying)  [Use the given definition (or describe the given property) of ] . Let .  [Use the definition (or property) of to verify that ]  Therefore, the relation is reflexive on .     Skeleton Proof  [Proof that a relation is symmetric] Here is the general structure for proving that a relation is symmetric.   Assume is a relation on defined by (or satisfying)  [Use the given definition (or describe the given property) of ] . Let and suppose .  [Use assumption that with definition (or property)  of to verify that ]} Therefore, the relation is symmetric on .     Skeleton Proof  [Proof that a relation is transitive] Here is the general structure for proving that a relation is transitive.   Assume is a relation on defined by (or satisfying)  [Use the given definition (or describe the given property) of ] . Let and suppose and .  [Use assumption that and with definition  (or property) of to verify that ]} Therefore, the relation is transitive on .      Determine whether each of the following relations is reflexive, symmetric, or transitive. In each case, you should either provide a specific counterexample or a proof.   Consider the relation described in Example .    Consider the relation described in Problem .    Consider the relation described in Problem .    Let be the set of all people and define via if and have the same height.    Let be the set of all people and define via if is taller than .    Consider the relation divides on .    Let be the set of lines and define via if is parallel to .    Let be the set of continuous functions on . Define if .    Define on via if is even.    Define on via if .    Define on via if . Do you recognize this relation? Think about fractions.    Define on via if .    Define on via if , where is the greatest integer less than or equal to (e.g., , , and ).    Define on via if .         Most of what we believe, we believe because it was told to us by someone we trusted. What I would like to suggest, however, is that if we rely too much on that kind of education, we could find in the end that we have never really learned anything.  Paul Wallace, physicist & theologian   "
+  "body": " Relations  Recall from Section that the Cartesian product of two sets and , written , is the set of all ordered pairs , where and . That is, .    Let and be sets. A relation  from to is a subset of . If is a relation from to and , then we say that is related to  and we may write in place of . If is a relation from to the same set , then we say that is a relation on  .      The set from Problem is an example of a relation on since is a subset of .    It is important to notice that the order in which we write things for relations matters. In particular, if is a relation from to and , then it may or may not be the case that .    If and , then the set of ordered pairs is an example of a relation from to . In this case, we could write or . We could also say that is related to 1, 2, and 4.      As in the previous example, let . One possible relation on is given by .      Consider the set of accounts on the social media platform Twitter. On Twitter, each account has a set of accounts that they follow. We can model this situation mathematically using a relation on . Define on via if follows on Twitter. As a set .      You are already familiar with many relations. For example, , , and are each examples of relations on the real numbers. We could say that is in the relation and the relation since and . However, is not in the relation since . Also, notice that order matters for the relations and yet does not for . For example, is in the relation while is not.      Define the relation from to via if is even and if is odd. That is, is related to all even integers and is related to all odd integers.      Let be any set. Since , the empty set forms a relation on . This relation is called the empty relation on .    Relations can be represented using digraphs. A digraph (short for directed graph ) is a discrete graph that consists of a set of vertices connected by edges, where the edges have a direction associated with them. If is a relation from to , then the elements of and are the vertices of the digraph and there is a directed edge from to if is in the relation (i.e., ). We can visually represent digraphs by using dots to represent the vertices and arrows to represent directed edges. We will not make a distinction between a digraph and its visual representation. Utilizing a digraph to represent a relation may be impractical if there is a large number of vertices or directed edges.    Consider the relation given in Example . The corresponding digraph is depicted in Figure . Notice that we have placed the vertices corresponding to elements of on the left and the elements of on the right. This is standard practice, but what really matters is the edge connections not how the vertices are placed on the page.     Digraph for a relation from to .        Let and and define from to via if is divisible by 2. List the ordered pairs in and draw the corresponding digraph.    If is a relation on (i.e., a relation from to ), then we can simplify the structure of the digraph by only utilizing one copy of for the vertices. In this case, we may have directed edges that point from a vertex to itself. When drawing digraphs for a relation on a set, we will default to this simplified digraph (like the one depicted in Figure ).     Figure represents the relation of Example as a digraph from to while the digraph in Figure provides a streamlined representation of the same relation that uses the elements in only once instead of twice.     Two variations of digraphs for a relation on .                 Let and define on via if divides . List the ordered pairs in and draw the corresponding digraph.      Let and define on via .   Draw the digraph for .    Draw the digraph for the empty relation on .       We can also visually represent a relation by plotting the points in the relation. In particular, if is a relation from to and , we can plot all points that satisfy in two dimensions, where we interpret the set to be the horizontal axis and to be the vertical axis. We will refer to this visual representation of a relation as the graph of the relation.    When we write , we are implicitly defining a relation. In particular, the relation is the set of ordered pairs satisfying , namely . The graph of this relation in is the unit circle centered at the origin in the plane as shown in Figure .     Graph of the relation determined by .        For each of the following, draw a portion of the graph that represents the relation as a subset of .                            Draw a portion of the graph that represents the relation on .    For a relation on a set, it is natural to consider the collection of elements that a given element is related to. For example, a user's Following List on Twitter is the set of accounts on Twitter that the user is following.    Let be a relation on a set . For each , we define the set of relatives of with respect to via .  We also define the collection of the sets of relatives with respect to by .    If is clear from the context, we will usually write in place of . In terms of digraphs, is the collection of vertices that have a directed edge pointing towards them from the vertex labeled by . In graph theory, this collection of vertices is called the out neighborhood of and each such vertex is called an out neighbor . Notice that is a set of sets. In particular, an element in is a subset of equivalently, an element of .    Consider the relation given in Example . By inspecting the ordered pairs in or by looking at the digraph in Figure , we see that , so that .      Consider the relation given in Problem (a). Find by determining for each .      Describe the collection of the sets of relatives with respect to the empty relation from Problem (b).      Let denote the set of all people with accounts on Facebook and define the relation on via if is friends with . Describe , where Maria is the name of a specific Facebook user. What is ?      Define the relation on via if is divisible by 5. Find , , and . How many distinct sets are in ? List the distinct sets in .      Consider the relation on . If , what is ?      Suppose is a relation on such that , , , , and . List the ordered pairs in and draw the corresponding digraph.    We will now examine three important properties that a relation on a set may or may not possess.    Let be a relation on a set .   The relation is reflexive if for all , .    The relation is symmetric if for all , if , then .    The relation is transitive if for all , if and , then .         Here are a few examples that illustrate the concepts in the previous definition.   The relation on is reflexive, symmetric, and transitive.    The relation is reflexive and transitive on , but not symmetric. However, notice that is transitive on , but neither symmetric nor reflexive.    If is a set, then on is reflexive and transitive, but not symmetric.         Determine whether the relations given in each of the following is reflexive, symmetric, or transitive.    Example      Problem          Suppose is a relation on a set .   Explain what it means for to not be reflexive.    Explain what it means for to not be symmetric.    Explain what it means for to not be transitive.         Let .   Define a relation on that is reflexive but not symmetric nor transitive.    Define a relation on that is symmetric but not reflexive nor transitive.    Define a relation on that is transitive but not reflexive nor symmetric.         Given a relation on a finite set , describe what each of reflexive, symmetric, and transitive look like in terms of a digraph. That is, draw pictures that represent each of reflexive, symmetric, and transitive. One thing to keep in mind is that the elements used in the definitions of symmetric and transitive do not have to be distinct. So, you might need to consider multiple cases.    Below, we provide skeleton proofs for proving that a relation is reflexive, symmetric, or transitive. Notice that the skeleton proof for proving that a relation is reflexive is a special case of Skeleton Proof . Similarly, the skeleton proofs involving symmetric and transitive are both special cases of Skeleton Proof . It is important to point out that every relation on the empty set is vacuously reflexive, symmetric, and transitive. In the skeleton proofs below, we are implicitly assuming that the set in question is nonempty. In some circumstances, it may be necessary to mention the possibility of the empty set.   Proof that a relation is reflexive   Here is the general structure for proving that a relation is reflexive.   Assume is a relation on defined by (or satisfying)  [Use the given definition (or describe the given property) of ] . Let .  [Use the definition (or property) of to verify that ]  Therefore, the relation is reflexive on .      Proof that a relation is symmetric   Here is the general structure for proving that a relation is symmetric.   Assume is a relation on defined by (or satisfying)  [Use the given definition (or describe the given property) of ] . Let and suppose .  [Use assumption that with definition (or property) of to verify that ] Therefore, the relation is symmetric on .      Proof that a relation is transitive   Here is the general structure for proving that a relation is transitive.   Assume is a relation on defined by (or satisfying)  [Use the given definition (or describe the given property) of ] . Let and suppose and .  [Use assumption that and with definition (or property) of to verify that ] Therefore, the relation is transitive on .       Determine whether each of the following relations is reflexive, symmetric, or transitive. In each case, you should either provide a specific counterexample or a proof.  Consider the relation described in Example .  Consider the relation described in Problem .  Consider the relation described in Problem .  Let be the set of all people and define via if and have the same height.  Let be the set of all people and define via if is taller than .  Consider the relation divides on .  Let be the set of lines and define via if is parallel to .  Let be the set of continuous functions on . Define if .  Define on via if is even.  Define on via if .  Define on via if . Do you recognize this relation? Think about fractions.  Define on via if .  Define on via if , where is the greatest integer less than or equal to (e.g., , , and ).  Define on via if .        Most of what we believe, we believe because it was told to us by someone we trusted. What I would like to suggest, however, is that if we rely too much on that kind of education, we could find in the end that we have never really learned anything.  Paul Wallace, physicist & theologian   "
 },
 {
   "id": "definition-41",
@@ -3412,9 +3439,9 @@ var ptx_lunr_docs = [
   "body": "  Let be any set. Since , the empty set forms a relation on . This relation is called the empty relation on .   "
 },
 {
-  "id": "p-1046",
+  "id": "p-1045",
   "level": "2",
-  "url": "sec_Relations.html#p-1046",
+  "url": "sec_Relations.html#p-1045",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -3484,9 +3511,9 @@ var ptx_lunr_docs = [
   "body": "  Let and define on via .   Draw the digraph for .    Draw the digraph for the empty relation on .      "
 },
 {
-  "id": "p-1055",
+  "id": "p-1054",
   "level": "2",
-  "url": "sec_Relations.html#p-1055",
+  "url": "sec_Relations.html#p-1054",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -3538,9 +3565,9 @@ var ptx_lunr_docs = [
   "body": "  Let be a relation on a set . For each , we define the set of relatives of with respect to via .  We also define the collection of the sets of relatives with respect to by .   "
 },
 {
-  "id": "p-1066",
+  "id": "p-1065",
   "level": "2",
-  "url": "sec_Relations.html#p-1066",
+  "url": "sec_Relations.html#p-1065",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -3664,40 +3691,40 @@ var ptx_lunr_docs = [
   "body": "  Given a relation on a finite set , describe what each of reflexive, symmetric, and transitive look like in terms of a digraph. That is, draw pictures that represent each of reflexive, symmetric, and transitive. One thing to keep in mind is that the elements used in the definitions of symmetric and transitive do not have to be distinct. So, you might need to consider multiple cases.   "
 },
 {
-  "id": "proof-16",
+  "id": "skeleton_reflexive",
   "level": "2",
-  "url": "sec_Relations.html#proof-16",
-  "type": "Proof",
-  "number": "1",
-  "title": "",
-  "body": " Assume is a relation on defined by (or satisfying)  [Use the given definition (or describe the given property) of ] . Let .  [Use the definition (or property) of to verify that ]  Therefore, the relation is reflexive on .  "
+  "url": "sec_Relations.html#skeleton_reflexive",
+  "type": "Skeleton Proof",
+  "number": "7.34",
+  "title": "Proof that a relation is reflexive.",
+  "body": " Proof that a relation is reflexive   Here is the general structure for proving that a relation is reflexive.   Assume is a relation on defined by (or satisfying)  [Use the given definition (or describe the given property) of ] . Let .  [Use the definition (or property) of to verify that ]  Therefore, the relation is reflexive on .    "
 },
 {
-  "id": "proof-17",
+  "id": "skeleton_symmetric",
   "level": "2",
-  "url": "sec_Relations.html#proof-17",
-  "type": "Proof",
-  "number": "1",
-  "title": "",
-  "body": " Assume is a relation on defined by (or satisfying)  [Use the given definition (or describe the given property) of ] . Let and suppose .  [Use assumption that with definition (or property)  of to verify that ]} Therefore, the relation is symmetric on .  "
+  "url": "sec_Relations.html#skeleton_symmetric",
+  "type": "Skeleton Proof",
+  "number": "7.35",
+  "title": "Proof that a relation is symmetric.",
+  "body": " Proof that a relation is symmetric   Here is the general structure for proving that a relation is symmetric.   Assume is a relation on defined by (or satisfying)  [Use the given definition (or describe the given property) of ] . Let and suppose .  [Use assumption that with definition (or property) of to verify that ] Therefore, the relation is symmetric on .    "
 },
 {
-  "id": "proof-18",
+  "id": "skeleton_transitive",
   "level": "2",
-  "url": "sec_Relations.html#proof-18",
-  "type": "Proof",
-  "number": "1",
-  "title": "",
-  "body": " Assume is a relation on defined by (or satisfying)  [Use the given definition (or describe the given property) of ] . Let and suppose and .  [Use assumption that and with definition  (or property) of to verify that ]} Therefore, the relation is transitive on .  "
+  "url": "sec_Relations.html#skeleton_transitive",
+  "type": "Skeleton Proof",
+  "number": "7.36",
+  "title": "Proof that a relation is transitive.",
+  "body": " Proof that a relation is transitive   Here is the general structure for proving that a relation is transitive.   Assume is a relation on defined by (or satisfying)  [Use the given definition (or describe the given property) of ] . Let and suppose and .  [Use assumption that and with definition (or property) of to verify that ] Therefore, the relation is transitive on .    "
 },
 {
   "id": "prob_lots_of_relations",
   "level": "2",
   "url": "sec_Relations.html#prob_lots_of_relations",
   "type": "Problem",
-  "number": "7.34",
+  "number": "7.37",
   "title": "",
-  "body": "  Determine whether each of the following relations is reflexive, symmetric, or transitive. In each case, you should either provide a specific counterexample or a proof.   Consider the relation described in Example .    Consider the relation described in Problem .    Consider the relation described in Problem .    Let be the set of all people and define via if and have the same height.    Let be the set of all people and define via if is taller than .    Consider the relation divides on .    Let be the set of lines and define via if is parallel to .    Let be the set of continuous functions on . Define if .    Define on via if is even.    Define on via if .    Define on via if . Do you recognize this relation? Think about fractions.    Define on via if .    Define on via if , where is the greatest integer less than or equal to (e.g., , , and ).    Define on via if .      "
+  "body": "  Determine whether each of the following relations is reflexive, symmetric, or transitive. In each case, you should either provide a specific counterexample or a proof.  Consider the relation described in Example .  Consider the relation described in Problem .  Consider the relation described in Problem .  Let be the set of all people and define via if and have the same height.  Let be the set of all people and define via if is taller than .  Consider the relation divides on .  Let be the set of lines and define via if is parallel to .  Let be the set of continuous functions on . Define if .  Define on via if is even.  Define on via if .  Define on via if . Do you recognize this relation? Think about fractions.  Define on via if .  Define on via if , where is the greatest integer less than or equal to (e.g., , , and ).  Define on via if .     "
 },
 {
   "id": "sec_Equivalence_Relations",
@@ -3713,7 +3740,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Equivalence_Relations.html#definition-44",
   "type": "Definition",
-  "number": "7.35",
+  "number": "7.38",
   "title": "",
   "body": "  Let be a relation on a set . Then is called an equivalence relation on if is reflexive, symmetric, and transitive.   "
 },
@@ -3722,7 +3749,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Equivalence_Relations.html#prob_digraph",
   "type": "Problem",
-  "number": "7.36",
+  "number": "7.39",
   "title": "",
   "body": "  Let and define .  Using , complete each of the following.   Draw the digraph for .    Determine whether is an equivalence relation on .    Find by determining for each .      "
 },
@@ -3731,7 +3758,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Equivalence_Relations.html#prob_made_up",
   "type": "Problem",
-  "number": "7.37",
+  "number": "7.40",
   "title": "",
   "body": "  Let .   Make up an equivalence relation on by drawing a digraph such that is not related to and is not related to .    Using your digraph, find by determining for each .      "
 },
@@ -3740,7 +3767,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Equivalence_Relations.html#problem-139",
   "type": "Problem",
-  "number": "7.38",
+  "number": "7.41",
   "title": "",
   "body": "  Given a finite set and an equivalence relation on , describe what the corresponding digraph would have to look like.   "
 },
@@ -3749,7 +3776,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Equivalence_Relations.html#prob_equiv_from_lots_of_relations",
   "type": "Problem",
-  "number": "7.39",
+  "number": "7.42",
   "title": "",
   "body": "  Determine which relations given in Problem are equivalence relations.   "
 },
@@ -3758,7 +3785,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Equivalence_Relations.html#problem-141",
   "type": "Problem",
-  "number": "7.40",
+  "number": "7.43",
   "title": "",
   "body": "  Let be the set of all triangles and define on via if is similar to . Determine whether is an equivalence relation on .   "
 },
@@ -3767,7 +3794,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Equivalence_Relations.html#problem-142",
   "type": "Problem",
-  "number": "7.41",
+  "number": "7.44",
   "title": "",
   "body": "  If possible, construct an equivalence relation on the empty set. If this is not possible, explain why.   "
 },
@@ -3776,7 +3803,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Equivalence_Relations.html#thm_related_if_and_only_if_same_class",
   "type": "Theorem",
-  "number": "7.42",
+  "number": "7.45",
   "title": "",
   "body": "  Suppose is an equivalence relation on a set and let . Then if and only if .   "
 },
@@ -3785,7 +3812,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Equivalence_Relations.html#thm_equiv_yields_partition",
   "type": "Theorem",
-  "number": "7.43",
+  "number": "7.46",
   "title": "",
   "body": "  Suppose is an equivalence relation on a set . Then    , and    For all , either or .      "
 },
@@ -3794,14 +3821,14 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Equivalence_Relations.html#def_equivalence_class",
   "type": "Definition",
-  "number": "7.44",
+  "number": "7.47",
   "title": "",
   "body": "  If is an equivalence relation on a set , then for each , we refer to as the equivalence class of .   "
 },
 {
-  "id": "p-1141",
+  "id": "p-1138",
   "level": "2",
-  "url": "sec_Equivalence_Relations.html#p-1141",
+  "url": "sec_Equivalence_Relations.html#p-1138",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -3812,7 +3839,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Equivalence_Relations.html#ex_last_name",
   "type": "Example",
-  "number": "7.45",
+  "number": "7.48",
   "title": "",
   "body": "  Let denote the residents of a particular town and define on via if and have the same last name. It is easily seen that this relation is reflexive, symmetric, and transitive, and hence is an equivalence relation on . The equivalence classes correspond to collections of individuals with the same last name. For example, Maria Garcia, Anthony Garcia, and Ariana Garcia all belong to the same equivalence class. Any Garcia can be used as a representative for the corresponding equivalence class, so we can denote it as , for example. The collection consists of the various sets of people with the same last name. In particular, .   "
 },
@@ -3821,7 +3848,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Equivalence_Relations.html#example-17",
   "type": "Example",
-  "number": "7.46",
+  "number": "7.49",
   "title": "",
   "body": "  The five distinct sets of relatives that you identified in Problem are the equivalence classes for on . These equivalence classes are often called the congruence classes modulo 5 .   "
 },
@@ -3830,7 +3857,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Equivalence_Relations.html#problem-143",
   "type": "Problem",
-  "number": "7.47",
+  "number": "7.50",
   "title": "",
   "body": "  If is an equivalence relation on a nonempty finite set , describe in terms of the digraph corresponding to .   "
 },
@@ -3839,7 +3866,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Equivalence_Relations.html#problem-144",
   "type": "Problem",
-  "number": "7.48",
+  "number": "7.51",
   "title": "",
   "body": "  For each of the equivalence relations you identified in Problem , succinctly describe the corresponding equivalence classes.   "
 },
@@ -3848,7 +3875,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Equivalence_Relations.html#problem-145",
   "type": "Problem",
-  "number": "7.49",
+  "number": "7.52",
   "title": "",
   "body": "  Suppose and are both equivalence relations on a set . Is an equivalence relation on ? If so, prove it. Otherwise, provide a counterexample.   "
 },
@@ -3857,7 +3884,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Equivalence_Relations.html#problem-146",
   "type": "Problem",
-  "number": "7.50",
+  "number": "7.53",
   "title": "",
   "body": "  Suppose and are both equivalence relations on a set . Is an equivalence relation on ? If so, prove it. Otherwise, provide a counterexample.   "
 },
@@ -3875,7 +3902,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Partitions.html#def_partition",
   "type": "Definition",
-  "number": "7.51",
+  "number": "7.54",
   "title": "",
   "body": "  A collection of subsets of a set is said to be a partition of if the elements of satisfy:   Each is nonempty,    For all , when , and     .     That is, the elements of are pairwise disjoint nonempty sets and their union is all of . Each is called a block of the partition.   "
 },
@@ -3884,7 +3911,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Partitions.html#ex_last_name_revisited",
   "type": "Example",
-  "number": "7.52",
+  "number": "7.55",
   "title": "",
   "body": "  Consider the equivalence relation on the set described in Example . Recall that the equivalence classes correspond to collections of individuals with the same last name. Since each equivalence class is nonempty and each resident of the town belongs to exactly one equivalence class, the collection of equivalence classes forms a partition of . That is, is a partition of , where the blocks of the partition correspond to sets of residents with the same last name.   "
 },
@@ -3893,7 +3920,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Partitions.html#example-19",
   "type": "Example",
-  "number": "7.53",
+  "number": "7.56",
   "title": "",
   "body": "  Each of the following is an example of a partition of the set given in parentheses.   Democrat, Republican, Independent, Green Party, Libertarian, etc. (set of registered voters)    Freshman, sophomore, junior, senior (set of high school students)    Evens, odds (set of integers)    Rationals, irrationals (set of real numbers)      "
 },
@@ -3902,7 +3929,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Partitions.html#ex_a_partition",
   "type": "Example",
-  "number": "7.54",
+  "number": "7.57",
   "title": "",
   "body": "  Let and . Since the elements of are pairwise disjoint nonempty subsets of such that their union is all of , is a partition of consisting of three blocks.   "
 },
@@ -3911,7 +3938,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Partitions.html#problem-147",
   "type": "Problem",
-  "number": "7.55",
+  "number": "7.58",
   "title": "",
   "body": "  Consider the set from Example .   Find a partition of consisting of four blocks.    Find a collection of subsets of that does not form a partition. See how many ways you can prevent your collection from being a partition.      "
 },
@@ -3920,7 +3947,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Partitions.html#problem-148",
   "type": "Problem",
-  "number": "7.56",
+  "number": "7.59",
   "title": "",
   "body": "  For each of the following, find a partition of with the given properties.   A partition of that consists of finitely many blocks, where each of the blocks is infinite.    A partition of that consists of infinitely many blocks, where each of the blocks is finite.    A partition of that consists of infinitely many blocks, where each of the blocks is infinite.      "
 },
@@ -3929,7 +3956,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Partitions.html#problem-149",
   "type": "Problem",
-  "number": "7.57",
+  "number": "7.60",
   "title": "",
   "body": "  For each relation in Problem , determine whether the corresponding collection of the sets of relatives forms a partition of the given set.   "
 },
@@ -3938,7 +3965,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Partitions.html#problem-150",
   "type": "Problem",
-  "number": "7.58",
+  "number": "7.61",
   "title": "",
   "body": "  Can we partition the empty set? If so, describe a partition. If not, explain why.   "
 },
@@ -3947,7 +3974,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Partitions.html#thm_equiv_yields_partition2",
   "type": "Theorem",
-  "number": "7.59",
+  "number": "7.62",
   "title": "",
   "body": "  If is an equivalence relation on a set , then forms a partition of .   "
 },
@@ -3956,7 +3983,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Partitions.html#problem-151",
   "type": "Problem",
-  "number": "7.60",
+  "number": "7.63",
   "title": "",
   "body": "  In the previous theorem, what is if is the empty set?   "
 },
@@ -3965,7 +3992,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Partitions.html#problem-152",
   "type": "Problem",
-  "number": "7.61",
+  "number": "7.64",
   "title": "",
   "body": "  Consider the equivalence relation on the set . Find the partition determined by .   "
 },
@@ -3974,7 +4001,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Partitions.html#definition-47",
   "type": "Definition",
-  "number": "7.62",
+  "number": "7.65",
   "title": "",
   "body": "  Let be a set and any collection of subsets of (not necessarily a partition). Define the relation on via if there exists that contains both and . This relation is called the relation on associated to .   "
 },
@@ -3983,7 +4010,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Partitions.html#problem-153",
   "type": "Problem",
-  "number": "7.63",
+  "number": "7.66",
   "title": "",
   "body": "  Let and let . List the ordered pairs in and draw the corresponding digraph.   "
 },
@@ -3992,7 +4019,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Partitions.html#problem-154",
   "type": "Problem",
-  "number": "7.64",
+  "number": "7.67",
   "title": "",
   "body": "  Let and be as in Example . List the ordered pairs in and draw the corresponding digraph.   "
 },
@@ -4001,7 +4028,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Partitions.html#problem-155",
   "type": "Problem",
-  "number": "7.65",
+  "number": "7.68",
   "title": "",
   "body": "  Consider Problem . Find the relation on associated to and compare with what you obtained for in Problem .   "
 },
@@ -4010,7 +4037,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Partitions.html#problem-156",
   "type": "Problem",
-  "number": "7.66",
+  "number": "7.69",
   "title": "",
   "body": "  Give an example of a set and a collection from such that the relation is not reflexive.   "
 },
@@ -4019,7 +4046,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Partitions.html#problem-157",
   "type": "Problem",
-  "number": "7.67",
+  "number": "7.70",
   "title": "",
   "body": "  Let and .   Is a partition of ?    Find by listing ordered pairs or drawing a digraph.    Is an equivalence relation?    Find (i.e., the collection of subsets of determined by ). How are and related?      "
 },
@@ -4028,7 +4055,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Partitions.html#thm_union_yields_reflexive",
   "type": "Theorem",
-  "number": "7.68",
+  "number": "7.71",
   "title": "",
   "body": "  If is a collection of subsets of a set (not necessarily a partition) such that , then is reflexive.   "
 },
@@ -4037,7 +4064,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Partitions.html#problem-158",
   "type": "Problem",
-  "number": "7.69",
+  "number": "7.72",
   "title": "",
   "body": "  In the previous theorem, what is if is the empty set?   "
 },
@@ -4046,7 +4073,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Partitions.html#thm_always_symmetric",
   "type": "Theorem",
-  "number": "7.70",
+  "number": "7.73",
   "title": "",
   "body": "  If is a collection of subsets of a set (not necessarily a partition), then is symmetric.   "
 },
@@ -4055,7 +4082,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Partitions.html#thm_pairwise_disjoint_yields_transitive",
   "type": "Theorem",
-  "number": "7.71",
+  "number": "7.74",
   "title": "",
   "body": "  If is a collection of subsets of a set (not necessarily a partition) such that the elements of are pairwise disjoint, then is transitive.   "
 },
@@ -4064,7 +4091,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Partitions.html#problem-159",
   "type": "Problem",
-  "number": "7.72",
+  "number": "7.75",
   "title": "",
   "body": "  Let . If possible, find an example of collection of nonempty subsets of such that is an equivalence relation on but . If such an example is impossible, explain why.   "
 },
@@ -4073,7 +4100,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Partitions.html#thm_partition_yields_equivalence_relation1",
   "type": "Theorem",
-  "number": "7.73",
+  "number": "7.76",
   "title": "",
   "body": "  If is a partition of a set , then is an equivalence relation.   "
 },
@@ -4082,7 +4109,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Partitions.html#thm_partition_yields_equivalence_relation2",
   "type": "Theorem",
-  "number": "7.74",
+  "number": "7.77",
   "title": "",
   "body": "  If is a relation on a set such that the collection of the set of relatives with respect to is a partition of and for all , then is an equivalence relation.   "
 },
@@ -4091,7 +4118,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Partitions.html#problem-160",
   "type": "Problem",
-  "number": "7.75",
+  "number": "7.78",
   "title": "",
   "body": "  Let . Make up a partition on and then draw the digraph corresponding to .   "
 },
@@ -4109,7 +4136,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_ModularArithmetic.html#definition-48",
   "type": "Definition",
-  "number": "7.76",
+  "number": "7.79",
   "title": "",
   "body": "  For each , define to be the set of all integers that are divisible by . In set-builder notation, we have .   "
 },
@@ -4118,7 +4145,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_ModularArithmetic.html#problem-161",
   "type": "Problem",
-  "number": "7.77",
+  "number": "7.80",
   "title": "",
   "body": "  Consider the sets , , , and .   List at least five elements in each of the above sets.    Notice that for some . What is ? Describe in a similar way.    Draw a Venn diagram illustrating how the sets , , and intersect.    Draw a Venn diagram illustrating how the sets , , and intersect.      "
 },
@@ -4127,7 +4154,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_ModularArithmetic.html#theorem-131",
   "type": "Theorem",
-  "number": "7.78",
+  "number": "7.81",
   "title": "",
   "body": "  Let . If , then , , and are also in .   "
 },
@@ -4136,7 +4163,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_ModularArithmetic.html#def_modulo",
   "type": "Definition",
-  "number": "7.79",
+  "number": "7.82",
   "title": "",
   "body": "  For each , define the relation on via if . We read as is congruent to modulo .    "
 },
@@ -4145,7 +4172,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_ModularArithmetic.html#example-21",
   "type": "Example",
-  "number": "7.80",
+  "number": "7.83",
   "title": "",
   "body": "  We encountered in Problem and discovered that there were five distinct sets of relatives. In particular, we have .  Notice that this collection forms a partition of . By Theorem , the relation must be an equivalence relation.   "
 },
@@ -4154,7 +4181,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_ModularArithmetic.html#theorem-132",
   "type": "Theorem",
-  "number": "7.81",
+  "number": "7.84",
   "title": "",
   "body": "  For , the relation is an equivalence relation on .   "
 },
@@ -4163,7 +4190,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_ModularArithmetic.html#def_congruence_class",
   "type": "Definition",
-  "number": "7.82",
+  "number": "7.85",
   "title": "",
   "body": "  For , let denote the equivalence class of with respect to (see Definitions and ). The equivalence class is called the congruence (or residue) class of modulo . The collection of all equivalence classes determined by is denoted , which is read modulo .   "
 },
@@ -4172,7 +4199,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_ModularArithmetic.html#exam_twomodseven",
   "type": "Example",
-  "number": "7.83",
+  "number": "7.86",
   "title": "",
   "body": "  Let's compute . Tracing back through the definitions, we see that .  Since the multiples of are , we can find by adding to each element of to get .   "
 },
@@ -4181,7 +4208,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_ModularArithmetic.html#problem-162",
   "type": "Problem",
-  "number": "7.84",
+  "number": "7.87",
   "title": "",
   "body": "  For each of the following congruence classes, find five elements in the set such that at least one is greater than and one is less than .                    "
 },
@@ -4190,7 +4217,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_ModularArithmetic.html#problem-163",
   "type": "Problem",
-  "number": "7.85",
+  "number": "7.88",
   "title": "",
   "body": "  Describe , , , , and as lists of elements as in Example . How many distinct congruence classes are in ? Theorem might be helpful.   "
 },
@@ -4199,7 +4226,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_ModularArithmetic.html#thm_cong_classes_equal",
   "type": "Theorem",
-  "number": "7.86",
+  "number": "7.89",
   "title": "",
   "body": "  For and , if and only if divides .   "
 },
@@ -4208,7 +4235,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_ModularArithmetic.html#cor_divisible_iff_zero_mod",
   "type": "Corollary",
-  "number": "7.87",
+  "number": "7.90",
   "title": "",
   "body": "  For and , if and only if divides .   "
 },
@@ -4217,7 +4244,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_ModularArithmetic.html#theorem-134",
   "type": "Theorem",
-  "number": "7.88",
+  "number": "7.91",
   "title": "",
   "body": "  For and , if and only if and have the same remainder when divided by .   "
 },
@@ -4226,7 +4253,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_ModularArithmetic.html#theorem-135",
   "type": "Theorem",
-  "number": "7.89",
+  "number": "7.92",
   "title": "",
   "body": "  Let and let . If and , then    , and     .      "
 },
@@ -4235,7 +4262,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_ModularArithmetic.html#def_modular_arithmetic",
   "type": "Definition",
-  "number": "7.90",
+  "number": "7.93",
   "title": "",
   "body": "  Let . We define the sum and product of congruence classes in via .   "
 },
@@ -4244,7 +4271,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_ModularArithmetic.html#example-23",
   "type": "Example",
-  "number": "7.91",
+  "number": "7.94",
   "title": "",
   "body": "  By Definition , . By Theorem , , and so . Similarly, .   "
 },
@@ -4253,7 +4280,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_ModularArithmetic.html#thm_modular_add_comm_assoc",
   "type": "Theorem",
-  "number": "7.92",
+  "number": "7.95",
   "title": "",
   "body": "  If , then addition in is commutative and associative. That is, for all , we have    , and     .      "
 },
@@ -4262,7 +4289,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_ModularArithmetic.html#thm_modular_mult_comm_assoc",
   "type": "Theorem",
-  "number": "7.93",
+  "number": "7.96",
   "title": "",
   "body": "  If , then multiplication in is commutative and associative. That is, for all , we have    , and     .      "
 },
@@ -4271,7 +4298,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_ModularArithmetic.html#thm_modular_sums_products",
   "type": "Theorem",
-  "number": "7.94",
+  "number": "7.97",
   "title": "",
   "body": "  Let . For all , if , then    , and     .      "
 },
@@ -4280,7 +4307,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_ModularArithmetic.html#cor_modular_power",
   "type": "Corollary",
-  "number": "7.95",
+  "number": "7.98",
   "title": "",
   "body": "  Let . If and , then .   "
 },
@@ -4289,7 +4316,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_ModularArithmetic.html#example-24",
   "type": "Example",
-  "number": "7.96",
+  "number": "7.99",
   "title": "",
   "body": "  Let's compute . We see that .   "
 },
@@ -4298,7 +4325,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_ModularArithmetic.html#problem-164",
   "type": "Problem",
-  "number": "7.97",
+  "number": "7.100",
   "title": "",
   "body": "  For each of the following, find a number with such that the given quantity is equal to .                    "
 },
@@ -4307,7 +4334,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_ModularArithmetic.html#problem-165",
   "type": "Problem",
-  "number": "7.98",
+  "number": "7.101",
   "title": "",
   "body": "  Find and such that but and .   "
 },
@@ -4316,7 +4343,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_ModularArithmetic.html#theorem-139",
   "type": "Theorem",
-  "number": "7.99",
+  "number": "7.102",
   "title": "",
   "body": "  If such that is not prime, then there exists such that while and .   "
 },
@@ -4325,7 +4352,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_ModularArithmetic.html#problem-166",
   "type": "Problem",
-  "number": "7.100",
+  "number": "7.103",
   "title": "",
   "body": "  Notice that has no solution in . Show that does have a solution with in . What about ?   "
 },
@@ -4334,7 +4361,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_ModularArithmetic.html#theorem-140",
   "type": "Theorem",
-  "number": "7.101",
+  "number": "7.104",
   "title": "",
   "body": "  If such that , where (i.e., are the digits of ), then .   "
 },
@@ -4343,7 +4370,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_ModularArithmetic.html#theorem-141",
   "type": "Theorem",
-  "number": "7.102",
+  "number": "7.105",
   "title": "",
   "body": "  An integer is divisible by if and only if the sum of its digits is divisible by .   "
 },
@@ -4352,7 +4379,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_ModularArithmetic.html#problem-167",
   "type": "Problem",
-  "number": "7.103",
+  "number": "7.106",
   "title": "",
   "body": "  Use Corollary to prove that for all integers , is divisible by . You will need to handle the case involving separately.   "
 },
@@ -4361,7 +4388,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_ModularArithmetic.html#problem-168",
   "type": "Problem",
-  "number": "7.104",
+  "number": "7.107",
   "title": "",
   "body": "  Prove or provide a counterexample: No integer exists such that is a perfect square.   "
 },
@@ -4384,18 +4411,18 @@ var ptx_lunr_docs = [
   "body": "  Let and be two nonempty sets. A function  from to is a relation from to such that for every , there exists a unique such that . The set is called the domain of and is denoted by . The set is called the codomain of and is denoted by while the subset of the codomain defined via is called the range of or the image of under .   "
 },
 {
-  "id": "p-1270",
+  "id": "p-1267",
   "level": "2",
-  "url": "sec_Intro_to_Functions.html#p-1270",
+  "url": "sec_Intro_to_Functions.html#p-1267",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "mapping map input preimage output image "
 },
 {
-  "id": "p-1273",
+  "id": "p-1270",
   "level": "2",
-  "url": "sec_Intro_to_Functions.html#p-1273",
+  "url": "sec_Intro_to_Functions.html#p-1270",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -4465,9 +4492,9 @@ var ptx_lunr_docs = [
   "body": "  The function defined via is not equal to the function defined by since the two functions do not have the same domain.   "
 },
 {
-  "id": "p-1296",
+  "id": "p-1293",
   "level": "2",
-  "url": "sec_Intro_to_Functions.html#p-1296",
+  "url": "sec_Intro_to_Functions.html#p-1293",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -4618,9 +4645,9 @@ var ptx_lunr_docs = [
   "body": "  For each of the following, explain why the given description does not define a function.   Define via .    Define via .    Let and . Define via     Define via .      "
 },
 {
-  "id": "p-1327",
+  "id": "p-1324",
   "level": "2",
-  "url": "sec_Intro_to_Functions.html#p-1327",
+  "url": "sec_Intro_to_Functions.html#p-1324",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -4651,7 +4678,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "8.2",
   "title": "Injective and Surjective Functions",
-  "body": " Injective and Surjective Functions  We now turn our attention to some important properties that a function may or may not possess. Recall that if is a function, then every element in its domain is mapped to a unique element in the range. However, there are no restrictions on whether more than one element of the domain is mapped to the same element in the range. If each element in the range has a unique element in the domain mapping to it, then we say that the function is injective. Moreover, the range of a function is not required to be all of the codomain. If every element of the codomain has at least one element in the domain that maps to it, then we say that the function is surjective. Let's make these definitions a bit more precise.    Let be a function.   The function is said to be injective (or one-to-one ) if for all , there is a unique such that .    The function is said to be surjective (or onto ) if for all , there exists such that .    If is both injective and surjective, we say that is bijective .         Compare and contrast the following statements. Do they mean the same thing?   For all , there exists a unique such that .    For all , there is a unique such that .         Assume that and are finite sets. Provide an example of each of the following. You may draw a function diagram, write down a list of ordered pairs, or write a formula as long as the domain and codomain are clear.   A function that is injective but not surjective.    A function that is surjective but not injective.    A function that is a bijection.    A function that is neither injective nor surjective.         Provide an example of each of the following. You may either draw a graph or write down a formula. Make sure you have the correct domain.   A function that is injective but not surjective.    A function that is surjective but not injective.    A function that is a bijection.    A function that is neither injective nor surjective.    A function that is injective.         Suppose and is a function. Fill in the blank with the appropriate word.  The function is           if and only if every horizontal line hits the graph of  at most once .  This statement is often called the horizontal line test . Explain why the horizontal line test is true.      Suppose and is a function. Fill in the blank with the appropriate word.  The function is           if and only if every horizontal line hits the graph of  at least once .  Explain why this statement is true.      Suppose and is a function. Fill in the blank with the appropriate word.  The function is           if and only if every horizontal line hits the graph of  exactly once .  Explain why this statement is true.    How do we prove that a function is injective? We would need to show that every element in the range has a unique element from the domain that maps to it. First, notice that each element in the range can be written as for at least one in the domain. To argue that each such element in domain is unique, we can suppose for arbitrary and in the domain and then work to show that . It is important to point out that when we suppose for some and , we are not assuming that and are different. In general, when we write Let , we are leaving open the possibility that and are actually the same element. One could approach proving that a function is injective by utilizing a proof by contradiction, but this is not usually necessary.   Skeleton Proof  [Proof that a function is injective] Here is the general structure for proving that a function is injective.   Assume is a function defined by (or satisfying)  [Use the given definition (or describe the given property) of ] . Let and suppose .  [Use the definition (or property) of to verify that ]  Therefore, the function is injective.    How do we prove that a function is surjective? We would need to argue that every element in the codomain is also in the range. Sometimes, the proof that a particular function is surjective is extremely short, so do not second guess yourself if you find yourself in this situation.   Skeleton Proof  [Proof that a function is surjective] Here is the general structure for proving that a function is surjective.   Assume is a function defined by (or satisfying)  [Use the given definition (or describe the given property) of ] . Let .  [Use the definition (or property) of to find some such that ]  Therefore, the function is surjective.      Determine whether each of the following functions is injective, surjective, both, or neither. In each case, you should provide a proof or a counterexample as appropriate.  Define via   Define via   Define via   Define via   Define via   Define via    Define via   Define via   The function defined in Problem  .  The function defined in Problem  .  The function defined in Problem  .        Suppose and are nonempty sets with and elements, respectively, where . How many injections are there from to ?      Compare and contrast the definition of function with the definition of injective function . Consider the vertical line test and horizontal line test in your discussion. Moreover, attempt to capture what it means for a relation to not be a function and for a function to not be an injection by drawing portions of a digraph.    The next two theorems should not come as as surprise.    The inclusion map for is an injection.      The identity function is a bijection.      Let and be nonempty sets and let be a nonempty subset of . Define and via and . We call and the projections of onto and , respectively.   Provide examples to show that does not need to be injective nor surjective.    Suppose that is also a function. Is injective? Is surjective? How about ?       The next theorem says that if we have an equivalence relation on a nonempty set, the mapping that assigns each element to its respective equivalence class is a surjective function.    If is an equivalence relation on a nonempty set , then the function defined via is a surjection.    The function from the previous theorem is sometimes called the canonical projection map induced by .    Under what circumstances would the function from the previous theorem also be injective?    Let's explore whether we can weaken the hypotheses of Theorem .    Let be a relation on a nonempty set .   What conditions on must hold in order for defined via to be a function?    What additional conditions, if any, must hold on in order for to be a surjective function?       Given any function, we can define an equivalence relation on its domain, where the equivalence classes correspond to the elements that map to the same element of the range.    Let be a function and define on via if . Then is an equivalence relation on .    It follows immediately from Theorem that the equivalence classes induced by the equivalence relation in Theorem partition the domain of a function.    For each of the following, identify the equivalence classes induced by the relation from Theorem for the given function.   The function defined in Example .    The function defined in Problem  . Can you describe the equivalence classes geometrically?       If is a function, the equivalence relation in Theorem allows us to construct a bijective function whose domain is the set of equivalence classes and whose codomain coincides with the range of . This is an important idea that manifests itself in many areas of mathematics. One such instance is the First Isomorphism Theorem for Groups, which is a fundamental theorem in a branch of mathematics called group theory. When proving the following theorem, the first thing you should do is verify that the description for is well defined.    Let be a function and define on as in Theorem . Then the function defined via is a bijection.    Here is an analogy for helping understand the content of Theorem . Suppose we have a collection airplanes filled with passengers and a collection of potential destination cities such that at most one airplane may land at each city. The function indicates which city each passenger lands at while the function indicates which city each airplane lands at. Moreover, the codomain for the function consists only of the cities that an airplane lands at.    Let and and define via .  The function diagram for is given in Figure , where we have highlighted the elements of the domain that map to the same element in the range by enclosing them in additional boxes. We see that . The function diagram for the induced map that is depicted in Figure makes it clear that is a bijection. Note that since and , it must be the case that and according to Theorem . Thus, the vertices labeled as and in Figure could have also been labeled as and or , respectively. In terms of our passengers and airplanes analogy, is the set of passengers, is the set of potential destination cities, is the set of airplanes, and is the set of cities that airplanes land at. The equivalence class is the airplane containing the passenger , and since and are on the same plane, is also the plane containing the passenger .     Example of a visual representation of Theorem .                   Consider the equivalence classes you identified in Parts (a) and (b) of Problem .   Draw the function diagram for the function as defined in Theorem , where is the function defined in Example .    Geometrically describe the function as defined in Theorem , where is the function defined in Problem  .       While perhaps not surprising, Problem  tells us that there is a one-to-one correspondence between circles centered at the origin and real numbers.    Let and define the function such that equals the unique remainder obtained after dividing by 4. For example, since according to the Division Algorithm ( Theorem ). This function is sometimes written as , where it is understood that we restrict the output to . It is clear that is surjective since 0, 1, 2, and 3 are mapped to 0, 1, 2, and 3, respectively. Figure depicts a portion of the function diagram for , where we have drawn the diagram from the top down instead of left to right.   Describe the equivalence classes induced by the relation given in Theorem .    What familiar set is equal to?    Draw the function diagram for the function as defined in Theorem .    The function diagram in Figure is a bit hard to interpret due to the ordering of the elements in the domain. Can you find a better way to lay out the vertices in the domain that makes the function easier to interpret?        Function diagram for the function described in Problem .        Consider the function defined in Problem  .   Draw the function diagram for .    Identify the equivalence classes induced by the relation given in Theorem .    Draw the function diagram for the function as defined in Theorem .         It is not the critic who counts; not the man who points out how the strong man stumbles, or where the doer of deeds could have done them better. The credit belongs to the man who is actually in the arena, whose face is marred by dust and sweat and blood; who strives valiantly; who errs, who comes short again and again, because there is no effort without error and shortcoming; but who does actually strive to do the deeds; who knows great enthusiasms, the great devotions; who spends himself in a worthy cause; who at the best knows in the end the triumph of high achievement, and who at the worst, if he fails, at least fails while daring greatly, so that his place shall never be with those cold and timid souls who neither know victory nor defeat.  Theodore Roosevelt, statesman & conservationist   "
+  "body": " Injective and Surjective Functions  We now turn our attention to some important properties that a function may or may not possess. Recall that if is a function, then every element in its domain is mapped to a unique element in the range. However, there are no restrictions on whether more than one element of the domain is mapped to the same element in the range. If each element in the range has a unique element in the domain mapping to it, then we say that the function is injective. Moreover, the range of a function is not required to be all of the codomain. If every element of the codomain has at least one element in the domain that maps to it, then we say that the function is surjective. Let's make these definitions a bit more precise.    Let be a function.   The function is said to be injective (or one-to-one ) if for all , there is a unique such that .    The function is said to be surjective (or onto ) if for all , there exists such that .    If is both injective and surjective, we say that is bijective .         Compare and contrast the following statements. Do they mean the same thing?   For all , there exists a unique such that .    For all , there is a unique such that .         Assume that and are finite sets. Provide an example of each of the following. You may draw a function diagram, write down a list of ordered pairs, or write a formula as long as the domain and codomain are clear.   A function that is injective but not surjective.    A function that is surjective but not injective.    A function that is a bijection.    A function that is neither injective nor surjective.         Provide an example of each of the following. You may either draw a graph or write down a formula. Make sure you have the correct domain.   A function that is injective but not surjective.    A function that is surjective but not injective.    A function that is a bijection.    A function that is neither injective nor surjective.    A function that is injective.         Suppose and is a function. Fill in the blank with the appropriate word.  The function is           if and only if every horizontal line hits the graph of  at most once .  This statement is often called the horizontal line test . Explain why the horizontal line test is true.      Suppose and is a function. Fill in the blank with the appropriate word.  The function is           if and only if every horizontal line hits the graph of  at least once .  Explain why this statement is true.      Suppose and is a function. Fill in the blank with the appropriate word.  The function is           if and only if every horizontal line hits the graph of  exactly once .  Explain why this statement is true.    How do we prove that a function is injective? We would need to show that every element in the range has a unique element from the domain that maps to it. First, notice that each element in the range can be written as for at least one in the domain. To argue that each such element in domain is unique, we can suppose for arbitrary and in the domain and then work to show that . It is important to point out that when we suppose for some and , we are not assuming that and are different. In general, when we write Let , we are leaving open the possibility that and are actually the same element. One could approach proving that a function is injective by utilizing a proof by contradiction, but this is not usually necessary.   Proof that a function is injective   Here is the general structure for proving that a function is injective..   Assume is a function defined by (or satisfying)  [Use the given definition (or describe the given property) of ] . Let and suppose .  [Use the definition (or property) of to verify that ]  Therefore, the function is injective.     How do we prove that a function is surjective? We would need to argue that every element in the codomain is also in the range. Sometimes, the proof that a particular function is surjective is extremely short, so do not second guess yourself if you find yourself in this situation.   Proof that a function is surjective   Here is the general structure for proving that a function is surjective.   Assume is a function defined by (or satisfying) [Use the given definition (or describe the given property) of ] . Let .  [Use the definition (or property) to find some such that ]  Therefore, the function is surjective.       Determine whether each of the following functions is injective, surjective, both, or neither. In each case, you should provide a proof or a counterexample as appropriate.  Define via   Define via   Define via   Define via   Define via   Define via    Define via   Define via   The function defined in Problem  .  The function defined in Problem  .  The function defined in Problem  .        Suppose and are nonempty sets with and elements, respectively, where . How many injections are there from to ?      Compare and contrast the definition of function with the definition of injective function . Consider the vertical line test and horizontal line test in your discussion. Moreover, attempt to capture what it means for a relation to not be a function and for a function to not be an injection by drawing portions of a digraph.    The next two theorems should not come as as surprise.    The inclusion map for is an injection.      The identity function is a bijection.      Let and be nonempty sets and let be a nonempty subset of . Define and via and . We call and the projections of onto and , respectively.   Provide examples to show that does not need to be injective nor surjective.    Suppose that is also a function. Is injective? Is surjective? How about ?       The next theorem says that if we have an equivalence relation on a nonempty set, the mapping that assigns each element to its respective equivalence class is a surjective function.    If is an equivalence relation on a nonempty set , then the function defined via is a surjection.    The function from the previous theorem is sometimes called the canonical projection map induced by .    Under what circumstances would the function from the previous theorem also be injective?    Let's explore whether we can weaken the hypotheses of Theorem .    Let be a relation on a nonempty set .   What conditions on must hold in order for defined via to be a function?    What additional conditions, if any, must hold on in order for to be a surjective function?       Given any function, we can define an equivalence relation on its domain, where the equivalence classes correspond to the elements that map to the same element of the range.    Let be a function and define on via if . Then is an equivalence relation on .    It follows immediately from Theorem that the equivalence classes induced by the equivalence relation in Theorem partition the domain of a function.    For each of the following, identify the equivalence classes induced by the relation from Theorem for the given function.   The function defined in Example .    The function defined in Problem  . Can you describe the equivalence classes geometrically?       If is a function, the equivalence relation in Theorem allows us to construct a bijective function whose domain is the set of equivalence classes and whose codomain coincides with the range of . This is an important idea that manifests itself in many areas of mathematics. One such instance is the First Isomorphism Theorem for Groups, which is a fundamental theorem in a branch of mathematics called group theory. When proving the following theorem, the first thing you should do is verify that the description for is well defined.    Let be a function and define on as in Theorem . Then the function defined via is a bijection.    Here is an analogy for helping understand the content of Theorem . Suppose we have a collection airplanes filled with passengers and a collection of potential destination cities such that at most one airplane may land at each city. The function indicates which city each passenger lands at while the function indicates which city each airplane lands at. Moreover, the codomain for the function consists only of the cities that an airplane lands at.    Let and and define via .  The function diagram for is given in Figure , where we have highlighted the elements of the domain that map to the same element in the range by enclosing them in additional boxes. We see that . The function diagram for the induced map that is depicted in Figure makes it clear that is a bijection. Note that since and , it must be the case that and according to Theorem . Thus, the vertices labeled as and in Figure could have also been labeled as and or , respectively. In terms of our passengers and airplanes analogy, is the set of passengers, is the set of potential destination cities, is the set of airplanes, and is the set of cities that airplanes land at. The equivalence class is the airplane containing the passenger , and since and are on the same plane, is also the plane containing the passenger .     Example of a visual representation of Theorem .                   Consider the equivalence classes you identified in Parts (a) and (b) of Problem .   Draw the function diagram for the function as defined in Theorem , where is the function defined in Example .    Geometrically describe the function as defined in Theorem , where is the function defined in Problem  .       While perhaps not surprising, Problem  tells us that there is a one-to-one correspondence between circles centered at the origin and real numbers.    Let and define the function such that equals the unique remainder obtained after dividing by 4. For example, since according to the Division Algorithm ( Theorem ). This function is sometimes written as , where it is understood that we restrict the output to . It is clear that is surjective since 0, 1, 2, and 3 are mapped to 0, 1, 2, and 3, respectively. Figure depicts a portion of the function diagram for , where we have drawn the diagram from the top down instead of left to right.   Describe the equivalence classes induced by the relation given in Theorem .    What familiar set is equal to?    Draw the function diagram for the function as defined in Theorem .    The function diagram in Figure is a bit hard to interpret due to the ordering of the elements in the domain. Can you find a better way to lay out the vertices in the domain that makes the function easier to interpret?        Function diagram for the function described in Problem .        Consider the function defined in Problem  .   Draw the function diagram for .    Identify the equivalence classes induced by the relation given in Theorem .    Draw the function diagram for the function as defined in Theorem .         It is not the critic who counts; not the man who points out how the strong man stumbles, or where the doer of deeds could have done them better. The credit belongs to the man who is actually in the arena, whose face is marred by dust and sweat and blood; who strives valiantly; who errs, who comes short again and again, because there is no effort without error and shortcoming; but who does actually strive to do the deeds; who knows great enthusiasms, the great devotions; who spends himself in a worthy cause; who at the best knows in the end the triumph of high achievement, and who at the worst, if he fails, at least fails while daring greatly, so that his place shall never be with those cold and timid souls who neither know victory nor defeat.  Theodore Roosevelt, statesman & conservationist   "
 },
 {
   "id": "definition-57",
@@ -4717,29 +4744,29 @@ var ptx_lunr_docs = [
   "body": "  Suppose and is a function. Fill in the blank with the appropriate word.  The function is           if and only if every horizontal line hits the graph of  exactly once .  Explain why this statement is true.   "
 },
 {
-  "id": "proof-19",
+  "id": "skeleton_injective",
   "level": "2",
-  "url": "sec_Injective_and_Surjective_Functions.html#proof-19",
-  "type": "Proof",
-  "number": "1",
-  "title": "",
-  "body": " Assume is a function defined by (or satisfying)  [Use the given definition (or describe the given property) of ] . Let and suppose .  [Use the definition (or property) of to verify that ]  Therefore, the function is injective.  "
+  "url": "sec_Injective_and_Surjective_Functions.html#skeleton_injective",
+  "type": "Skeleton Proof",
+  "number": "8.34",
+  "title": "Proof that a function is injective.",
+  "body": " Proof that a function is injective   Here is the general structure for proving that a function is injective..   Assume is a function defined by (or satisfying)  [Use the given definition (or describe the given property) of ] . Let and suppose .  [Use the definition (or property) of to verify that ]  Therefore, the function is injective.    "
 },
 {
-  "id": "proof-20",
+  "id": "skeleton_surjective",
   "level": "2",
-  "url": "sec_Injective_and_Surjective_Functions.html#proof-20",
-  "type": "Proof",
-  "number": "1",
-  "title": "",
-  "body": " Assume is a function defined by (or satisfying)  [Use the given definition (or describe the given property) of ] . Let .  [Use the definition (or property) of to find some such that ]  Therefore, the function is surjective.  "
+  "url": "sec_Injective_and_Surjective_Functions.html#skeleton_surjective",
+  "type": "Skeleton Proof",
+  "number": "8.35",
+  "title": "Proof that a function is surjective.",
+  "body": " Proof that a function is surjective   Here is the general structure for proving that a function is surjective.   Assume is a function defined by (or satisfying) [Use the given definition (or describe the given property) of ] . Let .  [Use the definition (or property) to find some such that ]  Therefore, the function is surjective.    "
 },
 {
   "id": "prob_injective_surjective_functions",
   "level": "2",
   "url": "sec_Injective_and_Surjective_Functions.html#prob_injective_surjective_functions",
   "type": "Problem",
-  "number": "8.34",
+  "number": "8.36",
   "title": "",
   "body": "  Determine whether each of the following functions is injective, surjective, both, or neither. In each case, you should provide a proof or a counterexample as appropriate.  Define via   Define via   Define via   Define via   Define via   Define via    Define via   Define via   The function defined in Problem  .  The function defined in Problem  .  The function defined in Problem  .     "
 },
@@ -4748,7 +4775,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Injective_and_Surjective_Functions.html#problem-189",
   "type": "Problem",
-  "number": "8.35",
+  "number": "8.37",
   "title": "",
   "body": "  Suppose and are nonempty sets with and elements, respectively, where . How many injections are there from to ?   "
 },
@@ -4757,7 +4784,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Injective_and_Surjective_Functions.html#problem-190",
   "type": "Problem",
-  "number": "8.36",
+  "number": "8.38",
   "title": "",
   "body": "  Compare and contrast the definition of function with the definition of injective function . Consider the vertical line test and horizontal line test in your discussion. Moreover, attempt to capture what it means for a relation to not be a function and for a function to not be an injection by drawing portions of a digraph.   "
 },
@@ -4766,7 +4793,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Injective_and_Surjective_Functions.html#theorem-142",
   "type": "Theorem",
-  "number": "8.37",
+  "number": "8.39",
   "title": "",
   "body": "  The inclusion map for is an injection.   "
 },
@@ -4775,7 +4802,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Injective_and_Surjective_Functions.html#theorem-143",
   "type": "Theorem",
-  "number": "8.38",
+  "number": "8.40",
   "title": "",
   "body": "  The identity function is a bijection.   "
 },
@@ -4784,7 +4811,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Injective_and_Surjective_Functions.html#problem-191",
   "type": "Problem",
-  "number": "8.39",
+  "number": "8.41",
   "title": "",
   "body": "  Let and be nonempty sets and let be a nonempty subset of . Define and via and . We call and the projections of onto and , respectively.   Provide examples to show that does not need to be injective nor surjective.    Suppose that is also a function. Is injective? Is surjective? How about ?      "
 },
@@ -4793,14 +4820,14 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Injective_and_Surjective_Functions.html#thm_canonical_projection",
   "type": "Theorem",
-  "number": "8.40",
+  "number": "8.42",
   "title": "",
   "body": "  If is an equivalence relation on a nonempty set , then the function defined via is a surjection.   "
 },
 {
-  "id": "p-1391",
+  "id": "p-1388",
   "level": "2",
-  "url": "sec_Injective_and_Surjective_Functions.html#p-1391",
+  "url": "sec_Injective_and_Surjective_Functions.html#p-1388",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -4811,7 +4838,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Injective_and_Surjective_Functions.html#problem-192",
   "type": "Problem",
-  "number": "8.41",
+  "number": "8.43",
   "title": "",
   "body": "  Under what circumstances would the function from the previous theorem also be injective?   "
 },
@@ -4820,7 +4847,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Injective_and_Surjective_Functions.html#problem-193",
   "type": "Problem",
-  "number": "8.42",
+  "number": "8.44",
   "title": "",
   "body": "  Let be a relation on a nonempty set .   What conditions on must hold in order for defined via to be a function?    What additional conditions, if any, must hold on in order for to be a surjective function?      "
 },
@@ -4829,7 +4856,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Injective_and_Surjective_Functions.html#thm_equiv_relation_from_preimages",
   "type": "Theorem",
-  "number": "8.43",
+  "number": "8.45",
   "title": "",
   "body": "  Let be a function and define on via if . Then is an equivalence relation on .   "
 },
@@ -4838,7 +4865,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Injective_and_Surjective_Functions.html#prob_equiv_classes_from_preimages",
   "type": "Problem",
-  "number": "8.44",
+  "number": "8.46",
   "title": "",
   "body": "  For each of the following, identify the equivalence classes induced by the relation from Theorem for the given function.   The function defined in Example .    The function defined in Problem  . Can you describe the equivalence classes geometrically?      "
 },
@@ -4847,7 +4874,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Injective_and_Surjective_Functions.html#thm_iso_theorem_for_sets",
   "type": "Theorem",
-  "number": "8.45",
+  "number": "8.47",
   "title": "",
   "body": "  Let be a function and define on as in Theorem . Then the function defined via is a bijection.   "
 },
@@ -4856,7 +4883,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Injective_and_Surjective_Functions.html#example-32",
   "type": "Example",
-  "number": "8.46",
+  "number": "8.48",
   "title": "",
   "body": "  Let and and define via .  The function diagram for is given in Figure , where we have highlighted the elements of the domain that map to the same element in the range by enclosing them in additional boxes. We see that . The function diagram for the induced map that is depicted in Figure makes it clear that is a bijection. Note that since and , it must be the case that and according to Theorem . Thus, the vertices labeled as and in Figure could have also been labeled as and or , respectively. In terms of our passengers and airplanes analogy, is the set of passengers, is the set of potential destination cities, is the set of airplanes, and is the set of cities that airplanes land at. The equivalence class is the airplane containing the passenger , and since and are on the same plane, is also the plane containing the passenger .   "
 },
@@ -4865,7 +4892,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Injective_and_Surjective_Functions.html#fig_passengers_and_airplanes",
   "type": "Figure",
-  "number": "8.47",
+  "number": "8.49",
   "title": "",
   "body": " Example of a visual representation of Theorem .                "
 },
@@ -4874,7 +4901,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Injective_and_Surjective_Functions.html#prob_iso_theorem_for_sets",
   "type": "Problem",
-  "number": "8.48",
+  "number": "8.50",
   "title": "",
   "body": "  Consider the equivalence classes you identified in Parts (a) and (b) of Problem .   Draw the function diagram for the function as defined in Theorem , where is the function defined in Example .    Geometrically describe the function as defined in Theorem , where is the function defined in Problem  .      "
 },
@@ -4883,7 +4910,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Injective_and_Surjective_Functions.html#prob_Z_to_Z_mod_4",
   "type": "Problem",
-  "number": "8.49",
+  "number": "8.51",
   "title": "",
   "body": "  Let and define the function such that equals the unique remainder obtained after dividing by 4. For example, since according to the Division Algorithm ( Theorem ). This function is sometimes written as , where it is understood that we restrict the output to . It is clear that is surjective since 0, 1, 2, and 3 are mapped to 0, 1, 2, and 3, respectively. Figure depicts a portion of the function diagram for , where we have drawn the diagram from the top down instead of left to right.   Describe the equivalence classes induced by the relation given in Theorem .    What familiar set is equal to?    Draw the function diagram for the function as defined in Theorem .    The function diagram in Figure is a bit hard to interpret due to the ordering of the elements in the domain. Can you find a better way to lay out the vertices in the domain that makes the function easier to interpret?      "
 },
@@ -4892,7 +4919,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Injective_and_Surjective_Functions.html#fig_Z_to_Z_mod_4",
   "type": "Figure",
-  "number": "8.50",
+  "number": "8.52",
   "title": "",
   "body": " Function diagram for the function described in Problem .     "
 },
@@ -4901,7 +4928,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Injective_and_Surjective_Functions.html#problem-197",
   "type": "Problem",
-  "number": "8.51",
+  "number": "8.53",
   "title": "",
   "body": "  Consider the function defined in Problem  .   Draw the function diagram for .    Identify the equivalence classes induced by the relation given in Theorem .    Draw the function diagram for the function as defined in Theorem .      "
 },
@@ -4919,7 +4946,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Compositions_and_Inverse_Functions.html#definition-58",
   "type": "Definition",
-  "number": "8.52",
+  "number": "8.54",
   "title": "",
   "body": "  If and are functions, we define via . The function is called the composition of and .   "
 },
@@ -4928,7 +4955,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Compositions_and_Inverse_Functions.html#fig_function_composition",
   "type": "Figure",
-  "number": "8.53",
+  "number": "8.55",
   "title": "",
   "body": " Visual representation of function composition.     "
 },
@@ -4937,7 +4964,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Compositions_and_Inverse_Functions.html#problem-198",
   "type": "Problem",
-  "number": "8.54",
+  "number": "8.56",
   "title": "",
   "body": "  Let and define and via and .  For each of the following functions, draw the corresponding function diagram in the spirit of Figure and identify the range.               "
 },
@@ -4946,7 +4973,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Compositions_and_Inverse_Functions.html#example-33",
   "type": "Example",
-  "number": "8.55",
+  "number": "8.57",
   "title": "",
   "body": "  Consider the inclusion map such that is a proper subset of and suppose is a function. Then the composite function is given by for all . Notice that is simply the function but with a smaller domain. In this case, we say that is the restriction of to , which is often denoted by .   "
 },
@@ -4955,7 +4982,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Compositions_and_Inverse_Functions.html#problem-199",
   "type": "Problem",
-  "number": "8.56",
+  "number": "8.58",
   "title": "",
   "body": "  Define and via and , respectively. Determine formulas for the composite functions and .   "
 },
@@ -4964,7 +4991,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Compositions_and_Inverse_Functions.html#problem-200",
   "type": "Problem",
-  "number": "8.57",
+  "number": "8.59",
   "title": "",
   "body": "  Define and via and , respectively. Find a formula for the composite function .   "
 },
@@ -4973,7 +5000,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Compositions_and_Inverse_Functions.html#problem-201",
   "type": "Problem",
-  "number": "8.58",
+  "number": "8.60",
   "title": "",
   "body": "  Define and via and , respectively. Find a formula for the composite function .   "
 },
@@ -4982,7 +5009,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Compositions_and_Inverse_Functions.html#theorem-147",
   "type": "Theorem",
-  "number": "8.59",
+  "number": "8.61",
   "title": "",
   "body": "  If is a function, then , where and are the identity maps on and , respectively.   "
 },
@@ -4991,7 +5018,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Compositions_and_Inverse_Functions.html#theorem-148",
   "type": "Theorem",
-  "number": "8.60",
+  "number": "8.62",
   "title": "",
   "body": "  If , , and are functions, then .   "
 },
@@ -5000,7 +5027,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Compositions_and_Inverse_Functions.html#problem-202",
   "type": "Problem",
-  "number": "8.61",
+  "number": "8.63",
   "title": "",
   "body": "  In each case, give examples of finite sets , , and , and functions and that satisfy the given conditions. Drawing a function diagram is sufficient.    is surjective, but is not surjective.     is surjective, but is not surjective.     is injective, but is not injective.     is injective, but is not injective.      "
 },
@@ -5009,7 +5036,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Compositions_and_Inverse_Functions.html#theorem-149",
   "type": "Theorem",
-  "number": "8.62",
+  "number": "8.64",
   "title": "",
   "body": "  If and are both surjective functions, then is also surjective.   "
 },
@@ -5018,7 +5045,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Compositions_and_Inverse_Functions.html#theorem-150",
   "type": "Theorem",
-  "number": "8.63",
+  "number": "8.65",
   "title": "",
   "body": "  If and are both injective functions, then is also injective.   "
 },
@@ -5027,7 +5054,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Compositions_and_Inverse_Functions.html#corollary-6",
   "type": "Corollary",
-  "number": "8.64",
+  "number": "8.66",
   "title": "",
   "body": "  If and are both bijections, then is also a bijection.   "
 },
@@ -5036,7 +5063,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Compositions_and_Inverse_Functions.html#problem-203",
   "type": "Problem",
-  "number": "8.65",
+  "number": "8.67",
   "title": "",
   "body": "  Assume that and are both functions. Determine whether each of the following statements is true or false. If a statement is true, prove it. Otherwise, provide a counterexample.   If is injective, then is injective.    If is injective, then is injective.    If is surjective, then is surjective.    If is surjective, then is surjective.      "
 },
@@ -5045,14 +5072,14 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Compositions_and_Inverse_Functions.html#theorem-151",
   "type": "Theorem",
-  "number": "8.66",
+  "number": "8.68",
   "title": "",
   "body": "  Let be a function. Then is injective if and only if there exists a function such that , where is the identity map on .   "
 },
 {
-  "id": "p-1452",
+  "id": "p-1449",
   "level": "2",
-  "url": "sec_Compositions_and_Inverse_Functions.html#p-1452",
+  "url": "sec_Compositions_and_Inverse_Functions.html#p-1449",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -5063,14 +5090,14 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Compositions_and_Inverse_Functions.html#theorem-152",
   "type": "Theorem",
-  "number": "8.67",
+  "number": "8.69",
   "title": "",
   "body": "  Let be a function. Then is surjective if and only if there exists a function such that , where is the identity map on .   "
 },
 {
-  "id": "p-1454",
+  "id": "p-1451",
   "level": "2",
-  "url": "sec_Compositions_and_Inverse_Functions.html#p-1454",
+  "url": "sec_Compositions_and_Inverse_Functions.html#p-1451",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -5081,7 +5108,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Compositions_and_Inverse_Functions.html#problem-204",
   "type": "Problem",
-  "number": "8.68",
+  "number": "8.70",
   "title": "",
   "body": "  Complete each of the following. Consider using finite sets and drawing a function diagram to define your functions.   Provide an example of a function that has a left inverse but does not have a right inverse. Find the left inverse of your proposed function.    Provide an example of a function that has a right inverse but does not have a left inverse. Find the right inverse of your proposed function.      "
 },
@@ -5090,7 +5117,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Compositions_and_Inverse_Functions.html#problem-205",
   "type": "Problem",
-  "number": "8.69",
+  "number": "8.71",
   "title": "",
   "body": "  Define via . Explain why does not have a left inverse nor a right inverse.   "
 },
@@ -5099,7 +5126,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Compositions_and_Inverse_Functions.html#problem-206",
   "type": "Problem",
-  "number": "8.70",
+  "number": "8.72",
   "title": "",
   "body": "  Define via and via .   Explain why does not have a left inverse.    Verify that is the right inverse of by computing .      "
 },
@@ -5108,14 +5135,14 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Compositions_and_Inverse_Functions.html#cor_two-sided_inverse",
   "type": "Corollary",
-  "number": "8.71",
+  "number": "8.73",
   "title": "",
   "body": "  If and are functions satisfying and , then is a bijection.   "
 },
 {
-  "id": "p-1463",
+  "id": "p-1460",
   "level": "2",
-  "url": "sec_Compositions_and_Inverse_Functions.html#p-1463",
+  "url": "sec_Compositions_and_Inverse_Functions.html#p-1460",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -5126,7 +5153,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Compositions_and_Inverse_Functions.html#def_inverse_of_a_function",
   "type": "Definition",
-  "number": "8.72",
+  "number": "8.74",
   "title": "",
   "body": "  Let be a function. The relation from to , called  inverse , is defined via .   "
 },
@@ -5135,7 +5162,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Compositions_and_Inverse_Functions.html#problem-207",
   "type": "Problem",
-  "number": "8.73",
+  "number": "8.75",
   "title": "",
   "body": "  Consider the function given in Example (see Figure ). List the ordered pairs in the relation and draw the corresponding digraph. Is a function?   "
 },
@@ -5144,7 +5171,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Compositions_and_Inverse_Functions.html#problem-208",
   "type": "Problem",
-  "number": "8.74",
+  "number": "8.76",
   "title": "",
   "body": "  Provide an example of a function such that is a function. Drawing a function diagram is sufficient.   "
 },
@@ -5153,7 +5180,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Compositions_and_Inverse_Functions.html#problem-209",
   "type": "Problem",
-  "number": "8.75",
+  "number": "8.77",
   "title": "",
   "body": "  Suppose and is a function. What is the relationship between the graph of the function and the graph of the inverse relation ?   "
 },
@@ -5162,7 +5189,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Compositions_and_Inverse_Functions.html#thm_inverse_function_iff_bijection",
   "type": "Theorem",
-  "number": "8.76",
+  "number": "8.78",
   "title": "",
   "body": "  Let be a function. Then is a function if and only if is a bijection.   "
 },
@@ -5171,7 +5198,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Compositions_and_Inverse_Functions.html#problem-210",
   "type": "Problem",
-  "number": "8.77",
+  "number": "8.79",
   "title": "",
   "body": "  Suppose is a function. Fill in the blank with the appropriate phrase.  The relation is a function if and only if every horizontal line hits the graph of                  .  Explain why this statement is true.   "
 },
@@ -5180,7 +5207,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Compositions_and_Inverse_Functions.html#thm_comp_of_inverses",
   "type": "Theorem",
-  "number": "8.78",
+  "number": "8.80",
   "title": "",
   "body": "  If is a bijection, then    , and     .      "
 },
@@ -5189,7 +5216,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Compositions_and_Inverse_Functions.html#thm_f_inverse_bijection",
   "type": "Theorem",
-  "number": "8.79",
+  "number": "8.81",
   "title": "",
   "body": "  If is a bijection, then is also a bijection.   "
 },
@@ -5198,14 +5225,14 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Compositions_and_Inverse_Functions.html#thm_unique_inverse",
   "type": "Theorem",
-  "number": "8.80",
+  "number": "8.82",
   "title": "",
   "body": "  If and are functions such that and , then is a function and .   "
 },
 {
-  "id": "p-1477",
+  "id": "p-1474",
   "level": "2",
-  "url": "sec_Compositions_and_Inverse_Functions.html#p-1477",
+  "url": "sec_Compositions_and_Inverse_Functions.html#p-1474",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -5216,7 +5243,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Compositions_and_Inverse_Functions.html#problem-211",
   "type": "Problem",
-  "number": "8.81",
+  "number": "8.83",
   "title": "",
   "body": "  Let and suppose is a function. Explain the difference between and . When does each exist?   "
 },
@@ -5225,7 +5252,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Compositions_and_Inverse_Functions.html#problem-212",
   "type": "Problem",
-  "number": "8.82",
+  "number": "8.84",
   "title": "",
   "body": "  Let and define via and via . Identify the largest possible choices for and so that and are inverses of each other.   "
 },
@@ -5234,7 +5261,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Compositions_and_Inverse_Functions.html#thm_inverse_of_inverse",
   "type": "Theorem",
-  "number": "8.83",
+  "number": "8.85",
   "title": "",
   "body": "  If is a bijection, then .   "
 },
@@ -5243,7 +5270,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Compositions_and_Inverse_Functions.html#theorem-158",
   "type": "Theorem",
-  "number": "8.84",
+  "number": "8.86",
   "title": "",
   "body": "  If and are both bijections, then .   "
 },
@@ -5261,7 +5288,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Images_and_Preimages.html#definition-60",
   "type": "Definition",
-  "number": "8.85",
+  "number": "8.87",
   "title": "",
   "body": "  Let be a function.  If , the image of under is defined via .   If , the preimage (or inverse image ) of under is defined via .     "
 },
@@ -5270,7 +5297,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Images_and_Preimages.html#problem-213",
   "type": "Problem",
-  "number": "8.86",
+  "number": "8.88",
   "title": "",
   "body": "  Define via . List elements in each of the following sets.               "
 },
@@ -5279,7 +5306,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Images_and_Preimages.html#problem-214",
   "type": "Problem",
-  "number": "8.87",
+  "number": "8.89",
   "title": "",
   "body": "  Define via . Find each of the following sets.                                                       "
 },
@@ -5288,7 +5315,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Images_and_Preimages.html#problem-215",
   "type": "Problem",
-  "number": "8.88",
+  "number": "8.90",
   "title": "",
   "body": "  Define via .   Find two nonempty subsets and of such that but .    Find two nonempty subsets and of such that but .      "
 },
@@ -5297,7 +5324,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Images_and_Preimages.html#problem-216",
   "type": "Problem",
-  "number": "8.89",
+  "number": "8.91",
   "title": "",
   "body": "  Suppose is an injection and and are disjoint subsets of . Are and necessarily disjoint subsets of ? If so, prove it. Otherwise, provide a counterexample.   "
 },
@@ -5306,7 +5333,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Images_and_Preimages.html#problem-217",
   "type": "Problem",
-  "number": "8.90",
+  "number": "8.92",
   "title": "",
   "body": "  Find examples of functions and together with sets and such that and .   "
 },
@@ -5315,7 +5342,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Images_and_Preimages.html#problem-218",
   "type": "Problem",
-  "number": "8.91",
+  "number": "8.93",
   "title": "",
   "body": "  Let be a function and suppose and . Determine whether each of the following statements is true or false. If a statement is true, prove it. Otherwise, provide a counterexample.   If , then .    If , then .     .     .     .     .     .     .     .     .     .     .     .     .      "
 },
@@ -5324,7 +5351,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Images_and_Preimages.html#problem-219",
   "type": "Problem",
-  "number": "8.92",
+  "number": "8.94",
   "title": "",
   "body": "  For each of the statements in the previous problem that were false, determine conditions, if any, on the corresponding sets that would make the statement true.   "
 },
@@ -5333,7 +5360,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Images_and_Preimages.html#thm_unions_and_intersections_of_images",
   "type": "Theorem",
-  "number": "8.93",
+  "number": "8.95",
   "title": "",
   "body": "  Let be a function and suppose is a collection of subsets of .    .     .      "
 },
@@ -5342,7 +5369,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Images_and_Preimages.html#thm_unions_and_intersections_of_preimages",
   "type": "Theorem",
-  "number": "8.94",
+  "number": "8.96",
   "title": "",
   "body": "  Let be a function and suppose is a collection of subsets of .    .     .      "
 },
@@ -5351,7 +5378,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Images_and_Preimages.html#problem-220",
   "type": "Problem",
-  "number": "8.95",
+  "number": "8.97",
   "title": "",
   "body": "  Consider the equivalence relation given in Theorem . Explain why each equivalence class is equal to .   "
 },
@@ -5360,7 +5387,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Images_and_Preimages.html#problem-221",
   "type": "Problem",
-  "number": "8.96",
+  "number": "8.98",
   "title": "",
   "body": "  Suppose that is a function satisfying for all .   Prove that .    Prove that for all .    Prove that is injective if and only if .    Certainly every function given by for satisfies the initial hypothesis. Can you provide an example of a function that satisfies that is not of the form ?      "
 },
@@ -5378,14 +5405,14 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Continuity.html#definition-61",
   "type": "Definition",
-  "number": "8.97",
+  "number": "8.99",
   "title": "",
   "body": "  A real function is any function such that is a nonempty subset of .   "
 },
 {
-  "id": "p-1542",
+  "id": "p-1539",
   "level": "2",
-  "url": "sec_Continuity.html#p-1542",
+  "url": "sec_Continuity.html#p-1539",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -5396,7 +5423,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Continuity.html#def_continuity",
   "type": "Definition",
-  "number": "8.98",
+  "number": "8.100",
   "title": "",
   "body": "  Suppose is a real function such that . We say that is continuous at if for every , there exists such that if and , then . If is continuous at every point in , then we say that is continuous on . If is continuous on its entire domain, we simply say that is continuous .   "
 },
@@ -5405,7 +5432,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Continuity.html#fig_continuity",
   "type": "Figure",
-  "number": "8.99",
+  "number": "8.101",
   "title": "",
   "body": " Visual representation of continuity of at .     "
 },
@@ -5414,7 +5441,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Continuity.html#example-34",
   "type": "Example",
-  "number": "8.100",
+  "number": "8.102",
   "title": "",
   "body": "  Define via . Let's prove that is continuous (at every point in the domain). Let and let . Choose . We will see in a moment why this is a good choice for . Suppose such that . We see that .  We have shown that is continuous at , and since was arbitrary, is continuous.   "
 },
@@ -5423,7 +5450,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Continuity.html#problem-222",
   "type": "Problem",
-  "number": "8.101",
+  "number": "8.103",
   "title": "",
   "body": "  Prove that each of the following real functions is continuous using Definition .    defined via .     defined via .     defined via .      "
 },
@@ -5432,7 +5459,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Continuity.html#theorem-161",
   "type": "Theorem",
-  "number": "8.102",
+  "number": "8.104",
   "title": "",
   "body": "  If is defined via for , then is continuous.   "
 },
@@ -5441,7 +5468,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Continuity.html#problem-223",
   "type": "Problem",
-  "number": "8.103",
+  "number": "8.105",
   "title": "",
   "body": "  Define via .   Prove that is continuous at 0.    Prove that is continuous at 1.      "
 },
@@ -5450,7 +5477,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Continuity.html#problem-224",
   "type": "Problem",
-  "number": "8.104",
+  "number": "8.106",
   "title": "",
   "body": "  Define via . Prove that is continuous at 0.   "
 },
@@ -5459,7 +5486,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Continuity.html#problem-225",
   "type": "Problem",
-  "number": "8.105",
+  "number": "8.107",
   "title": "",
   "body": "  Suppose is a real function. Write a precise statement for what it means for to not be continuous at .   "
 },
@@ -5468,7 +5495,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Continuity.html#problem-226",
   "type": "Problem",
-  "number": "8.106",
+  "number": "8.108",
   "title": "",
   "body": "  Define via   Determine where is continuous and justify your assertion.   "
 },
@@ -5477,7 +5504,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Continuity.html#problem-227",
   "type": "Problem",
-  "number": "8.107",
+  "number": "8.109",
   "title": "",
   "body": "  Define via   Determine where is continuous and justify your assertion.   "
 },
@@ -5486,7 +5513,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Continuity.html#problem-228",
   "type": "Problem",
-  "number": "8.108",
+  "number": "8.110",
   "title": "",
   "body": "  Define via . Notice the domain! Determine where is continuous and justify your assertion.   "
 },
@@ -5495,7 +5522,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Continuity.html#thm_preimages_open_sets",
   "type": "Theorem",
-  "number": "8.109",
+  "number": "8.111",
   "title": "",
   "body": "  Suppose is a real function. Then is continuous if and only if the preimage of every open set is an open set intersected with the domain of .   "
 },
@@ -5504,7 +5531,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Continuity.html#thm_preimages_basic_open_sets",
   "type": "Theorem",
-  "number": "8.110",
+  "number": "8.112",
   "title": "",
   "body": "  Suppose is a real function. Then is continuous if and only if the preimage of every bounded open interval is an open set intersected with the domain of .   "
 },
@@ -5513,7 +5540,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Continuity.html#problem-229",
   "type": "Problem",
-  "number": "8.111",
+  "number": "8.113",
   "title": "",
   "body": "  Define via . Prove that is continuous.   "
 },
@@ -5522,7 +5549,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Continuity.html#problem-230",
   "type": "Problem",
-  "number": "8.112",
+  "number": "8.114",
   "title": "",
   "body": "  Define via . Determine where is continuous and justify your assertion.   "
 },
@@ -5531,7 +5558,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Continuity.html#problem-231",
   "type": "Problem",
-  "number": "8.113",
+  "number": "8.115",
   "title": "",
   "body": "  Find a continuous real function and an open interval such that the preimage is not an open interval.   "
 },
@@ -5540,7 +5567,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Continuity.html#problem-232",
   "type": "Problem",
-  "number": "8.114",
+  "number": "8.116",
   "title": "",
   "body": "  Suppose is a continuous real function. If is an open set contained in , is the image always open? If so, prove it. Otherwise, provide a counterexample.   "
 },
@@ -5549,7 +5576,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Continuity.html#problem-233",
   "type": "Problem",
-  "number": "8.115",
+  "number": "8.117",
   "title": "",
   "body": "  Suppose is a continuous real function. If is a closed set, is the preimage always a closed set? If so, prove it. Otherwise, provide a counterexample.   "
 },
@@ -5558,7 +5585,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Continuity.html#problem-234",
   "type": "Problem",
-  "number": "8.116",
+  "number": "8.118",
   "title": "",
   "body": "  Suppose is a continuous real function. If is a closed interval contained in , is the image always a closed interval? If so, prove it. Otherwise, provide a counterexample.   "
 },
@@ -5567,7 +5594,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Continuity.html#problem-235",
   "type": "Problem",
-  "number": "8.117",
+  "number": "8.119",
   "title": "",
   "body": "  Suppose is a continuous real function. If is a closed set contained in , is the image always a closed set? If so, prove it. Otherwise, provide a counterexample.   "
 },
@@ -5576,7 +5603,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Continuity.html#problem-236",
   "type": "Problem",
-  "number": "8.118",
+  "number": "8.120",
   "title": "",
   "body": "  Suppose is a continuous real function. If is bounded set contained in , is the image always a bounded set? If so, prove it. Otherwise, provide a counterexample.   "
 },
@@ -5585,7 +5612,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Continuity.html#problem-237",
   "type": "Problem",
-  "number": "8.119",
+  "number": "8.121",
   "title": "",
   "body": "  Suppose is a continuous real function. If is a bounded set, is the preimage always a bounded set? If so, prove it. Otherwise, provide a counterexample.   "
 },
@@ -5594,7 +5621,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Continuity.html#problem-238",
   "type": "Problem",
-  "number": "8.120",
+  "number": "8.122",
   "title": "",
   "body": "  Suppose is a continuous real function. If is a compact set, is the preimage always a compact set? If so, prove it. Otherwise, provide a counterexample.   "
 },
@@ -5603,7 +5630,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Continuity.html#prob_continuous_image_of_connected_set",
   "type": "Problem",
-  "number": "8.121",
+  "number": "8.123",
   "title": "",
   "body": "  Suppose is a continuous real function. If is a connected set contained in , is the image always connected? If so, prove it. Otherwise, provide a counterexample.   "
 },
@@ -5612,14 +5639,14 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Continuity.html#problem-240",
   "type": "Problem",
-  "number": "8.122",
+  "number": "8.124",
   "title": "",
   "body": "  Suppose is a continuous real function. If is a connected set, is the preimage always a connected set? If so, prove it. Otherwise, provide a counterexample.   "
 },
 {
-  "id": "p-1587",
+  "id": "p-1584",
   "level": "2",
-  "url": "sec_Continuity.html#p-1587",
+  "url": "sec_Continuity.html#p-1584",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -5630,7 +5657,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Continuity.html#theorem-164",
   "type": "Theorem",
-  "number": "8.123",
+  "number": "8.125",
   "title": "",
   "body": "  Suppose is a real function. If is continuous on such that or , then there exists such that .   "
 },
@@ -5639,7 +5666,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Continuity.html#theorem-165",
   "type": "Theorem",
-  "number": "8.124",
+  "number": "8.126",
   "title": "Intermediate Value Theorem.",
   "body": " Intermediate Value Theorem   Suppose is a real function. If is continuous on such that or for some , then there exists such that .   "
 },
@@ -5648,7 +5675,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Continuity.html#problem-241",
   "type": "Problem",
-  "number": "8.125",
+  "number": "8.127",
   "title": "",
   "body": "  Is the converse of the Intermediate Value Theorem true? If so, prove it. Otherwise, provide a counterexample.   "
 },
@@ -5896,9 +5923,9 @@ var ptx_lunr_docs = [
   "body": "  If is a finite collection of finite sets, then is finite.   "
 },
 {
-  "id": "p-1657",
+  "id": "p-1654",
   "level": "2",
-  "url": "sec_Finite_Sets.html#p-1657",
+  "url": "sec_Finite_Sets.html#p-1654",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -6175,18 +6202,18 @@ var ptx_lunr_docs = [
   "body": " Uncountable Sets  Recall from Definition that a set is uncountable if is not countable. Since all finite sets are countable, the only way a set could be uncountable is if it is infinite. It follows that a set is uncountable if and only if there is never a bijection between and . It is not clear that uncountable sets even exist! It turns out that uncountable sets do exist and in this section, we will discover a few of them.  Our first task is to prove that the interval is uncountable. By Problem (h), we know that is an infinite set, so it is at least plausible that is uncountable. The following problem outlines the proof of Theorem . Our approach is often referred to as Cantor's Diagonalization Argument , named after German mathematician Georg Cantor (1845 1918).  Before we get started, recall that every number in can be written in decimal form. However, there may be more than one way to write a given number in decimal form. For example, equals . A number in is said to be in standard decimal form if there is no such that for all , . That is, a number is in standard decimal form if and only if its decimal expansion does not end with a repeating sequence of 9's. For example, is in standard decimal form while is not, even though both represent the same number. It turns out that every real number can be expressed uniquely in standard decimal form. We will take this fact for granted.    For sake of a contradiction, assume the interval is countable. Then there exists a bijection . For each , its image under is some number in . Write , where is the first digit in the standard decimal form for the image of , is the second digit, and so on. If terminates after digits, then our convention will be to continue the decimal expansion with 0's. Now, define , where    Prove that the decimal expansion that defines above is in standard decimal form.    Prove that for all , .    Explain why cannot be surjective and why this is a contradiction.     You just proved that the interval cannot be countable!    The previous problem proves following theorem.    The open interval is uncountable.    Loosely speaking, what Theorem says is that the open interval is bigger in terms of the number of elements it contains than the natural numbers and even the rational numbers. This shows that there are infinite sets of different sizes! We now know there is at least one uncountable set, namely the interval . The next three results are useful for finding other uncountable sets. For the first theorem, try a proof by contradiction and take a look at Theorem .    If and are sets such that and is uncountable, then is uncountable.      If and are sets such that is uncountable and is countable, then is uncountable.      If is an injective function and is uncountable, then is uncountable.    Since the interval is uncountable and , it follows immediately from Theorem that is also uncountable. The next theorem tells us that and actually have the same cardinality! To prove this, consider the function defined via .    The set of real numbers is uncountable. In particular, .    The continuum hypothesis originally proposed by Cantor in 1878 states that there is no set whose cardinality is strictly between that of the natural numbers and the real numbers. Cantor unsuccessfully attempted to prove the continuum hypothesis for several years. It follows from the work of Paul Cohen (1934 2007) and Kurt Gödel (1906 1978) that the continuum hypothesis and its negation are independent of the Zermelo-Fraenkel axioms of set theory (briefly discussed at the end of Section ). That is, either the continuum hypothesis or its negation can be added as an axiom to ZFC set theory, with the resulting theory being consistent if and only if ZFC is consistent (i.e., no contradictions are produced). Nowadays, most set theorists believe that the continuum hypothesis should be false.    If with , then , , , and are all uncountable.      The set of irrational numbers is uncountable.      The set of complex numbers is uncountable.      Determine whether each of the following statements is true or false. If a statement is true, prove it. Otherwise, provide a counterexample.   If and are sets such that is uncountable, then is uncountable.    If and are sets such that is uncountable, then is uncountable.    If and are sets such that is uncountable, then is uncountable.    If and are sets such that is uncountable, then is uncountable.       An approach similar to Cantor's Diagonalization Argument will be helpful when approaching the next problem.    Let be the set of infinite sequences of 0's and 1's. Determine whether is countable or uncountable and prove that your answer is correct.      If is the set from Problem , then .      The power set of the natural numbers is uncountable.    Notice that is countable while is uncountable. That is, the power set of the natural numbers has cardinality strictly larger than the natural numbers. We generalize this phenomenon in the next theorem.  According to Theorem and Corollary , and are both uncountable. In fact, , which we state without proof. However, it turns out that the two uncountable sets may or may not have the same cardinality. Perhaps surprisingly, there are sets that are even bigger than the set of real numbers. The next theorem is named after Georg Cantor, who first stated and proved it at the end of the 19th century. The theorem states that given any set, we can always increase the cardinality by considering its power set. That is, if is a set, has strictly greater cardinality than itself. For finite sets, Cantor's theorem follows from Theorems and (both of which we proved via induction). Perhaps much more surprising is that Cantor discovered an elegant argument that is applicable to any set, whether finite or infinite. To prove Cantor's Theorem, first exhibit an injective function from to . This proves that . To show that , try a proof by contradiction. That is, assume there exists a bijective function . Derive a contradiction by considering the set .   Cantor's Theorem   If is a set, then .    Recall that cardinality provides a way for talking about how big a set is. The fact that the natural numbers and the real numbers have different cardinality (one countable, the other uncountable), tells us that there are at least two different sizes of infinity . By iteratively taking the power set of an infinite set and applying Cantor's Theorem we obtain an endless hierarchy of cardinalities, each strictly larger than the one before it. Colloquially, this implies that there are infinitely many sizes of infinity and there is no largest infinity .    If you want to sharpen a sword, you have to remove a little metal.  Author Unknown   "
 },
 {
-  "id": "p-1736",
+  "id": "p-1733",
   "level": "2",
-  "url": "sec_Uncountable_Sets.html#p-1736",
+  "url": "sec_Uncountable_Sets.html#p-1733",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "Cantor's Diagonalization Argument "
 },
 {
-  "id": "p-1737",
+  "id": "p-1734",
   "level": "2",
-  "url": "sec_Uncountable_Sets.html#p-1737",
+  "url": "sec_Uncountable_Sets.html#p-1734",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -6247,9 +6274,9 @@ var ptx_lunr_docs = [
   "body": "  The set of real numbers is uncountable. In particular, .   "
 },
 {
-  "id": "p-1751",
+  "id": "p-1748",
   "level": "2",
-  "url": "sec_Uncountable_Sets.html#p-1751",
+  "url": "sec_Uncountable_Sets.html#p-1748",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",

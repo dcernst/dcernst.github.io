@@ -14,7 +14,7 @@
 /*change qed symbol:*/
 .proof::after {
     content: "□";
-    font-size: large;
+    font-size: 30px;
     margin-top: -1em!important;
     float: right;
 }
