@@ -26,7 +26,7 @@ It is the responsibility of your instructor and class to develop a culture that 
 
 ## Evidence in Favor of Active Learning
 
-Evidence in favor of some form of active engagement of students is strong across STEM disciplines. [Freeman et al. (2014)}\](https://pubmed.ncbi.nlm.nih.gov/24821756/) conducted a meta-analysis of 225 studies of various forms of active learning, and found that students were 1.5 times more likely to fail in traditional courses as compared to active learning courses, and students in active learning courses outperformed students in traditional courses by 0.47 standard deviations on examinations and concept inventories. The following snippet from Freeman et al. (2014) captures the importance of utilizing active learning across STEM education:
+Evidence in favor of some form of active engagement of students is strong across STEM disciplines. [Freeman et al. (2014)](https://pubmed.ncbi.nlm.nih.gov/24821756/) conducted a meta-analysis of 225 studies of various forms of active learning, and found that students were 1.5 times more likely to fail in traditional courses as compared to active learning courses, and students in active learning courses outperformed students in traditional courses by 0.47 standard deviations on examinations and concept inventories. The following snippet from Freeman et al. (2014) captures the importance of utilizing active learning across STEM education:
 
 > The results raise questions about the continued use of traditional lecturing as a control in research studies, and support active learning as the preferred, empirically validated teaching practice in regular classrooms."}
 
