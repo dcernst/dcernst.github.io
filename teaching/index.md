@@ -12,18 +12,21 @@ layout: default
 This section is primarily designed for my current students, but if you are not one of my students and somehow found your way here, feel free to poke around. Unless stated otherwise, content on this site that is authored by Dana C. Ernst is licensed under a [Creative Commons Attribution-Share Alike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/).
 
 ## Office Hours ##
-My current office hours for Fall 2022 are 11:15-12:15PM on MWF and 10:15-12:15 on Th (or by appointment).  My office is located in room 176 of the [Adel Mathematics Building](http://maps.google.com/maps?q=Adel+Mathematics,+Flagstaff,+AZ&hl=en&sll=35.181208,-111.607959&sspn=0.231222,0.42675&oq=adel+mathe&hnear=Adel+Mathematics,+Flagstaff,+Arizona+86001&t=m&z=17) (Building 26).
+My current office hours for Fall 2023 are MWF at 2:00-3:30PM and T at 10:00-11:30am (or by appointment).  My office is located in room 176 of the [Adel Mathematics Building](http://maps.google.com/maps?q=Adel+Mathematics,+Flagstaff,+AZ&hl=en&sll=35.181208,-111.607959&sspn=0.231222,0.42675&oq=adel+mathe&hnear=Adel+Mathematics,+Flagstaff,+Arizona+86001&t=m&z=17) (Building 26).
 
 ## Current Courses ##
 Here are the courses that I am currently teaching (Fall 2022) at [Northern Arizona University](http://nau.edu).
-- [MAT 123: First Year Seminar, Fall 2022]({{ site.baseurl }}/teaching/mat123f22)
-- [MAT 136H: Calculus I (Honors), Fall 2022]({{ site.baseurl }}/teaching/mat136f22)
-- [MAT 526: Topics in Combinatorics, Fall 2022]({{ site.baseurl }}/teaching/mat526f22)
+- [MAT 226: Discrete Mathematics, Fall 2023]({{ site.baseurl }}/teaching/mat226f23)
+- [MAT 320: Foundations of Mathematics, Fall 2023]({{ site.baseurl }}/teaching/mat320f23)
+- [MAT 431: Introduction to Analysis, Fall 2023]({{ site.baseurl }}/teaching/mat431f23)
 
 ## Previous Courses ##
 This is a (partial) list of courses that I have taught over the past several semesters. **Note:** Some of the links on the pages below may be outdated.
 
 #### Northern Arizona University ####
+- [MAT 123: First Year Seminar, Fall 2022]({{ site.baseurl }}/teaching/mat123f22)
+- [MAT 136H: Calculus I (Honors), Fall 2022]({{ site.baseurl }}/teaching/mat136f22)
+- [MAT 526: Topics in Combinatorics, Fall 2022]({{ site.baseurl }}/teaching/mat526f22)
 - [MAT 411: Introduction to Abstract Algebra, Spring 2022]({{ site.baseurl }}/teaching/mat411s22)
 - [MAT 690: Combinatorics of Genome Rearrangements, Spring 2022]({{ site.baseurl }}/teaching/mat690s22)
 - [MAT 320: Foundations of Mathematics, Fall 2021]({{ site.baseurl }}/teaching/mat320f21)
