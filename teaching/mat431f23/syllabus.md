@@ -50,7 +50,7 @@ layout: default
       <h2>Instructor Info</h2>
       <i class="fa fa-user fa-fw"></i>&nbsp; Dana C. Ernst, PhD<br />
       <i class="fa fa-university fa-fw"></i>&nbsp; AMB 176<br />
-      <i class="fa fa-users fa-fw"></i>&nbsp; MWF 2-3:30PM, T 10-11:30am<br />
+      <i class="fa fa-users fa-fw"></i>&nbsp; MTF 2-3:30PM, T 10-11:30am<br />
       <i class="far fa-envelope fa-fw"></i>&nbsp; <a href="mailto:dana.ernst@nau.edu">dana.ernst@nau.edu</a><br />
       <i class="fa fa-phone fa-fw"></i>&nbsp; 928.523.6852<br />
       <i class="fa fa-link fa-fw"></i>&nbsp; <a href="{{site.baseurl}}">danaernst.com</a>
@@ -421,7 +421,7 @@ Only I will remain.</p>
 </blockquote>
 
 ### Exams ###
-There will be two midterm exams and a cumulative final exam. Exam 1 and Exam 2 are *tentatively* scheduled for **Monday, ???** (week 6) and **Monday, ???** (week 12), respectively.  Each of Exam 1 and Exam 2 will be worth 20% of your overall grade. The final exam will be on **Monday, December 11** at 12:30-2:30PM and is worth 20% of your overall grade. Each of the exams are likely to also include a take-home portion, which you will have a few days to complete.  Make-up exams will only be given under extreme circumstances, as judged by me. In general, it will be best to communicate conflicts ahead of time.
+There will be two midterm exams and a cumulative final exam. Exam 1 and Exam 2 are *tentatively* scheduled for **Friday, October 13** (week 7) and **Friday, November 17** (week 12), respectively.  Each of Exam 1 and Exam 2 will be worth 20% of your overall grade. The final exam will be on **Monday, December 11** at 12:30-2:30PM and is worth 20% of your overall grade. Each of the exams are likely to also include a take-home portion, which you will have a few days to complete.  Make-up exams will only be given under extreme circumstances, as judged by me. In general, it will be best to communicate conflicts ahead of time.
 
 <blockquote>
 <p>I write one page of masterpiece to ninety-one pages of shit.</p>
@@ -461,19 +461,19 @@ In summary, your final grade will be determined by your scores in the following 
 	<tr>
 		<td>Exam 1</td>
 		<td style="text-align: center;">20%</td>
-		<td>In-class portion on September 27, possible take-home portion</td>
+		<td>In-class portion on October 13, possible take-home portion</td>
 	</tr>
   <tr>
     <td>Exam 2</td>
     <td style="text-align: center;">20%</td>
-    <td>In-class portion on November 8, possible take-home portion</td>
+    <td>In-class portion on November 17, possible take-home portion</td>
   </tr>
-	<tr>
-		<td>Final Exam</td>
-		<td style="text-align: center;">20%</td>
-		<td>December 8 at 10:00AM-12:00PM</td>
-	</tr>
-	</tbody>
+  <tr>
+	<td>Final Exam</td>
+	<td style="text-align: center;">20%</td>
+	<td>December 11 at 12:30-2:30PM</td>
+  </tr>
+  </tbody>
 </table>
 </center>
 

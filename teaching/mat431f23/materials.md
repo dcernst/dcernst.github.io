@@ -7,82 +7,82 @@ title: Course Materials
 <ol class="breadcrumb">
   <li><a href="/"><i class="fa fa-home"></i></a></li>
   <li><a href="/teaching/">Teaching</a></li>
-  <li><a href="/teaching/mat431f21">MAT431</a></li>
+  <li><a href="/teaching/mat431f23">MAT431</a></li>
   <li class="active">Materials</li>
 </ol>
 
 <div class="row">
 <div class="col-xs-12">
 <div class="btn-group btn-group-justified">
-<a class="btn btn-default btn-success" href="{{site.baseurl}}/teaching/mat431f21/syllabus/">Syllabus</a>
-<a class="btn btn-default btn-primary" href="{{site.baseurl}}/teaching/mat431f21/materials/">
+<a class="btn btn-default btn-success" href="{{site.baseurl}}/teaching/mat431f23/syllabus/">Syllabus</a>
+<a class="btn btn-default btn-primary" href="{{site.baseurl}}/teaching/mat431f23/materials/">
 <span class="hidden-xs">Course Materials</span><span class="visible-xs">Stuff</span>
 </a>
-<a class="btn btn-default btn-warning" href="{{site.baseurl}}/teaching/mat431f21/homework/">
+<a class="btn btn-default btn-warning" href="{{site.baseurl}}/teaching/mat431f23/homework/">
 <span class="hidden-xs">Homework</span><span class="visible-xs">HW</span>
 </a>
-<a class="btn btn-default btn-info" href="{{site.baseurl}}/teaching/mat431f21/journal/">Journal</a>
+<a class="btn btn-default btn-info" href="{{site.baseurl}}/teaching/mat431f23/journal/">Journal</a>
 </div>
 </div>
 </div>
 
 ## An Inquiry-Based Approach to Real Analysis ##
-We will not be using a traditional textbook this semester, but rather a problem sequence adopted for an [inquiry-based learning](http://maamathedmatters.blogspot.com/2013/05/what-heck-is-ibl.html) (IBL) approach to real analysis. The problem sequence that we are using is an adaptation of the analysis notes by [Karl-Dieter Crisman](http://www.math-cs.gordon.edu/~kcrisman/), which are a modified version of notes by [W. Ted Mahavier](https://www.lamar.edu/arts-sciences/mathematics/faculty/w-ted-mahavier.html). Both authors have been gracious enough to grant me access to the source of these notes, so that we can modify and tweak for our needs if necessary. The notes will be released incrementally. Each link below is to a PDF file.
+We will not be using a traditional textbook this semester, but rather a problem sequence adopted for an [inquiry-based learning](http://maamathedmatters.blogspot.com/2013/05/what-heck-is-ibl.html) (IBL) approach to real analysis. The problem sequence that we are using is an adaptation of the analysis notes by [Karl-Dieter Crisman](http://www.math-cs.gordon.edu/~kcrisman/), which are a modified version of notes by [W. Ted Mahavier](https://www.lamar.edu/arts-sciences/mathematics/faculty/w-ted-mahavier.html). Both authors have been gracious enough to grant me access to the source of these notes, so that we can modify and tweak for our needs. The notes will be released incrementally. Each link below is to a PDF file.
 
 <div class="alert alert-info" role="alert" style="margin: 10px 0 10px 0">
 <i class="fa fa-exclamation-triangle"></i>&nbsp; These notes are currently under construction and subject to change.
 </div>
 
-- [Introduction to Real Analysis]({{site.baseurl}}/teaching/mat431f21/Analysis.pdf) (complete set of notes)
+<!-- - [Introduction to Real Analysis]({{site.baseurl}}/teaching/mat431f23/Analysis.pdf) (complete set of notes) -->
 
-- [Title Page and Front Matter]({{site.baseurl}}/teaching/mat431f21/FrontMatter.pdf)
-- [Preface]({{site.baseurl}}/teaching/mat431f21/Preface.pdf)
-- [Chapter 1: Introduction]({{site.baseurl}}/teaching/mat431f21/Introduction.pdf)
+- [Title Page and Front Matter]({{site.baseurl}}/teaching/mat431f23/FrontMatter.pdf)
+- [Preface]({{site.baseurl}}/teaching/mat431f23/Preface.pdf)
+- [Chapter 1: Introduction]({{site.baseurl}}/teaching/mat431f23/Introduction.pdf)
     - 1.1 What is This Course All About?
     - 1.2 An Inquiry-Based Approach
     - 1.3 Structure of the Notes
     - 1.4 Rules of the Game
     - 1.5 Rights of the Learner
     - 1.6 Some Minimal Guidance
-- [Chapter 2: Preliminaries]({{site.baseurl}}/teaching/mat431f21/Preliminaries.pdf)
+- [Chapter 2: Preliminaries]({{site.baseurl}}/teaching/mat431f23/Preliminaries.pdf)
     - 2.1 Sets
     - 2.2 Induction and the Well-Ordering Principle
     - 2.3 Functions
-- [Chapter 3: The Real Numbers]({{site.baseurl}}/teaching/mat431f21/RealNumbers.pdf)
+- [Chapter 3: The Real Numbers]({{site.baseurl}}/teaching/mat431f23/RealNumbers.pdf)
     - 3.1 The Field Axioms
     - 3.2 The Order Axioms
     - 3.3 Absolute Value and the Triangle Inequality
     - 3.4 Suprema, Infima, and the Completeness Axiom
     - 3.5 The Archimedean Property
-- [Chapter 4: Standard Topology of the Real Line]({{site.baseurl}}/teaching/mat431f21/Topology.pdf)
+- [Chapter 4: Standard Topology of the Real Line]({{site.baseurl}}/teaching/mat431f23/Topology.pdf)
     - 4.1 Open Sets
     - 4.2 Accumulation Points and Closed Sets
     - 4.3 Compact and Connected Sets
-- [Chapter 5: Sequences]({{site.baseurl}}/teaching/mat431f21/Sequences.pdf)
+- [Chapter 5: Sequences]({{site.baseurl}}/teaching/mat431f23/Sequences.pdf)
     - 5.1 Introduction to Sequences
     - 5.2 Properties of Convergent Sequences
     - 5.3 Monotone Convergence Theorem
     - 5.4 Subsequences and the Bolzano--Weierstrass Theorem
-- [Chapter 6: Continuity]({{site.baseurl}}/teaching/mat431f21/Continuity.pdf)
+- [Chapter 6: Continuity]({{site.baseurl}}/teaching/mat431f23/Continuity.pdf)
     - 6.1 Introduction to Continuity
     - 6.2 Additional Characterizations of Continuity
     - 6.3 Extreme Value Theorem
     - 6.4 Intermediate Value Theorem
     - 6.5 Uniform Continuity
-- [Chapter 7: Limits]({{site.baseurl}}/teaching/mat431f21/Limits.pdf)
+- [Chapter 7: Limits]({{site.baseurl}}/teaching/mat431f23/Limits.pdf)
     - 7.1 Introduction to Limits
     - 7.2 Limit Laws
-- [Chapter 8: Differentiation]({{site.baseurl}}/teaching/mat431f21/Differentiation.pdf)
+- [Chapter 8: Differentiation]({{site.baseurl}}/teaching/mat431f23/Differentiation.pdf)
     - 8.1 Introduction to Differentiation
     - 8.2 Derivative Rules
     - 8.3 Mean Value Theorem
-- [Chapter 9: Integration]({{site.baseurl}}/teaching/mat431f21/Integration.pdf)
+- [Chapter 9: Integration]({{site.baseurl}}/teaching/mat431f23/Integration.pdf)
     - 9.1 Introduction to Integration
     - 9.2 Properties of Integrals
     - 9.3 Fundamental Theorem of Calculus
-- [Appendix A: Elements of Style for Proofs]({{site.baseurl}}/teaching/mat431f21/ElementsOfStyle.pdf)
-- [Appendix B: Fancy Mathematical Terms]({{site.baseurl}}/teaching/mat431f21/FancyMathematicalTerms.pdf)
-- [Appendix C: Definitions in Mathematics]({{site.baseurl}}/teaching/mat431f21/Definitions.pdf)
+- [Appendix A: Elements of Style for Proofs]({{site.baseurl}}/teaching/mat431f23/ElementsOfStyle.pdf)
+- [Appendix B: Fancy Mathematical Terms]({{site.baseurl}}/teaching/mat431f23/FancyMathematicalTerms.pdf)
+- [Appendix C: Definitions in Mathematics]({{site.baseurl}}/teaching/mat431f23/Definitions.pdf)
 
 I will not be covering every detail of the notes and the only way to achieve a sufficient understanding of the material is to be digesting the reading in a meaningful way.  You should be seeking clarification about the content of the notes whenever necessary by asking questions.  Here's one of my favorite quotes about reading mathematics.
 
@@ -90,6 +90,13 @@ I will not be covering every detail of the notes and the only way to achieve a s
   <p>Don’t just read it; fight it! Ask your own questions, look for your own examples, discover your own proofs. Is the hypothesis necessary? Is the converse true? What happens in the classical special case? What about the degenerate cases? Where does the proof use the hypothesis?</p>
   <footer><a href="http://en.wikipedia.org/wiki/Paul_Halmos">Paul Halmos</a></footer>
 </blockquote>
+
+<!--# Exams
+Below are links to the take-home portions of each exam. If you are interested in using LaTeX to type up your solutions, contact me and I will send you a link to the source file of the exam.
+
+- [Exam 1 (Part 2)]({{site.baseurl}}/teaching/mat431f23/431Exam1-Part2.pdf) (PDF) (Due by 11:59PM on Tuesday, October 5)
+- [Exam 2 (Part 2)]({{site.baseurl}}/teaching/mat431f23/431Exam2-Part2.pdf) (PDF) (Due by class time on Wednesday, November 17)
+- [Final Exam (Part 2)]({{site.baseurl}}/teaching/mat431f23/431ExamFinal-Part2.pdf) (PDF) (Due by 4pm on Thursday, December 9) -->
 
 ## Miscellaneous Materials ##
 - [Setting the Stage]({{ site.baseurl }}/teaching/SettingTheStage.pdf) (PDF)
@@ -122,9 +129,4 @@ I will not be covering every detail of the notes and the only way to achieve a s
 <!-- - Pictures of board work that we ran out of time to discuss. *Note:* You should not assume that the solutions/proofs posted below are valid or sufficient.
     - Coming soon. -->
 
-## Exams
-Below are links to the take-home portions of each exam. If you are interested in using LaTeX to type up your solutions, contact me and I will send you a link to the source file of the exam.
-
-- [Exam 1 (Part 2)]({{site.baseurl}}/teaching/mat431f21/431Exam1-Part2.pdf) (PDF) (Due by 11:59PM on Tuesday, October 5)
-- [Exam 2 (Part 2)]({{site.baseurl}}/teaching/mat431f21/431Exam2-Part2.pdf) (PDF) (Due by class time on Wednesday, November 17)
-- [Final Exam (Part 2)]({{site.baseurl}}/teaching/mat431f21/431ExamFinal-Part2.pdf) (PDF) (Due by 4pm on Thursday, December 9)
+#
