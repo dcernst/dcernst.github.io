@@ -36,6 +36,7 @@ The following assignments are due at the beginning of the indicated class meetin
 
 - **Daily Homework 1:** Read the [syllabus]({{site.baseurl}}/teaching/mat320f23/syllabus/) and write down 5 important items.  *Note:*  All of the exam dates only count as a single item.  Turn in on your own paper at the beginning of class or email me a copy of your write up prior to class. (Due Wednesday, August 30)
 - **Daily Homework 2:** Read the "Preface" and "Chapter 1: Introduction" in the textbook. In addition, complete 2.2-2.4 in "Chapter 2: Mathematics and Logic" and digest the surrounding text along the way. (Due Wednesday, August 30)
+
 <!-- - **Daily Homework 2:** Create a free [Discord](http://discord.com) account, accept the invite to our Discord server (see welcome message in email), and post something about yourself in the #introductions channel. (Due Wednesday, August 25 by 8PM)
 - **Daily Homework 3:** Read the [Preface]({{site.baseurl}}/teaching/mat320f23/Preface.pdf) and [Introduction]({{site.baseurl}}/teaching/mat320f23/Introduction.pdf). In addition, complete 2.2-2.4 in [Chapter 2: Mathematics and Logic]({{site.baseurl}}/teaching/mat320f23/MathAndLogic.pdf) and digest the surrounding text along the way. (Due Wednesday, August 25)
 - **Daily Homework 4:** Complete 2.6 and 2.7 in [Chapter 2: Mathematics and Logic]({{site.baseurl}}/teaching/mat320f23/MathAndLogic.pdf) and digest the surrounding text along the way. (Due Friday, August 27)
