@@ -29,10 +29,17 @@ title: Course Materials
 ## An Inquiry-Based Approach to Real Analysis ##
 We will not be using a traditional textbook this semester, but rather a problem sequence adopted for an [inquiry-based learning]({{site.baseurl}}/resources/inquiry-based-learning/) (IBL) approach to real analysis. The problem sequence that we are using is an adaptation of the analysis notes by [Karl-Dieter Crisman](http://www.math-cs.gordon.edu/~kcrisman/), which are a modified version of notes by [W. Ted Mahavier](https://www.lamar.edu/arts-sciences/mathematics/faculty/w-ted-mahavier.html). Both authors have been gracious enough to grant me access to the source of these notes, so that we can modify and tweak for our needs. You can find a link to our textbook below. The textbook is subject to change and improvements.
 
-<div class="alert alert-info" role="alert" style="margin: 10px 0 10px 0">
+<div class="row">
+<div class="col-md-2 col-lg-2">
+</div>
+<div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
+<div class="alert alert-info" role="alert">
 <center>
 <i class="fa-solid fa-book"></i>&nbsp; <a href="https://danaernst.com/teaching/mat431f23/IBL-RealAnalysis.pdf">An Inquiry-Based Approach to Real Analysis</a>
 </center>
+</div>
+</div>
+<div class="col-md-2 col-lg-2"></div>
 </div>
 
 ### Table of Contents
