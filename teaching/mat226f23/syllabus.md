@@ -7,41 +7,40 @@ layout: default
 <ol class="breadcrumb">
   <li><a href="/"><i class="fa fa-home"></i></a></li>
   <li><a href="/teaching/">Teaching</a></li>
-  <li><a href="/teaching/mat320f21">MAT320</a></li>
+  <li><a href="/teaching/mat226f23">MAT226</a></li>
   <li class="active">{{ page.title }}</li>
 </ol>
 
 <div class="row">
 <div class="col-xs-12">
 <div class="btn-group btn-group-justified">
-<a class="btn btn-default btn-success" href="{{site.baseurl}}/teaching/mat320f21/syllabus/">Syllabus</a>
-<a class="btn btn-default btn-primary" href="{{site.baseurl}}/teaching/mat320f21/materials/">
+<a class="btn btn-default btn-success" href="{{site.baseurl}}/teaching/mat226f23/syllabus/">Syllabus</a>
+<a class="btn btn-default btn-primary" href="{{site.baseurl}}/teaching/mat226f23/materials/">
 <span class="hidden-xs">Course Materials</span><span class="visible-xs">Stuff</span>
 </a>
-<a class="btn btn-default btn-warning" href="{{site.baseurl}}/teaching/mat320f21/homework/">
+<a class="btn btn-default btn-warning" href="{{site.baseurl}}/teaching/mat226f23/homework/">
 <span class="hidden-xs">Homework</span><span class="visible-xs">HW</span>
 </a>
-<a class="btn btn-default btn-info" href="{{site.baseurl}}/teaching/mat320f21/journal/">Journal</a>
 </div>
 </div>
 </div>
 
 <br />
 
-<!-- <div class="alert alert-info" role="alert">
+<div class="alert alert-info" role="alert">
 <i class="far fa-hand-peace"></i>&nbsp; This page is under construction!
-</div> -->
+</div>
 
 <div class="row">
   <div class="col-xs-12 col-sm-6">
     <div>
     <h2>Course Info</h2>
-    <strong>Title:</strong> MAT 320: Foundations of Mathematics<br />
-    <strong>Semester:</strong> Fall 2021<br />
+    <strong>Title:</strong> MAT 226: Discrete Mathematics<br />
+    <strong>Semester:</strong> Fall 2023<br />
     <strong>Credits:</strong> 3<br />
-    <strong>Section:</strong> 1<br />
-    <strong>Time:</strong> 9:10-10:00AM MWF<br />
-    <strong>Location:</strong> AMB 224
+    <strong>Section:</strong> 2<br />
+    <strong>Time:</strong> 11:30AM-12:20PM MWF<br />
+    <strong>Location:</strong> AMB 146
     </div>
   </div>
 
@@ -50,7 +49,7 @@ layout: default
       <h2>Instructor Info</h2>
       <i class="fa fa-user fa-fw"></i>&nbsp; Dana C. Ernst, PhD<br />
       <i class="fa fa-university fa-fw"></i>&nbsp; AMB 176<br />
-      <i class="fa fa-users fa-fw"></i>&nbsp; MW 2:00-3:00, T 10:00-12:00, Th 10:00-11:00<br />
+      <i class="fa fa-users fa-fw"></i>&nbsp; MTF 2-3:30PM, T 10-11:30AM<br />
       <i class="far fa-envelope fa-fw"></i>&nbsp; <a href="mailto:dana.ernst@nau.edu">dana.ernst@nau.edu</a><br />
       <i class="fa fa-phone fa-fw"></i>&nbsp; 928.523.6852<br />
       <i class="fa fa-link fa-fw"></i>&nbsp; <a href="{{site.baseurl}}">danaernst.com</a>
@@ -59,10 +58,10 @@ layout: default
 </div>
 
 ### Prerequisites ###
-MAT 137 with a grade greater than or equal to C.
+(MAT 121 or MAT 136) with a grade of C or better 
 
 ### Course Description ###
-The course trains students on methods and techniques of mathematical communication, focusing on proofs but also covering expository writing and problem-solving explanations.
+Elementary discrete mathematics including topics from graph theory and combinatorics with emphasis on problem solving. This course will fulfill either the Mathematics foundation requirement or a Science Applied Science liberal studies distribution block requirement. If you have already fulfilled your Mathematics foundation requirement, this course will fulfill a Science Applied Science liberal studies distribution block requirement. Letter grade only.
 
 ### Learning Outcomes ###
 Upon successful completion of the course, students will be able to:
@@ -72,15 +71,7 @@ Upon successful completion of the course, students will be able to:
 4. Identify correct proof structures and criticize incorrect proof structures.
 
 ### What is This Course Really About? ###
-The primary objective of this course is to develop skills necessary for effective proof writing.  Students will improve their ability to read and write mathematics.  Successful completion of MAT 320 provides students with the background necessary for upper division mathematics courses.
-
-Aside from the obvious goal of wanting you to learn how to write rigorous mathematical proofs, one of my principle ambitions is to make you independent of me.  Nothing else that I teach you will be half so valuable or powerful as the ability to reach conclusions by reasoning logically from first principles and being able to justify those conclusions in clear, persuasive language (either oral or written).   Furthermore, I want you to experience the unmistakable feeling that comes when one really understands something thoroughly.  Much "classroom knowledge" is fairly superficial, and students often find it hard to judge their own level of understanding. For many of us, the only way we know whether we are "getting it" comes from the grade we make on an exam.  I want you to become less reliant on such externals.  When you can distinguish between really knowing something and merely knowing about something, you will be on your way to becoming an independent learner.  Lastly, it is my sincere hope that all of us (myself included) will improve our oral and written communications skills.
-
-This course will likely be different than any other math class that you have taken before for two main reasons.  First, you are used to being asked to do things like: "solve for $x$," "take the derivative of this function," "integrate this function," etc.  Accomplishing tasks like these usually amounts to mimicking examples that you have seen in class or in your textbook.  The steps you take to "solve" problems like these are always justified by mathematical facts (theorems), but rarely are you paying explicit attention to when you are actually using these facts.  Furthermore, justifying (i.e., proving) the mathematical facts you use may have been omitted by the instructor.  And, even if the instructor did prove a given theorem, you may not have taken the time or have been able to digest the content of the proof.
-
-Unlike previous courses, this course is all about "proof."  Mathematicians are in the business of proving theorems and this is exactly our endeavor.  For the first time, you will be exposed to what "doing" mathematics is really all about.  This will most likely be a shock to your system.  Considering the number of math courses that you have taken before you arrived here, one would think that you have some idea what mathematics is all about.  You must be prepared to modify your paradigm.  The second reason why this course will be different for you is that the method by which the class will run and the expectations I have of you will be different.  In a typical course, math or otherwise, you sit and listen to a lecture.  (Hopefully) These lectures are polished and well-delivered.  You may have often been lured into believing that the instructor has opened up your head and is pouring knowledge into it.  I absolutely love lecturing and I do believe there is value in it, but I also believe that in reality most students do <i>not</i> learn by simply listening.  You must be active in the learning you are doing.
-
-All of the secondary skills you will develop in this course are highly valued by society. Whether you become a teacher, a lawyer, an engineer, or an artist, what differentiates you from your competition is your ability to think critically at a high level, collaborate professionally, and communicate effectively.
+Coming soon.
 
 <blockquote>
 <p>The mathematician does not study pure mathematics because it is useful; he studies it because he delights in it, and he delights in it because it is beautiful.</p>
@@ -95,7 +86,7 @@ Aside from the obvious goal of wanting you to learn how to write rigorous mathem
 <footer><a href="https://en.wikipedia.org/wiki/Mahatma_Gandhi">Mahatma Gandhi</a></footer>
 </blockquote>
 
-### An Inquiry-Based Approach ###
+<!-- ### An Inquiry-Based Approach ###
 This is not a lecture-oriented class or one in which mimicking prefabricated examples will lead you to success. You will be expected to work actively to construct your own understanding of the topics at hand with the readily available help of me and your classmates. Many of the concepts you learn and problems you work on will be new to you and ask you to stretch your thinking. You will experience *frustration* and *failure* before you experience *understanding*. This is part of the normal learning process. **If you are doing things well, you should be confused at different points in the semester. The material is too rich for a human being to completely understand it immediately.** Your viability as a professional in the modern workforce depends on your ability to embrace this learning process and make it work for you.
 
 In order to promote a more active participation in your learning, we will incorporate ideas from an educational philosophy called [inquiry-based learning](http://maamathedmatters.blogspot.com/2013/05/what-heck-is-ibl.html) (IBL).  Loosely speaking, IBL is a student-centered method of teaching mathematics that engages students in sense-making activities.  Students are given tasks requiring them to solve problems, conjecture, experiment, explore, create, and communicate.  Rather than showing facts or a clear, smooth path to a solution, the instructor guides and mentors students via well-crafted problems through an adventure in mathematical discovery.  According to [Laursen and Rasmussen](https://www.colorado.edu/eer/sites/default/files/attached-files/laursenrasmussencommentaryauthorversion0219.pdf) (PDF), the Four Pillars of IBL are:
@@ -142,7 +133,7 @@ As the semester progresses, it should become clear to you what the expectations 
 <blockquote>
 <p>Tell me and I forget, teach me and I may remember, involve me and I learn.</p>
 <footer><a href="https://en.wikipedia.org/wiki/Benjamin_Franklin">Benjamin Franklin</a></footer>
-</blockquote>
+</blockquote> -->
 
 ### Course Structure ###
 Class meetings will consist of discussion of problems, student-led presentations, and group work focused on problems selected by the instructor. A typical class session may include:
@@ -178,7 +169,7 @@ In our classroom, diversity and individual differences are respected, appreciate
 Students are also expected to minimize distracting behaviors.  In particular, every attempt should be made to arrive to class on time.  If you must arrive late or leave early, please do not disrupt class. Please turn off the ringer on your cell phone.  I do not have a strict policy on the use of laptops, tablets, and cell phones.  You are expected to be paying attention and engaging in class discussions.  If your cell phone, etc. is interfering with your ability (or that of another student) to do this, then put it away, or I will ask you to put it away.
 
 ### Textbook ###
-Our textbook for the semester is <i>An Introduction to Proof via Inquiry-Based Learning</i>, which is a free and open-source textbook that was written by me ([Dana C. Ernst](http://danaernst.com)). The textbook is designed to be used with an [inquiry-based learning](http://maamathedmatters.blogspot.com/2013/05/what-heck-is-ibl.html) (IBL) approach to an introduction to proof course. The textbook is available [here]({{site.baseurl}}/teaching/mat320f21/materials/).
+To do: Our textbook for the semester is <i>An Introduction to Proof via Inquiry-Based Learning</i>, which is a free and open-source textbook that was written by me ([Dana C. Ernst](http://danaernst.com)). The textbook is designed to be used with an [inquiry-based learning](http://maamathedmatters.blogspot.com/2013/05/what-heck-is-ibl.html) (IBL) approach to an introduction to proof course. The textbook is available [here]({{site.baseurl}}/teaching/mat226f23/materials/).
 
 I will not be covering every detail of the textbook and the only way to achieve a sufficient understanding of the material is to be digesting the reading in a meaningful way.  You should be seeking clarification about the content whenever necessary by asking questions.  Here's one of my favorite quotes about reading mathematics.
 
@@ -193,9 +184,9 @@ Reviewing material from previous courses and looking up definitions and theorems
 ### Homework ###
 
 #### General Comments
-You are allowed and encouraged to work together on homework.  However, each student is expected to turn in their own work.  In general, late homework will *not* be accepted.  However, you are allowed to turn in **three late homework assignments**. Unless you have made arrangements in advance with me, homework turned in after class will be considered late. When doing your homework, I encourage you to consult the [Elements of Style for Proofs]({{site.baseurl}}/teaching/ElementsOfStyle.pdf). Your overall homework grade will be worth 20% of your final grade.
+To do: You are allowed and encouraged to work together on homework.  However, each student is expected to turn in their own work.  In general, late homework will *not* be accepted.  However, you are allowed to turn in **three late homework assignments**. Unless you have made arrangements in advance with me, homework turned in after class will be considered late. When doing your homework, I encourage you to consult the [Elements of Style for Proofs]({{site.baseurl}}/teaching/ElementsOfStyle.pdf). Your overall homework grade will be worth 20% of your final grade.
 
-On each homework assignment, please write (i) your name, (ii) name of course, and (iii) Daily/Weekly Homework number.  You can find the list of assignments on the [homework page]({{site.baseurl}}/teaching/mat320f21/homework/).  I reserve the right to modify the homework assignments as I see necessary.
+On each homework assignment, please write (i) your name, (ii) name of course, and (iii) Daily/Weekly Homework number.  You can find the list of assignments on the [homework page]({{site.baseurl}}/teaching/mat226f23/homework/).  I reserve the right to modify the homework assignments as I see necessary.
 
 #### Daily Homework
 Homework will be assigned almost every class meeting, and students are expected to complete (or try their best to complete) each assignment before walking into the next class period. Homework will generally consist of completing exercises and proving theorems from the textbook.  In addition to completing the assigned problems, I also want you to assess your own work.  Next to each problem, I want you to write down a score between 0 and 4 that represents your perception of the validity and quality of your proposed solution/proof. Not completing the self-assessment step may impact the score on your homework. Consider using the following rubric.  
@@ -266,46 +257,7 @@ On the day that a homework assignment is due, the majority of the class period w
 </table>
 </center>
 
-#### Weekly Homework
-In addition to the Daily Homework, we will also have Weekly Homework assignments.  For most of these assignments, you will be required to submit 2-3 formally written proofs.  Some or all of these problems will come directly from the Daily Homework assigned the previous week.  You are required to type your submission using LaTeX. You will submit the corresponding PDF to BbLearn.  Each problem on the Weekly Homework assignments is subject to the following rubric:
-
-<!-- You can either submit a hardcopy of your assignment or email me the PDF of your completed work. If you email me the PDF, please name your file as <code>WeeklyX-LastName.pdf</code>, where <code>X</code> is the number of the assignment and <code>LastName</code> is your last name.  Notice there are no spaces in the filename. Each problem on the Weekly Homework assignments is subject to the following rubric: -->
-
-<center>
-<table class="table table-striped">
-<caption style="text-align: center;">Rubric for Assessing Problems on Weekly Homework</caption>
-	<thead>
-	<tr>
-		<th style="text-align: center;">Grade</th>
-		<th>Criteria</th>
-	</tr>
-	</thead>
-	<tbody>
-	<tr>
-		<td style="text-align: center;">4</td>
-		<td>This is correct and well-written mathematics!</td>
-	</tr>
-	<tr>
-		<td style="text-align: center;">3</td>
-		<td>This is a good piece of work, yet there are some mathematical errors or some writing errors that need addressing.</td>
-	</tr>
-	<tr>
-		<td style="text-align: center;">2</td>
-		<td>There is some good intuition here, but there is at least one serious flaw. </td>
-	</tr>
-	<tr>
-		<td style="text-align: center;">1</td>
-		<td>I don't understand this, but I see that you have worked on it; come see me!</td>
-	</tr>
-	<tr>
-		<td style="text-align: center;">0</td>
-		<td>I believe that you have not worked on this problem enough or you didn't submit any work.</td>
-	</tr>
-	</tbody>
-</table>
-</center>
-
-### Presentations and Participation ###
+<!-- ### Presentations and Participation ###
 
 #### General Comments
 
@@ -357,14 +309,14 @@ Presentations will be assessed using the following criteria.
 
 You should aim to avoid unsatisfactory (U) presentations. An in progress (I) presentation should not be viewed as a bad thing as each of us will occasionally get stuck. However, you should strive for the majority of your presentations to meet (M) or exceed (E) expectations.  Most presentations will meet expectations (M) while presentations that exceed expectations (E) will be rare. You should not let the rubric deter you from presenting if you have an idea about a solution/proof that you'd like to present but are worried that your solution/proof is incomplete or you are not confident your solution/proof is correct.  You will be rewarded for being courageous and sharing your creative ideas!  In my view, an interestingly wrong solution or proof makes for the best presentation since it generates the best discussion. This is really what we are after. On the other hand, you should not come to the board to present unless you have spent time thinking about the problem and have something meaningful to contribute.
 
-<!-- I will provide a progress report concerning each student's presentation history after each of the midterm exams. -->
+I will provide a progress report concerning each student's presentation history after each of the midterm exams.
 
 <blockquote>
 <p>I alone cannot change the world, but I can cast a stone across the waters to create many ripples.</p>
 <footer><a href="https://en.wikipedia.org/wiki/Mother_Teresa">Mother Teresa</a></footer>
-</blockquote>
+</blockquote> -->
 
-#### Selecting Presenters
+<!-- #### Selecting Presenters
 
 In general, I will curate the list of student presenters each class meeting.  A presenter is a student that either volunteered (V) or was chosen (C) by me. Volunteering is encouraged, but being chosen without volunteering isn't bad. If more than one student volunteers for a specific problem, the student with the fewest number of presentations has priority.  I reserve the right to decline your offer to present. This may happen if you are volunteering too often (and hence removing another student's opportunity to present) or if I know in advance that another student's presentation will lead to a fruitful discussion.
 
@@ -478,7 +430,7 @@ And when it has gone past I will turn the inner eye to see its path.<br />
 Where the fear has gone there will be nothing.<br />
 Only I will remain.</p>
 <footer class="blockquote-footer"><a href="https://en.wikipedia.org/wiki/Bene_Gesserit#Litany_against_fear">Bene Gesserit litany against fear</a> from Frank Herbert's <a href="https://en.wikipedia.org/wiki/Frank_Herbert%27s_Dune">Dune</a></footer>
-</blockquote>
+</blockquote> -->
 
 ### Exams ###
 There will be two midterm exams and a cumulative final exam.  Each exam will consist of an in-class portion and possibly a take-home portion. Exam 1 and Exam 2 are *tentatively* scheduled for **Monday, October 4** (week 7) and **Monday, November 15** (week 13), respectively.  Each of Exam 1 and Exam 2 will be worth 20% of your overall grade. The final exam will be on **Wednesday, December 8** at **7:30-9:30AM** and is worth 20% of your overall grade. If any of the exams have a take-home portion, you will have a few days to complete it. Make-up exams will only be given under extreme circumstances, as judged by me. In general, it will be best to communicate conflicts ahead of time.
@@ -543,23 +495,20 @@ In summary, your final grade will be determined by your scores in the following 
 </blockquote>
 
 ### Department and University Policies ###
-You are responsible for knowing and following the [Department of Mathematics and Statistics Policies]({{ site.baseurl }}/teaching/DepartmentPoliciesFall2021.pdf) (PDF) and other University policies listed [here](https://nau.edu/university-policy-library/wp-content/uploads/sites/26/Syllabus-Policy-Statements.pdf) (PDF).  More policies can be found in other university documents, especially the [NAU Student Handbook](https://in.nau.edu/dean-of-students/Student-Handbook/) (see appendices).
+You are responsible for knowing and following the [Department of Mathematics and Statistics Policies]({{ site.baseurl }}/teaching/DepartmentPoliciesFall2023.pdf) (PDF) and other University policies listed [here](https://nau.edu/university-policy-library/wp-content/uploads/sites/26/Syllabus-Policy-Statements.pdf) (PDF).  More policies can be found in other university documents, especially the [NAU Student Handbook](https://in.nau.edu/dean-of-students/Student-Handbook/) (see appendices).
 
 As per Department Policy, cell phones, MP3 players and portable electronic communication devices, including but not limited to smart phones, cameras and recording devices, must be turned off and inaccessible during in-class tests. Any violation of this policy will be treated as academic dishonesty.
 
 ### Important Dates ###
 Here are some important dates:
 
-- **September 1:** Last day to Drop/Delete (without "W")
-- **September 6:** Labor Day (no classes)
-- **October 22:** Last day to withdraw from individual courses without a petition
-- **November 11** Veteran's Day (no classes)
-- **November 25-26:** Thanksgiving (no classes)
-- **November 29:** Last day to withdraw from all classes
-- **December 8:** Final Exam (7:30-9:30AM)
+- **September 4:** Labor Day (no classes)
+- **November 10** Veteran's Day (no classes)
+- **November 23-24:** Thanksgiving (no classes)
+- **December 13:** Final Exam (10:00AM-12:00PM)
 
 ### Getting Help ###
-There are many resources available to get help.  First, you are allowed and encouraged to work together on homework.  However, each student is expected to turn in their own work. You are strongly encouraged to ask questions in our Discord discussion group, as I (and hopefully other members of the class) will post comments there for all to benefit from.  You are also encouraged to stop by during my office hours and you can always [email me](mailto:dana.ernst@nau.edu).  I am always happy to help you.  If my office hours don't work for you, then we can probably find another time to meet.  It is your responsibility to be aware of how well you understand the material.  Don't wait until it is too late if you need help.  *Ask questions*!
+There are many resources available to get help.  First, you are allowed and encouraged to work together on homework.  However, each student is expected to turn in their own work. You are strongly encouraged to ask questions in our discussion group, as I (and hopefully other members of the class) will post comments there for all to benefit from.  You are also encouraged to stop by during my office hours and you can always [email me](mailto:dana.ernst@nau.edu).  I am always happy to help you.  If my office hours don't work for you, then we can probably find another time to meet.  It is your responsibility to be aware of how well you understand the material.  Don't wait until it is too late if you need help.  *Ask questions*!
 
 ### Changes to the Syllabus ###
 Any changes to this syllabus made during the term will be properly communicated to the class.
@@ -568,6 +517,8 @@ Any changes to this syllabus made during the term will be properly communicated 
 <p>If you want to sharpen a sword, you have to remove a little metal.</p>
 <footer><a href=" ">Unknown</a></footer>
 </blockquote>
+
+<!-- This might need to be altered -->
 
 <div class="alert alert-info" role="alert">
 <i class="far fa-hand-peace"></i>&nbsp; Portions of "Presentations and Participation" are adapted from <a href="http://www2.kenyon.edu/Depts/Math/schumacherc/public_html/" class="alert-link">Carol Schumacher's</a> <i>Chapter Zero Instructor Resource Manual</i>. The first and fourth paragraphs of "An Inquiry-Based Approach" are borrowed from <a href="https://gist.github.com/RobertTalbert/7854aadbdfca232dbdda" class="alert-link">Robert Talbert</a> and <a href="https://thalestriangles.blogspot.com/2018/12/an-ibl-preface.html" class="alert-link">Joshua Bowman</a>, respectively. The "Rights of the Learner" were adapted from a similar list written by <a href="https://embracinglifewithmajorrevisions.wordpress.com/2017/07/12/rights-of-the-learner-an-introduction/" class="alert-link">Crystal Kalinec-Craig</a>. The first paragraph of "Commitment to the Learning Community" is a modified version of statement that <a href="https://sbagleyteaches.wordpress.com" class="alert-link">Spencer Bagley</a> has in his syllabi. Lastly, I've borrowed a few phrases here and there from <a href="http://www.users.csbsju.edu/~bbenesh/" class="alert-link">Bret Benesh</a>.

@@ -28,7 +28,7 @@ title: Course Materials
 
 ## An Introduction to Proof via Inquiry-Based Learning ##
 
-This free and open-source textbook was written by me ([Dana C. Ernst](http://danaernst.com)) and is designed to be used with an [inquiry-based learning](http://maamathedmatters.blogspot.com/2013/05/what-heck-is-ibl.html) (IBL) approach to an introduction to proof course. The source files are located on [GitHub](https://github.com/dcernst/IBL-IntroToProof).
+This free and open-source textbook was written by me ([Dana C. Ernst](http://danaernst.com)) and is designed to be used with an [inquiry-based learning]({{site.baseurl}}/resources/inquiry-based-learning/) (IBL) approach to an introduction to proof course. The source files are located on [GitHub](https://github.com/dcernst/IBL-IntroToProof).
 
 I will not be covering every detail of the notes and the only way to achieve a sufficient understanding of the material is to be digesting the reading in a meaningful way.  You should be seeking clarification about the content of the notes whenever necessary by asking questions.  Here's one of my favorite quotes about reading mathematics.
 
