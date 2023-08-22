@@ -35,7 +35,7 @@ We will not be using a traditional textbook this semester, but rather a problem 
 <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
 <div class="alert alert-info" role="alert">
 <center>
-<i class="fa-solid fa-book"></i>&nbsp; <a href="https://danaernst.com/teaching/mat431f23/IBL-RealAnalysis.pdf">An Inquiry-Based Approach to Real Analysis</a>
+<i class="fa fa-book"></i>&nbsp; <b><a href="https://danaernst.com/teaching/mat431f23/IBL-RealAnalysis.pdf">An Inquiry-Based Approach to Real Analysis</a></b>
 </center>
 </div>
 </div>
