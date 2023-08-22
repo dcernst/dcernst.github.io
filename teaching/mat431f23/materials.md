@@ -136,5 +136,3 @@ Below are links to the take-home portions of each exam. If you are interested in
 
 <!-- - Pictures of board work that we ran out of time to discuss. *Note:* You should not assume that the solutions/proofs posted below are valid or sufficient.
     - Coming soon. -->
-
-#
