@@ -27,62 +27,63 @@ title: Course Materials
 </div>
 
 ## An Inquiry-Based Approach to Real Analysis ##
-We will not be using a traditional textbook this semester, but rather a problem sequence adopted for an [inquiry-based learning](http://maamathedmatters.blogspot.com/2013/05/what-heck-is-ibl.html) (IBL) approach to real analysis. The problem sequence that we are using is an adaptation of the analysis notes by [Karl-Dieter Crisman](http://www.math-cs.gordon.edu/~kcrisman/), which are a modified version of notes by [W. Ted Mahavier](https://www.lamar.edu/arts-sciences/mathematics/faculty/w-ted-mahavier.html). Both authors have been gracious enough to grant me access to the source of these notes, so that we can modify and tweak for our needs. The notes will be released incrementally. Each link below is to a PDF file.
+We will not be using a traditional textbook this semester, but rather a problem sequence adopted for an [inquiry-based learning]({{site.baseurl}}/resources/inquiry-based-learning/) (IBL) approach to real analysis. The problem sequence that we are using is an adaptation of the analysis notes by [Karl-Dieter Crisman](http://www.math-cs.gordon.edu/~kcrisman/), which are a modified version of notes by [W. Ted Mahavier](https://www.lamar.edu/arts-sciences/mathematics/faculty/w-ted-mahavier.html). Both authors have been gracious enough to grant me access to the source of these notes, so that we can modify and tweak for our needs. You can find a link to our textbook below. The textbook is subject to change and improvements.
 
 <div class="alert alert-info" role="alert" style="margin: 10px 0 10px 0">
-<i class="fa fa-exclamation-triangle"></i>&nbsp; These notes are currently under construction and subject to change.
+<center>
+<i class="fa-solid fa-book"></i>&nbsp; <a href="https://danaernst.com/teaching/mat431f23/IBL-RealAnalysis.pdf">An Inquiry-Based Approach to Real Analysis</a>
+</center>
 </div>
 
-<!-- - [Introduction to Real Analysis]({{site.baseurl}}/teaching/mat431f23/Analysis.pdf) (complete set of notes) -->
+### Table of Contents
 
-- [Title Page and Front Matter]({{site.baseurl}}/teaching/mat431f23/FrontMatter.pdf)
-- [Preface]({{site.baseurl}}/teaching/mat431f23/Preface.pdf)
-- [Chapter 1: Introduction]({{site.baseurl}}/teaching/mat431f23/Introduction.pdf)
+- Preface
+- Chapter 1: Introduction
     - 1.1 What is This Course All About?
     - 1.2 An Inquiry-Based Approach
     - 1.3 Structure of the Notes
     - 1.4 Rules of the Game
     - 1.5 Rights of the Learner
     - 1.6 Some Minimal Guidance
-- [Chapter 2: Preliminaries]({{site.baseurl}}/teaching/mat431f23/Preliminaries.pdf)
+- Chapter 2: Preliminaries
     - 2.1 Sets
     - 2.2 Induction and the Well-Ordering Principle
     - 2.3 Functions
-- [Chapter 3: The Real Numbers]({{site.baseurl}}/teaching/mat431f23/RealNumbers.pdf)
+- Chapter 3: The Real Numbers
     - 3.1 The Field Axioms
     - 3.2 The Order Axioms
     - 3.3 Absolute Value and the Triangle Inequality
     - 3.4 Suprema, Infima, and the Completeness Axiom
     - 3.5 The Archimedean Property
-- [Chapter 4: Standard Topology of the Real Line]({{site.baseurl}}/teaching/mat431f23/Topology.pdf)
+- Chapter 4: Standard Topology of the Real Line
     - 4.1 Open Sets
     - 4.2 Accumulation Points and Closed Sets
     - 4.3 Compact and Connected Sets
-- [Chapter 5: Sequences]({{site.baseurl}}/teaching/mat431f23/Sequences.pdf)
+- Chapter 5: Sequences
     - 5.1 Introduction to Sequences
     - 5.2 Properties of Convergent Sequences
     - 5.3 Monotone Convergence Theorem
     - 5.4 Subsequences and the Bolzano--Weierstrass Theorem
-- [Chapter 6: Continuity]({{site.baseurl}}/teaching/mat431f23/Continuity.pdf)
+- Chapter 6: Continuity
     - 6.1 Introduction to Continuity
     - 6.2 Additional Characterizations of Continuity
     - 6.3 Extreme Value Theorem
     - 6.4 Intermediate Value Theorem
     - 6.5 Uniform Continuity
-- [Chapter 7: Limits]({{site.baseurl}}/teaching/mat431f23/Limits.pdf)
+- Chapter 7: Limits
     - 7.1 Introduction to Limits
     - 7.2 Limit Laws
-- [Chapter 8: Differentiation]({{site.baseurl}}/teaching/mat431f23/Differentiation.pdf)
+- Chapter 8: Differentiation
     - 8.1 Introduction to Differentiation
     - 8.2 Derivative Rules
     - 8.3 Mean Value Theorem
-- [Chapter 9: Integration]({{site.baseurl}}/teaching/mat431f23/Integration.pdf)
+- Chapter 9: Integration
     - 9.1 Introduction to Integration
     - 9.2 Properties of Integrals
     - 9.3 Fundamental Theorem of Calculus
-- [Appendix A: Elements of Style for Proofs]({{site.baseurl}}/teaching/mat431f23/ElementsOfStyle.pdf)
-- [Appendix B: Fancy Mathematical Terms]({{site.baseurl}}/teaching/mat431f23/FancyMathematicalTerms.pdf)
-- [Appendix C: Definitions in Mathematics]({{site.baseurl}}/teaching/mat431f23/Definitions.pdf)
+- Appendix A: Elements of Style for Proofs
+- Appendix B: Fancy Mathematical Terms
+- Appendix C: Definitions in Mathematics
 
 I will not be covering every detail of the notes and the only way to achieve a sufficient understanding of the material is to be digesting the reading in a meaningful way.  You should be seeking clarification about the content of the notes whenever necessary by asking questions.  Here's one of my favorite quotes about reading mathematics.
 
