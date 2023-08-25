@@ -178,7 +178,16 @@ In our classroom, diversity and individual differences are respected, appreciate
 Students are also expected to minimize distracting behaviors.  In particular, every attempt should be made to arrive to class on time.  If you must arrive late or leave early, please do not disrupt class. Please turn off the ringer on your cell phone.  I do not have a strict policy on the use of laptops, tablets, and cell phones.  You are expected to be paying attention and engaging in class discussions.  If your cell phone, etc. is interfering with your ability (or that of another student) to do this, then put it away, or I will ask you to put it away.
 
 ### Textbook ###
-Our textbook for the semester is <i>An Introduction to Proof via Inquiry-Based Learning</i>, which is a free and open-source textbook that was written by me ([Dana C. Ernst](http://danaernst.com)). The textbook is designed to be used with an [inquiry-based learning](http://maamathedmatters.blogspot.com/2013/05/what-heck-is-ibl.html) (IBL) approach to an introduction to proof course. The textbook is available [here]({{site.baseurl}}/teaching/mat320f23/materials/).
+Our textbook for the semester is <i>An Introduction to Proof via Inquiry-Based Learning</i>, which is a free and open-source textbook that was written by me ([Dana C. Ernst](http://danaernst.com)). The textbook is designed to be used with an [inquiry-based learning](http://maamathedmatters.blogspot.com/2013/05/what-heck-is-ibl.html) (IBL) approach to an introduction to proof course. The textbook is avaiable in multiple formats:
+
+- [PDF of textbook]({{ site.baseurl }}/IBL-IntroToProof/IBLIntroToProof-current.pdf)
+- [PreTeXt/HTML version of textbook]({{ site.baseurl }}/IBL-IntroToProof/pretext/index.html)
+- [Low cost print version for sale via AMS/MAA Press](https://bookstore.ams.org/text-73/)
+- [PDF of textbook that matches the current print version by MAA Press]({{ site.baseurl }}/IBL-IntroToProof/IBLIntroToProof-MAAPressSpring2022.pdf)
+- [Errata]({{ site.baseurl }}/IBL-IntroToProof/Errata.pdf)
+- [Source code available via GitHub](https://github.com/dcernst/IBL-IntroToProof)
+
+You can also find a link to the textbook one the [Course Materials]({{site.baseurl}}/teaching/mat320f23/materials/) page.
 
 I will not be covering every detail of the textbook and the only way to achieve a sufficient understanding of the material is to be digesting the reading in a meaningful way.  You should be seeking clarification about the content whenever necessary by asking questions.  Here's one of my favorite quotes about reading mathematics.
 

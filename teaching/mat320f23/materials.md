@@ -37,7 +37,7 @@ I will not be covering every detail of the notes and the only way to achieve a s
   <footer><a href="http://en.wikipedia.org/wiki/Paul_Halmos">Paul Halmos</a></footer>
 </blockquote>
 
-The book is available in several formats:
+The book is available in multiple formats:
 
 - [PDF of textbook]({{ site.baseurl }}/IBL-IntroToProof/IBLIntroToProof-current.pdf)
 - [PreTeXt/HTML version of textbook]({{ site.baseurl }}/IBL-IntroToProof/pretext/index.html)
