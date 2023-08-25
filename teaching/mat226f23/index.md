@@ -54,7 +54,7 @@ Welcome to the course web page for the Fall 2023 manifestation of MAT 226: Discr
 </div>
 
 ## What is This Course All About? ##
-Coming soon...
+Topics covered fall into three categories: (1) counting theory, (2) graph theory, and (3) induction and recursion. The course also introduces the student to the attitudes and techniques of mathematical thinking.
 
 <blockquote>
 <p>The mathematician does not study pure mathematics because it is useful; he studies it because he delights in it, and he delights in it because it is beautiful.</p>

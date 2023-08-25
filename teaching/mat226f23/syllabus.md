@@ -70,6 +70,11 @@ Elementary discrete mathematics including topics from graph theory and combinato
 3. **Induction and Recursion:** constructing recurrence relations for counting problems, solving simple recurrence relations, mathematical induction, generalized induction, strong induction;
 4. Additional topics as time permits such as generating functions, probability, chromatic polynomial.
 
+<blockquote>
+<p>The mathematician does not study pure mathematics because it is useful; he studies it because he delights in it, and he delights in it because it is beautiful.</p>
+<footer><a href="https://en.wikipedia.org/wiki/Henri_Poincaré">Henri Poincaré</a></footer>
+</blockquote>
+
 <!-- ### What is This Course Really About? ###
 Topics covered fall into three categories: (1) counting theory, (2) graph theory, and (3) induction and recursion. The course also introduces the student to the attitudes and techniques of mathematical thinking. -->
 
@@ -98,21 +103,6 @@ Upon successful completion of the course, students will be able to:
     - Solve problems that do not fit an exact pattern discussed in class.
 
 <blockquote>
-<p>The mathematician does not study pure mathematics because it is useful; he studies it because he delights in it, and he delights in it because it is beautiful.</p>
-<footer><a href="https://en.wikipedia.org/wiki/Henri_Poincaré">Henri Poincaré</a></footer>
-</blockquote>
-
-<blockquote>
-<p>An ounce of practice is worth more than tons of preaching.</p>
-<footer><a href="https://en.wikipedia.org/wiki/Mahatma_Gandhi">Mahatma Gandhi</a></footer>
-</blockquote>
-
-<blockquote>
-<p>Tell me and I forget, teach me and I may remember, involve me and I learn.</p>
-<footer><a href="https://en.wikipedia.org/wiki/Benjamin_Franklin">Benjamin Franklin</a></footer>
-</blockquote>
-
-<blockquote>
 <p>The impediment to action advances action. What stands in the way becomes the way.</p>
 <footer><a href="https://en.wikipedia.org/wiki/Marcus_Aurelius">Marcus Aurelius</a></footer>
 </blockquote>
@@ -135,10 +125,13 @@ In our classroom, diversity and individual differences are respected, appreciate
 
 Students are also expected to minimize distracting behaviors.  In particular, every attempt should be made to arrive to class on time.  If you must arrive late or leave early, please do not disrupt class. Please turn off the ringer on your cell phone.  I do not have a strict policy on the use of laptops, tablets, and cell phones.  You are expected to be paying attention and engaging in class discussions.  If your cell phone, etc. is interfering with your ability (or that of another student) to do this, then put it away, or I will ask you to put it away.
 
-### Textbook ###
-To do!
+<blockquote>
+<p>An ounce of practice is worth more than tons of preaching.</p>
+<footer><a href="https://en.wikipedia.org/wiki/Mahatma_Gandhi">Mahatma Gandhi</a></footer>
+</blockquote>
 
-<!-- Our textbook for the semester is <i>An Introduction to Proof via Inquiry-Based Learning</i>, which is a free and open-source textbook that was written by me ([Dana C. Ernst](http://danaernst.com)). The textbook is designed to be used with an [inquiry-based learning](http://maamathedmatters.blogspot.com/2013/05/what-heck-is-ibl.html) (IBL) approach to an introduction to proof course. The textbook is available [here]({{site.baseurl}}/teaching/mat226f23/materials/). -->
+### Textbook ###
+Our textbook for the semester is <i>Introduction to Discrete Mathematics</i>.  Early versions of the book were originally written by NAU retired mathematics professor Dr. John Hagood (usuing the title <i>MAT 226 Discrete Mathematics</i>).  Dr. Hagood was gracious enough to pass the source of the book along and has granted me permission to modify the content. Current iterations of the book are now my responsibility. The book is available as a freely-assessible PDF.  You can find the book on the [Course Materials]({{site.baseurl}}/teaching/mat226f23/materials/) page. Since I will be tweaking the book as we go, chapters will be released incrementally.
 
 I will not be covering every detail of the textbook and the only way to achieve a sufficient understanding of the material is to be digesting the reading in a meaningful way.  You should be seeking clarification about the content whenever necessary by asking questions.  Here's one of my favorite quotes about reading mathematics.
 
@@ -170,19 +163,18 @@ The following are examples (not an exhaustive list) of behaviors that do not con
 - Responding to questions on our course forum in the form of feedback or guidance
 - Asking the instructor for assistance or a hint
 
+<blockquote>
+<p>Tell me and I forget, teach me and I may remember, involve me and I learn.</p>
+<footer><a href="https://en.wikipedia.org/wiki/Benjamin_Franklin">Benjamin Franklin</a></footer>
+</blockquote>
+
 ### Homework ###
+You are allowed and encouraged to work together on homework.  However, each student is expected to turn in their own work.  In general, late homework will *not* be accepted.  However, you are allowed to turn in up to **two late homework assignments** with no questions asked. Unless you have made arrangements in advance with me, homework turned in after class will be considered late. You can find the list of assignments on the [homework page]({{site.baseurl}}/teaching/mat526f22/homework/).  I reserve the right to modify the homework assignments as I see necessary.
 
-To do! 
-
-<!-- You are allowed and encouraged to work together on homework.  However, each student is expected to turn in their own work.  In general, late homework will *not* be accepted.  However, you are allowed to turn in **three late homework assignments**. Unless you have made arrangements in advance with me, homework turned in after class will be considered late. When doing your homework, I encourage you to consult the [Elements of Style for Proofs]({{site.baseurl}}/teaching/ElementsOfStyle.pdf). Your overall homework grade will be worth 20% of your final grade.
-
-On each homework assignment, please write (i) your name, (ii) name of course, and (iii) Daily/Weekly Homework number.  You can find the list of assignments on the [homework page]({{site.baseurl}}/teaching/mat226f23/homework/).  I reserve the right to modify the homework assignments as I see necessary.
-
-Homework will be assigned almost every class meeting, and students are expected to complete (or try their best to complete) each assignment before walking into the next class period. Homework will generally consist of completing exercises and proving theorems from the textbook.  In addition to completing the assigned problems, I also want you to assess your own work.  Next to each problem, I want you to write down a score between 0 and 4 that represents your perception of the validity and quality of your proposed solution/proof. Not completing the self-assessment step may impact the score on your homework. Consider using the following rubric.  
+Your homework will always be graded for completion and some subset of the problems will be graded for correctness. Problems that are graded for completeness will be worth 1 point.  Problems that are graded for correctness will either be worth 2 points or 4 points depending on the level of difficulty.  Generally, quick computational problems will be worth 2 points while more substantial problems will be worth 4 points.  Each 4-point problem is subject to the following rubric:
 
 <center>
 <table class="table table-striped">
-<caption style="text-align: center;">Rubric for Assessing Problems on Daily Homework</caption>
 	<thead>
 	<tr>
 		<th style="text-align: center;">Grade</th>
@@ -214,37 +206,7 @@ Homework will be assigned almost every class meeting, and students are expected 
 </table>
 </center>
 
-On the day that a homework assignment is due, the majority of the class period will be devoted to students presenting some subset (maybe all) of the proofs/solutions that are due that day.  You are allowed (in fact, encouraged!) to modify your written work in light of presentations made in class; however, **you are required to use a different color than what you used to complete your homework**.  In the past, I provided colored pens in class, but due to the pandemic, please provide your own colored pen. This will allow me to differentiate the work done in class versus the work you completed before class.  The grade you receive on an assignment will be determined by the work you completed prior to class.  I will provide more guidance with respect to this during the first couple weeks of the semester. Homework will be assessed using the following rubric.
-
-<center>
-<table class="table table-striped">
-<caption style="text-align: center;">Rubric for Grading Daily Homework</caption>
-	<thead>
-	<tr>
-		<th style="text-align: center;">Grade</th>
-		<th>Criteria</th>
-	</tr>
-	</thead>
-	<tbody>
-	<tr>
-		<td style="text-align: center;">4</td>
-		<td>Sufficient effort was put into nearly all the problems.</td>
-	</tr>
-	<tr>
-		<td style="text-align: center;">2</td>
-		<td>Some problems were omitted and/or sufficient effort was not exhibited.</td>
-	</tr>
-	<tr>
-		<td style="text-align: center;">1</td>
-		<td>Many problems omitted and/or minimal effort exhibited.</td>
-	</tr>
-	<tr>
-		<td style="text-align: center;">0</td>
-		<td>Assignment was not turned in.</td>
-	</tr>
-	</tbody>
-</table>
-</center> -->
+To compute your score on a given homework assignment, I will divide your total points by the total possible points to obtain a percent score. Each homework assignment has the same weight.  Your overall homework grade will be worth 40% of your final grade.
 
 <blockquote>
 <p>I must not fear.<br />
@@ -259,9 +221,7 @@ Only I will remain.</p>
 </blockquote>
 
 ### Exams ###
-To do!
-
-<!-- There will be two midterm exams and a cumulative final exam.  Each exam will consist of an in-class portion and possibly a take-home portion. Exam 1 and Exam 2 are *tentatively* scheduled for **Monday, October 4** (week 7) and **Monday, November 15** (week 13), respectively.  Each of Exam 1 and Exam 2 will be worth 20% of your overall grade. The final exam will be on **Wednesday, December 8** at **7:30-9:30AM** and is worth 20% of your overall grade. If any of the exams have a take-home portion, you will have a few days to complete it. Make-up exams will only be given under extreme circumstances, as judged by me. In general, it will be best to communicate conflicts ahead of time. -->
+There will be two midterm exams and a cumulative final exam.  Exam 1 and Exam 2 are *tentatively* scheduled for **???** (week ???) and **???** (week ???), respectively.  Each of Exam 1 and Exam 2 will be worth 20% of your overall grade. The final exam will be on **Wednesday, December 13** at **10:00AM-12:00PM** and is worth 20% of your overall grade. Make-up exams will only be given under extreme circumstances, as judged by me. In general, it will be best to communicate conflicts ahead of time.
 
 <blockquote>
 <p>I write one page of masterpiece to ninety-one pages of shit.</p>
@@ -272,16 +232,13 @@ To do!
 Regular attendance is expected and is vital to success in this course, but you will not explicitly be graded on attendance.  Students can find more information about NAU's attendance policy on the [Academic Policies](https://in.nau.edu/dean-of-students/academic-policies/) page.
 
 ### Extra Credit
-The only thing I will award extra credit for is finding typos on course materials (e.g., textbook, exams, syllabus, webpage).  This includes broken links on the webpage.  However, it does not include the placement of commas and such.  If you find a typo, I will add one percentage point to your next exam.  You can earn at most two percentage points per exam and at most five percentage points over the course of the semester. Extra credit points are only available to the first person to notify me of the error. They're is a typo right here.
+The only thing I will award extra credit for is finding typos on course materials (e.g., textbook, exams, syllabus, webpage).  This includes broken links on the webpage.  However, it does not include the placement of commas and such.  If you find a typo, I will add one percentage point to your next exam.  You can earn at most two percentage points per exam. Extra credit points are only available to the first person to notify me of the error. They're is a typo right here.
 
 ### Basis for Evaluation ###
 In summary, your final grade will be determined by your scores in the following categories.
 
-To do!
-
-<!-- <center>
+<center>
 <table class="table table-striped">
-<caption style="text-align: center;">Summary of Evaluation</caption>
 	<thead>
 	<tr>
 		<th>Category</th>
@@ -292,32 +249,27 @@ To do!
 	<tbody>
 	<tr>
 		<td>Homework</td>
-		<td style="text-align: center;">20%</td>
-		<td>See above for requirements</td>
-	</tr>
-  <tr>
-		<td>Presentations &amp; Participation</td>
-		<td style="text-align: center;">20%</td>
+		<td style="text-align: center;">40%</td>
 		<td>See above for requirements</td>
 	</tr>
 	<tr>
 		<td>Exam 1</td>
 		<td style="text-align: center;">20%</td>
-		<td>In-class portion on October 4, possible take-home portion</td>
+		<td>???</td>
 	</tr>
   <tr>
     <td>Exam 2</td>
     <td style="text-align: center;">20%</td>
-    <td>In-class portion on November 15, possible take-home portion</td>
+    <td>???</td>
   </tr>
 	<tr>
 		<td>Final Exam</td>
 		<td style="text-align: center;">20%</td>
-		<td>December 8 at 7:30-9:30AM</td>
+		<td>December 13, 10:00AM-12:00PM</td>
 	</tr>
 	</tbody>
 </table>
-</center> -->
+</center>
 
 <blockquote>
 <p>It is not the critic who counts; not the man who points out how the strong man stumbles, or where the doer of deeds could have done them better. The credit belongs to the man who is actually in the arena, whose face is marred by dust and sweat and blood; who strives valiantly; who errs, who comes short again and again, because there is no effort without error and shortcoming; but who does actually strive to do the deeds; who knows great enthusiasms, the great devotions; who spends himself in a worthy cause; who at the best knows in the end the triumph of high achievement, and who at the worst, if he fails, at least fails while daring greatly, so that his place shall never be with those cold and timid souls who neither know victory nor defeat.</p>

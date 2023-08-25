@@ -452,7 +452,7 @@ There will be two midterm exams and a cumulative final exam. Exam 1 and Exam 2 a
 Regular attendance is expected and is vital to success in this course, but you will not explicitly be graded on attendance.  Yet, repeated absences may impact your participation grade (see above).  Students can find more information about NAU's attendance policy on the [Academic Policies](https://in.nau.edu/dean-of-students/academic-policies/) page.
 
 ### Extra Credit
-The only thing I will award extra credit for is finding typos on course materials (e.g., textbook, exams, syllabus, webpage).  This includes broken  links on the webpage.  However, it does not include the placement of commas and such.  If you find a typo, I will add one percentage point to your next exam.  You can earn at most two percentage points per exam and at most five percentage points over the course of the semester. They're is a typo right here.
+The only thing I will award extra credit for is finding typos on course materials (e.g., textbook, exams, syllabus, webpage).  This includes broken  links on the webpage.  However, it does not include the placement of commas and such.  If you find a typo, I will add one percentage point to your next exam.  You can earn at most two percentage points per exam. They're is a typo right here.
 
 ### Basis for Evaluation ###
 In summary, your final grade will be determined by your scores in the following categories.
