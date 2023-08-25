@@ -177,7 +177,27 @@ I will not be covering every detail of the notes and the only way to achieve a s
 </blockquote>
 
 ### Rules of the Game ###
-Reviewing material from previous courses and looking up definitions and theorems you may have forgotten is fair game. However, when it comes to completing assignments for this course, you should *not* look to resources outside the context of this course for help.  That is, you should not be consulting the web, other texts, other faculty, or students outside of our course in an attempt to find solutions to the problems you are assigned.  This includes Chegg and Course Hero. On the other hand, you may use each other, the textbook, me, and your own intuition. **If you feel you need additional resources, please come talk to me and we will come up with an appropriate plan of action.** Please read NAU's [Academic Integrity Policy](https://www5.nau.edu/policies/Client/Details/828?whoIsLooking=Students&pertainsTo=All&sortDirection=Ascending&page=1).
+Reviewing material from previous courses and looking up definitions and theorems you may have forgotten is fair game. Since mathematical reasoning, problem solving, and critical thinking skills are part of the learning outcomes of this course, all assignments should be prepared by the student. Developing strong competencies in this area will prepare you to be a lifelong learner and give you an edge in a competitive workplace. When it comes to completing assignments for this course, unless explicitly told otherwise, you should *not* look to resources outside the context of this course for help.  That is, you should not be consulting the web (e.g., Chegg and Course Hero), generative artificial intelligence tools (e.g., ChatGPT), mathematics assistive technologies (e.g., Wolfram Alpha and Photomath), other texts, other faculty, or students outside of our course in an attempt to find solutions to the problems you are assigned.  On the other hand, you may use each other, the textbook, me, and your own intuition. You are allowed and encouraged to work together on homework. Yet, each student is expected to turn in their own work.  
+
+In this course, we may use generative AI tools (such as ChatGPT) or AI mathematics assistive technologies (such as Wolfram Alpha) to examine the ways in which these kinds of tools may inform our exploration of mathematics content. You will be informed as to when and how these tools will be used, along with guidance for attribution if/as needed. Any use of generative AI tools outside of these parameters constitutes plagiarism and a violation of the University’s Academic Integrity Policy.  Please read NAU's [Academic Integrity Policy](https://www5.nau.edu/policies/Client/Details/828?whoIsLooking=Students&pertainsTo=All&sortDirection=Ascending&page=1).
+
+The ultimate goal is for each individual student to learn and to be successful. So, if you feel you need additional resources or support, please come talk to me and we will come up with an appropriate plan of action.
+
+The following are examples (not an exhaustive list) of behaviors that could constitute cheating and/or plagiarism. You should *not* be doing these things.
+
+- Copying solutions or portions of solutions from another person
+- Submitting solutions (in part or whole) by multiple students that identically match, especially in peculiar details
+- Having another person complete your homework problems for you
+- Using any applications or websites (e.g., Course Hero, Chegg, ChatGPT, WolframAlpha, PhotoMath) to complete problems or portions of problems (even if only used on one step that you are stuck on)
+- Anything that takes solutions or portions of solutions and attempts to pass them off as your own ideas and work
+
+The following are examples (not an exhaustive list) of behaviors that do not constitute cheating and/or plagiarism. You should be doing these things. 
+
+- Having a conversation with a classmate about a homework problem to compare methods and discuss strategy
+- Collaborating with a classmate on a homework problem (not copying)
+- Asking questions about a homework problem on our course forum
+- Responding to questions on our course forum in the form of feedback or guidance
+- Asking the instructor for assistance or a hint
 
 ### Homework ###
 You are allowed and encouraged to work together on homework.  However, each student is expected to turn in their own work.  In general, late homework will *not* be accepted.  However, you are allowed to turn in up to **three late homework assignments**. Unless you have made arrangements in advance with me, homework turned in after class will be considered late. When doing your homework, I encourage you to consult the [Elements of Style for Proofs]({{site.baseurl}}/teaching/ElementsOfStyle.pdf). Your overall homework grade will be worth 20% of your final grade.
