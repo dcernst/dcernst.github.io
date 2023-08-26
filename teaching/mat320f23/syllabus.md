@@ -97,7 +97,7 @@ Aside from the obvious goal of wanting you to learn how to write rigorous mathem
 ### An Inquiry-Based Approach ###
 This is not a lecture-oriented class or one in which mimicking prefabricated examples will lead you to success. You will be expected to work actively to construct your own understanding of the topics at hand with the readily available help of me and your classmates. Many of the concepts you learn and problems you work on will be new to you and ask you to stretch your thinking. You will experience *frustration* and *failure* before you experience *understanding*. This is part of the normal learning process. **If you are doing things well, you should be confused at different points in the semester. The material is too rich for a human being to completely understand it immediately.** Your viability as a professional in the modern workforce depends on your ability to embrace this learning process and make it work for you.
 
-In order to promote a more active participation in your learning, we will incorporate ideas from an educational philosophy called [inquiry-based learning](http://maamathedmatters.blogspot.com/2013/05/what-heck-is-ibl.html) (IBL).  Loosely speaking, IBL is a student-centered method of teaching mathematics that engages students in sense-making activities.  Students are given tasks requiring them to solve problems, conjecture, experiment, explore, create, and communicate.  Rather than showing facts or a clear, smooth path to a solution, the instructor guides and mentors students via well-crafted problems through an adventure in mathematical discovery.  According to [Laursen and Rasmussen](https://www.colorado.edu/eer/sites/default/files/attached-files/laursenrasmussencommentaryauthorversion0219.pdf) (PDF), the Four Pillars of IBL are:
+In order to promote a more active participation in your learning, we will incorporate ideas from an educational philosophy called [inquiry-based learning](http://danaernst.com/resources/inquiry-based-learning/) (IBL).  Loosely speaking, IBL is a student-centered method of teaching mathematics that engages students in sense-making activities.  Students are given tasks requiring them to solve problems, conjecture, experiment, explore, create, and communicate.  Rather than showing facts or a clear, smooth path to a solution, the instructor guides and mentors students via well-crafted problems through an adventure in mathematical discovery.  According to [Laursen and Rasmussen](https://www.colorado.edu/eer/sites/default/files/attached-files/laursenrasmussencommentaryauthorversion0219.pdf) (PDF), the Four Pillars of IBL are:
 
 - Students engage deeply with coherent and meaningful mathematical tasks.
 - Students collaboratively process mathematical ideas.
@@ -110,7 +110,7 @@ In order to promote a more active participation in your learning, we will incorp
 </center>
 </div>
 
-If you want to learn more about IBL, read my blog post titled [What the Heck is IBL?](http://maamathedmatters.blogspot.com/2013/05/what-heck-is-ibl.html).
+If you want to learn more about IBL, read my [Inquiry-Based Learning Resource page](http://danaernst.com/resources/inquiry-based-learning/).
 
 <blockquote>
 <p>Don’t fear failure.  Not failure, but low aim, is the crime. In great attempts it is glorious even to fail.</p>
@@ -177,7 +177,7 @@ In our classroom, diversity and individual differences are respected, appreciate
 Students are also expected to minimize distracting behaviors.  In particular, every attempt should be made to arrive to class on time.  If you must arrive late or leave early, please do not disrupt class. Please turn off the ringer on your cell phone.  I do not have a strict policy on the use of laptops, tablets, and cell phones.  You are expected to be paying attention and engaging in class discussions.  If your cell phone, etc. is interfering with your ability (or that of another student) to do this, then put it away, or I will ask you to put it away.
 
 ### Textbook ###
-Our textbook for the semester is <i>An Introduction to Proof via Inquiry-Based Learning</i>, which is a free and open-source textbook that was written by me ([Dana C. Ernst](http://danaernst.com)). The textbook is designed to be used with an [inquiry-based learning](http://maamathedmatters.blogspot.com/2013/05/what-heck-is-ibl.html) (IBL) approach to an introduction to proof course. The textbook is avaiable in multiple formats:
+Our textbook for the semester is <i>An Introduction to Proof via Inquiry-Based Learning</i>, which is a free and open-source textbook that was written by me ([Dana C. Ernst](http://danaernst.com)). The textbook is designed to be used with an [inquiry-based learning](http://danaernst.com/resources/inquiry-based-learning/) (IBL) approach to an introduction to proof course. The textbook is avaiable in multiple formats:
 
 - [PDF of textbook]({{ site.baseurl }}/IBL-IntroToProof/IBLIntroToProof-current.pdf)
 - [PreTeXt/HTML version of textbook]({{ site.baseurl }}/IBL-IntroToProof/pretext/index.html)
@@ -463,34 +463,34 @@ Your Presentation and Participation grade is determined by your frequency and ab
 <center>
 <table class="table table-striped">
 <caption style="text-align: center;">Rubric for Assessing Presentation and Participation Grade</caption>
-	<thead>
-	<tr>
-		<th style="text-align: center;">Grade&nbsp;Range</th>
-		<th>Criteria</th>
-	</tr>
-	</thead>
-	<tbody>
-	<tr>
-		<td style="text-align: center;">90-100%</td>
-		<td>Student receives M or E for participation. Student averages more than 1 presentation every two weeks. Student often volunteers to present and some of these problems are challenging. Most presentations receive M or E.</td>
-	</tr>
-	<tr>
-		<td style="text-align: center;">80-89%</td>
-		<td>Student receives M or E for participation. Student averages roughly 1 presentation every two weeks. Student occasionally volunteers to present. Most presentations receive M.</td>
-	</tr>
-	<tr>
-		<td style="text-align: center;">70-79%</td>
-		<td>Student receives M for participation. Student averages less than 1 presentation every two weeks. Student rarely volunteers to present and actively avoids presenting challenging problems. Some presentations receive U.</td>
-	</tr>
-	<tr>
-		<td style="text-align: center;">60-69%</td>
-		<td>Student receives U for participation. Student rarely presents and actively avoids presenting challenging problems. Some presentations receive U.</td>
-	</tr>
+<thead>
+<tr>
+	<th style="text-align: center;">Grade&nbsp;Range</th>
+	<th>Criteria</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+	<td style="text-align: center;">90-100%</td>
+	<td>Student receives M or E for participation. Student averages at least 3 presentations prior to each of the exams. Student often volunteers to present and some of these problems are challenging. Most presentations receive M or E.</td>
+</tr>
+<tr>
+	<td style="text-align: center;">80-89%</td>
+	<td>Student receives M or E for participation. Student averages at least 2 presentations prior to each of the exams. Student occasionally volunteers to present. Most presentations receive M.</td>
+</tr>
+<tr>
+	<td style="text-align: center;">70-79%</td>
+	<td>Student receives M for participation. Student averages less than 2 presentations prior to each of the exams. Student rarely volunteers to present and actively avoids presenting challenging problems. Some presentations receive U.</td>
+</tr>
+<tr>
+	<td style="text-align: center;">60-69%</td>
+	<td>Student receives U for participation. Student rarely presents and actively avoids presenting challenging problems. Some presentations receive U.</td>
+</tr>
 <tr>
   <td style="text-align: center;">Below 60%</td>
   <td>Student receives U for participation. Student rarely or never presents and has completely disengaged from the class community.</td>
 </tr>
-	</tbody>
+</tbody>
 </table>
 </center>
 
