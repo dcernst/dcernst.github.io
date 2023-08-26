@@ -21,7 +21,6 @@ title: Course Materials
 <a class="btn btn-default btn-warning" href="{{site.baseurl}}/teaching/mat320f23/homework/">
 <span class="hidden-xs">Homework</span><span class="visible-xs">HW</span>
 </a>
-<a class="btn btn-default btn-info" href="{{site.baseurl}}/teaching/mat320f23/journal/">Journal</a>
 </div>
 </div>
 </div>
