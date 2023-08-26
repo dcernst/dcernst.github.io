@@ -25,15 +25,18 @@ title: Course Materials
 </div>
 </div>
 
-## ??? ##
+## Introduction to Discrete Mathematics ##
 
-This free and open-source textbook was written by me ([Dana C. Ernst](http://danaernst.com)) and is designed to be used with an [inquiry-based learning]({{site.baseurl}}/resources/inquiry-based-learning/) (IBL) approach to an introduction to proof course. The source files are located on [GitHub](https://github.com/dcernst/IBL-IntroToProof).
+Our textbook for the semester is <i>Introduction to Discrete Mathematics</i>.  Early versions of the book were originally written by NAU retired mathematics professor Dr. John Hagood (usuing the title <i>MAT 226 Discrete Mathematics</i>).  Dr. Hagood was gracious enough to pass the source of the book along and has granted me permission to modify the content. Current iterations of the book are now my responsibility. The book is available as a freely-assessible PDF. Since I will be tweaking the book as we go, chapters will be released incrementally.
 
-I will not be covering every detail of the notes and the only way to achieve a sufficient understanding of the material is to be digesting the reading in a meaningful way.  You should be seeking clarification about the content of the notes whenever necessary by asking questions.  Here's one of my favorite quotes about reading mathematics.
+- [Chapter 1: First Principles](https://danaernst.com/teaching/mat226f23/FirstPrinciples.pdf)
+- Chapter 2: Permutations (coming soon)
+
+I will not be covering every detail of the textbook and the only way to achieve a sufficient understanding of the material is to be digesting the reading in a meaningful way.  You should be seeking clarification about the content whenever necessary by asking questions.  Here's one of my favorite quotes about reading mathematics.
 
 <blockquote>
-  <p>Don’t just read it; fight it! Ask your own questions, look for your own examples, discover your own proofs. Is the hypothesis necessary? Is the converse true? What happens in the classical special case? What about the degenerate cases? Where does the proof use the hypothesis?</p>
-  <footer><a href="http://en.wikipedia.org/wiki/Paul_Halmos">Paul Halmos</a></footer>
+<p>Don’t just read it; fight it! Ask your own questions, look for your own examples, discover your own proofs. Is the hypothesis necessary? Is the converse true? What happens in the classical special case? What about the degenerate cases? Where does the proof use the hypothesis?</p>
+<footer><a href="http://en.wikipedia.org/wiki/Paul_Halmos">Paul Halmos</a></footer>
 </blockquote>
 
 If you've found an error or have suggestions for improvements, please let me know.
