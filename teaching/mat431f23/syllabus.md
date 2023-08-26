@@ -361,7 +361,7 @@ If you are chosen to present but would prefer not to present that particular pro
 In summary, for each student presentation, I will record one of V, C, or P. In the case of V or C, I will also record one of U, I, M, or E based on the rubric given above. The most common pair will likely be CM (i.e., student was chosen to present and presentation met expectations).
 
 #### Participation
-You are expected to respectfully participate and contribute to class discussions. This includes asking relevant and meaningful questions to both the instructor and your peers. Moreover, you are expected to be engaged and respectful during another student's presentation. Posting questions and/or responses in our Discord server counts as class participation, but posting in Discord is not required. Your class participation will be assessed as follows.
+You are expected to respectfully participate and contribute to class discussions. This includes asking relevant and meaningful questions to both the instructor and your peers. Moreover, you are expected to be engaged and respectful during another student's presentation. Posting questions and/or responses in our Q&A Discussion board counts as class participation, but posting in Q&A Discussion board is not required. Your class participation will be assessed as follows.
 
 <center>
 <table class="table table-striped">
@@ -516,7 +516,7 @@ Here are some important dates:
 - **December 11:** Final Exam (12:30-2:30PM)
 
 ### Getting Help ###
-There are many resources available to get help.  First, you are allowed and encouraged to work together on homework.  However, each student is expected to turn in their own work. You are strongly encouraged to ask questions in our Discord discussion group, as I (and hopefully other members of the class) will post comments there for all to benefit from.  You are also encouraged to stop by during my office hours and you can always [email me](mailto:dana.ernst@nau.edu).  I am always happy to help you.  If my office hours don't work for you, then we can probably find another time to meet.  It is your responsibility to be aware of how well you understand the material.  Don't wait until it is too late if you need help.  *Ask questions*!
+There are many resources available to get help.  First, you are allowed and encouraged to work together on homework.  However, each student is expected to turn in their own work. You are strongly encouraged to ask questions in our Q&A Discussion board, as I (and hopefully other members of the class) will post comments there for all to benefit from.  You are also encouraged to stop by during my office hours and you can always [email me](mailto:dana.ernst@nau.edu).  I am always happy to help you.  If my office hours don't work for you, then we can probably find another time to meet.  It is your responsibility to be aware of how well you understand the material.  Don't wait until it is too late if you need help.  *Ask questions*!
 
 ### Changes to the Syllabus ###
 Any changes to this syllabus made during the term will be properly communicated to the class.
