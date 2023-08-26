@@ -27,9 +27,9 @@ layout: default
 
 <br />
 
-<div class="alert alert-info" role="alert">
+<!-- <div class="alert alert-info" role="alert">
 <i class="far fa-hand-peace"></i>&nbsp; This page is under construction!
-</div>
+</div> -->
 
 <div class="row">
   <div class="col-xs-12 col-sm-6">
