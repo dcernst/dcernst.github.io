@@ -29,6 +29,7 @@ title: Course Materials
 
 Our textbook for the semester is <i>Introduction to Discrete Mathematics</i>.  Early versions of the book were originally written by NAU retired mathematics professor Dr. John Hagood (usuing the title <i>MAT 226 Discrete Mathematics</i>).  Dr. Hagood was gracious enough to pass the source of the book along and has granted me permission to modify the content. Current iterations of the book are now my responsibility. The book is available as a freely-assessible PDF. Since I will be tweaking the book as we go, chapters will be released incrementally.
 
+- [Title Page and Front Matter](https://danaernst.com/teaching/mat226f23/TitlePage.pdf)
 - [Chapter 1: First Principles](https://danaernst.com/teaching/mat226f23/FirstPrinciples.pdf)
 - Chapter 2: Permutations (coming soon)
 
