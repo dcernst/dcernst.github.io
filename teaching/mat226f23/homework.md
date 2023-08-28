@@ -33,4 +33,4 @@ Reviewing material from previous courses and looking up definitions and theorems
 ## Assignments ##
 I reserve the right to modify an assignment if the need arises.  
 
-- **Homework 1:** Complete the problems found [here]({{site.baseurl}}/teaching/mat226f23/526HW1.pdf). (Due ???)
+- **Homework 1:** Complete the problems found [here]({{site.baseurl}}/teaching/mat226f23/226HW1.pdf). (Due ???)
