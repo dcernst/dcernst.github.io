@@ -24,8 +24,7 @@ My interests also include the [scholarship of teaching and learning](http://en.w
 You can find a recent version of my curriculum vitae [here]({{site.baseurl}}/scholarship/CV-Ernst.pdf).
 
 ## In Preparation
-  * D.C. Ernst, J. Slye. Using the $\Spin_{3\times 3}$ virtual manipulative to introduce group theory.
-  * B. Ba&#353;i&#263;, P. Ellis, D.C. Ernst, D. Popovi&#263;, N. Sieben. Morphisms of impartial combinatorial games.
+  * B. Ba&#353;i&#263;, P. Ellis, D.C. Ernst, D. Popovi&#263;, N. Sieben. Categories of rulesets and games.
   * F. Awik, H. Denoncourt, D.C. Ernst, and T. Rosenberg. The reversal poset of signed permutations.
   * F. Burkhart, H. Denoncourt, D.C. Ernst, and A. Stewart. Enumeration of signed permutations under the action of reversals.
   * J. Barnes, J. Breland, D.C. Ernst. Structural properties of braid graphs in simply-laced triangle-free Coxeter systems.
@@ -33,6 +32,7 @@ You can find a recent version of my curriculum vitae [here]({{site.baseurl}}/sch
   <!-- * J. Breland, Q. Cadman, D.C. Ernst, J. Niemi, J. Sullivan, and J. Wright. Structure of braid graphs for reduced words in simply-laced Coxeter systems. -->
 
 ## Submitted
+  * D.C. Ernst, J. Slye. Using the $\Spin_{3\times 3}$ virtual manipulative to introduce group theory. 
   * B.J. Benesh, D.C. Ernst, M. Meyer, S.K. Salmon, and N. Sieben. Impartial geodetic building games on graphs. [[arXiv:2307.07095](https://arxiv.org/abs/2307.07095)]
   * S. Laursen, D.C. Ernst, T.J. Hitchman, M.G. Jones, S. Yoshinobu, D. Ensley. Turtles all the way down: The infinite progression of professional development.
   * F. Awik, J. Breland, Q.Cadman, and D.C. Ernst. Braid graphs in simply-laced triangle-free Coxeter systems are partial cubes. [[arXiv:2104.12318](https://arxiv.org/abs/2104.12318)]
