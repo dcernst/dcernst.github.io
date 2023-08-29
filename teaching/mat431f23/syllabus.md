@@ -57,10 +57,10 @@ layout: default
   </div>
 </div>
 
-### Prerequisites ###
+### Prerequisites
 MAT 320 with a grade of C or better.
 
-### Learning Outcomes ###
+### Learning Outcomes
 Upon completion of the course, students will be able to:
 1. Express an understanding of and apply basic properties and concepts of elementary analysis.
 2. Find limits, accumulation points, derivatives, and other objects and features of analysis.
@@ -88,7 +88,7 @@ We will take an axiomatic approach (definition, theorem, and proof) to the subje
 <footer><a href="https://en.wikipedia.org/wiki/Henri_Poincaré">Henri Poincaré</a></footer>
 </blockquote>
 
-### Goals ###
+### Goals
 Aside from the obvious goal of wanting you to learn how to write rigorous mathematical proofs, one of my principle ambitions is to make you independent of me.  Nothing else that I teach you will be half so valuable or powerful as the ability to reach conclusions by reasoning logically from first principles and being able to justify those conclusions in clear, persuasive language (either oral or written).   Furthermore, I want you to experience the unmistakable feeling that comes when one really understands something thoroughly.  Much "classroom knowledge" is fairly superficial, and students often find it hard to judge their own level of understanding. For many of us, the only way we know whether we are "getting it" comes from the grade we make on an exam.  I want you to become less reliant on such externals.  When you can distinguish between really knowing something and merely knowing about something, you will be on your way to becoming an independent learner.  Lastly, it is my sincere hope that all of us (myself included) will improve our oral and written communications skills.
 
 <blockquote>
@@ -96,7 +96,7 @@ Aside from the obvious goal of wanting you to learn how to write rigorous mathem
 <footer><a href="https://en.wikipedia.org/wiki/Mahatma_Gandhi">Mahatma Gandhi</a></footer>
 </blockquote>
 
-### An Inquiry-Based Approach ###
+### An Inquiry-Based Approach
 This is not a lecture-oriented class or one in which mimicking prefabricated examples will lead you to success. You will be expected to work actively to construct your own understanding of the topics at hand with the readily available help of me and your classmates. Many of the concepts you learn and problems you work on will be new to you and ask you to stretch your thinking. You will experience *frustration* and *failure* before you experience *understanding*. This is part of the normal learning process. **If you are doing things well, you should be confused at different points in the semester. The material is too rich for a human being to completely understand it immediately.** Your viability as a professional in the modern workforce depends on your ability to embrace this learning process and make it work for you.
 
 In order to promote a more active participation in your learning, we will incorporate ideas from an educational philosophy called [inquiry-based learning](http://danaernst.com/resources/inquiry-based-learning/) (IBL).  Loosely speaking, IBL is a student-centered method of teaching mathematics that engages students in sense-making activities.  Students are given tasks requiring them to solve problems, conjecture, experiment, explore, create, and communicate.  Rather than showing facts or a clear, smooth path to a solution, the instructor guides and mentors students via well-crafted problems through an adventure in mathematical discovery.  Effective IBL courses encourage deep engagement in rich mathematical activities and provide opportunities to collaborate with peers (either through class presentations or group-oriented work). If you want to learn more about IBL, read my [Inquiry-Based Learning Resource page](http://danaernst.com/resources/inquiry-based-learning/).
@@ -132,7 +132,7 @@ As the semester progresses, it should become clear to you what the expectations 
 <footer><a href="https://en.wikipedia.org/wiki/Benjamin_Franklin">Benjamin Franklin</a></footer>
 </blockquote>
 
-### Course Structure ###
+### Course Structure
 Class meetings will consist of discussion of problems, student-led presentations, and group work focused on problems selected by the instructor. A typical class session may include:
 
 - Informal student presentations of progress on previously assigned homework problems;
@@ -160,12 +160,12 @@ As a student in this class, you have the right:
 <footer><a href="https://en.wikipedia.org/wiki/Maya_Angelou">Maya Angelou</a></footer>
 </blockquote>
 
-### Commitment to the Learning Community ###
+### Commitment to the Learning Community
 In our classroom, diversity and individual differences are respected, appreciated, and recognized as a source of strength. Students in this class are encouraged and expected to speak up and participate during class and to carefully and respectfully listen to each other. Every member of this class *must* show respect for every other member of this class. Any attitudes or actions that are destructive to the sense of community that we strive to create are not welcome and will not be tolerated. In summary: Be good to each other. I would appreciate private responses to the following question: Are there aspects of your identity that you would like me to attend to when forming groups, and if so, how?
 
 Students are also expected to minimize distracting behaviors.  In particular, every attempt should be made to arrive to class on time.  If you must arrive late or leave early, please do not disrupt class. Please turn off the ringer on your cell phone.  I do not have a strict policy on the use of laptops, tablets, and cell phones.  You are expected to be paying attention and engaging in class discussions.  If your cell phone, etc. is interfering with your ability (or that of another student) to do this, then put it away, or I will ask you to put it away.
 
-### Textbook ###
+### Textbook
 We will not be using a traditional textbook this semester, but rather a problem sequence adopted for an [inquiry-based learning](http://danaernst.com/resources/inquiry-based-learning/) (IBL) approach to real analysis. The problem sequence that we are using is an adaptation of the analysis notes by [Karl-Dieter Crisman](http://www.math-cs.gordon.edu/~kcrisman/), which are a modified version of notes by W. Ted Mahavier. Both authors have been gracious enough to grant me access to the source of these notes, so that we can modify and tweak for our needs if necessary. The problem sequence is available [here]({{site.baseurl}}/teaching/mat431f23/materials/).
 
 I will not be covering every detail of the notes and the only way to achieve a sufficient understanding of the material is to be digesting the reading in a meaningful way.  You should be seeking clarification about the content of the notes whenever necessary by asking questions.  Here's one of my favorite quotes about reading mathematics.
@@ -175,7 +175,7 @@ I will not be covering every detail of the notes and the only way to achieve a s
 <footer><a href="http://en.wikipedia.org/wiki/Paul_Halmos">Paul Halmos</a></footer>
 </blockquote>
 
-### Rules of the Game ###
+### Rules of the Game
 Reviewing material from previous courses and looking up definitions and theorems you may have forgotten is fair game. Since mathematical reasoning, problem solving, and critical thinking skills are part of the learning outcomes of this course, all assignments should be prepared by the student. Developing strong competencies in this area will prepare you to be a lifelong learner and give you an edge in a competitive workplace. When it comes to completing assignments for this course, unless explicitly told otherwise, you should *not* look to resources outside the context of this course for help.  That is, you should not be consulting the web (e.g., Chegg and Course Hero), generative artificial intelligence tools (e.g., ChatGPT), mathematics assistive technologies (e.g., Wolfram Alpha and Photomath), other texts, other faculty, or students outside of our course in an attempt to find solutions to the problems you are assigned.  On the other hand, you may use each other, the textbook, me, and your own intuition. You are allowed and encouraged to work together on homework. Yet, each student is expected to turn in their own work.  
 
 In this course, we may use generative AI tools (such as ChatGPT) or AI mathematics assistive technologies (such as Wolfram Alpha) to examine the ways in which these kinds of tools may inform our exploration of mathematics content. You will be informed as to when and how these tools will be used, along with guidance for attribution if/as needed. Any use of generative AI tools outside of these parameters constitutes plagiarism and a violation of the University’s Academic Integrity Policy.  Please read NAU's [Academic Integrity Policy](https://www5.nau.edu/policies/Client/Details/828?whoIsLooking=Students&pertainsTo=All&sortDirection=Ascending&page=1).
@@ -198,7 +198,7 @@ The following are examples (not an exhaustive list) of behaviors that do not con
 - Responding to questions on our course forum in the form of feedback or guidance
 - Asking the instructor for assistance or a hint
 
-### Homework ###
+### Homework
 You are allowed and encouraged to work together on homework.  However, each student is expected to turn in their own work.  In general, late homework will *not* be accepted.  However, you are allowed to turn in up to **three late homework assignments**. Unless you have made arrangements in advance with me, homework turned in after class will be considered late. When doing your homework, I encourage you to consult the [Elements of Style for Proofs]({{site.baseurl}}/teaching/ElementsOfStyle.pdf). Your overall homework grade will be worth 20% of your final grade.
 
 On each homework assignment, please write (i) your name, (ii) name of course, and (iii) Homework number.  You can find the list of assignments on the [homework page]({{site.baseurl}}/teaching/mat431f23/homework/).  I reserve the right to modify the homework assignments as I see necessary.
@@ -207,7 +207,7 @@ Homework will be assigned almost every class meeting, and students are expected 
 
 <center>
 <table class="table table-striped">
-<caption style="text-align: center;">Rubric for Assessing Problems on Daily Homework</caption>
+<caption style="text-align: center;">Rubric for Assessing Problems on Homework</caption>
 	<thead>
 	<tr>
 		<th style="text-align: center;">Grade</th>
@@ -237,6 +237,7 @@ Homework will be assigned almost every class meeting, and students are expected 
 	</tr>
 	</tbody>
 </table>
+</center>
 
 On the day that a homework assignment is due, the majority of the class period will be devoted to students presenting some subset (maybe all) of the proofs/solutions that are due that day.  You are allowed (in fact, encouraged!) to modify your written work in light of presentations made in class; however, **you are required to use a different color than what you used to complete your homework**.  In the past, I provided colored pens in class, but due to the pandemic, please provide your own colored pen. This will allow me to differentiate the work done in class versus the work you completed before class.  The grade you receive on an assignment will be determined by the work you completed prior to class.  I will provide more guidance with respect to this during the first couple weeks of the semester. Homework will be assessed using the following rubric.
 
@@ -270,7 +271,7 @@ On the day that a homework assignment is due, the majority of the class period w
 </table>
 </center>
 
-### Presentations and Participation ###
+### Presentations and Participation
 
 #### General Comments
 The problems chosen for presentations will come from the homework assignments. Though the atmosphere in this class should be informal and friendly, what we do in the class is serious business. In particular, the presentations made by students are to be taken seriously since they spearhead the work of the class. Here are some of my expectations for the presenter:
@@ -438,7 +439,7 @@ Only I will remain.</p>
 <footer class="blockquote-footer"><a href="https://en.wikipedia.org/wiki/Bene_Gesserit#Litany_against_fear">Bene Gesserit litany against fear</a> from Frank Herbert's <a href="https://en.wikipedia.org/wiki/Frank_Herbert%27s_Dune">Dune</a></footer>
 </blockquote>
 
-### Exams ###
+### Exams
 There will be two midterm exams and a cumulative final exam. Exam 1 and Exam 2 are *tentatively* scheduled for **Friday, October 13** (week 7) and **Friday, November 17** (week 12), respectively.  Each of Exam 1 and Exam 2 will be worth 20% of your overall grade. The final exam will be on **Monday, December 11** at 12:30-2:30PM and is worth 20% of your overall grade. Each of the exams are likely to also include a take-home portion, which you will have a few days to complete.  Make-up exams will only be given under extreme circumstances, as judged by me. In general, it will be best to communicate conflicts ahead of time.
 
 <blockquote>
@@ -446,13 +447,13 @@ There will be two midterm exams and a cumulative final exam. Exam 1 and Exam 2 a
 <footer><a href="https://en.wikipedia.org/wiki/Ernest_Hemingway">Ernest Hemingway</a></footer>
 </blockquote>
 
-### Attendance ###
+### Attendance
 Regular attendance is expected and is vital to success in this course, but you will not explicitly be graded on attendance.  Yet, repeated absences may impact your participation grade (see above).  Students can find more information about NAU's attendance policy on the [Academic Policies](https://in.nau.edu/dean-of-students/academic-policies/) page.
 
 ### Extra Credit
 The only thing I will award extra credit for is finding typos on course materials (e.g., textbook, exams, syllabus, webpage).  This includes broken  links on the webpage.  However, it does not include the placement of commas and such.  If you find a typo, I will add one percentage point to your next exam.  You can earn at most two percentage points per exam. They're is a typo right here.
 
-### Basis for Evaluation ###
+### Basis for Evaluation
 In summary, your final grade will be determined by your scores in the following categories.
 
 <center>
@@ -500,12 +501,12 @@ In summary, your final grade will be determined by your scores in the following 
 <footer><a href="https://en.wikipedia.org/wiki/Theodore_Roosevelt">Theodore Roosevelt</a>, <a href="https://en.wikipedia.org/wiki/Citizenship_in_a_Republic">Citizenship in a Republic</a></footer>
 </blockquote>
 
-### Department and University Policies ###
+### Department and University Policies
 You are responsible for knowing and following the [Department of Mathematics and Statistics Policies]({{ site.baseurl }}/teaching/DepartmentPoliciesFall2023.pdf) (PDF) and other University policies listed [here](https://nau.edu/wp-content/uploads/sites/26/Syllabus-Policy-Statements-Final-Aug-4-2022-1-2.pdf) (PDF).  More policies can be found in other university documents, especially the [NAU Student Handbook](https://in.nau.edu/dean-of-students/Student-Handbook/) (see appendices).
 
 As per Department Policy, cell phones, MP3 players and portable electronic communication devices, including but not limited to smart phones, cameras and recording devices, must be turned off and inaccessible during in-class tests. Any violation of this policy will be treated as academic dishonesty.
 
-### Important Dates ###
+### Important Dates
 Here are some important dates:
 
 - **September 4:** Labor Day (no classes)
@@ -513,10 +514,10 @@ Here are some important dates:
 - **November 23-24:** Thanksgiving (no classes)
 - **December 11:** Final Exam (12:30-2:30PM)
 
-### Getting Help ###
+### Getting Help
 There are many resources available to get help.  First, you are allowed and encouraged to work together on homework.  However, each student is expected to turn in their own work. You are strongly encouraged to ask questions in our Q&A Discussion board, as I (and hopefully other members of the class) will post comments there for all to benefit from.  You are also encouraged to stop by during my office hours and you can always [email me](mailto:dana.ernst@nau.edu).  I am always happy to help you.  If my office hours don't work for you, then we can probably find another time to meet.  It is your responsibility to be aware of how well you understand the material.  Don't wait until it is too late if you need help.  *Ask questions*!
 
-### Changes to the Syllabus ###
+### Changes to the Syllabus
 Any changes to this syllabus made during the term will be properly communicated to the class.
 
 <blockquote>
