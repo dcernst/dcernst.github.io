@@ -229,15 +229,14 @@ Homework will be assigned almost every class meeting, and students are expected 
 	</tr>
 	<tr>
 		<td style="text-align: center;">1</td>
-		<td>I don't understand this, but I see that you have worked on it; come see me!</td>
+		<td>I worked on the problem, but made minimal progress.</td>
 	</tr>
 	<tr>
 		<td style="text-align: center;">0</td>
-		<td>I believe that you have not worked on this problem enough or you didn't submit any work.</td>
+		<td>I did not attempt this problem.</td>
 	</tr>
 	</tbody>
 </table>
-</center>
 
 On the day that a homework assignment is due, the majority of the class period will be devoted to students presenting some subset (maybe all) of the proofs/solutions that are due that day.  You are allowed (in fact, encouraged!) to modify your written work in light of presentations made in class; however, **you are required to use a different color than what you used to complete your homework**.  In the past, I provided colored pens in class, but due to the pandemic, please provide your own colored pen. This will allow me to differentiate the work done in class versus the work you completed before class.  The grade you receive on an assignment will be determined by the work you completed prior to class.  I will provide more guidance with respect to this during the first couple weeks of the semester. Homework will be assessed using the following rubric.
 

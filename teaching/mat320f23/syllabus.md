@@ -239,11 +239,11 @@ Homework will be assigned almost every class meeting, and students are expected 
 	</tr>
 	<tr>
 		<td style="text-align: center;">1</td>
-		<td>I don't understand this, but I see that you have worked on it; come see me!</td>
+		<td>I worked on the problem, but made minimal progress.</td>
 	</tr>
 	<tr>
 		<td style="text-align: center;">0</td>
-		<td>I believe that you have not worked on this problem enough or you didn't submit any work.</td>
+		<td>I did not attempt this problem.</td>
 	</tr>
 	</tbody>
 </table>
