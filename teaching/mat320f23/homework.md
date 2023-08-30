@@ -34,8 +34,8 @@ Reviewing material from previous courses and looking up definitions and theorems
 The following assignments are due at the beginning of the indicated class meeting. However, most assignments will be collected at the end of the class meeting.  I reserve the right to modify an assignment if the need arises.  These exercises will form the basis of the student-led presentations.  During class, you are encouraged to annotate your homework, but **you are required to use a different color than what you used to complete your homework**.
 
 - **Daily Homework 1:** Read the [syllabus]({{site.baseurl}}/teaching/mat320f23/syllabus/) and write down 5 important items.  *Note:*  All of the exam dates only count as a single item.  Turn in at beginning of class or email me a copy of your write up prior to class. (Due Wednesday, August 30)
-- **Daily Homework 2:** Read the *Preface* and *Chapter 1: Introduction* in the textbook. In addition, complete 2.2-2.4 in *Chapter 2: Mathematics and Logic* and digest the surrounding text along the way. (Due Wednesday, August 30)
-- **Daily Homework 3:** Complete 2.6-2.9 in Section 2.1 of *Chapter 2: Mathematics and Logic* and digest the surrounding text along the way. (Due Friday, September 1)
+- **Daily Homework 2:** Read the *Preface* and *Chapter 1: Introduction* in the textbook. In addition, complete 2.2-2.4 in Section 2.1 of *Chapter 2: Mathematics and Logic* and digest the surrounding text along the way. (Due Wednesday, August 30)
+- **Daily Homework 3:** Complete 2.6 and 2.7 in Section 2.1 of *Chapter 2: Mathematics and Logic* and digest the surrounding text along the way. (Due Friday, September 1)
 
 <!-- - **Daily Homework 4:** Complete 2.6 and 2.7 in [Chapter 2: Mathematics and Logic]({{site.baseurl}}/teaching/mat320f21/MathAndLogic.pdf) and digest the surrounding text along the way. (Due Friday, August 27)
 - **Daily Homework 5:** Complete 2.8-2.11 in [Chapter 2: Mathematics and Logic]({{site.baseurl}}/teaching/mat320f21/MathAndLogic.pdf) and digest the surrounding text along the way. (Due Monday, August 30)
