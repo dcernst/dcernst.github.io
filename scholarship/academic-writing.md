@@ -34,7 +34,7 @@ You can find a recent version of my curriculum vitae [here]({{site.baseurl}}/sch
 ## Submitted
   * D.C. Ernst, J. Slye. Using the $\Spin_{3\times 3}$ virtual manipulative to introduce group theory. 
   * B.J. Benesh, D.C. Ernst, M. Meyer, S.K. Salmon, and N. Sieben. Impartial geodetic building games on graphs. [[arXiv:2307.07095](https://arxiv.org/abs/2307.07095)]
-  * S. Laursen, D.C. Ernst, T.J. Hitchman, M.G. Jones, S. Yoshinobu. Turtles all the way down: The infinite progression of professional development.
+  * T.J. Hitchman, S. Yoshinobu, M. Jones, D.C. Ernst, and S. Laursen. Turtles all the way down: The infinite progression of professional development.
   * F. Awik, J. Breland, Q.Cadman, and D.C. Ernst. Braid graphs in simply-laced triangle-free Coxeter systems are partial cubes. [[arXiv:2104.12318](https://arxiv.org/abs/2104.12318)]
 
 ## Journal Articles
