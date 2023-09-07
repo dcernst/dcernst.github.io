@@ -33,3 +33,4 @@ In general, late homework will not be accepted. However, you are allowed to turn
 I reserve the right to modify an assignment if the need arises.  
 
 - **Homework 1:** Complete the problems found [here]({{site.baseurl}}/teaching/mat226f23/226HW1.pdf). (Due Friday, September 8)
+- **Homework 2:** Complete the problems found [here]({{site.baseurl}}/teaching/mat226f23/226HW2.pdf). (Due Friday, September 15)
