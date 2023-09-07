@@ -37,7 +37,8 @@ The following assignments are due at the beginning of the indicated class meetin
 - **Homework 2:** Read the *Preface* and *Chapter 1: Introduction* of our textbook. The purpose of *Chapter 2: Preliminaries* is to summarize most of the content from MAT 320 that we need to be familiar prior to starting something new. Read through this chapter and complete any 5 problems in Section 2.1, 1 problem in Section 2.2, and 5 problems in Section 2.3. I encourage you to try ones you aren't quite certain how to do in order to maximize your review. In addition, make a list of a few problems you are not sure how to complete. (Due Wednesday, August 30)
 - **Homework 3:** Complete Problems 3.2-3.5 from *Chapter 3: The Real Numbers*. (Due Friday, September 1)
 - **Homework 4:** Complete Problems 3.8 (any 4 parts), 3.9, 3.13, 3.14 in *Chapter 3: The Real Numbers*. (Due Wednesday, September 6)
-- **Homework 5:** Complete Problems 3.15, 3.16, one of part (a) or (b) of 3.17 in *Chapter 3: The Real Numbers*. (Due Friday, September 8)
+- **Homework 5:** Complete Problems 3.15 and 3.16 in *Chapter 3: The Real Numbers*. (Due Friday, September 8)
+- **Homework 6:** Complete Problems 3.17 (do one of (a) or (b)), 3.18-3.20 in *Chapter 3: The Real Numbers*. (Due Friday, September 8)
 
 <!-- 
 - **Homework 5:** Complete Problems 3.8, 3.9, 3.13, 3.14 from [Chapter 3: The Real Numbers]({{site.baseurl}}/teaching/mat431f23/RealNumbers.pdf). (Due Monday, August 30)
