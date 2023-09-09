@@ -24,13 +24,14 @@ My interests also include the [scholarship of teaching and learning](http://en.w
 You can find a recent version of my curriculum vitae [here]({{site.baseurl}}/scholarship/CV-Ernst.pdf).
 
 ## In Preparation
+  * D.C. Ernst and J. Hagood. *Introduction to Discrete Mathematics*. (Book)
   * A. Claesson, G. Cerbai, D.C. Ernst, and H. Golab. Pattern avoidance in Cayley permutations.
+  * B.J. Benesh, D.C. Ernst, M. Meyer, S.K. Salmon, and N. Sieben. Impartial geodetic destroying games on graphs.
   * B. Ba&#353;i&#263;, P. Ellis, D.C. Ernst, D. Popovi&#263;, N. Sieben. Categories of rulesets and games.
   * J. Barnes, J. Breland, D.C. Ernst. Structural properties of braid graphs in simply-laced triangle-free Coxeter systems.
   * F. Awik, F. Burkhart, H. Denoncourt, D.C. Ernst, T. Rosenberg, and A. Stewart. Enumerating signed permutations by reversal distance.
 
-  <!-- * J. Breland, Q. Cadman, D.C. Ernst, J. Niemi, J. Sullivan, and J. Wright. Structure of braid graphs for reduced words in simply-laced Coxeter systems. 
-  * F. Burkhart, H. Denoncourt, D.C. Ernst, and A. Stewart. Enumerating signed permutations by reversal distance.-->
+<!-- * J. Breland, Q. Cadman, D.C. Ernst, J. Niemi, J. Sullivan, and J. Wright. Structure of braid graphs for reduced words in simply-laced Coxeter systems. * F. Burkhart, H. Denoncourt, D.C. Ernst, and A. Stewart. Enumerating signed permutations by reversal distance.-->
 
 ## Submitted
   * D.C. Ernst, J. Slye. Using the $\Spin_{3\times 3}$ virtual manipulative to introduce group theory. 
@@ -75,6 +76,7 @@ Below is a list of textbooks that I have written to be used with an [inquiry-bas
   * B. Beaudrie, B. Boschmans, and D.C. Ernst. First Semester Experiences in Implementing a Mathematics Emporium Model. In *Proceedings of Society for Information Technology & Teacher Education International Conference*, R. McBride & M. Searson (Eds.), 2013. Chesapeake, VA: AACE. [[EdITLib](http://www.editlib.org/p/48098)]
 
 ## Other
+  * D.C. Ernst. *Instructor Guide: An Introduction to Proof via Inquiry-Based Learning*. [[PDF](http://danaernst.com/IBL-IntroToProof/InstructorGuide.pdf)]
   * D. Daly et al. AIBL Handbook for Online Professional Development: Lessons Learned from PRODUCT Workshops. Ethnography & Evaluation Research, & the Academy of Inquiry Based Learning. Boulder, CO, and San Luis Obispo, CA: University of Colorado Boulder, Ethnography & Evaluation Research; and Academy of Inquiry Based Learning. [[ePrint](https://tinyurl.com/AIBLHandbook)]
 
 ## Online Columns and Blog Posts
