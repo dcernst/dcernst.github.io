@@ -28,7 +28,7 @@ You can find a recent version of my curriculum vitae [here]({{site.baseurl}}/sch
   * A. Claesson, G. Cerbai, D.C. Ernst, and H. Golab. Pattern avoidance in Cayley permutations.
   * B.J. Benesh, D.C. Ernst, M. Meyer, S.K. Salmon, and N. Sieben. Impartial geodetic destroying games on graphs.
   * B. Ba&#353;i&#263;, P. Ellis, D.C. Ernst, D. Popovi&#263;, N. Sieben. Categories of rulesets and games.
-  * J. Barnes, J. Breland, D.C. Ernst. Structural properties of braid graphs in simply-laced triangle-free Coxeter systems.
+  * J. Barnes, J. Breland, D.C. Ernst, R. Perry. Structural properties of braid graphs in simply-laced triangle-free Coxeter systems.
   * F. Awik, F. Burkhart, H. Denoncourt, D.C. Ernst, T. Rosenberg, and A. Stewart. Enumerating signed permutations by reversal distance.
 
 <!-- * J. Breland, Q. Cadman, D.C. Ernst, J. Niemi, J. Sullivan, and J. Wright. Structure of braid graphs for reduced words in simply-laced Coxeter systems. * F. Burkhart, H. Denoncourt, D.C. Ernst, and A. Stewart. Enumerating signed permutations by reversal distance.-->
