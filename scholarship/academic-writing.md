@@ -25,7 +25,7 @@ You can find a recent version of my curriculum vitae [here]({{site.baseurl}}/sch
 
 ## In Preparation
   * D.C. Ernst and J. Hagood. *Introduction to Discrete Mathematics*. (Book)
-  * A. Claesson, G. Cerbai, D.C. Ernst, and H. Golab. Pattern avoidance in Cayley permutations.
+  * G. Cerbai, A. Claesson, D.C. Ernst, and H. Golab. Pattern avoidance in Cayley permutations.
   * B.J. Benesh, D.C. Ernst, M. Meyer, S.K. Salmon, and N. Sieben. Impartial geodetic destroying games on graphs.
   * B. Ba&#353;i&#263;, P. Ellis, D.C. Ernst, D. Popovi&#263;, N. Sieben. Categories of rulesets and games.
   * J. Barnes, J. Breland, D.C. Ernst, R. Perry. Structural properties of braid graphs in simply-laced triangle-free Coxeter systems.
