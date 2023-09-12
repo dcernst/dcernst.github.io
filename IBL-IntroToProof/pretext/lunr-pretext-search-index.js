@@ -340,7 +340,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "2.2",
   "title": "Introduction to Logic",
-  "body": " Introduction to Logic  In the previous section, we jumped in head first and attempted to prove several theorems in the context of number theory without a formal understanding of what it was we were doing. Likely, many issues bubbled to the surface. What is a proof? What sorts of statements require proof? What should a proof entail? How should a proof be structured? Let's take a step back and do a more careful examination of what it is we are actually doing. In the the next two sections, we will introduce the basics of propositional logic also referred to as propositional calculus or sometimes zeroth-order logic .    A proposition is a sentence that is either true or false but never both. The truth value (or logical value ) of a proposition refers to its attribute of being true or false.    For example, the sentence All dogs have four legs is a false proposition. However, the perfectly good sentence is not a proposition all by itself since we do not actually know what is.    Determine whether each of the following is a proposition. Explain your reasoning.  All cars are red.  Every person whose name begins with J has the name Joe.  . There exists a real number such that .  For all real numbers , .  is an irrational number.  is prime.  Is it raining?  It will rain tomorrow.  Led Zeppelin is the best band of all time.      The last two sentences in the previous problem may stir debate. It is not so important that we come to consensus as to whether either of these two sentences is actually a proposition or not. The good news is that in mathematics we do not encounter statements whose truth value is dependent on either the future or opinion.  Given two propositions, we can form more complicated propositions using logical connectives .    Let and be propositions.  The proposition not is true if is false; expressed symbolically as and called the negation of .  The proposition and is true if both and are true; expressed symbolically as and called the conjunction of and .  The proposition or is true if at least one of or is true; expressed symbolically as and called the disjunction of and .  The proposition If , then is true if both and are true, or is false; expressed symbolically as and called a conditional proposition (or implication ). In this case, is called the hypothesis and is called the conclusion . Note that may also be read as implies , only if , if , or whenever .  The proposition if and only if (alternatively, is necessary and sufficient for ) is true if both and have the same truth value; expressed symbolically as and called a biconditional proposition . If is true, we say that and are logically equivalent .    Each of the boxed propositions is called a compound proposition, where and are referred to as the components of the compound proposition.    It is worth pointing out that definitions in mathematics are typically written in the form if (or provided that or whenever ), where contains the term or phrase we are defining and provides the meaning of the concept we are defining. In the case of definitions, we should always interpret if as describing precisely the collection of objects (e.g., numbers, sets, functions, etc.) that should be identified with the term or phrase we are defining. That is, if an object does not meet the condition specified in , then it is never referred to by the term or phrase we are defining. Some authors will write definitions in the form if and only if . However, a definition is not at all the same kind of statement as a usual biconditional since one of the two sides is undefined until the definition is made. A definition is really a statement that the newly defined term or phrase is synonymous with a previously defined concept.  We can form complicated compound propositions with several components by utilizing logical connectives.    Let represent 6 is an even integer and represent 4 divides 6. Express each of the following compound propositions in an ordinary English sentence and then determine its truth value.                                           A truth table for a compound proposition is a table that illustrates all possible combinations of truth values for the components of the compound proposition together with the resulting truth value for each combination.      If and are propositions, then the truth table for the compound proposition is given by the following.   Truth table for         T  T  T    T  F  F    F  T  F    F  F  F     Notice that we have columns for each of and . The rows for these two columns correspond to all possible combinations of truth values for and . The third column yields the truth value of given the possible truth values for and .    Each component of a compound proposition has two possible truth values, namely true or false. Thus, if a compound proposition is built from component propositions, then the truth table will require rows.    Create a truth table for each of the following compound propositions. You should add additional columns to your tables as needed to assist you with intermediate steps. For example, you might need four columns for the third and fourth compound propositions below.                            A coach promises her players, If we win tonight, then I will buy you pizza tomorrow. Determine the cases in which the players can rightly claim to have been lied to. If the team lost the game and the coach decided to buy them pizza anyway, was she lying?      Use Definition  to construct a truth table for . Compare your truth table with Problem . The combination you should pay particular attention to is when the hypothesis is false while the conclusion is true.    In accordance with Definition  , a conditional proposition is only false when the hypothesis is true and the conclusion is false. Perhaps you are bothered by the fact that is true when is false no matter what the truth value of is. The thing to keep in mind is that the truth value of relies on a very specific definition and may not always agree with the colloquial use of If , then statements that we encounter in everyday language. For example, if someone says, If you break the rules, then you will be punished , the speaker likely intends the statement to be interpreted as ``You will be punished if and only if you break the rules.\" In logic and mathematics, we aim to remove such ambiguity by explicitly saying exactly what we mean. For our purposes, we should view a conditional proposition as a contract or obligation. If the hypothesis is false and the conclusion is true, the contract is not violated. On the other hand, if the hypothesis is true and the conclusion is false, then the contract is broken.  We can often prove facts concerning logical statements using truth tables. Recall that two propositions and (both of which might be complicated compound propositions) are logically equivalent if is true (see Definition  ). This happens when and have the same truth value. We can verify whether and have the same truth value by constructing a truth table that includes columns for each of the components of and , listing all possible combinations of their truth values, together with columns for and that lists their resulting truth values. If the truth values in the columns for and agree, then and are logically equivalent, and otherwise they are not logically equivalent. When constructing truth tables to verify whether and are logically equivalent, you should add any necessary intermediate columns to aid in your calculations . Use truth tables when attempting to justify the next few problems.    If is a proposition, then is logically equivalent to .    The next theorem, referred to as De Morgan's Law , provides a method for negating a compound proposition involving a conjunction.   De Morgan's Law   If and are propositions, then is logically equivalent to .     De Morgan's Law   Let and be propositions. Conjecture a statement similar to Theorem for the proposition and then prove it. This is also called De Morgan's Law.    We will make use of both versions De Morgan's Law on on a regular basis. Sometimes conjunctions and disjunctions are buried in a mathematical statement, which makes negating statements tricky business. Keep this in mind when approaching the next problem.    Let be your favorite real number. Negate each of the following statements. Note that the statement in Part (b) involves a conjunction.    or .     .         If and are propositions, then is logically equivalent to .      If , , and are propositions, then is logically equivalent to .    We already introduced the following notion in the discussion following Theorem     If and are propositions, then the converse of is .      Provide an example of a true conditional proposition whose converse is false.      If and are propositions, then the inverse of is .      Provide an example of a true conditional proposition whose inverse is false.    Based on Problems and , we can conclude that the converse and inverse of a conditional proposition do not necessarily have the same truth value as the original statement. Moreover, the converse and inverse of a conditional proposition do not necessarily have the same truth value as each other.    If possible, provide an example of a conditional proposition whose converse is true but whose inverse is false. If this is not possible, explain why.    What if we swap the roles of the hypothesis and conclusion of a conditional proposition and negate each?    If and are propositions, then the contrapositive of is .      Let and represent the statements from Problem . Express each of the following in an ordinary English sentence.   The converse of .    The contrapositive of .         Find the converse and the contrapositive of the following statement: ``If Dana lives in Flagstaff, then Dana lives in Arizona.\"    Use a truth table to prove the following theorem.    If and are propositions, then is logically equivalent to its contrapositive.    So far we have discussed how to negate propositions of the form , , and for propositions and . However, we have yet to discuss how to negate propositions of the form . Prove the following result with a truth table.    If and are propositions, then the implication is logically equivalent to the disjunction .    The next result follows quickly from Theorem together with De Morgan's Law. You can also verify this result using a truth table.    If and are propositions, then is logically equivalent to .      Let and be the propositions is an irrational number and Every rectangle is a trapezoid, respectively.   Express as an English sentence involving the disjunction or.     Express as an English sentence involving the conjunction and.          It turns out that the proposition If , then is false. Write its negation as a conjunction.    Recall that a proposition is exclusively either true or false it can never be both.    A compound proposition that is always false is called a contradiction. A compound proposition that is always true is called a tautology.      If is a proposition, then the proposition is a contradiction.      Provide an example of a tautology using arbitrary propositions and any of the logical connectives , , and . Prove that your example is in fact a tautology.      I didn't want to just know names of things. I remember really wanting to know how it all worked.  Elizabeth Blackburn, biologist   "
+  "body": " Introduction to Logic  In the previous section, we jumped in head first and attempted to prove several theorems in the context of number theory without a formal understanding of what it was we were doing. Likely, many issues bubbled to the surface. What is a proof? What sorts of statements require proof? What should a proof entail? How should a proof be structured? Let's take a step back and do a more careful examination of what it is we are actually doing. In the the next two sections, we will introduce the basics of propositional logic also referred to as propositional calculus or sometimes zeroth-order logic .    A proposition is a sentence that is either true or false but never both. The truth value (or logical value ) of a proposition refers to its attribute of being true or false.    For example, the sentence All dogs have four legs is a false proposition. However, the perfectly good sentence is not a proposition all by itself since we do not actually know what is.    Determine whether each of the following is a proposition. Explain your reasoning.  All cars are red.  Every person whose name begins with J has the name Joe.  . There exists a real number such that .  For all real numbers , .  is an irrational number.  is prime.  Is it raining?  It will rain tomorrow.  Led Zeppelin is the best band of all time.      The last two sentences in the previous problem may stir debate. It is not so important that we come to consensus as to whether either of these two sentences is actually a proposition or not. The good news is that in mathematics we do not encounter statements whose truth value is dependent on either the future or opinion.  Given two propositions, we can form more complicated propositions using logical connectives .    Let and be propositions.  The proposition not is true if is false; expressed symbolically as and called the negation of .  The proposition and is true if both and are true; expressed symbolically as and called the conjunction of and .  The proposition or is true if at least one of or is true; expressed symbolically as and called the disjunction of and .  The proposition If , then is true if both and are true, or is false; expressed symbolically as and called a conditional proposition (or implication ). In this case, is called the hypothesis and is called the conclusion . Note that may also be read as implies , only if , if , or whenever .  The proposition if and only if (alternatively, is necessary and sufficient for ) is true if both and have the same truth value; expressed symbolically as and called a biconditional proposition . If is true, we say that and are logically equivalent .    Each of the boxed propositions is called a compound proposition, where and are referred to as the components of the compound proposition.    It is worth pointing out that definitions in mathematics are typically written in the form if (or provided that or whenever ), where contains the term or phrase we are defining and provides the meaning of the concept we are defining. In the case of definitions, we should always interpret if as describing precisely the collection of objects (e.g., numbers, sets, functions, etc.) that should be identified with the term or phrase we are defining. That is, if an object does not meet the condition specified in , then it is never referred to by the term or phrase we are defining. Some authors will write definitions in the form if and only if . However, a definition is not at all the same kind of statement as a usual biconditional since one of the two sides is undefined until the definition is made. A definition is really a statement that the newly defined term or phrase is synonymous with a previously defined concept.  We can form complicated compound propositions with several components by utilizing logical connectives.    Let represent 6 is an even integer and represent 4 divides 6. Express each of the following compound propositions in an ordinary English sentence and then determine its truth value.                                           A truth table for a compound proposition is a table that illustrates all possible combinations of truth values for the components of the compound proposition together with the resulting truth value for each combination.      If and are propositions, then the truth table for the compound proposition is given by the following.          T  T  T    T  F  F    F  T  F    F  F  F     Notice that we have columns for each of and . The rows for these two columns correspond to all possible combinations of truth values for and . The third column yields the truth value of given the possible truth values for and .    Each component of a compound proposition has two possible truth values, namely true or false. Thus, if a compound proposition is built from component propositions, then the truth table will require rows.    Create a truth table for each of the following compound propositions. You should add additional columns to your tables as needed to assist you with intermediate steps. For example, you might need four columns for the third and fourth compound propositions below.            A coach promises her players, If we win tonight, then I will buy you pizza tomorrow. Determine the cases in which the players can rightly claim to have been lied to. If the team lost the game and the coach decided to buy them pizza anyway, was she lying?      Use Definition  to construct a truth table for . Compare your truth table with Problem . The combination you should pay particular attention to is when the hypothesis is false while the conclusion is true.    In accordance with Definition  , a conditional proposition is only false when the hypothesis is true and the conclusion is false. Perhaps you are bothered by the fact that is true when is false no matter what the truth value of is. The thing to keep in mind is that the truth value of relies on a very specific definition and may not always agree with the colloquial use of If , then statements that we encounter in everyday language. For example, if someone says, If you break the rules, then you will be punished , the speaker likely intends the statement to be interpreted as ``You will be punished if and only if you break the rules.\" In logic and mathematics, we aim to remove such ambiguity by explicitly saying exactly what we mean. For our purposes, we should view a conditional proposition as a contract or obligation. If the hypothesis is false and the conclusion is true, the contract is not violated. On the other hand, if the hypothesis is true and the conclusion is false, then the contract is broken.  We can often prove facts concerning logical statements using truth tables. Recall that two propositions and (both of which might be complicated compound propositions) are logically equivalent if is true (see Definition  ). This happens when and have the same truth value. We can verify whether and have the same truth value by constructing a truth table that includes columns for each of the components of and , listing all possible combinations of their truth values, together with columns for and that lists their resulting truth values. If the truth values in the columns for and agree, then and are logically equivalent, and otherwise they are not logically equivalent. When constructing truth tables to verify whether and are logically equivalent, you should add any necessary intermediate columns to aid in your calculations . Use truth tables when attempting to justify the next few problems.    If is a proposition, then is logically equivalent to .    The next theorem, referred to as De Morgan's Law , provides a method for negating a compound proposition involving a conjunction.   De Morgan's Law   If and are propositions, then is logically equivalent to .     De Morgan's Law   Let and be propositions. Conjecture a statement similar to Theorem for the proposition and then prove it. This is also called De Morgan's Law.    We will make use of both versions De Morgan's Law on on a regular basis. Sometimes conjunctions and disjunctions are buried in a mathematical statement, which makes negating statements tricky business. Keep this in mind when approaching the next problem.    Let be your favorite real number. Negate each of the following statements. Note that the statement in Part (b) involves a conjunction.    or .     .         If and are propositions, then is logically equivalent to .      If , , and are propositions, then is logically equivalent to .    We already introduced the following notion in the discussion following Theorem     If and are propositions, then the converse of is .      Provide an example of a true conditional proposition whose converse is false.      If and are propositions, then the inverse of is .      Provide an example of a true conditional proposition whose inverse is false.    Based on Problems and , we can conclude that the converse and inverse of a conditional proposition do not necessarily have the same truth value as the original statement. Moreover, the converse and inverse of a conditional proposition do not necessarily have the same truth value as each other.    If possible, provide an example of a conditional proposition whose converse is true but whose inverse is false. If this is not possible, explain why.    What if we swap the roles of the hypothesis and conclusion of a conditional proposition and negate each?    If and are propositions, then the contrapositive of is .      Let and represent the statements from Problem . Express each of the following in an ordinary English sentence.   The converse of .    The contrapositive of .         Find the converse and the contrapositive of the following statement: ``If Dana lives in Flagstaff, then Dana lives in Arizona.\"    Use a truth table to prove the following theorem.    If and are propositions, then is logically equivalent to its contrapositive.    So far we have discussed how to negate propositions of the form , , and for propositions and . However, we have yet to discuss how to negate propositions of the form . Prove the following result with a truth table.    If and are propositions, then the implication is logically equivalent to the disjunction .    The next result follows quickly from Theorem together with De Morgan's Law. You can also verify this result using a truth table.    If and are propositions, then is logically equivalent to .      Let and be the propositions is an irrational number and Every rectangle is a trapezoid, respectively.   Express as an English sentence involving the disjunction or.     Express as an English sentence involving the conjunction and.          It turns out that the proposition If , then is false. Write its negation as a conjunction.    Recall that a proposition is exclusively either true or false it can never be both.    A compound proposition that is always false is called a contradiction. A compound proposition that is always true is called a tautology.      If is a proposition, then the proposition is a contradiction.      Provide an example of a tautology using arbitrary propositions and any of the logical connectives , , and . Prove that your example is in fact a tautology.      I didn't want to just know names of things. I remember really wanting to know how it all worked.  Elizabeth Blackburn, biologist   "
 },
 {
   "id": "p-117",
@@ -412,23 +412,23 @@ var ptx_lunr_docs = [
   "type": "Example",
   "number": "2.21",
   "title": "",
-  "body": "  If and are propositions, then the truth table for the compound proposition is given by the following.   Truth table for         T  T  T    T  F  F    F  T  F    F  F  F     Notice that we have columns for each of and . The rows for these two columns correspond to all possible combinations of truth values for and . The third column yields the truth value of given the possible truth values for and .   "
+  "body": "  If and are propositions, then the truth table for the compound proposition is given by the following.          T  T  T    T  F  F    F  T  F    F  F  F     Notice that we have columns for each of and . The rows for these two columns correspond to all possible combinations of truth values for and . The third column yields the truth value of given the possible truth values for and .   "
 },
 {
-  "id": "problem-7",
+  "id": "prob_truth_tables",
   "level": "2",
-  "url": "sec_Intro_to_Logic.html#problem-7",
+  "url": "sec_Intro_to_Logic.html#prob_truth_tables",
   "type": "Problem",
-  "number": "2.23",
+  "number": "2.22",
   "title": "",
-  "body": "  Create a truth table for each of the following compound propositions. You should add additional columns to your tables as needed to assist you with intermediate steps. For example, you might need four columns for the third and fourth compound propositions below.                         "
+  "body": "  Create a truth table for each of the following compound propositions. You should add additional columns to your tables as needed to assist you with intermediate steps. For example, you might need four columns for the third and fourth compound propositions below.         "
 },
 {
   "id": "prob_coach_lie",
   "level": "2",
   "url": "sec_Intro_to_Logic.html#prob_coach_lie",
   "type": "Problem",
-  "number": "2.24",
+  "number": "2.23",
   "title": "",
   "body": "  A coach promises her players, If we win tonight, then I will buy you pizza tomorrow. Determine the cases in which the players can rightly claim to have been lied to. If the team lost the game and the coach decided to buy them pizza anyway, was she lying?   "
 },
@@ -437,7 +437,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Intro_to_Logic.html#problem-9",
   "type": "Problem",
-  "number": "2.25",
+  "number": "2.24",
   "title": "",
   "body": "  Use Definition  to construct a truth table for . Compare your truth table with Problem . The combination you should pay particular attention to is when the hypothesis is false while the conclusion is true.   "
 },
@@ -446,7 +446,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Intro_to_Logic.html#theorem-9",
   "type": "Theorem",
-  "number": "2.26",
+  "number": "2.25",
   "title": "",
   "body": "  If is a proposition, then is logically equivalent to .   "
 },
@@ -464,7 +464,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Intro_to_Logic.html#thm_De_Morgan",
   "type": "Theorem",
-  "number": "2.27",
+  "number": "2.26",
   "title": "De Morgan’s Law.",
   "body": " De Morgan's Law   If and are propositions, then is logically equivalent to .   "
 },
@@ -473,7 +473,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Intro_to_Logic.html#prob_De_Morgan",
   "type": "Problem",
-  "number": "2.28",
+  "number": "2.27",
   "title": "De Morgan’s Law.",
   "body": " De Morgan's Law   Let and be propositions. Conjecture a statement similar to Theorem for the proposition and then prove it. This is also called De Morgan's Law.   "
 },
@@ -482,7 +482,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Intro_to_Logic.html#prob_negation",
   "type": "Problem",
-  "number": "2.29",
+  "number": "2.28",
   "title": "",
   "body": "  Let be your favorite real number. Negate each of the following statements. Note that the statement in Part (b) involves a conjunction.    or .     .      "
 },
@@ -491,7 +491,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Intro_to_Logic.html#thm_logical_form_for_iff",
   "type": "Theorem",
-  "number": "2.30",
+  "number": "2.29",
   "title": "",
   "body": "  If and are propositions, then is logically equivalent to .   "
 },
@@ -500,7 +500,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Intro_to_Logic.html#thm_logical_form_for_cases",
   "type": "Theorem",
-  "number": "2.31",
+  "number": "2.30",
   "title": "",
   "body": "  If , , and are propositions, then is logically equivalent to .   "
 },
@@ -509,7 +509,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Intro_to_Logic.html#def_converse",
   "type": "Definition",
-  "number": "2.32",
+  "number": "2.31",
   "title": "",
   "body": "  If and are propositions, then the converse of is .   "
 },
@@ -518,7 +518,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Intro_to_Logic.html#prob_converse",
   "type": "Problem",
-  "number": "2.33",
+  "number": "2.32",
   "title": "",
   "body": "  Provide an example of a true conditional proposition whose converse is false.   "
 },
@@ -527,7 +527,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Intro_to_Logic.html#def_inverse",
   "type": "Definition",
-  "number": "2.34",
+  "number": "2.33",
   "title": "",
   "body": "  If and are propositions, then the inverse of is .   "
 },
@@ -536,7 +536,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Intro_to_Logic.html#prob_inverse",
   "type": "Problem",
-  "number": "2.35",
+  "number": "2.34",
   "title": "",
   "body": "  Provide an example of a true conditional proposition whose inverse is false.   "
 },
@@ -545,7 +545,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Intro_to_Logic.html#prob_converse_and_inverse",
   "type": "Problem",
-  "number": "2.36",
+  "number": "2.35",
   "title": "",
   "body": "  If possible, provide an example of a conditional proposition whose converse is true but whose inverse is false. If this is not possible, explain why.   "
 },
@@ -554,7 +554,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Intro_to_Logic.html#definition-8",
   "type": "Definition",
-  "number": "2.37",
+  "number": "2.36",
   "title": "",
   "body": "  If and are propositions, then the contrapositive of is .   "
 },
@@ -563,7 +563,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Intro_to_Logic.html#problem-15",
   "type": "Problem",
-  "number": "2.38",
+  "number": "2.37",
   "title": "",
   "body": "  Let and represent the statements from Problem . Express each of the following in an ordinary English sentence.   The converse of .    The contrapositive of .      "
 },
@@ -572,7 +572,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Intro_to_Logic.html#problem-16",
   "type": "Problem",
-  "number": "2.39",
+  "number": "2.38",
   "title": "",
   "body": "  Find the converse and the contrapositive of the following statement: ``If Dana lives in Flagstaff, then Dana lives in Arizona.\"   "
 },
@@ -581,7 +581,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Intro_to_Logic.html#thm_contrapos",
   "type": "Theorem",
-  "number": "2.40",
+  "number": "2.39",
   "title": "",
   "body": "  If and are propositions, then is logically equivalent to its contrapositive.   "
 },
@@ -590,7 +590,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Intro_to_Logic.html#thm_ImplicationAsDisjuction",
   "type": "Theorem",
-  "number": "2.41",
+  "number": "2.40",
   "title": "",
   "body": "  If and are propositions, then the implication is logically equivalent to the disjunction .   "
 },
@@ -599,7 +599,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Intro_to_Logic.html#cor_NegateImplication",
   "type": "Corollary",
-  "number": "2.42",
+  "number": "2.41",
   "title": "",
   "body": "  If and are propositions, then is logically equivalent to .   "
 },
@@ -608,7 +608,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Intro_to_Logic.html#prob_Darth_Vader",
   "type": "Problem",
-  "number": "2.43",
+  "number": "2.42",
   "title": "",
   "body": "  Let and be the propositions is an irrational number and Every rectangle is a trapezoid, respectively.   Express as an English sentence involving the disjunction or.     Express as an English sentence involving the conjunction and.       "
 },
@@ -617,7 +617,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Intro_to_Logic.html#problem-18",
   "type": "Problem",
-  "number": "2.44",
+  "number": "2.43",
   "title": "",
   "body": "  It turns out that the proposition If , then is false. Write its negation as a conjunction.   "
 },
@@ -626,7 +626,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Intro_to_Logic.html#definition-9",
   "type": "Definition",
-  "number": "2.45",
+  "number": "2.44",
   "title": "",
   "body": "  A compound proposition that is always false is called a contradiction. A compound proposition that is always true is called a tautology.   "
 },
@@ -635,7 +635,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Intro_to_Logic.html#theorem-15",
   "type": "Theorem",
-  "number": "2.46",
+  "number": "2.45",
   "title": "",
   "body": "  If is a proposition, then the proposition is a contradiction.   "
 },
@@ -644,7 +644,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Intro_to_Logic.html#problem-19",
   "type": "Problem",
-  "number": "2.47",
+  "number": "2.46",
   "title": "",
   "body": "  Provide an example of a tautology using arbitrary propositions and any of the logical connectives , , and . Prove that your example is in fact a tautology.   "
 },
@@ -662,7 +662,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Techniques_for_Proving_Conditional_Propositions.html#prob_reword_as_conditional",
   "type": "Problem",
-  "number": "2.48",
+  "number": "2.47",
   "title": "",
   "body": "  Reword Theorem so that it explicitly reads as a conditional proposition.   "
 },
@@ -680,7 +680,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Techniques_for_Proving_Conditional_Propositions.html#skeleton_direct_proof",
   "type": "Skeleton Proof",
-  "number": "2.49",
+  "number": "2.48",
   "title": "Proof of <span class=\"process-math\">\\(A\\implies B\\)<\/span> by direct proof.",
   "body": " Proof of by direct proof   If you want to prove the implication via a direct proof, then the structure of the proof is as follows.   [State any upfront assumptions.] Assume .  [Use definitions and known results to derive ]  Therefore, .    "
 },
@@ -698,7 +698,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Techniques_for_Proving_Conditional_Propositions.html#skeleton_pf_by_contraposition",
   "type": "Skeleton Proof",
-  "number": "2.50",
+  "number": "2.49",
   "title": "Proof of <span class=\"process-math\">\\(A\\implies B\\)<\/span> by contraposition.",
   "body": " Proof of by contraposition   If you want to prove the implication by proving its contrapositive instead, then the structure of the proof is as follows.   [State any upfront assumptions.] We will utilize a proof by contraposition. Assume .  [Use definitions and known results to derive ]  Therefore, . We have proved the contrapositive, and hence if , then .    "
 },
@@ -707,7 +707,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Techniques_for_Proving_Conditional_Propositions.html#problem-21",
   "type": "Problem",
-  "number": "2.51",
+  "number": "2.50",
   "title": "",
   "body": "  Consider the following statement: If such that is odd, then is odd. The items below can be assembled to form a proof of this statement, but they are currently out of order. Put them in the proper order.   Assume that is an even integer.    We will utilize a proof by contraposition.    Thus, is twice an integer.    Since , we have that .    Since is an integer, is also an integer.    By the definition of even, there is an integer such that .    We have proved the contrapositive, and hence the desired statement is true.    Assume .    By the definition of even integer, is an even integer.    Notice that .      "
 },
@@ -716,7 +716,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Techniques_for_Proving_Conditional_Propositions.html#thm_n_2_even_implies_n_even",
   "type": "Theorem",
-  "number": "2.52",
+  "number": "2.51",
   "title": "",
   "body": "  If such that is even, then is even.   "
 },
@@ -725,7 +725,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Techniques_for_Proving_Conditional_Propositions.html#thm_nm_even_implies_n_or_m_even",
   "type": "Theorem",
-  "number": "2.53",
+  "number": "2.52",
   "title": "",
   "body": "  If such that is even, then is even or is even.   "
 },
@@ -734,7 +734,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Techniques_for_Proving_Conditional_Propositions.html#skeleton_pf_by_contradiction",
   "type": "Skeleton Proof",
-  "number": "2.54",
+  "number": "2.53",
   "title": "Proof of <span class=\"process-math\">\\(O\\)<\/span>&gt; by contradiction.",
   "body": " Proof of > by contradiction   Here is what the general structure for a proof by contradiction looks like if we are trying to prove the proposition .   [State any upfront assumptions.] For sake of a contradiction, assume .  [Use definitions and known results to derive some and its negation .]} This is a contradiction. Therefore, .    "
 },
@@ -743,7 +743,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Techniques_for_Proving_Conditional_Propositions.html#skeleton_pf_by_contradiction_for_implication",
   "type": "Skeleton Proof",
-  "number": "2.55",
+  "number": "2.54",
   "title": "Proof of <span class=\"process-math\">\\(A\\implies B\\)<\/span> by contradiction.",
   "body": " Proof of by contradiction   If you want to prove the implication via a proof by contradiction, then the structure of the proof is as follows.   [State any upfront assumptions.] For sake of a contradiction, assume and .  [Use definitions and known results to derive some and its negation .]} This is a contradiction. Therefore, if , then .    "
 },
@@ -752,7 +752,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Techniques_for_Proving_Conditional_Propositions.html#problem-22",
   "type": "Problem",
-  "number": "2.56",
+  "number": "2.55",
   "title": "",
   "body": "  Assume that . Consider the following proposition: If is odd, then 2 does not divide .  Prove the contrapositive of this statement.  Prove the statement using a proof by contradiction.     "
 },
@@ -761,7 +761,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Techniques_for_Proving_Conditional_Propositions.html#thm_natural_divisor_less_than_or_equal_to_natural_dividend",
   "type": "Theorem",
-  "number": "2.57",
+  "number": "2.56",
   "title": "",
   "body": "  Assume that . If divides , then .   "
 },
@@ -770,7 +770,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Techniques_for_Proving_Conditional_Propositions.html#theorem-19",
   "type": "Theorem",
-  "number": "2.58",
+  "number": "2.57",
   "title": "",
   "body": "  Let . Then is even if and only if 4 divides .   "
 },
@@ -788,7 +788,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Introduction_to_Quantification.html#problem-23",
   "type": "Problem",
-  "number": "2.59",
+  "number": "2.58",
   "title": "",
   "body": "  Consider and as defined above. Determine the truth values of , , , and . Is a proposition or a predicate?   "
 },
@@ -797,7 +797,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Introduction_to_Quantification.html#ex_quantified_predicates",
   "type": "Problem",
-  "number": "2.60",
+  "number": "2.59",
   "title": "",
   "body": "  Both of the following sentences are propositions. Decide whether each is true or false. What would it take to justify your answers?   For all , .    There exists such that .      "
 },
@@ -806,7 +806,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Introduction_to_Quantification.html#definition-10",
   "type": "Definition",
-  "number": "2.61",
+  "number": "2.60",
   "title": "",
   "body": "   For all is the universal quantifier and there exists such that is the existential quantifier.   "
 },
@@ -815,7 +815,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Introduction_to_Quantification.html#problem-25",
   "type": "Problem",
-  "number": "2.62",
+  "number": "2.61",
   "title": "",
   "body": "  Suppose our universe of discourse is the set of integers.   Provide an example of a predicate such that For all , is true.    Provide an example of a predicate such that For all , is false while There exists such that is true.      "
 },
@@ -824,7 +824,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Introduction_to_Quantification.html#prob_ways_to_quantify",
   "type": "Problem",
-  "number": "2.63",
+  "number": "2.62",
   "title": "",
   "body": "  Let be a predicate with free variables and in a universe of discourse . One way to quantify the variables is For all , there exists such that . How else can the variables be quantified?   "
 },
@@ -833,7 +833,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Introduction_to_Quantification.html#problem-27",
   "type": "Problem",
-  "number": "2.64",
+  "number": "2.63",
   "title": "",
   "body": "  Suppose the universe of discourse is the set of people and consider the predicate  . We can interpret the formal statement For all , there exists such that as meaning Everybody is married to somebody. Interpret the meaning of each of the following statements in a similar way.   For all , there exists such that .    There exists such that for all , .    For all , for all , .    There exists such that there exists such that .      "
 },
@@ -842,7 +842,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Introduction_to_Quantification.html#problem-28",
   "type": "Problem",
-  "number": "2.65",
+  "number": "2.64",
   "title": "",
   "body": "  Suppose the universe of discourse is the set of real numbers and consider the predicate  . Interpret the meaning of each of the following statements.   There exists such that there exists such that .    There exists such that there exists such that .    For all , for all , .      "
 },
@@ -851,7 +851,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Introduction_to_Quantification.html#def_quantifiers",
   "type": "Definition",
-  "number": "2.66",
+  "number": "2.65",
   "title": "",
   "body": "  The universal quantifier for all is denoted , and the existential quantifier there exists such that is denoted .   "
 },
@@ -860,7 +860,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Introduction_to_Quantification.html#problem-29",
   "type": "Problem",
-  "number": "2.67",
+  "number": "2.66",
   "title": "",
   "body": "  Convert the following propositions into statements using only logical and mathematical symbols. Assume that the universe of discourse is the set of real numbers.   There exists such that is greater than zero.    There exists a natural number such that .    For every , is greater than or equal to zero.      "
 },
@@ -869,7 +869,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Introduction_to_Quantification.html#problem-30",
   "type": "Problem",
-  "number": "2.68",
+  "number": "2.67",
   "title": "",
   "body": "  Express the formal definition of a limit (given above Definition ) in logical and mathematical symbols.   "
 },
@@ -878,7 +878,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Introduction_to_Quantification.html#problem-31",
   "type": "Problem",
-  "number": "2.69",
+  "number": "2.68",
   "title": "",
   "body": "  Reword Theorem so that it explicitly reads as a universally quantified statement. Compare with Problem .   "
 },
@@ -887,7 +887,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Introduction_to_Quantification.html#problem-32",
   "type": "Problem",
-  "number": "2.70",
+  "number": "2.69",
   "title": "",
   "body": "  Find at least two other instances of theorem statements that appeared earlier in the book and are written in the form . Rewrite each in an equivalent way that makes the universal quantifier explicit while possibly suppressing the implication.   "
 },
@@ -896,7 +896,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Introduction_to_Quantification.html#problem-33",
   "type": "Problem",
-  "number": "2.71",
+  "number": "2.70",
   "title": "",
   "body": "  Consider the proposition If , then there exists such that . Assume the universe of discourse is the set .   Express the statement in logical and mathematical symbols. Is the statement true?    Reverse the order of the quantifiers to get a new statement. Does the meaning change? If so, how? Is the new statement true?      "
 },
@@ -905,7 +905,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Introduction_to_Quantification.html#problem-34",
   "type": "Problem",
-  "number": "2.72",
+  "number": "2.71",
   "title": "",
   "body": "  Express the proposition For all with , there exists such that using logical and mathematical symbols.   "
 },
@@ -914,7 +914,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Introduction_to_Quantification.html#problem-35",
   "type": "Problem",
-  "number": "2.73",
+  "number": "2.72",
   "title": "",
   "body": "  Rewrite each of the following propositions in words and determine whether the proposition is true or false.                                   "
 },
@@ -923,7 +923,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Introduction_to_Quantification.html#problem-36",
   "type": "Problem",
-  "number": "2.74",
+  "number": "2.73",
   "title": "",
   "body": "  Consider the proposition .   Provide an example of a universe of discourse where this proposition is true.    Provide an example of a universe of discourse where this proposition is false.      "
 },
@@ -941,7 +941,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_More_About_Quantification.html#definition-12",
   "type": "Definition",
-  "number": "2.75",
+  "number": "2.74",
   "title": "",
   "body": "  Two quantified propositions are logically equivalent if they have the same truth value in every universe of discourse.   "
 },
@@ -950,7 +950,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_More_About_Quantification.html#problem-37",
   "type": "Problem",
-  "number": "2.76",
+  "number": "2.75",
   "title": "",
   "body": "  Consider the propositions and , where is some universe of discourse.   Do these propositions have the same truth value if the universe of discourse is the set of real numbers?    Provide an example of a universe of discourse such that the propositions yield different truth values.    What can you conclude about the logical equivalence of these propositions?      "
 },
@@ -959,7 +959,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_More_About_Quantification.html#thm_negation_of_quantifiers",
   "type": "Theorem",
-  "number": "2.77",
+  "number": "2.76",
   "title": "",
   "body": "  Let be a predicate in some universe of discourse. Then    is logically equivalent to ;     is logically equivalent to .      "
 },
@@ -968,7 +968,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_More_About_Quantification.html#problem-38",
   "type": "Problem",
-  "number": "2.78",
+  "number": "2.77",
   "title": "",
   "body": "  Negate each of the following sentences. Disregard the truth value and the universe of discourse.             All cars are red.    Every Wookiee is named Chewbacca.    Some hippies are Republican.    Some birds are not angry.    Not every video game will rot your brain.    For all , is prime.    There exists such that .    There is no function such that if is continuous, then is not differentiable.      "
 },
@@ -977,7 +977,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_More_About_Quantification.html#problem-39",
   "type": "Problem",
-  "number": "2.79",
+  "number": "2.78",
   "title": "",
   "body": "  Negate each of the following propositions. Disregard the truth value and the universe of discourse.        For every , there exists such that .    For all , if is not negative, then there exists such that .    For every , there exists such that .    There exists such that for all , .    There exists such that for all , .         There exists a married person such that for all married people , is married to .      "
 },
@@ -986,7 +986,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_More_About_Quantification.html#problem-40",
   "type": "Problem",
-  "number": "2.80",
+  "number": "2.79",
   "title": "",
   "body": "  Consider the following proposition in some universe of discourse.    For all goofy wobblers , there exists a dinglehopper such that if is a not a nugget, then is a doofus.      Find the negation of this proposition so that it includes the phrase is not a doofus.    "
 },
@@ -995,7 +995,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_More_About_Quantification.html#problem-41",
   "type": "Problem",
-  "number": "2.81",
+  "number": "2.80",
   "title": "",
   "body": "  Consider the following proposition in some universe of discourse.    If and are both snazzy, then is not nifty.      Find the contrapositive of this proposition so that it includes the phrase not snazzy .   "
 },
@@ -1004,7 +1004,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_More_About_Quantification.html#skeleton_for_all",
   "type": "Skeleton Proof",
-  "number": "2.82",
+  "number": "2.81",
   "title": "Direct Proof of <span class=\"process-math\">\\((\\forall x)P(x)\\)<\/span>.",
   "body": " Direct Proof of   Here is the general structure for a direct proof of the proposition . Assume is the universe of discourse.   [State any upfront assumptions.] Let .  [Use definitions and known results.] Therefore, is true. Since was arbitrary, for all , .    "
 },
@@ -1013,7 +1013,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_More_About_Quantification.html#skeleton_for_all_direct_proof",
   "type": "Skeleton Proof",
-  "number": "2.83",
+  "number": "2.82",
   "title": "Proof of <span class=\"process-math\">\\((\\forall x)(A(x)\\implies B(x))\\)<\/span>.",
   "body": " Proof of   Below is the general structure for a direct proof of the proposition . Assume is the universe of discourse.   [State any upfront assumptions.] Let . Assume .  [Use definitions and known results to derive ]  Therefore, .    "
 },
@@ -1022,7 +1022,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_More_About_Quantification.html#skeleton_for_all_contradiction",
   "type": "Skeleton Proof",
-  "number": "2.84",
+  "number": "2.83",
   "title": "Proof of <span class=\"process-math\">\\((\\forall x)P(x)\\)<\/span> by Contradiction.",
   "body": " Proof of by Contradiction   Here is the general structure for a proof of the proposition via contradiction. Assume is the universe of discourse.   [State any upfront assumptions.] For sake of a contradiction, assume that there exists such that .  [Do something to derive a contradiction.]  This is a contradiction.Therefore, for all , is true.    "
 },
@@ -1031,7 +1031,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_More_About_Quantification.html#skeleton_exists",
   "type": "Skeleton Proof",
-  "number": "2.85",
+  "number": "2.84",
   "title": "Direct Proof of <span class=\"process-math\">\\((\\exists x)P(x)\\)<\/span>.",
   "body": " Direct Proof of   Here is the general structure for a direct proof of the proposition . Assume is the universe of discourse.   [State any upfront assumptions.]    [Use definitions, axioms, and previous results to deduce that an exists for which is true; or if you have an that works, just verify that it does.]  Therefore, there exists such that .    "
 },
@@ -1040,7 +1040,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_More_About_Quantification.html#skeleton_exists_contradiction",
   "type": "Skeleton Proof",
-  "number": "2.86",
+  "number": "2.85",
   "title": "Proof of <span class=\"process-math\">\\((\\exists x)P(x)\\)<\/span> by Contradiction.",
   "body": " Proof of by Contradiction   Below is the general structure for a proof of the proposition via contradiction. Assume is the universe of discourse.   [State any upfront assumptions.] For sake of a contradiction, assume that for all ,   [Do something to derive a contradiction.]  This is a contradiction. Therefore, there exists such that .    "
 },
@@ -1049,7 +1049,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_More_About_Quantification.html#problem-42",
   "type": "Problem",
-  "number": "2.87",
+  "number": "2.86",
   "title": "",
   "body": "  Determine whether each of the following statements is true or false. If the statement is true, prove it. If the statement is false, provide a counterexample.   For all , .    There exists such that .    There exists such that for all , .    For all , .    For all , there exists such that .    There exists integers and such that .    There do not exist integers and such that .    For all , if divides , then either divides or divides .    For all , if is even, then either or is even.      "
 },
@@ -1058,7 +1058,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_More_About_Quantification.html#problem-43",
   "type": "Problem",
-  "number": "2.88",
+  "number": "2.87",
   "title": "",
   "body": "  Explain why the following proof is not a valid argument.  Claim. For all , if and are even, then is even.  Proof. Suppose such that and are even. For sake of a contradiction, assume that is odd. Then there exists such that . This implies that . We see that the left side of the equation is even because it is the difference of even numbers. However, the right side is odd. Since an even number cannot equal an odd number, we have a contradiction. Therefore, is even.   "
 },
@@ -1076,7 +1076,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_More_About_Quantification.html#thm_3n_2_n_14_is_even",
   "type": "Theorem",
-  "number": "2.89",
+  "number": "2.88",
   "title": "",
   "body": "  For all , is even.   "
 },
@@ -1085,7 +1085,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_More_About_Quantification.html#thm_nm_odd_implies_n_or_m_odd",
   "type": "Theorem",
-  "number": "2.90",
+  "number": "2.89",
   "title": "",
   "body": "  For all , if is odd, then is odd and is odd.   "
 },
@@ -1095,7 +1095,7 @@ var ptx_lunr_docs = [
   "url": "sec_More_About_Quantification.html#proof-10",
   "type": "Proof",
   "number": "2.5.1",
-  "title": "Proof of Theorem 2.90.",
+  "title": "Proof of Theorem 2.89.",
   "body": " Proof of Theorem  We will prove the contrapositive. Let and assume is even or is even. Without loss of generality, assume is even. Then there exists such that . We see that .  Since both and are integers, is an integer. This shows that is even. We have proved the contrapositive, and hence for all , if is odd, then is odd and is odd.  "
 },
 {
@@ -1103,7 +1103,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_More_About_Quantification.html#skeleton_uniqueness",
   "type": "Skeleton Proof",
-  "number": "2.91",
+  "number": "2.90",
   "title": "Direct Proof of <span class=\"process-math\">\\((\\exists! x)P(x)\\)<\/span>.",
   "body": " Direct Proof of   Here is the general structure for a direct proof of the proposition . Assume is the universe of discourse.   [State any upfront assumptions.]    [Use definitions, axioms, and previous results to deduce that an exists for which is true; or if you have an that works, just verify that it does.]  Therefore, there exists such that . Now, suppose such that and .  [Prove that .]  This implies that there exists a unique such that .    "
 },
@@ -1112,7 +1112,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_More_About_Quantification.html#theorem-23",
   "type": "Theorem",
-  "number": "2.92",
+  "number": "2.91",
   "title": "",
   "body": "  If such that and , then there exists a unique such that .   "
 },
