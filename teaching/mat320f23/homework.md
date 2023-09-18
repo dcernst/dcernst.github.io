@@ -42,16 +42,9 @@ The following assignments are due at the beginning of the indicated class meetin
 - **Daily Homework 7:** Complete 2.24-2.30 in *Chapter 2: Mathematics and Logic* and digest the surrounding text along the way. (Due Wednesday, September 13)
 - **Daily Homework 8:** Complete 2.32, 2.34, 2.35, 2.37-2.40 in *Chapter 2: Mathematics and Logic* and digest the surrounding text along the way. (Due Friday, September 15)
 - **Daily Homework 9:** Complete 2.41-2.43, 2.45, 2.46 in *Chapter 2: Mathematics and Logic* and digest the surrounding text along the way. (Due Monday, September 18)
+- **Daily Homework 10:** Complete 2.47, 2.50-2.52, 2.55 in *Chapter 2: Mathematics and Logic* and digest the surrounding text along the way. (Due Wednesday, September 20)
 
-
-<!-- - **Daily Homework 4:** Complete 2.6 and 2.7 in [Chapter 2: Mathematics and Logic]({{site.baseurl}}/teaching/mat320f21/MathAndLogic.pdf) and digest the surrounding text along the way. (Due Friday, August 27)
-- **Daily Homework 5:** Complete 2.8-2.11 in [Chapter 2: Mathematics and Logic]({{site.baseurl}}/teaching/mat320f21/MathAndLogic.pdf) and digest the surrounding text along the way. (Due Monday, August 30)
-- **Daily Homework 6:** Complete 2.12 in [Chapter 2: Mathematics and Logic]({{site.baseurl}}/teaching/mat320f21/MathAndLogic.pdf) and digest the surrounding text along the way. (Due Wednesday, September 1)
-- **Daily Homework 7:** Complete 2.13-2.15, 2.17, 2.19 in [Chapter 2: Mathematics and Logic]({{site.baseurl}}/teaching/mat320f21/MathAndLogic.pdf) and digest the surrounding text along the way. (Due Friday, September 3)
-- **Daily Homework 8:** Complete 2.22 and 2.23 in [Chapter 2: Mathematics and Logic]({{site.baseurl}}/teaching/mat320f21/MathAndLogic.pdf) and digest the surrounding text along the way. (Due Wednesday, September 8)
-- **Daily Homework 9:** Complete 2.24-2.27 in [Chapter 2: Mathematics and Logic]({{site.baseurl}}/teaching/mat320f21/MathAndLogic.pdf) and digest the surrounding text along the way. (Due Friday, September 10)
-- **Daily Homework 10:** Complete 2.28-2.30, 2.32, 2.34, 2.35, 2.37-2.39 in [Chapter 2: Mathematics and Logic]({{site.baseurl}}/teaching/mat320f21/MathAndLogic.pdf) and digest the surrounding text along the way. (Due Monday, September 13)
-- **Daily Homework 11:** Complete 2.50-2.52, 2.55, 2.56 in [Chapter 2: Mathematics and Logic]({{site.baseurl}}/teaching/mat320f21/MathAndLogic.pdf) and digest the surrounding text along the way. (Due Wednesday, September 15)
+<!-- - **Daily Homework 11:** Complete 2.50-2.52, 2.55, 2.56 in [Chapter 2: Mathematics and Logic]({{site.baseurl}}/teaching/mat320f21/MathAndLogic.pdf) and digest the surrounding text along the way. (Due Wednesday, September 15)
 - **Daily Homework 12:** Complete 2.57-2.59, 2.61-2.64 in [Chapter 2: Mathematics and Logic]({{site.baseurl}}/teaching/mat320f21/MathAndLogic.pdf) and digest the surrounding text along the way. (Due Friday, September 17)
 - **Daily Homework 13:** Complete 2.66-2.72 in [Chapter 2: Mathematics and Logic]({{site.baseurl}}/teaching/mat320f21/MathAndLogic.pdf) and digest the surrounding text along the way. (Due Monday, September 20)
 - **Daily Homework 14:** Complete 2.73, 2.75-2.80 in [Chapter 2: Mathematics and Logic]({{site.baseurl}}/teaching/mat320f21/MathAndLogic.pdf) and digest the surrounding text along the way. (Due Wednesday, September 22)
@@ -83,7 +76,7 @@ For most of the assignments below, you will be required to submit 2-3 formally w
 
 <!-- Submit your the PDF to the corresponding assignment on BbLearn. -->
 
-- **Weekly Homework 1:** Prove **two** of ???. You must type up your proofs using LaTeX.  I suggest you use my Overleaf template, which you can access by clicking the "Start your homework in Overleaf" link below. (Due Thursday, September 21 by 8PM)
+- **Weekly Homework 1:** Prove **two** of 2.2, 2.3, 2.7. 2.11, 2.13, 2.15. You must type up your proofs using LaTeX.  I recommend using my [Overleaf template](https://www.overleaf.com/latex/templates/weekly-homework-x/cbpdxbqknrvq). (Due in Canvas by Thursday, September 21 by 8PM)
 
 <!-- - **Weekly Homework 1:** Watch "Grit: the power of passion and perseverance" and any other 4 videos listed under <em>Videos on Growth Mindset and Productive Failure</em> on the <a href="{{site.baseurl}}/teaching/mat320f23/materials/">Course Materials</a> page and then write a reflection that is at least 15 sentences long. You should list the videos you watched. Rather than reflecting on each video separately, try to reflect on growth mindset, productive failure, and grit, in general. <b>You are required to type your reflection using LaTeX</b>. For this assignment, I suggest you use the template on [Overleaf](https://www.overleaf.com/) found [here](https://www.overleaf.com/latex/templates/weekly-homework-1-for-reflection-on-growth-mindset-and-productive-failure-foundations-of-mathematics/pxwcxqqrqmdv) (after clicking link, click on "Open as Template") instead of using the "Start your homework in Overleaf" link below.  (Due ??? by 8PM) -->
 
@@ -97,7 +90,7 @@ For most of the assignments below, you will be required to submit 2-3 formally w
 - **Weekly Homework 9:** Prove **one** of Problems 4.32-4.34. You must type up your proofs using LaTeX.  You can access an Overleaf template by clicking the "Start your homework in Overleaf" link below. (Due Friday, November 12 by 8PM) -->
 
 ## Using LaTeX for Weekly Homework ##
-You are required to use LaTeX to type up your Weekly Homework assignments. The easiest way to get started with LaTeX is to use an online editor.  I recommend using [Overleaf](https://overleaf.com), but there are other options.  The good folks over at Overleaf have preloaded my homework template, so to get started, all you need to do is click the link below and then click on "Open as Template". Be sure to update your name and the course title.
+You are required to use LaTeX to type up your Weekly Homework assignments. The easiest way to get started with LaTeX is to use an online editor.  I recommend using my [Overleaf](https://overleaf.com), but there are other options.  The good folks over at Overleaf have preloaded my homework template, so to get started, all you need to do is click the link below and then click on "Open as Template". Be sure to update your name and the course title.
 
 <center>
 <a href="https://www.overleaf.com/latex/templates/weekly-homework-x/cbpdxbqknrvq" class="btn btn-primary btn-lg" role="button">Start your homework in Overleaf</a>
