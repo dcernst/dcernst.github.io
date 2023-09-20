@@ -43,6 +43,7 @@ The following assignments are due at the beginning of the indicated class meetin
 - **Daily Homework 8:** Complete 2.32, 2.34, 2.35, 2.37-2.40 in *Chapter 2: Mathematics and Logic* and digest the surrounding text along the way. (Due Friday, September 15)
 - **Daily Homework 9:** Complete 2.41-2.43, 2.45, 2.46 in *Chapter 2: Mathematics and Logic* and digest the surrounding text along the way. (Due Monday, September 18)
 - **Daily Homework 10:** Complete 2.47, 2.50-2.52, 2.55 in *Chapter 2: Mathematics and Logic* and digest the surrounding text along the way. (Due Wednesday, September 20)
+<!-- - **Daily Homework 11:** Complete ??? in *Chapter 2: Mathematics and Logic* and digest the surrounding text along the way. (Due Friday, September 22) -->
 
 <!-- - **Daily Homework 11:** Complete 2.50-2.52, 2.55, 2.56 in [Chapter 2: Mathematics and Logic]({{site.baseurl}}/teaching/mat320f21/MathAndLogic.pdf) and digest the surrounding text along the way. (Due Wednesday, September 15)
 - **Daily Homework 12:** Complete 2.57-2.59, 2.61-2.64 in [Chapter 2: Mathematics and Logic]({{site.baseurl}}/teaching/mat320f21/MathAndLogic.pdf) and digest the surrounding text along the way. (Due Friday, September 17)
