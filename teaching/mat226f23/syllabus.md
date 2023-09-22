@@ -221,7 +221,7 @@ Only I will remain.</p>
 </blockquote>
 
 ### Exams ###
-There will be two midterm exams and a cumulative final exam.  Exam 1 and Exam 2 are *tentatively* scheduled for **Wednesday, October 4** (week 6) and **Wednesday, November 15** (week 12), respectively.  Each of Exam 1 and Exam 2 will be worth 20% of your overall grade. The final exam will be on **Wednesday, December 13** at **10:00AM-12:00PM** and is worth 20% of your overall grade. Make-up exams will only be given under extreme circumstances, as judged by me. In general, it will be best to communicate conflicts ahead of time.
+There will be two midterm exams and a cumulative final exam.  Exam 1 and Exam 2 are *tentatively* scheduled for **Friday, October 6** (week 6) and **Wednesday, November 15** (week 12), respectively.  Each of Exam 1 and Exam 2 will be worth 20% of your overall grade. The final exam will be on **Wednesday, December 13** at **10:00AM-12:00PM** and is worth 20% of your overall grade. Make-up exams will only be given under extreme circumstances, as judged by me. In general, it will be best to communicate conflicts ahead of time.
 
 <blockquote>
 <p>I write one page of masterpiece to ninety-one pages of shit.</p>
@@ -255,7 +255,7 @@ In summary, your final grade will be determined by your scores in the following 
 	<tr>
 		<td>Exam 1</td>
 		<td style="text-align: center;">20%</td>
-		<td>Wednesday, October 4</td>
+		<td>Friday, October 6</td>
 	</tr>
   <tr>
     <td>Exam 2</td>
