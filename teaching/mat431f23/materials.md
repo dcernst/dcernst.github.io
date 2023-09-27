@@ -106,6 +106,9 @@ Below are links to the take-home portions of each exam. If you are interested in
 - [Final Exam (Part 2)]({{site.baseurl}}/teaching/mat431f23/431ExamFinal-Part2.pdf) (PDF) (Due by 4pm on Thursday, December 9) -->
 
 ## Miscellaneous Materials ##
+- Pictures of board work that we ran out of time to discuss. *Note:* You should not assume that the solutions/proofs posted below are valid or sufficient.
+    - [Problem 3.55]({{ site.baseurl }}/teaching/mat431f23/Problem3.55.jpg)
+    - [Problem 3.56]({{ site.baseurl }}/teaching/mat431f23/Problem3.56.jpg)
 - [Setting the Stage]({{ site.baseurl }}/teaching/SettingTheStage.pdf) (PDF)
 - [Living Proof]({{site.baseurl}}/teaching/LivingProof.pdf)
 - [The Secret to Raising Smart Kids &#124; Carol Dweck](https://www.scientificamerican.com/article/the-secret-to-raising-smart-kids1/) (article on Scientific American)

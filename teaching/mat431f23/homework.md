@@ -46,6 +46,7 @@ The following assignments are due at the beginning of the indicated class meetin
 - **Homework 11:** Complete any three problems among 3.49(a), 3.49(b), 3.50(a), 3.50(b), 3.51(a), 3.51(b) in *Chapter 3: The Real Numbers*. (Due Friday, September 22)
 - **Homework 12:** Complete 3.52-3.57 in *Chapter 3: The Real Numbers*. (Due Monday, September 25)
 - **Homework 13:** If you are up for a challenge, complete 3.58 in *Chapter 3: The Real Numbers*. Complete 4.2 and 4.3 *Standard Topology of the Real Line*. (Due Wednesday, September 27)
+- **Homework 14:** Complete ???  in *Standard Topology of the Real Line*. (Due Friday, September 29)
 
 <!-- If you are up for a challenge, complete 3.58 in *Chapter 3: The Real Numbers*. Complete 4.2-4.7 *Standard Topology of the Real Line*. If you are able to prove 4.6 without first doing 4.5(a), that's fine. (Due Wednesday, September 27) -->
 
