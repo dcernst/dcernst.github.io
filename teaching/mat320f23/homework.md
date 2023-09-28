@@ -46,12 +46,10 @@ The following assignments are due at the beginning of the indicated class meetin
 - **Daily Homework 11:** Complete 2.56-2.59, 2.61-2.64 in *Chapter 2: Mathematics and Logic* and digest the surrounding text along the way. (Due Monday, September 25)
 - **Daily Homework 12:** Complete 2.66-2.73 in *Chapter 2: Mathematics and Logic* and digest the surrounding text along the way. (Due Wednesday, September 27)
 - **Daily Homework 13:** Complete 2.75-2.80 in *Chapter 2: Mathematics and Logic* and digest the surrounding text along the way. (Due Friday, September 29)
+- **Daily Homework 14:** Complete 2.86-2.89, 2.91, 3.2, 3.3 in *Chapter 2: Mathematics and Logic* and *Chapter 3: Theory* and digest the surrounding text along the way. (Due Monday, October 2)
 
-<!-- - **Daily Homework 11:** Complete 2.50-2.52, 2.55, 2.56 in [Chapter 2: Mathematics and Logic]({{site.baseurl}}/teaching/mat320f21/MathAndLogic.pdf) and digest the surrounding text along the way. (Due Wednesday, September 15)
-- **Daily Homework 12:** Complete 2.57-2.59, 2.61-2.64 in [Chapter 2: Mathematics and Logic]({{site.baseurl}}/teaching/mat320f21/MathAndLogic.pdf) and digest the surrounding text along the way. (Due Friday, September 17)
-- **Daily Homework 13:** Complete 2.66-2.72 in [Chapter 2: Mathematics and Logic]({{site.baseurl}}/teaching/mat320f21/MathAndLogic.pdf) and digest the surrounding text along the way. (Due Monday, September 20)
-- **Daily Homework 14:** Complete 2.73, 2.75-2.80 in [Chapter 2: Mathematics and Logic]({{site.baseurl}}/teaching/mat320f21/MathAndLogic.pdf) and digest the surrounding text along the way. (Due Wednesday, September 22)
-- **Daily Homework 15:** Complete 2.86-2.88 in [Chapter 2: Mathematics and Logic]({{site.baseurl}}/teaching/mat320f21/MathAndLogic.pdf) and digest the surrounding text along the way. (Due Friday, September 24)
+
+<!-- - **Daily Homework 15:** Complete 2.86-2.88 in [Chapter 2: Mathematics and Logic]({{site.baseurl}}/teaching/mat320f21/MathAndLogic.pdf) and digest the surrounding text along the way. (Due Friday, September 24)
 - **Daily Homework 16:** Complete 2.89 and 2.91 in [Chapter 2: Mathematics and Logic]({{site.baseurl}}/teaching/mat320f21/MathAndLogic.pdf) and 3.2, 3.3 in [Chapter 3: Set Theory]({{site.baseurl}}/teaching/mat320f21/SetTheory.pdf) and digest the surrounding text along the way. (Due Monday, September 27)
 - **Daily Homework 17:** Complete 3.5, 3.7-3.10 in [Chapter 3: Set Theory]({{site.baseurl}}/teaching/mat320f21/SetTheory.pdf) and digest the surrounding text along the way. (Due Wednesday, September 29)
 - **Daily Homework 18:** Complete 3.12, 3.16-3.21 (do either (a) or (b) for 3.21) in [Chapter 3: Set Theory]({{site.baseurl}}/teaching/mat320f21/SetTheory.pdf) and digest the surrounding text along the way. (Due Friday, October 1)
