@@ -46,7 +46,7 @@ The following assignments are due at the beginning of the indicated class meetin
 - **Daily Homework 11:** Complete 2.56-2.59, 2.61-2.64 in *Chapter 2: Mathematics and Logic* and digest the surrounding text along the way. (Due Monday, September 25)
 - **Daily Homework 12:** Complete 2.66-2.73 in *Chapter 2: Mathematics and Logic* and digest the surrounding text along the way. (Due Wednesday, September 27)
 - **Daily Homework 13:** Complete 2.75-2.80 in *Chapter 2: Mathematics and Logic* and digest the surrounding text along the way. (Due Friday, September 29)
-- **Daily Homework 14:** Complete 2.86-2.89, 2.91, 3.2, 3.3 in *Chapter 2: Mathematics and Logic* and *Chapter 3: Theory* and digest the surrounding text along the way. (Due Monday, October 2)
+- **Daily Homework 14:** Complete 2.86-2.89 in *Chapter 2: Mathematics and Logic* and digest the surrounding text along the way. For 2.86, you can just worry about finding counterexamples. (Due Monday, October 2)
 
 
 <!-- - **Daily Homework 15:** Complete 2.86-2.88 in [Chapter 2: Mathematics and Logic]({{site.baseurl}}/teaching/mat320f21/MathAndLogic.pdf) and digest the surrounding text along the way. (Due Friday, September 24)
