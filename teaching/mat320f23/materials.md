@@ -47,12 +47,10 @@ The book is available in multiple formats:
 
 If you've found an error or have suggestions for improvements, please let me know.  There are likely some formatting issues in the HTML version of the book.
 
-<!-- ## Exams
+## Exams
 Below are links to the take-home portions of each exam. If you are interested in using LaTeX to type up your solutions, contact me and I will send you a link to the source file of the exam.
 
-- [Exam 1 (Part 2)]({{site.baseurl}}/teaching/mat320f23/320Exam1-Part2.pdf) (PDF) (Due by 11:59PM on Tuesday, October 12)
-- [Exam 2 (Part 2)]({{site.baseurl}}/teaching/mat320f23/320Exam2-Part2.pdf) (PDF) (Due by beginning of class on Wednesday, November 22)
-- [Final Exam (Part 2)]({{site.baseurl}}/teaching/mat320f23/320ExamFinal-Part2.pdf) (PDF) (Due by 1pm Friday, December 10) -->
+- [Exam 1 (Part 2)]({{site.baseurl}}/teaching/mat320f23/320Exam1-Part2.pdf) (PDF) (Due Monday, October 16)
 
 ## Miscellaneous Materials ##
 - [Setting the Stage]({{ site.baseurl }}/teaching/SettingTheStage.pdf) (PDF)
