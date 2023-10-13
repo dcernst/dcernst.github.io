@@ -98,12 +98,10 @@ I will not be covering every detail of the notes and the only way to achieve a s
   <footer><a href="http://en.wikipedia.org/wiki/Paul_Halmos">Paul Halmos</a></footer>
 </blockquote>
 
-<!--# Exams
+# Exams
 Below are links to the take-home portions of each exam. If you are interested in using LaTeX to type up your solutions, contact me and I will send you a link to the source file of the exam.
 
-- [Exam 1 (Part 2)]({{site.baseurl}}/teaching/mat431f23/431Exam1-Part2.pdf) (PDF) (Due by 11:59PM on Tuesday, October 5)
-- [Exam 2 (Part 2)]({{site.baseurl}}/teaching/mat431f23/431Exam2-Part2.pdf) (PDF) (Due by class time on Wednesday, November 17)
-- [Final Exam (Part 2)]({{site.baseurl}}/teaching/mat431f23/431ExamFinal-Part2.pdf) (PDF) (Due by 4pm on Thursday, December 9) -->
+- [Exam 1 (Part 2)]({{site.baseurl}}/teaching/mat431f23/431Exam1-Part2.pdf) (PDF) (Due Friday, October 20)
 
 ## Miscellaneous Materials ##
 - Pictures of board work that we ran out of time to discuss. *Note:* You should not assume that the solutions/proofs posted below are valid or sufficient.
