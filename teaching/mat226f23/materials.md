@@ -34,6 +34,8 @@ Our textbook for the semester is <i>Introduction to Discrete Mathematics</i>.  E
 - [Chapter 2: Permutations and Combinations](https://danaernst.com/teaching/mat226f23/PermutationsCombinations.pdf)
 - [Chapter 3: The Binomial Theorem](https://danaernst.com/teaching/mat226f23/BinomialTheorem.pdf)
 - [Chapter 4: Additional Counting Methods](https://danaernst.com/teaching/mat226f23/AdditionalCounting.pdf)
+- [Chapter 5: Mathematical Induction](https://danaernst.com/teaching/mat226f23/Induction.pdf)
+- Chapter 6: Recursion (coming soon)
 
 
 I will not be covering every detail of the textbook and the only way to achieve a sufficient understanding of the material is to be digesting the reading in a meaningful way.  You should be seeking clarification about the content whenever necessary by asking questions.  Here's one of my favorite quotes about reading mathematics.
