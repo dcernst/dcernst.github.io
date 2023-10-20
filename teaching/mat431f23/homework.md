@@ -52,6 +52,7 @@ The following assignments are due at the beginning of the indicated class meetin
 - **Homework 17:** Complete 4.18, 4.19, 4.21, 4.22 in *Chapter 4: Standard Topology of the Real Line*.  (Due Friday, October 6)
 - **Homework 18:** Complete 4.23-4.25 in *Chapter 4: Standard Topology of the Real Line*.  (Due Monday, October 9)
 - **Homework 19:** Complete 4.26-4.30 in *Chapter 4: Standard Topology of the Real Line*.  (Due Wednesday, October 11)
+- **Homework 20:** Complete 5.15 or 5.16 (or both), and 5.17-5.20 in *Chapter 5: Sequences*.  (Due Monday, October 23)
 
 <!-- 
 - **Homework 5:** Complete Problems 3.8, 3.9, 3.13, 3.14 from [Chapter 3: The Real Numbers]({{site.baseurl}}/teaching/mat431f23/RealNumbers.pdf). (Due Monday, August 30)
