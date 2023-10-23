@@ -52,6 +52,7 @@ The following assignments are due at the beginning of the indicated class meetin
 - **Daily Homework 17:** Complete 3.48-3.53 in *Chapter 3: Set Theory* and digest the surrounding text along the way. (Due Wednesday, October 18)
 - **Daily Homework 18:** Complete 3.59, 3.60 and any three from 3.61 in *Chapter 3: Set Theory* and digest the surrounding text along the way. (Due Friday, October 20)
 - **Daily Homework 19:** Complete 4.2, 4.4-4.6 in *Chapter 4: Induction* and digest the surrounding text along the way. (Due Monday, October 23)
+- **Daily Homework 20:** Complete 4.8 and any three of 4.11-4.23 in *Chapter 4: Induction* and digest the surrounding text along the way. (Due Wednesday, October 25)
 
 <!-- - **Daily Homework 15:** Complete 2.86-2.88 in [Chapter 2: Mathematics and Logic]({{site.baseurl}}/teaching/mat320f21/MathAndLogic.pdf) and digest the surrounding text along the way. (Due Friday, September 24)
 - **Daily Homework 16:** Complete 2.89 and 2.91 in [Chapter 2: Mathematics and Logic]({{site.baseurl}}/teaching/mat320f21/MathAndLogic.pdf) and 3.2, 3.3 in [Chapter 3: Set Theory]({{site.baseurl}}/teaching/mat320f21/SetTheory.pdf) and digest the surrounding text along the way. (Due Monday, September 27)
