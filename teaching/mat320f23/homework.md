@@ -54,7 +54,7 @@ The following assignments are due at the beginning of the indicated class meetin
 - **Daily Homework 19:** Complete 4.2, 4.4-4.6 in *Chapter 4: Induction* and digest the surrounding text along the way. (Due Monday, October 23)
 - **Daily Homework 20:** Complete 4.8 and any three of 4.11-4.23 in *Chapter 4: Induction* and digest the surrounding text along the way. (Due Wednesday, October 25)
 - **Daily Homework 21:** Complete 4.27, 4.29, 4.30 or 4.31, and 4.32 in *Chapter 4: Induction* and digest the surrounding text along the way. (Due Friday, October 27)
-- **Daily Homework 22:** Complete 4.34, 4.36-4.38, and read 4.39 and 4.40 in *Chapter 4: Induction* and digest the surrounding text along the way. (Due Monday, October 30)
+- **Daily Homework 22:** Complete 4.34, 4.36 in *Chapter 4: Induction* and digest the surrounding text along the way. (Due Monday, October 30)
 
 <!-- - **Daily Homework 15:** Complete 2.86-2.88 in [Chapter 2: Mathematics and Logic]({{site.baseurl}}/teaching/mat320f21/MathAndLogic.pdf) and digest the surrounding text along the way. (Due Friday, September 24)
 - **Daily Homework 16:** Complete 2.89 and 2.91 in [Chapter 2: Mathematics and Logic]({{site.baseurl}}/teaching/mat320f21/MathAndLogic.pdf) and 3.2, 3.3 in [Chapter 3: Set Theory]({{site.baseurl}}/teaching/mat320f21/SetTheory.pdf) and digest the surrounding text along the way. (Due Monday, September 27)
