@@ -27,13 +27,13 @@ You can find a recent version of my curriculum vitae [here]({{site.baseurl}}/sch
   * D.C. Ernst and J. Hagood. *Introduction to Discrete Mathematics*. (Book)
   * G. Cerbai, A. Claesson, D.C. Ernst, and H. Golab. Pattern avoidance in Cayley permutations.
   * B.J. Benesh, D.C. Ernst, M. Meyer, S.K. Salmon, and N. Sieben. Impartial geodetic destroying games on graphs.
-  * B. Ba&#353;i&#263;, P. Ellis, D.C. Ernst, D. Popovi&#263;, N. Sieben. Categories of rulesets and games.
   * J. Barnes, J. Breland, D.C. Ernst, R. Perry. Structural properties of braid graphs in simply-laced triangle-free Coxeter systems.
   * F. Awik, F. Burkhart, H. Denoncourt, D.C. Ernst, T. Rosenberg, and A. Stewart. Enumerating signed permutations by reversal distance.
 
 <!-- * J. Breland, Q. Cadman, D.C. Ernst, J. Niemi, J. Sullivan, and J. Wright. Structure of braid graphs for reduced words in simply-laced Coxeter systems. * F. Burkhart, H. Denoncourt, D.C. Ernst, and A. Stewart. Enumerating signed permutations by reversal distance.-->
 
 ## Submitted
+  * B. Ba&#353;i&#263;, P. Ellis, D.C. Ernst, D. Popovi&#263;, N. Sieben. Categories of impartial rulegraphs and gamegraphs.
   * D.C. Ernst, J. Slye. Using the $\Spin_{3\times 3}$ virtual manipulative to introduce group theory. 
   * B.J. Benesh, D.C. Ernst, M. Meyer, S.K. Salmon, and N. Sieben. Impartial geodetic building games on graphs. [[arXiv:2307.07095](https://arxiv.org/abs/2307.07095)]
   * T.J. Hitchman, S. Yoshinobu, M. Jones, D.C. Ernst, and S. Laursen. Turtles all the way down: The infinite progression of professional development.
