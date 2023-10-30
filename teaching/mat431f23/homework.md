@@ -56,6 +56,7 @@ The following assignments are due at the beginning of the indicated class meetin
 - **Homework 21:** Complete 5.22, 5.23, 5.25 in *Chapter 5: Sequences*.  (Due Wednesday, October 25)
 - **Homework 22:** Complete 5.27-5.31 in *Chapter 5: Sequences*.  (Due Friday, October 27)
 - **Homework 23:** Complete 5.32-5.34 in *Chapter 5: Sequences*.  (Due Monday, October 30)
+- **Homework 24:** Complete 6.3-6.5, 6.7, 6.8 in *Chapter 6: Continuity*.  (Due Wednesday, November 1)
 
 <!-- 
 - **Homework 5:** Complete Problems 3.8, 3.9, 3.13, 3.14 from [Chapter 3: The Real Numbers]({{site.baseurl}}/teaching/mat431f23/RealNumbers.pdf). (Due Monday, August 30)
