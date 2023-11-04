@@ -57,6 +57,7 @@ The following assignments are due at the beginning of the indicated class meetin
 - **Daily Homework 22:** Complete 4.34, 4.36 in *Chapter 4: Induction* and digest the surrounding text along the way. (Due Monday, October 30)
 - **Daily Homework 23:** Complete 4.37, 4.38, 6.19 and read 4.39, 4.40 in *Chapter 4: Induction* and *Chapter 6: Three Famous Theorems* and digest the surrounding text along the way. (Due Wednesday, November 1)
 - **Daily Homework 24:** Complete 7.10, 7.12, 7.13, 7.16, 7.19 in *Chapter 7: Relations and Partitions* and digest the surrounding text along the way. (Due Friday, November 3)
+- **Daily Homework 25:** Complete 7.22-7.24, 7.27-7.30, 7.34 (for 7.34 don't worry about proving your claims) in *Chapter 7: Relations and Partitions* and digest the surrounding text along the way. (Due Monday, November 6)
 
 ## Weekly Homework ##
 For most of the assignments below, you will be required to submit 2-3 formally written proofs. You are required to type your submission using LaTeX (see below). 
