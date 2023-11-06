@@ -58,6 +58,8 @@ The following assignments are due at the beginning of the indicated class meetin
 - **Daily Homework 23:** Complete 4.37, 4.38, 6.19 and read 4.39, 4.40 in *Chapter 4: Induction* and *Chapter 6: Three Famous Theorems* and digest the surrounding text along the way. (Due Wednesday, November 1)
 - **Daily Homework 24:** Complete 7.10, 7.12, 7.13, 7.16, 7.19 in *Chapter 7: Relations and Partitions* and digest the surrounding text along the way. (Due Friday, November 3)
 - **Daily Homework 25:** Complete 7.22-7.24, 7.27-7.30, 7.34 (for 7.34 don't worry about proving your claims) in *Chapter 7: Relations and Partitions* and digest the surrounding text along the way. (Due Monday, November 6)
+- **Daily Homework 26:** Complete ??? in *Chapter 7: Relations and Partitions* and digest the surrounding text along the way. (Due Wednesday, November 8)
+
 
 ## Weekly Homework ##
 For most of the assignments below, you will be required to submit 2-3 formally written proofs. You are required to type your submission using LaTeX (see below). 
@@ -70,6 +72,8 @@ For most of the assignments below, you will be required to submit 2-3 formally w
 - **Weekly Homework 2:** Prove **two** of 2.51, 2.52, 2.56, 2.57. You must type up your proofs using LaTeX.  I recommend using my [Overleaf template](https://www.overleaf.com/latex/templates/weekly-homework-x/cbpdxbqknrvq). (Due in Canvas by Thursday, September 28 by 8PM)
 - **Weekly Homework 3:** Prove **one** of the true statements from 3.61 and **one** of 4.2-4.6. You must type up your proofs using LaTeX.  I recommend using my [Overleaf template](https://www.overleaf.com/latex/templates/weekly-homework-x/cbpdxbqknrvq). (Due in Canvas by Thursday, October 27 by 8PM)
 - **Weekly Homework 4:** Prove **one** of 4.11-4.23 and **one** of 4.27-4.31, 4.34. You must type up your proofs using LaTeX.  I recommend using my [Overleaf template](https://www.overleaf.com/latex/templates/weekly-homework-x/cbpdxbqknrvq). (Due in Canvas by Thursday, November 2 by 8PM)
+- **Weekly Homework 5:** Prove **two** of 4.36, 4.38, 6.19 You must type up your proofs using LaTeX.  I recommend using my [Overleaf template](https://www.overleaf.com/latex/templates/weekly-homework-x/cbpdxbqknrvq). (Due in Canvas by Thursday, November 9 by 8PM)
+
 
 
 <!-- - **Weekly Homework 1:** Watch "Grit: the power of passion and perseverance" and any other 4 videos listed under <em>Videos on Growth Mindset and Productive Failure</em> on the <a href="{{site.baseurl}}/teaching/mat320f23/materials/">Course Materials</a> page and then write a reflection that is at least 15 sentences long. You should list the videos you watched. Rather than reflecting on each video separately, try to reflect on growth mindset, productive failure, and grit, in general. <b>You are required to type your reflection using LaTeX</b>. For this assignment, I suggest you use the template on [Overleaf](https://www.overleaf.com/) found [here](https://www.overleaf.com/latex/templates/weekly-homework-1-for-reflection-on-growth-mindset-and-productive-failure-foundations-of-mathematics/pxwcxqqrqmdv) (after clicking link, click on "Open as Template") instead of using the "Start your homework in Overleaf" link below.  (Due ??? by 8PM) -->
