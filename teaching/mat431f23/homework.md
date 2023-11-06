@@ -58,7 +58,7 @@ The following assignments are due at the beginning of the indicated class meetin
 - **Homework 23:** Complete 5.32-5.34 in *Chapter 5: Sequences*.  (Due Monday, October 30)
 - **Homework 24:** Complete 6.3-6.5, 6.7, 6.8 in *Chapter 6: Continuity*.  (Due Wednesday, November 1)
 - **Homework 25:** Complete 6.9, 6.11-6.14 in *Chapter 6: Continuity*.  (Due Friday, November 3)
-- **Homework 26:** Read 6.15 and complete 6.16, 6.23, and one of 6.19(a), 6.19(b), 6.19(c), 6.19(d), 6.20, 6.22 in *Chapter 6: Continuity*.  (Due Monday, November 6)
+- **Homework 26:** Read 6.15 and complete 6.16, 6.23, and one of 6.19(a), 6.19(b), 6.19(c), 6.19(d), 6.20, 6.21 in *Chapter 6: Continuity*.  (Due Monday, November 6)
 - **Homework 27:** Complete ??? in *Chapter 6: Continuity*.  (Due Wednesday, November 8)
 
 <!-- 
