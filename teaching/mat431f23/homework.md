@@ -60,6 +60,7 @@ The following assignments are due at the beginning of the indicated class meetin
 - **Homework 25:** Complete 6.9, 6.11-6.14 in *Chapter 6: Continuity*.  (Due Friday, November 3)
 - **Homework 26:** Read 6.15 and complete 6.16, 6.23, and one of 6.19(a), 6.19(b), 6.19(c), 6.19(d), 6.20, 6.21 in *Chapter 6: Continuity*.  (Due Monday, November 6)
 - **Homework 27:** Complete 6.24-6.27 in *Chapter 6: Continuity*.  (Due Wednesday, November 8)
+- **Homework 28:** Complete 6.29-6.32, 6.34 in *Chapter 6: Continuity*.  (Due Monday, November 13)
 
 <!-- 
 - **Homework 5:** Complete Problems 3.8, 3.9, 3.13, 3.14 from [Chapter 3: The Real Numbers]({{site.baseurl}}/teaching/mat431f23/RealNumbers.pdf). (Due Monday, August 30)
