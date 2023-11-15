@@ -102,6 +102,7 @@ I will not be covering every detail of the notes and the only way to achieve a s
 Below are links to the take-home portions of each exam. If you are interested in using LaTeX to type up your solutions, contact me and I will send you a link to the source file of the exam.
 
 - [Exam 1 (Part 2)]({{site.baseurl}}/teaching/mat431f23/431Exam1-Part2.pdf) (PDF) (Due Friday, October 20)
+- [Exam 2 (Part 2)]({{site.baseurl}}/teaching/mat431f23/431Exam2-Part2.pdf) (PDF) (Due Wednesday, November 22)
 
 ## Miscellaneous Materials ##
 - Pictures of board work that we ran out of time to discuss. *Note:* You should not assume that the solutions/proofs posted below are valid or sufficient.
