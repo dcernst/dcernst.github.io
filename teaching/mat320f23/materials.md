@@ -51,7 +51,7 @@ If you've found an error or have suggestions for improvements, please let me kno
 Below are links to the take-home portions of each exam. If you are interested in using LaTeX to type up your solutions, contact me and I will send you a link to the source file of the exam.
 
 - [Exam 1 (Part 2)]({{site.baseurl}}/teaching/mat320f23/320Exam1-Part2.pdf) (PDF) (Due Monday, October 16)
-- [Exam 2 (Part 2)]({{site.baseurl}}/teaching/mat320f23/320Exam1-Part2.pdf) (PDF) (Due Wednesday, November 22)
+- [Exam 2 (Part 2)]({{site.baseurl}}/teaching/mat320f23/320Exam2-Part2.pdf) (PDF) (Due Wednesday, November 22)
 
 ## Miscellaneous Materials ##
 - [Setting the Stage]({{ site.baseurl }}/teaching/SettingTheStage.pdf) (PDF)
