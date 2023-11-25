@@ -15,6 +15,8 @@ Below is list of talks and presentations that I have given over the past several
 
 <!-- In particular, you can find the collection of my recent slides on [Speaker Deck](https://speakerdeck.com/dcernst). -->
 
+- An introduction to species (3 talks). [NAU Mathematics Seminar](http://naumathstat.github.io/seminars/mathseminar/). NAU, Flagstaff, AZ. November 2023.
+- Topics in combinatorics. NAU Mathematics and Statistics Putnam Exam Preparation. NAU, Flagstaff, AZ. November 2023.
 - Adopting, Adapting and Creating Open Education Resources (panel discussion). [NAU Teaching and Learning Center: Faculty Professional Development Opportunities](https://in.nau.edu/teaching-learning-center). NAU, Flagstaff, AZ. October 2023.
 - Sabbatical Report / Categories of rulesets and games. [NAU Mathematics and Statistics Colloquium](http://naumathstat.github.io/seminars/colloquium), NAU, Flagstaff, AZ. September 2023. [[Slides](http://dcernst.github.io/talks/SabbaticalReport-Ernst.pdf)]
 - Discussion of Open Educational Resources (OER). [NAU Mathematics and Statistics Teaching Seminar](http://naumathstat.github.io/seminars/teaching/). August 2023. [[Slides](https://docs.google.com/presentation/d/1hELzJQmd-8hPUyjDQWkFP5ZhM7t5w28X7r5KxF6aDdw/edit?usp=sharing)]
