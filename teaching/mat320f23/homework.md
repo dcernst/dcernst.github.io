@@ -60,7 +60,7 @@ The following assignments are due at the beginning of the indicated class meetin
 - **Daily Homework 25:** Complete 7.22-7.24, 7.27-7.30, 7.34 (for 7.34 don't worry about proving your claims) in *Chapter 7: Relations and Partitions* and digest the surrounding text along the way. (Due Monday, November 6)
 - **Daily Homework 26:** Complete 7.36-7.42 in *Chapter 7: Relations and Partitions* and digest the surrounding text along the way. (Due Wednesday, November 8)
 - **Daily Homework 27:** Complete 7.43, 7.47-7.50 in *Chapter 7: Relations and Partitions* and digest the surrounding text along the way. (Due Monday, November 13)
-
+- **Daily Homework 28:** Complete ??? in *Chapter 8: Functions* and digest the surrounding text along the way. (Due Wednesday, November 29)
 
 ## Weekly Homework ##
 For most of the assignments below, you will be required to submit 2-3 formally written proofs. You are required to type your submission using LaTeX (see below). 
