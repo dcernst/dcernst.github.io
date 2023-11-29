@@ -63,7 +63,7 @@ The following assignments are due at the beginning of the indicated class meetin
 - **Homework 28:** Complete 6.29-6.32, 6.34 in *Chapter 6: Continuity*.  (Due Monday, November 13)
 - **Homework 29:** Complete 6.38 and any three of 6.39-6.42 in *Chapter 6: Continuity*.  (Due Wednesday, November 15)
 - **Homework 30:** Complete 9.2, 9.7-9.9 in *Chapter 9: Integration*.  (Due Wednesday, November 29)
-- **Homework 31:** Complete ??? in *Chapter 9: Integration*.  (Due Friday, December 1)
+- **Homework 31:** Complete 9.10-9.12, 9.14, 9.15, 9.17, 9.18 in *Chapter 9: Integration*.  (Due Friday, December 1)
 
 <!-- 
 - **Homework 5:** Complete Problems 3.8, 3.9, 3.13, 3.14 from [Chapter 3: The Real Numbers]({{site.baseurl}}/teaching/mat431f23/RealNumbers.pdf). (Due Monday, August 30)
