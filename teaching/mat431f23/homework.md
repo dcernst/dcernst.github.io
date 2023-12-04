@@ -65,3 +65,5 @@ The following assignments are due at the beginning of the indicated class meetin
 - **Homework 30:** Complete 9.2, 9.7-9.9 in *Chapter 9: Integration*.  (Due Wednesday, November 29)
 - **Homework 31:** Complete 9.10-9.12, 9.14, 9.15, 9.17, 9.18 in *Chapter 9: Integration*.  (Due Friday, December 1)
 - **Homework 32:** Complete 9.21-9.24, 9.27 in *Chapter 9: Integration*. Problems 9.19 and 9.25 are optional. (Due Monday, December 4)
+- **Homework 33:** Complete 9.29-9.32 in *Chapter 9: Integration*. (Due Wednesday, December 6)
+- **Homework 34:** Complete 9.34-9.37 in *Chapter 9: Integration*. (Due Friday, December 8)
