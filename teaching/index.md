@@ -15,7 +15,7 @@ This section is primarily designed for my current students, but if you are not o
 My current office hours for Fall 2023 are MoTu 2-3:30PM, Tu 10-11:30AM, Fr 10:15-11:15AM (or by appointment).  My office is located in room 176 of the [Adel Mathematics Building](http://maps.google.com/maps?q=Adel+Mathematics,+Flagstaff,+AZ&hl=en&sll=35.181208,-111.607959&sspn=0.231222,0.42675&oq=adel+mathe&hnear=Adel+Mathematics,+Flagstaff,+Arizona+86001&t=m&z=17) (Building 26).
 
 ## Current Courses ##
-Here are the courses that I am currently teaching (Fall 2022) at [Northern Arizona University](http://nau.edu).
+Here are the courses that I am currently teaching (Fall 2023) at [Northern Arizona University](http://nau.edu).
 - [MAT 226: Discrete Mathematics, Fall 2023]({{ site.baseurl }}/teaching/mat226f23)
 - [MAT 320: Foundations of Mathematics, Fall 2023]({{ site.baseurl }}/teaching/mat320f23)
 - [MAT 431: Introduction to Analysis, Fall 2023]({{ site.baseurl }}/teaching/mat431f23)

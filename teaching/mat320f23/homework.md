@@ -63,6 +63,7 @@ The following assignments are due at the beginning of the indicated class meetin
 - **Daily Homework 28:** Complete 8.54, 8.55, 8.57-8.60 in *Chapter 8: Functions* and digest the surrounding text along the way. (Due Wednesday, November 29)
 - **Daily Homework 29:** Complete 8.61-8.63, 8.64 or 8.65, and 8.68, 8.69 in *Chapter 8: Functions* and digest the surrounding text along the way. (Due Friday, December 1)
 - **Daily Homework 30:** Complete 8.71-8.75 in *Chapter 8: Functions* and digest the surrounding text along the way. (Due Monday, December 4)
+- **Daily Homework 31:** Complete 8.76-8.79 in *Chapter 8: Functions* and digest the surrounding text along the way. (Due Wednesday, December 6)
 
 ## Weekly Homework ##
 For most of the assignments below, you will be required to submit 2-3 formally written proofs. You are required to type your submission using LaTeX (see below). 
