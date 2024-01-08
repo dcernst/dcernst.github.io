@@ -12,18 +12,20 @@ layout: default
 This section is primarily designed for my current students, but if you are not one of my students and somehow found your way here, feel free to poke around. Unless stated otherwise, content on this site that is authored by Dana C. Ernst is licensed under a [Creative Commons Attribution-Share Alike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/).
 
 ## Office Hours ##
-My current office hours for Fall 2023 are MoTu 2-3:30PM, Tu 10-11:30AM, Fr 10:15-11:15AM (or by appointment).  My office is located in room 176 of the [Adel Mathematics Building](http://maps.google.com/maps?q=Adel+Mathematics,+Flagstaff,+AZ&hl=en&sll=35.181208,-111.607959&sspn=0.231222,0.42675&oq=adel+mathe&hnear=Adel+Mathematics,+Flagstaff,+Arizona+86001&t=m&z=17) (Building 26).
+My current office hours for Fall 2023 are Monday, Tuesday, Friday at 1:30-3:00PM and Wednesday at 9:00-10:00AM (or by appointment).  My office is located in room 176 of the [Adel Mathematics Building](http://maps.google.com/maps?q=Adel+Mathematics,+Flagstaff,+AZ&hl=en&sll=35.181208,-111.607959&sspn=0.231222,0.42675&oq=adel+mathe&hnear=Adel+Mathematics,+Flagstaff,+Arizona+86001&t=m&z=17) (Building 26).
 
 ## Current Courses ##
 Here are the courses that I am currently teaching (Fall 2023) at [Northern Arizona University](http://nau.edu).
-- [MAT 226: Discrete Mathematics, Fall 2023]({{ site.baseurl }}/teaching/mat226f23)
-- [MAT 320: Foundations of Mathematics, Fall 2023]({{ site.baseurl }}/teaching/mat320f23)
-- [MAT 431: Introduction to Analysis, Fall 2023]({{ site.baseurl }}/teaching/mat431f23)
+- [MAT 226: Discrete Mathematics, Spring 2024]({{ site.baseurl }}/teaching/mat226s24)
+- [MAT 690: Combinatorial Game Theory, Spring 2024]({{ site.baseurl }}/teaching/mat690s24)
 
 ## Previous Courses ##
 This is a (partial) list of courses that I have taught over the past several semesters. **Note:** Some of the links on the pages below may be outdated.
 
 #### Northern Arizona University ####
+- [MAT 226: Discrete Mathematics, Fall 2023]({{ site.baseurl }}/teaching/mat226f23)
+- [MAT 320: Foundations of Mathematics, Fall 2023]({{ site.baseurl }}/teaching/mat320f23)
+- [MAT 431: Introduction to Analysis, Fall 2023]({{ site.baseurl }}/teaching/mat431f23)
 - [MAT 123: First Year Seminar, Fall 2022]({{ site.baseurl }}/teaching/mat123f22)
 - [MAT 136H: Calculus I (Honors), Fall 2022]({{ site.baseurl }}/teaching/mat136f22)
 - [MAT 526: Topics in Combinatorics, Fall 2022]({{ site.baseurl }}/teaching/mat526f22)
