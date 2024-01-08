@@ -7,18 +7,18 @@ title: Course Materials
 <ol class="breadcrumb">
   <li><a href="/"><i class="fa fa-home"></i></a></li>
   <li><a href="/teaching/">Teaching</a></li>
-  <li><a href="/teaching/mat226f23">MAT226</a></li>
+  <li><a href="/teaching/mat226s24">MAT226</a></li>
   <li class="active">Materials</li>
 </ol>
 
 <div class="row">
 <div class="col-xs-12">
 <div class="btn-group btn-group-justified">
-<a class="btn btn-default btn-success" href="{{site.baseurl}}/teaching/mat226f23/syllabus/">Syllabus</a>
-<a class="btn btn-default btn-primary" href="{{site.baseurl}}/teaching/mat226f23/materials/">
+<a class="btn btn-default btn-success" href="{{site.baseurl}}/teaching/mat226s24/syllabus/">Syllabus</a>
+<a class="btn btn-default btn-primary" href="{{site.baseurl}}/teaching/mat226s24/materials/">
 <span class="hidden-xs">Course Materials</span><span class="visible-xs">Stuff</span>
 </a>
-<a class="btn btn-default btn-warning" href="{{site.baseurl}}/teaching/mat226f23/homework/">
+<a class="btn btn-default btn-warning" href="{{site.baseurl}}/teaching/mat226s24/homework/">
 <span class="hidden-xs">Homework</span><span class="visible-xs">HW</span>
 </a>
 </div>
@@ -31,15 +31,15 @@ Our textbook for the semester is <i>Introduction to Discrete Mathematics</i>.  E
 
 - Coming soon...
 
-<!-- - [Title Page and Front Matter](https://danaernst.com/teaching/mat226f23/TitlePage.pdf)
-- [Chapter 1: First Principles](https://danaernst.com/teaching/mat226f23/FirstPrinciples.pdf)
-- [Chapter 2: Permutations and Combinations](https://danaernst.com/teaching/mat226f23/PermutationsCombinations.pdf)
-- [Chapter 3: The Binomial Theorem](https://danaernst.com/teaching/mat226f23/BinomialTheorem.pdf)
-- [Chapter 4: Additional Counting Methods](https://danaernst.com/teaching/mat226f23/AdditionalCounting.pdf)
-- [Chapter 5: Mathematical Induction](https://danaernst.com/teaching/mat226f23/Induction.pdf)
-- [Chapter 6: Sequences and Recurrence Relations](https://danaernst.com/teaching/mat226f23/SequencesRecurrenceRelations.pdf)
-- [Chapter 7: Introduction to Graph Theory](https://danaernst.com/teaching/mat226f23/GraphTheory.pdf)
-- [Chapter 8: Additional Graph Theory](https://danaernst.com/teaching/mat226f23/AdditionalGraphTheory.pdf) -->
+<!-- - [Title Page and Front Matter](https://danaernst.com/teaching/mat226s24/TitlePage.pdf)
+- [Chapter 1: First Principles](https://danaernst.com/teaching/mat226s24/FirstPrinciples.pdf)
+- [Chapter 2: Permutations and Combinations](https://danaernst.com/teaching/mat226s24/PermutationsCombinations.pdf)
+- [Chapter 3: The Binomial Theorem](https://danaernst.com/teaching/mat226s24/BinomialTheorem.pdf)
+- [Chapter 4: Additional Counting Methods](https://danaernst.com/teaching/mat226s24/AdditionalCounting.pdf)
+- [Chapter 5: Mathematical Induction](https://danaernst.com/teaching/mat226s24/Induction.pdf)
+- [Chapter 6: Sequences and Recurrence Relations](https://danaernst.com/teaching/mat226s24/SequencesRecurrenceRelations.pdf)
+- [Chapter 7: Introduction to Graph Theory](https://danaernst.com/teaching/mat226s24/GraphTheory.pdf)
+- [Chapter 8: Additional Graph Theory](https://danaernst.com/teaching/mat226s24/AdditionalGraphTheory.pdf) -->
 
 I will not be covering every detail of the textbook and the only way to achieve a sufficient understanding of the material is to be digesting the reading in a meaningful way.  You should be seeking clarification about the content whenever necessary by asking questions.  Here's one of my favorite quotes about reading mathematics.
 

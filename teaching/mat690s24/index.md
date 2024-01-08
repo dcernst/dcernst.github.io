@@ -1,5 +1,5 @@
 ---
-title: Combinatorics of Genome Rearrangements
+title: Combinatorial Game Theory
 author: Dana Ernst
 layout: default
 ---
