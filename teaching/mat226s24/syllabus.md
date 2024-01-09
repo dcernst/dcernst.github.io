@@ -225,7 +225,7 @@ There will be two midterm exams and a cumulative final exam.  Exam 1 and Exam 2 
 <footer><a href="https://en.wikipedia.org/wiki/Ernest_Hemingway">Ernest Hemingway</a></footer>
 </blockquote>
 
-### Attendance ###
+### Attendance and Participation ###
 Regular attendance is expected and is vital to success in this course, but you will not explicitly be graded on attendance.  Students can find more information about NAU's attendance policy on the [Academic Policies](https://in.nau.edu/dean-of-students/academic-policies/) page.
 
 ### Extra Credit
@@ -273,7 +273,7 @@ In summary, your final grade will be determined by your scores in the following 
 <footer><a href="https://en.wikipedia.org/wiki/Theodore_Roosevelt">Theodore Roosevelt</a>, <a href="https://en.wikipedia.org/wiki/Citizenship_in_a_Republic">Citizenship in a Republic</a>.</footer>
 </blockquote>
 
-### Department and University Policies ###
+### Department Policies ###
 You are responsible for knowing and following the [Department of Mathematics and Statistics Policies]({{ site.baseurl }}/teaching/DepartmentPoliciesSpring2024.pdf) (PDF) and other University policies listed [here](https://nau.edu/wp-content/uploads/sites/26/Syllabus-Policy-Statements-Final-Aug-4-2022-1-2.pdf) (PDF).  More policies can be found in other university documents, especially the [NAU Student Handbook](https://in.nau.edu/dean-of-students/Student-Handbook/) (see appendices).
 
 As per Department Policy, cell phones, MP3 players and portable electronic communication devices, including but not limited to smart phones, cameras and recording devices, must be turned off and inaccessible during in-class tests. Any violation of this policy will be treated as academic dishonesty.

@@ -62,11 +62,11 @@ This course will be an introduction to combinatorial game theory. We will study 
 </blockquote>
 
 ### Course Materials ###
-There is no textbook for this course.  All course content will be covered via lectures and homework.
+There is no textbook for this course.  All course content will be covered via lectures and homework. You should be seeking clarification about the content whenever necessary by asking questions.  Here's one of my favorite quotes about reading mathematics.
 
 <blockquote>
-<p>An ounce of practice is worth more than tons of preaching.</p>
-<footer><a href="https://en.wikipedia.org/wiki/Mahatma_Gandhi">Mahatma Gandhi</a></footer>
+<p>Don’t just read it; fight it! Ask your own questions, look for your own examples, discover your own proofs. Is the hypothesis necessary? Is the converse true? What happens in the classical special case? What about the degenerate cases? Where does the proof use the hypothesis?</p>
+<footer><a href="http://en.wikipedia.org/wiki/Paul_Halmos">Paul Halmos</a></footer>
 </blockquote>
 
 ### Rights of the Learner ##
@@ -116,14 +116,14 @@ The following are examples (not an exhaustive list) of behaviors that do not con
 - Asking the instructor for assistance or a hint
 
 <blockquote>
-<p>You will become clever through your mistakes.</p>
-<footer><a href=" ">German Proverb</a></footer>
+<p>Tell me and I forget, teach me and I may remember, involve me and I learn.</p>
+<footer><a href="https://en.wikipedia.org/wiki/Benjamin_Franklin">Benjamin Franklin</a></footer>
 </blockquote>
 
 ### Homework ###
-You are allowed and encouraged to work together on homework.  However, each student is expected to turn in their own work.  Unless stated otherwise, homework will be due at the begining of class on the day it is due.  In general, late homework will *not* be accepted.  However, you are allowed to turn in up to **two late homework assignments** with no questions asked. When doing your homework, I encourage you to consult the [Elements of Style for Proofs]({{site.baseurl}}/teaching/ElementsOfStyle.pdf). On each homework assignment, please write (i) your name, (ii) name of course, and (iii) Homework number.  You can find the list of assignments on the [homework page]({{site.baseurl}}/teaching/mat690s24/homework/).  I reserve the right to modify the homework assignments as I see necessary.
+You are allowed and encouraged to work together on homework.  However, each student is expected to turn in their own work.  In general, late homework will *not* be accepted.  However, you are allowed to turn in up to **two late homework assignments** with no questions asked. Unless you have made arrangements in advance with me, homework turned in after class will be considered late. You can find the list of assignments on the [homework page]({{site.baseurl}}/teaching/mat226s24/homework/).  I reserve the right to modify the homework assignments as I see necessary.
 
-Generally, the written homework assignments will be due on Wednesdays, but I will always tell you when a given homework assignment is due. Your homework will always be graded for completion and some subset of the problems will be graded for correctness. Problems that are graded for completeness will be worth 1 point.  Problems that are graded for correctness will either be worth 2 points or 4 points depending on the level of difficulty.  Generally, computational problems will be worth 2 points while problems requiring a formal proof will be worth 4 points.  Each 4-point problem is subject to the following rubric:
+Your homework will always be graded for completion and some subset of the problems will be graded for correctness. Problems that are graded for completeness will be worth 1 point.  Problems that are graded for correctness will either be worth 2 points or 4 points depending on the level of difficulty.  Generally, quick computational problems will be worth 2 points while more substantial problems will be worth 4 points.  Each 4-point problem is subject to the following rubric:
 
 <center>
 <table class="table table-striped">
@@ -166,15 +166,15 @@ To compute your score on a given homework assignment, I will divide your total p
 </blockquote>
 
 ### Exams ###
-There will be one midterm exam and a cumulative final exam.  Each exam will consist of an in-class portion and a take-home portion. The in-class portion of the midterm exam is *tentatively* scheduled for **Friday, March 4** (week 8) and is worth 25% of your overall grade in the course. The in-class portion of the final exam will be on **Monday, May 2** at 12:30-2:30PM and is worth 25% of your overall grade. Make-up exams will only be given under extreme circumstances, as judged by me. In general, it will be best to communicate conflicts ahead of time.
+There will be one midterm exam and a cumulative final exam.  Each exam will consist of an in-class portion and possibly a take-home portion. The in-class portion of the midterm exam is *tentatively* scheduled for **Monday, March 4** (week 8). The in-class portion of the final exam will be on **Wednesday, May 8** at 12:30-2:30PM. The Midterm Exam and the Final Exam will each be worth 25% of your final course grade. Make-up exams will only be given under extreme circumstances, as judged by me. In general, it will be best to communicate conflicts ahead of time.
 
 <blockquote>
 <p>The impediment to action advances action. What stands in the way becomes the way.</p>
 <footer><a href="https://en.wikipedia.org/wiki/Marcus_Aurelius">Marcus Aurelius</a></footer>
 </blockquote>
 
-### Attendance and Participation ###
-Regular attendance is expected and is vital to success in this course, but you will not explicitly be graded on attendance.  Students can find more information about NAU's attendance policy on the [Academic Policies](https://in.nau.edu/dean-of-students/academic-policies/) page. You are also expected to respectfully participate and contribute to class discussions. This includes asking relevant and meaningful questions to both the instructor and your peers in class and on our Discord server.
+### Attendance ###
+Regular attendance is expected and is vital to success in this course, but you will not explicitly be graded on attendance.  Students can find more information about NAU's attendance policy on the [Academic Policies](https://in.nau.edu/dean-of-students/academic-policies/) page.
 
 <blockquote>
 <p>I must not fear.<br />
@@ -188,8 +188,13 @@ Only I will remain.</p>
 <footer class="blockquote-footer"><a href="https://en.wikipedia.org/wiki/Bene_Gesserit#Litany_against_fear">Bene Gesserit litany against fear</a> from Frank Herbert's <a href="https://en.wikipedia.org/wiki/Frank_Herbert%27s_Dune">Dune</a></footer>
 </blockquote>
 
-### Extra Credit ###
-The only thing I will award extra credit for is finding typos on course materials (e.g., textbook, exams, syllabus, webpage).  This includes broken links on the webpage.  However, it does not include the placement of commas and such.  If you find a typo, I will add one percentage point to your next exam.  You can earn at most five percentage points over the course of the semester. They're is a typo right here.
+### Extra Credit
+The only thing I will award extra credit for is finding typos on course materials (e.g., textbook, exams, syllabus, webpage).  This includes broken links on the webpage.  However, it does not include the placement of commas and such.  If you find a typo, I will add one percentage point to your next exam.  You can earn at most three percentage points per exam. Extra credit points are only available to the first person to notify me of the error. They're is a typo right here.
+
+<blockquote>
+<p>The impediment to action advances action. What stands in the way becomes the way.</p>
+<footer><a href="https://en.wikipedia.org/wiki/Marcus_Aurelius">Marcus Aurelius</a></footer>
+</blockquote>
 
 ### Basis for Evaluation ###
 In summary, your final grade will be determined by your scores in the following categories.
@@ -212,52 +217,76 @@ In summary, your final grade will be determined by your scores in the following 
 	<tr>
 		<td>Midterm Exam</td>
 		<td style="text-align: center;">25%</td>
-		<td>In-class portion on Friday, March 4</td>
+		<td>Monday, March 4</td>
 	</tr>
-	<tr>
-		<td>Final Exam</td>
-		<td style="text-align: center;">25%</td>
-		<td>Monday, May 2 at 12:30-2:30PM</td>
-	</tr>
-	</tbody>
+  <tr>
+	<td>Final Exam</td>
+	<td style="text-align: center;">25%</td>
+	<td>May 8, 10:00AM-12:00PM</td>
+</tr>
+</tbody>
 </table>
 </center>
+
+<blockquote>
+<p>An ounce of practice is worth more than tons of preaching.</p>
+<footer><a href="https://en.wikipedia.org/wiki/Mahatma_Gandhi">Mahatma Gandhi</a></footer>
+</blockquote>
+
+### Department Policies ###
+You are responsible for knowing and following the [Department of Mathematics and Statistics Policies]({{ site.baseurl }}/teaching/DepartmentPoliciesSpring2024.pdf) (PDF) and other University policies listed [here](https://nau.edu/wp-content/uploads/sites/26/Syllabus-Policy-Statements-Final-Aug-4-2022-1-2.pdf) (PDF).  More policies can be found in other university documents, especially the [NAU Student Handbook](https://in.nau.edu/dean-of-students/Student-Handbook/) (see appendices).
+
+As per Department Policy, cell phones, MP3 players and portable electronic communication devices, including but not limited to smart phones, cameras and recording devices, must be turned off and inaccessible during in-class tests. Any violation of this policy will be treated as academic dishonesty.
 
 <blockquote>
 <p>It is not the critic who counts; not the man who points out how the strong man stumbles, or where the doer of deeds could have done them better. The credit belongs to the man who is actually in the arena, whose face is marred by dust and sweat and blood; who strives valiantly; who errs, who comes short again and again, because there is no effort without error and shortcoming; but who does actually strive to do the deeds; who knows great enthusiasms, the great devotions; who spends himself in a worthy cause; who at the best knows in the end the triumph of high achievement, and who at the worst, if he fails, at least fails while daring greatly, so that his place shall never be with those cold and timid souls who neither know victory nor defeat.</p>
 <footer><a href="https://en.wikipedia.org/wiki/Theodore_Roosevelt">Theodore Roosevelt</a>, <a href="https://en.wikipedia.org/wiki/Citizenship_in_a_Republic">Citizenship in a Republic</a></footer>
 </blockquote>
 
-### Department and University Policies ###
-You are responsible for knowing and following the [Department of Mathematics and Statistics Policies]({{ site.baseurl }}/teaching/DepartmentPoliciesSpring2022.pdf) (PDF) and other University policies listed [here](https://nau.edu/university-policy-library/wp-content/uploads/sites/26/Syllabus-Policy-Statements.pdf) (PDF).  More policies can be found in other university documents, especially the [NAU Student Handbook](https://in.nau.edu/dean-of-students/Student-Handbook/) (see appendices).
-
-As per Department Policy, cell phones, MP3 players and portable electronic communication devices, including but not limited to smart phones, cameras and recording devices, must be turned off and inaccessible during in-class tests. Any violation of this policy will be treated as academic dishonesty.
-
-### Important Dates ###
-Here are some important dates:
-
-- **January 17:** MLK Day (no classes)
-- **January 20:** Last day to add a course
-- **January 20:** Last day to Drop/Delete (without "W")
-- **March 14-18:** Spring Break (no classes)
-- **March 21:** Last day to withdraw from individual courses without a petition (with "W")
-- **May 2:** Final Exam (12:20-2:30PM)
-
 ### Getting Help ###
-There are many resources available to get help.  First, you are allowed and encouraged to work together on homework.  However, each student is expected to turn in their own work. You are strongly encouraged to ask questions in our Discord discussion group, as I (and hopefully other members of the class) will post comments there for all to benefit from.  You are also encouraged to stop by during my office hours and you can always [email me](mailto:dana.ernst@nau.edu).  I am always happy to help you.  If my office hours don't work for you, then we can probably find another time to meet.  It is your responsibility to be aware of how well you understand the material.  Don't wait until it is too late if you need help.  *Ask questions*!
-
-<blockquote>
-<p>Tell me and I forget, teach me and I may remember, involve me and I learn.</p>
-<footer><a href="https://en.wikipedia.org/wiki/Benjamin_Franklin">Benjamin Franklin</a></footer>
-</blockquote>
+There are many resources available to get help.  First, you are allowed and encouraged to work together on homework.  However, each student is expected to turn in their own work. You are strongly encouraged to ask questions in our Q&A Discussion board, as I (and hopefully other members of the class) will post comments there for all to benefit from.  You are also encouraged to stop by during my office hours and you can always [email me](mailto:dana.ernst@nau.edu).  I am always happy to help you.  If my office hours don't work for you, then we can probably find another time to meet.  It is your responsibility to be aware of how well you understand the material.  Don't wait until it is too late if you need help.  *Ask questions*!
 
 ### Changes to the Syllabus ###
 Any changes to this syllabus made during the term will be properly communicated to the class.
+
+### Career Ready Resources ###
+
+- LinkedIn: [CEFNS Career Development](www.linkedin.com/in/cefns-career-development-072715233); [NAU Career Development](https://www.linkedin.com/company/nau-career-development/)
+- [Handshake]https://nau.joinhandshake.com/login
+- [Udemy](https://in.nau.edu/its/udemy/): Online courses and career searching advice. Log in with your NAU email account and
+search ‘NAU Career Steps’
+- [O*net Online](https://www.onetonline.org/): Occupation exploration reports
 
 <blockquote>
 <p>If you want to sharpen a sword, you have to remove a little metal.</p>
 <footer><a href=" ">Unknown</a></footer>
 </blockquote>
+
+### University Policies ###
+
+**Academic Integrity:** NAU expects every student to firmly adhere to a strong ethical code of academic integrity in all their scholarly pursuits. The primary attributes of academic integrity are honesty, trustworthiness, fairness, and responsibility. As a student, you are expected to submit original work while giving proper credit to other people’s ideas or contributions. Acting with academic integrity means completing your assignments independently while truthfully acknowledging all sources of information, or collaboration with others when appropriate. When you submit your work, you are implicitly declaring that the work is your own. Academic integrity is expected not only during formal coursework, but in all your relationships or interactions that are connected to the educational enterprise. All forms of academic deceit such as plagiarism, cheating, collusion, falsification or fabrication of results or records, permitting your work to be submitted by another, or inappropriately recycling your own work from one class to another, constitute academic misconduct that may result in serious disciplinary consequences. All students and faculty members are responsible for reporting suspected instances of academic misconduct. All students are encouraged to complete NAU’s online academic integrity workshop available in the E-Learning Center and should review the full Academic Integrity policy available [here](https://policy.nau.edu/policy/policy.aspx?num=100601).
+
+**Copyright Infringement:** All lectures and course materials, including but not limited to exams, quizzes, study outlines, and similar materials are protected by copyright. These materials may not be shared, uploaded, distributed, reproduced, or publicly displayed without the express written permission of NAU. Sharing materials on websites such as Course Hero, Chegg, or related websites is considered copyright infringement subject to United States Copyright Law and a violation of NAU Student Code of Conduct. For additional information on ABOR policies relating to course materials, please refer to ABOR Policy 6-908 A(2)(5).  
+
+**Course Time Commitment:** Pursuant to Arizona Board of Regents guidance (ABOR Policy 2-224, Academic Credit), each unit of credit requires a minimum of 45 hours of work by students, including but not limited to, class time, preparation, homework, and studying. For example, for a 3-credit course a student should expect to work at least 8.5 hours each week in a 16-week session and a minimum of 33 hours per week for a 3-credit course in a 4-week session.
+
+**Disruptive Behavior:** Membership in NAU’s academic community entails a special obligation to maintain class environments that are conductive to learning, whether instruction is taking place in the classroom, a laboratory or clinical setting, during course-related fieldwork, or online. Students have the obligation to engage in the educational process in a manner that does not interfere with normal class activities or violate the rights of others. Instructors have the authority and responsibility to address disruptive behavior that interferes with student learning, which can include the involuntary withdrawal of a student from a course with a grade of “W”. For additional information, see NAU’s Disruptive Behavior in an Instructional Setting policy located [here](https://nau.edu/university-policy-library/disruptive-behavior).
+
+**Nondiscrimination and Anti-harassment:** NAU prohibits discrimination and harassment based on sex, gender, gender identity, race, color, age, national origin, religion, sexual orientation, disability, veteran status and genetic information. Certain consensual amorous or sexual relationships between faculty and students are also prohibited as set forth in the Consensual Romantic and Sexual Relationships policy. The Equity and Access Office (EAO) responds to complaints regarding discrimination and harassment that fall under NAU’s Nondiscrimination and Anti- Harassment policy. EAO also assists with religious accommodations. For additional information about nondiscrimination or anti-harassment or to file a complaint, contact EAO located in Old Main (building 10), Room 113, PO Box 4083, Flagstaff, AZ 86011, or by phone at 928-523-3312 (TTY: 928-523-1006), fax at 928-523-9977, email at equityandaccess@nau.edu, or visit the EAO website located [here](https://nau.edu/equity-and-access).
+
+**Title IX:** Title IX of the Education Amendments of 1972, as amended, protects individuals from discrimination based on sex in any educational program or activity operated by recipients of federal financial assistance. In accordance with Title IX, Northern Arizona University prohibits discrimination based on sex or gender in all its programs or activities. Sex discrimination includes sexual harassment, sexual assault, relationship violence, and stalking. NAU does not discriminate on the basis of sex in the education programs or activities that it operates, including in admission and employment. NAU is committed to providing an environment free from discrimination based on sex or gender and provides a number of supportive measures that assist students, faculty, and staff.
+
+One may direct inquiries concerning the application of Title IX to either or both the Title IX Coordinator or the U.S. Department of Education, Assistant Secretary, Office of Civil Rights.  You may contact the Title IX Coordinator in the Office for the Resolution of Sexual Misconduct by phone at 928-523-5434, by fax at 928-523-0640, or by email at titleix@nau.edu. In furtherance of its Title IX obligations, NAU promptly will investigate or equitably resolve all reports of sex or gender-based discrimination, harassment, or sexual misconduct and will eliminate any hostile environment as defined by law. The Office for the Resolution of Sexual Misconduct (ORSM):  Title IX Institutional Compliance, Prevention & Response addresses matters that fall under the university's Sexual Misconduct policy. Additional important information and related resources, including how to request immediate help or confidential support following an act of sexual violence, is available [here](https://in.nau.edu/title-ix).
+
+**Accessibility:** Professional disability specialists are available at Disability Resources to facilitate a range of academic support services and accommodations for students with disabilities. If you have a documented disability, you can request assistance by contacting Disability Resources at 928-523-8773 (voice), ,928-523-8747 (fax), or dr@nau.edu (e-mail). Once eligibility has been determined, students register with Disability Resources every semester to activate their approved accommodations. Although a student may request an accommodation at any time, it is best to initiate the application process at least four weeks before a student wishes to receive an accommodation. Students may begin the accommodation process by submitting a self-identification form online [here](https://nau.edu/disability-resources/student-eligibility-process) or by contacting Disability Resources. The Director of Disability Resources, Jamie Axelrod, serves as NAU’s Americans with Disabilities Act Coordinator and Section 504 Compliance Officer. He can be reached at jamie.axelrod@nau.edu.
+
+**Responsible Conduct of Research:** Students who engage in research at NAU must receive appropriate Responsible Conduct of Research (RCR) training. This instruction is designed to help ensure proper awareness and application of well-established professional norms and ethical principles related to the performance of all scientific research activities. More information regarding RCR training is available [here](https://nau.edu/research/compliance/research-integrity).
+
+**Misconduct in Research:** As noted, NAU expects every student to firmly adhere to a strong code of academic integrity in all their scholarly pursuits. This includes avoiding fabrication, falsification, or plagiarism when conducting research or reporting research results. Engaging in research misconduct may result in serious disciplinary consequences. Students must also report any suspected or actual instances of research misconduct of which they become aware. Allegations of research misconduct should be reported to your instructor or the University’s Research Integrity Officer, Dr. David Faguy, who can be reached at david.faguy@nau.edu or 928-523-6117. More information about misconduct in research is available [here](https://nau.edu/university-policy-library/misconduct-in-research).
+
+**Sensitive Course Materials:** University education aims to expand student understanding and awareness. Thus, it necessarily involves engagement with a wide range of information, ideas, and creative representations. In their college studies, students can expect to encounter and to critically appraise materials that may differ from and perhaps challenge familiar understandings, ideas, and beliefs. Students are encouraged to discuss these matters with faculty.
+
+<!-- This might need to be altered -->
 
 <div class="alert alert-info" role="alert">
 <i class="far fa-hand-peace"></i>&nbsp; The "Rights of the Learner" were adapted from a similar list written by <a href="https://embracinglifewithmajorrevisions.wordpress.com/2017/07/12/rights-of-the-learner-an-introduction/" class="alert-link">Crystal Kalinec-Craig</a>. The first paragraph of "Commitment to the Learning Community" is a modified version of statement that <a href="https://sbagleyteaches.wordpress.com" class="alert-link">Spencer Bagley</a> has in his syllabi. Lastly, I've borrowed a few phrases here and there from <a href="http://www.users.csbsju.edu/~bbenesh/" class="alert-link">Bret Benesh</a>.
