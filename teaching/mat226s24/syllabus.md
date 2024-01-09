@@ -218,7 +218,7 @@ Only I will remain.</p>
 </blockquote>
 
 ### Exams ###
-There will be two midterm exams and a cumulative final exam.  Exam 1 and Exam 2 are *tentatively* scheduled for **Friday, October 6** (week 6) and **Friday, November 17** (week 12), respectively.  Each of Exam 1 and Exam 2 will be worth 20% of your overall grade. The final exam will be on **Wednesday, December 13** at **10:00AM-12:00PM** and is worth 20% of your overall grade. Make-up exams will only be given under extreme circumstances, as judged by me. In general, it will be best to communicate conflicts ahead of time.
+There will be two midterm exams and a cumulative final exam.  Exam 1 and Exam 2 are *tentatively* scheduled for **Friday, February 23** (week 6) and **Friday, April 12** (week 12), respectively.  Each of Exam 1 and Exam 2 will be worth 20% of your overall grade. The final exam will be on **Wednesday, May 6** at **10:00AM-12:00PM** and is worth 20% of your overall grade. Make-up exams will only be given under extreme circumstances, as judged by me. In general, it will be best to communicate conflicts ahead of time.
 
 <blockquote>
 <p>I write one page of masterpiece to ninety-one pages of shit.</p>
@@ -229,7 +229,7 @@ There will be two midterm exams and a cumulative final exam.  Exam 1 and Exam 2 
 Regular attendance is expected and is vital to success in this course, but you will not explicitly be graded on attendance.  Students can find more information about NAU's attendance policy on the [Academic Policies](https://in.nau.edu/dean-of-students/academic-policies/) page.
 
 ### Extra Credit
-The only thing I will award extra credit for is finding typos on course materials (e.g., textbook, exams, syllabus, webpage).  This includes broken links on the webpage.  However, it does not include the placement of commas and such.  If you find a typo, I will add one percentage point to your next exam.  You can earn at most two percentage points per exam. Extra credit points are only available to the first person to notify me of the error. They're is a typo right here.
+The only thing I will award extra credit for is finding typos on course materials (e.g., textbook, exams, syllabus, webpage).  This includes broken links on the webpage.  However, it does not include the placement of commas and such.  If you find a typo, I will add one percentage point to your next exam.  You can earn at most three percentage points per exam. Extra credit points are only available to the first person to notify me of the error. They're is a typo right here.
 
 ### Basis for Evaluation ###
 In summary, your final grade will be determined by your scores in the following categories.
@@ -252,17 +252,17 @@ In summary, your final grade will be determined by your scores in the following 
 	<tr>
 		<td>Exam 1</td>
 		<td style="text-align: center;">20%</td>
-		<td>Friday, October 6</td>
+		<td>Friday, February 23</td>
 	</tr>
   <tr>
     <td>Exam 2</td>
     <td style="text-align: center;">20%</td>
-    <td>Friday, November 17</td>
+    <td>Friday, April 12</td>
   </tr>
   <tr>
 	<td>Final Exam</td>
 	<td style="text-align: center;">20%</td>
-	<td>December 13, 10:00AM-12:00PM</td>
+	<td>May 6, 10:00AM-12:00PM</td>
 </tr>
 </tbody>
 </table>
@@ -274,23 +274,31 @@ In summary, your final grade will be determined by your scores in the following 
 </blockquote>
 
 ### Department and University Policies ###
-You are responsible for knowing and following the [Department of Mathematics and Statistics Policies]({{ site.baseurl }}/teaching/DepartmentPoliciesFall2023.pdf) (PDF) and other University policies listed [here](https://nau.edu/wp-content/uploads/sites/26/Syllabus-Policy-Statements-Final-Aug-4-2022-1-2.pdf) (PDF).  More policies can be found in other university documents, especially the [NAU Student Handbook](https://in.nau.edu/dean-of-students/Student-Handbook/) (see appendices).
+You are responsible for knowing and following the [Department of Mathematics and Statistics Policies]({{ site.baseurl }}/teaching/DepartmentPoliciesSpring2024.pdf) (PDF) and other University policies listed [here](https://nau.edu/wp-content/uploads/sites/26/Syllabus-Policy-Statements-Final-Aug-4-2022-1-2.pdf) (PDF).  More policies can be found in other university documents, especially the [NAU Student Handbook](https://in.nau.edu/dean-of-students/Student-Handbook/) (see appendices).
 
 As per Department Policy, cell phones, MP3 players and portable electronic communication devices, including but not limited to smart phones, cameras and recording devices, must be turned off and inaccessible during in-class tests. Any violation of this policy will be treated as academic dishonesty.
 
-### Important Dates ###
+<!-- ### Important Dates ###
 Here are some important dates:
 
 - **September 4:** Labor Day (no classes)
 - **November 10** Veteran's Day (no classes)
 - **November 23-24:** Thanksgiving (no classes)
-- **December 13:** Final Exam (10:00AM-12:00PM)
+- **December 13:** Final Exam (10:00AM-12:00PM) -->
 
 ### Getting Help ###
 There are many resources available to get help.  First, you are allowed and encouraged to work together on homework.  However, each student is expected to turn in their own work. You are strongly encouraged to ask questions in our Q&A Discussion board, as I (and hopefully other members of the class) will post comments there for all to benefit from.  You are also encouraged to stop by during my office hours and you can always [email me](mailto:dana.ernst@nau.edu).  I am always happy to help you.  If my office hours don't work for you, then we can probably find another time to meet.  It is your responsibility to be aware of how well you understand the material.  Don't wait until it is too late if you need help.  *Ask questions*!
 
 ### Changes to the Syllabus ###
 Any changes to this syllabus made during the term will be properly communicated to the class.
+
+### Career Ready Resources ###
+
+- LinkedIn: [CEFNS Career Development](www.linkedin.com/in/cefns-career-development-072715233); [NAU Career Development](https://www.linkedin.com/company/nau-career-development/)
+- [Handshake]https://nau.joinhandshake.com/login
+- [Udemy](https://in.nau.edu/its/udemy/): Online courses and career searching advice. Log in with your NAU email account and
+search ‘NAU Career Steps’
+- [O*net Online](https://www.onetonline.org/): Occupation exploration reports
 
 <blockquote>
 <p>If you want to sharpen a sword, you have to remove a little metal.</p>
