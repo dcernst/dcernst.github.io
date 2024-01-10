@@ -295,7 +295,7 @@ Any changes to this syllabus made during the term will be properly communicated 
 ### Career Ready Resources ###
 
 - LinkedIn: [CEFNS Career Development](www.linkedin.com/in/cefns-career-development-072715233); [NAU Career Development](https://www.linkedin.com/company/nau-career-development/)
-- [Handshake]https://nau.joinhandshake.com/login
+- [Handshake](https://nau.joinhandshake.com/login)
 - [Udemy](https://in.nau.edu/its/udemy/): Online courses and career searching advice. Log in with your NAU email account and
 search ‘NAU Career Steps’
 - [O*net Online](https://www.onetonline.org/): Occupation exploration reports
