@@ -13,11 +13,11 @@ layout: default
 <div class="row">
 <div class="col-xs-12">
 <div class="btn-group btn-group-justified">
-<a class="btn btn-default btn-success" href="{{site.baseurl}}/teaching/mat226f23/syllabus/">Syllabus</a>
-<a class="btn btn-default btn-primary" href="{{site.baseurl}}/teaching/mat226f23/materials/">
+<a class="btn btn-default btn-success" href="{{site.baseurl}}/teaching/mat226s24/syllabus/">Syllabus</a>
+<a class="btn btn-default btn-primary" href="{{site.baseurl}}/teaching/mat226s24/materials/">
 <span class="hidden-xs">Course Materials</span><span class="visible-xs">Stuff</span>
 </a>
-<a class="btn btn-default btn-warning" href="{{site.baseurl}}/teaching/mat226f23/homework/">
+<a class="btn btn-default btn-warning" href="{{site.baseurl}}/teaching/mat226s24/homework/">
 <span class="hidden-xs">Homework</span><span class="visible-xs">HW</span>
 </a>
 </div>
@@ -25,6 +25,7 @@ layout: default
 </div>
 
 ## Welcome ##
+
 Welcome to the course web page for the Spring 2024 manifestation of MAT 226: Discrete Mathematics at [Northern Arizona University](http://nau.edu).
 
 <div class="row">
