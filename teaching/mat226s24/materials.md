@@ -29,11 +29,11 @@ title: Course Materials
 
 Our textbook for the semester is <i>Introduction to Discrete Mathematics</i>.  Early versions of the book were originally written by NAU retired mathematics professor Dr. John Hagood (usuing the title <i>MAT 226 Discrete Mathematics</i>).  Dr. Hagood was gracious enough to pass the source of the book along and has granted me permission to modify the content. Current iterations of the book are now my responsibility. The book is available as a freely-assessible PDF. Since I will be tweaking the book as we go, chapters will be released incrementally.
 
-- Coming soon...
+- [Title Page and Front Matter](https://danaernst.com/teaching/mat226s24/FrontMatter.pdf)
+- [Chapter 1: Sets and Counting Principles](https://danaernst.com/teaching/mat226s24/1SetsCountingPrinciples.pdf)
+- [Chapter 2: Functions](https://danaernst.com/teaching/mat226s24/2Functions.pdf)
 
-<!-- - [Title Page and Front Matter](https://danaernst.com/teaching/mat226s24/TitlePage.pdf)
-- [Chapter 1: First Principles](https://danaernst.com/teaching/mat226s24/FirstPrinciples.pdf)
-- [Chapter 2: Permutations and Combinations](https://danaernst.com/teaching/mat226s24/PermutationsCombinations.pdf)
+<!-- - [Chapter 2: Permutations and Combinations](https://danaernst.com/teaching/mat226s24/PermutationsCombinations.pdf)
 - [Chapter 3: The Binomial Theorem](https://danaernst.com/teaching/mat226s24/BinomialTheorem.pdf)
 - [Chapter 4: Additional Counting Methods](https://danaernst.com/teaching/mat226s24/AdditionalCounting.pdf)
 - [Chapter 5: Mathematical Induction](https://danaernst.com/teaching/mat226s24/Induction.pdf)
