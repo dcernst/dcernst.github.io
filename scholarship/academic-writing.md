@@ -79,9 +79,10 @@ Below is a list of textbooks that I have written to be used with an [inquiry-bas
   * D.C. Ernst. *Instructor Guide: An Introduction to Proof via Inquiry-Based Learning*. [[PDF](http://danaernst.com/IBL-IntroToProof/InstructorGuide.pdf)]
   * D. Daly et al. AIBL Handbook for Online Professional Development: Lessons Learned from PRODUCT Workshops. Ethnography & Evaluation Research, & the Academy of Inquiry Based Learning. Boulder, CO, and San Luis Obispo, CA: University of Colorado Boulder, Ethnography & Evaluation Research; and Academy of Inquiry Based Learning. [[ePrint](https://tinyurl.com/AIBLHandbook)]
 
-## Online Columns and Blog Posts
+## Interviews, Online Columns, Blog Posts
 From Spring 2013 through Spring 2016, I was co-editor and author for [Math Ed Matters](http://maamathedmatters.blogspot.com) and from Fall 2016 through Fall 2017, was a co-editor and author for [Teaching Tidbits](http://maateachingtidbits.blogspot.com). Both are online columns sponsored by the [Mathematical Association of America](http://maa.org). Below are several posts that I wrote for *Math Ed Matters*, *Teaching Tidbits*, as well as a few other online venues.  I also write sporadically about mathematics and teaching on my [personal blog]({{site.baseurl}}/blog/).
 
+  * A conversation with Dana Ernst. *IBL Teaching Podcast*. September 2023. [[YouTube](https://www.youtube.com/watch?v=zwY5hIRFEwI)]
   * D.C. Ernst. The Role of Failure and Struggle in the Mathematics Classroom. *Teaching Tidbits*. November 2017. [[Blog Post](http://maateachingtidbits.blogspot.com/2017/11/the-role-of-failure-and-struggle-in.html)]
   * D.C. Ernst. Want to Give Your Teaching Style a Makeover This Summer? Here’s How. *Teaching Tidbits*. April 2017. [[Blog Post](http://maateachingtidbits.blogspot.com/2017/04/want-to-give-your-teaching-style.html)]
   * D.C. Ernst. Who generates the examples? *Teaching Tidbits*. November 2016. [[Blog Post](http://maateachingtidbits.blogspot.com/2016/11/who-generates-examples.html)]
@@ -106,6 +107,7 @@ From Spring 2013 through Spring 2016, I was co-editor and author for [Math Ed Ma
   * D.C. Ernst. Cell Complexes for Arrangements with Group Actions, MS Thesis, Northern Arizona University, 2000. [[arXiv:0905.4434](http://arxiv.org/abs/0905.4434)]
 
 ## Cycling Related
+  * Bikepacking The Westfjords Way In Iceland: A Journey Through Europe's Last Great Wilderness. *The Seasoned Bikepaker*. [[YouTube](https://www.youtube.com/watch?v=b9D4YQwWsVM&t=64s)]
   * M. Annabel, D.C. Ernst, C. Howard, W. Spalding. A Date with the Pines: Takes From the 2023 Pinyons and Pines. *Bikepacking.com*. May 2023. [[Article](https://bikepacking.com/plog/a-date-with-2023-pinyons-and-pines/)]
   * Strangely Alive? Arizona's extreme endurance races. *More Than a Game*. [[Podcast](https://radio.azpm.org/p/morethanagame2/2023/5/24/216122-strangely-alive-arizonas-extreme-endurance-races/?fbclid=PAAaYFdnuSoABCtbFFO0HwVfpviGyPz7au1SdqlRf80wPKVGLw_4oddZC9znc_aem_th_ARl1DppoJ2qaYd0XAe8XbbsXBhZZ6_R1t9fex0LSiC6yCzCy6R7T7rokOBoE4kLbS0A)]
   * Jesse Reeves and Dana Ernst on Winning the Stagecoach 400 Ultra Bikepacking Race. *Stoke Podcast*. [[Podcast](https://podcasters.spotify.com/pod/show/stokepodcast/episodes/Jesse-Reeves-and-Dana-Ernst-on-Winning-the-Stagecoach-400-Ultra-Bike-Packing-Race--Riding-Solo-to-Riding-Together--and-When-the-Bad-Moments-Hit-e22hojh)] [[YouTube](https://podcasters.spotify.com/pod/show/stokepodcast/episodes/Jesse-Reeves-and-Dana-Ernst-on-Winning-the-Stagecoach-400-Ultra-Bike-Packing-Race--Riding-Solo-to-Riding-Together--and-When-the-Bad-Moments-Hit-e22hojh)]
