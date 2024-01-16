@@ -1922,7 +1922,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Intro_to_Induction.html#fig_L-shapes",
   "type": "Figure",
-  "number": "4.9",
+  "number": "4.1",
   "title": "",
   "body": " One possible covering for the case involving for Problem .     "
 },
@@ -1940,7 +1940,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_More_on_Induction.html#thm_PMI2",
   "type": "Theorem",
-  "number": "4.10",
+  "number": "4.9",
   "title": "Principle of Mathematical Induction.",
   "body": " Principle of Mathematical Induction   Let be a sequence of statements, one for each integer greater than or equal to . Assume that    is true, and    for all , if is true, then is true.     Then is true for all integers .   "
 },
@@ -1958,7 +1958,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_More_on_Induction.html#skeleton_induction_greater_than_a",
   "type": "Skeleton Proof",
-  "number": "4.11",
+  "number": "4.10",
   "title": "Proof of <span class=\"process-math\">\\((\\forall n \\in \\mathbb{Z})(n \\geq a \\implies P(n))\\)<\/span> by Induction.",
   "body": " Proof of by Induction   Here is the general structure for a proof by induction when the base case does not necessarily involve .   We proceed by induction.  Base step: [Verify that is true. This often, but not always, amounts to plugging into two sides of some claimed equation and verifying that both sides are actually equal.]  Inductive step: [Your goal is to prove For all , if is true, then is true. ] Let be an integer and assume that is true. [Do something to derive that is true.] Therefore, is true.    Thus, by induction, is true for all integers .    "
 },
@@ -1967,7 +1967,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_More_on_Induction.html#thm_size_of_power_set_for_finite_sets",
   "type": "Theorem",
-  "number": "4.12",
+  "number": "4.11",
   "title": "",
   "body": "  If is a finite set with elements, then is a set with elements.   "
 },
@@ -1976,7 +1976,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_More_on_Induction.html#thm_n_2_n",
   "type": "Theorem",
-  "number": "4.13",
+  "number": "4.12",
   "title": "",
   "body": "  For all integers , .   "
 },
@@ -1985,7 +1985,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_More_on_Induction.html#sec_More_on_Induction-10",
   "type": "Theorem",
-  "number": "4.14",
+  "number": "4.13",
   "title": "",
   "body": "  For all integers , divides .   "
 },
@@ -1994,7 +1994,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_More_on_Induction.html#sec_More_on_Induction-11",
   "type": "Theorem",
-  "number": "4.15",
+  "number": "4.14",
   "title": "",
   "body": "  For all integers , divides .   "
 },
@@ -2003,7 +2003,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_More_on_Induction.html#sec_More_on_Induction-12",
   "type": "Theorem",
-  "number": "4.16",
+  "number": "4.15",
   "title": "",
   "body": "  For all integers , .   "
 },
@@ -2012,7 +2012,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_More_on_Induction.html#sec_More_on_Induction-13",
   "type": "Theorem",
-  "number": "4.17",
+  "number": "4.16",
   "title": "",
   "body": "  For all integers , .   "
 },
@@ -2021,7 +2021,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_More_on_Induction.html#sec_More_on_Induction-14",
   "type": "Theorem",
-  "number": "4.18",
+  "number": "4.17",
   "title": "",
   "body": "  Fix a real number . For all integers , .   "
 },
@@ -2030,7 +2030,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_More_on_Induction.html#sec_More_on_Induction-15",
   "type": "Theorem",
-  "number": "4.19",
+  "number": "4.18",
   "title": "",
   "body": "  For all integers , .   "
 },
@@ -2039,7 +2039,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_More_on_Induction.html#sec_More_on_Induction-16",
   "type": "Theorem",
-  "number": "4.20",
+  "number": "4.19",
   "title": "",
   "body": "  For all integers , .   "
 },
@@ -2048,7 +2048,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_More_on_Induction.html#sec_More_on_Induction-17",
   "type": "Theorem",
-  "number": "4.21",
+  "number": "4.20",
   "title": "",
   "body": "  For all integers , .   "
 },
@@ -2057,7 +2057,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_More_on_Induction.html#thm_div_by_8",
   "type": "Theorem",
-  "number": "4.22",
+  "number": "4.21",
   "title": "",
   "body": "  For all integers , is divisible by .   "
 },
@@ -2066,7 +2066,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_More_on_Induction.html#sec_More_on_Induction-19",
   "type": "Theorem",
-  "number": "4.23",
+  "number": "4.22",
   "title": "",
   "body": "  For all integers , .   "
 },
@@ -2075,7 +2075,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_More_on_Induction.html#sec_More_on_Induction-20",
   "type": "Theorem",
-  "number": "4.24",
+  "number": "4.23",
   "title": "",
   "body": "  For all integers , is divisible by .   "
 },
@@ -2084,7 +2084,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_More_on_Induction.html#sec_More_on_Induction-22",
   "type": "Problem",
-  "number": "4.25",
+  "number": "4.24",
   "title": "",
   "body": "  Suppose lines are drawn in the plane so that no two lines are parallel and no three lines intersect at any one point. Such a collection of lines is said to be in general position . Every collection of lines in general position divides the plane into disjoint regions, some of which are polygons with finite area (bounded regions) and some of which are not (unbounded regions).   Let be the number of regions the plane is divided into by lines in general position. Conjecture a formula for and prove that your conjecture is correct.    Let be the number of unbounded regions the plane is divided into by lines in general position. Conjecture a formula for and prove that your conjecture is correct.    Let be the number of bounded regions the plane is divided into by lines in general position. Conjecture a formula for and prove that your conjecture is correct.    Suppose we color each of the regions (bounded and unbounded) so that no two adjacent regions (i.e., share a common edge) have the same color. What is the fewest colors we could use to accomplish this? Prove your assertion.      "
 },
@@ -2111,7 +2111,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_CompleteInduction.html#sec_CompleteInduction-3",
   "type": "Theorem",
-  "number": "4.26",
+  "number": "4.25",
   "title": "Principle of Complete Mathematical Induction.",
   "body": " Principle of Complete Mathematical Induction   Let be a sequence of statements, one for each natural number. Assume that    is true, and    For all , if is true for all such that , then is true.     Then is true for all .   "
 },
@@ -2120,7 +2120,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_CompleteInduction.html#skeleton_complete_induction",
   "type": "Skeleton Proof",
-  "number": "4.27",
+  "number": "4.26",
   "title": "Proof of <span class=\"process-math\">\\((\\forall n\\in\\mathbb{N})P(n)\\)<\/span> by Complete Induction.",
   "body": " Proof of by Complete Induction   Here is the general structure for a proof by complete induction.    We proceed by induction.  Base step: [Verify that is true. Depending on the statement, you may also need to verify that is true for other specific values of .]  Inductive step: [Your goal is to prove For all , if is true for all such that , then is true. ] Let . Suppose is true for all . [Do something to derive that is true.] Therefore, is true.    Thus, by complete induction, is true for all .    "
 },
@@ -2129,7 +2129,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_CompleteInduction.html#sec_CompleteInduction-9",
   "type": "Theorem",
-  "number": "4.28",
+  "number": "4.27",
   "title": "",
   "body": "  Define a sequence of numbers by , , and for all natural numbers . Then for all .   "
 },
@@ -2138,7 +2138,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_CompleteInduction.html#sec_CompleteInduction-10",
   "type": "Theorem",
-  "number": "4.29",
+  "number": "4.28",
   "title": "",
   "body": "  Define a sequence of numbers by , and for all natural numbers . Then for all .   "
 },
@@ -2147,7 +2147,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_CompleteInduction.html#prob_Fibonacci",
   "type": "Problem",
-  "number": "4.30",
+  "number": "4.29",
   "title": "",
   "body": "  The Fibonacci sequence is given by , , and for all natural numbers . Prove that for all .   "
 },
@@ -2156,7 +2156,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_CompleteInduction.html#sec_CompleteInduction-13",
   "type": "Problem",
-  "number": "4.31",
+  "number": "4.30",
   "title": "",
   "body": "  Prove that every amount of postage that is at least cents can be made from -cent and -cent stamps.   "
 },
@@ -2165,7 +2165,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_CompleteInduction.html#sec_CompleteInduction-14",
   "type": "Problem",
-  "number": "4.32",
+  "number": "4.31",
   "title": "",
   "body": "  Whoziwhatzits come in boxes of 6, 9, and 20. Prove that for any natural number , it is possible to buy exactly Whoziwhatzits with a combination of these boxes.   "
 },
@@ -2174,7 +2174,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_CompleteInduction.html#sec_CompleteInduction-15",
   "type": "Problem",
-  "number": "4.33",
+  "number": "4.32",
   "title": "",
   "body": "  Consider a grid of squares that is squares wide and squares long. Using dominoes that are square by squares, there are many ways to perfectly cover this grid with no overlap. How many? Prove your answer.   "
 },
@@ -2183,7 +2183,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_CompleteInduction.html#sec_CompleteInduction-16",
   "type": "Problem",
-  "number": "4.34",
+  "number": "4.33",
   "title": "",
   "body": "  A binary string of length is an ordered list of digits such that each digit is either 0 or 1. For example and are distinct binary strings of length 6. Here are the rules for Binary Solitaire : At any stage, you are allowed to:   Swap the leftmost digit (i.e., change 0 to 1, or 1 to 0). For example, we can do .    Swap the digit immediately to the right of the leftmost occurrence of 1. For example, we can do .     Prove that for all , you can change any binary string of length to any other binary string of the same length.   "
 },
@@ -2192,7 +2192,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_CompleteInduction.html#sec_CompleteInduction-17",
   "type": "Problem",
-  "number": "4.35",
+  "number": "4.34",
   "title": "",
   "body": "  Prove that the number of binary strings of length that never have two consecutive 1's is the Fibonacci number . See Problem for the definition of the Fibonacci numbers.   "
 },
@@ -2219,7 +2219,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_WOP.html#sec_WOP-3",
   "type": "Definition",
-  "number": "4.36",
+  "number": "4.35",
   "title": "",
   "body": "  Let and . Then is called a maximum (or greatest element ) of if for all , we have . Similarly, is called minimum (or least element ) of if for all , we have .   "
 },
@@ -2228,7 +2228,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_WOP.html#sec_WOP-5",
   "type": "Theorem",
-  "number": "4.37",
+  "number": "4.36",
   "title": "",
   "body": "  If such that the maximum (respectively, minimum) of exists, then the maximum (respectively, minimum) of is unique.   "
 },
@@ -2237,7 +2237,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_WOP.html#prob_find_max_and_min",
   "type": "Problem",
-  "number": "4.38",
+  "number": "4.37",
   "title": "",
   "body": "  Find the maximum and the minimum for each of the following sets when they exist.                                                       "
 },
@@ -2246,7 +2246,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_WOP.html#thm_WOP",
   "type": "Theorem",
-  "number": "4.39",
+  "number": "4.38",
   "title": "Well-Ordering Principle.",
   "body": " Well-Ordering Principle   Every nonempty subset of the natural numbers has a least element.   "
 },
@@ -2255,7 +2255,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_WOP.html#thm_generalized_WOP",
   "type": "Theorem",
-  "number": "4.40",
+  "number": "4.39",
   "title": "",
   "body": "  If is a nonempty subset of the integers and there exists such that for all , then contains a least element.   "
 },
@@ -2264,7 +2264,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_WOP.html#thm_reverse_WOP",
   "type": "Theorem",
-  "number": "4.41",
+  "number": "4.40",
   "title": "",
   "body": "  If is a nonempty subset of the integers and there exists such that for all , then contains a greatest element.   "
 },
@@ -2552,7 +2552,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_AxiomsRealNumbers.html#fig_abs_value_as_distance",
   "type": "Figure",
-  "number": "5.25",
+  "number": "5.1",
   "title": "",
   "body": " Visual representation of .                "
 },
@@ -2561,7 +2561,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_AxiomsRealNumbers.html#sec_AxiomsRealNumbers-52",
   "type": "Theorem",
-  "number": "5.26",
+  "number": "5.25",
   "title": "",
   "body": "  For all , we have .   "
 },
@@ -2570,7 +2570,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_AxiomsRealNumbers.html#fig_distance_between_a_and_b",
   "type": "Figure",
-  "number": "5.27",
+  "number": "5.2",
   "title": "",
   "body": " Visual representation of .     "
 },
@@ -2579,7 +2579,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_AxiomsRealNumbers.html#sec_AxiomsRealNumbers-55",
   "type": "Theorem",
-  "number": "5.28",
+  "number": "5.26",
   "title": "",
   "body": "  For all , .   "
 },
@@ -2588,7 +2588,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_AxiomsRealNumbers.html#sec_AxiomsRealNumbers-57",
   "type": "Theorem",
-  "number": "5.29",
+  "number": "5.27",
   "title": "",
   "body": "  For all , if , then .   "
 },
@@ -2597,7 +2597,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_AxiomsRealNumbers.html#sec_AxiomsRealNumbers-58",
   "type": "Theorem",
-  "number": "5.30",
+  "number": "5.28",
   "title": "",
   "body": "  For all , .   "
 },
@@ -2606,7 +2606,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_AxiomsRealNumbers.html#thm_plus_minus_less_than_or_equal_to_abs_value",
   "type": "Theorem",
-  "number": "5.31",
+  "number": "5.29",
   "title": "",
   "body": "  For all , .   "
 },
@@ -2615,7 +2615,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_AxiomsRealNumbers.html#thm_abs_value_less_than_or_equal_to_iff_squeezed_by_plus_minus",
   "type": "Theorem",
-  "number": "5.32",
+  "number": "5.30",
   "title": "",
   "body": "  For all with nonnegative, if and only if .   "
 },
@@ -2624,7 +2624,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_AxiomsRealNumbers.html#fig_abs_value_less_than_or_equal_to_iff_squeezed_by_plus_minus",
   "type": "Figure",
-  "number": "5.33",
+  "number": "5.3",
   "title": "",
   "body": " Visual representation of .     "
 },
@@ -2633,7 +2633,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_AxiomsRealNumbers.html#cor_distance_between_two_points_less_than_or_equal_to",
   "type": "Corollary",
-  "number": "5.34",
+  "number": "5.31",
   "title": "",
   "body": "  For all with nonnegative, if and only if .   "
 },
@@ -2642,7 +2642,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_AxiomsRealNumbers.html#fig_visual_of__a-b__r",
   "type": "Figure",
-  "number": "5.35",
+  "number": "5.4",
   "title": "",
   "body": " Visual representation of .     "
 },
@@ -2660,7 +2660,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_AxiomsRealNumbers.html#thm_triangle_inequality",
   "type": "Theorem",
-  "number": "5.36",
+  "number": "5.32",
   "title": "Triangle Inequality.",
   "body": " Triangle Inequality   For all , .   "
 },
@@ -2669,7 +2669,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_AxiomsRealNumbers.html#fig_triangle_inequality",
   "type": "Figure",
-  "number": "5.37",
+  "number": "5.5",
   "title": "",
   "body": " Visual representation of two of the cases for the Triangle Inequality.                "
 },
@@ -2678,7 +2678,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_AxiomsRealNumbers.html#sec_AxiomsRealNumbers-70",
   "type": "Problem",
-  "number": "5.38",
+  "number": "5.33",
   "title": "",
   "body": "  Under what conditions do we have equality for the Triangle Inequality?   "
 },
@@ -2687,7 +2687,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_AxiomsRealNumbers.html#fig_triangle_inequality_2d",
   "type": "Figure",
-  "number": "5.39",
+  "number": "5.6",
   "title": "",
   "body": " Triangle Inequality in terms of vectors.     "
 },
@@ -2705,7 +2705,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_AxiomsRealNumbers.html#sec_AxiomsRealNumbers-74",
   "type": "Theorem",
-  "number": "5.40",
+  "number": "5.34",
   "title": "Reverse Triangle Inequality.",
   "body": " Reverse Triangle Inequality   For all , .   "
 },
@@ -2714,7 +2714,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_AxiomsRealNumbers.html#sec_AxiomsRealNumbers-76",
   "type": "Definition",
-  "number": "5.41",
+  "number": "5.35",
   "title": "",
   "body": "  Let . A point is called an upper bound of if for all , . The set is said to be bounded above if it has an upper bound.   "
 },
@@ -2723,7 +2723,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_AxiomsRealNumbers.html#sec_AxiomsRealNumbers-77",
   "type": "Problem",
-  "number": "5.42",
+  "number": "5.36",
   "title": "",
   "body": "  The notion of a lower bound and the property of a set being bounded below are defined similarly. Try defining them.   "
 },
@@ -2732,7 +2732,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_AxiomsRealNumbers.html#prob_find_upper_bounds",
   "type": "Problem",
-  "number": "5.43",
+  "number": "5.37",
   "title": "",
   "body": "  Find all upper bounds and all lower bounds for each of the following sets when they exist.               "
 },
@@ -2741,7 +2741,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_AxiomsRealNumbers.html#sec_AxiomsRealNumbers-79",
   "type": "Definition",
-  "number": "5.44",
+  "number": "5.38",
   "title": "",
   "body": "  A set is bounded if is bounded above and below.   "
 },
@@ -2750,7 +2750,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_AxiomsRealNumbers.html#sec_AxiomsRealNumbers-81",
   "type": "Definition",
-  "number": "5.45",
+  "number": "5.39",
   "title": "",
   "body": "  Let . A point is a supremum (or least upper bound ) of if is an upper bound of and for every upper bound of . Analogously, a point is an infimum (or greatest lower bound ) of if is a lower bound of and for every lower bound of .   "
 },
@@ -2759,7 +2759,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_AxiomsRealNumbers.html#sec_AxiomsRealNumbers-83",
   "type": "Theorem",
-  "number": "5.46",
+  "number": "5.40",
   "title": "",
   "body": "  If such that a supremum (respectively, infimum) of exists, then the supremum (respectively, infimum) of is unique.   "
 },
@@ -2768,7 +2768,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_AxiomsRealNumbers.html#sec_AxiomsRealNumbers-85",
   "type": "Problem",
-  "number": "5.47",
+  "number": "5.41",
   "title": "",
   "body": "  Find the supremum and the infimum of each of the sets in Problem when they exist.   "
 },
@@ -2777,7 +2777,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_AxiomsRealNumbers.html#sec_AxiomsRealNumbers-87",
   "type": "Theorem",
-  "number": "5.48",
+  "number": "5.42",
   "title": "",
   "body": "  Let . Then has a maximum if and only if has a supremum and , in which case the .   "
 },
@@ -2786,7 +2786,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_AxiomsRealNumbers.html#thm_scoot_in_characterization_of_sup",
   "type": "Theorem",
-  "number": "5.49",
+  "number": "5.43",
   "title": "",
   "body": "  Let such that is bounded above and let be an upper bound of . Then is the supremum of if and only if for every , there exists such that .   "
 },
@@ -2795,7 +2795,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_AxiomsRealNumbers.html#sec_AxiomsRealNumbers-90",
   "type": "Problem",
-  "number": "5.50",
+  "number": "5.44",
   "title": "",
   "body": "  State and prove the analogous result to Theorem involving infimum.   "
 },
@@ -2804,7 +2804,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_AxiomsRealNumbers.html#axiom_completeness",
   "type": "Axiom",
-  "number": "5.51",
+  "number": "5.45",
   "title": "Completeness Axiom.",
   "body": " Completeness Axiom   If is a nonempty subset of that is bounded above, then exists.   "
 },
@@ -2822,7 +2822,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_AxiomsRealNumbers.html#sec_AxiomsRealNumbers-95",
   "type": "Theorem",
-  "number": "5.52",
+  "number": "5.46",
   "title": "",
   "body": "  If is a nonempty subset of that is bounded below, then exists.   "
 },
@@ -2840,7 +2840,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_AxiomsRealNumbers.html#sec_AxiomsRealNumbers-97",
   "type": "Theorem",
-  "number": "5.53",
+  "number": "5.47",
   "title": "Archimedean Property.",
   "body": " Archimedean Property   For every , there exists such that .   "
 },
@@ -2858,7 +2858,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_AxiomsRealNumbers.html#sec_AxiomsRealNumbers-99",
   "type": "Theorem",
-  "number": "5.54",
+  "number": "5.48",
   "title": "Generalized Archimedean Property.",
   "body": " Generalized Archimedean Property   For every , there exists such that .   "
 },
@@ -2867,7 +2867,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_AxiomsRealNumbers.html#thm_small_reciprocal",
   "type": "Theorem",
-  "number": "5.55",
+  "number": "5.49",
   "title": "",
   "body": "  For any positive real number , there exists such that .   "
 },
@@ -2876,7 +2876,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_AxiomsRealNumbers.html#thm_squeeze_with_consecutive_integers",
   "type": "Theorem",
-  "number": "5.56",
+  "number": "5.50",
   "title": "",
   "body": "  For every , there exists such that .   "
 },
@@ -2885,7 +2885,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_AxiomsRealNumbers.html#thm_rationals_dense",
   "type": "Theorem",
-  "number": "5.57",
+  "number": "5.51",
   "title": "",
   "body": "  If is an open interval, then there exists a rational number such that .   "
 },
@@ -2894,7 +2894,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_AxiomsRealNumbers.html#thm_irrationals_dense",
   "type": "Theorem",
-  "number": "5.58",
+  "number": "5.52",
   "title": "",
   "body": "  If is an open interval, then there exists an irrational number such that .   "
 },
@@ -2921,7 +2921,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Topology.html#def_open",
   "type": "Definition",
-  "number": "5.59",
+  "number": "5.53",
   "title": "",
   "body": "  A set is called an open set if for every , there exists a bounded open interval containing such that .   "
 },
@@ -2930,7 +2930,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Topology.html#prob_open_or_not",
   "type": "Problem",
-  "number": "5.60",
+  "number": "5.54",
   "title": "",
   "body": "  Determine whether each of the following sets is open. Justify your assertions.                                                                 "
 },
@@ -2939,7 +2939,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Topology.html#sec_Topology-9",
   "type": "Theorem",
-  "number": "5.61",
+  "number": "5.55",
   "title": "",
   "body": "  Every open interval is an open set.   "
 },
@@ -2948,7 +2948,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Topology.html#sec_Topology-11",
   "type": "Problem",
-  "number": "5.62",
+  "number": "5.56",
   "title": "",
   "body": "  Provide an example of an open set that is not a single open interval.   "
 },
@@ -2957,7 +2957,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Topology.html#thm_finite_union_and_intersection_of_open_sets",
   "type": "Theorem",
-  "number": "5.63",
+  "number": "5.57",
   "title": "",
   "body": "  If and are open sets, then    is an open set, and     is an open set.      "
 },
@@ -2966,7 +2966,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Topology.html#thm_union_of_open_sets",
   "type": "Theorem",
-  "number": "5.64",
+  "number": "5.58",
   "title": "",
   "body": "  If is a collection of open sets, then is an open set.   "
 },
@@ -2975,7 +2975,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Topology.html#thm_finite_intersection_of_open_sets",
   "type": "Theorem",
-  "number": "5.65",
+  "number": "5.59",
   "title": "",
   "body": "  If is a finite collection of open sets for , then is an open set.   "
 },
@@ -2984,7 +2984,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Topology.html#sec_Topology-17",
   "type": "Problem",
-  "number": "5.66",
+  "number": "5.60",
   "title": "",
   "body": "  Explain why we cannot utilize induction to prove that the intersection of infinitely many open sets indexed by the natural numbers is open.   "
 },
@@ -2993,7 +2993,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Topology.html#prob_intersection_of_open_sets",
   "type": "Problem",
-  "number": "5.67",
+  "number": "5.61",
   "title": "",
   "body": "  Give an example of each of the following.   A collection of open sets such that is an open set.    A collection of open sets such that is not an open set.      "
 },
@@ -3002,7 +3002,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Topology.html#sec_Topology-20",
   "type": "Definition",
-  "number": "5.68",
+  "number": "5.62",
   "title": "",
   "body": "  Suppose . A point is an accumulation point of if for every bounded open interval containing , there exists a point such that .   "
 },
@@ -3011,7 +3011,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Topology.html#sec_Topology-22",
   "type": "Problem",
-  "number": "5.69",
+  "number": "5.63",
   "title": "",
   "body": "  Consider the open interval . Prove each of the following.   The points and are accumulation points of .    If , then is an accumulation point of .    If or , then is not an accumulation point of .      "
 },
@@ -3020,7 +3020,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Topology.html#sec_Topology-23",
   "type": "Theorem",
-  "number": "5.70",
+  "number": "5.64",
   "title": "",
   "body": "  A point is an accumulation point of the intervals , , , and if and only if .   "
 },
@@ -3029,7 +3029,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Topology.html#sec_Topology-24",
   "type": "Problem",
-  "number": "5.71",
+  "number": "5.65",
   "title": "",
   "body": "  Prove that the point is an accumulation point of . Are there any other accumulation points of ?   "
 },
@@ -3038,7 +3038,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Topology.html#sec_Topology-25",
   "type": "Problem",
-  "number": "5.72",
+  "number": "5.66",
   "title": "",
   "body": "  Provide an example of a set with exactly two accumulation points.   "
 },
@@ -3047,7 +3047,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Topology.html#sec_Topology-27",
   "type": "Theorem",
-  "number": "5.73",
+  "number": "5.67",
   "title": "",
   "body": "  If , then is an accumulation point of .   "
 },
@@ -3056,7 +3056,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Topology.html#sec_Topology-28",
   "type": "Definition",
-  "number": "5.74",
+  "number": "5.68",
   "title": "",
   "body": "  A set is called closed if contains all of its accumulation points.   "
 },
@@ -3065,7 +3065,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Topology.html#prob_closed_or_not",
   "type": "Problem",
-  "number": "5.75",
+  "number": "5.69",
   "title": "",
   "body": "  Determine whether each of the sets in Problem is closed. Justify your assertions.   "
 },
@@ -3074,7 +3074,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Topology.html#prob_open_vs_closed",
   "type": "Problem",
-  "number": "5.76",
+  "number": "5.70",
   "title": "",
   "body": "  Provide an example of each of the following. You do not need to prove that your answers are correct.   A set that is open but not closed.    A set that is closed but not open.    A set that neither open nor closed.      "
 },
@@ -3083,7 +3083,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Topology.html#sec_Topology-34",
   "type": "Theorem",
-  "number": "5.77",
+  "number": "5.71",
   "title": "",
   "body": "  Every interval of the form , , , or is a closed set.   "
 },
@@ -3092,7 +3092,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Topology.html#sec_Topology-35",
   "type": "Theorem",
-  "number": "5.78",
+  "number": "5.72",
   "title": "",
   "body": "  Every finite subset of is closed.   "
 },
@@ -3101,7 +3101,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Topology.html#sec_Topology-37",
   "type": "Theorem",
-  "number": "5.79",
+  "number": "5.73",
   "title": "",
   "body": "  Let . Then is open if and only if is closed.   "
 },
@@ -3110,7 +3110,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Topology.html#thm_finite_union_and_intersection_of_closed_sets",
   "type": "Theorem",
-  "number": "5.80",
+  "number": "5.74",
   "title": "",
   "body": "  If and are closed sets, then    is a closed set, and     is a closed set.      "
 },
@@ -3119,7 +3119,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Topology.html#thm_intersection_of_closed_sets",
   "type": "Theorem",
-  "number": "5.81",
+  "number": "5.75",
   "title": "",
   "body": "  If is a collection of closed sets, then is a closed set.   "
 },
@@ -3128,7 +3128,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Topology.html#sec_Topology-41",
   "type": "Theorem",
-  "number": "5.82",
+  "number": "5.76",
   "title": "",
   "body": "  If is a finite collection of closed sets for , then is a closed set.   "
 },
@@ -3137,7 +3137,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Topology.html#prob_union_of_closed_sets",
   "type": "Problem",
-  "number": "5.83",
+  "number": "5.77",
   "title": "",
   "body": "  Provide an example of a collection of closed sets such that is not a closed set.   "
 },
@@ -3146,7 +3146,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Topology.html#sec_Topology-43",
   "type": "Problem",
-  "number": "5.84",
+  "number": "5.78",
   "title": "",
   "body": "  Determine whether each of the following sets is open, closed, both, or neither.                              "
 },
@@ -3155,7 +3155,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Topology.html#sec_Topology-44",
   "type": "Problem",
-  "number": "5.85",
+  "number": "5.79",
   "title": "",
   "body": "  Prove or provide a counterexample: Every non-closed set has at least one accumulation point.   "
 },
@@ -3164,7 +3164,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Topology.html#sec_Topology-46",
   "type": "Definition",
-  "number": "5.86",
+  "number": "5.80",
   "title": "",
   "body": "  A set is called compact if is both closed and bounded.   "
 },
@@ -3173,7 +3173,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Topology.html#prob_compact_or_not",
   "type": "Problem",
-  "number": "5.87",
+  "number": "5.81",
   "title": "",
   "body": "  Determine whether each of the following sets is compact. Briefly justify your assertions.                                                                 "
 },
@@ -3182,7 +3182,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Topology.html#sec_Topology-49",
   "type": "Problem",
-  "number": "5.88",
+  "number": "5.82",
   "title": "",
   "body": "  Is every finite set compact? Justify your assertion.   "
 },
@@ -3191,7 +3191,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Topology.html#sec_Topology-51",
   "type": "Theorem",
-  "number": "5.89",
+  "number": "5.83",
   "title": "",
   "body": "  If is a nonempty compact subset of , then .   "
 },
@@ -3200,7 +3200,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Topology.html#sec_Topology-52",
   "type": "Definition",
-  "number": "5.90",
+  "number": "5.84",
   "title": "",
   "body": "  A set is disconnected if there exists two disjoint open sets and such that and are nonempty but (equivalently, ). If a set is not disconnected, then we say that it is connected.   "
 },
@@ -3209,7 +3209,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Topology.html#sec_Topology-54",
   "type": "Problem",
-  "number": "5.91",
+  "number": "5.85",
   "title": "",
   "body": "  Determine whether each of the sets in Problem is is connected or disconnected. Briefly justify your assertions.   "
 },
@@ -3218,7 +3218,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Topology.html#sec_Topology-55",
   "type": "Theorem",
-  "number": "5.92",
+  "number": "5.86",
   "title": "",
   "body": "  If , then is connected.   "
 },
@@ -3227,7 +3227,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Topology.html#thm_closed_interval_connected",
   "type": "Theorem",
-  "number": "5.93",
+  "number": "5.87",
   "title": "",
   "body": "  Every closed interval is connected.   "
 },
@@ -3443,7 +3443,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Irrationality_of_Root_2.html#fig_square",
   "type": "Figure",
-  "number": "6.19",
+  "number": "6.1",
   "title": "",
   "body": " The side and diagonal of a square are incommensurable.     "
 },
@@ -3452,7 +3452,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Irrationality_of_Root_2.html#thm_sqrt2",
   "type": "Theorem",
-  "number": "6.20",
+  "number": "6.19",
   "title": "",
   "body": "  The real number is irrational.   "
 },
@@ -3461,7 +3461,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Irrationality_of_Root_2.html#thm_sqrtp",
   "type": "Theorem",
-  "number": "6.21",
+  "number": "6.20",
   "title": "",
   "body": "  Let be a prime number. Then is irrational.   "
 },
@@ -3470,7 +3470,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Irrationality_of_Root_2.html#thm_sqrt_pq_",
   "type": "Theorem",
-  "number": "6.22",
+  "number": "6.21",
   "title": "",
   "body": "  Let and be distinct primes. Then is irrational.   "
 },
@@ -3479,7 +3479,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Irrationality_of_Root_2.html#sec_Irrationality_of_Root_2-13",
   "type": "Problem",
-  "number": "6.23",
+  "number": "6.22",
   "title": "",
   "body": "  State a generalization of Theorem and briefly describe how its proof would go. Be as general as possible.   "
 },
@@ -3497,7 +3497,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Infinitude_of_Primes.html#thm_divisorsof1",
   "type": "Theorem",
-  "number": "6.24",
+  "number": "6.23",
   "title": "",
   "body": "  The only natural number that divides is .   "
 },
@@ -3515,7 +3515,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Infinitude_of_Primes.html#thm_plus1",
   "type": "Theorem",
-  "number": "6.25",
+  "number": "6.24",
   "title": "",
   "body": "  Let be a prime number and let . If divides , then does not divide .   "
 },
@@ -3524,7 +3524,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Infinitude_of_Primes.html#thm_infprimes",
   "type": "Theorem",
-  "number": "6.26",
+  "number": "6.25",
   "title": "",
   "body": "  There are infinitely many prime numbers.   "
 },
@@ -3533,7 +3533,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Infinitude_of_Primes.html#sec_Infinitude_of_Primes-13",
   "type": "Problem",
-  "number": "6.27",
+  "number": "6.26",
   "title": "",
   "body": "  Start with the first prime numbers, . Divide them into two sets. Let be the product of the primes in one set and let be the product of the primes in the other set. Assume the product is 1 if the set is empty. For example, if , we could have and , and so and . In general, what can we conclude about and ? Form a conjecture and then prove it.   "
 },
@@ -3641,7 +3641,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Relations.html#fig_digraph_finite_to_finite",
   "type": "Figure",
-  "number": "7.10",
+  "number": "7.1",
   "title": "",
   "body": " Digraph for a relation from to .     "
 },
@@ -3650,7 +3650,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Relations.html#sec_Relations-15",
   "type": "Problem",
-  "number": "7.11",
+  "number": "7.10",
   "title": "",
   "body": "  Let and and define from to via if is divisible by 2. List the ordered pairs in and draw the corresponding digraph.   "
 },
@@ -3659,7 +3659,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Relations.html#ex_digraph",
   "type": "Example",
-  "number": "7.12",
+  "number": "7.11",
   "title": "",
   "body": "   Figure represents the relation of Example as a digraph from to while the digraph in Figure provides a streamlined representation of the same relation that uses the elements in only once instead of twice.   "
 },
@@ -3668,7 +3668,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Relations.html#fig_digraph_on_finite",
   "type": "Figure",
-  "number": "7.13",
+  "number": "7.2",
   "title": "",
   "body": " Two variations of digraphs for a relation on .              "
 },
@@ -3677,7 +3677,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Relations.html#prob_divides",
   "type": "Problem",
-  "number": "7.14",
+  "number": "7.12",
   "title": "",
   "body": "  Let and define on via if divides . List the ordered pairs in and draw the corresponding digraph.   "
 },
@@ -3686,7 +3686,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Relations.html#prob_another_relation_on_finite",
   "type": "Problem",
-  "number": "7.15",
+  "number": "7.13",
   "title": "",
   "body": "  Let and define on via .   Draw the digraph for .    Draw the digraph for the empty relation on .      "
 },
@@ -3704,7 +3704,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Relations.html#ex_circle",
   "type": "Example",
-  "number": "7.16",
+  "number": "7.14",
   "title": "",
   "body": "  When we write , we are implicitly defining a relation. In particular, the relation is the set of ordered pairs satisfying , namely . The graph of this relation in is the unit circle centered at the origin in the plane as shown in Figure .   "
 },
@@ -3713,7 +3713,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Relations.html#fig_unit_circle",
   "type": "Figure",
-  "number": "7.17",
+  "number": "7.3",
   "title": "",
   "body": " Graph of the relation determined by .     "
 },
@@ -3722,7 +3722,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Relations.html#prob_parabola",
   "type": "Problem",
-  "number": "7.18",
+  "number": "7.15",
   "title": "",
   "body": "  For each of the following, draw a portion of the graph that represents the relation as a subset of .                         "
 },
@@ -3731,7 +3731,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Relations.html#sec_Relations-25",
   "type": "Problem",
-  "number": "7.19",
+  "number": "7.16",
   "title": "",
   "body": "  Draw a portion of the graph that represents the relation on .   "
 },
@@ -3740,7 +3740,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Relations.html#def_relatives",
   "type": "Definition",
-  "number": "7.20",
+  "number": "7.17",
   "title": "",
   "body": "  Let be a relation on a set . For each , we define the set of relatives of with respect to via .  We also define the collection of the sets of relatives with respect to by .   "
 },
@@ -3758,7 +3758,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Relations.html#sec_Relations-29",
   "type": "Example",
-  "number": "7.21",
+  "number": "7.18",
   "title": "",
   "body": "  Consider the relation given in Example . By inspecting the ordered pairs in or by looking at the digraph in Figure , we see that , so that .   "
 },
@@ -3767,7 +3767,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Relations.html#sec_Relations-30",
   "type": "Problem",
-  "number": "7.22",
+  "number": "7.19",
   "title": "",
   "body": "  Consider the relation given in Problem (a). Find by determining for each .   "
 },
@@ -3776,7 +3776,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Relations.html#sec_Relations-31",
   "type": "Problem",
-  "number": "7.23",
+  "number": "7.20",
   "title": "",
   "body": "  Describe the collection of the sets of relatives with respect to the empty relation from Problem (b).   "
 },
@@ -3785,7 +3785,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Relations.html#prob_facebook",
   "type": "Problem",
-  "number": "7.24",
+  "number": "7.21",
   "title": "",
   "body": "  Let denote the set of all people with accounts on Facebook and define the relation on via if is friends with . Describe , where Maria is the name of a specific Facebook user. What is ?   "
 },
@@ -3794,7 +3794,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Relations.html#prob_mod_5",
   "type": "Problem",
-  "number": "7.25",
+  "number": "7.22",
   "title": "",
   "body": "  Define the relation on via if is divisible by 5. Find , , and . How many distinct sets are in ? List the distinct sets in .   "
 },
@@ -3803,7 +3803,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Relations.html#sec_Relations-34",
   "type": "Problem",
-  "number": "7.26",
+  "number": "7.23",
   "title": "",
   "body": "  Consider the relation on . If , what is ?   "
 },
@@ -3812,7 +3812,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Relations.html#prob_find_sim_from_Rel",
   "type": "Problem",
-  "number": "7.27",
+  "number": "7.24",
   "title": "",
   "body": "  Suppose is a relation on such that , , , , and . List the ordered pairs in and draw the corresponding digraph.   "
 },
@@ -3821,7 +3821,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Relations.html#sec_Relations-37",
   "type": "Definition",
-  "number": "7.28",
+  "number": "7.25",
   "title": "",
   "body": "  Let be a relation on a set .   The relation is reflexive if for all , .    The relation is symmetric if for all , if , then .    The relation is transitive if for all , if and , then .      "
 },
@@ -3830,7 +3830,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Relations.html#sec_Relations-38",
   "type": "Example",
-  "number": "7.29",
+  "number": "7.26",
   "title": "",
   "body": "  Here are a few examples that illustrate the concepts in the previous definition.   The relation on is reflexive, symmetric, and transitive.    The relation is reflexive and transitive on , but not symmetric. However, notice that is transitive on , but neither symmetric nor reflexive.    If is a set, then on is reflexive and transitive, but not symmetric.      "
 },
@@ -3839,7 +3839,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Relations.html#sec_Relations-39",
   "type": "Problem",
-  "number": "7.30",
+  "number": "7.27",
   "title": "",
   "body": "  Determine whether the relations given in each of the following is reflexive, symmetric, or transitive.    Example      Problem       "
 },
@@ -3848,7 +3848,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Relations.html#sec_Relations-40",
   "type": "Problem",
-  "number": "7.31",
+  "number": "7.28",
   "title": "",
   "body": "  Suppose is a relation on a set .   Explain what it means for to not be reflexive.    Explain what it means for to not be symmetric.    Explain what it means for to not be transitive.      "
 },
@@ -3857,7 +3857,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Relations.html#sec_Relations-41",
   "type": "Problem",
-  "number": "7.32",
+  "number": "7.29",
   "title": "",
   "body": "  Let .   Define a relation on that is reflexive but not symmetric nor transitive.    Define a relation on that is symmetric but not reflexive nor transitive.    Define a relation on that is transitive but not reflexive nor symmetric.      "
 },
@@ -3866,7 +3866,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Relations.html#sec_Relations-42",
   "type": "Problem",
-  "number": "7.33",
+  "number": "7.30",
   "title": "",
   "body": "  Given a relation on a finite set , describe what each of reflexive, symmetric, and transitive look like in terms of a digraph. That is, draw pictures that represent each of reflexive, symmetric, and transitive. One thing to keep in mind is that the elements used in the definitions of symmetric and transitive do not have to be distinct. So, you might need to consider multiple cases.   "
 },
@@ -3875,7 +3875,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Relations.html#skeleton_reflexive",
   "type": "Skeleton Proof",
-  "number": "7.34",
+  "number": "7.31",
   "title": "Proof that a relation is reflexive.",
   "body": " Proof that a relation is reflexive   Here is the general structure for proving that a relation is reflexive.   Assume is a relation on defined by (or satisfying)  [Use the given definition (or describe the given property) of ] . Let .  [Use the definition (or property) of to verify that ]  Therefore, the relation is reflexive on .    "
 },
@@ -3884,7 +3884,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Relations.html#skeleton_symmetric",
   "type": "Skeleton Proof",
-  "number": "7.35",
+  "number": "7.32",
   "title": "Proof that a relation is symmetric.",
   "body": " Proof that a relation is symmetric   Here is the general structure for proving that a relation is symmetric.   Assume is a relation on defined by (or satisfying)  [Use the given definition (or describe the given property) of ] . Let and suppose .  [Use assumption that with definition (or property) of to verify that ] Therefore, the relation is symmetric on .    "
 },
@@ -3893,7 +3893,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Relations.html#skeleton_transitive",
   "type": "Skeleton Proof",
-  "number": "7.36",
+  "number": "7.33",
   "title": "Proof that a relation is transitive.",
   "body": " Proof that a relation is transitive   Here is the general structure for proving that a relation is transitive.   Assume is a relation on defined by (or satisfying)  [Use the given definition (or describe the given property) of ] . Let and suppose and .  [Use assumption that and with definition (or property) of to verify that ] Therefore, the relation is transitive on .    "
 },
@@ -3902,7 +3902,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Relations.html#prob_lots_of_relations",
   "type": "Problem",
-  "number": "7.37",
+  "number": "7.34",
   "title": "",
   "body": "  Determine whether each of the following relations is reflexive, symmetric, or transitive. In each case, you should either provide a specific counterexample or a proof.  Consider the relation described in Example .  Consider the relation described in Problem .  Consider the relation described in Problem .  Let be the set of all people and define via if and have the same height.  Let be the set of all people and define via if is taller than .  Consider the relation divides on .  Let be the set of lines and define via if is parallel to .  Let be the set of continuous functions on . Define if .  Define on via if is even.  Define on via if .  Define on via if . Do you recognize this relation? Think about fractions.  Define on via if .  Define on via if , where is the greatest integer less than or equal to (e.g., , , and ).  Define on via if .     "
 },
@@ -3920,7 +3920,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Equivalence_Relations.html#sec_Equivalence_Relations-3",
   "type": "Definition",
-  "number": "7.38",
+  "number": "7.35",
   "title": "",
   "body": "  Let be a relation on a set . Then is called an equivalence relation on if is reflexive, symmetric, and transitive.   "
 },
@@ -3929,7 +3929,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Equivalence_Relations.html#prob_digraph",
   "type": "Problem",
-  "number": "7.39",
+  "number": "7.36",
   "title": "",
   "body": "  Let and define .  Using , complete each of the following.   Draw the digraph for .    Determine whether is an equivalence relation on .    Find by determining for each .      "
 },
@@ -3938,7 +3938,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Equivalence_Relations.html#prob_made_up",
   "type": "Problem",
-  "number": "7.40",
+  "number": "7.37",
   "title": "",
   "body": "  Let .   Make up an equivalence relation on by drawing a digraph such that is not related to and is not related to .    Using your digraph, find by determining for each .      "
 },
@@ -3947,7 +3947,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Equivalence_Relations.html#sec_Equivalence_Relations-7",
   "type": "Problem",
-  "number": "7.41",
+  "number": "7.38",
   "title": "",
   "body": "  Given a finite set and an equivalence relation on , describe what the corresponding digraph would have to look like.   "
 },
@@ -3956,7 +3956,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Equivalence_Relations.html#prob_equiv_from_lots_of_relations",
   "type": "Problem",
-  "number": "7.42",
+  "number": "7.39",
   "title": "",
   "body": "  Determine which relations given in Problem are equivalence relations.   "
 },
@@ -3965,7 +3965,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Equivalence_Relations.html#sec_Equivalence_Relations-9",
   "type": "Problem",
-  "number": "7.43",
+  "number": "7.40",
   "title": "",
   "body": "  Let be the set of all triangles and define on via if is similar to . Determine whether is an equivalence relation on .   "
 },
@@ -3974,7 +3974,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Equivalence_Relations.html#sec_Equivalence_Relations-10",
   "type": "Problem",
-  "number": "7.44",
+  "number": "7.41",
   "title": "",
   "body": "  If possible, construct an equivalence relation on the empty set. If this is not possible, explain why.   "
 },
@@ -3983,7 +3983,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Equivalence_Relations.html#thm_related_if_and_only_if_same_class",
   "type": "Theorem",
-  "number": "7.45",
+  "number": "7.42",
   "title": "",
   "body": "  Suppose is an equivalence relation on a set and let . Then if and only if .   "
 },
@@ -3992,7 +3992,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Equivalence_Relations.html#thm_equiv_yields_partition",
   "type": "Theorem",
-  "number": "7.46",
+  "number": "7.43",
   "title": "",
   "body": "  Suppose is an equivalence relation on a set . Then    , and    For all , either or .      "
 },
@@ -4001,7 +4001,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Equivalence_Relations.html#def_equivalence_class",
   "type": "Definition",
-  "number": "7.47",
+  "number": "7.44",
   "title": "",
   "body": "  If is an equivalence relation on a set , then for each , we refer to as the equivalence class of .   "
 },
@@ -4019,7 +4019,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Equivalence_Relations.html#ex_last_name",
   "type": "Example",
-  "number": "7.48",
+  "number": "7.45",
   "title": "",
   "body": "  Let denote the residents of a particular town and define on via if and have the same last name. It is easily seen that this relation is reflexive, symmetric, and transitive, and hence is an equivalence relation on . The equivalence classes correspond to collections of individuals with the same last name. For example, Maria Garcia, Anthony Garcia, and Ariana Garcia all belong to the same equivalence class. Any Garcia can be used as a representative for the corresponding equivalence class, so we can denote it as , for example. The collection consists of the various sets of people with the same last name. In particular, .   "
 },
@@ -4028,7 +4028,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Equivalence_Relations.html#sec_Equivalence_Relations-17",
   "type": "Example",
-  "number": "7.49",
+  "number": "7.46",
   "title": "",
   "body": "  The five distinct sets of relatives that you identified in Problem are the equivalence classes for on . These equivalence classes are often called the congruence classes modulo 5 .   "
 },
@@ -4037,7 +4037,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Equivalence_Relations.html#sec_Equivalence_Relations-19",
   "type": "Problem",
-  "number": "7.50",
+  "number": "7.47",
   "title": "",
   "body": "  If is an equivalence relation on a nonempty finite set , describe in terms of the digraph corresponding to .   "
 },
@@ -4046,7 +4046,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Equivalence_Relations.html#sec_Equivalence_Relations-20",
   "type": "Problem",
-  "number": "7.51",
+  "number": "7.48",
   "title": "",
   "body": "  For each of the equivalence relations you identified in Problem , succinctly describe the corresponding equivalence classes.   "
 },
@@ -4055,7 +4055,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Equivalence_Relations.html#sec_Equivalence_Relations-21",
   "type": "Problem",
-  "number": "7.52",
+  "number": "7.49",
   "title": "",
   "body": "  Suppose and are both equivalence relations on a set . Is an equivalence relation on ? If so, prove it. Otherwise, provide a counterexample.   "
 },
@@ -4064,7 +4064,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Equivalence_Relations.html#sec_Equivalence_Relations-22",
   "type": "Problem",
-  "number": "7.53",
+  "number": "7.50",
   "title": "",
   "body": "  Suppose and are both equivalence relations on a set . Is an equivalence relation on ? If so, prove it. Otherwise, provide a counterexample.   "
 },
@@ -4082,7 +4082,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Partitions.html#def_partition",
   "type": "Definition",
-  "number": "7.54",
+  "number": "7.51",
   "title": "",
   "body": "  A collection of subsets of a set is said to be a partition of if the elements of satisfy:   Each is nonempty,    For all , when , and     .     That is, the elements of are pairwise disjoint nonempty sets and their union is all of . Each is called a block of the partition.   "
 },
@@ -4091,7 +4091,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Partitions.html#ex_last_name_revisited",
   "type": "Example",
-  "number": "7.55",
+  "number": "7.52",
   "title": "",
   "body": "  Consider the equivalence relation on the set described in Example . Recall that the equivalence classes correspond to collections of individuals with the same last name. Since each equivalence class is nonempty and each resident of the town belongs to exactly one equivalence class, the collection of equivalence classes forms a partition of . That is, is a partition of , where the blocks of the partition correspond to sets of residents with the same last name.   "
 },
@@ -4100,7 +4100,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Partitions.html#sec_Partitions-5",
   "type": "Example",
-  "number": "7.56",
+  "number": "7.53",
   "title": "",
   "body": "  Each of the following is an example of a partition of the set given in parentheses.   Democrat, Republican, Independent, Green Party, Libertarian, etc. (set of registered voters)    Freshman, sophomore, junior, senior (set of high school students)    Evens, odds (set of integers)    Rationals, irrationals (set of real numbers)      "
 },
@@ -4109,7 +4109,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Partitions.html#ex_a_partition",
   "type": "Example",
-  "number": "7.57",
+  "number": "7.54",
   "title": "",
   "body": "  Let and . Since the elements of are pairwise disjoint nonempty subsets of such that their union is all of , is a partition of consisting of three blocks.   "
 },
@@ -4118,7 +4118,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Partitions.html#sec_Partitions-7",
   "type": "Problem",
-  "number": "7.58",
+  "number": "7.55",
   "title": "",
   "body": "  Consider the set from Example .   Find a partition of consisting of four blocks.    Find a collection of subsets of that does not form a partition. See how many ways you can prevent your collection from being a partition.      "
 },
@@ -4127,7 +4127,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Partitions.html#sec_Partitions-8",
   "type": "Problem",
-  "number": "7.59",
+  "number": "7.56",
   "title": "",
   "body": "  For each of the following, find a partition of with the given properties.   A partition of that consists of finitely many blocks, where each of the blocks is infinite.    A partition of that consists of infinitely many blocks, where each of the blocks is finite.    A partition of that consists of infinitely many blocks, where each of the blocks is infinite.      "
 },
@@ -4136,7 +4136,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Partitions.html#sec_Partitions-9",
   "type": "Problem",
-  "number": "7.60",
+  "number": "7.57",
   "title": "",
   "body": "  For each relation in Problem , determine whether the corresponding collection of the sets of relatives forms a partition of the given set.   "
 },
@@ -4145,7 +4145,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Partitions.html#sec_Partitions-10",
   "type": "Problem",
-  "number": "7.61",
+  "number": "7.58",
   "title": "",
   "body": "  Can we partition the empty set? If so, describe a partition. If not, explain why.   "
 },
@@ -4154,7 +4154,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Partitions.html#thm_equiv_yields_partition2",
   "type": "Theorem",
-  "number": "7.62",
+  "number": "7.59",
   "title": "",
   "body": "  If is an equivalence relation on a set , then forms a partition of .   "
 },
@@ -4163,7 +4163,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Partitions.html#sec_Partitions-13",
   "type": "Problem",
-  "number": "7.63",
+  "number": "7.60",
   "title": "",
   "body": "  In the previous theorem, what is if is the empty set?   "
 },
@@ -4172,7 +4172,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Partitions.html#sec_Partitions-14",
   "type": "Problem",
-  "number": "7.64",
+  "number": "7.61",
   "title": "",
   "body": "  Consider the equivalence relation on the set . Find $ and verify that it is a partition.   "
 },
@@ -4181,7 +4181,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Partitions.html#sec_Partitions-16",
   "type": "Definition",
-  "number": "7.65",
+  "number": "7.62",
   "title": "",
   "body": "  Let be a set and any collection of subsets of (not necessarily a partition). Define the relation on via if there exists that contains both and . This relation is called the relation on associated to .   "
 },
@@ -4190,7 +4190,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Partitions.html#sec_Partitions-18",
   "type": "Problem",
-  "number": "7.66",
+  "number": "7.63",
   "title": "",
   "body": "  Let and let . List the ordered pairs in and draw the corresponding digraph.   "
 },
@@ -4199,7 +4199,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Partitions.html#sec_Partitions-19",
   "type": "Problem",
-  "number": "7.67",
+  "number": "7.64",
   "title": "",
   "body": "  Let and be as in Example . List the ordered pairs in and draw the corresponding digraph.   "
 },
@@ -4208,7 +4208,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Partitions.html#sec_Partitions-20",
   "type": "Problem",
-  "number": "7.68",
+  "number": "7.65",
   "title": "",
   "body": "  Consider Problem . Find the relation on associated to and compare with what you obtained for in Problem .   "
 },
@@ -4217,7 +4217,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Partitions.html#sec_Partitions-21",
   "type": "Problem",
-  "number": "7.69",
+  "number": "7.66",
   "title": "",
   "body": "  Give an example of a set and a collection from such that the relation is not reflexive.   "
 },
@@ -4226,7 +4226,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Partitions.html#sec_Partitions-22",
   "type": "Problem",
-  "number": "7.70",
+  "number": "7.67",
   "title": "",
   "body": "  Let and .   Is a partition of ?    Find by listing ordered pairs or drawing a digraph.    Is an equivalence relation?    Find (i.e., the collection of subsets of determined by ). How are and related?      "
 },
@@ -4235,7 +4235,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Partitions.html#thm_union_yields_reflexive",
   "type": "Theorem",
-  "number": "7.71",
+  "number": "7.68",
   "title": "",
   "body": "  If is a collection of subsets of a set (not necessarily a partition) such that , then is reflexive.   "
 },
@@ -4244,7 +4244,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Partitions.html#sec_Partitions-24",
   "type": "Problem",
-  "number": "7.72",
+  "number": "7.69",
   "title": "",
   "body": "  In the previous theorem, what is if is the empty set?   "
 },
@@ -4253,7 +4253,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Partitions.html#thm_always_symmetric",
   "type": "Theorem",
-  "number": "7.73",
+  "number": "7.70",
   "title": "",
   "body": "  If is a collection of subsets of a set (not necessarily a partition), then is symmetric.   "
 },
@@ -4262,7 +4262,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Partitions.html#thm_pairwise_disjoint_yields_transitive",
   "type": "Theorem",
-  "number": "7.74",
+  "number": "7.71",
   "title": "",
   "body": "  If is a collection of subsets of a set (not necessarily a partition) such that the elements of are pairwise disjoint, then is transitive.   "
 },
@@ -4271,7 +4271,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Partitions.html#sec_Partitions-27",
   "type": "Problem",
-  "number": "7.75",
+  "number": "7.72",
   "title": "",
   "body": "  Let . If possible, find an example of collection of nonempty subsets of such that is an equivalence relation on but . If such an example is impossible, explain why.   "
 },
@@ -4280,7 +4280,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Partitions.html#thm_partition_yields_equivalence_relation1",
   "type": "Theorem",
-  "number": "7.76",
+  "number": "7.73",
   "title": "",
   "body": "  If is a partition of a set , then is an equivalence relation.   "
 },
@@ -4289,7 +4289,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Partitions.html#thm_partition_yields_equivalence_relation2",
   "type": "Theorem",
-  "number": "7.77",
+  "number": "7.74",
   "title": "",
   "body": "  If is a relation on a set such that the collection of the set of relatives with respect to is a partition of and for all , then is an equivalence relation.   "
 },
@@ -4298,7 +4298,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Partitions.html#sec_Partitions-32",
   "type": "Problem",
-  "number": "7.78",
+  "number": "7.75",
   "title": "",
   "body": "  Let . Make up a partition on and then draw the digraph corresponding to .   "
 },
@@ -4316,7 +4316,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_ModularArithmetic.html#sec_ModularArithmetic-3",
   "type": "Definition",
-  "number": "7.79",
+  "number": "7.76",
   "title": "",
   "body": "  For each , define to be the set of all integers that are divisible by . In set-builder notation, we have .   "
 },
@@ -4325,7 +4325,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_ModularArithmetic.html#sec_ModularArithmetic-5",
   "type": "Problem",
-  "number": "7.80",
+  "number": "7.77",
   "title": "",
   "body": "  Consider the sets , , , and .   List at least five elements in each of the above sets.    Notice that for some . What is ? Describe in a similar way.    Draw a Venn diagram illustrating how the sets , , and intersect.    Draw a Venn diagram illustrating how the sets , , and intersect.      "
 },
@@ -4334,7 +4334,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_ModularArithmetic.html#sec_ModularArithmetic-6",
   "type": "Theorem",
-  "number": "7.81",
+  "number": "7.78",
   "title": "",
   "body": "  Let . If , then , , and are also in .   "
 },
@@ -4343,7 +4343,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_ModularArithmetic.html#def_modulo",
   "type": "Definition",
-  "number": "7.82",
+  "number": "7.79",
   "title": "",
   "body": "  For each , define the relation on via if . We read as is congruent to modulo .    "
 },
@@ -4352,7 +4352,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_ModularArithmetic.html#sec_ModularArithmetic-9",
   "type": "Example",
-  "number": "7.83",
+  "number": "7.80",
   "title": "",
   "body": "  We encountered in Problem and discovered that there were five distinct sets of relatives. In particular, we have .  Notice that this collection forms a partition of . By Theorem , the relation must be an equivalence relation.   "
 },
@@ -4361,7 +4361,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_ModularArithmetic.html#sec_ModularArithmetic-11",
   "type": "Theorem",
-  "number": "7.84",
+  "number": "7.81",
   "title": "",
   "body": "  For , the relation is an equivalence relation on .   "
 },
@@ -4370,7 +4370,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_ModularArithmetic.html#def_congruence_class",
   "type": "Definition",
-  "number": "7.85",
+  "number": "7.82",
   "title": "",
   "body": "  For , let denote the equivalence class of with respect to (see Definitions and ). The equivalence class is called the congruence (or residue) class of modulo . The collection of all equivalence classes determined by is denoted , which is read modulo .   "
 },
@@ -4379,7 +4379,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_ModularArithmetic.html#exam_twomodseven",
   "type": "Example",
-  "number": "7.86",
+  "number": "7.83",
   "title": "",
   "body": "  Let's compute . Tracing back through the definitions, we see that .  Since the multiples of are , we can find by adding to each element of to get .   "
 },
@@ -4388,7 +4388,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_ModularArithmetic.html#sec_ModularArithmetic-15",
   "type": "Problem",
-  "number": "7.87",
+  "number": "7.84",
   "title": "",
   "body": "  For each of the following congruence classes, find five elements in the set such that at least one is greater than and one is less than .                    "
 },
@@ -4397,7 +4397,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_ModularArithmetic.html#sec_ModularArithmetic-16",
   "type": "Problem",
-  "number": "7.88",
+  "number": "7.85",
   "title": "",
   "body": "  Describe , , , , and as lists of elements as in Example . How many distinct congruence classes are in ? Theorem might be helpful.   "
 },
@@ -4406,7 +4406,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_ModularArithmetic.html#thm_cong_classes_equal",
   "type": "Theorem",
-  "number": "7.89",
+  "number": "7.86",
   "title": "",
   "body": "  For and , if and only if divides .   "
 },
@@ -4415,7 +4415,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_ModularArithmetic.html#cor_divisible_iff_zero_mod",
   "type": "Corollary",
-  "number": "7.90",
+  "number": "7.87",
   "title": "",
   "body": "  For and , if and only if divides .   "
 },
@@ -4424,7 +4424,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_ModularArithmetic.html#sec_ModularArithmetic-21",
   "type": "Theorem",
-  "number": "7.91",
+  "number": "7.88",
   "title": "",
   "body": "  For and , if and only if and have the same remainder when divided by .   "
 },
@@ -4433,7 +4433,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_ModularArithmetic.html#sec_ModularArithmetic-23",
   "type": "Theorem",
-  "number": "7.92",
+  "number": "7.89",
   "title": "",
   "body": "  Let and let . If and , then    , and     .      "
 },
@@ -4442,7 +4442,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_ModularArithmetic.html#def_modular_arithmetic",
   "type": "Definition",
-  "number": "7.93",
+  "number": "7.90",
   "title": "",
   "body": "  Let . We define the sum and product of congruence classes in via .   "
 },
@@ -4451,7 +4451,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_ModularArithmetic.html#sec_ModularArithmetic-26",
   "type": "Example",
-  "number": "7.94",
+  "number": "7.91",
   "title": "",
   "body": "  By Definition , . By Theorem , , and so . Similarly, .   "
 },
@@ -4460,7 +4460,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_ModularArithmetic.html#thm_modular_add_comm_assoc",
   "type": "Theorem",
-  "number": "7.95",
+  "number": "7.92",
   "title": "",
   "body": "  If , then addition in is commutative and associative. That is, for all , we have    , and     .      "
 },
@@ -4469,7 +4469,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_ModularArithmetic.html#thm_modular_mult_comm_assoc",
   "type": "Theorem",
-  "number": "7.96",
+  "number": "7.93",
   "title": "",
   "body": "  If , then multiplication in is commutative and associative. That is, for all , we have    , and     .      "
 },
@@ -4478,7 +4478,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_ModularArithmetic.html#thm_modular_sums_products",
   "type": "Theorem",
-  "number": "7.97",
+  "number": "7.94",
   "title": "",
   "body": "  Let . For all , if , then    , and     .      "
 },
@@ -4487,7 +4487,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_ModularArithmetic.html#cor_modular_power",
   "type": "Corollary",
-  "number": "7.98",
+  "number": "7.95",
   "title": "",
   "body": "  Let . If and , then .   "
 },
@@ -4496,7 +4496,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_ModularArithmetic.html#sec_ModularArithmetic-34",
   "type": "Example",
-  "number": "7.99",
+  "number": "7.96",
   "title": "",
   "body": "  Let's compute . We see that .   "
 },
@@ -4505,7 +4505,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_ModularArithmetic.html#sec_ModularArithmetic-36",
   "type": "Problem",
-  "number": "7.100",
+  "number": "7.97",
   "title": "",
   "body": "  For each of the following, find a number with such that the given quantity is equal to .                    "
 },
@@ -4514,7 +4514,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_ModularArithmetic.html#sec_ModularArithmetic-37",
   "type": "Problem",
-  "number": "7.101",
+  "number": "7.98",
   "title": "",
   "body": "  Find and such that but and .   "
 },
@@ -4523,7 +4523,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_ModularArithmetic.html#sec_ModularArithmetic-38",
   "type": "Theorem",
-  "number": "7.102",
+  "number": "7.99",
   "title": "",
   "body": "  If such that is not prime, then there exists such that while and .   "
 },
@@ -4532,7 +4532,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_ModularArithmetic.html#sec_ModularArithmetic-39",
   "type": "Problem",
-  "number": "7.103",
+  "number": "7.100",
   "title": "",
   "body": "  Notice that has no solution in . Show that does have a solution with in . What about ?   "
 },
@@ -4541,7 +4541,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_ModularArithmetic.html#sec_ModularArithmetic-41",
   "type": "Theorem",
-  "number": "7.104",
+  "number": "7.101",
   "title": "",
   "body": "  If such that , where (i.e., are the digits of ), then .   "
 },
@@ -4550,7 +4550,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_ModularArithmetic.html#sec_ModularArithmetic-43",
   "type": "Theorem",
-  "number": "7.105",
+  "number": "7.102",
   "title": "",
   "body": "  An integer is divisible by if and only if the sum of its digits is divisible by .   "
 },
@@ -4559,7 +4559,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_ModularArithmetic.html#sec_ModularArithmetic-45",
   "type": "Problem",
-  "number": "7.106",
+  "number": "7.103",
   "title": "",
   "body": "  Use Corollary to prove that for all integers , is divisible by . You will need to handle the case involving separately.   "
 },
@@ -4568,7 +4568,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_ModularArithmetic.html#sec_ModularArithmetic-47",
   "type": "Problem",
-  "number": "7.107",
+  "number": "7.104",
   "title": "",
   "body": "  Prove or provide a counterexample: No integer exists such that is a perfect square.   "
 },
@@ -4622,7 +4622,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Intro_to_Functions.html#fig_function_diagram",
   "type": "Figure",
-  "number": "8.3",
+  "number": "8.1",
   "title": "",
   "body": " Function diagram for a function from to .     "
 },
@@ -4631,7 +4631,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Intro_to_Functions.html#sec_Intro_to_Functions-10",
   "type": "Problem",
-  "number": "8.4",
+  "number": "8.3",
   "title": "",
   "body": "  Determine whether each of the relations defined in the following examples and problems is a function.    Example (see Figure )     Example (see Figure )     Problem      Problem       "
 },
@@ -4640,7 +4640,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Intro_to_Functions.html#prob_lots_of_potential_functions",
   "type": "Problem",
-  "number": "8.5",
+  "number": "8.4",
   "title": "",
   "body": "  Let and . For each of the following relations, draw the corresponding digraph and determine whether the relation represents a function from to , to , to , or does not represent a function. If the relation is a function, determine the domain, codomain, and range.                                      Define the relation from to via for all .           "
 },
@@ -4649,7 +4649,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Intro_to_Functions.html#sec_Intro_to_Functions-13",
   "type": "Problem",
-  "number": "8.6",
+  "number": "8.5",
   "title": "",
   "body": "  What properties does the digraph for a relation from to need to have in order for it to represent a function?   "
 },
@@ -4658,7 +4658,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Intro_to_Functions.html#sec_Intro_to_Functions-14",
   "type": "Problem",
-  "number": "8.7",
+  "number": "8.6",
   "title": "",
   "body": "  In high school you may have been told that a graph represents a function if it passes the vertical line test . Carefully state what the vertical line test says and then explain why it works.   "
 },
@@ -4667,7 +4667,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Intro_to_Functions.html#sec_Intro_to_Functions-16",
   "type": "Example",
-  "number": "8.8",
+  "number": "8.7",
   "title": "",
   "body": "  The function defined via is not equal to the function defined by since the two functions do not have the same domain.   "
 },
@@ -4685,7 +4685,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Intro_to_Functions.html#sec_Intro_to_Functions-18",
   "type": "Example",
-  "number": "8.9",
+  "number": "8.8",
   "title": "",
   "body": "  If we write , , and without mentioning the domains, we would typically interpret these as the functions , , and that are determined by their respective formulas.   "
 },
@@ -4694,7 +4694,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Intro_to_Functions.html#sec_Intro_to_Functions-19",
   "type": "Problem",
-  "number": "8.10",
+  "number": "8.9",
   "title": "",
   "body": "  Provide an example of each of the following. You may draw a function diagram, write down a list of ordered pairs, or write a formula as long as the domain and codomain are clear.   A function from a set with 4 elements to a set with 3 elements such that .    A function from a set with 4 elements to a set with 3 elements such that is strictly smaller than .      "
 },
@@ -4703,7 +4703,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Intro_to_Functions.html#sec_Intro_to_Functions-20",
   "type": "Problem",
-  "number": "8.11",
+  "number": "8.10",
   "title": "",
   "body": "  Let be a function and suppose that and are finite sets with and elements, respectively, such that . Is it possible for ? If so, provide an example. If this is not possible, explain why.   "
 },
@@ -4712,7 +4712,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Intro_to_Functions.html#sec_Intro_to_Functions-22",
   "type": "Definition",
-  "number": "8.12",
+  "number": "8.11",
   "title": "",
   "body": "  If and are nonempty sets such that , then the function defined via is called the inclusion map from into .   "
 },
@@ -4721,7 +4721,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Intro_to_Functions.html#sec_Intro_to_Functions-24",
   "type": "Problem",
-  "number": "8.13",
+  "number": "8.12",
   "title": "",
   "body": "  Let and . Draw the function diagram of the inclusion map from into .   "
 },
@@ -4730,7 +4730,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Intro_to_Functions.html#sec_Intro_to_Functions-26",
   "type": "Definition",
-  "number": "8.14",
+  "number": "8.13",
   "title": "",
   "body": "  If is a nonempty set, then the function defined via is called the identity map (or identity function) on .   "
 },
@@ -4739,7 +4739,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Intro_to_Functions.html#sec_Intro_to_Functions-27",
   "type": "Example",
-  "number": "8.15",
+  "number": "8.14",
   "title": "",
   "body": "  The relation defined in Problem  is the identity map on .   "
 },
@@ -4748,7 +4748,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Intro_to_Functions.html#sec_Intro_to_Functions-28",
   "type": "Problem",
-  "number": "8.16",
+  "number": "8.15",
   "title": "",
   "body": "  Draw a portion of the graph of the identity map on as a subset of .   "
 },
@@ -4757,7 +4757,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Intro_to_Functions.html#sec_Intro_to_Functions-29",
   "type": "Problem",
-  "number": "8.17",
+  "number": "8.16",
   "title": "",
   "body": "  Let be a nonempty set.   Suppose is an equivalence relation on . What conditions on must hold in order for to be a function from to ?    Suppose is a function. Under what conditions is an equivalence relation on ?      "
 },
@@ -4766,7 +4766,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Intro_to_Functions.html#sec_Intro_to_Functions-30",
   "type": "Definition",
-  "number": "8.18",
+  "number": "8.17",
   "title": "",
   "body": "  Any function defined via for a fixed is called a constant function .   "
 },
@@ -4775,7 +4775,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Intro_to_Functions.html#sec_Intro_to_Functions-31",
   "type": "Example",
-  "number": "8.19",
+  "number": "8.18",
   "title": "",
   "body": "  The function defined in Problem  is an example of a constant function. Notice that we can succinctly describe this function using the formula .   "
 },
@@ -4784,7 +4784,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Intro_to_Functions.html#sec_Intro_to_Functions-32",
   "type": "Definition",
-  "number": "8.20",
+  "number": "8.19",
   "title": "",
   "body": "  A piecewise-defined function (or piecewise function ) is a function defined by specifying its output on a partition of the domain.   "
 },
@@ -4793,7 +4793,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Intro_to_Functions.html#sec_Intro_to_Functions-34",
   "type": "Example",
-  "number": "8.21",
+  "number": "8.20",
   "title": "",
   "body": "  We can express the function in Problem  as a piecewise function using the formula    "
 },
@@ -4802,7 +4802,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Intro_to_Functions.html#sec_Intro_to_Functions-35",
   "type": "Example",
-  "number": "8.22",
+  "number": "8.21",
   "title": "",
   "body": "  The function defined via is an example of a piecewise-defined function.   "
 },
@@ -4811,7 +4811,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Intro_to_Functions.html#sec_Intro_to_Functions-36",
   "type": "Problem",
-  "number": "8.23",
+  "number": "8.22",
   "title": "",
   "body": "  Define via . Express as a piecewise function.   "
 },
@@ -4820,7 +4820,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Intro_to_Functions.html#prob_not_well_defined",
   "type": "Problem",
-  "number": "8.24",
+  "number": "8.23",
   "title": "",
   "body": "  For each of the following, explain why the given description does not define a function.   Define via .    Define via .    Let and . Define via     Define via .      "
 },
@@ -4838,7 +4838,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Intro_to_Functions.html#prob_well_defined",
   "type": "Problem",
-  "number": "8.25",
+  "number": "8.24",
   "title": "",
   "body": "  For each of the following, determine whether the description determines a well-defined function.   Define via     Define via     Define via .    Define via .    Define via .    Define via .      "
 },
@@ -4847,7 +4847,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Intro_to_Functions.html#sec_Intro_to_Functions-43",
   "type": "Problem",
-  "number": "8.26",
+  "number": "8.25",
   "title": "",
   "body": "  Let and . Under what conditions will given by be a well-defined function? Prove your claim.   "
 },
@@ -4865,7 +4865,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Injective_and_Surjective_Functions.html#sec_Injective_and_Surjective_Functions-3",
   "type": "Definition",
-  "number": "8.27",
+  "number": "8.26",
   "title": "",
   "body": "  Let be a function.   The function is said to be injective (or one-to-one ) if for all , there is a unique such that .    The function is said to be surjective (or onto ) if for all , there exists such that .    If is both injective and surjective, we say that is bijective .      "
 },
@@ -4874,7 +4874,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Injective_and_Surjective_Functions.html#sec_Injective_and_Surjective_Functions-4",
   "type": "Problem",
-  "number": "8.28",
+  "number": "8.27",
   "title": "",
   "body": "  Compare and contrast the following statements. Do they mean the same thing?   For all , there exists a unique such that .    For all , there is a unique such that .      "
 },
@@ -4883,7 +4883,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Injective_and_Surjective_Functions.html#sec_Injective_and_Surjective_Functions-5",
   "type": "Problem",
-  "number": "8.29",
+  "number": "8.28",
   "title": "",
   "body": "  Assume that and are finite sets. Provide an example of each of the following. You may draw a function diagram, write down a list of ordered pairs, or write a formula as long as the domain and codomain are clear.   A function that is injective but not surjective.    A function that is surjective but not injective.    A function that is a bijection.    A function that is neither injective nor surjective.      "
 },
@@ -4892,7 +4892,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Injective_and_Surjective_Functions.html#sec_Injective_and_Surjective_Functions-6",
   "type": "Problem",
-  "number": "8.30",
+  "number": "8.29",
   "title": "",
   "body": "  Provide an example of each of the following. You may either draw a graph or write down a formula. Make sure you have the correct domain.   A function that is injective but not surjective.    A function that is surjective but not injective.    A function that is a bijection.    A function that is neither injective nor surjective.    A function that is injective.      "
 },
@@ -4901,7 +4901,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Injective_and_Surjective_Functions.html#sec_Injective_and_Surjective_Functions-7",
   "type": "Problem",
-  "number": "8.31",
+  "number": "8.30",
   "title": "",
   "body": "  Suppose and is a function. Fill in the blank with the appropriate word.  The function is           if and only if every horizontal line hits the graph of  at most once .  This statement is often called the horizontal line test . Explain why the horizontal line test is true.   "
 },
@@ -4910,7 +4910,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Injective_and_Surjective_Functions.html#sec_Injective_and_Surjective_Functions-8",
   "type": "Problem",
-  "number": "8.32",
+  "number": "8.31",
   "title": "",
   "body": "  Suppose and is a function. Fill in the blank with the appropriate word.  The function is           if and only if every horizontal line hits the graph of  at least once .  Explain why this statement is true.   "
 },
@@ -4919,7 +4919,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Injective_and_Surjective_Functions.html#sec_Injective_and_Surjective_Functions-9",
   "type": "Problem",
-  "number": "8.33",
+  "number": "8.32",
   "title": "",
   "body": "  Suppose and is a function. Fill in the blank with the appropriate word.  The function is           if and only if every horizontal line hits the graph of  exactly once .  Explain why this statement is true.   "
 },
@@ -4928,7 +4928,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Injective_and_Surjective_Functions.html#skeleton_injective",
   "type": "Skeleton Proof",
-  "number": "8.34",
+  "number": "8.33",
   "title": "Proof that a function is injective.",
   "body": " Proof that a function is injective   Here is the general structure for proving that a function is injective..   Assume is a function defined by (or satisfying)  [Use the given definition (or describe the given property) of ] . Let and suppose .  [Use the definition (or property) of to verify that ]  Therefore, the function is injective.    "
 },
@@ -4937,7 +4937,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Injective_and_Surjective_Functions.html#skeleton_surjective",
   "type": "Skeleton Proof",
-  "number": "8.35",
+  "number": "8.34",
   "title": "Proof that a function is surjective.",
   "body": " Proof that a function is surjective   Here is the general structure for proving that a function is surjective.   Assume is a function defined by (or satisfying) [Use the given definition (or describe the given property) of ] . Let .  [Use the definition (or property) to find some such that ]  Therefore, the function is surjective.    "
 },
@@ -4946,7 +4946,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Injective_and_Surjective_Functions.html#prob_injective_surjective_functions",
   "type": "Problem",
-  "number": "8.36",
+  "number": "8.35",
   "title": "",
   "body": "  Determine whether each of the following functions is injective, surjective, both, or neither. In each case, you should provide a proof or a counterexample as appropriate. Note: You are probably not in a position to write a careful argument for surjectivity for Part .  Define via   Define via   Define via   Define via   Define via   Define via    Define via   Define via   The function defined in Problem  .  The function defined in Problem  .  The function defined in Problem  .     "
 },
@@ -4955,7 +4955,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Injective_and_Surjective_Functions.html#sec_Injective_and_Surjective_Functions-15",
   "type": "Problem",
-  "number": "8.37",
+  "number": "8.36",
   "title": "",
   "body": "  Suppose and are nonempty sets with and elements, respectively, where . How many injections are there from to ?   "
 },
@@ -4964,7 +4964,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Injective_and_Surjective_Functions.html#sec_Injective_and_Surjective_Functions-16",
   "type": "Problem",
-  "number": "8.38",
+  "number": "8.37",
   "title": "",
   "body": "  Compare and contrast the definition of function with the definition of injective function . Consider the vertical line test and horizontal line test in your discussion. Moreover, attempt to capture what it means for a relation to not be a function and for a function to not be an injection by drawing portions of a digraph.   "
 },
@@ -4973,7 +4973,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Injective_and_Surjective_Functions.html#sec_Injective_and_Surjective_Functions-18",
   "type": "Theorem",
-  "number": "8.39",
+  "number": "8.38",
   "title": "",
   "body": "  The inclusion map for is an injection.   "
 },
@@ -4982,7 +4982,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Injective_and_Surjective_Functions.html#sec_Injective_and_Surjective_Functions-19",
   "type": "Theorem",
-  "number": "8.40",
+  "number": "8.39",
   "title": "",
   "body": "  The identity function is a bijection.   "
 },
@@ -4991,7 +4991,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Injective_and_Surjective_Functions.html#sec_Injective_and_Surjective_Functions-20",
   "type": "Problem",
-  "number": "8.41",
+  "number": "8.40",
   "title": "",
   "body": "  Let and be nonempty sets and let be a nonempty subset of . Define and via and . We call and the projections of onto and , respectively.   Provide examples to show that does not need to be injective nor surjective.    Suppose that is also a function. Is injective? Is surjective? How about ?      "
 },
@@ -5000,7 +5000,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Injective_and_Surjective_Functions.html#thm_canonical_projection",
   "type": "Theorem",
-  "number": "8.42",
+  "number": "8.41",
   "title": "",
   "body": "  If is an equivalence relation on a nonempty set , then the function defined via is a surjection.   "
 },
@@ -5018,7 +5018,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Injective_and_Surjective_Functions.html#sec_Injective_and_Surjective_Functions-24",
   "type": "Problem",
-  "number": "8.43",
+  "number": "8.42",
   "title": "",
   "body": "  Under what circumstances would the function from the previous theorem also be injective?   "
 },
@@ -5027,7 +5027,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Injective_and_Surjective_Functions.html#sec_Injective_and_Surjective_Functions-26",
   "type": "Problem",
-  "number": "8.44",
+  "number": "8.43",
   "title": "",
   "body": "  Let be a relation on a nonempty set .   What conditions on must hold in order for defined via to be a function?    What additional conditions, if any, must hold on in order for to be a surjective function?      "
 },
@@ -5036,7 +5036,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Injective_and_Surjective_Functions.html#thm_equiv_relation_from_preimages",
   "type": "Theorem",
-  "number": "8.45",
+  "number": "8.44",
   "title": "",
   "body": "  Let be a function and define on via if . Then is an equivalence relation on .   "
 },
@@ -5045,7 +5045,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Injective_and_Surjective_Functions.html#prob_equiv_classes_from_preimages",
   "type": "Problem",
-  "number": "8.46",
+  "number": "8.45",
   "title": "",
   "body": "  For each of the following, identify the equivalence classes induced by the relation from Theorem for the given function.   The function defined in Example .    The function defined in Problem  . Can you describe the equivalence classes geometrically?      "
 },
@@ -5054,7 +5054,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Injective_and_Surjective_Functions.html#thm_iso_theorem_for_sets",
   "type": "Theorem",
-  "number": "8.47",
+  "number": "8.46",
   "title": "",
   "body": "  Let be a function and define on as in Theorem . Then the function defined via is a bijection.   "
 },
@@ -5063,7 +5063,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Injective_and_Surjective_Functions.html#sec_Injective_and_Surjective_Functions-34",
   "type": "Example",
-  "number": "8.48",
+  "number": "8.47",
   "title": "",
   "body": "  Let and and define via .  The function diagram for is given in Figure , where we have highlighted the elements of the domain that map to the same element in the range by enclosing them in additional boxes. We see that . The function diagram for the induced map that is depicted in Figure makes it clear that is a bijection. Note that since and , it must be the case that and according to Theorem . Thus, the vertices labeled as and in Figure could have also been labeled as and or , respectively. In terms of our passengers and airplanes analogy, is the set of passengers, is the set of potential destination cities, is the set of airplanes, and is the set of cities that airplanes land at. The equivalence class is the airplane containing the passenger , and since and are on the same plane, is also the plane containing the passenger .   "
 },
@@ -5072,7 +5072,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Injective_and_Surjective_Functions.html#fig_passengers_and_airplanes",
   "type": "Figure",
-  "number": "8.49",
+  "number": "8.2",
   "title": "",
   "body": " Example of a visual representation of Theorem .                "
 },
@@ -5081,7 +5081,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Injective_and_Surjective_Functions.html#prob_iso_theorem_for_sets",
   "type": "Problem",
-  "number": "8.50",
+  "number": "8.48",
   "title": "",
   "body": "  Consider the equivalence classes you identified in Parts (a) and (b) of Problem .   Draw the function diagram for the function as defined in Theorem , where is the function defined in Example .    Geometrically describe the function as defined in Theorem , where is the function defined in Problem  .      "
 },
@@ -5090,7 +5090,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Injective_and_Surjective_Functions.html#prob_Z_to_Z_mod_4",
   "type": "Problem",
-  "number": "8.51",
+  "number": "8.49",
   "title": "",
   "body": "  Let and define the function such that equals the unique remainder obtained after dividing by 4. For example, since according to the Division Algorithm ( Theorem ). This function is sometimes written as , where it is understood that we restrict the output to . It is clear that is surjective since 0, 1, 2, and 3 are mapped to 0, 1, 2, and 3, respectively. Figure depicts a portion of the function diagram for , where we have drawn the diagram from the top down instead of left to right.   Describe the equivalence classes induced by the relation given in Theorem .    What familiar set is equal to?    Draw the function diagram for the function as defined in Theorem .    The function diagram in Figure is a bit hard to interpret due to the ordering of the elements in the domain. Can you find a better way to lay out the vertices in the domain that makes the function easier to interpret?      "
 },
@@ -5099,7 +5099,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Injective_and_Surjective_Functions.html#fig_Z_to_Z_mod_4",
   "type": "Figure",
-  "number": "8.52",
+  "number": "8.3",
   "title": "",
   "body": " Function diagram for the function described in Problem .     "
 },
@@ -5108,7 +5108,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Injective_and_Surjective_Functions.html#sec_Injective_and_Surjective_Functions-40",
   "type": "Problem",
-  "number": "8.53",
+  "number": "8.50",
   "title": "",
   "body": "  Consider the function defined in Problem  .   Draw the function diagram for .    Identify the equivalence classes induced by the relation given in Theorem .    Draw the function diagram for the function as defined in Theorem .      "
 },
@@ -5126,7 +5126,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Compositions_and_Inverse_Functions.html#sec_Compositions_and_Inverse_Functions-3",
   "type": "Definition",
-  "number": "8.54",
+  "number": "8.51",
   "title": "",
   "body": "  If and are functions, we define via . The function is called the composition of and .   "
 },
@@ -5135,7 +5135,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Compositions_and_Inverse_Functions.html#fig_function_composition",
   "type": "Figure",
-  "number": "8.55",
+  "number": "8.4",
   "title": "",
   "body": " Visual representation of function composition.     "
 },
@@ -5144,7 +5144,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Compositions_and_Inverse_Functions.html#sec_Compositions_and_Inverse_Functions-6",
   "type": "Problem",
-  "number": "8.56",
+  "number": "8.52",
   "title": "",
   "body": "  Let and define and via and .  For each of the following functions, draw the corresponding function diagram in the spirit of Figure and identify the range.               "
 },
@@ -5153,7 +5153,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Compositions_and_Inverse_Functions.html#sec_Compositions_and_Inverse_Functions-8",
   "type": "Example",
-  "number": "8.57",
+  "number": "8.53",
   "title": "",
   "body": "  Consider the inclusion map such that is a proper subset of and suppose is a function. Then the composite function is given by for all . Notice that is simply the function but with a smaller domain. In this case, we say that is the restriction of to , which is often denoted by .   "
 },
@@ -5162,7 +5162,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Compositions_and_Inverse_Functions.html#sec_Compositions_and_Inverse_Functions-9",
   "type": "Problem",
-  "number": "8.58",
+  "number": "8.54",
   "title": "",
   "body": "  Define and via and , respectively. Determine formulas for the composite functions and .   "
 },
@@ -5171,7 +5171,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Compositions_and_Inverse_Functions.html#sec_Compositions_and_Inverse_Functions-10",
   "type": "Problem",
-  "number": "8.59",
+  "number": "8.55",
   "title": "",
   "body": "  Define and via and , respectively. Find a formula for the composite function .   "
 },
@@ -5180,7 +5180,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Compositions_and_Inverse_Functions.html#sec_Compositions_and_Inverse_Functions-11",
   "type": "Problem",
-  "number": "8.60",
+  "number": "8.56",
   "title": "",
   "body": "  Define and via and , respectively. Find a formula for the composite function .   "
 },
@@ -5189,7 +5189,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Compositions_and_Inverse_Functions.html#sec_Compositions_and_Inverse_Functions-13",
   "type": "Theorem",
-  "number": "8.61",
+  "number": "8.57",
   "title": "",
   "body": "  If is a function, then , where and are the identity maps on and , respectively.   "
 },
@@ -5198,7 +5198,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Compositions_and_Inverse_Functions.html#sec_Compositions_and_Inverse_Functions-15",
   "type": "Theorem",
-  "number": "8.62",
+  "number": "8.58",
   "title": "",
   "body": "  If , , and are functions, then .   "
 },
@@ -5207,7 +5207,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Compositions_and_Inverse_Functions.html#sec_Compositions_and_Inverse_Functions-16",
   "type": "Problem",
-  "number": "8.63",
+  "number": "8.59",
   "title": "",
   "body": "  In each case, give examples of finite sets , , and , and functions and that satisfy the given conditions. Drawing a function diagram is sufficient.    is surjective, but is not surjective.     is surjective, but is not surjective.     is injective, but is not injective.     is injective, but is not injective.      "
 },
@@ -5216,7 +5216,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Compositions_and_Inverse_Functions.html#sec_Compositions_and_Inverse_Functions-17",
   "type": "Theorem",
-  "number": "8.64",
+  "number": "8.60",
   "title": "",
   "body": "  If and are both surjective functions, then is also surjective.   "
 },
@@ -5225,7 +5225,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Compositions_and_Inverse_Functions.html#sec_Compositions_and_Inverse_Functions-18",
   "type": "Theorem",
-  "number": "8.65",
+  "number": "8.61",
   "title": "",
   "body": "  If and are both injective functions, then is also injective.   "
 },
@@ -5234,7 +5234,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Compositions_and_Inverse_Functions.html#sec_Compositions_and_Inverse_Functions-19",
   "type": "Corollary",
-  "number": "8.66",
+  "number": "8.62",
   "title": "",
   "body": "  If and are both bijections, then is also a bijection.   "
 },
@@ -5243,7 +5243,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Compositions_and_Inverse_Functions.html#sec_Compositions_and_Inverse_Functions-20",
   "type": "Problem",
-  "number": "8.67",
+  "number": "8.63",
   "title": "",
   "body": "  Assume that and are both functions. Determine whether each of the following statements is true or false. If a statement is true, prove it. Otherwise, provide a counterexample.   If is injective, then is injective.    If is injective, then is injective.    If is surjective, then is surjective.    If is surjective, then is surjective.      "
 },
@@ -5252,7 +5252,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Compositions_and_Inverse_Functions.html#sec_Compositions_and_Inverse_Functions-21",
   "type": "Theorem",
-  "number": "8.68",
+  "number": "8.64",
   "title": "",
   "body": "  Let be a function. Then is injective if and only if there exists a function such that , where is the identity map on .   "
 },
@@ -5270,7 +5270,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Compositions_and_Inverse_Functions.html#sec_Compositions_and_Inverse_Functions-23",
   "type": "Theorem",
-  "number": "8.69",
+  "number": "8.65",
   "title": "",
   "body": "  Let be a function. Then is surjective if and only if there exists a function such that , where is the identity map on .   "
 },
@@ -5288,7 +5288,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Compositions_and_Inverse_Functions.html#sec_Compositions_and_Inverse_Functions-25",
   "type": "Problem",
-  "number": "8.70",
+  "number": "8.66",
   "title": "",
   "body": "  Complete each of the following. Consider using finite sets and drawing a function diagram to define your functions.   Provide an example of a function that has a left inverse but does not have a right inverse. Find the left inverse of your proposed function.    Provide an example of a function that has a right inverse but does not have a left inverse. Find the right inverse of your proposed function.      "
 },
@@ -5297,7 +5297,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Compositions_and_Inverse_Functions.html#sec_Compositions_and_Inverse_Functions-26",
   "type": "Problem",
-  "number": "8.71",
+  "number": "8.67",
   "title": "",
   "body": "  Define via . Explain why does not have a left inverse nor a right inverse.   "
 },
@@ -5306,7 +5306,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Compositions_and_Inverse_Functions.html#sec_Compositions_and_Inverse_Functions-27",
   "type": "Problem",
-  "number": "8.72",
+  "number": "8.68",
   "title": "",
   "body": "  Define via and via .   Explain why does not have a left inverse.    Verify that is the right inverse of by computing .      "
 },
@@ -5315,7 +5315,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Compositions_and_Inverse_Functions.html#cor_two-sided_inverse",
   "type": "Corollary",
-  "number": "8.73",
+  "number": "8.69",
   "title": "",
   "body": "  If and are functions satisfying and , then is a bijection.   "
 },
@@ -5333,7 +5333,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Compositions_and_Inverse_Functions.html#def_inverse_of_a_function",
   "type": "Definition",
-  "number": "8.74",
+  "number": "8.70",
   "title": "",
   "body": "  Let be a function. The relation from to , called  inverse , is defined via .   "
 },
@@ -5342,7 +5342,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Compositions_and_Inverse_Functions.html#sec_Compositions_and_Inverse_Functions-32",
   "type": "Problem",
-  "number": "8.75",
+  "number": "8.71",
   "title": "",
   "body": "  Consider the function given in Example (see Figure ). List the ordered pairs in the relation and draw the corresponding digraph. Is a function?   "
 },
@@ -5351,7 +5351,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Compositions_and_Inverse_Functions.html#sec_Compositions_and_Inverse_Functions-33",
   "type": "Problem",
-  "number": "8.76",
+  "number": "8.72",
   "title": "",
   "body": "  Provide an example of a function such that is a function. Drawing a function diagram is sufficient.   "
 },
@@ -5360,7 +5360,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Compositions_and_Inverse_Functions.html#sec_Compositions_and_Inverse_Functions-34",
   "type": "Problem",
-  "number": "8.77",
+  "number": "8.73",
   "title": "",
   "body": "  Suppose and is a function. What is the relationship between the graph of the function and the graph of the inverse relation ?   "
 },
@@ -5369,7 +5369,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Compositions_and_Inverse_Functions.html#thm_inverse_function_iff_bijection",
   "type": "Theorem",
-  "number": "8.78",
+  "number": "8.74",
   "title": "",
   "body": "  Let be a function. Then is a function if and only if is a bijection.   "
 },
@@ -5378,7 +5378,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Compositions_and_Inverse_Functions.html#sec_Compositions_and_Inverse_Functions-36",
   "type": "Problem",
-  "number": "8.79",
+  "number": "8.75",
   "title": "",
   "body": "  Suppose is a function. Fill in the blank with the appropriate phrase.  The relation is a function if and only if every horizontal line hits the graph of                  .  Explain why this statement is true.   "
 },
@@ -5387,7 +5387,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Compositions_and_Inverse_Functions.html#thm_comp_of_inverses",
   "type": "Theorem",
-  "number": "8.80",
+  "number": "8.76",
   "title": "",
   "body": "  If is a bijection, then    , and     .      "
 },
@@ -5396,7 +5396,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Compositions_and_Inverse_Functions.html#thm_f_inverse_bijection",
   "type": "Theorem",
-  "number": "8.81",
+  "number": "8.77",
   "title": "",
   "body": "  If is a bijection, then is also a bijection.   "
 },
@@ -5405,7 +5405,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Compositions_and_Inverse_Functions.html#thm_unique_inverse",
   "type": "Theorem",
-  "number": "8.82",
+  "number": "8.78",
   "title": "",
   "body": "  If and are functions such that and , then is a function and .   "
 },
@@ -5423,7 +5423,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Compositions_and_Inverse_Functions.html#sec_Compositions_and_Inverse_Functions-41",
   "type": "Problem",
-  "number": "8.83",
+  "number": "8.79",
   "title": "",
   "body": "  Let and suppose is a function. Explain the difference between and . When does each exist?   "
 },
@@ -5432,7 +5432,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Compositions_and_Inverse_Functions.html#sec_Compositions_and_Inverse_Functions-42",
   "type": "Problem",
-  "number": "8.84",
+  "number": "8.80",
   "title": "",
   "body": "  Let and define via and via . Identify the largest possible choices for and so that and are inverses of each other.   "
 },
@@ -5441,7 +5441,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Compositions_and_Inverse_Functions.html#thm_inverse_of_inverse",
   "type": "Theorem",
-  "number": "8.85",
+  "number": "8.81",
   "title": "",
   "body": "  If is a bijection, then .   "
 },
@@ -5450,7 +5450,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Compositions_and_Inverse_Functions.html#sec_Compositions_and_Inverse_Functions-45",
   "type": "Theorem",
-  "number": "8.86",
+  "number": "8.82",
   "title": "",
   "body": "  If and are both bijections, then .   "
 },
@@ -5468,7 +5468,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Images_and_Preimages.html#sec_Images_and_Preimages-3",
   "type": "Definition",
-  "number": "8.87",
+  "number": "8.83",
   "title": "",
   "body": "  Let be a function.  If , the image of under is defined via .   If , the preimage (or inverse image ) of under is defined via .     "
 },
@@ -5477,7 +5477,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Images_and_Preimages.html#sec_Images_and_Preimages-6",
   "type": "Problem",
-  "number": "8.88",
+  "number": "8.84",
   "title": "",
   "body": "  Define via . List elements in each of the following sets.               "
 },
@@ -5486,7 +5486,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Images_and_Preimages.html#sec_Images_and_Preimages-7",
   "type": "Problem",
-  "number": "8.89",
+  "number": "8.85",
   "title": "",
   "body": "  Define via . Find each of the following sets.                                                       "
 },
@@ -5495,7 +5495,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Images_and_Preimages.html#sec_Images_and_Preimages-8",
   "type": "Problem",
-  "number": "8.90",
+  "number": "8.86",
   "title": "",
   "body": "  Define via .   Find two nonempty subsets and of such that but .    Find two nonempty subsets and of such that but .      "
 },
@@ -5504,7 +5504,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Images_and_Preimages.html#sec_Images_and_Preimages-9",
   "type": "Problem",
-  "number": "8.91",
+  "number": "8.87",
   "title": "",
   "body": "  Suppose is an injection and and are disjoint subsets of . Are and necessarily disjoint subsets of ? If so, prove it. Otherwise, provide a counterexample.   "
 },
@@ -5513,7 +5513,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Images_and_Preimages.html#sec_Images_and_Preimages-10",
   "type": "Problem",
-  "number": "8.92",
+  "number": "8.88",
   "title": "",
   "body": "  Find examples of functions and together with sets and such that and .   "
 },
@@ -5522,7 +5522,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Images_and_Preimages.html#sec_Images_and_Preimages-11",
   "type": "Problem",
-  "number": "8.93",
+  "number": "8.89",
   "title": "",
   "body": "  Let be a function and suppose and . Determine whether each of the following statements is true or false. If a statement is true, prove it. Otherwise, provide a counterexample.   If , then .    If , then .     .     .     .     .     .     .     .     .     .     .     .     .      "
 },
@@ -5531,7 +5531,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Images_and_Preimages.html#sec_Images_and_Preimages-12",
   "type": "Problem",
-  "number": "8.94",
+  "number": "8.90",
   "title": "",
   "body": "  For each of the statements in the previous problem that were false, determine conditions, if any, on the corresponding sets that would make the statement true.   "
 },
@@ -5540,7 +5540,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Images_and_Preimages.html#thm_unions_and_intersections_of_images",
   "type": "Theorem",
-  "number": "8.95",
+  "number": "8.91",
   "title": "",
   "body": "  Let be a function and suppose is a collection of subsets of .    .     .      "
 },
@@ -5549,7 +5549,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Images_and_Preimages.html#thm_unions_and_intersections_of_preimages",
   "type": "Theorem",
-  "number": "8.96",
+  "number": "8.92",
   "title": "",
   "body": "  Let be a function and suppose is a collection of subsets of .    .     .      "
 },
@@ -5558,7 +5558,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Images_and_Preimages.html#sec_Images_and_Preimages-16",
   "type": "Problem",
-  "number": "8.97",
+  "number": "8.93",
   "title": "",
   "body": "  Consider the equivalence relation given in Theorem . Explain why each equivalence class is equal to .   "
 },
@@ -5567,7 +5567,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Images_and_Preimages.html#sec_Images_and_Preimages-17",
   "type": "Problem",
-  "number": "8.98",
+  "number": "8.94",
   "title": "",
   "body": "  Suppose that is a function satisfying for all .   Prove that .    Prove that for all .    Prove that is injective if and only if .    Certainly every function given by for satisfies the initial hypothesis. Can you provide an example of a function that satisfies that is not of the form ?      "
 },
@@ -5585,7 +5585,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Continuity.html#sec_Continuity-3",
   "type": "Definition",
-  "number": "8.99",
+  "number": "8.95",
   "title": "",
   "body": "  A real function is any function such that is a nonempty subset of .   "
 },
@@ -5603,7 +5603,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Continuity.html#def_continuity",
   "type": "Definition",
-  "number": "8.100",
+  "number": "8.96",
   "title": "",
   "body": "  Suppose is a real function such that . We say that is continuous at if for every , there exists such that if and , then . If is continuous at every point in , then we say that is continuous on . If is continuous on its entire domain, we simply say that is continuous .   "
 },
@@ -5612,7 +5612,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Continuity.html#fig_continuity",
   "type": "Figure",
-  "number": "8.101",
+  "number": "8.5",
   "title": "",
   "body": " Visual representation of continuity of at .     "
 },
@@ -5621,7 +5621,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Continuity.html#sec_Continuity-10",
   "type": "Example",
-  "number": "8.102",
+  "number": "8.97",
   "title": "",
   "body": "  Define via . Let's prove that is continuous (at every point in the domain). Let and let . Choose . We will see in a moment why this is a good choice for . Suppose such that . We see that .  We have shown that is continuous at , and since was arbitrary, is continuous.   "
 },
@@ -5630,7 +5630,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Continuity.html#sec_Continuity-11",
   "type": "Problem",
-  "number": "8.103",
+  "number": "8.98",
   "title": "",
   "body": "  Prove that each of the following real functions is continuous using Definition .    defined via .     defined via .     defined via .      "
 },
@@ -5639,7 +5639,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Continuity.html#sec_Continuity-13",
   "type": "Theorem",
-  "number": "8.104",
+  "number": "8.99",
   "title": "",
   "body": "  If is defined via for , then is continuous.   "
 },
@@ -5648,7 +5648,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Continuity.html#sec_Continuity-15",
   "type": "Problem",
-  "number": "8.105",
+  "number": "8.100",
   "title": "",
   "body": "  Define via .   Prove that is continuous at 0.    Prove that is continuous at 1.      "
 },
@@ -5657,7 +5657,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Continuity.html#sec_Continuity-16",
   "type": "Problem",
-  "number": "8.106",
+  "number": "8.101",
   "title": "",
   "body": "  Define via . Prove that is continuous at 0.   "
 },
@@ -5666,7 +5666,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Continuity.html#sec_Continuity-17",
   "type": "Problem",
-  "number": "8.107",
+  "number": "8.102",
   "title": "",
   "body": "  Suppose is a real function. Write a precise statement for what it means for to not be continuous at .   "
 },
@@ -5675,7 +5675,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Continuity.html#sec_Continuity-18",
   "type": "Problem",
-  "number": "8.108",
+  "number": "8.103",
   "title": "",
   "body": "  Define via   Determine where is continuous and justify your assertion.   "
 },
@@ -5684,7 +5684,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Continuity.html#sec_Continuity-19",
   "type": "Problem",
-  "number": "8.109",
+  "number": "8.104",
   "title": "",
   "body": "  Define via   Determine where is continuous and justify your assertion.   "
 },
@@ -5693,7 +5693,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Continuity.html#sec_Continuity-21",
   "type": "Problem",
-  "number": "8.110",
+  "number": "8.105",
   "title": "",
   "body": "  Define via . Notice the domain! Determine where is continuous and justify your assertion.   "
 },
@@ -5702,7 +5702,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Continuity.html#thm_preimages_open_sets",
   "type": "Theorem",
-  "number": "8.111",
+  "number": "8.106",
   "title": "",
   "body": "  Suppose is a real function. Then is continuous if and only if the preimage of every open set is an open set intersected with the domain of .   "
 },
@@ -5711,7 +5711,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Continuity.html#thm_preimages_basic_open_sets",
   "type": "Theorem",
-  "number": "8.112",
+  "number": "8.107",
   "title": "",
   "body": "  Suppose is a real function. Then is continuous if and only if the preimage of every bounded open interval is an open set intersected with the domain of .   "
 },
@@ -5720,7 +5720,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Continuity.html#sec_Continuity-27",
   "type": "Problem",
-  "number": "8.113",
+  "number": "8.108",
   "title": "",
   "body": "  Define via . Prove that is continuous.   "
 },
@@ -5729,7 +5729,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Continuity.html#sec_Continuity-28",
   "type": "Problem",
-  "number": "8.114",
+  "number": "8.109",
   "title": "",
   "body": "  Define via . Determine where is continuous and justify your assertion.   "
 },
@@ -5738,7 +5738,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Continuity.html#sec_Continuity-30",
   "type": "Problem",
-  "number": "8.115",
+  "number": "8.110",
   "title": "",
   "body": "  Find a continuous real function and an open interval such that the preimage is not an open interval.   "
 },
@@ -5747,7 +5747,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Continuity.html#sec_Continuity-32",
   "type": "Problem",
-  "number": "8.116",
+  "number": "8.111",
   "title": "",
   "body": "  Suppose is a continuous real function. If is an open set contained in , is the image always open? If so, prove it. Otherwise, provide a counterexample.   "
 },
@@ -5756,7 +5756,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Continuity.html#sec_Continuity-33",
   "type": "Problem",
-  "number": "8.117",
+  "number": "8.112",
   "title": "",
   "body": "  Suppose is a continuous real function. If is a closed set, is the preimage always a closed set? If so, prove it. Otherwise, provide a counterexample.   "
 },
@@ -5765,7 +5765,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Continuity.html#sec_Continuity-34",
   "type": "Problem",
-  "number": "8.118",
+  "number": "8.113",
   "title": "",
   "body": "  Suppose is a continuous real function. If is a closed interval contained in , is the image always a closed interval? If so, prove it. Otherwise, provide a counterexample.   "
 },
@@ -5774,7 +5774,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Continuity.html#sec_Continuity-35",
   "type": "Problem",
-  "number": "8.119",
+  "number": "8.114",
   "title": "",
   "body": "  Suppose is a continuous real function. If is a closed set contained in , is the image always a closed set? If so, prove it. Otherwise, provide a counterexample.   "
 },
@@ -5783,7 +5783,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Continuity.html#sec_Continuity-36",
   "type": "Problem",
-  "number": "8.120",
+  "number": "8.115",
   "title": "",
   "body": "  Suppose is a continuous real function. If is bounded set contained in , is the image always a bounded set? If so, prove it. Otherwise, provide a counterexample.   "
 },
@@ -5792,7 +5792,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Continuity.html#sec_Continuity-37",
   "type": "Problem",
-  "number": "8.121",
+  "number": "8.116",
   "title": "",
   "body": "  Suppose is a continuous real function. If is a bounded set, is the preimage always a bounded set? If so, prove it. Otherwise, provide a counterexample.   "
 },
@@ -5801,7 +5801,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Continuity.html#sec_Continuity-38",
   "type": "Problem",
-  "number": "8.122",
+  "number": "8.117",
   "title": "",
   "body": "  Suppose is a continuous real function. If is a compact set, is the preimage always a compact set? If so, prove it. Otherwise, provide a counterexample.   "
 },
@@ -5810,7 +5810,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Continuity.html#prob_continuous_image_of_connected_set",
   "type": "Problem",
-  "number": "8.123",
+  "number": "8.118",
   "title": "",
   "body": "  Suppose is a continuous real function. If is a connected set contained in , is the image always connected? If so, prove it. Otherwise, provide a counterexample.   "
 },
@@ -5819,7 +5819,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Continuity.html#sec_Continuity-40",
   "type": "Problem",
-  "number": "8.124",
+  "number": "8.119",
   "title": "",
   "body": "  Suppose is a continuous real function. If is a connected set, is the preimage always a connected set? If so, prove it. Otherwise, provide a counterexample.   "
 },
@@ -5837,7 +5837,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Continuity.html#sec_Continuity-43",
   "type": "Theorem",
-  "number": "8.125",
+  "number": "8.120",
   "title": "",
   "body": "  Suppose is a real function. If is continuous on such that or , then there exists such that .   "
 },
@@ -5846,7 +5846,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Continuity.html#sec_Continuity-45",
   "type": "Theorem",
-  "number": "8.126",
+  "number": "8.121",
   "title": "Intermediate Value Theorem.",
   "body": " Intermediate Value Theorem   Suppose is a real function. If is continuous on such that or for some , then there exists such that .   "
 },
@@ -5855,7 +5855,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Continuity.html#sec_Continuity-46",
   "type": "Problem",
-  "number": "8.127",
+  "number": "8.122",
   "title": "",
   "body": "  Is the converse of the Intermediate Value Theorem true? If so, prove it. Otherwise, provide a counterexample.   "
 },
@@ -5918,7 +5918,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Intro_to_Cardinality.html#fig_lattice_path",
   "type": "Figure",
-  "number": "9.6",
+  "number": "9.1",
   "title": "",
   "body": " A North-East lattice path from to .     "
 },
@@ -5927,7 +5927,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Intro_to_Cardinality.html#prob_cardinalityPractice",
   "type": "Problem",
-  "number": "9.7",
+  "number": "9.6",
   "title": "",
   "body": "  Prove each of the following. In each case, you should create a bijection between the two sets. Briefly justify that your functions are in fact bijections.                   (where and are intervals)           "
 },
@@ -5936,7 +5936,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Intro_to_Cardinality.html#sec_Intro_to_Cardinality-15",
   "type": "Problem",
-  "number": "9.8",
+  "number": "9.7",
   "title": "",
   "body": "  If is a set, do and have the same cardinality? Justify your answer.   "
 },
@@ -5945,7 +5945,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Intro_to_Cardinality.html#sec_Intro_to_Cardinality-16",
   "type": "Problem",
-  "number": "9.9",
+  "number": "9.8",
   "title": "",
   "body": "  Let denote the collection of North-East lattice paths from to that never drop below the line . These types of lattice paths are often called Dyck paths after the German mathematician Walther Franz Anton von Dyck (1856 1934). A sequence of parentheses is balanced if it can be parsed syntactically. In other words, there should be the same number of open parentheses ( and closed parentheses ) , and when reading from left to right there should never be more closed parentheses than open. For example, and are balanced parenthesizations consisting of three pairs of parentheses while and are not balanced. Let denote the collection of balanced parenthesizations consisting of pairs of parentheses. For example, .   Find all Dyck paths in .    Prove that .      "
 },
@@ -5954,7 +5954,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Intro_to_Cardinality.html#sec_Intro_to_Cardinality-18",
   "type": "Problem",
-  "number": "9.10",
+  "number": "9.9",
   "title": "",
   "body": "  Let denote the set of functions from to .   Describe at least three functions in .    Prove that and have the same cardinality.      "
 },
@@ -5963,7 +5963,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Intro_to_Cardinality.html#sec_Intro_to_Cardinality-20",
   "type": "Theorem",
-  "number": "9.11",
+  "number": "9.10",
   "title": "",
   "body": "  Let , , and be sets.    .    If , then .    If and , then .      "
 },
@@ -5972,7 +5972,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Intro_to_Cardinality.html#sec_Intro_to_Cardinality-22",
   "type": "Corollary",
-  "number": "9.12",
+  "number": "9.11",
   "title": "",
   "body": "  If is a set, then has the same cardinality as is an equivalence relation on .   "
 },
@@ -5981,7 +5981,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Intro_to_Cardinality.html#sec_Intro_to_Cardinality-23",
   "type": "Theorem",
-  "number": "9.13",
+  "number": "9.12",
   "title": "",
   "body": "  Let , , , and be sets such that and .   If and are disjoint and and are disjoint, then .     .      "
 },
@@ -5990,7 +5990,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Intro_to_Cardinality.html#sec_Intro_to_Cardinality-25",
   "type": "Definition",
-  "number": "9.14",
+  "number": "9.13",
   "title": "",
   "body": "  Let and be sets. If there is an injective function from to , then we say that the cardinality of is less than or equal to the cardinality of . In this case, we write .   "
 },
@@ -5999,7 +5999,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Intro_to_Cardinality.html#sec_Intro_to_Cardinality-26",
   "type": "Theorem",
-  "number": "9.15",
+  "number": "9.14",
   "title": "",
   "body": "  Let , , and be sets.   If , then .    If and , then .    If while , then .      "
 },
@@ -6008,7 +6008,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Intro_to_Cardinality.html#sec_Intro_to_Cardinality-28",
   "type": "Problem",
-  "number": "9.16",
+  "number": "9.15",
   "title": "",
   "body": "  Provide an example of sets and such that despite the fact that there exists an injective function from to that is not surjective.   "
 },
@@ -6017,7 +6017,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Intro_to_Cardinality.html#sec_Intro_to_Cardinality-29",
   "type": "Definition",
-  "number": "9.17",
+  "number": "9.16",
   "title": "",
   "body": "  Let and be sets. We write if and .   "
 },
@@ -6035,7 +6035,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Finite_Sets.html#sec_Finite_Sets-3",
   "type": "Definition",
-  "number": "9.18",
+  "number": "9.17",
   "title": "",
   "body": "  For each , define .   "
 },
@@ -6044,7 +6044,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Finite_Sets.html#sec_Finite_Sets-6",
   "type": "Definition",
-  "number": "9.19",
+  "number": "9.18",
   "title": "",
   "body": "  A set is finite if or for some . If , then we say that has cardinality and if , then we say that has cardinality .   "
 },
@@ -6053,7 +6053,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Finite_Sets.html#thm_finiteSetsSameCardinality",
   "type": "Theorem",
-  "number": "9.20",
+  "number": "9.19",
   "title": "",
   "body": "  If is finite and , then is finite.   "
 },
@@ -6062,7 +6062,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Finite_Sets.html#thm_increaseCardinality",
   "type": "Theorem",
-  "number": "9.21",
+  "number": "9.20",
   "title": "",
   "body": "  If has cardinality and , then is finite and has cardinality .   "
 },
@@ -6071,7 +6071,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Finite_Sets.html#thm_subsetsFiniteSets",
   "type": "Theorem",
-  "number": "9.22",
+  "number": "9.21",
   "title": "",
   "body": "  For every , every subset of is finite.   "
 },
@@ -6080,7 +6080,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Finite_Sets.html#thm_decreaseCardinality",
   "type": "Theorem",
-  "number": "9.23",
+  "number": "9.22",
   "title": "",
   "body": "  If has cardinality , then for all , is finite and has cardinality .   "
 },
@@ -6089,7 +6089,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Finite_Sets.html#thm_cardinalityProperSubsetsFinite",
   "type": "Theorem",
-  "number": "9.24",
+  "number": "9.23",
   "title": "",
   "body": "  Every subset of a finite set is finite. In particular, if is a finite set, then for all proper subsets of .   "
 },
@@ -6098,7 +6098,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Finite_Sets.html#sec_Finite_Sets-17",
   "type": "Theorem",
-  "number": "9.25",
+  "number": "9.24",
   "title": "",
   "body": "  If is a finite collection of finite sets, then is finite.   "
 },
@@ -6116,7 +6116,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Finite_Sets.html#sec_Finite_Sets-19",
   "type": "Theorem",
-  "number": "9.26",
+  "number": "9.25",
   "title": "Pigeonhole Principle.",
   "body": " Pigeonhole Principle   If and with , then is not injective.   "
 },
@@ -6134,7 +6134,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Infinite_Sets.html#def_infiniteSet",
   "type": "Definition",
-  "number": "9.27",
+  "number": "9.26",
   "title": "",
   "body": "  A set is infinite if is not finite.   "
 },
@@ -6143,7 +6143,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Infinite_Sets.html#thm_naturalNumbersInfinite",
   "type": "Theorem",
-  "number": "9.28",
+  "number": "9.27",
   "title": "",
   "body": "  The set of natural numbers is infinite.   "
 },
@@ -6152,7 +6152,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Infinite_Sets.html#thm_infiniteSetsSameCardinality",
   "type": "Theorem",
-  "number": "9.29",
+  "number": "9.28",
   "title": "",
   "body": "  If is infinite and , then is infinite.   "
 },
@@ -6161,7 +6161,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Infinite_Sets.html#prob_someInfiniteSets",
   "type": "Problem",
-  "number": "9.30",
+  "number": "9.29",
   "title": "",
   "body": "  Quickly verify that the following sets are infinite by appealing to Theorem , Theorem , or Problem .   The set of odd natural numbers    The set of even natural numbers                     "
 },
@@ -6170,7 +6170,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Infinite_Sets.html#sec_Infinite_Sets-11",
   "type": "Problem",
-  "number": "9.31",
+  "number": "9.30",
   "title": "",
   "body": "  The Infinite Hotel has rooms numbered . Every room in the Infinite Hotel is currently occupied.   Is it possible to make room for one more guest (assuming they want a room all to themselves)?    An infinite number of new guests, say , show up in the lobby and each demands a room. Is it possible to make room for all the new guests even if the hotel is already full?      "
 },
@@ -6179,7 +6179,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Infinite_Sets.html#thm_infiniteSetTFAE",
   "type": "Theorem",
-  "number": "9.32",
+  "number": "9.31",
   "title": "",
   "body": "  The following statements are equivalent.   The set is infinite.    There exists an injective function .    The set can be put in bijection with a proper subset of (i.e., there exists a proper subset of such that ).      "
 },
@@ -6188,7 +6188,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Infinite_Sets.html#cor_infiniteSetInfiniteSubset",
   "type": "Corollary",
-  "number": "9.33",
+  "number": "9.32",
   "title": "",
   "body": "  A set is infinite if and only if it has an infinite subset.   "
 },
@@ -6197,7 +6197,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Infinite_Sets.html#cor_card_N__less_than_or_equal_to_infinite_set",
   "type": "Corollary",
-  "number": "9.34",
+  "number": "9.33",
   "title": "",
   "body": "  If is an infinite set, then .   "
 },
@@ -6206,7 +6206,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Infinite_Sets.html#sec_Infinite_Sets-17",
   "type": "Problem",
-  "number": "9.35",
+  "number": "9.34",
   "title": "",
   "body": "  Find a new proof of Theorem that uses (iii) implies (i) from Theorem .   "
 },
@@ -6215,7 +6215,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Infinite_Sets.html#prob_moreInfiniteSets",
   "type": "Problem",
-  "number": "9.36",
+  "number": "9.35",
   "title": "",
   "body": "  Quickly verify that the following sets are infinite by appealing to either Theorem (use (ii) implies (i)) or Corollary .   Set of odd natural numbers    Set of even natural numbers                        Set of perfect squares in                 "
 },
@@ -6233,7 +6233,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Countable_Sets.html#sec_Countable_Sets-3",
   "type": "Definition",
-  "number": "9.37",
+  "number": "9.36",
   "title": "",
   "body": "  If is a set such that , then we say that is denumerable and has cardinality (read aleph naught ).   "
 },
@@ -6242,7 +6242,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Countable_Sets.html#def_countable",
   "type": "Definition",
-  "number": "9.38",
+  "number": "9.37",
   "title": "",
   "body": "  A set is called countable if is finite or denumerable. A set is called uncountable if it is not countable.   "
 },
@@ -6251,7 +6251,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Countable_Sets.html#sec_Countable_Sets-6",
   "type": "Problem",
-  "number": "9.39",
+  "number": "9.38",
   "title": "",
   "body": "  Quickly justify that each of the following sets is countable. Feel free to appeal to previous problems. Which sets are denumerable?        Set of odd natural numbers    Set of even natural numbers         Set of perfect squares in                 "
 },
@@ -6260,7 +6260,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Countable_Sets.html#sec_Countable_Sets-8",
   "type": "Theorem",
-  "number": "9.40",
+  "number": "9.39",
   "title": "",
   "body": "  Every infinite set contains a denumerable subset.   "
 },
@@ -6269,7 +6269,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Countable_Sets.html#sec_Countable_Sets-9",
   "type": "Theorem",
-  "number": "9.41",
+  "number": "9.40",
   "title": "",
   "body": "  Let and be sets such that is countable. If is a bijection, then is countable.   "
 },
@@ -6278,7 +6278,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Countable_Sets.html#thm_subsetsCountableSets",
   "type": "Theorem",
-  "number": "9.42",
+  "number": "9.41",
   "title": "",
   "body": "  Every subset of a countable set is countable.   "
 },
@@ -6287,7 +6287,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Countable_Sets.html#sec_Countable_Sets-12",
   "type": "Theorem",
-  "number": "9.43",
+  "number": "9.42",
   "title": "",
   "body": "  A set is countable if and only if it has the same cardinality of some subset of the natural numbers.   "
 },
@@ -6296,7 +6296,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Countable_Sets.html#sec_Countable_Sets-13",
   "type": "Theorem",
-  "number": "9.44",
+  "number": "9.43",
   "title": "",
   "body": "  If is a surjective function, then is countable.   "
 },
@@ -6305,7 +6305,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Countable_Sets.html#sec_Countable_Sets-16",
   "type": "Theorem",
-  "number": "9.45",
+  "number": "9.44",
   "title": "",
   "body": "  The set of rational numbers is countable.   "
 },
@@ -6314,7 +6314,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Countable_Sets.html#thm_union_of_countable_sets",
   "type": "Theorem",
-  "number": "9.46",
+  "number": "9.45",
   "title": "",
   "body": "  If and are countable sets, then is countable.   "
 },
@@ -6323,7 +6323,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Countable_Sets.html#thm_retool_infinite_collection",
   "type": "Theorem",
-  "number": "9.47",
+  "number": "9.46",
   "title": "",
   "body": "  Let be a collection of sets. Define and for each natural number , define .  Then we we have the following:   The collection is pairwise disjoint.     .      "
 },
@@ -6332,7 +6332,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Countable_Sets.html#fig_zig_zag",
   "type": "Figure",
-  "number": "9.48",
+  "number": "9.2",
   "title": "",
   "body": " Inspiration for one possible approach to proving Theorem .     "
 },
@@ -6341,7 +6341,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Countable_Sets.html#thm_countable_union_of_countable_sets",
   "type": "Theorem",
-  "number": "9.49",
+  "number": "9.47",
   "title": "",
   "body": "  Let be equal to either or for some . If is a countable collection of sets such that each is countable, then is countable.   "
 },
@@ -6350,7 +6350,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Countable_Sets.html#sec_Countable_Sets-25",
   "type": "Theorem",
-  "number": "9.50",
+  "number": "9.48",
   "title": "",
   "body": "  If and are countable sets, then is countable.   "
 },
@@ -6359,7 +6359,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Countable_Sets.html#sec_Countable_Sets-26",
   "type": "Theorem",
-  "number": "9.51",
+  "number": "9.49",
   "title": "",
   "body": "  The set of all finite sequences of 0's and 1's (e.g., is a finite sequence consisting of 0's and 1') is countable.   "
 },
@@ -6368,7 +6368,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Countable_Sets.html#sec_Countable_Sets-27",
   "type": "Theorem",
-  "number": "9.52",
+  "number": "9.50",
   "title": "",
   "body": "  The collection of all finite subsets of a countable set is countable.   "
 },
@@ -6404,7 +6404,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Uncountable_Sets.html#sec_Uncountable_Sets-5",
   "type": "Problem",
-  "number": "9.53",
+  "number": "9.51",
   "title": "",
   "body": "  For sake of a contradiction, assume the interval is countable. Then there exists a bijection . For each , its image under is some number in . Write , where is the first digit in the standard decimal form for the image of , is the second digit, and so on. If terminates after digits, then our convention will be to continue the decimal expansion with 0's. Now, define , where    Prove that the decimal expansion that defines above is in standard decimal form.    Prove that for all , .    Explain why cannot be surjective and why this is a contradiction.     You just proved that the interval cannot be countable!   "
 },
@@ -6413,7 +6413,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Uncountable_Sets.html#thm__0_1_uncountable",
   "type": "Theorem",
-  "number": "9.54",
+  "number": "9.52",
   "title": "",
   "body": "  The open interval is uncountable.   "
 },
@@ -6422,7 +6422,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Uncountable_Sets.html#thm_containsUncountableSubset",
   "type": "Theorem",
-  "number": "9.55",
+  "number": "9.53",
   "title": "",
   "body": "  If and are sets such that and is uncountable, then is uncountable.   "
 },
@@ -6431,7 +6431,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Uncountable_Sets.html#sec_Uncountable_Sets-10",
   "type": "Corollary",
-  "number": "9.56",
+  "number": "9.54",
   "title": "",
   "body": "  If and are sets such that is uncountable and is countable, then is uncountable.   "
 },
@@ -6440,7 +6440,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Uncountable_Sets.html#sec_Uncountable_Sets-11",
   "type": "Theorem",
-  "number": "9.57",
+  "number": "9.55",
   "title": "",
   "body": "  If is an injective function and is uncountable, then is uncountable.   "
 },
@@ -6449,7 +6449,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Uncountable_Sets.html#thm_R_uncountable",
   "type": "Theorem",
-  "number": "9.58",
+  "number": "9.56",
   "title": "",
   "body": "  The set of real numbers is uncountable. In particular, .   "
 },
@@ -6467,7 +6467,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Uncountable_Sets.html#sec_Uncountable_Sets-15",
   "type": "Theorem",
-  "number": "9.59",
+  "number": "9.57",
   "title": "",
   "body": "  If with , then , , , and are all uncountable.   "
 },
@@ -6476,7 +6476,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Uncountable_Sets.html#sec_Uncountable_Sets-16",
   "type": "Theorem",
-  "number": "9.60",
+  "number": "9.58",
   "title": "",
   "body": "  The set of irrational numbers is uncountable.   "
 },
@@ -6485,7 +6485,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Uncountable_Sets.html#sec_Uncountable_Sets-17",
   "type": "Theorem",
-  "number": "9.61",
+  "number": "9.59",
   "title": "",
   "body": "  The set of complex numbers is uncountable.   "
 },
@@ -6494,7 +6494,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Uncountable_Sets.html#sec_Uncountable_Sets-18",
   "type": "Problem",
-  "number": "9.62",
+  "number": "9.60",
   "title": "",
   "body": "  Determine whether each of the following statements is true or false. If a statement is true, prove it. Otherwise, provide a counterexample.   If and are sets such that is uncountable, then is uncountable.    If and are sets such that is uncountable, then is uncountable.    If and are sets such that is uncountable, then is uncountable.    If and are sets such that is uncountable, then is uncountable.      "
 },
@@ -6503,7 +6503,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Uncountable_Sets.html#prob_sequence01",
   "type": "Problem",
-  "number": "9.63",
+  "number": "9.61",
   "title": "",
   "body": "  Let be the set of infinite sequences of 0's and 1's. Determine whether is countable or uncountable and prove that your answer is correct.   "
 },
@@ -6512,7 +6512,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Uncountable_Sets.html#sec_Uncountable_Sets-21",
   "type": "Theorem",
-  "number": "9.64",
+  "number": "9.62",
   "title": "",
   "body": "  If is the set from Problem , then .   "
 },
@@ -6521,7 +6521,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Uncountable_Sets.html#cor_power_set_of_N_uncountable",
   "type": "Corollary",
-  "number": "9.65",
+  "number": "9.63",
   "title": "",
   "body": "  The power set of the natural numbers is uncountable.   "
 },
@@ -6530,7 +6530,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_Uncountable_Sets.html#thm_Cantors_Theorem",
   "type": "Theorem",
-  "number": "9.66",
+  "number": "9.64",
   "title": "Cantor’s Theorem.",
   "body": " Cantor's Theorem   If is a set, then .   "
 },

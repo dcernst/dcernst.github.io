@@ -229,7 +229,7 @@ window.MathJax = {
 <div class="para" id="sec_More_on_Induction-2">In the previous section, we discussed proving statements of the form <span class="process-math">\((\forall n \in \mathbb{N}) P(n)\text{.}\)</span> Mathematical induction can actually be used to prove a broader family of results; namely, those of the form <span class="process-math">\((\forall n \in \mathbb{Z})(n \geq a \implies P(n))\)</span> for any value <span class="process-math">\(a \in \mathbb{Z}\text{.}\)</span> <a href="" class="xref" data-knowl="./knowl/xref/thm_PMI.html" title="Theorem 4.2: Principle of Mathematical Induction">Theorem 4.2</a> handles the special case when <span class="process-math">\(a = 1\text{.}\)</span> The ladder analogy from the previous section holds for this more general situation, too. To prove the next theorem, mimic the proof of <a href="" class="xref" data-knowl="./knowl/xref/thm_PMI.html" title="Theorem 4.2: Principle of Mathematical Induction">Theorem 4.2</a>, but this time use the set <span class="process-math">\(S=\{k\in \mathbb{N}\mid P(a+k-1) \text{ is true } \}\text{.}\)</span>
 </div>
 <article class="theorem theorem-like" id="thm_PMI2"><h3 class="heading">
-<span class="type">Theorem</span><span class="space"> </span><span class="codenumber">4.10</span><span class="period">.</span><span class="space"> </span><span class="title">Principle of Mathematical Induction.</span>
+<span class="type">Theorem</span><span class="space"> </span><span class="codenumber">4.9</span><span class="period">.</span><span class="space"> </span><span class="title">Principle of Mathematical Induction.</span>
 </h3>
 <div class="para logical" id="thm_PMI2-2-1">
 <div class="para">Let <span class="process-math">\(P(a), P(a+1), P(a+2), \ldots\)</span> be a sequence of statements, one for each integer greater than or equal to <span class="process-math">\(a\text{.}\)</span> Assume that</div>
@@ -240,9 +240,9 @@ window.MathJax = {
 </ol>
 </div> <div class="para" id="thm_PMI2-2-2">Then <span class="process-math">\(P(n)\)</span> is true for all integers <span class="process-math">\(n \geq a\text{.}\)</span>
 </div></article><div class="para" id="sec_More_on_Induction-4">
-<a href="" class="xref" data-knowl="./knowl/xref/thm_PMI2.html" title="Theorem 4.10: Principle of Mathematical Induction">Theorem 4.10</a> gives a process for proving statements of the form: “For all integers <span class="process-math">\(n\geq a\text{,}\)</span> <span class="process-math">\(P(n)\text{.}\)</span>” As before, hypothesis (i) is called the <dfn class="terminology">base step</dfn>, and (ii) is called the <dfn class="terminology">inductive step</dfn>.</div>
+<a href="" class="xref" data-knowl="./knowl/xref/thm_PMI2.html" title="Theorem 4.9: Principle of Mathematical Induction">Theorem 4.9</a> gives a process for proving statements of the form: “For all integers <span class="process-math">\(n\geq a\text{,}\)</span> <span class="process-math">\(P(n)\text{.}\)</span>” As before, hypothesis (i) is called the <dfn class="terminology">base step</dfn>, and (ii) is called the <dfn class="terminology">inductive step</dfn>.</div>
 <article class="heuristic theorem-like" id="skeleton_induction_greater_than_a"><h3 class="heading">
-<span class="type">Skeleton Proof</span><span class="space"> </span><span class="codenumber">4.11</span><span class="period">.</span><span class="space"> </span><span class="title">Proof of <span class="process-math">\((\forall n \in \mathbb{Z})(n \geq a \implies P(n))\)</span> by Induction.</span>
+<span class="type">Skeleton Proof</span><span class="space"> </span><span class="codenumber">4.10</span><span class="period">.</span><span class="space"> </span><span class="title">Proof of <span class="process-math">\((\forall n \in \mathbb{Z})(n \geq a \implies P(n))\)</span> by Induction.</span>
 </h3>
 <div class="para" id="skeleton_induction_greater_than_a-2-1">Here is the general structure for a proof by induction when the base case does not necessarily involve <span class="process-math">\(a=1\text{.}\)</span>
 </div> <article class="proof" id="skeleton_induction_greater_than_a-2-2"><h4 class="heading"><span class="type">Proof<span class="period">.</span></span></h4>
@@ -256,31 +256,31 @@ window.MathJax = {
 </div> <div class="para" id="skeleton_induction_greater_than_a-2-2-2">Thus, by induction, <span class="process-math">\(P(n)\)</span> is true for all integers <span class="process-math">\(n \ge a\text{.}\)</span>
 </div></article></article><div class="para" id="sec_More_on_Induction-6">We encountered the next theorem back in <a href="sec_PowerSets.html" class="internal" title="Section 3.3: Power Sets">Section 3.3</a> (see <a href="" class="xref" data-knowl="./knowl/xref/conjecture_PowerSets.html" title="Problem 3.29">Conjecture 3.29</a>), but we did not prove it. When proving this theorem using induction, you will need to argue that if you add one more element to a finite set, then you end up with twice as many subsets. For your base case consider the empty set.</div>
 <article class="theorem theorem-like" id="thm_size_of_power_set_for_finite_sets"><h3 class="heading">
-<span class="type">Theorem</span><span class="space"> </span><span class="codenumber">4.12</span><span class="period">.</span>
+<span class="type">Theorem</span><span class="space"> </span><span class="codenumber">4.11</span><span class="period">.</span>
 </h3>
 <div class="para" id="thm_size_of_power_set_for_finite_sets-1-1">If <span class="process-math">\(A\)</span> is a finite set with <span class="process-math">\(n\)</span> elements, then <span class="process-math">\(\mathcal{P}(A)\)</span> is a set with <span class="process-math">\(2^{n}\)</span> elements.</div></article><article class="theorem theorem-like" id="thm_n_2_n"><h3 class="heading">
-<span class="type">Theorem</span><span class="space"> </span><span class="codenumber">4.13</span><span class="period">.</span>
+<span class="type">Theorem</span><span class="space"> </span><span class="codenumber">4.12</span><span class="period">.</span>
 </h3>
 <div class="para" id="thm_n_2_n-1-1">For all integers <span class="process-math">\(n \ge 0\text{,}\)</span> <span class="process-math">\(n\lt 2^n\text{.}\)</span>
 </div></article><div class="para" id="sec_More_on_Induction-9">One consequence of the previous two theorems is that the power set of a finite set always consists of more elements than the original set.</div>
 <article class="theorem theorem-like" id="sec_More_on_Induction-10"><h3 class="heading">
-<span class="type">Theorem</span><span class="space"> </span><span class="codenumber">4.14</span><span class="period">.</span>
+<span class="type">Theorem</span><span class="space"> </span><span class="codenumber">4.13</span><span class="period">.</span>
 </h3>
 <div class="para" id="sec_More_on_Induction-10-1-1">For all integers <span class="process-math">\(n \ge 0\text{,}\)</span> <span class="process-math">\(4\)</span> divides <span class="process-math">\(9^n - 5\text{.}\)</span>
 </div></article><article class="theorem theorem-like" id="sec_More_on_Induction-11"><h3 class="heading">
-<span class="type">Theorem</span><span class="space"> </span><span class="codenumber">4.15</span><span class="period">.</span>
+<span class="type">Theorem</span><span class="space"> </span><span class="codenumber">4.14</span><span class="period">.</span>
 </h3>
 <div class="para" id="sec_More_on_Induction-11-1-1">For all integers <span class="process-math">\(n \ge 0\text{,}\)</span> <span class="process-math">\(4\)</span> divides <span class="process-math">\(6\cdot 7^n - 2 \cdot 3^n\text{.}\)</span>
 </div></article><article class="theorem theorem-like" id="sec_More_on_Induction-12"><h3 class="heading">
-<span class="type">Theorem</span><span class="space"> </span><span class="codenumber">4.16</span><span class="period">.</span>
+<span class="type">Theorem</span><span class="space"> </span><span class="codenumber">4.15</span><span class="period">.</span>
 </h3>
 <div class="para" id="sec_More_on_Induction-12-1-1">For all integers <span class="process-math">\(n \ge 2\text{,}\)</span> <span class="process-math">\(2^n &gt; n + 1\text{.}\)</span>
 </div></article><article class="theorem theorem-like" id="sec_More_on_Induction-13"><h3 class="heading">
-<span class="type">Theorem</span><span class="space"> </span><span class="codenumber">4.17</span><span class="period">.</span>
+<span class="type">Theorem</span><span class="space"> </span><span class="codenumber">4.16</span><span class="period">.</span>
 </h3>
 <div class="para" id="sec_More_on_Induction-13-1-1">For all integers <span class="process-math">\(n \ge 0\text{,}\)</span> <span class="process-math">\(1 + 2^1 + 2^2 + \cdots + 2^n = 2^{n+1} - 1\text{.}\)</span>
 </div></article><article class="theorem theorem-like" id="sec_More_on_Induction-14"><h3 class="heading">
-<span class="type">Theorem</span><span class="space"> </span><span class="codenumber">4.18</span><span class="period">.</span>
+<span class="type">Theorem</span><span class="space"> </span><span class="codenumber">4.17</span><span class="period">.</span>
 </h3>
 <div class="para logical" id="sec_More_on_Induction-14-1-1">
 <div class="para">Fix a real number <span class="process-math">\(r \neq 1\text{.}\)</span> For all integers <span class="process-math">\(n \ge 0\text{,}\)</span>
@@ -291,32 +291,32 @@ window.MathJax = {
 \end{equation*}
 </div>
 </div></article><article class="theorem theorem-like" id="sec_More_on_Induction-15"><h3 class="heading">
-<span class="type">Theorem</span><span class="space"> </span><span class="codenumber">4.19</span><span class="period">.</span>
+<span class="type">Theorem</span><span class="space"> </span><span class="codenumber">4.18</span><span class="period">.</span>
 </h3>
 <div class="para" id="sec_More_on_Induction-15-1-1">For all integers <span class="process-math">\(n \ge 3\text{,}\)</span> <span class="process-math">\(\displaystyle{2\cdot 3 + 3 \cdot 4 + \cdots + (n-1)\cdot n = \frac{(n-2)(n^2+2n+3)}{3}}\text{.}\)</span>
 </div></article><article class="theorem theorem-like" id="sec_More_on_Induction-16"><h3 class="heading">
-<span class="type">Theorem</span><span class="space"> </span><span class="codenumber">4.20</span><span class="period">.</span>
+<span class="type">Theorem</span><span class="space"> </span><span class="codenumber">4.19</span><span class="period">.</span>
 </h3>
 <div class="para" id="sec_More_on_Induction-16-1-1">For all integers <span class="process-math">\(n \ge 1\text{,}\)</span> <span class="process-math">\(\displaystyle{\frac{1}{1\cdot 2} + \frac{1}{2\cdot 3} + \cdots + \frac{1}{n(n+1)} = \frac{n}{n+1}}\text{.}\)</span>
 </div></article><article class="theorem theorem-like" id="sec_More_on_Induction-17"><h3 class="heading">
-<span class="type">Theorem</span><span class="space"> </span><span class="codenumber">4.21</span><span class="period">.</span>
+<span class="type">Theorem</span><span class="space"> </span><span class="codenumber">4.20</span><span class="period">.</span>
 </h3>
 <div class="para" id="sec_More_on_Induction-17-1-1">For all integers <span class="process-math">\(n \ge 1\text{,}\)</span> <span class="process-math">\(\displaystyle{\frac{1}{1\cdot 3} + \frac{1}{3\cdot 5} + \frac{1}{5\cdot7} + \cdots + \frac{1}{(2n-1)(2n+1)} = \frac{n}{2n+1}}\text{.}\)</span>
 </div></article><article class="theorem theorem-like" id="thm_div_by_8"><h3 class="heading">
-<span class="type">Theorem</span><span class="space"> </span><span class="codenumber">4.22</span><span class="period">.</span>
+<span class="type">Theorem</span><span class="space"> </span><span class="codenumber">4.21</span><span class="period">.</span>
 </h3>
 <div class="para" id="thm_div_by_8-1-1">For all integers <span class="process-math">\(n \ge 0\text{,}\)</span> <span class="process-math">\(3^{2n}-1\)</span> is divisible by <span class="process-math">\(8\text{.}\)</span>
 </div></article><article class="theorem theorem-like" id="sec_More_on_Induction-19"><h3 class="heading">
-<span class="type">Theorem</span><span class="space"> </span><span class="codenumber">4.23</span><span class="period">.</span>
+<span class="type">Theorem</span><span class="space"> </span><span class="codenumber">4.22</span><span class="period">.</span>
 </h3>
 <div class="para" id="sec_More_on_Induction-19-1-1">For all integers <span class="process-math">\(n \ge 2\text{,}\)</span> <span class="process-math">\(2^n \lt (n+1)!\text{.}\)</span>
 </div></article><article class="theorem theorem-like" id="sec_More_on_Induction-20"><h3 class="heading">
-<span class="type">Theorem</span><span class="space"> </span><span class="codenumber">4.24</span><span class="period">.</span>
+<span class="type">Theorem</span><span class="space"> </span><span class="codenumber">4.23</span><span class="period">.</span>
 </h3>
 <div class="para" id="sec_More_on_Induction-20-1-1">For all integers <span class="process-math">\(n \ge 2\text{,}\)</span> <span class="process-math">\(2\cdot 9^n - 10 \cdot 3^n\)</span> is divisible by <span class="process-math">\(4\text{.}\)</span>
 </div></article><div class="para" id="sec_More_on_Induction-21">We now consider an induction problem of a different sort, where you have to begin with some experimentation. For Part (c), consider using the results from Parts (a) and (b).</div>
 <article class="problem example-like" id="sec_More_on_Induction-22"><h3 class="heading">
-<span class="type">Problem</span><span class="space"> </span><span class="codenumber">4.25</span><span class="period">.</span>
+<span class="type">Problem</span><span class="space"> </span><span class="codenumber">4.24</span><span class="period">.</span>
 </h3>
 <div class="para logical" id="sec_More_on_Induction-22-1-1">
 <div class="para">Suppose <span class="process-math">\(n\)</span> lines are drawn in the plane so that no two lines are parallel and no three lines intersect at any one point. Such a collection of lines is said to be in <dfn class="terminology">general position</dfn>. Every collection of lines in general position divides the plane into disjoint regions, some of which are polygons with finite area (bounded regions) and some of which are not (unbounded regions).</div>
