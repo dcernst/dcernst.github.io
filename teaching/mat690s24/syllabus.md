@@ -121,7 +121,21 @@ The following are examples (not an exhaustive list) of behaviors that do not con
 </blockquote>
 
 ### Homework ###
-You are allowed and encouraged to work together on homework.  However, each student is expected to turn in their own work.  In general, late homework will *not* be accepted.  However, you are allowed to turn in up to **two late homework assignments** with no questions asked. Unless you have made arrangements in advance with me, homework turned in after class will be considered late. You can find the list of assignments on the [homework page]({{site.baseurl}}/teaching/mat226s24/homework/).  I reserve the right to modify the homework assignments as I see necessary.
+You are allowed and encouraged to work together on homework.  However, each student is expected to turn in their own work.  In general, late homework will *not* be accepted.  However, you are allowed to turn in up to **two late homework assignments** with no questions asked. Unless you have made arrangements in advance with me, homework turned in after class will be considered late. You can find the list of assignments on the [homework page]({{site.baseurl}}/teaching/mat690s24/homework/).  I reserve the right to modify the homework assignments as I see necessary.
+
+**Important!** Homework will consist of a mixture of the following: 
+
+  - Problems that are modifications of examples we have discussed in class.
+  - Problems that extend concepts introduced in class.
+  - Problems that introduce new concepts not yet discussed in class.
+  - Problems that synthesize multiple concepts that we either introduced in class or in a previous homework problem.
+
+Some homework problems will be straightforward while others are intended to be challenging.  You should anticipate not knowing what to do on some of the problems at first glance.  You may have several false starts.  Some frustration, maybe even a lot of frustration, should be expected.  This is part of the natural learning process.  On the other hand, it is not my intention to leave you to fend for yourselves.  I am hear to help and I want to help. You are encouraged to seek assistance from your classmates (while adhering to the **Rules of the Game**) and from me.  Please visit office hours and ask questions on our Q&A Discussion board. I am always willing to give hints/nudges, so please ask. 
+
+<blockquote>
+<p>If you want to sharpen a sword, you have to remove a little metal.</p>
+<footer><a href=" ">Unknown</a></footer>
+</blockquote>
 
 Your homework will always be graded for completion and some subset of the problems will be graded for correctness. Problems that are graded for completeness will be worth 1 point.  Problems that are graded for correctness will either be worth 2 points or 4 points depending on the level of difficulty.  Generally, quick computational problems will be worth 2 points while more substantial problems will be worth 4 points.  Each 4-point problem is subject to the following rubric:
 
@@ -256,11 +270,6 @@ Any changes to this syllabus made during the term will be properly communicated 
 - [Udemy](https://in.nau.edu/its/udemy/): Online courses and career searching advice. Log in with your NAU email account and
 search ‘NAU Career Steps’
 - [O*net Online](https://www.onetonline.org/): Occupation exploration reports
-
-<blockquote>
-<p>If you want to sharpen a sword, you have to remove a little metal.</p>
-<footer><a href=" ">Unknown</a></footer>
-</blockquote>
 
 ### University Policies ###
 

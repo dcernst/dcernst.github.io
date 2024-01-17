@@ -165,7 +165,44 @@ The following are examples (not an exhaustive list) of behaviors that do not con
 <footer><a href="https://en.wikipedia.org/wiki/Benjamin_Franklin">Benjamin Franklin</a></footer>
 </blockquote>
 
+### Best Practices as a Student in MAT 226 ### 
+Ultimately, each student is responsible for making the best choices when it comes to their learning. However, if you want to optimize your experience, here are some suggestions for best practices:
+
+  - Attend class.
+  - Show up on time.
+  - If you need to miss class, let know.
+  - If you miss class, get notes from a classmate.
+  - During class, you should be taking notes.
+  - Some comments about taking notes in this class:
+      - During class I will usually be displaying the textbook via the LCD projector. The book mostly consists of problem statements, but the solutions are missing!
+      - Our job during class will be to discuss the solutions to these problems.
+      - Your job is to take notes while we are discussing these problems and solutions.
+      - You should write down as much detail and commentary as you think is necessary. I suggest erring on the side of writing down too much.
+      - You likely will not always have time to jot down the problem statements. Instead, I would just write down the corresponding problem number (e.g., Problem 1.12).
+      - When looking back at your notes, you will likely need to have the textbook open, as well.
+  - Skim your notes just before starting a homework assignment. 
+  - Keep the textbook and your notes handy while working on your homework.
+  - Ask questions!
+
+As long as the **Rules of the Game** are not violated, I'm not opposed to students seeking out supplementary learning opportunities. However, there are some pitfalls to be aware of. First, not everything you encounter on the Internet is accurate. Second, it is paramount to recognize that there is a logical progression to the concepts in mathematics. Some ideas may only be introduced after others. I'm not suggesting there is only one right flow to various subjects, but there are definitely infinitely many wrong ways! When we haphazardly bounce around the Internet trying to learn various mathematical concepts, the logical progression gets jumbled. One of the reasons for this is that there can be several equally-valid ways to approach a subject. But when we parachute into the middle of someone else's writing or video, we usually lose this context. You might be thinking, "But Dana, I only care about solving the problem correctly (or as quickly as possible)."  I want you to be able to do this, too! But more importantly, I want you to cultivate a flexible and robust mindset when it comes to solving problems. I want you to be able to tackle problems you don't know how to do yet. I want you to be able to wrestle with future problems no one has yet encountered. This is quite challenging if all the various concepts, techniques, algorithms, and formulas are a jumbled mess in your mind. The goal is to have an understanding of how all the various concepts fit together and depend on one another. This way you do not have to memorize very much and later in life you can quickly look up the proper tool. In addition, you'll have the foundation to build new tools to solve unfamiliar, possibly new, problems.
+
 ### Homework ###
+You are allowed and encouraged to work together on homework.  However, each student is expected to turn in their own work.  In general, late homework will *not* be accepted.  However, you are allowed to turn in up to **two late homework assignments** with no questions asked. Unless you have made arrangements in advance with me, homework turned in after class will be considered late. You can find the list of assignments on the [homework page]({{site.baseurl}}/teaching/mat226s24/homework/).  I reserve the right to modify the homework assignments as I see necessary.
+
+**Important!** Homework will consist of a mixture of the following: 
+
+  - Problems that are modifications of examples we have discussed in class.
+  - Problems that extend concepts introduced in class.
+  - Problems that introduce new concepts not yet discussed in class.
+  - Problems that synthesize multiple concepts that we either introduced in class or in a previous homework problem.
+
+Some homework problems will be straightforward while others are intended to be challenging.  You should anticipate not knowing what to do on some of the problems at first glance.  You may have several false starts.  Some frustration, maybe even a lot of frustration, should be expected.  This is part of the natural learning process.  On the other hand, it is not my intention to leave you to fend for yourselves.  I am hear to help and I want to help. You are encouraged to seek assistance from your classmates (while adhering to the **Rules of the Game**) and from me.  Please visit office hours and ask questions on our Q&A Discussion board. I am always willing to give hints/nudges, so please ask. 
+
+<blockquote>
+<p>If you want to sharpen a sword, you have to remove a little metal.</p>
+<footer><a href=" ">Unknown</a></footer>
+</blockquote>
+
 You are allowed and encouraged to work together on homework.  However, each student is expected to turn in their own work.  In general, late homework will *not* be accepted.  However, you are allowed to turn in up to **two late homework assignments** with no questions asked. Unless you have made arrangements in advance with me, homework turned in after class will be considered late. You can find the list of assignments on the [homework page]({{site.baseurl}}/teaching/mat226s24/homework/).  I reserve the right to modify the homework assignments as I see necessary.
 
 Your homework will always be graded for completion and some subset of the problems will be graded for correctness. Problems that are graded for completeness will be worth 1 point.  Problems that are graded for correctness will either be worth 2 points or 4 points depending on the level of difficulty.  Generally, quick computational problems will be worth 2 points while more substantial problems will be worth 4 points.  Each 4-point problem is subject to the following rubric:
@@ -299,11 +336,6 @@ Any changes to this syllabus made during the term will be properly communicated 
 - [Udemy](https://in.nau.edu/its/udemy/): Online courses and career searching advice. Log in with your NAU email account and
 search ‘NAU Career Steps’
 - [O*net Online](https://www.onetonline.org/): Occupation exploration reports
-
-<blockquote>
-<p>If you want to sharpen a sword, you have to remove a little metal.</p>
-<footer><a href=" ">Unknown</a></footer>
-</blockquote>
 
 ### University Policies ###
 
