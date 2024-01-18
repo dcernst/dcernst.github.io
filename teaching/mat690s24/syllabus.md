@@ -130,7 +130,7 @@ You are allowed and encouraged to work together on homework.  However, each stud
   - Problems that introduce new concepts not yet discussed in class.
   - Problems that synthesize multiple concepts that we either introduced in class or in a previous homework problem.
 
-Some homework problems will be straightforward while others are intended to be challenging.  You should anticipate not knowing what to do on some of the problems at first glance.  You may have several false starts.  Some frustration, maybe even a lot of frustration, should be expected.  This is part of the natural learning process.  On the other hand, it is not my intention to leave you to fend for yourselves.  I am hear to help and I want to help. You are encouraged to seek assistance from your classmates (while adhering to the **Rules of the Game**) and from me.  Please visit office hours and ask questions on our Q&A Discussion board. I am always willing to give hints/nudges, so please ask. 
+Some homework problems will be straightforward while others are intended to be challenging.  You should anticipate not knowing what to do on some of the problems at first glance.  You may have several false starts.  Some frustration, maybe even a lot of frustration, should be expected.  This is part of the natural learning process.  On the other hand, it is not my intention to leave you to fend for yourselves.  I am here to help and I want to help. You are encouraged to seek assistance from your classmates (while adhering to the **Rules of the Game**) and from me.  Please visit office hours and ask questions on our Q&A Discussion board. I am always willing to give hints/nudges, so please ask. 
 
 <blockquote>
 <p>If you want to sharpen a sword, you have to remove a little metal.</p>
