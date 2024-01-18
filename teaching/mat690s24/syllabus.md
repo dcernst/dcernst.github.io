@@ -182,11 +182,6 @@ To compute your score on a given homework assignment, I will divide your total p
 ### Exams ###
 There will be one midterm exam and a cumulative final exam.  Each exam will consist of an in-class portion and possibly a take-home portion. The in-class portion of the midterm exam is *tentatively* scheduled for **Monday, March 4** (week 8). The in-class portion of the final exam will be on **Wednesday, May 8** at 12:30-2:30PM. The Midterm Exam and the Final Exam will each be worth 25% of your final course grade. Make-up exams will only be given under extreme circumstances, as judged by me. In general, it will be best to communicate conflicts ahead of time.
 
-<blockquote>
-<p>The impediment to action advances action. What stands in the way becomes the way.</p>
-<footer><a href="https://en.wikipedia.org/wiki/Marcus_Aurelius">Marcus Aurelius</a></footer>
-</blockquote>
-
 ### Attendance ###
 Regular attendance is expected and is vital to success in this course, but you will not explicitly be graded on attendance.  Students can find more information about NAU's attendance policy on the [Academic Policies](https://in.nau.edu/dean-of-students/academic-policies/) page.
 
