@@ -58,7 +58,7 @@ layout: default
 </div>
 
 ### Prerequisites ###
-MAT 137 with a grade greater than or equal to C.
+(MAT 137 and (MAT 226 or MAT 232) with grades of C or better in each); and (Foundation English Requirement or HON 190)
 
 ### Course Description ###
 The course trains students on methods and techniques of mathematical communication, focusing on proofs but also covering expository writing and problem-solving explanations.
