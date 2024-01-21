@@ -170,7 +170,7 @@ Ultimately, each student is responsible for making the best choices when it come
 
   - Attend class.
   - Show up on time.
-  - If you need to miss class, let know.
+  - If you need to miss class, let me know.
   - If you miss class, get notes from a classmate.
   - During class, you should be taking notes.
   - Some comments about taking notes in this class:
@@ -191,7 +191,7 @@ You are allowed and encouraged to work together on homework.  However, each stud
 
 **Important!** Homework will consist of a mixture of the following: 
 
-  - Problems that are modifications of examples we have discussed in class.
+  - Problems that are modifications of examples xwe have discussed in class.
   - Problems that extend concepts introduced in class.
   - Problems that introduce new concepts not yet discussed in class.
   - Problems that synthesize multiple concepts that we either introduced in class or in a previous homework problem.
