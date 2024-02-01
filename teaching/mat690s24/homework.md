@@ -29,3 +29,5 @@ In general, late homework will not be accepted. However, you are allowed to turn
 I reserve the right to modify the assignment if the need arises.  
 
 - **Homework 1:** Complete the problems found [here]({{site.baseurl}}/teaching/mat690s24/690HW1.pdf). (Due Wednesday, January 31)
+- **Homework 2:** Complete the problems found [here]({{site.baseurl}}/teaching/mat690s24/690HW2.pdf). (Due Wednesday, February 7)
+
