@@ -32,6 +32,7 @@ Our textbook for the semester is <i>Introduction to Discrete Mathematics</i>.  E
 - [Title Page and Front Matter](https://danaernst.com/teaching/mat226s24/FrontMatter.pdf)
 - [Chapter 1: Sets and Counting Principles](https://danaernst.com/teaching/mat226s24/1SetsCountingPrinciples.pdf)
 - [Chapter 2: Functions](https://danaernst.com/teaching/mat226s24/2Functions.pdf)
+- [Chapter 3: Permutations](https://danaernst.com/teaching/mat226s24/3Permutations.pdf)
 
 <!-- - [Chapter 2: Permutations and Combinations](https://danaernst.com/teaching/mat226s24/PermutationsCombinations.pdf)
 - [Chapter 3: The Binomial Theorem](https://danaernst.com/teaching/mat226s24/BinomialTheorem.pdf)
