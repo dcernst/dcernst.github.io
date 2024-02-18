@@ -33,14 +33,7 @@ Our textbook for the semester is <i>Introduction to Discrete Mathematics</i>.  E
 - [Chapter 1: Sets and Counting Principles](https://danaernst.com/teaching/mat226s24/1SetsCountingPrinciples.pdf)
 - [Chapter 2: Functions](https://danaernst.com/teaching/mat226s24/2Functions.pdf)
 - [Chapter 3: Permutations](https://danaernst.com/teaching/mat226s24/3Permutations.pdf)
-
-<!-- - [Chapter 2: Permutations and Combinations](https://danaernst.com/teaching/mat226s24/PermutationsCombinations.pdf)
-- [Chapter 3: The Binomial Theorem](https://danaernst.com/teaching/mat226s24/BinomialTheorem.pdf)
-- [Chapter 4: Additional Counting Methods](https://danaernst.com/teaching/mat226s24/AdditionalCounting.pdf)
-- [Chapter 5: Mathematical Induction](https://danaernst.com/teaching/mat226s24/Induction.pdf)
-- [Chapter 6: Sequences and Recurrence Relations](https://danaernst.com/teaching/mat226s24/SequencesRecurrenceRelations.pdf)
-- [Chapter 7: Introduction to Graph Theory](https://danaernst.com/teaching/mat226s24/GraphTheory.pdf)
-- [Chapter 8: Additional Graph Theory](https://danaernst.com/teaching/mat226s24/AdditionalGraphTheory.pdf) -->
+- [Chapter 4: Combinations](https://danaernst.com/teaching/mat226s24/4Combinations.pdf)
 
 I will not be covering every detail of the textbook and the only way to achieve a sufficient understanding of the material is to be digesting the reading in a meaningful way.  You should be seeking clarification about the content whenever necessary by asking questions.  Here's one of my favorite quotes about reading mathematics.
 
