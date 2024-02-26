@@ -34,6 +34,7 @@ Our textbook for the semester is <i>Introduction to Discrete Mathematics</i>.  E
 - [Chapter 2: Functions](https://danaernst.com/teaching/mat226s24/2Functions.pdf)
 - [Chapter 3: Permutations](https://danaernst.com/teaching/mat226s24/3Permutations.pdf)
 - [Chapter 4: Combinations](https://danaernst.com/teaching/mat226s24/4Combinations.pdf)
+- [Chapter 5: The Binomial Theorem](https://danaernst.com/teaching/mat226s24/5BinomialTheorem.pdf)
 
 I will not be covering every detail of the textbook and the only way to achieve a sufficient understanding of the material is to be digesting the reading in a meaningful way.  You should be seeking clarification about the content whenever necessary by asking questions.  Here's one of my favorite quotes about reading mathematics.
 
