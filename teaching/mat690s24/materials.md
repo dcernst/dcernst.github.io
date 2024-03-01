@@ -24,7 +24,10 @@ title: Course Materials
 ## Course Materials ##
 There is no textbook for this course.  All course content will be covered via lectures and homework.
 
-<!-- - Coming soon. -->
+## Exams ##
+Below are links to the take-home portions of each exam. If you are interested in using LaTeX to type up your solutions, contact me and I will send you a link to the source file of the exam.
+
+- [Exam 1 (Part 2)]({{site.baseurl}}/teaching/mat690s24/690Exam1-Part2.pdf) (PDF) (Due Friday, March 8)
 
 ## Miscellaneous Materials ##
 - [Setting the Stage]({{ site.baseurl }}/teaching/SettingTheStage.pdf) (PDF)
