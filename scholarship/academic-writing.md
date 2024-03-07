@@ -34,9 +34,9 @@ You can find a recent version of my curriculum vitae [here]({{site.baseurl}}/sch
 
 ## Submitted
   * B. Ba&#353;i&#263;, P. Ellis, D.C. Ernst, D. Popovi&#263;, N. Sieben. Categories of impartial rulegraphs and gamegraphs. [[arXiv:2312.00650](https://arxiv.org/abs/2312.00650)]
- 
   * B.J. Benesh, D.C. Ernst, M. Meyer, S.K. Salmon, and N. Sieben. Impartial geodetic building games on graphs. [[arXiv:2307.07095](https://arxiv.org/abs/2307.07095)]
-  * T.J. Hitchman, S. Yoshinobu, M. Jones, D.C. Ernst, and S. Laursen. Turtles all the way down: The infinite progression of professional development.
+  
+<!-- * T.J. Hitchman, S. Yoshinobu, M. Jones, D.C. Ernst, and S. Laursen. Turtles all the way down: The infinite progression of professional development. -->
 
 ## Journal Articles
   * D.C. Ernst, J. Slye. Using the $\Spin_{3\times 3}$ virtual manipulative to introduce group theory. Accepted to *PRIMUS*, 2024.
