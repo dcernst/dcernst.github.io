@@ -34,11 +34,12 @@ You can find a recent version of my curriculum vitae [here]({{site.baseurl}}/sch
 
 ## Submitted
   * B. Ba&#353;i&#263;, P. Ellis, D.C. Ernst, D. Popovi&#263;, N. Sieben. Categories of impartial rulegraphs and gamegraphs. [[arXiv:2312.00650](https://arxiv.org/abs/2312.00650)]
-  * D.C. Ernst, J. Slye. Using the $\Spin_{3\times 3}$ virtual manipulative to introduce group theory. 
+ 
   * B.J. Benesh, D.C. Ernst, M. Meyer, S.K. Salmon, and N. Sieben. Impartial geodetic building games on graphs. [[arXiv:2307.07095](https://arxiv.org/abs/2307.07095)]
   * T.J. Hitchman, S. Yoshinobu, M. Jones, D.C. Ernst, and S. Laursen. Turtles all the way down: The infinite progression of professional development.
 
 ## Journal Articles
+  * D.C. Ernst, J. Slye. Using the $\Spin_{3\times 3}$ virtual manipulative to introduce group theory. Accepted to *PRIMUS*, 2024.
   * F. Awik, J. Breland, Q.Cadman, and D.C. Ernst. Braid graphs in simply-laced triangle-free Coxeter systems are partial cubes. *European Journal of Combinatorics* 118, 2024. [[arXiv:2104.12318](https://arxiv.org/abs/2104.12318)]
   * B.J. Benesh, D.C. Ernst, and N. Sieben. The spectrum of nim-values for achievement games for generating finite groups. *INTEGERS* 23, 2023. [[arXiv:2004.08980](https://arxiv.org/abs/2004.08980)] [[ePrint](http://math.colgate.edu/~integers/xg5/xg5.pdf)]
   * B.J. Benesh, D.C. Ernst, and N. Sieben. Impartial achievement games for generating nilpotent groups. *J. Group Theory* 22(3), 515–527, 2019. [[arXiv:1805.01409](https://arxiv.org/abs/1805.01409)] [[DOI:10.1515/s00182-017-0602-x](https://doi.org/10.1515/jgth-2018-0117)]
