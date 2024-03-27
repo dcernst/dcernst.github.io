@@ -38,7 +38,7 @@ Our textbook for the semester is <i>Introduction to Discrete Mathematics</i>.  E
 - [Chapter 6: Pigeonhole Principle](https://danaernst.com/teaching/mat226s24/6PigeonholePrinciple.pdf)
 - [Chapter 7: Principle of Inclusion and Exclusion](https://danaernst.com/teaching/mat226s24/7PrincipleInclusionExclusion.pdf)
 - [Chapter 8: Mathematical Induction](https://danaernst.com/teaching/mat226s24/8Induction.pdf)
-- [Chapter 9: Recurrence Relations](https://danaernst.com/teaching/mat226s24/9RecurrenceRelations.pdf)
+- [Chapter 9: Sequences and Recurrence Relations](https://danaernst.com/teaching/mat226s24/9RecurrenceRelations.pdf)
 
 I will not be covering every detail of the textbook and the only way to achieve a sufficient understanding of the material is to be digesting the reading in a meaningful way.  You should be seeking clarification about the content whenever necessary by asking questions.  Here's one of my favorite quotes about reading mathematics.
 
