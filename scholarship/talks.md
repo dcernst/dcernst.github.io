@@ -15,7 +15,7 @@ Below is list of talks and presentations that I have given over the past several
 
 <!-- In particular, you can find the collection of my recent slides on [Speaker Deck](https://speakerdeck.com/dcernst). -->
 
-- Braid graphs in simply-laced triangle-free Coxeter systems are median. [CU Lie Theory Seminar](). CU Boulder, Boulder, CO. March 2024. [[Slides](http://dcernst.github.io/talks/BraidGraphsMedian.pdf)
+- Braid graphs in simply-laced triangle-free Coxeter systems are median. [CU Lie Theory Seminar](). CU Boulder, Boulder, CO. March 2024. [[Slides](http://dcernst.github.io/talks/BraidGraphsMedian.pdf)]
 - An introduction to species (3 talks). [NAU Mathematics Seminar](http://naumathstat.github.io/seminars/mathseminar/). NAU, Flagstaff, AZ. November 2023.
 - Topics in combinatorics. NAU Mathematics and Statistics Putnam Exam Preparation. NAU, Flagstaff, AZ. November 2023.
 - Adopting, Adapting and Creating Open Education Resources (panel discussion). [NAU Teaching and Learning Center: Faculty Professional Development Opportunities](https://in.nau.edu/teaching-learning-center). NAU, Flagstaff, AZ. October 2023.
