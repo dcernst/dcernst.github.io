@@ -44,6 +44,7 @@ I reserve the right to modify an assignment if the need arises.
 - **Homework 10:** Complete the problems found [here]({{site.baseurl}}/teaching/mat226s24/226HW10.pdf). (Due Friday, April 5)
 - **Homework 11:** Complete the problems found [here]({{site.baseurl}}/teaching/mat226s24/226HW11.pdf). (Due Wednesday, April 10)
 - **Homework X:** This assignment is optional. Complete the problems found [here]({{site.baseurl}}/teaching/mat226s24/226HWX.pdf). (Due Wednesday, April 17)
-- **Homework 12:** Complete the problems found [here]({{site.baseurl}}/teaching/mat226s24/226HW12.pdf). (Due Wednesday, April 24)
+- **Homework 12:** Complete the problems found [here]({{site.baseurl}}/teaching/mat226s24/226HW12.pdf). (Due Friday, April 26)
+- **Homework 13:** Coming soon. (Due Friday, May 3)
 
 
