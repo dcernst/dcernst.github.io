@@ -108,7 +108,8 @@ From Spring 2013 through Spring 2016, I was co-editor and author for [Math Ed Ma
   * D.C. Ernst. Cell Complexes for Arrangements with Group Actions, MS Thesis, Northern Arizona University, 2000. [[arXiv:0905.4434](http://arxiv.org/abs/0905.4434)]
 
 ## Cycling Related
-  * Bikepacking The Westfjords Way In Iceland: A Journey Through Europe's Last Great Wilderness. *The Seasoned Bikepaker*. [[YouTube](https://www.youtube.com/watch?v=b9D4YQwWsVM&t=64s)]
+  * Dana Ernst: Verde Valley Randonneé Q&A. *The Endurance Studio*. April 2024. [[YouTube](https://www.youtube.com/watch?v=wgX8s8WAbww&t=84s)]
+  * Bikepacking The Westfjords Way In Iceland: A Journey Through Europe's Last Great Wilderness. *The Seasoned Bikepaker*. July 2023. [[YouTube](https://www.youtube.com/watch?v=b9D4YQwWsVM&t=64s)]
   * M. Annabel, D.C. Ernst, C. Howard, W. Spalding. A Date with the Pines: Takes From the 2023 Pinyons and Pines. *Bikepacking.com*. May 2023. [[Article](https://bikepacking.com/plog/a-date-with-2023-pinyons-and-pines/)]
   * Strangely Alive? Arizona's extreme endurance races. *More Than a Game*. [[Podcast](https://radio.azpm.org/p/morethanagame2/2023/5/24/216122-strangely-alive-arizonas-extreme-endurance-races/?fbclid=PAAaYFdnuSoABCtbFFO0HwVfpviGyPz7au1SdqlRf80wPKVGLw_4oddZC9znc_aem_th_ARl1DppoJ2qaYd0XAe8XbbsXBhZZ6_R1t9fex0LSiC6yCzCy6R7T7rokOBoE4kLbS0A)]
   * Jesse Reeves and Dana Ernst on Winning the Stagecoach 400 Ultra Bikepacking Race. *Stoke Podcast*. [[Podcast](https://podcasters.spotify.com/pod/show/stokepodcast/episodes/Jesse-Reeves-and-Dana-Ernst-on-Winning-the-Stagecoach-400-Ultra-Bike-Packing-Race--Riding-Solo-to-Riding-Together--and-When-the-Bad-Moments-Hit-e22hojh)] [[YouTube](https://podcasters.spotify.com/pod/show/stokepodcast/episodes/Jesse-Reeves-and-Dana-Ernst-on-Winning-the-Stagecoach-400-Ultra-Bike-Packing-Race--Riding-Solo-to-Riding-Together--and-When-the-Bad-Moments-Hit-e22hojh)]
