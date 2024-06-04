@@ -22,12 +22,3 @@ My interests also include the <a href="http://en.wikipedia.org/wiki/Scholarship_
 <li><a href="http://maamathedmatters.blogspot.com/">Math Ed Matters</a></li>
 <li><a href="http://maateachingtidbits.blogspot.com">Teaching Tidbits</a></li>
 </ul>
-
-## Additional Information
-
-  * [Academic Writing]({{ site.baseurl }}/scholarship/academic-writing/)
-  * [My Curriculum Vitae]({{ site.baseurl }}/scholarship/CV-Ernst.pdf)
-  * [Undergraduate Research]({{ site.baseurl }}/scholarship/undergraduate-research/) (a little outdated)
-  * [My Talks]({{ site.baseurl }}/scholarship/talks/)
-  * [Math Ed Matters](http://maamathedmatters.blogspot.com/)
-  * [Teaching Tidbits](http://maateachingtidbits.blogspot.com)
