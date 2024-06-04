@@ -13,6 +13,16 @@ layout: default
 
 My interests also include the <a href="http://en.wikipedia.org/wiki/Scholarship_of_Teaching_and_Learning">scholarship of teaching and learning</a>(SoTL) with a focus on <a href="http://maamathedmatters.blogspot.com/2013/05/what-heck-is-ibl.html">inquiry-based learning</a> (IBL) as an approach to teaching/exploring mathematics. I am currently Co-Director for the <a href="http://www.inquirybasedlearning.org">Academy of Inquiry-Based Learning</a> and a mentor for several new IBL practitioners.  Moreover, I actively give <a href="https://danaernst.com/scholarship/talks/">talks</a> and organize workshops on the benefits of IBL as well as the nuts and bolts of how to implement this approach in the mathematics classroom.
 
+<h2 id="additional-information">Additional Information</h2>
+<ul>
+<li><a href="{{ site.baseurl }}/scholarship/academic-writing/">Academic Writing</a></li>
+<li><a href="{{ site.baseurl }}/scholarship/CV-Ernst.pdf">My Curriculum Vitae</a></li>
+<li><a href="{{ site.baseurl }}/scholarship/undergraduate-research/">Undergraduate Research</a> (a little outdated)</li>
+<li><a href="{{ site.baseurl }}/scholarship/talks/">My Talks</a></li>
+<li><a href="http://maamathedmatters.blogspot.com/">Math Ed Matters</a></li>
+<li><a href="http://maateachingtidbits.blogspot.com">Teaching Tidbits</a></li>
+</ul>
+
 ## Additional Information
 
   * [Academic Writing]({{ site.baseurl }}/scholarship/academic-writing/)
