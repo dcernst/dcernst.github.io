@@ -31,10 +31,12 @@ A couple days later, I was meeting with one of my undergraduate research student
 
 Without further ado, here's an example that confirms that the answer to the question above is "no" even if the group is infinite.
 
-**Theorem.** The group $G=\{a/2^k\mid a\in\mathbb{Z}, k\in\mathbb{N}\}$ is an infinite non-cyclic group whose proper subgroups are cyclic.
+**Theorem.** Let $p$ be a prime. Then the [Prüfer $p$-group](https://en.wikipedia.org/wiki/Prüfer_group) $\mathbb{Z}(p^{\infty})=\\{z\in\mathbb{C}\mid z^{p^n}=1, n\in\mathbb{Z}^+ \\}$ is an infinite abelian non-cyclic group whose proper subgroups are cyclic. 
+
+In fact, all proper subgroups of $\mathbb{Z}(p^{\infty})$ are finite! Cool.
+
+<!-- The group $G=\{a/2^k\mid a\in\mathbb{Z}, k\in\mathbb{N}\}$ is an infinite non-cyclic group whose proper subgroups are cyclic.
 
 Note that any fixed prime will do for the denominator. Let's sketch a proof.
 
-First, it is clear that $G$ is an infinite subgroup of $\mathbb{Q}$ since the sum of any two elements from $G$ will be contained in $G$ and the additive inverse of any element from $G$ is also in $G$. To see that $G$ is not cyclic, let $a/2^k\in G$ such that $a$ is odd and consider $\langle a/2^k\rangle$. It's quickly seen that $\langle a/2^k\rangle$ does not contain any rational numbers having denominators equal to $2^{n}$ for $n>k$, and hence $G$ is not cyclic. Now, suppose that $H$ is a proper subgroup of $G$. If $a/2^k\in H$, then $a/2^{k-1}=a/2^k+a/2^k\in H$, as well. It follows that if there is an element in $H$ with denominator equal $2^k$ (in reduced form), then $H$ also contains elements with denominators equal to $2^n$ (in reduced form) for all $n\leq k$. Since $H$ is a proper subgroup, there exists a smallest $m\in \mathbb{N}$ such that no element of $H$ has a denominator equal to $2^m$. Then it must be the case that $H$ is contained in $\langle 1/2^{m-1}\rangle$, and so $H$ is cyclic (since subgroups of cyclic groups are cyclic).
-
-Cool.
+First, it is clear that $G$ is an infinite subgroup of $\mathbb{Q}$ since the sum of any two elements from $G$ will be contained in $G$ and the additive inverse of any element from $G$ is also in $G$. To see that $G$ is not cyclic, let $a/2^k\in G$ such that $a$ is odd and consider $\langle a/2^k\rangle$. It's quickly seen that $\langle a/2^k\rangle$ does not contain any rational numbers having denominators equal to $2^{n}$ for $n>k$, and hence $G$ is not cyclic. Now, suppose that $H$ is a proper subgroup of $G$. If $a/2^k\in H$, then $a/2^{k-1}=a/2^k+a/2^k\in H$, as well. It follows that if there is an element in $H$ with denominator equal $2^k$ (in reduced form), then $H$ also contains elements with denominators equal to $2^n$ (in reduced form) for all $n\leq k$. Since $H$ is a proper subgroup, there exists a smallest $m\in \mathbb{N}$ such that no element of $H$ has a denominator equal to $2^m$. Then it must be the case that $H$ is contained in $\langle 1/2^{m-1}\rangle$, and so $H$ is cyclic (since subgroups of cyclic groups are cyclic). -->
