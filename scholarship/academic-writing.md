@@ -103,11 +103,24 @@ From Spring 2013 through Spring 2016, I was co-editor and author for [Math Ed Ma
   * 4+1 interview with Dana Ernst. *Casting Out Nines* by R. Talbert. The Chronicle Blog Network. August 2013. [[Blog Post](http://chronicle.com/blognetwork/castingoutnines/2013/08/01/41-interview-with-dana-ernst/)]
   * IBL Instructor Perspectives: Professor Dana Ernst. *The IBL Blog* by S. Yoshinobu. February 2012. [[Blog Post](http://theiblblog.blogspot.com/2012/02/ibl-instructor-perspectives-professor.html)]
 
-## Theses
+## My Theses
   * D.C. Ernst. A diagrammatic representation of an affine *C* Temperley-Lieb algebra, PhD Thesis, University of Colorado, 2008. [[arXiv:0905.4457](http://arxiv.org/abs/0905.4457)]
   * D.C. Ernst. Cell Complexes for Arrangements with Group Actions, MS Thesis, Northern Arizona University, 2000. [[arXiv:0905.4434](http://arxiv.org/abs/0905.4434)]
 
+## Student MS Theses
+  * Hannah Golab. Pattern avoidance in Cayley permutations. Northern Arizona University MS Thesis. May 2024. [[PDF]({{site.baseurl}}/scholarship/GolabThesis.pdf)]
+  * Ruth Perry. Braid graphs in Coxeter systems of type $\Lambda$ are median. Northern Arizona University MS Thesis. May 2024. [[PDF]({{site.baseurl}}/scholarship/PerryThesis.pdf)]
+  * Jillian Barnes. Structural properties of braid graphs in simply-laced triangle-free Coxeter systems. Northern Arizona University MS Thesis. May 2022. [[PDF]({{site.baseurl}}/scholarship/BarnesThesis.pdf)]
+  * Fadi Awik. The reversal poset of signed permutations. Northern Arizona University MS Thesis. May 2021.
+  * Quentin Cadman. Structure of braid graphs in simply-laced Coxeter systems. Northern Arizona University MS Thesis. May 2021.
+  * Zachary Parker. On the maximum cardinality braid classes.  Northern Arizona University MS Thesis. May 2017.
+  * Kevin Salmon. Exploration of the type $\widetilde{C}$ Temperley-Lieb algebra. Northern Arizona University MS Thesis. May 2016.
+  * Taryn Laird. A study of $T$-avoiding elements of Coxeter groups. Northern Arizona University MS Thesis. May 2016.
+  * Kirsten N. Davis. A cellular quotient of the Temperley-Lieb algebra of type $D$. Northern Arizona University MS Thesis. May 2014.
+  * Brooke Fox. Conjugacy of cyclically fully commutative elements in Coxeter groups of type $A$. Northern Arizona University MS Thesis. May 2014.
+
 ## Cycling Related
+  * Dana Ernst: Math Professor, Race Across Arizona FKT Holder, Bikepacking Race Director. *The Endurance Studio*. June 2024. [[YouTube](https://youtu.be/J96zjo0h5yU?si=mu53LZ7ftQddSigR)]
   * Dana Ernst: Verde Valley Randonneé Q&A. *The Endurance Studio*. April 2024. [[YouTube](https://www.youtube.com/watch?v=wgX8s8WAbww&t=84s)]
   * Bikepacking The Westfjords Way In Iceland: A Journey Through Europe's Last Great Wilderness. *The Seasoned Bikepaker*. July 2023. [[YouTube](https://www.youtube.com/watch?v=b9D4YQwWsVM&t=64s)]
   * M. Annabel, D.C. Ernst, C. Howard, W. Spalding. A Date with the Pines: Takes From the 2023 Pinyons and Pines. *Bikepacking.com*. May 2023. [[Article](https://bikepacking.com/plog/a-date-with-2023-pinyons-and-pines/)]
