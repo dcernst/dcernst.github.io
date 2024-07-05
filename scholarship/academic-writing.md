@@ -44,7 +44,6 @@ Below is a list of textbooks that I have written to be used with an [inquiry-bas
   * D.C. Ernst. *Introduction to Real Analysis*. Free undergraduate real analysis textbook, 2023. Modification of previous work: D.C. Ernst < K. Crisman < W.T. Mahavier < W.S. Mahavier. [[PDF](https://danaernst.com/teaching/mat431f23/IBL-RealAnalysis.pdf)]
   * D.C. Ernst. *An Inquiry-Based Approach to Abstract Algebra*. Open-source textbook for undergraduate abstract algebra, 2022.  [[Source](https://github.com/dcernst/IBL-AbstractAlgebra)] [[PDF](http://danaernst.com/teaching/mat411s22/IBL-AbstractAlgebra.pdf)]
   * D.C. Ernst. *An Introduction to Proof via Inquiry-Based Learning*. MAA Press, 2022. [[Project Webpage](http://dcernst.github.io/IBL-IntroToProof/)] [[Paperback](https://bookstore.ams.org/text-73/)]
-  
 
 ## Journal Articles
   * D.C. Ernst, J. Slye. Using the $\Spin_{3\times 3}$ virtual manipulative to introduce group theory. *PRIMUS* 34(6), 2024. [[DOI:10.1080/10511970.2024.2335483](https://doi.org/10.1080/10511970.2024.2335483)]
