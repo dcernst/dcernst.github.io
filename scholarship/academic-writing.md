@@ -24,10 +24,10 @@ My interests also include the [scholarship of teaching and learning](http://en.w
 You can find a recent version of my curriculum vitae [here]({{site.baseurl}}/scholarship/CV-Ernst.pdf).
 
 ## In Preparation
-  * D.C. Ernst and J. Hagood. *Introduction to Discrete Mathematics*. (Book)
-  * G. Cerbai, A. Claesson, D.C. Ernst, and H. Golab. Pattern avoidance in Cayley permutations.
+  * G. Cerbai, A. Claesson, D.C. Ernst, and H. Golab. Pattern avoidance in Cayley permutations, Part 2.
+  * G. Cerbai, A. Claesson, D.C. Ernst, and H. Golab. Pattern avoidance in Cayley permutations, Part 1.
   * B.J. Benesh, D.C. Ernst, M. Meyer, S.K. Salmon, and N. Sieben. Impartial geodetic destroying games on graphs.
-  * J. Barnes, J. Breland, D.C. Ernst, R. Perry. Structural properties of braid graphs in simply-laced triangle-free Coxeter systems.
+  * J. Barnes, J. Breland, D.C. Ernst, R. Perry. Braid graphs in simply-laced triangle-free Coxeter systems are median.
   * F. Awik, F. Burkhart, H. Denoncourt, D.C. Ernst, T. Rosenberg, and A. Stewart. Enumerating signed permutations by reversal distance.
 
 <!-- * J. Breland, Q. Cadman, D.C. Ernst, J. Niemi, J. Sullivan, and J. Wright. Structure of braid graphs for reduced words in simply-laced Coxeter systems. * F. Burkhart, H. Denoncourt, D.C. Ernst, and A. Stewart. Enumerating signed permutations by reversal distance.-->
@@ -38,9 +38,17 @@ You can find a recent version of my curriculum vitae [here]({{site.baseurl}}/sch
   
 <!-- * T.J. Hitchman, S. Yoshinobu, M. Jones, D.C. Ernst, and S. Laursen. Turtles all the way down: The infinite progression of professional development. -->
 
+## Books
+Below is a list of textbooks that I have written to be used with an [inquiry-based learning](http://maamathedmatters.blogspot.com/2013/05/what-heck-is-ibl.html) (IBL) approach.
+  * D.C. Ernst and J. Hagood. *Introduction to Discrete Mathematics*. Free undergraduate discrete mathematics textbook, 2024. [[PDF](https://danaernst.com/teaching/mat226s24/NAUDiscreteMathematics-ErnstHagood.pdf})]
+  * D.C. Ernst. *Introduction to Real Analysis*. Free undergraduate real analysis textbook, 2023. Modification of previous work: D.C. Ernst < K. Crisman < W.T. Mahavier < W.S. Mahavier. [[PDF](https://danaernst.com/teaching/mat431f23/IBL-RealAnalysis.pdf)]
+  * D.C. Ernst. *An Inquiry-Based Approach to Abstract Algebra*. Open-source textbook for undergraduate abstract algebra, 2022.  [[Source](https://github.com/dcernst/IBL-AbstractAlgebra)] [[PDF](http://danaernst.com/teaching/mat411s22/IBL-AbstractAlgebra.pdf)]
+  * D.C. Ernst. *An Introduction to Proof via Inquiry-Based Learning*. MAA Press, 2022. [[Project Webpage](http://dcernst.github.io/IBL-IntroToProof/)] [[Paperback](https://bookstore.ams.org/text-73/)]
+  
+
 ## Journal Articles
-  * D.C. Ernst, J. Slye. Using the $\Spin_{3\times 3}$ virtual manipulative to introduce group theory. *PRIMUS*, 34(6), 2024. [[DOI:10.1080/10511970.2024.2335483](https://doi.org/10.1080/10511970.2024.2335483)]
-  * F. Awik, J. Breland, Q.Cadman, and D.C. Ernst. Braid graphs in simply-laced triangle-free Coxeter systems are partial cubes. *European Journal of Combinatorics* 118, 2024. [[arXiv:2104.12318](https://arxiv.org/abs/2104.12318)]
+  * D.C. Ernst, J. Slye. Using the $\Spin_{3\times 3}$ virtual manipulative to introduce group theory. *PRIMUS* 34(6), 2024. [[DOI:10.1080/10511970.2024.2335483](https://doi.org/10.1080/10511970.2024.2335483)]
+  * F. Awik, J. Breland, Q. Cadman, and D.C. Ernst. Braid graphs in simply-laced triangle-free Coxeter systems are partial cubes. *European Journal of Combinatorics* 118, 2024. [[arXiv:2104.12318](https://arxiv.org/abs/2104.12318)]
   * B.J. Benesh, D.C. Ernst, and N. Sieben. The spectrum of nim-values for achievement games for generating finite groups. *INTEGERS* 23, 2023. [[arXiv:2004.08980](https://arxiv.org/abs/2004.08980)] [[ePrint](http://math.colgate.edu/~integers/xg5/xg5.pdf)]
   * B.J. Benesh, D.C. Ernst, and N. Sieben. Impartial achievement games for generating nilpotent groups. *J. Group Theory* 22(3), 515–527, 2019. [[arXiv:1805.01409](https://arxiv.org/abs/1805.01409)] [[DOI:10.1515/s00182-017-0602-x](https://doi.org/10.1515/jgth-2018-0117)]
   * D.C. Ernst. Diagram calculus for a type affine *C* Temperley-Lieb algebra, II. *J. Pure Appl. Alg.* 222(12), 3795-3830, 2018. [[arXiv:1101.4215](http://arxiv.org/abs/1101.4215)] [[DOI:10.1016/j.jpaa.2018.02.008](https://doi.org/10.1016/j.jpaa.2018.02.008)]
@@ -60,13 +68,6 @@ You can find a recent version of my curriculum vitae [here]({{site.baseurl}}/sch
   * D.C. Ernst. Diagram calculus for a type affine *C* Temperley-Lieb algebra, I. *J. Pure Appl. Alg.* 216(11), 2012. [[arXiv:0910.0925](http://arxiv.org/abs/0910.0925)]
   * T. Boothby, J. Burkert, M. Eichwald, D.C. Ernst, R.M. Green, and M. Macauley. On the cyclically fully commutative elements of Coxeter groups. *J. Algebraic Combin.* 36(1), 2012. [[arXiv:1202.6657](http://arxiv.org/abs/1202.6657)]
   * D.C. Ernst. Non-cancellable elements in type affine *C* Coxeter groups. *Int. Electron. J. Algebra* 8, 2010. [[arXiv:0910.0923](http://arxiv.org/abs/0910.0923)] [[ePrint](http://www.ieja.net/files/papers/volume-8/Volume-7--2010/14-V8-2010.pdf)]
-
-## Books
-Below is a list of textbooks that I have written to be used with an [inquiry-based learning](http://maamathedmatters.blogspot.com/2013/05/what-heck-is-ibl.html) (IBL) approach.
-
-  * D.C. Ernst. *An Introduction to Proof via Inquiry-Based Learning*. MAA Press, an imprint of the American Mathematical Society, 2022. [[Webpage](http://dcernst.github.io/IBL-IntroToProof/)] [[Paperback](https://bookstore.ams.org/text-73/)]
-  * D.C. Ernst. *An Inquiry-Based Approach to Abstract Algebra*. Open-source textbook for undergraduate abstract algebra.  [[Webpage](http://dcernst.github.io/IBL-AbstractAlgebra/)]
-  * D.C. Ernst. *Introduction to Real Analysis*. Free textbook for undergraduate real analysis. Modification of previous work: D.C. Ernst < K. Crisman < W.T. Mahavier < W.S. Mahavier.
 
 ## Book Chapters
   * D.C. Ernst and A. Hodge. Within \\(\epsilon\\) of Independence: An Attempt to Produce Independent Proof-Writers via IBL. In *Beyond Lecture: Resources and Pedagogical Techniques for Enhancing the Teaching of Proof-Writing Across the Curriculum*, R. Schwell, A. Steurer, & J.F. Vasquez (Eds.), MAA Notes, 2016.
