@@ -232,7 +232,7 @@ window.MathJax = {
 <article class="definition definition-like" id="def_open"><h3 class="heading">
 <span class="type">Definition</span><span class="space"> </span><span class="codenumber">5.53</span><span class="period">.</span>
 </h3>
-<div class="para" id="def_open-1-1">A set <span class="process-math">\(U\)</span> is called an open set if for every <span class="process-math">\(x \in U\text{,}\)</span> there exists a bounded open interval <span class="process-math">\((a,b)\)</span> containing <span class="process-math">\(x\)</span> such that <span class="process-math">\((a,b)\subseteq U\text{.}\)</span>
+<div class="para" id="def_open-1-1">A set <span class="process-math">\(U\)</span> is called an <dfn class="terminology">open</dfn> set if for every <span class="process-math">\(x \in U\text{,}\)</span> there exists a bounded open interval <span class="process-math">\((a,b)\)</span> containing <span class="process-math">\(x\)</span> such that <span class="process-math">\((a,b)\subseteq U\text{.}\)</span>
 </div></article><div class="para" id="sec_Topology-6">It follows immediately from the definition that every open set is a union of bounded open intervals.</div>
 <article class="problem example-like" id="prob_open_or_not"><h3 class="heading">
 <span class="type">Problem</span><span class="space"> </span><span class="codenumber">5.54</span><span class="period">.</span>
@@ -246,8 +246,8 @@ window.MathJax = {
 <li id="prob_open_or_not-1-1-1-4"><div class="para" id="prob_open_or_not-1-1-1-4-1"><span class="process-math">\(\displaystyle [1,2]\)</span></div></li>
 <li id="prob_open_or_not-1-1-1-5"><div class="para" id="prob_open_or_not-1-1-1-5-1"><span class="process-math">\(\displaystyle (-\infty,\sqrt{2}]\)</span></div></li>
 <li id="prob_open_or_not-1-1-1-6"><div class="para" id="prob_open_or_not-1-1-1-6-1"><span class="process-math">\(\displaystyle \{4,17,42\}\)</span></div></li>
-<li id="prob_open_or_not-1-1-1-7"><div class="para" id="prob_open_or_not-1-1-1-7-1"><span class="process-math">\(\displaystyle \{\frac{1}{n}\mid n\in \mathbb{N}\}\)</span></div></li>
-<li id="prob_open_or_not-1-1-1-8"><div class="para" id="prob_open_or_not-1-1-1-8-1"><span class="process-math">\(\displaystyle \{\frac{1}{n}\mid n\in \mathbb{N}\}\cup \{0\}\)</span></div></li>
+<li id="prob_open_or_not-1-1-1-7"><div class="para" id="prob_open_or_not-1-1-1-7-1"><span class="process-math">\(\displaystyle \left\{\frac{1}{n}\mid n\in \mathbb{N}\right\}\)</span></div></li>
+<li id="prob_open_or_not-1-1-1-8"><div class="para" id="prob_open_or_not-1-1-1-8-1"><span class="process-math">\(\displaystyle \left\{\frac{1}{n}\mid n\in \mathbb{N}\right\}\cup \{0\}\)</span></div></li>
 <li id="prob_open_or_not-1-1-1-9"><div class="para" id="prob_open_or_not-1-1-1-9-1"><span class="process-math">\(\displaystyle \mathbb{R}\)</span></div></li>
 <li id="prob_open_or_not-1-1-1-10"><div class="para" id="prob_open_or_not-1-1-1-10-1"><span class="process-math">\(\displaystyle \mathbb{Q}\)</span></div></li>
 <li id="prob_open_or_not-1-1-1-11"><div class="para" id="prob_open_or_not-1-1-1-11-1"><span class="process-math">\(\displaystyle \mathbb{Z}\)</span></div></li>
@@ -296,7 +296,7 @@ window.MathJax = {
 <article class="definition definition-like" id="sec_Topology-20"><h3 class="heading">
 <span class="type">Definition</span><span class="space"> </span><span class="codenumber">5.62</span><span class="period">.</span>
 </h3>
-<div class="para" id="sec_Topology-20-1-1">Suppose <span class="process-math">\(A\subseteq \mathbb{R}\text{.}\)</span> A point <span class="process-math">\(p\in \mathbb{R}\)</span> is an accumulation point of <span class="process-math">\(A\)</span> if for every bounded open interval <span class="process-math">\((a,b)\)</span> containing <span class="process-math">\(p\text{,}\)</span> there exists a point <span class="process-math">\(q \in (a,b)\cap A\)</span> such that <span class="process-math">\(q\neq p\text{.}\)</span>
+<div class="para" id="sec_Topology-20-1-1">Suppose <span class="process-math">\(A\subseteq \mathbb{R}\text{.}\)</span> A point <span class="process-math">\(p\in \mathbb{R}\)</span> is an <dfn class="terminology">accumulation point</dfn> of <span class="process-math">\(A\)</span> if for every bounded open interval <span class="process-math">\((a,b)\)</span> containing <span class="process-math">\(p\text{,}\)</span> there exists a point <span class="process-math">\(q \in (a,b)\cap A\)</span> such that <span class="process-math">\(q\neq p\text{.}\)</span>
 </div></article><div class="para" id="sec_Topology-21">Notice that if <span class="process-math">\(p\)</span> is an accumulation point of <span class="process-math">\(A\text{,}\)</span> then <span class="process-math">\(p\)</span> may or may not be in <span class="process-math">\(A\text{.}\)</span> Loosely speaking, <span class="process-math">\(p\)</span> is an accumulation point of a set <span class="process-math">\(A\)</span> if there are points in <span class="process-math">\(A\)</span> arbitrarily close to <span class="process-math">\(p\text{.}\)</span> That is, if we zoom in on <span class="process-math">\(p\text{,}\)</span> we should always see points in <span class="process-math">\(A\)</span> nearby.</div>
 <article class="problem example-like" id="sec_Topology-22"><h3 class="heading">
 <span class="type">Problem</span><span class="space"> </span><span class="codenumber">5.63</span><span class="period">.</span>
@@ -330,7 +330,7 @@ window.MathJax = {
 </div></article><article class="definition definition-like" id="sec_Topology-28"><h3 class="heading">
 <span class="type">Definition</span><span class="space"> </span><span class="codenumber">5.68</span><span class="period">.</span>
 </h3>
-<div class="para" id="sec_Topology-28-1-1">A set <span class="process-math">\(A\subseteq \mathbb{R}\)</span> is called closed if <span class="process-math">\(A\)</span> contains all of its accumulation points.</div></article><article class="problem example-like" id="prob_closed_or_not"><h3 class="heading">
+<div class="para" id="sec_Topology-28-1-1">A set <span class="process-math">\(A\subseteq \mathbb{R}\)</span> is called <dfn class="terminology">closed</dfn> if <span class="process-math">\(A\)</span> contains all of its accumulation points.</div></article><article class="problem example-like" id="prob_closed_or_not"><h3 class="heading">
 <span class="type">Problem</span><span class="space"> </span><span class="codenumber">5.69</span><span class="period">.</span>
 </h3>
 <div class="para" id="prob_closed_or_not-1-1">Determine whether each of the sets in <a href="" class="xref" data-knowl="./knowl/xref/prob_open_or_not.html" title="Problem 5.54">Problem 5.54</a> is closed. Justify your assertions.</div></article><div class="para" id="sec_Topology-30">The upshot of Parts (i) and (l) of <a href="" class="xref" data-knowl="./knowl/xref/prob_open_or_not.html" title="Problem 5.54">Problems 5.54</a> and <a href="" class="xref" data-knowl="./knowl/xref/prob_closed_or_not.html" title="Problem 5.69">Problem 5.69</a> is that <span class="process-math">\(\mathbb{R}\)</span> and <span class="process-math">\(\emptyset\)</span> are both open and closed. It turns out that these are the only two subsets of the real numbers with this property. One issue with the terminology that could potentially create confusion is that the open interval <span class="process-math">\((-\infty, \infty)\)</span> is both an open and a closed set.</div>
@@ -377,23 +377,26 @@ window.MathJax = {
 <div class="para" id="sec_Topology-41-1-1">If <span class="process-math">\(\{A_{i}\}_{i=1}^n\)</span> is a finite collection of closed sets for <span class="process-math">\(n\in \mathbb{N}\text{,}\)</span> then <span class="process-math">\(\bigcup_{i=1}^n A_{i}\)</span> is a closed set.</div></article><article class="problem example-like" id="prob_union_of_closed_sets"><h3 class="heading">
 <span class="type">Problem</span><span class="space"> </span><span class="codenumber">5.77</span><span class="period">.</span>
 </h3>
-<div class="para" id="prob_union_of_closed_sets-1-1">Provide an example of a collection of closed sets <span class="process-math">\(\{A_{\alpha}\}_{\alpha\in\Delta}\)</span> such that <span class="process-math">\(\bigcup_{\alpha\in \Delta} A_{\alpha}\)</span> is not a closed set.</div></article><article class="problem example-like" id="sec_Topology-43"><h3 class="heading">
+<div class="para" id="prob_union_of_closed_sets-1-1">Provide an example of a collection of closed sets <span class="process-math">\(\{A_{\alpha}\}_{\alpha\in\Delta}\)</span> such that <span class="process-math">\(\bigcup_{\alpha\in \Delta} A_{\alpha}\)</span> is not a closed set.</div></article><article class="problem example-like" id="prob_open_or_closed"><h3 class="heading">
 <span class="type">Problem</span><span class="space"> </span><span class="codenumber">5.78</span><span class="period">.</span>
 </h3>
-<div class="para" id="sec_Topology-43-1-1">Determine whether each of the following sets is open, closed, both, or neither.</div> <ol class="lower-alpha">
-<li id="sec_Topology-43-1-2-1"><div class="para" id="sec_Topology-43-1-2-1-1"><span class="process-math">\(\displaystyle \displaystyle V=\bigcup_{n=2}^{\infty} \left(n - \frac{1}{2},n\right)\)</span></div></li>
-<li id="sec_Topology-43-1-2-2"><div class="para" id="sec_Topology-43-1-2-2-1"><span class="process-math">\(\displaystyle \displaystyle W=\bigcap_{n=2}^{\infty} \left(n - \frac{1}{2},n\right)\)</span></div></li>
-<li id="sec_Topology-43-1-2-3"><div class="para" id="sec_Topology-43-1-2-3-1"><span class="process-math">\(\displaystyle \displaystyle X=\bigcap_{n=1}^{\infty} \left(-\frac{1}{n}, \frac{1}{n}\right)\)</span></div></li>
-<li id="sec_Topology-43-1-2-4"><div class="para" id="sec_Topology-43-1-2-4-1"><span class="process-math">\(\displaystyle \displaystyle Y=\bigcap_{n=1}^{\infty} \left(-n, n\right)\)</span></div></li>
-<li id="sec_Topology-43-1-2-5"><div class="para" id="sec_Topology-43-1-2-5-1"><span class="process-math">\(\displaystyle Z=(0,1)\cap \mathbb{Q}\)</span></div></li>
-</ol></article><article class="problem example-like" id="sec_Topology-44"><h3 class="heading">
+<div class="para logical" id="prob_open_or_closed-1-1">
+<div class="para">Determine whether each of the following sets is open, closed, both, or neither.</div>
+<ol class="lower-alpha">
+<li id="prob_open_or_closed-1-1-1-1"><div class="para" id="p-derived-prob_open_or_closed-1-1-1-1"><span class="process-math">\(\displaystyle V=\bigcup_{n=2}^{\infty} \left(n - \frac{1}{2},n\right)\)</span></div></li>
+<li id="prob_open_or_closed-1-1-1-2"><div class="para" id="prob_open_or_closed-1-1-1-2-1"><span class="process-math">\(\displaystyle W=\bigcap_{n=2}^{\infty} \left(n - \frac{1}{2},n\right)\)</span></div></li>
+<li id="prob_open_or_closed-1-1-1-3"><div class="para" id="prob_open_or_closed-1-1-1-3-1"><span class="process-math">\(\displaystyle X=\bigcap_{n=1}^{\infty} \left(-\frac{1}{n}, \frac{1}{n}\right)\)</span></div></li>
+<li id="prob_open_or_closed-1-1-1-4"><div class="para" id="prob_open_or_closed-1-1-1-4-1"><span class="process-math">\(\displaystyle Y=\bigcap_{n=1}^{\infty} \left(-n, n\right)\)</span></div></li>
+<li id="prob_open_or_closed-1-1-1-5"><div class="para" id="prob_open_or_closed-1-1-1-5-1"><span class="process-math">\(\displaystyle Z=(0,1)\cap \mathbb{Q}\)</span></div></li>
+</ol>
+</div></article><article class="problem example-like" id="sec_Topology-44"><h3 class="heading">
 <span class="type">Problem</span><span class="space"> </span><span class="codenumber">5.79</span><span class="period">.</span>
 </h3>
 <div class="para" id="sec_Topology-44-1-1">Prove or provide a counterexample: Every non-closed set has at least one accumulation point.</div></article><div class="para" id="sec_Topology-45">We now introduce three special classes of subsets of <span class="process-math">\(\mathbb{R}\text{:}\)</span> compact, connected, and disconnected.</div>
 <article class="definition definition-like" id="sec_Topology-46"><h3 class="heading">
 <span class="type">Definition</span><span class="space"> </span><span class="codenumber">5.80</span><span class="period">.</span>
 </h3>
-<div class="para" id="sec_Topology-46-1-1">A set <span class="process-math">\(K\subseteq\mathbb{R}\)</span> is called compact if <span class="process-math">\(K\)</span> is both closed and bounded.</div></article><div class="para" id="sec_Topology-47">It is important to point out that there is a more general definition of compact in an arbitrary topological space. However, using our notions of open and closed, it is a theorem that a subset of the real line is compact if and only if it is closed and bounded.</div>
+<div class="para" id="sec_Topology-46-1-1">A set <span class="process-math">\(K\subseteq\mathbb{R}\)</span> is called <dfn class="terminology">compact</dfn> if <span class="process-math">\(K\)</span> is both closed and bounded.</div></article><div class="para" id="sec_Topology-47">It is important to point out that there is a more general definition of compact in an arbitrary topological space. However, using our notions of open and closed, it is a theorem that a subset of the real line is compact if and only if it is closed and bounded.</div>
 <article class="problem example-like" id="prob_compact_or_not"><h3 class="heading">
 <span class="type">Problem</span><span class="space"> </span><span class="codenumber">5.81</span><span class="period">.</span>
 </h3>
@@ -407,8 +410,8 @@ window.MathJax = {
 <li id="prob_compact_or_not-1-1-1-5"><div class="para" id="prob_compact_or_not-1-1-1-5-1"><span class="process-math">\(\displaystyle \mathbb{Q}\)</span></div></li>
 <li id="prob_compact_or_not-1-1-1-6"><div class="para" id="prob_compact_or_not-1-1-1-6-1"><span class="process-math">\(\displaystyle \mathbb{R}\setminus\mathbb{Q}\)</span></div></li>
 <li id="prob_compact_or_not-1-1-1-7"><div class="para" id="prob_compact_or_not-1-1-1-7-1"><span class="process-math">\(\displaystyle \mathbb{Z}\)</span></div></li>
-<li id="prob_compact_or_not-1-1-1-8"><div class="para" id="prob_compact_or_not-1-1-1-8-1"><span class="process-math">\(\displaystyle \{\frac{1}{n}\mid n\in\mathbb{N}\}\)</span></div></li>
-<li id="prob_compact_or_not-1-1-1-9"><div class="para" id="prob_compact_or_not-1-1-1-9-1"><span class="process-math">\(\displaystyle [0,1]\cup\{1+\frac{1}{n}\mid n\in\mathbb{N}\}\)</span></div></li>
+<li id="prob_compact_or_not-1-1-1-8"><div class="para" id="prob_compact_or_not-1-1-1-8-1"><span class="process-math">\(\displaystyle \left\{\frac{1}{n}\mid n\in\mathbb{N}\right\}\)</span></div></li>
+<li id="prob_compact_or_not-1-1-1-9"><div class="para" id="prob_compact_or_not-1-1-1-9-1"><span class="process-math">\(\displaystyle [0,1]\cup\left\{1+\frac{1}{n}\mid n\in\mathbb{N}\right\}\)</span></div></li>
 <li id="prob_compact_or_not-1-1-1-10"><div class="para" id="prob_compact_or_not-1-1-1-10-1"><span class="process-math">\(\displaystyle \{17,42\}\)</span></div></li>
 <li id="prob_compact_or_not-1-1-1-11"><div class="para" id="prob_compact_or_not-1-1-1-11-1"><span class="process-math">\(\displaystyle \{17\}\)</span></div></li>
 <li id="prob_compact_or_not-1-1-1-12"><div class="para" id="prob_compact_or_not-1-1-1-12-1"><span class="process-math">\(\displaystyle \emptyset\)</span></div></li>
@@ -424,7 +427,7 @@ window.MathJax = {
 </div></article><article class="definition definition-like" id="sec_Topology-52"><h3 class="heading">
 <span class="type">Definition</span><span class="space"> </span><span class="codenumber">5.84</span><span class="period">.</span>
 </h3>
-<div class="para" id="sec_Topology-52-1-1">A set <span class="process-math">\(A\subseteq \mathbb{R}\)</span> is disconnected if there exists two disjoint open sets <span class="process-math">\(U_1\)</span> and <span class="process-math">\(U_2\)</span> such that <span class="process-math">\(A\cap U_1\)</span> and <span class="process-math">\(A\cap U_2\)</span> are nonempty but <span class="process-math">\(A\subseteq U_1\cup U_2\)</span> (equivalently, <span class="process-math">\(A=(A\cap U_1)\cup(A\cap U_2)\)</span>). If a set is not disconnected, then we say that it is connected.</div></article><div class="para" id="sec_Topology-53">In other words, a set is disconnected if it can be partitioned into two nonempty subsets such that each subset does not contain points of the other and does not contain any accumulation points of the other. Showing that a set is disconnected is generally easier than showing a set is connected. To prove that a set is disconnected, you simply need to exhibit two open sets with the necessary properties. However, to prove that a set is connected, you need to prove that no such pair of open sets exists.</div>
+<div class="para" id="sec_Topology-52-1-1">A set <span class="process-math">\(A\subseteq \mathbb{R}\)</span> is <dfn class="terminology">disconnected</dfn> if there exists two disjoint open sets <span class="process-math">\(U_1\)</span> and <span class="process-math">\(U_2\)</span> such that <span class="process-math">\(A\cap U_1\)</span> and <span class="process-math">\(A\cap U_2\)</span> are nonempty but <span class="process-math">\(A\subseteq U_1\cup U_2\)</span> (equivalently, <span class="process-math">\(A=(A\cap U_1)\cup(A\cap U_2)\)</span>). If a set is not disconnected, then we say that it is <dfn class="terminology">connected</dfn>.</div></article><div class="para" id="sec_Topology-53">In other words, a set is disconnected if it can be partitioned into two nonempty subsets such that each subset does not contain points of the other and does not contain any accumulation points of the other. Showing that a set is disconnected is generally easier than showing a set is connected. To prove that a set is disconnected, you simply need to exhibit two open sets with the necessary properties. However, to prove that a set is connected, you need to prove that no such pair of open sets exists.</div>
 <article class="problem example-like" id="sec_Topology-54"><h3 class="heading">
 <span class="type">Problem</span><span class="space"> </span><span class="codenumber">5.85</span><span class="period">.</span>
 </h3>
