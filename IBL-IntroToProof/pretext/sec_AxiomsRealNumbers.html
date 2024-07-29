@@ -319,7 +319,15 @@ window.MathJax = {
 <span class="process-math">\(\tcboxmath{\displaystyle\frac{a}{b}\coloneqq ab^{-1}}\)</span> (for <span class="process-math">\(b\neq 0\)</span>)</div></li>
 <li id="def_real_number_notation-1-1-3-3"><div class="para" id="def_real_number_notation-1-1-3-3-1"><span class="process-math">\(\displaystyle \tcboxmath{\displaystyle a^n\coloneqq \begin{cases}\overbrace{aa\cdots a}^n, \amp \text{ if } n\in \mathbb{N}\\ 1, \amp \text{ if } n=0\text{ and } a\neq 0\\ \displaystyle\frac{1}{a^{-n}}, \amp \text{ if } -n\in \mathbb{N}\text{ and } a\neq 0 \end{cases} }\)</span></div></li>
 </ol>
-</div></article><div class="para" id="sec_AxiomsRealNumbers-19">The set of <dfn class="terminology">rational numbers</dfn>, denoted by <span class="process-math">\(\mathbb{Q}\text{,}\)</span> is defined to be the collection of all real numbers having the form given in Part (b) of <a href="" class="xref" data-knowl="./knowl/xref/def_real_number_notation.html" title="Definition 5.7">Definition 5.7</a>. The <dfn class="terminology">irrational numbers</dfn> are defined to be <span class="process-math">\(\mathbb{R}\setminus\mathbb{Q}\text{.}\)</span>
+</div></article><div class="para logical" id="sec_AxiomsRealNumbers-19">
+<div class="para">The set of <dfn class="terminology">rational numbers</dfn>, denoted by <span class="process-math">\(\mathbb{Q}\text{,}\)</span> is defined to be the collection of all real numbers having the form given in Part (b) of <a href="" class="xref" data-knowl="./knowl/xref/def_real_number_notation.html" title="Definition 5.7">Definition 5.7</a> with the additional requirement that <span class="process-math">\(a\)</span> and <span class="process-math">\(b\)</span> be integers.  That is,</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/def_real_number_notation.html">
+\begin{equation*}
+\tcboxmath{\mathbb{Q}:=\left\{\frac{a}{b}\mid a,b\in\mathbb{Z} \text{ and } b\neq 0\right\}}.
+\end{equation*}
+</div>
+<div class="para">The <dfn class="terminology">irrational numbers</dfn> are defined to be <span class="process-math">\(\mathbb{R}\setminus\mathbb{Q}\text{.}\)</span>
+</div>
 </div>
 <div class="para" id="sec_AxiomsRealNumbers-20">Using the Field Axioms, we can prove each of the statements in the following theorem.</div>
 <article class="theorem theorem-like" id="thm_consequences_of_axioms"><h3 class="heading">
@@ -351,7 +359,7 @@ window.MathJax = {
 <article class="axiom theorem-like" id="axiom_order_axioms"><h3 class="heading">
 <span class="type">Axiom</span><span class="space"> </span><span class="codenumber">5.10</span><span class="period">.</span><span class="space"> </span><span class="title">Order Axioms.</span>
 </h3>
-<div class="para" id="axiom_order_axioms-2-1">For <span class="process-math">\(a,b,c\in \mathbb{R}\text{,}\)</span> there is a relation <span class="process-math">\(\tcboxmath{\lt }\)</span> on <span class="process-math">\(\mathbb{R}\)</span> satisfying:</div> <dl class="description-list">
+<div class="para" id="axiom_order_axioms-2-1">For <span class="process-math">\(a,b,c\in \mathbb{R}\text{,}\)</span> there is a relation <span class="process-math">\(\tcboxmath{\lt }\)</span> on <span class="process-math">\(\mathbb{R}\)</span> satisfying:</div> <dl class="description-list narrow">
 <dt id="axiom_order_axioms-2-2-1">(O1)</dt>
 <dd> (Trichotomy Law) If <span class="process-math">\(a\neq b\text{,}\)</span> then either <span class="process-math">\(a\lt b\)</span> or <span class="process-math">\(b\lt a\)</span> but not both;</dd>
 <dt id="axiom_order_axioms-2-2-2">(O2)</dt>
