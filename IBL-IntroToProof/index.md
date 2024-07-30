@@ -28,6 +28,7 @@ The first draft of the book was written in 2009. At that time, several of the se
 - [Errata]({{ site.baseurl }}/IBL-IntroToProof/Errata.pdf) (Updated July 29, 2024)
 - [Source code available via GitHub](https://github.com/dcernst/IBL-IntroToProof)
 - [Book review in MAA Focus](http://digitaleditions.walsworthprintgroup.com/publication/?i=754974&p=42&view=issueViewer)
+- [Link to book at American Institute of Mathematics (AIM) Open Textbook Initiative](https://textbooks.aimath.org/textbooks/approved-textbooks/ernst/)
 
 If you've found an error or have suggestions for improvements, please let me know by [sending me an email](mailto:dana.ernst@nau.edu) or [submitting an issue via GitHub](https://github.com/dcernst/IBL-IntroToProof/issues). You can find the most up-to-date version of this textbook on [GitHub](https://github.com/dcernst/IBL-IntroToProof). I would be thrilled if you used this textbook and improved it. If you make any modifications, you can either make a pull request on GitHub or submit the improvements via email. You are also welcome to fork the source and modify the text for your purposes as long as you maintain the [Creative Commons Attribution-Share Alike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/).
 
