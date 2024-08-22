@@ -65,9 +65,9 @@ Elementary discrete mathematics including topics from graph theory and combinato
 
 ### Course Content ###
 
-1. **Counting Theory:** brute force counting, multiplication principle, subtraction principle, addition principle, division principle, pigeonhole principle, inclusion-exclusion, permutations, combinations, sets, unions, intersections, combinatorial proof, binomial coefficients, multinomials, the Mississippi problem, stars-and-bars technique, balls-in-bins, equally likely probability computations (but not axiomatic probability, not expectation)..
+1. **Counting Theory:** brute force counting, multiplication principle, subtraction principle, addition principle, division principle, pigeonhole principle, inclusion-exclusion, permutations, combinations, sets, unions, intersections, combinatorial proof, binomial coefficients, multinomials, the Mississippi problem, stars-and-bars technique, balls-in-bins, equally likely probability computations (but not axiomatic probability, not expectation).
 2. **Graph Theory:** graphs, digraphs, multigraphs, weighted graphs, special graphs (e.g., complete, bipartite), matrix representation, walks, paths, circuits, cycles, connected components, isomorphisms, degree (valence), the handshaking lemma, matching and the marriage theorem, planar graphs, Euler’s formula, colorings of graphs, trees, spanning trees, traversal (Euler and Hamilton paths and circuits); algorithms: Prim, Kruskal, Dijkstra, etc.; applications of graphs to scheduling, efficient use of resources, etc.
-3. **Induction and Recursion:** constructing recurrence relations for counting problems, solving simple recurrence relations, mathematical induction, generalized induction, strong induction;
+3. **Induction and Recursion:** constructing recurrence relations for counting problems, solving simple recurrence relations, mathematical induction, generalized induction, strong induction.
 4. Additional topics as time permits such as generating functions, probability, chromatic polynomial.
 
 <blockquote>

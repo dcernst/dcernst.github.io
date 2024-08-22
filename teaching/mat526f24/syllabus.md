@@ -129,6 +129,7 @@ The following are examples (not an exhaustive list) of behaviors that do not con
 <p>You will become clever through your mistakes.</p>
 <footer><a href=" ">German Proverb</a></footer>
 </blockquote>
+
 ### Homework ###
 You are allowed and encouraged to work together on homework.  However, each student is expected to turn in their own work.  In general, late homework will *not* be accepted.  However, you are allowed to turn in up to **two late homework assignments** with no questions asked. Unless you have made arrangements in advance with me, homework turned in after class will be considered late. You can find the list of assignments on the [homework page]({{site.baseurl}}/teaching/mat526s24/homework/).  I reserve the right to modify the homework assignments as I see necessary.
 
