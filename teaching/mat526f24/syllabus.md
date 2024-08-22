@@ -63,7 +63,7 @@ MAT 226, MAT 316, and MAT 411 with grades of C or better.
 ### Catalog Description ###
 Topics in enumerative, algebraic, and geometric combinatorics, chosen at instructor's discretion; may include advanced counting techniques, graph theory, combinatorial designs, matroids, and error-correcting codes.
 
-## What is This Course All About? ##
+### What is This Course All About? ###
 This course will be an introduction to [enumerative combinatorics](https://en.wikipedia.org/wiki/Enumerative_combinatorics).
 
 <blockquote>
@@ -255,6 +255,29 @@ In summary, your final grade will be determined by your scores in the following 
 You are responsible for knowing and following the [Department of Mathematics and Statistics Policies]({{ site.baseurl }}/teaching/DepartmentPoliciesFall2024.pdf) (PDF) and other University policies listed [here](https://nau.edu/wp-content/uploads/sites/26/Syllabus-Policy-Statements_August_5_2024.pdf) (PDF).  More policies can be found in other university documents, especially the [NAU Student Handbook](https://in.nau.edu/dean-of-students/Student-Handbook/) (see appendices).
 
 As per Department Policy, cell phones, MP3 players and portable electronic communication devices, including but not limited to smart phones, cameras and recording devices, must be turned off and inaccessible during in-class tests. Any violation of this policy will be treated as academic dishonesty.
+
+### Career Readiness Skills ###
+In every class you take at NAU, you learn professional skills that can support your future career. There are several ways that this course can help you meet and excel at your job goals and life desires. Below is a list of in-demand skills from National Association of Colleges and Employers (NACE) you will practice in this class:
+
+1. **Communication:** Demonstrate the ability to articulate mathematical concepts clearly and
+concisely, whether through written explanations, oral presentations, or visual representations,
+ensuring comprehension by peers.
+2. **Critical Thinking:** Demonstrate the ability to solve mathematical problems by considering the
+context in which they arise, ensuring that solutions are relevant and applicable to real-world
+situations.
+3. **Professionalism:** Uphold academic integrity and accountability in mathematical assignments,
+demonstrating honesty and ethical behavior in the completion of individual and group tasks.
+4. **Teamwork:** Collaborate actively with classmates to achieve common mathematical goals,
+working collectively on assignments, projects, or problem-solving exercises to enhance the
+overall learning experience.
+
+Some Career Readiness resources:
+
+- LinkedIn: [CEFNS Career Development](https://www.linkedin.com/in/cefns-career-development-072715233); [NAU Career Development](https://www.linkedin.com/company/nau-career-development/)
+- [Handshake](https://nau.joinhandshake.com/login)
+- [Udemy](https://in.nau.edu/its/udemy/): Online courses and career searching advice. Log in with your NAU email account and
+search ‘NAU Career Steps’
+- [O*net Online](https://www.onetonline.org/): Occupation exploration reports
 
 ### Getting Help ###
 There are many resources available to get help.  First, you are allowed and encouraged to work together on homework.  However, each student is expected to turn in their own work. You are strongly encouraged to ask questions in our Discord discussion group, as I (and hopefully other members of the class) will post comments there for all to benefit from.  You are also encouraged to stop by during my office hours and you can always [email me](mailto:dana.ernst@nau.edu).  I am always happy to help you.  If my office hours don't work for you, then we can probably find another time to meet.  It is your responsibility to be aware of how well you understand the material.  Don't wait until it is too late if you need help.  *Ask questions*!
