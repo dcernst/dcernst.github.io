@@ -7,18 +7,18 @@ title: Course Materials
 <ol class="breadcrumb">
   <li><a href="/"><i class="fa fa-home"></i></a></li>
   <li><a href="/teaching/">Teaching</a></li>
-  <li><a href="/teaching/mat526f22">MAT526</a></li>
+  <li><a href="/teaching/mat526f24">MAT526</a></li>
   <li class="active">Materials</li>
 </ol>
 
 <div class="row">
 <div class="col-xs-12">
 <div class="btn-group btn-group-justified">
-<a class="btn btn-default btn-success" href="{{site.baseurl}}/teaching/mat526f22/syllabus/">Syllabus</a>
-<a class="btn btn-default btn-primary" href="{{site.baseurl}}/teaching/mat526f22/materials/">
+<a class="btn btn-default btn-success" href="{{site.baseurl}}/teaching/mat526f24/syllabus/">Syllabus</a>
+<a class="btn btn-default btn-primary" href="{{site.baseurl}}/teaching/mat526f24/materials/">
 <span class="hidden-xs">Course Materials</span><span class="visible-xs">Stuff</span>
 </a>
-<a class="btn btn-default btn-warning" href="{{site.baseurl}}/teaching/mat526f22/homework/">
+<a class="btn btn-default btn-warning" href="{{site.baseurl}}/teaching/mat526f24/homework/">
 <span class="hidden-xs">Homework</span><span class="visible-xs">HW</span>
 </a>
 </div>
@@ -36,9 +36,9 @@ There is no textbook for this course.  All course content will be covered via le
 ## Exams
 Below are links to the take-home portions of each exam. If you are interested in using LaTeX to type up your solutions, you can obtain the source file by replacing .pdf with .tex in the urls below.
 
-- [Exam 1 (Part 2)]({{site.baseurl}}/teaching/mat526f22/526Exam1-Part2.pdf) (PDF). (Due by 3:00PM on Friday, October 14)
-- [Exam 2 (Part 2)]({{site.baseurl}}/teaching/mat526f22/526Exam2-Part2.pdf) (PDF). (Due by class time on Wednesday, November 30)
-- [Final Exam]({{site.baseurl}}/teaching/mat526f22/526ExamFinal.pdf) (PDF). (Due by 5:00PM Thursday, December 15)
+- Exam 1 (Part 2) (TBA)
+- Exam 2 (Part 2) (TBA)
+- Final Exam (TBA)
 
 ## Miscellaneous Materials ##
 - [Setting the Stage]({{ site.baseurl }}/teaching/SettingTheStage.pdf) (PDF)

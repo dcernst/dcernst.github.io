@@ -7,18 +7,18 @@ title: Homework
 <ol class="breadcrumb">
   <li><a href="/"><i class="fa fa-home"></i></a></li>
   <li><a href="/teaching/">Teaching</a></li>
-  <li><a href="/teaching/mat526f22">MAT526</a></li>
+  <li><a href="/teaching/mat526f24">MAT526</a></li>
   <li class="active">{{ page.title }}</li>
 </ol>
 
 <div class="row">
 <div class="col-xs-12">
 <div class="btn-group btn-group-justified">
-<a class="btn btn-default btn-success" href="{{site.baseurl}}/teaching/mat526f22/syllabus/">Syllabus</a>
-<a class="btn btn-default btn-primary" href="{{site.baseurl}}/teaching/mat526f22/materials/">
+<a class="btn btn-default btn-success" href="{{site.baseurl}}/teaching/mat526f24/syllabus/">Syllabus</a>
+<a class="btn btn-default btn-primary" href="{{site.baseurl}}/teaching/mat526f24/materials/">
 <span class="hidden-xs">Course Materials</span><span class="visible-xs">Stuff</span>
 </a>
-<a class="btn btn-default btn-warning" href="{{site.baseurl}}/teaching/mat526f22/homework/">
+<a class="btn btn-default btn-warning" href="{{site.baseurl}}/teaching/mat526f24/homework/">
 <span class="hidden-xs">Homework</span><span class="visible-xs">HW</span>
 </a>
 </div>
@@ -26,20 +26,10 @@ title: Homework
 </div>
 
 ## Guidelines ##
-You are allowed and encouraged to work together on homework. Yet, each student is expected to turn in their own work. In general, late homework will not be accepted. However, you are allowed to turn in **up to two late homework assignments**. Reviewing material from previous courses and looking up definitions and theorems you may have forgotten is fair game. However, when it comes to completing assignments for this course, you should *not* look to resources outside the context of this course for help.  That is, you should not be consulting the web, other texts, other faculty, or students outside of our course in an attempt to find solutions to the problems you are assigned.  This includes Chegg and Course Hero. On the other hand, you may use each other, the textbook, me, and your own intuition. **If you feel you need additional resources, please come talk to me and we will come up with an appropriate plan of action.** Please read NAU's [Academic Integrity Policy](https://in.nau.edu/academic-affairs/academic-integrity/).
+Reviewing material from previous courses and looking up definitions and theorems you may have forgotten is fair game. Since mathematical reasoning, problem solving, and critical thinking skills are part of the learning outcomes of this course, all assignments should be prepared by the student. Developing strong competencies in this area will prepare you to be a lifelong learner and give you an edge in a competitive workplace. When it comes to completing assignments for this course, unless explicitly told otherwise, you should *not* look to resources outside the context of this course for help.  That is, you should not be consulting the web (e.g., Chegg and Course Hero), generative artificial intelligence tools (e.g., ChatGPT), mathematics assistive technologies (e.g., Wolfram Alpha and Photomath), other texts, other faculty, or students outside of our course in an attempt to find solutions to the problems you are assigned.  On the other hand, you may use each other, the textbook, me, and your own intuition. You are highly encouraged to seek out assistance by asking questions in our Q&A Discussion board in Canvas. You are allowed and encouraged to work together on homework. Yet, each student is expected to turn in their own work.  **If you feel you need additional resources or support, please come talk to me and we will come up with an appropriate plan of action.** In general, late homework will not be accepted. However, you are allowed to turn in **up to two late homework assignments**. Unless you have made arrangements in advance with me, homework turned in after class will be considered late.
 
 ## Assignments ##
 I reserve the right to modify an assignment if the need arises.  
 
-- **Homework 1:** Read the [syllabus]({{site.baseurl}}/teaching/mat526f22/syllabus/) and write down 5 items that you think are important. *Note:*  All of the exam dates only count as a single item.  (Due Wednesday, August 31)
-- **Homework 2:** Create a free [Discord](http://discord.com) account, accept the invite to our Discord server, and post something about yourself in the #introductions channel. (Due Wednesday, August 31)
-- **Homework 3:** Complete the problems found [here]({{site.baseurl}}/teaching/mat526f22/526HW3.pdf). (Due Wednesday, September 7)
-- **Homework 4:** Complete the problems found [here]({{site.baseurl}}/teaching/mat526f22/526HW4.pdf). (Due Wednesday, September 14)
-- **Homework 5:** Complete the problems found [here]({{site.baseurl}}/teaching/mat526f22/526HW5.pdf). (Due Wednesday, September 21)
-- **Homework 6:** Complete the problems found [here]({{site.baseurl}}/teaching/mat526f22/526HW6.pdf). (Due Wednesday, September 28)
-- **Homework 7:** Complete the problems found [here]({{site.baseurl}}/teaching/mat526f22/526HW7.pdf). (Due Wednesday, October 5)
-- **Homework 8:** Complete the problems found [here]({{site.baseurl}}/teaching/mat526f22/526HW8.pdf). (Due Wednesday, October 19)
-- **Homework 9:** Complete the problems found [here]({{site.baseurl}}/teaching/mat526f22/526HW9.pdf). (Due Wednesday, October 26)
-- **Homework 10:** Complete the problems found [here]({{site.baseurl}}/teaching/mat526f22/526HW10.pdf). (Due Friday, November 4)
-- **Homework 11:** Complete the problems found [here]({{site.baseurl}}/teaching/mat526f22/526HW11.pdf). (Due Wednesday, November 16)
-- **Homework 12:** Complete the problems found [here]({{site.baseurl}}/teaching/mat526f22/526HW12.pdf). This assignment is optional. If you choose to complete this assignment, your score on this assignment will replace your lowest score on a previous assignment, possibly one you did not complete.  (Due Wednesday, December 7)
+- **Homework 1:** Read the [syllabus]({{site.baseurl}}/teaching/mat526f24/syllabus/) and write down 5 items that you think are important. *Note:*  All of the exam dates only count as a single item.  In addition, create a free [Discord](http://discord.com) account, accept the invite to our Discord server, and post something about yourself in the #introductions channel. (Due Wednesday, August 28)
+- **Homework 2:** Complete the problems found [here]({{site.baseurl}}/teaching/mat526f24/526HW2.pdf). (Due Wednesday, September 4)

@@ -7,18 +7,18 @@ layout: default
 <ol class="breadcrumb">
   <li><a href="/"><i class="fa fa-home"></i></a></li>
   <li><a href="/teaching/">Teaching</a></li>
-  <li><a href="/teaching/mat526f22">MAT526</a></li>
+  <li><a href="/teaching/mat526f24">MAT526</a></li>
   <li class="active">{{ page.title }}</li>
 </ol>
 
 <div class="row">
 <div class="col-xs-12">
 <div class="btn-group btn-group-justified">
-<a class="btn btn-default btn-success" href="{{site.baseurl}}/teaching/mat526f22/syllabus/">Syllabus</a>
-<a class="btn btn-default btn-primary" href="{{site.baseurl}}/teaching/mat526f22/materials/">
+<a class="btn btn-default btn-success" href="{{site.baseurl}}/teaching/mat526f24/syllabus/">Syllabus</a>
+<a class="btn btn-default btn-primary" href="{{site.baseurl}}/teaching/mat526f24/materials/">
 <span class="hidden-xs">Course Materials</span><span class="visible-xs">Stuff</span>
 </a>
-<a class="btn btn-default btn-warning" href="{{site.baseurl}}/teaching/mat526f22/homework/">
+<a class="btn btn-default btn-warning" href="{{site.baseurl}}/teaching/mat526f24/homework/">
 <span class="hidden-xs">Homework</span><span class="visible-xs">HW</span>
 </a>
 </div>
@@ -27,19 +27,19 @@ layout: default
 
 <br />
 
-<!-- <div class="alert alert-info" role="alert">
+<div class="alert alert-info" role="alert">
 <i class="far fa-hand-peace"></i>&nbsp; This page is under construction!
-</div> -->
+</div>
 
 <div class="row">
   <div class="col-xs-12 col-sm-6">
     <div>
     <h2>Course Info</h2>
     <strong>Title:</strong> MAT 526: Topics in Combinatorics<br />
-    <strong>Semester:</strong> Fall 2022<br />
+    <strong>Semester:</strong> Fall 2024<br />
     <strong>Credits:</strong> 3<br />
     <strong>Section:</strong> 1<br />
-    <strong>Time:</strong> 10:20-11:10AM MWF<br />
+    <strong>Time:</strong> 9:10-10:00AM MWF<br />
     <strong>Location:</strong> AMB 207
     </div>
   </div>
@@ -49,7 +49,7 @@ layout: default
       <h2>Instructor Info</h2>
       <i class="fa fa-user fa-fw"></i>&nbsp; Dana C. Ernst, PhD<br />
       <i class="fa fa-university fa-fw"></i>&nbsp; AMB 176<br />
-      <i class="fa fa-users fa-fw"></i>&nbsp; 11:15-12:15PM MWF, 10:15-12:15 Th<br />
+      <i class="fa fa-users fa-fw"></i>&nbsp; TBD<br />
       <i class="far fa-envelope fa-fw"></i>&nbsp; <a href="mailto:dana.ernst@nau.edu">dana.ernst@nau.edu</a><br />
       <i class="fa fa-phone fa-fw"></i>&nbsp; 928.523.6852<br />
       <i class="fa fa-link fa-fw"></i>&nbsp; <a href="{{site.baseurl}}">danaernst.com</a>
@@ -63,59 +63,20 @@ MAT 226, MAT 316, and MAT 411 with grades of C or better.
 ### Catalog Description ###
 Topics in enumerative, algebraic, and geometric combinatorics, chosen at instructor's discretion; may include advanced counting techniques, graph theory, combinatorial designs, matroids, and error-correcting codes.
 
-### Course Materials ###
-There is no textbook for this course.  All course content will be covered via lectures and homework.
-
-<blockquote>
-  <p>Don’t just read it; fight it! Ask your own questions, look for your own examples, discover your own proofs. Is the hypothesis necessary? Is the converse true? What happens in the classical special case? What about the degenerate cases? Where does the proof use the hypothesis?</p>
-  <footer><a href="http://en.wikipedia.org/wiki/Paul_Halmos">Paul Halmos</a></footer>
-</blockquote>
-
-### Outline of Course ###
-This course focuses on [enumerative combinatorics](https://en.wikipedia.org/wiki/Enumerative_combinatorics) with an introduction to [generating function](https://en.wikipedia.org/wiki/Generating_function) techniques. Here are the proposed topics:
-
-- Eulerian numbers
-  - Binomial coefficients
-  - Generating functions
-  - Classical Eulerian numbers
-  - Eulerian polynomials
-  - Two important identities
-  - Exponential generating function
-- Narayana numbers
-  - Catalan numbers
-  - Pattern-avoiding permutations
-  - Narayana numbers
-  - Dyck paths
-  - Planar binary trees
-  - Noncrossing partitions
-- Partially ordered sets
-  - Basic definitions and terminology
-  - Labeled posets and P-partitions
-  - The shard intersection order
-  - The lattice of noncrossing partitions
-  - Absolute order and Noncrossing partitions
-- Weak order, hyperplane arrangements, and the Tamari lattice
-  - Inversions
-  - The weak order
-  - The braid arrangement
-  - Euclidean hyperplane arrangements
-  - Products of faces and the weak order on chambers
-  - Set compositions
-  - The Tamari lattice
-  - Rooted planar trees and faces of the associahedron
-- Refined enumeration
-  - The idea of a $q$-analogue
-  - Lattice paths by area
-  - Lattice paths by major index
-  - Euler-Mahonian distributions
-  - Descents and major index
-  - $q$-Catalan numbers
-  - $q$-Narayana numbers
-  - Dyck paths by area
+## What is This Course All About? ##
+This course will be an introduction to [enumerative combinatorics](https://en.wikipedia.org/wiki/Enumerative_combinatorics).
 
 <blockquote>
 <p>An ounce of practice is worth more than tons of preaching.</p>
 <footer><a href="https://en.wikipedia.org/wiki/Mahatma_Gandhi">Mahatma Gandhi</a></footer>
+</blockquote>
+
+### Course Materials ###
+There is no textbook for this course.  All course content will be covered via lectures and homework. You should be seeking clarification about the content whenever necessary by asking questions.  Here's one of my favorite quotes about reading mathematics.
+
+<blockquote>
+  <p>Don’t just read it; fight it! Ask your own questions, look for your own examples, discover your own proofs. Is the hypothesis necessary? Is the converse true? What happens in the classical special case? What about the degenerate cases? Where does the proof use the hypothesis?</p>
+  <footer><a href="http://en.wikipedia.org/wiki/Paul_Halmos">Paul Halmos</a></footer>
 </blockquote>
 
 ### Rights of the Learner ##
@@ -142,19 +103,50 @@ Students are also expected to minimize distracting behaviors.  In particular, ev
 </blockquote>
 
 ### Rules of the Game ###
-Reviewing material from previous courses and looking up definitions and theorems you may have forgotten is fair game. However, when it comes to completing assignments for this course, you should *not* look to resources outside the context of this course for help.  That is, you should not be consulting the web, other texts, other faculty, or students outside of our course in an attempt to find solutions to the problems you are assigned.  This includes Chegg and Course Hero. On the other hand, you may use each other, the textbook, me, and your own intuition. **If you feel you need additional resources, please come talk to me and we will come up with an appropriate plan of action.** Please read NAU's [Academic Integrity Policy](https://in.nau.edu/academic-affairs/academic-integrity/).
+Reviewing material from previous courses and looking up definitions and theorems you may have forgotten is fair game. Since mathematical reasoning, problem solving, and critical thinking skills are part of the learning outcomes of this course, all assignments should be prepared by the student. Developing strong competencies in this area will prepare you to be a lifelong learner and give you an edge in a competitive workplace. When it comes to completing assignments for this course, unless explicitly told otherwise, you should *not* look to resources outside the context of this course for help.  That is, you should not be consulting the web (e.g., Chegg and Course Hero), generative artificial intelligence tools (e.g., ChatGPT), mathematics assistive technologies (e.g., Wolfram Alpha and Photomath), other texts, other faculty, or students outside of our course in an attempt to find solutions to the problems you are assigned.  On the other hand, you may use each other, the textbook, me, and your own intuition. You are allowed and encouraged to work together on homework. Yet, each student is expected to turn in their own work.  
+
+In this course, we may use generative AI tools (such as ChatGPT) or AI mathematics assistive technologies (such as Wolfram Alpha) to examine the ways in which these kinds of tools may inform our exploration of mathematics content. You will be informed as to when and how these tools will be used, along with guidance for attribution if/as needed. Any use of generative AI tools outside of these parameters constitutes plagiarism and a violation of the University’s Academic Integrity Policy.  Please read NAU's [Academic Integrity Policy](https://in.nau.edu/academic-affairs/academic-integrity/).
+
+The ultimate goal is for each individual student to learn and to be successful. So, if you feel you need additional resources or support, please come talk to me and we will come up with an appropriate plan of action.
+
+The following are examples (not an exhaustive list) of behaviors that could constitute cheating and/or plagiarism. You should *not* be doing these things.
+
+- Copying solutions or portions of solutions from another person
+- Submitting solutions (in part or whole) by multiple students that identically match, especially in peculiar details
+- Having another person complete your homework problems for you
+- Using any applications or websites (e.g., Course Hero, Chegg, ChatGPT, WolframAlpha, PhotoMath) to complete problems or portions of problems (even if only used on one step that you are stuck on)
+- Anything that takes solutions or portions of solutions and attempts to pass them off as your own ideas and work
+
+The following are examples (not an exhaustive list) of behaviors that do not constitute cheating and/or plagiarism. You should be doing these things. 
+
+- Having a conversation with a classmate about a homework problem to compare methods and discuss strategy
+- Collaborating with a classmate on a homework problem (not copying)
+- Asking questions about a homework problem on our course forum
+- Responding to questions on our course forum in the form of feedback or guidance
+- Asking the instructor for assistance or a hint
 
 <blockquote>
 <p>You will become clever through your mistakes.</p>
 <footer><a href=" ">German Proverb</a></footer>
 </blockquote>
-
 ### Homework ###
-You are allowed and encouraged to work together on homework.  However, each student is expected to turn in their own work.  In general, late homework will *not* be accepted.  However, you are allowed to turn in up to **two late homework assignments** with no questions asked. Unless you have made arrangements in advance with me, homework turned in after class will be considered late. When doing your homework, I encourage you to consult the [Elements of Style for Proofs]({{site.baseurl}}/teaching/ElementsOfStyle.pdf). On each homework assignment, please write (i) your name, (ii) name of course, and (iii) Homework number.  You can find the list of assignments on the [homework page]({{site.baseurl}}/teaching/mat526f22/homework/).  I reserve the right to modify the homework assignments as I see necessary.
+You are allowed and encouraged to work together on homework.  However, each student is expected to turn in their own work.  In general, late homework will *not* be accepted.  However, you are allowed to turn in up to **two late homework assignments** with no questions asked. Unless you have made arrangements in advance with me, homework turned in after class will be considered late. You can find the list of assignments on the [homework page]({{site.baseurl}}/teaching/mat526s24/homework/).  I reserve the right to modify the homework assignments as I see necessary.
 
-<!-- Generally, the written homework assignments will be due on Mondays, but I will always tell you when a given homework assignment is due--so there should never be any confusion.  -->
+**Important!** Homework will consist of a mixture of the following: 
 
-Your homework will always be graded for completion and some subset of the problems will be graded for correctness. Problems that are graded for completeness will be worth 1 point.  Problems that are graded for correctness will either be worth 2 points or 4 points depending on the level of difficulty.  Generally, computational problems will be worth 2 points while problems requiring a formal proof will be worth 4 points.  Each 4-point problem is subject to the following rubric:
+  - Problems that are modifications of examples we have discussed in class.
+  - Problems that extend concepts introduced in class.
+  - Problems that introduce new concepts not yet discussed in class.
+  - Problems that synthesize multiple concepts that we either introduced in class or in a previous homework problem.
+
+Some homework problems will be straightforward while others are intended to be challenging.  You should anticipate not knowing what to do on some of the problems at first glance.  You may have several false starts.  Some frustration, maybe even a lot of frustration, should be expected.  This is part of the natural learning process.  On the other hand, it is not my intention to leave you to fend for yourselves.  I am here to help and I want to help. You are encouraged to seek assistance from your classmates (while adhering to the **Rules of the Game**) and from me.  Please visit office hours and ask questions on our Q&A Discussion board. I am always willing to give hints/nudges, so please ask. 
+
+<blockquote>
+<p>If you want to sharpen a sword, you have to remove a little metal.</p>
+<footer><a href=" ">Unknown</a></footer>
+</blockquote>
+
+Your homework will always be graded for completion and some subset of the problems will be graded for correctness. Problems that are graded for completeness will be worth 1 point.  Problems that are graded for correctness will either be worth 2 points or 4 points depending on the level of difficulty.  Generally, quick computational problems will be worth 2 points while more substantial problems will be worth 4 points.  Each 4-point problem is subject to the following rubric:
 
 <center>
 <table class="table table-striped">
@@ -189,7 +181,7 @@ Your homework will always be graded for completion and some subset of the proble
 </table>
 </center>
 
-To compute your score on a given homework assignment, I will divide your total points by the total possible points to obtain a percent score. Each homework assignment has the same weight.  Your overall homework grade will be worth 40% of your final grade.
+To compute your score on a given homework assignment, I will divide your total points by the total possible points to obtain a percent score. Each homework assignment has the same weight.  Your overall homework grade will be worth 50% of your final grade.
 
 <blockquote>
 <p>I write one page of masterpiece to ninety-one pages of shit.</p>
@@ -197,7 +189,7 @@ To compute your score on a given homework assignment, I will divide your total p
 </blockquote>
 
 ### Exams ###
- There will be two midterm exams and a cumulative final exam.  Each of the exams is worth 20% of your overall grade and will consist of an in-class portion and possibly a take-home portion.  The in-class portions of Exam 1 and Exam 2 are *tentatively* scheduled for ~~Wednesday, October 5~~ **Friday, October 7** (week 6) and ~~Wednesday, November 16~~ **Friday, November 18** (week 12), respectively.  The final exam will be on **Monday, December 12** at 10:00AM-12:00PM. Make-up exams will only be given under extreme circumstances, as judged by me. In general, it will be best to communicate conflicts ahead of time.
+There will be one Midterm Exam and a cumulative Final Exam.  Each exam will likely consist of both an in-class portion and a take-home portion. The in-class portion of the midterm exam is *tentatively* scheduled for **Monday, October 14** (week 8). The in-class portion of the final exam will be on **Wednesday, December 11** at 7:30-9:30AM. The Midterm Exam and the Final Exam will each be worth 25% of your final course grade. Make-up exams will only be given under extreme circumstances, as judged by me. In general, it will be best to communicate conflicts ahead of time.
 
 <blockquote>
 <p>The impediment to action advances action. What stands in the way becomes the way.</p>
@@ -220,7 +212,7 @@ Only I will remain.</p>
 </blockquote>
 
 ### Extra Credit ###
-The only thing I will award extra credit for is finding typos on course materials (e.g., textbook, exams, syllabus, webpage).  This includes broken links on the webpage.  However, it does not include the placement of commas and such.  If you find a typo, I will add one percentage point to your next exam.  You can earn at most two percentage points per exam and at most five percentage points over the course of the semester. They're is a typo right here.
+The only thing I will award extra credit for is finding typos on course materials (e.g., textbook, exams, syllabus, webpage).  This includes broken links on the webpage.  However, it does not include the placement of commas and such.  If you find a typo, I will add one percentage point to your next exam.  You can earn at most five percentage points per exam. They're is a typo right here.
 
 ### Basis for Evaluation ###
 In summary, your final grade will be determined by your scores in the following categories.
@@ -237,25 +229,20 @@ In summary, your final grade will be determined by your scores in the following 
 	<tbody>
 	<tr>
 		<td>Homework</td>
-		<td style="text-align: center;">40%</td>
+		<td style="text-align: center;">50%</td>
 		<td>See above for requirements</td>
 	</tr>
 	<tr>
-		<td>Exam 1</td>
-		<td style="text-align: center;">20%</td>
-		<td>In-class portion on October 7, possible take-home portion</td>
+		<td>Midterm Exam</td>
+		<td style="text-align: center;">25%</td>
+		<td>Monday, October 14</td>
 	</tr>
   <tr>
-    <td>Exam 2</td>
-    <td style="text-align: center;">20%</td>
-    <td>In-class portion on November 18, possible take-home portion</td>
-  </tr>
-	<tr>
-		<td>Final Exam</td>
-		<td style="text-align: center;">20%</td>
-		<td>In-class portion on December 12, possible take-home portion</td>
-	</tr>
-	</tbody>
+	<td>Final Exam</td>
+	<td style="text-align: center;">25%</td>
+	<td>December 11, 7:30-9:30AM</td>
+</tr>
+</tbody>
 </table>
 </center>
 
@@ -265,20 +252,9 @@ In summary, your final grade will be determined by your scores in the following 
 </blockquote>
 
 ### Department and University Policies ###
-You are responsible for knowing and following the [Department of Mathematics and Statistics Policies]({{ site.baseurl }}/teaching/DepartmentPoliciesFall2022.pdf) (PDF) and other University policies listed [here](https://nau.edu/wp-content/uploads/sites/26/Syllabus-Policy-Statements-Final-Aug-4-2022.pdf) (PDF).  More policies can be found in other university documents, especially the [NAU Student Handbook](https://in.nau.edu/dean-of-students/Student-Handbook/) (see appendices).
+You are responsible for knowing and following the [Department of Mathematics and Statistics Policies]({{ site.baseurl }}/teaching/DepartmentPoliciesFall2024.pdf) (PDF) and other University policies listed [here](https://nau.edu/wp-content/uploads/sites/26/Syllabus-Policy-Statements_August_5_2024.pdf) (PDF).  More policies can be found in other university documents, especially the [NAU Student Handbook](https://in.nau.edu/dean-of-students/Student-Handbook/) (see appendices).
 
 As per Department Policy, cell phones, MP3 players and portable electronic communication devices, including but not limited to smart phones, cameras and recording devices, must be turned off and inaccessible during in-class tests. Any violation of this policy will be treated as academic dishonesty.
-
-### Important Dates ###
-Here are some important dates:
-
-- **September 5:** Labor Day (no classes)
-- **September 8:** Last day to drop a course (without a "W")
-- **September 10:** Department Picnic
-- **October 28:** Last day to withdraw from a course (with a "W")
-- **November 11:** Veteran's Day (no classes)
-- **November 24-25:** Thanksgiving Holiday (no classes)
-- **December 12:** Final Exam (10:00AM-12:00PM)
 
 ### Getting Help ###
 There are many resources available to get help.  First, you are allowed and encouraged to work together on homework.  However, each student is expected to turn in their own work. You are strongly encouraged to ask questions in our Discord discussion group, as I (and hopefully other members of the class) will post comments there for all to benefit from.  You are also encouraged to stop by during my office hours and you can always [email me](mailto:dana.ernst@nau.edu).  I am always happy to help you.  If my office hours don't work for you, then we can probably find another time to meet.  It is your responsibility to be aware of how well you understand the material.  Don't wait until it is too late if you need help.  *Ask questions*!
