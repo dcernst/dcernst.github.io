@@ -31,7 +31,7 @@ You can find a recent version of my curriculum vitae [here]({{site.baseurl}}/sch
 <!-- * J. Breland, Q. Cadman, D.C. Ernst, J. Niemi, J. Sullivan, and J. Wright. Structure of braid graphs for reduced words in simply-laced Coxeter systems. * F. Burkhart, H. Denoncourt, D.C. Ernst, and A. Stewart. Enumerating signed permutations by reversal distance.-->
 
 ## Submitted
-  * J. Barnes, J. Breland, D.C. Ernst, R. Perry. Braid graphs in simply-laced triangle-free Coxeter systems are median. [[arXiv:???](https://arxiv.org/abs/???)]
+  * J. Barnes, J. Breland, D.C. Ernst, R. Perry. Braid graphs in simply-laced triangle-free Coxeter systems are median. [[arXiv:2408.16839](https://arxiv.org/abs/2408.16839)]
   * G. Cerbai, A. Claesson, D.C. Ernst, and H. Golab. Pattern-avoiding Cayley permutations via combinatorial species. [[arXiv:2407.19583](https://arxiv.org/abs/2407.19583)]
   * B. Ba&#353;i&#263;, P. Ellis, D.C. Ernst, D. Popovi&#263;, N. Sieben. Categories of impartial rulegraphs and gamegraphs. [[arXiv:2312.00650](https://arxiv.org/abs/2312.00650)]
   * B.J. Benesh, D.C. Ernst, M. Meyer, S.K. Salmon, and N. Sieben. Impartial geodetic building games on graphs. [[arXiv:2307.07095](https://arxiv.org/abs/2307.07095)]
