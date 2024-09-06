@@ -33,17 +33,4 @@ I reserve the right to modify an assignment if the need arises.
 
 - **Homework 1:** Read the [syllabus]({{site.baseurl}}/teaching/mat226f24/syllabus/) and write down 5 items that you think are important. *Note:*  All of the exam dates only count as a single item.  In addition, create a free [Discord](http://discord.com) account, accept the invite to our Discord server, and post something about yourself in the #introductions channel. (Due Wednesdayday, August 28)
 - **Homework 2:** Complete the problems found [here]({{site.baseurl}}/teaching/mat226f24/226HW2.pdf). (Due Friday, September 6)
-
-<!-- - **Homework 2:** Complete the problems found [here]({{site.baseurl}}/teaching/mat226f24/226HW2.pdf). (Due Wednesday, January 31)
-- **Homework 3:** Complete the problems found [here]({{site.baseurl}}/teaching/mat226f24/226HW3.pdf). (Due Friday, February 9)
-- **Homework 4:** Complete the problems found [here]({{site.baseurl}}/teaching/mat226f24/226HW4.pdf). (Due Wednesday, February 14)
-- **Homework 5:** Complete the problems found [here]({{site.baseurl}}/teaching/mat226f24/226HW5.pdf). (Due Wednesday, February 21)
-- **Homework 6:** Complete the problems found [here]({{site.baseurl}}/teaching/mat226f24/226HW6.pdf). (Due Wednesday, February 28)
-- **Homework 7:** Complete the problems found [here]({{site.baseurl}}/teaching/mat226f24/226HW7.pdf). (Due Wednesday, March 6)
-- **Homework 8:** Complete the problems found [here]({{site.baseurl}}/teaching/mat226f24/226HW8.pdf). (Due Friday, March 22)
-- **Homework 9:** Complete the problems found [here]({{site.baseurl}}/teaching/mat226f24/226HW9.pdf). (Due Friday, March 29)
-- **Homework 10:** Complete the problems found [here]({{site.baseurl}}/teaching/mat226f24/226HW10.pdf). (Due Friday, April 5)
-- **Homework 11:** Complete the problems found [here]({{site.baseurl}}/teaching/mat226f24/226HW11.pdf). (Due Wednesday, April 10)
-- **Homework X:** This assignment is optional. Complete the problems found [here]({{site.baseurl}}/teaching/mat226f24/226HWX.pdf). (Due Wednesday, April 17)
-- **Homework 12:** Complete the problems found [here]({{site.baseurl}}/teaching/mat226f24/226HW12.pdf). (Due Friday, April 26)
-- **Homework 13:** Complete the problems found [here]({{site.baseurl}}/teaching/mat226f24/226HW13.pdf). (Due Friday, May 3) -->
+- **Homework 3:** Complete the problems found [here]({{site.baseurl}}/teaching/mat226f24/226HW3.pdf). (Due Friday, September 11)
