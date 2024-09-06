@@ -33,4 +33,4 @@ I reserve the right to modify an assignment if the need arises.
 
 - **Homework 1:** Read the [syllabus]({{site.baseurl}}/teaching/mat226f24/syllabus/) and write down 5 items that you think are important. *Note:*  All of the exam dates only count as a single item.  In addition, create a free [Discord](http://discord.com) account, accept the invite to our Discord server, and post something about yourself in the #introductions channel. (Due Wednesdayday, August 28)
 - **Homework 2:** Complete the problems found [here]({{site.baseurl}}/teaching/mat226f24/226HW2.pdf). (Due Friday, September 6)
-- **Homework 3:** Complete the problems found [here]({{site.baseurl}}/teaching/mat226f24/226HW3.pdf). (Due Friday, September 11)
+- **Homework 3:** Complete the problems found [here]({{site.baseurl}}/teaching/mat226f24/226HW3.pdf). (Due Wednesday, September 11)
