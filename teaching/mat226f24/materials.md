@@ -32,7 +32,7 @@ Our textbook for the semester is <i>Introduction to Discrete Mathematics</i>.  E
 - [Title Page and Front Matter](https://danaernst.com/teaching/mat226f24/FrontMatter.pdf)
 - [Chapter 1: Sets and Counting Principles](https://danaernst.com/teaching/mat226f24/1SetsCountingPrinciples.pdf)
 - [Chapter 2: Functions](https://danaernst.com/teaching/mat226f24/2Functions.pdf)
-- Chapter 3: Permutations
+- [Chapter 3: Permutations](https://danaernst.com/teaching/mat226f24/3Permutations.pdf)
 - Chapter 4: Combinations
 - Chapter 5: The Binomial Theorem
 - Chapter 6: Pigeonhole Principle
@@ -41,16 +41,6 @@ Our textbook for the semester is <i>Introduction to Discrete Mathematics</i>.  E
 - Chapter 9: Sequences and Recurrence Relations
 - Chapter 10: Introduction to Graph Theory
 - Chapter 11: Additional Graph Theory
-
-<!-- - [Chapter 3: Permutations](https://danaernst.com/teaching/mat226f24/3Permutations.pdf)
-- [Chapter 4: Combinations](https://danaernst.com/teaching/mat226f24/4Combinations.pdf)
-- [Chapter 5: The Binomial Theorem](https://danaernst.com/teaching/mat226f24/5BinomialTheorem.pdf)
-- [Chapter 6: Pigeonhole Principle](https://danaernst.com/teaching/mat226f24/6PigeonholePrinciple.pdf)
-- [Chapter 7: Principle of Inclusion and Exclusion](https://danaernst.com/teaching/mat226f24/7PrincipleInclusionExclusion.pdf)
-- [Chapter 8: Mathematical Induction](https://danaernst.com/teaching/mat226f24/8Induction.pdf)
-- [Chapter 9: Sequences and Recurrence Relations](https://danaernst.com/teaching/mat226f24/9RecurrenceRelations.pdf)
-- [Chapter 10: Introduction to Graph Theory](https://danaernst.com/teaching/mat226f24/10IntroGraphTheory.pdf)
-- [Chapter 11: Additional Graph Theory](https://danaernst.com/teaching/mat226f24/11AdditionalGraphTheory.pdf) -->
 
 I will not be covering every detail of the textbook and the only way to achieve a sufficient understanding of the material is to be digesting the reading in a meaningful way.  You should be seeking clarification about the content whenever necessary by asking questions.  Here's one of my favorite quotes about reading mathematics.
 
