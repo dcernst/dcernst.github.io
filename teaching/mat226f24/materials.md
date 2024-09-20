@@ -33,7 +33,7 @@ Our textbook for the semester is <i>Introduction to Discrete Mathematics</i>.  E
 - [Chapter 1: Sets and Counting Principles](https://danaernst.com/teaching/mat226f24/1SetsCountingPrinciples.pdf)
 - [Chapter 2: Functions](https://danaernst.com/teaching/mat226f24/2Functions.pdf)
 - [Chapter 3: Permutations](https://danaernst.com/teaching/mat226f24/3Permutations.pdf)
-- Chapter 4: Combinations
+- [Chapter 4: Combinations](https://danaernst.com/teaching/mat226f24/4Combinations.pdf)
 - Chapter 5: The Binomial Theorem
 - Chapter 6: Pigeonhole Principle
 - Chapter 7: Principle of Inclusion and Exclusion
