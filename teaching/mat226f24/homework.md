@@ -37,3 +37,4 @@ I reserve the right to modify an assignment if the need arises.
 - **Homework 4:** Complete the problems found [here]({{site.baseurl}}/teaching/mat226f24/226HW4.pdf). (Due Wednesday, September 18)
 - **Homework 5:** Complete the problems found [here]({{site.baseurl}}/teaching/mat226f24/226HW5.pdf). (Due Wednesday, September 25)
 - **Homework 6:** Complete the problems found [here]({{site.baseurl}}/teaching/mat226f24/226HW6.pdf). (Due Wednesday, October 2)
+- **Homework 7:** Complete the problems found [here]({{site.baseurl}}/teaching/mat226f24/226HW7.pdf). (Due Wednesday, October 16)
