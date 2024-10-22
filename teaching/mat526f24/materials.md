@@ -36,9 +36,8 @@ There is no textbook for this course.  All course content will be covered via le
 ## Exams
 Below are links to the take-home portions of each exam. If you are interested in using LaTeX to type up your solutions, you can obtain the source file by replacing .pdf with .tex in the urls below.
 
-- [Exam 1 (Part 2)](http://danaernst.com/teaching/mat526f24/526Exam1-Part2.pdf). (Due by the beginning of class on Monday, October 21)
-- Exam 2 (Part 2) (TBA)
-- Final Exam (TBA)
+- [Midterm Exam (Part 2)](http://danaernst.com/teaching/mat526f24/526Exam1-Part2.pdf). (Due by the beginning of class on Monday, October 21)
+- Final Exam (Part 2) (Coming soon)
 
 ## Miscellaneous Materials ##
 - [Setting the Stage]({{ site.baseurl }}/teaching/SettingTheStage.pdf) (PDF)
