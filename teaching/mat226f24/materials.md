@@ -37,7 +37,7 @@ Our textbook for the semester is <i>Introduction to Discrete Mathematics</i>.  E
 - [Chapter 5: The Binomial Theorem](https://danaernst.com/teaching/mat226f24/5BinomialTheorem.pdf)
 - [Chapter 6: Pigeonhole Principle](https://danaernst.com/teaching/mat226f24/6PigeonholePrinciple.pdf)
 - [Chapter 7: Principle of Inclusion and Exclusion](https://danaernst.com/teaching/mat226f24/7PrincipleInclusionExclusion.pdf)
-- Chapter 8: Mathematical Induction
+- [Chapter 8: Mathematical Induction](https://danaernst.com/teaching/mat226f24/8Induction.pdf)
 - Chapter 9: Sequences and Recurrence Relations
 - Chapter 10: Introduction to Graph Theory
 - Chapter 11: Additional Graph Theory
