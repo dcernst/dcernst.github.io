@@ -20,12 +20,12 @@ This book is unique. The book has been an open-source project since day one.  Th
 
 The first draft of the book was written in 2009. At that time, several of the sections were adaptations of course materials written by [Matthew Jones](https://www.linkedin.com/in/matt-jones-a704aab/) (CSU Dominguez Hills) and [Stan Yoshinobu](https://www.math.toronto.edu/cms/people/faculty/yoshinobu-stan/) (University of Toronto). The current version of the book is the result of many iterations that involved the addition of new material, retooling of existing sections, and feedback from instructors that have used the book. The current version of the book is a far cry from what it looked like in 2009.
 
-- [PDF of textbook compiled from the current source]({{ site.baseurl }}/IBL-IntroToProof/IntroToProof.pdf) (Updated July 29, 2024)
-- [PreTeXt/HMTL version of textbook compiled from the current source]({{ site.baseurl }}/IBL-IntroToProof/pretext/index.html) (*Draft!* Updated July 29, 2024)
+- [PDF of textbook compiled from the current source]({{ site.baseurl }}/IBL-IntroToProof/IntroToProof.pdf) (Updated Updated October 31, 2024)
+- [PreTeXt/HMTL version of textbook compiled from the current source]({{ site.baseurl }}/IBL-IntroToProof/pretext/index.html) (*Draft!* Updated October 31, 2024)
 - [Low cost print version available via AMS/MAA Press](https://bookstore.ams.org/text-73/)
 - [PDF of textbook that matches the current print version by MAA Press]({{ site.baseurl }}/IBL-IntroToProof/IBLIntroToProof-MAAPressSpring2022.pdf)
 - [Instructor Manual]({{ site.baseurl }}/IBL-IntroToProof/InstructorGuide.pdf)
-- [Errata]({{ site.baseurl }}/IBL-IntroToProof/Errata.pdf) (Updated July 29, 2024)
+- [Errata]({{ site.baseurl }}/IBL-IntroToProof/Errata.pdf) (Updated Updated October 31, 2024)
 - [Source code available via GitHub](https://github.com/dcernst/IBL-IntroToProof)
 - [Book review in MAA Focus](http://digitaleditions.walsworthprintgroup.com/publication/?i=754974&p=42&view=issueViewer)
 - [Link to book at American Institute of Mathematics (AIM) Open Textbook Initiative](https://textbooks.aimath.org/textbooks/approved-textbooks/ernst/)
