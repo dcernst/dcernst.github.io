@@ -42,4 +42,5 @@ I reserve the right to modify an assignment if the need arises.
 - **Homework 9:** Complete the problems found [here]({{site.baseurl}}/teaching/mat526f24/526HW9.pdf). (Due Wednesday, November 6)
 - **Homework 10:** Complete the problems found [here]({{site.baseurl}}/teaching/mat526f24/526HW10.pdf). (Due Wednesday, November 13)
 - **Homework 11:** Complete the problems found [here]({{site.baseurl}}/teaching/mat526f24/526HW11.pdf). I had originally posted an old assignment from Fall 2022 by accident. You can find that one [here]({{site.baseurl}}/teaching/mat526f24/526HW11-oops.pdf). *Note:* The two versions share 3 common problems. If you had not already started the original version, please work on the current version.  Otherwise, chat with me and we will sort it out. The problems on the incorrect orignal version that do not appear on the correct version will appear on the next assignment, so if you already put time into them, you haven't wasted any time. Sorry! (Due Friday, November 22)
+- **Homework 12:** Complete the problems found [here]({{site.baseurl}}/teaching/mat526f24/526HW12.pdf). (Due Wednesday, December 4)
 
