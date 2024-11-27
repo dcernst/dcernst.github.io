@@ -15,6 +15,7 @@ Below is list of talks and presentations that I have given over the past several
 
 <!-- In particular, you can find the collection of my recent slides on [Speaker Deck](https://speakerdeck.com/dcernst). -->
 
+- Pattern-avoiding Cayley permutations via combinatorial species. [University of Arizona Mathematical Physics & Probability Seminar](https://www.math.arizona.edu/events/dana-c-ernst-nau-pattern-avoiding-cayley-permutations-combinatorial-species), UofA, Tucson, AZ. November 2024. [[Slides](http://dcernst.github.io/talks/CayleyPermutationsUofAFall2024.pdf)]
 - Pattern-avoiding Cayley permutations via combinatorial species. [NAU Mathematics and Statistics Colloquium](http://naumathstat.github.io/seminars/colloquium), NAU, Flagstaff, AZ. November 2024. [[Slides](http://dcernst.github.io/talks/CayleyPermutationsNAUFall2024.pdf)]
 - Braid graphs in simply-laced triangle-free Coxeter systems are median. [CU Lie Theory Seminar](https://math.colorado.edu/seminars/). CU Boulder, Boulder, CO. March 2024. [[Slides](http://dcernst.github.io/talks/BraidGraphsMedian.pdf)]
 - An introduction to species (3 talks). [NAU Mathematics Seminar](http://naumathstat.github.io/seminars/mathseminar/). NAU, Flagstaff, AZ. November 2023.
