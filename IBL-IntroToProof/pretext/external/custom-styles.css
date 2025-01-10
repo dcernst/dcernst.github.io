@@ -1,0 +1,31 @@
+.ptx-content article.theorem-like .para, .ptx-content article.theorem-like li {
+    font-style: normal;
+}
+
+.ptx-content .emphasis {
+    font-weight: normal !important;
+}
+
+.ptx-content em.alert {
+    font-weight: bold;
+    font-style: normal;
+}
+
+/*change qed symbol:*/
+.proof::after {
+    content: "□";
+    font-size: 30px;
+    margin-top: -1em!important;
+    float: right;
+}
+
+/* ol {
+  counter-reset: list;
+} */
+/* ol > li {
+  list-style: none;
+} */
+/* ol > li:before {
+  content: "(" counter(list, lower-alpha) ") ";
+  counter-increment: list;
+} */
