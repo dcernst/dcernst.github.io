@@ -229,17 +229,19 @@ As long as the **Rules of the Game** are not violated, I'm not opposed to studen
 
 ### Homework ###
 
-#### General Comments
+<!-- #### General Comments -->
+
 You are allowed and encouraged to work together on homework.  However, each student is expected to turn in their own work.  In general, late homework will *not* be accepted.  However, you are allowed to turn in **three late homework assignments**. Unless you have made arrangements in advance with me, homework turned in after class will be considered late. When doing your homework, I encourage you to consult the "Elements of Style for Proofs" appendix in the textbook. Your overall homework grade will be worth 20% of your final grade.
 
-On each homework assignment, please write (i) your name, (ii) name of course, and (iii) Daily/Weekly Homework number.  You can find the list of assignments on the [homework page]({{site.baseurl}}/teaching/mat320s25/homework/).  I reserve the right to modify the homework assignments as I see necessary.
+On each homework assignment, please write (i) your name, (ii) name of course, and (iii) Homework number.  You can find the list of assignments on the [homework page]({{site.baseurl}}/teaching/mat320s25/homework/).  I reserve the right to modify the homework assignments as I see necessary.
 
-#### Daily Homework
+<!-- #### Daily Homework -->
+
 Homework will be assigned almost every class meeting, and students are expected to complete (or try their best to complete) each assignment before walking into the next class period. Homework will generally consist of completing exercises and proving theorems from the textbook.  In addition to completing the assigned problems, I also want you to assess your own work.  Next to each problem, I want you to write down a score between 0 and 4 that represents your perception of the validity and quality of your proposed solution/proof. Not completing the self-assessment step may impact the score on your homework. Consider using the following rubric.  
 
 <center>
 <table class="table table-striped">
-<caption style="text-align: center;">Rubric for Assessing Problems on Daily Homework</caption>
+<caption style="text-align: center;">Rubric for Assessing Problems on Homework</caption>
 	<thead>
 	<tr>
 		<th style="text-align: center;">Grade</th>
@@ -271,11 +273,13 @@ Homework will be assigned almost every class meeting, and students are expected 
 </table>
 </center>
 
-On the day that a homework assignment is due, the majority of the class period will be devoted to students presenting some subset (maybe all) of the proofs/solutions that are due that day.  You are allowed (in fact, encouraged!) to modify your written work in light of presentations made in class; however, **you are required to use a different color than what you used to complete your homework**.  In the past, I provided colored pens in class, but due to the pandemic, please provide your own colored pen. This will allow me to differentiate the work done in class versus the work you completed before class.  The grade you receive on an assignment will be determined by the work you completed prior to class.  I will provide more guidance with respect to this during the first couple weeks of the semester. Homework will be assessed using the following rubric.
+On the day that a homework assignment is due, the majority of the class period will be devoted to students presenting some subset (maybe all) of the proofs/solutions that are due that day.  You are allowed (in fact, encouraged!) to modify your written work in light of presentations made in class; however, **you are required to use a different color than what you used to complete your homework**. This will allow me to differentiate the work done in class versus the work you completed before class. I would prefer you use your own wiriting utelsil for this purpose, but I will also have a few colored pens you can borrow. The grade you receive on an assignment will be determined by the work you completed prior to class.  I will provide more guidance with respect to this during the first couple weeks of the semester. If you are completing your homework using a tablet (e.g., iPad), please annotate your work in a different color and then email me your homework with the annotations at then end of class.
+
+Homework will be assessed using the following rubric.
 
 <center>
 <table class="table table-striped">
-<caption style="text-align: center;">Rubric for Grading Daily Homework</caption>
+<caption style="text-align: center;">Rubric for Grading Homework</caption>
 	<thead>
 	<tr>
 		<th style="text-align: center;">Grade</th>
@@ -303,12 +307,12 @@ On the day that a homework assignment is due, the majority of the class period w
 </table>
 </center>
 
-#### Weekly Homework
-In addition to the Daily Homework, we will also have Weekly Homework assignments.  For most of these assignments, you will be required to submit 2-3 formally written proofs.  Some or all of these problems will come directly from the Daily Homework assigned the previous week.  You are required to type your submission using LaTeX.  Each problem on the Weekly Homework assignments is subject to the following rubric:
+<!-- #### Weekly Homework
+In addition to the Daily Homework, we will also have Weekly Homework assignments.  For most of these assignments, you will be required to submit 2-3 formally written proofs.  Some or all of these problems will come directly from the Daily Homework assigned the previous week.  You are required to type your submission using LaTeX.  Each problem on the Weekly Homework assignments is subject to the following rubric: -->
 
 <!-- You can either submit a hardcopy of your assignment or email me the PDF of your completed work. If you email me the PDF, please name your file as <code>WeeklyX-LastName.pdf</code>, where <code>X</code> is the number of the assignment and <code>LastName</code> is your last name.  Notice there are no spaces in the filename. Each problem on the Weekly Homework assignments is subject to the following rubric: -->
 
-<center>
+<!-- <center>
 <table class="table table-striped">
 <caption style="text-align: center;">Rubric for Assessing Problems on Weekly Homework</caption>
 	<thead>
@@ -340,13 +344,13 @@ In addition to the Daily Homework, we will also have Weekly Homework assignments
 	</tr>
 	</tbody>
 </table>
-</center>
+</center> -->
 
 ### Presentations and Participation ###
 
 #### General Comments
 
-The problems chosen for presentations will come from the Daily Homework assignments. Though the atmosphere in this class should be informal and friendly, what we do in the class is serious business. In particular, the presentations made by students are to be taken seriously since they spearhead the work of the class. Here are some of my expectations for the presenter:
+The problems chosen for presentations will come from the homework assignments. Though the atmosphere in this class should be informal and friendly, what we do in the class is serious business. In particular, the presentations made by students are to be taken seriously since they spearhead the work of the class. Here are some of my expectations for the presenter:
 
 - The purpose of class presentations is not to prove to me that the presenter has done the problem. It is to make the ideas of the solution clear to the other students.
 - Presenters should explain their reasoning as they go along, not simply write everything down and then turn to explain.
@@ -518,7 +522,7 @@ Only I will remain.</p>
 </blockquote>
 
 ### Exams ###
-There will be two midterm exams and a cumulative final exam.  Exam 1 and Exam 2 are *tentatively* scheduled for **???** (week 7) and **???** (week 12), respectively.  Each of Exam 1 and Exam 2 will be worth 20% of your overall grade. The final exam will be on **Monday, May 5** at **10AM-12PM** and is worth 20% of your overall grade. Each of the exams (both midterms and final) are likely to also include a take-home portion, which you will have a few days to complete. Make-up exams will only be given under extreme circumstances, as judged by me. In general, it will be best to communicate conflicts ahead of time.
+There will be three midterm exams and a cumulative final exam. All of the exams will consist of both an in-class part and a tke-home part. The in-class portions of th midterm exams are *tentatively* scheduled for **Friday, February 14** (week 5), **Friday, March 21** (week 9), and **Friday, April 18** (week 13).  Each midterm exam will be worth 15% of your overall grade. The final exam will be on **Monday, May 5** at **10AM-12PM** and is worth 20% of your overall grade. Make-up exams will only be given under extreme circumstances, as judged by me. In general, it will be best to communicate conflicts ahead of time.
 
 <blockquote>
 <p>I write one page of masterpiece to ninety-one pages of shit.</p>
@@ -547,7 +551,7 @@ In summary, your final grade will be determined by your scores in the following 
 	<tbody>
 	<tr>
 		<td>Homework</td>
-		<td style="text-align: center;">20%</td>
+		<td style="text-align: center;">15%</td>
 		<td>See above for requirements</td>
 	</tr>
   <tr>
@@ -557,18 +561,23 @@ In summary, your final grade will be determined by your scores in the following 
 	</tr>
 	<tr>
 		<td>Exam 1</td>
-		<td style="text-align: center;">20%</td>
-		<td>In-class portion on ???, possible take-home portion</td>
+		<td style="text-align: center;">15%</td>
+		<td>In-class portion on February 14</td>
 	</tr>
-  <tr>
-    <td>Exam 2</td>
-    <td style="text-align: center;">20%</td>
-    <td>In-class portion on ???, possible take-home portion</td>
-  </tr>
+    <tr>
+        <td>Exam 2</td>
+        <td style="text-align: center;">15%</td>
+        <td>In-class portion on March 21</td>
+   </tr>
+   <tr>
+        <td>Exam 3</td>
+        <td style="text-align: center;">15%</td>
+        <td>In-class portion on April 18</td>
+    </tr>
 	<tr>
 		<td>Final Exam</td>
 		<td style="text-align: center;">20%</td>
-		<td>Monday, May 5, 10AM-12PM</td>
+		<td>In-class portion on May 5, 10AM-12PM</td>
 	</tr>
 	</tbody>
 </table>
