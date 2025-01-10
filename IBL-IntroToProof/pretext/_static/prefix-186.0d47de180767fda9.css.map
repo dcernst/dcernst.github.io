@@ -1,0 +1,1 @@
+{"version":3,"file":"prefix-186.0d47de180767fda9.css","mappings":"AAAA,gCACI,gBAAiB,CAEjB,eAAgB,CAChB,eACJ","sources":["webpack://WebComponents/./runestone/spreadsheet/css/spreadsheet.css"],"sourcesContent":["div.runestone .jexcel_container {\n    max-height: 550px;\n    overflow: scroll;\n    max-width: 800px;\n    overflow: scroll;\n}"],"names":[],"sourceRoot":""}
