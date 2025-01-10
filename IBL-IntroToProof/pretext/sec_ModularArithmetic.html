@@ -57,7 +57,7 @@ window.MathJax = {
       "[pretext]/mathjaxknowl3.js"
     ],
     "paths": {
-      "pretext": "https://pretextbook.org/js/lib"
+      "pretext": "_static/pretext/js/lib"
     }
   },
   "startup": {
@@ -69,34 +69,528 @@ window.MathJax = {
     )}
   }
 };
-</script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="https://pretextbook.org/js/0.33/pretext_search.js"></script><link href="https://pretextbook.org/css/0.83/pretext_search.css" rel="stylesheet" type="text/css">
-<script>js_version = 0.33</script><script src="https://pretextbook.org/js/lib/jquery.min.js"></script><script src="https://pretextbook.org/js/lib/jquery.sticky.js"></script><script src="https://pretextbook.org/js/lib/jquery.espy.min.js"></script><script src="https://pretextbook.org/js/0.33/pretext.js"></script><script>miniversion=0.1</script><script src="https://pretextbook.org/js/0.33/pretext_add_on.js?x=1"></script><script src="https://pretextbook.org/js/0.33/user_preferences.js"></script><script src="https://pretextbook.org/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
+</script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="_static/pretext/js/pretext_search.js"></script><script src="_static/pretext/js/lib/jquery.min.js"></script><script src="_static/pretext/js/lib/jquery.sticky.js"></script><script src="_static/pretext/js/lib/jquery.espy.min.js"></script><script src="_static/pretext/js/pretext.js"></script><script src="_static/pretext/js/pretext_add_on.js?x=1"></script><script src="_static/pretext/js/user_preferences.js"></script><script src="_static/pretext/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
 </script><link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
-<link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&amp;family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&amp;family=Tinos:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap" rel="stylesheet">
-<link href="https://fonts.cdnfonts.com/css/dejavu-serif" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz,wdth,wght@8..144,50..150,100..900&amp;display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wdth,wght@75..100,300..800&amp;display=swap" rel="stylesheet">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
-<link href="https://pretextbook.org/css/0.83/pretext.css" rel="stylesheet" type="text/css">
-<link href="https://pretextbook.org/css/0.83/pretext_add_on.css" rel="stylesheet" type="text/css">
-<link href="https://pretextbook.org/css/0.83/shell_default.css" rel="stylesheet" type="text/css">
-<link href="https://pretextbook.org/css/0.83/banner_default.css" rel="stylesheet" type="text/css">
-<link href="https://pretextbook.org/css/0.83/navbar_default.css" rel="stylesheet" type="text/css">
-<link href="https://pretextbook.org/css/0.83/toc_default.css" rel="stylesheet" type="text/css">
-<link href="https://pretextbook.org/css/0.83/knowls_default.css" rel="stylesheet" type="text/css">
-<link href="https://pretextbook.org/css/0.83/style_oscarlevin.css" rel="stylesheet" type="text/css">
-<link href="https://pretextbook.org/css/0.83/colors_default.css" rel="stylesheet" type="text/css">
-<link href="https://pretextbook.org/css/0.83/setcolors.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0">
+<link href="_static/pretext/css/theme.css" rel="stylesheet" type="text/css">
 <link rel="stylesheet" type="text/css" href="external/custom-styles.css">
+<!--** eBookCongig is necessary to configure interactive       **-->
+<!--** Runestone components to run locally in reader's browser **-->
+<!--** No external communication:                              **-->
+<!--**     log level is 0, Runestone Services are disabled     **-->
+<script type="text/javascript">
+eBookConfig = {};
+eBookConfig.useRunestoneServices = false;
+eBookConfig.host = 'http://127.0.0.1:8000';
+eBookConfig.course = 'PTX_Course_Title_Here';
+eBookConfig.basecourse = 'PTX_Base_Course';
+eBookConfig.isLoggedIn = false;
+eBookConfig.email = '';
+eBookConfig.isInstructor = false;
+eBookConfig.logLevel = 0;
+eBookConfig.username = '';
+eBookConfig.readings = null;
+eBookConfig.activities = null;
+eBookConfig.downloadsEnabled = false;
+eBookConfig.allow_pairs = false;
+eBookConfig.enableScratchAC = false;
+eBookConfig.build_info = "";
+eBookConfig.python3 = null;
+eBookConfig.runestone_version = '7.5.1';
+eBookConfig.jobehost = '';
+eBookConfig.proxyuri_runs = '';
+eBookConfig.proxyuri_files = '';
+eBookConfig.enable_chatcodes =  false;
+</script>
+<!--*** Runestone Services ***-->
+<script src="_static/prefix-runtime.87cabc2515250052.bundle.js"></script><script src="_static/prefix-723.3e6434f80549315a.bundle.js"></script><script src="_static/prefix-runestone.630d5c4fb4b681eb.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-723.3bccd435914aa0ff.css">
+<link rel="stylesheet" type="text/css" href="_static/prefix-runestone.97f3ae4f7a71ba18.css">
+<style>
+#sec_baby_number_theory-16-1-1-1 { counter-set: sec_baby_number_theory-16-1-1-1 0; }
+#sec_baby_number_theory-16-1-1-1 > li::marker { content: "l"counter(sec_baby_number_theory-16-1-1-1,lower-alpha)"beltextrmalph"; }
+#sec_baby_number_theory-16-1-1-1 > li { counter-increment: sec_baby_number_theory-16-1-1-1; }
+#sec_baby_number_theory-19-1-1-2 { counter-set: sec_baby_number_theory-19-1-1-2 0; }
+#sec_baby_number_theory-19-1-1-2 > li::marker { content: "l"counter(sec_baby_number_theory-19-1-1-2,lower-alpha)"beltextrmalph"; }
+#sec_baby_number_theory-19-1-1-2 > li { counter-increment: sec_baby_number_theory-19-1-1-2; }
+#prob_divisibility_examples-1-1-2 { counter-set: prob_divisibility_examples-1-1-2 0; }
+#prob_divisibility_examples-1-1-2 > li::marker { content: "l"counter(prob_divisibility_examples-1-1-2,lower-alpha)"beltextrmalph"; }
+#prob_divisibility_examples-1-1-2 > li { counter-increment: prob_divisibility_examples-1-1-2; }
+#sec_baby_number_theory-30-1-1-5 { counter-set: sec_baby_number_theory-30-1-1-5 0; }
+#sec_baby_number_theory-30-1-1-5 > li::marker { content: "l"counter(sec_baby_number_theory-30-1-1-5,lower-alpha)"beltextrmalph"; }
+#sec_baby_number_theory-30-1-1-5 > li { counter-increment: sec_baby_number_theory-30-1-1-5; }
+#sec_Intro_to_Logic-5-1-1-1 { counter-set: sec_Intro_to_Logic-5-1-1-1 0; }
+#sec_Intro_to_Logic-5-1-1-1 > li::marker { content: "l"counter(sec_Intro_to_Logic-5-1-1-1,lower-alpha)"beltextrmalph"; }
+#sec_Intro_to_Logic-5-1-1-1 > li { counter-increment: sec_Intro_to_Logic-5-1-1-1; }
+#def_logical_connectives-1-1-3 { counter-set: def_logical_connectives-1-1-3 0; }
+#def_logical_connectives-1-1-3 > li::marker { content: "l"counter(def_logical_connectives-1-1-3,lower-alpha)"beltextrmalph"; }
+#def_logical_connectives-1-1-3 > li { counter-increment: def_logical_connectives-1-1-3; }
+#prob_translations-1-1-5 { counter-set: prob_translations-1-1-5 0; }
+#prob_translations-1-1-5 > li::marker { content: "l"counter(prob_translations-1-1-5,lower-alpha)"beltextrmalph"; }
+#prob_translations-1-1-5 > li { counter-increment: prob_translations-1-1-5; }
+#prob_truth_tables-1-2 { counter-set: prob_truth_tables-1-2 0; }
+#prob_truth_tables-1-2 > li::marker { content: ""counter(prob_truth_tables-1-2,lower-alpha)""; }
+#prob_truth_tables-1-2 > li { counter-increment: prob_truth_tables-1-2; }
+#prob_negation-1-1-3 { counter-set: prob_negation-1-1-3 0; }
+#prob_negation-1-1-3 > li::marker { content: "l"counter(prob_negation-1-1-3,lower-alpha)"beltextrmalph"; }
+#prob_negation-1-1-3 > li { counter-increment: prob_negation-1-1-3; }
+#sec_Intro_to_Logic-37-1-1-4 { counter-set: sec_Intro_to_Logic-37-1-1-4 0; }
+#sec_Intro_to_Logic-37-1-1-4 > li::marker { content: "l"counter(sec_Intro_to_Logic-37-1-1-4,lower-alpha)"beltextrmalph"; }
+#sec_Intro_to_Logic-37-1-1-4 > li { counter-increment: sec_Intro_to_Logic-37-1-1-4; }
+#prob_Darth_Vader-1-1-5 { counter-set: prob_Darth_Vader-1-1-5 0; }
+#prob_Darth_Vader-1-1-5 > li::marker { content: "l"counter(prob_Darth_Vader-1-1-5,lower-alpha)"beltextrmalph"; }
+#prob_Darth_Vader-1-1-5 > li { counter-increment: prob_Darth_Vader-1-1-5; }
+#sec_Techniques_for_Proving_Conditional_Propositions-10-1-1-4 { counter-set: sec_Techniques_for_Proving_Conditional_Propositions-10-1-1-4 0; }
+#sec_Techniques_for_Proving_Conditional_Propositions-10-1-1-4 > li::marker { content: ""counter(sec_Techniques_for_Proving_Conditional_Propositions-10-1-1-4,decimal)"."; }
+#sec_Techniques_for_Proving_Conditional_Propositions-10-1-1-4 > li { counter-increment: sec_Techniques_for_Proving_Conditional_Propositions-10-1-1-4; }
+#sec_Techniques_for_Proving_Conditional_Propositions-18-1-1-4 { counter-set: sec_Techniques_for_Proving_Conditional_Propositions-18-1-1-4 0; }
+#sec_Techniques_for_Proving_Conditional_Propositions-18-1-1-4 > li::marker { content: "l"counter(sec_Techniques_for_Proving_Conditional_Propositions-18-1-1-4,lower-alpha)"beltextrmalph"; }
+#sec_Techniques_for_Proving_Conditional_Propositions-18-1-1-4 > li { counter-increment: sec_Techniques_for_Proving_Conditional_Propositions-18-1-1-4; }
+#ex_quantified_predicates-1-1-1 { counter-set: ex_quantified_predicates-1-1-1 0; }
+#ex_quantified_predicates-1-1-1 > li::marker { content: "l"counter(ex_quantified_predicates-1-1-1,lower-alpha)"beltextrmalph"; }
+#ex_quantified_predicates-1-1-1 > li { counter-increment: ex_quantified_predicates-1-1-1; }
+#sec_Introduction_to_Quantification-12-1-1-1 { counter-set: sec_Introduction_to_Quantification-12-1-1-1 0; }
+#sec_Introduction_to_Quantification-12-1-1-1 > li::marker { content: "l"counter(sec_Introduction_to_Quantification-12-1-1-1,lower-alpha)"beltextrmalph"; }
+#sec_Introduction_to_Quantification-12-1-1-1 > li { counter-increment: sec_Introduction_to_Quantification-12-1-1-1; }
+#sec_Introduction_to_Quantification-16-1-1-5 { counter-set: sec_Introduction_to_Quantification-16-1-1-5 0; }
+#sec_Introduction_to_Quantification-16-1-1-5 > li::marker { content: "l"counter(sec_Introduction_to_Quantification-16-1-1-5,lower-alpha)"beltextrmalph"; }
+#sec_Introduction_to_Quantification-16-1-1-5 > li { counter-increment: sec_Introduction_to_Quantification-16-1-1-5; }
+#sec_Introduction_to_Quantification-17-1-1-3 { counter-set: sec_Introduction_to_Quantification-17-1-1-3 0; }
+#sec_Introduction_to_Quantification-17-1-1-3 > li::marker { content: "l"counter(sec_Introduction_to_Quantification-17-1-1-3,lower-alpha)"beltextrmalph"; }
+#sec_Introduction_to_Quantification-17-1-1-3 > li { counter-increment: sec_Introduction_to_Quantification-17-1-1-3; }
+#sec_Introduction_to_Quantification-25-1-1-1 { counter-set: sec_Introduction_to_Quantification-25-1-1-1 0; }
+#sec_Introduction_to_Quantification-25-1-1-1 > li::marker { content: "l"counter(sec_Introduction_to_Quantification-25-1-1-1,lower-alpha)"beltextrmalph"; }
+#sec_Introduction_to_Quantification-25-1-1-1 > li { counter-increment: sec_Introduction_to_Quantification-25-1-1-1; }
+#sec_Introduction_to_Quantification-30-1-1-3 { counter-set: sec_Introduction_to_Quantification-30-1-1-3 0; }
+#sec_Introduction_to_Quantification-30-1-1-3 > li::marker { content: "l"counter(sec_Introduction_to_Quantification-30-1-1-3,lower-alpha)"beltextrmalph"; }
+#sec_Introduction_to_Quantification-30-1-1-3 > li { counter-increment: sec_Introduction_to_Quantification-30-1-1-3; }
+#sec_Introduction_to_Quantification-33-1-1-1 { counter-set: sec_Introduction_to_Quantification-33-1-1-1 0; }
+#sec_Introduction_to_Quantification-33-1-1-1 > li::marker { content: "l"counter(sec_Introduction_to_Quantification-33-1-1-1,lower-alpha)"beltextrmalph"; }
+#sec_Introduction_to_Quantification-33-1-1-1 > li { counter-increment: sec_Introduction_to_Quantification-33-1-1-1; }
+#sec_Introduction_to_Quantification-34-1-1-2 { counter-set: sec_Introduction_to_Quantification-34-1-1-2 0; }
+#sec_Introduction_to_Quantification-34-1-1-2 > li::marker { content: "l"counter(sec_Introduction_to_Quantification-34-1-1-2,lower-alpha)"beltextrmalph"; }
+#sec_Introduction_to_Quantification-34-1-1-2 > li { counter-increment: sec_Introduction_to_Quantification-34-1-1-2; }
+#sec_More_About_Quantification-4-1-1-4 { counter-set: sec_More_About_Quantification-4-1-1-4 0; }
+#sec_More_About_Quantification-4-1-1-4 > li::marker { content: "l"counter(sec_More_About_Quantification-4-1-1-4,lower-alpha)"beltextrmalph"; }
+#sec_More_About_Quantification-4-1-1-4 > li { counter-increment: sec_More_About_Quantification-4-1-1-4; }
+#thm_negation_of_quantifiers-1-1-2 { counter-set: thm_negation_of_quantifiers-1-1-2 0; }
+#thm_negation_of_quantifiers-1-1-2 > li::marker { content: "l"counter(thm_negation_of_quantifiers-1-1-2,lower-alpha)"beltextrmalph"; }
+#thm_negation_of_quantifiers-1-1-2 > li { counter-increment: thm_negation_of_quantifiers-1-1-2; }
+#sec_More_About_Quantification-8-1-1-1 { counter-set: sec_More_About_Quantification-8-1-1-1 0; }
+#sec_More_About_Quantification-8-1-1-1 > li::marker { content: "l"counter(sec_More_About_Quantification-8-1-1-1,lower-alpha)"beltextrmalph"; }
+#sec_More_About_Quantification-8-1-1-1 > li { counter-increment: sec_More_About_Quantification-8-1-1-1; }
+#sec_More_About_Quantification-12-1-1-1 { counter-set: sec_More_About_Quantification-12-1-1-1 0; }
+#sec_More_About_Quantification-12-1-1-1 > li::marker { content: "l"counter(sec_More_About_Quantification-12-1-1-1,lower-alpha)"beltextrmalph"; }
+#sec_More_About_Quantification-12-1-1-1 > li { counter-increment: sec_More_About_Quantification-12-1-1-1; }
+#sec_More_About_Quantification-13-1-1-1 { counter-set: sec_More_About_Quantification-13-1-1-1 0; }
+#sec_More_About_Quantification-13-1-1-1 > li::marker { content: ""counter(sec_More_About_Quantification-13-1-1-1,decimal)"."; }
+#sec_More_About_Quantification-13-1-1-1 > li { counter-increment: sec_More_About_Quantification-13-1-1-1; }
+#sec_More_About_Quantification-14-1-1-1 { counter-set: sec_More_About_Quantification-14-1-1-1 0; }
+#sec_More_About_Quantification-14-1-1-1 > li::marker { content: ""counter(sec_More_About_Quantification-14-1-1-1,decimal)"."; }
+#sec_More_About_Quantification-14-1-1-1 > li { counter-increment: sec_More_About_Quantification-14-1-1-1; }
+#sec_More_About_Quantification-24-1-1-1 { counter-set: sec_More_About_Quantification-24-1-1-1 0; }
+#sec_More_About_Quantification-24-1-1-1 > li::marker { content: "l"counter(sec_More_About_Quantification-24-1-1-1,lower-alpha)"beltextrmalph"; }
+#sec_More_About_Quantification-24-1-1-1 > li { counter-increment: sec_More_About_Quantification-24-1-1-1; }
+#sec_Sets-6-1-1-1 { counter-set: sec_Sets-6-1-1-1 0; }
+#sec_Sets-6-1-1-1 > li::marker { content: "l"counter(sec_Sets-6-1-1-1,lower-alpha)"beltextrmalph"; }
+#sec_Sets-6-1-1-1 > li { counter-increment: sec_Sets-6-1-1-1; }
+#prob_set-builder_examples-1-1-1 { counter-set: prob_set-builder_examples-1-1-1 0; }
+#prob_set-builder_examples-1-1-1 > li::marker { content: "l"counter(prob_set-builder_examples-1-1-1,lower-alpha)"beltextrmalph"; }
+#prob_set-builder_examples-1-1-1 > li { counter-increment: prob_set-builder_examples-1-1-1; }
+#def_intervals-1-1-4 { counter-set: def_intervals-1-1-4 0; }
+#def_intervals-1-1-4 > li::marker { content: "l"counter(def_intervals-1-1-4,lower-alpha)"beltextrmalph"; }
+#def_intervals-1-1-4 > li { counter-increment: def_intervals-1-1-4; }
+#sec_Sets-11-1-1-1 { counter-set: sec_Sets-11-1-1-1 0; }
+#sec_Sets-11-1-1-1 > li::marker { content: "l"counter(sec_Sets-11-1-1-1,lower-alpha)"beltextrmalph"; }
+#sec_Sets-11-1-1-1 > li { counter-increment: sec_Sets-11-1-1-1; }
+#thm_trivial_subsets-1-1-2 { counter-set: thm_trivial_subsets-1-1-2 0; }
+#thm_trivial_subsets-1-1-2 > li::marker { content: "l"counter(thm_trivial_subsets-1-1-2,lower-alpha)"beltextrmalph"; }
+#thm_trivial_subsets-1-1-2 > li { counter-increment: thm_trivial_subsets-1-1-2; }
+#sec_Sets-25-1-1-4 { counter-set: sec_Sets-25-1-1-4 0; }
+#sec_Sets-25-1-1-4 > li::marker { content: "l"counter(sec_Sets-25-1-1-4,lower-alpha)"beltextrmalph"; }
+#sec_Sets-25-1-1-4 > li { counter-increment: sec_Sets-25-1-1-4; }
+#sec_Sets-27-1-1-5 { counter-set: sec_Sets-27-1-1-5 0; }
+#sec_Sets-27-1-1-5 > li::marker { content: "l"counter(sec_Sets-27-1-1-5,lower-alpha)"beltextrmalph"; }
+#sec_Sets-27-1-1-5 > li { counter-increment: sec_Sets-27-1-1-5; }
+#sec_Sets-28-1-1-5 { counter-set: sec_Sets-28-1-1-5 0; }
+#sec_Sets-28-1-1-5 > li::marker { content: "l"counter(sec_Sets-28-1-1-5,lower-alpha)"beltextrmalph"; }
+#sec_Sets-28-1-1-5 > li { counter-increment: sec_Sets-28-1-1-5; }
+#sec_Sets-29-1-1-4 { counter-set: sec_Sets-29-1-1-4 0; }
+#sec_Sets-29-1-1-4 > li::marker { content: "l"counter(sec_Sets-29-1-1-4,lower-alpha)"beltextrmalph"; }
+#sec_Sets-29-1-1-4 > li { counter-increment: sec_Sets-29-1-1-4; }
+#sec_Sets-33-2-1-3 { counter-set: sec_Sets-33-2-1-3 0; }
+#sec_Sets-33-2-1-3 > li::marker { content: "l"counter(sec_Sets-33-2-1-3,lower-alpha)"beltextrmalph"; }
+#sec_Sets-33-2-1-3 > li { counter-increment: sec_Sets-33-2-1-3; }
+#sec_Sets-35-2-1-4 { counter-set: sec_Sets-35-2-1-4 0; }
+#sec_Sets-35-2-1-4 > li::marker { content: "l"counter(sec_Sets-35-2-1-4,lower-alpha)"beltextrmalph"; }
+#sec_Sets-35-2-1-4 > li { counter-increment: sec_Sets-35-2-1-4; }
+#sec_Sets-36-1-2-1-1-1 { counter-set: sec_Sets-36-1-2-1-1-1 0; }
+#sec_Sets-36-1-2-1-1-1 > li::marker { content: "l"counter(sec_Sets-36-1-2-1-1-1,lower-alpha)"beltextrmalph"; }
+#sec_Sets-36-1-2-1-1-1 > li { counter-increment: sec_Sets-36-1-2-1-1-1; }
+#sec_Sets-36-1-2-1-2-1 { counter-set: sec_Sets-36-1-2-1-2-1 0; }
+#sec_Sets-36-1-2-1-2-1 > li::marker { content: "l"counter(sec_Sets-36-1-2-1-2-1,lower-alpha)"beltextrmroman"; }
+#sec_Sets-36-1-2-1-2-1 > li { counter-increment: sec_Sets-36-1-2-1-2-1; }
+#prob_PowerSets-1-1-1 { counter-set: prob_PowerSets-1-1-1 0; }
+#prob_PowerSets-1-1-1 > li::marker { content: "l"counter(prob_PowerSets-1-1-1,lower-alpha)"beltextrmalph"; }
+#prob_PowerSets-1-1-1 > li { counter-increment: prob_PowerSets-1-1-1; }
+#sec_PowerSets-11-1-1-3 { counter-set: sec_PowerSets-11-1-1-3 0; }
+#sec_PowerSets-11-1-1-3 > li::marker { content: "l"counter(sec_PowerSets-11-1-1-3,lower-alpha)"beltextrmalph"; }
+#sec_PowerSets-11-1-1-3 > li { counter-increment: sec_PowerSets-11-1-1-3; }
+#sec_Indexing_Sets-10-1-1-2 { counter-set: sec_Indexing_Sets-10-1-1-2 0; }
+#sec_Indexing_Sets-10-1-1-2 > li::marker { content: "l"counter(sec_Indexing_Sets-10-1-1-2,lower-alpha)"beltextrmalph"; }
+#sec_Indexing_Sets-10-1-1-2 > li { counter-increment: sec_Indexing_Sets-10-1-1-2; }
+#sec_Indexing_Sets-14-1-1-2 { counter-set: sec_Indexing_Sets-14-1-1-2 0; }
+#sec_Indexing_Sets-14-1-1-2 > li::marker { content: "l"counter(sec_Indexing_Sets-14-1-1-2,lower-alpha)"beltextrmalph"; }
+#sec_Indexing_Sets-14-1-1-2 > li { counter-increment: sec_Indexing_Sets-14-1-1-2; }
+#sec_Indexing_Sets-15-1-1-2 { counter-set: sec_Indexing_Sets-15-1-1-2 0; }
+#sec_Indexing_Sets-15-1-1-2 > li::marker { content: "l"counter(sec_Indexing_Sets-15-1-1-2,lower-alpha)"beltextrmalph"; }
+#sec_Indexing_Sets-15-1-1-2 > li { counter-increment: sec_Indexing_Sets-15-1-1-2; }
+#sec_Indexing_Sets-16-1-1-3 { counter-set: sec_Indexing_Sets-16-1-1-3 0; }
+#sec_Indexing_Sets-16-1-1-3 > li::marker { content: "l"counter(sec_Indexing_Sets-16-1-1-3,lower-alpha)"beltextrmalph"; }
+#sec_Indexing_Sets-16-1-1-3 > li { counter-increment: sec_Indexing_Sets-16-1-1-3; }
+#sec_Indexing_Sets-17-1-1-3 { counter-set: sec_Indexing_Sets-17-1-1-3 0; }
+#sec_Indexing_Sets-17-1-1-3 > li::marker { content: "l"counter(sec_Indexing_Sets-17-1-1-3,lower-alpha)"beltextrmalph"; }
+#sec_Indexing_Sets-17-1-1-3 > li { counter-increment: sec_Indexing_Sets-17-1-1-3; }
+#sec_Indexing_Sets-18-1-1-5 { counter-set: sec_Indexing_Sets-18-1-1-5 0; }
+#sec_Indexing_Sets-18-1-1-5 > li::marker { content: "l"counter(sec_Indexing_Sets-18-1-1-5,lower-alpha)"beltextrmalph"; }
+#sec_Indexing_Sets-18-1-1-5 > li { counter-increment: sec_Indexing_Sets-18-1-1-5; }
+#sec_Indexing_Sets-21-1-1-1 { counter-set: sec_Indexing_Sets-21-1-1-1 0; }
+#sec_Indexing_Sets-21-1-1-1 > li::marker { content: "l"counter(sec_Indexing_Sets-21-1-1-1,lower-alpha)"beltextrmalph"; }
+#sec_Indexing_Sets-21-1-1-1 > li { counter-increment: sec_Indexing_Sets-21-1-1-1; }
+#sec_Indexing_Sets-22-2-1-3 { counter-set: sec_Indexing_Sets-22-2-1-3 0; }
+#sec_Indexing_Sets-22-2-1-3 > li::marker { content: "l"counter(sec_Indexing_Sets-22-2-1-3,lower-alpha)"beltextrmalph"; }
+#sec_Indexing_Sets-22-2-1-3 > li { counter-increment: sec_Indexing_Sets-22-2-1-3; }
+#sec_Indexing_Sets-23-2-1-2 { counter-set: sec_Indexing_Sets-23-2-1-2 0; }
+#sec_Indexing_Sets-23-2-1-2 > li::marker { content: "l"counter(sec_Indexing_Sets-23-2-1-2,lower-alpha)"beltextrmalph"; }
+#sec_Indexing_Sets-23-2-1-2 > li { counter-increment: sec_Indexing_Sets-23-2-1-2; }
+#sec_Cartesian_Products-10-1-1-4 { counter-set: sec_Cartesian_Products-10-1-1-4 0; }
+#sec_Cartesian_Products-10-1-1-4 > li::marker { content: "l"counter(sec_Cartesian_Products-10-1-1-4,lower-alpha)"beltextrmalph"; }
+#sec_Cartesian_Products-10-1-1-4 > li { counter-increment: sec_Cartesian_Products-10-1-1-4; }
+#sec_Cartesian_Products-14-1-1-3 { counter-set: sec_Cartesian_Products-14-1-1-3 0; }
+#sec_Cartesian_Products-14-1-1-3 > li::marker { content: "l"counter(sec_Cartesian_Products-14-1-1-3,lower-alpha)"beltextrmalph"; }
+#sec_Cartesian_Products-14-1-1-3 > li { counter-increment: sec_Cartesian_Products-14-1-1-3; }
+#sec_Cartesian_Products-23-1-1-5 { counter-set: sec_Cartesian_Products-23-1-1-5 0; }
+#sec_Cartesian_Products-23-1-1-5 > li::marker { content: "l"counter(sec_Cartesian_Products-23-1-1-5,lower-alpha)"beltextrmalph"; }
+#sec_Cartesian_Products-23-1-1-5 > li { counter-increment: sec_Cartesian_Products-23-1-1-5; }
+#sec_Cartesian_Products-24-1-1-5 { counter-set: sec_Cartesian_Products-24-1-1-5 0; }
+#sec_Cartesian_Products-24-1-1-5 > li::marker { content: "l"counter(sec_Cartesian_Products-24-1-1-5,lower-alpha)"beltextrmalph"; }
+#sec_Cartesian_Products-24-1-1-5 > li { counter-increment: sec_Cartesian_Products-24-1-1-5; }
+#sec_Intro_to_Induction-2-1 { counter-set: sec_Intro_to_Induction-2-1 0; }
+#sec_Intro_to_Induction-2-1 > li::marker { content: "l"counter(sec_Intro_to_Induction-2-1,lower-alpha)"beltextrmalph"; }
+#sec_Intro_to_Induction-2-1 > li { counter-increment: sec_Intro_to_Induction-2-1; }
+#axiom_induction-2-1-2 { counter-set: axiom_induction-2-1-2 0; }
+#axiom_induction-2-1-2 > li::marker { content: "l"counter(axiom_induction-2-1-2,lower-alpha)"beltextrmroman"; }
+#axiom_induction-2-1-2 > li { counter-increment: axiom_induction-2-1-2; }
+#thm_PMI-2-1-2 { counter-set: thm_PMI-2-1-2 0; }
+#thm_PMI-2-1-2 > li::marker { content: "l"counter(thm_PMI-2-1-2,lower-alpha)"beltextrmroman"; }
+#thm_PMI-2-1-2 > li { counter-increment: thm_PMI-2-1-2; }
+#skeleton_induction-2-2-1-1 { counter-set: skeleton_induction-2-2-1-1 0; }
+#skeleton_induction-2-2-1-1 > li::marker { content: ""counter(skeleton_induction-2-2-1-1,lower-roman)""; }
+#skeleton_induction-2-2-1-1 > li { counter-increment: skeleton_induction-2-2-1-1; }
+#thm_PMI2-2-1-3 { counter-set: thm_PMI2-2-1-3 0; }
+#thm_PMI2-2-1-3 > li::marker { content: "l"counter(thm_PMI2-2-1-3,lower-alpha)"beltextrmroman"; }
+#thm_PMI2-2-1-3 > li { counter-increment: thm_PMI2-2-1-3; }
+#skeleton_induction_greater_than_a-2-2-1-1 { counter-set: skeleton_induction_greater_than_a-2-2-1-1 0; }
+#skeleton_induction_greater_than_a-2-2-1-1 > li::marker { content: ""counter(skeleton_induction_greater_than_a-2-2-1-1,lower-roman)""; }
+#skeleton_induction_greater_than_a-2-2-1-1 > li { counter-increment: skeleton_induction_greater_than_a-2-2-1-1; }
+#sec_More_on_Induction-22-1-1-3 { counter-set: sec_More_on_Induction-22-1-1-3 0; }
+#sec_More_on_Induction-22-1-1-3 > li::marker { content: "l"counter(sec_More_on_Induction-22-1-1-3,lower-alpha)"beltextrmalph"; }
+#sec_More_on_Induction-22-1-1-3 > li { counter-increment: sec_More_on_Induction-22-1-1-3; }
+#sec_CompleteInduction-3-2-1-2 { counter-set: sec_CompleteInduction-3-2-1-2 0; }
+#sec_CompleteInduction-3-2-1-2 > li::marker { content: "l"counter(sec_CompleteInduction-3-2-1-2,lower-alpha)"beltextrmroman"; }
+#sec_CompleteInduction-3-2-1-2 > li { counter-increment: sec_CompleteInduction-3-2-1-2; }
+#skeleton_complete_induction-2-2-1-1 { counter-set: skeleton_complete_induction-2-2-1-1 0; }
+#skeleton_complete_induction-2-2-1-1 > li::marker { content: ""counter(skeleton_complete_induction-2-2-1-1,lower-roman)""; }
+#skeleton_complete_induction-2-2-1-1 > li { counter-increment: skeleton_complete_induction-2-2-1-1; }
+#sec_CompleteInduction-16-1-1-6 { counter-set: sec_CompleteInduction-16-1-1-6 0; }
+#sec_CompleteInduction-16-1-1-6 > li::marker { content: "l"counter(sec_CompleteInduction-16-1-1-6,lower-alpha)"beltextrmroman"; }
+#sec_CompleteInduction-16-1-1-6 > li { counter-increment: sec_CompleteInduction-16-1-1-6; }
+#prob_find_max_and_min-1-1-1 { counter-set: prob_find_max_and_min-1-1-1 0; }
+#prob_find_max_and_min-1-1-1 > li::marker { content: "l"counter(prob_find_max_and_min-1-1-1,lower-alpha)"beltextrmalph"; }
+#prob_find_max_and_min-1-1-1 > li { counter-increment: prob_find_max_and_min-1-1-1; }
+#sec_AxiomsRealNumbers-2-1 { counter-set: sec_AxiomsRealNumbers-2-1 0; }
+#sec_AxiomsRealNumbers-2-1 > li::marker { content: ""counter(sec_AxiomsRealNumbers-2-1,decimal)"."; }
+#sec_AxiomsRealNumbers-2-1 > li { counter-increment: sec_AxiomsRealNumbers-2-1; }
+#sec_AxiomsRealNumbers-14-1-1-4 { counter-set: sec_AxiomsRealNumbers-14-1-1-4 0; }
+#sec_AxiomsRealNumbers-14-1-1-4 > li::marker { content: ""counter(sec_AxiomsRealNumbers-14-1-1-4,lower-alpha)""; }
+#sec_AxiomsRealNumbers-14-1-1-4 > li { counter-increment: sec_AxiomsRealNumbers-14-1-1-4; }
+#def_real_number_notation-1-1-3 { counter-set: def_real_number_notation-1-1-3 0; }
+#def_real_number_notation-1-1-3 > li::marker { content: "l"counter(def_real_number_notation-1-1-3,lower-alpha)"beltextrmalph"; }
+#def_real_number_notation-1-1-3 > li { counter-increment: def_real_number_notation-1-1-3; }
+#thm_consequences_of_axioms-1-1-2 { counter-set: thm_consequences_of_axioms-1-1-2 0; }
+#thm_consequences_of_axioms-1-1-2 > li::marker { content: "l"counter(thm_consequences_of_axioms-1-1-2,lower-alpha)"beltextrmalph"; }
+#thm_consequences_of_axioms-1-1-2 > li { counter-increment: thm_consequences_of_axioms-1-1-2; }
+#sec_AxiomsRealNumbers-28-1-1-2 { counter-set: sec_AxiomsRealNumbers-28-1-1-2 0; }
+#sec_AxiomsRealNumbers-28-1-1-2 > li::marker { content: "l"counter(sec_AxiomsRealNumbers-28-1-1-2,lower-alpha)"beltextrmalph"; }
+#sec_AxiomsRealNumbers-28-1-1-2 > li { counter-increment: sec_AxiomsRealNumbers-28-1-1-2; }
+#sec_AxiomsRealNumbers-36-1-1-2 { counter-set: sec_AxiomsRealNumbers-36-1-1-2 0; }
+#sec_AxiomsRealNumbers-36-1-1-2 > li::marker { content: "l"counter(sec_AxiomsRealNumbers-36-1-1-2,lower-alpha)"beltextrmalph"; }
+#sec_AxiomsRealNumbers-36-1-1-2 > li { counter-increment: sec_AxiomsRealNumbers-36-1-1-2; }
+#prob_find_upper_bounds-1-1-1 { counter-set: prob_find_upper_bounds-1-1-1 0; }
+#prob_find_upper_bounds-1-1-1 > li::marker { content: "l"counter(prob_find_upper_bounds-1-1-1,lower-alpha)"beltextrmalph"; }
+#prob_find_upper_bounds-1-1-1 > li { counter-increment: prob_find_upper_bounds-1-1-1; }
+#prob_open_or_not-1-1-1 { counter-set: prob_open_or_not-1-1-1 0; }
+#prob_open_or_not-1-1-1 > li::marker { content: "l"counter(prob_open_or_not-1-1-1,lower-alpha)"beltextrmalph"; }
+#prob_open_or_not-1-1-1 > li { counter-increment: prob_open_or_not-1-1-1; }
+#thm_finite_union_and_intersection_of_open_sets-1-1-3 { counter-set: thm_finite_union_and_intersection_of_open_sets-1-1-3 0; }
+#thm_finite_union_and_intersection_of_open_sets-1-1-3 > li::marker { content: "l"counter(thm_finite_union_and_intersection_of_open_sets-1-1-3,lower-alpha)"beltextrmalph"; }
+#thm_finite_union_and_intersection_of_open_sets-1-1-3 > li { counter-increment: thm_finite_union_and_intersection_of_open_sets-1-1-3; }
+#prob_intersection_of_open_sets-1-1-1 { counter-set: prob_intersection_of_open_sets-1-1-1 0; }
+#prob_intersection_of_open_sets-1-1-1 > li::marker { content: "l"counter(prob_intersection_of_open_sets-1-1-1,lower-alpha)"beltextrmalph"; }
+#prob_intersection_of_open_sets-1-1-1 > li { counter-increment: prob_intersection_of_open_sets-1-1-1; }
+#sec_Topology-22-1-1-2 { counter-set: sec_Topology-22-1-1-2 0; }
+#sec_Topology-22-1-1-2 > li::marker { content: "l"counter(sec_Topology-22-1-1-2,lower-alpha)"beltextrmalph"; }
+#sec_Topology-22-1-1-2 > li { counter-increment: sec_Topology-22-1-1-2; }
+#prob_open_vs_closed-1-1-1 { counter-set: prob_open_vs_closed-1-1-1 0; }
+#prob_open_vs_closed-1-1-1 > li::marker { content: "l"counter(prob_open_vs_closed-1-1-1,lower-alpha)"beltextrmalph"; }
+#prob_open_vs_closed-1-1-1 > li { counter-increment: prob_open_vs_closed-1-1-1; }
+#thm_finite_union_and_intersection_of_closed_sets-1-1-3 { counter-set: thm_finite_union_and_intersection_of_closed_sets-1-1-3 0; }
+#thm_finite_union_and_intersection_of_closed_sets-1-1-3 > li::marker { content: "l"counter(thm_finite_union_and_intersection_of_closed_sets-1-1-3,lower-alpha)"beltextrmalph"; }
+#thm_finite_union_and_intersection_of_closed_sets-1-1-3 > li { counter-increment: thm_finite_union_and_intersection_of_closed_sets-1-1-3; }
+#prob_open_or_closed-1-1-1 { counter-set: prob_open_or_closed-1-1-1 0; }
+#prob_open_or_closed-1-1-1 > li::marker { content: "l"counter(prob_open_or_closed-1-1-1,lower-alpha)"beltextrmalph"; }
+#prob_open_or_closed-1-1-1 > li { counter-increment: prob_open_or_closed-1-1-1; }
+#prob_compact_or_not-1-1-1 { counter-set: prob_compact_or_not-1-1-1 0; }
+#prob_compact_or_not-1-1-1 > li::marker { content: "l"counter(prob_compact_or_not-1-1-1,lower-alpha)"beltextrmalph"; }
+#prob_compact_or_not-1-1-1 > li { counter-increment: prob_compact_or_not-1-1-1; }
+#sec_FTA-3-1-1-2 { counter-set: sec_FTA-3-1-1-2 0; }
+#sec_FTA-3-1-1-2 > li::marker { content: "l"counter(sec_FTA-3-1-1-2,lower-alpha)"beltextrmalph"; }
+#sec_FTA-3-1-1-2 > li { counter-increment: sec_FTA-3-1-1-2; }
+#sec_Irrationality_of_Root_2-3-1-1-2 { counter-set: sec_Irrationality_of_Root_2-3-1-1-2 0; }
+#sec_Irrationality_of_Root_2-3-1-1-2 > li::marker { content: "l"counter(sec_Irrationality_of_Root_2-3-1-1-2,lower-alpha)"beltextrmalph"; }
+#sec_Irrationality_of_Root_2-3-1-1-2 > li { counter-increment: sec_Irrationality_of_Root_2-3-1-1-2; }
+#prob_another_relation_on_finite-1-1-5 { counter-set: prob_another_relation_on_finite-1-1-5 0; }
+#prob_another_relation_on_finite-1-1-5 > li::marker { content: "l"counter(prob_another_relation_on_finite-1-1-5,lower-alpha)"beltextrmalph"; }
+#prob_another_relation_on_finite-1-1-5 > li { counter-increment: prob_another_relation_on_finite-1-1-5; }
+#prob_parabola-1-1-2 { counter-set: prob_parabola-1-1-2 0; }
+#prob_parabola-1-1-2 > li::marker { content: "l"counter(prob_parabola-1-1-2,lower-alpha)"beltextrmalph"; }
+#prob_parabola-1-1-2 > li { counter-increment: prob_parabola-1-1-2; }
+#sec_Relations-37-1-1-3 { counter-set: sec_Relations-37-1-1-3 0; }
+#sec_Relations-37-1-1-3 > li::marker { content: "l"counter(sec_Relations-37-1-1-3,lower-alpha)"beltextrmalph"; }
+#sec_Relations-37-1-1-3 > li { counter-increment: sec_Relations-37-1-1-3; }
+#sec_Relations-38-1-1-1 { counter-set: sec_Relations-38-1-1-1 0; }
+#sec_Relations-38-1-1-1 > li::marker { content: "l"counter(sec_Relations-38-1-1-1,lower-alpha)"beltextrmalph"; }
+#sec_Relations-38-1-1-1 > li { counter-increment: sec_Relations-38-1-1-1; }
+#sec_Relations-39-1-1-1 { counter-set: sec_Relations-39-1-1-1 0; }
+#sec_Relations-39-1-1-1 > li::marker { content: "l"counter(sec_Relations-39-1-1-1,lower-alpha)"beltextrmalph"; }
+#sec_Relations-39-1-1-1 > li { counter-increment: sec_Relations-39-1-1-1; }
+#sec_Relations-40-1-1-3 { counter-set: sec_Relations-40-1-1-3 0; }
+#sec_Relations-40-1-1-3 > li::marker { content: "l"counter(sec_Relations-40-1-1-3,lower-alpha)"beltextrmalph"; }
+#sec_Relations-40-1-1-3 > li { counter-increment: sec_Relations-40-1-1-3; }
+#sec_Relations-41-1-1-2 { counter-set: sec_Relations-41-1-1-2 0; }
+#sec_Relations-41-1-1-2 > li::marker { content: "l"counter(sec_Relations-41-1-1-2,lower-alpha)"beltextrmalph"; }
+#sec_Relations-41-1-1-2 > li { counter-increment: sec_Relations-41-1-1-2; }
+#prob_lots_of_relations-1-1-1 { counter-set: prob_lots_of_relations-1-1-1 0; }
+#prob_lots_of_relations-1-1-1 > li::marker { content: "l"counter(prob_lots_of_relations-1-1-1,lower-alpha)"beltextrmalph"; }
+#prob_lots_of_relations-1-1-1 > li { counter-increment: prob_lots_of_relations-1-1-1; }
+#prob_digraph-1-2-2 { counter-set: prob_digraph-1-2-2 0; }
+#prob_digraph-1-2-2 > li::marker { content: "l"counter(prob_digraph-1-2-2,lower-alpha)"beltextrmalph"; }
+#prob_digraph-1-2-2 > li { counter-increment: prob_digraph-1-2-2; }
+#prob_made_up-1-1-2 { counter-set: prob_made_up-1-1-2 0; }
+#prob_made_up-1-1-2 > li::marker { content: "l"counter(prob_made_up-1-1-2,lower-alpha)"beltextrmalph"; }
+#prob_made_up-1-1-2 > li { counter-increment: prob_made_up-1-1-2; }
+#thm_equiv_yields_partition-1-1-3 { counter-set: thm_equiv_yields_partition-1-1-3 0; }
+#thm_equiv_yields_partition-1-1-3 > li::marker { content: "l"counter(thm_equiv_yields_partition-1-1-3,lower-alpha)"beltextrmalph"; }
+#thm_equiv_yields_partition-1-1-3 > li { counter-increment: thm_equiv_yields_partition-1-1-3; }
+#def_partition-1-1-5 { counter-set: def_partition-1-1-5 0; }
+#def_partition-1-1-5 > li::marker { content: "l"counter(def_partition-1-1-5,lower-alpha)"beltextrmalph"; }
+#def_partition-1-1-5 > li { counter-increment: def_partition-1-1-5; }
+#sec_Partitions-5-1-1-1 { counter-set: sec_Partitions-5-1-1-1 0; }
+#sec_Partitions-5-1-1-1 > li::marker { content: "l"counter(sec_Partitions-5-1-1-1,lower-alpha)"beltextrmalph"; }
+#sec_Partitions-5-1-1-1 > li { counter-increment: sec_Partitions-5-1-1-1; }
+#sec_Partitions-7-1-1-3 { counter-set: sec_Partitions-7-1-1-3 0; }
+#sec_Partitions-7-1-1-3 > li::marker { content: "l"counter(sec_Partitions-7-1-1-3,lower-alpha)"beltextrmalph"; }
+#sec_Partitions-7-1-1-3 > li { counter-increment: sec_Partitions-7-1-1-3; }
+#sec_Partitions-8-1-1-2 { counter-set: sec_Partitions-8-1-1-2 0; }
+#sec_Partitions-8-1-1-2 > li::marker { content: "l"counter(sec_Partitions-8-1-1-2,lower-alpha)"beltextrmalph"; }
+#sec_Partitions-8-1-1-2 > li { counter-increment: sec_Partitions-8-1-1-2; }
+#sec_Partitions-22-1-1-3 { counter-set: sec_Partitions-22-1-1-3 0; }
+#sec_Partitions-22-1-1-3 > li::marker { content: "l"counter(sec_Partitions-22-1-1-3,lower-alpha)"beltextrmalph"; }
+#sec_Partitions-22-1-1-3 > li { counter-increment: sec_Partitions-22-1-1-3; }
+#sec_ModularArithmetic-5-1-1-5 { counter-set: sec_ModularArithmetic-5-1-1-5 0; }
+#sec_ModularArithmetic-5-1-1-5 > li::marker { content: "l"counter(sec_ModularArithmetic-5-1-1-5,lower-alpha)"beltextrmalph"; }
+#sec_ModularArithmetic-5-1-1-5 > li { counter-increment: sec_ModularArithmetic-5-1-1-5; }
+#sec_ModularArithmetic-15-1-1-3 { counter-set: sec_ModularArithmetic-15-1-1-3 0; }
+#sec_ModularArithmetic-15-1-1-3 > li::marker { content: "l"counter(sec_ModularArithmetic-15-1-1-3,lower-alpha)"beltextrmalph"; }
+#sec_ModularArithmetic-15-1-1-3 > li { counter-increment: sec_ModularArithmetic-15-1-1-3; }
+#sec_ModularArithmetic-23-1-1-5 { counter-set: sec_ModularArithmetic-23-1-1-5 0; }
+#sec_ModularArithmetic-23-1-1-5 > li::marker { content: "l"counter(sec_ModularArithmetic-23-1-1-5,lower-alpha)"beltextrmalph"; }
+#sec_ModularArithmetic-23-1-1-5 > li { counter-increment: sec_ModularArithmetic-23-1-1-5; }
+#thm_modular_add_comm_assoc-1-1-4 { counter-set: thm_modular_add_comm_assoc-1-1-4 0; }
+#thm_modular_add_comm_assoc-1-1-4 > li::marker { content: "l"counter(thm_modular_add_comm_assoc-1-1-4,lower-alpha)"beltextrmalph"; }
+#thm_modular_add_comm_assoc-1-1-4 > li { counter-increment: thm_modular_add_comm_assoc-1-1-4; }
+#thm_modular_mult_comm_assoc-1-1-4 { counter-set: thm_modular_mult_comm_assoc-1-1-4 0; }
+#thm_modular_mult_comm_assoc-1-1-4 > li::marker { content: "l"counter(thm_modular_mult_comm_assoc-1-1-4,lower-alpha)"beltextrmalph"; }
+#thm_modular_mult_comm_assoc-1-1-4 > li { counter-increment: thm_modular_mult_comm_assoc-1-1-4; }
+#thm_modular_sums_products-1-1-4 { counter-set: thm_modular_sums_products-1-1-4 0; }
+#thm_modular_sums_products-1-1-4 > li::marker { content: "l"counter(thm_modular_sums_products-1-1-4,lower-alpha)"beltextrmalph"; }
+#thm_modular_sums_products-1-1-4 > li { counter-increment: thm_modular_sums_products-1-1-4; }
+#sec_ModularArithmetic-36-1-1-4 { counter-set: sec_ModularArithmetic-36-1-1-4 0; }
+#sec_ModularArithmetic-36-1-1-4 > li::marker { content: "l"counter(sec_ModularArithmetic-36-1-1-4,lower-alpha)"beltextrmalph"; }
+#sec_ModularArithmetic-36-1-1-4 > li { counter-increment: sec_ModularArithmetic-36-1-1-4; }
+#sec_Intro_to_Functions-10-1-1-1 { counter-set: sec_Intro_to_Functions-10-1-1-1 0; }
+#sec_Intro_to_Functions-10-1-1-1 > li::marker { content: "l"counter(sec_Intro_to_Functions-10-1-1-1,lower-alpha)"beltextrmalph"; }
+#sec_Intro_to_Functions-10-1-1-1 > li { counter-increment: sec_Intro_to_Functions-10-1-1-1; }
+#prob_lots_of_potential_functions-1-1-9 { counter-set: prob_lots_of_potential_functions-1-1-9 0; }
+#prob_lots_of_potential_functions-1-1-9 > li::marker { content: "l"counter(prob_lots_of_potential_functions-1-1-9,lower-alpha)"beltextrmalph"; }
+#prob_lots_of_potential_functions-1-1-9 > li { counter-increment: prob_lots_of_potential_functions-1-1-9; }
+#sec_Intro_to_Functions-19-1-1-1 { counter-set: sec_Intro_to_Functions-19-1-1-1 0; }
+#sec_Intro_to_Functions-19-1-1-1 > li::marker { content: "l"counter(sec_Intro_to_Functions-19-1-1-1,lower-alpha)"beltextrmalph"; }
+#sec_Intro_to_Functions-19-1-1-1 > li { counter-increment: sec_Intro_to_Functions-19-1-1-1; }
+#sec_Intro_to_Functions-29-1-1-2 { counter-set: sec_Intro_to_Functions-29-1-1-2 0; }
+#sec_Intro_to_Functions-29-1-1-2 > li::marker { content: "l"counter(sec_Intro_to_Functions-29-1-1-2,lower-alpha)"beltextrmalph"; }
+#sec_Intro_to_Functions-29-1-1-2 > li { counter-increment: sec_Intro_to_Functions-29-1-1-2; }
+#prob_not_well_defined-1-1-1 { counter-set: prob_not_well_defined-1-1-1 0; }
+#prob_not_well_defined-1-1-1 > li::marker { content: "l"counter(prob_not_well_defined-1-1-1,lower-alpha)"beltextrmalph"; }
+#prob_not_well_defined-1-1-1 > li { counter-increment: prob_not_well_defined-1-1-1; }
+#prob_well_defined-1-1-1 { counter-set: prob_well_defined-1-1-1 0; }
+#prob_well_defined-1-1-1 > li::marker { content: "l"counter(prob_well_defined-1-1-1,lower-alpha)"beltextrmalph"; }
+#prob_well_defined-1-1-1 > li { counter-increment: prob_well_defined-1-1-1; }
+#sec_Injective_and_Surjective_Functions-3-1-1-2 { counter-set: sec_Injective_and_Surjective_Functions-3-1-1-2 0; }
+#sec_Injective_and_Surjective_Functions-3-1-1-2 > li::marker { content: "l"counter(sec_Injective_and_Surjective_Functions-3-1-1-2,lower-alpha)"beltextrmalph"; }
+#sec_Injective_and_Surjective_Functions-3-1-1-2 > li { counter-increment: sec_Injective_and_Surjective_Functions-3-1-1-2; }
+#sec_Injective_and_Surjective_Functions-4-1-1-1 { counter-set: sec_Injective_and_Surjective_Functions-4-1-1-1 0; }
+#sec_Injective_and_Surjective_Functions-4-1-1-1 > li::marker { content: "l"counter(sec_Injective_and_Surjective_Functions-4-1-1-1,lower-alpha)"beltextrmalph"; }
+#sec_Injective_and_Surjective_Functions-4-1-1-1 > li { counter-increment: sec_Injective_and_Surjective_Functions-4-1-1-1; }
+#sec_Injective_and_Surjective_Functions-5-1-1-3 { counter-set: sec_Injective_and_Surjective_Functions-5-1-1-3 0; }
+#sec_Injective_and_Surjective_Functions-5-1-1-3 > li::marker { content: "l"counter(sec_Injective_and_Surjective_Functions-5-1-1-3,lower-alpha)"beltextrmalph"; }
+#sec_Injective_and_Surjective_Functions-5-1-1-3 > li { counter-increment: sec_Injective_and_Surjective_Functions-5-1-1-3; }
+#sec_Injective_and_Surjective_Functions-6-1-1-1 { counter-set: sec_Injective_and_Surjective_Functions-6-1-1-1 0; }
+#sec_Injective_and_Surjective_Functions-6-1-1-1 > li::marker { content: "l"counter(sec_Injective_and_Surjective_Functions-6-1-1-1,lower-alpha)"beltextrmalph"; }
+#sec_Injective_and_Surjective_Functions-6-1-1-1 > li { counter-increment: sec_Injective_and_Surjective_Functions-6-1-1-1; }
+#prob_injective_surjective_functions-1-1-3 { counter-set: prob_injective_surjective_functions-1-1-3 0; }
+#prob_injective_surjective_functions-1-1-3 > li::marker { content: "l"counter(prob_injective_surjective_functions-1-1-3,lower-alpha)"beltextrmalph"; }
+#prob_injective_surjective_functions-1-1-3 > li { counter-increment: prob_injective_surjective_functions-1-1-3; }
+#sec_Injective_and_Surjective_Functions-20-1-1-15 { counter-set: sec_Injective_and_Surjective_Functions-20-1-1-15 0; }
+#sec_Injective_and_Surjective_Functions-20-1-1-15 > li::marker { content: "l"counter(sec_Injective_and_Surjective_Functions-20-1-1-15,lower-alpha)"beltextrmalph"; }
+#sec_Injective_and_Surjective_Functions-20-1-1-15 > li { counter-increment: sec_Injective_and_Surjective_Functions-20-1-1-15; }
+#sec_Injective_and_Surjective_Functions-26-1-1-3 { counter-set: sec_Injective_and_Surjective_Functions-26-1-1-3 0; }
+#sec_Injective_and_Surjective_Functions-26-1-1-3 > li::marker { content: "l"counter(sec_Injective_and_Surjective_Functions-26-1-1-3,lower-alpha)"beltextrmalph"; }
+#sec_Injective_and_Surjective_Functions-26-1-1-3 > li { counter-increment: sec_Injective_and_Surjective_Functions-26-1-1-3; }
+#prob_equiv_classes_from_preimages-1-1-2 { counter-set: prob_equiv_classes_from_preimages-1-1-2 0; }
+#prob_equiv_classes_from_preimages-1-1-2 > li::marker { content: "l"counter(prob_equiv_classes_from_preimages-1-1-2,lower-alpha)"beltextrmalph"; }
+#prob_equiv_classes_from_preimages-1-1-2 > li { counter-increment: prob_equiv_classes_from_preimages-1-1-2; }
+#prob_iso_theorem_for_sets-1-1-4 { counter-set: prob_iso_theorem_for_sets-1-1-4 0; }
+#prob_iso_theorem_for_sets-1-1-4 > li::marker { content: "l"counter(prob_iso_theorem_for_sets-1-1-4,lower-alpha)"beltextrmalph"; }
+#prob_iso_theorem_for_sets-1-1-4 > li { counter-increment: prob_iso_theorem_for_sets-1-1-4; }
+#prob_Z_to_Z_mod_4-1-1-13 { counter-set: prob_Z_to_Z_mod_4-1-1-13 0; }
+#prob_Z_to_Z_mod_4-1-1-13 > li::marker { content: "l"counter(prob_Z_to_Z_mod_4-1-1-13,lower-alpha)"beltextrmalph"; }
+#prob_Z_to_Z_mod_4-1-1-13 > li { counter-increment: prob_Z_to_Z_mod_4-1-1-13; }
+#sec_Injective_and_Surjective_Functions-40-1-1-4 { counter-set: sec_Injective_and_Surjective_Functions-40-1-1-4 0; }
+#sec_Injective_and_Surjective_Functions-40-1-1-4 > li::marker { content: "l"counter(sec_Injective_and_Surjective_Functions-40-1-1-4,lower-alpha)"beltextrmalph"; }
+#sec_Injective_and_Surjective_Functions-40-1-1-4 > li { counter-increment: sec_Injective_and_Surjective_Functions-40-1-1-4; }
+#sec_Compositions_and_Inverse_Functions-6-1-2-2 { counter-set: sec_Compositions_and_Inverse_Functions-6-1-2-2 0; }
+#sec_Compositions_and_Inverse_Functions-6-1-2-2 > li::marker { content: "l"counter(sec_Compositions_and_Inverse_Functions-6-1-2-2,lower-alpha)"beltextrmalph"; }
+#sec_Compositions_and_Inverse_Functions-6-1-2-2 > li { counter-increment: sec_Compositions_and_Inverse_Functions-6-1-2-2; }
+#sec_Compositions_and_Inverse_Functions-16-1-1-6 { counter-set: sec_Compositions_and_Inverse_Functions-16-1-1-6 0; }
+#sec_Compositions_and_Inverse_Functions-16-1-1-6 > li::marker { content: "l"counter(sec_Compositions_and_Inverse_Functions-16-1-1-6,lower-alpha)"beltextrmalph"; }
+#sec_Compositions_and_Inverse_Functions-16-1-1-6 > li { counter-increment: sec_Compositions_and_Inverse_Functions-16-1-1-6; }
+#sec_Compositions_and_Inverse_Functions-20-1-1-3 { counter-set: sec_Compositions_and_Inverse_Functions-20-1-1-3 0; }
+#sec_Compositions_and_Inverse_Functions-20-1-1-3 > li::marker { content: "l"counter(sec_Compositions_and_Inverse_Functions-20-1-1-3,lower-alpha)"beltextrmalph"; }
+#sec_Compositions_and_Inverse_Functions-20-1-1-3 > li { counter-increment: sec_Compositions_and_Inverse_Functions-20-1-1-3; }
+#sec_Compositions_and_Inverse_Functions-25-1-1-1 { counter-set: sec_Compositions_and_Inverse_Functions-25-1-1-1 0; }
+#sec_Compositions_and_Inverse_Functions-25-1-1-1 > li::marker { content: "l"counter(sec_Compositions_and_Inverse_Functions-25-1-1-1,lower-alpha)"beltextrmalph"; }
+#sec_Compositions_and_Inverse_Functions-25-1-1-1 > li { counter-increment: sec_Compositions_and_Inverse_Functions-25-1-1-1; }
+#sec_Compositions_and_Inverse_Functions-27-1-1-5 { counter-set: sec_Compositions_and_Inverse_Functions-27-1-1-5 0; }
+#sec_Compositions_and_Inverse_Functions-27-1-1-5 > li::marker { content: "l"counter(sec_Compositions_and_Inverse_Functions-27-1-1-5,lower-alpha)"beltextrmalph"; }
+#sec_Compositions_and_Inverse_Functions-27-1-1-5 > li { counter-increment: sec_Compositions_and_Inverse_Functions-27-1-1-5; }
+#thm_comp_of_inverses-1-1-2 { counter-set: thm_comp_of_inverses-1-1-2 0; }
+#thm_comp_of_inverses-1-1-2 > li::marker { content: "l"counter(thm_comp_of_inverses-1-1-2,lower-alpha)"beltextrmalph"; }
+#thm_comp_of_inverses-1-1-2 > li { counter-increment: thm_comp_of_inverses-1-1-2; }
+#sec_Images_and_Preimages-3-1-1-2 { counter-set: sec_Images_and_Preimages-3-1-1-2 0; }
+#sec_Images_and_Preimages-3-1-1-2 > li::marker { content: "l"counter(sec_Images_and_Preimages-3-1-1-2,lower-alpha)"beltextrmalph"; }
+#sec_Images_and_Preimages-3-1-1-2 > li { counter-increment: sec_Images_and_Preimages-3-1-1-2; }
+#sec_Images_and_Preimages-6-1-1-3 { counter-set: sec_Images_and_Preimages-6-1-1-3 0; }
+#sec_Images_and_Preimages-6-1-1-3 > li::marker { content: "l"counter(sec_Images_and_Preimages-6-1-1-3,lower-alpha)"beltextrmalph"; }
+#sec_Images_and_Preimages-6-1-1-3 > li { counter-increment: sec_Images_and_Preimages-6-1-1-3; }
+#sec_Images_and_Preimages-7-1-1-3 { counter-set: sec_Images_and_Preimages-7-1-1-3 0; }
+#sec_Images_and_Preimages-7-1-1-3 > li::marker { content: "l"counter(sec_Images_and_Preimages-7-1-1-3,lower-alpha)"beltextrmalph"; }
+#sec_Images_and_Preimages-7-1-1-3 > li { counter-increment: sec_Images_and_Preimages-7-1-1-3; }
+#sec_Images_and_Preimages-8-1-1-3 { counter-set: sec_Images_and_Preimages-8-1-1-3 0; }
+#sec_Images_and_Preimages-8-1-1-3 > li::marker { content: "l"counter(sec_Images_and_Preimages-8-1-1-3,lower-alpha)"beltextrmalph"; }
+#sec_Images_and_Preimages-8-1-1-3 > li { counter-increment: sec_Images_and_Preimages-8-1-1-3; }
+#sec_Images_and_Preimages-11-1-1-4 { counter-set: sec_Images_and_Preimages-11-1-1-4 0; }
+#sec_Images_and_Preimages-11-1-1-4 > li::marker { content: "l"counter(sec_Images_and_Preimages-11-1-1-4,lower-alpha)"beltextrmalph"; }
+#sec_Images_and_Preimages-11-1-1-4 > li { counter-increment: sec_Images_and_Preimages-11-1-1-4; }
+#thm_unions_and_intersections_of_images-1-1-4 { counter-set: thm_unions_and_intersections_of_images-1-1-4 0; }
+#thm_unions_and_intersections_of_images-1-1-4 > li::marker { content: "l"counter(thm_unions_and_intersections_of_images-1-1-4,lower-alpha)"beltextrmalph"; }
+#thm_unions_and_intersections_of_images-1-1-4 > li { counter-increment: thm_unions_and_intersections_of_images-1-1-4; }
+#thm_unions_and_intersections_of_preimages-1-1-4 { counter-set: thm_unions_and_intersections_of_preimages-1-1-4 0; }
+#thm_unions_and_intersections_of_preimages-1-1-4 > li::marker { content: "l"counter(thm_unions_and_intersections_of_preimages-1-1-4,lower-alpha)"beltextrmalph"; }
+#thm_unions_and_intersections_of_preimages-1-1-4 > li { counter-increment: thm_unions_and_intersections_of_preimages-1-1-4; }
+#sec_Images_and_Preimages-17-1-1-4 { counter-set: sec_Images_and_Preimages-17-1-1-4 0; }
+#sec_Images_and_Preimages-17-1-1-4 > li::marker { content: "l"counter(sec_Images_and_Preimages-17-1-1-4,lower-alpha)"beltextrmalph"; }
+#sec_Images_and_Preimages-17-1-1-4 > li { counter-increment: sec_Images_and_Preimages-17-1-1-4; }
+#sec_Continuity-11-1-1-2 { counter-set: sec_Continuity-11-1-1-2 0; }
+#sec_Continuity-11-1-1-2 > li::marker { content: "l"counter(sec_Continuity-11-1-1-2,lower-alpha)"beltextrmalph"; }
+#sec_Continuity-11-1-1-2 > li { counter-increment: sec_Continuity-11-1-1-2; }
+#sec_Continuity-15-1-1-3 { counter-set: sec_Continuity-15-1-1-3 0; }
+#sec_Continuity-15-1-1-3 > li::marker { content: "l"counter(sec_Continuity-15-1-1-3,lower-alpha)"beltextrmalph"; }
+#sec_Continuity-15-1-1-3 > li { counter-increment: sec_Continuity-15-1-1-3; }
+#prob_cardinalityPractice-1-1-1 { counter-set: prob_cardinalityPractice-1-1-1 0; }
+#prob_cardinalityPractice-1-1-1 > li::marker { content: "l"counter(prob_cardinalityPractice-1-1-1,lower-alpha)"beltextrmalph"; }
+#prob_cardinalityPractice-1-1-1 > li { counter-increment: prob_cardinalityPractice-1-1-1; }
+#sec_Intro_to_Cardinality-16-1-1-15 { counter-set: sec_Intro_to_Cardinality-16-1-1-15 0; }
+#sec_Intro_to_Cardinality-16-1-1-15 > li::marker { content: "l"counter(sec_Intro_to_Cardinality-16-1-1-15,lower-alpha)"beltextrmalph"; }
+#sec_Intro_to_Cardinality-16-1-1-15 > li { counter-increment: sec_Intro_to_Cardinality-16-1-1-15; }
+#sec_Intro_to_Cardinality-18-1-1-4 { counter-set: sec_Intro_to_Cardinality-18-1-1-4 0; }
+#sec_Intro_to_Cardinality-18-1-1-4 > li::marker { content: "l"counter(sec_Intro_to_Cardinality-18-1-1-4,lower-alpha)"beltextrmalph"; }
+#sec_Intro_to_Cardinality-18-1-1-4 > li { counter-increment: sec_Intro_to_Cardinality-18-1-1-4; }
+#sec_Intro_to_Cardinality-20-1-1-4 { counter-set: sec_Intro_to_Cardinality-20-1-1-4 0; }
+#sec_Intro_to_Cardinality-20-1-1-4 > li::marker { content: "l"counter(sec_Intro_to_Cardinality-20-1-1-4,lower-alpha)"beltextrmalph"; }
+#sec_Intro_to_Cardinality-20-1-1-4 > li { counter-increment: sec_Intro_to_Cardinality-20-1-1-4; }
+#sec_Intro_to_Cardinality-23-1-1-7 { counter-set: sec_Intro_to_Cardinality-23-1-1-7 0; }
+#sec_Intro_to_Cardinality-23-1-1-7 > li::marker { content: "l"counter(sec_Intro_to_Cardinality-23-1-1-7,lower-alpha)"beltextrmalph"; }
+#sec_Intro_to_Cardinality-23-1-1-7 > li { counter-increment: sec_Intro_to_Cardinality-23-1-1-7; }
+#sec_Intro_to_Cardinality-26-1-1-4 { counter-set: sec_Intro_to_Cardinality-26-1-1-4 0; }
+#sec_Intro_to_Cardinality-26-1-1-4 > li::marker { content: "l"counter(sec_Intro_to_Cardinality-26-1-1-4,lower-alpha)"beltextrmalph"; }
+#sec_Intro_to_Cardinality-26-1-1-4 > li { counter-increment: sec_Intro_to_Cardinality-26-1-1-4; }
+#prob_someInfiniteSets-1-1-4 { counter-set: prob_someInfiniteSets-1-1-4 0; }
+#prob_someInfiniteSets-1-1-4 > li::marker { content: "l"counter(prob_someInfiniteSets-1-1-4,lower-alpha)"beltextrmalph"; }
+#prob_someInfiniteSets-1-1-4 > li { counter-increment: prob_someInfiniteSets-1-1-4; }
+#sec_Infinite_Sets-11-1-1-2 { counter-set: sec_Infinite_Sets-11-1-1-2 0; }
+#sec_Infinite_Sets-11-1-1-2 > li::marker { content: "l"counter(sec_Infinite_Sets-11-1-1-2,lower-alpha)"beltextrmroman"; }
+#sec_Infinite_Sets-11-1-1-2 > li { counter-increment: sec_Infinite_Sets-11-1-1-2; }
+#thm_infiniteSetTFAE-1-1-1 { counter-set: thm_infiniteSetTFAE-1-1-1 0; }
+#thm_infiniteSetTFAE-1-1-1 > li::marker { content: "l"counter(thm_infiniteSetTFAE-1-1-1,lower-alpha)"beltextrmroman"; }
+#thm_infiniteSetTFAE-1-1-1 > li { counter-increment: thm_infiniteSetTFAE-1-1-1; }
+#prob_moreInfiniteSets-1-1-3 { counter-set: prob_moreInfiniteSets-1-1-3 0; }
+#prob_moreInfiniteSets-1-1-3 > li::marker { content: "l"counter(prob_moreInfiniteSets-1-1-3,lower-alpha)"beltextrmalph"; }
+#prob_moreInfiniteSets-1-1-3 > li { counter-increment: prob_moreInfiniteSets-1-1-3; }
+#sec_Countable_Sets-6-1-1-1 { counter-set: sec_Countable_Sets-6-1-1-1 0; }
+#sec_Countable_Sets-6-1-1-1 > li::marker { content: "l"counter(sec_Countable_Sets-6-1-1-1,lower-alpha)"beltextrmalph"; }
+#sec_Countable_Sets-6-1-1-1 > li { counter-increment: sec_Countable_Sets-6-1-1-1; }
+#thm_retool_infinite_collection-1-2-1 { counter-set: thm_retool_infinite_collection-1-2-1 0; }
+#thm_retool_infinite_collection-1-2-1 > li::marker { content: "l"counter(thm_retool_infinite_collection-1-2-1,lower-alpha)"beltextrmalph"; }
+#thm_retool_infinite_collection-1-2-1 > li { counter-increment: thm_retool_infinite_collection-1-2-1; }
+#sec_Countable_Sets-20-1 { counter-set: sec_Countable_Sets-20-1 0; }
+#sec_Countable_Sets-20-1 > li::marker { content: ""counter(sec_Countable_Sets-20-1,decimal)"."; }
+#sec_Countable_Sets-20-1 > li { counter-increment: sec_Countable_Sets-20-1; }
+#sec_Uncountable_Sets-5-1-1-14 { counter-set: sec_Uncountable_Sets-5-1-1-14 0; }
+#sec_Uncountable_Sets-5-1-1-14 > li::marker { content: "l"counter(sec_Uncountable_Sets-5-1-1-14,lower-alpha)"beltextrmalph"; }
+#sec_Uncountable_Sets-5-1-1-14 > li { counter-increment: sec_Uncountable_Sets-5-1-1-14; }
+#sec_Uncountable_Sets-18-1-1-1 { counter-set: sec_Uncountable_Sets-18-1-1-1 0; }
+#sec_Uncountable_Sets-18-1-1-1 > li::marker { content: "l"counter(sec_Uncountable_Sets-18-1-1-1,lower-alpha)"beltextrmalph"; }
+#sec_Uncountable_Sets-18-1-1-1 > li { counter-increment: sec_Uncountable_Sets-18-1-1-1; }
+#appendix_elements_of_style-2-1 { counter-set: appendix_elements_of_style-2-1 0; }
+#appendix_elements_of_style-2-1 > li::marker { content: ""counter(appendix_elements_of_style-2-1,decimal)"."; }
+#appendix_elements_of_style-2-1 > li { counter-increment: appendix_elements_of_style-2-1; }
+#appendix_fancy_math_terms-2-1 { counter-set: appendix_fancy_math_terms-2-1 0; }
+#appendix_fancy_math_terms-2-1 > li::marker { content: ""counter(appendix_fancy_math_terms-2-1,decimal)"."; }
+#appendix_fancy_math_terms-2-1 > li { counter-increment: appendix_fancy_math_terms-2-1; }
+#appendix_paradoxes-3-1 { counter-set: appendix_paradoxes-3-1 0; }
+#appendix_paradoxes-3-1 > li::marker { content: ""counter(appendix_paradoxes-3-1,decimal)"."; }
+#appendix_paradoxes-3-1 > li { counter-increment: appendix_paradoxes-3-1; }
+</style>
 </head>
 <body class="pretext book ignore-math">
 <a class="assistive" href="#ptx-content">Skip to main content</a><header id="ptx-masthead" class="ptx-masthead"><div class="ptx-banner">
 <a id="logo-link" class="logo-link" target="_blank" href=""></a><div class="title-container">
-<h1 class="heading"><a href="root--1-2.html"><span class="title">An Introduction to Proof via Inquiry-Based Learning</span></a></h1>
+<h1 class="heading"><a href="root-1-2.html"><span class="title">An Introduction to Proof via Inquiry-Based Learning</span></a></h1>
 <p class="byline">Dana C. Ernst, PhD</p>
 </div>
-</div></header><nav id="ptx-navbar" class="ptx-navbar navbar"><button class="toc-toggle button" title="Contents"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5d2;</span><span class="name">Contents</span></button><div class="searchbox">
+</div></header><nav id="ptx-navbar" class="ptx-navbar navbar"><div class="ptx-navbar-contents">
+<button class="toc-toggle button" title="Contents"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5d2;</span><span class="name">Contents</span></button><div class="searchbox">
 <div class="searchwidget"><button id="searchbutton" class="searchbutton button" type="button" title="Search book"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8b6;</span><span class="name">Search Book</span></button></div>
 <div id="searchresultsplaceholder" class="searchresultsplaceholder" style="display: none">
 <div class="search-results-controls">
@@ -107,7 +601,8 @@ window.MathJax = {
 <ol id="searchresults" class="searchresults"></ol>
 </div>
 </div>
-<span class="nav-other-controls"></span><span class="treebuttons"><a class="previous-button button" href="sec_Partitions.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="chap_Relations_and_Partitions.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><a class="next-button button" href="chap_Functions.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\newcommand{\dom}{\operatorname{Dom}}
+<span class="nav-other-controls"><button id="light-dark-button" class="light-dark-button button" title="Dark Mode"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe51c;</span><span class="name">Dark Mode</span></button></span><span class="treebuttons"><a class="previous-button button" href="sec_Partitions.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="chap_Relations_and_Partitions.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><a class="next-button button" href="chap_Functions.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span>
+</div></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\newcommand{\dom}{\operatorname{Dom}}
 \newcommand{\codom}{\operatorname{Codom}}
 \newcommand{\range}{\operatorname{Rng}}
 \newcommand{\lcm}{\operatorname{lcm}}
@@ -126,11 +621,11 @@ window.MathJax = {
 \newcommand{\fillinmath}[1]{\mathchoice{\colorbox{fillinmathshade}{$\displaystyle     \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\textstyle        \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptstyle      \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptscriptstyle\phantom{\,#1\,}$}}}
 \)</span></div>
 <div class="ptx-page">
-<div id="ptx-sidebar" class="ptx-sidebar"><nav id="ptx-toc" class="ptx-toc depth2"><ul class="structural contains-active toc-item-list">
+<div id="ptx-sidebar" class="ptx-sidebar"><nav id="ptx-toc" class="ptx-toc depth2 focused" data-preexpanded-levels="0" data-max-levels="2"><ul class="structural toc-item-list contains-active">
 <li class="toc-item toc-frontmatter">
-<div class="toc-title-box"><a href="root--1-2-2.html" class="internal"><span class="title">Front Matter</span></a></div>
+<div class="toc-title-box"><a href="root-1-2-2.html" class="internal"><span class="title">Front Matter</span></a></div>
 <ul class="structural toc-item-list">
-<li class="toc-item toc-colophon"><div class="toc-title-box"><a href="colophon.html" class="internal"><span class="title">Colophon</span></a></div></li>
+<li class="toc-item toc-colophon"><div class="toc-title-box"><a href="front-colophon.html" class="internal"><span class="title">Colophon</span></a></div></li>
 <li class="toc-item toc-preface"><div class="toc-title-box"><a href="chap_preface.html" class="internal"><span class="title">Preface</span></a></div></li>
 <li class="toc-item toc-acknowledgement"><div class="toc-title-box"><a href="chap_acknowledgements.html" class="internal"><span class="title">Acknowledgements</span></a></div></li>
 </ul>
@@ -244,7 +739,7 @@ window.MathJax = {
 <div class="para logical" id="sec_ModularArithmetic-5-1-1">
 <div class="para">Consider the sets <span class="process-math">\(3 \mathbb{Z}\text{,}\)</span> <span class="process-math">\(5 \mathbb{Z}\text{,}\)</span> <span class="process-math">\(15 \mathbb{Z}\text{,}\)</span> and <span class="process-math">\(20 \mathbb{Z}\text{.}\)</span>
 </div>
-<ol class="lower-alpha">
+<ol class="lower-alpha" id="sec_ModularArithmetic-5-1-1-5">
 <li id="sec_ModularArithmetic-5-1-1-5-1"><div class="para" id="sec_ModularArithmetic-5-1-1-5-1-1">List at least five elements in each of the above sets.</div></li>
 <li id="sec_ModularArithmetic-5-1-1-5-2"><div class="para" id="sec_ModularArithmetic-5-1-1-5-2-1">Notice that <span class="process-math">\(3 \mathbb{Z} \cap5 \mathbb{Z} = n\mathbb{Z}\)</span> for some <span class="process-math">\(n\in \mathbb{N}\text{.}\)</span> What is <span class="process-math">\(n\text{?}\)</span> Describe <span class="process-math">\(15\mathbb{Z}\cap 20 \mathbb{Z}\)</span> in a similar way.</div></li>
 <li id="sec_ModularArithmetic-5-1-1-5-3"><div class="para" id="sec_ModularArithmetic-5-1-1-5-3-1">Draw a Venn diagram illustrating how the sets <span class="process-math">\(3\mathbb{Z}\text{,}\)</span> <span class="process-math">\(5\mathbb{Z}\text{,}\)</span> and <span class="process-math">\(15\mathbb{Z}\)</span> intersect.</div></li>
@@ -263,7 +758,7 @@ window.MathJax = {
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">7.80</span><span class="period">.</span>
 </h3>
 <div class="para logical" id="sec_ModularArithmetic-9-1-1">
-<div class="para">We encountered <span class="process-math">\(\equiv_5\)</span> in <a href="" class="xref" data-knowl="./knowl/xref/prob_mod_5.html" title="Problem 7.22">Problem 7.22</a> and discovered that there were five distinct sets of relatives. In particular, we have</div>
+<div class="para">We encountered <span class="process-math">\(\equiv_5\)</span> in <a href="sec_Relations.html#prob_mod_5" class="xref" data-knowl="./knowl/xref/prob_mod_5.html" data-reveal-label="Reveal" data-close-label="Close" title="Problem 7.22">Problem 7.22</a> and discovered that there were five distinct sets of relatives. In particular, we have</div>
 <div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/prob_mod_5.html" id="sec_ModularArithmetic-9-1-1-3">
 \begin{align*}
 \rel(0) \amp  = \{\ldots, -10, -5, 0, 5, 10,\ldots\}\\
@@ -273,7 +768,7 @@ window.MathJax = {
 \rel(4) \amp  = \{\ldots, -6, -1, 4, 9, 14,\ldots\}\text{.}
 \end{align*}
 </div>
-</div> <div class="para" id="sec_ModularArithmetic-9-1-2">Notice that this collection forms a partition of <span class="process-math">\(\mathbb{Z}\text{.}\)</span> By <a href="" class="xref" data-knowl="./knowl/xref/thm_partition_yields_equivalence_relation2.html" title="Theorem 7.74">Theorem 7.74</a>, the relation <span class="process-math">\(\equiv_5\)</span> must be an equivalence relation.</div></article><div class="para" id="sec_ModularArithmetic-10">The previous example generalizes as expected. You can prove the following theorem by either proving that <span class="process-math">\(\equiv_n\)</span> is reflexive, symmetric, and transitive or by utilizing <a href="" class="xref" data-knowl="./knowl/xref/thm_partition_yields_equivalence_relation2.html" title="Theorem 7.74">Theorem 7.74</a>.</div>
+</div> <div class="para" id="sec_ModularArithmetic-9-1-2">Notice that this collection forms a partition of <span class="process-math">\(\mathbb{Z}\text{.}\)</span> By <a href="sec_Partitions.html#thm_partition_yields_equivalence_relation2" class="xref" data-knowl="./knowl/xref/thm_partition_yields_equivalence_relation2.html" data-reveal-label="Reveal" data-close-label="Close" title="Theorem 7.74">Theorem 7.74</a>, the relation <span class="process-math">\(\equiv_5\)</span> must be an equivalence relation.</div></article><div class="para" id="sec_ModularArithmetic-10">The previous example generalizes as expected. You can prove the following theorem by either proving that <span class="process-math">\(\equiv_n\)</span> is reflexive, symmetric, and transitive or by utilizing <a href="sec_Partitions.html#thm_partition_yields_equivalence_relation2" class="xref" data-knowl="./knowl/xref/thm_partition_yields_equivalence_relation2.html" data-reveal-label="Reveal" data-close-label="Close" title="Theorem 7.74">Theorem 7.74</a>.</div>
 <article class="theorem theorem-like" id="sec_ModularArithmetic-11"><h3 class="heading">
 <span class="type">Theorem</span><span class="space"> </span><span class="codenumber">7.81</span><span class="period">.</span>
 </h3>
@@ -283,7 +778,7 @@ window.MathJax = {
 <article class="definition definition-like" id="def_congruence_class"><h3 class="heading">
 <span class="type">Definition</span><span class="space"> </span><span class="codenumber">7.82</span><span class="period">.</span>
 </h3>
-<div class="para" id="def_congruence_class-1-1">For <span class="process-math">\(n\in \mathbb{N}\text{,}\)</span> let <span class="process-math">\(\tcboxmath{[a]_n}\)</span> denote the equivalence class of <span class="process-math">\(a\)</span> with respect to <span class="process-math">\(\equiv_n\)</span> (see <a href="" class="xref" data-knowl="./knowl/xref/def_relatives.html" title="Definition 7.17">Definitions 7.17</a> and <a href="" class="xref" data-knowl="./knowl/xref/def_equivalence_class.html" title="Definition 7.44">Definition 7.44</a>). The equivalence class <span class="process-math">\([a]_n\)</span> is called the congruence (or residue) class of <span class="process-math">\(a\)</span> modulo <span class="process-math">\(n\text{.}\)</span> The collection of all equivalence classes determined by <span class="process-math">\(\equiv_n\)</span> is denoted <span class="process-math">\(\tcboxmath{\mathbb{Z}/n\mathbb{Z}}\text{,}\)</span> which is read “<span class="process-math">\(\mathbb{Z}\)</span> modulo <span class="process-math">\(n\mathbb{Z}\)</span>”.</div></article><article class="example example-like" id="exam_twomodseven"><h3 class="heading">
+<div class="para" id="def_congruence_class-1-1">For <span class="process-math">\(n\in \mathbb{N}\text{,}\)</span> let <span class="process-math">\(\tcboxmath{[a]_n}\)</span> denote the equivalence class of <span class="process-math">\(a\)</span> with respect to <span class="process-math">\(\equiv_n\)</span> (see <a href="sec_Relations.html#def_relatives" class="xref" data-knowl="./knowl/xref/def_relatives.html" data-reveal-label="Reveal" data-close-label="Close" title="Definition 7.17">Definitions 7.17</a> and <a href="sec_Equivalence_Relations.html#def_equivalence_class" class="xref" data-knowl="./knowl/xref/def_equivalence_class.html" data-reveal-label="Reveal" data-close-label="Close" title="Definition 7.44">Definition 7.44</a>). The equivalence class <span class="process-math">\([a]_n\)</span> is called the congruence (or residue) class of <span class="process-math">\(a\)</span> modulo <span class="process-math">\(n\text{.}\)</span> The collection of all equivalence classes determined by <span class="process-math">\(\equiv_n\)</span> is denoted <span class="process-math">\(\tcboxmath{\mathbb{Z}/n\mathbb{Z}}\text{,}\)</span> which is read “<span class="process-math">\(\mathbb{Z}\)</span> modulo <span class="process-math">\(n\mathbb{Z}\)</span>”.</div></article><article class="example example-like" id="exam_twomodseven"><h3 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">7.83</span><span class="period">.</span>
 </h3>
 <div class="para logical" id="exam_twomodseven-1-1">
@@ -303,7 +798,7 @@ m \in [2]_7 \amp  \logeq m \equiv_7 2\\
 <div class="para logical" id="sec_ModularArithmetic-15-1-1">
 <div class="para">For each of the following congruence classes, find five elements in the set such that at least one is greater than <span class="process-math">\(70\)</span> and one is less than <span class="process-math">\(70\text{.}\)</span>
 </div>
-<ol class="lower-alpha">
+<ol class="lower-alpha" id="sec_ModularArithmetic-15-1-1-3">
 <li id="sec_ModularArithmetic-15-1-1-3-1"><div class="para" id="sec_ModularArithmetic-15-1-1-3-1-1"><span class="process-math">\(\displaystyle [4]_7\)</span></div></li>
 <li id="sec_ModularArithmetic-15-1-1-3-2"><div class="para" id="sec_ModularArithmetic-15-1-1-3-2-1"><span class="process-math">\(\displaystyle [-3]_7\)</span></div></li>
 <li id="sec_ModularArithmetic-15-1-1-3-3"><div class="para" id="sec_ModularArithmetic-15-1-1-3-3-1"><span class="process-math">\(\displaystyle [7]_7\)</span></div></li>
@@ -311,7 +806,7 @@ m \in [2]_7 \amp  \logeq m \equiv_7 2\\
 </div></article><article class="problem example-like" id="sec_ModularArithmetic-16"><h3 class="heading">
 <span class="type">Problem</span><span class="space"> </span><span class="codenumber">7.85</span><span class="period">.</span>
 </h3>
-<div class="para" id="sec_ModularArithmetic-16-1-1">Describe <span class="process-math">\([0]_3\text{,}\)</span> <span class="process-math">\([1]_3\text{,}\)</span> <span class="process-math">\([2]_3\text{,}\)</span> <span class="process-math">\([4]_3\text{,}\)</span> and <span class="process-math">\([-2]_3\)</span> as lists of elements as in <a href="" class="xref" data-knowl="./knowl/xref/exam_twomodseven.html" title="Example 7.83">Example 7.83</a>. How many distinct congruence classes are in <span class="process-math">\(\mathbb{Z}/3\mathbb{Z}\text{?}\)</span> <a href="" class="xref" data-knowl="./knowl/xref/thm_equiv_yields_partition.html" title="Theorem 7.43">Theorem 7.43</a> might be helpful.</div></article><div class="para" id="sec_ModularArithmetic-17">Consider using <a href="" class="xref" data-knowl="./knowl/xref/thm_related_if_and_only_if_same_class.html" title="Theorem 7.42">Theorem 7.42</a> to prove the next theorem.</div>
+<div class="para" id="sec_ModularArithmetic-16-1-1">Describe <span class="process-math">\([0]_3\text{,}\)</span> <span class="process-math">\([1]_3\text{,}\)</span> <span class="process-math">\([2]_3\text{,}\)</span> <span class="process-math">\([4]_3\text{,}\)</span> and <span class="process-math">\([-2]_3\)</span> as lists of elements as in <a href="sec_ModularArithmetic.html#exam_twomodseven" class="xref" data-knowl="./knowl/xref/exam_twomodseven.html" data-reveal-label="Reveal" data-close-label="Close" title="Example 7.83">Example 7.83</a>. How many distinct congruence classes are in <span class="process-math">\(\mathbb{Z}/3\mathbb{Z}\text{?}\)</span> <a href="sec_Equivalence_Relations.html#thm_equiv_yields_partition" class="xref" data-knowl="./knowl/xref/thm_equiv_yields_partition.html" data-reveal-label="Reveal" data-close-label="Close" title="Theorem 7.43">Theorem 7.43</a> might be helpful.</div></article><div class="para" id="sec_ModularArithmetic-17">Consider using <a href="sec_Equivalence_Relations.html#thm_related_if_and_only_if_same_class" class="xref" data-knowl="./knowl/xref/thm_related_if_and_only_if_same_class.html" data-reveal-label="Reveal" data-close-label="Close" title="Theorem 7.42">Theorem 7.42</a> to prove the next theorem.</div>
 <article class="theorem theorem-like" id="thm_cong_classes_equal"><h3 class="heading">
 <span class="type">Theorem</span><span class="space"> </span><span class="codenumber">7.86</span><span class="period">.</span>
 </h3>
@@ -325,14 +820,14 @@ m \in [2]_7 \amp  \logeq m \equiv_7 2\\
 <span class="type">Theorem</span><span class="space"> </span><span class="codenumber">7.88</span><span class="period">.</span>
 </h3>
 <div class="para" id="sec_ModularArithmetic-21-1-1">For <span class="process-math">\(n\in \mathbb{N}\)</span> and <span class="process-math">\(a,b\in \mathbb{Z}\text{,}\)</span> <span class="process-math">\([a]_n = [b]_n\)</span> if and only if <span class="process-math">\(a\)</span> and <span class="process-math">\(b\)</span> have the same remainder when divided by <span class="process-math">\(n\text{.}\)</span>
-</div></article><div class="para" id="sec_ModularArithmetic-22">When proving Part (a) of the next theorem, make use of <a href="" class="xref" data-knowl="./knowl/xref/thm_cong_classes_equal.html" title="Theorem 7.86">Theorem 7.86</a>. For Part (b), note that <span class="process-math">\(a_1b_1-a_2b_2 = a_1b_1 -a_2b_1 + a_2b_1-a_2b_2\text{.}\)</span>
+</div></article><div class="para" id="sec_ModularArithmetic-22">When proving Part (a) of the next theorem, make use of <a href="sec_ModularArithmetic.html#thm_cong_classes_equal" class="xref" data-knowl="./knowl/xref/thm_cong_classes_equal.html" data-reveal-label="Reveal" data-close-label="Close" title="Theorem 7.86">Theorem 7.86</a>. For Part (b), note that <span class="process-math">\(a_1b_1-a_2b_2 = a_1b_1 -a_2b_1 + a_2b_1-a_2b_2\text{.}\)</span>
 </div>
 <article class="theorem theorem-like" id="sec_ModularArithmetic-23"><h3 class="heading">
 <span class="type">Theorem</span><span class="space"> </span><span class="codenumber">7.89</span><span class="period">.</span>
 </h3>
 <div class="para logical" id="sec_ModularArithmetic-23-1-1">
 <div class="para">Let <span class="process-math">\(n\in \mathbb{N}\)</span> and let <span class="process-math">\(a_1,a_2,b_1,b_2 \in \mathbb{Z}\text{.}\)</span> If <span class="process-math">\([a_1]_n = [a_2]_n\)</span> and <span class="process-math">\([b_1]_n = [b_2]_n\text{,}\)</span> then</div>
-<ol class="lower-alpha">
+<ol class="lower-alpha" id="sec_ModularArithmetic-23-1-1-5">
 <li id="sec_ModularArithmetic-23-1-1-5-1"><div class="para" id="sec_ModularArithmetic-23-1-1-5-1-1">
 <span class="process-math">\([a_1+b_1]_n = [a_2+b_2]_n\text{,}\)</span> and</div></li>
 <li id="sec_ModularArithmetic-23-1-1-5-2"><div class="para" id="sec_ModularArithmetic-23-1-1-5-2-1"><span class="process-math">\([a_1\cdot b_1]_n = [a_2\cdot b_2]_n\text{.}\)</span></div></li>
@@ -352,7 +847,7 @@ m \in [2]_7 \amp  \logeq m \equiv_7 2\\
 </div></article><article class="example example-like" id="sec_ModularArithmetic-26"><h3 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">7.91</span><span class="period">.</span>
 </h3>
-<div class="para" id="sec_ModularArithmetic-26-1-1">By <a href="" class="xref" data-knowl="./knowl/xref/def_modular_arithmetic.html" title="Definition 7.90">Definition 7.90</a>, <span class="process-math">\([2]_7+[6]_7 = [2+6]_7 = [8]_7\text{.}\)</span> By <a href="" class="xref" data-knowl="./knowl/xref/thm_cong_classes_equal.html" title="Theorem 7.86">Theorem 7.86</a>, <span class="process-math">\([8]_7 = [1]_7\text{,}\)</span> and so <span class="process-math">\([2]_7+[6]_7 = [1]_7\text{.}\)</span> Similarly, <span class="process-math">\([2]_7\cdot[6]_7 = [2\cdot6]_7 = [12]_7 = [5]_7\text{.}\)</span>
+<div class="para" id="sec_ModularArithmetic-26-1-1">By <a href="sec_ModularArithmetic.html#def_modular_arithmetic" class="xref" data-knowl="./knowl/xref/def_modular_arithmetic.html" data-reveal-label="Reveal" data-close-label="Close" title="Definition 7.90">Definition 7.90</a>, <span class="process-math">\([2]_7+[6]_7 = [2+6]_7 = [8]_7\text{.}\)</span> By <a href="sec_ModularArithmetic.html#thm_cong_classes_equal" class="xref" data-knowl="./knowl/xref/thm_cong_classes_equal.html" data-reveal-label="Reveal" data-close-label="Close" title="Theorem 7.86">Theorem 7.86</a>, <span class="process-math">\([8]_7 = [1]_7\text{,}\)</span> and so <span class="process-math">\([2]_7+[6]_7 = [1]_7\text{.}\)</span> Similarly, <span class="process-math">\([2]_7\cdot[6]_7 = [2\cdot6]_7 = [12]_7 = [5]_7\text{.}\)</span>
 </div></article><div class="para" id="sec_ModularArithmetic-27">Addition and multiplication for <span class="process-math">\(\mathbb{Z}/n\mathbb{Z}\)</span> has many familiar—and some not so familiar—properties. For example, addition and multiplication of congruence classes are both associative and commutative. However, it is possible for <span class="process-math">\([a]_n\cdot[b]_n = [0]_n\)</span> even when <span class="process-math">\([a]_n \neq [0]_n\)</span> and <span class="process-math">\([b]_n \neq [0]_n\text{.}\)</span>
 </div>
 <article class="theorem theorem-like" id="thm_modular_add_comm_assoc"><h3 class="heading">
@@ -360,7 +855,7 @@ m \in [2]_7 \amp  \logeq m \equiv_7 2\\
 </h3>
 <div class="para logical" id="thm_modular_add_comm_assoc-1-1">
 <div class="para">If <span class="process-math">\(n\in \mathbb{N}\text{,}\)</span> then addition in <span class="process-math">\(\mathbb{Z}/n\mathbb{Z}\)</span> is commutative and associative. That is, for all <span class="process-math">\([a]_n, [b]_n, [c]_n \in \mathbb{Z}/n\mathbb{Z}\text{,}\)</span> we have</div>
-<ol class="lower-alpha">
+<ol class="lower-alpha" id="thm_modular_add_comm_assoc-1-1-4">
 <li id="thm_modular_add_comm_assoc-1-1-4-1"><div class="para" id="thm_modular_add_comm_assoc-1-1-4-1-1">
 <span class="process-math">\([a]_n + [b]_n = [b]_n + [a]_n\text{,}\)</span> and</div></li>
 <li id="modular_add_assoc"><div class="para" id="modular_add_assoc-1"><span class="process-math">\(([a]_n + [b]_n) + [c]_n = [a]_n + ([b]_n + [c]_n)\text{.}\)</span></div></li>
@@ -370,24 +865,24 @@ m \in [2]_7 \amp  \logeq m \equiv_7 2\\
 </h3>
 <div class="para logical" id="thm_modular_mult_comm_assoc-1-1">
 <div class="para">If <span class="process-math">\(n\in \mathbb{N}\text{,}\)</span> then multiplication in <span class="process-math">\(\mathbb{Z}/n\mathbb{Z}\)</span> is commutative and associative. That is, for all <span class="process-math">\([a]_n, [b]_n, [c]_n \in \mathbb{Z}/n\mathbb{Z}\text{,}\)</span> we have</div>
-<ol class="lower-alpha">
+<ol class="lower-alpha" id="thm_modular_mult_comm_assoc-1-1-4">
 <li id="thm_modular_mult_comm_assoc-1-1-4-1"><div class="para" id="thm_modular_mult_comm_assoc-1-1-4-1-1">
 <span class="process-math">\([a]_n \cdot [b]_n = [b]_n \cdot [a]_n\text{,}\)</span> and</div></li>
 <li id="modular_mult_assoc"><div class="para" id="modular_mult_assoc-1"><span class="process-math">\(([a]_n \cdot [b]_n) \cdot [c]_n = [a]_n \cdot ([b]_n \cdot [c]_n)\text{.}\)</span></div></li>
 </ol>
-</div></article><div class="para" id="sec_ModularArithmetic-30">One consequence of <a href="" class="xref" data-knowl="./knowl/xref/thm_modular_add_comm_assoc.html" title="Theorem 7.92">Theorems 7.92</a> <a href="" class="xref" data-knowl="./knowl/xref/modular_add_assoc.html" title="Item b">Item b</a> and <a href="" class="xref" data-knowl="./knowl/xref/thm_modular_mult_comm_assoc.html" title="Theorem 7.93">Theorem 7.93</a> <a href="" class="xref" data-knowl="./knowl/xref/modular_mult_assoc.html" title="Item b">Item b</a> is that parentheses are not needed when adding or multiplying congruence classes. The next theorem follows from <a href="" class="xref" data-knowl="./knowl/xref/def_modular_arithmetic.html" title="Definition 7.90">Definition 7.90</a> together with <a href="" class="xref" data-knowl="./knowl/xref/thm_modular_add_comm_assoc.html" title="Theorem 7.92">Theorems 7.92</a> <a href="" class="xref" data-knowl="./knowl/xref/modular_add_assoc.html" title="Item b">Item b</a> and <a href="" class="xref" data-knowl="./knowl/xref/thm_modular_mult_comm_assoc.html" title="Theorem 7.93">Theorem 7.93</a> <a href="" class="xref" data-knowl="./knowl/xref/modular_mult_assoc.html" title="Item b">Item b</a> and induction on <span class="process-math">\(k\text{.}\)</span>
+</div></article><div class="para" id="sec_ModularArithmetic-30">One consequence of <a href="sec_ModularArithmetic.html#thm_modular_add_comm_assoc" class="xref" data-knowl="./knowl/xref/thm_modular_add_comm_assoc.html" data-reveal-label="Reveal" data-close-label="Close" title="Theorem 7.92">Theorems 7.92</a> <a href="sec_ModularArithmetic.html#modular_add_assoc" class="xref" data-knowl="./knowl/xref/modular_add_assoc.html" data-reveal-label="Reveal" data-close-label="Close" title="Item b">Item b</a> and <a href="sec_ModularArithmetic.html#thm_modular_mult_comm_assoc" class="xref" data-knowl="./knowl/xref/thm_modular_mult_comm_assoc.html" data-reveal-label="Reveal" data-close-label="Close" title="Theorem 7.93">Theorem 7.93</a> <a href="sec_ModularArithmetic.html#modular_mult_assoc" class="xref" data-knowl="./knowl/xref/modular_mult_assoc.html" data-reveal-label="Reveal" data-close-label="Close" title="Item b">Item b</a> is that parentheses are not needed when adding or multiplying congruence classes. The next theorem follows from <a href="sec_ModularArithmetic.html#def_modular_arithmetic" class="xref" data-knowl="./knowl/xref/def_modular_arithmetic.html" data-reveal-label="Reveal" data-close-label="Close" title="Definition 7.90">Definition 7.90</a> together with <a href="sec_ModularArithmetic.html#thm_modular_add_comm_assoc" class="xref" data-knowl="./knowl/xref/thm_modular_add_comm_assoc.html" data-reveal-label="Reveal" data-close-label="Close" title="Theorem 7.92">Theorems 7.92</a> <a href="sec_ModularArithmetic.html#modular_add_assoc" class="xref" data-knowl="./knowl/xref/modular_add_assoc.html" data-reveal-label="Reveal" data-close-label="Close" title="Item b">Item b</a> and <a href="sec_ModularArithmetic.html#thm_modular_mult_comm_assoc" class="xref" data-knowl="./knowl/xref/thm_modular_mult_comm_assoc.html" data-reveal-label="Reveal" data-close-label="Close" title="Theorem 7.93">Theorem 7.93</a> <a href="sec_ModularArithmetic.html#modular_mult_assoc" class="xref" data-knowl="./knowl/xref/modular_mult_assoc.html" data-reveal-label="Reveal" data-close-label="Close" title="Item b">Item b</a> and induction on <span class="process-math">\(k\text{.}\)</span>
 </div>
 <article class="theorem theorem-like" id="thm_modular_sums_products"><h3 class="heading">
 <span class="type">Theorem</span><span class="space"> </span><span class="codenumber">7.94</span><span class="period">.</span>
 </h3>
 <div class="para logical" id="thm_modular_sums_products-1-1">
 <div class="para">Let <span class="process-math">\(n\in \mathbb{N}\text{.}\)</span> For all <span class="process-math">\(k\in \mathbb{N}\text{,}\)</span> if <span class="process-math">\([a_1]_n,[a_2]_n,\ldots, [a_k]_n \in \mathbb{Z}/n\mathbb{Z}\text{,}\)</span> then</div>
-<ol class="lower-alpha">
+<ol class="lower-alpha" id="thm_modular_sums_products-1-1-4">
 <li id="thm_modular_sums_products-1-1-4-1"><div class="para" id="thm_modular_sums_products-1-1-4-1-1">
 <span class="process-math">\([a_1]_n+[a_2]_n+\cdots+ [a_k]_n = [a_1 + a_2 +\cdots+ a_k]_n\text{,}\)</span> and</div></li>
 <li id="thm_modular_sums_products-1-1-4-2"><div class="para" id="thm_modular_sums_products-1-1-4-2-1"><span class="process-math">\([a_1]_n [a_2]_n \cdots [a_k]_n = [a_1 a_2 \cdots a_k]_n\text{.}\)</span></div></li>
 </ol>
-</div></article><div class="para" id="sec_ModularArithmetic-32">The next result is a special case of <a href="" class="xref" data-knowl="./knowl/xref/thm_modular_sums_products.html" title="Theorem 7.94">Theorem 7.94</a>(b).</div>
+</div></article><div class="para" id="sec_ModularArithmetic-32">The next result is a special case of <a href="sec_ModularArithmetic.html#thm_modular_sums_products" class="xref" data-knowl="./knowl/xref/thm_modular_sums_products.html" data-reveal-label="Reveal" data-close-label="Close" title="Theorem 7.94">Theorem 7.94</a>(b).</div>
 <article class="corollary theorem-like" id="cor_modular_power"><h3 class="heading">
 <span class="type">Corollary</span><span class="space"> </span><span class="codenumber">7.95</span><span class="period">.</span>
 </h3>
@@ -413,7 +908,7 @@ m \in [2]_7 \amp  \logeq m \equiv_7 2\\
 <div class="para logical" id="sec_ModularArithmetic-36-1-1">
 <div class="para">For each of the following, find a number <span class="process-math">\(a\)</span> with <span class="process-math">\(0\le a \le 6\)</span> such that the given quantity is equal to <span class="process-math">\([a]_7\text{.}\)</span>
 </div>
-<ol class="lower-alpha">
+<ol class="lower-alpha" id="sec_ModularArithmetic-36-1-1-4">
 <li id="sec_ModularArithmetic-36-1-1-4-1"><div class="para" id="sec_ModularArithmetic-36-1-1-4-1-1"><span class="process-math">\(\displaystyle [6^{179}]_7\)</span></div></li>
 <li id="sec_ModularArithmetic-36-1-1-4-2"><div class="para" id="sec_ModularArithmetic-36-1-1-4-2-1"><span class="process-math">\(\displaystyle [2^{300}]_7\)</span></div></li>
 <li id="sec_ModularArithmetic-36-1-1-4-3"><div class="para" id="sec_ModularArithmetic-36-1-1-4-3-1"><span class="process-math">\(\displaystyle [2^{301} +5]_7\)</span></div></li>
@@ -430,7 +925,7 @@ m \in [2]_7 \amp  \logeq m \equiv_7 2\\
 <span class="type">Problem</span><span class="space"> </span><span class="codenumber">7.100</span><span class="period">.</span>
 </h3>
 <div class="para" id="sec_ModularArithmetic-39-1-1">Notice that <span class="process-math">\(2x = 1\)</span> has no solution in <span class="process-math">\(\mathbb{Z}\text{.}\)</span> Show that <span class="process-math">\([2]_7[x]_7 = [1]_7\)</span> does have a solution with <span class="process-math">\(x\)</span> in <span class="process-math">\(\mathbb{Z}\text{.}\)</span> What about <span class="process-math">\([14]_7[x]_7 = [1]_7\text{?}\)</span>
-</div></article><div class="para" id="sec_ModularArithmetic-40">Make use of <a href="" class="xref" data-knowl="./knowl/xref/thm_modular_sums_products.html" title="Theorem 7.94">Theorem 7.94</a>, <a href="" class="xref" data-knowl="./knowl/xref/cor_modular_power.html" title="Corollary 7.95">Corollary 7.95</a>, and <a href="" class="xref" data-knowl="./knowl/xref/thm_cong_classes_equal.html" title="Theorem 7.86">Theorem 7.86</a> to prove the following theorem.</div>
+</div></article><div class="para" id="sec_ModularArithmetic-40">Make use of <a href="sec_ModularArithmetic.html#thm_modular_sums_products" class="xref" data-knowl="./knowl/xref/thm_modular_sums_products.html" data-reveal-label="Reveal" data-close-label="Close" title="Theorem 7.94">Theorem 7.94</a>, <a href="sec_ModularArithmetic.html#cor_modular_power" class="xref" data-knowl="./knowl/xref/cor_modular_power.html" data-reveal-label="Reveal" data-close-label="Close" title="Corollary 7.95">Corollary 7.95</a>, and <a href="sec_ModularArithmetic.html#thm_cong_classes_equal" class="xref" data-knowl="./knowl/xref/thm_cong_classes_equal.html" data-reveal-label="Reveal" data-close-label="Close" title="Theorem 7.86">Theorem 7.86</a> to prove the following theorem.</div>
 <article class="theorem theorem-like" id="sec_ModularArithmetic-41"><h3 class="heading">
 <span class="type">Theorem</span><span class="space"> </span><span class="codenumber">7.101</span><span class="period">.</span>
 </h3>
@@ -449,28 +944,29 @@ a_1, a_0\)</span> are the digits of <span class="process-math">\(m\)</span>), th
 [m]_3 =  [a_k + a_{k-1} + \cdots + a_1 + a_0]_3\text{.}
 \end{equation*}
 </div>
-</div></article><div class="para" id="sec_ModularArithmetic-42">You likely recognize the next result. Its proof follows quickly from <a href="" class="xref" data-knowl="./knowl/xref/cor_divisible_iff_zero_mod.html" title="Corollary 7.87">Corollary 7.87</a> together with the previous theorem.</div>
+</div></article><div class="para" id="sec_ModularArithmetic-42">You likely recognize the next result. Its proof follows quickly from <a href="sec_ModularArithmetic.html#cor_divisible_iff_zero_mod" class="xref" data-knowl="./knowl/xref/cor_divisible_iff_zero_mod.html" data-reveal-label="Reveal" data-close-label="Close" title="Corollary 7.87">Corollary 7.87</a> together with the previous theorem.</div>
 <article class="theorem theorem-like" id="sec_ModularArithmetic-43"><h3 class="heading">
 <span class="type">Theorem</span><span class="space"> </span><span class="codenumber">7.102</span><span class="period">.</span>
 </h3>
 <div class="para" id="sec_ModularArithmetic-43-1-1">An integer is divisible by <span class="process-math">\(3\)</span> if and only if the sum of its digits is divisible by <span class="process-math">\(3\text{.}\)</span>
-</div></article><div class="para" id="sec_ModularArithmetic-44">Let’s revisit <a href="" class="xref" data-knowl="./knowl/xref/thm_div_by_8.html" title="Theorem 4.21">Theorem 4.21</a>, which we originally proved by induction.</div>
+</div></article><div class="para" id="sec_ModularArithmetic-44">Let’s revisit <a href="sec_More_on_Induction.html#thm_div_by_8" class="xref" data-knowl="./knowl/xref/thm_div_by_8.html" data-reveal-label="Reveal" data-close-label="Close" title="Theorem 4.21">Theorem 4.21</a>, which we originally proved by induction.</div>
 <article class="problem example-like" id="sec_ModularArithmetic-45"><h3 class="heading">
 <span class="type">Problem</span><span class="space"> </span><span class="codenumber">7.103</span><span class="period">.</span>
 </h3>
-<div class="para" id="sec_ModularArithmetic-45-1-1">Use <a href="" class="xref" data-knowl="./knowl/xref/cor_divisible_iff_zero_mod.html" title="Corollary 7.87">Corollary 7.87</a> to prove that for all integers <span class="process-math">\(n \ge 0\text{,}\)</span> <span class="process-math">\(3^{2n}-1\)</span> is divisible by <span class="process-math">\(8\text{.}\)</span> You will need to handle the case involving <span class="process-math">\(n=0\)</span> separately.</div></article><div class="para" id="sec_ModularArithmetic-46">We close this chapter with a fun problem.</div>
+<div class="para" id="sec_ModularArithmetic-45-1-1">Use <a href="sec_ModularArithmetic.html#cor_divisible_iff_zero_mod" class="xref" data-knowl="./knowl/xref/cor_divisible_iff_zero_mod.html" data-reveal-label="Reveal" data-close-label="Close" title="Corollary 7.87">Corollary 7.87</a> to prove that for all integers <span class="process-math">\(n \ge 0\text{,}\)</span> <span class="process-math">\(3^{2n}-1\)</span> is divisible by <span class="process-math">\(8\text{.}\)</span> You will need to handle the case involving <span class="process-math">\(n=0\)</span> separately.</div></article><div class="para" id="sec_ModularArithmetic-46">We close this chapter with a fun problem.</div>
 <article class="problem example-like" id="sec_ModularArithmetic-47"><h3 class="heading">
 <span class="type">Problem</span><span class="space"> </span><span class="codenumber">7.104</span><span class="period">.</span>
 </h3>
 <div class="para" id="sec_ModularArithmetic-47-1-1">Prove or provide a counterexample: No integer <span class="process-math">\(n\)</span> exists such that <span class="process-math">\(4n+3\)</span> is a perfect square.</div></article><blockquote class="blockquote" id="sec_ModularArithmetic-48">
-<div class="para" id="sec_ModularArithmetic-48-1">Without change something sleeps inside us, and seldom awakens. The sleeper must awaken.</div> <cite class="attribution">―<em class="alert">Dune</em> by Frank Herbert</cite>
+<div class="para" id="sec_ModularArithmetic-48-1">Without change something sleeps inside us, and seldom awakens. The sleeper must awaken.</div>
+<cite class="attribution">―<em class="alert">Dune</em> by Frank Herbert</cite>
 </blockquote></section></div>
 <div class="ptx-content-footer">
 <a class="previous-button button" href="sec_Partitions.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="chap_Functions.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
 </div></main>
 </div>
 <div id="ptx-page-footer" class="ptx-page-footer">
-<a class="pretext-link" href="https://pretextbook.org" title="PreTeXt"><div class="logo"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="338 3000 8772 6866"><g style="stroke-width:.025in; stroke:black; fill:none"><polyline points="472,3590 472,9732 " style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round; "></polyline><path style="stroke:#000000;stroke-width:126;stroke-linecap:butt;" d="M 4724,9448 A 4660 4660  0  0  1  8598  9259"></path><path style="stroke:#000000;stroke-width:174;stroke-linecap:butt;" d="M 4488,9685 A 4228 4228  0  0  0   472  9732"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:butt;" d="M 4724,3590 A 4241 4241  0  0  1  8598  3496"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:round;" d="M 850,3496  A 4241 4241  0  0  1  4724  3590"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:round;" d="M 850,9259  A 4507 4507  0  0  1  4724  9448"></path><polyline points="5385,4299 4062,8125" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8598,3496 8598,9259" style="stroke:#000000;stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="850,3496 850,9259" style="stroke:#000000;stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="4960,9685 4488,9685" style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="3070,4582 1889,6141 3070,7700" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="6418,4582 7600,6141 6418,7700" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8976,3590 8976,9732" style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><path style="stroke:#000000;stroke-width:174;stroke-linecap:butt;" d="M 4960,9685 A 4228 4228  0  0  1  8976  9732"></path></g></svg></div></a><a class="runestone-link" href="https://runestone.academy" title="Runestone Academy"><img class="logo" src="https://runestone.academy/runestone/static/images/RAIcon_cropped.png"></a><a class="mathjax-link" href="https://www.mathjax.org" title="MathJax"><img class="logo" src="https://www.mathjax.org/badge/badge-square-2.png"></a>
+<a class="pretext-link" href="https://pretextbook.org" title="PreTeXt"><div class="logo"><svg xmlns="http://www.w3.org/2000/svg" height="100%" viewBox="338 3000 8772 6866"><g style="stroke-width:.025in; stroke:currentColor; fill:none"><polyline points="472,3590 472,9732 " style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round; "></polyline><path style="stroke-width:126;stroke-linecap:butt;" d="M 4724,9448 A 4660 4660  0  0  1  8598  9259"></path><path style="stroke-width:174;stroke-linecap:butt;" d="M 4488,9685 A 4228 4228  0  0  0   472  9732"></path><path style="stroke-width:126;stroke-linecap:butt;" d="M 4724,3590 A 4241 4241  0  0  1  8598  3496"></path><path style="stroke-width:126;stroke-linecap:round;" d="M 850,3496  A 4241 4241  0  0  1  4724  3590"></path><path style="stroke-width:126;stroke-linecap:round;" d="M 850,9259  A 4507 4507  0  0  1  4724  9448"></path><polyline points="5385,4299 4062,8125" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8598,3496 8598,9259" style="stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="850,3496 850,9259" style="stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="4960,9685 4488,9685" style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="3070,4582 1889,6141 3070,7700" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="6418,4582 7600,6141 6418,7700" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8976,3590 8976,9732" style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><path style="stroke-width:174;stroke-linecap:butt;" d="M 4960,9685 A 4228 4228  0  0  1  8976  9732"></path></g></svg></div></a><a class="runestone-link" href="https://runestone.academy" title="Runestone Academy"><img class="logo" src="https://runestone.academy/runestone/static/images/RAIcon_cropped.png"></a><a class="mathjax-link" href="https://www.mathjax.org" title="MathJax"><img class="logo" src="https://www.mathjax.org/badge/badge-square-2.png"></a>
 </div>
 </body>
 </html>
