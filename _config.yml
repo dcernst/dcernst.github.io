@@ -31,4 +31,5 @@ plugins:
   - jekyll-paginate
   - jekyll-seo-tag
 
-exclude: [IBL-IntroToProof/pretext]
+exclude:
+  - IBL-IntroToProof/pretext/
