@@ -1,1 +1,0 @@
-{"version":3,"file":"prefix-460.7c0b70502d117f7d.css","mappings":"AAAA,QACI,qBAAyB,CACzB,WACJ","sources":["webpack://WebComponents/./runestone/reveal/css/reveal.css"],"sourcesContent":[".iguide {\n    background-color: #ddffdd;\n    padding: 1em;\n}"],"names":[],"sourceRoot":""}
