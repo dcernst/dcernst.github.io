@@ -1,0 +1,83 @@
+/*!
+ * BIDI embedding support for jQuery.i18n
+ *
+ * Copyright (C) 2015, David Chan
+ *
+ * This code is dual licensed GPLv2 or later and MIT. You don't have to do
+ * anything special to choose one license or the other and you don't have to
+ * notify anyone which license you are using. You are free to use this code
+ * in commercial projects as long as the copyright header is left intact.
+ * See files GPL-LICENSE and MIT-LICENSE for details.
+ *
+ * @licence GNU General Public Licence 2.0 or later
+ * @licence MIT License
+ */
+
+/*!
+ * jQuery Internationalization library
+ *
+ * Copyright (C) 2011-2013 Santhosh Thottingal, Neil Kandalgaonkar
+ *
+ * jquery.i18n is dual licensed GPLv2 or later and MIT. You don't have to do
+ * anything special to choose one license or the other and you don't have to
+ * notify anyone which license you are using. You are free to use
+ * UniversalLanguageSelector in commercial projects as long as the copyright
+ * header is left intact. See files GPL-LICENSE and MIT-LICENSE for details.
+ *
+ * @licence GNU General Public Licence 2.0 or later
+ * @licence MIT License
+ */
+
+/*!
+ * jQuery Internationalization library
+ *
+ * Copyright (C) 2012 Santhosh Thottingal
+ *
+ * jquery.i18n is dual licensed GPLv2 or later and MIT. You don't have to do
+ * anything special to choose one license or the other and you don't have to
+ * notify anyone which license you are using. You are free to use
+ * UniversalLanguageSelector in commercial projects as long as the copyright
+ * header is left intact. See files GPL-LICENSE and MIT-LICENSE for details.
+ *
+ * @licence GNU General Public Licence 2.0 or later
+ * @licence MIT License
+ */
+
+/*!
+ * jQuery Internationalization library
+ *
+ * Copyright (C) 2012 Santhosh Thottingal
+ *
+ * jquery.i18n is dual licensed GPLv2 or later and MIT. You don't have to do anything special to
+ * choose one license or the other and you don't have to notify anyone which license you are using.
+ * You are free to use UniversalLanguageSelector in commercial projects as long as the copyright
+ * header is left intact. See files GPL-LICENSE and MIT-LICENSE for details.
+ *
+ * @licence GNU General Public Licence 2.0 or later
+ * @licence MIT License
+ */
+
+/*!
+ * jQuery Internationalization library - Message Store
+ *
+ * Copyright (C) 2012 Santhosh Thottingal
+ *
+ * jquery.i18n is dual licensed GPLv2 or later and MIT. You don't have to do anything special to
+ * choose one license or the other and you don't have to notify anyone which license you are using.
+ * You are free to use UniversalLanguageSelector in commercial projects as long as the copyright
+ * header is left intact. See files GPL-LICENSE and MIT-LICENSE for details.
+ *
+ * @licence GNU General Public Licence 2.0 or later
+ * @licence MIT License
+ */
+
+/*!
+ * jQuery idleTimer plugin
+ * version 0.9.100511
+ * by Paul Irish.
+ *   http://github.com/paulirish/yui-misc/tree/
+ * MIT license
+
+ * adapted from YUI idle timer by nzakas:
+ *   http://github.com/nzakas/yui-misc/
+*/
