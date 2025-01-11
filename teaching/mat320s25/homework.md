@@ -28,10 +28,10 @@ title: Homework
 ## Guidelines ##
 Reviewing material from previous courses and looking up definitions and theorems you may have forgotten is fair game. Since mathematical reasoning, problem solving, and critical thinking skills are part of the learning outcomes of this course, all assignments should be prepared by the student. Developing strong competencies in this area will prepare you to be a lifelong learner and give you an edge in a competitive workplace. When it comes to completing assignments for this course, unless explicitly told otherwise, you should *not* look to resources outside the context of this course for help.  That is, you should not be consulting the web (e.g., Chegg and Course Hero), generative artificial intelligence tools (e.g., ChatGPT), mathematics assistive technologies (e.g., Wolfram Alpha and Photomath), other texts, other faculty, or students outside of our course in an attempt to find solutions to the problems you are assigned.  On the other hand, you may use each other, the textbook, me, and your own intuition. You are highly encouraged to seek out assistance by asking questions on our Discord server. You are allowed and encouraged to work together on homework. Yet, each student is expected to turn in their own work.  **If you feel you need additional resources or support, please come talk to me and we will come up with an appropriate plan of action.** In general, late homework will not be accepted. However, you are allowed to turn in **up to three late homework assignments**. Unless you have made arrangements in advance with me, homework turned in after class will be considered late.
 
-## Daily Homework ##
 The following assignments are due at the beginning of the indicated class meeting. However, most assignments will be collected at the end of the class meeting.  When doing your homework, I encourage you to consult the I encourage you to consult the *Elements of Style for Proofs* appendix in the textbook. I reserve the right to modify an assignment if the need arises.  These exercises will form the basis of the student-led presentations.  During class, you are encouraged to annotate your homework, but **you are required to use a different color than what you used to complete your homework**.
 
-- **Daily Homework 1:** Read the [syllabus]({{site.baseurl}}/teaching/mat320s25/syllabus/) and write down 5 important items.  *Note:*  All of the exam dates only count as a single item.  Turn in at beginning of class or email me a copy of your write up prior to class. (Due Wednesday, January 15)
+- **Homework 1:** Read the [syllabus]({{site.baseurl}}/teaching/mat320s25/syllabus/) and write down 5 important items.  *Note:*  All of the exam dates only count as a single item.  Turn in at beginning of class or email me a copy of your write up prior to class. In addition, create a free [Discord](http://discord.com) account, accept the invite to our Discord server, and post something about yourself in the #introductions channel. (Due Wednesday, January 15)
+
 
 <!-- - **Daily Homework 1:** Read the [syllabus]({{site.baseurl}}/teaching/mat320s25/syllabus/) and write down 5 important items.  *Note:*  All of the exam dates only count as a single item.  Turn in at beginning of class or email me a copy of your write up prior to class. (Due Wednesday, August 30)
 - **Daily Homework 2:** Read the *Preface* and *Chapter 1: Introduction* in the textbook. In addition, complete 2.2-2.4 in Section 2.1 of *Chapter 2: Mathematics and Logic* and digest the surrounding text along the way. (Due Wednesday, August 30)
@@ -66,10 +66,10 @@ The following assignments are due at the beginning of the indicated class meetin
 - **Daily Homework 31:** Complete 8.76-8.79 in *Chapter 8: Functions* and digest the surrounding text along the way. (Due Wednesday, December 6)
 - **Daily Homework 32:** Complete 8.81, 8.82, 8.84, 8.86, 8.87 in *Chapter 8: Functions* and digest the surrounding text along the way. (Due Friday, December 8) -->
 
-## Weekly Homework ##
+<!-- ## Weekly Homework ##
 For most of the assignments below, you will be required to submit 2-3 formally written proofs. You are required to type your submission using LaTeX (see below). 
 
-- **Weekly Homework 1:** TBA
+- **Weekly Homework 1:** TBA -->
 
 <!-- You can either submit a hardcopy of your assignment or email me the PDF of your completed work. If you email me the PDF, please name your file as <code>WeeklyX-LastName.pdf</code>, where <code>X</code> is the number of the assignment and <code>LastName</code> is your last name.  Notice there are no spaces in the filename. -->
 
@@ -81,11 +81,11 @@ For most of the assignments below, you will be required to submit 2-3 formally w
 - **Weekly Homework 4:** Prove **one** of 4.11-4.23 and **one** of 4.27-4.31, 4.34. You must type up your proofs using LaTeX.  I recommend using my [Overleaf template](https://www.overleaf.com/latex/templates/weekly-homework-x/cbpdxbqknrvq). (Due in Canvas by Thursday, November 2 by 8PM)
 - **Weekly Homework 5:** Prove **two** of 4.36, 4.38, 6.19 You must type up your proofs using LaTeX.  I recommend using my [Overleaf template](https://www.overleaf.com/latex/templates/weekly-homework-x/cbpdxbqknrvq). (Due in Canvas by Thursday, November 9 by 8PM) -->
 
-## Using LaTeX for Weekly Homework ##
+<!-- ## Using LaTeX for Weekly Homework ##
 You are required to use LaTeX to type up your Weekly Homework assignments. The easiest way to get started with LaTeX is to use an online editor.  I recommend using my [Overleaf](https://overleaf.com), but there are other options.  The good folks over at Overleaf have preloaded my homework template, so to get started, all you need to do is click the link below and then click on "Open as Template". Be sure to update your name and the course title.
 
 <center>
 <a href="https://www.overleaf.com/latex/templates/weekly-homework-x/cbpdxbqknrvq" class="btn btn-primary btn-lg" role="button">Start your homework in Overleaf</a>
 </center>
 
-<br>
+<br> -->
