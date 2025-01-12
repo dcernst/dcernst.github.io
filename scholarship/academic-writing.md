@@ -38,7 +38,7 @@ You can find a recent version of my curriculum vitae [here]({{site.baseurl}}/sch
 
 ## Books
 Below is a list of textbooks that I have written to be used with an [inquiry-based learning](http://maamathedmatters.blogspot.com/2013/05/what-heck-is-ibl.html) (IBL) approach.
-  * D.C. Ernst and J. Hagood. *Introduction to Discrete Mathematics*. Free undergraduate discrete mathematics textbook, 2024. [[PDF](https://danaernst.com/teaching/mat226s24/NAUDiscreteMathematics-ErnstHagood.pdf})]
+  * D.C. Ernst and J. Hagood. *Introduction to Discrete Mathematics*. Free undergraduate discrete mathematics textbook, 2024. [[PDF](https://danaernst.com/scholarship/NAUDiscreteMathematics-ErnstHagood.pdf)]
   * D.C. Ernst. *Introduction to Real Analysis*. Free undergraduate real analysis textbook, 2023. Modification of previous work: D.C. Ernst < K. Crisman < W.T. Mahavier < W.S. Mahavier. [[PDF](https://danaernst.com/teaching/mat431f23/IBL-RealAnalysis.pdf)]
   * D.C. Ernst. *An Inquiry-Based Approach to Abstract Algebra*. Open-source textbook for undergraduate abstract algebra, 2022.  [[Source](https://github.com/dcernst/IBL-AbstractAlgebra)] [[PDF](http://danaernst.com/teaching/mat411s22/IBL-AbstractAlgebra.pdf)]
   * D.C. Ernst. *An Introduction to Proof via Inquiry-Based Learning*. MAA Press, 2022. [[Project Webpage](http://dcernst.github.io/IBL-IntroToProof/)] [[Paperback](https://bookstore.ams.org/text-73/)]
