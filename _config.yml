@@ -35,4 +35,4 @@ plugins:
 #   - _static/
 
 keep_files:
-  - _static
+  - _static/
