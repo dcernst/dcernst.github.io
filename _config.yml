@@ -35,4 +35,4 @@ plugins:
 #   - _static/
 
 keep_files:
-  - /IBL-IntroToProof/_static/
+  - IBL-IntroToProof/_static
