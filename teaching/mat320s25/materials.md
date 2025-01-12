@@ -39,7 +39,7 @@ I will not be covering every detail of the notes and the only way to achieve a s
 The book is available in multiple formats. If you've found an error or have suggestions for improvements, please let me know.  There are likely some formatting issues in the HTML version of the book.
 
 - [PDF of textbook]({{ site.baseurl }}/IBL-IntroToProof/IntroToProof.pdf)
-- [PreTeXt/HTML version of textbook]({{ site.baseurl }}/IBL-IntroToProof/pretext/index.html)
+- [HTML version of textbook](https://danaernst.com/IntroToProofViaIBL/)
 - [Low cost print version for sale via AMS/MAA Press](https://bookstore.ams.org/text-73/)
 - [PDF of textbook that matches the current print version by MAA Press]({{ site.baseurl }}/IBL-IntroToProof/IBLIntroToProof-MAAPressSpring2022.pdf)
 - [Errata]({{ site.baseurl }}/IBL-IntroToProof/Errata.pdf)
