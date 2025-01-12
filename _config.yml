@@ -31,5 +31,8 @@ plugins:
   - jekyll-paginate
   - jekyll-seo-tag
 
-include:
-  - _static/
+# include:
+#   - _static/
+
+keep_files:
+  - IBL-IntroToProof/_static/
