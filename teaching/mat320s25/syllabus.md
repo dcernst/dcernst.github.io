@@ -231,7 +231,7 @@ As long as the **Rules of the Game** are not violated, I'm not opposed to studen
 
 <!-- #### General Comments -->
 
-You are allowed and encouraged to work together on homework.  However, each student is expected to turn in their own work.  In general, late homework will *not* be accepted.  However, you are allowed to turn in **three late homework assignments**. Unless you have made arrangements in advance with me, homework turned in after class will be considered late. When doing your homework, I encourage you to consult the "Elements of Style for Proofs" appendix in the textbook. Your overall homework grade will be worth 20% of your final grade.
+You are allowed and encouraged to work together on homework.  However, each student is expected to turn in their own work.  In general, late homework will *not* be accepted.  However, you are allowed to turn in **three late homework assignments**. Unless you have made arrangements in advance with me, homework turned in after class will be considered late. When doing your homework, I encourage you to consult the "Elements of Style for Proofs" appendix in the textbook. Your overall homework grade will be worth 15% of your final grade.
 
 On each homework assignment, please write (i) your name, (ii) name of course, and (iii) Homework number.  You can find the list of assignments on the [homework page]({{site.baseurl}}/teaching/mat320s25/homework/).  I reserve the right to modify the homework assignments as I see necessary.
 
