@@ -32,6 +32,7 @@ The following assignments are due at the beginning of the indicated class meetin
 
 - **Homework 1:** Read the [syllabus]({{site.baseurl}}/teaching/mat320s25/syllabus/) and write down 5 important items.  *Note:*  All of the exam dates only count as a single item.  Turn in at beginning of class or email me a copy of your write up prior to class. In addition, create a free [Discord](http://discord.com) account, accept the invite to our Discord server, and post something about yourself in the #introductions channel. (Due Wednesday, January 15)
 - **Homework 2:** Read the *Preface* and *Chapter 1: Introduction* in the textbook. In addition, complete 2.2-2.4 in Section 2.1 of *Chapter 2: Mathematics and Logic* and digest the surrounding text along the way.
+- **Homework 3:** Skim the appendices of the book just to get a sense of what's there. In addition, complete 2.6-2.9 in Section 2.1 of *Chapter 2: Mathematics and Logic* and digest the surrounding text along the way.
 
 <!-- - **Daily Homework 1:** Read the [syllabus]({{site.baseurl}}/teaching/mat320s25/syllabus/) and write down 5 important items.  *Note:*  All of the exam dates only count as a single item.  Turn in at beginning of class or email me a copy of your write up prior to class. (Due Wednesday, August 30)
 - **Daily Homework 2:** Read the *Preface* and *Chapter 1: Introduction* in the textbook. In addition, complete 2.2-2.4 in Section 2.1 of *Chapter 2: Mathematics and Logic* and digest the surrounding text along the way. (Due Wednesday, August 30)
