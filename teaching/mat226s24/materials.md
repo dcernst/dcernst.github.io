@@ -60,7 +60,7 @@ If you've found an error or have suggestions for improvements, please let me kno
     - [Grit: the power of passion and perseverance &#124; Angela Lee Duckworth](https://www.youtube.com/watch?v=H14bBuluwB8) (6:12 min)
     - [How to Become a Better Learner &#124; Learner Lab](https://thelearnerlab.com/portfolio/learning-like-a-jungle-tiger/) (13:30 min)
     - [Learning Like a Jungle Tiger &#124; Trevor Ragan](https://www.youtube.com/watch?v=muoVtDjjonM&feature=youtu.be) (5:23 min, similar to previous video)
-    - [Productive Failure/Struggle Skateboard Video 1](https://www.youtube.com/watch?time_continue=98&v=1QSocgE3yFY) (1:46 min)
+    - [Productive Failure/Struggle Skateboard Video 1](https://youtu.be/1QSocgE3yFY?si=gfCfWJ_NHFjWOTZ1) (1:25min)
     - [Productive Failure/Struggle Skateboard Video 2](https://www.instagram.com/p/BzKyyLchuve/) (0:40 min)
     - [Productive Failure/Struggle BMX Video](https://www.youtube.com/watch?v=9brnDOVJWnw) (1:39 min)
     - [Michael Jordan Failure Commercial](https://www.youtube.com/watch?v=JA7G7AV-LT8) (0:32 min)
