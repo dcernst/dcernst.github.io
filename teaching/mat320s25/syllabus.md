@@ -164,8 +164,8 @@ Students are also expected to minimize distracting behaviors.  In particular, ev
 ### Textbook ###
 Our textbook for the semester is <i>An Introduction to Proof via Inquiry-Based Learning</i>, which is a free and open-source textbook that was written by me ([Dana C. Ernst](http://danaernst.com)). The textbook is designed to be used with an [inquiry-based learning](http://danaernst.com/resources/inquiry-based-learning/) (IBL) approach to an introduction to proof course. The textbook is avaiable in multiple formats:
 
-- [PDF of textbook]({{ site.baseurl }}/IBL-IntroToProof/IBLIntroToProof-current.pdf)
-- [PreTeXt/HTML version of textbook]({{ site.baseurl }}/IBL-IntroToProof/pretext/index.html)
+- [PDF of textbook]({{ site.baseurl }}/IBL-IntroToProof/IntroToProof.pdf)
+- [HTML version of textbook](https://danaernst.com/IntroToProofViaIBL/)
 - [Low cost print version for sale via AMS/MAA Press](https://bookstore.ams.org/text-73/)
 - [PDF of textbook that matches the current print version by MAA Press]({{ site.baseurl }}/IBL-IntroToProof/IBLIntroToProof-MAAPressSpring2022.pdf)
 - [Errata]({{ site.baseurl }}/IBL-IntroToProof/Errata.pdf)
