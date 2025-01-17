@@ -81,12 +81,7 @@ Below are links to the take-home portions of each exam. If you are interested in
 - [Lessons from My Math Degree That Have Nothing to Do with Math](https://medium.com/s/story/6-life-lessons-from-my-math-degree-that-have-nothing-to-do-with-math-d38aba90edfe) (6 min read on Medium)
 - [Is Mathematics Invented or Discovered? &#124; Roger Penrose](https://www.youtube.com/watch?v=TKlPj_qGIt8) (4:14 min)
 - [What is Mathematics? The Most Misunderstood Subject](http://pi.math.cornell.edu/~noonan/writing/inclass1.pdf) (short article by Dr. Robert H. Lewis, Professor of Mathematics, Fordham University)
-
-<!-- - Pictures of board work that we ran out of time to discuss. *Note:* You should not assume that the solutions/proofs posted below are valid or sufficient.
-    - [Theorem 2.2]({{ site.baseurl }}/teaching/mat320s25/Theorem2.2.jpeg)
-    - [Theorem 2.3 (version 1)]({{ site.baseurl }}/teaching/mat320s25/Theorem2.3a.jpeg)
-    - [Theorem 2.3 (version 2)]({{ site.baseurl }}/teaching/mat320s25/Theorem2.3b.jpeg)
-    - [Problem 2.4(a)]({{ site.baseurl }}/teaching/mat320s25/Problem2.4a.jpeg)
-    - [Problem 2.4(b)]({{ site.baseurl }}/teaching/mat320s25/Problem2.4b.jpeg)
-    - [Problem 2.4(c)]({{ site.baseurl }}/teaching/mat320s25/Problem2.4c.jpeg)
-    - [Problem 2.4(d)]({{ site.baseurl }}/teaching/mat320s25/Problem2.4d.jpeg) -->
+- Pictures of board work that we ran out of time to discuss. *Note:* You should not assume that the solutions/proofs posted below are valid or sufficient.
+    - [Problem 2.4(b)]({{ site.baseurl }}/teaching/mat320s25/Problem2.4b.jpg)
+    - [Problem 2.4(c)]({{ site.baseurl }}/teaching/mat320s25/Problem2.4c.jpg)
+    - [Problem 2.4(d)]({{ site.baseurl }}/teaching/mat320s25/Problem2.4d.jpg)
