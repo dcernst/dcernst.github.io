@@ -42,7 +42,7 @@ If you are interested in providing some financial support for my open-source tex
 <a target="_blank" href="https://buymeacoffee.com/danaernst"><img src="{{ site.baseurl }}/images/bmc-button.png" class="img-responsive img-rounded" style="margin-bottom: 10px; margin-left: auto; margin-right: auto;" alt="Buy Me a Coffee"/></a>
 </center> -->
 
-<a target="_blank" href="https://buymeacoffee.com/danaernst"><img src="{{ site.baseurl }}/images/bmc-button.png" class="img-responsive img-rounded" width="500px" style="margin-bottom: 5px; margin-top: 5px; margin-left: auto; margin-right: auto;" alt="Buy Me a Coffee"/></a>
+<a target="_blank" href="https://buymeacoffee.com/danaernst"><img src="{{ site.baseurl }}/images/bmc-button.png" class="img-responsive img-rounded" width="300px" style="margin-bottom: 5px; margin-top: 5px; margin-left: auto; margin-right: auto;" alt="Buy Me a Coffee"/></a>
 
 ## Why This Book?
 
