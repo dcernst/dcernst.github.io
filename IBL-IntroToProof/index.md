@@ -38,6 +38,10 @@ If you are interested in providing some financial support for my open-source tex
 <script type="text/javascript" src="https://cdnjs.buymeacoffee.com/1.0.0/button.prod.min.js" data-name="bmc-button" data-slug="danaernst" data-color="#BD5FFF" data-emoji=""  data-font="Cookie" data-text="Buy me a coffee" data-outline-color="#000000" data-font-color="#ffffff" data-coffee-color="#FFDD00" ></script>
 </div>
 
+<center>
+<a target="_blank" href="https://buymeacoffee.com/danaernst"><img src="{{ site.baseurl }}/images/bmc-button.png" class="img-responsive img-rounded" style="margin-bottom: 10px; margin-left: auto; margin-right: auto;" alt="Buy Me a Coffee"/></a>
+</center>
+
 ## Why This Book?
 
 Mathematics is not about calculations, but ideas. My goal as a teacher is to provide students with the opportunity to grapple with these ideas and to be immersed in the process of mathematical discovery. Repeatedly engaging in this process hones the mind and develops mental maturity marked by clear and rigorous thinking. Like music and art, mathematics provides an opportunity for enrichment, experiencing beauty, elegance, and aesthetic value. The medium of a painter is color and shape, whereas the medium of a mathematician is abstract thought. The creative aspect of mathematics is what captivates me and fuels my motivation to keep learning and exploring.
