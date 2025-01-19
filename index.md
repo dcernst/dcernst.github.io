@@ -26,6 +26,14 @@ I am inspired by the recent [open educational resources](https://en.wikipedia.or
 
 I am a husband and a father of two incredible sons. My passions include cycling, hiking, and trail running.  I try to do a few ultra endurance cycling events each year.  You can follow my cycling endeavors on [Strava](https://www.strava.com/athletes/122321). Oh, I enjoy drinking copious amounts of coffee, too.
 
+Speaking of coffee, if you are interested in providing some financial support for my open-source textbook efforts, you are welcome to "buy me a coffee". If you are one of my students, please keep your money as I'm doing this work for you!
+
+<div>
+<center>
+<script type="text/javascript" src="https://cdnjs.buymeacoffee.com/1.0.0/button.prod.min.js" data-name="bmc-button" data-slug="danaernst" data-color="#BD5FFF" data-emoji=""  data-font="Lato" data-text="Buy me a coffee" data-outline-color="#000000" data-font-color="#ffffff" data-coffee-color="#FFDD00" ></script> 
+</center>
+</div>
+
 To contact me, shoot me an [email](mailto:dana.ernst@nau.edu) or use any of the social media contacts in the sidebar.  Here is my physical work address:
 
 <address>
