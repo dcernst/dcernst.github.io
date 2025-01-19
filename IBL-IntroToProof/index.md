@@ -34,9 +34,13 @@ If you've found an error or have suggestions for improvements, please let me kno
 
 If you are interested in providing some financial support for my open-source textbook efforts, you are welcome to "buy me a coffee". If you are one of my students, please keep your money as I'm doing this work for you!
 
-<div>
+<br>
+
+<div style="margin: auto">
 <script type="text/javascript" src="https://cdnjs.buymeacoffee.com/1.0.0/button.prod.min.js" data-name="bmc-button" data-slug="danaernst" data-color="#BD5FFF" data-emoji=""  data-font="Cookie" data-text="Buy me a coffee" data-outline-color="#000000" data-font-color="#ffffff" data-coffee-color="#FFDD00" ></script>
 </div>
+
+<br>
 
 ## Why This Book?
 
