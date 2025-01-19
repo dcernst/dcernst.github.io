@@ -34,13 +34,15 @@ If you've found an error or have suggestions for improvements, please let me kno
 
 If you are interested in providing some financial support for my open-source textbook efforts, you are welcome to "buy me a coffee". If you are one of my students, please keep your money as I'm doing this work for you!
 
-<div style="margin-inline: auto; text-align: center;">
+<!-- <div style="margin-inline: auto; text-align: center;">
 <script type="text/javascript" src="https://cdnjs.buymeacoffee.com/1.0.0/button.prod.min.js" data-name="bmc-button" data-slug="danaernst" data-color="#BD5FFF" data-emoji=""  data-font="Cookie" data-text="Buy me a coffee" data-outline-color="#000000" data-font-color="#ffffff" data-coffee-color="#FFDD00" ></script>
 </div>
 
 <center>
 <a target="_blank" href="https://buymeacoffee.com/danaernst"><img src="{{ site.baseurl }}/images/bmc-button.png" class="img-responsive img-rounded" style="margin-bottom: 10px; margin-left: auto; margin-right: auto;" alt="Buy Me a Coffee"/></a>
-</center>
+</center> -->
+
+<a target="_blank" href="https://buymeacoffee.com/danaernst"><img src="{{ site.baseurl }}/images/bmc-button.png" class="img-responsive img-rounded" width="500px" style="margin-bottom: 5px; margin-top: 5px; margin-left: auto; margin-right: auto;" alt="Buy Me a Coffee"/></a>
 
 ## Why This Book?
 
