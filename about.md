@@ -36,7 +36,7 @@ Dana C. Ernst, PhD<br />
 Associate Professor<br />
 Department of Mathematics &amp; Statistics<br />
 Northern Arizona University<br />
-805 South Osborne Drive<br />
+801 South Osborne Drive<br />
 PO Box 5717<br />
 Flagstaff,  AZ  86011
 </address>
