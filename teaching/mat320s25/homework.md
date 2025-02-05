@@ -40,6 +40,7 @@ The following assignments are due at the beginning of the indicated class meetin
 - **Homework 8:** Complete 2.29, 2.30, 2.32, 2.34, 2.35, 2.38, 2.39 in Section 2.2 of *Chapter 2: Mathematics and Logic* and digest the surrounding text along the way. (Due Friday, January 31)
 - **Homework 9:** Complete 2.40-2.43, 2.45 in Section 2.2 of *Chapter 2: Mathematics and Logic* and digest the surrounding text along the way. (Due Monday, February 3)
 - **Homework 10:** Complete 2.50, 2.52, 2.55, 2.56, 2.57 in Section 2.3 of *Chapter 2: Mathematics and Logic* and digest the surrounding text along the way. (Due Wednesday, February 5)
+- **Homework 11:** Complete 2.58, 2.59, 2.61-2.63, 2.66-2.69 in Section 2.4 of *Chapter 2: Mathematics and Logic* and digest the surrounding text along the way. (Due Friday, February 7)
 
 <!-- - **Daily Homework 1:** Read the [syllabus]({{site.baseurl}}/teaching/mat320s25/syllabus/) and write down 5 important items.  *Note:*  All of the exam dates only count as a single item.  Turn in at beginning of class or email me a copy of your write up prior to class. (Due Wednesday, August 30)
 - **Daily Homework 2:** Read the *Preface* and *Chapter 1: Introduction* in the textbook. In addition, complete 2.2-2.4 in Section 2.1 of *Chapter 2: Mathematics and Logic* and digest the surrounding text along the way. (Due Wednesday, August 30)
