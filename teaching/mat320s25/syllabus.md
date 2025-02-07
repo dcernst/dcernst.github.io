@@ -520,7 +520,7 @@ Only I will remain.</p>
 </blockquote>
 
 ### Exams ###
-There will be three midterm exams and a cumulative final exam. All of the exams will consist of both an in-class part and a take-home part. The in-class portions of the midterm exams are *tentatively* scheduled for **Friday, February 14** (week 5), **Friday, March 21** (week 9), and **Friday, April 18** (week 13).  Each midterm exam will be worth 15% of your overall grade. The final exam will be on **Monday, May 5** at **10AM-12PM** and is worth 20% of your overall grade. Make-up exams will only be given under extreme circumstances, as judged by me. In general, it will be best to communicate conflicts ahead of time.
+There will be three midterm exams and a cumulative final exam. All of the exams will consist of both an in-class part and a take-home part. The in-class portions of the midterm exams are *tentatively* scheduled for **Friday, February 17** (week 6), **Friday, March 21** (week 9), and **Friday, April 18** (week 13).  Each midterm exam will be worth 15% of your overall grade. The final exam will be on **Monday, May 5** at **10AM-12PM** and is worth 20% of your overall grade. Make-up exams will only be given under extreme circumstances, as judged by me. In general, it will be best to communicate conflicts ahead of time.
 
 <blockquote>
 <p>I write one page of masterpiece to ninety-one pages of shit.</p>
@@ -560,7 +560,7 @@ In summary, your final grade will be determined by your scores in the following 
 	<tr>
 		<td>Exam 1</td>
 		<td style="text-align: center;">15%</td>
-		<td>In-class portion on February 14</td>
+		<td>In-class portion on February 17</td>
 	</tr>
     <tr>
         <td>Exam 2</td>
