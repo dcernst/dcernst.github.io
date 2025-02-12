@@ -124,6 +124,7 @@ The notes will be released incrementally. Each link below is to a PDF file. If y
 - [The Chinese Farmer &#124; Alan Watts](https://www.youtube.com/watch?feature=share&v=eJShr4VdvxQ&app=desktop) (2:26 min)
 - [Do Schools Kill Creativity? &#124; Ken Robinson](https://www.ted.com/talks/ken_robinson_says_schools_kill_creativity?language=en) (19:22 min)
 - [The Learner Lab Podcast](https://thelearnerlab.com/podcast/)
+- [Do Hard Things &#124; The Learner Lab](https://www.youtube.com/shorts/D2nYV8s6gV4) (2:41 min)
 - [The Subtle Art of the Mathematical Conjecture](https://www.quantamagazine.org/the-subtle-art-of-the-mathematical-conjecture-20190507/) (article on Quanta Magazine)
 - [Lessons from My Math Degree That Have Nothing to Do with Math](https://medium.com/s/story/6-life-lessons-from-my-math-degree-that-have-nothing-to-do-with-math-d38aba90edfe) (6 min read on Medium)
 - [Is Mathematics Invented or Discovered? &#124; Roger Penrose](https://www.youtube.com/watch?v=TKlPj_qGIt8) (4:14 min)

@@ -57,6 +57,7 @@ I will not be covering every detail of the book and the only way to achieve a su
 - [Do Schools Kill Creativity? &#124; Ken Robinson](https://www.ted.com/talks/ken_robinson_says_schools_kill_creativity?language=en) (19:22 min)
 - [Lessons from My Math Degree That Have Nothing to Do with Math](https://medium.com/s/story/6-life-lessons-from-my-math-degree-that-have-nothing-to-do-with-math-d38aba90edfe) (6 min read on Medium)
 - [The Learner Lab Podcast](https://thelearnerlab.com/podcast/)
+- [Do Hard Things &#124; The Learner Lab](https://www.youtube.com/shorts/D2nYV8s6gV4) (2:41 min)
 
 ## Exams
 Below are links to the take-home portions of each exam. If you are interested in using LaTeX to type up your solutions, contact me and I will send you a link to the source file of the exam.
