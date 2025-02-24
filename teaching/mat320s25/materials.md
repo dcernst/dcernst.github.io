@@ -83,3 +83,4 @@ Below are links to the take-home portions of each exam. If you are interested in
     - [Problem 2.4(c)]({{ site.baseurl }}/teaching/mat320s25/Problem2.4c.jpg)
     - [Problem 2.4(d)]({{ site.baseurl }}/teaching/mat320s25/Problem2.4d.jpg)
 - [Some notes on Sections 3.1 and 3.3]({{ site.baseurl }}/teaching/mat320s25/Sections3.1and3.3.pdf)
+- [Some notes on Sections 3.2 and 3.4]({{ site.baseurl }}/teaching/mat320s25/Sections3.2and3.4.pdf)
