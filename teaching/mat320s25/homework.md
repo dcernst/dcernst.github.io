@@ -44,9 +44,8 @@ The following assignments are due at the beginning of the indicated class meetin
 - **Homework 12:** Complete 2.70-2.73, 2.75-2.79 in Sections 2.4 and 2.5 of *Chapter 2: Mathematics and Logic* and digest the surrounding text along the way. (Due Monday, February 10)
 - **Homework 13:** Complete 2.80, 2.86 (identify T/F and prove one of the true items) in Section 2.5 of *Chapter 2: Mathematics and Logic* and digest the surrounding text along the way. (Due Wednesday, February 12)
 - **Homework 14:** Complete 2.87 and 2.88 in Section 2.5 of *Chapter 2: Mathematics and Logic* and digest the surrounding text along the way. (Due Friday, February 14)
-- **Homework 15:** Complete 2.89 (there is a proof for 2.89 just below it) 2.91, 3.36, 3.37, 3.40, 3.41(b), either part of 3.42 digest the surrounding text along the way. (Due Wednesdayday, February 24)
-
-<!-- - **Homework 14:** Complete 2.87-2.89 (there is a proof for 2.89 just below it...), 2.91 in Section 2.5 of *Chapter 2: Mathematics and Logic* and digest the surrounding text along the way. (Due Friday, February 14) -->
+- **Homework 15:** Complete 2.89 (there is a proof for 2.89 just below it) 2.91, 3.36, 3.37, 3.40, 3.41(b), either part of 3.42 and digest the surrounding text along the way. (Due Wednesday, February 24)
+- **Homework 16:** Complete 3.48-3.55 digest the surrounding text along the way. (Due Friday, February 26)
 
 
 <!-- - **Daily Homework 1:** Read the [syllabus]({{site.baseurl}}/teaching/mat320s25/syllabus/) and write down 5 important items.  *Note:*  All of the exam dates only count as a single item.  Turn in at beginning of class or email me a copy of your write up prior to class. (Due Wednesday, August 30)
