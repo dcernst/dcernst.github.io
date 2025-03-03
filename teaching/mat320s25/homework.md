@@ -47,6 +47,7 @@ The following assignments are due at the beginning of the indicated class meetin
 - **Homework 15:** Complete 2.89 (there is a proof for 2.89 just below it) 2.91, 3.36, 3.37, 3.40, 3.41(b), either part of 3.42 and digest the surrounding text along the way. (Due Wednesday, February 26)
 - **Homework 16:** Complete 3.48-3.55 digest the surrounding text along the way. (Due Friday, February 28)
 - **Homework 17:** Complete 3.56-3.58 digest the surrounding text along the way. (Due Monday, March 3)
+- **Homework 18:** Complete 3.59-3.61 digest the surrounding text along the way. (Due Wednesday, March 5)
 
 
 <!-- - **Daily Homework 1:** Read the [syllabus]({{site.baseurl}}/teaching/mat320s25/syllabus/) and write down 5 important items.  *Note:*  All of the exam dates only count as a single item.  Turn in at beginning of class or email me a copy of your write up prior to class. (Due Wednesday, August 30)
