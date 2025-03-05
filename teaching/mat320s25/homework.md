@@ -48,6 +48,7 @@ The following assignments are due at the beginning of the indicated class meetin
 - **Homework 16:** Complete 3.48-3.55 digest the surrounding text along the way. (Due Friday, February 28)
 - **Homework 17:** Complete 3.56-3.58 digest the surrounding text along the way. (Due Monday, March 3)
 - **Homework 18:** Complete 3.59-3.61 digest the surrounding text along the way. (Due Wednesday, March 5)
+- **Homework 19:** Read through Section 4.1 and then complete one among 4.4-4.6 and one among 4.7-4.8. I'm taking for granted that you have some experience with induction from your discrete mathematics (or problem solving) course. I'll justify Theorem 4.2 on Friday. (Due Friday, March 7)
 
 
 <!-- - **Daily Homework 1:** Read the [syllabus]({{site.baseurl}}/teaching/mat320s25/syllabus/) and write down 5 important items.  *Note:*  All of the exam dates only count as a single item.  Turn in at beginning of class or email me a copy of your write up prior to class. (Due Wednesday, August 30)
