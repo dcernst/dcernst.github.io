@@ -25,7 +25,7 @@ You can find a recent version of my curriculum vitae [here]({{site.baseurl}}/sch
 
 ## In Preparation
   * B.J. Benesh, D.C. Ernst, M. Meyer, S.K. Salmon, and N. Sieben. Impartial geodetic removing games on grid graphs.
-  * M. Baltushkin, D.C. Ernst, and N. Sieben. Isomorphism theorems for loopy impartial combinatorial games.
+  * M. Baltushkin, D.C. Ernst, and N. Sieben. Isomorphism Theorems for Loopy Impartial Combinatorial Games.
   * G. Cerbai, A. Claesson, D.C. Ernst, and H. Golab. Pattern-avoiding Cayley permutations via combinatorial species, Part 2.
   * B.J. Benesh, D.C. Ernst, M. Meyer, S.K. Salmon, and N. Sieben. Impartial geodetic destroying games on graphs.
   * F. Awik, F. Burkhart, H. Denoncourt, D.C. Ernst, T. Rosenberg, and A. Stewart. Enumerating signed permutations by reversal distance.
