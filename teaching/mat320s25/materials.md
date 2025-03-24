@@ -89,3 +89,5 @@ Below are links to the take-home portions of each exam. If you are interested in
 - [Problem 3.61(c)]({{ site.baseurl }}/teaching/mat320s25/Problem3.61c.pdf)
 - [Therorem 4.2]({{ site.baseurl }}/teaching/mat320s25/Theorem4.2.pdf)
 - [Some notes on induction]({{ site.baseurl }}/teaching/mat320s25/InductionNotes.pdf)
+- [Some notes on Section 4.4]({{ site.baseurl }}/teaching/mat320s25/Section4.4.pdf)
+- [Some notes on Section 6.1]({{ site.baseurl }}/teaching/mat320s25/Section6.1.pdf)
