@@ -70,7 +70,7 @@ In order to promote a more active participation in your learning, we will incorp
 
 Much of the course will be devoted to students presenting their proposed solutions/proofs on the board and a significant portion of your grade will be determined by how much mathematics you produce.  I use the word "produce" because I believe that the best way to learn mathematics is by doing mathematics.  Someone cannot master a musical instrument or a martial art by simply watching, and in a similar fashion, you cannot master mathematics by simply watching; you must do mathematics!
 
-Furthermore, it is important to understand that solving genuine problems is difficult and takes time.  You shouldn't expect to complete each problem in 10 minutes or less.  Sometimes, you might have to stare at the problem for an hour before even understanding how to get started.  In fact, solving difficult problems can be a lot like the clip from the *Big Bang Theory* located below.
+Furthermore, it is important to understand that solving genuine problems is difficult and takes time.  You shouldn't expect to complete each problem in 10 minutes or less.  Sometimes, you might have to stare at the problem for an hour before even understanding how to get started.  In fact, solving difficult problems can be a lot like the clip from *The Big Bang Theory* located below.
 
 <div class="embed-responsive embed-responsive-16by9" style="margin: 10px 0 10px 0">
 <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/i5oc-70Fby4"></iframe>

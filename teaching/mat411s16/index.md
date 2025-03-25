@@ -56,7 +56,7 @@ If you want to learn more about IBL, read my blog post titled [What the Heck is 
 
 Much of the course will be devoted to students presenting their proposed solutions/proofs on the board and a significant portion of your grade will be determined by how much mathematics you produce.  I use the word "produce" because I believe that the best way to learn mathematics is by doing mathematics.  Someone cannot master a musical instrument or a martial art by simply watching, and in a similar fashion, you cannot master mathematics by simply watching; you must do mathematics!
 
-Furthermore, it is important to understand that solving genuine problems is difficult and takes time.  You shouldn't expect to complete each problem in 10 minutes or less.  Sometimes, you might have to stare at the problem for an hour before even understanding how to get started.  In fact, solving difficult problems can be a lot like the clip from the *Big Bang Theory* located [here](http://www.youtube.com/watch?v=i5oc-70Fby4&feature=related).
+Furthermore, it is important to understand that solving genuine problems is difficult and takes time.  You shouldn't expect to complete each problem in 10 minutes or less.  Sometimes, you might have to stare at the problem for an hour before even understanding how to get started.  In fact, solving difficult problems can be a lot like the clip from *The Big Bang Theory* located [here](http://www.youtube.com/watch?v=i5oc-70Fby4&feature=related).
 
 In this course, *everyone* will be required to
 

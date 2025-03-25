@@ -104,7 +104,7 @@ In any act of creation, there must be room for experimentation, and thus allowan
 <footer><a href=" ">German Proverb</a></footer>
 </blockquote>
 
-Furthermore, it is important to understand that solving genuine problems is difficult and takes time.  You shouldn't expect to complete each problem in 10 minutes or less.  Sometimes, you might have to stare at the problem for an hour before even understanding how to get started.  In fact, solving difficult problems can be a lot like the clip from the *Big Bang Theory* located [here](http://www.youtube.com/watch?v=i5oc-70Fby4&feature=related).
+Furthermore, it is important to understand that solving genuine problems is difficult and takes time.  You shouldn't expect to complete each problem in 10 minutes or less.  Sometimes, you might have to stare at the problem for an hour before even understanding how to get started.  In fact, solving difficult problems can be a lot like the clip from *The Big Bang Theory* located [here](http://www.youtube.com/watch?v=i5oc-70Fby4&feature=related).
 
 In this course, *everyone* will be required to
 
