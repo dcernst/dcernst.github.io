@@ -51,6 +51,7 @@ The following assignments are due at the beginning of the indicated class meetin
 - **Homework 19:** Read through Section 4.1 and then complete one among 4.4-4.6 and one among 4.7-4.8. I'm taking for granted that you have some experience with induction from your discrete mathematics (or problem solving) course. I'll justify Theorem 4.2 on Friday. (Due Friday, March 7)
 - **Homework 20:** Complete **one** from 4.13-4.15, 4.17-4.23 and **two** from 4.27, 4.29-4.34. (Due Wednesday, March 19)
 - **Homework 21:** Complete 7.19-7.24, 7.27, 7.29 and digest the surrounding text along the way. (Due Monday, March 31)
+- **Homework 22:** Skim Skeleton Proofs 7.31-7.33, complete 7.34 (no proofs necessary), 7.36-7.40, 7.42, and digest the surrounding text along the way. (Due Wednesday, April 2)
 
 
 
