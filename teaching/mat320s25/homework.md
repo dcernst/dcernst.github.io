@@ -52,4 +52,4 @@ The following assignments are due at the beginning of the indicated class meetin
 - **Homework 20:** Complete **one** from 4.13-4.15, 4.17-4.23 and **two** from 4.27, 4.29-4.34. (Due Wednesday, March 19)
 - **Homework 21:** Complete 7.19-7.24, 7.27, 7.29 and digest the surrounding text along the way. (Due Monday, March 31)
 - **Homework 22:** Skim Skeleton Proofs 7.31-7.33, complete 7.34 (no proofs necessary), 7.36-7.40, 7.42, and digest the surrounding text along the way. (Due Wednesday, April 2)
-- **Homework 23:** Complete ??? and digest the surrounding text along the way. (Due Friday, April 4)
+- **Homework 23:** Complete 7.43, 7.47-7.50 and digest the surrounding text along the way. (Due Friday, April 4)
