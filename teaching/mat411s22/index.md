@@ -81,6 +81,8 @@ In order to promote a more active participation in your learning, we will incorp
 </center>
 </div>
 
+<br>
+
 If you want to learn more about IBL, read my blog post titled [What the Heck is IBL?](http://maamathedmatters.blogspot.com/2013/05/what-heck-is-ibl.html).
 
 <blockquote>
