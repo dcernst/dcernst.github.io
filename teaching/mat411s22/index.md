@@ -76,7 +76,7 @@ In order to promote a more active participation in your learning, we will incorp
 <center>
 <figure class="figure">
 <img src="{{ site.baseurl }}/images/FourPillars.png" class="img-responsive img-rounded" width="80%" img style="margin-right: 5px" img style="margin-left: 5px"  img style="margin-top: 5px" img style="margin-bottom: 5px" />
-<figcaption class="figure-caption">Figure by TJ Hitman and Nina White.</figcaption>
+<figcaption class="figure-caption">Figure by TJ Hitchman and Nina White.</figcaption>
 </figure>
 </center>
 </div>
