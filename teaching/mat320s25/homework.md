@@ -56,3 +56,4 @@ The following assignments are due at the beginning of the indicated class meetin
 - **Homework 24:** Complete 7.55, 7.56, 7.59 and digest the surrounding text along the way. (Due Monday, April 7)
 - **Homework 25:** Complete 7.61, 7.63-7.67 and digest the surrounding text along the way. (Due Friday, April 11)
 - **Homework 26:** Complete 7.68, 7.70, 7.71, 7.73 and digest the surrounding text along the way. (Due Monday, April 14)
+- **Homework 27:** Complete 8.3-8.6, 8.9, 8.10 and digest the surrounding text along the way. (Due Wednesday, April 16)
