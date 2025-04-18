@@ -50,6 +50,8 @@ Below are links to the take-home portions of each exam. If you are interested in
 
 -  [Exam 1 (Part 2)]({{site.baseurl}}/teaching/mat320s25/320Exam1-Part2.pdf) (PDF) (Due Monday, February 24)
 -  [Exam 2 (Part 2)]({{site.baseurl}}/teaching/mat320s25/320Exam2-Part2.pdf) (PDF) (Due by 5PM on Friday, March 28)
+-  [Exam 3 (Part 2)]({{site.baseurl}}/teaching/mat320s25/320Exam3-Part2.pdf) (PDF) (Due Friday, April 25)
+-  Final Exam (Part 2) coming soon... (PDF) (Due by 3PM on Friday, May 9)
 
 ## Miscellaneous Materials ##
 - [Setting the Stage]({{ site.baseurl }}/teaching/SettingTheStage.pdf) (PDF)
