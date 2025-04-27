@@ -85,7 +85,7 @@ All of the secondary skills you will develop in this course are highly valued by
 </blockquote>
 
 ### Goals ###
-Aside from the obvious goal of wanting you to learn how to write rigorous mathematical proofs, one of my principle ambitions is to make you independent of me.  Nothing else that I teach you will be half so valuable or powerful as the ability to reach conclusions by reasoning logically from first principles and being able to justify those conclusions in clear, persuasive language (either oral or written).   Furthermore, I want you to experience the unmistakable feeling that comes when one really understands something thoroughly.  Much "classroom knowledge" is fairly superficial, and students often find it hard to judge their own level of understanding. For many of us, the only way we know whether we are "getting it" comes from the grade we make on an exam.  I want you to become less reliant on such externals.  When you can distinguish between really knowing something and merely knowing about something, you will be on your way to becoming an independent learner.  Lastly, it is my sincere hope that all of us (myself included) will improve our oral and written communications skills.
+Aside from the obvious goal of wanting you to learn how to write rigorous mathematical proofs, one of my principal ambitions is to make you independent of me.  Nothing else that I teach you will be half so valuable or powerful as the ability to reach conclusions by reasoning logically from first principles and being able to justify those conclusions in clear, persuasive language (either oral or written).   Furthermore, I want you to experience the unmistakable feeling that comes when one really understands something thoroughly.  Much "classroom knowledge" is fairly superficial, and students often find it hard to judge their own level of understanding. For many of us, the only way we know whether we are "getting it" comes from the grade we make on an exam.  I want you to become less reliant on such externals.  When you can distinguish between really knowing something and merely knowing about something, you will be on your way to becoming an independent learner.  Lastly, it is my sincere hope that all of us (myself included) will improve our oral and written communications skills.
 
 <blockquote>
 <p>An ounce of practice is worth more than tons of preaching.</p>
@@ -171,7 +171,7 @@ Our textbook for the semester is <i>An Introduction to Proof via Inquiry-Based L
 - [Errata]({{ site.baseurl }}/IBL-IntroToProof/Errata.pdf)
 - [Source code available via GitHub](https://github.com/dcernst/IBL-IntroToProof)
 
-You can also find a link to the textbook one the [Course Materials]({{site.baseurl}}/teaching/mat320s25/materials/) page.
+You can also find a link to the textbook on the [Course Materials]({{site.baseurl}}/teaching/mat320s25/materials/) page.
 
 I will not be covering every detail of the textbook and the only way to achieve a sufficient understanding of the material is to be digesting the reading in a meaningful way.  You should be seeking clarification about the content whenever necessary by asking questions.  Here's one of my favorite quotes about reading mathematics.
 
