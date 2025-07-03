@@ -10,7 +10,7 @@ title: Welcome
 
 <img src="{{ site.baseurl }}/images/DanaTeachingWide.jpg" class="img-responsive img-rounded" img style="margin-bottom: 10px" />
 
-My name is Dana Ernst and I am a professor in the <a href="http://nau.edu/cefns/natsci/math/">Department of Mathematics and Statistics</a> at <a href="http://nau.edu">Northern Arizona University</a> in <a href="https://maps.google.com/maps?q=Flagstaff,+AZ&amp;hl=en&amp;sll=37.0625,-95.677068&amp;sspn=57.161276,109.511719&amp;oq=fl&amp;hnear=Flagstaff,+Coconino,+Arizona&amp;t=m&amp;z=12">Flagstaff, AZ</a>.  
+My name is Dana Ernst and I am a professor in the <a href="http://nau.edu/cefns/natsci/math/">Department of Mathematics and Statistics</a> at <a href="http://nau.edu">Northern Arizona University</a> in <a href="https://maps.google.com/maps?q=Flagstaff,+AZ&amp;hl=en&amp;sll=37.0625,-95.677068&amp;sspn=57.161276,109.511719&amp;oq=fl&amp;hnear=Flagstaff,+Coconino,+Arizona&amp;t=m&amp;z=12">Flagstaff, AZ</a>.  I am also currently the chair of the department.
 
 My primary research interests are in the interplay between combinatorics and algebraic structures. More specifically, one area of interest is the combinatorics of <a href="http://en.wikipedia.org/wiki/Coxeter_group">Coxeter groups</a>. By employing combinatorial tools such as diagram algebras and heaps of pieces, one can gain insight into algebraic structures associated to Coxeter groups, and, conversely, the corresponding structure theory can often lead to surprising combinatorial results. My research also includes <a href="https://en.wikipedia.org/wiki/Combinatorial_game_theory">combinatorial game theory</a>.  More recently my scholarly interests have expanded into [enumerative combinatorics](https://en.wikipedia.org/wiki/Enumerative_combinatorics) with current research projects focused on the combinatorics of genome rearrangements, as well as [pattern avoidance](https://en.wikipedia.org/wiki/Permutation_pattern) in combinatorical structures such Cayley permutations.  See my <a href="{{ site.baseurl }}/scholarship/">scholarship page</a> for more information.
 
@@ -35,7 +35,7 @@ Department of Mathematics &amp; Statistics<br />
 Northern Arizona University<br />
 801 South Osborne Drive<br />
 PO Box 5717<br />
-Flagstaff,  AZ  86011
+Flagstaff, AZ  86011
 </address>
 
 This website was created using <a href="https://pages.github.com">GitHub Pages</a> and <a href="http://jekyllrb.com">Jekyll</a> together with <a href="http://getbootstrap.com">Twitter Bootstrap</a>. You can find the <a href="https://github.com/dcernst/dcernst.github.io">source code</a> on GitHub.
