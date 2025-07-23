@@ -32,7 +32,6 @@ You can find a recent version of my curriculum vitae [here]({{site.baseurl}}/sch
 
 ## Submitted
   * B.J. Benesh, D.C. Ernst, M. Meyer, S.K. Salmon, and N. Sieben. Impartial geodetic removing games on grid graphs. [[arXiv:2505.08655](http://arxiv.org/abs/2505.08655)]
-  * M. Baltushkin, D.C. Ernst, and N. Sieben. Isomorphism Theorems for Impartial Combinatorial Games. [[arXiv:2505.04919](https://arxiv.org/abs/2505.04919)]
   * J. Barnes, J. Breland, D.C. Ernst, R. Perry. Braid graphs in simply-laced triangle-free Coxeter systems are median. [[arXiv:2408.16839](https://arxiv.org/abs/2408.16839)]
   * G. Cerbai, A. Claesson, D.C. Ernst, and H. Golab. Pattern-avoiding Cayley permutations via combinatorial species. [[arXiv:2407.19583](https://arxiv.org/abs/2407.19583)]
   
@@ -46,6 +45,7 @@ Below is a list of textbooks that I have written to be used with an [inquiry-bas
   * D.C. Ernst. *An Introduction to Proof via Inquiry-Based Learning*. MAA Press, 2022. [[Project Webpage](http://dcernst.github.io/IBL-IntroToProof/)] [[Paperback](https://bookstore.ams.org/text-73/)]
 
 ## Journal Articles
+  * M. Baltushkin, D.C. Ernst, and N. Sieben. Isomorphism Theorems for Impartial Combinatorial Games. Accepted (pending revisions) to *Discrete Mathematics Letters*. [[arXiv:2505.04919](https://arxiv.org/abs/2505.04919)]
   * B.J. Benesh, D.C. Ernst, M. Meyer, S.K. Salmon, and N. Sieben. Impartial geodetic building games on graphs. *Int. J. Game Theory* 53(4), 2025. [[arXiv:2307.07095](https://arxiv.org/abs/2307.07095)] [[ePrint](https://doi.org/10.1007/s00182-024-00916-0)]
   * B. Ba&#353;i&#263;, P. Ellis, D.C. Ernst, D. Popovi&#263;, N. Sieben. Categories of impartial rulegraphs and gamegraphs. *Int. J. Game Theory* 53(4), 2024. [[arXiv:2312.00650](https://arxiv.org/abs/2312.00650)] [[ePrint](https://doi.org/10.1007/s00182-024-00921-3)]
   * D.C. Ernst, J. Slye. Using the $\Spin_{3\times 3}$ virtual manipulative to introduce group theory. *PRIMUS* 34(6), 2024. [[ePrint](https://doi.org/10.1080/10511970.2024.2335483)]
