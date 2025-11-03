@@ -124,6 +124,7 @@ Below are all of the MS theses that I have advised at NAU.
   * Brooke Fox. Conjugacy of cyclically fully commutative elements in Coxeter groups of type $A$. Northern Arizona University MS Thesis. May 2014. [[PDF]({{site.baseurl}}/scholarship/FoxThesis.pdf)]
 
 ## Cycling Related
+  * Bikepacking The Grand Staircase Escalante. *The Endurance Studio*. October 2025. [[YouTube](hhttps://www.youtube.com/watch?v=4mAgE7uJ2b0)]
   * Dana Ernst: Math Professor, Race Across Arizona FKT Holder, Bikepacking Race Director. *The Endurance Studio*. June 2024. [[YouTube](https://youtu.be/J96zjo0h5yU?si=mu53LZ7ftQddSigR)]
   * Dana Ernst: Verde Valley Randonneé Q&A. *The Endurance Studio*. April 2024. [[YouTube](https://www.youtube.com/watch?v=wgX8s8WAbww&t=84s)]
   * Bikepacking The Westfjords Way In Iceland: A Journey Through Europe's Last Great Wilderness. *The Seasoned Bikepaker*. July 2023. [[YouTube](https://www.youtube.com/watch?v=b9D4YQwWsVM&t=64s)]
