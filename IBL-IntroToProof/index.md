@@ -25,6 +25,7 @@ The first draft of the book was written in 2009. At that time, several of the se
 - [Low cost print version available via AMS/MAA Press](https://bookstore.ams.org/text-73/)
 - [PDF of textbook that matches the current print version by MAA Press]({{ site.baseurl }}/IBL-IntroToProof/IBLIntroToProof-MAAPressSpring2022.pdf)
 - [Instructor Manual]({{ site.baseurl }}/IBL-IntroToProof/InstructorGuide.pdf) (Updated January 14, 2025)
+- [Practicing Proofs]({{ site.baseurl }}/IBL-IntroToProof/PracticingProofs.pdf) (PDF) by Noha ElGarem, Gal Gross, Tonatiuh Matos Wiederhold, and Stan Yoshinobu at University of Toronto. Handouts to accompany textbook. (Updated December 24, 2025)
 - [Errata]({{ site.baseurl }}/IBL-IntroToProof/Errata.pdf) (Updated November 7, 2025)
 - [Source code available via GitHub](https://github.com/dcernst/IBL-IntroToProof)
 - [Book review in MAA Focus](http://digitaleditions.walsworthprintgroup.com/publication/?i=754974&p=42&view=issueViewer)
