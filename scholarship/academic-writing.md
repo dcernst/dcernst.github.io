@@ -28,14 +28,11 @@ You can find a recent version of my curriculum vitae [here]({{site.baseurl}}/sch
   * B.J. Benesh, D.C. Ernst, M. Meyer, S.K. Salmon, and N. Sieben. Impartial geodetic destroying games on graphs.
   * F. Awik, F. Burkhart, H. Denoncourt, D.C. Ernst, T. Rosenberg, and A. Stewart. Enumerating signed permutations by reversal distance.
 
-<!-- * J. Breland, Q. Cadman, D.C. Ernst, J. Niemi, J. Sullivan, and J. Wright. Structure of braid graphs for reduced words in simply-laced Coxeter systems. * F. Burkhart, H. Denoncourt, D.C. Ernst, and A. Stewart. Enumerating signed permutations by reversal distance.-->
+<!-- * J. Breland, Q. Cadman, D.C. Ernst, J. Niemi, J. Sullivan, and J. Wright. Structure of braid graphs for reduced words in simply-laced Coxeter systems. -->
 
 ## Submitted
   * B.J. Benesh, D.C. Ernst, M. Meyer, S.K. Salmon, and N. Sieben. Impartial geodetic removing games on grid graphs. [[arXiv:2505.08655](http://arxiv.org/abs/2505.08655)]
   * J. Barnes, J. Breland, D.C. Ernst, R. Perry. Braid graphs in simply-laced triangle-free Coxeter systems are median. [[arXiv:2408.16839](https://arxiv.org/abs/2408.16839)]
-  * G. Cerbai, A. Claesson, D.C. Ernst, and H. Golab. Pattern-avoiding Cayley permutations via combinatorial species. [[arXiv:2407.19583](https://arxiv.org/abs/2407.19583)]
-  
-<!-- * T.J. Hitchman, S. Yoshinobu, M. Jones, D.C. Ernst, and S. Laursen. Turtles all the way down: The infinite progression of professional development. -->
 
 ## Books
 Below is a list of textbooks that I have written to be used with an [inquiry-based learning](http://maamathedmatters.blogspot.com/2013/05/what-heck-is-ibl.html) (IBL) approach.
@@ -45,6 +42,7 @@ Below is a list of textbooks that I have written to be used with an [inquiry-bas
   * D.C. Ernst. *An Introduction to Proof via Inquiry-Based Learning*. MAA Press, 2022. [[Project Webpage](http://dcernst.github.io/IBL-IntroToProof/)] [[Paperback](https://bookstore.ams.org/text-73/)]
 
 ## Journal Articles
+  * G. Cerbai, A. Claesson, D.C. Ernst, and H. Golab. Pattern-avoiding Cayley permutations via combinatorial species. Accepted to *Australas. J. Combin.*, 2026. [[arXiv:2407.19583](https://arxiv.org/abs/2407.19583)]
   * M. Baltushkin, D.C. Ernst, and N. Sieben. Isomorphism Theorems for Impartial Combinatorial Games. *Discrete Math. Lett.* 16, 2025. [[arXiv:2505.04919](https://arxiv.org/abs/2505.04919)] [[ePrint](https://www.dmlett.com/archive/v16/DML25_v16_pp59-66.pdf)]
   * B.J. Benesh, D.C. Ernst, M. Meyer, S.K. Salmon, and N. Sieben. Impartial geodetic building games on graphs. *Int. J. Game Theory* 53(4), 2025. [[arXiv:2307.07095](https://arxiv.org/abs/2307.07095)] [[ePrint](https://doi.org/10.1007/s00182-024-00916-0)]
   * B. Ba&#353;i&#263;, P. Ellis, D.C. Ernst, D. Popovi&#263;, N. Sieben. Categories of impartial rulegraphs and gamegraphs. *Int. J. Game Theory* 53(4), 2024. [[arXiv:2312.00650](https://arxiv.org/abs/2312.00650)] [[ePrint](https://doi.org/10.1007/s00182-024-00921-3)]
