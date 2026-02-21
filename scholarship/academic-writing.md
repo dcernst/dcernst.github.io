@@ -42,7 +42,7 @@ Below is a list of textbooks that I have written to be used with an [inquiry-bas
   * D.C. Ernst. *An Introduction to Proof via Inquiry-Based Learning*. MAA Press, 2022. [[Project Webpage](http://dcernst.github.io/IBL-IntroToProof/)] [[Paperback](https://bookstore.ams.org/text-73/)]
 
 ## Journal Articles
-  * G. Cerbai, A. Claesson, D.C. Ernst, and H. Golab. Pattern-avoiding Cayley permutations via combinatorial species. Accepted to *Australas. J. Combin.*, 2026. [[arXiv:2407.19583](https://arxiv.org/abs/2407.19583)]
+  * G. Cerbai, A. Claesson, D.C. Ernst, and H. Golab. Pattern-avoiding Cayley permutations via combinatorial species. *Australas. J. Combin.*, 96(2), 267–299m 2026. [[arXiv:2407.19583](https://arxiv.org/abs/2407.19583)] [[ePrint](https://ajc.maths.uq.edu.au/pdf/94/ajc_v94_p267.pdf)]
   * M. Baltushkin, D.C. Ernst, and N. Sieben. Isomorphism Theorems for Impartial Combinatorial Games. *Discrete Math. Lett.* 16, 2025. [[arXiv:2505.04919](https://arxiv.org/abs/2505.04919)] [[ePrint](https://www.dmlett.com/archive/v16/DML25_v16_pp59-66.pdf)]
   * B.J. Benesh, D.C. Ernst, M. Meyer, S.K. Salmon, and N. Sieben. Impartial geodetic building games on graphs. *Int. J. Game Theory* 53(4), 2025. [[arXiv:2307.07095](https://arxiv.org/abs/2307.07095)] [[ePrint](https://doi.org/10.1007/s00182-024-00916-0)]
   * B. Ba&#353;i&#263;, P. Ellis, D.C. Ernst, D. Popovi&#263;, N. Sieben. Categories of impartial rulegraphs and gamegraphs. *Int. J. Game Theory* 53(4), 2024. [[arXiv:2312.00650](https://arxiv.org/abs/2312.00650)] [[ePrint](https://doi.org/10.1007/s00182-024-00921-3)]
