@@ -15,6 +15,7 @@ Below is list of talks and presentations that I have given over the past several
 
 <!-- In particular, you can find the collection of my recent slides on [Speaker Deck](https://speakerdeck.com/dcernst). -->
 
+- In defense of mathematics. [2026 Great Survival Debate](https://news.nau.edu/the-great-survival-debate/), NAU, Flagstaff, AZ. March 2026.
 - The Friendship Paradox: Your friends, on average, have more friends than you do. [Math on Tap](https://naumathstat.github.io/seminars/MathOnTap/), Mother Road Brewery, Flagstaff, AZ. November 2025. [[Slides](http://dcernst.github.io/talks/MathOnTap251105-Handout.pdf)]
 - Structure of braid graphs for reduced words in Coxeter groups. [NAU Mathematics and Statistics Colloquium](https://naumathstat.github.io/seminars/colloquium/), NAU, Flagstaff, AZ. September 2025. [[Slides](http://dcernst.github.io/talks/NAUFall2025-Ernst.pdf)]
 - Structure of braid graphs for reduced words in Coxeter groups. [15th Nordic Combinatorial Conference](https://norcom2025.github.io), Reykjavik University, Iceland. June 2025. [[Slides](http://dcernst.github.io/talks/NORCOM2025-Ernst.pdf)]
