@@ -31,7 +31,7 @@ You can find a recent version of my curriculum vitae [here]({{site.baseurl}}/sch
 <!-- * J. Breland, Q. Cadman, D.C. Ernst, J. Niemi, J. Sullivan, and J. Wright. Structure of braid graphs for reduced words in simply-laced Coxeter systems. -->
 
 ## Submitted
-  * B.J. Benesh, D.C. Ernst, M. Meyer, S.K. Salmon, and N. Sieben. Impartial geodetic destroying games on graphs. [[arXiv:???]()]
+  * B.J. Benesh, D.C. Ernst, M. Meyer, S.K. Salmon, and N. Sieben. Impartial geodetic destroying games on graphs. [[arXiv:2606.05483](http://arxiv.org/abs/2606.05483)]
   * B.J. Benesh, D.C. Ernst, M. Meyer, S.K. Salmon, and N. Sieben. Impartial geodetic removing games on grid graphs. [[arXiv:2505.08655](http://arxiv.org/abs/2505.08655)]
   * J. Barnes, J. Breland, D.C. Ernst, R. Perry. Braid graphs in simply-laced triangle-free Coxeter systems are median. [[arXiv:2408.16839](https://arxiv.org/abs/2408.16839)]
 
