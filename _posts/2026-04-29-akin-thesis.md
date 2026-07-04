@@ -20,6 +20,6 @@ On April 29, 2026, Scott Akin successfully defended his MS thesis! The title of 
 > 
 > In this thesis, we investigate the structural relationship between braid graphs and quotient commutation graphs in simply-laced Coxeter systems. We introduce the transversal property: a condition where a single braid class contains exactly one representative from every commutation class of a given element. We prove an isomorphism theorem stating that for certain Coxeter systems, the quotient commutation graph is isomorphic to the braid graph of one of its reduced expressions if and only if the element possesses the transversal property. This work extends the theoretical framework established in recent research on reduced expressions and the combinatorial properties of simply-laced Coxeter systems. We conclude by providing several families of elements that exhibit the transversal property and hence satisfy the isomorphism.
 
-He’s one of the good guys. Watch out world, here he comes! 
+He’s one of the good guys. Watch out, world—here he comes!
 
 I’ve been blessed with the opportunity to work with some amazing students throughout my career, and this year has been no exception. Mentoring students on mathematics research projects is unquestionably my favorite part of my job. But it is mostly about the relationships. I am full of gratitude.

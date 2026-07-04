@@ -13,7 +13,7 @@ tags:
 
 <img src="{{ site.baseurl }}/images/GSD1.jpg" class="img-responsive img-rounded center-block" style="margin-bottom: 10px" width="90%" alt="Great Survival Debate flyer"/>
 
-On Thursday, March 19, 2026 I participated in the [NAU 2026 Great Survival Debate](https://in.nau.edu/news/the-great-survival-debate/), which focused on a scenario where great upheaval has occurred and humanity clearly needs to set up a new world. Each debater was asked to argue that their area of study is the indispensable one that the new civilization must have to flourish. Since the theme fit into my broader mission of elevating the status of mathematics, I had no choice but to agree to play ball. Having never participated in such an event, I had no idea what to expect, but my aim was to have fun and give it my all.
+On Thursday, March 19, 2026, I participated in the [NAU 2026 Great Survival Debate](https://in.nau.edu/news/the-great-survival-debate/), which focused on a scenario where great upheaval has occurred and humanity clearly needs to set up a new world. Each debater was asked to argue that their area of study is the indispensable one that the new civilization must have to flourish. Since the theme fit into my broader mission of elevating the status of mathematics, I had no choice but to agree to play ball. Having never participated in such an event, I had no idea what to expect, but my aim was to have fun and give it my all.
 
 There were a total of 6 debaters, representing anthropology, history, biochemistry, mathematics, electrical engineering, and philosophy.  Each debater had 5 minutes for opening arguments and then we each had 2 minutes for rebuttal. I went 4th both times. During my 5-minute argument, I was reading from a script that I had produced the night before (but spent two weeks stressing about). I know my opening was far from perfect, but I’m really proud of what I came up with. I attempted to balance a serious tone with humor. Exercising my creativity in this way was pretty darn rewarding.
 
@@ -46,7 +46,7 @@ Here is the text of my opening argument:
 >
 > Take, for instance, the process of fermentation. A chemist can watch the bubbles and hope for the best. A mathematician can encode the entire process into a framework that preserves the knowledge forever. 
 >
-> You might wonder: "Why waste a seat on a mathematician when a laptop can do a billion calculations a second?" Well...a computer is just a fast idiot. It does what it's told.I am the insurance policy for when your hardware fails.
+> You might wonder: "Why waste a seat on a mathematician when a laptop can do a billion calculations a second?" Well... a computer is just a fast idiot. It does what it's told. I am the insurance policy for when your hardware fails.
 >
 > We are the language for documenting the universe. We are the "source code." If you bring the chemist but leave the mathematician, you’re bringing the software but leaving the operating system.
 >
