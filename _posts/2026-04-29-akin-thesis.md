@@ -14,7 +14,7 @@ tags:
 
 <img src="{{ site.baseurl }}/images/Akin.jpg" class="img-responsive img-rounded center-block" style="margin-bottom: 10px" width="90%" alt="Scott and Dana"/>
 
-On April 29, 2026, Scott Akin successfully defended his MS thesis! The title of his thesis is [An isomorphism theorem for quotient commutation graphs]]({{site.baseurl}}/scholarship/PariThesis.pdf) and here is the abstract:
+On April 29, 2026, Scott Akin successfully defended his MS thesis! The title of his thesis is [An isomorphism theorem for quotient commutation graphs]({{site.baseurl}}/scholarship/AkinThesis.pdf) and here is the abstract:
 
 > Any two reduced expressions for an element of a Coxeter group are related by a sequence of commutation and braid moves. Two reduced expressions are called braid equivalent if they are related by a sequence of only braid moves. Braid equivalence is an equivalence relation, and the corresponding equivalence classes are called braid classes, which are encoded in braid graphs. Similarly, reduced expressions related by only commutation moves form commutation classes. The relationships between commutation classes are encoded in a graph called the quotient commutation graph, where vertices are commutation classes and edges represent braid moves between representatives of adjacent classes.
 > 
