@@ -11,7 +11,7 @@ tags:
   - talk
 ---
 
-<img src="{{ site.baseurl }}/images/GSD1.jpg" class="img-responsive img-rounded center-block" style="margin-bottom: 10px" width="90%" alt="Great Survival Debate"/>
+<img src="{{ site.baseurl }}/images/GSD1.jpg" class="img-responsive img-rounded center-block" style="margin-bottom: 10px" width="90%" alt="Great Survival Debate flyer"/>
 
 On Thursday, March 19, 2026 I participated in the [NAU 2026 Great Survival Debate](https://in.nau.edu/news/the-great-survival-debate/), which focused on a scenario where great upheaval has occurred and humanity clearly needs to set up a new world. Each debater was asked to argue that their area of study is the indispensable one that the new civilization must have to flourish. Since the theme fit into my broader mission of elevating the status of mathematics, I had no choice but to agree to play ball. Having never participated in such an event, I had no idea what to expect, but my aim was to have fun and give it my all.
 
@@ -74,4 +74,4 @@ Thanks to all involved in creating a fun and entertaining event!
 
 P.S. I apologize to all my fellow debaters for the digs. I love all the disciplines!
 
-<img src="{{ site.baseurl }}/images/GSD2.jpg" class="img-responsive img-rounded center-block" style="margin-top: 10px" width="90%" alt="Great Survival Debate"/>
+<img src="{{ site.baseurl }}/images/GSD2.jpg" class="img-responsive img-rounded center-block" style="margin-top: 10px" width="90%" alt="Dana with GSD axe"/>
