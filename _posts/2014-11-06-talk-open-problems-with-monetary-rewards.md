@@ -5,7 +5,7 @@ layout: post
 permalink: /talk-open-problems-with-monetary-rewards/
 categories:
   - Mathematics Posts
-  - Talks
+  - talks
 tags:
   - combinatorics
   - Google+

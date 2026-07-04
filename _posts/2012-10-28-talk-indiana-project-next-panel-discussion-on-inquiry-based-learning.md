@@ -6,7 +6,7 @@ permalink: /talk-indiana-project-next-panel-discussion-on-inquiry-based-learning
 dsq_thread_id:
   - 4020442608
 categories:
-  - Talks
+  - talks
   - Teaching Posts
 tags:
   - IBL

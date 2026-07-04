@@ -6,7 +6,7 @@ permalink: /talk-using-ibl-as-an-assessment-strategy/
 dsq_thread_id:
   - 4020442385
 categories:
-  - Talks
+  - talks
   - Teaching Posts
 tags:
   - IBL

@@ -4,7 +4,7 @@ author: Dana Ernst
 layout: post
 permalink: /talk-the-futurama-theorem/
 categories:
-  - Talks
+  - talks
 tags:
   - DeckJS
   - Futurama

@@ -7,7 +7,7 @@ dsq_thread_id:
   - 4020442650
 categories:
   - Mathematics Posts
-  - Talks
+  - talks
 tags:
   - abstract algebra
   - combinatorics

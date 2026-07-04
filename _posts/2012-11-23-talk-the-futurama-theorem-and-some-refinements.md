@@ -6,7 +6,7 @@ permalink: /talk-the-futurama-theorem-and-some-refinements/
 dsq_thread_id:
   - 4020442559
 categories:
-  - Talks
+  - talks
 tags:
   - DeckJS
   - Futurama

@@ -2,7 +2,7 @@
 title: Westfjords Way Bikepacking Route
 author: Dana Ernst
 layout: post
-permalink: /Westfjords-way/
+permalink: /westfjords-way/
 categories:
   - Bikepacking
 tags:

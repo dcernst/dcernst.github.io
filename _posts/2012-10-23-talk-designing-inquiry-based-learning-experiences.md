@@ -4,7 +4,7 @@ author: Dana Ernst
 layout: post
 permalink: /talk-designing-inquiry-based-learning-experiences/
 categories:
-  - Talks
+  - talks
 tags:
   - IBL
   - inquiry-based learning

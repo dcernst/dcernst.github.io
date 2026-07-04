@@ -5,7 +5,7 @@ layout: post
 permalink: /proofs-without-words2/
 categories:
   - Mathematics Posts
-  - Talks
+  - talks
 tags:
   - math
   - mathematics

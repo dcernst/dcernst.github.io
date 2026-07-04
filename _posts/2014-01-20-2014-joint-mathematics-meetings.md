@@ -5,7 +5,7 @@ layout: post
 permalink: /2014-joint-mathematics-meetings/
 categories:
   - Mathematics Posts
-  - Talks
+  - talks
   - Teaching Posts
 tags:
   - Angie Hodge

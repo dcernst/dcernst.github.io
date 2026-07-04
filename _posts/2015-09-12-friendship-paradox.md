@@ -4,7 +4,7 @@ author: Dana Ernst
 layout: post
 permalink: /friendship-paradox/
 categories:
-  - Talks
+  - talks
 tags:
   - Friendship Paradox
   - talk

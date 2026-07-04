@@ -12,7 +12,7 @@ standard_seo_post_meta_description:
 dsq_thread_id:
   - 4020442504
 categories:
-  - Talks
+  - talks
   - Teaching Posts
 tags:
   - IBL

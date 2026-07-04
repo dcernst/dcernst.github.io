@@ -13,7 +13,7 @@ standard_seo_post_meta_description:
   -
 categories:
   - Mathematics Posts
-  - Talks
+  - talks
   - Teaching Posts
 tags:
   - Angie Hodge

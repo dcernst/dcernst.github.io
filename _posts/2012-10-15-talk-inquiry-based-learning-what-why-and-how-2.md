@@ -4,7 +4,7 @@ author: Dana Ernst
 layout: post
 permalink: /talk-inquiry-based-learning-what-why-and-how-2/
 categories:
-  - Talks
+  - talks
 tags:
   - IBL
   - inquiry-based learning

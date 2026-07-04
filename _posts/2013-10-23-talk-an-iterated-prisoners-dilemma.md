@@ -5,7 +5,7 @@ layout: post
 permalink: /talk-an-iterated-prisoners-dilemma/
 categories:
   - Mathematics Posts
-  - Talks
+  - talks
 tags:
   - game theory
   - math

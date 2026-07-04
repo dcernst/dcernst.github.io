@@ -4,7 +4,7 @@ author: Dana Ernst
 layout: post
 permalink: /talk-teaching-strategies-for-improving-student-learning/
 categories:
-  - Talks
+  - talks
   - Teaching Posts
 tags:
   - IBL

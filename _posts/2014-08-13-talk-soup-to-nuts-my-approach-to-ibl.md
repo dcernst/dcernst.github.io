@@ -4,7 +4,7 @@ author: Dana Ernst
 layout: post
 permalink: /talk-soup-to-nuts-my-approach-to-ibl/
 categories:
-  - Talks
+  - talks
 tags:
   - IBL
   - inquiry-based learning

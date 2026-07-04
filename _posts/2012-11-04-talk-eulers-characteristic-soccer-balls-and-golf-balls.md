@@ -4,7 +4,7 @@ author: Dana Ernst
 layout: post
 permalink: /talk-eulers-characteristic-soccer-balls-and-golf-balls/
 categories:
-  - Talks
+  - talks
 tags:
   - Euler's characteristic
   - mathematics

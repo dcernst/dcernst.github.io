@@ -4,7 +4,7 @@ author: Dana Ernst
 layout: post
 permalink: /talk-implementing-ibl-in-an-introduction-to-proof-course/
 categories:
-  - Talks
+  - talks
   - Teaching Posts
 tags:
   - IBL

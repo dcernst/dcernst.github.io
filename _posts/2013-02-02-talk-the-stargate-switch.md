@@ -5,7 +5,7 @@ layout: post
 permalink: /talk-the-stargate-switch/
 categories:
   - Mathematics Posts
-  - Talks
+  - talks
 tags:
   - DeckJS
   - Futurama

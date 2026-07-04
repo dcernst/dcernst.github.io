@@ -5,7 +5,7 @@ layout: post
 permalink: /talk-a-diagrammatic-representation-of-the-temperley-lieb-algebra/
 categories:
   - Mathematics Posts
-  - Talks
+  - talks
 tags:
   - abstract algebra
   - combinatorics
