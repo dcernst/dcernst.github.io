@@ -1,8 +1,8 @@
 ---
-title: Scott Akin MS Thesis
+title: 2025-2026 Undergraduate Research Students
 author: Dana Ernst
 layout: post
-permalink: /akin-thesis/
+permalink: /2025-2026-undergrad-research-students/
 categories:
   - mathematics
 tags:
