@@ -9,7 +9,7 @@ tags:
   - family
 ---
 
-Samuel and Jake Beichner are two brothers that used to wrestle for my pops.  Recently, Sam started an apparel company called [Anonymous Warrior](), and as part of their marketing, they put out short videos about people's unsung heroes.  Jake put out this short video to honor my father:
+Samuel and Jake Beichner are two brothers that used to wrestle for my pops.  Recently, Sam started an apparel company called [Anonymous Warrior](https://anonymouswarrior.com), and as part of their marketing, they put out [short videos](https://www.youtube.com/watch?v=t9wlz3Nlpz0) about people's unsung heroes.  Jake put out this short video to honor my father:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/t9wlz3Nlpz0?si=aFfoW5qy8tycteuY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
