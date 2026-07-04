@@ -24,6 +24,7 @@ My interests also include the [scholarship of teaching and learning](http://en.w
 You can find a recent version of my curriculum vitae [here]({{site.baseurl}}/scholarship/CV-Ernst.pdf).
 
 ## In Preparation
+  * A. Attilio, J. Barnes, J. Breland, D.C. Ernst, A. Patrick, A. Pari, R. Perry, V. Wilmer. Structure of braid graphs in Coxeter systems.
   * M. Baltushkin, D.C. Ernst, and N. Sieben. Unite and Conquer: The folding of impartial games.
   * G. Cerbai, A. Claesson, D.C. Ernst, and H. Golab. Pattern-avoiding Cayley permutations via combinatorial species, Part 2.
   * F. Awik, F. Burkhart, H. Denoncourt, D.C. Ernst, T. Rosenberg, and A. Stewart. Enumerating signed permutations by reversal distance.
