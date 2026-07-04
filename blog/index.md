@@ -8,8 +8,8 @@ title: Blogging
   <li class="active">Blogging</li>
 </ol>
 
-## Personal Blog Posts
-I write sporadically on my personal blog. Topics focus on mathematics, teaching, and technology. Posts are listed in reverse chronological order.
+## Blog Posts
+I write sporadically on my personal blog. Topics mostly focus on mathematics, teaching, and technology, but there are also a few cycling-related posts mixed in. Posts are listed in reverse chronological order.
 
 <div>
 <ul>
