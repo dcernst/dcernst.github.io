@@ -8,7 +8,7 @@ standard_seo_post_level_layout:
 standard_seo_post_meta_description:
   - 
 categories:
-  - Teaching Posts
+  - teaching posts
 tags:
   - IBL
   - inquiry-based learning

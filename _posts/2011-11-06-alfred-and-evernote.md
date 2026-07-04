@@ -8,7 +8,7 @@ tumblr_dcernst_permalink:
 tumblr_dcernst_id:
   - 12419172499
 categories:
-  - Technology Posts
+  - technology posts
 tags:
   - Alfred
   - Evernote

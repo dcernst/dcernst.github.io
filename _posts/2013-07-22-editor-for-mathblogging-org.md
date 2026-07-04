@@ -12,9 +12,9 @@ standard_seo_post_meta_description:
 dsq_thread_id:
   - 4020442245
 categories:
-  - Mathematics Posts
-  - Teaching Posts
-  - Technology Posts
+  - mathematics posts
+  - teaching posts
+  - technology posts
 tags:
   - Angie Hodge
   - blogging

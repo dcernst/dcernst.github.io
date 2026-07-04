@@ -6,7 +6,7 @@ permalink: /impartial-games-for-generating-finite-groups/
 dsq_thread_id:
   - 4020441878
 categories:
-  - Mathematics Posts
+  - mathematics posts
 tags:
   - abstract algebra
   - arXiv

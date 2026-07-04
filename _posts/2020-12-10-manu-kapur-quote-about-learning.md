@@ -4,7 +4,7 @@ author: Dana Ernst
 layout: post
 permalink: /manu-kapur-quote-about-learning/
 categories:
-  - Quotes
+  - quotes
 tags:
   - productive struggle
   - productive failure

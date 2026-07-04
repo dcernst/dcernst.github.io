@@ -12,7 +12,7 @@ standard_seo_post_level_layout:
 standard_seo_post_meta_description:
   - 
 categories:
-  - Teaching Posts
+  - teaching posts
 tags:
   - combinatorics
   - graph theory

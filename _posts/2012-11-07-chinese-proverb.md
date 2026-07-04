@@ -6,7 +6,7 @@ permalink: /chinese-proverb/
 dsq_thread_id:
   - 4020442541
 categories:
-  - Quotes
+  - quotes
 tags:
   - IBL
   - inquiry-based learning

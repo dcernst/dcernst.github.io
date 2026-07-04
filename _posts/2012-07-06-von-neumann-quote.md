@@ -4,7 +4,7 @@ author: Dana Ernst
 layout: post
 permalink: /von-neumann-quote/
 categories:
-  - Quotes
+  - quotes
 tags:
   - mathematics
   - quote

@@ -5,7 +5,7 @@ layout: post
 permalink: /talk-teaching-strategies-for-improving-student-learning/
 categories:
   - talks
-  - Teaching Posts
+  - teaching posts
 tags:
   - IBL
   - inquiry-based learning

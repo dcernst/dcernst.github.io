@@ -6,7 +6,7 @@ permalink: /galileo-quote/
 dsq_thread_id:
   - 747684264
 categories:
-  - Quotes
+  - quotes
 tags:
   - IBL
   - inquiry-based learning

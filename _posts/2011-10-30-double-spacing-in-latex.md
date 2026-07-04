@@ -8,7 +8,7 @@ tumblr_dcernst_permalink:
 tumblr_dcernst_id:
   - 12118165410
 categories:
-  - Technology Posts
+  - technology posts
 tags:
   - LaTeX
   - writing

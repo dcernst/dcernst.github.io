@@ -4,7 +4,7 @@ author: Dana Ernst
 layout: post
 permalink: /a-new-favorite-math-book/
 categories:
-  - Mathematics Posts
+  - mathematics posts
 tags:
   - math
   - mathematics

@@ -4,7 +4,7 @@ author: Dana Ernst
 layout: post
 permalink: /students-favorite-problems/
 categories:
-  - Mathematics Posts
+  - mathematics posts
 tags:
   - teaching
   - problem solving

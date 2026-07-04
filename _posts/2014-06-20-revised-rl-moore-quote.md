@@ -4,7 +4,7 @@ author: Dana Ernst
 layout: post
 permalink: /revised-rl-moore-quote/
 categories:
-  - Teaching Posts
+  - teaching posts
 tags:
   - David Clark
   - IBL

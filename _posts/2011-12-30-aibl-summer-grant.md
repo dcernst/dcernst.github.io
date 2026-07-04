@@ -6,7 +6,7 @@ permalink: /aibl-summer-grant/
 dsq_thread_id:
   - 756348868
 categories:
-  - Teaching Posts
+  - teaching posts
 tags:
   - abstract algebra
   - group theory

@@ -5,7 +5,7 @@ layout: post
 permalink: /talk-implementing-ibl-in-an-introduction-to-proof-course/
 categories:
   - talks
-  - Teaching Posts
+  - teaching posts
 tags:
   - IBL
   - inquiry-based learning

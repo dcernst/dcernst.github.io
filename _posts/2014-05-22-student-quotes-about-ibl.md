@@ -6,7 +6,7 @@ permalink: /student-quotes-about-ibl/
 dsq_thread_id:
   - 4020441884
 categories:
-  - Teaching Posts
+  - teaching posts
 tags:
   - abstract algebra
   - IBL

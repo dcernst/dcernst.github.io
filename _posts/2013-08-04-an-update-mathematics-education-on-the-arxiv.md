@@ -6,8 +6,8 @@ permalink: /an-update-mathematics-education-on-the-arxiv/
 dsq_thread_id:
   - 4020442178
 categories:
-  - Mathematics Posts
-  - Teaching Posts
+  - mathematics posts
+  - teaching posts
 tags:
   - arXiv
   - math ed

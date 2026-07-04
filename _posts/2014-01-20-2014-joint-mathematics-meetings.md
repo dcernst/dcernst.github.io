@@ -4,9 +4,9 @@ author: Dana Ernst
 layout: post
 permalink: /2014-joint-mathematics-meetings/
 categories:
-  - Mathematics Posts
+  - mathematics posts
   - talks
-  - Teaching Posts
+  - teaching posts
 tags:
   - Angie Hodge
   - Anna Davis

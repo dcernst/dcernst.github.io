@@ -4,7 +4,7 @@ author: Dana Ernst
 layout: post
 permalink: /exploring-prime-factorizations/
 categories:
-  - Mathematics Posts
+  - mathematics posts
 tags:
   - math
   - mathematics

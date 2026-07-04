@@ -6,8 +6,8 @@ permalink: /kirschners-article-on-minimally-guided-instruction/
 dsq_thread_id:
   - 4020442109
 categories:
-  - Mathematics Posts
-  - Teaching Posts
+  - mathematics posts
+  - teaching posts
 tags:
   - IBL
   - inquiry-based learning

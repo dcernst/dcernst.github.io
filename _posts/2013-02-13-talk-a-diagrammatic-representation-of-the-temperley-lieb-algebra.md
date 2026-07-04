@@ -4,7 +4,7 @@ author: Dana Ernst
 layout: post
 permalink: /talk-a-diagrammatic-representation-of-the-temperley-lieb-algebra/
 categories:
-  - Mathematics Posts
+  - mathematics posts
   - talks
 tags:
   - abstract algebra

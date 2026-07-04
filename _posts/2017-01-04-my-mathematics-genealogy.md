@@ -4,7 +4,7 @@ author: Dana Ernst
 layout: post
 permalink: /my-mathematics-genealogy/
 categories:
-  - Mathematics Posts
+  - mathematics posts
 tags:
   - genealogy
   - math

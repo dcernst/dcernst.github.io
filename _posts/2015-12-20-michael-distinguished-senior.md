@@ -4,7 +4,7 @@ author: Dana Ernst
 layout: post
 permalink: /michael-distinguished-senior/
 categories:
-  - Teaching Posts
+  - teaching posts
 tags:
   - math
   - mathematics

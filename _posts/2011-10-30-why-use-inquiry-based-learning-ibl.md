@@ -8,7 +8,7 @@ tumblr_dcernst_permalink:
 tumblr_dcernst_id:
   - 12120325329
 categories:
-  - Teaching Posts
+  - teaching posts
 tags:
   - IBL
   - inquiry-based learning

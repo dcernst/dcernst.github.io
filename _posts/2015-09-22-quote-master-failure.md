@@ -4,7 +4,7 @@ author: Dana Ernst
 layout: post
 permalink: /quote-master-failure/
 categories:
-  - Quotes
+  - quotes
 tags:
   - inquiry-based learning
   - math

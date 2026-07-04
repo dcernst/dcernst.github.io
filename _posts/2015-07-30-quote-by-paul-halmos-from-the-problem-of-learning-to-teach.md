@@ -4,7 +4,7 @@ author: Dana Ernst
 layout: post
 permalink: /quote-by-paul-halmos-from-the-problem-of-learning-to-teach/
 categories:
-  - Quotes
+  - quotes
 tags:
   - IBL
   - inquiry-based learning

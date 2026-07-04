@@ -6,8 +6,8 @@ permalink: /math-ed-matters-is-live/
 dsq_thread_id:
   - 4020442325
 categories:
-  - Mathematics Posts
-  - Teaching Posts
+  - mathematics posts
+  - teaching posts
 tags:
   - Angie Hodge
   - IBL

@@ -4,7 +4,7 @@ author: Dana Ernst
 layout: post
 permalink: /quote-by-galileo-galilei/
 categories:
-  - Quotes
+  - quotes
 tags:
   - IBL
   - inquiry-based learning

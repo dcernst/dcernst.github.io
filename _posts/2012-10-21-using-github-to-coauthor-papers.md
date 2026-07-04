@@ -12,8 +12,8 @@ standard_seo_post_meta_description:
 dsq_thread_id:
   - 4020442626
 categories:
-  - Mathematics Posts
-  - Technology Posts
+  - mathematics posts
+  - technology posts
 tags:
   - git
   - GitHub

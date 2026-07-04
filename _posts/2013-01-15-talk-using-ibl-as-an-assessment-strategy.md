@@ -7,7 +7,7 @@ dsq_thread_id:
   - 4020442385
 categories:
   - talks
-  - Teaching Posts
+  - teaching posts
 tags:
   - IBL
   - inquiry-based learning

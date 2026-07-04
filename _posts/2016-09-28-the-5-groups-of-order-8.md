@@ -4,7 +4,7 @@ author: Dana Ernst
 layout: post
 permalink: /the-5-groups-of-order-8/
 categories:
-  - Mathematics Posts
+  - mathematics posts
 tags:
   - math
   - mathematics

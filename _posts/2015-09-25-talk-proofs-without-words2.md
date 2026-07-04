@@ -4,7 +4,7 @@ author: Dana Ernst
 layout: post
 permalink: /proofs-without-words2/
 categories:
-  - Mathematics Posts
+  - mathematics posts
   - talks
 tags:
   - math

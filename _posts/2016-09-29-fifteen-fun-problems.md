@@ -4,7 +4,7 @@ author: Dana Ernst
 layout: post
 permalink: /fifteen-fun-problems/
 categories:
-  - Mathematics Posts
+  - mathematics posts
 tags:
   - math
   - mathematics

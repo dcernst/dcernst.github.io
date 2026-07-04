@@ -5,7 +5,7 @@ layout: post
 permalink: /do-hard-things/
 sharing_disabled:
 categories:
-  - Teaching Posts
+  - teaching posts
 tags:
   - IBL
   - inquiry-based learning

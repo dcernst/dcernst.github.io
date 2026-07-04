@@ -6,7 +6,7 @@ permalink: /gamification-of-good-behavior/
 dsq_thread_id:
   - 4020442047
 categories:
-  - Teaching Posts
+  - teaching posts
 tags:
   - calculus
   - gamification

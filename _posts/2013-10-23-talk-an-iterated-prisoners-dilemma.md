@@ -4,7 +4,7 @@ author: Dana Ernst
 layout: post
 permalink: /talk-an-iterated-prisoners-dilemma/
 categories:
-  - Mathematics Posts
+  - mathematics posts
   - talks
 tags:
   - game theory

@@ -6,7 +6,7 @@ permalink: /quote-by-winston-churchill/
 dsq_thread_id:
   - 4020442372
 categories:
-  - Quotes
+  - quotes
 tags:
   - quote
 ---

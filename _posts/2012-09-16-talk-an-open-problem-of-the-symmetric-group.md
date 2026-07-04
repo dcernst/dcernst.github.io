@@ -6,7 +6,7 @@ permalink: /talk-an-open-problem-of-the-symmetric-group/
 dsq_thread_id:
   - 4020442650
 categories:
-  - Mathematics Posts
+  - mathematics posts
   - talks
 tags:
   - abstract algebra

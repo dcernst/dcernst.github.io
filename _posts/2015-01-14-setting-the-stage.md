@@ -6,7 +6,7 @@ permalink: /setting-the-stage/
 dsq_thread_id:
   - 4020441814
 categories:
-  - Teaching Posts
+  - teaching posts
 tags:
   - IBL
   - inquiry-based learning

@@ -4,7 +4,7 @@ author: Dana Ernst
 layout: post
 permalink: /westfjords-way/
 categories:
-  - Bikepacking
+  - bikepacking
 tags:
   - bikepacking
   - Westfjords Way

@@ -6,7 +6,7 @@ permalink: /felt-tip-pens/
 dsq_thread_id:
   - 4020442677
 categories:
-  - Teaching Posts
+  - teaching posts
 tags:
   - IBL
   - inquiry-based learning

@@ -4,7 +4,7 @@ author: Dana Ernst
 layout: post
 permalink: /talk-an-introduction-to-inquiry-based-learning/
 categories:
-  - Teaching Posts
+  - teaching posts
 tags:
   - IBL
   - inquiry-based learning

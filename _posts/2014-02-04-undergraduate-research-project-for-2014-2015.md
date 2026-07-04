@@ -6,8 +6,8 @@ permalink: /undergraduate-research-project-for-2014-2015/
 dsq_thread_id:
   - 4020441944
 categories:
-  - Mathematics Posts
-  - Teaching Posts
+  - mathematics posts
+  - teaching posts
 tags:
   - combinatorics
   - CURM

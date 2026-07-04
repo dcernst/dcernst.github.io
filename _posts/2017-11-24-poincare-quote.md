@@ -4,7 +4,7 @@ author: Dana Ernst
 layout: post
 permalink: /poincare-quote/
 categories:
-  - Quotes
+  - quotes
 tags:
   - math
   - mathematics

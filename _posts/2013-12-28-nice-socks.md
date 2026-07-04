@@ -6,8 +6,8 @@ permalink: /nice-socks/
 dsq_thread_id:
   - 4020441938
 categories:
-  - Mathematics Posts
-  - Teaching Posts
+  - mathematics posts
+  - teaching posts
 tags:
   - Angie Hodge
   - Google+

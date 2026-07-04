@@ -6,8 +6,8 @@ permalink: /an-infinite-non-cyclic-group-whose-proper-subgroups-are-cyclic/
 dsq_thread_id:
   - 4020441981
 categories:
-  - Mathematics Posts
-  - Teaching Posts
+  - mathematics posts
+  - teaching posts
 tags:
   - abstract algebra
   - group theory

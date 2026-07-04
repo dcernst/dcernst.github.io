@@ -16,8 +16,8 @@ standard_seo_post_level_layout:
 standard_seo_post_meta_description:
   - 
 categories:
-  - Mathematics Posts
-  - Teaching Posts
+  - mathematics posts
+  - teaching posts
 tags:
   - Coxeter groups
   - group theory

@@ -4,7 +4,7 @@ author: Dana Ernst
 layout: post
 permalink: /quote-by-paul-halmos/
 categories:
-  - Quotes
+  - quotes
 tags:
   - inquiry-based learning
   - math

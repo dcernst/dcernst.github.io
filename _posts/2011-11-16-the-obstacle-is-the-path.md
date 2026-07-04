@@ -4,7 +4,7 @@ author: Dana Ernst
 layout: post
 permalink: /the-obstacle-is-the-path/
 categories:
-  - Quotes
+  - quotes
 tags:
   - IBL
   - inquiry-based learning

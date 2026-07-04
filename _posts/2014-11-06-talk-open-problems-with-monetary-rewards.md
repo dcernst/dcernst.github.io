@@ -4,7 +4,7 @@ author: Dana Ernst
 layout: post
 permalink: /talk-open-problems-with-monetary-rewards/
 categories:
-  - Mathematics Posts
+  - mathematics posts
   - talks
 tags:
   - combinatorics

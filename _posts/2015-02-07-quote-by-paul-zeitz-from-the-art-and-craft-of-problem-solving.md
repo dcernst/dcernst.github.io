@@ -6,7 +6,7 @@ permalink: /quote-by-paul-zeitz-from-the-art-and-craft-of-problem-solving/
 dsq_thread_id:
   - 4018673909
 categories:
-  - Quotes
+  - quotes
 tags:
   - math
   - mathematics

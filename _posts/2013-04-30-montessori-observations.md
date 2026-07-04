@@ -12,7 +12,7 @@ standard_seo_post_meta_description:
 dsq_thread_id:
   - 4020442318
 categories:
-  - Teaching Posts
+  - teaching posts
 tags:
   - IBL
   - inquiry-based learning

@@ -14,8 +14,8 @@ sharing_disabled:
 dsq_thread_id:
   - 4020442707
 categories:
-  - Teaching Posts
-  - Technology Posts
+  - teaching posts
+  - technology posts
 tags:
   - IBL
   - inquiry-based learning

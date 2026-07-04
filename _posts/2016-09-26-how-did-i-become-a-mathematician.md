@@ -4,7 +4,7 @@ author: Dana Ernst
 layout: post
 permalink: /2016-09-26-how-did-i-become-a-mathematician/
 categories:
-  - Mathematics Posts
+  - mathematics posts
 tags:
   - math
   - mathematics

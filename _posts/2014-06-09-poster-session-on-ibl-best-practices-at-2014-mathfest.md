@@ -12,9 +12,9 @@ standard_link_url_field:
 standard_seo_post_meta_description:
   -
 categories:
-  - Mathematics Posts
+  - mathematics posts
   - talks
-  - Teaching Posts
+  - teaching posts
 tags:
   - Angie Hodge
   - IBL

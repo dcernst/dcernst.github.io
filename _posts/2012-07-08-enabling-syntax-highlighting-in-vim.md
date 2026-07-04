@@ -10,7 +10,7 @@ standard_seo_post_meta_description:
 dsq_thread_id:
   - 755795605
 categories:
-  - Technology Posts
+  - technology posts
 tags:
   - coding
   - productivity

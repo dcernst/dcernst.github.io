@@ -4,7 +4,7 @@ author: Dana Ernst
 layout: post
 permalink: /yoda-quote/
 categories:
-  - Quotes
+  - quotes
 tags:
   - productive struggle
   - productive failure

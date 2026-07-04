@@ -12,8 +12,8 @@ standard_seo_post_meta_description:
 dsq_thread_id:
   - 4020442434
 categories:
-  - Mathematics Posts
-  - Teaching Posts
+  - mathematics posts
+  - teaching posts
 tags:
   - reflection
   - research

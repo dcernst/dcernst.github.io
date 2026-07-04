@@ -4,7 +4,7 @@ author: Dana Ernst
 layout: post
 permalink: /sunmarc-2017-open/
 categories:
-  - Mathematics Posts
+  - mathematics posts
 tags:
   - SUnMaRC
   - undergraduate research

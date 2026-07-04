@@ -8,7 +8,7 @@ tumblr_dcernst_permalink:
 tumblr_dcernst_id:
   - 12128172071
 categories:
-  - Technology Posts
+  - technology posts
 tags:
   - BibTeX
   - LaTeX

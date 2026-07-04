@@ -4,7 +4,7 @@ author: Dana Ernst
 layout: post
 permalink: /marcus-aurelius-quote/
 categories:
-  - Quotes
+  - quotes
 tags:
   - productive struggle
   - productive failure

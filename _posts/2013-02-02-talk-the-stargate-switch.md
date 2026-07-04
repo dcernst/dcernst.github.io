@@ -4,7 +4,7 @@ author: Dana Ernst
 layout: post
 permalink: /talk-the-stargate-switch/
 categories:
-  - Mathematics Posts
+  - mathematics posts
   - talks
 tags:
   - DeckJS

@@ -4,7 +4,7 @@ author: Dana Ernst
 layout: post
 permalink: /quote-by-michael-atiyah/
 categories:
-  - Quotes
+  - quotes
 tags:
   - math
   - mathematics

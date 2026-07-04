@@ -6,7 +6,7 @@ permalink: /talk-proofs-without-words/
 dsq_thread_id:
   - 4020441993
 categories:
-  - Mathematics Posts
+  - mathematics posts
   - talks
 tags:
   - math

@@ -6,7 +6,7 @@ permalink: /talk-impartial-games-for-generating-groups/
 dsq_thread_id:
   - 4020442260
 categories:
-  - Mathematics Posts
+  - mathematics posts
   - talks
 tags:
   - combinatorial game theory

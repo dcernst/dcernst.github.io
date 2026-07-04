@@ -6,7 +6,7 @@ permalink: /bertrand-russell-quote/
 dsq_thread_id:
   - 747768494
 categories:
-  - Quotes
+  - quotes
 tags:
   - mathematics
   - quote

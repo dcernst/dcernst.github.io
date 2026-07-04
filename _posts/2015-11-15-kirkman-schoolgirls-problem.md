@@ -4,7 +4,7 @@ author: Dana Ernst
 layout: post
 permalink: /kirkman-schoolgirls-problem/
 categories:
-  - Mathematics Posts
+  - mathematics posts
 tags:
   - math
   - mathematics
