@@ -113,6 +113,8 @@ From Spring 2013 through Spring 2016, I was co-editor and author for [Math Ed Ma
 ## Student MS Theses
 Below are all of the MS theses that I have advised at NAU.
 
+  * Allie Pari. Architecture of braid graphs in Coxeter systems. Northern Arizona University MS Thesis. May 2026. [[PDF]({{site.baseurl}}/scholarship/PariThesis.pdf)]
+  * Scott Akin. An isomorphism theorem for quotient commutation graphs. Northern Arizona University MS Thesis. May 2026. [[PDF]({{site.baseurl}}/scholarship/AkinThesis.pdf)]
   * Hannah Golab. Pattern avoidance in Cayley permutations. Northern Arizona University MS Thesis. May 2024. [[PDF]({{site.baseurl}}/scholarship/GolabThesis.pdf)]
   * Ruth Perry. Braid graphs in Coxeter systems of type $\Lambda$ are median. Northern Arizona University MS Thesis. May 2024. [[PDF]({{site.baseurl}}/scholarship/PerryThesis.pdf)]
   * Jillian Barnes. Structural properties of braid graphs in simply-laced triangle-free Coxeter systems. Northern Arizona University MS Thesis. May 2022. [[PDF]({{site.baseurl}}/scholarship/BarnesThesis.pdf)]
