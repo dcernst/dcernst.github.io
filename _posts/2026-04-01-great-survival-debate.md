@@ -9,6 +9,7 @@ tags:
   - mathematics
   - math
   - talk
+  - outreach
 ---
 
 <img src="{{ site.baseurl }}/images/GSD1.jpg" class="img-responsive img-rounded center-block" style="margin-bottom: 10px" width="90%" alt="Great Survival Debate flyer"/>
