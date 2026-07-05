@@ -1,5 +1,5 @@
 ---
-title: Math on Tap
+title: Math on Tap!
 author: Dana Ernst
 layout: post
 permalink: /math-on-tap/
@@ -13,9 +13,9 @@ tags:
 ---
 
 <div style="display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 8px; margin-bottom: 10px;">
-<img src="{{ site.baseurl }}/images/MathOnTap1.jpg" class="img-rounded" style="width: 100%; height: clamp(100px, 20vw, 220px); object-fit: cover;" alt="Math on Tap event photo 1"/>
-<img src="{{ site.baseurl }}/images/MathOnTap2.jpg" class="img-rounded" style="width: 100%; height: clamp(100px, 20vw, 220px); object-fit: cover;" alt="Math on Tap event photo 2"/>
-<img src="{{ site.baseurl }}/images/MathOnTap3.jpg" class="img-rounded" style="width: 100%; height: clamp(100px, 20vw, 220px); object-fit: cover;" alt="Math on Tap event photo 3"/>
+<img src="{{ site.baseurl }}/images/MathOnTap2.jpg" class="img-rounded" style="width: 100%; height: clamp(100px, 20vw, 220px); object-fit: cover;" alt="Math on Tap event photo 1"/>
+<img src="{{ site.baseurl }}/images/MathOnTap3.jpg" class="img-rounded" style="width: 100%; height: clamp(100px, 20vw, 220px); object-fit: cover;" alt="Math on Tap event photo 2"/>
+<img src="{{ site.baseurl }}/images/MathOnTap1.jpg" class="img-rounded" style="width: 100%; height: clamp(100px, 20vw, 220px); object-fit: cover;" alt="Math on Tap event photo 3"/>
 </div>
 
 The Department of Mathematics and Statistics at NAU is now hosting [Math on Tap](https://naumathstat.github.io/seminars/MathOnTap/)! The event is meant to be appealing and accessible to a wide range of people. Everyone is welcome. Bring your friends, significant others, neighbors! Math on Tap takes place on the first Wednesday of every month at 6PM at [Mother Road Brewery](https://www.instagram.com/explore/locations/377525877/mother-road-brewing-co/), which is a restaurant, so 21+ is NOT required. Please come join us!!
