@@ -3465,6 +3465,38 @@ permalink: /ernst-recipes/
 <hr />
 
 <details class="recipe-item">
+<summary><h2>empanada dough for baking</h2></summary>
+
+<p>Link to recipe <a href="https://www.laylita.com/recipes/how-to-make-empanada-dough/">here</a>.</p>
+
+<dl>
+<dt>Yield</dt>
+<dd>12, 12 -15 medium size or 20-25 small empanada discs</dd>
+<dt>Prep time</dt>
+<dd>PT40M</dd>
+<dt>Cook time</dt>
+<dd>PT20M</dd>
+<dt>Total time</dt>
+<dd>PT75M</dd>
+</dl>
+
+<h3>Ingredients</h3>
+
+<ul>
+<li>3 cups all-purpose flour</li>
+<li>¼ to 1/2 teaspoon salt</li>
+<li>6 oz unsalted butter ((1 stick of butter = 4 oz))</li>
+<li>1 egg</li>
+<li>1/4 cup to 1/2 cup of water or milk (adjust as needed to obtain a soft and smooth dough)</li>
+</ul>
+
+<p>Directions are available at the linked source.</p>
+
+</details>
+
+<hr />
+
+<details class="recipe-item">
 <summary><h2>Energy Bites (8 Ways!)</h2></summary>
 
 <p>Link to recipe <a href="https://chefsavvy.com/5-ingredient-peanut-butter-energy-bites/">here</a>.</p>
@@ -4562,74 +4594,6 @@ permalink: /ernst-recipes/
 <li>¼ teaspoon ground cloves</li>
 <li>2 cloves garlic (minced)</li>
 <li>¼ cup water</li>
-</ul>
-
-<p>Directions are available at the linked source.</p>
-
-</details>
-
-<hr />
-
-<details class="recipe-item">
-<summary><h2>How to make empanada dough for baking</h2></summary>
-
-<p>Link to recipe <a href="https://www.laylita.com/recipes/how-to-make-empanada-dough/">here</a>.</p>
-
-<dl>
-<dt>Yield</dt>
-<dd>12, 12 -15 medium size or 20-25 small empanada discs</dd>
-<dt>Prep time</dt>
-<dd>PT40M</dd>
-<dt>Cook time</dt>
-<dd>PT20M</dd>
-<dt>Total time</dt>
-<dd>PT75M</dd>
-</dl>
-
-<h3>Ingredients</h3>
-
-<ul>
-<li>3 cups all-purpose flour</li>
-<li>¼ to 1/2 teaspoon salt</li>
-<li>6 oz unsalted butter ((1 stick of butter = 4 oz))</li>
-<li>1 egg</li>
-<li>1/4 cup to 1/2 cup of water or milk (adjust as needed to obtain a soft and smooth dough)</li>
-</ul>
-
-<p>Directions are available at the linked source.</p>
-
-</details>
-
-<hr />
-
-<details class="recipe-item">
-<summary><h2>How to Make Yellow Rice</h2></summary>
-
-<p>Link to recipe <a href="https://www.favfamilyrecipes.com/super-easy-yellow-rice/">here</a>.</p>
-
-<dl>
-<dt>Yield</dt>
-<dd>4</dd>
-<dt>Prep time</dt>
-<dd>PT10M</dd>
-<dt>Cook time</dt>
-<dd>PT20M</dd>
-<dt>Total time</dt>
-<dd>PT30M</dd>
-</dl>
-
-<h3>Ingredients</h3>
-
-<ul>
-<li>3 tablespoons butter</li>
-<li>1 cup long-grain white rice</li>
-<li>1 teaspoon fresh minced garlic</li>
-<li>1 teaspoon onion powder (or dried minced onion)</li>
-<li>1 teaspoon ground turmeric</li>
-<li>2 cups chicken broth</li>
-<li>1/2 teaspoon Kosher salt (or to taste)</li>
-<li>ground black pepper (to taste)</li>
-<li>2-3 tablespoons fresh cilantro (chopped)</li>
 </ul>
 
 <p>Directions are available at the linked source.</p>
@@ -9569,6 +9533,42 @@ permalink: /ernst-recipes/
 <li>1 tbsp mirin (can substitute 1 tbsp dry sherry or 1 tsp rice vinegar)</li>
 <li>1 tbsp honey or agave</li>
 <li>1 tsp sriracha</li>
+</ul>
+
+<p>Directions are available at the linked source.</p>
+
+</details>
+
+<hr />
+
+<details class="recipe-item">
+<summary><h2>Yellow Rice</h2></summary>
+
+<p>Link to recipe <a href="https://www.favfamilyrecipes.com/super-easy-yellow-rice/">here</a>.</p>
+
+<dl>
+<dt>Yield</dt>
+<dd>4</dd>
+<dt>Prep time</dt>
+<dd>PT10M</dd>
+<dt>Cook time</dt>
+<dd>PT20M</dd>
+<dt>Total time</dt>
+<dd>PT30M</dd>
+</dl>
+
+<h3>Ingredients</h3>
+
+<ul>
+<li>3 tablespoons butter</li>
+<li>1 cup long-grain white rice</li>
+<li>1 teaspoon fresh minced garlic</li>
+<li>1 teaspoon onion powder (or dried minced onion)</li>
+<li>1 teaspoon ground turmeric</li>
+<li>2 cups chicken broth</li>
+<li>1/2 teaspoon Kosher salt (or to taste)</li>
+<li>ground black pepper (to taste)</li>
+<li>2-3 tablespoons fresh cilantro (chopped)</li>
 </ul>
 
 <p>Directions are available at the linked source.</p>
