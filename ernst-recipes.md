@@ -47,6 +47,40 @@ permalink: /ernst-recipes/
 <hr />
 
 <details class="recipe-item">
+<summary><h2>Alfredo Sauce</h2></summary>
+
+<p>Link to recipe <a href="https://thesaltymarshmallow.com/best-homemade-alfredo-sauce/">here</a>.</p>
+
+<dl>
+<dt>Yield</dt>
+<dd>2, 2 Cups</dd>
+<dt>Prep time</dt>
+<dd>PT5M</dd>
+<dt>Cook time</dt>
+<dd>PT5M</dd>
+<dt>Total time</dt>
+<dd>PT10M</dd>
+</dl>
+
+<h3>Ingredients</h3>
+
+<ul>
+<li>1/2 Cup Butter</li>
+<li>1 1/2 Cups Heavy Whipping Cream</li>
+<li>2 Teaspoons Garlic (Minced)</li>
+<li>1/2 Teaspoon Italian Seasoning</li>
+<li>1/2 Teaspoon Salt</li>
+<li>1/4 Teaspoon Pepper</li>
+<li>2 Cups Freshly Grated Parmesan Cheese</li>
+</ul>
+
+<p>Directions are available at the linked source.</p>
+
+</details>
+
+<hr />
+
+<details class="recipe-item">
 <summary><h2>Almond Cranberry Bread</h2></summary>
 
 <p>Link to recipe <a href="https://www.healthyseasonalrecipes.com/cranberry-almond-quick-bread/">here</a>.</p>
@@ -466,6 +500,46 @@ permalink: /ernst-recipes/
 <li>1 1/4 teaspoons kosher salt</li>
 <li>1/4 teaspoon freshly ground black pepper</li>
 <li>1/2 cup regular chicken (or veg stock)</li>
+</ul>
+
+<p>Directions are available at the linked source.</p>
+
+</details>
+
+<hr />
+
+<details class="recipe-item">
+<summary><h2>Baked Mac and Cheese</h2></summary>
+
+<p>Link to recipe <a href="https://www.momontimeout.com/best-homemade-baked-mac-and-cheese-recipe/">here</a>.</p>
+
+<dl>
+<dt>Yield</dt>
+<dd>12</dd>
+<dt>Prep time</dt>
+<dd>PT20M</dd>
+<dt>Cook time</dt>
+<dd>PT30M</dd>
+<dt>Total time</dt>
+<dd>PT60M</dd>
+</dl>
+
+<h3>Ingredients</h3>
+
+<ul>
+<li>16 oz elbow macaroni, cooked ((or other tubular pasta))</li>
+<li>1 tbsp extra virgin olive oil</li>
+<li>6 tbsp unsalted butter</li>
+<li>1/3 cup all purpose flour</li>
+<li>3 cups whole milk</li>
+<li>1 cup heavy whipping cream</li>
+<li>4 cups sharp cheddar cheese (shredded)</li>
+<li>2 cups Gruyere cheese (shredded)</li>
+<li>salt and pepper to taste</li>
+<li>1 1/2 cups panko crumbs</li>
+<li>4 tbsp butter (melted)</li>
+<li>1/2 cup Parmesan cheese (shredded)</li>
+<li>1/4 tsp smoked paprika ((or regular paprika))</li>
 </ul>
 
 <p>Directions are available at the linked source.</p>
@@ -2039,6 +2113,48 @@ permalink: /ernst-recipes/
 <li>1 teaspoon cinnamon</li>
 <li>12 tablespoons (1 1/2 sticks) cold salted butter, cubed</li>
 <li>4 tablespoons maple syrup</li>
+</ul>
+
+<p>Directions are available at the linked source.</p>
+
+</details>
+
+<hr />
+
+<details class="recipe-item">
+<summary><h2>Cinnamon Rolls (Cinnabon Copycat Recipe)</h2></summary>
+
+<p>Link to recipe <a href="https://www.tastesoflizzyt.com/homemade-cinnamon-rolls/">here</a>.</p>
+
+<dl>
+<dt>Yield</dt>
+<dd>12</dd>
+<dt>Prep time</dt>
+<dd>PT30M</dd>
+<dt>Cook time</dt>
+<dd>PT22M</dd>
+<dt>Total time</dt>
+<dd>PT102M</dd>
+</dl>
+
+<h3>Ingredients</h3>
+
+<ul>
+<li>1 cup warm milk ((115 degrees F))</li>
+<li>2 1/2 teaspoons instant dry yeast* ((I like Red Star Platinum Baking Yeast) )</li>
+<li>2 large eggs (at room temperature)</li>
+<li>1/3 cup salted butter** ((Melted or very softened, but make sure it isn&#x27;t over 110º Fahrenheit.) )</li>
+<li>1/2 cup granulated sugar</li>
+<li>1 teaspoon salt</li>
+<li>4 1/2 cups bread flour ((divided))</li>
+<li>1/2 cup salted butter ((almost melted))</li>
+<li>1 cup packed brown sugar</li>
+<li>2 tablespoons cinnamon</li>
+<li>1/2 cup heavy cream*** ((for pouring over the risen rolls))</li>
+<li>6 ounces cream cheese ((softened))</li>
+<li>1/3 cup salted butter ((softened) )</li>
+<li>2 cups powdered sugar</li>
+<li>1/2 tablespoon maple extract ((or vanilla) )</li>
 </ul>
 
 <p>Directions are available at the linked source.</p>
@@ -4329,163 +4445,6 @@ permalink: /ernst-recipes/
 <li>4 cloves garlic, minced</li>
 <li>parmesan cheese, grated</li>
 <li>parsley, minced</li>
-</ul>
-
-<p>Directions are available at the linked source.</p>
-
-</details>
-
-<hr />
-
-<details class="recipe-item">
-<summary><h2>Homemade Alfredo Sauce</h2></summary>
-
-<p>Link to recipe <a href="https://thesaltymarshmallow.com/best-homemade-alfredo-sauce/">here</a>.</p>
-
-<dl>
-<dt>Yield</dt>
-<dd>2, 2 Cups</dd>
-<dt>Prep time</dt>
-<dd>PT5M</dd>
-<dt>Cook time</dt>
-<dd>PT5M</dd>
-<dt>Total time</dt>
-<dd>PT10M</dd>
-</dl>
-
-<h3>Ingredients</h3>
-
-<ul>
-<li>1/2 Cup Butter</li>
-<li>1 1/2 Cups Heavy Whipping Cream</li>
-<li>2 Teaspoons Garlic (Minced)</li>
-<li>1/2 Teaspoon Italian Seasoning</li>
-<li>1/2 Teaspoon Salt</li>
-<li>1/4 Teaspoon Pepper</li>
-<li>2 Cups Freshly Grated Parmesan Cheese</li>
-</ul>
-
-<p>Directions are available at the linked source.</p>
-
-</details>
-
-<hr />
-
-<details class="recipe-item">
-<summary><h2>Homemade Baked Mac and Cheese</h2></summary>
-
-<p>Link to recipe <a href="https://www.momontimeout.com/best-homemade-baked-mac-and-cheese-recipe/">here</a>.</p>
-
-<dl>
-<dt>Yield</dt>
-<dd>12</dd>
-<dt>Prep time</dt>
-<dd>PT20M</dd>
-<dt>Cook time</dt>
-<dd>PT30M</dd>
-<dt>Total time</dt>
-<dd>PT60M</dd>
-</dl>
-
-<h3>Ingredients</h3>
-
-<ul>
-<li>16 oz elbow macaroni, cooked ((or other tubular pasta))</li>
-<li>1 tbsp extra virgin olive oil</li>
-<li>6 tbsp unsalted butter</li>
-<li>1/3 cup all purpose flour</li>
-<li>3 cups whole milk</li>
-<li>1 cup heavy whipping cream</li>
-<li>4 cups sharp cheddar cheese (shredded)</li>
-<li>2 cups Gruyere cheese (shredded)</li>
-<li>salt and pepper to taste</li>
-<li>1 1/2 cups panko crumbs</li>
-<li>4 tbsp butter (melted)</li>
-<li>1/2 cup Parmesan cheese (shredded)</li>
-<li>1/4 tsp smoked paprika ((or regular paprika))</li>
-</ul>
-
-<p>Directions are available at the linked source.</p>
-
-</details>
-
-<hr />
-
-<details class="recipe-item">
-<summary><h2>Homemade Cinnamon Rolls (Cinnabon Copycat Recipe)</h2></summary>
-
-<p>Link to recipe <a href="https://www.tastesoflizzyt.com/homemade-cinnamon-rolls/">here</a>.</p>
-
-<dl>
-<dt>Yield</dt>
-<dd>12</dd>
-<dt>Prep time</dt>
-<dd>PT30M</dd>
-<dt>Cook time</dt>
-<dd>PT22M</dd>
-<dt>Total time</dt>
-<dd>PT102M</dd>
-</dl>
-
-<h3>Ingredients</h3>
-
-<ul>
-<li>1 cup warm milk ((115 degrees F))</li>
-<li>2 1/2 teaspoons instant dry yeast* ((I like Red Star Platinum Baking Yeast) )</li>
-<li>2 large eggs (at room temperature)</li>
-<li>1/3 cup salted butter** ((Melted or very softened, but make sure it isn&#x27;t over 110º Fahrenheit.) )</li>
-<li>1/2 cup granulated sugar</li>
-<li>1 teaspoon salt</li>
-<li>4 1/2 cups bread flour ((divided))</li>
-<li>1/2 cup salted butter ((almost melted))</li>
-<li>1 cup packed brown sugar</li>
-<li>2 tablespoons cinnamon</li>
-<li>1/2 cup heavy cream*** ((for pouring over the risen rolls))</li>
-<li>6 ounces cream cheese ((softened))</li>
-<li>1/3 cup salted butter ((softened) )</li>
-<li>2 cups powdered sugar</li>
-<li>1/2 tablespoon maple extract ((or vanilla) )</li>
-</ul>
-
-<p>Directions are available at the linked source.</p>
-
-</details>
-
-<hr />
-
-<details class="recipe-item">
-<summary><h2>Homemade Pumpkin Pie</h2></summary>
-
-<p>Link to recipe <a href="https://www.simplyrecipes.com/pumpkin-pie-recipe-5101769">here</a>.</p>
-
-<dl>
-<dt>Yield</dt>
-<dd>12, 1 deep-dish pie, or 2 shallow pies baked in frozen premade crusts</dd>
-<dt>Prep time</dt>
-<dd>PT10M</dd>
-<dt>Cook time</dt>
-<dd>PT60M</dd>
-<dt>Total time</dt>
-<dd>PT70M</dd>
-</dl>
-
-<h3>Ingredients</h3>
-
-<ul>
-<li>2 large eggs</li>
-<li>1 large egg yolk</li>
-<li>1/2 cup packed dark brown sugar</li>
-<li>1/3 cup granulated white sugar</li>
-<li>1/2 teaspoon salt</li>
-<li>2 teaspoons cinnamon</li>
-<li>1 teaspoon ground ginger</li>
-<li>1/4 teaspoon ground nutmeg</li>
-<li>1/4 teaspoon ground cloves</li>
-<li>1/8 teaspoon ground cardamom</li>
-<li>1/2 teaspoon finely grated lemon zest</li>
-<li>2 cups pumpkin pulp purée from a sugar pumpkin (see Recipe Note) OR 1 (15-ounce can) pumpkin purée (can also use puréed cooked butternut squash)</li>
-<li>1 1/2 cups heavy cream or 1 (12-ounce) can evaporated milk</li>
-<li>1 homemade pie crust, chilled or frozen (see pâte brisée recipe or our no-fail flaky pie crust recipe), or 2 pre-made pie shells</li>
 </ul>
 
 <p>Directions are available at the linked source.</p>
@@ -6872,6 +6831,47 @@ permalink: /ernst-recipes/
 <li>5 tablespoons flour</li>
 <li>1½ teaspoons ground cinnamon</li>
 <li>4 tablespoons cold unsalted butter, cut into pieces</li>
+</ul>
+
+<p>Directions are available at the linked source.</p>
+
+</details>
+
+<hr />
+
+<details class="recipe-item">
+<summary><h2>Pumpkin Pie</h2></summary>
+
+<p>Link to recipe <a href="https://www.simplyrecipes.com/pumpkin-pie-recipe-5101769">here</a>.</p>
+
+<dl>
+<dt>Yield</dt>
+<dd>12, 1 deep-dish pie, or 2 shallow pies baked in frozen premade crusts</dd>
+<dt>Prep time</dt>
+<dd>PT10M</dd>
+<dt>Cook time</dt>
+<dd>PT60M</dd>
+<dt>Total time</dt>
+<dd>PT70M</dd>
+</dl>
+
+<h3>Ingredients</h3>
+
+<ul>
+<li>2 large eggs</li>
+<li>1 large egg yolk</li>
+<li>1/2 cup packed dark brown sugar</li>
+<li>1/3 cup granulated white sugar</li>
+<li>1/2 teaspoon salt</li>
+<li>2 teaspoons cinnamon</li>
+<li>1 teaspoon ground ginger</li>
+<li>1/4 teaspoon ground nutmeg</li>
+<li>1/4 teaspoon ground cloves</li>
+<li>1/8 teaspoon ground cardamom</li>
+<li>1/2 teaspoon finely grated lemon zest</li>
+<li>2 cups pumpkin pulp purée from a sugar pumpkin (see Recipe Note) OR 1 (15-ounce can) pumpkin purée (can also use puréed cooked butternut squash)</li>
+<li>1 1/2 cups heavy cream or 1 (12-ounce) can evaporated milk</li>
+<li>1 homemade pie crust, chilled or frozen (see pâte brisée recipe or our no-fail flaky pie crust recipe), or 2 pre-made pie shells</li>
 </ul>
 
 <p>Directions are available at the linked source.</p>
