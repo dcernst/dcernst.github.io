@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: recipes
 title: Ernst Recipes
 permalink: /ernst-recipes/
 ---
@@ -38,269 +38,6 @@ permalink: /ernst-recipes/
 <li>3 1/2 to 4 cups all-purpose flour</li>
 <li>1 teaspoon fine sea salt</li>
 <li>extra melted butter (for brushing on top)</li>
-</ul>
-
-<p>Directions are available at the linked source.</p>
-
-</details>
-
-<hr />
-
-<details class="recipe-item">
-<summary><h2>20 Minute Ginger Cashew Beef</h2></summary>
-
-<p>Link to recipe <a href="https://www.halfbakedharvest.com/ginger-cashew-beef/">here</a>.</p>
-
-<dl>
-<dt>Yield</dt>
-<dd>6</dd>
-<dt>Prep time</dt>
-<dd>PT10M</dd>
-<dt>Cook time</dt>
-<dd>PT10M</dd>
-<dt>Total time</dt>
-<dd>PT20M</dd>
-</dl>
-
-<h3>Ingredients</h3>
-
-<ul>
-<li>3 tablespoons sesame oil ((or olive oil))</li>
-<li>2 pounds flank or skirt steak, thinly sliced</li>
-<li>1 tablespoon arrowroot powder or cornstarch</li>
-<li>1 1/2 cups broccoli</li>
-<li>2 shallots, sliced</li>
-<li>3 tablespoons salted butter</li>
-<li>4 cloves garlic, chopped</li>
-<li>1 tablespoon chopped fresh or pickled ginger</li>
-<li>1 cup cashews</li>
-<li>1/3 cup tamari or soy sauce</li>
-<li>1/3 cup sweet Thai red chile sauce</li>
-<li>2 tablespoons pickled ginger juice or rice vinegar</li>
-<li>1 mango, chopped</li>
-<li>1 jalapeño, seeded, if desired, and chopped</li>
-<li>1/2 cup fresh Thai basil or cilantro. chopped</li>
-<li>2 green onions, chopped</li>
-<li>2 tablespoons lime juice</li>
-<li>coconut rice, for serving ((see notes))</li>
-</ul>
-
-<p>Directions are available at the linked source.</p>
-
-</details>
-
-<hr />
-
-<details class="recipe-item">
-<summary><h2>20 Minute Korean Gochujang Beef Bowls</h2></summary>
-
-<p>Link to recipe <a href="https://www.halfbakedharvest.com/gochujang-beef-bowls/">here</a>.</p>
-
-<dl>
-<dt>Yield</dt>
-<dd>6</dd>
-<dt>Prep time</dt>
-<dd>PT10M</dd>
-<dt>Cook time</dt>
-<dd>PT10M</dd>
-<dt>Total time</dt>
-<dd>PT20M</dd>
-</dl>
-
-<h3>Ingredients</h3>
-
-<ul>
-<li>1 1/2 pounds ground beef (or chicken or pork)</li>
-<li>2 tablespoons butter</li>
-<li>2 bell peppers, sliced</li>
-<li>3 shallots, sliced</li>
-<li>4 cloves garlic, chopped</li>
-<li>1/4 cup pickled ginger ((or 1 tablespoon fresh grated ginger))</li>
-<li>1/2 cup tamari or soy sauce</li>
-<li>2-3 tablespoons Gochujang ((Korean chili paste))</li>
-<li>2 tablespoons ginger juice</li>
-<li>2 tablespoons maple or honey</li>
-<li>1/4 cup toasted sesame seeds</li>
-<li>1/3 cup chopped roasted peanuts</li>
-<li>4 Persian cucumbers, chopped</li>
-<li>1 tablespoon Gochujang ((Korean chili paste))</li>
-<li>1/4 cup chopped green onion/ Thai basil</li>
-<li>2 tablespoons ginger juice or rice vinegar</li>
-</ul>
-
-<p>Directions are available at the linked source.</p>
-
-</details>
-
-<hr />
-
-<details class="recipe-item">
-<summary><h2>25-Minute Pistachio Pesto Pasta with Orecchiette</h2></summary>
-
-<p>Link to recipe <a href="https://playswellwithbutter.com/pistachio-pesto-pasta/">here</a>.</p>
-
-<dl>
-<dt>Yield</dt>
-<dd>3, serves 3-4</dd>
-<dt>Prep time</dt>
-<dd>PT15M</dd>
-<dt>Cook time</dt>
-<dd>PT10M</dd>
-<dt>Total time</dt>
-<dd>PT25M</dd>
-</dl>
-
-<h3>Ingredients</h3>
-
-<ul>
-<li>8 ounces DeLallo Orecchiette or short pasta of choice</li>
-<li>¼ cup shelled pistachios, toasted (see Recipe Notes)</li>
-<li>6 cloves garlic</li>
-<li>1 ½ cups loosely packed fresh basil leaves (approx. 2 ounces)</li>
-<li>½ lemon, zested and juiced</li>
-<li>⅓ cup finely grated parmesan cheese</li>
-<li>optional: up to 1 teaspoon crushed red pepper flakes</li>
-<li>⅓ cup DeLallo Extra Virgin Olive Oil</li>
-<li>kosher salt and ground black pepper, to season</li>
-</ul>
-
-<p>Directions are available at the linked source.</p>
-
-</details>
-
-<hr />
-
-<details class="recipe-item">
-<summary><h2>30 Minute Dinner Rolls</h2></summary>
-
-<p>Link to recipe <a href="https://www.kyleecooks.com/30-minute-dinner-rolls/">here</a>.</p>
-
-<dl>
-<dt>Yield</dt>
-<dd>1, 1 dozen rolls</dd>
-<dt>Prep time</dt>
-<dd>PT10M</dd>
-<dt>Cook time</dt>
-<dd>PT10M</dd>
-<dt>Total time</dt>
-<dd>PT30M</dd>
-</dl>
-
-<h3>Ingredients</h3>
-
-<ul>
-<li>1 1/8 cup warm water (not boiling hot - warm - around 114°F)</li>
-<li>1/3 cup olive oil (see notes)</li>
-<li>2 tablespoons active dry yeast</li>
-<li>1/4 cup white sugar</li>
-<li>2 cups bread flour (all-purpose will also work)</li>
-<li>1 teaspoon salt</li>
-<li>1 egg</li>
-<li>1 1/2 cups bread flour (all-purpose will also work)</li>
-</ul>
-
-<p>Directions are available at the linked source.</p>
-
-</details>
-
-<hr />
-
-<details class="recipe-item">
-<summary><h2>30 Minute Spicy Coconut Butter Chicken</h2></summary>
-
-<p>Link to recipe <a href="https://www.halfbakedharvest.com/butter-chicken/">here</a>.</p>
-
-<dl>
-<dt>Yield</dt>
-<dd>6</dd>
-<dt>Prep time</dt>
-<dd>PT10M</dd>
-<dt>Cook time</dt>
-<dd>PT20M</dd>
-<dt>Total time</dt>
-<dd>PT30M</dd>
-</dl>
-
-<h3>Ingredients</h3>
-
-<ul>
-<li>2 pounds boneless skinless chicken breasts or thighs, cut into bite-size chunks</li>
-<li>1/4 cup plain Greek yogurt</li>
-<li>6 cloves garlic, minced or grated</li>
-<li>2 tablespoons fresh grated ginger</li>
-<li>2 teaspoons plus 1 tablespoon garam masala</li>
-<li>2 teaspoons cumin</li>
-<li>1 teaspoon turmeric</li>
-<li>1-2 teaspoons cayenne pepper, use to your taste</li>
-<li>kosher salt and black pepper</li>
-<li>2 tablespoons extra virgin olive oil</li>
-<li>4 tablespoons salted butter</li>
-<li>1 large yellow onion, chopped</li>
-<li>1-2 teaspoons crushed red pepper flakes, use to your taste</li>
-<li>1/2 cup tomato paste</li>
-<li>1 (14 ounce) can full-fat coconut milk ((or sub 1 cup cream))</li>
-<li>1/2 cup fresh cilantro roughly, chopped</li>
-<li>steamed rice and naan, for serving</li>
-</ul>
-
-<p>Directions are available at the linked source.</p>
-
-</details>
-
-<hr />
-
-<details class="recipe-item">
-<summary><h2>5-Ingredient Mango Salsa</h2></summary>
-
-<p>Link to recipe <a href="https://www.gimmesomeoven.com/5-ingredient-mango-salsa-recipe/">here</a>.</p>
-
-<dl>
-<dt>Prep time</dt>
-<dd>PT10M</dd>
-<dt>Total time</dt>
-<dd>PT10M</dd>
-</dl>
-
-<h3>Ingredients</h3>
-
-<ul>
-<li>2 ripe mangoes</li>
-<li>1 small red onion (peeled and diced)</li>
-<li>1-2 jalapenos (seeded and diced)</li>
-<li>1/2 cup chopped fresh cilantro (loosely packed)</li>
-<li>juice of one lime</li>
-</ul>
-
-<p>Directions are available at the linked source.</p>
-
-</details>
-
-<hr />
-
-<details class="recipe-item">
-<summary><h2>5-Minute Szechuan Sauce</h2></summary>
-
-<p>Link to recipe <a href="https://www.gimmesomeoven.com/szechuan-sauce/">here</a>.</p>
-
-<dl>
-<dt>Prep time</dt>
-<dd>PT5M</dd>
-<dt>Total time</dt>
-<dd>PT5M</dd>
-</dl>
-
-<h3>Ingredients</h3>
-
-<ul>
-<li>1/4 cup low-sodium soy sauce</li>
-<li>2 tablespoons maple syrup or brown sugar</li>
-<li>1 tablespoon cornstarch (optional*)</li>
-<li>1 tablespoon chili garlic sauce</li>
-<li>1 tablespoon rice vinegar</li>
-<li>1/2 teaspoon Chinese five spice powder</li>
-<li>1/2 teaspoon crushed red pepper flakes</li>
-<li>1/2 teaspoon garlic powder</li>
-<li>1/2 teaspoon ground ginger</li>
 </ul>
 
 <p>Directions are available at the linked source.</p>
@@ -703,6 +440,112 @@ permalink: /ernst-recipes/
 <hr />
 
 <details class="recipe-item">
+<summary><h2>Baby Potatoes Recipe</h2></summary>
+
+<p>Link to recipe <a href="https://www.chewoutloud.com/instant-pot-baby-potatoes-recipe/">here</a>.</p>
+
+<dl>
+<dt>Yield</dt>
+<dd>4</dd>
+<dt>Prep time</dt>
+<dd>PT5M</dd>
+<dt>Cook time</dt>
+<dd>PT5M</dd>
+</dl>
+
+<h3>Ingredients</h3>
+
+<ul>
+<li>2 tablespoons butter</li>
+<li>1 tablespoon olive oil</li>
+<li>2 lbs baby potatoes (about 1.5 inches each, patted dry)</li>
+<li>2 teaspoons Italian seasoning</li>
+<li>1 teaspoon onion powder</li>
+<li>1 teaspoon garlic powder</li>
+<li>1 teaspoon paprika</li>
+<li>1 1/4 teaspoons kosher salt</li>
+<li>1/4 teaspoon freshly ground black pepper</li>
+<li>1/2 cup regular chicken (or veg stock)</li>
+</ul>
+
+<p>Directions are available at the linked source.</p>
+
+</details>
+
+<hr />
+
+<details class="recipe-item">
+<summary><h2>Baked Pork Tenderloin</h2></summary>
+
+<p>Link to recipe <a href="https://sweetcsdesigns.com/best-baked-garlic-pork-tenderloin/">here</a>.</p>
+
+<dl>
+<dt>Yield</dt>
+<dd>6, 6 servings</dd>
+<dt>Prep time</dt>
+<dd>PT5M</dd>
+<dt>Cook time</dt>
+<dd>PT40M</dd>
+<dt>Total time</dt>
+<dd>PT45M</dd>
+</dl>
+
+<h3>Ingredients</h3>
+
+<ul>
+<li>1 bottle Italian Salad Dressing (optional marinade)</li>
+<li>2 tbsp extra virgin olive oil</li>
+<li>1 tbsp sea salt</li>
+<li>1/2 tsp fresh cracked pepper</li>
+<li>2 lb pork tenderloin</li>
+<li>4 tbsp butter (sliced into 4-6 pats)</li>
+<li>2 tbsp diced garlic</li>
+<li>1 tsp dried basil*</li>
+<li>1 tsp dried oregano*</li>
+<li>1 tsp dried thyme*</li>
+<li>1 tsp dried parsley*</li>
+<li>1/2 tsp dried sage*</li>
+<li>*OR 2 tbsp Italian Herb Seasoning Blend</li>
+</ul>
+
+<p>Directions are available at the linked source.</p>
+
+</details>
+
+<hr />
+
+<details class="recipe-item">
+<summary><h2>Baked Potato</h2></summary>
+
+<p>Link to recipe <a href="https://damndelicious.net/2019/07/08/instant-pot-baked-potato/">here</a>.</p>
+
+<dl>
+<dt>Yield</dt>
+<dd>5, 5 servings</dd>
+<dt>Prep time</dt>
+<dd>PT45M</dd>
+<dt>Cook time</dt>
+<dd>PT15M</dd>
+<dt>Total time</dt>
+<dd>PT60M</dd>
+</dl>
+
+<h3>Ingredients</h3>
+
+<ul>
+<li>1 cup water</li>
+<li>5 medium russet potatoes*</li>
+<li>5 tablespoons unsalted butter</li>
+<li>Kosher salt and freshly ground black pepper (to taste)</li>
+</ul>
+
+<p>Directions are available at the linked source.</p>
+
+</details>
+
+<hr />
+
+<details class="recipe-item">
 <summary><h2>Baked Potato Recipe</h2></summary>
 
 <p>Link to recipe <a href="https://www.chelseasmessyapron.com/baked-potato/">here</a>.</p>
@@ -726,6 +569,92 @@ permalink: /ernst-recipes/
 <li>1 teaspoon salt (divided)</li>
 <li>1/4 teaspoon pepper (divided)</li>
 <li>Toppings as desired (see note 2)</li>
+</ul>
+
+<p>Directions are available at the linked source.</p>
+
+</details>
+
+<hr />
+
+<details class="recipe-item">
+<summary><h2>Barbacoa Beef</h2></summary>
+
+<p>Link to recipe <a href="https://www.gimmesomeoven.com/instant-pot-barbacoa-beef/">here</a>.</p>
+
+<dl>
+<dt>Yield</dt>
+<dd>8, 8 -10 servings</dd>
+<dt>Prep time</dt>
+<dd>PT20M</dd>
+<dt>Cook time</dt>
+<dd>PT85M</dd>
+<dt>Total time</dt>
+<dd>PT105M</dd>
+</dl>
+
+<h3>Ingredients</h3>
+
+<ul>
+<li>2/3 cup beer or water</li>
+<li>4 cloves garlic</li>
+<li>2 chipotles in adobo sauce (or more (to taste))</li>
+<li>1 small white onion (peeled and roughly chopped)</li>
+<li>1 (4-ounce) can chopped green chiles</li>
+<li>1/4 cup fresh lime juice</li>
+<li>2 tablespoons apple cider vinegar</li>
+<li>1 tablespoon ground cumin</li>
+<li>1 tablespoon dried Mexican oregano (or regular oregano)</li>
+<li>2 teaspoons salt</li>
+<li>1 teaspoon black pepper</li>
+<li>1/4 tsp ground cloves</li>
+<li>1 tablespoon olive oil</li>
+<li>3 pounds beef chuck roast* (fat trimmed) (cut into 2-inch chunks)</li>
+<li>3 bay leaves</li>
+</ul>
+
+<p>Directions are available at the linked source.</p>
+
+</details>
+
+<hr />
+
+<details class="recipe-item">
+<summary><h2>Barbecue Beef</h2></summary>
+
+<p>Link to recipe <a href="https://www.simplyhappyfoodie.com/instant-pot-barbecue-beef/">here</a>.</p>
+
+<dl>
+<dt>Yield</dt>
+<dd>6, 6 - 10</dd>
+<dt>Prep time</dt>
+<dd>PT20M</dd>
+<dt>Cook time</dt>
+<dd>PT70M</dd>
+<dt>Total time</dt>
+<dd>PT105M</dd>
+</dl>
+
+<h3>Ingredients</h3>
+
+<ul>
+<li>3 - 4 lbs Bottom Round or Chuck Roast* ((cut in thirds))</li>
+<li>Salt</li>
+<li>Pepper</li>
+<li>2 Tablespoons Vegetable Oil</li>
+<li>1 Onion, (cut in half, sliced into ¼&quot; thick half-rings)</li>
+<li>1½ cups Water or Beef Broth</li>
+<li>1 - 2 cups Barbecue Sauce**</li>
+<li>1½ cups Ketchup</li>
+<li>¼ cup Apple Cider Vinegar</li>
+<li>½ cup Brown Sugar</li>
+<li>2 Tablespoons Worcestershire Sauce</li>
+<li>1 Tablespoon Paprika ((or smoked paprika))</li>
+<li>1 teaspoon Liquid Smoke</li>
+<li>1 teaspoon Chili Powder</li>
+<li>½ teaspoon Salt</li>
+<li>1 teaspoon Garlic Powder</li>
+<li>1/8 teaspoon Cayenne Powder ((more for spicy))</li>
 </ul>
 
 <p>Directions are available at the linked source.</p>
@@ -802,6 +731,41 @@ permalink: /ernst-recipes/
 <li>Scant 1 teaspoon salt</li>
 <li>¼ teaspoon ground black pepper</li>
 <li>1½ tablespoons honey</li>
+</ul>
+
+<p>Directions are available at the linked source.</p>
+
+</details>
+
+<hr />
+
+<details class="recipe-item">
+<summary><h2>BBQ Chicken</h2></summary>
+
+<p>Link to recipe <a href="https://www.pressurecookrecipes.com/instant-pot-bbq-chicken/">here</a>.</p>
+
+<dl>
+<dt>Yield</dt>
+<dd>4</dd>
+<dt>Prep time</dt>
+<dd>PT5M</dd>
+<dt>Cook time</dt>
+<dd>PT35M</dd>
+<dt>Total time</dt>
+<dd>PT40M</dd>
+</dl>
+
+<h3>Ingredients</h3>
+
+<ul>
+<li>6 - 8 (1230g or 2.5 - 3lbs) chicken thighs or drumsticks</li>
+<li>Your favorite BBQ sauce</li>
+<li>Salt and black pepper ( to taste)</li>
+<li>1 cup (250ml) cold water</li>
+<li>3 drops liquid smoke</li>
+<li>½ teaspoon garlic powder</li>
+<li>½ teaspoon onion powder</li>
+<li>½ tablespoon white vinegar</li>
 </ul>
 
 <p>Directions are available at the linked source.</p>
@@ -929,79 +893,40 @@ permalink: /ernst-recipes/
 <hr />
 
 <details class="recipe-item">
-<summary><h2>Beer Bread</h2></summary>
+<summary><h2>Beef Stew</h2></summary>
 
-<p>Link to recipe <a href="https://www.food.com/recipe/beer-bread-73440">here</a>.</p>
-
-<dl>
-<dt>Yield</dt>
-<dd>6-8 serving(s)</dd>
-<dt>Prep time</dt>
-<dd>PT3M</dd>
-<dt>Cook time</dt>
-<dd>PT1H</dd>
-<dt>Total time</dt>
-<dd>PT1H3M</dd>
-</dl>
-
-<h3>Ingredients</h3>
-
-<ul>
-<li>3 cups flour (sifted)</li>
-<li>3 teaspoons baking powder (omit if using Self-Rising Flour)</li>
-<li>1 teaspoon salt (omit if using Self-Rising Flour)</li>
-<li>1/4 cup sugar</li>
-<li>1 (12 ounce) can beer</li>
-<li>1/2 cup melted butter (1/4 cup will do just fine)</li>
-</ul>
-
-<p>Directions are available at the linked source.</p>
-
-</details>
-
-<hr />
-
-<details class="recipe-item">
-<summary><h2>Best Classic Shepherd’s Pie Recipe</h2></summary>
-
-<p>Link to recipe <a href="https://www.thewholesomedish.com/the-best-classic-shepherds-pie/">here</a>.</p>
+<p>Link to recipe <a href="https://kristineskitchenblog.com/instant-pot-beef-stew/">here</a>.</p>
 
 <dl>
 <dt>Yield</dt>
 <dd>6, 6 servings</dd>
 <dt>Prep time</dt>
-<dd>PT20M</dd>
+<dd>PT25M</dd>
 <dt>Cook time</dt>
-<dd>PT50M</dd>
+<dd>PT35M</dd>
 <dt>Total time</dt>
-<dd>PT70M</dd>
+<dd>PT85M</dd>
 </dl>
 
 <h3>Ingredients</h3>
 
 <ul>
-<li>2 tablespoons olive oil</li>
-<li>1 cup chopped yellow onion</li>
-<li>1 lb. 90% lean ground beef (-or ground lamb)</li>
-<li>2 teaspoons dried parsley leaves</li>
-<li>1 teaspoon dried rosemary leaves</li>
-<li>1 teaspoon dried thyme leaves</li>
-<li>1/2 teaspoon salt</li>
-<li>1/2 teaspoon ground black pepper</li>
-<li>1 tablespoon Worcestershire sauce</li>
-<li>2 garlic cloves (-minced)</li>
-<li>2 tablespoons all purpose flour</li>
+<li>2 pounds boneless beef chuck roast (or beef stew meat)</li>
+<li>2 tablespoons olive oil (divided)</li>
+<li>1 teaspoon salt</li>
+<li>½ teaspoon black pepper</li>
+<li>1 yellow onion (chopped)</li>
+<li>3 cloves garlic (minced)</li>
+<li>3 cups unsalted beef stock (or low sodium beef broth)</li>
 <li>2 tablespoons tomato paste</li>
-<li>1 cup beef broth</li>
-<li>1 cup frozen mixed peas &amp; carrots*</li>
-<li>1/2 cup frozen corn kernels</li>
-<li>1 1/2 - 2 lb. russet potatoes (-about 2 large potatoes peeled and cut into 1 inch cubes)</li>
-<li>8 tablespoons unsalted butter (-1 stick)</li>
-<li>1/3 cup half &amp; half</li>
-<li>1/2 teaspoon garlic powder</li>
-<li>1/2 teaspoon salt</li>
-<li>1/4 teaspoon ground black pepper</li>
-<li>1/4 cup parmesan cheese</li>
+<li>1 tablespoon Worcestershire sauce</li>
+<li>1 teaspoon dried Italian seasoning</li>
+<li>1 teaspoon dried thyme</li>
+<li>1 bay leaf</li>
+<li>4 carrots (cut into 1-inch pieces on the diagonal)</li>
+<li>1 ½ pounds Yukon gold potatoes* (about 4 medium, cut into 1 1/2-inch pieces)</li>
+<li>2 tablespoons cornstarch</li>
+<li>2 tablespoons water</li>
 </ul>
 
 <p>Directions are available at the linked source.</p>
@@ -1011,37 +936,41 @@ permalink: /ernst-recipes/
 <hr />
 
 <details class="recipe-item">
-<summary><h2>Best Easy Baked Pork Tenderloin</h2></summary>
+<summary><h2>Beef Stew</h2></summary>
 
-<p>Link to recipe <a href="https://sweetcsdesigns.com/best-baked-garlic-pork-tenderloin/">here</a>.</p>
+<p>Link to recipe <a href="https://www.wellplated.com/instant-pot-beef-stew/">here</a>.</p>
 
 <dl>
 <dt>Yield</dt>
-<dd>6, 6 servings</dd>
+<dd>7, 7 cups</dd>
 <dt>Prep time</dt>
-<dd>PT5M</dd>
+<dd>PT10M</dd>
 <dt>Cook time</dt>
-<dd>PT40M</dd>
+<dd>PT80M</dd>
 <dt>Total time</dt>
-<dd>PT45M</dd>
+<dd>PT90M</dd>
 </dl>
 
 <h3>Ingredients</h3>
 
 <ul>
-<li>1 bottle Italian Salad Dressing (optional marinade)</li>
-<li>2 tbsp extra virgin olive oil</li>
-<li>1 tbsp sea salt</li>
-<li>1/2 tsp fresh cracked pepper</li>
-<li>2 lb pork tenderloin</li>
-<li>4 tbsp butter (sliced into 4-6 pats)</li>
-<li>2 tbsp diced garlic</li>
-<li>1 tsp dried basil*</li>
-<li>1 tsp dried oregano*</li>
-<li>1 tsp dried thyme*</li>
-<li>1 tsp dried parsley*</li>
-<li>1/2 tsp dried sage*</li>
-<li>*OR 2 tbsp Italian Herb Seasoning Blend</li>
+<li>2 pounds boneless chuck roast</li>
+<li>3 tablespoons extra-virgin olive oil (divided)</li>
+<li>2 teaspoons kosher salt (divided)</li>
+<li>1/2 teaspoon ground black pepper (divided)</li>
+<li>1 large yellow onion</li>
+<li>2 cloves garlic</li>
+<li>1 pound carrots (about 6 medium)</li>
+<li>1 large russet potato* ((see note))</li>
+<li>1 can low-sodium beef broth ((14.5-ounces) )</li>
+<li>1 tablespoon Worcestershire sauce**</li>
+<li>1 bay leaf</li>
+<li>1 teaspoon dried thyme</li>
+<li>1 can no salt added tomato sauce ((8 ounces) )</li>
+<li>2 tablespoons cornstarch** ((see note))</li>
+<li>2 tablespoons water</li>
+<li>1 1/2 cups fresh or frozen peas (no need to thaw)</li>
+<li>Fresh parsley (or fresh rosemary, optional for serving)</li>
 </ul>
 
 <p>Directions are available at the linked source.</p>
@@ -1051,7 +980,7 @@ permalink: /ernst-recipes/
 <hr />
 
 <details class="recipe-item">
-<summary><h2>Best Ever Beef Stew Recipe</h2></summary>
+<summary><h2>Beef Stew Recipe</h2></summary>
 
 <p>Link to recipe <a href="https://damndelicious.net/2020/02/29/best-ever-beef-stew/">here</a>.</p>
 
@@ -1094,79 +1023,30 @@ permalink: /ernst-recipes/
 <hr />
 
 <details class="recipe-item">
-<summary><h2>Best Gluten Free Lasagna with Barilla No-Boil Noodles</h2></summary>
+<summary><h2>Beer Bread</h2></summary>
 
-<p>Link to recipe <a href="https://cupcakesandkalechips.com/worlds-best-gluten-free-lasagna/">here</a>.</p>
+<p>Link to recipe <a href="https://www.food.com/recipe/beer-bread-73440">here</a>.</p>
 
 <dl>
 <dt>Yield</dt>
-<dd>12, 12 slices</dd>
+<dd>6-8 serving(s)</dd>
 <dt>Prep time</dt>
-<dd>PT40M</dd>
+<dd>PT3M</dd>
 <dt>Cook time</dt>
-<dd>PT120M</dd>
+<dd>PT1H</dd>
 <dt>Total time</dt>
-<dd>PT160M</dd>
+<dd>PT1H3M</dd>
 </dl>
 
 <h3>Ingredients</h3>
 
 <ul>
-<li>1 pound sweet Italian turkey sausage</li>
-<li>3/4 pound lean ground beef</li>
-<li>1/2 cup chopped onion</li>
-<li>2 cloves minced or crushed garlic</li>
-<li>28 ounce can crushed tomatoes ((Tuttorosso is recommended))</li>
-<li>12 ounce can tomato paste ((or two 6 ounce cans))</li>
-<li>15 ounce can tomato sauce</li>
-<li>1/2 cup water</li>
-<li>2 Tablespoons sugar ((optional))</li>
-<li>2 Tablespoons chopped fresh parsley</li>
-<li>2 teaspoons salt</li>
-<li>1 1/2 teaspoons dried basil leaves</li>
-<li>1 teaspoon Italian seasoning</li>
-<li>1/4 teaspoon ground black pepper</li>
-<li>15 ounces ricotta cheese</li>
-<li>1 large egg</li>
-<li>2 Tablepsoons chopped fresh parsley</li>
-<li>1/2 teaspoon salt</li>
-<li>12 Barilla Gluten Free Oven-Ready Lasagne Noodles</li>
-<li>1 1/2 cups shredded mozzarella cheese ((about 12 oz.))</li>
-<li>3/4 cups grated Parmesan cheese</li>
-</ul>
-
-<p>Directions are available at the linked source.</p>
-
-</details>
-
-<hr />
-
-<details class="recipe-item">
-<summary><h2>Best Homemade Alfredo Sauce</h2></summary>
-
-<p>Link to recipe <a href="https://thesaltymarshmallow.com/best-homemade-alfredo-sauce/">here</a>.</p>
-
-<dl>
-<dt>Yield</dt>
-<dd>2, 2 Cups</dd>
-<dt>Prep time</dt>
-<dd>PT5M</dd>
-<dt>Cook time</dt>
-<dd>PT5M</dd>
-<dt>Total time</dt>
-<dd>PT10M</dd>
-</dl>
-
-<h3>Ingredients</h3>
-
-<ul>
-<li>1/2 Cup Butter</li>
-<li>1 1/2 Cups Heavy Whipping Cream</li>
-<li>2 Teaspoons Garlic (Minced)</li>
-<li>1/2 Teaspoon Italian Seasoning</li>
-<li>1/2 Teaspoon Salt</li>
-<li>1/4 Teaspoon Pepper</li>
-<li>2 Cups Freshly Grated Parmesan Cheese</li>
+<li>3 cups flour (sifted)</li>
+<li>3 teaspoons baking powder (omit if using Self-Rising Flour)</li>
+<li>1 teaspoon salt (omit if using Self-Rising Flour)</li>
+<li>1/4 cup sugar</li>
+<li>1 (12 ounce) can beer</li>
+<li>1/2 cup melted butter (1/4 cup will do just fine)</li>
 </ul>
 
 <p>Directions are available at the linked source.</p>
@@ -1333,6 +1213,39 @@ permalink: /ernst-recipes/
 <li>2 tablespoons olive oil</li>
 <li>1/2 teaspoon cumin</li>
 <li>1/2 teaspoon salt (to taste)</li>
+</ul>
+
+<p>Directions are available at the linked source.</p>
+
+</details>
+
+<hr />
+
+<details class="recipe-item">
+<summary><h2>Black Beans</h2></summary>
+
+<p>Link to recipe <a href="https://www.pressurecookrecipes.com/instant-pot-black-beans/">here</a>.</p>
+
+<dl>
+<dt>Yield</dt>
+<dd>4, 4 - 6</dd>
+<dt>Total time</dt>
+<dd>PT100M</dd>
+</dl>
+
+<h3>Ingredients</h3>
+
+<ul>
+<li>1 pound (454g) dried black beans (, rinsed &amp; unsoaked)</li>
+<li>1 (240g) onion (, chopped)</li>
+<li>8 (27g) garlic cloves (, chopped)</li>
+<li>6 cups (1.5L) unsalted chicken stock ((or 4 cups unsalted chicken stock + 2 cups cold water))</li>
+<li>1 teaspoon (2.7g) ground cumin</li>
+<li>1 teaspoon (0.6g) oregano</li>
+<li>3 (0.4g) bay leaves</li>
+<li>1 tablespoon (15ml) olive oil</li>
+<li>Cilantro (, chopped)</li>
+<li>½ teaspoon coarse kosher salt ((Substitute: fine salt))</li>
 </ul>
 
 <p>Directions are available at the linked source.</p>
@@ -1531,6 +1444,132 @@ permalink: /ernst-recipes/
 <hr />
 
 <details class="recipe-item">
+<summary><h2>Carrot Cake with Cream Cheese Frosting</h2></summary>
+
+<p>Link to recipe <a href="https://www.livewellbakeoften.com/the-best-carrot-cake-recipe/">here</a>.</p>
+
+<dl>
+<dt>Yield</dt>
+<dd>10, 10 slices</dd>
+<dt>Prep time</dt>
+<dd>PT35M</dd>
+<dt>Cook time</dt>
+<dd>PT35M</dd>
+<dt>Total time</dt>
+<dd>PT70M</dd>
+</dl>
+
+<h3>Ingredients</h3>
+
+<ul>
+<li>2 cups all-purpose flour</li>
+<li>2 teaspoons baking powder</li>
+<li>1 teaspoon baking soda</li>
+<li>1 ½ teaspoons ground cinnamon</li>
+<li>½ teaspoon ground ginger</li>
+<li>¼ teaspoon ground nutmeg</li>
+<li>½ teaspoon salt</li>
+<li>¾ cup canola or vegetable oil ((180ml) )</li>
+<li>4 large eggs (at room temperature)</li>
+<li>1 ½ cups packed light brown sugar ((300 grams) )</li>
+<li>½ cup granulated sugar ((100 grams))</li>
+<li>½ cup unsweetened applesauce ((125 grams) )</li>
+<li>1 teaspoon pure vanilla extract</li>
+<li>3 cups lightly packed grated carrots ((300 grams) )</li>
+<li>1 (8-ounce) package brick style cream cheese ((226 grams) softened)</li>
+<li>½ cup unsalted butter ((115 grams) softened)</li>
+<li>2 cups powdered sugar ((240 grams) )</li>
+<li>1 teaspoon pure vanilla extract</li>
+</ul>
+
+<p>Directions are available at the linked source.</p>
+
+</details>
+
+<hr />
+
+<details class="recipe-item">
+<summary><h2>Chana Masala (Punjabi Chole)</h2></summary>
+
+<p>Link to recipe <a href="https://ministryofcurry.com/instant-pot-chana-masala-recipe/">here</a>.</p>
+
+<dl>
+<dt>Yield</dt>
+<dd>4</dd>
+<dt>Prep time</dt>
+<dd>PT10M</dd>
+<dt>Cook time</dt>
+<dd>PT60M</dd>
+<dt>Total time</dt>
+<dd>PT310M</dd>
+</dl>
+
+<h3>Ingredients</h3>
+
+<ul>
+<li>1 cup dried chickpeas (**)</li>
+<li>3½ cups water (divided )</li>
+<li>2 tablespoons ghee (or oil)</li>
+<li>1 teaspoon cumin seeds</li>
+<li>1 yellow onion (finely diced)</li>
+<li>1 teaspoon ginger (grated)</li>
+<li>1 tablespoon garlic (minced)</li>
+<li>1 tablespoon ground coriander</li>
+<li>2 teaspoons kosher salt</li>
+<li>1 to 2 teaspoons kashmiri red chili powder</li>
+<li>¼ teaspoon ground turmeric</li>
+<li>2 plum tomatoes (finely diced or 1 cup canned tomatoes with juice )</li>
+<li>¼ teaspoon garam masala</li>
+<li>½ cup cilantro (chopped)</li>
+</ul>
+
+<p>Directions are available at the linked source.</p>
+
+</details>
+
+<hr />
+
+<details class="recipe-item">
+<summary><h2>Charro (Refried Beans)</h2></summary>
+
+<p>Link to recipe <a href="https://www.allrecipes.com/recipe/256347/instant-pot-charro-refried-beans/">here</a>.</p>
+
+<dl>
+<dt>Yield</dt>
+<dd>8</dd>
+<dt>Prep time</dt>
+<dd>PT20M</dd>
+<dt>Cook time</dt>
+<dd>PT55M</dd>
+<dt>Total time</dt>
+<dd>PT85M</dd>
+</dl>
+
+<h3>Ingredients</h3>
+
+<ul>
+<li>4 cups water</li>
+<li>2 cups dry pinto beans, rinsed</li>
+<li>1 large onion, chopped</li>
+<li>0.5 cup salsa</li>
+<li>0.5 cup roughly chopped cilantro, or to taste</li>
+<li>1 jalapeno pepper, minced</li>
+<li>4 cloves garlic, minced</li>
+<li>2 teaspoons tomato-flavored bouillon</li>
+<li>2 teaspoons vegetable bouillon</li>
+<li>0.5 teaspoon chili powder</li>
+<li>0.5 teaspoon ground paprika</li>
+<li>0.5 teaspoon ground cumin</li>
+<li>0.5 teaspoon ground black pepper</li>
+</ul>
+
+<p>Directions are available at the linked source.</p>
+
+</details>
+
+<hr />
+
+<details class="recipe-item">
 <summary><h2>Cheese Enchiladas</h2></summary>
 
 <p>Link to recipe <a href="https://tastesbetterfromscratch.com/cheese-enchiladas/">here</a>.</p>
@@ -1632,6 +1671,99 @@ permalink: /ernst-recipes/
 <li>vegetable oil, for frying</li>
 <li>Buttermilk Waffles, click link for full waffles recipe</li>
 <li>pure maple syrup &amp; softened butter, for serving</li>
+</ul>
+
+<p>Directions are available at the linked source.</p>
+
+</details>
+
+<hr />
+
+<details class="recipe-item">
+<summary><h2>Chicken Tikka Masala</h2></summary>
+
+<p>Link to recipe <a href="https://www.wellplated.com/instant-pot-chicken-tikka-masala/">here</a>.</p>
+
+<dl>
+<dt>Yield</dt>
+<dd>6, 6 servings (5 cups chicken and sauce)</dd>
+<dt>Prep time</dt>
+<dd>PT10M</dd>
+<dt>Cook time</dt>
+<dd>PT50M</dd>
+<dt>Total time</dt>
+<dd>PT60M</dd>
+</dl>
+
+<h3>Ingredients</h3>
+
+<ul>
+<li>2 pounds boneless skinless chicken breasts (cut into bite-size pieces)</li>
+<li>1 1/2 teaspoons kosher salt (divided)</li>
+<li>1 tablespoon unsalted butter (or coconut oil, ghee, or extra-virgin olive oil...I do think the butter is worth it here!)</li>
+<li>1 small yellow onion (finely chopped)</li>
+<li>3 large cloves garlic (minced (about 1 tablespoon))</li>
+<li>1 tablespoon minced fresh ginger</li>
+<li>1 tablespoon garam masala*</li>
+<li>1 teaspoon ground chili powder</li>
+<li>1 teaspoon ground cumin</li>
+<li>1 teaspoon ground turmeric</li>
+<li>1/4 teaspoon ground cayenne (use more if you like the dish spicy)</li>
+<li>1 can no salt added tomato sauce ((8 ounces))</li>
+<li>1 can light coconut milk ((14 ounces))</li>
+<li>3/4 cup frozen peas</li>
+<li>1/2 cup plain nonfat Greek yogurt</li>
+<li>Prepared brown rice (or naan, for serving)</li>
+<li>Fresh cilantro (for serving)</li>
+</ul>
+
+<p>Directions are available at the linked source.</p>
+
+</details>
+
+<hr />
+
+<details class="recipe-item">
+<summary><h2>Chicken Tikka Masala</h2></summary>
+
+<p>Link to recipe <a href="https://www.swankyrecipes.com/instant-pot-chicken-tikka-masala.html">here</a>.</p>
+
+<dl>
+<dt>Yield</dt>
+<dd>6, 6 servings</dd>
+<dt>Prep time</dt>
+<dd>PT10M</dd>
+<dt>Cook time</dt>
+<dd>PT20M</dd>
+<dt>Total time</dt>
+<dd>PT120M</dd>
+</dl>
+
+<h3>Ingredients</h3>
+
+<ul>
+<li>2 lb chicken breasts (cut into 2 inch cubes)</li>
+<li>2 cups plain Greek yogurt</li>
+<li>3 tbsp freshly squeezed lemon juice</li>
+<li>2 tbsp garam masala</li>
+<li>1 tbsp minced ginger</li>
+<li>5 garlic cloves (minced)</li>
+<li>1 tsp salt</li>
+<li>3 tbsp vegetable oil</li>
+<li>1 large onion (chopped)</li>
+<li>6 cloves garlic (minced)</li>
+<li>1 tbsp fresh ginger (peeled, minced)</li>
+<li>2 tsp turmeric</li>
+<li>2 tsp garam masala</li>
+<li>2 tsp ground coriander</li>
+<li>2 tsp ground cumin</li>
+<li>1 tsp salt (more to taste)</li>
+<li>2 tsp chili powder</li>
+<li>14 oz fire roasted tomatoes, drained (or regular diced tomatoes)</li>
+<li>½ cups tomato sauce (or passata)</li>
+<li>2 tbsp unsalted butter</li>
+<li>1½ to 1 cup half and half</li>
+<li>5 tbsp cilantro (chopped)</li>
 </ul>
 
 <p>Directions are available at the linked source.</p>
@@ -2013,6 +2145,38 @@ permalink: /ernst-recipes/
 <li>2 teaspoons instant yeast</li>
 <li>1½ teaspoons salt</li>
 <li>2 tablespoons unsalted butter (melted)</li>
+</ul>
+
+<p>Directions are available at the linked source.</p>
+
+</details>
+
+<hr />
+
+<details class="recipe-item">
+<summary><h2>Coconut Oatmeal</h2></summary>
+
+<p>Link to recipe <a href="https://www.pressurecookrecipes.com/instant-pot-coconut-oatmeal/">here</a>.</p>
+
+<dl>
+<dt>Yield</dt>
+<dd>4</dd>
+<dt>Total time</dt>
+<dd>PT35M</dd>
+</dl>
+
+<h3>Ingredients</h3>
+
+<ul>
+<li>1 cup (160g) regular steel cut oats</li>
+<li>1 can (400ml) coconut milk</li>
+<li>1 tablespoon (15ml) coconut oil</li>
+<li>1 ¼ cup (313ml) cold water</li>
+<li>1 teaspoon (5ml) vanilla extract</li>
+<li>A pinch salt</li>
+<li>1 banana (, thinly sliced)</li>
+<li>Optional: Crunchy granola</li>
+<li>Honey, Maple syrup, or Brown sugar</li>
 </ul>
 
 <p>Directions are available at the linked source.</p>
@@ -2618,6 +2782,48 @@ permalink: /ernst-recipes/
 <hr />
 
 <details class="recipe-item">
+<summary><h2>Cuban Black Beans and Rice</h2></summary>
+
+<p>Link to recipe <a href="https://iheartvegetables.com/instant-pot-cuban-black-beans-and-rice/">here</a>.</p>
+
+<dl>
+<dt>Yield</dt>
+<dd>6, 6 cups</dd>
+<dt>Prep time</dt>
+<dd>PT15M</dd>
+<dt>Cook time</dt>
+<dd>PT45M</dd>
+<dt>Total time</dt>
+<dd>PT1H</dd>
+</dl>
+
+<h3>Ingredients</h3>
+
+<ul>
+<li>1 tablespoon olive oil</li>
+<li>1 medium red or yellow bell pepper, diced</li>
+<li>4 cloves garlic, minced</li>
+<li>1 red onion, diced (reserve 2 tablespoons for garnish)</li>
+<li>2 teaspoons cumin</li>
+<li>1 1/2 teaspoons dried oregano</li>
+<li>1 tablespoon red wine vinegar</li>
+<li>3 cups vegetable broth</li>
+<li>1/2 cup dry white cooking wine (or substitute additional broth)</li>
+<li>1 cup dried black beans, rinsed</li>
+<li>3/4 cup long grain brown rice</li>
+<li>2 teaspoons lime juice</li>
+<li>1 avocado, cubed</li>
+<li>1 Roma tomato, diced</li>
+<li>Fresh cilantro or parsley for garnish</li>
+</ul>
+
+<p>Directions are available at the linked source.</p>
+
+</details>
+
+<hr />
+
+<details class="recipe-item">
 <summary><h2>Cucumber Salad</h2></summary>
 
 <p>Link to recipe <a href="https://www.loveandlemons.com/cucumber-salad/#wprm-recipe-container-70912">here</a>.</p>
@@ -2674,6 +2880,41 @@ permalink: /ernst-recipes/
 <li>¼ teaspoon garlic powder</li>
 <li>¼ teaspoon onion powder</li>
 <li>¼ cup extra-virgin olive oil</li>
+</ul>
+
+<p>Directions are available at the linked source.</p>
+
+</details>
+
+<hr />
+
+<details class="recipe-item">
+<summary><h2>Dinner Rolls</h2></summary>
+
+<p>Link to recipe <a href="https://www.kyleecooks.com/30-minute-dinner-rolls/">here</a>.</p>
+
+<dl>
+<dt>Yield</dt>
+<dd>1, 1 dozen rolls</dd>
+<dt>Prep time</dt>
+<dd>PT10M</dd>
+<dt>Cook time</dt>
+<dd>PT10M</dd>
+<dt>Total time</dt>
+<dd>PT30M</dd>
+</dl>
+
+<h3>Ingredients</h3>
+
+<ul>
+<li>1 1/8 cup warm water (not boiling hot - warm - around 114°F)</li>
+<li>1/3 cup olive oil (see notes)</li>
+<li>2 tablespoons active dry yeast</li>
+<li>1/4 cup white sugar</li>
+<li>2 cups bread flour (all-purpose will also work)</li>
+<li>1 teaspoon salt</li>
+<li>1 egg</li>
+<li>1 1/2 cups bread flour (all-purpose will also work)</li>
 </ul>
 
 <p>Directions are available at the linked source.</p>
@@ -3571,6 +3812,51 @@ permalink: /ernst-recipes/
 <hr />
 
 <details class="recipe-item">
+<summary><h2>Ginger Cashew Beef</h2></summary>
+
+<p>Link to recipe <a href="https://www.halfbakedharvest.com/ginger-cashew-beef/">here</a>.</p>
+
+<dl>
+<dt>Yield</dt>
+<dd>6</dd>
+<dt>Prep time</dt>
+<dd>PT10M</dd>
+<dt>Cook time</dt>
+<dd>PT10M</dd>
+<dt>Total time</dt>
+<dd>PT20M</dd>
+</dl>
+
+<h3>Ingredients</h3>
+
+<ul>
+<li>3 tablespoons sesame oil ((or olive oil))</li>
+<li>2 pounds flank or skirt steak, thinly sliced</li>
+<li>1 tablespoon arrowroot powder or cornstarch</li>
+<li>1 1/2 cups broccoli</li>
+<li>2 shallots, sliced</li>
+<li>3 tablespoons salted butter</li>
+<li>4 cloves garlic, chopped</li>
+<li>1 tablespoon chopped fresh or pickled ginger</li>
+<li>1 cup cashews</li>
+<li>1/3 cup tamari or soy sauce</li>
+<li>1/3 cup sweet Thai red chile sauce</li>
+<li>2 tablespoons pickled ginger juice or rice vinegar</li>
+<li>1 mango, chopped</li>
+<li>1 jalapeño, seeded, if desired, and chopped</li>
+<li>1/2 cup fresh Thai basil or cilantro. chopped</li>
+<li>2 green onions, chopped</li>
+<li>2 tablespoons lime juice</li>
+<li>coconut rice, for serving ((see notes))</li>
+</ul>
+
+<p>Directions are available at the linked source.</p>
+
+</details>
+
+<hr />
+
+<details class="recipe-item">
 <summary><h2>Ginger Lime Pork with Coconut Rice</h2></summary>
 
 <p>Link to recipe <a href="https://www.gimmesomeoven.com/ginger-lime-pork-with-coconut-rice/">here</a>.</p>
@@ -3643,6 +3929,54 @@ permalink: /ernst-recipes/
 <li>1 (8 oz) pkg. cream cheese, (nearly at room temperature)</li>
 <li>2 1/2 cups (325g) powdered sugar</li>
 <li>1/2 tsp vanilla extract</li>
+</ul>
+
+<p>Directions are available at the linked source.</p>
+
+</details>
+
+<hr />
+
+<details class="recipe-item">
+<summary><h2>Gluten Free Lasagna with Barilla No-Boil Noodles</h2></summary>
+
+<p>Link to recipe <a href="https://cupcakesandkalechips.com/worlds-best-gluten-free-lasagna/">here</a>.</p>
+
+<dl>
+<dt>Yield</dt>
+<dd>12, 12 slices</dd>
+<dt>Prep time</dt>
+<dd>PT40M</dd>
+<dt>Cook time</dt>
+<dd>PT120M</dd>
+<dt>Total time</dt>
+<dd>PT160M</dd>
+</dl>
+
+<h3>Ingredients</h3>
+
+<ul>
+<li>1 pound sweet Italian turkey sausage</li>
+<li>3/4 pound lean ground beef</li>
+<li>1/2 cup chopped onion</li>
+<li>2 cloves minced or crushed garlic</li>
+<li>28 ounce can crushed tomatoes ((Tuttorosso is recommended))</li>
+<li>12 ounce can tomato paste ((or two 6 ounce cans))</li>
+<li>15 ounce can tomato sauce</li>
+<li>1/2 cup water</li>
+<li>2 Tablespoons sugar ((optional))</li>
+<li>2 Tablespoons chopped fresh parsley</li>
+<li>2 teaspoons salt</li>
+<li>1 1/2 teaspoons dried basil leaves</li>
+<li>1 teaspoon Italian seasoning</li>
+<li>1/4 teaspoon ground black pepper</li>
+<li>15 ounces ricotta cheese</li>
+<li>1 large egg</li>
+<li>2 Tablepsoons chopped fresh parsley</li>
+<li>1/2 teaspoon salt</li>
+<li>12 Barilla Gluten Free Oven-Ready Lasagne Noodles</li>
+<li>1 1/2 cups shredded mozzarella cheese ((about 12 oz.))</li>
+<li>3/4 cups grated Parmesan cheese</li>
 </ul>
 
 <p>Directions are available at the linked source.</p>
@@ -4004,6 +4338,80 @@ permalink: /ernst-recipes/
 <hr />
 
 <details class="recipe-item">
+<summary><h2>Homemade Alfredo Sauce</h2></summary>
+
+<p>Link to recipe <a href="https://thesaltymarshmallow.com/best-homemade-alfredo-sauce/">here</a>.</p>
+
+<dl>
+<dt>Yield</dt>
+<dd>2, 2 Cups</dd>
+<dt>Prep time</dt>
+<dd>PT5M</dd>
+<dt>Cook time</dt>
+<dd>PT5M</dd>
+<dt>Total time</dt>
+<dd>PT10M</dd>
+</dl>
+
+<h3>Ingredients</h3>
+
+<ul>
+<li>1/2 Cup Butter</li>
+<li>1 1/2 Cups Heavy Whipping Cream</li>
+<li>2 Teaspoons Garlic (Minced)</li>
+<li>1/2 Teaspoon Italian Seasoning</li>
+<li>1/2 Teaspoon Salt</li>
+<li>1/4 Teaspoon Pepper</li>
+<li>2 Cups Freshly Grated Parmesan Cheese</li>
+</ul>
+
+<p>Directions are available at the linked source.</p>
+
+</details>
+
+<hr />
+
+<details class="recipe-item">
+<summary><h2>Homemade Baked Mac and Cheese</h2></summary>
+
+<p>Link to recipe <a href="https://www.momontimeout.com/best-homemade-baked-mac-and-cheese-recipe/">here</a>.</p>
+
+<dl>
+<dt>Yield</dt>
+<dd>12</dd>
+<dt>Prep time</dt>
+<dd>PT20M</dd>
+<dt>Cook time</dt>
+<dd>PT30M</dd>
+<dt>Total time</dt>
+<dd>PT60M</dd>
+</dl>
+
+<h3>Ingredients</h3>
+
+<ul>
+<li>16 oz elbow macaroni, cooked ((or other tubular pasta))</li>
+<li>1 tbsp extra virgin olive oil</li>
+<li>6 tbsp unsalted butter</li>
+<li>1/3 cup all purpose flour</li>
+<li>3 cups whole milk</li>
+<li>1 cup heavy whipping cream</li>
+<li>4 cups sharp cheddar cheese (shredded)</li>
+<li>2 cups Gruyere cheese (shredded)</li>
+<li>salt and pepper to taste</li>
+<li>1 1/2 cups panko crumbs</li>
+<li>4 tbsp butter (melted)</li>
+<li>1/2 cup Parmesan cheese (shredded)</li>
+<li>1/4 tsp smoked paprika ((or regular paprika))</li>
+</ul>
+
+<p>Directions are available at the linked source.</p>
+
+</details>
+
+<hr />
+
+<details class="recipe-item">
 <summary><h2>Homemade Cinnamon Rolls (Cinnabon Copycat Recipe)</h2></summary>
 
 <p>Link to recipe <a href="https://www.tastesoflizzyt.com/homemade-cinnamon-rolls/">here</a>.</p>
@@ -4087,6 +4495,51 @@ permalink: /ernst-recipes/
 <hr />
 
 <details class="recipe-item">
+<summary><h2>Honey Garlic Chicken</h2></summary>
+
+<p>Link to recipe <a href="https://cafedelites.com/slow-cooker-honey-garlic-chicken/">here</a>.</p>
+
+<dl>
+<dt>Yield</dt>
+<dd>4, 4 - 6 serves</dd>
+<dt>Prep time</dt>
+<dd>PT10M</dd>
+<dt>Cook time</dt>
+<dd>PT120M</dd>
+<dt>Total time</dt>
+<dd>PT135M</dd>
+</dl>
+
+<h3>Ingredients</h3>
+
+<ul>
+<li>6 large chicken thighs (skinless and bone-in)</li>
+<li>1 tablespoon olive oil (divided)</li>
+<li>1 teaspoon paprika (mild or smoked)</li>
+<li>1/2 teaspoon brown sugar</li>
+<li>1/2 teaspoon garlic powder</li>
+<li>1/2 teaspoon onion powder</li>
+<li>1 pinch cayenne pepper (optional)</li>
+<li>1 teaspoon coarse salt</li>
+<li>1/4 teaspoon cracked pepper</li>
+<li>1/2 cup honey</li>
+<li>1/2 cup unsalted butter</li>
+<li>6 cloves garlic (finely chopped or minced)</li>
+<li>2 tablespoons low sodium soy sauce</li>
+<li>2 tablespoons rice wine vinegar (or cider vinegar)</li>
+<li>1 pinch salt</li>
+<li>1/2 teaspoon cracked pepper</li>
+<li>1/4 cup water (or chicken broth)</li>
+<li>2 teaspoons cornstarch</li>
+</ul>
+
+<p>Directions are available at the linked source.</p>
+
+</details>
+
+<hr />
+
+<details class="recipe-item">
 <summary><h2>Honey Garlic Pork Tenderloin</h2></summary>
 
 <p>Link to recipe <a href="https://www.saltandlavender.com/honey-garlic-pork-tenderloin/">here</a>.</p>
@@ -4116,6 +4569,40 @@ permalink: /ernst-recipes/
 <li>1 tablespoon olive oil</li>
 <li>1 tablespoon butter</li>
 <li>1/3 cup chopped scallions (or to taste)</li>
+</ul>
+
+<p>Directions are available at the linked source.</p>
+
+</details>
+
+<hr />
+
+<details class="recipe-item">
+<summary><h2>Honey Glazed Ham</h2></summary>
+
+<p>Link to recipe <a href="https://wholefully.com/slow-cooker-honey-glazed-ham/">here</a>.</p>
+
+<dl>
+<dt>Yield</dt>
+<dd>4, 4 servings</dd>
+<dt>Prep time</dt>
+<dd>PT10M</dd>
+<dt>Cook time</dt>
+<dd>PT240M</dd>
+<dt>Total time</dt>
+<dd>PT250M</dd>
+</dl>
+
+<h3>Ingredients</h3>
+
+<ul>
+<li>1 spiral-sliced ham (fully cooked (between 4-7 pounds))</li>
+<li>½ cup brown sugar</li>
+<li>½ cup honey</li>
+<li>2 tablespoons Dijon or spicy brown mustard</li>
+<li>¼ teaspoon ground cloves</li>
+<li>2 cloves garlic (minced)</li>
+<li>¼ cup water</li>
 </ul>
 
 <p>Directions are available at the linked source.</p>
@@ -4193,17 +4680,6 @@ permalink: /ernst-recipes/
 <hr />
 
 <details class="recipe-item">
-<summary><h2>How To Roast A Sugar Pumpkin &amp; Make Fresh Pumpkin Purée – A Step-by-step Photo Tutorial – Oh She GlowsFacebookInstagramPinterestTwitterYouTubeFacebookInstagramPinterestTwitterYouTube</h2></summary>
-
-<p>Link to recipe <a href="https://ohsheglows.com/2012/09/10/how-to-roast-a-sugar-pumpkin-make-fresh-pumpkin-puree-a-step-by-step-photo-tutorial/">here</a>.</p>
-
-<p><em>No structured Recipe data found.</em></p>
-
-</details>
-
-<hr />
-
-<details class="recipe-item">
 <summary><h2>How to Velvet Beef for Stir-fry</h2></summary>
 
 <p>Link to recipe <a href="https://thewoksoflife.com/prepare-beef-for-stir-fry/">here</a>.</p>
@@ -4230,193 +4706,6 @@ permalink: /ernst-recipes/
 </ul>
 
 <p>Directions are available at the linked source.</p>
-
-</details>
-
-<hr />
-
-<details class="recipe-item">
-<summary><h2>http://glenellenvillagemarket.org/kale-and-beef-rice-bowls/</h2></summary>
-
-<p>Link to recipe <a href="http://glenellenvillagemarket.org/kale-and-beef-rice-bowls/">here</a>.</p>
-
-<p><em>Could not fetch recipe data: HTTP Error 404: Not Found</em></p>
-
-</details>
-
-<hr />
-
-<details class="recipe-item">
-<summary><h2>https://damndelicious.net/2014/01/10/southwestern-chopped-salad-cilantro-lime-dressing/</h2></summary>
-
-<p>Link to recipe <a href="https://damndelicious.net/2014/01/10/southwestern-chopped-salad-cilantro-lime-dressing/">here</a>.</p>
-
-<p><em>Could not fetch recipe data: HTTP Error 403: Forbidden</em></p>
-
-</details>
-
-<hr />
-
-<details class="recipe-item">
-<summary><h2>https://domeniquetrupia.com/2021/07/03/creamy-sun-dried-tomato-pasta/</h2></summary>
-
-<p>Link to recipe <a href="https://domeniquetrupia.com/2021/07/03/creamy-sun-dried-tomato-pasta/">here</a>.</p>
-
-<p><em>Could not fetch recipe data: HTTP Error 404: Not Found</em></p>
-
-</details>
-
-<hr />
-
-<details class="recipe-item">
-<summary><h2>https://domeniquetrupia.com/2023/09/02/3-layer-chuck-roast-tacos/</h2></summary>
-
-<p>Link to recipe <a href="https://domeniquetrupia.com/2023/09/02/3-layer-chuck-roast-tacos/">here</a>.</p>
-
-<p><em>Could not fetch recipe data: HTTP Error 404: Not Found</em></p>
-
-</details>
-
-<hr />
-
-<details class="recipe-item">
-<summary><h2>https://domeniquetrupia.com/2024/04/10/creamy-orzo-beef/</h2></summary>
-
-<p>Link to recipe <a href="https://domeniquetrupia.com/2024/04/10/creamy-orzo-beef/">here</a>.</p>
-
-<p><em>Could not fetch recipe data: HTTP Error 404: Not Found</em></p>
-
-</details>
-
-<hr />
-
-<details class="recipe-item">
-<summary><h2>https://fullofplants.com/instant-pot-sesame-basil-noodles-with-roasted-veggies/</h2></summary>
-
-<p>Link to recipe <a href="https://fullofplants.com/instant-pot-sesame-basil-noodles-with-roasted-veggies/">here</a>.</p>
-
-<p><em>Could not fetch recipe data: HTTP Error 410: Gone</em></p>
-
-</details>
-
-<hr />
-
-<details class="recipe-item">
-<summary><h2>https://juliasalbum.com/basil-pasta/</h2></summary>
-
-<p>Link to recipe <a href="https://juliasalbum.com/basil-pasta/">here</a>.</p>
-
-<p><em>No structured Recipe data found.</em></p>
-
-</details>
-
-<hr />
-
-<details class="recipe-item">
-<summary><h2>https://lakegenevacountrymeats.com/recipes/andouille-sausage-skillet</h2></summary>
-
-<p>Link to recipe <a href="https://lakegenevacountrymeats.com/recipes/andouille-sausage-skillet">here</a>.</p>
-
-<p><em>Could not fetch recipe data: HTTP Error 404: Not Found</em></p>
-
-</details>
-
-<hr />
-
-<details class="recipe-item">
-<summary><h2>https://sweetphi.com/easy-cucumber-salad-recipe/#wprm-recipe-container-18208</h2></summary>
-
-<p>Link to recipe <a href="https://sweetphi.com/easy-cucumber-salad-recipe/#wprm-recipe-container-18208">here</a>.</p>
-
-<p><em>Could not fetch recipe data: HTTP Error 403: Forbidden</em></p>
-
-</details>
-
-<hr />
-
-<details class="recipe-item">
-<summary><h2>https://tiffycooks.com/honey-garlic-chicken-20-minutes/</h2></summary>
-
-<p>Link to recipe <a href="https://tiffycooks.com/honey-garlic-chicken-20-minutes/">here</a>.</p>
-
-<p><em>Could not fetch recipe data: HTTP Error 403: Forbidden</em></p>
-
-</details>
-
-<hr />
-
-<details class="recipe-item">
-<summary><h2>https://tiffycooks.com/spicy-honey-garlic-chicken-viral-recipe/</h2></summary>
-
-<p>Link to recipe <a href="https://tiffycooks.com/spicy-honey-garlic-chicken-viral-recipe/">here</a>.</p>
-
-<p><em>Could not fetch recipe data: HTTP Error 403: Forbidden</em></p>
-
-</details>
-
-<hr />
-
-<details class="recipe-item">
-<summary><h2>https://whisperofyum.com/post/sesame-garlic-ramen-noodles/</h2></summary>
-
-<p>Link to recipe <a href="https://whisperofyum.com/post/sesame-garlic-ramen-noodles/">here</a>.</p>
-
-<p><em>Could not fetch recipe data: HTTP Error 403: Forbidden</em></p>
-
-</details>
-
-<hr />
-
-<details class="recipe-item">
-<summary><h2>https://www.sonshinekitchen.com/quick-and-easy-20-minute-garlic-rice-noodles-recipe/</h2></summary>
-
-<p>Link to recipe <a href="https://www.sonshinekitchen.com/quick-and-easy-20-minute-garlic-rice-noodles-recipe/">here</a>.</p>
-
-<p><em>Could not fetch recipe data: HTTP Error 403: Forbidden</em></p>
-
-</details>
-
-<hr />
-
-<details class="recipe-item">
-<summary><h2>https://www.thekitchn.com/instant-pot-mississippi-pot-roast-recipe-23136229</h2></summary>
-
-<p>Link to recipe <a href="https://www.thekitchn.com/instant-pot-mississippi-pot-roast-recipe-23136229">here</a>.</p>
-
-<p><em>Could not fetch recipe data: HTTP Error 403: Forbidden</em></p>
-
-</details>
-
-<hr />
-
-<details class="recipe-item">
-<summary><h2>https://www.thekitchn.com/pecan-pie-recipe-23689970</h2></summary>
-
-<p>Link to recipe <a href="https://www.thekitchn.com/pecan-pie-recipe-23689970">here</a>.</p>
-
-<p><em>Could not fetch recipe data: HTTP Error 403: Forbidden</em></p>
-
-</details>
-
-<hr />
-
-<details class="recipe-item">
-<summary><h2>https://www.thekitchn.com/potato-hash-recipe-23199140</h2></summary>
-
-<p>Link to recipe <a href="https://www.thekitchn.com/potato-hash-recipe-23199140">here</a>.</p>
-
-<p><em>Could not fetch recipe data: HTTP Error 403: Forbidden</em></p>
-
-</details>
-
-<hr />
-
-<details class="recipe-item">
-<summary><h2>https://www.thekitchn.com/steak-rice-noodle-salad-22944350</h2></summary>
-
-<p>Link to recipe <a href="https://www.thekitchn.com/steak-rice-noodle-salad-22944350">here</a>.</p>
-
-<p><em>Could not fetch recipe data: HTTP Error 403: Forbidden</em></p>
 
 </details>
 
@@ -4502,562 +4791,7 @@ permalink: /ernst-recipes/
 <hr />
 
 <details class="recipe-item">
-<summary><h2>Instant Pot Baby Potatoes Recipe</h2></summary>
-
-<p>Link to recipe <a href="https://www.chewoutloud.com/instant-pot-baby-potatoes-recipe/">here</a>.</p>
-
-<dl>
-<dt>Yield</dt>
-<dd>4</dd>
-<dt>Prep time</dt>
-<dd>PT5M</dd>
-<dt>Cook time</dt>
-<dd>PT5M</dd>
-</dl>
-
-<h3>Ingredients</h3>
-
-<ul>
-<li>2 tablespoons butter</li>
-<li>1 tablespoon olive oil</li>
-<li>2 lbs baby potatoes (about 1.5 inches each, patted dry)</li>
-<li>2 teaspoons Italian seasoning</li>
-<li>1 teaspoon onion powder</li>
-<li>1 teaspoon garlic powder</li>
-<li>1 teaspoon paprika</li>
-<li>1 1/4 teaspoons kosher salt</li>
-<li>1/4 teaspoon freshly ground black pepper</li>
-<li>1/2 cup regular chicken (or veg stock)</li>
-</ul>
-
-<p>Directions are available at the linked source.</p>
-
-</details>
-
-<hr />
-
-<details class="recipe-item">
-<summary><h2>Instant Pot Baked Potato</h2></summary>
-
-<p>Link to recipe <a href="https://damndelicious.net/2019/07/08/instant-pot-baked-potato/">here</a>.</p>
-
-<dl>
-<dt>Yield</dt>
-<dd>5, 5 servings</dd>
-<dt>Prep time</dt>
-<dd>PT45M</dd>
-<dt>Cook time</dt>
-<dd>PT15M</dd>
-<dt>Total time</dt>
-<dd>PT60M</dd>
-</dl>
-
-<h3>Ingredients</h3>
-
-<ul>
-<li>1 cup water</li>
-<li>5 medium russet potatoes*</li>
-<li>5 tablespoons unsalted butter</li>
-<li>Kosher salt and freshly ground black pepper (to taste)</li>
-</ul>
-
-<p>Directions are available at the linked source.</p>
-
-</details>
-
-<hr />
-
-<details class="recipe-item">
-<summary><h2>Instant Pot Barbacoa Beef</h2></summary>
-
-<p>Link to recipe <a href="https://www.gimmesomeoven.com/instant-pot-barbacoa-beef/">here</a>.</p>
-
-<dl>
-<dt>Yield</dt>
-<dd>8, 8 -10 servings</dd>
-<dt>Prep time</dt>
-<dd>PT20M</dd>
-<dt>Cook time</dt>
-<dd>PT85M</dd>
-<dt>Total time</dt>
-<dd>PT105M</dd>
-</dl>
-
-<h3>Ingredients</h3>
-
-<ul>
-<li>2/3 cup beer or water</li>
-<li>4 cloves garlic</li>
-<li>2 chipotles in adobo sauce (or more (to taste))</li>
-<li>1 small white onion (peeled and roughly chopped)</li>
-<li>1 (4-ounce) can chopped green chiles</li>
-<li>1/4 cup fresh lime juice</li>
-<li>2 tablespoons apple cider vinegar</li>
-<li>1 tablespoon ground cumin</li>
-<li>1 tablespoon dried Mexican oregano (or regular oregano)</li>
-<li>2 teaspoons salt</li>
-<li>1 teaspoon black pepper</li>
-<li>1/4 tsp ground cloves</li>
-<li>1 tablespoon olive oil</li>
-<li>3 pounds beef chuck roast* (fat trimmed) (cut into 2-inch chunks)</li>
-<li>3 bay leaves</li>
-</ul>
-
-<p>Directions are available at the linked source.</p>
-
-</details>
-
-<hr />
-
-<details class="recipe-item">
-<summary><h2>Instant Pot Barbecue Beef</h2></summary>
-
-<p>Link to recipe <a href="https://www.simplyhappyfoodie.com/instant-pot-barbecue-beef/">here</a>.</p>
-
-<dl>
-<dt>Yield</dt>
-<dd>6, 6 - 10</dd>
-<dt>Prep time</dt>
-<dd>PT20M</dd>
-<dt>Cook time</dt>
-<dd>PT70M</dd>
-<dt>Total time</dt>
-<dd>PT105M</dd>
-</dl>
-
-<h3>Ingredients</h3>
-
-<ul>
-<li>3 - 4 lbs Bottom Round or Chuck Roast* ((cut in thirds))</li>
-<li>Salt</li>
-<li>Pepper</li>
-<li>2 Tablespoons Vegetable Oil</li>
-<li>1 Onion, (cut in half, sliced into ¼&quot; thick half-rings)</li>
-<li>1½ cups Water or Beef Broth</li>
-<li>1 - 2 cups Barbecue Sauce**</li>
-<li>1½ cups Ketchup</li>
-<li>¼ cup Apple Cider Vinegar</li>
-<li>½ cup Brown Sugar</li>
-<li>2 Tablespoons Worcestershire Sauce</li>
-<li>1 Tablespoon Paprika ((or smoked paprika))</li>
-<li>1 teaspoon Liquid Smoke</li>
-<li>1 teaspoon Chili Powder</li>
-<li>½ teaspoon Salt</li>
-<li>1 teaspoon Garlic Powder</li>
-<li>1/8 teaspoon Cayenne Powder ((more for spicy))</li>
-</ul>
-
-<p>Directions are available at the linked source.</p>
-
-</details>
-
-<hr />
-
-<details class="recipe-item">
-<summary><h2>Instant Pot BBQ Chicken</h2></summary>
-
-<p>Link to recipe <a href="https://www.pressurecookrecipes.com/instant-pot-bbq-chicken/">here</a>.</p>
-
-<dl>
-<dt>Yield</dt>
-<dd>4</dd>
-<dt>Prep time</dt>
-<dd>PT5M</dd>
-<dt>Cook time</dt>
-<dd>PT35M</dd>
-<dt>Total time</dt>
-<dd>PT40M</dd>
-</dl>
-
-<h3>Ingredients</h3>
-
-<ul>
-<li>6 - 8 (1230g or 2.5 - 3lbs) chicken thighs or drumsticks</li>
-<li>Your favorite BBQ sauce</li>
-<li>Salt and black pepper ( to taste)</li>
-<li>1 cup (250ml) cold water</li>
-<li>3 drops liquid smoke</li>
-<li>½ teaspoon garlic powder</li>
-<li>½ teaspoon onion powder</li>
-<li>½ tablespoon white vinegar</li>
-</ul>
-
-<p>Directions are available at the linked source.</p>
-
-</details>
-
-<hr />
-
-<details class="recipe-item">
-<summary><h2>Instant Pot Beef Stew</h2></summary>
-
-<p>Link to recipe <a href="https://kristineskitchenblog.com/instant-pot-beef-stew/">here</a>.</p>
-
-<dl>
-<dt>Yield</dt>
-<dd>6, 6 servings</dd>
-<dt>Prep time</dt>
-<dd>PT25M</dd>
-<dt>Cook time</dt>
-<dd>PT35M</dd>
-<dt>Total time</dt>
-<dd>PT85M</dd>
-</dl>
-
-<h3>Ingredients</h3>
-
-<ul>
-<li>2 pounds boneless beef chuck roast (or beef stew meat)</li>
-<li>2 tablespoons olive oil (divided)</li>
-<li>1 teaspoon salt</li>
-<li>½ teaspoon black pepper</li>
-<li>1 yellow onion (chopped)</li>
-<li>3 cloves garlic (minced)</li>
-<li>3 cups unsalted beef stock (or low sodium beef broth)</li>
-<li>2 tablespoons tomato paste</li>
-<li>1 tablespoon Worcestershire sauce</li>
-<li>1 teaspoon dried Italian seasoning</li>
-<li>1 teaspoon dried thyme</li>
-<li>1 bay leaf</li>
-<li>4 carrots (cut into 1-inch pieces on the diagonal)</li>
-<li>1 ½ pounds Yukon gold potatoes* (about 4 medium, cut into 1 1/2-inch pieces)</li>
-<li>2 tablespoons cornstarch</li>
-<li>2 tablespoons water</li>
-</ul>
-
-<p>Directions are available at the linked source.</p>
-
-</details>
-
-<hr />
-
-<details class="recipe-item">
-<summary><h2>Instant Pot Beef Stew</h2></summary>
-
-<p>Link to recipe <a href="https://www.wellplated.com/instant-pot-beef-stew/">here</a>.</p>
-
-<dl>
-<dt>Yield</dt>
-<dd>7, 7 cups</dd>
-<dt>Prep time</dt>
-<dd>PT10M</dd>
-<dt>Cook time</dt>
-<dd>PT80M</dd>
-<dt>Total time</dt>
-<dd>PT90M</dd>
-</dl>
-
-<h3>Ingredients</h3>
-
-<ul>
-<li>2 pounds boneless chuck roast</li>
-<li>3 tablespoons extra-virgin olive oil (divided)</li>
-<li>2 teaspoons kosher salt (divided)</li>
-<li>1/2 teaspoon ground black pepper (divided)</li>
-<li>1 large yellow onion</li>
-<li>2 cloves garlic</li>
-<li>1 pound carrots (about 6 medium)</li>
-<li>1 large russet potato* ((see note))</li>
-<li>1 can low-sodium beef broth ((14.5-ounces) )</li>
-<li>1 tablespoon Worcestershire sauce**</li>
-<li>1 bay leaf</li>
-<li>1 teaspoon dried thyme</li>
-<li>1 can no salt added tomato sauce ((8 ounces) )</li>
-<li>2 tablespoons cornstarch** ((see note))</li>
-<li>2 tablespoons water</li>
-<li>1 1/2 cups fresh or frozen peas (no need to thaw)</li>
-<li>Fresh parsley (or fresh rosemary, optional for serving)</li>
-</ul>
-
-<p>Directions are available at the linked source.</p>
-
-</details>
-
-<hr />
-
-<details class="recipe-item">
-<summary><h2>Instant Pot Black Beans</h2></summary>
-
-<p>Link to recipe <a href="https://www.pressurecookrecipes.com/instant-pot-black-beans/">here</a>.</p>
-
-<dl>
-<dt>Yield</dt>
-<dd>4, 4 - 6</dd>
-<dt>Total time</dt>
-<dd>PT100M</dd>
-</dl>
-
-<h3>Ingredients</h3>
-
-<ul>
-<li>1 pound (454g) dried black beans (, rinsed &amp; unsoaked)</li>
-<li>1 (240g) onion (, chopped)</li>
-<li>8 (27g) garlic cloves (, chopped)</li>
-<li>6 cups (1.5L) unsalted chicken stock ((or 4 cups unsalted chicken stock + 2 cups cold water))</li>
-<li>1 teaspoon (2.7g) ground cumin</li>
-<li>1 teaspoon (0.6g) oregano</li>
-<li>3 (0.4g) bay leaves</li>
-<li>1 tablespoon (15ml) olive oil</li>
-<li>Cilantro (, chopped)</li>
-<li>½ teaspoon coarse kosher salt ((Substitute: fine salt))</li>
-</ul>
-
-<p>Directions are available at the linked source.</p>
-
-</details>
-
-<hr />
-
-<details class="recipe-item">
-<summary><h2>Instant Pot Chana Masala (Punjabi Chole)</h2></summary>
-
-<p>Link to recipe <a href="https://ministryofcurry.com/instant-pot-chana-masala-recipe/">here</a>.</p>
-
-<dl>
-<dt>Yield</dt>
-<dd>4</dd>
-<dt>Prep time</dt>
-<dd>PT10M</dd>
-<dt>Cook time</dt>
-<dd>PT60M</dd>
-<dt>Total time</dt>
-<dd>PT310M</dd>
-</dl>
-
-<h3>Ingredients</h3>
-
-<ul>
-<li>1 cup dried chickpeas (**)</li>
-<li>3½ cups water (divided )</li>
-<li>2 tablespoons ghee (or oil)</li>
-<li>1 teaspoon cumin seeds</li>
-<li>1 yellow onion (finely diced)</li>
-<li>1 teaspoon ginger (grated)</li>
-<li>1 tablespoon garlic (minced)</li>
-<li>1 tablespoon ground coriander</li>
-<li>2 teaspoons kosher salt</li>
-<li>1 to 2 teaspoons kashmiri red chili powder</li>
-<li>¼ teaspoon ground turmeric</li>
-<li>2 plum tomatoes (finely diced or 1 cup canned tomatoes with juice )</li>
-<li>¼ teaspoon garam masala</li>
-<li>½ cup cilantro (chopped)</li>
-</ul>
-
-<p>Directions are available at the linked source.</p>
-
-</details>
-
-<hr />
-
-<details class="recipe-item">
-<summary><h2>Instant Pot Charro (Refried Beans)</h2></summary>
-
-<p>Link to recipe <a href="https://www.allrecipes.com/recipe/256347/instant-pot-charro-refried-beans/">here</a>.</p>
-
-<dl>
-<dt>Yield</dt>
-<dd>8</dd>
-<dt>Prep time</dt>
-<dd>PT20M</dd>
-<dt>Cook time</dt>
-<dd>PT55M</dd>
-<dt>Total time</dt>
-<dd>PT85M</dd>
-</dl>
-
-<h3>Ingredients</h3>
-
-<ul>
-<li>4 cups water</li>
-<li>2 cups dry pinto beans, rinsed</li>
-<li>1 large onion, chopped</li>
-<li>0.5 cup salsa</li>
-<li>0.5 cup roughly chopped cilantro, or to taste</li>
-<li>1 jalapeno pepper, minced</li>
-<li>4 cloves garlic, minced</li>
-<li>2 teaspoons tomato-flavored bouillon</li>
-<li>2 teaspoons vegetable bouillon</li>
-<li>0.5 teaspoon chili powder</li>
-<li>0.5 teaspoon ground paprika</li>
-<li>0.5 teaspoon ground cumin</li>
-<li>0.5 teaspoon ground black pepper</li>
-</ul>
-
-<p>Directions are available at the linked source.</p>
-
-</details>
-
-<hr />
-
-<details class="recipe-item">
-<summary><h2>Instant Pot Chicken Tikka Masala</h2></summary>
-
-<p>Link to recipe <a href="https://www.wellplated.com/instant-pot-chicken-tikka-masala/">here</a>.</p>
-
-<dl>
-<dt>Yield</dt>
-<dd>6, 6 servings (5 cups chicken and sauce)</dd>
-<dt>Prep time</dt>
-<dd>PT10M</dd>
-<dt>Cook time</dt>
-<dd>PT50M</dd>
-<dt>Total time</dt>
-<dd>PT60M</dd>
-</dl>
-
-<h3>Ingredients</h3>
-
-<ul>
-<li>2 pounds boneless skinless chicken breasts (cut into bite-size pieces)</li>
-<li>1 1/2 teaspoons kosher salt (divided)</li>
-<li>1 tablespoon unsalted butter (or coconut oil, ghee, or extra-virgin olive oil...I do think the butter is worth it here!)</li>
-<li>1 small yellow onion (finely chopped)</li>
-<li>3 large cloves garlic (minced (about 1 tablespoon))</li>
-<li>1 tablespoon minced fresh ginger</li>
-<li>1 tablespoon garam masala*</li>
-<li>1 teaspoon ground chili powder</li>
-<li>1 teaspoon ground cumin</li>
-<li>1 teaspoon ground turmeric</li>
-<li>1/4 teaspoon ground cayenne (use more if you like the dish spicy)</li>
-<li>1 can no salt added tomato sauce ((8 ounces))</li>
-<li>1 can light coconut milk ((14 ounces))</li>
-<li>3/4 cup frozen peas</li>
-<li>1/2 cup plain nonfat Greek yogurt</li>
-<li>Prepared brown rice (or naan, for serving)</li>
-<li>Fresh cilantro (for serving)</li>
-</ul>
-
-<p>Directions are available at the linked source.</p>
-
-</details>
-
-<hr />
-
-<details class="recipe-item">
-<summary><h2>Instant Pot Chicken Tikka Masala</h2></summary>
-
-<p>Link to recipe <a href="https://www.swankyrecipes.com/instant-pot-chicken-tikka-masala.html">here</a>.</p>
-
-<dl>
-<dt>Yield</dt>
-<dd>6, 6 servings</dd>
-<dt>Prep time</dt>
-<dd>PT10M</dd>
-<dt>Cook time</dt>
-<dd>PT20M</dd>
-<dt>Total time</dt>
-<dd>PT120M</dd>
-</dl>
-
-<h3>Ingredients</h3>
-
-<ul>
-<li>2 lb chicken breasts (cut into 2 inch cubes)</li>
-<li>2 cups plain Greek yogurt</li>
-<li>3 tbsp freshly squeezed lemon juice</li>
-<li>2 tbsp garam masala</li>
-<li>1 tbsp minced ginger</li>
-<li>5 garlic cloves (minced)</li>
-<li>1 tsp salt</li>
-<li>3 tbsp vegetable oil</li>
-<li>1 large onion (chopped)</li>
-<li>6 cloves garlic (minced)</li>
-<li>1 tbsp fresh ginger (peeled, minced)</li>
-<li>2 tsp turmeric</li>
-<li>2 tsp garam masala</li>
-<li>2 tsp ground coriander</li>
-<li>2 tsp ground cumin</li>
-<li>1 tsp salt (more to taste)</li>
-<li>2 tsp chili powder</li>
-<li>14 oz fire roasted tomatoes, drained (or regular diced tomatoes)</li>
-<li>½ cups tomato sauce (or passata)</li>
-<li>2 tbsp unsalted butter</li>
-<li>1½ to 1 cup half and half</li>
-<li>5 tbsp cilantro (chopped)</li>
-</ul>
-
-<p>Directions are available at the linked source.</p>
-
-</details>
-
-<hr />
-
-<details class="recipe-item">
-<summary><h2>Instant Pot Coconut Oatmeal</h2></summary>
-
-<p>Link to recipe <a href="https://www.pressurecookrecipes.com/instant-pot-coconut-oatmeal/">here</a>.</p>
-
-<dl>
-<dt>Yield</dt>
-<dd>4</dd>
-<dt>Total time</dt>
-<dd>PT35M</dd>
-</dl>
-
-<h3>Ingredients</h3>
-
-<ul>
-<li>1 cup (160g) regular steel cut oats</li>
-<li>1 can (400ml) coconut milk</li>
-<li>1 tablespoon (15ml) coconut oil</li>
-<li>1 ¼ cup (313ml) cold water</li>
-<li>1 teaspoon (5ml) vanilla extract</li>
-<li>A pinch salt</li>
-<li>1 banana (, thinly sliced)</li>
-<li>Optional: Crunchy granola</li>
-<li>Honey, Maple syrup, or Brown sugar</li>
-</ul>
-
-<p>Directions are available at the linked source.</p>
-
-</details>
-
-<hr />
-
-<details class="recipe-item">
-<summary><h2>Instant Pot Cuban Black Beans and Rice</h2></summary>
-
-<p>Link to recipe <a href="https://iheartvegetables.com/instant-pot-cuban-black-beans-and-rice/">here</a>.</p>
-
-<dl>
-<dt>Yield</dt>
-<dd>6, 6 cups</dd>
-<dt>Prep time</dt>
-<dd>PT15M</dd>
-<dt>Cook time</dt>
-<dd>PT45M</dd>
-<dt>Total time</dt>
-<dd>PT1H</dd>
-</dl>
-
-<h3>Ingredients</h3>
-
-<ul>
-<li>1 tablespoon olive oil</li>
-<li>1 medium red or yellow bell pepper, diced</li>
-<li>4 cloves garlic, minced</li>
-<li>1 red onion, diced (reserve 2 tablespoons for garnish)</li>
-<li>2 teaspoons cumin</li>
-<li>1 1/2 teaspoons dried oregano</li>
-<li>1 tablespoon red wine vinegar</li>
-<li>3 cups vegetable broth</li>
-<li>1/2 cup dry white cooking wine (or substitute additional broth)</li>
-<li>1 cup dried black beans, rinsed</li>
-<li>3/4 cup long grain brown rice</li>
-<li>2 teaspoons lime juice</li>
-<li>1 avocado, cubed</li>
-<li>1 Roma tomato, diced</li>
-<li>Fresh cilantro or parsley for garnish</li>
-</ul>
-
-<p>Directions are available at the linked source.</p>
-
-</details>
-
-<hr />
-
-<details class="recipe-item">
-<summary><h2>Instant Pot Italian Beef Recipe</h2></summary>
+<summary><h2>Italian Beef Recipe</h2></summary>
 
 <p>Link to recipe <a href="https://www.aspicyperspective.com/instant-pot-italian-beef/#recipe">here</a>.</p>
 
@@ -5086,637 +4820,6 @@ permalink: /ernst-recipes/
 <li>2 tablespoons brown sugar ((or palm sugar))</li>
 <li>1 tablespoon dried Italian seasoning</li>
 <li>1/2 teaspoon crushed red pepper</li>
-</ul>
-
-<p>Directions are available at the linked source.</p>
-
-</details>
-
-<hr />
-
-<details class="recipe-item">
-<summary><h2>Instant Pot Loaded Potato Soup (with a slow cooker version)</h2></summary>
-
-<p>Link to recipe <a href="https://belleofthekitchen.com/instant-pot-loaded-potato-soup/">here</a>.</p>
-
-<dl>
-<dt>Yield</dt>
-<dd>6</dd>
-<dt>Prep time</dt>
-<dd>PT15M</dd>
-<dt>Cook time</dt>
-<dd>PT18M</dd>
-<dt>Total time</dt>
-<dd>PT33M</dd>
-</dl>
-
-<h3>Ingredients</h3>
-
-<ul>
-<li>1 Tablespoon butter</li>
-<li>1 medium onion, (diced)</li>
-<li>3 cloves garlic, (minced)</li>
-<li>3 cups chicken broth</li>
-<li>1 can/box cream of chicken soup ((I prefer Pacific Foods brand))</li>
-<li>7-8 medium sized russet potatoes, (peeled and chopped into 1 inch cubes (about 2.5 pounds of potatoes))</li>
-<li>1 1/2 teaspoons salt ((or more/less to taste))</li>
-<li>black pepper to taste ((I like a lot of pepper))</li>
-<li>1 cup milk</li>
-<li>1 tablespoon flour</li>
-<li>2 cups shredded cheddar cheese ((I use sharp cheddar))</li>
-<li>5-6 slices bacon ((cooked and chopped))</li>
-<li>sliced green onions</li>
-<li>shredded cheddar cheese</li>
-</ul>
-
-<p>Directions are available at the linked source.</p>
-
-</details>
-
-<hr />
-
-<details class="recipe-item">
-<summary><h2>Instant Pot Mexican Pinto Beans</h2></summary>
-
-<p>Link to recipe <a href="https://themodernproper.com/instant-pot-mexican-pinto-beans">here</a>.</p>
-
-<dl>
-<dt>Yield</dt>
-<dd>8</dd>
-<dt>Prep time</dt>
-<dd>PT6M</dd>
-<dt>Cook time</dt>
-<dd>PT1H20M</dd>
-<dt>Total time</dt>
-<dd>PT1H26M</dd>
-</dl>
-
-<h3>Ingredients</h3>
-
-<ul>
-<li>2 tablespoons vegetable oil</li>
-<li>1 small yellow onion, chopped (about 1 cup)</li>
-<li>2½ cups dried pinto beans, rinsed (about 1 pound)</li>
-<li>4 cups chicken or vegetable stock</li>
-<li>1 cup water</li>
-<li>2 tablespoons Taco Seasoning, homemade or store bought</li>
-<li>1½ teaspoons sea salt</li>
-<li>2 tablespoons bacon fat, (optional)</li>
-</ul>
-
-<p>Directions are available at the linked source.</p>
-
-</details>
-
-<hr />
-
-<details class="recipe-item">
-<summary><h2>Instant Pot Mountain Man Soup</h2></summary>
-
-<p>Link to recipe <a href="https://www.365daysofcrockpot.com/instant-pot-mountain-man-soup/">here</a>.</p>
-
-<dl>
-<dt>Yield</dt>
-<dd>6, 6-8 servings</dd>
-<dt>Prep time</dt>
-<dd>PT25M</dd>
-<dt>Total time</dt>
-<dd>PT25M</dd>
-</dl>
-
-<h3>Ingredients</h3>
-
-<ul>
-<li>2 Tbsp olive oil</li>
-<li>1 ½ pounds beef or bison stew meat</li>
-<li>2 tsp garlic salt</li>
-<li>1 tsp black pepper</li>
-<li>1 cup diced onions</li>
-<li>4 cups beef broth</li>
-<li>1 Tbsp Worcestershire sauce</li>
-<li>1 bay leaf</li>
-<li>1 Tbsp dried parsley</li>
-<li>1 (4 oz) can diced green chiles</li>
-<li>1 (28 oz) can crushed tomatoes</li>
-<li>4 ribs of celery, diced</li>
-<li>4 carrots, peeled and cut into chunks</li>
-<li>2 medium potatoes, peeled and cut into cubes</li>
-</ul>
-
-<p>Directions are available at the linked source.</p>
-
-</details>
-
-<hr />
-
-<details class="recipe-item">
-<summary><h2>Instant Pot Pinto Beans</h2></summary>
-
-<p>Link to recipe <a href="https://www.pressurecookrecipes.com/instant-pot-pinto-beans/">here</a>.</p>
-
-<dl>
-<dt>Yield</dt>
-<dd>6, 6 - 8</dd>
-<dt>Total time</dt>
-<dd>PT90M</dd>
-</dl>
-
-<h3>Ingredients</h3>
-
-<ul>
-<li>1 pound (450g) dried pinto beans (, rinsed &amp; drained)</li>
-<li>6 slices (340g) bacon ((vegetarian: can omit))</li>
-<li>1 (255g) onion (, sliced)</li>
-<li>1 (52g) jalapeño (, minced)</li>
-<li>6 cloves (24g) garlic (, minced)</li>
-<li>3 (0.8g) bay leaves</li>
-<li>½ teaspoon (1.4g) ground cumin</li>
-<li>½ teaspoon (0.5g) dried oregano</li>
-<li>4 cups (1L) unsalted chicken stock ((vegetarian: substitute with vegetable stock))</li>
-<li>2 tablespoons (30ml) regular soy sauce</li>
-<li>1 can (796g) crushed fire-roasted tomatoes</li>
-<li>Cilantro</li>
-</ul>
-
-<p>Directions are available at the linked source.</p>
-
-</details>
-
-<hr />
-
-<details class="recipe-item">
-<summary><h2>Instant Pot Pot Roast (with the BEST gravy!)</h2></summary>
-
-<p>Link to recipe <a href="https://www.thereciperebel.com/instant-pot-pot-roast-recipe-pressure-cooker-pot-roast-video/">here</a>.</p>
-
-<dl>
-<dt>Yield</dt>
-<dd>8, 8 servings</dd>
-<dt>Prep time</dt>
-<dd>PT15M</dd>
-<dt>Cook time</dt>
-<dd>PT75M</dd>
-<dt>Total time</dt>
-<dd>PT130M</dd>
-</dl>
-
-<h3>Ingredients</h3>
-
-<ul>
-<li>2 teaspoons seasoning salt ((I use Lawry&#x27;s))</li>
-<li>1 teaspoon garlic powder</li>
-<li>1 teaspoon dried parsley</li>
-<li>½ teaspoon onion powder</li>
-<li>½ teaspoon black pepper</li>
-<li>3 lb beef chuck roast (cut into 1lb chunks)</li>
-<li>2 tablespoons canola oil</li>
-<li>1 medium onion ((finely chopped))</li>
-<li>3 garlic cloves ((finely minced))</li>
-<li>2 cups low sodium beef broth</li>
-<li>3 tablespoons balsamic vinegar</li>
-<li>2 tablespoons tomato paste</li>
-<li>2 tablespoons Worcestershire sauce</li>
-<li>1 ½ lb Creamer potatoes ((or baby potatoes) whole)</li>
-<li>3 large carrots (peeled and cut into thick slices)</li>
-<li>1 tablespoon ketchup ((or honey))</li>
-<li>2 tablespoons corn starch</li>
-<li>2 tablespoons water</li>
-</ul>
-
-<p>Directions are available at the linked source.</p>
-
-</details>
-
-<hr />
-
-<details class="recipe-item">
-<summary><h2>Instant Pot Potato Soup</h2></summary>
-
-<p>Link to recipe <a href="https://www.thereciperebel.com/instant-pot-potato-soup-recipe/">here</a>.</p>
-
-<dl>
-<dt>Yield</dt>
-<dd>4, 4 servings</dd>
-<dt>Prep time</dt>
-<dd>PT20M</dd>
-<dt>Cook time</dt>
-<dd>PT25M</dd>
-<dt>Total time</dt>
-<dd>PT45M</dd>
-</dl>
-
-<h3>Ingredients</h3>
-
-<ul>
-<li>1 tablespoon canola oil</li>
-<li>1 small onion (finely diced)</li>
-<li>2 teaspoons salt (reduce if using salted broth)</li>
-<li>1 teaspoon minced garlic</li>
-<li>1 teaspoon dried parsley</li>
-<li>½ teaspoon dried thyme</li>
-<li>¼ teaspoon black pepper</li>
-<li>3 cups low-sodium chicken broth</li>
-<li>2 lbs red potatoes (about 6 medium)</li>
-<li>2 large carrots (peeled and sliced)</li>
-<li>1 rib celery chopped</li>
-<li>1 cup evaporated milk (or cream)</li>
-<li>2 tablespoons cornstarch</li>
-<li>For garnish cheese, green onions, and bacon</li>
-</ul>
-
-<p>Directions are available at the linked source.</p>
-
-</details>
-
-<hr />
-
-<details class="recipe-item">
-<summary><h2>Instant Pot Ramen Noodles</h2></summary>
-
-<p>Link to recipe <a href="https://confessionsofafitfoodie.com/21-day-fix-instant-pot-ramen-noodles/">here</a>.</p>
-
-<dl>
-<dt>Yield</dt>
-<dd>4, 4 servings</dd>
-<dt>Prep time</dt>
-<dd>PT5M</dd>
-<dt>Cook time</dt>
-<dd>PT30M</dd>
-<dt>Total time</dt>
-<dd>PT35M</dd>
-</dl>
-
-<h3>Ingredients</h3>
-
-<ul>
-<li>2 teaspoons sesame oil</li>
-<li>2 tablespoons grated or finely chopped ginger</li>
-<li>1 1/2 tablespoons minced garlic</li>
-<li>4 cups stock (I used chicken, but vegetable would also work)</li>
-<li>3 1/2 cups water</li>
-<li>1 1/4 lb skinless bone-in chicken thighs ((you can sub boneless))</li>
-<li>1/3 cup coconut aminos</li>
-<li>2 ramen noodle cakes</li>
-<li>1-2 cups finely chopped baby bok choy greens or finely chopped baby kale</li>
-<li>1-2 cups shredded carrots</li>
-<li>Himalayan or sea salt</li>
-<li>1/4 cup chopped scallions or chives for optional garnish</li>
-<li>Fresh chili paste (or sub sriracha)</li>
-<li>2 soft boiled eggs for garnish</li>
-</ul>
-
-<p>Directions are available at the linked source.</p>
-
-</details>
-
-<hr />
-
-<details class="recipe-item">
-<summary><h2>Instant Pot Red Beans and Rice</h2></summary>
-
-<p>Link to recipe <a href="https://simple-veganista.com/instant-pot-red-beans-and-rice/">here</a>.</p>
-
-<dl>
-<dt>Yield</dt>
-<dd>4, Serves 4 - 6</dd>
-<dt>Prep time</dt>
-<dd>PT10M</dd>
-<dt>Cook time</dt>
-<dd>PT1H20M</dd>
-<dt>Total time</dt>
-<dd>PT1H30M</dd>
-</dl>
-
-<h3>Ingredients</h3>
-
-<ul>
-<li>1 lb. dried red beans or kidney beans (about 2 cups), rinsed and odd beans removed</li>
-<li>1 large yellow onion, diced</li>
-<li>5 cloves garlic, minced</li>
-<li>1 large green bell pepper, cored and diced</li>
-<li>3 – 4 celery ribs, sliced</li>
-<li>1 tablespoon cajun or creole seasoning</li>
-<li>1 teaspoon EACH oregano, thyme and smoked paprika</li>
-<li>1 teaspoon hot sauce, tabasco or sriracha or 1/2 teaspoon red pepper flakes or cayenne</li>
-<li>generous pinch of mineral salt &amp; pepper</li>
-<li>2 – 3 bay leaves</li>
-<li>4 cups water or low sodium vegetable broth</li>
-<li>vegan sausage, optional</li>
-<li>1/4 cup fresh parsley, chopped</li>
-<li>3 cups of cooked rice (use your favorite rice or quinoa)</li>
-<li>chopped parsley</li>
-<li>green onions</li>
-<li>lime wedges</li>
-</ul>
-
-<p>Directions are available at the linked source.</p>
-
-</details>
-
-<hr />
-
-<details class="recipe-item">
-<summary><h2>Instant Pot Red Beans and Rice - Damn Delicious</h2></summary>
-
-<p>Link to recipe <a href="https://damndelicious.net/2018/04/30/instant-pot-red-beans-and-rice/print/">here</a>.</p>
-
-<p><em>No structured Recipe data found.</em></p>
-
-</details>
-
-<hr />
-
-<details class="recipe-item">
-<summary><h2>Instant Pot Red Beans and Rice With Sausage</h2></summary>
-
-<p>Link to recipe <a href="https://www.simplyhappyfoodie.com/instant-pot-red-beans-rice-sausage/">here</a>.</p>
-
-<dl>
-<dt>Yield</dt>
-<dd>8, 8 - 10</dd>
-<dt>Prep time</dt>
-<dd>PT20M</dd>
-<dt>Cook time</dt>
-<dd>PT75M</dd>
-<dt>Total time</dt>
-<dd>PT115M</dd>
-</dl>
-
-<h3>Ingredients</h3>
-
-<ul>
-<li>¼ lb Bacon ((or 2 Tbsp bacon fat))</li>
-<li>1 large Yellow Onion ((2 cups diced))</li>
-<li>3-4 ribs Celery, ((2 cups diced))</li>
-<li>7 cloves Garlic, (pressed or minced)</li>
-<li>3 Bay Leaves</li>
-<li>1 Green Bell Pepper, (chopped)</li>
-<li>1 Red Bell Pepper, (chopped)</li>
-<li>1/2 tsp Sage, (dried)</li>
-<li>1/2 tsp Basil, (dried)</li>
-<li>1 Tbsp Cajun / Creole Seasoning ((such as Tony Chachere&#x27;s, or my Cajun Spice Blend) or more to taste)</li>
-<li>5 cups Chicken Broth, (low sodium)</li>
-<li>1 lb **Small Red Beans ((such as Camellia) sorted &amp; rinsed)</li>
-<li>1 ½ lbs Andouille Sausage ((or a good smoky Kielbasa) sliced in 3/4&quot; rounds)</li>
-<li>¼ cup Parsley, (chopped)</li>
-<li>Green Onions, (for garnish (optional))</li>
-<li>Hot Sauce, (as much as you like!)</li>
-<li>2 cups Cooked White Rice ((or more for leftovers))</li>
-</ul>
-
-<p>Directions are available at the linked source.</p>
-
-</details>
-
-<hr />
-
-<details class="recipe-item">
-<summary><h2>Instant Pot Refried Beans</h2></summary>
-
-<p>Link to recipe <a href="https://www.pressurecookrecipes.com/instant-pot-refried-beans/">here</a>.</p>
-
-<dl>
-<dt>Yield</dt>
-<dd>4, 4 - 6</dd>
-<dt>Total time</dt>
-<dd>PT95M</dd>
-</dl>
-
-<h3>Ingredients</h3>
-
-<ul>
-<li>1 pound (454g) pinto beans (, rinsed and drained)</li>
-<li>2 tablespoons (30ml) olive oil, bacon fat, or lard</li>
-<li>1 (323g) large onion (, roughly diced)</li>
-<li>½ - 1 teaspoon (1.3g - 2.7g) chilli powder</li>
-<li>1 teaspoon (2.7g) ground cumin</li>
-<li>1 teaspoon (1.1g) dried oregano</li>
-<li>4 cloves (13.7g) garlic (, minced)</li>
-<li>4 cups (1L) unsalted chicken stock ((vegan option: use vegetable stock))</li>
-<li>Salt to taste</li>
-<li>Cilantro (, roughly chopped)</li>
-<li>Jalapeno (, sliced or diced)</li>
-<li>Green onions (, chopped)</li>
-<li>Tomatoes (, diced)</li>
-<li>Lime (, sliced or lime wedges)</li>
-<li>Feta cheese</li>
-</ul>
-
-<p>Directions are available at the linked source.</p>
-
-</details>
-
-<hr />
-
-<details class="recipe-item">
-<summary><h2>Instant Pot Refried Black Beans</h2></summary>
-
-<p>Link to recipe <a href="https://runningonrealfood.com/instant-pot-refried-black-beans/">here</a>.</p>
-
-<dl>
-<dt>Yield</dt>
-<dd>16, 16 servings</dd>
-<dt>Prep time</dt>
-<dd>PT5M</dd>
-<dt>Cook time</dt>
-<dd>PT60M</dd>
-<dt>Total time</dt>
-<dd>PT65M</dd>
-</dl>
-
-<h3>Ingredients</h3>
-
-<ul>
-<li>2 cups dried black beans (400 g )</li>
-<li>1 medium white onion (roughly chopped into quarters)</li>
-<li>4 cloves garlic (peeled and stem end cut off)</li>
-<li>1 tsp cumin</li>
-<li>1/2 tsp chili powder</li>
-<li>1/2 tsp black pepper</li>
-<li>1 tsp dried oregano</li>
-<li>5 cups vegetable broth</li>
-<li>salt and lime (to taste)</li>
-</ul>
-
-<p>Directions are available at the linked source.</p>
-
-</details>
-
-<hr />
-
-<details class="recipe-item">
-<summary><h2>Instant Pot Roasted Potatoes</h2></summary>
-
-<p>Link to recipe <a href="https://www.pressurecookrecipes.com/instant-pot-roasted-potatoes/">here</a>.</p>
-
-<dl>
-<dt>Yield</dt>
-<dd>4</dd>
-<dt>Total time</dt>
-<dd>PT28M</dd>
-</dl>
-
-<h3>Ingredients</h3>
-
-<ul>
-<li>1.5 pound (680g) baby potatoes</li>
-<li>1 teaspoon (4g) onion powder</li>
-<li>1 teaspoon (4g) garlic powder</li>
-<li>3 - 4 pinches coarse kosher salt</li>
-<li>2 tablespoons (28g) unsalted butter</li>
-<li>1 tablespoon (15ml) olive oil</li>
-<li>1 cup (250ml) cold water</li>
-</ul>
-
-<p>Directions are available at the linked source.</p>
-
-</details>
-
-<hr />
-
-<details class="recipe-item">
-<summary><h2>Instant Pot Salsa</h2></summary>
-
-<p>Link to recipe <a href="https://tastyoven.com/salsa-roja-instant-pot-salsa/">here</a>.</p>
-
-<dl>
-<dt>Yield</dt>
-<dd>16</dd>
-<dt>Prep time</dt>
-<dd>PT10M</dd>
-<dt>Cook time</dt>
-<dd>PT20M</dd>
-<dt>Total time</dt>
-<dd>PT150M</dd>
-</dl>
-
-<h3>Ingredients</h3>
-
-<ul>
-<li>7 cups tomatoes (about 10 large tomatoes)</li>
-<li>1/4 - 1/2 cup jalapenos or chilis (fresh or jarred)</li>
-<li>1 large sweet onion (chopped)</li>
-<li>2 bell peppers (diced)</li>
-<li>4 garlic cloves (minced)</li>
-<li>4 green onions (diced)</li>
-<li>2 tsp salt</li>
-<li>1/3 cup lime juice</li>
-<li>1 tbsp lemon juice</li>
-<li>1 cup cilantro (torn)</li>
-</ul>
-
-<p>Directions are available at the linked source.</p>
-
-</details>
-
-<hr />
-
-<details class="recipe-item">
-<summary><h2>Instant Pot Short Ribs</h2></summary>
-
-<p>Link to recipe <a href="https://www.pressurecookrecipes.com/instant-pot-short-ribs/">here</a>.</p>
-
-<dl>
-<dt>Yield</dt>
-<dd>4, 4 - 6</dd>
-<dt>Prep time</dt>
-<dd>PT10M</dd>
-<dt>Cook time</dt>
-<dd>PT90M</dd>
-<dt>Total time</dt>
-<dd>PT100M</dd>
-</dl>
-
-<h3>Ingredients</h3>
-
-<ul>
-<li>6 - 10 pieces (1116g) bone-in short ribs ((1.5 - 2 inches thick))</li>
-<li>6 cloves garlic (, crushed and chopped)</li>
-<li>2 (300g) small onions (, sliced)</li>
-<li>2 (170g) medium carrots (, chopped)</li>
-<li>2 ribs (90g) celery (, chopped)</li>
-<li>½ cup (125ml) red wine (Cabernet Sauvignon)</li>
-<li>½ cup (125ml) unsalted chicken stock or good quality beef broth</li>
-<li>2 tablespoons (30ml) balsamic vinegar</li>
-<li>1 - 1.5 tablespoon (14-21g) brown sugar</li>
-<li>1 tablespoon (15ml) regular soy sauce</li>
-<li>1 tablespoon (15ml) fish sauce</li>
-<li>1 tablespoon (15ml) olive oil</li>
-<li>2 bay leaves</li>
-<li>A pinch dried thyme</li>
-<li>Kosher salt and ground black pepper to taste</li>
-<li>2.5 tablespoons (22.5g) cornstarch</li>
-<li>3 tablespoons (45ml) cold water</li>
-<li>3 - 4 russet potatoes (, halved)</li>
-<li>100 ml whole milk</li>
-<li>1 - 2 tablespoons (14g - 28g) unsalted butter</li>
-</ul>
-
-<p>Directions are available at the linked source.</p>
-
-</details>
-
-<hr />
-
-<details class="recipe-item">
-<summary><h2>Instant Pot Short Ribs</h2></summary>
-
-<p>Link to recipe <a href="https://messinthekitchen.com/instant-pot-short-ribs/#recipe">here</a>.</p>
-
-<dl>
-<dt>Yield</dt>
-<dd>6</dd>
-<dt>Prep time</dt>
-<dd>PT5M</dd>
-<dt>Cook time</dt>
-<dd>PT65M</dd>
-<dt>Total time</dt>
-<dd>PT85M</dd>
-</dl>
-
-<h3>Ingredients</h3>
-
-<ul>
-<li>3-4 lbs beef short ribs</li>
-<li>1 tsp salt (or to taste)</li>
-<li>1 tsp pepper (or to taste)</li>
-<li>2 tbsp olive oil</li>
-<li>4 cloves garlic (crushed)</li>
-<li>1 medium onion (quartered)</li>
-<li>1 medium carrot (cut into large pieces)</li>
-<li>1-2 ribs celery (cut into large pieces)</li>
-<li>2 tbsp tomato paste</li>
-<li>1 cup red wine (Cabernet Sauvignon, Pinot Noir, or Merlot)</li>
-<li>1/2 cup beef broth (low sodium)</li>
-<li>2 tbsp balsamic vinegar</li>
-<li>2 sprigs thyme</li>
-<li>2 bay leaves (fresh or dried)</li>
-</ul>
-
-<p>Directions are available at the linked source.</p>
-
-</details>
-
-<hr />
-
-<details class="recipe-item">
-<summary><h2>Instant Pot Sweet Potatoes</h2></summary>
-
-<p>Link to recipe <a href="https://www.pressurecookrecipes.com/instant-pot-sweet-potato/">here</a>.</p>
-
-<dl>
-<dt>Yield</dt>
-<dd>2, 2 - 4</dd>
-<dt>Total time</dt>
-<dd>PT40M</dd>
-</dl>
-
-<h3>Ingredients</h3>
-
-<ul>
-<li>2 - 4 whole sweet potatoes ((circumference: 6 – 12 inches, weight: 160g – 700g))</li>
-<li>1 cup (250ml) cold water</li>
-<li>Optional Toppings: butter &amp; maple syrup</li>
 </ul>
 
 <p>Directions are available at the linked source.</p>
@@ -6094,6 +5197,49 @@ permalink: /ernst-recipes/
 <hr />
 
 <details class="recipe-item">
+<summary><h2>Korean Gochujang Beef Bowls</h2></summary>
+
+<p>Link to recipe <a href="https://www.halfbakedharvest.com/gochujang-beef-bowls/">here</a>.</p>
+
+<dl>
+<dt>Yield</dt>
+<dd>6</dd>
+<dt>Prep time</dt>
+<dd>PT10M</dd>
+<dt>Cook time</dt>
+<dd>PT10M</dd>
+<dt>Total time</dt>
+<dd>PT20M</dd>
+</dl>
+
+<h3>Ingredients</h3>
+
+<ul>
+<li>1 1/2 pounds ground beef (or chicken or pork)</li>
+<li>2 tablespoons butter</li>
+<li>2 bell peppers, sliced</li>
+<li>3 shallots, sliced</li>
+<li>4 cloves garlic, chopped</li>
+<li>1/4 cup pickled ginger ((or 1 tablespoon fresh grated ginger))</li>
+<li>1/2 cup tamari or soy sauce</li>
+<li>2-3 tablespoons Gochujang ((Korean chili paste))</li>
+<li>2 tablespoons ginger juice</li>
+<li>2 tablespoons maple or honey</li>
+<li>1/4 cup toasted sesame seeds</li>
+<li>1/3 cup chopped roasted peanuts</li>
+<li>4 Persian cucumbers, chopped</li>
+<li>1 tablespoon Gochujang ((Korean chili paste))</li>
+<li>1/4 cup chopped green onion/ Thai basil</li>
+<li>2 tablespoons ginger juice or rice vinegar</li>
+</ul>
+
+<p>Directions are available at the linked source.</p>
+
+</details>
+
+<hr />
+
+<details class="recipe-item">
 <summary><h2>Kung Pao Chicken</h2></summary>
 
 <p>Link to recipe <a href="https://damndelicious.net/2021/05/09/kung-pao-chicken/">here</a>.</p>
@@ -6218,6 +5364,47 @@ permalink: /ernst-recipes/
 <hr />
 
 <details class="recipe-item">
+<summary><h2>Loaded Potato Soup (with a slow cooker version)</h2></summary>
+
+<p>Link to recipe <a href="https://belleofthekitchen.com/instant-pot-loaded-potato-soup/">here</a>.</p>
+
+<dl>
+<dt>Yield</dt>
+<dd>6</dd>
+<dt>Prep time</dt>
+<dd>PT15M</dd>
+<dt>Cook time</dt>
+<dd>PT18M</dd>
+<dt>Total time</dt>
+<dd>PT33M</dd>
+</dl>
+
+<h3>Ingredients</h3>
+
+<ul>
+<li>1 Tablespoon butter</li>
+<li>1 medium onion, (diced)</li>
+<li>3 cloves garlic, (minced)</li>
+<li>3 cups chicken broth</li>
+<li>1 can/box cream of chicken soup ((I prefer Pacific Foods brand))</li>
+<li>7-8 medium sized russet potatoes, (peeled and chopped into 1 inch cubes (about 2.5 pounds of potatoes))</li>
+<li>1 1/2 teaspoons salt ((or more/less to taste))</li>
+<li>black pepper to taste ((I like a lot of pepper))</li>
+<li>1 cup milk</li>
+<li>1 tablespoon flour</li>
+<li>2 cups shredded cheddar cheese ((I use sharp cheddar))</li>
+<li>5-6 slices bacon ((cooked and chopped))</li>
+<li>sliced green onions</li>
+<li>shredded cheddar cheese</li>
+</ul>
+
+<p>Directions are available at the linked source.</p>
+
+</details>
+
+<hr />
+
+<details class="recipe-item">
 <summary><h2>Lomo Saltado (Peruvian Beef Stir Fry)</h2></summary>
 
 <p>Link to recipe <a href="https://littlespicejar.com/lomo-saltado/">here</a>.</p>
@@ -6248,6 +5435,34 @@ permalink: /ernst-recipes/
 <li>Sliced scallions/chopped cilantro (for serving)</li>
 <li>Oil (for cooking)</li>
 <li>Cooked French fries + rice (for serving)</li>
+</ul>
+
+<p>Directions are available at the linked source.</p>
+
+</details>
+
+<hr />
+
+<details class="recipe-item">
+<summary><h2>Mango Salsa</h2></summary>
+
+<p>Link to recipe <a href="https://www.gimmesomeoven.com/5-ingredient-mango-salsa-recipe/">here</a>.</p>
+
+<dl>
+<dt>Prep time</dt>
+<dd>PT10M</dd>
+<dt>Total time</dt>
+<dd>PT10M</dd>
+</dl>
+
+<h3>Ingredients</h3>
+
+<ul>
+<li>2 ripe mangoes</li>
+<li>1 small red onion (peeled and diced)</li>
+<li>1-2 jalapenos (seeded and diced)</li>
+<li>1/2 cup chopped fresh cilantro (loosely packed)</li>
+<li>juice of one lime</li>
 </ul>
 
 <p>Directions are available at the linked source.</p>
@@ -6288,6 +5503,39 @@ permalink: /ernst-recipes/
 <li>3 Tablespoons heavy cream</li>
 <li>1 teaspoon vanilla extract</li>
 <li>1/4 teaspoon maple extract (optional (add more to taste))</li>
+</ul>
+
+<p>Directions are available at the linked source.</p>
+
+</details>
+
+<hr />
+
+<details class="recipe-item">
+<summary><h2>Mashed Potatoes Recipe</h2></summary>
+
+<p>Link to recipe <a href="https://www.spendwithpennies.com/how-to-make-mashed-potatoes/">here</a>.</p>
+
+<dl>
+<dt>Yield</dt>
+<dd>10, 10 servings</dd>
+<dt>Prep time</dt>
+<dd>PT15M</dd>
+<dt>Cook time</dt>
+<dd>PT20M</dd>
+<dt>Total time</dt>
+<dd>PT35M</dd>
+</dl>
+
+<h3>Ingredients</h3>
+
+<ul>
+<li>4 pounds potatoes (russet or Yukon gold)</li>
+<li>3 cloves garlic (optional)</li>
+<li>⅓ cup melted salted butter</li>
+<li>1 cup milk (or cream)</li>
+<li>salt (to taste)</li>
+<li>black pepper (to taste)</li>
 </ul>
 
 <p>Directions are available at the linked source.</p>
@@ -6371,6 +5619,41 @@ permalink: /ernst-recipes/
 <li>⅓ cup (65 g) kalamata olives</li>
 <li>⅓ cup (50 g) crumbled feta cheese</li>
 <li>1 large handful fresh basil + fresh mint (finely chopped)</li>
+</ul>
+
+<p>Directions are available at the linked source.</p>
+
+</details>
+
+<hr />
+
+<details class="recipe-item">
+<summary><h2>Mexican Pinto Beans</h2></summary>
+
+<p>Link to recipe <a href="https://themodernproper.com/instant-pot-mexican-pinto-beans">here</a>.</p>
+
+<dl>
+<dt>Yield</dt>
+<dd>8</dd>
+<dt>Prep time</dt>
+<dd>PT6M</dd>
+<dt>Cook time</dt>
+<dd>PT1H20M</dd>
+<dt>Total time</dt>
+<dd>PT1H26M</dd>
+</dl>
+
+<h3>Ingredients</h3>
+
+<ul>
+<li>2 tablespoons vegetable oil</li>
+<li>1 small yellow onion, chopped (about 1 cup)</li>
+<li>2½ cups dried pinto beans, rinsed (about 1 pound)</li>
+<li>4 cups chicken or vegetable stock</li>
+<li>1 cup water</li>
+<li>2 tablespoons Taco Seasoning, homemade or store bought</li>
+<li>1½ teaspoons sea salt</li>
+<li>2 tablespoons bacon fat, (optional)</li>
 </ul>
 
 <p>Directions are available at the linked source.</p>
@@ -6496,6 +5779,45 @@ permalink: /ernst-recipes/
 <hr />
 
 <details class="recipe-item">
+<summary><h2>Mountain Man Soup</h2></summary>
+
+<p>Link to recipe <a href="https://www.365daysofcrockpot.com/instant-pot-mountain-man-soup/">here</a>.</p>
+
+<dl>
+<dt>Yield</dt>
+<dd>6, 6-8 servings</dd>
+<dt>Prep time</dt>
+<dd>PT25M</dd>
+<dt>Total time</dt>
+<dd>PT25M</dd>
+</dl>
+
+<h3>Ingredients</h3>
+
+<ul>
+<li>2 Tbsp olive oil</li>
+<li>1 ½ pounds beef or bison stew meat</li>
+<li>2 tsp garlic salt</li>
+<li>1 tsp black pepper</li>
+<li>1 cup diced onions</li>
+<li>4 cups beef broth</li>
+<li>1 Tbsp Worcestershire sauce</li>
+<li>1 bay leaf</li>
+<li>1 Tbsp dried parsley</li>
+<li>1 (4 oz) can diced green chiles</li>
+<li>1 (28 oz) can crushed tomatoes</li>
+<li>4 ribs of celery, diced</li>
+<li>4 carrots, peeled and cut into chunks</li>
+<li>2 medium potatoes, peeled and cut into cubes</li>
+</ul>
+
+<p>Directions are available at the linked source.</p>
+
+</details>
+
+<hr />
+
+<details class="recipe-item">
 <summary><h2>Mujadara (Lentils and Rice with Caramelized Onions)</h2></summary>
 
 <p>Link to recipe <a href="https://cookieandkate.com/mujaddara-recipe/">here</a>.</p>
@@ -6528,46 +5850,6 @@ permalink: /ernst-recipes/
 <li>½ cup chopped fresh cilantro or flat-leaf parsley, divided</li>
 <li>Plain whole-milk or Greek yogurt, for serving</li>
 <li>Spicy sauce, for serving (optional): shatta or zhoug or store-bought chili-garlic sauce or even sriracha</li>
-</ul>
-
-<p>Directions are available at the linked source.</p>
-
-</details>
-
-<hr />
-
-<details class="recipe-item">
-<summary><h2>No Soak Instant Pot Pinto Beans Recipe</h2></summary>
-
-<p>Link to recipe <a href="https://lifemadesimplebakes.com/no-soak-instant-pot-pinto-beans/">here</a>.</p>
-
-<dl>
-<dt>Yield</dt>
-<dd>12, 12 1/2 cup servings</dd>
-<dt>Prep time</dt>
-<dd>PT10M</dd>
-<dt>Cook time</dt>
-<dd>PT65M</dd>
-<dt>Total time</dt>
-<dd>PT75M</dd>
-</dl>
-
-<h3>Ingredients</h3>
-
-<ul>
-<li>2 strips uncooked bacon*</li>
-<li>1 small onion (diced)</li>
-<li>4 cup low-sodium chicken broth</li>
-<li>1 1/2 cup water</li>
-<li>1 1/4 tsp garlic powder</li>
-<li>1 1/4 tsp kosher sea salt</li>
-<li>1 teaspoon chili powder</li>
-<li>1/2 tsp cumin</li>
-<li>1/2 tsp coriander</li>
-<li>1/2 tsp paprika</li>
-<li>1/4 tsp ground black pepper</li>
-<li>1/8 tsp cayenne pepper</li>
-<li>1 lb pinto beans (rinsed and picked through)</li>
 </ul>
 
 <p>Directions are available at the linked source.</p>
@@ -6690,7 +5972,7 @@ permalink: /ernst-recipes/
 <hr />
 
 <details class="recipe-item">
-<summary><h2>Oven Braised Chuck Roast (Easy &amp; Fall Apart)</h2></summary>
+<summary><h2>Oven Braised Chuck Roast</h2></summary>
 
 <p>Link to recipe <a href="https://www.hungrypaprikas.com/chuck-roast/">here</a>.</p>
 
@@ -7160,6 +6442,205 @@ permalink: /ernst-recipes/
 <hr />
 
 <details class="recipe-item">
+<summary><h2>Pinto Beans</h2></summary>
+
+<p>Link to recipe <a href="https://www.pressurecookrecipes.com/instant-pot-pinto-beans/">here</a>.</p>
+
+<dl>
+<dt>Yield</dt>
+<dd>6, 6 - 8</dd>
+<dt>Total time</dt>
+<dd>PT90M</dd>
+</dl>
+
+<h3>Ingredients</h3>
+
+<ul>
+<li>1 pound (450g) dried pinto beans (, rinsed &amp; drained)</li>
+<li>6 slices (340g) bacon ((vegetarian: can omit))</li>
+<li>1 (255g) onion (, sliced)</li>
+<li>1 (52g) jalapeño (, minced)</li>
+<li>6 cloves (24g) garlic (, minced)</li>
+<li>3 (0.8g) bay leaves</li>
+<li>½ teaspoon (1.4g) ground cumin</li>
+<li>½ teaspoon (0.5g) dried oregano</li>
+<li>4 cups (1L) unsalted chicken stock ((vegetarian: substitute with vegetable stock))</li>
+<li>2 tablespoons (30ml) regular soy sauce</li>
+<li>1 can (796g) crushed fire-roasted tomatoes</li>
+<li>Cilantro</li>
+</ul>
+
+<p>Directions are available at the linked source.</p>
+
+</details>
+
+<hr />
+
+<details class="recipe-item">
+<summary><h2>Pinto Beans Recipe</h2></summary>
+
+<p>Link to recipe <a href="https://lifemadesimplebakes.com/no-soak-instant-pot-pinto-beans/">here</a>.</p>
+
+<dl>
+<dt>Yield</dt>
+<dd>12, 12 1/2 cup servings</dd>
+<dt>Prep time</dt>
+<dd>PT10M</dd>
+<dt>Cook time</dt>
+<dd>PT65M</dd>
+<dt>Total time</dt>
+<dd>PT75M</dd>
+</dl>
+
+<h3>Ingredients</h3>
+
+<ul>
+<li>2 strips uncooked bacon*</li>
+<li>1 small onion (diced)</li>
+<li>4 cup low-sodium chicken broth</li>
+<li>1 1/2 cup water</li>
+<li>1 1/4 tsp garlic powder</li>
+<li>1 1/4 tsp kosher sea salt</li>
+<li>1 teaspoon chili powder</li>
+<li>1/2 tsp cumin</li>
+<li>1/2 tsp coriander</li>
+<li>1/2 tsp paprika</li>
+<li>1/4 tsp ground black pepper</li>
+<li>1/8 tsp cayenne pepper</li>
+<li>1 lb pinto beans (rinsed and picked through)</li>
+</ul>
+
+<p>Directions are available at the linked source.</p>
+
+</details>
+
+<hr />
+
+<details class="recipe-item">
+<summary><h2>Pistachio Pesto Pasta with Orecchiette</h2></summary>
+
+<p>Link to recipe <a href="https://playswellwithbutter.com/pistachio-pesto-pasta/">here</a>.</p>
+
+<dl>
+<dt>Yield</dt>
+<dd>3, serves 3-4</dd>
+<dt>Prep time</dt>
+<dd>PT15M</dd>
+<dt>Cook time</dt>
+<dd>PT10M</dd>
+<dt>Total time</dt>
+<dd>PT25M</dd>
+</dl>
+
+<h3>Ingredients</h3>
+
+<ul>
+<li>8 ounces DeLallo Orecchiette or short pasta of choice</li>
+<li>¼ cup shelled pistachios, toasted (see Recipe Notes)</li>
+<li>6 cloves garlic</li>
+<li>1 ½ cups loosely packed fresh basil leaves (approx. 2 ounces)</li>
+<li>½ lemon, zested and juiced</li>
+<li>⅓ cup finely grated parmesan cheese</li>
+<li>optional: up to 1 teaspoon crushed red pepper flakes</li>
+<li>⅓ cup DeLallo Extra Virgin Olive Oil</li>
+<li>kosher salt and ground black pepper, to season</li>
+</ul>
+
+<p>Directions are available at the linked source.</p>
+
+</details>
+
+<hr />
+
+<details class="recipe-item">
+<summary><h2>Pot Roast</h2></summary>
+
+<p>Link to recipe <a href="https://damndelicious.net/2019/04/12/slow-cooker-pot-roast/">here</a>.</p>
+
+<dl>
+<dt>Yield</dt>
+<dd>8, 8 servings</dd>
+<dt>Prep time</dt>
+<dd>PT20M</dd>
+<dt>Cook time</dt>
+<dd>PT505M</dd>
+<dt>Total time</dt>
+<dd>PT525M</dd>
+</dl>
+
+<h3>Ingredients</h3>
+
+<ul>
+<li>3 pound boneless chuck roast (excess fat trimmed)</li>
+<li>Kosher salt and freshly ground black pepper (to taste)</li>
+<li>1 1/2 tablespoons canola oil</li>
+<li>1 1/2 cups beef broth</li>
+<li>1/2 cup dry red wine</li>
+<li>1/4 cup all purpose flour</li>
+<li>2 tablespoons tomato paste</li>
+<li>2 tablespoons Worcestershire sauce</li>
+<li>2 pounds Yukon gold potatoes</li>
+<li>3 carrots (cut into 3-inch pieces)</li>
+<li>2 celery ribs (cut into 3-inch pieces)</li>
+<li>1 medium sweet onion (cut into 1-inch wedges)</li>
+<li>2 cloves garlic (minced)</li>
+<li>6 sprigs fresh thyme</li>
+<li>1 bay leaf</li>
+<li>2 tablespoons chopped fresh parsley leaves</li>
+</ul>
+
+<p>Directions are available at the linked source.</p>
+
+</details>
+
+<hr />
+
+<details class="recipe-item">
+<summary><h2>Pot Roast (with the BEST gravy!)</h2></summary>
+
+<p>Link to recipe <a href="https://www.thereciperebel.com/instant-pot-pot-roast-recipe-pressure-cooker-pot-roast-video/">here</a>.</p>
+
+<dl>
+<dt>Yield</dt>
+<dd>8, 8 servings</dd>
+<dt>Prep time</dt>
+<dd>PT15M</dd>
+<dt>Cook time</dt>
+<dd>PT75M</dd>
+<dt>Total time</dt>
+<dd>PT130M</dd>
+</dl>
+
+<h3>Ingredients</h3>
+
+<ul>
+<li>2 teaspoons seasoning salt ((I use Lawry&#x27;s))</li>
+<li>1 teaspoon garlic powder</li>
+<li>1 teaspoon dried parsley</li>
+<li>½ teaspoon onion powder</li>
+<li>½ teaspoon black pepper</li>
+<li>3 lb beef chuck roast (cut into 1lb chunks)</li>
+<li>2 tablespoons canola oil</li>
+<li>1 medium onion ((finely chopped))</li>
+<li>3 garlic cloves ((finely minced))</li>
+<li>2 cups low sodium beef broth</li>
+<li>3 tablespoons balsamic vinegar</li>
+<li>2 tablespoons tomato paste</li>
+<li>2 tablespoons Worcestershire sauce</li>
+<li>1 ½ lb Creamer potatoes ((or baby potatoes) whole)</li>
+<li>3 large carrots (peeled and cut into thick slices)</li>
+<li>1 tablespoon ketchup ((or honey))</li>
+<li>2 tablespoons corn starch</li>
+<li>2 tablespoons water</li>
+</ul>
+
+<p>Directions are available at the linked source.</p>
+
+</details>
+
+<hr />
+
+<details class="recipe-item">
 <summary><h2>Potato Curry with Peas</h2></summary>
 
 <p>Link to recipe <a href="https://thecozyapron.com/potato-curry/">here</a>.</p>
@@ -7246,6 +6727,47 @@ permalink: /ernst-recipes/
 <hr />
 
 <details class="recipe-item">
+<summary><h2>Potato Soup</h2></summary>
+
+<p>Link to recipe <a href="https://www.thereciperebel.com/instant-pot-potato-soup-recipe/">here</a>.</p>
+
+<dl>
+<dt>Yield</dt>
+<dd>4, 4 servings</dd>
+<dt>Prep time</dt>
+<dd>PT20M</dd>
+<dt>Cook time</dt>
+<dd>PT25M</dd>
+<dt>Total time</dt>
+<dd>PT45M</dd>
+</dl>
+
+<h3>Ingredients</h3>
+
+<ul>
+<li>1 tablespoon canola oil</li>
+<li>1 small onion (finely diced)</li>
+<li>2 teaspoons salt (reduce if using salted broth)</li>
+<li>1 teaspoon minced garlic</li>
+<li>1 teaspoon dried parsley</li>
+<li>½ teaspoon dried thyme</li>
+<li>¼ teaspoon black pepper</li>
+<li>3 cups low-sodium chicken broth</li>
+<li>2 lbs red potatoes (about 6 medium)</li>
+<li>2 large carrots (peeled and sliced)</li>
+<li>1 rib celery chopped</li>
+<li>1 cup evaporated milk (or cream)</li>
+<li>2 tablespoons cornstarch</li>
+<li>For garnish cheese, green onions, and bacon</li>
+</ul>
+
+<p>Directions are available at the linked source.</p>
+
+</details>
+
+<hr />
+
+<details class="recipe-item">
 <summary><h2>Power Butter</h2></summary>
 
 <p>Link to recipe <a href="https://www.bonappetit.com/recipe/power-butter">here</a>.</p>
@@ -7275,7 +6797,7 @@ permalink: /ernst-recipes/
 <hr />
 
 <details class="recipe-item">
-<summary><h2>Pressure Cooker (Instant Pot) Pinto Beans</h2></summary>
+<summary><h2>Pressure Cooker Pinto Beans</h2></summary>
 
 <p>Link to recipe <a href="https://www.myforkinglife.com/pressure-cooker-instant-pot-pinto-beans/">here</a>.</p>
 
@@ -7426,6 +6948,146 @@ permalink: /ernst-recipes/
 <hr />
 
 <details class="recipe-item">
+<summary><h2>Ramen Noodles</h2></summary>
+
+<p>Link to recipe <a href="https://confessionsofafitfoodie.com/21-day-fix-instant-pot-ramen-noodles/">here</a>.</p>
+
+<dl>
+<dt>Yield</dt>
+<dd>4, 4 servings</dd>
+<dt>Prep time</dt>
+<dd>PT5M</dd>
+<dt>Cook time</dt>
+<dd>PT30M</dd>
+<dt>Total time</dt>
+<dd>PT35M</dd>
+</dl>
+
+<h3>Ingredients</h3>
+
+<ul>
+<li>2 teaspoons sesame oil</li>
+<li>2 tablespoons grated or finely chopped ginger</li>
+<li>1 1/2 tablespoons minced garlic</li>
+<li>4 cups stock (I used chicken, but vegetable would also work)</li>
+<li>3 1/2 cups water</li>
+<li>1 1/4 lb skinless bone-in chicken thighs ((you can sub boneless))</li>
+<li>1/3 cup coconut aminos</li>
+<li>2 ramen noodle cakes</li>
+<li>1-2 cups finely chopped baby bok choy greens or finely chopped baby kale</li>
+<li>1-2 cups shredded carrots</li>
+<li>Himalayan or sea salt</li>
+<li>1/4 cup chopped scallions or chives for optional garnish</li>
+<li>Fresh chili paste (or sub sriracha)</li>
+<li>2 soft boiled eggs for garnish</li>
+</ul>
+
+<p>Directions are available at the linked source.</p>
+
+</details>
+
+<hr />
+
+<details class="recipe-item">
+<summary><h2>Red Beans and Rice</h2></summary>
+
+<p>Link to recipe <a href="https://simple-veganista.com/instant-pot-red-beans-and-rice/">here</a>.</p>
+
+<dl>
+<dt>Yield</dt>
+<dd>4, Serves 4 - 6</dd>
+<dt>Prep time</dt>
+<dd>PT10M</dd>
+<dt>Cook time</dt>
+<dd>PT1H20M</dd>
+<dt>Total time</dt>
+<dd>PT1H30M</dd>
+</dl>
+
+<h3>Ingredients</h3>
+
+<ul>
+<li>1 lb. dried red beans or kidney beans (about 2 cups), rinsed and odd beans removed</li>
+<li>1 large yellow onion, diced</li>
+<li>5 cloves garlic, minced</li>
+<li>1 large green bell pepper, cored and diced</li>
+<li>3 – 4 celery ribs, sliced</li>
+<li>1 tablespoon cajun or creole seasoning</li>
+<li>1 teaspoon EACH oregano, thyme and smoked paprika</li>
+<li>1 teaspoon hot sauce, tabasco or sriracha or 1/2 teaspoon red pepper flakes or cayenne</li>
+<li>generous pinch of mineral salt &amp; pepper</li>
+<li>2 – 3 bay leaves</li>
+<li>4 cups water or low sodium vegetable broth</li>
+<li>vegan sausage, optional</li>
+<li>1/4 cup fresh parsley, chopped</li>
+<li>3 cups of cooked rice (use your favorite rice or quinoa)</li>
+<li>chopped parsley</li>
+<li>green onions</li>
+<li>lime wedges</li>
+</ul>
+
+<p>Directions are available at the linked source.</p>
+
+</details>
+
+<hr />
+
+<details class="recipe-item">
+<summary><h2>Red Beans and Rice - Damn Delicious</h2></summary>
+
+<p>Link to recipe <a href="https://damndelicious.net/2018/04/30/instant-pot-red-beans-and-rice/print/">here</a>.</p>
+
+<p><em>No structured Recipe data found.</em></p>
+
+</details>
+
+<hr />
+
+<details class="recipe-item">
+<summary><h2>Red Beans and Rice With Sausage</h2></summary>
+
+<p>Link to recipe <a href="https://www.simplyhappyfoodie.com/instant-pot-red-beans-rice-sausage/">here</a>.</p>
+
+<dl>
+<dt>Yield</dt>
+<dd>8, 8 - 10</dd>
+<dt>Prep time</dt>
+<dd>PT20M</dd>
+<dt>Cook time</dt>
+<dd>PT75M</dd>
+<dt>Total time</dt>
+<dd>PT115M</dd>
+</dl>
+
+<h3>Ingredients</h3>
+
+<ul>
+<li>¼ lb Bacon ((or 2 Tbsp bacon fat))</li>
+<li>1 large Yellow Onion ((2 cups diced))</li>
+<li>3-4 ribs Celery, ((2 cups diced))</li>
+<li>7 cloves Garlic, (pressed or minced)</li>
+<li>3 Bay Leaves</li>
+<li>1 Green Bell Pepper, (chopped)</li>
+<li>1 Red Bell Pepper, (chopped)</li>
+<li>1/2 tsp Sage, (dried)</li>
+<li>1/2 tsp Basil, (dried)</li>
+<li>1 Tbsp Cajun / Creole Seasoning ((such as Tony Chachere&#x27;s, or my Cajun Spice Blend) or more to taste)</li>
+<li>5 cups Chicken Broth, (low sodium)</li>
+<li>1 lb **Small Red Beans ((such as Camellia) sorted &amp; rinsed)</li>
+<li>1 ½ lbs Andouille Sausage ((or a good smoky Kielbasa) sliced in 3/4&quot; rounds)</li>
+<li>¼ cup Parsley, (chopped)</li>
+<li>Green Onions, (for garnish (optional))</li>
+<li>Hot Sauce, (as much as you like!)</li>
+<li>2 cups Cooked White Rice ((or more for leftovers))</li>
+</ul>
+
+<p>Directions are available at the linked source.</p>
+
+</details>
+
+<hr />
+
+<details class="recipe-item">
 <summary><h2>Red Enchilada Sauce</h2></summary>
 
 <p>Link to recipe <a href="https://tastesbetterfromscratch.com/enchilada-sauce-from-scratch/">here</a>.</p>
@@ -7453,6 +7115,80 @@ permalink: /ernst-recipes/
 <li>2 1/2 cups tomato sauce</li>
 <li>1 clove garlic (, minced)</li>
 <li>salt (to taste)</li>
+</ul>
+
+<p>Directions are available at the linked source.</p>
+
+</details>
+
+<hr />
+
+<details class="recipe-item">
+<summary><h2>Refried Beans</h2></summary>
+
+<p>Link to recipe <a href="https://www.pressurecookrecipes.com/instant-pot-refried-beans/">here</a>.</p>
+
+<dl>
+<dt>Yield</dt>
+<dd>4, 4 - 6</dd>
+<dt>Total time</dt>
+<dd>PT95M</dd>
+</dl>
+
+<h3>Ingredients</h3>
+
+<ul>
+<li>1 pound (454g) pinto beans (, rinsed and drained)</li>
+<li>2 tablespoons (30ml) olive oil, bacon fat, or lard</li>
+<li>1 (323g) large onion (, roughly diced)</li>
+<li>½ - 1 teaspoon (1.3g - 2.7g) chilli powder</li>
+<li>1 teaspoon (2.7g) ground cumin</li>
+<li>1 teaspoon (1.1g) dried oregano</li>
+<li>4 cloves (13.7g) garlic (, minced)</li>
+<li>4 cups (1L) unsalted chicken stock ((vegan option: use vegetable stock))</li>
+<li>Salt to taste</li>
+<li>Cilantro (, roughly chopped)</li>
+<li>Jalapeno (, sliced or diced)</li>
+<li>Green onions (, chopped)</li>
+<li>Tomatoes (, diced)</li>
+<li>Lime (, sliced or lime wedges)</li>
+<li>Feta cheese</li>
+</ul>
+
+<p>Directions are available at the linked source.</p>
+
+</details>
+
+<hr />
+
+<details class="recipe-item">
+<summary><h2>Refried Black Beans</h2></summary>
+
+<p>Link to recipe <a href="https://runningonrealfood.com/instant-pot-refried-black-beans/">here</a>.</p>
+
+<dl>
+<dt>Yield</dt>
+<dd>16, 16 servings</dd>
+<dt>Prep time</dt>
+<dd>PT5M</dd>
+<dt>Cook time</dt>
+<dd>PT60M</dd>
+<dt>Total time</dt>
+<dd>PT65M</dd>
+</dl>
+
+<h3>Ingredients</h3>
+
+<ul>
+<li>2 cups dried black beans (400 g )</li>
+<li>1 medium white onion (roughly chopped into quarters)</li>
+<li>4 cloves garlic (peeled and stem end cut off)</li>
+<li>1 tsp cumin</li>
+<li>1/2 tsp chili powder</li>
+<li>1/2 tsp black pepper</li>
+<li>1 tsp dried oregano</li>
+<li>5 cups vegetable broth</li>
+<li>salt and lime (to taste)</li>
 </ul>
 
 <p>Directions are available at the linked source.</p>
@@ -7490,6 +7226,47 @@ permalink: /ernst-recipes/
 </ul>
 
 <p>Directions are available at the linked source.</p>
+
+</details>
+
+<hr />
+
+<details class="recipe-item">
+<summary><h2>Roasted Potatoes</h2></summary>
+
+<p>Link to recipe <a href="https://www.pressurecookrecipes.com/instant-pot-roasted-potatoes/">here</a>.</p>
+
+<dl>
+<dt>Yield</dt>
+<dd>4</dd>
+<dt>Total time</dt>
+<dd>PT28M</dd>
+</dl>
+
+<h3>Ingredients</h3>
+
+<ul>
+<li>1.5 pound (680g) baby potatoes</li>
+<li>1 teaspoon (4g) onion powder</li>
+<li>1 teaspoon (4g) garlic powder</li>
+<li>3 - 4 pinches coarse kosher salt</li>
+<li>2 tablespoons (28g) unsalted butter</li>
+<li>1 tablespoon (15ml) olive oil</li>
+<li>1 cup (250ml) cold water</li>
+</ul>
+
+<p>Directions are available at the linked source.</p>
+
+</details>
+
+<hr />
+
+<details class="recipe-item">
+<summary><h2>Roasted Pumpkin</h2></summary>
+
+<p>Link to recipe <a href="https://ohsheglows.com/2012/09/10/how-to-roast-a-sugar-pumpkin-make-fresh-pumpkin-puree-a-step-by-step-photo-tutorial/">here</a>.</p>
+
+<p><em>No structured Recipe data found.</em></p>
 
 </details>
 
@@ -7557,6 +7334,43 @@ permalink: /ernst-recipes/
 <li>2 tbsp maple syrup</li>
 <li>⅛-¼ tsp cayenne pepper</li>
 <li>⅛ tsp salt</li>
+</ul>
+
+<p>Directions are available at the linked source.</p>
+
+</details>
+
+<hr />
+
+<details class="recipe-item">
+<summary><h2>Salsa</h2></summary>
+
+<p>Link to recipe <a href="https://tastyoven.com/salsa-roja-instant-pot-salsa/">here</a>.</p>
+
+<dl>
+<dt>Yield</dt>
+<dd>16</dd>
+<dt>Prep time</dt>
+<dd>PT10M</dd>
+<dt>Cook time</dt>
+<dd>PT20M</dd>
+<dt>Total time</dt>
+<dd>PT150M</dd>
+</dl>
+
+<h3>Ingredients</h3>
+
+<ul>
+<li>7 cups tomatoes (about 10 large tomatoes)</li>
+<li>1/4 - 1/2 cup jalapenos or chilis (fresh or jarred)</li>
+<li>1 large sweet onion (chopped)</li>
+<li>2 bell peppers (diced)</li>
+<li>4 garlic cloves (minced)</li>
+<li>4 green onions (diced)</li>
+<li>2 tsp salt</li>
+<li>1/3 cup lime juice</li>
+<li>1 tbsp lemon juice</li>
+<li>1 cup cilantro (torn)</li>
 </ul>
 
 <p>Directions are available at the linked source.</p>
@@ -7636,6 +7450,46 @@ permalink: /ernst-recipes/
 <li>2 to 3 tablespoons Thai red curry paste (to taste)</li>
 <li>2 tablespoons lime juice</li>
 <li>1 tablespoon fish sauce</li>
+</ul>
+
+<p>Directions are available at the linked source.</p>
+
+</details>
+
+<hr />
+
+<details class="recipe-item">
+<summary><h2>Sausage, Spinach and White Bean Soup</h2></summary>
+
+<p>Link to recipe <a href="https://damndelicious.net/2015/03/21/slow-cooker-sausage-spinach-and-white-bean-soup/">here</a>.</p>
+
+<dl>
+<dt>Yield</dt>
+<dd>8, 8 servings</dd>
+<dt>Prep time</dt>
+<dd>PT10M</dd>
+<dt>Cook time</dt>
+<dd>PT485M</dd>
+<dt>Total time</dt>
+<dd>PT495M</dd>
+</dl>
+
+<h3>Ingredients</h3>
+
+<ul>
+<li>1 tablespoon olive oil</li>
+<li>1 (12.8-ounce) package smoked andouille sausage (thinly sliced)</li>
+<li>3 cloves garlic (minced)</li>
+<li>1 onion (diced)</li>
+<li>3 carrots (peeled and diced)</li>
+<li>2 celery ribs (diced)</li>
+<li>2 (15-ounce) cans Great Northern beans (drained and rinsed)</li>
+<li>1/2 teaspoon dried oregano</li>
+<li>2 bay leaves</li>
+<li>4 cups chicken broth</li>
+<li>Kosher salt and freshly ground black pepper (to taste)</li>
+<li>3 cups baby spinach</li>
+<li>1/2 cup shaved Parmesan</li>
 </ul>
 
 <p>Directions are available at the linked source.</p>
@@ -7792,6 +7646,143 @@ permalink: /ernst-recipes/
 <hr />
 
 <details class="recipe-item">
+<summary><h2>Shepherd’s Pie Recipe</h2></summary>
+
+<p>Link to recipe <a href="https://www.thewholesomedish.com/the-best-classic-shepherds-pie/">here</a>.</p>
+
+<dl>
+<dt>Yield</dt>
+<dd>6, 6 servings</dd>
+<dt>Prep time</dt>
+<dd>PT20M</dd>
+<dt>Cook time</dt>
+<dd>PT50M</dd>
+<dt>Total time</dt>
+<dd>PT70M</dd>
+</dl>
+
+<h3>Ingredients</h3>
+
+<ul>
+<li>2 tablespoons olive oil</li>
+<li>1 cup chopped yellow onion</li>
+<li>1 lb. 90% lean ground beef (-or ground lamb)</li>
+<li>2 teaspoons dried parsley leaves</li>
+<li>1 teaspoon dried rosemary leaves</li>
+<li>1 teaspoon dried thyme leaves</li>
+<li>1/2 teaspoon salt</li>
+<li>1/2 teaspoon ground black pepper</li>
+<li>1 tablespoon Worcestershire sauce</li>
+<li>2 garlic cloves (-minced)</li>
+<li>2 tablespoons all purpose flour</li>
+<li>2 tablespoons tomato paste</li>
+<li>1 cup beef broth</li>
+<li>1 cup frozen mixed peas &amp; carrots*</li>
+<li>1/2 cup frozen corn kernels</li>
+<li>1 1/2 - 2 lb. russet potatoes (-about 2 large potatoes peeled and cut into 1 inch cubes)</li>
+<li>8 tablespoons unsalted butter (-1 stick)</li>
+<li>1/3 cup half &amp; half</li>
+<li>1/2 teaspoon garlic powder</li>
+<li>1/2 teaspoon salt</li>
+<li>1/4 teaspoon ground black pepper</li>
+<li>1/4 cup parmesan cheese</li>
+</ul>
+
+<p>Directions are available at the linked source.</p>
+
+</details>
+
+<hr />
+
+<details class="recipe-item">
+<summary><h2>Short Ribs</h2></summary>
+
+<p>Link to recipe <a href="https://www.pressurecookrecipes.com/instant-pot-short-ribs/">here</a>.</p>
+
+<dl>
+<dt>Yield</dt>
+<dd>4, 4 - 6</dd>
+<dt>Prep time</dt>
+<dd>PT10M</dd>
+<dt>Cook time</dt>
+<dd>PT90M</dd>
+<dt>Total time</dt>
+<dd>PT100M</dd>
+</dl>
+
+<h3>Ingredients</h3>
+
+<ul>
+<li>6 - 10 pieces (1116g) bone-in short ribs ((1.5 - 2 inches thick))</li>
+<li>6 cloves garlic (, crushed and chopped)</li>
+<li>2 (300g) small onions (, sliced)</li>
+<li>2 (170g) medium carrots (, chopped)</li>
+<li>2 ribs (90g) celery (, chopped)</li>
+<li>½ cup (125ml) red wine (Cabernet Sauvignon)</li>
+<li>½ cup (125ml) unsalted chicken stock or good quality beef broth</li>
+<li>2 tablespoons (30ml) balsamic vinegar</li>
+<li>1 - 1.5 tablespoon (14-21g) brown sugar</li>
+<li>1 tablespoon (15ml) regular soy sauce</li>
+<li>1 tablespoon (15ml) fish sauce</li>
+<li>1 tablespoon (15ml) olive oil</li>
+<li>2 bay leaves</li>
+<li>A pinch dried thyme</li>
+<li>Kosher salt and ground black pepper to taste</li>
+<li>2.5 tablespoons (22.5g) cornstarch</li>
+<li>3 tablespoons (45ml) cold water</li>
+<li>3 - 4 russet potatoes (, halved)</li>
+<li>100 ml whole milk</li>
+<li>1 - 2 tablespoons (14g - 28g) unsalted butter</li>
+</ul>
+
+<p>Directions are available at the linked source.</p>
+
+</details>
+
+<hr />
+
+<details class="recipe-item">
+<summary><h2>Short Ribs</h2></summary>
+
+<p>Link to recipe <a href="https://messinthekitchen.com/instant-pot-short-ribs/#recipe">here</a>.</p>
+
+<dl>
+<dt>Yield</dt>
+<dd>6</dd>
+<dt>Prep time</dt>
+<dd>PT5M</dd>
+<dt>Cook time</dt>
+<dd>PT65M</dd>
+<dt>Total time</dt>
+<dd>PT85M</dd>
+</dl>
+
+<h3>Ingredients</h3>
+
+<ul>
+<li>3-4 lbs beef short ribs</li>
+<li>1 tsp salt (or to taste)</li>
+<li>1 tsp pepper (or to taste)</li>
+<li>2 tbsp olive oil</li>
+<li>4 cloves garlic (crushed)</li>
+<li>1 medium onion (quartered)</li>
+<li>1 medium carrot (cut into large pieces)</li>
+<li>1-2 ribs celery (cut into large pieces)</li>
+<li>2 tbsp tomato paste</li>
+<li>1 cup red wine (Cabernet Sauvignon, Pinot Noir, or Merlot)</li>
+<li>1/2 cup beef broth (low sodium)</li>
+<li>2 tbsp balsamic vinegar</li>
+<li>2 sprigs thyme</li>
+<li>2 bay leaves (fresh or dried)</li>
+</ul>
+
+<p>Directions are available at the linked source.</p>
+
+</details>
+
+<hr />
+
+<details class="recipe-item">
 <summary><h2>Shortbread Cookies Recipe</h2></summary>
 
 <p>Link to recipe <a href="https://preppykitchen.com/shortbread-cookies-recipe/">here</a>.</p>
@@ -7899,7 +7890,7 @@ permalink: /ernst-recipes/
 <hr />
 
 <details class="recipe-item">
-<summary><h2>Sizzlin&#x27; Spicy Szechuan Stir-Fry</h2></summary>
+<summary><h2>Sizzlin' Spicy Szechuan Stir-Fry</h2></summary>
 
 <p>Link to recipe <a href="https://www.gimmesomeoven.com/sizzlin-spicy-szechuan-stir-fry/">here</a>.</p>
 
@@ -7924,6 +7915,49 @@ permalink: /ernst-recipes/
 <li>4 cloves garlic (peeled and thinly sliced)</li>
 <li>1 batch Szechuan Sauce</li>
 <li>optional toppings: thinly-sliced green onions (toasted sesame seeds, extra crushed red pepper flakes)</li>
+</ul>
+
+<p>Directions are available at the linked source.</p>
+
+</details>
+
+<hr />
+
+<details class="recipe-item">
+<summary><h2>Sloppy Joe Recipe</h2></summary>
+
+<p>Link to recipe <a href="https://sugarspunrun.com/the-best-sloppy-joe-recipe/#recipe">here</a>.</p>
+
+<dl>
+<dt>Yield</dt>
+<dd>6, 6 servings</dd>
+<dt>Prep time</dt>
+<dd>PT15M</dd>
+<dt>Cook time</dt>
+<dd>PT10M</dd>
+<dt>Total time</dt>
+<dd>PT25M</dd>
+</dl>
+
+<h3>Ingredients</h3>
+
+<ul>
+<li>1 Tablespoon olive oil</li>
+<li>½ cup finely chopped yellow onion (about ½ a medium onion)</li>
+<li>½ cup finely chopped red bell pepper</li>
+<li>1 lb ground beef (I like to use 90%)</li>
+<li>1 teaspoon smoked paprika</li>
+<li>1 teaspoon garlic powder</li>
+<li>½ teaspoon onion powder</li>
+<li>½ teaspoon ground mustard (or 1 teaspoon prepared yellow mustard)</li>
+<li>1 teaspoon salt</li>
+<li>½ teaspoon ground black pepper</li>
+<li>½ cup tomato paste (4 oz )</li>
+<li>3-4 Tablespoons light brown sugar (firmly packed)</li>
+<li>3 Tablespoons apple cider vinegar</li>
+<li>1 Tablespoon worcestershire sauce ((may substitute coconut aminos))</li>
+<li>½ cup chicken broth (beef broth, or water )</li>
+<li>Burger buns (for serving)</li>
 </ul>
 
 <p>Directions are available at the linked source.</p>
@@ -7966,168 +8000,6 @@ permalink: /ernst-recipes/
 <li>1 lb. ground beef</li>
 <li>1 c. canned tomato sauce</li>
 <li>6 hamburger buns, toasted</li>
-</ul>
-
-<p>Directions are available at the linked source.</p>
-
-</details>
-
-<hr />
-
-<details class="recipe-item">
-<summary><h2>Slow Cooker Honey Garlic Chicken</h2></summary>
-
-<p>Link to recipe <a href="https://cafedelites.com/slow-cooker-honey-garlic-chicken/">here</a>.</p>
-
-<dl>
-<dt>Yield</dt>
-<dd>4, 4 - 6 serves</dd>
-<dt>Prep time</dt>
-<dd>PT10M</dd>
-<dt>Cook time</dt>
-<dd>PT120M</dd>
-<dt>Total time</dt>
-<dd>PT135M</dd>
-</dl>
-
-<h3>Ingredients</h3>
-
-<ul>
-<li>6 large chicken thighs (skinless and bone-in)</li>
-<li>1 tablespoon olive oil (divided)</li>
-<li>1 teaspoon paprika (mild or smoked)</li>
-<li>1/2 teaspoon brown sugar</li>
-<li>1/2 teaspoon garlic powder</li>
-<li>1/2 teaspoon onion powder</li>
-<li>1 pinch cayenne pepper (optional)</li>
-<li>1 teaspoon coarse salt</li>
-<li>1/4 teaspoon cracked pepper</li>
-<li>1/2 cup honey</li>
-<li>1/2 cup unsalted butter</li>
-<li>6 cloves garlic (finely chopped or minced)</li>
-<li>2 tablespoons low sodium soy sauce</li>
-<li>2 tablespoons rice wine vinegar (or cider vinegar)</li>
-<li>1 pinch salt</li>
-<li>1/2 teaspoon cracked pepper</li>
-<li>1/4 cup water (or chicken broth)</li>
-<li>2 teaspoons cornstarch</li>
-</ul>
-
-<p>Directions are available at the linked source.</p>
-
-</details>
-
-<hr />
-
-<details class="recipe-item">
-<summary><h2>Slow Cooker Honey Glazed Ham</h2></summary>
-
-<p>Link to recipe <a href="https://wholefully.com/slow-cooker-honey-glazed-ham/">here</a>.</p>
-
-<dl>
-<dt>Yield</dt>
-<dd>4, 4 servings</dd>
-<dt>Prep time</dt>
-<dd>PT10M</dd>
-<dt>Cook time</dt>
-<dd>PT240M</dd>
-<dt>Total time</dt>
-<dd>PT250M</dd>
-</dl>
-
-<h3>Ingredients</h3>
-
-<ul>
-<li>1 spiral-sliced ham (fully cooked (between 4-7 pounds))</li>
-<li>½ cup brown sugar</li>
-<li>½ cup honey</li>
-<li>2 tablespoons Dijon or spicy brown mustard</li>
-<li>¼ teaspoon ground cloves</li>
-<li>2 cloves garlic (minced)</li>
-<li>¼ cup water</li>
-</ul>
-
-<p>Directions are available at the linked source.</p>
-
-</details>
-
-<hr />
-
-<details class="recipe-item">
-<summary><h2>Slow Cooker Pot Roast</h2></summary>
-
-<p>Link to recipe <a href="https://damndelicious.net/2019/04/12/slow-cooker-pot-roast/">here</a>.</p>
-
-<dl>
-<dt>Yield</dt>
-<dd>8, 8 servings</dd>
-<dt>Prep time</dt>
-<dd>PT20M</dd>
-<dt>Cook time</dt>
-<dd>PT505M</dd>
-<dt>Total time</dt>
-<dd>PT525M</dd>
-</dl>
-
-<h3>Ingredients</h3>
-
-<ul>
-<li>3 pound boneless chuck roast (excess fat trimmed)</li>
-<li>Kosher salt and freshly ground black pepper (to taste)</li>
-<li>1 1/2 tablespoons canola oil</li>
-<li>1 1/2 cups beef broth</li>
-<li>1/2 cup dry red wine</li>
-<li>1/4 cup all purpose flour</li>
-<li>2 tablespoons tomato paste</li>
-<li>2 tablespoons Worcestershire sauce</li>
-<li>2 pounds Yukon gold potatoes</li>
-<li>3 carrots (cut into 3-inch pieces)</li>
-<li>2 celery ribs (cut into 3-inch pieces)</li>
-<li>1 medium sweet onion (cut into 1-inch wedges)</li>
-<li>2 cloves garlic (minced)</li>
-<li>6 sprigs fresh thyme</li>
-<li>1 bay leaf</li>
-<li>2 tablespoons chopped fresh parsley leaves</li>
-</ul>
-
-<p>Directions are available at the linked source.</p>
-
-</details>
-
-<hr />
-
-<details class="recipe-item">
-<summary><h2>Slow Cooker Sausage, Spinach and White Bean Soup</h2></summary>
-
-<p>Link to recipe <a href="https://damndelicious.net/2015/03/21/slow-cooker-sausage-spinach-and-white-bean-soup/">here</a>.</p>
-
-<dl>
-<dt>Yield</dt>
-<dd>8, 8 servings</dd>
-<dt>Prep time</dt>
-<dd>PT10M</dd>
-<dt>Cook time</dt>
-<dd>PT485M</dd>
-<dt>Total time</dt>
-<dd>PT495M</dd>
-</dl>
-
-<h3>Ingredients</h3>
-
-<ul>
-<li>1 tablespoon olive oil</li>
-<li>1 (12.8-ounce) package smoked andouille sausage (thinly sliced)</li>
-<li>3 cloves garlic (minced)</li>
-<li>1 onion (diced)</li>
-<li>3 carrots (peeled and diced)</li>
-<li>2 celery ribs (diced)</li>
-<li>2 (15-ounce) cans Great Northern beans (drained and rinsed)</li>
-<li>1/2 teaspoon dried oregano</li>
-<li>2 bay leaves</li>
-<li>4 cups chicken broth</li>
-<li>Kosher salt and freshly ground black pepper (to taste)</li>
-<li>3 cups baby spinach</li>
-<li>1/2 cup shaved Parmesan</li>
 </ul>
 
 <p>Directions are available at the linked source.</p>
@@ -8376,6 +8248,50 @@ permalink: /ernst-recipes/
 <hr />
 
 <details class="recipe-item">
+<summary><h2>Spicy Coconut Butter Chicken</h2></summary>
+
+<p>Link to recipe <a href="https://www.halfbakedharvest.com/butter-chicken/">here</a>.</p>
+
+<dl>
+<dt>Yield</dt>
+<dd>6</dd>
+<dt>Prep time</dt>
+<dd>PT10M</dd>
+<dt>Cook time</dt>
+<dd>PT20M</dd>
+<dt>Total time</dt>
+<dd>PT30M</dd>
+</dl>
+
+<h3>Ingredients</h3>
+
+<ul>
+<li>2 pounds boneless skinless chicken breasts or thighs, cut into bite-size chunks</li>
+<li>1/4 cup plain Greek yogurt</li>
+<li>6 cloves garlic, minced or grated</li>
+<li>2 tablespoons fresh grated ginger</li>
+<li>2 teaspoons plus 1 tablespoon garam masala</li>
+<li>2 teaspoons cumin</li>
+<li>1 teaspoon turmeric</li>
+<li>1-2 teaspoons cayenne pepper, use to your taste</li>
+<li>kosher salt and black pepper</li>
+<li>2 tablespoons extra virgin olive oil</li>
+<li>4 tablespoons salted butter</li>
+<li>1 large yellow onion, chopped</li>
+<li>1-2 teaspoons crushed red pepper flakes, use to your taste</li>
+<li>1/2 cup tomato paste</li>
+<li>1 (14 ounce) can full-fat coconut milk ((or sub 1 cup cream))</li>
+<li>1/2 cup fresh cilantro roughly, chopped</li>
+<li>steamed rice and naan, for serving</li>
+</ul>
+
+<p>Directions are available at the linked source.</p>
+
+</details>
+
+<hr />
+
+<details class="recipe-item">
 <summary><h2>Spicy Sesame Gochujang Noodles</h2></summary>
 
 <p>Link to recipe <a href="https://www.gimmesomeoven.com/spicy-sesame-gochujang-noodles/">here</a>.</p>
@@ -8532,6 +8448,64 @@ permalink: /ernst-recipes/
 <li>Freshly ground black pepper</li>
 <li>1/4 c. melted butter</li>
 <li>Lime wedges, for squeezing</li>
+</ul>
+
+<p>Directions are available at the linked source.</p>
+
+</details>
+
+<hr />
+
+<details class="recipe-item">
+<summary><h2>Sweet Potatoes</h2></summary>
+
+<p>Link to recipe <a href="https://www.pressurecookrecipes.com/instant-pot-sweet-potato/">here</a>.</p>
+
+<dl>
+<dt>Yield</dt>
+<dd>2, 2 - 4</dd>
+<dt>Total time</dt>
+<dd>PT40M</dd>
+</dl>
+
+<h3>Ingredients</h3>
+
+<ul>
+<li>2 - 4 whole sweet potatoes ((circumference: 6 – 12 inches, weight: 160g – 700g))</li>
+<li>1 cup (250ml) cold water</li>
+<li>Optional Toppings: butter &amp; maple syrup</li>
+</ul>
+
+<p>Directions are available at the linked source.</p>
+
+</details>
+
+<hr />
+
+<details class="recipe-item">
+<summary><h2>Szechuan Sauce</h2></summary>
+
+<p>Link to recipe <a href="https://www.gimmesomeoven.com/szechuan-sauce/">here</a>.</p>
+
+<dl>
+<dt>Prep time</dt>
+<dd>PT5M</dd>
+<dt>Total time</dt>
+<dd>PT5M</dd>
+</dl>
+
+<h3>Ingredients</h3>
+
+<ul>
+<li>1/4 cup low-sodium soy sauce</li>
+<li>2 tablespoons maple syrup or brown sugar</li>
+<li>1 tablespoon cornstarch (optional*)</li>
+<li>1 tablespoon chili garlic sauce</li>
+<li>1 tablespoon rice vinegar</li>
+<li>1/2 teaspoon Chinese five spice powder</li>
+<li>1/2 teaspoon crushed red pepper flakes</li>
+<li>1/2 teaspoon garlic powder</li>
+<li>1/2 teaspoon ground ginger</li>
 </ul>
 
 <p>Directions are available at the linked source.</p>
@@ -8920,207 +8894,6 @@ permalink: /ernst-recipes/
 <hr />
 
 <details class="recipe-item">
-<summary><h2>The BEST Carrot Cake with Cream Cheese Frosting</h2></summary>
-
-<p>Link to recipe <a href="https://www.livewellbakeoften.com/the-best-carrot-cake-recipe/">here</a>.</p>
-
-<dl>
-<dt>Yield</dt>
-<dd>10, 10 slices</dd>
-<dt>Prep time</dt>
-<dd>PT35M</dd>
-<dt>Cook time</dt>
-<dd>PT35M</dd>
-<dt>Total time</dt>
-<dd>PT70M</dd>
-</dl>
-
-<h3>Ingredients</h3>
-
-<ul>
-<li>2 cups all-purpose flour</li>
-<li>2 teaspoons baking powder</li>
-<li>1 teaspoon baking soda</li>
-<li>1 ½ teaspoons ground cinnamon</li>
-<li>½ teaspoon ground ginger</li>
-<li>¼ teaspoon ground nutmeg</li>
-<li>½ teaspoon salt</li>
-<li>¾ cup canola or vegetable oil ((180ml) )</li>
-<li>4 large eggs (at room temperature)</li>
-<li>1 ½ cups packed light brown sugar ((300 grams) )</li>
-<li>½ cup granulated sugar ((100 grams))</li>
-<li>½ cup unsweetened applesauce ((125 grams) )</li>
-<li>1 teaspoon pure vanilla extract</li>
-<li>3 cups lightly packed grated carrots ((300 grams) )</li>
-<li>1 (8-ounce) package brick style cream cheese ((226 grams) softened)</li>
-<li>½ cup unsalted butter ((115 grams) softened)</li>
-<li>2 cups powdered sugar ((240 grams) )</li>
-<li>1 teaspoon pure vanilla extract</li>
-</ul>
-
-<p>Directions are available at the linked source.</p>
-
-</details>
-
-<hr />
-
-<details class="recipe-item">
-<summary><h2>The BEST Homemade Baked Mac and Cheese</h2></summary>
-
-<p>Link to recipe <a href="https://www.momontimeout.com/best-homemade-baked-mac-and-cheese-recipe/">here</a>.</p>
-
-<dl>
-<dt>Yield</dt>
-<dd>12</dd>
-<dt>Prep time</dt>
-<dd>PT20M</dd>
-<dt>Cook time</dt>
-<dd>PT30M</dd>
-<dt>Total time</dt>
-<dd>PT60M</dd>
-</dl>
-
-<h3>Ingredients</h3>
-
-<ul>
-<li>16 oz elbow macaroni, cooked ((or other tubular pasta))</li>
-<li>1 tbsp extra virgin olive oil</li>
-<li>6 tbsp unsalted butter</li>
-<li>1/3 cup all purpose flour</li>
-<li>3 cups whole milk</li>
-<li>1 cup heavy whipping cream</li>
-<li>4 cups sharp cheddar cheese (shredded)</li>
-<li>2 cups Gruyere cheese (shredded)</li>
-<li>salt and pepper to taste</li>
-<li>1 1/2 cups panko crumbs</li>
-<li>4 tbsp butter (melted)</li>
-<li>1/2 cup Parmesan cheese (shredded)</li>
-<li>1/4 tsp smoked paprika ((or regular paprika))</li>
-</ul>
-
-<p>Directions are available at the linked source.</p>
-
-</details>
-
-<hr />
-
-<details class="recipe-item">
-<summary><h2>The Best Mashed Potatoes Recipe</h2></summary>
-
-<p>Link to recipe <a href="https://www.spendwithpennies.com/how-to-make-mashed-potatoes/">here</a>.</p>
-
-<dl>
-<dt>Yield</dt>
-<dd>10, 10 servings</dd>
-<dt>Prep time</dt>
-<dd>PT15M</dd>
-<dt>Cook time</dt>
-<dd>PT20M</dd>
-<dt>Total time</dt>
-<dd>PT35M</dd>
-</dl>
-
-<h3>Ingredients</h3>
-
-<ul>
-<li>4 pounds potatoes (russet or Yukon gold)</li>
-<li>3 cloves garlic (optional)</li>
-<li>⅓ cup melted salted butter</li>
-<li>1 cup milk (or cream)</li>
-<li>salt (to taste)</li>
-<li>black pepper (to taste)</li>
-</ul>
-
-<p>Directions are available at the linked source.</p>
-
-</details>
-
-<hr />
-
-<details class="recipe-item">
-<summary><h2>The Best Sloppy Joe Recipe</h2></summary>
-
-<p>Link to recipe <a href="https://sugarspunrun.com/the-best-sloppy-joe-recipe/#recipe">here</a>.</p>
-
-<dl>
-<dt>Yield</dt>
-<dd>6, 6 servings</dd>
-<dt>Prep time</dt>
-<dd>PT15M</dd>
-<dt>Cook time</dt>
-<dd>PT10M</dd>
-<dt>Total time</dt>
-<dd>PT25M</dd>
-</dl>
-
-<h3>Ingredients</h3>
-
-<ul>
-<li>1 Tablespoon olive oil</li>
-<li>½ cup finely chopped yellow onion (about ½ a medium onion)</li>
-<li>½ cup finely chopped red bell pepper</li>
-<li>1 lb ground beef (I like to use 90%)</li>
-<li>1 teaspoon smoked paprika</li>
-<li>1 teaspoon garlic powder</li>
-<li>½ teaspoon onion powder</li>
-<li>½ teaspoon ground mustard (or 1 teaspoon prepared yellow mustard)</li>
-<li>1 teaspoon salt</li>
-<li>½ teaspoon ground black pepper</li>
-<li>½ cup tomato paste (4 oz )</li>
-<li>3-4 Tablespoons light brown sugar (firmly packed)</li>
-<li>3 Tablespoons apple cider vinegar</li>
-<li>1 Tablespoon worcestershire sauce ((may substitute coconut aminos))</li>
-<li>½ cup chicken broth (beef broth, or water )</li>
-<li>Burger buns (for serving)</li>
-</ul>
-
-<p>Directions are available at the linked source.</p>
-
-</details>
-
-<hr />
-
-<details class="recipe-item">
-<summary><h2>The Best-Ever Tuna Melt</h2></summary>
-
-<p>Link to recipe <a href="https://www.simplyrecipes.com/recipes/tarragon_tuna_melt/">here</a>.</p>
-
-<dl>
-<dt>Yield</dt>
-<dd>4, 4 sandwiches</dd>
-<dt>Prep time</dt>
-<dd>PT10M</dd>
-<dt>Cook time</dt>
-<dd>PT8M</dd>
-<dt>Total time</dt>
-<dd>PT18M</dd>
-</dl>
-
-<h3>Ingredients</h3>
-
-<ul>
-<li>1 thinly sliced green onion, including the greens</li>
-<li>3 tablespoons chopped fresh flat-leaf parsley</li>
-<li>2 tablespoons chopped fresh tarragon leaves, or 2 teaspoons dried tarragon, crumbled</li>
-<li>Zest of one lemon</li>
-<li>2 teaspoons lemon juice</li>
-<li>1 teaspoon Dijon mustard</li>
-<li>1/8 teaspoon freshly ground black pepper</li>
-<li>1/3 cup mayonnaise</li>
-<li>2 6-ounce cans solid white tuna, well drained and flaked</li>
-<li>8 slices French or Italian loaf bread (or your favorite bread), sliced 1/2-inch thick</li>
-<li>1 thinly sliced tomato (8 slices)</li>
-<li>4 ounces grated sharp white cheddar cheese (about 1 cup)</li>
-<li>2 tablespoons softened butter</li>
-</ul>
-
-<p>Directions are available at the linked source.</p>
-
-</details>
-
-<hr />
-
-<details class="recipe-item">
 <summary><h2>Tomatillo-Serrano Sauce (Salsa Verde) Step-by-Step</h2></summary>
 
 <p>Link to recipe <a href="https://www.mexicanplease.com/tomatillo-serrano-sauce-salsa-verde-step-by-step/">here</a>.</p>
@@ -9184,6 +8957,46 @@ permalink: /ernst-recipes/
 <li>6 oz fresh blackberries ((1 heaped cup))</li>
 <li>1/3 cup (68g) granulated sugar</li>
 <li>1 1/2 Tbsp (15g) cornstarch</li>
+</ul>
+
+<p>Directions are available at the linked source.</p>
+
+</details>
+
+<hr />
+
+<details class="recipe-item">
+<summary><h2>Tuna Melt</h2></summary>
+
+<p>Link to recipe <a href="https://www.simplyrecipes.com/recipes/tarragon_tuna_melt/">here</a>.</p>
+
+<dl>
+<dt>Yield</dt>
+<dd>4, 4 sandwiches</dd>
+<dt>Prep time</dt>
+<dd>PT10M</dd>
+<dt>Cook time</dt>
+<dd>PT8M</dd>
+<dt>Total time</dt>
+<dd>PT18M</dd>
+</dl>
+
+<h3>Ingredients</h3>
+
+<ul>
+<li>1 thinly sliced green onion, including the greens</li>
+<li>3 tablespoons chopped fresh flat-leaf parsley</li>
+<li>2 tablespoons chopped fresh tarragon leaves, or 2 teaspoons dried tarragon, crumbled</li>
+<li>Zest of one lemon</li>
+<li>2 teaspoons lemon juice</li>
+<li>1 teaspoon Dijon mustard</li>
+<li>1/8 teaspoon freshly ground black pepper</li>
+<li>1/3 cup mayonnaise</li>
+<li>2 6-ounce cans solid white tuna, well drained and flaked</li>
+<li>8 slices French or Italian loaf bread (or your favorite bread), sliced 1/2-inch thick</li>
+<li>1 thinly sliced tomato (8 slices)</li>
+<li>4 ounces grated sharp white cheddar cheese (about 1 cup)</li>
+<li>2 tablespoons softened butter</li>
 </ul>
 
 <p>Directions are available at the linked source.</p>

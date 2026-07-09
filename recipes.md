@@ -22,7 +22,6 @@ https://ohsheglows.com/2012/09/10/how-to-roast-a-sugar-pumpkin-make-fresh-pumpki
 https://chefsavvy.com/5-ingredient-peanut-butter-energy-bites/
 https://www.foodnetwork.com/recipes/robert-irvine/french-toast-recipe-1951408
 https://lmld.org/stuffed-hatch-chiles/
-https://fullofplants.com/instant-pot-sesame-basil-noodles-with-roasted-veggies/
 https://www.halfbakedharvest.com/blackberry-peach-crisp/
 https://www.google.com/amp/s/www.food.com/amp/recipe/herbed-garlic-bread-56476
 https://www.foodnetwork.com/recipes/food-network-kitchen/waffled-falafel-recipe-3361890
@@ -36,7 +35,6 @@ https://www.epicurious.com/recipes/food/views/thai-beef-with-basil-51198660/amp
 https://damndelicious.net/2021/05/09/kung-pao-chicken/
 https://ministryofcurry.com/instant-pot-chana-masala-recipe/
 https://damndelicious.net/2020/03/22/sheet-pan-lemon-rosemary-chicken/
-https://sweetphi.com/easy-cucumber-salad-recipe/#wprm-recipe-container-18208
 https://cookieandkate.com/zhoug-sauce-recipe/
 https://www.gimmesomeoven.com/fried-rice-recipe/
 https://www.thewholesomedish.com/the-best-classic-shepherds-pie/
@@ -58,7 +56,6 @@ https://damndelicious.net/2018/09/30/cold-fighting-chicken-noodle-soup/
 https://damndelicious.net/2013/07/07/korean-beef-bowl/print/
 https://www.halfbakedharvest.com/molten-chocolate-crackle-pie/
 https://damndelicious.net/2019/07/08/instant-pot-baked-potato/
-https://lakegenevacountrymeats.com/recipes/andouille-sausage-skillet
 https://iheartvegetables.com/instant-pot-cuban-black-beans-and-rice/
 https://thesaltymarshmallow.com/easy-dirty-rice/
 https://www.gimmesomeoven.com/instant-pot-barbacoa-beef/
@@ -113,7 +110,6 @@ https://www.gimmesomeoven.com/sour-cream-coffee-cake/
 https://www.gimmesomeoven.com/1-hour-soft-buttery-dinner-rolls/
 https://www.bonappetit.com/recipe/power-butter
 https://www.bonappetit.com/recipe/turmeric-ginger-tonic-with-chia-seeds
-http://glenellenvillagemarket.org/kale-and-beef-rice-bowls/
 https://www.veganricha.com/vegan-malai-kofta-recipe/
 https://www.pressurecookrecipes.com/instant-pot-refried-beans/
 https://www.tastesoflizzyt.com/homemade-cinnamon-rolls/
@@ -142,7 +138,6 @@ https://www.onceuponachef.com/recipes/grilled-flank-steak.html
 https://www.onceuponachef.com/recipes/thai-cucumber-salad-with-peanuts.html
 https://www.kathysvegankitchen.com/french-lentil-salad/
 https://www.delishknowledge.com/black-bean-and-mango-salsa/#tasty-recipes-23480-jump-target
-https://www.thekitchn.com/steak-rice-noodle-salad-22944350
 https://www.onceuponachef.com/recipes/blueberry-coffee-cake.html
 https://tastesbetterfromscratch.com/pad-thai/
 https://kristineskitchenblog.com/instant-pot-beef-stew/
@@ -185,7 +180,6 @@ https://kathrynskitchenblog.com/apple-cinnamon-crisp/
 https://www.momontimeout.com/best-homemade-baked-mac-and-cheese-recipe/
 https://www.halfbakedharvest.com/sesame-teriyaki-chicken/
 https://www.onceuponachef.com/recipes/pasta-fagioli.html
-https://whisperofyum.com/post/sesame-garlic-ramen-noodles/
 https://www.gimmesomeoven.com/italian-lentil-soup-recipe/
 https://www.gimmesomeoven.com/lemony-spiced-orzo-and-chickpeas/
 https://www.gimmesomeoven.com/crumbled-falafel-bowls/
@@ -200,14 +194,10 @@ https://eatsomethingvegan.com/lentil-chili/
 https://www.wellplated.com/instant-pot-beef-stew/
 https://thecozycook.com/stuffed-shells/
 https://fedandfit.com/ground-beef-burrito-bowl/
-https://domeniquetrupia.com/2024/04/10/creamy-orzo-beef/
-https://domeniquetrupia.com/2023/09/02/3-layer-chuck-roast-tacos/
-https://domeniquetrupia.com/2021/07/03/creamy-sun-dried-tomato-pasta/
 https://www.pressurecookrecipes.com/instant-pot-short-ribs/
 https://www.pressurecookrecipes.com/instant-pot-coconut-oatmeal/
 https://www.pressurecookrecipes.com/instant-pot-sweet-potato/
 https://www.pressurecookrecipes.com/instant-pot-bbq-chicken/
-https://damndelicious.net/2014/01/10/southwestern-chopped-salad-cilantro-lime-dressing/
 https://damndelicious.net/2019/07/17/warm-potato-salad/
 https://damndelicious.net/2013/03/25/kale-salad-with-meyer-lemon-vinaigrette/
 https://theviewfromgreatisland.com/chow-mein/
@@ -215,7 +205,6 @@ https://www.recipetineats.com/marinated-bbq-vegetables/#wprm-recipe-container-37
 https://thecozycook.com/corn-salad/
 https://confessionsofafitfoodie.com/whipped-cottage-cheese-and-greek-yogurt-dessert-cups/
 https://asimplepalate.com/blog/classic-eggplant-parmesan/
-https://www.sonshinekitchen.com/quick-and-easy-20-minute-garlic-rice-noodles-recipe/
 https://thewoksoflife.com/prepare-beef-for-stir-fry/
 https://www.halfbakedharvest.com/ginger-cashew-beef/
 https://thesaltymarshmallow.com/best-homemade-alfredo-sauce/
@@ -227,20 +216,17 @@ https://fedbysab.com/crispy-honey-garlic-beef/
 https://tastesbetterfromscratch.com/pecan-pie/
 https://www.halfbakedharvest.com/cheddar-beef-chili/
 https://www.simplyrecipes.com/pumpkin-pie-recipe-5101769
-https://www.thekitchn.com/pecan-pie-recipe-23689970
 https://aseasyasapplepie.com/cloverleaf-dinner-rolls/
 https://aseasyasapplepie.com/mediterranean-farro-salad/
 https://thecozyapron.com/potato-curry/
 https://partylicious.net/rosemary-roasted-nuts/
 https://www.foodandwine.com/pasta-e-ceci-8624315
-https://juliasalbum.com/basil-pasta/
 https://www.mexicanplease.com/tomatillo-serrano-sauce-salsa-verde-step-by-step/
 https://www.thepioneerwoman.com/food-cooking/recipes/a9433/corn-fritters/
 https://damndelicious.net/2023/01/02/one-pot-sausage-pasta/
 https://tastesbetterfromscratch.com/enchilada-sauce-from-scratch/
 https://tastesbetterfromscratch.com/tamale-pie/
 https://tastesbetterfromscratch.com/cheese-enchiladas/
-https://www.thekitchn.com/potato-hash-recipe-23199140
 https://www.thespruceeats.com/fried-garlic-potatoes-3059708
 https://littlespicejar.com/lomo-saltado/
 https://www.aspicyperspective.com/instant-pot-italian-beef/#recipe
@@ -251,14 +237,11 @@ https://www.onceuponachef.com/recipes/black-bean-corn-salad-chipotle-honey-vinai
 https://www.onceuponachef.com/recipes/mesclun-salad-with-goat-cheese-mapleglazed-pecans-maple-dijon-vinaigrette.html
 https://www.onceuponachef.com/recipes/basil-vinaigrette.html
 https://www.onceuponachef.com/recipes/chickpea-corn-red-pepper-salad-with-honey-lime-vinaigrette.html
-https://www.thekitchn.com/instant-pot-mississippi-pot-roast-recipe-23136229
 https://natashaskitchen.com/beef-and-broccoli/
 https://www.simplyrecipes.com/recipes/cream_cheese_banana_bread/
-https://tiffycooks.com/honey-garlic-chicken-20-minutes/
 https://juliasalbum.com/chicken-with-zucchini-and-corn/#recipe
 https://www.saltandlavender.com/honey-garlic-pork-tenderloin/
 https://sugarspunrun.com/the-best-sloppy-joe-recipe/#recipe
-https://tiffycooks.com/spicy-honey-garlic-chicken-viral-recipe/
 https://www.loveandlemons.com/cilantro-lime-dressing/
 https://www.butterbeready.com/chicken-and-waffles-recipe/
 https://lilluna.com/snickerdoodles/
