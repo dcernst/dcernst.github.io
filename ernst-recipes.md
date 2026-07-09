@@ -4,10 +4,15 @@ title: Ernst Recipes
 permalink: /ernst-recipes/
 ---
 
+<style>
+.recipe-item summary h2 { display: inline-block; margin-top: 0; margin-bottom: 0; vertical-align: middle; }
+.recipe-item summary { cursor: pointer; }
+</style>
+
 <div class="recipe-list">
 
 <details class="recipe-item">
-<summary>1-Hour Soft and Buttery Dinner Rolls</summary>
+<summary><h2>1-Hour Soft and Buttery Dinner Rolls</h2></summary>
 
 <p>Link to recipe <a href="https://www.gimmesomeoven.com/1-hour-soft-buttery-dinner-rolls/">here</a>.</p>
 
@@ -39,8 +44,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>20 Minute Ginger Cashew Beef</summary>
+<summary><h2>20 Minute Ginger Cashew Beef</h2></summary>
 
 <p>Link to recipe <a href="https://www.halfbakedharvest.com/ginger-cashew-beef/">here</a>.</p>
 
@@ -82,8 +89,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>20 Minute Korean Gochujang Beef Bowls</summary>
+<summary><h2>20 Minute Korean Gochujang Beef Bowls</h2></summary>
 
 <p>Link to recipe <a href="https://www.halfbakedharvest.com/gochujang-beef-bowls/">here</a>.</p>
 
@@ -123,8 +132,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>25-Minute Pistachio Pesto Pasta with Orecchiette</summary>
+<summary><h2>25-Minute Pistachio Pesto Pasta with Orecchiette</h2></summary>
 
 <p>Link to recipe <a href="https://playswellwithbutter.com/pistachio-pesto-pasta/">here</a>.</p>
 
@@ -157,8 +168,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>30 Minute Dinner Rolls</summary>
+<summary><h2>30 Minute Dinner Rolls</h2></summary>
 
 <p>Link to recipe <a href="https://www.kyleecooks.com/30-minute-dinner-rolls/">here</a>.</p>
 
@@ -190,8 +203,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>30 Minute Spicy Coconut Butter Chicken</summary>
+<summary><h2>30 Minute Spicy Coconut Butter Chicken</h2></summary>
 
 <p>Link to recipe <a href="https://www.halfbakedharvest.com/butter-chicken/">here</a>.</p>
 
@@ -232,8 +247,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>5-Ingredient Mango Salsa</summary>
+<summary><h2>5-Ingredient Mango Salsa</h2></summary>
 
 <p>Link to recipe <a href="https://www.gimmesomeoven.com/5-ingredient-mango-salsa-recipe/">here</a>.</p>
 
@@ -258,8 +275,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>5-Minute Szechuan Sauce</summary>
+<summary><h2>5-Minute Szechuan Sauce</h2></summary>
 
 <p>Link to recipe <a href="https://www.gimmesomeoven.com/szechuan-sauce/">here</a>.</p>
 
@@ -288,8 +307,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>Almond Cranberry Bread</summary>
+<summary><h2>Almond Cranberry Bread</h2></summary>
 
 <p>Link to recipe <a href="https://www.healthyseasonalrecipes.com/cranberry-almond-quick-bread/">here</a>.</p>
 
@@ -326,8 +347,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>Almond Waffles with Cranberry Orange Honey Syrup</summary>
+<summary><h2>Almond Waffles with Cranberry Orange Honey Syrup</h2></summary>
 
 <p>Link to recipe <a href="https://www.healthyseasonalrecipes.com/almond-waffles-with-cranberry-orange-honey-syrup/">here</a>.</p>
 
@@ -365,8 +388,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>Amazing Lentil Chili</summary>
+<summary><h2>Amazing Lentil Chili</h2></summary>
 
 <p>Link to recipe <a href="https://eatsomethingvegan.com/lentil-chili/">here</a>.</p>
 
@@ -404,8 +429,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>Amazing Thai Cashew Chicken Recipe - Authentic and Easy to Make!</summary>
+<summary><h2>Amazing Thai Cashew Chicken Recipe - Authentic and Easy to Make!</h2></summary>
 
 <p>Link to recipe <a href="https://www.eatingthaifood.com/thai-cashew-chicken-recipe/">here</a>.</p>
 
@@ -413,8 +440,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>Apple Cinnamon Crisp</summary>
+<summary><h2>Apple Cinnamon Crisp</h2></summary>
 
 <p>Link to recipe <a href="https://kathrynskitchenblog.com/apple-cinnamon-crisp/">here</a>.</p>
 
@@ -451,8 +480,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>Arabic Fattoush Salad</summary>
+<summary><h2>Arabic Fattoush Salad</h2></summary>
 
 <p>Link to recipe <a href="https://www.allrecipes.com/recipe/223439/arabic-fattoush-salad/">here</a>.</p>
 
@@ -489,8 +520,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>Asian Cucumber Salad</summary>
+<summary><h2>Asian Cucumber Salad</h2></summary>
 
 <p>Link to recipe <a href="https://www.allrecipes.com/recipe/192623/asian-cucumber-salad/">here</a>.</p>
 
@@ -521,8 +554,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>Asian Dressing Recipe</summary>
+<summary><h2>Asian Dressing Recipe</h2></summary>
 
 <p>Link to recipe <a href="https://sweetpeasandsaffron.com/asian-salad-dressing/">here</a>.</p>
 
@@ -551,8 +586,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>Asian Kale Slaw with Ginger Peanut Dressing</summary>
+<summary><h2>Asian Kale Slaw with Ginger Peanut Dressing</h2></summary>
 
 <p>Link to recipe <a href="https://www.onceuponachef.com/recipes/asian-kale-salad-ginger-peanut-dressing.html">here</a>.</p>
 
@@ -590,8 +627,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>Asian Slaw with Ginger Peanut Dressing</summary>
+<summary><h2>Asian Slaw with Ginger Peanut Dressing</h2></summary>
 
 <p>Link to recipe <a href="https://www.onceuponachef.com/recipes/asian-slaw-with-ginger-peanut-dressing.html">here</a>.</p>
 
@@ -626,8 +665,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>Au Jus</summary>
+<summary><h2>Au Jus</h2></summary>
 
 <p>Link to recipe <a href="https://selfproclaimedfoodie.com/au-jus-recipe/">here</a>.</p>
 
@@ -659,8 +700,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>Baked Potato Recipe</summary>
+<summary><h2>Baked Potato Recipe</h2></summary>
 
 <p>Link to recipe <a href="https://www.chelseasmessyapron.com/baked-potato/">here</a>.</p>
 
@@ -689,8 +732,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>Barley Salad with Roasted Vegetables</summary>
+<summary><h2>Barley Salad with Roasted Vegetables</h2></summary>
 
 <p>Link to recipe <a href="https://www.themediterraneandish.com/roasted-vegetables-barley-recipe/">here</a>.</p>
 
@@ -729,8 +774,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>Basil Vinaigrette</summary>
+<summary><h2>Basil Vinaigrette</h2></summary>
 
 <p>Link to recipe <a href="https://www.onceuponachef.com/recipes/basil-vinaigrette.html">here</a>.</p>
 
@@ -761,8 +808,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>Beef and Broccoli Recipe</summary>
+<summary><h2>Beef and Broccoli Recipe</h2></summary>
 
 <p>Link to recipe <a href="https://natashaskitchen.com/beef-and-broccoli/">here</a>.</p>
 
@@ -798,8 +847,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>Beef Empanadas</summary>
+<summary><h2>Beef Empanadas</h2></summary>
 
 <p>Link to recipe <a href="https://cooking.nytimes.com/recipes/1014844-beef-empanadas">here</a>.</p>
 
@@ -836,8 +887,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>Beef Enchiladas</summary>
+<summary><h2>Beef Enchiladas</h2></summary>
 
 <p>Link to recipe <a href="https://www.gimmesomeoven.com/beef-enchiladas-recipe/">here</a>.</p>
 
@@ -873,8 +926,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>Beer Bread</summary>
+<summary><h2>Beer Bread</h2></summary>
 
 <p>Link to recipe <a href="https://www.food.com/recipe/beer-bread-73440">here</a>.</p>
 
@@ -904,8 +959,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>Best Classic Shepherd’s Pie Recipe</summary>
+<summary><h2>Best Classic Shepherd’s Pie Recipe</h2></summary>
 
 <p>Link to recipe <a href="https://www.thewholesomedish.com/the-best-classic-shepherds-pie/">here</a>.</p>
 
@@ -951,8 +1008,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>Best Easy Baked Pork Tenderloin</summary>
+<summary><h2>Best Easy Baked Pork Tenderloin</h2></summary>
 
 <p>Link to recipe <a href="https://sweetcsdesigns.com/best-baked-garlic-pork-tenderloin/">here</a>.</p>
 
@@ -989,8 +1048,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>Best Ever Beef Stew Recipe</summary>
+<summary><h2>Best Ever Beef Stew Recipe</h2></summary>
 
 <p>Link to recipe <a href="https://damndelicious.net/2020/02/29/best-ever-beef-stew/">here</a>.</p>
 
@@ -1030,8 +1091,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>Best Gluten Free Lasagna with Barilla No-Boil Noodles</summary>
+<summary><h2>Best Gluten Free Lasagna with Barilla No-Boil Noodles</h2></summary>
 
 <p>Link to recipe <a href="https://cupcakesandkalechips.com/worlds-best-gluten-free-lasagna/">here</a>.</p>
 
@@ -1076,8 +1139,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>Best Homemade Alfredo Sauce</summary>
+<summary><h2>Best Homemade Alfredo Sauce</h2></summary>
 
 <p>Link to recipe <a href="https://thesaltymarshmallow.com/best-homemade-alfredo-sauce/">here</a>.</p>
 
@@ -1108,8 +1173,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>Birria (Mexican Beef Stew)</summary>
+<summary><h2>Birria (Mexican Beef Stew)</h2></summary>
 
 <p>Link to recipe <a href="https://www.gimmesomeoven.com/birria/">here</a>.</p>
 
@@ -1153,8 +1220,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>Birria Tacos</summary>
+<summary><h2>Birria Tacos</h2></summary>
 
 <p>Link to recipe <a href="https://littlesunnykitchen.com/birria-tacos/">here</a>.</p>
 
@@ -1198,8 +1267,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>Black Bean &amp; Corn Salad with Chipotle-Honey Vinaigrette</summary>
+<summary><h2>Black Bean &amp; Corn Salad with Chipotle-Honey Vinaigrette</h2></summary>
 
 <p>Link to recipe <a href="https://www.onceuponachef.com/recipes/black-bean-corn-salad-chipotle-honey-vinaigrette.html">here</a>.</p>
 
@@ -1235,8 +1306,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>Black Bean and Mango Salsa</summary>
+<summary><h2>Black Bean and Mango Salsa</h2></summary>
 
 <p>Link to recipe <a href="https://www.delishknowledge.com/black-bean-and-mango-salsa/#tasty-recipes-23480-jump-target">here</a>.</p>
 
@@ -1266,8 +1339,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>Blueberry Coffee Cake (AKA Blueberry Boy Bait)</summary>
+<summary><h2>Blueberry Coffee Cake (AKA Blueberry Boy Bait)</h2></summary>
 
 <p>Link to recipe <a href="https://www.onceuponachef.com/recipes/blueberry-coffee-cake.html">here</a>.</p>
 
@@ -1306,8 +1381,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>Cajun Butter Chicken Breast Recipe</summary>
+<summary><h2>Cajun Butter Chicken Breast Recipe</h2></summary>
 
 <p>Link to recipe <a href="https://cafedelites.com/easy-cajun-butter-chicken-breasts/">here</a>.</p>
 
@@ -1345,8 +1422,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>Caramel Sauce</summary>
+<summary><h2>Caramel Sauce</h2></summary>
 
 <p>Link to recipe <a href="https://natashaskitchen.com/easy-caramel-sauce-recipe/">here</a>.</p>
 
@@ -1374,8 +1453,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>Carne Asada</summary>
+<summary><h2>Carne Asada</h2></summary>
 
 <p>Link to recipe <a href="https://www.gimmesomeoven.com/carne-asada/">here</a>.</p>
 
@@ -1410,8 +1491,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>Carne Asada</summary>
+<summary><h2>Carne Asada</h2></summary>
 
 <p>Link to recipe <a href="https://damndelicious.net/2019/05/05/carne-asada/">here</a>.</p>
 
@@ -1445,8 +1528,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>Cheese Enchiladas</summary>
+<summary><h2>Cheese Enchiladas</h2></summary>
 
 <p>Link to recipe <a href="https://tastesbetterfromscratch.com/cheese-enchiladas/">here</a>.</p>
 
@@ -1477,8 +1562,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>Cheese Enchiladas Recipe</summary>
+<summary><h2>Cheese Enchiladas Recipe</h2></summary>
 
 <p>Link to recipe <a href="https://lilluna.com/red-cheese-enchiladas-recipe/">here</a>.</p>
 
@@ -1512,8 +1599,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>Chicken and Waffles Recipe (The Best!)</summary>
+<summary><h2>Chicken and Waffles Recipe (The Best!)</h2></summary>
 
 <p>Link to recipe <a href="https://www.butterbeready.com/chicken-and-waffles-recipe/">here</a>.</p>
 
@@ -1549,8 +1638,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>Chile Verde Pork</summary>
+<summary><h2>Chile Verde Pork</h2></summary>
 
 <p>Link to recipe <a href="https://www.wellplated.com/easy-slow-cooker-pulled-pork/">here</a>.</p>
 
@@ -1595,8 +1686,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>Chimichurri</summary>
+<summary><h2>Chimichurri</h2></summary>
 
 <p>Link to recipe <a href="https://www.gimmesomeoven.com/chimichurri-sauce/">here</a>.</p>
 
@@ -1626,8 +1719,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>Chipotle Slow-Cooker Pork Tenderloin Tacos With Cranberries And Apples</summary>
+<summary><h2>Chipotle Slow-Cooker Pork Tenderloin Tacos With Cranberries And Apples</h2></summary>
 
 <p>Link to recipe <a href="https://www.foodfaithfitness.com/slow-cooker-pork-tenderloin-with-cranberries-apples-and-chipotle/">here</a>.</p>
 
@@ -1669,8 +1764,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>Chow Mein</summary>
+<summary><h2>Chow Mein</h2></summary>
 
 <p>Link to recipe <a href="https://www.gimmesomeoven.com/chow-mein/">here</a>.</p>
 
@@ -1707,8 +1804,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>Chow Mein</summary>
+<summary><h2>Chow Mein</h2></summary>
 
 <p>Link to recipe <a href="https://theviewfromgreatisland.com/chow-mein/">here</a>.</p>
 
@@ -1742,8 +1841,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>Cilantro Lime Dressing</summary>
+<summary><h2>Cilantro Lime Dressing</h2></summary>
 
 <p>Link to recipe <a href="https://www.loveandlemons.com/cilantro-lime-dressing/">here</a>.</p>
 
@@ -1774,8 +1875,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>Cinnamon Maple Brown Butter Blackberry Peach Crisp</summary>
+<summary><h2>Cinnamon Maple Brown Butter Blackberry Peach Crisp</h2></summary>
 
 <p>Link to recipe <a href="https://www.halfbakedharvest.com/blackberry-peach-crisp/">here</a>.</p>
 
@@ -1810,8 +1913,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>Classic Eggplant Parmesan</summary>
+<summary><h2>Classic Eggplant Parmesan</h2></summary>
 
 <p>Link to recipe <a href="https://asimplepalate.com/blog/classic-eggplant-parmesan/">here</a>.</p>
 
@@ -1849,8 +1954,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>Classic Pico de Gallo</summary>
+<summary><h2>Classic Pico de Gallo</h2></summary>
 
 <p>Link to recipe <a href="https://cookieandkate.com/classic-pico-de-gallo-recipe/">here</a>.</p>
 
@@ -1878,8 +1985,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>Cloverleaf Rolls</summary>
+<summary><h2>Cloverleaf Rolls</h2></summary>
 
 <p>Link to recipe <a href="https://aseasyasapplepie.com/cloverleaf-dinner-rolls/">here</a>.</p>
 
@@ -1910,8 +2019,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>Cold Fighting Chicken Noodle Soup</summary>
+<summary><h2>Cold Fighting Chicken Noodle Soup</h2></summary>
 
 <p>Link to recipe <a href="https://damndelicious.net/2018/09/30/cold-fighting-chicken-noodle-soup/">here</a>.</p>
 
@@ -1951,8 +2062,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>Corn Fritters</summary>
+<summary><h2>Corn Fritters</h2></summary>
 
 <p>Link to recipe <a href="https://www.thepioneerwoman.com/food-cooking/recipes/a9433/corn-fritters/">here</a>.</p>
 
@@ -1988,8 +2101,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>Corn Salad</summary>
+<summary><h2>Corn Salad</h2></summary>
 
 <p>Link to recipe <a href="https://www.delish.com/cooking/recipe-ideas/a19695472/easy-fresh-corn-salad-recipe/">here</a>.</p>
 
@@ -2022,8 +2137,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>Corn Salad</summary>
+<summary><h2>Corn Salad</h2></summary>
 
 <p>Link to recipe <a href="https://thecozycook.com/corn-salad/">here</a>.</p>
 
@@ -2062,8 +2179,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>Cranberry Crisp</summary>
+<summary><h2>Cranberry Crisp</h2></summary>
 
 <p>Link to recipe <a href="https://www.gimmesomeoven.com/cranberry-crisp/">here</a>.</p>
 
@@ -2098,8 +2217,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>Cranberry Vinaigrette</summary>
+<summary><h2>Cranberry Vinaigrette</h2></summary>
 
 <p>Link to recipe <a href="https://www.healthyseasonalrecipes.com/cranberry-vinaigrette/">here</a>.</p>
 
@@ -2130,8 +2251,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>Cream Cheese Banana Bread</summary>
+<summary><h2>Cream Cheese Banana Bread</h2></summary>
 
 <p>Link to recipe <a href="https://www.simplyrecipes.com/recipes/cream_cheese_banana_bread/">here</a>.</p>
 
@@ -2167,8 +2290,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>Creamy Homemade Hot Cocoa</summary>
+<summary><h2>Creamy Homemade Hot Cocoa</h2></summary>
 
 <p>Link to recipe <a href="https://www.allrecipes.com/recipe/20211/creamy-hot-cocoa/">here</a>.</p>
 
@@ -2199,8 +2324,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>Crispy Honey Garlic Beef</summary>
+<summary><h2>Crispy Honey Garlic Beef</h2></summary>
 
 <p>Link to recipe <a href="https://fedbysab.com/crispy-honey-garlic-beef/">here</a>.</p>
 
@@ -2235,8 +2362,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>Crispy Sesame Chicken and Ginger Rice</summary>
+<summary><h2>Crispy Sesame Chicken and Ginger Rice</h2></summary>
 
 <p>Link to recipe <a href="https://www.halfbakedharvest.com/spicy-sesame-chicken/#wprm-recipe-container-115198">here</a>.</p>
 
@@ -2278,8 +2407,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>Crispy Sesame Ginger Egg Rolls with Sweet Chili Sauce</summary>
+<summary><h2>Crispy Sesame Ginger Egg Rolls with Sweet Chili Sauce</h2></summary>
 
 <p>Link to recipe <a href="https://www.halfbakedharvest.com/crispy-sesame-ginger-egg-rolls-with-sweet-chili-sauce/">here</a>.</p>
 
@@ -2318,8 +2449,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>Crock-Pot Brown Sugar Glazed Ham</summary>
+<summary><h2>Crock-Pot Brown Sugar Glazed Ham</h2></summary>
 
 <p>Link to recipe <a href="https://www.delish.com/cooking/recipe-ideas/a57097/crock-pot-christmas-ham-recipe/">here</a>.</p>
 
@@ -2353,8 +2486,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>Crockpot Ham Recipe with No Sugar Glaze</summary>
+<summary><h2>Crockpot Ham Recipe with No Sugar Glaze</h2></summary>
 
 <p>Link to recipe <a href="https://wholelottayum.com/spiral-ham-in-crockpot/">here</a>.</p>
 
@@ -2386,8 +2521,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>Crockpot Korean Inspired Tacos with Yum Yum Yummm Sauce</summary>
+<summary><h2>Crockpot Korean Inspired Tacos with Yum Yum Yummm Sauce</h2></summary>
 
 <p>Link to recipe <a href="https://www.halfbakedharvest.com/korean-inspired-tacos/">here</a>.</p>
 
@@ -2433,8 +2570,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>Crumbled Falafel Bowls</summary>
+<summary><h2>Crumbled Falafel Bowls</h2></summary>
 
 <p>Link to recipe <a href="https://www.gimmesomeoven.com/crumbled-falafel-bowls/">here</a>.</p>
 
@@ -2476,8 +2615,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>Cucumber Salad</summary>
+<summary><h2>Cucumber Salad</h2></summary>
 
 <p>Link to recipe <a href="https://www.loveandlemons.com/cucumber-salad/#wprm-recipe-container-70912">here</a>.</p>
 
@@ -2507,8 +2648,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>Delicious Crispy Hash Browns</summary>
+<summary><h2>Delicious Crispy Hash Browns</h2></summary>
 
 <p>Link to recipe <a href="https://cookieandkate.com/crispy-hash-browns-recipe/">here</a>.</p>
 
@@ -2537,8 +2680,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>Dirty Rice</summary>
+<summary><h2>Dirty Rice</h2></summary>
 
 <p>Link to recipe <a href="https://thesaltymarshmallow.com/easy-dirty-rice/">here</a>.</p>
 
@@ -2566,8 +2711,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>Disney Recipes! How To Make FOUR Super-Savory Disneyland Snacks At Home! | the disney food blog</summary>
+<summary><h2>Disney Recipes! How To Make FOUR Super-Savory Disneyland Snacks At Home! | the disney food blog</h2></summary>
 
 <p>Link to recipe <a href="https://www.disneyfoodblog.com/2020/08/02/disney-recipes-how-to-make-four-super-savory-disneyland-snacks-at-home/">here</a>.</p>
 
@@ -2575,8 +2722,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>Dominican Chimichurri Burgers</summary>
+<summary><h2>Dominican Chimichurri Burgers</h2></summary>
 
 <p>Link to recipe <a href="https://www.epicurious.com/recipes/food/views/dominican-chimichurri-burgers-240003">here</a>.</p>
 
@@ -2614,8 +2763,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>Drunken Noodles</summary>
+<summary><h2>Drunken Noodles</h2></summary>
 
 <p>Link to recipe <a href="https://tastesbetterfromscratch.com/drunken-noodles/">here</a>.</p>
 
@@ -2657,8 +2808,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>Drunken Noodles (Pad Kee Mao)</summary>
+<summary><h2>Drunken Noodles (Pad Kee Mao)</h2></summary>
 
 <p>Link to recipe <a href="https://thewoksoflife.com/drunken-noodles-pad-kee-mao/">here</a>.</p>
 
@@ -2703,8 +2856,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>Drunken Noodles (Pad Kee Mao)</summary>
+<summary><h2>Drunken Noodles (Pad Kee Mao)</h2></summary>
 
 <p>Link to recipe <a href="https://www.recipetineats.com/pad-kee-mao-thai-drunken-noodles/">here</a>.</p>
 
@@ -2742,8 +2897,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>Easy Beef Empanadas Recipe</summary>
+<summary><h2>Easy Beef Empanadas Recipe</h2></summary>
 
 <p>Link to recipe <a href="https://themodernproper.com/beef-empanadas">here</a>.</p>
 
@@ -2785,8 +2942,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>Easy Chipotle Cheddar Beef Chili</summary>
+<summary><h2>Easy Chipotle Cheddar Beef Chili</h2></summary>
 
 <p>Link to recipe <a href="https://www.halfbakedharvest.com/cheddar-beef-chili/">here</a>.</p>
 
@@ -2829,8 +2988,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>Easy Ham and Bean Soup</summary>
+<summary><h2>Easy Ham and Bean Soup</h2></summary>
 
 <p>Link to recipe <a href="https://www.saltandlavender.com/ham-and-white-bean-soup/">here</a>.</p>
 
@@ -2866,8 +3027,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>Easy Pork Carnitas</summary>
+<summary><h2>Easy Pork Carnitas</h2></summary>
 
 <p>Link to recipe <a href="https://damndelicious.net/2020/03/27/easy-pork-carnitas/">here</a>.</p>
 
@@ -2900,8 +3063,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>Easy Vegetable Soup Recipe</summary>
+<summary><h2>Easy Vegetable Soup Recipe</h2></summary>
 
 <p>Link to recipe <a href="https://natashaskitchen.com/easy-vegetable-soup-recipe/">here</a>.</p>
 
@@ -2940,8 +3105,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>Energy Bites (8 Ways!)</summary>
+<summary><h2>Energy Bites (8 Ways!)</h2></summary>
 
 <p>Link to recipe <a href="https://chefsavvy.com/5-ingredient-peanut-butter-energy-bites/">here</a>.</p>
 
@@ -2984,8 +3151,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>Falafel</summary>
+<summary><h2>Falafel</h2></summary>
 
 <p>Link to recipe <a href="http://toriavey.com/toris-kitchen/falafel/">here</a>.</p>
 
@@ -3023,8 +3192,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>Firecracker Beef</summary>
+<summary><h2>Firecracker Beef</h2></summary>
 
 <p>Link to recipe <a href="https://www.recipetineats.com/spicy-firecracker-beef/">here</a>.</p>
 
@@ -3060,8 +3231,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>Five Spice Tofu with Sesame Noodles</summary>
+<summary><h2>Five Spice Tofu with Sesame Noodles</h2></summary>
 
 <p>Link to recipe <a href="https://www.gimmesomeoven.com/five-spice-tofu-with-sesame-noodles/">here</a>.</p>
 
@@ -3100,8 +3273,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>Flourless Chocolate Cake</summary>
+<summary><h2>Flourless Chocolate Cake</h2></summary>
 
 <p>Link to recipe <a href="https://www.kingarthurbaking.com/recipes/flourless-chocolate-cake-recipe">here</a>.</p>
 
@@ -3135,8 +3310,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>French Bread Rolls</summary>
+<summary><h2>French Bread Rolls</h2></summary>
 
 <p>Link to recipe <a href="https://dinnerthendessert.com/crusty-french-bread-rolls/">here</a>.</p>
 
@@ -3168,8 +3345,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>French Lentil Salad</summary>
+<summary><h2>French Lentil Salad</h2></summary>
 
 <p>Link to recipe <a href="https://www.kathysvegankitchen.com/french-lentil-salad/">here</a>.</p>
 
@@ -3207,8 +3386,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>French Toast</summary>
+<summary><h2>French Toast</h2></summary>
 
 <p>Link to recipe <a href="https://www.foodnetwork.com/recipes/robert-irvine/french-toast-recipe-1951408">here</a>.</p>
 
@@ -3241,8 +3422,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>Fresh Raspberry Sauce</summary>
+<summary><h2>Fresh Raspberry Sauce</h2></summary>
 
 <p>Link to recipe <a href="https://www.allrecipes.com/recipe/241308/fresh-raspberry-sauce/">here</a>.</p>
 
@@ -3270,8 +3453,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>Fried Garlic Potatoes</summary>
+<summary><h2>Fried Garlic Potatoes</h2></summary>
 
 <p>Link to recipe <a href="https://www.thespruceeats.com/fried-garlic-potatoes-3059708">here</a>.</p>
 
@@ -3303,8 +3488,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>Fried Rice</summary>
+<summary><h2>Fried Rice</h2></summary>
 
 <p>Link to recipe <a href="https://www.gimmesomeoven.com/fried-rice-recipe/">here</a>.</p>
 
@@ -3340,8 +3527,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>Garlic Butter Chicken with Zucchini and Corn - One-Pan, 30-Minute Meal</summary>
+<summary><h2>Garlic Butter Chicken with Zucchini and Corn - One-Pan, 30-Minute Meal</h2></summary>
 
 <p>Link to recipe <a href="https://juliasalbum.com/chicken-with-zucchini-and-corn/#recipe">here</a>.</p>
 
@@ -3379,8 +3568,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>Ginger Lime Pork with Coconut Rice</summary>
+<summary><h2>Ginger Lime Pork with Coconut Rice</h2></summary>
 
 <p>Link to recipe <a href="https://www.gimmesomeoven.com/ginger-lime-pork-with-coconut-rice/">here</a>.</p>
 
@@ -3415,8 +3606,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>Gingerbread Bars with Cream Cheese Frosting</summary>
+<summary><h2>Gingerbread Bars with Cream Cheese Frosting</h2></summary>
 
 <p>Link to recipe <a href="https://www.cookingclassy.com/gingerbread-bars-cream-cheese-frosting/">here</a>.</p>
 
@@ -3456,8 +3649,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>Golden Turmeric Noodle Miso Soup</summary>
+<summary><h2>Golden Turmeric Noodle Miso Soup</h2></summary>
 
 <p>Link to recipe <a href="https://www.loveandlemons.com/golden-turmeric-noodle-miso-soup/">here</a>.</p>
 
@@ -3495,8 +3690,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>Goulash</summary>
+<summary><h2>Goulash</h2></summary>
 
 <p>Link to recipe <a href="https://www.thepioneerwoman.com/food-cooking/recipes/a37965499/goulash-recipe/">here</a>.</p>
 
@@ -3535,8 +3732,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>Graham Cracker Cookies with Frosting</summary>
+<summary><h2>Graham Cracker Cookies with Frosting</h2></summary>
 
 <p>Link to recipe <a href="https://www.twopeasandtheirpod.com/graham-cracker-cookies/">here</a>.</p>
 
@@ -3577,8 +3776,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>Greek Lemon Potatoes</summary>
+<summary><h2>Greek Lemon Potatoes</h2></summary>
 
 <p>Link to recipe <a href="https://www.thepioneerwoman.com/food-cooking/recipes/a39357030/greek-lemon-potatoes-recipe/">here</a>.</p>
 
@@ -3610,8 +3811,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>Greek Potatoes With Lemon and Garlic (Patates Riganates)</summary>
+<summary><h2>Greek Potatoes With Lemon and Garlic (Patates Riganates)</h2></summary>
 
 <p>Link to recipe <a href="https://www.epicurious.com/recipes/food/views/roasted-potatoes-with-garlic-lemon-and-oregano-231779">here</a>.</p>
 
@@ -3640,8 +3843,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>Grilled Flank Steak with Garlic &amp; Rosemary</summary>
+<summary><h2>Grilled Flank Steak with Garlic &amp; Rosemary</h2></summary>
 
 <p>Link to recipe <a href="https://www.onceuponachef.com/recipes/grilled-flank-steak.html">here</a>.</p>
 
@@ -3671,8 +3876,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>Ground Beef Burrito Bowl with Cilantro Lime Rice</summary>
+<summary><h2>Ground Beef Burrito Bowl with Cilantro Lime Rice</h2></summary>
 
 <p>Link to recipe <a href="https://fedandfit.com/ground-beef-burrito-bowl/">here</a>.</p>
 
@@ -3720,8 +3927,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>Herb-Roasted Turkey Breast</summary>
+<summary><h2>Herb-Roasted Turkey Breast</h2></summary>
 
 <p>Link to recipe <a href="https://www.foodnetwork.com/recipes/ina-garten/herb-roasted-turkey-breast-recipe-1943552">here</a>.</p>
 
@@ -3756,8 +3965,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>Herbed Garlic Bread</summary>
+<summary><h2>Herbed Garlic Bread</h2></summary>
 
 <p>Link to recipe <a href="https://www.google.com/amp/s/www.food.com/amp/recipe/herbed-garlic-bread-56476">here</a>.</p>
 
@@ -3790,8 +4001,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>Homemade Cinnamon Rolls (Cinnabon Copycat Recipe)</summary>
+<summary><h2>Homemade Cinnamon Rolls (Cinnabon Copycat Recipe)</h2></summary>
 
 <p>Link to recipe <a href="https://www.tastesoflizzyt.com/homemade-cinnamon-rolls/">here</a>.</p>
 
@@ -3830,8 +4043,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>Homemade Pumpkin Pie</summary>
+<summary><h2>Homemade Pumpkin Pie</h2></summary>
 
 <p>Link to recipe <a href="https://www.simplyrecipes.com/pumpkin-pie-recipe-5101769">here</a>.</p>
 
@@ -3869,8 +4084,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>Honey Garlic Pork Tenderloin</summary>
+<summary><h2>Honey Garlic Pork Tenderloin</h2></summary>
 
 <p>Link to recipe <a href="https://www.saltandlavender.com/honey-garlic-pork-tenderloin/">here</a>.</p>
 
@@ -3905,8 +4122,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>How to make empanada dough for baking</summary>
+<summary><h2>How to make empanada dough for baking</h2></summary>
 
 <p>Link to recipe <a href="https://www.laylita.com/recipes/how-to-make-empanada-dough/">here</a>.</p>
 
@@ -3935,8 +4154,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>How to Make Yellow Rice</summary>
+<summary><h2>How to Make Yellow Rice</h2></summary>
 
 <p>Link to recipe <a href="https://www.favfamilyrecipes.com/super-easy-yellow-rice/">here</a>.</p>
 
@@ -3969,8 +4190,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>How To Roast A Sugar Pumpkin &amp; Make Fresh Pumpkin Purée – A Step-by-step Photo Tutorial – Oh She GlowsFacebookInstagramPinterestTwitterYouTubeFacebookInstagramPinterestTwitterYouTube</summary>
+<summary><h2>How To Roast A Sugar Pumpkin &amp; Make Fresh Pumpkin Purée – A Step-by-step Photo Tutorial – Oh She GlowsFacebookInstagramPinterestTwitterYouTubeFacebookInstagramPinterestTwitterYouTube</h2></summary>
 
 <p>Link to recipe <a href="https://ohsheglows.com/2012/09/10/how-to-roast-a-sugar-pumpkin-make-fresh-pumpkin-puree-a-step-by-step-photo-tutorial/">here</a>.</p>
 
@@ -3978,8 +4201,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>How to Velvet Beef for Stir-fry</summary>
+<summary><h2>How to Velvet Beef for Stir-fry</h2></summary>
 
 <p>Link to recipe <a href="https://thewoksoflife.com/prepare-beef-for-stir-fry/">here</a>.</p>
 
@@ -4008,8 +4233,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>http://glenellenvillagemarket.org/kale-and-beef-rice-bowls/</summary>
+<summary><h2>http://glenellenvillagemarket.org/kale-and-beef-rice-bowls/</h2></summary>
 
 <p>Link to recipe <a href="http://glenellenvillagemarket.org/kale-and-beef-rice-bowls/">here</a>.</p>
 
@@ -4017,8 +4244,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>https://damndelicious.net/2014/01/10/southwestern-chopped-salad-cilantro-lime-dressing/</summary>
+<summary><h2>https://damndelicious.net/2014/01/10/southwestern-chopped-salad-cilantro-lime-dressing/</h2></summary>
 
 <p>Link to recipe <a href="https://damndelicious.net/2014/01/10/southwestern-chopped-salad-cilantro-lime-dressing/">here</a>.</p>
 
@@ -4026,8 +4255,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>https://domeniquetrupia.com/2021/07/03/creamy-sun-dried-tomato-pasta/</summary>
+<summary><h2>https://domeniquetrupia.com/2021/07/03/creamy-sun-dried-tomato-pasta/</h2></summary>
 
 <p>Link to recipe <a href="https://domeniquetrupia.com/2021/07/03/creamy-sun-dried-tomato-pasta/">here</a>.</p>
 
@@ -4035,8 +4266,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>https://domeniquetrupia.com/2023/09/02/3-layer-chuck-roast-tacos/</summary>
+<summary><h2>https://domeniquetrupia.com/2023/09/02/3-layer-chuck-roast-tacos/</h2></summary>
 
 <p>Link to recipe <a href="https://domeniquetrupia.com/2023/09/02/3-layer-chuck-roast-tacos/">here</a>.</p>
 
@@ -4044,8 +4277,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>https://domeniquetrupia.com/2024/04/10/creamy-orzo-beef/</summary>
+<summary><h2>https://domeniquetrupia.com/2024/04/10/creamy-orzo-beef/</h2></summary>
 
 <p>Link to recipe <a href="https://domeniquetrupia.com/2024/04/10/creamy-orzo-beef/">here</a>.</p>
 
@@ -4053,8 +4288,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>https://fullofplants.com/instant-pot-sesame-basil-noodles-with-roasted-veggies/</summary>
+<summary><h2>https://fullofplants.com/instant-pot-sesame-basil-noodles-with-roasted-veggies/</h2></summary>
 
 <p>Link to recipe <a href="https://fullofplants.com/instant-pot-sesame-basil-noodles-with-roasted-veggies/">here</a>.</p>
 
@@ -4062,8 +4299,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>https://juliasalbum.com/basil-pasta/</summary>
+<summary><h2>https://juliasalbum.com/basil-pasta/</h2></summary>
 
 <p>Link to recipe <a href="https://juliasalbum.com/basil-pasta/">here</a>.</p>
 
@@ -4071,8 +4310,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>https://lakegenevacountrymeats.com/recipes/andouille-sausage-skillet</summary>
+<summary><h2>https://lakegenevacountrymeats.com/recipes/andouille-sausage-skillet</h2></summary>
 
 <p>Link to recipe <a href="https://lakegenevacountrymeats.com/recipes/andouille-sausage-skillet">here</a>.</p>
 
@@ -4080,8 +4321,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>https://sweetphi.com/easy-cucumber-salad-recipe/#wprm-recipe-container-18208</summary>
+<summary><h2>https://sweetphi.com/easy-cucumber-salad-recipe/#wprm-recipe-container-18208</h2></summary>
 
 <p>Link to recipe <a href="https://sweetphi.com/easy-cucumber-salad-recipe/#wprm-recipe-container-18208">here</a>.</p>
 
@@ -4089,8 +4332,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>https://tiffycooks.com/honey-garlic-chicken-20-minutes/</summary>
+<summary><h2>https://tiffycooks.com/honey-garlic-chicken-20-minutes/</h2></summary>
 
 <p>Link to recipe <a href="https://tiffycooks.com/honey-garlic-chicken-20-minutes/">here</a>.</p>
 
@@ -4098,8 +4343,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>https://tiffycooks.com/spicy-honey-garlic-chicken-viral-recipe/</summary>
+<summary><h2>https://tiffycooks.com/spicy-honey-garlic-chicken-viral-recipe/</h2></summary>
 
 <p>Link to recipe <a href="https://tiffycooks.com/spicy-honey-garlic-chicken-viral-recipe/">here</a>.</p>
 
@@ -4107,8 +4354,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>https://whisperofyum.com/post/sesame-garlic-ramen-noodles/</summary>
+<summary><h2>https://whisperofyum.com/post/sesame-garlic-ramen-noodles/</h2></summary>
 
 <p>Link to recipe <a href="https://whisperofyum.com/post/sesame-garlic-ramen-noodles/">here</a>.</p>
 
@@ -4116,8 +4365,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>https://www.sonshinekitchen.com/quick-and-easy-20-minute-garlic-rice-noodles-recipe/</summary>
+<summary><h2>https://www.sonshinekitchen.com/quick-and-easy-20-minute-garlic-rice-noodles-recipe/</h2></summary>
 
 <p>Link to recipe <a href="https://www.sonshinekitchen.com/quick-and-easy-20-minute-garlic-rice-noodles-recipe/">here</a>.</p>
 
@@ -4125,8 +4376,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>https://www.thekitchn.com/instant-pot-mississippi-pot-roast-recipe-23136229</summary>
+<summary><h2>https://www.thekitchn.com/instant-pot-mississippi-pot-roast-recipe-23136229</h2></summary>
 
 <p>Link to recipe <a href="https://www.thekitchn.com/instant-pot-mississippi-pot-roast-recipe-23136229">here</a>.</p>
 
@@ -4134,8 +4387,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>https://www.thekitchn.com/pecan-pie-recipe-23689970</summary>
+<summary><h2>https://www.thekitchn.com/pecan-pie-recipe-23689970</h2></summary>
 
 <p>Link to recipe <a href="https://www.thekitchn.com/pecan-pie-recipe-23689970">here</a>.</p>
 
@@ -4143,8 +4398,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>https://www.thekitchn.com/potato-hash-recipe-23199140</summary>
+<summary><h2>https://www.thekitchn.com/potato-hash-recipe-23199140</h2></summary>
 
 <p>Link to recipe <a href="https://www.thekitchn.com/potato-hash-recipe-23199140">here</a>.</p>
 
@@ -4152,8 +4409,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>https://www.thekitchn.com/steak-rice-noodle-salad-22944350</summary>
+<summary><h2>https://www.thekitchn.com/steak-rice-noodle-salad-22944350</h2></summary>
 
 <p>Link to recipe <a href="https://www.thekitchn.com/steak-rice-noodle-salad-22944350">here</a>.</p>
 
@@ -4161,8 +4420,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>Immune-Boosting Triple Garlic Pasta</summary>
+<summary><h2>Immune-Boosting Triple Garlic Pasta</h2></summary>
 
 <p>Link to recipe <a href="https://www.italianfoodforever.com/2020/03/immune-boosting-triple-garlic-pasta/">here</a>.</p>
 
@@ -4193,8 +4454,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>Incredible BBQ Grilled Vegetables - marinated!</summary>
+<summary><h2>Incredible BBQ Grilled Vegetables - marinated!</h2></summary>
 
 <p>Link to recipe <a href="https://www.recipetineats.com/marinated-bbq-vegetables/#wprm-recipe-container-37283">here</a>.</p>
 
@@ -4236,8 +4499,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>Instant Pot Baby Potatoes Recipe</summary>
+<summary><h2>Instant Pot Baby Potatoes Recipe</h2></summary>
 
 <p>Link to recipe <a href="https://www.chewoutloud.com/instant-pot-baby-potatoes-recipe/">here</a>.</p>
 
@@ -4269,8 +4534,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>Instant Pot Baked Potato</summary>
+<summary><h2>Instant Pot Baked Potato</h2></summary>
 
 <p>Link to recipe <a href="https://damndelicious.net/2019/07/08/instant-pot-baked-potato/">here</a>.</p>
 
@@ -4298,8 +4565,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>Instant Pot Barbacoa Beef</summary>
+<summary><h2>Instant Pot Barbacoa Beef</h2></summary>
 
 <p>Link to recipe <a href="https://www.gimmesomeoven.com/instant-pot-barbacoa-beef/">here</a>.</p>
 
@@ -4338,8 +4607,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>Instant Pot Barbecue Beef</summary>
+<summary><h2>Instant Pot Barbecue Beef</h2></summary>
 
 <p>Link to recipe <a href="https://www.simplyhappyfoodie.com/instant-pot-barbecue-beef/">here</a>.</p>
 
@@ -4380,8 +4651,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>Instant Pot BBQ Chicken</summary>
+<summary><h2>Instant Pot BBQ Chicken</h2></summary>
 
 <p>Link to recipe <a href="https://www.pressurecookrecipes.com/instant-pot-bbq-chicken/">here</a>.</p>
 
@@ -4413,8 +4686,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>Instant Pot Beef Stew</summary>
+<summary><h2>Instant Pot Beef Stew</h2></summary>
 
 <p>Link to recipe <a href="https://kristineskitchenblog.com/instant-pot-beef-stew/">here</a>.</p>
 
@@ -4454,8 +4729,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>Instant Pot Beef Stew</summary>
+<summary><h2>Instant Pot Beef Stew</h2></summary>
 
 <p>Link to recipe <a href="https://www.wellplated.com/instant-pot-beef-stew/">here</a>.</p>
 
@@ -4496,8 +4773,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>Instant Pot Black Beans</summary>
+<summary><h2>Instant Pot Black Beans</h2></summary>
 
 <p>Link to recipe <a href="https://www.pressurecookrecipes.com/instant-pot-black-beans/">here</a>.</p>
 
@@ -4527,8 +4806,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>Instant Pot Chana Masala (Punjabi Chole)</summary>
+<summary><h2>Instant Pot Chana Masala (Punjabi Chole)</h2></summary>
 
 <p>Link to recipe <a href="https://ministryofcurry.com/instant-pot-chana-masala-recipe/">here</a>.</p>
 
@@ -4566,8 +4847,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>Instant Pot Charro (Refried Beans)</summary>
+<summary><h2>Instant Pot Charro (Refried Beans)</h2></summary>
 
 <p>Link to recipe <a href="https://www.allrecipes.com/recipe/256347/instant-pot-charro-refried-beans/">here</a>.</p>
 
@@ -4604,8 +4887,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>Instant Pot Chicken Tikka Masala</summary>
+<summary><h2>Instant Pot Chicken Tikka Masala</h2></summary>
 
 <p>Link to recipe <a href="https://www.wellplated.com/instant-pot-chicken-tikka-masala/">here</a>.</p>
 
@@ -4646,8 +4931,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>Instant Pot Chicken Tikka Masala</summary>
+<summary><h2>Instant Pot Chicken Tikka Masala</h2></summary>
 
 <p>Link to recipe <a href="https://www.swankyrecipes.com/instant-pot-chicken-tikka-masala.html">here</a>.</p>
 
@@ -4693,8 +4980,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>Instant Pot Coconut Oatmeal</summary>
+<summary><h2>Instant Pot Coconut Oatmeal</h2></summary>
 
 <p>Link to recipe <a href="https://www.pressurecookrecipes.com/instant-pot-coconut-oatmeal/">here</a>.</p>
 
@@ -4723,8 +5012,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>Instant Pot Cuban Black Beans and Rice</summary>
+<summary><h2>Instant Pot Cuban Black Beans and Rice</h2></summary>
 
 <p>Link to recipe <a href="https://iheartvegetables.com/instant-pot-cuban-black-beans-and-rice/">here</a>.</p>
 
@@ -4763,8 +5054,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>Instant Pot Italian Beef Recipe</summary>
+<summary><h2>Instant Pot Italian Beef Recipe</h2></summary>
 
 <p>Link to recipe <a href="https://www.aspicyperspective.com/instant-pot-italian-beef/#recipe">here</a>.</p>
 
@@ -4799,8 +5092,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>Instant Pot Loaded Potato Soup (with a slow cooker version)</summary>
+<summary><h2>Instant Pot Loaded Potato Soup (with a slow cooker version)</h2></summary>
 
 <p>Link to recipe <a href="https://belleofthekitchen.com/instant-pot-loaded-potato-soup/">here</a>.</p>
 
@@ -4838,8 +5133,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>Instant Pot Mexican Pinto Beans</summary>
+<summary><h2>Instant Pot Mexican Pinto Beans</h2></summary>
 
 <p>Link to recipe <a href="https://themodernproper.com/instant-pot-mexican-pinto-beans">here</a>.</p>
 
@@ -4871,8 +5168,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>Instant Pot Mountain Man Soup</summary>
+<summary><h2>Instant Pot Mountain Man Soup</h2></summary>
 
 <p>Link to recipe <a href="https://www.365daysofcrockpot.com/instant-pot-mountain-man-soup/">here</a>.</p>
 
@@ -4908,8 +5207,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>Instant Pot Pinto Beans</summary>
+<summary><h2>Instant Pot Pinto Beans</h2></summary>
 
 <p>Link to recipe <a href="https://www.pressurecookrecipes.com/instant-pot-pinto-beans/">here</a>.</p>
 
@@ -4941,8 +5242,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>Instant Pot Pot Roast (with the BEST gravy!)</summary>
+<summary><h2>Instant Pot Pot Roast (with the BEST gravy!)</h2></summary>
 
 <p>Link to recipe <a href="https://www.thereciperebel.com/instant-pot-pot-roast-recipe-pressure-cooker-pot-roast-video/">here</a>.</p>
 
@@ -4984,8 +5287,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>Instant Pot Potato Soup</summary>
+<summary><h2>Instant Pot Potato Soup</h2></summary>
 
 <p>Link to recipe <a href="https://www.thereciperebel.com/instant-pot-potato-soup-recipe/">here</a>.</p>
 
@@ -5023,8 +5328,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>Instant Pot Ramen Noodles</summary>
+<summary><h2>Instant Pot Ramen Noodles</h2></summary>
 
 <p>Link to recipe <a href="https://confessionsofafitfoodie.com/21-day-fix-instant-pot-ramen-noodles/">here</a>.</p>
 
@@ -5062,8 +5369,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>Instant Pot Red Beans and Rice</summary>
+<summary><h2>Instant Pot Red Beans and Rice</h2></summary>
 
 <p>Link to recipe <a href="https://simple-veganista.com/instant-pot-red-beans-and-rice/">here</a>.</p>
 
@@ -5104,8 +5413,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>Instant Pot Red Beans and Rice - Damn Delicious</summary>
+<summary><h2>Instant Pot Red Beans and Rice - Damn Delicious</h2></summary>
 
 <p>Link to recipe <a href="https://damndelicious.net/2018/04/30/instant-pot-red-beans-and-rice/print/">here</a>.</p>
 
@@ -5113,8 +5424,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>Instant Pot Red Beans and Rice With Sausage</summary>
+<summary><h2>Instant Pot Red Beans and Rice With Sausage</h2></summary>
 
 <p>Link to recipe <a href="https://www.simplyhappyfoodie.com/instant-pot-red-beans-rice-sausage/">here</a>.</p>
 
@@ -5155,8 +5468,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>Instant Pot Refried Beans</summary>
+<summary><h2>Instant Pot Refried Beans</h2></summary>
 
 <p>Link to recipe <a href="https://www.pressurecookrecipes.com/instant-pot-refried-beans/">here</a>.</p>
 
@@ -5191,8 +5506,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>Instant Pot Refried Black Beans</summary>
+<summary><h2>Instant Pot Refried Black Beans</h2></summary>
 
 <p>Link to recipe <a href="https://runningonrealfood.com/instant-pot-refried-black-beans/">here</a>.</p>
 
@@ -5225,8 +5542,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>Instant Pot Roasted Potatoes</summary>
+<summary><h2>Instant Pot Roasted Potatoes</h2></summary>
 
 <p>Link to recipe <a href="https://www.pressurecookrecipes.com/instant-pot-roasted-potatoes/">here</a>.</p>
 
@@ -5253,8 +5572,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>Instant Pot Salsa</summary>
+<summary><h2>Instant Pot Salsa</h2></summary>
 
 <p>Link to recipe <a href="https://tastyoven.com/salsa-roja-instant-pot-salsa/">here</a>.</p>
 
@@ -5288,8 +5609,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>Instant Pot Short Ribs</summary>
+<summary><h2>Instant Pot Short Ribs</h2></summary>
 
 <p>Link to recipe <a href="https://www.pressurecookrecipes.com/instant-pot-short-ribs/">here</a>.</p>
 
@@ -5333,8 +5656,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>Instant Pot Short Ribs</summary>
+<summary><h2>Instant Pot Short Ribs</h2></summary>
 
 <p>Link to recipe <a href="https://messinthekitchen.com/instant-pot-short-ribs/#recipe">here</a>.</p>
 
@@ -5372,8 +5697,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>Instant Pot Sweet Potatoes</summary>
+<summary><h2>Instant Pot Sweet Potatoes</h2></summary>
 
 <p>Link to recipe <a href="https://www.pressurecookrecipes.com/instant-pot-sweet-potato/">here</a>.</p>
 
@@ -5396,8 +5723,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>Italian Lentil Soup</summary>
+<summary><h2>Italian Lentil Soup</h2></summary>
 
 <p>Link to recipe <a href="https://www.gimmesomeoven.com/italian-lentil-soup-recipe/">here</a>.</p>
 
@@ -5436,8 +5765,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>Jalapeno Popper Mac and Cheese</summary>
+<summary><h2>Jalapeno Popper Mac and Cheese</h2></summary>
 
 <p>Link to recipe <a href="https://spicysouthernkitchen.com/jalapeno-popper-mac-and-cheese/">here</a>.</p>
 
@@ -5474,8 +5805,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>Jamaican Beef Dumplings</summary>
+<summary><h2>Jamaican Beef Dumplings</h2></summary>
 
 <p>Link to recipe <a href="https://www.food.com/recipe/jamaican-beef-dumplings-374290">here</a>.</p>
 
@@ -5508,8 +5841,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>Jamaican Curry Chicken</summary>
+<summary><h2>Jamaican Curry Chicken</h2></summary>
 
 <p>Link to recipe <a href="https://www.wellplated.com/jamaican-curry-chicken/">here</a>.</p>
 
@@ -5552,8 +5887,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>Jambalaya</summary>
+<summary><h2>Jambalaya</h2></summary>
 
 <p>Link to recipe <a href="https://www.gimmesomeoven.com/jambalaya-recipe/">here</a>.</p>
 
@@ -5594,8 +5931,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>Jordan Marsh’s Blueberry Muffins</summary>
+<summary><h2>Jordan Marsh’s Blueberry Muffins</h2></summary>
 
 <p>Link to recipe <a href="https://cooking.nytimes.com/recipes/2868-jordan-marshs-blueberry-muffins">here</a>.</p>
 
@@ -5623,8 +5962,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>Juicy Baked Kofta Meatballs</summary>
+<summary><h2>Juicy Baked Kofta Meatballs</h2></summary>
 
 <p>Link to recipe <a href="https://www.hungrypaprikas.com/kofta-meatballs/">here</a>.</p>
 
@@ -5658,8 +5999,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>Kale &amp; Bacon Salad with Honey-Horseradish Vinaigrette</summary>
+<summary><h2>Kale &amp; Bacon Salad with Honey-Horseradish Vinaigrette</h2></summary>
 
 <p>Link to recipe <a href="https://www.tasteofhome.com/recipes/kale-bacon-salad-with-honey-horseradish-vinaigrette/">here</a>.</p>
 
@@ -5701,8 +6044,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>Kale Salad with Meyer Lemon Vinaigrette</summary>
+<summary><h2>Kale Salad with Meyer Lemon Vinaigrette</h2></summary>
 
 <p>Link to recipe <a href="https://damndelicious.net/2013/03/25/kale-salad-with-meyer-lemon-vinaigrette/">here</a>.</p>
 
@@ -5735,8 +6080,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>Korean Beef Bowl - Damn Delicious</summary>
+<summary><h2>Korean Beef Bowl - Damn Delicious</h2></summary>
 
 <p>Link to recipe <a href="https://damndelicious.net/2013/07/07/korean-beef-bowl/print/">here</a>.</p>
 
@@ -5744,8 +6091,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>Kung Pao Chicken</summary>
+<summary><h2>Kung Pao Chicken</h2></summary>
 
 <p>Link to recipe <a href="https://damndelicious.net/2021/05/09/kung-pao-chicken/">here</a>.</p>
 
@@ -5786,8 +6135,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>Lemon Pepper Cajun Chicken Fettuccine Alfredo</summary>
+<summary><h2>Lemon Pepper Cajun Chicken Fettuccine Alfredo</h2></summary>
 
 <p>Link to recipe <a href="https://www.halfbakedharvest.com/cajun-chicken-fettuccine-alfredo/">here</a>.</p>
 
@@ -5824,8 +6175,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>Lemony Spiced Orzo and Chickpeas</summary>
+<summary><h2>Lemony Spiced Orzo and Chickpeas</h2></summary>
 
 <p>Link to recipe <a href="https://www.gimmesomeoven.com/lemony-spiced-orzo-and-chickpeas/">here</a>.</p>
 
@@ -5862,8 +6215,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>Lomo Saltado (Peruvian Beef Stir Fry)</summary>
+<summary><h2>Lomo Saltado (Peruvian Beef Stir Fry)</h2></summary>
 
 <p>Link to recipe <a href="https://littlespicejar.com/lomo-saltado/">here</a>.</p>
 
@@ -5899,8 +6254,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>Maple Bacon Scones</summary>
+<summary><h2>Maple Bacon Scones</h2></summary>
 
 <p>Link to recipe <a href="https://www.bostongirlbakes.com/maple-bacon-scones/">here</a>.</p>
 
@@ -5937,8 +6294,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>Mediterranean Chickpea Skillet</summary>
+<summary><h2>Mediterranean Chickpea Skillet</h2></summary>
 
 <p>Link to recipe <a href="https://parsleyandparm.com/mediterranean-chickpea-skillet/">here</a>.</p>
 
@@ -5977,8 +6336,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>Mediterranean Farro Salad</summary>
+<summary><h2>Mediterranean Farro Salad</h2></summary>
 
 <p>Link to recipe <a href="https://aseasyasapplepie.com/mediterranean-farro-salad/">here</a>.</p>
 
@@ -6016,8 +6377,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>Mexican Potatoes</summary>
+<summary><h2>Mexican Potatoes</h2></summary>
 
 <p>Link to recipe <a href="https://www.kathysvegankitchen.com/mexican-potatoes/">here</a>.</p>
 
@@ -6047,8 +6410,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>Mixed Green Salad with Goat Cheese, Glazed Pecans &amp; Maple Dijon Vinaigrette</summary>
+<summary><h2>Mixed Green Salad with Goat Cheese, Glazed Pecans &amp; Maple Dijon Vinaigrette</h2></summary>
 
 <p>Link to recipe <a href="https://www.onceuponachef.com/recipes/mesclun-salad-with-goat-cheese-mapleglazed-pecans-maple-dijon-vinaigrette.html">here</a>.</p>
 
@@ -6085,8 +6450,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>Molten Chocolate Crackle Pie</summary>
+<summary><h2>Molten Chocolate Crackle Pie</h2></summary>
 
 <p>Link to recipe <a href="https://www.halfbakedharvest.com/molten-chocolate-crackle-pie/">here</a>.</p>
 
@@ -6126,8 +6493,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>Mujadara (Lentils and Rice with Caramelized Onions)</summary>
+<summary><h2>Mujadara (Lentils and Rice with Caramelized Onions)</h2></summary>
 
 <p>Link to recipe <a href="https://cookieandkate.com/mujaddara-recipe/">here</a>.</p>
 
@@ -6165,8 +6534,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>No Soak Instant Pot Pinto Beans Recipe</summary>
+<summary><h2>No Soak Instant Pot Pinto Beans Recipe</h2></summary>
 
 <p>Link to recipe <a href="https://lifemadesimplebakes.com/no-soak-instant-pot-pinto-beans/">here</a>.</p>
 
@@ -6203,8 +6574,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>No-Churn Vanilla Ice Cream</summary>
+<summary><h2>No-Churn Vanilla Ice Cream</h2></summary>
 
 <p>Link to recipe <a href="https://www.foodnetwork.com/recipes/food-network-kitchen/no-churn-vanilla-ice-cream-3364776">here</a>.</p>
 
@@ -6233,8 +6606,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>One Pot Sausage Pasta</summary>
+<summary><h2>One Pot Sausage Pasta</h2></summary>
 
 <p>Link to recipe <a href="https://damndelicious.net/2023/01/02/one-pot-sausage-pasta/">here</a>.</p>
 
@@ -6272,8 +6647,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>Orange Ginger Garlic Beef</summary>
+<summary><h2>Orange Ginger Garlic Beef</h2></summary>
 
 <p>Link to recipe <a href="https://www.lordbyronskitchen.com/orange-ginger-garlic-beef/#recipe">here</a>.</p>
 
@@ -6310,8 +6687,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>Oven Braised Chuck Roast (Easy &amp; Fall Apart)</summary>
+<summary><h2>Oven Braised Chuck Roast (Easy &amp; Fall Apart)</h2></summary>
 
 <p>Link to recipe <a href="https://www.hungrypaprikas.com/chuck-roast/">here</a>.</p>
 
@@ -6355,8 +6734,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>Oven-Roasted Turkey Breast</summary>
+<summary><h2>Oven-Roasted Turkey Breast</h2></summary>
 
 <p>Link to recipe <a href="https://www.allrecipes.com/recipe/229658/oven-roasted-turkey-breast/">here</a>.</p>
 
@@ -6393,8 +6774,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>Pad Thai</summary>
+<summary><h2>Pad Thai</h2></summary>
 
 <p>Link to recipe <a href="https://tastesbetterfromscratch.com/pad-thai/">here</a>.</p>
 
@@ -6435,8 +6818,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>Pasta e Ceci (Pasta with Chickpeas)</summary>
+<summary><h2>Pasta e Ceci (Pasta with Chickpeas)</h2></summary>
 
 <p>Link to recipe <a href="https://www.foodandwine.com/pasta-e-ceci-8624315">here</a>.</p>
 
@@ -6471,8 +6856,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>Pasta Fagioli</summary>
+<summary><h2>Pasta Fagioli</h2></summary>
 
 <p>Link to recipe <a href="https://www.onceuponachef.com/recipes/pasta-fagioli.html">here</a>.</p>
 
@@ -6513,8 +6900,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>Pecan Pie</summary>
+<summary><h2>Pecan Pie</h2></summary>
 
 <p>Link to recipe <a href="https://www.gimmesomeoven.com/best-pecan-pie-recipe/">here</a>.</p>
 
@@ -6547,8 +6936,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>Pecan Pie</summary>
+<summary><h2>Pecan Pie</h2></summary>
 
 <p>Link to recipe <a href="https://tastesbetterfromscratch.com/pecan-pie/">here</a>.</p>
 
@@ -6581,8 +6972,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>Pecan Pie Cookies</summary>
+<summary><h2>Pecan Pie Cookies</h2></summary>
 
 <p>Link to recipe <a href="https://tarynstastingtable.com/2022/12/09/pecan-pie-cookies/">here</a>.</p>
 
@@ -6620,8 +7013,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>Pecan Pie Thumbprint Cookies</summary>
+<summary><h2>Pecan Pie Thumbprint Cookies</h2></summary>
 
 <p>Link to recipe <a href="https://thebakermama.com/recipes/pecan-pie-thumbprint-cookies/">here</a>.</p>
 
@@ -6654,8 +7049,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>Pesto Pasta Salad</summary>
+<summary><h2>Pesto Pasta Salad</h2></summary>
 
 <p>Link to recipe <a href="https://www.gimmesomeoven.com/pesto-pasta-salad/">here</a>.</p>
 
@@ -6689,8 +7086,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>Pesto Salmon</summary>
+<summary><h2>Pesto Salmon</h2></summary>
 
 <p>Link to recipe <a href="https://www.food.com/recipe/pesto-salmon-191253">here</a>.</p>
 
@@ -6720,8 +7119,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>PF Chang’s Mongolian Beef Copycat Recipe</summary>
+<summary><h2>PF Chang’s Mongolian Beef Copycat Recipe</h2></summary>
 
 <p>Link to recipe <a href="https://damndelicious.net/2013/10/05/pf-changs-mongolian-beef-copycat-recipe/">here</a>.</p>
 
@@ -6756,8 +7157,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>Potato Curry with Peas</summary>
+<summary><h2>Potato Curry with Peas</h2></summary>
 
 <p>Link to recipe <a href="https://thecozyapron.com/potato-curry/">here</a>.</p>
 
@@ -6802,8 +7205,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>Potato Fennel Soup</summary>
+<summary><h2>Potato Fennel Soup</h2></summary>
 
 <p>Link to recipe <a href="https://www.gimmesomeoven.com/potato-bacon-fennel-soup/">here</a>.</p>
 
@@ -6838,8 +7243,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>Power Butter</summary>
+<summary><h2>Power Butter</h2></summary>
 
 <p>Link to recipe <a href="https://www.bonappetit.com/recipe/power-butter">here</a>.</p>
 
@@ -6865,8 +7272,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>Pressure Cooker (Instant Pot) Pinto Beans</summary>
+<summary><h2>Pressure Cooker (Instant Pot) Pinto Beans</h2></summary>
 
 <p>Link to recipe <a href="https://www.myforkinglife.com/pressure-cooker-instant-pot-pinto-beans/">here</a>.</p>
 
@@ -6903,8 +7312,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>Pumpkin Cream Cheese Muffins</summary>
+<summary><h2>Pumpkin Cream Cheese Muffins</h2></summary>
 
 <p>Link to recipe <a href="https://www.the-girl-who-ate-everything.com/pumpkin-cream-cheese-muffins/">here</a>.</p>
 
@@ -6945,8 +7356,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>Pumpkin Pie Recipe</summary>
+<summary><h2>Pumpkin Pie Recipe</h2></summary>
 
 <p>Link to recipe <a href="https://www.shugarysweets.com/pumpkin-pie/">here</a>.</p>
 
@@ -6979,8 +7392,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>Raclette recipe potatoes</summary>
+<summary><h2>Raclette recipe potatoes</h2></summary>
 
 <p>Link to recipe <a href="https://www.byandreajanssen.com/raclette-recipe-potatoes/">here</a>.</p>
 
@@ -7008,8 +7423,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>Red Enchilada Sauce</summary>
+<summary><h2>Red Enchilada Sauce</h2></summary>
 
 <p>Link to recipe <a href="https://tastesbetterfromscratch.com/enchilada-sauce-from-scratch/">here</a>.</p>
 
@@ -7042,8 +7459,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>Roasted Fennel with Garlic &amp; Herbs</summary>
+<summary><h2>Roasted Fennel with Garlic &amp; Herbs</h2></summary>
 
 <p>Link to recipe <a href="https://www.everylastbite.com/roasted-fennel/">here</a>.</p>
 
@@ -7074,8 +7493,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>Roasted Turkey Breast</summary>
+<summary><h2>Roasted Turkey Breast</h2></summary>
 
 <p>Link to recipe <a href="https://www.tasteofhome.com/recipes/herbed-roast-turkey-breast/">here</a>.</p>
 
@@ -7109,8 +7530,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>Rosemary Roasted Nuts</summary>
+<summary><h2>Rosemary Roasted Nuts</h2></summary>
 
 <p>Link to recipe <a href="https://partylicious.net/rosemary-roasted-nuts/">here</a>.</p>
 
@@ -7140,8 +7563,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>Salsa Recipe</summary>
+<summary><h2>Salsa Recipe</h2></summary>
 
 <p>Link to recipe <a href="https://cafedelites.com/salsa-recipe/">here</a>.</p>
 
@@ -7177,8 +7602,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>Saucy Thai Curried Peanut Noodles</summary>
+<summary><h2>Saucy Thai Curried Peanut Noodles</h2></summary>
 
 <p>Link to recipe <a href="https://www.gimmesomeoven.com/saucy-thai-curried-peanut-noodles/">here</a>.</p>
 
@@ -7215,8 +7642,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>Scalloped Potatoes and Ham</summary>
+<summary><h2>Scalloped Potatoes and Ham</h2></summary>
 
 <p>Link to recipe <a href="https://www.tasteofhome.com/recipes/scalloped-potatoes-with-ham/">here</a>.</p>
 
@@ -7250,8 +7679,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>Sesame Garlic Basmati Rice</summary>
+<summary><h2>Sesame Garlic Basmati Rice</h2></summary>
 
 <p>Link to recipe <a href="https://fortheloveofcooking.net/2014/07/sesame-garlic-basmati-rice.html">here</a>.</p>
 
@@ -7283,8 +7714,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>Sesame Garlic Ramen Noodles</summary>
+<summary><h2>Sesame Garlic Ramen Noodles</h2></summary>
 
 <p>Link to recipe <a href="https://themodernproper.com/sesame-garlic-ramen-noodles">here</a>.</p>
 
@@ -7320,8 +7753,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>Sheet Pan Lemon Rosemary Chicken</summary>
+<summary><h2>Sheet Pan Lemon Rosemary Chicken</h2></summary>
 
 <p>Link to recipe <a href="https://damndelicious.net/2020/03/22/sheet-pan-lemon-rosemary-chicken/">here</a>.</p>
 
@@ -7354,8 +7789,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>Shortbread Cookies Recipe</summary>
+<summary><h2>Shortbread Cookies Recipe</h2></summary>
 
 <p>Link to recipe <a href="https://preppykitchen.com/shortbread-cookies-recipe/">here</a>.</p>
 
@@ -7384,8 +7821,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>Shredded Brussels Sprout and Prosciutto Salad</summary>
+<summary><h2>Shredded Brussels Sprout and Prosciutto Salad</h2></summary>
 
 <p>Link to recipe <a href="https://www.halfbakedharvest.com/shredded-brussels-sprout-and-prosciutto-salad/">here</a>.</p>
 
@@ -7423,8 +7862,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>Sicilian Pasta with Creamy Pistachio Sauce</summary>
+<summary><h2>Sicilian Pasta with Creamy Pistachio Sauce</h2></summary>
 
 <p>Link to recipe <a href="https://www.mangiabedda.com/sicilian-pasta-with-creamy-pistachio-sauce/">here</a>.</p>
 
@@ -7455,8 +7896,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>Sizzlin&#x27; Spicy Szechuan Stir-Fry</summary>
+<summary><h2>Sizzlin&#x27; Spicy Szechuan Stir-Fry</h2></summary>
 
 <p>Link to recipe <a href="https://www.gimmesomeoven.com/sizzlin-spicy-szechuan-stir-fry/">here</a>.</p>
 
@@ -7487,8 +7930,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>Sloppy Joes</summary>
+<summary><h2>Sloppy Joes</h2></summary>
 
 <p>Link to recipe <a href="https://www.delish.com/cooking/recipe-ideas/recipes/a53825/homemade-sloppy-joes-recipe/">here</a>.</p>
 
@@ -7527,8 +7972,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>Slow Cooker Honey Garlic Chicken</summary>
+<summary><h2>Slow Cooker Honey Garlic Chicken</h2></summary>
 
 <p>Link to recipe <a href="https://cafedelites.com/slow-cooker-honey-garlic-chicken/">here</a>.</p>
 
@@ -7570,8 +8017,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>Slow Cooker Honey Glazed Ham</summary>
+<summary><h2>Slow Cooker Honey Glazed Ham</h2></summary>
 
 <p>Link to recipe <a href="https://wholefully.com/slow-cooker-honey-glazed-ham/">here</a>.</p>
 
@@ -7602,8 +8051,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>Slow Cooker Pot Roast</summary>
+<summary><h2>Slow Cooker Pot Roast</h2></summary>
 
 <p>Link to recipe <a href="https://damndelicious.net/2019/04/12/slow-cooker-pot-roast/">here</a>.</p>
 
@@ -7643,8 +8094,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>Slow Cooker Sausage, Spinach and White Bean Soup</summary>
+<summary><h2>Slow Cooker Sausage, Spinach and White Bean Soup</h2></summary>
 
 <p>Link to recipe <a href="https://damndelicious.net/2015/03/21/slow-cooker-sausage-spinach-and-white-bean-soup/">here</a>.</p>
 
@@ -7681,8 +8134,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>Snickerdoodle Recipe</summary>
+<summary><h2>Snickerdoodle Recipe</h2></summary>
 
 <p>Link to recipe <a href="https://lilluna.com/snickerdoodles/">here</a>.</p>
 
@@ -7716,8 +8171,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>Soft Gingerbread Cookies with Maple Glaze</summary>
+<summary><h2>Soft Gingerbread Cookies with Maple Glaze</h2></summary>
 
 <p>Link to recipe <a href="https://pinchofyum.com/soft-gingerbread-cookies-with-maple-glaze">here</a>.</p>
 
@@ -7755,8 +8212,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>Sour Cream Coffee Cake</summary>
+<summary><h2>Sour Cream Coffee Cake</h2></summary>
 
 <p>Link to recipe <a href="https://www.gimmesomeoven.com/sour-cream-coffee-cake/">here</a>.</p>
 
@@ -7795,8 +8254,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>Southwest Chickpea and Corn Salad with Honey Lime Vinaigrette</summary>
+<summary><h2>Southwest Chickpea and Corn Salad with Honey Lime Vinaigrette</h2></summary>
 
 <p>Link to recipe <a href="https://www.onceuponachef.com/recipes/chickpea-corn-red-pepper-salad-with-honey-lime-vinaigrette.html">here</a>.</p>
 
@@ -7828,8 +8289,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>Spicy Carrot Fried Rice</summary>
+<summary><h2>Spicy Carrot Fried Rice</h2></summary>
 
 <p>Link to recipe <a href="https://www.foodandwine.com/recipes/spicy-carrot-fried-rice">here</a>.</p>
 
@@ -7860,8 +8323,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>Spicy Chipotle Tempeh Tacos with Green Apple Slaw</summary>
+<summary><h2>Spicy Chipotle Tempeh Tacos with Green Apple Slaw</h2></summary>
 
 <p>Link to recipe <a href="https://zestfulkitchen.com/spicy-chipotle-tempeh-tacos-green-apple-slaw/?r_done=1#tasty-recipes-4211">here</a>.</p>
 
@@ -7908,8 +8373,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>Spicy Sesame Gochujang Noodles</summary>
+<summary><h2>Spicy Sesame Gochujang Noodles</h2></summary>
 
 <p>Link to recipe <a href="https://www.gimmesomeoven.com/spicy-sesame-gochujang-noodles/">here</a>.</p>
 
@@ -7948,8 +8415,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>Stuffed Hatch Chiles</summary>
+<summary><h2>Stuffed Hatch Chiles</h2></summary>
 
 <p>Link to recipe <a href="https://lmld.org/stuffed-hatch-chiles/">here</a>.</p>
 
@@ -7992,8 +8461,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>Stuffed Shells</summary>
+<summary><h2>Stuffed Shells</h2></summary>
 
 <p>Link to recipe <a href="https://thecozycook.com/stuffed-shells/">here</a>.</p>
 
@@ -8033,8 +8504,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>Sweet &amp; Spicy Grilled Corn</summary>
+<summary><h2>Sweet &amp; Spicy Grilled Corn</h2></summary>
 
 <p>Link to recipe <a href="https://www.delish.com/cooking/recipe-ideas/recipes/a48715/crack-corn-recipe/">here</a>.</p>
 
@@ -8065,8 +8538,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>Tamale Pie</summary>
+<summary><h2>Tamale Pie</h2></summary>
 
 <p>Link to recipe <a href="https://tastesbetterfromscratch.com/tamale-pie/">here</a>.</p>
 
@@ -8109,8 +8584,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>Thai Basil Beef Noodle Stir-Fry</summary>
+<summary><h2>Thai Basil Beef Noodle Stir-Fry</h2></summary>
 
 <p>Link to recipe <a href="https://www.gimmesomeoven.com/thai-basil-beef-noodle-stir-fry/">here</a>.</p>
 
@@ -8147,8 +8624,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>Thai Beef with Basil</summary>
+<summary><h2>Thai Beef with Basil</h2></summary>
 
 <p>Link to recipe <a href="https://www.epicurious.com/recipes/food/views/thai-beef-with-basil-51198660/amp">here</a>.</p>
 
@@ -8184,8 +8663,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>Thai Crunch Salad with Peanut Dressing</summary>
+<summary><h2>Thai Crunch Salad with Peanut Dressing</h2></summary>
 
 <p>Link to recipe <a href="https://www.onceuponachef.com/recipes/thai-crunch-salad-with-peanut-dressing.html">here</a>.</p>
 
@@ -8228,8 +8709,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>Thai Cucumber Salad with Peanuts</summary>
+<summary><h2>Thai Cucumber Salad with Peanuts</h2></summary>
 
 <p>Link to recipe <a href="https://www.onceuponachef.com/recipes/thai-cucumber-salad-with-peanuts.html">here</a>.</p>
 
@@ -8264,8 +8747,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>Thai Fried Rice</summary>
+<summary><h2>Thai Fried Rice</h2></summary>
 
 <p>Link to recipe <a href="https://www.recipetineats.com/thai-chicken-fried-rice/">here</a>.</p>
 
@@ -8307,8 +8792,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>Thai Fried Rice</summary>
+<summary><h2>Thai Fried Rice</h2></summary>
 
 <p>Link to recipe <a href="https://www.delish.com/cooking/recipe-ideas/a35035252/thai-fried-rice-recipe/">here</a>.</p>
 
@@ -8347,8 +8834,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>Thai Stir Fry Noodles - Pad See Ew</summary>
+<summary><h2>Thai Stir Fry Noodles - Pad See Ew</h2></summary>
 
 <p>Link to recipe <a href="https://www.chewoutloud.com/thai-stir-fried-noodles-pad-see-ew/">here</a>.</p>
 
@@ -8385,8 +8874,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>Thai-Inspired Chicken &amp; Rice Noodle Soup</summary>
+<summary><h2>Thai-Inspired Chicken &amp; Rice Noodle Soup</h2></summary>
 
 <p>Link to recipe <a href="https://www.onceuponachef.com/recipes/thai-chicken-rice-noodle-soup.html">here</a>.</p>
 
@@ -8426,8 +8917,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>The BEST Carrot Cake with Cream Cheese Frosting</summary>
+<summary><h2>The BEST Carrot Cake with Cream Cheese Frosting</h2></summary>
 
 <p>Link to recipe <a href="https://www.livewellbakeoften.com/the-best-carrot-cake-recipe/">here</a>.</p>
 
@@ -8469,8 +8962,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>The BEST Homemade Baked Mac and Cheese</summary>
+<summary><h2>The BEST Homemade Baked Mac and Cheese</h2></summary>
 
 <p>Link to recipe <a href="https://www.momontimeout.com/best-homemade-baked-mac-and-cheese-recipe/">here</a>.</p>
 
@@ -8507,8 +9002,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>The Best Mashed Potatoes Recipe</summary>
+<summary><h2>The Best Mashed Potatoes Recipe</h2></summary>
 
 <p>Link to recipe <a href="https://www.spendwithpennies.com/how-to-make-mashed-potatoes/">here</a>.</p>
 
@@ -8538,8 +9035,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>The Best Sloppy Joe Recipe</summary>
+<summary><h2>The Best Sloppy Joe Recipe</h2></summary>
 
 <p>Link to recipe <a href="https://sugarspunrun.com/the-best-sloppy-joe-recipe/#recipe">here</a>.</p>
 
@@ -8579,8 +9078,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>The Best-Ever Tuna Melt</summary>
+<summary><h2>The Best-Ever Tuna Melt</h2></summary>
 
 <p>Link to recipe <a href="https://www.simplyrecipes.com/recipes/tarragon_tuna_melt/">here</a>.</p>
 
@@ -8617,8 +9118,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>Tomatillo-Serrano Sauce (Salsa Verde) Step-by-Step</summary>
+<summary><h2>Tomatillo-Serrano Sauce (Salsa Verde) Step-by-Step</h2></summary>
 
 <p>Link to recipe <a href="https://www.mexicanplease.com/tomatillo-serrano-sauce-salsa-verde-step-by-step/">here</a>.</p>
 
@@ -8648,8 +9151,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>Triple Berry Crisp</summary>
+<summary><h2>Triple Berry Crisp</h2></summary>
 
 <p>Link to recipe <a href="https://www.cookingclassy.com/triple-berry-crisp/">here</a>.</p>
 
@@ -8685,8 +9190,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>Turmeric-Ginger Tonic with Chia Seeds</summary>
+<summary><h2>Turmeric-Ginger Tonic with Chia Seeds</h2></summary>
 
 <p>Link to recipe <a href="https://www.bonappetit.com/recipe/turmeric-ginger-tonic-with-chia-seeds">here</a>.</p>
 
@@ -8712,8 +9219,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>Vegan Malai Kofta (Indian dumplings in Tomato onion curry sauce)</summary>
+<summary><h2>Vegan Malai Kofta (Indian dumplings in Tomato onion curry sauce)</h2></summary>
 
 <p>Link to recipe <a href="https://www.veganricha.com/vegan-malai-kofta-recipe/">here</a>.</p>
 
@@ -8765,8 +9274,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>Vegan Spicy Thai Drunken Noodles with Seared Tofu</summary>
+<summary><h2>Vegan Spicy Thai Drunken Noodles with Seared Tofu</h2></summary>
 
 <p>Link to recipe <a href="https://kathysvegankitchen.com/vegan-spicy-thai-drunken-noodles-seared-tofu/">here</a>.</p>
 
@@ -8806,8 +9317,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>Vegan Vegetable Pakoras</summary>
+<summary><h2>Vegan Vegetable Pakoras</h2></summary>
 
 <p>Link to recipe <a href="https://www.ilovevegan.com/vegetable-pakoras/">here</a>.</p>
 
@@ -8853,8 +9366,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>Vegetarian Gumbo</summary>
+<summary><h2>Vegetarian Gumbo</h2></summary>
 
 <p>Link to recipe <a href="https://www.gimmesomeoven.com/vegetarian-gumbo/">here</a>.</p>
 
@@ -8895,8 +9410,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>Vietnamese Noodles with Lemongrass Chicken</summary>
+<summary><h2>Vietnamese Noodles with Lemongrass Chicken</h2></summary>
 
 <p>Link to recipe <a href="https://www.recipetineats.com/vietnamese-chicken-noodle-bowl/">here</a>.</p>
 
@@ -8945,8 +9462,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>Vinegar Based Coleslaw Recipe</summary>
+<summary><h2>Vinegar Based Coleslaw Recipe</h2></summary>
 
 <p>Link to recipe <a href="https://www.billyparisi.com/vinegar-based-coleslaw/">here</a>.</p>
 
@@ -8978,8 +9497,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>Waffle Recipe</summary>
+<summary><h2>Waffle Recipe</h2></summary>
 
 <p>Link to recipe <a href="https://www.spendwithpennies.com/fluffy-homemade-waffle-recipe/">here</a>.</p>
 
@@ -9011,8 +9532,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>Waffled Chickpea Patties</summary>
+<summary><h2>Waffled Chickpea Patties</h2></summary>
 
 <p>Link to recipe <a href="https://www.foodnetwork.com/recipes/food-network-kitchen/waffled-falafel-recipe-3361890">here</a>.</p>
 
@@ -9050,8 +9573,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>Warm Potato Salad</summary>
+<summary><h2>Warm Potato Salad</h2></summary>
 
 <p>Link to recipe <a href="https://damndelicious.net/2019/07/17/warm-potato-salad/">here</a>.</p>
 
@@ -9085,8 +9610,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>Weeknight Lemon Chicken Breasts</summary>
+<summary><h2>Weeknight Lemon Chicken Breasts</h2></summary>
 
 <p>Link to recipe <a href="https://damndelicious.net/2022/08/05/weeknight-lemon-chicken-breasts/">here</a>.</p>
 
@@ -9120,8 +9647,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>Weeknight Sesame Teriyaki Chicken with Ginger Rice</summary>
+<summary><h2>Weeknight Sesame Teriyaki Chicken with Ginger Rice</h2></summary>
 
 <p>Link to recipe <a href="https://www.halfbakedharvest.com/sesame-teriyaki-chicken/">here</a>.</p>
 
@@ -9161,8 +9690,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>Whipped Cottage Cheese and Greek Yogurt Dessert Cups</summary>
+<summary><h2>Whipped Cottage Cheese and Greek Yogurt Dessert Cups</h2></summary>
 
 <p>Link to recipe <a href="https://confessionsofafitfoodie.com/whipped-cottage-cheese-and-greek-yogurt-dessert-cups/">here</a>.</p>
 
@@ -9192,8 +9723,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>Yaki Udon</summary>
+<summary><h2>Yaki Udon</h2></summary>
 
 <p>Link to recipe <a href="https://choosingchia.com/yaki-udon/">here</a>.</p>
 
@@ -9229,8 +9762,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>Zesty Grilled Ham</summary>
+<summary><h2>Zesty Grilled Ham</h2></summary>
 
 <p>Link to recipe <a href="https://www.tasteofhome.com/recipes/zesty-grilled-ham/">here</a>.</p>
 
@@ -9258,8 +9793,10 @@ permalink: /ernst-recipes/
 
 </details>
 
+<hr />
+
 <details class="recipe-item">
-<summary>Zhoug! (Spicy Cilantro Sauce)</summary>
+<summary><h2>Zhoug! (Spicy Cilantro Sauce)</h2></summary>
 
 <p>Link to recipe <a href="https://cookieandkate.com/zhoug-sauce-recipe/">here</a>.</p>
 
