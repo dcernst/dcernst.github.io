@@ -22,7 +22,7 @@ To my surprise, when all was said and done, I had managed to come out as the cha
 
 It truly meant a lot to me to see so many of my friends, students, and colleagues in the audience. What an awesome community we have! I care a lot about mathematics and I’m a proud mathematician. Given some of the recent challenges and battles I’ve endured as Chair, I felt like I/we needed a win and this felt damn good!  But perhaps more importantly, I am heartened by the engagement and enthusiasm of the broader NAU community.
 
-Here is the text of my opening argument:
+Below is the text of my opening argument. Someone also posted a video on Reddit, which you can [watch here](https://www.reddit.com/r/NAU/comments/1rzedt4/naus_great_survival_debate_winning_argument/). 
 
 > We stand at the Clifford E. White Theater not just to say goodbye to Earth, but to decide what defines the "human" in "humanity." There is one seat left on the convoy. One. We are standing on the precipice of a new world. The biologists are trying to figure out how many jars of sourdough starter they can smuggle on board; the chemists are bringing… well, whatever it is they use to turn pond water into gin. 
 >
