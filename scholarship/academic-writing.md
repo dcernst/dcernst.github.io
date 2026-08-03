@@ -24,6 +24,7 @@ My interests also include the [scholarship of teaching and learning](http://en.w
 You can find a recent version of my curriculum vitae [here]({{site.baseurl}}/scholarship/CV-Ernst.pdf).
 
 ## In Preparation
+  * D.C. Ernst, T.J. Hitchman, M. Jones, and S. Yoshinobu. Who trains the trainers? A process for supporting systemic change. 
   * A. Attilio, J. Barnes, J. Breland, D.C. Ernst, A. Patrick, A. Pari, R. Perry, V. Wilmer. Structure of braid graphs in Coxeter systems.
   * M. Baltushkin, D.C. Ernst, and N. Sieben. Unite and Conquer: The folding of impartial games.
   * G. Cerbai, A. Claesson, D.C. Ernst, and H. Golab. Pattern-avoiding Cayley permutations via combinatorial species, Part 2.
