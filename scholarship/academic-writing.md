@@ -33,7 +33,6 @@ You can find a recent version of my curriculum vitae [here]({{site.baseurl}}/sch
 
 ## Submitted
   * B.J. Benesh, D.C. Ernst, M. Meyer, S.K. Salmon, and N. Sieben. Impartial geodetic destroying games on graphs. [[arXiv:2606.05483](http://arxiv.org/abs/2606.05483)]
-  * B.J. Benesh, D.C. Ernst, M. Meyer, S.K. Salmon, and N. Sieben. Impartial geodetic removing games on grid graphs. [[arXiv:2505.08655](http://arxiv.org/abs/2505.08655)]
   * J. Barnes, J. Breland, D.C. Ernst, R. Perry. Braid graphs in simply-laced triangle-free Coxeter systems are median. [[arXiv:2408.16839](https://arxiv.org/abs/2408.16839)]
 
 ## Books
@@ -44,6 +43,7 @@ Below is a list of textbooks that I have written to be used with an [inquiry-bas
   * D.C. Ernst. *An Introduction to Proof via Inquiry-Based Learning*. MAA Press, 2022. [[Project Webpage](http://dcernst.github.io/IBL-IntroToProof/)] [[Paperback](https://bookstore.ams.org/text-73/)]
 
 ## Journal Articles
+  * B.J. Benesh, D.C. Ernst, M. Meyer, S.K. Salmon, and N. Sieben. Impartial geodetic removing games on grid graphs. Accepted to *Games of No Chance*. [[arXiv:2505.08655](http://arxiv.org/abs/2505.08655)]
   * G. Cerbai, A. Claesson, D.C. Ernst, and H. Golab. Pattern-avoiding Cayley permutations via combinatorial species. *Australas. J. Combin.*, 96(2), 267–299m 2026. [[arXiv:2407.19583](https://arxiv.org/abs/2407.19583)] [[ePrint](https://ajc.maths.uq.edu.au/pdf/94/ajc_v94_p267.pdf)]
   * M. Baltushkin, D.C. Ernst, and N. Sieben. Isomorphism Theorems for Impartial Combinatorial Games. *Discrete Math. Lett.* 16, 2025. [[arXiv:2505.04919](https://arxiv.org/abs/2505.04919)] [[ePrint](https://www.dmlett.com/archive/v16/DML25_v16_pp59-66.pdf)]
   * B.J. Benesh, D.C. Ernst, M. Meyer, S.K. Salmon, and N. Sieben. Impartial geodetic building games on graphs. *Int. J. Game Theory* 53(4), 2025. [[arXiv:2307.07095](https://arxiv.org/abs/2307.07095)] [[ePrint](https://doi.org/10.1007/s00182-024-00916-0)]
