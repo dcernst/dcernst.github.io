@@ -177,30 +177,30 @@ Homework will be assessed using the following rubric.
 <center>
 <table class="table table-striped">
 <caption style="text-align: center;">Rubric for Grading Homework</caption>
-	<thead>
-	<tr>
-		<th style="text-align: center;">Grade</th>
-		<th>Criteria</th>
-	</tr>
-	</thead>
-	<tbody>
-	<tr>
-		<td style="text-align: center;">4</td>
-		<td>Sufficient effort was put into nearly all the problems.</td>
-	</tr>
-	<tr>
-		<td style="text-align: center;">2</td>
-		<td>Some problems were omitted and/or sufficient effort was not exhibited.</td>
-	</tr>
-	<tr>
-		<td style="text-align: center;">1</td>
-		<td>Many problems omitted and/or minimal effort exhibited.</td>
-	</tr>
-	<tr>
-		<td style="text-align: center;">0</td>
-		<td>Assignment was not turned in.</td>
-	</tr>
-	</tbody>
+<thead>
+<tr>
+<th style="text-align: center;">Grade</th>
+<th>Criteria</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">4</td>
+<td>Sufficient effort was put into nearly all the problems.</td>
+</tr>
+<tr>
+<td style="text-align: center;">2</td>
+<td>Some problems were omitted and/or sufficient effort was not exhibited.</td>
+</tr>
+<tr>
+<td style="text-align: center;">1</td>
+<td>Many problems omitted and/or minimal effort exhibited.</td>
+</tr>
+<tr>
+<td style="text-align: center;">0</td>
+<td>Assignment was not turned in.</td>
+</tr>
+</tbody>
 </table>
 </center>
 
@@ -234,30 +234,30 @@ Presentations will be assessed using the following criteria.
 <center>
 <table class="table table-striped">
 <caption style="text-align: center;">Rubric for Assessing Presentations</caption>
-	<thead>
-	<tr>
-		<th style="text-align: center;">Specification</th>
-		<th>Criteria</th>
-	</tr>
-	</thead>
-	<tbody>
-	<tr>
-		<td style="text-align: center;">U</td>
-		<td><b>Unsatisfactory</b>. Minimal progress was made or the student was unprepared.</td>
-	</tr>
-	<tr>
-		<td style="text-align: center;">I</td>
-		<td><b>In progress</b>. The student made an honest attempt at the problem but recognized a flaw that prevented them from being able to complete the problem during the presentation. Alternatively, the student reported on their current progress on a problem and attempted to convey where or why they are currently "stuck".</td>
-	</tr>
-	<tr>
-		<td style="text-align: center;">M</td>
-		<td><b>Meets Expectations</b>. The student demonstrated an understanding of the problem and presented the key ideas. Perhaps some details were omitted or interesting mistakes were made. The presentation led to fruitful class discussion.</td>
-	</tr>
-	<tr>
-		<td style="text-align: center;">E</td>
-		<td><b>Exceeds Expectations</b>. The presentation was flawless and the student demonstrated keen insight into the problem. The presentation led to fruitful class discussion.</td>
-	</tr>
-	</tbody>
+<thead>
+<tr>
+<th style="text-align: center;">Specification</th>
+<th>Criteria</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">U</td>
+<td><b>Unsatisfactory</b>. Minimal progress was made or the student was unprepared.</td>
+</tr>
+<tr>
+<td style="text-align: center;">I</td>
+<td><b>In progress</b>. The student made an honest attempt at the problem but recognized a flaw that prevented them from being able to complete the problem during the presentation. Alternatively, the student reported on their current progress on a problem and attempted to convey where or why they are currently "stuck".</td>
+</tr>
+<tr>
+<td style="text-align: center;">M</td>
+<td><b>Meets Expectations</b>. The student demonstrated an understanding of the problem and presented the key ideas. Perhaps some details were omitted or interesting mistakes were made. The presentation led to fruitful class discussion.</td>
+</tr>
+<tr>
+<td style="text-align: center;">E</td>
+<td><b>Exceeds Expectations</b>. The presentation was flawless and the student demonstrated keen insight into the problem. The presentation led to fruitful class discussion.</td>
+</tr>
+</tbody>
 </table>
 </center>
 
@@ -277,26 +277,26 @@ If you are chosen to present but would prefer not to present that particular pro
 <center>
 <table class="table table-striped">
 <caption style="text-align: center;">Specifications for Selecting Presenters</caption>
-	<thead>
-	<tr>
-		<th style="text-align: center;">Specification</th>
-		<th>Criteria</th>
-	</tr>
-	</thead>
-	<tbody>
-	<tr>
-		<td style="text-align: center;">V</td>
-		<td><b>Volunteered</b>. Student volunteered during class or in advance to present.</td>
-	</tr>
-	<tr>
-		<td style="text-align: center;">C</td>
-		<td><b>Chosen</b>. Student was selected by the instructor and agreed to present.</td>
-	</tr>
-	<tr>
-		<td style="text-align: center;">P</td>
-		<td><b>Pass</b>. Student was selected to present, but asked to take a pass. Allowed at most two.</td>
-	</tr>
-	</tbody>
+<thead>
+<tr>
+<th style="text-align: center;">Specification</th>
+<th>Criteria</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">V</td>
+<td><b>Volunteered</b>. Student volunteered during class or in advance to present.</td>
+</tr>
+<tr>
+<td style="text-align: center;">C</td>
+<td><b>Chosen</b>. Student was selected by the instructor and agreed to present.</td>
+</tr>
+<tr>
+<td style="text-align: center;">P</td>
+<td><b>Pass</b>. Student was selected to present, but asked to take a pass. Allowed at most two.</td>
+</tr>
+</tbody>
 </table>
 </center>
 
@@ -309,62 +309,62 @@ You are expected to respectfully participate and contribute to class discussions
 <center>
 <table class="table table-striped">
 <caption style="text-align: center;">Rubric for Assessing Participation</caption>
-	<thead>
-	<tr>
-		<th style="text-align: center;">Specification</th>
-		<th>Criteria</th>
-	</tr>
-	</thead>
-	<tbody>
-	<tr>
-		<td style="text-align: center;">U</td>
-		<td><b>Unsatisfactory</b>. Student was often disengaged or disrespectful. Alternatively, the student regularly missed class.</td>
-	</tr>
-	<tr>
-		<td style="text-align: center;">M</td>
-		<td><b>Meets Expectations</b>. Student was consistently respectful, engaged, and contributed to meaningful class discussions. In addition, the student regularly attended class.</td>
-	</tr>
-	<tr>
-		<td style="text-align: center;">E</td>
-		<td><b>Exceeds Expectations</b>. Student's presence in the classroom truly enhances the learning environment.</td>
-	</tr>
-	</tbody>
+<thead>
+<tr>
+<th style="text-align: center;">Specification</th>
+<th>Criteria</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">U</td>
+<td><b>Unsatisfactory</b>. Student was often disengaged or disrespectful. Alternatively, the student regularly missed class.</td>
+</tr>
+<tr>
+<td style="text-align: center;">M</td>
+<td><b>Meets Expectations</b>. Student was consistently respectful, engaged, and contributed to meaningful class discussions. In addition, the student regularly attended class.</td>
+</tr>
+<tr>
+<td style="text-align: center;">E</td>
+<td><b>Exceeds Expectations</b>. Student's presence in the classroom truly enhances the learning environment.</td>
+</tr>
+</tbody>
 </table>
 </center>
 
 #### Determining Presentation and Participation Grades
 
-Your Presentation and Participation grade is determined by your frequency and ability to foster productive class discussions through presentations and audience participation. The greatest determining factor in your Presentation and Participation grade is your willingness to present often.  The table below provides a summary of how your Presentation and Participation grade will be determined.
+Your Presentation and Participation grade is determined by your frequency and ability to foster productive class discussions through presentations and audience participation. The greatest determining factor in your Presentation and Participation grade is your willingness to present often. The frequency guidelines below apply when sufficient opportunities are available. You should aim to present at least once prior to each quiz.  The table below provides a summary of how your Presentation and Participation grade will be determined.
 
 <center>
 <table class="table table-striped">
 <caption style="text-align: center;">Rubric for Assessing Presentation and Participation Grade</caption>
 <thead>
 <tr>
-	<th style="text-align: center;">Grade&nbsp;Range</th>
-	<th>Criteria</th>
+<th style="text-align: center;">Grade&nbsp;Range</th>
+<th>Criteria</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-	<td style="text-align: center;">90-100%</td>
-	<td>Student receives M or E for participation. Student averages at least 3 presentations prior to each of the exams. Student often volunteers to present and some of these problems are challenging. Most presentations receive M or E.</td>
+<td style="text-align: center;">90-100%</td>
+<td>Student receives M or E for participation. Student averages at least 3 presentations every four weeks. Student often volunteers to present and some of these problems are challenging. Most presentations receive M or E.</td>
 </tr>
 <tr>
-	<td style="text-align: center;">80-89%</td>
-	<td>Student receives M or E for participation. Student averages at least 2 presentations prior to each of the exams. Student occasionally volunteers to present. Most presentations receive M.</td>
+<td style="text-align: center;">80-89%</td>
+<td>Student receives M or E for participation. Student averages at least 2 presentations every four weeks. Student occasionally volunteers to present. Most presentations receive M.</td>
 </tr>
 <tr>
-	<td style="text-align: center;">70-79%</td>
-	<td>Student receives M for participation. Student averages less than 2 presentations prior to each of the exams. Student rarely volunteers to present and actively avoids presenting challenging problems. Some presentations receive U.</td>
+<td style="text-align: center;">70-79%</td>
+<td>Student receives M for participation. Student averages less than 2 presentations every four weeks. Student rarely volunteers to present and actively avoids presenting challenging problems. Some presentations receive U.</td>
 </tr>
 <tr>
-	<td style="text-align: center;">60-69%</td>
-	<td>Student receives U for participation. Student rarely presents and actively avoids presenting challenging problems. Some presentations receive U.</td>
+<td style="text-align: center;">60-69%</td>
+<td>Student receives U for participation. Student rarely presents and actively avoids presenting challenging problems. Some presentations receive U.</td>
 </tr>
 <tr>
-  <td style="text-align: center;">Below 60%</td>
-  <td>Student receives U for participation. Student rarely or never presents and has completely disengaged from the class community.</td>
+<td style="text-align: center;">Below 60%</td>
+<td>Student receives U for participation. Student rarely or never presents and has completely disengaged from the class community.</td>
 </tr>
 </tbody>
 </table>
@@ -386,34 +386,34 @@ Each quiz will consist of a mixture of homework problems you encountered previou
 
 <center>
 <table class="table table-striped">
-	<thead>
-	<tr>
-		<th style="text-align: center;">Grade</th>
-		<th>Criteria</th>
-	</tr>
-	</thead>
-	<tbody>
-	<tr>
-		<td style="text-align: center;">4</td>
-		<td>This is correct and well-written mathematics!</td>
-	</tr>
-	<tr>
-		<td style="text-align: center;">3</td>
-		<td>This is a good piece of work, yet there are some mathematical errors or some writing errors that need addressing.</td>
-	</tr>
-	<tr>
-		<td style="text-align: center;">2</td>
-		<td>There is some good intuition here, but there is at least one serious flaw. </td>
-	</tr>
-	<tr>
-		<td style="text-align: center;">1</td>
-		<td>I don't understand this, but I see that you have worked on it.</td>
-	</tr>
-	<tr>
-		<td style="text-align: center;">0</td>
-		<td>I believe that you have not worked on this problem enough or have not submitted any work.</td>
-	</tr>
-	</tbody>
+<thead>
+<tr>
+<th style="text-align: center;">Grade</th>
+<th>Criteria</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">4</td>
+<td>This is correct and well-written mathematics!</td>
+</tr>
+<tr>
+<td style="text-align: center;">3</td>
+<td>This is a good piece of work, yet there are some mathematical errors or some writing errors that need addressing.</td>
+</tr>
+<tr>
+<td style="text-align: center;">2</td>
+<td>There is some good intuition here, but there is at least one serious flaw. </td>
+</tr>
+<tr>
+<td style="text-align: center;">1</td>
+<td>I don't understand this, but I see that you have worked on it.</td>
+</tr>
+<tr>
+<td style="text-align: center;">0</td>
+<td>I believe that you have not worked on this problem enough or have not submitted any work.</td>
+</tr>
+</tbody>
 </table>
 </center>
 
