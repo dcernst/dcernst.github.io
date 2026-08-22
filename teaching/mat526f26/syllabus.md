@@ -74,12 +74,6 @@ This course will be an introduction to [enumerative combinatorics](https://en.wi
 ### An Inquiry-Based Approach ###
 This course will use an [inquiry-based learning](http://danaernst.com/resources/inquiry-based-learning/) (IBL) to learning combinatorics. Rather than spending most of class listening to lectures, you will spend substantial time exploring problems, developing arguments, presenting solutions, and discussing the mathematics with your classmates. Loosely speaking, IBL is a student-centered method of teaching mathematics that engages students in sense-making activities.  Students are given tasks requiring them to solve problems, conjecture, experiment, explore, create, and communicate.  Effective IBL courses encourage deep engagement in rich mathematical activities and provide opportunities to collaborate with peers (either through class presentations or group-oriented work). I have been a firm believer in this approach to teaching and learning for over a decade, but in this AI era, I am even more convinced of its merit.
 
-<!-- SCRAPS: Much of the course will be devoted to students presenting their proposed solutions on the board and a significant portion of your grade will be determined by how much mathematics you produce.  I use the word "produce" because I believe that the best way to learn mathematics is by doing mathematics.  Someone cannot master a musical instrument or a martial art by simply watching, and in a similar fashion, you cannot master mathematics by simply watching; you must do mathematics! -->
-
-<!-- Rather than showing facts or a clear, smooth path to a solution, the instructor guides and mentors students via well-crafted problems through an adventure in mathematical discovery.   -->
-
-<!-- If you want to learn more about IBL, read my [Inquiry-Based Learning Resource page](http://danaernst.com/resources/inquiry-based-learning/). -->
-
 <blockquote>
 <p>Don’t fear failure.  Not failure, but low aim, is the crime. In great attempts it is glorious even to fail.</p>
 <footer><a href="https://en.wikipedia.org/wiki/Bruce_Lee">Bruce Lee</a></footer>
@@ -101,6 +95,8 @@ In this course, *everyone* will be required to
 - present solutions/proofs on the board to the rest of the class;
 - participate in discussions centered around a student's presented solution/proof;
 - call upon your own prodigious mental faculties to respond in flexible, thoughtful, and creative ways to problems that may seem unfamiliar at first glance.
+
+If you want to learn more about IBL, read my [Inquiry-Based Learning Resource page](http://danaernst.com/resources/inquiry-based-learning/).
 
 <blockquote>
 <p>Tell me and I forget, teach me and I may remember, involve me and I learn.</p>
@@ -146,7 +142,7 @@ Students are also expected to minimize distracting behaviors.  In particular, ev
 </blockquote>
 
 ### Course Materials ###
-There is no textbook for this course.  Instead, I will post an ever-growing and evolving sequence of tasks to the [Course Materials]({{site.baseurl}}/teaching/mat526f26/materials/) page. The only way to achieve a sufficient understanding is to be digesting the material in a meaningful way.  You should be seeking clarification about the content whenever necessary by asking questions. Here's one of my favorite quotes about reading mathematics.
+There is no textbook for this course.  Instead, I incrementally will post an evolving sequence of tasks to the [Course Materials]({{site.baseurl}}/teaching/mat526f26/materials/) page. The only way to achieve a sufficient understanding is to be digesting the material in a meaningful way.  You should be seeking clarification about the content whenever necessary by asking questions. Here's one of my favorite quotes about reading mathematics.
 
 <blockquote>
   <p>Don’t just read it; fight it! Ask your own questions, look for your own examples, discover your own proofs. Is the hypothesis necessary? Is the converse true? What happens in the classical special case? What about the degenerate cases? Where does the proof use the hypothesis?</p>
@@ -170,23 +166,223 @@ The ultimate goal is for each individual student to learn and to be successful. 
 </blockquote>
 
 ### Homework ###
-You are allowed and encouraged to work together on homework.  However, each student is expected to turn in their own work.  In general, late homework will *not* be accepted.  However, you are allowed to turn in up to **two late homework assignments** with no questions asked. Unless you have made arrangements in advance with me, homework turned in after class will be considered late. You can find the list of assignments on the [homework page]({{site.baseurl}}/teaching/mat526s24/homework/).  I reserve the right to modify the homework assignments as I see necessary.
+You are allowed and encouraged to work together on homework.  However, each student is expected to turn in their own work.  On each homework assignment, please write (i) your name and (ii) Homework number.  You can find the list of assignments on the [homework page]({{site.baseurl}}/teaching/mat526f26/homework/).  I reserve the right to modify the homework assignments as I see necessary.
 
-**Important!** Homework will consist of a mixture of the following: 
+Homework will be assigned most class meetings, and students are expected to complete each assignment before walking into the next class period. Homework will generally consist of completing exercises and proving theorems from the task sequence.  On the day that a homework assignment is due, the majority of the class period will be devoted to students presenting some subset (maybe all) of the proofs/solutions that are due that day.  You are allowed (in fact, encouraged!) to modify your written work in light of presentations made in class; however, **you are required to use a different color than what you used to complete your homework**. This will allow me to differentiate the work done in class versus the work you completed before class. I would prefer you use your own writing utensil for this purpose, but I will also have a few colored pens you can borrow. The grade you receive on an assignment will be determined by the work you completed prior to class.  I will provide more guidance with respect to this during the first couple weeks of the semester. If you are completing your homework using a tablet (e.g., iPad), please annotate your work in a different color and then email me your homework with the annotations at then end of class.
 
-  - Problems that are modifications of examples we have discussed in class.
-  - Problems that extend concepts introduced in class.
-  - Problems that introduce new concepts not yet discussed in class.
-  - Problems that synthesize multiple concepts that we either introduced in class or in a previous homework problem.
+Some homework problems will be straightforward while others are intended to be challenging.  You should anticipate not knowing what to do on some of the problems at first glance.  You may have several false starts.  Some frustration, maybe even a lot of frustration, should be expected.  This is part of the natural learning process.  On the other hand, it is not my intention to leave you to fend for yourselves.  I am here to help and I want to help. You are encouraged to seek assistance while adhering to the **Rules of the Game**.  Please visit office hours and ask questions! I am always willing to give hints/nudges, so please ask. 
 
-Some homework problems will be straightforward while others are intended to be challenging.  You should anticipate not knowing what to do on some of the problems at first glance.  You may have several false starts.  Some frustration, maybe even a lot of frustration, should be expected.  This is part of the natural learning process.  On the other hand, it is not my intention to leave you to fend for yourselves.  I am here to help and I want to help. You are encouraged to seek assistance from your classmates (while adhering to the **Rules of the Game**) and from me.  Please visit office hours and ask questions on our Q&A Discussion board. I am always willing to give hints/nudges, so please ask. 
+Homework will be assessed using the following rubric.
+
+<center>
+<table class="table table-striped">
+<caption style="text-align: center;">Rubric for Grading Homework</caption>
+	<thead>
+	<tr>
+		<th style="text-align: center;">Grade</th>
+		<th>Criteria</th>
+	</tr>
+	</thead>
+	<tbody>
+	<tr>
+		<td style="text-align: center;">4</td>
+		<td>Sufficient effort was put into nearly all the problems.</td>
+	</tr>
+	<tr>
+		<td style="text-align: center;">2</td>
+		<td>Some problems were omitted and/or sufficient effort was not exhibited.</td>
+	</tr>
+	<tr>
+		<td style="text-align: center;">1</td>
+		<td>Many problems omitted and/or minimal effort exhibited.</td>
+	</tr>
+	<tr>
+		<td style="text-align: center;">0</td>
+		<td>Assignment was not turned in.</td>
+	</tr>
+	</tbody>
+</table>
+</center>
+
+You are allowed to turn in **three late homework assignments**. Unless you have made arrangements in advance with me, homework turned in after class will be considered late. Your overall homework grade is worth ??% of your final grade. 
 
 <blockquote>
-<p>If you want to sharpen a sword, you have to remove a little metal.</p>
-<footer><a href=" ">Unknown</a></footer>
+<p>I write one page of masterpiece to ninety-one pages of shit.</p>
+<footer><a href="https://en.wikipedia.org/wiki/Ernest_Hemingway">Ernest Hemingway</a></footer>
 </blockquote>
 
-Your homework will always be graded for completion and some subset of the problems will be graded for correctness. Problems that are graded for completeness will be worth 1 point.  Problems that are graded for correctness will either be worth 2 points or 4 points depending on the level of difficulty.  Generally, quick computational problems will be worth 2 points while more substantial problems will be worth 4 points.  Each 4-point problem is subject to the following rubric:
+### Presentations and Participation ###
+
+#### General Comments
+
+The problems chosen for presentations will come from the homework assignments. Though the atmosphere in this class should be informal and friendly, what we do in the class is serious business. In particular, the presentations made by students are to be taken seriously since they spearhead the work of the class. Here are some of my expectations for the presenter:
+
+- The purpose of class presentations is not to prove to me that the presenter has done the problem. It is to make the ideas of the solution clear to the other students.
+- Presenters should explain their reasoning as they go along, not simply write everything down and then turn to explain.
+- Fellow students are allowed to ask questions at any point and it is the responsibility of the person making the presentation to answer those questions to the best of their ability.
+- Since the presentation is directed at the students, the presenter should be prepared to address questions when they arise.
+
+<blockquote>
+<p>Alone we can do so little; together we can do so much.</p>
+<footer><a href="https://en.wikipedia.org/wiki/Helen_Keller">Helen Keller</a></footer>
+</blockquote>
+
+#### Assessing Presentations
+
+Presentations will be assessed using the following criteria.
+
+<center>
+<table class="table table-striped">
+<caption style="text-align: center;">Rubric for Assessing Presentations</caption>
+	<thead>
+	<tr>
+		<th style="text-align: center;">Specification</th>
+		<th>Criteria</th>
+	</tr>
+	</thead>
+	<tbody>
+	<tr>
+		<td style="text-align: center;">U</td>
+		<td><b>Unsatisfactory</b>. Minimal progress was made that included relevant information or the student was unprepared.</td>
+	</tr>
+	<tr>
+		<td style="text-align: center;">I</td>
+		<td><b>In progress</b>. The student made an honest attempt at the problem but recognized a flaw that prevented them from being able to complete the problem during the presentation. Alternatively, the student reported on their current progress on a problem and attempted to convey where or why they are currently "stuck".</td>
+	</tr>
+	<tr>
+		<td style="text-align: center;">M</td>
+		<td><b>Meets Expectations</b>. The student demonstrated an understanding of the problem and presented the key ideas. Perhaps some details were omitted or interesting mistakes were made. The presentation led to fruitful class discussion.</td>
+	</tr>
+	<tr>
+		<td style="text-align: center;">E</td>
+		<td><b>Exceeds Expectations</b>. The presentation was flawless and the student demonstrated keen insight into the problem. The presentation led to fruitful class discussion.</td>
+	</tr>
+	</tbody>
+</table>
+</center>
+
+You should aim to avoid unsatisfactory (U) presentations. An in progress (I) presentation should not be viewed as a bad thing as each of us will occasionally get stuck. However, you should strive for the majority of your presentations to meet (M) or exceed (E) expectations.  Most presentations will meet expectations (M) while presentations that exceed expectations (E) will be rare. You should not let the rubric deter you from presenting if you have an idea about a solution/proof that you'd like to present but are worried that your solution/proof is incomplete or you are not confident your solution/proof is correct.  You will be rewarded for being courageous and sharing your creative ideas!  In my view, an interestingly wrong solution or proof makes for the best presentation since it generates the best discussion. This is really what we are after. On the other hand, you should not come to the board to present unless you have spent time thinking about the problem and have something meaningful to contribute.
+
+<blockquote>
+<p>I alone cannot change the world, but I can cast a stone across the waters to create many ripples.</p>
+<footer><a href="https://en.wikipedia.org/wiki/Mother_Teresa">Mother Teresa</a></footer>
+</blockquote>
+
+#### Selecting Presenters
+
+In general, I will curate the list of student presenters each class meeting.  A presenter is a student that either volunteered (V) or was chosen (C) by me. Volunteering is encouraged, but being chosen without volunteering isn't bad. If more than one student volunteers for a specific problem, the student with the fewest number of presentations has priority.  I reserve the right to decline your offer to present. This may happen if you are volunteering too often (and hence removing another student's opportunity to present) or if I know in advance that another student's presentation will lead to a fruitful discussion.
+
+If you are chosen to present but would prefer not to present that particular problem, you can either negotiate presenting a different problem or take a pass (P). You may elect to pass **at most two times during the semester**, after which a presentation will be deemed unsatisfactory (U). By default, if you have an unexcused absence on a day when you have been chosen to present, then your presentation will be recorded as a pass (P) unless you have already exhausted your two passes, in which case the presentation will be recorded as unsatisfactory (U).
+
+<center>
+<table class="table table-striped">
+<caption style="text-align: center;">Specifications for Selecting Presenters</caption>
+	<thead>
+	<tr>
+		<th style="text-align: center;">Specification</th>
+		<th>Criteria</th>
+	</tr>
+	</thead>
+	<tbody>
+	<tr>
+		<td style="text-align: center;">V</td>
+		<td><b>Volunteered</b>. Student volunteered during class or in advance to present.</td>
+	</tr>
+	<tr>
+		<td style="text-align: center;">C</td>
+		<td><b>Chosen</b>. Student was selected by the instructor and agreed to present.</td>
+	</tr>
+	<tr>
+		<td style="text-align: center;">P</td>
+		<td><b>Pass</b>. Student was selected to present, but asked to take a pass. Allowed at most two.</td>
+	</tr>
+	</tbody>
+</table>
+</center>
+
+In summary, for each student presentation, I will record one of V, C, or P. In the case of V or C, I will also record one of U, I, M, or E based on the rubric given above. The most common pair will likely be CM (i.e., student was chosen to present and presentation met expectations).
+
+#### Participation
+
+You are expected to respectfully participate and contribute to class discussions. This includes asking relevant and meaningful questions to both the instructor and your peers. Moreover, you are expected to be engaged and respectful during another student's presentation. Your class participation will be assessed as follows.
+
+<center>
+<table class="table table-striped">
+<caption style="text-align: center;">Rubric for Assessing Participation</caption>
+	<thead>
+	<tr>
+		<th style="text-align: center;">Specification</th>
+		<th>Criteria</th>
+	</tr>
+	</thead>
+	<tbody>
+	<tr>
+		<td style="text-align: center;">U</td>
+		<td><b>Unsatisfactory</b>. Student was often disengaged or disrespectful. Alternatively, the student regularly missed class.</td>
+	</tr>
+	<tr>
+		<td style="text-align: center;">M</td>
+		<td><b>Meets Expectations</b>. Student was consistently respectful, engaged, and contributed to meaningful class discussions. In addition, the student regularly attends class.</td>
+	</tr>
+	<tr>
+		<td style="text-align: center;">E</td>
+		<td><b>Exceeds Expectations</b>. Student's presence in the classroom truly enhances the learning environment.</td>
+	</tr>
+	</tbody>
+</table>
+</center>
+
+#### Determining Presentation and Participation Grades
+
+Your Presentation and Participation grade is determined by your frequency and ability to foster productive class discussions through presentations and audience participation. The greatest determining factor in your Presentation and Participation grade is your willingness to present often. You should aim to present at least twice prior to each midterm exam.  The table below provides a summary of how your Presentation and Participation grade will be determined.
+
+<center>
+<table class="table table-striped">
+<caption style="text-align: center;">Rubric for Assessing Presentation and Participation Grade</caption>
+<thead>
+<tr>
+	<th style="text-align: center;">Grade&nbsp;Range</th>
+	<th>Criteria</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+	<td style="text-align: center;">90-100%</td>
+	<td>Student receives M or E for participation. Student averages at least 3 presentations prior to each of the exams. Student often volunteers to present and some of these problems are challenging. Most presentations receive M or E.</td>
+</tr>
+<tr>
+	<td style="text-align: center;">80-89%</td>
+	<td>Student receives M or E for participation. Student averages at least 2 presentations prior to each of the exams. Student occasionally volunteers to present. Most presentations receive M.</td>
+</tr>
+<tr>
+	<td style="text-align: center;">70-79%</td>
+	<td>Student receives M for participation. Student averages less than 2 presentations prior to each of the exams. Student rarely volunteers to present and actively avoids presenting challenging problems. Some presentations receive U.</td>
+</tr>
+<tr>
+	<td style="text-align: center;">60-69%</td>
+	<td>Student receives U for participation. Student rarely presents and actively avoids presenting challenging problems. Some presentations receive U.</td>
+</tr>
+<tr>
+  <td style="text-align: center;">Below 60%</td>
+  <td>Student receives U for participation. Student rarely or never presents and has completely disengaged from the class community.</td>
+</tr>
+</tbody>
+</table>
+</center>
+
+I anticipate that most students will fall in the 80-89% range. Your Presentation and Participation grade is worth ??% of your overall grade.
+
+### Quizzes ###
+We will have 6 quizzes this semester. Tentatively, the quizzes are scheduled for the following Fridays:
+
+- Quiz 1:  (week 3)
+- Quiz 2:  (week 5)
+- Quiz 3:  (week 7)
+- Quiz 4:  (week 9)
+- Quiz 5:  (week 11)
+- Quiz 6:  (week 13)
+
+Each quiz will consist of a mixture of homework problems you encountered during the previous two weeks and new problems not previously attempted.   During a quiz, you may have the opportunity to collaborate with your peers for a few minutes. Each problem will be graded using the following rubric:
 
 <center>
 <table class="table table-striped">
@@ -211,7 +407,7 @@ Your homework will always be graded for completion and some subset of the proble
 	</tr>
 	<tr>
 		<td style="text-align: center;">1</td>
-		<td>I don't understand this, but I see that you have worked on it; come see me!</td>
+		<td>I don't understand this, but I see that you have worked on it.</td>
 	</tr>
 	<tr>
 		<td style="text-align: center;">0</td>
@@ -221,23 +417,22 @@ Your homework will always be graded for completion and some subset of the proble
 </table>
 </center>
 
-To compute your score on a given homework assignment, I will divide your total points by the total possible points to obtain a percent score. Each homework assignment has the same weight.  Your overall homework grade will be worth 50% of your final grade.
+Make-up quizzes will only be given under extreme circumstances, as judged by me. In general, it will be best to communicate conflicts ahead of time.  Each Quiz is worth 10% of your overall grade (Quizzes constitute 60% of your overall grade). 
+
+Nandor Sieben, Monika Keindl, and I received a [TRAIL AI grant](https://in.nau.edu/provost/academic-operations/trail/) to experiment with using AI to assess student work and to provide feedback. My current plan is to use ChatGPT and Codex to assess and provide feedback on the quizzes.  This will be *in addition to* me grading the quizzes. In addition, I am required to not have your name associated with your work when ChatGPT does its assessment.  You can opt out of this if you wish.
 
 <blockquote>
-<p>I write one page of masterpiece to ninety-one pages of shit.</p>
-<footer><a href="https://en.wikipedia.org/wiki/Ernest_Hemingway">Ernest Hemingway</a></footer>
+<p>If you want to sharpen a sword, you have to remove a little metal.</p>
+<footer><a href=" ">Unknown</a></footer>
 </blockquote>
 
-### Exams ###
-There will be one Midterm Exam and a cumulative Final Exam.  Each exam will likely consist of both an in-class portion and a take-home portion. The in-class portion of the midterm exam is *tentatively* scheduled for **???** (week ???). The in-class portion of the final exam will be on **Wednesday, December 9** at 7:30-9:30AM. The Midterm Exam and the Final Exam will each be worth 25% of your final course grade. Make-up exams will only be given under extreme circumstances, as judged by me. In general, it will be best to communicate conflicts ahead of time.
+### Final Exam ###
+There will be a cumulative Final Exam at the end of the semester, which may consist of both an in-class portion and a take-home portion. The in-class portion of the final exam will be on **Wednesday, December 9** at 7:30-9:30AM. The Final Exam is worth ??% of your final course grade.
 
 <blockquote>
 <p>The best way to learn is to do; the worst way to teach is to talk.</p>
 <footer>Paul Halmos in <cite title="Source Title">The Problem of Learning to Teach</cite></footer>
 </blockquote>
-
-### Attendance and Participation ###
-Regular attendance is expected and is vital to success in this course, but you will not explicitly be graded on attendance.  Students can find more information about NAU's attendance policy on the [Academic Policies](https://in.nau.edu/dean-of-students/academic-policies/) page. You are also expected to respectfully participate and contribute to class discussions. This includes asking relevant and meaningful questions to both the instructor and your peers in class and on our Discord server.
 
 <blockquote>
 <p>I must not fear.<br />
@@ -252,35 +447,40 @@ Only I will remain.</p>
 </blockquote>
 
 ### Extra Credit ###
-The only thing I will award extra credit for is finding typos on course materials (e.g., textbook, exams, syllabus, webpage).  This includes broken links on the webpage.  However, it does not include the placement of commas and such.  If you find a typo, I will add one percentage point to your next exam.  You can earn at most five percentage points per exam. They're is a typo right here.
+There are two ways you can earn extra credit. The first way is finding typos in course materials (e.g., syllabus, homework, website, Canvas).  This includes broken links.  However, it does not include the placement of commas and such.  If you find a typo, I will add one percentage point to your next quiz.  The second way is by finding legitimate errors in AI-generated feedback on quizzes.  If you find an error in the AI-generated feedback on one of your quizzes, I will add two percentage points to your next quiz. You can earn at most four percentage points per quiz. They're is a typo right here.
 
 ### Basis for Evaluation ###
 In summary, your final grade will be determined by your scores in the following categories.
 
 <center>
 <table class="table table-striped">
-	<thead>
-	<tr>
-		<th>Category</th>
-		<th style="text-align: center;">Weight</th>
-		<th>Notes </th>
-	</tr>
-	</thead>
-	<tbody>
-	<tr>
-		<td>Homework</td>
-		<td style="text-align: center;">50%</td>
-		<td>See above for requirements</td>
-	</tr>
-	<tr>
-		<td>Midterm Exam</td>
-		<td style="text-align: center;">25%</td>
-		<td>???</td>
-	</tr>
-  <tr>
-	<td>Final Exam</td>
-	<td style="text-align: center;">25%</td>
-	<td>7:30-9:30am on Wednesday, December 9, 2026</td>
+<thead>
+<tr>
+<th>Category</th>
+<th style="text-align: center;">Weight</th>
+<th>Notes </th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homework</td>
+<td style="text-align: center;">??%</td>
+<td>See above for details.</td>
+</tr>
+<tr>
+<td>Presentations &amp; Participation</td>
+<td style="text-align: center;">??%</td>
+<td>See above for details.</td>
+</tr>
+<tr>
+<td>Quizzes</td>
+<td style="text-align: center;">??%</td>
+<td>Mixture of previously encountered problems and new problems.</td>
+</tr>
+<tr>
+<td>Final Exam</td>
+<td style="text-align: center;">??%</td>
+<td>7:30-9:30am on Wednesday, December 9, 2026</td>
 </tr>
 </tbody>
 </table>
@@ -292,9 +492,9 @@ In summary, your final grade will be determined by your scores in the following 
 </blockquote>
 
 ### Department and University Policies ###
-You are responsible for knowing and following the [Department of Mathematics and Statistics Policies]({{ site.baseurl }}/teaching/DepartmentPoliciesFall2024.pdf) (PDF) and other University policies listed [here](https://nau.edu/wp-content/uploads/sites/26/Syllabus-Policy-Statements_August_5_2024.pdf) (PDF).  More policies can be found in other university documents, especially the [NAU Student Handbook](https://in.nau.edu/dean-of-students/Student-Handbook/) (see appendices).
+You are responsible for knowing and following the [Department of Mathematics and Statistics Policies](https://in.nau.edu/department-mathematics-statistics/syllabus-policies/) and other University policies listed [here](https://in.nau.edu/wp-content/uploads/sites/395/Syllabus-Policy-Statements_08042026.pdf) (PDF).  More policies can be found in other university documents, especially the [NAU Student Handbook](https://in.nau.edu/dean-of-students/Student-Handbook/) (see appendices).
 
-As per Department Policy, cell phones, MP3 players and portable electronic communication devices, including but not limited to smart phones, cameras and recording devices, must be turned off and inaccessible during in-class tests. Any violation of this policy will be treated as academic dishonesty.
+As per Department Policy, cell phones, MP3 players and portable electronic communication devices, including but not limited to smart phones, cameras and recording devices, must be turned off and inaccessible during in-class assessments. Any violation of this policy will be treated as academic dishonesty.
 
 ### Career Readiness Skills ###
 In every class you take at NAU, you learn professional skills that can support your future career. There are several ways that this course can help you meet and excel at your job goals and life desires. Below is a list of in-demand skills from National Association of Colleges and Employers (NACE) you will practice in this class:
@@ -318,9 +518,6 @@ Some Career Readiness resources:
 - [Udemy](https://in.nau.edu/its/udemy/): Online courses and career searching advice. Log in with your NAU email account and search ‘NAU Career Steps’
 - [O*net Online](https://www.onetonline.org/): Occupation exploration reports
 - [Labor Market Insights](https://frankecareer.nau.edu/labor-market-insights/)
-
-### Getting Help ###
-There are many resources available to get help.  First, you are allowed and encouraged to work together on homework.  However, each student is expected to turn in their own work. You are strongly encouraged to ask questions in our Discord discussion group, as I (and hopefully other members of the class) will post comments there for all to benefit from.  You are also encouraged to stop by during my office hours and you can always [email me](mailto:dana.ernst@nau.edu).  I am always happy to help you.  If my office hours don't work for you, then we can probably find another time to meet.  It is your responsibility to be aware of how well you understand the material.  Don't wait until it is too late if you need help.  *Ask questions*!
 
 <blockquote>
 <p>We cannot teach people anything; we can only help them discover it within themselves.</p>
