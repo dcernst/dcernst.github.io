@@ -51,7 +51,7 @@ Welcome to the course web page for the Spring 2024 manifestation of MAT 690: Com
 
 <blockquote>
 <p>Don’t fear failure.  Not failure, but low aim, is the crime. In great attempts it is glorious even to fail.</p>
-<footer><a href="https://en.wikipedia.org/wiki/Bruce_Lee">Bruce Lee</a></footer>
+<footer>Attributed to <a href="https://en.wikipedia.org/wiki/Bruce_Lee">Bruce Lee</a></footer>
 </blockquote>
 
 ## What is This Course All About? ##

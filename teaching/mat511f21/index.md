@@ -82,7 +82,7 @@ If you want to learn more about IBL, read my blog post titled [What the Heck is 
 
 <blockquote>
 <p>Don’t fear failure.  Not failure, but low aim, is the crime. In great attempts it is glorious even to fail.</p>
-<footer><a href="https://en.wikipedia.org/wiki/Bruce_Lee">Bruce Lee</a></footer>
+<footer>Attributed to <a href="https://en.wikipedia.org/wiki/Bruce_Lee">Bruce Lee</a></footer>
 </blockquote>
 
 Much of the course will be devoted to students presenting their proposed solutions/proofs on the board and a significant portion of your grade will be determined by how much mathematics you produce.  I use the word "produce" because I believe that the best way to learn mathematics is by doing mathematics.  Someone cannot master a musical instrument or a martial art by simply watching, and in a similar fashion, you cannot master mathematics by simply watching; you must do mathematics!
@@ -108,5 +108,5 @@ As the semester progresses, it should become clear to you what the expectations 
 
 <blockquote>
 <p>Tell me and I forget, teach me and I may remember, involve me and I learn.</p>
-<footer><a href="https://en.wikipedia.org/wiki/Benjamin_Franklin">Benjamin Franklin</a></footer>
+<footer>Modern proverb inspired by <a href="https://en.wikipedia.org/wiki/Xunzi_(book)">Xunzi</a></footer>
 </blockquote>

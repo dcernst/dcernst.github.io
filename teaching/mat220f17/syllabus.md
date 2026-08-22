@@ -128,7 +128,7 @@ Student assessment will be based on regular class attendance, participation duri
 We will not be using a textbook this semester, but rather a problem sequence designed for this course.  The problem collection will be available on the course webpage. We will not be covering every detail of the notes and the only way to achieve a sufficient understanding of the material is to be digesting the reading in a meaningful way. You should be seeking clarification about the content of the notes whenever necessary by asking questions in class or posting questions to the course forum.  Here's one of my favorite quotes about reading mathematics.
 
 <blockquote>
-  <p>Don’t just read it; fight it! Ask your own questions, look for your own examples, discover your own proofs. Is the hypothesis necessary? Is the converse true? What happens in the classical special case? What about the degenerate cases? Where does the proof use the hypothesis?</p>
+  <p>Don’t just read it; fight it! Ask your own question, look for your own examples, discover your own proofs. Is the hypothesis necessary? Is the converse true? What happens in the classical special case? What about the degenerate cases? Where does the proof use the hypothesis?</p>
   <footer><a href="http://en.wikipedia.org/wiki/Paul_Halmos">Paul Halmos</a></footer>
 </blockquote>
 

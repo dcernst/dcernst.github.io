@@ -1,5 +1,5 @@
 ---
-title: Quote by Galileo Galilei
+title: Quote Attributed to Galileo Galilei
 author: Dana Ernst
 layout: post
 permalink: /galileo-quote/
@@ -16,5 +16,7 @@ tags:
 
 <blockquote>
 <p>We cannot teach people anything; we can only help them discover it within themselves.</p>
-<footer>Galileo Galilei</footer>
+<footer>Often attributed to Galileo Galilei</footer>
 </blockquote>
+
+This quotation is widely attributed to Galileo, but no source in his writings has been identified.

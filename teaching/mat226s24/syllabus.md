@@ -123,7 +123,7 @@ In our classroom, diversity and individual differences are respected, appreciate
 Students are also expected to minimize distracting behaviors.  In particular, every attempt should be made to arrive to class on time.  If you must arrive late or leave early, please do not disrupt class. Please turn off the ringer on your cell phone.  I do not have a strict policy on the use of laptops, tablets, and cell phones.  You are expected to be paying attention and engaging in class discussions.  If your cell phone, etc. is interfering with your ability (or that of another student) to do this, then put it away, or I will ask you to put it away.
 
 <blockquote>
-<p>An ounce of practice is worth more than tons of preaching.</p>
+<p>An ounce of practice is more than tons of preaching.</p>
 <footer><a href="https://en.wikipedia.org/wiki/Mahatma_Gandhi">Mahatma Gandhi</a></footer>
 </blockquote>
 
@@ -133,7 +133,7 @@ Our textbook for the semester is <i>Introduction to Discrete Mathematics</i>.  E
 I will not be covering every detail of the textbook and the only way to achieve a sufficient understanding of the material is to be digesting the reading in a meaningful way.  You should be seeking clarification about the content whenever necessary by asking questions.  Here's one of my favorite quotes about reading mathematics.
 
 <blockquote>
-<p>Don’t just read it; fight it! Ask your own questions, look for your own examples, discover your own proofs. Is the hypothesis necessary? Is the converse true? What happens in the classical special case? What about the degenerate cases? Where does the proof use the hypothesis?</p>
+<p>Don’t just read it; fight it! Ask your own question, look for your own examples, discover your own proofs. Is the hypothesis necessary? Is the converse true? What happens in the classical special case? What about the degenerate cases? Where does the proof use the hypothesis?</p>
 <footer><a href="http://en.wikipedia.org/wiki/Paul_Halmos">Paul Halmos</a></footer>
 </blockquote>
 
@@ -162,7 +162,7 @@ The following are examples (not an exhaustive list) of behaviors that do not con
 
 <blockquote>
 <p>Tell me and I forget, teach me and I may remember, involve me and I learn.</p>
-<footer><a href="https://en.wikipedia.org/wiki/Benjamin_Franklin">Benjamin Franklin</a></footer>
+<footer>Modern proverb inspired by <a href="https://en.wikipedia.org/wiki/Xunzi_(book)">Xunzi</a></footer>
 </blockquote>
 
 ### Best Practices as a Student in MAT 226 ### 

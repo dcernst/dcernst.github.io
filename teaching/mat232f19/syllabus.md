@@ -89,7 +89,7 @@ The focus of this course is on reasoning and communication through problem solvi
 In addition to helping students develop procedural fluency and conceptual understanding, we must prepare them to ask and explore new questions after they leave our classrooms---a skill that we call **mathematical inquiry**.
 
 <blockquote>
-<p>An ounce of practice is worth more than tons of preaching.</p>
+<p>An ounce of practice is more than tons of preaching.</p>
 <footer><a href="https://en.wikipedia.org/wiki/Mahatma_Gandhi">Mahatma Gandhi</a></footer>
 </blockquote>
 
@@ -100,7 +100,7 @@ In order to promote a more active participation in your learning, we will incorp
 
 <blockquote>
 <p>Don’t fear failure.  Not failure, but low aim, is the crime. In great attempts it is glorious even to fail.</p>
-<footer><a href="https://en.wikipedia.org/wiki/Bruce_Lee">Bruce Lee</a></footer>
+<footer>Attributed to <a href="https://en.wikipedia.org/wiki/Bruce_Lee">Bruce Lee</a></footer>
 </blockquote>
 
 Much of the course will be devoted to students presenting their proposed solutions/proofs on the board and a significant portion of your grade will be determined by how much mathematics you produce.  I use the word "produce" because I believe that the best way to learn mathematics is by doing mathematics.  Someone cannot master a musical instrument or a martial art by simply watching, and in a similar fashion, you cannot master mathematics by simply watching; you must do mathematics!
@@ -126,7 +126,7 @@ As the semester progresses, it should become clear to you what the expectations 
 
 <blockquote>
 <p>Tell me and I forget, teach me and I may remember, involve me and I learn.</p>
-<footer><a href="https://en.wikipedia.org/wiki/Benjamin_Franklin">Benjamin Franklin</a></footer>
+<footer>Modern proverb inspired by <a href="https://en.wikipedia.org/wiki/Xunzi_(book)">Xunzi</a></footer>
 </blockquote>
 
 ### Course Structure ###
@@ -166,7 +166,7 @@ Students are also expected to minimize distracting behaviors.  In particular, ev
 We will not be using a formal textbook this semester, but rather a problem sequence designed for this course.  The problem collection will be available on the course webpage. We will not be covering every detail of the notes and the only way to achieve a sufficient understanding of the material is to be digesting the reading in a meaningful way. You should be seeking clarification about the content of the notes whenever necessary by asking questions in class or posting questions to the course forum.  Here's one of my favorite quotes about reading mathematics.
 
 <blockquote>
-<p>Don’t just read it; fight it! Ask your own questions, look for your own examples, discover your own proofs. Is the hypothesis necessary? Is the converse true? What happens in the classical special case? What about the degenerate cases? Where does the proof use the hypothesis?</p>
+<p>Don’t just read it; fight it! Ask your own question, look for your own examples, discover your own proofs. Is the hypothesis necessary? Is the converse true? What happens in the classical special case? What about the degenerate cases? Where does the proof use the hypothesis?</p>
 <footer><a href="http://en.wikipedia.org/wiki/Paul_Halmos">Paul Halmos</a></footer>
 </blockquote>
 
@@ -285,7 +285,7 @@ You should aim to avoid unsatisfactory (U) presentations. An in progress (I) pre
 
 <blockquote>
 <p>I alone cannot change the world, but I can cast a stone across the waters to create many ripples.</p>
-<footer><a href="https://en.wikipedia.org/wiki/Mother_Teresa">Mother Teresa</a></footer>
+<footer>Unknown</footer>
 </blockquote>
 
 #### Selecting Presenters

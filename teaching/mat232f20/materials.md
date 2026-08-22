@@ -71,6 +71,6 @@ Below you will find notes and resources that we will utilize. We will add to the
 - [Solution top player problem (Problem 96)]({{ site.baseurl }}/teaching/mat232f20/TopPlayer-Solution.pdf) (PDF)
 
 <blockquote>
-  <p>Don’t just read it; fight it! Ask your own questions, look for your own examples, discover your own proofs. Is the hypothesis necessary? Is the converse true? What happens in the classical special case? What about the degenerate cases? Where does the proof use the hypothesis?</p>
+  <p>Don’t just read it; fight it! Ask your own question, look for your own examples, discover your own proofs. Is the hypothesis necessary? Is the converse true? What happens in the classical special case? What about the degenerate cases? Where does the proof use the hypothesis?</p>
   <footer><a href="http://en.wikipedia.org/wiki/Paul_Halmos">Paul Halmos</a></footer>
 </blockquote>

@@ -65,7 +65,7 @@ When comparing two genomes, the content of the DNA molecules is often similar, b
 There is no textbook for this course.  All course content will be covered via lectures and homework.
 
 <blockquote>
-<p>An ounce of practice is worth more than tons of preaching.</p>
+<p>An ounce of practice is more than tons of preaching.</p>
 <footer><a href="https://en.wikipedia.org/wiki/Mahatma_Gandhi">Mahatma Gandhi</a></footer>
 </blockquote>
 
@@ -89,7 +89,7 @@ Students are also expected to minimize distracting behaviors.  In particular, ev
 
 <blockquote>
 <p>Don’t fear failure.  Not failure, but low aim, is the crime. In great attempts it is glorious even to fail.</p>
-<footer><a href="https://en.wikipedia.org/wiki/Bruce_Lee">Bruce Lee</a></footer>
+<footer>Attributed to <a href="https://en.wikipedia.org/wiki/Bruce_Lee">Bruce Lee</a></footer>
 </blockquote>
 
 ### Rules of the Game ###
@@ -228,7 +228,7 @@ There are many resources available to get help.  First, you are allowed and enco
 
 <blockquote>
 <p>Tell me and I forget, teach me and I may remember, involve me and I learn.</p>
-<footer><a href="https://en.wikipedia.org/wiki/Benjamin_Franklin">Benjamin Franklin</a></footer>
+<footer>Modern proverb inspired by <a href="https://en.wikipedia.org/wiki/Xunzi_(book)">Xunzi</a></footer>
 </blockquote>
 
 ### Changes to the Syllabus ###

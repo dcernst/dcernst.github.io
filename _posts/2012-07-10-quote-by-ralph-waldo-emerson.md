@@ -13,6 +13,6 @@ tags:
 ---
 
 <blockquote>
-<p>The secret to education is in respecting the student.</p>
+<p>The secret of education lies in respecting the pupil.</p>
 <footer>Ralph Waldo Emerson</footer>
 </blockquote>

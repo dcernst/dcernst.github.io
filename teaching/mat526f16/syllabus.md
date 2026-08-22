@@ -58,7 +58,7 @@ Topics in enumerative, algebraic, and geometric combinatorics, chosen at instruc
 We will be using the recently published textbook [Eulerian Numbers](http://www.springer.com/us/book/9781493930906) by [T. Petersen](http://math.depaul.edu/tpeter21/) (DePaul University). All other necessary material (including homework) will be made available via handouts and postings on the course webpage.  You should be seeking clarification about the material whenever necessary by asking questions in class, working with our students, stopping by office hours, or emailing me. Here's one of my favorite quotes about reading mathematics. You can find the current errata for the book [here](http://math.depaul.edu/tpeter21/Errata.pdf).
 
 <blockquote>
-  <p>Don’t just read it; fight it! Ask your own questions, look for your own examples, discover your own proofs. Is the hypothesis necessary? Is the converse true? What happens in the classical special case? What about the degenerate cases? Where does the proof use the hypothesis?</p>
+  <p>Don’t just read it; fight it! Ask your own question, look for your own examples, discover your own proofs. Is the hypothesis necessary? Is the converse true? What happens in the classical special case? What about the degenerate cases? Where does the proof use the hypothesis?</p>
   <footer><a href="http://en.wikipedia.org/wiki/Paul_Halmos">Paul Halmos</a></footer>
 </blockquote>
 

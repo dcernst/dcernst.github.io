@@ -80,7 +80,7 @@ Calculus of one variable; basic concepts, interpretations, techniques, and appli
 The official textbook for calculus at NAU is [Calculus: Early Transcendentals (NAU Version)](https://naumathstat.github.io/calculus/) by David Guichard (Whitman College). This book is available for free in PDF or HTML format.  I'll loosely follow the book. You are also welcome to utilize other books covering first semester calculus. Check out the [Course Materials]({{ site.baseurl }}/teaching/mat136f22/materials/) page for a list of free calculus textbooks and other resources.  If you are interested in purchasing a print textbook, I recommend *Calculus: Early Transcendentals* (3rd edition or later) by Rogawski and Adams.
 
 <blockquote>
-  <p>Don’t just read it; fight it! Ask your own questions, look for your own examples, discover your own proofs. Is the hypothesis necessary? Is the converse true? What happens in the classical special case? What about the degenerate cases? Where does the proof use the hypothesis?</p>
+  <p>Don’t just read it; fight it! Ask your own question, look for your own examples, discover your own proofs. Is the hypothesis necessary? Is the converse true? What happens in the classical special case? What about the degenerate cases? Where does the proof use the hypothesis?</p>
   <footer><a href="http://en.wikipedia.org/wiki/Paul_Halmos">Paul Halmos</a></footer>
 </blockquote>
 
