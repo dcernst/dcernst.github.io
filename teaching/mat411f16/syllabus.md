@@ -143,7 +143,7 @@ On the day that a homework assignment is due, the majority of the class period w
 	</tr>
 	<tr>
 		<td style="text-align: center;">0</td>
-		<td>I believe that you have not worked on this problem enough or you didn't submit any work.</td>
+		<td>I believe that you have not worked on this problem enough or have not submitted any work.</td>
 	</tr>
 	</tbody>
 </table>

@@ -149,7 +149,7 @@ I will permit it to pass over me and through me.<br />
 And when it has gone past I will turn the inner eye to see its path.<br />
 Where the fear has gone there will be nothing.<br />
 Only I will remain.</p>
-<footer class="blockquote-footer"><a href="https://en.wikipedia.org/wiki/Bene_Gesserit#Litany_against_fear">Bene Gesserit litany against fear</a> from Frank Herbert's <a href="https://en.wikipedia.org/wiki/Frank_Herbert%27s_Dune">Dune</a></footer>
+<footer class="blockquote-footer"><a href="https://en.wikipedia.org/wiki/Bene_Gesserit#Litany_against_fear">Bene Gesserit litany against fear</a> from Frank Herbert's <a href="https://en.wikipedia.org/wiki/Dune_(novel)">Dune</a></footer>
 </blockquote>
 
 ### Attendance ###
@@ -222,7 +222,7 @@ Any changes to this syllabus made during the term will be properly communicated 
 
 <blockquote>
 <p>If you want to sharpen a sword, you have to remove a little metal.</p>
-<footer><a href=" ">Unknown</a></footer>
+<footer>Unknown</footer>
 </blockquote>
 
 ### University Policies ###
@@ -250,5 +250,5 @@ One may direct inquiries concerning the application of Title IX to either or bot
 **Sensitive Course Materials:** University education aims to expand student understanding and awareness. Thus, it necessarily involves engagement with a wide range of information, ideas, and creative representations. In their college studies, students can expect to encounter and to critically appraise materials that may differ from and perhaps challenge familiar understandings, ideas, and beliefs. Students are encouraged to discuss these matters with faculty.
 
 <div class="alert alert-info" role="alert">
-<i class="far fa-hand-peace"></i>&nbsp; The "Rights of the Learner" were adapted from a similar list written by <a href="https://embracinglifewithmajorrevisions.wordpress.com/2017/07/12/rights-of-the-learner-an-introduction/" class="alert-link">Crystal Kalinec-Craig</a>. The first paragraph of "Commitment to the Learning Community" is a modified version of statement that <a href="https://sbagleyteaches.wordpress.com" class="alert-link">Spencer Bagley</a> has in his syllabi. Lastly, I've borrowed a few phrases here and there from <a href="http://www.users.csbsju.edu/~bbenesh/" class="alert-link">Bret Benesh</a>.
+<i class="far fa-hand-peace"></i>&nbsp; The "Rights of the Learner" were adapted from a similar list written by <a href="https://embracinglifewithmajorrevisions.wordpress.com/2017/07/12/rights-of-the-learner-an-introduction/" class="alert-link">Crystal Kalinec-Craig</a>. The first paragraph of "Commitment to the Learning Community" is a modified version of a statement that <a href="https://sbagleyteaches.wordpress.com" class="alert-link">Spencer Bagley</a> has in his syllabi. Lastly, I've borrowed a few phrases here and there from <a href="http://www.users.csbsju.edu/~bbenesh/" class="alert-link">Bret Benesh</a>.
 </div>

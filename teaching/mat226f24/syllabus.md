@@ -200,7 +200,7 @@ Some homework problems will be straightforward while others are intended to be c
 
 <blockquote>
 <p>If you want to sharpen a sword, you have to remove a little metal.</p>
-<footer><a href=" ">Unknown</a></footer>
+<footer>Unknown</footer>
 </blockquote>
 
 Your homework will always be graded for completion and some subset of the problems will be graded for correctness. Problems that are graded for completeness will be worth 1 point.  Problems that are graded for correctness will either be worth 2 points or 4 points depending on the level of difficulty.  Generally, quick computational problems will be worth 2 points while more substantial problems will be worth 4 points.  Each 4-point problem is subject to the following rubric:
@@ -232,7 +232,7 @@ Your homework will always be graded for completion and some subset of the proble
 	</tr>
 	<tr>
 		<td style="text-align: center;">0</td>
-		<td>I believe that you have not worked on this problem enough or you didn't submit any work.</td>
+		<td>I believe that you have not worked on this problem enough or have not submitted any work.</td>
 	</tr>
 	</tbody>
 </table>
@@ -249,7 +249,7 @@ I will permit it to pass over me and through me.<br />
 And when it has gone past I will turn the inner eye to see its path.<br />
 Where the fear has gone there will be nothing.<br />
 Only I will remain.</p>
-<footer class="blockquote-footer"><a href="https://en.wikipedia.org/wiki/Bene_Gesserit#Litany_against_fear">Bene Gesserit litany against fear</a> from Frank Herbert's <a href="https://en.wikipedia.org/wiki/Frank_Herbert%27s_Dune">Dune</a></footer>
+<footer class="blockquote-footer"><a href="https://en.wikipedia.org/wiki/Bene_Gesserit#Litany_against_fear">Bene Gesserit litany against fear</a> from Frank Herbert's <a href="https://en.wikipedia.org/wiki/Dune_(novel)">Dune</a></footer>
 </blockquote>
 
 ### Exams ###
@@ -320,7 +320,7 @@ There are many resources available to get help.  First, you are allowed and enco
 Any changes to this syllabus made during the term will be properly communicated to the class.
 
 ### Career Readiness Skills ###
-In every class you take at NAU, you learn professional skills that can support your future career. There are several ways that this course can help you meet and excel at your job goals and life desires. Below is a list of in-demand skills from National Association of Colleges and Employers (NACE) you will practice in this class:
+In every class you take at NAU, you learn professional skills that can support your future career. There are several ways that this course can help you meet and excel at your job goals and life desires. Below is a list of in-demand skills from the National Association of Colleges and Employers (NACE) you will practice in this class:
 
 1. **Communication:** Demonstrate the ability to articulate mathematical concepts clearly and
 concisely, whether through written explanations, oral presentations, or visual representations,
@@ -340,7 +340,7 @@ Some Career Readiness resources:
 - [Handshake](https://nau.joinhandshake.com/login)
 - [Udemy](https://in.nau.edu/its/udemy/): Online courses and career searching advice. Log in with your NAU email account and
 search ‘NAU Career Steps’
-- [O*net Online](https://www.onetonline.org/): Occupation exploration reports
+- [O*NET Online](https://www.onetonline.org/): Occupation exploration reports
 
 ### University Policies ###
 
@@ -371,5 +371,5 @@ One may direct inquiries concerning the application of Title IX to either or bot
 <!-- This might need to be altered -->
 
 <div class="alert alert-info" role="alert">
-<i class="far fa-hand-peace"></i>&nbsp; The "Rights of the Learner" were adapted from a similar list written by <a href="https://embracinglifewithmajorrevisions.wordpress.com/2017/07/12/rights-of-the-learner-an-introduction/" class="alert-link">Crystal Kalinec-Craig</a>. The first paragraph of "Commitment to the Learning Community" is a modified version of statement that <a href="https://sbagleyteaches.wordpress.com" class="alert-link">Spencer Bagley</a> has in his syllabi. Lastly, I've borrowed a few phrases here and there from <a href="http://www.users.csbsju.edu/~bbenesh/" class="alert-link">Bret Benesh</a>.
+<i class="far fa-hand-peace"></i>&nbsp; The "Rights of the Learner" were adapted from a similar list written by <a href="https://embracinglifewithmajorrevisions.wordpress.com/2017/07/12/rights-of-the-learner-an-introduction/" class="alert-link">Crystal Kalinec-Craig</a>. The first paragraph of "Commitment to the Learning Community" is a modified version of a statement that <a href="https://sbagleyteaches.wordpress.com" class="alert-link">Spencer Bagley</a> has in his syllabi. Lastly, I've borrowed a few phrases here and there from <a href="http://www.users.csbsju.edu/~bbenesh/" class="alert-link">Bret Benesh</a>.
 </div>

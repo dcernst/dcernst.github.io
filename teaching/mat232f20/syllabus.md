@@ -109,7 +109,7 @@ In any act of creation, there must be room for experimentation, and thus allowan
 
 <blockquote>
 <p>You will become clever through your mistakes.</p>
-<footer><a href=" ">German Proverb</a></footer>
+<footer>German Proverb</footer>
 </blockquote>
 
 Furthermore, it is important to understand that solving genuine problems is difficult and takes time.  You shouldn't expect to complete each problem in 10 minutes or less.  Sometimes, you might have to stare at the problem for an hour before even understanding how to get started.  In fact, solving difficult problems can be a lot like the clip from *The Big Bang Theory* located [here](http://www.youtube.com/watch?v=i5oc-70Fby4&feature=related).
@@ -220,7 +220,7 @@ Each quiz will consist of a mixture of homework problems you encountered during 
 	</tr>
 	<tr>
 		<td style="text-align: center;">0</td>
-		<td>I believe that you have not worked on this problem enough or you didn't submit any work.</td>
+		<td>I believe that you have not worked on this problem enough or have not submitted any work.</td>
 	</tr>
 	</tbody>
 </table>
@@ -262,7 +262,7 @@ Homework will be assigned almost every class meeting, and students are expected 
 	</tr>
 	<tr>
 		<td style="text-align: center;">0</td>
-		<td>I believe that you have not worked on this problem enough or you didn't submit any work.</td>
+		<td>I believe that you have not worked on this problem enough or have not submitted any work.</td>
 	</tr>
 	</tbody>
 </table>
@@ -374,7 +374,7 @@ Presentations will be assessed using the following criteria.
 	<tbody>
 	<tr>
 		<td style="text-align: center;">U</td>
-		<td><b>Unsatisfactory</b>. Minimal progress was made that included relevant information or the student was unprepared.</td>
+		<td><b>Unsatisfactory</b>. Minimal progress was made or the student was unprepared.</td>
 	</tr>
 	<tr>
 		<td style="text-align: center;">I</td>
@@ -403,7 +403,7 @@ You should aim to avoid unsatisfactory (U) presentations. An in progress (I) pre
 
 #### Selecting Presenters
 
-In general, I will curate the list of student presenters each class meeting.  A presenter is a student that either volunteered (V) or was chosen (C) by me. Volunteering is encouraged, but being chosen without volunteering isn't bad. If more than one student volunteers for a specific problem, the student with the fewest number of presentations has priority.  I reserve the right to decline your offer to present. This may happen if you are volunteering too often (and hence removing another student's opportunity to present) or if I know in advance that another student's presentation will lead to a fruitful discussion.
+In general, I will curate the list of student presenters each class meeting.  A presenter is a student who either volunteered (V) or was chosen (C) by me. Volunteering is encouraged, but being chosen without volunteering isn't bad. If more than one student volunteers for a specific problem, the student with the fewest number of presentations has priority.  I reserve the right to decline your offer to present. This may happen if you are volunteering too often (and hence removing another student's opportunity to present) or if I know in advance that another student's presentation will lead to a fruitful discussion.
 
 If you are chosen to present but would prefer not to present that particular problem, you can either negotiate presenting a different problem or take a pass (P). You may elect to pass **at most two times during the semester**, after which a presentation will be deemed unsatisfactory (U). By default, if you have an unexcused absence on a day when you have been chosen to present, then your presentation will be recorded as a pass (P) unless you have already exhausted your two passes, in which case the presentation will be recorded as unsatisfactory (U).
 
@@ -455,7 +455,7 @@ You are expected to respectfully participate and contribute to class discussions
 	</tr>
 	<tr>
 		<td style="text-align: center;">M</td>
-		<td><b>Meets Expectations</b>. Student was consistently respectful, engaged, and contributed to meaningful class discussions. In addition, the student regularly attends class.</td>
+		<td><b>Meets Expectations</b>. Student was consistently respectful, engaged, and contributed to meaningful class discussions. In addition, the student regularly attended class.</td>
 	</tr>
 	<tr>
 		<td style="text-align: center;">E</td>
@@ -513,7 +513,7 @@ I will permit it to pass over me and through me.<br />
 And when it has gone past I will turn the inner eye to see its path.<br />
 Where the fear has gone there will be nothing.<br />
 Only I will remain.</p>
-<footer class="blockquote-footer"><a href="https://en.wikipedia.org/wiki/Bene_Gesserit#Litany_against_fear">Bene Gesserit litany against fear</a> from Frank Herbert's <a href="https://en.wikipedia.org/wiki/Frank_Herbert%27s_Dune">Dune</a></footer>
+<footer class="blockquote-footer"><a href="https://en.wikipedia.org/wiki/Bene_Gesserit#Litany_against_fear">Bene Gesserit litany against fear</a> from Frank Herbert's <a href="https://en.wikipedia.org/wiki/Dune_(novel)">Dune</a></footer>
 </blockquote>
 
 ### Attendance ###
@@ -583,9 +583,9 @@ Any changes to this syllabus made during the term will be properly communicated 
 
 <blockquote>
 <p>If you want to sharpen a sword, you have to remove a little metal.</p>
-<footer><a href=" ">Unknown</a></footer>
+<footer>Unknown</footer>
 </blockquote>
 
 <div class="alert alert-info" role="alert">
-<i class="far fa-hand-peace"></i>&nbsp; Portions of "Presentations and Participation" are adapted from <a href="http://www2.kenyon.edu/Depts/Math/schumacherc/public_html/" class="alert-link">Carol Schumacher's</a> <i>Chapter Zero Instructor Resource Manual</i>. The first and fourth paragraphs of "An Inquiry-Based Approach" are borrowed from <a href="https://gist.github.com/RobertTalbert/7854aadbdfca232dbdda" class="alert-link">Robert Talbert</a> and <a href="https://thalestriangles.blogspot.com/2018/12/an-ibl-preface.html" class="alert-link">Joshua Bowman</a>, respectively. The "Rights of the Learner" were adapted from a similar list written by <a href="https://embracinglifewithmajorrevisions.wordpress.com/2017/07/12/rights-of-the-learner-an-introduction/" class="alert-link">Crystal Kalinec-Craig</a>. The first paragraph of "Commitment to the Learning Community" is a modified version of statement that <a href="https://sbagleyteaches.wordpress.com" class="alert-link">Spencer Bagley</a> has in his syllabi. Lastly, I've borrowed a few phrases here and there from <a href="http://www.users.csbsju.edu/~bbenesh/" class="alert-link">Bret Benesh</a>.
+<i class="far fa-hand-peace"></i>&nbsp; Portions of "Presentations and Participation" are adapted from <a href="http://www2.kenyon.edu/Depts/Math/schumacherc/public_html/" class="alert-link">Carol Schumacher's</a> <i>Chapter Zero Instructor Resource Manual</i>. The first and fourth paragraphs of "An Inquiry-Based Approach" are borrowed from <a href="https://gist.github.com/RobertTalbert/7854aadbdfca232dbdda" class="alert-link">Robert Talbert</a> and <a href="https://thalestriangles.blogspot.com/2018/12/an-ibl-preface.html" class="alert-link">Joshua Bowman</a>, respectively. The "Rights of the Learner" were adapted from a similar list written by <a href="https://embracinglifewithmajorrevisions.wordpress.com/2017/07/12/rights-of-the-learner-an-introduction/" class="alert-link">Crystal Kalinec-Craig</a>. The first paragraph of "Commitment to the Learning Community" is a modified version of a statement that <a href="https://sbagleyteaches.wordpress.com" class="alert-link">Spencer Bagley</a> has in his syllabi. Lastly, I've borrowed a few phrases here and there from <a href="http://www.users.csbsju.edu/~bbenesh/" class="alert-link">Bret Benesh</a>.
 </div>

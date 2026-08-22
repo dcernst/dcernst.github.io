@@ -64,7 +64,7 @@ MAT 226, MAT 316, and MAT 411 with grades of C or better.
 Topics in enumerative, algebraic, and geometric combinatorics, chosen at instructor's discretion; may include advanced counting techniques, graph theory, combinatorial designs, matroids, and error-correcting codes.
 
 ### What is This Course All About? ###
-This course will be an introduction to [enumerative combinatorics](https://en.wikipedia.org/wiki/Enumerative_combinatorics) with an introduction to [generating function](https://en.wikipedia.org/wiki/Generating_function) techniques. 
+This course focuses on [enumerative combinatorics](https://en.wikipedia.org/wiki/Enumerative_combinatorics) with an introduction to [generating function](https://en.wikipedia.org/wiki/Generating_function) techniques. 
 
 <blockquote>
 <p>An ounce of practice is more than tons of preaching.</p>
@@ -72,7 +72,7 @@ This course will be an introduction to [enumerative combinatorics](https://en.wi
 </blockquote>
 
 ### An Inquiry-Based Approach ###
-This course will use an [inquiry-based learning](http://danaernst.com/resources/inquiry-based-learning/) (IBL) to learning combinatorics. Rather than spending most of class listening to lectures, you will spend substantial time exploring problems, developing arguments, presenting solutions, and discussing the mathematics with your classmates. Loosely speaking, IBL is a student-centered method of teaching mathematics that engages students in sense-making activities.  Students are given tasks requiring them to solve problems, conjecture, experiment, explore, create, and communicate.  Effective IBL courses encourage deep engagement in rich mathematical activities and provide opportunities to collaborate with peers (either through class presentations or group-oriented work). I have been a firm believer in this approach to teaching and learning for over a decade, but in this AI era, I am even more convinced of its merit.
+This course will use an [inquiry-based learning](https://danaernst.com/resources/inquiry-based-learning/) (IBL) approach to exploring combinatorics. Rather than spending most of class listening to lectures, you will spend substantial time exploring problems, developing arguments, presenting solutions, and discussing the mathematics with your classmates. Loosely speaking, IBL is a student-centered method of teaching mathematics that engages students in sense-making activities.  Students are given tasks requiring them to solve problems, conjecture, experiment, explore, create, and communicate.  Effective IBL courses encourage deep engagement in rich mathematical activities and provide opportunities to collaborate with peers (either through class presentations or group-oriented work). I have been a firm believer in this approach to teaching and learning for over a decade, but in this AI era, I am even more convinced of its merit.
 
 <blockquote>
 <p>Don’t fear failure.  Not failure, but low aim, is the crime. In great attempts it is glorious even to fail.</p>
@@ -83,10 +83,10 @@ In any act of creation, there must be room for experimentation, and thus allowan
 
 <blockquote>
 <p>You will become clever through your mistakes.</p>
-<footer><a href=" ">German Proverb</a></footer>
+<footer>German Proverb</footer>
 </blockquote>
 
-Furthermore, it is important to understand that solving genuine problems is difficult and takes time.  You shouldn't expect to complete each problem in 10 minutes or less.  Sometimes, you might have to stare at the problem for an hour before even understanding how to get started.  In fact, solving difficult problems can be a lot like the clip from *The Big Bang Theory* located [here](http://www.youtube.com/watch?v=i5oc-70Fby4&feature=related).
+Furthermore, it is important to understand that solving genuine problems is difficult and takes time.  You shouldn't expect to complete each problem in 10 minutes or less.  Sometimes, you might have to stare at the problem for an hour before even understanding how to get started.  In fact, solving difficult problems can be a lot like the clip from *The Big Bang Theory* located [here](https://www.youtube.com/watch?v=i5oc-70Fby4&feature=related).
 
 In this course, *everyone* will be required to
 
@@ -96,7 +96,7 @@ In this course, *everyone* will be required to
 - participate in discussions centered around a student's presented solution/proof;
 - call upon your own prodigious mental faculties to respond in flexible, thoughtful, and creative ways to problems that may seem unfamiliar at first glance.
 
-If you want to learn more about IBL, read my [Inquiry-Based Learning Resource page](http://danaernst.com/resources/inquiry-based-learning/).
+If you want to learn more about IBL, read my [Inquiry-Based Learning Resource page](https://danaernst.com/resources/inquiry-based-learning/).
 
 <blockquote>
 <p>Tell me and I forget, teach me and I may remember, involve me and I learn.</p>
@@ -118,7 +118,7 @@ Class meetings will consist of discussion of problems, student-led presentations
 <footer><a href="https://en.wikipedia.org/wiki/Marcus_Aurelius">Marcus Aurelius</a></footer>
 </blockquote>
 
-### Rights of the Learner ##
+### Rights of the Learner ###
 As a student in this class, you have the right:
 
 1. to be confused,
@@ -142,17 +142,17 @@ Students are also expected to minimize distracting behaviors.  In particular, ev
 </blockquote>
 
 ### Course Materials ###
-There is no textbook for this course.  Instead, I incrementally will post an evolving sequence of tasks to the [Course Materials]({{site.baseurl}}/teaching/mat526f26/materials/) page. The only way to achieve a sufficient understanding is to be digesting the material in a meaningful way.  You should be seeking clarification about the content whenever necessary by asking questions. Here's one of my favorite quotes about reading mathematics.
+There is no textbook for this course.  Instead, I will incrementally post an evolving sequence of tasks to the [Course Materials]({{site.baseurl}}/teaching/mat526f26/materials/) page. The only way to achieve a sufficient understanding is to be digesting the material in a meaningful way.  You should be seeking clarification about the content whenever necessary by asking questions. Here's one of my favorite quotes about reading mathematics.
 
 <blockquote>
   <p>Don’t just read it; fight it! Ask your own question, look for your own examples, discover your own proofs. Is the hypothesis necessary? Is the converse true? What happens in the classical special case? What about the degenerate cases? Where does the proof use the hypothesis?</p>
-  <footer><a href="http://en.wikipedia.org/wiki/Paul_Halmos">Paul Halmos</a></footer>
+  <footer><a href="https://en.wikipedia.org/wiki/Paul_Halmos">Paul Halmos</a></footer>
 </blockquote>
 
 ### Rules of the Game ###
 The goal is for you to solve problems on your own. Try this first! However, outside of class, you may use whatever resources help you learn&mdash;including books, websites, classmates, and AI tools such as ChatGPT. The important distinction is between **finding a solution** and **understanding the mathematics**. When you come to class, you should be prepared to explain, defend, critique, and adapt the ideas you encountered. However, **you are required to provide appropriate citation and attribution for ideas that are not your own!** Reviewing material from previous courses and looking up definitions and theorems you may have forgotten is fair game. 
 
-Because outside resources are readily available, homework and preparation will be relatively low-stakes. Your understanding will be assessed primarily through your mathematical contributions in class and regular short, individual, no-resource assessments. In short:
+Because outside resources are readily available, homework and preparation will be relatively low-stakes. Your understanding will be assessed primarily through your mathematical contributions in class and regular short, individual, no-external resource assessments. In short:
 
 **Use whatever helps you learn. Be prepared to demonstrate that you learned it.**
 
@@ -162,13 +162,13 @@ The ultimate goal is for each individual student to learn and to be successful. 
 
 <blockquote>
 <p>Time spent thinking about a problem is always time well spent. Even if you seem to make no progress at all.</p>
-<footer><a href="https://en.wikipedia.org/wiki/Paul_Zeitz">Paul Zeitz</a> in <a href="https://artofproblemsolving.com/wiki/index.php/The_Art_and_Craft_of_Problem_Solving?srsltid=AfmBOor-lEes0q0_syvXscajbOBQrkcz4Eh8R8pydknlPGSL3R6f7Jk3">The Art and Craft of Problem Solving</a></footer>
+<footer><a href="https://en.wikipedia.org/wiki/Paul_Zeitz">Paul Zeitz</a> in <a href="https://artofproblemsolving.com/wiki/index.php/The_Art_and_Craft_of_Problem_Solving">The Art and Craft of Problem Solving</a></footer>
 </blockquote>
 
 ### Homework ###
-You are allowed and encouraged to work together on homework.  However, each student is expected to turn in their own work.  On each homework assignment, please write (i) your name and (ii) Homework number.  You can find the list of assignments on the [homework page]({{site.baseurl}}/teaching/mat526f26/homework/).  I reserve the right to modify the homework assignments as I see necessary.
+You are allowed and encouraged to work together on homework.  However, each student is expected to turn in their own work.  On each homework assignment, please write (i) your name and (ii) the homework number.  You can find the list of assignments on the [homework page]({{site.baseurl}}/teaching/mat526f26/homework/).  I reserve the right to modify the homework assignments as I see necessary.
 
-Homework will be assigned most class meetings, and students are expected to complete each assignment before walking into the next class period. Homework will generally consist of completing exercises and proving theorems from the task sequence.  On the day that a homework assignment is due, the majority of the class period will be devoted to students presenting some subset (maybe all) of the proofs/solutions that are due that day.  You are allowed (in fact, encouraged!) to modify your written work in light of presentations made in class; however, **you are required to use a different color than what you used to complete your homework**. This will allow me to differentiate the work done in class versus the work you completed before class. I would prefer you use your own writing utensil for this purpose, but I will also have a few colored pens you can borrow. The grade you receive on an assignment will be determined by the work you completed prior to class.  I will provide more guidance with respect to this during the first couple weeks of the semester. If you are completing your homework using a tablet (e.g., iPad), please annotate your work in a different color and then email me your homework with the annotations at then end of class.
+Homework will be assigned most class meetings, and students are expected to complete each assignment before walking into the next class period. Homework will generally consist of completing exercises and proving theorems from the task sequence.  On the day that a homework assignment is due, the majority of the class period will be devoted to students presenting some subset (maybe all) of the proofs/solutions that are due that day.  You are allowed (in fact, encouraged!) to modify your written work in light of presentations made in class; however, **you are required to use a different color than what you used to complete your homework**. This will allow me to differentiate the work done in class versus the work you completed before class. I would prefer you use your own writing utensil for this purpose, but I will also have a few colored pens you can borrow. The grade you receive on an assignment will be determined by the work you completed prior to class.  I will provide more guidance with respect to this during the first couple of weeks of the semester. If you are completing your homework using a tablet (e.g., iPad), please annotate your work in a different color and then email me your homework with the annotations at the end of class.
 
 Some homework problems will be straightforward while others are intended to be challenging.  You should anticipate not knowing what to do on some of the problems at first glance.  You may have several false starts.  Some frustration, maybe even a lot of frustration, should be expected.  This is part of the natural learning process.  On the other hand, it is not my intention to leave you to fend for yourselves.  I am here to help and I want to help. You are encouraged to seek assistance while adhering to the **Rules of the Game**.  Please visit office hours and ask questions! I am always willing to give hints/nudges, so please ask. 
 
@@ -243,7 +243,7 @@ Presentations will be assessed using the following criteria.
 	<tbody>
 	<tr>
 		<td style="text-align: center;">U</td>
-		<td><b>Unsatisfactory</b>. Minimal progress was made that included relevant information or the student was unprepared.</td>
+		<td><b>Unsatisfactory</b>. Minimal progress was made or the student was unprepared.</td>
 	</tr>
 	<tr>
 		<td style="text-align: center;">I</td>
@@ -270,7 +270,7 @@ You should aim to avoid unsatisfactory (U) presentations. An in progress (I) pre
 
 #### Selecting Presenters
 
-In general, I will curate the list of student presenters each class meeting.  A presenter is a student that either volunteered (V) or was chosen (C) by me. Volunteering is encouraged, but being chosen without volunteering isn't bad. If more than one student volunteers for a specific problem, the student with the fewest number of presentations has priority.  I reserve the right to decline your offer to present. This may happen if you are volunteering too often (and hence removing another student's opportunity to present) or if I know in advance that another student's presentation will lead to a fruitful discussion.
+In general, I will curate the list of student presenters each class meeting.  A presenter is a student who either volunteered (V) or was chosen (C) by me. Volunteering is encouraged, but being chosen without volunteering isn't bad. If more than one student volunteers for a specific problem, the student with the fewest number of presentations has priority.  I reserve the right to decline your offer to present. This may happen if you are volunteering too often (and hence removing another student's opportunity to present) or if I know in advance that another student's presentation will lead to a fruitful discussion.
 
 If you are chosen to present but would prefer not to present that particular problem, you can either negotiate presenting a different problem or take a pass (P). You may elect to pass **at most two times during the semester**, after which a presentation will be deemed unsatisfactory (U). By default, if you have an unexcused absence on a day when you have been chosen to present, then your presentation will be recorded as a pass (P) unless you have already exhausted your two passes, in which case the presentation will be recorded as unsatisfactory (U).
 
@@ -322,7 +322,7 @@ You are expected to respectfully participate and contribute to class discussions
 	</tr>
 	<tr>
 		<td style="text-align: center;">M</td>
-		<td><b>Meets Expectations</b>. Student was consistently respectful, engaged, and contributed to meaningful class discussions. In addition, the student regularly attends class.</td>
+		<td><b>Meets Expectations</b>. Student was consistently respectful, engaged, and contributed to meaningful class discussions. In addition, the student regularly attended class.</td>
 	</tr>
 	<tr>
 		<td style="text-align: center;">E</td>
@@ -334,7 +334,7 @@ You are expected to respectfully participate and contribute to class discussions
 
 #### Determining Presentation and Participation Grades
 
-Your Presentation and Participation grade is determined by your frequency and ability to foster productive class discussions through presentations and audience participation. The greatest determining factor in your Presentation and Participation grade is your willingness to present often. You should aim to present at least twice prior to each midterm exam.  The table below provides a summary of how your Presentation and Participation grade will be determined.
+Your Presentation and Participation grade is determined by your frequency and ability to foster productive class discussions through presentations and audience participation. The greatest determining factor in your Presentation and Participation grade is your willingness to present often.  The table below provides a summary of how your Presentation and Participation grade will be determined.
 
 <center>
 <table class="table table-striped">
@@ -411,7 +411,7 @@ Each quiz will consist of a mixture of homework problems you encountered previou
 	</tr>
 	<tr>
 		<td style="text-align: center;">0</td>
-		<td>I believe that you have not worked on this problem enough or you didn't submit any work.</td>
+		<td>I believe that you have not worked on this problem enough or have not submitted any work.</td>
 	</tr>
 	</tbody>
 </table>
@@ -419,11 +419,11 @@ Each quiz will consist of a mixture of homework problems you encountered previou
 
 Make-up quizzes will only be given under extreme circumstances, as judged by me. In general, it will be best to communicate conflicts ahead of time.  Each Quiz is worth 10% of your overall grade (Quizzes constitute 60% of your overall grade). 
 
-Nandor Sieben, Monika Keindl, and I received a [TRAIL AI grant](https://in.nau.edu/provost/academic-operations/trail/) to experiment with using AI to assess student work and to provide feedback. My current plan is to use ChatGPT and Codex to assess and provide feedback on the quizzes.  This will be *in addition to* me grading the quizzes. In addition, I am required to not have your name associated with your work when ChatGPT does its assessment.  You can opt out of this if you wish.
+Nandor Sieben, Monika Keindl, and I received a [TRAIL AI grant](https://in.nau.edu/provost/academic-operations/trail/) to experiment with using AI to assess student work and to provide feedback. My current plan is to use ChatGPT and Codex to assess and provide feedback on the quizzes.  This will be *in addition to* me grading the quizzes. In addition, I am required to not have your name associated with your work when ChatGPT does its assessment.  You may opt out of having AI assess your work if you wish.
 
 <blockquote>
 <p>If you want to sharpen a sword, you have to remove a little metal.</p>
-<footer><a href=" ">Unknown</a></footer>
+<footer>Unknown</footer>
 </blockquote>
 
 ### Final Exam ###
@@ -431,7 +431,7 @@ There will be a cumulative Final Exam at the end of the semester, which may cons
 
 <blockquote>
 <p>The best way to learn is to do; the worst way to teach is to talk.</p>
-<footer>Paul Halmos in <cite title="Source Title">The Problem of Learning to Teach</cite></footer>
+<footer><a href="https://en.wikipedia.org/wiki/Paul_Halmos">Paul Halmos</a> in <cite>The Problem of Learning to Teach</cite></footer>
 </blockquote>
 
 <blockquote>
@@ -443,11 +443,11 @@ I will permit it to pass over me and through me.<br />
 And when it has gone past I will turn the inner eye to see its path.<br />
 Where the fear has gone there will be nothing.<br />
 Only I will remain.</p>
-<footer class="blockquote-footer"><a href="https://en.wikipedia.org/wiki/Bene_Gesserit#Litany_against_fear">Bene Gesserit litany against fear</a> from Frank Herbert's <a href="https://en.wikipedia.org/wiki/Frank_Herbert%27s_Dune">Dune</a></footer>
+<footer class="blockquote-footer"><a href="https://en.wikipedia.org/wiki/Bene_Gesserit#Litany_against_fear">Bene Gesserit litany against fear</a> from Frank Herbert's <a href="https://en.wikipedia.org/wiki/Dune_(novel)">Dune</a></footer>
 </blockquote>
 
 ### Extra Credit ###
-There are two ways you can earn extra credit. The first way is finding typos in course materials (e.g., syllabus, homework, website, Canvas).  This includes broken links.  However, it does not include the placement of commas and such.  If you find a typo, I will add one percentage point to your next quiz.  The second way is by finding legitimate errors in AI-generated feedback on quizzes.  If you find an error in the AI-generated feedback on one of your quizzes, I will add two percentage points to your next quiz. You can earn at most four percentage points per quiz. They're is a typo right here.
+There are two ways you can earn extra credit. The first way is finding typos in course materials (e.g., syllabus, homework, website, Canvas).  This includes broken links.  However, it does not include the placement of commas and such.  If you find a typo, I will add one percentage point to your next quiz and exam.  The second way is by finding legitimate errors in AI-generated feedback on quizzes.  If you find an error in the AI-generated feedback on one of your quizzes, I will add two percentage points to your next quiz or exam. You can earn at most four percentage points per quiz. They're is a typo right here.
 
 ### Basis for Evaluation ###
 In summary, your final grade will be determined by your scores in the following categories.
@@ -497,7 +497,7 @@ You are responsible for knowing and following the [Department of Mathematics and
 As per Department Policy, cell phones, MP3 players and portable electronic communication devices, including but not limited to smart phones, cameras and recording devices, must be turned off and inaccessible during in-class assessments. Any violation of this policy will be treated as academic dishonesty.
 
 ### Career Readiness Skills ###
-In every class you take at NAU, you learn professional skills that can support your future career. There are several ways that this course can help you meet and excel at your job goals and life desires. Below is a list of in-demand skills from National Association of Colleges and Employers (NACE) you will practice in this class:
+In every class you take at NAU, you learn professional skills that can support your future career. There are several ways that this course can help you meet and excel at your job goals and life desires. Below is a list of in-demand skills from the National Association of Colleges and Employers (NACE) you will practice in this class:
 
 1. **Communication:** Demonstrate the ability to articulate mathematical concepts clearly and
 concisely, whether through written explanations, oral presentations, or visual representations,
@@ -516,7 +516,7 @@ Some Career Readiness resources:
 - LinkedIn: [CEFNS Career Development](https://www.linkedin.com/in/cefns-career-development-072715233), [NAU Career Development](https://www.linkedin.com/company/nau-career-development/)
 - [Handshake](https://nau.joinhandshake.com/login)
 - [Udemy](https://in.nau.edu/its/udemy/): Online courses and career searching advice. Log in with your NAU email account and search ‘NAU Career Steps’
-- [O*net Online](https://www.onetonline.org/): Occupation exploration reports
+- [O*NET Online](https://www.onetonline.org/): Occupation exploration reports
 - [Labor Market Insights](https://frankecareer.nau.edu/labor-market-insights/)
 
 <blockquote>
@@ -528,5 +528,5 @@ Some Career Readiness resources:
 Any changes to this syllabus made during the term will be properly communicated to the class.
 
 <div class="alert alert-info" role="alert">
-<i class="far fa-hand-peace"></i>&nbsp; The "Rights of the Learner" were adapted from a similar list written by <a href="https://embracinglifewithmajorrevisions.wordpress.com/2017/07/12/rights-of-the-learner-an-introduction/" class="alert-link">Crystal Kalinec-Craig</a>. The first paragraph of "Commitment to the Learning Community" is a modified version of statement that <a href="https://sbagleyteaches.wordpress.com" class="alert-link">Spencer Bagley</a> has in his syllabi. Lastly, I've borrowed a few phrases here and there from <a href="http://www.users.csbsju.edu/~bbenesh/" class="alert-link">Bret Benesh</a>.
+<i class="far fa-hand-peace"></i>&nbsp; The "Rights of the Learner" were adapted from a similar list written by <a href="https://embracinglifewithmajorrevisions.wordpress.com/2017/07/12/rights-of-the-learner-an-introduction/" class="alert-link">Crystal Kalinec-Craig</a>. The first paragraph of "Commitment to the Learning Community" is a modified version of a statement that <a href="https://sbagleyteaches.wordpress.com" class="alert-link">Spencer Bagley</a> has in his syllabi. Lastly, I've borrowed a few phrases here and there from <a href="https://www.users.csbsju.edu/~bbenesh/" class="alert-link">Bret Benesh</a>.
 </div>

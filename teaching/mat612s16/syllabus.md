@@ -105,7 +105,7 @@ Generally, the written homework assignments will be due on Wednesdays, but I wil
 	</tr>
 	<tr>
 		<td style="text-align: center;">0</td>
-		<td>I believe that you have not worked on this problem enough or you didn't submit any work.</td>
+		<td>I believe that you have not worked on this problem enough or have not submitted any work.</td>
 	</tr>
 	</tbody>
 </table>
