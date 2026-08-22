@@ -56,10 +56,10 @@ Welcome to the course web page for the Fall 2026 manifestation of MAT 526: Topic
 
 <br />
 
-<blockquote>
+<!-- <blockquote>
 <p>The mathematician does not study pure mathematics because it is useful; he studies it because he delights in it, and he delights in it because it is beautiful.</p>
 <footer><a href="https://en.wikipedia.org/wiki/Henri_Poincaré">Henri Poincaré</a></footer>
-</blockquote>
+</blockquote> -->
 
 ## What is This Course All About? ##
 This course focuses on [enumerative combinatorics](https://en.wikipedia.org/wiki/Enumerative_combinatorics) with an introduction to [generating function](https://en.wikipedia.org/wiki/Generating_function) techniques. 
