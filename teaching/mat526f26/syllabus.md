@@ -204,7 +204,7 @@ Homework will be assessed using the following rubric.
 </table>
 </center>
 
-You are allowed to turn in **three late homework assignments**. Unless you have made arrangements in advance with me, homework turned in after class will be considered late. Your overall homework grade is worth ??% of your final grade. 
+You are allowed to turn in **three late homework assignments**. Unless you have made arrangements in advance with me, homework turned in after class will be considered late. Your overall homework grade is worth 10% of your final grade. 
 
 <blockquote>
 <p>I write one page of masterpiece to ninety-one pages of shit.</p>
@@ -370,7 +370,7 @@ Your Presentation and Participation grade is determined by your frequency and ab
 </table>
 </center>
 
-I anticipate that most students will fall in the 80-89% range. Your Presentation and Participation grade is worth ??% of your overall grade.
+I anticipate that most students will fall in the 80-89% range. Your Presentation and Participation grade is worth 10% of your overall grade.
 
 ### Quizzes ###
 We will have 6 quizzes this semester. Tentatively, the quizzes are scheduled for the following Fridays:
@@ -417,7 +417,7 @@ Each quiz will consist of a mixture of homework problems you encountered previou
 </table>
 </center>
 
-Make-up quizzes will only be given under extreme circumstances, as judged by me. In general, it will be best to communicate conflicts ahead of time.  Each Quiz is worth 10% of your overall grade (Quizzes constitute 60% of your overall grade). 
+Make-up quizzes will only be given under extreme circumstances, as judged by me. In general, it will be best to communicate conflicts ahead of time.  Each quiz is worth 10% of your overall grade (quizzes constitute 60% of your overall grade). 
 
 Nandor Sieben, Monika Keindl, and I received a [TRAIL AI grant](https://in.nau.edu/provost/academic-operations/trail/) to experiment with using AI to assess student work and to provide feedback. My current plan is to use ChatGPT and Codex to assess and provide feedback on the quizzes.  This will be *in addition to* me grading the quizzes. In addition, I am required to not have your name associated with your work when ChatGPT does its assessment.  You may opt out of having AI assess your work if you wish.
 
@@ -427,7 +427,7 @@ Nandor Sieben, Monika Keindl, and I received a [TRAIL AI grant](https://in.nau.e
 </blockquote>
 
 ### Final Exam ###
-There will be a cumulative Final Exam at the end of the semester, which may consist of both an in-class portion and a take-home portion. The in-class portion of the final exam will be on **Wednesday, December 9** at 7:30-9:30AM. The Final Exam is worth ??% of your final course grade.
+There will be a cumulative Final Exam at the end of the semester, which may consist of both an in-class portion and a take-home portion. The in-class portion of the final exam will be on **Wednesday, December 9** at 7:30-9:30AM. The Final Exam is worth 20% of your final course grade.
 
 <blockquote>
 <p>The best way to learn is to do; the worst way to teach is to talk.</p>
@@ -464,22 +464,22 @@ In summary, your final grade will be determined by your scores in the following 
 <tbody>
 <tr>
 <td>Homework</td>
-<td style="text-align: center;">??%</td>
+<td style="text-align: center;">10%</td>
 <td>See above for details.</td>
 </tr>
 <tr>
 <td>Presentations &amp; Participation</td>
-<td style="text-align: center;">??%</td>
+<td style="text-align: center;">10%</td>
 <td>See above for details.</td>
 </tr>
 <tr>
 <td>Quizzes</td>
-<td style="text-align: center;">??%</td>
+<td style="text-align: center;">60%</td>
 <td>Mixture of previously encountered problems and new problems.</td>
 </tr>
 <tr>
 <td>Final Exam</td>
-<td style="text-align: center;">??%</td>
+<td style="text-align: center;">20%</td>
 <td>7:30-9:30am on Wednesday, December 9, 2026</td>
 </tr>
 </tbody>
