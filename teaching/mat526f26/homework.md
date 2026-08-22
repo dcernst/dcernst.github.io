@@ -1,0 +1,48 @@
+---
+layout: default
+author: Dana Ernst
+title: Homework
+---
+
+<ol class="breadcrumb">
+  <li><a href="/"><i class="fa fa-home"></i></a></li>
+  <li><a href="/teaching/">Teaching</a></li>
+  <li><a href="/teaching/mat526f26">MAT526</a></li>
+  <li class="active">{{ page.title }}</li>
+</ol>
+
+<div class="row">
+<div class="col-xs-12">
+<div class="btn-group btn-group-justified">
+<a class="btn btn-default btn-success" href="{{site.baseurl}}/teaching/mat526f26/syllabus/">Syllabus</a>
+<a class="btn btn-default btn-primary" href="{{site.baseurl}}/teaching/mat526f26/materials/">
+<span class="hidden-xs">Course Materials</span><span class="visible-xs">Stuff</span>
+</a>
+<a class="btn btn-default btn-warning" href="{{site.baseurl}}/teaching/mat526f26/homework/">
+<span class="hidden-xs">Homework</span><span class="visible-xs">HW</span>
+</a>
+</div>
+</div>
+</div>
+
+## Guidelines ##
+Reviewing material from previous courses and looking up definitions and theorems you may have forgotten is fair game. Since mathematical reasoning, problem solving, and critical thinking skills are part of the learning outcomes of this course, all assignments should be prepared by the student. Developing strong competencies in this area will prepare you to be a lifelong learner and give you an edge in a competitive workplace. When it comes to completing assignments for this course, unless explicitly told otherwise, you should *not* look to resources outside the context of this course for help.  That is, you should not be consulting the web (e.g., Chegg and Course Hero), generative artificial intelligence tools (e.g., ChatGPT), mathematics assistive technologies (e.g., Wolfram Alpha and Photomath), other texts, other faculty, or students outside of our course in an attempt to find solutions to the problems you are assigned.  On the other hand, you may use each other, the textbook, me, and your own intuition. You are highly encouraged to seek out assistance by asking questions on our Discord server. You are allowed and encouraged to work together on homework. Yet, each student is expected to turn in their own work.  **If you feel you need additional resources or support, please come talk to me and we will come up with an appropriate plan of action.** In general, late homework will not be accepted. However, you are allowed to turn in **up to two late homework assignments**. Unless you have made arrangements in advance with me, homework turned in after class will be considered late.
+
+## Assignments ##
+I reserve the right to modify an assignment if the need arises.  
+
+- **Homework 1:** Coming soon...
+
+<!-- - **Homework 1:** Read the [syllabus]({{site.baseurl}}/teaching/mat526f26/syllabus/) and write down 5 items that you think are important. *Note:*  All of the exam dates only count as a single item.  In addition, create a free [Discord](http://discord.com) account, accept the invite to our Discord server, and post something about yourself in the #introductions channel. (Due Wednesday, August 28)
+- **Homework 2:** Complete the problems found [here]({{site.baseurl}}/teaching/mat526f26/526HW2.pdf). (Due Wednesday, September 4)
+- **Homework 3:** Complete the problems found [here]({{site.baseurl}}/teaching/mat526f26/526HW3.pdf). (Due Wednesday, September 11)
+- **Homework 4:** Complete the problems found [here]({{site.baseurl}}/teaching/mat526f26/526HW4.pdf). (Due Friday, September 20)
+- **Homework 5:** Complete the problems found [here]({{site.baseurl}}/teaching/mat526f26/526HW5.pdf). (Due Wednesday, September 25)
+- **Homework 6:** Complete the problems found [here]({{site.baseurl}}/teaching/mat526f26/526HW6.pdf). (Due Friday, October 4)
+- **Homework 7:** Complete the problems found [here]({{site.baseurl}}/teaching/mat526f26/526HW7.pdf). (Due Wednesday, October 9)
+- **Homework 8:** Complete the problems found [here]({{site.baseurl}}/teaching/mat526f26/526HW8.pdf). (Due Wednesday, October 30)
+- **Homework 9:** Complete the problems found [here]({{site.baseurl}}/teaching/mat526f26/526HW9.pdf). (Due Wednesday, November 6)
+- **Homework 10:** Complete the problems found [here]({{site.baseurl}}/teaching/mat526f26/526HW10.pdf). (Due Wednesday, November 13)
+- **Homework 11:** Complete the problems found [here]({{site.baseurl}}/teaching/mat526f26/526HW11.pdf). I had originally posted an old assignment from Fall 2022 by accident. You can find that one [here]({{site.baseurl}}/teaching/mat526f26/526HW11-oops.pdf). *Note:* The two versions share 3 common problems. If you had not already started the original version, please work on the current version.  Otherwise, chat with me and we will sort it out. The problems on the incorrect orignal version that do not appear on the correct version will appear on the next assignment, so if you already put time into them, you haven't wasted any time. Sorry! (Due Friday, November 22)
+- **Homework 12:** Complete the problems found [here]({{site.baseurl}}/teaching/mat526f26/526HW12.pdf). (Due Wednesday, December 4) -->
+
