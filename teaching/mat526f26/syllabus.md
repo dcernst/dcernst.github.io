@@ -71,12 +71,55 @@ This course will be an introduction to [enumerative combinatorics](https://en.wi
 <footer><a href="https://en.wikipedia.org/wiki/Mahatma_Gandhi">Mahatma Gandhi</a></footer>
 </blockquote>
 
-### Course Materials ###
-There is no textbook for this course.  All course content will be covered via lectures and homework. You should be seeking clarification about the content whenever necessary by asking questions.  Here's one of my favorite quotes about reading mathematics.
+### An Inquiry-Based Approach ###
+This course will use an [inquiry-based learning](http://danaernst.com/resources/inquiry-based-learning/) (IBL) to learning combinatorics. Rather than spending most of class listening to lectures, you will spend substantial time exploring problems, developing arguments, presenting solutions, and discussing the mathematics with your classmates. Loosely speaking, IBL is a student-centered method of teaching mathematics that engages students in sense-making activities.  Students are given tasks requiring them to solve problems, conjecture, experiment, explore, create, and communicate.  Effective IBL courses encourage deep engagement in rich mathematical activities and provide opportunities to collaborate with peers (either through class presentations or group-oriented work). I have been a firm believer in this approach to teaching and learning for over a decade, but in this AI era, I am even more convinced of its merit.
+
+<!-- SCRAPS: Much of the course will be devoted to students presenting their proposed solutions on the board and a significant portion of your grade will be determined by how much mathematics you produce.  I use the word "produce" because I believe that the best way to learn mathematics is by doing mathematics.  Someone cannot master a musical instrument or a martial art by simply watching, and in a similar fashion, you cannot master mathematics by simply watching; you must do mathematics! -->
+
+<!-- Rather than showing facts or a clear, smooth path to a solution, the instructor guides and mentors students via well-crafted problems through an adventure in mathematical discovery.   -->
+
+<!-- If you want to learn more about IBL, read my [Inquiry-Based Learning Resource page](http://danaernst.com/resources/inquiry-based-learning/). -->
 
 <blockquote>
-  <p>Don’t just read it; fight it! Ask your own questions, look for your own examples, discover your own proofs. Is the hypothesis necessary? Is the converse true? What happens in the classical special case? What about the degenerate cases? Where does the proof use the hypothesis?</p>
-  <footer><a href="http://en.wikipedia.org/wiki/Paul_Halmos">Paul Halmos</a></footer>
+<p>Don’t fear failure.  Not failure, but low aim, is the crime. In great attempts it is glorious even to fail.</p>
+<footer><a href="https://en.wikipedia.org/wiki/Bruce_Lee">Bruce Lee</a></footer>
+</blockquote>
+
+In any act of creation, there must be room for experimentation, and thus allowance for mistakes, even failure. A key goal of our community is that we support each other&mdash;sharpening each other’s thinking but also bolstering each other's confidence&mdash;so that we can make failure a productive experience. Mistakes are inevitable, and they should not be an obstacle to further progress. It’s normal to struggle and be confused as you work through new material. Accepting that means you can keep working even while feeling stuck, until you overcome and reach even greater accomplishments.
+
+<blockquote>
+<p>You will become clever through your mistakes.</p>
+<footer><a href=" ">German Proverb</a></footer>
+</blockquote>
+
+Furthermore, it is important to understand that solving genuine problems is difficult and takes time.  You shouldn't expect to complete each problem in 10 minutes or less.  Sometimes, you might have to stare at the problem for an hour before even understanding how to get started.  In fact, solving difficult problems can be a lot like the clip from *The Big Bang Theory* located [here](http://www.youtube.com/watch?v=i5oc-70Fby4&feature=related).
+
+In this course, *everyone* will be required to
+
+- read and interact with course notes;
+- write up quality solutions/proofs to assigned problems;
+- present solutions/proofs on the board to the rest of the class;
+- participate in discussions centered around a student's presented solution/proof;
+- call upon your own prodigious mental faculties to respond in flexible, thoughtful, and creative ways to problems that may seem unfamiliar at first glance.
+
+<blockquote>
+<p>Tell me and I forget, teach me and I may remember, involve me and I learn.</p>
+<footer><a href="https://en.wikipedia.org/wiki/Benjamin_Franklin">Benjamin Franklin</a></footer>
+</blockquote>
+
+### Course Structure ###
+Class meetings will consist of discussion of problems, student-led presentations, and group work. A typical class session may include:
+
+- Informal student presentations of progress on previously assigned homework problems;
+- Summary of major steps and techniques of the solution of a finished problem;
+- Exploration of alternative approaches, possible generalizations, consequences, special cases, converse;
+- Discussion of relationships to previously assigned or solved problems;
+- Assignment of new problems;
+- Explanation of unfamiliar mathematical concepts as needed.
+
+<blockquote>
+<p>The impediment to action advances action. What stands in the way becomes the way.</p>
+<footer><a href="https://en.wikipedia.org/wiki/Marcus_Aurelius">Marcus Aurelius</a></footer>
 </blockquote>
 
 ### Rights of the Learner ##
@@ -98,36 +141,32 @@ In our classroom, diversity and individual differences are respected, appreciate
 Students are also expected to minimize distracting behaviors.  In particular, every attempt should be made to arrive to class on time.  If you must arrive late or leave early, please do not disrupt class. Please turn off the ringer on your cell phone.  I do not have a strict policy on the use of laptops, tablets, and cell phones.  You are expected to be paying attention and engaging in class discussions.  If your cell phone, etc. is interfering with your ability (or that of another student) to do this, then put it away, or I will ask you to put it away.
 
 <blockquote>
-<p>Don’t fear failure.  Not failure, but low aim, is the crime. In great attempts it is glorious even to fail.</p>
-<footer><a href="https://en.wikipedia.org/wiki/Bruce_Lee">Bruce Lee</a></footer>
+<p>The secret to education is in respecting the student.</p>
+<footer>Ralph Waldo Emerson</footer>
+</blockquote>
+
+### Course Materials ###
+There is no textbook for this course.  Instead, I will post an ever-growing and evolving sequence of tasks to the [Course Materials]({{site.baseurl}}/teaching/mat526f26/materials/) page. The only way to achieve a sufficient understanding is to be digesting the material in a meaningful way.  You should be seeking clarification about the content whenever necessary by asking questions. Here's one of my favorite quotes about reading mathematics.
+
+<blockquote>
+  <p>Don’t just read it; fight it! Ask your own questions, look for your own examples, discover your own proofs. Is the hypothesis necessary? Is the converse true? What happens in the classical special case? What about the degenerate cases? Where does the proof use the hypothesis?</p>
+  <footer><a href="http://en.wikipedia.org/wiki/Paul_Halmos">Paul Halmos</a></footer>
 </blockquote>
 
 ### Rules of the Game ###
-Reviewing material from previous courses and looking up definitions and theorems you may have forgotten is fair game. Since mathematical reasoning, problem solving, and critical thinking skills are part of the learning outcomes of this course, all assignments should be prepared by the student. Developing strong competencies in this area will prepare you to be a lifelong learner and give you an edge in a competitive workplace. When it comes to completing assignments for this course, unless explicitly told otherwise, you should *not* look to resources outside the context of this course for help.  That is, you should not be consulting the web (e.g., Chegg and Course Hero), generative artificial intelligence tools (e.g., ChatGPT), mathematics assistive technologies (e.g., Wolfram Alpha and Photomath), other texts, other faculty, or students outside of our course in an attempt to find solutions to the problems you are assigned.  On the other hand, you may use each other, the textbook, me, and your own intuition. You are allowed and encouraged to work together on homework. Yet, each student is expected to turn in their own work.  
+The goal is for you to solve problems on your own. Try this first! However, outside of class, you may use whatever resources help you learn&mdash;including books, websites, classmates, and AI tools such as ChatGPT. The important distinction is between **finding a solution** and **understanding the mathematics**. When you come to class, you should be prepared to explain, defend, critique, and adapt the ideas you encountered. However, **you are required to provide appropriate citation and attribution for ideas that are not your own!** Reviewing material from previous courses and looking up definitions and theorems you may have forgotten is fair game. 
 
-In this course, we may use generative AI tools (such as ChatGPT) or AI mathematics assistive technologies (such as Wolfram Alpha) to examine the ways in which these kinds of tools may inform our exploration of mathematics content. You will be informed as to when and how these tools will be used, along with guidance for attribution if/as needed. Any use of generative AI tools outside of these parameters constitutes plagiarism and a violation of the University’s Academic Integrity Policy.  Please read NAU's [Academic Integrity Policy](https://in.nau.edu/academic-affairs/academic-integrity/).
+Because outside resources are readily available, homework and preparation will be relatively low-stakes. Your understanding will be assessed primarily through your mathematical contributions in class and regular short, individual, no-resource assessments. In short:
+
+**Use whatever helps you learn. Be prepared to demonstrate that you learned it.**
+
+There are some pitfalls to be aware of. First, not everything you encounter on the Internet or via AI is accurate. Second, it is paramount to recognize that there is a logical progression to the concepts in mathematics. Some ideas may only be introduced after others. I'm not suggesting there is only one right flow to various subjects, but there are definitely infinitely many wrong ways! When we haphazardly bounce around the Internet or engage in "discussions" with generative AI while trying to learn various mathematical concepts, the logical progression gets jumbled. One of the reasons for this is that there can be several equally-valid ways to approach a subject. But when we parachute into the middle of someone else's writing or video, we usually lose this context. I want you to cultivate a flexible and robust mindset when it comes to solving problems. I want you to be able to tackle problems you don't know how to do yet. I want you to be able to wrestle with future problems no one has yet encountered. This is quite challenging if all the various concepts, techniques, algorithms, and formulas are a jumbled mess in your mind. The goal is to have an understanding of how all the various concepts fit together and depend on one another. This way you do not have to memorize very much and later in life you can quickly look up the proper tool. In addition, you'll have the foundation to build new tools to solve unfamiliar, possibly new, problems.
 
 The ultimate goal is for each individual student to learn and to be successful. So, if you feel you need additional resources or support, please come talk to me and we will come up with an appropriate plan of action.
 
-The following are examples (not an exhaustive list) of behaviors that could constitute cheating and/or plagiarism. You should *not* be doing these things.
-
-- Copying solutions or portions of solutions from another person
-- Submitting solutions (in part or whole) by multiple students that identically match, especially in peculiar details
-- Having another person complete your homework problems for you
-- Using any applications or websites (e.g., Course Hero, Chegg, ChatGPT, WolframAlpha, PhotoMath) to complete problems or portions of problems (even if only used on one step that you are stuck on)
-- Anything that takes solutions or portions of solutions and attempts to pass them off as your own ideas and work
-
-The following are examples (not an exhaustive list) of behaviors that do not constitute cheating and/or plagiarism. You should be doing these things. 
-
-- Having a conversation with a classmate about a homework problem to compare methods and discuss strategy
-- Collaborating with a classmate on a homework problem (not copying)
-- Asking questions about a homework problem on our course forum
-- Responding to questions on our course forum in the form of feedback or guidance
-- Asking the instructor for assistance or a hint
-
 <blockquote>
-<p>You will become clever through your mistakes.</p>
-<footer><a href=" ">German Proverb</a></footer>
+<p>Time spent thinking about a problem is always time well spent. Even if you seem to make no progress at all.</p>
+<footer>Paul Zeitz in <cite title="Source Title">The Art and Craft of Problem Solving</cite></footer>
 </blockquote>
 
 ### Homework ###
@@ -193,8 +232,8 @@ To compute your score on a given homework assignment, I will divide your total p
 There will be one Midterm Exam and a cumulative Final Exam.  Each exam will likely consist of both an in-class portion and a take-home portion. The in-class portion of the midterm exam is *tentatively* scheduled for **???** (week ???). The in-class portion of the final exam will be on **Wednesday, December 9** at 7:30-9:30AM. The Midterm Exam and the Final Exam will each be worth 25% of your final course grade. Make-up exams will only be given under extreme circumstances, as judged by me. In general, it will be best to communicate conflicts ahead of time.
 
 <blockquote>
-<p>The impediment to action advances action. What stands in the way becomes the way.</p>
-<footer><a href="https://en.wikipedia.org/wiki/Marcus_Aurelius">Marcus Aurelius</a></footer>
+<p>The best way to learn is to do; the worst way to teach is to talk.</p>
+<footer>Paul Halmos in <cite title="Source Title">The Problem of Learning to Teach</cite></footer>
 </blockquote>
 
 ### Attendance and Participation ###
@@ -284,8 +323,8 @@ Some Career Readiness resources:
 There are many resources available to get help.  First, you are allowed and encouraged to work together on homework.  However, each student is expected to turn in their own work. You are strongly encouraged to ask questions in our Discord discussion group, as I (and hopefully other members of the class) will post comments there for all to benefit from.  You are also encouraged to stop by during my office hours and you can always [email me](mailto:dana.ernst@nau.edu).  I am always happy to help you.  If my office hours don't work for you, then we can probably find another time to meet.  It is your responsibility to be aware of how well you understand the material.  Don't wait until it is too late if you need help.  *Ask questions*!
 
 <blockquote>
-<p>Tell me and I forget, teach me and I may remember, involve me and I learn.</p>
-<footer><a href="https://en.wikipedia.org/wiki/Benjamin_Franklin">Benjamin Franklin</a></footer>
+<p>We cannot teach people anything; we can only help them discover it within themselves.</p>
+<footer>Galileo Galilei</footer>
 </blockquote>
 
 ### Changes to the Syllabus ###

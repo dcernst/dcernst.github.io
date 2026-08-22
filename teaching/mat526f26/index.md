@@ -64,6 +64,14 @@ Welcome to the course web page for the Fall 2026 manifestation of MAT 526: Topic
 ## What is This Course All About? ##
 This course focuses on [enumerative combinatorics](https://en.wikipedia.org/wiki/Enumerative_combinatorics) with an introduction to [generating function](https://en.wikipedia.org/wiki/Generating_function) techniques. 
 
+This course will use an [inquiry-based learning](http://danaernst.com/resources/inquiry-based-learning/) (IBL) to learning combinatorics. Rather than spending most of class listening to lectures, you will spend substantial time exploring problems, developing arguments, presenting solutions, and discussing the mathematics with your classmates.
+
+Outside of class, you may use whatever resources help you learn&mdash;including books, websites, classmates, and AI tools such as ChatGPT. The important distinction is between **finding a solution** and **understanding the mathematics**. When you come to class, you should be prepared to explain, defend, critique, and adapt the ideas you encountered.
+
+Because outside resources are readily available, homework and preparation will be relatively low-stakes. Your understanding will be assessed primarily through your mathematical contributions in class and regular short, individual, no-resource assessments. In short:
+
+**Use whatever helps you learn. Be prepared to demonstrate that you learned it.**
+
 <blockquote>
 <p>Don’t fear failure.  Not failure, but low aim, is the crime. In great attempts it is glorious even to fail.</p>
 <footer><a href="https://en.wikipedia.org/wiki/Bruce_Lee">Bruce Lee</a></footer>
