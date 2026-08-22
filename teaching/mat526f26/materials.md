@@ -26,20 +26,14 @@ title: Course Materials
 </div>
 
 ## Course Materials ##
-There is no textbook for this course.  All course content will be covered via lectures and homework.
+Below is the task sequence for the course. I will incrementally add to this as we go.
+
+- Coming soon...
 
 <blockquote>
   <p>Don’t just read it; fight it! Ask your own question, look for your own examples, discover your own proofs. Is the hypothesis necessary? Is the converse true? What happens in the classical special case? What about the degenerate cases? Where does the proof use the hypothesis?</p>
   <footer><a href="http://en.wikipedia.org/wiki/Paul_Halmos">Paul Halmos</a></footer>
 </blockquote>
-
-## Exams
-Below are links to the take-home portions of each exam. If you are interested in using LaTeX to type up your solutions, you can obtain the source file by replacing .pdf with .tex in the urls below.
-
-- Coming soon...
-
-<!-- - [Midterm Exam (Part 2)](http://danaernst.com/teaching/mat526f26/526Exam1-Part2.pdf). (Due by the beginning of class on Monday, October 21)
-- [Final Exam (Part 2)](http://danaernst.com/teaching/mat526f26/526Exam2-Part2.pdf). (Due by 3pm on Friday, December 13) -->
 
 ## Miscellaneous Materials ##
 - [Setting the Stage]({{ site.baseurl }}/teaching/SettingTheStage.pdf) (PDF)
