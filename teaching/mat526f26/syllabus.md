@@ -372,6 +372,11 @@ Your Presentation and Participation grade is determined by your frequency and ab
 
 I anticipate that most students will fall in the 80-89% range. Your Presentation and Participation grade is worth 10% of your overall grade.
 
+<blockquote>
+<p>The best way to learn is to do; the worst way to teach is to talk.</p>
+<footer><a href="https://en.wikipedia.org/wiki/Paul_Halmos">Paul Halmos</a> in <cite>The Problem of Learning to Teach</cite></footer>
+</blockquote>
+
 ### Quizzes ###
 We will have 6 quizzes this semester. Tentatively, the quizzes are scheduled for the following Fridays:
 
@@ -428,11 +433,6 @@ Nandor Sieben, Monika Keindl, and I received a [TRAIL AI grant](https://in.nau.e
 
 ### Final Exam ###
 There will be a cumulative Final Exam at the end of the semester, which may consist of both an in-class portion and a take-home portion. The in-class portion of the final exam will be on **Wednesday, December 9** at 7:30-9:30AM. The Final Exam is worth 20% of your final course grade.
-
-<blockquote>
-<p>The best way to learn is to do; the worst way to teach is to talk.</p>
-<footer><a href="https://en.wikipedia.org/wiki/Paul_Halmos">Paul Halmos</a> in <cite>The Problem of Learning to Teach</cite></footer>
-</blockquote>
 
 <blockquote>
 <p>I must not fear.<br />
