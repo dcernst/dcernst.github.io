@@ -28,7 +28,7 @@ title: Course Materials
 ## Course Materials ##
 Below is the task sequence for the course. I will incrementally add to this as we go.
 
-- [Enumerative Combinatorics]({{site.baseurl}}/teaching/mat526f26/Combinatorics.pdf)
+- [Enumerative Combinatorics]({{site.baseurl}}/teaching/mat526f26/Combinatorics.pdf) (PDF). *Note:* This PDF should be an accessible document. Please let me know if there are any issues.
 
 <blockquote>
   <p>Don’t just read it; fight it! Ask your own question, look for your own examples, discover your own proofs. Is the hypothesis necessary? Is the converse true? What happens in the classical special case? What about the degenerate cases? Where does the proof use the hypothesis?</p>
