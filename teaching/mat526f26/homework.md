@@ -32,7 +32,7 @@ Reviewing material from previous courses and looking up definitions and theorems
 I reserve the right to modify an assignment if the need arises.  
 
 - **Homework 1:** Read the syllabus and write down 5 items that you think are important. Note: All of the quiz dates only count as a single item. In addition, complete Problem 2.1 in the [book]({{site.baseurl}}/teaching/mat526f26/Combinatorics.pdf) (PDF).
-- **Homework 2:** Complete Problem 2.1 for two new combinatorial species.
+- **Homework 2:** Complete Problem 2.1 for one new combinatorial species.
 
 <!-- - **Homework 1:** Read the [syllabus]({{site.baseurl}}/teaching/mat526f26/syllabus/) and write down 5 items that you think are important. *Note:*  All of the exam dates only count as a single item.  In addition, create a free [Discord](http://discord.com) account, accept the invite to our Discord server, and post something about yourself in the #introductions channel. (Due Wednesday, August 28)
 - **Homework 2:** Complete the problems found [here]({{site.baseurl}}/teaching/mat526f26/526HW2.pdf). (Due Wednesday, September 4)
