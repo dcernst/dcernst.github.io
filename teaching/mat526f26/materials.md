@@ -29,6 +29,34 @@ title: Course Materials
 Below is the task sequence for the course. I will incrementally add to this as we go.
 
 - [Enumerative Combinatorics]({{site.baseurl}}/teaching/mat526f26/Combinatorics.pdf) (PDF). *Note:* This PDF should be an accessible document. Please let me know if there are any issues.
+- Cards sets for combinatorial structures.  Each PDF contains 27 cards.  *Note:* My memory is that there is at least one error that someone mentioned to me that I forgot to fix. Maybe there is a duplicate card or an incorrect rank. If you find the error, please let me know!
+    - [Ballot Paths]({{site.baseurl}}/teaching/mat526f26/BallotPaths.pdf) (PDF.)
+    - [Binary Strings]({{site.baseurl}}/teaching/mat526f26/BinaryStrings.pdf) (PDF.)
+    - [Binary Trees]({{site.baseurl}}/teaching/mat526f26/BinaryTrees.pdf) (PDF.)
+    - [Cayley Permutations]({{site.baseurl}}/teaching/mat526f26/CayleyPermutations.pdf) (PDF.)
+    - [Compositions]({{site.baseurl}}/teaching/mat526f26/Compositions.pdf) (PDF.)
+    - [Dodger Rooks]({{site.baseurl}}/teaching/mat526f26/DodgerRooks.pdf) (PDF.)
+    - [Domino Stacking]({{site.baseurl}}/teaching/mat526f26/DominoStacking.pdf) (PDF.)
+    - [Domino Tilings]({{site.baseurl}}/teaching/mat526f26/DominoTilings.pdf) (PDF.)
+    - [Fraenkel Trees]({{site.baseurl}}/teaching/mat526f26/FraenkelTrees.pdf) (PDF.)
+    - [Fubini Arrangements]({{site.baseurl}}/teaching/mat526f26/FubiniArrangements.pdf) (PDF.)
+    - [Increasing Trees]({{site.baseurl}}/teaching/mat526f26/IncreasingTrees.pdf) (PDF.)
+    - [Integer Partitions]({{site.baseurl}}/teaching/mat526f26/IntegerPartitions.pdf) (PDF.)
+    - [Knuth Permutations]({{site.baseurl}}/teaching/mat526f26/KnuthPermutations.pdf) (PDF.)
+    - [Lattice Paths]({{site.baseurl}}/teaching/mat526f26/LatticePaths.pdf) (PDF.)
+    - [Nonattacking Rooks]({{site.baseurl}}/teaching/mat526f26/NonattackingRooks.pdf) (PDF.)
+    - [Noncrossing Partitions]({{site.baseurl}}/teaching/mat526f26/NoncrossingPartitions.pdf) (PDF.)
+    - [Odd Compositions]({{site.baseurl}}/teaching/mat526f26/OddCompositions.pdf) (PDF.)
+    - [Parking Functions]({{site.baseurl}}/teaching/mat526f26/ParkingFunctions.pdf) (PDF.)
+    - [Pebble Piles]({{site.baseurl}}/teaching/mat526f26/PebblePiles.pdf) (PDF.)
+    - [Penrose Doodles]({{site.baseurl}}/teaching/mat526f26/PenroseDoodles.pdf) (PDF.)
+    - [Permutations]({{site.baseurl}}/teaching/mat526f26/Permutations.pdf) (PDF.)
+    - [Pixel Strips]({{site.baseurl}}/teaching/mat526f26/PixelStrips.pdf) (PDF.)
+    - [Set Partitions]({{site.baseurl}}/teaching/mat526f26/SetPartitions.pdf) (PDF.)
+    - [Sparce Strips]({{site.baseurl}}/teaching/mat526f26/SparceStrips.pdf) (PDF.)
+    - [Starfolks Paths]({{site.baseurl}}/teaching/mat526f26/StarfolksPaths.pdf) (PDF.)
+    - [Triangulated Polygons]({{site.baseurl}}/teaching/mat526f26/TriangulatedPolygons.pdf) (PDF.)
+    - [Unlabeled Trees]({{site.baseurl}}/teaching/mat526f26/UnlabeledTrees.pdf) (PDF.)
 
 <blockquote>
   <p>Don’t just read it; fight it! Ask your own question, look for your own examples, discover your own proofs. Is the hypothesis necessary? Is the converse true? What happens in the classical special case? What about the degenerate cases? Where does the proof use the hypothesis?</p>
