@@ -9146,6 +9146,46 @@ permalink: /ernst-recipes/
 <hr />
 
 <details class="recipe-item">
+<summary><h2>Vegetarian Egg Rolls</h2></summary>
+
+<p>Link to recipe <a href="https://sailorbailey.com/blog/vegetarian-egg-rolls/">here</a>.</p>
+
+<dl>
+<dt>Yield</dt>
+<dd>10, 10 egg rolls</dd>
+<dt>Prep time</dt>
+<dd>PT10M</dd>
+<dt>Cook time</dt>
+<dd>PT20M</dd>
+<dt>Total time</dt>
+<dd>PT29M</dd>
+</dl>
+
+<h3>Ingredients</h3>
+
+<ul>
+<li>12 6 inch egg roll wrappers (or gluten free wrappers)</li>
+<li>1 14 oz package of firm organic tofu (drained, and pressed)</li>
+<li>2 cups purple cabbage, chopped (or green cabbage)</li>
+<li>1½ cup shredded carrots</li>
+<li>1 tsp sesame oil, for sautéing</li>
+<li>1 tbsp ginger paste (or fresh ginger, minced)</li>
+<li>3 cloves garlic, minced</li>
+<li>4 green onions, diced</li>
+<li>4 Tbsp low sodium soy sauce</li>
+<li>2 Tbsp sriracha</li>
+<li>2 Tbsp sesame oil</li>
+<li>1 Tbsp miso paste</li>
+<li>½ Tbsp maple syrup</li>
+</ul>
+
+<p>Directions are available at the linked source.</p>
+
+</details>
+
+<hr />
+
+<details class="recipe-item">
 <summary><h2>Vegetarian Gumbo</h2></summary>
 
 <p>Link to recipe <a href="https://www.gimmesomeoven.com/vegetarian-gumbo/">here</a>.</p>
