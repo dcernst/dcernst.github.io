@@ -42,7 +42,7 @@ Below is the task sequence for the course. I will incrementally add to this as w
     - [Fubini Arrangements]({{site.baseurl}}/teaching/mat526f26/FubiniArrangements.pdf)
     - [Increasing Trees]({{site.baseurl}}/teaching/mat526f26/IncreasingTrees.pdf)
     - [Integer Partitions]({{site.baseurl}}/teaching/mat526f26/IntegerPartitions.pdf)
-    - [Knuth Permutations]({{site.baseurl}}/teaching/mat526f26/KnuthPermutations.pdf)
+    - [Knuth Rooks]({{site.baseurl}}/teaching/mat526f26/KnuthRooks.pdf)
     - [Lattice Paths]({{site.baseurl}}/teaching/mat526f26/LatticePaths.pdf)
     - [Nonattacking Rooks]({{site.baseurl}}/teaching/mat526f26/NonattackingRooks.pdf)
     - [Noncrossing Partitions]({{site.baseurl}}/teaching/mat526f26/NoncrossingPartitions.pdf)
