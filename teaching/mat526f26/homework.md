@@ -35,16 +35,4 @@ I reserve the right to modify an assignment if the need arises.
 - **Homework 2:** Complete Problem 2.1 for one new combinatorial species.
 - **Homework 3:** Complete Problems 2.2, 2.3, 2.5-2.8 and digest the surrounding text along the way. (Due Monday, August 31)
 - **Homework 4:** Complete Problems 2.9-2.12, 2.14 and digest the surrounding text along the way. (Due Wednesday, September 2)
-
-<!-- - **Homework 1:** Read the [syllabus]({{site.baseurl}}/teaching/mat526f26/syllabus/) and write down 5 items that you think are important. *Note:*  All of the exam dates only count as a single item.  In addition, create a free [Discord](http://discord.com) account, accept the invite to our Discord server, and post something about yourself in the #introductions channel. (Due Wednesday, August 28)
-- **Homework 2:** Complete the problems found [here]({{site.baseurl}}/teaching/mat526f26/526HW2.pdf). (Due Wednesday, September 4)
-- **Homework 3:** Complete the problems found [here]({{site.baseurl}}/teaching/mat526f26/526HW3.pdf). (Due Wednesday, September 11)
-- **Homework 4:** Complete the problems found [here]({{site.baseurl}}/teaching/mat526f26/526HW4.pdf). (Due Friday, September 20)
-- **Homework 5:** Complete the problems found [here]({{site.baseurl}}/teaching/mat526f26/526HW5.pdf). (Due Wednesday, September 25)
-- **Homework 6:** Complete the problems found [here]({{site.baseurl}}/teaching/mat526f26/526HW6.pdf). (Due Friday, October 4)
-- **Homework 7:** Complete the problems found [here]({{site.baseurl}}/teaching/mat526f26/526HW7.pdf). (Due Wednesday, October 9)
-- **Homework 8:** Complete the problems found [here]({{site.baseurl}}/teaching/mat526f26/526HW8.pdf). (Due Wednesday, October 30)
-- **Homework 9:** Complete the problems found [here]({{site.baseurl}}/teaching/mat526f26/526HW9.pdf). (Due Wednesday, November 6)
-- **Homework 10:** Complete the problems found [here]({{site.baseurl}}/teaching/mat526f26/526HW10.pdf). (Due Wednesday, November 13)
-- **Homework 11:** Complete the problems found [here]({{site.baseurl}}/teaching/mat526f26/526HW11.pdf). I had originally posted an old assignment from Fall 2022 by accident. You can find that one [here]({{site.baseurl}}/teaching/mat526f26/526HW11-oops.pdf). *Note:* The two versions share 3 common problems. If you had not already started the original version, please work on the current version.  Otherwise, chat with me and we will sort it out. The problems on the incorrect orignal version that do not appear on the correct version will appear on the next assignment, so if you already put time into them, you haven't wasted any time. Sorry! (Due Friday, November 22)
-- **Homework 12:** Complete the problems found [here]({{site.baseurl}}/teaching/mat526f26/526HW12.pdf). (Due Wednesday, December 4) -->
+- **Homework 5:** Complete Problems 2.15, 2.16, 2.18, 2.21, 2.22, 2.23(a)(b) and digest the surrounding text along the way. (Due Friday, September 4)
