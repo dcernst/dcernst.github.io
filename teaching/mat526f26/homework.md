@@ -36,3 +36,4 @@ I reserve the right to modify an assignment if the need arises.
 - **Homework 3:** Complete Problems 2.2, 2.3, 2.5-2.8 and digest the surrounding text along the way. (Due Monday, August 31)
 - **Homework 4:** Complete Problems 2.9-2.12, 2.14 and digest the surrounding text along the way. (Due Wednesday, September 2)
 - **Homework 5:** Complete Problems 2.15, 2.16, 2.18, 2.21, 2.22, 2.23(a)(b) and digest the surrounding text along the way. (Due Friday, September 4)
+- **Homework 6:** Complete Problems 2.23(c)(d)(e), 2.24, 2.25(a), any five parts from 2.27 and digest the surrounding text along the way. (Due Wednesday, September )
