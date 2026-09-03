@@ -15,6 +15,7 @@ Below is list of talks and presentations that I have given over the past several
 
 <!-- In particular, you can find the collection of my recent slides on [Speaker Deck](https://speakerdeck.com/dcernst). -->
 
+- When are two things equal? [Math on Tap](https://naumathstat.github.io/seminars/MathOnTap/), Mother Road Brewery, Flagstaff, AZ. September 2026. [[Slides](http://dcernst.github.io/talks/MathOnTap260902.pdf)]
 - My academic journey. Parent talk at [Epsilon Camp](https://www.epsiloncamp.org), Logan, UT. July 2026.
 - Structure of braid graphs for reduced words in simply-laced Coxeter systems. [Seminario di Algebra e Geometria](https://site.unibo.it/seminar-algebra-geometry/it/elenco-seminari/dana-ernst-northern-arizona-university), University of Bologna, Bologna, Italy. April 2026. [[Slides](http://dcernst.github.io/talks/Bologna2026-Ernst.pdf)]
 - In defense of mathematics. [2026 Great Survival Debate](https://news.nau.edu/the-great-survival-debate/), NAU, Flagstaff, AZ. March 2026.
