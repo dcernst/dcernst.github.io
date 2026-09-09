@@ -37,3 +37,4 @@ I reserve the right to modify an assignment if the need arises.
 - **Homework 4:** Complete Problems 2.9-2.12, 2.14 and digest the surrounding text along the way. (Due Wednesday, September 2)
 - **Homework 5:** Complete Problems 2.15, 2.16, 2.18, 2.21, 2.22, 2.23(a)(b) and digest the surrounding text along the way. (Due Friday, September 4)
 - **Homework 6:** Complete Problems 2.23(c)(d)(e), 2.24, 2.25(a), any five parts from 2.27 and digest the surrounding text along the way. For Problem 2.27, just outline your proposed bijections and don't worry about writing rigorous proofs. (Due Wednesday, September 9)
+- **Homework 7:** Complete Problems 2.28, 2.30-2.33 and digest the surrounding text along the way. (Due Monday, September 14)
