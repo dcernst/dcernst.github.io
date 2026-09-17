@@ -40,3 +40,4 @@ I reserve the right to modify an assignment if the need arises.
 - **Homework 7:** Complete Problems 2.28, 2.30-2.33 and digest the surrounding text along the way. (Due Monday, September 14)
 - **Homework 8:** Complete Problems 2.34-2.39 and digest the surrounding text along the way. (Due Wednesday, September 16)
 - **Homework 9:** Complete Problems 2.40, 2.41, 2.43, 3.3, 3.4 and digest the surrounding text along the way. (Due Friday, September 18)
+- **Homework 10:** Complete Problems 3.5-3.9 and digest the surrounding text along the way. (Due Monday, September 21)
