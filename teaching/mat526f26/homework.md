@@ -41,3 +41,4 @@ I reserve the right to modify an assignment if the need arises.
 - **Homework 8:** Complete Problems 2.34-2.39 and digest the surrounding text along the way. (Due Wednesday, September 16)
 - **Homework 9:** Complete Problems 2.40, 2.41, 2.43, 3.3, 3.4 and digest the surrounding text along the way. (Due Friday, September 18)
 - **Homework 10:** Complete Problems 3.5-3.9 and digest the surrounding text along the way. (Due Monday, September 21)
+- **Homework 11:** Complete Problems 3.10, 3.12, 3.14, 3.15 and digest the surrounding text along the way. Make sure you read and digest Theorem 3.13. (Due Wednesday, September 23)
