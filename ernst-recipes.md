@@ -1371,6 +1371,49 @@ permalink: /ernst-recipes/
 <hr />
 
 <details class="recipe-item">
+<summary><h2>Brown Butter Chewy Maple Brown Sugar Cookies</h2></summary>
+
+<p>Link to recipe <a href="https://www.halfbakedharvest.com/chewy-brown-sugar-maple-cookies/">here</a>.</p>
+
+<dl>
+<dt>Yield</dt>
+<dd>24, 24 cookies</dd>
+<dt>Prep time</dt>
+<dd>PT15M</dd>
+<dt>Cook time</dt>
+<dd>PT10M</dd>
+<dt>Total time</dt>
+<dd>PT40M</dd>
+</dl>
+
+<h3>Ingredients</h3>
+
+<ul>
+<li>2 sticks (1 cup) salted butter, at room temperature</li>
+<li>1 cup dark brown sugar</li>
+<li>1/4 cup maple syrup</li>
+<li>1/4 cup apple butter</li>
+<li>1 egg, at room temperature</li>
+<li>2 teaspoons vanilla extract</li>
+<li>2 1/3 cups all-purpose flour</li>
+<li>1 teaspoon baking soda</li>
+<li>1/2 teaspoon ground cinnamon</li>
+<li>1/2 teaspoon kosher salt</li>
+<li>1 cups semi-sweet chocolate chips</li>
+<li>1/2 cup finely chopped pecans</li>
+<li>4 tablespoons salted butter</li>
+<li>1/3 cup maple syrup</li>
+<li>1/2 - 3/4 cup powdered sugar</li>
+<li>flaky sea salt</li>
+</ul>
+
+<p>Directions are available at the linked source.</p>
+
+</details>
+
+<hr />
+
+<details class="recipe-item">
 <summary><h2>Cajun Butter Chicken Breast Recipe</h2></summary>
 
 <p>Link to recipe <a href="https://cafedelites.com/easy-cajun-butter-chicken-breasts/">here</a>.</p>
