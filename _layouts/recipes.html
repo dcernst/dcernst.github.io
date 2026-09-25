@@ -1,22 +1,65 @@
 {% include header.html %}
 
 <style>
-body { padding-top: 0; }
+body { padding-top: 0; background: #faf7f2; color: #303b36; }
 .navbar { display: none; }
+body > .recipe-page { max-width: 900px; padding-top: 32px; padding-bottom: 40px; }
+.recipe-page .page-header { margin-top: 0; padding: 24px; border: 0; border-top: 5px solid #ac4b32; border-radius: 8px; background: #e8efe7; }
+.recipe-page h1 { margin-top: 0; color: #294d40; }
+.recipe-intro { margin-bottom: 0; font-size: 16px; }
+.recipe-search { margin-bottom: 24px; }
+.recipe-search label { display: block; margin-bottom: 8px; }
+.recipe-search-row { display: flex; gap: 8px; }
+.recipe-search input { min-width: 0; flex: 1; padding: 12px; border: 1px solid #798b80; border-radius: 6px; background: #fff; font: inherit; }
+.recipe-search button { padding: 10px 16px; border: 1px solid #355e4d; border-radius: 6px; background: #355e4d; color: #fff; font: inherit; }
+.recipe-search button:hover { background: #294d40; }
+.recipe-page :focus-visible { outline: 3px solid #ac4b32; outline-offset: 3px; }
+.recipe-search-help, .recipe-count { margin: 8px 0 0; color: #526359; }
+.recipe-page .recipe-item { margin-bottom: 12px; padding: 16px 20px; border: 1px solid #d8e1d8; border-left: 4px solid #799980; border-radius: 6px; background: #fff; }
+.recipe-page .recipe-item summary { color: #294d40; }
+.recipe-page .recipe-item summary h2 { max-width: calc(100% - 28px); font-size: 21px; line-height: 1.4; }
+.recipe-page .recipe-item summary:hover { color: #944027; }
+.recipe-page .recipe-item[open] { border-left-color: #ac4b32; }
+.recipe-page .recipe-item[open] summary { margin-bottom: 18px; }
+.recipe-page .recipe-item h3 { color: #944027; font-size: 18px; }
+.recipe-page .recipe-item li { margin-bottom: 5px; }
+.recipe-page a { color: #944027; text-decoration: underline; }
+.recipe-page .recipe-list > hr { display: none; }
+.recipe-page [hidden] { display: none !important; }
+.recipe-empty { padding: 24px; border-radius: 6px; background: #e8efe7; }
+@media (max-width: 480px) {
+.recipe-page .page-header { padding: 20px; }
+.recipe-page .recipe-item { padding: 14px; }
+.recipe-page .recipe-item summary h2 { font-size: 19px; }
+}
 </style>
 
 <!-- Begin page content -->
-<div class="container">
+<main class="container recipe-page">
 
 <div class="page-header">
 <h1>{{ page.title }}</h1>
+<p class="recipe-intro">A collection of favorites for the table. Pick a recipe and get cooking.</p>
+</div>
+
+<div class="recipe-search" role="search" aria-label="Recipe filter" hidden>
+<label for="recipe-search">Find a recipe</label>
+<div class="recipe-search-row">
+<input id="recipe-search" type="search" placeholder="Try pizza, chicken, or basil" aria-describedby="recipe-search-help" aria-controls="recipe-results" autocomplete="off">
+<button id="recipe-clear" type="button">Clear</button>
+</div>
+<p id="recipe-search-help" class="recipe-search-help">Search recipe names and ingredients.</p>
+<p id="recipe-count" class="recipe-count" role="status" aria-live="polite" aria-atomic="true"></p>
 </div>
 
 <div class="row">
-<div class="col-xs-12">
+<div class="col-xs-12" id="recipe-results">
 {{ content }}
+<p id="recipe-empty" class="recipe-empty" hidden>No recipes match. Try another ingredient or clear your search.</p>
 </div>
 </div>
-</div>
+</main>
+
+<script src="{{ site.baseurl }}/js/recipe-search.js" defer></script>
 
 {% include footer.html %}

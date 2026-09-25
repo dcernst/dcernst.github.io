@@ -4603,6 +4603,48 @@ permalink: /ernst-recipes/
 <hr />
 
 <details class="recipe-item">
+<summary><h2>Hot Honey Pepperoni Pizza Rolls</h2></summary>
+
+<p>Link to recipe <a href="https://www.halfbakedharvest.com/pepperoni-pizza-rolls/">here</a>.</p>
+
+<dl>
+<dt>Yield</dt>
+<dd>16, 16 rolls</dd>
+<dt>Prep time</dt>
+<dd>PT20M</dd>
+<dt>Cook time</dt>
+<dd>PT30M</dd>
+<dt>Total time</dt>
+<dd>PT70M</dd>
+</dl>
+
+<h3>Ingredients</h3>
+
+<ul>
+<li>1 pound pizza dough</li>
+<li>2/3 cup marinara sauce</li>
+<li>2 tablespoons Italian or pizza seasoning</li>
+<li>1 cup shredded mozzarella</li>
+<li>1 cup shredded provolone cheese</li>
+<li>1/2 cup shredded cheddar cheese</li>
+<li>8 ounces pepperoni, sliced</li>
+<li>1/2 cup fresh basil, chopped</li>
+<li>sea salt</li>
+<li>1/2 cup honey</li>
+<li>2-3 tablespoons hot sauce</li>
+<li>1 teaspoon cayenne pepper</li>
+<li>3/4 teaspoon chipotle chili powder</li>
+<li>1/2 teaspoon garlic powder</li>
+<li>1/2 teaspoon onion powder</li>
+</ul>
+
+<p>Directions are available at the linked source.</p>
+
+</details>
+
+<hr />
+
+<details class="recipe-item">
 <summary><h2>How to Velvet Beef for Stir-fry</h2></summary>
 
 <p>Link to recipe <a href="https://thewoksoflife.com/prepare-beef-for-stir-fry/">here</a>.</p>
