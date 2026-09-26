@@ -8610,6 +8610,50 @@ permalink: /ernst-recipes/
 <hr />
 
 <details class="recipe-item">
+<summary><h2>Teriyaki Meatball-Broccoli Kebabs</h2></summary>
+
+<p>Link to recipe <a href="https://www.thepioneerwoman.com/food-cooking/recipes/a43967559/teriyaki-meatball-broccoli-kebabs-recipe/">here</a>.</p>
+
+<dl>
+<dt>Yield</dt>
+<dd>4 - 6 serving(s)</dd>
+<dt>Prep time</dt>
+<dd>PT50M</dd>
+<dt>Cook time</dt>
+<dd>PT0S</dd>
+<dt>Total time</dt>
+<dd>PT1H</dd>
+</dl>
+
+<h3>Ingredients</h3>
+
+<ul>
+<li>1 1/2 lb. ground beef</li>
+<li>1 1/2 tsp. kosher salt</li>
+<li>1 tsp. black pepper</li>
+<li>1 tsp. garlic powder</li>
+<li>1/2 tsp. ground ginger</li>
+<li>1/2 tsp. red pepper flakes, plus more to taste</li>
+<li>1 large egg</li>
+<li>1/2 shallot, finely diced</li>
+<li>1 c. panko</li>
+<li>1 c. mirin</li>
+<li>1 c. soy sauce</li>
+<li>1/2 c. sugar</li>
+<li>2 heads broccoli, cut into large florets</li>
+<li>1 red onion, cut into chunks</li>
+<li>1 red bell pepper, cut into chunks</li>
+<li>2 scallions, thinly sliced</li>
+<li>White rice, for serving</li>
+</ul>
+
+<p>Directions are available at the linked source.</p>
+
+</details>
+
+<hr />
+
+<details class="recipe-item">
 <summary><h2>Thai Basil Beef Noodle Stir-Fry</h2></summary>
 
 <p>Link to recipe <a href="https://www.gimmesomeoven.com/thai-basil-beef-noodle-stir-fry/">here</a>.</p>
