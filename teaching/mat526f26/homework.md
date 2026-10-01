@@ -45,3 +45,4 @@ I reserve the right to modify an assignment if the need arises.
 - **Homework 12:** Complete Problems 3.18-3.21 and digest the surrounding text along the way. (Due Monday, September 28)
 - **Homework 13:** Complete Problems 3.22-3.25 and digest the surrounding text along the way. (Due Wednesday, September 30)
 - **Homework 14:** Complete Problems 3.26-3.28 and digest the surrounding text along the way. (Due Friday, October 2)
+- **Homework 15:** Complete Problems 3.29-3.33 and digest the surrounding text along the way. (Due Monday, October 5)
