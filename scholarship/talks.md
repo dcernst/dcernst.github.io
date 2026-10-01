@@ -15,6 +15,7 @@ Below is list of talks and presentations that I have given over the past several
 
 <!-- In particular, you can find the collection of my recent slides on [Speaker Deck](https://speakerdeck.com/dcernst). -->
 
+- My experience teaching at Epsilon Camp. [NAU Mathematics and Statistics Teaching Seminar](http://naumathstat.github.io/seminars/teaching/), NAU, Flagstaff, AZ. October 2026.
 - When are two things equal? [Math on Tap](https://naumathstat.github.io/seminars/MathOnTap/), Mother Road Brewery, Flagstaff, AZ. September 2026. [[Slides](http://dcernst.github.io/talks/MathOnTap260902.pdf)]
 - My academic journey. Parent talk at [Epsilon Camp](https://www.epsiloncamp.org), Logan, UT. July 2026.
 - Structure of braid graphs for reduced words in simply-laced Coxeter systems. [Seminario di Algebra e Geometria](https://site.unibo.it/seminar-algebra-geometry/it/elenco-seminari/dana-ernst-northern-arizona-university), University of Bologna, Bologna, Italy. April 2026. [[Slides](http://dcernst.github.io/talks/Bologna2026-Ernst.pdf)]
@@ -29,7 +30,7 @@ Below is list of talks and presentations that I have given over the past several
 - Topics in combinatorics. NAU Mathematics and Statistics Putnam Exam Preparation. NAU, Flagstaff, AZ. November 2023.
 - Adopting, Adapting and Creating Open Education Resources (panel discussion). [NAU Teaching and Learning Center: Faculty Professional Development Opportunities](https://in.nau.edu/teaching-learning-center). NAU, Flagstaff, AZ. October 2023.
 - Sabbatical Report / Categories of rulesets and games. [NAU Mathematics and Statistics Colloquium](http://naumathstat.github.io/seminars/colloquium), NAU, Flagstaff, AZ. September 2023. [[Slides](http://dcernst.github.io/talks/SabbaticalReport-Ernst.pdf)]
-- Discussion of Open Educational Resources (OER). [NAU Mathematics and Statistics Teaching Seminar](http://naumathstat.github.io/seminars/teaching/). August 2023. [[Slides](https://docs.google.com/presentation/d/1hELzJQmd-8hPUyjDQWkFP5ZhM7t5w28X7r5KxF6aDdw/edit?usp=sharing)]
+- Discussion of Open Educational Resources (OER). [NAU Mathematics and Statistics Teaching Seminar](http://naumathstat.github.io/seminars/teaching/), NAU, Flagstaff, AZ. August 2023. [[Slides](https://docs.google.com/presentation/d/1hELzJQmd-8hPUyjDQWkFP5ZhM7t5w28X7r5KxF6aDdw/edit?usp=sharing)]
 - Enumerating signed permutations by reversal distance. University of Iceland Mathematics Seminar. June 2023. [[Slides](http://dcernst.github.io/talks/Iceland2023.pdf)]
 - Morphisms of impartial combinatorial games. [Virtual Combinatorial Game Theory Seminar](https://sites.google.com/view/virtual-cgt/seminar). April 2023. [[Slides](http://dcernst.github.io/talks/VirtualCGTC2023-Ernst.pdf)]
 - Fundamental homomorphism theorem for impartial combinatorial games (2 talks). [Algebra, Combinatorics, Geometry, and Topology Seminar](http://naumathstat.github.io/seminars/acgtSpring2023/) (ACGT), NAU, Flagstaff, AZ. March 2023.
