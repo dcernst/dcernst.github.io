@@ -5520,6 +5520,41 @@ permalink: /ernst-recipes/
 <hr />
 
 <details class="recipe-item">
+<summary><h2>Marinated Tofu</h2></summary>
+
+<p>Link to recipe <a href="https://www.noracooks.com/marinated-tofu/">here</a>.</p>
+
+<dl>
+<dt>Yield</dt>
+<dd>4, 4 servings</dd>
+<dt>Prep time</dt>
+<dd>PT80M</dd>
+<dt>Cook time</dt>
+<dd>PT10M</dd>
+<dt>Total time</dt>
+<dd>PT90M</dd>
+</dl>
+
+<h3>Ingredients</h3>
+
+<ul>
+<li>14.5 ounce block extra-firm tofu</li>
+<li>4 tablespoons low sodium soy sauce</li>
+<li>3 tablespoons seasoned rice vinegar</li>
+<li>1 tablespoon pure maple syrup</li>
+<li>1 teaspoon toasted sesame oil</li>
+<li>2 garlic cloves, minced</li>
+<li>1 tablespoon fresh grated ginger (OR 1/2 teaspoon dried ginger)</li>
+<li>2-3 tablespoons neutral oil, such as canola or avocado</li>
+</ul>
+
+<p>Directions are available at the linked source.</p>
+
+</details>
+
+<hr />
+
+<details class="recipe-item">
 <summary><h2>Mashed Potatoes Recipe</h2></summary>
 
 <p>Link to recipe <a href="https://www.spendwithpennies.com/how-to-make-mashed-potatoes/">here</a>.</p>
