@@ -127,22 +127,6 @@ text-transform: uppercase;
 margin-bottom: 0;
 }
 
-.ai-mathematics__feature {
-margin: 26px 0 0;
-padding: 17px 18px;
-border: 1px solid #bfcbdb;
-background: rgba(255, 255, 255, .28);
-}
-
-.ai-mathematics__feature h2 {
-margin: 0 0 5px;
-font-size: 24px;
-}
-
-.ai-mathematics__feature p {
-margin: 0;
-}
-
 .ai-mathematics__talking-point {
 margin-top: 12px;
 padding-left: 14px;
