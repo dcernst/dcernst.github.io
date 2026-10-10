@@ -1,6 +1,6 @@
 body {
-background: #f5f3ee;
-color: #1f2933;
+background: #f3f7fc;
+color: #162b44;
 }
 
 .ai-mathematics {
@@ -13,7 +13,7 @@ line-height: 1.62;
 }
 
 .ai-mathematics a {
-color: #1a5f73;
+color: #174d8d;
 text-decoration: underline;
 text-decoration-thickness: 1px;
 text-underline-offset: 3px;
@@ -21,43 +21,25 @@ text-underline-offset: 3px;
 
 .ai-mathematics a:hover,
 .ai-mathematics a:focus {
-color: #0d3d4b;
+color: #0b315f;
 }
 
 .ai-mathematics__masthead {
 margin-bottom: 56px;
 padding-bottom: 30px;
-border-bottom: 1px solid #b7c5c3;
+border-bottom: 1px solid #adc5df;
 }
 
-.ai-mathematics__site-link,
 .ai-mathematics__meta,
 .ai-mathematics__tag {
 font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-}
-
-.ai-mathematics__site-link {
-margin: 0 0 34px;
-font-size: 14px;
-letter-spacing: .02em;
-}
-
-.ai-mathematics__site-link a {
-color: #263640;
-font-weight: 700;
-text-decoration: none;
-}
-
-.ai-mathematics__site-link span {
-padding: 0 7px;
-color: #78908e;
 }
 
 .ai-mathematics h1,
 .ai-mathematics h2,
 .ai-mathematics h3 {
 font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-color: #172730;
+color: #102c4d;
 letter-spacing: -.02em;
 }
 
@@ -80,7 +62,7 @@ line-height: 1.42;
 .ai-mathematics h2 {
 margin: 56px 0 20px;
 padding-bottom: 8px;
-border-bottom: 1px solid #b7c5c3;
+border-bottom: 1px solid #adc5df;
 font-size: 25px;
 line-height: 1.2;
 }
@@ -104,7 +86,7 @@ letter-spacing: .02em;
 
 .ai-mathematics__item {
 padding: 27px 0 25px;
-border-bottom: 1px solid #d2d7d2;
+border-bottom: 1px solid #d1dfec;
 }
 
 .ai-mathematics__tag {
@@ -112,8 +94,8 @@ display: inline-block;
 margin-bottom: 10px;
 padding: 3px 8px;
 border-radius: 2px;
-background: #dcebea;
-color: #205662;
+background: #dbeafa;
+color: #16487c;
 font-size: 11px;
 font-weight: 700;
 letter-spacing: .07em;
@@ -127,8 +109,8 @@ margin-bottom: 0;
 .ai-mathematics__note {
 margin-top: 48px;
 padding: 21px 24px;
-border-left: 3px solid #4c8588;
-background: #e9eeea;
+border-left: 3px solid #3675b8;
+background: #e7f0fb;
 font-size: 16px;
 }
 
