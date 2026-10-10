@@ -8,7 +8,7 @@ extra_css: /css/ai-mathematics.css
 <span class="ai-mathematics__tag">Weekly digest</span>
 <h3><a href="{{ site.baseurl }}/ai-mathematics/2026-10-10/">4–10 October 2026</a></h3>
 <p class="ai-mathematics__meta">Research and teaching</p>
-<p>New reports on AI-generated mathematical work, research infrastructure, external funding, adaptive arithmetic software, and teacher preparation.</p>
+<p>New reports on AI-generated mathematical work, research infrastructure, external funding, undergraduate outcomes, adaptive arithmetic software, and teacher preparation.</p>
 </article>
 
 <div class="ai-mathematics__note">
