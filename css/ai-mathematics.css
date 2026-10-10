@@ -6,7 +6,7 @@ color: #1d2531;
 .ai-mathematics {
 max-width: 72rem;
 margin: 0 auto;
-padding: 66px 32px 48px;
+padding: 112px 32px 48px;
 font-family: system-ui, "Segoe UI", Helvetica, Arial, sans-serif;
 font-size: 17px;
 line-height: 1.6;
@@ -118,7 +118,7 @@ font-size: 16px;
 
 @media (max-width: 600px) {
 .ai-mathematics {
-padding: 52px 22px 40px;
+padding: 96px 22px 40px;
 font-size: 16px;
 }
 
