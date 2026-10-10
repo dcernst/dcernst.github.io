@@ -1,13 +1,9 @@
 ---
 layout: ai-mathematics
 title: AI and mathematics
-subtitle: A weekly digest of developments in mathematical research, teaching, and learning.
+subtitle: A weekly digest of AI-related developments in mathematical research, teaching, and learning.
 extra_css: /css/ai-mathematics.css
 ---
-
-This archive collects weekly links about the impact of artificial intelligence on mathematics, with separate attention to research and teaching.
-
-## Digests
 
 <article class="ai-mathematics__item">
 <span class="ai-mathematics__tag">Weekly digest</span>
