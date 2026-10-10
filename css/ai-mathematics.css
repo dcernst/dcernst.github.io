@@ -6,7 +6,7 @@ color: #1d2531;
 .ai-mathematics {
 max-width: 72rem;
 margin: 0 auto;
-padding: 42px 32px 48px;
+padding: 66px 32px 48px;
 font-family: system-ui, "Segoe UI", Helvetica, Arial, sans-serif;
 font-size: 17px;
 line-height: 1.6;
@@ -56,6 +56,13 @@ margin: 10px 0 0;
 color: #55606f;
 font-size: 18px;
 line-height: 1.5;
+}
+
+.ai-mathematics__issue-date {
+margin: 8px 0 0;
+color: #55606f;
+font-size: 14px;
+letter-spacing: .02em;
 }
 
 .ai-mathematics h2 {
@@ -111,7 +118,7 @@ font-size: 16px;
 
 @media (max-width: 600px) {
 .ai-mathematics {
-padding: 32px 22px 40px;
+padding: 52px 22px 40px;
 font-size: 16px;
 }
 

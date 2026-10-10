@@ -1,7 +1,6 @@
 ---
 layout: ai-mathematics
 title: AI and mathematics
-subtitle: A weekly digest of AI-related developments in mathematical research, teaching, and learning.
 extra_css: /css/ai-mathematics.css
 ---
 
