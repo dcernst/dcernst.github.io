@@ -1,0 +1,148 @@
+body {
+background: #f5f3ee;
+color: #1f2933;
+}
+
+.ai-mathematics {
+max-width: 880px;
+margin: 0 auto;
+padding: 72px 32px 64px;
+font-family: Georgia, "Times New Roman", serif;
+font-size: 18px;
+line-height: 1.62;
+}
+
+.ai-mathematics a {
+color: #1a5f73;
+text-decoration: underline;
+text-decoration-thickness: 1px;
+text-underline-offset: 3px;
+}
+
+.ai-mathematics a:hover,
+.ai-mathematics a:focus {
+color: #0d3d4b;
+}
+
+.ai-mathematics__masthead {
+margin-bottom: 56px;
+padding-bottom: 30px;
+border-bottom: 1px solid #b7c5c3;
+}
+
+.ai-mathematics__site-link,
+.ai-mathematics__meta,
+.ai-mathematics__tag {
+font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+.ai-mathematics__site-link {
+margin: 0 0 34px;
+font-size: 14px;
+letter-spacing: .02em;
+}
+
+.ai-mathematics__site-link a {
+color: #263640;
+font-weight: 700;
+text-decoration: none;
+}
+
+.ai-mathematics__site-link span {
+padding: 0 7px;
+color: #78908e;
+}
+
+.ai-mathematics h1,
+.ai-mathematics h2,
+.ai-mathematics h3 {
+font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+color: #172730;
+letter-spacing: -.02em;
+}
+
+.ai-mathematics h1 {
+max-width: 720px;
+margin: 0;
+font-size: 52px;
+font-weight: 700;
+line-height: 1.04;
+}
+
+.ai-mathematics__subtitle {
+max-width: 650px;
+margin: 18px 0 0;
+color: #516168;
+font-size: 21px;
+line-height: 1.42;
+}
+
+.ai-mathematics h2 {
+margin: 56px 0 20px;
+padding-bottom: 8px;
+border-bottom: 1px solid #b7c5c3;
+font-size: 25px;
+line-height: 1.2;
+}
+
+.ai-mathematics h3 {
+margin: 0 0 8px;
+font-size: 22px;
+line-height: 1.24;
+}
+
+.ai-mathematics__issue {
+margin: 0;
+}
+
+.ai-mathematics__meta {
+margin: 0 0 30px;
+color: #5f6c72;
+font-size: 14px;
+letter-spacing: .02em;
+}
+
+.ai-mathematics__item {
+padding: 27px 0 25px;
+border-bottom: 1px solid #d2d7d2;
+}
+
+.ai-mathematics__tag {
+display: inline-block;
+margin-bottom: 10px;
+padding: 3px 8px;
+border-radius: 2px;
+background: #dcebea;
+color: #205662;
+font-size: 11px;
+font-weight: 700;
+letter-spacing: .07em;
+text-transform: uppercase;
+}
+
+.ai-mathematics__item p:last-child {
+margin-bottom: 0;
+}
+
+.ai-mathematics__note {
+margin-top: 48px;
+padding: 21px 24px;
+border-left: 3px solid #4c8588;
+background: #e9eeea;
+font-size: 16px;
+}
+
+@media (max-width: 600px) {
+.ai-mathematics {
+padding: 46px 22px 44px;
+font-size: 17px;
+}
+
+.ai-mathematics h1 {
+font-size: 40px;
+}
+
+.ai-mathematics__subtitle {
+font-size: 19px;
+}
+}

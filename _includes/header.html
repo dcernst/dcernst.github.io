@@ -21,6 +21,9 @@
 <!-- Custom styles for this template -->
 <link href="{{ site.baseurl }}/css/sticky-footer-navbar.css" rel="stylesheet">
 <link href="{{ site.baseurl }}/css/extra.css" rel="stylesheet">
+{% if page.extra_css %}
+<link href="{{ site.baseurl }}{{ page.extra_css }}" rel="stylesheet">
+{% endif %}
 <link rel="stylesheet" href="/css/css/academicons.css"/>
 
 <!-- stylesheet for pygments to work -->
