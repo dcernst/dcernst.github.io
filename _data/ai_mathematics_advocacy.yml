@@ -1,0 +1,30 @@
+- id: cornell-ai-grants
+  issue: "2026-10-10"
+  issue_label: 4–10 October 2026
+  category: Research funding
+  title: Cornell mathematicians receive grants for AI safety and formalization
+  source: Cornell University Department of Mathematics
+  date: "5 October 2026"
+  url: https://math.cornell.edu/news/cornell-mathematicians-win-grants-ensure-ai-safety-research-integrity
+  summary: Cornell reports that Lionel Levine received $1.5 million from Coefficient Giving for AI-safety research and Daniel Halpern-Leistner received $2.3 million from DARPA for mathematical-formalization tools. Cornell also reports that students in its Math+AI lab are contributing to the formalization project.
+  talking_point: This is concrete evidence that mathematics faculty can lead externally funded AI research while creating interdisciplinary research opportunities for students.
+- id: ai-for-math-fund
+  issue: "2026-10-10"
+  issue_label: 4–10 October 2026
+  category: Research funding
+  title: AI for Math Fund expands its support for mathematical research
+  source: Renaissance Philanthropy
+  date: "6 October 2026"
+  url: https://www.renaissancephilanthropy.org/insights/renaissance-philanthropy-and-xtx-markets-announce-further-171-million-to-accelerate-mathematical-progress
+  summary: Renaissance Philanthropy and XTX Markets announced an additional $17.1 million in AI for Math Fund grants, bringing total commitments to $35.1 million. The announcement says that 22 applications representing 30 organizations were selected, with awards from $100,000 to $1 million for 12–24 months.
+  talking_point: The announcement documents substantial private investment in mathematical research, infrastructure, and training. It supports pursuing collaborations and proposals, but it is not a currently open call or a promise of local funding.
+- id: caltech-aim-platform
+  issue: "2026-10-10"
+  issue_label: 4–10 October 2026
+  category: Research infrastructure
+  title: Caltech and AIM develop an AI platform with mathematicians
+  source: Caltech
+  date: "7 October 2026"
+  url: https://www.caltech.edu/about/news/caltech-and-aim-build-ai-platform-with-mathematicians-for-mathematicians
+  summary: Caltech and the American Institute of Mathematics describe a platform under development to organize conjectures, arguments, references, and competing approaches, with mathematicians involved in refining the tool and planned Lean integration.
+  talking_point: This initiative illustrates that mathematical expertise is needed to shape AI research infrastructure, including the tools through which future mathematical work will be organized and evaluated.

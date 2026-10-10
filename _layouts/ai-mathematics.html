@@ -3,11 +3,16 @@
 <main class="ai-mathematics">
 <header class="ai-mathematics__masthead">
 <h1>{{ page.title }}</h1>
-<p class="ai-mathematics__subtitle">A weekly digest of AI-related developments in mathematical research, teaching, and learning.</p>
+<p class="ai-mathematics__subtitle">{{ page.subtitle | default: "A weekly digest of AI-related developments in mathematical research, teaching, and learning." }}</p>
 {% if page.issue_date %}
 <p class="ai-mathematics__issue-date">{{ page.issue_date }}</p>
 {% endif %}
 </header>
+
+<nav class="ai-mathematics__section-nav" aria-label="AI and mathematics pages">
+<a href="{{ site.baseurl }}/ai-mathematics/">Digest archive</a>
+<a href="{{ site.baseurl }}/ai-mathematics/advocacy/">Mathematics advocacy</a>
+</nav>
 
 <div class="ai-mathematics__content">
 {{ content }}
