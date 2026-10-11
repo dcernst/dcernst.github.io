@@ -62,10 +62,10 @@ Below is a list of textbooks that I have written to be used with an [inquiry-bas
   * B.J. Benesh, D.C. Ernst, and N. Sieben. Impartial avoidance and achievement games for generating symmetric and alternating groups. *Int. Electron. J. Algebra* 20, 70-85, 2016. [[arXiv:1508.03419](http://arxiv.org/abs/1508.03419)] [[ePrint](http://www.ieja.net/files/papers/volume-20/4-V20-2016.pdf)]
   * N. Diefenderfer, D.C. Ernst, M. Hastings, L.N. Heath, H. Prawzinsky, B. Preston, J. Rushall, E. White, A. Whittemore. Prime Vertex Labelings of Several Families of Graphs. *Involve* 9(4), 667-688, 2016. [[arXiv:1503.08386](http://arxiv.org/abs/1503.08386)] [[ePrint](https://msp.org/involve/2016/9-4/involve-v9-n4-p08-p.pdf)]
   * B.J. Benesh, D.C. Ernst, and N. Sieben. Impartial avoidance games for generating finite groups. *North-W. Eur. J. of Math.* 2, 89-110, 2016. [[arXiv:1506.07105](http://arxiv.org/abs/1506.07105)] [[ePrint](https://nwejm.univ-lille.fr/index.php/nwejm/article/view/60/55)]
-  * H. Denoncourt, D.C. Ernst, and D. Story. On the number of commutation classes of the longest element of the symmetric group. *Open Problems in Mathematics* 4, 2016. [[arXiv:1602.08328](http://arxiv.org/abs/1602.08328)] [[ePrint](http://opmath.org/index.php/opm/article/view/15)]
+  * H. Denoncourt, D.C. Ernst, and D. Story. On the number of commutation classes of the longest element of the symmetric group. *Open Problems in Mathematics* 4, 2016. [[arXiv:1602.08328](http://arxiv.org/abs/1602.08328)]
   * E. Kennedy, B. Beaudrie, D.C. Ernst, and R. St. Laurent. Inverted Pedagogy in Second Semester Calculus. *PRIMUS* 25(9-10), 892-906, 2015. [[Manuscript](https://www.researchgate.net/publication/283618949_Inverted_Pedagogy_in_Second_Semester_Calculus)]
   * B. Love, A. Hodge, C. Corritore, and D.C. Ernst. Inquiry-Based Learning and the Flipped Classroom Model. *PRIMUS* 25(8), 745-762, 2015. [[ePrint](http://www.tandfonline.com/doi/full/10.1080/10511970.2015.1046005)]
-  * D.C. Ernst, M. Leingang, and R. Taylor. To Friend or Not to Friend: Facebook for Professional Educators. *MAA FOCUS* June/July 2015. [[ePrint](http://digital.ipcprintservices.com/publication/?i=260736&pre=1&p=7)]
+  * D.C. Ernst, M. Leingang, and R. Taylor. To Friend or Not to Friend: Facebook for Professional Educators. *MAA FOCUS* June/July 2015.
   * D.C. Ernst, A. Hodge, and A. Schultz. Enhancing Proof Writing via Cross-Institutional Peer Review. *PRIMUS* 25(2), 121-130, 2015. [[ePrint](http://www.tandfonline.com/doi/full/10.1080/10511970.2014.921652)]
   * D.C. Ernst. Diagram calculus for a type affine *C* Temperley-Lieb algebra, I. *J. Pure Appl. Alg.* 216(11), 2012. [[arXiv:0910.0925](http://arxiv.org/abs/0910.0925)] [[ePrint](https://www.sciencedirect.com/science/article/pii/S0022404912001016)]
   * T. Boothby, J. Burkert, M. Eichwald, D.C. Ernst, R.M. Green, and M. Macauley. On the cyclically fully commutative elements of Coxeter groups. *J. Algebraic Combin.* 36(1), 2012. [[arXiv:1202.6657](http://arxiv.org/abs/1202.6657)] [[ePrint](https://link.springer.com/article/10.1007/s10801-011-0327-z)]
@@ -88,7 +88,7 @@ From Spring 2013 through Spring 2016, I was co-editor and author for [Math Ed Ma
 
   <!-- * In defense of mathematics. [2026 Great Survival Debate](https://news.nau.edu/the-great-survival-debate/), NAU, Flagstaff, AZ. March 2026. -->
 
-  * A conversation with Dana Ernst. *IBL Teaching Podcast*. September 2023. [[YouTube](https://www.youtube.com/watch?v=zwY5hIRFEwI)]
+  * A conversation with Dana Ernst. *IBL Teaching Podcast*. September 2023.
   * D.C. Ernst. The Role of Failure and Struggle in the Mathematics Classroom. *Teaching Tidbits*. November 2017. [[Blog Post](http://maateachingtidbits.blogspot.com/2017/11/the-role-of-failure-and-struggle-in.html)]
   * D.C. Ernst. Want to Give Your Teaching Style a Makeover This Summer? Here’s How. *Teaching Tidbits*. April 2017. [[Blog Post](http://maateachingtidbits.blogspot.com/2017/04/want-to-give-your-teaching-style.html)]
   * D.C. Ernst. Who generates the examples? *Teaching Tidbits*. November 2016. [[Blog Post](http://maateachingtidbits.blogspot.com/2016/11/who-generates-examples.html)]
@@ -139,13 +139,5 @@ Below are all of the MS theses that I have advised at NAU.
   * Rekt: An interview with Dana Ernst, the Stagecoach 400 Ultra Endurance Bikepacking Event Co-Winner. *The Endurance Studio*. [[YouTube](https://www.youtube.com/watch?v=QLHAEaGzAVs&t=9s)]
   * Dana Ernst and the Verde Valley Randonnee. *Stoke Podcast*. [[Podcast](https://podcasters.spotify.com/pod/show/stokepodcast/episodes/Dana-Ernst-and-the-Verde-Valley-Randonnee-Bike-Packing-Adventure-e1qethg)] [[YouTube](https://www.youtube.com/watch?v=AQmTO_v9nys&t=948s)]
   * D.C. Ernst. 2019 Pinyons and Pines: Event Recap. *Bikepacking.com*. August 2019. [[Article](https://bikepacking.com/news/2019-pinyons-pines-event-recap/)]
-  * D.C. Ernst. Dana's AZT, Part 2. *Bedrock Bags Blog*. July 2018. [[Blog Post](https://www.bedrockbags.com/blog/2018/6/19/danas-azt-part-2)]
-  * D.C. Ernst. Dana's AZT, Part 1. *Bedrock Bags Blog*. June 2018. [[Blog Post](https://www.bedrockbags.com/blog/2018/6/19/danas-azt-part-1)]
-
-<!--
-* D.C. Ernst and A. Lebovitz. Groups with cyclic subgroups.
-* D.C. Ernst and B. Fox. Conjugacy classes of cyclically fully commutative elements in Coxeter groups of type $A$.
-* D.C. Ernst and T. Laird. T-avoiding elements of Coxeter groups.
-* D.C. Ernst and M. Falk. ????
-* D.C. Ernst and T.K. Petersen. The worst casino in Reno.
-* -->
+  * D.C. Ernst. Dana's AZT, Part 2. *Bedrock Bags Blog*. July 2018.
+  * D.C. Ernst. Dana's AZT, Part 1. *Bedrock Bags Blog*. June 2018.
