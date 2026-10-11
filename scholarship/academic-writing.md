@@ -15,7 +15,7 @@ layout: default
 </div>
 
 <!-- <img src="{{ site.baseurl }}/images/2012/02/TypeDHeap.png" align="left" width="100" img style="margin-right: 15px"/> -->
-My primary research interests are in the interplay between combinatorics and algebraic structures. More specifically, one area of interest is the combinatorics of <a href="http://en.wikipedia.org/wiki/Coxeter_group">Coxeter groups</a>. By employing combinatorial tools such as diagram algebras and heaps of pieces, one can gain insight into algebraic structures associated to Coxeter groups, and, conversely, the corresponding structure theory can often lead to surprising combinatorial results. My research also includes <a href="https://en.wikipedia.org/wiki/Combinatorial_game_theory">combinatorial game theory</a>.  More recently my scholarly interests have expanded into [enumerative combinatorics](https://en.wikipedia.org/wiki/Enumerative_combinatorics) with current research projects focused on the combinatorics of genome rearrangements, as well as [pattern avoidance](https://en.wikipedia.org/wiki/Permutation_pattern) in combinatorical structures such Cayley permutations.  See my <a href="{{ site.baseurl }}/scholarship/">scholarship page</a> for more information.
+My primary research interests are in the interplay between combinatorics and algebraic structures. More specifically, one area of interest is the combinatorics of <a href="http://en.wikipedia.org/wiki/Coxeter_group">Coxeter groups</a>. By employing combinatorial tools such as diagram algebras and heaps of pieces, one can gain insight into algebraic structures associated to Coxeter groups, and, conversely, the corresponding structure theory can often lead to surprising combinatorial results. My research also includes <a href="https://en.wikipedia.org/wiki/Combinatorial_game_theory">combinatorial game theory</a>.  More recently my scholarly interests have expanded into [enumerative combinatorics](https://en.wikipedia.org/wiki/Enumerative_combinatorics) with current research projects focused on the combinatorics of genome rearrangements, as well as [pattern avoidance](https://en.wikipedia.org/wiki/Permutation_pattern) in combinatorial structures such as Cayley permutations.  See my <a href="{{ site.baseurl }}/scholarship/">scholarship page</a> for more information.
 
 The combinatorial nature of my research naturally lends itself to collaborations with undergraduate and graduate students, and my goal is to incorporate them in my research as much as possible. Check out my [undergraduate research page]({{ site.baseurl }}/scholarship/undergraduate-research/) for examples of recent projects.
 
@@ -38,7 +38,7 @@ You can find a recent version of my curriculum vitae [here]({{site.baseurl}}/sch
 
 ## Books
 Below is a list of textbooks that I have written to be used with an [inquiry-based learning](http://maamathedmatters.blogspot.com/2013/05/what-heck-is-ibl.html) (IBL) approach.
-  * D.C. Ernst and J. Hagood. *Introduction to Discrete Mathematics*. Free undergraduate discrete mathematics textbook, 2024. [[PDF](https://danaernst.com/scholarship/NAUDiscreteMathematics-ErnstHagood.pdf)] [[Web](https://danaernst.com/NAUDiscreteMathematics/root-1-2-2.html)]
+  * D.C. Ernst and J. Hagood. *Introduction to Discrete Mathematics*. Free undergraduate discrete mathematics textbook, 2024. [[Web](https://danaernst.com/NAUDiscreteMathematics/root-1-2-2.html)]
   * D.C. Ernst. *Introduction to Real Analysis*. Free undergraduate real analysis textbook, 2023. Modification of previous work: D.C. Ernst < K. Crisman < W.T. Mahavier < W.S. Mahavier. [[PDF](https://danaernst.com/teaching/mat431f23/IBL-RealAnalysis.pdf)]
   * D.C. Ernst. *An Inquiry-Based Approach to Abstract Algebra*. Open-source textbook for undergraduate abstract algebra, 2022.  [[Source](https://github.com/dcernst/IBL-AbstractAlgebra)] [[PDF](http://danaernst.com/teaching/mat411s22/IBL-AbstractAlgebra.pdf)]
   * D.C. Ernst. *An Introduction to Proof via Inquiry-Based Learning*. MAA Press, 2022. [[Project Webpage](http://dcernst.github.io/IBL-IntroToProof/)] [[Paperback](https://bookstore.ams.org/text-73/)]
@@ -139,8 +139,8 @@ Below are all of the MS theses that I have advised at NAU.
   * Rekt: An interview with Dana Ernst, the Stagecoach 400 Ultra Endurance Bikepacking Event Co-Winner. *The Endurance Studio*. [[YouTube](https://www.youtube.com/watch?v=QLHAEaGzAVs&t=9s)]
   * Dana Ernst and the Verde Valley Randonnee. *Stoke Podcast*. [[Podcast](https://podcasters.spotify.com/pod/show/stokepodcast/episodes/Dana-Ernst-and-the-Verde-Valley-Randonnee-Bike-Packing-Adventure-e1qethg)] [[YouTube](https://www.youtube.com/watch?v=AQmTO_v9nys&t=948s)]
   * D.C. Ernst. 2019 Pinyons and Pines: Event Recap. *Bikepacking.com*. August 2019. [[Article](https://bikepacking.com/news/2019-pinyons-pines-event-recap/)]
-  * D.C. Ernst. Dana's AZT, Part 1. *Bedrock Bags Blog*. June 2018. [[Blog Post](https://www.bedrockbags.com/blog/2018/6/19/danas-azt-part-1)]
   * D.C. Ernst. Dana's AZT, Part 2. *Bedrock Bags Blog*. July 2018. [[Blog Post](https://www.bedrockbags.com/blog/2018/6/19/danas-azt-part-2)]
+  * D.C. Ernst. Dana's AZT, Part 1. *Bedrock Bags Blog*. June 2018. [[Blog Post](https://www.bedrockbags.com/blog/2018/6/19/danas-azt-part-1)]
 
 <!--
 * D.C. Ernst and A. Lebovitz. Groups with cyclic subgroups.
