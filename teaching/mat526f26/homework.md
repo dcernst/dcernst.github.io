@@ -49,3 +49,4 @@ I reserve the right to modify an assignment if the need arises.
 - **Homework 16:** Complete Problems 3.34-3.38 and digest the surrounding text along the way. (Due Wednesday, October 7)
 - **Homework 17:** Complete Problems 3.43-3.46 and digest the surrounding text along the way. (Due Wednesday, October 14)
 - **Homework 18:** Complete Problems 3.47, 4.3-4.6, 4.8  and digest the surrounding text along the way. (Due Friday, October 16)
+- **Homework 19:** Complete Problems 3.48, 4.9-4.12 and digest the surrounding text along the way. (Due Monday, October 19)
