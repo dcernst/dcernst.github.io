@@ -25,84 +25,84 @@ You can find a recent version of my curriculum vitae [here]({{site.baseurl}}/sch
 
 ## In Preparation
 
-* <span class="publication-label">P6.</span> D.C. Ernst. Learning to Count: Discovering Enumerative Combinatorics. [Book]
-* <span class="publication-label">P5.</span> D.C. Ernst, T.J. Hitchman, M. Jones, and S. Yoshinobu. Who trains the trainers? A process for supporting systemic change. [Book Chapter]
-* <span class="publication-label">P4.</span> A. Attilio, J. Barnes, J. Breland, D.C. Ernst, A. Patrick, A. Pari, R. Perry, V. Wilmer. Structure of braid graphs in Coxeter systems. [Article]
-* <span class="publication-label">P3.</span> M. Baltushkin, D.C. Ernst, and N. Sieben. Unite and Conquer: The folding of impartial games. [Article]
-* <span class="publication-label">P2.</span> G. Cerbai, A. Claesson, D.C. Ernst, and H. Golab. Pattern-avoiding Cayley permutations via combinatorial species, Part 2 (*tentative title*). [Article]
-* <span class="publication-label">P1.</span> F. Awik, F. Burkhart, H. Denoncourt, D.C. Ernst, T. Rosenberg, and A. Stewart. Enumerating signed permutations by reversal distance. [Article]
-{: .publication-list role="list"}
+6. D.C. Ernst. Learning to Count: Discovering Enumerative Combinatorics. [Book]
+5. D.C. Ernst, T.J. Hitchman, M. Jones, and S. Yoshinobu. Who trains the trainers? A process for supporting systemic change. [Book Chapter]
+4. A. Attilio, J. Barnes, J. Breland, D.C. Ernst, A. Patrick, A. Pari, R. Perry, V. Wilmer. Structure of braid graphs in Coxeter systems. [Article]
+3. M. Baltushkin, D.C. Ernst, and N. Sieben. Unite and Conquer: The folding of impartial games. [Article]
+2. G. Cerbai, A. Claesson, D.C. Ernst, and H. Golab. Pattern-avoiding Cayley permutations via combinatorial species, Part 2 (*tentative title*). [Article]
+1. F. Awik, F. Burkhart, H. Denoncourt, D.C. Ernst, T. Rosenberg, and A. Stewart. Enumerating signed permutations by reversal distance. [Article]
+{: .publication-list .publication-list-p reversed="reversed" start="6"}
 
 <!-- * J. Breland, Q. Cadman, D.C. Ernst, J. Niemi, J. Sullivan, and J. Wright. Structure of braid graphs for reduced words in simply-laced Coxeter systems. -->
 
 
 ## Submitted
 
-* <span class="publication-label">S2.</span> B.J. Benesh, D.C. Ernst, M. Meyer, S.K. Salmon, and N. Sieben. Impartial geodetic removing games on graphs. [[arXiv:2606.05483](http://arxiv.org/abs/2606.05483)]
-* <span class="publication-label">S1.</span> J. Barnes, J. Breland, D.C. Ernst, R. Perry. Braid graphs in simply-laced triangle-free Coxeter systems are median. [[arXiv:2408.16839](https://arxiv.org/abs/2408.16839)]
-{: .publication-list role="list"}
+2. B.J. Benesh, D.C. Ernst, M. Meyer, S.K. Salmon, and N. Sieben. Impartial geodetic removing games on graphs. [[arXiv:2606.05483](http://arxiv.org/abs/2606.05483)]
+1. J. Barnes, J. Breland, D.C. Ernst, R. Perry. Braid graphs in simply-laced triangle-free Coxeter systems are median. [[arXiv:2408.16839](https://arxiv.org/abs/2408.16839)]
+{: .publication-list .publication-list-s reversed="reversed" start="2"}
 
 
 ## Books
 Below is a list of textbooks that I have written to be used with an [inquiry-based learning](http://maamathedmatters.blogspot.com/2013/05/what-heck-is-ibl.html) (IBL) approach.
 
-* <span class="publication-label">B4.</span> D.C. Ernst and J. Hagood. *Introduction to Discrete Mathematics*. Free undergraduate discrete mathematics textbook, 2024. [[Web](https://danaernst.com/NAUDiscreteMathematics/root-1-2-2.html)]
-* <span class="publication-label">B3.</span> D.C. Ernst. *Introduction to Real Analysis*. Free undergraduate real analysis textbook, 2023. Modification of previous work: D.C. Ernst < K. Crisman < W.T. Mahavier < W.S. Mahavier. [[PDF](https://danaernst.com/teaching/mat431f23/IBL-RealAnalysis.pdf)]
-* <span class="publication-label">B2.</span> D.C. Ernst. *An Inquiry-Based Approach to Abstract Algebra*. Open-source textbook for undergraduate abstract algebra, 2022.  [[Source](https://github.com/dcernst/IBL-AbstractAlgebra)] [[PDF](http://danaernst.com/teaching/mat411s22/IBL-AbstractAlgebra.pdf)]
-* <span class="publication-label">B1.</span> D.C. Ernst. *An Introduction to Proof via Inquiry-Based Learning*. MAA Press, 2022. [[Project Webpage](http://dcernst.github.io/IBL-IntroToProof/)] [[Paperback](https://bookstore.ams.org/text-73/)]
-{: .publication-list role="list"}
+4. D.C. Ernst and J. Hagood. *Introduction to Discrete Mathematics*. Free undergraduate discrete mathematics textbook, 2024. [[Web](https://danaernst.com/NAUDiscreteMathematics/root-1-2-2.html)]
+3. D.C. Ernst. *Introduction to Real Analysis*. Free undergraduate real analysis textbook, 2023. Modification of previous work: D.C. Ernst < K. Crisman < W.T. Mahavier < W.S. Mahavier. [[PDF](https://danaernst.com/teaching/mat431f23/IBL-RealAnalysis.pdf)]
+2. D.C. Ernst. *An Inquiry-Based Approach to Abstract Algebra*. Open-source textbook for undergraduate abstract algebra, 2022.  [[Source](https://github.com/dcernst/IBL-AbstractAlgebra)] [[PDF](http://danaernst.com/teaching/mat411s22/IBL-AbstractAlgebra.pdf)]
+1. D.C. Ernst. *An Introduction to Proof via Inquiry-Based Learning*. MAA Press, 2022. [[Project Webpage](http://dcernst.github.io/IBL-IntroToProof/)] [[Paperback](https://bookstore.ams.org/text-73/)]
+{: .publication-list .publication-list-b reversed="reversed" start="4"}
 
 
 ## Journal Articles
 
-* <span class="publication-label">J26.</span> B.J. Benesh, D.C. Ernst, M. Meyer, S.K. Salmon, and N. Sieben. Impartial geodetic removing games on grid graphs. Accepted to *Games of No Chance*. [[arXiv:2505.08655](http://arxiv.org/abs/2505.08655)]
-* <span class="publication-label">J25.</span> G. Cerbai, A. Claesson, D.C. Ernst, and H. Golab. Pattern-avoiding Cayley permutations via combinatorial species. *Australas. J. Combin.*, 94(2), 267–299, 2026. [[arXiv:2407.19583](https://arxiv.org/abs/2407.19583)] [[ePrint](https://ajc.maths.uq.edu.au/pdf/94/ajc_v94_p267.pdf)]
-* <span class="publication-label">J24.</span> M. Baltushkin, D.C. Ernst, and N. Sieben. Isomorphism Theorems for Impartial Combinatorial Games. *Discrete Math. Lett.* 16, 2025. [[arXiv:2505.04919](https://arxiv.org/abs/2505.04919)] [[ePrint](https://www.dmlett.com/archive/v16/DML25_v16_pp59-66.pdf)]
-* <span class="publication-label">J23.</span> B.J. Benesh, D.C. Ernst, M. Meyer, S.K. Salmon, and N. Sieben. Impartial geodetic building games on graphs. *Int. J. Game Theory* 53(4), 2024. [[arXiv:2307.07095](https://arxiv.org/abs/2307.07095)] [[ePrint](https://doi.org/10.1007/s00182-024-00916-0)]
-* <span class="publication-label">J22.</span> B. Ba&#353;i&#263;, P. Ellis, D.C. Ernst, D. Popovi&#263;, N. Sieben. Categories of impartial rulegraphs and gamegraphs. *Int. J. Game Theory* 53(4), 2024. [[arXiv:2312.00650](https://arxiv.org/abs/2312.00650)] [[ePrint](https://doi.org/10.1007/s00182-024-00921-3)]
-* <span class="publication-label">J21.</span> D.C. Ernst, J. Slye. Using the $\Spin_{3\times 3}$ virtual manipulative to introduce group theory. *PRIMUS* 34(6), 2024. [[ePrint](https://doi.org/10.1080/10511970.2024.2335483)]
-* <span class="publication-label">J20.</span> F. Awik, J. Breland, Q. Cadman, and D.C. Ernst. Braid graphs in simply-laced triangle-free Coxeter systems are partial cubes. *European Journal of Combinatorics* 118, 2024. [[arXiv:2104.12318](https://arxiv.org/abs/2104.12318)] [[ePrint](https://www.sciencedirect.com/science/article/abs/pii/S0195669824000167)]
-* <span class="publication-label">J19.</span> B.J. Benesh, D.C. Ernst, and N. Sieben. The spectrum of nim-values for achievement games for generating finite groups. *INTEGERS* 23, 2023. [[arXiv:2004.08980](https://arxiv.org/abs/2004.08980)] [[ePrint](http://math.colgate.edu/~integers/xg5/xg5.pdf)]
-* <span class="publication-label">J18.</span> B.J. Benesh, D.C. Ernst, and N. Sieben. Impartial achievement games for generating nilpotent groups. *J. Group Theory* 22(3), 515–527, 2019. [[arXiv:1805.01409](https://arxiv.org/abs/1805.01409)] [[ePrint](https://www.degruyter.com/document/doi/10.1515/jgth-2018-0117/html)]
-* <span class="publication-label">J17.</span> D.C. Ernst. Diagram calculus for a type affine *C* Temperley-Lieb algebra, II. *J. Pure Appl. Alg.* 222(12), 3795-3830, 2018. [[arXiv:1101.4215](http://arxiv.org/abs/1101.4215)] [[ePrint](https://doi.org/10.1016/j.jpaa.2018.02.008)]
-* <span class="publication-label">J16.</span> D.C. Ernst and N. Sieben. Impartial achievement and avoidance games for generating finite groups. *Int. J. Game Theory* 47(2), 509-542, 2018. [[arXiv:1407.0784](http://arxiv.org/abs/1407.0784)] [[ePrint](https://link.springer.com/article/10.1007/s00182-017-0602-x)]
-* <span class="publication-label">J15.</span> D.C. Ernst, T.J. Hitchman, and A. Hodge. Bringing Inquiry to the First Two Years of College Mathematics. *PRIMUS* 27(7), 641-645, 2017. [[ePrint](http://www.tandfonline.com/doi/full/10.1080/10511970.2017.1393846)]
-* <span class="publication-label">J14.</span> D.C. Ernst, A. Hodge, and S. Yoshinobu. Doceamus: What Is Inquiry-Based Learning? *Notices of the AMS* 64(6), 2017. [[ePrint](http://www.ams.org/publications/journals/notices/201706/rnoti-p570.pdf)]
-* <span class="publication-label">J13.</span> B.J. Benesh, D.C. Ernst, and N. Sieben. Impartial achievement games for generating generalized dihedral groups. *Australas. J. Combin.* 68(3), 371-384, 2017. [[arXiv:1608.00259](http://arxiv.org/abs/1608.00259)] [[ePrint](https://ajc.maths.uq.edu.au/pdf/68/ajc_v68_p371.pdf)]
-* <span class="publication-label">J12.</span> D.C. Ernst, M. Hastings, and S.K. Salmon. Factorization of Temperley-Lieb diagrams. *Involve* 10(1), 89-108, 2017. [[arXiv:1509.01241](http://arxiv.org/abs/1509.01241)] [[ePrint](https://msp.org/involve/2017/10-1/involve-v10-n1-p07-p.pdf)]
-* <span class="publication-label">J11.</span> B.J. Benesh, D.C. Ernst, and N. Sieben. Impartial avoidance and achievement games for generating symmetric and alternating groups. *Int. Electron. J. Algebra* 20, 70-85, 2016. [[arXiv:1508.03419](http://arxiv.org/abs/1508.03419)] [[ePrint](http://www.ieja.net/files/papers/volume-20/4-V20-2016.pdf)]
-* <span class="publication-label">J10.</span> N. Diefenderfer, D.C. Ernst, M. Hastings, L.N. Heath, H. Prawzinsky, B. Preston, J. Rushall, E. White, A. Whittemore. Prime Vertex Labelings of Several Families of Graphs. *Involve* 9(4), 667-688, 2016. [[arXiv:1503.08386](http://arxiv.org/abs/1503.08386)] [[ePrint](https://msp.org/involve/2016/9-4/involve-v9-n4-p08-p.pdf)]
-* <span class="publication-label">J9.</span> B.J. Benesh, D.C. Ernst, and N. Sieben. Impartial avoidance games for generating finite groups. *North-W. Eur. J. of Math.* 2, 89-110, 2016. [[arXiv:1506.07105](http://arxiv.org/abs/1506.07105)] [[ePrint](https://nwejm.univ-lille.fr/index.php/nwejm/article/view/60/55)]
-* <span class="publication-label">J8.</span> H. Denoncourt, D.C. Ernst, and D. Story. On the number of commutation classes of the longest element of the symmetric group. *Open Problems in Mathematics* 4, 2016. [[arXiv:1602.08328](http://arxiv.org/abs/1602.08328)]
-* <span class="publication-label">J7.</span> E. Kennedy, B. Beaudrie, D.C. Ernst, and R. St. Laurent. Inverted Pedagogy in Second Semester Calculus. *PRIMUS* 25(9-10), 892-906, 2015. [[Manuscript](https://www.researchgate.net/publication/283618949_Inverted_Pedagogy_in_Second_Semester_Calculus)]
-* <span class="publication-label">J6.</span> B. Love, A. Hodge, C. Corritore, and D.C. Ernst. Inquiry-Based Learning and the Flipped Classroom Model. *PRIMUS* 25(8), 745-762, 2015. [[ePrint](http://www.tandfonline.com/doi/full/10.1080/10511970.2015.1046005)]
-* <span class="publication-label">J5.</span> D.C. Ernst, M. Leingang, and R. Taylor. To Friend or Not to Friend: Facebook for Professional Educators. *MAA FOCUS* June/July 2015.
-* <span class="publication-label">J4.</span> D.C. Ernst, A. Hodge, and A. Schultz. Enhancing Proof Writing via Cross-Institutional Peer Review. *PRIMUS* 25(2), 121-130, 2015. [[ePrint](http://www.tandfonline.com/doi/full/10.1080/10511970.2014.921652)]
-* <span class="publication-label">J3.</span> D.C. Ernst. Diagram calculus for a type affine *C* Temperley-Lieb algebra, I. *J. Pure Appl. Alg.* 216(11), 2012. [[arXiv:0910.0925](http://arxiv.org/abs/0910.0925)] [[ePrint](https://www.sciencedirect.com/science/article/pii/S0022404912001016)]
-* <span class="publication-label">J2.</span> T. Boothby, J. Burkert, M. Eichwald, D.C. Ernst, R.M. Green, and M. Macauley. On the cyclically fully commutative elements of Coxeter groups. *J. Algebraic Combin.* 36(1), 2012. [[arXiv:1202.6657](http://arxiv.org/abs/1202.6657)] [[ePrint](https://link.springer.com/article/10.1007/s10801-011-0327-z)]
-* <span class="publication-label">J1.</span> D.C. Ernst. Non-cancellable elements in type affine *C* Coxeter groups. *Int. Electron. J. Algebra* 8, 2010. [[arXiv:0910.0923](http://arxiv.org/abs/0910.0923)] [[ePrint](http://www.ieja.net/files/papers/volume-8/Volume-7--2010/14-V8-2010.pdf)]
-{: .publication-list role="list"}
+26. B.J. Benesh, D.C. Ernst, M. Meyer, S.K. Salmon, and N. Sieben. Impartial geodetic removing games on grid graphs. Accepted to *Games of No Chance*. [[arXiv:2505.08655](http://arxiv.org/abs/2505.08655)]
+25. G. Cerbai, A. Claesson, D.C. Ernst, and H. Golab. Pattern-avoiding Cayley permutations via combinatorial species. *Australas. J. Combin.*, 94(2), 267–299, 2026. [[arXiv:2407.19583](https://arxiv.org/abs/2407.19583)] [[ePrint](https://ajc.maths.uq.edu.au/pdf/94/ajc_v94_p267.pdf)]
+24. M. Baltushkin, D.C. Ernst, and N. Sieben. Isomorphism Theorems for Impartial Combinatorial Games. *Discrete Math. Lett.* 16, 2025. [[arXiv:2505.04919](https://arxiv.org/abs/2505.04919)] [[ePrint](https://www.dmlett.com/archive/v16/DML25_v16_pp59-66.pdf)]
+23. B.J. Benesh, D.C. Ernst, M. Meyer, S.K. Salmon, and N. Sieben. Impartial geodetic building games on graphs. *Int. J. Game Theory* 53(4), 2024. [[arXiv:2307.07095](https://arxiv.org/abs/2307.07095)] [[ePrint](https://doi.org/10.1007/s00182-024-00916-0)]
+22. B. Ba&#353;i&#263;, P. Ellis, D.C. Ernst, D. Popovi&#263;, N. Sieben. Categories of impartial rulegraphs and gamegraphs. *Int. J. Game Theory* 53(4), 2024. [[arXiv:2312.00650](https://arxiv.org/abs/2312.00650)] [[ePrint](https://doi.org/10.1007/s00182-024-00921-3)]
+21. D.C. Ernst, J. Slye. Using the $\Spin_{3\times 3}$ virtual manipulative to introduce group theory. *PRIMUS* 34(6), 2024. [[ePrint](https://doi.org/10.1080/10511970.2024.2335483)]
+20. F. Awik, J. Breland, Q. Cadman, and D.C. Ernst. Braid graphs in simply-laced triangle-free Coxeter systems are partial cubes. *European Journal of Combinatorics* 118, 2024. [[arXiv:2104.12318](https://arxiv.org/abs/2104.12318)] [[ePrint](https://www.sciencedirect.com/science/article/abs/pii/S0195669824000167)]
+19. B.J. Benesh, D.C. Ernst, and N. Sieben. The spectrum of nim-values for achievement games for generating finite groups. *INTEGERS* 23, 2023. [[arXiv:2004.08980](https://arxiv.org/abs/2004.08980)] [[ePrint](http://math.colgate.edu/~integers/xg5/xg5.pdf)]
+18. B.J. Benesh, D.C. Ernst, and N. Sieben. Impartial achievement games for generating nilpotent groups. *J. Group Theory* 22(3), 515–527, 2019. [[arXiv:1805.01409](https://arxiv.org/abs/1805.01409)] [[ePrint](https://www.degruyter.com/document/doi/10.1515/jgth-2018-0117/html)]
+17. D.C. Ernst. Diagram calculus for a type affine *C* Temperley-Lieb algebra, II. *J. Pure Appl. Alg.* 222(12), 3795-3830, 2018. [[arXiv:1101.4215](http://arxiv.org/abs/1101.4215)] [[ePrint](https://doi.org/10.1016/j.jpaa.2018.02.008)]
+16. D.C. Ernst and N. Sieben. Impartial achievement and avoidance games for generating finite groups. *Int. J. Game Theory* 47(2), 509-542, 2018. [[arXiv:1407.0784](http://arxiv.org/abs/1407.0784)] [[ePrint](https://link.springer.com/article/10.1007/s00182-017-0602-x)]
+15. D.C. Ernst, T.J. Hitchman, and A. Hodge. Bringing Inquiry to the First Two Years of College Mathematics. *PRIMUS* 27(7), 641-645, 2017. [[ePrint](http://www.tandfonline.com/doi/full/10.1080/10511970.2017.1393846)]
+14. D.C. Ernst, A. Hodge, and S. Yoshinobu. Doceamus: What Is Inquiry-Based Learning? *Notices of the AMS* 64(6), 2017. [[ePrint](http://www.ams.org/publications/journals/notices/201706/rnoti-p570.pdf)]
+13. B.J. Benesh, D.C. Ernst, and N. Sieben. Impartial achievement games for generating generalized dihedral groups. *Australas. J. Combin.* 68(3), 371-384, 2017. [[arXiv:1608.00259](http://arxiv.org/abs/1608.00259)] [[ePrint](https://ajc.maths.uq.edu.au/pdf/68/ajc_v68_p371.pdf)]
+12. D.C. Ernst, M. Hastings, and S.K. Salmon. Factorization of Temperley-Lieb diagrams. *Involve* 10(1), 89-108, 2017. [[arXiv:1509.01241](http://arxiv.org/abs/1509.01241)] [[ePrint](https://msp.org/involve/2017/10-1/involve-v10-n1-p07-p.pdf)]
+11. B.J. Benesh, D.C. Ernst, and N. Sieben. Impartial avoidance and achievement games for generating symmetric and alternating groups. *Int. Electron. J. Algebra* 20, 70-85, 2016. [[arXiv:1508.03419](http://arxiv.org/abs/1508.03419)] [[ePrint](http://www.ieja.net/files/papers/volume-20/4-V20-2016.pdf)]
+10. N. Diefenderfer, D.C. Ernst, M. Hastings, L.N. Heath, H. Prawzinsky, B. Preston, J. Rushall, E. White, A. Whittemore. Prime Vertex Labelings of Several Families of Graphs. *Involve* 9(4), 667-688, 2016. [[arXiv:1503.08386](http://arxiv.org/abs/1503.08386)] [[ePrint](https://msp.org/involve/2016/9-4/involve-v9-n4-p08-p.pdf)]
+9. B.J. Benesh, D.C. Ernst, and N. Sieben. Impartial avoidance games for generating finite groups. *North-W. Eur. J. of Math.* 2, 89-110, 2016. [[arXiv:1506.07105](http://arxiv.org/abs/1506.07105)] [[ePrint](https://nwejm.univ-lille.fr/index.php/nwejm/article/view/60/55)]
+8. H. Denoncourt, D.C. Ernst, and D. Story. On the number of commutation classes of the longest element of the symmetric group. *Open Problems in Mathematics* 4, 2016. [[arXiv:1602.08328](http://arxiv.org/abs/1602.08328)]
+7. E. Kennedy, B. Beaudrie, D.C. Ernst, and R. St. Laurent. Inverted Pedagogy in Second Semester Calculus. *PRIMUS* 25(9-10), 892-906, 2015. [[Manuscript](https://www.researchgate.net/publication/283618949_Inverted_Pedagogy_in_Second_Semester_Calculus)]
+6. B. Love, A. Hodge, C. Corritore, and D.C. Ernst. Inquiry-Based Learning and the Flipped Classroom Model. *PRIMUS* 25(8), 745-762, 2015. [[ePrint](http://www.tandfonline.com/doi/full/10.1080/10511970.2015.1046005)]
+5. D.C. Ernst, M. Leingang, and R. Taylor. To Friend or Not to Friend: Facebook for Professional Educators. *MAA FOCUS* June/July 2015.
+4. D.C. Ernst, A. Hodge, and A. Schultz. Enhancing Proof Writing via Cross-Institutional Peer Review. *PRIMUS* 25(2), 121-130, 2015. [[ePrint](http://www.tandfonline.com/doi/full/10.1080/10511970.2014.921652)]
+3. D.C. Ernst. Diagram calculus for a type affine *C* Temperley-Lieb algebra, I. *J. Pure Appl. Alg.* 216(11), 2012. [[arXiv:0910.0925](http://arxiv.org/abs/0910.0925)] [[ePrint](https://www.sciencedirect.com/science/article/pii/S0022404912001016)]
+2. T. Boothby, J. Burkert, M. Eichwald, D.C. Ernst, R.M. Green, and M. Macauley. On the cyclically fully commutative elements of Coxeter groups. *J. Algebraic Combin.* 36(1), 2012. [[arXiv:1202.6657](http://arxiv.org/abs/1202.6657)] [[ePrint](https://link.springer.com/article/10.1007/s10801-011-0327-z)]
+1. D.C. Ernst. Non-cancellable elements in type affine *C* Coxeter groups. *Int. Electron. J. Algebra* 8, 2010. [[arXiv:0910.0923](http://arxiv.org/abs/0910.0923)] [[ePrint](http://www.ieja.net/files/papers/volume-8/Volume-7--2010/14-V8-2010.pdf)]
+{: .publication-list .publication-list-j reversed="reversed" start="26"}
 
 
 ## Book Chapters
 
-* <span class="publication-label">BC2.</span> D.C. Ernst and A. Hodge. Within \\(\epsilon\\) of Independence: An Attempt to Produce Independent Proof-Writers via IBL. In *Beyond Lecture: Resources and Pedagogical Techniques for Enhancing the Teaching of Proof-Writing Across the Curriculum*, R. Schwell, A. Steurer, & J.F. Vasquez (Eds.), MAA Notes, 2016.
-* <span class="publication-label">BC1.</span> D.C. Ernst, A. Hodge, M. Jones, and S. Yoshinobu. The many faces of IBL. In *STEM Education: An Overview of Contemporary Research, Trends, and Perspectives*, E. Ostler (Ed.), 2015. Elkhorn, NE.
-{: .publication-list role="list"}
+2. D.C. Ernst and A. Hodge. Within \\(\epsilon\\) of Independence: An Attempt to Produce Independent Proof-Writers via IBL. In *Beyond Lecture: Resources and Pedagogical Techniques for Enhancing the Teaching of Proof-Writing Across the Curriculum*, R. Schwell, A. Steurer, & J.F. Vasquez (Eds.), MAA Notes, 2016.
+1. D.C. Ernst, A. Hodge, M. Jones, and S. Yoshinobu. The many faces of IBL. In *STEM Education: An Overview of Contemporary Research, Trends, and Perspectives*, E. Ostler (Ed.), 2015. Elkhorn, NE.
+{: .publication-list .publication-list-bc reversed="reversed" start="2"}
 
 
 ## Conference Proceedings (Peer Reviewed)
 
-* <span class="publication-label">C2.</span> B. Beaudrie, D.C. Ernst, and B. Boschmans. Redesigning an Algebra for Precalculus Course. In *Proceedings of World Conference on E-Learning in Corporate, Government, Healthcare, and Higher Education*, T. Bastiaens & G. Marks (Eds.), 2013. Chesapeake, VA: AACE. [[EdITLib](http://www.editlib.org/p/115001/)]
-* <span class="publication-label">C1.</span> B. Beaudrie, B. Boschmans, and D.C. Ernst. First Semester Experiences in Implementing a Mathematics Emporium Model. In *Proceedings of Society for Information Technology & Teacher Education International Conference*, R. McBride & M. Searson (Eds.), 2013. Chesapeake, VA: AACE. [[EdITLib](http://www.editlib.org/p/48098)]
-{: .publication-list role="list"}
+2. B. Beaudrie, D.C. Ernst, and B. Boschmans. Redesigning an Algebra for Precalculus Course. In *Proceedings of World Conference on E-Learning in Corporate, Government, Healthcare, and Higher Education*, T. Bastiaens & G. Marks (Eds.), 2013. Chesapeake, VA: AACE. [[EdITLib](http://www.editlib.org/p/115001/)]
+1. B. Beaudrie, B. Boschmans, and D.C. Ernst. First Semester Experiences in Implementing a Mathematics Emporium Model. In *Proceedings of Society for Information Technology & Teacher Education International Conference*, R. McBride & M. Searson (Eds.), 2013. Chesapeake, VA: AACE. [[EdITLib](http://www.editlib.org/p/48098)]
+{: .publication-list .publication-list-c reversed="reversed" start="2"}
 
 
 ## Other
 
-* <span class="publication-label">M2.</span> D.C. Ernst. *Instructor Guide: An Introduction to Proof via Inquiry-Based Learning*. [[PDF](http://danaernst.com/IBL-IntroToProof/InstructorGuide.pdf)]
-* <span class="publication-label">M1.</span> D. Daly et al. AIBL Handbook for Online Professional Development: Lessons Learned from PRODUCT Workshops. Ethnography & Evaluation Research, & the Academy of Inquiry Based Learning. Boulder, CO, and San Luis Obispo, CA: University of Colorado Boulder, Ethnography & Evaluation Research; and Academy of Inquiry Based Learning. [[ePrint](https://tinyurl.com/AIBLHandbook)]
-{: .publication-list role="list"}
+2. D.C. Ernst. *Instructor Guide: An Introduction to Proof via Inquiry-Based Learning*. [[PDF](http://danaernst.com/IBL-IntroToProof/InstructorGuide.pdf)]
+1. D. Daly et al. AIBL Handbook for Online Professional Development: Lessons Learned from PRODUCT Workshops. Ethnography & Evaluation Research, & the Academy of Inquiry Based Learning. Boulder, CO, and San Luis Obispo, CA: University of Colorado Boulder, Ethnography & Evaluation Research; and Academy of Inquiry Based Learning. [[ePrint](https://tinyurl.com/AIBLHandbook)]
+{: .publication-list .publication-list-m reversed="reversed" start="2"}
 
 
 ## Interviews, Online Columns, Blog Posts
@@ -110,26 +110,26 @@ From Spring 2013 through Spring 2016, I was co-editor and author for [Math Ed Ma
 
   <!-- * In defense of mathematics. [2026 Great Survival Debate](https://news.nau.edu/the-great-survival-debate/), NAU, Flagstaff, AZ. March 2026. -->
 
-* <span class="publication-label">O19.</span> A conversation with Dana Ernst. *IBL Teaching Podcast*. September 2023.
-* <span class="publication-label">O18.</span> D.C. Ernst. The Role of Failure and Struggle in the Mathematics Classroom. *Teaching Tidbits*. November 2017. [[Blog Post](http://maateachingtidbits.blogspot.com/2017/11/the-role-of-failure-and-struggle-in.html)]
-* <span class="publication-label">O17.</span> D.C. Ernst. Want to Give Your Teaching Style a Makeover This Summer? Here’s How. *Teaching Tidbits*. April 2017. [[Blog Post](http://maateachingtidbits.blogspot.com/2017/04/want-to-give-your-teaching-style.html)]
-* <span class="publication-label">O16.</span> D.C. Ernst. Who generates the examples? *Teaching Tidbits*. November 2016. [[Blog Post](http://maateachingtidbits.blogspot.com/2016/11/who-generates-examples.html)]
-* <span class="publication-label">O15.</span> D.C. Ernst. Teaching Calculus 1 with a Focus on Student Presentations. *Discovering the Art of Mathematics*. October 2015. [[Blog Post](https://www.artofmathematics.org/blogs/cvonrenesse/guest-blog-by-dana-ernst)]
-* <span class="publication-label">O14.</span> D.C. Ernst. Setting the Stage. *Math Ed Matters*. January 2015. [[Blog Post](http://maamathedmatters.blogspot.com/2015/01/setting-stage.html)]
-* <span class="publication-label">O13.</span> D.C. Ernst. The Twin Pillars of IBL. *Math Ed Matters*. January 2015. [[Blog Post](http://maamathedmatters.blogspot.com/2015/01/the-twin-pillars-of-ibl.html)]
-* <span class="publication-label">O12.</span> D.C. Ernst. Fear is the mind-killer. *Math Ed Matters*. June 2014. [[Blog Post](http://maamathedmatters.blogspot.com/2014/06/fear-is-mind-killer.html)]
-* <span class="publication-label">O11.</span> D.C. Ernst. Encouraging Students to Tinker. *Math Ed Matters*. April 2014. [[Blog Post](http://maamathedmatters.blogspot.com/2014/04/encouraging-students-to-tinker.html)]
-* <span class="publication-label">O10.</span> D.C. Ernst, A. Hodge, and T.J. Hitchman. Engaging in Inquiry-Based Learning. *Math Ed Matters*. February 2014. [[Blog Post](http://maamathedmatters.blogspot.com/2014/02/engaging-in-inquiry-based-learning.html)]
-* <span class="publication-label">O9.</span> D.C. Ernst and A. Hodge. Math Ed Mania at the JMM. *Math Ed Matters*. January 2014. [[Blog Post](http://maamathedmatters.blogspot.com/2014/01/math-ed-mania-at-jmm.html)]
-* <span class="publication-label">O8.</span> D.C. Ernst and A. Hodge. The JMM: What's Mathematics Education Got to Do with It? *Math Ed Matters*. December 2013. [[Blog Post](http://maamathedmatters.blogspot.com/2013/12/the-jmm-whats-mathematics-education-got.html)]
-* <span class="publication-label">O7.</span> D.C. Ernst. Give the Students the Colored Pen. *Math Ed Matters*. August 2013. [[Blog Post](http://maamathedmatters.blogspot.com/2013/08/give-students-colored-pen.html)]
-* <span class="publication-label">O6.</span> 4+1 interview with Dana Ernst. *Casting Out Nines* by R. Talbert. The Chronicle Blog Network. August 2013. [[Blog Post](http://chronicle.com/blognetwork/castingoutnines/2013/08/01/41-interview-with-dana-ernst/)]
-* <span class="publication-label">O5.</span> D.C. Ernst. Personality Matters? *Math Ed Matters*. July 2013. [[Blog Post](http://maamathedmatters.blogspot.com/2013/07/personality-matters.html)]
-* <span class="publication-label">O4.</span> D.C. Ernst. Grade School Utopia? *Math Ed Matters*. July 2013. [[Blog Post](http://maamathedmatters.blogspot.com/2013/07/grade-school-utopia.html)]
-* <span class="publication-label">O3.</span> D.C. Ernst and A. Hodge. Try, Fail, Understand, Win. *Math Ed Matters*. June 2013. [[Blog Post](http://maamathedmatters.blogspot.com/2013/06/try-fail-understand-win.html)]
-* <span class="publication-label">O2.</span> D.C. Ernst. What the Heck Is IBL? *Math Ed Matters*. May 2013. [[Blog Post](http://maamathedmatters.blogspot.com/2013/05/what-heck-is-ibl.html)]
-* <span class="publication-label">O1.</span> IBL Instructor Perspectives: Professor Dana Ernst. *The IBL Blog* by S. Yoshinobu. February 2012. [[Blog Post](http://theiblblog.blogspot.com/2012/02/ibl-instructor-perspectives-professor.html)]
-{: .publication-list role="list"}
+19. A conversation with Dana Ernst. *IBL Teaching Podcast*. September 2023.
+18. D.C. Ernst. The Role of Failure and Struggle in the Mathematics Classroom. *Teaching Tidbits*. November 2017. [[Blog Post](http://maateachingtidbits.blogspot.com/2017/11/the-role-of-failure-and-struggle-in.html)]
+17. D.C. Ernst. Want to Give Your Teaching Style a Makeover This Summer? Here’s How. *Teaching Tidbits*. April 2017. [[Blog Post](http://maateachingtidbits.blogspot.com/2017/04/want-to-give-your-teaching-style.html)]
+16. D.C. Ernst. Who generates the examples? *Teaching Tidbits*. November 2016. [[Blog Post](http://maateachingtidbits.blogspot.com/2016/11/who-generates-examples.html)]
+15. D.C. Ernst. Teaching Calculus 1 with a Focus on Student Presentations. *Discovering the Art of Mathematics*. October 2015. [[Blog Post](https://www.artofmathematics.org/blogs/cvonrenesse/guest-blog-by-dana-ernst)]
+14. D.C. Ernst. Setting the Stage. *Math Ed Matters*. January 2015. [[Blog Post](http://maamathedmatters.blogspot.com/2015/01/setting-stage.html)]
+13. D.C. Ernst. The Twin Pillars of IBL. *Math Ed Matters*. January 2015. [[Blog Post](http://maamathedmatters.blogspot.com/2015/01/the-twin-pillars-of-ibl.html)]
+12. D.C. Ernst. Fear is the mind-killer. *Math Ed Matters*. June 2014. [[Blog Post](http://maamathedmatters.blogspot.com/2014/06/fear-is-mind-killer.html)]
+11. D.C. Ernst. Encouraging Students to Tinker. *Math Ed Matters*. April 2014. [[Blog Post](http://maamathedmatters.blogspot.com/2014/04/encouraging-students-to-tinker.html)]
+10. D.C. Ernst, A. Hodge, and T.J. Hitchman. Engaging in Inquiry-Based Learning. *Math Ed Matters*. February 2014. [[Blog Post](http://maamathedmatters.blogspot.com/2014/02/engaging-in-inquiry-based-learning.html)]
+9. D.C. Ernst and A. Hodge. Math Ed Mania at the JMM. *Math Ed Matters*. January 2014. [[Blog Post](http://maamathedmatters.blogspot.com/2014/01/math-ed-mania-at-jmm.html)]
+8. D.C. Ernst and A. Hodge. The JMM: What's Mathematics Education Got to Do with It? *Math Ed Matters*. December 2013. [[Blog Post](http://maamathedmatters.blogspot.com/2013/12/the-jmm-whats-mathematics-education-got.html)]
+7. D.C. Ernst. Give the Students the Colored Pen. *Math Ed Matters*. August 2013. [[Blog Post](http://maamathedmatters.blogspot.com/2013/08/give-students-colored-pen.html)]
+6. 4+1 interview with Dana Ernst. *Casting Out Nines* by R. Talbert. The Chronicle Blog Network. August 2013. [[Blog Post](http://chronicle.com/blognetwork/castingoutnines/2013/08/01/41-interview-with-dana-ernst/)]
+5. D.C. Ernst. Personality Matters? *Math Ed Matters*. July 2013. [[Blog Post](http://maamathedmatters.blogspot.com/2013/07/personality-matters.html)]
+4. D.C. Ernst. Grade School Utopia? *Math Ed Matters*. July 2013. [[Blog Post](http://maamathedmatters.blogspot.com/2013/07/grade-school-utopia.html)]
+3. D.C. Ernst and A. Hodge. Try, Fail, Understand, Win. *Math Ed Matters*. June 2013. [[Blog Post](http://maamathedmatters.blogspot.com/2013/06/try-fail-understand-win.html)]
+2. D.C. Ernst. What the Heck Is IBL? *Math Ed Matters*. May 2013. [[Blog Post](http://maamathedmatters.blogspot.com/2013/05/what-heck-is-ibl.html)]
+1. IBL Instructor Perspectives: Professor Dana Ernst. *The IBL Blog* by S. Yoshinobu. February 2012. [[Blog Post](http://theiblblog.blogspot.com/2012/02/ibl-instructor-perspectives-professor.html)]
+{: .publication-list .publication-list-o reversed="reversed" start="19"}
 
 
 ## My Theses

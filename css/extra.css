@@ -72,21 +72,47 @@ li {
   text-align: justify;
 } */
 
-/* CV labels are actual text so they remain available when copied or read aloud. */
+/* Use the native ordered-list counter, including reversed CV numbering. */
 .publication-list {
-  list-style: none;
   padding-left: 3.5em;
 }
 
 .publication-list > li {
-  position: relative;
   margin-bottom: .75em;
 }
 
-.publication-label {
-  position: absolute;
-  left: -3.5em;
-  width: 3em;
-  text-align: right;
-  white-space: nowrap;
+.publication-list > li::marker {
+  content: var(--publication-prefix) counter(list-item) ". ";
+}
+
+.publication-list-p {
+  --publication-prefix: "P";
+}
+
+.publication-list-s {
+  --publication-prefix: "S";
+}
+
+.publication-list-b {
+  --publication-prefix: "B";
+}
+
+.publication-list-j {
+  --publication-prefix: "J";
+}
+
+.publication-list-bc {
+  --publication-prefix: "BC";
+}
+
+.publication-list-c {
+  --publication-prefix: "C";
+}
+
+.publication-list-m {
+  --publication-prefix: "M";
+}
+
+.publication-list-o {
+  --publication-prefix: "O";
 }
