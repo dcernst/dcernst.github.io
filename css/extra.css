@@ -72,17 +72,23 @@ li {
   text-align: justify;
 } */
 
-/* Use the native ordered-list counter, including reversed CV numbering. */
+/* Use the native reversed counter, with prefixes rendered in the marker gutter.
+   ::before also works in browsers that do not support content on ::marker. */
 .publication-list {
+  list-style: none;
   padding-left: 3.5em;
 }
 
 .publication-list > li {
+  position: relative;
   margin-bottom: .75em;
 }
 
-.publication-list > li::marker {
-  content: var(--publication-prefix) counter(list-item) ". ";
+.publication-list > li::before {
+  content: var(--publication-prefix) counter(list-item) ".";
+  position: absolute;
+  right: calc(100% + .5em);
+  white-space: nowrap;
 }
 
 .publication-list-p {

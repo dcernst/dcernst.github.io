@@ -31,7 +31,7 @@ You can find a recent version of my curriculum vitae [here]({{site.baseurl}}/sch
 3. M. Baltushkin, D.C. Ernst, and N. Sieben. Unite and Conquer: The folding of impartial games. [Article]
 2. G. Cerbai, A. Claesson, D.C. Ernst, and H. Golab. Pattern-avoiding Cayley permutations via combinatorial species, Part 2 (*tentative title*). [Article]
 1. F. Awik, F. Burkhart, H. Denoncourt, D.C. Ernst, T. Rosenberg, and A. Stewart. Enumerating signed permutations by reversal distance. [Article]
-{: .publication-list .publication-list-p reversed="reversed" start="6"}
+{: .publication-list .publication-list-p role="list" reversed="reversed" start="6"}
 
 <!-- * J. Breland, Q. Cadman, D.C. Ernst, J. Niemi, J. Sullivan, and J. Wright. Structure of braid graphs for reduced words in simply-laced Coxeter systems. -->
 
@@ -40,7 +40,7 @@ You can find a recent version of my curriculum vitae [here]({{site.baseurl}}/sch
 
 2. B.J. Benesh, D.C. Ernst, M. Meyer, S.K. Salmon, and N. Sieben. Impartial geodetic removing games on graphs. [[arXiv:2606.05483](http://arxiv.org/abs/2606.05483)]
 1. J. Barnes, J. Breland, D.C. Ernst, R. Perry. Braid graphs in simply-laced triangle-free Coxeter systems are median. [[arXiv:2408.16839](https://arxiv.org/abs/2408.16839)]
-{: .publication-list .publication-list-s reversed="reversed" start="2"}
+{: .publication-list .publication-list-s role="list" reversed="reversed" start="2"}
 
 
 ## Books
@@ -50,7 +50,7 @@ Below is a list of textbooks that I have written to be used with an [inquiry-bas
 3. D.C. Ernst. *Introduction to Real Analysis*. Free undergraduate real analysis textbook, 2023. Modification of previous work: D.C. Ernst < K. Crisman < W.T. Mahavier < W.S. Mahavier. [[PDF](https://danaernst.com/teaching/mat431f23/IBL-RealAnalysis.pdf)]
 2. D.C. Ernst. *An Inquiry-Based Approach to Abstract Algebra*. Open-source textbook for undergraduate abstract algebra, 2022.  [[Source](https://github.com/dcernst/IBL-AbstractAlgebra)] [[PDF](http://danaernst.com/teaching/mat411s22/IBL-AbstractAlgebra.pdf)]
 1. D.C. Ernst. *An Introduction to Proof via Inquiry-Based Learning*. MAA Press, 2022. [[Project Webpage](http://dcernst.github.io/IBL-IntroToProof/)] [[Paperback](https://bookstore.ams.org/text-73/)]
-{: .publication-list .publication-list-b reversed="reversed" start="4"}
+{: .publication-list .publication-list-b role="list" reversed="reversed" start="4"}
 
 
 ## Journal Articles
@@ -81,28 +81,28 @@ Below is a list of textbooks that I have written to be used with an [inquiry-bas
 3. D.C. Ernst. Diagram calculus for a type affine *C* Temperley-Lieb algebra, I. *J. Pure Appl. Alg.* 216(11), 2012. [[arXiv:0910.0925](http://arxiv.org/abs/0910.0925)] [[ePrint](https://www.sciencedirect.com/science/article/pii/S0022404912001016)]
 2. T. Boothby, J. Burkert, M. Eichwald, D.C. Ernst, R.M. Green, and M. Macauley. On the cyclically fully commutative elements of Coxeter groups. *J. Algebraic Combin.* 36(1), 2012. [[arXiv:1202.6657](http://arxiv.org/abs/1202.6657)] [[ePrint](https://link.springer.com/article/10.1007/s10801-011-0327-z)]
 1. D.C. Ernst. Non-cancellable elements in type affine *C* Coxeter groups. *Int. Electron. J. Algebra* 8, 2010. [[arXiv:0910.0923](http://arxiv.org/abs/0910.0923)] [[ePrint](http://www.ieja.net/files/papers/volume-8/Volume-7--2010/14-V8-2010.pdf)]
-{: .publication-list .publication-list-j reversed="reversed" start="26"}
+{: .publication-list .publication-list-j role="list" reversed="reversed" start="26"}
 
 
 ## Book Chapters
 
 2. D.C. Ernst and A. Hodge. Within \\(\epsilon\\) of Independence: An Attempt to Produce Independent Proof-Writers via IBL. In *Beyond Lecture: Resources and Pedagogical Techniques for Enhancing the Teaching of Proof-Writing Across the Curriculum*, R. Schwell, A. Steurer, & J.F. Vasquez (Eds.), MAA Notes, 2016.
 1. D.C. Ernst, A. Hodge, M. Jones, and S. Yoshinobu. The many faces of IBL. In *STEM Education: An Overview of Contemporary Research, Trends, and Perspectives*, E. Ostler (Ed.), 2015. Elkhorn, NE.
-{: .publication-list .publication-list-bc reversed="reversed" start="2"}
+{: .publication-list .publication-list-bc role="list" reversed="reversed" start="2"}
 
 
 ## Conference Proceedings (Peer Reviewed)
 
 2. B. Beaudrie, D.C. Ernst, and B. Boschmans. Redesigning an Algebra for Precalculus Course. In *Proceedings of World Conference on E-Learning in Corporate, Government, Healthcare, and Higher Education*, T. Bastiaens & G. Marks (Eds.), 2013. Chesapeake, VA: AACE. [[EdITLib](http://www.editlib.org/p/115001/)]
 1. B. Beaudrie, B. Boschmans, and D.C. Ernst. First Semester Experiences in Implementing a Mathematics Emporium Model. In *Proceedings of Society for Information Technology & Teacher Education International Conference*, R. McBride & M. Searson (Eds.), 2013. Chesapeake, VA: AACE. [[EdITLib](http://www.editlib.org/p/48098)]
-{: .publication-list .publication-list-c reversed="reversed" start="2"}
+{: .publication-list .publication-list-c role="list" reversed="reversed" start="2"}
 
 
 ## Other
 
 2. D.C. Ernst. *Instructor Guide: An Introduction to Proof via Inquiry-Based Learning*. [[PDF](http://danaernst.com/IBL-IntroToProof/InstructorGuide.pdf)]
 1. D. Daly et al. AIBL Handbook for Online Professional Development: Lessons Learned from PRODUCT Workshops. Ethnography & Evaluation Research, & the Academy of Inquiry Based Learning. Boulder, CO, and San Luis Obispo, CA: University of Colorado Boulder, Ethnography & Evaluation Research; and Academy of Inquiry Based Learning. [[ePrint](https://tinyurl.com/AIBLHandbook)]
-{: .publication-list .publication-list-m reversed="reversed" start="2"}
+{: .publication-list .publication-list-m role="list" reversed="reversed" start="2"}
 
 
 ## Interviews, Online Columns, Blog Posts
@@ -129,7 +129,7 @@ From Spring 2013 through Spring 2016, I was co-editor and author for [Math Ed Ma
 3. D.C. Ernst and A. Hodge. Try, Fail, Understand, Win. *Math Ed Matters*. June 2013. [[Blog Post](http://maamathedmatters.blogspot.com/2013/06/try-fail-understand-win.html)]
 2. D.C. Ernst. What the Heck Is IBL? *Math Ed Matters*. May 2013. [[Blog Post](http://maamathedmatters.blogspot.com/2013/05/what-heck-is-ibl.html)]
 1. IBL Instructor Perspectives: Professor Dana Ernst. *The IBL Blog* by S. Yoshinobu. February 2012. [[Blog Post](http://theiblblog.blogspot.com/2012/02/ibl-instructor-perspectives-professor.html)]
-{: .publication-list .publication-list-o reversed="reversed" start="19"}
+{: .publication-list .publication-list-o role="list" reversed="reversed" start="19"}
 
 
 ## My Theses
