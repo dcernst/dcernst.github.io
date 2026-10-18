@@ -6,6 +6,13 @@ extra_css: /css/ai-mathematics.css
 
 <article class="ai-mathematics__item">
 <span class="ai-mathematics__tag">Weekly digest</span>
+<h3><a href="{{ site.baseurl }}/ai-mathematics/2026-10-17/">11–17 October 2026</a></h3>
+<p class="ai-mathematics__meta">Research, evaluation, teaching, and AI safety</p>
+<p>Eight items on research funding, human–AI collaboration, benchmark interpretation, the mathematics of attention, disclosure practices, teaching, and AI risk.</p>
+</article>
+
+<article class="ai-mathematics__item">
+<span class="ai-mathematics__tag">Weekly digest</span>
 <h3><a href="{{ site.baseurl }}/ai-mathematics/2026-10-10/">4–10 October 2026</a></h3>
 <p class="ai-mathematics__meta">Research and teaching</p>
 <p>New reports on AI-generated mathematical work, research infrastructure, external funding, undergraduate outcomes, adaptive arithmetic software, and teacher preparation.</p>
