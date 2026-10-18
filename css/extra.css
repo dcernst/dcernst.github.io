@@ -71,3 +71,22 @@ pre {
 li {
   text-align: justify;
 } */
+
+/* CV labels are actual text so they remain available when copied or read aloud. */
+.publication-list {
+  list-style: none;
+  padding-left: 3.5em;
+}
+
+.publication-list > li {
+  position: relative;
+  margin-bottom: .75em;
+}
+
+.publication-label {
+  position: absolute;
+  left: -3.5em;
+  width: 3em;
+  text-align: right;
+  white-space: nowrap;
+}
