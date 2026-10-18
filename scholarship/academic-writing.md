@@ -91,10 +91,10 @@ Below is a list of textbooks that I have written to be used with an [inquiry-bas
 {: .publication-list .publication-list-bc role="list" reversed="reversed" start="2"}
 
 
-## Conference Proceedings (Peer Reviewed)
+## Conference Proceedings
 
-2. B. Beaudrie, D.C. Ernst, and B. Boschmans. Redesigning an Algebra for Precalculus Course. In *Proceedings of World Conference on E-Learning in Corporate, Government, Healthcare, and Higher Education*, T. Bastiaens & G. Marks (Eds.), 2013. Chesapeake, VA: AACE. [[EdITLib](http://www.editlib.org/p/115001/)]
-1. B. Beaudrie, B. Boschmans, and D.C. Ernst. First Semester Experiences in Implementing a Mathematics Emporium Model. In *Proceedings of Society for Information Technology & Teacher Education International Conference*, R. McBride & M. Searson (Eds.), 2013. Chesapeake, VA: AACE. [[EdITLib](http://www.editlib.org/p/48098)]
+2. B. Beaudrie, D.C. Ernst, and B. Boschmans. Redesigning an Algebra for Precalculus Course. In *Proceedings of World Conference on E-Learning in Corporate, Government, Healthcare, and Higher Education*, T. Bastiaens & G. Marks (Eds.), 2013. Chesapeake, VA: AACE. (Peer Reviewed) [[EdITLib](http://www.editlib.org/p/115001/)]
+1. B. Beaudrie, B. Boschmans, and D.C. Ernst. First Semester Experiences in Implementing a Mathematics Emporium Model. In *Proceedings of Society for Information Technology & Teacher Education International Conference*, R. McBride & M. Searson (Eds.), 2013. Chesapeake, VA: AACE. (Peer Reviewed) [[EdITLib](http://www.editlib.org/p/48098)]
 {: .publication-list .publication-list-c role="list" reversed="reversed" start="2"}
 
 
