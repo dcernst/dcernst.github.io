@@ -16,6 +16,11 @@ extra_css: /css/ai-mathematics.css
 <span class="ai-mathematics__tag">{{ item.category }}</span>
 <h3><a href="{{ item.url }}">{{ item.title }}</a></h3>
 <p class="ai-mathematics__meta">{{ item.source }} · {{ item.date }}</p>
+{% if item.youtube_id %}
+<div class="ai-mathematics__video">
+<iframe src="https://www.youtube-nocookie.com/embed/{{ item.youtube_id }}" title="{{ item.title | escape }}" loading="lazy" allow="encrypted-media; picture-in-picture; fullscreen" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+{% endif %}
 <p>{{ item.summary }}</p>
 <p class="ai-mathematics__talking-point"><strong>Administrative talking point.</strong> {{ item.talking_point }}</p>
 <p class="ai-mathematics__backlink"><a href="{{ site.baseurl }}/ai-mathematics/{{ item.issue }}/#{{ item.id }}">Read in the weekly digest</a></p>
