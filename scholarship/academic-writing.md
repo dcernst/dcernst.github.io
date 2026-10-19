@@ -25,6 +25,7 @@ You can find a recent version of my curriculum vitae [here]({{site.baseurl}}/sch
 
 ## In Preparation
 
+7. D.C. Ernst, S. Fordring, M.C. Malone, S. Pardo, E.~Rushall. Pattern avoidance in signed Cayley permutations. [Article]
 6. D.C. Ernst. Learning to Count: Discovering Enumerative Combinatorics. [Book]
 5. D.C. Ernst, T.J. Hitchman, M. Jones, and S. Yoshinobu. Who trains the trainers? A process for supporting systemic change. [Book Chapter]
 4. A. Attilio, J. Barnes, J. Breland, D.C. Ernst, A. Patrick, A. Pari, R. Perry, V. Wilmer. Structure of braid graphs in Coxeter systems. [Article]
