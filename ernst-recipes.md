@@ -6146,6 +6146,43 @@ permalink: /ernst-recipes/
 <hr />
 
 <details class="recipe-item">
+<summary><h2>Panda Express Chow Mein</h2></summary>
+
+<p>Link to recipe <a href="https://www.favfamilyrecipes.com/our-version-of-panda-express-chow-mein/#wprm-recipe-container-19847">here</a>.</p>
+
+<dl>
+<dt>Yield</dt>
+<dd>8</dd>
+<dt>Prep time</dt>
+<dd>PT20M</dd>
+<dt>Cook time</dt>
+<dd>PT5M</dd>
+<dt>Total time</dt>
+<dd>PT25M</dd>
+</dl>
+
+<h3>Ingredients</h3>
+
+<ul>
+<li>¼ cup soy sauce</li>
+<li>1 tablespoon brown sugar</li>
+<li>2 cloves garlic (minced)</li>
+<li>1 teaspoon grated fresh ginger</li>
+<li>ground black pepper (to taste)</li>
+<li>2-3 tablespoons vegetable oil</li>
+<li>3 (5.6 ounce) packages Yaki-soba noodles or Chinese Egg Noodles (refrigerated)</li>
+<li>⅔ cup celery (chopped diagonally)</li>
+<li>1 medium onion, thinly sliced</li>
+<li>2 cups chopped cabbage</li>
+</ul>
+
+<p>Directions are available at the linked source.</p>
+
+</details>
+
+<hr />
+
+<details class="recipe-item">
 <summary><h2>Pasta e Ceci (Pasta with Chickpeas)</h2></summary>
 
 <p>Link to recipe <a href="https://www.foodandwine.com/pasta-e-ceci-8624315">here</a>.</p>
