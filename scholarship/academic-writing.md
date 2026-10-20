@@ -32,7 +32,7 @@ You can find a recent version of my curriculum vitae [here]({{site.baseurl}}/sch
 3. M. Baltushkin, D.C. Ernst, and N. Sieben. Unite and Conquer: The folding of impartial games. [Article]
 2. G. Cerbai, A. Claesson, D.C. Ernst, and H. Golab. Pattern-avoiding Cayley permutations via combinatorial species, Part 2 (*tentative title*). [Article]
 1. F. Awik, F. Burkhart, H. Denoncourt, D.C. Ernst, T. Rosenberg, and A. Stewart. Enumerating signed permutations by reversal distance. [Article]
-{: .publication-list .publication-list-p role="list" reversed="reversed" start="6"}
+{: .publication-list .publication-list-p role="list" reversed="reversed" start="7"}
 
 <!-- * J. Breland, Q. Cadman, D.C. Ernst, J. Niemi, J. Sullivan, and J. Wright. Structure of braid graphs for reduced words in simply-laced Coxeter systems. -->
 
