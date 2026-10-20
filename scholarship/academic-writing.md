@@ -25,23 +25,23 @@ You can find a recent version of my curriculum vitae [here]({{site.baseurl}}/sch
 
 ## In Preparation
 
-7. D.C. Ernst, S. Fordring, M.C. Malone, S. Pardo, E. Rushall. Pattern avoidance in signed Cayley permutations. [Article]
-6. D.C. Ernst. Learning to Count: Discovering Enumerative Combinatorics. [Book]
-5. D.C. Ernst, T.J. Hitchman, M. Jones, and S. Yoshinobu. Who trains the trainers? A process for supporting systemic change. [Book Chapter]
+6. D.C. Ernst, S. Fordring, M.C. Malone, S. Pardo, E. Rushall. Pattern avoidance in signed Cayley permutations. [Article]
+5. D.C. Ernst. Learning to Count: Discovering Enumerative Combinatorics. [Book]
 4. A. Attilio, J. Barnes, J. Breland, D.C. Ernst, A. Patrick, A. Pari, R. Perry, V. Wilmer. Structure of braid graphs in Coxeter systems. [Article]
 3. M. Baltushkin, D.C. Ernst, and N. Sieben. Unite and Conquer: The folding of impartial games. [Article]
 2. G. Cerbai, A. Claesson, D.C. Ernst, and H. Golab. Pattern-avoiding Cayley permutations via combinatorial species, Part 2 (*tentative title*). [Article]
 1. F. Awik, F. Burkhart, H. Denoncourt, D.C. Ernst, T. Rosenberg, and A. Stewart. Enumerating signed permutations by reversal distance. [Article]
-{: .publication-list .publication-list-p role="list" reversed="reversed" start="7"}
+{: .publication-list .publication-list-p role="list" reversed="reversed" start="6"}
 
 <!-- * J. Breland, Q. Cadman, D.C. Ernst, J. Niemi, J. Sullivan, and J. Wright. Structure of braid graphs for reduced words in simply-laced Coxeter systems. -->
 
 
 ## Submitted
 
+3. D.C. Ernst, T.J. Hitchman, M. Jones, and S. Yoshinobu. Who trains the trainers? A process for supporting systemic change. [Book Chapter]
 2. B.J. Benesh, D.C. Ernst, M. Meyer, S.K. Salmon, and N. Sieben. Impartial geodetic removing games on graphs. [[arXiv:2606.05483](http://arxiv.org/abs/2606.05483)]
 1. J. Barnes, J. Breland, D.C. Ernst, R. Perry. Braid graphs in simply-laced triangle-free Coxeter systems are median. [[arXiv:2408.16839](https://arxiv.org/abs/2408.16839)]
-{: .publication-list .publication-list-s role="list" reversed="reversed" start="2"}
+{: .publication-list .publication-list-s role="list" reversed="reversed" start="3"}
 
 
 ## Books
