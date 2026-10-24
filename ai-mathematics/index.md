@@ -6,6 +6,13 @@ extra_css: /css/ai-mathematics.css
 
 <article class="ai-mathematics__item">
 <span class="ai-mathematics__tag">Weekly digest</span>
+<h3><a href="{{ site.baseurl }}/ai-mathematics/2026-10-24/">18–24 October 2026</a></h3>
+<p class="ai-mathematics__meta">Research, professional standards, student formation, and teaching</p>
+<p>Six items on understanding AI-generated proofs, collaborative research, support for young mathematicians, learning, and exposition, including an embedded Grant Sanderson lecture and a professional-society statement added to the advocacy collection.</p>
+</article>
+
+<article class="ai-mathematics__item">
+<span class="ai-mathematics__tag">Weekly digest</span>
 <h3><a href="{{ site.baseurl }}/ai-mathematics/2026-10-17/">11–17 October 2026</a></h3>
 <p class="ai-mathematics__meta">Research, evaluation, teaching, and AI safety</p>
 <p>Eleven items on research funding, human–AI collaboration, benchmark interpretation, the mathematics of attention, disclosure practices, teaching, and AI risk, including videos from Numberphile and 3Blue1Brown. Video entries are based on publisher descriptions and available chapter information.</p>
