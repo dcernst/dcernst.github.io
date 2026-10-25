@@ -1,0 +1,73 @@
+/* Isolated homepage prototype; Bootstrap supplies the grid and navigation. */
+body.experimental {
+background: #e5ecf4;
+color: #1d2531;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+font-size: 17px;
+line-height: 1.65;
+margin: 0;
+}
+.experimental h1, .experimental h2, .experimental h3, .experimental h4 {
+font-family: inherit;
+color: #1d2531;
+font-weight: 600;
+line-height: 1.2;
+}
+.experimental a { color: #3f5fa8; }
+.experimental a:hover, .experimental a:focus { color: #2d4681; }
+.experimental a:focus-visible { outline: 2px solid #3f5fa8; outline-offset: 4px; }
+.experimental .navbar {
+background: #f4f7fb;
+border-bottom: 1px solid #bfcbdb;
+font-size: 14px;
+}
+.experimental .navbar-nav > li > a { padding-top: 20px; padding-bottom: 20px; }
+.experimental .navbar-brand { height: 60px; }
+.experimental .dropdown-menu { font-size: 14px; }
+.experimental-main { padding-top: 88px; padding-bottom: 56px; }
+.experimental .page-header { margin: 0 0 24px; padding-bottom: 20px; border-color: #bfcbdb; }
+.experimental .page-header h1 { margin: 0; font-size: 42px; letter-spacing: -.035em; }
+.experimental .breadcrumb { padding: 0; margin-bottom: 20px; background: transparent; font-size: 13px; }
+.experimental .breadcrumb > li + li::before { color: #65748a; }
+.experimental-content > p { margin-bottom: 22px; }
+.experimental-content > p:first-of-type { font-size: 20px; line-height: 1.6; }
+.experimental-content address { padding-left: 20px; border-left: 3px solid #bfcbdb; }
+.research-figures {
+display: grid;
+grid-template-columns: .8fr 1.3fr 1fr 1.3fr .8fr;
+gap: 14px;
+align-items: center;
+margin: 0 0 30px;
+padding: 22px 16px;
+background: #fff;
+border: 1px solid #d2dce8;
+border-radius: 4px;
+}
+.research-figures a { display: flex; align-items: center; justify-content: center; min-width: 0; height: 132px; }
+.research-figures img { display: block; width: 100%; height: 100%; object-fit: contain; }
+.experimental-sidebar .well { padding: 0 0 0 24px; background: transparent; border-left: 1px solid #bfcbdb; border-radius: 0; }
+.experimental-sidebar h1 { font-size: 25px; letter-spacing: -.025em; }
+.experimental-sidebar .lead { font-size: 16px; color: #55606f; }
+.experimental-sidebar p { font-size: 14px; line-height: 1.65; }
+.experimental-sidebar h4 { font-size: 17px; }
+.experimental-sidebar center { text-align: left; }
+.experimental-sidebar .img-rounded { margin-top: 18px; border-radius: 4px; }
+.experimental .footer { position: static; height: auto; border-top: 1px solid #bfcbdb; background: #f4f7fb; font-size: 14px; }
+@media (min-width: 1200px) {
+.experimental-content { padding-right: 32px; }
+}
+@media (max-width: 991px) {
+.experimental-sidebar { margin-top: 28px; }
+.experimental-sidebar .well { border-left: 0; border-top: 1px solid #bfcbdb; padding: 28px 0 0; }
+}
+@media (max-width: 767px) {
+.experimental { font-size: 16px; }
+.experimental-main { padding: 80px 22px 36px; }
+.experimental .page-header h1 { font-size: 36px; }
+.experimental .navbar-brand { height: 50px; }
+.experimental .navbar-nav > li > a { padding-top: 10px; padding-bottom: 10px; }
+.experimental-content > p:first-of-type { font-size: 18px; }
+.research-figures { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 18px; padding: 20px; }
+.research-figures a { height: 115px; }
+.research-figures a:last-child { grid-column: 1 / -1; width: 42%; justify-self: center; }
+}

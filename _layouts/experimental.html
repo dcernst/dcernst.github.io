@@ -1,0 +1,18 @@
+{% capture experimental_header %}{% include header.html %}{% endcapture %}
+{{ experimental_header | replace: '<body>', '<body class="experimental">' }}
+
+<main class="container experimental-main">
+<header class="page-header">
+<h1>{{ page.title }}</h1>
+</header>
+<div class="row">
+<div class="col-xs-12 col-sm-12 col-md-8 col-lg-9 experimental-content">
+{{ content }}
+</div>
+<aside class="col-xs-12 col-sm-12 col-md-4 col-lg-3 experimental-sidebar" aria-label="About Dana Ernst">
+{% include sidebar.html %}
+</aside>
+</div>
+</main>
+
+{% include footer.html %}
