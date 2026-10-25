@@ -24,7 +24,7 @@ font-size: 14px;
 .experimental .navbar-nav > li > a { padding-top: 20px; padding-bottom: 20px; }
 .experimental .navbar-brand { height: 60px; }
 .experimental .dropdown-menu { font-size: 14px; }
-.experimental-main { padding-top: 100px; padding-bottom: 56px; }
+.experimental-main { padding-top: 132px; padding-bottom: 56px; }
 .experimental .page-header { margin: 0 0 30px; padding-top: 20px; padding-bottom: 28px; border-color: #bfcbdb; }
 .experimental .page-header h1 { margin: 0; font-size: 42px; letter-spacing: -.035em; }
 .experimental .breadcrumb { padding: 0; margin-bottom: 20px; background: transparent; font-size: 13px; }
@@ -61,7 +61,7 @@ border-radius: 4px;
 }
 @media (max-width: 767px) {
 .experimental { font-size: 16px; }
-.experimental-main { padding: 80px 22px 36px; }
+.experimental-main { padding: 112px 22px 36px; }
 .experimental .page-header h1 { font-size: 36px; }
 .experimental .navbar-brand { height: 50px; }
 .experimental .navbar-nav > li > a { padding-top: 10px; padding-bottom: 10px; }
