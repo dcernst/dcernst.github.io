@@ -92,7 +92,7 @@ line-height: inherit;
 .site-refresh blockquote { margin: 24px 0; }
 .site-refresh blockquote > :last-child { margin-bottom: 0; }
 
-/* Course navigation uses IBM palette tints for readable dark labels. */
+/* Course navigation matches the banner tilings: 85% IBM color, 15% white. */
 .site-refresh .course-nav > .btn {
 font-family: inherit;
 font-weight: 600;
@@ -102,10 +102,10 @@ background-color: var(--course-tint);
 border-color: var(--course-color);
 text-shadow: none;
 }
-.course-nav > .btn-success { --course-color: #648fff; --course-tint: #c9d8ff; }
-.course-nav > .btn-primary { --course-color: #ffb000; --course-tint: #ffe3a6; }
-.course-nav > .btn-warning { --course-color: #dc267f; --course-tint: #f3b3d2; }
-.course-nav > .btn-info { --course-color: #785ef0; --course-tint: #d0c7fa; }
+.course-nav > .btn-success { --course-color: #785ef0; --course-tint: #8c76f2; }
+.course-nav > .btn-primary { --course-color: #fe6100; --course-tint: #fe7926; }
+.course-nav > .btn-warning { --course-color: #648fff; --course-tint: #7ba0ff; }
+.course-nav > .btn-info { --course-color: #dc267f; --course-tint: #e14792; }
 .site-refresh .course-nav > .btn:hover,
 .site-refresh .course-nav > .btn:focus {
 color: #1d2531;
