@@ -91,3 +91,30 @@ line-height: inherit;
 }
 .site-refresh blockquote { margin: 24px 0; }
 .site-refresh blockquote > :last-child { margin-bottom: 0; }
+
+/* Course navigation uses IBM palette tints for readable dark labels. */
+.site-refresh .course-nav > .btn {
+font-family: inherit;
+font-weight: 600;
+color: #1d2531;
+background-image: none;
+background-color: var(--course-tint);
+border-color: var(--course-color);
+text-shadow: none;
+}
+.course-nav > .btn-success { --course-color: #648fff; --course-tint: #c9d8ff; }
+.course-nav > .btn-primary { --course-color: #ffb000; --course-tint: #ffe3a6; }
+.course-nav > .btn-warning { --course-color: #dc267f; --course-tint: #f3b3d2; }
+.course-nav > .btn-info { --course-color: #785ef0; --course-tint: #d0c7fa; }
+.site-refresh .course-nav > .btn:hover,
+.site-refresh .course-nav > .btn:focus {
+color: #1d2531;
+background-color: var(--course-tint);
+box-shadow: inset 0 0 0 2px var(--course-color);
+}
+.site-refresh .course-nav > .btn:focus-visible {
+position: relative;
+z-index: 3;
+outline: 2px solid #1d2531;
+outline-offset: 2px;
+}
