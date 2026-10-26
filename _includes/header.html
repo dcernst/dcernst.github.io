@@ -58,8 +58,9 @@
 
 </head>
 
-<body class="site-refresh">
+<body class="site-refresh{% if include.standalone %} standalone-page{% endif %}">
 
+{% unless include.standalone %}
 <!-- Fixed navbar -->
 <div class="navbar navbar-default navbar-fixed-top" role="navigation">
 <div class="container">
@@ -138,3 +139,4 @@
 </div><!--/.nav-collapse -->
 </div>
 </div>
+{% endunless %}
