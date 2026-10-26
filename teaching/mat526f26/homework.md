@@ -52,3 +52,4 @@ I reserve the right to modify an assignment if the need arises.
 - **Homework 19:** Complete Problems 3.48, 4.9, 4.10 and digest the surrounding text along the way. (Due Monday, October 19)
 - **Homework 20:** Complete Problems 4.11-4.13 and digest the surrounding text along the way. (Due Wednesday, October 21)
 - **Homework 21:** Complete Problems 4.14-4.17 and digest the surrounding text along the way. (Due Monday, October 26)
+- **Homework 22:** Complete Problems 4.18-4.22 and digest the surrounding text along the way. (Due Wednesday, October 28)
