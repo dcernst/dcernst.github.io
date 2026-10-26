@@ -25,15 +25,14 @@ font-size: 14px;
 .experimental .navbar-brand { height: 60px; }
 .experimental .dropdown-menu { font-size: 14px; }
 .experimental .experimental-main { padding-top: 132px; padding-bottom: 56px; }
-.experimental .page-header { margin: 0 0 30px; padding-top: 20px; padding-bottom: 28px; border-color: #bfcbdb; }
-.experimental .page-header h1 { margin: 0; font-size: 42px; letter-spacing: -.035em; }
-.experimental .breadcrumb { padding: 0; margin-bottom: 20px; background: transparent; font-size: 13px; }
+.experimental .experimental-divider { margin: 24px 0; border: 0; border-top: 1px solid #bfcbdb; }
+.experimental .breadcrumb { padding: 0; margin: 0 0 20px; background: transparent; font-size: 13px; }
 .experimental .breadcrumb > li + li::before { color: #65748a; }
 .experimental-content > p { margin-bottom: 22px; }
 .experimental-content address { padding-left: 20px; border-left: 3px solid #bfcbdb; }
 /* Full-width figure strip above both Bootstrap columns. */
 .research-banner {
-margin: 0 0 30px;
+margin: 0;
 padding: 24px 20px;
 background: #f4f7fb;
 border: 1px solid #bfcbdb;
@@ -63,7 +62,6 @@ height: auto;
 @media (max-width: 767px) {
 .experimental { font-size: 16px; }
 .experimental .experimental-main { padding: 112px 22px 36px; }
-.experimental .page-header h1 { font-size: 36px; }
 .experimental .navbar-brand { height: 50px; }
 .experimental .navbar-nav > li > a { padding-top: 10px; padding-bottom: 10px; }
 .research-banner { padding: 18px 14px; }

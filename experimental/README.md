@@ -2,7 +2,7 @@
 
 Preview at `/experimental/`. The original homepage is unchanged. This prototype uses the existing Bootstrap navigation and responsive content/sidebar columns, with a separate stylesheet and layout.
 
-`index.md` retains the homepage text. The banner appears before the page heading and spans both columns. Its rounded container matches the sidebar (`#f4f7fb` background, `1px solid #bfcbdb` border, `8px` radius). On mobile the figure row scrolls horizontally rather than shrinking labels to unreadable sizes.
+`index.md` retains the homepage text. The banner spans both columns. A horizontal divider has 24 px of space above and below it, separating the banner from the content and sidebar. Its rounded container matches the sidebar (`#f4f7fb` background, `1px solid #bfcbdb` border, `8px` radius). On mobile the figure row scrolls horizontally rather than shrinking labels to unreadable sizes.
 
 ## Banner workflow
 
