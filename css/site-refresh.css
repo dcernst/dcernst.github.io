@@ -68,7 +68,7 @@ height: auto;
 .research-banner img { width: 900px; max-width: none; }
 }
 
-.site-refresh .page-header { margin: 0 0 24px; padding: 0 0 16px; border-color: #bfcbdb; }
+.site-refresh .page-header { margin: 0 0 24px; padding: 0 0 16px; border: 0; }
 .site-refresh .page-header h1 { margin: 0; font-size: 36px; }
 .site-refresh .ai-mathematics { max-width: none; padding: 0; font-family: inherit; }
 .site-refresh .ai-mathematics h1,
@@ -78,3 +78,5 @@ height: auto;
 @media (max-width: 767px) {
 .site-refresh .page-header h1 { font-size: 30px; }
 }
+
+.site-refresh .ai-mathematics__masthead { border-bottom: 0; }
