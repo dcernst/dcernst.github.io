@@ -1,0 +1,80 @@
+/* Shared site design; Bootstrap supplies the grid and navigation. */
+body.site-refresh {
+background: #e5ecf4;
+color: #1d2531;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+font-size: 17px;
+line-height: 1.65;
+margin: 0;
+}
+.site-refresh h1, .site-refresh h2, .site-refresh h3, .site-refresh h4 {
+font-family: inherit;
+color: #1d2531;
+font-weight: 600;
+line-height: 1.2;
+}
+.site-refresh a { color: #3f5fa8; }
+.site-refresh a:hover, .site-refresh a:focus { color: #2d4681; }
+.site-refresh a:focus-visible { outline: 2px solid #3f5fa8; outline-offset: 4px; }
+.site-refresh .navbar {
+background: #f4f7fb;
+border-bottom: 1px solid #bfcbdb;
+font-size: 14px;
+}
+.site-refresh .navbar-nav > li > a { padding-top: 20px; padding-bottom: 20px; }
+.site-refresh .navbar-brand { height: 60px; }
+.site-refresh .dropdown-menu { font-size: 14px; }
+.site-refresh .site-main { padding-top: 132px; padding-bottom: 56px; }
+.site-refresh .site-divider { margin: 24px 0; border: 0; border-top: 1px solid #bfcbdb; }
+.site-refresh .breadcrumb { padding: 0; margin: 0 0 20px; background: transparent; font-size: 13px; }
+.site-refresh .breadcrumb > li + li::before { color: #65748a; }
+.site-content > p { margin-bottom: 22px; }
+.site-content address { padding-left: 20px; border-left: 3px solid #bfcbdb; }
+/* Full-width figure strip above both Bootstrap columns. */
+.research-banner {
+margin: 0;
+padding: 24px 20px;
+background: #f4f7fb;
+border: 1px solid #bfcbdb;
+border-radius: 8px;
+overflow-x: auto;
+}
+.research-banner img {
+display: block;
+width: 100%;
+height: auto;
+}
+.research-banner:focus-visible { outline: 2px solid #3f5fa8; outline-offset: 4px; }
+.site-sidebar .well { padding: 20px; background: #f4f7fb; border: 1px solid #bfcbdb; border-radius: 8px; }
+.site-sidebar h1 { font-size: 25px; letter-spacing: -.025em; }
+.site-sidebar .lead { font-size: 16px; color: #55606f; }
+.site-sidebar p { font-size: 14px; line-height: 1.65; }
+.site-sidebar h4 { font-size: 17px; }
+.site-sidebar center { text-align: left; }
+.site-sidebar .img-rounded { margin-top: 18px; border-radius: 4px; }
+.site-refresh .footer { position: static; height: auto; border-top: 1px solid #bfcbdb; background: #f4f7fb; font-size: 14px; }
+@media (min-width: 1200px) {
+.site-content { padding-right: 32px; }
+}
+@media (max-width: 991px) {
+.site-sidebar { margin-top: 28px; }
+}
+@media (max-width: 767px) {
+.site-refresh { font-size: 16px; }
+.site-refresh .site-main { padding: 112px 22px 36px; }
+.site-refresh .navbar-brand { height: 50px; }
+.site-refresh .navbar-nav > li > a { padding-top: 10px; padding-bottom: 10px; }
+.research-banner { padding: 18px 14px; }
+.research-banner img { width: 900px; max-width: none; }
+}
+
+.site-refresh .page-header { margin: 0 0 24px; padding: 0 0 16px; border-color: #bfcbdb; }
+.site-refresh .page-header h1 { margin: 0; font-size: 36px; }
+.site-refresh .ai-mathematics { max-width: none; padding: 0; font-family: inherit; }
+.site-refresh .ai-mathematics h1,
+.site-refresh .ai-mathematics h2,
+.site-refresh .ai-mathematics h3 { font-family: inherit; }
+.site-refresh .recipe-page { max-width: none; }
+@media (max-width: 767px) {
+.site-refresh .page-header h1 { font-size: 30px; }
+}

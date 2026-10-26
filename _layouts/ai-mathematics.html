@@ -1,6 +1,11 @@
 {% include header.html %}
 
-<main class="ai-mathematics">
+<main class="container site-main">
+{% include research-banner.html %}
+<hr class="site-divider">
+<div class="row">
+<div class="col-xs-12 col-sm-12 col-md-8 col-lg-9 site-content">
+<div class="ai-mathematics">
 <header class="ai-mathematics__masthead">
 <h1>{{ page.title }}</h1>
 <p class="ai-mathematics__subtitle">{{ page.subtitle | default: "A weekly digest of AI-related developments in mathematical research, teaching, and learning." }}</p>
@@ -20,6 +25,12 @@
 <div class="ai-mathematics__note">
 <strong>Coverage and access.</strong> Only freely accessible material is summarized here. Some entries cover a freely available abstract rather than a full article; these are explicitly labeled, and the full article may require a subscription. This collection is selective, not exhaustive. Paywalls and other access restrictions can limit coverage, and sources that cannot be adequately verified are omitted pending review.
 </div>
+</div>
+</div>
+</div>
+<aside class="col-xs-12 col-sm-12 col-md-4 col-lg-3 site-sidebar" aria-label="About Dana Ernst">
+{% include sidebar.html %}
+</aside>
 </div>
 </main>
 

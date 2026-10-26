@@ -30,3 +30,7 @@ plugins:
   - jekyll-feed
   - jekyll-paginate
   - jekyll-seo-tag
+
+# Repository documentation is not a public page.
+exclude:
+  - SITE-DESIGN.md

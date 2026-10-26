@@ -1,27 +1,19 @@
 {% include header.html %}
 
-<!-- Begin page content -->
-<div class="container">
-
-<div class="page-header">
-<h1>{{ page.title }}</h1>
-</div>
-
+<main class="container site-main">
+{% include research-banner.html %}
+<hr class="site-divider">
 <div class="row">
-<div class="col-xs-12 col-sm-12 col-md-8 col-lg-9">
+<div class="col-xs-12 col-sm-12 col-md-8 col-lg-9 site-content">
+{% unless page.url == '/' %}
+<header class="page-header"><h1>{{ page.title }}</h1></header>
+{% endunless %}
 {{ content }}
 </div>
-
-<div class="visible-xs visible-sm">
-<p><br />
-</p>
-</div>
-
-<div class="col-xs-12 col-sm-12 col-md-4 col-lg-3">
+<aside class="col-xs-12 col-sm-12 col-md-4 col-lg-3 site-sidebar" aria-label="About Dana Ernst">
 {% include sidebar.html %}
+</aside>
 </div>
-
-</div>
-</div>
+</main>
 
 {% include footer.html %}
