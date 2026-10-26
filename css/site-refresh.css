@@ -80,3 +80,17 @@ height: auto;
 }
 
 .site-refresh .ai-mathematics__masthead { border-bottom: 0; }
+
+/* Quotes and AI/mathematics notices share the same treatment. */
+.site-refresh blockquote,
+.site-refresh .ai-mathematics__note {
+padding: 15px 18px;
+border: 0;
+border-left: 4px solid #3f5fa8;
+background: rgba(255, 255, 255, .35);
+font-family: inherit;
+font-size: 16px;
+line-height: inherit;
+}
+.site-refresh blockquote { margin: 24px 0; }
+.site-refresh blockquote > :last-child { margin-bottom: 0; }
