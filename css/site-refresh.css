@@ -37,14 +37,12 @@ padding: 24px 20px;
 background: #f4f7fb;
 border: 1px solid #bfcbdb;
 border-radius: 8px;
-overflow-x: auto;
 }
 .research-banner img {
 display: block;
 width: 100%;
 height: auto;
 }
-.research-banner:focus-visible { outline: 2px solid #3f5fa8; outline-offset: 4px; }
 .site-sidebar .well { padding: 20px; background: #f4f7fb; border: 1px solid #bfcbdb; border-radius: 8px; }
 .site-sidebar h1 { font-size: 25px; letter-spacing: -.025em; }
 .site-sidebar .lead { font-size: 16px; color: #55606f; }
@@ -64,8 +62,7 @@ height: auto;
 .site-refresh .site-main { padding: 112px 22px 36px; }
 .site-refresh .navbar-brand { height: 50px; }
 .site-refresh .navbar-nav > li > a { padding-top: 10px; padding-bottom: 10px; }
-.research-banner { padding: 18px 14px; }
-.research-banner img { width: 900px; max-width: none; }
+.research-banner { padding: 12px 8px; }
 }
 
 .site-refresh .page-header { margin: 0 0 24px; padding: 0 0 16px; border: 0; }
