@@ -2,7 +2,7 @@
 
 The site uses `css/site-refresh.css`, `_includes/research-banner.html`, and `images/research-banner.svg`. The banner appears in every shared page layout. Regular pages, blog posts, and AI/mathematics pages share the responsive content/sidebar layout. Page titles sit below the banner divider; the homepage has no visible title. AI/mathematics metadata and navigation and recipe search are preserved.
 
-The old experimental URL redirects to the homepage. Diagram source files, previews, and generator scripts were moved to `~/Desktop/Website-diagram-experiments-2026-10-25`. Its `MOVED-README.md` explains how to update the banner after moving that folder to Dropbox.
+The old experimental page has been removed. Diagram source files, previews, and generator scripts were moved to `~/Desktop/Website-diagram-experiments-2026-10-25`. Its `MOVED-README.md` explains how to update the banner after moving that folder to Dropbox.
 
 ## Previous version
 
