@@ -15,6 +15,7 @@ Below is a list of talks and presentations that I have given over the past sever
 
 <!-- In particular, you can find the collection of my recent slides on [Speaker Deck](https://speakerdeck.com/dcernst). -->
 
+- Discussion of AI in Mathematics. [NAU Mathematics and Statistics Colloquium](https://naumathstat.github.io/seminars/colloquium/), NAU, Flagstaff, AZ. October 2026. [[Slides](https://danaernst.com/talks/AIDiscussion.pdf)]
 - My experience teaching at Epsilon Camp. [NAU Mathematics and Statistics Teaching Seminar](http://naumathstat.github.io/seminars/teaching/), NAU, Flagstaff, AZ. October 2026.
 - When are two things equal? [Math on Tap](https://naumathstat.github.io/seminars/MathOnTap/), Mother Road Brewery, Flagstaff, AZ. September 2026. [[Slides](https://danaernst.com/talks/MathOnTap260902.pdf)]
 - My academic journey. Parent talk at [Epsilon Camp](https://www.epsiloncamp.org), Logan, UT. July 2026.
