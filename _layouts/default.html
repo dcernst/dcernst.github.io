@@ -19,6 +19,7 @@
 {% assign page_content = page_content | replace: 'class="btn-group btn-group-justified"', 'class="btn-group btn-group-justified course-nav"' %}
 {% endif %}
 {{ page_content }}
+{% include favorite-quote.html %}
 </div>
 <aside class="col-xs-12 col-sm-12 col-md-4 col-lg-3 site-sidebar" aria-label="About Dana Ernst">
 {% include sidebar.html %}

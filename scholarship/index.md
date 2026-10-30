@@ -1,4 +1,5 @@
 ---
+favorite_quote: quote_3
 title: Scholarship
 author: Dana Ernst
 layout: default

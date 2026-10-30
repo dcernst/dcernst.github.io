@@ -1,4 +1,5 @@
 ---
+favorite_quote: quote_29
 title: Academic Writing
 author: Dana Ernst
 layout: default

@@ -1,4 +1,5 @@
 ---
+favorite_quote: quote_49
 layout: default
 title: Welcome
 ---

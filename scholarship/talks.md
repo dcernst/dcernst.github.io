@@ -1,4 +1,5 @@
 ---
+favorite_quote: quote_4
 title: Talks
 author: Dana Ernst
 layout: default

@@ -1,4 +1,5 @@
 ---
+favorite_quote: quote_6
 title: "Letters of Recommendation&#58; A Guide for Students"
 author: Dana Ernst
 layout: default

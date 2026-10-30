@@ -1,4 +1,5 @@
 ---
+favorite_quote: quote_42
 title: Quick LaTeX Guide
 author: Dana Ernst
 layout: default

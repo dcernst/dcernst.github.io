@@ -1,4 +1,5 @@
 ---
+favorite_quote: quote_10
 title: Potential Summer 2014 REU Project
 author: Dana Ernst
 layout: default

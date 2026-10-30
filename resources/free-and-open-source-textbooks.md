@@ -1,4 +1,5 @@
 ---
+favorite_quote: quote_35
 title: Free and Open-Source Textbooks
 author: Dana Ernst
 layout: default

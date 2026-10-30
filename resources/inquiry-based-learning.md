@@ -1,4 +1,5 @@
 ---
+favorite_quote: quote_18
 title: Inquiry-Based Learning
 author: Dana Ernst
 layout: default

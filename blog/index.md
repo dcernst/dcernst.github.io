@@ -1,4 +1,5 @@
 ---
+favorite_quote: quote_33
 layout: default
 title: Blogging
 ---
