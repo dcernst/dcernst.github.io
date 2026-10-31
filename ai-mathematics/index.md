@@ -6,6 +6,13 @@ extra_css: /css/ai-mathematics.css
 
 <article class="ai-mathematics__item">
 <span class="ai-mathematics__tag">Weekly digest</span>
+<h3><a href="{{ site.baseurl }}/ai-mathematics/2026-10-31/">25–31 October 2026</a></h3>
+<p class="ai-mathematics__meta">Formal verification, research governance, assessment, and human understanding</p>
+<p>Eight items, including a reported Lean formalization, contrasting approaches to AI research releases, a grading study, student motivation, and an embedded Steven Strogatz conversation. The Academy for the Mathematical Sciences’ statement joins the advocacy collection.</p>
+</article>
+
+<article class="ai-mathematics__item">
+<span class="ai-mathematics__tag">Weekly digest</span>
 <h3><a href="{{ site.baseurl }}/ai-mathematics/2026-10-24/">18–24 October 2026</a></h3>
 <p class="ai-mathematics__meta">Research, professional standards, student formation, and teaching</p>
 <p>Six items on understanding AI-generated proofs, collaborative research, support for young mathematicians, learning, and exposition, including an embedded Grant Sanderson lecture and a professional-society statement added to the advocacy collection.</p>
