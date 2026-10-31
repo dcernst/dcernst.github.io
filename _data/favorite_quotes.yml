@@ -1,0 +1,44 @@
+# Quotes from Quotes.xlsx: all favorites, plus a mathematics quote to avoid repeats.
+# IDs preserve source row numbers; quote_35 is the non-favorite supplement.
+quote_3:
+  text: "The mathematician does not study pure mathematics because it is useful; he studies it because he delights in it, and he delights in it because it is beautiful."
+  attribution: "Henri Poincaré, mathematician & physicist"
+quote_4:
+  text: "Mathematics, rightly viewed, possesses not only truth, but supreme beauty—a beauty cold and austere, like that of sculpture, without appeal to any part of our weaker nature, without the gorgeous trappings of painting or music, yet sublimely pure, and capable of a stern perfection such as only the greatest art can show. The true spirit of delight, the exaltation, the sense of being more than Man, which is the touchstone of the highest excellence, is to be found in mathematics as surely as poetry."
+  attribution: "Bertrand Russell, philosopher & mathematician"
+quote_6:
+  text: "Don’t fear failure. Not failure, but low aim, is the crime. In great attempts it is glorious even to fail."
+  attribution: "Bruce Lee, martial artist & actor"
+quote_7:
+  text: "Don’t just read it; fight it! Ask your own questions, look for your own examples, discover your own proofs. Is the hypothesis necessary? Is the converse true? What happens in the classical special case? What about the degenerate cases? Where does the proof use the hypothesis?"
+  attribution: "Paul Halmos, mathematician"
+quote_8:
+  text: "Our greatest glory is not in never falling, but in rising every time we fall."
+  attribution: "Confucius, philosopher"
+quote_10:
+  text: "Time spent thinking about a problem is always time well spent. Even if you seem to make no progress at all."
+  attribution: "Paul Zeitz, mathematician"
+quote_16:
+  text: "In mathematics the art of proposing a question must be held of higher value than solving it."
+  attribution: "Georg Cantor, mathematician"
+quote_18:
+  text: "The master has failed more times than the beginner has even tried."
+  attribution: "Stephen McCranie, author & illustrator"
+quote_29:
+  text: "A mathematician, like a painter or a poet, is a maker of patterns. If his patterns are more permanent than theirs, it is because they are made with ideas."
+  attribution: "G.H. Hardy, mathematician"
+quote_31:
+  text: "Getting better is not pretty. To get good we have to be down to struggle, seek out challenges, make some mistakes, to train ugly."
+  attribution: "Trevor Ragan, thelearnerlab.com"
+quote_33:
+  text: "The impediment to action advances action. What stands in the way becomes the way."
+  attribution: "Marcus Aurelius, Roman emperor"
+quote_42:
+  text: "The obstacle is the path."
+  attribution: "Zen saying, Author Unknown"
+quote_49:
+  text: "If you want to sharpen a sword, you have to remove a little metal."
+  attribution: "Author Unknown"
+quote_35:
+  text: "Mathematics has beauty and romance. It’s not a boring place to be, the mathematical world. It’s an extraordinary place; it’s worth spending time there."
+  attribution: "Marcus du Sautoy, mathematician"

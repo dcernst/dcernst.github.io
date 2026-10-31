@@ -1,4 +1,5 @@
 ---
+favorite_quote: quote_16
 title: Undergraduate Research
 author: Dana Ernst
 layout: default

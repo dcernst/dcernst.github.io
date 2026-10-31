@@ -1,4 +1,5 @@
 ---
+favorite_quote: quote_31
 title: Teaching Resources
 author: Dana Ernst
 layout: default

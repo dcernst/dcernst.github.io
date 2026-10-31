@@ -1,0 +1,9 @@
+{% if page.favorite_quote %}
+{% assign favorite_quote = site.data.favorite_quotes[page.favorite_quote] %}
+{% if favorite_quote %}
+<blockquote class="page-favorite-quote">
+<p>{{ favorite_quote.text | escape }}</p>
+<footer>{{ favorite_quote.attribution | escape }}</footer>
+</blockquote>
+{% endif %}
+{% endif %}

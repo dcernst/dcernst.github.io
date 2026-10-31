@@ -1,4 +1,5 @@
 ---
+favorite_quote: quote_7
 layout: default
 title: Introduction to Proof via Inquiry-Based Learning
 ---
