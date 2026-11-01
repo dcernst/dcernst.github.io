@@ -20,7 +20,7 @@ Inside, you’ll find student achievements, faculty research, outreach events, a
 Here’s a short unboxing video from yours truly:
 
 <div style="display: flex; justify-content: center; margin: 24px 0;">
-<blockquote class="instagram-media" data-instgrm-captioned data-instgrm-permalink="https://www.instagram.com/reel/DfAVyJlt9kn/" data-instgrm-version="14">
+<blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/reel/DfAVyJlt9kn/" data-instgrm-version="14">
 <a href="https://www.instagram.com/reel/DfAVyJlt9kn/">Watch the newsletter introduction on Instagram.</a>
 </blockquote>
 </div>
