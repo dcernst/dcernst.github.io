@@ -19,9 +19,11 @@ Inside, you’ll find student achievements, faculty research, outreach events, a
 
 Here’s a short unboxing video from yours truly:
 
+<div style="display: flex; justify-content: center; margin: 24px 0;">
 <blockquote class="instagram-media" data-instgrm-captioned data-instgrm-permalink="https://www.instagram.com/reel/DfAVyJlt9kn/" data-instgrm-version="14">
 <a href="https://www.instagram.com/reel/DfAVyJlt9kn/">Watch the newsletter introduction on Instagram.</a>
 </blockquote>
+</div>
 <script async src="https://www.instagram.com/embed.js"></script>
 
 We printed just a handful of copies, but the full digital edition is available for everyone:
