@@ -3048,6 +3048,53 @@ permalink: /ernst-recipes/
 <hr />
 
 <details class="recipe-item">
+<summary><h2>Delicious Swedish cinnamon buns</h2></summary>
+
+<p>Link to recipe <a href="https://swedishspoon.com/cinnamon-buns/">here</a>.</p>
+
+<dl>
+<dt>Yield</dt>
+<dd>About 45 buns</dd>
+</dl>
+
+<h3>Ingredients</h3>
+
+<h4>Dough</h4>
+
+<ul>
+<li>5 dl (2 cups) milk</li>
+<li>50g (1.7 oz) fresh yeast</li>
+<li>1 tsp salt</li>
+<li>1 dl (2/5 cup) sugar</li>
+<li>2 tsp freshly ground cardamom (can be omitted)</li>
+<li>About 14 dl (about 5 1/2 cups) flour, preferably strong flour (possibly somewhat more)</li>
+<li>150g (2/3 cups) butter, room temperature</li>
+</ul>
+
+<h4>Filling</h4>
+
+<ul>
+<li>200g (7/8 cup) butter, room temperature</li>
+<li>1 1/2 dl (3/5 cup) sugar</li>
+<li>3–4 tbsp cinnamon</li>
+<li>Optional: vanilla sugar or cardamom</li>
+</ul>
+
+<h4>Decoration</h4>
+
+<ul>
+<li>1 egg</li>
+<li>Pearl sugar or chopped almonds</li>
+<li>Optional sugar syrup: 1 dl (2/5 cups) sugar, 1 dl (2/5 cups) water, and 1/4 tsp vanilla powder</li>
+</ul>
+
+<p>Directions are available at the linked source.</p>
+
+</details>
+
+<hr />
+
+<details class="recipe-item">
 <summary><h2>Dinner Rolls</h2></summary>
 
 <p>Link to recipe <a href="https://www.kyleecooks.com/30-minute-dinner-rolls/">here</a>.</p>
