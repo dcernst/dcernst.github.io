@@ -8,7 +8,7 @@ extra_css: /css/ai-mathematics.css
 <span class="ai-mathematics__tag">Weekly digest</span>
 <h3><a href="{{ site.baseurl }}/ai-mathematics/2026-10-31/">25–31 October 2026</a></h3>
 <p class="ai-mathematics__meta">Formal verification, research governance, assessment, and human understanding</p>
-<p>Nine items, including a reported Lean formalization, contrasting approaches to AI research releases, a grading study, student motivation, and embedded videos featuring Steven Strogatz and Lauren Williams on First Proof. The Academy for the Mathematical Sciences’ statement joins the advocacy collection.</p>
+<p>Ten items, including a reported Lean formalization, contrasting approaches to AI research releases, concerns about access to research tools and knowledge, a grading study, student motivation, and embedded videos featuring Steven Strogatz and Lauren Williams on First Proof. The Academy for the Mathematical Sciences’ statement joins the advocacy collection.</p>
 </article>
 
 <article class="ai-mathematics__item">
