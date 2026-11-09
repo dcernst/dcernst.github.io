@@ -6,6 +6,13 @@ extra_css: /css/ai-mathematics.css
 
 <article class="ai-mathematics__item">
 <span class="ai-mathematics__tag">Weekly digest</span>
+<h3><a href="{{ site.baseurl }}/ai-mathematics/2026-11-07/">1–7 November 2026</a></h3>
+<p class="ai-mathematics__meta">Research evaluation, mathematical purpose, doctoral advising, and teaching</p>
+<p>Five items on adapting professional incentives, the value of understanding, doctoral support, and careful evaluation of technology in mathematics education, including an embedded Numberphile conversation with Daniel Litt.</p>
+</article>
+
+<article class="ai-mathematics__item">
+<span class="ai-mathematics__tag">Weekly digest</span>
 <h3><a href="{{ site.baseurl }}/ai-mathematics/2026-10-31/">25–31 October 2026</a></h3>
 <p class="ai-mathematics__meta">Formal verification, research governance, assessment, and human understanding</p>
 <p>Ten items, including a reported Lean formalization, contrasting approaches to AI research releases, concerns about access to research tools and knowledge, a grading study, student motivation, and embedded videos featuring Steven Strogatz and Lauren Williams on First Proof. The Academy for the Mathematical Sciences’ statement joins the advocacy collection.</p>
