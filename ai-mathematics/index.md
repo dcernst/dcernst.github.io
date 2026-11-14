@@ -6,6 +6,13 @@ extra_css: /css/ai-mathematics.css
 
 <article class="ai-mathematics__item">
 <span class="ai-mathematics__tag">Weekly digest</span>
+<h3><a href="{{ site.baseurl }}/ai-mathematics/2026-11-14/">8–14 November 2026</a></h3>
+<p class="ai-mathematics__meta">Formal verification, undergraduate education, and research review</p>
+<p>Five items on autoformalization, the scope of a quantum-computing result, undergraduate curriculum proposals, early-career perspectives, and a new forum for reviewing AI-generated mathematics.</p>
+</article>
+
+<article class="ai-mathematics__item">
+<span class="ai-mathematics__tag">Weekly digest</span>
 <h3><a href="{{ site.baseurl }}/ai-mathematics/2026-11-07/">1–7 November 2026</a></h3>
 <p class="ai-mathematics__meta">Research evaluation, mathematical purpose, doctoral advising, and teaching</p>
 <p>Six items on simplifying AI-generated proofs, adapting professional incentives, the value of understanding, doctoral support, and careful evaluation of technology in mathematics education, including an embedded Numberphile conversation with Daniel Litt.</p>
