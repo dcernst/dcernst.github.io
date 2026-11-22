@@ -6,6 +6,13 @@ extra_css: /css/ai-mathematics.css
 
 <article class="ai-mathematics__item">
 <span class="ai-mathematics__tag">Weekly digest</span>
+<h3><a href="{{ site.baseurl }}/ai-mathematics/2026-11-21/">15–21 November 2026</a></h3>
+<p class="ai-mathematics__meta">Proof verification, research responsibility, and teacher preparation</p>
+<p>Six items on scrutiny of major proof announcements, AI-assisted elliptic-curve searches, mathematical understanding, teacher development, and professional debate, including an embedded Numberphile video on Yang–Mills.</p>
+</article>
+
+<article class="ai-mathematics__item">
+<span class="ai-mathematics__tag">Weekly digest</span>
 <h3><a href="{{ site.baseurl }}/ai-mathematics/2026-11-14/">8–14 November 2026</a></h3>
 <p class="ai-mathematics__meta">Formal verification, undergraduate education, and research review</p>
 <p>Five items on autoformalization, the scope of a quantum-computing result, undergraduate curriculum proposals, early-career perspectives, and a new forum for reviewing AI-generated mathematics.</p>
