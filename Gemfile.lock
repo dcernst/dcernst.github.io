@@ -57,14 +57,14 @@ GEM
     ffi (1.17.4-x86_64-linux-musl)
     forwardable-extended (2.6.0)
     gemoji (4.1.0)
-    github-pages (232)
+    github-pages (233)
       github-pages-health-check (= 1.18.2)
       jekyll (= 3.10.0)
       jekyll-avatar (= 0.8.0)
       jekyll-coffeescript (= 1.2.2)
       jekyll-commonmark-ghpages (= 0.5.1)
       jekyll-default-layout (= 0.1.5)
-      jekyll-feed (= 0.17.0)
+      jekyll-feed (= 0.18.0)
       jekyll-gist (= 1.5.0)
       jekyll-github-metadata (= 2.16.1)
       jekyll-include-cache (= 0.2.1)
@@ -72,11 +72,11 @@ GEM
       jekyll-optional-front-matter (= 0.3.2)
       jekyll-paginate (= 1.1.0)
       jekyll-readme-index (= 0.3.0)
-      jekyll-redirect-from (= 0.16.0)
+      jekyll-redirect-from (= 0.17.0)
       jekyll-relative-links (= 0.6.1)
-      jekyll-remote-theme (= 0.4.3)
+      jekyll-remote-theme (= 0.6.2)
       jekyll-sass-converter (= 1.5.2)
-      jekyll-seo-tag (= 2.8.0)
+      jekyll-seo-tag (= 2.9.1)
       jekyll-sitemap (= 1.4.0)
       jekyll-swiss (= 1.0.0)
       jekyll-theme-architect (= 0.2.0)
@@ -144,7 +144,7 @@ GEM
       rouge (>= 2.0, < 5.0)
     jekyll-default-layout (0.1.5)
       jekyll (>= 3.0, < 5.0)
-    jekyll-feed (0.17.0)
+    jekyll-feed (0.18.0)
       jekyll (>= 3.7, < 5.0)
     jekyll-gist (1.5.0)
       octokit (~> 4.2)
@@ -161,18 +161,19 @@ GEM
     jekyll-paginate (1.1.0)
     jekyll-readme-index (0.3.0)
       jekyll (>= 3.0, < 5.0)
-    jekyll-redirect-from (0.16.0)
+    jekyll-redirect-from (0.17.0)
       jekyll (>= 3.3, < 5.0)
     jekyll-relative-links (0.6.1)
       jekyll (>= 3.3, < 5.0)
-    jekyll-remote-theme (0.4.3)
+    jekyll-remote-theme (0.6.2)
       addressable (~> 2.0)
       jekyll (>= 3.5, < 5.0)
-      jekyll-sass-converter (>= 1.0, <= 3.0.0, != 2.0.0)
-      rubyzip (>= 1.3.0, < 3.0)
+      jekyll-sass-converter (>= 1.0, < 4.0, != 2.0.0)
+      openssl (>= 3.1.2)
+      rubyzip (>= 1.3.0, < 4.0)
     jekyll-sass-converter (1.5.2)
       sass (~> 3.4)
-    jekyll-seo-tag (2.8.0)
+    jekyll-seo-tag (2.9.1)
       jekyll (>= 3.8, < 5.0)
     jekyll-sitemap (1.4.0)
       jekyll (>= 3.7, < 5.0)
@@ -269,6 +270,7 @@ GEM
     octokit (4.25.1)
       faraday (>= 1, < 3)
       sawyer (~> 0.9)
+    openssl (4.0.2)
     pathutil (0.16.2)
       forwardable-extended (~> 2.6)
     prism (2.1.0)
@@ -287,7 +289,7 @@ GEM
       ffi (~> 1.0)
     rexml (3.4.4)
     rouge (3.30.0)
-    rubyzip (2.4.1)
+    rubyzip (3.4.0)
     safe_yaml (1.0.5)
     sass (3.7.4)
       sass-listen (~> 4.0.0)
@@ -321,7 +323,7 @@ PLATFORMS
   x86_64-linux-musl
 
 DEPENDENCIES
-  github-pages (= 232)
+  github-pages (= 233)
   jekyll-seo-tag
 
 CHECKSUMS
@@ -355,7 +357,7 @@ CHECKSUMS
   ffi (1.17.4-x86_64-linux-musl) sha256=3fdf9888483de005f8ef8d1cf2d3b20d86626af206cbf780f6a6a12439a9c49e
   forwardable-extended (2.6.0) sha256=1bec948c469bbddfadeb3bd90eb8c85f6e627a412a3e852acfd7eaedbac3ec97
   gemoji (4.1.0) sha256=734434020cbe964ea9d19086798797a47d23a170892de0ce55b74aa65d2ddc1a
-  github-pages (232) sha256=2b40493d7327627e4ce45c47f4a9d4394e5eaa151f9d29bb924ff424c3132287
+  github-pages (233) sha256=9634a77e0f8311fd33f06921f44794b8511ecd5da5b72dcc39ab048d1a4f9201
   github-pages-health-check (1.18.2) sha256=df893d4f5a4161477e8525b993dbe1c1eb63fbb86fb07b6e80996fd37a18843d
   html-pipeline (2.14.3) sha256=8a1d4d7128b2141913387cac0f8ba898bb6812557001acc0c2b46910f59413a0
   http_parser.rb (0.8.1) sha256=9ae8df145b39aa5398b2f90090d651c67bd8e2ebfe4507c966579f641e11097a
@@ -366,7 +368,7 @@ CHECKSUMS
   jekyll-commonmark (1.4.0) sha256=1731e658fe09ce040271e6878f83ad45bbf8d17b10ad03bf343546cca30f4844
   jekyll-commonmark-ghpages (0.5.1) sha256=d56722f23393e45625e6e1bac6d3c64bb5f5cdf6ca547338160536d61c27a4a4
   jekyll-default-layout (0.1.5) sha256=c626be4e4a5deafca123539da2cd22ff873be350cafd4da134039efdf24320af
-  jekyll-feed (0.17.0) sha256=689aab16c877949bb9e7a5c436de6278318a51ecb974792232fd94d8b3acfcc3
+  jekyll-feed (0.18.0) sha256=8e6829f455b8764a8fa1bbb198d0ebb3525128dacc6ffe9d15f4df7388bc3647
   jekyll-gist (1.5.0) sha256=495b6483552a3e2975a2752964ea7acddd545bc6e13ce2be15a50cec8d4c9f0f
   jekyll-github-metadata (2.16.1) sha256=4cf29988bdaf24774a7bc07fae71e54424ddfaa2895f742d8fa3036d0db65b4c
   jekyll-include-cache (0.2.1) sha256=c7d4b9e551732a27442cb2ce853ba36a2f69c66603694b8c1184c99ab1a1a205
@@ -374,11 +376,11 @@ CHECKSUMS
   jekyll-optional-front-matter (0.3.2) sha256=ecdc061d711472469fcf04da617653b553e914c038a17df3b6a5f6f92aeb761b
   jekyll-paginate (1.1.0) sha256=880aadf4b02529a93541d508c5cbb744f014cbfc071d0263a31f25ec9066eb64
   jekyll-readme-index (0.3.0) sha256=d74cc4de46b2d350229be7409495149e656a31fb5a5fe3fe6135dbf7435e1e32
-  jekyll-redirect-from (0.16.0) sha256=6635cae569ef9b0f90ffb71ec014ba977177fafb44d32a2b0526288d4d9be6db
+  jekyll-redirect-from (0.17.0) sha256=703dab0428b20bb5d550ab83d3c28b65bb5ecc0f734c5e61ee680de391b3e897
   jekyll-relative-links (0.6.1) sha256=d11301f57b39e94b6c04fff2a3b145fe2f6a27be631a403e2542fa2e1548dd6d
-  jekyll-remote-theme (0.4.3) sha256=d3fde726484fb3df04de9e347baf75aaa3d5bfea771a330412e0c52608e54b40
+  jekyll-remote-theme (0.6.2) sha256=f3c423c38652aaf87ecf5ee08b20812c265e8395d9d6ef91cef7f49033263afa
   jekyll-sass-converter (1.5.2) sha256=53773669e414dc3bb070113befacb808576025a28cfa4a4accc682e90a9c1101
-  jekyll-seo-tag (2.8.0) sha256=3f2ed1916d56f14ebfa38e24acde9b7c946df70cb183af2cb5f0598f21ae6818
+  jekyll-seo-tag (2.9.1) sha256=ed5c757a091048b6ef9109f856f84a29beaeb70f531ba5775a5e92129a28093e
   jekyll-sitemap (1.4.0) sha256=0de08c5debc185ea5a8f980e1025c7cd3f8e0c35c8b6ef592f15c46235cf4218
   jekyll-swiss (1.0.0) sha256=c299a855dca881fe868f21545c5489be50ddfbc0d54a80e8dbeb5a2ddc4888a3
   jekyll-theme-architect (0.2.0) sha256=7275d3dcaa6b34fcf92f2fe5cee92d49d66706d3b523003b1e67e9c668ff0440
@@ -418,6 +420,7 @@ CHECKSUMS
   nokogiri (1.19.5-x86_64-linux-gnu) sha256=2a32516e91fd53aa32bb281a1edbbd1b9b8440a14f43b1f22035ca504ad46091
   nokogiri (1.19.5-x86_64-linux-musl) sha256=6c55a0c8ecb376ed19f248cf248841cc5bf41d94b3256a45af8da80fb1b24114
   octokit (4.25.1) sha256=c02092ee82dcdfe84db0e0ea630a70d32becc54245a4f0bacfd21c010df09b96
+  openssl (4.0.2) sha256=1037ad2868ae58df9ad917891c0c0f9815a1172f6846d4bcdd508e4c2ee747c2
   pathutil (0.16.2) sha256=e43b74365631cab4f6d5e4228f812927efc9cb2c71e62976edcb252ee948d589
   prism (2.1.0) sha256=1c0a7c6dea0e93183390fb123f007564dbe663198e2f86ad87204151147601f3
   prism (2.1.0-aarch64-linux-gnu) sha256=808dddc72def68e1a0463689414c97e0ba211938eddbab05387a4844aa2b3ec2
@@ -434,7 +437,7 @@ CHECKSUMS
   rb-inotify (0.11.1) sha256=a0a700441239b0ff18eb65e3866236cd78613d6b9f78fea1f9ac47a85e47be6e
   rexml (3.4.4) sha256=19e0a2c3425dfbf2d4fc1189747bdb2f849b6c5e74180401b15734bc97b5d142
   rouge (3.30.0) sha256=a3d353222aa72e49e2c86726c0bcfd719f82592f57d494474655f48e669eceb6
-  rubyzip (2.4.1) sha256=8577c88edc1fde8935eb91064c5cb1aef9ad5494b940cf19c775ee833e075615
+  rubyzip (3.4.0) sha256=6de39bc9eba302b635a476d16c9e16b0872ad24517c2f98f2b3a7ea23caff57b
   safe_yaml (1.0.5) sha256=a6ac2d64b7eb027bdeeca1851fe7e7af0d668e133e8a88066a0c6f7087d9f848
   sass (3.7.4) sha256=808b0d39053aa69068df939e24671fe84fd5a9d3314486e1a1457d0934a4255d
   sass-listen (4.0.0) sha256=ae9dcb76dd3e234329e5ba6e213f48e532c5a3e7b0b4d8a87f13aaca0cc18377
